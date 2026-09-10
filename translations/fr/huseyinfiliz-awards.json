@@ -86,7 +86,7 @@
                 "approve_confirm": "Créer un nouveau nominé ? L'utilisateur votera automatiquement pour lui.",
                 "reject_confirm": "Rejeter cette suggestion ?",
                 "merge_title": "Fusionner la suggestion",
-                "merge_info": "Fusionner « {nom} » avec un nominé existant. Le vote de l'utilisateur sera pris en compte pour ce nominé.",
+                "merge_info": "Fusionner « {name} » avec un nominé existant. Le vote de l'utilisateur sera pris en compte pour ce nominé.",
                 "select_nominee_label": "Sélectionner le nominé",
                 "select_nominee_placeholder": "-- Sélectionner un nominé --",
                 "no_nominees": "Il n'y a aucun nominé dans cette catégorie pouvant être fusionné."
@@ -133,7 +133,7 @@
                 "voting_closed": "Le vote est clos",
                 "ended": "Le vote est terminé",
                 "ends_in_days": "Le vote se termine dans {days} jours",
-                "ends_in_hours": "Le vote se termine dans {heures} heures",
+                "ends_in_hours": "Le vote se termine dans {hours} heures",
                 "ends_soon": "Le vote se termine bientôt",
                 "vote_saved": "Votre vote a été enregistré !",
                 "vote_removed": "Votre vote a été supprimé."
@@ -143,7 +143,7 @@
                 "summary": "Vous avez voté dans {voted}/{total} catégories",
                 "total_votes": "{count} votes au total",
                 "last_vote": "Dernier vote : {time}",
-                "votes_used": "{utilisé}/{limite} votes utilisés",
+                "votes_used": "{used}/{limit} votes utilisés",
                 "votes_unlimited": "{count} votes",
                 "change": "Modifier",
                 "remove": "Supprimer",
@@ -159,7 +159,7 @@
                 "next": "Suivant"
             },
             "hero": {
-                "countdown": "Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s",
+                "countdown": "Le vote se termine dans : {days}j {hours}h {minutes}m {seconds}s",
                 "voting_ended": "Le vote est terminé",
                 "results_published": "Résultats publiés",
                 "draft_preview": "Aperçu du brouillon",
