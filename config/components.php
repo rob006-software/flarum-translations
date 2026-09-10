@@ -1008,7 +1008,7 @@ return [
 		],
 	],
 	'stezkoy-time-of-magic' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-time-of-magic/1.4.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-time-of-magic/v1.5.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
