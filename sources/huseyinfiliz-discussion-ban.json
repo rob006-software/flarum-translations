@@ -6,21 +6,38 @@
             },
             "settings": {
                 "show_in_discussion_controls": "Show \"Ban from discussion\" in discussion controls",
+                "show_in_discussion_sidebar": "Show \"Discussion Ban\" button in discussion sidebar",
                 "show_in_post_controls": "Show \"Ban from discussion\" in post controls",
-                "hide_discussions_from_banned": "Hide discussions completely from banned users (404 behavior)"
+                "hide_discussions_from_banned": "Hide discussions completely from banned users (404 behavior)",
+                "send_notifications": "Send notifications when a user is banned or unbanned from a discussion"
             }
         },
         "forum": {
+            "discussion_page": {
+                "ban_button": "Discussion Ban"
+            },
             "discussion_controls": {
+                "ban_button": "Discussion Ban",
                 "ban_from_discussion": "Ban from discussion"
             },
             "post_controls": {
                 "ban_from_discussion": "Ban from discussion",
                 "unban_from_discussion": "Unban from discussion"
             },
+            "post": {
+                "hidden_by_ban": "Hidden due to discussion ban"
+            },
+            "notifications": {
+                "discussion_banned_text": "{username} banned you from {title}",
+                "discussion_unbanned_text": "{username} unbanned you from {title}"
+            },
+            "settings": {
+                "notify_discussion_banned_label": "Someone bans me from a discussion",
+                "notify_discussion_unbanned_label": "Someone unbans me from a discussion"
+            },
             "modal": {
                 "title": "Discussion Ban",
-                "tab_ban": "Ban User",
+                "tab_ban": "New Ban",
                 "tab_list": "Banned Users ({count})",
                 "select_user": "Select User",
                 "search_placeholder": "Search by username or display name...",

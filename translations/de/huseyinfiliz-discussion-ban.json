@@ -6,17 +6,34 @@
             },
             "settings": {
                 "show_in_discussion_controls": "„Aus Diskussion ausschließen“ in Diskussionsoptionen anzeigen",
+                "show_in_discussion_sidebar": "",
                 "show_in_post_controls": "„Aus Diskussion ausschließen“ in Beitragsoptionen anzeigen",
-                "hide_discussions_from_banned": "Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)"
+                "hide_discussions_from_banned": "Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)",
+                "send_notifications": ""
             }
         },
         "forum": {
+            "discussion_page": {
+                "ban_button": ""
+            },
             "discussion_controls": {
+                "ban_button": "",
                 "ban_from_discussion": "Aus Diskussion ausschließen"
             },
             "post_controls": {
                 "ban_from_discussion": "Aus Diskussion ausschließen",
                 "unban_from_discussion": "Ausschluss aus der Diskussion aufheben"
+            },
+            "post": {
+                "hidden_by_ban": ""
+            },
+            "notifications": {
+                "discussion_banned_text": "",
+                "discussion_unbanned_text": ""
+            },
+            "settings": {
+                "notify_discussion_banned_label": "",
+                "notify_discussion_unbanned_label": ""
             },
             "modal": {
                 "title": "Diskussionsausschluss",

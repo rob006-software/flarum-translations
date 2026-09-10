@@ -6,17 +6,34 @@
             },
             "settings": {
                 "show_in_discussion_controls": "",
+                "show_in_discussion_sidebar": "",
                 "show_in_post_controls": "",
-                "hide_discussions_from_banned": ""
+                "hide_discussions_from_banned": "",
+                "send_notifications": ""
             }
         },
         "forum": {
+            "discussion_page": {
+                "ban_button": ""
+            },
             "discussion_controls": {
+                "ban_button": "",
                 "ban_from_discussion": ""
             },
             "post_controls": {
                 "ban_from_discussion": "",
                 "unban_from_discussion": ""
+            },
+            "post": {
+                "hidden_by_ban": ""
+            },
+            "notifications": {
+                "discussion_banned_text": "",
+                "discussion_unbanned_text": ""
+            },
+            "settings": {
+                "notify_discussion_banned_label": "",
+                "notify_discussion_unbanned_label": ""
             },
             "modal": {
                 "title": "",
