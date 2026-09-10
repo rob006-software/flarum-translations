@@ -183,7 +183,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-maintenance' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.4/resources/locale/en.yml',
 	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.0/resources/locale/en.yml',
