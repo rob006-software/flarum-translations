@@ -49,6 +49,22 @@
                 "limit_label": "",
                 "limit_help": ""
             },
+            "reports": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "show_resolved": "",
+                "hide_resolved": "",
+                "resolve": "",
+                "reopen": "",
+                "article_gone": "",
+                "deleted_user": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": ""
+            },
             "categories": {
                 "heading": "Wiki-Kategorien",
                 "intro": "Erstelle und organisiere die Kategorien, unter denen Artikel abgelegt werden können.",
@@ -144,6 +160,8 @@
                 "related_heading": "",
                 "by": "von ",
                 "last_edited": "zuletzt bearbeitet von ",
+                "last_edited_tooltip": "",
+                "created_tooltip": "",
                 "history": "Änderungsverlauf ({count})",
                 "no_history": "Noch keine Überarbeitungen.",
                 "load_more_history": "Ältere Überarbeitungen laden",
@@ -154,12 +172,27 @@
                 "diff_none": "Keine inhaltlichen Änderungen."
             },
             "action": {
+                "report": "",
                 "edit": "Bearbeiten",
                 "delete": "Löschen",
                 "restore": "Wiederherstellen",
                 "delete_forever": "Für immer löschen",
                 "save_changes": "Änderungen speichern",
                 "cancel": "Abbrechen"
+            },
+            "report": {
+                "title": "",
+                "intro": "",
+                "reason_label": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": "",
+                "detail_label": "",
+                "submit": "",
+                "sent": "",
+                "failed": ""
             },
             "comments": {
                 "heading": "Kommentare ({count})",
@@ -202,6 +235,7 @@
             "slug_taken": "Ein anderer Artikel verwendet bereits diesen URL-Slug.",
             "faq_too_many": "Ein Artikel kann maximal {max} FAQ-Einträge enthalten.",
             "article_required": "Ein Artikel ist erforderlich.",
+            "report_already_open": "",
             "article_not_found": "Artikel nicht gefunden.",
             "comment_required": "Kommentarinhalt ist erforderlich.",
             "comment_soft_delete_first": "Ein Kommentar muss erst gelöscht werden, bevor er endgültig entfernt werden kann."

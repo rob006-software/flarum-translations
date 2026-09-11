@@ -49,6 +49,22 @@
                 "limit_label": "显示数量",
                 "limit_help": "设置最多显示多少篇相关文章，可设置为 1 至 20。"
             },
+            "reports": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "show_resolved": "",
+                "hide_resolved": "",
+                "resolve": "",
+                "reopen": "",
+                "article_gone": "",
+                "deleted_user": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": ""
+            },
             "categories": {
                 "heading": "Wiki 分类",
                 "intro": "创建和整理文章所属的分类。",
@@ -144,6 +160,8 @@
                 "related_heading": "相关文章",
                 "by": "作者： ",
                 "last_edited": "最后编辑： ",
+                "last_edited_tooltip": "",
+                "created_tooltip": "",
                 "history": "修订历史（{count}）",
                 "no_history": "暂无修订记录。",
                 "load_more_history": "加载更早的修订记录",
@@ -154,12 +172,27 @@
                 "diff_none": "内容无变化。"
             },
             "action": {
+                "report": "",
                 "edit": "编辑",
                 "delete": "删除",
                 "restore": "恢复",
                 "delete_forever": "永久删除",
                 "save_changes": "保存更改",
                 "cancel": "取消"
+            },
+            "report": {
+                "title": "",
+                "intro": "",
+                "reason_label": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": "",
+                "detail_label": "",
+                "submit": "",
+                "sent": "",
+                "failed": ""
             },
             "comments": {
                 "heading": "评论（{count}）",
@@ -202,6 +235,7 @@
             "slug_taken": "已有其他文章使用此固定链接名。",
             "faq_too_many": "每篇文章最多可添加 {max} 条常见问题。",
             "article_required": "必须指定文章。",
+            "report_already_open": "",
             "article_not_found": "未找到文章。",
             "comment_required": "必须填写评论内容。",
             "comment_soft_delete_first": "评论必须先删除，才能永久移除。"

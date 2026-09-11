@@ -49,6 +49,22 @@
                 "limit_label": "How many to show",
                 "limit_help": "At most this many related articles, between 1 and 20."
             },
+            "reports": {
+                "heading": "Reports",
+                "intro": "Articles readers have flagged for an editor to look at. Resolving one keeps it here as history rather than deleting it.",
+                "empty": "Nothing reported.",
+                "show_resolved": "Show resolved",
+                "hide_resolved": "Hide resolved",
+                "resolve": "Resolve",
+                "reopen": "Reopen",
+                "article_gone": "Article deleted",
+                "deleted_user": "Deleted account",
+                "reason_inaccurate": "Inaccurate",
+                "reason_outdated": "Out of date",
+                "reason_off_topic": "Does not belong",
+                "reason_duplicate": "Duplicate",
+                "reason_other": "Something else"
+            },
             "categories": {
                 "heading": "Wiki categories",
                 "intro": "Create and organize the categories articles can be filed under.",
@@ -144,6 +160,8 @@
                 "related_heading": "Related articles",
                 "by": "by ",
                 "last_edited": "last edited by ",
+                "last_edited_tooltip": "Last edited by {name} on {date}",
+                "created_tooltip": "Written on {date}",
                 "history": "History ({count})",
                 "no_history": "No revisions yet.",
                 "load_more_history": "Load older revisions",
@@ -154,12 +172,27 @@
                 "diff_none": "No content changes."
             },
             "action": {
+                "report": "Report",
                 "edit": "Edit",
                 "delete": "Delete",
                 "restore": "Restore",
                 "delete_forever": "Delete forever",
                 "save_changes": "Save changes",
                 "cancel": "Cancel"
+            },
+            "report": {
+                "title": "Report this article",
+                "intro": "Editors will see this along with the article.",
+                "reason_label": "What is wrong with it?",
+                "reason_inaccurate": "It is inaccurate",
+                "reason_outdated": "It is out of date",
+                "reason_off_topic": "It does not belong here",
+                "reason_duplicate": "It duplicates another article",
+                "reason_other": "Something else",
+                "detail_label": "Anything to add? (optional)",
+                "submit": "Send report",
+                "sent": "Thank you. An editor will look at this.",
+                "failed": "That could not be sent. Please try again."
             },
             "comments": {
                 "heading": "Comments ({count})",
@@ -202,6 +235,7 @@
             "slug_taken": "Another article already uses that URL slug.",
             "faq_too_many": "An article can have at most {max} FAQ entries.",
             "article_required": "An article is required.",
+            "report_already_open": "You have already reported this article. An editor will look at it.",
             "article_not_found": "Article not found.",
             "comment_required": "Comment content is required.",
             "comment_soft_delete_first": "A comment must be deleted before it can be permanently removed."

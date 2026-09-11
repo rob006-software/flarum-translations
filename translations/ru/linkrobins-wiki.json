@@ -49,6 +49,22 @@
                 "limit_label": "",
                 "limit_help": ""
             },
+            "reports": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "show_resolved": "",
+                "hide_resolved": "",
+                "resolve": "",
+                "reopen": "",
+                "article_gone": "",
+                "deleted_user": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": ""
+            },
             "categories": {
                 "heading": "Категории Вики",
                 "intro": "Создать и упорядочить категории, в которые можно распределять статьи.",
@@ -144,6 +160,8 @@
                 "related_heading": "",
                 "by": "от ",
                 "last_edited": "последние правки от ",
+                "last_edited_tooltip": "",
+                "created_tooltip": "",
                 "history": "История ({count})",
                 "no_history": "Пока правок не было.",
                 "load_more_history": "Загрузить старые версии",
@@ -154,12 +172,27 @@
                 "diff_none": "Содержимое не изменено."
             },
             "action": {
+                "report": "",
                 "edit": "Редактировать",
                 "delete": "Удалить",
                 "restore": "Восстановить",
                 "delete_forever": "Удалить навсегда",
                 "save_changes": "Сохранить изменения",
                 "cancel": "Отменить"
+            },
+            "report": {
+                "title": "",
+                "intro": "",
+                "reason_label": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": "",
+                "detail_label": "",
+                "submit": "",
+                "sent": "",
+                "failed": ""
             },
             "comments": {
                 "heading": "Комментарии ({count})",
@@ -202,6 +235,7 @@
             "slug_taken": "В другой статье уже используется этот URL.",
             "faq_too_many": "В статье может быть не более {max} записей FAQ.",
             "article_required": "Требуется статья.",
+            "report_already_open": "",
             "article_not_found": "Статья не найдена.",
             "comment_required": "Комментарий должен содержать текст.",
             "comment_soft_delete_first": "Комментарий необходимо удалить, прежде чем его можно будет удалить навсегда."

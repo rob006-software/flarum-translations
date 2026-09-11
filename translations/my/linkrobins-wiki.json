@@ -49,6 +49,22 @@
                 "limit_label": "",
                 "limit_help": ""
             },
+            "reports": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "show_resolved": "",
+                "hide_resolved": "",
+                "resolve": "",
+                "reopen": "",
+                "article_gone": "",
+                "deleted_user": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": ""
+            },
             "categories": {
                 "heading": "",
                 "intro": "",
@@ -144,6 +160,8 @@
                 "related_heading": "",
                 "by": "",
                 "last_edited": "",
+                "last_edited_tooltip": "",
+                "created_tooltip": "",
                 "history": "",
                 "no_history": "",
                 "load_more_history": "",
@@ -154,12 +172,27 @@
                 "diff_none": ""
             },
             "action": {
+                "report": "",
                 "edit": "",
                 "delete": "",
                 "restore": "",
                 "delete_forever": "",
                 "save_changes": "",
                 "cancel": ""
+            },
+            "report": {
+                "title": "",
+                "intro": "",
+                "reason_label": "",
+                "reason_inaccurate": "",
+                "reason_outdated": "",
+                "reason_off_topic": "",
+                "reason_duplicate": "",
+                "reason_other": "",
+                "detail_label": "",
+                "submit": "",
+                "sent": "",
+                "failed": ""
             },
             "comments": {
                 "heading": "",
@@ -202,6 +235,7 @@
             "slug_taken": "",
             "faq_too_many": "",
             "article_required": "",
+            "report_already_open": "",
             "article_not_found": "",
             "comment_required": "",
             "comment_soft_delete_first": ""
