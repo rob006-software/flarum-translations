@@ -956,6 +956,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ernestdefoe-calendar`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar) | [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) |
+| [`ernestdefoe-cascade`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cascade) | [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) |
 | [`ernestdefoe-connect`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-connect) | [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) |
 | [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
 | [`ernestdefoe-digest-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-digest-mail) | [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) |
@@ -1095,6 +1096,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-rss`](https://weblate.rob006.net/projects/flarum2/shebaoting-rss) | [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) |
 | [`stezkoy-ai-openreply`](https://weblate.rob006.net/projects/flarum2/stezkoy-ai-openreply) | [`stezkoy/flarum-ai-openreply`](https://github.com/Stezkoy/flarum-ai-openreply) |
 | [`stezkoy-doorquest`](https://weblate.rob006.net/projects/flarum2/stezkoy-doorquest) | [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) |
+| [`stezkoy-feed2forum`](https://weblate.rob006.net/projects/flarum2/stezkoy-feed2forum) | [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) |
 | [`stezkoy-modularis`](https://weblate.rob006.net/projects/flarum2/stezkoy-modularis) | [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) |
 | [`stezkoy-pagify`](https://weblate.rob006.net/projects/flarum2/stezkoy-pagify) | [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) |
 | [`stezkoy-telegram-notify`](https://weblate.rob006.net/projects/flarum2/stezkoy-telegram-notify) | [`stezkoy/flarum-telegram-notify`](https://github.com/Stezkoy/flarum-telegram-notify) |
