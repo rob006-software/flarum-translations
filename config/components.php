@@ -1103,6 +1103,13 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ygpynet-point-system' => [
+		'tag' => 'https://raw.githubusercontent.com/ygpynet/point-system/v1.2.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt_BR',
+			'zh_Hans',
+		],
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
