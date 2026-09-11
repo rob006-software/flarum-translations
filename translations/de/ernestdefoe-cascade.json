@@ -2,49 +2,49 @@
     "ernestdefoe-cascade": {
         "forum": {
             "reactions": {
-                "thumbsup": "",
-                "heart": "",
-                "laughing": "",
-                "tada": "",
-                "confused": "",
-                "thumbsdown": ""
+                "thumbsup": "Gefällt mir",
+                "heart": "Love",
+                "laughing": "Haha",
+                "tada": "Feiern",
+                "confused": "Verwirrt",
+                "thumbsdown": "Mag ich nicht"
             },
             "composer": {
-                "placeholder": "",
-                "cannot_start": ""
+                "placeholder": "Eine Diskussion beginnen…",
+                "cannot_start": "Sie sind nicht berechtigt, eine Diskussion zu starten"
             },
             "row": {
-                "react_button": "",
-                "react_failed": "",
-                "reply_button": "",
-                "share_button": "",
-                "share_copied": "",
-                "media_more": "",
-                "view_replies": "",
-                "see_more": "",
-                "see_less": "",
-                "open_post": "",
-                "see_more_loading": "",
-                "replies_failed": ""
+                "react_button": "Reagieren",
+                "react_failed": "Deine Reaktion konnte nicht gespeichert werden. Bitte versuche es erneut.",
+                "reply_button": "Antworten",
+                "share_button": "Teilen",
+                "share_copied": "Link kopiert",
+                "media_more": "+{count}",
+                "view_replies": "{count, plural, one {# weitere Antwort anzeigen} other {Alle # Antworten anzeigen}}",
+                "see_more": "Mehr anzeigen",
+                "see_less": "Weniger anzeigen",
+                "open_post": "Diese Diskussion öffnen",
+                "see_more_loading": "Wird geladen…",
+                "replies_failed": "Antworten konnten nicht geladen werden. Bitte versuche es erneut."
             },
             "modal": {
-                "title": "",
-                "replies_title": "",
-                "no_replies": "",
-                "reply_button": "",
-                "open_full": ""
+                "title": "{username}s Beitrag",
+                "replies_title": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "no_replies": "Noch keine Antworten.",
+                "reply_button": "Schreibe eine Antwort",
+                "open_full": "Vollständige Seite anzeigen"
             },
             "rail": {
-                "trending_title": "",
-                "trending_week": "",
-                "trending_month": "",
-                "trending_all": "",
-                "trending_count": ""
+                "trending_title": "Im Trend",
+                "trending_week": "Trends in dieser Woche",
+                "trending_month": "Trends in diesem Monat",
+                "trending_all": "Meistdiskutiert",
+                "trending_count": "{count, plural, one {# Diskussion} other {# Diskussionen}}"
             }
         },
         "admin": {
             "settings": {
-                "title": ""
+                "title": "Cascade"
             }
         }
     }
