@@ -2,42 +2,42 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Signature",
+                "save": "Enregistrer la signature",
+                "edit": "Modifier la signature"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Limite maximale de caractères dépassée.",
+                "max_image_count_exceed": "Nombre maximal d'images dépassé.",
+                "save_failed": "Une erreur s'est produite lors de l'enregistrement de votre signature."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Modifiez votre signature ici"
             },
             "settings": {
-                "heading": ""
+                "heading": "Signature"
             },
             "profile": {
-                "click": ""
+                "click": "Cliquez ici pour définir votre signature"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Modifier les signatures des autres utilisateurs",
+                "allow_signature": "Peut avoir une signature"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maximum d'images insérées.",
+                    "help": "Lorsque l'utilisateur dépasse le nombre maximal d'images dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre d'images soit réduit en conséquence."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Limite maximale de caractères de la signature.",
+                    "help": "Lorsque l'utilisateur dépasse la limite maximale de caractères dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre de caractères soit réduit en conséquence."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Modification en ligne de la signature.",
+                    "help": "Lorsque cette option est activée, les utilisateurs peuvent modifier leur signature lorsqu'ils consultent un message."
                 }
             }
         }
