@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} a modifié l'étiquette"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Sélectionnez les étiquettes à suivre",
+                "modal_title": "Sélectionnez les étiquettes à suivre",
+                "later_button": "Me le rappeler plus tard",
+                "continue_button": "Continuer vers le forum"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Filtrage par défaut de la page des abonnements",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Inviter les nouveaux utilisateurs à choisir des étiquettes à suivre",
+                "prompt_new_users_help": "Les utilisateurs qui n'ont pas encore confirmé leur choix verront s'afficher une fenêtre leur demandant de suivre des étiquettes. Cette fenêtre s'affichera à chaque visite jusqu'à ce qu'ils cliquent sur « Continuer vers le forum ».\n",
+                "prompt_button_on_following_page_label": "Afficher un bouton « Choisir les étiquettes à suivre » sur la page « Abonnements »",
+                "prompt_tag_strategy_label": "Étiquettes à proposer dans l'invite",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Étiquettes primaires de premier niveau",
+                    "primaryAndChildren": "Toutes les étiquettes primaires quel que soit leur niveau",
+                    "primaryAndSecondary": "Étiquettes primaires de premier niveau et étiquettes secondaires",
+                    "secondary": "Uniquement les étiquettes secondaires",
+                    "all": "Toutes les étiquettes",
+                    "list": "Étiquettes sélectionnées ci-dessous"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Étiquettes à proposer",
+                "all_discussions_on_following_page_for_guests_label": "Afficher toutes les discussions sur la page « Abonnements » pour les invités"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
