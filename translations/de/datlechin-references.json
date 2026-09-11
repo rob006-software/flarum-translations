@@ -23,7 +23,7 @@
                 "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
                 "extract_mention_references_help": "Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.",
                 "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
-                "event_post_enabled_help": "",
+                "event_post_enabled_help": "Fügt der verwiesenen Diskussion eine Zeile hinzu, in der angegeben wird, von wo aus darauf verwiesen wurde. Aufeinanderfolgende Zeilen werden zu einer einzigen zusammengefasst.\n",
                 "max_preview_label": "",
                 "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
                 "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
@@ -33,13 +33,13 @@
                 "related_max_candidates_label": "",
                 "related_max_candidates_help": "",
                 "cache_ttl_label": "Cache-Speicherdauer (Sekunden)",
-                "cache_ttl_help": "",
+                "cache_ttl_help": "Wie lange die Liste und der Graph gespeichert bleiben, bevor sie erneut berechnet werden. Der Wert 0 deaktiviert die Zwischenspeicherung.",
                 "graph_max_depth_label": "Tiefe des Graphen",
-                "graph_max_depth_help": "",
-                "graph_max_per_hop_label": "",
+                "graph_max_depth_help": "Wie viele Schritte von einer Diskussion entfernt der Graph reicht.",
+                "graph_max_per_hop_label": "Verknüpfungen pro Schritt",
                 "graph_max_per_hop_help": "",
-                "notify_followers_label": "",
-                "notify_followers_help": "",
+                "notify_followers_label": "Auch Follower benachrichtigen",
+                "notify_followers_help": "Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.",
                 "broken_retention_days_label": "",
                 "broken_retention_days_help": ""
             },
@@ -54,11 +54,11 @@
                 "broken_label": "",
                 "manual_label": "Händisch hinzugefügt",
                 "by_origin_label": "Wie sie gefunden wurden",
-                "by_relation_label": "",
+                "by_relation_label": "Was sie sagen",
                 "export_button": "CSV exportieren",
-                "empty": "",
+                "empty": "Noch nichts aufgezeichnet.",
                 "unavailable": "",
-                "chart_label": ""
+                "chart_label": "Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}."
             },
             "origin": {
                 "url": "Eingefügter Link",
@@ -109,9 +109,9 @@
             },
             "graph": {
                 "title": "Graph der Verweise",
-                "description": "",
-                "empty": "",
-                "accessible_label": ""
+                "description": "Diskussionen, die mit dieser Diskussion und untereinander verknüpft sind.",
+                "empty": "Es gibt noch nichts darzustellen.",
+                "accessible_label": "{count, plural, one {# Diskussion} other {# Diskussionen}} und die Verknüpfungen untereinander"
             },
             "relation": {
                 "references": "",
@@ -123,7 +123,7 @@
             "manual": {
                 "add_button": "Verweis hinzufügen",
                 "title": "Verweis hinzufügen",
-                "target_label": "",
+                "target_label": "Verweist auf",
                 "target_placeholder": "Diskussions-ID",
                 "relation_label": "Beziehung",
                 "note_label": "Hinweis",
@@ -134,17 +134,17 @@
                 "referenced": "{username} verweist auf diese Diskussion"
             },
             "notifications": {
-                "discussion_referenced_text": "",
-                "post_referenced_text": ""
+                "discussion_referenced_text": "{username} verweist auf eine Diskussion, die du begonnen hast",
+                "post_referenced_text": "{username} verweist auf deinen Beitrag"
             }
         },
         "email": {
             "discussion_referenced": {
                 "subject": "Ein Verweis auf deine Diskussion wurde erstellt: {title}",
-                "body": ""
+                "body": "{username} hat auf deine Diskussion von einer anderen Diskussion verwiesen.\n\n{url}\n"
             },
             "post_referenced": {
-                "subject": "",
+                "subject": "Auf deinen Beitrag wurde verwiesen in {title}",
                 "body": ""
             }
         },
