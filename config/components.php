@@ -989,6 +989,12 @@ return [
 			'ru',
 		],
 	],
+	'stezkoy-feed2forum' => [
+		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v1.0.0-beta.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-modularis' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.8/locale/en.yml',
 		'__builtInLanguages' => [
