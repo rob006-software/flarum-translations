@@ -149,14 +149,14 @@
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "Verweise, die du händisch als Moderator hinzugefügt hast.",
+            "anonymize_description": "Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Der Verweis bleibt erhalten.",
+            "delete_description": "Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Die Verweis selbst sind Annahmen über andere Beiträge und bleiben daher erhalten."
         },
         "lib": {
             "gambits": {
                 "references": {
-                    "key": "",
+                    "key": "verweise",
                     "hint": "„12“"
                 },
                 "referenced_by": {
