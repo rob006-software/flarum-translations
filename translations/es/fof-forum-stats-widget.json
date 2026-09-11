@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Parte Decimal",
+                    "help": "El número de partes decimales a mostrar para número largos (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Publicaciones",
+                    "discussion_count": "Discusiones",
+                    "user_count": "Usuarios"
                 },
-                "title": ""
+                "title": "Estadísticas del foro"
             }
         }
     }
