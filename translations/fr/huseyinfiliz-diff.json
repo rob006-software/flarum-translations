@@ -1,45 +1,45 @@
 {
     "huseyinfiliz-diff": {
         "forum": {
-            "revisions": "",
-            "emptyText": "",
-            "editedText": "",
-            "deletedText": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}",
+            "emptyText": "Pas de révision",
+            "editedText": "=> core.forum.post.edited_text",
+            "deletedText": "(supprimé)",
             "tooltips": {
                 "mostRecent": "",
-                "originalContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
                 "sideBySide": "",
                 "inline": "",
                 "combined": "",
-                "preview": ""
+                "preview": "=> core.forum.composer.preview_tooltip"
             },
-            "optionsButton": "",
-            "deleteButton": "",
+            "optionsButton": "Options",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
             "rollbackButton": "",
             "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
+            "revertChangesButton": "Annuler les modifications",
             "confirmRollback": "",
             "confirmDelete": "",
             "rollbackErrorMessage": "",
             "deleteErrorMessage": "",
             "rollbackSuccessMessage": "",
             "deleteSuccessMessage": "",
-            "editedInfo": "",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "",
             "createdInfo": "",
             "revisionInfo": "",
             "noDiff": "",
             "differences": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
                 "sentence": ""
             },
             "previewMode": {
-                "originalContent": "",
-                "currentContent": "",
-                "revisionWithNumber": "",
+                "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
+                "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
+                "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
                 "sentence": ""
             }
         },
