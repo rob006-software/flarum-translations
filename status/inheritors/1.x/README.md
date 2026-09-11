@@ -13,9 +13,9 @@ are fully in sync and are not listed here.
 | [Croatian](hr.md) (`hr`) | 249 | 33 | 1 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 126 | 1200 | 61 |
-| [German](de.md) (`de`) | 319 | 683 | 97 |
-| [German (formal)](de@formal.md) (`de@formal`) | 367 | 683 | 99 |
+| [French](fr.md) (`fr`) | 127 | 782 | 59 |
+| [German](de.md) (`de`) | 318 | 577 | 92 |
+| [German (formal)](de@formal.md) (`de@formal`) | 366 | 577 | 94 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |

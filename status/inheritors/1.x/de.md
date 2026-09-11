@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **319** are translated differently and **683** are
-translated only in `de`. Altogether they cover **97** components.
+sides, but do not match between them: **318** are translated differently and **577** are
+translated only in `de`. Altogether they cover **92** components.
 
 <!-- {% raw %} -->
 
@@ -29,7 +29,6 @@ translated only in `de`. Altogether they cover **97** components.
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
-| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
 | `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
@@ -54,7 +53,6 @@ translated only in `de`. Altogether they cover **97** components.
 | `fof-move-posts` | [2](#fof-move-posts) | 0 |
 | `fof-oauth` | [3](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
-| `fof-pwa` | 0 | [2](#fof-pwa-missing) |
 | `fof-reactions` | [3](#fof-reactions) | 0 |
 | `fof-seo` | [3](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
@@ -66,10 +64,8 @@ translated only in `de`. Altogether they cover **97** components.
 | `fof-user-directory` | [3](#fof-user-directory) | 0 |
 | `fof-username-request` | [8](#fof-username-request) | 0 |
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
-| `forumaker-magicbb` | [3](#forumaker-magicbb) | [19](#forumaker-magicbb-missing) |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [3](#forumaker-magicslider) | 0 |
-| `forumfortress-flarum` | 0 | [74](#forumfortress-flarum-missing) |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
@@ -82,14 +78,13 @@ translated only in `de`. Altogether they cover **97** components.
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
-| `linkrobins-birdseye` | [3](#linkrobins-birdseye) | [2](#linkrobins-birdseye-missing) |
+| `linkrobins-birdseye` | [5](#linkrobins-birdseye) | 0 |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
 | `migratetoflarum-fake-data` | [1](#migratetoflarum-fake-data) | 0 |
 | `peopleinside-antiflood` | 0 | [18](#peopleinside-antiflood-missing) |
 | `peopleinside-fla-powcaptcha` | 0 | [17](#peopleinside-fla-powcaptcha-missing) |
-| `pianotell-flamoji` | 0 | [7](#pianotell-flamoji-missing) |
 | `quasimo-carousel-grids` | 0 | [23](#quasimo-carousel-grids-missing) |
 | `quasimo-llms-txt` | 0 | [18](#quasimo-llms-txt-missing) |
 | `quasimo-tag-sidebar` | 0 | [23](#quasimo-tag-sidebar-missing) |
@@ -2427,40 +2422,6 @@ Zutreffende <del>Themen</del><ins>Tags</ins> einschliessen — Für Webhooks, di
 <del>Bestimme</del><ins>Gib</ins> <del>ein</del><ins>eine</ins> Zahl<ins> an,</ins> um <del>die</del><ins>den</ins> <del>Länge</del><ins>Inhalt</ins> von Beiträgen in allen Beitrags-bezogenen Ereignissen zu limitieren. Um das Limit zu entfernen, <del>gebe</del><ins>gib</ins> 0 oder nichts ein.
 
 
-### `forumaker-magicbb`
-
-#### [`forumaker-magicbb.admin.settings.bb_image`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_image%22)
-
-> Image alignment
-
-```diff
--FoF Upload
-+Bildausrichtung
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_image_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_image_help%22)
-
-> Wraps images and other inline media in an alignment container. Centered media is scaled to 60% of the post width, side-aligned — up to 40%
-
-```diff
--Fügt dem Editor eine neue Schaltfläche für die Bildausrichtung hinzu. Große, zentrierte Bilder werden automatisch auf 60 % der Beitragsbreite verkleinert, seitlich ausgerichtete Bilder auf bis zu 40 %.
-+Schließt Bilder und andere Inline-Medien in einen Ausrichtungscontainer ein. Zentrierte Medien werden auf 60 % der Beitragsbreite skaliert, seitlich ausgerichtete Medien auf bis zu 40 %.
-```
-
-<del>Fügt dem Editor</del><ins>Schließt</ins> <del>eine</del><ins>Bilder</ins> <del>neue</del><ins>und</ins> <del>Schaltfläche</del><ins>andere</ins> <del>für</del><ins>Inline-Medien</ins> <del>die</del><ins>in</ins> <del>Bildausrichtung</del><ins>einen</ins> <del>hinzu.</del><ins>Ausrichtungscontainer</ins> <del>Große,</del><ins>ein.</ins> <del>zentrierte</del><ins>Zentrierte</ins> <del>Bilder</del><ins>Medien</ins> werden<del> automatisch</del> auf 60 % der Beitragsbreite <del>verkleinert,</del><ins>skaliert,</ins> seitlich ausgerichtete <del>Bilder</del><ins>Medien</ins> auf bis zu 40 %.
-
-#### [`forumaker-magicbb.forum.composer.image_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.image_button%22)
-
-> Align image
-
-```diff
--Bild hinzufügen
-+Bild ausrichten
-```
-
-Bild <del>hinzufügen</del><ins>ausrichten</ins>
-
-
 ### `forumaker-magicslider`
 
 #### [`forumaker-magicslider.admin.settings.autoplay_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicslider/de/?q=context%3A%3D%22forumaker-magicslider.admin.settings.autoplay_help%22)
@@ -3128,6 +3089,28 @@ Titel für <del>"Verwandte</del><ins>„Verwandte</ins> <del>Diskussionen"</del>
 
 
 ### `linkrobins-birdseye`
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
+
+> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
+
+```diff
+-Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, wie etwa der kostenlosen GeoLite2-Country.mmdb (Download über dein eigenes Konto bei maxmind.com). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land liefert; jede Abfrage erfolgt auf diesem Server.
++Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.
+```
+
+Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, <del>wie etwa</del><ins>beispielsweise</ins> der kostenlosen <del>GeoLite2-Country.mmdb</del><ins>Datei</ins> <del>(Download</del><ins>„GeoLite2-Country.mmdb“</ins> <del>über</del><ins>(die</ins> <del>dein</del><ins>du</ins> <del>eigenes</del><ins>unter deinem eigenen</ins> Konto <del>bei</del><ins>von</ins> <del>maxmind.com).</del><ins>maxmind.com herunterladen kannst).</ins> Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land <del>liefert;</del><ins>angibt;</ins> jede <del>Abfrage</del><ins>Auflösung</ins> erfolgt<ins> lokal</ins> auf diesem Server.
+
+#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
+
+> Country database file (optional)
+
+```diff
+-Datei für Länderdatenbank (optional)
++Datei mit Länderdatenbank (optional)
+```
+
+Datei <del>für</del><ins>mit</ins> Länderdatenbank (optional)
 
 #### [`linkrobins-birdseye.forum.session_menu.analytics_button`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.forum.session_menu.analytics_button%22)
 
@@ -4657,199 +4640,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 ```
 
 
-### `flectar-turnstile` (missing)
-
-#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstile.required%22)
-
-> Please complete the Turnstile challenge.
-
-```diff
-+Bitte die Turnstile-Prüfung abschließen.
-```
-
-#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/de/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
-
-> Please complete the Turnstile challenge.
-
-```diff
-+Bitte die Turnstile-Prüfung abschließen.
-```
-
-
-### `fof-pwa` (missing)
-
-#### [`fof-pwa.admin.pwa.other.share_buttons_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_label%22)
-
-> Enable share buttons
-
-```diff
-+Schaltflächen „Teilen“ hinzufügen
-```
-
-#### [`fof-pwa.admin.pwa.other.share_buttons_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/de/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_text%22)
-
-> If enabled, a "Share" button will be added to discussions, posts, and users.
-
-```diff
-+Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.
-```
-
-
-### `forumaker-magicbb` (missing)
-
-#### [`forumaker-magicbb.admin.permissions.bypass_like`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.permissions.bypass_like%22)
-
-> Bypass like requirement
-
-```diff
-+Like-Anforderung umgehen
-```
-
-#### [`forumaker-magicbb.admin.permissions.bypass_reply`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.permissions.bypass_reply%22)
-
-> Bypass reply requirement
-
-```diff
-+Antwort-Anforderung umgehen
-```
-
-#### [`forumaker-magicbb.admin.sections.hide`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.sections.hide%22)
-
-> Hide buttons
-
-```diff
-+Schaltflächen ausblenden
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_anchor`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_anchor%22)
-
-> Anchor &amp; Jump
-
-```diff
-+Anchor & Sprunglinks
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_anchor_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_anchor_help%22)
-
-> Named scroll targets and jump links within a post
-
-```diff
-+Benannte Scroll-Ziele und Sprunglinks innerhalb eines Beitrags
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_like`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_like%22)
-
-> Like
-
-```diff
-+Like
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_like_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_like_help%22)
-
-> Content is hidden until the user likes the post
-
-```diff
-+Der Inhalt ist so lange verborgen bis der Benutzer den Beitrag liked
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_login`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_login%22)
-
-> Login
-
-```diff
-+Anmeldung
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_login_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_login_help%22)
-
-> Content is hidden from guests and visible to all logged-in users
-
-```diff
-+Der Inhalt ist für Gäste verborgen und für alle angemeldeten Benutzer sichtbar
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_reply`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_reply%22)
-
-> Reply
-
-```diff
-+Antwort
-```
-
-#### [`forumaker-magicbb.admin.settings.bb_hide_reply_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.admin.settings.bb_hide_reply_help%22)
-
-> Content is hidden until the user replies in the discussion
-
-```diff
-+Der Inhalt ist so lange verborgen bis der Benutzer in der Diskussion antwortet
-```
-
-#### [`forumaker-magicbb.forum.composer.anchor_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.anchor_button%22)
-
-> Add anchor
-
-```diff
-+Anchor hinzufügen
-```
-
-#### [`forumaker-magicbb.forum.composer.hide_like_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.hide_like_button%22)
-
-> Hidden — like required
-
-```diff
-+Verborgen — Like erforderlich
-```
-
-#### [`forumaker-magicbb.forum.composer.hide_login_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.hide_login_button%22)
-
-> Hidden — login required
-
-```diff
-+Verborgen — Anmeldung erforderlich
-```
-
-#### [`forumaker-magicbb.forum.composer.hide_reply_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.hide_reply_button%22)
-
-> Hidden — reply required
-
-```diff
-+Verborgen — Antwort erforderlich
-```
-
-#### [`forumaker-magicbb.forum.composer.jump_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.composer.jump_button%22)
-
-> Add jump link
-
-```diff
-+Sprunglink hinzufügen
-```
-
-#### [`forumaker-magicbb.forum.hide.like_to_see_simple`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.hide.like_to_see_simple%22)
-
-> Like this post to see this content
-
-```diff
-+Vergib einen Like an diesen Beitrag, um diesen Inhalt anzuzeigen
-```
-
-#### [`forumaker-magicbb.forum.hide.login_to_see_simple`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.hide.login_to_see_simple%22)
-
-> Log in to see this content
-
-```diff
-+Melde dich an, um diesen Inhalt anzuzeigen
-```
-
-#### [`forumaker-magicbb.forum.hide.reply_to_see_simple`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/de/?q=context%3A%3D%22forumaker-magicbb.forum.hide.reply_to_see_simple%22)
-
-> Reply in this discussion to see this content
-
-```diff
-+Antworte in dieser Diskussion, um diesen Inhalt anzuzeigen
-```
-
-
 ### `forumaker-magicread` (missing)
 
 #### [`forumaker-magicread.admin.settings.enable_counter`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/de/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_counter%22)
@@ -4994,601 +4784,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Mehr lesen
-```
-
-
-### `forumfortress-flarum` (missing)
-
-#### [`forumfortress-flarum.admin.dashboard.action_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.action_success%22)
-
-> Action completed successfully.
-
-```diff
-+Aktion erfolgreich abgeschlossen.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.active`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.active%22)
-
-> Active
-
-```diff
-+Aktiv
-```
-
-#### [`forumfortress-flarum.admin.dashboard.allowed`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.allowed%22)
-
-> allowed
-
-```diff
-+erlaubt
-```
-
-#### [`forumfortress-flarum.admin.dashboard.attack_end_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.attack_end_success%22)
-
-> Attack mode is now disabled.
-
-```diff
-+Angriffsmodus ist jetzt deaktiviert.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.attack_start_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.attack_start_success%22)
-
-> Attack mode is now enabled.
-
-```diff
-+Angriffsmodus ist jetzt aktiviert.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.automatic_selection`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.automatic_selection%22)
-
-> GeoDNS automatic routing
-
-```diff
-+Automatisches GeoDNS-Routing
-```
-
-#### [`forumfortress-flarum.admin.dashboard.blocked`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.blocked%22)
-
-> blocked
-
-```diff
-+blockiert
-```
-
-#### [`forumfortress-flarum.admin.dashboard.checking`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.checking%22)
-
-> Checking...
-
-```diff
-+Wird überprüft...
-```
-
-#### [`forumfortress-flarum.admin.dashboard.checks_this_month`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.checks_this_month%22)
-
-> Checks this month
-
-```diff
-+Prüft diesen Monat
-```
-
-#### [`forumfortress-flarum.admin.dashboard.configured`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.configured%22)
-
-> Configured
-
-```diff
-+Konfiguriert
-```
-
-#### [`forumfortress-flarum.admin.dashboard.connected`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.connected%22)
-
-> Connected
-
-```diff
-+Verbunden
-```
-
-#### [`forumfortress-flarum.admin.dashboard.connection_test`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.connection_test%22)
-
-> Connection test
-
-```diff
-+Verbindungstest
-```
-
-#### [`forumfortress-flarum.admin.dashboard.contact_support`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.contact_support%22)
-
-> Contact support
-
-```diff
-+Kundendienst kontaktieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.decisions`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.decisions%22)
-
-> Decisions
-
-```diff
-+Entscheidungen
-```
-
-#### [`forumfortress-flarum.admin.dashboard.deprovision_confirm`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_confirm%22)
-
-> Remove this forum from Forum Fortress? This cannot be undone. Other forums and paid non-trial accounts will be retained.
-
-```diff
-+Dieses Forum aus „Forum Fortress“ entfernen? Dieser Vorgang kann nicht rückgängig gemacht werden. Andere Foren und kostenpflichtige Konten (keine Testkonten) bleiben erhalten.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.deprovision_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_help%22)
-
-> Use this before removing the Composer package through Extension Manager. It removes this forum from Forum Fortress, clears local credentials, and pauses automatic bootstrap until the extension is re-enabled. Paid non-trial accounts are retained; accounts with other forums keep those forums.
-
-```diff
-+Führe diesen Vorgang durch, bevor du das Composer-Paket über den Extension Manager entfernst. Dadurch wird dieses Forum aus Forum Fortress entfernt, lokale Anmeldedaten werden gelöscht und der automatische Bootstrap-Vorgang wird angehalten, bis die Erweiterung wieder aktiviert wird. Bezahlte Nicht-Testkonten bleiben erhalten; Konten mit anderen Foren behalten diese Foren.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.deprovision_pending`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_pending%22)
-
-> Remote cleanup from a previous removal is still pending.
-
-```diff
-+Die Fernbereinigung nach einer früheren Deinstallation steht noch aus.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.deprovision_site`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_site%22)
-
-> Disconnect and remove site
-
-```diff
-+Verbindung trennen und Seite entfernen
-```
-
-#### [`forumfortress-flarum.admin.dashboard.deprovision_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.deprovision_success%22)
-
-> The Forum Fortress site was removed and automatic bootstrap is paused. Re-enable or reinstall the extension when you want to reconnect.
-
-```diff
-+Die „Forum Fortress“-Website wurde entfernt und der automatische Bootstrap-Vorgang wurde angehalten. Aktiviere die Erweiterung erneut oder installiere sie neu, wenn du die Verbindung wiederherstellen möchten.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.disconnected`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.disconnected%22)
-
-> Disconnected
-
-```diff
-+Nicht verbunden
-```
-
-#### [`forumfortress-flarum.admin.dashboard.dismiss`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.dismiss%22)
-
-> Dismiss
-
-```diff
-+Verwerfen
-```
-
-#### [`forumfortress-flarum.admin.dashboard.enable_attack_mode`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.enable_attack_mode%22)
-
-> Enable attack mode
-
-```diff
-+Angriffsmodus aktivieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.end_attack_mode`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.end_attack_mode%22)
-
-> End attack mode
-
-```diff
-+Angriffsmodus beenden
-```
-
-#### [`forumfortress-flarum.admin.dashboard.maintenance`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.maintenance%22)
-
-> Maintenance and recovery
-
-```diff
-+Wartung und Wiederherstellung
-```
-
-#### [`forumfortress-flarum.admin.dashboard.maintenance_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.maintenance_help%22)
-
-> Less common account and diagnostic actions
-
-```diff
-+Weniger häufige Konto- und Diagnosemaßnahmen
-```
-
-#### [`forumfortress-flarum.admin.dashboard.not_available`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.not_available%22)
-
-> N/A
-
-```diff
-+Nicht verfügbar
-```
-
-#### [`forumfortress-flarum.admin.dashboard.not_checked`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.not_checked%22)
-
-> Not checked
-
-```diff
-+Noch nicht geprüft
-```
-
-#### [`forumfortress-flarum.admin.dashboard.plan`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.plan%22)
-
-> Plan
-
-```diff
-+Plan
-```
-
-#### [`forumfortress-flarum.admin.dashboard.portal_login`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.portal_login%22)
-
-> Portal Login
-
-```diff
-+Portal-Anmeldung
-```
-
-#### [`forumfortress-flarum.admin.dashboard.portal_popup_blocked`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.portal_popup_blocked%22)
-
-> The browser blocked the portal window. Allow popups for this site and try again.
-
-```diff
-+Der Browser hat das Portal-Fenster blockiert. Erlaube Popups für diese Website und versuche es erneut.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.portal_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.portal_success%22)
-
-> Portal opened in a new tab.
-
-```diff
-+Das Portal wird in einem neuen Tab geöffnet.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.portal_url_missing`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.portal_url_missing%22)
-
-> Forum Fortress did not return a portal URL.
-
-```diff
-+Forum Fortress hat keine Portal-URL zurückgegeben.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.preferred_endpoint`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.preferred_endpoint%22)
-
-> GeoDNS route
-
-```diff
-+GeoDNS-Route
-```
-
-#### [`forumfortress-flarum.admin.dashboard.protection`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.protection%22)
-
-> Protection
-
-```diff
-+Schutz
-```
-
-#### [`forumfortress-flarum.admin.dashboard.refresh`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.refresh%22)
-
-> Refresh
-
-```diff
-+Aktualisieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.refresh_to_view`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.refresh_to_view%22)
-
-> Refresh to view
-
-```diff
-+Zur Anzeige aktualisieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.register_site`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.register_site%22)
-
-> Register site
-
-```diff
-+Seite registrieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.register_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.register_success%22)
-
-> Site registration completed.
-
-```diff
-+Seitenregistrierung abgeschlossen.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.registration_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.registration_help%22)
-
-> Use Register Site only when attaching this forum to an account. Normal operation bootstraps automatically, and portal registration remains available.
-
-```diff
-+Verwende „Seite registrieren“ nur, wenn du dieses Forum mit einem Konto verknüpfst. Im Normalbetrieb erfolgt die Initialisierung automatisch, und die Portalregistrierung bleibt weiterhin verfügbar.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.request_failed`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.request_failed%22)
-
-> Forum Fortress could not complete the request. Check the connection and try again.
-
-```diff
-+Forum Fortress konnte die Anfrage nicht ausführen. Überprüfe die Verbindung und versuche es erneut.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.request_timeout`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.request_timeout%22)
-
-> The request timed out before Forum Fortress responded.
-
-```diff
-+Die Anfrage lief ab, bevor Forum Fortress antwortete.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.site_id`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.site_id%22)
-
-> Site ID
-
-```diff
-+Seiten-ID
-```
-
-#### [`forumfortress-flarum.admin.dashboard.site_status`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.site_status%22)
-
-> Site status
-
-```diff
-+Seitenstatus
-```
-
-#### [`forumfortress-flarum.admin.dashboard.status_summary`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.status_summary%22)
-
-> Live connection and usage summary
-
-```diff
-+Echtzeit-Verbindung und Nutzungsübersicht
-```
-
-#### [`forumfortress-flarum.admin.dashboard.sync_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.sync_success%22)
-
-> Forum Fortress synchronization completed.
-
-```diff
-+Synchronisierung mit Forum Fortress abgeschlossen.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.synchronize_now`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.synchronize_now%22)
-
-> Synchronize now
-
-```diff
-+Jetzt synchronisieren
-```
-
-#### [`forumfortress-flarum.admin.dashboard.tagline`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.tagline%22)
-
-> Protection status, controls, and account links.
-
-```diff
-+Schutzstatus, Steuerungen und Kontenverknüpfungen.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.test_success`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.test_success%22)
-
-> Connection test completed successfully.
-
-```diff
-+Verbindungstest erfolgreich abgeschlossen.
-```
-
-#### [`forumfortress-flarum.admin.dashboard.unknown`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.unknown%22)
-
-> Unknown
-
-```diff
-+Unbekannt
-```
-
-#### [`forumfortress-flarum.admin.settings.allow_global_fallback_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_help%22)
-
-> After a regional retry fails, permit the global network. Processing may occur outside the selected region.
-
-```diff
-+Wenn ein regionaler Wiederholungsversuch fehlschlägt, aktiviere das globale Netzwerk. Die Verarbeitung kann außerhalb der ausgewählten Region erfolgen.
-```
-
-#### [`forumfortress-flarum.admin.settings.allow_global_fallback_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.allow_global_fallback_label%22)
-
-> Allow global emergency fallback
-
-```diff
-+Globales Notfall-Fallback zulassen
-```
-
-#### [`forumfortress-flarum.admin.settings.api_base_url_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_base_url_label%22)
-
-> Check API base URL
-
-```diff
-+API-Basis-URL prüfen
-```
-
-#### [`forumfortress-flarum.admin.settings.api_key_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_key_help%22)
-
-> Leave blank to bootstrap an anonymous site and receive a stable key automatically.
-
-```diff
-+Lasse das Feld leer, um eine anonyme Website zu erstellen und automatisch einen stabilen Schlüssel zu erhalten.
-```
-
-#### [`forumfortress-flarum.admin.settings.api_key_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_key_label%22)
-
-> Site API key
-
-```diff
-+Seiten-API-Schlüssel
-```
-
-#### [`forumfortress-flarum.admin.settings.api_region_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_help%22)
-
-> Lock check traffic to a region, or use the recommended global network.
-
-```diff
-+Beschränke den Datenverkehr auf eine Region oder nutze das empfohlene globale Netzwerk.
-```
-
-#### [`forumfortress-flarum.admin.settings.api_region_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_region_label%22)
-
-> API region
-
-```diff
-+API-Region
-```
-
-#### [`forumfortress-flarum.admin.settings.block_reject_action_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.block_reject_action_label%22)
-
-> BLOCK moderation action
-
-```diff
-+Moderationsaktion für BLOCK
-```
-
-#### [`forumfortress-flarum.admin.settings.block_reject_action_reject`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.block_reject_action_reject%22)
-
-> Reject content
-
-```diff
-+Inhalt ablehnen
-```
-
-#### [`forumfortress-flarum.admin.settings.block_reject_action_spam_clean`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.block_reject_action_spam_clean%22)
-
-> Spam-clean content and suspend its author
-
-```diff
-+Spam - Inhalte entfernen und den Verfasser sperren
-```
-
-#### [`forumfortress-flarum.admin.settings.controls_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.controls_label%22)
-
-> Service controls
-
-```diff
-+Dienststeuerungen
-```
-
-#### [`forumfortress-flarum.admin.settings.debug_log_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.debug_log_label%22)
-
-> Log transient API failures
-
-```diff
-+Vorübergehende API-Fehler protokollieren
-```
-
-#### [`forumfortress-flarum.admin.settings.enabled_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.enabled_help%22)
-
-> Check registrations, topics, replies, posts, and profile changes against Forum Fortress.
-
-```diff
-+Registrierungen, Diskussionen, Antworten, Beiträge und Profiländerungen mit „Forum Fortress“ gegenprüfen.
-```
-
-#### [`forumfortress-flarum.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.enabled_label%22)
-
-> Enable Forum Fortress protection
-
-```diff
-+Schutz durch Forum Fortress aktivieren
-```
-
-#### [`forumfortress-flarum.admin.settings.fail_open_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.fail_open_help%22)
-
-> Recommended for normal operation so a network outage does not lock users out.
-
-```diff
-+Wird für den Normalbetrieb empfohlen, damit die Benutzer bei einem Netzwerkausfall nicht ausgesperrt werden.
-```
-
-#### [`forumfortress-flarum.admin.settings.fail_open_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.fail_open_label%22)
-
-> Allow requests when Forum Fortress is unavailable
-
-```diff
-+Anfragen erlauben, auch wenn Forum Fortress nicht verfügbar ist
-```
-
-#### [`forumfortress-flarum.admin.settings.preferred_endpoint_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.preferred_endpoint_help%22)
-
-> Populated automatically when bootstrap selects a regional endpoint.
-
-```diff
-+Wird automatisch ausgefüllt, wenn Bootstrap einen regionalen Endpunkt auswählt.
-```
-
-#### [`forumfortress-flarum.admin.settings.preferred_endpoint_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.preferred_endpoint_label%22)
-
-> Preferred edge endpoint
-
-```diff
-+Bevorzugter Edge-Endpunkt
-```
-
-#### [`forumfortress-flarum.admin.settings.region_eu`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_eu%22)
-
-> European Union only
-
-```diff
-+Nur Europäische Union
-```
-
-#### [`forumfortress-flarum.admin.settings.region_global`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_global%22)
-
-> Global - Recommended
-
-```diff
-+Global - Empfohlen
-```
-
-#### [`forumfortress-flarum.admin.settings.region_uk`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_uk%22)
-
-> United Kingdom only
-
-```diff
-+Nur Vereinigtes Königreich
-```
-
-#### [`forumfortress-flarum.admin.settings.region_us`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.region_us%22)
-
-> United States only
-
-```diff
-+Nur Vereinigte Staaten
-```
-
-#### [`forumfortress-flarum.admin.settings.registration_email_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.registration_email_help%22)
-
-> Optional for normal operation. Set this to your account email only when using the plugin Register Site flow; portal registration does not need it.
-
-```diff
-+Für den normalen Betrieb optional. Gib hier nur die E-Mail-Adresse deines Kontos ein, wenn du den Plugin-Ablauf „Register Site“ verwendest; für die Registrierung über das Portal ist dies nicht erforderlich.
-```
-
-#### [`forumfortress-flarum.admin.settings.registration_email_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.registration_email_label%22)
-
-> Site registration email
-
-```diff
-+Zur Registrierung der Seite verwendete E-Mail
-```
-
-#### [`forumfortress-flarum.admin.settings.timeout_label`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.timeout_label%22)
-
-> Request timeout in seconds
-
-```diff
-+Zeitlimit für die Anfrage in Sekunden
 ```
 
 
@@ -5875,25 +5070,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
-```
-
-
-### `linkrobins-birdseye` (missing)
-
-#### [`linkrobins-birdseye.admin.settings.geoip_db_path_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_help%22)
-
-> Full path on this server to a MaxMind country database, such as the free GeoLite2-Country.mmdb (download it from maxmind.com under your own account). Used only when no trusted proxy header supplies the country; every lookup happens on this server.
-
-```diff
-+Vollständiger Pfad auf diesem Server zu einer MaxMind-Länderdatenbank, beispielsweise der kostenlosen Datei „GeoLite2-Country.mmdb“ (die du unter deinem eigenen Konto von maxmind.com herunterladen kannst). Wird nur verwendet, wenn kein vertrauenswürdiger Proxy-Header das Land angibt; jede Auflösung erfolgt lokal auf diesem Server.
-```
-
-#### [`linkrobins-birdseye.admin.settings.geoip_db_path_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-birdseye/de/?q=context%3A%3D%22linkrobins-birdseye.admin.settings.geoip_db_path_label%22)
-
-> Country database file (optional)
-
-```diff
-+Datei mit Länderdatenbank (optional)
 ```
 
 
@@ -6565,65 +5741,6 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut.
-```
-
-
-### `pianotell-flamoji` (missing)
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_cancel_button%22)
-
-> Cancel
-
-```diff
-+Abbrechen
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.rename_save_button%22)
-
-> Save
-
-```diff
-+Speichern
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.emoji_list.uncategorized%22)
-
-> Uncategorized
-
-```diff
-+Ohne Kategorie
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_confirm`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_confirm%22)
-
-> Yes, I want to replace all existing emojis.
-
-```diff
-+Ja, ich möchte alle vorhandenen Emojis ersetzen.
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_mode`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_mode%22)
-
-> Override Mode (Replace all existing emojis)
-
-```diff
-+Überschreibungsmodus (Alle vorhandenen Emojis ersetzen)
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.import_override_warning`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.import_override_warning%22)
-
-> Warning: This will delete all your current custom emojis!
-
-```diff
-+Achtung: Damit werden alle deine aktuellen benutzerdefinierten Emojis gelöscht!
-```
-
-#### [`pianotell-flamoji.admin.custom_emojis_section.upload_json_button`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/de/?q=context%3A%3D%22pianotell-flamoji.admin.custom_emojis_section.upload_json_button%22)
-
-> Upload JSON
-
-```diff
-+JSON hochladen
 ```
 
 
