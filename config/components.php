@@ -723,7 +723,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v2.3.2/locale/en.yml',
 	],
 	'linkrobins-chirp' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/chirp/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/chirp/v2.0.1/locale/en.yml',
 	],
 	'linkrobins-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.4/locale/en.yml',
