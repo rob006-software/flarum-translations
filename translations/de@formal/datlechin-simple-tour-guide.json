@@ -38,7 +38,7 @@
                 "import_done": "Tour importiert. Sie ist abgeschaltet angekommen. Wird einen Blick darüber, bevor du sie anschaltest.",
                 "import_invalid": "Diese Datei enthält keine exportierte Tour.",
                 "edit_action": "Bearbeiten",
-                "controls_label": "",
+                "controls_label": "Steuerung für {title}",
                 "preview_button": "Vorschau im Forum",
                 "preview_navigate": "Forum geöffnet. Gehe zu einer {route} Seite und die Vorschau startet dort.",
                 "export_button": "Als Datei exportieren",
@@ -50,29 +50,29 @@
             "steps": {
                 "heading": "Schritte in {title}",
                 "none": "Noch keine Schritte, daher kann diese Tour nicht ausgeführt werden.",
-                "no_target": "",
+                "no_target": "Eigenständig dargestellt, in der Mitte des Bildschirms",
                 "add_button": "Schritt hinzufügen",
                 "duplicate_action": "Duplizieren",
-                "controls_label": "",
+                "controls_label": "Steuerung für {title}",
                 "copy_title": "{title} (copy)",
                 "flags": {
                     "disabled": "Ausgeschaltet",
                     "desktop": "Nur Desktop",
                     "mobile": "Nur Mobil",
-                    "clicks_target": "",
-                    "advance_on_click": "",
+                    "clicks_target": "Klick auf dieses Element, um zum nächsten Schritt zu gelangen",
+                    "advance_on_click": "Der Leser klickt auf dieses Element, um fortzufahren",
                     "translated": "Übersetzt in {count, plural, one {# Sprache} other {# Sprachen}}"
                 }
             },
             "stats": {
-                "heading": "",
+                "heading": "Wie es ankommt",
                 "none": "Niemand hat diese Tour bisher abgeschlossen.",
-                "taken": "",
+                "taken": "Begonnen",
                 "finished": "Abgeschlossen",
-                "dismissed": "",
+                "dismissed": "Abgebrochen",
                 "completion_rate": "Abgeschlossen",
                 "dropoff_heading": "Wo Teilnehmer abspringen",
-                "dropoff_help": ""
+                "dropoff_help": "Der Schritt, auf dem sich der Lesende befand, als sie abgebrochen haben. Es werden nur Lesende gezählt, die vorzeitig abgebrochen haben."
             },
             "tour_modal": {
                 "create_title": "Neue Tour",
@@ -81,11 +81,11 @@
                 "title_help": "Als Referenz für dich. Benutzer sehen dies nicht.",
                 "key_label": "Schlüssel",
                 "key_help": "Identifiziert die Tour in Exporten und Links. Nicht mehr ändern, wenn Mitglieder sie bereits abgeschlossen haben.",
-                "start_mode_label": "",
-                "start_mode_help": "",
+                "start_mode_label": "Startet",
+                "start_mode_help": "Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Eine manuell gestartete Tour muss erst über die Einstellungsseite des jeweiligen Mitglieds gestartet werden.",
                 "route_label": "Seite",
                 "route_placeholder": "Jede Seite",
-                "route_help": "",
+                "route_help": "Die Flarum-Route, zu der diese Tour gehört, z. B. „index“ oder „discussion“. Lasse das Feld leer, wenn die Tour an der Kopfzeile verankert sein soll und dem Mitglied folgt.",
                 "audience_label": "Wer sieht sie",
                 "audience_help": "Lasse keine Gruppe markiert, um sie allen anzuzeigen.",
                 "max_age_label": "Nur Konten, die neuer sind als",
@@ -93,7 +93,7 @@
                 "enabled_label": "Angeschaltet",
                 "save_button": "Speichern",
                 "delete_button": "Tour löschen",
-                "delete_confirmation": ""
+                "delete_confirmation": "Diese Tour, ihre einzelnen Schritte und die Aufzeichnung darüber, wer sie absolviert hat, löschen?"
             },
             "step_modal": {
                 "create_title": "Neuer Schritt",
@@ -102,31 +102,31 @@
                 "title_placeholder": "Worum geht es in diesem Schritt",
                 "description_label": "Beschreibung",
                 "description_placeholder": "Was die Lesenden lernen sollen",
-                "description_help": "",
+                "description_help": "Die Formatierung entspricht der eines Beitrags in diesem Forum, sodass Links, Fettdruck und Bilder funktionieren, sofern die entsprechenden Erweiterungen aktiviert sind.",
                 "target_label": "Ziel",
                 "target_placeholder": "Ein CSS-Selektor, z. B. #home-link",
                 "target_help": "Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.",
                 "target_invalid": "Das ist kein gültiger CSS-Selektor.",
-                "target_matches": "",
-                "pick_button": "",
+                "target_matches": "{count, plural, =0 {Keine Elemente auf der untersuchten Seite gefunden} one {# Element gefunden} other {# Elemente gefunden}}",
+                "pick_button": "Auswählen",
                 "test_button": "Testen",
                 "placement_label": "Position",
-                "placement_help": "",
-                "devices_help": "",
+                "placement_help": "Die Position des Popovers relativ zum Element. Es verschiebt sich, wenn nicht genügend Platz vorhanden ist.",
+                "devices_help": "Ein Header-Selektor findet auf einem Smartphone oft keine Entsprechung, da der Header dort zur eingeklappten Seitenleiste wird.",
                 "translations_label": "Übersetzungen",
-                "translations_help": "",
-                "translations_pick": "",
+                "translations_help": "Wähle eine Sprache aus, in der du den Text verfassen möchtest. Alles, was du leer lässt, wird mit dem initialen Wortlaut ausgefüllt.",
+                "translations_pick": "Wähle eine Sprache aus",
                 "clicks_target_label": "",
-                "clicks_target_help": "",
-                "advance_on_click_label": "",
-                "advance_on_click_help": "",
-                "enabled_label": "",
+                "clicks_target_help": "Verwende dies, um ein Menü zu öffnen, auf das in einem späteren Schritt verwiesen wird.",
+                "advance_on_click_label": "Der Lesende klickt auf dieses Element, um fortzufahren",
+                "advance_on_click_help": "Ersetzt in diesem Schritt die Schaltfläche „Weiter“ und leitet den Klick direkt an das Element weiter.",
+                "enabled_label": "Schritt aktiviert",
                 "save_button": "Speichern",
                 "delete_button": "Schritt löschen",
                 "delete_confirmation": "Diesen Schritt aus der Tour löschen?"
             },
             "permissions": {
-                "reset_tour_guide": ""
+                "reset_tour_guide": "Ein Mitglied erneut durch die Touren schicken"
             }
         },
         "forum": {
@@ -134,29 +134,29 @@
             "next_button": "Weiter",
             "previous_button": "Zurück",
             "done_button": "Fertig",
-            "close_button": "",
-            "click_to_continue": "",
-            "preview_notice": "",
+            "close_button": "Tour beenden",
+            "click_to_continue": "Klicken, um fortzufahren",
+            "preview_notice": "Vorschau. Nichts, was du hier tust, wird aufgezeichnet.",
             "settings": {
                 "heading": "Touren",
-                "none": "",
-                "take": "",
-                "take_again": "",
-                "waiting": "",
-                "nothing_here": ""
+                "none": "Es werden noch keine Touren angeboten.",
+                "take": "Mache die Tour",
+                "take_again": "Noch einmal durchgehen",
+                "waiting": "Gehe auf die Seite, um die es in {title} geht, und dort wird es losgehen.",
+                "nothing_here": "Auf dieser Seite gibt es keine Inhalte zu {title}. Versuche es auf der Seite, die zu dieser Tour gehört."
             },
             "picker": {
                 "picking": "",
-                "testing": "",
-                "nothing_yet": "",
+                "testing": "Zeigt die Elemente, auf die dieser Selektor zutrifft",
+                "nothing_yet": "Fahre über ein Element",
                 "matches": "{count, plural, =0 {Kein Treffer} one {# Treffer} other {# Treffer}}",
                 "browse": "Durchsuchen",
-                "resume": "",
+                "resume": "Auswählen",
                 "cancel": "Abbrechen"
             },
             "user_controls": {
-                "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide": "Touren erneut starten",
+                "reset_tour_guide_confirmation": "Soll dieses Mitglied bei seinem nächsten Besuch wieder seine Touren sehen?"
             }
         }
     }
