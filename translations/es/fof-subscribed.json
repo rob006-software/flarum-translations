@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": "",
-                "notify_post_flagged_label": ""
+                "defaults_label": "Colocar \"{setting}\" habilitado por defecto",
+                "forced_label": "Forzar la habilitación de \"{setting}\" para todos",
+                "notify_discussion_created_label": "Alguien crea una discusión",
+                "notify_post_created_label": "Alguien crea una nueva publicación o respuesta",
+                "notify_post_unapproved_label": "Una publicación creada necesita aprobación",
+                "notify_user_created_label": "Cuando alguien se registra",
+                "notify_post_flagged_label": "Alguien denuncia una publicación"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": "",
-                "post_flagged_text": ""
+                "discussion_created_text": "{username} crea una nueva discusión",
+                "post_created_text": "{username} escribe una nueva publicación",
+                "post_unapproved_text": "{username} crea una publicación que necesita aprobación",
+                "user_created_text": "{username} acaba de registrarse",
+                "post_flagged_text": "{username} denunció una publicación"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": "",
-                "subscribe_to_post_flagged": ""
+                "subscribe_to_discussion_created": "Se permite recibir notificaciones sobre nuevas discusiones",
+                "subscribe_to_post_created": "Se permite recibir notificaciones cuando se publiquen o respondan nuevas entradas",
+                "subscribe_to_post_unapproved": "Se permite recibir notificaciones sobre nuevas publicaciones no aprobadas",
+                "subscribe_to_user_created": "Se permite recibir notificaciones sobre nuevos usuarios",
+                "subscribe_to_post_flagged": "Se permite recibir notificaciones cuando se detecta una nueva denuncia"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Subscribed | New Discussion] {title}",
+                "newUser": "[Subscribed | New User] {username}",
+                "postUnapproved": "[Subscribed | Unapproved] {username} publicó en {title}",
+                "postCreated": "[Subscribed | New Post] {username} escribió una nueva publicación en {title}",
+                "postFlagged": "[Subscribed | New Flag] {username} denunció una publicación en {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Hey {recipient_display_name},\n\n{actor_display_name} comenzó una nueva discusión: {discussion_title}\n\nPara ver esta nueva discusión, consulte el siguiente enlace:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hey {recipient_display_name},\n\n{actor_display_name} acaba de registrarse en {forum_url}.\n\nPara ver el perfil de este nuevo usuario, consulta el siguiente enlace:\n{user_url}\n",
+                "postUnapproved": "Hey {recipient_display_name},\n\n{actor_display_name} creó una publicación que no fué aprobada automáticamente en {discussion_title}\n\nPara ver esta nueva publicación, visita el siguiente enlace:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hey {recipient_display_name},\n\n{actor_display_name} acaba de crear una publicación en {discussion_title}\n\nPara ver esta nueva publicación, consulta el siguiente enlace:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hey {recipient_display_name},\n\n{actor_display_name} acaba de denunciar una publicación en {discussion_title}\n\nPara ver esta publicación, consulta el siguiente enlace:\n{post_url}\n"
             }
         }
     }
