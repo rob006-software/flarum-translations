@@ -66,12 +66,12 @@
             "update-alert": {
                 "must-accept-message": "Hemos restringido temporalmente el acceso a su cuenta mientras revisa los nuevos términos.",
                 "can-accept-message": "Recientemente actualizamos los términos de uso. Debes aceptarlos para seguir usando este sitio web.",
-                "can-accept-optional-message": "",
+                "can-accept-optional-message": "Hemos actualizado recientemente los términos. Puede consultarlos cuando pueda.",
                 "review": "Haz clic aquí para revisar y aceptar los nuevos términos",
-                "close": ""
+                "close": "Cerrar"
             },
             "user_settings": {
-                "optional_policies_label": ""
+                "optional_policies_label": "Políticas"
             },
             "user_controls": {
                 "state_button": "Estado de términos"
@@ -82,8 +82,8 @@
         "lib": {
             "data": {
                 "userpolicydata": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Detalles sobre la aceptación de los términos por parte del usuario",
+                    "delete_description": "Elimina la aceptación de los términos por parte del usuario"
                 }
             }
         }
