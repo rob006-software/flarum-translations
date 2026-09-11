@@ -30,20 +30,20 @@
                 "frequent_rows_text": "",
                 "picker_set_label": "",
                 "picker_set_text": "",
-                "picker_set_auto": "",
-                "picker_set_twemoji": "",
+                "picker_set_auto": "Auto",
+                "picker_set_twemoji": "Twemoji",
                 "picker_set_native": "",
                 "specify_categories_label": "",
                 "specify_categories_text": "",
                 "emoji_categories": {
-                    "people": "",
-                    "nature": "",
-                    "foods": "",
-                    "activity": "",
-                    "places": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
@@ -65,20 +65,20 @@
                     "text_to_replace_label": "",
                     "text_to_replace_text": "",
                     "shortcode_invalid": "",
-                    "category_label": "",
+                    "category_label": "Categoría",
                     "category_placeholder": "",
                     "category_text": "",
                     "path_or_url_label": "",
                     "path_or_url_text": "",
-                    "submit_button": "",
+                    "submit_button": "=> core.ref.save_changes",
                     "delete_emoji_button": "",
-                    "saved_message": ""
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": "",
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
                     "uncategorized": "",
-                    "rename_save_button": "",
-                    "rename_cancel_button": ""
+                    "rename_save_button": "Guardar",
+                    "rename_cancel_button": "Cancelar"
                 }
             }
         },
@@ -104,30 +104,30 @@
                 "skin_tone_medium_dark": "",
                 "skin_tone_dark": "",
                 "categories": {
-                    "frequent": "",
-                    "people": "",
-                    "nature": "",
-                    "foods": "",
-                    "activity": "",
-                    "places": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "frequent": "=> pianotell-flamoji.ref.emoji_categories.frequent",
+                    "people": "=> pianotell-flamoji.ref.emoji_categories.people",
+                    "nature": "=> pianotell-flamoji.ref.emoji_categories.nature",
+                    "foods": "=> pianotell-flamoji.ref.emoji_categories.foods",
+                    "activity": "=> pianotell-flamoji.ref.emoji_categories.activity",
+                    "places": "=> pianotell-flamoji.ref.emoji_categories.places",
+                    "objects": "=> pianotell-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> pianotell-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> pianotell-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> pianotell-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "frequent": "",
-                "people": "",
-                "nature": "",
-                "foods": "",
-                "activity": "",
-                "places": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
+                "frequent": "De uso frecuente",
+                "people": "Emoticonos y personas",
+                "nature": "Animales y naturaleza",
+                "foods": "Comida y bebida",
+                "activity": "Actividades",
+                "places": "Viajes y lugares",
+                "objects": "Objetos",
+                "symbols": "Símbolos",
+                "flags": "Banderas",
                 "custom": ""
             }
         }
