@@ -2,18 +2,18 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Usuario",
+                "organization": "Organización"
             },
             "settings": {
-                "api_token_label": "",
-                "api_token_help": "",
-                "account_type_label": "",
-                "account_type_help": "",
-                "login_label": "",
-                "login_help": "",
-                "group_label": "",
-                "group_help": ""
+                "api_token_label": "Token API",
+                "api_token_help": "Crear un token de acceso personal en <a>https://github.com/settings/tokens/new</a> con el <code>usuario</code> y alcance <code>read:org</code>. Este token se utiliza para obtener la información de tu patrocinador desde GitHub.",
+                "account_type_label": "Tipo de Cuenta",
+                "account_type_help": "Selecciona si estás realizando un seguimiento de los patrocinadores de una cuenta de usuario personal de GitHub o de una cuenta de organización.",
+                "login_label": "Ingresar",
+                "login_help": "Introduce tu nombre de usuario de GitHub (para cuentas de usuario) o el nombre de tu organización (para organizaciones). Esta es la cuenta cuyos patrocinadores se sincronizarán.",
+                "group_label": "Grupo para Asignar",
+                "group_help": "Seleccione a qué grupo de usuarios de Flarum se deben agregar los patrocinadores. Los usuarios se agregarán automáticamente cuando se conviertan en patrocinadores y se eliminarán cuando dejen de serlo."
             }
         }
     }
