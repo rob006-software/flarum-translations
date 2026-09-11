@@ -95,17 +95,17 @@
                 }
             },
             "statistics": {
-                "heading": "",
-                "total_label": "",
-                "registrations_blocked": "",
-                "users_marked": "",
-                "posts_flagged": "",
-                "awaiting_review": "",
-                "this_week": "",
-                "vs_last_week": "",
-                "top_reason": "",
-                "view_all": "",
-                "failed": ""
+                "heading": "Защита от спама",
+                "total_label": "Всего",
+                "registrations_blocked": "Заблокированных регистраций",
+                "users_marked": "Пользователей помечено как спамеров",
+                "posts_flagged": "Сообщений помечено как спам",
+                "awaiting_review": "Жалоб, ожидающих проверки",
+                "this_week": "{count, plural, one {# за эту неделю} other {# за эту неделю}}",
+                "vs_last_week": "По сравнению с предыдущими семью днями",
+                "top_reason": "Чаще всего: {reason} ({count, plural, one {# блокировка} few {# блокировки} many {# блокировок} other {# блокировки}})",
+                "view_all": "Посмотреть все заблокированные регистрации",
+                "failed": "Не удалось загрузить статистику спама."
             },
             "blocked_registrations": {
                 "button": "Заблокированные регистрации",
@@ -119,61 +119,61 @@
                 "login-provider": "Провайдер",
                 "login-provider-data": "Данные провайдера",
                 "sfs-data": "Данные StopForumSpam",
-                "reasons": "",
+                "reasons": "Записанные причины блокировки",
                 "delete_entry": "Удалить запись",
-                "total": "",
+                "total": "{count, plural, one {# заблокированная регистрация} few {# заблокированные регистрации} many {# заблокированных регистраций} other {# заблокированных регистраций}}",
                 "filters": {
-                    "placeholder": "",
-                    "apply": "",
-                    "clear": "",
-                    "hint": "",
-                    "no-matches": "",
+                    "placeholder": "Искать или фильтровать с помощью ключ:значение",
+                    "apply": "Применить",
+                    "clear": "Очистить поиск",
+                    "hint": "Фильтры:",
+                    "no-matches": "Ни одна заблокированная регистрация не соответствует этому поиску.",
                     "help": {
-                        "toggle": "",
-                        "multiple": "",
-                        "negate": "",
-                        "ip": "",
-                        "email": "",
-                        "username": "",
-                        "provider": "",
-                        "reason": "",
-                        "attemptedAt": ""
+                        "toggle": "Справка по поиску",
+                        "multiple": "Объединяйте фильтры, разделяя их пробелами.",
+                        "negate": "Добавьте префикс - к фильтру, чтобы исключить совпадения, например -provider:github",
+                        "ip": "Попытки с точного IP-адреса.",
+                        "email": "Попытки с точного адреса электронной почты.",
+                        "username": "Попытки с точного имени пользователя.",
+                        "provider": "Провайдер входа, через который была совершена попытка.",
+                        "reason": "Правило, заблокировавшее попытку. Записывается только для недавних блокировок.",
+                        "attemptedAt": "Дата или диапазон, например 2026-01-01..2026-02-01. Любая из сторон может быть оставлена открытой."
                     }
                 },
                 "evidence": {
-                    "label": "",
-                    "none": "",
-                    "lookup_failed": "",
-                    "blocked_by": "",
+                    "label": "Почему это было заблокировано",
+                    "none": "Для этой попытки не были записаны данные StopForumSpam.",
+                    "lookup_failed": "Запрос к StopForumSpam завершился неудачей, поэтому для этой попытки данные не были получены.",
+                    "blocked_by": "Заблокировано",
                     "rule": {
-                        "confidence": "",
-                        "frequency": "",
-                        "blacklisted": "",
-                        "torExit": "",
-                        "deniedAsn": ""
+                        "confidence": "Порог уверенности",
+                        "frequency": "Порог жалоб",
+                        "blacklisted": "В чёрном списке",
+                        "torExit": "Выходной узел Tor",
+                        "deniedAsn": "Запрещённая сеть"
                     },
                     "field": {
-                        "ip": "",
-                        "email": "",
-                        "username": ""
+                        "ip": "IP",
+                        "email": "Email",
+                        "username": "Имя пользователя"
                     },
                     "badge": {
-                        "blacklisted": "",
-                        "tor_exit": "",
-                        "not_listed": "",
-                        "confidence": "",
-                        "frequency": "",
-                        "last_seen": "",
-                        "asn": "",
-                        "normalized": ""
+                        "blacklisted": "В чёрном списке",
+                        "tor_exit": "Выходной узел Tor",
+                        "not_listed": "Не в списках",
+                        "confidence": "Уверенность {value}%",
+                        "frequency": "{count, plural, one {отправлена # жалоба} few {отправлено # жалобы} many {отправлено # жалоб} other {отправлено # жалоб}}",
+                        "last_seen": "последний раз замечен {when}",
+                        "asn": "AS{asn}",
+                        "normalized": "приводится к {value}"
                     }
                 },
                 "raw_data": {
-                    "button": "",
-                    "title": "",
-                    "copy": "",
-                    "copied": "",
-                    "copy_failed": ""
+                    "button": "Показать необработанные данные",
+                    "title": "Записанные необработанные данные",
+                    "copy": "Копировать",
+                    "copied": "Скопировано в буфер обмена.",
+                    "copy_failed": "Не удалось скопировать в буфер обмена."
                 }
             }
         },
@@ -183,7 +183,7 @@
             },
             "message": {
                 "profile": {
-                    "blocked": ""
+                    "blocked": "Похоже, это спам, поэтому сообщение не сохранено. Удалите ссылки или контактные данные и попробуйте снова."
                 },
                 "stopforumspam": {
                     "blocked": "Данные Вашей регистрации были найдены в базе данных по предотвращению спама. Ваша регистрация заблокирована."
