@@ -15,45 +15,45 @@
                 "equalWeightButtons_help": "Рекомендуется. Одинаковое оформление кнопок «принять» и «отклонить» не подталкивает посетителей к принятию.",
                 "colors_help": "Баннер следует теме вашего форума, включая тёмный режим. Задайте цвет,\nтолько чтобы переопределить его — оставьте пустым, чтобы наследовать.\n",
                 "catchall_title": "Необъявленные cookie",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
-                "allowedCookies": "",
-                "allowedCookies_help": "",
+                "sweepUndeclared": "Стирать cookie, которые не объявило ни одно расширение",
+                "sweepUndeclared_help": "Когда посетитель отклоняет согласие, также стираются cookie, которые\nне объявило ни одно расширение через extender cookie consent. Это\nотлавливает трекеры от расширений, не поддержавших механизм, — но\nсотрёт и cookie, которые расширению действительно нужны, что может\nнарушить его работу. Используйте белый список ниже, чтобы уберечь их.\n",
+                "allowedCookies": "Никогда не стирать эти cookie",
+                "allowedCookies_help": "По одному имени на строку. Заключите в слэши для шаблона, например /^app_/.\nCookie, которые устанавливает сам Flarum, всегда сохраняются.\n",
                 "theme_popup_title": "Цвета всплывающего окна",
                 "backgroundColor": "Фон",
                 "textColor": "Текст",
-                "theme_dismiss_title": "",
+                "theme_dismiss_title": "Цвета кнопок",
                 "buttonBackgroundColor": "Фон",
                 "buttonTextColor": "Текст",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
-                    "bar": "",
-                    "bar_inline": ""
+                    "box": "Блок",
+                    "box_wide": "Блок (широкий)",
+                    "box_inline": "Блок (в строку)",
+                    "cloud": "Облако",
+                    "cloud_inline": "Облако (в строку)",
+                    "bar": "Полоса",
+                    "bar_inline": "Полоса (в строку)"
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "Сверху слева",
+                    "top_center": "Сверху по центру",
+                    "top_right": "Сверху справа",
+                    "middle_left": "По центру слева",
+                    "middle_center": "По центру",
+                    "middle_right": "По центру справа",
+                    "bottom_left": "Снизу слева",
+                    "bottom_center": "Снизу по центру",
+                    "bottom_right": "Снизу справа"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "На этом сайте используются cookie. Вы можете управлять настройками или принять все cookie.",
+                "accept": "Принять",
+                "decline": "Отклонить",
+                "preferences": "Управление настройками",
+                "learn_more": "Подробнее"
             },
             "preferences": {
                 "title": "",
