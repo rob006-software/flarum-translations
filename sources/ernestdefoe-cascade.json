@@ -1,0 +1,51 @@
+{
+    "ernestdefoe-cascade": {
+        "forum": {
+            "reactions": {
+                "thumbsup": "Like",
+                "heart": "Love",
+                "laughing": "Haha",
+                "tada": "Celebrate",
+                "confused": "Confused",
+                "thumbsdown": "Dislike"
+            },
+            "composer": {
+                "placeholder": "Start a discussion…",
+                "cannot_start": "You do not have permission to start a discussion"
+            },
+            "row": {
+                "react_button": "React",
+                "react_failed": "Your reaction did not save. Try again in a moment.",
+                "reply_button": "Reply",
+                "share_button": "Share",
+                "share_copied": "Link copied",
+                "media_more": "+{count}",
+                "view_replies": "{count, plural, one {View # more reply} other {View all # replies}}",
+                "see_more": "See more",
+                "see_less": "See less",
+                "open_post": "Open this discussion",
+                "see_more_loading": "Loading…",
+                "replies_failed": "Could not load the replies. Try again in a moment."
+            },
+            "modal": {
+                "title": "{username}'s post",
+                "replies_title": "{count, plural, one {# reply} other {# replies}}",
+                "no_replies": "No replies yet.",
+                "reply_button": "Write a reply",
+                "open_full": "Open full page"
+            },
+            "rail": {
+                "trending_title": "Trending",
+                "trending_week": "Trending this week",
+                "trending_month": "Trending this month",
+                "trending_all": "Most discussed",
+                "trending_count": "{count, plural, one {# discussion} other {# discussions}}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Cascade"
+            }
+        }
+    }
+}
