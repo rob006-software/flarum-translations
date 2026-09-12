@@ -945,7 +945,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/mobile-search/v0.1.9/locale/en.yml',
 	],
 	'rob006-last-post-avatar' => [
-		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/2.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
