@@ -768,7 +768,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.8.0/locale/en.yml',
 	],
 	'linkrobins-support' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.6.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.7.0/locale/en.yml',
 	],
 	'linkrobins-toc' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.2.2/locale/en.yml',
