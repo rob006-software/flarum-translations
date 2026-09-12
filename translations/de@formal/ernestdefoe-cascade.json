@@ -1,6 +1,12 @@
 {
     "ernestdefoe-cascade": {
         "forum": {
+            "preset": {
+                "heading": "",
+                "help": "",
+                "follow_forum": "",
+                "save_failed": ""
+            },
             "reactions": {
                 "thumbsup": "Gefällt mir",
                 "heart": "Love",
@@ -35,6 +41,8 @@
                 "open_full": "Vollständige Seite anzeigen"
             },
             "rail": {
+                "hashtags_title": "",
+                "hashtags_count": "",
                 "trending_title": "Im Trend",
                 "trending_week": "Trends in dieser Woche",
                 "trending_month": "Trends in diesem Monat",
@@ -44,7 +52,36 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade"
+                "title": "Cascade",
+                "preset_label": "",
+                "preset_help": "",
+                "allow_user_preset_label": "",
+                "allow_user_preset_help": "",
+                "widget_hashtags_label": "",
+                "widget_hashtags_help": "",
+                "hashtag_count_label": "",
+                "hashtag_count_help": "",
+                "feed_density_label": "",
+                "feed_density_help": "",
+                "feed_density_excerpt_media": "",
+                "feed_density_excerpt": "",
+                "feed_density_title": "",
+                "excerpt_length_label": "",
+                "excerpt_length_help": "",
+                "widget_trending_label": "",
+                "widget_trending_help": "",
+                "engagement_bar_label": "",
+                "engagement_bar_help": "",
+                "engagement_bar_auto": "",
+                "engagement_bar_on": "",
+                "engagement_bar_off": ""
+            }
+        },
+        "lib": {
+            "preset": {
+                "wall": "",
+                "timeline": "",
+                "stream": ""
             }
         }
     }

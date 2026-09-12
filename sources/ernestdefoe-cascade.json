@@ -1,6 +1,12 @@
 {
     "ernestdefoe-cascade": {
         "forum": {
+            "preset": {
+                "heading": "Feed style",
+                "help": "How discussions are laid out for you. This changes nothing for anyone else.",
+                "follow_forum": "Use the forum's default",
+                "save_failed": "Your feed style could not be saved. Please try again."
+            },
             "reactions": {
                 "thumbsup": "Like",
                 "heart": "Love",
@@ -35,6 +41,8 @@
                 "open_full": "Open full page"
             },
             "rail": {
+                "hashtags_title": "Hashtags",
+                "hashtags_count": "{count, plural, one {# post} other {# posts}}",
                 "trending_title": "Trending",
                 "trending_week": "Trending this week",
                 "trending_month": "Trending this month",
@@ -44,7 +52,36 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade"
+                "title": "Cascade",
+                "preset_label": "Preset",
+                "preset_help": "The look every member gets unless they pick their own below. Facebook-style puts each discussion on its own card over a grey ground with a wide labelled engagement bar. X-style runs them as hairline-separated rows in a single column. Bluesky-style keeps the single column but insets the separators to the text, loosens the spacing and gives the actions pill hovers. All three share the same layout and settings; switching takes effect on the next page load.",
+                "allow_user_preset_label": "Let members choose their own",
+                "allow_user_preset_help": "Adds a preset picker to each member's own settings page. Their choice applies only to them, and anyone who does not pick one keeps the forum default above. Turn this off to hold the whole forum to a single look.",
+                "widget_hashtags_label": "Hashtag cloud widget",
+                "widget_hashtags_help": "A weighted cloud of the most-used hashtags in the right rail, sized by rank rather than raw count so it stays readable however lopsided the numbers are. Shown only when the Hashtags extension is enabled; the setting does nothing without it.",
+                "hashtag_count_label": "Hashtags in the cloud",
+                "hashtag_count_help": "Between 6 and 60. More makes the cloud denser and the smallest entries harder to pick out.",
+                "feed_density_label": "What each row shows",
+                "feed_density_help": "Excerpt and image is what makes the list read as a feed. Title only turns Cascade back into a conventional discussion list and skips the excerpt query entirely.",
+                "feed_density_excerpt_media": "Excerpt and image",
+                "feed_density_excerpt": "Excerpt only",
+                "feed_density_title": "Title only",
+                "excerpt_length_label": "Excerpt length (characters)",
+                "excerpt_length_help": "Between 40 and 600. Longer excerpts mean fewer discussions visible without scrolling, and a slightly larger payload on every page of the list.",
+                "widget_trending_label": "Show the Trending widget",
+                "widget_trending_help": "Ranks tags by how many discussions they actually received in the last seven days, recomputed hourly. Needs flarum/tags; the widget hides itself without it.",
+                "engagement_bar_label": "Engagement bar",
+                "engagement_bar_help": "Auto shows Reply and Share on every row, and adds a reaction control on the discussion page when flarum/likes or fof/reactions is enabled. Cascade never ships reactions of its own, so with neither installed there is no reaction control to show.",
+                "engagement_bar_auto": "Auto",
+                "engagement_bar_on": "Always show",
+                "engagement_bar_off": "Hide"
+            }
+        },
+        "lib": {
+            "preset": {
+                "wall": "Facebook-style — cards",
+                "timeline": "X-style — rows",
+                "stream": "Bluesky-style — inset rows"
             }
         }
     }

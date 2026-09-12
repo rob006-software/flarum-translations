@@ -7,30 +7,53 @@
                 "underline": "Underline",
                 "strike": "Strikethrough",
                 "code": "Inline code",
+                "superscript": "Superscript",
+                "subscript": "Subscript",
                 "text_color": "Text colour",
                 "highlight": "Highlight",
+                "heading1": "Title",
                 "heading": "Heading",
                 "subheading": "Subheading",
+                "heading4": "Minor heading",
                 "bullet_list": "Bulleted list",
                 "ordered_list": "Numbered list",
                 "quote": "Quote",
+                "align": "Align",
+                "align_left": "Align left",
+                "align_center": "Align center",
+                "align_right": "Align right",
+                "align_justify": "Justify",
+                "spoiler": "Spoiler",
+                "info_box": "Info box",
+                "reply_gate": "Reply to view",
                 "code_block": "Code block",
                 "link": "Link",
                 "image": "Image",
                 "table": "Table",
+                "toggle_header_cell": "Toggle header cell",
+                "add_row": "Add row",
+                "delete_row": "Delete row",
+                "add_column": "Add column",
+                "delete_column": "Delete column",
                 "horizontal_rule": "Divider",
                 "undo": "Undo",
                 "redo": "Redo"
             }
         },
         "forum": {
+            "reply_gate": {
+                "locked": "You need to reply to this discussion before you can see this."
+            },
             "composer": {
                 "toolbar_label": "Formatting",
                 "apply": "Apply",
                 "remove_link": "Remove link",
                 "clear_colour": "Clear",
+                "clear_highlight": "Clear",
                 "link_placeholder": "Paste or type a link…",
-                "image_placeholder": "Image address…"
+                "image_placeholder": "Image address…",
+                "spoiler_title_placeholder": "Spoiler title…",
+                "info_title_placeholder": "Title…"
             }
         },
         "admin": {
