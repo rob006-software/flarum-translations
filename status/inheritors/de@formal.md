@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **300** are translated differently and **0** are
+sides, but do not match between them: **299** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **44** components.
 
 <!-- {% raw %} -->
@@ -26,7 +26,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `flarum-gdpr` | [14](#flarum-gdpr) |
 | `flarum-likes` | [5](#flarum-likes) |
 | `flarum-lock` | [1](#flarum-lock) |
-| `flarum-mentions` | [11](#flarum-mentions) |
+| `flarum-mentions` | [10](#flarum-mentions) |
 | `flarum-nicknames` | [2](#flarum-nicknames) |
 | `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-statistics` | [1](#flarum-statistics) |
@@ -1794,7 +1794,7 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 >
 
 ```diff
--Du hast einen Export der Kontodaten für {Benutzername} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:
+-Du hast einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:
 +Sie haben einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:
 
  {url}
@@ -1804,7 +1804,7 @@ Dies ist eine automatische, <del>endgültige</del><ins>abschließende</ins> Bena
 
 ```
 
-<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> einen Export der Kontodaten für <del>{Benutzername}</del><ins>{username}</ins> angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:<br /><br />{url}<br /><br />Dieser Export bleibt bis<ins> zum</ins> {destroys\_at} verfügbar.<br />
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> einen Export der Kontodaten für {username} angefordert. Dieser Export wurde erfolgreich erstellt und steht nun zur Verfügung:<br /><br />{url}<br /><br />Dieser Export bleibt bis<ins> zum</ins> {destroys\_at} verfügbar.<br />
 
 #### [`flarum-gdpr.forum.delete_user.text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/de@formal/?q=context%3A%3D%22flarum-gdpr.forum.delete_user.text%22)
 
@@ -2013,11 +2013,11 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 > {username} replied to your post
 
 ```diff
--{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet
+-{username} hat auf deinen Beitrag geantwortet
 +{username} hat auf Ihren Beitrag geantwortet
 ```
 
-{username} <del>{count, plural, one {hat} other {haben}}</del><ins>hat</ins> auf <del>deinen</del><ins>Ihren</ins> Beitrag geantwortet
+{username} hat auf <del>deinen</del><ins>Ihren</ins> Beitrag geantwortet
 
 #### [`flarum-mentions.forum.notifications.user_mentioned_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.notifications.user_mentioned_text%22)
 
@@ -2030,27 +2030,16 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 
 {username} hat <del>dich</del><ins>Sie</ins> erwähnt
 
-#### [`flarum-mentions.forum.post.mentioned_by_self_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_self_text%22)
-
-> {users} replied to this.
-
-```diff
--{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.
-+{users} haben auf diesen Beitrag geantwortet.
-```
-
-{users} <del>{count, plural, one {hast} other {haben}}</del><ins>haben</ins> auf diesen Beitrag geantwortet.
-
 #### [`flarum-mentions.forum.post.mentioned_by_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_text%22)
 
 > {users} replied to this.
 
 ```diff
--{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.
+-{users} hat hierauf geantwortet.
 +{users} haben auf diesen Beitrag geantwortet.
 ```
 
-{users} <del>{count, plural, one {hat} other {haben}}</del><ins>haben</ins> auf diesen Beitrag geantwortet.
+{users} <del>hat</del><ins>haben</ins> <del>hierauf</del><ins>auf diesen Beitrag</ins> geantwortet.
 
 #### [`flarum-mentions.forum.settings.notify_group_mentioned_label`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.settings.notify_group_mentioned_label%22)
 

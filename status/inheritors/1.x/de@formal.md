@@ -3972,11 +3972,11 @@ Navigation umkehren <del>(Themen</del><ins>(Tags</ins> oberhalb der Menüpunkte 
 
 ```diff
 -Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
-+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
++Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen '{{ login_url }}' und '{{ register_url }}' in deinem HTML-Code.
 
 ```
 
-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen „{{ login\_url }}“ und „{{ register\_url }}“ in deinem HTML-Code.<br />
+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„{{</del><ins>'{{</ins> login\_url <del>}}“</del><ins>}}'</ins> und <del>„{{</del><ins>'{{</ins> register\_url <del>}}“</del><ins>}}'</ins> in deinem HTML-Code.<br />
 
 #### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de@formal/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
 

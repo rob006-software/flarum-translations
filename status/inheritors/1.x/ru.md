@@ -2,8 +2,8 @@
 
 Translations for Russian (`ru`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **56** are translated differently and **59** are
-translated only in `ru`. Altogether they cover **16** components.
+sides, but do not match between them: **57** are translated differently and **61** are
+translated only in `ru`. Altogether they cover **17** components.
 
 <!-- {% raw %} -->
 
@@ -22,6 +22,7 @@ translated only in `ru`. Altogether they cover **16** components.
 | `fof-gamification` | [1](#fof-gamification) | 0 |
 | `fof-github-sponsors` | [4](#fof-github-sponsors) | 0 |
 | `fof-horizon` | [3](#fof-horizon) | 0 |
+| `fof-pwa` | [1](#fof-pwa) | [2](#fof-pwa-missing) |
 | `fof-seo` | [4](#fof-seo) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
 | `maicol07-sso` | 0 | [26](#maicol07-sso-missing) |
@@ -371,6 +372,18 @@ Each entry contains the English source string, followed by a diff between the tr
 ```diff
 -Критический
 +Критически
+```
+
+
+### `fof-pwa`
+
+#### [`fof-pwa.forum.settings.push_header`](https://weblate.rob006.net/translate/flarum2/fof-pwa/ru/?q=context%3A%3D%22fof-pwa.forum.settings.push_header%22)
+
+> Push
+
+```diff
+-Push-уведомления
++Push
 ```
 
 
@@ -771,6 +784,25 @@ These strings are translated only in `ru`, so there is nothing to inherit from F
 
 ```diff
 +Минимальная длина
+```
+
+
+### `fof-pwa` (missing)
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_label`](https://weblate.rob006.net/translate/flarum2/fof-pwa/ru/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_label%22)
+
+> Enable share buttons
+
+```diff
++Включить кнопки «Поделиться»
+```
+
+#### [`fof-pwa.admin.pwa.other.share_buttons_text`](https://weblate.rob006.net/translate/flarum2/fof-pwa/ru/?q=context%3A%3D%22fof-pwa.admin.pwa.other.share_buttons_text%22)
+
+> If enabled, a "Share" button will be added to discussions, posts, and users.
+
+```diff
++Если включено, кнопка «Поделиться» будет добавлена к обсуждениям, сообщениям и пользователям.
 ```
 
 

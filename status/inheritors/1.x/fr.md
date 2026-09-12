@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **127** are translated differently and **782** are
-translated only in `fr`. Altogether they cover **59** components.
+sides, but do not match between them: **133** are translated differently and **540** are
+translated only in `fr`. Altogether they cover **53** components.
 
 <!-- {% raw %} -->
 
@@ -13,50 +13,44 @@ translated only in `fr`. Altogether they cover **59** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
-| `core` | [7](#core) | [3](#core-missing) |
+| `core` | [7](#core) | 0 |
 | `datitisev-backup` | [1](#datitisev-backup) | 0 |
 | `datlechin-keyboard-shortcuts` | [1](#datlechin-keyboard-shortcuts) | 0 |
+| `datlechin-passkey` | 0 | [4](#datlechin-passkey-missing) |
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
 | `ffans-geetest` | [1](#ffans-geetest) | 0 |
-| `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
-| `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
-| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
-| `fof-anti-spam` | 0 | [2](#fof-anti-spam-missing) |
-| `fof-author-change` | 0 | [16](#fof-author-change-missing) |
-| `fof-best-answer` | [4](#fof-best-answer) | [2](#fof-best-answer-missing) |
+| `fof-author-change` | [4](#fof-author-change) | 0 |
+| `fof-best-answer` | [4](#fof-best-answer) | 0 |
 | `fof-categories` | [15](#fof-categories) | 0 |
 | `fof-checklist` | [2](#fof-checklist) | 0 |
-| `fof-first-post-approval` | 0 | [7](#fof-first-post-approval-missing) |
-| `fof-follow-tags` | 0 | [17](#fof-follow-tags-missing) |
+| `fof-first-post-approval` | [1](#fof-first-post-approval) | 0 |
 | `fof-forum-stats-widget` | [1](#fof-forum-stats-widget) | 0 |
 | `fof-forum-widgets-core` | [3](#fof-forum-widgets-core) | 0 |
 | `fof-gamification` | [1](#fof-gamification) | 0 |
-| `fof-geoip` | 0 | [20](#fof-geoip-missing) |
 | `fof-github-sponsors` | [4](#fof-github-sponsors) | 0 |
 | `fof-links` | [1](#fof-links) | 0 |
-| `fof-mailing` | 0 | [19](#fof-mailing-missing) |
-| `fof-masquerade` | [1](#fof-masquerade) | [1](#fof-masquerade-missing) |
+| `fof-masquerade` | [1](#fof-masquerade) | 0 |
 | `fof-move-posts` | [12](#fof-move-posts) | 0 |
 | `fof-online-users-widget` | [3](#fof-online-users-widget) | 0 |
 | `fof-open-collective` | [6](#fof-open-collective) | 0 |
-| `fof-photoswipe` | 0 | [5](#fof-photoswipe-missing) |
-| `fof-polls` | 0 | [27](#fof-polls-missing) |
 | `fof-pwa` | 0 | [40](#fof-pwa-missing) |
 | `fof-reactions` | [1](#fof-reactions) | 0 |
 | `fof-rich-text` | [6](#fof-rich-text) | 0 |
 | `fof-sentry` | [17](#fof-sentry) | 0 |
 | `fof-seo` | 0 | [195](#fof-seo-missing) |
-| `fof-signature` | 0 | [17](#fof-signature-missing) |
+| `fof-signature` | [2](#fof-signature) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
 | `fof-upload` | [1](#fof-upload) | 0 |
 | `forumaker-magicbb` | 0 | [46](#forumaker-magicbb-missing) |
-| `forumaker-magicread` | [4](#forumaker-magicread) | [13](#forumaker-magicread-missing) |
+| `forumaker-magicread` | [3](#forumaker-magicread) | 0 |
 | `huoxin-relative-url` | [1](#huoxin-relative-url) | 0 |
 | `huseyinfiliz-awards` | 0 | [186](#huseyinfiliz-awards-missing) |
-| `huseyinfiliz-notificationhub` | [1](#huseyinfiliz-notificationhub) | [19](#huseyinfiliz-notificationhub-missing) |
+| `huseyinfiliz-diff` | 0 | [17](#huseyinfiliz-diff-missing) |
+| `huseyinfiliz-leaderboard` | 0 | [1](#huseyinfiliz-leaderboard-missing) |
+| `huseyinfiliz-notificationhub` | [1](#huseyinfiliz-notificationhub) | 0 |
 | `huseyinfiliz-sticky-title` | 0 | [29](#huseyinfiliz-sticky-title-missing) |
 | `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
 | `ianm-log-viewer` | [1](#ianm-log-viewer) | 0 |
@@ -333,6 +327,53 @@ Pourquoi la mise à jour ne <del>se fait-elle</del><ins>s'effectue-t-elle</ins> 
 Ne jamais être notifié. Masquer de la liste de <del>discussions.</del><ins>discussion.</ins>
 
 
+### `fof-author-change`
+
+#### [`fof-author-change.forum.controls.edit`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.controls.edit%22)
+
+> Edit Author and Date
+
+```diff
+-Modifier l'auteur et la date
++Modifier l’auteur et la date
+```
+
+Modifier <del>l'auteur</del><ins>l’auteur</ins> et la date
+
+#### [`fof-author-change.forum.modal.sync-impossible`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.sync-impossible%22)
+
+> Cannot find first post. Try scrolling to the start of the discussion.
+
+```diff
+-Impossible de trouver le premier message. Essayez de faire défiler la page jusqu'au début de la discussion.
++Impossible de trouver le premier message. Essayez de faire défiler jusqu’au début de la discussion.
+```
+
+Impossible de trouver le premier message. Essayez de faire défiler <del>la page jusqu'au</del><ins>jusqu’au</ins> début de la discussion.
+
+#### [`fof-author-change.forum.modal.title-discussion`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.title-discussion%22)
+
+> Edit Discussion Author and Date
+
+```diff
+-Modifier l'auteur et la date de la discussion
++Modifier l’auteur et la date de la discussion
+```
+
+Modifier <del>l'auteur</del><ins>l’auteur</ins> et la date de la discussion
+
+#### [`fof-author-change.forum.modal.title-post`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.title-post%22)
+
+> Edit Post Author and Date
+
+```diff
+-Modifier l'auteur et la date du message
++Modifier l’auteur et la date du message
+```
+
+Modifier <del>l'auteur</del><ins>l’auteur</ins> et la date du message
+
+
 ### `fof-best-answer`
 
 #### [`fof-best-answer.admin.permissions.allow_select_own_post`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/fr/?q=context%3A%3D%22fof-best-answer.admin.permissions.allow_select_own_post%22)
@@ -569,6 +610,20 @@ Masquer les statistiques des étiquettes de <del>premier </del>niveau<ins> supé
 ```
 
 Activer la liste de <del>tâches</del><ins>contrôle</ins>
+
+
+### `fof-first-post-approval`
+
+#### [`fof-first-post-approval.admin.permissions.bypass`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.permissions.bypass%22)
+
+> Post without first post approval
+
+```diff
+-Publier sans l'approbation du premier message
++Publier sans approbation du premier message
+```
+
+Publier sans <del>l'approbation</del><ins>approbation</ins> du premier message
 
 
 ### `fof-forum-stats-widget`
@@ -1223,6 +1278,31 @@ Inclure les adresses <del>de </del>courriel des utilisateurs dans les rapports
 Lorsque cette <del>fonctionnalité</del><ins>option</ins> est activée, les utilisateurs voient <del>s'afficher</del><ins>apparaître</ins> un formulaire de<del> retour</del> <del>d'information</del><ins>commentaires</ins> après avoir rencontré une erreur, ce qui leur permet de décrire ce qui s'est passé. Le formulaire est prérempli avec leur nom d'utilisateur, leur adresse de courriel (si<del> cette option est</del> activée) et leur appartenance à un groupe.<del> Cela permet de</del> <del>créer</del><ins>Crée</ins> un canal de communication direct avec les utilisateurs rencontrant des problèmes. Nécessite un <del>DSN</del><ins>DNS</ins> Sentry direct (et non un<del> DSN</del> <del>de</del><ins>relai</ins> <del>relais).</del><ins>DNS).</ins>
 
 
+### `fof-signature`
+
+#### [`fof-signature.forum.errors.max_char_limit_exceed`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.errors.max_char_limit_exceed%22)
+
+> Maximum character limit exceeded.
+
+```diff
+-Limite maximale de caractères dépassée.
++La limite maximale de caractères a été dépassée.
+```
+
+<del>Limite</del><ins>La limite</ins> maximale de caractères<ins> a été</ins> dépassée.
+
+#### [`fof-signature.forum.errors.max_image_count_exceed`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.errors.max_image_count_exceed%22)
+
+> Maximum image count exceeded.
+
+```diff
+-Nombre maximal d'images dépassé.
++Le nombre maximum d'images a été dépassé.
+```
+
+<del>Nombre</del><ins>Le</ins> <del>maximal</del><ins>nombre maximum</ins> d'images<ins> a été</ins> dépassé.
+
+
 ### `fof-sitemap`
 
 #### [`fof-sitemap.admin.settings.build_button`](https://weblate.rob006.net/translate/flarum2/fof-sitemap/fr/?q=context%3A%3D%22fof-sitemap.admin.settings.build_button%22)
@@ -1285,15 +1365,6 @@ Déclenche une reconstruction immédiate de tous les fichiers de plan <del>du</d
 ```
 
 Compteur de caractères en <del>temps réel</del><ins>direct</ins> dans le compositeur
-
-#### [`forumaker-magicread.admin.settings.enable_pagination`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_pagination%22)
-
-> Add page navigation below the scroll bar
-
-```diff
--Pagination au sein des discussions
-+Ajouter une pagination sous la barre de défilement
-```
 
 #### [`forumaker-magicread.admin.settings.enable_readmore`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_readmore%22)
 
@@ -1617,856 +1688,9 @@ Nom distinctif <del>(DN)</del><ins>(ND)</ins>
 These strings are translated only in `fr`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `fr`.
 
 
-### `core` (missing)
+### `datlechin-passkey` (missing)
 
-#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.connection_restored_message%22)
-
-> Your connection has been restored.
-
-```diff
-+Votre connexion a été rétablie.
-```
-
-#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.error.network_message%22)
-
-> Something seems to be wrong with your connection. Please check your network and try again.
-
-```diff
-+Il semble y avoir un problème avec votre connexion. Veuillez vérifier votre réseau et réessayer.
-```
-
-#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/fr/?q=context%3A%3D%22core.lib.error.offline_message%22)
-
-> You appear to be offline. Please check your connection and try again.
-
-```diff
-+Vous semblez être hors ligne. Veuillez vérifier votre connexion et réessayer.
-```
-
-
-### `flarum-audit` (missing)
-
-#### [`flarum-audit.admin.header.title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.header.title%22)
-
-> Audit
-
-```diff
-+Audit
-```
-
-#### [`flarum-audit.admin.limitedSettings.configure`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.configure%22)
-
-> Configure
-
-```diff
-+Configurer
-```
-
-#### [`flarum-audit.admin.limitedSettings.introduction`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.introduction%22)
-
-> Configure what users with the limited access permissions can see
-
-```diff
-+Configurer ce que les utilisateurs ayant des droits d'accès limités peuvent voir
-```
-
-#### [`flarum-audit.admin.limitedSettings.requiresExtension`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.requiresExtension%22)
-
-> Requires extension {extension}
-
-```diff
-+Nécessite l'extension {extension}
-```
-
-#### [`flarum-audit.admin.limitedSettings.title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.limitedSettings.title%22)
-
-> Limited access settings
-
-```diff
-+Paramètres d'accès limité
-```
-
-#### [`flarum-audit.admin.permissions.view`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.permissions.view%22)
-
-> View audit log
-
-```diff
-+Afficher le journal d'audit
-```
-
-#### [`flarum-audit.admin.permissions.viewLimited`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.permissions.viewLimited%22)
-
-> View limited audit log
-
-```diff
-+Voir le journal d'audit limité
-```
-
-#### [`flarum-audit.admin.settings.limitedIpAddress`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.admin.settings.limitedIpAddress%22)
-
-> View IP Address
-
-```diff
-+Afficher l'adresse IP
-```
-
-#### [`flarum-audit.forum.link.actor-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.link.actor-audit%22)
-
-> Audit log (user as actor)
-
-```diff
-+Journal d'audit (utilisateur en tant qu'acteur)
-```
-
-#### [`flarum-audit.forum.link.all-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.link.all-audit%22)
-
-> Audit log
-
-```diff
-+Journal d'audit
-```
-
-#### [`flarum-audit.forum.link.discussion-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.link.discussion-audit%22)
-
-> Audit log
-
-```diff
-+Journal d'audit
-```
-
-#### [`flarum-audit.forum.link.user-audit`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.link.user-audit%22)
-
-> Audit log (account edits)
-
-```diff
-+Journal d'audit (modifications du compte)
-```
-
-#### [`flarum-audit.forum.modal.actor-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.modal.actor-title%22)
-
-> Actor Audit Log
-
-```diff
-+Journal d'Audit d'acteur
-```
-
-#### [`flarum-audit.forum.modal.all-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.modal.all-title%22)
-
-> Audit Log
-
-```diff
-+Journal d'audit
-```
-
-#### [`flarum-audit.forum.modal.discussion-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.modal.discussion-title%22)
-
-> Discussion Audit Log
-
-```diff
-+Journal d'Audit de discussion
-```
-
-#### [`flarum-audit.forum.modal.user-title`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.forum.modal.user-title%22)
-
-> User Audit Log
-
-```diff
-+Journal d'Audit d'utilisateur
-```
-
-#### [`flarum-audit.lib.browser.audit_log_cleared`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.audit_log_cleared%22)
-
-> Cleared {deleted\_count} entries from the audit logs
-
-```diff
-+A supprimé {deleted_count} entrées des journaux d'audit
-```
-
-#### [`flarum-audit.lib.browser.cache_cleared`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.cache_cleared%22)
-
-> Manually cleared the cache
-
-```diff
-+A vidé manuellement le cache
-```
-
-#### [`flarum-audit.lib.browser.client.access_token`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.client.access_token%22)
-
-> Access token
-
-```diff
-+Jeton d'accès
-```
-
-#### [`flarum-audit.lib.browser.client.api_key`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.client.api_key%22)
-
-> API key
-
-```diff
-+Clé API
-```
-
-#### [`flarum-audit.lib.browser.client.cli`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.client.cli%22)
-
-> Command line
-
-```diff
-+Ligne de commande
-```
-
-#### [`flarum-audit.lib.browser.client.session`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.client.session%22)
-
-> Web session
-
-```diff
-+Session en ligne
-```
-
-#### [`flarum-audit.lib.browser.client.unknown`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.client.unknown%22)
-
-> Unknown client
-
-```diff
-+Client inconnu
-```
-
-#### [`flarum-audit.lib.browser.controls.filterAction`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterAction%22)
-
-> Show logs of the same action
-
-```diff
-+Afficher les journaux de la même action
-```
-
-#### [`flarum-audit.lib.browser.controls.filterActor`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterActor%22)
-
-> Show logs by this actor
-
-```diff
-+Afficher les journaux de cet acteur
-```
-
-#### [`flarum-audit.lib.browser.controls.filterClient`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterClient%22)
-
-> Show logs by this client type
-
-```diff
-+Afficher les journaux de ce type de client
-```
-
-#### [`flarum-audit.lib.browser.controls.filterDiscussion`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterDiscussion%22)
-
-> Show logs affecting the same discussion
-
-```diff
-+Afficher les journaux affectant la même discussion
-```
-
-#### [`flarum-audit.lib.browser.controls.filterIp`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterIp%22)
-
-> Show logs by this IP
-
-```diff
-+Afficher les journaux de cette IP
-```
-
-#### [`flarum-audit.lib.browser.controls.filterUser`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.filterUser%22)
-
-> Show logs affecting the same user
-
-```diff
-+Afficher les journaux affectant le même utilisateur
-```
-
-#### [`flarum-audit.lib.browser.controls.hideRaw`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.hideRaw%22)
-
-> Hide raw log
-
-```diff
-+Masquer le journal brut
-```
-
-#### [`flarum-audit.lib.browser.controls.showRaw`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.controls.showRaw%22)
-
-> Show raw log
-
-```diff
-+Afficher le journal brut
-```
-
-#### [`flarum-audit.lib.browser.deletedResource.discussion`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.discussion%22)
-
-> Discussion #{id}
-
-```diff
-+Discussion #{id}
-```
-
-#### [`flarum-audit.lib.browser.deletedResource.group`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.group%22)
-
-> Group #{id}
-
-```diff
-+Groupe #{id}
-```
-
-#### [`flarum-audit.lib.browser.deletedResource.post`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.post%22)
-
-> Post #{id}
-
-```diff
-+Message #{id}
-```
-
-#### [`flarum-audit.lib.browser.deletedResource.tag`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.tag%22)
-
-> Tag #{id}
-
-```diff
-+Étiquette #{id}
-```
-
-#### [`flarum-audit.lib.browser.deletedResource.user`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.deletedResource.user%22)
-
-> User #{id}
-
-```diff
-+Utilisateur #{id}
-```
-
-#### [`flarum-audit.lib.browser.discussion.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.created%22)
-
-> Started discussion {discussion}
-
-```diff
-+A démarré la discussion {discussion}
-```
-
-#### [`flarum-audit.lib.browser.discussion.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.deleted%22)
-
-> Deleted discussion {discussion}
-
-```diff
-+A supprimé la discussion {discussion}
-```
-
-#### [`flarum-audit.lib.browser.discussion.hidden`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.hidden%22)
-
-> Hid discussion {discussion}
-
-```diff
-+A masqué la discussion {discussion}
-```
-
-#### [`flarum-audit.lib.browser.discussion.renamed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.renamed%22)
-
-> Renamed discussion from {old\_title} to {new\_title}
-
-```diff
-+A renommé la discussion {old_title} par {new_title}
-```
-
-#### [`flarum-audit.lib.browser.discussion.restored`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.restored%22)
-
-> Restored discussion {discussion}
-
-```diff
-+A restauré la discussion {discussion}
-```
-
-#### [`flarum-audit.lib.browser.empty`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.empty%22)
-
-> No results
-
-```diff
-+Aucun résultat
-```
-
-#### [`flarum-audit.lib.browser.extension.disabled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.extension.disabled%22)
-
-> Disabled extension {package}
-
-```diff
-+A désactivé l'extension {package}
-```
-
-#### [`flarum-audit.lib.browser.extension.enabled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.extension.enabled%22)
-
-> Enabled extension {package}
-
-```diff
-+A activé l'extension {package}
-```
-
-#### [`flarum-audit.lib.browser.extension.uninstalled`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.extension.uninstalled%22)
-
-> Uninstalled extension {package}
-
-```diff
-+A désinstallé l'extension {package}
-```
-
-#### [`flarum-audit.lib.browser.filterApply`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filterApply%22)
-
-> Apply
-
-```diff
-+Appliquer
-```
-
-#### [`flarum-audit.lib.browser.filterClear`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filterClear%22)
-
-> Clear filter
-
-```diff
-+Effacer le filtre
-```
-
-#### [`flarum-audit.lib.browser.filterPlaceholder`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filterPlaceholder%22)
-
-> Filter logs
-
-```diff
-+Filtrer les journaux
-```
-
-#### [`flarum-audit.lib.browser.filters.action`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.action%22)
-
-> The type of action, e.g. action:post.created.
-
-```diff
-+Le type d'action, p. ex. action:post.created.
-```
-
-#### [`flarum-audit.lib.browser.filters.actor`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.actor%22)
-
-> Who performed the action. Use actor:guest for system or unauthenticated actions.
-
-```diff
-+Qui a effectué l'action. Utilisez « actor:guest » pour les actions système ou non authentifiées.
-```
-
-#### [`flarum-audit.lib.browser.filters.client`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.client%22)
-
-> How the request was made.
-
-```diff
-+Comment la demande a été formulée.
-```
-
-#### [`flarum-audit.lib.browser.filters.discussion`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.discussion%22)
-
-> Actions affecting a specific discussion, by ID.
-
-```diff
-+Actions affectant une discussion spécifique, par ID.
-```
-
-#### [`flarum-audit.lib.browser.filters.ip`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.ip%22)
-
-> The IP address the action came from.
-
-```diff
-+L'adresse IP à l'origine de l'action.
-```
-
-#### [`flarum-audit.lib.browser.filters.user`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.user%22)
-
-> The user the action affected, by username.
-
-```diff
-+L'utilisateur concerné par l'action, par nom d'utilisateur.
-```
-
-#### [`flarum-audit.lib.browser.filtersHint`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.filtersHint%22)
-
-> Filters:
-
-```diff
-+Filtres :
-```
-
-#### [`flarum-audit.lib.browser.genericResource.comment`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.genericResource.comment%22)
-
-> Comment
-
-```diff
-+Commentaire
-```
-
-#### [`flarum-audit.lib.browser.genericResource.post`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.genericResource.post%22)
-
-> Post
-
-```diff
-+Message
-```
-
-#### [`flarum-audit.lib.browser.help.multiple`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.help.multiple%22)
-
-> Combine values with commas to match any of them, e.g. action:post.created,post.deleted
-
-```diff
-+Combinez les valeurs avec des virgules pour correspondre à l'une d'entre elles, p. ex. : action:post.created,post.deleted
-```
-
-#### [`flarum-audit.lib.browser.help.negate`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.help.negate%22)
-
-> Prefix a filter with a minus to exclude matches, e.g. -client:cli
-
-```diff
-+Préfixer un filtre d'un signe moins pour exclure les résultats correspondants, p. ex. -client:cli
-```
-
-#### [`flarum-audit.lib.browser.help.toggle`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.help.toggle%22)
-
-> Search help
-
-```diff
-+Aide à la recherche
-```
-
-#### [`flarum-audit.lib.browser.loadMore`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.loadMore%22)
-
-> Load more
-
-```diff
-+Charger davantage
-```
-
-#### [`flarum-audit.lib.browser.noReason`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.noReason%22)
-
-> (no reason)
-
-```diff
-+(aucun motif)
-```
-
-#### [`flarum-audit.lib.browser.noValue`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.noValue%22)
-
-> (no value)
-
-```diff
-+(aucune valeur)
-```
-
-#### [`flarum-audit.lib.browser.permissionGroup.everyone`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.permissionGroup.everyone%22)
-
-> =&gt; core.admin.permissions\_controls.everyone\_button
-
-```diff
-+=> core.admin.permissions_controls.everyone_button
-```
-
-#### [`flarum-audit.lib.browser.permissionGroup.members`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.permissionGroup.members%22)
-
-> =&gt; core.admin.permissions\_controls.members\_button
-
-```diff
-+=> core.admin.permissions_controls.members_button
-```
-
-#### [`flarum-audit.lib.browser.permission_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.permission_changed%22)
-
-> Edited permission {permission} from {old\_groups} to {new\_groups}
-
-```diff
-+A modifié l'autorisation {permission} de {old_groups} vers {new_groups}
-```
-
-#### [`flarum-audit.lib.browser.post.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.post.created%22)
-
-> Created a {post} in {discussion}
-
-```diff
-+A créé un {post} dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.post.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.post.deleted%22)
-
-> Deleted {postuser}'s {post} in {discussion}
-
-```diff
-+A supprimé {post} de {postuser} dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.post.hidden`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.post.hidden%22)
-
-> Hid {postuser}'s {post} in {discussion}
-
-```diff
-+A masqué {post} de {postuser} dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.post.restored`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.post.restored%22)
-
-> Restored {postuser}'s {post} in {discussion}
-
-```diff
-+A restauré {post} de {postuser} dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.post.revised`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.post.revised%22)
-
-> Revised {postuser}'s {post} in {discussion}
-
-```diff
-+A révisé {post} de {postuser} dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.refresh`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.refresh%22)
-
-> Refresh
-
-```diff
-+Actualiser
-```
-
-#### [`flarum-audit.lib.browser.setting_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.setting_changed%22)
-
-> Edited setting {key}
-
-```diff
-+A modifié le paramètre {key}
-```
-
-#### [`flarum-audit.lib.browser.setting_changed_with_values`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.setting_changed_with_values%22)
-
-> Edited setting {key} from {old\_value} to {new\_value}
-
-```diff
-+A modifié le paramètre {key}, {old_value} par {new_value}
-```
-
-#### [`flarum-audit.lib.browser.user.activated`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.activated%22)
-
-> Activated {username}'s account manually
-
-```diff
-+A activé manuellement le compte de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.activated_with_email`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.activated_with_email%22)
-
-> Activated {username}'s account via confirmation link
-
-```diff
-+A activé le compte de {username} par lien de confirmation
-```
-
-#### [`flarum-audit.lib.browser.user.avatar_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.avatar_changed%22)
-
-> Changed {username}'s avatar
-
-```diff
-+A modifié l'avatar de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.avatar_removed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.avatar_removed%22)
-
-> Removed {username}'s avatar
-
-```diff
-+A supprimé l'avatar de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.created`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.created%22)
-
-> Created {username}'s account
-
-```diff
-+A créé le compte de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.deleted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.deleted%22)
-
-> Deleted {username}
-
-```diff
-+A supprimé {username}
-```
-
-#### [`flarum-audit.lib.browser.user.email_change_requested`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.email_change_requested%22)
-
-> Requested to change {username}'s email to {new\_email}
-
-```diff
-+A demandé à modifier l'adresse de courriel de {username} par {new_email}
-```
-
-#### [`flarum-audit.lib.browser.user.email_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.email_changed%22)
-
-> Changed {username}'s email from {old\_email} to {new\_email}
-
-```diff
-+A modifié l'adresse de courriel de {username}, {old_email} par {new_email}
-```
-
-#### [`flarum-audit.lib.browser.user.groups_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.groups_changed%22)
-
-> Changed {username}'s groups from {old\_groups} to {new\_groups}
-
-```diff
-+A modifié les groupes de {username}, {old_groups} par {new_groups}
-```
-
-#### [`flarum-audit.lib.browser.user.logged_in`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_in%22)
-
-> Logged in {username} account
-
-```diff
-+S'est connecté au compte de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.logged_in_with_provider`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_in_with_provider%22)
-
-> Logged in {username} account using {provider}
-
-```diff
-+S'est connecté au compte de {username} en utilisant {provider}
-```
-
-#### [`flarum-audit.lib.browser.user.logged_out`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.logged_out%22)
-
-> Logged out {username} account
-
-```diff
-+S'est déconnecté au compte de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.password_change_requested`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_change_requested%22)
-
-> Requested to change {username}'s password
-
-```diff
-+A demandé la modification du mot de passe de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.password_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_changed%22)
-
-> Changed {username}'s password
-
-```diff
-+A modifié le mot de passe de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.password_reset_attempted`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_reset_attempted%22)
-
-> Requested a password reset for {username}
-
-```diff
-+A demandé la réinitialisation du mot de passe pour {username}
-```
-
-#### [`flarum-audit.lib.browser.user.password_reset_attempted_unmatched`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.password_reset_attempted_unmatched%22)
-
-> Requested a password reset for {email} (no matching account)
-
-```diff
-+A demandé une réinitialisation du mot de passe pour {email} (aucun compte correspondant)
-```
-
-#### [`flarum-audit.lib.browser.user.provider_connected`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.provider_connected%22)
-
-> Connected provider {provider} to {username} account
-
-```diff
-+A connecté le fournisseur {provider} au compte de {username}
-```
-
-#### [`flarum-audit.lib.browser.user.username_changed`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.username_changed%22)
-
-> Changed {username}'s username from {old\_username} to {new\_username}
-
-```diff
-+A modifié le nom d'utilisateur de {username}, {old_username} en {new_username}
-```
-
-#### [`flarum-audit.lib.browser.withoutActor`](https://weblate.rob006.net/translate/flarum2/flarum-audit/fr/?q=context%3A%3D%22flarum-audit.lib.browser.withoutActor%22)
-
-> =&gt; core.group.guest
-
-```diff
-+=> core.group.guest
-```
-
-
-### `flarum-sticky` (missing)
-
-#### [`flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/fr/?q=context%3A%3D%22flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label%22)
-
-> Pin stickied discussions on the All Discussions page
-
-```diff
-+Épingler les discussions sur la page « Toutes les discussions »
-```
-
-
-### `flectar-turnstile` (missing)
-
-#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/fr/?q=context%3A%3D%22validation.custom.turnstile.required%22)
-
-> Please complete the Turnstile challenge.
-
-```diff
-+Veuillez compléter le défi de Turnstile.
-```
-
-#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/fr/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
-
-> Please complete the Turnstile challenge.
-
-```diff
-+Veuillez compléter le défi de Turnstile.
-```
-
-
-### `fof-anti-spam` (missing)
-
-#### [`flarum-audit.lib.browser.registration.blocked`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/fr/?q=context%3A%3D%22flarum-audit.lib.browser.registration.blocked%22)
-
-> Blocked registration for {username} ({email}) from {ip}
-
-```diff
-+A bloqué l'inscription pour {username} ({email}) depuis {ip}
-```
-
-#### [`flarum-audit.lib.browser.user.marked_as_spammer`](https://weblate.rob006.net/translate/flarum2/fof-anti-spam/fr/?q=context%3A%3D%22flarum-audit.lib.browser.user.marked_as_spammer%22)
-
-> Marked {username} as a spammer
-
-```diff
-+A marqué {username} comme indésirable
-```
-
-
-### `fof-author-change` (missing)
-
-#### [`fof-author-change.admin.permissions.edit-date`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.admin.permissions.edit-date%22)
-
-> Update discussion and post date
-
-```diff
-+Mettre à jour la discussion et la date du message
-```
-
-#### [`fof-author-change.admin.permissions.edit-user`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.admin.permissions.edit-user%22)
-
-> Update discussion and post author
-
-```diff
-+Mettre à jour la discussion et l'auteur du message
-```
-
-#### [`fof-author-change.forum.controls.edit`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.controls.edit%22)
-
-> Edit Author and Date
-
-```diff
-+Modifier l’auteur et la date
-```
-
-#### [`fof-author-change.forum.modal.cancel`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.cancel%22)
+#### [`datlechin-passkey.forum.settings.add_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/fr/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.cancel_button%22)
 
 > Cancel
 
@@ -2474,23 +1698,15 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Annuler
 ```
 
-#### [`fof-author-change.forum.modal.created_at`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.created_at%22)
+#### [`datlechin-passkey.forum.settings.rename_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/fr/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.cancel_button%22)
 
-> Creation time
-
-```diff
-+Heure de création
-```
-
-#### [`fof-author-change.forum.modal.edited_at`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.edited_at%22)
-
-> Edit time
+> Cancel
 
 ```diff
-+Modifier l'heure
++Annuler
 ```
 
-#### [`fof-author-change.forum.modal.submit`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.submit%22)
+#### [`datlechin-passkey.forum.settings.rename_modal.save_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/fr/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.save_button%22)
 
 > Save
 
@@ -2498,886 +1714,12 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Enregistrer
 ```
 
-#### [`fof-author-change.forum.modal.sync-impossible`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.sync-impossible%22)
+#### [`datlechin-passkey.forum.settings.revoke_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/fr/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.cancel_button%22)
 
-> Cannot find first post. Try scrolling to the start of the discussion.
+> Cancel
 
 ```diff
-+Impossible de trouver le premier message. Essayez de faire défiler jusqu’au début de la discussion.
-```
-
-#### [`fof-author-change.forum.modal.sync-with-discussion`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.sync-with-discussion%22)
-
-> Sync with discussion
-
-```diff
-+Synchroniser avec la discussion
-```
-
-#### [`fof-author-change.forum.modal.sync-with-post`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.sync-with-post%22)
-
-> Sync with first post
-
-```diff
-+Synchroniser avec le premier message
-```
-
-#### [`fof-author-change.forum.modal.title-discussion`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.title-discussion%22)
-
-> Edit Discussion Author and Date
-
-```diff
-+Modifier l’auteur et la date de la discussion
-```
-
-#### [`fof-author-change.forum.modal.title-post`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.title-post%22)
-
-> Edit Post Author and Date
-
-```diff
-+Modifier l’auteur et la date du message
-```
-
-#### [`fof-author-change.forum.modal.user`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.modal.user%22)
-
-> Author
-
-```diff
-+Auteur
-```
-
-#### [`fof-author-change.forum.search.no-results`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.search.no-results%22)
-
-> No results
-
-```diff
-+Aucun résultat
-```
-
-#### [`fof-author-change.forum.search.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.search.placeholder%22)
-
-> Search users
-
-```diff
-+Rechercher des utilisateurs
-```
-
-#### [`fof-author-change.forum.search.type-more`](https://weblate.rob006.net/translate/flarum2/fof-author-change/fr/?q=context%3A%3D%22fof-author-change.forum.search.type-more%22)
-
-> Type 3 characters to search database
-
-```diff
-+Saisissez 3 caractères pour effectuer une recherche dans la base de données
-```
-
-
-### `fof-best-answer` (missing)
-
-#### [`flarum-audit.lib.browser.discussion.best_answer_set`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.best_answer_set%22)
-
-> Set {post} as best answer in {discussion}
-
-```diff
-+A sélectionné {post} comme meilleure réponse dans {discussion}
-```
-
-#### [`flarum-audit.lib.browser.discussion.best_answer_unset`](https://weblate.rob006.net/translate/flarum2/fof-best-answer/fr/?q=context%3A%3D%22flarum-audit.lib.browser.discussion.best_answer_unset%22)
-
-> Unset best answer for {post} in {discussion}
-
-```diff
-+A désélectionné {post} comme meilleure réponse dans {discussion}
-```
-
-
-### `fof-first-post-approval` (missing)
-
-#### [`fof-first-post-approval.admin.permissions.bypass`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.permissions.bypass%22)
-
-> Post without first post approval
-
-```diff
-+Publier sans approbation de premier message
-```
-
-#### [`fof-first-post-approval.admin.settings.discussionCount`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.discussionCount%22)
-
-> Number of first discussions to require approval for
-
-```diff
-+Nombre de premières discussions nécessitant une approbation
-```
-
-#### [`fof-first-post-approval.admin.settings.discussionCount_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.discussionCount_help%22)
-
-> Set to 0 to hold new discussions for approval based on the number of posts instead.
-
-```diff
-+Définissez cette valeur sur 0 pour que les nouvelles discussions soient soumises à validation en fonction du nombre de messages.
-```
-
-#### [`fof-first-post-approval.admin.settings.postCount`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.postCount%22)
-
-> Number of first posts to require approval for
-
-```diff
-+Nombre de premiers messages nécessitant une approbation
-```
-
-#### [`fof-first-post-approval.admin.settings.postCount_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.postCount_help%22)
-
-> Once this many posts by a user have been approved, their posts are published immediately.
-
-```diff
-+Une fois ce nombre de messages d’un utilisateur approuvés, ses nouveaux messages sont publiés immédiatement.
-```
-
-#### [`fof-first-post-approval.admin.settings.restrictPrivateDiscussions`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.restrictPrivateDiscussions%22)
-
-> Prevent private discussions until approved
-
-```diff
-+Empêcher les discussions privées jusqu’à approbation
-```
-
-#### [`fof-first-post-approval.admin.settings.restrictPrivateDiscussions_help`](https://weblate.rob006.net/translate/flarum2/fof-first-post-approval/fr/?q=context%3A%3D%22fof-first-post-approval.admin.settings.restrictPrivateDiscussions_help%22)
-
-> Private discussions cannot be held for approval, so users still subject to first post approval are stopped from starting them. Turn this off to let them start private discussions freely.
-
-```diff
-+Les discussions privées ne peuvent pas être mises en attente pour approbation. Les utilisateurs encore soumis à l’approbation de leurs premiers messages ne peuvent donc pas en démarrer. Désactivez cette option pour leur permettre de démarrer librement des discussions privées.
-```
-
-
-### `fof-follow-tags` (missing)
-
-#### [`fof-follow-tags.admin.basics.following_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.basics.following_label%22)
-
-> =&gt; flarum-subscriptions.forum.index.following\_link
-
-```diff
-+=> flarum-subscriptions.forum.index.following_link
-```
-
-#### [`fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label%22)
-
-> Show all discussions on the Following page for guests
-
-```diff
-+Afficher toutes les discussions sur la page « Abonnements » pour les invités
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_button_on_following_page_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_button_on_following_page_label%22)
-
-> Show a "Choose tags to follow" button on the Following page
-
-```diff
-+Afficher un bouton « Choisir les étiquettes à suivre » sur la page « Abonnements »
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_new_users_help`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_new_users_help%22)
-
-> Users who have not confirmed their choice yet will be shown a modal asking them to follow tags. The modal will keep coming back on each visit until they press "Continue to forum".
->
-
-```diff
-+Les utilisateurs qui n'ont pas encore confirmé leur choix verront s'afficher une fenêtre leur demandant de suivre des étiquettes. Cette fenêtre s'affichera à chaque visite jusqu'à ce qu'ils cliquent sur « Continuer vers le forum ».
-+
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_new_users_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_new_users_label%22)
-
-> Prompt new users to choose tags to follow
-
-```diff
-+Inviter les nouveaux utilisateurs à choisir des étiquettes à suivre
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_ids_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_ids_label%22)
-
-> Tags to offer
-
-```diff
-+Étiquettes à proposer
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_label%22)
-
-> Tags to offer in the prompt
-
-```diff
-+Étiquettes à proposer dans l'invite
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.all`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.all%22)
-
-> All tags
-
-```diff
-+Toutes les étiquettes
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.list`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.list%22)
-
-> Tags selected below
-
-```diff
-+Étiquettes sélectionnées ci-dessous
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primary%22)
-
-> First-level primary tags
-
-```diff
-+Étiquettes primaires de premier niveau
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndChildren`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndChildren%22)
-
-> All primary tags of any level
-
-```diff
-+Toutes les étiquettes primaires quel que soit leur niveau
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndSecondary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.primaryAndSecondary%22)
-
-> First-level primary tags and secondary tags
-
-```diff
-+Étiquettes primaires de premier niveau et étiquettes secondaires
-```
-
-#### [`fof-follow-tags.admin.settings.prompt_tag_strategy_options.secondary`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_tag_strategy_options.secondary%22)
-
-> Only secondary tags
-
-```diff
-+Uniquement les étiquettes secondaires
-```
-
-#### [`fof-follow-tags.forum.prompt.choose_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.forum.prompt.choose_button%22)
-
-> Choose tags to follow
-
-```diff
-+Sélectionnez les étiquettes à suivre
-```
-
-#### [`fof-follow-tags.forum.prompt.continue_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.forum.prompt.continue_button%22)
-
-> Continue to forum
-
-```diff
-+Continuer vers le forum
-```
-
-#### [`fof-follow-tags.forum.prompt.later_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.forum.prompt.later_button%22)
-
-> Remind me later
-
-```diff
-+Me le rappeler plus tard
-```
-
-#### [`fof-follow-tags.forum.prompt.modal_title`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/fr/?q=context%3A%3D%22fof-follow-tags.forum.prompt.modal_title%22)
-
-> Choose tags to follow
-
-```diff
-+Sélectionnez les étiquettes à suivre
-```
-
-
-### `fof-geoip` (missing)
-
-#### [`fof-geoip.admin.settings.allow_custom_flag_help`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.admin.settings.allow_custom_flag_help%22)
-
-> When enabled, users can pick a country flag to display on their posts via their profile settings. A user-selected flag is shown to everyone and takes precedence over the IP-based flag. Requires "Show country flag for each post" to be enabled.
-
-```diff
-+Lorsque cette option est activée, les utilisateurs peuvent choisir un drapeau de pays à afficher sur leurs messages via les paramètres de leur profil. Le drapeau sélectionné par l'utilisateur est visible par tous et prévaut sur le drapeau attribué en fonction de l'adresse IP. Cette fonctionnalité nécessite l'activation de l'option « Afficher le drapeau du pays pour chaque message ».
-```
-
-#### [`fof-geoip.admin.settings.allow_custom_flag_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.admin.settings.allow_custom_flag_label%22)
-
-> Allow users to choose a custom country flag
-
-```diff
-+Autoriser les utilisateurs à choisir un drapeau de pays personnalisé
-```
-
-#### [`fof-geoip.forum.user.settings.custom_flag_help`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.forum.user.settings.custom_flag_help%22)
-
-> Choose a country flag to display on your posts. This flag is visible to everyone and is shown instead of the flag based on your IP address.
-
-```diff
-+Choisissez un drapeau de pays à afficher sur vos messages. Ce drapeau est visible par tous et remplace celui associé à votre adresse IP.
-```
-
-#### [`fof-geoip.forum.user.settings.custom_flag_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.forum.user.settings.custom_flag_label%22)
-
-> Custom country flag
-
-```diff
-+Drapeau du pays personnalisé
-```
-
-#### [`fof-geoip.lib.alerts.ip_copied`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.alerts.ip_copied%22)
-
-> Copied IP Address
-
-```diff
-+Adresse IP copiée
-```
-
-#### [`fof-geoip.lib.copy_ip_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.copy_ip_label%22)
-
-> Copy IP to clipboard
-
-```diff
-+Copier l'adresse IP dans le presse-papiers
-```
-
-#### [`fof-geoip.lib.custom_flag.none`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.custom_flag.none%22)
-
-> No custom flag
-
-```diff
-+Aucun drapeau personnalisé
-```
-
-#### [`fof-geoip.lib.map_button_label`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_button_label%22)
-
-> IP Info
-
-```diff
-+Informations sur l'adresse IP
-```
-
-#### [`fof-geoip.lib.map_modal.as`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.as%22)
-
-> ASN
-
-```diff
-+ASN
-```
-
-#### [`fof-geoip.lib.map_modal.country_code`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.country_code%22)
-
-> Country Code
-
-```diff
-+Code pays
-```
-
-#### [`fof-geoip.lib.map_modal.error`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.error%22)
-
-> Error
-
-```diff
-+Erreur
-```
-
-#### [`fof-geoip.lib.map_modal.ip_address`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.ip_address%22)
-
-> IP Address
-
-```diff
-+Adresse IP
-```
-
-#### [`fof-geoip.lib.map_modal.isp`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.isp%22)
-
-> ISP
-
-```diff
-+FAI
-```
-
-#### [`fof-geoip.lib.map_modal.mobile`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.mobile%22)
-
-> Cellular network
-
-```diff
-+Réseau cellulaire
-```
-
-#### [`fof-geoip.lib.map_modal.not_enough_data`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.not_enough_data%22)
-
-> Not enough data to draw a map
-
-```diff
-+Il n'y a pas assez de données pour dessiner une carte
-```
-
-#### [`fof-geoip.lib.map_modal.organization`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.organization%22)
-
-> Organization
-
-```diff
-+Organisation
-```
-
-#### [`fof-geoip.lib.map_modal.threat_level`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.threat_level%22)
-
-> Threat Level
-
-```diff
-+Niveau de menace
-```
-
-#### [`fof-geoip.lib.map_modal.threat_types`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.threat_types%22)
-
-> Threat Types
-
-```diff
-+Types de menaces
-```
-
-#### [`fof-geoip.lib.map_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.title%22)
-
-> IP Information
-
-```diff
-+Informations sur l'adresse IP
-```
-
-#### [`fof-geoip.lib.map_modal.zip_code`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fr/?q=context%3A%3D%22fof-geoip.lib.map_modal.zip_code%22)
-
-> Zip Code
-
-```diff
-+Code postal
-```
-
-
-### `fof-mailing` (missing)
-
-#### [`fof-mailing.admin.permissions.mail_all`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.admin.permissions.mail_all%22)
-
-> Send emails to groups or all users
-
-```diff
-+Envoyer des e-mails aux groupes ou à tous les utilisateurs
-```
-
-#### [`fof-mailing.admin.permissions.mail_individual`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.admin.permissions.mail_individual%22)
-
-> Send emails to individual users
-
-```diff
-+Envoyer des courriels à des utilisateurs individuels
-```
-
-#### [`fof-mailing.api.no_recipients`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.api.no_recipients%22)
-
-> No recipient were matched
-
-```diff
-+Aucun destinataire ne correspond
-```
-
-#### [`fof-mailing.email.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.email.default_subject%22)
-
-> =&gt; fof-mailing.ref.default\_subject
-
-```diff
-+=> fof-mailing.ref.default_subject
-```
-
-#### [`fof-mailing.forum.links.mail_all`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.links.mail_all%22)
-
-> Send Email
-
-```diff
-+Envoyer un courriel
-```
-
-#### [`fof-mailing.forum.links.mail_individual`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.links.mail_individual%22)
-
-> Email This User
-
-```diff
-+Envoyer un courriel à cet utilisateur
-```
-
-#### [`fof-mailing.forum.modal_mail.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.default_subject%22)
-
-> =&gt; fof-mailing.ref.default\_subject
-
-```diff
-+=> fof-mailing.ref.default_subject
-```
-
-#### [`fof-mailing.forum.modal_mail.message_label`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.message_label%22)
-
-> Message
-
-```diff
-+Message
-```
-
-#### [`fof-mailing.forum.modal_mail.recipients_label`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.recipients_label%22)
-
-> Recipients
-
-```diff
-+Destinataires
-```
-
-#### [`fof-mailing.forum.modal_mail.recipients_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.recipients_placeholder%22)
-
-> Add more recipients...
-
-```diff
-+Ajouter d'autres destinataires...
-```
-
-#### [`fof-mailing.forum.modal_mail.subject_label`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.subject_label%22)
-
-> Subject
-
-```diff
-+Sujet
-```
-
-#### [`fof-mailing.forum.modal_mail.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.submit_button%22)
-
-> Send
-
-```diff
-+Envoyer
-```
-
-#### [`fof-mailing.forum.modal_mail.title_text`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_mail.title_text%22)
-
-> Compose Mail
-
-```diff
-+Rédiger un courriel
-```
-
-#### [`fof-mailing.forum.modal_sent.on_its_way`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_sent.on_its_way%22)
-
-> High Five! Your mail is on its way to {recipientsCount} recipients!
-
-```diff
-+Tope là ! Votre courriel est en route vers {recipientsCount} destinataires !
-```
-
-#### [`fof-mailing.forum.modal_sent.title_text`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.modal_sent.title_text%22)
-
-> Mail Sent!
-
-```diff
-+Courriel envoyé !
-```
-
-#### [`fof-mailing.forum.recipient_kinds.email`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.recipient_kinds.email%22)
-
-> Email
-
-```diff
-+Courriel
-```
-
-#### [`fof-mailing.forum.recipient_kinds.group`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.recipient_kinds.group%22)
-
-> Group
-
-```diff
-+Groupe
-```
-
-#### [`fof-mailing.forum.recipient_kinds.user`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.forum.recipient_kinds.user%22)
-
-> User
-
-```diff
-+Utilisateur
-```
-
-#### [`fof-mailing.ref.default_subject`](https://weblate.rob006.net/translate/flarum2/fof-mailing/fr/?q=context%3A%3D%22fof-mailing.ref.default_subject%22)
-
-> Message from forum administration
-
-```diff
-+Message de l'administration du forum
-```
-
-
-### `fof-masquerade` (missing)
-
-#### [`flarum-audit.lib.browser.masquerade.profile_updated`](https://weblate.rob006.net/translate/flarum2/fof-masquerade/fr/?q=context%3A%3D%22flarum-audit.lib.browser.masquerade.profile_updated%22)
-
-> Updated {username}'s profile fields
-
-```diff
-+A mis à jour les champs du profil de {username}
-```
-
-
-### `fof-photoswipe` (missing)
-
-#### [`fof-photoswipe.forum.arrow_next_title`](https://weblate.rob006.net/translate/flarum2/fof-photoswipe/fr/?q=context%3A%3D%22fof-photoswipe.forum.arrow_next_title%22)
-
-> Next
-
-```diff
-+Suivant
-```
-
-#### [`fof-photoswipe.forum.arrow_prev_title`](https://weblate.rob006.net/translate/flarum2/fof-photoswipe/fr/?q=context%3A%3D%22fof-photoswipe.forum.arrow_prev_title%22)
-
-> Previous
-
-```diff
-+Précédent
-```
-
-#### [`fof-photoswipe.forum.close_title`](https://weblate.rob006.net/translate/flarum2/fof-photoswipe/fr/?q=context%3A%3D%22fof-photoswipe.forum.close_title%22)
-
-> Close
-
-```diff
-+Fermer
-```
-
-#### [`fof-photoswipe.forum.error_msg`](https://weblate.rob006.net/translate/flarum2/fof-photoswipe/fr/?q=context%3A%3D%22fof-photoswipe.forum.error_msg%22)
-
-> The image cannot be loaded
-
-```diff
-+L'image ne peut pas être chargée
-```
-
-#### [`fof-photoswipe.forum.zoom_title`](https://weblate.rob006.net/translate/flarum2/fof-photoswipe/fr/?q=context%3A%3D%22fof-photoswipe.forum.zoom_title%22)
-
-> Zoom
-
-```diff
-+Zoom
-```
-
-
-### `fof-polls` (missing)
-
-#### [`fof-polls.forum.compose.draft_saved`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.draft_saved%22)
-
-> Draft saved
-
-```diff
-+Brouillon enregistré
-```
-
-#### [`fof-polls.forum.compose.publish`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.publish%22)
-
-> Publish
-
-```diff
-+Publier
-```
-
-#### [`fof-polls.forum.compose.save_as_draft`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.save_as_draft%22)
-
-> Save as draft
-
-```diff
-+Enregistrer comme brouillon
-```
-
-#### [`fof-polls.forum.compose.schedule`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.schedule%22)
-
-> Schedule
-
-```diff
-+Planifier
-```
-
-#### [`fof-polls.forum.compose.schedule_datetime_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.schedule_datetime_label%22)
-
-> Publish at
-
-```diff
-+Publier sur
-```
-
-#### [`fof-polls.forum.compose.schedule_publication`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.schedule_publication%22)
-
-> Schedule publication
-
-```diff
-+Planifier la publication
-```
-
-#### [`fof-polls.forum.compose.schedule_publication_edit`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.schedule_publication_edit%22)
-
-> Edit scheduled publication
-
-```diff
-+Modifier la publication planifiée
-```
-
-#### [`fof-polls.forum.compose.schedule_submit`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.schedule_submit%22)
-
-> Schedule
-
-```diff
-+Planifier
-```
-
-#### [`fof-polls.forum.compose.submit`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.submit%22)
-
-> Submit
-
-```diff
-+Envoyer
-```
-
-#### [`fof-polls.forum.compose.update_draft`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.compose.update_draft%22)
-
-> Update draft
-
-```diff
-+Mettre à jour le brouillon
-```
-
-#### [`fof-polls.forum.modal.empty_answers`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.modal.empty_answers%22)
-
-> {count, plural, one {# answer is empty — please fill it in or remove it.} other {# answers are empty — please fill them in or remove them.}}
-
-```diff
-+{count, plural, one {# le champs est vide — veuillez la remplir ou la supprimer.} other {# les champs sont vides — veuillez les remplir ou les supprimer.}}
-```
-
-#### [`fof-polls.forum.poll.draft_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll.draft_label%22)
-
-> Draft
-
-```diff
-+Brouillon
-```
-
-#### [`fof-polls.forum.poll.scheduled_error_tooltip`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll.scheduled_error_tooltip%22)
-
-> This scheduled publication failed. Open the poll to see why.
-
-```diff
-+La planification de cette publication a échoué. Ouvrez le sondage pour découvrir pourquoi.
-```
-
-#### [`fof-polls.forum.poll.scheduled_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll.scheduled_label%22)
-
-> Scheduled for {date}
-
-```diff
-+Planifié pour {date}
-```
-
-#### [`fof-polls.forum.poll_controls.cancel_schedule_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.cancel_schedule_label%22)
-
-> Cancel scheduled publication
-
-```diff
-+Annuler la publication planifiée
-```
-
-#### [`fof-polls.forum.poll_controls.cancel_schedule_success`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.cancel_schedule_success%22)
-
-> Scheduled publication cancelled.
-
-```diff
-+La publication planifiée a été annulée.
-```
-
-#### [`fof-polls.forum.poll_controls.edit_schedule_publish_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.edit_schedule_publish_label%22)
-
-> Edit scheduled publication
-
-```diff
-+Modifier la publication planifiée
-```
-
-#### [`fof-polls.forum.poll_controls.publish_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.publish_label%22)
-
-> Publish now
-
-```diff
-+Publier maintenant
-```
-
-#### [`fof-polls.forum.poll_controls.publish_success`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.publish_success%22)
-
-> Poll published.
-
-```diff
-+Sondage publié.
-```
-
-#### [`fof-polls.forum.poll_controls.schedule_publish_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.schedule_publish_label%22)
-
-> Schedule publication
-
-```diff
-+Planifier la publication
-```
-
-#### [`fof-polls.forum.poll_controls.unpublish_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.unpublish_confirmation%22)
-
-> Move this poll back to draft? It will disappear from the showcase.
-
-```diff
-+Remettre ce sondage en brouillon ? Il disparaîtra de la page d'accueil.
-```
-
-#### [`fof-polls.forum.poll_controls.unpublish_error_has_votes`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.unpublish_error_has_votes%22)
-
-> Cannot unpublish — the poll already has votes. Delete it instead.
-
-```diff
-+Impossible de désactiver la publication — le sondage a déjà recueilli des votes. Supprimez-le plutôt.
-```
-
-#### [`fof-polls.forum.poll_controls.unpublish_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.unpublish_label%22)
-
-> Move back to draft
-
-```diff
-+Remettre en brouillon
-```
-
-#### [`fof-polls.forum.poll_controls.unpublish_success`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.poll_controls.unpublish_success%22)
-
-> Poll moved to draft.
-
-```diff
-+Sondage remis en brouillon.
-```
-
-#### [`fof-polls.forum.polls_list.status_filter.all`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.polls_list.status_filter.all%22)
-
-> All
-
-```diff
-+Tous
-```
-
-#### [`fof-polls.forum.polls_list.status_filter.draft`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.polls_list.status_filter.draft%22)
-
-> Drafts
-
-```diff
-+Brouillons
-```
-
-#### [`fof-polls.forum.polls_list.status_filter.published`](https://weblate.rob006.net/translate/flarum2/fof-polls/fr/?q=context%3A%3D%22fof-polls.forum.polls_list.status_filter.published%22)
-
-> Published
-
-```diff
-+Publiés
++Annuler
 ```
 
 
@@ -5267,145 +3609,6 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 ```
 
 
-### `fof-signature` (missing)
-
-#### [`fof-signature.admin.permissions.allow_signature`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.permissions.allow_signature%22)
-
-> Can have a signature
-
-```diff
-+Peut avoir une signature
-```
-
-#### [`fof-signature.admin.permissions.edit_signature_others`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.permissions.edit_signature_others%22)
-
-> Edit other users' signatures
-
-```diff
-+Modifier les signatures des autres utilisateurs
-```
-
-#### [`fof-signature.admin.settings.allow_inline_editing.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.allow_inline_editing.description%22)
-
-> Inline editing of signature.
-
-```diff
-+Modification en ligne de la signature.
-```
-
-#### [`fof-signature.admin.settings.allow_inline_editing.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.allow_inline_editing.help%22)
-
-> When enabled, users can edit their signature while viewing a post.
-
-```diff
-+Lorsque cette option est activée, les utilisateurs peuvent modifier leur signature lorsqu'ils consultent un message.
-```
-
-#### [`fof-signature.admin.settings.maximum_char_limit.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.maximum_char_limit.description%22)
-
-> Maximum character limit of signature.
-
-```diff
-+Limite maximale de caractères de la signature.
-```
-
-#### [`fof-signature.admin.settings.maximum_char_limit.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.maximum_char_limit.help%22)
-
-> When the user exceeds the maximum character limit in their signature, they will be prevented from saving until the character count is accordingly.
-
-```diff
-+Lorsque l'utilisateur dépasse la limite maximale de caractères dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre de caractères soit réduit en conséquence.
-```
-
-#### [`fof-signature.admin.settings.maximum_image_count.description`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.maximum_image_count.description%22)
-
-> Maximum inserted images.
-
-```diff
-+Maximum d'images insérées.
-```
-
-#### [`fof-signature.admin.settings.maximum_image_count.help`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.admin.settings.maximum_image_count.help%22)
-
-> When the user exceeds the maximum image count in their signature, they will be prevented from saving until the image count is accordingly.
-
-```diff
-+Lorsque l'utilisateur dépasse le nombre maximal d'images dans sa signature, il ne peut plus enregistrer jusqu'à ce que le nombre d'images soit réduit en conséquence.
-```
-
-#### [`fof-signature.forum.buttons.edit`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.buttons.edit%22)
-
-> Edit Signature
-
-```diff
-+Modifier la signature
-```
-
-#### [`fof-signature.forum.buttons.save`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.buttons.save%22)
-
-> Save Signature
-
-```diff
-+Enregistrer la signature
-```
-
-#### [`fof-signature.forum.buttons.signature`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.buttons.signature%22)
-
-> Signature
-
-```diff
-+Signature
-```
-
-#### [`fof-signature.forum.editor.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.editor.placeholder%22)
-
-> Edit your signature here
-
-```diff
-+Modifiez votre signature ici
-```
-
-#### [`fof-signature.forum.errors.max_char_limit_exceed`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.errors.max_char_limit_exceed%22)
-
-> Maximum character limit exceeded.
-
-```diff
-+La limite maximale de caractères a été dépassée.
-```
-
-#### [`fof-signature.forum.errors.max_image_count_exceed`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.errors.max_image_count_exceed%22)
-
-> Maximum image count exceeded.
-
-```diff
-+Le nombre maximum d'images a été dépassé.
-```
-
-#### [`fof-signature.forum.errors.save_failed`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.errors.save_failed%22)
-
-> Something went wrong while saving your signature.
-
-```diff
-+Une erreur s'est produite lors de l'enregistrement de votre signature.
-```
-
-#### [`fof-signature.forum.profile.click`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.profile.click%22)
-
-> Click to write your signature
-
-```diff
-+Cliquez ici pour définir votre signature
-```
-
-#### [`fof-signature.forum.settings.heading`](https://weblate.rob006.net/translate/flarum2/fof-signature/fr/?q=context%3A%3D%22fof-signature.forum.settings.heading%22)
-
-> Signature
-
-```diff
-+Signature
-```
-
-
 ### `forumaker-magicbb` (missing)
 
 #### [`forumaker-magicbb.admin.permissions.bypass_like`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/fr/?q=context%3A%3D%22forumaker-magicbb.admin.permissions.bypass_like%22)
@@ -5774,113 +3977,6 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Vous devez répondre à cette discussion pour voir le contenu
-```
-
-
-### `forumaker-magicread` (missing)
-
-#### [`forumaker-magicread.admin.settings.enable_counter_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_counter_help%22)
-
-> Adds a character counter to the top-right corner of the message input
-
-```diff
-+Ajoute un compteur de caractères dans le coin supérieur droit de la zone de saisie du message
-```
-
-#### [`forumaker-magicread.admin.settings.enable_discussion_pager`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_discussion_pager%22)
-
-> Show page navigation instead of scroll bar
-
-```diff
-+Afficher la pagination à la place de la barre de défilement
-```
-
-#### [`forumaker-magicread.admin.settings.enable_discussion_pager_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_discussion_pager_help%22)
-
-> Removes the discussion scrubber, adds page navigation above and below the page and disables auto-scrolling
-
-```diff
-+Supprime la barre de défilement, ajoute la pagination en haut et en bas de la page et désactive le défilement automatique
-```
-
-#### [`forumaker-magicread.admin.settings.enable_pagination_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_pagination_help%22)
-
-> Keeps the discussion scrubber visible and adds a page picker below it
-
-```diff
-+Permet de garder le fil de discussion visible et ajoute un sélecteur de page en dessous
-```
-
-#### [`forumaker-magicread.admin.settings.enable_readmore_help`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_readmore_help%22)
-
-> Hides long posts on profile pages and adds a button to expand them
-
-```diff
-+Masque les longs messages sur les pages de profil et ajoute un bouton permettant de les développer
-```
-
-#### [`forumaker-magicread.admin.settings.section_pagination`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.admin.settings.section_pagination%22)
-
-> Pagination
-
-```diff
-+Pagination
-```
-
-#### [`forumaker-magicread.forum.pager.first`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.first%22)
-
-> Return to the beginning
-
-```diff
-+Revenir au début
-```
-
-#### [`forumaker-magicread.forum.pager.go`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.go%22)
-
-> Go
-
-```diff
-+Aller
-```
-
-#### [`forumaker-magicread.forum.pager.input_label`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.input_label%22)
-
-> Jump to page
-
-```diff
-+Sauter à la page
-```
-
-#### [`forumaker-magicread.forum.pager.last`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.last%22)
-
-> Go to the last page
-
-```diff
-+Aller à la dernière page
-```
-
-#### [`forumaker-magicread.forum.pager.next`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.next%22)
-
-> Next page
-
-```diff
-+Page suivante
-```
-
-#### [`forumaker-magicread.forum.pager.page`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.page%22)
-
-> Page
-
-```diff
-+Page
-```
-
-#### [`forumaker-magicread.forum.pager.prev`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/fr/?q=context%3A%3D%22forumaker-magicread.forum.pager.prev%22)
-
-> Previous page
-
-```diff
-+Page précédente
 ```
 
 
@@ -7375,158 +5471,153 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 ```
 
 
-### `huseyinfiliz-notificationhub` (missing)
+### `huseyinfiliz-diff` (missing)
 
-#### [`huseyinfiliz-notificationhub.admin.modal_notification.recipients_placeholder`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.modal_notification.recipients_placeholder%22)
+#### [`huseyinfiliz-diff.forum.deleteButton`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.deleteButton%22)
 
-> =&gt; huseyinfiliz-notificationhub.forum.modal\_notification.recipients\_placeholder
+> =&gt; core.forum.post\_controls.delete\_button
 
 ```diff
-+=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder
++=> core.forum.post_controls.delete_button
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.recipient_kinds.group`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.recipient_kinds.group%22)
+#### [`huseyinfiliz-diff.forum.deletedText`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.deletedText%22)
 
-> =&gt; huseyinfiliz-notificationhub.forum.recipient\_kinds.group
+> (deleted)
 
 ```diff
-+=> huseyinfiliz-notificationhub.forum.recipient_kinds.group
++(supprimé)
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.recipient_kinds.user`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.recipient_kinds.user%22)
+#### [`huseyinfiliz-diff.forum.differences.currentContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.currentContent%22)
 
-> =&gt; huseyinfiliz-notificationhub.forum.recipient\_kinds.user
+> =&gt; huseyinfiliz-diff.ref.currentContent
 
 ```diff
-+=> huseyinfiliz-notificationhub.forum.recipient_kinds.user
++=> huseyinfiliz-diff.ref.currentContent
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.settings.fields.color_invalid`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.settings.fields.color_invalid%22)
+#### [`huseyinfiliz-diff.forum.differences.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.originalContent%22)
 
-> Color must be a valid hex code, e.g. #ff0000 or #f00.
+> =&gt; huseyinfiliz-diff.ref.originalContent
 
 ```diff
-+La couleur doit être un code hexadécimal valide, p. ex. #ff0000 ou #f00.
++=> huseyinfiliz-diff.ref.originalContent
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.settings.fields.permission_help`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.settings.fields.permission_help%22)
+#### [`huseyinfiliz-diff.forum.differences.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.differences.revisionWithNumber%22)
 
-> Select member groups authorized to send this notification. If left empty, all authorized moderators/admins can send it.
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
 
 ```diff
-+Sélectionnez les groupes de membres autorisés à envoyer cette notification. Si ce champ est laissé vide, tous les modérateurs/administrateurs autorisés pourront l'envoyer.
++=> huseyinfiliz-diff.ref.revisionWithNumber
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.settings.fields.permission_placeholder`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.settings.fields.permission_placeholder%22)
+#### [`huseyinfiliz-diff.forum.editedInfo`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.editedInfo%22)
 
-> Type a group name...
+> =&gt; core.forum.post.edited\_tooltip
 
 ```diff
-+Saisissez un nom de groupe...
++=> core.forum.post.edited_tooltip
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.settings.fields.preview`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.settings.fields.preview%22)
+#### [`huseyinfiliz-diff.forum.editedText`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.editedText%22)
 
-> Preview
+> =&gt; core.forum.post.edited\_text
 
 ```diff
-+Prévisualiser
++=> core.forum.post.edited_text
 ```
 
-#### [`huseyinfiliz-notificationhub.admin.settings.fields.preview_placeholder`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.admin.settings.fields.preview_placeholder%22)
+#### [`huseyinfiliz-diff.forum.emptyText`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.emptyText%22)
 
-> Notification type name
+> No Revisions
 
 ```diff
-+Nom du type de notification
++Pas de révision
 ```
 
-#### [`huseyinfiliz-notificationhub.api.field_too_long`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.field_too_long%22)
+#### [`huseyinfiliz-diff.forum.optionsButton`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.optionsButton%22)
 
-> This field is too long.
+> Options
 
 ```diff
-+Ce champ est trop long.
++Options
 ```
 
-#### [`huseyinfiliz-notificationhub.api.invalid_color`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.invalid_color%22)
+#### [`huseyinfiliz-diff.forum.previewMode.currentContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.currentContent%22)
 
-> Color must be a valid hex code (e.g. #ff0000 or #f00).
+> =&gt; huseyinfiliz-diff.ref.currentContent
 
 ```diff
-+La couleur doit être un code hexadécimal valide (p. ex. #ff0000 ou #f00).
++=> huseyinfiliz-diff.ref.currentContent
 ```
 
-#### [`huseyinfiliz-notificationhub.api.invalid_url`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.invalid_url%22)
+#### [`huseyinfiliz-diff.forum.previewMode.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.originalContent%22)
 
-> Invalid URL protocol detected.
+> =&gt; huseyinfiliz-diff.ref.originalContent
 
 ```diff
-+Protocole URL invalide détecté.
++=> huseyinfiliz-diff.ref.originalContent
 ```
 
-#### [`huseyinfiliz-notificationhub.api.invalid_url_scheme`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.invalid_url_scheme%22)
+#### [`huseyinfiliz-diff.forum.previewMode.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.previewMode.revisionWithNumber%22)
 
-> Invalid URL scheme. Only HTTP, HTTPS, mailto, tel, or relative links are allowed.
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
 
 ```diff
-+Schéma URL invalide. Seuls les liens HTTP, HTTPS, « mailto », « tel » ou relatifs sont autorisés.
++=> huseyinfiliz-diff.ref.revisionWithNumber
 ```
 
-#### [`huseyinfiliz-notificationhub.api.message_too_long`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.message_too_long%22)
+#### [`huseyinfiliz-diff.forum.revertChangesButton`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.revertChangesButton%22)
 
-> Message cannot be longer than 5000 characters.
+> Revert Changes
 
 ```diff
-+Le message ne doit pas dépasser 5 000 caractères.
++Annuler les modifications
 ```
 
-#### [`huseyinfiliz-notificationhub.api.multiple_recipients_not_allowed`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.multiple_recipients_not_allowed%22)
+#### [`huseyinfiliz-diff.forum.revisions`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.revisions%22)
 
-> You do not have permission to send to multiple recipients at once.
+> {revisionCount, plural, one {{revisionCount} revision} other {{revisionCount} revisions}}
 
 ```diff
-+Vous n'êtes pas autorisé à envoyer un message à plusieurs destinataires à la fois.
++{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}
 ```
 
-#### [`huseyinfiliz-notificationhub.api.name_required`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.name_required%22)
+#### [`huseyinfiliz-diff.forum.tooltips.originalContent`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.originalContent%22)
 
-> The notification type name is required.
+> =&gt; huseyinfiliz-diff.ref.originalContent
 
 ```diff
-+Le nom du type de notification est requis.
++=> huseyinfiliz-diff.ref.originalContent
 ```
 
-#### [`huseyinfiliz-notificationhub.api.name_too_long`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.name_too_long%22)
+#### [`huseyinfiliz-diff.forum.tooltips.preview`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.preview%22)
 
-> Name cannot be longer than 255 characters.
+> =&gt; core.forum.composer.preview\_tooltip
 
 ```diff
-+Le nom ne doit pas dépasser 255 caractères.
++=> core.forum.composer.preview_tooltip
 ```
 
-#### [`huseyinfiliz-notificationhub.api.sort_order_invalid`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.sort_order_invalid%22)
+#### [`huseyinfiliz-diff.forum.tooltips.revisionWithNumber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.tooltips.revisionWithNumber%22)
 
-> Sort order must be a non-negative number.
+> =&gt; huseyinfiliz-diff.ref.revisionWithNumber
 
 ```diff
-+L'ordre de tri doit être un nombre non négatif.
++=> huseyinfiliz-diff.ref.revisionWithNumber
 ```
 
-#### [`huseyinfiliz-notificationhub.api.url_too_long`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.api.url_too_long%22)
 
-> URL cannot be longer than 2048 characters.
+### `huseyinfiliz-leaderboard` (missing)
 
-```diff
-+L'URL ne doit pas dépasser 2 048 caractères.
-```
+#### [`huseyinfiliz-leaderboard.admin.modals.cancel`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/fr/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.cancel%22)
 
-#### [`huseyinfiliz-notificationhub.forum.modal_notification.preview_all_members`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-notificationhub/fr/?q=context%3A%3D%22huseyinfiliz-notificationhub.forum.modal_notification.preview_all_members%22)
-
-> All Members
+> Cancel
 
 ```diff
-+Tous les membres
++Annuler
 ```
 
 

@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **318** are translated differently and **577** are
-translated only in `de`. Altogether they cover **92** components.
+sides, but do not match between them: **321** are translated differently and **577** are
+translated only in `de`. Altogether they cover **93** components.
 
 <!-- {% raw %} -->
 
@@ -24,6 +24,7 @@ translated only in `de`. Altogether they cover **92** components.
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
+| `flarum-mentions` | [3](#flarum-mentions) | 0 |
 | `flarum-nicknames` | [1](#flarum-nicknames) | 0 |
 | `flarum-pusher` | [2](#flarum-pusher) | 0 |
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
@@ -550,6 +551,42 @@ Erlaube <del>Benutzern</del><ins>Benutzern,</ins> eigene Beiträge zu melden
 ```
 
 Bitte <del>gebe</del><ins>gib</ins> einen Grund an.
+
+
+### `flarum-mentions`
+
+#### [`flarum-mentions.forum.notifications.post_mentioned_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de/?q=context%3A%3D%22flarum-mentions.forum.notifications.post_mentioned_text%22)
+
+> {username} replied to your post
+
+```diff
+-{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet
++{username} hat auf deinen Beitrag geantwortet
+```
+
+{username} <del>{count, plural, one {hat} other {haben}}</del><ins>hat</ins> auf deinen Beitrag geantwortet
+
+#### [`flarum-mentions.forum.post.mentioned_by_self_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_self_text%22)
+
+> {users} replied to this.
+
+```diff
+-{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.
++{users} haben auf diesen Beitrag geantwortet.
+```
+
+{users} <del>{count, plural, one {hast} other {haben}}</del><ins>haben</ins> auf diesen Beitrag geantwortet.
+
+#### [`flarum-mentions.forum.post.mentioned_by_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_text%22)
+
+> {users} replied to this.
+
+```diff
+-{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.
++{users} hat hierauf geantwortet.
+```
+
+{users} <del>{count, plural, one {hat} other {haben}} auf diesen</del><ins>hat</ins> <del>Beitrag</del><ins>hierauf</ins> geantwortet.
 
 
 ### `flarum-nicknames`
@@ -3377,11 +3414,11 @@ Navigation umkehren <del>(Themen</del><ins>(Tags</ins> oberhalb der Menüpunkte 
 
 ```diff
 -Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
-+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
++Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen '{{ login_url }}' und '{{ register_url }}' in deinem HTML-Code.
 
 ```
 
-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen „{{ login\_url }}“ und „{{ register\_url }}“ in deinem HTML-Code.<br />
+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„{{</del><ins>'{{</ins> login\_url <del>}}“</del><ins>}}'</ins> und <del>„{{</del><ins>'{{</ins> register\_url <del>}}“</del><ins>}}'</ins> in deinem HTML-Code.<br />
 
 #### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
 
