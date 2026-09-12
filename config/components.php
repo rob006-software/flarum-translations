@@ -981,7 +981,7 @@ return [
 		],
 	],
 	'stezkoy-ai-openreply' => [
-		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/1.0.0-beta.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
