@@ -3,79 +3,79 @@
         "admin": {
             "nav": {
                 "pwa_button": "Progresywna aplikacja internetowa",
-                "pwa_text": ""
+                "pwa_text": "Skonfiguruj Flarum jako progresywną aplikację internetową, którą można instalować na urządzeniach mobilnych."
             },
             "pwa": {
                 "about": {
                     "description_label": "Opis",
                     "description_text": "Opis możesz ustawić na stronie „Podstawowe” w panelu administracyjnym.",
                     "long_name_label": "Pełna nazwa",
-                    "long_name_text": "Nazwa aplikacji wyświetlana użytkownikom.",
+                    "long_name_text": "Pełna nazwa aplikacji wyświetlana użytkownikom.",
                     "heading": "Informacje",
                     "short_name_label": "Krótka nazwa",
-                    "short_name_text": ""
+                    "short_name_text": "Nazwa aplikacji wyświetlana, gdy nie ma wystarczająco dużo miejsca na pełną nazwę."
                 },
                 "colors": {
                     "heading": "Kolory",
                     "background_color_label": "Kolor tła",
-                    "background_color_text": "",
+                    "background_color_text": "Kolor zastępczy używany na ekranie startowym podczas ładowania PWA. Po załadowaniu aplikacji nie jest już używany.",
                     "theme_color_label": "Kolor motywu",
-                    "theme_color_text": ""
+                    "theme_color_text": "Ten kolor może być używany przez urządzenie podczas wyświetlania aplikacji, np. w przełączniku aplikacji Androida jako kolor otoczenia strony."
                 },
                 "maintenance": {
                     "heading": "Konserwacja",
-                    "debug_label": "",
+                    "debug_label": "Włącz tryb debugowania",
                     "debug_text": "Zapisuje informacje o powiadomieniach w `storage/logs`. Zwykle powinien być wyłączony, aby nie zapełniać niepotrzebnie logów.",
-                    "reset_vapid_button": "",
-                    "reset_vapid_text": "",
+                    "reset_vapid_button": "Zresetuj klucze VAPID",
+                    "reset_vapid_text": "Spowoduje to wygenerowanie nowych kluczy VAPID i usunięcie wszystkich istniejących subskrypcji korzystających z obecnych kluczy.",
                     "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie subskrypcje korzystające z obecnych kluczy. Użytkownicy nie będą otrzymywać powiadomień, dopóki ponownie nie odwiedzą strony. Używaj tej opcji tylko przy pierwszej konfiguracji powiadomień push albo gdy powiadomienia w ogóle nie działają i powyżej widoczny jest komunikat o braku kluczy VAPID.",
                     "reset_vapid_success": "Klucze VAPID zostały zresetowane. Zresetowano subskrypcje: {count}. Odśwież stronę, aby zobaczyć zaktualizowany raport stanu."
                 },
                 "firebase_config": {
                     "heading": "Firebase",
-                    "help_text": "",
-                    "upload_successful": "",
+                    "help_text": "Aby obsługiwać powiadomienia push po opublikowaniu aplikacji w Apple App Store, musisz użyć Firebase. Wygeneruj konfigurację Firebase Service Config i prześlij ją tutaj. <a>Zobacz dokumentację</a>.",
+                    "upload_successful": "Konfiguracja Firebase została przesłana.",
                     "upload_file": "Prześlij plik"
                 },
                 "other": {
                     "heading": "Pozostałe",
-                    "force_portrait_text": "",
-                    "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": "",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": "",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "force_portrait_text": "Wymuś orientację pionową",
+                    "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z e-mail",
+                    "push_notif_preference_default_to_email_text": "Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.",
+                    "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
+                    "user_max_subscriptions_text": "Ile subskrypcji push może mieć jednocześnie każdy użytkownik? Przy wysyłaniu powiadomienia push każda subskrypcja powoduje osobne wywołanie API. Każda subskrypcja zwykle odpowiada jednej przeglądarce używanej przez użytkownika.",
+                    "window_controls_overlay_label": "Włącz Window Controls Overlay",
+                    "window_controls_overlay_text": "Po włączeniu użytkownicy mogą uzyskać bardziej immersyjne środowisko przypominające natywną aplikację dzięki ukryciu systemowego paska tytułu. Dostępność Window Controls Overlay zależy od ustawień użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS. W przeciwnym razie kontrolki mogą zasłonić elementy górnego paska nawigacyjnego forum, a przeciąganie okna będzie bardzo utrudnione.\n\nZobacz także: <compatibilitylink>zgodność przeglądarek z Window Controls Overlay</compatibilitylink> i <learnlink>informacje o Window Controls Overlay w Microsoft Learn</learnlink>\n",
+                    "share_buttons_label": "Włącz przyciski udostępniania",
+                    "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników."
                 },
                 "heading": "Konfiguracja progresywnej aplikacji internetowej",
-                "text": "",
+                "text": "Skonfiguruj swoje forum Flarum jako progresywną aplikację internetową! Nie oznacza to automatycznej publikacji forum w sklepie z aplikacjami. Użytkownicy otrzymają natomiast możliwość dodania go do ekranu głównego. Udostępniamy kilka kontroli stanu, ale najlepszym sposobem na przetestowanie PWA jest samodzielna próba instalacji (instrukcje instalowania progresywnych aplikacji internetowych znajdziesz w internecie). Pamiętaj, że komunikaty zachęcające do instalacji PWA są kontrolowane przez przeglądarki i nie mogą być wywoływane przez programistów, administratorów ani aplikacje. Warto dodać instrukcję instalacji PWA do dokumentacji forum.",
                 "status_check_heading": "Kontrola stanu",
                 "logo_heading": "Logo i ikony",
-                "logo_text": "",
-                "logo_size_text": "",
+                "logo_text": "Aby progresywną aplikację internetową można było zainstalować, musisz przesłać co najmniej jedno logo. Wszystkie logo muszą być kwadratowe. W przeciwnym razie zostaną przeskalowane i mogą zostać rozciągnięte.\n\nPoniżej dostępnych jest kilka rozmiarów. Zalecamy przesłanie logo w jak największej liczbie rozmiarów, aby zapewnić obsługę większej liczby urządzeń.\n\nMożesz użyć jednego dużego logo również w polach dla mniejszych rozmiarów. Na przykład logo 1000 × 1000 px możesz przesłać do wszystkich pól poniżej. Jeśli jednak prześlesz logo 50 × 50 px do pola 512 × 512, zostanie ono znacznie rozciągnięte.\n",
+                "logo_size_text": "Prześlij logo, które zostanie przeskalowane do {size} × {size} pikseli.",
                 "submit_button": "Zapisz ustawienia",
                 "refreshed_message": "Konfiguracja PWA została odświeżona."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
+                "config_no_https": "Adres URL w pliku config.php nie korzysta z HTTPS. HTTPS jest wymagany do działania progresywnych aplikacji internetowych.",
+                "possible_https_disabled": "Wygląda na to, że strona może nie korzystać z HTTPS. Pomóc może wyczyszczenie pamięci podręcznej (panel administracyjny => Narzędzia). Jeśli HTTPS działa, zignoruj ten komunikat. W przeciwnym razie pamiętaj, że jest ono wymagane do działania progresywnych aplikacji internetowych.",
                 "no_logo": "Aby aplikację można było zainstalować, musisz przesłać co najmniej jedno logo o rozmiarze minimum 144 × 144 px.",
                 "no_name": "Aby aplikacja działała, musisz podać jej pełną nazwę.",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "no_vapid_keys": "Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz je zresetować poniżej.",
+                "key_gen_failed": "Nie udało się wygenerować kluczy wymaganych do obsługi powiadomień push. Pełny komunikat błędu: {error}",
+                "suggest_gmp": "Wygląda na to, że rozszerzenie PHP gmp nie jest włączone na serwerze. Nie jest ono bezwzględnie wymagane, ale może poprawić wydajność i jest zalecane. Niektóre hostingi współdzielone mogą go nie obsługiwać.",
+                "success": "Nie znaleziono żadnych potencjalnych problemów!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_enable_button": "",
-                "optin_success": "",
-                "optin_declined": "",
-                "optin_deferred": ""
+                "optin": "To forum może wysyłać powiadomienia push na to urządzenie. Czy chcesz je włączyć?",
+                "optin_enable_button": "Włącz",
+                "optin_success": "Powiadomienia push zostały włączone na tym urządzeniu.",
+                "optin_declined": "Powiadomienia push zostały zablokowane. Możesz zezwolić na nie później w ustawieniach przeglądarki.",
+                "optin_deferred": "Powiadomienia push nie zostały włączone. Możesz włączyć je później w ustawieniach powiadomień."
             },
             "discussion_controls": {
                 "share_button": "Udostępnij"
@@ -83,7 +83,7 @@
             "post_controls": {
                 "share_button": "Udostępnij",
                 "share_api": {
-                    "title": ""
+                    "title": "Odpowiedź użytkownika {username} w {title}"
                 }
             },
             "user_controls": {
@@ -93,7 +93,7 @@
                 "push_header": "Push",
                 "pwa_notifications": {
                     "access_default": "Ze względu na ograniczenia przeglądarki musisz wyrazić zgodę na powiadomienia push na tym urządzeniu.",
-                    "access_default_button": "Zgadzam się",
+                    "access_default_button": "Włącz",
                     "access_denied": "Aby otrzymywać powiadomienia push na tym urządzeniu, zmień ustawienia przeglądarki.",
                     "access_denied_button": "Dowiedz się jak",
                     "no_browser_support": "Ta przeglądarka nie obsługuje powiadomień push dla progresywnych aplikacji internetowych.",
@@ -101,17 +101,17 @@
                 }
             },
             "notifications_help": {
-                "browser_notifications_title": "",
-                "title": "",
-                "description": "",
-                "chromium_title": "",
-                "chromium_instructions": "",
-                "firefox_title": "",
-                "firefox_instructions": "",
-                "safari_mac_title": "",
-                "safari_mac_instructions": "",
-                "safari_ios_title": "",
-                "safari_ios_instructions": ""
+                "browser_notifications_title": "Jak włączyć powiadomienia w przeglądarce",
+                "title": "Włącz powiadomienia push",
+                "description": "Jeśli wcześniej zablokowałeś powiadomienia, wykonaj poniższe kroki, aby ponownie je włączyć na swoim urządzeniu.",
+                "chromium_title": "Google Chrome, Microsoft Edge i Android",
+                "chromium_instructions": "Kliknij ikonę informacji o stronie (kłódkę lub ikonę ustawień) obok adresu strony w przeglądarce. Wybierz „Ustawienia witryny” (lub „Uprawnienia”), znajdź „Powiadomienia” i zmień ustawienie na „Zezwalaj”.",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Kliknij ikonę kłódki obok adresu strony. Jeśli powiadomienia są oznaczone jako „Zablokowane”, kliknij znajdujący się obok nich „X”, aby usunąć ograniczenie. Odśwież stronę i zezwól na powiadomienia, gdy pojawi się odpowiedni komunikat.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Otwórz menu Safari u góry ekranu i wybierz „Ustawienia” (lub „Preferencje”). Przejdź do karty „Witryny”, wybierz „Powiadomienia” na pasku bocznym, znajdź to forum na liście i zmień ustawienie na „Zezwalaj”.",
+                "safari_ios_title": "Apple iPhone i iPad (iOS/iPadOS)",
+                "safari_ios_instructions": "Powiadomienia push w systemach iOS i iPadOS wymagają zainstalowania aplikacji. W Safari stuknij ikonę „Udostępnij” i wybierz „Dodaj do ekranu początkowego”. Następnie otwórz zainstalowaną aplikację. Jeśli powiadomienia są zablokowane, otwórz aplikację „Ustawienia” systemu iOS, przejdź do „Powiadomienia”, wybierz tę aplikację internetową z listy i włącz „Dopuszczaj powiadomienia”."
             }
         },
         "views": {
