@@ -78,13 +78,13 @@
             },
             "navigation": {
                 "heading": "Navigation",
-                "intro": "",
-                "in_sidebar": "",
-                "in_sidebar_help": "",
-                "in_account_menu": "",
-                "in_account_menu_help": "",
-                "forum_nav": "",
-                "forum_nav_help": ""
+                "intro": "Où apparaît le lien « Assistance » et ce la barre latérale affiche sur les pages d'assistance.",
+                "in_sidebar": "Afficher le lien « Assistance » dans la barre latérale du forum",
+                "in_sidebar_help": "Le lien qui figure aux côtés de « Toutes les discussions » et « Étiquettes ». Réservé aux membres dans tous les cas : les invités ne peuvent pas ouvrir un ticket.",
+                "in_account_menu": "Afficher le lien « Assistance » dans le menu du compte",
+                "in_account_menu_help": "Le menu situé sous votre avatar, à côté de « Profil » et « Paramètres ».",
+                "forum_nav": "Afficher la navigation du forum sur les pages d'assistance",
+                "forum_nav_help": "Lorsque cette option est activée, les pages d'assistance affichent également « Toutes les discussions », « Abonné » et « Étiquettes » au-dessus des filtres de tickets. Cette option est désactivée par défaut ; les pages d'assistance n'affichent donc que les tickets."
             },
             "rate_limits": {
                 "heading": "Limites de fréquence",
@@ -107,7 +107,7 @@
             }
         },
         "forum": {
-            "nav": "Support",
+            "nav": "Assistance",
             "new_ticket": "Nouveau ticket",
             "submit_ticket": "Envoyer le ticket",
             "common": {
@@ -119,7 +119,7 @@
             "notifications": {
                 "someone": "Un utilisateur",
                 "reply_from": "{name} a répondu à votre ticket",
-                "reply_generic": "Le support a répondu à votre ticket",
+                "reply_generic": "Le service assistance a répondu à votre ticket",
                 "new_ticket": "{name} a ouvert un nouveau ticket",
                 "new_appeal": "{name} a ouvert un nouveau recours"
             },
@@ -254,11 +254,11 @@
             }
         },
         "email": {
-            "new_reply_subject": "[Support] Nouvelle réponse sur : {subject}",
-            "new_ticket_subject": "[Support] Nouveau ticket : {subject}",
+            "new_reply_subject": "[Assistance] Nouvelle réponse sur : {subject}",
+            "new_ticket_subject": "[Assistance] Nouveau ticket : {subject}",
             "new_appeal_subject": "[Recours] Nouveau ticket : {subject}",
             "fallback_ticket": "votre ticket",
-            "from_support": "Support",
+            "from_support": "Assistance",
             "from_a_user": "un utilisateur",
             "new_reply_body": "{name} a répondu à votre ticket :",
             "view_ticket": "Consulter le ticket",
