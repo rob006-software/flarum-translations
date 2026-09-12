@@ -1147,12 +1147,12 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 >
 
 ```diff
--Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visita {extiverse} para explorar extensiones.
+-Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visita {link} para explorar extensiones.
 +Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.
 
 ```
 
-<del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato &lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;. <del>Visita</del><ins>Visite</ins> {extiverse} para explorar extensiones.<br />
+<del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato &lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;. <del>Visita</del><ins>Visite</ins> <del>{link}</del><ins>{extiverse}</ins> para explorar extensiones.<br />
 
 #### [`flarum-extension-manager.admin.major_updater.description`](https://weblate.rob006.net/translate/flarum/flarum-extension-manager/es@formal/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.description%22)
 
