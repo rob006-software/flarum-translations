@@ -2,32 +2,32 @@
     "huseyinfiliz-diff": {
         "forum": {
             "revisions": "{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}",
-            "emptyText": "Pas de révision",
+            "emptyText": "Aucune révision",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(supprimé)",
             "tooltips": {
-                "mostRecent": "",
+                "mostRecent": "le plus récent",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
                 "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
-                "sideBySide": "",
-                "inline": "",
-                "combined": "",
+                "sideBySide": "Côte à côte",
+                "inline": "Ligne par ligne",
+                "combined": "Combiné",
                 "preview": "=> core.forum.composer.preview_tooltip"
             },
             "optionsButton": "Options",
             "deleteButton": "=> core.forum.post_controls.delete_button",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
+            "rollbackButton": "Revenir à la révision {number}",
+            "rollbackToOriginalButton": "Revenir à la version d'origine",
             "revertChangesButton": "Annuler les modifications",
-            "confirmRollback": "",
-            "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
+            "confirmRollback": "Êtes-vous sûr de vouloir modifier votre message actuel ?",
+            "confirmDelete": "Êtes-vous sûr de vouloir supprimer le contenu de cette modification de l'historique ?",
+            "rollbackErrorMessage": "L'annulation des modifications a échoué.",
+            "deleteErrorMessage": "La suppression du contenu de la modification a échoué.",
+            "rollbackSuccessMessage": "Vos modifications ont été annulées.",
+            "deleteSuccessMessage": "Les contenus de cette modification ont été supprimés.",
             "editedInfo": "=> core.forum.post.edited_tooltip",
-            "deletedInfo": "",
-            "createdInfo": "",
+            "deletedInfo": "{username} a supprimé ce contenu {ago}",
+            "createdInfo": "{username} a créé {ago}",
             "revisionInfo": "",
             "noDiff": "",
             "differences": {
@@ -76,9 +76,9 @@
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "contenu original",
+            "currentContent": "contenu actuel",
+            "revisionWithNumber": "révision {number}"
         }
     }
 }
