@@ -231,79 +231,79 @@
                 "unsupported_object": {
                     "title": "Cet objet n'est pas un objet SeoMeta pris en charge",
                     "docs_link": "Documentation",
-                    "body": ""
+                    "body": "Veuillez ouvrir cette boîte de dialogue en utilisant les propriétés objectType et objectId ou enregistrez plutôt la relation entre les objets."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Mise à jour automatique des balises méta",
+                    "help": "Lorsque cette option est activée, les balises meta de cet élément sont automatiquement mises à jour dès que l'objet est modifié.",
+                    "switch": "Mettre à jour l'objet du SEO en cas de modification"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Titre Meta",
+                    "help": "Titre dans les moteurs de recherche.",
+                    "placeholder": "Saisir le titre de la page"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Description Meta",
+                    "help": "Décrit l’élément et s'affiche dans les moteurs de recherche."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Mots-clés",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élement.",
+                    "placeholder": "Ajouter quelques mots-clés",
+                    "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
+                    "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Image Meta",
+                    "help": "Affiche une image.",
+                    "placeholder": "Saisissez l'URL de l'image",
+                    "managed_by": "Source de l'image gérée par {source}",
+                    "upload": "Transférer un fichier"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Robots",
+                    "help": "Paramètres d'indexation par le robot pour cet élément.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "indexing_allowed": "Autoriser l'indexation de la page",
+                        "indexing_not_allowed": "L'indexation des pages n'est pas autorisée",
+                        "follow_allowed": "Autoriser le suivi des liens",
+                        "follow_not_allowed": "Le suivi des liens n'est pas autorisé",
+                        "archive_not_allowed": "L'archivage des pages n'est pas autorisé",
+                        "imageindex_not_allowed": "L'indexation des images n'est pas autorisée",
+                        "snippet_not_allowed": "Les extraits de texte ne sont pas autorisés"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Autoriser l'indexation de la page",
+                        "follow": "Autoriser le suivi des liens vers différentes pages",
+                        "noarchive": "Désactiver l'archivage de la page (noarchive)",
+                        "noimageindex": "Désactiver l'indexation des images sur cette page (noimageindex)",
+                        "nosnippet": "Désactiver les extraits de texte sur la page (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Temps de lecture estimé",
+                    "help": "Temps de lecture estimé en secondes.",
+                    "placeholder": "Temps de lecture en secondes"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "Carte X (anciennement Twitter)",
+                    "auto_switch": "Générer automatiquement une carte X (anciennement Twitter)",
+                    "title": "Titre X (anciennement Twitter)",
+                    "description": "Description X (anciennement Twitter)",
                     "image": {
-                        "label": "",
-                        "help": "",
-                        "reset": ""
+                        "label": "Image X (anciennement Twitter)",
+                        "help": "Affiche une image sur X (anciennement Twitter).",
+                        "reset": "Réinitialiser l'image"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Balises Open Graph",
+                    "auto_switch": "Générer automatiquement des balises Open Graph",
+                    "title": "Titre de l'Open Graph",
                     "description": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Description de l'Open Graph",
+                        "placeholder": "Description personnalisée de l'Open Graph"
                     }
                 }
             }
