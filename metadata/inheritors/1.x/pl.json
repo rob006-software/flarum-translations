@@ -2068,6 +2068,18 @@
         }
     },
     "fof-anti-spam.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "registration": {
+                        "blocked": "d41d8cd98f00b204e9800998ecf8427e 7415346ba0449bd0af4ba2258ca88e86"
+                    },
+                    "user": {
+                        "marked_as_spammer": "d41d8cd98f00b204e9800998ecf8427e c1025546c3b8855f17a22b6bce5eb477"
+                    }
+                }
+            }
+        },
         "fof-anti-spam": {
             "admin": {
                 "blocked_registrations": {
@@ -4309,7 +4321,7 @@
                         "description_text": "b4c964402362d39a3e1c19cc13ec80bc b4c964402362d39a3e1c19cc13ec80bc",
                         "heading": "7b646e34e6389f7d9987618ac2e9858a 7b646e34e6389f7d9987618ac2e9858a",
                         "long_name_label": "b1712b59c55ef0a7233680fe37867119 b1712b59c55ef0a7233680fe37867119",
-                        "long_name_text": "2a074b0e37d8caac0b40ec6685a64255 2a074b0e37d8caac0b40ec6685a64255",
+                        "long_name_text": "2a074b0e37d8caac0b40ec6685a64255 9c0316fe97b9adbe06e6ccb6e02aa8e9",
                         "short_name_label": "631dbbf5c806c93fb5435100f1c6cd31 631dbbf5c806c93fb5435100f1c6cd31"
                     },
                     "colors": {
@@ -4330,7 +4342,9 @@
                         "reset_vapid_success": "3d539545be1bfb4e50433dc34e03ce4a 3d539545be1bfb4e50433dc34e03ce4a"
                     },
                     "other": {
-                        "heading": "cf56f4ffadb5ba1cfec9a6769c6d82d1 cf56f4ffadb5ba1cfec9a6769c6d82d1"
+                        "heading": "cf56f4ffadb5ba1cfec9a6769c6d82d1 cf56f4ffadb5ba1cfec9a6769c6d82d1",
+                        "share_buttons_label": "d41d8cd98f00b204e9800998ecf8427e 902972a37e0c9b74f6d13db936c701fc",
+                        "share_buttons_text": "d41d8cd98f00b204e9800998ecf8427e 88c5bee7438c04cf0b53de4f47accf46"
                     },
                     "refreshed_message": "c2b67dc97311d07105294e4181ccb9e8 c2b67dc97311d07105294e4181ccb9e8",
                     "status_check_heading": "69a9871706713e827bdbe9fd52c8098b 69a9871706713e827bdbe9fd52c8098b",
@@ -4352,7 +4366,7 @@
                     "push_header": "9c6a9d9f033001a9b3104984d319563b 9c6a9d9f033001a9b3104984d319563b",
                     "pwa_notifications": {
                         "access_default": "564d3704a5ed1ebfa5424eec47d8e0b7 564d3704a5ed1ebfa5424eec47d8e0b7",
-                        "access_default_button": "a0a869703cee64a7b1c5206b17a67a0f a0a869703cee64a7b1c5206b17a67a0f",
+                        "access_default_button": "a0a869703cee64a7b1c5206b17a67a0f 3b1d45e52a058a3c26d693a7e4582a3a",
                         "access_denied": "74f2b9452a406d4b6c81728203b5bd0b 74f2b9452a406d4b6c81728203b5bd0b",
                         "access_denied_button": "57efee9fa48b4169f40cb2477fcce909 57efee9fa48b4169f40cb2477fcce909",
                         "no_browser_support": "913e981a886d342135dafc07b30a9e6d 913e981a886d342135dafc07b30a9e6d",
