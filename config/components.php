@@ -197,6 +197,9 @@ return [
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-picks' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/picks/2.4.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.3/locale/en.yml',
 	],
