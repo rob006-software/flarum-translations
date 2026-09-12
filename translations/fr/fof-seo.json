@@ -7,230 +7,230 @@
                 "learn_more": "En savoir plus"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Autoriser la configuration du SEO",
+                "category_label": "SEO"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Optimisation pour les moteurs de recherche (SEO)",
+                "tools": "Outils",
+                "health_check": "Bilan de santé",
+                "seo_settings": "Paramètres SEO",
+                "sitemap_info": "Informations sur le plan du site",
+                "search_engines_info": "Informations sur les moteurs de recherche",
+                "setup_ssl": "Configurer SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Il est temps de revoir vos paramètres SEO !",
+                    "cta": "Faites le bilan de santé !"
                 }
             },
             "modals": {
                 "crawl_post": {
-                    "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "title": "Paramètres d'exploration des messages",
+                    "intro": "<b>Lisez attentivement cette boîte de dialogue.</b> Cette fonction ne s'exécutera qu'au moment de l'actualisation de la page d'une discussion. Vous pourrez toujours modifier cette option ultérieurement.",
+                    "mode_main_title": "Indexer uniquement le message principal (par défaut)",
+                    "mode_main_help": "Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n'aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.",
+                    "mode_all_title": "Indexer tous les messages d'une discussion (option activée)",
+                    "mode_all_help": "Les moteurs de recherche comprennent les discussions et sont même capables d'afficher certains messages pertinents sous les résultats de recherche. Lorsque l'extension « <a>meilleure réponse</a> » est installée et activée sur votre forum, elle marquera la discussion comme « résolue » dans les résultats de recherche et redirigera l'utilisateur vers ce message spécifique. Chaque réponse est également affichée avec le nombre de « J'aime » et de votes positifs, ce qui permet aux moteurs de recherche d'identifier les réponses les plus utiles, même sans l'extension « meilleure réponse ». <b>Cependant, selon les paramètres de votre serveur, cela peut alourdir le système</b>. Cela peut nuire aux performances, donc l'activation de cette fonctionnalité dépend de la vitesse de votre serveur.",
+                    "question": "Voulez-vous activer cette fonctionnalité ?",
+                    "switch_label": "Explorer tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Liste des liens « do-follow »",
+                    "intro": "Saisissez les <b>noms d'hôte</b> des domaines que vous souhaitez ajouter à la liste des liens « do-follow ».",
+                    "default_note": "Le domaine que vous utilisez pour votre instance Flarum est ajouté à la liste par défaut.",
+                    "learn_more_line": "<a>En savoir plus</a> sur la liste des liens « do-follow ».",
+                    "add_placeholder": "Autoriser un domaine",
+                    "duplicate_error": "Ce domaine figure déjà dans votre liste des liens « do-follow »."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Mots-clés du forum",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent votre forum.",
+                    "placeholder": "Ajouter quelques mots-clés",
+                    "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
+                    "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Cette page contient d'autres paramètres issus de l'espace d'administration. Il est toutefois utile d'avoir une bonne vue d'ensemble de ces paramètres. N'oubliez pas d'effectuer la vérification SEO.",
+                    "maintain": "Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "Taille de la carte X (anciennement Twitter)",
+                    "help": "Lorsque votre forum est partagé sur X (anciennement Twitter), il affichera une image (si une image a été configurée pour les réseaux sociaux). Il peut s'agir d'une grande carte avec une grande image, ou d'une petite carte (résumé) avec une image plus petite.",
+                    "option_large": "Carte Résumé (avec une grande image)",
+                    "option_summary": "Carte Résumé (avec une petite image)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Image destinée aux réseaux sociaux",
+                    "help_size": "Une image carrée est attendue. La taille recommandée est de 1200 × 1200 pixels. Sinon, veuillez utiliser une image en format paysage ; la taille recommandée est de 1200 × 630 pixels.",
+                    "help_usage": "Cette image sera utilisée sur les réseaux sociaux lorsqu'un utilisateur partagera une page de votre site web (Facebook, X (anciennement Twitter), Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Paramètres d’indexation des messages de discussion",
+                    "help": "Il s'agit d'un paramètre important concernant l'exploration de vos messages de discussion dans les résultats de recherche.",
+                    "button": "Configurer les paramètres d'indexation des messages"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Contrôles de l'indexation",
+                    "profiles_label": "Désindexer les pages de profil",
+                    "profiles_help": "Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu'elles n'apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d'indexation d'accéder au contenu vers lequel ils renvoient.",
+                    "tags_help": "Les discussions dans les étiquettes sélectionnées (ainsi que les pages de ces étiquettes) seront exclues des résultats de recherche grâce à la balise meta « noindex ». Les liens continuent toutefois d'être suivis. La sélection d'une étiquette parente couvre également ses étiquettes enfants.",
+                    "tags_button": "Sélectionnez les étiquettes",
+                    "tags_none_selected": "Aucune étiquette n'est exclue de l'indexation."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "heading": "Liens « no-follow »",
+                    "help": "Tous les liens vers des domaines externes recevront par défaut l'attribut « <i>nofollow</i> ». Cela permettra d'éviter que des utilisateurs n'inondent votre forum avec des liens vers d'autres domaines dans le but d'obtenir davantage de visites.",
+                    "help_dofollow": "Ce paramètre vous permet d'ajouter des domaines à la liste « do-follow ». Par exemple, vous pouvez ajouter <i>flarum.org</i> pour vous assurer que les liens vers ce site web ne se voient pas attribuer l'attribut « nofollow ».",
+                    "button": "Ouvrir la liste des domaines « do-follow »"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Ouvrir les liens externes dans un nouvel onglet",
+                    "help": "Cette extension garantira également que les liens externes (vers d'autres domaines) s'ouvrent dans un nouvel onglet. Pour l'instant, il n'est pas possible de désactiver ce paramètre."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Avez-vous mis à jour ce paramètre ?",
+                    "help": "Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l'état de ce paramètre.",
+                    "button": "Revenir à la vue d'ensemble et revérifier"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Soumettez votre site web aux moteurs de recherche",
+                    "intro": "Il est recommandé de signaler l'existence de votre site aux moteurs de recherche. Cette page vous guidera pour y parvenir avec succès.",
+                    "sitemap_tip": "Il est recommandé de disposer d'un plan du site avant de suivre ce guide. Si vous n'avez pas encore un plan du site, <a>cliquez ici pour en savoir plus à ce sujet</a>.",
+                    "google_heading": "Ajoutez votre site web aux résultats de recherche Google",
+                    "google_visit": "Si vous souhaitez ajouter votre site web aux résultats de recherche Google, rendez-vous sur {link}. Vous devrez ajouter votre site web et confirmer que vous êtes bien le propriétaire du nom de domaine associé.",
+                    "google_www": "Lorsque vous saisissez votre nom de domaine, vous devez vous poser la question suivante : souhaitez-vous utiliser le sous-domaine « www » dans les résultats de recherche ? Vous ne pourrez <strong>pas</strong> modifier ce paramètre ultérieurement. Enregistrer votre nom de domaine plusieurs fois dans Google Search Console n'améliorera pas votre classement.",
+                    "google_sitemap": "Lorsque vous aurez terminé votre inscription à Google Search Console, rendez-vous sur la page <b>Plans du site</b>. Transmettez votre <b>sitemap.xml</b> à Google. Assurez-vous que Google peut explorer votre plan du site et qu'il continuera à le faire.",
+                    "bing_heading": "Ajoutez votre site web aux résultats de recherche Bing",
+                    "bing_visit": "Si vous souhaitez ajouter votre site web aux résultats de recherche Bing, rendez-vous sur {link} et suivez les étapes indiquées. Tous les champs ne sont pas obligatoires.",
+                    "bing_sitemap": "N'oubliez pas de configurer l'URL de votre plan du site. Une fois votre site web vérifié, tout est prêt et Bing va maintenant l'indexer.",
+                    "yandex_heading": "Ajoutez votre site web aux résultats de recherche Yandex",
+                    "yandex_visit": "Si vous souhaitez ajouter votre site web aux résultats de recherche Yandex, rendez-vous sur {link} et suivez les étapes indiquées.",
+                    "yandex_sitemap": "N'oubliez pas de configurer le plan du site dans Yandex.Webmaster.",
+                    "yahoo_heading": "Ajoutez votre site web aux résultats de recherche Yahoo",
+                    "yahoo_body": "Si vous souhaitez ajouter votre site web aux résultats de recherche Yahoo, veuillez finaliser votre inscription aux résultats de recherche Bing. Yahoo utilisera ces données.",
+                    "confirm_button": "J'ai lu"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Pourquoi utiliser un plan du site ?",
+                    "why_body": "Un plan du site est un fichier XML contenant la liste de toutes les pages disponibles sur votre site web. Il sera utilisé par les robots d'indexation et les moteurs de recherche pour trouver les pages de votre site web.",
+                    "generated_note": "Le fichier du plan du site est généré automatiquement et ne nécessite aucune maintenance.",
+                    "which_extension_heading": "Quelle extension dois-je installer ?",
+                    "which_extension_body": "{link} est l'extension recommandée à installer pour Flarum. Nous vous recommandons vivement de l'installer et de l'activer.",
+                    "which_extension_details": "Cette extension permettra aux robots d'indexation de trouver les <b>discussions</b>, les <b>étiquettes</b> (lorsque l'extension est activée) et les <b>Pages</b> de votre forum (lorsque l'extension est installée et activée). Elle mettra automatiquement à disposition un fichier sitemap.xml.",
+                    "robots_heading": "Qu'en est-il du fichier robots.txt ?",
+                    "robots_body": "Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu'ils sont autorisés à explorer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.",
+                    "just_installed_heading": "Je viens d'installer l'extension",
+                    "just_installed_body": "Dans ce cas, activez-la en cliquant sur l'extension dans la barre latérale de gauche. Cet avertissement disparaîtra alors."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
-                    "rankings_body": "",
-                    "rankings_body_ssl": "",
-                    "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
-                    "added_body": "",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "intro_heading": "Pourquoi ai-je besoin d'une connexion sécurisée ?",
+                    "intro_body": "La sensibilisation à la sécurité et à la protection des données sur Internet ne cesse de croître. <b>Presque tous les</b> développeurs et propriétaires de sites web souhaitent que leur site soit sécurisé pour leurs visiteurs, afin que ceux-ci n'aient pas à craindre que leurs données soient compromises par des pirates informatiques ou des usurpateurs d'identité.",
+                    "rankings_heading": "Moteurs de recherche {icon} connexions sécurisées",
+                    "rankings_body": "Lorsque vous ne disposez pas d'une connexion sécurisée vers votre site web, les moteurs de recherche classeront votre site bien plus bas que les autres, voire ne l'indexeront pas.",
+                    "rankings_body_ssl": "Lorsque vous disposez d'un certificat SSL, votre site web bénéficiera d'un meilleur classement et sera indexé.",
+                    "what_heading": "Qu'est-ce que SSL ou TLS ?",
+                    "what_body": "La plupart des gens connaissent <b>https</b>, utilisé pour les connexions sécurisées sous le nom de SSL : <i>Secure Sockets Layer</i>. Officiellement, son nom est TLS : <i>Transport Layer Security</i>. Cette méthode est utilisée pour établir une connexion sécurisée avec votre serveur web, ce qui empêchera les pirates ou d'autres serveurs web de se faire passer pour votre site web et garantira la sécurité de vos visiteurs. Si cela se produit, la connexion SSL sera interrompue et les navigateurs des visiteurs afficheront un message d'avertissement indiquant que le site n'est pas fiable.",
+                    "how_heading": "Comment ajouter un certificat SSL à votre site web ?",
+                    "how_body": "Pour les utilisateurs d'un hébergement web, la méthode la plus courante consiste à se connecter au panneau d'administration de l'hébergement, à accéder aux paramètres d'hébergement de votre site web, puis à cliquer sur « SSL ». Vous pouvez ensuite suivre les étapes indiquées pour ajouter un certificat SSL à votre site web. La plupart des hébergeurs prennent aujourd'hui en charge l'émetteur de certificats populaire {link}.",
+                    "added_heading": "OK, j'ai ajouté le certificat SSL !",
+                    "added_body": "Super ! Maintenant, modifiez votre fichier <b>config.php</b> et remplacez <b>« url »</b> par <b>https</b> !",
+                    "no_ssl_heading": "Et si je ne souhaite pas ajouter un certificat SSL ?",
+                    "no_ssl_body": "Dans ce cas, vous pouvez désinstaller cette extension, car les moteurs de recherche <b> n'indexeront pas votre forum </b> ou le classeront bien en dessous des autres sites pour des raisons de sécurité."
                 },
                 "health": {
-                    "legend": "",
-                    "default_button": "",
+                    "legend": "Pour obtenir des résultats optimaux sur les moteurs de recherche, assurez-vous que toutes les cases soient cochées en vert.",
+                    "default_button": "Mettre à jour les paramètres",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Technique",
+                        "status": "Statut"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Attention !",
+                        "passed": "Tout est prêt !"
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
-                            "button": ""
+                            "label": "Vérifie si votre forum comporte une description",
+                            "reason_missing": "Vous n'avez pas encore rédigé la description du forum !",
+                            "reason_default": "Vous n'avez pas modifié la description du forum par défaut après l'installation !",
+                            "reason_too_short": "Votre description du forum comporte moins de 20 caractères. Veuillez la développer pour obtenir de meilleurs résultats de recherche.",
+                            "button": "Mettre à jour la description"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifie si votre forum comporte des mots-clés",
+                            "reason": "Vous n'avez pas encore défini de mots-clés pour le forum !",
+                            "button": "Mettre à jour les mots-clés"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifie si votre site dispose d'une connexion sécurisée (SSL/TLS)",
+                            "reason": "Votre forum n'impose pas de connexion SSL/TLS (une connexion sécurisée à votre site web). La plupart des moteurs de recherche n'indexeront pas votre site web ou lui attribueront un classement moins favorable si aucune connexion sécurisée n'est disponible.",
+                            "button": "Comment configurer SSL"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifier les paramètres d'indexation des messages de discussion",
+                            "reason": "Vous devrez revoir ce paramètre pour valider.",
+                            "button": "Revoir les paramètres de message"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Configurer une image pour les réseaux sociaux",
+                            "reason": "Vous n'avez pas défini d'image pour votre forum destinée aux réseaux sociaux. Il est recommandé d'en définir une. Votre favicon sera désormais utilisé comme aperçu sur les réseaux sociaux.",
+                            "button": "Mettre à jour l'image"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifie si votre forum dispose d'un plan du site",
+                            "reason": "Il est fortement recommandé d'installer l'extension « FriendsOfFlarum Sitemap » !",
+                            "button": "En savoir plus sur la création d'un plan du site"
                         },
                         "robots": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifie si votre forum dispose d'un fichier robots.txt",
+                            "reason": "Votre fichier robots.txt est généré par l'extension « FriendsOfFlarum Sitemap ». Installez-la et activez-la pour mettre un fichier robots.txt à la disposition des moteurs de recherche.",
+                            "button": "En savoir plus sur la création d'un fichier robots.txt"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Vérifie si votre forum comporte des balises meta (générées par ce plugin)"
                         },
                         "search_engines": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Enregistrez votre forum auprès des moteurs de recherche",
+                            "reason": "Vous devrez vérifier ceci pour valider.",
+                            "button": "Plus d'informations"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Vérifiez vos paramètres SEO tous les deux mois. Prochaine vérification prévue le {date}",
+                            "reason": "Il est temps de revoir vos paramètres SEO.",
+                            "button": "OK ! Je les ai passés en revue !"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Profil de {username}",
+            "profile_description": "Profil de {username} | {discussion_count} discussions | {comment_count} messages",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Configurer le référencement",
+                "update_seo": "Mettre à jour le référencement",
+                "reset_seo": "Réinitialiser le référencement"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "Paramètres SEO - Meta",
+                "note_prefix": "Note :",
+                "managed": "Géré",
+                "saved": "Enregistré !",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Fermer",
+                    "save": "Enregistrer",
+                    "save_autofill": "Enregistrer et remplir automatiquement",
+                    "autofill_info": "Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l'élément."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
+                    "title": "Cet objet n'est pas un objet SeoMeta pris en charge",
+                    "docs_link": "Documentation",
                     "body": ""
                 },
                 "auto_update": {
