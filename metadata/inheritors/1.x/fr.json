@@ -1205,7 +1205,7 @@
         "datlechin-simple-tour-guide": {
             "admin": {
                 "settings": {
-                    "show_progress_label": "7b0d0ac2eda3e5d83ebfea5e986b2d54 7b0d0ac2eda3e5d83ebfea5e986b2d54"
+                    "show_progress_label": "7b0d0ac2eda3e5d83ebfea5e986b2d54 d41d8cd98f00b204e9800998ecf8427e"
                 }
             }
         }
@@ -7533,7 +7533,13 @@
     "huseyinfiliz-diff.json": {
         "huseyinfiliz-diff": {
             "forum": {
+                "confirmDelete": "d41d8cd98f00b204e9800998ecf8427e 4b4c415a88aeac6eeb58aa5c64d2fb81",
+                "confirmRollback": "d41d8cd98f00b204e9800998ecf8427e f15038e2250bc9452698ff410896f4a1",
+                "createdInfo": "d41d8cd98f00b204e9800998ecf8427e 42eaf977c81bdaf302b6883949a2319c",
                 "deleteButton": "d41d8cd98f00b204e9800998ecf8427e faee337211940438c21e9aaaedd030b4",
+                "deleteErrorMessage": "d41d8cd98f00b204e9800998ecf8427e 8c54b17f1e943284d5ad44f1102699d5",
+                "deleteSuccessMessage": "d41d8cd98f00b204e9800998ecf8427e fe0fdcd517c28ae3d9f8000617e17453",
+                "deletedInfo": "d41d8cd98f00b204e9800998ecf8427e 44c5e6aad3edb6e3821d19b63bb74154",
                 "deletedText": "d41d8cd98f00b204e9800998ecf8427e 29ac4233b40d813c18a3e2cfe3260e2b",
                 "differences": {
                     "currentContent": "d41d8cd98f00b204e9800998ecf8427e 3bbd0b90160824fa704650bdff58533d",
@@ -7542,7 +7548,7 @@
                 },
                 "editedInfo": "d41d8cd98f00b204e9800998ecf8427e a3fb025ba8924b826ce77fd42efd116f",
                 "editedText": "d41d8cd98f00b204e9800998ecf8427e e3c1aba893c82b330fa9feb7ec730e6b",
-                "emptyText": "d41d8cd98f00b204e9800998ecf8427e 9c51a66a59acdd88f4143f4837afd5bd",
+                "emptyText": "d41d8cd98f00b204e9800998ecf8427e 3ead7d6d9a79770f27945b974ae1a347",
                 "optionsButton": "d41d8cd98f00b204e9800998ecf8427e dae8ace18bdcbcc6ae5aece263e14fe8",
                 "previewMode": {
                     "currentContent": "d41d8cd98f00b204e9800998ecf8427e 3bbd0b90160824fa704650bdff58533d",
@@ -7551,11 +7557,24 @@
                 },
                 "revertChangesButton": "d41d8cd98f00b204e9800998ecf8427e 1e1998811b973b0ce51308f052ddf7a0",
                 "revisions": "d41d8cd98f00b204e9800998ecf8427e 3fe37de25c65167f21138b6c9be4bd4c",
+                "rollbackButton": "d41d8cd98f00b204e9800998ecf8427e b4032c3001cf493e02b0b301667959ca",
+                "rollbackErrorMessage": "d41d8cd98f00b204e9800998ecf8427e de20e969966b88eac23de973179efd89",
+                "rollbackSuccessMessage": "d41d8cd98f00b204e9800998ecf8427e 29ca43fe55b9ad6b7b64acc6a045de24",
+                "rollbackToOriginalButton": "d41d8cd98f00b204e9800998ecf8427e 26773abfc1e9c20e3092f4ba2b282424",
                 "tooltips": {
+                    "combined": "d41d8cd98f00b204e9800998ecf8427e 76d2885135468fdcd59653422e8658ea",
+                    "inline": "d41d8cd98f00b204e9800998ecf8427e 4d2d2e90e511bf4d60530d9eba418cdb",
+                    "mostRecent": "d41d8cd98f00b204e9800998ecf8427e f136f82176d52f115c439919a635861a",
                     "originalContent": "d41d8cd98f00b204e9800998ecf8427e 67ac540e796970078d298d67c8c51ec3",
                     "preview": "d41d8cd98f00b204e9800998ecf8427e 28f444b966b3b8994d627230886f97c1",
-                    "revisionWithNumber": "d41d8cd98f00b204e9800998ecf8427e 7ffcf79eda2f0937a7f00751856ed868"
+                    "revisionWithNumber": "d41d8cd98f00b204e9800998ecf8427e 7ffcf79eda2f0937a7f00751856ed868",
+                    "sideBySide": "d41d8cd98f00b204e9800998ecf8427e 65ddfaaf424608cd9ec8f6e15097ce4c"
                 }
+            },
+            "ref": {
+                "currentContent": "d41d8cd98f00b204e9800998ecf8427e e1fb0631312b68b72d5a064fffdf6ea7",
+                "originalContent": "d41d8cd98f00b204e9800998ecf8427e b697e255f37317294d93ec02bad1da75",
+                "revisionWithNumber": "d41d8cd98f00b204e9800998ecf8427e f34b45bf76323c49c55e1349a9f436d0"
             }
         }
     },
