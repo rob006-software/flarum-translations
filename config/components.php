@@ -993,7 +993,7 @@ return [
 		],
 	],
 	'stezkoy-feed2forum' => [
-		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v1.0.0-beta.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v1.0.0-beta.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
