@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Eksportuj",
+                            "tooltip": "Dane eksportu dla {username}"
                         }
                     }
                 }
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Potwierdź chęć usunięcia konta",
-                "body": ""
+                "body": "Otrzymaliśmy prośbę o usunięcie konta `{display_name}`.\n\nJeśli to Ty ją wysłałeś, potwierdź wniosek, korzystając z poniższego linku. Po potwierdzeniu zajmie się nim nasz zespół.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Usuwanie konta zakończone",
-                    "body": ""
+                    "body": "To automatyczne, końcowe powiadomienie potwierdzające, że Twoje konto zostało usunięte.\n"
                 },
                 "anonymization": {
                     "subject": "Anonimizacja konta zakończona",
-                    "body": ""
+                    "body": "To automatyczne, końcowe powiadomienie potwierdzające, że Twoje konto zostało zanonimizowane.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Wniosek o usunięcie konta został anulowany",
-                "body": ""
+                "body": "To automatyczne powiadomienie potwierdzające anulowanie wniosku o usunięcie konta.\n\nTwoje konto nie zostanie usunięte.\n"
             },
             "export_available": {
                 "subject": "Eksport danych dostępny",
-                "body": ""
+                "body": "Przygotowaliśmy eksport danych konta użytkownika {username}. Możesz go pobrać pod poniższym adresem:\n\n{url}\n\nEksport będzie dostępny do {destroys_at}.\n"
             }
         },
         "forum": {
@@ -190,12 +190,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "Złożono wniosek o usunięcie danych użytkownika {username}",
+                    "gdpr_erasure_confirmed": "Potwierdzono wniosek o usunięcie danych użytkownika {username}",
+                    "gdpr_erasure_cancelled": "Anulowano wniosek o usunięcie danych użytkownika {username}",
+                    "gdpr_anonymized": "Zanonimizowano dane użytkownika {username}",
+                    "gdpr_deleted": "Usunięto dane użytkownika {username}",
+                    "gdpr_exported": "Wyeksportowano dane użytkownika {username}"
                 }
             }
         }
