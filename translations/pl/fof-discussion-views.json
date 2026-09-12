@@ -1,19 +1,19 @@
 {
     "core": {
         "ref": {
-            "most_viewed": "",
-            "least_viewed": ""
+            "most_viewed": "Najczęściej wyświetlane",
+            "least_viewed": "Najrzadziej wyświetlane"
         },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         },
         "lib": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
@@ -42,7 +42,7 @@
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "popularne"
                 }
             }
         }
