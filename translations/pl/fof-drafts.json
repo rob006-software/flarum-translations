@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Planowanie publikacji szkiców jest obecnie wyłączone.",
-            "no_title_error": ""
+            "no_title_error": "Pomięto szkic: brakuje tytułu dyskusji."
         },
         "ref": {
             "schedule_draft": "Zaplanuj publikację"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Ten szkic zostanie automatycznie opublikowany <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LL [o] LT",
                 "schedule_time_preview_invalid": "Nieprawidłowa data",
-                "no_title_error": ""
+                "no_title_error": "Przed zaplanowaniem należy podać tytuł dyskusji."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Włącz domyślnie automatyczny zapis",
+                "draftAutosaveInterval": "Domyślny interwał automatycznego zapisywania (w sekundach)"
             }
         }
     },
