@@ -3568,6 +3568,18 @@
         }
     },
     "fof-masquerade.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "masquerade": {
+                        "field_created": "d41d8cd98f00b204e9800998ecf8427e 9c6ab43b2445808189c0f18ca75b68dc",
+                        "field_deleted": "d41d8cd98f00b204e9800998ecf8427e baf4eabd412730400ce3fbbd4948fec6",
+                        "field_updated": "d41d8cd98f00b204e9800998ecf8427e ca305fb676c5294942aeee3d7a998203",
+                        "profile_updated": "d41d8cd98f00b204e9800998ecf8427e 73f9e8694102185361a719b944a96920"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "lib": {
                 "data": {
@@ -3615,7 +3627,7 @@
                 },
                 "types": {
                     "advanced": "76a468db01029307b3cffa7bb7e16824 76a468db01029307b3cffa7bb7e16824",
-                    "boolean": "4f8222964f9a317cef99dddc23a121bd 4f8222964f9a317cef99dddc23a121bd",
+                    "boolean": "4f8222964f9a317cef99dddc23a121bd 9a62ef2088548eef35acb201bd49dfa8",
                     "email": "1e884e3078d9978e216a027ecd57fb34 1e884e3078d9978e216a027ecd57fb34",
                     "select": "c1a8aef90bf12db0a172d31e0e829d97 c1a8aef90bf12db0a172d31e0e829d97",
                     "url": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d"
