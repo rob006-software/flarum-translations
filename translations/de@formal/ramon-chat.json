@@ -30,7 +30,7 @@
             "members_too_many": "{max, plural, one {Du kannst höchstens # Benutzer auf einmal hinzufügen.} other {Du kannst höchstens # Benutzer auf einmal hinzufügen.}}",
             "cannot_remove_self": "Benutze „Kanal verlassen“, um dich selbst zu entfernen.",
             "not_a_member": "Dieser Benutzer ist nicht in diesem Kanal.",
-            "invite_not_found": "",
+            "invite_not_found": "Es liegt hier keine ausstehende Einladung zur Beantwortung vor.",
             "transcript_empty": "Es wurden keine Nachrichten ausgewählt, oder du kannst sie nicht lesen.",
             "transcript_too_many": "{max, plural, one {Du kannst höchstens # Nachrichten gleichzeitig zitieren.} other {Du kannst höchstens # Nachrichten gleichzeitig zitieren.}}",
             "move_empty": "Es wurden keine Nachrichten ausgewählt, oder sie befinden sich bereits in diesem Kanal.",
@@ -56,8 +56,8 @@
         "notifications": {
             "chat_mention": "{username} hat dich in {channel} erwähnt",
             "chat_message": "{username} hat in {channel} eine Nachricht gesendet",
-            "chat_channel_invite": "{username} hat dich zu {channel} hinzugefügt",
-            "chat_channel_invite_declined": ""
+            "chat_channel_invite": "{username} hat dich zu {channel} eingeladen",
+            "chat_channel_invite_declined": "{username} hat deine Einladung zu {channel} abgelehnt"
         },
         "lib": {
             "gdpr": {
@@ -105,7 +105,7 @@
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
                 "view_info": "Kanaldetails",
                 "search_in_channel": "In diesem Kanal suchen",
-                "threads": "",
+                "threads": "Threads in diesem Kanal",
                 "pinned_messages": "Angeheftete Nachrichten",
                 "view_all_pinned": "Alle {count} angehefteten Beiträge anzeigen",
                 "close_pinned": "Angeheftete Nachrichten schließen",
@@ -115,7 +115,7 @@
                 "leave": "Kanal verlassen",
                 "leave_confirm": "Diesen Kanal verlassen? Du kannst später wieder beitreten, und dein Verlauf bleibt erhalten.",
                 "leave_failed": "Der Kanal konnte nicht verlassen werden.",
-                "join_hidden": "Beitreten, ohne gesehen zu werden",
+                "join_hidden": "Kanal einsehen",
                 "joined_hidden": "Du bist beigetreten, ohne in der Mitgliederliste aufgeführt zu werden.",
                 "join_failed": "Du konntest dem Kanal nicht beitreten.",
                 "muted": "Stummgeschaltet",

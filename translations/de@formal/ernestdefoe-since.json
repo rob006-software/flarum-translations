@@ -2,15 +2,15 @@
     "ernestdefoe-since": {
         "forum": {
             "strip": {
-                "title": "",
-                "edited": "",
-                "someone": "",
-                "show_all": "",
-                "dismiss": ""
+                "title": "{count, plural, one {# Beitrag geändert} other {# Beiträge geändert}}, während du weg warst",
+                "edited": "bearbeitet {time}",
+                "someone": "Jemand",
+                "show_all": "Alle {count} anzeigen",
+                "dismiss": "Verwerfen"
             },
             "post": {
-                "changed": "",
-                "changed_help": ""
+                "changed": "geändert, seitdem du es gelesen hast",
+                "changed_help": "Dieser Beitrag wurde bearbeitet, seitdem du ihn gelesen hast."
             }
         }
     }
