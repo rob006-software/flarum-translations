@@ -2,51 +2,51 @@
     "ernestdefoe-warren": {
         "forum": {
             "vote": {
-                "up": "",
-                "down": ""
+                "up": "Upvoten",
+                "down": "Downvoten"
             },
             "row": {
-                "posted_by": "",
-                "comments": "",
-                "share": "",
-                "share_copied": ""
+                "posted_by": "Geschrieben von {author}",
+                "comments": "{count, plural, one {# Kommentar} other {# Kommentare}}",
+                "share": "Teilen",
+                "share_copied": "Link kopiert."
             },
             "sort": {
-                "hot": "",
-                "top": ""
+                "hot": "Heiß",
+                "top": "Top"
             },
             "thread": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Einklappen",
+                "expand": "{count, plural, one {# Antwort} other {# Antworten}}"
             },
             "sidebar": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Navigation einklappen",
+                "expand": "Navigation ausklappen"
             },
             "rail": {
-                "about": "",
-                "hashtags": "",
-                "hashtags_count": "",
-                "members": "",
-                "discussions": "",
-                "comments": "",
-                "create": ""
+                "about": "Über diese Community",
+                "hashtags": "Beliebte Hashtags",
+                "hashtags_count": "{count, plural, one {# Beitrag} other {# Beiträge}}",
+                "members": "Mitglieder",
+                "discussions": "Diskussionen",
+                "comments": "Kommentare",
+                "create": "Beitrag erstellen"
             }
         },
         "admin": {
             "settings": {
-                "density_label": "",
-                "density_help": "",
-                "density_card": "",
-                "density_compact": "",
-                "default_sort_label": "",
+                "density_label": "Reihendichte",
+                "density_help": "Wie viel Platz jeder Beitrag im Feed einnimmt.",
+                "density_card": "Ausladend — großzügige Abstände und abgerundete Ecken",
+                "density_compact": "Kompakt — die klassische, kompakte Liste",
+                "default_sort_label": "Standardansicht",
                 "default_sort_help": "",
                 "default_sort_hot": "",
                 "default_sort_latest": "",
-                "show_about_label": "",
-                "show_about_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
+                "show_about_label": "Infobox anzeigen",
+                "show_about_help": "Die Box auf der rechten Seite mit der Beschreibung des Forums, den Zahlenangaben und einer Schaltfläche zum Starten einer Diskussion. Wenn du es ausblendest, wird der Platz wieder vom Feed eingenommen.",
+                "hashtag_count_label": "Hahstags als Wolke",
+                "hashtag_count_help": "Wie viele der am häufigsten verwendeten Hashtags in der Leiste angezeigt werden. Wird nur angezeigt, wenn die Hashtags-Erweiterung aktiviert ist.",
                 "thread_depth_label": "",
                 "thread_depth_help": "",
                 "allow_self_votes_label": "",
