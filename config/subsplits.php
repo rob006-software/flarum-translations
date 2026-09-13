@@ -313,7 +313,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '1.Minor.Patch',
 		],
-		'maintainers' => ['behdanisohrab'],
+		'maintainers' => ['claudiush'],
 	],
 	'fi' => [
 		'type' => 'language',
