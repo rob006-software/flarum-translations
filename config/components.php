@@ -200,6 +200,9 @@ return [
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-projects' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.2/resources/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.4/locale/en.yml',
 	],
