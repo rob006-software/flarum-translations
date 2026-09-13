@@ -53,6 +53,9 @@ return [
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/datitisev-backup.yml',
 	],
+	'datitisev-post-galleries' => [
+		'beta' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/2.0.0-beta.1/resources/locale/en.yml',
+	],
 	'datlechin-bbcode-hide-content' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.2/locale/en.yml',
 	],
