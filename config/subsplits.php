@@ -336,7 +336,7 @@ return [
 			'versionTemplate' => '2.Minor.Patch',
 			'ignoredVersionsConstraints' => ['^0.4.2'],
 		],
-		'maintainers' => ['behdanisohrab'],
+		'maintainers' => ['claudiush'],
 	],
 	'fi' => [
 		'type' => 'language',
