@@ -2,10 +2,10 @@
     "ernestdefoe-cascade": {
         "forum": {
             "preset": {
-                "heading": "",
-                "help": "",
-                "follow_forum": "",
-                "save_failed": ""
+                "heading": "Feed-Stil",
+                "help": "So werden Diskussionen für dich dargestellt. Für alle anderen ändert sich dadurch nichts.",
+                "follow_forum": "Forumstandard verwenden",
+                "save_failed": "Dein Feed-Stil konnte nicht gespeichert werden. Bitte versuche es erneut."
             },
             "reactions": {
                 "thumbsup": "Gefällt mir",
@@ -41,8 +41,8 @@
                 "open_full": "Vollständige Seite anzeigen"
             },
             "rail": {
-                "hashtags_title": "",
-                "hashtags_count": "",
+                "hashtags_title": "Hashtags",
+                "hashtags_count": "{count, plural, one {# Beitrag} other {# Beiträge}}",
                 "trending_title": "Im Trend",
                 "trending_week": "Trends in dieser Woche",
                 "trending_month": "Trends in diesem Monat",
@@ -53,10 +53,10 @@
         "admin": {
             "settings": {
                 "title": "Cascade",
-                "preset_label": "",
-                "preset_help": "",
-                "allow_user_preset_label": "",
-                "allow_user_preset_help": "",
+                "preset_label": "Voreinstellung",
+                "preset_help": "So sieht die Ansicht für jedes Mitglied aus, sofern es nicht unten eine eigene Option auswählt. Im „Facebook-Stil“ wird jede Diskussion auf einer eigenen Karte vor grauem Hintergrund mit einer breiten, beschrifteten Interaktionsleiste dargestellt. Im „X-Stil“ werden sie als durch feine Linien getrennte Zeilen in einer einzigen Spalte angezeigt. Der „Bluesky-Stil“ behält die einzelne Spalte bei, fügt jedoch Trennlinien in den Text ein, lockert den Abstand und zeigt die Aktionen als Hover-Elemente an. Alle drei Stile haben das gleiche Layout und die gleichen Einstellungen; die Umstellung wird beim nächsten Laden der Seite wirksam.",
+                "allow_user_preset_label": "Lässt die Mitglieder selbst entscheiden",
+                "allow_user_preset_help": "Fügt auf der Einstellungsseite jedes Mitglieds eine Auswahl für die Voreinstellung hinzu. Die getroffene Auswahl gilt nur für das jeweilige Mitglied; wer keine Auswahl trifft, behält die oben angegebene Standard-Einstellung des Forums bei. Deaktiviere diese Option, um im gesamten Forum ein einheitliches Erscheinungsbild beizubehalten.",
                 "widget_hashtags_label": "",
                 "widget_hashtags_help": "",
                 "hashtag_count_label": "",
@@ -70,18 +70,18 @@
                 "excerpt_length_help": "",
                 "widget_trending_label": "",
                 "widget_trending_help": "",
-                "engagement_bar_label": "",
+                "engagement_bar_label": "Engagement-Leiste",
                 "engagement_bar_help": "",
-                "engagement_bar_auto": "",
-                "engagement_bar_on": "",
-                "engagement_bar_off": ""
+                "engagement_bar_auto": "Auto",
+                "engagement_bar_on": "Immer anzeigen",
+                "engagement_bar_off": "Verbergen"
             }
         },
         "lib": {
             "preset": {
-                "wall": "",
-                "timeline": "",
-                "stream": ""
+                "wall": "Facebook-Stil — Karten",
+                "timeline": "X-Stil — Reihen",
+                "stream": "Bluesky-Stil — eingelassene Reihen"
             }
         }
     }
