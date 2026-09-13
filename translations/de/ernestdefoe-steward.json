@@ -2,9 +2,9 @@
     "ernestdefoe-steward": {
         "admin": {
             "settings": {
-                "site_key_label": "",
+                "site_key_label": "Seitenschlüssel",
                 "site_key_help": "",
-                "relay_url_label": "",
+                "relay_url_label": "Dienst-URL",
                 "moderation_label": "",
                 "moderation_help": "",
                 "answers_label": "",
@@ -15,13 +15,13 @@
                 "threshold_help": ""
             },
             "usage": {
-                "title": "",
-                "answers": "",
-                "screenings": "",
-                "left": "",
-                "unmetered": "",
-                "unmeteredUsed": "",
-                "resets": "",
+                "title": "Deine Nutzung in diesem Monat",
+                "answers": "Fragen beantwortet",
+                "screenings": "Beiträge überwacht",
+                "left": "{n} von {total} verbleibend",
+                "unmetered": "Keine Begrenzung",
+                "unmeteredUsed": "{n} verwendet · Keine Begrenzung",
+                "resets": "Wird zurückgesetzt {date}",
                 "not_connected": "",
                 "chart_label": ""
             },
