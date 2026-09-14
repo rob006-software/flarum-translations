@@ -2,13 +2,13 @@
     "ernestdefoe-wardrobe": {
         "admin": {
             "settings": {
-                "themes_label": "",
-                "themes_help": "",
-                "no_themes": "",
+                "themes_label": "Designs, aus denen Mitglieder auswählen können",
+                "themes_help": "Jede aktivierte Erweiterung, die sich selbst als Design deklariert. Setze ein Häkchen bei den in diesem Forum angebotenen – jede erhält ein eigenes Stylesheet, sodass es nie zu Überschneidungen kommt.\n",
+                "no_themes": "Es sind noch keine Designs installiert und aktiviert. Installiere ein zweites Design, dann wird es hier angezeigt.\n",
                 "default_label": "Standarddesign",
-                "default_help": "",
-                "allow_user_choice_label": "",
-                "allow_user_choice_help": ""
+                "default_help": "Was Gäste sehen und was Mitglieder sehen, bis sie sich selbst entscheiden.",
+                "allow_user_choice_label": "Die Mitglieder sollen ihr Design selbst wählen können",
+                "allow_user_choice_help": "Deaktiviere diese Option, um für das gesamte Forum die Standardeinstellung beizubehalten. Die von den Mitgliedern bereits getroffenen Auswahlen werden sofort außer Kraft gesetzt.\n"
             }
         },
         "forum": {
@@ -18,8 +18,8 @@
             "theme": {
                 "heading": "Design",
                 "follow_forum": "Forumdesign verwenden",
-                "help": "",
-                "save_failed": ""
+                "help": "Wie das Forum für dich aussieht. Niemand sonst sieht deine Auswahl.",
+                "save_failed": "Dein Design konnte nicht gespeichert werden. Bitte versuche es erneut."
             }
         }
     }
