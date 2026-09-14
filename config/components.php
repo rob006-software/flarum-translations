@@ -502,6 +502,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ffans-threadmarks' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/threadmarks/v1.0.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'flamarkt-backoffice' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.4/resources/locale/en.yml',
 	],
