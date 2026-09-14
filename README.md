@@ -1062,6 +1062,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
 | [`ffans-creator-declarations`](https://weblate.rob006.net/projects/flarum/ffans-creator-declarations) | [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations) |
 | [`ffans-geetest`](https://weblate.rob006.net/projects/flarum/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
+| [`ffans-threadmarks`](https://weblate.rob006.net/projects/flarum/ffans-threadmarks) | [`ffans/threadmarks`](https://github.com/FFans/threadmarks) |
 | [`flamarkt-backoffice`](https://weblate.rob006.net/projects/flarum/flamarkt-backoffice) | [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice) |
 | [`flamarkt-matomo`](https://weblate.rob006.net/projects/flarum/flamarkt-matomo) | [`flamarkt/matomo`](https://github.com/flamarkt/matomo) |
 | [`flamarkt-taxonomies`](https://weblate.rob006.net/projects/flarum/flamarkt-taxonomies) | [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies) |
