@@ -1,0 +1,126 @@
+{
+    "ffans-threadmarks": {
+        "admin": {
+            "permissions": {
+                "manage_personal_label": "Manage own personal threadmarks",
+                "manage_own_discussion_label": "Manage threadmarks in own discussions",
+                "manage_discussion_label": "Manage threadmarks in any discussion"
+            },
+            "types": {
+                "add_button": "Add Type",
+                "table_a11y_label": "Threadmark types",
+                "order_heading": "Order",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Source",
+                "enabled_heading": "Enabled",
+                "actions_heading": "Actions",
+                "reorder_tooltip": "Drag to reorder",
+                "builtin_label": "Built-in",
+                "custom_label": "Custom",
+                "enable_type_a11y_label": "Enable {name}",
+                "edit_type_a11y_label": "Edit {name}",
+                "empty_text": "No threadmark types yet."
+            },
+            "create_type_modal": {
+                "title": "Create Threadmark Type",
+                "submit_button": "Create"
+            },
+            "edit_type_modal": {
+                "title": "Edit Threadmark Type",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Delete this threadmark type?"
+            }
+        },
+        "forum": {
+            "type_labels": {
+                "default": "Threadmark",
+                "notice": "Notice",
+                "highlight": "Highlight",
+                "progress": "Progress",
+                "update": "Update",
+                "chapter": "Chapter"
+            },
+            "manage_modal": {
+                "title": "Threadmark · #{number}",
+                "scope_a11y_label": "Threadmark scope",
+                "personal_tab": "Personal",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "No threadmarks available to manage.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Choose a type",
+                "note_label": "Note",
+                "note_placeholder": "Optional",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Add",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "Delete this personal threadmark?",
+                "delete_discussion_confirmation": "Delete this discussion threadmark?"
+            },
+            "directory": {
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "Threadmarks",
+                "hide_button": "Threadmarks",
+                "close_a11y_label": "Close threadmark directory",
+                "scope_a11y_label": "Filter threadmarks by scope",
+                "all_filter": "All",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
+            },
+            "threadmark": {
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Personal threadmark, visible only to you",
+                "edit_personal_tooltip": "Edit personal threadmark",
+                "edit_discussion_tooltip": "Edit discussion threadmark",
+                "edit_personal_a11y_label": "Edit personal threadmark on post #{number}",
+                "edit_discussion_a11y_label": "Edit discussion threadmark on post #{number}",
+                "deleted_text": "This content has been deleted."
+            },
+            "scrubber": {
+                "threadmark_a11y_label": "Threadmark on post #{number}",
+                "cluster_a11y_label": "{count, plural, one {# threadmark} other {# threadmarks}}",
+                "open_directory_a11y_label": "Open the full threadmark directory"
+            },
+            "discussion_controls": {
+                "show_all_button": "Show All Posts",
+                "show_threadmarks_button": "Only Threadmarks"
+            },
+            "post_controls": {
+                "manage_button": "Manage Threadmark"
+            }
+        },
+        "ref": {
+            "discussion": "Discussion",
+            "mine": "Mine",
+            "threadmarks": "Threadmarks",
+            "type": "Type",
+            "key": "Key",
+            "save": "Save"
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "Exports all your personal threadmarks and discussion threadmarks you created or last edited, without post content.",
+                "anonymize_description": "Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks.",
+                "delete_description": "Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks."
+            },
+            "type_form": {
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Name",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fa-solid fa-book"
+            },
+            "validation": {
+                "first_post": "Threadmarks cannot be added to the first post.",
+                "duplicate_discussion": "This post already has a discussion threadmark. Edit the existing one instead.",
+                "invalid_discussion_post": "Discussion threadmarks can only target comment posts.",
+                "duplicate_personal": "You already have a personal threadmark on this post. Edit the existing one instead.",
+                "invalid_personal_post": "Personal threadmarks can only target comment posts.",
+                "disabled_type": "This threadmark type is disabled. Choose another type.",
+                "type_in_use": "This type is in use and cannot be deleted."
+            }
+        }
+    }
+}
