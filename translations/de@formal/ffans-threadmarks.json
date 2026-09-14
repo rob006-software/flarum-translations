@@ -2,81 +2,81 @@
     "ffans-threadmarks": {
         "admin": {
             "permissions": {
-                "manage_personal_label": "",
-                "manage_own_discussion_label": "",
-                "manage_discussion_label": ""
+                "manage_personal_label": "Persönliche Diskussionsmarkierungen verwalten",
+                "manage_own_discussion_label": "Diskussionsmarkierungen in eigenen Diskussionen verwalten",
+                "manage_discussion_label": "Diskussionsmarkierungen in allen Diskussionen verwalten"
             },
             "types": {
-                "add_button": "",
-                "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
-                "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
-                "builtin_label": "",
-                "custom_label": "",
-                "enable_type_a11y_label": "",
-                "edit_type_a11y_label": "",
-                "empty_text": ""
+                "add_button": "Typ hinzufügen",
+                "table_a11y_label": "Typen von Diskussionsmarkierungen",
+                "order_heading": "Reihenfolge",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Quelle",
+                "enabled_heading": "Aktiviert",
+                "actions_heading": "Aktionen",
+                "reorder_tooltip": "Zum Neuanordnen ziehen",
+                "builtin_label": "Integriert",
+                "custom_label": "Benutzerdefiniert",
+                "enable_type_a11y_label": "{name} aktivieren",
+                "edit_type_a11y_label": "{name} bearbeiten",
+                "empty_text": "Noch keine Typen von Diskussionsmarkierungen."
             },
             "create_type_modal": {
-                "title": "",
-                "submit_button": ""
+                "title": "Typ von Diskussionsmarkierungen erstellen",
+                "submit_button": "Erstellen"
             },
             "edit_type_modal": {
-                "title": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": ""
+                "title": "Typ von Diskussionsmarkierungen bearbeiten",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Diesen Typ von Diskussionsmarkierungen löschen?"
             }
         },
         "forum": {
             "type_labels": {
-                "default": "",
-                "notice": "",
-                "highlight": "",
-                "progress": "",
-                "update": "",
-                "chapter": ""
+                "default": "Diskussionsmarkierung",
+                "notice": "Notiz",
+                "highlight": "Hervorhebung",
+                "progress": "Fortschritt",
+                "update": "Aktualisierung",
+                "chapter": "Kapitel"
             },
             "manage_modal": {
-                "title": "",
+                "title": "Diskussionsmarkierung · #{number}",
                 "scope_a11y_label": "",
-                "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
+                "personal_tab": "Persönlich",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
                 "unavailable_text": "",
-                "type_label": "",
-                "type_placeholder": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Wähle einen Typ",
+                "note_label": "Notiz",
+                "note_placeholder": "Optional",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Hinzufügen",
+                "delete_button": "=> core.ref.delete",
                 "delete_personal_confirmation": "",
                 "delete_discussion_confirmation": ""
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "Diskussionsmarkierungen",
+                "hide_button": "Diskussionsmarkierungen",
                 "close_a11y_label": "",
                 "scope_a11y_label": "",
-                "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "all_filter": "Alle",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
                 "personal_tooltip": "",
-                "edit_personal_tooltip": "",
-                "edit_discussion_tooltip": "",
+                "edit_personal_tooltip": "Persönliche Diskussionsmarkierung bearbeiten",
+                "edit_discussion_tooltip": "Öffentliche Diskussionsmarkierung bearbeiten",
                 "edit_personal_a11y_label": "",
                 "edit_discussion_a11y_label": "",
-                "deleted_text": ""
+                "deleted_text": "Dieser Inhalt wurde gelöscht."
             },
             "scrubber": {
                 "threadmark_a11y_label": "",
@@ -84,20 +84,20 @@
                 "open_directory_a11y_label": ""
             },
             "discussion_controls": {
-                "show_all_button": "",
+                "show_all_button": "Alle Beiträge anzeigen",
                 "show_threadmarks_button": ""
             },
             "post_controls": {
-                "manage_button": ""
+                "manage_button": "Diskussionsmarkierung verwalten"
             }
         },
         "ref": {
-            "discussion": "",
-            "mine": "",
-            "threadmarks": "",
-            "type": "",
-            "key": "",
-            "save": ""
+            "discussion": "Diskussion",
+            "mine": "Meine",
+            "threadmarks": "Diskussionsmarkierungen",
+            "type": "Typ",
+            "key": "Schlüssel",
+            "save": "Speichern"
         },
         "lib": {
             "gdpr": {
@@ -106,11 +106,11 @@
                 "delete_description": ""
             },
             "type_form": {
-                "key_label": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_placeholder": ""
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Name",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fa-solid fa-book"
             },
             "validation": {
                 "first_post": "",
