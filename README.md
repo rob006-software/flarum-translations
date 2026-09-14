@@ -987,6 +987,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-steward`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-steward) | [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) |
 | [`ernestdefoe-theme-toggle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-theme-toggle) | [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle) |
 | [`ernestdefoe-topic-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-topic-map) | [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) |
+| [`ernestdefoe-tributary`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-tributary) | [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) |
 | [`ernestdefoe-typesense`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-typesense) | [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense) |
 | [`ernestdefoe-verbatim`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-verbatim) | [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim) |
 | [`ernestdefoe-wardrobe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-wardrobe) | [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) |
