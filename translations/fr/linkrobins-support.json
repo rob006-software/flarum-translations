@@ -54,8 +54,8 @@
                 "field_default_assignee_none": "",
                 "field_default_assignee_help": "",
                 "field_default_assignee_loading": "",
-                "field_default_assignee_unavailable": "",
-                "field_default_assignee_error": "",
+                "field_default_assignee_unavailable": "{name} (ne fait plus partie de l'équipe)",
+                "field_default_assignee_error": "Impossible de charger la liste du personnel. Le paramètre actuel reste inchangé.",
                 "submit_create": "Créer une catégorie",
                 "submit_update": "Enregistrer les modifications",
                 "error_load": "Impossible de charger cette catégorie.",
@@ -130,17 +130,17 @@
                 "reply_generic": "Le service assistance a répondu à votre ticket",
                 "new_ticket": "{name} a ouvert un nouveau ticket",
                 "new_appeal": "{name} a ouvert un nouveau recours",
-                "status_changed": "",
-                "status_changed_generic": "",
+                "status_changed": "Votre ticket a été marqué {status}",
+                "status_changed_generic": "Un ticket a été marqué {status}",
                 "reopened_by_owner": "",
-                "assigned": "",
-                "assigned_generic": ""
+                "assigned": "{name} vous a affecté un ticket",
+                "assigned_generic": "Un ticket vous a été affecté"
             },
             "settings": {
                 "notify_new_reply_label": "Quelqu'un répond à mon ticket",
                 "notify_new_ticket_label": "Un nouveau ticket est créé (par l'équipe)",
-                "notify_status_changed_label": "",
-                "notify_assigned_label": ""
+                "notify_status_changed_label": "Le statut d'un ticket d'assistance change",
+                "notify_assigned_label": "Un ticket d'assistance m'a été affecté"
             },
             "status": {
                 "in_progress": "En cours",
@@ -281,14 +281,14 @@
             "ticket_type_general": "ticket",
             "new_ticket_body": "Un nouveau {type} vient d'être ouvert par {name} :",
             "open_ticket": "Ouvrir le ticket",
-            "status_changed_subject": "",
-            "status_changed_body": "",
-            "assigned_subject": "",
-            "assigned_body": ""
+            "status_changed_subject": "[{subject}] marqué comme {status}",
+            "status_changed_body": "Votre ticket d'assistance a été marqué {status}.",
+            "assigned_subject": "Ticket qui vous a été affecté : {subject}",
+            "assigned_body": "{name} vous a affecté ce ticket d'assistance."
         },
         "api": {
-            "assign_staff_only": "Les tickets ne peuvent être attribués qu'à l'équipe.",
-            "default_assignee_staff_only": "",
+            "assign_staff_only": "Les tickets ne peuvent être affectés qu'à l'équipe.",
+            "default_assignee_staff_only": "Une catégorie ne peut être affectée qu'à l'équipe.",
             "category_required": "Une catégorie est requise.",
             "subject_required": "Un sujet est requis.",
             "ticket_soft_delete_first": "Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.",
