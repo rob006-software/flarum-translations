@@ -269,6 +269,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ffans-threadmarks' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/threadmarks/v2.0.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'flarum-akismet' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.0-rc.8/locale/en.yml',
 	],
