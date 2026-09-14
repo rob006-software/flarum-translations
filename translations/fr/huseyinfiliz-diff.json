@@ -29,34 +29,34 @@
             "deletedInfo": "{username} a supprimé ce contenu {ago}",
             "createdInfo": "{username} a créé {ago}",
             "revisionInfo": "",
-            "noDiff": "",
+            "noDiff": "Aucune différence n'a été trouvée entre ces deux contenus.",
             "differences": {
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
                 "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
                 "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Vous consultez les différences entre {old} et {new}"
             },
             "previewMode": {
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
                 "currentContent": "=> huseyinfiliz-diff.ref.currentContent",
                 "revisionWithNumber": "=> huseyinfiliz-diff.ref.revisionWithNumber",
-                "sentence": ""
+                "sentence": "Vous prévisualisez {content}"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "onlyUnsigned": "",
-                "usePoint": "",
-                "separateBlock": "",
-                "mainPostOnly": "",
-                "textFormatting": "",
-                "detailLevel": "",
-                "noneLevel": "",
-                "lineLevel": "",
-                "wordLevel": "",
-                "charLevel": "",
-                "neighborLines": "",
+                "title": "Paramètres Diff",
+                "onlyUnsigned": "Seuls les <strong>entiers non signés</strong> sont autorisés !",
+                "usePoint": "Utilisez le <strong>point</strong> comme séparateur décimal pour les valeurs à virgule flottante.",
+                "separateBlock": "Afficher un séparateur entre les différents blocs Diff dans les moteurs de rendu HTML",
+                "mainPostOnly": "Conserver uniquement les révisions du message principal",
+                "textFormatting": "Activer la mise en forme du texte pour les aperçus",
+                "detailLevel": "Niveau de détail",
+                "noneLevel": "Aucun niveau",
+                "lineLevel": "Au niveau des lignes",
+                "wordLevel": "Au niveau des mots",
+                "charLevel": "Au niveau des caractères",
+                "neighborLines": "Lignes adjacentes",
                 "neighborLinesHelp": "",
                 "mergeThreshold": "",
                 "mergeThresholdHelp": "",
