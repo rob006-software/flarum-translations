@@ -1,13 +1,13 @@
 {
     "ernestdefoe-tributary": {
         "forum": {
-            "reply_to": "",
-            "in_reply_to": "",
-            "reply_count": "",
+            "reply_to": "Im Thread antworten",
+            "in_reply_to": "Antwort auf {username}",
+            "reply_count": "{count, plural, one {# Antwort} other {# Antworten}}",
             "branch_empty": "",
-            "load_more": "",
+            "load_more": "Mehr Antworten anzeigen",
             "answering": "",
-            "answering_cancel": ""
+            "answering_cancel": "Stattdessen in der Diskussion antworten"
         }
     }
 }
