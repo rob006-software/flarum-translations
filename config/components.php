@@ -1325,6 +1325,9 @@ return [
 	'linkrobins-birdseye' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v1.7.1/locale/en.yml',
 	],
+	'linkrobins-chirp' => [
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/chirp/v1.1.1.1/locale/en.yml',
+	],
 	'linkrobins-discussion-banners' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v1.1.2/locale/en.yml',
 	],
