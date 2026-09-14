@@ -1187,6 +1187,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-badge-labels`](https://weblate.rob006.net/projects/flarum/linkrobins-badge-labels) | [`linkrobins/badge-labels`](https://github.com/linkrobins/flarum-badge-labels) |
 | [`linkrobins-birdseye`](https://weblate.rob006.net/projects/flarum/linkrobins-birdseye) | [`linkrobins/birdseye`](https://github.com/linkrobins/birdseye) |
 | [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
+| [`linkrobins-chirp`](https://weblate.rob006.net/projects/flarum/linkrobins-chirp) | [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp) |
 | [`linkrobins-link-gate`](https://weblate.rob006.net/projects/flarum/linkrobins-link-gate) | [`linkrobins/link-gate`](https://github.com/linkrobins/flarum-link-gate) |
 | [`litalino-adblock`](https://weblate.rob006.net/projects/flarum/litalino-adblock) | [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock) |
 | [`litalino-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/litalino-auto-post-count-badge) | [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge) |
