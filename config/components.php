@@ -233,6 +233,9 @@ return [
 	'ernestdefoe-topic-map' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.1/locale/en.yml',
 	],
+	'ernestdefoe-tributary' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-typesense' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.1/locale/en.yml',
 	],
