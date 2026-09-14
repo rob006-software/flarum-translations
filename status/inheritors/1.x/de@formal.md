@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **577** are
-translated only in `de@formal`. Altogether they cover **94** components.
+sides, but do not match between them: **367** are translated differently and **577** are
+translated only in `de@formal`. Altogether they cover **95** components.
 
 <!-- {% raw %} -->
 
@@ -68,6 +68,7 @@ translated only in `de@formal`. Altogether they cover **94** components.
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [3](#forumaker-magicslider) | 0 |
+| `forumfortress-flarum` | [1](#forumfortress-flarum) | 0 |
 | `huoxin-money-with-history` | 0 | [1](#huoxin-money-with-history-missing) |
 | `huseyinfiliz-awards` | [22](#huseyinfiliz-awards) | 0 |
 | `huseyinfiliz-diff` | [10](#huseyinfiliz-diff) | 0 |
@@ -3062,6 +3063,18 @@ Wenn aktiviert ist, erstreckt sich der Slider genau über die Breite des Hauptin
 ```
 
 Auf <del>Themenseiten</del><ins>Tag-Seiten</ins> den <del>Standard-Themen-Hero</del><ins>Standard-Tag-Hero</ins> von Flarum anstelle des Sliders anzeigen
+
+
+### `forumfortress-flarum`
+
+#### [`forumfortress-flarum.admin.dashboard.portal_login`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de@formal/?q=context%3A%3D%22forumfortress-flarum.admin.dashboard.portal_login%22)
+
+> Open Forum Fortress
+
+```diff
+-Portal-Anmeldung
++Forum Fortress öffnen
+```
 
 
 ### `huseyinfiliz-awards`
