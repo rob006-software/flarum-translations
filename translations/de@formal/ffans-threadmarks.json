@@ -44,7 +44,7 @@
             },
             "manage_modal": {
                 "title": "Diskussionsmarkierung · #{number}",
-                "scope_a11y_label": "",
+                "scope_a11y_label": "Diskussionsmarkierung Bereich",
                 "personal_tab": "Persönlich",
                 "discussion_tab": "=> ffans-threadmarks.ref.discussion",
                 "loading_text": "=> core.ref.loading",
@@ -101,9 +101,9 @@
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Exportiert alle deine persönlichen und öffentlichen Diskussionsmarkierungen, die du erstellt oder zuletzt bearbeitet haben, ohne den Inhalt der Beiträge.",
+                "anonymize_description": "Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.",
+                "delete_description": "Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen."
             },
             "type_form": {
                 "key_label": "=> ffans-threadmarks.ref.key",
@@ -114,12 +114,12 @@
             },
             "validation": {
                 "first_post": "Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.",
-                "duplicate_discussion": "",
-                "invalid_discussion_post": "",
-                "duplicate_personal": "",
-                "invalid_personal_post": "",
-                "disabled_type": "",
-                "type_in_use": ""
+                "duplicate_discussion": "Dieser Beitrag hat bereits eine öffentliche Diskussionsmarkierung. Bearbeite stattdessen die vorhandene Markierung.",
+                "invalid_discussion_post": "Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.",
+                "duplicate_personal": "Du hast bereits eine persönliche Diskussionsmarkierung für diesen Beitrag gesetzt. Bearbeite stattdessen die bereits vorhandene.",
+                "invalid_personal_post": "Persönliche Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.",
+                "disabled_type": "Dieser Markierungstyp ist deaktiviert. Wähle einen anderen Typ aus.",
+                "type_in_use": "Dieser Markierungstyp wird verwendet und kann daher nicht gelöscht werden."
             }
         }
     }
