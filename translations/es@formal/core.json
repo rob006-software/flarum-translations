@@ -45,13 +45,13 @@
                     "source_help": "Elige como los íconos de FontAwesome se inician. Local utiliza fuentes incluidas en el paquete, CDN carga desde una CDN y Kit utiliza kits de FontAwesome con íconos personalizados.",
                     "source_local": "Local (Paquete)",
                     "source_cdn": "CDN",
-                    "source_kit": "FontAwesome Kit",
+                    "source_kit": "Kit de FontAwesome",
                     "cdn_url_label": "CDN URL",
                     "cdn_url_help": "URL entera hacia el archivo CSS FontAwesome en una CDN",
-                    "kit_url_label": "Kit URL",
+                    "kit_url_label": "URL del Kit",
                     "kit_url_help": "Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Estilo de icono forzado",
+                    "forced_style_help": "Fuerza todos los iconos a utilizar un estilo concreto de FontAwesome, por ejemplo, **\"fa-duotone fa-light\"** o **\"fa-regular\"**. Esto sustituye el estilo definido por el núcleo y las extensiones. Los iconos de marcas nunca se modifican. La fuente de iconos que utilices debe ser compatible con el estilo seleccionado. Los iconos incluidos por defecto pertenecen a **FontAwesome Free**, que solo dispone de unos pocos cientos de iconos fuera del estilo **solid**. Por tanto, si fuerzas otro estilo, muchos iconos podrían quedar en blanco. Todos los estilos están disponibles utilizando una **CDN o Kit de FontAwesome Pro**. Déjalo vacío para desactivar esta opción.",
                     "config_override": {
                         "label": "Anular configuración",
                         "help": "Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá."
@@ -69,10 +69,10 @@
                     "search_configuration": "Buscar configuración para usar"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Pausar el procesamiento de la cola",
+                    "pause_all_label": "Pausar todas las colas",
+                    "pause_queue_label": "Pausar la cola {queue}",
+                    "pause_help": "Mientras estén en pausa, los procesos de trabajo dejarán de recoger nuevas tareas de las colas afectadas. Las tareas se acumularán hasta que se reanude el procesamiento. Las tareas que ya estén en ejecución no se verán afectadas.",
                     "section_label": "Cola",
                     "sync_info": "Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.",
                     "sync_help": "Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.",
@@ -96,8 +96,8 @@
                         "default": "Búsqueda predeterminada en la base de datos"
                     },
                     "no_other_drivers": "Aún no hay controladores de búsqueda disponibles. Instale una extensión de controlador de búsqueda para poder configurarlo.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "Optimizar la búsqueda para idiomas CJK (chino, japonés y coreano)",
+                    "cjk_mode_help": "Actívalo si tu foro está principalmente en chino, japonés o coreano. La búsqueda por palabras de la base de datos no puede encontrar coincidencias parciales en textos CJK, por lo que esta opción cambia a una búsqueda por subcadenas que sí puede hacerlo. Es más lenta en foros muy grandes, donde configurar un analizador de texto completo compatible con CJK a nivel de base de datos (como el analizador ngram de MySQL/MariaDB) es una alternativa más rápida."
                 },
                 "title": "Avanzado"
             },
@@ -126,8 +126,8 @@
                 "logo_text": "Suba una imagen para que sea mostrada en lugar del título del foro.",
                 "logo_dark_mode_heading": "Logotipo del modo oscuro",
                 "logo_dark_mode_text": "Sube un logotipo alternativo que se mostrará cuando el modo oscuro esté activado.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "Permite a los usuarios cambiar entre los esquemas de color disponibles mediante un control en la cabecera.",
+                "show_theme_selector_label": "Mostrar selector de tema",
                 "title": "Apariencia",
                 "color_scheme_label": "Esquema de colores (predeterminado)",
                 "color_schemes": {
@@ -192,7 +192,7 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "{count, plural, one {# comment} other {# comments}}",
+                "comments_label": "{count, plural, one {# comentario} other {# comentarios}}",
                 "description": "Últimas noticias y comunicados del equipo de Flarum.",
                 "empty": "No se encontraron anuncios.",
                 "load_error": "No se pudieron cargar los anuncios. Inténtelo de nuevo más tarde.",
@@ -206,25 +206,25 @@
                 "view_all": "Ver todos en discuss.flarum.org"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Cola",
+                "pending": "Pendiente",
+                "reserved": "En curso",
+                "failed": "Fallido",
+                "refresh": "Actualizar"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "Tareas fallidas",
+                "none": "No hay tareas fallidas.",
+                "meta": "Cola {queue} · falló {time}",
+                "details": "Detalles",
+                "retry": "Reintentar",
+                "retry_all": "Reintentar todo",
+                "delete": "Eliminar"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "El procesamiento de la cola está pausado (cola: {queues}). Las tareas se acumularán hasta que se reanude.",
+                "queue_paused_all_warning": "El procesamiento de todas las colas está pausado. Las tareas se acumularán hasta que se reanude.",
+                "queue_paused_manage": "Gestionar",
                 "clear_cache_button": "Limpiar cache",
                 "description": "Su foro de un vistazo.",
                 "info_button": "Info del sistema",
@@ -237,7 +237,7 @@
                 "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "Scheduler",
+                        "scheduler-status": "Programador",
                         "queue-driver": "Driver de cola",
                         "session-driver": "Driver de sesión"
                     },
@@ -272,8 +272,8 @@
                 "label": "El controlador de la base de datos no coincide"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "Tu servidor {server} está ejecutando la versión \\<code>{version}\\</code>. Esta versión es compatible, pero Flarum recomienda {server} \\<code>{recommended}\\</code> o posterior para obtener el mejor rendimiento y utilizar una versión con mantenimiento activo. Consulta la \\<link>documentación de Flarum\\</link> para obtener más información.\n",
+                "below-recommended-label": "Versión de la base de datos desactualizada"
             },
             "debug-warning": {
                 "detail": "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n",
@@ -337,7 +337,7 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Configuración Mailgun",
                 "postmark_heading": "Configuración Postmark",
-                "postmark_description": "Enviar email vos API HTTP de Postmark. Opcionalmente, especifique un flujo de mensajes para utilizar un flujo distinto al predeterminado.",
+                "postmark_description": "Envía correos electrónicos mediante la API HTTP de Postmark. Opcionalmente, puedes especificar un flujo de mensajes para utilizar uno distinto del predeterminado.",
                 "not_sending_message": "Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar un correo de prueba",
@@ -617,7 +617,7 @@
                 "session_dropdown_accessible_label": "Alternar el menú desplegable de opciones de sesión",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Cambiar tema"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -631,14 +631,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Alternar el menú desplegable de navegación"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "Lo último",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Cambiar el orden de la lista de discusiones",
-                "top_button": "Lo más comentado",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "¿Olvidó su contraseña?",
@@ -652,7 +652,7 @@
             },
             "notifications": {
                 "delete_all_confirm": "",
-                "delete_all_tooltip": "Eliminar notificaciones",
+                "delete_all_tooltip": "Eliminar todas las notificaciones",
                 "discussion_renamed_text": "{username} cambió el título",
                 "empty_text": "No hay notificaciones",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
@@ -808,7 +808,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Tu conexión se ha restablecido.",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Descartar la alerta"
@@ -849,9 +849,9 @@
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.",
                 "generic_cross_origin_message": "¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
-                "network_message": "",
+                "network_message": "Parece que hay algún problema con tu conexión. Comprueba tu red e inténtalo de nuevo.",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
-                "offline_message": "",
+                "offline_message": "Parece que estás sin conexión. Comprueba tu conexión e inténtalo de nuevo.",
                 "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tiene permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.",
@@ -914,7 +914,7 @@
             },
             "nav": {
                 "drawer_button": "Abrir el cuadro de navegación",
-                "pin_pane_button": ""
+                "pin_pane_button": "Fijar lista de discusiones"
             },
             "notices": {
                 "bisecting": "Ejecutar un proceso de búsqueda binaria de extensiones para determinar qué extensión está causando el problema.",
@@ -923,20 +923,20 @@
                 "maintenance_mode_safe": "En mantenimiento, con el sistema en modo seguro. Solo los administradores pueden acceder al foro y no se han iniciado extensiones."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Más elementos"
             },
             "pagination": {
                 "back_button": "Página anterior",
@@ -955,7 +955,7 @@
                 "options_heading": "Opciones de búsqueda",
                 "placeholder": "Buscar...",
                 "preview_heading": "Buscar anterior",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Cambiar búsqueda: {query}",
                 "search_clear_button_accessible_label": "Borrar consulta de búsqueda"
             },
             "search_source": {
@@ -978,7 +978,7 @@
             },
             "user_selection_modal": {
                 "empty_results": "No se encontraron usuarios que coincidieran con su búsqueda.",
-                "max_items_to_select": "{count, plural, one {Select up to # user} other {Select up to # users}}",
+                "max_items_to_select": "{count, plural, one {Selecciona hasta # usuario} other {Selecciona hasta # usuarios}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
                 "title": "Seleccione los usuarios relevantes"
@@ -1154,7 +1154,7 @@
             "light_hc_mode_label": "Modo claro de alto contraste",
             "light_mode_label": "Modo Claro",
             "load_more": "Cargar más",
-            "latest": "",
+            "latest": "Más recientes",
             "loading": "Cargando...",
             "log_in": "Acceder",
             "log_out": "Desconectarse",
@@ -1184,9 +1184,9 @@
             "sign_up": "Regístrese",
             "some_others": "{count, plural, one {# más} other {# más}}",
             "start_a_discussion": "Crear discusión",
-            "title_az": "",
-            "title_za": "",
-            "top": "",
+            "title_az": "Título (A–Z)",
+            "title_za": "Título (Z–A)",
+            "top": "Principales",
             "username": "Nombre de usuario",
             "username_or_email_placeholder": "Nombre de usuario o Email",
             "users": "Usuarios",
