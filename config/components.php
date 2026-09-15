@@ -456,7 +456,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-links' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0-rc.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0-rc.3/locale/en.yml',
 	],
 	'fof-mailing' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0-beta.2/resources/locale/en.yml',
