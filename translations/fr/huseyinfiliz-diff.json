@@ -28,7 +28,7 @@
             "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} a supprimé ce contenu {ago}",
             "createdInfo": "{username} a créé {ago}",
-            "revisionInfo": "",
+            "revisionInfo": "Modifié {revisionCount, plural, one {{revisionCount} fois} other {{revisionCount} fois}}, le plus récent en haut",
             "noDiff": "Aucune différence n'a été trouvée entre ces deux contenus.",
             "differences": {
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -57,22 +57,22 @@
                 "wordLevel": "Au niveau des mots",
                 "charLevel": "Au niveau des caractères",
                 "neighborLines": "Lignes adjacentes",
-                "neighborLinesHelp": "",
-                "mergeThreshold": "",
-                "mergeThresholdHelp": "",
-                "dbOptimisation": "",
-                "archiveOlds": "",
-                "archiveOldsInfo": "",
-                "useCrons": "",
-                "useCronsHelp": "",
-                "archiveInfo": ""
+                "neighborLinesHelp": "Spécifiez le nombre de lignes adjacentes que vous souhaitez afficher.",
+                "mergeThreshold": "Seuil de fusion pour le moteur de rendu combiné",
+                "mergeThresholdHelp": "Cela détermine si un bloc de type « remplacer » doit être fusionné ou non en fonction du taux de modification du contenu, dont la valeur est comprise entre 0 et 1.",
+                "dbOptimisation": "Optimisation des bases de données",
+                "archiveOlds": "Archiver les anciennes révisions",
+                "archiveOldsInfo": "Si <strong>x ≥ A</strong>, les <strong>y=mx+b</strong> premières révisions du message seront stockées sous forme fusionnée et compressée. La valeur <strong>x</strong> correspond au nombre de révisions du message. Les valeurs flottantes de <strong>y</strong> seront arrondies à l'entier inférieur le plus proche.",
+                "useCrons": "Utiliser des tâches cron pour archiver les anciennes révisions",
+                "useCronsHelp": "Vous devez ajouter une tâche Cron sur votre serveur pour que cette option fonctionne. Elle s'exécutera chaque semaine, le dimanche à 2h du matin. Si vous désactivez cette option et activez celle ci-dessus, toutes les révisions du message seront analysées en vue de leur archivage lorsque le message correspondant sera modifié.",
+                "archiveInfo": "Gardez à l'esprit que vous pouvez désactiver ces deux options et exécuter la commande <code>php flarum diff:archive</code> pour archiver manuellement les anciennes révisions."
             },
             "permissions": {
-                "viewEditHistory": "",
-                "deleteEditHistory": "",
-                "selfDeleteEditHistory": "",
-                "rollbackEditHistory": "",
-                "selfRollbackEditHistory": ""
+                "viewEditHistory": "Voir l'historique des modifications",
+                "deleteEditHistory": "Supprimer l'historique des modifications des autres utilisateurs",
+                "selfDeleteEditHistory": "Supprimer l'historique de ses propres modifications",
+                "rollbackEditHistory": "Restaurer l'historique des modifications des autres utilisateurs",
+                "selfRollbackEditHistory": "Restaurer l'historique de ses propres modifications"
             }
         },
         "ref": {
