@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Ta bort länk",
-                "delete_link_confirmation": "Är du säker på att du vill ta bort den här länken?",
-                "internal_link": "Är det en intern länk?",
-                "open_newtab": "Öppna länk i ny flik",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Om du vill använda en varumärkesikon är prefixet istället <code>fab fa-</code>.",
-                "url_description": "Lämna tomt för att visa som en etikett.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Öppna länk i ny flik",
                 "use_rel_me": "Lägg till attributet <code>rel=\"me\"</code> för identitetsverifiering på andra webbplatser",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Länksynlighet",
                     "help": "Som standard är länkar endast synliga för användare med rollen <code>{admin}</code>. Justera behörigheterna för att ange vilka som kan se länken.",
                     "help-disabled": "Spara länken innan du ändrar synlighetsinställningarna.",
-                    "label": "Länksynlighet",
                     "guest-only": {
                         "label": "Endast {guest}?",
                         "help": "Endast {guest} kan se den här länken. Behörigheten ovan borde vara inställd på ”{everyone}”."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Ta bort länk",
+                "delete_link_confirmation": "Är du säker på att du vill ta bort den här länken?",
+                "internal_link": "Är det en intern länk?",
+                "url_description": "Lämna tomt för att visa som en etikett.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Länkarna på detta forum är förkonfigurerade och kan inte redigeras här."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Länkarna på detta forum är förkonfigurerade och kan inte redigeras här.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Visa endast ikoner på surfplatteskärmar"
+                "heading": "",
+                "show_icons_only_on_tablet": "Visa endast ikoner på surfplatteskärmar",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

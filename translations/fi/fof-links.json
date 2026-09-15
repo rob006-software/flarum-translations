@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Poista linkki",
-                "delete_link_confirmation": "Haluatko varmasti poistaa tämän linkin?",
-                "internal_link": "Onko sisäinen linkki?",
-                "open_newtab": "Avaa linkki uudessa välilehdessä",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Jos haluat käyttää brändi ikoneita, käytä etuliitettä <code>fab fa-</code>.",
-                "url_description": "Jätä tyhjäksi näyttääksesi nimikkeenä (label).",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Avaa linkki uudessa välilehdessä",
                 "use_rel_me": "Lisää <code>rel=\"me\"</code> attribuutti, muiden sivujen verifiointia varten",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Linkin näkyvyys",
                     "help": "Oletuksena linkit ovat näkyvillä vain <code>{admin}</code> käyttäjille. Säädä oikeuksia määrittääksesi kuka näkee tämän linkin.",
                     "help-disabled": "Tallenna linkki ennen, kuin muutat näkyvyysasetuksia.",
-                    "label": "Linkin näkyvyys",
                     "guest-only": {
                         "label": "Vain {guest}?",
                         "help": "Vain {guest} voivat nähdä tämän linkin. Oikeus yllä pitäisi olla asetettu kohtaan '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Poista linkki",
+                "delete_link_confirmation": "Haluatko varmasti poistaa tämän linkin?",
+                "internal_link": "Onko sisäinen linkki?",
+                "url_description": "Jätä tyhjäksi näyttääksesi nimikkeenä (label).",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Foorumin linkit on esimääritetty, eikä niitä voi muokata täällä."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Foorumin linkit on esimääritetty, eikä niitä voi muokata täällä.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Näytä ikonit vain tabletti näkymällä"
+                "heading": "",
+                "show_icons_only_on_tablet": "Näytä ikonit vain tabletti näkymällä",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

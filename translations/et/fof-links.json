@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Kustuta link",
-                "delete_link_confirmation": "Oled sa kindel, et soovid seda linki kustutada?",
-                "internal_link": "Kas see on sisemine link?",
-                "open_newtab": "Ava lingid uuel vahekaardil",
-                "submit_button": "Salvesta muudatused",
                 "title": "Loo link",
+                "title_child": "",
                 "title_label": "Pealkiri",
                 "title_placeholder": "Pealkiri",
                 "icon_label": "Ikoon",
                 "icon_text": "Ikooni tekst",
                 "icon_additional_text": "Kui soovid kasutada brändi ikooni, siis kasuta eesliidet <code>fab fa-</code>.",
-                "url_description": "Jäta tühjaks, et näidata sildina.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "URL",
+                "options_label": "",
+                "open_newtab": "Ava lingid uuel vahekaardil",
                 "use_rel_me": "Lisa <code>rel=\"me\"</code> omadus identiteedi kinnitamiseks teistel saitidel",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Lingi nähtavus",
                     "help": "Lingid on vaikimisi nähtaval ainult <code>{admin}</code> kasutajatele. Kohanda õigusi, et määrata, kes näevad seda linki.",
                     "help-disabled": "Salvesta link enne, kui muudad selle nähtavuse seadeid.",
-                    "label": "Lingi nähtavus",
                     "guest-only": {
                         "label": "Ainult {guest}?",
                         "help": "Ainult {guest} näeb seda linki. Ülalolevad õigused peaks olema '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "Salvesta muudatused",
+                "delete_link_button": "Kustuta link",
+                "delete_link_confirmation": "Oled sa kindel, et soovid seda linki kustutada?",
+                "internal_link": "Kas see on sisemine link?",
+                "url_description": "Jäta tühjaks, et näidata sildina.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "Loo link",
                 "links": "Lingid",
-                "preconfigured": "Selle foorumi lingid on eelseadistatud ja neid ei saa siin muuta."
+                "description": "",
+                "create_button": "Loo link",
+                "preconfigured": "Selle foorumi lingid on eelseadistatud ja neid ei saa siin muuta.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Näita ikoone ainult tahvlite ekraanidel"
+                "heading": "",
+                "show_icons_only_on_tablet": "Näita ikoone ainult tahvlite ekraanidel",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

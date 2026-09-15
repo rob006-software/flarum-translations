@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Eliminar enlace",
-                "delete_link_confirmation": "¿Está seguro de que quiere eliminar este enlace?",
-                "internal_link": "¿Es un enlace de Flarum?",
-                "open_newtab": "Abrir enlace en una nueva pestaña",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Si quieres utilizar un ícono de marca, el prefijo es <code>fab fa-</code>.",
-                "url_description": "Deja en blanco para mostrar como una etiqueta.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Abrir enlace en una nueva pestaña",
                 "use_rel_me": "Añade el atributo <code>rel=\"me\"</code> para la verificación de identidad en otros sitios",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Visibilidad del enlace",
                     "help": "De forma predeterminada, los enlaces solo son visibles para los usuarios <code>{admin}</code>. Ajusta los permisos para especificar quién puede ver este enlace.",
                     "help-disabled": "Guarda el enlace antes de cambiar la configuración de visibilidad.",
-                    "label": "Visibilidad del enlace",
                     "guest-only": {
                         "label": "¿Solo {guest}?",
                         "help": "Solo {guest} puede ver este enlace. El permiso anterior debe configurarse como '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Eliminar enlace",
+                "delete_link_confirmation": "¿Está seguro de que quiere eliminar este enlace?",
+                "internal_link": "¿Es un enlace de Flarum?",
+                "url_description": "Deja en blanco para mostrar como una etiqueta.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Los enlaces de este foro están preconfigurados y no se pueden editar aquí."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Los enlaces de este foro están preconfigurados y no se pueden editar aquí.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Mostrar iconos solo en las pantallas de tabletas"
+                "heading": "",
+                "show_icons_only_on_tablet": "Mostrar iconos solo en las pantallas de tabletas",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

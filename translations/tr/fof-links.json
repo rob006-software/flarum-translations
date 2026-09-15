@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Bağlantıyı Sil",
-                "delete_link_confirmation": "Bu bağlantıyı silmek istediğine emin misin?",
-                "internal_link": "Bu bir dahili bağlantı mı?",
-                "open_newtab": "Bağlantıyı yeni sekmede aç",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Bir marka simgesi kullanmak istiyorsanız bunun yerine <code>fab fa-</code> önekini kullanın.",
-                "url_description": "Etiket olarak göstermek için boş bırakın.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Bağlantıyı yeni sekmede aç",
                 "use_rel_me": "Diğer sitelerde kimlik doğrulaması için <code>rel='me'</code> özelliğini ekleyin",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Bağlantı görünürlüğü",
                     "help": "Bağlantılar varsayılan olarak yalnızca <code>{admin}</code> kullanıcıları tarafından görülebilir. Bu bağlantıyı kimlerin görebileceğini belirtmek için izinleri ayarlayın.",
                     "help-disabled": "Görünürlük ayarlarını değiştirmeden önce bağlantıyı kaydedin.",
-                    "label": "Bağlantı görünürlüğü",
                     "guest-only": {
                         "label": "Sadece {guest} mi?",
                         "help": "Bu bağlantıyı yalnızca {guest} görebilir. Yukarıdaki izin '{everyone}' olarak ayarlanmalıdır."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Bağlantıyı Sil",
+                "delete_link_confirmation": "Bu bağlantıyı silmek istediğine emin misin?",
+                "internal_link": "Bu bir dahili bağlantı mı?",
+                "url_description": "Etiket olarak göstermek için boş bırakın.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Bu forumdaki bağlantılar önceden yapılandırılmıştır ve burada düzenlenemez."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Bu forumdaki bağlantılar önceden yapılandırılmıştır ve burada düzenlenemez.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Simgeleri yalnızca tablet ekranlarında göster"
+                "heading": "",
+                "show_icons_only_on_tablet": "Simgeleri yalnızca tablet ekranlarında göster",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

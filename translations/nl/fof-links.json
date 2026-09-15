@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Verwijder Link",
-                "delete_link_confirmation": "Weet je zeker dat je deze link wilt verwijderen?",
-                "internal_link": "Is het een interne link?",
-                "open_newtab": "Open link in een nieuwe tab",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Als u een merkpictogram wilt gebruiken, is het voorvoegsel <code>fab fa-</code>.",
-                "url_description": "Laat leeg om als label weer te geven.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Open link in een nieuwe tab",
                 "use_rel_me": "Voeg het <code>rel=\"me\"</code> attribuut toe voor identiteitsverificatie op andere sites",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Zichtbaarheid van koppelingen",
                     "help": "Links zijn standaard alleen zichtbaar voor <code>{admin}</code>-gebruikers. Pas de rechten aan om te bepalen wie deze link mag zien.",
                     "help-disabled": "Sla de koppeling op voordat u de zichtbaarheidsinstellingen wijzigt.",
-                    "label": "Zichtbaarheid van koppelingen",
                     "guest-only": {
                         "label": "alleen {guest} ?",
                         "help": "Alleen {guest} kan deze link zien. De bovenstaande rechten moeten worden ingesteld op '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Verwijder Link",
+                "delete_link_confirmation": "Weet je zeker dat je deze link wilt verwijderen?",
+                "internal_link": "Is het een interne link?",
+                "url_description": "Laat leeg om als label weer te geven.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "De links op dit forum zijn vooraf geconfigureerd en kunnen hier niet worden bewerkt."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "De links op dit forum zijn vooraf geconfigureerd en kunnen hier niet worden bewerkt.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Pictogrammen alleen weergeven op tabletschermen"
+                "heading": "",
+                "show_icons_only_on_tablet": "Pictogrammen alleen weergeven op tabletschermen",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

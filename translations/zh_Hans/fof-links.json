@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "删除链接",
-                "delete_link_confirmation": "确定要删除此链接吗？",
-                "internal_link": "站内高亮链接",
-                "open_newtab": "在新标签页中打开",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "如需使用品牌图标，请改用 <code>fab fa-</code> 前缀。",
-                "url_description": "留空则仅作为文字标签显示。",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "在新标签页中打开",
                 "use_rel_me": "添加 <code>rel=\"me\"</code> 属性，用于在其他网站验证身份",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "可见范围",
                     "help": "链接默认仅对 <code>{admin}</code> 用户可见。你可以调整权限，设置哪些用户可以看到此链接。",
                     "help-disabled": "保存链接后才能修改可见范围。",
-                    "label": "可见范围",
                     "guest-only": {
                         "label": "仅限 {guest}",
                         "help": "仅 {guest} 可以看到此链接。请调整上方权限为「{everyone}」。"
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "删除链接",
+                "delete_link_confirmation": "确定要删除此链接吗？",
+                "internal_link": "站内高亮链接",
+                "url_description": "留空则仅作为文字标签显示。",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "论坛链接已预先配置，无法在此编辑。"
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "论坛链接已预先配置，无法在此编辑。",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "平板设备仅显示图标"
+                "heading": "",
+                "show_icons_only_on_tablet": "平板设备仅显示图标",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

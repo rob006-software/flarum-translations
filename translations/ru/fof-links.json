@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Удалить ссылку",
-                "delete_link_confirmation": "Вы уверены, что хотите удалить ссылку?",
-                "internal_link": "Это внутренняя ссылка?",
-                "open_newtab": "Открывать в новом окне",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Для значка бренда можно использовать префикс <code>fab fa-</code>.",
-                "url_description": "Оставьте пустым для отображения в качестве метки.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Открывать в новом окне",
                 "use_rel_me": "Атрибут <code>rel=\"me\"</code> позволяет подтвердить личность на других сайтах",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Видимость ссылки",
                     "help": "По умолчанию ссылки видны только <code>{admin}</code> пользователям. Настройте разрешения, указав, кто может видеть эту ссылку.",
                     "help-disabled": "Сохранить ссылку до изменения настроек видимости.",
-                    "label": "Видимость ссылки",
                     "guest-only": {
                         "label": "Только {guest} ?",
                         "help": "Эту ссылку может видеть только {guest}. Разрешение выше должно быть установлено в '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Удалить ссылку",
+                "delete_link_confirmation": "Вы уверены, что хотите удалить ссылку?",
+                "internal_link": "Это внутренняя ссылка?",
+                "url_description": "Оставьте пустым для отображения в качестве метки.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "На этом форуме ссылки сконфигурированы заранее и не могут быть изменены."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "На этом форуме ссылки сконфигурированы заранее и не могут быть изменены.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Отображать значки только на экранах планшетов"
+                "heading": "",
+                "show_icons_only_on_tablet": "Отображать значки только на экранах планшетов",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

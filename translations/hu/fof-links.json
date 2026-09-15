@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Hivatkozás törlése",
-                "delete_link_confirmation": "Valóban törli a hivatkozást?",
-                "internal_link": "Ez egy belső hivatkozás?",
-                "open_newtab": "Hivatkozás megnyitása új lapon",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Ha inkább egy márkaikont használna, akkor az előtag: <code>fab fa-</code>.",
-                "url_description": "Hagyja üresen a címkeként történő megjelenítéséhez.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Hivatkozás megnyitása új lapon",
                 "use_rel_me": "A <code>rel=\"me\"</code> attribútum hozzáadása a más oldalakon történő személyazonosság-ellenőrzés lehetővé tételéhez",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Hivatkozás láthatósága",
                     "help": "A hivatkozások alapértelmezetten csak <code>{admin}</code> felhasználók számára láthatók Módosítsa ezeket a jogosultságokat, hogy megadja, ki láthassa ezt a hivatkozást.",
                     "help-disabled": "Mentse a hivatkozást mielőtt módosítja a láthatósági beállításokat.",
-                    "label": "Hivatkozás láthatósága",
                     "guest-only": {
                         "label": "Csak {guest}?",
                         "help": "Csak {guest} láthatja ezt a hivatkozást. A fenti jogosultságot erre kellene állítani: „{everyone}”."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Hivatkozás törlése",
+                "delete_link_confirmation": "Valóban törli a hivatkozást?",
+                "internal_link": "Ez egy belső hivatkozás?",
+                "url_description": "Hagyja üresen a címkeként történő megjelenítéséhez.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "A fórum hivatkozásai előre be lettek állítva, és itt nem szerkeszthetők."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "A fórum hivatkozásai előre be lettek állítva, és itt nem szerkeszthetők.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Ikonok megjelenítése csak a táblagép méretű képernyőkön"
+                "heading": "",
+                "show_icons_only_on_tablet": "Ikonok megjelenítése csak a táblagép méretű képernyőkön",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

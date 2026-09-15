@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Cancella link",
-                "delete_link_confirmation": "Sei sicuro di voler rimuovere questo link?",
-                "internal_link": "Si tratta di un link interno?",
-                "open_newtab": "Apri link in nuova scheda",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Se si desidera utilizzare un'icona del marchio, il prefisso è invece <code>fab fa-</code>.",
-                "url_description": "Lascia vuoto per mostrare etichetta.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Apri link in nuova scheda",
                 "use_rel_me": "Aggiungere l'attributo <code>rel=\"me\"</code> per la verifica dell'identità su altri siti",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Visibilità link",
                     "help": "Per impostazione predefinita, i link sono visibili solo agli utenti <code>{admin}</code>. Modifica i permessi per specificare chi può vedere questo link.",
                     "help-disabled": "Salvare il collegamento prima di modificare le impostazioni di visibilità.",
-                    "label": "Visibilità link",
                     "guest-only": {
                         "label": "Solo {guest}?",
                         "help": "Solo {guest} può vedere questo link. Il permesso sopra dovrebbe essere impostato su '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Cancella link",
+                "delete_link_confirmation": "Sei sicuro di voler rimuovere questo link?",
+                "internal_link": "Si tratta di un link interno?",
+                "url_description": "Lascia vuoto per mostrare etichetta.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": ""
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Mostra le icone solo sugli schermi dei tablet"
+                "heading": "",
+                "show_icons_only_on_tablet": "Mostra le icone solo sugli schermi dei tablet",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

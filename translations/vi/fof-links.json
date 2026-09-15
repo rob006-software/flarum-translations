@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Xóa liên kết",
-                "delete_link_confirmation": "Bạn có chắc chắn muốn xóa liên kết này không?",
-                "internal_link": "Đây có phải là liên kết nội bộ?",
-                "open_newtab": "Mở liên kết trong tab mới",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Nếu bạn muốn sử dụng biểu tượng thương hiệu, thay vào đó, tiền tố là <code>fab fa-</code>.",
-                "url_description": "Để trống để hiện dưới dạng nhãn.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Mở liên kết trong tab mới",
                 "use_rel_me": "Thêm thuộc tính <code>rel=\"me\"</code> để xác minh danh tính trên các trang web khác",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Hiển thị liên kết",
                     "help": "Theo mặc định, liên kết chỉ hiển thị với người dùng <code>{admin}</code>. Điều chỉnh quyền để chỉ định ai có thể xem liên kết này.",
                     "help-disabled": "Lưu liên kết trước khi thay đổi cài đặt hiển thị.",
-                    "label": "Hiển thị liên kết",
                     "guest-only": {
                         "label": "Chỉ {guest}?",
                         "help": "Chỉ {guest} mới có thể thấy liên kết này. Quyền ở trên phải được đặt thành '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Xóa liên kết",
+                "delete_link_confirmation": "Bạn có chắc chắn muốn xóa liên kết này không?",
+                "internal_link": "Đây có phải là liên kết nội bộ?",
+                "url_description": "Để trống để hiện dưới dạng nhãn.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Các liên kết trên diễn đàn này đã được cấu hình sẵn và không thể chỉnh sửa ở đây."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Các liên kết trên diễn đàn này đã được cấu hình sẵn và không thể chỉnh sửa ở đây.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Chỉ hiển thị biểu tượng trên màn hình máy tính bảng"
+                "heading": "",
+                "show_icons_only_on_tablet": "Chỉ hiển thị biểu tượng trên màn hình máy tính bảng",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

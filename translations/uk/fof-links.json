@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Видалити посилання",
-                "delete_link_confirmation": "Ви впевнені, що хочете видалити це посилання?",
-                "internal_link": "Це внутрішнє посилання?",
-                "open_newtab": "Відкрити посилання в новій вкладці",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Якщо ви хочете використати іконку бренду, замість цього додайте префікс <code>fab fa-</code>.",
-                "url_description": "Залиште порожнім, щоб показати як мітку.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Відкрити посилання в новій вкладці",
                 "use_rel_me": "Додайте атрибут <code>rel=\"me\"</code> для підтвердження особи на інших сайтах",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Видимість посилань",
                     "help": "Типово посилання видимі лише для користувачів <code>{admin}</code>. Налаштуйте права доступу, щоб вказати, хто може бачити це посилання.",
                     "help-disabled": "Збережіть посилання перед зміною налаштувань видимості.",
-                    "label": "Видимість посилань",
                     "guest-only": {
                         "label": "Тільки для {guest}?",
                         "help": "Тільки{guest} може бачити це посилання. Дозвіл вище має бути встановлений на '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Видалити посилання",
+                "delete_link_confirmation": "Ви впевнені, що хочете видалити це посилання?",
+                "internal_link": "Це внутрішнє посилання?",
+                "url_description": "Залиште порожнім, щоб показати як мітку.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Посилання на цьому форумі попередньо налаштовані і не можуть бути відредаговані тут."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Посилання на цьому форумі попередньо налаштовані і не можуть бути відредаговані тут.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Показувати іконки тільки на екранах планшетів"
+                "heading": "",
+                "show_icons_only_on_tablet": "Показувати іконки тільки на екранах планшетів",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

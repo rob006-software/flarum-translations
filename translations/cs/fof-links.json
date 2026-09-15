@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Smazat odkaz",
-                "delete_link_confirmation": "Opravdu chcete tento odkaz smazat?",
-                "internal_link": "Jedná se o interní odkaz?",
-                "open_newtab": "Otevřít odkaz na nové kartě",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Pokud chcete použít ikonu značky, použijte místo toho předponu <code>fab fa-</code>.",
-                "url_description": "Ponechte prázdné pro zobrazení jako štítek.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Otevřít odkaz na nové kartě",
                 "use_rel_me": "Přidat atribut <code>rel=\"me\"</code> pro ověření identity na jiných webech",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Viditelnost odkazu",
                     "help": "Odkazy jsou ve výchozím nastavení viditelné pouze pro uživatele <code>{admin}</code>. Upravte oprávnění a určete, kdo může tento odkaz vidět.",
                     "help-disabled": "Uložte odkaz před změnou nastavení viditelnosti.",
-                    "label": "Viditelnost odkazu",
                     "guest-only": {
                         "label": "Pouze {guest}?",
                         "help": "Tento odkaz můžou vidět pouze {guest}. Výše uvedené oprávnění by mělo být nastaveno na '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Smazat odkaz",
+                "delete_link_confirmation": "Opravdu chcete tento odkaz smazat?",
+                "internal_link": "Jedná se o interní odkaz?",
+                "url_description": "Ponechte prázdné pro zobrazení jako štítek.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Odkazy na tomto fóru jsou předem nakonfigurované a nelze je zde upravovat."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Odkazy na tomto fóru jsou předem nakonfigurované a nelze je zde upravovat.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Zobrazit ikony pouze na obrazovkách tabletů"
+                "heading": "",
+                "show_icons_only_on_tablet": "Zobrazit ikony pouze na obrazovkách tabletů",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {

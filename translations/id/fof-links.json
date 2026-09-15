@@ -2,38 +2,79 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Hapus Link",
-                "delete_link_confirmation": "Apakah Anda yakin ingin menghapus link ini?",
-                "internal_link": "Apakah ini link internal?",
-                "open_newtab": "Buka link pada tab baru",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Jika Anda ingin menggunakan ikon brand, prefiksnya adalah <code>fab fa-</code>.",
-                "url_description": "Biarkan kosong untuk ditampilkan sebagai label.",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "label": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "",
+                "open_newtab": "Buka link pada tab baru",
                 "use_rel_me": "Tambahkan atribut <code>rel=\"me\"</code> untuk verifikasi identitas di situs lain",
+                "use_rel_me_help": "",
                 "visibility": {
+                    "label": "Visibilitas link",
                     "help": "Link secara default hanya dapat dilihat oleh pengguna <code>{admin}</code>. Sesuaikan izin untuk menentukan siapa saja yang dapat melihat link ini.",
                     "help-disabled": "Simpan link sebelum mengubah pengaturan visibilitas.",
-                    "label": "Visibilitas link",
                     "guest-only": {
                         "label": "Hanya {guest}?",
                         "help": "Hanya {guest} yang dapat melihat link ini. Izin di atas harus ditetapkan ke '{everyone}'."
                     }
-                }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Hapus Link",
+                "delete_link_confirmation": "Apakah Anda yakin ingin menghapus link ini?",
+                "internal_link": "Apakah ini link internal?",
+                "url_description": "Biarkan kosong untuk ditampilkan sebagai label.",
+                "url_placeholder.internal": "",
+                "url_placeholder.external": ""
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": "Link pada forum ini telah dikonfigurasikan sebelumnya dan tidak dapat diedit di sini."
+                "description": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Link pada forum ini telah dikonfigurasikan sebelumnya dan tidak dapat diedit di sini.",
+                "no_url": "",
+                "reorder_help": "",
+                "reorder_loading": "",
+                "reorder_accessible_label": "",
+                "edit_accessible_label": "",
+                "add_child_accessible_label": "",
+                "audience_everyone": "",
+                "flag": {
+                    "new_tab": "",
+                    "rel_me": "",
+                    "guest_only": ""
+                },
+                "moved": "",
+                "moved_under": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": "Tampilkan ikon hanya pada layar tablet"
+                "heading": "",
+                "show_icons_only_on_tablet": "Tampilkan ikon hanya pada layar tablet",
+                "show_icons_only_on_tablet_help": ""
             }
         },
         "forum": {
