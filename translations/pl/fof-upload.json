@@ -43,7 +43,7 @@
                 "local_cdn": "",
                 "s3_provider": "",
                 "s3_endpoint": "",
-                "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl": "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
                 "s3_acl_unsupported": "",
                 "s3_path_style": "",
                 "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
