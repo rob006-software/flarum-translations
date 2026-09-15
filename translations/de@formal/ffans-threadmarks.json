@@ -48,7 +48,7 @@
                 "personal_tab": "Persönlich",
                 "discussion_tab": "=> ffans-threadmarks.ref.discussion",
                 "loading_text": "=> core.ref.loading",
-                "unavailable_text": "",
+                "unavailable_text": "Keine Diskussionsmarkierungen zur Verwaltung verfügbar.",
                 "type_label": "=> ffans-threadmarks.ref.type",
                 "type_placeholder": "Wähle einen Typ",
                 "note_label": "Notiz",
@@ -56,36 +56,36 @@
                 "save_button": "=> ffans-threadmarks.ref.save",
                 "add_button": "Hinzufügen",
                 "delete_button": "=> core.ref.delete",
-                "delete_personal_confirmation": "",
-                "delete_discussion_confirmation": ""
+                "delete_personal_confirmation": "Diese persönliche Diskussionsmarkierung löschen?",
+                "delete_discussion_confirmation": "Diese öffentliche Diskussionsmarkierung löschen?"
             },
             "directory": {
                 "title": "=> ffans-threadmarks.ref.threadmarks",
                 "show_button": "Diskussionsmarkierungen",
                 "hide_button": "Diskussionsmarkierungen",
-                "close_a11y_label": "",
-                "scope_a11y_label": "",
+                "close_a11y_label": "Verzeichnis der Diskussionsmarkierungen schließen",
+                "scope_a11y_label": "Diskussionsmarkierungen nach Bereich filtern",
                 "all_filter": "Alle",
                 "personal_filter": "=> ffans-threadmarks.ref.mine",
                 "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
                 "mine_badge": "=> ffans-threadmarks.ref.mine",
-                "personal_tooltip": "",
+                "personal_tooltip": "Persönliche Diskussionsmarkierung, nur für dich sichtbar",
                 "edit_personal_tooltip": "Persönliche Diskussionsmarkierung bearbeiten",
                 "edit_discussion_tooltip": "Öffentliche Diskussionsmarkierung bearbeiten",
-                "edit_personal_a11y_label": "",
-                "edit_discussion_a11y_label": "",
+                "edit_personal_a11y_label": "Persönliche Diskussionsmarkierung an Beitrag #{number} bearbeiten",
+                "edit_discussion_a11y_label": "Öffentliche Diskussionsmarkierung an Beitrag #{number} bearbeiten",
                 "deleted_text": "Dieser Inhalt wurde gelöscht."
             },
             "scrubber": {
-                "threadmark_a11y_label": "",
-                "cluster_a11y_label": "",
-                "open_directory_a11y_label": ""
+                "threadmark_a11y_label": "Diskussionsmarkierung an Beitrag #{number}",
+                "cluster_a11y_label": "{count, plural, one {# Diskussionsmarkierung} other {# Diskussionsmarkierungen}}",
+                "open_directory_a11y_label": "Vollständiges Verzeichnis der Diskussionsmarkierungen öffnen"
             },
             "discussion_controls": {
                 "show_all_button": "Alle Beiträge anzeigen",
-                "show_threadmarks_button": ""
+                "show_threadmarks_button": "Nur Diskussionsmarkierungen"
             },
             "post_controls": {
                 "manage_button": "Diskussionsmarkierung verwalten"
