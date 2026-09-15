@@ -1,0 +1,36 @@
+{
+    "linkrobins-swoop": {
+        "admin": {
+            "key_label": "Mail key",
+            "key_help": "Paste the key from your Link Robins dashboard. Your forum's email then goes out through us over HTTPS, so a host that blocks SMTP ports stops mattering. Saving checks the key straight away.\n",
+            "not_selected": "Your key works, but this forum is not using Swoop to send. Choose Swoop under Email in the admin settings — until you do, mail goes out however it did before.\n",
+            "balance_label": "Emails left",
+            "balance_left": "{count} left. They do not expire.",
+            "balance_low": "{count} left. Top up before you run out — when the balance is empty your forum falls back to its own mail settings.",
+            "balance_unknown": "Connect a key to see how many emails you have left.",
+            "top_up": "Top up",
+            "delivery_label": "Delivery",
+            "delivery_none": "Nothing reported yet. Numbers appear once your forum has sent some mail.",
+            "stat_delivered": "delivered",
+            "stat_bounced": "bounced",
+            "stat_complained": "marked spam",
+            "replies_label": "Replies",
+            "replies_show": "Show replies",
+            "replies_unread": "Show replies ({count} new)",
+            "replies_loading": "Fetching…",
+            "replies_empty": "Nobody has replied yet.",
+            "replies_help": "Account emails normally come from an address nobody reads. Anyone who answers one of yours ends up here instead.\n",
+            "test_button": "Send me a test email",
+            "test_sending": "Sending…",
+            "test_sent": "Sent to {email}. If it does not arrive within a minute or two, check spam before changing anything.",
+            "test_failed": "Could not send: {error}",
+            "test_help": "Sends one real email to your own address, so you find out the whole path works before a new member does. It costs one email from your balance.\n",
+            "service_url_label": "Service address",
+            "service_url_help": "Where the key is checked and messages are handed over. Leave this alone unless you have been given a different address; it should look like https://linkrobins.com, with no path after the host.\n",
+            "connected": "Connected. Your forum's email is going out through Swoop.",
+            "not_connected": "Not connected. This forum's email is still going out through whichever driver is selected under Admin → Email.\n",
+            "last_error": "Last answer from the service: {error}",
+            "scope_note": "Swoop is a mail driver, so once it is selected under Admin → Email it carries everything this forum sends — confirmations, password resets, notifications and digests alike. Your forum writes the message; Swoop only delivers it.\n"
+        }
+    }
+}
