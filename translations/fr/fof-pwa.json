@@ -46,8 +46,8 @@
                     "window_controls_overlay_text": "Si cette option est activée, les utilisateurs peuvent bénéficier d'une expérience plus immersive, similaire à celle d'une application native, grâce au masquage de la barre de titre native. L'application effective de la superposition des contrôles de fenêtre dépend des préférences de l'utilisateur et de la compatibilité du navigateur. Vous devez personnaliser votre barre de titre à l'aide de CSS/JS après avoir activé cette option ; sinon, les contrôles viendront se superposer aux éléments de la barre de navigation supérieure de votre forum et il sera pratiquement impossible de faire glisser la fenêtre, ce qui nuira à l'expérience utilisateur.\n\nVoir aussi : <compatibilitylink>Compatibilité du navigateur avec la superposition des contrôles de fenêtre</compatibilitylink> & <learnlink>À propos de la superposition des contrôles de fenêtre sur Microsoft Learn</learnlink>\n",
                     "user_max_subscriptions_label": "Nombre maximum d'abonnements push par utilisateur",
                     "user_max_subscriptions_text": "Combien d'abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu'un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l'API. Chaque abonnement correspond généralement à un navigateur utilisé par l'utilisateur.",
-                    "push_notification_ttl_label": "",
-                    "push_notification_ttl_text": "",
+                    "push_notification_ttl_label": "Durée de vie (TTL) des notifications push",
+                    "push_notification_ttl_text": "Durée pendant laquelle les notifications push non envoyées doivent rester dans la file d'attente du service de notification push avant d'expirer (en secondes).",
                     "share_buttons_label": "Activer les boutons de partage",
                     "share_buttons_text": "Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs."
                 },
@@ -117,8 +117,8 @@
             }
         },
         "api": {
-            "endpoint_https_required": "",
-            "endpoint_host_not_allowed": ""
+            "endpoint_https_required": "Les notifications push n'ont pas pu être activées car votre navigateur a fourni une URL de service push invalide « {url} ». Une URL HTTPS valide est requise.",
+            "endpoint_host_not_allowed": "Les notifications push n'ont pas pu être activées car l'hôte du service push « {host} » utilisé par votre navigateur n'est pas autorisé. Veuillez contacter l'administrateur du forum."
         },
         "views": {
             "offline": {
