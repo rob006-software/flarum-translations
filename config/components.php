@@ -684,7 +684,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-rewind' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-simple-dark-mode' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/simple-dark-mode/1.0/locale/en.yml',
