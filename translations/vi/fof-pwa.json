@@ -42,10 +42,12 @@
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": "",
+                    "user_max_subscriptions_label": "",
+                    "user_max_subscriptions_text": "",
+                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_text": "",
                     "share_buttons_label": "Bật nút chia sẻ",
                     "share_buttons_text": "Nếu bật, một nút \"Chia sẻ\" sẽ được thêm vào các cuộc thảo luận, bài viết và người dùng."
                 },
@@ -113,6 +115,10 @@
                 "safari_ios_title": "",
                 "safari_ios_instructions": ""
             }
+        },
+        "api": {
+            "endpoint_https_required": "",
+            "endpoint_host_not_allowed": ""
         },
         "views": {
             "offline": {

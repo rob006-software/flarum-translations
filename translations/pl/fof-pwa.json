@@ -42,10 +42,12 @@
                     "force_portrait_text": "Wymuś orientację pionową",
                     "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z e-mail",
                     "push_notif_preference_default_to_email_text": "Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.",
-                    "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
-                    "user_max_subscriptions_text": "Ile subskrypcji push może mieć jednocześnie każdy użytkownik? Przy wysyłaniu powiadomienia push każda subskrypcja powoduje osobne wywołanie API. Każda subskrypcja zwykle odpowiada jednej przeglądarce używanej przez użytkownika.",
                     "window_controls_overlay_label": "Włącz Window Controls Overlay",
                     "window_controls_overlay_text": "Po włączeniu użytkownicy mogą uzyskać bardziej immersyjne środowisko przypominające natywną aplikację dzięki ukryciu systemowego paska tytułu. Dostępność Window Controls Overlay zależy od ustawień użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS. W przeciwnym razie kontrolki mogą zasłonić elementy górnego paska nawigacyjnego forum, a przeciąganie okna będzie bardzo utrudnione.\n\nZobacz także: <compatibilitylink>zgodność przeglądarek z Window Controls Overlay</compatibilitylink> i <learnlink>informacje o Window Controls Overlay w Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
+                    "user_max_subscriptions_text": "Ile subskrypcji push może mieć jednocześnie każdy użytkownik? Przy wysyłaniu powiadomienia push każda subskrypcja powoduje osobne wywołanie API. Każda subskrypcja zwykle odpowiada jednej przeglądarce używanej przez użytkownika.",
+                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_text": "",
                     "share_buttons_label": "Włącz przyciski udostępniania",
                     "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników."
                 },
@@ -113,6 +115,10 @@
                 "safari_ios_title": "Apple iPhone i iPad (iOS/iPadOS)",
                 "safari_ios_instructions": "Powiadomienia push w systemach iOS i iPadOS wymagają zainstalowania aplikacji. W Safari stuknij ikonę „Udostępnij” i wybierz „Dodaj do ekranu początkowego”. Następnie otwórz zainstalowaną aplikację. Jeśli powiadomienia są zablokowane, otwórz aplikację „Ustawienia” systemu iOS, przejdź do „Powiadomienia”, wybierz tę aplikację internetową z listy i włącz „Dopuszczaj powiadomienia”."
             }
+        },
+        "api": {
+            "endpoint_https_required": "",
+            "endpoint_host_not_allowed": ""
         },
         "views": {
             "offline": {

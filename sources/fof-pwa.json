@@ -42,10 +42,12 @@
                     "force_portrait_text": "Force portrait orientation",
                     "push_notif_preference_default_to_email_label": "Default push preferences to email",
                     "push_notif_preference_default_to_email_text": "If enabled, users will have push notifications enabled by default for all notification types where email notifications are enabled by default. If disabled, users will have push notifications disabled by default.",
-                    "user_max_subscriptions_label": "Max push subscriptions per user",
-                    "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription results in an API call. Each subscription typically corresponds to a browser the user has used.",
                     "window_controls_overlay_label": "Enable Window Controls Overlay",
                     "window_controls_overlay_text": "If enabled, users can get a more immersive, native-like experience by hiding the native title bar. Whether Window Controls Overlay is actually applied depends on the user's preference and browser compatibility. You must customize your title bar with CSS/JS after enabling this, otherwise the controls will overlay elements of your forum's top navbar and the window will be nearly impossible to drag, resulting in a bad experience.\n\nSee also: <compatibilitylink>Window Controls Overlay browser compatibility</compatibilitylink> & <learnlink>About Window Controls Overlay on Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Max push subscriptions per user",
+                    "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription results in an API call. Each subscription typically corresponds to a browser the user has used.",
+                    "push_notification_ttl_label": "Push notification TTL",
+                    "push_notification_ttl_text": "How long undelivered push notifications should remain queued by the push service before expiring (in seconds).",
                     "share_buttons_label": "Enable share buttons",
                     "share_buttons_text": "If enabled, a \"Share\" button will be added to discussions, posts, and users."
                 },
@@ -113,6 +115,10 @@
                 "safari_ios_title": "Apple iPhone and iPad (iOS/iPadOS)",
                 "safari_ios_instructions": "Push notifications on iOS require the app to be installed. In Safari, tap the \"Share\" icon and select \"Add to Home Screen\". Then open the newly installed app. If notifications are blocked, open the iOS \"Settings\" app, go to \"Notifications\", select this web app from the list, and turn on \"Allow Notifications\"."
             }
+        },
+        "api": {
+            "endpoint_https_required": "Push notifications could not be enabled because your browser provided an invalid push service URL \"{url}\". A valid HTTPS URL is required.",
+            "endpoint_host_not_allowed": "Push notifications could not be enabled because the push service host \"{host}\" used by your browser is not allowed. Please contact the forum administrator."
         },
         "views": {
             "offline": {

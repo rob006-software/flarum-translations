@@ -42,10 +42,12 @@
                     "force_portrait_text": "Hochformat erzwingen",
                     "push_notif_preference_default_to_email_label": "Standard-Push-Präferenzen von E-Mail übernehmen",
                     "push_notif_preference_default_to_email_text": "Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.",
-                    "user_max_subscriptions_label": "Maximale Push-Abonnements pro Benutzer",
-                    "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.",
                     "window_controls_overlay_label": "Overlay der Fenstersteuerelemente aktivieren",
                     "window_controls_overlay_text": "Wenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Maximale Push-Abonnements pro Benutzer",
+                    "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.",
+                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_text": "",
                     "share_buttons_label": "Schaltflächen „Teilen“ hinzufügen",
                     "share_buttons_text": "Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt."
                 },
@@ -113,6 +115,10 @@
                 "safari_ios_title": "Apple iPhone und iPad (iOS/iPadOS)",
                 "safari_ios_instructions": "Für Push-Benachrichtigungen unter iOS muss die App installiert sein. Tippe in Safari auf das Symbol „Teilen“ und wähle „Zum Startbildschirm hinzufügen“. Öffne anschließend die neu installierte App. Falls Benachrichtigungen blockiert sind, öffne die iOS-App „Einstellungen“, gehe zu „Benachrichtigungen“, wähle diese Web-App aus der Liste aus und aktiviere „Benachrichtigungen zulassen“."
             }
+        },
+        "api": {
+            "endpoint_https_required": "",
+            "endpoint_host_not_allowed": ""
         },
         "views": {
             "offline": {

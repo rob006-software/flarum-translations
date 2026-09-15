@@ -42,10 +42,12 @@
                     "force_portrait_text": "Forcer l'orientation en mode portrait",
                     "push_notif_preference_default_to_email_label": "Définir les préférences de poussée par défaut vers l'envoi de courriel",
                     "push_notif_preference_default_to_email_text": "Si cette option est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette option est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.",
-                    "user_max_subscriptions_label": "Nombre maximum d'abonnements push par utilisateur",
-                    "user_max_subscriptions_text": "Combien d'abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu'un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l'API. Chaque abonnement correspond généralement à un navigateur utilisé par l'utilisateur.",
                     "window_controls_overlay_label": "Activer la superposition des contrôles de fenêtre",
                     "window_controls_overlay_text": "Si cette option est activée, les utilisateurs peuvent bénéficier d'une expérience plus immersive, similaire à celle d'une application native, grâce au masquage de la barre de titre native. L'application effective de la superposition des contrôles de fenêtre dépend des préférences de l'utilisateur et de la compatibilité du navigateur. Vous devez personnaliser votre barre de titre à l'aide de CSS/JS après avoir activé cette option ; sinon, les contrôles viendront se superposer aux éléments de la barre de navigation supérieure de votre forum et il sera pratiquement impossible de faire glisser la fenêtre, ce qui nuira à l'expérience utilisateur.\n\nVoir aussi : <compatibilitylink>Compatibilité du navigateur avec la superposition des contrôles de fenêtre</compatibilitylink> & <learnlink>À propos de la superposition des contrôles de fenêtre sur Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Nombre maximum d'abonnements push par utilisateur",
+                    "user_max_subscriptions_text": "Combien d'abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu'un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l'API. Chaque abonnement correspond généralement à un navigateur utilisé par l'utilisateur.",
+                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_text": "",
                     "share_buttons_label": "Activer les boutons de partage",
                     "share_buttons_text": "Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs."
                 },
@@ -113,6 +115,10 @@
                 "safari_ios_title": "Apple iPhone and iPad (iOS/iPadOS)",
                 "safari_ios_instructions": "Les notifications push sur iOS nécessitent que l'application soit installée. Dans Safari, appuyez sur l'icône « Partager » et sélectionnez « Ajouter à l'écran d'accueil ». Ouvrez ensuite l'application nouvellement installée. Si les notifications sont bloquées, ouvrez l'application « Réglages » d'iOS, allez dans « Notifications », sélectionnez cette application web dans la liste, puis activez « Autoriser les notifications »."
             }
+        },
+        "api": {
+            "endpoint_https_required": "",
+            "endpoint_host_not_allowed": ""
         },
         "views": {
             "offline": {
