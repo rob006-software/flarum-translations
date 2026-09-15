@@ -7668,17 +7668,33 @@
     "huseyinfiliz-diff.json": {
         "huseyinfiliz-diff": {
             "admin": {
+                "permissions": {
+                    "deleteEditHistory": "d41d8cd98f00b204e9800998ecf8427e ec403841697f7dcdc93601c0e2ac467c",
+                    "rollbackEditHistory": "d41d8cd98f00b204e9800998ecf8427e f9f97b7692b3242eb22d401a981aee46",
+                    "selfDeleteEditHistory": "d41d8cd98f00b204e9800998ecf8427e 304518c9fd82691e7974233ca66a6781",
+                    "selfRollbackEditHistory": "d41d8cd98f00b204e9800998ecf8427e 4c905f3b1bdb1bd0e01cba12183f2dc6",
+                    "viewEditHistory": "d41d8cd98f00b204e9800998ecf8427e ecddd75c4cc04ba1278443ce2d79e830"
+                },
                 "settings": {
+                    "archiveInfo": "d41d8cd98f00b204e9800998ecf8427e c0ae151c1ec75387dc894016937d83be",
+                    "archiveOlds": "d41d8cd98f00b204e9800998ecf8427e 4be627db5953164e354b8d7f278e1814",
+                    "archiveOldsInfo": "d41d8cd98f00b204e9800998ecf8427e a6bdaffc9db51a6855a9d2f8e77426b3",
                     "charLevel": "d41d8cd98f00b204e9800998ecf8427e 7cd5638c62f9e7573aa928e1aa6dfa8c",
+                    "dbOptimisation": "d41d8cd98f00b204e9800998ecf8427e 0a84aa7d89cc4753c1fcefd4ff5af9cf",
                     "detailLevel": "d41d8cd98f00b204e9800998ecf8427e 956b35bc800c127a5dceef8ac875e245",
                     "lineLevel": "d41d8cd98f00b204e9800998ecf8427e dd0f4f66a4d7681b4c6136a348b2bcd7",
                     "mainPostOnly": "d41d8cd98f00b204e9800998ecf8427e c8e16b7b49af534962630f5423073ad4",
+                    "mergeThreshold": "d41d8cd98f00b204e9800998ecf8427e 0a9f91155bd75d9dfa5bba45a953f425",
+                    "mergeThresholdHelp": "d41d8cd98f00b204e9800998ecf8427e 309504df381351cb7fd7d532b2c560b8",
                     "neighborLines": "d41d8cd98f00b204e9800998ecf8427e 8c214764e334c096d9d9f64489f1eb7b",
+                    "neighborLinesHelp": "d41d8cd98f00b204e9800998ecf8427e fc965520f065e2d9f596d0c61836fb98",
                     "noneLevel": "d41d8cd98f00b204e9800998ecf8427e 0fdb3d610b089260863388765cd1474e",
                     "onlyUnsigned": "d41d8cd98f00b204e9800998ecf8427e a53a6a0a5c06a2c49ee98dfea5ccb632",
                     "separateBlock": "d41d8cd98f00b204e9800998ecf8427e 953ba940498871e7c26e5ce3ad82b531",
                     "textFormatting": "d41d8cd98f00b204e9800998ecf8427e 8f77970de855ae4a5e5e49f51ed50fc1",
                     "title": "d41d8cd98f00b204e9800998ecf8427e 49f45064b887ee60229a19714bb1d315",
+                    "useCrons": "d41d8cd98f00b204e9800998ecf8427e e279eae7630e32590544acaf6d263297",
+                    "useCronsHelp": "d41d8cd98f00b204e9800998ecf8427e 92b0e6116558197413cb9480751e51b6",
                     "usePoint": "d41d8cd98f00b204e9800998ecf8427e babb6ab47d3b955f5c40bae837f6e8a4",
                     "wordLevel": "d41d8cd98f00b204e9800998ecf8427e de1fdafa201b0ddf63c4bdc86988b3a3"
                 }
@@ -7710,6 +7726,7 @@
                     "sentence": "d41d8cd98f00b204e9800998ecf8427e 99bf3d5a2cef8b637bd318057dd5f06c"
                 },
                 "revertChangesButton": "d41d8cd98f00b204e9800998ecf8427e 1e1998811b973b0ce51308f052ddf7a0",
+                "revisionInfo": "d41d8cd98f00b204e9800998ecf8427e 546decdf0e79dd3aecd67c9a54a3c8f1",
                 "revisions": "d41d8cd98f00b204e9800998ecf8427e 3fe37de25c65167f21138b6c9be4bd4c",
                 "rollbackButton": "d41d8cd98f00b204e9800998ecf8427e b4032c3001cf493e02b0b301667959ca",
                 "rollbackErrorMessage": "d41d8cd98f00b204e9800998ecf8427e de20e969966b88eac23de973179efd89",
