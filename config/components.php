@@ -577,6 +577,9 @@ return [
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
 	],
+	'flatrate-messaging-ui' => [
+		'tag' => 'https://raw.githubusercontent.com/mrkcntrmn/flatrate-flarum-messaging-ui/v1.0.1/locale/en.yml',
+	],
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.1/locale/en.yml',
 	],
