@@ -46,8 +46,8 @@
                     "window_controls_overlay_text": "Wenn aktiviert, können die Benutzer durch das Ausblenden der nativen Titelleiste ein noch intensiveres, App-näheres Erlebnis erhalten. Ob Overlay der Fenstersteuerelemente aktiviert sind oder nicht, hängt von den Benutzereinstellungen und der Browserkompatibilität ab. Du musst deine Titelleiste anpassen, indem du CSS/JS nach der Aktivierung hinzufügst, sonst überlagern die Steuerelemente einige Elemente der oberen Navigationsleiste deines Forums und das Fenster lässt sich fast nicht mehr verschieben, was zu einer schlechten Erfahrung führt.\n\nSiehe auch: <compatibilitylink>Die Kompatibilität von Window Controls Overlay</compatibilitylink> & <learnlink>Über Window Controls Overlay in Microsoft Learn</learnlink>\n",
                     "user_max_subscriptions_label": "Maximale Push-Abonnements pro Benutzer",
                     "user_max_subscriptions_text": "Wie viele Push-Abonnements sollte jeder Benutzer gleichzeitig haben können? Wenn ein Benutzer eine Push-Benachrichtigung erhält, führt jedes Abonnement zu einem API-Aufruf. Jedes Abonnement entspricht normalerweise einem Browser, den der Benutzer verwendet hat.",
-                    "push_notification_ttl_label": "",
-                    "push_notification_ttl_text": "",
+                    "push_notification_ttl_label": "TTL für Push-Benachrichtigung",
+                    "push_notification_ttl_text": "Wie lange nicht zugestellte Push-Benachrichtigungen in der Warteschlange des Push-Dienstes verbleiben sollen, bevor sie verfallen (in Sekunden).",
                     "share_buttons_label": "Schaltflächen „Teilen“ hinzufügen",
                     "share_buttons_text": "Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt."
                 },
@@ -117,8 +117,8 @@
             }
         },
         "api": {
-            "endpoint_https_required": "",
-            "endpoint_host_not_allowed": ""
+            "endpoint_https_required": "Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser eine ungültige Push-Dienst-URL „{url}“ angegeben hat. Es ist eine gültige HTTPS-URL erforderlich.",
+            "endpoint_host_not_allowed": "Push-Benachrichtigungen konnten nicht aktiviert werden, da der von deinem Browser verwendete Push-Dienst-Host „{host}“ nicht zugelassen ist. Bitte wende dich an den Forum-Administrator."
         },
         "views": {
             "offline": {
