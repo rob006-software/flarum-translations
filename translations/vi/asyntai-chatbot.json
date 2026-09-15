@@ -2,12 +2,12 @@
     "asyntai-chatbot": {
         "admin": {
             "settings": {
-                "widget_id_label": "",
-                "widget_id_help": "",
-                "hide_for_members_label": "",
-                "hide_for_members_help": "",
-                "script_url_label": "",
-                "script_url_help": ""
+                "widget_id_label": "ID widget Asyntai",
+                "widget_id_help": "Dán đoạn mã từ bảng điều khiển Asyntai của bạn, hoặc chỉ dán ID widget. Để trống ô này để tắt khung trò chuyện. Bạn có thể tìm thấy ID tại asyntai.com trong mục Setup & Integration.\n",
+                "hide_for_members_label": "Chỉ hiển thị cho khách",
+                "hide_for_members_help": "Thành viên đã đăng nhập sẽ không bao giờ thấy khung trò chuyện.",
+                "script_url_label": "Địa chỉ script (tùy chọn)",
+                "script_url_help": "Để trống ô này để dùng địa chỉ mặc định https://widget.asyntai.com/static/js/chat-widget.js\n"
             }
         }
     }

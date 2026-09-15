@@ -2,15 +2,15 @@
     "fof-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Đăng bài không cần duyệt bài viết đầu tiên"
             },
             "settings": {
-                "discussionCount": "",
-                "discussionCount_help": "",
-                "postCount": "",
-                "postCount_help": "",
-                "restrictPrivateDiscussions": "",
-                "restrictPrivateDiscussions_help": ""
+                "discussionCount": "Số cuộc thảo luận đầu tiên cần được duyệt",
+                "discussionCount_help": "Đặt là 0 để thay vào đó giữ các cuộc thảo luận mới chờ duyệt dựa trên số bài viết.",
+                "postCount": "Số bài viết đầu tiên cần được duyệt",
+                "postCount_help": "Khi số bài viết này của một người dùng đã được duyệt, các bài viết sau của họ sẽ được đăng ngay lập tức.",
+                "restrictPrivateDiscussions": "Chặn thảo luận riêng tư cho đến khi được duyệt",
+                "restrictPrivateDiscussions_help": "Thảo luận riêng tư không thể được giữ lại để duyệt, nên những người dùng vẫn thuộc diện duyệt bài viết đầu tiên sẽ bị chặn tạo chúng. Tắt tùy chọn này để họ được tự do tạo thảo luận riêng tư."
             }
         }
     }

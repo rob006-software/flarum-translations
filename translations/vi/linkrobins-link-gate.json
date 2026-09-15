@@ -2,25 +2,25 @@
     "linkrobins-link-gate": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "domains_label": "",
-                "domains_help": "",
-                "html_label": "",
-                "html_help": "",
-                "fallback_label": "",
-                "fallback_help": ""
+                "enabled_label": "Chặn liên kết",
+                "enabled_help": "Tắt tùy chọn này để hiển thị lại mọi liên kết cho tất cả mọi người mà không mất danh sách tên miền của bạn.",
+                "domains_label": "Tên miền bị chặn",
+                "domains_help": "Mỗi dòng một tên miền, ví dụ mega.nz. Các tên miền con cũng được tính, nên mega.nz bao gồm cả folder.mega.nz. Để trống thì không có liên kết nào bị chặn.",
+                "html_label": "Nội dung hiển thị thay thế",
+                "html_help": "Đoạn HTML hiển thị ở vị trí của liên kết bị chặn. Bất cứ nội dung nào bạn đưa được vào bài viết đều dùng được ở đây. Để trống để hiển thị dòng chữ thuần bên dưới.",
+                "fallback_label": "Dòng chữ thuần",
+                "fallback_help": "Được dùng ở những nơi không chèn được HTML, đặc biệt là email thông báo. Hãy viết ngắn gọn và cho biết có thể tìm liên kết ở đâu."
             },
             "translations": {
-                "label": "",
-                "help": ""
+                "label": "Ngôn ngữ khác",
+                "help": "Nội dung bạn viết ở trên được hiển thị cho tất cả mọi người. Hãy điền một ngôn ngữ tại đây và người đọc dùng ngôn ngữ đó sẽ thấy nội dung này thay thế. Để trống một mục thì nó sẽ dùng lại nội dung bạn viết ở trên."
             },
             "permissions": {
-                "view_gated_links_label": ""
+                "view_gated_links_label": "Xem các liên kết bị chặn"
             }
         },
         "forum": {
-            "fallback": ""
+            "fallback": "Liên kết này chỉ dành cho thành viên."
         }
     }
 }
