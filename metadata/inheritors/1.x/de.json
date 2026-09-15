@@ -1731,18 +1731,23 @@
             "forum": {
                 "directory": {
                     "all_filter": "d41d8cd98f00b204e9800998ecf8427e 2bca61615ad4e3e8c668c33b238a99c8",
+                    "close_a11y_label": "d41d8cd98f00b204e9800998ecf8427e caaabe77f633cd3773fd40140ec3ff8a",
                     "discussion_filter": "d41d8cd98f00b204e9800998ecf8427e f5a7e1471a024453060b7ad8ae7f01a1",
                     "hide_button": "d41d8cd98f00b204e9800998ecf8427e 45010dee6ab324d776aa482cba970c99",
                     "personal_filter": "d41d8cd98f00b204e9800998ecf8427e e68f0e3c4c2c60874c388afe5ff33e4a",
+                    "scope_a11y_label": "d41d8cd98f00b204e9800998ecf8427e b1744719318ea3683b241f5dcd3bb113",
                     "show_button": "d41d8cd98f00b204e9800998ecf8427e 45010dee6ab324d776aa482cba970c99",
                     "title": "d41d8cd98f00b204e9800998ecf8427e ed807941925c8697a1a4612c58720886"
                 },
                 "discussion_controls": {
-                    "show_all_button": "d41d8cd98f00b204e9800998ecf8427e 7393196f25e075bf63f3e538294636f6"
+                    "show_all_button": "d41d8cd98f00b204e9800998ecf8427e 7393196f25e075bf63f3e538294636f6",
+                    "show_threadmarks_button": "d41d8cd98f00b204e9800998ecf8427e 54527754e9c9e515a0c816a35c9c4cd0"
                 },
                 "manage_modal": {
                     "add_button": "d41d8cd98f00b204e9800998ecf8427e 5f4110486d00f1ceafd93d33f82c55a8",
                     "delete_button": "d41d8cd98f00b204e9800998ecf8427e c483181e82ffe762b4a38a1add4db25b",
+                    "delete_discussion_confirmation": "d41d8cd98f00b204e9800998ecf8427e b693969e2b50b14ef0ae10a5c66f88d6",
+                    "delete_personal_confirmation": "d41d8cd98f00b204e9800998ecf8427e e28355f6493a25c521ae773c88ee6c61",
                     "discussion_tab": "d41d8cd98f00b204e9800998ecf8427e f5a7e1471a024453060b7ad8ae7f01a1",
                     "loading_text": "d41d8cd98f00b204e9800998ecf8427e ab28ca76567a17d255b4ecae43d95bd6",
                     "note_label": "d41d8cd98f00b204e9800998ecf8427e 7ae5b1443a80c7f36937fff06c67da9a",
@@ -1751,16 +1756,25 @@
                     "save_button": "d41d8cd98f00b204e9800998ecf8427e c83e1117cb902769999c7c9a25e624f4",
                     "title": "d41d8cd98f00b204e9800998ecf8427e 42488d787274c3cf10245d541ce5bc53",
                     "type_label": "d41d8cd98f00b204e9800998ecf8427e aa5cec5dc43537d7ad415eead687a710",
-                    "type_placeholder": "d41d8cd98f00b204e9800998ecf8427e 1aac6eb4947826b57dcd3f56d7501259"
+                    "type_placeholder": "d41d8cd98f00b204e9800998ecf8427e 1aac6eb4947826b57dcd3f56d7501259",
+                    "unavailable_text": "d41d8cd98f00b204e9800998ecf8427e 40cf9fc4d615e7ae292ca08f4fc08eaf"
                 },
                 "post_controls": {
                     "manage_button": "d41d8cd98f00b204e9800998ecf8427e 11afcdec0cd788cf475dc5108246010f"
                 },
+                "scrubber": {
+                    "cluster_a11y_label": "d41d8cd98f00b204e9800998ecf8427e 07bee87dc802b4cf50eb18eb9e8c9ff5",
+                    "open_directory_a11y_label": "d41d8cd98f00b204e9800998ecf8427e 43780c3f820cf9d987a7299ce5a6420e",
+                    "threadmark_a11y_label": "d41d8cd98f00b204e9800998ecf8427e f6e118c56cfb0ba550b3d8b1cac7ce3f"
+                },
                 "threadmark": {
                     "deleted_text": "d41d8cd98f00b204e9800998ecf8427e 14e2a99fb58a6fa14a6e8e4f882e37c3",
+                    "edit_discussion_a11y_label": "d41d8cd98f00b204e9800998ecf8427e 2b0078f10f8c80a7d3cd31d2c82d0493",
                     "edit_discussion_tooltip": "d41d8cd98f00b204e9800998ecf8427e 65f27880dd41b9b869338ad120db8506",
+                    "edit_personal_a11y_label": "d41d8cd98f00b204e9800998ecf8427e 37facb3e3c94da0dc629640bc6410fed",
                     "edit_personal_tooltip": "d41d8cd98f00b204e9800998ecf8427e a29615a664074976dcb06ce37f3c1ef5",
-                    "mine_badge": "d41d8cd98f00b204e9800998ecf8427e e68f0e3c4c2c60874c388afe5ff33e4a"
+                    "mine_badge": "d41d8cd98f00b204e9800998ecf8427e e68f0e3c4c2c60874c388afe5ff33e4a",
+                    "personal_tooltip": "d41d8cd98f00b204e9800998ecf8427e d76f28c794a116dd328eafb089651c6f"
                 },
                 "type_labels": {
                     "chapter": "d41d8cd98f00b204e9800998ecf8427e 162c76aafa885b323cf865501eea5bab",
