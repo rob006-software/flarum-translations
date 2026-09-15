@@ -2,124 +2,124 @@
     "ffans-threadmarks": {
         "admin": {
             "permissions": {
-                "manage_personal_label": "",
-                "manage_own_discussion_label": "",
-                "manage_discussion_label": ""
+                "manage_personal_label": "Quản lý dấu mốc cá nhân của mình",
+                "manage_own_discussion_label": "Quản lý dấu mốc trong cuộc thảo luận của mình",
+                "manage_discussion_label": "Quản lý dấu mốc trong mọi cuộc thảo luận"
             },
             "types": {
-                "add_button": "",
-                "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
-                "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
-                "builtin_label": "",
-                "custom_label": "",
-                "enable_type_a11y_label": "",
-                "edit_type_a11y_label": "",
-                "empty_text": ""
+                "add_button": "Thêm loại",
+                "table_a11y_label": "Các loại dấu mốc",
+                "order_heading": "Thứ tự",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Nguồn",
+                "enabled_heading": "Đang bật",
+                "actions_heading": "Thao tác",
+                "reorder_tooltip": "Kéo để sắp xếp lại",
+                "builtin_label": "Có sẵn",
+                "custom_label": "Tùy chỉnh",
+                "enable_type_a11y_label": "Bật {name}",
+                "edit_type_a11y_label": "Sửa {name}",
+                "empty_text": "Chưa có loại dấu mốc nào."
             },
             "create_type_modal": {
-                "title": "",
-                "submit_button": ""
+                "title": "Tạo loại dấu mốc",
+                "submit_button": "Tạo"
             },
             "edit_type_modal": {
-                "title": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": ""
+                "title": "Sửa loại dấu mốc",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Xóa loại dấu mốc này?"
             }
         },
         "forum": {
             "type_labels": {
-                "default": "",
-                "notice": "",
-                "highlight": "",
-                "progress": "",
-                "update": "",
-                "chapter": ""
+                "default": "Dấu mốc",
+                "notice": "Lưu ý",
+                "highlight": "Nổi bật",
+                "progress": "Tiến độ",
+                "update": "Cập nhật",
+                "chapter": "Chương"
             },
             "manage_modal": {
-                "title": "",
-                "scope_a11y_label": "",
-                "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
-                "unavailable_text": "",
-                "type_label": "",
-                "type_placeholder": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
-                "delete_personal_confirmation": "",
-                "delete_discussion_confirmation": ""
+                "title": "Dấu mốc · #{number}",
+                "scope_a11y_label": "Phạm vi dấu mốc",
+                "personal_tab": "Cá nhân",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "Không có dấu mốc nào để quản lý.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Chọn một loại",
+                "note_label": "Ghi chú",
+                "note_placeholder": "Tùy chọn",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Thêm",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "Xóa dấu mốc cá nhân này?",
+                "delete_discussion_confirmation": "Xóa dấu mốc của cuộc thảo luận này?"
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
-                "close_a11y_label": "",
-                "scope_a11y_label": "",
-                "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "Dấu mốc",
+                "hide_button": "Dấu mốc",
+                "close_a11y_label": "Đóng danh mục dấu mốc",
+                "scope_a11y_label": "Lọc dấu mốc theo phạm vi",
+                "all_filter": "Tất cả",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
-                "personal_tooltip": "",
-                "edit_personal_tooltip": "",
-                "edit_discussion_tooltip": "",
-                "edit_personal_a11y_label": "",
-                "edit_discussion_a11y_label": "",
-                "deleted_text": ""
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Dấu mốc cá nhân, chỉ mình bạn nhìn thấy",
+                "edit_personal_tooltip": "Sửa dấu mốc cá nhân",
+                "edit_discussion_tooltip": "Sửa dấu mốc của cuộc thảo luận",
+                "edit_personal_a11y_label": "Sửa dấu mốc cá nhân ở bài viết #{number}",
+                "edit_discussion_a11y_label": "Sửa dấu mốc của cuộc thảo luận ở bài viết #{number}",
+                "deleted_text": "Nội dung này đã bị xóa."
             },
             "scrubber": {
-                "threadmark_a11y_label": "",
-                "cluster_a11y_label": "",
-                "open_directory_a11y_label": ""
+                "threadmark_a11y_label": "Dấu mốc ở bài viết #{number}",
+                "cluster_a11y_label": "{count, plural, one {# dấu mốc} other {# dấu mốc}}",
+                "open_directory_a11y_label": "Mở toàn bộ danh mục dấu mốc"
             },
             "discussion_controls": {
-                "show_all_button": "",
-                "show_threadmarks_button": ""
+                "show_all_button": "Hiện tất cả bài viết",
+                "show_threadmarks_button": "Chỉ dấu mốc"
             },
             "post_controls": {
-                "manage_button": ""
+                "manage_button": "Quản lý dấu mốc"
             }
         },
         "ref": {
-            "discussion": "",
-            "mine": "",
-            "threadmarks": "",
-            "type": "",
-            "key": "",
-            "save": ""
+            "discussion": "Cuộc thảo luận",
+            "mine": "Của tôi",
+            "threadmarks": "Dấu mốc",
+            "type": "Loại",
+            "key": "Khóa",
+            "save": "Lưu"
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Xuất toàn bộ dấu mốc cá nhân của bạn và các dấu mốc của cuộc thảo luận do bạn tạo hoặc chỉnh sửa gần nhất, không kèm nội dung bài viết.",
+                "anonymize_description": "Xóa các dấu mốc cá nhân của bạn và gỡ ID người tạo/người sửa của bạn khỏi các dấu mốc của cuộc thảo luận.",
+                "delete_description": "Xóa các dấu mốc cá nhân của bạn và gỡ ID người tạo/người sửa của bạn khỏi các dấu mốc của cuộc thảo luận."
             },
             "type_form": {
-                "key_label": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_placeholder": ""
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Tên",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fa-solid fa-book"
             },
             "validation": {
-                "first_post": "",
-                "duplicate_discussion": "",
-                "invalid_discussion_post": "",
-                "duplicate_personal": "",
-                "invalid_personal_post": "",
-                "disabled_type": "",
-                "type_in_use": ""
+                "first_post": "Không thể thêm dấu mốc vào bài viết đầu tiên.",
+                "duplicate_discussion": "Bài viết này đã có một dấu mốc của cuộc thảo luận. Hãy chỉnh sửa dấu mốc hiện có.",
+                "invalid_discussion_post": "Dấu mốc của cuộc thảo luận chỉ có thể gắn vào bài bình luận.",
+                "duplicate_personal": "Bạn đã có một dấu mốc cá nhân ở bài viết này. Hãy chỉnh sửa dấu mốc hiện có.",
+                "invalid_personal_post": "Dấu mốc cá nhân chỉ có thể gắn vào bài bình luận.",
+                "disabled_type": "Loại dấu mốc này đang bị tắt. Hãy chọn loại khác.",
+                "type_in_use": "Loại này đang được sử dụng nên không thể xóa."
             }
         }
     }

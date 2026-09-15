@@ -2,109 +2,109 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
-                "viewLimited": ""
+                "view": "Xem nhật ký hoạt động",
+                "viewLimited": "Xem nhật ký hoạt động ở mức giới hạn"
             },
             "header": {
-                "title": ""
+                "title": "Nhật ký hoạt động"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Cấu hình",
+                "title": "Cài đặt quyền truy cập giới hạn",
+                "introduction": "Cấu hình những gì người dùng có quyền truy cập giới hạn được xem",
+                "requiresExtension": "Yêu cầu tiện ích {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Xem địa chỉ IP"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "Nhật ký hoạt động",
+                "discussion-audit": "Nhật ký hoạt động",
+                "user-audit": "Nhật ký hoạt động (chỉnh sửa tài khoản)",
+                "actor-audit": "Nhật ký hoạt động (người dùng là người thực hiện)"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "Nhật ký hoạt động",
+                "discussion-title": "Nhật ký hoạt động của cuộc thảo luận",
+                "user-title": "Nhật ký hoạt động của người dùng",
+                "actor-title": "Nhật ký hoạt động của người thực hiện"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "Lọc nhật ký",
+                "filterApply": "Áp dụng",
+                "filterClear": "Xóa bộ lọc",
+                "refresh": "Làm mới",
+                "filtersHint": "Bộ lọc:",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "Người đã thực hiện hành động. Dùng actor:guest cho các hành động của hệ thống hoặc chưa đăng nhập.",
+                    "user": "Người dùng bị ảnh hưởng bởi hành động, theo tên người dùng.",
+                    "action": "Loại hành động, ví dụ action:post.created.",
+                    "client": "Cách yêu cầu được gửi đi.",
+                    "ip": "Địa chỉ IP thực hiện hành động.",
+                    "discussion": "Các hành động ảnh hưởng đến một cuộc thảo luận cụ thể, theo ID."
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "Trợ giúp tìm kiếm",
+                    "multiple": "Kết hợp nhiều giá trị bằng dấu phẩy để khớp bất kỳ giá trị nào, ví dụ action:post.created,post.deleted",
+                    "negate": "Thêm dấu trừ trước bộ lọc để loại trừ kết quả khớp, ví dụ -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "Không có kết quả",
+                "loadMore": "Tải thêm",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Cuộc thảo luận #{id}",
+                    "group": "Nhóm #{id}",
+                    "post": "Bài viết #{id}",
+                    "tag": "Thẻ #{id}",
+                    "user": "Người dùng #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Bình luận",
+                    "post": "Bài viết"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(không có giá trị)",
+                "noReason": "(không có lý do)",
                 "core": "",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Phiên web",
+                    "api_key": "Khóa API",
+                    "access_token": "Access token",
+                    "cli": "Dòng lệnh",
+                    "unknown": "Ứng dụng không xác định"
                 },
                 "controls": {
                     "title": "",
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Ẩn nhật ký thô",
+                    "showRaw": "Hiện nhật ký thô",
+                    "filterActor": "Xem nhật ký của người thực hiện này",
+                    "filterIp": "Xem nhật ký từ địa chỉ IP này",
+                    "filterClient": "Xem nhật ký của loại ứng dụng này",
+                    "filterAction": "Xem nhật ký của cùng hành động",
+                    "filterUser": "Xem nhật ký ảnh hưởng đến cùng người dùng",
+                    "filterDiscussion": "Xem nhật ký ảnh hưởng đến cùng cuộc thảo luận"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "Đã xóa {deleted_count} mục khỏi nhật ký hoạt động",
+                "cache_cleared": "Đã xóa bộ nhớ đệm thủ công",
                 "developer_token_created": "",
                 "discussion": {
-                    "created": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "renamed": "",
-                    "restored": ""
+                    "created": "Đã tạo cuộc thảo luận {discussion}",
+                    "deleted": "Đã xóa cuộc thảo luận {discussion}",
+                    "hidden": "Đã ẩn cuộc thảo luận {discussion}",
+                    "renamed": "Đã đổi tên cuộc thảo luận từ {old_title} thành {new_title}",
+                    "restored": "Đã khôi phục cuộc thảo luận {discussion}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "Đã tắt tiện ích {package}",
+                    "enabled": "Đã bật tiện ích {package}",
+                    "uninstalled": "Đã gỡ cài đặt tiện ích {package}"
                 },
                 "queue": {
                     "paused": "",
@@ -115,36 +115,36 @@
                     "deleted": "",
                     "renamed": ""
                 },
-                "permission_changed": "",
+                "permission_changed": "Đã sửa quyền {permission} từ {old_groups} thành {new_groups}",
                 "post": {
-                    "created": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": ""
+                    "created": "Đã tạo một {post} trong {discussion}",
+                    "deleted": "Đã xóa {post} của {postuser} trong {discussion}",
+                    "hidden": "Đã ẩn {post} của {postuser} trong {discussion}",
+                    "restored": "Đã khôi phục {post} của {postuser} trong {discussion}",
+                    "revised": "Đã chỉnh sửa {post} của {postuser} trong {discussion}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Đã sửa cài đặt {key}",
+                "setting_changed_with_values": "Đã sửa cài đặt {key} từ {old_value} thành {new_value}",
                 "settings_reset": "",
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
-                    "username_changed": ""
+                    "activated": "Đã kích hoạt thủ công tài khoản của {username}",
+                    "activated_with_email": "Đã kích hoạt tài khoản của {username} qua liên kết xác nhận",
+                    "avatar_changed": "Đã đổi ảnh đại diện của {username}",
+                    "avatar_removed": "Đã xóa ảnh đại diện của {username}",
+                    "created": "Đã tạo tài khoản của {username}",
+                    "deleted": "Đã xóa {username}",
+                    "email_changed": "Đã đổi email của {username} từ {old_email} thành {new_email}",
+                    "email_change_requested": "Đã yêu cầu đổi email của {username} thành {new_email}",
+                    "groups_changed": "Đã đổi nhóm của {username} từ {old_groups} thành {new_groups}",
+                    "logged_in": "Đã đăng nhập vào tài khoản {username}",
+                    "logged_in_with_provider": "Đã đăng nhập vào tài khoản {username} bằng {provider}",
+                    "logged_out": "Đã đăng xuất khỏi tài khoản {username}",
+                    "password_changed": "Đã đổi mật khẩu của {username}",
+                    "password_change_requested": "Đã yêu cầu đổi mật khẩu của {username}",
+                    "password_reset_attempted": "Đã yêu cầu đặt lại mật khẩu cho {username}",
+                    "password_reset_attempted_unmatched": "Đã yêu cầu đặt lại mật khẩu cho {email} (không có tài khoản nào khớp)",
+                    "provider_connected": "Đã kết nối nhà cung cấp {provider} với tài khoản {username}",
+                    "username_changed": "Đã đổi tên người dùng của {username} từ {old_username} thành {new_username}"
                 }
             }
         }

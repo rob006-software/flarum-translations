@@ -2,10 +2,10 @@
     "tapao-custom-landing-page": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "guests_only_label": "",
-                "guests_only_help": "",
-                "html_label": "",
+                "enabled_label": "Bật trang đích tùy chỉnh",
+                "guests_only_label": "Chỉ hiển thị cho khách",
+                "guests_only_help": "Khi được bật, người dùng đã đăng nhập sẽ bỏ qua trang đích và thấy diễn đàn như bình thường. Hãy cài đặt fof/direct-links để có các trang /login và /register riêng, hoặc dùng các biến mẫu '{{ login_url }}' và '{{ register_url }}' trong HTML của bạn.\n",
+                "html_label": "HTML của trang đích",
                 "html_help": ""
             }
         }

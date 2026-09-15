@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Sửa tác giả và ngày"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Sửa tác giả và ngày của bài viết",
+                "title-discussion": "Sửa tác giả và ngày của cuộc thảo luận",
+                "user": "Tác giả",
+                "created_at": "Thời gian tạo",
+                "edited_at": "Thời gian chỉnh sửa",
+                "sync-with-discussion": "Đồng bộ với cuộc thảo luận",
+                "sync-with-post": "Đồng bộ với bài viết đầu tiên",
+                "sync-impossible": "Không tìm thấy bài viết đầu tiên. Hãy thử cuộn lên đầu cuộc thảo luận.",
+                "submit": "Lưu",
+                "cancel": "Hủy"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Tìm người dùng",
+                "type-more": "Nhập 3 ký tự để tìm trong cơ sở dữ liệu",
+                "no-results": "Không có kết quả"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Cập nhật tác giả của cuộc thảo luận và bài viết",
+                "edit-date": "Cập nhật ngày của cuộc thảo luận và bài viết"
             }
         }
     }

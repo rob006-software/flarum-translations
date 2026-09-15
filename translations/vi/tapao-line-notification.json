@@ -2,64 +2,64 @@
     "tapao-line-notification": {
         "forum": {
             "settings": {
-                "line_section_heading": "",
-                "line_connect_button": "",
-                "line_disconnect_button": "",
-                "line_connected_as": "",
-                "line_linking_description": "",
-                "line_disconnect_confirm": "",
-                "line_error": ""
+                "line_section_heading": "Thông báo qua LINE",
+                "line_connect_button": "Kết nối LINE",
+                "line_disconnect_button": "Ngắt kết nối LINE",
+                "line_connected_as": "Đã kết nối với tên {name}",
+                "line_linking_description": "Kết nối tài khoản LINE của bạn để nhận thông báo của diễn đàn qua LINE.",
+                "line_disconnect_confirm": "Bạn có chắc chắn muốn ngắt kết nối tài khoản LINE của mình không?",
+                "line_error": "Không thể kết nối LINE: {error}"
             }
         },
         "admin": {
             "settings": {
-                "line_heading": "",
-                "line_login_channel_id_label": "",
-                "line_login_channel_id_help": "",
-                "line_login_channel_secret_label": "",
-                "line_login_channel_secret_help": "",
-                "line_messaging_token_label": "",
-                "line_messaging_token_help": "",
-                "line_messaging_channel_secret_label": "",
-                "line_messaging_channel_secret_help": "",
-                "flex_header_color_label": "",
-                "flex_header_color_help": "",
-                "flex_button_color_label": "",
-                "flex_button_color_help": "",
-                "flex_title_color_label": "",
-                "flex_title_color_help": "",
-                "use_first_image_as_thumbnail_label": "",
-                "use_first_image_as_thumbnail_help": "",
-                "disabled_notification_types_label": "",
-                "disabled_notification_types_help": ""
+                "line_heading": "Thông báo qua LINE",
+                "line_login_channel_id_label": "Channel ID của LINE Login",
+                "line_login_channel_id_help": "Channel ID của kênh LINE Login lấy từ LINE Developers Console.",
+                "line_login_channel_secret_label": "Channel Secret của LINE Login",
+                "line_login_channel_secret_help": "Channel Secret của kênh LINE Login của bạn.",
+                "line_messaging_token_label": "Channel Access Token của Messaging API",
+                "line_messaging_token_help": "Channel Access Token dài hạn của kênh Messaging API của bạn.",
+                "line_messaging_channel_secret_label": "Channel Secret của Messaging API",
+                "line_messaging_channel_secret_help": "Channel Secret của kênh Messaging API của bạn (dùng để xác minh chữ ký Webhook).",
+                "flex_header_color_label": "Màu tiêu đề của Flex Message",
+                "flex_header_color_help": "Màu nền của thanh tiêu đề thông báo. Mặc định: #06C755 (màu xanh LINE).",
+                "flex_button_color_label": "Màu nút của Flex Message",
+                "flex_button_color_help": "Màu của nút hành động trong thông báo. Mặc định: #06C755 (màu xanh LINE).",
+                "flex_title_color_label": "Màu tiêu đề của Flex Message",
+                "flex_title_color_help": "Màu chữ của tiêu đề cuộc thảo luận trong phần nội dung thông báo. Mặc định: #111111.",
+                "use_first_image_as_thumbnail_label": "Dùng hình ảnh đầu tiên làm ảnh thu nhỏ",
+                "use_first_image_as_thumbnail_help": "Nếu bài viết có hình ảnh, dùng hình ảnh đầu tiên làm ảnh hero của Flex Message.",
+                "disabled_notification_types_label": "Các loại thông báo bị tắt",
+                "disabled_notification_types_help": "Nhập danh sách các loại thông báo bạn không muốn gửi qua LINE, phân tách bằng dấu phẩy (ví dụ: <code>postMentioned, postLiked, newPost, discussionCreated</code>). Việc này cũng sẽ ẩn nút bật/tắt của những loại đó trên trang cài đặt của người dùng."
             }
         },
         "lib": {
             "notification": {
-                "line_driver_label": ""
+                "line_driver_label": "LINE"
             },
             "line_message": {
-                "notification_postMentioned": "",
-                "notification_userMentioned": "",
-                "notification_postLiked": "",
-                "notification_newPost": "",
-                "notification_privateDiscussion": "",
-                "notification_default": "",
-                "view_post_button": "",
-                "fallback_title": "",
+                "notification_postMentioned": "💬 Có người đã nhắc đến bài viết của bạn",
+                "notification_userMentioned": "📣 Có người đã nhắc đến bạn",
+                "notification_postLiked": "❤️ Có người đã thích bài viết của bạn",
+                "notification_newPost": "🔔 Có bài viết mới trong cuộc thảo luận bạn theo dõi",
+                "notification_privateDiscussion": "✉️ Bạn nhận được một tin nhắn riêng",
+                "notification_default": "🔔 Thông báo mới từ {forum}",
+                "view_post_button": "Xem bài viết",
+                "fallback_title": "Thông báo mới",
                 "notification_from_user": "",
-                "connection_success_header": "",
-                "connection_success_greeting_name": "",
-                "connection_success_greeting": "",
-                "connection_success_body": "",
-                "connection_success_features_intro": "",
-                "connection_success_feature_mention": "",
-                "connection_success_feature_user_mention": "",
-                "connection_success_feature_like": "",
-                "connection_success_feature_new_post": "",
-                "connection_success_settings_hint": "",
-                "connection_success_open_forum": "",
-                "connection_success_alt_text": ""
+                "connection_success_header": "✅ Kết nối thành công",
+                "connection_success_greeting_name": "Xin chào {name}!",
+                "connection_success_greeting": "Xin chào!",
+                "connection_success_body": "Tài khoản LINE của bạn đã được kết nối với {forum} (tên người dùng: {username}).",
+                "connection_success_features_intro": "Bạn sẽ nhận được thông báo của diễn đàn qua LINE khi có người:",
+                "connection_success_feature_mention": "💬 Nhắc đến bài viết của bạn",
+                "connection_success_feature_user_mention": "📣 Nhắc đến bạn",
+                "connection_success_feature_like": "❤️ Thích bài viết của bạn",
+                "connection_success_feature_new_post": "🔔 Đăng bài trong cuộc thảo luận bạn theo dõi",
+                "connection_success_settings_hint": "Bạn có thể quản lý tùy chọn thông báo của mình trong trang Cài đặt của diễn đàn.",
+                "connection_success_open_forum": "Mở {forum}",
+                "connection_success_alt_text": "✅ Đã kết nối tài khoản LINE với {forum}"
             }
         }
     }

@@ -9,11 +9,11 @@
                 "send_user": "Gửi thông báo đến từng người dùng"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": ""
+                "user": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.user",
+                "group": "=> huseyinfiliz-notificationhub.forum.recipient_kinds.group"
             },
             "modal_notification": {
-                "recipients_placeholder": ""
+                "recipients_placeholder": "=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder"
             },
             "settings": {
                 "add_button": "Thêm loại thông báo",
@@ -32,11 +32,11 @@
                     "default_recipients": "Người nhận mặc định",
                     "sort_order": "Thứ tự sắp xếp",
                     "active": "Kích hoạt",
-                    "color_invalid": "",
-                    "preview": "",
-                    "preview_placeholder": "",
-                    "permission_help": "",
-                    "permission_placeholder": ""
+                    "color_invalid": "Màu phải là một mã hex hợp lệ, ví dụ #ff0000 hoặc #f00.",
+                    "preview": "Xem trước",
+                    "preview_placeholder": "Tên loại thông báo",
+                    "permission_help": "Chọn các nhóm thành viên được phép gửi loại thông báo này. Nếu để trống, mọi người kiểm duyệt/quản trị viên có quyền đều có thể gửi.",
+                    "permission_placeholder": "Nhập tên nhóm..."
                 },
                 "save": "Lưu",
                 "edit_notification_type": "Chỉnh sửa loại thông báo",
@@ -61,7 +61,7 @@
                 "no_notification_types": "Không tìm thấy loại thông báo nào đang hoạt động.",
                 "preview_title": "Xem trước thông báo",
                 "preview_message_placeholder": "Nội dung thông báo..",
-                "preview_all_members": ""
+                "preview_all_members": "Tất cả thành viên"
             },
             "recipient_kinds": {
                 "user": "Người dùng",
@@ -79,10 +79,10 @@
             "message_too_long": "Nội dung không được dài quá 5000 ký tự.",
             "url_too_long": "URL không được dài quá 2048 ký tự.",
             "invalid_url_scheme": "Giao thức URL không hợp lệ. Chỉ cho phép HTTP, HTTPS, mailto, tel hoặc liên kết tương đối.",
-            "sort_order_invalid": "",
-            "field_too_long": "",
-            "invalid_color": "",
-            "multiple_recipients_not_allowed": ""
+            "sort_order_invalid": "Thứ tự sắp xếp phải là một số không âm.",
+            "field_too_long": "Trường này quá dài.",
+            "invalid_color": "Màu phải là một mã hex hợp lệ (ví dụ #ff0000 hoặc #f00).",
+            "multiple_recipients_not_allowed": "Bạn không có quyền gửi cho nhiều người nhận cùng lúc."
         }
     }
 }

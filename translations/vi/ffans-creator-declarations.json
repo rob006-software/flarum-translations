@@ -2,120 +2,120 @@
     "ffans-creator-declarations": {
         "admin": {
             "permissions": {
-                "allow_edit_own_label": "",
-                "moderate_label": ""
+                "allow_edit_own_label": "Cho phép chỉnh sửa tuyên bố của chính mình",
+                "moderate_label": "Chỉnh sửa tuyên bố của tác giả trên bài viết"
             },
             "settings": {
-                "required_discussion_label": "",
-                "required_discussion_help": "",
-                "required_reply_label": "",
-                "required_reply_help": "",
-                "max_label": "",
-                "show_in_user_post_lists_label": "",
-                "show_in_user_post_lists_help": "",
-                "order_label": "",
-                "order_help": ""
+                "required_discussion_label": "Bắt buộc có tuyên bố khi tạo cuộc thảo luận",
+                "required_discussion_help": "Cuộc thảo luận không thể được đăng cho đến khi chọn ít nhất một tuyên bố.",
+                "required_reply_label": "Bắt buộc có tuyên bố khi trả lời",
+                "required_reply_help": "Bài trả lời không thể được đăng cho đến khi chọn ít nhất một tuyên bố.",
+                "max_label": "Số tuyên bố tối đa cho mỗi bài viết",
+                "show_in_user_post_lists_label": "Hiển thị tuyên bố của tác giả trong danh sách Bài viết ở trang cá nhân",
+                "show_in_user_post_lists_help": "Khi được bật, các tuyên bố của tác giả sẽ hiển thị cùng bài viết trong danh sách Bài viết ở trang cá nhân người dùng.",
+                "order_label": "Thứ tự các tuyên bố",
+                "order_help": "Phân tách các khóa tuyên bố bằng dấu phẩy. Những khóa bị thiếu sẽ được tự động thêm vào cuối. Các khóa có sẵn là original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion và sponsored."
             }
         },
         "forum": {
             "composer": {
-                "choose": "",
-                "selected": ""
+                "choose": "Thêm tuyên bố của tác giả",
+                "selected": "Đã chọn {count} tuyên bố"
             },
             "controls": {
-                "edit": ""
+                "edit": "Sửa tuyên bố của tác giả"
             },
             "display": {
-                "declaration_format": "",
-                "open_details": "",
-                "original_notice": "",
-                "original_summary": "",
-                "repost_notice": "",
-                "reference_notice": "",
-                "reference_summary": "",
-                "personal_opinion_summary": "",
-                "declaration_separator": ""
+                "declaration_format": "<strong>Tuyên bố của tác giả:</strong> {declarations}.",
+                "open_details": "Xem chi tiết tuyên bố của tác giả",
+                "original_notice": "Nội dung gốc. Vui lòng không sao chép khi chưa được phép.",
+                "original_summary": "Nội dung gốc, không sao chép khi chưa được phép",
+                "repost_notice": "Nội dung này được đăng lại từ {source}.",
+                "reference_notice": "Nội dung này tham khảo {source}.",
+                "reference_summary": "Nội dung có tham khảo hoặc trích dẫn",
+                "personal_opinion_summary": "Ý kiến cá nhân, chỉ mang tính tham khảo",
+                "declaration_separator": "; "
             },
             "info_modal": {
-                "title": "",
-                "heading": "",
-                "explanation": "",
-                "disclaimer": "",
-                "source": "",
-                "reference": "",
-                "author_note": ""
+                "title": "Về tuyên bố này",
+                "heading": "Vì sao tôi thấy thông báo này?",
+                "explanation": "Thông báo này do chính tác giả thêm vào, khi họ tuyên bố bài viết này là “{declarations}”.",
+                "disclaimer": "Các tuyên bố này chưa được diễn đàn xem xét hay xác minh. Vui lòng cân nhắc chúng cùng với nội dung bài viết và tự đưa ra đánh giá của mình.",
+                "source": "Nguồn: ",
+                "reference": "Tham khảo: ",
+                "author_note": "Ghi chú của tác giả: "
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "save_button": "",
-                "selection_count": "",
-                "link_title_placeholder": ""
+                "title": "Tuyên bố của tác giả",
+                "help": "Hãy chọn những tuyên bố phù hợp với bài viết này. Chúng chỉ giúp người đọc hiểu rõ nội dung, không đại diện cho quan điểm của diễn đàn và cũng không phải là sự xác minh của diễn đàn.",
+                "save_button": "Lưu tuyên bố",
+                "selection_count": "Đã chọn {selected} / {max}",
+                "link_title_placeholder": "Tên liên kết (tùy chọn)"
             }
         },
         "lib": {
             "validation": {
-                "required": "",
-                "too_many": "",
-                "invalid_payload": "",
-                "invalid_selection": "",
-                "details_too_long": "",
-                "title_too_long": "",
-                "source_url_required": "",
-                "source_conflict": ""
+                "required": "Cần ít nhất một tuyên bố.",
+                "too_many": "Bạn đã chọn quá nhiều tuyên bố.",
+                "invalid_payload": "Dữ liệu tuyên bố không hợp lệ.",
+                "invalid_selection": "Lựa chọn tuyên bố không hợp lệ.",
+                "details_too_long": "Chi tiết tuyên bố không được vượt quá 500 ký tự.",
+                "title_too_long": "Tên liên kết không được vượt quá 100 ký tự.",
+                "source_url_required": "Cần có một URL nguồn hợp lệ cho nội dung đăng lại hoặc tham khảo.",
+                "source_conflict": "Không thể cùng lúc chọn các tuyên bố nội dung gốc, nội dung đăng lại và nội dung tham khảo."
             },
             "categories": {
-                "source": "",
-                "authenticity": "",
-                "safety": "",
-                "commercial": ""
+                "source": "Nguồn nội dung",
+                "authenticity": "Tính xác thực",
+                "safety": "Cảnh báo an toàn và nội dung",
+                "commercial": "Công bố thương mại"
             },
             "declarations": {
                 "original": {
-                    "label": "",
-                    "help": ""
+                    "label": "Nội dung gốc",
+                    "help": "Nội dung chủ yếu do tác giả tự tạo ra và không phải là bài đăng lại trực tiếp. Vui lòng không sao chép khi chưa được phép."
                 },
                 "repost": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Nội dung đăng lại",
+                    "help": "Nội dung chủ yếu được đăng lại từ một tác giả hoặc nguồn khác.",
+                    "details_placeholder": "Nhập URL nguồn gốc (bắt buộc)"
                 },
                 "reference": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Nội dung tham khảo hoặc trích dẫn",
+                    "help": "Nội dung có tham khảo hoặc trích dẫn tài liệu từ một tác giả hoặc nguồn khác.",
+                    "details_placeholder": "Nhập URL nguồn gốc (bắt buộc)"
                 },
                 "ai_generated": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Nội dung do AI tạo ra",
+                    "help": "Toàn bộ hoặc một phần đáng kể nội dung được tạo hoặc chỉnh sửa bằng AI tạo sinh.",
+                    "details_placeholder": "Tùy chọn nêu tên công cụ AI hoặc bổ sung ngữ cảnh"
                 },
                 "fictional": {
-                    "label": "",
-                    "help": ""
+                    "label": "Nội dung hư cấu hoặc dàn dựng",
+                    "help": "Nội dung chứa các sự kiện hư cấu, nhập vai hoặc cảnh dàn dựng."
                 },
                 "personal_opinion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Ý kiến hoặc góc nhìn cá nhân",
+                    "help": "Nội dung này chủ yếu thể hiện quan điểm, nhận định hoặc trải nghiệm cá nhân của tác giả, không đại diện cho sự thật phổ quát hay kết luận chuyên môn."
                 },
                 "professional": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Hành vi nguy hiểm, đừng bắt chước",
+                    "help": "Bắt chước hoạt động này mà không có chuyên môn phù hợp có thể gây rủi ro về an toàn.",
+                    "details_placeholder": "Tùy chọn bổ sung thông tin an toàn"
                 },
                 "sensitive": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Có thể gây khó chịu",
+                    "help": "Nội dung có thể chứa những mô tả gây khó chịu, đáng sợ hoặc nhạy cảm.",
+                    "details_placeholder": "Tùy chọn mô tả cảnh báo nội dung"
                 },
                 "self_promotion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Có chứa thông tin tiếp thị hoặc quảng bá",
+                    "help": "Nội dung quảng bá sản phẩm hoặc dịch vụ của tác giả, tổ chức của họ hoặc bên thứ ba và có thể liên quan đến hoa hồng tiếp thị liên kết hoặc khoản thù lao khác."
                 },
                 "sponsored": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Hợp tác trả phí, tài trợ hoặc có lợi ích vật chất",
+                    "help": "Một bên thứ ba đã chi trả tiền, tặng quà hoặc mang lại lợi ích vật chất khác.",
+                    "details_placeholder": "Tùy chọn nêu tên đối tác hoặc mô tả mối quan hệ"
                 }
             }
         }

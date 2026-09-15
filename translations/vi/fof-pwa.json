@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Progressive Web App",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Mô tả",
+                    "description_text": "Bạn có thể đặt mô tả ở trang 'Cơ bản' trong bảng điều khiển quản trị.",
+                    "long_name_label": "Tên đầy đủ",
+                    "long_name_text": "Tên của ứng dụng web hiển thị cho người dùng.",
+                    "heading": "Giới thiệu",
+                    "short_name_label": "Tên ngắn",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Màu sắc",
+                    "background_color_label": "Màu nền",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Màu chủ đề",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Bảo trì",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Tùy chọn này sẽ ghi thông tin về thông báo vào `storage/logs`. Thông thường nên tắt để tránh làm đầy nhật ký một cách không cần thiết.",
                     "reset_vapid_button": "",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Việc đặt lại khóa VAPID sẽ xóa mọi đăng ký đang dùng khóa hiện có, nên người dùng sẽ không nhận được thông báo nào cho đến lần truy cập trang web tiếp theo. Chỉ nên làm điều này khi thiết lập thông báo đẩy lần đầu, hoặc khi thông báo đẩy hoàn toàn không hoạt động và phía trên có cảnh báo về việc thiếu khóa VAPID.",
+                    "reset_vapid_success": "Đã đặt lại khóa VAPID thành công. {count} đăng ký đã được đặt lại. Hãy tải lại trang để xem báo cáo kiểm tra trạng thái mới nhất."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Tải tệp lên"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Khác",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -46,23 +46,23 @@
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": "",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "share_buttons_label": "Bật nút chia sẻ",
+                    "share_buttons_text": "Nếu bật, một nút \"Chia sẻ\" sẽ được thêm vào các cuộc thảo luận, bài viết và người dùng."
                 },
-                "heading": "",
+                "heading": "Cấu hình Progressive Web App",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Kiểm tra trạng thái",
+                "logo_heading": "Logo và biểu tượng",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Lưu cài đặt",
+                "refreshed_message": "Đã làm mới cấu hình PWA thành công."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Bạn phải tải lên ít nhất một logo, với kích thước tối thiểu 144x144px, để PWA có thể cài đặt được.",
+                "no_name": "Bạn phải cung cấp tên đầy đủ để ứng dụng hoạt động.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -78,26 +78,26 @@
                 "optin_deferred": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Chia sẻ"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Chia sẻ",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Chia sẻ"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Thông báo đẩy",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Do hạn chế của trình duyệt, bạn phải đồng ý nhận thông báo đẩy trên thiết bị này.",
+                    "access_default_button": "Đồng ý",
+                    "access_denied": "Bạn phải điều chỉnh cài đặt trình duyệt để nhận thông báo đẩy trên thiết bị này.",
+                    "access_denied_button": "Xem cách làm",
+                    "no_browser_support": "Trình duyệt này không hỗ trợ thông báo đẩy cho progressive web app.",
+                    "no_browser_support_button": "Tìm hiểu thêm"
                 }
             },
             "notifications_help": {
@@ -116,8 +116,8 @@
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Lỗi kết nối mạng",
+                "text": "Ứng dụng này cần có kết nối mạng; không thể dùng khi ngoại tuyến. Vui lòng kiểm tra kết nối của bạn."
             }
         }
     },
@@ -125,8 +125,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Xuất toàn bộ đăng ký thông báo đẩy và mã thiết bị gắn với người dùng.",
+                    "delete_description": "Xóa toàn bộ đăng ký thông báo đẩy và mã thiết bị gắn với người dùng."
                 }
             }
         }

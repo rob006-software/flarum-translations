@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} đã thay đổi thẻ"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Chọn thẻ để theo dõi",
+                "modal_title": "Chọn thẻ để theo dõi",
+                "later_button": "Nhắc tôi sau",
+                "continue_button": "Tiếp tục vào diễn đàn"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Bộ lọc mặc định của trang Đang theo dõi",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Nhắc người dùng mới chọn thẻ để theo dõi",
+                "prompt_new_users_help": "Những người dùng chưa xác nhận lựa chọn của mình sẽ thấy một hộp thoại mời họ theo dõi thẻ. Hộp thoại này sẽ tiếp tục xuất hiện trong mỗi lần truy cập cho đến khi họ nhấn \"Tiếp tục vào diễn đàn\".\n",
+                "prompt_button_on_following_page_label": "Hiển thị nút \"Chọn thẻ để theo dõi\" trên trang Đang theo dõi",
+                "prompt_tag_strategy_label": "Các thẻ được đề xuất trong hộp thoại",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Thẻ chính cấp một",
+                    "primaryAndChildren": "Tất cả thẻ chính ở mọi cấp",
+                    "primaryAndSecondary": "Thẻ chính cấp một và thẻ phụ",
+                    "secondary": "Chỉ thẻ phụ",
+                    "all": "Tất cả thẻ",
+                    "list": "Các thẻ được chọn bên dưới"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Các thẻ để đề xuất",
+                "all_discussions_on_following_page_for_guests_label": "Hiển thị tất cả cuộc thảo luận trên trang Đang theo dõi cho khách"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
