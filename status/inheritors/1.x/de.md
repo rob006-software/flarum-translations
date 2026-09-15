@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **322** are translated differently and **577** are
-translated only in `de`. Altogether they cover **94** components.
+sides, but do not match between them: **320** are translated differently and **683** are
+translated only in `de`. Altogether they cover **95** components.
 
 <!-- {% raw %} -->
 
@@ -21,6 +21,7 @@ translated only in `de`. Altogether they cover **94** components.
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
 | `ffans-geetest` | 0 | [15](#ffans-geetest-missing) |
+| `ffans-threadmarks` | 0 | [63](#ffans-threadmarks-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
@@ -46,7 +47,6 @@ translated only in `de`. Altogether they cover **94** components.
 | `fof-geoip` | [4](#fof-geoip) | 0 |
 | `fof-horizon` | [1](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
-| `fof-links` | [2](#fof-links) | 0 |
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
 | `fof-merge-discussions` | [5](#fof-merge-discussions) | 0 |
 | `fof-moderator-notes` | [1](#fof-moderator-notes) | 0 |
@@ -81,6 +81,7 @@ translated only in `de`. Altogether they cover **94** components.
 | `justoverclock-welcomebox` | [2](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
 | `linkrobins-birdseye` | [5](#linkrobins-birdseye) | 0 |
+| `linkrobins-chirp` | 0 | [43](#linkrobins-chirp-missing) |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `maicol07-sso` | 0 | [13](#maicol07-sso-missing) |
 | `michaelbelgium-ai-autoreply` | 0 | [22](#michaelbelgium-ai-autoreply-missing) |
@@ -1786,31 +1787,6 @@ IP-Adresse in <del>die </del>Zwischenablage kopieren
 ```
 
 (Optional) Gib einen Grund für den Wechsel zu diesem Benutzer <del>an.</del><ins>an</ins>
-
-
-### `fof-links`
-
-#### [`fof-links.admin.edit_link.visibility.help`](https://weblate.rob006.net/translate/flarum2/fof-links/de/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help%22)
-
-> Links by default are visible to only &lt;code&gt;{admin}&lt;/code&gt; users. Adjust the permissions to specify who can see this link.
-
-```diff
--Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passen Sie die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.
-+Links sind standardmässig nur für <code>{admin}</code>-Nutzer sichtbar. Passe die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.
-```
-
-Links sind standardmässig nur für &lt;code&gt;{admin}&lt;/code&gt;-Nutzer sichtbar. <del>Passen Sie</del><ins>Passe</ins> die Berechtigungen an, um festzulegen, wer diesen Link sehen kann.
-
-#### [`fof-links.admin.edit_link.visibility.help-disabled`](https://weblate.rob006.net/translate/flarum2/fof-links/de/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help-disabled%22)
-
-> Save the link before changing visibility settings.
-
-```diff
--Speichern Sie den Link, um die Sichtbarkeit anpassen zu können.
-+Speichere den Link, um die Sichtbarkeit anpassen zu können.
-```
-
-<del>Speichern Sie</del><ins>Speichere</ins> den Link, um die Sichtbarkeit anpassen zu können.
 
 
 ### `fof-masquerade`
@@ -4690,6 +4666,513 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 ```
 
 
+### `ffans-threadmarks` (missing)
+
+#### [`ffans-threadmarks.admin.create_type_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.create_type_modal.submit_button%22)
+
+> Create
+
+```diff
++Erstellen
+```
+
+#### [`ffans-threadmarks.admin.create_type_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.create_type_modal.title%22)
+
+> Create Threadmark Type
+
+```diff
++Typ von Diskussionsmarkierungen erstellen
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.delete_confirmation%22)
+
+> Delete this threadmark type?
+
+```diff
++Diesen Typ von Diskussionsmarkierungen löschen?
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.submit_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.title%22)
+
+> Edit Threadmark Type
+
+```diff
++Typ von Diskussionsmarkierungen bearbeiten
+```
+
+#### [`ffans-threadmarks.admin.permissions.manage_discussion_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.permissions.manage_discussion_label%22)
+
+> Manage threadmarks in any discussion
+
+```diff
++Diskussionsmarkierungen in allen Diskussionen verwalten
+```
+
+#### [`ffans-threadmarks.admin.permissions.manage_own_discussion_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.permissions.manage_own_discussion_label%22)
+
+> Manage threadmarks in own discussions
+
+```diff
++Diskussionsmarkierungen in eigenen Diskussionen verwalten
+```
+
+#### [`ffans-threadmarks.admin.permissions.manage_personal_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.permissions.manage_personal_label%22)
+
+> Manage own personal threadmarks
+
+```diff
++Persönliche Diskussionsmarkierungen verwalten
+```
+
+#### [`ffans-threadmarks.admin.types.actions_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.actions_heading%22)
+
+> Actions
+
+```diff
++Aktionen
+```
+
+#### [`ffans-threadmarks.admin.types.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.add_button%22)
+
+> Add Type
+
+```diff
++Typ hinzufügen
+```
+
+#### [`ffans-threadmarks.admin.types.builtin_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.builtin_label%22)
+
+> Built-in
+
+```diff
++Integriert
+```
+
+#### [`ffans-threadmarks.admin.types.custom_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.custom_label%22)
+
+> Custom
+
+```diff
++Benutzerdefiniert
+```
+
+#### [`ffans-threadmarks.admin.types.edit_type_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.edit_type_a11y_label%22)
+
+> Edit {name}
+
+```diff
++{name} bearbeiten
+```
+
+#### [`ffans-threadmarks.admin.types.empty_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.empty_text%22)
+
+> No threadmark types yet.
+
+```diff
++Noch keine Typen von Diskussionsmarkierungen.
+```
+
+#### [`ffans-threadmarks.admin.types.enable_type_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.enable_type_a11y_label%22)
+
+> Enable {name}
+
+```diff
++{name} aktivieren
+```
+
+#### [`ffans-threadmarks.admin.types.enabled_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.enabled_heading%22)
+
+> Enabled
+
+```diff
++Aktiviert
+```
+
+#### [`ffans-threadmarks.admin.types.key_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.key_heading%22)
+
+> =&gt; ffans-threadmarks.ref.key
+
+```diff
++=> ffans-threadmarks.ref.key
+```
+
+#### [`ffans-threadmarks.admin.types.order_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.order_heading%22)
+
+> Order
+
+```diff
++Reihenfolge
+```
+
+#### [`ffans-threadmarks.admin.types.reorder_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.reorder_tooltip%22)
+
+> Drag to reorder
+
+```diff
++Zum Neuanordnen ziehen
+```
+
+#### [`ffans-threadmarks.admin.types.source_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.source_heading%22)
+
+> Source
+
+```diff
++Quelle
+```
+
+#### [`ffans-threadmarks.admin.types.table_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.table_a11y_label%22)
+
+> Threadmark types
+
+```diff
++Typen von Diskussionsmarkierungen
+```
+
+#### [`ffans-threadmarks.admin.types.type_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.admin.types.type_heading%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.forum.directory.all_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.all_filter%22)
+
+> All
+
+```diff
++Alle
+```
+
+#### [`ffans-threadmarks.forum.directory.discussion_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.discussion_filter%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.directory.hide_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.hide_button%22)
+
+> Threadmarks
+
+```diff
++Diskussionsmarkierungen
+```
+
+#### [`ffans-threadmarks.forum.directory.personal_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.personal_filter%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
+
+> Threadmarks
+
+```diff
++Diskussionsmarkierungen
+```
+
+#### [`ffans-threadmarks.forum.directory.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.title%22)
+
+> =&gt; ffans-threadmarks.ref.threadmarks
+
+```diff
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_all_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button%22)
+
+> Show All Posts
+
+```diff
++Alle Beiträge anzeigen
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
+
+> Add
+
+```diff
++Hinzufügen
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.discussion_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.discussion_tab%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.loading_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.loading_text%22)
+
+> =&gt; core.ref.loading
+
+```diff
++=> core.ref.loading
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.note_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.note_label%22)
+
+> Note
+
+```diff
++Notiz
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.note_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.note_placeholder%22)
+
+> Optional
+
+```diff
++Optional
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.personal_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.personal_tab%22)
+
+> Personal
+
+```diff
++Persönlich
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.save_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.save_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.title%22)
+
+> Threadmark · #{number}
+
+```diff
++Diskussionsmarkierung · #{number}
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.type_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.type_label%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.type_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.type_placeholder%22)
+
+> Choose a type
+
+```diff
++Wähle einen Typ
+```
+
+#### [`ffans-threadmarks.forum.post_controls.manage_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.post_controls.manage_button%22)
+
+> Manage Threadmark
+
+```diff
++Diskussionsmarkierung verwalten
+```
+
+#### [`ffans-threadmarks.forum.threadmark.deleted_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.deleted_text%22)
+
+> This content has been deleted.
+
+```diff
++Dieser Inhalt wurde gelöscht.
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_discussion_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_discussion_tooltip%22)
+
+> Edit discussion threadmark
+
+```diff
++Öffentliche Diskussionsmarkierung bearbeiten
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_personal_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_personal_tooltip%22)
+
+> Edit personal threadmark
+
+```diff
++Persönliche Diskussionsmarkierung bearbeiten
+```
+
+#### [`ffans-threadmarks.forum.threadmark.mine_badge`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.mine_badge%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.type_labels.chapter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.chapter%22)
+
+> Chapter
+
+```diff
++Kapitel
+```
+
+#### [`ffans-threadmarks.forum.type_labels.default`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.default%22)
+
+> Threadmark
+
+```diff
++Diskussionsmarkierung
+```
+
+#### [`ffans-threadmarks.forum.type_labels.highlight`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.highlight%22)
+
+> Highlight
+
+```diff
++Hervorhebung
+```
+
+#### [`ffans-threadmarks.forum.type_labels.notice`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.notice%22)
+
+> Notice
+
+```diff
++Notiz
+```
+
+#### [`ffans-threadmarks.forum.type_labels.progress`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.progress%22)
+
+> Progress
+
+```diff
++Fortschritt
+```
+
+#### [`ffans-threadmarks.forum.type_labels.update`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.update%22)
+
+> Update
+
+```diff
++Aktualisierung
+```
+
+#### [`ffans-threadmarks.lib.type_form.color_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.color_label%22)
+
+> =&gt; core.ref.color
+
+```diff
++=> core.ref.color
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_label%22)
+
+> =&gt; core.ref.icon
+
+```diff
++=> core.ref.icon
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_placeholder%22)
+
+> fa-solid fa-book
+
+```diff
++fa-solid fa-book
+```
+
+#### [`ffans-threadmarks.lib.type_form.key_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.key_label%22)
+
+> =&gt; ffans-threadmarks.ref.key
+
+```diff
++=> ffans-threadmarks.ref.key
+```
+
+#### [`ffans-threadmarks.lib.type_form.name_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.name_label%22)
+
+> Name
+
+```diff
++Name
+```
+
+#### [`ffans-threadmarks.ref.discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.discussion%22)
+
+> Discussion
+
+```diff
++Diskussion
+```
+
+#### [`ffans-threadmarks.ref.key`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.key%22)
+
+> Key
+
+```diff
++Schlüssel
+```
+
+#### [`ffans-threadmarks.ref.mine`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.mine%22)
+
+> Mine
+
+```diff
++Meine
+```
+
+#### [`ffans-threadmarks.ref.save`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.save%22)
+
+> Save
+
+```diff
++Speichern
+```
+
+#### [`ffans-threadmarks.ref.threadmarks`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.threadmarks%22)
+
+> Threadmarks
+
+```diff
++Diskussionsmarkierungen
+```
+
+#### [`ffans-threadmarks.ref.type`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.type%22)
+
+> Type
+
+```diff
++Typ
+```
+
+
 ### `forumaker-magicread` (missing)
 
 #### [`forumaker-magicread.admin.settings.enable_counter`](https://weblate.rob006.net/translate/flarum2/forumaker-magicread/de/?q=context%3A%3D%22forumaker-magicread.admin.settings.enable_counter%22)
@@ -5120,6 +5603,353 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {# Beitrag} other {# Beiträge}}
+```
+
+
+### `linkrobins-chirp` (missing)
+
+#### [`linkrobins-chirp.admin.appearance_brand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_brand%22)
+
+> Default
+
+```diff
++Standard
+```
+
+#### [`linkrobins-chirp.admin.appearance_forum`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_forum%22)
+
+> Flarum
+
+```diff
++Flarum
+```
+
+#### [`linkrobins-chirp.admin.appearance_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_label%22)
+
+> Accent colors
+
+```diff
++Akzentfarben
+```
+
+#### [`linkrobins-chirp.admin.channels_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.channels_add%22)
+
+> Designate
+
+```diff
++Zuweisen
+```
+
+#### [`linkrobins-chirp.admin.channels_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.channels_label%22)
+
+> Voice channels
+
+```diff
++Sprachkanäle
+```
+
+#### [`linkrobins-chirp.admin.channels_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.channels_none%22)
+
+> No voice channels yet.
+
+```diff
++Es gibt noch keine Sprachkanäle.
+```
+
+#### [`linkrobins-chirp.admin.channels_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.channels_placeholder%22)
+
+> Search discussions…
+
+```diff
++Diskussionen suchen…
+```
+
+#### [`linkrobins-chirp.admin.channels_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.channels_remove%22)
+
+> Remove
+
+```diff
++Entfernen
+```
+
+#### [`linkrobins-chirp.admin.keys_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_add%22)
+
+> Add another key
+
+```diff
++Einen weiteren Schlüssel hinzufügen
+```
+
+#### [`linkrobins-chirp.admin.keys_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_placeholder%22)
+
+> Channel key…
+
+```diff
++Kanalschlüssel…
+```
+
+#### [`linkrobins-chirp.admin.keys_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_remove%22)
+
+> Remove this key
+
+```diff
++Diesen Schlüssel entfernen
+```
+
+#### [`linkrobins-chirp.admin.keys_save`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_save%22)
+
+> Save &amp; connect
+
+```diff
++Speichern & verbinden
+```
+
+#### [`linkrobins-chirp.admin.keys_status_bad`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_status_bad%22)
+
+> Not recognized
+
+```diff
++Nicht erkannt
+```
+
+#### [`linkrobins-chirp.admin.keys_status_connected`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.keys_status_connected%22)
+
+> Connected
+
+```diff
++Verbunden
+```
+
+#### [`linkrobins-chirp.admin.policy_hand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.policy_hand%22)
+
+> Raise hand to speak
+
+```diff
++Hand heben, um zu sprechen
+```
+
+#### [`linkrobins-chirp.admin.policy_op`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.policy_op%22)
+
+> Author only
+
+```diff
++Nur der Autor
+```
+
+#### [`linkrobins-chirp.admin.policy_open`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.policy_open%22)
+
+> Anyone can speak
+
+```diff
++Jeder darf sprechen
+```
+
+#### [`linkrobins-chirp.admin.service_url_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.admin.service_url_label%22)
+
+> Service URL
+
+```diff
++Dienst-URL
+```
+
+#### [`linkrobins-chirp.forum.connecting`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.connecting%22)
+
+> Connecting…
+
+```diff
++Verbinden…
+```
+
+#### [`linkrobins-chirp.forum.decline`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.decline%22)
+
+> Decline
+
+```diff
++Ablehnen
+```
+
+#### [`linkrobins-chirp.forum.end_room`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.end_room%22)
+
+> End
+
+```diff
++Beenden
+```
+
+#### [`linkrobins-chirp.forum.in_channel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.in_channel%22)
+
+> {count, plural, one {# in the channel} other {# in the channel}}
+
+```diff
++{count, plural, one {# ist im Kanal} other {# sind im Kanal}}
+```
+
+#### [`linkrobins-chirp.forum.join_channel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.join_channel%22)
+
+> Join
+
+```diff
++Beitreten
+```
+
+#### [`linkrobins-chirp.forum.join_listen`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.join_listen%22)
+
+> Listen
+
+```diff
++Zuhören
+```
+
+#### [`linkrobins-chirp.forum.leave`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.leave%22)
+
+> Leave
+
+```diff
++Verlassen
+```
+
+#### [`linkrobins-chirp.forum.listeners`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.listeners%22)
+
+> {count, plural, one {# listening} other {# listening}}
+
+```diff
++{count, plural, one {# hört zu} other {# hören zu}}
+```
+
+#### [`linkrobins-chirp.forum.live_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.live_badge%22)
+
+> LIVE
+
+```diff
++LIVE
+```
+
+#### [`linkrobins-chirp.forum.live_in`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.live_in%22)
+
+> LIVE in {time}
+
+```diff
++LIVE in {time}
+```
+
+#### [`linkrobins-chirp.forum.mute`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.mute%22)
+
+> Mute
+
+```diff
++Stumm schalten
+```
+
+#### [`linkrobins-chirp.forum.on_stage`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.on_stage%22)
+
+> {count, plural, one {On stage — # speaker} other {On stage — # speakers}}
+
+```diff
++{count, plural, one {On stage — # Sprecher} other {On stage — # Sprecher}}
+```
+
+#### [`linkrobins-chirp.forum.participants`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.participants%22)
+
+> Participants
+
+```diff
++Teilnehmer
+```
+
+#### [`linkrobins-chirp.forum.policy_hand_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.policy_hand_short%22)
+
+> Raise hand
+
+```diff
++Hand heben
+```
+
+#### [`linkrobins-chirp.forum.policy_open_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.policy_open_short%22)
+
+> Anyone
+
+```diff
++Jeder
+```
+
+#### [`linkrobins-chirp.forum.raise_hand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.raise_hand%22)
+
+> Raise hand
+
+```diff
++Hand heben
+```
+
+#### [`linkrobins-chirp.forum.reconnecting`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.reconnecting%22)
+
+> Reconnecting…
+
+```diff
++Neu verbinden…
+```
+
+#### [`linkrobins-chirp.forum.recorded_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.recorded_badge%22)
+
+> RECORDED
+
+```diff
++AUFGENOMMEN
+```
+
+#### [`linkrobins-chirp.forum.roster_gone`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.roster_gone%22)
+
+> You left the room.
+
+```diff
++Du hast den Raum verlassen.
+```
+
+#### [`linkrobins-chirp.forum.schedule_cancel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_cancel%22)
+
+> Cancel
+
+```diff
++Abbrechen
+```
+
+#### [`linkrobins-chirp.forum.speaker_muted`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.speaker_muted%22)
+
+> {name} (muted)
+
+```diff
++{name} (stummgeschaltet)
+```
+
+#### [`linkrobins-chirp.forum.take_mic`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.take_mic%22)
+
+> Speak
+
+```diff
++Sprechen
+```
+
+#### [`linkrobins-chirp.forum.unmute`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.unmute%22)
+
+> Unmute
+
+```diff
++Stummschaltung aufheben
+```
+
+#### [`linkrobins-chirp.forum.voice_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.voice_badge%22)
+
+> VOICE
+
+```diff
++SPRACHE
+```
+
+#### [`linkrobins-chirp.forum.you`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/de/?q=context%3A%3D%22linkrobins-chirp.forum.you%22)
+
+> (you)
+
+```diff
++(du)
 ```
 
 

@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **11** are translated differently and **203** are
-translated only in `es@formal`. Altogether they cover **33** components.
+sides, but do not match between them: **11** are translated differently and **202** are
+translated only in `es@formal`. Altogether they cover **32** components.
 
 <!-- {% raw %} -->
 
@@ -25,7 +25,6 @@ translated only in `es@formal`. Altogether they cover **33** components.
 | `flarum-mentions` | [1](#flarum-mentions) | 0 |
 | `fof-analytics` | [1](#fof-analytics) | 0 |
 | `fof-best-answer` | [1](#fof-best-answer) | 0 |
-| `fof-links` | 0 | [1](#fof-links-missing) |
 | `fof-masquerade` | 0 | [4](#fof-masquerade-missing) |
 | `fof-oauth` | 0 | [5](#fof-oauth-missing) |
 | `fof-polls` | 0 | [11](#fof-polls-missing) |
@@ -708,17 +707,6 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 +
 +Aceptar → Publica tu respuesta de todos modos
 +Cancelar → Leerla primero (tu borrador permanecerá abierto)
-```
-
-
-### `fof-links` (missing)
-
-#### [`fof-links.admin.links.preconfigured`](https://weblate.rob006.net/translate/flarum2/fof-links/es@formal/?q=context%3A%3D%22fof-links.admin.links.preconfigured%22)
-
-> The links on this forum have been preconfigured and cannot be edited here.
-
-```diff
-+Los enlaces de este foro están preconfigurados y no se pueden editar aquí.
 ```
 
 

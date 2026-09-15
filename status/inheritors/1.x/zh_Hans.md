@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1901** are translated differently and **1827** are
-translated only in `zh_Hans`. Altogether they cover **138** components.
+sides, but do not match between them: **1892** are translated differently and **1920** are
+translated only in `zh_Hans`. Altogether they cover **139** components.
 
 <!-- {% raw %} -->
 
@@ -78,7 +78,7 @@ translated only in `zh_Hans`. Altogether they cover **138** components.
 | `fof-ignore-users` | [5](#fof-ignore-users) | 0 |
 | `fof-impersonate` | [8](#fof-impersonate) | 0 |
 | `fof-linguist` | [35](#fof-linguist) | 0 |
-| `fof-links` | [13](#fof-links) | [1](#fof-links-missing) |
+| `fof-links` | [4](#fof-links) | 0 |
 | `fof-mailing` | 0 | [19](#fof-mailing-missing) |
 | `fof-masquerade` | [27](#fof-masquerade) | [5](#fof-masquerade-missing) |
 | `fof-merge-discussions` | [20](#fof-merge-discussions) | 0 |
@@ -128,6 +128,7 @@ translated only in `zh_Hans`. Altogether they cover **138** components.
 | `justoverclock-welcomebox` | [8](#justoverclock-welcomebox) | 0 |
 | `linkrobins-badge-labels` | 0 | [34](#linkrobins-badge-labels-missing) |
 | `linkrobins-birdseye` | 0 | [68](#linkrobins-birdseye-missing) |
+| `linkrobins-chirp` | 0 | [94](#linkrobins-chirp-missing) |
 | `linkrobins-discussion-banners` | 0 | [56](#linkrobins-discussion-banners-missing) |
 | `linkrobins-link-gate` | 0 | [12](#linkrobins-link-gate-missing) |
 | `migratetoflarum-fake-data` | [3](#migratetoflarum-fake-data) | 0 |
@@ -11391,15 +11392,6 @@ FoF <del>身份模拟</del><ins>身份切换</ins>
 
 ### `fof-links`
 
-#### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
-
-> Are you sure you want to delete this link?
-
-```diff
--确定要删除这个链接吗？
-+确定要删除此链接吗？
-```
-
 #### [`fof-links.admin.edit_link.icon_additional_text`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.icon_additional_text%22)
 
 > If you want to use a brand icon, the prefix is &lt;code&gt;fab fa-&lt;/code&gt; instead.
@@ -11410,82 +11402,6 @@ FoF <del>身份模拟</del><ins>身份切换</ins>
 ```
 
 <del>如果你想要使用一个品牌图标，请使用前缀</del><ins>如需使用品牌图标，请改用</ins> &lt;code&gt;fab <del>fa-&lt;/code&gt;。</del><ins>fa-&lt;/code&gt; 前缀。</ins>
-
-#### [`fof-links.admin.edit_link.internal_link`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.internal_link%22)
-
-> Is it an internal link?
-
-```diff
--这是内部链接吗？勾选后，当用户访问此链接时，此链接会在导航栏高亮。
-+站内高亮链接
-```
-
-#### [`fof-links.admin.edit_link.url_description`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.url_description%22)
-
-> Leave blank to show as a label.
-
-```diff
--留空作为菜单标题。
-+留空则仅作为文字标签显示。
-```
-
-#### [`fof-links.admin.edit_link.use_rel_me`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.use_rel_me%22)
-
-> Add &lt;code&gt;rel="me"&lt;/code&gt; attribute for identity verification on other sites
-
-```diff
--添加 <code>rel="me"</code> 属性来向其它站点表明身份
-+添加 <code>rel="me"</code> 属性，用于在其他网站验证身份
-```
-
-添加 &lt;code&gt;rel="me"&lt;/code&gt; <del>属性来向其它站点表明身份</del><ins>属性，用于在其他网站验证身份</ins>
-
-#### [`fof-links.admin.edit_link.visibility.guest-only.help`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.help%22)
-
-> Only {guest} can see this link. The permission above should be set to '{everyone}'.
-
-```diff
--此链接仅{guest}可见。请调整上方权限为「所有人」。
-+仅 {guest} 可以看到此链接。请调整上方权限为「{everyone}」。
-```
-
-#### [`fof-links.admin.edit_link.visibility.guest-only.label`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.label%22)
-
-> {guest} only?
-
-```diff
--仅{guest}可见？
-+仅限 {guest}
-```
-
-#### [`fof-links.admin.edit_link.visibility.help`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help%22)
-
-> Links by default are visible to only &lt;code&gt;{admin}&lt;/code&gt; users. Adjust the permissions to specify who can see this link.
-
-```diff
--默认情况下，链接仅 <code>{admin}</code> 用户可见，请根据情况调整权限。
-+链接默认仅对 <code>{admin}</code> 用户可见。你可以调整权限，设置哪些用户可以看到此链接。
-```
-
-<del>默认情况下，链接仅</del><ins>链接默认仅对</ins> &lt;code&gt;{admin}&lt;/code&gt; <del>用户可见，请根据情况调整权限。</del><ins>用户可见。你可以调整权限，设置哪些用户可以看到此链接。</ins>
-
-#### [`fof-links.admin.edit_link.visibility.help-disabled`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help-disabled%22)
-
-> Save the link before changing visibility settings.
-
-```diff
--修改可见性设置前保存链接。
-+保存链接后才能修改可见范围。
-```
-
-#### [`fof-links.admin.edit_link.visibility.label`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.label%22)
-
-> Link visibility
-
-```diff
--链接可见性
-+可见范围
-```
 
 #### [`fof-links.admin.settings.show_icons_only_on_tablet`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.settings.show_icons_only_on_tablet%22)
 
@@ -21320,17 +21236,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 ```
 
 
-### `fof-links` (missing)
-
-#### [`fof-links.admin.links.preconfigured`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.admin.links.preconfigured%22)
-
-> The links on this forum have been preconfigured and cannot be edited here.
-
-```diff
-+论坛链接已预先配置，无法在此编辑。
-```
-
-
 ### `fof-mailing` (missing)
 
 #### [`fof-mailing.admin.permissions.mail_all`](https://weblate.rob006.net/translate/flarum2/fof-mailing/zh_Hans/?q=context%3A%3D%22fof-mailing.admin.permissions.mail_all%22)
@@ -27030,6 +26935,781 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +缩小
+```
+
+
+### `linkrobins-chirp` (missing)
+
+#### [`linkrobins-chirp.admin.appearance_brand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_brand%22)
+
+> Default
+
+```diff
++默认
+```
+
+#### [`linkrobins-chirp.admin.appearance_forum`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_forum%22)
+
+> Flarum
+
+```diff
++Flarum
+```
+
+#### [`linkrobins-chirp.admin.appearance_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_help%22)
+
+> Default keeps Chirp's own coral-and-teal accents. Flarum adopts your forum's Appearance colors (primary and secondary color) instead, so the bars blend into your site. The green "mic is live" cues stay the same either way.
+>
+
+```diff
++默认使用 Chirp 自带的珊瑚色和青绿色强调色。选择 Flarum 后，则改用论坛「外观」设置中的主色和次色，让语音栏与论坛风格保持一致。麦克风开启时的绿色提示不会受此设置影响。
++
+```
+
+#### [`linkrobins-chirp.admin.appearance_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_label%22)
+
+> Accent colors
+
+```diff
++强调色
+```
+
+#### [`linkrobins-chirp.admin.channels_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_add%22)
+
+> Designate
+
+```diff
++设为语音频道
+```
+
+#### [`linkrobins-chirp.admin.channels_confirm_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_confirm_remove%22)
+
+> Remove this voice channel? Everyone in it gets disconnected and the discussion goes back to normal.
+>
+
+```diff
++确定要移除此语音频道吗？频道中的所有人都会断开连接，该讨论也会恢复为普通讨论。
++
+```
+
+#### [`linkrobins-chirp.admin.channels_exhausted`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_exhausted%22)
+
+> Every channel already powers a voice channel. Add another channel on your linkrobins.com dashboard, paste its key above, and you can designate more.
+>
+
+```diff
++所有 Chirp 频道都已用于常驻语音频道。请前往 linkrobins.com 控制台添加频道，并在上方填写新频道的密钥，即可继续添加。
++
+```
+
+#### [`linkrobins-chirp.admin.channels_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_help%22)
+
+> Standing voice rooms, Discord-style: designate a discussion and its voice bar stays open until you remove it here. Each of your channels powers one voice channel — want more standing rooms, add another channel on your linkrobins.com dashboard. Voice channels never block Go live and are never recorded.
+>
+
+```diff
++类似 Discord 的常驻语音频道：指定一个讨论后，其语音栏会一直保持开放，直到你在这里将其移除。每个 Chirp 频道可支持一个常驻语音频道；如果需要更多，请前往 linkrobins.com 控制台添加更多频道。常驻语音频道不会占用直播功能，也不会被录制。
++
+```
+
+#### [`linkrobins-chirp.admin.channels_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_label%22)
+
+> Voice channels
+
+```diff
++语音频道
+```
+
+#### [`linkrobins-chirp.admin.channels_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_none%22)
+
+> No voice channels yet.
+
+```diff
++暂无语音频道。
+```
+
+#### [`linkrobins-chirp.admin.channels_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_placeholder%22)
+
+> Search discussions…
+
+```diff
++搜索讨论…
+```
+
+#### [`linkrobins-chirp.admin.channels_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_remove%22)
+
+> Remove
+
+```diff
++移除
+```
+
+#### [`linkrobins-chirp.admin.channels_slots`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.channels_slots%22)
+
+> {used} of {total} channels power a voice channel.
+
+```diff
++{used}/{total} 个 Chirp 频道已用于常驻语音频道。
+```
+
+#### [`linkrobins-chirp.admin.connected`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.connected%22)
+
+> ✓ Connected — you're live-ready. Moderators can go live on any discussion; members can take the mic up to your channel's speaker slots.
+>
+
+```diff
++✓ 已连接，可以开播了。版主可在任意讨论中开播；成员可上麦，上麦人数受频道麦位数量限制。
++
+```
+
+#### [`linkrobins-chirp.admin.disconnected`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.disconnected%22)
+
+> Not connected yet. Paste a channel key below — get one from your linkrobins.com dashboard → Chirp.
+>
+
+```diff
++尚未连接。请在下方填写频道密钥，可前往 linkrobins.com 控制台 → Chirp 获取。
++
+```
+
+#### [`linkrobins-chirp.admin.keys_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_add%22)
+
+> Add another key
+
+```diff
++添加频道密钥
+```
+
+#### [`linkrobins-chirp.admin.keys_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_help%22)
+
+> Paste each channel key from your linkrobins.com dashboard → Chirp — one per channel. Every channel powers ONE standing voice channel plus one live broadcast at a time, so more voice channels on this forum means more channels here. Remove a key to disconnect its channel.
+>
+
+```diff
++从 linkrobins.com 控制台 → Chirp 中复制频道密钥，每个频道填写一个。每个 Chirp 频道可支持一个常驻语音频道，并同时支持一场直播。如果论坛需要更多常驻语音频道，就需要在这里配置更多 Chirp 频道。移除密钥即可断开对应频道。
++
+```
+
+#### [`linkrobins-chirp.admin.keys_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_label%22)
+
+> Chirp channel keys
+
+```diff
++Chirp 频道密钥
+```
+
+#### [`linkrobins-chirp.admin.keys_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_placeholder%22)
+
+> Channel key…
+
+```diff
++频道密钥…
+```
+
+#### [`linkrobins-chirp.admin.keys_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_remove%22)
+
+> Remove this key
+
+```diff
++移除此密钥
+```
+
+#### [`linkrobins-chirp.admin.keys_save`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_save%22)
+
+> Save &amp; connect
+
+```diff
++保存并连接
+```
+
+#### [`linkrobins-chirp.admin.keys_status_bad`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_status_bad%22)
+
+> Not recognized
+
+```diff
++无法识别
+```
+
+#### [`linkrobins-chirp.admin.keys_status_connected`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.keys_status_connected%22)
+
+> Connected
+
+```diff
++已连接
+```
+
+#### [`linkrobins-chirp.admin.permissions.go_live_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.permissions.go_live_label%22)
+
+> Start a live audio room
+
+```diff
++开启直播语音房
+```
+
+#### [`linkrobins-chirp.admin.permissions.take_mic_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.permissions.take_mic_label%22)
+
+> Speak in a live audio room
+
+```diff
++在直播语音房中上麦
+```
+
+#### [`linkrobins-chirp.admin.policy_hand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.policy_hand%22)
+
+> Raise hand to speak
+
+```diff
++举手后上麦
+```
+
+#### [`linkrobins-chirp.admin.policy_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.policy_help%22)
+
+> Who can take the mic in new live rooms. The host can change this live from the room's toolbar. "Raise hand" means listeners request and the host approves; "Author only" limits the stage to the discussion's author (hosts and moderators can always speak).
+>
+
+```diff
++设置新直播语音房中谁可以上麦。主持人可以在直播过程中通过房间工具栏随时更改。「举手上麦」表示听众需要先申请，由主持人批准；「仅讨论作者」表示只有讨论作者可以上麦，但主持人和版主始终可以发言。
++
+```
+
+#### [`linkrobins-chirp.admin.policy_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.policy_label%22)
+
+> Default speaker policy
+
+```diff
++默认发言权限
+```
+
+#### [`linkrobins-chirp.admin.policy_op`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.policy_op%22)
+
+> Author only
+
+```diff
++仅讨论作者
+```
+
+#### [`linkrobins-chirp.admin.policy_open`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.policy_open%22)
+
+> Anyone can speak
+
+```diff
++任何人都可以上麦
+```
+
+#### [`linkrobins-chirp.admin.service_url_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.service_url_help%22)
+
+> Only change this if support asks you to.
+
+```diff
++仅在技术支持要求时修改此项。
+```
+
+#### [`linkrobins-chirp.admin.service_url_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.admin.service_url_label%22)
+
+> Service URL
+
+```diff
++服务 URL
+```
+
+#### [`linkrobins-chirp.forum.approve`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.approve%22)
+
+> Bring up
+
+```diff
++同意上麦
+```
+
+#### [`linkrobins-chirp.forum.channel_busy_elsewhere`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.channel_busy_elsewhere%22)
+
+> Every channel is broadcasting right now. End one of the live rooms first — or add another channel on linkrobins.com to run more rooms side by side.
+>
+
+```diff
++所有 Chirp 频道当前都在直播。请先结束其中一场直播，或前往 linkrobins.com 添加更多频道，以便同时运行更多直播语音房。
++
+```
+
+#### [`linkrobins-chirp.forum.confirm_cancel_schedule`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.confirm_cancel_schedule%22)
+
+> Withdraw the scheduled room? The countdown disappears for everyone.
+
+```diff
++确定要取消这场预约直播吗？所有人的倒计时都会消失。
+```
+
+#### [`linkrobins-chirp.forum.confirm_end`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.confirm_end%22)
+
+> End the room for everyone?
+
+```diff
++确定要为所有人结束直播吗？
+```
+
+#### [`linkrobins-chirp.forum.confirm_kick`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.confirm_kick%22)
+
+> Remove this person from the room entirely? They can rejoin as a listener.
+
+```diff
++确定要将此人移出房间吗？对方仍可重新以听众身份加入。
+```
+
+#### [`linkrobins-chirp.forum.connecting`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.connecting%22)
+
+> Connecting…
+
+```diff
++正在连接…
+```
+
+#### [`linkrobins-chirp.forum.decline`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.decline%22)
+
+> Decline
+
+```diff
++拒绝
+```
+
+#### [`linkrobins-chirp.forum.end_room`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.end_room%22)
+
+> End
+
+```diff
++结束
+```
+
+#### [`linkrobins-chirp.forum.ended_toast`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.ended_toast%22)
+
+> The room has ended.
+
+```diff
++直播语音房已结束。
+```
+
+#### [`linkrobins-chirp.forum.go_live`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.go_live%22)
+
+> Go live
+
+```diff
++开播
+```
+
+#### [`linkrobins-chirp.forum.hand_declined`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.hand_declined%22)
+
+> Not this time
+
+```diff
++本次未获批准
+```
+
+#### [`linkrobins-chirp.forum.hand_pending`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.hand_pending%22)
+
+> Hand raised…
+
+```diff
++已举手…
+```
+
+#### [`linkrobins-chirp.forum.hands_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.hands_heading%22)
+
+> Hands raised
+
+```diff
++连麦申请
+```
+
+#### [`linkrobins-chirp.forum.in_channel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.in_channel%22)
+
+> {count, plural, one {# in the channel} other {# in the channel}}
+
+```diff
++{count, plural, one {# 人在频道中} other {# 人在频道中}}
+```
+
+#### [`linkrobins-chirp.forum.join_channel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.join_channel%22)
+
+> Join
+
+```diff
++加入
+```
+
+#### [`linkrobins-chirp.forum.join_listen`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.join_listen%22)
+
+> Listen
+
+```diff
++收听
+```
+
+#### [`linkrobins-chirp.forum.kick`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.kick%22)
+
+> Remove from room
+
+```diff
++移出房间
+```
+
+#### [`linkrobins-chirp.forum.leave`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.leave%22)
+
+> Leave
+
+```diff
++离开
+```
+
+#### [`linkrobins-chirp.forum.leave_mic`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.leave_mic%22)
+
+> Leave the stage
+
+```diff
++下麦
+```
+
+#### [`linkrobins-chirp.forum.listeners`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.listeners%22)
+
+> {count, plural, one {# listening} other {# listening}}
+
+```diff
++{count, plural, one {# 人正在收听} other {# 人正在收听}}
+```
+
+#### [`linkrobins-chirp.forum.listening_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.listening_heading%22)
+
+> {count, plural, one {Listening — # person} other {Listening — # people}}
+
+```diff
++{count, plural, one {听众 #} other {听众 #}}
+```
+
+#### [`linkrobins-chirp.forum.live_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.live_badge%22)
+
+> LIVE
+
+```diff
++直播中
+```
+
+#### [`linkrobins-chirp.forum.live_banner`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.live_banner%22)
+
+> This discussion is live right now.
+
+```diff
++此讨论正在直播。
+```
+
+#### [`linkrobins-chirp.forum.live_in`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.live_in%22)
+
+> LIVE in {time}
+
+```diff
++{time} 后开播
+```
+
+#### [`linkrobins-chirp.forum.mic_denied`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.mic_denied%22)
+
+> Your browser blocked the microphone — check the permission and try again.
+
+```diff
++浏览器阻止了麦克风访问，请检查权限后重试。
+```
+
+#### [`linkrobins-chirp.forum.mute`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.mute%22)
+
+> Mute
+
+```diff
++静音
+```
+
+#### [`linkrobins-chirp.forum.muted_hint`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.muted_hint%22)
+
+> You're muted
+
+```diff
++你已静音
+```
+
+#### [`linkrobins-chirp.forum.not_configured`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.not_configured%22)
+
+> Chirp isn't connected yet. An admin needs to paste the channel key in Admin → Chirp.
+>
+
+```diff
++Chirp 尚未连接。管理员需要前往「管理后台 → Chirp」填写频道密钥。
++
+```
+
+#### [`linkrobins-chirp.forum.notifications.scheduled_text`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.notifications.scheduled_text%22)
+
+> {username} scheduled a live room
+
+```diff
++{username} 预约了一场直播
+```
+
+#### [`linkrobins-chirp.forum.notifications.voice_opened_text`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.notifications.voice_opened_text%22)
+
+> {username} opened a voice channel
+
+```diff
++{username} 开启了语音频道
+```
+
+#### [`linkrobins-chirp.forum.notifications.went_live_text`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.notifications.went_live_text%22)
+
+> {username} went live
+
+```diff
++{username} 开播了
+```
+
+#### [`linkrobins-chirp.forum.on_stage`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.on_stage%22)
+
+> {count, plural, one {On stage — # speaker} other {On stage — # speakers}}
+
+```diff
++{count, plural, one {连麦中 #} other {连麦中 #}}
+```
+
+#### [`linkrobins-chirp.forum.participants`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.participants%22)
+
+> Participants
+
+```diff
++参与者
+```
+
+#### [`linkrobins-chirp.forum.policy_hand_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.policy_hand_short%22)
+
+> Raise hand
+
+```diff
++举手上麦
+```
+
+#### [`linkrobins-chirp.forum.policy_op_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.policy_op_short%22)
+
+> Author only
+
+```diff
++仅作者
+```
+
+#### [`linkrobins-chirp.forum.policy_open_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.policy_open_short%22)
+
+> Anyone
+
+```diff
++任何人
+```
+
+#### [`linkrobins-chirp.forum.raise_hand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.raise_hand%22)
+
+> Raise hand
+
+```diff
++举手
+```
+
+#### [`linkrobins-chirp.forum.reconnecting`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.reconnecting%22)
+
+> Reconnecting…
+
+```diff
++正在重新连接…
+```
+
+#### [`linkrobins-chirp.forum.recorded_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.recorded_badge%22)
+
+> RECORDED
+
+```diff
++已录制
+```
+
+#### [`linkrobins-chirp.forum.roster_gone`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.roster_gone%22)
+
+> You left the room.
+
+```diff
++你已离开房间。
+```
+
+#### [`linkrobins-chirp.forum.schedule_cancel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_cancel%22)
+
+> Cancel
+
+```diff
++取消
+```
+
+#### [`linkrobins-chirp.forum.schedule_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_help%22)
+
+> Followers of this discussion get a heads-up, and the discussion shows a countdown until you go live.
+
+```diff
++关注此讨论的用户会收到提醒，讨论页面也会显示开播倒计时。
+```
+
+#### [`linkrobins-chirp.forum.schedule_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_label%22)
+
+> When do you go live?
+
+```diff
++什么时候开播？
+```
+
+#### [`linkrobins-chirp.forum.schedule_live`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_live%22)
+
+> Schedule live
+
+```diff
++预约直播
+```
+
+#### [`linkrobins-chirp.forum.schedule_submit`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_submit%22)
+
+> Schedule
+
+```diff
++预约
+```
+
+#### [`linkrobins-chirp.forum.schedule_title`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_title%22)
+
+> Schedule a live room
+
+```diff
++预约直播语音房
+```
+
+#### [`linkrobins-chirp.forum.schedule_tz`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_tz%22)
+
+> Your timezone: {zone} — everyone else sees the time in theirs.
+
+```diff
++你的时区：{zone}。其他用户会看到按各自时区换算后的时间。
+```
+
+#### [`linkrobins-chirp.forum.settings.notify_room_scheduled_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.settings.notify_room_scheduled_label%22)
+
+> Someone schedules a live room in a discussion I follow
+
+```diff
++我关注的讨论有人预约直播
+```
+
+#### [`linkrobins-chirp.forum.settings.notify_room_started_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.settings.notify_room_started_label%22)
+
+> Someone goes live in a discussion I follow
+
+```diff
++我关注的讨论有人开播
+```
+
+#### [`linkrobins-chirp.forum.speaker_muted`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.speaker_muted%22)
+
+> {name} (muted)
+
+```diff
++{name}（已静音）
+```
+
+#### [`linkrobins-chirp.forum.stage_empty`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.stage_empty%22)
+
+> Nobody on stage right now.
+
+```diff
++暂时无人上麦。
+```
+
+#### [`linkrobins-chirp.forum.starting_soon`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.starting_soon%22)
+
+> Starting soon…
+
+```diff
++即将开始…
+```
+
+#### [`linkrobins-chirp.forum.take_mic`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.take_mic%22)
+
+> Speak
+
+```diff
++上麦
+```
+
+#### [`linkrobins-chirp.forum.unmute`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.unmute%22)
+
+> Unmute
+
+```diff
++取消静音
+```
+
+#### [`linkrobins-chirp.forum.unstage`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.unstage%22)
+
+> Remove from stage
+
+```diff
++移下麦位
+```
+
+#### [`linkrobins-chirp.forum.voice_badge`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.voice_badge%22)
+
+> VOICE
+
+```diff
++语音
+```
+
+#### [`linkrobins-chirp.forum.you`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.forum.you%22)
+
+> (you)
+
+```diff
++（你）
+```
+
+#### [`linkrobins-chirp.lib.error.chirp_channel_busy_message`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.lib.error.chirp_channel_busy_message%22)
+
+> Every channel already has a live room. End one first, or add another channel for more simultaneous rooms.
+
+```diff
++所有 Chirp 频道都已有直播语音房。请先结束其中一场，或添加更多频道以同时运行更多直播。
+```
+
+#### [`linkrobins-chirp.lib.error.chirp_channels_exhausted_message`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.lib.error.chirp_channels_exhausted_message%22)
+
+> Every channel already powers a voice channel — add another channel on linkrobins.com to open more.
+
+```diff
++所有 Chirp 频道都已用于常驻语音频道，请前往 linkrobins.com 添加更多频道。
+```
+
+#### [`linkrobins-chirp.lib.error.chirp_not_configured_message`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.lib.error.chirp_not_configured_message%22)
+
+> Chirp isn't set up on this forum yet — an admin needs to paste the channel key.
+
+```diff
++此论坛尚未配置 Chirp，管理员需要先填写频道密钥。
+```
+
+#### [`linkrobins-chirp.lib.error.chirp_slots_full_message`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.lib.error.chirp_slots_full_message%22)
+
+> Every speaker slot is taken right now — you can keep listening, and grab the mic when someone steps down.
+
+```diff
++当前所有麦位都已占用。你可以继续收听，等有人下麦后再上麦。
+```
+
+#### [`linkrobins-chirp.lib.error.chirp_speak_denied_message`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/zh_Hans/?q=context%3A%3D%22linkrobins-chirp.lib.error.chirp_speak_denied_message%22)
+
+> The host decides who speaks in this room — raise your hand or keep listening.
+
+```diff
++此房间由主持人决定谁可以上麦，请先举手申请或继续收听。
 ```
 
 

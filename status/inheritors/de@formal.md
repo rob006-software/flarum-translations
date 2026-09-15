@@ -2669,7 +2669,7 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 
 #### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/de@formal/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
 
-> Are you sure you want to delete this link?
+> Are you sure you want to delete “{title}”?
 
 ```diff
 -Bist du sicher, dass du diesen Link löschen möchtest?

@@ -2,7 +2,7 @@
 
 Translations for Swedish (`sv`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **195** are translated differently and **714** are
+sides, but do not match between them: **195** are translated differently and **701** are
 translated only in `sv`. Altogether they cover **30** components.
 
 <!-- {% raw %} -->
@@ -34,7 +34,7 @@ translated only in `sv`. Altogether they cover **30** components.
 | `fof-anti-spam` | 0 | [56](#fof-anti-spam-missing) |
 | `fof-formatting` | 0 | [7](#fof-formatting-missing) |
 | `fof-ignore-users` | 0 | [9](#fof-ignore-users-missing) |
-| `fof-links` | 0 | [28](#fof-links-missing) |
+| `fof-links` | 0 | [15](#fof-links-missing) |
 | `fof-merge-discussions` | 0 | [23](#fof-merge-discussions-missing) |
 | `fof-moderator-notes` | 0 | [18](#fof-moderator-notes-missing) |
 | `fof-moderator-warnings` | 0 | [30](#fof-moderator-warnings-missing) |
@@ -6420,22 +6420,6 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ### `fof-links` (missing)
 
-#### [`fof-links.admin.edit_link.delete_link_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_button%22)
-
-> Delete Link
-
-```diff
-+Ta bort länk
-```
-
-#### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
-
-> Are you sure you want to delete this link?
-
-```diff
-+Är du säker på att du vill ta bort den här länken?
-```
-
 #### [`fof-links.admin.edit_link.icon_additional_text`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.icon_additional_text%22)
 
 > If you want to use a brand icon, the prefix is &lt;code&gt;fab fa-&lt;/code&gt; instead.
@@ -6458,22 +6442,6 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ```diff
 +=> core.ref.icon_text
-```
-
-#### [`fof-links.admin.edit_link.internal_link`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.internal_link%22)
-
-> Is it an internal link?
-
-```diff
-+Är det en intern länk?
-```
-
-#### [`fof-links.admin.edit_link.open_newtab`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.open_newtab%22)
-
-> Open link in new tab
-
-```diff
-+Öppna länk i ny flik
 ```
 
 #### [`fof-links.admin.edit_link.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.submit_button%22)
@@ -6508,76 +6476,12 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 +=> fof-links.ref.title
 ```
 
-#### [`fof-links.admin.edit_link.url_description`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_description%22)
-
-> Leave blank to show as a label.
-
-```diff
-+Lämna tomt för att visa som en etikett.
-```
-
 #### [`fof-links.admin.edit_link.url_label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_label%22)
 
 > =&gt; fof-links.ref.url
 
 ```diff
 +=> fof-links.ref.url
-```
-
-#### [`fof-links.admin.edit_link.url_placeholder`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.url_placeholder%22)
-
-> =&gt; fof-links.ref.url
-
-```diff
-+=> fof-links.ref.url
-```
-
-#### [`fof-links.admin.edit_link.use_rel_me`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.use_rel_me%22)
-
-> Add &lt;code&gt;rel="me"&lt;/code&gt; attribute for identity verification on other sites
-
-```diff
-+Lägg till attributet <code>rel="me"</code> för identitetsverifiering på andra webbplatser
-```
-
-#### [`fof-links.admin.edit_link.visibility.guest-only.help`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.help%22)
-
-> Only {guest} can see this link. The permission above should be set to '{everyone}'.
-
-```diff
-+Endast {guest} kan se den här länken. Behörigheten ovan borde vara inställd på ”{everyone}”.
-```
-
-#### [`fof-links.admin.edit_link.visibility.guest-only.label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.guest-only.label%22)
-
-> {guest} only?
-
-```diff
-+Endast {guest}?
-```
-
-#### [`fof-links.admin.edit_link.visibility.help`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help%22)
-
-> Links by default are visible to only &lt;code&gt;{admin}&lt;/code&gt; users. Adjust the permissions to specify who can see this link.
-
-```diff
-+Som standard är länkar endast synliga för användare med rollen <code>{admin}</code>. Justera behörigheterna för att ange vilka som kan se länken.
-```
-
-#### [`fof-links.admin.edit_link.visibility.help-disabled`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.help-disabled%22)
-
-> Save the link before changing visibility settings.
-
-```diff
-+Spara länken innan du ändrar synlighetsinställningarna.
-```
-
-#### [`fof-links.admin.edit_link.visibility.label`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.edit_link.visibility.label%22)
-
-> Link visibility
-
-```diff
-+Länksynlighet
 ```
 
 #### [`fof-links.admin.links.create_button`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.links.create_button%22)
@@ -6594,14 +6498,6 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 ```diff
 +=> fof-links.ref.links
-```
-
-#### [`fof-links.admin.links.preconfigured`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.links.preconfigured%22)
-
-> The links on this forum have been preconfigured and cannot be edited here.
-
-```diff
-+Länkarna på detta forum är förkonfigurerade och kan inte redigeras här.
 ```
 
 #### [`fof-links.admin.settings.show_icons_only_on_tablet`](https://weblate.rob006.net/translate/flarum2/fof-links/sv/?q=context%3A%3D%22fof-links.admin.settings.show_icons_only_on_tablet%22)

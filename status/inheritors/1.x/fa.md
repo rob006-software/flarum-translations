@@ -2,8 +2,8 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **9** are translated differently and **175** are
-translated only in `fa`. Altogether they cover **62** components.
+sides, but do not match between them: **9** are translated differently and **177** are
+translated only in `fa`. Altogether they cover **63** components.
 
 <!-- {% raw %} -->
 
@@ -59,6 +59,7 @@ translated only in `fa`. Altogether they cover **62** components.
 | `ianm-oauth-reddit` | 0 | [1](#ianm-oauth-reddit-missing) |
 | `ianm-twofactor` | 0 | [1](#ianm-twofactor-missing) |
 | `justoverclock-welcomebox` | 0 | [1](#justoverclock-welcomebox-missing) |
+| `linkrobins-chirp` | 0 | [2](#linkrobins-chirp-missing) |
 | `pianotell-flamoji` | 0 | [33](#pianotell-flamoji-missing) |
 | `quasimo-carousel-grids` | 0 | [1](#quasimo-carousel-grids-missing) |
 | `quasimo-tag-sidebar` | 0 | [2](#quasimo-tag-sidebar-missing) |
@@ -1228,6 +1229,25 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +تنظیمات
+```
+
+
+### `linkrobins-chirp` (missing)
+
+#### [`linkrobins-chirp.admin.appearance_brand`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/fa/?q=context%3A%3D%22linkrobins-chirp.admin.appearance_brand%22)
+
+> Default
+
+```diff
++پیش‌فرض
+```
+
+#### [`linkrobins-chirp.forum.schedule_cancel`](https://weblate.rob006.net/translate/flarum2/linkrobins-chirp/fa/?q=context%3A%3D%22linkrobins-chirp.forum.schedule_cancel%22)
+
+> Cancel
+
+```diff
++لغو
 ```
 
 

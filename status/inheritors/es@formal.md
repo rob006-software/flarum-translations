@@ -1473,7 +1473,7 @@ Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 #### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/es@formal/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
 
-> Are you sure you want to delete this link?
+> Are you sure you want to delete “{title}”?
 
 ```diff
 -¿Estás seguro de que quieres eliminar este enlace?
