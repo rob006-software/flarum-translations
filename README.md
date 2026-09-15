@@ -1048,6 +1048,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum2/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
 | [`linkrobins-chirp`](https://weblate.rob006.net/projects/flarum2/linkrobins-chirp) | [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp) |
 | [`linkrobins-forage`](https://weblate.rob006.net/projects/flarum2/linkrobins-forage) | [`linkrobins/flarum-forage`](https://github.com/linkrobins/flarum-forage) |
+| [`linkrobins-swoop`](https://weblate.rob006.net/projects/flarum2/linkrobins-swoop) | [`linkrobins/flarum-swoop`](https://github.com/linkrobins/flarum-swoop) |
 | [`linkrobins-warble`](https://weblate.rob006.net/projects/flarum2/linkrobins-warble) | [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) |
 | [`linkrobins-font-sizer`](https://weblate.rob006.net/projects/flarum2/linkrobins-font-sizer) | [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
