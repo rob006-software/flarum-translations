@@ -9,7 +9,7 @@
                 "ban_ip_no_users": "Yasaklanmış kimse bulunmuyor"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "IP ile yasaklandı"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -49,7 +49,7 @@
                 "save_button": "Kaydet",
                 "ban_ip_confirmation": "Bu IP adresinin foruma erişimini yasaklamak istiyor musunuz? Bu IP'yi kullanan kullanıcılar artık foruma erişim sağlayamaz.",
                 "ban_ip_users": "{count, plural, one {Toplam {users} kullanıcı yasaklanacak} other {Toplam {users} kullanıcı yasaklanacak}}",
-                "unban_ip_confirmation": "Bu IP adresinin foruma erişim yasağını kaldırmak istiyor musunuz? Bu IP'yi kullanan kullanıcılar artık foruma erişebilir.",
+                "unban_ip_confirmation": "Bu kullanıcının ve farklı bir IP üzerinden yasaklanmamış olan diğer kullanıcıların yasağını kaldırmak istediğinize emin misiniz?",
                 "unban_options_only_ip": "Yalnızca mevcut IP'nin yasağını kaldır (<code>{ip}</code>)",
                 "unban_options_all_ip": "<i>{username}</i> tarafından kullanılan tüm IP'lerin yasağını kaldır",
                 "unban_ip_no_users": "Yasaklanmamış kullanıcı yok",
@@ -60,10 +60,10 @@
             }
         },
         "ref": {
-            "ban_label": "",
+            "ban_label": "IP ile Yasakla",
             "ban_ip_addresses": "IP'leri yasakla",
             "ban_ip_button": "IP Yasakla",
-            "unban_label": "",
+            "unban_label": "IP Yasağını Kaldır",
             "unban_ip_addresses": "IP Yasaklarını Kaldır",
             "unban_ip_button": "IP Yasağını Kaldır",
             "address_label": "IP Adres",
@@ -84,8 +84,8 @@
         "lib": {
             "browser": {
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "{ip} IP adresini yasakladı",
+                    "unbanned": "{ip} IP adresinin yasağı kaldırdı"
                 }
             }
         }
