@@ -12,11 +12,11 @@
                 "selected_category_count": "{count, plural, one {Bạn đã chọn # danh mục} other {Bạn đã chọn # danh mục}}",
                 "select_categories_button": "Chọn danh mục blog",
                 "categories_modal": {
-                    "description": "",
-                    "visit_blog": "",
-                    "tag_name_column": "",
-                    "no_tags": "",
-                    "close": ""
+                    "description": "Vui lòng chọn một hoặc nhiều thẻ được xem là thẻ blog.",
+                    "visit_blog": "Ghé thăm blog của bạn.",
+                    "tag_name_column": "Tên thẻ",
+                    "no_tags": "Hiện bạn chưa có thẻ nào.",
+                    "close": "Đóng"
                 },
                 "blog_heading": "Blog",
                 "featured_count_label": "Số lượng bài viết nổi bật tối đa",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Hiển thị phân cấp thẻ",
                 "show_tag_hierarchy_text": "Thêm khoảng cách cho các danh mục con và tạo phân cấp cho danh sách danh mục.",
                 "redirects_heading": "Chuyển hướng",
-                "redirects_text": "",
+                "redirects_text": "Chuyển hướng URL gốc của cuộc thảo luận và thẻ sang URL tương ứng bên blog.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Chuyển hướng cả bài viết và thẻ",
+                    "discussions_only": "Chỉ chuyển hướng bài viết",
+                    "tags_only": "Chỉ chuyển hướng thẻ",
+                    "none": "Không chuyển hướng"
                 },
                 "default_article_image_label": "Hình ảnh bài viết mặc định",
                 "default_article_image_text": "Chọn một hình ảnh bài viết mặc định để hiển thị khi không có hình ảnh nào được đặt.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "blog"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "Đã tạo bài blog {discussion}",
+                    "approved": "Đã duyệt bài blog {discussion}",
+                    "updated": "Đã cập nhật thông tin bài blog {discussion}",
+                    "featured": "Đã đưa bài blog {discussion} lên nổi bật",
+                    "unfeatured": "Đã bỏ nổi bật bài blog {discussion}"
                 }
             }
         }

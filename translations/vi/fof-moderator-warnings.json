@@ -30,7 +30,7 @@
                 "warning_button": "Cảnh báo người dùng"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Cảnh cáo"
             },
             "settings": {
                 "warning_notification_label": "Điều hành viên cảnh báo tôi"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Cảnh báo của điều hành viên: Không nhận cảnh cáo nào"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# lỗi, {time}} other {# lỗi, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# lỗi, {time} (đã gỡ)} other {# lỗi, {time} (đã gỡ)}}",
                 "public_comment": "Cảnh báo",
                 "private_comment": "Nhận xét chỉ hiển thị với điều hành viên",
                 "linked_post": "Bài viết được liên kết"
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "Đã cảnh cáo {username}",
+                    "hidden": "Đã gỡ cảnh cáo của {username}",
+                    "restored": "Đã khôi phục cảnh cáo của {username}",
+                    "deleted": "Đã xóa vĩnh viễn cảnh cáo của {username}"
                 }
             }
         }

@@ -3,7 +3,7 @@
         "forum": {
             "modal": {
                 "title": "Hợp nhất cuộc thảo luận",
-                "search_discussions_placeholder": "",
+                "search_discussions_placeholder": "Tìm cuộc thảo luận...",
                 "ordering_heading": "Thứ tự hợp nhất",
                 "ordering_date_label": "Hợp nhất các bài viết theo ngày tạo",
                 "ordering_date_help": "Các bài viết trong thảo luận sau khi hợp nhất sẽ được sắp xếp lại theo ngày tạo của từng bài",
@@ -11,14 +11,14 @@
                 "ordering_suffix_help": "Các bài viết được hợp nhất vào thảo luận được giữ lại sẽ được thêm vào cuối thảo luận",
                 "type_heading": "Kiểu hợp nhất",
                 "type_target_label": "Hợp nhất vào thảo luận này",
-                "type_target_help_text": "",
+                "type_target_help_text": "Hãy chọn (các) cuộc thảo luận để gộp vào {title}.",
                 "type_from_label": "Hợp nhất thảo luận này vào một thảo luận khác",
-                "type_from_help_text": "",
+                "type_from_help_text": "Hãy chọn cuộc thảo luận đích để gộp {title} vào đó.",
                 "load_preview_button": "Xem trước",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Cuộc thảo luận {oldTitle} của bạn đã được {username} gộp vào cuộc thảo luận này.",
                 "preferences": {
                     "discussion_merged": "Ai đó gộp một thảo luận của tôi với thảo luận khác"
                 }
@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {Đã gộp 1 bài viết từ {titles}.} other {Đã gộp {count} bài viết từ {titles}.}}"
             }
         },
         "admin": {
@@ -53,7 +53,7 @@
         },
         "email": {
             "merged": {
-                "body": "",
+                "body": "Cuộc thảo luận {merged_discussion_title} của bạn đã được {actor_display_name} gộp vào {discussion_title}.\n\nXem tại đây {discussion_url} .\n",
                 "subject": "Cuộc thảo luận \"{merged_discussion_title}\" của bạn đã được hợp nhất"
             }
         }
@@ -62,8 +62,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "merged_away": "",
-                    "merged_into": ""
+                    "merged_away": "Đã gộp {discussion} vào {new_discussion}",
+                    "merged_into": "Đã gộp {post_count} bài viết từ {original_discussion_ids_count} cuộc thảo luận vào {discussion}"
                 }
             }
         }

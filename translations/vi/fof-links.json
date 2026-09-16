@@ -3,37 +3,37 @@
         "admin": {
             "edit_link": {
                 "title": "=> fof-links.ref.create_link",
-                "title_child": "",
+                "title_child": "Liên kết mới dưới {parent}",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "Nếu bạn muốn sử dụng biểu tượng thương hiệu, thay vào đó, tiền tố là <code>fab fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Liên kết này làm gì",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Dẫn tới một trang trên diễn đàn này",
+                        "help": "Mở ra mà không cần tải lại trang."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Dẫn tới một trang khác",
+                        "help": "Mở một địa chỉ bên ngoài diễn đàn này."
                     },
                     "label": {
-                        "label": "",
-                        "help": ""
+                        "label": "Không dẫn đi đâu",
+                        "help": "Hiển thị như một nhãn. Hãy dùng nó để đặt tên cho một nhóm liên kết."
                     }
                 },
                 "url_label": "=> fof-links.ref.url",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "Phần địa chỉ nằm sau {baseUrl}, bắt đầu bằng một dấu gạch chéo.",
+                    "external": "Địa chỉ đầy đủ, gồm cả <code>https://</code>."
                 },
                 "url_placeholder": "=> fof-links.ref.url",
-                "options_label": "",
+                "options_label": "Tùy chọn",
                 "open_newtab": "Mở liên kết trong tab mới",
                 "use_rel_me": "Thêm thuộc tính <code>rel=\"me\"</code> để xác minh danh tính trên các trang web khác",
-                "use_rel_me_help": "",
+                "use_rel_me_help": "Cho phép trang bạn liên kết tới xác minh rằng diễn đàn này là của bạn.",
                 "visibility": {
                     "label": "Hiển thị liên kết",
                     "help": "Theo mặc định, liên kết chỉ hiển thị với người dùng <code>{admin}</code>. Điều chỉnh quyền để chỉ định ai có thể xem liên kết này.",
@@ -46,40 +46,40 @@
                 "submit_button": "=> core.ref.save_changes",
                 "delete_link_button": "Xóa liên kết",
                 "delete_link_confirmation": "Bạn có chắc chắn muốn xóa liên kết này không?",
-                "url_placeholder.internal": "",
-                "url_placeholder.external": "",
+                "url_placeholder.internal": "/tags",
+                "url_placeholder.external": "https://example.com",
                 "internal_link": "Đây có phải là liên kết nội bộ?",
                 "url_description": "Để trống để hiện dưới dạng nhãn."
             },
             "links": {
                 "links": "=> fof-links.ref.links",
-                "description": "",
+                "description": "Những liên kết này xuất hiện trong phần điều hướng của diễn đàn, theo đúng thứ tự được liệt kê ở đây.",
                 "create_button": "=> fof-links.ref.create_link",
                 "preconfigured": "Các liên kết trên diễn đàn này đã được cấu hình sẵn và không thể chỉnh sửa ở đây.",
-                "no_url": "",
-                "reorder_help": "",
-                "reorder_loading": "",
-                "reorder_accessible_label": "",
-                "edit_accessible_label": "",
-                "add_child_accessible_label": "",
-                "audience_everyone": "",
+                "no_url": "Không có liên kết, hiển thị như một nhãn",
+                "reorder_help": "Hãy kéo một liên kết bằng tay cầm của nó để sắp xếp lại, hoặc thả nó lên một liên kết khác để lồng vào bên dưới. Khi tay cầm đang được chọn, các phím mũi tên cũng làm điều tương tự.",
+                "reorder_loading": "Đang chuẩn bị danh sách để sắp xếp lại…",
+                "reorder_accessible_label": "Sắp xếp lại {title}. Hãy dùng phím mũi tên để đưa nó lên, xuống, vào trong liên kết phía trên, hoặc ra ngoài trở lại.",
+                "edit_accessible_label": "Chỉnh sửa {title}",
+                "add_child_accessible_label": "Thêm một liên kết dưới {title}",
+                "audience_everyone": "Ai cũng nhìn thấy",
                 "flag": {
-                    "new_tab": "",
-                    "rel_me": "",
-                    "guest_only": ""
+                    "new_tab": "Tab mới",
+                    "rel_me": "rel=\"me\"",
+                    "guest_only": "Chỉ khách"
                 },
-                "moved": "",
-                "moved_under": ""
+                "moved": "{title} đã chuyển tới vị trí {position} trong {total}.",
+                "moved_under": "{title} đã chuyển xuống dưới {parent}, vị trí {position} trong {total}."
             },
             "settings": {
-                "heading": "",
+                "heading": "Cài đặt",
                 "show_icons_only_on_tablet": "Chỉ hiển thị biểu tượng trên màn hình máy tính bảng",
-                "show_icons_only_on_tablet_help": ""
+                "show_icons_only_on_tablet_help": "Ẩn tiêu đề liên kết ở độ rộng từ 768px đến 991px, nơi phần điều hướng có ít chỗ nhất. Trình đọc màn hình vẫn đọc các tiêu đề đó."
             }
         },
         "forum": {
             "header": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Hiện các liên kết dưới {title}"
             }
         },
         "ref": {

@@ -2,121 +2,121 @@
     "forumaker-friendship": {
         "lib": {
             "errors": {
-                "user_not_found": "",
-                "request_not_found": "",
-                "not_friends": "",
-                "self_request": "",
-                "already_friends": ""
+                "user_not_found": "Không tìm thấy người dùng",
+                "request_not_found": "Không tìm thấy lời mời kết bạn",
+                "not_friends": "Bạn chưa kết bạn với người dùng này",
+                "self_request": "Không thể gửi lời mời kết bạn cho chính mình",
+                "already_friends": "Bạn đã là bạn bè với người dùng này"
             }
         },
         "forum": {
             "user": {
-                "friends_tab": "",
-                "friends_count": "",
-                "requests_btn": "",
-                "requests_btn_count": "",
-                "no_friends": "",
-                "friends_hidden": "",
-                "friends_since": "",
-                "load_more": ""
+                "friends_tab": "Bạn bè",
+                "friends_count": "{count, plural, one {# người bạn} other {# người bạn}}",
+                "requests_btn": "Yêu cầu",
+                "requests_btn_count": "{count, plural, one {# lời mời} other {# lời mời}}",
+                "no_friends": "Chưa có người bạn nào",
+                "friends_hidden": "Danh sách bạn bè đang được ẩn",
+                "friends_since": "Bạn bè từ {date}",
+                "load_more": "Tải thêm"
             },
             "dropdown": {
-                "add_friend_btn": "",
-                "cancel_request_btn": "",
-                "remove_friend_btn": ""
+                "add_friend_btn": "Kết bạn",
+                "cancel_request_btn": "Hủy lời mời kết bạn",
+                "remove_friend_btn": "Hủy kết bạn"
             },
             "add_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "Kết bạn",
+                "text": "Gửi lời mời kết bạn cho {username}?",
+                "confirm_btn": "Kết bạn",
+                "cancel_btn": "Hủy",
+                "success": "Đã gửi lời mời kết bạn"
             },
             "pending_modal": {
-                "text": "",
-                "accept_btn": "",
-                "decline_btn": ""
+                "text": "Người dùng này đã gửi lời mời kết bạn cho bạn trước rồi",
+                "accept_btn": "Kết bạn",
+                "decline_btn": "Từ chối"
             },
             "cancel_request_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": ""
+                "title": "Hủy lời mời kết bạn",
+                "text": "Hủy lời mời kết bạn bạn đã gửi cho {username}?",
+                "confirm_btn": "Thôi, không kết bạn nữa",
+                "cancel_btn": "Giữ nguyên"
             },
             "remove_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "Hủy kết bạn",
+                "text": "Xóa {username} khỏi danh sách bạn bè?",
+                "confirm_btn": "Xóa",
+                "cancel_btn": "Đừng xóa",
+                "success": "Hai bạn không còn là bạn bè"
             },
             "requests_modal": {
-                "title": "",
-                "incoming_tab": "",
-                "outgoing_tab": "",
-                "history_btn": "",
-                "search_placeholder": "",
-                "no_incoming": "",
-                "no_outgoing": "",
-                "accept_btn": "",
-                "decline_btn": "",
-                "cancel_btn": "",
-                "cancel_success": "",
-                "accept_success": ""
+                "title": "Lời mời kết bạn",
+                "incoming_tab": "Đến — {count}",
+                "outgoing_tab": "Đã gửi — {count}",
+                "history_btn": "Lịch sử",
+                "search_placeholder": "Tìm kiếm theo tên",
+                "no_incoming": "Không có lời mời nào đến",
+                "no_outgoing": "Không có lời mời nào đã gửi",
+                "accept_btn": "Chấp nhận",
+                "decline_btn": "Từ chối",
+                "cancel_btn": "Hủy",
+                "cancel_success": "Đã hủy lời mời",
+                "accept_success": "Hai bạn giờ đã là bạn bè"
             },
             "history_modal": {
-                "title": "",
-                "empty": "",
-                "load_more": ""
+                "title": "Lịch sử",
+                "empty": "Chưa có lịch sử nào",
+                "load_more": "Tải thêm"
             },
             "history": {
-                "requested_self": "",
-                "requested_other": "",
-                "cancelled_self": "",
-                "cancelled_other": "",
-                "accepted_self": "",
-                "accepted_other": "",
-                "declined_self": "",
-                "declined_other": "",
-                "removed_self": "",
-                "removed_other": ""
+                "requested_self": "Bạn đã gửi lời mời kết bạn cho {username}",
+                "requested_other": "{username} đã gửi cho bạn lời mời kết bạn",
+                "cancelled_self": "Bạn đã đổi ý về {username}",
+                "cancelled_other": "{username} đã hủy lời mời của họ",
+                "accepted_self": "Bạn đã chấp nhận lời mời của {username}",
+                "accepted_other": "{username} đã chấp nhận lời mời của bạn",
+                "declined_self": "Bạn đã từ chối lời mời của {username}",
+                "declined_other": "{username} đã từ chối lời mời của bạn",
+                "removed_self": "Bạn đã xóa {username} khỏi danh sách bạn bè",
+                "removed_other": "{username} đã xóa bạn khỏi danh sách bạn bè"
             },
             "notifications": {
-                "requested_text": "",
-                "removed_text": "",
-                "declined_text": ""
+                "requested_text": "{name} muốn kết bạn với bạn",
+                "removed_text": "{name} đã xóa bạn khỏi danh sách bạn bè",
+                "declined_text": "{name} đã từ chối lời mời kết bạn của bạn"
             },
             "settings": {
-                "section_label": "",
-                "show_on_usercard": "",
-                "show_in_posts": "",
-                "notify_requested_label": "",
-                "notify_removed_label": "",
-                "notify_declined_label": ""
+                "section_label": "Bạn bè",
+                "show_on_usercard": "Hiển thị số bạn bè cạnh ảnh đại diện trên trang cá nhân",
+                "show_in_posts": "Hiển thị số bạn bè cạnh ảnh đại diện trong bài viết",
+                "notify_requested_label": "Có người gửi cho tôi lời mời kết bạn",
+                "notify_removed_label": "Có người xóa tôi khỏi danh sách bạn bè",
+                "notify_declined_label": "Có người từ chối lời mời kết bạn của tôi"
             }
         },
         "admin": {
             "sections": {
-                "badges": "",
-                "history": ""
+                "badges": "Huy hiệu",
+                "history": "Lịch sử"
             },
             "settings": {
-                "badges_intro": "",
-                "show_badge_on_usercard": "",
-                "show_badge_on_usercard_help": "",
-                "show_badge_on_post": "",
-                "show_badge_on_post_help": "",
-                "badge_color": "",
-                "badge_bg_color": "",
-                "event_retention_intro": "",
-                "event_retention_days": "",
-                "event_retention_days_help": ""
+                "badges_intro": "Ở những chỗ được bật, người dùng sẽ tự điều chỉnh được trong cài đặt của họ",
+                "show_badge_on_usercard": "Hiển thị số bạn bè cạnh ảnh đại diện trên trang cá nhân",
+                "show_badge_on_usercard_help": "Được hiển thị cạnh trạng thái trực tuyến / ngày tham gia trên thẻ hồ sơ",
+                "show_badge_on_post": "Hiển thị số bạn bè cạnh ảnh đại diện trong bài viết",
+                "show_badge_on_post_help": "Được hiển thị cạnh ảnh đại diện ở phần đầu bài viết",
+                "badge_color": "Màu và biểu tượng trên trang cá nhân",
+                "badge_bg_color": "Màu nền trong bài viết",
+                "event_retention_intro": "Các mục lịch sử lời mời cũ được dọn tự động mỗi ngày một lần",
+                "event_retention_days": "Giữ lịch sử trong (ngày)",
+                "event_retention_days_help": "Đặt 0 để tắt việc dọn dẹp — lịch sử sẽ được giữ mãi mãi"
             },
             "permissions": {
-                "add_friends": "",
-                "view_others": "",
-                "moderate": "",
-                "manage": ""
+                "add_friends": "Kết bạn",
+                "view_others": "Xem danh sách bạn bè của người khác",
+                "moderate": "Kiểm duyệt quan hệ bạn bè",
+                "manage": "Quản lý quan hệ bạn bè"
             }
         }
     }

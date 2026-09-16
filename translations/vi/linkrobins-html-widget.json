@@ -2,15 +2,15 @@
     "linkrobins-html-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": "",
-                "background_label": "",
-                "background_help": ""
+                "title_label": "Tiêu đề",
+                "title_help": "Không bắt buộc. Hiển thị phía trên phần nội dung. Để trống để không có tiêu đề.",
+                "title_placeholder": "Chào mừng đến với cộng đồng của chúng tôi!",
+                "icon_label": "Lớp biểu tượng",
+                "icon_help": "Lớp FontAwesome hiển thị cạnh tiêu đề (ví dụ fas fa-bullhorn). Để trống để không có biểu tượng.",
+                "body_label": "Nội dung HTML",
+                "body_help": "HTML thô, được làm sạch trước khi hiển thị -- các thẻ script, thuộc tính xử lý sự kiện, URL javascript: và những phần tử không an toàn như iframe đều bị loại bỏ.",
+                "background_label": "Màu nền",
+                "background_help": "Không bắt buộc. Màu nền của tiện ích con. Để trống để đi theo giao diện của bạn."
             }
         }
     }

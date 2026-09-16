@@ -27,9 +27,9 @@
                 "no_files": "Chưa có ảnh nào được tải lên.",
                 "delete": "Xóa",
                 "confirm_delete": "Xóa ảnh này?",
-                "delete_modal_title": "",
-                "delete_modal_cancel": "",
-                "delete_modal_error": "",
+                "delete_modal_title": "Xóa ảnh dự phòng",
+                "delete_modal_cancel": "Hủy",
+                "delete_modal_error": "Không xóa được hình ảnh. Vui lòng thử lại.",
                 "clear_selection": "Không chọn ảnh nào",
                 "not_active_mode": "Những ảnh này chỉ được sử dụng khi chế độ dự phòng được đặt là \"Ảnh tùy chỉnh đã tải lên\"."
             },
@@ -44,21 +44,21 @@
     },
     "tryhackx-avatars": {
         "admin": {
-            "title": "",
-            "help": "",
-            "thumbs_inactive": "",
-            "save_error": "",
-            "device_desktop": "",
-            "device_mobile": "",
-            "mode_show": "",
-            "mode_with_image": "",
-            "mode_always": "",
-            "mode_hide": "",
-            "hint_show": "",
-            "hint_hide": "",
-            "hint_with_image": "",
-            "hint_always": "",
-            "hint_replace_no_thumbs": ""
+            "title": "Ảnh đại diện trong danh sách thảo luận",
+            "help": "Hãy chọn cách hoạt động của ảnh đại diện tác giả trong danh sách thảo luận, riêng cho máy tính và điện thoại. Đây là một cài đặt dùng chung — đổi ở đây thì nó cũng đổi trong Thumb Sliders / Topic Rating, tùy tiện ích nào bạn đã cài.",
+            "thumbs_inactive": "Thumb Sliders chưa được bật, nên không có ảnh thu nhỏ nào để thay cho ảnh đại diện. Các tùy chọn \"thay thế\" bên dưới sẽ hoạt động như \"Hiện ảnh đại diện\" — hãy dùng \"Ẩn ảnh đại diện\" để bỏ ảnh đại diện đi (ví dụ để danh sách nhẹ hơn trên điện thoại).",
+            "save_error": "Không lưu được cài đặt ảnh đại diện. Vui lòng thử lại.",
+            "device_desktop": "Máy tính",
+            "device_mobile": "Di động",
+            "mode_show": "Hiện ảnh đại diện",
+            "mode_with_image": "Thay bằng ảnh thu nhỏ khi chủ đề có hình ảnh",
+            "mode_always": "Luôn thay bằng ảnh thu nhỏ",
+            "mode_hide": "Ẩn ảnh đại diện",
+            "hint_show": "Ảnh đại diện của tác giả luôn được hiển thị.",
+            "hint_hide": "Ảnh đại diện không bao giờ hiện ra. Nếu có ảnh thu nhỏ thì nó thế chỗ; nếu không thì dòng đó đơn giản là không có ảnh đại diện.",
+            "hint_with_image": "Ảnh thu nhỏ chỉ thay cho ảnh đại diện khi chủ đề có hình ảnh thật; nếu không thì ảnh đại diện được hiển thị.",
+            "hint_always": "Ảnh thu nhỏ (hoặc ảnh dự phòng đã cấu hình của nó) luôn thay cho ảnh đại diện; những chủ đề hoàn toàn không có ảnh thu nhỏ thì vẫn giữ ảnh đại diện.",
+            "hint_replace_no_thumbs": "Thumb Sliders chưa được bật, nên ảnh đại diện vẫn hiện như thường. Hãy cài/bật Thumb Sliders để thay nó bằng ảnh thu nhỏ, hoặc chọn \"Ẩn ảnh đại diện\"."
         }
     }
 }

@@ -3,7 +3,7 @@
         "admin": {
             "nav": {
                 "pwa_button": "Progressive Web App",
-                "pwa_text": ""
+                "pwa_text": "Cấu hình Flarum để chạy như một Progressive Web App, có thể cài đặt trên thiết bị di động."
             },
             "pwa": {
                 "about": {
@@ -13,71 +13,71 @@
                     "long_name_text": "Tên của ứng dụng web hiển thị cho người dùng.",
                     "heading": "Giới thiệu",
                     "short_name_label": "Tên ngắn",
-                    "short_name_text": ""
+                    "short_name_text": "Tên của ứng dụng hiển thị cho người dùng khi không đủ chỗ cho tên đầy đủ."
                 },
                 "colors": {
                     "heading": "Màu sắc",
                     "background_color_label": "Màu nền",
-                    "background_color_text": "",
+                    "background_color_text": "Màu này được dùng làm màu tạm cho màn hình khởi động hiển thị trong lúc PWA của bạn đang tải. Nó không được dùng khi ứng dụng đã tải xong.",
                     "theme_color_label": "Màu chủ đề",
-                    "theme_color_text": ""
+                    "theme_color_text": "Màu này đôi khi được thiết bị sử dụng khi hiển thị ứng dụng của bạn, ví dụ ở trình chuyển ứng dụng của Android, làm màu bao quanh trang web."
                 },
                 "maintenance": {
                     "heading": "Bảo trì",
-                    "debug_label": "",
+                    "debug_label": "Bật chế độ gỡ lỗi",
                     "debug_text": "Tùy chọn này sẽ ghi thông tin về thông báo vào `storage/logs`. Thông thường nên tắt để tránh làm đầy nhật ký một cách không cần thiết.",
-                    "reset_vapid_button": "",
-                    "reset_vapid_text": "",
+                    "reset_vapid_button": "Đặt lại khóa VAPID",
+                    "reset_vapid_text": "Thao tác này sẽ tạo lại khóa VAPID và xóa mọi đăng ký hiện có đang dùng khóa VAPID hiện tại.",
                     "reset_vapid_confirm": "Việc đặt lại khóa VAPID sẽ xóa mọi đăng ký đang dùng khóa hiện có, nên người dùng sẽ không nhận được thông báo nào cho đến lần truy cập trang web tiếp theo. Chỉ nên làm điều này khi thiết lập thông báo đẩy lần đầu, hoặc khi thông báo đẩy hoàn toàn không hoạt động và phía trên có cảnh báo về việc thiếu khóa VAPID.",
                     "reset_vapid_success": "Đã đặt lại khóa VAPID thành công. {count} đăng ký đã được đặt lại. Hãy tải lại trang để xem báo cáo kiểm tra trạng thái mới nhất."
                 },
                 "firebase_config": {
                     "heading": "Firebase",
-                    "help_text": "",
-                    "upload_successful": "",
+                    "help_text": "Để hỗ trợ thông báo đẩy khi phát hành ứng dụng của bạn trên Apple App Store, bạn cần dùng Firebase để thêm thông báo đẩy vào ứng dụng. Hãy tạo tệp Firebase Service Config và tải lên tại đây. <a>Xem tài liệu</a>.",
+                    "upload_successful": "Tệp cấu hình Firebase của bạn đã được tải lên thành công.",
                     "upload_file": "Tải tệp lên"
                 },
                 "other": {
                     "heading": "Khác",
-                    "force_portrait_text": "",
-                    "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": "",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": "",
-                    "push_notification_ttl_label": "",
-                    "push_notification_ttl_text": "",
+                    "force_portrait_text": "Buộc hiển thị theo chiều dọc",
+                    "push_notif_preference_default_to_email_label": "Mặc định tùy chọn thông báo đẩy theo email",
+                    "push_notif_preference_default_to_email_text": "Nếu bật, người dùng sẽ mặc định được bật thông báo đẩy cho tất cả các loại thông báo vốn được bật thông báo email theo mặc định. Nếu tắt, người dùng sẽ mặc định bị tắt thông báo đẩy.",
+                    "window_controls_overlay_label": "Bật Window Controls Overlay",
+                    "window_controls_overlay_text": "Nếu bật, người dùng sẽ có trải nghiệm đắm chìm và gần với ứng dụng gốc hơn nhờ ẩn thanh tiêu đề của hệ thống. Việc Window Controls Overlay có thực sự được áp dụng hay không phụ thuộc vào tùy chọn của người dùng và khả năng tương thích của trình duyệt. Sau khi bật, bạn phải tùy chỉnh thanh tiêu đề bằng CSS/JS, nếu không các nút điều khiển sẽ đè lên những thành phần trên thanh điều hướng đầu trang và gần như không thể kéo cửa sổ, dẫn đến trải nghiệm tệ.\n\nXem thêm: <compatibilitylink>Khả năng tương thích của Window Controls Overlay trên các trình duyệt</compatibilitylink> & <learnlink>Giới thiệu về Window Controls Overlay trên Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Số đăng ký đẩy tối đa cho mỗi người dùng",
+                    "user_max_subscriptions_text": "Mỗi người dùng được phép có bao nhiêu đăng ký đẩy cùng lúc? Khi một người dùng nhận thông báo đẩy, mỗi đăng ký sẽ tạo ra một lệnh gọi API. Mỗi đăng ký thường tương ứng với một trình duyệt mà người dùng đã sử dụng.",
+                    "push_notification_ttl_label": "Thời gian sống của thông báo đẩy",
+                    "push_notification_ttl_text": "Những thông báo đẩy chưa gửi được sẽ nằm trong hàng đợi của dịch vụ đẩy bao lâu trước khi hết hạn (tính bằng giây).",
                     "share_buttons_label": "Bật nút chia sẻ",
                     "share_buttons_text": "Nếu bật, một nút \"Chia sẻ\" sẽ được thêm vào các cuộc thảo luận, bài viết và người dùng."
                 },
                 "heading": "Cấu hình Progressive Web App",
-                "text": "",
+                "text": "Cấu hình trang Flarum của bạn để chạy như một progressive web app! Xin lưu ý rằng điều này không tự động đưa trang của bạn lên các kho ứng dụng. Thay vào đó, nó cho người dùng tùy chọn 'Thêm vào màn hình chính' với trang của bạn. Chúng tôi cung cấp một vài bước kiểm tra trạng thái, nhưng cách kiểm tra tốt nhất là tự thử cài đặt (hãy tìm trên mạng hướng dẫn cài đặt progressive web app). Hãy nhớ rằng những lời nhắc 'cài đặt PWA này' do trình duyệt kiểm soát và lập trình viên, quản trị viên hay chương trình đều không thể kích hoạt được. Bạn nên đưa hướng dẫn cài đặt PWA vào tài liệu của trang.",
                 "status_check_heading": "Kiểm tra trạng thái",
                 "logo_heading": "Logo và biểu tượng",
-                "logo_text": "",
-                "logo_size_text": "",
+                "logo_text": "Bạn phải tải lên ít nhất một logo để progressive web app của bạn có thể cài đặt được. Xin lưu ý rằng mọi logo đều phải là hình vuông; nếu không, chúng sẽ bị thay đổi kích thước và có thể bị kéo giãn.\n\nCó vài tùy chọn kích thước bên dưới. Chúng tôi khuyên bạn nên tải logo lên cho càng nhiều kích thước càng tốt, vì điều đó hỗ trợ nhiều thiết bị hơn.\n\nBạn có thể tải một logo lớn lên các ô dành cho kích thước nhỏ hơn. Ví dụ, bạn có thể tải một logo 1000x1000px lên TẤT CẢ các ô bên dưới. Tuy nhiên, nếu bạn tải một logo 50x50px lên ô 512x512, nó sẽ bị kéo giãn rất nhiều.\n",
+                "logo_size_text": "Tải lên một logo sẽ được thu phóng về kích thước {size} x {size} pixel.",
                 "submit_button": "Lưu cài đặt",
                 "refreshed_message": "Đã làm mới cấu hình PWA thành công."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
+                "config_no_https": "URL trong tệp config.php của bạn không dùng HTTPS. HTTPS là bắt buộc để Progressive Web App hoạt động.",
+                "possible_https_disabled": "Trang của bạn có thể không chạy trên HTTPS. Việc xóa bộ nhớ đệm (bảng điều khiển quản trị => nút công cụ) có thể giúp ích. Nếu trang đã dùng HTTPS, hãy bỏ qua cảnh báo này. Nếu chưa, hãy nhớ rằng HTTPS là bắt buộc để Progressive Web App hoạt động.",
                 "no_logo": "Bạn phải tải lên ít nhất một logo, với kích thước tối thiểu 144x144px, để PWA có thể cài đặt được.",
                 "no_name": "Bạn phải cung cấp tên đầy đủ để ứng dụng hoạt động.",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "no_vapid_keys": "Không tìm thấy khóa VAPID. Các khóa này là bắt buộc để gửi thông báo đẩy. Bạn có thể đặt lại khóa VAPID bên dưới.",
+                "key_gen_failed": "Việc tạo các khóa cần thiết cho thông báo đẩy đã thất bại. Thông báo lỗi đầy đủ: {error}",
+                "suggest_gmp": "Có vẻ như tiện ích PHP gmp chưa được bật trên máy chủ của bạn. Nó không thực sự bắt buộc, nhưng có thể cải thiện hiệu năng và được khuyến nghị. Tuy nhiên một số dịch vụ lưu trữ dùng chung có thể không hỗ trợ.",
+                "success": "Không tìm thấy vấn đề tiềm ẩn nào!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_enable_button": "",
-                "optin_success": "",
-                "optin_declined": "",
-                "optin_deferred": ""
+                "optin": "Diễn đàn này có thể gửi thông báo đẩy tới thiết bị của bạn. Bạn có muốn bật chúng không?",
+                "optin_enable_button": "Bật",
+                "optin_success": "Đã bật thông báo đẩy trên thiết bị này.",
+                "optin_declined": "Thông báo đẩy đã bị chặn. Bạn có thể cho phép lại sau trong cài đặt trình duyệt.",
+                "optin_deferred": "Thông báo đẩy chưa được bật. Bạn có thể bật sau trong phần cài đặt thông báo của mình."
             },
             "discussion_controls": {
                 "share_button": "Chia sẻ"
@@ -85,7 +85,7 @@
             "post_controls": {
                 "share_button": "Chia sẻ",
                 "share_api": {
-                    "title": ""
+                    "title": "Câu trả lời của {username} trong {title}"
                 }
             },
             "user_controls": {
@@ -103,22 +103,22 @@
                 }
             },
             "notifications_help": {
-                "browser_notifications_title": "",
-                "title": "",
-                "description": "",
-                "chromium_title": "",
-                "chromium_instructions": "",
-                "firefox_title": "",
-                "firefox_instructions": "",
-                "safari_mac_title": "",
-                "safari_mac_instructions": "",
-                "safari_ios_title": "",
-                "safari_ios_instructions": ""
+                "browser_notifications_title": "Cách bật thông báo của trình duyệt",
+                "title": "Bật thông báo đẩy",
+                "description": "Nếu trước đây bạn đã chặn thông báo, hãy làm theo hướng dẫn bên dưới để bật lại trên thiết bị của bạn.",
+                "chromium_title": "Google Chrome, Microsoft Edge và Android",
+                "chromium_instructions": "Hãy bấm vào biểu tượng thông tin trang (hình ổ khóa hoặc hình nút chỉnh) cạnh địa chỉ web trong trình duyệt. Chọn \"Cài đặt trang web\" (hoặc \"Quyền\"), tìm mục \"Thông báo\" và chuyển thiết lập sang \"Cho phép\".",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Hãy bấm vào biểu tượng ổ khóa cạnh địa chỉ web. Nếu mục \"Thông báo\" đang bị đánh dấu là \"Đã chặn\", hãy bấm dấu \"X\" cạnh nó để gỡ hạn chế. Tải lại trang và cho phép thông báo khi được hỏi.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Hãy mở menu Safari ở đầu màn hình và chọn \"Cài đặt\" (hoặc \"Tùy chọn\"). Bấm tab \"Trang web\", chọn \"Thông báo\" ở thanh bên trái, tìm diễn đàn này trong danh sách và chuyển thiết lập sang \"Cho phép\".",
+                "safari_ios_title": "iPhone và iPad của Apple (iOS/iPadOS)",
+                "safari_ios_instructions": "Thông báo đẩy trên iOS yêu cầu ứng dụng phải được cài đặt. Trong Safari, hãy chạm biểu tượng \"Chia sẻ\" và chọn \"Thêm vào màn hình chính\". Sau đó mở ứng dụng vừa cài. Nếu thông báo đang bị chặn, hãy mở ứng dụng \"Cài đặt\" của iOS, vào mục \"Thông báo\", chọn ứng dụng web này trong danh sách và bật \"Cho phép thông báo\"."
             }
         },
         "api": {
-            "endpoint_https_required": "",
-            "endpoint_host_not_allowed": ""
+            "endpoint_https_required": "Không bật được thông báo đẩy vì trình duyệt của bạn cung cấp một URL dịch vụ đẩy không hợp lệ \"{url}\". Cần một URL HTTPS hợp lệ.",
+            "endpoint_host_not_allowed": "Không bật được thông báo đẩy vì máy chủ dịch vụ đẩy \"{host}\" mà trình duyệt của bạn dùng không được phép. Vui lòng liên hệ quản trị viên diễn đàn."
         },
         "views": {
             "offline": {

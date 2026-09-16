@@ -2,26 +2,26 @@
     "flarum-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Hiển thị # thảo luận có cập nhật} other {Hiển thị # thảo luận có cập nhật}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}} có hoạt động mới và sẽ được hiển thị sau {releaseTimeout} giây. Nhấn để hiện ngay."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "hidden-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Ẩn danh]",
+                "hidden-user": "{username} (đã ẩn)",
+                "people-are-typing": "{number, plural, one {# người đang gõ} other {# người đang gõ}}",
+                "users-are-typing": "{count, plural, one {{users} đang gõ} other {{users}{others, plural, =1 { & # người khác} =0 {} other { & # người khác}} đang gõ}}",
+                "no-activity": "Không có ai đang gõ"
             },
             "index-typing": {
-                "someone-typing": "",
-                "someone-typing-tag": ""
+                "someone-typing": "Có người đang soạn bài trong cuộc thảo luận này",
+                "someone-typing-tag": "Có người đang soạn bài trong thẻ này"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Thời gian thực",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Khi được bật, chỉ báo soạn thảo sẽ hiển thị những người dùng đang gõ. Tắt tính năng này để chỉ hiển thị số lượng người dùng đang gõ.",
+                        "label": "Hiển thị những ai đang gõ"
                     }
                 }
             }
@@ -39,10 +39,10 @@
                 "notification-toast-dismiss-after-help": "Thời gian (tính bằng giây) mà thông báo dạng pop-up hiển thị trên màn hình trước khi tự động biến mất. Đặt thành 0 để tắt thông báo pop-up.",
                 "typing-indicator": "Chỉ báo gõ",
                 "typing-indicator-help": "Khi được kích hoạt (và được cấp quyền), người dùng có thể xem số lượng người dùng khác hiện đang gõ trong một cuộc thảo luận. Khi bị vô hiệu hóa, hoạt động gõ phím sẽ bị xóa khỏi cả giao diện người dùng và dữ liệu gửi qua websocket.",
-                "index-typing-indicator": "",
-                "index-typing-indicator-help": "",
-                "index-typing-indicator-restricted": "",
-                "index-typing-indicator-restricted-help": ""
+                "index-typing-indicator": "Chấm báo đang soạn bài ở danh sách thảo luận",
+                "index-typing-indicator-help": "Khi được bật, một biểu tượng nhỏ sẽ xuất hiện trên danh sách thảo luận với mọi cuộc thảo luận công khai mà có người đang soạn bài. Không hiển thị tên ai cả.",
+                "index-typing-indicator-restricted": "Chấm báo đang soạn bài trong các thẻ bị hạn chế",
+                "index-typing-indicator-restricted-help": "Cũng hiển thị chấm báo đang soạn bài cho các cuộc thảo luận trong những thẻ bị hạn chế, với những người dùng xem được các thẻ đó. Yêu cầu tiện ích Tags. Mặc định là tắt."
             }
         }
     }

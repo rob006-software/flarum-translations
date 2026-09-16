@@ -1,19 +1,19 @@
 {
     "linkrobins-warble": {
         "admin": {
-            "transport_label": "",
-            "transport_help": "",
-            "transport_auto": "",
-            "transport_polling": "",
-            "transport_socket": "",
-            "poll_interval_label": "",
-            "poll_interval_help": "",
-            "key_label": "",
-            "key_help": "",
-            "paste_key": "",
-            "connected": "",
-            "need_realtime": "",
-            "write_failed": ""
+            "transport_label": "Kênh truyền thời gian thực",
+            "transport_help": "Chế độ tự động sẽ dùng máy chủ websocket khi có một máy chủ được cấu hình trong config.php, còn lại thì dùng kiểu hỏi vòng. Kiểu hỏi vòng không cần máy chủ nào cả và chạy được trên mọi dịch vụ lưu trữ; chậm hơn vài giây. Websocket thì tức thì nhưng bạn phải tự vận hành (Reverb, soketi, hoặc bất kỳ máy chủ nào tương thích Pusher).\n",
+            "transport_auto": "Tự động",
+            "transport_polling": "Hỏi vòng (không cần máy chủ)",
+            "transport_socket": "Chỉ dùng websocket",
+            "poll_interval_label": "Chu kỳ hỏi vòng (giây)",
+            "poll_interval_help": "Bao lâu thì trình duyệt của mỗi khách truy cập hỏi cập nhật một lần ở chế độ hỏi vòng. Giá trị nhỏ thì nhanh nhạy hơn nhưng bận rộn hơn; giá trị lớn thì nhẹ nhàng hơn với dịch vụ lưu trữ nhỏ. Các tab bị ẩn sẽ ngừng hỏi vòng hoàn toàn.\n",
+            "key_label": "Khóa Warble",
+            "key_help": "Hãy dán khóa từ bảng điều khiển linkrobins.com → Warble. Chỉ vậy thôi — Warble tự thiết lập kết nối cho tiện ích Realtime giúp bạn. Sau khi lưu, tính năng thời gian thực có thể mất tới một phút để bật lên. Để trống để ngắt kết nối.\n",
+            "paste_key": "Hãy dán khóa Warble của bạn bên dưới để bật tính năng thời gian thực. Bạn lấy khóa từ bảng điều khiển linkrobins.com → Warble.",
+            "connected": "✓ Đã kết nối — tính năng thời gian thực đã được thiết lập trên diễn đàn của bạn. Nó có thể mất tới một phút để bật lên, nên nếu các bài trả lời mới chưa hiện ngay tức thì thì hãy chờ một chút. Mẹo: hãy mở cài đặt của tiện ích Realtime để điều chỉnh chỉ báo đang gõ, cập nhật danh sách thảo luận và thông báo nổi cho cộng đồng của bạn.\n",
+            "need_realtime": "Warble cần tiện ích \"Realtime\". Hãy cài và bật flarum/realtime, rồi dán khóa Warble của bạn bên dưới — Warble lo phần còn lại.\n",
+            "write_failed": "Warble không lưu được kết nối vào config.php của diễn đàn bạn — tệp này không cho máy chủ web ghi. Hãy cấp quyền ghi cho config.php (hoặc nhờ nhà cung cấp dịch vụ lưu trữ), rồi lưu lại khóa của bạn.\n"
         }
     }
 }

@@ -121,25 +121,25 @@
                 "private_discussion_added": "[Thảo luận riêng tư] {display_name} đã thêm bạn vào cuộc thảo luận riêng tư"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} đã mở một cuộc thảo luận riêng tư có bạn là người nhận: {discussion_title}.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần đăng nhập trước khi truy cập được liên kết này.\n",
+                "private_discussion_replied": "{actor_display_name} đã đăng bài trong một cuộc thảo luận riêng tư có bạn là người nhận: {discussion_title}.\n\nXem tại đây:\n{post_url}\n\nBạn có thể cần đăng nhập trước khi truy cập được liên kết này.\n",
+                "recipient_removed": "{actor_display_name} đã rời cuộc thảo luận riêng tư: {discussion_title}. Họ sẽ không còn xem được nội dung nào trong đó nữa.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần đăng nhập trước khi truy cập được liên kết này.\n",
+                "private_discussion_added": "{actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư đang có: {discussion_title}.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần đăng nhập trước khi truy cập được liên kết này.\n",
+                "made_public": "{actor_display_name} đã gỡ toàn bộ người nhận và chuyển cuộc thảo luận thành công khai: {discussion_title}.\n\nXem tại đây:\n{discussion_url}\n\nBạn có thể cần đăng nhập trước khi truy cập được liên kết này.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "",
-                    "hint": ""
+                    "key": "người nhận",
+                    "hint": "tên người dùng hoặc tên hiển thị của một người nhận"
                 },
                 "private": {
-                    "key": ""
+                    "key": "riêng tư"
                 },
                 "allows-pd": {
-                    "key": "",
-                    "hint": ""
+                    "key": "cho phép tin nhắn riêng",
+                    "hint": "yes"
                 }
             }
         }

@@ -103,9 +103,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Đã liên kết tài khoản",
+                "body": "Tài khoản {forum} <strong>{username}</strong> của bạn giờ đã được liên kết với {provider}. Từ nay bạn có thể đăng nhập bằng mật khẩu diễn đàn hoặc bằng {provider}.",
+                "dismiss_button": "Đã hiểu"
             },
             "signup": {
                 "username_help": "Vui lòng chọn một tên người dùng tại đây"
@@ -114,7 +114,7 @@
             "error": {
                 "bad_verification_code": "Mã thông báo xác minh không hợp lệ hoặc đã hết hạn. Vui lòng thử lại.",
                 "invalid_state": "State không hợp lệ. Vui lòng thử lại.",
-                "already_linked": ""
+                "already_linked": "Tài khoản này đã được liên kết với một người dùng khác."
             }
         },
         "lib": {
@@ -129,8 +129,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "một nhà cung cấp đăng nhập"
                 }
             }
         },

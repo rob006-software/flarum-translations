@@ -2,86 +2,86 @@
     "ernestdefoe-cascade": {
         "forum": {
             "preset": {
-                "heading": "",
-                "help": "",
-                "follow_forum": "",
-                "save_failed": ""
+                "heading": "Kiểu dòng nội dung",
+                "help": "Các cuộc thảo luận được bố trí thế nào với riêng bạn. Lựa chọn này không thay đổi gì với người khác.",
+                "follow_forum": "Dùng mặc định của diễn đàn",
+                "save_failed": "Không lưu được kiểu dòng nội dung của bạn. Vui lòng thử lại."
             },
             "reactions": {
-                "thumbsup": "",
-                "heart": "",
-                "laughing": "",
-                "tada": "",
-                "confused": "",
-                "thumbsdown": ""
+                "thumbsup": "Thích",
+                "heart": "Yêu thích",
+                "laughing": "Haha",
+                "tada": "Chúc mừng",
+                "confused": "Khó hiểu",
+                "thumbsdown": "Không thích"
             },
             "composer": {
-                "placeholder": "",
-                "cannot_start": ""
+                "placeholder": "Mở một cuộc thảo luận…",
+                "cannot_start": "Bạn không có quyền mở cuộc thảo luận"
             },
             "row": {
-                "react_button": "",
-                "react_failed": "",
-                "reply_button": "",
-                "share_button": "",
-                "share_copied": "",
-                "media_more": "",
-                "view_replies": "",
-                "see_more": "",
-                "see_less": "",
-                "open_post": "",
-                "see_more_loading": "",
-                "replies_failed": ""
+                "react_button": "Cảm xúc",
+                "react_failed": "Biểu cảm của bạn chưa được lưu. Hãy thử lại sau giây lát.",
+                "reply_button": "Trả lời",
+                "share_button": "Chia sẻ",
+                "share_copied": "Đã sao chép liên kết",
+                "media_more": "+{count}",
+                "view_replies": "{count, plural, one {Xem thêm # câu trả lời} other {Xem tất cả # câu trả lời}}",
+                "see_more": "Xem thêm",
+                "see_less": "Thu gọn",
+                "open_post": "Mở cuộc thảo luận này",
+                "see_more_loading": "Đang tải…",
+                "replies_failed": "Không tải được các câu trả lời. Hãy thử lại sau giây lát."
             },
             "modal": {
-                "title": "",
-                "replies_title": "",
-                "no_replies": "",
-                "reply_button": "",
-                "open_full": ""
+                "title": "Bài viết của {username}",
+                "replies_title": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
+                "no_replies": "Chưa có câu trả lời nào.",
+                "reply_button": "Viết câu trả lời",
+                "open_full": "Mở trang đầy đủ"
             },
             "rail": {
-                "hashtags_title": "",
-                "hashtags_count": "",
-                "trending_title": "",
-                "trending_week": "",
-                "trending_month": "",
-                "trending_all": "",
-                "trending_count": ""
+                "hashtags_title": "Hashtag",
+                "hashtags_count": "{count, plural, one {# bài viết} other {# bài viết}}",
+                "trending_title": "Thịnh hành",
+                "trending_week": "Nổi bật trong tuần",
+                "trending_month": "Nổi bật trong tháng",
+                "trending_all": "Được bàn luận nhiều nhất",
+                "trending_count": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "preset_label": "",
-                "preset_help": "",
-                "allow_user_preset_label": "",
-                "allow_user_preset_help": "",
-                "widget_hashtags_label": "",
-                "widget_hashtags_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
-                "feed_density_label": "",
-                "feed_density_help": "",
-                "feed_density_excerpt_media": "",
-                "feed_density_excerpt": "",
-                "feed_density_title": "",
-                "excerpt_length_label": "",
-                "excerpt_length_help": "",
-                "widget_trending_label": "",
-                "widget_trending_help": "",
-                "engagement_bar_label": "",
-                "engagement_bar_help": "",
-                "engagement_bar_auto": "",
-                "engagement_bar_on": "",
-                "engagement_bar_off": ""
+                "title": "Cascade",
+                "preset_label": "Mẫu dựng sẵn",
+                "preset_help": "Giao diện mà mọi thành viên nhận được trừ khi họ tự chọn kiểu riêng bên dưới. Kiểu Facebook đặt mỗi cuộc thảo luận vào một thẻ riêng trên nền xám, kèm thanh tương tác rộng có nhãn. Kiểu X trình bày chúng thành các dòng ngăn cách bằng đường mảnh trong một cột duy nhất. Kiểu Bluesky vẫn giữ một cột nhưng thụt các đường ngăn cách vào ngang phần chữ, nới rộng khoảng cách và cho các nút thao tác hiệu ứng viên nang khi di chuột. Cả ba đều dùng chung bố cục và thiết lập; việc chuyển kiểu có hiệu lực ở lần tải trang kế tiếp.",
+                "allow_user_preset_label": "Cho phép thành viên tự chọn",
+                "allow_user_preset_help": "Thêm một bộ chọn kiểu vào trang cài đặt của từng thành viên. Lựa chọn của họ chỉ áp dụng cho chính họ, còn ai không chọn thì vẫn dùng mặc định của diễn đàn ở trên. Hãy tắt để giữ toàn diễn đàn ở một giao diện duy nhất.",
+                "widget_hashtags_label": "Tiện ích đám mây hashtag",
+                "widget_hashtags_help": "Một đám mây có trọng số gồm những hashtag được dùng nhiều nhất, đặt ở cột bên phải, cỡ chữ dựa theo thứ hạng chứ không theo số lượng thô nên vẫn dễ đọc dù các con số chênh lệch ra sao. Chỉ hiển thị khi tiện ích Hashtags đang bật; nếu không có nó thì thiết lập này không có tác dụng gì.",
+                "hashtag_count_label": "Số hashtag trong đám mây",
+                "hashtag_count_help": "Từ 6 đến 60. Càng nhiều thì đám mây càng dày và những mục nhỏ nhất càng khó nhìn ra.",
+                "feed_density_label": "Mỗi dòng hiển thị những gì",
+                "feed_density_help": "Đoạn trích kèm hình ảnh là thứ khiến danh sách đọc như một dòng nội dung. Chỉ tiêu đề sẽ đưa Cascade trở về một danh sách thảo luận thông thường và bỏ hẳn truy vấn lấy đoạn trích.",
+                "feed_density_excerpt_media": "Đoạn trích và hình ảnh",
+                "feed_density_excerpt": "Chỉ đoạn trích",
+                "feed_density_title": "Chỉ tiêu đề",
+                "excerpt_length_label": "Độ dài đoạn trích (ký tự)",
+                "excerpt_length_help": "Từ 40 đến 600. Đoạn trích dài hơn nghĩa là ít cuộc thảo luận hiển thị được mà không phải cuộn, và dữ liệu mỗi trang danh sách cũng nặng hơn một chút.",
+                "widget_trending_label": "Hiển thị tiện ích Nổi bật",
+                "widget_trending_help": "Xếp hạng các thẻ theo số cuộc thảo luận chúng thực sự nhận được trong bảy ngày qua, tính lại mỗi giờ. Cần flarum/tags; nếu không có, tiện ích sẽ tự ẩn.",
+                "engagement_bar_label": "Thanh tương tác",
+                "engagement_bar_help": "Chế độ tự động sẽ hiển thị nút Trả lời và Chia sẻ trên mọi dòng, đồng thời thêm nút biểu cảm ở trang thảo luận khi flarum/likes hoặc fof/reactions đang bật. Cascade không tự đi kèm tính năng biểu cảm nào, nên nếu không cài tiện ích nào trong hai cái đó thì sẽ không có nút biểu cảm để hiển thị.",
+                "engagement_bar_auto": "Tự động",
+                "engagement_bar_on": "Luôn hiển thị",
+                "engagement_bar_off": "Ẩn"
             }
         },
         "lib": {
             "preset": {
-                "wall": "",
-                "timeline": "",
-                "stream": ""
+                "wall": "Kiểu Facebook — dạng thẻ",
+                "timeline": "Kiểu X — dạng dòng",
+                "stream": "Kiểu Bluesky — dạng dòng thụt lề"
             }
         }
     }

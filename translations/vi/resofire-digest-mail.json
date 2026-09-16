@@ -12,9 +12,9 @@
                 "save_error": "Không thể lưu tùy chọn của bạn. Vui lòng thử lại."
             },
             "onboarding": {
-                "modal_title": "",
-                "modal_body": "",
-                "modal_dismiss": ""
+                "modal_title": "Đừng bỏ lỡ tin tức",
+                "modal_body": "Nhận bản tin tổng hợp định kỳ về những cuộc thảo luận hay nhất, thành viên mới và mọi chuyện đang diễn ra trên diễn đàn, gửi thẳng vào hộp thư của bạn.",
+                "modal_dismiss": "Không, cảm ơn"
             }
         },
         "admin": {
@@ -31,19 +31,19 @@
                 "limit_badges_help": "Số lượng tối đa người vừa nhận huy hiệu được liệt kê trong email tổng hợp (mặc định 5, tối thiểu 3). Yêu cầu fof/badges.",
                 "limit_pickem_label": "Pick'em — số mục tối đa mỗi phần",
                 "limit_pickem_help": "Số lượng tối đa trận đấu sắp diễn ra, kết quả gần đây và mục bảng xếp hạng hiển thị trong email tổng hợp (mặc định 5, tối thiểu 3). Yêu cầu huseyinfiliz/pickem.",
-                "enable_picks_label": "",
-                "enable_picks_help": "",
-                "limit_picks_label": "",
-                "limit_picks_help": "",
-                "picks_leaderboard_scope_label": "",
-                "picks_leaderboard_scope_help": "",
-                "picks_leaderboard_scope_week": "",
-                "picks_leaderboard_scope_season": "",
-                "picks_leaderboard_scope_alltime": "",
+                "enable_picks_label": "CFB Picks — bật mục này",
+                "enable_picks_help": "Hiển thị các trận sắp tới, kết quả gần đây và bảng xếp hạng dự đoán trong bản tin. Cần resofire/picks.",
+                "limit_picks_label": "CFB Picks — số mục tối đa mỗi phần",
+                "limit_picks_help": "Số lượng tối đa các trận sắp tới, kết quả gần đây và mục trong bảng xếp hạng được hiển thị trong bản tin (mặc định 5, tối thiểu 3). Cần resofire/picks.",
+                "picks_leaderboard_scope_label": "CFB Picks — phạm vi bảng xếp hạng",
+                "picks_leaderboard_scope_help": "Bảng xếp hạng nào sẽ hiển thị: tuần vừa kết thúc gần nhất, mùa giải hiện tại, hay xếp hạng mọi thời điểm.",
+                "picks_leaderboard_scope_week": "Tuần gần nhất",
+                "picks_leaderboard_scope_season": "Mùa giải hiện tại",
+                "picks_leaderboard_scope_alltime": "Mọi thời điểm",
                 "limit_gamepedia_label": "Gamepedia — số trò chơi tối đa mỗi phần",
                 "limit_gamepedia_help": "Số lượng trò chơi tối đa hiển thị trong các phần Được thảo luận nhiều nhất và Mới thêm (mặc định 5, tối thiểu 3). Yêu cầu huseyinfiliz/gamepedia.",
-                "limit_resofire_gamepedia_label": "",
-                "limit_resofire_gamepedia_help": "",
+                "limit_resofire_gamepedia_label": "Resofire Gamepedia — số trò chơi tối đa mỗi phần",
+                "limit_resofire_gamepedia_help": "Số trò chơi tối đa hiển thị trong các mục Được bàn luận nhiều nhất, Mới thêm và Thể loại nổi bật (mặc định 5, tối thiểu 3). Yêu cầu resofire/gamepedia.",
                 "limit_favorites_label": "Thảo luận yêu thích — số mục tối đa",
                 "limit_favorites_help": "Số lượng thảo luận yêu thích tối đa hiển thị, xếp hạng theo lượt thích/cảm xúc trong kỳ (mặc định 6, tối thiểu 3). Đặt 0 để tắt. Sử dụng fof/reactions nếu được bật, nếu không sẽ dùng flarum/likes.",
                 "enable_awards_label": "Giải thưởng",
@@ -95,147 +95,147 @@
                 "theme_light_only": "Chỉ có chế độ sáng — hãy cài đặt và bật fof/nightmode để mở khóa email chế độ tối"
             },
             "onboarding": {
-                "section_heading": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_none": "",
-                "mode_auto_enroll": "",
-                "mode_opt_in_modal": "",
-                "frequency_label": "",
-                "frequency_help": ""
+                "section_heading": "Hướng dẫn cho người dùng mới",
+                "mode_label": "Chế độ chào đón",
+                "mode_help": "Quyết định cách người dùng mới được đăng ký nhận email bản tin khi tài khoản của họ được kích hoạt.",
+                "mode_none": "Không đặt mặc định — người dùng tự chọn",
+                "mode_auto_enroll": "Tự động đăng ký cho người dùng mới",
+                "mode_opt_in_modal": "Hiển thị hộp thoại mời đăng ký",
+                "frequency_label": "Tần suất khi tự động đăng ký",
+                "frequency_help": "Tần suất bản tin mà người dùng mới được tự động đăng ký. Chỉ những tần suất đã bật ở mục Tùy chọn tần suất cho người dùng phía trên mới dùng được."
             }
         },
         "email": {
-            "subject": "",
-            "heading": "",
+            "subject": "{forum} — Bản tin {frequency} của bạn",
+            "heading": "Những gì đã diễn ra trong {period} này",
             "stats": {
-                "posts": "",
-                "discussions": "",
-                "new_members": "",
-                "active_users": ""
+                "posts": "Bài viết",
+                "discussions": "Cuộc thảo luận",
+                "new_members": "Thành viên mới",
+                "active_users": "Người dùng hoạt động"
             },
             "featured": {
-                "author_label": "",
-                "badge": "",
-                "cta": ""
+                "author_label": "Tác giả cuộc thảo luận",
+                "badge": "Nổi bật",
+                "cta": "Tham gia thảo luận"
             },
             "sections": {
-                "new_discussions": "",
-                "active_discussions": "",
-                "unread": "",
-                "new_members": "",
-                "leaderboard": "",
-                "badges": "",
-                "pickem": "",
-                "picks": "",
-                "gamepedia": "",
-                "favorites": ""
+                "new_discussions": "Cuộc thảo luận mới",
+                "active_discussions": "Cuộc thảo luận sôi nổi",
+                "unread": "Bạn chưa xem",
+                "new_members": "Thành viên mới",
+                "leaderboard": "Bảng xếp hạng",
+                "badges": "Huy hiệu",
+                "pickem": "Pick'em",
+                "picks": "CFB Picks",
+                "gamepedia": "Gamepedia",
+                "favorites": "Thảo luận yêu thích"
             },
             "members": {
-                "joined": ""
+                "joined": "Tham gia {time_ago}"
             },
             "leaderboard": {
-                "rankings_note": "",
-                "col_rank": "",
-                "col_member": "",
-                "col_move": "",
-                "col_score": "",
-                "new_badge": "",
-                "biggest_mover": "",
-                "spot_singular": "",
-                "spot_plural": ""
+                "rankings_note": "Thứ hạng dựa trên tổng số điểm kiếm được từ bài viết, cuộc thảo luận, lượt thích, huy hiệu và lượt đăng nhập hằng ngày.",
+                "col_rank": "#",
+                "col_member": "Thành viên",
+                "col_move": "Thay đổi",
+                "col_score": "Điểm",
+                "new_badge": "MỚI",
+                "biggest_mover": "Thăng hạng mạnh nhất {period} này",
+                "spot_singular": "bậc",
+                "spot_plural": "bậc"
             },
             "badges": {
-                "intro": "",
-                "most_earned": "",
-                "earned_count_singular": "",
-                "earned_count_plural": "",
-                "rarest": "",
-                "rarest_count_singular": "",
-                "rarest_count_plural": ""
+                "intro": "Những thành viên đạt được huy hiệu trong {period} này.",
+                "most_earned": "Được trao nhiều nhất {period} này",
+                "earned_count_singular": "Được trao {count} lần trong {period} này",
+                "earned_count_plural": "Được trao {count} lần trong {period} này",
+                "rarest": "Huy hiệu hiếm nhất đã trao",
+                "rarest_count_singular": "Chỉ {count} thành viên sở hữu huy hiệu này",
+                "rarest_count_plural": "Chỉ {count} thành viên sở hữu huy hiệu này"
             },
             "pickem": {
-                "upcoming_heading": "",
-                "upcoming_note": "",
-                "cta": "",
-                "results_heading": "",
-                "draw": "",
-                "leaderboard_heading": "",
-                "col_rank": "",
-                "col_player": "",
-                "col_pts": "",
-                "col_accuracy": ""
+                "upcoming_heading": "Trận sắp diễn ra",
+                "upcoming_note": "Đừng bỏ lỡ cơ hội dự đoán, thời hạn được ghi bên dưới.",
+                "cta": "Gửi dự đoán của bạn",
+                "results_heading": "Kết quả gần đây",
+                "draw": "Hòa",
+                "leaderboard_heading": "Bảng xếp hạng Pick'em",
+                "col_rank": "#",
+                "col_player": "Người chơi",
+                "col_pts": "Điểm",
+                "col_accuracy": "Độ chính xác"
             },
             "picks": {
-                "confidence_note": "",
-                "week_open": "",
-                "week_closed": "",
-                "upcoming_heading": "",
-                "upcoming_note": "",
-                "neutral_site": "",
-                "cta": "",
-                "results_heading": "",
-                "winner": "",
-                "col_rank": "",
-                "col_player": "",
-                "col_pts": "",
-                "col_accuracy": "",
-                "move_up": "",
-                "move_down": "",
-                "move_held": "",
-                "move_new": ""
+                "confidence_note": "Chế độ tự tin đang bật — điểm được tính theo mức tự tin (1–10) mà mỗi người chơi đặt cho dự đoán của mình.",
+                "week_open": "Đang mở dự đoán",
+                "week_closed": "Đã khóa dự đoán",
+                "upcoming_heading": "Trận sắp diễn ra",
+                "upcoming_note": "Dự đoán được khóa riêng theo thời hạn của từng trận.",
+                "neutral_site": "Sân trung lập",
+                "cta": "Đưa ra dự đoán của bạn",
+                "results_heading": "Kết quả gần đây",
+                "winner": "Người chiến thắng",
+                "col_rank": "#",
+                "col_player": "Người chơi",
+                "col_pts": "Điểm",
+                "col_accuracy": "Chính xác",
+                "move_up": "Tăng {n}",
+                "move_down": "Giảm {n}",
+                "move_held": "—",
+                "move_new": "Mới"
             },
             "gamepedia": {
-                "most_discussed": "",
-                "newly_added": "",
-                "cta": ""
+                "most_discussed": "Được bàn luận nhiều nhất {period} này",
+                "newly_added": "Mới thêm",
+                "cta": "Duyệt Gamepedia"
             },
             "resofire_gamepedia": {
-                "most_discussed": "",
-                "newly_added": "",
-                "top_genres": "",
-                "cta": ""
+                "most_discussed": "Được bàn luận nhiều nhất {period} này",
+                "newly_added": "Mới thêm",
+                "top_genres": "Thể loại nổi bật {period} này",
+                "cta": "Duyệt Gamepedia"
             },
             "awards": {
-                "coming_soon": "",
-                "categories": "",
-                "front_runners": "",
-                "voting_closed": "",
-                "tallying": "",
-                "cta_vote": "",
-                "cta_nominees": "",
-                "cta_view": "",
-                "cta_results": ""
+                "coming_soon": "Sắp diễn ra",
+                "categories": "Danh mục",
+                "front_runners": "Ứng viên dẫn đầu hiện tại",
+                "voting_closed": "Bình chọn đã kết thúc",
+                "tallying": "Kết quả đang được tổng hợp. Hãy chờ thông báo nhé!",
+                "cta_vote": "Bỏ phiếu của bạn",
+                "cta_nominees": "Xem danh sách đề cử",
+                "cta_view": "Xem giải thưởng",
+                "cta_results": "Xem kết quả đầy đủ"
             },
             "footer": {
-                "unsubscribe": ""
+                "unsubscribe": "Đổi tần suất hoặc hủy đăng ký"
             }
         },
         "unsubscribe": {
-            "page_title": "",
-            "heading": "",
-            "greeting": "",
-            "click_hint": "",
-            "daily_title": "",
-            "daily_desc": "",
-            "weekly_title": "",
-            "weekly_desc": "",
-            "monthly_title": "",
-            "monthly_desc": "",
-            "off_title": "",
-            "off_desc": ""
+            "page_title": "Tùy chọn bản tin email",
+            "heading": "Tùy chọn bản tin email",
+            "greeting": "Chào {name}. Hãy chọn tần suất bạn muốn nhận bản tin về những gì đang diễn ra trong {forum}.",
+            "click_hint": "Bấm vào một lựa chọn để lưu tùy chọn của bạn ngay lập tức.",
+            "daily_title": "Hằng ngày",
+            "daily_desc": "Mỗi ngày một email với hoạt động mới nhất.",
+            "weekly_title": "Hằng tuần",
+            "weekly_desc": "Bản tổng hợp hằng tuần vào mỗi {day}.",
+            "monthly_title": "Hằng tháng",
+            "monthly_desc": "Bản tóm tắt hằng tháng vào ngày {day} mỗi tháng.",
+            "off_title": "Tắt",
+            "off_desc": "Đừng gửi cho tôi email bản tin nào."
         },
         "unsubscribe_saved": {
-            "page_title": "",
-            "heading": "",
-            "body": "",
-            "return_link": ""
+            "page_title": "Đã lưu tùy chọn",
+            "heading": "Đã lưu tùy chọn",
+            "body": "Tùy chọn email bản tin của bạn đã được cập nhật thành công.",
+            "return_link": "Quay lại {forum}"
         },
         "unsubscribe_invalid": {
-            "page_title": "",
-            "heading": "",
-            "body_expired": "",
-            "body_signin": ""
+            "page_title": "Liên kết không hợp lệ hoặc đã hết hạn",
+            "heading": "Liên kết này không còn hiệu lực",
+            "body_expired": "Liên kết hủy đăng ký này đã hết hạn (liên kết có hiệu lực trong 90 ngày) hoặc đã được dùng. Mỗi email bản tin chúng tôi gửi cho bạn đều kèm một liên kết mới.",
+            "body_signin": "Để quản lý tùy chọn bản tin của bạn, hãy đăng nhập vào {forum} và vào phần cài đặt thông báo."
         }
     }
 }

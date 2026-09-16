@@ -1,33 +1,33 @@
 {
     "linkrobins-forage": {
         "admin": {
-            "key_label": "",
-            "key_help": "",
-            "related_discussion_label": "",
-            "related_discussion_help": "",
-            "related_composer_label": "",
-            "related_composer_help": "",
-            "unconfigured": "",
-            "connected": "",
-            "connected_indexed": "",
-            "provisioning": "",
-            "check_again": "",
-            "invalid": "",
-            "invalid_still_connected": "",
-            "error": "",
-            "error_still_connected": "",
-            "unreachable": "",
-            "index_empty": "",
-            "index_short": "",
-            "at_limit": ""
+            "key_label": "Khóa Forage",
+            "key_help": "Hãy dán khóa từ bảng điều khiển linkrobins.com → Forage. Chỉ vậy thôi — Forage tự thiết lập kết nối tới máy chủ tìm kiếm của bạn và bắt đầu lập chỉ mục các bài viết. Để trống để quay về dùng tìm kiếm sẵn có của diễn đàn.\n",
+            "related_discussion_label": "Hiện các cuộc thảo luận liên quan dưới mỗi chủ đề",
+            "related_discussion_help": "Thêm một danh sách ngắn các cuộc thảo luận giống với cuộc thảo luận đang đọc, ở cuối trang. Hãy tắt nếu bạn muốn để phần cuối chủ đề trống trải.\n",
+            "related_composer_label": "Gợi ý các cuộc thảo luận tương tự trong lúc người dùng viết",
+            "related_composer_help": "Khi một thành viên mở cuộc thảo luận mới, hiện vài cuộc thảo luận có tiêu đề tương tự ngay dưới ô tiêu đề. Đây chỉ là gợi ý: nó không bao giờ ngăn ai đăng bài, và họ có thể ẩn nó đi.\n",
+            "unconfigured": "Hãy dán khóa Forage của bạn bên dưới để bật tìm kiếm trên máy chủ. Bạn lấy khóa từ bảng điều khiển linkrobins.com → Forage. Trong lúc đó, diễn đàn vẫn dùng tìm kiếm sẵn có của nó, nên không có gì hỏng cả.\n",
+            "connected": "✓ Đã kết nối — việc tìm kiếm của diễn đàn đang do máy chủ tìm kiếm của chính bạn đảm nhiệm.\n",
+            "connected_indexed": "✓ Đã kết nối — việc tìm kiếm của diễn đàn đang do máy chủ tìm kiếm của chính bạn đảm nhiệm, nơi đang giữ {indexed} bài viết.\n",
+            "provisioning": "Khóa của bạn vẫn ổn, và máy chủ tìm kiếm của bạn đang được dựng. Việc này mất một hai phút sau khi đăng ký. Tìm kiếm sẵn có của diễn đàn vẫn được dùng cho tới khi máy chủ sẵn sàng.\n",
+            "check_again": "Kiểm tra lại",
+            "invalid": "Khóa đó không được nhận ra. Hãy kiểm tra xem bạn đã chép đủ chưa, và gói Forage của bạn còn hiệu lực không. Trong lúc đó, tìm kiếm sẵn có của diễn đàn vẫn được dùng.\n",
+            "invalid_still_connected": "Khóa đó không được nhận ra nên chưa được dùng tới. Hãy kiểm tra xem bạn đã chép đủ chưa, và gói Forage của bạn còn hiệu lực không. Diễn đàn của bạn vẫn tìm kiếm bằng khóa trước đó, nên không có gì ngừng hoạt động.\n",
+            "error": "Forage không hoàn tất được việc thiết lập. Tìm kiếm sẵn có của diễn đàn vẫn hoạt động, nên với thành viên của bạn không có gì hỏng cả. Hãy thử lưu lại khóa một lần nữa, và liên hệ với chúng tôi nếu chuyện này cứ lặp lại.\n",
+            "error_still_connected": "Forage không kiểm tra được khóa đó nên nó chưa được dùng tới. Diễn đàn của bạn vẫn tìm kiếm bằng khóa trước đó, nên không có gì ngừng hoạt động. Hãy thử lưu lại, và liên hệ với chúng tôi nếu chuyện này cứ lặp lại.\n",
+            "unreachable": "Thiết lập của bạn vẫn ổn, nhưng máy chủ tìm kiếm hiện không phản hồi. Trong lúc đó tìm kiếm sẵn có của diễn đàn được dùng thay thế, nên các thành viên vẫn tìm kiếm được.\n",
+            "index_empty": "Khóa của bạn vẫn ổn, nhưng máy chủ tìm kiếm không giữ gì cả, nên việc tìm kiếm trên diễn đàn này không ra kết quả nào. Nếu bạn vừa kết nối hoặc vừa dựng lại chỉ mục thì nó vẫn đang được nạp và chuyện này sẽ tự ổn thỏa trong chốc lát. Nếu không, hãy chạy \"php flarum forage:reindex\" trên máy chủ của bạn để nạp lại từ chính các bài viết của diễn đàn. Dù thế nào cũng không mất gì: bài viết của bạn nằm trong cơ sở dữ liệu của diễn đàn, còn chỉ mục được dựng từ chúng.\n",
+            "index_short": "Máy chủ tìm kiếm của bạn đang giữ {indexed} bài viết, trong khi diễn đàn này có {expected} bài thuộc về đó. Nếu bạn vừa kết nối, hoặc vừa đăng rất nhiều bài cùng lúc, thì nó vẫn đang bắt kịp và sẽ tự ổn định. Nếu khoảng cách đó vẫn còn, hãy chạy \"php flarum forage:reindex\" để dựng lại.\n",
+            "at_limit": "Máy chủ tìm kiếm của bạn đang giữ {indexed} bài viết, đúng bằng giới hạn của gói bạn dùng ({cap}). Các bài mới hơn không được thêm vào nên sẽ không xuất hiện trong kết quả tìm kiếm. Nâng cấp gói sẽ nâng giới hạn này.\n"
         },
         "forum": {
-            "related_heading": "",
-            "related_replies": "",
-            "related_more": "",
-            "related_none": "",
-            "composer_heading": "",
-            "composer_dismiss": ""
+            "related_heading": "Các thảo luận liên quan",
+            "related_replies": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
+            "related_more": "Xem thêm",
+            "related_none": "Chưa có nội dung nào khác ở đây giống với nội dung này.",
+            "composer_heading": "Cuộc thảo luận tương tự",
+            "composer_dismiss": "Ẩn các gợi ý này"
         }
     }
 }

@@ -40,11 +40,11 @@
         },
         "lib": {
             "error": {
-                "api_http_error": "",
-                "incomplete_configuration": "",
-                "captcha_id_mismatch": "",
-                "invalid_api_response": "",
-                "verification_request_failed": ""
+                "api_http_error": "API GeeTest trả về HTTP {status}.",
+                "incomplete_configuration": "Cấu hình GeeTest chưa đầy đủ.",
+                "captcha_id_mismatch": "CAPTCHA ID của GeeTest không khớp với sản phẩm đã cấu hình.",
+                "invalid_api_response": "API GeeTest trả về một phản hồi không phải đối tượng.",
+                "verification_request_failed": "Không gửi được yêu cầu xác minh tới GeeTest."
             },
             "verify": {
                 "success_message": "Xác minh thành công.",

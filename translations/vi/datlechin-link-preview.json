@@ -2,36 +2,36 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
-                "appearance_description": "",
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "filtering_label": "",
-                "filtering_description": ""
+                "appearance_label": "Giao diện",
+                "appearance_description": "Bản xem trước trông ra sao, và bấm vào thì đi tới đâu.",
+                "behaviour_label": "Cách hoạt động",
+                "behaviour_description": "Những liên kết nào trong một bài viết sẽ có bản xem trước.",
+                "performance_label": "Hiệu năng",
+                "performance_description": "Bản xem trước được lấy về ra sao và được giữ lại bao lâu.",
+                "filtering_label": "Lọc",
+                "filtering_description": "Những trang nào được phép xem trước. Mỗi dòng một mục, hoặc phân tách bằng dấu phẩy. Một tên miền cũng khớp với các tên miền con của nó, và dấu * thay cho một phần của tên.\n"
             },
             "settings": {
                 "open_links_in_new_tab_label": "Mở liên kết trong tab mới",
                 "open_links_in_new_tab_help": "Luôn mở liên kết xem trước trong tab trình duyệt mới.",
-                "google_favicon_fallback_label": "",
-                "google_favicon_fallback_help": "",
-                "preview_internal_links_label": "",
-                "preview_internal_links_help": "",
-                "skip_media_links_label": "",
-                "skip_media_links_help": "",
-                "max_previews_per_post_label": "",
-                "max_previews_per_post_help": "",
+                "google_favicon_fallback_label": "Dùng Google làm nguồn dự phòng cho biểu tượng trang",
+                "google_favicon_fallback_help": "Được dùng khi một trang không có biểu tượng của riêng nó. Nó cho Google biết các thành viên của bạn liên kết tới những trang nào.\n",
+                "preview_internal_links_label": "Xem trước liên kết tới diễn đàn này",
+                "preview_internal_links_help": "Một liên kết ở đây tới một cuộc thảo luận, thành viên, thẻ hay trang chủ sẽ thành một thẻ nội dung đọc từ cơ sở dữ liệu, nên không có gì được tải về và không ai thấy nhiều hơn những gì họ vốn đã mở được.\n",
+                "skip_media_links_label": "Bỏ qua liên kết tới tệp đa phương tiện",
+                "skip_media_links_help": "Dành cho những liên kết kết thúc bằng một tệp hình ảnh, âm thanh hoặc video mà Flarum vốn đã hiển thị.",
+                "max_previews_per_post_label": "Số bản xem trước mỗi bài viết",
+                "max_previews_per_post_help": "Những liên kết vượt quá số này được giữ nguyên dạng liên kết thường.",
                 "enable_batch_requests_label": "Bật xử lý theo lô",
                 "enable_batch_requests_help": "Cải thiện hiệu suất bằng cách xử lý nhiều liên kết cùng lúc. Khi tắt, các liên kết sẽ được xử lý lần lượt.",
                 "cache_time_label": "Thời gian lưu cache (phút)",
                 "cache_time_help": "Thời gian lưu xem trước liên kết trước khi làm mới. Đặt 0 để tắt lưu cache. Mặc định: 60 phút.",
-                "allowlist_label": "",
-                "allowlist_help": "",
-                "allowlist_placeholder": "",
-                "blocklist_label": "",
-                "blocklist_help": "",
-                "blocklist_placeholder": "",
+                "allowlist_label": "Trang được phép",
+                "allowlist_help": "Chừng nào danh sách này không trống, chỉ những liên kết khớp với nó mới được xem trước.",
+                "allowlist_placeholder": "docs.example.com, *.wikipedia.org",
+                "blocklist_label": "Trang bị chặn",
+                "blocklist_help": "Không bao giờ được xem trước, kể cả khi danh sách cho phép đã cho chúng qua.",
+                "blocklist_placeholder": "example.com, news.example.org/sponsored",
                 "blacklist_label": "Danh sách đen",
                 "blacklist_help": "Chỉ định các tên miền hoặc URL không tạo xem trước liên kết. Dùng dấu phẩy để phân tách nhiều mục.",
                 "blacklist_placeholder": "Ví dụ: facebook.com, https://domain.com/path, twitter.com/specific-page",
@@ -45,16 +45,16 @@
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "Đang tải bản xem trước",
             "meta": {
-                "replies": "",
-                "posts": "",
-                "discussions": ""
+                "replies": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
+                "posts": "{count, plural, one {# bài viết} other {# bài viết}}",
+                "discussions": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}"
             },
-            "clicks": "",
+            "clicks": "{count, plural, one {# lượt bấm} other {# lượt bấm}}",
             "settings": {
-                "hide_link_previews_label": "",
-                "hide_link_previews_help": ""
+                "hide_link_previews_label": "Ẩn bản xem trước liên kết",
+                "hide_link_previews_help": "Hiển thị địa chỉ thuần thay cho thẻ xem trước ở mọi bài viết bạn đọc."
             },
             "site_cannot_be_reached": "Không thể tải xem trước. Vui lòng kiểm tra URL và thử lại."
         }

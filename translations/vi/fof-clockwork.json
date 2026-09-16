@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
+                "section_label": "Clockwork",
                 "button_label": "Mở Clockwork"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Cài đặt",
+                "disable_auth_label": "Tắt xác thực",
+                "disable_auth_help": "Khi bật, mọi yêu cầu đều được phân tích và trình xem Clockwork có thể truy cập mà không cần đăng nhập. Chỉ nên bật tạm thời để gỡ lỗi.",
+                "disable_auth_warning": "Cảnh báo: phần xác thực đang bị tắt. Trình xem Clockwork và toàn bộ dữ liệu phân tích đang công khai với mọi người. Hãy tắt tùy chọn này khi bạn gỡ lỗi xong."
             }
         }
     }

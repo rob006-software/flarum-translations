@@ -9,7 +9,7 @@
                 "ban_ip_no_users": "Sẽ không có ai khác bị cấm"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Bị cấm theo IP"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -60,10 +60,10 @@
             }
         },
         "ref": {
-            "ban_label": "",
+            "ban_label": "Cấm theo IP",
             "ban_ip_addresses": "Cấm IP",
             "ban_ip_button": "Cấm IP",
-            "unban_label": "",
+            "unban_label": "Bỏ cấm theo IP",
             "unban_ip_addresses": "Bỏ cấm IP",
             "unban_ip_button": "Bỏ cấm IP",
             "address_label": "Địa chỉ IP",
@@ -84,8 +84,8 @@
         "lib": {
             "browser": {
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Đã cấm ip {ip}",
+                    "unbanned": "Đã bỏ cấm ip {ip}"
                 }
             }
         }

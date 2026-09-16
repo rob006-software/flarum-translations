@@ -83,30 +83,30 @@
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Thẻ | Cuộc thảo luận mới] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} đã mở một cuộc thảo luận trong thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy ghé liên kết sau:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} đã mở một cuộc thảo luận trong thẻ bạn đang theo dõi: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Thẻ | Bài viết mới] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} đã đăng bài trong một cuộc thảo luận thuộc thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem hoạt động mới, hãy ghé liên kết sau:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} đã đăng bài trong một cuộc thảo luận thuộc thẻ bạn đang theo dõi: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Thẻ | Đã đổi thẻ] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} vừa đổi thẻ của một cuộc thảo luận do {author_display_name} mở sang một thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận, hãy ghé liên kết sau:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} vừa đổi thẻ của một cuộc thảo luận do {author_display_name} mở sang một thẻ bạn đang theo dõi: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },

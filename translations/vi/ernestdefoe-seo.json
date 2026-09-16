@@ -2,116 +2,116 @@
     "ernestdefoe-seo": {
         "admin": {
             "permissions": {
-                "configure_seo": ""
+                "configure_seo": "Cho phép cấu hình SEO"
             },
             "settings_page": {
                 "menu": {
-                    "health_check": "",
-                    "seo_settings": "",
-                    "sitemap_information": "",
-                    "search_engine_information": "",
-                    "set_up_ssl": ""
+                    "health_check": "Kiểm tra tình trạng",
+                    "seo_settings": "Cài đặt SEO",
+                    "sitemap_information": "Thông tin sitemap",
+                    "search_engine_information": "Thông tin công cụ tìm kiếm",
+                    "set_up_ssl": "Thiết lập SSL"
                 }
             },
             "meta_seo_modal": {
-                "title": "",
-                "managed_label": "",
-                "upload_button": "",
+                "title": "Cài đặt SEO - Meta",
+                "managed_label": "Được quản lý",
+                "upload_button": "Tải tệp lên",
                 "not_supported": {
-                    "alert_title": "",
-                    "alert_body": "",
-                    "documentation_link": ""
+                    "alert_title": "Đối tượng này không phải là đối tượng SeoMeta được hỗ trợ",
+                    "alert_body": "Vui lòng mở hộp thoại này bằng các thuộc tính objectType và objectId, hoặc thay vào đó hãy đăng ký quan hệ đối tượng.",
+                    "documentation_link": "Tài liệu"
                 },
                 "auto_update": {
-                    "title": "",
-                    "help": "",
-                    "switch_label": ""
+                    "title": "Tự động cập nhật thẻ meta",
+                    "help": "Khi bật, các thẻ meta của mục này được tự động cập nhật mỗi khi đối tượng thay đổi.",
+                    "switch_label": "Cập nhật SEO của đối tượng khi có thay đổi"
                 },
                 "meta_title": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "Tiêu đề meta",
+                    "help": "Tiêu đề hiển thị trên công cụ tìm kiếm.",
+                    "placeholder": "Nhập tiêu đề trang"
                 },
                 "meta_description": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "Mô tả meta",
+                    "help": "Mô tả mục này và được hiển thị trên công cụ tìm kiếm.",
+                    "placeholder": "Thêm một mô tả"
                 },
                 "keywords": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "note": "",
-                    "example_prefix": "",
-                    "example": ""
+                    "title": "Từ khóa",
+                    "help": "Nhập một hoặc nhiều từ khóa mô tả mục này.",
+                    "placeholder": "Thêm một vài từ khóa",
+                    "note": "Lưu ý: Phân tách các từ khóa bằng dấu phẩy.",
+                    "example_prefix": "Ví dụ:",
+                    "example": "flarum, phát triển web, diễn đàn, táo, bảo mật"
                 },
                 "meta_image": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": ""
+                    "title": "Hình ảnh meta",
+                    "help": "Hiển thị một hình ảnh.",
+                    "placeholder": "Nhập URL hình ảnh",
+                    "managed_by": "Nguồn hình ảnh được quản lý bởi {source}"
                 },
                 "robots": {
-                    "title": "",
-                    "help": "",
-                    "tag_index_allowed": "",
-                    "tag_index_disallowed": "",
-                    "tag_follow_allowed": "",
-                    "tag_follow_disallowed": "",
-                    "tag_noarchive": "",
-                    "tag_noimageindex": "",
-                    "tag_nosnippet": "",
-                    "switch_noindex": "",
-                    "switch_nofollow": "",
-                    "switch_noarchive": "",
-                    "switch_noimageindex": "",
-                    "switch_nosnippet": ""
+                    "title": "Robots",
+                    "help": "Cài đặt thu thập dữ liệu của robot cho mục này.",
+                    "tag_index_allowed": "Cho phép lập chỉ mục trang",
+                    "tag_index_disallowed": "Không cho phép lập chỉ mục trang",
+                    "tag_follow_allowed": "Cho phép theo dõi liên kết",
+                    "tag_follow_disallowed": "Không cho phép theo dõi liên kết",
+                    "tag_noarchive": "Không cho phép lưu trữ trang",
+                    "tag_noimageindex": "Không cho phép lập chỉ mục hình ảnh",
+                    "tag_nosnippet": "Không cho phép trích đoạn văn bản",
+                    "switch_noindex": "Cho phép lập chỉ mục trang",
+                    "switch_nofollow": "Cho phép theo dõi liên kết đến các trang khác",
+                    "switch_noarchive": "Tắt lưu trữ trang (noarchive)",
+                    "switch_noimageindex": "Tắt lập chỉ mục hình ảnh trên trang này (noimageindex)",
+                    "switch_nosnippet": "Tắt đoạn trích văn bản trên trang (nosnippet)"
                 },
                 "reading_time": {
-                    "title": "",
-                    "help": "",
-                    "placeholder": ""
+                    "title": "Thời gian đọc ước tính",
+                    "help": "Thời gian đọc ước tính tính bằng giây.",
+                    "placeholder": "Thời gian đọc tính bằng giây"
                 },
                 "twitter": {
-                    "card_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "image_title": "",
-                    "image_help": "",
-                    "image_placeholder": "",
-                    "image_managed_by": "",
-                    "reset_image": ""
+                    "card_title": "Thẻ Twitter",
+                    "switch_auto": "Tự động tạo thẻ Twitter",
+                    "title": "Tiêu đề Twitter",
+                    "description": "Mô tả Twitter",
+                    "image_title": "Ảnh Twitter",
+                    "image_help": "Hiển thị một hình ảnh trên Twitter.",
+                    "image_placeholder": "Nhập URL hình ảnh",
+                    "image_managed_by": "Nguồn hình ảnh được quản lý bởi {source}",
+                    "reset_image": "Đặt lại hình ảnh"
                 },
                 "open_graph": {
-                    "tags_title": "",
-                    "switch_auto": "",
-                    "title": "",
-                    "description": "",
-                    "description_placeholder": ""
+                    "tags_title": "Thẻ Open Graph",
+                    "switch_auto": "Tự động tạo thẻ Open Graph",
+                    "title": "Tiêu đề Open Graph",
+                    "description": "Mô tả Open Graph",
+                    "description_placeholder": "Mô tả Open Graph tùy chỉnh"
                 },
                 "footer": {
-                    "note_prefix": "",
-                    "revert_warning": ""
+                    "note_prefix": "Lưu ý:",
+                    "revert_warning": "Thay đổi này sẽ hoàn tác các tùy chỉnh và điền các thẻ meta bằng dữ liệu của mục."
                 },
                 "buttons": {
-                    "close": "",
-                    "save": "",
-                    "save_and_autofill": ""
+                    "close": "Đóng",
+                    "save": "Lưu",
+                    "save_and_autofill": "Lưu & tự động điền"
                 },
                 "alerts": {
-                    "saved": "",
-                    "save_error": ""
+                    "saved": "Đã lưu!",
+                    "save_error": "Không lưu được cài đặt SEO. Vui lòng thử lại hoặc kiểm tra nhật ký máy chủ."
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Hồ sơ của {username}",
+            "profile_description": "Hồ sơ của {username} | {discussion_count} thảo luận | {comment_count} bài viết",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Cấu hình SEO",
+                "update_seo": "Cập nhật SEO",
+                "reset_seo": "Đặt lại SEO"
             }
         }
     }

@@ -2,39 +2,39 @@
     "forumaker-profile-cover": {
         "admin": {
             "sections": {
-                "thumbnails": "",
-                "general": ""
+                "thumbnails": "Ảnh thu nhỏ",
+                "general": "Chung"
             },
-            "thumbnails": "",
-            "thumbnails_help": "",
-            "thumbnail_width": "",
-            "thumbnail_width_help": "",
-            "recreate_thumbnails": "",
-            "delete_thumbnails": "",
-            "recreate_thumbnails_confirm": "",
-            "delete_thumbnails_confirm": "",
-            "recreate_success": "",
-            "delete_success": "",
-            "recreate_error": "",
-            "delete_error": "",
-            "max_size": "",
+            "thumbnails": "Tạo ảnh thu nhỏ",
+            "thumbnails_help": "Tạo một phiên bản thu nhỏ của ảnh bìa dùng trong các khung nhỏ như thẻ người dùng và danh sách thành viên. Khi tắt, ảnh bìa kích thước đầy đủ sẽ được dùng thay thế",
+            "thumbnail_width": "Chiều rộng tối đa của ảnh thu nhỏ (px)",
+            "thumbnail_width_help": "Ảnh bìa được thu theo tỉ lệ sao cho chiều rộng bằng giá trị này. Mặc định là 500",
+            "recreate_thumbnails": "Tạo lại ảnh thu nhỏ",
+            "delete_thumbnails": "Xóa ảnh thu nhỏ",
+            "recreate_thumbnails_confirm": "Tạo lại toàn bộ ảnh thu nhỏ?",
+            "delete_thumbnails_confirm": "Xóa toàn bộ ảnh thu nhỏ?",
+            "recreate_success": "Đã tạo lại ảnh thu nhỏ thành công",
+            "delete_success": "Đã xóa toàn bộ ảnh thu nhỏ",
+            "recreate_error": "Tạo lại ảnh thu nhỏ thất bại",
+            "delete_error": "Xóa ảnh thu nhỏ thất bại",
+            "max_size": "Kích thước tối đa của ảnh bìa hồ sơ (KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Đặt ảnh bìa"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
-            "position_label": "",
-            "save_position_button": "",
+            "cover": "Ảnh bìa",
+            "edit_cover": "Đổi ảnh bìa",
+            "notice": "Kích thước tối đa: {size}. Định dạng khuyến nghị — tỉ lệ 21:9 và tối thiểu 1600x400 pixel",
+            "position_label": "Vị trí ảnh bìa trên máy tính",
+            "save_position_button": "Lưu vị trí",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Đã cập nhật ảnh bìa hồ sơ",
+                "error": "Không tải lên được hình ảnh"
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Đã gỡ ảnh bìa hồ sơ",
+                "error": "Gỡ ảnh bìa thất bại, hãy thử lại"
             }
         }
     }

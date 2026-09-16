@@ -1,32 +1,32 @@
 {
     "ernestdefoe-opensearch": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Được hỗ trợ bởi OpenSearch"
         },
         "admin": {
-            "url_label": "",
-            "url_help": "",
-            "username_label": "",
-            "username_help": "",
-            "password_label": "",
-            "verify_tls_label": "",
-            "verify_tls_help": "",
-            "index_prefix_label": "",
-            "index_prefix_help": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_users": "",
-            "use_for_posts": "",
-            "connection_label": "",
-            "test_button": "",
-            "test_ok": "",
-            "test_fail": "",
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "url_label": "URL cụm máy chủ",
+            "url_help": "URL đầy đủ của cụm OpenSearch hoặc Elasticsearch của bạn, gồm cả giao thức và cổng — ví dụ https://localhost:9200. Hãy để trống tên đăng nhập và mật khẩu nếu cụm đã tắt phần bảo mật.\n",
+            "username_label": "Tên đăng nhập",
+            "username_help": "Không bắt buộc. Chỉ cần khi cụm của bạn yêu cầu xác thực.\n",
+            "password_label": "Mật khẩu",
+            "verify_tls_label": "Xác minh chứng chỉ TLS",
+            "verify_tls_help": "Chỉ tắt tùy chọn này với một cụm truy cập qua mạng nội bộ dùng chứng chỉ tự ký. Đừng bao giờ tắt nó với một cụm truy cập qua Internet công cộng — một kết nối không được xác minh có thể bị chặn bắt.\n",
+            "index_prefix_label": "Tiền tố chỉ mục",
+            "index_prefix_help": "Không bắt buộc. Giúp tách riêng các chỉ mục khi nhiều diễn đàn dùng chung một cụm. Để trống để tự động suy ra từ URL diễn đàn của bạn.\n",
+            "drivers_label": "Dùng OpenSearch cho…",
+            "drivers_help": "Hãy chọn những tìm kiếm nào do OpenSearch đảm nhiệm. Với mỗi loại, việc tìm theo từ khóa sẽ đi tới cụm, còn việc lọc và duyệt khi không có từ khóa vẫn dùng cơ sở dữ liệu. Quyền hạn luôn do Flarum kiểm soát — OpenSearch chỉ xếp hạng những kết quả mà thành viên vốn đã được xem.\n",
+            "use_for_discussions": "Tìm kiếm cuộc thảo luận",
+            "use_for_users": "Tìm kiếm người dùng",
+            "use_for_posts": "Tìm kiếm bài viết",
+            "connection_label": "Kết nối",
+            "test_button": "Kiểm tra kết nối",
+            "test_ok": "Đã kết nối",
+            "test_fail": "Không kết nối được tới cụm",
+            "rebuild_label": "Chỉ mục tìm kiếm",
+            "rebuild_help": "Dựng hoặc làm mới mọi chỉ mục (cuộc thảo luận, người dùng, bài viết) từ nội dung sẵn có của bạn. Hãy chạy một lần sau khi nhập thông tin kết nối, và mỗi khi bạn nghi ngờ chỉ mục đã lệch. Với diễn đàn lớn, hãy cấu hình một worker hàng đợi thực thụ để việc này chạy nền thay vì chạy ngay trong một lượt truy cập web.\n",
+            "rebuild_button": "Dựng lại chỉ mục",
+            "rebuild_queued": "Đã đưa việc dựng lại vào hàng đợi. Nó sẽ chạy nền.",
+            "rebuild_failed": "Không bắt đầu được việc dựng lại. Hãy kiểm tra kết nối rồi thử lại."
         }
     }
 }

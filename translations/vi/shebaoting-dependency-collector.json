@@ -4,11 +4,11 @@
             "nav_title": "Phụ thuộc",
             "list": {
                 "submit_button": "Gửi phụ thuộc",
-                "filter_by_tag": "",
-                "all_tags": "",
+                "filter_by_tag": "Lọc theo danh mục",
+                "all_tags": "Tất cả danh mục",
                 "empty_text": "Không tìm thấy phụ thuộc nào.",
                 "my_favorites_button": "Yêu thích của tôi",
-                "search_placeholder": ""
+                "search_placeholder": "Tìm sản phẩm"
             },
             "item": {
                 "pending_approval": "Chờ phê duyệt",
@@ -17,36 +17,36 @@
                 "delete_confirmation_text": "Bạn có chắc chắn muốn xóa phụ thuộc này không? Hành động này không thể hoàn tác.",
                 "favorite_button_label": "Yêu thích",
                 "unfavorite_button_label": "Bỏ yêu thích",
-                "approve_button": "",
-                "unapprove_button": ""
+                "approve_button": "Duyệt",
+                "unapprove_button": "Bỏ duyệt"
             },
             "modal": {
                 "submit_title": "Gửi phụ thuộc mới",
-                "edit_title": "",
+                "edit_title": "Sửa phụ thuộc - {title}",
                 "title_label": "Tiêu đề",
                 "title_placeholder": "Ví dụ: Thư viện tuyệt vời",
                 "link_label": "Liên kết",
                 "description_label": "Mô tả",
                 "description_placeholder": "Tóm tắt ngắn gọn về chức năng của phụ thuộc này.",
-                "tags_label": "",
-                "tags_help": "",
+                "tags_label": "Danh mục",
+                "tags_help": "Hãy chọn ít nhất một danh mục phù hợp.",
                 "submit_button": "Gửi",
-                "save_changes_button": "",
-                "no_tags_available": ""
+                "save_changes_button": "Lưu thay đổi",
+                "no_tags_available": "Không có danh mục nào."
             }
         },
         "admin": {
             "nav": {
                 "title": "Trình thu thập phụ thuộc",
-                "description": ""
+                "description": "Quản lý các phụ thuộc đã gửi và các danh mục."
             },
             "page": {
                 "pending_items_title": "Phụ thuộc chờ xem xét",
                 "no_pending_items": "Không có phụ thuộc nào đang chờ xem xét.",
                 "approved_items_title": "Phụ thuộc đã được phê duyệt",
                 "no_approved_items": "Chưa có phụ thuộc nào được phê duyệt.",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "manage_tags_title": "Cài đặt danh mục",
+                "no_plugin_tags": "Chưa có danh mục nào được tạo."
             },
             "table": {
                 "title": "Tiêu đề",
@@ -54,8 +54,8 @@
                 "submitted_at": "Thời gian gửi",
                 "approved_by": "Phê duyệt bởi",
                 "approved_at": "Thời gian phê duyệt",
-                "tags": "",
-                "tag_name": "",
+                "tags": "Danh mục",
+                "tag_name": "Tên hạng mục",
                 "tag_slug": "Slug",
                 "tag_color_icon": "Màu & Biểu tượng",
                 "tag_item_count": "Mục",
@@ -64,7 +64,7 @@
                 "tag_icon": "Biểu tượng"
             },
             "actions": {
-                "create_tag": "",
+                "create_tag": "Tạo danh mục",
                 "approve": "Phê duyệt",
                 "reject": "Từ chối"
             },
@@ -72,42 +72,42 @@
                 "approve": "Phê duyệt phụ thuộc",
                 "reject": "Từ chối phụ thuộc",
                 "delete": "Xóa phụ thuộc",
-                "delete_tag": ""
+                "delete_tag": "Xóa danh mục \"{name}\"? Thao tác này sẽ gỡ nó khỏi mọi phụ thuộc liên quan."
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
+                "edit_tag_title": "Sửa danh mục - {name}",
+                "create_tag_title": "Tạo hạng mục mới",
                 "tag_name_label": "Tên",
                 "tag_slug_label": "Slug",
                 "tag_description_label": "Mô tả (Tùy chọn)",
                 "tag_color_label": "Màu (ví dụ:",
                 "tag_icon_label": "Biểu tượng (ví dụ: fas fa-code)",
                 "tag_icon_help": "Tìm biểu tượng tại <a>Font Awesome</a>.",
-                "save_button": "",
+                "save_button": "Lưu",
                 "icon_options": {
-                    "code": "",
-                    "cube": "",
-                    "layer_group": "",
-                    "puzzle_piece": "",
-                    "toolbox": "",
-                    "palette": "",
-                    "database": "",
-                    "cloud": "",
-                    "mobile": "",
-                    "shield": "",
-                    "link": "",
-                    "star": "",
-                    "bolt": "",
-                    "rocket": "",
-                    "book": "",
-                    "tags": "",
-                    "current": ""
+                    "code": "Mã",
+                    "cube": "Gói",
+                    "layer_group": "Lớp",
+                    "puzzle_piece": "Tiện ích",
+                    "toolbox": "Công cụ",
+                    "palette": "Thiết kế",
+                    "database": "Cơ sở dữ liệu",
+                    "cloud": "Đám mây",
+                    "mobile": "Di động",
+                    "shield": "Bảo mật",
+                    "link": "Liên kết",
+                    "star": "Nổi bật",
+                    "bolt": "Hiệu năng",
+                    "rocket": "Khởi chạy",
+                    "book": "Tài liệu",
+                    "tags": "Danh mục",
+                    "current": "Biểu tượng hiện tại: {icon}"
                 }
             },
             "permissions": {
                 "submit_label": "Gửi phụ thuộc",
                 "moderate_label": "Kiểm duyệt phụ thuộc (phê duyệt, từ chối, chỉnh sửa, xóa)",
-                "manage_tags_label": "",
+                "manage_tags_label": "Quản lý danh mục",
                 "delete_label": "Xóa phụ thuộc",
                 "favorite_items_label": "Yêu thích phụ thuộc"
             }

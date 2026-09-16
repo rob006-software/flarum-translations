@@ -1,19 +1,19 @@
 {
     "core": {
         "ref": {
-            "most_viewed": "",
-            "least_viewed": ""
+            "most_viewed": "Xem nhiều nhất",
+            "least_viewed": "Xem ít nhất"
         },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         },
         "lib": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
@@ -23,7 +23,7 @@
                 "title": "Đặt lại lượt xem cuộc thảo luận",
                 "submit": "Gửi",
                 "label": "Đặt số lượt xem thành",
-                "invalid": ""
+                "invalid": "Vui lòng nhập một số hợp lệ lớn hơn hoặc bằng 0"
             },
             "discussion_controls": {
                 "resetviews_button": "Đặt lượt xem"
@@ -35,14 +35,14 @@
             },
             "settings": {
                 "ignore_crawlers": "Bỏ qua lượt truy cập của trình thu thập thông tin",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Số giây trước khi một người xem được tính lại",
+                "dedupe_ttl_help": "Một người xem được ghi nhớ bao lâu sau khi xem một cuộc thảo luận, để việc tải lại hay quay lại không bị tính thêm lần nữa. Hãy đặt 0 để tính mọi lượt xem."
             }
         },
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "phổ biến"
                 }
             }
         }

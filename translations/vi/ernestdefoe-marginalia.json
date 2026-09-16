@@ -2,25 +2,25 @@
     "ernestdefoe-marginalia": {
         "admin": {
             "permissions": {
-                "highlight_label": "",
-                "moderate_label": ""
+                "highlight_label": "Tô sáng đoạn văn trong bài viết",
+                "moderate_label": "Gỡ phần tô sáng công khai của người khác"
             }
         },
         "forum": {
             "toolbar": {
-                "highlight": "",
-                "note": ""
+                "highlight": "Nổi bật",
+                "note": "Ghi chú"
             },
             "popup": {
-                "marked_by": "",
-                "private_only": "",
-                "note_placeholder": "",
-                "save": "",
-                "make_private": "",
-                "make_public": "",
-                "remove": ""
+                "marked_by": "{count, plural, one {# người đọc} other {# người đọc}} đã đánh dấu chỗ này",
+                "private_only": "Chỉ mình bạn thấy được dấu này",
+                "note_placeholder": "Một ghi chú cho riêng bạn — không ai khác đọc được.",
+                "save": "Lưu",
+                "make_private": "Chuyển thành riêng tư",
+                "make_public": "Chuyển thành công khai",
+                "remove": "Xóa"
             },
-            "error": ""
+            "error": "Không lưu được dấu đó."
         }
     }
 }

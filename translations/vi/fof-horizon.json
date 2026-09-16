@@ -2,12 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "locked_by_env": "",
-                "locked_by_code": "",
-                "mail_title": "",
-                "mail_help": "",
-                "email_concurrency": "",
-                "email_concurrency_help": "",
+                "locked_by_env": "Được đặt bằng một biến môi trường thành {value} — hãy sửa ở đó, không phải ở đây.",
+                "locked_by_code": "Được đặt trong mã nguồn (config.php hoặc extend.php) thành {value} — hãy sửa ở đó, không phải ở đây.",
+                "mail_title": "Gửi email",
+                "mail_help": "Quy định bao nhiêu email được gửi cùng lúc. Mỗi worker gửi một email\nmỗi lần, nên đây là số thư gửi đi đồng thời.\nHãy đặt bằng giới hạn kết nối đồng thời của nhà cung cấp email để bạn không\nvượt quá. Để trống để dùng mặc định (1).\n",
+                "email_concurrency": "Số email gửi đi đồng thời",
+                "email_concurrency_help": "Số email tối đa được gửi cùng lúc. Một biến môi trường\n(REDIS_HORIZON_EMAIL_CONCURRENCY) hoặc giá trị trong config.php, nếu có, sẽ ghi đè\ngiá trị này.\n",
                 "trim_title": "Cài đặt cắt bớt",
                 "trim_help": "Tại đây bạn có thể cấu hình khoảng thời gian (tính bằng phút) mà bạn muốn Horizon lưu giữ các công việc gần đây và các công việc thất bại. Thông thường, các công việc gần đây được giữ trong một giờ trong khi tất cả công việc thất bại được lưu trữ trong một tuần.\n",
                 "trim_recent": "Cắt bớt công việc gần đây",
@@ -22,14 +22,14 @@
                 "trim_failed_help": "Bảng này được dùng để hiển thị các công việc thất bại trong bảng điều khiển Horizon.\n",
                 "trim_monitored": "Cắt bớt công việc được giám sát",
                 "trim_monitored_help": "Bảng này được dùng để hiển thị các công việc được giám sát trong bảng điều khiển Horizon.\n",
-                "supervisor_title": "",
-                "supervisor_help": "",
-                "memory_limit": "",
-                "memory_limit_help": ""
+                "supervisor_title": "Cài đặt worker",
+                "supervisor_help": "Horizon chạy các worker hàng đợi của bạn theo những hồ sơ phân tầng (standard, fast,\nlong, emails). Số lượng worker, bộ nhớ và hàng đợi được cấu hình cho từng\nlần triển khai qua biến môi trường REDIS_HORIZON_*, config.php (dưới\nkhóa \"horizon\"), hoặc bộ mở rộng Horizon trong extend.php — hãy xem README của\ntiện ích. Hãy khởi động lại Horizon sau khi thay đổi cấu hình worker.\n",
+                "memory_limit": "Giới hạn bộ nhớ của tiến trình chính (MB)",
+                "memory_limit_help": "Giới hạn bộ nhớ cho tiến trình supervisor chính của Horizon. Horizon tự động\nnâng giá trị này lên bằng mức bộ nhớ worker lớn nhất, nên bạn hiếm khi cần\nđặt bằng tay.\n"
             },
             "stats": {
-                "queue_heading": "",
-                "kv_heading": "",
+                "queue_heading": "Hàng đợi",
+                "kv_heading": "Kho khóa - giá trị",
                 "full_dashboard": "Bảng điều khiển Horizon",
                 "auto_refresh": "Tự động làm mới",
                 "refresh": "Làm mới",
@@ -38,51 +38,51 @@
                     "fetch_failed": "Không thể lấy số liệu thống kê Horizon. Vui lòng kiểm tra cấu hình Redis của bạn.",
                     "setup_docs": "Xem tài liệu thiết lập Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
+                "eviction_pressure": "áp lực bộ nhớ",
+                "eviction_policy_tooltip": "Chính sách loại bỏ là cách kho dữ liệu chọn thứ cần xóa khi chạm giới hạn maxmemory. Mặc định là `noeviction`: giá trị mới sẽ không được lưu khi bộ nhớ đã đầy. Hãy bấm để xem tài liệu.",
+                "eviction_warning": "Mức dùng bộ nhớ đang ở {usage}% của maxmemory và chính sách loại bỏ là \"{policy}\", nên các khóa — có thể gồm cả dữ liệu hàng đợi — sắp bị loại bỏ. Hãy tăng maxmemory hoặc chuyển hàng đợi sang một cơ sở dữ liệu riêng có nhiều dung lượng trống hơn.",
                 "health": {
                     "excellent": "Tuyệt vời",
                     "good": "Tốt",
                     "poor": "Kém",
                     "critical": "Nghiêm trọng",
-                    "tooltip_heading": "",
+                    "tooltip_heading": "Điểm sức khỏe: {score}/100",
                     "factor": {
-                        "status": "",
-                        "wait": "",
-                        "memory": ""
+                        "status": "Horizon đang {value}",
+                        "wait": "Hàng đợi chờ lâu: {value}",
+                        "memory": "Áp lực bộ nhớ Redis: {value}"
                     },
                     "tooltip": "Điểm sức khỏe hệ thống: {score}/100"
                 },
                 "status": {
-                    "running": "",
-                    "paused": "",
-                    "inactive": "",
-                    "paused_pending": ""
+                    "running": "Đang chạy",
+                    "paused": "Tạm dừng",
+                    "inactive": "Không hoạt động",
+                    "paused_pending": "Đã tạm dừng · {count} đang chờ"
                 },
                 "period": {
-                    "minutes": "",
-                    "hour": "",
-                    "hours": "",
-                    "day": "",
-                    "days": ""
+                    "minutes": "{count} phút qua",
+                    "hour": "giờ qua",
+                    "hours": "{count} giờ qua",
+                    "day": "ngày qua",
+                    "days": "{count} ngày qua"
                 },
                 "data": {
-                    "processes": "",
+                    "processes": "Tiến trình worker",
                     "jobs-per-minute": "Công việc mỗi phút",
-                    "pending-jobs": "",
-                    "recent-jobs": "",
-                    "failed-jobs": "",
-                    "max-wait": "",
-                    "slowest-queue": "",
-                    "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
+                    "pending-jobs": "Công việc đang chờ xử lý",
+                    "recent-jobs": "Tác vụ",
+                    "failed-jobs": "Công việc thất bại",
+                    "max-wait": "Thời gian chờ tối đa",
+                    "slowest-queue": "Hàng đợi chậm nhất",
+                    "highest-throughput-queue": "Hàng đợi bận nhất",
+                    "memory-used": "Bộ nhớ đã dùng",
+                    "memory-peak": "Bộ nhớ cao nhất",
+                    "memory-max": "Bộ nhớ tối đa",
+                    "ops-per-sec": "Hoạt động mỗi giây",
+                    "connected-clients": "Máy khách đã kết nối",
+                    "blocked-clients": "Máy khách bị chặn",
+                    "eviction-policy": "Chính sách loại bỏ",
                     "redis-used-memory": "Bộ nhớ đã dùng của bộ nhớ đệm",
                     "redis-peak-memory": "Bộ nhớ đỉnh của bộ nhớ đệm",
                     "redis-max-memory": "Bộ nhớ tối đa của bộ nhớ đệm",
@@ -108,13 +108,13 @@
                     "failure-rate": "Tỷ lệ thất bại"
                 },
                 "tile": {
-                    "processes": "",
-                    "jobs_per_minute": "",
-                    "max_wait": "",
-                    "status": ""
+                    "processes": "Tiến trình worker",
+                    "jobs_per_minute": "Tác vụ / phút",
+                    "max_wait": "Thời gian chờ tối đa",
+                    "status": "Trạng thái"
                 },
-                "horizon_max_wait_none": "",
-                "horizon_max_wait_value": "",
+                "horizon_max_wait_none": "Không có",
+                "horizon_max_wait_value": "{seconds}s ở {queue}",
                 "heading": "Tổng quan hàng đợi"
             }
         }

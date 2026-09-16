@@ -2,30 +2,30 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "capped_notice": ""
+                "heading": "Được nhắc tới từ {count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}",
+                "load_error": "Không tải được các tham chiếu.",
+                "by_user": "bởi {username}",
+                "capped_notice": "Đang hiển thị 50 mục gần nhất."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} đã nhắc tới nội dung này từ {ref}",
+                "post_specific": " (một bài viết cụ thể)"
             },
             "notification": {
-                "text": ""
+                "text": "Đã nhắc tới cuộc thảo luận của bạn từ {discussion}"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "Số bài viết — bấm để sao chép tham chiếu chéo ({ref})",
+                "copied": "Đã sao chép {ref} vào bộ nhớ tạm.",
+                "copy_failed": "Không sao chép được. Tham chiếu là {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Tạo bài viết sự kiện liên kết ngược trong cuộc thảo luận đích",
+                "create_backlinks_help": "Khi một bài viết nhắc tới cuộc thảo luận khác, hãy chèn một bài viết hệ thống nhỏ vào cuộc thảo luận đích để cho biết nơi nhắc tới. Hãy tắt với những diễn đàn muốn giữ chủ đề đích yên tĩnh.",
+                "notify_author_label": "Thông báo cho tác giả của cuộc thảo luận đích",
+                "notify_author_help": "Gửi một thông báo trong ứng dụng tới tác giả của cuộc thảo luận được nhắc tới. Bài viết của chính người đó không bao giờ tự thông báo cho họ."
             }
         }
     }

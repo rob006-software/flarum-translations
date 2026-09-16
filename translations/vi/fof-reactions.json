@@ -12,18 +12,18 @@
                 "title": "Lượt bày tỏ cảm xúc",
                 "anonymous_count": "{count, plural, one {# người dùng ẩn danh} other {# người dùng ẩn danh}}",
                 "no_reactions": "Chưa có lượt bày tỏ cảm xúc nào",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": "",
-                "confirm_remove_all_reaction_type": "",
-                "confirm_remove_user_reaction": ""
+                "load_more": "Tải thêm",
+                "others_count": "+ {count, plural, one {# người khác} other {# người khác}}",
+                "remove_all_reaction_type": "Gỡ toàn bộ biểu cảm {reaction}",
+                "remove_user_reaction": "Gỡ biểu cảm",
+                "confirm_remove_all_reaction_type": "Bạn có chắc chắn muốn gỡ toàn bộ biểu cảm {reaction} khỏi bài viết này không? Hành động này không thể hoàn tác.",
+                "confirm_remove_user_reaction": "Bạn có chắc chắn muốn gỡ biểu cảm {reaction} của {username} khỏi bài viết này không? Hành động này không thể hoàn tác."
             },
             "mod_item": "Xem lượt bày tỏ cảm xúc",
             "react_button_label": "Cảm xúc",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "Gỡ biểu cảm",
+            "reaction_button_label": "Bày tỏ {reaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (# biểu cảm)} other {{reaction} (# biểu cảm)}}"
         },
         "admin": {
             "permissions": {
@@ -47,16 +47,16 @@
                         "identifier": "Mã nhận dạng"
                     },
                     "delete_confirmation": "Bạn có chắc chắn muốn xóa biểu cảm này không? Thao tác này không thể hoàn tác.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "Xóa biểu cảm",
+                    "add_reaction_button": "Thêm biểu cảm",
+                    "add_reaction_label": "Thêm một biểu cảm mới",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Chữ hiển thị",
+                        "identifier": "Định danh biểu tượng/emoji",
+                        "type": "Loại",
+                        "enabled": "Đang bật",
+                        "action": "Hành động",
+                        "preview": "Xem trước"
                     }
                 },
                 "convert": {

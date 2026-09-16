@@ -87,8 +87,8 @@
                     "vote_color": "Màu bình chọn",
                     "icon_name": "Biểu tượng tán thành/phản đối",
                     "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào có hậu tố -up và -down. Ví dụ: arrow, thumbs, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "icon_preview_upvote": "Bình chọn tăng",
+                    "icon_preview_downvote": "Bình chọn giảm",
                     "upvotes_only": "Chỉ cho phép tán thành",
                     "first_post_only": "Chỉ cho phép bình chọn cho bài viết đầu tiên trong cuộc thảo luận",
                     "allow_self_votes": "Người dùng có thể bình chọn cho bài viết của họ"
@@ -96,7 +96,7 @@
                 "save_settings": "Lưu cài đặt",
                 "convert": {
                     "button": "Chuyển đổi lượt thích thành lượt tán thành",
-                    "help": "",
+                    "help": "Chuyển những lượt thích trước đây từ flarum/likes thành lượt bình chọn tăng, đồng thời tính lại độ nóng cho mọi cuộc thảo luận hiện có.",
                     "converting": "Lượt thích của bạn đang được chuyển đổi. Hãy tải lại trang sau vài phút để thấy quá trình hoàn tất. (Thời gian chuyển đổi có thể lâu tùy theo tổng số lượt thích trên diễn đàn của bạn)",
                     "converted": "Đã chuyển đổi thành công tất cả {number} lượt thích"
                 },
@@ -136,7 +136,7 @@
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "nổi bật"
             }
         }
     }

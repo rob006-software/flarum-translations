@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "Đã chuyển {post_count, plural, one {một bài viết} other {{post_count} bài viết}} từ {discussion} sang {new_discussion}",
+                    "moved_to_new_discussion": "Đã chuyển {post_count, plural, one {một bài viết} other {{post_count} bài viết}} từ {discussion} sang cuộc thảo luận mới {new_discussion}"
                 }
             }
         }

@@ -2,31 +2,31 @@
     "linkrobins-auto-lock": {
         "forum": {
             "countdown": {
-                "days": "",
-                "day": "",
-                "today": "",
-                "title": ""
+                "days": "Cuộc thảo luận này sẽ khóa sau {count} ngày nữa nếu không ai trả lời.",
+                "day": "Cuộc thảo luận này sẽ khóa vào ngày mai nếu không ai trả lời.",
+                "today": "Cuộc thảo luận này sẽ khóa hôm nay nếu không ai trả lời.",
+                "title": "Những cuộc thảo luận im ắng sẽ tự động bị khóa sau {days} ngày."
             },
             "post": {
-                "locked": ""
+                "locked": "Đã tự động khóa sau {count} ngày không có ai trả lời."
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "days_label": "",
-                "days_help": "",
-                "exempt_tags_loading": "",
-                "exempt_tags_label": "",
-                "exempt_tags_help": "",
-                "show_countdown_label": "",
-                "show_countdown_help": "",
-                "post_notice_label": "",
-                "post_notice_help": "",
-                "scheduler_notice": ""
+                "title": "Tự động khóa",
+                "description": "Khóa những cuộc thảo luận đã im ắng, để các chủ đề cũ thôi nhận thêm những bài trả lời chẳng ai chờ.",
+                "enabled_label": "Tự động khóa những cuộc thảo luận im ắng",
+                "enabled_help": "Tắt cho tới khi bạn bật lên. Không có gì bị khóa trong lúc tùy chọn này đang tắt.",
+                "days_label": "Số ngày im lặng trước khi khóa",
+                "days_help": "Tính từ bài viết gần nhất. Tối thiểu là 1.",
+                "exempt_tags_loading": "Đang tải thẻ...",
+                "exempt_tags_label": "Những thẻ không bao giờ bị khóa",
+                "exempt_tags_help": "Cuộc thảo luận mang bất kỳ thẻ nào trong số này vẫn mở, dù im ắng đến đâu.",
+                "show_countdown_label": "Hiện phần đếm ngược phía trên ô trả lời",
+                "show_countdown_help": "Cho thành viên biết một cuộc thảo luận sắp bị khóa trong lúc họ vẫn còn trả lời được.",
+                "post_notice_label": "Để lại một dòng ghi chú trong cuộc thảo luận khi nó bị khóa",
+                "post_notice_help": "Thêm một dòng vào cuộc thảo luận nói rằng nó đã bị khóa tự động, và sau bao lâu. Không có dòng này thì chủ đề chỉ đóng lại mà không có lời giải thích nào.",
+                "scheduler_notice": "Tính năng này chạy trên bộ lập lịch của Flarum, nên chỉ hoạt động nếu máy chủ của bạn chạy lệnh schedule:run mỗi phút. Để xem điều gì sẽ xảy ra mà không thay đổi gì, hãy chạy lệnh auto-lock với --dry-run."
             }
         }
     }

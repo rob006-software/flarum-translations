@@ -75,15 +75,15 @@
                 }
             },
             "settings": {
-                "heading": "",
+                "heading": "Cài đặt",
                 "search": "Tìm kiếm mã mời",
                 "total_doorkeys": "Tổng số mã mời: {count}",
                 "create_doorkey_button": "Tạo mã mời",
                 "optional_usage": "Cho phép bỏ qua mã mời khi đăng ký",
-                "optional_usage_help": ""
+                "optional_usage_help": "Khi bật, khách truy cập có thể đăng ký mà không cần nhập mã mời."
             },
             "list": {
-                "heading": "",
+                "heading": "Mã mời",
                 "columns": {
                     "id": "ID",
                     "key": "=> fof-doorman.admin.ref.fields.key.label",
@@ -106,17 +106,17 @@
                     "no_created_by": "Người dùng không xác định"
                 },
                 "actions": {
-                    "notify": "",
-                    "edit": "",
-                    "delete": ""
+                    "notify": "Gửi email mã mời này",
+                    "edit": "Sửa mã mời",
+                    "delete": "Xóa mã mời"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -130,7 +130,7 @@
         },
         "email": {
             "subject": "Mời tham gia",
-            "body": ""
+            "body": "Bạn đã được mời đăng ký tài khoản tại {forum}.\n\nKhi bạn sẵn sàng tạo tài khoản, chỉ cần bấm vào liên kết sau và nhập mã khi đăng ký:\n\nUrl: {url}\nMã mời: {code}\n\nNếu bạn nhận được thư này do nhầm lẫn, vui lòng bỏ qua nó.\n"
         }
     }
 }

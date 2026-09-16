@@ -2,17 +2,17 @@
     "ernestdefoe-federation": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "username_label": "",
-                "username_help": "",
-                "handle_label": "",
-                "handle_help": ""
+                "enabled_label": "Bật liên hợp",
+                "enabled_help": "Giúp cộng đồng này được tìm thấy trên fediverse. Người dùng trên Mastodon, Lemmy và các máy chủ ActivityPub khác có thể theo dõi cộng đồng (và từng thành viên) rồi nhận mọi cuộc thảo luận mới trong dòng thời gian của họ. Các bài trả lời và lượt thích từ bên ngoài sẽ chảy ngược về thành bài viết. Hãy tắt để gỡ cộng đồng khỏi fediverse — mọi điểm cuối liên hợp sẽ ngừng phản hồi.\n",
+                "username_label": "Tên định danh của cộng đồng",
+                "username_help": "Phần tên người dùng trong định danh fediverse của cộng đồng. Để trống để dùng một định danh rút gọn từ tiêu đề diễn đàn của bạn. Chỉ gồm chữ cái, số và dấu gạch dưới.\n",
+                "handle_label": "Định danh cộng đồng của bạn",
+                "handle_help": "Hãy tìm đúng định danh này từ bất kỳ máy chủ fediverse nào để theo dõi cộng đồng. Việc đổi tên định danh bên trên sau khi đã có người theo dõi sẽ làm hỏng những lượt theo dõi sẵn có, nên hãy chọn một lần thôi.\n"
             }
         },
         "forum": {
-            "handle_label": "",
-            "handle_tooltip": ""
+            "handle_label": "Fediverse:",
+            "handle_tooltip": "Theo dõi thành viên này từ Mastodon, Lemmy và các máy chủ fediverse khác."
         }
     }
 }

@@ -1,42 +1,42 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Mục có sẵn",
+            "active_items": "Mục đang dùng",
+            "create_new_item_button": "Tạo mục mới",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Chỉnh sửa mục",
+                "label": "Nhãn",
+                "label_placeholder": "Mục tùy chỉnh của tôi",
+                "path": "Đường dẫn",
+                "url": "Url",
+                "icon": "Biểu tượng",
+                "icon_help": "Hãy nhập tên của bất kỳ lớp biểu tượng <a>FontAwesome</a> nào, gồm cả tiền tố <code>fas fa-</code>.",
+                "is_internal_checkbox": "Đây có phải là liên kết nội bộ?",
+                "open_new_tab_checkbox": "Mở liên kết trong tab mới",
+                "submit_button": "Lưu",
+                "delete_button": "Xóa",
+                "delete_item_confirmation": "Bạn có chắc muốn xóa mục này không?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Ẩn hiện khi cuộn trang",
+                "threshold_label": "Ngưỡng cuộn (px)",
+                "threshold_help": "Khoảng cách cần cuộn từ vị trí hiện tại để ẩn hoặc hiện."
             }
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "new_discussion": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Trang chủ",
+                "all_discussions": "Cuộc thảo luận",
+                "new_discussion": "Cuộc thảo luận mới",
+                "notifications": "Thông báo",
+                "session": "Phiên",
+                "search": "Tìm kiếm",
+                "log_in": "Đăng nhập",
+                "profile": "Hồ sơ",
+                "tags": "Thẻ",
+                "messages": "Tin nhắn",
+                "fof-byobu": "Riêng tư"
             }
         }
     }

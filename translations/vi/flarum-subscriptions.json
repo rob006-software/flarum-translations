@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Tự động theo dõi cuộc thảo luận mà tôi đã trả lời",
-                "follow_after_create_label": "",
+                "follow_after_create_label": "Tự động theo dõi những cuộc thảo luận tôi mở",
                 "notify_for_all_posts_label": "Thông báo tất cả bài viết mới thay vì chỉ bài viết cuối cùng trong cuộc thảo luận",
                 "notify_new_post_label": "Ai đó đăng bài trong cuộc thảo luận mà tôi theo dõi"
             },
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Bài viết mới] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} vừa đăng bài trong một cuộc thảo luận bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, hãy ghé liên kết sau:\n{url}\n\n---\n\n{content}\n\n---\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} vừa đăng bài trong một cuộc thảo luận bạn đang theo dõi: [{title}]({url}).\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "đang theo dõi",
+                        "ignoring_key": "đang bỏ qua"
                     }
                 }
             }

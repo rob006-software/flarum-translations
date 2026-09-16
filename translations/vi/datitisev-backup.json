@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "(Không bắt buộc) Đường dẫn tới các tệp thực thi của cơ sở dữ liệu",
+                "database_bin_path_help": "Nếu các tệp thực thi của cơ sở dữ liệu (ví dụ mysqldump, pg_dump) không nằm trong PATH của hệ thống, bạn có thể chỉ định thư mục chứa chúng ở đây. Hãy nhớ có dấu gạch chéo ở cuối (ví dụ <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Lưu trữ cục bộ",
@@ -27,8 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Cấu hình {adapter}",
                 "name_label": "Tên vị trí",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "timestamp_label": "Định dạng dấu thời gian trong tên tệp",
+                "timestamp_help": "Hãy chỉ định định dạng của dấu thời gian trong tên tệp sao lưu. Mặc định là <code>U</code> (dấu thời gian Unix). Dùng <a>cách định dạng ngày của PHP</a>. Những ký tự không an toàn cho tên tệp sẽ bị loại bỏ. Tên tệp sẽ có dạng <code>{forum}-[dấu thời gian đã định dạng].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Đường dẫn",
@@ -59,16 +59,16 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Chuỗi kết nối",
+                        "description": "Chuỗi kết nối tới kho lưu trữ Azure của bạn."
                     },
                     "container": {
                         "label": "Vùng chứa",
                         "description": "Vùng chứa Azure"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tiền tố đường dẫn",
+                        "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
                     }
                 },
                 "aws": {
@@ -134,9 +134,9 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "use-display-paths": {
-                        "label": "",
-                        "toggle": "",
-                        "description": ""
+                        "label": "Dùng đường dẫn hiển thị (cho phép ghi đè)",
+                        "toggle": "Dùng đường dẫn hiển thị",
+                        "description": "Google Drive có hỗ trợ lịch sử phiên bản. Tùy chọn này dùng đường dẫn của tệp làm định danh thay vì một định danh ngẫu nhiên. Khi tùy chọn này tắt, nhiều tệp cùng tên có thể cùng tồn tại trong một thư mục mà không xung đột. Khi bật, việc ghi vào một đường dẫn đã có sẽ ghi đè lên tệp sẵn có. <br/> <b>LƯU Ý:</b> Nếu bật tùy chọn này, hãy nhớ đổi ID thư mục thành đường dẫn hiển thị của thư mục! Nếu không, bạn sẽ có một thư mục được tạo ra mang tên chính ID thư mục đó.\n"
                     },
                     "help": {
                         "test_success_alert": "Đã kết nối thành công với Google Drive! Lưu các thay đổi để lưu trữ cài đặt.",
@@ -157,8 +157,8 @@
                         "description": "Mật khẩu người dùng để xác thực trên máy chủ FTP."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Chế độ bị động",
+                        "description": "Có dùng chế độ bị động cho kết nối FTP hay không."
                     },
                     "port": {
                         "label": "Cổng",
@@ -178,26 +178,26 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Cổng",
+                        "description": "Cổng SFTP (mặc định là 22)."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã khoá riêng tư",
+                        "description": "Đường dẫn (tốt nhất là tuyệt đối) tới khóa riêng dùng để xác thực kết nối SFTP."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Cụm mật khẩu",
+                        "description": "Cụm mật khẩu của khóa riêng, nếu có."
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Dùng agent",
+                        "description": "Có dùng SSH agent để xác thực kết nối hay không (mặc định là không)."
                     }
                 }
             },

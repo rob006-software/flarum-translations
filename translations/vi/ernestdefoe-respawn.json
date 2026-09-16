@@ -2,51 +2,51 @@
     "ernestdefoe-respawn": {
         "admin": {
             "settings": {
-                "mode_label": "",
-                "mode_help": "",
-                "tagline_label": "",
-                "tagline_help": "",
-                "eyebrow_label": "",
-                "eyebrow_help": "",
-                "chips_label": "",
-                "chips_help": "",
-                "mode_option_dark": "",
-                "mode_option_light": "",
-                "tagline_placeholder": "",
-                "eyebrow_placeholder": "",
-                "chips_placeholder": ""
+                "mode_label": "Chế độ giao diện",
+                "mode_help": "Chế độ màu mặc định. Người dùng có thể chuyển đổi bằng biểu tượng mặt trăng/mặt trời trên thanh đầu trang.",
+                "tagline_label": "Khẩu hiệu ở khối hero",
+                "tagline_help": "Dòng phụ đề hiện dưới lời chào. Để trống để ẩn.",
+                "eyebrow_label": "Dòng nhỏ trên khối hero",
+                "eyebrow_help": "Dòng nhấn nhỏ nằm trên tiêu đề chính (ví dụ ▸ Người chơi đã kết nối).",
+                "chips_label": "Thẻ nhanh ở khối hero",
+                "chips_help": "Danh sách các định danh thẻ, phân tách bằng dấu phẩy, để làm thẻ chuyển nhanh (ví dụ halo, elden-ring, deals). Để trống để ẩn.",
+                "mode_option_dark": "Tối",
+                "mode_option_light": "Sáng",
+                "tagline_placeholder": "Vào chơi, lên cấp và tham gia thảo luận.",
+                "eyebrow_placeholder": "▸ Người chơi đã kết nối",
+                "chips_placeholder": "halo, elden-ring, deals"
             }
         },
         "forum": {
             "hero": {
-                "welcome": "",
-                "new_discussion": "",
-                "search_placeholder": ""
+                "welcome": "Chào mừng đến với {forum}",
+                "new_discussion": "+ Cuộc thảo luận mới",
+                "search_placeholder": "Tìm cuộc thảo luận, người chơi, thẻ…"
             },
             "stats": {
-                "title": "",
-                "posts": "",
-                "discussions": "",
-                "members": "",
-                "online": "",
-                "live": "",
-                "empty": ""
+                "title": "Trạng thái máy chủ",
+                "posts": "Bài viết",
+                "discussions": "Cuộc thảo luận",
+                "members": "Thành viên",
+                "online": "Đang trực tuyến",
+                "live": "TRỰC TIẾP",
+                "empty": "—"
             },
             "mode": {
-                "to_light": "",
-                "to_dark": ""
+                "to_light": "Chuyển sang chế độ sáng",
+                "to_dark": "Chuyển sang chế độ tối"
             },
             "player": {
-                "level": "",
-                "progress": "",
-                "next": ""
+                "level": "CẤP {level} · {posts} BÀI VIẾT",
+                "progress": "{progress} / 100",
+                "next": "TIẾP THEO: CẤP {level}"
             },
             "rarity": {
-                "title": "",
-                "legendary": "",
-                "epic": "",
-                "rare": "",
-                "common": ""
+                "title": "Bậc độ hiếm",
+                "legendary": "Huyền thoại",
+                "epic": "Sử thi",
+                "rare": "Hiếm",
+                "common": "Phổ biến"
             }
         }
     }

@@ -2,7 +2,7 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Người dùng này chưa điền trường hồ sơ nào."
             },
             "alerts": {
                 "profile-completion-required": "Vui lòng hoàn thành các trường hồ sơ cần thiết bên dưới.\n",
@@ -37,12 +37,12 @@
             },
             "fields": {
                 "title": "Trường",
-                "create": "",
+                "create": "Tạo trường",
                 "edit": "Sửa trường {field}",
                 "delete-confirmation": "Bạn có chắc muốn xóa trường {field} không? Hành động này không thể hoàn tác.",
-                "is_restricted": "",
-                "permissions": "",
-                "permissions-alert": "",
+                "is_restricted": "Giới hạn mức hiển thị của trường",
+                "permissions": "Mức hiển thị của trường",
+                "permissions-alert": "Cài đặt quyền sẽ có sau khi trường được tạo và bạn mở sửa nó.",
                 "name": "Tên trường",
                 "name-help": "Nhãn trường hiển thị công khai (không thể dịch).\n",
                 "description": "Mô tả trường",
@@ -55,7 +55,7 @@
                 "icon": "Biểu tượng",
                 "icon-help": "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên biểu tượng với tiền tố \"fa-\", như \"fas fa-info\".\n",
                 "force-user-to-completion": "Buộc người dùng hoàn thành hồ sơ",
-                "hide-empty-fields": "",
+                "hide-empty-fields": "Ẩn những trường trống",
                 "options": "Tùy chọn",
                 "option-new": "Tùy chọn mới",
                 "option-comma-warning": "Nhãn của một tùy chọn không được chứa bất kỳ dấu phẩy nào (\",\").",
@@ -73,8 +73,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "",
-                    "hint": ""
+                    "key": "câu trả lời",
+                    "hint": "giá trị của các trường hồ sơ người dùng"
                 }
             }
         }
@@ -94,9 +94,9 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
+                    "field_created": "Đã tạo trường hồ sơ \"{name}\"",
+                    "field_updated": "Đã cập nhật trường hồ sơ \"{name}\"",
+                    "field_deleted": "Đã xóa trường hồ sơ \"{name}\"",
                     "profile_updated": "Đã cập nhật các trường hồ sơ của {username}"
                 }
             }

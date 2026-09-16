@@ -2,56 +2,56 @@
     "ernestdefoe-warren": {
         "forum": {
             "vote": {
-                "up": "",
-                "down": ""
+                "up": "Bình chọn tăng",
+                "down": "Bình chọn giảm"
             },
             "row": {
-                "posted_by": "",
-                "comments": "",
-                "share": "",
-                "share_copied": ""
+                "posted_by": "Đăng bởi {author}",
+                "comments": "{count, plural, one {# bình luận} other {# bình luận}}",
+                "share": "Chia sẻ",
+                "share_copied": "Đã sao chép liên kết."
             },
             "sort": {
-                "hot": "",
-                "top": ""
+                "hot": "Nổi bật",
+                "top": "Hàng đầu"
             },
             "thread": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Thu gọn",
+                "expand": "{count, plural, one {# câu trả lời} other {# câu trả lời}}"
             },
             "sidebar": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Thu gọn thanh bên",
+                "expand": "Hiện thanh bên"
             },
             "rail": {
-                "about": "",
-                "hashtags": "",
-                "hashtags_count": "",
-                "members": "",
-                "discussions": "",
-                "comments": "",
-                "create": ""
+                "about": "Về cộng đồng này",
+                "hashtags": "Hashtag phổ biến",
+                "hashtags_count": "{count, plural, one {# bài viết} other {# bài viết}}",
+                "members": "Thành viên",
+                "discussions": "Cuộc thảo luận",
+                "comments": "Bình luận",
+                "create": "Tạo bài viết"
             }
         },
         "admin": {
             "settings": {
-                "density_label": "",
-                "density_help": "",
-                "density_card": "",
-                "density_compact": "",
-                "default_sort_label": "",
-                "default_sort_help": "",
-                "default_sort_hot": "",
-                "default_sort_latest": "",
-                "show_about_label": "",
-                "show_about_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
-                "thread_depth_label": "",
-                "thread_depth_help": "",
-                "allow_self_votes_label": "",
-                "allow_self_votes_help": "",
-                "vote_permission_label": ""
+                "density_label": "Mật độ dòng",
+                "density_help": "Mỗi bài viết trong dòng tin được dành bao nhiêu khoảng trống.",
+                "density_card": "Thoáng — giãn cách đầy đủ và bo góc mềm",
+                "density_compact": "Gọn — danh sách dày cổ điển",
+                "default_sort_label": "Chế độ xem mặc định",
+                "default_sort_help": "Trang chủ mở ra ở chế độ nào trước khi ai đó chọn một cách sắp xếp.",
+                "default_sort_hot": "Nổi bật — kết hợp điểm số và thời gian",
+                "default_sort_latest": "Mới nhất — được trả lời gần đây nhất",
+                "show_about_label": "Hiện bảng Giới thiệu",
+                "show_about_help": "Bảng ở bên phải chứa phần mô tả diễn đàn, các con số thống kê và một nút để mở cuộc thảo luận. Tắt nó đi thì dòng tin sẽ lấy lại phần không gian đó.",
+                "hashtag_count_label": "Số hashtag trong bảng",
+                "hashtag_count_help": "Thanh bên hiện bao nhiêu hashtag được dùng nhiều nhất. Chỉ xuất hiện khi tiện ích Hashtags được bật.",
+                "thread_depth_label": "Mức thụt lề trả lời tối đa",
+                "thread_depth_help": "Một bài trả lời có thể lùi sang phải bao xa trước khi dừng lại. Những bài trả lời sâu hơn vẫn nằm dưới bài gốc của chúng, chỉ là thôi thụt lề — nhờ vậy một cuộc đối đáp dài không tràn ra khỏi cột.",
+                "allow_self_votes_label": "Cho phép mọi người bình chọn bài viết của chính mình",
+                "allow_self_votes_help": "Mặc định bật, giống fof/gamification. Hãy tắt nếu bạn xem việc tự bình chọn tăng là thổi phồng điểm số.",
+                "vote_permission_label": "Bình chọn bài viết"
             }
         }
     }

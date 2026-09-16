@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "toggle_on_editor": "Hiển thị nút chuyển chế độ rich text trên trình soạn thảo?",
-                "force_compact_paragraphs": ""
+                "force_compact_paragraphs": "Buộc dùng đoạn văn gọn cho mọi người dùng (phím Enter tạo một dòng mới thay vì một đoạn mới)"
             }
         },
         "lib": {
@@ -21,24 +21,24 @@
                     "remove_button": "Gỡ bỏ"
                 },
                 "additional_items_tooltip": "Điều khiển bổ sung",
-                "bold_tooltip": "",
-                "code_tooltip": "",
+                "bold_tooltip": "Chữ đậm ({modifierKey}-b)",
+                "code_tooltip": "Mã nội dòng ({modifierKey}-`)",
                 "code_block_tooltip": "Chèn khối mã",
-                "header_tooltip": "",
+                "header_tooltip": "Chuyển thành tiêu đề {level} ({modifierKey}-shift-{level})",
                 "horizontal_rule_tooltip": "Chèn đường kẻ ngang",
                 "image_tooltip": "Thêm hình ảnh",
-                "italic_tooltip": "",
+                "italic_tooltip": "Chữ nghiêng ({modifierKey}-i)",
                 "link_tooltip": "Thêm liên kết",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
+                "ordered_list_tooltip": "Danh sách đánh số ({modifierKey}-shift-9)",
+                "paragraph_tooltip": "Chuyển thành đoạn văn ({modifierKey}-shift-0)",
+                "quote_tooltip": "Chèn một trích dẫn ({modifierKey}-q)",
                 "spoiler_block_tooltip": "Khối Spoiler/Thả xuống",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
+                "spoiler_inline_tooltip": "Spoiler ({modifierKey}-;)",
+                "strike_tooltip": "Gạch ngang (alt-shift-5)",
+                "sub_tooltip": "Chỉ số dưới ({modifierKey}-,)",
+                "sup_tooltip": "Chỉ số trên ({modifierKey}-.)",
                 "text_type_tooltip": "Chọn kiểu văn bản",
-                "unordered_list_tooltip": ""
+                "unordered_list_tooltip": "Danh sách gạch đầu dòng ({modifierKey}-shift-8)"
             }
         },
         "forum": {

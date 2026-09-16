@@ -2,23 +2,23 @@
     "linkrobins-mobile-logo": {
         "admin": {
             "settings": {
-                "title": "",
-                "description": "",
-                "source_label": "",
-                "source_help": "",
-                "source_favicon": "",
-                "source_logo": "",
-                "source_custom": "",
-                "custom_url_label": "",
-                "custom_url_help": "",
-                "position_label": "",
-                "position_help": "",
-                "position_left": "",
-                "position_right": "",
-                "height_label": "",
-                "height_help": "",
-                "link_home_label": "",
-                "link_home_help": ""
+                "title": "Logo trên điện thoại",
+                "description": "Hiển thị logo của diễn đàn bạn trên thanh điều hướng ở điện thoại, nơi mà nếu không thì chỉ có một nút menu.",
+                "source_label": "Hiển thị hình ảnh nào",
+                "source_help": "Favicon thường là hình vuông, đúng dáng hình hợp với một thanh điều hướng. Một logo chữ nằm ngang thì thường không hợp.",
+                "source_favicon": "Favicon (khuyến nghị)",
+                "source_logo": "Logo diễn đàn",
+                "source_custom": "Một hình ảnh tùy chỉnh",
+                "custom_url_label": "Địa chỉ hình ảnh tùy chỉnh",
+                "custom_url_help": "Chỉ được dùng khi cài đặt bên trên đang chọn hình ảnh tùy chỉnh. Tốt nhất là một đường dẫn trên chính trang của bạn, chẳng hạn /assets/my-logo.png, để không thông tin nào về khách truy cập bị chia sẻ với bên khác. Một địa chỉ đầy đủ cũng dùng được, nhưng phải bắt đầu bằng https, và việc đặt hình ảnh ở nơi khác nghĩa là máy chủ đó thấy mọi khách truy cập tải trang. Nếu địa chỉ không dùng được, sẽ không có logo nào hiện ra thay vì một hình ảnh vỡ.",
+                "position_label": "Logo nằm ở đâu",
+                "position_help": "Bên trái các nút menu và quay lại, hoặc bên phải chúng. Đặt bên phải sẽ để các nút đó sát mép màn hình, hơi dễ bấm bằng ngón cái hơn.",
+                "position_left": "Bên trái các nút",
+                "position_right": "Bên phải các nút",
+                "height_label": "Chiều cao tính bằng pixel",
+                "height_help": "Hình ảnh cao bao nhiêu trên thanh điều hướng. Từ 16 đến 64. Mặc định là 32.",
+                "link_home_label": "Chạm vào logo sẽ về trang chủ",
+                "link_home_help": "Hãy tắt tùy chọn này để hiển thị logo mà không biến nó thành một liên kết."
             }
         }
     }

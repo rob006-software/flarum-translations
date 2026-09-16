@@ -2,41 +2,41 @@
     "datlechin-posted-on": {
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_os_only": "",
-                "display_mode_os_browser": "",
-                "skip_guests_label": "",
-                "skip_guests_help": ""
+                "display_mode_label": "Hiển thị gì bên cạnh một bài viết",
+                "display_mode_help": "Mức chi tiết cho từng bài viết. Thông tin đầy đủ luôn có trong phần chú thích khi di chuột.",
+                "display_mode_os_only": "Chỉ hệ điều hành (ví dụ Windows 11)",
+                "display_mode_os_browser": "Hệ điều hành và trình duyệt (ví dụ Windows 11 · Chrome 121)",
+                "skip_guests_label": "Không thu thập với khách",
+                "skip_guests_help": "Khi bật, những bài viết do tài khoản khách đăng sẽ không có dữ liệu nền tảng nào."
             }
         },
         "forum": {
             "post": {
                 "posted_on_text": "Đăng từ {posted_on}",
                 "tooltip": {
-                    "os": "",
-                    "client": "",
-                    "device": ""
+                    "os": "Hệ điều hành",
+                    "client": "Trình duyệt",
+                    "device": "Thiết bị"
                 }
             },
             "settings": {
                 "privacy_disclose_posted_on_label": "Cho phép người khác xem thiết bị của tôi đăng"
             },
             "device_types": {
-                "desktop": "",
-                "smartphone": "",
-                "tablet": "",
-                "feature phone": "",
-                "console": "",
-                "tv": "",
-                "car browser": "",
-                "smart display": "",
-                "camera": "",
-                "portable media player": "",
-                "phablet": "",
-                "smart speaker": "",
-                "wearable": "",
-                "peripheral": ""
+                "desktop": "Máy tính",
+                "smartphone": "Điện thoại",
+                "tablet": "Máy tính bảng",
+                "feature phone": "Điện thoại",
+                "console": "Máy chơi game",
+                "tv": "TV",
+                "car browser": "Ô tô",
+                "smart display": "Màn hình thông minh",
+                "camera": "Máy ảnh",
+                "portable media player": "Máy nghe nhạc",
+                "phablet": "Phablet",
+                "smart speaker": "Loa thông minh",
+                "wearable": "Thiết bị đeo",
+                "peripheral": "Thiết bị ngoại vi"
             }
         }
     }

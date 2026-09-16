@@ -4,10 +4,10 @@
             "permissions": {
                 "manage_pages_label": "Quản lý Trang nâng cao",
                 "view_spoilers_label": "Xem nội dung spoiler",
-                "create_text_label": "",
-                "create_bbcode_label": "",
-                "create_markdown_label": "",
-                "create_redirect_label": ""
+                "create_text_label": "Tạo trang: Văn bản thuần",
+                "create_bbcode_label": "Tạo trang: BBCode",
+                "create_markdown_label": "Tạo trang: Markdown",
+                "create_redirect_label": "Tạo trang: Chuyển hướng"
             },
             "pages": {
                 "create_button": "Tạo trang",
@@ -16,7 +16,7 @@
                 "type_column": "Loại",
                 "status_column": "Trạng thái",
                 "groups_column": "Nhóm",
-                "views_column": "",
+                "views_column": "Lượt xem",
                 "actions_column": "Hành động",
                 "everyone": "Mọi người",
                 "edit_button": "Chỉnh sửa",
@@ -25,7 +25,7 @@
                 "hidden": "Ẩn",
                 "restricted": "Yêu cầu đăng nhập",
                 "empty": "Chưa có trang nào được tạo.",
-                "drag_hint": ""
+                "drag_hint": "Kéo để sắp xếp lại — thả lên một trang để lồng nó vào bên dưới trang đó"
             },
             "settings": {
                 "title": "Cài đặt BBCode",
@@ -37,24 +37,24 @@
                 "forum_title": "Tích hợp diễn đàn",
                 "forum_help": "Ghi đè cách hiển thị spoiler trong các bài viết thông thường trên diễn đàn. Yêu cầu xóa bộ nhớ đệm trình định dạng (php flarum cache:clear).",
                 "replace_forum_spoiler": "Thay thế spoiler mặc định của Flarum bằng kiểu spoiler của Advanced Pages (details/summary)",
-                "code_buttons_in_posts": ""
+                "code_buttons_in_posts": "Hiện nút Chọn / Sao chép trên các khối mã trong bài viết diễn đàn"
             },
             "edit_page": {
                 "create_title": "Tạo trang",
                 "edit_title": "Chỉnh sửa trang",
                 "title_label": "Tiêu đề",
                 "slug_label": "Slug URL",
-                "parent_label": "",
-                "parent_none": "",
-                "parent_help": "",
+                "parent_label": "Trang cha",
+                "parent_none": "— Không có (cấp cao nhất) —",
+                "parent_help": "Không bắt buộc. Hãy lồng trang này dưới một trang khác để tạo cấu trúc phân cấp (ví dụ /p/docs/getting-started). Khi chọn trang cha, một đường dẫn tương ứng sẽ được gợi ý — bạn vẫn có thể sửa nó.",
                 "content_type_label": "Loại nội dung",
                 "type_text": "Văn bản thuần",
-                "type_redirect": "",
+                "type_redirect": "Chuyển hướng",
                 "content_label": "Nội dung",
-                "redirect_url_label": "",
-                "redirect_url_help": "",
-                "redirect_immediate_label": "",
-                "redirect_immediate_help": "",
+                "redirect_url_label": "URL chuyển hướng",
+                "redirect_url_help": "Nơi người truy cập trang này được đưa tới. Hãy dùng địa chỉ https:// đầy đủ (ví dụ https://example.com) hoặc một đường dẫn tính từ gốc của diễn đàn này (ví dụ /tags). Hãy ghim trang để thêm nó thành một liên kết trong menu điều hướng — số lượt bấm vẫn được đếm.",
+                "redirect_immediate_label": "Chuyển hướng ngay lập tức",
+                "redirect_immediate_help": "Bật: người truy cập được chuyển thẳng tới đích (một lệnh chuyển hướng HTTP thật). Tắt: trang hiện ra trong chốc lát rồi tự chuyển tiếp sau khoảng một giây. Dù thế nào thì lượt truy cập vẫn được đếm trước.",
                 "is_published_label": "Đã xuất bản",
                 "is_hidden_label": "Ẩn (chỉ quản trị viên nhìn thấy)",
                 "is_restricted_label": "Hạn chế (yêu cầu đăng nhập)",
@@ -76,16 +76,16 @@
                 "newline_flarum": "Flarum (mặc định — nhiều lần xuống dòng = một ngắt dòng)",
                 "newline_preserve": "Giữ nguyên (giữ mọi lần xuống dòng)",
                 "php_warning": "Trang PHP thực thi mã phía máy chủ. Chỉ tạo trang PHP nếu bạn hiểu rõ các rủi ro bảo mật. Lỗi sẽ được ghi log nhưng không bao giờ hiển thị cho khách truy cập.",
-                "allow_scripts_label": "",
-                "allow_scripts_help": "",
-                "custom_breadcrumbs_css_label": "",
-                "custom_breadcrumbs_css_help": "",
-                "pin_to_nav_label": "",
-                "pin_to_nav_help": "",
-                "pin_icon_label": "",
-                "pin_icon_help": "",
-                "pin_short_name_label": "",
-                "pin_short_name_help": ""
+                "allow_scripts_label": "Cho phép thẻ script chạy trên trang này",
+                "allow_scripts_help": "Kiểm soát các thẻ script trong trang này (mặc định tắt): khi tắt thì chúng không chạy, khi bật thì script nội tuyến và script bên ngoài đều chạy trong trình duyệt của mọi khách truy cập. Đây KHÔNG phải là môi trường cách ly — HTML thô vẫn có thể chạy JavaScript bằng cách khác (ví dụ các thuộc tính xử lý sự kiện nội tuyến như onerror), nên chỉ đăng những trang HTML/PHP mà bạn hoàn toàn tin tưởng.",
+                "custom_breadcrumbs_css_label": "CSS breadcrumb tùy chỉnh?",
+                "custom_breadcrumbs_css_help": "Tạo kiểu (hoặc ẩn) phần breadcrumb cho trang này và mọi trang lồng bên dưới nó. Hãy nhắm vào .AdvancedPages-breadcrumbs — ví dụ display:none để ẩn hoàn toàn.",
+                "pin_to_nav_label": "Ghim vào menu điều hướng",
+                "pin_to_nav_help": "Hiển thị trang này thành một liên kết trong thanh điều hướng bên của diễn đàn (cạnh Tất cả cuộc thảo luận, Thành viên, v.v.). Các trang được ghim đi theo đúng thứ tự của danh sách trang và tôn trọng mức hiển thị của từng trang.",
+                "pin_icon_label": "Biểu tượng menu (không bắt buộc)",
+                "pin_icon_help": "Lớp FontAwesome cho liên kết menu, ví dụ \"fas fa-book\" hoặc \"far fa-file-alt\". Để trống để dùng biểu tượng mặc định.",
+                "pin_short_name_label": "Tên rút gọn (không bắt buộc)",
+                "pin_short_name_help": "Một nhãn ngắn hơn cho menu, phòng khi tiêu đề trang quá dài. Để trống để dùng tiêu đề trang."
             },
             "support": {
                 "button": "Hỗ trợ phát triển",
@@ -97,16 +97,16 @@
         },
         "forum": {
             "code": {
-                "select": "",
-                "copy": "",
-                "copied": ""
+                "select": "Chọn",
+                "copy": "Sao chép",
+                "copied": "Đã sao chép!"
             },
             "redirect": {
-                "countdown": "",
-                "invalid": ""
+                "countdown": "Bạn sẽ được chuyển hướng sau {seconds} giây…",
+                "invalid": "Lệnh chuyển hướng này chưa được cấu hình với một đích hợp lệ."
             },
             "spoiler": {
-                "locked": ""
+                "locked": "Bạn không có quyền xem nội dung spoiler."
             },
             "page": {
                 "loading": "Đang tải...",

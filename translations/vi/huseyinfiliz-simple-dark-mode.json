@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "Luôn hiển thị nút chuyển đổi chủ đề trên đầu trang diễn đàn",
+                "always_show_header_toggle_help": "Theo mặc định, nút trên thanh đầu trang chỉ hiện với khách. Hãy bật tùy chọn này để hiện cả với người đã đăng nhập (dù sao họ vẫn luôn có nút chuyển đổi trong menu người dùng của mình).",
+                "solid_icon_label": "Hiện biểu tượng giao diện ở kiểu đặc",
+                "solid_icon_help": "Dùng biểu tượng Font Awesome kiểu đặc thay cho kiểu thường (viền) cho nút chuyển giao diện."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Chuyển đổi giao diện"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Chế độ tối",
+                "light_mode": "Chế độ sáng"
             }
         }
     }

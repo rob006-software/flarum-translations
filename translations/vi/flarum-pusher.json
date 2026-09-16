@@ -3,15 +3,15 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
-                "app_cluster_help": "",
+                "app_cluster_help": "Cụm máy chủ nơi ứng dụng Pusher của bạn được đặt (ví dụ <code>eu</code> hoặc <code>us2</code>), hiển thị ở trang \"App Keys\" của ứng dụng. Hãy để trống nếu bạn đặt tên máy chủ tùy chỉnh bên dưới.",
                 "app_id_label": "ID ứng dụng",
-                "app_id_help": "",
+                "app_id_help": "App ID dạng số lấy từ trang \"App Keys\" của ứng dụng Pusher của bạn.",
                 "app_key_label": "Mã khoá ứng dụng",
-                "app_key_help": "",
+                "app_key_help": "Khóa công khai lấy từ trang \"App Keys\" của ứng dụng Pusher của bạn. Nó được gửi tới trình duyệt nên không phải là bí mật.",
                 "app_secret_label": "Mã bí mật ứng dụng",
-                "app_secret_help": "",
-                "server_hostname_label": "",
-                "server_hostname_help": "",
+                "app_secret_help": "Mã bí mật riêng lấy từ trang \"App Keys\" của ứng dụng Pusher của bạn. Hãy giữ kín nó — nó chỉ được dùng ở phía máy chủ.",
+                "server_hostname_label": "Tên máy chủ",
+                "server_hostname_help": "Không bắt buộc. Ghi đè máy chủ mà trình duyệt kết nối tới, dành cho một máy chủ tương thích Pusher do bạn tự vận hành (ví dụ soketi). Hãy để trống để dùng dịch vụ của Pusher với cụm máy chủ ở trên.",
                 "title": "Thiết lập Pusher"
             }
         },
