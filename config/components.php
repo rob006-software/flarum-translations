@@ -503,7 +503,7 @@ return [
 		],
 	],
 	'ffans-threadmarks' => [
-		'beta' => 'https://raw.githubusercontent.com/FFans/threadmarks/v1.0.0-beta.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FFans/threadmarks/v1.0.0-beta.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
