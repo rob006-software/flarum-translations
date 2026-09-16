@@ -29,281 +29,281 @@
                 "crawl_post": {
                     "title": "Gönderi tarama ayarları",
                     "intro": "<b>Bu pencereyi dikkatlice okuyun.</b> Bu işlev yalnızca bir tartışma sayfasını yenilediğinizde yürütülecektir. Bu seçeneği daha sonra dilediğiniz zaman değiştirebilirsiniz.",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
+                    "mode_main_title": "Yalnızca ana gönderiyi dizine ekle (varsayılan)",
+                    "mode_main_help": "Arama motoru, arama sonuçlarında yalnızca ana gönderiyi gösterecektir. Forum bağlantıları üzerinden ona ulaştığınızda yükleme hızını etkilemez.",
+                    "mode_all_title": "Bir tartışmadaki tüm gönderileri dizine ekle (ayar etkin)",
                     "mode_all_help": "Arama motorları tartışmaları anlayacak ve hatta arama sonuçlarının altında bazı ilgili gönderileri gösterebilecektir. Forumunuzda '<a>best answer</a>' uzantısı yüklü ve etkin olduğunda, arama sonuçlarında tartışmayı 'cevaplandı' olarak işaretleyecek ve kullanıcıyı doğrudan o gönderiye yönlendirecektir. Ayrıca her yanıt, beğeni ve artı oy sayılarıyla birlikte sunulur; böylece arama motorları, best answers uzantısı olmasa bile en faydalı yanıtları tespit edebilir. <b>Ancak sunucu ayarlarınıza bağlı olarak bu işlem daha ağır olabilir</b>. Biraz performans maliyeti getirebilir, bu nedenle bu özelliği etkinleştirmek sunucunuzun ne kadar hızlı olduğuna bağlıdır.",
                     "question": "Bu özelliği etkinleştirmek istiyor musunuz?",
-                    "switch_label": ""
+                    "switch_label": "Tüm gönderileri tara (sayfa yenilemelerinde daha yavaştır, ancak arama sonuçları daha iyi olur)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Do-follow listesi",
+                    "intro": "Do-follow listesine eklemek istediğiniz alan adlarının <b>ana bilgisayar adlarını (hostname)</b> girin.",
+                    "default_note": "Flarum kurulumunuz için kullandığınız alan adı varsayılan olarak listeye eklenir.",
+                    "learn_more_line": "Do-follow listesi hakkında <a>daha fazla bilgi edinin</a>.",
+                    "add_placeholder": "Bir alan adına izin ver",
+                    "duplicate_error": "Bu alan adı do-follow listenizde zaten mevcut."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Forum anahtar kelimeleri",
+                    "help": "Forumunuzu tanımlayan bir veya daha fazla anahtar kelime girin.",
+                    "placeholder": "Birkaç anahtar kelime ekleyin",
+                    "comma_note": "Not: Anahtar kelimeleri virgülle ayırın.",
+                    "example": "Örnek: flarum, web geliştirme, forum, elma, güvenlik"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Bu sayfa yönetim panelinin diğer bölümlerinden bazı ayarları içerir. Yine de bu ayarlara topluca göz atmak faydalıdır. SEO kontrolünü yapmayı unutmayın.",
+                    "maintain": "Bu uzantıyı ilk kurduğunuzda tüm ayarlarınızı kontrol edin. En iyi arama sonuçlarını almak için bunları güncel tutun."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "X (eski Twitter) kart boyutu",
+                    "help": "Forumunuz X'te (eski Twitter) paylaşıldığında bir görsele sahip olacaktır (bir sosyal medya görseli ayarlanmışsa). Bu, büyük bir görsele sahip büyük bir kart veya daha küçük bir görsele sahip küçük bir kart (özet) olabilir.",
+                    "option_large": "Büyük kart (büyük görsel)",
+                    "option_summary": "Özet kartı (daha küçük görsel)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Sosyal medya görseli",
+                    "help_size": "Kare bir görsel bekleniyor. Önerilen boyut 1200x1200 pikseldir. Aksi takdirde yatay bir görsel kullanın, önerilen boyut 1200x630'dur.",
+                    "help_usage": "Bu görsel, bir kullanıcı web sitenizdeki bir sayfayı paylaştığında sosyal medya platformları (Facebook, X (eski Twitter), Reddit) tarafından kullanılacaktır."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Tartışma gönderisi tarama ayarları",
+                    "help": "Bu, tartışma gönderilerinizin arama sonuçlarında taranmasıyla ilgili önemli bir ayardır.",
+                    "button": "Gönderi tarama ayarlarını yapılandır"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Dizine ekleme kontrolleri",
+                    "profiles_label": "Profil sayfalarını dizinden kaldır",
+                    "profiles_help": "Etkinleştirildiğinde, kullanıcı profili sayfaları bir 'noindex' meta etiketi yayar, böylece arama sonuçlarının dışında tutulurlar. Sayfadaki bağlantılar yine de takip edilir, bu sayede tarayıcılar işaret ettikleri içeriğe erişebilir.",
+                    "tags_help": "Seçilen etiketlerdeki tartışmalar (ve bu etiketlerin kendi liste sayfaları) bir 'noindex' meta etiketiyle arama sonuçlarının dışında tutulacaktır. Bağlantılar yine de takip edilir. Bir üst etiketin seçilmesi, onun alt etiketlerini de kapsar.",
+                    "tags_button": "Etiketleri seç",
+                    "tags_none_selected": "Dizine eklemeden hariç tutulan etiket yok."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "heading": "No-follow bağlantıları",
+                    "help": "Harici alan adlarına giden tüm bağlantılar varsayılan olarak bir '<i>nofollow</i>' niteliği alır. Bu, insanların daha fazla yönlendirme almak amacıyla forumunuza diğer alan adlarına yönlendiren spam bağlantılar eklemesini önler.",
+                    "help_dofollow": "Bu ayar ile 'do-follow' listesine alan adları ekleyebilirsiniz. Örneğin, bu web sitesine giden bağlantıların bir 'nofollow' niteliği almamasını sağlamak için <i>flarum.org</i> ekleyebilirsiniz.",
+                    "button": "Alan adı do-follow listesini aç"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Harici bağlantıları yeni sekmede aç",
+                    "help": "Bu uzantı ayrıca harici bağlantıların (diğer alan adlarına giden) yeni bir sekmede açılmasını sağlar. Şu anda bu ayarı devre dışı bırakmak mümkün değildir."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Bu ayarı güncellediniz mi?",
+                    "help": "Hazır olduğunuzu düşündüğünüzde, bu ayarın durumunu yeniden kontrol etmek için aşağıdaki butona tıklayın.",
+                    "button": "Genel bakışa dön ve yeniden kontrol et"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Web sitenizi Arama Motorlarına Gönderin",
+                    "intro": "Sitenizin var olduğunu Arama Motorlarına bildirmek iyi bir uygulamadır. Bu sayfa bunu başarıyla yapmanızda size rehberlik edecektir.",
+                    "sitemap_tip": "Bu kılavuzu tamamlamadan önce bir site haritasının hazır olması önerilir. Henüz bir site haritanız yoksa, <a>onlar hakkında daha fazla bilgi edinmek için buraya tıklayın</a>.",
+                    "google_heading": "Web sitenizi Google arama sonuçlarına ekleyin",
+                    "google_visit": "Web sitenizi Google arama sonuçlarına eklemek istiyorsanız {link} adresini ziyaret edin. Web sitenizi eklemeniz ve ilişkili alan adının sahibi olduğunuzu doğrulamanız gerekecektir.",
+                    "google_www": "Alan adınızı girdiğinizde şu soruyu kendiniz için yanıtlamanız gerekir: Arama sonuçlarında 'www' alt alan adını kullanmak istiyor musunuz? Bunu daha sonra <strong>değiştiremezsiniz</strong>. Alan adınızı Google Search Console'a birden fazla kez kaydetmek daha iyi bir sıralama sağlamaz.",
+                    "google_sitemap": "Google Search Console'daki kaydı tamamladığınızda <b>Site Haritaları</b> sayfasını ziyaret edin. <b>sitemap.xml</b> dosyanızı Google'a iletin. Google'ın site haritanızı tarayabildiğinden ve bunu yapmaya devam edeceğinden emin olun.",
+                    "bing_heading": "Web sitenizi Bing arama sonuçlarına ekleyin",
+                    "bing_visit": "Web sitenizi Bing arama sonuçlarına eklemek istiyorsanız {link} adresini ziyaret edin ve verilen adımları tamamlayın. Tüm alanlar zorunlu değildir.",
+                    "bing_sitemap": "Site haritası URL'nizi yapılandırmayı unutmayın. Web sitenizi doğruladıktan sonra her şey hazır olacak ve Bing artık web sitenizi dizine ekleyecektir.",
+                    "yandex_heading": "Web sitenizi Yandex arama sonuçlarına ekleyin",
+                    "yandex_visit": "Web sitenizi Yandex arama sonuçlarına eklemek istiyorsanız {link} adresini ziyaret edin ve verilen adımları izleyin.",
+                    "yandex_sitemap": "Yandex.Webmaster'da site haritasını yapılandırmayı unutmayın.",
+                    "yahoo_heading": "Web sitenizi Yahoo arama sonuçlarına ekleyin",
+                    "yahoo_body": "Web sitenizi Yahoo arama sonuçlarına eklemek istiyorsanız Bing arama sonuçları kaydınızı tamamlayın. Yahoo bu verileri kullanacaktır.",
+                    "confirm_button": "Bunu okudum"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Neden bir site haritası kullanmalısınız?",
+                    "why_body": "Site haritası, web sitenizdeki tüm mevcut sayfaların bir listesini içeren bir XML dosyasıdır. Web sitenizdeki sayfaları bulmak için tarayıcılar ve arama motorları tarafından kullanılır.",
+                    "generated_note": "Site haritası dosyası otomatik olarak oluşturulur ve herhangi bir bakım gerektirmez.",
+                    "which_extension_heading": "Hangi uzantıyı yüklemeliyim?",
+                    "which_extension_body": "{link}, Flarum için yüklenmesi önerilen uzantıdır. Bu uzantıyı yüklemenizi ve etkinleştirmenizi şiddetle tavsiye ederiz.",
+                    "which_extension_details": "Bu uzantı, tarayıcıların forumunuzdaki <b>tartışmaları</b>, <b>etiketleri</b> (uzantı etkin olduğunda) ve <b>Sayfalar (Pages)</b> uzantısını (uzantı yüklü ve etkin olduğunda) bulmasını sağlayacaktır. Otomatik olarak bir sitemap.xml dosyası sunacaktır.",
+                    "robots_heading": "Peki ya robots.txt?",
+                    "robots_body": "Aynı uzantı forumunuz için bir <b>robots.txt</b> dosyası da oluşturur. Bu dosya, arama motorlarına hangi alanları tarayabileceklerini söyler ve onları site haritanıza yönlendirir; bu nedenle uzantıyı yüklemek her iki dosyayı da aynı anda halleder — yapılandırılacak fazladan bir şey yoktur.",
+                    "just_installed_heading": "Uzantıyı az önce yükledim",
+                    "just_installed_body": "Bu durumda, sol kenar çubuğundaki uzantıya tıklayarak etkinleştirin. Ardından bu uyarı kaybolacaktır."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
-                    "rankings_body": "",
-                    "rankings_body_ssl": "",
-                    "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
-                    "added_body": "",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "intro_heading": "Neden güvenli bir bağlantıya ihtiyacım var?",
+                    "intro_body": "İnternette güvenlik ve gizlilik bilinci artıyor. <b>Neredeyse her</b> geliştirici/web sitesi sahibi, web sitelerinin ziyaretçileri için güvenli olmasını ve verilerinin bilgisayar korsanları veya web sitesi taklitçileri tarafından ele geçirilmesinden korkmalarına gerek kalmamasını ister.",
+                    "rankings_heading": "Arama motorları güvenli bağlantıları {icon}",
+                    "rankings_body": "Web sitenizde güvenli bir bağlantı olmadığında, arama motorları sitenizi diğer sitelere göre çok daha alt sıralara yerleştirir veya hiç dizine eklemez.",
+                    "rankings_body_ssl": "SSL mevcut olduğunda, web siteniz daha yüksek bir sıralama elde eder ve dizine eklenir.",
+                    "what_heading": "SSL veya TLS nedir?",
+                    "what_body": "Çoğu kişi güvenli bağlantılar için kullanılan <b>https</b> protokolünü SSL olarak bilir: <i>Secure Sockets Layer</i>. Resmi olarak TLS olarak adlandırılır: <i>Transport Layer Security</i>. Bu yöntem, web sunucunuza güvenli bir bağlantı oluşturmak için kullanılır; bu da saldırganların veya diğer web sunucularının web sitenizi taklit etmesini önler ve ziyaretçilerinizi güvende tutar. Böyle bir durum gerçekleşirse SSL bağlantısı kesilir ve ziyaretçilerin tarayıcıları kullanıcıyı güvenilir olmadığı konusunda uyarır.",
+                    "how_heading": "Web sitenize SSL nasıl eklenir?",
+                    "how_body": "Web barındırma (hosting) kullananlar için en yaygın yöntem, web hosting paneline girmek, web sitenizin barındırma ayarlarına gitmek ve SSL'e tıklamaktır. Web sitenize SSL eklemek için adımları takip edebilirsiniz. Günümüzde çoğu web hosting şirketi popüler sertifika sağlayıcısı {link}'i desteklemektedir.",
+                    "added_heading": "Tamam, SSL ekledim!",
+                    "added_body": "Harika! Şimdi <b>config.php</b> dosyanızı açın ve <b>'url'</b> ayarını <b>https</b> olarak değiştirin!",
+                    "no_ssl_heading": "Ya SSL eklemek istemezsem?",
+                    "no_ssl_body": "Bu durumda, arama motorları güvenlik nedeniyle <b>forumunuzu dizine eklemeyeceğinden</b> veya diğer sitelerin çok altında sıralayacağından bu uzantıyı kaldırabilirsiniz."
                 },
                 "health": {
-                    "legend": "",
-                    "default_button": "",
+                    "legend": "En uygun arama motoru sonuçları için tüm kontrollerin yeşil olduğundan emin olun.",
+                    "default_button": "Ayarı güncelle",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Teknik",
+                        "status": "Durum"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Uyarı!",
+                        "passed": "Her şey hazır!"
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
-                            "button": ""
+                            "label": "Forumunuzun bir açıklaması olup olmadığını kontrol eder",
+                            "reason_missing": "Henüz bir forum açıklaması ayarlamadınız!",
+                            "reason_default": "Kurulumdan sonra varsayılan forum açıklamasını değiştirmediniz!",
+                            "reason_too_short": "Forum açıklamanız 20 karakterden az. Daha iyi arama sonuçları için lütfen genişletin.",
+                            "button": "Açıklamayı güncelle"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Forumunuzun anahtar kelimelerinin ayarlanıp ayarlanmadığını kontrol eder",
+                            "reason": "Henüz forum anahtar kelimelerini ayarlamadınız!",
+                            "button": "Anahtar kelimeleri güncelle"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sitenizde güvenli bir bağlantının (SSL/TLS) mevcut olup olmadığını kontrol eder",
+                            "reason": "Forumunuz bir SSL/TLS bağlantısını (web sitenize güvenli bir bağlantı) zorunlu kılmıyor. Çoğu arama motoru, güvenli bir bağlantı mevcut değilse web sitenizi dizine eklemez veya sıralamanızı düşürür.",
+                            "button": "SSL nasıl kurulur"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Tartışma gönderisi tarama ayarlarını gözden geçirin",
+                            "reason": "Bu kontrolü geçmek için bu ayarı gözden geçirmeniz gerekecektir.",
+                            "button": "Gönderi ayarlarını gözden geçir"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sosyal medya görseli ayarlayın",
+                            "reason": "Forumunuz için bir sosyal medya görseli belirlemediniz. Bir tane ayarlamanız önerilir. Sosyal medyada önizleme olarak artık favicon'unuz kullanılacaktır.",
+                            "button": "Görseli güncelle"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Forumunuzun bir site haritası olup olmadığını kontrol eder",
+                            "reason": "FriendsOfFlarum Sitemap uzantısını yüklemeniz şiddetle tavsiye edilir!",
+                            "button": "Site haritası ekleme hakkında daha fazla bilgi edinin"
                         },
                         "robots": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Forumunuzun bir robots.txt dosyası olup olmadığını kontrol eder",
+                            "reason": "Robots.txt dosyanız FriendsOfFlarum Sitemap uzantısı tarafından sağlanır. Arama motorlarının erişebileceği bir robots.txt sağlamak için uzantıyı yükleyin ve etkinleştirin.",
+                            "button": "Robots.txt ekleme hakkında daha fazla bilgi edinin"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Forumunuzda meta etiketlerin bulunup bulunmadığını kontrol eder (bu eklenti tarafından oluşturulur)"
                         },
                         "search_engines": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Forumunuzu arama motorlarına kaydedin",
+                            "reason": "Bu kontrolü geçmek için bunu gözden geçirmeniz gerekecektir.",
+                            "button": "Daha fazla bilgi"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "SEO ayarlarınızı her iki ayda bir gözden geçirin. Bir sonraki inceleme tarihi: {date}",
+                            "reason": "SEO ayarlarınızı yeniden gözden geçirme zamanı geldi.",
+                            "button": "Tamam! Gözden geçirdim!"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "{username} Profili",
+            "profile_description": "{username} Profili | {discussion_count} tartışma | {comment_count} gönderi",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "SEO'yu Yapılandır",
+                "update_seo": "SEO'yu Güncelle",
+                "reset_seo": "SEO'yu Sıfırla"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "SEO ayarları - Meta",
+                "note_prefix": "Not:",
+                "managed": "Yönetilen",
+                "saved": "Kaydedildi!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Kapat",
+                    "save": "Kaydet",
+                    "save_autofill": "Kaydet ve otomatik doldur",
+                    "autofill_info": "Bu değişiklik özel düzenlemeleri geri alacak ve meta etiketleri öge verileriyle dolduracaktır."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
-                    "body": ""
+                    "title": "Bu nesne desteklenen bir SeoMeta nesnesi değil",
+                    "docs_link": "Dokümantasyon",
+                    "body": "Lütfen bu pencereyi objectType ve objectId özelliklerini kullanarak açın veya bunun yerine nesne ilişkisini kaydedin."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Meta etiketleri otomatik güncelle",
+                    "help": "Etkinleştirildiğinde, nesne değiştiğinde bu ögenin meta etiketleri otomatik olarak güncellenir.",
+                    "switch": "Değişiklik olduğunda nesne SEO'sunu güncelle"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Meta başlığı",
+                    "help": "Arama motorlarındaki başlık.",
+                    "placeholder": "Sayfa başlığını girin"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Meta açıklaması",
+                    "help": "Ögeyi tanımlar ve arama motorlarında gösterilir."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Anahtar kelimeler",
+                    "help": "Bu ögeyi tanımlayan bir veya daha fazla anahtar kelime girin.",
+                    "placeholder": "Birkaç anahtar kelime ekleyin",
+                    "comma_note": "Not: Anahtar kelimeleri virgülle ayırın.",
+                    "example": "Örnek: flarum, web geliştirme, forum, elma, güvenlik"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Meta görseli",
+                    "help": "Bir görsel görüntüler.",
+                    "placeholder": "Görsel URL'si girin",
+                    "managed_by": "Görsel kaynağı {source} tarafından yönetiliyor",
+                    "upload": "Dosya yükle"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Robots",
+                    "help": "Bu öge için robot tarama ayarları.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "indexing_allowed": "Sayfanın dizine eklenmesine izin ver",
+                        "indexing_not_allowed": "Sayfanın dizine eklenmesine izin verilmiyor",
+                        "follow_allowed": "Bağlantıların takip edilmesine izin ver",
+                        "follow_not_allowed": "Bağlantı takibine izin verilmiyor",
+                        "archive_not_allowed": "Sayfaların arşivlenmesine izin verilmiyor",
+                        "imageindex_not_allowed": "Görsel dizine eklemeye izin verilmiyor",
+                        "snippet_not_allowed": "Metin parçacıklarının alınmasına izin verilmiyor"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Sayfanın dizine eklenmesine izin ver",
+                        "follow": "Farklı sayfalara giden bağlantıların takip edilmesine izin ver",
+                        "noarchive": "Sayfa arşivlemeyi devre dışı bırak (noarchive)",
+                        "noimageindex": "Bu sayfadaki görsellerin dizine eklenmesini devre dışı bırak (noimageindex)",
+                        "nosnippet": "Sayfadaki metin parçacıklarını devre dışı bırak (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Tahmini okuma süresi",
+                    "help": "Saniye cinsinden tahmini okuma süresi.",
+                    "placeholder": "Saniye cinsinden okuma süresi"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "X (eski adıyla Twitter) kartı",
+                    "auto_switch": "Otomatik X (eski adıyla Twitter) kartı oluştur",
+                    "title": "X (eski adıyla Twitter) başlığı",
+                    "description": "X (eski adıyla Twitter) açıklaması",
                     "image": {
-                        "label": "",
-                        "help": "",
-                        "reset": ""
+                        "label": "X (eski adıyla Twitter) görseli",
+                        "help": "X'te (eski adıyla Twitter) bir görsel görüntüler.",
+                        "reset": "Görseli sıfırla"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Open Graph etiketleri",
+                    "auto_switch": "Otomatik Open Graph etiketleri oluştur",
+                    "title": "Open Graph başlığı",
                     "description": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Open Graph açıklaması",
+                        "placeholder": "Özel Open Graph açıklaması"
                     }
                 }
             }
