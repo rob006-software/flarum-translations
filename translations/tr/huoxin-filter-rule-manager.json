@@ -194,8 +194,8 @@
             },
             "runs": {
                 "global": "Genel",
-                "backend": "Sunucu Tarafı (Backend)",
-                "frontend": "Ön Uç (Frontend)",
+                "backend": "Sunucu Tarafı",
+                "frontend": "Ön Uç",
                 "both": "Ön Uç + Sunucu Tarafı"
             },
             "templates": {
@@ -213,7 +213,7 @@
                 "strip_upload_tags_help": "Bu kurala karşı kontrol etmeden önce [upl-image-preview] ve diğer fof/upload kısa kod etiketlerini metinden kaldırır.",
                 "strip_images": "Görsel Bağlantılarını Temizle",
                 "strip_images_help": "Bu kurala karşı kontrol etmeden önce standart [img] BBCode ve Markdown görsel biçimlendirmelerini metinden kaldırır.",
-                "strip_urls": "Bağlantıları (URL) Temizle",
+                "strip_urls": "Bağlantıları Temizle",
                 "strip_urls_help": "Bu kurala karşı kontrol etmeden önce metindeki tüm http/https bağlantılarını kaldırır."
             },
             "displays": {
@@ -225,9 +225,9 @@
                 "header_banner_help": "Düzenleyici başlığının içinde, doğrudan metin düzenleyicinin üzerinde oluşturulan daha dar şerit.",
                 "sidebar": "Kenar Çubuğu",
                 "sidebar_help": "Düzenleyicinin sağına sabitlenmiş dikey kart (mobilde satır içine daralır).",
-                "toast": "Bildirim (Toast)",
-                "toast_help": "Sayfanın üst kısmında geçici bildirim. Kural hâlâ tetikleniyorken kullanıcı kapatırsa yeniden görünür.",
-                "modal": "Kalıcı Pencere (Modal)",
+                "toast": "Bildirim",
+                "toast_help": "Sayfanın üst kısmında geçici bildirim. Kural hal tetikleniyorken kullanıcı kapatırsa yeniden görünür.",
+                "modal": "Açılır Pencere",
                 "modal_help": "Kullanıcının işlemini kesintiye uğratan açılır pencere. Kural kümesi tetiklenmesi başına bir kez gösterilir — yalnızca kural temizlenip tekrar tetiklendiğinde yeniden açılır."
             },
             "rule_builder": {
@@ -255,11 +255,11 @@
             "token_matched_string_desc": "Regex tarafından yakalanan alt metin dizesi",
             "token_matched_group_desc": "Kuralı tetikleyen kullanıcı grubu kimliği",
             "token_word_count_desc": "Gönderinin hesaplanan kelime sayısı",
-            "type_contains_word": "Kelime(ler) içeriyor",
-            "type_regex": "Regex deseni/desenleri ile eşleşiyor",
-            "type_group": "Kullanıcı grupta/gruplarda",
+            "type_contains_word": "Kelime içeriyor",
+            "type_regex": "Regex deseni ile eşleşiyor",
+            "type_group": "Kullanıcı grupta",
             "type_word_count": "Kelime Sayısı Sınırı",
-            "type_rule_triggered": "Tetiklenen kural(lar) var",
+            "type_rule_triggered": "Tetiklenen kural var",
             "config_rule_triggered_match_rule_id": "Belirli Kural",
             "config_rule_triggered_match_rule_id_help": "Bağlı olunacak belirli bir kural seçin. Seçilirse aşağıdaki diğer filtreler yoksayılır.",
             "config_rule_triggered_match_name": "Kural Adı (İçerir veya Regex)",
