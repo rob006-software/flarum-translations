@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} etiketi değiştirdi"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Takip edilecek etiketleri seçin",
+                "modal_title": "Takip edilecek etiketleri seçin",
+                "later_button": "Bana daha sonra hatırlat",
+                "continue_button": "Foruma devam et"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Varsayılan Takip Etilenler Filtrelemesi",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Yeni kullanıcılardan takip edecekleri etiketleri seçmelerini iste",
+                "prompt_new_users_help": "Seçimlerini henüz onaylamamış olan kullanıcılara, etiketleri takip etmelerini isteyen bir pencere gösterilecektir. Bu pencere, kullanıcılar \"Foruma devam et\" butonuna basana kadar her ziyarette tekrar görünmeye devam edecektir.\n",
+                "prompt_button_on_following_page_label": "Takip Edilenler sayfasında \"Takip edilecek etiketleri seç\" düğmesini göster",
+                "prompt_tag_strategy_label": "İstemde önerilecek etiketler",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Birinci düzey birincil etiketler",
+                    "primaryAndChildren": "Herhangi bir seviyedeki tüm birincil etiketler",
+                    "primaryAndSecondary": "Birinci düzey birincil etiketler ve ikincil etiketler",
+                    "secondary": "Yalnızca ikincil etiketler",
+                    "all": "Tüm etiketler",
+                    "list": "Aşağıda seçilen etiketler"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Önerilecek etiketler",
+                "all_discussions_on_following_page_for_guests_label": "Takip edilen sayfadaki tüm tartışmaları misafirler için göster"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {

@@ -30,8 +30,8 @@
                 "quota_label": "Arama kotası",
                 "show_flag_label": "Her gönderi için ülke bayrağını göster",
                 "show_flag_help": "Kullanıcı tercihleri üzerinden katılım sağladığında, IP adresini açıklamadan, gönderi yazarının IP adresinin ülke bayrağını göster.",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "allow_custom_flag_label": "Kullanıcıların özel bir ülke bayrağı seçmesine izin ver",
+                "allow_custom_flag_help": "Etkinleştirildiğinde, kullanıcılar gönderilerinde gösterilmek üzere profil ayarlarından bir ülke bayrağı seçebilir. Kullanıcının seçtiği bayrak herkese gösterilir ve IP tabanlı bayrağın yerine geçer. \"Her gönderi için ülke bayrağını göster\" ayarının etkinleştirilmiş olmasını gerektirir.",
                 "test": {
                     "heading": "Servis Yapılandırmasını Test Et",
                     "help": "IP sorgulama servisinizin yapılandırmasını örnek bir IP adresiyle test edin. Test etmeden önce ayarlarınızı kaydettiğinizden emin olun."
@@ -63,26 +63,26 @@
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "IP Adresi Kopyalandı"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "IP'yi panoya kopyala",
+            "map_button_label": "IP Bilgisi",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "title": "IP Bilgisi",
+                "ip_address": "IP Adresi",
+                "country_code": "Ülke Kodu",
+                "zip_code": "Posta Kodu",
+                "isp": "İSS",
+                "as": "ASN",
+                "mobile": "Hücresel ağ",
+                "organization": "Kurum",
+                "threat_level": "Tehdit Seviyesi",
+                "threat_types": "Tehdit Türleri",
+                "error": "Hata",
+                "not_enough_data": "Harita için yeterli veri yok"
             },
             "custom_flag": {
-                "none": "",
+                "none": "Özel bayrak yok",
                 "placeholder": ""
             }
         },
@@ -90,8 +90,8 @@
             "user": {
                 "settings": {
                     "ip_country": "IP adresime göre, gönderdiğim ülkenin bayrağını göster",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Özel ülke bayrağı",
+                    "custom_flag_help": "Gönderilerinizde gösterilecek bir ülke bayrağı seçin. Bu bayrak herkes tarafından görülebilir ve IP adresinize göre belirlenen bayrağın yerine gösterilir."
                 }
             },
             "alerts": {

@@ -9,18 +9,18 @@
                 "bb_table": "Tablo",
                 "bb_info": "Uyarılar",
                 "bb_audio": "Ses",
-                "bb_image": "FoF Upload",
-                "bb_image_help": "Yazı editörüne görsel hizalama için yeni bir buton ekler. Büyük ortalanmış görseller otomatik olarak gönderi genişliğinin %60'ına, yan hizalanmış olanlar ise %40'ına kadar yeniden boyutlandırılır",
+                "bb_image": "Görsel hizalaması",
+                "bb_image_help": "Görselleri ve diğer satır içi medyaları bir hizalama kapsayıcısına sarar. Ortalanmış medya gönderi genişliğinin %60'ına, yana hizalanmış medya ise %40'ına kadar ölçeklendirilir",
                 "bb_iframe": "çerçeve",
                 "bb_iframe_help": "Herhangi bir kaynaktan iframe yerleştirilmesine izin verir. Dikkatli kullanın — gömülü içerik harici komut dosyaları içerebilir. 🧹 Bu ayarı değiştirdikten sonra lütfen Flarum önbelleğini temizleyin",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
+                "bb_hide_login": "Giriş",
+                "bb_hide_login_help": "İçerik ziyaretçilerden gizlenir ve tüm giriş yapmış kullanıcılara görünür",
+                "bb_hide_reply": "Yanıt",
+                "bb_hide_reply_help": "İçerik, kullanıcı tartışmaya yanıt verene kadar gizlenir",
+                "bb_hide_like": "Beğen",
+                "bb_hide_like_help": "İçerik, kullanıcı gönderiyi beğenene kadar gizlenir",
+                "bb_anchor": "Çapa ve Atlama",
+                "bb_anchor_help": "Gönderi içi adlandırılmış kaydırma hedefleri ve atlama bağlantıları",
                 "toolbar_group": "MagicBB düğmelerini grupla",
                 "toolbar_group_help": "Etkinleştirildiğinde, düzenleyicideki tüm MagicBB düğmeleri tek bir düğme halinde gruplanacaktır"
             },
@@ -29,12 +29,12 @@
                 "content": "İçerik düğmeleri",
                 "images": "Görsel düğmeleri",
                 "features": "Özellikler",
-                "hide": ""
+                "hide": "Düğmeleri gizle"
             },
             "permissions": {
                 "use_iframe": "iframe'e izin ver",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "bypass_like": "Beğenme gereksinimini atla",
+                "bypass_reply": "Yanıtlama gereksinimini atla"
             }
         },
         "forum": {
@@ -48,16 +48,16 @@
                 "audio_button": "Ses ekle",
                 "image_button": "Akıllı görsel ekle",
                 "more_button": "Devamı",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "hide_login_button": "Gizli — giriş yapmak gerekli",
+                "hide_reply_button": "Gizli — yanıt yapmak gerekli",
+                "hide_like_button": "Gizli — beğenmek gerekli",
+                "anchor_button": "Çapa ekle",
+                "jump_button": "Atlama bağlantısı ekle"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "Bu içeriği görmek için giriş yapın",
+                "like_to_see_simple": "Bu içeriği görmek için bu gönderiyi beğenin",
+                "reply_to_see_simple": "Bu içeriği görmek için bu tartışmaya yanıt verin"
             }
         }
     }
