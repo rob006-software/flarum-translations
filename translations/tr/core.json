@@ -215,16 +215,16 @@
             "failed_jobs": {
                 "title": "Gerçekleşemeyen İşlemler",
                 "none": "Gerçekleşemeyen iş yok.",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "meta": "{queue} kuyruğu · başarısız {time}",
+                "details": "Detaylar",
+                "retry": "Tekrar",
+                "retry_all": "Tümünü tekrarla",
+                "delete": "Sil"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "Kuyruk işleme duraklatıldı (kuyruk: {queues}). İşler, yeniden başlatılana kadar birikecektir.",
+                "queue_paused_all_warning": "Tüm kuyruk işleme duraklatıldı. İşler, yeniden başlatılana kadar birikecektir.",
+                "queue_paused_manage": "Yönet",
                 "clear_cache_button": "Önbelleği Temizle",
                 "description": "Bir bakışta forumun.",
                 "info_button": "Sistem Bilgisi",
@@ -252,9 +252,9 @@
                 "tools_button": "Araçlar"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
-                "all_healthy": "",
+                "abandoned_no_replacement": "Önerilen bir alternatif yok",
+                "abandoned_with_replacement": "Yerine önerilen: {replacement}",
+                "all_healthy": "Tüm uzantılar sorunsuz.",
                 "section_abandoned_empty": "",
                 "section_suggested_empty": "",
                 "section_disabled_empty": "",
