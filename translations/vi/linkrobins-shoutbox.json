@@ -1,57 +1,57 @@
 {
     "linkrobins-shoutbox": {
         "forum": {
-            "nav": "",
-            "page_title": "",
+            "nav": "Shoutbox",
+            "page_title": "Shoutbox",
             "widget": {
-                "title": "",
-                "placeholder": "",
-                "send": "",
-                "login_to_shout": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_error": "",
-                "load_error": "",
-                "rate_limited": "",
-                "unknown_user": "",
-                "time_seconds": "",
-                "time_minutes": "",
-                "time_hours": ""
+                "title": "Shoutbox",
+                "placeholder": "Nói gì đó...",
+                "send": "Gửi",
+                "login_to_shout": "Hãy đăng nhập để nhắn!",
+                "delete": "Xóa",
+                "delete_confirm": "Xóa tin nhắn này?",
+                "delete_error": "Không xóa được tin nhắn. Vui lòng thử lại.",
+                "load_error": "Không tải được tin nhắn.",
+                "rate_limited": "Bạn đang gửi quá nhanh. Vui lòng đợi một lát.",
+                "unknown_user": "Người dùng",
+                "time_seconds": "{count} giây",
+                "time_minutes": "{count} phút",
+                "time_hours": "{count} giờ"
             }
         },
         "api": {
-            "empty_content": "",
-            "rate_limited": ""
+            "empty_content": "Bạn phải nhập một tin nhắn.",
+            "rate_limited": "Bạn đang gửi quá nhanh. Vui lòng đợi một lát."
         },
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_both": "",
-                "display_mode_widget": "",
-                "display_mode_page": "",
-                "order_label": "",
-                "order_help": "",
-                "order_oldest_first": "",
-                "order_newest_first": "",
-                "composer_position_label": "",
-                "composer_position_help": "",
-                "composer_position_auto": "",
-                "composer_position_bottom": "",
-                "composer_position_top": "",
-                "height_label": "",
-                "height_help": "",
-                "poll_interval_label": "",
-                "poll_interval_help": "",
-                "cooldown_label": "",
-                "cooldown_help": "",
-                "max_rows_label": "",
-                "max_rows_help": ""
+                "display_mode_label": "Chế độ hiển thị",
+                "display_mode_help": "Hãy chọn nơi shoutbox xuất hiện trên diễn đàn.",
+                "display_mode_both": "Cả trang riêng và tiện ích con",
+                "display_mode_widget": "Chỉ tiện ích con",
+                "display_mode_page": "Chỉ trang riêng",
+                "order_label": "Thứ tự tin nhắn",
+                "order_help": "Nơi tin nhắn mới xuất hiện. Theo mặc định, ô soạn tin đi theo thứ tự này và nằm cạnh tin nhắn mới nhất, bạn có thể thay đổi bên dưới.",
+                "order_oldest_first": "Cũ nhất trước (mới nhất ở dưới cùng)",
+                "order_newest_first": "Mới nhất trước (mới nhất ở trên cùng)",
+                "composer_position_label": "Vị trí ô soạn tin",
+                "composer_position_help": "Nơi đặt ô để mọi người gõ tin nhắn. Theo mặc định, nó đi theo thứ tự tin nhắn nên luôn nằm cạnh tin nhắn mới nhất.",
+                "composer_position_auto": "Cạnh tin nhắn mới nhất (mặc định)",
+                "composer_position_bottom": "Luôn ở dưới cùng",
+                "composer_position_top": "Luôn ở trên cùng",
+                "height_label": "Chiều cao vùng tin nhắn (px)",
+                "height_help": "Chiều cao của vùng tin nhắn tính bằng pixel. Mặc định là 320.",
+                "poll_interval_label": "Chu kỳ làm mới (giây)",
+                "poll_interval_help": "Bao lâu thì một shoutbox đang mở kiểm tra tin nhắn mới. Giá trị lớn hơn giúp giảm tải cho diễn đàn đông người. Từ 10 đến 300, mặc định là 30.",
+                "cooldown_label": "Thời gian chờ (giây)",
+                "cooldown_help": "Số giây tối thiểu một người dùng phải đợi giữa hai tin nhắn. Mặc định là 3.",
+                "max_rows_label": "Số tin nhắn lưu tối đa",
+                "max_rows_help": "Những tin nhắn cũ vượt quá số này sẽ bị dọn đi. Mặc định là 500."
             },
             "permissions": {
-                "view": "",
-                "shout": "",
-                "moderate": ""
+                "view": "Xem shoutbox",
+                "shout": "Gửi tin nhắn",
+                "moderate": "Xóa tin nhắn của người khác"
             }
         }
     }

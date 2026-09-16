@@ -2,13 +2,13 @@
     "fof-profile-image-crop": {
         "forum": {
             "modal": {
-                "crop_too_small": "",
+                "crop_too_small": "Vùng đã chọn quá nhỏ — hãy chọn ít nhất {size}×{size} pixel để ảnh đại diện được sắc nét.",
                 "error": {
                     "failed_to_load_cropper": "Không thể tải trình cắt ảnh.",
                     "generic_resize": "Đã xảy ra lỗi khi cắt và thay đổi kích thước hình ảnh.",
                     "get_image_data": "Không thể cắt ảnh. Hãy đảm bảo tính năng chống theo dõi vân tay (fingerprinting) của trình duyệt đã được tắt."
                 },
-                "help_text": "",
+                "help_text": "Việc tải ảnh lên có thể thất bại nếu cài đặt riêng tư của trình duyệt bạn quá nghiêm ngặt. Nếu gặp trục trặc, hãy thử tắt phần bảo vệ chống lấy dấu vân tay trình duyệt. Nếu không, bạn có thể <disableCrop>tắt hẳn việc cắt ảnh</disableCrop>.\n",
                 "submit_button": "Tải lên",
                 "submit_crop_button": "Cắt & Tải lên"
             }

@@ -2,170 +2,170 @@
     "datlechin-references": {
         "admin": {
             "sections": {
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "display_label": "",
-                "display_description": "",
-                "discovery_label": "",
-                "discovery_description": "",
-                "maintenance_label": "",
-                "maintenance_description": "",
-                "extensions_label": "",
-                "extensions_description": ""
+                "behaviour_label": "Cách hoạt động",
+                "behaviour_description": "Những liên kết nào trong bài viết được ghi nhận là tham chiếu.",
+                "display_label": "Hiển thị",
+                "display_description": "Tham chiếu xuất hiện ở đâu, và hiển thị bao nhiêu mục trước khi danh sách bị cắt bớt.",
+                "discovery_label": "Khám phá",
+                "discovery_description": "Các tiện ích được dựng từ đồ thị tham chiếu.",
+                "maintenance_label": "Bảo trì",
+                "maintenance_description": "Một tham chiếu tới nội dung đã bị xóa được giữ lại bao lâu.",
+                "extensions_label": "Tiện ích khác",
+                "extensions_description": "Những thiết lập mà các tiện ích khác thêm vào trang này."
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "extract_url_references_label": "",
-                "extract_url_references_help": "",
-                "extract_short_references_label": "",
-                "extract_short_references_help": "",
-                "extract_mention_references_label": "",
-                "extract_mention_references_help": "",
-                "event_post_enabled_label": "",
-                "event_post_enabled_help": "",
-                "max_preview_label": "",
-                "max_preview_help": "",
-                "related_discussions_enabled_label": "",
-                "related_discussions_enabled_help": "",
-                "related_discussions_limit_label": "",
-                "related_discussions_limit_help": "",
-                "related_max_candidates_label": "",
-                "related_max_candidates_help": "",
-                "cache_ttl_label": "",
-                "cache_ttl_help": "",
-                "graph_max_depth_label": "",
-                "graph_max_depth_help": "",
-                "graph_max_per_hop_label": "",
-                "graph_max_per_hop_help": "",
-                "notify_followers_label": "",
-                "notify_followers_help": "",
-                "broken_retention_days_label": "",
-                "broken_retention_days_help": ""
+                "enabled_label": "Ghi nhận tham chiếu",
+                "enabled_help": "Khi tắt, sẽ không có tham chiếu mới nào được ghi. Các tham chiếu hiện có vẫn được giữ.",
+                "extract_url_references_label": "Ghi nhận liên kết được dán vào",
+                "extract_url_references_help": "Một liên kết tới cuộc thảo luận hoặc bài viết trong diễn đàn này sẽ trở thành một tham chiếu.",
+                "extract_short_references_label": "Ghi nhận tham chiếu được gõ",
+                "extract_short_references_help": "Dạng @\"Tiêu đề thảo luận\"#d123, được chèn vào khi gõ # trong trình soạn thảo.\n",
+                "extract_mention_references_label": "Ghi nhận lượt nhắc bài viết",
+                "extract_mention_references_help": "Cần tiện ích Mentions. Không có nó, một bài trả lời sẽ xuất hiện trong hai danh sách không khớp nhau.",
+                "event_post_enabled_label": "Thông báo tham chiếu ngay trong cuộc thảo luận",
+                "event_post_enabled_help": "Thêm một dòng vào cuộc thảo luận được tham chiếu cho biết nó được dẫn từ đâu. Các dòng liên tiếp sẽ được gộp thành một.\n",
+                "max_preview_label": "Số tham chiếu hiển thị cùng lúc",
+                "max_preview_help": "Phần còn lại nằm sau một nút bấm.",
+                "related_discussions_enabled_label": "Hiển thị các cuộc thảo luận liên quan",
+                "related_discussions_enabled_help": "Được tính từ việc những cuộc thảo luận nào hay được dẫn cùng nhau, chứ không dựa vào thẻ hay tiêu đề.",
+                "related_discussions_limit_label": "Số cuộc thảo luận liên quan được hiển thị",
+                "related_discussions_limit_help": "Ở thanh bên của một cuộc thảo luận.",
+                "related_max_candidates_label": "Số cuộc thảo luận được đọc để tìm ra chúng",
+                "related_max_candidates_help": "Một mức trần, để một cuộc thảo luận được dẫn quá nhiều không làm việc này trở nên tốn kém.",
+                "cache_ttl_label": "Thời gian lưu bộ nhớ đệm (giây)",
+                "cache_ttl_help": "Danh sách và đồ thị được giữ bao lâu trước khi tính lại. Đặt 0 để tắt bộ nhớ đệm.",
+                "graph_max_depth_label": "Độ sâu của đồ thị",
+                "graph_max_depth_help": "Đồ thị lan ra bao nhiêu bước tính từ một cuộc thảo luận.",
+                "graph_max_per_hop_label": "Số liên kết mỗi bước",
+                "graph_max_per_hop_help": "Vượt quá mức này, đồ thị chỉ hiển thị những mục mới nhất và nói rõ điều đó.",
+                "notify_followers_label": "Thông báo cả cho người theo dõi",
+                "notify_followers_help": "Cần tiện ích Subscriptions. Khi tắt, chỉ tác giả của nội dung được tham chiếu nhận được thông báo.",
+                "broken_retention_days_label": "Giữ các tham chiếu hỏng (ngày)",
+                "broken_retention_days_help": "Một tham chiếu tới nội dung đã bị xóa sẽ còn trong báo cáo bấy nhiêu ngày. Đặt 0 để giữ mãi mãi."
             },
             "permissions": {
-                "manage_references": "",
-                "view_broken_report": "",
-                "view_analytics": ""
+                "manage_references": "Tạo và sửa tham chiếu",
+                "view_broken_report": "Xem các tham chiếu hỏng",
+                "view_analytics": "Xem dữ liệu phân tích tham chiếu"
             },
             "analytics": {
-                "title": "",
-                "total_label": "",
-                "broken_label": "",
-                "manual_label": "",
-                "by_origin_label": "",
-                "by_relation_label": "",
-                "export_button": "",
-                "empty": "",
-                "unavailable": "",
-                "chart_label": ""
+                "title": "Tham chiếu",
+                "total_label": "Tham chiếu",
+                "broken_label": "Bị hỏng",
+                "manual_label": "Thêm thủ công",
+                "by_origin_label": "Cách chúng được tìm thấy",
+                "by_relation_label": "Chúng thể hiện điều gì",
+                "export_button": "Xuất CSV",
+                "empty": "Chưa ghi nhận gì.",
+                "unavailable": "Không đọc được các số liệu.",
+                "chart_label": "Số tham chiếu mỗi ngày. {count, plural, one {# ngày} other {# ngày}} có hoạt động, cao điểm nhất là {peak}."
             },
             "origin": {
-                "url": "",
-                "shortref": "",
-                "mention": "",
-                "manual": ""
+                "url": "Liên kết được dán",
+                "shortref": "Tham chiếu được gõ",
+                "mention": "Lượt nhắc bài viết",
+                "manual": "Thêm thủ công"
             },
             "relation": {
-                "references": "",
-                "duplicate_of": "",
-                "see_also": "",
-                "supersedes": "",
-                "answers": ""
+                "references": "Tham chiếu tới",
+                "duplicate_of": "Trùng với",
+                "see_also": "Xem thêm",
+                "supersedes": "Thay thế cho",
+                "answers": "Trả lời cho"
             },
             "broken": {
-                "title": "",
-                "description": "",
-                "empty": "",
-                "unavailable": "",
-                "truncated": "",
-                "target_column": "",
-                "source_column": "",
-                "broken_at_column": ""
+                "title": "Tham chiếu hỏng",
+                "description": "Những tham chiếu trỏ tới nội dung không còn tồn tại.",
+                "empty": "Không có tham chiếu hỏng nào.",
+                "unavailable": "Không đọc được báo cáo.",
+                "truncated": "Đang hiển thị {shown} trong số {total}.",
+                "target_column": "Trỏ tới",
+                "source_column": "Được viết trong",
+                "broken_at_column": "Hỏng từ"
             },
             "target": {
-                "discussions": "",
-                "posts": ""
+                "discussions": "Cuộc thảo luận #{id}",
+                "posts": "Bài viết #{id}"
             }
         },
         "forum": {
             "reference": {
-                "deleted_text": ""
+                "deleted_text": "[đã xóa]"
             },
             "post": {
-                "referenced_by_text": "",
-                "others_text": ""
+                "referenced_by_text": "{discussions} {count, plural, one {tham chiếu} other {tham chiếu}} tới nội dung này",
+                "others_text": "{count, plural, one {# người khác} other {# người khác}}"
             },
             "discussion": {
-                "referenced_by_title": "",
-                "references_title": "",
-                "show_all_button": ""
+                "referenced_by_title": "{count, plural, one {# tham chiếu} other {# tham chiếu}}",
+                "references_title": "Cuộc thảo luận này tham chiếu tới",
+                "show_all_button": "Xem tất cả"
             },
             "related": {
-                "title": ""
+                "title": "Cuộc thảo luận liên quan"
             },
             "most_referenced": {
-                "sort": ""
+                "sort": "Được tham chiếu nhiều nhất"
             },
             "graph": {
-                "title": "",
-                "description": "",
-                "empty": "",
-                "accessible_label": ""
+                "title": "Đồ thị tham chiếu",
+                "description": "Những cuộc thảo luận liên kết tới cuộc thảo luận này và liên kết với nhau.",
+                "empty": "Chưa có gì để vẽ.",
+                "accessible_label": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}} và các liên kết giữa chúng"
             },
             "relation": {
-                "references": "",
-                "duplicate_of": "",
-                "see_also": "",
-                "supersedes": "",
-                "answers": ""
+                "references": "tham chiếu tới",
+                "duplicate_of": "trùng với",
+                "see_also": "xem thêm",
+                "supersedes": "thay thế cho",
+                "answers": "trả lời cho"
             },
             "manual": {
-                "add_button": "",
-                "title": "",
-                "target_label": "",
-                "target_placeholder": "",
-                "relation_label": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "submit_button": ""
+                "add_button": "Thêm một tham chiếu",
+                "title": "Thêm một tham chiếu",
+                "target_label": "Trỏ tới",
+                "target_placeholder": "ID cuộc thảo luận",
+                "relation_label": "Mối quan hệ",
+                "note_label": "Ghi chú",
+                "note_placeholder": "Vì sao hai nội dung này thuộc về nhau",
+                "submit_button": "Thêm"
             },
             "event_post": {
-                "referenced": ""
+                "referenced": "{username} đã tham chiếu tới cuộc thảo luận này"
             },
             "notifications": {
-                "discussion_referenced_text": "",
-                "post_referenced_text": ""
+                "discussion_referenced_text": "{username} đã tham chiếu tới một cuộc thảo luận bạn mở",
+                "post_referenced_text": "{username} đã tham chiếu tới bài viết của bạn"
             }
         },
         "email": {
             "discussion_referenced": {
-                "subject": "",
-                "body": ""
+                "subject": "Cuộc thảo luận của bạn được tham chiếu: {title}",
+                "body": "{username} đã tham chiếu tới cuộc thảo luận của bạn trong một cuộc thảo luận khác.\n\n{url}\n"
             },
             "post_referenced": {
-                "subject": "",
-                "body": ""
+                "subject": "Bài viết của bạn được tham chiếu trong {title}",
+                "body": "{username} đã tham chiếu tới bài viết của bạn.\n\n{url}\n"
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "Những tham chiếu bạn tự thêm vào với vai trò điều hành viên.",
+            "anonymize_description": "Tên bạn được gỡ khỏi những tham chiếu bạn đã thêm, còn các tham chiếu thì vẫn giữ nguyên.",
+            "delete_description": "Tên bạn được gỡ khỏi những tham chiếu bạn đã thêm. Bản thân các tham chiếu là thông tin về bài viết của người khác nên chúng vẫn được giữ lại."
         },
         "lib": {
             "gambits": {
                 "references": {
-                    "key": "",
-                    "hint": ""
+                    "key": "tham chiếu tới",
+                    "hint": "\"12\""
                 },
                 "referenced_by": {
-                    "key": "",
-                    "hint": ""
+                    "key": "được tham chiếu bởi",
+                    "hint": "\"12\""
                 },
                 "has_references": {
-                    "key": "",
-                    "hint": ""
+                    "key": "tham chiếu tới",
+                    "hint": "những cuộc thảo luận mà cuộc thảo luận khác trỏ tới"
                 }
             }
         }

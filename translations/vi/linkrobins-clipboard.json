@@ -2,30 +2,30 @@
     "linkrobins-clipboard": {
         "admin": {
             "settings": {
-                "copy_enable_label": "",
-                "copy_enable_help": "",
-                "themes_label": "",
-                "themes_help": "",
+                "copy_enable_label": "Bật nút sao chép trên các khối mã",
+                "copy_enable_help": "Khi bật, một nút sao chép sẽ xuất hiện trên mỗi khối mã trong bài viết. Khách truy cập có thể bấm để chép đoạn mã vào bộ nhớ tạm.",
+                "themes_label": "Kiểu nút sao chép",
+                "themes_help": "Hãy chọn kiểu hiển thị cho nút sao chép. Mỗi kiểu dùng biểu tượng, màu sắc và vị trí khác nhau.",
                 "themes": {
-                    "default": "",
-                    "github": "",
-                    "lingcoder": "",
-                    "csdn": "",
-                    "cnblog": "",
-                    "jianshu": "",
-                    "segmentfault": ""
+                    "default": "Mặc định",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
                 },
-                "codeLang_label": "",
-                "codeLang_help": ""
+                "codeLang_label": "Hiện nhãn ngôn ngữ trên khối mã",
+                "codeLang_help": "Hiển thị ngôn ngữ lập trình nhận ra được ở góc trên bên phải mỗi khối mã (ví dụ python, bash, javascript). Cần một công cụ tô sáng cú pháp có thêm các lớp language-X vào phần tử mã của bạn."
             }
         },
         "forum": {
-            "action_copy": "",
-            "copy_code_aria": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Sao chép",
+            "copy_code_aria": "Sao chép mã",
+            "ok_btn": "Đã sao chép",
+            "error_btn": "Lỗi",
+            "no_support": "Không được hỗ trợ",
+            "msg": "Nhấn {actionKey} để {action}"
         }
     }
 }

@@ -30,39 +30,39 @@
                 "disable-download-logging": "Tắt ghi nhật ký mỗi lượt tải xuống do người dùng diễn đàn của bạn thực hiện. Nếu giữ tính năng này bật, bạn có thể xem số lượt tải xuống và các chỉ số khác trong tương lai gần.\n",
                 "disable-hotlink-protection": "Bảo vệ hotlink ngăn chặn việc mở các bản tải xuống từ các trang khác. Phương pháp hiện tại yêu cầu mã thông báo csrf và id bài đăng.\n",
                 "download_templates": "Các mẫu tải xuống là cách các nội dung tải lên được hiển thị trên diễn đàn của bạn, ví dụ như các bản xem trước, các nút. Hiện đang có sẵn:\n",
-                "mime_types": "",
-                "mime_order": "",
+                "mime_types": "Hãy quyết định thành viên được tải lên những tệp nào, mỗi loại được lưu ở đâu và hiển thị ra sao trong bài viết.\n",
+                "mime_order": "Các quy tắc được xét từ trên xuống và quy tắc khớp đầu tiên sẽ thắng, nên hãy đặt những quy tắc cụ thể hơn lên trên các quy tắc chung.\n",
                 "resize": "Chọn xem bạn có muốn thay đổi kích thước hình ảnh của mình trước khi tải lên hay không. Bạn có thể chọn chiều rộng và chiều cao tối đa, tính bằng pixel. Quá trình thay đổi kích thước giữ nguyên tỷ lệ khung hình của hình ảnh.\n",
                 "client_extension": "Theo mặc định, Tải lên sẽ chọn một phần mở rộng tệp an toàn dựa trên loại MIME.\nĐối với một số loại tệp dựa trên dữ liệu ZIP hoặc nhị phân, điều này có thể dẫn đến việc sử dụng các phần mở rộng chung thay vì phần mở rộng như mong đợi.\nTại đây, bạn có thể nhập danh sách các phần mở rộng tệp được phân tách bằng dấu phẩy sẽ được giữ nguyên văn.\n",
-                "thumbnails": "",
-                "thumbnail_quality": "",
+                "thumbnails": "Tạo ảnh thu nhỏ đã giảm kích thước cho hình ảnh ngay khi tải lên. Ảnh thu nhỏ được hiển thị trực tiếp trong bài;\nbấm vào nó sẽ mở tệp gốc độ phân giải đầy đủ trong một tab mới. Ảnh thu nhỏ giúp giảm đáng kể băng thông\nvà dung lượng trang với những diễn đàn có nhiều ảnh lớn.\n",
+                "thumbnail_quality": "Chất lượng nén từ 1 đến 100, áp dụng cho ảnh thu nhỏ định dạng WebP và JPEG. Giá trị cao hơn thì ảnh sắc nét hơn\nnhưng tệp cũng lớn hơn. Ảnh thu nhỏ GIF và PNG là không mất dữ liệu nên bỏ qua thiết lập này.\nNhững ảnh thu nhỏ hiện có vẫn giữ chất lượng cũ cho tới khi được tạo lại bằng lệnh backfill.\n",
                 "watermark": "Chọn xem hình ảnh có được thêm hình mờ trong quá trình tải lên hay không. Hình mờ được thêm vào không phải gif dựa trên tùy chọn của bạn bên dưới.\n",
-                "storage_intro": "",
-                "storage_configure_another": "",
-                "storage_not_installed": "",
-                "local_cdn": "",
-                "s3_provider": "",
-                "s3_endpoint": "",
+                "storage_intro": "Những dịch vụ bạn đã cấu hình, hoặc đang được một loại tệp sử dụng, sẽ hiển thị ở đây. Bạn có thể thiết lập một dịch vụ\ntrước khi trỏ bất kỳ loại tệp nào tới nó — hãy gán nó ở tab Tệp khi bạn sẵn sàng.\n",
+                "storage_configure_another": "Có những dịch vụ lưu trữ khác đã được cài nhưng chưa thiết lập. Việc cấu hình một dịch vụ không làm thay đổi nơi lưu tệp\ncho tới khi bạn gán nó cho một loại tệp.\n",
+                "storage_not_installed": "Bạn đang tìm Amazon S3, Cloudflare R2 hay Qiniu? Những dịch vụ đó cần thêm một gói riêng — xem <a>hướng dẫn cài đặt các trình lưu trữ</a>.",
+                "local_cdn": "Không bắt buộc. Nếu bạn phục vụ <code>assets/files</code> qua một CDN, hãy nhập URL gốc của nó và các liên kết tệp tải lên sẽ dùng URL đó.\nĐể trống để phục vụ tệp thẳng từ diễn đàn của bạn.\n",
+                "s3_provider": "Việc chọn nhà cung cấp sẽ quyết định định dạng điểm cuối, kiểu địa chỉ và khả năng hỗ trợ ACL bên dưới. Hãy chọn \"Dịch vụ tương thích S3 khác\"\nnếu nhà cung cấp của bạn không có trong danh sách.\n",
+                "s3_endpoint": "URL API S3 của nhà cung cấp — không phải URL công khai của bucket. Amazon S3 thì không cần.\n",
                 "s3_acl": "ACL sẽ được áp dụng cho đối tượng được tải lên (mặc định: private). Để biết các giá trị có thể, hãy xem https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_acl_unsupported": "",
-                "s3_path_style": "",
+                "s3_acl_unsupported": "{provider} không hỗ trợ ACL. Hãy quản lý quyền truy cập công khai ngay trong bảng điều khiển của nhà cung cấp.\n",
+                "s3_path_style": "Đặt tên bucket vào đường dẫn URL thay vì vào tên miền. Bắt buộc với MinIO và Cloudflare R2;\ntùy chọn này được đặt tự động khi bạn chọn nhà cung cấp.\n",
                 "custom_s3_url": "Sử dụng cài đặt này nếu bạn đang sử dụng dịch vụ tương thích S3 yêu cầu định dạng URL cụ thể (ví dụ như Backblaze B2), hoặc nếu bạn gặp vấn đề với định dạng URL mặc định. Điều này thường không cần thiết đối với hầu hết các dịch vụ. Đảm bảo URL bao gồm giao thức (https://) và được định dạng đúng. Ví dụ: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Để trống khóa và bí mật để sử dụng thông tin đăng nhập trong hồ sơ cá thể.\n",
                 "composer_buttons": "Theo mặc định, cả nút trình quản lý phương tiện và nút tải lên đều hiển thị. Bạn cũng có thể chọn chỉ hiển thị một nút.\n",
                 "s3_compatible_storage": "Các cài đặt sau chỉ được yêu cầu khi sử dụng bộ lưu trữ tương thích S3. Nếu bạn sử dụng AWS, bạn có thể để trống chúng.\n"
             },
             "tabs": {
-                "files": "",
-                "storage": "",
-                "images": "",
-                "advanced": "",
-                "unsaved_changes": "",
-                "unsaved_hint": ""
+                "files": "Tệp",
+                "storage": "Storage",
+                "images": "Ảnh",
+                "advanced": "Nâng cao",
+                "unsaved_changes": "Tab này có thay đổi chưa lưu",
+                "unsaved_hint": "Bạn có thay đổi chưa lưu."
             },
             "labels": {
                 "storage": {
-                    "configure_another": "",
-                    "hide_unused": ""
+                    "configure_another": "Cấu hình một dịch vụ lưu trữ khác ({count} dịch vụ khả dụng)",
+                    "hide_unused": "Ẩn những dịch vụ không dùng tới"
                 },
                 "aws-s3": {
                     "bucket": "Bucket",
@@ -70,7 +70,7 @@
                     "region": "Khu vực",
                     "secret": "Mã khoá bí mật",
                     "title": "Thiết lập lưu trữ AWS S3",
-                    "provider": "",
+                    "provider": "Nhà cung cấp",
                     "advanced_title": "Thiết lập lưu trữ S3 nâng cao",
                     "endpoint": "Điểm cuối",
                     "use_path_style_endpoint": "Sử dụng điểm cuối kiểu đường dẫn",
@@ -103,44 +103,44 @@
                 },
                 "preferences": {
                     "max_file_size": "Kích thước tối đa (kilobyte)",
-                    "max_file_size_equivalent": "",
+                    "max_file_size_equivalent": "Được lưu là <code>{kb}</code> KB ({value}).",
                     "mime_types": "Cấu hình ánh xạ giữa loại MIME và bộ điều hợp tải lên",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
-                    "mime_type_remove": "",
-                    "mime_type_add": "",
-                    "mime_column_pattern": "",
-                    "mime_column_pattern_help": "",
-                    "mime_column_storage": "",
-                    "mime_column_storage_help": "",
-                    "mime_column_display": "",
-                    "mime_column_display_help": "",
-                    "mime_column_permission": "",
-                    "mime_column_permission_help": "",
-                    "mime_move_up": "",
-                    "mime_move_down": "",
-                    "mime_edit_pattern": "",
-                    "mime_use_simple": "",
-                    "mime_advanced_pattern": "",
-                    "mime_add_subtype": "",
-                    "mime_add_subtype_placeholder": "",
-                    "mime_remove_subtype": "",
-                    "mime_add_prompt": "",
-                    "mime_add_custom": "",
+                    "mime_type_regex_placeholder": "ví dụ: ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Regex không hợp lệ (ví dụ có nhánh rỗng như ||)",
+                    "mime_type_permission_placeholder": "Tùy chọn, ví dụ: Hình ảnh",
+                    "mime_type_remove": "Xóa loại tệp này",
+                    "mime_type_add": "Thêm loại tệp này",
+                    "mime_column_pattern": "Loại tệp",
+                    "mime_column_pattern_help": "Những loại tệp mà quy tắc này áp dụng, được đối chiếu với kiểu MIME của tệp.",
+                    "mime_column_storage": "Lưu tại",
+                    "mime_column_storage_help": "Tệp thuộc loại này được tải lên dịch vụ lưu trữ nào.",
+                    "mime_column_display": "Hiển thị dưới dạng",
+                    "mime_column_display_help": "Tệp xuất hiện thế nào trong bài viết — bản xem trước ngay trong bài, nút tải xuống, v.v.",
+                    "mime_column_permission": "Nhãn quyền",
+                    "mime_column_permission_help": "Không bắt buộc. Việc đặt tên một nhóm ở đây sẽ tạo ra một quyền để bạn quản lý ai được tải những tệp này lên.",
+                    "mime_move_up": "Di chuyển lên (được xét sớm hơn)",
+                    "mime_move_down": "Di chuyển xuống (được xét muộn hơn)",
+                    "mime_edit_pattern": "Sửa mẫu",
+                    "mime_use_simple": "Dùng trình soạn đơn giản",
+                    "mime_advanced_pattern": "Mẫu nâng cao",
+                    "mime_add_subtype": "Thêm một định dạng tệp",
+                    "mime_add_subtype_placeholder": "ví dụ: webp",
+                    "mime_remove_subtype": "Xóa {subtype}",
+                    "mime_add_prompt": "Thêm loại tệp…",
+                    "mime_add_custom": "Mẫu tùy chỉnh…",
                     "title": "Cài đặt chung",
                     "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
                 },
                 "mime_presets": {
-                    "images": "",
-                    "pdf": "",
-                    "documents": "",
-                    "spreadsheets": "",
-                    "archives": "",
-                    "audio": "",
-                    "video": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "images": "Ảnh",
+                    "pdf": "Tài liệu PDF",
+                    "documents": "Tài liệu Word",
+                    "spreadsheets": "Bảng tính",
+                    "archives": "Tệp nén (zip, tar, 7z)",
+                    "audio": "Âm thanh",
+                    "video": "Video",
+                    "title": "Cài đặt chung",
+                    "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
                 },
                 "resize": {
                     "max_width": "Chiều rộng/chiều cao hình ảnh tối đa",
@@ -149,21 +149,21 @@
                 },
                 "client_extension": {
                     "title": "Phần mở rộng tệp do người dùng cung cấp",
-                    "placeholder": ""
+                    "placeholder": "ví dụ: docx, xlsx, epub"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": "",
-                    "quality": ""
+                    "title": "Ảnh thu nhỏ",
+                    "toggle": "Tạo ảnh thu nhỏ khi tải lên",
+                    "webp_toggle": "Mã hóa ảnh thu nhỏ thành WebP (khuyến nghị, nhẹ hơn khoảng 30%)",
+                    "max_width": "Chiều rộng tối đa của ảnh thu nhỏ (px)",
+                    "quality": "Chất lượng ảnh thu nhỏ"
                 },
                 "watermark": {
                     "file": "Tải lên hình ảnh đóng dấu của bạn",
-                    "opacity": "",
-                    "padding": "",
+                    "opacity": "Độ mờ của hình mờ (0–100)",
+                    "padding": "Khoảng cách tới mép (px)",
                     "position": "Vị trí đóng dấu",
-                    "size_percent": "",
+                    "size_percent": "Kích thước hình mờ (% chiều rộng ảnh)",
                     "title": "Hình đóng dấu",
                     "toggle": "Hình đóng dấu"
                 },
@@ -184,13 +184,13 @@
                 "inspect-mime": "Kiểm tra loại MIME của tệp"
             },
             "warnings": {
-                "fileinfo_missing": "",
-                "max_file_size_exceeds_php": ""
+                "fileinfo_missing": "Tiện ích PHP <strong>fileinfo</strong> chưa được nạp trên máy chủ này. FoF Upload vẫn hoạt động, nhưng việc đối chiếu chéo kiểu MIME bị tắt, làm giảm khả năng chống lại những tệp giả mạo kiểu. Hãy bật tiện ích này trong cấu hình PHP để an toàn nhất.\n",
+                "max_file_size_exceeds_php": "Giá trị này vượt quá giới hạn tải lên thực tế <strong>{limit}</strong> của máy chủ (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Những tệp lớn hơn giới hạn đó sẽ bị PHP từ chối bất kể thiết lập này. Hãy giảm giá trị này hoặc nâng các giới hạn trong <code>php.ini</code> (và cả <code>client_max_body_size</code> nếu bạn dùng Nginx)."
             },
             "permissions": {
                 "download_label": "Tải xuống tập tin",
-                "upload_label": "",
-                "upload_mime_label": "",
+                "upload_label": "Tải tệp lên (quyền cơ bản, bắt buộc với mọi lượt tải lên)",
+                "upload_mime_label": "Tải lên {label}",
                 "view_user_uploads_label": "Xem tệp của người dùng",
                 "delete_uploads_of_others_label": "Xóa tệp của người dùng",
                 "upload_shared_label": "Tải lên các tệp được chia sẻ",
@@ -236,11 +236,11 @@
         "forum": {
             "media_manager": "Quản lý phương tiện",
             "display_name": {
-                "title": "",
-                "title_plural": "",
-                "help": "",
-                "insert": "",
-                "use_file_name": ""
+                "title": "Đặt tên cho tệp tải xuống này",
+                "title_plural": "Đặt tên cho các tệp tải xuống này",
+                "help": "Được hiển thị trên nút tải xuống thay cho tên tệp. Hãy giữ nguyên để dùng tên tệp.",
+                "insert": "Chèn",
+                "use_file_name": "Dùng tên tệp"
             },
             "buttons": {
                 "attach": "Đính kèm",
@@ -255,7 +255,7 @@
                 "error": "Lỗi",
                 "loading": "Đang tải lên",
                 "unauthorized": "Bạn không được phép tải xuống tệp",
-                "permission_required": ""
+                "permission_required": "Cần có quyền"
             },
             "validation": {
                 "max_size": "Kích thước tệp trên {max} kb không được chấp nhận."
@@ -263,7 +263,7 @@
             "text_preview": {
                 "expand": "Mở rộng bản xem trước",
                 "collapse": "Thu gọn bản xem trước",
-                "download": "",
+                "download": "Tải tệp xuống",
                 "error": "Lỗi khi xem trước tệp. Nó có thể đã bị xóa hoặc ID tệp được cung cấp không hợp lệ.\n",
                 "no_snippet_preview": "<bản xem trước sẽ xuất hiện ở đây sau khi đăng>",
                 "no_snippet": "<không có đoạn xem trước>"
@@ -272,7 +272,7 @@
         "api": {
             "upload_errors": {
                 "forbidden_type": "Các loại tệp này không được phép tải lên.",
-                "mime_permission_denied": "",
+                "mime_permission_denied": "Bạn không có quyền tải lên loại tệp này.",
                 "unsupported_type": "Bộ điều hợp tải lên không hỗ trợ loại mime được cung cấp: {mime}.",
                 "could_not_detect_mime": "Không thể phát hiện loại MIME của tệp này, vui lòng thử lại.",
                 "max_upload_file_size_ini": "Bạn đã đạt đến giới hạn kích thước tệp tối đa được cấu hình trong tệp php.ini.",

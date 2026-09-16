@@ -3,94 +3,94 @@
         "admin": {
             "create_button": "Tạo",
             "help": {
-                "intro": "",
-                "preconnect": "",
-                "cache": "",
-                "pages": "",
-                "location": ""
+                "intro": "Thêm các thẻ tùy chỉnh để chèn vào HTML của diễn đàn. Các mục được lưu đệm và phục vụ hiệu quả — không có truy vấn cơ sở dữ liệu nào khi tải trang.",
+                "preconnect": "Các thẻ link và script trỏ tới nguồn bên ngoài sẽ tự động được tạo thêm gợi ý preconnect và dns-prefetch, làm nóng kết nối trước khi trình duyệt cần tới.",
+                "cache": "Phần HTML đã dựng được lưu đệm ngay khi lưu. Thay đổi có hiệu lực ngay mà không cần xóa toàn bộ bộ nhớ đệm của trang.",
+                "pages": "Mỗi mục có thể nhắm tới giao diện diễn đàn, trang quản trị, hoặc cả hai.",
+                "location": "Các mục có thể được chèn vào phần head hoặc ở cuối phần body."
             },
             "table": {
-                "drag_handle": "",
+                "drag_handle": "Kéo để sắp xếp lại",
                 "description_label": "Mô tả",
-                "type_label": "",
-                "location_label": "",
-                "pages_label": "",
+                "type_label": "Loại",
+                "location_label": "Vị trí",
+                "pages_label": "Trang",
                 "active_label": "Hoạt động",
                 "empty_text": "Không có mục nào",
                 "delete_button": "Xóa",
                 "edit_button": "Sửa",
-                "delete_confirm": "",
+                "delete_confirm": "Bạn có chắc muốn xóa mục này không?",
                 "header_label": "Header"
             },
             "modal": {
                 "create_title": "Tạo mới mục",
                 "edit_title": "Chỉnh sửa mục",
                 "description_label": "Mô tả",
-                "description_help": "",
-                "type_label": "",
-                "location_label": "",
-                "location_help": "",
-                "pages_label": "",
+                "description_help": "Một nhãn để bạn tiện theo dõi — không được chèn vào trang.",
+                "type_label": "Loại",
+                "location_label": "Chèn vào",
+                "location_help": "Head: được tải trước khi trang hiển thị, hợp nhất với kiểu dáng và thẻ meta quan trọng. Chân trang: được tải sau nội dung trang, hợp nhất với những script không quan trọng.",
+                "pages_label": "Áp dụng cho",
                 "save_button": "Lưu",
                 "type": {
-                    "meta": "",
-                    "link": "",
-                    "script": "",
-                    "style": "",
-                    "raw": ""
+                    "meta": "Thẻ meta",
+                    "link": "Liên kết",
+                    "script": "Script",
+                    "style": "Kiểu dáng",
+                    "raw": "HTML thuần"
                 },
                 "location": {
-                    "head": "",
-                    "foot": ""
+                    "head": "Head",
+                    "foot": "Chân trang"
                 },
                 "pages": {
-                    "forum": "",
-                    "admin": ""
+                    "forum": "Diễn đàn",
+                    "admin": "Trang quản trị"
                 },
                 "meta": {
-                    "variant_label": "",
-                    "name_label": "",
-                    "property_label": "",
-                    "content_label": ""
+                    "variant_label": "Biến thể",
+                    "name_label": "name=\"\"",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "content_label": "Nội dung"
                 },
                 "link": {
-                    "rel_label": "",
-                    "href_label": "",
-                    "as_label": "",
-                    "as_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": "",
-                    "fetchpriority_label": "",
-                    "fetchpriority_default": "",
-                    "fetchpriority_help": "",
-                    "extras_label": "",
-                    "extras_add": "",
-                    "extras_remove": ""
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Cho trình duyệt biết loại tài nguyên đang được tải trước để nó đặt đúng header của yêu cầu. Bắt buộc với rel=preload.",
+                    "crossorigin_label": "Thêm crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Bắt buộc với phông chữ và script tải từ tên miền khác để trình duyệt dùng chung được kết nối. Hãy bật nếu tài nguyên nằm ở nguồn khác.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "mặc định của trình duyệt",
+                    "fetchpriority_help": "Gợi ý cho trình duyệt về độ ưu tiên tương đối của tài nguyên này. high: tải sớm hơn (ví dụ ảnh hero hoặc tệp CSS quan trọng). low: tải muộn hơn (ví dụ tài nguyên nằm dưới màn hình đầu). Hãy để trống để trình duyệt tự quyết định.",
+                    "extras_label": "Thuộc tính bổ sung",
+                    "extras_add": "Thêm thuộc tính",
+                    "extras_remove": "Xóa"
                 },
                 "script": {
-                    "external_label": "",
-                    "inline_label": "",
-                    "src_label": "",
-                    "inline_content_label": "",
-                    "defer_label": "",
-                    "defer_help": "",
-                    "async_label": "",
-                    "async_help": "",
-                    "module_label": "",
-                    "module_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": ""
+                    "external_label": "Bên ngoài (src)",
+                    "inline_label": "Cùng dòng",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Nội dung script",
+                    "defer_label": "defer",
+                    "defer_help": "Script chạy sau khi trang đã được phân tích, không chặn việc hiển thị. Phù hợp với hầu hết script.",
+                    "async_label": "async",
+                    "async_help": "Script chạy ngay khi tải xong, không theo thứ tự. Phù hợp với những script độc lập như công cụ phân tích.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Hãy bật nếu tài liệu của nhà cung cấp script yêu cầu dùng type=\"module\". Các module được tải sau trang mà không chặn nó.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Bắt buộc khi tải script từ tên miền khác mà cần quyền truy cập CORS."
                 },
                 "style": {
-                    "inline_label": "",
-                    "inline_help": ""
+                    "inline_label": "Nội dung CSS",
+                    "inline_help": "Được áp dụng chung cho mọi trang mà mục này nhắm tới. Hãy viết các quy tắc thật cụ thể để tránh tác dụng phụ ngoài ý muốn."
                 },
                 "raw": {
-                    "content_label": "",
-                    "help_text": ""
+                    "content_label": "HTML",
+                    "help_text": "Hãy nhập HTML thuần. Gợi ý preconnect sẽ tự động được tạo cho mọi thẻ link hay script trỏ tới nguồn khác tìm thấy ở đây. Thứ tự sắp xếp và công tắc bật/tắt vẫn hoạt động bình thường, nhưng các tính năng riêng theo loại (fetchpriority, defer, v.v.) thì không dùng được — hãy chọn một loại có cấu trúc nếu bạn cần chúng."
                 },
-                "preview_label": "",
-                "preview_empty": "",
+                "preview_label": "Xem trước",
+                "preview_empty": "Hãy điền các ô phía trên để xem bản xem trước.",
                 "text": "Đảm bảo cú pháp của bạn là chính xác, vì có thể làm hỏng diễn đàn bằng cách cung cấp dữ liệu không chính xác về mục head. Sau khi được lưu, hãy bật mục tiêu đề mới của bạn bằng cách sử dụng công tắc chuyển đổi được cung cấp.",
                 "header_label": "Tùy chỉnh mục head"
             }

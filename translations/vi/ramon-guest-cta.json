@@ -2,26 +2,26 @@
     "ramon-guest-cta": {
         "admin": {
             "settings": {
-                "hide_links_label": "",
-                "hide_links_help": "",
-                "show_post_cta_label": "",
-                "show_post_cta_help": "",
-                "position_label": "",
-                "position_help": "",
-                "position_1": "",
-                "position_2": "",
-                "position_3": "",
-                "position_4": "",
-                "position_5": ""
+                "hide_links_label": "Ẩn liên kết với khách",
+                "hide_links_help": "Không cho khách mở các liên kết trong bài viết. Khi bấm vào liên kết, họ sẽ thấy lời nhắc Đăng nhập / Đăng ký.",
+                "show_post_cta_label": "Hiện lời mời tham gia với khách sau một số bài viết nhất định",
+                "show_post_cta_help": "Hiển thị một thẻ Đăng nhập / Đăng ký xen giữa các bài viết trong cuộc thảo luận, chỉ khách mới nhìn thấy. Hãy dùng cài đặt vị trí để chọn nó xuất hiện sau bài viết nào.",
+                "position_label": "Vị trí lời mời (sau bài viết số mấy)",
+                "position_help": "Chèn biểu ngữ mời tham gia giữa bài viết số này và bài kế tiếp.",
+                "position_1": "Sau bài viết #1",
+                "position_2": "Sau bài viết #2",
+                "position_3": "Sau bài viết #3",
+                "position_4": "Sau bài viết #4",
+                "position_5": "Sau bài viết #5"
             }
         },
         "forum": {
             "post_cta": {
-                "text": "",
-                "or": ""
+                "text": "Thấy thú vị chứ? Hãy tham gia thảo luận!",
+                "or": "hoặc"
             },
             "link_cta": {
-                "placeholder": ""
+                "placeholder": "Đăng nhập để xem liên kết"
             }
         }
     }

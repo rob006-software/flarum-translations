@@ -35,7 +35,7 @@
             },
             "nav": {
                 "gdpr_button": "Tích hợp GDPR",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Xử lý yêu cầu xóa",
@@ -64,8 +64,8 @@
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Xuất",
+                            "tooltip": "Xuất dữ liệu của {username}"
                         }
                     }
                 }
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Xác nhận yêu cầu xóa tài khoản của bạn",
-                "body": ""
+                "body": "Ai đó (hy vọng là bạn) vừa yêu cầu xóa tài khoản `{display_name}`.\n\nĐể xác nhận hành động này, vui lòng bấm vào liên kết sau, sau đó yêu cầu của bạn sẽ được đội ngũ của chúng tôi xử lý.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Đã hoàn tất xóa tài khoản",
-                    "body": ""
+                    "body": "Đây là thông báo tự động và cuối cùng rằng tài khoản của bạn đã bị xóa.\n"
                 },
                 "anonymization": {
                     "subject": "Đã hoàn tất việc ẩn danh tài khoản",
-                    "body": ""
+                    "body": "Đây là thông báo tự động và cuối cùng rằng tài khoản của bạn đã được ẩn danh.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Yêu cầu xóa tài khoản đã bị hủy",
-                "body": ""
+                "body": "Đây là thông báo tự động rằng yêu cầu hủy xóa tài khoản của bạn đã được xử lý.\n\nTài khoản của bạn sẽ không bị xóa nữa.\n"
             },
             "export_available": {
                 "subject": "Bản xuất dữ liệu đã sẵn sàng",
-                "body": ""
+                "body": "Bạn đã yêu cầu xuất dữ liệu tài khoản của {username}. Bản xuất này đã được tạo thành công và hiện đã sẵn sàng:\n\n{url}\n\nBản xuất này sẽ còn khả dụng đến {destroys_at}.\n"
             }
         },
         "forum": {
@@ -190,12 +190,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "Đã yêu cầu xóa dữ liệu của {username}",
+                    "gdpr_erasure_confirmed": "Đã xác nhận yêu cầu xóa dữ liệu của {username}",
+                    "gdpr_erasure_cancelled": "Đã hủy yêu cầu xóa dữ liệu của {username}",
+                    "gdpr_anonymized": "Đã ẩn danh dữ liệu của {username}",
+                    "gdpr_deleted": "Đã xóa dữ liệu của {username}",
+                    "gdpr_exported": "Đã xuất dữ liệu của {username}"
                 }
             }
         }

@@ -72,7 +72,7 @@
                 },
                 "noValue": "(không có giá trị)",
                 "noReason": "(không có lý do)",
-                "core": "",
+                "core": "lõi",
                 "client": {
                     "session": "Phiên web",
                     "api_key": "Khóa API",
@@ -81,7 +81,7 @@
                     "unknown": "Ứng dụng không xác định"
                 },
                 "controls": {
-                    "title": "",
+                    "title": "Điều khiển",
                     "hideRaw": "Ẩn nhật ký thô",
                     "showRaw": "Hiện nhật ký thô",
                     "filterActor": "Xem nhật ký của người thực hiện này",
@@ -93,7 +93,7 @@
                 },
                 "audit_log_cleared": "Đã xóa {deleted_count} mục khỏi nhật ký hoạt động",
                 "cache_cleared": "Đã xóa bộ nhớ đệm thủ công",
-                "developer_token_created": "",
+                "developer_token_created": "Đã tạo token truy cập dành cho nhà phát triển \"{title}\" cho {username}",
                 "discussion": {
                     "created": "Đã tạo cuộc thảo luận {discussion}",
                     "deleted": "Đã xóa cuộc thảo luận {discussion}",
@@ -107,13 +107,13 @@
                     "uninstalled": "Đã gỡ cài đặt tiện ích {package}"
                 },
                 "queue": {
-                    "paused": "",
-                    "resumed": ""
+                    "paused": "Đã tạm dừng xử lý hàng đợi trên {queue} ({connection})",
+                    "resumed": "Đã tiếp tục xử lý hàng đợi trên {queue} ({connection})"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "Đã tạo nhóm {name}",
+                    "deleted": "Đã xóa nhóm {name}",
+                    "renamed": "Đã đổi tên nhóm từ {old_name} thành {new_name}"
                 },
                 "permission_changed": "Đã sửa quyền {permission} từ {old_groups} thành {new_groups}",
                 "post": {
@@ -125,7 +125,7 @@
                 },
                 "setting_changed": "Đã sửa cài đặt {key}",
                 "setting_changed_with_values": "Đã sửa cài đặt {key} từ {old_value} thành {new_value}",
-                "settings_reset": "",
+                "settings_reset": "Đã đặt lại các cài đặt {keys} của {extension}",
                 "user": {
                     "activated": "Đã kích hoạt thủ công tài khoản của {username}",
                     "activated_with_email": "Đã kích hoạt tài khoản của {username} qua liên kết xác nhận",

@@ -3,85 +3,85 @@
         "admin": {
             "settings": {
                 "configuration_title": "Tùy chọn cấu hình",
-                "configuration_button_title": "",
-                "text_help": "",
+                "configuration_button_title": "Liên kết Tìm hiểu thêm",
+                "text_help": "Nội dung hiển thị cho khách truy cập nằm trong các tệp ngôn ngữ của tiện ích này nên\ncó thể dịch được. Hãy ghi đè nó bằng FoF Linguist hoặc một gói ngôn ngữ.\n",
                 "learnMoreLinkUrl": "Liên kết",
-                "learnMoreLinkUrl_help": "",
-                "appearance_title": "",
-                "layout": "",
-                "layout_help": "",
-                "position": "",
-                "equalWeightButtons": "",
-                "equalWeightButtons_help": "",
-                "colors_help": "",
-                "catchall_title": "",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
-                "allowedCookies": "",
-                "allowedCookies_help": "",
+                "learnMoreLinkUrl_help": "Để trống để ẩn liên kết.",
+                "appearance_title": "Giao diện",
+                "layout": "Bố cục",
+                "layout_help": "Quy định hình dạng của biểu ngữ xin đồng ý.",
+                "position": "Vị trí",
+                "equalWeightButtons": "Cho hai nút có trọng lượng ngang nhau",
+                "equalWeightButtons_help": "Được khuyến nghị. Việc tạo kiểu giống hệt nhau cho nút chấp nhận và từ chối giúp tránh hướng khách truy cập nghiêng về phía chấp nhận.",
+                "colors_help": "Biểu ngữ đi theo giao diện của diễn đàn bạn, kể cả chế độ tối. Chỉ nên đặt màu\nkhi bạn muốn ghi đè — để trống để kế thừa.\n",
+                "catchall_title": "Cookie chưa được khai báo",
+                "sweepUndeclared": "Xóa những cookie chưa được tiện ích nào khai báo",
+                "sweepUndeclared_help": "Khi khách truy cập từ chối, hãy xóa luôn những cookie mà không tiện ích nào khai báo\nqua bộ mở rộng cookie consent. Cách này bắt được các công cụ theo dõi từ\nnhững tiện ích chưa hỗ trợ — nhưng cũng sẽ xóa cả những cookie mà một\ntiện ích thực sự cần, và có thể làm nó hỏng. Hãy dùng danh sách cho phép bên dưới\nđể giữ lại chúng.\n",
+                "allowedCookies": "Không bao giờ xóa những cookie này",
+                "allowedCookies_help": "Mỗi dòng một tên. Hãy đặt giữa hai dấu gạch chéo nếu muốn dùng mẫu, ví dụ /^app_/.\nNhững cookie do chính Flarum đặt thì luôn được giữ lại.\n",
                 "theme_popup_title": "Màu cửa sổ",
                 "backgroundColor": "Nền",
                 "textColor": "Chữ",
-                "theme_dismiss_title": "",
+                "theme_dismiss_title": "Màu của nút",
                 "buttonBackgroundColor": "Nền",
                 "buttonTextColor": "Chữ",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
-                    "bar": "",
-                    "bar_inline": ""
+                    "box": "Hộp",
+                    "box_wide": "Hộp (rộng)",
+                    "box_inline": "Hộp (một dòng)",
+                    "cloud": "Đám mây",
+                    "cloud_inline": "Đám mây (một dòng)",
+                    "bar": "Thanh",
+                    "bar_inline": "Thanh (một dòng)"
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "Góc trên bên trái",
+                    "top_center": "Trên cùng, giữa",
+                    "top_right": "Góc trên bên phải",
+                    "middle_left": "Giữa, bên trái",
+                    "middle_center": "Chính giữa",
+                    "middle_right": "Giữa, bên phải",
+                    "bottom_left": "Góc dưới bên trái",
+                    "bottom_center": "Dưới cùng, giữa",
+                    "bottom_right": "Góc dưới bên phải"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "Trang này có sử dụng cookie. Bạn có thể quản lý tùy chọn của mình hoặc chấp nhận tất cả cookie.",
+                "accept": "Chấp nhận",
+                "decline": "Từ chối",
+                "preferences": "Quản lý tùy chọn",
+                "learn_more": "Tìm hiểu thêm"
             },
             "preferences": {
-                "title": "",
-                "save": "",
-                "description": "",
+                "title": "Tùy chọn cookie",
+                "save": "Lưu tùy chọn",
+                "description": "Cookie là những tệp nhỏ mà trang này lưu trong trình duyệt của bạn. Bên dưới là những gì được lưu và vì sao. Bạn có thể thay đổi lựa chọn bất cứ lúc nào.",
                 "cookie_table": {
-                    "name": "",
-                    "description": ""
+                    "name": "Cookie",
+                    "description": "Mục đích"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Giữ cho bạn luôn đăng nhập trong lúc duyệt diễn đàn.",
+                "flarum_remember": "Tự động đăng nhập lại cho bạn trong lần truy cập tới.",
+                "locale": "Ghi nhớ ngôn ngữ bạn đã chọn.",
+                "cc_cookie": "Ghi nhớ lựa chọn về cookie của bạn để không hỏi lại."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Thiết yếu",
+                    "description": "Cần thiết để trang hoạt động — đăng nhập, duy trì đăng nhập và ghi nhớ lựa chọn cookie của bạn. Những cookie này không thể tắt."
                 },
                 "analytics": {
-                    "title": "",
-                    "description": ""
+                    "title": "Phân tích",
+                    "description": "Giúp chúng tôi hiểu diễn đàn được sử dụng ra sao để cải thiện nó. Không có mục nào ở đây là cần thiết để diễn đàn hoạt động."
                 },
                 "marketing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Tiếp thị",
+                    "description": "Được dùng để đo lường quảng cáo và hiển thị quảng cáo cho bạn trên những trang khác."
                 }
             }
         }

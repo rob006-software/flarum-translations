@@ -5,14 +5,14 @@
                 "title": {
                     "modal": "Thiết lập Amazon Affiliation",
                     "tags": "Thẻ Affiliate",
-                    "tags-mediaembed": ""
+                    "tags-mediaembed": "Hãy đặt một mã tiếp thị liên kết riêng cho từng sàn bên dưới. Liên kết sản phẩm tới một sàn đã cấu hình sẽ được gắn giá trị của sàn đó; hãy để trống một sàn để bỏ qua nó."
                 },
                 "field": {
-                    "rich-card": "",
-                    "rich-card-help": "",
+                    "rich-card": "Hiển thị liên kết sản phẩm Amazon dưới dạng thẻ sản phẩm đầy đủ",
+                    "rich-card-help": "Khi bật, các URL sản phẩm Amazon (/dp/ và /gp/product/) được hiển thị thành một thẻ gọn dẫn tới trang sản phẩm đã gắn mã. Khi tắt, chúng vẫn là liên kết thường và được gắn mã như mọi liên kết Amazon khác.",
                     "keep-existing-tag": "Giữ thẻ affiliate Amazon từ liên kết gốc thay vì thay thế",
                     "keep-existing-tag-help": "Theo mặc định, bất kỳ thẻ hiện có nào trong URL gốc đều được thay thế bằng thẻ bạn đặt bên dưới.",
-                    "help-mediaembed": "",
+                    "help-mediaembed": "Thẻ sản phẩm luôn dùng mã bạn đã cấu hình, nên cài đặt \"giữ mã sẵn có\" chỉ áp dụng cho liên kết thường.",
                     "remove-tag-if-unhandled": "Xóa thẻ affiliate Amazon trên các liên kết Amazon không được xử lý",
                     "remove-tag-if-unhandled-help": "Theo mặc định, các liên kết không được xử lý sẽ được giữ nguyên, bao gồm cả thẻ của chúng nếu có.",
                     "tag": "{name} (amazon.{domain})",

@@ -13,9 +13,9 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "follow_label": "",
+                "follow_label": "Theo dõi người dùng khác",
                 "be_followed_label": "Cho phép người dùng theo dõi",
-                "view_followed_users_label": ""
+                "view_followed_users_label": "Xem một thành viên đang theo dõi những người dùng nào"
             },
             "settings": {
                 "button-on-profile-label": "Hiện nút Theo dõi trên đầu trang cá nhân của người dùng",
@@ -77,30 +77,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} đã mở một cuộc thảo luận",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} đã mở một cuộc thảo luận mới: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} đã mở một cuộc thảo luận mới: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} đã theo dõi bạn",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} đã bắt đầu theo dõi bạn, nên họ sẽ được thông báo khi bạn mở một cuộc thảo luận mới.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} đã bắt đầu theo dõi bạn, nên họ sẽ được thông báo khi bạn mở một cuộc thảo luận mới."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} đã đăng bài trong {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} đã đăng bài trong {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận thêm thông báo nào về cuộc thảo luận này cho tới khi bạn đọc hết.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} đã đăng bài trong [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -125,7 +125,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "đang theo dõi"
                 }
             }
         }

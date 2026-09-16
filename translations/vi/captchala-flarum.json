@@ -2,44 +2,44 @@
     "captchala-flarum": {
         "admin": {
             "settings": {
-                "app_key_label": "",
-                "app_key_help": "",
-                "app_secret_label": "",
-                "app_secret_help": "",
-                "product_label": "",
-                "product_help": "",
+                "app_key_label": "Khóa ứng dụng",
+                "app_key_help": "Bạn tìm thấy khóa này trong bảng điều khiển CaptchaLa tại <a>dash.captcha.la</a>. Bắt buộc.",
+                "app_secret_label": "Mã bí mật ứng dụng",
+                "app_secret_help": "Chỉ dùng ở phía máy chủ. Đừng bao giờ để lộ ra trình duyệt.",
+                "product_label": "Chế độ tiện ích con",
+                "product_help": "bind, popup, float hoặc embed. bind gắn vào nút gửi.",
                 "product_options": {
-                    "bind": "",
-                    "popup": "",
-                    "float": "",
-                    "embed": ""
+                    "bind": "Gắn vào nút gửi",
+                    "popup": "Cửa sổ bật lên",
+                    "float": "Tiện ích con nổi",
+                    "embed": "Nhúng nội dòng"
                 },
-                "lang_label": "",
-                "lang_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": "",
-                "post": ""
+                "lang_label": "Ngôn ngữ",
+                "lang_help": "Mã BCP-47 (ví dụ ja, pt-BR) hoặc 'auto' để theo trình duyệt của khách truy cập.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title",
+                "post": "Bảo vệ cuộc thảo luận mới và bài trả lời"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "button": "",
-                "success": "",
-                "failure": ""
+                "title": "Kiểm tra kết nối",
+                "help_text": "Kiểm tra xem Khóa ứng dụng / Mã bí mật ứng dụng đã lưu có kết nối được tới\nmáy chủ CaptchaLa không. Hãy lưu thay đổi trước khi chạy kiểm tra.\n",
+                "button": "Kiểm tra kết nối",
+                "success": "Kết nối ổn.",
+                "failure": "Kết nối thất bại: {reason}"
             }
         },
         "lib": {
-            "not_completed": "",
-            "error": "",
-            "rejected": "",
-            "unknown_error": ""
+            "not_completed": "Vui lòng hoàn thành CAPTCHA trước khi tiếp tục.",
+            "error": "Đã xảy ra lỗi khi xác minh CAPTCHA. Vui lòng thử lại.",
+            "rejected": "Kiểm tra CAPTCHA thất bại. Vui lòng thử lại.",
+            "unknown_error": "Đã xảy ra lỗi không xác định. Vui lòng thử lại."
         },
         "forum": {
-            "powered_by": ""
+            "powered_by": "Được bảo vệ bởi CaptchaLa"
         }
     },
     "validation": {
-        "captchala": ""
+        "captchala": "Xác minh CAPTCHA không thành công."
     }
 }

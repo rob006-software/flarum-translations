@@ -2,24 +2,24 @@
     "ernestdefoe-wardrobe": {
         "admin": {
             "settings": {
-                "themes_label": "",
-                "themes_help": "",
-                "no_themes": "",
-                "default_label": "",
-                "default_help": "",
-                "allow_user_choice_label": "",
-                "allow_user_choice_help": ""
+                "themes_label": "Những giao diện thành viên được chọn",
+                "themes_help": "Mọi tiện ích đang bật tự khai báo mình là một giao diện. Hãy đánh dấu những giao diện mà diễn đàn này cung cấp — mỗi giao diện có bộ định kiểu riêng nên chúng không bao giờ chồng lấn nhau.\n",
+                "no_themes": "Chưa có giao diện nào được cài và bật. Hãy cài thêm một giao diện thứ hai và nó sẽ xuất hiện ở đây.\n",
+                "default_label": "Giao diện mặc định",
+                "default_help": "Thứ mà khách nhìn thấy, và thứ mà thành viên nhìn thấy cho tới khi họ tự chọn.",
+                "allow_user_choice_label": "Cho phép thành viên tự chọn giao diện",
+                "allow_user_choice_help": "Hãy tắt tùy chọn này để giữ cả diễn đàn ở giao diện mặc định. Những lựa chọn thành viên đã đặt sẽ ngừng áp dụng ngay lập tức.\n"
             }
         },
         "forum": {
             "switcher": {
-                "label": ""
+                "label": "Giao diện"
             },
             "theme": {
-                "heading": "",
-                "follow_forum": "",
-                "help": "",
-                "save_failed": ""
+                "heading": "Giao diện",
+                "follow_forum": "Dùng giao diện của diễn đàn",
+                "help": "Diễn đàn trông như thế nào với riêng bạn. Không ai khác thấy lựa chọn của bạn.",
+                "save_failed": "Không lưu được giao diện của bạn. Vui lòng thử lại."
             }
         }
     }

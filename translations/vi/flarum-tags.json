@@ -4,17 +4,17 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Mặc định",
+                    "id_with_slug": "ID kèm slug"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Xóa thẻ",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
+                "default_sort_label": "Sắp xếp mặc định",
+                "default_sort_none": "Dùng mặc định của diễn đàn",
+                "default_sort_text": "Cách sắp xếp các cuộc thảo luận của thẻ này khi người dùng truy cập mà không tự chọn kiểu sắp xếp.",
+                "default_sort_unavailable": "{sort} (không còn khả dụng)",
                 "delete_tag_confirmation": "Bạn có chắc chắn muốn xóa thẻ này không? Các cuộc thảo luận thuộc thẻ này sẽ KHÔNG bị xóa.",
                 "description_label": "Mô tả",
                 "hide_label": "Ẩn khỏi Tất cả các cuộc thảo luận",
@@ -95,8 +95,8 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "thẻ",
+                        "hint": "tên một thẻ, hoặc danh sách tên thẻ cách nhau bằng dấu phẩy, hoặc \"untagged\""
                     }
                 }
             },
@@ -120,12 +120,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Đã cập nhật thẻ của {discussion} từ {old_tags} thành {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Đã tạo thẻ {tag}",
+                    "updated": "Đã cập nhật thẻ {tag}",
+                    "deleted": "Đã xóa thẻ {tag}"
                 }
             }
         }

@@ -7,18 +7,18 @@
                     "help": "Các thiết lập này kiểm soát các tính năng cơ bản của tiện ích mở rộng Polls."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Thăm dò trong cuộc thảo luận",
+                    "help": "Những cài đặt này áp dụng cho các cuộc thăm dò gắn vào bài viết trong cuộc thảo luận."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Bật thăm dò trong cuộc thảo luận",
+                "enable_discussion_polls_help": "Khi bật, người dùng có thể tạo cuộc thăm dò ngay trong bài viết của cuộc thảo luận. Hãy tắt nếu bạn chỉ muốn dùng thăm dò toàn cục.",
                 "global_polls": {
                     "heading": "Các cuộc thăm dò toàn cục",
                     "help": "Các thiết lập này kiểm soát tính năng thăm dò toàn cục."
                 },
                 "image": {
                     "heading": "Cài đặt hình ảnh",
-                    "help": ""
+                    "help": "Hãy cấu hình giới hạn và kích thước cho ảnh tải lên. Ảnh được tự động chuyển sang WebP và các biến thể co giãn được tạo ra."
                 },
                 "enable_global_polls": "Cho phép thăm dò toàn cục",
                 "enable_global_polls_help": "Các cuộc thăm dò toàn cục không gắn với một bài viết cụ thể và có thể được truy cập từ một trang thăm dò chuyên dụng.",
@@ -27,11 +27,11 @@
                 "max_options": "Số lượng tùy chọn tối đa cho mỗi cuộc thăm dò",
                 "options_color_blend": "Pha trộn màu văn bản trong tùy chọn thăm dò ý kiến",
                 "options_color_blend_help": "Sử dụng tính năng trộn màu để các tùy chọn thăm dò dễ đọc hơn. Tắt nếu tính năng này gây ra sự cố với giao diện diễn đàn của bạn, làm giảm khả năng đọc.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Kích thước ảnh tải lên tối đa (KB)",
+                "max_image_upload_size_help": "Kích thước tệp tối đa cho ảnh tải lên, tính bằng kilobyte. Ảnh được tự động chuyển sang WebP và đổi kích thước sau khi tải lên, nên kích thước lưu trữ cuối cùng thường nhỏ hơn nhiều. Mặc định là 10240 KB (10 MB).",
+                "image_height": "Chiều cao ảnh sau khi đổi kích thước (px)",
+                "image_width": "Chiều rộng ảnh sau khi đổi kích thước (px)",
+                "image_dimensions_help": "Kích thước gốc của ảnh được lưu. Các biến thể HiDPI (@2x, @3x) được tạo tự động khi ảnh nguồn đủ lớn."
             },
             "permissions": {
                 "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
@@ -68,7 +68,7 @@
                 "scheduled_error_tooltip": "Lần xuất bản theo lịch này đã thất bại. Hãy mở cuộc thăm dò để xem lý do."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Bật/tắt menu điều khiển thăm dò",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
@@ -193,17 +193,17 @@
                     "help": "Tải lên hình ảnh để hiển thị cùng với cuộc thăm dò (tùy chọn).",
                     "alt_label": "Văn bản thay thế hình ảnh",
                     "alt_help_text": "Văn bản này là bắt buộc khi cài đặt hình ảnh, văn bản này sẽ hiển thị nếu hình ảnh không tải được.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Cuộc thăm dò này dùng một URL ảnh bên ngoài. URL bên ngoài đã bị ngừng hỗ trợ và sẽ bị loại bỏ trong một phiên bản tới. Vui lòng tải lại ảnh bằng nút tải lên."
                 },
                 "poll_option_image": {
                     "label": "Hình ảnh câu trả lời thăm dò",
                     "help": "Tải lên hình ảnh để hiển thị cùng với câu trả lời thăm dò (tùy chọn)."
                 },
-                "date_clear": "",
+                "date_clear": "Xóa ngày kết thúc",
                 "tooltip": {
                     "options": {
                         "add-button": "Thêm câu trả lời",
-                        "remove-button": ""
+                        "remove-button": "Xóa lựa chọn"
                     }
                 }
             },

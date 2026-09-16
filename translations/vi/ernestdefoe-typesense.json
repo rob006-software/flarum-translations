@@ -1,30 +1,30 @@
 {
     "ernestdefoe-typesense": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Được hỗ trợ bởi Typesense"
         },
         "admin": {
-            "intro": "",
-            "host_label": "",
-            "port_label": "",
-            "protocol_label": "",
-            "api_key_label": "",
-            "collection_prefix_label": "",
-            "prefix_help": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_users": "",
-            "use_for_posts": "",
-            "connection_label": "",
-            "test_button": "",
-            "test_ok": "",
-            "test_fail": "",
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "intro": "Hãy trỏ Flarum tới một máy chủ Typesense để có tìm kiếm nhanh, chấp nhận lỗi chính tả, trên các cuộc thảo luận, người dùng và bài viết. Hãy nhập thông tin máy chủ, lưu lại, rồi dựng lại chỉ mục. Khóa API của bạn được lưu trên máy chủ và không bao giờ lộ ra với khách truy cập.\n",
+            "host_label": "Máy chủ",
+            "port_label": "Cổng",
+            "protocol_label": "Giao thức",
+            "api_key_label": "Khóa API",
+            "collection_prefix_label": "Tiền tố bộ sưu tập",
+            "prefix_help": "Không bắt buộc. Giúp tách riêng các bộ sưu tập khi nhiều diễn đàn dùng chung một máy chủ Typesense. Để trống để tự động suy ra từ URL diễn đàn của bạn.\n",
+            "drivers_label": "Dùng Typesense cho…",
+            "drivers_help": "Hãy chọn những tìm kiếm nào do Typesense đảm nhiệm. Với mỗi loại, việc tìm theo từ khóa sẽ đi tới Typesense, còn việc lọc và duyệt khi không có từ khóa vẫn dùng cơ sở dữ liệu. Quyền hạn luôn do Flarum kiểm soát — Typesense chỉ xếp hạng kết quả.\n",
+            "use_for_discussions": "Tìm kiếm cuộc thảo luận",
+            "use_for_users": "Tìm kiếm người dùng",
+            "use_for_posts": "Tìm kiếm bài viết",
+            "connection_label": "Kết nối",
+            "test_button": "Kiểm tra kết nối",
+            "test_ok": "Đã kết nối",
+            "test_fail": "Không kết nối được tới Typesense",
+            "rebuild_label": "Chỉ mục tìm kiếm",
+            "rebuild_help": "Dựng hoặc làm mới mọi chỉ mục Typesense (cuộc thảo luận, người dùng, bài viết) từ nội dung sẵn có của bạn. Hãy chạy một lần sau khi nhập thông tin máy chủ, và mỗi khi bạn nghi ngờ chỉ mục đã lệch. Với diễn đàn lớn, hãy cấu hình một worker hàng đợi thực thụ để việc này chạy nền.\n",
+            "rebuild_button": "Dựng lại chỉ mục",
+            "rebuild_queued": "Đã đưa việc lập lại chỉ mục vào hàng đợi. Nó sẽ chạy nền qua worker hàng đợi của bạn.",
+            "rebuild_failed": "Không bắt đầu được việc lập lại chỉ mục. Hãy kiểm tra cài đặt kết nối của bạn."
         }
     }
 }

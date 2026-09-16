@@ -2,39 +2,39 @@
     "linkrobins-font-sizer": {
         "forum": {
             "header_button": {
-                "label": "",
-                "title": ""
+                "label": "Cỡ chữ",
+                "title": "Cỡ chữ"
             },
             "modal": {
-                "title": "",
-                "reading_text_heading": "",
-                "reading_text_hint": "",
-                "reading_text_value": "",
-                "interface_size_label": "",
-                "interface_size_hint": "",
-                "reset_button": ""
+                "title": "Cỡ chữ và cỡ giao diện",
+                "reading_text_heading": "Cỡ chữ khi đọc",
+                "reading_text_hint": "Ảnh hưởng tới nội dung bài viết và tiêu đề cuộc thảo luận.",
+                "reading_text_value": "{percent}%",
+                "interface_size_label": "Dùng giao diện lớn hơn",
+                "interface_size_hint": "Ảnh hưởng tới phần điều hướng, các nút và những thành phần giao diện khác.",
+                "reset_button": "Đặt lại về mặc định của trang"
             }
         },
         "admin": {
             "settings": {
-                "text_size_label": "",
-                "text_size_help": "",
-                "text_size_value": "",
-                "reset_button": "",
-                "bases_label": "",
-                "bases_help": "",
-                "base_input_label": "",
-                "small_input_label": "",
-                "title_input_label": "",
-                "bases_reset_button": "",
-                "ui_size_label": "",
-                "ui_size_help": "",
-                "ui_toggle_label": "",
-                "preview_label": "",
-                "preview_title": "",
-                "preview_text": "",
-                "preview_small": "",
-                "preview_button": ""
+                "text_size_label": "Cỡ chữ đọc mặc định",
+                "text_size_help": "Đặt mặc định cho toàn trang với nội dung bài viết và chữ tiêu đề. Người dùng có thể thay đổi bằng nút Cỡ chữ trên thanh đầu trang.",
+                "text_size_value": "{percent}%",
+                "reset_button": "Đặt lại về 100%",
+                "bases_label": "Cỡ chữ gốc",
+                "bases_help": "Các cỡ chữ khởi điểm, tính bằng pixel, mà thang cỡ chữ đọc nhân lên. Nếu phông chữ của giao diện bạn dùng trông nhỏ hoặc lớn (nhiều phông có chân như vậy), hãy chỉnh các giá trị này cho khớp thay vì viết CSS tùy chỉnh. Giá trị đã đổi áp dụng cho mọi người, kể cả ở mức 100%.",
+                "base_input_label": "Nội dung bài viết",
+                "small_input_label": "Chữ nhỏ",
+                "title_input_label": "Tiêu đề",
+                "bases_reset_button": "Đặt lại về mặc định (14 / 12 / 16)",
+                "ui_size_label": "Cỡ giao diện mặc định",
+                "ui_size_help": "Đặt mặc định cho toàn trang với phần điều hướng, các nút và thành phần giao diện. Người dùng có thể thay đổi bằng nút Cỡ chữ trên thanh đầu trang.",
+                "ui_toggle_label": "Dùng giao diện lớn hơn",
+                "preview_label": "Xem trước",
+                "preview_title": "Một tiêu đề cuộc thảo luận mẫu",
+                "preview_text": "Con cáo nâu nhanh nhẹn nhảy qua con chó lười. Đoạn chữ đọc mẫu này thay đổi theo các cài đặt bên trên.",
+                "preview_small": "Một dòng trích dẫn nhỏ, giống những dòng nằm dưới tiêu đề cuộc thảo luận.",
+                "preview_button": "Nút mẫu"
             }
         }
     }

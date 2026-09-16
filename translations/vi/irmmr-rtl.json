@@ -2,42 +2,42 @@
     "irmmr-rtl": {
         "admin": {
             "settings": {
-                "lang_base_label": "",
-                "lang_base_text": "",
-                "rtl_languages_label": "",
-                "rtl_languages_placeholder": "",
-                "rtl_languages_text": "",
-                "fm_status_label": "",
-                "fm_status_text": "",
-                "ad_status_label": "",
-                "ad_status_text": "",
-                "driver_label": "",
+                "lang_base_label": "RTL theo ngôn ngữ",
+                "lang_base_text": "Khi bật, RTL chỉ được áp dụng nếu ngôn ngữ giao diện đang dùng có hỗ trợ RTL. Khi tắt, các cài đặt RTL cho diễn đàn/trang quản trị được áp dụng vô điều kiện.",
+                "rtl_languages_label": "Mã ngôn ngữ RTL",
+                "rtl_languages_placeholder": "fa, ar, he, ur",
+                "rtl_languages_text": "Danh sách mã ngôn ngữ, phân tách bằng dấu phẩy, được coi là viết từ phải sang trái khi bật RTL theo ngôn ngữ. Ví dụ: fa, ar, he, ur\n",
+                "fm_status_label": "RTL cho diễn đàn",
+                "fm_status_text": "Bật bố cục RTL cho giao diện diễn đàn. Nếu RTL theo ngôn ngữ đang bật, cài đặt này chỉ có tác dụng khi ngôn ngữ được chọn là ngôn ngữ RTL.",
+                "ad_status_label": "RTL cho trang quản trị",
+                "ad_status_text": "Bật bố cục RTL cho bảng quản trị. Nếu RTL theo ngôn ngữ đang bật, cài đặt này chỉ có tác dụng khi ngôn ngữ được chọn là ngôn ngữ RTL.",
+                "driver_label": "Trình xử lý CSS",
                 "driver_options": {
-                    "rtlcss": "",
-                    "custom": ""
+                    "rtlcss": "Trình biên dịch RTL CSS",
+                    "custom": "Tài nguyên tùy chỉnh"
                 },
-                "driver_text": "",
-                "minify_label": "",
-                "minify_text": "",
+                "driver_text": "Hãy chọn cách xử lý các kiểu RTL. \"rtlcss\" sẽ tự động tạo phiên bản RTL cho CSS đã biên dịch của bạn bằng các quy tắc chuyển đổi RTL. \"custom\" tắt việc tạo RTL tự động để bạn tự quản lý các kiểu RTL qua quy tắc ánh xạ tài nguyên hoặc một quy trình dựng riêng. Sau khi thay đổi cài đặt này, hãy xóa bộ nhớ đệm của Flarum để tài nguyên được dựng lại.\n",
+                "minify_label": "Nén CSS đã biên dịch",
+                "minify_text": "Khi bật, các tệp CSS đã biên dịch (gồm cả kết quả LESS → CSS và CSS RTL được tạo ra) sẽ được nén để giảm kích thước tệp và cải thiện hiệu năng. Quá trình này cần ít nhất 512M bộ nhớ PHP và chỉ chạy một lần trong lúc dựng, không phải ở mỗi lượt truy cập. Sau khi thay đổi cài đặt này, hãy xóa bộ nhớ đệm của Flarum để tạo lại các tài nguyên đã biên dịch.\n",
                 "payloads": {
-                    "placeholder": "",
-                    "section_title": "",
-                    "empty_text": "",
-                    "add_button": "",
-                    "help_text": ""
+                    "placeholder": "Khóa payload, ví dụ fof-nightmode.assets.day",
+                    "section_title": "Ghi đè payload",
+                    "empty_text": "Chưa thêm payload nào",
+                    "add_button": "Thêm payload",
+                    "help_text": "Payload là các tài nguyên CSS/JS được chèn vào trang qua hệ thống payload giao diện của Flarum. Khi một payload được thêm vào đây, tiện ích sẽ kiểm tra xem nó có khớp với một tài nguyên CSS hay JS không và thay nó bằng phiên bản thân thiện với RTL, dựa trên trình xử lý được chọn và các quy tắc ánh xạ tài nguyên.\n"
                 },
                 "mappings": {
-                    "pattern_placeholder": "",
-                    "replace_placeholder": "",
+                    "pattern_placeholder": "Mẫu, ví dụ *.css",
+                    "replace_placeholder": "Thay thế, ví dụ *.rtl.css",
                     "type_options": {
-                        "auto": "",
-                        "css": "",
-                        "js": ""
+                        "auto": "Tự động",
+                        "css": "CSS",
+                        "js": "JS"
                     },
-                    "section_title": "",
-                    "empty_text": "",
-                    "add_button": "",
-                    "help_text": ""
+                    "section_title": "Quy tắc ánh xạ tài nguyên",
+                    "empty_text": "Chưa định nghĩa quy tắc ánh xạ nào",
+                    "add_button": "Thêm quy tắc",
+                    "help_text": "Hãy định nghĩa cách các tệp CSS hoặc JS gốc ánh xạ sang phiên bản RTL của chúng. Mẫu có thể chứa ký tự đại diện như \"*.css\". Ví dụ:\n    bootstrap*.css  → bootstrap*.rtl.css\n    app.css         → app-rtl.css\nNhững ánh xạ này được áp dụng khi chuyển đổi payload hoặc khi tạo CSS RTL bằng trình xử lý rtlcss. Hãy nhớ xóa bộ nhớ đệm của Flarum sau khi thay đổi."
                 }
             }
         }

@@ -7,7 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Yêu cầu nhập lý do trước khi tiếp tục mạo danh người dùng khác.",
-                "require_reason_help": "",
+                "require_reason_help": "Lý do được ghi vào nhật ký kiểm toán (flarum/audit) và/hoặc thành ghi chú điều hành viên trên cả hai tài khoản (fof/moderator-notes), tùy phần nào đang được bật.",
                 "no_settings_available": "Hiện không có cài đặt nào khả dụng. Thử cài đặt fof/moderator-notes"
             }
         },
@@ -25,10 +25,10 @@
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Bạn đang đóng vai {username}."
             },
             "return": {
-                "button": ""
+                "button": "Quay lại {username}"
             }
         }
     },
@@ -36,8 +36,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "",
-                    "impersonation_ended": ""
+                    "impersonated": "Đã mạo danh {username}",
+                    "impersonation_ended": "Đã quay lại {username}"
                 }
             }
         }

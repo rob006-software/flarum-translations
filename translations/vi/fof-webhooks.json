@@ -53,11 +53,11 @@
                 "debug_help": "Thêm nhật ký bổ sung vào tệp nhật ký Flarum để gỡ lỗi các vấn đề với webhook hoặc sự kiện không hoạt động chính xác.",
                 "item": {
                     "tag_any_label": "Bất kỳ thẻ nào",
-                    "edit_tooltip": "",
-                    "delete_tooltip": "",
-                    "delete_confirm_alert": "",
-                    "create_button": "",
-                    "edit_tags_button": ""
+                    "edit_tooltip": "Sửa cài đặt webhook",
+                    "delete_tooltip": "Xóa webhook",
+                    "delete_confirm_alert": "Bạn có chắc chắn muốn xóa webhook {service} này không?",
+                    "create_button": "Tạo",
+                    "edit_tags_button": "Sửa thẻ"
                 },
                 "help": {
                     "disabled": "Webhook này bị vô hiệu hóa vì nó không có bất kỳ sự kiện nào được bật.",

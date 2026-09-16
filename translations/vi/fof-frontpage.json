@@ -5,24 +5,24 @@
                 "front_button": "FrontPage"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Được đánh dấu lên Trang nhất"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Đưa lên Trang nhất",
+                "pull_from_front_button": "Gỡ khỏi Trang nhất"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Được đưa lên Trang nhất"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "trang nhất"
                 }
             }
         }

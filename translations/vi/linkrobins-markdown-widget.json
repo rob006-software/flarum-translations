@@ -2,15 +2,15 @@
     "linkrobins-markdown-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": "",
-                "background_label": "",
-                "background_help": ""
+                "title_label": "Tiêu đề",
+                "title_help": "Không bắt buộc. Hiển thị phía trên phần nội dung. Để trống để không có tiêu đề.",
+                "title_placeholder": "Chào mừng đến với cộng đồng của chúng tôi!",
+                "icon_label": "Lớp biểu tượng",
+                "icon_help": "Lớp FontAwesome hiển thị cạnh tiêu đề (ví dụ fab fa-markdown). Để trống để không có biểu tượng.",
+                "body_label": "Nội dung Markdown",
+                "body_help": "Markdown tiêu chuẩn (kiểu GitHub). Hỗ trợ tiêu đề, danh sách, liên kết, mã và bảng. HTML nội dòng được chấp nhận nhưng sẽ được làm sạch -- các thẻ script, trình xử lý sự kiện và những đoạn đánh dấu không an toàn khác bị loại bỏ trước khi hiển thị.",
+                "background_label": "Màu nền",
+                "background_help": "Không bắt buộc. Màu nền của tiện ích con. Để trống để đi theo giao diện của bạn."
             }
         }
     }

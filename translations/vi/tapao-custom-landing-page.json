@@ -6,7 +6,7 @@
                 "guests_only_label": "Chỉ hiển thị cho khách",
                 "guests_only_help": "Khi được bật, người dùng đã đăng nhập sẽ bỏ qua trang đích và thấy diễn đàn như bình thường. Hãy cài đặt fof/direct-links để có các trang /login và /register riêng, hoặc dùng các biến mẫu '{{ login_url }}' và '{{ register_url }}' trong HTML của bạn.\n",
                 "html_label": "HTML của trang đích",
-                "html_help": ""
+                "html_help": "Hãy dán toàn bộ tài liệu HTML của bạn vào đây (gồm cả DOCTYPE html và các thẻ html). Các biến mẫu có thể dùng: '{{ forum_title }}', '{{ forum_url }}', '{{ login_url }}', '{{ register_url }}', '{{ year }}'.\n"
             }
         }
     }

@@ -2,55 +2,55 @@
     "ernestdefoe-group-messages": {
         "forum": {
             "compose": {
-                "group_button": "",
-                "group_title": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "recipients_label": "",
-                "message_placeholder": "",
-                "create_button": "",
-                "create_error": ""
+                "group_button": "Tin nhắn nhóm mới",
+                "group_title": "Tin nhắn nhóm mới",
+                "name_label": "Tên nhóm",
+                "name_placeholder": "Đặt tên cho nhóm này (không bắt buộc)",
+                "recipients_label": "Thêm người",
+                "message_placeholder": "Hãy viết tin nhắn đầu tiên…",
+                "create_button": "Tạo nhóm",
+                "create_error": "Không tạo được nhóm. Vui lòng thử lại."
             },
             "dialog": {
-                "participants": "",
-                "participant_count": "",
-                "group_fallback_title": "",
-                "seen_by": "",
-                "seen_by_count": ""
+                "participants": "{count} người tham gia",
+                "participant_count": "{count, plural, one {# người} other {# người}}",
+                "group_fallback_title": "Tin nhắn nhóm",
+                "seen_by": "{names} đã xem",
+                "seen_by_count": "{count} người đã xem"
             },
             "reactions": {
-                "add_label": ""
+                "add_label": "Thêm biểu cảm"
             },
             "reply": {
-                "reply_button": "",
-                "replying_to": "",
-                "cancel": "",
-                "unknown": ""
+                "reply_button": "Trả lời",
+                "replying_to": "Đang trả lời {username}",
+                "cancel": "Hủy trả lời",
+                "unknown": "Trả lời một tin nhắn trước đó"
             },
             "quote": {
-                "quote_button": ""
+                "quote_button": "Trích dẫn"
             },
             "manage": {
-                "title": "",
-                "name_label": "",
-                "save_button": "",
-                "participants_label": "",
-                "add_people": "",
-                "leave_button": "",
-                "remove_tooltip": "",
-                "promote_tooltip": "",
-                "demote_tooltip": "",
-                "role_owner": "",
-                "role_moderator": "",
-                "role_member": ""
+                "title": "Cài đặt nhóm",
+                "name_label": "Tên và biểu tượng nhóm",
+                "save_button": "Lưu",
+                "participants_label": "Người tham gia ({count})",
+                "add_people": "Thêm người",
+                "leave_button": "Rời nhóm",
+                "remove_tooltip": "Gỡ khỏi nhóm",
+                "promote_tooltip": "Đặt làm điều hành viên",
+                "demote_tooltip": "Thôi làm điều hành viên",
+                "role_owner": "Chủ kênh",
+                "role_moderator": "Người kiểm duyệt",
+                "role_member": "Thành viên"
             }
         },
         "lib": {
             "error": {
-                "generic": "",
-                "not_group_member": "",
-                "cannot_manage": "",
-                "min_participants": ""
+                "generic": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+                "not_group_member": "Bạn không phải thành viên của nhóm này.",
+                "cannot_manage": "Bạn không có quyền quản lý nhóm này.",
+                "min_participants": "Một nhóm cần có ít nhất hai người khác."
             }
         }
     }

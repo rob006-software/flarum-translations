@@ -2,90 +2,90 @@
     "linkrobins-referral": {
         "forum": {
             "profile": {
-                "tab": "",
-                "invite_code_title": "",
-                "invite_code_help": "",
-                "copy": "",
-                "copy_link": "",
-                "qr_button": "",
-                "total_referrals": "",
-                "no_referrals": "",
-                "not_eligible": ""
+                "tab": "Giới thiệu",
+                "invite_code_title": "Mã mời của bạn",
+                "invite_code_help": "Hãy chia sẻ mã hoặc liên kết giới thiệu của bạn. Bất cứ ai truy cập liên kết của bạn sẽ được điền sẵn mã khi đăng ký.",
+                "copy": "Sao chép",
+                "copy_link": "Sao chép liên kết giới thiệu",
+                "qr_button": "Mã QR",
+                "total_referrals": "Tổng số người được giới thiệu",
+                "no_referrals": "Chưa giới thiệu được ai. Hãy chia sẻ mã mời của bạn để bắt đầu!",
+                "not_eligible": "Bạn chưa đủ điều kiện để có mã mời riêng. Hãy tiếp tục tham gia và quay lại sau nhé."
             },
             "sign_up": {
-                "invite_code_label": "",
-                "invite_code_label_required": "",
-                "invite_code_placeholder": ""
+                "invite_code_label": "Mã mời",
+                "invite_code_label_required": "Mã mời *",
+                "invite_code_placeholder": "Mã mời"
             },
             "user_card": {
-                "referrals_singular": "",
-                "referrals_plural": ""
+                "referrals_singular": "{count} lượt giới thiệu",
+                "referrals_plural": "{count} lượt giới thiệu"
             },
             "notifications": {
-                "registered_text": "",
-                "someone": "",
-                "group_label": ""
+                "registered_text": "{name} đã tham gia bằng mã mời của bạn",
+                "someone": "Ai đó",
+                "group_label": "Giới thiệu"
             },
             "settings": {
-                "notify_registered_label": ""
+                "notify_registered_label": "Có người tham gia bằng mã mời của bạn"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "require_label": "",
-                "require_help": "",
-                "enabled": "",
-                "disabled": ""
+                "title": "Chung",
+                "require_label": "Bắt buộc có mã mời khi đăng ký",
+                "require_help": "Khi bật, người dùng phải nhập một mã mời hợp lệ để hoàn tất đăng ký.",
+                "enabled": "Đang bật",
+                "disabled": "Đang tắt"
             },
             "eligibility": {
-                "title": "",
-                "help": "",
-                "groups_label": "",
-                "groups_help": "",
-                "min_posts_label": "",
-                "min_age_label": "",
-                "whitelist_label": "",
-                "whitelist_help": ""
+                "title": "Điều kiện để có mã mời riêng",
+                "help": "Quy định ai được có mã mời riêng. Quản trị viên và những người trong danh sách ưu tiên luôn đủ điều kiện. Hãy để trống một quy tắc hoặc đặt 0 để bỏ qua nó; khi đặt nhiều quy tắc, người dùng phải thỏa mãn tất cả.",
+                "groups_label": "Nhóm được phép",
+                "groups_help": "Nếu có nhóm nào được chọn, chỉ thành viên của những nhóm đó mới có mã mời riêng. Không chọn nhóm nào nghĩa là mọi nhóm đều được.",
+                "min_posts_label": "Số bài viết tối thiểu",
+                "min_age_label": "Tuổi tài khoản tối thiểu (ngày)",
+                "whitelist_label": "Danh sách trắng",
+                "whitelist_help": "Những tên người dùng luôn có mã mời, bất kể các quy tắc ở trên. Hãy cách nhau bằng dấu phẩy, dấu cách hoặc xuống dòng."
             },
             "campaign": {
-                "title": "",
-                "help": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "expiry_label": "",
-                "create": "",
-                "none": "",
-                "col_code": "",
-                "col_label": "",
-                "col_uses": "",
-                "col_expiry": "",
-                "no_expiry": "",
-                "expired": "",
-                "delete": "",
-                "qr": "",
-                "confirm_delete": ""
+                "title": "Mã chiến dịch",
+                "help": "Những mã mời độc lập không gắn với người dùng nào — rất hợp cho các đợt quảng bá trên mạng xã hội hoặc tiếp thị. Chúng không ghi công cho người giới thiệu, nhưng số lượt dùng vẫn được đếm.",
+                "label_label": "Nhãn",
+                "label_placeholder": "ví dụ: Ra mắt trên Twitter",
+                "expiry_label": "Hết hạn (tùy chọn)",
+                "create": "Tạo mã",
+                "none": "Chưa có mã chiến dịch nào.",
+                "col_code": "Mã",
+                "col_label": "Nhãn",
+                "col_uses": "Lượt dùng",
+                "col_expiry": "Hết hạn",
+                "no_expiry": "Không bao giờ",
+                "expired": "đã hết hạn",
+                "delete": "Xóa",
+                "qr": "Hiện mã QR",
+                "confirm_delete": "Xóa mã chiến dịch này? Những ai đang dùng nó sẽ không đăng ký bằng mã đó được nữa."
             }
         },
         "lib": {
             "qr": {
-                "title": "",
-                "download": ""
+                "title": "Mã QR mời: {code}",
+                "download": "Tải PNG"
             }
         },
         "api": {
-            "invalid_expiry": "",
-            "label_too_long": ""
+            "invalid_expiry": "Ngày hết hạn không hợp lệ.",
+            "label_too_long": "Nhãn quá dài."
         },
         "email": {
-            "registered_subject": "",
-            "registered_body": "",
-            "view_profile": "",
-            "someone": ""
+            "registered_subject": "{name} đã tham gia bằng mã mời của bạn",
+            "registered_body": "Tin vui! {name} vừa đăng ký trên diễn đàn bằng mã mời của bạn.",
+            "view_profile": "Xem trang cá nhân của họ",
+            "someone": "Ai đó"
         },
         "validation": {
-            "required": "",
-            "invalid": ""
+            "required": "Cần có mã mời để đăng ký.",
+            "invalid": "Mã mời không hợp lệ."
         }
     }
 }

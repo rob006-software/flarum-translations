@@ -2,31 +2,31 @@
     "ernestdefoe-facebook-post": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "destination_type_label": "",
-                "destination_type_help": "",
-                "destination_type_page": "",
-                "destination_type_group": "",
-                "page_id_label": "",
-                "page_id_help": "",
-                "page_id_placeholder": "",
-                "page_access_token_label": "",
-                "page_access_token_help": "",
-                "group_id_label": "",
-                "group_id_help": "",
-                "group_id_placeholder": "",
-                "group_access_token_label": "",
-                "group_access_token_help": "",
-                "graph_api_version_label": "",
-                "graph_api_version_help": ""
+                "enabled_label": "Bật tự động đăng lên Facebook",
+                "enabled_help": "Khi bật, các cuộc thảo luận mới sẽ được tự động đăng lên đích Facebook mà bạn chọn.",
+                "destination_type_label": "Loại đích đến",
+                "destination_type_help": "Hãy chọn đăng cuộc thảo luận mới lên một Trang Facebook hay một Nhóm Facebook.",
+                "destination_type_page": "Trang Facebook",
+                "destination_type_group": "Nhóm Facebook",
+                "page_id_label": "ID Trang Facebook",
+                "page_id_help": "ID dạng số của Trang Facebook của bạn (ví dụ 123456789012345). Bắt buộc khi Loại đích đến là Trang Facebook.",
+                "page_id_placeholder": "123456789012345",
+                "page_access_token_label": "Mã truy cập Trang",
+                "page_access_token_help": "Mã truy cập Trang không hết hạn lấy từ Meta for Developers (cần quyền pages_manage_posts). Được dùng khi Loại đích đến là Trang Facebook.",
+                "group_id_label": "ID Nhóm Facebook",
+                "group_id_help": "ID dạng số của Nhóm Facebook của bạn. Bắt buộc khi Loại đích đến là Nhóm Facebook.",
+                "group_id_placeholder": "123456789012345",
+                "group_access_token_label": "Mã truy cập Nhóm",
+                "group_access_token_help": "Mã truy cập người dùng có quyền publish_to_groups. Được dùng khi Loại đích đến là Nhóm Facebook.",
+                "graph_api_version_label": "Phiên bản Graph API",
+                "graph_api_version_help": "Phiên bản Facebook Graph API mà tiện ích này gọi tới (ví dụ v19.0, v20.0). Hãy nâng giá trị này khi Meta thông báo ngừng hỗ trợ phiên bản hiện tại — xem https://developers.facebook.com/docs/graph-api/changelog để biết nhật ký thay đổi và lịch ngừng hỗ trợ."
             },
             "tag_selector": {
-                "title": "",
-                "help": "",
-                "help_all": "",
-                "no_tags": "",
-                "saving": ""
+                "title": "Đăng lên Facebook với các thẻ chính",
+                "help": "Hãy chọn những thẻ chính nào sẽ kích hoạt việc đăng lên Facebook.",
+                "help_all": "Hãy bỏ chọn tất cả để đăng mọi cuộc thảo luận mới bất kể thẻ nào.",
+                "no_tags": "Không tìm thấy thẻ chính nào. Hãy cài và cấu hình tiện ích Flarum Tags trước.",
+                "saving": "Đang lưu…"
             }
         }
     }

@@ -99,9 +99,9 @@
                     "markReadCards_help": "Nếu được kích hoạt, thảo luận đã đọc sẽ có tiêu đề và văn bản nhạt hơn.",
                     "otherOptions_title": "Tùy chọn yêu cầu tiện ích mở rộng khác",
                     "otherOptions_info": "Các tùy chọn sau sẽ yêu cầu các tiện ích mở rộng khác được cài đặt và kích hoạt để chúng hoạt động. <strong>QUAN TRỌNG: vui lòng đọc <u>tất cả</u> thông tin cho từng tùy chọn riêng lẻ và thực hiện các bước cần thiết trước khi kích hoạt chúng</strong>.",
-                    "otherOptions_warningLabel": "",
-                    "otherOptions_warningText": "",
-                    "tempExtension_Message": "",
+                    "otherOptions_warningLabel": "Cảnh báo: có những tiện ích chưa tương thích với Flarum V2",
+                    "otherOptions_warningText": "Phần lớn những tiện ích sau vẫn chưa được chuyển sang Flarum V2, nên chúng sẽ không hoạt động với Discussion Cards. Tính đến phiên bản Discussion Cards này, chỉ có <strong>fof/discussion-views</strong> đã được chuyển sang Flarum V2 và <em>được phiên bản Discussion Cards này hỗ trợ</em>. Với những tiện ích còn lại, ngay cả khi có bản tương thích V2, hãy chờ các bản phát hành Discussion Cards sau để kiểm tra mức hỗ trợ đầy đủ trước khi bật các tùy chọn của chúng bên dưới. Thông báo này sẽ được cập nhật tương ứng khi điều đó xảy ra và <em>cảnh báo này sẽ biến mất khi mọi tiện ích của bên thứ ba đã được chuyển sang Flarum V2 và được Discussion Cards hỗ trợ đầy đủ</em>. Xin lưu ý rằng một số tiện ích có thể bị ngừng hỗ trợ, nếu chúng không được chuyển sang Flarum V2 hoặc không có lựa chọn thay thế.",
+                    "tempExtension_Message": "{icon} Tiện ích này vẫn chưa được Discussion Cards hỗ trợ đầy đủ (hãy chờ các bản phát hành Discussion Cards sau)",
                     "showViews_title_start": "Với tiện ích mở rộng ",
                     "showViews_title_or": " HOẶC ",
                     "showViews_title_end": " được cài đặt và kích hoạt, bạn có thể đặt tùy chọn (1) sau:",
@@ -170,7 +170,7 @@
                 "adminImageProcessingError": "Lỗi khi xử lý ảnh: ",
                 "tagImageNoTagId": "Chưa cung cấp tagId!",
                 "tagImageUnsupportedMethod": "Phương thức không được hỗ trợ ({method})",
-                "tagSettingsNoTagId": "",
+                "tagSettingsNoTagId": "Chưa cung cấp tagId!",
                 "debugModalDiscussionId": "Số ID thảo luận phải là số dương (từ 1 trở lên)"
             },
             "console": {

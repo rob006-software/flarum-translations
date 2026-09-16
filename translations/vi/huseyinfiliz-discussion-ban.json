@@ -2,57 +2,57 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Cấm người dùng khỏi cuộc thảo luận"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_discussion_sidebar": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": "",
-                "send_notifications": ""
+                "show_in_discussion_controls": "Hiện \"Cấm khỏi cuộc thảo luận\" trong các nút điều khiển cuộc thảo luận",
+                "show_in_discussion_sidebar": "Hiện nút \"Cấm khỏi cuộc thảo luận\" ở thanh bên của cuộc thảo luận",
+                "show_in_post_controls": "Hiện \"Cấm khỏi cuộc thảo luận\" trong các nút điều khiển bài viết",
+                "hide_discussions_from_banned": "Ẩn hoàn toàn cuộc thảo luận với người bị cấm (hoạt động như lỗi 404)",
+                "send_notifications": "Gửi thông báo khi một người dùng bị cấm hoặc được bỏ cấm khỏi một cuộc thảo luận"
             }
         },
         "forum": {
             "discussion_page": {
-                "ban_button": ""
+                "ban_button": "Cấm khỏi cuộc thảo luận"
             },
             "discussion_controls": {
-                "ban_button": "",
-                "ban_from_discussion": ""
+                "ban_button": "Cấm khỏi cuộc thảo luận",
+                "ban_from_discussion": "Cấm khỏi cuộc thảo luận"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Cấm khỏi cuộc thảo luận",
+                "unban_from_discussion": "Bỏ cấm khỏi cuộc thảo luận"
             },
             "post": {
-                "hidden_by_ban": ""
+                "hidden_by_ban": "Đã ẩn do bị cấm khỏi cuộc thảo luận"
             },
             "notifications": {
-                "discussion_banned_text": "",
-                "discussion_unbanned_text": ""
+                "discussion_banned_text": "{username} đã cấm bạn khỏi {title}",
+                "discussion_unbanned_text": "{username} đã bỏ cấm bạn khỏi {title}"
             },
             "settings": {
-                "notify_discussion_banned_label": "",
-                "notify_discussion_unbanned_label": ""
+                "notify_discussion_banned_label": "Có người cấm tôi khỏi một cuộc thảo luận",
+                "notify_discussion_unbanned_label": "Có người bỏ cấm tôi khỏi một cuộc thảo luận"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Cấm khỏi cuộc thảo luận",
+                "tab_ban": "Lệnh cấm mới",
+                "tab_list": "Người bị cấm ({count})",
+                "select_user": "Chọn người dùng",
+                "search_placeholder": "Tìm theo tên người dùng hoặc tên hiển thị...",
+                "search_banned_placeholder": "Tìm người bị cấm...",
+                "change_user": "Thay đổi",
+                "reason_label": "Lý do (không bắt buộc)",
+                "reason_placeholder": "Vì sao người dùng này bị cấm khỏi cuộc thảo luận này?",
+                "reason_help": "Lý do này sẽ hiển thị với các điều hành viên trong danh sách người bị cấm.",
+                "submit": "Cấm người dùng",
+                "ban_success": "Người dùng đã bị cấm khỏi cuộc thảo luận này.",
+                "unban_success": "Lệnh cấm với người dùng đã được gỡ bỏ.",
+                "no_bans": "Hiện không có người dùng nào bị cấm khỏi cuộc thảo luận này.",
+                "banned_by": "Bị cấm bởi {username}",
+                "unban": "Bỏ cấm",
+                "confirm_unban": "Bạn có chắc chắn muốn bỏ cấm người dùng này không? Những bài viết bị ẩn của họ sẽ được khôi phục."
             }
         }
     },
@@ -60,8 +60,8 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Đã cấm {username} khỏi {discussion} — {reason}",
+                    "unbanned": "Đã bỏ cấm {username} khỏi {discussion}"
                 }
             }
         }

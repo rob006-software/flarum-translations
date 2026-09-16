@@ -1,212 +1,212 @@
 {
     "datlechin-debugbar": {
         "lib": {
-            "expand": "",
-            "collapse": "",
-            "resize": "",
-            "empty": "",
-            "no_matches": "",
-            "blank": "",
-            "yes": "",
-            "no": "",
-            "filter_placeholder": "",
+            "expand": "Hiện thanh gỡ lỗi",
+            "collapse": "Ẩn thanh gỡ lỗi",
+            "resize": "Đổi kích thước thanh gỡ lỗi",
+            "empty": "Không có gì được ghi lại.",
+            "no_matches": "Không có gì khớp cả.",
+            "blank": "trống",
+            "yes": "Có",
+            "no": "Không",
+            "filter_placeholder": "Lọc…",
             "tabs": {
-                "timeline": "",
-                "queries": "",
-                "messages": "",
-                "request": "",
-                "events": "",
-                "cache": "",
-                "mail": "",
-                "settings": "",
-                "extensions": "",
-                "environment": ""
+                "timeline": "Dòng thời gian",
+                "queries": "Truy vấn",
+                "messages": "Tin nhắn",
+                "request": "Yêu cầu",
+                "events": "Sự kiện",
+                "cache": "Bộ nhớ đệm",
+                "mail": "Email",
+                "settings": "Cài đặt",
+                "extensions": "Tiện ích mở rộng",
+                "environment": "Môi trường"
             },
             "summary": {
-                "duration": "",
-                "queries": "",
-                "memory": "",
-                "round_trip": ""
+                "duration": "Thời gian xử lý trên máy chủ",
+                "queries": "Truy vấn cơ sở dữ liệu",
+                "memory": "Bộ nhớ cao nhất đã dùng",
+                "round_trip": "Thời gian trọn vòng đo tại trình duyệt"
             },
             "errors": {
-                "expired": "",
-                "failed": "",
-                "no_data": ""
+                "expired": "Hồ sơ này không còn được lưu. Chỉ những yêu cầu gần nhất được giữ lại.",
+                "failed": "Không tải được hồ sơ đó.",
+                "no_data": "Không có gì được ghi lại cho yêu cầu này."
             },
             "requests": {
-                "toggle": "",
-                "none": "",
-                "document": ""
+                "toggle": "Chọn một yêu cầu",
+                "none": "Không có yêu cầu nào",
+                "document": "lượt tải trang"
             },
             "timeline": {
-                "total": "",
-                "measures": "",
-                "unfinished": "",
-                "empty": "",
+                "total": "Tổng cộng",
+                "measures": "Các đoạn đo",
+                "unfinished": "(chưa kết thúc)",
+                "empty": "Không có gì được đo trong yêu cầu này.",
                 "spans": {
                     "flarum": {
-                        "boot": "",
-                        "request": "",
-                        "route": ""
+                        "boot": "Khởi động",
+                        "request": "Middleware và định tuyến",
+                        "route": "Bộ xử lý tuyến"
                     }
                 }
             },
             "queries": {
-                "count": "",
-                "duration": "",
-                "duplicates": "",
-                "filter": "",
-                "preview": "",
-                "bindings": "",
-                "connection": "",
-                "origin": "",
-                "occurrences": "",
-                "dropped": "",
-                "empty": ""
+                "count": "Truy vấn",
+                "duration": "Tổng thời gian",
+                "duplicates": "Trùng lặp",
+                "filter": "Lọc các câu lệnh…",
+                "preview": "Kèm tham số",
+                "bindings": "Tham số",
+                "connection": "Kết nối",
+                "origin": "Được gọi từ",
+                "occurrences": "Câu lệnh y hệt này đã chạy {count} lần trong yêu cầu này.",
+                "dropped": "{count} câu lệnh nữa không được ghi lại.",
+                "empty": "Yêu cầu này không chạy truy vấn nào."
             },
             "messages": {
-                "filter": "",
-                "show_trace": "",
-                "hide_trace": "",
-                "empty": "",
+                "filter": "Lọc thông điệp…",
+                "show_trace": "Hiện vết gọi",
+                "hide_trace": "Ẩn vết gọi",
+                "empty": "Không có gì được ghi nhật ký trong yêu cầu này.",
                 "levels": {
-                    "debug": "",
-                    "info": "",
-                    "warning": "",
-                    "error": ""
+                    "debug": "Gỡ lỗi",
+                    "info": "Thông tin",
+                    "warning": "Cảnh báo",
+                    "error": "Lỗi"
                 }
             },
             "request": {
-                "method": "",
-                "uri": "",
-                "status": "",
-                "route": "",
-                "handler": "",
-                "internal": "",
-                "user": "",
-                "guest": "",
-                "admin": "",
-                "groups": "",
-                "authentication": "",
+                "method": "Phương thức",
+                "uri": "URI",
+                "status": "Trạng thái",
+                "route": "Tuyến",
+                "handler": "Bộ xử lý",
+                "internal": "Điều phối nội bộ",
+                "user": "Người dùng",
+                "guest": "Khách",
+                "admin": "Quản trị viên",
+                "groups": "Nhóm",
+                "authentication": "Xác thực bằng",
                 "sections": {
-                    "overview": "",
-                    "actor": "",
-                    "parameters": "",
-                    "query": "",
-                    "json_api": "",
-                    "request_headers": "",
-                    "response_headers": ""
+                    "overview": "Tổng quan",
+                    "actor": "Người thực hiện",
+                    "parameters": "Tham số của tuyến",
+                    "query": "Chuỗi truy vấn",
+                    "json_api": "JSON:API",
+                    "request_headers": "Header của yêu cầu",
+                    "response_headers": "Header của phản hồi"
                 }
             },
             "events": {
-                "count": "",
-                "listed": "",
-                "filter": "",
-                "dropped": "",
-                "collapsed_title": "",
-                "collapsed_help": "",
-                "empty": ""
+                "count": "Đã phát đi",
+                "listed": "Đã liệt kê",
+                "filter": "Lọc sự kiện…",
+                "dropped": "{count} sự kiện nữa không được ghi lại.",
+                "collapsed_title": "Được đếm nhưng không liệt kê",
+                "collapsed_help": "Các sự kiện của model và cơ sở dữ liệu kích hoạt hàng trăm lần mỗi yêu cầu. Bảng Truy vấn cho thấy những sự kiện cơ sở dữ liệu đó đang làm gì.",
+                "empty": "Không có sự kiện nào được phát đi trong yêu cầu này."
             },
             "cache": {
-                "hit_rate": "",
-                "filter": "",
-                "dropped": "",
-                "empty": "",
+                "hit_rate": "Tỷ lệ trúng",
+                "filter": "Lọc các khóa…",
+                "dropped": "{count} thao tác nữa không được ghi lại.",
+                "empty": "Yêu cầu này không đụng tới bộ nhớ đệm.",
                 "types": {
-                    "hit": "",
-                    "miss": "",
-                    "write": "",
-                    "forget": "",
-                    "flush": ""
+                    "hit": "Trúng",
+                    "miss": "Trượt",
+                    "write": "Viết",
+                    "forget": "Xóa khóa",
+                    "flush": "Xóa sạch"
                 }
             },
             "mail": {
-                "count": "",
-                "show": "",
-                "hide": "",
-                "empty": "",
+                "count": "Email",
+                "show": "Hiển thị",
+                "hide": "Ẩn",
+                "empty": "Yêu cầu này không gửi email nào.",
                 "statuses": {
-                    "sending": "",
-                    "sent": ""
+                    "sending": "Đang gửi",
+                    "sent": "Đã gửi"
                 },
                 "headers": {
-                    "from": "",
-                    "to": "",
-                    "cc": "",
-                    "bcc": "",
-                    "reply_to": ""
+                    "from": "Từ",
+                    "to": "Đến",
+                    "cc": "Cc",
+                    "bcc": "Bcc",
+                    "reply_to": "Trả lời tới"
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
-                "filter": "",
-                "redacted": "",
-                "empty": ""
+                "count": "Cài đặt",
+                "groups": "Nhóm",
+                "filter": "Lọc các khóa…",
+                "redacted": "Giá trị này bị ẩn vì tên khóa của nó trông giống thông tin xác thực.",
+                "empty": "Không có cài đặt nào được lưu."
             },
             "extensions": {
-                "enabled": "",
-                "installed": "",
-                "filter": "",
-                "empty": "",
+                "enabled": "Đang bật",
+                "installed": "Đã cài đặt",
+                "filter": "Lọc tiện ích…",
+                "empty": "Không có tiện ích nào được cài.",
                 "columns": {
-                    "id": "",
-                    "title": "",
-                    "version": "",
-                    "dependencies": ""
+                    "id": "Tiện ích",
+                    "title": "Tên",
+                    "version": "Phiên bản",
+                    "dependencies": "Phụ thuộc vào"
                 }
             },
             "environment": {
-                "empty": "",
+                "empty": "Không có gì để báo cáo.",
                 "groups": {
-                    "flarum": "",
-                    "php": "",
-                    "drivers": ""
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "Trình điều khiển"
                 },
                 "keys": {
-                    "version": "",
-                    "url": "",
-                    "debug": "",
-                    "maintenance": "",
-                    "sapi": "",
-                    "memory_limit": "",
-                    "max_execution_time": "",
-                    "opcache": "",
-                    "timezone": "",
-                    "database": "",
-                    "cache": "",
-                    "queue": "",
-                    "session": "",
-                    "mail": ""
+                    "version": "Phiên bản",
+                    "url": "URL",
+                    "debug": "Chế độ gỡ lỗi",
+                    "maintenance": "Bảo trì",
+                    "sapi": "Giao diện chạy PHP",
+                    "memory_limit": "Giới hạn bộ nhớ",
+                    "max_execution_time": "Thời gian chạy tối đa",
+                    "opcache": "OPcache",
+                    "timezone": "Múi giờ",
+                    "database": "Cơ sở dữ liệu",
+                    "cache": "Bộ nhớ đệm",
+                    "queue": "Hàng đợi",
+                    "session": "Phiên",
+                    "mail": "Email"
                 }
             }
         },
         "admin": {
             "debug_mode": {
-                "on": "",
-                "off": ""
+                "on": "Chế độ gỡ lỗi đang bật nên thanh gỡ lỗi đang chạy. Quản trị viên sẽ thấy nó ở cuối mỗi trang.",
+                "off": "Thanh gỡ lỗi chỉ chạy khi chế độ gỡ lỗi đang bật. Hãy đặt `'debug' => true` trong config.php để bật nó."
             },
             "max_profiles": {
-                "label": "",
-                "help": ""
+                "label": "Số yêu cầu được giữ lại",
+                "help": "Bao nhiêu yêu cầu gần đây còn xem được trong thanh gỡ lỗi. Những yêu cầu cũ hơn sẽ bị xóa khi có yêu cầu mới."
             },
             "trace_queries": {
-                "label": "",
-                "help": ""
+                "label": "Ghi lại nơi phát sinh truy vấn",
+                "help": "Hiển thị dòng mã ứng dụng đã chạy mỗi truy vấn. Đây là thông tin hữu ích nhất mà bảng truy vấn cung cấp, và cũng là việc tốn kém nhất mà thanh gỡ lỗi thực hiện."
             },
             "open_by_default": {
-                "label": "",
-                "help": ""
+                "label": "Mở sẵn khi tải trang",
+                "help": "Mở thanh ở bảng bạn xem gần nhất trên mọi trang, thay vì thu gọn thành một tay cầm nhỏ."
             },
             "collectors": {
-                "label": "",
-                "help": ""
+                "label": "Các bảng",
+                "help": "Hãy tắt những gì bạn không cần. Một bảng đã tắt sẽ không thu thập gì cả, kể cả một listener, nên nó không tốn chi phí nào."
             },
             "storage": {
-                "label": "",
-                "help": "",
-                "clear": "",
-                "cleared": ""
+                "label": "Các yêu cầu đã lưu",
+                "help": "Các hồ sơ được ghi vào storage/debugbar. Chúng chứa cài đặt, câu lệnh SQL và header của yêu cầu, nên hãy xóa trước khi chia sẻ một trang phát triển.",
+                "clear": "Xóa các yêu cầu đã lưu",
+                "cleared": "Đã xóa {count} yêu cầu đã lưu."
             }
         }
     }

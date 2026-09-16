@@ -9,13 +9,13 @@
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "empty_list": "",
+            "empty_list": "Không có issue hay pull request nào để hiển thị.",
             "title": "Milestone",
             "last_updated": "Cập nhật lần cuối {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "Hoàn thành <strong>{progress}%</strong>",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} trên {total}"
         },

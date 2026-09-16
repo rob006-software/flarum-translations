@@ -3,25 +3,25 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "Bài trả lời gần nhất trong cuộc thảo luận này là {time}.",
+                    "description": "Hãy cân nhắc xem bài trả lời của bạn có mang lại điều gì mới không, hay chủ đề đã được giải quyết rồi.",
+                    "cta": "Hãy cân nhắc mở một cuộc thảo luận mới nếu bạn có câu hỏi hoặc góc nhìn mới.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Tôi hiểu cuộc thảo luận này đã ngưng hoạt động, nhưng bài trả lời của tôi có liên quan."
                 },
-                "error": ""
+                "error": "Cuộc thảo luận này quá cũ để trả lời."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Cài đặt chung",
+                "days_label": "Số ngày trước khi cuộc thảo luận bị coi là ngưng hoạt động",
+                "days_help": "Đánh dấu cuộc thảo luận là ngưng hoạt động sau chừng này ngày kể từ bài viết cuối cùng. Hãy đặt <code>0</code> để tắt theo mặc định.",
+                "show_discussion_cta_label": "Hiện lời nhắc \"Mở cuộc thảo luận mới\"",
+                "show_discussion_cta_help": "Hiển thị gợi ý mở một cuộc thảo luận mới khi người dùng định trả lời những cuộc thảo luận đã ngưng hoạt động.",
+                "tags_title": "Cài đặt riêng theo thẻ",
+                "tags_help": "Ghi đè ngưỡng ngưng hoạt động chung cho từng thẻ cụ thể. Để trống để dùng giá trị mặc định. Khi nhiều thẻ có giá trị khác nhau, khoảng thời gian ngắn nhất sẽ được áp dụng.",
+                "tags_placeholder": "Mặc định"
             }
         }
     }

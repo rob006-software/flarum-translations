@@ -14,7 +14,7 @@
         },
         "console": {
             "scheduled_drafts_disabled": "Lên lịch bản nháp hiện bị vô hiệu hóa trong cài đặt.",
-            "no_title_error": ""
+            "no_title_error": "Đã bỏ qua bản nháp: thiếu tiêu đề cuộc thảo luận."
         },
         "ref": {
             "schedule_draft": "Lên lịch bản nháp"
@@ -51,7 +51,7 @@
                 "schedule_time_preview": "Bản nháp này sẽ được tự động đăng vào lúc <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Ngày giờ không hợp lệ",
-                "no_title_error": ""
+                "no_title_error": "Cần có tiêu đề cuộc thảo luận trước khi hẹn lịch."
             },
             "user": {
                 "settings": {
@@ -67,8 +67,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Mặc định bật tự động lưu bản nháp",
+                "draftAutosaveInterval": "Chu kỳ tự động lưu mặc định (giây)"
             }
         }
     },

@@ -2,19 +2,19 @@
     "datlechin-mermaid": {
         "admin": {
             "settings": {
-                "theme_label": "",
-                "theme_help": "",
+                "theme_label": "Giao diện biểu đồ",
+                "theme_help": "Cách tô màu cho biểu đồ. \"Theo giao diện diễn đàn\" lấy màu từ diễn đàn của bạn và đi theo chế độ sáng, tối.",
                 "theme_options": {
-                    "flarum": "",
-                    "auto": "",
-                    "default": "",
-                    "dark": "",
-                    "neutral": "",
-                    "forest": ""
+                    "flarum": "Theo giao diện diễn đàn",
+                    "auto": "Mermaid sáng và tối",
+                    "default": "Mermaid mặc định",
+                    "dark": "Mermaid tối",
+                    "neutral": "Mermaid trung tính",
+                    "forest": "Mermaid rừng"
                 },
-                "font_family_label": "",
-                "font_family_help": "",
-                "font_family_placeholder": ""
+                "font_family_label": "Họ phông chữ",
+                "font_family_help": "Bất kỳ danh sách phông chữ CSS nào, ví dụ: \"Inter\", system-ui, sans-serif. Để trống để dùng phông chữ mà diễn đàn của bạn dùng cho chữ trong bài viết.",
+                "font_family_placeholder": "Kế thừa từ diễn đàn"
             }
         }
     }

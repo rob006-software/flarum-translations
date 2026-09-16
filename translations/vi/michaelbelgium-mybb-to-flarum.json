@@ -11,7 +11,7 @@
                         "migrate_soft_threads_label": "Chuyển các chủ đề xóa tạm thời",
                         "migrate_soft_posts_label": "Chuyển các bài viết xóa tạm thời",
                         "migrate_attachments_label": "Chuyển các tệp đính kèm",
-                        "debug_mode_label": ""
+                        "debug_mode_label": "Bật ghi nhật ký"
                     },
                     "mybb": {
                         "title": "Cài đặt MyBB",
@@ -21,8 +21,8 @@
                         "db_label": "Tên cơ sở dữ liệu",
                         "prefix_label": "Tiền tố bảng",
                         "path": {
-                            "label": "",
-                            "help_text": ""
+                            "label": "Đường dẫn tuyệt đối MyBB",
+                            "help_text": "Đường dẫn tuyệt đối tới nơi cài MyBB, ví dụ: /var/www/mybb."
                         }
                     },
                     "general": {

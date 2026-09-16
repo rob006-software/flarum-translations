@@ -2,32 +2,32 @@
     "ernestdefoe-hashtags": {
         "forum": {
             "nav": {
-                "browse": ""
+                "browse": "Hashtag"
             },
             "page": {
-                "meta": "",
-                "browse_all": "",
-                "empty": ""
+                "meta": "{posts, plural, one {# bài viết} other {# bài viết}} trong {discussions, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}}",
+                "browse_all": "Duyệt toàn bộ hashtag",
+                "empty": "Chưa có gì được đăng với #{name} — hoặc không có gì bạn xem được."
             },
             "browse": {
-                "title": "",
-                "lede": "",
-                "search_placeholder": "",
-                "sort_popular": "",
-                "sort_recent": "",
-                "sort_alphabetical": "",
-                "empty": "",
-                "no_matches": ""
+                "title": "Hashtag",
+                "lede": "Ai cũng có thể tạo một hashtag. Hãy viết dấu # theo sau là một từ trong bất kỳ bài viết nào.",
+                "search_placeholder": "Tìm một hashtag…",
+                "sort_popular": "Dùng nhiều nhất",
+                "sort_recent": "Dùng gần đây",
+                "sort_alphabetical": "A–Z",
+                "empty": "Chưa có hashtag nào. Hãy viết dấu # theo sau là một từ trong một bài viết để tạo hashtag đầu tiên.",
+                "no_matches": "Không có hashtag nào khớp."
             },
             "composer": {
-                "post_count": ""
+                "post_count": "{count, plural, one {# bài viết} other {# bài viết}}"
             }
         },
         "admin": {
             "backfill": {
-                "heading": "",
-                "body": "",
-                "help": ""
+                "heading": "Bài viết sẵn có",
+                "body": "Những bài viết được viết trước khi cài Hashtags được lưu mà không có liên kết hashtag, nên chúng sẽ không xuất hiện trong dòng tin nào cho tới khi được phân tích lại. Hãy chạy lệnh này một lần từ thư mục Flarum của bạn:",
+                "help": "Hãy thêm --dry-run trước để xem có bao nhiêu bài viết sẽ thay đổi. Chỉ những bài thực sự chứa hashtag mới được viết lại; phần còn lại chỉ được đọc rồi bỏ qua."
             }
         }
     }

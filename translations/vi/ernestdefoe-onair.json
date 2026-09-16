@@ -1,64 +1,64 @@
 {
     "onair": {
         "lib": {
-            "live": "",
-            "live_now": "",
+            "live": "TRỰC TIẾP",
+            "live_now": "Đang phát trực tiếp",
             "errors": {
-                "url_required": "",
-                "no_provider": ""
+                "url_required": "Hãy dán URL luồng phát YouTube hoặc Twitch của bạn.",
+                "no_provider": "URL đó không phải là liên kết YouTube hay Twitch mà OnAir nhận ra."
             }
         },
         "forum": {
             "nav": {
-                "live": ""
+                "live": "Trực tiếp"
             },
             "directory": {
-                "title": "",
-                "empty": ""
+                "title": "Đang phát trực tiếp",
+                "empty": "Hiện chưa có ai phát trực tiếp. Hãy là người đầu tiên, bấm “Lên sóng”."
             },
             "go_live": {
-                "button": "",
-                "title": "",
-                "provider_label": "",
-                "url_label": "",
-                "title_label": "",
-                "submit": "",
-                "success": ""
+                "button": "Phát trực tiếp",
+                "title": "Phát trực tiếp",
+                "provider_label": "Bạn đang phát ở đâu?",
+                "url_label": "URL kênh hoặc video",
+                "title_label": "Tiêu đề buổi phát",
+                "submit": "Phát trực tiếp",
+                "success": "Bạn đã lên sóng! Huy hiệu TRỰC TIẾP của bạn đang hiển thị."
             },
             "viewer": {
-                "unavailable": ""
+                "unavailable": "Hiện không thể nhúng luồng phát này."
             },
             "widget": {
-                "name": "",
-                "title_label": "",
-                "count_label": "",
-                "preview_label": "",
-                "empty": ""
+                "name": "Luồng phát trực tiếp",
+                "title_label": "Tiêu đề",
+                "count_label": "Số lượng",
+                "preview_label": "Hiện ảnh xem trước của luồng phát",
+                "empty": "Hiện chưa có ai đang phát."
             },
             "stream": {
-                "by": "",
-                "untitled": "",
-                "not_found": "",
-                "end": "",
-                "has_ended": "",
-                "end_failed": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_failed": ""
+                "by": "bởi",
+                "untitled": "Luồng phát trực tiếp",
+                "not_found": "Luồng phát đó không còn trực tiếp nữa.",
+                "end": "Kết thúc buổi phát",
+                "has_ended": "Buổi phát này đã kết thúc.",
+                "end_failed": "Không kết thúc được buổi phát. Vui lòng thử lại.",
+                "delete": "Xóa buổi phát",
+                "delete_confirm": "Xóa buổi phát này? Thao tác này xóa nó vĩnh viễn, kể cả lịch sử.",
+                "delete_failed": "Không xóa được buổi phát. Vui lòng thử lại."
             }
         },
         "admin": {
             "settings": {
-                "default_provider_label": "",
-                "default_provider_help": "",
-                "poll_interval_label": "",
-                "poll_interval_help": "",
-                "max_hours_label": "",
-                "max_hours_help": ""
+                "default_provider_label": "Nhà cung cấp mặc định",
+                "default_provider_help": "Nguồn được chọn sẵn trong hộp thoại Lên sóng.",
+                "poll_interval_label": "Chu kỳ kiểm tra hiện diện (giây)",
+                "poll_interval_help": "Bao lâu thì kênh truyền dự phòng kiểm tra xem ai đang phát trực tiếp, khi chưa cài flarum/realtime. Tối thiểu 10.",
+                "max_hours_label": "Thời lượng phát tối đa (giờ)",
+                "max_hours_help": "Những buổi phát vẫn còn được đánh dấu trực tiếp sau chừng này giờ sẽ tự động bị kết thúc bởi tiến trình dọn dẹp hằng giờ. Điều này bắt được những người phát đã đóng tab mà chưa kết thúc."
             },
             "permissions": {
-                "broadcast": "",
-                "manage": ""
+                "broadcast": "Lên sóng (bắt đầu một buổi phát)",
+                "manage": "Quản lý / kết thúc buổi phát của người khác"
             }
         }
     }

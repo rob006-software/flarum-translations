@@ -9,7 +9,7 @@
             "errors": {
                 "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
                 "max_image_count_exceed": "Đã vượt quá số lượng hình ảnh tối đa.",
-                "remote_images_not_allowed": "",
+                "remote_images_not_allowed": "Không được dùng hình ảnh từ bên ngoài trong chữ ký.",
                 "save_failed": "Đã xảy ra lỗi khi lưu chữ ký của bạn."
             },
             "editor": {
@@ -37,12 +37,12 @@
                     "help": "Khi người dùng vượt quá giới hạn ký tự tối đa trong chữ ký, họ sẽ không thể lưu cho đến khi số ký tự phù hợp với giới hạn."
                 },
                 "allow_remote_images": {
-                    "description": "",
-                    "help": ""
+                    "description": "Cho phép hình ảnh từ bên ngoài.",
+                    "help": "Khi tắt, người dùng không thể dùng hình ảnh được lưu trên trang web khác trong chữ ký của họ. Điều này ngăn những hình ảnh ngoài trang theo dõi địa chỉ IP của tất cả những ai xem chữ ký."
                 },
                 "allowed_image_hosts": {
-                    "description": "",
-                    "help": ""
+                    "description": "Các máy chủ ảnh được phép.",
+                    "help": "Khi hình ảnh từ bên ngoài bị tắt, hình ảnh từ những máy chủ này vẫn được phép (bên cạnh chính diễn đàn của bạn). Hãy nhập mỗi dòng một máy chủ, ví dụ CDN của bạn như cdn.example.com."
                 },
                 "allow_inline_editing": {
                     "description": "Chỉnh sửa chữ ký trực tiếp.",

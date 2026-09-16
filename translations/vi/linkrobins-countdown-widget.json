@@ -1,33 +1,33 @@
 {
     "linkrobins-countdown-widget": {
         "forum": {
-            "not_configured": "",
+            "not_configured": "Hãy đặt một mốc thời gian trong bảng quản trị.",
             "unit": {
-                "days": "",
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "days": "Ngày",
+                "hours": "Giờ",
+                "minutes": "Phút",
+                "seconds": "Giây"
             }
         },
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_placeholder": "",
-                "title_help": "",
-                "icon_label": "",
-                "icon_help": "",
-                "icon_placeholder": "",
-                "target_label": "",
-                "target_help": "",
-                "timezone_label": "",
-                "timezone_help": "",
-                "use_my_timezone": "",
-                "done_message_label": "",
-                "done_message_placeholder": "",
-                "done_message_help": "",
-                "link_url_label": "",
-                "link_url_help": "",
-                "link_url_placeholder": ""
+                "title_label": "Tiêu đề",
+                "title_placeholder": "Ra mắt sau...",
+                "title_help": "Không bắt buộc. Hiển thị phía trên phần đếm ngược. Để trống để không có tiêu đề.",
+                "icon_label": "Lớp biểu tượng",
+                "icon_help": "Lớp FontAwesome hiển thị cạnh tiêu đề (ví dụ fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Để trống để không có biểu tượng.",
+                "icon_placeholder": "fas fa-rocket",
+                "target_label": "Ngày và giờ đích",
+                "target_help": "Hãy chọn thời điểm mà phần đếm ngược hướng tới. Bộ chọn ngày của trình duyệt hiển thị năm, tháng, ngày, giờ và phút. Cài đặt múi giờ bên dưới cho tiện ích con biết thời gian này thuộc múi giờ nào.",
+                "timezone_label": "Múi giờ",
+                "timezone_help": "Tên múi giờ theo IANA (ví dụ UTC, America/New_York, Europe/London, Asia/Tokyo). Trình duyệt của mọi khách truy cập đều đếm ngược tới cùng một thời điểm thực tế, bất kể họ ở đâu.",
+                "use_my_timezone": "Dùng múi giờ của tôi",
+                "done_message_label": "Thông điệp khi kết thúc",
+                "done_message_placeholder": "🎉 Chúng tôi đã lên sóng!",
+                "done_message_help": "Nội dung hiển thị khi phần đếm ngược về không. Nếu để trống thì mặc định là một biểu tượng ăn mừng.",
+                "link_url_label": "URL liên kết",
+                "link_url_help": "Không bắt buộc. Nếu được đặt, các ô đếm ngược (và thông điệp khi kết thúc) sẽ trở thành một liên kết bấm được tới URL này.",
+                "link_url_placeholder": "https://example.com/launch"
             }
         }
     }
