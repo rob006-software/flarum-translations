@@ -63,6 +63,7 @@
                 "title": "=> ffans-threadmarks.ref.threadmarks",
                 "show_button": "Diskussionsmarkierungen",
                 "hide_button": "Diskussionsmarkierungen",
+                "show_button_a11y_label": "",
                 "close_a11y_label": "Verzeichnis der Diskussionsmarkierungen schließen",
                 "scope_a11y_label": "Diskussionsmarkierungen nach Bereich filtern",
                 "all_filter": "Alle",
@@ -85,7 +86,9 @@
             },
             "discussion_controls": {
                 "show_all_button": "Alle Beiträge anzeigen",
-                "show_threadmarks_button": "Nur Diskussionsmarkierungen"
+                "show_threadmarks_button": "Nur Diskussionsmarkierungen",
+                "show_all_button_a11y_label": "",
+                "show_threadmarks_button_a11y_label": ""
             },
             "post_controls": {
                 "manage_button": "Diskussionsmarkierung verwalten"

@@ -61,8 +61,9 @@
             },
             "directory": {
                 "title": "=> ffans-threadmarks.ref.threadmarks",
-                "show_button": "Threadmarks",
-                "hide_button": "Threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Open threadmark directory",
                 "close_a11y_label": "Close threadmark directory",
                 "scope_a11y_label": "Filter threadmarks by scope",
                 "all_filter": "All",
@@ -84,8 +85,10 @@
                 "open_directory_a11y_label": "Open the full threadmark directory"
             },
             "discussion_controls": {
-                "show_all_button": "Show All Posts",
-                "show_threadmarks_button": "Only Threadmarks"
+                "show_all_button": "All Posts",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Show all posts",
+                "show_threadmarks_button_a11y_label": "Show threadmarked posts only"
             },
             "post_controls": {
                 "manage_button": "Manage Threadmark"
@@ -110,7 +113,7 @@
                 "name_label": "Name",
                 "color_label": "=> core.ref.color",
                 "icon_label": "=> core.ref.icon",
-                "icon_placeholder": "fa-solid fa-book"
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
                 "first_post": "Threadmarks cannot be added to the first post.",
