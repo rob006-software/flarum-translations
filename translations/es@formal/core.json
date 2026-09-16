@@ -2,102 +2,102 @@
     "core": {
         "admin": {
             "advanced": {
-                "description": "Editar ajustes avanzados para tu foro.",
+                "description": "Configura los ajustes avanzados de tu foro.",
                 "maintenance": {
                     "bisect": {
                         "begin_button_text": "Iniciar bisección",
                         "continue_button_text": "Continuar bisección",
-                        "label": "Bisección de extensión",
-                        "help": "Ayuda a identificar la extensión causante de los problemas. Esto automáticamente coloca el foro en modo mantenimiento (cerrado) hasta que el proceso termine."
+                        "label": "Bisección de extensiones",
+                        "help": "Ayuda a identificar la extensión que causa el problema. Activa automáticamente el modo de mantenimiento bajo del foro hasta que termine el proceso."
                     },
                     "bisect_modal": {
-                        "description": "Esto coloca el foro en mantenimiento (cerrado) hasta que el proceso termine. En cada etapa algunas extensiones serán desactivadas hasta encontrar la que causa problemas. No te sorprendas si falta alguna función o si cambia el tema del diseño. Mantén está página abierta, y trata de reproducir el error luego de cada etapa en una pestaña separada. Siempre podrás regresar a esta página si por error se cierra.\n",
+                        "description": "Activa el modo de mantenimiento bajo del foro hasta que termine el proceso. En cada paso se desactivarán algunas extensiones hasta encontrar la que causa el problema. No te sorprendas si faltan funciones o cambia el diseño del tema. Mantén esta página abierta e intenta reproducir el error después de cada paso en otra pestaña. Siempre puedes volver a esta página si la cierras por error.\n",
                         "end_button": "Cerrar e ir a la página de la extensión",
-                        "issue_question": "¿Sigue el error?",
-                        "issue_question_help": "Intentá reproducir el error en una pestaña por separado y respondé basándote en el resultado.",
+                        "issue_question": "¿Sigue produciéndose el error?",
+                        "issue_question_help": "Intenta reproducir el error en otra pestaña y responde según el resultado.",
                         "no_button": "No",
-                        "result_description": "El foro no ya no está en modo mantenimiento. La bisección de extensiones terminó. Basado en tus respuestas en cada etapa, la causa del problema es la siguiente extensión:\n",
-                        "start_button": "Comenzar bisección",
-                        "stop_button": "Parar bisección",
-                        "steps_left": "Etapas faltantes: {steps}",
-                        "total_steps": "Esto tomará alrededor de {steps} etapas.",
-                        "title": "Bisección de Extensión",
+                        "result_description": "El foro ya no está en modo de mantenimiento. La bisección de extensiones ha terminado. Según tus respuestas en cada paso, la causa del problema es la siguiente extensión:\n",
+                        "start_button": "Iniciar bisección",
+                        "stop_button": "Detener bisección",
+                        "steps_left": "Pasos restantes: {steps}",
+                        "total_steps": "El proceso requerirá unos {steps} pasos.",
+                        "title": "Bisección de extensiones",
                         "yes_button": "Sí"
                     },
                     "config_override": {
-                        "label": "Tu archivo <code>config.php</code> está sobre escribiendo estas configuraciones.",
-                        "help": "Aún podés cambiar las configuraciones acá, pero no van a hacer efecto hasta que edites <code>offline</code> a <code>0</code> en tu archivo <code>config.php</code>."
+                        "label": "Tu archivo <code>config.php</code> sobrescribe estos ajustes.",
+                        "help": "Puedes cambiar estos ajustes aquí, pero no tendrán efecto hasta que establezcas <code>offline</code> en <code>0</code> en tu archivo <code>config.php</code>."
                     },
-                    "help": "Coloca tu foro en modo mantenimiento para evitar que los usuarios accedan.",
+                    "help": "Activa el modo de mantenimiento del foro para impedir el acceso de los usuarios.",
                     "options": {
                         "none": "Sin mantenimiento.",
-                        "high": "Modo mantenimiento alto. Nadie puede acceder al foro (sólo puede activarse desde config.php)",
-                        "low": "Modo mantenimiento bajo. Administradores pueden acceder al foro.",
-                        "safe": "Modo seguro. Las extensiones no se activan y sólo administradores pueden acceder al foro."
+                        "high": "Modo de mantenimiento alto. Nadie puede acceder al foro (solo puede activarse desde config.php)",
+                        "low": "Modo de mantenimiento bajo. Los administradores pueden acceder al foro.",
+                        "safe": "Modo seguro. No se inician extensiones y solo los administradores pueden acceder al foro."
                     },
-                    "safe_mode_extensions": "Extensiones permitidas para activarse durante el modo seguro",
-                    "safe_mode_extensions_override_help": "Está configuración se sobre escribe con la llave <code>safe_mode_extensions</code> en el archivo <code>config.php</code>. (<b>{extensions}</b>)",
+                    "safe_mode_extensions": "Extensiones que pueden iniciarse en modo seguro",
+                    "safe_mode_extensions_override_help": "La clave <code>safe_mode_extensions</code> de tu archivo <code>config.php</code> sobrescribe este ajuste. (<b>{extensions}</b>)",
                     "section_label": "Mantenimiento"
                 },
                 "fontawesome": {
-                    "section_label": "Íconos FontAwesome",
-                    "source_label": "Origen del Ícono",
-                    "source_help": "Elige como los íconos de FontAwesome se inician. Local utiliza fuentes incluidas en el paquete, CDN carga desde una CDN y Kit utiliza kits de FontAwesome con íconos personalizados.",
-                    "source_local": "Local (Paquete)",
+                    "section_label": "Iconos de FontAwesome",
+                    "source_label": "Origen de los iconos",
+                    "source_help": "Elige cómo se cargan los iconos de FontAwesome. Local utiliza las fuentes incluidas en el paquete, CDN las carga desde una CDN y Kit utiliza kits de FontAwesome con iconos personalizados.",
+                    "source_local": "Local (incluido en el paquete)",
                     "source_cdn": "CDN",
                     "source_kit": "Kit de FontAwesome",
-                    "cdn_url_label": "CDN URL",
-                    "cdn_url_help": "URL entera hacia el archivo CSS FontAwesome en una CDN",
+                    "cdn_url_label": "URL de la CDN",
+                    "cdn_url_help": "URL completa del archivo CSS de FontAwesome en una CDN",
                     "kit_url_label": "URL del Kit",
-                    "kit_url_help": "Tu URL del script FontAwesome Kit (desde kit.fontawesome.com)",
-                    "forced_style_label": "Estilo de icono forzado",
-                    "forced_style_help": "Fuerza todos los iconos a utilizar un estilo concreto de FontAwesome, por ejemplo, **\"fa-duotone fa-light\"** o **\"fa-regular\"**. Esto sustituye el estilo definido por el núcleo y las extensiones. Los iconos de marcas nunca se modifican. La fuente de iconos que utilices debe ser compatible con el estilo seleccionado. Los iconos incluidos por defecto pertenecen a **FontAwesome Free**, que solo dispone de unos pocos cientos de iconos fuera del estilo **solid**. Por tanto, si fuerzas otro estilo, muchos iconos podrían quedar en blanco. Todos los estilos están disponibles utilizando una **CDN o Kit de FontAwesome Pro**. Déjalo vacío para desactivar esta opción.",
+                    "kit_url_help": "URL del script de tu Kit de FontAwesome (de kit.fontawesome.com)",
+                    "forced_style_label": "Forzar estilo de los iconos",
+                    "forced_style_help": "Fuerza un estilo concreto de FontAwesome para todos los iconos, por ejemplo, \"fa-duotone fa-light\" o \"fa-regular\". Sustituye el estilo definido por el núcleo y las extensiones (los iconos de marcas nunca se modifican). El origen de los iconos debe ofrecer ese estilo: los iconos incluidos pertenecen a FontAwesome Free, que solo incluye unos cientos de iconos fuera del estilo sólido, por lo que forzar otro estilo hará que la mayoría no se muestren. Todos los estilos están disponibles con una CDN o un Kit de FontAwesome Pro. Deja este campo vacío para desactivar esta opción.",
                     "config_override": {
-                        "label": "Anular configuración",
-                        "help": "Las configuraciones de FontAwesome están en el archivo config.php y no pueden ser cambiadas acá."
+                        "label": "Ajustes sobrescritos",
+                        "help": "Los ajustes de FontAwesome están definidos en tu archivo config.php y no se pueden cambiar aquí."
                     },
                     "preview": {
-                        "button": "Vista previa Íconos",
-                        "label": "Vista previa Ícono",
-                        "help": "Compruebe tu configuración de FontAwesome. Un ícono que carga significa que se encuentran disponible; un cuadrado significa que no cargó.",
+                        "button": "Vista previa de los iconos",
+                        "label": "Vista previa de los iconos",
+                        "help": "Comprueba los ajustes de FontAwesome. Si se muestra un icono, ese nivel está disponible; si aparece un recuadro, no se ha cargado.",
                         "fa5_fa6_label": "Alias FA5/FA6",
                         "fa7_label": "Clases FA7",
-                        "pro_label": "Sólo Pro"
+                        "pro_label": "Solo Pro"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": "Buscar configuración para usar"
+                    "search_configuration": "Configuración de búsqueda que se utilizará"
                 },
                 "queue": {
-                    "pause_label": "Pausar el procesamiento de la cola",
+                    "pause_label": "Pausar el procesamiento de las colas",
                     "pause_all_label": "Pausar todas las colas",
                     "pause_queue_label": "Pausar la cola {queue}",
-                    "pause_help": "Mientras estén en pausa, los procesos de trabajo dejarán de recoger nuevas tareas de las colas afectadas. Las tareas se acumularán hasta que se reanude el procesamiento. Las tareas que ya estén en ejecución no se verán afectadas.",
+                    "pause_help": "Mientras el procesamiento esté en pausa, los procesos de trabajo dejarán de recoger nuevas tareas de las colas afectadas. Las tareas se acumularán hasta que se reanude el procesamiento. Las tareas que ya estén en curso no se verán afectadas.",
                     "section_label": "Cola",
-                    "sync_info": "Tu foro está usando controlador de cola síncrono. Jobs se procesan inmediatamente en el hilo principal del proceso.",
-                    "sync_help": "Para un mejor rendimiento y experiencia de usuario, considere usar el controlador de cola de base de datos. Obtenga más información en la documentación.",
+                    "sync_info": "Tu foro utiliza el controlador de cola síncrono. Las tareas se procesan inmediatamente en el hilo del proceso principal.",
+                    "sync_help": "Para mejorar el rendimiento y la experiencia de usuario, considera utilizar el controlador de cola de base de datos. Consulta la documentación para obtener más información.",
                     "custom_driver": "Tu foro está utilizando el controlador de cola {driver}, que es proporcionado por una extensión.",
-                    "retries_label": "Reintentos Job",
-                    "retries_help": "Número máximo de intentos de job antes de que falle. Por defecto 1.",
+                    "retries_label": "Reintentos de las tareas",
+                    "retries_help": "Número máximo de intentos de ejecución de una tarea antes de marcarla como fallida. El valor predeterminado es 1.",
                     "memory_label": "Límite de memoria (MB)",
                     "memory_help": "Memoria máxima que el proceso de cola puede usar antes de reiniciarse. El valor predeterminado es 128 MB.",
-                    "timeout_label": "Job Timeout (segundos)",
-                    "timeout_help": "Máximo tiempo que puede correr un job antes de TimeOut. Por defecto son 60 segundos.",
-                    "rest_label": "Tiempo de descanso (segundos)",
-                    "rest_help": "Tiempo de espera entre tareas de procesamiento. El valor predeterminado es 0 segundos.",
-                    "backoff_label": "Retroceso (segundos)",
-                    "backoff_help": "Tiempo de espera antes de volver a intentar un job que falla. El valor predeterminado es 0 segundos."
+                    "timeout_label": "Tiempo máximo de ejecución de una tarea (segundos)",
+                    "timeout_help": "Tiempo máximo que puede ejecutarse una tarea antes de agotar el tiempo de espera. El valor predeterminado es 60 segundos.",
+                    "rest_label": "Tiempo entre tareas (segundos)",
+                    "rest_help": "Tiempo de espera entre el procesamiento de una tarea y la siguiente. El valor predeterminado es 0 segundos.",
+                    "backoff_label": "Espera entre reintentos (segundos)",
+                    "backoff_help": "Tiempo de espera antes de reintentar una tarea fallida. El valor predeterminado es 0 segundos."
                 },
                 "search": {
                     "section_label": "Controladores de búsqueda",
                     "driver_heading": "Controlador de búsqueda: {model}",
-                    "driver_text": "Seleccione un controlador que se utilizará para buscar este modelo.",
+                    "driver_text": "Selecciona el controlador que se utilizará para buscar en este modelo.",
                     "driver_options": {
                         "default": "Búsqueda predeterminada en la base de datos"
                     },
-                    "no_other_drivers": "Aún no hay controladores de búsqueda disponibles. Instale una extensión de controlador de búsqueda para poder configurarlo.",
-                    "cjk_mode_label": "Optimizar la búsqueda para idiomas CJK (chino, japonés y coreano)",
-                    "cjk_mode_help": "Actívalo si tu foro está principalmente en chino, japonés o coreano. La búsqueda por palabras de la base de datos no puede encontrar coincidencias parciales en textos CJK, por lo que esta opción cambia a una búsqueda por subcadenas que sí puede hacerlo. Es más lenta en foros muy grandes, donde configurar un analizador de texto completo compatible con CJK a nivel de base de datos (como el analizador ngram de MySQL/MariaDB) es una alternativa más rápida."
+                    "no_other_drivers": "Todavía no hay controladores de búsqueda disponibles. Instala una extensión de controlador de búsqueda para poder configurarlo.",
+                    "cjk_mode_label": "Optimizar la búsqueda para idiomas CJK",
+                    "cjk_mode_help": "Activa esta opción si tu foro está principalmente en chino, japonés o coreano. La búsqueda por palabras de la base de datos no encuentra coincidencias en fragmentos de texto CJK, por lo que esta opción utiliza una búsqueda por subcadenas que sí lo permite. En foros muy grandes es más lenta; una alternativa más rápida es configurar en la base de datos un analizador de texto completo compatible con CJK, como el analizador ngram de MySQL/MariaDB."
                 },
                 "title": "Avanzado"
             },
@@ -107,31 +107,31 @@
                 "colors_heading": "Colores",
                 "colors_primary_label": "Color primario",
                 "colors_secondary_label": "Color secundario",
-                "colors_text": "Elija dos colores para decorar su foro. El primero será usado para resaltar y el segundo será utilizado para decorar elementos de fondo.",
-                "custom_footer_heading": "Pié de página personalizado",
+                "colors_text": "Elige dos colores para tu foro. El primero se utilizará para resaltar elementos y el segundo, para los elementos de fondo.",
+                "custom_footer_heading": "Pie de página personalizado",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabecera personalizada",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_cannot_use_less_features": "Las características @import y data-uri no están permitidas en código LESS personalizado.",
                 "custom_styles_heading": "Estilos personalizados",
-                "custom_styles_text": "Personalice la apariencia de su foro añadiendo su propio código LESS/CSS, que se aplicará sobre los estilos por defecto de Flarum.",
-                "description": "Personalice los colores, logotipos y otras variables de su foro.",
+                "custom_styles_text": "Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS, que se aplicará sobre los estilos predeterminados de Flarum.",
+                "description": "Personaliza los colores, logotipos y otras opciones de tu foro.",
                 "edit_css_button": "Editar los estilos personalizados",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "Por favor, introduzca un código hexadecimal de color.",
-                "favicon_heading": "Icono de Favoritos o <em>Favicon</em>",
-                "favicon_text": "Suba una imagen para que sea mostrada como icono de acceso directo al foro.",
+                "enter_hex_message": "Introduce un código de color hexadecimal.",
+                "favicon_heading": "<em>Favicon</em>",
+                "favicon_text": "Sube una imagen para que se muestre como icono de acceso directo al foro.",
                 "logo_heading": "Logotipo",
-                "logo_text": "Suba una imagen para que sea mostrada en lugar del título del foro.",
+                "logo_text": "Sube una imagen para que se muestre en lugar del título del foro.",
                 "logo_dark_mode_heading": "Logotipo del modo oscuro",
                 "logo_dark_mode_text": "Sube un logotipo alternativo que se mostrará cuando el modo oscuro esté activado.",
-                "show_theme_selector_help": "Permite a los usuarios cambiar entre los esquemas de color disponibles mediante un control en la cabecera.",
+                "show_theme_selector_help": "Permite a los usuarios cambiar entre las combinaciones de colores disponibles mediante un control en la cabecera.",
                 "show_theme_selector_label": "Mostrar selector de tema",
                 "title": "Apariencia",
-                "color_scheme_label": "Esquema de colores (predeterminado)",
+                "color_scheme_label": "Combinación de colores (predeterminada)",
                 "color_schemes": {
-                    "auto_mode_label": "Sistema de usuario o preferencia configurada",
+                    "auto_mode_label": "Preferencia del sistema del usuario o preferencia configurada",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
@@ -141,45 +141,45 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Idioma por defecto",
-                "description": "Configure el título, el idioma y otras configuraciones básicas de su foro.",
+                "description": "Configura el título, el idioma y los demás ajustes básicos de tu foro.",
                 "display_name_driver_options": {
-                    "username": "Nombre Usuario"
+                    "username": "Nombre de usuario"
                 },
-                "display_name_heading": "Nombre de usuario",
-                "display_name_text": "Seleccione el controlador que debe utilizarse para mostrar los nombres. Por defecto, se muestra el nombre de usuario.",
+                "display_name_heading": "Nombre público del usuario",
+                "display_name_text": "Selecciona el controlador que se utilizará para los nombres públicos de los usuarios. Por defecto, se muestra el nombre de usuario.",
                 "avatar_driver_options": {
                     "default": "Por defecto"
                 },
                 "avatar_driver_heading": "Avatar del usuario",
-                "avatar_driver_text": "Seleccione el controlador que se utilizará para los avatares de los usuarios cuando no haya ninguno subido. Por defecto, no se mostrará ningún avatar si el usuario no ha subido uno.",
+                "avatar_driver_text": "Selecciona el controlador que se utilizará para los avatares cuando el usuario no haya subido uno. Por defecto, no se mostrará ningún avatar en ese caso.",
                 "forum_description_heading": "Descripción del foro",
-                "forum_description_text": "Introduzca una o dos frases que describan su comunidad. Estas aparecerán en el \"metatag\" y se mostrarán en los buscadores.",
+                "forum_description_text": "Introduce una o dos frases breves que describan tu foro. Aparecerán en la \"metaetiqueta\" y se mostrarán en los buscadores.",
                 "forum_title_heading": "Título del foro",
                 "home_page_heading": "Página de inicio",
-                "home_page_text": "Elija cuál es la portada que los usuarios verán al llegar al foro.",
+                "home_page_text": "Elige la primera página que verán los usuarios al visitar tu foro.",
                 "show_language_selector_label": "Mostrar el selector de idioma",
                 "slug_driver_options": {
                     "discussions": {
                         "default": "ID con slug",
-                        "utf8": "ID con UTF-8 slug"
+                        "utf8": "ID con slug UTF-8"
                     },
                     "users": {
-                        "default": "Nombre usuario",
+                        "default": "Nombre de usuario",
                         "id": "ID",
-                        "id_with_display_name": "ID con Nombre"
+                        "id_with_display_name": "ID con nombre público"
                     }
                 },
-                "slug_driver_heading": "Driver de Slug: {model}",
-                "slug_driver_text": "Seleccione el driver que se utilizará para el slugging de este modelo.",
-                "title": "Lo esencial",
+                "slug_driver_heading": "Controlador de slug: {model}",
+                "slug_driver_text": "Selecciona el controlador que se utilizará para generar los slugs de este modelo.",
+                "title": "Ajustes básicos",
                 "welcome_banner_heading": "Mensaje de bienvenida",
-                "welcome_banner_text": "Introduzca el texto que se mostrará en la lista de discusiones. Utilícelo para dar la bienvenida a los invitados en su foro.",
+                "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los visitantes de tu foro.",
                 "abandoned_extensions_heading": "Extensiones abandonadas",
                 "abandoned_extensions_text": "Flarum mantiene una <a>lista comunitaria de extensiones abandonadas</a>. Cuando una extensión instalada aparece en la lista, se marcará en el panel de administración.",
                 "abandoned_extensions_sync_button": "Revisar ahora",
-                "abandoned_extensions_sync_success": "Lista de extensiones abandonadas actualizada. Se encontraron {count} extension/es instaladas en tu foro.",
-                "abandoned_extensions_sync_error": "No se pudo obtener la lista de extensiones abandonadas. Inténtelo de nuevo más tarde.",
-                "abandoned_extensions_notify_admins_label": "Enviar un correo electrónico a los administradores cuando se detecte una extensión abandonada recientemente durante la verificación semanal"
+                "abandoned_extensions_sync_success": "Lista de extensiones abandonadas actualizada. Número de extensiones encontradas en tu foro: {count}.",
+                "abandoned_extensions_sync_error": "No se ha podido obtener la lista de extensiones abandonadas. Inténtalo de nuevo más tarde.",
+                "abandoned_extensions_notify_admins_label": "Enviar un correo electrónico a los administradores cuando la comprobación semanal detecte una nueva extensión abandonada"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -195,12 +195,12 @@
                 "comments_label": "{count, plural, one {# comentario} other {# comentarios}}",
                 "description": "Últimas noticias y comunicados del equipo de Flarum.",
                 "empty": "No se encontraron anuncios.",
-                "load_error": "No se pudieron cargar los anuncios. Inténtelo de nuevo más tarde.",
+                "load_error": "No se han podido cargar los anuncios. Inténtalo de nuevo más tarde.",
                 "about": "Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.",
                 "hide": "Ocultar anuncios",
                 "read_more": "Leer más",
                 "refresh": "Actualizar anuncios",
-                "retry": "Probar de nuevo",
+                "retry": "Reintentar",
                 "show": "Mostrar anuncios",
                 "title": "Anuncios",
                 "view_all": "Ver todos en discuss.flarum.org"
@@ -209,62 +209,62 @@
                 "title": "Cola",
                 "pending": "Pendiente",
                 "reserved": "En curso",
-                "failed": "Fallido",
+                "failed": "Fallida",
                 "refresh": "Actualizar"
             },
             "failed_jobs": {
                 "title": "Tareas fallidas",
                 "none": "No hay tareas fallidas.",
-                "meta": "Cola {queue} · falló {time}",
+                "meta": "Cola {queue} · tarea fallida {time}",
                 "details": "Detalles",
                 "retry": "Reintentar",
-                "retry_all": "Reintentar todo",
+                "retry_all": "Reintentar todas",
                 "delete": "Eliminar"
             },
             "dashboard": {
-                "queue_paused_warning": "El procesamiento de la cola está pausado (cola: {queues}). Las tareas se acumularán hasta que se reanude.",
-                "queue_paused_all_warning": "El procesamiento de todas las colas está pausado. Las tareas se acumularán hasta que se reanude.",
+                "queue_paused_warning": "El procesamiento de las colas está en pausa (colas: {queues}). Las tareas se acumularán hasta que se reanude.",
+                "queue_paused_all_warning": "El procesamiento de todas las colas está en pausa. Las tareas se acumularán hasta que se reanude.",
                 "queue_paused_manage": "Gestionar",
-                "clear_cache_button": "Limpiar cache",
-                "description": "Su foro de un vistazo.",
-                "info_button": "Info del sistema",
+                "clear_cache_button": "Vaciar caché",
+                "description": "Tu foro de un vistazo.",
+                "info_button": "Información del sistema",
                 "info_modal": {
-                    "title": "Info del sistema",
+                    "title": "Información del sistema",
                     "copy_button": "Copiar al portapapeles",
-                    "copy_success": "Info del sistema copiada en portapapeles",
-                    "copy_error": "Falló la copia a portapapeles"
+                    "copy_success": "Información del sistema copiada al portapapeles",
+                    "copy_error": "No se ha podido copiar al portapapeles"
                 },
-                "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
+                "io_error_message": "No se ha podido escribir en el sistema de archivos. Comprueba los permisos del sistema de archivos y vuelve a intentarlo. También puedes probar desde la línea de comandos.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "Programador",
-                        "queue-driver": "Driver de cola",
-                        "session-driver": "Driver de sesión"
+                        "scheduler-status": "Programador de tareas",
+                        "queue-driver": "Controlador de cola",
+                        "session-driver": "Controlador de sesión"
                     },
                     "scheduler": {
                         "active": "Activo",
                         "inactive": "Inactivo",
-                        "never-run": "Nunca se ejecuta"
+                        "never-run": "Nunca se ha ejecutado"
                     }
                 },
-                "title": "Tablero",
-                "toggle_advanced_page_button": "Abrir Página Avanzada",
+                "title": "Panel de información",
+                "toggle_advanced_page_button": "Abrir la página de ajustes avanzados",
                 "tools_button": "Herramientas"
             },
             "extensions-health-widget": {
                 "abandoned_no_replacement": "No hay reemplazo disponible",
                 "abandoned_with_replacement": "Reemplazado por {replacement}",
-                "all_healthy": "Todas las extensiones están sanas.",
+                "all_healthy": "Todas las extensiones están en buen estado.",
                 "section_abandoned_empty": "No se encontraron problemas.",
                 "section_suggested_empty": "Sin sugerencias.",
-                "section_disabled_empty": "Todas las extensiones están habilitadas.",
-                "title": "Salud de extensión",
-                "section_abandoned_heading": "Necesita Atención",
-                "section_abandoned_help": "Estas extensiones ya no reciben mantenimiento o pueden presentar problemas de compatibilidad. Considere actualizarlas, reemplazarlas o eliminarlas.",
-                "section_suggested_heading": "Sugerido",
-                "section_suggested_help": "Las extensiones de Flarum pueden añadir funciones adicionales opcionales especificando otras extensiones o paquetes. Estas pueden añadir más funciones o integraciones.",
-                "section_disabled_heading": "Deshabilitada",
-                "section_disabled_help": "Estas extensiones están instaladas pero no están habilitadas. Habilítelas desde su página de configuración o elimínelas si ya no las necesita.",
+                "section_disabled_empty": "Todas las extensiones están activadas.",
+                "title": "Estado de las extensiones",
+                "section_abandoned_heading": "Requieren atención",
+                "section_abandoned_help": "Estas extensiones ya no reciben mantenimiento o pueden presentar problemas de compatibilidad. Considera actualizarlas, sustituirlas o eliminarlas.",
+                "section_suggested_heading": "Sugeridas",
+                "section_suggested_help": "Las extensiones de Flarum pueden ofrecer funciones opcionales mediante otras extensiones o paquetes. Estos pueden añadir funciones o integraciones.",
+                "section_disabled_heading": "Desactivadas",
+                "section_disabled_help": "Estas extensiones están instaladas, pero no están activadas. Actívalas desde su página de ajustes o elimínalas si ya no las necesitas.",
                 "suggested_by": "Sugerido por {extension}"
             },
             "database-driver-mismatch-warning": {
@@ -272,15 +272,15 @@
                 "label": "El controlador de la base de datos no coincide"
             },
             "database-version-warning": {
-                "below-recommended-detail": "Tu servidor {server} está ejecutando la versión \\<code>{version}\\</code>. Esta versión es compatible, pero Flarum recomienda {server} \\<code>{recommended}\\</code> o posterior para obtener el mejor rendimiento y utilizar una versión con mantenimiento activo. Consulta la \\<link>documentación de Flarum\\</link> para obtener más información.\n",
+                "below-recommended-detail": "Tu servidor {server} utiliza la versión <code>{version}</code>. Esta versión es compatible, pero Flarum recomienda {server} <code>{recommended}</code> o posterior para obtener el mejor rendimiento y utilizar una versión que siga recibiendo mantenimiento. Consulta la <link>documentación de Flarum</link> para obtener más información.\n",
                 "below-recommended-label": "Versión de la base de datos desactualizada"
             },
             "debug-warning": {
-                "detail": "Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.\n",
+                "detail": "Cuando el modo <code>debug</code> está activo, Flarum recompila sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud y podría exponer información confidencial, como credenciales de la base de datos, variables de entorno, etc.\n\nSe recomienda encarecidamente desactivar <code>debug</code> en tu archivo <code>config.php</code> en producción. Consulta la <link>documentación de Flarum</link> para obtener más información.\n",
                 "label": "Modo de depuración activo"
             },
             "edit_css": {
-                "customize_text": "Personalice la apariencia de su foro añadiendo su propio código LESS/CSS que será aplicado sobre los <a>estilos por defecto</a> de Flarum.",
+                "customize_text": "Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS, que se aplicará sobre los <a>estilos predeterminados</a> de Flarum.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Editar CSS personalizado"
             },
@@ -291,8 +291,8 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Borrar grupo",
-                "delete_confirmation": "¿Está seguro de que desea eliminar este grupo? Los usuarios que pertenecen al grupo NO serán eliminados.",
+                "delete_button": "Eliminar grupo",
+                "delete_confirmation": "¿Seguro que quieres eliminar este grupo? Los usuarios que pertenecen al grupo NO se eliminarán.",
                 "hide_label": "Ocultar en el foro",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
@@ -309,16 +309,16 @@
             },
             "email": {
                 "addresses_heading": "Direcciones",
-                "description": "Configure el controlador, la configuración y las direcciones que usará su foro para enviar correo electrónico.",
+                "description": "Configura el controlador, los ajustes y las direcciones que utilizará tu foro para enviar correos electrónicos.",
                 "driver_heading": "Elige un controlador",
-                "driver_label": "Driver",
+                "driver_label": "Controlador",
                 "format": {
                     "multipart_option": "Multiparte (recomendado)",
-                    "plain_option": "Texto Plano",
+                    "plain_option": "Texto sin formato",
                     "html_option": "HTML"
                 },
-                "format_heading": "Formato de Email enviado",
-                "format_help": "Elige el formato en el que se enviarán los correos electrónicos salientes. La opción recomendada es <code>multiparte</code>, ya que esto permitirá que el cliente de Email del usuario muestre el formato más adecuado.",
+                "format_heading": "Formato de los correos enviados",
+                "format_help": "Elige el formato de los correos electrónicos salientes. Se recomienda <code>multiparte</code> para que el cliente de correo electrónico del usuario pueda mostrar el formato más adecuado.",
                 "from_label": "Remitente",
                 "mail_encryption_label": "Cifrado",
                 "mail_encryption_tls_help": "La conexión comienza sin cifrar y se actualiza a TLS (STARTTLS). Normalmente se utiliza con los puertos 587 o 25.",
@@ -333,58 +333,58 @@
                 "mail_postmark_message_stream_label": "Flujo de mensajes",
                 "mail_postmark_token_label": "Token del servidor",
                 "mail_smtp_verify_peer_label": "Verificar certificado SSL",
-                "mail_smtp_verify_peer_help": "Verifique el certificado SSL del servidor al usar el cifrado TLS o SSL. Desactive esta opción solo si su servidor de email utiliza un certificado autofirmado.",
+                "mail_smtp_verify_peer_help": "Verifica el certificado SSL del servidor al utilizar cifrado TLS o SSL. Desactiva esta opción solo si tu servidor de correo electrónico utiliza un certificado autofirmado.",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Configuración Mailgun",
-                "postmark_heading": "Configuración Postmark",
-                "postmark_description": "Envía correos electrónicos mediante la API HTTP de Postmark. Opcionalmente, puedes especificar un flujo de mensajes para utilizar uno distinto del predeterminado.",
-                "not_sending_message": "Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.",
+                "mailgun_heading": "Ajustes de Mailgun",
+                "postmark_heading": "Ajustes de Postmark",
+                "postmark_description": "Envía correos electrónicos a través de la API HTTP de Postmark. Puedes especificar un flujo de mensajes distinto del predeterminado.",
+                "not_sending_message": "Actualmente, Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado o a errores en sus ajustes.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar un correo de prueba",
                 "send_test_mail_success": "¡Correo de prueba enviado con éxito!",
                 "send_test_mail_text": "Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.",
-                "smtp_heading": "Configuración SMTP",
-                "smtp_description": "Configurar los ajustes de conexión SMTP. Configuraciones comunes: Puerto 587 con TLS o Puerto 465 con SSL.",
+                "smtp_heading": "Ajustes de SMTP",
+                "smtp_description": "Configura los ajustes de conexión SMTP. Configuraciones habituales: puerto 587 con TLS o puerto 465 con SSL.",
                 "title": "=> core.ref.email"
             },
             "extension": {
                 "abandoned_no_replacement": "Esta extensión ya no recibe mantenimiento por parte de su autor y es posible que no reciba actualizaciones.",
-                "abandoned_with_replacement": "Esta extensión ha sido reemplazada por {replacement}. Considere migrar al paquete de reemplazo.",
+                "abandoned_with_replacement": "Esta extensión ha sido sustituida por {replacement}. Considera migrar al paquete que la sustituye.",
                 "configure_scopes": "Configurar ámbitos",
-                "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
+                "confirm_purge": "Al purgar, se eliminarán todas las entradas de la base de datos y los datos asociados a la extensión. Este proceso no desinstala la extensión; debes hacerlo mediante Composer. ¿Seguro que quieres continuar?",
                 "database_driver_mismatch": "Esta extensión no es compatible con el controlador de base de datos configurado.",
                 "deprecated": "Obsoleta",
                 "disabled": "Desactivada",
-                "enable_to_see": "Habilite la extensión para ver y cambiar la configuración.",
+                "enable_to_see": "Activa la extensión para ver y modificar sus ajustes.",
                 "enabled": "Activada",
                 "info_links": {
-                    "discuss": "Discutir",
+                    "discuss": "Debatir",
                     "documentation": "Documentación",
                     "donate": "Donar",
-                    "source": "Fuente",
+                    "source": "Código fuente",
                     "support": "Soporte",
                     "website": "Sitio web"
                 },
                 "no_permissions": "Esta extensión no tiene permisos.",
-                "no_settings": "Esta extensión no tiene configuración.",
-                "open_modal": "Configuración abierta",
+                "no_settings": "Esta extensión no tiene ajustes.",
+                "open_modal": "Abrir ajustes",
                 "permissions_title": "Permisos",
                 "purge_button": "Purgar",
                 "readme": {
-                    "button_label": "LÉEME",
-                    "no_readme": "Esta extensión no incluye un archivo LÉEME",
+                    "button_label": "README",
+                    "no_readme": "Esta extensión no incluye un archivo README",
                     "title": "Documentación de {extName}"
                 },
                 "replaced": "Reemplazada",
                 "reset_settings": {
-                    "button": "Resetear configuraciones",
+                    "button": "Restablecer ajustes",
                     "cancel_button": "Cancelar",
-                    "confirm_button": "Recetear",
-                    "warning": "Esta acción es irreversible. La configuración que se muestra a continuación se eliminará permanentemente de la base de datos y volverá a sus valores predeterminados. Los datos de esta extensión no se verán afectados.",
-                    "title": "Resetear configuraciones",
-                    "title_extension": "Restablecer {extensionTitle} Configuración"
+                    "confirm_button": "Restablecer",
+                    "warning": "Esta acción no se puede deshacer. Los ajustes que se muestran a continuación se eliminarán permanentemente de la base de datos y volverán a sus valores predeterminados. Los datos de esta extensión no se verán afectados.",
+                    "title": "Restablecer ajustes",
+                    "title_extension": "Restablecer los ajustes de {extensionTitle}"
                 },
-                "safe_mode_warning": "El modo seguro está activado. Las extensiones no se inician y, por lo tanto, su configuración es inaccesible."
+                "safe_mode_warning": "El modo seguro está activado. Las extensiones no se inician y, por tanto, sus ajustes no están disponibles."
             },
             "header": {
                 "get_help": "Obtener ayuda",
@@ -393,7 +393,7 @@
                 "search_role_label": "Buscar"
             },
             "loading": {
-                "title": "Por favor, espere..."
+                "title": "Espera, por favor..."
             },
             "models": {
                 "discussions": "=> core.ref.discussions",
@@ -405,28 +405,28 @@
                 "advanced_title": "=> core.admin.advanced.description",
                 "appearance_button": "Apariencia",
                 "appearance_title": "=> core.admin.appearance.description",
-                "basics_button": "Básicos",
+                "basics_button": "Ajustes básicos",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "analytics": "Analítica",
                     "authentication": "Autenticación",
-                    "core": "Configuración básica",
+                    "core": "Ajustes básicos",
                     "discussion": "Discusión",
-                    "feature": "Características",
+                    "feature": "Funciones",
                     "formatting": "Formato",
                     "forum-widget": "Widgets del foro",
                     "infrastructure": "Infraestructura",
                     "language": "Idiomas",
                     "moderation": "Moderación",
-                    "other": "Otras Extensiones",
+                    "other": "Otras extensiones",
                     "theme": "Temas"
                 },
                 "dashboard_button": "Panel de información",
                 "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
-                "email_title": "Configure el driver, la configuración y las direcciones que usará su foro para enviar correo electrónico.",
+                "email_title": "=> core.admin.email.description",
                 "permissions_button": "Permisos",
-                "permissions_title": "Configure quién puede ver y hacer qué.",
+                "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Buscar extensión"
@@ -440,22 +440,22 @@
                 "delete_discussions_forever_label": "Eliminar discusiones para siempre",
                 "delete_discussions_label": "Eliminar discusiones",
                 "delete_posts_forever_label": "Eliminar publicaciones para siempre",
-                "delete_posts_label": "Borrar publicaciones",
-                "description": "Configurar quién puede ver y hacer qué.",
+                "delete_posts_label": "Eliminar publicaciones",
+                "description": "Configura qué puede ver y hacer cada usuario.",
                 "edit_posts_label": "Editar publicaciones",
                 "edit_users_label": "Editar usuarios",
                 "edit_users_credentials_label": "Editar credenciales de usuario",
                 "edit_users_groups_label": "Editar grupos de usuarios",
                 "global_heading": "Global",
-                "moderate_heading": "Moderado",
+                "moderate_heading": "Moderar",
                 "moderate_access_tokens_label": "Moderar tokens de acceso",
                 "new_group_button": "Nuevo grupo",
                 "participate_heading": "Participar",
                 "post_without_throttle_label": "Publicar varias veces sin tener que esperar",
                 "read_heading": "Leer",
-                "remove_scope_label": "Retirar alcance de {scope}",
-                "remove_scope_confirmation": "¿Estás seguro de eliminar el alcance de {scope}?",
-                "rename_discussions_label": "Cambiar el título a discusiones",
+                "remove_scope_label": "Eliminar el ámbito de {scope}",
+                "remove_scope_confirmation": "¿Seguro que quieres eliminar el ámbito de {scope}?",
+                "rename_discussions_label": "Cambiar el título de las discusiones",
                 "reply_to_discussions_label": "Responder en discusiones",
                 "search_users_label": "=> core.ref.search_users",
                 "sign_up_label": "Registro de usuarios",
@@ -463,7 +463,7 @@
                 "title": "Permisos",
                 "view_forum_label": "Ver foro (discusiones y usuarios)",
                 "view_hidden_groups_label": "Ver iconos de grupos ocultos",
-                "view_last_seen_at_label": "Ver a qué hora fue la última conexión de un usuario",
+                "view_last_seen_at_label": "Ver la última conexión de un usuario",
                 "view_post_ips_label": "Ver direcciones IP de las publicaciones"
             },
             "permissions_controls": {
@@ -489,11 +489,11 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Elija una imagen..."
+                "upload_button": "Elige una imagen..."
             },
             "users": {
-                "create_user_button": "Nuevo Usuario",
-                "description": "Una lista paginada de todos los usuarios de su foro.",
+                "create_user_button": "Nuevo usuario",
+                "description": "Lista paginada de todos los usuarios de tu foro.",
                 "grid": {
                     "columns": {
                         "display_name": {
@@ -509,13 +509,13 @@
                             "title": "Grupos"
                         },
                         "join_time": {
-                            "title": "Se unió"
+                            "title": "Fecha de registro"
                         },
                         "user_actions": {
                             "title": "Acciones",
                             "edit_user": {
                                 "button": "=> core.ref.edit",
-                                "tooltip": "Editar {username}"
+                                "tooltip": "Editar a {username}"
                             }
                         },
                         "user_id": {
@@ -526,7 +526,7 @@
                             "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": "Inválido"
+                    "invalid_column_content": "No válido"
                 },
                 "search_placeholder": "=> core.ref.search_users",
                 "title": "=> core.ref.users",
@@ -544,7 +544,7 @@
             },
             "change_password": {
                 "send_button": "Enviar enlace",
-                "text": "Haga click en el botón de abajo y recibirá por correo electrónico un enlace para restablecer su contraseña.",
+                "text": "Pulsa el botón de abajo para recibir por correo electrónico un enlace para restablecer tu contraseña.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -552,40 +552,40 @@
                 "exit_full_screen_tooltip": "Salir de pantalla completa",
                 "full_screen_tooltip": "Pantalla completa",
                 "minimize_tooltip": "Minimizar",
-                "preview_tooltip": "Vista preliminar"
+                "preview_tooltip": "Vista previa"
             },
             "composer_discussion": {
-                "body_placeholder": "Escriba una publicación...",
-                "discard_confirmation": "Aún no ha publicado su discusión. ¿Está seguro de que desea descartarla?",
+                "body_placeholder": "Escribe una publicación...",
+                "discard_confirmation": "Aún no has publicado tu discusión. ¿Seguro que quieres descartarla?",
                 "submit_button": "Publicar discusión",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Título de la discusión"
             },
             "composer_edit": {
-                "discard_confirmation": "Aún no ha publicado sus cambios. ¿Está seguro de que desea descartarlos?",
-                "edited_message": "Se realizó su edición.",
-                "post_link": "Publicación n.º {number} en '{discussion}'",
+                "discard_confirmation": "Aún no has publicado tus cambios. ¿Seguro que quieres descartarlos?",
+                "edited_message": "Se han guardado tus cambios.",
+                "post_link": "Publicación #{number} en {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Aún no ha publicado su respuesta. ¿Está seguro de que desea descartarla?",
-                "posted_message": "Su respuesta fue publicada.",
+                "discard_confirmation": "Aún no has publicado tu respuesta. ¿Seguro que quieres descartarla?",
+                "posted_message": "Tu respuesta se ha publicado.",
                 "submit_button": "Publicar respuesta",
                 "view_button": "Ver"
             },
             "discussion_controls": {
-                "cannot_reply_button": "No puede responder",
-                "cannot_reply_text": "Usted no tiene permiso para responder en esta discusión.",
+                "cannot_reply_button": "No puedes responder",
+                "cannot_reply_text": "No tienes permiso para responder en esta discusión.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "¿Está seguro de que desea eliminar esta discusión?",
+                "delete_confirmation": "¿Seguro que quieres eliminar esta discusión?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Responder",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Alternar el menú desplegable de acciones de discusión"
+                "toggle_dropdown_accessible_label": "Mostrar u ocultar el menú de acciones de la discusión"
             },
             "discussion_list": {
                 "empty_text": "Parece que no hay discusiones aquí.",
@@ -594,69 +594,69 @@
                 "skip_discussion_list_pane": "Saltar el panel de la lista de discusiones",
                 "started_text": "{username} creó {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# respuesta} other {# respuestas}}",
-                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s)."
+                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {la respuesta como leída} other {las respuestas como leídas}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Le hemos enviado un correo electrónico que contiene un enlace para restablecer su contraseña. Si no aparece pronto, por favor, compruebe la carpeta de correo no deseado (spam).",
+                "email_sent_message": "Te hemos enviado un correo electrónico con un enlace para restablecer tu contraseña. Si no llega pronto, comprueba la carpeta de correo no deseado (spam).",
                 "not_found_message": "No hay ningún usuario registrado con esa dirección de correo electrónico.",
                 "submit_button": "Restablecer contraseña",
-                "text": "Introduzca su correo electrónico y le enviaremos un enlace para restablecer su contraseña.",
-                "title": "¿Olvidó su contraseña?"
+                "text": "Introduce tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.",
+                "title": "Contraseña olvidada"
             },
             "header": {
                 "admin_button": "Administración",
                 "back_to_index_tooltip": "Volver a la lista de discusiones",
-                "locale_dropdown_accessible_label": "Cambiar la configuración regional del foro",
+                "locale_dropdown_accessible_label": "Cambiar el idioma del foro",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
                 "search_placeholder": "Buscar en el foro",
                 "search_role_label": "Buscar en los foros",
-                "session_dropdown_accessible_label": "Alternar el menú desplegable de opciones de sesión",
+                "session_dropdown_accessible_label": "Mostrar u ocultar el menú de opciones de sesión",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
                 "theme_switcher_accessible_label": "Cambiar tema"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "No puede crear una discusión",
-                "mark_all_as_read_confirmation": "¿Está seguro de que desea marcar todas las discusiones como leídas?",
+                "cannot_start_discussion_button": "No puedes crear una discusión",
+                "mark_all_as_read_confirmation": "¿Seguro que quieres marcar todas las discusiones como leídas?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "Saltar al contenido principal",
-                "toggle_sidenav_dropdown_accessible_label": "Alternar el menú desplegable de navegación"
+                "toggle_sidenav_dropdown_accessible_label": "Mostrar u ocultar el menú de navegación"
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
-                "latest_button": "=> core.ref.latest",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
+                "latest_button": "Más recientes",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Cambiar el orden de la lista de discusiones",
-                "top_button": "=> core.ref.top",
+                "top_button": "Más comentados",
                 "za_button": "=> core.ref.title_za"
             },
             "log_in": {
-                "forgot_password_link": "¿Olvidó su contraseña?",
-                "invalid_login_message": "",
+                "forgot_password_link": "¿Has olvidado tu contraseña?",
+                "invalid_login_message": "=> core.ref.invalid_login_message",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "",
-                "sign_up_text": "¿Aún no tiene una cuenta? <a>¡Regístrese!</a>",
+                "remember_me_label": "=> core.ref.remember_me_label",
+                "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "",
+                "delete_all_confirm": "¿Seguro que quieres eliminar todas las notificaciones? Esta acción no se puede deshacer",
                 "delete_all_tooltip": "Eliminar todas las notificaciones",
                 "discussion_renamed_text": "{username} cambió el título",
                 "empty_text": "No hay notificaciones",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Marcar como leído",
+                "mark_as_read_tooltip": "Marcar como leída",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Ver notificaciones",
                 "tooltip": "=> core.ref.notifications"
@@ -668,15 +668,15 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "¿Está seguro de que desea eliminar este mensaje para siempre? Esta acción no se puede deshacer.",
+                "delete_confirmation": "¿Seguro que quieres eliminar esta publicación para siempre? Esta acción no se puede deshacer.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "¿Está seguro de que desea eliminar este mensaje?",
+                "hide_confirmation": "¿Seguro que quieres eliminar esta publicación?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Alternar el menú desplegable de los controles del post"
+                "toggle_dropdown_accessible_label": "Mostrar u ocultar el menú de acciones de la publicación"
             },
             "post_list": {
-                "empty_text": "Parece que no hay publicaciones acá.",
+                "empty_text": "Parece que no hay publicaciones aquí.",
                 "in_discussion_text": "En {discussion}",
                 "load_more_button": "=> core.ref.load_more"
             },
@@ -688,7 +688,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "El título anterior era: \"{old}\"",
-                "discussion_renamed_text": "{username} cambió el título a {new}.",
+                "discussion_renamed_text": "{username} cambió el título a {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} más tarde"
@@ -708,14 +708,14 @@
             },
             "security": {
                 "browser_on_operating_system": "{browser} en {os}",
-                "cannot_terminate_current_session": "No se puede terminar la sesión activa actual. Cerrar sesión en su lugar.",
+                "cannot_terminate_current_session": "No puedes finalizar la sesión activa actual. Utiliza la opción de cerrar sesión.",
                 "created": "Creado",
                 "current_active_session": "Sesión activa actual",
                 "developer_tokens_heading": "Tokens de desarrollador",
                 "empty_text": "Parece que no hay nada que ver aquí.",
                 "global_logout": {
                     "heading": "Cierre de sesión global",
-                    "help_text": "Borra la sesión actual de cookies, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida cualquier correo electrónico de confirmación o de restablecimiento de contraseña.",
+                    "help_text": "Elimina las cookies de la sesión actual, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida los correos electrónicos de confirmación o de restablecimiento de contraseña.",
                     "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Ocultar token",
@@ -730,12 +730,12 @@
                 "revoke_access_token": "Revocar",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Sesiones activas",
-                "session_terminated": "{count, plural, one {Sesión terminada} other {# Sesiones terminadas}}.",
-                "session_termination_failed": "Ocurrió un error al finalizar sus sesiones.",
+                "session_terminated": "{count, plural, one {Sesión finalizada} other {# sesiones finalizadas}}.",
+                "session_termination_failed": "Se ha producido un error al finalizar tus sesiones.",
                 "show_access_token": "Ver token",
-                "terminate_all_other_sessions": "Terminar todas las demás sesiones",
+                "terminate_all_other_sessions": "Finalizar todas las demás sesiones",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
-                "terminate_session": "Terminar",
+                "terminate_session": "Finalizar",
                 "title": "=> core.ref.security",
                 "token_revoked": "Token revocado.",
                 "token_item_title": "{title} - {token}",
@@ -753,27 +753,27 @@
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
                 },
-                "notification_checkbox_a11y_label_template": "Reciba notificaciones de \"{description}\" a través de {method}",
+                "notification_checkbox_a11y_label_template": "Recibir notificaciones de \"{description}\" a través de {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
-                "notify_discussion_renamed_label": "Alguien cambió el título de una discusión que usted creó",
+                "notify_discussion_renamed_label": "Alguien ha cambiado el título de una discusión que creaste",
                 "device_heading": "Dispositivo",
                 "haptic_feedback_help": "Solo disponible en dispositivos móviles compatibles",
-                "haptic_feedback_label": "Habilitar interacciones vibratorias",
-                "privacy_disclose_online_label": "Permitir que otros vean cuándo está conectado",
+                "haptic_feedback_label": "Activar la respuesta háptica",
+                "privacy_disclose_online_label": "Permitir que otros vean cuándo estás conectado",
                 "privacy_heading": "Privacidad",
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "¿Ya tiene una cuenta? <a>¡Conéctese!</a>",
+                "log_in_text": "¿Ya tienes una cuenta? <a>¡Inicia sesión!</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
                 "username_placeholder": "=> core.ref.username",
-                "welcome_text": "¡Bienvenid@, {username}!"
+                "welcome_text": "¡Te damos la bienvenida, {username}!"
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
@@ -792,15 +792,15 @@
             "user_controls": {
                 "button": "Controles",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "¿Está seguro de que quiere eliminar este usuario? Las publicaciones del usuario NO serán eliminadas.",
+                "delete_confirmation": "¿Seguro que quieres eliminar este usuario? Sus publicaciones NO se eliminarán.",
                 "delete_error_message": "Error al eliminar el usuario <i>{username} ({email})</i>",
                 "delete_success_message": "El usuario <i>{username} ({email})</i> fue eliminado",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Activar el menú desplegable de los controles del usuario"
+                "toggle_dropdown_accessible_label": "Mostrar u ocultar el menú de acciones del usuario"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Re-enviar correo electrónico de confirmación",
+                "resend_button": "Reenviar correo electrónico de confirmación",
                 "sent_message": "Enviado"
             },
             "welcome_hero": {
@@ -808,7 +808,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "Tu conexión se ha restablecido.",
+            "connection_restored_message": "Se ha restablecido tu conexión.",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Descartar la alerta"
@@ -821,7 +821,7 @@
                 "hidden_tooltip": "Oculto"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "Activar el menú desplegable"
+                "toggle_dropdown_accessible_label": "Mostrar u ocultar el menú desplegable"
             },
             "data_segment": {
                 "label": "{label}:"
@@ -842,20 +842,20 @@
             },
             "error": {
                 "circular_dependencies_message": "Dependencias circulares detectadas: {extensions}. Abortando. Desactiva una de las extensiones y vuelve a intentarlo.",
-                "db_error_message": "La consulta a la base de datos falló. Esto puede deberse a una incompatibilidad entre una extensión y el controlador de su base de datos.",
+                "db_error_message": "La consulta a la base de datos ha fallado. Esto puede deberse a una incompatibilidad entre una extensión y el controlador de tu base de datos.",
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
                 "extension_initialiation_failed_message": "{extension} no se pudo inicializar, consulta la consola del navegador para obtener más información.",
                 "extension_runtime_failed_message": "Se ha producido un error durante la ejecución de {extension}. Consulta la consola del navegador para obtener más información.",
-                "generic_message": "¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.",
-                "generic_cross_origin_message": "¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.",
-                "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
-                "network_message": "Parece que hay algún problema con tu conexión. Comprueba tu red e inténtalo de nuevo.",
-                "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
-                "offline_message": "Parece que estás sin conexión. Comprueba tu conexión e inténtalo de nuevo.",
-                "payload_too_large_message": "La solicitud de carga era demasiado grande.",
-                "permission_denied_message": "¡Nanay de la China! No tiene permiso para hacer eso.",
-                "rate_limit_exceeded_message": "¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.",
-                "render_failed_message": "Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información."
+                "generic_message": "Se ha producido un error. Vuelve a cargar la página e inténtalo de nuevo.",
+                "generic_cross_origin_message": "Se ha producido un error durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.",
+                "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones de las que depende: {extensions}",
+                "network_message": "Parece que hay un problema con tu conexión. Comprueba la red y vuelve a intentarlo.",
+                "not_found_message": "No se ha encontrado el recurso solicitado.",
+                "offline_message": "Parece que no tienes conexión. Comprueba tu conexión y vuelve a intentarlo.",
+                "payload_too_large_message": "El contenido de la solicitud es demasiado grande.",
+                "permission_denied_message": "No tienes permiso para hacer eso.",
+                "rate_limit_exceeded_message": "Vas demasiado rápido. Vuelve a intentarlo dentro de unos segundos.",
+                "render_failed_message": "Lo sentimos, se ha producido un error al mostrar este contenido. Si eres usuario, inténtalo de nuevo más tarde. Si eres administrador, consulta los archivos de registro de Flarum para obtener más información."
             },
             "gambits": {
                 "group_keys": {
@@ -866,7 +866,7 @@
                 "discussions": {
                     "author": {
                         "key": "autor",
-                        "hint": "nombre de usuario o lista separada con comas de nombres de usuarios"
+                        "hint": "nombre de usuario o lista de nombres de usuario separados por comas"
                     },
                     "created": {
                         "key": "creada",
@@ -876,7 +876,7 @@
                         "key": "oculta"
                     },
                     "unread": {
-                        "key": "no leído"
+                        "key": "no_leída"
                     }
                 },
                 "posts": {
@@ -892,12 +892,12 @@
                     },
                     "group": {
                         "key": "grupo",
-                        "hint": "nombres de grupos singulares o plurales"
+                        "hint": "nombres de grupos en singular o plural"
                     }
                 }
             },
             "input": {
-                "clear_button": "Limpiar datos de ingreso"
+                "clear_button": "Borrar el contenido del campo"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -910,17 +910,17 @@
                 "close": "Cerrar"
             },
             "multi_select": {
-                "placeholder": "Seleccionar múltiples opciones"
+                "placeholder": "Seleccionar varias opciones"
             },
             "nav": {
-                "drawer_button": "Abrir el cuadro de navegación",
-                "pin_pane_button": "Fijar lista de discusiones"
+                "drawer_button": "Abrir el panel de navegación",
+                "pin_pane_button": "Fijar la lista de discusiones"
             },
             "notices": {
-                "bisecting": "Ejecutar un proceso de búsqueda binaria de extensiones para determinar qué extensión está causando el problema.",
+                "bisecting": "Se está ejecutando una bisección de extensiones para determinar qué extensión causa el problema.",
                 "bisecting_continue": "Continuar bisección",
-                "maintenance_mode_low": "Servicio de mantenimiento. Solo los administradores pueden acceder al foro.",
-                "maintenance_mode_safe": "En mantenimiento, con el sistema en modo seguro. Solo los administradores pueden acceder al foro y no se han iniciado extensiones."
+                "maintenance_mode_low": "En mantenimiento. Solo los administradores pueden acceder al foro.",
+                "maintenance_mode_safe": "En mantenimiento con el modo seguro activado. Solo los administradores pueden acceder al foro y no se han iniciado extensiones."
             },
             "index_sort": {
                 "az_button": "=> core.ref.title_az",
@@ -940,31 +940,31 @@
             },
             "pagination": {
                 "back_button": "Página anterior",
-                "first_button": "Ir a la primer página",
-                "go_to_page_textbox_a11y_label": "Ir directo a la página número",
-                "last_button": "Ir a última página",
-                "next_button": "Próxima página",
+                "first_button": "Ir a la primera página",
+                "go_to_page_textbox_a11y_label": "Ir directamente a la página número",
+                "last_button": "Ir a la última página",
+                "next_button": "Página siguiente",
                 "page_counter": "Página {current} de {total}"
             },
             "search": {
                 "gambit_plus_button_a11y_label": "Añadir filtro positivo",
                 "gambit_minus_button_a11y_label": "Añadir filtro negativo",
                 "title": "Buscar",
-                "no_results_text": "Parecería que no hay resultados acá.",
-                "no_search_text": "Aún no buscaste nada.",
+                "no_results_text": "Parece que no hay resultados.",
+                "no_search_text": "Aún no has realizado ninguna búsqueda.",
                 "options_heading": "Opciones de búsqueda",
                 "placeholder": "Buscar...",
-                "preview_heading": "Buscar anterior",
+                "preview_heading": "Vista previa de la búsqueda",
                 "search_active_button_accessible_label": "Cambiar búsqueda: {query}",
                 "search_clear_button_accessible_label": "Borrar consulta de búsqueda"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "Buscar en todas las discusiones \"{query}\"",
+                    "all_button": "Buscar \"{query}\" en todas las discusiones",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
-                    "all_button": "Buscar en todas las publicaciones \"{query}\"",
+                    "all_button": "Buscar \"{query}\" en todas las publicaciones",
                     "heading": "=> core.ref.posts"
                 },
                 "users": {
@@ -977,14 +977,14 @@
                 "two_text": "{first} y {second}"
             },
             "user_selection_modal": {
-                "empty_results": "No se encontraron usuarios que coincidieran con su búsqueda.",
+                "empty_results": "No se han encontrado usuarios que coincidan con tu búsqueda.",
                 "max_items_to_select": "{count, plural, one {Selecciona hasta # usuario} other {Selecciona hasta # usuarios}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
-                "title": "Seleccione los usuarios relevantes"
+                "title": "Selecciona los usuarios pertinentes"
             },
             "username": {
-                "deleted_text": "[Borrado]"
+                "deleted_text": "[Eliminado]"
             },
             "datetime_formats": {
                 "fullTime": "LLLL",
@@ -1001,42 +1001,42 @@
                     "disable": "Desactivar",
                     "empty": "No hay extensiones instaladas",
                     "enable": "Activar",
-                    "name": "Nombre de la Extensión",
-                    "package_name": "Nombre del Paquete",
+                    "name": "Nombre de la extensión",
+                    "package_name": "Nombre del paquete",
                     "version": "Versión"
                 },
                 "info": {
-                    "caption": "Información de la Aplicación"
+                    "caption": "Información de la aplicación"
                 },
                 "title": "Administración"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "Presiona el botón a continuación para confirmar el correo de tu cuenta.",
+                "text": "Pulsa el botón de abajo para confirmar el correo electrónico de tu cuenta.",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
-                "load_error_message": "Algo salió mal cuando se intentó cargar la versión completa de este sitio web.",
-                "loading_text": "Cargando..."
+                "javascript_disabled_message": "Este sitio web se ve mejor en un navegador moderno con JavaScript activado.",
+                "load_error_message": "Se ha producido un error al intentar cargar la versión completa de este sitio web.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "Ha estado inactivo durante demasiado tiempo.",
-                "csrf_token_mismatch_return_link": "Vuelva atrás para intentarlo de nuevo",
+                "csrf_token_mismatch": "Has estado inactivo durante demasiado tiempo.",
+                "csrf_token_mismatch_return_link": "Vuelve atrás para intentarlo de nuevo",
                 "invalid_confirmation_token": "Este enlace de confirmación ya se ha utilizado o no es válido.",
                 "maintenance_mode_link": "Inicio de sesión de administrador",
-                "maintenance_mode_message": "Este foro se encuentra temporalmente fuera de servicio por mantenimiento. Vuelva a intentarlo más tarde.",
+                "maintenance_mode_message": "Este foro está temporalmente fuera de servicio por mantenimiento. Vuelve a intentarlo más tarde.",
                 "maintenance_mode_title": "Mantenimiento",
                 "method_not_allowed": "Esta página no admite ese método de solicitud.",
-                "not_authenticated": "Usted no tiene permiso para acceder a esta página. Inténtelo de nuevo después de iniciar sesión.",
-                "not_found": "¡Recórcholis! La página solicitada no ha podido ser encontrada.",
+                "not_authenticated": "No tienes permiso para acceder a esta página. Inténtalo de nuevo después de iniciar sesión.",
+                "not_found": "No se ha encontrado la página solicitada.",
                 "not_found_return_link": "Volver a {forum}",
-                "permission_denied": "¡Nanay de la China! No tiene permiso para acceder a esta página.",
-                "unknown": "¡Caramba! Ha ocurrido un error cuando se cargaba esta página."
+                "permission_denied": "No tienes permiso para acceder a esta página.",
+                "unknown": "Se ha producido un error al cargar esta página."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1048,7 +1048,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "¿Seguro que quiere desconectarse de {forum}?",
+                "log_out_confirmation": "¿Seguro que quieres cerrar sesión en {forum}?",
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
@@ -1069,76 +1069,76 @@
                 "title": "Confirmación de baja",
                 "return_to_forum": "Volver a {forumTitle}",
                 "confirm_button": "Confirmar",
-                "immediate_helptext": "Su suscripción se cancelará inmediatamente una vez que la confirme.",
-                "confirm_message": "Has solicitado darte de baja de las notificaciones por email \"{type}\" de {forumTitle}.",
-                "success_message": "Te has dado de baja correctamente de las notificaciones \"{type}\" de {forumTitle}. Si deseas volver a recibirlas, por favor [actualiza tu configuración]({settingsLink}).",
-                "invalid_message": "Este enlace para cancelar la suscripción no es válido o ya se ha utilizado. Para cualquier cambio en las notificaciones por email de {forumTitle}, por favor [compruebe su configuración]({settingsLink})."
+                "immediate_helptext": "Tu suscripción se cancelará en cuanto lo confirmes.",
+                "confirm_message": "Has solicitado darte de baja de las notificaciones por correo electrónico \"{type}\" de {forumTitle}.",
+                "success_message": "Te has dado de baja correctamente de las notificaciones \"{type}\" de {forumTitle}. Si quieres volver a recibirlas, [actualiza tus ajustes]({settingsLink}).",
+                "invalid_message": "Este enlace para cancelar la suscripción no es válido o ya se ha utilizado. Para modificar las notificaciones por correo electrónico de {forumTitle}, [revisa tus ajustes]({settingsLink})."
             }
         },
         "api": {
-            "invalid_username_message": "",
+            "invalid_username_message": "El nombre de usuario solo puede contener letras, números y guiones, y debe incluir al menos una letra.",
             "invalid_filter_type": {
                 "must_be_numeric_message": "El filtro {filter} debe ser numérico.",
                 "must_not_be_array_message": "El filtro {filter} no debe ser un array.",
-                "must_not_be_multidimensional_array_message": "El filtro {filter} no debe ser una array multidimensional."
+                "must_not_be_multidimensional_array_message": "El filtro {filter} no debe ser un array multidimensional."
             }
         },
         "email": {
-            "greeting": "Ey {displayName},",
+            "greeting": "Hola {displayName},",
             "signoff": "El equipo de {forumTitle}",
             "informational": {
                 "default_title": "Información",
-                "footer": "Este email se envió a {userEmail} como un servicio informativo relacionado con su cuenta en [{forumTitle}]({forumUrl}).",
-                "footer_plain": "Este correo electrónico se envió a {userEmail} como un servicio informativo relacionado con su cuenta en {forumTitle}."
+                "footer": "Este correo electrónico se ha enviado a {userEmail} como parte de un servicio informativo relacionado con tu cuenta en [{forumTitle}]({forumUrl}).",
+                "footer_plain": "Este correo electrónico se ha enviado a {userEmail} como parte de un servicio informativo relacionado con tu cuenta en {forumTitle}."
             },
             "notification": {
                 "default_title": "Notificación",
                 "footer": {
-                    "main_text": "Este email se envió a {email} porque usted está suscrito a notificaciones \"{type}\" en [{forumTitle}]({forumUrl}).",
-                    "main_text_plain": "Este email se envió a {email} porque usted está suscrito a notificaciones \"{type}\" en {forumTitle}.",
-                    "unsubscribe_text": "Si desea dejar de recibir este tipo de notificaciones, [cancele la suscripción aquí]({unsubscribeLink}).",
-                    "unsubscribe_text_plain": "Si desea dejar de recibir este tipo de notificaciones, cancele su suscripción aquí: {unsubscribeLink}",
+                    "main_text": "Este correo electrónico se ha enviado a {email} porque te has suscrito a las notificaciones \"{type}\" en [{forumTitle}]({forumUrl}).",
+                    "main_text_plain": "Este correo electrónico se ha enviado a {email} porque te has suscrito a las notificaciones \"{type}\" en {forumTitle}.",
+                    "unsubscribe_text": "Si quieres dejar de recibir este tipo de notificaciones, [cancela la suscripción aquí]({unsubscribeLink}).",
+                    "unsubscribe_text_plain": "Si quieres dejar de recibir este tipo de notificaciones, cancela tu suscripción aquí: {unsubscribeLink}",
                     "settings_text": "Administra tus ajustes de notificaciones [aquí]({settingsLink}).",
                     "settings_text_plain": "Administra tus ajustes de notificaciones aquí: {settingsLink}"
                 }
             },
             "activate_account": {
-                "subject": "Active su cuenta de usuario",
-                "body": ""
+                "subject": "Activa tu cuenta de usuario",
+                "body": "Alguien (¡esperamos que tú!) se ha registrado en {forum} con esta dirección de correo electrónico.\n\nSi has sido tú, pulsa el siguiente enlace para activar tu cuenta:\n{url}\n\nSi no te has registrado, ignora este correo electrónico.\n"
             },
             "confirm_email": {
-                "subject": "Confirme su correo electrónico",
-                "body": ""
+                "subject": "Confirma tu correo electrónico",
+                "body": "Alguien (¡esperamos que tú!) ha cambiado su dirección de correo electrónico en {forum} por esta.\n\nSi has sido tú, pulsa el siguiente enlace para confirmar tu correo electrónico:\n{url}\n\nSi no has sido tú, ignora este correo electrónico.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Alguien (¡esperamos que tú!) ha solicitado restablecer la contraseña de tu cuenta en {forum}.\n\nSi has sido tú, pulsa el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi no quieres cambiar tu contraseña, ignora este correo electrónico y no se realizará ningún cambio.\n"
             },
             "send_test": {
                 "subject": "Prueba de correo electrónico de Flarum",
-                "body": ""
+                "body": "Este es un correo de prueba para confirmar que los ajustes de correo electrónico de Flarum funcionan correctamente.\n\nSi has solicitado esta prueba, ¡este correo confirma que tus ajustes funcionan!\n\nSi no has sido tú, ignora este correo electrónico.\n"
             },
             "abandoned_extensions": {
-                "subject": "Acción requerida: se detectó extension/es abandonada/s",
-                "body_intro": "La siguiente/s extension/es instaladas han sido marcadas como abandonadas:",
-                "body_outro": "Por favor, revise estas extensiones y considere la posibilidad de migrar a alternativas cuando estén disponibles.",
+                "subject": "Acción necesaria: se han detectado extensiones abandonadas",
+                "body_intro": "Las siguientes extensiones instaladas se han marcado como abandonadas:",
+                "body_outro": "Revisa estas extensiones y considera migrar a otras alternativas cuando estén disponibles.",
                 "line_with_replacement": "{package} (reemplazo sugerido: {replacement})",
                 "line_no_replacement": "{package} (sin reemplazos disponibles)"
             }
         },
         "ref": {
-            "all_discussions": "Discusiones",
+            "all_discussions": "Todas las discusiones",
             "change_email": "Cambiar el correo electrónico",
             "change_password": "Cambiar la contraseña",
             "color": "Color",
             "confirm_password": "Confirmar la contraseña",
-            "confirm_email": "Confirmar correo",
-            "confirmation_email_sent": "Le hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, compruebe la carpeta de correo no deseado (spam).",
-            "custom_footer_text": "Añade código HTML para que este sea mostrado en la parte más baja de la página.",
-            "custom_footer_title": "Editar el pié de página personalizado",
-            "custom_header_text": "Añade código HTML para que este sea mostrado en la parte más alta de la página, sobre la cabecera de Flarum.",
+            "confirm_email": "Confirmar correo electrónico",
+            "confirmation_email_sent": "Te hemos enviado un correo electrónico de confirmación a {email}. Si no llega pronto, comprueba la carpeta de correo no deseado (spam).",
+            "custom_footer_text": "Añade código HTML para que se muestre al final de la página.",
+            "custom_footer_title": "Editar el pie de página personalizado",
+            "custom_header_text": "Añade código HTML para que se muestre al principio de la página, por encima de la cabecera de Flarum.",
             "custom_header_title": "Editar la cabecera personalizada",
-            "dark_hc_mode_label": "Modo oscuro con contraste alto",
+            "dark_hc_mode_label": "Modo oscuro de alto contraste",
             "dark_mode_label": "Modo oscuro",
             "delete": "Eliminar",
             "delete_forever": "Eliminar para siempre",
@@ -1147,51 +1147,51 @@
             "edit_user": "Editar usuario",
             "email": "Correo electrónico",
             "extensions": "Extensiones",
-            "generic_confirmation_message": "¿Estás seguro que deseas continuar? Esta acción no se puede deshacer.",
+            "generic_confirmation_message": "¿Seguro que quieres continuar? Esta acción no se puede deshacer.",
             "icon": "Icono",
-            "icon_text": "Introduzca el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",
+            "icon_text": "Introduce el nombre de una clase de icono de <a>FontAwesome</a>, <em>incluido</em> el prefijo (por ejemplo, <code>fas fa-flag</code> o <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Tus datos de inicio de sesión son incorrectos.",
             "light_hc_mode_label": "Modo claro de alto contraste",
-            "light_mode_label": "Modo Claro",
+            "light_mode_label": "Modo claro",
             "load_more": "Cargar más",
             "latest": "Más recientes",
             "loading": "Cargando...",
-            "log_in": "Acceder",
-            "log_out": "Desconectarse",
+            "log_in": "Iniciar sesión",
+            "log_out": "Cerrar sesión",
             "mark_all_as_read": "Marcar todas como leídas",
             "never": "Nunca",
             "new_token": "Nuevo token",
-            "newest": "Más nuevo",
+            "newest": "Más nuevos",
             "next_page": "Página siguiente",
             "notifications": "Notificaciones",
             "okay": "Aceptar",
-            "oldest": "Más viejo",
+            "oldest": "Más antiguos",
             "password": "Contraseña",
             "posts": "Publicaciones",
             "previous_page": "Página anterior",
             "relevance": "Relevancia",
-            "remember_me_label": "Acuérdate de mí",
+            "remember_me_label": "Recordarme",
             "remove": "Eliminar",
             "rename": "Renombrar",
             "reply": "Responder",
-            "refresh": "Refrezcar",
-            "reset_your_password": "Restableza su contraseña",
+            "refresh": "Actualizar",
+            "reset_your_password": "Restablece tu contraseña",
             "restore": "Restaurar",
             "save_changes": "Guardar cambios",
             "search_users": "Buscar usuarios",
             "security": "Seguridad",
-            "settings": "Configuración",
-            "sign_up": "Regístrese",
+            "settings": "Ajustes",
+            "sign_up": "Registrarse",
             "some_others": "{count, plural, one {# más} other {# más}}",
             "start_a_discussion": "Crear discusión",
             "title_az": "Título (A–Z)",
             "title_za": "Título (Z–A)",
-            "top": "Principales",
+            "top": "Más comentados",
             "username": "Nombre de usuario",
-            "username_or_email_placeholder": "Nombre de usuario o Email",
+            "username_or_email_placeholder": "Nombre de usuario o correo electrónico",
             "users": "Usuarios",
-            "view": "Vista",
-            "write_a_reply": "Escriba una respuesta...",
+            "view": "Ver",
+            "write_a_reply": "Escribe una respuesta...",
             "you": "Tú"
         },
         "group": {
