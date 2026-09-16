@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **320** are translated differently and **683** are
-translated only in `de`. Altogether they cover **95** components.
+sides, but do not match between them: **321** are translated differently and **706** are
+translated only in `de`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
 
@@ -21,7 +21,7 @@ translated only in `de`. Altogether they cover **95** components.
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
 | `ffans-geetest` | 0 | [15](#ffans-geetest-missing) |
-| `ffans-threadmarks` | 0 | [63](#ffans-threadmarks-missing) |
+| `ffans-threadmarks` | 0 | [86](#ffans-threadmarks-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
@@ -47,6 +47,7 @@ translated only in `de`. Altogether they cover **95** components.
 | `fof-geoip` | [4](#fof-geoip) | 0 |
 | `fof-horizon` | [1](#fof-horizon) | 0 |
 | `fof-impersonate` | [1](#fof-impersonate) | 0 |
+| `fof-links` | [1](#fof-links) | 0 |
 | `fof-masquerade` | [2](#fof-masquerade) | 0 |
 | `fof-merge-discussions` | [5](#fof-merge-discussions) | 0 |
 | `fof-moderator-notes` | [1](#fof-moderator-notes) | 0 |
@@ -1787,6 +1788,20 @@ IP-Adresse in <del>die </del>Zwischenablage kopieren
 ```
 
 (Optional) Gib einen Grund für den Wechsel zu diesem Benutzer <del>an.</del><ins>an</ins>
+
+
+### `fof-links`
+
+#### [`fof-links.admin.settings.show_icons_only_on_tablet`](https://weblate.rob006.net/translate/flarum2/fof-links/de/?q=context%3A%3D%22fof-links.admin.settings.show_icons_only_on_tablet%22)
+
+> Show icons only on tablet screens
+
+```diff
+-Icons nur auf Tablet-Bildschirmen anzeigen
++Nur Symbole auf Tablet-Bildschirmen anzeigen
+```
+
+<del>Icons</del><ins>Nur</ins> <del>nur</del><ins>Symbole</ins> auf Tablet-Bildschirmen anzeigen
 
 
 ### `fof-masquerade`
@@ -4860,6 +4875,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Alle
 ```
 
+#### [`ffans-threadmarks.forum.directory.close_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.close_a11y_label%22)
+
+> Close threadmark directory
+
+```diff
++Verzeichnis der Diskussionsmarkierungen schließen
+```
+
 #### [`ffans-threadmarks.forum.directory.discussion_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.discussion_filter%22)
 
 > =&gt; ffans-threadmarks.ref.discussion
@@ -4882,6 +4905,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.directory.scope_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.scope_a11y_label%22)
+
+> Filter threadmarks by scope
+
+```diff
++Diskussionsmarkierungen nach Bereich filtern
 ```
 
 #### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
@@ -4908,6 +4939,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Alle Beiträge anzeigen
 ```
 
+#### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button%22)
+
+> Only Threadmarks
+
+```diff
++Nur Diskussionsmarkierungen
+```
+
 #### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
 
 > Add
@@ -4922,6 +4961,22 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.delete_discussion_confirmation`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.delete_discussion_confirmation%22)
+
+> Delete this discussion threadmark?
+
+```diff
++Diese öffentliche Diskussionsmarkierung löschen?
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.delete_personal_confirmation`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.delete_personal_confirmation%22)
+
+> Delete this personal threadmark?
+
+```diff
++Diese persönliche Diskussionsmarkierung löschen?
 ```
 
 #### [`ffans-threadmarks.forum.manage_modal.discussion_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.discussion_tab%22)
@@ -4972,6 +5027,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +=> ffans-threadmarks.ref.save
 ```
 
+#### [`ffans-threadmarks.forum.manage_modal.scope_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.scope_a11y_label%22)
+
+> Threadmark scope
+
+```diff
++Diskussionsmarkierung Bereich
+```
+
 #### [`ffans-threadmarks.forum.manage_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.title%22)
 
 > Threadmark · #{number}
@@ -4996,12 +5059,44 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Wähle einen Typ
 ```
 
+#### [`ffans-threadmarks.forum.manage_modal.unavailable_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.unavailable_text%22)
+
+> No threadmarks available to manage.
+
+```diff
++Keine Diskussionsmarkierungen zur Verwaltung verfügbar.
+```
+
 #### [`ffans-threadmarks.forum.post_controls.manage_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.post_controls.manage_button%22)
 
 > Manage Threadmark
 
 ```diff
 +Diskussionsmarkierung verwalten
+```
+
+#### [`ffans-threadmarks.forum.scrubber.cluster_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.cluster_a11y_label%22)
+
+> {count, plural, one {# threadmark} other {# threadmarks}}
+
+```diff
++{count, plural, one {# Diskussionsmarkierung} other {# Diskussionsmarkierungen}}
+```
+
+#### [`ffans-threadmarks.forum.scrubber.open_directory_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.open_directory_a11y_label%22)
+
+> Open the full threadmark directory
+
+```diff
++Vollständiges Verzeichnis der Diskussionsmarkierungen öffnen
+```
+
+#### [`ffans-threadmarks.forum.scrubber.threadmark_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.threadmark_a11y_label%22)
+
+> Threadmark on post #{number}
+
+```diff
++Diskussionsmarkierung an Beitrag #{number}
 ```
 
 #### [`ffans-threadmarks.forum.threadmark.deleted_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.deleted_text%22)
@@ -5012,12 +5107,28 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Dieser Inhalt wurde gelöscht.
 ```
 
+#### [`ffans-threadmarks.forum.threadmark.edit_discussion_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_discussion_a11y_label%22)
+
+> Edit discussion threadmark on post #{number}
+
+```diff
++Öffentliche Diskussionsmarkierung an Beitrag #{number} bearbeiten
+```
+
 #### [`ffans-threadmarks.forum.threadmark.edit_discussion_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_discussion_tooltip%22)
 
 > Edit discussion threadmark
 
 ```diff
 +Öffentliche Diskussionsmarkierung bearbeiten
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_personal_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_personal_a11y_label%22)
+
+> Edit personal threadmark on post #{number}
+
+```diff
++Persönliche Diskussionsmarkierung an Beitrag #{number} bearbeiten
 ```
 
 #### [`ffans-threadmarks.forum.threadmark.edit_personal_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_personal_tooltip%22)
@@ -5034,6 +5145,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.threadmark.personal_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.personal_tooltip%22)
+
+> Personal threadmark, visible only to you
+
+```diff
++Persönliche Diskussionsmarkierung, nur für dich sichtbar
 ```
 
 #### [`ffans-threadmarks.forum.type_labels.chapter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.chapter%22)
@@ -5084,6 +5203,30 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 +Aktualisierung
 ```
 
+#### [`ffans-threadmarks.lib.gdpr.anonymize_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.anonymize_description%22)
+
+> Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks.
+
+```diff
++Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.
+```
+
+#### [`ffans-threadmarks.lib.gdpr.delete_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.delete_description%22)
+
+> Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks.
+
+```diff
++Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.
+```
+
+#### [`ffans-threadmarks.lib.gdpr.export_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.export_description%22)
+
+> Exports all your personal threadmarks and discussion threadmarks you created or last edited, without post content.
+
+```diff
++Exportiert alle deine persönlichen und öffentlichen Diskussionsmarkierungen, die du erstellt oder zuletzt bearbeitet haben, ohne den Inhalt der Beiträge.
+```
+
 #### [`ffans-threadmarks.lib.type_form.color_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.color_label%22)
 
 > =&gt; core.ref.color
@@ -5122,6 +5265,62 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Name
+```
+
+#### [`ffans-threadmarks.lib.validation.disabled_type`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.disabled_type%22)
+
+> This threadmark type is disabled. Choose another type.
+
+```diff
++Dieser Markierungstyp ist deaktiviert. Wähle einen anderen Typ aus.
+```
+
+#### [`ffans-threadmarks.lib.validation.duplicate_discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.duplicate_discussion%22)
+
+> This post already has a discussion threadmark. Edit the existing one instead.
+
+```diff
++Dieser Beitrag hat bereits eine öffentliche Diskussionsmarkierung. Bearbeite stattdessen die vorhandene Markierung.
+```
+
+#### [`ffans-threadmarks.lib.validation.duplicate_personal`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.duplicate_personal%22)
+
+> You already have a personal threadmark on this post. Edit the existing one instead.
+
+```diff
++Du hast bereits eine persönliche Diskussionsmarkierung für diesen Beitrag gesetzt. Bearbeite stattdessen die bereits vorhandene.
+```
+
+#### [`ffans-threadmarks.lib.validation.first_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.first_post%22)
+
+> Threadmarks cannot be added to the first post.
+
+```diff
++Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.
+```
+
+#### [`ffans-threadmarks.lib.validation.invalid_discussion_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.invalid_discussion_post%22)
+
+> Discussion threadmarks can only target comment posts.
+
+```diff
++Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.
+```
+
+#### [`ffans-threadmarks.lib.validation.invalid_personal_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.invalid_personal_post%22)
+
+> Personal threadmarks can only target comment posts.
+
+```diff
++Persönliche Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.
+```
+
+#### [`ffans-threadmarks.lib.validation.type_in_use`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.validation.type_in_use%22)
+
+> This type is in use and cannot be deleted.
+
+```diff
++Dieser Markierungstyp wird verwendet und kann daher nicht gelöscht werden.
 ```
 
 #### [`ffans-threadmarks.ref.discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.ref.discussion%22)

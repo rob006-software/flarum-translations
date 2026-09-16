@@ -2,7 +2,7 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **11** are translated differently and **202** are
+sides, but do not match between them: **155** are translated differently and **205** are
 translated only in `es@formal`. Altogether they cover **32** components.
 
 <!-- {% raw %} -->
@@ -12,7 +12,7 @@ translated only in `es@formal`. Altogether they cover **32** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | 0 | [31](#core-missing) |
+| `core` | [144](#core) | [34](#core-missing) |
 | `datlechin-bbcode-hide-content` | 0 | [5](#datlechin-bbcode-hide-content-missing) |
 | `datlechin-copy-links` | 0 | [2](#datlechin-copy-links-missing) |
 | `datlechin-discussion-overview` | 0 | [6](#datlechin-discussion-overview-missing) |
@@ -49,6 +49,1542 @@ translated only in `es@formal`. Altogether they cover **32** components.
 ## Different translations
 
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `es@formal` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `core`
+
+#### [`core.admin.appearance.colors_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.colors_text%22)
+
+> Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements.
+
+```diff
+-Elija dos colores para decorar su foro. El primero será usado para resaltar y el segundo será utilizado para decorar elementos de fondo.
++Elige dos colores para tu foro. El primero se utilizará para resaltar elementos y el segundo, para los elementos de fondo.
+```
+
+<del>Elija</del><ins>Elige</ins> dos colores para<del> decorar</del> <del>su</del><ins>tu</ins> foro. El primero <del>será</del><ins>se</ins> <del>usado</del><ins>utilizará</ins> para resaltar<ins> elementos</ins> y el<del> segundo será</del> <del>utilizado</del><ins>segundo,</ins> para <del>decorar</del><ins>los</ins> elementos de fondo.
+
+#### [`core.admin.appearance.custom_footer_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.custom_footer_heading%22)
+
+> Custom Footer
+
+```diff
+-Pié de página personalizado
++Pie de página personalizado
+```
+
+<del>Pié</del><ins>Pie</ins> de página personalizado
+
+#### [`core.admin.appearance.custom_styles_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.custom_styles_text%22)
+
+> Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.
+
+```diff
+-Personalice la apariencia de su foro añadiendo su propio código LESS/CSS, que se aplicará sobre los estilos por defecto de Flarum.
++Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS, que se aplicará sobre los estilos predeterminados de Flarum.
+```
+
+<del>Personalice</del><ins>Personaliza</ins> la apariencia de <del>su</del><ins>tu</ins> foro añadiendo <del>su</del><ins>tu</ins> propio código LESS/CSS, que se aplicará sobre los estilos<del> por</del> <del>defecto</del><ins>predeterminados</ins> de Flarum.
+
+#### [`core.admin.appearance.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.description%22)
+
+> Customize your forum's colors, logos, and other variables.
+
+```diff
+-Personalice los colores, logotipos y otras variables de su foro.
++Personaliza los colores, logotipos y otras opciones de tu foro.
+```
+
+<del>Personalice</del><ins>Personaliza</ins> los colores, logotipos y otras <del>variables</del><ins>opciones</ins> de <del>su</del><ins>tu</ins> foro.
+
+#### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
+
+> Please enter a hexadecimal color code.
+
+```diff
+-Por favor, introduzca un código hexadecimal de color.
++Introduce un código de color hexadecimal.
+```
+
+<del>Por favor, introduzca</del><ins>Introduce</ins> un código<del> hexadecimal</del> de <del>color.</del><ins>color hexadecimal.</ins>
+
+#### [`core.admin.appearance.favicon_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.favicon_heading%22)
+
+> Favicon
+
+```diff
+-Icono de Favoritos o <em>Favicon</em>
++<em>Favicon</em>
+```
+
+<del>Icono de Favoritos o </del>&lt;em&gt;Favicon&lt;/em&gt;
+
+#### [`core.admin.appearance.favicon_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.favicon_text%22)
+
+> Upload an image to be displayed as the forum's shortcut icon.
+
+```diff
+-Suba una imagen para que sea mostrada como icono de acceso directo al foro.
++Sube una imagen para que se muestre como icono de acceso directo al foro.
+```
+
+<del>Suba</del><ins>Sube</ins> una imagen para que <del>sea</del><ins>se</ins> <del>mostrada</del><ins>muestre</ins> como icono de acceso directo al foro.
+
+#### [`core.admin.appearance.logo_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.appearance.logo_text%22)
+
+> Upload an image to be displayed in place of the forum title.
+
+```diff
+-Suba una imagen para que sea mostrada en lugar del título del foro.
++Sube una imagen para que se muestre en lugar del título del foro.
+```
+
+<del>Suba</del><ins>Sube</ins> una imagen para que <del>sea</del><ins>se</ins> <del>mostrada</del><ins>muestre</ins> en lugar del título del foro.
+
+#### [`core.admin.basics.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.description%22)
+
+> Set your forum title, language, and other basic settings.
+
+```diff
+-Configure el título, el idioma y otras configuraciones básicas de su foro.
++Configura el título, el idioma y los demás ajustes básicos de tu foro.
+```
+
+<del>Configure</del><ins>Configura</ins> el título, el idioma y <del>otras</del><ins>los</ins> <del>configuraciones</del><ins>demás</ins> <del>básicas</del><ins>ajustes básicos</ins> de <del>su</del><ins>tu</ins> foro.
+
+#### [`core.admin.basics.display_name_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.display_name_heading%22)
+
+> User Display Name
+
+```diff
+-Nombre de usuario
++Nombre público del usuario
+```
+
+Nombre <del>de</del><ins>público del</ins> usuario
+
+#### [`core.admin.basics.display_name_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.display_name_text%22)
+
+> Select the driver that should be used for users' display names. By default, the username is shown.
+
+```diff
+-Seleccione el controlador que debe utilizarse para mostrar los nombres. Por defecto, se muestra el nombre de usuario.
++Selecciona el controlador que se utilizará para los nombres públicos de los usuarios. Por defecto, se muestra el nombre de usuario.
+```
+
+<del>Seleccione</del><ins>Selecciona</ins> el controlador que <del>debe</del><ins>se</ins> <del>utilizarse</del><ins>utilizará</ins> para <del>mostrar</del><ins>los nombres públicos de</ins> los <del>nombres.</del><ins>usuarios.</ins> Por defecto, se muestra el nombre de usuario.
+
+#### [`core.admin.basics.home_page_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.home_page_text%22)
+
+> Choose the page which users will first see when they visit your forum.
+
+```diff
+-Elija cuál es la portada que los usuarios verán al llegar al foro.
++Elige la primera página que verán los usuarios al visitar tu foro.
+```
+
+<del>Elija cuál es</del><ins>Elige</ins> la <del>portada</del><ins>primera página</ins> que<ins> verán</ins> los usuarios<del> verán</del> al <del>llegar</del><ins>visitar</ins> <del>al</del><ins>tu</ins> foro.
+
+#### [`core.admin.basics.slug_driver_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.slug_driver_heading%22)
+
+> Slug Driver: {model}
+
+```diff
+-Driver de Slug: {model}
++Controlador de slug: {model}
+```
+
+<del>Driver</del><ins>Controlador</ins> de <del>Slug:</del><ins>slug:</ins> {model}
+
+#### [`core.admin.basics.slug_driver_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.slug_driver_text%22)
+
+> Select a driver to be used for slugging this model.
+
+```diff
+-Seleccione el driver que se utilizará para el slugging de este modelo.
++Selecciona el controlador que se utilizará para generar los slugs de este modelo.
+```
+
+<del>Seleccione</del><ins>Selecciona</ins> el <del>driver</del><ins>controlador</ins> que se utilizará para <del>el</del><ins>generar</ins> <del>slugging</del><ins>los slugs</ins> de este modelo.
+
+#### [`core.admin.basics.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.title%22)
+
+> Basics
+
+```diff
+-Lo esencial
++Ajustes básicos
+```
+
+#### [`core.admin.basics.welcome_banner_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.welcome_banner_text%22)
+
+> Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+
+```diff
+-Introduzca el texto que se mostrará en la lista de discusiones. Utilícelo para dar la bienvenida a los invitados en su foro.
++Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los visitantes de tu foro.
+```
+
+<del>Introduzca</del><ins>Introduce</ins> el texto que se mostrará en la lista de discusiones. <del>Utilícelo</del><ins>Utilízalo</ins> para dar la bienvenida a los <del>invitados</del><ins>visitantes</ins> <del>en</del><ins>de</ins> <del>su</del><ins>tu</ins> foro.
+
+#### [`core.admin.dashboard.clear_cache_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.clear_cache_button%22)
+
+> Clear Cache
+
+```diff
+-Limpiar cache
++Vaciar caché
+```
+
+#### [`core.admin.dashboard.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.description%22)
+
+> Your forum at a glance.
+
+```diff
+-Su foro de un vistazo.
++Tu foro de un vistazo.
+```
+
+<del>Su</del><ins>Tu</ins> foro de un vistazo.
+
+#### [`core.admin.dashboard.io_error_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.io_error_message%22)
+
+> Could not write to filesystem. Check your filesystem permissions and try again. Or try running from the command line.
+
+```diff
+-No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.
++No se ha podido escribir en el sistema de archivos. Comprueba los permisos del sistema de archivos y vuelve a intentarlo. También puedes probar desde la línea de comandos.
+```
+
+No se <del>pudo</del><ins>ha podido</ins> escribir en el sistema de archivos. <del>Verifica</del><ins>Comprueba</ins> los permisos<del> de</del> <del>su</del><ins>del</ins> sistema de archivos y vuelve a intentarlo. <del>O</del><ins>También</ins> <del>intenta</del><ins>puedes</ins> <del>ejecutar</del><ins>probar</ins> desde la línea de comandos.
+
+#### [`core.admin.dashboard.status.headers.queue-driver`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.status.headers.queue-driver%22)
+
+> Queue Driver
+
+```diff
+-Driver de cola
++Controlador de cola
+```
+
+<del>Driver</del><ins>Controlador</ins> de cola
+
+#### [`core.admin.dashboard.status.headers.scheduler-status`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.status.headers.scheduler-status%22)
+
+> Scheduler
+
+```diff
+-Scheduler
++Programador de tareas
+```
+
+#### [`core.admin.dashboard.status.headers.session-driver`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.status.headers.session-driver%22)
+
+> Session Driver
+
+```diff
+-Driver de sesión
++Controlador de sesión
+```
+
+<del>Driver</del><ins>Controlador</ins> de sesión
+
+#### [`core.admin.dashboard.status.scheduler.never-run`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.status.scheduler.never-run%22)
+
+> Never run
+
+```diff
+-Nunca se ejecuta
++Nunca se ha ejecutado
+```
+
+Nunca se <del>ejecuta</del><ins>ha ejecutado</ins>
+
+#### [`core.admin.dashboard.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.title%22)
+
+> Dashboard
+
+```diff
+-Tablero
++Panel de información
+```
+
+#### [`core.admin.debug-warning.detail`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.debug-warning.detail%22)
+
+> When &lt;code&gt;debug&lt;/code&gt; mode is active, Flarum will rebuild its &lt;code&gt;JavaScript&lt;/code&gt; and &lt;code&gt;CSS&lt;/code&gt; assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.
+>
+> It is highly recommended to disable &lt;code&gt;debug&lt;/code&gt; in your &lt;code&gt;config.php&lt;/code&gt; file in production. See &lt;link&gt;Flarum docs&lt;/link&gt; for more information.
+>
+
+```diff
+-Cuando el modo <code>debug</code> está activo, Flarum reconstruirá sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud, y también podría filtrar potencialmente otra información, como secretos de la base de datos, variables de entorno, etc.
++Cuando el modo <code>debug</code> está activo, Flarum recompila sus archivos <code>JavaScript</code> y <code>CSS</code> en cada solicitud y podría exponer información confidencial, como credenciales de la base de datos, variables de entorno, etc.
+
+-Se recomienda encarecidamente deshabilitar <code>debug</code> en su archivo <code>config.php</code> en producción. Consulte <link>Documentos de Flarum</link> para obtener más información.
++Se recomienda encarecidamente desactivar <code>debug</code> en tu archivo <code>config.php</code> en producción. Consulta la <link>documentación de Flarum</link> para obtener más información.
+
+```
+
+Cuando el modo &lt;code&gt;debug&lt;/code&gt; está activo, Flarum <del>reconstruirá</del><ins>recompila</ins> sus archivos &lt;code&gt;JavaScript&lt;/code&gt; y &lt;code&gt;CSS&lt;/code&gt; en cada <del>solicitud,</del><ins>solicitud</ins> y<del> también</del> podría<del> filtrar</del> <del>potencialmente</del><ins>exponer</ins> <del>otra</del><ins>información</ins> <del>información,</del><ins>confidencial,</ins> como <del>secretos</del><ins>credenciales</ins> de la base de datos, variables de entorno, etc.<br /><br />Se recomienda encarecidamente <del>deshabilitar</del><ins>desactivar</ins> &lt;code&gt;debug&lt;/code&gt; en <del>su</del><ins>tu</ins> archivo &lt;code&gt;config.php&lt;/code&gt; en producción. <del>Consulte</del><ins>Consulta</ins> <del>&lt;link&gt;Documentos</del><ins>la &lt;link&gt;documentación</ins> de Flarum&lt;/link&gt; para obtener más información.<br />
+
+#### [`core.admin.edit_css.customize_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.edit_css.customize_text%22)
+
+> Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's &lt;a&gt;default styles&lt;/a&gt;.
+
+```diff
+-Personalice la apariencia de su foro añadiendo su propio código LESS/CSS que será aplicado sobre los <a>estilos por defecto</a> de Flarum.
++Personaliza la apariencia de tu foro añadiendo tu propio código LESS/CSS, que se aplicará sobre los <a>estilos predeterminados</a> de Flarum.
+```
+
+<del>Personalice</del><ins>Personaliza</ins> la apariencia de <del>su</del><ins>tu</ins> foro añadiendo <del>su</del><ins>tu</ins> propio código <del>LESS/CSS</del><ins>LESS/CSS,</ins> que <del>será</del><ins>se</ins> <del>aplicado</del><ins>aplicará</ins> sobre los &lt;a&gt;estilos<del> por</del> <del>defecto&lt;/a&gt;</del><ins>predeterminados&lt;/a&gt;</ins> de Flarum.
+
+#### [`core.admin.edit_group.delete_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.edit_group.delete_button%22)
+
+> Delete Group
+
+```diff
+-Borrar grupo
++Eliminar grupo
+```
+
+<del>Borrar</del><ins>Eliminar</ins> grupo
+
+#### [`core.admin.edit_group.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.edit_group.delete_confirmation%22)
+
+> Are you sure you want to delete this group? The group members will NOT be deleted.
+
+```diff
+-¿Está seguro de que desea eliminar este grupo? Los usuarios que pertenecen al grupo NO serán eliminados.
++¿Seguro que quieres eliminar este grupo? Los usuarios que pertenecen al grupo NO se eliminarán.
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> eliminar este grupo? Los usuarios que pertenecen al grupo NO <del>serán</del><ins>se</ins> <del>eliminados.</del><ins>eliminarán.</ins>
+
+#### [`core.admin.email.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.email.description%22)
+
+> Configure the driver, settings and addresses your forum will use to send email.
+
+```diff
+-Configure el controlador, la configuración y las direcciones que usará su foro para enviar correo electrónico.
++Configura el controlador, los ajustes y las direcciones que utilizará tu foro para enviar correos electrónicos.
+```
+
+<del>Configure</del><ins>Configura</ins> el controlador, <del>la</del><ins>los</ins> <del>configuración</del><ins>ajustes</ins> y las direcciones que <del>usará</del><ins>utilizará</ins> <del>su</del><ins>tu</ins> foro para enviar <del>correo</del><ins>correos</ins> <del>electrónico.</del><ins>electrónicos.</ins>
+
+#### [`core.admin.email.driver_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.email.driver_label%22)
+
+> Driver
+
+```diff
+-Driver
++Controlador
+```
+
+#### [`core.admin.email.mailgun_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.email.mailgun_heading%22)
+
+> Mailgun Settings
+
+```diff
+-Configuración Mailgun
++Ajustes de Mailgun
+```
+
+<del>Configuración</del><ins>Ajustes de</ins> Mailgun
+
+#### [`core.admin.email.not_sending_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.email.not_sending_message%22)
+
+> Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
+
+```diff
+-Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.
++Actualmente, Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado o a errores en sus ajustes.
+```
+
+<del>Actualmente</del><ins>Actualmente,</ins> Flarum no envía correos electrónicos. Esto puede deberse al controlador <del>seleccionado,</del><ins>seleccionado</ins> o<ins> a</ins> errores en <del>su</del><ins>sus</ins> <del>configuración.</del><ins>ajustes.</ins>
+
+#### [`core.admin.email.smtp_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.email.smtp_heading%22)
+
+> SMTP Settings
+
+```diff
+-Configuración SMTP
++Ajustes de SMTP
+```
+
+<del>Configuración</del><ins>Ajustes de</ins> SMTP
+
+#### [`core.admin.extension.confirm_purge`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.confirm_purge%22)
+
+> Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?
+
+```diff
+-Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?
++Al purgar, se eliminarán todas las entradas de la base de datos y los datos asociados a la extensión. Este proceso no desinstala la extensión; debes hacerlo mediante Composer. ¿Seguro que quieres continuar?
+```
+
+Al purgar, se eliminarán todas las entradas <del>en</del><ins>de</ins> la base de datos y<ins> los</ins> datos asociados a la extensión. Este proceso no <del>desinstalará</del><ins>desinstala</ins> la<del> extensión, pues</del> <del>esto</del><ins>extensión;</ins> <del>debe</del><ins>debes</ins> <del>completarse</del><ins>hacerlo</ins> mediante <del>Composer</del><ins>Composer.</ins> <del>¿Realmente</del><ins>¿Seguro</ins> <del>deseas</del><ins>que quieres</ins> continuar?
+
+#### [`core.admin.extension.enable_to_see`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.enable_to_see%22)
+
+> Enable the extension to view and change settings.
+
+```diff
+-Habilite la extensión para ver y cambiar la configuración.
++Activa la extensión para ver y modificar sus ajustes.
+```
+
+<del>Habilite</del><ins>Activa</ins> la extensión para ver y <del>cambiar</del><ins>modificar</ins> <del>la</del><ins>sus</ins> <del>configuración.</del><ins>ajustes.</ins>
+
+#### [`core.admin.extension.info_links.discuss`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.info_links.discuss%22)
+
+> Discuss
+
+```diff
+-Discutir
++Debatir
+```
+
+#### [`core.admin.extension.info_links.source`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.info_links.source%22)
+
+> Source
+
+```diff
+-Fuente
++Código fuente
+```
+
+#### [`core.admin.extension.no_settings`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.no_settings%22)
+
+> This extension has no settings.
+
+```diff
+-Esta extensión no tiene configuración.
++Esta extensión no tiene ajustes.
+```
+
+Esta extensión no tiene <del>configuración.</del><ins>ajustes.</ins>
+
+#### [`core.admin.extension.open_modal`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.open_modal%22)
+
+> Open Settings
+
+```diff
+-Configuración abierta
++Abrir ajustes
+```
+
+#### [`core.admin.extension.readme.button_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.readme.button_label%22)
+
+> README
+
+```diff
+-LÉEME
++README
+```
+
+#### [`core.admin.extension.readme.no_readme`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.readme.no_readme%22)
+
+> This extension does not appear to have a README file
+
+```diff
+-Esta extensión no incluye un archivo LÉEME
++Esta extensión no incluye un archivo README
+```
+
+Esta extensión no incluye un archivo <del>LÉEME</del><ins>README</ins>
+
+#### [`core.admin.loading.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.loading.title%22)
+
+> Please Wait...
+
+```diff
+-Por favor, espere...
++Espera, por favor...
+```
+
+#### [`core.admin.nav.basics_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.basics_button%22)
+
+> =&gt; core.admin.basics.title
+
+```diff
+-Básicos
++Ajustes básicos
+```
+
+#### [`core.admin.nav.categories.core`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.categories.core%22)
+
+> Core Configuration
+
+```diff
+-Configuración básica
++Ajustes básicos
+```
+
+#### [`core.admin.nav.categories.feature`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.categories.feature%22)
+
+> Features
+
+```diff
+-Características
++Funciones
+```
+
+#### [`core.admin.nav.categories.other`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.categories.other%22)
+
+> Other Extensions
+
+```diff
+-Otras Extensiones
++Otras extensiones
+```
+
+Otras <del>Extensiones</del><ins>extensiones</ins>
+
+#### [`core.admin.nav.email_title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.email_title%22)
+
+> =&gt; core.admin.email.description
+
+```diff
+-Configure el driver, la configuración y las direcciones que usará su foro para enviar correo electrónico.
++=> core.admin.email.description
+```
+
+#### [`core.admin.nav.permissions_title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.nav.permissions_title%22)
+
+> =&gt; core.admin.permissions.description
+
+```diff
+-Configure quién puede ver y hacer qué.
++=> core.admin.permissions.description
+```
+
+#### [`core.admin.permissions.delete_posts_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.permissions.delete_posts_label%22)
+
+> Delete posts
+
+```diff
+-Borrar publicaciones
++Eliminar publicaciones
+```
+
+<del>Borrar</del><ins>Eliminar</ins> publicaciones
+
+#### [`core.admin.permissions.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.permissions.description%22)
+
+> Configure who can see and do what.
+
+```diff
+-Configurar quién puede ver y hacer qué.
++Configura qué puede ver y hacer cada usuario.
+```
+
+<del>Configurar</del><ins>Configura</ins> <del>quién</del><ins>qué</ins> puede ver y hacer <del>qué.</del><ins>cada usuario.</ins>
+
+#### [`core.admin.permissions.moderate_heading`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.permissions.moderate_heading%22)
+
+> Moderate
+
+```diff
+-Moderado
++Moderar
+```
+
+#### [`core.admin.permissions.rename_discussions_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.permissions.rename_discussions_label%22)
+
+> Rename discussions
+
+```diff
+-Cambiar el título a discusiones
++Cambiar el título de las discusiones
+```
+
+Cambiar el título <del>a</del><ins>de las</ins> discusiones
+
+#### [`core.admin.permissions.view_last_seen_at_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.permissions.view_last_seen_at_label%22)
+
+> Always view user last seen time
+
+```diff
+-Ver a qué hora fue la última conexión de un usuario
++Ver la última conexión de un usuario
+```
+
+Ver <del>a qué hora fue </del>la última conexión de un usuario
+
+#### [`core.admin.upload_image.upload_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.upload_image.upload_button%22)
+
+> Choose an Image...
+
+```diff
+-Elija una imagen...
++Elige una imagen...
+```
+
+<del>Elija</del><ins>Elige</ins> una imagen...
+
+#### [`core.admin.users.create_user_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.users.create_user_button%22)
+
+> New User
+
+```diff
+-Nuevo Usuario
++Nuevo usuario
+```
+
+Nuevo <del>Usuario</del><ins>usuario</ins>
+
+#### [`core.admin.users.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.users.description%22)
+
+> A paginated list of all users on your forum.
+
+```diff
+-Una lista paginada de todos los usuarios de su foro.
++Lista paginada de todos los usuarios de tu foro.
+```
+
+<del>Una lista</del><ins>Lista</ins> paginada de todos los usuarios de <del>su</del><ins>tu</ins> foro.
+
+#### [`core.admin.users.grid.columns.join_time.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.users.grid.columns.join_time.title%22)
+
+> Joined
+
+```diff
+-Se unió
++Fecha de registro
+```
+
+#### [`core.admin.users.grid.invalid_column_content`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.users.grid.invalid_column_content%22)
+
+> Invalid
+
+```diff
+-Inválido
++No válido
+```
+
+#### [`core.api.invalid_filter_type.must_not_be_multidimensional_array_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.api.invalid_filter_type.must_not_be_multidimensional_array_message%22)
+
+> The {filter} filter must not be a multidimensional array.
+
+```diff
+-El filtro {filter} no debe ser una array multidimensional.
++El filtro {filter} no debe ser un array multidimensional.
+```
+
+El filtro {filter} no debe ser <del>una</del><ins>un</ins> array multidimensional.
+
+#### [`core.email.activate_account.subject`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.email.activate_account.subject%22)
+
+> Activate Your New Account
+
+```diff
+-Active su cuenta de usuario
++Activa tu cuenta de usuario
+```
+
+<del>Active</del><ins>Activa</ins> <del>su</del><ins>tu</ins> cuenta de usuario
+
+#### [`core.email.confirm_email.subject`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.email.confirm_email.subject%22)
+
+> Confirm Your New Email Address
+
+```diff
+-Confirme su correo electrónico
++Confirma tu correo electrónico
+```
+
+<del>Confirme</del><ins>Confirma</ins> <del>su</del><ins>tu</ins> correo electrónico
+
+#### [`core.forum.change_password.text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.change_password.text%22)
+
+> Click the button below and check your email for a link to change your password.
+
+```diff
+-Haga click en el botón de abajo y recibirá por correo electrónico un enlace para restablecer su contraseña.
++Pulsa el botón de abajo para recibir por correo electrónico un enlace para restablecer tu contraseña.
+```
+
+<del>Haga click en</del><ins>Pulsa</ins> el botón de abajo <del>y</del><ins>para</ins> <del>recibirá</del><ins>recibir</ins> por correo electrónico un enlace para restablecer <del>su</del><ins>tu</ins> contraseña.
+
+#### [`core.forum.composer.preview_tooltip`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer.preview_tooltip%22)
+
+> Preview
+
+```diff
+-Vista preliminar
++Vista previa
+```
+
+Vista <del>preliminar</del><ins>previa</ins>
+
+#### [`core.forum.composer_discussion.body_placeholder`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_discussion.body_placeholder%22)
+
+> Write a Post...
+
+```diff
+-Escriba una publicación...
++Escribe una publicación...
+```
+
+<del>Escriba</del><ins>Escribe</ins> una publicación...
+
+#### [`core.forum.composer_discussion.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_discussion.discard_confirmation%22)
+
+> You have not posted your discussion. Do you wish to discard it?
+
+```diff
+-Aún no ha publicado su discusión. ¿Está seguro de que desea descartarla?
++Aún no has publicado tu discusión. ¿Seguro que quieres descartarla?
+```
+
+Aún no <del>ha</del><ins>has</ins> publicado <del>su</del><ins>tu</ins> discusión.<del> ¿Está seguro</del> <del>de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> descartarla?
+
+#### [`core.forum.composer_edit.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_edit.discard_confirmation%22)
+
+> You have not saved your changes. Do you wish to discard them?
+
+```diff
+-Aún no ha publicado sus cambios. ¿Está seguro de que desea descartarlos?
++Aún no has publicado tus cambios. ¿Seguro que quieres descartarlos?
+```
+
+Aún no <del>ha</del><ins>has</ins> publicado <del>sus</del><ins>tus</ins> cambios.<del> ¿Está seguro</del> <del>de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> descartarlos?
+
+#### [`core.forum.composer_edit.edited_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_edit.edited_message%22)
+
+> Your edit was made.
+
+```diff
+-Se realizó su edición.
++Se han guardado tus cambios.
+```
+
+Se <del>realizó</del><ins>han</ins> <del>su</del><ins>guardado</ins> <del>edición.</del><ins>tus cambios.</ins>
+
+#### [`core.forum.composer_edit.post_link`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_edit.post_link%22)
+
+> Post #{number} in {discussion}
+
+```diff
+-Publicación n.º {number} en '{discussion}'
++Publicación #{number} en {discussion}
+```
+
+Publicación <del>n.º {number}</del><ins>#{number}</ins> en <del>'{discussion}'</del><ins>{discussion}</ins>
+
+#### [`core.forum.composer_reply.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_reply.discard_confirmation%22)
+
+> You have not posted your reply. Do you wish to discard it?
+
+```diff
+-Aún no ha publicado su respuesta. ¿Está seguro de que desea descartarla?
++Aún no has publicado tu respuesta. ¿Seguro que quieres descartarla?
+```
+
+Aún no <del>ha</del><ins>has</ins> publicado <del>su</del><ins>tu</ins> respuesta.<del> ¿Está seguro</del> <del>de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> descartarla?
+
+#### [`core.forum.composer_reply.posted_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_reply.posted_message%22)
+
+> Your reply was posted.
+
+```diff
+-Su respuesta fue publicada.
++Tu respuesta se ha publicado.
+```
+
+<del>Su</del><ins>Tu</ins> respuesta <del>fue</del><ins>se</ins> <del>publicada.</del><ins>ha publicado.</ins>
+
+#### [`core.forum.discussion_controls.cannot_reply_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.discussion_controls.cannot_reply_button%22)
+
+> Can't Reply
+
+```diff
+-No puede responder
++No puedes responder
+```
+
+No <del>puede</del><ins>puedes</ins> responder
+
+#### [`core.forum.discussion_controls.cannot_reply_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.discussion_controls.cannot_reply_text%22)
+
+> You don't have permission to reply to this discussion.
+
+```diff
+-Usted no tiene permiso para responder en esta discusión.
++No tienes permiso para responder en esta discusión.
+```
+
+<del>Usted no</del><ins>No</ins> <del>tiene</del><ins>tienes</ins> permiso para responder en esta discusión.
+
+#### [`core.forum.discussion_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.discussion_controls.delete_confirmation%22)
+
+> Are you sure you want to delete this discussion?
+
+```diff
+-¿Está seguro de que desea eliminar esta discusión?
++¿Seguro que quieres eliminar esta discusión?
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> eliminar esta discusión?
+
+#### [`core.forum.discussion_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.discussion_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle discussion actions dropdown menu
+
+```diff
+-Alternar el menú desplegable de acciones de discusión
++Mostrar u ocultar el menú de acciones de la discusión
+```
+
+<del>Alternar</del><ins>Mostrar u ocultar</ins> el menú<del> desplegable</del> de acciones de<ins> la</ins> discusión
+
+#### [`core.forum.discussion_list.unread_replies_a11y_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.discussion_list.unread_replies_a11y_label%22)
+
+> {count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read.
+
+```diff
+-{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).
++{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {la respuesta como leída} other {las respuestas como leídas}}.
+```
+
+{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one <del>{respuesta}</del><ins>{la respuesta como leída}</ins> other <del>{respuestas}}</del><ins>{las respuestas</ins> como <del>leída(s).</del><ins>leídas}}.</ins>
+
+#### [`core.forum.forgot_password.email_sent_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.forgot_password.email_sent_message%22)
+
+> If the email you entered is registered with this site, we'll send you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
+
+```diff
+-Le hemos enviado un correo electrónico que contiene un enlace para restablecer su contraseña. Si no aparece pronto, por favor, compruebe la carpeta de correo no deseado (spam).
++Te hemos enviado un correo electrónico con un enlace para restablecer tu contraseña. Si no llega pronto, comprueba la carpeta de correo no deseado (spam).
+```
+
+<del>Le</del><ins>Te</ins> hemos enviado un correo electrónico<del> que</del> <del>contiene</del><ins>con</ins> un enlace para restablecer <del>su</del><ins>tu</ins> contraseña. Si no <del>aparece</del><ins>llega</ins> pronto,<del> por favor,</del> <del>compruebe</del><ins>comprueba</ins> la carpeta de correo no deseado (spam).
+
+#### [`core.forum.forgot_password.text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.forgot_password.text%22)
+
+> Enter your email address and we will send you a link to reset your password.
+
+```diff
+-Introduzca su correo electrónico y le enviaremos un enlace para restablecer su contraseña.
++Introduce tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.
+```
+
+<del>Introduzca</del><ins>Introduce</ins> <del>su</del><ins>tu</ins> correo electrónico y <del>le</del><ins>te</ins> enviaremos un enlace para restablecer <del>su</del><ins>tu</ins> contraseña.
+
+#### [`core.forum.forgot_password.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.forgot_password.title%22)
+
+> Forgot Password
+
+```diff
+-¿Olvidó su contraseña?
++Contraseña olvidada
+```
+
+#### [`core.forum.header.locale_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.header.locale_dropdown_accessible_label%22)
+
+> Change forum locale
+
+```diff
+-Cambiar la configuración regional del foro
++Cambiar el idioma del foro
+```
+
+Cambiar <del>la configuración</del><ins>el</ins> <del>regional</del><ins>idioma</ins> del foro
+
+#### [`core.forum.header.session_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.header.session_dropdown_accessible_label%22)
+
+> Toggle session options dropdown menu
+
+```diff
+-Alternar el menú desplegable de opciones de sesión
++Mostrar u ocultar el menú de opciones de sesión
+```
+
+<del>Alternar</del><ins>Mostrar u ocultar</ins> el menú<del> desplegable</del> de opciones de sesión
+
+#### [`core.forum.index.cannot_start_discussion_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.index.cannot_start_discussion_button%22)
+
+> Can't Start Discussion
+
+```diff
+-No puede crear una discusión
++No puedes crear una discusión
+```
+
+No <del>puede</del><ins>puedes</ins> crear una discusión
+
+#### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
+
+> Are you sure you want to mark all discussions as read?
+
+```diff
+-¿Está seguro de que desea marcar todas las discusiones como leídas?
++¿Seguro que quieres marcar todas las discusiones como leídas?
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> marcar todas las discusiones como leídas?
+
+#### [`core.forum.index.toggle_sidenav_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.index.toggle_sidenav_dropdown_accessible_label%22)
+
+> Toggle navigation dropdown menu
+
+```diff
+-Alternar el menú desplegable de navegación
++Mostrar u ocultar el menú de navegación
+```
+
+<del>Alternar</del><ins>Mostrar u ocultar</ins> el menú<del> desplegable</del> de navegación
+
+#### [`core.forum.log_in.forgot_password_link`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.log_in.forgot_password_link%22)
+
+> Forgot password?
+
+```diff
+-¿Olvidó su contraseña?
++¿Has olvidado tu contraseña?
+```
+
+<del>¿Olvidó</del><ins>¿Has</ins> <del>su</del><ins>olvidado tu</ins> contraseña?
+
+#### [`core.forum.log_in.sign_up_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.log_in.sign_up_text%22)
+
+> Don't have an account? &lt;a&gt;Sign Up&lt;/a&gt;
+
+```diff
+-¿Aún no tiene una cuenta? <a>¡Regístrese!</a>
++¿Aún no tienes una cuenta? <a>¡Regístrate!</a>
+```
+
+¿Aún no <del>tiene</del><ins>tienes</ins> una cuenta? <del>&lt;a&gt;¡Regístrese!&lt;/a&gt;</del><ins>&lt;a&gt;¡Regístrate!&lt;/a&gt;</ins>
+
+#### [`core.forum.notifications.delete_all_tooltip`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.notifications.delete_all_tooltip%22)
+
+> Delete all notifications
+
+```diff
+-Eliminar notificaciones
++Eliminar todas las notificaciones
+```
+
+Eliminar <ins>todas las </ins>notificaciones
+
+#### [`core.forum.notifications.mark_as_read_tooltip`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.notifications.mark_as_read_tooltip%22)
+
+> Mark as Read
+
+```diff
+-Marcar como leído
++Marcar como leída
+```
+
+Marcar como <del>leído</del><ins>leída</ins>
+
+#### [`core.forum.post_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.post_controls.delete_confirmation%22)
+
+> Are you sure you want to delete this post forever? This action cannot be undone.
+
+```diff
+-¿Está seguro de que desea eliminar este mensaje para siempre? Esta acción no se puede deshacer.
++¿Seguro que quieres eliminar esta publicación para siempre? Esta acción no se puede deshacer.
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> eliminar <del>este</del><ins>esta</ins> <del>mensaje</del><ins>publicación</ins> para siempre? Esta acción no se puede deshacer.
+
+#### [`core.forum.post_controls.hide_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.post_controls.hide_confirmation%22)
+
+> Are you sure you want to delete this post?
+
+```diff
+-¿Está seguro de que desea eliminar este mensaje?
++¿Seguro que quieres eliminar esta publicación?
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>desea</del><ins>quieres</ins> eliminar <del>este</del><ins>esta</ins> <del>mensaje?</del><ins>publicación?</ins>
+
+#### [`core.forum.post_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.post_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle post controls dropdown menu
+
+```diff
+-Alternar el menú desplegable de los controles del post
++Mostrar u ocultar el menú de acciones de la publicación
+```
+
+<del>Alternar</del><ins>Mostrar u ocultar</ins> el menú<del> desplegable</del> de <del>los</del><ins>acciones</ins> <del>controles</del><ins>de</ins> <del>del</del><ins>la</ins> <del>post</del><ins>publicación</ins>
+
+#### [`core.forum.post_stream.discussion_renamed_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.post_stream.discussion_renamed_text%22)
+
+> {username} changed the title to {new} {time}.
+
+```diff
+-{username} cambió el título a {new}.
++{username} cambió el título a {new} {time}.
+```
+
+{username} cambió el título a <del>{new}.</del><ins>{new} {time}.</ins>
+
+#### [`core.forum.security.cannot_terminate_current_session`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.cannot_terminate_current_session%22)
+
+> Cannot terminate the current active session. Log out instead.
+
+```diff
+-No se puede terminar la sesión activa actual. Cerrar sesión en su lugar.
++No puedes finalizar la sesión activa actual. Utiliza la opción de cerrar sesión.
+```
+
+No <del>se puede</del><ins>puedes</ins> <del>terminar</del><ins>finalizar</ins> la sesión activa actual. <del>Cerrar</del><ins>Utiliza</ins> <del>sesión</del><ins>la</ins> <del>en</del><ins>opción</ins> <del>su</del><ins>de</ins> <del>lugar.</del><ins>cerrar sesión.</ins>
+
+#### [`core.forum.security.global_logout.help_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.global_logout.help_text%22)
+
+> Clears current cookie session, terminates all sessions, revokes developer tokens, and invalidates any email confirmation or password reset emails.
+
+```diff
+-Borra la sesión actual de cookies, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida cualquier correo electrónico de confirmación o de restablecimiento de contraseña.
++Elimina las cookies de la sesión actual, finaliza todas las sesiones, revoca los tokens de desarrollador e invalida los correos electrónicos de confirmación o de restablecimiento de contraseña.
+```
+
+<del>Borra la</del><ins>Elimina</ins> <del>sesión</del><ins>las</ins> <del>actual</del><ins>cookies</ins> de <del>cookies,</del><ins>la sesión actual,</ins> finaliza todas las sesiones, revoca los tokens de desarrollador e invalida <del>cualquier</del><ins>los</ins> <del>correo</del><ins>correos</ins> <del>electrónico</del><ins>electrónicos</ins> de confirmación o de restablecimiento de contraseña.
+
+#### [`core.forum.security.session_terminated`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.session_terminated%22)
+
+> {count, plural, one {Session terminated} other {# Sessions terminated}}.
+
+```diff
+-{count, plural, one {Sesión terminada} other {# Sesiones terminadas}}.
++{count, plural, one {Sesión finalizada} other {# sesiones finalizadas}}.
+```
+
+{count, plural, one {Sesión <del>terminada}</del><ins>finalizada}</ins> other {# <del>Sesiones</del><ins>sesiones</ins> <del>terminadas}}.</del><ins>finalizadas}}.</ins>
+
+#### [`core.forum.security.session_termination_failed`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.session_termination_failed%22)
+
+> An error occurred while terminating your sessions.
+
+```diff
+-Ocurrió un error al finalizar sus sesiones.
++Se ha producido un error al finalizar tus sesiones.
+```
+
+<del>Ocurrió</del><ins>Se ha producido</ins> un error al finalizar <del>sus</del><ins>tus</ins> sesiones.
+
+#### [`core.forum.security.terminate_all_other_sessions`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.terminate_all_other_sessions%22)
+
+> Terminate all other sessions
+
+```diff
+-Terminar todas las demás sesiones
++Finalizar todas las demás sesiones
+```
+
+<del>Terminar</del><ins>Finalizar</ins> todas las demás sesiones
+
+#### [`core.forum.security.terminate_session`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.security.terminate_session%22)
+
+> Terminate
+
+```diff
+-Terminar
++Finalizar
+```
+
+#### [`core.forum.settings.notification_checkbox_a11y_label_template`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.settings.notification_checkbox_a11y_label_template%22)
+
+> Receive "{description}" notifications via {method}
+
+```diff
+-Reciba notificaciones de "{description}" a través de {method}
++Recibir notificaciones de "{description}" a través de {method}
+```
+
+<del>Reciba</del><ins>Recibir</ins> notificaciones de "{description}" a través de {method}
+
+#### [`core.forum.settings.notify_discussion_renamed_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.settings.notify_discussion_renamed_label%22)
+
+> Someone renames a discussion I started
+
+```diff
+-Alguien cambió el título de una discusión que usted creó
++Alguien ha cambiado el título de una discusión que creaste
+```
+
+Alguien <del>cambió</del><ins>ha cambiado</ins> el título de una discusión que<del> usted</del> <del>creó</del><ins>creaste</ins>
+
+#### [`core.forum.settings.privacy_disclose_online_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.settings.privacy_disclose_online_label%22)
+
+> Allow others to see when I am online
+
+```diff
+-Permitir que otros vean cuándo está conectado
++Permitir que otros vean cuándo estás conectado
+```
+
+Permitir que otros vean cuándo <del>está</del><ins>estás</ins> conectado
+
+#### [`core.forum.sign_up.log_in_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.sign_up.log_in_text%22)
+
+> Already have an account? &lt;a&gt;Log In&lt;/a&gt;
+
+```diff
+-¿Ya tiene una cuenta? <a>¡Conéctese!</a>
++¿Ya tienes una cuenta? <a>¡Inicia sesión!</a>
+```
+
+¿Ya <del>tiene</del><ins>tienes</ins> una cuenta? <del>&lt;a&gt;¡Conéctese!&lt;/a&gt;</del><ins>&lt;a&gt;¡Inicia sesión!&lt;/a&gt;</ins>
+
+#### [`core.forum.sign_up.welcome_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.sign_up.welcome_text%22)
+
+> Welcome, {username}!
+
+```diff
+-¡Bienvenid@, {username}!
++¡Te damos la bienvenida, {username}!
+```
+
+<del>¡Bienvenid@,</del><ins>¡Te damos la bienvenida,</ins> {username}!
+
+#### [`core.forum.user_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.user_controls.delete_confirmation%22)
+
+> Are you sure you want to delete this user? The user's posts will NOT be deleted.
+
+```diff
+-¿Está seguro de que quiere eliminar este usuario? Las publicaciones del usuario NO serán eliminadas.
++¿Seguro que quieres eliminar este usuario? Sus publicaciones NO se eliminarán.
+```
+
+<del>¿Está seguro de</del><ins>¿Seguro</ins> que <del>quiere</del><ins>quieres</ins> eliminar este usuario? <del>Las</del><ins>Sus</ins> publicaciones<del> del usuario</del> NO <del>serán</del><ins>se</ins> <del>eliminadas.</del><ins>eliminarán.</ins>
+
+#### [`core.forum.user_controls.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.user_controls.toggle_dropdown_accessible_label%22)
+
+> Toggle user controls dropdown menu
+
+```diff
+-Activar el menú desplegable de los controles del usuario
++Mostrar u ocultar el menú de acciones del usuario
+```
+
+<del>Activar</del><ins>Mostrar u ocultar</ins> el menú<del> desplegable</del> de<del> los</del> <del>controles</del><ins>acciones</ins> del usuario
+
+#### [`core.forum.user_email_confirmation.resend_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.user_email_confirmation.resend_button%22)
+
+> Resend Confirmation Email
+
+```diff
+-Re-enviar correo electrónico de confirmación
++Reenviar correo electrónico de confirmación
+```
+
+<del>Re-enviar</del><ins>Reenviar</ins> correo electrónico de confirmación
+
+#### [`core.lib.dropdown.toggle_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.dropdown.toggle_dropdown_accessible_label%22)
+
+> Toggle dropdown menu
+
+```diff
+-Activar el menú desplegable
++Mostrar u ocultar el menú desplegable
+```
+
+<del>Activar</del><ins>Mostrar u ocultar</ins> el menú desplegable
+
+#### [`core.lib.error.generic_cross_origin_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.generic_cross_origin_message%22)
+
+> Oops! Something went wrong during a cross-origin request. Please reload the page and try again.
+
+```diff
+-¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.
++Se ha producido un error durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.
+```
+
+<del>¡Ups!</del><ins>Se</ins> <del>Algo</del><ins>ha</ins> <del>salió</del><ins>producido</ins> <del>mal</del><ins>un error</ins> durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.
+
+#### [`core.lib.error.generic_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.generic_message%22)
+
+> Oops! Something went wrong. Please reload the page and try again.
+
+```diff
+-¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.
++Se ha producido un error. Vuelve a cargar la página e inténtalo de nuevo.
+```
+
+<del>¡Caramba! Algo</del><ins>Se</ins> <del>salió</del><ins>ha</ins> <del>mal.</del><ins>producido</ins> <del>Por</del><ins>un</ins> <del>favor,</del><ins>error.</ins> <del>cargue</del><ins>Vuelve</ins> <del>de</del><ins>a</ins> <del>nuevo</del><ins>cargar</ins> la página <del>y</del><ins>e</ins> <del>vuelva</del><ins>inténtalo</ins> <del>a</del><ins>de</ins> <del>intentarlo.</del><ins>nuevo.</ins>
+
+#### [`core.lib.error.missing_dependencies_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.missing_dependencies_message%22)
+
+> Cannot enable {extension} until the following dependencies are enabled: {extensions}
+
+```diff
+-No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}
++No se puede activar {extension} hasta que se activen las siguientes extensiones de las que depende: {extensions}
+```
+
+No se puede activar {extension} hasta que se activen las siguientes extensiones <del>dependientes:</del><ins>de las que depende:</ins> {extensions}
+
+#### [`core.lib.error.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.not_found_message%22)
+
+> The requested resource was not found.
+
+```diff
+-¡Recórcholis! El recurso solicitado no fue encontrado.
++No se ha encontrado el recurso solicitado.
+```
+
+#### [`core.lib.error.payload_too_large_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.payload_too_large_message%22)
+
+> The request payload was too large.
+
+```diff
+-La solicitud de carga era demasiado grande.
++El contenido de la solicitud es demasiado grande.
+```
+
+<del>La</del><ins>El</ins> <del>solicitud</del><ins>contenido</ins> de <del>carga</del><ins>la</ins> <del>era</del><ins>solicitud es</ins> demasiado grande.
+
+#### [`core.lib.error.permission_denied_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.permission_denied_message%22)
+
+> You do not have permission to do that.
+
+```diff
+-¡Nanay de la China! No tiene permiso para hacer eso.
++No tienes permiso para hacer eso.
+```
+
+<del>¡Nanay de la China! </del>No <del>tiene</del><ins>tienes</ins> permiso para hacer eso.
+
+#### [`core.lib.error.rate_limit_exceeded_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.rate_limit_exceeded_message%22)
+
+> You're going a little too quickly. Please try again in a few seconds.
+
+```diff
+-¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.
++Vas demasiado rápido. Vuelve a intentarlo dentro de unos segundos.
+```
+
+<del>¡Pare el carro! Va usted</del><ins>Vas</ins> <del>muy</del><ins>demasiado</ins> rápido.<del> Por favor,</del> <del>vuelva</del><ins>Vuelve</ins> a intentarlo <del>en</del><ins>dentro de</ins> unos segundos.
+
+#### [`core.lib.error.render_failed_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.render_failed_message%22)
+
+> Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.
+
+```diff
+-Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información.
++Lo sentimos, se ha producido un error al mostrar este contenido. Si eres usuario, inténtalo de nuevo más tarde. Si eres administrador, consulta los archivos de registro de Flarum para obtener más información.
+```
+
+Lo sentimos, <del>ocurrió</del><ins>se ha producido</ins> un <del>problema</del><ins>error</ins> al<del> intentar</del> mostrar este contenido. Si eres<del> un</del> usuario, <del>por</del><ins>inténtalo</ins> <del>favor</del><ins>de</ins> <del>inténtalo</del><ins>nuevo</ins> más tarde. Si eres administrador, <del>revisa</del><ins>consulta</ins> los <del>registros</del><ins>archivos de registro</ins> de Flarum para obtener <del>mayor</del><ins>más</ins> información.
+
+#### [`core.lib.nav.drawer_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.nav.drawer_button%22)
+
+> Open Navigation Drawer
+
+```diff
+-Abrir el cuadro de navegación
++Abrir el panel de navegación
+```
+
+Abrir el <del>cuadro</del><ins>panel</ins> de navegación
+
+#### [`core.lib.username.deleted_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.username.deleted_text%22)
+
+> \[deleted\]
+
+```diff
+-[Borrado]
++[Eliminado]
+```
+
+#### [`core.ref.all_discussions`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.all_discussions%22)
+
+> All Discussions
+
+```diff
+-Discusiones
++Todas las discusiones
+```
+
+#### [`core.ref.confirm_email`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.confirm_email%22)
+
+> Confirm Email
+
+```diff
+-Confirmar correo
++Confirmar correo electrónico
+```
+
+Confirmar correo<ins> electrónico</ins>
+
+#### [`core.ref.confirmation_email_sent`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.confirmation_email_sent%22)
+
+> We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.
+
+```diff
+-Le hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, compruebe la carpeta de correo no deseado (spam).
++Te hemos enviado un correo electrónico de confirmación a {email}. Si no llega pronto, comprueba la carpeta de correo no deseado (spam).
+```
+
+<del>Le</del><ins>Te</ins> hemos enviado un correo electrónico de confirmación a {email}. Si no <del>aparece</del><ins>llega</ins> pronto,<del> por favor,</del> <del>compruebe</del><ins>comprueba</ins> la carpeta de correo no deseado (spam).
+
+#### [`core.ref.custom_footer_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.custom_footer_text%22)
+
+> Add HTML to be displayed at the very bottom of the page.
+
+```diff
+-Añade código HTML para que este sea mostrado en la parte más baja de la página.
++Añade código HTML para que se muestre al final de la página.
+```
+
+Añade código HTML para que <del>este sea mostrado en la</del><ins>se</ins> <del>parte</del><ins>muestre</ins> <del>más</del><ins>al</ins> <del>baja</del><ins>final</ins> de la página.
+
+#### [`core.ref.custom_footer_title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.custom_footer_title%22)
+
+> Edit Custom Footer
+
+```diff
+-Editar el pié de página personalizado
++Editar el pie de página personalizado
+```
+
+Editar el <del>pié</del><ins>pie</ins> de página personalizado
+
+#### [`core.ref.custom_header_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.custom_header_text%22)
+
+> Add HTML to be displayed at the very top of the page, above Flarum's own header.
+
+```diff
+-Añade código HTML para que este sea mostrado en la parte más alta de la página, sobre la cabecera de Flarum.
++Añade código HTML para que se muestre al principio de la página, por encima de la cabecera de Flarum.
+```
+
+Añade código HTML para que <del>este sea mostrado en la</del><ins>se</ins> <del>parte</del><ins>muestre</ins> <del>más</del><ins>al</ins> <del>alta</del><ins>principio</ins> de la página, <del>sobre</del><ins>por encima de</ins> la cabecera de Flarum.
+
+#### [`core.ref.generic_confirmation_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.generic_confirmation_message%22)
+
+> Are you sure you want to proceed? This action cannot be undone.
+
+```diff
+-¿Estás seguro que deseas continuar? Esta acción no se puede deshacer.
++¿Seguro que quieres continuar? Esta acción no se puede deshacer.
+```
+
+<del>¿Estás seguro</del><ins>¿Seguro</ins> que <del>deseas</del><ins>quieres</ins> continuar? Esta acción no se puede deshacer.
+
+#### [`core.ref.log_in`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.log_in%22)
+
+> Log In
+
+```diff
+-Acceder
++Iniciar sesión
+```
+
+#### [`core.ref.log_out`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.log_out%22)
+
+> Log Out
+
+```diff
+-Desconectarse
++Cerrar sesión
+```
+
+#### [`core.ref.reset_your_password`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.reset_your_password%22)
+
+> Reset Your Password
+
+```diff
+-Restableza su contraseña
++Restablece tu contraseña
+```
+
+<del>Restableza</del><ins>Restablece</ins> <del>su</del><ins>tu</ins> contraseña
+
+#### [`core.ref.settings`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.settings%22)
+
+> Settings
+
+```diff
+-Configuración
++Ajustes
+```
+
+#### [`core.ref.sign_up`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.sign_up%22)
+
+> Sign Up
+
+```diff
+-Regístrese
++Registrarse
+```
+
+#### [`core.ref.view`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.view%22)
+
+> View
+
+```diff
+-Vista
++Ver
+```
+
+#### [`core.ref.write_a_reply`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.ref.write_a_reply%22)
+
+> Write a Reply...
+
+```diff
+-Escriba una respuesta...
++Escribe una respuesta...
+```
+
+<del>Escriba</del><ins>Escribe</ins> una respuesta...
+
+#### [`core.views.admin.extensions.name`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.admin.extensions.name%22)
+
+> Extension Name
+
+```diff
+-Nombre de la Extensión
++Nombre de la extensión
+```
+
+Nombre de la <del>Extensión</del><ins>extensión</ins>
+
+#### [`core.views.admin.extensions.package_name`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.admin.extensions.package_name%22)
+
+> Package Name
+
+```diff
+-Nombre del Paquete
++Nombre del paquete
+```
+
+Nombre del <del>Paquete</del><ins>paquete</ins>
+
+#### [`core.views.admin.info.caption`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.admin.info.caption%22)
+
+> Application Info
+
+```diff
+-Información de la Aplicación
++Información de la aplicación
+```
+
+Información de la <del>Aplicación</del><ins>aplicación</ins>
+
+#### [`core.views.confirm_email.text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.confirm_email.text%22)
+
+> Click the button below to confirm your account's email.
+
+```diff
+-Presiona el botón a continuación para confirmar el correo de tu cuenta.
++Pulsa el botón de abajo para confirmar el correo electrónico de tu cuenta.
+```
+
+<del>Presiona</del><ins>Pulsa</ins> el botón <del>a</del><ins>de</ins> <del>continuación</del><ins>abajo</ins> para confirmar el correo<ins> electrónico</ins> de tu cuenta.
+
+#### [`core.views.content.javascript_disabled_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.content.javascript_disabled_message%22)
+
+> This site is best viewed in a modern browser with JavaScript enabled.
+
+```diff
+-Este sitio web se vé mejor en un navegador moderno con JavaScript activado.
++Este sitio web se ve mejor en un navegador moderno con JavaScript activado.
+```
+
+Este sitio web se <del>vé</del><ins>ve</ins> mejor en un navegador moderno con JavaScript activado.
+
+#### [`core.views.content.load_error_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.content.load_error_message%22)
+
+> Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
+
+```diff
+-Algo salió mal cuando se intentó cargar la versión completa de este sitio web.
++Se ha producido un error al intentar cargar la versión completa de este sitio web.
+```
+
+<del>Algo</del><ins>Se</ins> <del>salió</del><ins>ha</ins> <del>mal</del><ins>producido</ins> <del>cuando</del><ins>un</ins> <del>se</del><ins>error</ins> <del>intentó</del><ins>al intentar</ins> cargar la versión completa de este sitio web.
+
+#### [`core.views.content.loading_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.content.loading_text%22)
+
+> =&gt; core.ref.loading
+
+```diff
+-Cargando...
++=> core.ref.loading
+```
+
+#### [`core.views.error.csrf_token_mismatch`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.csrf_token_mismatch%22)
+
+> You have been inactive for too long.
+
+```diff
+-Ha estado inactivo durante demasiado tiempo.
++Has estado inactivo durante demasiado tiempo.
+```
+
+<del>Ha</del><ins>Has</ins> estado inactivo durante demasiado tiempo.
+
+#### [`core.views.error.csrf_token_mismatch_return_link`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.csrf_token_mismatch_return_link%22)
+
+> Go back, to try again
+
+```diff
+-Vuelva atrás para intentarlo de nuevo
++Vuelve atrás para intentarlo de nuevo
+```
+
+<del>Vuelva</del><ins>Vuelve</ins> atrás para intentarlo de nuevo
+
+#### [`core.views.error.not_authenticated`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.not_authenticated%22)
+
+> You do not have permission to access this page. Try again after logging in.
+
+```diff
+-Usted no tiene permiso para acceder a esta página. Inténtelo de nuevo después de iniciar sesión.
++No tienes permiso para acceder a esta página. Inténtalo de nuevo después de iniciar sesión.
+```
+
+<del>Usted no</del><ins>No</ins> <del>tiene</del><ins>tienes</ins> permiso para acceder a esta página. <del>Inténtelo</del><ins>Inténtalo</ins> de nuevo después de iniciar sesión.
+
+#### [`core.views.error.not_found`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.not_found%22)
+
+> The page you requested could not be found.
+
+```diff
+-¡Recórcholis! La página solicitada no ha podido ser encontrada.
++No se ha encontrado la página solicitada.
+```
+
+<del>¡Recórcholis! La página solicitada</del><ins>No</ins> <del>no</del><ins>se</ins> ha <del>podido</del><ins>encontrado</ins> <del>ser</del><ins>la</ins> <del>encontrada.</del><ins>página solicitada.</ins>
+
+#### [`core.views.error.permission_denied`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.permission_denied%22)
+
+> You do not have permission to access this page.
+
+```diff
+-¡Nanay de la China! No tiene permiso para acceder a esta página.
++No tienes permiso para acceder a esta página.
+```
+
+<del>¡Nanay de la China! </del>No <del>tiene</del><ins>tienes</ins> permiso para acceder a esta página.
+
+#### [`core.views.error.unknown`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.unknown%22)
+
+> An error occurred while trying to load this page.
+
+```diff
+-¡Caramba! Ha ocurrido un error cuando se cargaba esta página.
++Se ha producido un error al cargar esta página.
+```
+
+<del>¡Caramba!</del><ins>Se</ins> <del>Ha</del><ins>ha</ins> <del>ocurrido</del><ins>producido</ins> un error<del> cuando</del> <del>se</del><ins>al</ins> <del>cargaba</del><ins>cargar</ins> esta página.
+
+#### [`core.views.log_out.log_out_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.log_out.log_out_confirmation%22)
+
+> Are you sure you want to log out of {forum}?
+
+```diff
+-¿Seguro que quiere desconectarse de {forum}?
++¿Seguro que quieres cerrar sesión en {forum}?
+```
+
+¿Seguro que <del>quiere</del><ins>quieres</ins> <del>desconectarse</del><ins>cerrar</ins> <del>de</del><ins>sesión en</ins> {forum}?
 
 
 ### `flarum-mentions`
@@ -211,7 +1747,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > {count, plural, one {# comment} other {# comments}}
 
 ```diff
-+{count, plural, one {# comment} other {# comments}}
++{count, plural, one {# comentario} other {# comentarios}}
 ```
 
 #### [`core.admin.announcements.description`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.announcements.description%22)
@@ -243,7 +1779,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Could not load announcements. Please try again later.
 
 ```diff
-+No se pudieron cargar los anuncios. Inténtelo de nuevo más tarde.
++No se han podido cargar los anuncios. Inténtalo de nuevo más tarde.
 ```
 
 #### [`core.admin.announcements.read_more`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.announcements.read_more%22)
@@ -267,7 +1803,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Try again
 
 ```diff
-+Probar de nuevo
++Reintentar
 ```
 
 #### [`core.admin.announcements.show`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.announcements.show%22)
@@ -307,7 +1843,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Email admins when a newly abandoned extension is detected during the weekly check
 
 ```diff
-+Enviar un correo electrónico a los administradores cuando se detecte una extensión abandonada recientemente durante la verificación semanal
++Enviar un correo electrónico a los administradores cuando la comprobación semanal detecte una nueva extensión abandonada
 ```
 
 #### [`core.admin.basics.abandoned_extensions_sync_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_button%22)
@@ -323,7 +1859,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Failed to fetch the abandoned extensions list. Please try again later.
 
 ```diff
-+No se pudo obtener la lista de extensiones abandonadas. Inténtelo de nuevo más tarde.
++No se ha podido obtener la lista de extensiones abandonadas. Inténtalo de nuevo más tarde.
 ```
 
 #### [`core.admin.basics.abandoned_extensions_sync_success`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_sync_success%22)
@@ -331,7 +1867,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Abandoned extensions list updated. {count} matching installed extension(s) found.
 
 ```diff
-+Lista de extensiones abandonadas actualizada. Se encontraron {count} extension/es instaladas en tu foro.
++Lista de extensiones abandonadas actualizada. Número de extensiones encontradas en tu foro: {count}.
 ```
 
 #### [`core.admin.basics.abandoned_extensions_text`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.basics.abandoned_extensions_text%22)
@@ -347,7 +1883,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > System Info
 
 ```diff
-+Info del sistema
++Información del sistema
 ```
 
 #### [`core.admin.dashboard.info_modal.copy_button`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.info_modal.copy_button%22)
@@ -363,7 +1899,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Failed to copy to clipboard
 
 ```diff
-+Falló la copia a portapapeles
++No se ha podido copiar al portapapeles
 ```
 
 #### [`core.admin.dashboard.info_modal.copy_success`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.info_modal.copy_success%22)
@@ -371,7 +1907,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > System information copied to clipboard
 
 ```diff
-+Info del sistema copiada en portapapeles
++Información del sistema copiada al portapapeles
 ```
 
 #### [`core.admin.dashboard.info_modal.title`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.dashboard.info_modal.title%22)
@@ -379,7 +1915,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > System Information
 
 ```diff
-+Info del sistema
++Información del sistema
 ```
 
 #### [`core.admin.extension.abandoned_no_replacement`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.abandoned_no_replacement%22)
@@ -395,7 +1931,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > This extension has been replaced by {replacement}. Consider migrating to the replacement package.
 
 ```diff
-+Esta extensión ha sido reemplazada por {replacement}. Considere migrar al paquete de reemplazo.
++Esta extensión ha sido sustituida por {replacement}. Considera migrar al paquete que la sustituye.
 ```
 
 #### [`core.admin.extension.deprecated`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.admin.extension.deprecated%22)
@@ -427,7 +1963,7 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Remove scope of {scope}
 
 ```diff
-+Retirar alcance de {scope}
++Eliminar el ámbito de {scope}
 ```
 
 #### [`core.email.abandoned_extensions.subject`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.email.abandoned_extensions.subject%22)
@@ -435,7 +1971,31 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 > Action required: abandoned extension(s) detected
 
 ```diff
-+Acción requerida: se detectó extension/es abandonada/s
++Acción necesaria: se han detectado extensiones abandonadas
+```
+
+#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.connection_restored_message%22)
+
+> Your connection has been restored.
+
+```diff
++Se ha restablecido tu conexión.
+```
+
+#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.network_message%22)
+
+> Something seems to be wrong with your connection. Please check your network and try again.
+
+```diff
++Parece que hay un problema con tu conexión. Comprueba la red y vuelve a intentarlo.
+```
+
+#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.lib.error.offline_message%22)
+
+> You appear to be offline. Please check your connection and try again.
+
+```diff
++Parece que no tienes conexión. Comprueba tu conexión y vuelve a intentarlo.
 ```
 
 #### [`core.views.error.method_not_allowed`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.views.error.method_not_allowed%22)

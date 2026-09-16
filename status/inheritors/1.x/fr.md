@@ -2,7 +2,7 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **138** are translated differently and **376** are
+sides, but do not match between them: **138** are translated differently and **433** are
 translated only in `fr`. Altogether they cover **51** components.
 
 <!-- {% raw %} -->
@@ -19,7 +19,7 @@ translated only in `fr`. Altogether they cover **51** components.
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
 | `ffans-geetest` | [1](#ffans-geetest) | 0 |
-| `ffans-threadmarks` | 0 | [44](#ffans-threadmarks-missing) |
+| `ffans-threadmarks` | 0 | [86](#ffans-threadmarks-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `fof-author-change` | [4](#fof-author-change) | 0 |
@@ -47,7 +47,7 @@ translated only in `fr`. Altogether they cover **51** components.
 | `forumaker-magicread` | [3](#forumaker-magicread) | 0 |
 | `huoxin-relative-url` | [1](#huoxin-relative-url) | 0 |
 | `huseyinfiliz-awards` | 0 | [186](#huseyinfiliz-awards-missing) |
-| `huseyinfiliz-diff` | 0 | [49](#huseyinfiliz-diff-missing) |
+| `huseyinfiliz-diff` | 0 | [64](#huseyinfiliz-diff-missing) |
 | `huseyinfiliz-notificationhub` | [1](#huseyinfiliz-notificationhub) | 0 |
 | `huseyinfiliz-sticky-title` | 0 | [29](#huseyinfiliz-sticky-title-missing) |
 | `ianm-follow-users` | [1](#ianm-follow-users) | 0 |
@@ -1930,12 +1930,52 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +=> ffans-threadmarks.ref.type
 ```
 
+#### [`ffans-threadmarks.forum.directory.all_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.all_filter%22)
+
+> All
+
+```diff
++Tous
+```
+
+#### [`ffans-threadmarks.forum.directory.close_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.close_a11y_label%22)
+
+> Close threadmark directory
+
+```diff
++Fermer le répertoire des signets
+```
+
+#### [`ffans-threadmarks.forum.directory.discussion_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.discussion_filter%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
 #### [`ffans-threadmarks.forum.directory.hide_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.hide_button%22)
 
 > Threadmarks
 
 ```diff
 +Signets
+```
+
+#### [`ffans-threadmarks.forum.directory.personal_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.personal_filter%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.directory.scope_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.scope_a11y_label%22)
+
+> Filter threadmarks by scope
+
+```diff
++Filtrer les signets par portée
 ```
 
 #### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
@@ -1952,6 +1992,22 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_all_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button%22)
+
+> Show All Posts
+
+```diff
++Afficher tous les messages
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button%22)
+
+> Only Threadmarks
+
+```diff
++Signets uniquement
 ```
 
 #### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
@@ -2034,6 +2090,14 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +=> ffans-threadmarks.ref.save
 ```
 
+#### [`ffans-threadmarks.forum.manage_modal.scope_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.scope_a11y_label%22)
+
+> Threadmark scope
+
+```diff
++Portée du signet
+```
+
 #### [`ffans-threadmarks.forum.manage_modal.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.title%22)
 
 > Threadmark · #{number}
@@ -2066,6 +2130,94 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Aucun signet à gérer.
 ```
 
+#### [`ffans-threadmarks.forum.post_controls.manage_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.post_controls.manage_button%22)
+
+> Manage Threadmark
+
+```diff
++Gérer le signet
+```
+
+#### [`ffans-threadmarks.forum.scrubber.cluster_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.cluster_a11y_label%22)
+
+> {count, plural, one {# threadmark} other {# threadmarks}}
+
+```diff
++{count, plural, one {# signet} other {# signets}}
+```
+
+#### [`ffans-threadmarks.forum.scrubber.open_directory_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.open_directory_a11y_label%22)
+
+> Open the full threadmark directory
+
+```diff
++Ouvrir le répertoire complet des signets
+```
+
+#### [`ffans-threadmarks.forum.scrubber.threadmark_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.threadmark_a11y_label%22)
+
+> Threadmark on post #{number}
+
+```diff
++Signet sur le message #{number}
+```
+
+#### [`ffans-threadmarks.forum.threadmark.deleted_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.deleted_text%22)
+
+> This content has been deleted.
+
+```diff
++Ce contenu a été supprimé.
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_discussion_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_discussion_a11y_label%22)
+
+> Edit discussion threadmark on post #{number}
+
+```diff
++Modifier le signet de discussion sur le message #{number}
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_discussion_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_discussion_tooltip%22)
+
+> Edit discussion threadmark
+
+```diff
++Modifier le signet de discussion
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_personal_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_personal_a11y_label%22)
+
+> Edit personal threadmark on post #{number}
+
+```diff
++Modifier le signet personnel sur le message #{number}
+```
+
+#### [`ffans-threadmarks.forum.threadmark.edit_personal_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.edit_personal_tooltip%22)
+
+> Edit personal threadmark
+
+```diff
++Modifier le signet personnel
+```
+
+#### [`ffans-threadmarks.forum.threadmark.mine_badge`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.mine_badge%22)
+
+> =&gt; ffans-threadmarks.ref.mine
+
+```diff
++=> ffans-threadmarks.ref.mine
+```
+
+#### [`ffans-threadmarks.forum.threadmark.personal_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.threadmark.personal_tooltip%22)
+
+> Personal threadmark, visible only to you
+
+```diff
++Signet personnel, visible uniquement par vous
+```
+
 #### [`ffans-threadmarks.forum.type_labels.chapter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.chapter%22)
 
 > Chapter
@@ -2082,6 +2234,14 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Signet
 ```
 
+#### [`ffans-threadmarks.forum.type_labels.highlight`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.highlight%22)
+
+> Highlight
+
+```diff
++À la une
+```
+
 #### [`ffans-threadmarks.forum.type_labels.notice`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.notice%22)
 
 > Notice
@@ -2090,12 +2250,188 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Annonce
 ```
 
+#### [`ffans-threadmarks.forum.type_labels.progress`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.progress%22)
+
+> Progress
+
+```diff
++Progrès
+```
+
 #### [`ffans-threadmarks.forum.type_labels.update`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.type_labels.update%22)
 
 > Update
 
 ```diff
 +Mise à jour
+```
+
+#### [`ffans-threadmarks.lib.gdpr.anonymize_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.anonymize_description%22)
+
+> Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks.
+
+```diff
++Supprime vos signets personnels et efface vos identifiants d'auteur/éditeur des signets de discussion.
+```
+
+#### [`ffans-threadmarks.lib.gdpr.delete_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.delete_description%22)
+
+> Deletes your personal threadmarks and clears your creator/editor IDs from discussion threadmarks.
+
+```diff
++Supprime vos signets personnels et efface vos identifiants d'auteur/éditeur des signets de discussion.
+```
+
+#### [`ffans-threadmarks.lib.gdpr.export_description`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.gdpr.export_description%22)
+
+> Exports all your personal threadmarks and discussion threadmarks you created or last edited, without post content.
+
+```diff
++Exporte tous vos signets personnels et vos signets de discussion que vous avez créés ou modifiés en dernier, sans le contenu des messages.
+```
+
+#### [`ffans-threadmarks.lib.type_form.color_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.color_label%22)
+
+> =&gt; core.ref.color
+
+```diff
++=> core.ref.color
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_label%22)
+
+> =&gt; core.ref.icon
+
+```diff
++=> core.ref.icon
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_placeholder%22)
+
+> fa-solid fa-book
+
+```diff
++fa-solid fa-book
+```
+
+#### [`ffans-threadmarks.lib.type_form.key_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.key_label%22)
+
+> =&gt; ffans-threadmarks.ref.key
+
+```diff
++=> ffans-threadmarks.ref.key
+```
+
+#### [`ffans-threadmarks.lib.type_form.name_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.name_label%22)
+
+> Name
+
+```diff
++Nom
+```
+
+#### [`ffans-threadmarks.lib.validation.disabled_type`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.disabled_type%22)
+
+> This threadmark type is disabled. Choose another type.
+
+```diff
++Ce type de signet est désactivé. Choisissez un autre type.
+```
+
+#### [`ffans-threadmarks.lib.validation.duplicate_discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.duplicate_discussion%22)
+
+> This post already has a discussion threadmark. Edit the existing one instead.
+
+```diff
++Ce message comporte déjà un signet de discussion. Modifiez plutôt celui qui existe déjà.
+```
+
+#### [`ffans-threadmarks.lib.validation.duplicate_personal`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.duplicate_personal%22)
+
+> You already have a personal threadmark on this post. Edit the existing one instead.
+
+```diff
++Vous avez déjà un signet personnel sur ce message. Modifiez plutôt celui qui existe déjà.
+```
+
+#### [`ffans-threadmarks.lib.validation.first_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.first_post%22)
+
+> Threadmarks cannot be added to the first post.
+
+```diff
++Les signets ne peuvent pas être ajoutés au premier message.
+```
+
+#### [`ffans-threadmarks.lib.validation.invalid_discussion_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.invalid_discussion_post%22)
+
+> Discussion threadmarks can only target comment posts.
+
+```diff
++Les signets de discussion ne peuvent concerner que les commentaires.
+```
+
+#### [`ffans-threadmarks.lib.validation.invalid_personal_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.invalid_personal_post%22)
+
+> Personal threadmarks can only target comment posts.
+
+```diff
++Les signets personnels ne peuvent concerner que les commentaires.
+```
+
+#### [`ffans-threadmarks.lib.validation.type_in_use`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.type_in_use%22)
+
+> This type is in use and cannot be deleted.
+
+```diff
++Ce type est actuellement utilisé et ne peut pas être supprimé.
+```
+
+#### [`ffans-threadmarks.ref.discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.discussion%22)
+
+> Discussion
+
+```diff
++Discussion
+```
+
+#### [`ffans-threadmarks.ref.key`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.key%22)
+
+> Key
+
+```diff
++Clé
+```
+
+#### [`ffans-threadmarks.ref.mine`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.mine%22)
+
+> Mine
+
+```diff
++À moi
+```
+
+#### [`ffans-threadmarks.ref.save`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.save%22)
+
+> Save
+
+```diff
++Enregistrer
+```
+
+#### [`ffans-threadmarks.ref.threadmarks`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.threadmarks%22)
+
+> Threadmarks
+
+```diff
++Signets
+```
+
+#### [`ffans-threadmarks.ref.type`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.ref.type%22)
+
+> Type
+
+```diff
++Type
 ```
 
 
@@ -3963,12 +4299,84 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ### `huseyinfiliz-diff` (missing)
 
+#### [`huseyinfiliz-diff.admin.permissions.deleteEditHistory`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.permissions.deleteEditHistory%22)
+
+> Delete others edit history
+
+```diff
++Supprimer l'historique des modifications des autres utilisateurs
+```
+
+#### [`huseyinfiliz-diff.admin.permissions.rollbackEditHistory`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.permissions.rollbackEditHistory%22)
+
+> Rollback others edit history
+
+```diff
++Restaurer l'historique des modifications des autres utilisateurs
+```
+
+#### [`huseyinfiliz-diff.admin.permissions.selfDeleteEditHistory`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.permissions.selfDeleteEditHistory%22)
+
+> Delete own edit history
+
+```diff
++Supprimer l'historique de ses propres modifications
+```
+
+#### [`huseyinfiliz-diff.admin.permissions.selfRollbackEditHistory`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.permissions.selfRollbackEditHistory%22)
+
+> Rollback own edit history
+
+```diff
++Restaurer l'historique de ses propres modifications
+```
+
+#### [`huseyinfiliz-diff.admin.permissions.viewEditHistory`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.permissions.viewEditHistory%22)
+
+> View edit history
+
+```diff
++Voir l'historique des modifications
+```
+
+#### [`huseyinfiliz-diff.admin.settings.archiveInfo`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.archiveInfo%22)
+
+> Keep in mind that you can disable both options and run &lt;code&gt;php flarum diff:archive&lt;/code&gt; command to archive old revisions manually.
+
+```diff
++Gardez à l'esprit que vous pouvez désactiver ces deux options et exécuter la commande <code>php flarum diff:archive</code> pour archiver manuellement les anciennes révisions.
+```
+
+#### [`huseyinfiliz-diff.admin.settings.archiveOlds`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.archiveOlds%22)
+
+> Archive old revisions
+
+```diff
++Archiver les anciennes révisions
+```
+
+#### [`huseyinfiliz-diff.admin.settings.archiveOldsInfo`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.archiveOldsInfo%22)
+
+> If &lt;strong&gt;x ≥ A&lt;/strong&gt;, first &lt;strong&gt;y=mx+b&lt;/strong&gt; revisions for the post will be stored as merged &amp; compressed. The &lt;strong&gt;x&lt;/strong&gt; refers to post's revision count. Float values of &lt;strong&gt;y&lt;/strong&gt; will be rounded to the next lowest integer value.
+
+```diff
++Si <strong>x ≥ A</strong>, les <strong>y=mx+b</strong> premières révisions du message seront stockées sous forme fusionnée et compressée. La valeur <strong>x</strong> correspond au nombre de révisions du message. Les valeurs flottantes de <strong>y</strong> seront arrondies à l'entier inférieur le plus proche.
+```
+
 #### [`huseyinfiliz-diff.admin.settings.charLevel`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.charLevel%22)
 
 > Char-level
 
 ```diff
 +Au niveau des caractères
+```
+
+#### [`huseyinfiliz-diff.admin.settings.dbOptimisation`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.dbOptimisation%22)
+
+> Database Optimisation
+
+```diff
++Optimisation des bases de données
 ```
 
 #### [`huseyinfiliz-diff.admin.settings.detailLevel`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.detailLevel%22)
@@ -3995,12 +4403,36 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 +Conserver uniquement les révisions du message principal
 ```
 
+#### [`huseyinfiliz-diff.admin.settings.mergeThreshold`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.mergeThreshold%22)
+
+> Merge Threshold for the Combined Renderer
+
+```diff
++Seuil de fusion pour le moteur de rendu combiné
+```
+
+#### [`huseyinfiliz-diff.admin.settings.mergeThresholdHelp`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.mergeThresholdHelp%22)
+
+> This determines whether a replace-type block should be merged or not depending on the content changed ratio, which values between 0 and 1.
+
+```diff
++Cela détermine si un bloc de type « remplacer » doit être fusionné ou non en fonction du taux de modification du contenu, dont la valeur est comprise entre 0 et 1.
+```
+
 #### [`huseyinfiliz-diff.admin.settings.neighborLines`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.neighborLines%22)
 
 > Neighbor Lines
 
 ```diff
 +Lignes adjacentes
+```
+
+#### [`huseyinfiliz-diff.admin.settings.neighborLinesHelp`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.neighborLinesHelp%22)
+
+> Specify the neighbor line count that you want to show.
+
+```diff
++Spécifiez le nombre de lignes adjacentes que vous souhaitez afficher.
 ```
 
 #### [`huseyinfiliz-diff.admin.settings.noneLevel`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.noneLevel%22)
@@ -4041,6 +4473,22 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Paramètres Diff
+```
+
+#### [`huseyinfiliz-diff.admin.settings.useCrons`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.useCrons%22)
+
+> Use crons to archive old revisions
+
+```diff
++Utiliser des tâches cron pour archiver les anciennes révisions
+```
+
+#### [`huseyinfiliz-diff.admin.settings.useCronsHelp`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.useCronsHelp%22)
+
+> You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.
+
+```diff
++Vous devez ajouter une tâche Cron sur votre serveur pour que cette option fonctionne. Elle s'exécutera chaque semaine, le dimanche à 2h du matin. Si vous désactivez cette option et activez celle ci-dessus, toutes les révisions du message seront analysées en vue de leur archivage lorsque le message correspondant sera modifié.
 ```
 
 #### [`huseyinfiliz-diff.admin.settings.usePoint`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.admin.settings.usePoint%22)
@@ -4233,6 +4681,14 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 ```diff
 +Annuler les modifications
+```
+
+#### [`huseyinfiliz-diff.forum.revisionInfo`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.revisionInfo%22)
+
+> Edited {revisionCount, plural, one {{revisionCount} time} other {{revisionCount} times}}, newest at the top
+
+```diff
++Modifié {revisionCount, plural, one {{revisionCount} fois} other {{revisionCount} fois}}, le plus récent en haut
 ```
 
 #### [`huseyinfiliz-diff.forum.revisions`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-diff/fr/?q=context%3A%3D%22huseyinfiliz-diff.forum.revisions%22)

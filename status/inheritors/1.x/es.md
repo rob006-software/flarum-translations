@@ -2,7 +2,7 @@
 
 Translations for Spanish (`es`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **14** are translated differently and **202** are
+sides, but do not match between them: **18** are translated differently and **205** are
 translated only in `es`. Altogether they cover **33** components.
 
 <!-- {% raw %} -->
@@ -12,7 +12,7 @@ translated only in `es`. Altogether they cover **33** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | 0 | [31](#core-missing) |
+| `core` | [4](#core) | [34](#core-missing) |
 | `datlechin-bbcode-hide-content` | 0 | [5](#datlechin-bbcode-hide-content-missing) |
 | `datlechin-copy-links` | 0 | [2](#datlechin-copy-links-missing) |
 | `datlechin-discussion-overview` | 0 | [6](#datlechin-discussion-overview-missing) |
@@ -50,6 +50,47 @@ translated only in `es`. Altogether they cover **33** components.
 ## Different translations
 
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `es` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `core`
+
+#### [`core.admin.appearance.favicon_heading`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.admin.appearance.favicon_heading%22)
+
+> Favicon
+
+```diff
+-Favicon
++Icono del sitio
+```
+
+#### [`core.admin.dashboard.status.headers.scheduler-status`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.admin.dashboard.status.headers.scheduler-status%22)
+
+> Scheduler
+
+```diff
+-Scheduler
++Programador
+```
+
+#### [`core.forum.forgot_password.title`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.forum.forgot_password.title%22)
+
+> Forgot Password
+
+```diff
+-¿Olvidaste tu contraseña?
++Contraseña olvidada
+```
+
+#### [`core.forum.notifications.delete_all_tooltip`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.forum.notifications.delete_all_tooltip%22)
+
+> Delete all notifications
+
+```diff
+-Eliminar notificaciones
++Eliminar todas las notificaciones
+```
+
+Eliminar <ins>todas las </ins>notificaciones
 
 
 ### `flarum-likes`
@@ -251,7 +292,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > {count, plural, one {# comment} other {# comments}}
 
 ```diff
-+{count, plural, one {# comment} other {# comments}}
++{count, plural, one {# comentario} other {# comentarios}}
 ```
 
 #### [`core.admin.announcements.description`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.admin.announcements.description%22)
@@ -476,6 +517,30 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +Acción requerida: se detectó extension/es abandonada/s
+```
+
+#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.lib.connection_restored_message%22)
+
+> Your connection has been restored.
+
+```diff
++Tu conexión se ha restablecido.
+```
+
+#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.lib.error.network_message%22)
+
+> Something seems to be wrong with your connection. Please check your network and try again.
+
+```diff
++Parece que hay algún problema con tu conexión. Comprueba tu red e inténtalo de nuevo.
+```
+
+#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.lib.error.offline_message%22)
+
+> You appear to be offline. Please check your connection and try again.
+
+```diff
++Parece que estás sin conexión. Comprueba tu conexión e inténtalo de nuevo.
 ```
 
 #### [`core.views.error.method_not_allowed`](https://weblate.rob006.net/translate/flarum2/core/es/?q=context%3A%3D%22core.views.error.method_not_allowed%22)

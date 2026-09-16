@@ -2672,11 +2672,11 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 > Are you sure you want to delete “{title}”?
 
 ```diff
--Bist du sicher, dass du diesen Link löschen möchtest?
-+Sind Sie sicher, dass Sie diesen Link löschen möchten?
+-Bist du sicher, dass du „{title}“ löschen möchtest?
++Sind Sie sicher, dass Sie „{title}“ löschen möchten?
 ```
 
-<del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> diesen Link löschen <del>möchtest?</del><ins>möchten?</ins>
+<del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> „{title}“ löschen <del>möchtest?</del><ins>möchten?</ins>
 
 #### [`fof-links.admin.edit_link.icon_additional_text`](https://weblate.rob006.net/translate/flarum2/fof-links/de@formal/?q=context%3A%3D%22fof-links.admin.edit_link.icon_additional_text%22)
 

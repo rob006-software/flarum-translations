@@ -13,9 +13,9 @@ are fully in sync and are not listed here.
 | [Croatian](hr.md) (`hr`) | 249 | 33 | 1 |
 | [Dutch](nl.md) (`nl`) | 0 | 9 | 8 |
 | [Finnish](fi.md) (`fi`) | 5 | 61 | 7 |
-| [French](fr.md) (`fr`) | 138 | 376 | 51 |
-| [German](de.md) (`de`) | 320 | 683 | 95 |
-| [German (formal)](de@formal.md) (`de@formal`) | 365 | 683 | 96 |
+| [French](fr.md) (`fr`) | 138 | 433 | 51 |
+| [German](de.md) (`de`) | 321 | 706 | 96 |
+| [German (formal)](de@formal.md) (`de@formal`) | 366 | 706 | 97 |
 | [Hungarian](hu.md) (`hu`) | 44 | 6 | 22 |
 | [Indonesian](id.md) (`id`) | 1 | 0 | 1 |
 | [Italian](it.md) (`it`) | 0 | 1 | 1 |
@@ -26,8 +26,8 @@ are fully in sync and are not listed here.
 | [Romanian](ro.md) (`ro`) | 0 | 12 | 1 |
 | [Russian](ru.md) (`ru`) | 57 | 61 | 17 |
 | [Serbian (Latin)](sr_Latn.md) (`sr_Latn`) | 0 | 5 | 1 |
-| [Spanish](es.md) (`es`) | 14 | 202 | 33 |
-| [Spanish (formal)](es@formal.md) (`es@formal`) | 11 | 202 | 32 |
+| [Spanish](es.md) (`es`) | 18 | 205 | 33 |
+| [Spanish (formal)](es@formal.md) (`es@formal`) | 155 | 205 | 32 |
 | [Swedish](sv.md) (`sv`) | 195 | 701 | 30 |
 | [Turkish](tr.md) (`tr`) | 6 | 0 | 5 |
 | [Vietnamese](vi.md) (`vi`) | 3 | 0 | 1 |
