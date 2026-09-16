@@ -2,7 +2,7 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Ez a felhasználó még egyetlen profilmezőt sem töltött ki."
             },
             "alerts": {
                 "profile-completion-required": "Töltse ki az alábbi szükséges profilmezőket.\n",
@@ -40,9 +40,9 @@
                 "create": "Mező létrehozása",
                 "edit": "{field} mező szerkesztése",
                 "delete-confirmation": "Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.",
-                "is_restricted": "",
-                "permissions": "",
-                "permissions-alert": "",
+                "is_restricted": "Mező láthatóságának korlátozása",
+                "permissions": "Mező láthatósága",
+                "permissions-alert": "Az engedélybeállítások akkor lesznek elérhetőek, ha létrehozás után szerkeszti a mezőt.",
                 "name": "Mező neve",
                 "name-help": "A nyilvánosan látható (nem lefordítható) mezőcímke.\n",
                 "description": "Mező leírása",
@@ -74,7 +74,7 @@
             "gambits": {
                 "answer": {
                     "key": "válasz",
-                    "hint": ""
+                    "hint": "felhasználói profil mezőinek értékei"
                 }
             }
         }
