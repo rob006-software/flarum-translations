@@ -124,10 +124,10 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir görsel yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir görsel yükle.",
-                "logo_dark_mode_heading": "",
-                "logo_dark_mode_text": "",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "logo_dark_mode_heading": "Koyu mod logosu",
+                "logo_dark_mode_text": "Koyu mod etkinken gösterilecek alternatif bir logo yükleyin.",
+                "show_theme_selector_help": "Kullanıcıların üstbilgideki bir düğmeden mevcut renk şemaları arasında geçiş yapmasına izin verin.",
+                "show_theme_selector_label": "Tema seçiciyi göster",
                 "title": "Görünüm",
                 "color_scheme_label": "Renk Şeması (varsayılan)",
                 "color_schemes": {
@@ -148,12 +148,12 @@
                 "display_name_heading": "Görünen Kullanıcı Adı",
                 "display_name_text": "Kullanıcıların görünen adları için kullanılması gereken tercihi seçin. Varsayılan olarak kullanıcı adı gösterilir.",
                 "avatar_driver_options": {
-                    "default": ""
+                    "default": "Varsayılan"
                 },
-                "avatar_driver_heading": "",
-                "avatar_driver_text": "",
+                "avatar_driver_heading": "Kullanıcı Avatarı",
+                "avatar_driver_text": "Kullanıcı tarafından yüklenmiş bir avatar bulunmadığında, kullanıcı avatarları için kullanılacak bir sürücü seçin. Varsayılan olarak, bir kullanıcı avatar yüklemediğinde hiçbir avatar gösterilmez.",
                 "forum_description_heading": "Forum Açıklaması",
-                "forum_description_text": "Topluluğunu tanımlayan kısa bir veya iki cümle gir. Bu meta etiketine eklenecek ve arama motorlarında görünecektir.",
+                "forum_description_text": "Forumunuzu açıklayan bir veya iki kısa cümle yazın. Bu alan meta etiketine eklenecek ve arama motorlarında gösterilecektir.",
                 "forum_title_heading": "Forum Başlığı",
                 "home_page_heading": "Ana Sayfa",
                 "home_page_text": "Kullanıcıların forumunu ziyaret ettiklerinde ilk görecekleri sayfayı seçin.",
@@ -166,7 +166,7 @@
                     "users": {
                         "default": "Kullanıcı adı",
                         "id": "ID",
-                        "id_with_display_name": ""
+                        "id_with_display_name": "ID ile Görünen Ad"
                     }
                 },
                 "slug_driver_heading": "Adres Kısa Adı Sürücüsü: {model}",
@@ -206,15 +206,15 @@
                 "view_all": "Tümünü discuss.flarum.org üzerinde görüntüle"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Kuyruk",
+                "pending": "Bekleyen",
+                "reserved": "İşleniyor",
+                "failed": "Başarısız",
+                "refresh": "Yenile"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
+                "title": "Gerçekleşemeyen İşlemler",
+                "none": "Gerçekleşemeyen iş yok.",
                 "meta": "",
                 "details": "",
                 "retry": "",
