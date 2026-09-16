@@ -2090,6 +2090,14 @@
             }
         },
         "validation": {
+            "custom": {
+                "turnstile": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 91e9b186fe9f3c95518b013265daf13d"
+                },
+                "turnstileToken": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 91e9b186fe9f3c95518b013265daf13d"
+                }
+            },
             "turnstile": "8f4a715284b6b81d4435ff89b7c4cc72 8f4a715284b6b81d4435ff89b7c4cc72"
         }
     },
