@@ -228,7 +228,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.11/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.12/locale/en.yml',
 	],
 	'ernestdefoe-topic-map' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.1/locale/en.yml',
