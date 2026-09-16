@@ -50,29 +50,29 @@
                     "cdn_url_help": "Bir CDN üzerindeki FontAwesome CSS dosyasının tam bağlantısı",
                     "kit_url_label": "Kit Bağlantısı",
                     "kit_url_help": "FontAwesome Kit betik bağlantınız (kit.fontawesome.com adresinden)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Zorunlu Simge Stili",
+                    "forced_style_help": "Tüm simgeleri belirli bir FontAwesome stiline zorlar (örn. \"fa-duotone fa-light\" veya \"fa-regular\"). Çekirdek ve uzantılar tarafından belirtilen stili geçersiz kılar (marka ikonları asla değiştirilmez). Simge kaynağınızın seçilen stili desteklemesi gerekir: Dahili gelen simgeler FontAwesome Free sürümüdür ve solid stili haricinde yalnızca birkaç yüz ikonu kapsar; bu yüzden farklı bir stile zorlamak ikonların çoğunun boş kalmasına yol açar. FontAwesome Pro CDN veya Kit kullanıldığında tüm stiller geçerlidir. Devre dışı bırakmak için boş bırakın.",
                     "config_override": {
                         "label": "Yapılandırma Geçersiz Kılma",
                         "help": "FontAwesome ayarları şu anda config.php dosyanızda tanımlı olduğundan buradan değiştirilemez."
                     },
                     "preview": {
-                        "button": "",
-                        "label": "",
-                        "help": "",
-                        "fa5_fa6_label": "",
-                        "fa7_label": "",
-                        "pro_label": ""
+                        "button": "Simgeleri Önizle",
+                        "label": "Simge Önizlemesi",
+                        "help": "FontAwesome kurulumunuzu doğrulayın. Görüntülenen bir simge, ilgili katmanın kullanılabilir olduğu anlamına gelir; bozuk bir kutu ise yüklenmediğini gösterir.",
+                        "fa5_fa6_label": "FA5/FA6 takma adları",
+                        "fa7_label": "FA7 sınıfları",
+                        "pro_label": "Yalnızca Pro"
                     }
                 },
                 "pgsql": {
                     "search_configuration": "Kullanılacak arama yapılandırması"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Kuyruk işlemesini duraklat",
+                    "pause_all_label": "Tüm kuyrukları duraklat",
+                    "pause_queue_label": "{queue} kuyruğunu duraklat",
+                    "pause_help": "Duraklatıldığında, işçiler etkilenen kuyruklardan yeni işler almayı durdurur; işler, işleme yeniden başlatılana kadar birikir. Halihazırda çalışan işler etkilenmez.",
                     "section_label": "Kuyruk",
                     "sync_info": "Forumunuz eşzamanlı kuyruk sürücüsü kullanıyor. İşler ana işlem iş parçacığında anında işlenmektedir.",
                     "sync_help": "Daha iyi performans ve kullanıcı deneyimi için veritabanı kuyruk sürücüsünü kullanmayı düşünün. Daha fazla bilgi için belgelere göz atın.",
@@ -96,8 +96,8 @@
                         "default": "Varsayılan veritabanı araması"
                     },
                     "no_other_drivers": "Henüz kullanılabilir arama sürücüsü yok. Yapılandırabilmek için bir arama sürücüsü uzantısı yükleyin.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "CJK dilleri için aramayı optimize et",
+                    "cjk_mode_help": "Forumunuz ağırlıklı olarak Çince, Japonca veya Korece dillerindeyse etkinleştirin. Veritabanının kelime bazlı araması CJK metinlerinin parçalarını eşleştiremez; bu ayar, bunu yapabilen bir alt dize eşleştirmesine geçiş sağlar. Çok büyük ölçekli forumlarda daha yavaş kalabilir; böyle durumlarda veritabanı seviyesinde CJK destekli bir fulltext parser (MySQL/MariaDB'nin ngram parser'ı gibi) yapılandırmak daha performanslı bir çözümdür."
                 },
                 "title": "Gelişmiş"
             },
