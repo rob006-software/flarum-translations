@@ -134,9 +134,9 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "use-display-paths": {
-                        "label": "",
-                        "toggle": "",
-                        "description": ""
+                        "label": "Görüntüleme yollarını kullan (üzerine yazmaya izin ver)",
+                        "toggle": "Görüntüleme yollarını kullan",
+                        "description": "Google Drive sürüm geçmişi desteğine sahiptir. Bu seçenek, rastgele oluşturulmuş bir tanımlayıcı yerine dosyanın yolunu tanımlayıcı olarak kullanır. Bu seçenek devre dışıyken, aynı ada sahip birden fazla dosya aynı klasörde çakışma olmadan bulunabilir. Etkinleştirildiğinde ise zaten mevcut olan bir yola yazmak, var olan dosyanın üzerine yazacaktır. <br/> <b>NOT:</b> Bu seçeneği etkinleştirirseniz, klasör kimliğini (folder ID) klasörün görüntüleme yoluyla değiştirdiğinizden emin olun! Aksi takdirde, klasör kimliğinin adını taşıyan bir klasör oluşturulacaktır.\n"
                     },
                     "help": {
                         "test_success_alert": "Google Drive'a başarıyla bağlanıldı! Ayarları saklamak için değişiklikleri kaydedin.",

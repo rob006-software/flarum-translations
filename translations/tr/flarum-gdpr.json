@@ -191,12 +191,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "{username} kullanıcısının verilerinin silinmesi talep edildi",
+                    "gdpr_erasure_confirmed": "{username} kullanıcısının verilerini silme talebi onaylandı",
+                    "gdpr_erasure_cancelled": "{username} kullanıcısının verilerini silme talebi iptal edildi",
+                    "gdpr_anonymized": "{username} kullanıcısının verileri anonimleştirildi",
+                    "gdpr_deleted": "{username} kullanıcısının verileri silindi",
+                    "gdpr_exported": "{username} kullanıcısının verileri dışa aktarıldı"
                 }
             }
         }
