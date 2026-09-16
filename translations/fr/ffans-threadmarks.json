@@ -61,9 +61,9 @@
             },
             "directory": {
                 "title": "=> ffans-threadmarks.ref.threadmarks",
-                "show_button": "Signets",
-                "hide_button": "Signets",
-                "show_button_a11y_label": "",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Ouvrir le répertoire des signets",
                 "close_a11y_label": "Fermer le répertoire des signets",
                 "scope_a11y_label": "Filtrer les signets par portée",
                 "all_filter": "Tous",
@@ -85,10 +85,10 @@
                 "open_directory_a11y_label": "Ouvrir le répertoire complet des signets"
             },
             "discussion_controls": {
-                "show_all_button": "Afficher tous les messages",
-                "show_threadmarks_button": "Signets uniquement",
-                "show_all_button_a11y_label": "",
-                "show_threadmarks_button_a11y_label": ""
+                "show_all_button": "Messages",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Afficher tous les messages",
+                "show_threadmarks_button_a11y_label": "Afficher uniquement les messages marqués d'un signet"
             },
             "post_controls": {
                 "manage_button": "Gérer un signet"
@@ -113,7 +113,7 @@
                 "name_label": "Nom",
                 "color_label": "=> core.ref.color",
                 "icon_label": "=> core.ref.icon",
-                "icon_placeholder": "fa-solid fa-book"
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
                 "first_post": "Les signets ne peuvent pas être ajoutés au premier message.",
