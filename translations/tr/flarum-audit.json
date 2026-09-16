@@ -41,7 +41,7 @@
                 "filtersHint": "Filtreler:",
                 "filters": {
                     "actor": "Eylemi kim gerçekleştirdi. Sistem veya kimliği doğrulanmamış eylemler için actor:guest kullanın.",
-                    "user": "Eylemin etkilediği kullanıcı (kullanıcı adına göre).",
+                    "user": "Eylemin etkilediği kullanıcı (kullanıcı adına göre)",
                     "action": "Eylemin türü, ör. action:post.created.",
                     "client": "İsteğin hangi istemci üzerinden yapıldığı.",
                     "ip": "Eylemin geldiği IP adresi.",
@@ -72,7 +72,7 @@
                 },
                 "noValue": "(değer yok)",
                 "noReason": "(neden belirtilmedi)",
-                "core": "",
+                "core": "çekirdek",
                 "client": {
                     "session": "Web oturumu",
                     "api_key": "API anahtarı",
@@ -81,7 +81,7 @@
                     "unknown": "Bilinmeyen istemci"
                 },
                 "controls": {
-                    "title": "",
+                    "title": "Seçenekler",
                     "hideRaw": "Ham günlüğü gizle",
                     "showRaw": "Ham günlüğü göster",
                     "filterActor": "Bu kullanıcının yaptığı işlemleri göster",
@@ -93,7 +93,7 @@
                 },
                 "audit_log_cleared": "Denetim günlüklerinden {deleted_count} kayıt temizlendi",
                 "cache_cleared": "Önbellek manuel olarak temizlendi",
-                "developer_token_created": "",
+                "developer_token_created": "{username} için \"{title}\" adlı geliştirici erişim belirteci oluşturuldu",
                 "discussion": {
                     "created": "{discussion} tartışmasını başlattı",
                     "deleted": "{discussion} tartışmasını sildi",
@@ -107,13 +107,13 @@
                     "uninstalled": "{package} uzantısını kaldırdı"
                 },
                 "queue": {
-                    "paused": "",
-                    "resumed": ""
+                    "paused": "{queue} ({connection}) kuyruk işlemesi duraklatıldı",
+                    "resumed": "{queue} ({connection}) kuyruk işlemesi devam ettirildi"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "{name} grubu oluşturuldu",
+                    "deleted": "{name} grubu silindi",
+                    "renamed": "Grup adı {old_name} değerinden {new_name} olarak değiştirildi"
                 },
                 "permission_changed": "{permission} iznini {old_groups} yerine {new_groups} olarak düzenledi",
                 "post": {
@@ -125,7 +125,7 @@
                 },
                 "setting_changed": "{key} ayarını düzenledi",
                 "setting_changed_with_values": "{key} ayarını {old_value} yerine {new_value} olarak düzenledi",
-                "settings_reset": "",
+                "settings_reset": "{extension} eklentisinin {keys} ayarları sıfırlandı",
                 "user": {
                     "activated": "{username} adlı kullanıcının hesabını manuel olarak etkinleştirdi",
                     "activated_with_email": "{username} adlı kullanıcının hesabını onay bağlantısı üzerinden etkinleştirdi",
