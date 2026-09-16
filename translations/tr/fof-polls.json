@@ -10,15 +10,15 @@
                     "heading": "Tartışma Anketleri",
                     "help": "Bu ayarlar, tartışma gönderilerine eklenen anketleri denetler."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Tartışma anketlerini etkinleştir",
+                "enable_discussion_polls_help": "Etkinleştirildiğinde, kullanıcılar tartışma gönderileri içinde anket oluşturabilir. Yalnızca genel anketleri kullanmak istiyorsanız bunu devre dışı bırakın.",
                 "global_polls": {
                     "heading": "Genel Anketler",
                     "help": "Bu ayarlar genel anketler özelliğini kontrol eder."
                 },
                 "image": {
                     "heading": "Görsel Ayarları",
-                    "help": ""
+                    "help": "Görsel yükleme sınırlarını ve boyutlarını yapılandırın. Görseller otomatik olarak WebP formatına dönüştürülür ve duyarlı türevleri oluşturulur."
                 },
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
@@ -27,11 +27,11 @@
                 "max_options": "Anket başına maksimum seçenek sayısı",
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Maksimum görsel yükleme boyutu (KB)",
+                "max_image_upload_size_help": "Kilobayt cinsinden görsel yüklemeleri için maksimum dosya boyutu. Görseller yüklendikten sonra otomatik olarak WebP formatına dönüştürülür ve yeniden boyutlandırılır; bu nedenle depolanan nihai boyut genellikle çok daha küçük olacaktır. Varsayılan değer 10240 KB'dir (10 MB).",
+                "image_height": "Görsel yüksekliğini yeniden boyutlandır (px)",
+                "image_width": "Görsel genişliğini yeniden boyutlandır (px)",
+                "image_dimensions_help": "Depolanan görseller için temel boyutlar. Kaynak görsel yeterince büyük olduğunda HiDPI türevleri (@2x, @3x) otomatik olarak oluşturulur."
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -68,7 +68,7 @@
                 "scheduled_error_tooltip": "Bu planlanmış yayın başarısız oldu. Nedenini görmek için anketi açın."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Anket kontrol menüsünü aç/kapat",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
@@ -193,17 +193,17 @@
                     "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
                     "alt_label": "Görsel Alternatif Metni",
                     "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Bu anket harici bir görsel bağlantısı kullanıyor. Harici bağlantı desteği kullanımdan kaldırıldı ve sonraki bir sürümde kaldırılacak. Lütfen yükleme düğmesini kullanarak görseli tekrar yükleyin."
                 },
                 "poll_option_image": {
                     "label": "Anket Yanıtı Resmi",
                     "help": "Anket yanıtının yanında görüntülenecek bir resim yükleyin (isteğe bağlı)."
                 },
-                "date_clear": "",
+                "date_clear": "Bitiş tarihini temizle",
                 "tooltip": {
                     "options": {
                         "add-button": "Yanıt Ekle",
-                        "remove-button": ""
+                        "remove-button": "Seçeneği kaldır"
                     }
                 }
             },
