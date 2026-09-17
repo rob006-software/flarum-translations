@@ -3809,6 +3809,38 @@
     },
     "ernestdefoe-garrison.json": {
         "ernestdefoe-garrison": {
+            "admin": {
+                "fetch": "7ec79840909e9390918b6eb80289c1d8 7ec79840909e9390918b6eb80289c1d8",
+                "field_join_address": "50d46c2f993f4c6ab66c095555dcc401 50d46c2f993f4c6ab66c095555dcc401",
+                "field_join_password": "98176b7da95f6fd994fe285e06241163 98176b7da95f6fd994fe285e06241163",
+                "field_name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                "identities": "da8419e841397dc25943148c222b696e da8419e841397dc25943148c222b696e",
+                "machinery": {
+                    "last": "ee53f66e4458e86e136d3eecbdb93047 ee53f66e4458e86e136d3eecbdb93047"
+                },
+                "provision": {
+                    "install": "6c6655f3b5ca81d0ace96de03ff8eddf 6c6655f3b5ca81d0ace96de03ff8eddf",
+                    "load": "5ef06c39894907f2c6d52cecec313b37 5ef06c39894907f2c6d52cecec313b37"
+                },
+                "schedules": {
+                    "day": {
+                        "fri": "9e291b9ceb9681cea3fbcbc46a2eee7d 9e291b9ceb9681cea3fbcbc46a2eee7d",
+                        "mon": "fd29458ae58ac32a2d8734ed90ad51ec fd29458ae58ac32a2d8734ed90ad51ec",
+                        "sat": "ba0e0cde1bf72c28d435c89a66afc61a ba0e0cde1bf72c28d435c89a66afc61a",
+                        "sun": "1968ab9fdfedf558714bf6caec9a1234 1968ab9fdfedf558714bf6caec9a1234",
+                        "thu": "b70e7b267b0652ee4030c4043cba7cf7 b70e7b267b0652ee4030c4043cba7cf7",
+                        "tue": "952f8d52fbca6da722e72d520acd6edd 952f8d52fbca6da722e72d520acd6edd",
+                        "wed": "bc9655f8014d3199cdb20d7677c7b444 bc9655f8014d3199cdb20d7677c7b444"
+                    },
+                    "summary": "bb990ade3d5d053929553bf35713eaeb bb990ade3d5d053929553bf35713eaeb",
+                    "when": {
+                        "every_day": "b7edd513f12367b544b4ad137a84cb36 b7edd513f12367b544b4ad137a84cb36",
+                        "weekdays": "6eeee9e6d5b5727a9058c3169cbc7e72 6eeee9e6d5b5727a9058c3169cbc7e72"
+                    }
+                },
+                "servers": "9aa1b03934893d7134a660af4204f2a9 9aa1b03934893d7134a660af4204f2a9",
+                "title": "107773a1c506b594d38ad905efda865c 107773a1c506b594d38ad905efda865c"
+            },
             "api": {
                 "errors": {
                     "bad_scheme": "ea59435c1d5d08c2f81379f01a8984b7 ea59435c1d5d08c2f81379f01a8984b7",
@@ -3827,18 +3859,39 @@
                 }
             },
             "forum": {
+                "back_to_all": "492e41e809400875960fb9a56c1139b4 492e41e809400875960fb9a56c1139b4",
+                "backups": {
+                    "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "delete": "1010b01ca33474b21dfca7411a13552c 1010b01ca33474b21dfca7411a13552c"
+                },
                 "config": {
-                    "save": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271"
+                    "load": "a482fe7d8380d4253eb220036c52d388 a482fe7d8380d4253eb220036c52d388",
+                    "save": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
+                    "title": "d56d690b4d9df625c70fcb74517b8df2 d56d690b4d9df625c70fcb74517b8df2"
                 },
                 "duration": {
                     "both": "594bb692f36da18322b26444bce7ffbc 594bb692f36da18322b26444bce7ffbc",
-                    "hours": "3c6bad25f88f4c37a702246b3b7ec0aa 3c6bad25f88f4c37a702246b3b7ec0aa"
+                    "hours": "3c6bad25f88f4c37a702246b3b7ec0aa 3c6bad25f88f4c37a702246b3b7ec0aa",
+                    "minutes": "864586be7b8ad9cedc78b148e865d171 864586be7b8ad9cedc78b148e865d171"
+                },
+                "fact": {
+                    "game": "4bd00b67454fe223db3815ec8994d372 4bd00b67454fe223db3815ec8994d372",
+                    "memory": "0f91f887a4e0f122b07c327a2de28a35 0f91f887a4e0f122b07c327a2de28a35",
+                    "players": "aef9002f83a929f86907aae175dca658 aef9002f83a929f86907aae175dca658"
+                },
+                "join_address": "50d46c2f993f4c6ab66c095555dcc401 50d46c2f993f4c6ab66c095555dcc401",
+                "join_password": "98176b7da95f6fd994fe285e06241163 98176b7da95f6fd994fe285e06241163",
+                "link": {
+                    "confirm": "da6245d4ad9973a864a7d99bc655563c da6245d4ad9973a864a7d99bc655563c",
+                    "name_placeholder": "acbd7bdabff4d60d67aee3178b3b8916 acbd7bdabff4d60d67aee3178b3b8916",
+                    "start_over": "e62ab0feab7895073934556e062667a8 e62ab0feab7895073934556e062667a8"
                 },
                 "notification": {
                     "down": "3a5b6b2af188feeaec9d9a306038e1b0 3a5b6b2af188feeaec9d9a306038e1b0",
                     "recovered": "ed9b800842926fb82b404d8fab5cd850 ed9b800842926fb82b404d8fab5cd850"
                 },
                 "playing": {
+                    "nobody": "8b51cab3fa52213b0d6be7119aec9f40 8b51cab3fa52213b0d6be7119aec9f40",
                     "title": "01e87cc566a806c0b125983bb305d821 01e87cc566a806c0b125983bb305d821"
                 },
                 "see_all": "492e41e809400875960fb9a56c1139b4 492e41e809400875960fb9a56c1139b4",

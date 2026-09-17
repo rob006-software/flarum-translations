@@ -117,21 +117,21 @@
                 "restart": ""
             },
             "fact": {
-                "players": "",
+                "players": "Spieler",
                 "cpu": "",
-                "memory": "",
+                "memory": "Speicher",
                 "uptime": "",
                 "driver": "",
-                "game": ""
+                "game": "Spiel"
             },
-            "back_to_all": "",
+            "back_to_all": "Alle Server",
             "server_not_here": "",
-            "join_address": "",
-            "join_password": "",
+            "join_address": "Adresse",
+            "join_password": "Kennwort",
             "join_code_label": "",
             "config": {
-                "title": "",
-                "load": "",
+                "title": "Servereinstellungen",
+                "load": "Einstellungen laden",
                 "none": "",
                 "file_empty": "",
                 "read_only": "",
@@ -140,10 +140,10 @@
             },
             "playing": {
                 "title": "{count, plural, one {# Spieler} other {# Spieler}} im Spiel",
-                "nobody": ""
+                "nobody": "Niemand spielt gerade."
             },
             "duration": {
-                "minutes": "",
+                "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
                 "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
                 "both": "{hours} h {minutes} m"
             },
@@ -157,12 +157,12 @@
             "link": {
                 "title": "",
                 "explain": "",
-                "name_placeholder": "",
+                "name_placeholder": "Dein Name im Spiel",
                 "send_code": "",
                 "check_the_game": "",
                 "code_placeholder": "",
-                "confirm": "",
-                "start_over": "",
+                "confirm": "Das bin ich",
+                "start_over": "Verwende einen anderen Namen",
                 "linked": "",
                 "unlink": ""
             },
@@ -172,8 +172,8 @@
                 "none": "",
                 "safety": "",
                 "restore": "",
-                "delete": "",
-                "cancel": "",
+                "delete": "Löschen",
+                "cancel": "Abbrechen",
                 "confirm_restore": "",
                 "confirm_restore_stops": "",
                 "confirm_restore_do": "",
@@ -207,13 +207,13 @@
             }
         },
         "admin": {
-            "title": "",
+            "title": "Garrison",
             "alerts": "",
             "webhook": "",
             "webhook_help": "",
             "load_failed": "",
             "machinery": {
-                "last": "",
+                "last": "Zuletzt bestätigt {when}",
                 "scheduler": {
                     "ok": "",
                     "stalled": "",
@@ -239,19 +239,19 @@
                     "console": ""
                 },
                 "day": {
-                    "mon": "",
-                    "tue": "",
-                    "wed": "",
-                    "thu": "",
-                    "fri": "",
-                    "sat": "",
-                    "sun": ""
+                    "mon": "Mon",
+                    "tue": "Die",
+                    "wed": "Mit",
+                    "thu": "Don",
+                    "fri": "Fre",
+                    "sat": "Sam",
+                    "sun": "Son"
                 },
                 "when": {
-                    "every_day": "",
-                    "weekdays": ""
+                    "every_day": "jeden Tag",
+                    "weekdays": "Wochentage"
                 },
-                "summary": "",
+                "summary": "{what}, {when} um {time} ({zone})",
                 "line": "",
                 "line_placeholder": "",
                 "warn": "",
@@ -259,19 +259,19 @@
                 "warn_line_placeholder": ""
             },
             "provision": {
-                "load": "",
+                "load": "Neuen Server installieren",
                 "none": "",
                 "choose": "",
                 "from_steam": "",
                 "id_placeholder": "",
                 "name_placeholder": "",
-                "install": "",
+                "install": "Installieren",
                 "started": "",
                 "failed": "",
                 "no_answer": "",
                 "needs_a_server": ""
             },
-            "identities": "",
+            "identities": "Verknüpfte Konten",
             "no_identities": "",
             "identity_pending": "",
             "identity_unlink_confirm": "",
@@ -289,10 +289,10 @@
             "token_once": "",
             "token_next": "",
             "token_copied": "",
-            "servers": "",
-            "field_name": "",
-            "field_join_address": "",
-            "field_join_password": "",
+            "servers": "Server",
+            "field_name": "Name",
+            "field_join_address": "Adresse",
+            "field_join_password": "Kennwort",
             "field_join_code": "",
             "public": "",
             "auto_remediate": "",
@@ -306,7 +306,7 @@
             "fetch_logo_help": "",
             "logo_url": "",
             "logo_url_help": "",
-            "fetch": "",
+            "fetch": "Abrufen",
             "incidents": "",
             "no_incidents": "",
             "permissions": {
