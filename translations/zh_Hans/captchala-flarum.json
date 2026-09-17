@@ -2,44 +2,44 @@
     "captchala-flarum": {
         "admin": {
             "settings": {
-                "app_key_label": "软件密钥",
-                "app_key_help": "",
-                "app_secret_label": "",
-                "app_secret_help": "",
-                "product_label": "",
-                "product_help": "",
+                "app_key_label": "App Key",
+                "app_key_help": "必填，前往 CaptchaLa 控制台 <a>dash.captcha.la</a> 获取。",
+                "app_secret_label": "App Secret",
+                "app_secret_help": "仅供服务端使用，不会暴露给浏览器。",
+                "product_label": "验证组件模式",
+                "product_help": "选择验证面板的展示模式。bind 会将验证面板绑定到提交按钮。",
                 "product_options": {
-                    "bind": "",
-                    "popup": "",
-                    "float": "",
-                    "embed": ""
+                    "bind": "绑定到提交按钮",
+                    "popup": "弹窗",
+                    "float": "悬浮组件",
+                    "embed": "内嵌组件"
                 },
-                "lang_label": "",
-                "lang_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": "",
-                "post": ""
+                "lang_label": "语言",
+                "lang_help": "填写 BCP-47 语言标签（例如 ja、pt-BR），或填写「auto」以跟随访客的浏览器语言。",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title",
+                "post": "保护新讨论和回复"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "button": "",
-                "success": "",
-                "failure": ""
+                "title": "测试连接",
+                "help_text": "验证已保存的 App Key / App Secret 是否可以连接 CaptchaLa 后端。\n运行测试前请先保存更改。\n",
+                "button": "测试连接",
+                "success": "连接正常。",
+                "failure": "连接失败：{reason}"
             }
         },
         "lib": {
-            "not_completed": "",
-            "error": "",
-            "rejected": "",
-            "unknown_error": ""
+            "not_completed": "请先完成 CAPTCHA 验证。",
+            "error": "验证 CAPTCHA 时发生错误，请重试。",
+            "rejected": "CAPTCHA 验证失败，请重试。",
+            "unknown_error": "发生未知错误，请重试。"
         },
         "forum": {
-            "powered_by": ""
+            "powered_by": "CaptchaLa 安全防护"
         }
     },
     "validation": {
-        "captchala": ""
+        "captchala": "CAPTCHA 验证未通过。"
     }
 }
