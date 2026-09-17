@@ -12,9 +12,9 @@
                 "too_large": "",
                 "no_artwork": "",
                 "fetch_failed": "",
-                "not_a_url": "",
-                "bad_scheme": "",
-                "unresolvable": "",
+                "not_a_url": "Das ist keine Web-Adresse.",
+                "bad_scheme": "Nur HTTP- und HTTPS-Adressen können abgerufen werden.",
+                "unresolvable": "Diese Adresse konnte nicht aufgelöst werden.",
                 "private_address": "",
                 "bad_player_name": "",
                 "player_taken": "",
@@ -26,10 +26,10 @@
         "email": {
             "server_incident": {
                 "subject": {
-                    "down": "",
-                    "unready": "",
-                    "recovered": "",
-                    "abandoned": ""
+                    "down": "{name} ist down",
+                    "unready": "{name} akzeptiert keine Spieler mehr",
+                    "recovered": "{name} ist wieder da",
+                    "abandoned": "{name} braucht noch immer Hilfe"
                 },
                 "body": {
                     "down": "",
@@ -41,17 +41,17 @@
             }
         },
         "webhook": {
-            "unready": "",
-            "down": "",
-            "recovered": "",
+            "unready": "⚠️ **{name}** läuft, aber Spieler können nicht beitreten. {url}",
+            "down": "🔴 **{name}** wurde gestoppt. {url}",
+            "recovered": "✅ **{name}** ist wieder da. {url}",
             "abandoned": "",
-            "unknown": ""
+            "unknown": "**{name}**: {state}. {url}"
         },
         "forum": {
             "notification": {
-                "down": "",
+                "down": "{name} ist down",
                 "unready": "",
-                "recovered": "",
+                "recovered": "{name} ist wieder da",
                 "abandoned": ""
             },
             "settings": {
@@ -61,7 +61,7 @@
             "state": {
                 "running": "",
                 "stopped": "",
-                "starting": "",
+                "starting": "Wird gestartet",
                 "stopping": "",
                 "crashed": "",
                 "unknown": ""
