@@ -1,0 +1,321 @@
+{
+    "ernestdefoe-garrison": {
+        "api": {
+            "errors": {
+                "unknown_verb": "That is not something Garrison can ask a server to do.",
+                "not_permitted": "You do not have permission to do that to this server.",
+                "name_required": "Give the host a name.",
+                "needs_pro": "That is part of Garrison Pro. This forum is running the free edition, which covers one host and one server.",
+                "host_limit": "The free edition of Garrison covers {max} host. Garrison Pro removes the limit.",
+                "upload_failed": "That file did not arrive. Try again.",
+                "not_an_image": "That is not an image Garrison can use. PNG, JPEG, GIF or WebP.",
+                "too_large": "That image is over 512 KB. Use a smaller one.",
+                "no_artwork": "Garrison does not know where to find artwork for this game. Upload an image instead.",
+                "fetch_failed": "Could not fetch that image. Upload one instead.",
+                "not_a_url": "That is not a web address.",
+                "bad_scheme": "Only http and https addresses can be fetched.",
+                "unresolvable": "That address does not resolve to anything.",
+                "private_address": "That address points inside this network, so Garrison will not fetch it.",
+                "bad_player_name": "That does not look like an in-game name.",
+                "player_taken": "Somebody has already proved that this is their character on this server.",
+                "code_expired": "That code has expired. Ask for a new one.",
+                "code_wrong": "That code is not right. Check it in the game and try again.",
+                "code_too_soon": "A code was just sent. Check the game, or wait a moment and try again."
+            }
+        },
+        "email": {
+            "server_incident": {
+                "subject": {
+                    "down": "{name} is down",
+                    "unready": "{name} stopped accepting players",
+                    "recovered": "{name} is back up",
+                    "abandoned": "{name} still needs a hand"
+                },
+                "body": {
+                    "down": "{name} is not running, and Garrison could not get it started again.\n\n{url}",
+                    "unready": "{name} is running, but players cannot get in. Garrison noticed because its health checks stopped passing, not because the process stopped — from the outside it still looks fine.\n\n{url}",
+                    "recovered": "{name} is accepting players again. Nothing else is needed.\n\n{url}",
+                    "abandoned": "Garrison has restarted {name} several times and it keeps failing the same way, so it has stopped trying rather than restart it in a loop. It needs somebody to look at it.\n\n{url}",
+                    "finding": "What the health check saw: {finding}"
+                }
+            }
+        },
+        "webhook": {
+            "unready": "⚠️ **{name}** is running but players cannot join. {url}",
+            "down": "🔴 **{name}** has stopped. {url}",
+            "recovered": "✅ **{name}** is back. {url}",
+            "abandoned": "🚨 **{name}** did not come back after repeated restarts. Automatic restarts have stopped and it needs a person. {url}",
+            "unknown": "**{name}**: {state}. {url}"
+        },
+        "forum": {
+            "notification": {
+                "down": "{name} is down",
+                "unready": "{name} stopped accepting players",
+                "recovered": "{name} is back",
+                "abandoned": "Garrison has stopped trying to fix {name}"
+            },
+            "settings": {
+                "notify_garrisonServerIncident_label": "A game server I help run needs attention"
+            },
+            "title": "Game servers",
+            "state": {
+                "running": "Running",
+                "stopped": "Stopped",
+                "starting": "Starting",
+                "stopping": "Stopping",
+                "crashed": "Crashed",
+                "unknown": "Unknown"
+            },
+            "stale": "Last heard from {when}",
+            "stale_short": "Not reporting",
+            "players": "{count, plural, one {# player} other {# players}} online",
+            "no_servers": "No game servers are set up yet.",
+            "unreachable": "Could not reach the forum for server status.",
+            "join_hidden": "Join details are not shown to your group.",
+            "widget_heading": "Heading",
+            "see_all": "All servers",
+            "join": "How to join",
+            "join_address_placeholder": "the server address",
+            "join_no_details": "Your community has not published an address for this server yet. Ask whoever runs it.",
+            "join_usual_port": "Usually port {port}, unless it was changed.",
+            "connect": {
+                "valheim": "In Valheim: Join Game → Join IP, then enter {address}. The server password is separate from your character.",
+                "minecraft": "In Minecraft: Multiplayer → Add Server, then enter {address}.",
+                "minecraft-bedrock": "In Minecraft: Play → Servers → Add Server, then enter {address}.",
+                "palworld": "In Palworld: Join Multiplayer Game, then enter {address}.",
+                "rust": "In Rust: press F1 for the console and type client.connect {address}",
+                "ark": "In ARK: Join ARK, then find the server by name — or add {address} to your Steam favourites first.",
+                "cs2": "In Counter-Strike 2: open the console with ~ and type connect {address}",
+                "satisfactory": "In Satisfactory: Server Manager → Add Server, then enter {address}.",
+                "factorio": "In Factorio: Multiplayer → Connect to address, then enter {address}.",
+                "7dtd": "In 7 Days to Die: Join a Game → Connect to IP, then enter {address}.",
+                "projectzomboid": "In Project Zomboid: Join, then enter {address}.",
+                "terraria": "In Terraria: Multiplayer → Join via IP, then enter {address}.",
+                "enshrouded": "In Enshrouded: Play → Join via IP, then enter {address}.",
+                "vrising": "In V Rising: Play → Online Play → Direct Connect, then enter {address}.",
+                "dayz": "In DayZ: add {address} to your Steam favourites, then join from the in-game browser.",
+                "gmod": "In Garry's Mod: open the console with ~ and type connect {address}"
+            },
+            "join_code": "Join code {code}",
+            "action_failed": "That did not work. Try again in a moment.",
+            "console": "Console",
+            "console_empty": "Nothing here yet. Output appears as the server produces it.",
+            "console_placeholder": "Type a command for the server",
+            "console_send": "Send",
+            "confirm_stop": "Stop {name}? Anybody playing will be disconnected.",
+            "health": {
+                "unready": "Players cannot join",
+                "unready_short": "Cannot join",
+                "attention": "Needs attention",
+                "attention_detail": "Garrison restarted this server and it did not come back. Automatic restarts have stopped.",
+                "attention_short": "Needs you",
+                "unchecked": "Not checked — no readiness probes are set up for this game."
+            },
+            "action": {
+                "start": "Start",
+                "stop": "Stop",
+                "restart": "Restart"
+            },
+            "fact": {
+                "players": "Players",
+                "cpu": "CPU",
+                "memory": "Memory",
+                "uptime": "Started",
+                "driver": "Runs as",
+                "game": "Game"
+            },
+            "back_to_all": "All servers",
+            "server_not_here": "That server is not here. It may have been removed, or its host may not be paired any more.",
+            "join_address": "Address",
+            "join_password": "Password",
+            "join_code_label": "Join code",
+            "config": {
+                "title": "Server settings",
+                "load": "Load settings",
+                "none": "This server has no settings files set up. They are declared in the agent's config file on the game host.",
+                "file_empty": "There is nothing in this file.",
+                "read_only": "These settings can be read but not changed.",
+                "locked": "This one cannot be changed from here.",
+                "save": "Save"
+            },
+            "playing": {
+                "title": "{count, plural, one {# player} other {# players}} in the game",
+                "nobody": "Nobody is playing right now."
+            },
+            "duration": {
+                "minutes": "{count, plural, one {# minute} other {# minutes}}",
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "both": "{hours}h {minutes}m"
+            },
+            "profile": {
+                "title": "In the games"
+            },
+            "board": {
+                "title": "Most time played",
+                "online": "Playing right now"
+            },
+            "link": {
+                "title": "Your in-game account",
+                "explain": "Link your forum account to your character, so your playtime counts here. Join the server, type your in-game name below, and Garrison will send you a code in the game. Your character will be shown on your profile.",
+                "name_placeholder": "Your name in the game",
+                "send_code": "Send me a code",
+                "check_the_game": "Garrison has sent a code to that player in the game. Read it there and type it below.",
+                "code_placeholder": "The code from the game",
+                "confirm": "That's me",
+                "start_over": "Use a different name",
+                "linked": "You are linked to {player} on this server.",
+                "unlink": "Unlink"
+            },
+            "backups": {
+                "title": "Backups",
+                "create": "Back up now",
+                "none": "No backups yet. One will appear here after the next backup runs.",
+                "safety": "Taken automatically before a restore",
+                "restore": "Restore",
+                "delete": "Delete",
+                "cancel": "Cancel",
+                "confirm_restore": "This replaces what is on the server right now with this backup. A copy of the current state is taken first, so this can be undone.",
+                "confirm_restore_stops": "This server is running, so it will be stopped first. It is left stopped afterwards, so you can check the restore before letting players back in.",
+                "confirm_restore_do": "Yes, restore it",
+                "confirm_restore_do_stopping": "Stop it and restore",
+                "confirm_delete": "This deletes the backup from the host. It cannot be undone.",
+                "confirm_delete_do": "Yes, delete it",
+                "offsite": {
+                    "none": "Backups are kept on the game host only. Copies to off-site storage are set up in the agent's config file.",
+                    "ok": "Also copied to {bucket} — last copy {when}.",
+                    "unknown": "Also copied to {bucket}. Nothing has been copied since this agent last started.",
+                    "failing": "Copies to {bucket} are failing."
+                },
+                "step": {
+                    "stopping": "Stopping the server…",
+                    "restoring": "Restoring…"
+                },
+                "outcome": {
+                    "done_create": "Backup taken.",
+                    "done_restore": "Restored. A copy of the previous state was saved first.",
+                    "done_delete": "Backup deleted.",
+                    "failed_create": "The backup did not run.",
+                    "failed_restore": "Nothing was restored.",
+                    "failed_delete": "The backup was not deleted.",
+                    "done_stop": "Server stopped.",
+                    "failed_stop": "The server would not stop, so nothing was restored.",
+                    "waiting_stop": "Still stopping.",
+                    "waiting_create": "Still working. The backup is running on the host.",
+                    "waiting_restore": "Still working. The restore is running on the host.",
+                    "waiting_delete": "Still working."
+                }
+            }
+        },
+        "admin": {
+            "title": "Garrison",
+            "alerts": "Alerts",
+            "webhook": "Discord or webhook address",
+            "webhook_help": "Posted to when a server stops accepting players, and again when it comes back. A Discord webhook address is detected automatically; anything else receives JSON.",
+            "load_failed": "Could not load Garrison's state.",
+            "machinery": {
+                "last": "Last confirmed {when}",
+                "scheduler": {
+                    "ok": "Garrison is running its checks.",
+                    "stalled": "Garrison is not running.",
+                    "unknown": "Garrison has not run a check yet.",
+                    "stalled_help": "Nothing has run Garrison's checks for a while, so no server is being watched, restarted or backed up. Flarum's scheduler is what runs them, and it needs this in the server's crontab: * * * * * php /path/to/forum/flarum schedule:run"
+                },
+                "queue": {
+                    "ok": "Alerts are getting through.",
+                    "stalled": "Alerts are not getting through.",
+                    "unknown": "Garrison has not checked whether alerts are getting through yet.",
+                    "stalled_help": "Garrison sends alerts as background jobs, and nothing on this forum has run one for a while — so a server going down would be recorded here and nobody would be told. This is usually a queue worker that has stopped; restarting it is the fix."
+                }
+            },
+            "schedules": {
+                "title": "Scheduled",
+                "add": "Add a schedule",
+                "none": "Nothing scheduled. Add a nightly restart, a backup, or a message to players.",
+                "remove": "Remove this schedule",
+                "remove_confirm": "Remove this schedule?",
+                "kind": {
+                    "restart": "Restart",
+                    "backup": "Back up",
+                    "console": "Send to console"
+                },
+                "day": {
+                    "mon": "Mon",
+                    "tue": "Tue",
+                    "wed": "Wed",
+                    "thu": "Thu",
+                    "fri": "Fri",
+                    "sat": "Sat",
+                    "sun": "Sun"
+                },
+                "when": {
+                    "every_day": "every day",
+                    "weekdays": "weekdays"
+                },
+                "summary": "{what}, {when} at {time} ({zone})",
+                "line": "Command to send",
+                "line_placeholder": "say Server saving…",
+                "warn": "Warn players this many minutes beforehand",
+                "warn_line": "What to tell them",
+                "warn_line_placeholder": "say Restarting in 15 minutes — finish up and log out"
+            },
+            "provision": {
+                "load": "Install a new server",
+                "none": "This host has no install templates. They are declared in the agent's config file.",
+                "choose": "Choose what to install",
+                "from_steam": "downloads from Steam",
+                "id_placeholder": "A short id, like valheim-2",
+                "name_placeholder": "What to call it",
+                "install": "Install",
+                "started": "Installing {id}. It appears here when it is ready; the download can take a while, and the progress is in that server's console.",
+                "failed": "The install could not be started.",
+                "no_answer": "The host has not answered yet. It may still be working.",
+                "needs_a_server": "This host has no servers yet, so there is nothing to send the request through. Add the first one to the agent's config by hand."
+            },
+            "identities": "Linked accounts",
+            "no_identities": "Nobody has linked a forum account to an in-game character yet.",
+            "identity_pending": "Waiting for their code",
+            "identity_unlink_confirm": "Unlink {player}? Their time played stays on the server's leaderboard; only the connection to a forum account is removed.",
+            "identity_unlink": "Unlink",
+            "hosts": "Game hosts",
+            "no_hosts": "No hosts paired yet. Give one a name and pair it, then put the token in that host's agent config.",
+            "host_name_placeholder": "A name for the host",
+            "pair": "Pair a host",
+            "unpair": "Unpair",
+            "unpair_confirm": "Unpair {name}? Its {count} server(s) will disappear from the forum until it is paired again.",
+            "host_seen": "Last heard from {when}",
+            "host_late": "⚠ Silent since {when}",
+            "host_never": "Has never checked in",
+            "token_heading": "{name} is paired",
+            "token_once": "This token is shown once and is stored nowhere. Copy it now — if you lose it you will have to unpair and pair again.",
+            "token_next": "Put it in the host's agent config as the token, then start the agent.",
+            "token_copied": "I have copied it",
+            "servers": "Servers",
+            "field_name": "Name",
+            "field_join_address": "Address",
+            "field_join_password": "Password",
+            "field_join_code": "Join code",
+            "public": "Show this server to everyone, including guests",
+            "auto_remediate": "Restart this server automatically when it stops accepting players",
+            "attention": "Garrison stopped trying to restart this server. It needs looking at.",
+            "clear_attention": "I have looked — resume automatic restarts",
+            "backup_every": "Back up automatically, every (hours)",
+            "backup_every_help": "Zero means no automatic backups. The agent keeps the most recent copies and never deletes a safety copy taken before a restore.",
+            "icon": "Server image",
+            "icon_help": "PNG, JPEG, GIF or WebP, up to 512 KB. Uploaded and kept here, so it cannot disappear later.",
+            "fetch_logo": "Fetch the real logo",
+            "fetch_logo_help": "Downloads the game's own logo and keeps a copy on this forum. Not a hotlink — it cannot break later.",
+            "logo_url": "Or paste an image address",
+            "logo_url_help": "For games Garrison does not know, paste a link to the logo. It is downloaded and kept here, so it cannot break later.",
+            "fetch": "Fetch",
+            "incidents": "Recent incidents",
+            "no_incidents": "Nothing has gone wrong yet.",
+            "permissions": {
+                "view": "See servers that are not marked public",
+                "control": "Start, stop and restart servers",
+                "console": "Send commands to a game console",
+                "config": "Read and change server settings",
+                "manage": "Manage Garrison, pair hosts, see everything"
+            }
+        }
+    }
+}

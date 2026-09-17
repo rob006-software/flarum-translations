@@ -1,0 +1,321 @@
+{
+    "ernestdefoe-garrison": {
+        "api": {
+            "errors": {
+                "unknown_verb": "",
+                "not_permitted": "",
+                "name_required": "",
+                "needs_pro": "",
+                "host_limit": "",
+                "upload_failed": "",
+                "not_an_image": "",
+                "too_large": "",
+                "no_artwork": "",
+                "fetch_failed": "",
+                "not_a_url": "",
+                "bad_scheme": "",
+                "unresolvable": "",
+                "private_address": "",
+                "bad_player_name": "",
+                "player_taken": "",
+                "code_expired": "",
+                "code_wrong": "",
+                "code_too_soon": ""
+            }
+        },
+        "email": {
+            "server_incident": {
+                "subject": {
+                    "down": "",
+                    "unready": "",
+                    "recovered": "",
+                    "abandoned": ""
+                },
+                "body": {
+                    "down": "",
+                    "unready": "",
+                    "recovered": "",
+                    "abandoned": "",
+                    "finding": ""
+                }
+            }
+        },
+        "webhook": {
+            "unready": "",
+            "down": "",
+            "recovered": "",
+            "abandoned": "",
+            "unknown": ""
+        },
+        "forum": {
+            "notification": {
+                "down": "",
+                "unready": "",
+                "recovered": "",
+                "abandoned": ""
+            },
+            "settings": {
+                "notify_garrisonServerIncident_label": ""
+            },
+            "title": "",
+            "state": {
+                "running": "",
+                "stopped": "",
+                "starting": "",
+                "stopping": "",
+                "crashed": "",
+                "unknown": ""
+            },
+            "stale": "",
+            "stale_short": "",
+            "players": "",
+            "no_servers": "",
+            "unreachable": "",
+            "join_hidden": "",
+            "widget_heading": "",
+            "see_all": "",
+            "join": "",
+            "join_address_placeholder": "",
+            "join_no_details": "",
+            "join_usual_port": "",
+            "connect": {
+                "valheim": "",
+                "minecraft": "",
+                "minecraft-bedrock": "",
+                "palworld": "",
+                "rust": "",
+                "ark": "",
+                "cs2": "",
+                "satisfactory": "",
+                "factorio": "",
+                "7dtd": "",
+                "projectzomboid": "",
+                "terraria": "",
+                "enshrouded": "",
+                "vrising": "",
+                "dayz": "",
+                "gmod": ""
+            },
+            "join_code": "",
+            "action_failed": "",
+            "console": "",
+            "console_empty": "",
+            "console_placeholder": "",
+            "console_send": "",
+            "confirm_stop": "",
+            "health": {
+                "unready": "",
+                "unready_short": "",
+                "attention": "",
+                "attention_detail": "",
+                "attention_short": "",
+                "unchecked": ""
+            },
+            "action": {
+                "start": "",
+                "stop": "",
+                "restart": ""
+            },
+            "fact": {
+                "players": "",
+                "cpu": "",
+                "memory": "",
+                "uptime": "",
+                "driver": "",
+                "game": ""
+            },
+            "back_to_all": "",
+            "server_not_here": "",
+            "join_address": "",
+            "join_password": "",
+            "join_code_label": "",
+            "config": {
+                "title": "",
+                "load": "",
+                "none": "",
+                "file_empty": "",
+                "read_only": "",
+                "locked": "",
+                "save": ""
+            },
+            "playing": {
+                "title": "",
+                "nobody": ""
+            },
+            "duration": {
+                "minutes": "",
+                "hours": "",
+                "both": ""
+            },
+            "profile": {
+                "title": ""
+            },
+            "board": {
+                "title": "",
+                "online": ""
+            },
+            "link": {
+                "title": "",
+                "explain": "",
+                "name_placeholder": "",
+                "send_code": "",
+                "check_the_game": "",
+                "code_placeholder": "",
+                "confirm": "",
+                "start_over": "",
+                "linked": "",
+                "unlink": ""
+            },
+            "backups": {
+                "title": "",
+                "create": "",
+                "none": "",
+                "safety": "",
+                "restore": "",
+                "delete": "",
+                "cancel": "",
+                "confirm_restore": "",
+                "confirm_restore_stops": "",
+                "confirm_restore_do": "",
+                "confirm_restore_do_stopping": "",
+                "confirm_delete": "",
+                "confirm_delete_do": "",
+                "offsite": {
+                    "none": "",
+                    "ok": "",
+                    "unknown": "",
+                    "failing": ""
+                },
+                "step": {
+                    "stopping": "",
+                    "restoring": ""
+                },
+                "outcome": {
+                    "done_create": "",
+                    "done_restore": "",
+                    "done_delete": "",
+                    "failed_create": "",
+                    "failed_restore": "",
+                    "failed_delete": "",
+                    "done_stop": "",
+                    "failed_stop": "",
+                    "waiting_stop": "",
+                    "waiting_create": "",
+                    "waiting_restore": "",
+                    "waiting_delete": ""
+                }
+            }
+        },
+        "admin": {
+            "title": "",
+            "alerts": "",
+            "webhook": "",
+            "webhook_help": "",
+            "load_failed": "",
+            "machinery": {
+                "last": "",
+                "scheduler": {
+                    "ok": "",
+                    "stalled": "",
+                    "unknown": "",
+                    "stalled_help": ""
+                },
+                "queue": {
+                    "ok": "",
+                    "stalled": "",
+                    "unknown": "",
+                    "stalled_help": ""
+                }
+            },
+            "schedules": {
+                "title": "",
+                "add": "",
+                "none": "",
+                "remove": "",
+                "remove_confirm": "",
+                "kind": {
+                    "restart": "",
+                    "backup": "",
+                    "console": ""
+                },
+                "day": {
+                    "mon": "",
+                    "tue": "",
+                    "wed": "",
+                    "thu": "",
+                    "fri": "",
+                    "sat": "",
+                    "sun": ""
+                },
+                "when": {
+                    "every_day": "",
+                    "weekdays": ""
+                },
+                "summary": "",
+                "line": "",
+                "line_placeholder": "",
+                "warn": "",
+                "warn_line": "",
+                "warn_line_placeholder": ""
+            },
+            "provision": {
+                "load": "",
+                "none": "",
+                "choose": "",
+                "from_steam": "",
+                "id_placeholder": "",
+                "name_placeholder": "",
+                "install": "",
+                "started": "",
+                "failed": "",
+                "no_answer": "",
+                "needs_a_server": ""
+            },
+            "identities": "",
+            "no_identities": "",
+            "identity_pending": "",
+            "identity_unlink_confirm": "",
+            "identity_unlink": "",
+            "hosts": "",
+            "no_hosts": "",
+            "host_name_placeholder": "",
+            "pair": "",
+            "unpair": "",
+            "unpair_confirm": "",
+            "host_seen": "",
+            "host_late": "",
+            "host_never": "",
+            "token_heading": "",
+            "token_once": "",
+            "token_next": "",
+            "token_copied": "",
+            "servers": "",
+            "field_name": "",
+            "field_join_address": "",
+            "field_join_password": "",
+            "field_join_code": "",
+            "public": "",
+            "auto_remediate": "",
+            "attention": "",
+            "clear_attention": "",
+            "backup_every": "",
+            "backup_every_help": "",
+            "icon": "",
+            "icon_help": "",
+            "fetch_logo": "",
+            "fetch_logo_help": "",
+            "logo_url": "",
+            "logo_url_help": "",
+            "fetch": "",
+            "incidents": "",
+            "no_incidents": "",
+            "permissions": {
+                "view": "",
+                "control": "",
+                "console": "",
+                "config": "",
+                "manage": ""
+            }
+        }
+    }
+}
