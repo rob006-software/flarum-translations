@@ -2,14 +2,14 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
-                "appearance_description": "",
-                "behaviour_label": "",
-                "behaviour_description": "",
+                "appearance_label": "外观",
+                "appearance_description": "设置预览卡片的显示效果和打开方式。",
+                "behaviour_label": "预览规则",
+                "behaviour_description": "设置帖子中的哪些链接生成预览卡片。",
                 "performance_label": "性能",
-                "performance_description": "优化链接预览的获取和缓存方式。",
-                "filtering_label": "",
-                "filtering_description": "",
+                "performance_description": "设置预览内容的生成方式和缓存时长。",
+                "filtering_label": "过滤规则",
+                "filtering_description": "设置允许生成预览的网站。每行填写一个，或使用半角逗号分隔。填写主机名会同时匹配子域名，也可以使用通配符（*）匹配某一部分。\n",
                 "general_label": "常规",
                 "general_description": "链接预览的基本显示偏好。",
                 "url_filtering_label": "URL 过滤",
@@ -18,26 +18,26 @@
                 "external_api_description": "当直接获取失败时（例如受机器人保护的站点），使用外部服务。"
             },
             "settings": {
-                "open_links_in_new_tab_label": "在新标签页打开链接",
-                "open_links_in_new_tab_help": "让链接在新标签页中打开。",
-                "google_favicon_fallback_label": "",
-                "google_favicon_fallback_help": "",
-                "preview_internal_links_label": "",
-                "preview_internal_links_help": "",
-                "skip_media_links_label": "",
-                "skip_media_links_help": "",
-                "max_previews_per_post_label": "",
-                "max_previews_per_post_help": "",
-                "enable_batch_requests_label": "启用批量处理",
-                "enable_batch_requests_help": "同时生成多个链接预览，提升加载效率。",
+                "open_links_in_new_tab_label": "在新标签页中打开链接",
+                "open_links_in_new_tab_help": "仅适用于站外链接。本站讨论始终在当前标签页中打开。",
+                "google_favicon_fallback_label": "使用 Google 获取备用站点图标",
+                "google_favicon_fallback_help": "网站未提供站点图标时，由用户的浏览器通过 Google 获取。请求时会将目标网站的域名发送给 Google。\n",
+                "preview_internal_links_label": "预览本站链接",
+                "preview_internal_links_help": "指向本站讨论、用户、标签或首页的链接会直接从数据库读取并生成预览卡片。此功能基于 Flarum 权限系统，不会向链接目标发起网络请求，也不会让用户看到原本无权访问的内容。\n",
+                "skip_media_links_label": "忽略媒体文件链接",
+                "skip_media_links_help": "忽略以图片、音频或视频文件结尾的链接，交由 Flarum 原生渲染。",
+                "max_previews_per_post_label": "每篇帖子预览数量",
+                "max_previews_per_post_help": "超出此数量的链接不渲染，保持普通状态。",
+                "enable_batch_requests_label": "批量获取预览",
+                "enable_batch_requests_help": "将多个链接合并发送到后台获取预览，以减少请求数量。关闭后，每个链接都会单独请求一次预览。反向代理、CDN 或其他前置服务不兼容批量请求时，请关闭此项。\n",
                 "cache_time_label": "缓存时长（分钟）",
-                "cache_time_help": "设置链接预览的缓存存储时长，设为0则禁用缓存，默认值为60分钟。",
-                "allowlist_label": "",
-                "allowlist_help": "",
-                "allowlist_placeholder": "",
-                "blocklist_label": "",
-                "blocklist_help": "",
-                "blocklist_placeholder": "",
+                "cache_time_help": "预览内容的缓存时间。设为 0 禁用缓存。",
+                "allowlist_label": "白名单网站",
+                "allowlist_help": "只为匹配的链接生成预览。",
+                "allowlist_placeholder": "docs.example.com, *.wikipedia.org",
+                "blocklist_label": "黑名单网站",
+                "blocklist_help": "匹配的链接不会生成预览，可覆盖白名单。",
+                "blocklist_placeholder": "example.com, news.example.org/sponsored",
                 "blacklist_label": "排除列表（黑名单）",
                 "blacklist_help": "指定不生成链接预览的域名或URL，如果是多个条目请用英文逗号分隔。",
                 "blacklist_placeholder": "如：flarum.org,flarum.org.cn",
@@ -55,16 +55,16 @@
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "正在加载预览",
             "meta": {
-                "replies": "",
-                "posts": "",
-                "discussions": ""
+                "replies": "{count, plural, other {# 条回复}}",
+                "posts": "{count, plural, other {# 篇帖子}}",
+                "discussions": "{count, plural, other {# 个讨论}}"
             },
-            "clicks": "",
+            "clicks": "{count, plural, other {# 次点击}}",
             "settings": {
-                "hide_link_previews_label": "",
-                "hide_link_previews_help": ""
+                "hide_link_previews_label": "隐藏链接预览",
+                "hide_link_previews_help": "阅读帖子时，不显示链接的预览卡片。"
             },
             "site_cannot_be_reached": "无法加载预览，请检查链接后重试。"
         }
