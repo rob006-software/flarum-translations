@@ -3,83 +3,83 @@
         "admin": {
             "edit_link": {
                 "title": "=> fof-links.ref.create_link",
-                "title_child": "",
+                "title_child": "Nowy link pod „{parent}”",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "",
+                "icon_additional_text": "Jeśli chcesz użyć ikony marki, zamiast tego zastosuj prefiks <code>fab fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Działanie linku",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Prowadzi do strony na tym forum",
+                        "help": "Otwiera stronę bez jej ponownego wczytywania."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Prowadzi do innej witryny",
+                        "help": "Otwiera adres poza tym forum."
                     },
                     "label": {
-                        "label": "",
-                        "help": ""
+                        "label": "Nigdzie nie prowadzi",
+                        "help": "Wyświetla się jako etykieta. Możesz użyć jej jako nazwy grupy linków."
                     }
                 },
                 "url_label": "=> fof-links.ref.url",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "Część adresu po {baseUrl}, zaczynająca się od ukośnika.",
+                    "external": "Pełny adres, łącznie z <code>https://</code>."
                 },
                 "url_placeholder": "=> fof-links.ref.url",
-                "options_label": "",
+                "options_label": "Opcje",
                 "open_newtab": "Otwórz w nowej karcie",
-                "use_rel_me": "",
-                "use_rel_me_help": "",
+                "use_rel_me": "Dodaj atrybut <code>rel=\"me\"</code>",
+                "use_rel_me_help": "Pozwala witrynie, do której prowadzi link, potwierdzić, że to forum należy do Ciebie.",
                 "visibility": {
-                    "label": "",
-                    "help": "",
-                    "help-disabled": "",
+                    "label": "Kto może go zobaczyć",
+                    "help": "Nowy link jest domyślnie widoczny tylko dla użytkowników z grupy {admin}. Zmień uprawnienie, aby udostępnić go szerszej grupie.",
+                    "help-disabled": "Zapisz link, zanim wybierzesz, kto może go zobaczyć.",
                     "guest-only": {
-                        "label": "",
-                        "help": ""
+                        "label": "Pokazuj tylko grupie {guest}",
+                        "help": "Zalogowani użytkownicy nie zobaczą tego linku. Powyższe uprawnienie powinno być ustawione na {everyone}."
                     }
                 },
                 "submit_button": "=> core.ref.save_changes",
                 "delete_link_button": "Usuń link",
                 "delete_link_confirmation": "Czy jesteś pewien, że chcesz usunąć „{title}”?",
-                "url_placeholder.internal": "",
-                "url_placeholder.external": "",
+                "url_placeholder.internal": "/tags",
+                "url_placeholder.external": "https://example.com",
                 "internal_link": "Czy to link wewnętrzny?",
                 "url_description": "Zostaw puste, aby wyświetlić jako etykietę."
             },
             "links": {
                 "links": "=> fof-links.ref.links",
-                "description": "",
+                "description": "Te linki pojawiają się w nawigacji forum w kolejności ustawionej poniżej.",
                 "create_button": "=> fof-links.ref.create_link",
-                "preconfigured": "",
-                "no_url": "",
-                "reorder_help": "",
-                "reorder_loading": "",
-                "reorder_accessible_label": "",
-                "edit_accessible_label": "",
-                "add_child_accessible_label": "",
-                "audience_everyone": "",
+                "preconfigured": "Linki na tym forum zostały skonfigurowane w kodzie i nie można ich tutaj edytować.",
+                "no_url": "Bez linku — wyświetlany jako etykieta",
+                "reorder_help": "Przeciągnij link za uchwyt, aby zmienić jego pozycję, albo upuść go na innym linku, aby umieścić go pod nim. Gdy uchwyt jest aktywny, możesz zrobić to samo za pomocą klawiszy strzałek.",
+                "reorder_loading": "Przygotowywanie listy do zmiany kolejności…",
+                "reorder_accessible_label": "Zmień pozycję „{title}”. Użyj klawiszy strzałek, aby przesunąć link w górę, w dół, pod link znajdujący się wyżej albo z powrotem na wyższy poziom.",
+                "edit_accessible_label": "Edytuj „{title}”",
+                "add_child_accessible_label": "Dodaj link pod „{title}”",
+                "audience_everyone": "Widoczny dla wszystkich",
                 "flag": {
-                    "new_tab": "",
-                    "rel_me": "",
-                    "guest_only": ""
+                    "new_tab": "Nowa karta",
+                    "rel_me": "rel=\"me\"",
+                    "guest_only": "Tylko goście"
                 },
-                "moved": "",
-                "moved_under": ""
+                "moved": "„{title}” przeniesiono na pozycję {position} z {total}.",
+                "moved_under": "„{title}” przeniesiono pod „{parent}”, na pozycję {position} z {total}."
             },
             "settings": {
-                "heading": "",
+                "heading": "Ustawienia",
                 "show_icons_only_on_tablet": "Wyświetlaj tylko ikonki na tabletowych rozdzielczościach",
-                "show_icons_only_on_tablet_help": ""
+                "show_icons_only_on_tablet_help": "Ukrywa tytuły linków przy szerokości od 768 do 991 px, gdy w nawigacji jest najmniej miejsca. Czytniki ekranu nadal odczytują ich nazwy."
             }
         },
         "forum": {
             "header": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Pokaż linki pod „{title}”"
             }
         },
         "ref": {
