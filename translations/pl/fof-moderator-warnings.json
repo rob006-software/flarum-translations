@@ -30,7 +30,7 @@
                 "warning_button": "Ostrzeż użytkownika"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Ostrzeżenia"
             },
             "settings": {
                 "warning_notification_label": "Moderator dał mi ostrzeżenie"
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {# punkt karny, {time}} few {# punkty karne, {time}} other {# punktów karnych, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {# punkt karny, {time} (ostrzeżenie usunięte)} few {# punkty karne, {time} (ostrzeżenie usunięte)} other {# punktów karnych, {time} (ostrzeżenie usunięte)}}",
                 "public_comment": "Ostrzeżenie",
                 "private_comment": "Komentarz widoczny dla moderatora",
                 "linked_post": "Powiązany post"
@@ -71,10 +71,10 @@
         "lib": {
             "browser": {
                 "warning": {
-                    "created": "",
-                    "hidden": "",
-                    "restored": "",
-                    "deleted": ""
+                    "created": "Ostrzeżono użytkownika {username}",
+                    "hidden": "Usunięto ostrzeżenie użytkownika {username}",
+                    "restored": "Przywrócono ostrzeżenie użytkownika {username}",
+                    "deleted": "Trwale usunięto ostrzeżenie użytkownika {username}"
                 }
             }
         }
