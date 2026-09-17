@@ -57,14 +57,14 @@
             "settings": {
                 "notify_garrisonServerIncident_label": ""
             },
-            "title": "",
+            "title": "Spieleserver",
             "state": {
-                "running": "",
-                "stopped": "",
+                "running": "Wird ausgeführt",
+                "stopped": "Gestoppt",
                 "starting": "Wird gestartet",
-                "stopping": "",
-                "crashed": "",
-                "unknown": ""
+                "stopping": "Wird gestoppt",
+                "crashed": "Abgestürzt",
+                "unknown": "Unbekannt"
             },
             "stale": "",
             "stale_short": "",
@@ -73,7 +73,7 @@
             "unreachable": "",
             "join_hidden": "",
             "widget_heading": "",
-            "see_all": "",
+            "see_all": "Alle Server",
             "join": "",
             "join_address_placeholder": "",
             "join_no_details": "",
@@ -136,16 +136,16 @@
                 "file_empty": "",
                 "read_only": "",
                 "locked": "",
-                "save": ""
+                "save": "Speichern"
             },
             "playing": {
-                "title": "",
+                "title": "{count, plural, one {# Spieler} other {# Spieler}} im Spiel",
                 "nobody": ""
             },
             "duration": {
                 "minutes": "",
-                "hours": "",
-                "both": ""
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "both": "{hours} h {minutes} m"
             },
             "profile": {
                 "title": ""
