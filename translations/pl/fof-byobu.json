@@ -121,25 +121,25 @@
                 "private_discussion_added": "[Prywatna dyskusja] {display_name} dodał Cię do prywatnej dyskusji"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} rozpoczął z Tobą nową prywatną dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "private_discussion_replied": "{actor_display_name} odpowiedział w prywatnej dyskusji, w której uczestniczysz: {discussion_title}.\n\nZobacz odpowiedź tutaj:\n{post_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "recipient_removed": "{actor_display_name} opuścił prywatną dyskusję: {discussion_title}. Nie będzie już mieć dostępu do jej treści.\n\nZobacz dyskusję tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "private_discussion_added": "{actor_display_name} dodał Cię do istniejącej prywatnej dyskusji: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "made_public": "{actor_display_name} usunął wszystkich uczestników i upublicznił dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "",
-                    "hint": ""
+                    "key": "byobu",
+                    "hint": "nazwa użytkownika lub wyświetlana nazwa uczestnika"
                 },
                 "private": {
-                    "key": ""
+                    "key": "private"
                 },
                 "allows-pd": {
-                    "key": "",
-                    "hint": ""
+                    "key": "allows-pd",
+                    "hint": "yes"
                 }
             }
         }
