@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1892** are translated differently and **1920** are
-translated only in `zh_Hans`. Altogether they cover **139** components.
+sides, but do not match between them: **1902** are translated differently and **1920** are
+translated only in `zh_Hans`. Altogether they cover **140** components.
 
 <!-- {% raw %} -->
 
@@ -12,11 +12,12 @@ translated only in `zh_Hans`. Altogether they cover **139** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `acpl-lscache` | [3](#acpl-lscache) | [8](#acpl-lscache-missing) |
+| `acpl-lscache` | [12](#acpl-lscache) | [8](#acpl-lscache-missing) |
 | `antoinefr-money` | [7](#antoinefr-money) | 0 |
 | `core` | [117](#core) | 0 |
 | `datitisev-backup` | [28](#datitisev-backup) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
+| `datlechin-copy-links` | [1](#datlechin-copy-links) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
 | `datlechin-passkey` | [1](#datlechin-passkey) | [4](#datlechin-passkey-missing) |
 | `datlechin-tag-passwords` | [21](#datlechin-tag-passwords) | 0 |
@@ -160,6 +161,90 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ### `acpl-lscache`
 
+#### [`acpl-lscache.admin.cache_enabled_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.cache_enabled_help%22)
+
+> Check out the &lt;a&gt;Information page&lt;/a&gt; on how to test the cache. NOTE: When disabling the cache, all cached entries for this site will be purged.
+
+```diff
+-请查看<a>信息页面</a>，了解如何测试缓存。注意：站点的所有缓存内容均会在禁用缓存时清除。
++请查看<a>信息页面</a>，了解如何测试缓存。注意：站点的所有缓存内容均会在关闭 LSCache 时清除。
+```
+
+#### [`acpl-lscache.admin.cache_enabled_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.cache_enabled_label%22)
+
+> Enable LSCache
+
+```diff
+-开启 LSCache
++启用 LSCache
+```
+
+<del>开启</del><ins>启用</ins> LSCache
+
+#### [`acpl-lscache.admin.cache_exclude_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.cache_exclude_help%22)
+
+> Paths containing these strings will not be cached. For &lt;code&gt;/mypath/mypage?aa=bb&lt;/code&gt;, you can use &lt;code&gt;mypage?aa=&lt;/code&gt;. To match the beginning, add &lt;code&gt;^&lt;/code&gt; at the start. For an exact match, add &lt;code&gt;$&lt;/code&gt; at the end of the URL. One per line.
+
+```diff
+-指定禁止缓存的页面路由，一行一个。例如 <code>mypage?aa=</code> 可以禁止缓存 <code>/mypath/mypage?aa=bb</code> 页面。要匹配字符串开头，请以 <code>^</code> 作为前缀。要进行完全匹配，请以 <code>$</code> 作为后缀。
++指定禁止缓存的页面路径，字符串匹配。例如，如禁止缓存 <code>/mypath/mypage?aa=bb</code>，可以填写 <code>mypage?aa=</code>。要匹配路径开头，请添加 <code>^</code> 前缀，要匹配路径结尾，请添加 <code>$</code> 后缀。每行一项。
+```
+
+<del>指定禁止缓存的页面路由，一行一个。例如 &lt;code&gt;mypage?aa=&lt;/code&gt; 可以禁止缓存</del><ins>指定禁止缓存的页面路径，字符串匹配。例如，如禁止缓存</ins> <del>&lt;code&gt;/mypath/mypage?aa=bb&lt;/code&gt;</del><ins>&lt;code&gt;/mypath/mypage?aa=bb&lt;/code&gt;，可以填写</ins> <del>页面。要匹配字符串开头，请以</del><ins>&lt;code&gt;mypage?aa=&lt;/code&gt;。要匹配路径开头，请添加</ins> &lt;code&gt;^&lt;/code&gt; <del>作为前缀。要进行完全匹配，请以</del><ins>前缀，要匹配路径结尾，请添加</ins> &lt;code&gt;$&lt;/code&gt; <del>作为后缀。</del><ins>后缀。每行一项。</ins>
+
+#### [`acpl-lscache.admin.cache_exclude_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.cache_exclude_label%22)
+
+> Exclude Paths from Caching
+
+```diff
+-禁用缓存路由名单
++缓存排除
+```
+
+#### [`acpl-lscache.admin.drop_qs_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.drop_qs_help%22)
+
+> Use this feature to drop specific query strings, like &lt;code&gt;fbclid&lt;/code&gt; or &lt;code&gt;utm\*&lt;/code&gt;, when caching. This prevents redundant caching of pages with "junk" query strings such as UTM codes, which are used for tracking but don't affect page content. This requires LSWS v5.2.3 or newer. List the query strings to drop, one per line. &lt;a&gt;Learn more about dropping query strings&lt;/a&gt;.&lt;br&gt;&lt;/br&gt;
+> ⚠️ This setting will modify the .htaccess file.
+>
+
+```diff
+-指定进行缓存匹配时要去除的查询参数字符串，一行一个。可防止对带有 UTM 代码等无用查询参数的页面进行冗余缓存，例如 <code>fbclid</code> 或者 <code>utm*</code>，这些查询参数仅用于跟踪，与页面内容无关。此功能需要 LSWS v5.2.3 或更高版本。<a>关于删除查询参数</a>。<br></br>
++缓存时忽略指定查询参数，每行一个，例如 <code>fbclid</code> 或 <code>utm*</code>，以避免因 UTM 等只用于跟踪、不改变页面内容的参数而重复生成缓存。此功能需要 LSWS v5.2.3 或更高版本。<a>关于忽略查询参数</a>。<br></br>
+ ⚠️ 此设置会修改 .htaccess 文件。
+
+```
+
+<del>指定进行缓存匹配时要去除的查询参数字符串，一行一个。可防止对带有</del><ins>缓存时忽略指定查询参数，每行一个，例如</ins> <del>UTM</del><ins>&lt;code&gt;fbclid&lt;/code&gt;</ins> <del>代码等无用查询参数的页面进行冗余缓存，例如</del><ins>或</ins> <del>&lt;code&gt;fbclid&lt;/code&gt;</del><ins>&lt;code&gt;utm\*&lt;/code&gt;，以避免因</ins> <del>或者</del><ins>UTM</ins> <del>&lt;code&gt;utm\*&lt;/code&gt;，这些查询参数仅用于跟踪，与页面内容无关。此功能需要</del><ins>等只用于跟踪、不改变页面内容的参数而重复生成缓存。此功能需要</ins> LSWS v5.2.3 <del>或更高版本。&lt;a&gt;关于删除查询参数&lt;/a&gt;。&lt;br&gt;&lt;/br&gt;</del><ins>或更高版本。&lt;a&gt;关于忽略查询参数&lt;/a&gt;。&lt;br&gt;&lt;/br&gt;</ins><br />⚠️ 此设置会修改 .htaccess 文件。<br />
+
+#### [`acpl-lscache.admin.drop_qs_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.drop_qs_label%22)
+
+> Drop Query Strings
+
+```diff
+-删除查询参数
++忽略查询参数
+```
+
+#### [`acpl-lscache.admin.public_cache_ttl_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.public_cache_ttl_help%22)
+
+> Define how long, in seconds, public pages should be cached. The default value is 604800 seconds (one week).
+
+```diff
+-设置公共网页缓存的有效时间，以秒为单位。默认值是 604800 秒（一个星期）。
++设置公共页面的缓存时长，单位为秒。默认值为 604800 秒（1 周）。
+```
+
+<del>设置公共网页缓存的有效时间，以秒为单位。默认值是</del><ins>设置公共页面的缓存时长，单位为秒。默认值为</ins> 604800 <del>秒（一个星期）。</del><ins>秒（1 周）。</ins>
+
+#### [`acpl-lscache.admin.public_cache_ttl_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.public_cache_ttl_label%22)
+
+> Default Public Cache TTL
+
+```diff
+-公共缓存默认生存时间
++默认公共缓存 TTL
+```
+
 #### [`acpl-lscache.admin.purge_all`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.purge_all%22)
 
 > =&gt; acpl-lscache.ref.purge\_cache
@@ -175,10 +260,10 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -指定主题帖发生变化时要清除的页面路由或缓存标签，一行一个。路由以 <code>/</code> 开头，例如 <code>/rankings</code>。标签应以 <code>tag=</code> 开头，例如 <code>tag=rankings</code>。要清除多个路由，请在 .htaccess 中添加正则表达式规则，并在此处填写表达式，<a>了解更多</a>。默认情况下，会清除主页或发生变化的主题帖缓存。
-+指定讨论帖发生变化时要清除的页面路由或缓存标签，一行一个。路由以 <code>/</code> 开头，例如 <code>/rankings</code>。标签应以 <code>tag=</code> 开头，例如 <code>tag=rankings</code>。要清除多个路由，请在 .htaccess 中添加正则表达式规则，并在此处填写表达式，<a>了解更多</a>。默认情况下，会清除主页或发生变化的讨论帖缓存。
++填写讨论更新时需要清除的 URL 或缓存标签，每行一项。URL 必须以 <code>/</code> 开头，例如 <code>/rankings</code>；缓存标签必须以 <code>tag=</code> 开头，例如 <code>tag=rankings</code>。如果需要匹配多个路由，请在 .htaccess 中通过正则表达式为这些路由添加缓存标签，然后在此填写对应标签，<a>了解更多</a>。默认情况下，首页和被更新讨论的缓存会自动清除。
 ```
 
-<del>指定主题帖发生变化时要清除的页面路由或缓存标签，一行一个。路由以</del><ins>指定讨论帖发生变化时要清除的页面路由或缓存标签，一行一个。路由以</ins> &lt;code&gt;/&lt;/code&gt; 开头，例如 &lt;code&gt;/rankings&lt;/code&gt;。标签应以 &lt;code&gt;tag=&lt;/code&gt; 开头，例如 &lt;code&gt;tag=rankings&lt;/code&gt;。要清除多个路由，请在 .htaccess <del>中添加正则表达式规则，并在此处填写表达式，&lt;a&gt;了解更多&lt;/a&gt;。默认情况下，会清除主页或发生变化的主题帖缓存。</del><ins>中添加正则表达式规则，并在此处填写表达式，&lt;a&gt;了解更多&lt;/a&gt;。默认情况下，会清除主页或发生变化的讨论帖缓存。</ins>
+<del>指定主题帖发生变化时要清除的页面路由或缓存标签，一行一个。路由以</del><ins>填写讨论更新时需要清除的 URL 或缓存标签，每行一项。URL 必须以</ins> &lt;code&gt;/&lt;/code&gt; 开头，例如 <del>&lt;code&gt;/rankings&lt;/code&gt;。标签应以</del><ins>&lt;code&gt;/rankings&lt;/code&gt;；缓存标签必须以</ins> &lt;code&gt;tag=&lt;/code&gt; 开头，例如 <del>&lt;code&gt;tag=rankings&lt;/code&gt;。要清除多个路由，请在</del><ins>&lt;code&gt;tag=rankings&lt;/code&gt;。如果需要匹配多个路由，请在</ins> .htaccess <del>中添加正则表达式规则，并在此处填写表达式，&lt;a&gt;了解更多&lt;/a&gt;。默认情况下，会清除主页或发生变化的主题帖缓存。</del><ins>中通过正则表达式为这些路由添加缓存标签，然后在此填写对应标签，&lt;a&gt;了解更多&lt;/a&gt;。默认情况下，首页和被更新讨论的缓存会自动清除。</ins>
 
 #### [`acpl-lscache.admin.purge_on_discussion_update_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.purge_on_discussion_update_label%22)
 
@@ -186,10 +271,19 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -主题更新时清除 URL 和缓存标签
-+讨论更新时清除 URL 和缓存标签
++讨论更新时清除指定 URL 或缓存标签
 ```
 
-<del>主题更新时清除</del><ins>讨论更新时清除</ins> URL 和缓存标签
+<del>主题更新时清除</del><ins>讨论更新时清除指定</ins> URL <del>和缓存标签</del><ins>或缓存标签</ins>
+
+#### [`acpl-lscache.admin.serve_stale_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.serve_stale_label%22)
+
+> Serve Stale Content
+
+```diff
+-提供过期内容
++提供过期缓存
+```
 
 
 ### `antoinefr-money`
@@ -1042,7 +1136,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -无法停用「{extension}」，请先停用依赖扩展「{extensions}」
-+无法禁用「{extension」。请先禁用以下依赖它的扩展：{extensions}
++无法禁用「{extension}」。请先禁用以下依赖它的扩展：{extensions}
 ```
 
 #### [`core.lib.error.extension_initialiation_failed_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.lib.error.extension_initialiation_failed_message%22)
@@ -1644,6 +1738,18 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 ```diff
 -新的一岁！
 +今天生日
+```
+
+
+### `datlechin-copy-links`
+
+#### [`datlechin-copy-links.forum.link_copied_message`](https://weblate.rob006.net/translate/flarum2/datlechin-copy-links/zh_Hans/?q=context%3A%3D%22datlechin-copy-links.forum.link_copied_message%22)
+
+> Link copied to clipboard!
+
+```diff
+-链接已复制到剪贴板！
++链接已复制到剪贴板
 ```
 
 
@@ -18657,7 +18763,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Specify an HTTP status code and the number of seconds to cache that page, separated by a space. One per line.
 
 ```diff
-+指定 HTTP 状态码以及该页面的缓存时间（秒），两者用空格分隔，每行一个。
++填写 HTTP 状态码及该页面的缓存时长（秒），两者使用空格分隔。每行一个。
 ```
 
 #### [`acpl-lscache.admin.status_codes_cache_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.status_codes_cache_label%22)
@@ -18665,7 +18771,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Default HTTP Status Code Page TTL
 
 ```diff
-+默认 HTTP 状态码页面缓存时间
++HTTP 状态页默认缓存 TTL
 ```
 
 #### [`acpl-lscache.admin.test_failed_alert`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.admin.test_failed_alert%22)
@@ -18673,7 +18779,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > It looks like your server does not support LSCache. Check your server configuration. Detected server: &lt;b&gt;{server}&lt;/b&gt;, detected LiteSpeed type: &lt;b&gt;{type}&lt;/b&gt;.
 
 ```diff
-+您的服务器似乎不支持 LSCache。请检查服务器配置。检测到的服务器：<b>{server}</b>，检测到的 LiteSpeed 类型：<b>{type}</b>。
++服务器似乎不支持 LSCache，请检查服务器配置。检测到的服务器：<b>{server}</b>，LiteSpeed 类型：<b>{type}</b>。
 ```
 
 #### [`acpl-lscache.forum.purge.discussion`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.forum.purge.discussion%22)
@@ -18689,7 +18795,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Notified LiteSpeed Server to purge all LSCache entries.
 
 ```diff
-+已通知 LiteSpeed 服务器清除所有 LSCache 缓存。
++已通知 LiteSpeed Server 清除全部 LSCache 缓存条目。
 ```
 
 #### [`acpl-lscache.lib.purge_success`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.lib.purge_success%22)
@@ -18697,7 +18803,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Notified LiteSpeed Server to purge LSCache entries.
 
 ```diff
-+已通知 LiteSpeed 服务器清除 LSCache 缓存。
++已通知 LiteSpeed Server 清除 LSCache 缓存条目。
 ```
 
 #### [`acpl-lscache.ref.purge_cache`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/zh_Hans/?q=context%3A%3D%22acpl-lscache.ref.purge_cache%22)
@@ -18751,7 +18857,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Start playing immediately when a filename is clicked
 
 ```diff
-+点击文件名后立即自动播放
++点击文件名后立即开始播放
 ```
 
 #### [`ekumanov-inline-audio.admin.settings.show_download_button`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.show_download_button%22)
@@ -18767,7 +18873,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Allow right-click on filename to save the file
 
 ```diff
-+允许通过右键点击文件名保存文件
++允许右键点击文件名保存文件
 ```
 
 #### [`ekumanov-inline-audio.admin.settings.strip_upload_prefix`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/zh_Hans/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.strip_upload_prefix%22)
@@ -18775,7 +18881,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Hide numeric prefix from uploaded filenames (e.g. "1774205518-685373-song.mp3" → "song.mp3")
 
 ```diff
-+隐藏已上传文件名的数字前缀 (例如 \"1774205518-685373-song.mp3\" → \"song.mp3\")
++隐藏上传文件名中的数字前缀（例如「1774205518-685373-song.mp3」→「song.mp3」）
 ```
 
 

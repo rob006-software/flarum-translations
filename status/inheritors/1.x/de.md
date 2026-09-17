@@ -4893,7 +4893,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.directory.hide_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.hide_button%22)
 
-> Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
 +Diskussionsmarkierungen
@@ -4917,7 +4917,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
 
-> Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
 +Diskussionsmarkierungen
@@ -4933,7 +4933,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.discussion_controls.show_all_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button%22)
 
-> Show All Posts
+> All Posts
 
 ```diff
 +Alle Beiträge anzeigen
@@ -4941,7 +4941,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button%22)
 
-> Only Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
 +Nur Diskussionsmarkierungen
@@ -5245,7 +5245,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.lib.type_form.icon_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_placeholder%22)
 
-> fa-solid fa-book
+> fas fa-bookmark
 
 ```diff
 +fa-solid fa-book

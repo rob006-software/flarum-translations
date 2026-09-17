@@ -2,8 +2,8 @@
 
 Translations for Hungarian (`hu`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **44** are translated differently and **6** are
-translated only in `hu`. Altogether they cover **22** components.
+sides, but do not match between them: **45** are translated differently and **8** are
+translated only in `hu`. Altogether they cover **24** components.
 
 <!-- {% raw %} -->
 
@@ -18,6 +18,7 @@ translated only in `hu`. Altogether they cover **22** components.
 | `flarum-nicknames` | [3](#flarum-nicknames) | 0 |
 | `flarum-sticky` | [1](#flarum-sticky) | 0 |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
+| `flectar-turnstile` | 0 | [2](#flectar-turnstile-missing) |
 | `fof-analytics` | [4](#fof-analytics) | 0 |
 | `fof-anti-spam` | [2](#fof-anti-spam) | 0 |
 | `fof-ban-ips` | [1](#fof-ban-ips) | 0 |
@@ -32,6 +33,7 @@ translated only in `hu`. Altogether they cover **22** components.
 | `fof-upload` | [1](#fof-upload) | 0 |
 | `forumaker-magicbb` | [2](#forumaker-magicbb) | 0 |
 | `glowingblue-password-strength` | [1](#glowingblue-password-strength) | 0 |
+| `huseyinfiliz-leaderboard` | [1](#huseyinfiliz-leaderboard) | 0 |
 | `justoverclock-related-discussions` | [1](#justoverclock-related-discussions) | 0 |
 | `validation` | [1](#validation) | 0 |
 
@@ -542,6 +544,18 @@ A képeket és más <del>soron belüli</del><ins>beágyazott</ins> médiát egy 
 <del>Kapcsoló a</del><ins>A</ins> jelszó <del>láthatóságához</del><ins>láthatóságát állító kapcsoló engedélyezése</ins> a Regisztráció és a Bejelentkezés párbeszédablakokon
 
 
+### `huseyinfiliz-leaderboard`
+
+#### [`huseyinfiliz-leaderboard.admin.modals.select_tags`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/hu/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.select_tags%22)
+
+> Select Tags
+
+```diff
+-Cimkék kijelölése
++Címkék kiválasztása
+```
+
+
 ### `justoverclock-related-discussions`
 
 #### [`justoverclock-related-discussions.forum.hasBestAnswer`](https://weblate.rob006.net/translate/flarum2/justoverclock-related-discussions/hu/?q=context%3A%3D%22justoverclock-related-discussions.forum.hasBestAnswer%22)
@@ -569,6 +583,25 @@ A képeket és más <del>soron belüli</del><ins>beágyazott</ins> médiát egy 
 ## Missing translations
 
 These strings are translated only in `hu`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `hu`.
+
+
+### `flectar-turnstile` (missing)
+
+#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/hu/?q=context%3A%3D%22validation.custom.turnstile.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Fejezze be a Turnstile kihívást.
+```
+
+#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/hu/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++Fejezze be a Turnstile kihívást.
+```
 
 
 ### `fof-forum-stats-widget` (missing)

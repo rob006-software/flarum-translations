@@ -2,8 +2,8 @@
 
 Translations for Turkish (`tr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **6** are translated differently and **0** are
-translated only in `tr`. Altogether they cover **5** components.
+sides, but do not match between them: **7** are translated differently and **0** are
+translated only in `tr`. Altogether they cover **6** components.
 
 <!-- {% raw %} -->
 
@@ -14,8 +14,9 @@ translated only in `tr`. Altogether they cover **5** components.
 | --- | --- |
 | `ekumanov-inline-audio` | [1](#ekumanov-inline-audio) |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) |
+| `flarum-audit` | [1](#flarum-audit) |
+| `fof-ban-ips` | [1](#fof-ban-ips) |
 | `fof-frontpage` | [1](#fof-frontpage) |
-| `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `huseyinfiliz-diff` | [1](#huseyinfiliz-diff) |
 
 
@@ -79,6 +80,34 @@ Ses <del>oynatıcısını</del><ins>oynatıcı</ins> <del>ekleyin:</del><ins>ekl
 <del>Siz yazarken</del><ins>Yazarken</ins> 1 yeni yanıt eklendi.<br /><br />Tamam → <del>Yanıtınızı</del><ins>Yanıtını</ins> yine de <del>gönderin</del><ins>gönder</ins><br />İptal → Önce <del>okuyun</del><ins>oku</ins> <del>(taslağınız</del><ins>(taslağın</ins> açık kalır)
 
 
+### `flarum-audit`
+
+#### [`flarum-audit.lib.browser.filters.user`](https://weblate.rob006.net/translate/flarum2/flarum-audit/tr/?q=context%3A%3D%22flarum-audit.lib.browser.filters.user%22)
+
+> The user the action affected, by username.
+
+```diff
+-Eylemin etkilediği kullanıcı (kullanıcı adına göre).
++Eylemin etkilediği kullanıcı (kullanıcı adına göre)
+```
+
+Eylemin etkilediği kullanıcı (kullanıcı adına <del>göre).</del><ins>göre)</ins>
+
+
+### `fof-ban-ips`
+
+#### [`fof-ban-ips.lib.modal.unban_ip_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-ban-ips/tr/?q=context%3A%3D%22fof-ban-ips.lib.modal.unban_ip_confirmation%22)
+
+> Are you sure you want to unban this user and all other users not banned by other IPs?
+
+```diff
+-Bu IP adresinin foruma erişim yasağını kaldırmak istiyor musunuz? Bu IP'yi kullanan kullanıcılar artık foruma erişebilir.
++Bu kullanıcının ve farklı bir IP üzerinden yasaklanmamış olan diğer kullanıcıların yasağını kaldırmak istediğinize emin misiniz?
+```
+
+Bu <del>IP</del><ins>kullanıcının</ins> <del>adresinin</del><ins>ve</ins> <del>foruma</del><ins>farklı</ins> <del>erişim</del><ins>bir</ins> <del>yasağını</del><ins>IP</ins> <del>kaldırmak</del><ins>üzerinden</ins> <del>istiyor</del><ins>yasaklanmamış</ins> <del>musunuz?</del><ins>olan</ins> <del>Bu</del><ins>diğer</ins> <del>IP'yi</del><ins>kullanıcıların</ins> <del>kullanan</del><ins>yasağını</ins> <del>kullanıcılar</del><ins>kaldırmak</ins> <del>artık</del><ins>istediğinize</ins> <del>foruma</del><ins>emin</ins> <del>erişebilir.</del><ins>misiniz?</ins>
+
+
 ### `fof-frontpage`
 
 #### [`core.forum.index_sort.front_button`](https://weblate.rob006.net/translate/flarum2/fof-frontpage/tr/?q=context%3A%3D%22core.forum.index_sort.front_button%22)
@@ -89,20 +118,6 @@ Ses <del>oynatıcısını</del><ins>oynatıcı</ins> <del>ekleyin:</del><ins>ekl
 -ÖnSayfa
 +Ana Sayfa
 ```
-
-
-### `forumaker-magicbb`
-
-#### [`forumaker-magicbb.forum.composer.image_button`](https://weblate.rob006.net/translate/flarum2/forumaker-magicbb/tr/?q=context%3A%3D%22forumaker-magicbb.forum.composer.image_button%22)
-
-> Align image
-
-```diff
--Görsel ekle
-+Akıllı görsel ekle
-```
-
-<del>Görsel</del><ins>Akıllı görsel</ins> ekle
 
 
 ### `huseyinfiliz-diff`

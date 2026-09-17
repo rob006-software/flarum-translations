@@ -2,7 +2,7 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **138** are translated differently and **433** are
+sides, but do not match between them: **138** are translated differently and **436** are
 translated only in `fr`. Altogether they cover **51** components.
 
 <!-- {% raw %} -->
@@ -19,7 +19,7 @@ translated only in `fr`. Altogether they cover **51** components.
 | `ekumanov-inline-audio` | [4](#ekumanov-inline-audio) | 0 |
 | `ekumanov-new-posts-notice` | [2](#ekumanov-new-posts-notice) | 0 |
 | `ffans-geetest` | [1](#ffans-geetest) | 0 |
-| `ffans-threadmarks` | 0 | [86](#ffans-threadmarks-missing) |
+| `ffans-threadmarks` | 0 | [89](#ffans-threadmarks-missing) |
 | `flarum-extension-manager` | [2](#flarum-extension-manager) | 0 |
 | `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `fof-author-change` | [4](#fof-author-change) | 0 |
@@ -1956,10 +1956,10 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.directory.hide_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.hide_button%22)
 
-> Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Signets
++=> ffans-threadmarks.ref.threadmarks
 ```
 
 #### [`ffans-threadmarks.forum.directory.personal_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.personal_filter%22)
@@ -1980,10 +1980,18 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.directory.show_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button%22)
 
-> Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Signets
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.directory.show_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button_a11y_label%22)
+
+> Open threadmark directory
+
+```diff
++Ouvrir le répertoire des signets
 ```
 
 #### [`ffans-threadmarks.forum.directory.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.directory.title%22)
@@ -1996,7 +2004,15 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.discussion_controls.show_all_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button%22)
 
-> Show All Posts
+> All Posts
+
+```diff
++Messages
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_all_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button_a11y_label%22)
+
+> Show all posts
 
 ```diff
 +Afficher tous les messages
@@ -2004,10 +2020,18 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button%22)
 
-> Only Threadmarks
+> =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Signets uniquement
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button_a11y_label%22)
+
+> Show threadmarked posts only
+
+```diff
++Afficher uniquement les messages marqués d'un signet
 ```
 
 #### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
@@ -2127,7 +2151,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > No threadmarks available to manage.
 
 ```diff
-+Aucun signet à gérer.
++Aucun signet disponible à gérer.
 ```
 
 #### [`ffans-threadmarks.forum.post_controls.manage_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.post_controls.manage_button%22)
@@ -2135,7 +2159,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > Manage Threadmark
 
 ```diff
-+Gérer le signet
++Gérer un signet
 ```
 
 #### [`ffans-threadmarks.forum.scrubber.cluster_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.forum.scrubber.cluster_a11y_label%22)
@@ -2308,10 +2332,10 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 
 #### [`ffans-threadmarks.lib.type_form.icon_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_placeholder%22)
 
-> fa-solid fa-book
+> fas fa-bookmark
 
 ```diff
-+fa-solid fa-book
++fas fa-bookmark
 ```
 
 #### [`ffans-threadmarks.lib.type_form.key_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.key_label%22)
@@ -2367,7 +2391,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > Discussion threadmarks can only target comment posts.
 
 ```diff
-+Les signets de discussion ne peuvent concerner que les commentaires.
++Les signets de discussion ne peuvent cibler que les commentaires.
 ```
 
 #### [`ffans-threadmarks.lib.validation.invalid_personal_post`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.invalid_personal_post%22)
@@ -2375,7 +2399,7 @@ These strings are translated only in `fr`, so there is nothing to inherit from F
 > Personal threadmarks can only target comment posts.
 
 ```diff
-+Les signets personnels ne peuvent concerner que les commentaires.
++Les signets personnels ne peuvent cibler que les commentaires.
 ```
 
 #### [`ffans-threadmarks.lib.validation.type_in_use`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/fr/?q=context%3A%3D%22ffans-threadmarks.lib.validation.type_in_use%22)
