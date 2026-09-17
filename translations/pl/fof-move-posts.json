@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do {new_discussion}",
+                    "moved_to_new_discussion": "Przeniesiono {post_count, plural, one {jeden post} few {{post_count} posty} other {{post_count} postów}} z {discussion} do nowej dyskusji {new_discussion}"
                 }
             }
         }
