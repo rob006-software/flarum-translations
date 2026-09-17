@@ -605,7 +605,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/1.0.1/locale/en.yml',
 	],
 	'fof-bookmarks' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/1.0.1/locale/en.yml',
 	],
 	'fof-byobu' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.4.7/resources/locale/en.yml',
