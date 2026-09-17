@@ -524,7 +524,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.8.2/locale/en.yml',
 	],
 	'flarum-audit' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/audit/v1.8.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/audit/v1.8.1/locale/en.yml',
 	],
 	'flarum-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v1.8.0/locale/en.yml',
