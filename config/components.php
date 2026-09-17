@@ -197,6 +197,9 @@ return [
 	'ernestdefoe-marginalia' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.3/locale/en.yml',
 	],
+	'ernestdefoe-millwright' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/millwright/v1.8.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.1/resources/locale/en.yml',
 	],
