@@ -56,27 +56,27 @@
         "antoinefr-money": {
             "admin": {
                 "automoderator": {
-                    "action_name": "0372c8557148997bd858632433df4e73 7999553fd94f4bddc0a318bf398ed531",
+                    "action_name": "0372c8557148997bd858632433df4e73 b44c6779e328e26315e973d625dd91a0",
                     "metric_name": "c92beb94159de5053e4cca0f1e094670 8392ba7cdceb9f39f0d789ccfe786866"
                 },
                 "autoremove": [
-                    "e05794ba001dab5a250f91104344091c cc7a2688636a5df0130f6e8577d65378",
-                    "a0452c8c663fa628d9e5f694249757c4 a0452c8c663fa628d9e5f694249757c4",
-                    "a82da240241a0e2eb654c61cd2de7454 a82da240241a0e2eb654c61cd2de7454"
+                    "e05794ba001dab5a250f91104344091c adf9b71507ba7ff317a028af9b253c4d",
+                    "a0452c8c663fa628d9e5f694249757c4 e5f07ef152ea68ddbfadd8ebed00572c",
+                    "a82da240241a0e2eb654c61cd2de7454 317562fc2ace0d3d1206b11413d76b9d"
                 ],
                 "permissions": {
-                    "disable_money_label": "fefa5e37d264d8aa975382e0457cb324 fefa5e37d264d8aa975382e0457cb324",
-                    "edit_money_label": "f4eeed9d117aef67d87efc239e3b3629 2c205ab16dc9cd727b8fc4d55dc05b5a"
+                    "disable_money_label": "fefa5e37d264d8aa975382e0457cb324 57059ec889c3dcc7a91d359f79324fc0",
+                    "edit_money_label": "f4eeed9d117aef67d87efc239e3b3629 711917b8b3801caa58a22e57403468cd"
                 },
                 "settings": {
-                    "autoremove": "2b949367af5725bf0c1ae529d798c077 15a745fccc3d95551165f5f5832c43f1",
-                    "cascaderemove": "24794a8735969b9ed9b788768ab0824c 24794a8735969b9ed9b788768ab0824c",
-                    "helpextensionlikes": "d2045e6320885db842b102f9eadcf12f d2045e6320885db842b102f9eadcf12f",
-                    "ignore_notifying_users": "556a6aa89afa02c5c6be3da4be2d0dab 556a6aa89afa02c5c6be3da4be2d0dab",
-                    "moneyfordiscussion": "e0dd15cde5ccd28deaf00fc00d90def6 e0dd15cde5ccd28deaf00fc00d90def6",
-                    "moneyforlike": "1ff975fe1a8784a0d75ddc3527c79830 1ff975fe1a8784a0d75ddc3527c79830",
+                    "autoremove": "2b949367af5725bf0c1ae529d798c077 2453711fa89a78c1bda09ce8661bd471",
+                    "cascaderemove": "24794a8735969b9ed9b788768ab0824c 61dddebe66588d42fae266c374e1bf3b",
+                    "helpextensionlikes": "d2045e6320885db842b102f9eadcf12f aab76d3ce3ae575c95fb9b6050b4c1cb",
+                    "ignore_notifying_users": "556a6aa89afa02c5c6be3da4be2d0dab 9f1e2d201f4d3dbca837729b1f1555ea",
+                    "moneyfordiscussion": "e0dd15cde5ccd28deaf00fc00d90def6 6b55764f292e774b7381ce9d3c04f1f3",
+                    "moneyforlike": "1ff975fe1a8784a0d75ddc3527c79830 d8afbc41aaeb8adb1572934d1711f9a9",
                     "moneyforpost": "aaf6a7b5b53a12c4ec8ef0523b0f9dd7 aaf6a7b5b53a12c4ec8ef0523b0f9dd7",
-                    "noshowzero": "5e61ddf4608b463352d68ab3d0fb42fb 5e61ddf4608b463352d68ab3d0fb42fb",
+                    "noshowzero": "5e61ddf4608b463352d68ab3d0fb42fb 09d817e46c14f76774d119667f342013",
                     "title": "e366ccf1556c0672dcecba135ed5472e e366ccf1556c0672dcecba135ed5472e"
                 }
             },
@@ -84,10 +84,10 @@
                 "modal": {
                     "current": "3d490bfc33948213eaf76ea1beb28d86 3d490bfc33948213eaf76ea1beb28d86",
                     "submit_button": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
-                    "title": "a69818da60d16a5fc90dd7676c22204f 43e487e10313f417cfbd30e026603308"
+                    "title": "a69818da60d16a5fc90dd7676c22204f fa2c0d941fb0d14948e61c0463c6d055"
                 },
                 "user_controls": {
-                    "money_button": "c274bc0997703f11487c46fa72ae3a22 916e2b2cdd41eceb11f7879181edc65c"
+                    "money_button": "c274bc0997703f11487c46fa72ae3a22 26d53c0400d24048529beb2bc1958d4e"
                 }
             }
         }
@@ -96,6 +96,11 @@
         "asyntai-chatbot": {
             "admin": {
                 "settings": {
+                    "hide_for_members_help": "d41d8cd98f00b204e9800998ecf8427e 14c936a2fc0f276cca07bf2ee42abb87",
+                    "hide_for_members_label": "d41d8cd98f00b204e9800998ecf8427e 5f7f645d33b86d108b72740aa3d2fa12",
+                    "script_url_help": "d41d8cd98f00b204e9800998ecf8427e 3d7c29844cd1c29a66b83af767f132a2",
+                    "script_url_label": "d41d8cd98f00b204e9800998ecf8427e 005c50746e0ca0591b8048b49519b499",
+                    "widget_id_help": "d41d8cd98f00b204e9800998ecf8427e fc431ee8ef599cd192e95c22a7ecab15",
                     "widget_id_label": "df4e7960ae35f4e18bd7103efcfea9b8 df4e7960ae35f4e18bd7103efcfea9b8"
                 }
             }
