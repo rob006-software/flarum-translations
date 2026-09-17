@@ -61,9 +61,9 @@
             },
             "directory": {
                 "title": "=> ffans-threadmarks.ref.threadmarks",
-                "show_button": "Diskussionsmarkierungen",
-                "hide_button": "Diskussionsmarkierungen",
-                "show_button_a11y_label": "",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Verzeichnis der Diskussionsmarkierungen öffnen",
                 "close_a11y_label": "Verzeichnis der Diskussionsmarkierungen schließen",
                 "scope_a11y_label": "Diskussionsmarkierungen nach Bereich filtern",
                 "all_filter": "Alle",
@@ -85,10 +85,10 @@
                 "open_directory_a11y_label": "Vollständiges Verzeichnis der Diskussionsmarkierungen öffnen"
             },
             "discussion_controls": {
-                "show_all_button": "Alle Beiträge anzeigen",
-                "show_threadmarks_button": "Nur Diskussionsmarkierungen",
-                "show_all_button_a11y_label": "",
-                "show_threadmarks_button_a11y_label": ""
+                "show_all_button": "Alle Beiträge",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Alle Beiträge anzeigen",
+                "show_threadmarks_button_a11y_label": "Nur Beiträge mit Diskussionsmarkierungen anzeigen"
             },
             "post_controls": {
                 "manage_button": "Diskussionsmarkierung verwalten"
@@ -113,7 +113,7 @@
                 "name_label": "Name",
                 "color_label": "=> core.ref.color",
                 "icon_label": "=> core.ref.icon",
-                "icon_placeholder": "fa-solid fa-book"
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
                 "first_post": "Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.",
