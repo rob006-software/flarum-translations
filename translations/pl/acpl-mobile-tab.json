@@ -11,7 +11,7 @@
                 "path": "Ścieżka",
                 "url": "Url",
                 "icon": "Ikonka",
-                "icon_help": "",
+                "icon_help": "Podaj nazwę klasy ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.",
                 "is_internal_checkbox": "Czy to wewnętrzny link?",
                 "open_new_tab_checkbox": "Otwieraj link w nowej karcie",
                 "submit_button": "Zapisz",
@@ -19,9 +19,9 @@
                 "delete_item_confirmation": "Jesteś pewien, że chcesz usunąć ten element?"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Przełączaj widoczność podczas przewijania",
+                "threshold_label": "Próg przewijania (px)",
+                "threshold_help": "Odległość przewinięcia od bieżącej pozycji, po której widoczność zostanie przełączona."
             }
         },
         "lib": {
