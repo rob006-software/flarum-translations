@@ -964,6 +964,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
+| [`ernestdefoe-garrison`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison) | [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison) |
 | [`ernestdefoe-giveaways`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-giveaways) | [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) |
 | [`ernestdefoe-google-fonts`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-google-fonts) | [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) |
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
