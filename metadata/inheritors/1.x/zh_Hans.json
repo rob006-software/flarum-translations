@@ -2,23 +2,23 @@
     "acpl-lscache.json": {
         "acpl-lscache": {
             "admin": {
-                "cache_enabled_help": "b867d83f91e6abf46d8162673c74ad08 b867d83f91e6abf46d8162673c74ad08",
-                "cache_enabled_label": "14cdb740660167ac6ff0385927d2f367 14cdb740660167ac6ff0385927d2f367",
+                "cache_enabled_help": "b867d83f91e6abf46d8162673c74ad08 47807f80d08f27f5c5d8ef6a099f50a9",
+                "cache_enabled_label": "14cdb740660167ac6ff0385927d2f367 1ce9219e2af243e562ef3a38d6e7bb17",
                 "cache_exclude_help": "f6b0196d902bd6ebf7b5ddc48eb84946 f6b0196d902bd6ebf7b5ddc48eb84946",
-                "cache_exclude_label": "b360f7d2306f52db917dde14e71292a6 b360f7d2306f52db917dde14e71292a6",
+                "cache_exclude_label": "b360f7d2306f52db917dde14e71292a6 bbedd8cfee8e0a90836bb0c1effb9ea3",
                 "clearing_cache_listener_label": "64fcd2dc679ef886e2d0e821b542a865 64fcd2dc679ef886e2d0e821b542a865",
                 "drop_qs_help": "32159cfedaa2837a85ddd76eeb0e7e7b 32159cfedaa2837a85ddd76eeb0e7e7b",
                 "drop_qs_label": "507bf7d956afffaf991cd7a303876aac 507bf7d956afffaf991cd7a303876aac",
                 "permissions": {
                     "purge": "d41d8cd98f00b204e9800998ecf8427e 82ceb32e014a94db44d41f626982de95"
                 },
-                "public_cache_ttl_help": "23515742c034e9e4b2bc264dc2f23dd6 23515742c034e9e4b2bc264dc2f23dd6",
-                "public_cache_ttl_label": "6c5cdabd0fc467afe154a6ca641d66a2 6c5cdabd0fc467afe154a6ca641d66a2",
+                "public_cache_ttl_help": "23515742c034e9e4b2bc264dc2f23dd6 f72352c7a03e2f3dde91eb815e4207f2",
+                "public_cache_ttl_label": "6c5cdabd0fc467afe154a6ca641d66a2 b025655c9a833c99f0b372371f1332f2",
                 "purge_all": "e8216c7ab3bd180494100216dd3d13f4 82ceb32e014a94db44d41f626982de95",
-                "purge_on_discussion_update_help": "0f3f96f04828aa6a1b69edadda818a6e 0904fc9250ede0536e5797a19267f316",
-                "purge_on_discussion_update_label": "b2c14ecbe3b6dcb29992e250656bd64f 56ddad74edc25065e2006791217ff242",
+                "purge_on_discussion_update_help": "0f3f96f04828aa6a1b69edadda818a6e 5dfaa347b70e7b73a4cce1137d2ac751",
+                "purge_on_discussion_update_label": "b2c14ecbe3b6dcb29992e250656bd64f f341bcce949158c89cfa5f2a53c31360",
                 "serve_stale_help": "748ba9cb6d2ae14af975d1d5ad0843ed 748ba9cb6d2ae14af975d1d5ad0843ed",
-                "serve_stale_label": "ad7b1e88e5d0529d6d348f39b0e6c51e ad7b1e88e5d0529d6d348f39b0e6c51e",
+                "serve_stale_label": "ad7b1e88e5d0529d6d348f39b0e6c51e 539849bcb2e7539c2abd740cc918f43b",
                 "status_codes_cache_help": "d41d8cd98f00b204e9800998ecf8427e 0a0661582653ffd6ebb8e9a331ece2f2",
                 "status_codes_cache_label": "d41d8cd98f00b204e9800998ecf8427e 5744bdabf498708d3e212103c5af7f40",
                 "test_failed_alert": "d41d8cd98f00b204e9800998ecf8427e 23c8f42b32f36af8ef0e13398946a406"
@@ -351,7 +351,7 @@
                     "title": "ba6e91fa9e0438e1ab780add0f6f5203 ba6e91fa9e0438e1ab780add0f6f5203",
                     "view_forum_label": "dfd596d345258d55c7b2d059ae27fac2 dfd596d345258d55c7b2d059ae27fac2",
                     "view_hidden_groups_label": "6e325e34c92ed3e1eaf3c8c63ac505c6 6e325e34c92ed3e1eaf3c8c63ac505c6",
-                    "view_last_seen_at_label": "62e1aadae6e5bbe021cbef35c0998ec6 62e1aadae6e5bbe021cbef35c0998ec6",
+                    "view_last_seen_at_label": "62e1aadae6e5bbe021cbef35c0998ec6 d70b2abb88aa9ee53b9fb2522cb4b33f",
                     "view_post_ips_label": "bb99262849aa75e54825baf21cc25f91 bb99262849aa75e54825baf21cc25f91"
                 },
                 "permissions_controls": {
@@ -719,7 +719,7 @@
                 },
                 "error": {
                     "circular_dependencies_message": "aaa6df520a0f024596b296ebf704f05c f07dc05215b584578c477536ea64251d",
-                    "dependent_extensions_message": "39e84456458a2c499cb9589628f0bc8b da5687936c84967bd6597834ca5fa1d0",
+                    "dependent_extensions_message": "39e84456458a2c499cb9589628f0bc8b a0eeb3559e579499e84d201eadfc2fd4",
                     "extension_initialiation_failed_message": "832f81662a7392377d466074db918a23 6b4412fcdb2260a0ae713edde5056e3e",
                     "generic_cross_origin_message": "952bcb27b974b23e8483dccd1ecb512b 41545785febfb0122cfbbe570cb837f5",
                     "generic_message": "6a84363019a9ef9e245f4cb635104d5b 6a84363019a9ef9e245f4cb635104d5b",
@@ -1362,10 +1362,10 @@
         "ekumanov-inline-audio": {
             "admin": {
                 "settings": {
-                    "auto_play": "d41d8cd98f00b204e9800998ecf8427e 51d6af9c0a5478f63b2466be62bd7e67",
+                    "auto_play": "d41d8cd98f00b204e9800998ecf8427e f67f250a2388a4cbfc1845d2c83c16f5",
                     "show_download_button": "d41d8cd98f00b204e9800998ecf8427e 9b562ba750de6aa3175bdf61f4b10545",
-                    "show_right_click_download": "d41d8cd98f00b204e9800998ecf8427e 986a6e64d9ad50f118977ec8c626e115",
-                    "strip_upload_prefix": "d41d8cd98f00b204e9800998ecf8427e f0fedeb61d1b91f063219e1fa005d26f"
+                    "show_right_click_download": "d41d8cd98f00b204e9800998ecf8427e 2bffc54652017ad0bffa8a68c9ca776b",
+                    "strip_upload_prefix": "d41d8cd98f00b204e9800998ecf8427e 5df35cb4ca8f76b02e73607ffe79e3cc"
                 }
             },
             "forum": {
