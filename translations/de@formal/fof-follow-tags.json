@@ -19,8 +19,8 @@
                 "lurking_tag_tooltip": "Lauernd"
             },
             "sub_controls": {
-                "header": "Dein Abo von „{tagName}“",
-                "subscription_label": "Wähle die Art aus, wie du „{tagName}“ abonnierst",
+                "header": "Ihr Abo von „{tagName}“",
+                "subscription_label": "Wählen Sie die Art aus, wie Sie „{tagName}“ abonnieren",
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "Über alle neuen Diskussionen benachricht werden.",
@@ -45,26 +45,26 @@
                 "new_discussion_tag_text": "{username} hat das Tag geändert"
             },
             "prompt": {
-                "choose_button": "Wähle Tags aus, denen Du folgen möchtest",
-                "modal_title": "Wähle Tags aus, denen Du folgen möchtest",
+                "choose_button": "Wählen Sie Tags aus, denen Sie folgen möchten",
+                "modal_title": "Wählen Sie Tags aus, denen Sie folgen möchten",
                 "later_button": "Später erinnern",
                 "continue_button": "Weiter zum Forum"
             },
             "user": {
                 "settings": {
-                    "heading": "Darstellung der „Du folgst“-Seite",
-                    "filter_label": "Was standardmäßig auf der \"Du folgst\"-Seite angezeigt werden soll"
+                    "heading": "Darstellung der „Sie folgen“-Seite",
+                    "filter_label": "Was standardmäßig auf der \"Sie folgen\"-Seite angezeigt werden soll"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "Standardfilterung der \"Du folgst\"-Seiten",
+                "following_page_default_label": "Standardfilterung der \"Sie folgen\"-Seiten",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
                 "prompt_new_users_label": "Neue Nutzer dazu auffordern, Tags auszuwählen, denen sie folgen möchten",
                 "prompt_new_users_help": "Nutzern, die ihre Auswahl noch nicht bestätigt haben, wird ein Modalfenster angezeigt, in dem sie aufgefordert werden, Tags zu folgen. Das Modalfenster wird bei jedem Besuch erneut angezeigt, bis sie auf „Weiter zum Forum“ klicken.\n",
-                "prompt_button_on_following_page_label": "Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen",
+                "prompt_button_on_following_page_label": "Schaltfläche „Wähle Tags aus, denen Sie folgen möchten“ auf der „Sie folgen“ anzeigen",
                 "prompt_tag_strategy_label": "Zur Auswahl stehende Tags",
                 "prompt_tag_strategy_options": {
                     "primary": "Haupt-Tags der obersten Ebene",
@@ -75,7 +75,7 @@
                     "list": "Unten ausgewählte Tags"
                 },
                 "prompt_tag_ids_label": "Zur Auswahl stehende Tags",
-                "all_discussions_on_following_page_for_guests_label": "Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen"
+                "all_discussions_on_following_page_for_guests_label": "Alle Diskussionen auf der „Sie folgen“-Seite für Gäste anzeigen"
             },
             "basics": {
                 "following_label": "=> flarum-subscriptions.forum.index.following_link"
@@ -85,19 +85,19 @@
             "newDiscussionInTag": {
                 "subject": "[Tag | Neue Diskussion] {title}",
                 "plain": {
-                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicke auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
+                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, klicken Sie auf den folgenden Link:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: [{discussion_title}]({discussion_url})\n"
+                    "body": "{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
                 "subject": "[Tag | Neuer Beitrag] {title}",
                 "plain": {
-                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
+                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, klicken Sie auf den folgenden Link:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
+                    "body": "{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
