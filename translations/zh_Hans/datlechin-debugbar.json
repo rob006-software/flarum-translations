@@ -1,212 +1,212 @@
 {
     "datlechin-debugbar": {
         "lib": {
-            "expand": "",
-            "collapse": "",
-            "resize": "",
-            "empty": "",
-            "no_matches": "",
-            "blank": "",
-            "yes": "",
-            "no": "",
-            "filter_placeholder": "",
+            "expand": "显示调试栏",
+            "collapse": "隐藏调试栏",
+            "resize": "调整调试栏大小",
+            "empty": "暂无记录。",
+            "no_matches": "没有匹配项。",
+            "blank": "空",
+            "yes": "是",
+            "no": "否",
+            "filter_placeholder": "筛选…",
             "tabs": {
-                "timeline": "",
-                "queries": "",
-                "messages": "",
-                "request": "",
-                "events": "",
-                "cache": "",
-                "mail": "",
-                "settings": "",
-                "extensions": "",
-                "environment": ""
+                "timeline": "时间线",
+                "queries": "查询",
+                "messages": "日志",
+                "request": "请求",
+                "events": "事件",
+                "cache": "缓存",
+                "mail": "邮件",
+                "settings": "设置",
+                "extensions": "扩展",
+                "environment": "环境"
             },
             "summary": {
-                "duration": "",
-                "queries": "",
-                "memory": "",
-                "round_trip": ""
+                "duration": "服务端耗时",
+                "queries": "数据库查询",
+                "memory": "峰值内存占用",
+                "round_trip": "浏览器测得的往返耗时"
             },
             "errors": {
-                "expired": "",
-                "failed": "",
-                "no_data": ""
+                "expired": "此调试记录已不再保留，只会保存最近的请求。",
+                "failed": "无法加载此调试记录。",
+                "no_data": "此请求没有记录任何数据。"
             },
             "requests": {
-                "toggle": "",
-                "none": "",
-                "document": ""
+                "toggle": "选择请求",
+                "none": "无请求",
+                "document": "页面加载"
             },
             "timeline": {
-                "total": "",
-                "measures": "",
-                "unfinished": "",
-                "empty": "",
+                "total": "总计",
+                "measures": "耗时区段",
+                "unfinished": "（未完成）",
+                "empty": "此请求期间没有记录耗时数据。",
                 "spans": {
                     "flarum": {
-                        "boot": "",
-                        "request": "",
-                        "route": ""
+                        "boot": "启动",
+                        "request": "中间件与路由",
+                        "route": "路由处理器"
                     }
                 }
             },
             "queries": {
-                "count": "",
-                "duration": "",
-                "duplicates": "",
-                "filter": "",
-                "preview": "",
-                "bindings": "",
-                "connection": "",
-                "origin": "",
-                "occurrences": "",
-                "dropped": "",
-                "empty": ""
+                "count": "查询数",
+                "duration": "总耗时",
+                "duplicates": "重复查询",
+                "filter": "筛选语句…",
+                "preview": "实际语句",
+                "bindings": "参数",
+                "connection": "连接",
+                "origin": "调用位置",
+                "occurrences": "此请求期间，这条相同语句共执行了 {count} 次。",
+                "dropped": "另有 {count} 条语句未记录。",
+                "empty": "此请求没有执行数据库查询。"
             },
             "messages": {
-                "filter": "",
-                "show_trace": "",
-                "hide_trace": "",
-                "empty": "",
+                "filter": "筛选日志…",
+                "show_trace": "显示调用堆栈",
+                "hide_trace": "隐藏调用堆栈",
+                "empty": "此请求期间没有记录日志。",
                 "levels": {
-                    "debug": "",
-                    "info": "",
-                    "warning": "",
-                    "error": ""
+                    "debug": "调试",
+                    "info": "信息",
+                    "warning": "警告",
+                    "error": "错误"
                 }
             },
             "request": {
-                "method": "",
-                "uri": "",
-                "status": "",
-                "route": "",
-                "handler": "",
-                "internal": "",
-                "user": "",
-                "guest": "",
-                "admin": "",
-                "groups": "",
-                "authentication": "",
+                "method": "请求方法",
+                "uri": "URI",
+                "status": "状态",
+                "route": "路由",
+                "handler": "处理器",
+                "internal": "内部派发",
+                "user": "用户",
+                "guest": "未登录用户",
+                "admin": "管理员",
+                "groups": "用户组",
+                "authentication": "身份验证方式",
                 "sections": {
-                    "overview": "",
-                    "actor": "",
-                    "parameters": "",
-                    "query": "",
-                    "json_api": "",
-                    "request_headers": "",
-                    "response_headers": ""
+                    "overview": "概览",
+                    "actor": "操作用户",
+                    "parameters": "路由参数",
+                    "query": "查询参数",
+                    "json_api": "JSON:API",
+                    "request_headers": "请求头",
+                    "response_headers": "响应头"
                 }
             },
             "events": {
-                "count": "",
-                "listed": "",
-                "filter": "",
-                "dropped": "",
-                "collapsed_title": "",
-                "collapsed_help": "",
-                "empty": ""
+                "count": "已触发",
+                "listed": "已列出",
+                "filter": "筛选事件…",
+                "dropped": "另有 {count} 个事件未记录。",
+                "collapsed_title": "仅计数，未列出",
+                "collapsed_help": "模型和数据库事件在每次请求中可能触发数百次。数据库相关事件的具体操作可在「查询」面板中查看。",
+                "empty": "此请求期间没有触发事件。"
             },
             "cache": {
-                "hit_rate": "",
-                "filter": "",
-                "dropped": "",
-                "empty": "",
+                "hit_rate": "命中率",
+                "filter": "筛选缓存键…",
+                "dropped": "另有 {count} 次操作未记录。",
+                "empty": "此请求未使用缓存。",
                 "types": {
-                    "hit": "",
-                    "miss": "",
-                    "write": "",
-                    "forget": "",
-                    "flush": ""
+                    "hit": "命中",
+                    "miss": "未命中",
+                    "write": "写入",
+                    "forget": "删除",
+                    "flush": "清空"
                 }
             },
             "mail": {
-                "count": "",
-                "show": "",
-                "hide": "",
-                "empty": "",
+                "count": "邮件数",
+                "show": "显示",
+                "hide": "隐藏",
+                "empty": "此请求没有发送邮件。",
                 "statuses": {
-                    "sending": "",
-                    "sent": ""
+                    "sending": "正在发送",
+                    "sent": "已发送"
                 },
                 "headers": {
-                    "from": "",
-                    "to": "",
-                    "cc": "",
-                    "bcc": "",
-                    "reply_to": ""
+                    "from": "发件人",
+                    "to": "收件人",
+                    "cc": "抄送",
+                    "bcc": "密送",
+                    "reply_to": "回复地址"
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
-                "filter": "",
-                "redacted": "",
-                "empty": ""
+                "count": "设置项",
+                "groups": "分组",
+                "filter": "筛选设置键…",
+                "redacted": "此设置项的键名疑似为凭证字段，已隐藏其值。",
+                "empty": "没有保存任何设置。"
             },
             "extensions": {
-                "enabled": "",
-                "installed": "",
-                "filter": "",
-                "empty": "",
+                "enabled": "已启用",
+                "installed": "已安装",
+                "filter": "筛选扩展…",
+                "empty": "未安装任何扩展。",
                 "columns": {
-                    "id": "",
-                    "title": "",
-                    "version": "",
-                    "dependencies": ""
+                    "id": "扩展 ID",
+                    "title": "名称",
+                    "version": "版本",
+                    "dependencies": "依赖"
                 }
             },
             "environment": {
-                "empty": "",
+                "empty": "暂无信息。",
                 "groups": {
-                    "flarum": "",
-                    "php": "",
-                    "drivers": ""
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "驱动"
                 },
                 "keys": {
-                    "version": "",
-                    "url": "",
-                    "debug": "",
-                    "maintenance": "",
-                    "sapi": "",
-                    "memory_limit": "",
-                    "max_execution_time": "",
-                    "opcache": "",
-                    "timezone": "",
-                    "database": "",
-                    "cache": "",
-                    "queue": "",
-                    "session": "",
-                    "mail": ""
+                    "version": "版本",
+                    "url": "URL",
+                    "debug": "调试模式",
+                    "maintenance": "维护模式",
+                    "sapi": "PHP SAPI",
+                    "memory_limit": "内存限制",
+                    "max_execution_time": "最大执行时间",
+                    "opcache": "OPcache",
+                    "timezone": "时区",
+                    "database": "数据库",
+                    "cache": "缓存",
+                    "queue": "队列",
+                    "session": "会话",
+                    "mail": "邮件"
                 }
             }
         },
         "admin": {
             "debug_mode": {
-                "on": "",
-                "off": ""
+                "on": "调试模式已开启，调试栏正在运行。管理员会在每个页面底部看到调试栏。",
+                "off": "调试栏仅在开启调试模式时运行。请在 config.php 中设置 `'debug' => true` 以启用。"
             },
             "max_profiles": {
-                "label": "",
-                "help": ""
+                "label": "保留的请求数",
+                "help": "设置调试栏中保留多少条最近请求。随着新请求产生，较早的记录会被自动删除。"
             },
             "trace_queries": {
-                "label": "",
-                "help": ""
+                "label": "记录查询调用位置",
+                "help": "显示触发每条数据库查询的应用代码位置。这是「查询」面板中最有用的信息，同时也是调试栏开销最大的功能。"
             },
             "open_by_default": {
-                "label": "",
-                "help": ""
+                "label": "默认展开",
+                "help": "每次打开页面时直接展开调试栏并显示上次使用的面板，而不是收起为底部控制条。"
             },
             "collectors": {
-                "label": "",
-                "help": ""
+                "label": "面板",
+                "help": "关闭不需要的面板。关闭后的面板不会收集任何数据，也不会注册监听器，因此不会产生额外开销。"
             },
             "storage": {
-                "label": "",
-                "help": "",
-                "clear": "",
-                "cleared": ""
+                "label": "已保存的请求",
+                "help": "调试记录会写入 storage/debugbar，其中可能包含设置、SQL 和请求头等信息。在将开发站点分享给他人前，请先清除这些记录。",
+                "clear": "删除已保存的请求",
+                "cleared": "已删除 {count} 条请求记录。"
             }
         }
     }
