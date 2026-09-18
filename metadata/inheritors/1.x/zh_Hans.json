@@ -1207,14 +1207,128 @@
     },
     "datlechin-passkey.json": {
         "datlechin-passkey": {
+            "admin": {
+                "group_modal": {
+                    "require_passkey": "d41d8cd98f00b204e9800998ecf8427e e2ddcd64bb441f3df0985e0b60ec94ea",
+                    "require_passkey_help": "d41d8cd98f00b204e9800998ecf8427e a863725bd900e602270f7aa1bee23471"
+                },
+                "settings": {
+                    "attestation_direct": "d41d8cd98f00b204e9800998ecf8427e 656e4ee388b503271a1916ed1a5ab5ef",
+                    "attestation_indirect": "d41d8cd98f00b204e9800998ecf8427e 650e49354cb4175da8062723edfd7e52",
+                    "attestation_label": "d41d8cd98f00b204e9800998ecf8427e 3dae44550427855aeccb2561a9338ccb",
+                    "attestation_none": "d41d8cd98f00b204e9800998ecf8427e 91af660c3a1c43b357d14dc9ff232d01",
+                    "description": "d41d8cd98f00b204e9800998ecf8427e 27e0a63446f7a9fa1991332e4861112e",
+                    "related_origins_help": "d41d8cd98f00b204e9800998ecf8427e a5b4ea66cb9383a8f082b0894fe61c68",
+                    "related_origins_label": "d41d8cd98f00b204e9800998ecf8427e 3dce7258ff84a1f4e607dc7f0b146f26",
+                    "rp_id_help": "d41d8cd98f00b204e9800998ecf8427e 6f620426c3b2f9e4c263cb0890e37653",
+                    "rp_id_label": "d41d8cd98f00b204e9800998ecf8427e 2e683a57eff5420f2d59a5ebfc55bef3",
+                    "rp_name_help": "d41d8cd98f00b204e9800998ecf8427e 3f051afc94e01180cd75912ccba6b9d5",
+                    "rp_name_label": "d41d8cd98f00b204e9800998ecf8427e 49d01dcb3c8bef943fd7203ca43dcdff",
+                    "throttle_label": "d41d8cd98f00b204e9800998ecf8427e 8debd5338beab02de92da4277975450a",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e 006ebcc9856c311d1312185e47957587",
+                    "user_verification_discouraged": "d41d8cd98f00b204e9800998ecf8427e 982a6b290177a55bffc5ab41d8b1dbba",
+                    "user_verification_label": "d41d8cd98f00b204e9800998ecf8427e b06129b8941321b6ac9f061e909bbb1c",
+                    "user_verification_preferred": "d41d8cd98f00b204e9800998ecf8427e be8524ebeae9bd0eb3d0d09923a0d230",
+                    "user_verification_required": "d41d8cd98f00b204e9800998ecf8427e 74368c12b9470b742f90ccd359e78ae7"
+                }
+            },
+            "email": {
+                "backup_state": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e b5615e4e1f70a6ae12956ca5d59f85f1",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e faf9ff41ea7b127ea31e2a0f5e7b3376",
+                    "synced": "d41d8cd98f00b204e9800998ecf8427e d3e6e4bd28a524f17d9b2398b18049b6",
+                    "unsynced": "d41d8cd98f00b204e9800998ecf8427e b7ee03225cb742cc41313193f624e8f9"
+                },
+                "bulk_revoked": {
+                    "actor_admin": "d41d8cd98f00b204e9800998ecf8427e b64bfc8ed45a51ac017248870b7e5bdb",
+                    "actor_self": "d41d8cd98f00b204e9800998ecf8427e bd211f813aab4705559abc8c59aa4fd4",
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 345a7607d16550a427bde39439aca364",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e 6d8f2828818c2be0b63d5816283e6a8d"
+                },
+                "counter_regression": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 346f6fe479733aaedfd6f872a4ac5c4c",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e 83004f82e01f7fc14134008cc53b75d2"
+                },
+                "revoked": {
+                    "actor_admin": "d41d8cd98f00b204e9800998ecf8427e 29bd35bfbea47239cd095edc09e4b2c1",
+                    "actor_self": "d41d8cd98f00b204e9800998ecf8427e bd211f813aab4705559abc8c59aa4fd4",
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 7046ecda46be5ea654f69ae906d821c9",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e be64b44fac7d3781b39c54f6a5ad4bcf"
+                }
+            },
             "forum": {
                 "log_in": {
-                    "cancelled": "d41d8cd98f00b204e9800998ecf8427e 4a80d11d6ed98730b500a31c4af2d120",
-                    "failed": "d41d8cd98f00b204e9800998ecf8427e 792938a5d2494491b3681643cf741db5",
-                    "passkey_unsupported": "d41d8cd98f00b204e9800998ecf8427e 17762f09f4084d6484b7295a73b66896",
-                    "sign_in_with_passkey": "06264bce41ee073ba180776ec11c01cb 9e32d76a398ff576373d7f8f7ef94baa",
-                    "verifying": "d41d8cd98f00b204e9800998ecf8427e 624da581dc60636b054e6aeab987d477"
+                    "cancelled": "d41d8cd98f00b204e9800998ecf8427e 53c10ed8a21e7f5ef2e6d0630d60ff7a",
+                    "failed": "d41d8cd98f00b204e9800998ecf8427e f27309ac74a34bf09ff3476b8534ea90",
+                    "passkey_unsupported": "d41d8cd98f00b204e9800998ecf8427e c13338bf67f7579fdcc5a794af643a41",
+                    "security_error": "d41d8cd98f00b204e9800998ecf8427e 575e9fd46568c2a20e4e18c3bbdc21e2",
+                    "sign_in_with_passkey": "06264bce41ee073ba180776ec11c01cb 06264bce41ee073ba180776ec11c01cb",
+                    "throttled": "d41d8cd98f00b204e9800998ecf8427e 6f5bd56c9ecad4c66c4378d5bff27a8c",
+                    "unsupported": "d41d8cd98f00b204e9800998ecf8427e d205424fd1b1ecf92a094f528e0568b7",
+                    "verifying": "d41d8cd98f00b204e9800998ecf8427e 07a7e6c34e35aa15eb28c6113966f5d4"
+                },
+                "required": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e d675bb7497ffaa48bf62a08cd47ca4a9",
+                    "set_up": "d41d8cd98f00b204e9800998ecf8427e dcadb506281f15f3301b5441a163bd5a"
+                },
+                "settings": {
+                    "add_button": "d41d8cd98f00b204e9800998ecf8427e 0ec2d56f5472d94bd2b29b4e59a617fa",
+                    "add_modal": {
+                        "cancel_button": "d41d8cd98f00b204e9800998ecf8427e 625fb26b4b3340f7872b411f401e754c",
+                        "device_name_label": "d41d8cd98f00b204e9800998ecf8427e f7a72ff2bb3cc80a8444c0c6041c87eb",
+                        "device_name_placeholder": "d41d8cd98f00b204e9800998ecf8427e 10f964df42de4e34044737b48369e085",
+                        "register_button": "d41d8cd98f00b204e9800998ecf8427e b58c7549c0246c55b9cac96383200338",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 0ec2d56f5472d94bd2b29b4e59a617fa"
+                    },
+                    "alerts": {
+                        "bulk_revoke_succeeded": "d41d8cd98f00b204e9800998ecf8427e 8ef85d4a46ff040817c21265da56cbcd",
+                        "registration_already_exists": "d41d8cd98f00b204e9800998ecf8427e 49b884b0950ff50a6fda379887d252ab",
+                        "registration_failed": "d41d8cd98f00b204e9800998ecf8427e 9a61c1e18dc3df17f58c4a291b285e84",
+                        "registration_security_error": "d41d8cd98f00b204e9800998ecf8427e 575e9fd46568c2a20e4e18c3bbdc21e2",
+                        "registration_succeeded": "d41d8cd98f00b204e9800998ecf8427e ff37d0b0ff87607fea113a89163ca8ef",
+                        "registration_unsupported": "d41d8cd98f00b204e9800998ecf8427e e3b2f12e9e2a32dfa78a112090395e96",
+                        "rename_succeeded": "d41d8cd98f00b204e9800998ecf8427e 096924ad095331e9497b881d835776a8",
+                        "revoke_succeeded": "d41d8cd98f00b204e9800998ecf8427e 92d8478f81ac4a088de8cd091143b1e4"
+                    },
+                    "bulk_revoke_button": "d41d8cd98f00b204e9800998ecf8427e d80cec991e37cf9493ce8c386e85e711",
+                    "bulk_revoke_modal": {
+                        "body": "d41d8cd98f00b204e9800998ecf8427e 6ae488d0116c98cc35a96d6da3fbc795"
+                    },
+                    "description": "d41d8cd98f00b204e9800998ecf8427e d2f2fb4533771d6ad39ff3c448fe0aa5",
+                    "heading": "d41d8cd98f00b204e9800998ecf8427e 006ebcc9856c311d1312185e47957587",
+                    "list": {
+                        "added_label": "d41d8cd98f00b204e9800998ecf8427e ffc7ed1cd5288ff735a3c4a059125354",
+                        "device_only": "d41d8cd98f00b204e9800998ecf8427e 4e969375064c1908a74fd88d27c6c2f3",
+                        "empty": "d41d8cd98f00b204e9800998ecf8427e 4f2687c4b4f1f783ae7d1ad79d644e22",
+                        "last_used_label": "d41d8cd98f00b204e9800998ecf8427e ed2d87ea4ca31e9205f1c593e8aa74da",
+                        "never_used": "d41d8cd98f00b204e9800998ecf8427e 25d95ec68bcdcd5585887f21eb740ea1",
+                        "rename_button": "d41d8cd98f00b204e9800998ecf8427e c8ce4b36cb6a0ff587974a738f32facf",
+                        "revoke_button": "d41d8cd98f00b204e9800998ecf8427e bd9fcf46b4e5993f97fe04ee9ebcd7ed",
+                        "synced": "d41d8cd98f00b204e9800998ecf8427e 8bf97a5b00da96aa75daa0136c906a13"
+                    },
+                    "rename_modal": {
+                        "cancel_button": "d41d8cd98f00b204e9800998ecf8427e 625fb26b4b3340f7872b411f401e754c",
+                        "save_button": "d41d8cd98f00b204e9800998ecf8427e be5fbbe34ce9979bfb6576d9eddc5612",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e 1cdc54825baa839821140eccb9180279"
+                    },
+                    "revoke_modal": {
+                        "body": "d41d8cd98f00b204e9800998ecf8427e 56d0896c485361b7a3ff90bdf02696ad",
+                        "cancel_button": "d41d8cd98f00b204e9800998ecf8427e 625fb26b4b3340f7872b411f401e754c",
+                        "confirm_button": "d41d8cd98f00b204e9800998ecf8427e bd9fcf46b4e5993f97fe04ee9ebcd7ed",
+                        "title": "d41d8cd98f00b204e9800998ecf8427e a6b8217b2c000636439d32456e0aea5a"
+                    }
+                },
+                "suggest": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 78139d34cf2899f1d2664e8194f052b9",
+                    "not_now": "d41d8cd98f00b204e9800998ecf8427e bb5e23299802ad31d3dfe9f65b223921",
+                    "set_up": "d41d8cd98f00b204e9800998ecf8427e 0700378544e59b9cc280d1996033413c",
+                    "title": "d41d8cd98f00b204e9800998ecf8427e 0700378544e59b9cc280d1996033413c"
                 }
+            },
+            "gdpr": {
+                "anonymize_description": "d41d8cd98f00b204e9800998ecf8427e ca12bd7b5c0adcda487a7195607d26b0",
+                "delete_description": "d41d8cd98f00b204e9800998ecf8427e 61c9cd1c1dc8ee8f792b1855086ba8cd",
+                "export_description": "d41d8cd98f00b204e9800998ecf8427e ca0819dd42467e105c3982af43992440"
             }
         }
     },
