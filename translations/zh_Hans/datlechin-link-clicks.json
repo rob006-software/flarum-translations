@@ -1,177 +1,177 @@
 {
     "datlechin-link-clicks": {
         "forum": {
-            "link_aria_label": "",
-            "link_tooltip": "",
-            "popular_links_title": "",
-            "user_popular_links_title": "",
-            "confirm_external": "",
-            "trending_title": "",
+            "link_aria_label": "{count, plural, other {已有 # 人打开}}",
+            "link_tooltip": "{count, plural, other {已有 # 人打开此链接}}",
+            "popular_links_title": "热门链接",
+            "user_popular_links_title": "帖子中的热门链接",
+            "confirm_external": "即将离开论坛，是否继续？",
+            "trending_title": "热门标签",
             "settings": {
-                "opt_out_label": "",
-                "opt_out_help": "",
-                "opt_out_save_failed": ""
+                "opt_out_label": "不统计我的链接点击",
+                "opt_out_help": "点击仍会正常打开链接，但不会被统计。",
+                "opt_out_save_failed": "无法保存你的设置，请重试。"
             },
             "post_controls": {
-                "disable_tracking": "",
-                "enable_tracking": "",
-                "toggle_failed": ""
+                "disable_tracking": "不统计此帖中的链接点击",
+                "enable_tracking": "统计此帖中的链接点击",
+                "toggle_failed": "无法更新此帖的链接点击统计设置。"
             },
             "discussion_controls": {
-                "click_stats": ""
+                "click_stats": "点击统计"
             },
             "discussion_stats": {
-                "title": "",
-                "column_url": "",
-                "column_total": "",
-                "column_unique": "",
-                "column_last": "",
-                "empty": ""
+                "title": "点击统计：{title}",
+                "column_url": "链接",
+                "column_total": "点击次数",
+                "column_unique": "点击人数",
+                "column_last": "最后点击",
+                "empty": "此讨论中的链接还没有点击记录。"
             }
         },
         "admin": {
             "tabs": {
-                "settings": "",
-                "analytics": "",
-                "webhook": ""
+                "settings": "设置",
+                "analytics": "数据分析",
+                "webhook": "Webhook"
             },
             "permissions": {
-                "view_analytics_label": ""
+                "view_analytics_label": "查看链接点击分析"
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "track_internal_label": "",
-                "track_internal_help": "",
-                "open_new_window_label": "",
-                "open_new_window_help": "",
-                "honor_dnt_label": "",
-                "honor_dnt_help": "",
-                "skip_guests_label": "",
-                "skip_guests_help": "",
-                "min_display_label": "",
-                "min_display_help": "",
-                "dedup_window_label": "",
-                "dedup_window_help": "",
-                "retention_label": "",
-                "retention_help": "",
-                "bot_ua_label": "",
-                "bot_ua_help": "",
-                "bot_ua_placeholder": "",
-                "tracking_params_label": "",
-                "tracking_params_help": "",
-                "tracking_params_placeholder": "",
-                "attachment_prefixes_label": "",
-                "attachment_prefixes_help": "",
-                "domain_blocklist_label": "",
-                "domain_blocklist_help": "",
-                "confirm_external_label": "",
-                "confirm_external_help": "",
-                "track_tag_mentions_label": "",
-                "track_tag_mentions_help": "",
-                "track_user_mentions_label": "",
-                "track_user_mentions_help": "",
-                "track_post_mentions_label": "",
-                "track_post_mentions_help": "",
-                "trending_enabled_label": "",
-                "trending_enabled_help": "",
-                "trending_min_clicks_label": "",
-                "trending_min_clicks_help": "",
-                "digest_enabled_label": "",
-                "digest_enabled_help": "",
-                "webhook_enabled_label": "",
-                "webhook_enabled_help": "",
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_secret_label": "",
-                "webhook_secret_help": "",
-                "webhook_test_button": "",
-                "webhook_test_ok": "",
-                "webhook_test_failed": ""
+                "enabled_label": "统计链接点击",
+                "enabled_help": "总开关。关闭后，不再将链接改写为统计链接，也不会记录点击。",
+                "track_internal_label": "统计本站链接",
+                "track_internal_help": "关闭后，不统计普通的本站链接。",
+                "open_new_window_label": "在新标签页中打开链接",
+                "open_new_window_help": "启用后，统计的链接会在新标签页中打开，关闭后则在当前标签页中打开。",
+                "honor_dnt_label": "遵循「请勿跟踪」（DNT）",
+                "honor_dnt_help": "请求包含 DNT: 1 时不记录点击。",
+                "skip_guests_label": "不统计未登录用户的点击",
+                "skip_guests_help": "只统计已登录用户的点击。未登录用户点击链接时仍会正常跳转，但不会写入点击记录。",
+                "min_display_label": "显示点击徽标的最低次数",
+                "min_display_help": "点击次数低于此值时隐藏徽标。",
+                "dedup_window_label": "去重时间窗口（小时）",
+                "dedup_window_help": "同一用户在此时间窗口内对同一链接的多次点击只计一次。",
+                "retention_label": "点击记录保留天数",
+                "retention_help": "每天定时清除超过此天数的 link_click_events 记录。设为 0 可永久保留。",
+                "bot_ua_label": "额外的机器人 User-Agent 片段",
+                "bot_ua_help": "每行填写一个片段。User-Agent 中只要包含任一片段（不区分大小写），该请求就会被视为机器人。扩展内置的机器人检测始终启用，此处规则仅作为补充。",
+                "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
+                "tracking_params_label": "额外移除的跟踪查询参数",
+                "tracking_params_help": "每行填写一种匹配规则。去重前会移除匹配的查询参数，使仅因 UTM 等跟踪参数不同的 URL 计为同一链接。以 * 结尾可匹配前缀，例如 utm_*。默认规则已包含 utm_*、fbclid、gclid、mc_cid、igshid、_ga 等参数。",
+                "tracking_params_placeholder": "ref_url\nyclid\ncustom_param",
+                "attachment_prefixes_label": "额外的附件路径前缀",
+                "attachment_prefixes_help": "即使关闭站内链接统计，只要本站 URL 的路径以这些前缀之一开头，仍会统计其点击。Flarum 默认上传目录已内置 /assets/files/，使用 fof/upload 或自定义上传路径时，可在此添加相应前缀。",
+                "domain_blocklist_label": "排除域名",
+                "domain_blocklist_help": "这些域名不会参与点击统计，每行一个。使用 *.example.com 可匹配该域名及其所有子域名。帖子中指向这些域名的链接不会显示点击徽标，也不会记录点击。",
+                "confirm_external_label": "离开论坛前要求确认",
+                "confirm_external_help": "用户点击站外链接时显示浏览器确认对话框。默认关闭。",
+                "track_tag_mentions_label": "统计标签提及点击",
+                "track_tag_mentions_help": "帖子中的 #标签提及会链接到对应的标签页。启用后，这些点击也会纳入链接点击报告。",
+                "track_user_mentions_label": "统计 @用户提及点击",
+                "track_user_mentions_help": "统计用户通过 @用户名提及进入对方个人主页的点击。",
+                "track_post_mentions_label": "统计帖子提及点击",
+                "track_post_mentions_help": "统计用户通过引用或回复中的帖子链接返回原帖的点击。",
+                "trending_enabled_label": "在首页显示热门标签",
+                "trending_enabled_help": "根据标签提及的点击率相对其自身周平均值的增幅进行排名，而不是按累计点击次数排名。",
+                "trending_min_clicks_label": "进入热门标签的最低点击数",
+                "trending_min_clicks_help": "最近一个完整统计日的点击数低于此值时，无论增幅多大，该标签都不会进入热门标签。",
+                "digest_enabled_label": "每周向管理员发送点击摘要",
+                "digest_enabled_help": "每周一早上向所有管理员发送过去一周点击数据的纯文本摘要。默认关闭。",
+                "webhook_enabled_label": "启用 Webhook",
+                "webhook_enabled_help": "通过队列将每条已记录的点击以 JSON POST 请求转发到外部 URL。",
+                "webhook_url_label": "Webhook URL",
+                "webhook_url_help": "用于接收 JSON 数据的 URL。",
+                "webhook_secret_label": "Webhook 密钥",
+                "webhook_secret_help": "设置后，将使用 HMAC-SHA256 对请求正文签名，并在 X-LinkClicks-Signature 请求头中以 sha256=HEX_DIGEST 格式发送签名。接收端需使用相同密钥重新计算并验证签名。",
+                "webhook_test_button": "发送测试请求",
+                "webhook_test_ok": "Webhook 返回 HTTP {status}。",
+                "webhook_test_failed": "Webhook 测试失败：{detail}"
             },
             "tags": {
-                "disable_tracking_label": "",
-                "disable_tracking_help": ""
+                "disable_tracking_label": "在此标签中禁用链接点击统计",
+                "disable_tracking_help": "带有此标签的讨论中的帖子不会统计链接点击。已有点击数据会继续保留。"
             },
             "analytics": {
-                "title": "",
-                "since": "",
-                "until": "",
-                "scope": "",
-                "scope_all": "",
-                "scope_external": "",
-                "scope_internal": "",
-                "scope_attachments": "",
-                "tag": "",
-                "tag_placeholder": "",
-                "attachment_label": "",
-                "internal_label": "",
-                "external_label": "",
-                "column_url": "",
-                "column_total": "",
-                "column_unique": "",
-                "column_first": "",
-                "column_last": "",
-                "empty": "",
-                "export_csv": "",
-                "drilldown_tooltip": ""
+                "title": "点击分析",
+                "since": "起始日期",
+                "until": "结束日期",
+                "scope": "范围",
+                "scope_all": "所有链接",
+                "scope_external": "仅站外链接",
+                "scope_internal": "仅站内链接",
+                "scope_attachments": "仅附件",
+                "tag": "标签",
+                "tag_placeholder": "标签固定链接名（可选）",
+                "attachment_label": "附件",
+                "internal_label": "站内",
+                "external_label": "站外",
+                "column_url": "链接",
+                "column_total": "点击次数",
+                "column_unique": "点击人数",
+                "column_first": "首次点击",
+                "column_last": "最后点击",
+                "empty": "所选时间范围内没有点击记录。",
+                "export_csv": "导出 CSV",
+                "drilldown_tooltip": "点击查看谁点击过此链接"
             },
             "clickers": {
-                "title": "",
-                "column_who": "",
-                "column_clicks": "",
-                "column_first": "",
-                "column_last": "",
-                "guest": "",
-                "anonymized": "",
-                "empty": "",
-                "view_trail_tooltip": ""
+                "title": "谁点击过此链接",
+                "column_who": "用户",
+                "column_clicks": "点击次数",
+                "column_first": "首次点击",
+                "column_last": "最后点击",
+                "guest": "未登录用户",
+                "anonymized": "已匿名化",
+                "empty": "此链接没有计入统计的点击记录。",
+                "view_trail_tooltip": "查看此用户点击过的链接"
             },
             "click_trail": {
-                "title": "",
-                "column_link": "",
-                "column_when": "",
-                "empty": ""
+                "title": "{name} 的点击轨迹",
+                "column_link": "链接",
+                "column_when": "时间",
+                "empty": "没有此用户计入统计的点击记录。"
             },
             "domains": {
-                "title": "",
-                "column_domain": "",
-                "column_urls": ""
+                "title": "热门域名（最近 30 天）",
+                "column_domain": "域名",
+                "column_urls": "URL 数"
             },
             "devices": {
-                "title": "",
-                "devices_label": "",
-                "browsers_label": "",
+                "title": "点击来源（最近 30 天）",
+                "devices_label": "按设备",
+                "browsers_label": "按浏览器",
                 "devices": {
-                    "mobile": "",
-                    "tablet": "",
-                    "desktop": ""
+                    "mobile": "手机",
+                    "tablet": "平板",
+                    "desktop": "桌面设备"
                 },
                 "browsers": {
-                    "chrome": "",
-                    "firefox": "",
-                    "safari": "",
-                    "edge": "",
-                    "opera": "",
-                    "samsung": "",
-                    "other": ""
+                    "chrome": "Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari",
+                    "edge": "Edge",
+                    "opera": "Opera",
+                    "samsung": "三星浏览器",
+                    "other": "其他"
                 }
             },
             "heatmap": {
-                "title": "",
-                "lead": ""
+                "title": "点击热力图（最近 30 天）",
+                "lead": "每个单元格对应某一天的一个小时，颜色越深表示点击越多。"
             },
             "timeseries": {
-                "title": "",
-                "total_clicks": "",
-                "avg_per_day": "",
-                "peak_day": ""
+                "title": "每日点击",
+                "total_clicks": "总计",
+                "avg_per_day": "日均",
+                "peak_day": "峰值日"
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "导出此用户的所有链接点击记录。",
+            "anonymize_description": "从此用户的每条链接点击记录中移除 user_id 和 ip_address。",
+            "delete_description": "删除此用户的所有链接点击记录。"
         }
     }
 }
