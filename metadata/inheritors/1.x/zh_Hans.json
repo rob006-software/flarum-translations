@@ -2508,21 +2508,29 @@
             "admin": {
                 "settings": {
                     "forgot": "1eb31d5ef4f07299a967de5544068940 1eb31d5ef4f07299a967de5544068940",
-                    "help_text": "5e5f6175d287318f8ac07376c294bada 5e5f6175d287318f8ac07376c294bada",
+                    "help_text": "5e5f6175d287318f8ac07376c294bada 32999e46fae548b60b8b8c38cf0bc82c",
                     "secret_key": "d0eddb45e2a02ad45ab115b37df24c13 cdb81cf67c392f7fd736c0c1e437bade",
                     "signin": "635451b1aa6992d3fb7d46a501cfa546 635451b1aa6992d3fb7d46a501cfa546",
                     "signup": "ee92ad3cf509197cabcdd01db6f2677a ee92ad3cf509197cabcdd01db6f2677a",
-                    "site_key": "32817bfee48acc56117b0a7622d4937a 065a0c08b68dd8dfbe83ec8bf66555d2"
+                    "site_key": "32817bfee48acc56117b0a7622d4937a 78d4acc7aa2bb6b694653b3af416f40f"
                 }
             },
             "forum": {
-                "error": "51d5e082d7e7f1bb3d26f821818a5e52 51d5e082d7e7f1bb3d26f821818a5e52",
+                "error": "51d5e082d7e7f1bb3d26f821818a5e52 f3bd649bbee8cfa3ef9b11fe25f8047a",
                 "not_loaded_error": "3a6cdc46582191e381f54d42070dcb1b 3a6cdc46582191e381f54d42070dcb1b",
-                "validation_error": "6427b1fded45ed367f65265d1750475c 6427b1fded45ed367f65265d1750475c"
+                "validation_error": "6427b1fded45ed367f65265d1750475c d5c2a80e23de9a9ebf89d51cd316932c"
             }
         },
         "validation": {
-            "turnstile": "493ac385751012e8f8c3117dc80bd834 493ac385751012e8f8c3117dc80bd834"
+            "custom": {
+                "turnstile": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e d5c2a80e23de9a9ebf89d51cd316932c"
+                },
+                "turnstileToken": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e d5c2a80e23de9a9ebf89d51cd316932c"
+                }
+            },
+            "turnstile": "493ac385751012e8f8c3117dc80bd834 b360d4085445448d6746f7e8a32af5f3"
         }
     },
     "fof-amazon-affiliation.json": {
