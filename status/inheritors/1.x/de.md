@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **321** are translated differently and **706** are
+sides, but do not match between them: **321** are translated differently and **709** are
 translated only in `de`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
@@ -21,7 +21,7 @@ translated only in `de`. Altogether they cover **96** components.
 | `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
 | `ffans-creator-declarations` | 0 | [73](#ffans-creator-declarations-missing) |
 | `ffans-geetest` | 0 | [15](#ffans-geetest-missing) |
-| `ffans-threadmarks` | 0 | [86](#ffans-threadmarks-missing) |
+| `ffans-threadmarks` | 0 | [89](#ffans-threadmarks-missing) |
 | `flarum-audit` | [1](#flarum-audit) | 0 |
 | `flarum-extension-manager` | [5](#flarum-extension-manager) | 0 |
 | `flarum-flags` | [4](#flarum-flags) | 0 |
@@ -4896,7 +4896,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Diskussionsmarkierungen
++=> ffans-threadmarks.ref.threadmarks
 ```
 
 #### [`ffans-threadmarks.forum.directory.personal_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.personal_filter%22)
@@ -4920,7 +4920,15 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Diskussionsmarkierungen
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.directory.show_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.show_button_a11y_label%22)
+
+> Open threadmark directory
+
+```diff
++Verzeichnis der Diskussionsmarkierungen öffnen
 ```
 
 #### [`ffans-threadmarks.forum.directory.title`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.directory.title%22)
@@ -4936,6 +4944,14 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > All Posts
 
 ```diff
++Alle Beiträge
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_all_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_all_button_a11y_label%22)
+
+> Show all posts
+
+```diff
 +Alle Beiträge anzeigen
 ```
 
@@ -4944,7 +4960,15 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > =&gt; ffans-threadmarks.ref.threadmarks
 
 ```diff
-+Nur Diskussionsmarkierungen
++=> ffans-threadmarks.ref.threadmarks
+```
+
+#### [`ffans-threadmarks.forum.discussion_controls.show_threadmarks_button_a11y_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.discussion_controls.show_threadmarks_button_a11y_label%22)
+
+> Show threadmarked posts only
+
+```diff
++Nur Beiträge mit Diskussionsmarkierungen anzeigen
 ```
 
 #### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
@@ -5248,7 +5272,7 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 > fas fa-bookmark
 
 ```diff
-+fa-solid fa-book
++fas fa-bookmark
 ```
 
 #### [`ffans-threadmarks.lib.type_form.key_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/de/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.key_label%22)

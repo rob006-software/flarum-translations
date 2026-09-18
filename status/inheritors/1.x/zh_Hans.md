@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1902** are translated differently and **1920** are
-translated only in `zh_Hans`. Altogether they cover **140** components.
+sides, but do not match between them: **1931** are translated differently and **1926** are
+translated only in `zh_Hans`. Altogether they cover **143** components.
 
 <!-- {% raw %} -->
 
@@ -13,9 +13,12 @@ translated only in `zh_Hans`. Altogether they cover **140** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | [12](#acpl-lscache) | [8](#acpl-lscache-missing) |
-| `antoinefr-money` | [7](#antoinefr-money) | 0 |
+| `acpl-my-tags` | [2](#acpl-my-tags) | 0 |
+| `antoinefr-money` | [16](#antoinefr-money) | 0 |
+| `asyntai-chatbot` | 0 | [5](#asyntai-chatbot-missing) |
 | `core` | [117](#core) | 0 |
-| `datitisev-backup` | [28](#datitisev-backup) | 0 |
+| `datitisev-backup` | [41](#datitisev-backup) | 0 |
+| `datitisev-post-galleries` | [1](#datitisev-post-galleries) | 0 |
 | `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `datlechin-copy-links` | [1](#datlechin-copy-links) | 0 |
 | `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
@@ -43,7 +46,7 @@ translated only in `zh_Hans`. Altogether they cover **140** components.
 | `flarum-subscriptions` | [15](#flarum-subscriptions) | 0 |
 | `flarum-suspend` | [9](#flarum-suspend) | 0 |
 | `flarum-tags` | [26](#flarum-tags) | 0 |
-| `flectar-turnstile` | [2](#flectar-turnstile) | 0 |
+| `flectar-turnstile` | [6](#flectar-turnstile) | [2](#flectar-turnstile-missing) |
 | `fof-amazon-affiliation` | [7](#fof-amazon-affiliation) | 0 |
 | `fof-analytics` | [12](#fof-analytics) | 0 |
 | `fof-anti-spam` | [48](#fof-anti-spam) | [2](#fof-anti-spam-missing) |
@@ -72,7 +75,7 @@ translated only in `zh_Hans`. Altogether they cover **140** components.
 | `fof-forum-stats-widget` | 0 | [6](#fof-forum-stats-widget-missing) |
 | `fof-forum-widgets-core` | 0 | [3](#fof-forum-widgets-core-missing) |
 | `fof-gamification` | [46](#fof-gamification) | 0 |
-| `fof-geoip` | [16](#fof-geoip) | [47](#fof-geoip-missing) |
+| `fof-geoip` | [16](#fof-geoip) | [46](#fof-geoip-missing) |
 | `fof-github-sponsors` | [3](#fof-github-sponsors) | [4](#fof-github-sponsors-missing) |
 | `fof-horizon` | [15](#fof-horizon) | [7](#fof-horizon-missing) |
 | `fof-html-errors` | [4](#fof-html-errors) | 0 |
@@ -286,6 +289,27 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 
+### `acpl-my-tags`
+
+#### [`acpl-my-tags.admin.settings.enable-placeholder`](https://weblate.rob006.net/translate/flarum2/acpl-my-tags/zh_Hans/?q=context%3A%3D%22acpl-my-tags.admin.settings.enable-placeholder%22)
+
+> Enable placeholder text when the user is not following any tags
+
+```diff
+-用户无关注标签时显示关注提示
++用户未关注任何标签时显示提示
+```
+
+#### [`acpl-my-tags.forum.index.placeholder`](https://weblate.rob006.net/translate/flarum2/acpl-my-tags/zh_Hans/?q=context%3A%3D%22acpl-my-tags.forum.index.placeholder%22)
+
+> You are not following any tags yet. &lt;a&gt;See tags&lt;/a&gt;
+
+```diff
+-您还没有关注任何标签。<a>查看全部标签</a>
++你还没有关注任何标签。<a>查看全部标签</a>
+```
+
+
 ### `antoinefr-money`
 
 #### [`antoinefr-money.admin.automoderator.action_name`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.automoderator.action_name%22)
@@ -294,7 +318,7 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -奖励财富
-+奖励货币
++发放货币
 ```
 
 #### [`antoinefr-money.admin.automoderator.metric_name`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.automoderator.metric_name%22)
@@ -312,7 +336,34 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -财富只增不减
-+货币只增不减
++永不扣除货币
+```
+
+#### [`antoinefr-money.admin.autoremove.1`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.autoremove.1%22)
+
+> When a discussion/post is hidden or restored (default)
+
+```diff
+-隐藏或恢复主题/帖子时（默认）
++讨论或帖子被隐藏/恢复时（默认）
+```
+
+#### [`antoinefr-money.admin.autoremove.2`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.autoremove.2%22)
+
+> When a discussion/post is deleted
+
+```diff
+-删除主题/帖子时
++讨论或帖子被删除时
+```
+
+#### [`antoinefr-money.admin.permissions.disable_money_label`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.permissions.disable_money_label%22)
+
+> Disable money
+
+```diff
+-禁用奖励
++禁用货币
 ```
 
 #### [`antoinefr-money.admin.permissions.edit_money_label`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.permissions.edit_money_label%22)
@@ -321,7 +372,7 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -调整财富
-+调整货币
++编辑用户货币
 ```
 
 #### [`antoinefr-money.admin.settings.autoremove`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.autoremove%22)
@@ -330,8 +381,66 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -重算计算财富
-+重新计算货币
++自动计算货币
 ```
+
+#### [`antoinefr-money.admin.settings.cascaderemove`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.cascaderemove%22)
+
+> Remove money for posts when a discussion is deleted
+
+```diff
+-当讨论被删除时移除帖子的奖励
++删除讨论时扣除其中回复获得的货币
+```
+
+#### [`antoinefr-money.admin.settings.helpextensionlikes`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.helpextensionlikes%22)
+
+> Requires the &lt;code&gt;flarum/likes&lt;/code&gt; extension
+
+```diff
+-需要 <code>flarum/likes</code> 扩展程序
++需要启用 <code>flarum/likes</code> 扩展
+```
+
+<del>需要</del><ins>需要启用</ins> &lt;code&gt;flarum/likes&lt;/code&gt; <del>扩展程序</del><ins>扩展</ins>
+
+#### [`antoinefr-money.admin.settings.ignore_notifying_users`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.ignore_notifying_users%22)
+
+> When checking the word count of replies, only focus on the content section
+
+```diff
+-当检查回复的字数时，只关注内容部分
++仅统计正文内容字数
+```
+
+#### [`antoinefr-money.admin.settings.moneyfordiscussion`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.moneyfordiscussion%22)
+
+> Money given for a new discussion
+
+```diff
+-发贴一次可获得
++发起讨论可获得
+```
+
+#### [`antoinefr-money.admin.settings.moneyforlike`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.moneyforlike%22)
+
+> Money given when a post is liked
+
+```diff
+-获得点赞时可获得
++被赞时可获得
+```
+
+#### [`antoinefr-money.admin.settings.noshowzero`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.admin.settings.noshowzero%22)
+
+> Do not show if the value is zero
+
+```diff
+-若值为 0 则不显示
++数值为 0 时不显示
+```
+
+<del>若值为</del><ins>数值为</ins> 0 <del>则不显示</del><ins>时不显示</ins>
 
 #### [`antoinefr-money.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.forum.modal.title%22)
 
@@ -339,10 +448,10 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -{username} 的财富
-+{username} 的货币数
++{username} 的货币
 ```
 
-{username} <del>的财富</del><ins>的货币数</ins>
+{username} <del>的财富</del><ins>的货币</ins>
 
 #### [`antoinefr-money.forum.user_controls.money_button`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/zh_Hans/?q=context%3A%3D%22antoinefr-money.forum.user_controls.money_button%22)
 
@@ -350,7 +459,7 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -修改财富
-+修改货币
++编辑货币
 ```
 
 
@@ -1436,14 +1545,54 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ### `datitisev-backup`
 
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description%22)
+
+> Your authentication Access token ID
+
+```diff
+-您的身份认证访问令牌 ID
++用于身份验证的 Access ID
+```
+
+<del>您的身份认证访问令牌</del><ins>用于身份验证的 Access</ins> ID
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.description%22)
+
+> Your authentication Access token Key
+
+```diff
+-您的身份认证访问令牌密钥
++用于身份验证的 Access Key
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.description%22)
+
+> The storage bucket to use.
+
+```diff
+-要使用的存储桶。
++用于存储备份的 Bucket 名称。
+```
+
 #### [`datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.label%22)
 
 > Bucket
 
 ```diff
 -桶
-+存储桶 (Bucket)
++Bucket
 ```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.description%22)
+
+> The URL to your storage endpoint.
+
+```diff
+-存储终端的 URL。
++存储服务的地域节点 URL。
+```
+
+<del>存储终端的</del><ins>存储服务的地域节点</ins> URL。
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.label%22)
 
@@ -1451,19 +1600,19 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -终端
-+终端 (Endpoint)
++地域节点
 ```
 
-终端<ins> (Endpoint)</ins>
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.bucket.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.bucket.description%22)
 
-#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.path-prefix.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.path-prefix.description%22)
-
-> Optional default path prefix for the files.
+> S3 bucket to upload to.
 
 ```diff
--可选的默认文件路径前缀。
-+可选的文件默认路径前缀。
+-要上传到的 S3 存储桶。
++用于上传备份的 S3 Bucket。
 ```
+
+<del>要上传到的</del><ins>用于上传备份的</ins> S3 <del>存储桶。</del><ins>Bucket。</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aws.bucket.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.bucket.label%22)
 
@@ -1471,7 +1620,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -桶
-+存储桶 (Bucket)
++Bucket
 ```
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aws.credentials-key.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.credentials-key.description%22)
@@ -1480,10 +1629,30 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -AWS 凭据密钥
-+AWS 凭据 Key
++AWS 凭证中的访问密钥 ID
 ```
 
-AWS <del>凭据密钥</del><ins>凭据 Key</ins>
+AWS <del>凭据密钥</del><ins>凭证中的访问密钥 ID</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.credentials-key.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.credentials-key.label%22)
+
+> Key
+
+```diff
+-Key
++访问密钥 ID
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.credentials-secret.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.credentials-secret.description%22)
+
+> AWS credentials secret
+
+```diff
+-AWS 凭据私钥
++AWS 凭证中的秘密访问密钥
+```
+
+AWS <del>凭据私钥</del><ins>凭证中的秘密访问密钥</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aws.credentials-secret.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.credentials-secret.label%22)
 
@@ -1491,18 +1660,7 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -私钥
-+私钥 (Secret)
-```
-
-私钥<ins> (Secret)</ins>
-
-#### [`datitisev-backup.admin.adapter-settings-modal.aws.path-prefix.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.path-prefix.description%22)
-
-> Optional default path prefix for the files.
-
-```diff
--可选的默认文件路径前缀。
-+可选的文件默认路径前缀。
++秘密访问密钥
 ```
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aws.region.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.region.description%22)
@@ -1511,7 +1669,7 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -存储桶的区域。
-+存储桶所属区域。
++Bucket 所在区域。
 ```
 
 #### [`datitisev-backup.admin.adapter-settings-modal.aws.version.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.version.description%22)
@@ -1520,8 +1678,50 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -指定一个版本或留空表示最新版本。
-+指定版本或留空以使用最新版本。
++指定 API 版本，留空则使用最新版本。
 ```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.azure.container.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.azure.container.description%22)
+
+> Azure container
+
+```diff
+-Azure 容器
++Azure 存储容器
+```
+
+Azure <del>容器</del><ins>存储容器</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-access-code-label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-access-code-label%22)
+
+> Obtain an access code (requires app key)
+
+```diff
+-获取访问代码（需要 App Key）
++获取授权码（需要 App Key）
+```
+
+<del>获取访问代码（需要</del><ins>获取授权码（需要</ins> App Key）
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-button`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-button%22)
+
+> Use code
+
+```diff
+-使用代码
++使用授权码
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label%22)
+
+> Use access code to obtain a refresh token (requires app key &amp; secret)
+
+```diff
+-使用访问代码获取刷新令牌（需要 App Key 和 Secret）
++使用授权码获取刷新令牌（需要 App Key 和 App Secret）
+```
+
+<del>使用访问代码获取刷新令牌（需要</del><ins>使用授权码获取刷新令牌（需要</ins> App Key 和<ins> App</ins> Secret）
 
 #### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success%22)
 
@@ -1529,7 +1729,7 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -刷新令牌获取成功，请保存。
-+刷新令牌获取成功并已更新至上方！请保存更改以存储它。
++已成功获取刷新令牌并填入上方字段！请保存更改以应用此令牌。
 ```
 
 #### [`datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.description%22)
@@ -1538,19 +1738,8 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -在下方获取刷新令牌，或根据指引手动生成：https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually
-+使用下方的字段获取刷新令牌，或手动参考指引：https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually。
++可以使用下方字段获取刷新令牌，也可以按照 https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually 的说明手动获取。
 ```
-
-#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.label%22)
-
-> Refresh Token
-
-```diff
--刷新令牌
-+刷新令牌 (Refresh Token)
-```
-
-刷新令牌<ins> (Refresh Token)</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.host.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.host.description%22)
 
@@ -1558,10 +1747,10 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -要连接到的 FTP 主机名，例如 <em>ftp.yourdomain.local</em>。
-+要连接的 FTP 主机名，例如：<em>ftp.yourdomain.local</em>。
++远程服务器的主机名，例如 <em>ftp.yourdomain.local</em>。
 ```
 
-<del>要连接到的</del><ins>要连接的</ins> FTP<del> 主机名，例如</del> <del>&lt;em&gt;ftp.yourdomain.local&lt;/em&gt;。</del><ins>主机名，例如：&lt;em&gt;ftp.yourdomain.local&lt;/em&gt;。</ins>
+<del>要连接到的 FTP 主机名，例如</del><ins>远程服务器的主机名，例如</ins> &lt;em&gt;ftp.yourdomain.local&lt;/em&gt;。
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.password.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.password.description%22)
 
@@ -1569,10 +1758,8 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -要在 FTP 服务器上进行身份验证的密码。
-+用于 FTP 服务器身份验证的密码。
++用于登录远程服务器的密码。
 ```
-
-<del>要在</del><ins>用于</ins> FTP <del>服务器上进行身份验证的密码。</del><ins>服务器身份验证的密码。</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.port.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.port.description%22)
 
@@ -1580,10 +1767,19 @@ AWS <del>凭据密钥</del><ins>凭据 Key</ins>
 
 ```diff
 -FTP 端口（默认 21）。
-+FTP 端口（默认为 21）。
++FTP 端口，默认为 21。
 ```
 
-FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
+FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><ins>21。</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.ftp.root.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.root.description%22)
+
+> The remote root path (subdirectory) to store backups in.
+
+```diff
+-存储备份的远程根路径（子目录）。
++用于存储备份的远程根路径（子目录）。
+```
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.ssl.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.ssl.description%22)
 
@@ -1591,10 +1787,10 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -是否使用加密 SSL 连接到服务器。
-+是否使用加密的 SSL 连接到服务器。
++是否使用加密的 SSL 连接服务器。
 ```
 
-<del>是否使用加密</del><ins>是否使用加密的</ins> SSL 连接到服务器。
+<del>是否使用加密</del><ins>是否使用加密的</ins> SSL <del>连接到服务器。</del><ins>连接服务器。</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.timeout.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.timeout.description%22)
 
@@ -1602,10 +1798,8 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -等待与 FTP 服务器连接的秒数。
-+等待 FTP 服务器连接的秒数。
++等待连接远程服务器的最长时间，单位为秒。
 ```
-
-<del>等待与</del><ins>等待</ins> FTP 服务器连接的秒数。
 
 #### [`datitisev-backup.admin.adapter-settings-modal.ftp.username.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.username.description%22)
 
@@ -1613,10 +1807,8 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -要在 FTP 服务器上进行身份验证的用户名。
-+用于 FTP 服务器身份验证的用户名。
++用于登录远程服务器的用户名。
 ```
-
-<del>要在</del><ins>用于</ins> FTP <del>服务器上进行身份验证的用户名。</del><ins>服务器身份验证的用户名。</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description%22)
 
@@ -1625,11 +1817,11 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -根据指引创建 Google Project 并获取 Client ID 和 Client Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md
-+按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的说明创建 Google 项目并获取 Client ID 和 Client Secret。
++按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 中的说明创建 Google 项目并获取 Client ID 和 Client Secret。
 
 ```
 
-<del>根据指引创建</del><ins>按照</ins> <del>Google</del><ins>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</ins> <del>Project</del><ins>的说明创建</ins> <del>并获取</del><ins>Google 项目并获取</ins> Client ID 和 Client <del>Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</del><ins>Secret。</ins><br />
+<del>根据指引创建</del><ins>按照</ins> <del>Google</del><ins>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</ins> <del>Project</del><ins>中的说明创建</ins> <del>并获取</del><ins>Google 项目并获取</ins> Client ID 和 Client <del>Secret：https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md</del><ins>Secret。</ins><br />
 
 #### [`datitisev-backup.admin.adapter-settings-modal.gdrive.folder.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.folder.label%22)
 
@@ -1648,10 +1840,10 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -成功连接 Google Drive，请保存设置。
-+成功连接到 Google Drive！请保存更改以存储设置。
++已成功连接 Google Drive！请保存更改以应用设置。
 ```
 
-<del>成功连接</del><ins>成功连接到</ins> Google <del>Drive，请保存设置。</del><ins>Drive！请保存更改以存储设置。</ins>
+<del>成功连接</del><ins>已成功连接</ins> Google <del>Drive，请保存设置。</del><ins>Drive！请保存更改以应用设置。</ins>
 
 #### [`datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.description%22)
 
@@ -1660,33 +1852,51 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。
-+按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的说明取回您的 Google oAuth 应用程序刷新令牌。
++按照 https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 中的说明获取 Google OAuth 应用的刷新令牌。
 
 ```
 
-按照 <del>@ </del>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md <del>的指引，取回您的</del><ins>的说明取回您的</ins> Google oAuth 应用程序刷新令牌。<br />
+按照 <del>@ </del>https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md <del>的指引，取回您的</del><ins>中的说明获取</ins> Google <del>oAuth</del><ins>OAuth</ins> <del>应用程序刷新令牌。</del><ins>应用的刷新令牌。</ins><br />
 
-#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.label%22)
+#### [`datitisev-backup.admin.adapter-settings-modal.local.target.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.local.target.description%22)
 
-> Refresh Token
+> Specify the local directory to save backups to.
 
 ```diff
--刷新令牌
-+刷新令牌 (Refresh Token)
+-指定用于存储备份的本地目录。
++指定用于保存备份的本地目录。
 ```
 
-刷新令牌<ins> (Refresh Token)</ins>
+#### [`datitisev-backup.admin.adapter-settings-modal.name_label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.name_label%22)
 
-#### [`datitisev-backup.admin.adapters.aliyun`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapters.aliyun%22)
-
-> Alibaba Cloud (Aliyun)
+> Location Name
 
 ```diff
--阿里云
-+阿里云 (Aliyun)
+-Location 名称
++存储位置名称
 ```
 
-阿里云<ins> (Aliyun)</ins>
+#### [`datitisev-backup.admin.adapters.aws`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapters.aws%22)
+
+> Amazon AWS S3
+
+```diff
+-亚马逊 AWS S3
++Amazon AWS S3
+```
+
+<del>亚马逊</del><ins>Amazon</ins> AWS S3
+
+#### [`datitisev-backup.admin.adapters.azure`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.adapters.azure%22)
+
+> Microsoft Azure
+
+```diff
+-微软 Azure
++Microsoft Azure
+```
+
+<del>微软</del><ins>Microsoft</ins> Azure
 
 #### [`datitisev-backup.admin.create_button`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.create_button%22)
 
@@ -1694,7 +1904,7 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -新建适配器
-+添加新适配器
++添加存储位置
 ```
 
 #### [`datitisev-backup.admin.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.delete_confirmation%22)
@@ -1703,7 +1913,7 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -确定要删除「{name}」（{adapter}）
-+确定要删除“{name}”（{adapter}）吗？
++确定要删除「{name}」（{adapter}）吗？
 ```
 
 #### [`datitisev-backup.admin.nav.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.nav.description%22)
@@ -1712,7 +1922,7 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -存储您的论坛副本。
-+存储论坛的副本。
++保存论坛的备份副本。
 ```
 
 #### [`datitisev-backup.admin.required-package-modal.content`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.required-package-modal.content%22)
@@ -1722,11 +1932,45 @@ FTP <del>端口（默认</del><ins>端口（默认为</ins> 21）。
 
 ```diff
 -为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过 Flarum 安装目录下运行 <code>composer require {package}</code> 命令来安装。
-+为了使用此驱动程序，您需要安装一个特定的软件包。您可以通过在 Flarum 安装目录下运行以下 composer 命令来安装：<code>composer require {package}</code>。
++使用此存储方式需要安装指定的软件包。请在 Flarum 安装目录中运行以下命令：<code>composer require {package}</code>
 
 ```
 
-<del>为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过</del><ins>为了使用此驱动程序，您需要安装一个特定的软件包。您可以通过在</ins> Flarum <del>安装目录下运行</del><ins>安装目录下运行以下</ins> <del>&lt;code&gt;composer</del><ins>composer</ins> <del>require</del><ins>命令来安装：&lt;code&gt;composer</ins> <del>{package}&lt;/code&gt;</del><ins>require</ins> <del>命令来安装。</del><ins>{package}&lt;/code&gt;。</ins><br />
+<del>为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过</del><ins>使用此存储方式需要安装指定的软件包。请在</ins> Flarum<del> 安装目录下运行</del> <del>&lt;code&gt;composer</del><ins>安装目录中运行以下命令：&lt;code&gt;composer</ins> require {package}&lt;/code&gt;<del> 命令来安装。</del><br />
+
+#### [`datitisev-backup.admin.required-package-modal.title`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.required-package-modal.title%22)
+
+> A package is needed for {adapter}
+
+```diff
+-{adapter} 所需的软件包
++{adapter} 需要安装额外依赖
+```
+
+{adapter} <del>所需的软件包</del><ins>需要安装额外依赖</ins>
+
+#### [`datitisev-backup.admin.required_package_button`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/zh_Hans/?q=context%3A%3D%22datitisev-backup.admin.required_package_button%22)
+
+> Set up
+
+```diff
+-安装
++安装依赖
+```
+
+
+### `datitisev-post-galleries`
+
+#### [`datitisev-post-galleries.admin.settings.swiper_zoom`](https://weblate.rob006.net/translate/flarum2/datitisev-post-galleries/zh_Hans/?q=context%3A%3D%22datitisev-post-galleries.admin.settings.swiper_zoom%22)
+
+> Enable Swiper zoom module
+
+```diff
+-启用 Swiper 缩放模块
++启用 Swiper 图片缩放
+```
+
+启用 Swiper <del>缩放模块</del><ins>图片缩放</ins>
 
 
 ### `datlechin-birthdays`
@@ -4339,6 +4583,17 @@ Flarum <del>默认提及格式是「@外显昵称#ID」，默认外显昵称为�
 
 ### `flectar-turnstile`
 
+#### [`flectar-turnstile.admin.settings.help_text`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22flectar-turnstile.admin.settings.help_text%22)
+
+> Generate Turnstile keys on your Cloudflare account &lt;a&gt;here&lt;/a&gt;.
+
+```diff
+-<a>点击此处</a>，前往 Cloudflare 账号控制台生成 Turnstile 密钥。
++<a>点击此处</a>，前往 Cloudflare 生成 Turnstile 密钥。
+```
+
+&lt;a&gt;点击此处&lt;/a&gt;，前往 Cloudflare <del>账号控制台生成</del><ins>生成</ins> Turnstile 密钥。
+
 #### [`flectar-turnstile.admin.settings.secret_key`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22flectar-turnstile.admin.settings.secret_key%22)
 
 > Secret key
@@ -4354,7 +4609,34 @@ Flarum <del>默认提及格式是「@外显昵称#ID」，默认外显昵称为�
 
 ```diff
 -站点公钥
-+站点key
++站点密钥
+```
+
+#### [`flectar-turnstile.forum.error`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22flectar-turnstile.forum.error%22)
+
+> An error occurred while verifying you are human. Please try again.
+
+```diff
+-人机验证错误，请重试。
++人机验证发生错误，请重试。
+```
+
+#### [`flectar-turnstile.forum.validation_error`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22flectar-turnstile.forum.validation_error%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
+-请完成Turnstile验证。
++请完成 Turnstile 验证。
+```
+
+#### [`validation.turnstile`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22validation.turnstile%22)
+
+> We couldn't verify if you're a robot or not. Please refresh the page and try again.
+
+```diff
+-我们无法确认您是否为机器人，请刷新页面并重试。
++无法确认你是否为机器人，请刷新页面后重试。
 ```
 
 
@@ -18815,6 +19097,53 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 ```
 
 
+### `asyntai-chatbot` (missing)
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/zh_Hans/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_help%22)
+
+> Members who are logged in never see the chat.
+
+```diff
++已登录成员不会看到聊天小组件。
+```
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/zh_Hans/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_label%22)
+
+> Show only to guests
+
+```diff
++仅向游客显示
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/zh_Hans/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_help%22)
+
+> Leave this field empty to use the standard address https://widget.asyntai.com/static/js/chat-widget.js
+>
+
+```diff
++留空则使用默认地址：https://widget.asyntai.com/static/js/chat-widget.js
++
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/zh_Hans/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_label%22)
+
+> Script address (optional)
+
+```diff
++脚本地址（可选）
+```
+
+#### [`asyntai-chatbot.admin.settings.widget_id_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/zh_Hans/?q=context%3A%3D%22asyntai-chatbot.admin.settings.widget_id_help%22)
+
+> Paste the snippet from your Asyntai dashboard, or only the widget ID. Leave this field empty to switch the chat off. You find the ID at asyntai.com under Setup &amp; Integration.
+>
+
+```diff
++粘贴 Asyntai 控制台提供的代码片段，或仅填写小组件 ID。留空可关闭聊天功能。你可以在 asyntai.com 的「Setup & Integration」页面找到该 ID。
++
+```
+
+
 ### `datlechin-passkey` (missing)
 
 #### [`datlechin-passkey.forum.log_in.cancelled`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.cancelled%22)
@@ -19804,6 +20133,25 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +置顶讨论
+```
+
+
+### `flectar-turnstile` (missing)
+
+#### [`validation.custom.turnstile.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22validation.custom.turnstile.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++请完成 Turnstile 验证。
+```
+
+#### [`validation.custom.turnstileToken.required`](https://weblate.rob006.net/translate/flarum2/flectar-turnstile/zh_Hans/?q=context%3A%3D%22validation.custom.turnstileToken.required%22)
+
+> Please complete the Turnstile challenge.
+
+```diff
++请完成 Turnstile 验证。
 ```
 
 
@@ -21157,14 +21505,6 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ```diff
 +ASN
-```
-
-#### [`fof-geoip.lib.map_modal.country_code`](https://weblate.rob006.net/translate/flarum2/fof-geoip/zh_Hans/?q=context%3A%3D%22fof-geoip.lib.map_modal.country_code%22)
-
-> Country Code
-
-```diff
-+国家或地区代码
 ```
 
 #### [`fof-geoip.lib.map_modal.error`](https://weblate.rob006.net/translate/flarum2/fof-geoip/zh_Hans/?q=context%3A%3D%22fof-geoip.lib.map_modal.error%22)
