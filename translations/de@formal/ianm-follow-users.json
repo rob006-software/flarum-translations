@@ -28,8 +28,8 @@
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "followers_link": "Follower",
             "profile_page": {
-                "no_following": "Anscheinend folgst du niemandem.",
-                "no_followers": "Es sieht so aus, als hättest du noch keine Follower."
+                "no_following": "Anscheinend folgen Sie niemandem.",
+                "no_followers": "Es sieht so aus, als hätten Sie noch keine Follower."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -65,7 +65,7 @@
             "modals": {
                 "select_follow_level": {
                     "title": "Follow-Level für {username} auswählen",
-                    "description": "Wähle , wie Du <em>{username}</em> folgen möchtest.",
+                    "description": "Wählen Sie, wie Sie <em>{username}</em> folgen möchtest.",
                     "follow_levels_heading": "Ebenen folgen",
                     "follow_select_label": "Folgetyp",
                     "no_user_attr_provided_err": "Uh oh, beim Öffnen dieses Modal ist etwas schief gelaufen.",
@@ -88,16 +88,16 @@
             "new_follower": {
                 "subject": "{follower_display_name} folgt dir",
                 "plain": {
-                    "body": "{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.\n\n{profile_url}\n"
+                    "body": "{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": "{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest."
+                    "body": "{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten."
                 }
             },
             "new_post": {
                 "subject": "{user_display_name} hat einen Beitrag in {discussion_title} erstellt",
                 "plain": {
-                    "body": "{user_display_name} hat einen Beitrag in {discussion_title} erstellt.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du auf dem neuesten Stand bist.\n"
+                    "body": "{user_display_name} hat einen Beitrag in {discussion_title} erstellt.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nSie erhalten keine weiteren Benachrichtigungen zu dieser Diskussion, bis Sie auf dem neuesten Stand sind.\n"
                 },
                 "html": {
                     "body": "{user_display_name} hat einen Beitrag in [{discussion_title}] erstellt ({post_url})."
