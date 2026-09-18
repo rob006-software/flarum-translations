@@ -3428,9 +3428,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/ernestdefoe/garrison" title="ernestdefoe/garrison"><code>ernestdefoe/garrison</code></a>
+		</td>
+		<td align="center">310</td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/garrison/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/garrison/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/garrison/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison/bg/"><img src="https://weblate.rob006.net/widgets/flarum2/bg/ernestdefoe-garrison/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/ernestdefoe/steward" title="ernestdefoe/steward"><code>ernestdefoe/steward</code></a>
 		</td>
-		<td align="center">310<br /><img src="https://img.shields.io/badge/-%2B19-red" alt="+19" title="Change from last week"></td>
+		<td align="center">311<br /><img src="https://img.shields.io/badge/-%2B20-red" alt="+20" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/steward/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
