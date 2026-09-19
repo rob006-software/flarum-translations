@@ -24,7 +24,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "מזהה",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": "יצירת תגית"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -84,7 +84,7 @@
                 "added_and_removed_tags_text": "נוספו {tagsAdded} והוסרו {tagsRemoved} תגיות על ידי משתמש {username}.",
                 "added_tags_text": "{username} הוסיף את התגיות {tagsAdded}.",
                 "removed_tags_text": "{username} הסיר את התגיות {tagsRemoved}.",
-                "tags_text": "{tags} תגית|{tags} תגיות"
+                "tags_text": "{count, plural, one {{tags} תגית} other {{tags} תגיות}}"
             },
             "tag": {
                 "meta_description_text": "כל הנושאים עם התגית {tag}"

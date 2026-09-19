@@ -17,7 +17,7 @@
             "post": {
                 "like_link": "Μου αρέσει",
                 "liked_by_self_text": "Στους χρήστες {users} αρέσει αυτό.",
-                "liked_by_text": "Στον χρήστη {users} αρέσει αυτό.|Στους χρήστες {users} αρέσει αυτό.",
+                "liked_by_text": "{count, plural, one {Στον χρήστη {users} αρέσει αυτό} other {Στους χρήστες {users} αρέσει αυτό}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Δεν μου αρέσει",
                 "you_text": "=> core.ref.you"

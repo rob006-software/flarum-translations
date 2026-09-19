@@ -26,8 +26,8 @@
             }
         },
         "api": {
-            "auto_note": "Aldatuta erbiltzaile honi : azrrazoia",
-            "auto_note_actor": "Aldatua 'erabiltzailea': arrazoia",
+            "auto_note": "_Aldatuta erabiltzaile honi:_ {reason}",
+            "auto_note_actor": "_Aldatua_ @{username}: {reason}",
             "no_reason_provided": "Ez da heman arrazoirik."
         }
     }

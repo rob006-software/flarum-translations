@@ -91,9 +91,9 @@
                 "select": "問題を解決できましたか？"
             },
             "body": {
-                "awarded": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、'{discussion_title}'のスレッドにおいて、あなたの投稿をベストアンサーに選びました。ご協力ありがとうございます。\n内容はこちらから確認できます: {discussion_url}\n",
-                "ba-set": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたの参加しているスレッド'{discussion_title}'において、ベストアンサーを選択しました。\n内容はこちらから確認できます: {discussion_url}\n",
-                "select": "{recipient_display_name}さん、こんにちは。\nあなたの質問'{discussion_title}'に対し、いくつかの回答が届いているようです。得られた回答から問題を解決できましたか？\nもし解決された場合は、ベストアンサーを選択していただけると幸いです。これによって、あなたと同じ問題を持った他のユーザーが、解決方法を知ることができます。\n以下のURLからスレッドを開き、最も参考になった投稿をベストアンサーに選んでください。\n{discussion_url}\nご協力をお願いします。\n"
+                "awarded": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、「{discussion_title}」のスレッドにおいて、あなたの投稿をベストアンサーに選びました。ご協力ありがとうございます。\n内容はこちらから確認できます: {discussion_url}\n",
+                "ba-set": "{recipient_display_name}さん、こんにちは。\n{actor_display_name}さんが、あなたの参加しているスレッド「{discussion_title}」において、ベストアンサーを選択しました。\n内容はこちらから確認できます: {discussion_url}\n",
+                "select": "{recipient_display_name}さん、こんにちは。\nあなたの質問「{discussion_title}」に対し、いくつかの回答が届いているようです。得られた回答から問題を解決できましたか？\nもし解決された場合は、ベストアンサーを選択していただけると幸いです。これによって、あなたと同じ問題を持った他のユーザーが、解決方法を知ることができます。\n以下のURLからスレッドを開き、最も参考になった投稿をベストアンサーに選んでください。\n{discussion_url}\nご協力をお願いします。\n"
             }
         },
         "lib": {

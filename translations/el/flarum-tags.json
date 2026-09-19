@@ -84,7 +84,7 @@
                 "added_and_removed_tags_text": "{username} πρόσθεσε την κατηγορία {tagsAdded} και αφαίρεσε την κατηγορία {tagsRemoved}.",
                 "added_tags_text": "{username} πρόσθεσε {tagsAdded}.",
                 "removed_tags_text": "{username} αφαίρεσε {tagsRemoved}.",
-                "tags_text": "{tags} κατηγορία|{tags} κατηγορίες"
+                "tags_text": "{count, plural, one {{tags} κατηγορία} other {{tags} κατηγορίες}}"
             },
             "tag": {
                 "meta_description_text": "Όλες οι συζητήσεις στην κατηγορία {tag}"
