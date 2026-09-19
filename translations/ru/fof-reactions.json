@@ -25,7 +25,7 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "По умолчанию ресурсы реакций загружаются через CDN Cloudflare. Вы также можете указать любой другой адрес CDN при необходимости. <code>[codepoint]</code> будет заменён кодом эмодзи.\n\nНапример, чтобы использовать Noto Emoji через jsDelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nВаш CDN должен поддерживать Emoji/Unicode {emoji|base} или новее. Используйте [twemoji] для подстановки версии Twemoji.\n",
+                    "help": "По умолчанию ресурсы реакций загружаются через CDN Cloudflare. Вы также можете указать любой другой адрес CDN при необходимости. <code>[codepoint]</code> будет заменён кодом эмодзи.\n\nНапример, чтобы использовать Noto Emoji через jsDelivr, введите <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Это поле НИКОГДА не должно оставаться пустым.\n",
                     "label": "URL",
                     "default-url": "По умолчанию: {url}"
                 },
