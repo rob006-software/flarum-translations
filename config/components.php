@@ -735,7 +735,7 @@ return [
 		],
 	],
 	'lcoy-waterfall' => [
-		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-Waterfall/1.0.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-Waterfall/1.0.9/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
