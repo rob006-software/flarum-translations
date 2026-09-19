@@ -13,7 +13,7 @@
                 "body": "{warnee_display_name}，你好！\n\n{warner_display_name} 在「{discussion_title}」中向你发出站务警告，并记 {strikes} 分。\n\n警告理由：\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} 向你发出站务警告并记{strikes} 分",
+                "subject": "{warner_display_name} 向你发出站务警告并记 {strikes} 分",
                 "body": "{warnee_display_name}，你好！\n\n{warner_display_name} 向你发出站务警告，并记 {strikes} 分。\n\n警告理由：\n\n---\n\n{public_comment}\n"
             }
         },
@@ -62,7 +62,7 @@
                 "heading": "警告 <strong>{username}</strong>",
                 "strikes_heading": "记多少分？",
                 "public_comment_heading": "用户批注。为什么要警告 <strong>{username}</strong>？此内容对该用户和其他站务人员可见。",
-                "private_comment_heading": "内部备注。此内容仅站务人员可见。",
+                "private_comment_heading": "<strong>内部备注</strong>。此内容仅站务人员可见。",
                 "submit_button": "发送警告"
             }
         }
