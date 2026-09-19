@@ -3,6 +3,7 @@
         "forum": {
             "unlock": "Unlock",
             "locked_text": "This content is password protected",
+            "card_default_password_label": "Default password:",
             "insert_protected": "Insert protected content",
             "placeholder_content": "Enter the protected content here",
             "unlock_modal_title": "Unlock protected content",
@@ -11,8 +12,14 @@
             "password_optional_label": "Password (optional)",
             "password_optional_hint": "Leave empty to use the default password",
             "password_keep_hint": "Password already set - leave empty to keep it",
+            "password_use_default": "Use the default password (clear the stored one)",
+            "password_default_hint": "Default password: {password} (used when left empty)",
+            "password_stored_hint": "This block has its own password, which cannot be displayed. Type a new one to replace it, or switch to the default password below.",
+            "password_using_default_hint": "Will use the default password",
             "password_invalid_quote": "Password must not contain double quotes",
-            "password_unlock_hint": "Enter the password (the default password if left blank)",
+            "password_invalid_hash": "Password must not start with $2y$ or $argon2 (reserved hash format - it could never be unlocked)",
+            "password_unlock_hint": "Enter the password",
+            "unlock_default_filled": "The default password is filled in - just confirm to unlock",
             "password_required": "Please enter a password to unlock.",
             "submit": "Unlock",
             "wrong_password": "Incorrect password, please try again.",
@@ -62,7 +69,7 @@
                 "allow_guest_unlock": "Allow guests to unlock protected content",
                 "allow_guest_unlock_help": "When disabled, only logged-in users can unlock protected content with a password.",
                 "default_password": "Default password",
-                "default_password_help": "Used when an author leaves the password empty. Make sure authors communicate it to visitors."
+                "default_password_help": "Used when an author leaves the password empty. It is shown to all users in the insert dialog, so a block that relies on it is effectively \"click to reveal\" — set a password of your own for content that needs to stay private. Changing it takes effect immediately for every protected block without a password of its own."
             }
         }
     }
