@@ -11,7 +11,7 @@
             "purge_on_discussion_update_label": "ล้าง URL หรือ Cache Tag เมื่อโพสต์มีการอัปเดต",
             "purge_on_discussion_update_help": "ใส่ URL หรือ Cache Tag ที่ต้องการล้างเมื่อโพสต์ถูกอัปเดต หนึ่งรายการต่อบรรทัด URL ควรขึ้นต้นด้วย <code>/</code> เช่น <code>/rankings</code> และ Cache Tag ควรขึ้นต้นด้วย <code>tag=</code> เช่น <code>tag=rankings</code> <a>เรียนรู้เพิ่มเติม</a> โดยค่าเริ่มต้น แคชของหน้าหลักและโพสต์ที่อัปเดตจะถูกล้าง",
             "cache_exclude_label": "เส้นทางที่ไม่แคช",
-            "cache_exclude_help": "เส้นทางที่มีสตริงเหล่านี้จะไม่ถูกแคช เช่น <code>/mypath/mypage?aa=bb</code> ใส่ <code>^</code> นำหน้าเพื่อจับจุดเริ่มต้น ใส่ <code>$</code> ท้าย URL เพื่อจับแบบตรงทั้งหมด หนึ่งรายการต่อบรรทัด",
+            "cache_exclude_help": "เส้นทางที่มีสตริงเหล่านี้จะไม่ถูกแคช ตัวอย่าง <code>/mypath/mypage?aa=bb</code> คุณสามารถใช้ <code>mypage?aa=</code> ได้ หากต้องการให้ตรงกับจุดเริ่มต้น ให้เพิ่ม <code>^</code> ที่จุดเริ่มต้น หากต้องการให้ตรงกัน ให้เพิ่ม <code>$</code> ที่ส่วนท้ายของ URL หนึ่งรายการต่อบรรทัด",
             "drop_qs_label": "ตัด Query String",
             "drop_qs_help": "ใช้ฟีเจอร์นี้เพื่อตัด query string เฉพาะ เช่น <code>fbclid</code> หรือ <code>utm*</code> เมื่อแคช ต้องใช้ LSWS v5.2.3 หรือใหม่กว่า ระบุ query string ที่จะตัด หนึ่งรายการต่อบรรทัด <a>เรียนรู้เพิ่มเติม</a><br></br>\n⚠️ การตั้งค่านี้จะแก้ไขไฟล์ .htaccess\n",
             "status_codes_cache_label": "ค่า TTL เริ่มต้นของหน้า HTTP Status Code",
