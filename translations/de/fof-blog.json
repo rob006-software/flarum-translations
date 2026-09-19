@@ -5,7 +5,7 @@
             "permissions": {
                 "write_articles": "Blogeinträge schreiben und bearbeiten",
                 "auto_approve_posts": "Artikel ohne Genehmigung veröffentlichen",
-                "approve_posts": "Kann Blog genehmigen"
+                "approve_posts": "Darf Blogartikel genehmigen"
             },
             "settings": {
                 "no_categories_selected": "Keine Kategorien ausgewählt",
@@ -34,7 +34,7 @@
                 "hide_tags_in_taglist_text": "Wenn diese Erweiterung aktiviert ist, werden die Blog-Tags auf der Homepage ausgeblendet.",
                 "show_tag_hierarchy_label": "Tag-Hierarchie anzeigen",
                 "show_tag_hierarchy_text": "Füge Abstände zu den Unterkategorien hinzu und gib der Kategorieliste eine Hierarchie.",
-                "redirects_heading": "Umleitungen",
+                "redirects_heading": "Weiterleitungen",
                 "redirects_text": "URLs der ursprünglichen Diskussionen und Tags auf die entsprechenden Blog-Beiträge weiterleiten.",
                 "redirects_options": {
                     "both": "Artikel und Tags weiterleiten",
@@ -54,7 +54,7 @@
             "hidden": "Versteckt",
             "recent_posts": "Letzte Blogeinträge",
             "categories": "Kategorien",
-            "forum_nav": "Forum Navigation",
+            "forum_nav": "Forumnavigation",
             "return_to_overview": "Zurück zur Blog-Übersicht ",
             "no_more_posts": "Keine Blogeinträge mehr.",
             "category_empty": "Es gibt keine Blogeinträge in dieser Kategorie.",
@@ -83,9 +83,9 @@
                 "rename_article": "Artikel umbenennen",
                 "edit_article": "Artikel bearbeiten",
                 "update_category": "Kategorien aktualisieren",
-                "article_settings": "Artikel Einstellungen",
+                "article_settings": "Artikel-Einstellungen",
                 "approve_article": "Artikel genehmigen",
-                "hide_article": "Artikel verstecken",
+                "hide_article": "Artikel verbergen",
                 "recover_article": "Artikel wiederherstellen",
                 "delete_forever": "Für immer löschen",
                 "enable_comments": "Kommentare aktivieren",
@@ -94,7 +94,7 @@
             "utils": {
                 "redirect": {
                     "title": "Weiterleitung zum Blogeintrag…",
-                    "link": "<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet"
+                    "link": "<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet"
                 }
             },
             "composer": {
@@ -115,7 +115,7 @@
                 "title": "Einstellungen für Blogbeiträge",
                 "fields": {
                     "summary": {
-                        "title": "Artikel Zusammenfassung",
+                        "title": "Artikel-Zusammenfassung",
                         "placeholder": "Bitte gib eine Zusammenfassung ein",
                         "helper_text": "Diese Zusammenfassung wird auf der Blog-Übersichtsseite sichtbar sein und für SEO-Zwecke verwendet werden."
                     },
