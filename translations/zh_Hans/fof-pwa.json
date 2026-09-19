@@ -46,7 +46,7 @@
                     "window_controls_overlay_text": "开启后，可通过隐藏系统原生标题栏，为用户提供更沉浸、更接近原生应用的体验。窗口控件覆盖是否实际生效，取决于用户偏好和浏览器兼容性。启用后，你必须使用 CSS/JS 自行适配标题栏，否则窗口控件可能覆盖论坛顶部导航栏中的元素，同时导致窗口几乎无法拖动，严重影响使用体验。\n\n另请参阅：<compatibilitylink>窗口控件覆盖的浏览器兼容性</compatibilitylink>和<learnlink>Microsoft Learn：窗口控件覆盖</learnlink>\n",
                     "user_max_subscriptions_label": "每个用户最多推送订阅数",
                     "user_max_subscriptions_text": "设置每个用户同时可以拥有多少个推送订阅。发送推送通知时，每个订阅都会产生一次 API 请求。通常情况下，每个订阅对应用户使用过的一个浏览器。",
-                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_label": "通知推送 TTL",
                     "push_notification_ttl_text": "",
                     "share_buttons_label": "启用分享按钮",
                     "share_buttons_text": "开启后，会在讨论、帖子和用户页面中添加「分享」按钮。"
