@@ -217,7 +217,7 @@
             },
             "tooltip": {
                 "badge": "Δημοσκόπηση",
-                "votes": "1 ΄ψήφος|{count} ψήφοι"
+                "votes": "{count, plural, one {# ψήφος} other {# ψήφοι}}"
             },
             "votes_modal": {
                 "title": "Ψηφοφόροι"

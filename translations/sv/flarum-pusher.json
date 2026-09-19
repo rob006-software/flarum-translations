@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Visa {count} uppdaterad tråd|Visa {count} uppdaterade trådar"
+                "show_updates_text": "{count, plural, one {Visa # uppdaterad tråd} other {Visa # uppdaterade trådar}}"
             }
         }
     }
