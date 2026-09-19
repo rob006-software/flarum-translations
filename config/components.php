@@ -752,6 +752,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'lcoy-waterfall' => [
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-Waterfall/1.0.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'linkrobins-auto-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-lock/v1.0.0/locale/en.yml',
 	],
