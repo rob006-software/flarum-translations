@@ -55,7 +55,7 @@
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} sizni {title} da eslab o'tdi",
-                "body": "Salom {recipient_display_name}!\n\n{replier_display_name} sizning postingizga (#{post_number}) {title} da javob berdi\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Salom {recipient_display_name}!\n\n{mentioner_display_name} sizni {title} dagi postda eslab o'tdi.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "",
