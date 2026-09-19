@@ -2,8 +2,8 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1931** are translated differently and **1926** are
-translated only in `zh_Hans`. Altogether they cover **143** components.
+sides, but do not match between them: **1978** are translated differently and **2004** are
+translated only in `zh_Hans`. Altogether they cover **150** components.
 
 <!-- {% raw %} -->
 
@@ -19,11 +19,18 @@ translated only in `zh_Hans`. Altogether they cover **143** components.
 | `core` | [117](#core) | 0 |
 | `datitisev-backup` | [41](#datitisev-backup) | 0 |
 | `datitisev-post-galleries` | [1](#datitisev-post-galleries) | 0 |
-| `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
+| `datlechin-bbcode-hide-content` | [2](#datlechin-bbcode-hide-content) | 0 |
+| `datlechin-birthdays` | [18](#datlechin-birthdays) | 0 |
 | `datlechin-copy-links` | [1](#datlechin-copy-links) | 0 |
-| `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
-| `datlechin-passkey` | [1](#datlechin-passkey) | [4](#datlechin-passkey-missing) |
-| `datlechin-tag-passwords` | [21](#datlechin-tag-passwords) | 0 |
+| `datlechin-discussion-overview` | [1](#datlechin-discussion-overview) | 0 |
+| `datlechin-keyboard-shortcuts` | [2](#datlechin-keyboard-shortcuts) | 0 |
+| `datlechin-more-discussions` | [12](#datlechin-more-discussions) | 0 |
+| `datlechin-passkey` | 0 | [82](#datlechin-passkey-missing) |
+| `datlechin-posted-on` | [1](#datlechin-posted-on) | 0 |
+| `datlechin-scroll-buttons` | [2](#datlechin-scroll-buttons) | 0 |
+| `datlechin-silent-edit` | [2](#datlechin-silent-edit) | 0 |
+| `datlechin-tag-passwords` | [31](#datlechin-tag-passwords) | 0 |
+| `datlechin-title-length` | [4](#datlechin-title-length) | 0 |
 | `ekumanov-inline-audio` | [1](#ekumanov-inline-audio) | [4](#ekumanov-inline-audio-missing) |
 | `ekumanov-new-posts-notice` | [1](#ekumanov-new-posts-notice) | [1](#ekumanov-new-posts-notice-missing) |
 | `ernestdefoe-aurora` | [1](#ernestdefoe-aurora) | [19](#ernestdefoe-aurora-missing) |
@@ -1973,7 +1980,122 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 启用 Swiper <del>缩放模块</del><ins>图片缩放</ins>
 
 
+### `datlechin-bbcode-hide-content`
+
+#### [`datlechin-bbcode-hide-content.admin.permissions.bypass_like_label`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/zh_Hans/?q=context%3A%3D%22datlechin-bbcode-hide-content.admin.permissions.bypass_like_label%22)
+
+> Bypass like requirement
+
+```diff
+-无需点赞查看隐藏内容
++无需点赞即可查看隐藏内容
+```
+
+#### [`datlechin-bbcode-hide-content.admin.permissions.bypass_reply_label`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/zh_Hans/?q=context%3A%3D%22datlechin-bbcode-hide-content.admin.permissions.bypass_reply_label%22)
+
+> Bypass reply requirement
+
+```diff
+-无需回复查看隐藏内容
++无需回复即可查看隐藏内容
+```
+
+
 ### `datlechin-birthdays`
+
+#### [`datlechin-birthdays.admin.permissions.edit_own_birthday_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.permissions.edit_own_birthday_label%22)
+
+> Edit own birthday
+
+```diff
+-修改个人生日
++编辑自己的出生日期
+```
+
+#### [`datlechin-birthdays.admin.settings.date_format_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.date_format_help%22)
+
+> Use the &lt;a&gt;dayjs&lt;/a&gt; date format. Leave blank to use the default format.
+
+```diff
+-请使用 <a>dayjs</a> 日期格式，留空以使用默认设置。
++使用 <a>dayjs</a> 日期格式。留空则使用默认格式。
+```
+
+<del>请使用</del><ins>使用</ins> &lt;a&gt;dayjs&lt;/a&gt; <del>日期格式，留空以使用默认设置。</del><ins>日期格式。留空则使用默认格式。</ins>
+
+#### [`datlechin-birthdays.admin.settings.date_none_year_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.date_none_year_label%22)
+
+> Date format without year
+
+```diff
+-忽略年份
++不含年份的日期格式
+```
+
+#### [`datlechin-birthdays.admin.settings.min_age_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.min_age_help%22)
+
+> Minimum age for registration
+
+```diff
+-最低注册年龄
++设置允许注册的最低年龄
+```
+
+#### [`datlechin-birthdays.admin.settings.required_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.required_help%22)
+
+> You need enable Set on registration option to make this option work
+
+```diff
+-请先启用「允许注册时设置生日」
++请先启用「允许注册时填写出生日期」
+```
+
+#### [`datlechin-birthdays.admin.settings.required_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.required_label%22)
+
+> Required entering birthdays
+
+```diff
+-强制注册时设置生日
++必须填写出生日期
+```
+
+#### [`datlechin-birthdays.admin.settings.set_on_registration_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.admin.settings.set_on_registration_label%22)
+
+> Allow setting birthdays on registration
+
+```diff
+-允许注册时设置生日
++允许注册时填写出生日期
+```
+
+#### [`datlechin-birthdays.api.invalid_age_message`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.api.invalid_age_message%22)
+
+> Your age must be at least {minAge} years old.
+
+```diff
+-很抱歉，您的年龄必须大于 {minAge} 岁。
++你的年龄必须至少为 {minAge} 岁。
+```
+
+<del>很抱歉，您的年龄必须大于</del><ins>你的年龄必须至少为</ins> {minAge} 岁。
+
+#### [`datlechin-birthdays.api.invalid_dob_message`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.api.invalid_dob_message%22)
+
+> Invalid date of birth
+
+```diff
+-无效的出生日期
++出生日期无效
+```
+
+#### [`datlechin-birthdays.forum.change_dob.title`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.change_dob.title%22)
+
+> Edit Date of Birth
+
+```diff
+-编辑生日
++编辑出生日期
+```
 
 #### [`datlechin-birthdays.forum.nav.nav_item`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.nav.nav_item%22)
 
@@ -1982,6 +2104,73 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 ```diff
 -新的一岁！
 +今天生日
+```
+
+#### [`datlechin-birthdays.forum.page.discussion_count`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.page.discussion_count%22)
+
+> {count, plural, one {Discussion: #} other {Discussions: #}}
+
+```diff
+-{count, plural, one {主题：#} other {主题：#}}
++{count, plural, other {讨论：#}}
+```
+
+{count, plural, <del>one {主题：#} </del>other <del>{主题：#}}</del><ins>{讨论：#}}</ins>
+
+#### [`datlechin-birthdays.forum.page.post_count`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.page.post_count%22)
+
+> {count, plural, one {Post: #} other {Posts: #}}
+
+```diff
+-{count, plural, one {回帖：#} other {回帖：#}}
++{count, plural, other {帖子：#}}
+```
+
+{count, plural, <del>one {回帖：#} </del>other <del>{回帖：#}}</del><ins>{帖子：#}}</ins>
+
+#### [`datlechin-birthdays.forum.settings.change_dob_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.settings.change_dob_label%22)
+
+> Change Date of Birth
+
+```diff
+-修改生日
++修改出生日期
+```
+
+#### [`datlechin-birthdays.forum.settings.show_dob_date_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.settings.show_dob_date_label%22)
+
+> Show day and month of birth
+
+```diff
+-显示生日的月份和具体日期
++显示出生月日
+```
+
+#### [`datlechin-birthdays.forum.settings.show_dob_year_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.settings.show_dob_year_help%22)
+
+> This will allow people to see your age.
+
+```diff
+-这将公开您的年龄。
++启用后，其他人将能看到你的年龄。
+```
+
+#### [`datlechin-birthdays.forum.settings.show_dob_year_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.forum.settings.show_dob_year_label%22)
+
+> Show year of birth
+
+```diff
+-显示生日的年份
++显示出生年份
+```
+
+#### [`datlechin-birthdays.ref.date_of_birth`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/zh_Hans/?q=context%3A%3D%22datlechin-birthdays.ref.date_of_birth%22)
+
+> Date of Birth
+
+```diff
+-生日
++出生日期
 ```
 
 
@@ -1997,6 +2186,39 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 ```
 
 
+### `datlechin-discussion-overview`
+
+#### [`datlechin-discussion-overview.forum.created`](https://weblate.rob006.net/translate/flarum2/datlechin-discussion-overview/zh_Hans/?q=context%3A%3D%22datlechin-discussion-overview.forum.created%22)
+
+> Created
+
+```diff
+-发布
++发布时间
+```
+
+
+### `datlechin-keyboard-shortcuts`
+
+#### [`datlechin-keyboard-shortcuts.lib.shortcuts.mark_all_as_read`](https://weblate.rob006.net/translate/flarum2/datlechin-keyboard-shortcuts/zh_Hans/?q=context%3A%3D%22datlechin-keyboard-shortcuts.lib.shortcuts.mark_all_as_read%22)
+
+> Mark all as read
+
+```diff
+-全部已读
++全部标记为已读
+```
+
+#### [`datlechin-keyboard-shortcuts.lib.shortcuts.search`](https://weblate.rob006.net/translate/flarum2/datlechin-keyboard-shortcuts/zh_Hans/?q=context%3A%3D%22datlechin-keyboard-shortcuts.lib.shortcuts.search%22)
+
+> Search
+
+```diff
+-查找
++搜索
+```
+
+
 ### `datlechin-more-discussions`
 
 #### [`datlechin-more-discussions.admin.settings.block_name_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.block_name_help%22)
@@ -2005,7 +2227,16 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -主题列表的标题（默认 <code>最新主题</code>)）
-+讨论列表的标题（默认 <code>最新讨论</code>)）
++设置区块标题，默认为 <code>最新讨论</code>
+```
+
+#### [`datlechin-more-discussions.admin.settings.block_name_label`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.block_name_label%22)
+
+> Block name
+
+```diff
+-列表标题
++区块名称
 ```
 
 #### [`datlechin-more-discussions.admin.settings.discussion_limit_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_limit_help%22)
@@ -2014,10 +2245,8 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -列表主题帖数量（默认 <code>5</code>）
-+列表讨论帖数量（默认 <code>5</code>）
++设置显示的讨论数量，默认为 <code>5</code>
 ```
-
-<del>列表主题帖数量（默认</del><ins>列表讨论帖数量（默认</ins> &lt;code&gt;5&lt;/code&gt;）
 
 #### [`datlechin-more-discussions.admin.settings.discussion_limit_label`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_limit_label%22)
 
@@ -2025,7 +2254,56 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -主题数量上限
-+讨论数量上限
++讨论数量
+```
+
+#### [`datlechin-more-discussions.admin.settings.discussion_related_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_related_help%22)
+
+> Search for related results by discussion title. &lt;b&gt;Warning:&lt;/b&gt; this can impact a lot your site performance, specially if it's a big site. To solve it use this option in combination with &lt;b&gt;clarkwinkelmann/flarum-ext-scout&lt;/b&gt; extension.
+
+```diff
+-通过标题搜索相关结果。<b>警告：</b>此功能严重影响网站的性能，尤其是大型网站。请结合 <b>clarkwinkelmann/flarum-ext-scout</b> 扩展程序使用以改善性能。
++根据当前讨论的标题搜索相关讨论。<b>警告：</b>此功能可能显著影响网站性能，尤其是在大型论坛中。建议搭配 <b>clarkwinkelmann/flarum-ext-scout</b> 扩展使用，以改善搜索性能。
+```
+
+<del>通过标题搜索相关结果。&lt;b&gt;警告：&lt;/b&gt;此功能严重影响网站的性能，尤其是大型网站。请结合</del><ins>根据当前讨论的标题搜索相关讨论。&lt;b&gt;警告：&lt;/b&gt;此功能可能显著影响网站性能，尤其是在大型论坛中。建议搭配</ins> &lt;b&gt;clarkwinkelmann/flarum-ext-scout&lt;/b&gt; <del>扩展程序使用以改善性能。</del><ins>扩展使用，以改善搜索性能。</ins>
+
+#### [`datlechin-more-discussions.admin.settings.discussion_related_label`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_related_label%22)
+
+> Related results
+
+```diff
+-相关结果
++显示相关讨论
+```
+
+#### [`datlechin-more-discussions.admin.settings.filter_by_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_by_help%22)
+
+> Filter discussions (default: &lt;code&gt;latest&lt;/code&gt;)
+
+```diff
+-列表排序方式（默认 <code>最新回复</code>）
++设置讨论的排序方式，默认为 <code>最新</code>
+```
+
+#### [`datlechin-more-discussions.admin.settings.filter_dropdown.hot`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_dropdown.hot%22)
+
+> Trending (required fof/gamification)
+
+```diff
+-趋势（需要 fof/gamification）
++热门（需要 fof/gamification）
+```
+
+<del>趋势（需要</del><ins>热门（需要</ins> fof/gamification）
+
+#### [`datlechin-more-discussions.admin.settings.filter_dropdown.latest`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_dropdown.latest%22)
+
+> Latest
+
+```diff
+-最新回复
++最新
 ```
 
 #### [`datlechin-more-discussions.admin.settings.filter_dropdown.top`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_dropdown.top%22)
@@ -2034,8 +2312,19 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -热门主题
-+热门讨论
++最多回复
 ```
+
+#### [`datlechin-more-discussions.admin.settings.filter_dropdown.votes`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_dropdown.votes%22)
+
+> Upvotes (required fof/gamification)
+
+```diff
+-高票欢迎（需要 fof/gamification）
++赞同最多（需要 fof/gamification）
+```
+
+<del>高票欢迎（需要</del><ins>赞同最多（需要</ins> fof/gamification）
 
 #### [`datlechin-more-discussions.forum.block_default_name`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/zh_Hans/?q=context%3A%3D%22datlechin-more-discussions.forum.block_default_name%22)
 
@@ -2043,32 +2332,67 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -最新主题
-+最新讨论
++新鲜出炉
 ```
 
 
-### `datlechin-passkey`
+### `datlechin-posted-on`
 
-#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
+#### [`datlechin-posted-on.forum.post.posted_on_text`](https://weblate.rob006.net/translate/flarum2/datlechin-posted-on/zh_Hans/?q=context%3A%3D%22datlechin-posted-on.forum.post.posted_on_text%22)
 
-> Sign in with passkey
+> Posted on {posted\_on}
 
 ```diff
--使用通行密钥登录
-+使用密钥登录
+-使用 {posted_on} 发表
++使用 {posted_on} 发布
+```
+
+使用 {posted\_on} <del>发表</del><ins>发布</ins>
+
+
+### `datlechin-scroll-buttons`
+
+#### [`datlechin-flarum-scroll-buttons.admin.scroll_to_bottom_help`](https://weblate.rob006.net/translate/flarum2/datlechin-scroll-buttons/zh_Hans/?q=context%3A%3D%22datlechin-flarum-scroll-buttons.admin.scroll_to_bottom_help%22)
+
+> Show a button to scroll to the bottom of the page
+
+```diff
+-显示回到页面底部按钮
++显示滚动到页面底部按钮
+```
+
+#### [`datlechin-flarum-scroll-buttons.admin.scroll_to_bottom_label`](https://weblate.rob006.net/translate/flarum2/datlechin-scroll-buttons/zh_Hans/?q=context%3A%3D%22datlechin-flarum-scroll-buttons.admin.scroll_to_bottom_label%22)
+
+> Scroll to bottom
+
+```diff
+-返回底部
++滚动到底部
+```
+
+
+### `datlechin-silent-edit`
+
+#### [`datlechin-silent-edit.admin.permissions.clearLastEdit`](https://weblate.rob006.net/translate/flarum2/datlechin-silent-edit/zh_Hans/?q=context%3A%3D%22datlechin-silent-edit.admin.permissions.clearLastEdit%22)
+
+> Clear last edit information
+
+```diff
+-清除上次编辑信息
++清除最后编辑信息
+```
+
+#### [`datlechin-silent-edit.forum.post_controls.clear_last_edit_button`](https://weblate.rob006.net/translate/flarum2/datlechin-silent-edit/zh_Hans/?q=context%3A%3D%22datlechin-silent-edit.forum.post_controls.clear_last_edit_button%22)
+
+> Clear last edit
+
+```diff
+-清除上次编辑
++清除最后编辑
 ```
 
 
 ### `datlechin-tag-passwords`
-
-#### [`datlechin-tag-passwords.admin.edit_tag.group_placeholder_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.group_placeholder_label%22)
-
-> Group name
-
-```diff
--用户组名称
-+群组名称
-```
 
 #### [`datlechin-tag-passwords.admin.edit_tag.group_protected_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.group_protected_label%22)
 
@@ -2076,16 +2400,16 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -用户组权限
-+群组权限
++用户组保护
 ```
 
-#### [`datlechin-tag-passwords.admin.edit_tag.select_group`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.select_group%22)
+#### [`datlechin-tag-passwords.admin.edit_tag.protected_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.protected_label%22)
 
-> Select Permission Group
+> Assign Protection Type
 
 ```diff
--选择用户组
-+选择群组
+-指定保护类型
++保护方式
 ```
 
 #### [`datlechin-tag-passwords.admin.setting.discussion.avatar`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.discussion.avatar%22)
@@ -2094,7 +2418,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -展示主题列表中受保护标签的发帖人资料卡片
-+展示讨论列表中受保护标签的发帖人资料卡片
++在讨论列表中显示受保护讨论的作者头像及资料
 ```
 
 #### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_list`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_list%22)
@@ -2103,7 +2427,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -在主题列表显示受保护标签，并附带保护摘要
-+在讨论列表显示受保护标签，并附带保护摘要
++在讨论列表中显示受保护讨论及保护信息
 ```
 
 #### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_page`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_page%22)
@@ -2112,10 +2436,44 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -在主题页显示受保护标签，并附带 URL 分享
-+在讨论页显示受保护标签，并附带 URL 分享
++在讨论页显示受保护标签并支持直链访问
 ```
 
-<del>在主题页显示受保护标签，并附带</del><ins>在讨论页显示受保护标签，并附带</ins> URL 分享
+#### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_post_list`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_post_list%22)
+
+> Display Protected Tag in Post List, with Protection Summary
+
+```diff
+-在回帖列表显示受保护标签，并附带保护摘要
++在帖子列表中显示受保护帖子及保护信息
+```
+
+#### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_sidebar`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_sidebar%22)
+
+> Display Protected Tag in sidebar navigation
+
+```diff
+-在侧边栏显示受保护标签
++在侧边栏导航中显示受保护标签
+```
+
+#### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_tags_page`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_tags_page%22)
+
+> Display Protected Tag in Tags page navigation
+
+```diff
+-在标签页导航显示受保护标签
++在标签目录中显示受保护标签
+```
+
+#### [`datlechin-tag-passwords.admin.setting.display_unlock_icon`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_unlock_icon%22)
+
+> Display unlock icon next to Tag name
+
+```diff
+-在标签后显示解锁图标
++在标签名称旁显示解锁图标
+```
 
 #### [`datlechin-tag-passwords.admin.setting.heading.discussion`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.heading.discussion%22)
 
@@ -2126,13 +2484,22 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 +讨论列表显示
 ```
 
+#### [`datlechin-tag-passwords.forum.discussion_list.avatar`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.avatar%22)
+
+> Protected
+
+```diff
+-受限
++受保护
+```
+
 #### [`datlechin-tag-passwords.forum.discussion_list.info.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.group_protected%22)
 
 > To be able to gain access to this discussion, you must have the correct role assigned to your account.
 
 ```diff
 -要查看此主题帖，您必须具有对应权限。
-+要查看此讨论帖，您必须具有对应权限。
++要查看此讨论，你的账号需要加入相应的用户组。
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_list.info.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.multiple%22)
@@ -2141,7 +2508,16 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -要查看此主题帖，请解锁所有保护标签。
-+要查看此讨论帖，请解锁所有保护标签。
++要查看此讨论，你需要解锁所有受保护标签。
+```
+
+#### [`datlechin-tag-passwords.forum.discussion_list.info.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.password_protected%22)
+
+> To be able to gain access to this discussion, you must provide the correct password for the Protected Tag.
+
+```diff
+-要查看此帖，请提供密码。
++要查看此讨论，请输入相应标签的解锁密码。
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_list.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.group_protected%22)
@@ -2150,7 +2526,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖需要授权用户组解锁
-+此讨论帖需要授权群组解锁
++此讨论需要用户组权限
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_list.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.multiple%22)
@@ -2159,7 +2535,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖受保护
-+此讨论帖受保护
++此讨论受多重保护
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_list.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.password_protected%22)
@@ -2168,7 +2544,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖需要密码解锁
-+此讨论帖需要密码解锁
++此讨论需要密码解锁
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_page.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.group_protected%22)
@@ -2177,7 +2553,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题需要授权用户组解锁
-+此讨论需要授权群组解锁
++此讨论需要用户组权限
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_page.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.multiple%22)
@@ -2186,7 +2562,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖受保护
-+此讨论帖受保护
++此讨论受多重保护
 ```
 
 #### [`datlechin-tag-passwords.forum.discussion_page.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.password_protected%22)
@@ -2198,13 +2574,58 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 +此讨论需要密码解锁
 ```
 
+#### [`datlechin-tag-passwords.forum.post_list.info.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.info.group_protected%22)
+
+> To be able to gain access to this post, you must have the correct role assigned to your account.
+
+```diff
+-要查看此帖，您必须具有对应权限。
++要查看此帖，你的账号需要加入相应的用户组。
+```
+
+#### [`datlechin-tag-passwords.forum.post_list.info.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.info.multiple%22)
+
+> To be able to gain access to this post, you need to unlock all protected Tags.
+
+```diff
+-要查看此帖，请解锁所有保护标签。
++要查看此帖，你需要解锁所有受保护标签。
+```
+
+#### [`datlechin-tag-passwords.forum.post_list.info.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.info.password_protected%22)
+
+> To be able to gain access to this post, you must provide the correct password for the Protected Tag.
+
+```diff
+-要查看此帖，请提供密码。
++要查看此帖，请输入相应标签的解锁密码。
+```
+
 #### [`datlechin-tag-passwords.forum.post_list.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.group_protected%22)
 
 > Post in Permission Group Required Discussion
 
 ```diff
 -此帖需要授权用户组解锁
-+此帖需要授权群组解锁
++帖子所在讨论需要用户组权限
+```
+
+#### [`datlechin-tag-passwords.forum.post_list.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.multiple%22)
+
+> Post in Protected Discussion
+
+```diff
+-此帖受保护
++帖子所在讨论受多重保护
+```
+
+#### [`datlechin-tag-passwords.forum.post_list.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.password_protected%22)
+
+> Post in Password Protected Discussion
+
+```diff
+-此帖需要密码解锁
++帖子所在讨论需要密码解锁
 ```
 
 #### [`datlechin-tag-passwords.forum.tag_group_required.title`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.tag_group_required.title%22)
@@ -2213,7 +2634,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -仅限授权的用户组查看此标签中的主题内容
-+仅限授权的群组查看此标签中的讨论内容
++查看此标签下的讨论需要相应用户组权限
 ```
 
 #### [`datlechin-tag-passwords.forum.tags_page.discussion.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.group_protected%22)
@@ -2222,7 +2643,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖需要授权用户组解锁
-+此讨论帖需要授权群组解锁
++此讨论需要用户组权限
 ```
 
 #### [`datlechin-tag-passwords.forum.tags_page.discussion.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.multiple%22)
@@ -2231,7 +2652,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖受多重保护
-+此讨论帖受多重保护
++此讨论受多重保护
 ```
 
 #### [`datlechin-tag-passwords.forum.tags_page.discussion.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.password_protected%22)
@@ -2240,7 +2661,7 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -此主题帖需要密码解锁
-+此讨论帖需要密码解锁
++此讨论需要密码解锁
 ```
 
 #### [`datlechin-tag-passwords.forum.tags_page.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/zh_Hans/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.group_protected%22)
@@ -2249,8 +2670,53 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -需要授权的用户组
-+需要授权的群组
++需要用户组权限
 ```
+
+
+### `datlechin-title-length`
+
+#### [`datlechin-title-length.admin.settings.limit_help`](https://weblate.rob006.net/translate/flarum2/datlechin-title-length/zh_Hans/?q=context%3A%3D%22datlechin-title-length.admin.settings.limit_help%22)
+
+> Enable to use custom title length limit. If disabled, the Flarum's default title length limit will be used.
+
+```diff
+-启用此项，自定义标题最大长度限制，否则使用 Flarum 默认长度限制。
++启用后使用自定义标题长度限制，关闭则使用 Flarum 默认限制。
+```
+
+<del>启用此项，自定义标题最大长度限制，否则使用</del><ins>启用后使用自定义标题长度限制，关闭则使用</ins> Flarum <del>默认长度限制。</del><ins>默认限制。</ins>
+
+#### [`datlechin-title-length.admin.settings.limit_label`](https://weblate.rob006.net/translate/flarum2/datlechin-title-length/zh_Hans/?q=context%3A%3D%22datlechin-title-length.admin.settings.limit_label%22)
+
+> Enable limit title length
+
+```diff
+-启用标题长度限制
++自定义标题长度
+```
+
+#### [`datlechin-title-length.admin.settings.max_help`](https://weblate.rob006.net/translate/flarum2/datlechin-title-length/zh_Hans/?q=context%3A%3D%22datlechin-title-length.admin.settings.max_help%22)
+
+> The maximum length of the title, the maximum value is 1000.
+
+```diff
+-标题的最大长度，最大可设为 1000。
++标题允许的最大长度，最高为 1000。
+```
+
+<del>标题的最大长度，最大可设为</del><ins>标题允许的最大长度，最高为</ins> 1000。
+
+#### [`datlechin-title-length.admin.settings.min_help`](https://weblate.rob006.net/translate/flarum2/datlechin-title-length/zh_Hans/?q=context%3A%3D%22datlechin-title-length.admin.settings.min_help%22)
+
+> The minimum length of the title, the minimum value is 1.
+
+```diff
+-标题的最小长度，最小可设为 1。
++标题允许的最小长度，最低为 1。
+```
+
+<del>标题的最小长度，最小可设为</del><ins>标题允许的最小长度，最低为</ins> 1。
 
 
 ### `ekumanov-inline-audio`
@@ -2276,15 +2742,15 @@ FTP <del>端口（默认</del><ins>端口，默认为</ins> <del>21）。</del><
 
 ```diff
 -在你编辑的时候有一条新的回复。
-+在您撰写期间新增了 1 条回复。
++你撰写回复期间新增了 1 条回复。
 
 -OK → 仍然回复
 -取消 → 先读读它（你的草稿仍会保留）
 +确定 → 仍然发布回复
-+取消 → 先查看新回复（草稿将被保留）
++取消 → 先查看这条回复（草稿会保留）
 ```
 
-<del>在你编辑的时候有一条新的回复。</del><ins>在您撰写期间新增了 1 条回复。</ins><br /><br /><del>OK</del><ins>确定</ins> → <del>仍然回复</del><ins>仍然发布回复</ins><br />取消 → <del>先读读它（你的草稿仍会保留）</del><ins>先查看新回复（草稿将被保留）</ins>
+<del>在你编辑的时候有一条新的回复。</del><ins>你撰写回复期间新增了 1 条回复。</ins><br /><br /><del>OK</del><ins>确定</ins> → <del>仍然回复</del><ins>仍然发布回复</ins><br />取消 → <del>先读读它（你的草稿仍会保留）</del><ins>先查看这条回复（草稿会保留）</ins>
 
 
 ### `ernestdefoe-aurora`
@@ -19146,12 +19612,332 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 ### `datlechin-passkey` (missing)
 
+#### [`datlechin-passkey.admin.group_modal.require_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.group_modal.require_passkey%22)
+
+> Require passkey for this group
+
+```diff
++要求此用户组使用通行密钥
+```
+
+#### [`datlechin-passkey.admin.group_modal.require_passkey_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.group_modal.require_passkey_help%22)
+
+> Members will be reminded with a sticky banner until they register at least one passkey.
+
+```diff
++成员在注册通行密钥前，会持续看到横幅提醒。
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_direct`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_direct%22)
+
+> Direct
+
+```diff
++直接
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_indirect`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_indirect%22)
+
+> Indirect
+
+```diff
++间接
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_label%22)
+
+> Attestation conveyance
+
+```diff
++证明传递方式
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_none`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_none%22)
+
+> None (recommended)
+
+```diff
++无（推荐）
+```
+
+#### [`datlechin-passkey.admin.settings.description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.description%22)
+
+> Configure passkey authentication for this forum.
+
+```diff
++配置论坛的通行密钥登录功能。
+```
+
+#### [`datlechin-passkey.admin.settings.related_origins_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.related_origins_help%22)
+
+> Additional origins permitted to perform passkey ceremonies. Used together with the W3C related-origins document at /.well-known/webauthn.
+
+```diff
++允许执行通行密钥注册或认证流程的其他源（Origin）。需配合 /.well-known/webauthn 下的 W3C Related Origins 文档使用。
+```
+
+#### [`datlechin-passkey.admin.settings.related_origins_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.related_origins_label%22)
+
+> Related origins (one per line)
+
+```diff
++相关源（每行一个）
+```
+
+#### [`datlechin-passkey.admin.settings.rp_id_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_id_help%22)
+
+> The DNS name that scopes a passkey. Leave blank to auto-detect from the request host. Changing this invalidates every existing passkey.
+
+```diff
++用于限定通行密钥适用范围的 DNS 名称。留空则从请求主机名自动检测。修改后，所有现有通行密钥都将失效。
+```
+
+#### [`datlechin-passkey.admin.settings.rp_id_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_id_label%22)
+
+> Relying Party ID
+
+```diff
++依赖方 ID
+```
+
+#### [`datlechin-passkey.admin.settings.rp_name_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_name_help%22)
+
+> The name shown to users in the browser passkey prompt. Defaults to the forum title.
+
+```diff
++浏览器显示通行密钥提示时向用户展示的名称。默认使用论坛标题。
+```
+
+#### [`datlechin-passkey.admin.settings.rp_name_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_name_label%22)
+
+> Relying Party display name
+
+```diff
++依赖方显示名称
+```
+
+#### [`datlechin-passkey.admin.settings.throttle_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.throttle_label%22)
+
+> Login attempts per minute per IP
+
+```diff
++同一 IP 每分钟允许的登录尝试次数
+```
+
+#### [`datlechin-passkey.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.title%22)
+
+> Passkey
+
+```diff
++通行密钥
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_discouraged`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_discouraged%22)
+
+> Discouraged (touch only, less secure)
+
+```diff
++不建议（仅需触碰，安全性较低）
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_label%22)
+
+> User verification
+
+```diff
++用户验证
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_preferred`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_preferred%22)
+
+> Preferred (ask if the device supports it)
+
+```diff
++首选（设备支持时要求生物识别或 PIN）
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_required`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_required%22)
+
+> Required (always ask for biometric or PIN)
+
+```diff
++必须（始终要求生物识别或 PIN）
+```
+
+#### [`datlechin-passkey.email.backup_state.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.backup_state.body%22)
+
+> Hi {username},
+>
+> Your passkey "{device}" on {forum} is now {state}.
+>
+> If you triggered this yourself (for example by signing in to iCloud Keychain or a password manager on a new device), you can ignore this message. If not, sign in and review the security tab. The passkey may have been copied to another device.
+>
+> {forum}
+>
+
+```diff
++你好，{username}：
++
++你在 {forum} 的通行密钥「{device}」同步状态现已变为：{state}。
++
++如果这是由你自己触发的（例如在新设备上登录 iCloud 钥匙串或密码管理器），可以忽略此邮件。如果不是，请登录并前往「安全」页检查。此通行密钥可能已被复制到其他设备。
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.backup_state.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.backup_state.subject%22)
+
+> Sync state changed for a passkey on {forum}
+
+```diff
++你在 {forum} 的通行密钥同步状态已变化
+```
+
+#### [`datlechin-passkey.email.backup_state.synced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.backup_state.synced%22)
+
+> synced to a cloud password manager
+
+```diff
++已同步到云端密码管理器
+```
+
+#### [`datlechin-passkey.email.backup_state.unsynced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.backup_state.unsynced%22)
+
+> stored on a single device only
+
+```diff
++仅存储在一台设备上
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.actor_admin`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.actor_admin%22)
+
+> A site moderator removed them on your behalf.
+
+```diff
++一名站点管理人员代你移除了这些通行密钥。
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.actor_self`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.actor_self%22)
+
+> You initiated this revoke from the security tab.
+
+```diff
++此次撤销由你从「安全」页发起。
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.body%22)
+
+> Hi {username},
+>
+> All {count} passkeys were just removed from your account on {forum}. {actor}
+>
+> If you did not expect this, sign in with your password and check the security tab. If you cannot sign in, use the password-reset link on the login screen.
+>
+> {forum}
+>
+
+```diff
++你好，{username}：
++
++你的 {forum} 账号中的全部 {count} 个通行密钥刚刚被移除。{actor}
++
++如果这不是你预期的操作，请使用密码登录并前往「安全」页检查。如已无法登录，请前往登录页面重置密码。
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.subject%22)
+
+> All passkeys were removed from your {forum} account
+
+```diff
++你的 {forum} 账号中的所有通行密钥均已移除
+```
+
+#### [`datlechin-passkey.email.counter_regression.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.counter_regression.body%22)
+
+> Hi {username},
+>
+> An attempt to sign in to {forum} with your passkey "{device}" failed because the credential reported a signature counter lower than the one we have on record. This is the canonical signal that the credential may have been copied to a second device.
+>
+> The login was rejected. We recommend you sign in with your password, revoke this passkey, and register a fresh one. If you have other devices configured with the same credential, also remove them from your password manager.
+>
+> {forum}
+>
+
+```diff
++你好，{username}：
++
++使用你的通行密钥「{device}」登录 {forum} 时失败，因为该凭证报告的签名计数器低于我们记录的值。这通常表明该凭证可能已被复制到另一台设备。
++
++此次登录已被拒绝。建议你使用密码登录，撤销此通行密钥并重新注册一个新的通行密钥。如果其他设备上也配置了同一凭证，请同时从这些设备的密码管理器中将其移除。
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.counter_regression.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.counter_regression.subject%22)
+
+> Possible passkey clone detected on your {forum} account
+
+```diff
++检测到你的 {forum} 通行密钥可能被复制
+```
+
+#### [`datlechin-passkey.email.revoked.actor_admin`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.revoked.actor_admin%22)
+
+> A site moderator removed it on your behalf.
+
+```diff
++一名站点管理人员代你移除了该通行密钥。
+```
+
+#### [`datlechin-passkey.email.revoked.actor_self`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.revoked.actor_self%22)
+
+> You initiated this revoke from the security tab.
+
+```diff
++此次撤销由你从「安全」页发起。
+```
+
+#### [`datlechin-passkey.email.revoked.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.revoked.body%22)
+
+> Hi {username},
+>
+> The passkey "{device}" was just removed from your account on {forum}. {actor}
+>
+> If you did not expect this, your account may be at risk. Sign in and review your remaining passkeys at the security tab. If you no longer have access, use the password-reset link on the login screen.
+>
+> {forum}
+>
+
+```diff
++你好，{username}：
++
++你的 {forum} 账号中的通行密钥「{device}」刚刚被移除。{actor}
++
++如果这不是你预期的操作，你的账号可能存在安全风险。请登录并前往「安全」页检查剩余的通行密钥。如已无法登录，请前往登录页面重置密码。
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.revoked.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.email.revoked.subject%22)
+
+> A passkey was removed from your {forum} account
+
+```diff
++你的 {forum} 账号有一个通行密钥已被移除
+```
+
 #### [`datlechin-passkey.forum.log_in.cancelled`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.cancelled%22)
 
 > Passkey sign-in was cancelled.
 
 ```diff
-+Passkey登录已被取消。
++已取消使用通行密钥登录。
 ```
 
 #### [`datlechin-passkey.forum.log_in.failed`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.failed%22)
@@ -19159,7 +19945,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Could not verify your passkey. Please try again.
 
 ```diff
-+无法验证你的Passkey，请再试一次。
++无法验证通行密钥，请重试。
 ```
 
 #### [`datlechin-passkey.forum.log_in.passkey_unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.passkey_unsupported%22)
@@ -19167,7 +19953,31 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > This browser does not support passkeys.
 
 ```diff
-+此浏览器不支持Passkeys。
++此浏览器不支持通行密钥。
+```
+
+#### [`datlechin-passkey.forum.log_in.security_error`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.security_error%22)
+
+> The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.
+
+```diff
++当前站点来源与配置的依赖方不匹配，请联系管理员检查通行密钥设置。
+```
+
+#### [`datlechin-passkey.forum.log_in.throttled`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.throttled%22)
+
+> Too many passkey login attempts. Please wait a minute and try again.
+
+```diff
++通行密钥登录尝试次数过多，请等待一分钟后重试。
+```
+
+#### [`datlechin-passkey.forum.log_in.unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.unsupported%22)
+
+> This device cannot use the passkey type the site requires.
+
+```diff
++此设备无法使用本站要求的通行密钥类型。
 ```
 
 #### [`datlechin-passkey.forum.log_in.verifying`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.log_in.verifying%22)
@@ -19175,7 +19985,343 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Verifying passkey...
 
 ```diff
-+验证Passkey...
++正在验证通行密钥…
+```
+
+#### [`datlechin-passkey.forum.required.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.required.body%22)
+
+> Your role requires you to register a passkey before you can continue.
+
+```diff
++你所在的用户组要求注册通行密钥后才能继续。
+```
+
+#### [`datlechin-passkey.forum.required.set_up`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.required.set_up%22)
+
+> Set up now
+
+```diff
++立即设置
+```
+
+#### [`datlechin-passkey.forum.settings.add_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_button%22)
+
+> Add passkey
+
+```diff
++添加通行密钥
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++取消
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.device_name_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.device_name_label%22)
+
+> Name this passkey
+
+```diff
++通行密钥名称
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.device_name_placeholder`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.device_name_placeholder%22)
+
+> e.g. iPhone, MacBook, YubiKey
+
+```diff
++例如 iPhone、MacBook、YubiKey
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.register_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.register_button%22)
+
+> Register
+
+```diff
++添加
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.title%22)
+
+> Add a passkey
+
+```diff
++添加通行密钥
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.bulk_revoke_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.bulk_revoke_succeeded%22)
+
+> All passkeys revoked.
+
+```diff
++所有通行密钥均已撤销。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_already_exists`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_already_exists%22)
+
+> This device already has a passkey for your account. Revoke the existing one first, or use a different device.
+
+```diff
++此设备已为你的账号注册过通行密钥。请先撤销现有通行密钥，或改用其他设备。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_failed`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_failed%22)
+
+> Could not register your passkey. Please try again.
+
+```diff
++无法注册通行密钥，请重试。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_security_error`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_security_error%22)
+
+> The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.
+
+```diff
++当前站点来源与配置的依赖方不匹配，请联系管理员检查通行密钥设置。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_succeeded%22)
+
+> Passkey added.
+
+```diff
++通行密钥已添加
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_unsupported%22)
+
+> This device cannot register a passkey of the type the site requires.
+
+```diff
++此设备无法注册本站要求的通行密钥类型。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.rename_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.rename_succeeded%22)
+
+> Passkey renamed.
+
+```diff
++通行密钥已重命名。
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.revoke_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.revoke_succeeded%22)
+
+> Passkey revoked.
+
+```diff
++通行密钥已撤销。
+```
+
+#### [`datlechin-passkey.forum.settings.bulk_revoke_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.bulk_revoke_button%22)
+
+> Revoke all
+
+```diff
++全部撤销
+```
+
+#### [`datlechin-passkey.forum.settings.bulk_revoke_modal.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.bulk_revoke_modal.body%22)
+
+> Revoke all {count} of your passkeys? You will not be able to sign in with any of them afterwards.
+
+```diff
++确定要撤销全部 {count} 个通行密钥吗？撤销后将无法使用这些通行密钥登录。
+```
+
+#### [`datlechin-passkey.forum.settings.description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.description%22)
+
+> Passkeys let you sign in without a password using your device or a hardware key.
+
+```diff
++通行密钥可让你通过设备或硬件安全密钥登录，无需输入密码。
+```
+
+#### [`datlechin-passkey.forum.settings.heading`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.heading%22)
+
+> Passkeys
+
+```diff
++通行密钥
+```
+
+#### [`datlechin-passkey.forum.settings.list.added_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.added_label%22)
+
+> Added
+
+```diff
++添加时间
+```
+
+#### [`datlechin-passkey.forum.settings.list.device_only`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.device_only%22)
+
+> This device only
+
+```diff
++仅此设备
+```
+
+#### [`datlechin-passkey.forum.settings.list.empty`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.empty%22)
+
+> You have not added any passkeys yet.
+
+```diff
++你还没有添加通行密钥。
+```
+
+#### [`datlechin-passkey.forum.settings.list.last_used_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.last_used_label%22)
+
+> Last used
+
+```diff
++最后使用
+```
+
+#### [`datlechin-passkey.forum.settings.list.never_used`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.never_used%22)
+
+> Never used
+
+```diff
++从未使用
+```
+
+#### [`datlechin-passkey.forum.settings.list.rename_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.rename_button%22)
+
+> Rename
+
+```diff
++重命名
+```
+
+#### [`datlechin-passkey.forum.settings.list.revoke_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.revoke_button%22)
+
+> Revoke
+
+```diff
++撤销
+```
+
+#### [`datlechin-passkey.forum.settings.list.synced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.synced%22)
+
+> Synced
+
+```diff
++已同步
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++取消
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.save_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.save_button%22)
+
+> Save
+
+```diff
++保存
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.title%22)
+
+> Rename passkey
+
+```diff
++重命名通行密钥
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.body%22)
+
+> Are you sure you want to revoke {device}? You will not be able to sign in with this passkey afterwards.
+
+```diff
++确定要撤销「{device}」吗？撤销后将无法使用此通行密钥登录。
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++取消
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.confirm_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.confirm_button%22)
+
+> Revoke
+
+```diff
++撤销
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.title%22)
+
+> Revoke passkey
+
+```diff
++撤销通行密钥
+```
+
+#### [`datlechin-passkey.forum.suggest.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.suggest.body%22)
+
+> Sign in faster next time, without having to remember a password. Your device generates a passkey that only works on this site.
+
+```diff
++下次登录更快捷，无需再记住密码。你的设备会创建一个仅适用于本站的通行密钥。
+```
+
+#### [`datlechin-passkey.forum.suggest.not_now`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.suggest.not_now%22)
+
+> Not now
+
+```diff
++暂不
+```
+
+#### [`datlechin-passkey.forum.suggest.set_up`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.suggest.set_up%22)
+
+> Set up a passkey
+
+```diff
++设置通行密钥
+```
+
+#### [`datlechin-passkey.forum.suggest.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.forum.suggest.title%22)
+
+> Set up a passkey
+
+```diff
++设置通行密钥
+```
+
+#### [`datlechin-passkey.gdpr.anonymize_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.gdpr.anonymize_description%22)
+
+> All passkeys belonging to this user are revoked.
+
+```diff
++撤销此用户的所有通行密钥。
+```
+
+#### [`datlechin-passkey.gdpr.delete_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.gdpr.delete_description%22)
+
+> All passkeys belonging to this user are deleted.
+
+```diff
++删除此用户的所有通行密钥。
+```
+
+#### [`datlechin-passkey.gdpr.export_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/zh_Hans/?q=context%3A%3D%22datlechin-passkey.gdpr.export_description%22)
+
+> Includes the device label, last-used timestamp, IP, and authenticator metadata for each registered passkey. Public keys identify a credential but cannot be used to forge a sign-in.
+
+```diff
++包括每个已注册通行密钥的设备名称、最后使用时间、IP 地址和身份验证器元数据。公钥可用于标识凭证，但无法用于伪造登录。
 ```
 
 
@@ -19224,10 +20370,10 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 > Cancel → Read them first (your draft stays open)
 
 ```diff
-+在您撰写期间新增了 {count} 条回复。
++你撰写回复期间新增了 {count} 条回复。
 +
 +确定 → 仍然发布回复
-+取消 → 先查看新回复（草稿将被保留）
++取消 → 先查看这些回复（草稿会保留）
 ```
 
 

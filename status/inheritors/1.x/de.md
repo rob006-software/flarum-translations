@@ -2,7 +2,7 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **321** are translated differently and **709** are
+sides, but do not match between them: **323** are translated differently and **709** are
 translated only in `de`. Altogether they cover **96** components.
 
 <!-- {% raw %} -->
@@ -56,7 +56,7 @@ translated only in `de`. Altogether they cover **96** components.
 | `fof-oauth` | [3](#fof-oauth) | 0 |
 | `fof-polls` | [5](#fof-polls) | 0 |
 | `fof-reactions` | [3](#fof-reactions) | 0 |
-| `fof-seo` | [3](#fof-seo) | 0 |
+| `fof-seo` | [4](#fof-seo) | 0 |
 | `fof-sitemap` | [3](#fof-sitemap) | 0 |
 | `fof-socialprofile` | [2](#fof-socialprofile) | 0 |
 | `fof-split` | [1](#fof-split) | 0 |
@@ -75,7 +75,7 @@ translated only in `de`. Altogether they cover **96** components.
 | `huseyinfiliz-leaderboard` | [5](#huseyinfiliz-leaderboard) | 0 |
 | `huseyinfiliz-sticky-title` | [2](#huseyinfiliz-sticky-title) | 0 |
 | `ianm-boring-avatars` | [1](#ianm-boring-avatars) | 0 |
-| `ianm-follow-users` | [2](#ianm-follow-users) | 0 |
+| `ianm-follow-users` | [3](#ianm-follow-users) | 0 |
 | `ianm-syndication` | [7](#ianm-syndication) | 0 |
 | `ianm-twofactor` | [3](#ianm-twofactor) | 0 |
 | `justoverclock-related-discussions` | [2](#justoverclock-related-discussions) | 0 |
@@ -2115,6 +2115,17 @@ Beim Speichern der Umfrage ist ein Fehler aufgetreten, bitte <del>kontaktieren S
 
 ### `fof-seo`
 
+#### [`fof-seo.admin.pages.search_engines.google_visit`](https://weblate.rob006.net/translate/flarum2/fof-seo/de/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_visit%22)
+
+> If you want to add your website to the Google search results, visit the {link}. You'll need to add your website and verify that you're the owner of the associated domain name.
+
+```diff
+-Wenn dein deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.
++Wenn du deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.
+```
+
+Wenn <del>dein</del><ins>du</ins> deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.
+
 #### [`fof-seo.admin.pages.sitemap.which_extension_details`](https://weblate.rob006.net/translate/flarum2/fof-seo/de/?q=context%3A%3D%22fof-seo.admin.pages.sitemap.which_extension_details%22)
 
 > This extension will make sure crawlers will find your forum &lt;b&gt;discussions&lt;/b&gt;, &lt;b&gt;tags&lt;/b&gt; (when extension is enabled) and &lt;b&gt;Pages&lt;/b&gt; extension (when extension is installed and enabled). It will automatically make an sitemap.xml available.
@@ -2963,6 +2974,17 @@ Das <del>Theme</del><ins>Theme,</ins> welches für die Boring Avatars verwendet 
 ```
 
 {count, plural, one {Follower} other <del>{Followers}}</del><ins>{Follower}}</ins>
+
+#### [`ianm-follow-users.forum.modals.select_follow_level.description`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de/?q=context%3A%3D%22ianm-follow-users.forum.modals.select_follow_level.description%22)
+
+> Choose how you'd like to follow &lt;em&gt;{username}&lt;/em&gt;.
+
+```diff
+-Wähle , wie Du <em>{username}</em> folgen möchtest.
++Wähle, wie Du <em>{username}</em> folgen möchtest.
+```
+
+<del>Wähle ,</del><ins>Wähle,</ins> wie Du &lt;em&gt;{username}&lt;/em&gt; folgen möchtest.
 
 
 ### `ianm-syndication`

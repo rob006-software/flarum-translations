@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **299** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **44** components.
+sides, but do not match between them: **374** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **52** components.
 
 <!-- {% raw %} -->
 
@@ -13,7 +13,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | Component | Different translations |
 | --- | --- |
 | `acpl-my-tags` | [3](#acpl-my-tags) |
-| `core` | [87](#core) |
+| `core` | [98](#core) |
 | `datitisev-backup` | [18](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
@@ -27,6 +27,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `flarum-likes` | [5](#flarum-likes) |
 | `flarum-lock` | [1](#flarum-lock) |
 | `flarum-mentions` | [10](#flarum-mentions) |
+| `flarum-messages` | [2](#flarum-messages) |
 | `flarum-nicknames` | [2](#flarum-nicknames) |
 | `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-statistics` | [1](#flarum-statistics) |
@@ -39,22 +40,29 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `fof-discussion-templates` | [3](#fof-discussion-templates) |
 | `fof-doorman` | [1](#fof-doorman) |
 | `fof-drafts` | [1](#fof-drafts) |
+| `fof-follow-tags` | [15](#fof-follow-tags) |
 | `fof-gamification` | [1](#fof-gamification) |
 | `fof-geoip` | [1](#fof-geoip) |
 | `fof-horizon` | [2](#fof-horizon) |
 | `fof-links` | [2](#fof-links) |
+| `fof-mailing` | [1](#fof-mailing) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
 | `fof-moderator-warnings` | [9](#fof-moderator-warnings) |
 | `fof-move-posts` | [1](#fof-move-posts) |
 | `fof-oauth` | [1](#fof-oauth) |
 | `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) |
 | `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
-| `fof-reactions` | [2](#fof-reactions) |
+| `fof-reactions` | [4](#fof-reactions) |
+| `fof-seo` | [27](#fof-seo) |
+| `fof-signature` | [2](#fof-signature) |
 | `fof-sitemap` | [1](#fof-sitemap) |
+| `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [19](#fof-upload) |
 | `fof-username-request` | [33](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
+| `ianm-follow-users` | [6](#ianm-follow-users) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
+| `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
 
 
@@ -110,6 +118,28 @@ Platzhaltertext aktivieren, wenn der Benutzer keinen <del>Tags</del><ins>Themen<
 
 Erweiterte Einstellungen für <del>dein</del><ins>Ihr</ins> Forum konfigurieren.
 
+#### [`core.admin.advanced.fontawesome.forced_style_help`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.fontawesome.forced_style_help%22)
+
+> Force every icon to a particular FontAwesome style, e.g. "fa-duotone fa-light" or "fa-regular". Replaces the style declared by core and extensions (brand icons are never changed). Your icon source has to be able to supply the style: the bundled icons are FontAwesome Free, which only covers a few hundred icons outside the solid style, so forcing anything else on them leaves most icons blank. Every style is available with a FontAwesome Pro CDN or Kit. Leave empty to disable.
+
+```diff
+-Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Deine Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn du also einen anderen Stil erzwingst, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lasse das Feld leer, um die Funktion zu deaktivieren.
++Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). Ihre Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn Sie also einen anderen Stil erzwingen, bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. Lassen Sie das Feld leer, um die Funktion zu deaktivieren.
+```
+
+Wendet auf jedes Symbol einen bestimmten FontAwesome-Stil an, z. B. „fa-duotone fa-light“ oder „fa-regular“. Das ersetzt den von Core und Erweiterungen festgelegten Stil (Markensymbole werden dabei nie verändert). <del>Deine</del><ins>Ihre</ins> Symbol-Quelle muss den Stil bereitstellen können: Die mitgelieferten Symbole stammen aus FontAwesome Free, das nur einige hundert Symbole außerhalb des „solid“-Stils umfasst. Wenn <del>du</del><ins>Sie</ins> also einen anderen Stil <del>erzwingst,</del><ins>erzwingen,</ins> bleiben die meisten Symbole leer. Alle Stile sind über das FontAwesome Pro-CDN oder das Kit verfügbar. <del>Lasse</del><ins>Lassen Sie</ins> das Feld leer, um die Funktion zu deaktivieren.
+
+#### [`core.admin.advanced.fontawesome.preview.help`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.fontawesome.preview.help%22)
+
+> Verify your FontAwesome setup. A rendered icon means that tier is available; a broken box means it is not loaded.
+
+```diff
+-Überprüfe deine FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.
++Überprüfen Sie Ihre FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.
+```
+
+<del>Überprüfe</del><ins>Überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> FontAwesome-Konfiguration. Ein gerendertes Symbol bedeutet, dass diese Stufe verfügbar ist; ein durchgestrichenes Kästchen bedeutet, dass sie nicht geladen wurde.
+
 #### [`core.admin.advanced.maintenance.bisect_modal.result_description`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.maintenance.bisect_modal.result_description%22)
 
 > Forum is no longer in maintenance mode. Extension bisect is over. Based on your responses to each step, the cause of the issue is the following extension:
@@ -122,6 +152,17 @@ Erweiterte Einstellungen für <del>dein</del><ins>Ihr</ins> Forum konfigurieren.
 ```
 
 Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect“ wurde beendet. Basierend auf <del>deinen</del><ins>Ihren</ins> Antworten zu den einzelnen Schritten ist die Ursache des Problems die folgende Erweiterung:<br />
+
+#### [`core.admin.advanced.maintenance.config_override.label`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.maintenance.config_override.label%22)
+
+> Your &lt;code&gt;config.php&lt;/code&gt; file is overriding these settings.
+
+```diff
+-Deine Datei <code>config.php</code> überschreibt diese Einstellungen.
++Ihre Datei <code>config.php</code> überschreibt diese Einstellungen.
+```
+
+<del>Deine</del><ins>Ihre</ins> Datei &lt;code&gt;config.php&lt;/code&gt; überschreibt diese Einstellungen.
 
 #### [`core.admin.advanced.maintenance.help`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.maintenance.help%22)
 
@@ -155,6 +196,17 @@ Das Forum befindet sich nicht mehr im Wartungsmodus. Die Erweiterung „Bisect�
 ```
 
 <del>Dein</del><ins>Ihr</ins> Forum verwendet den synchronen Warteschlangentreiber. <del>Jobs</del><ins>Aufträge</ins> werden sofort im Hauptprozess-Thread verarbeitet.
+
+#### [`core.admin.advanced.search.cjk_mode_help`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.advanced.search.cjk_mode_help%22)
+
+> Enable if your forum is primarily in Chinese, Japanese, or Korean. The database's word-based search cannot match parts of CJK text, so this switches to a substring match that can. It is slower on very large forums, where configuring a CJK-aware fulltext parser at the database level (such as MySQL/MariaDB's ngram parser) is a faster alternative.
+
+```diff
+-Aktiviere diese Option, wenn dein Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.
++Aktivieren Sie diese Option, wenn Ihr Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.
+```
+
+<del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum hauptsächlich auf Chinesisch, Japanisch oder Koreanisch verwendet wird. Die wortbasierte Suche der Datenbank kann keine Teilzeichenfolgen in CJK-Texten finden, daher wird hier auf eine Teilzeichenfolgen-Suche umgeschaltet, die dies ermöglicht. Bei sehr großen Foren ist dieser Vorgang langsamer; in diesem Fall ist die Konfiguration eines CJK-fähigen Volltext-Parsers auf Datenbankebene (wie beispielsweise der ngram-Parser von MySQL/MariaDB) eine schnellere Alternative.
 
 #### [`core.admin.announcements.load_error`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.announcements.load_error%22)
 
@@ -319,6 +371,24 @@ Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte <del>ve
 
 Es konnte nicht in das Dateisystem geschrieben werden. <del>Überprüfe</del><ins>Überprüfen Sie</ins> die Berechtigungen <del>deines</del><ins>Ihres</ins> Dateisystems und <del>versuche</del><ins>versuchen Sie</ins> es erneut. Oder <del>versuche</del><ins>versuchen Sie</ins> es über die Kommandozeile auszuführen.
 
+#### [`core.admin.database-driver-mismatch-warning.detail`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.database-driver-mismatch-warning.detail%22)
+
+> Your &lt;code&gt;config.php&lt;/code&gt; is configured to use the &lt;code&gt;{configured}&lt;/code&gt; database driver, but Flarum has detected that the database server is actually &lt;code&gt;{actual}&lt;/code&gt;.
+>
+> Using the wrong driver can cause subtle, hard-to-diagnose bugs. Set &lt;code&gt;'driver' =&gt; ''{actual}''&lt;/code&gt; in the &lt;code&gt;database&lt;/code&gt; section of your &lt;code&gt;config.php&lt;/code&gt; file. See &lt;link&gt;Flarum docs&lt;/link&gt; for more information.
+>
+
+```diff
+-Deine <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.
++Ihre <code>config.php</code> ist für die Verwendung des Datenbanktreibers <code>{configured}</code> konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich <code>{actual}</code> ist.
+
+-Die Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setze <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> deiner <code>config.php</code>-Datei. Weitere Informationen findest du in der <link>Flarum-Dokumentation</link>.
++Die Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. Setzen Sie <code>‚driver‘ => ‚‘{actual}‚‘</code> im Abschnitt <code>database</code> Ihrer <code>config.php</code>-Datei. Weitere Informationen finden Sie in der <link>Flarum-Dokumentation</link>.
+
+```
+
+<del>Deine</del><ins>Ihre</ins> &lt;code&gt;config.php&lt;/code&gt; ist für die Verwendung des Datenbanktreibers &lt;code&gt;{configured}&lt;/code&gt; konfiguriert, aber Flarum hat festgestellt, dass der Datenbankserver tatsächlich &lt;code&gt;{actual}&lt;/code&gt; ist.<br /><br />Die Verwendung des falschen Treibers kann zu subtilen, schwer zu diagnostizierenden Fehlern führen. <del>Setze</del><ins>Setzen Sie</ins> &lt;code&gt;‚driver‘ =&gt; ‚‘{actual}‚‘&lt;/code&gt; im Abschnitt &lt;code&gt;database&lt;/code&gt; <del>deiner</del><ins>Ihrer</ins> &lt;code&gt;config.php&lt;/code&gt;-Datei. Weitere Informationen <del>findest</del><ins>finden</ins> <del>du</del><ins>Sie</ins> in der &lt;link&gt;Flarum-Dokumentation&lt;/link&gt;.<br />
+
 #### [`core.admin.debug-warning.detail`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.debug-warning.detail%22)
 
 > When &lt;code&gt;debug&lt;/code&gt; mode is active, Flarum will rebuild its &lt;code&gt;JavaScript&lt;/code&gt; and &lt;code&gt;CSS&lt;/code&gt; assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.
@@ -434,6 +504,17 @@ Die Bereinigung entfernt sämtliche Datenbankeinträge und Assets, die sich auf 
 ```
 
 <del>Aktiviere</del><ins>Aktivieren Sie</ins> die Erweiterung, um Einstellungen einsehen und verändern zu können.
+
+#### [`core.admin.extensions-health-widget.section_abandoned_heading`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.extensions-health-widget.section_abandoned_heading%22)
+
+> Needs Attention
+
+```diff
+-Erfordern deine Aufmerksamkeit
++Erfordern Ihre Aufmerksamkeit
+```
+
+Erfordern <del>deine</del><ins>Ihre</ins> Aufmerksamkeit
 
 #### [`core.admin.loading.title`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.loading.title%22)
 
@@ -572,6 +653,28 @@ Diese E-Mail wurde als Informationsdienstleistung in Bezug auf <del>dein</del><i
 ```
 
 Diese E-Mail wurde als Informationsdienstleistung in Bezug auf <del>dein</del><ins>Ihr</ins> Konto bei {forumTitle} an {userEmail} gesendet.
+
+#### [`core.email.notification.footer.settings_text`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.email.notification.footer.settings_text%22)
+
+> Manage your notification settings \[here\]({settingsLink}).
+
+```diff
+-Verwalte deine Benachrichtigungseinstellungen [hier]({settingsLink}).
++Verwalten Sie Ihre Benachrichtigungseinstellungen [hier]({settingsLink}).
+```
+
+<del>Verwalte</del><ins>Verwalten</ins> <del>deine</del><ins>Sie Ihre</ins> Benachrichtigungseinstellungen \[hier\]({settingsLink}).
+
+#### [`core.email.notification.footer.settings_text_plain`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.email.notification.footer.settings_text_plain%22)
+
+> Manage your notification settings here: {settingsLink}
+
+```diff
+-Verwalte deine Benachrichtigungseinstellungen hier: {settingsLink}
++Verwalten Sie Ihre Benachrichtigungseinstellungen hier: {settingsLink}
+```
+
+<del>Verwalte</del><ins>Verwalten</ins> <del>deine</del><ins>Sie Ihre</ins> Benachrichtigungseinstellungen hier: {settingsLink}
 
 #### [`core.email.reset_password.body`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.email.reset_password.body%22)
 
@@ -1026,6 +1129,17 @@ Wir haben eine <del>Bestätigungsmail</del><ins>Bestätigungs-E-Mail</ins> an {e
 
 <del>Gib</del><ins>Geben Sie</ins> den Namen der &lt;a&gt;FontAwesome&lt;/a&gt;-Symbolklasse ein, aber &lt;em&gt;mit&lt;/em&gt; dem Präfix (z. B. &lt;code&gt;fas fa-flag&lt;/code&gt; oder &lt;code&gt;fa-solid fa-flag&lt;/code&gt;).
 
+#### [`core.ref.invalid_login_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.ref.invalid_login_message%22)
+
+> Your login details were incorrect.
+
+```diff
+-Deine Anmeldedaten waren falsch.
++Ihre Anmeldedaten waren falsch.
+```
+
+<del>Deine</del><ins>Ihre</ins> Anmeldedaten waren falsch.
+
 #### [`core.ref.reset_your_password`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.ref.reset_your_password%22)
 
 > Reset Your Password
@@ -1111,6 +1225,28 @@ Wir haben eine <del>Bestätigungsmail</del><ins>Bestätigungs-E-Mail</ins> an {e
 ```
 
 <del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> von {forum} abmelden <del>willst?</del><ins>möchten?</ins>
+
+#### [`core.views.unsubscribe_email.invalid_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.views.unsubscribe_email.invalid_message%22)
+
+> This unsubscribe link is invalid or has already been used. For any changes in your email notifications from {forumTitle}, please \[check your settings\]({settingsLink}).
+
+```diff
+-Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Für Änderungen an deinen E-Mail-Benachrichtigungen von {forumTitle} überprüfe bitte deine Einstellungen ({settingsLink}).
++Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Für Änderungen an Ihren E-Mail-Benachrichtigungen von {forumTitle} überprüfen Sie bitte Ihre Einstellungen ({settingsLink}).
+```
+
+Dieser Abmeldelink ist ungültig oder wurde bereits verwendet. Für Änderungen an <del>deinen</del><ins>Ihren</ins> E-Mail-Benachrichtigungen von {forumTitle} <del>überprüfe</del><ins>überprüfen Sie</ins> bitte <del>deine</del><ins>Ihre</ins> Einstellungen ({settingsLink}).
+
+#### [`core.views.unsubscribe_email.success_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.views.unsubscribe_email.success_message%22)
+
+> You have successfully unsubscribed from "{type}" notification from {forumTitle}. If you wish to receive them again, please \[update your settings\]({settingsLink}).
+
+```diff
+-Du hast dich erfolgreich von den Benachrichtigungen zu „{type}“ aus {forumTitle} abgemeldet. Wenn du diese wieder erhalten möchtest, aktualisiere bitte deine Einstellungen ({settingsLink}).
++Sie haben sich erfolgreich von den Benachrichtigungen zu „{type}“ aus {forumTitle} abgemeldet. Wenn Sie diese wieder erhalten möchtest, aktualisieren Sie bitte Ihre Einstellungen ({settingsLink}).
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> <del>dich</del><ins>sich</ins> erfolgreich von den Benachrichtigungen zu „{type}“ aus {forumTitle} abgemeldet. Wenn <del>du</del><ins>Sie</ins> diese wieder erhalten möchtest, <del>aktualisiere</del><ins>aktualisieren Sie</ins> bitte <del>deine</del><ins>Ihre</ins> Einstellungen ({settingsLink}).
 
 
 ### `datitisev-backup`
@@ -2075,6 +2211,31 @@ Jemand hat auf <del>deinen</del><ins>Ihren</ins> Beitrag geantwortet
 Jemand hat <del>dich</del><ins>Sie</ins> in einem Beitrag erwähnt
 
 
+### `flarum-messages`
+
+#### [`flarum-messages.forum.composer.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-messages/de@formal/?q=context%3A%3D%22flarum-messages.forum.composer.discard_confirmation%22)
+
+> You have not sent your message. Are you sure you want to discard it?
+
+```diff
+-Du hast deine Nachricht nicht gesendet. Möchtest du sie wirklich verwerfen?
++Sie haben Ihre Nachricht nicht gesendet. Möchten Sie sie wirklich verwerfen?
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> <del>deine</del><ins>Ihre</ins> Nachricht nicht gesendet. <del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> sie wirklich verwerfen?
+
+#### [`flarum-messages.forum.messages_page.hero.subtitle`](https://weblate.rob006.net/translate/flarum2/flarum-messages/de@formal/?q=context%3A%3D%22flarum-messages.forum.messages_page.hero.subtitle%22)
+
+> Your private conversations with other users
+
+```diff
+-Deine privaten Unterhaltungen mit anderen Benutzern
++Ihre privaten Unterhaltungen mit anderen Benutzern
+```
+
+<del>Deine</del><ins>Ihre</ins> privaten Unterhaltungen mit anderen Benutzern
+
+
 ### `flarum-nicknames`
 
 #### [`flarum-nicknames.admin.wrong_driver`](https://weblate.rob006.net/translate/flarum2/flarum-nicknames/de@formal/?q=context%3A%3D%22flarum-nicknames.admin.wrong_driver%22)
@@ -2606,6 +2767,231 @@ Vorlage bei <del>Tag-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> keine Entwürfe gespeichert
 
 
+### `fof-follow-tags`
+
+#### [`fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label%22)
+
+> Show all discussions on the Following page for guests
+
+```diff
+-Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen
++Alle Diskussionen auf der „Sie folgen“-Seite für Gäste anzeigen
+```
+
+Alle Diskussionen auf der <del>„Du</del><ins>„Sie</ins> <del>folgst“-Seite</del><ins>folgen“-Seite</ins> für Gäste anzeigen
+
+#### [`fof-follow-tags.admin.settings.following_page_default_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.following_page_default_label%22)
+
+> Default Following Page Filtering
+
+```diff
+-Standardfilterung der "Du folgst"-Seiten
++Standardfilterung der "Sie folgen"-Seiten
+```
+
+Standardfilterung der <del>"Du</del><ins>"Sie</ins> <del>folgst"-Seiten</del><ins>folgen"-Seiten</ins>
+
+#### [`fof-follow-tags.admin.settings.prompt_button_on_following_page_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_button_on_following_page_label%22)
+
+> Show a "Choose tags to follow" button on the Following page
+
+```diff
+-Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen
++Schaltfläche „Wähle Tags aus, denen Sie folgen möchten“ auf der „Sie folgen“ anzeigen
+```
+
+Schaltfläche „Wähle Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest“</del><ins>möchten“</ins> auf der <del>„Du</del><ins>„Sie</ins> <del>folgst“</del><ins>folgen“</ins> anzeigen
+
+#### [`fof-follow-tags.email.newDiscussionInTag.html.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newDiscussionInTag.html.body%22)
+
+> {actor\_display\_name} started a discussion in a tag you're following: \[{discussion\_title}\]({discussion\_url})
+>
+
+```diff
+-{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: [{discussion_title}]({discussion_url})
++{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: [{discussion_title}]({discussion_url})
+
+```
+
+{actor\_display\_name} hat eine Diskussion in einem Tag gestartet, dem <del>du</del><ins>Sie</ins> <del>folgst:</del><ins>folgen:</ins> \[{discussion\_title}\]({discussion\_url})<br />
+
+#### [`fof-follow-tags.email.newDiscussionInTag.plain.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newDiscussionInTag.plain.body%22)
+
+> {actor\_display\_name} started a discussion in a tag you're following: {discussion\_title}
+>
+> To view the new discussion, check out the following link:
+> {discussion\_url}
+>
+> \---
+>
+> {content}
+>
+
+```diff
+-{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem du folgst: {discussion_title}
++{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}
+
+-Um die neue Diskussion anzuzeigen, klicke auf den folgenden Link:
++Um die neue Diskussion anzuzeigen, klicken Sie auf den folgenden Link:
+ {discussion_url}
+
+ ---
+
+ {content}
+
+```
+
+{actor\_display\_name} hat eine Diskussion in einem Tag gestartet, dem <del>du</del><ins>Sie</ins> <del>folgst:</del><ins>folgen:</ins> {discussion\_title}<br /><br />Um die neue Diskussion anzuzeigen, <del>klicke</del><ins>klicken Sie</ins> auf den folgenden Link:<br />{discussion\_url}<br /><br />---<br /><br />{content}<br />
+
+#### [`fof-follow-tags.email.newDiscussionTag.html.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newDiscussionTag.html.body%22)
+
+> {actor\_display\_name} just changed the tag on a discussion by {author\_display\_name} to a tag you're following: \[{discussion\_title}\]({discussion\_url})
+>
+
+```diff
+-{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: [{discussion_title}]({discussion_url})
++{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Sie folgen: [{discussion_title}]({discussion_url})
+
+```
+
+{actor\_display\_name} hat gerade das Tag einer Diskussion von {author\_display\_name} in ein Tag geändert, dem <del>du</del><ins>Sie</ins> <del>folgst:</del><ins>folgen:</ins> \[{discussion\_title}\]({discussion\_url})<br />
+
+#### [`fof-follow-tags.email.newDiscussionTag.plain.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newDiscussionTag.plain.body%22)
+
+> {actor\_display\_name} just changed the tag on a discussion by {author\_display\_name} to a tag you're following: {discussion\_title}
+>
+> To view the discussion, check out the following link:
+> {discussion\_url}
+>
+> \---
+>
+> {content}
+>
+
+```diff
+-{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem du folgst: {discussion_title}
++{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Sie folgen: {discussion_title}
+
+-Um die Diskussion anzuzeigen, klicke auf den folgenden Link:
++Um die Diskussion anzuzeigen, klicken Sie auf den folgenden Link:
+ {discussion_url}
+
+ ---
+
+ {content}
+
+```
+
+{actor\_display\_name} hat gerade das Tag einer Diskussion von {author\_display\_name} in ein Tag geändert, dem <del>du</del><ins>Sie</ins> <del>folgst:</del><ins>folgen:</ins> {discussion\_title}<br /><br />Um die Diskussion anzuzeigen, <del>klicke</del><ins>klicken Sie</ins> auf den folgenden Link:<br />{discussion\_url}<br /><br />---<br /><br />{content}<br />
+
+#### [`fof-follow-tags.email.newPostInTag.html.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newPostInTag.html.body%22)
+
+> {actor\_display\_name} posted in a discussion on a tag you're following: \[{discussion\_title}\]({post\_url})
+>
+
+```diff
+-{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: [{discussion_title}]({post_url})
++{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: [{discussion_title}]({post_url})
+
+```
+
+{actor\_display\_name} hat in einer Diskussion zu einem Tag, dem <del>du</del><ins>Sie</ins> <del>folgst,</del><ins>folgen,</ins> einen Beitrag gepostet: \[{discussion\_title}\]({post\_url})<br />
+
+#### [`fof-follow-tags.email.newPostInTag.plain.body`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.email.newPostInTag.plain.body%22)
+
+> {actor\_display\_name} posted in a discussion on a tag you're following: {discussion\_title}
+>
+> To view the new activity, check out the following link:
+> {post\_url}
+>
+> \---
+>
+> {content}
+>
+
+```diff
+-{actor_display_name} hat in einer Diskussion zu einem Tag, dem du folgst, einen Beitrag gepostet: {discussion_title}
++{actor_display_name} hat in einer Diskussion zu einem Tag, dem Sie folgen, einen Beitrag gepostet: {discussion_title}
+
+-Um die neue Aktivität anzuzeigen, klicke auf den folgenden Link:
++Um die neue Aktivität anzuzeigen, klicken Sie auf den folgenden Link:
+ {post_url}
+
+ ---
+
+ {content}
+
+```
+
+{actor\_display\_name} hat in einer Diskussion zu einem Tag, dem <del>du</del><ins>Sie</ins> <del>folgst,</del><ins>folgen,</ins> einen Beitrag gepostet: {discussion\_title}<br /><br />Um die neue Aktivität anzuzeigen, <del>klicke</del><ins>klicken Sie</ins> auf den folgenden Link:<br />{post\_url}<br /><br />---<br /><br />{content}<br />
+
+#### [`fof-follow-tags.forum.prompt.choose_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.prompt.choose_button%22)
+
+> Choose tags to follow
+
+```diff
+-Wähle Tags aus, denen Du folgen möchtest
++Wählen Sie Tags aus, denen Sie folgen möchten
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest</del><ins>möchten</ins>
+
+#### [`fof-follow-tags.forum.prompt.modal_title`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.prompt.modal_title%22)
+
+> Choose tags to follow
+
+```diff
+-Wähle Tags aus, denen Du folgen möchtest
++Wählen Sie Tags aus, denen Sie folgen möchten
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest</del><ins>möchten</ins>
+
+#### [`fof-follow-tags.forum.sub_controls.header`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.header%22)
+
+> Subscription for {tagName}
+
+```diff
+-Dein Abo von „{tagName}“
++Ihr Abo von „{tagName}“
+```
+
+<del>Dein</del><ins>Ihr</ins> Abo von „{tagName}“
+
+#### [`fof-follow-tags.forum.sub_controls.subscription_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.subscription_label%22)
+
+> Select your subscription level for {tagName}
+
+```diff
+-Wähle die Art aus, wie du „{tagName}“ abonnierst
++Wählen Sie die Art aus, wie Sie „{tagName}“ abonnieren
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> die Art aus, wie <del>du</del><ins>Sie</ins> „{tagName}“ <del>abonnierst</del><ins>abonnieren</ins>
+
+#### [`fof-follow-tags.forum.user.settings.filter_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.user.settings.filter_label%22)
+
+> What to show by default in the Following page
+
+```diff
+-Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll
++Was standardmäßig auf der "Sie folgen"-Seite angezeigt werden soll
+```
+
+Was standardmäßig auf der <del>"Du</del><ins>"Sie</ins> <del>folgst"-Seite</del><ins>folgen"-Seite</ins> angezeigt werden soll
+
+#### [`fof-follow-tags.forum.user.settings.heading`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.user.settings.heading%22)
+
+> Follow Tags
+
+```diff
+-Darstellung der „Du folgst“-Seite
++Darstellung der „Sie folgen“-Seite
+```
+
+Darstellung der <del>„Du</del><ins>„Sie</ins> <del>folgst“-Seite</del><ins>folgen“-Seite</ins>
+
+
 ### `fof-gamification`
 
 #### [`fof-gamification.admin.page.convert.help`](https://weblate.rob006.net/translate/flarum2/fof-gamification/de@formal/?q=context%3A%3D%22fof-gamification.admin.page.convert.help%22)
@@ -2688,6 +3074,20 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 ```
 
 Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del><ins>möchten,</ins> lautet <del>das</del><ins>der</ins> Präfix stattdessen<del> &lt;code&gt;fab</del> <del>fa-&lt;/code&gt;.</del><ins>&lt;code&gt;fab-fa-&lt;/code&gt;.</ins>
+
+
+### `fof-mailing`
+
+#### [`fof-mailing.forum.modal_sent.on_its_way`](https://weblate.rob006.net/translate/flarum2/fof-mailing/de@formal/?q=context%3A%3D%22fof-mailing.forum.modal_sent.on_its_way%22)
+
+> High Five! Your mail is on its way to {recipientsCount} recipients!
+
+```diff
+-High Five! Deine E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
++High Five! Ihre E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
+```
+
+High Five! <del>Deine</del><ins>Ihre</ins> E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
 
 
 ### `fof-merge-discussions`
@@ -3049,6 +3449,17 @@ Das Hochladen <del>von</del><ins>des</ins> <del>Bildern</del><ins>Bildes</ins> k
 
 In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN ausgeliefert. Es gibt auch die Möglichkeit,<br />eine andere CDN-Adresse zu verwenden. &lt;code&gt;\[codepoint\]&lt;/code&gt; wird durch den Codepoint des Emojis ersetzt.<br /><br />Um zum Beispiel auf Noto Emoji per jsdelivr zu wechseln, würde man als URL &lt;code&gt;https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji\_u\[codepoint\].svg&lt;/code&gt; verwenden.<br /><br /><del>Dein</del><ins>Ihr</ins> CDN muss Emoji/Unicode {emojibase} oder höher unterstützen. <del>Verwende</del><ins>Verwenden Sie</ins> \[twemoji\], um durch die Twemoji-Version zu ersetzen.<br />
 
+#### [`fof-reactions.admin.page.convert.converting`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.admin.page.convert.converting%22)
+
+> Your reactions are now converting. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total number of reactions)
+
+```diff
+-Deine Reaktionen werden nun konvertiert. Lade die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
++Ihre Reaktionen werden nun konvertiert. Laden Sie die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
+```
+
+<del>Deine</del><ins>Ihre</ins> Reaktionen werden nun konvertiert. <del>Lade</del><ins>Laden Sie</ins> die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
+
 #### [`fof-reactions.admin.page.convert.help`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.admin.page.convert.help%22)
 
 > If you just updated your extension, your reactions will have to be converted. If you just installed this extension, you can saftely ignore this message.
@@ -3059,6 +3470,342 @@ In der Standardkonfiguration werden Assets für Reaktionen über Cloudflares CDN
 ```
 
 Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung gerade aktualisiert hast, müssen <del>deine</del><ins>Ihre</ins> Reaktionen konvertiert werden. Wenn <del>du</del><ins>Sie</ins> diese Erweiterung gerade erst installiert <del>hast,</del><ins>haben,</ins> <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> diese Nachricht getrost ignorieren.
+
+#### [`fof-reactions.forum.warning`](https://weblate.rob006.net/translate/flarum2/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.forum.warning%22)
+
+> Your reaction was converted
+
+```diff
+-Deine Reaktion wurde umgewandelt
++Ihre Reaktion wurde umgewandelt
+```
+
+<del>Deine</del><ins>Ihre</ins> Reaktion wurde umgewandelt
+
+
+### `fof-seo`
+
+#### [`fof-seo.admin.dashboard.widget.review_prompt`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.dashboard.widget.review_prompt%22)
+
+> It's time to review your SEO settings!
+
+```diff
+-Es ist Zeit, deine SEO-Einstellungen zu überprüfen!
++Es ist Zeit, Ihre SEO-Einstellungen zu überprüfen!
+```
+
+Es ist Zeit, <del>deine</del><ins>Ihre</ins> SEO-Einstellungen zu überprüfen!
+
+#### [`fof-seo.admin.modals.dofollow.default_note`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.modals.dofollow.default_note%22)
+
+> The domain you use for your Flarum instance is added to the list by default.
+
+```diff
+-Die Domain, die du für deine Flarum-Instanz verwendest, wird standardmäßig zur Liste hinzugefügt.
++Die Domain, die Sie für Ihre Flarum-Instanz verwenden, wird standardmäßig zur Liste hinzugefügt.
+```
+
+Die Domain, die <del>du</del><ins>Sie</ins> für <del>deine</del><ins>Ihre</ins> Flarum-Instanz <del>verwendest,</del><ins>verwenden,</ins> wird standardmäßig zur Liste hinzugefügt.
+
+#### [`fof-seo.admin.pages.health.checks.review.label`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.review.label%22)
+
+> Review your SEO settings every two months. Next review needed on {date}
+
+```diff
+-Überprüfe deine SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
++Überprüfen Sie Ihre SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
+```
+
+<del>Überprüfe</del><ins>Überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
+
+#### [`fof-seo.admin.pages.health.checks.review.reason`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.review.reason%22)
+
+> It is time to re-review your SEO settings.
+
+```diff
+-Es ist an der Zeit, deine SEO-Einstellungen noch einmal zu überprüfen.
++Es ist an der Zeit, Ihre SEO-Einstellungen noch einmal zu überprüfen.
+```
+
+Es ist an der Zeit, <del>deine</del><ins>Ihre</ins> SEO-Einstellungen noch einmal zu überprüfen.
+
+#### [`fof-seo.admin.pages.health.checks.robots.reason`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.robots.reason%22)
+
+> Your robots.txt is provided by the FriendsOfFlarum Sitemap extension. Install and enable it to make a robots.txt available to search engines.
+
+```diff
+-Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
++Ihre robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installieren und aktivieren Sie sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
+```
+
+<del>Deine</del><ins>Ihre</ins> robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. <del>Installiere</del><ins>Installieren</ins> und <del>aktiviere</del><ins>aktivieren Sie</ins> sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
+
+#### [`fof-seo.admin.pages.health.checks.ssl.label`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.ssl.label%22)
+
+> Checks whether your site has a secure connection available (SSL/TLS)
+
+```diff
+-Prüft, ob deine Website über eine sichere Verbindung (SSL/TLS) verfügt
++Prüft, ob Ihre Website über eine sichere Verbindung (SSL/TLS) verfügt
+```
+
+Prüft, ob <del>deine</del><ins>Ihre</ins> Website über eine sichere Verbindung (SSL/TLS) verfügt
+
+#### [`fof-seo.admin.pages.health.checks.ssl.reason`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.ssl.reason%22)
+
+> Your forum does not force a SSL/TLS connection (a secure connection to your website). Most search engines won't index your website or lower your ranking if you have no secure connection available.
+
+```diff
+-Dein Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu deiner Website). Die meisten Suchmaschinen indexieren deine Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
++Ihr Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu Ihrer Website). Die meisten Suchmaschinen indexieren Ihre Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
+```
+
+<del>Dein</del><ins>Ihr</ins> Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu <del>deiner</del><ins>Ihrer</ins> Website). Die meisten Suchmaschinen indexieren <del>deine</del><ins>Ihre</ins> Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
+
+#### [`fof-seo.admin.pages.search_engines.bing_heading`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_heading%22)
+
+> Add your website to the Bing search results
+
+```diff
+-Füge deine Website zu den Bing-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Bing-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Bing-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.bing_sitemap`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_sitemap%22)
+
+> Don't forget to configure your sitemap URL. After you verified your website you're all set and Bing will now index your website.
+
+```diff
+-Vergiss nicht, die URL deiner Sitemap zu konfigurieren. Sobald du deine Website verifiziert hast, ist alles bereit, und Bing wird deine Website nun indizieren.
++Vergessen Sie nicht, die URL Ihrer Sitemap zu konfigurieren. Sobald Sie Ihre Website verifiziert haben, ist alles bereit, und Bing wird Ihre Website nun indizieren.
+```
+
+<del>Vergiss</del><ins>Vergessen Sie</ins> nicht, die URL <del>deiner</del><ins>Ihrer</ins> Sitemap zu konfigurieren. Sobald <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website verifiziert <del>hast,</del><ins>haben,</ins> ist alles bereit, und Bing wird <del>deine</del><ins>Ihre</ins> Website nun indizieren.
+
+#### [`fof-seo.admin.pages.search_engines.bing_visit`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_visit%22)
+
+> If you want to add your website to the Bing search results, visit the {link} and complete the given steps. Not all fields are required.
+
+```diff
+-Wenn du deine Website zu den Bing-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
++Wenn Sie Ihre Website zu den Bing-Suchergebnissen hinzufügen möchten, rufen Sie {link} auf und führen Sie die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Bing-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>rufe</del><ins>rufen Sie</ins> {link} auf und <del>führe</del><ins>führen Sie</ins> die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
+
+#### [`fof-seo.admin.pages.search_engines.google_heading`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_heading%22)
+
+> Add your website to the Google search results
+
+```diff
+-Füge deine Website zu den Google-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Google-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Google-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.google_sitemap`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_sitemap%22)
+
+> When you completed the registration in the Google Search Console, visit the &lt;b&gt;Sitemaps&lt;/b&gt; page. Pass your &lt;b&gt;sitemap.xml&lt;/b&gt; to Google. Make sure that Google can crawl your sitemap and will keep doing this.
+
+```diff
+-Nachdem du die Registrierung in der Google Search Console abgeschlossen hast, rufe die Seite <b>Sitemaps</b> auf. Übermittele deine <b>sitemap.xml</b> an Google. Stelle sicher, dass Google deine Sitemap crawlen kann und dies auch weiterhin tun wird.
++Nachdem Sie die Registrierung in der Google Search Console abgeschlossen haben, rufen Sie die Seite <b>Sitemaps</b> auf. Übermitteln Sie Ihre <b>sitemap.xml</b> an Google. Stellen Sie sicher, dass Google Ihre Sitemap crawlen kann und dies auch weiterhin tun wird.
+```
+
+Nachdem <del>du</del><ins>Sie</ins> die Registrierung in der Google Search Console abgeschlossen <del>hast,</del><ins>haben,</ins> <del>rufe</del><ins>rufen Sie</ins> die Seite &lt;b&gt;Sitemaps&lt;/b&gt; auf. <del>Übermittele</del><ins>Übermitteln</ins> <del>deine</del><ins>Sie Ihre</ins> &lt;b&gt;sitemap.xml&lt;/b&gt; an Google. <del>Stelle</del><ins>Stellen Sie</ins> sicher, dass Google <del>deine</del><ins>Ihre</ins> Sitemap crawlen kann und dies auch weiterhin tun wird.
+
+#### [`fof-seo.admin.pages.search_engines.google_visit`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_visit%22)
+
+> If you want to add your website to the Google search results, visit the {link}. You'll need to add your website and verify that you're the owner of the associated domain name.
+
+```diff
+-Wenn du deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.
++Wenn Sie Ihre Website in die Google-Suchergebnisse aufnehmen möchten, besuchen Sie {link}. Sie müssen Ihre Website hinzufügen und bestätigen, dass Sie der Inhaber der zugehörigen Domain sind.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website in die Google-Suchergebnisse aufnehmen <del>möchtest,</del><ins>möchten,</ins> <del>besuche</del><ins>besuchen Sie</ins> {link}. <del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> <del>deine</del><ins>Ihre</ins> Website hinzufügen und bestätigen, dass <del>du</del><ins>Sie</ins> der Inhaber der zugehörigen Domain <del>bist.</del><ins>sind.</ins>
+
+#### [`fof-seo.admin.pages.search_engines.google_www`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_www%22)
+
+> When you enter your domain you need to answer the following question for yourself: Do you want to use the 'www' sub-domain in the search results? You can &lt;strong&gt;not&lt;/strong&gt; change this later. Registering your domain in the Google Search Console multiple times won't result in a better ranking.
+
+```diff
+-Wenn du deine Domain eingibst, musst du dir folgende Frage stellen: Möchtest du die Subdomain „www“ in den Suchergebnissen verwenden? Du kannst dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
++Wenn Sie Ihre Domain eingeben, müssen Sie sich folgende Frage stellen: Möchten Sie die Subdomain „www“ in den Suchergebnissen verwenden? Sie können dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Domain <del>eingibst,</del><ins>eingeben,</ins> <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dir</del><ins>sich</ins> folgende Frage stellen: <del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> die Subdomain „www“ in den Suchergebnissen verwenden? <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> dies später &lt;strong&gt;nicht&lt;/strong&gt; ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
+
+#### [`fof-seo.admin.pages.search_engines.heading`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.heading%22)
+
+> Submit your website to Search Engines
+
+```diff
+-Deine Website bei Suchmaschinen einreichen
++Ihre Website bei Suchmaschinen einreichen
+```
+
+<del>Deine</del><ins>Ihre</ins> Website bei Suchmaschinen einreichen
+
+#### [`fof-seo.admin.pages.search_engines.intro`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.intro%22)
+
+> It is good practice to let Search Engines know your site is exists. This page will guide you in doing this succesfully.
+
+```diff
+-Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass deine Website existiert. Auf dieser Seite erfährst du, wie du dies erfolgreich umsetzen kannst.
++Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass Ihre Website existiert. Auf dieser Seite erfahren Sie, wie Sie dies erfolgreich umsetzen können.
+```
+
+Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass <del>deine</del><ins>Ihre</ins> Website existiert. Auf dieser Seite <del>erfährst</del><ins>erfahren</ins> <del>du,</del><ins>Sie,</ins> wie <del>du</del><ins>Sie</ins> dies erfolgreich umsetzen <del>kannst.</del><ins>können.</ins>
+
+#### [`fof-seo.admin.pages.search_engines.yahoo_body`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yahoo_body%22)
+
+> If you want to add your website to the Yahoo search results, finish your Bing search results registration. Yahoo will use that data.
+
+```diff
+-Wenn du deine Website zu den Yahoo-Suchergebnissen hinzufügen möchtest, schließe bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
++Wenn Sie Ihre Website zu den Yahoo-Suchergebnissen hinzufügen möchten, schließen Sie bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Yahoo-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>schließe</del><ins>schließen Sie</ins> bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
+
+#### [`fof-seo.admin.pages.search_engines.yahoo_heading`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yahoo_heading%22)
+
+> Add your website to the Yahoo search results
+
+```diff
+-Füge deine Website zu den Yahoo-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Yahoo-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Yahoo-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.yandex_heading`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yandex_heading%22)
+
+> Add your website to the Yandex search results
+
+```diff
+-Füge deine Website zu den Yandex-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Yandex-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Yandex-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.yandex_visit`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yandex_visit%22)
+
+> If you want to add your website to the Yandex search results, visit the {link} and follow the given steps.
+
+```diff
+-Wenn du deine Website zu den Yandex-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus.
++Wenn Sie Ihre Website zu den Yandex-Suchergebnissen hinzufügen möchten, rufen Sie {link} auf und führen Sie die angegebenen Schritte aus.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Yandex-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>rufe</del><ins>rufen Sie</ins> {link} auf und <del>führe</del><ins>führen Sie</ins> die angegebenen Schritte aus.
+
+#### [`fof-seo.admin.pages.sitemap.which_extension_details`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.sitemap.which_extension_details%22)
+
+> This extension will make sure crawlers will find your forum &lt;b&gt;discussions&lt;/b&gt;, &lt;b&gt;tags&lt;/b&gt; (when extension is enabled) and &lt;b&gt;Pages&lt;/b&gt; extension (when extension is installed and enabled). It will automatically make an sitemap.xml available.
+
+```diff
+-Diese Erweiterung sorgt dafür, dass Crawler deine <b>Diskussionen</b>, <b>Tags</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
++Diese Erweiterung sorgt dafür, dass Crawler Ihre <b>Diskussionen</b>, <b>Tags</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
+```
+
+Diese Erweiterung sorgt dafür, dass Crawler <del>deine</del><ins>Ihre</ins> &lt;b&gt;Diskussionen&lt;/b&gt;, &lt;b&gt;Tags&lt;/b&gt; (sofern die Erweiterung aktiviert ist) und &lt;b&gt;Seiten&lt;/b&gt; (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
+
+#### [`fof-seo.admin.pages.ssl.added_body`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.added_body%22)
+
+> Great! Now, change your &lt;b&gt;config.php&lt;/b&gt; and change the &lt;b&gt;''url''&lt;/b&gt; to &lt;b&gt;https&lt;/b&gt;!
+
+```diff
+-Super! Ändere nun deine <b>config.php</b> und setze den Wert von <b>„url“</b> auf <b>https</b>!
++Super! Ändern Sie nun Ihre <b>config.php</b> und setzen Sie den Wert von <b>„url“</b> auf <b>https</b>!
+```
+
+Super! <del>Ändere</del><ins>Ändern Sie</ins> nun <del>deine</del><ins>Ihre</ins> &lt;b&gt;config.php&lt;/b&gt; und <del>setze</del><ins>setzen Sie</ins> den Wert von &lt;b&gt;„url“&lt;/b&gt; auf &lt;b&gt;https&lt;/b&gt;!
+
+#### [`fof-seo.admin.pages.ssl.how_body`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.how_body%22)
+
+> For people who are using a webhosting, the most common way is to enter the webhosting panel, go to the hosting-settings of your website and click SSL. You can follow the steps to add SSL to your website. The most webhosting companies nowadays are supporting the popular certificate issuer {link}.
+
+```diff
+-Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
++Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolgen Sie die dortigen Anweisungen, um SSL für Ihre Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
+```
+
+Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. <del>Befolge</del><ins>Befolgen Sie</ins> die dortigen Anweisungen, um SSL für <del>deine</del><ins>Ihre</ins> Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
+
+#### [`fof-seo.admin.pages.ssl.rankings_body`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.rankings_body%22)
+
+> When you do not have a secure connection to your website, search engines will rank your site much lower then other sites, or even won't index it.
+
+```diff
+-Wenn es keine sichere Verbindung zu deiner Website gibt, stufen Suchmaschinen deine Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
++Wenn es keine sichere Verbindung zu Ihrer Website gibt, stufen Suchmaschinen Ihre Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
+```
+
+Wenn es keine sichere Verbindung zu <del>deiner</del><ins>Ihrer</ins> Website gibt, stufen Suchmaschinen <del>deine</del><ins>Ihre</ins> Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
+
+#### [`fof-seo.admin.pages.ssl.rankings_body_ssl`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.rankings_body_ssl%22)
+
+> When you have SSL available, your website will get an higher rank and will be indexed.
+
+```diff
+-Wenn SSL verfügbar ist, erhält deine Website ein besseres Ranking und wird indexiert.
++Wenn SSL verfügbar ist, erhält Ihre Website ein besseres Ranking und wird indexiert.
+```
+
+Wenn SSL verfügbar ist, erhält <del>deine</del><ins>Ihre</ins> Website ein besseres Ranking und wird indexiert.
+
+#### [`fof-seo.admin.pages.ssl.what_body`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.what_body%22)
+
+> The most people know &lt;b&gt;https&lt;/b&gt; that's used for secure connections as SSL: &lt;i&gt;Secure Sockets Layer&lt;/i&gt;. Officially it's called TLS: &lt;i&gt;Transport Layer Security&lt;/i&gt;. This method is used to create a secure connection to your webserver what will prevent attackers or other webservers to impersonate your website and keep your visitors safe. The SSL connection will be broken if that happens and the visitors browsers will warning the user that's it's not trusted.
+
+```diff
+-Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu deinem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als deine Website ausgeben, und damit deine Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
++Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu Ihrem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als Ihre Website ausgeben, und damit Ihre Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
+```
+
+Die meisten Menschen kennen &lt;b&gt;https&lt;/b&gt;, das für sichere Verbindungen als SSL verwendet wird: &lt;i&gt;Secure Sockets Layer&lt;/i&gt;. Offiziell heißt es TLS: &lt;i&gt;Transport Layer Security&lt;/i&gt;. Diese Methode wird verwendet, um eine sichere Verbindung zu <del>deinem</del><ins>Ihrem</ins> Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als <del>deine</del><ins>Ihre</ins> Website ausgeben, und damit <del>deine</del><ins>Ihre</ins> Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
+
+#### [`fof-seo.admin.settings.info.maintain`](https://weblate.rob006.net/translate/flarum2/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.settings.info.maintain%22)
+
+> Check all your settings when you first setup this extensions. Maintain them to get the best search results.
+
+```diff
+-Überprüfe bei der Ersteinrichtung dieser Erweiterung alle deine Einstellungen. Passe diese an, um die besten Suchergebnisse zu erhalten.
++Überprüfen Sie bei der Ersteinrichtung dieser Erweiterung alle Ihre Einstellungen. Passen Sie diese an, um die besten Suchergebnisse zu erhalten.
+```
+
+<del>Überprüfe</del><ins>Überprüfen Sie</ins> bei der Ersteinrichtung dieser Erweiterung alle <del>deine</del><ins>Ihre</ins> Einstellungen. <del>Passe</del><ins>Passen Sie</ins> diese an, um die besten Suchergebnisse zu erhalten.
+
+
+### `fof-signature`
+
+#### [`fof-signature.forum.editor.placeholder`](https://weblate.rob006.net/translate/flarum2/fof-signature/de@formal/?q=context%3A%3D%22fof-signature.forum.editor.placeholder%22)
+
+> Edit your signature here
+
+```diff
+-Bearbeite deine Signatur hier
++Bearbeiten Sie Ihre Signatur hier
+```
+
+<del>Bearbeite</del><ins>Bearbeiten</ins> <del>deine</del><ins>Sie Ihre</ins> Signatur hier
+
+#### [`fof-signature.forum.profile.click`](https://weblate.rob006.net/translate/flarum2/fof-signature/de@formal/?q=context%3A%3D%22fof-signature.forum.profile.click%22)
+
+> Click to write your signature
+
+```diff
+-Klicke hier, um deine Signatur einzutragen
++Klicken Sie hier, um Ihre Signatur einzutragen
+```
+
+<del>Klicke</del><ins>Klicken Sie</ins> hier, um <del>deine</del><ins>Ihre</ins> Signatur einzutragen
 
 
 ### `fof-sitemap`
@@ -3073,6 +3820,31 @@ Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung ge
 ```
 
 50\.000 ist das technische Limit für Sitemap-Dateien. Wenn <del>du</del><ins>Sie</ins> mehr Einträge zu speichern <del>hast,</del><ins>haben,</ins> <del>nutze</del><ins>nutzen Sie</ins> die folgende Option!
+
+
+### `fof-socialprofile`
+
+#### [`fof-socialprofile.forum.edit.add`](https://weblate.rob006.net/translate/flarum2/fof-socialprofile/de@formal/?q=context%3A%3D%22fof-socialprofile.forum.edit.add%22)
+
+> Add buttons to your social media
+
+```diff
+-Füge Schaltflächen zu deinen sozialen Medien hinzu
++Füge Schaltflächen zu Ihren Social-Media-Konten hinzu
+```
+
+Füge Schaltflächen zu <del>deinen sozialen</del><ins>Ihren</ins> <del>Medien</del><ins>Social-Media-Konten</ins> hinzu
+
+#### [`fof-socialprofile.forum.edit.edit`](https://weblate.rob006.net/translate/flarum2/fof-socialprofile/de@formal/?q=context%3A%3D%22fof-socialprofile.forum.edit.edit%22)
+
+> Edit your social media buttons
+
+```diff
+-Bearbeite deine Social-Media-Buttons
++Ihre Social-Media-Buttons bearbeiten
+```
+
+<del>Bearbeite deine</del><ins>Ihre</ins> Social-Media-Buttons<ins> bearbeiten</ins>
 
 
 ### `fof-upload`
@@ -3703,6 +4475,103 @@ Zu diesem Zeitpunkt <del>kannst</del><ins>können</ins> <del>du,</del><ins>Sie,<
 Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwenden – eingebettete Inhalte können externe Skripte enthalten. 🧹 Bitte <del>leere</del><ins>leeren Sie</ins> nach dem Ändern dieser Einstellung den Flarum-Cache.
 
 
+### `ianm-follow-users`
+
+#### [`ianm-follow-users.email.new_follower.html.body`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.email.new_follower.html.body%22)
+
+> {follower\_display\_name} started following you, so they'll be notified when you start a new discussion.
+
+```diff
+-{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.
++{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten.
+```
+
+{follower\_display\_name} folgt <del>dir</del><ins>Ihnen</ins> jetzt und wird benachrichtigt, wenn <del>du</del><ins>Sie</ins> eine neue Diskussion <del>startest.</del><ins>starten.</ins>
+
+#### [`ianm-follow-users.email.new_follower.plain.body`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.email.new_follower.plain.body%22)
+
+> {follower\_display\_name} started following you, so they'll be notified when you start a new discussion.
+>
+> {profile\_url}
+>
+
+```diff
+-{follower_display_name} folgt dir jetzt und wird benachrichtigt, wenn du eine neue Diskussion startest.
++{follower_display_name} folgt Ihnen jetzt und wird benachrichtigt, wenn Sie eine neue Diskussion starten.
+
+ {profile_url}
+
+```
+
+{follower\_display\_name} folgt <del>dir</del><ins>Ihnen</ins> jetzt und wird benachrichtigt, wenn <del>du</del><ins>Sie</ins> eine neue Diskussion <del>startest.</del><ins>starten.</ins><br /><br />{profile\_url}<br />
+
+#### [`ianm-follow-users.email.new_post.plain.body`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.email.new_post.plain.body%22)
+
+> {user\_display\_name} posted in {discussion\_title}.
+>
+> {post\_url}
+>
+> \---
+>
+> {post\_content}
+>
+> \---
+>
+> You won't receive any more notifications about this discussion until you're up-to-date.
+>
+
+```diff
+ {user_display_name} hat einen Beitrag in {discussion_title} erstellt.
+
+ {post_url}
+
+ ---
+
+ {post_content}
+
+ ---
+
+-Du erhältst keine weiteren Benachrichtigungen zu dieser Diskussion, bis du auf dem neuesten Stand bist.
++Sie erhalten keine weiteren Benachrichtigungen zu dieser Diskussion, bis Sie auf dem neuesten Stand sind.
+
+```
+
+{user\_display\_name} hat einen Beitrag in {discussion\_title} erstellt.<br /><br />{post\_url}<br /><br />---<br /><br />{post\_content}<br /><br />---<br /><br /><del>Du</del><ins>Sie</ins> <del>erhältst</del><ins>erhalten</ins> keine weiteren Benachrichtigungen zu dieser Diskussion, bis <del>du</del><ins>Sie</ins> auf dem neuesten Stand <del>bist.</del><ins>sind.</ins><br />
+
+#### [`ianm-follow-users.forum.modals.select_follow_level.description`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.modals.select_follow_level.description%22)
+
+> Choose how you'd like to follow &lt;em&gt;{username}&lt;/em&gt;.
+
+```diff
+-Wähle, wie Du <em>{username}</em> folgen möchtest.
++Wählen Sie, wie Sie <em>{username}</em> folgen möchtest.
+```
+
+<del>Wähle,</del><ins>Wählen Sie,</ins> wie <del>Du</del><ins>Sie</ins> &lt;em&gt;{username}&lt;/em&gt; folgen möchtest.
+
+#### [`ianm-follow-users.forum.profile_page.no_followers`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.profile_page.no_followers%22)
+
+> It looks like you have no followers yet.
+
+```diff
+-Es sieht so aus, als hättest du noch keine Follower.
++Es sieht so aus, als hätten Sie noch keine Follower.
+```
+
+Es sieht so aus, als <del>hättest</del><ins>hätten</ins> <del>du</del><ins>Sie</ins> noch keine Follower.
+
+#### [`ianm-follow-users.forum.profile_page.no_following`](https://weblate.rob006.net/translate/flarum2/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.profile_page.no_following%22)
+
+> It looks like you're not following anyone.
+
+```diff
+-Anscheinend folgst du niemandem.
++Anscheinend folgen Sie niemandem.
+```
+
+Anscheinend <del>folgst</del><ins>folgen</ins> <del>du</del><ins>Sie</ins> niemandem.
+
+
 ### `resofire-digest-mail`
 
 #### [`resofire-digest-mail.admin.settings.send_window_start_help`](https://weblate.rob006.net/translate/flarum2/resofire-digest-mail/de@formal/?q=context%3A%3D%22resofire-digest-mail.admin.settings.send_window_start_help%22)
@@ -3715,6 +4584,86 @@ Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwe
 ```
 
 Die Tageszeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt. <del>Wähle</del><ins>Wählen Sie</ins> eine ruhige Zeit, in der in <del>deinem</del><ins>Ihrem</ins> Forum wenig los ist – in der Regel spätabends oder frühmorgens.
+
+
+### `stezkoy-time-of-magic`
+
+#### [`stezkoy-time-of-magic.admin.click_burst_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.click_burst_description%22)
+
+> Your emoji explodes from the click point.
+
+```diff
+-Dein Emoji explodiert am Klickpunkt.
++Ihr Emoji explodiert am Klickpunkt.
+```
+
+<del>Dein</del><ins>Ihr</ins> Emoji explodiert am Klickpunkt.
+
+#### [`stezkoy-time-of-magic.admin.color_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.color_description%22)
+
+> Leave empty to use your forum color. Examples: #E7672E, #00a185, red, rgb(255,0,0).
+
+```diff
+-Lasse das Feld leer, um die Farbe deines Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).
++Lassen Sie das Feld leer, um die Farbe Ihres Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).
+```
+
+<del>Lasse</del><ins>Lassen Sie</ins> das Feld leer, um die Farbe <del>deines</del><ins>Ihres</ins> Forums zu verwenden. Beispiele: #E7672E, #00a185, red, rgb(255,0,0).
+
+#### [`stezkoy-time-of-magic.admin.cursor_trail_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.cursor_trail_description%22)
+
+> Fading particles follow your mouse cursor.
+
+```diff
+-Verblassende Partikel folgen deinem Mauszeiger.
++Verblassende Partikel folgen Ihrem Mauszeiger.
+```
+
+Verblassende Partikel folgen <del>deinem</del><ins>Ihrem</ins> Mauszeiger.
+
+#### [`stezkoy-time-of-magic.admin.custom_effects_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.custom_effects_description%22)
+
+> Create your own effects — particles rising up and particles falling down. They are also available in the scheduler.
+
+```diff
+-Erstelle deine eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.
++Erstellen Sie Ihre eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.
+```
+
+<del>Erstelle</del><ins>Erstellen</ins> <del>deine</del><ins>Sie Ihre</ins> eigenen Effekte – aufsteigende und herabfallende Partikel. Diese stehen auch im Zeitplaner zur Verfügung.
+
+#### [`stezkoy-time-of-magic.admin.description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.description%22)
+
+> Adds a touch of magic to your Flarum site.
+
+```diff
+-Verleiht deiner Flarum-Website einen Hauch von Magie.
++Verleiht Ihrer Flarum-Website einen Hauch von Magie.
+```
+
+Verleiht <del>deiner</del><ins>Ihrer</ins> Flarum-Website einen Hauch von Magie.
+
+#### [`stezkoy-time-of-magic.admin.petals_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.admin.petals_description%22)
+
+> Spring cherry blossom petals drifting across the site.
+
+```diff
+-Kirschblütenblätter des Frühlings, die über deine Seite treiben.
++Kirschblütenblätter des Frühlings, die über Ihre Seite treiben.
+```
+
+Kirschblütenblätter des Frühlings, die über <del>deine</del><ins>Ihre</ins> Seite treiben.
+
+#### [`stezkoy-time-of-magic.forum.effects_section_description`](https://weblate.rob006.net/translate/flarum2/stezkoy-time-of-magic/de@formal/?q=context%3A%3D%22stezkoy-time-of-magic.forum.effects_section_description%22)
+
+> Control how visual effects behave on your account.
+
+```diff
+-Legt fest, wie sich visuelle Effekte in deinem Konto verhalten.
++Legt fest, wie sich visuelle Effekte in Ihrem Konto verhalten.
+```
+
+Legt fest, wie sich visuelle Effekte in <del>deinem</del><ins>Ihrem</ins> Konto verhalten.
 
 
 ### `yippy-auth-ldap`
