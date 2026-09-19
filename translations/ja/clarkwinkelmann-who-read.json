@@ -11,9 +11,9 @@
                 "info": "さらに {count} 人"
             },
             "footer": {
-                "read-this-post": "{0} 誰もこの投稿を読んでいない|{1} 1 人がこの投稿を見ました|]1,Inf] {count} 人がこの投稿を見ました",
-                "read-no-further": "{0} 誰もがすでに読んだ|{1} 1 人がこの投稿を読みました|]1,Inf] {count} 人がこの投稿を読みました",
-                "read-to-end": "{0} 誰も最後まで読んでいない|{1} 1 人がすべて読む|]1,Inf] {count} 人がすべて読む"
+                "read-this-post": "{count, plural, =0 {誰もこの投稿を読んでいない} =1 {1 人がこの投稿を見ました} other {# 人がこの投稿を見ました}}",
+                "read-no-further": "{count, plural, =0 {全員がさらに読み進めました} =1 {1 人はここから先を読んでいません} other {# 人はここから先を読んでいません}}",
+                "read-to-end": "{count, plural, =0 {誰も最後まで読んでいない} =1 {1 人がすべて読む} other {# 人がすべて読む}}"
             },
             "controls": {
                 "set-unread": "未読にする",

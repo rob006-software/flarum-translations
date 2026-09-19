@@ -2,12 +2,12 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{hisob, koʻplik, bitta {# yangilangan muhokamani koʻrsatish} boshqa {# ta yangilangan muhokamani koʻrsatish}}",
+                "discussion-list-new-activity": "{count, plural, one {# yangilangan muhokamani koʻrsatish} other {# ta yangilangan muhokamani koʻrsatish}}",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "anonymous-user": "",
-                "people-are-typing": "{son, koʻplik, bitta {# kishi yozmoqda} boshqa {# kishi yozmoqda}}",
+                "people-are-typing": "{number, plural, one {# kishi yozmoqda} other {# kishi yozmoqda}}",
                 "users-are-typing": "",
                 "no-activity": "Hech kim yozmayapti"
             },

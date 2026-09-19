@@ -12,11 +12,11 @@
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
                     "help_text": "Bitte achte darauf, dass die gewünschte Änderung deines Spitznamens den Forenrichtlinien entspricht.",
-                    "decision_title": "=> fof-username-request.ref.action.decision_title",
-                    "approval_label": "=> fof-username-request.ref.action.approval_label",
-                    "rejected_label": "=> fof-username-request.ref.action.rejected_label",
-                    "submit_button": "=> fof-username-request.ref.action.submit_button",
-                    "reason_title": "=> fof-username-request.ref.action.reason_title",
+                    "decision_title": "Entscheidung",
+                    "approval_label": "Akzeptieren",
+                    "rejected_label": "Ablehnen",
+                    "submit_button": "Absenden",
+                    "reason_title": "Grund für die Ablehnung",
                     "success": "Entscheidung gesendet.",
                     "name": "{name} hat die Änderung des Spitznamens zu \"{requestedName}\" angefordert"
                 },
@@ -32,8 +32,8 @@
                 "request": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
                     "current_request": "Du hast bereits eine offene Anfrage deinen Spitznamen zu \"{name}\" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.",
-                    "submit_button": "=> fof-username-request.ref.request.submit_button",
-                    "delete_button": "=> fof-username-request.ref.request.delete_button",
+                    "submit_button": "Anfrage absenden",
+                    "delete_button": "Anfrage löschen",
                     "confirmation_message": "Ihr Antrag auf Änderung des Spitznamens wurde übermittelt und wartet auf seine Genehmigung.",
                     "dismiss_button": "=> core.ref.okay",
                     "deleted": "Anfrage zum Spitznamen gelöscht."
@@ -43,11 +43,11 @@
                 "action": {
                     "title": "=> fof-username-request.ref.username_change_request",
                     "help_text": "Bitte achte darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.",
-                    "decision_title": "=> fof-username-request.ref.action.decision_title",
-                    "approval_label": "=> fof-username-request.ref.action.approval_label",
-                    "rejected_label": "=> fof-username-request.ref.action.rejected_label",
-                    "submit_button": "=> fof-username-request.ref.action.submit_button",
-                    "reason_title": "=> fof-username-request.ref.action.reason_title",
+                    "decision_title": "Entscheidung",
+                    "approval_label": "Akzeptieren",
+                    "rejected_label": "Ablehnen",
+                    "submit_button": "Absenden",
+                    "reason_title": "Grund für die Ablehnung",
                     "success": "Entscheidung versendet.",
                     "name": "{name} hat die Änderung des Benutzernamens zu \"{requestedName}\" angefordert"
                 },
@@ -63,8 +63,8 @@
                 "request": {
                     "title": "=> fof-username-request.ref.username_change_request",
                     "current_request": "Du hast bereits eine offene Anfrage deinen Benutzernamen zu \"{name}\" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.",
-                    "submit_button": "=> fof-username-request.ref.request.submit_button",
-                    "delete_button": "=> fof-username-request.ref.request.delete_button",
+                    "submit_button": "Anfrage absenden",
+                    "delete_button": "Anfrage löschen",
                     "confirmation_message": "Ihr Antrag auf Änderung des Benutzernamens wurde übermittelt und wartet auf Genehmigung.",
                     "dismiss_button": "=> core.ref.okay",
                     "deleted": "Anfrage auf Änderung des Benutzernamens wurde gelöscht."

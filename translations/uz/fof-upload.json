@@ -176,7 +176,7 @@
                 "unauthorized": "Fayllarni yuklab olishingizga ruxsat berilmagan"
             },
             "validation": {
-                "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
+                "max_size": "{max} kb dan ortiq yuklamalar qabul qilinmaydi."
             },
             "text_preview": {
                 "expand": "",
@@ -191,14 +191,14 @@
                 "release_to_upload": "Yuklash uchun qo'yib yuboring",
                 "modal_empty_desktop": "Fayllar roʻyxati boʻsh. Yuklash uchun tugmani bosing yoki faylni shu yerga torting.",
                 "modal_empty_phone": "Fayllar roʻyxati boʻsh. Faylni yuklash uchun yuqoridagi tugmani bosing.",
-                "select_file_a11y_label": "“{fayl nomi}” faylini tanlang",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Hech biri tanlanmagan} bitta {Faylni tanlang} boshqa {Fayllarni tanlang}}",
+                "select_file_a11y_label": "“{fileName}” faylini tanlang",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hech biri tanlanmagan} one {Faylni tanlang} other {Fayllarni tanlang}}",
                 "load_more_files_btn": "Ko'proq fayllarni yuklang",
                 "hide_file": {
                     "btn_a11y_label": "“{fileName}” faylini media menejeridan yashirish",
-                    "hide_confirmation": "Haqiqatan ham “{fayl nomi}” faylini berkitmoqchimisiz? Faylni yashirish uni faqat media menejeringizdan olib tashlaydi va mavjud postlarga ta'sir qilmaydi.",
+                    "hide_confirmation": "Haqiqatan ham “{fileName}” faylini berkitmoqchimisiz? Faylni yashirish uni faqat media menejeringizdan olib tashlaydi va mavjud postlarga ta'sir qilmaydi.",
                     "hide_success": "Fayl yashirin",
-                    "hide_fail": "“{fayl nomi}” faylini yashirib bo‘lmadi",
+                    "hide_fail": "“{fileName}” faylini yashirib bo‘lmadi",
                     "loading": "Fayl berkitilmoqda..."
                 }
             }

@@ -16,7 +16,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": "Crear etiqueta"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -55,7 +55,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "Editar las etiquetas para '{title}'",
+                "edit_title": "Editar las etiquetas para {title}",
                 "title": "Elija las etiquetas para su discusión",
                 "choose_primary_placeholder": "{count, plural, one {Elija una etiqueta principal} other {Elija # etiquetas primarias}}",
                 "choose_secondary_placeholder": "{count, plural, one {Elija 1 etiqueta más} other {Elija # más etiquetas}}",

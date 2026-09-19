@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Mostrar {count} discusión actualizada|Mostrar {count} discusiones actualizadas"
+                "show_updates_text": "{count, plural, one {Mostrar # discusión actualizada} other {Mostrar # discusiones actualizadas}}"
             }
         }
     }

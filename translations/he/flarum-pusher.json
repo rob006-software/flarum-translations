@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "הצגת {count} דיון שעודכן|הצגת {count} דיונים שעודכנו"
+                "show_updates_text": "{count, plural, one {הצגת # דיון שעודכן} other {הצגת # דיונים שעודכנו}}"
             }
         }
     }
