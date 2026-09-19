@@ -165,7 +165,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.0.7/resources/locale/en.yml',
 	],
 	'ernestdefoe-garrison' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.4.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.2.4/locale/en.yml',
