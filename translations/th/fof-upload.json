@@ -36,7 +36,7 @@
                 "watermark": "เลือกว่าต้องการเพิ่มลายน้ำลงในรูปภาพขณะอัปโหลดหรือไม่ ลายน้ำจะถูกเพิ่มในรูปที่ไม่ใช่ GIF ตามการตั้งค่าด้านล่าง\n",
                 "s3_compatible_storage": "การตั้งค่าต่อไปนี้ต้องการเฉพาะเมื่อใช้พื้นที่เก็บข้อมูลที่รองรับ S3 หากใช้ AWS สามารถเว้นว่างได้\n",
                 "s3_acl": "ACL ที่จะใช้กับออบเจกต์ที่อัปโหลด (ค่าเริ่มต้น: private) ดูค่าที่เป็นไปได้ที่ https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "custom_s3_url": "ใช้การตั้งค่านี้หากบริการ S3-compatible ต้องการรูปแบบ URL เฉพาะ (เช่น Backblaze B2) ให้ URL ที่รวม protocol (https://) ตัวอย่าง: https://your-bucket.s3.your-region.backblazeb2.com\n",
+                "custom_s3_url": "",
                 "s3_instance_profile": "เว้น key และ secret ว่างเพื่อใช้ข้อมูลประจำตัวจาก instance profile\n",
                 "composer_buttons": "โดยค่าเริ่มต้นจะแสดงทั้งปุ่ม Media Manager และปุ่มอัปโหลด สามารถเลือกแสดงเพียงปุ่มเดียวได้\n"
             },
@@ -100,7 +100,7 @@
                 "svg-sanitizer": {
                     "title": "SVG Sanitizer",
                     "allow_animate": "อนุญาต SVG animations",
-                    "help": "กำหนดวิธีประมวลผลและทำความสะอาดไฟล์ SVG เมื่ออัปโหลด ไฟล์ SVG อาจมีสคริปต์อันตรายและควรจัดการอย่างระมัดระวัง",
+                    "help": "",
                     "allow_animate_help": "การเปิดใช้ SVG animations อาจทำให้เกิดช่องโหว่ด้านความปลอดภัย เนื่องจาก animated SVG อาจมีโค้ดอันตราย เปิดใช้งานด้วยความเสี่ยงของคุณเองและเฉพาะเมื่อไว้วางใจผู้ใช้"
                 },
                 "composer_buttons": {
