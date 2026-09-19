@@ -3,83 +3,83 @@
         "admin": {
             "edit_link": {
                 "title": "=> fof-links.ref.create_link",
-                "title_child": "",
+                "title_child": "创建 {parent} 子链接",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "icon_additional_text": "如需使用品牌图标，请改用 <code>fab fa-</code> 前缀。",
                 "type": {
-                    "heading": "",
+                    "heading": "链接用途",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "站内",
+                        "help": "无需重新加载页面即可打开。"
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "站外",
+                        "help": "非本论坛地址。"
                     },
                     "label": {
-                        "label": "",
-                        "help": ""
+                        "label": "不跳转",
+                        "help": "无点击效果，可用于给下拉链接组起标题。"
                     }
                 },
                 "url_label": "=> fof-links.ref.url",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "填写 {baseUrl} 后面的地址部分，并以斜杠开头。",
+                    "external": "填写完整地址，包括 <code>https://</code>。"
                 },
                 "url_placeholder": "=> fof-links.ref.url",
-                "options_label": "",
+                "options_label": "选项",
                 "open_newtab": "在新标签页中打开",
-                "use_rel_me": "添加 <code>rel=\"me\"</code> 属性，用于在其他网站验证身份",
-                "use_rel_me_help": "",
+                "use_rel_me": "添加 <code>rel=\"me\"</code> 属性",
+                "use_rel_me_help": "用于让目标网站验证此论坛由你所有。",
                 "visibility": {
                     "label": "可见范围",
-                    "help": "链接默认仅对 <code>{admin}</code> 用户可见。你可以调整权限，设置哪些用户可以看到此链接。",
-                    "help-disabled": "保存链接后才能修改可见范围。",
+                    "help": "链接默认仅 {admin} 可见，你可以调整权限扩大可见范围。",
+                    "help-disabled": "保存链接后，才能修改可见范围。",
                     "guest-only": {
                         "label": "仅限 {guest}",
-                        "help": "仅 {guest} 可以看到此链接。请调整上方权限为「{everyone}」。"
+                        "help": "已登录用户不会看到此链接。请调整上方权限为「{everyone}」。"
                     }
                 },
                 "submit_button": "=> core.ref.save_changes",
                 "delete_link_button": "删除链接",
-                "delete_link_confirmation": "确定要删除此链接吗？",
-                "url_placeholder.internal": "",
-                "url_placeholder.external": "",
+                "delete_link_confirmation": "确定要删除「{title}」吗？",
+                "url_placeholder.internal": "/tags",
+                "url_placeholder.external": "https://example.com",
                 "internal_link": "站内高亮链接",
                 "url_description": "留空则仅作为文字标签显示。"
             },
             "links": {
                 "links": "=> fof-links.ref.links",
-                "description": "",
+                "description": "链接会按此处顺序显示在论坛导航栏中。",
                 "create_button": "=> fof-links.ref.create_link",
-                "preconfigured": "论坛链接已预先配置，无法在此编辑。",
-                "no_url": "",
-                "reorder_help": "",
-                "reorder_loading": "",
-                "reorder_accessible_label": "",
-                "edit_accessible_label": "",
-                "add_child_accessible_label": "",
-                "audience_everyone": "",
+                "preconfigured": "本站链接已通过代码配置，无法在此编辑。",
+                "no_url": "无链接，仅作为标签显示",
+                "reorder_help": "拖动手柄可调整顺序，或拖到另一个链接上，创建层级。手柄获得焦点后，也可以使用键盘方向键完成操作。",
+                "reorder_loading": "正在准备，请稍后…",
+                "reorder_accessible_label": "调整 {title} 的顺序。使用方向键可将其上移、下移、移入上方链接，或移出当前层级。",
+                "edit_accessible_label": "编辑 {title}",
+                "add_child_accessible_label": "在 {title} 下添加链接",
+                "audience_everyone": "所有人可见",
                 "flag": {
-                    "new_tab": "",
-                    "rel_me": "",
-                    "guest_only": ""
+                    "new_tab": "新标签页",
+                    "rel_me": "rel=\"me\"",
+                    "guest_only": "仅游客"
                 },
-                "moved": "",
-                "moved_under": ""
+                "moved": "{title} 已移动到第 {position} 位，共 {total} 项。",
+                "moved_under": "{title} 已移动到 {parent} 下的第 {position} 位，共 {total} 项。"
             },
             "settings": {
-                "heading": "",
-                "show_icons_only_on_tablet": "平板设备仅显示图标",
-                "show_icons_only_on_tablet_help": ""
+                "heading": "设置",
+                "show_icons_only_on_tablet": "平板屏幕仅显示图标",
+                "show_icons_only_on_tablet_help": "屏幕宽度在 768px 至 991px 之间时隐藏链接标题，以节省导航栏空间。此功能不影响屏幕阅读器读出标题。"
             }
         },
         "forum": {
             "header": {
-                "toggle_dropdown_accessible_label": "展开或收起链接菜单"
+                "toggle_dropdown_accessible_label": "显示 {title} 下的链接"
             }
         },
         "ref": {
