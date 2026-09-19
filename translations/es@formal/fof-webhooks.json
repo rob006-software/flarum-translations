@@ -40,7 +40,7 @@
         },
         "admin": {
             "errors": {
-                "service_not_found": "El servicio '{service}' no puede ser encontrado.",
+                "service_not_found": "No se puede encontrar el servicio \"{service}\".",
                 "url_invalid": "URL no válida para el servicio seleccionado.",
                 "tag_invalid": "Este webhook está restringido a una etiqueta no válida. La restricción no se aplicará. Asegúrate de que esto sea así.",
                 "tag_disabled": "Este webhook tenía configurada una restricción de etiquetas. La extensión Etiquetas está deshabilitada. La restricción no se aplicará. Asegúrate de que esto sea así."
