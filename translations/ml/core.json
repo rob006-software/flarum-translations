@@ -38,7 +38,7 @@
                 "home_page_heading": "പൂമുഖ താൾ",
                 "home_page_text": "ഉപയോക്താക്കൾ നിങ്ങളുടെ ഫോറം സന്ദർശിക്കുമ്പോൾ ആദ്യം കാണുന്ന പേജ് തിരഞ്ഞെടുക്കുക.",
                 "show_language_selector_label": "ഭാഷ തിരഞ്ഞെടുക്കൽ കാണിക്കുക",
-                "slug_driver_heading": "സ്ലഗ് ഡ്രൈവർ: {മോഡൽ }",
+                "slug_driver_heading": "സ്ലഗ് ഡ്രൈവർ: {model}",
                 "slug_driver_text": "ഈ മോഡൽ സ്ലഗ്ഗുചെയ്യാൻ ഉപയോഗിക്കുന്ന ഒരു ഡ്രൈവർ തിരഞ്ഞെടുക്കുക.",
                 "title": "അടിസ്ഥന കാര്യങ്ങൾ",
                 "welcome_banner_heading": "സ്വാഗത ബാനർ",
@@ -257,7 +257,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "അനിശ്ചിതമായി",
                 "allow_never_button": "",
-                "allow_some_minutes_button": "{എണ്ണുക, ബഹുവചനം, ഒന്ന് { # മിനിറ്റിന്} മറ്റൊന്ന് { # മിനിറ്റിന്}}",
+                "allow_some_minutes_button": "{count, plural, one { # മിനിറ്റിന്} other { # മിനിറ്റിന്}}",
                 "allow_ten_minutes_button": "10 മിനിട്ടുകൾക്ക്",
                 "allow_until_reply_button": "അടുത്ത മറുപടി വരെ",
                 "everyone_button": "എല്ലാവരും",
@@ -283,7 +283,7 @@
                         },
                         "edit_user": {
                             "button": "=> core.ref.edit",
-                            "tooltip": "{ഉപയോക്തൃനാമം} എഡിറ്റുചെയ്യുക",
+                            "tooltip": "{username} എഡിറ്റുചെയ്യുക",
                             "title": "=> core.ref.edit_user"
                         },
                         "email": {

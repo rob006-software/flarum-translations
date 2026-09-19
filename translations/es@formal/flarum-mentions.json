@@ -54,8 +54,8 @@
                 "body": "Hey {recipient_display_name}!\n\n{replier_display_name} respondió a su publicación (#{post_number}) en {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "{mencioner_display_name} le mencionó en {title}",
-                "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} le mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "subject": "{mentioner_display_name} le mencionó en {title}",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} le mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "group_mentioned": {
                 "subject": "{mentioner_display_name} mencionó un grupo del que eres miembro en {title}",
