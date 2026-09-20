@@ -27,11 +27,11 @@
                 "max_preview_label": "",
                 "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
                 "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
-                "related_discussions_enabled_help": "",
+                "related_discussions_enabled_help": "Wurde dadurch ermittelt, welche Diskussionen gemeinsam zitiert werden – nicht anhand von Tags oder Titeln.",
                 "related_discussions_limit_label": "Angezeigte verwandte Diskussionen",
                 "related_discussions_limit_help": "In der Seitenleiste einer Diskussion.",
-                "related_max_candidates_label": "",
-                "related_max_candidates_help": "",
+                "related_max_candidates_label": "Diskussionen durchgesehen, um sie zu finden",
+                "related_max_candidates_help": "Eine Obergrenze – daher kann eine viel zitierte Diskussion dies nicht teuer machen.",
                 "cache_ttl_label": "Cache-Speicherdauer (Sekunden)",
                 "cache_ttl_help": "Wie lange die Liste und der Graph gespeichert bleiben, bevor sie erneut berechnet werden. Der Wert 0 deaktiviert die Zwischenspeicherung.",
                 "graph_max_depth_label": "Tiefe des Graphen",
@@ -40,8 +40,8 @@
                 "graph_max_per_hop_help": "",
                 "notify_followers_label": "Auch Follower benachrichtigen",
                 "notify_followers_help": "Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.",
-                "broken_retention_days_label": "",
-                "broken_retention_days_help": ""
+                "broken_retention_days_label": "Unterbrochene Verweise beibehalten (in Tagen)",
+                "broken_retention_days_help": "Ein Verweis auf etwas Gelöschtes bleibt so lange im Bericht erhalten. Bei 0 bleiben sie für immer erhalten."
             },
             "permissions": {
                 "manage_references": "Verweise erstellen und bearbeiten",
@@ -51,7 +51,7 @@
             "analytics": {
                 "title": "Verweise",
                 "total_label": "Verweise",
-                "broken_label": "",
+                "broken_label": "Fehlerhaft",
                 "manual_label": "Händisch hinzugefügt",
                 "by_origin_label": "Wie sie gefunden wurden",
                 "by_relation_label": "Was sie sagen",
@@ -114,10 +114,10 @@
                 "accessible_label": "{count, plural, one {# Diskussion} other {# Diskussionen}} und die Verknüpfungen untereinander"
             },
             "relation": {
-                "references": "",
+                "references": "Verweise",
                 "duplicate_of": "Duplikat von",
-                "see_also": "",
-                "supersedes": "",
+                "see_also": "ersetzt",
+                "supersedes": "ersetzt",
                 "answers": "beantwortet"
             },
             "manual": {
