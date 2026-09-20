@@ -19,15 +19,15 @@
                 "delete_item_confirmation": "Möchtest du diesen Artikel wirklich löschen?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
+                "heading": "Varianten der mobilen Reiterkarten",
+                "empty_help": "Ziehe Elemente hierher, um sie dieser Variante hinzuzufügen.",
+                "help": "Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle.",
                 "number": "#{number}",
                 "enabled": "Aktiviert",
                 "visible_to": "Sichtbar für",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
+                "reorder": "Variante neu anordnen",
+                "delete": "Variante löschen",
+                "delete_confirmation": "Möchtest du diese Variante löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
                 "create": "Variante erstellen"
             },
             "scroll_settings": {
@@ -49,7 +49,7 @@
                 "profile": "Profil",
                 "tags": "Tags",
                 "messages": "Nachrichten",
-                "flags": "",
+                "flags": "Meldungen",
                 "fof-byobu": "Privat",
                 "ramon-chat": "Chat",
                 "categories": "Kategorien"
