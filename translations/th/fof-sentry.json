@@ -22,13 +22,13 @@
                 "environment_label": "สภาพแวดล้อม Sentry",
                 "environment_help": "ติดแท็กทุก event ด้วยชื่อสภาพแวดล้อม เช่น \"production\", \"staging\", \"development\" ช่วยกรองข้อผิดพลาดตามสภาพแวดล้อมและตั้งกฎการแจ้งเตือนแยกกัน",
                 "user_feedback_label": "เปิดใช้กล่องข้อเสนอแนะจากผู้ใช้",
-                "user_feedback_help": "เมื่อเปิดใช้งาน ผู้ใช้จะเห็นแบบฟอร์มข้อเสนอแนะเมื่อพบข้อผิดพลาด โดยข้อมูลชื่อผู้ใช้ อีเมล และกลุ่มจะถูกกรอกล่วงหน้า ต้องใช้ Sentry DSN โดยตรง (ไม่ใช่ Relay DSN)",
+                "user_feedback_help": "",
                 "send_user_emails_label": "รวมอีเมลผู้ใช้ในรายงาน",
                 "send_user_emails_help": "เมื่อเปิดใช้งาน อีเมลผู้ใช้จะถูกรวมในทุก event ของ Sentry โปรดตรวจสอบนโยบายความเป็นส่วนตัวก่อนเปิดใช้ ข้อมูล ID ชื่อผู้ใช้ และกลุ่มจะถูกรวมอยู่เสมอ",
                 "monitor_performance_label": "อัตราการสุ่มตัวอย่างประสิทธิภาพ Backend (0 - 100)",
-                "monitor_performance_help": "เปอร์เซ็นต์ของ request backend ที่จะติดตาม (0 = ปิด, 100 = ติดตามทั้งหมด) แนะนำ: เริ่มที่ 10-25% ใน production และ 100% ใน staging",
+                "monitor_performance_help": "",
                 "profile_rate_label": "อัตราการ Profiling Backend (0 - 100)",
-                "profile_rate_help": "เปอร์เซ็นต์ของ transaction ที่ติดตามและทำ profiling (สัมพัทธ์กับอัตราด้านบน) เช่น ถ้า monitoring = 10% และ profiling = 50% จะ profile คำขอ 5% ทั้งหมด {icon} <bold>ต้องการส่วนขยาย Excimer (Linux เท่านั้น) สถานะปัจจุบัน: {icon}</bold>",
+                "profile_rate_help": "",
                 "javascript_label": "เปิดรายงานข้อผิดพลาด JavaScript",
                 "javascript_help": "จับและรายงานข้อผิดพลาด JavaScript จาก frontend ไปยัง Sentry รวมถึง exception, promise rejection, console error และความล้มเหลวของเครือข่าย",
                 "javascript_console_label": "บันทึก Console เป็น Breadcrumb",
@@ -40,15 +40,15 @@
                 "javascript_replays_error_sample_rate": "อัตราการบันทึก Session เมื่อเกิดข้อผิดพลาด (0 - 100)",
                 "javascript_replays_error_sample_rate_help": "เปอร์เซ็นต์ของ session ที่บันทึกเฉพาะเมื่อเกิดข้อผิดพลาด บันทึกย้อนหลัง 1 นาทีก่อนเกิดข้อผิดพลาด เหมาะสำหรับแก้ไขปัญหาใน production ขนาด bundle เพิ่มขึ้น ~150 KB",
                 "db_slow_query_threshold_label": "เกณฑ์ Query ที่ช้า (มิลลิวินาที)",
-                "db_slow_query_threshold_help": "Query ที่ใช้เวลานานกว่าเกณฑ์นี้จะถูกบันทึกโดยอัตโนมัติ ระดับความรุนแรง: ปานกลาง (1-2×), สูง (2-5×), วิกฤต (5×+) ค่าเริ่มต้น: 1000ms",
+                "db_slow_query_threshold_help": "",
                 "db_n_plus_one_detection_label": "เปิดตรวจจับปัญหา N+1",
-                "db_n_plus_one_detection_help": "ตรวจจับปัญหา N+1 query อัตโนมัติโดยติดตาม query ที่ซ้ำกัน ช่วยระบุ bottleneck ประสิทธิภาพสำคัญ",
+                "db_n_plus_one_detection_help": "",
                 "db_n_plus_one_threshold_label": "เกณฑ์ตรวจจับ N+1",
-                "db_n_plus_one_threshold_help": "จำนวนครั้งที่ query ต้องซ้ำเพื่อถือว่าเป็น N+1 แนะนำ 10-20 (สมดุล) ค่าเริ่มต้น: 10",
+                "db_n_plus_one_threshold_help": "",
                 "db_track_bindings_label": "บันทึกค่า Parameter ของ Query",
-                "db_track_bindings_help": "รวมค่า parameter จริงในการติดตาม query เช่น \"WHERE id = 123\" แทน \"WHERE id = ?\" คำเตือน: อาจเปิดเผยข้อมูลผู้ใช้ที่ละเอียดอ่อน รหัสผ่านและค่า hash จะถูกซ่อนอัตโนมัติ แนะนำ: เปิดใช้เฉพาะใน staging/development",
+                "db_track_bindings_help": "",
                 "db_query_sample_rate_label": "อัตราการสุ่มตัวอย่าง Query",
-                "db_query_sample_rate_help": "เปอร์เซ็นต์ของ database query ที่จะติดตาม (0-100%) Query ที่ช้ากว่าเกณฑ์จะถูกติดตามเสมอไม่ว่าจะตั้งค่าเท่าใด แนะนำ: 10-25% บนเว็บไซต์ที่มีผู้ใช้งานมาก"
+                "db_query_sample_rate_help": ""
             }
         }
     }
