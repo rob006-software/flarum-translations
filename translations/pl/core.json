@@ -16,12 +16,12 @@
                         "issue_question": "Czy problem nadal występuje?",
                         "issue_question_help": "Spróbuj odtworzyć problem na osobnej stronie i odpowiedz na podstawie wyniku.",
                         "no_button": "Nie",
-                        "result_description": "Forum nie jest już w trybie konserwacji. Rozszerzenie podziału zostało zakończone. Na podstawie Twoich odpowiedzi na każdy krok, przyczyną problemu jest następujące rozszerzenie:\n",
-                        "start_button": "Rozpocznij podział",
-                        "stop_button": "Zakończ podział",
+                        "result_description": "Forum nie jest już w trybie konserwacji. Diagnostyka rozszerzeń została zakończona. Na podstawie Twoich odpowiedzi na każdy krok, przyczyną problemu jest następujące rozszerzenie:\n",
+                        "start_button": "Rozpocznij diagnostykę",
+                        "stop_button": "Zakończ diagnostykę",
                         "steps_left": "Pozostało kroków: {steps}",
                         "total_steps": "Zajmie to około {steps} kroków.",
-                        "title": "Rozszerzenie Podziału",
+                        "title": "Diagnostyka rozszerzeń",
                         "yes_button": "Tak"
                     },
                     "config_override": {
@@ -46,7 +46,7 @@
                     "source_local": "Lokalny (pakiet)",
                     "source_cdn": "CDN",
                     "source_kit": "Zestaw FontAwesome",
-                    "cdn_url_label": "Adres URL CDN'a",
+                    "cdn_url_label": "Adres URL CDN",
                     "cdn_url_help": "Pełny adres URL pliku CSS FontAwesome w sieci CDN",
                     "kit_url_label": "Adres URL zestawu",
                     "kit_url_help": "Adres URL skryptu zestawu FontAwesome (z kit.fontawesome.com)",
@@ -155,7 +155,7 @@
                 "forum_description_heading": "Opis forum",
                 "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
                 "forum_title_heading": "Nazwa forum",
-                "home_page_heading": "Strona domowa",
+                "home_page_heading": "Strona główna",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
                 "slug_driver_options": {
@@ -276,7 +276,7 @@
                 "below-recommended-label": "Przestarzała wersja bazy danych"
             },
             "debug-warning": {
-                "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link> aby uzyskać więcej informacji.\n",
+                "detail": "Gdy tryb <code>debug</code> jest aktywny, Flarum będzie odświeżać pliki <code>JavaScript</code> i <code>CSS</code> przy każdym wczytaniu strony, a także może ujawnić poufne informacje, jak na przykład dane dostępowe do bazy danych, zmienne środowiskowe itp.\n\nZalecane jest wyłączenie trybu <code>debug</code> w pliku <code>config.php</code> dla środowisk produkcyjnych. Sprawdź <link>dokumentację Flarum</link>, aby uzyskać więcej informacji.\n",
                 "label": "Tryb debug jest aktywny"
             },
             "edit_css": {
@@ -327,7 +327,7 @@
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domena",
                 "mail_mailgun_region_label": "Region",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "Klucz tajny",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_postmark_message_stream_label": "Strumień wiadomości",
@@ -355,7 +355,7 @@
                 "database_driver_mismatch": "To rozszerzenie nie obsługuje wybranego sterownika bazy danych.",
                 "deprecated": "Przestarzałe",
                 "disabled": "Wyłączone",
-                "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
+                "enable_to_see": "Włącz to rozszerzenie, aby uzyskać dostęp do jego ustawień.",
                 "enabled": "Włączone",
                 "info_links": {
                     "discuss": "Dyskusja",
@@ -594,7 +594,7 @@
                 "skip_discussion_list_pane": "Pomiń panel listy dyskusji",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} few {# nieodczytane odpowiedzi} other {# nieodczytanych odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -668,7 +668,7 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Czy jesteś pewien, że chcesz nieodwracalnie usunąć ten post? Ta operacje nie może zostać cofnięta.",
+                "delete_confirmation": "Czy jesteś pewien, że chcesz nieodwracalnie usunąć ten post? Ta operacja nie może zostać cofnięta.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Czy jesteś pewien, że chcesz usunąć ten post?",
@@ -683,7 +683,7 @@
             "post_scrubber": {
                 "now_link": "Teraz",
                 "original_post_link": "Początek dyskusji",
-                "unread_text": "{count} nieodczytanych",
+                "unread_text": "{count, plural, one {# nieodczytany} few {# nieodczytane} other {# nieodczytanych}}",
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
@@ -778,7 +778,7 @@
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "Wyślij",
-                "avatar_upload_tooltip": "Wyślij nowy avatar",
+                "avatar_upload_tooltip": "Wyślij nowy awatar",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "W {discussion}",
                 "joined_date_text": "Dołączył {ago}",
@@ -1147,7 +1147,7 @@
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
             "extensions": "Rozszerzenia",
-            "generic_confirmation_message": "Czy jesteś pewien, że chcesz kontynuować? Ta operacje nie może zostać cofnięta.",
+            "generic_confirmation_message": "Czy jesteś pewien, że chcesz kontynuować? Ta operacja nie może zostać cofnięta.",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem (np. <code>fas fa-flag</code> lub <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Podane dane logowania są nieprawidłowe.",

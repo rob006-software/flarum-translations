@@ -50,7 +50,7 @@
                 "qr_code_alt": "Kod QR uwierzytelniania dwuskładnikowego",
                 "enter_token": "Wpisz token",
                 "verify_button": "Zweryfikuj",
-                "loading_qr": "Wczytywaniu kodu QR...",
+                "loading_qr": "Wczytywanie kodu QR...",
                 "backup_codes": "Twoje kody zapasowe",
                 "backup_codes_instruction": "Prosimy o zapisanie tych kodów w bezpiecznym miejscu. Mogą one zostać użyte do uzyskania dostępu do konta w przypadku utraty podstawowej metody uwierzytelniania. Nie będą one wyświetlane ponownie.",
                 "saved_backup_codes_button": "Zapisałem te kody",
@@ -87,7 +87,7 @@
         },
         "email": {
             "subject": {
-                "status_changed": "Uwierzytelnianie dwuskładnikowe {type} dla twojego konta"
+                "status_changed": "Uwierzytelnianie dwuskładnikowe {type} dla Twojego konta"
             },
             "body": {
                 "status_changed": "Witaj {recipient_display_name},\n\nUwierzytelnianie dwuskładnikowe zostało {type} dla Twojego konta na {forum_url}.\n\nJeśli zainicjowałeś tę akcję, dalsze kroki nie są konieczne. Jeśli nie autoryzowałeś tej zmiany, skontaktuj się natychmiast z administratorami forum.\n"
@@ -113,7 +113,7 @@
         "lib": {
             "data": {
                 "twofactordata": {
-                    "export_description": "Eksportuje status 2FA i zaszyfrowane kody kopii zapasowych.",
+                    "export_description": "Eksportuje status 2FA i zaszyfrowane kody zapasowe.",
                     "delete_description": "Usuwa wszystkie dane związane z 2FA."
                 }
             }

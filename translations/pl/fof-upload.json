@@ -4,7 +4,7 @@
             "data": {
                 "uploads": {
                     "export_description": "Wszystkie pliki przesłane przez użytkownika.",
-                    "anonymize_description": "Usuwa odwołania do plików przesłanych przez użytkownika. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.",
+                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.",
                     "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
                 }
             }
@@ -17,7 +17,7 @@
             },
             "shared-uploads": {
                 "description": "Prześlij pliki, które mogą być używane przez wszystkich użytkowników forum.",
-                "introduction": "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n",
+                "introduction": "Współdzielone pliki to pliki, których mogą używać wszyscy użytkownicy Twojego forum. Nie są one dołączone do żadnego posta, ale mogą być wstawiane do postów za pomocą menedżera multimediów.\n\n<strong>Ostrzeżenie:</strong> Współdzielone pliki nie są chronione przez żadne uprawnienia. Każdy, kto posiada URL, może je wyświetlić.\n",
                 "no-files": "Nie przesłano jeszcze żadnych współdzielonych plików.",
                 "title": "Współdzielone pliki",
                 "upload-new-button": "Prześlij nowy plik"
@@ -46,9 +46,9 @@
                 "s3_acl": "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
                 "s3_acl_unsupported": "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n",
                 "s3_path_style": "Umieszcza nazwę bucketu w ścieżce URL zamiast w nazwie hosta. Jest to wymagane przez MinIO i Cloudflare R2; ustawienie włącza się automatycznie po wybraniu odpowiedniego dostawcy.\n",
-                "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
-                "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
-                "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
+                "custom_s3_url": "Publiczny adres bazowy, spod którego serwowane są Twoje pliki — CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n",
+                "s3_instance_profile": "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM — działa to tylko na EC2, ECS i EKS.\n",
+                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
             },
             "tabs": {
@@ -66,16 +66,16 @@
                 },
                 "aws-s3": {
                     "bucket": "Bucket",
-                    "key": "Key",
+                    "key": "Access key ID",
                     "region": "Region",
-                    "secret": "Secret",
-                    "title": "Ustawienia AWS S3",
+                    "secret": "Secret access key",
+                    "title": "Magazyn S3",
                     "provider": "Dostawca",
-                    "advanced_title": "Zaawansowane ustawienia S3",
+                    "advanced_title": "Opcje zaawansowane",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Use path style endpoint",
+                    "use_path_style_endpoint": "Adresowanie path-style",
                     "acl": "Access Control List (ACL)",
-                    "custom_url": "Niestandardowy adres URL S3"
+                    "custom_url": "Publiczny adres URL"
                 },
                 "disable-download-logging": {
                     "title": "Wyłącz rejestrowanie pobrań",
@@ -86,7 +86,7 @@
                     "toggle": "Wyłącz"
                 },
                 "imgur": {
-                    "client_id": "ID użytkownika Imgura",
+                    "client_id": "Client ID Imgura",
                     "title": "Ustawienia Imgura",
                     "tos": "To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur"
                 },
@@ -104,7 +104,7 @@
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku",
                     "max_file_size_equivalent": "Zapisywane jako <code>{kb}</code> KB ({value}).",
-                    "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
+                    "mime_types": "Typy plików",
                     "mime_type_regex_placeholder": "np. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Nieprawidłowe wyrażenie regularne (np. puste alternatywy, takie jak ||)",
                     "mime_type_permission_placeholder": "Opcjonalnie, np. Obrazy",
@@ -148,7 +148,7 @@
                     "toggle": "Przeskaluj obrazki"
                 },
                 "client_extension": {
-                    "title": "Rozszerzenia pików podane przez użytkownika",
+                    "title": "Rozszerzenia plików podane przez użytkownika",
                     "placeholder": "np. docx, xlsx, epub"
                 },
                 "thumbnails": {
@@ -178,7 +178,7 @@
                     "options": {
                         "both": "Oba",
                         "upload-btn": "Jedynie przycisk do wysyłania plików",
-                        "media-btn": "Jedynie przycisk managera plików"
+                        "media-btn": "Jedynie przycisk menedżera multimediów"
                     }
                 },
                 "inspect-mime": "Przetestuj typ MIME pliku"
@@ -194,7 +194,7 @@
                 "view_user_uploads_label": "Przeglądanie plików użytkowników",
                 "delete_uploads_of_others_label": "Usuwanie plików użytkowników",
                 "upload_shared_label": "Prześlij współdzielone pliki",
-                "access_shared_label": "Dostęp do współdzielonych plik w menedżerze mediów"
+                "access_shared_label": "Dostęp do współdzielonych plików w menedżerze multimediów"
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
@@ -213,7 +213,7 @@
                 "text-preview_description": "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
             },
             "upload_methods": {
-                "aws-s3": "Kompatybilne z S3",
+                "aws-s3": "S3 lub kompatybilne",
                 "imgur": "Imgur",
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
@@ -234,7 +234,7 @@
             }
         },
         "forum": {
-            "media_manager": "Manager plików",
+            "media_manager": "Menedżer multimediów",
             "display_name": {
                 "title": "Nadaj nazwę temu plikowi",
                 "title_plural": "Nadaj nazwy tym plikom",
@@ -254,7 +254,7 @@
             "states": {
                 "error": "Błąd",
                 "loading": "Wysyłanie",
-                "unauthorized": "Nie masz uprawnień, aby pobierać pliki",
+                "unauthorized": "Nie masz uprawnień, aby pobrać ten plik",
                 "permission_required": "Wymagane uprawnienie"
             },
             "validation": {
@@ -299,13 +299,13 @@
                 "modal_empty_desktop": "Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.",
                 "modal_empty_phone": "Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.",
                 "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Wybierz pliki}}",
                 "load_more_files_btn": "Wczytaj więcej plików",
                 "delete_file_a11y_label": "Usuń plik \"{fileName}\"",
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "Ukryj \"{fileName}\" w menedżerze plików",
-                    "btn_a11y_label_show": "Pokaż \"{fileName}\" w menedżerze plików",
+                    "btn_a11y_label_hide": "Ukryj \"{fileName}\" w menedżerze multimediów",
+                    "btn_a11y_label_show": "Pokaż \"{fileName}\" w menedżerze multimediów",
                     "hide_confirmation": "Czy na pewno chcesz ukryć \"{fileName}\"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.",
                     "hide_success": "Plik ukryty",
                     "show_confirmation": "Czy na pewno chcesz wyświetlić \"{fileName}\"? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.",
@@ -319,11 +319,11 @@
                     "btn_a11y_label_show": "Ustaw \"{fileName}\" jako publiczny (z publicznym adresem URL)",
                     "hide_confirmation": "Czy na pewno chcesz ustawić \"{fileName}\" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.",
                     "hide_success": "Plik stał się prywatny",
-                    "show_confirmation": "Czy na pewno chcesz upublicznić plik \"{fileName}\"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera plików.",
+                    "show_confirmation": "Czy na pewno chcesz upublicznić plik \"{fileName}\"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.",
                     "show_success": "Plik został upubliczniony",
                     "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
                     "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
-                    "loading": "Udostępnianie pliku jako prywatnego..."
+                    "loading": "Ustawianie pliku jako prywatny..."
                 }
             }
         }
