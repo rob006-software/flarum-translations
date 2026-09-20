@@ -5,26 +5,26 @@
                 "categories_label": "Catégories"
             },
             "labels": {
-                "keep_tags_nav": "Conserver le lien vers la page des étiquettes dans la barre latérale de navigation ?",
-                "child_bare_icon": "Icônes de catégories-enfants vierges ?",
+                "keep_tags_nav": "Faut-il conserver le lien vers la page des étiquettes dans la barre de navigation latérale ?",
+                "child_bare_icon": "Des sous-icônes ?",
                 "compact_mobile_mode": "Mode mobile compact",
-                "full_page_desktop": "Version pour ordinateur ?",
-                "parent_remove_icon": "Masquer les icônes des étiquettes de niveau supérieur ?",
-                "parent_remove_description": "Masquer les descriptions des étiquettes de niveau supérieur ?",
-                "parent_remove_stats": "Masquer les statistiques des étiquettes de niveau supérieur ?",
-                "parent_remove_last_discussion": "Masquer les discussions les plus récentes des étiquettes de niveau supérieur ?",
+                "full_page_desktop": "Plein écran sur ordinateur ?",
+                "parent_remove_icon": "Masquer les icônes des étiquettes de premier niveau ?",
+                "parent_remove_description": "Masquer les descriptions des étiquettes de premier niveau ?",
+                "parent_remove_stats": "Masquer les statistiques des étiquettes de premier niveau ?",
+                "parent_remove_last_discussion": "Masquer les discussions les plus récentes pour les étiquettes de premier niveau ?",
                 "small_forum_optimized": "Optimiser pour les petits forums ?"
             },
             "help": {
-                "child_bare_icon": "Les icônes des catégories-enfants doivent-elles être affichées sans fond circulaire ?",
-                "full_page_desktop": "Le menu de la barre de navigation latérale doit-il être réduit à une seule ligne (comme sur la page traditionnelle des étiquettes) ? Cela permettrait également de masquer les widgets (tels que ceux de l'extension Forum Statistics de Friends of Flarum) de la barre de navigation de la page des catégories.",
-                "small_forum_optimized": "Cela donnera un compte plus précis des discussions et des messages, mais ralentira considérablement les forums intermédiaires et importants."
+                "child_bare_icon": "Les icônes des sous-catégories doivent-elles s'afficher sans fond circulaire ?",
+                "full_page_desktop": "Faut-il réduire le menu de navigation latéral à une seule ligne (comme sur la page des étiquettes classique) ? Cela masquera également les widgets (tels que « Friends of Flarum » et « Forum Statistics ») de la barre de navigation de la page des catégories.",
+                "small_forum_optimized": "Cela permettra d'obtenir un décompte plus précis des discussions et des messages, mais ralentira considérablement les forums de taille moyenne et grande."
             },
             "headings": {
                 "nav": "Navigation",
                 "layout": "Mise en page",
-                "parent_display": "Affichage de la catégorie-parent",
-                "child_display": "Affichage de la catégorie-enfant",
+                "parent_display": "Affichage de la catégorie parente",
+                "child_display": "Affichage des sous-catégories",
                 "performance": "Performance"
             },
             "title": "Paramètres des catégories"
@@ -45,11 +45,11 @@
                 "post_label": "Messages"
             },
             "last_discussion_widget": {
-                "no_discussions": "Aucune discussion (pour le moment !)"
+                "no_discussions": "Pas encore de discussions (pour l'instant !)"
             }
         },
         "ref": {
-            "categories": "Catégories"
+            "categories": "Categories"
         }
     }
 }

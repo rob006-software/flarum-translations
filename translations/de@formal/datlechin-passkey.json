@@ -7,7 +7,7 @@
                 "verifying": "Passkey wird überprüft...",
                 "cancelled": "Anmeldung mit Passkey wurde abgebrochen.",
                 "failed": "Dein Passkey konnte nicht überprüft werden. Bitte versuche es erneut.",
-                "unsupported": "Dieses Gerät unterstützt den von der Website geforderten Passkeytyp nicht.",
+                "unsupported": "Dieses Gerät unterstützt den von der Website geforderten Passkey-Typ nicht.",
                 "security_error": "Die Herkunft der Website stimmt nicht mit der konfigurierten vertrauenden Partei überein. Bitte einen Administrator, die Passkey-Einstellungen zu überprüfen.",
                 "throttled": "Zu viele Anmeldeversuche mit dem Passkey. Bitte warte eine Minute und versuche es erneut."
             },
@@ -27,9 +27,9 @@
                 "add_button": "Passkey hinzufügen",
                 "bulk_revoke_button": "Alle widerrufen",
                 "add_modal": {
-                    "title": "Passkey hinzufügen",
+                    "title": "Einen Passkey hinzufügen",
                     "device_name_label": "Name dieses Passkeys",
-                    "device_name_placeholder": "z. B. iPhone, Macbook, YubiKey",
+                    "device_name_placeholder": "z. B. iPhone, MacBook, YubiKey",
                     "register_button": "Registrieren",
                     "cancel_button": "Abbrechen"
                 },
@@ -62,7 +62,7 @@
                     "registration_failed": "Dein Passkey konnte nicht registriert werden. Bitte versuche es erneut.",
                     "registration_already_exists": "Dieses Gerät verfügt bereits über einen Passkey für dein Konto. Widerrufe zunächst den vorhandenen Passkey oder verwende ein anderes Gerät.",
                     "registration_security_error": "Die Herkunft der Website stimmt nicht mit der konfigurierten vertrauenden Partei überein. Bitte einen Administrator, die Passkey-Einstellungen zu überprüfen.",
-                    "registration_unsupported": "Dieses Gerät unterstützt den von der Website geforderten Passkeytyp nicht.",
+                    "registration_unsupported": "Dieses Gerät unterstützt den von der Website geforderten Passkey-Typ nicht.",
                     "rename_succeeded": "Passkey umbenannt.",
                     "revoke_succeeded": "Passkey widerrufen.",
                     "bulk_revoke_succeeded": "Alle Passkeys widerrufen."

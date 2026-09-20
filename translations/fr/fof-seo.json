@@ -27,7 +27,7 @@
             },
             "modals": {
                 "crawl_post": {
-                    "title": "Paramètres d'indexation des messages",
+                    "title": "Paramètres d'exploration des messages",
                     "intro": "<b>Lisez attentivement cette boîte de dialogue.</b> Cette fonction ne s'exécutera qu'au moment de l'actualisation de la page d'une discussion. Vous pourrez toujours modifier cette option ultérieurement.",
                     "mode_main_title": "Indexer uniquement le message principal (par défaut)",
                     "mode_main_help": "Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n'aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.",
@@ -174,8 +174,8 @@
                         },
                         "crawl": {
                             "label": "Vérifier les paramètres d'indexation des messages de discussion",
-                            "reason": "Vous devrez vérifier ce paramètre pour valider.",
-                            "button": "Vérifier les paramètres de message"
+                            "reason": "Vous devrez revoir ce paramètre pour valider.",
+                            "button": "Revoir les paramètres de message"
                         },
                         "social_media": {
                             "label": "Configurer une image pour les réseaux sociaux",
@@ -234,7 +234,7 @@
                     "body": "Veuillez ouvrir cette boîte de dialogue en utilisant les propriétés objectType et objectId ou enregistrez plutôt la relation entre les objets."
                 },
                 "auto_update": {
-                    "label": "Mise à jour automatique des balises meta",
+                    "label": "Mise à jour automatique des balises méta",
                     "help": "Lorsque cette option est activée, les balises meta de cet élément sont automatiquement mises à jour dès que l'objet est modifié.",
                     "switch": "Mettre à jour l'objet du SEO en cas de modification"
                 },
@@ -249,7 +249,7 @@
                 },
                 "keywords": {
                     "label": "Mots-clés",
-                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élément.",
+                    "help": "Saisissez un ou plusieurs mots-clés qui décrivent cet élement.",
                     "placeholder": "Ajouter quelques mots-clés",
                     "comma_note": "Remarque : les mots-clés doivent être séparés par une virgule.",
                     "example": "Exemple : flarum, développement web, forum, pommes, sécurité"
