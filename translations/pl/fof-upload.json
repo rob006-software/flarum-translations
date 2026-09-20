@@ -4,7 +4,7 @@
             "data": {
                 "uploads": {
                     "export_description": "Wszystkie pliki przesłane przez użytkownika.",
-                    "anonymize_description": "Usuwa odwołania do plików przesłanych przez użytkownika. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.",
+                    "anonymize_description": "Usuwa odniesienie do użytkownika z przesłanych plików. Same pliki wciąż pozostają dostępne dla użytkowników, którzy mogli zobaczyć je przed anonimizacją.",
                     "delete_description": "Usuwa wszystkie pliki przesłane przez użytkownika."
                 }
             }
@@ -86,7 +86,7 @@
                     "toggle": "Wyłącz"
                 },
                 "imgur": {
-                    "client_id": "ID użytkownika Imgura",
+                    "client_id": "Client ID Imgura",
                     "title": "Ustawienia Imgura",
                     "tos": "To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur"
                 },
@@ -299,7 +299,7 @@
                 "modal_empty_desktop": "Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.",
                 "modal_empty_phone": "Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.",
                 "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
-                "confirm_selection_btn": "{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Select pliki}}",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nie wybrano} one {Wybierz plik} other {Wybierz pliki}}",
                 "load_more_files_btn": "Wczytaj więcej plików",
                 "delete_file_a11y_label": "Usuń plik \"{fileName}\"",
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć \"{fileName}\"?",
@@ -323,7 +323,7 @@
                     "show_success": "Plik został upubliczniony",
                     "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
                     "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
-                    "loading": "Udostępnianie pliku jako prywatnego..."
+                    "loading": "Ustawianie pliku jako prywatny..."
                 }
             }
         }

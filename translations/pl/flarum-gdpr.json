@@ -25,11 +25,11 @@
                     "type": "Typ",
                     "nullable": "Dopuszcza null",
                     "pii": "Dane osobowe",
-                    "redacted_on_export": "Redagowane przy eksporcie",
+                    "redacted_on_export": "Maskowane przy eksporcie",
                     "extension": "Rozszerzenie",
                     "yes": "Tak",
                     "no": "Nie",
-                    "pii_tooltip": "Ta kolumna jest uznawana za dane osobowe i będzie redagowana w kontekstach anonimizacji (np. anonimizowane ładunki zdarzeń).",
+                    "pii_tooltip": "Ta kolumna jest uznawana za dane osobowe i będzie maskowana w kontekstach anonimizacji (np. anonimizowane ładunki zdarzeń).",
                     "redacted_on_export_tooltip": "Wartość tej kolumny jest zerowana (ustawiana na null) podczas generowania eksportu danych użytkownika. Kolumna nadal pojawia się w eksporcie z wartością null."
                 }
             },
