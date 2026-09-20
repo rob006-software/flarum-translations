@@ -2,8 +2,8 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Verfügbare Elemente",
-            "available_items_help": "",
-            "create_new_item_button": "Neues Element erstellen",
+            "available_items_help": "Ziehe Elemente aus dieser Liste in eine beliebige Variante, um sie der Registerkarte „Mobil“ hinzuzufügen.",
+            "create_new_item_button": "Element erstellen",
             "edit_item": {
                 "modal_title": "Element bearbeiten",
                 "label": "Beschriftung",
@@ -22,13 +22,13 @@
                 "heading": "",
                 "empty_help": "",
                 "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
+                "number": "#{number}",
+                "enabled": "Aktiviert",
+                "visible_to": "Sichtbar für",
                 "reorder": "",
                 "delete": "",
                 "delete_confirmation": "",
-                "create": ""
+                "create": "Variante erstellen"
             },
             "scroll_settings": {
                 "toggle_label": "Sichtbarkeit beim Scrollen umschalten",
