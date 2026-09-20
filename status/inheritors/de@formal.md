@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **237** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **44** components.
+sides, but do not match between them: **337** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **59** components.
 
 <!-- {% raw %} -->
 
@@ -17,6 +17,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `blomstra-oauth-apple` | [1](#blomstra-oauth-apple) |
 | `clarkwinkelmann-emojionearea` | [2](#clarkwinkelmann-emojionearea) |
 | `core` | [79](#core) |
+| `datitisev-backup` | [14](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
 | `datlechin-copy-links` | [1](#datlechin-copy-links) |
@@ -24,29 +25,43 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `davwheat-share` | [1](#davwheat-share) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
-| `flarum-extension-manager` | [14](#flarum-extension-manager) |
+| `flarum-extension-manager` | [12](#flarum-extension-manager) |
 | `flarum-flags` | [5](#flarum-flags) |
-| `flarum-gdpr` | [11](#flarum-gdpr) |
+| `flarum-gdpr` | [12](#flarum-gdpr) |
 | `flarum-likes` | [4](#flarum-likes) |
 | `flarum-lock` | [1](#flarum-lock) |
-| `flarum-mentions` | [14](#flarum-mentions) |
+| `flarum-mentions` | [13](#flarum-mentions) |
 | `flarum-nicknames` | [2](#flarum-nicknames) |
-| `flarum-pusher` | [3](#flarum-pusher) |
+| `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-statistics` | [1](#flarum-statistics) |
 | `flarum-subscriptions` | [4](#flarum-subscriptions) |
 | `flarum-suspend` | [7](#flarum-suspend) |
 | `flarum-tags` | [5](#flarum-tags) |
-| `fof-byobu` | [1](#fof-byobu) |
+| `fof-badges` | [1](#fof-badges) |
+| `fof-byobu` | [10](#fof-byobu) |
 | `fof-cookie-consent` | [10](#fof-cookie-consent) |
 | `fof-discussion-templates` | [3](#fof-discussion-templates) |
+| `fof-drafts` | [1](#fof-drafts) |
+| `fof-follow-tags` | [9](#fof-follow-tags) |
+| `fof-geoip` | [1](#fof-geoip) |
+| `fof-horizon` | [2](#fof-horizon) |
 | `fof-impersonate` | [1](#fof-impersonate) |
 | `fof-links` | [2](#fof-links) |
+| `fof-mailing` | [1](#fof-mailing) |
+| `fof-merge-discussions` | [2](#fof-merge-discussions) |
+| `fof-moderator-warnings` | [7](#fof-moderator-warnings) |
 | `fof-move-posts` | [1](#fof-move-posts) |
-| `fof-oauth` | [4](#fof-oauth) |
+| `fof-oauth` | [2](#fof-oauth) |
 | `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
-| `fof-username-request` | [8](#fof-username-request) |
+| `fof-reactions` | [3](#fof-reactions) |
+| `fof-seo` | [26](#fof-seo) |
+| `fof-signature` | [2](#fof-signature) |
+| `fof-sitemap` | [1](#fof-sitemap) |
+| `fof-socialprofile` | [2](#fof-socialprofile) |
+| `fof-upload` | [5](#fof-upload) |
+| `fof-username-request` | [24](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
-| `ianm-follow-users` | [1](#ianm-follow-users) |
+| `ianm-follow-users` | [3](#ianm-follow-users) |
 | `ianm-level-ranks` | [1](#ianm-level-ranks) |
 | `justoverclock-reputation-score` | [1](#justoverclock-reputation-score) |
 | `migratetoflarum-canonical` | [7](#migratetoflarum-canonical) |
@@ -55,7 +70,7 @@ translated only in `de@formal`. Altogether they cover **44** components.
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `sycho-force-password-reset` | [3](#sycho-force-password-reset) |
 | `tryhackx-homepage-blocks` | [1](#tryhackx-homepage-blocks) |
-| `yippy-auth-ldap` | [1](#yippy-auth-ldap) |
+| `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
 
 
 ## Different translations
@@ -179,11 +194,11 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 > Customize your forum's colors, logos, and other variables.
 
 ```diff
--Ändere die Farbe, das Logo und weitere Variablen des Forums.
+-Ändere die Farben, das Logo und weitere Variablen des Forums.
 +Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.
 ```
 
-<del>Ändere</del><ins>Verändern Sie</ins> die Farbe, das Logo und weitere Variablen des Forums.
+<del>Ändere</del><ins>Verändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
 
@@ -288,10 +303,10 @@ Das Abrufen der Liste verwaister Erweiterungen ist fehlgeschlagen. Bitte <del>ve
 
 ```diff
 -Lege den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.
-+Legen Sie den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.
++Legen Sie den Text fest, der auf der Seite „Alle Diskussionen“ erscheint, um Besucher zu begrüßen.
 ```
 
-<del>Lege</del><ins>Legen Sie</ins> den Text fest, der auf der Seite "Alle Diskussionen" erscheint, um Besucher zu begrüßen.
+<del>Lege</del><ins>Legen Sie</ins> den Text fest, der auf der Seite <del>"Alle</del><ins>„Alle</ins> <del>Diskussionen"</del><ins>Diskussionen“</ins> erscheint, um Besucher zu begrüßen.
 
 #### [`core.admin.dashboard.description`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.admin.dashboard.description%22)
 
@@ -764,11 +779,11 @@ Falls die von <del>dir</del><ins>Ihnen</ins> eingegebene E-Mail-Adresse auf dies
 > Enter your email address and we will send you a link to reset your password.
 
 ```diff
--Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
+-Bitte gib deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.
 +Bitte geben Sie Ihre E-Mail-Adresse ein, um einen Link zum Zurücksetzen Ihres Passwortes zu erhalten.
 ```
 
-Bitte <del>gebe</del><ins>geben</ins> <del>deine</del><ins>Sie Ihre</ins> E-Mail-Adresse ein, um einen Link zum Zurücksetzen <del>deines</del><ins>Ihres</ins> Passwortes zu erhalten.
+Bitte <del>gib</del><ins>geben</ins> <del>deine</del><ins>Sie Ihre</ins> E-Mail-Adresse ein, um einen Link zum Zurücksetzen <del>deines</del><ins>Ihres</ins> Passwortes zu erhalten.
 
 #### [`core.forum.index.mark_all_as_read_confirmation`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.forum.index.mark_all_as_read_confirmation%22)
 
@@ -1110,6 +1125,167 @@ Wir haben eine <del>Bestätigungsmail</del><ins>Bestätigungs-E-Mail</ins> an {e
 <del>Bist</del><ins>Sind</ins> <del>du</del><ins>Sie</ins> sicher, dass <del>du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> von {forum} abmelden <del>willst?</del><ins>möchten?</ins>
 
 
+### `datitisev-backup`
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description%22)
+
+> Your authentication Access token ID
+
+```diff
+-Deine Authentifizierungs-Zugriffstoken-ID
++Ihre Authentifizierungs-Zugriffstoken-ID
+```
+
+<del>Deine</del><ins>Ihre</ins> Authentifizierungs-Zugriffstoken-ID
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.endpoint.description%22)
+
+> The URL to your storage endpoint.
+
+```diff
+-Die URL zu Deinem Speicherendpunkt.
++Die URL zu Ihrem Speicherendpunkt.
+```
+
+Die URL zu <del>Deinem</del><ins>Ihrem</ins> Speicherendpunkt.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.region.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.region.description%22)
+
+> Region of your bucket.
+
+```diff
+-Region Deines Buckets.
++Region Ihres Buckets.
+```
+
+Region <del>Deines</del><ins>Ihres</ins> Buckets.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.version.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.version.description%22)
+
+> Specify a version or leave blank for latest.
+
+```diff
+-Gib eine Version an oder lasse das Feld für die neueste leer.
++Geben Sie eine Version an oder lassen Sie das Feld für die neueste leer.
+```
+
+<del>Gib</del><ins>Geben Sie</ins> eine Version an oder <del>lasse</del><ins>lassen Sie</ins> das Feld für die neueste leer.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label%22)
+
+> Use access code to obtain a refresh token (requires app key &amp; secret)
+
+```diff
+-Verwende den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)
++Verwenden Sie den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)
+```
+
+<del>Verwende</del><ins>Verwenden Sie</ins> den Zugriffscode, um ein Aktualisierungstoken zu erhalten (erfordert App-Schlüssel und Secret)
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success%22)
+
+> Refresh token obtained successfully &amp; updated above! Save the changes to store it.
+
+```diff
+-Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichere die Änderungen, um sie zu sichern.
++Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! Speichern Sie die Änderungen, um sie zu sichern.
+```
+
+Aktualisierungstoken erfolgreich abgerufen und oben aktualisiert! <del>Speichere</del><ins>Speichern Sie</ins> die Änderungen, um sie zu sichern.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.description%22)
+
+> Use the fields below to obtain the refresh token or manually follow the instructions at https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.
+
+```diff
+-Verwende die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolge manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.
++Verwenden Sie die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder befolgen Sie manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.
+```
+
+<del>Verwende</del><ins>Verwenden Sie</ins> die folgenden Felder, um das Aktualisierungstoken zu erhalten, oder <del>befolge</del><ins>befolgen Sie</ins> manuell die Anweisungen unter https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.ftp.host.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.ftp.host.description%22)
+
+> The hostname to connect to with FTP, eg: &lt;em&gt;ftp.yourdomain.local&lt;/em&gt;.
+
+```diff
+-Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>.
++Der Hostname, zu dem Sie sich mit FTP verbinden möchten, z. B.: <em>ftp.yourdomain.local</em>.
+```
+
+Der Hostname, zu dem <del>Du</del><ins>Sie</ins> <del>dich</del><ins>sich</ins> mit FTP verbinden <del>möchtest,</del><ins>möchten,</ins> <del>zB:</del><ins>z. B.:</ins> &lt;em&gt;ftp.yourdomain.local&lt;/em&gt;.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description%22)
+
+> Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md to create a Google project and retrieve your Client ID &amp; Client Secret.
+>
+
+```diff
+-Befolge die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und deine Client-ID und deinen geheimen Client-Schlüssel abzurufen.
++Befolgen Sie die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und Ihre Client-ID und Ihren geheimen Client-Schlüssel abzurufen.
+
+```
+
+<del>Befolge</del><ins>Befolgen Sie</ins> die Anweisungen unter https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen und <del>deine</del><ins>Ihre</ins> Client-ID und <del>deinen</del><ins>Ihren</ins> geheimen Client-Schlüssel abzurufen.<br />
+
+#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.help.test_success_alert`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.help.test_success_alert%22)
+
+> Successfully connected to Google Drive! Save the changes to store the settings.
+
+```diff
+-Erfolgreich mit Google Drive verbunden! Speichere die Änderungen, um die Einstellungen zu übernehmen.
++Erfolgreich mit Google Drive verbunden! Speichern Sie die Änderungen, um die Einstellungen zu übernehmen.
+```
+
+Erfolgreich mit Google Drive verbunden! <del>Speichere</del><ins>Speichern Sie</ins> die Änderungen, um die Einstellungen zu übernehmen.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.local.target.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.local.target.description%22)
+
+> Specify the local directory to save backups to.
+
+```diff
+-Gib das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.
++Geben Sie das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.
+```
+
+<del>Gib</del><ins>Geben Sie</ins> das lokale Verzeichnis an, in dem Backups gespeichert werden sollen.
+
+#### [`datitisev-backup.admin.delete_confirmation`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.delete_confirmation%22)
+
+> Are you sure you want to delete "{name}" ({adapter})?
+
+```diff
+-Möchtest du „{name}“ ({adapter}) wirklich löschen?
++Möchten Sie „{name}“ ({adapter}) wirklich löschen?
+```
+
+<del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> „{name}“ ({adapter}) wirklich löschen?
+
+#### [`datitisev-backup.admin.nav.description`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.nav.description%22)
+
+> Store copies of your forum.
+
+```diff
+-Speicher Kopien Deines Forums.
++Speichern Sie Kopien Ihres Forums.
+```
+
+<del>Speicher</del><ins>Speichern Sie</ins> Kopien <del>Deines</del><ins>Ihres</ins> Forums.
+
+#### [`datitisev-backup.admin.required-package-modal.content`](https://weblate.rob006.net/translate/flarum/datitisev-backup/de@formal/?q=context%3A%3D%22datitisev-backup.admin.required-package-modal.content%22)
+
+> In order to use this driver you'll need to install a specific package. You can do so by running the following composer command: &lt;code&gt;composer require {package}&lt;/code&gt; in your Flarum installation directory.
+>
+
+```diff
+-Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
++Um diesen Treiber verwenden zu können, müssen Sie ein bestimmtes Paket installieren. Führen Sie dazu den folgenden Composer-Befehl in Ihrem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.
+
+```
+
+Um diesen Treiber verwenden zu können, <del>musst</del><ins>müssen</ins> <del>Du</del><ins>Sie</ins> ein bestimmtes Paket installieren. <del>Führe</del><ins>Führen Sie</ins> dazu den folgenden Composer-Befehl in <del>deinem</del><ins>Ihrem</ins> Flarum-Installationsverzeichnis aus: &lt;code&gt;composer require {package}&lt;/code&gt;.<br />
+
+
 ### `datlechin-bbcode-hide-content`
 
 #### [`datlechin-bbcode-hide-content.forum.must_be_logged_in`](https://weblate.rob006.net/translate/flarum/datlechin-bbcode-hide-content/de@formal/?q=context%3A%3D%22datlechin-bbcode-hide-content.forum.must_be_logged_in%22)
@@ -1432,15 +1608,6 @@ Auf eine Diskussion <del>antworten </del>ohne Genehmigung<ins> antworten</ins>
 
 <del>Bist</del><ins>Sind</ins> <del>du</del><ins>sie</ins> sicher, dass <del>du</del><ins>sie</ins> diese Authentifizierungsmethode löschen <del>möchtest?</del><ins>möchten?</ins>
 
-#### [`flarum-extension-manager.admin.auth_config.types.bearer`](https://weblate.rob006.net/translate/flarum/flarum-extension-manager/de@formal/?q=context%3A%3D%22flarum-extension-manager.admin.auth_config.types.bearer%22)
-
-> HTTP Bearer
-
-```diff
--HTTP Bearer
-+HTTP-Bearer
-```
-
 #### [`flarum-extension-manager.admin.composer.delete_repository_confirmation`](https://weblate.rob006.net/translate/flarum/flarum-extension-manager/de@formal/?q=context%3A%3D%22flarum-extension-manager.admin.composer.delete_repository_confirmation%22)
 
 > Are you sure you want to delete this repository? All extensions installed from this repository will be removed.
@@ -1538,11 +1705,11 @@ Ein Testlauf simuliert das Update, um zu sehen, ob <del>dein</del><ins>ihr</ins>
 > Please be careful to who you give access to the admin area, the extension manager could be misused by bad actors to install packages that can lead to security breaches.
 
 ```diff
--Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.
+-Bitte sei vorsichtig, wem du Zugang zum Admin-Bereich gibst. Der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.
 +Bitte seien sie vorsichtig, wem sie Zugang zum Admin-Bereich geben, der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.
 ```
 
-Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</ins> Zugang zum Admin-Bereich <del>gibst,</del><ins>geben,</ins> der Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.
+Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</ins> Zugang zum Admin-Bereich <del>gibst.</del><ins>geben,</ins> <del>Der</del><ins>der</ins> Erweiterungs-Manager könnte von bösartigen Akteuren missbraucht werden, um Pakete zu installieren, die zu Sicherheitslücken führen können.
 
 #### [`flarum-extension-manager.admin.settings.debug_mode_warning`](https://weblate.rob006.net/translate/flarum/flarum-extension-manager/de@formal/?q=context%3A%3D%22flarum-extension-manager.admin.settings.debug_mode_warning%22)
 
@@ -1568,15 +1735,6 @@ Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</
 
 <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>dich</del><ins>sich</ins> über eine &lt;a href='{basic\_impl\_link}'&gt;einfache Warteschlangen-Implementierung&lt;/a&gt; oder eine &lt;a href='{adv\_impl\_link}'&gt;fortgeschrittenere&lt;/a&gt; informieren. <del>Stelle</del><ins>Stellen sie</ins> sicher, dass die für die Warteschlange verwendete PHP-Version {php\_version} ist. <del>Stelle</del><ins>Stellen sie</ins> außerdem sicher, dass die &lt;a href='{folder\_perms\_link}'&gt;Ordnerberechtigungen&lt;/a&gt; richtig konfiguriert sind.<br />
 
-#### [`flarum-extension-manager.admin.updater.updater_title`](https://weblate.rob006.net/translate/flarum/flarum-extension-manager/de@formal/?q=context%3A%3D%22flarum-extension-manager.admin.updater.updater_title%22)
-
-> Updates
-
-```diff
--Updates
-+Aktualisierungen
-```
-
 
 ### `flarum-flags`
 
@@ -1585,11 +1743,11 @@ Bitte <del>sei</del><ins>seien sie</ins> vorsichtig, wem <del>du</del><ins>sie</
 > Allow users to flag their own posts
 
 ```diff
--Erlaube Benutzern eigene Beiträge zu melden
+-Erlaube Benutzern, eigene Beiträge zu melden
 +Benutzern erlauben Ihre eigenen Beiträge zu melden
 ```
 
-<del>Erlaube </del>Benutzern <del>eigene</del><ins>erlauben Ihre eigenen</ins> Beiträge zu melden
+<del>Erlaube</del><ins>Benutzern</ins> <del>Benutzern,</del><ins>erlauben</ins> <del>eigene</del><ins>Ihre eigenen</ins> Beiträge zu melden
 
 #### [`flarum-flags.forum.flag_post.confirmation_message`](https://weblate.rob006.net/translate/flarum/flarum-flags/de@formal/?q=context%3A%3D%22flarum-flags.forum.flag_post.confirmation_message%22)
 
@@ -1618,11 +1776,11 @@ Dieser Beitrag ist anstößig, beleidigend oder verstößt gegen <del>unsere</de
 > Please provide some details for our moderators.
 
 ```diff
--Bitte gebe einen Grund an.
+-Bitte gib einen Grund an.
 +Bitte geben Sie einen Grund an.
 ```
 
-Bitte <del>gebe</del><ins>geben Sie</ins> einen Grund an.
+Bitte <del>gib</del><ins>geben Sie</ins> einen Grund an.
 
 #### [`flarum-flags.forum.flag_post.reason_spam_text`](https://weblate.rob006.net/translate/flarum/flarum-flags/de@formal/?q=context%3A%3D%22flarum-flags.forum.flag_post.reason_spam_text%22)
 
@@ -1637,6 +1795,22 @@ Dieser Beitrag ist <del>Werbung oder Spam.</del><ins>Werbung.</ins>
 
 
 ### `flarum-gdpr`
+
+#### [`flarum-gdpr.admin.gdpr_page.data_types.help_text`](https://weblate.rob006.net/translate/flarum/flarum-gdpr/de@formal/?q=context%3A%3D%22flarum-gdpr.admin.gdpr_page.data_types.help_text%22)
+
+> These are the currently registered data types. Each type is listed along with it's associated export, anonymization, and deletion actions. If an extension handles any data which falls under GDPR regulations, it should register it's data types with &lt;code&gt;flarum/gdpr&lt;/code&gt;.
+> Data stored in the &lt;code&gt;user&lt;/code&gt; table is handled seperately, see user table data below.
+>
+
+```diff
+-Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.
+-Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.
++Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.
++Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.
+
+```
+
+Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <del>&lt;code&gt;blomstra/gdpr&lt;/code&gt;</del><ins>&lt;code&gt;flarum/gdpr&lt;/code&gt;</ins> registrieren.<br />Daten, die in der &lt;code&gt;Benutzer&lt;/code&gt;-Tabelle gespeichert sind, werden gesondert behandelt, siehe <del>Benutzertabellendaten</del><ins>„Daten der Benutzertabelle“</ins> unten.<br />
 
 #### [`flarum-gdpr.admin.settings.gdpr_page.help_text`](https://weblate.rob006.net/translate/flarum/flarum-gdpr/de@formal/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.help_text%22)
 
@@ -2013,11 +2187,11 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 > {username} replied to your post
 
 ```diff
--{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet
+-{username} hat auf deinen Beitrag geantwortet
 +{username} hat auf Ihren Beitrag geantwortet
 ```
 
-{username} <del>{count, plural, one {hat} other {haben}}</del><ins>hat</ins> auf <del>deinen</del><ins>Ihren</ins> Beitrag geantwortet
+{username} hat auf <del>deinen</del><ins>Ihren</ins> Beitrag geantwortet
 
 #### [`flarum-mentions.forum.notifications.user_mentioned_text`](https://weblate.rob006.net/translate/flarum/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.notifications.user_mentioned_text%22)
 
@@ -2030,27 +2204,16 @@ Jemand hat eine <del>Diskussion von</del><ins>Ihrer</ins> <del>dir</del><ins>Dis
 
 {username} hat <del>dich</del><ins>Sie</ins> erwähnt
 
-#### [`flarum-mentions.forum.post.mentioned_by_self_text`](https://weblate.rob006.net/translate/flarum/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_self_text%22)
-
-> {users} replied to this.
-
-```diff
--{users} {count, plural, one {hast} other {haben}} auf diesen Beitrag geantwortet.
-+{users} haben auf diesen Beitrag geantwortet.
-```
-
-{users} <del>{count, plural, one {hast} other {haben}}</del><ins>haben</ins> auf diesen Beitrag geantwortet.
-
 #### [`flarum-mentions.forum.post.mentioned_by_text`](https://weblate.rob006.net/translate/flarum/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_text%22)
 
 > {users} replied to this.
 
 ```diff
--{users} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.
+-{users} hat hierauf geantwortet.
 +{users} haben auf diesen Beitrag geantwortet.
 ```
 
-{users} <del>{count, plural, one {hat} other {haben}}</del><ins>haben</ins> auf diesen Beitrag geantwortet.
+{users} <del>hat</del><ins>haben</ins> <del>hierauf</del><ins>auf diesen Beitrag</ins> geantwortet.
 
 #### [`flarum-mentions.forum.settings.notify_group_mentioned_label`](https://weblate.rob006.net/translate/flarum/flarum-mentions/de@formal/?q=context%3A%3D%22flarum-mentions.forum.settings.notify_group_mentioned_label%22)
 
@@ -2112,24 +2275,6 @@ Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dic
 
 
 ### `flarum-pusher`
-
-#### [`flarum-pusher.admin.pusher_settings.app_id_label`](https://weblate.rob006.net/translate/flarum/flarum-pusher/de@formal/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_id_label%22)
-
-> App ID
-
-```diff
--App ID
-+App-ID
-```
-
-#### [`flarum-pusher.admin.pusher_settings.app_key_label`](https://weblate.rob006.net/translate/flarum/flarum-pusher/de@formal/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_key_label%22)
-
-> App Key
-
-```diff
--App Key
-+App-Schlüssel
-```
 
 #### [`flarum-pusher.admin.pusher_settings.app_secret_label`](https://weblate.rob006.net/translate/flarum/flarum-pusher/de@formal/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_secret_label%22)
 
@@ -2348,58 +2493,103 @@ Jemand hat in einer Diskussion geantwortet, der <del>du</del><ins>Sie</ins> <del
 > Manage the list of tags available to organise discussions with.
 
 ```diff
--Ordne die Liste der Themen um die Diskussionen zu organisieren.
+-Ordne die Liste der Tags, um die Diskussionen zu organisieren.
 +Ordnen Sie die Liste der Themen um die Diskussionen zu organisieren.
 ```
 
-<del>Ordne</del><ins>Ordnen Sie</ins> die Liste der Themen um die Diskussionen zu organisieren.
+<del>Ordne</del><ins>Ordnen Sie</ins> die Liste der <del>Tags,</del><ins>Themen</ins> um die Diskussionen zu organisieren.
 
 #### [`flarum-tags.admin.tag_settings.required_primary_text`](https://weblate.rob006.net/translate/flarum/flarum-tags/de@formal/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_primary_text%22)
 
 > Enter the minimum and maximum number of primary tags that may be applied to a discussion.
 
 ```diff
--Gib die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.
+-Gib die minimale und die maximale Anzahl von Haupt-Tags an, die einer Diskussion hinzugefügt werden können.
 +Geben Sie die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.
 ```
 
-<del>Gib</del><ins>Geben Sie</ins> die minimale und die maximale Anzahl von Hauptthemen an, die einer Diskussion hinzugefügt werden können.
+<del>Gib</del><ins>Geben Sie</ins> die minimale und die maximale Anzahl von <del>Haupt-Tags</del><ins>Hauptthemen</ins> an, die einer Diskussion hinzugefügt werden können.
 
 #### [`flarum-tags.admin.tag_settings.required_secondary_text`](https://weblate.rob006.net/translate/flarum/flarum-tags/de@formal/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_secondary_text%22)
 
 > Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
 
 ```diff
--Gib die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können.
+-Gib die minimale und die maximale Anzahl von Unter-Tags an, die einer Diskussion hinzugefügt werden können.
 +Geben Sie die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können.
 ```
 
-<del>Gib</del><ins>Geben Sie</ins> die minimale und die maximale Anzahl von Unterthemen an, die einer Diskussion hinzugefügt werden können.
+<del>Gib</del><ins>Geben Sie</ins> die minimale und die maximale Anzahl von <del>Unter-Tags</del><ins>Unterthemen</ins> an, die einer Diskussion hinzugefügt werden können.
 
 #### [`flarum-tags.lib.tag_selection_modal.choose_primary_placeholder`](https://weblate.rob006.net/translate/flarum/flarum-tags/de@formal/?q=context%3A%3D%22flarum-tags.lib.tag_selection_modal.choose_primary_placeholder%22)
 
 > {count, plural, one {Choose a primary tag} other {Choose # primary tags}}
 
 ```diff
--{count, plural, one {Wähle ein primäres Thema} other {Wähle # primäre Themen}}
+-{count, plural, one {Wähle ein Haupt-Tag} other {Wähle # Haupt-Tags}}
 +{count, plural, one {Wählen Sie ein primäres Thema} other {Wählen Sie # primäre Themen}}
 ```
 
-{count, plural, one <del>{Wähle</del><ins>{Wählen Sie</ins> ein primäres Thema} other <del>{Wähle</del><ins>{Wählen Sie</ins> # primäre Themen}}
+{count, plural, one <del>{Wähle</del><ins>{Wählen Sie</ins> ein <del>Haupt-Tag}</del><ins>primäres Thema}</ins> other <del>{Wähle</del><ins>{Wählen Sie</ins> # <del>Haupt-Tags}}</del><ins>primäre Themen}}</ins>
 
 #### [`flarum-tags.ref.choose_tags_placeholder`](https://weblate.rob006.net/translate/flarum/flarum-tags/de@formal/?q=context%3A%3D%22flarum-tags.ref.choose_tags_placeholder%22)
 
 > {count, plural, one {Choose 1 more tag} other {Choose # more tags}}
 
 ```diff
--{count, plural, one {Wähle ein Thema mehr} other {Wähle # mehr Themen}}
+-{count, plural, one {Wähle noch ein Tag} other {Wähle # weitere Tags}}
 +{count, plural, one {Wählen Sie ein Thema mehr} other {Wählen Sie # mehr Themen}}
 ```
 
-{count, plural, one <del>{Wähle</del><ins>{Wählen Sie</ins> ein Thema mehr} other <del>{Wähle</del><ins>{Wählen Sie</ins> # mehr Themen}}
+{count, plural, one <del>{Wähle</del><ins>{Wählen</ins> <del>noch</del><ins>Sie</ins> ein <del>Tag}</del><ins>Thema mehr}</ins> other <del>{Wähle</del><ins>{Wählen Sie</ins> # <del>weitere</del><ins>mehr</ins> <del>Tags}}</del><ins>Themen}}</ins>
+
+
+### `fof-badges`
+
+#### [`fof-badges.forum.notification.badge_earned`](https://weblate.rob006.net/translate/flarum/fof-badges/de@formal/?q=context%3A%3D%22fof-badges.forum.notification.badge_earned%22)
+
+> You earned {badge}
+
+```diff
+-Du hast {badge} erworben
++Sie haben {badge} erworben
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> {badge} erworben
 
 
 ### `fof-byobu`
+
+#### [`fof-byobu.admin.permission.create_private_discussions_with_blocking_users`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.admin.permission.create_private_discussions_with_blocking_users%22)
+
+> Create private discussions with users that block it
+
+```diff
+-Erstelle private Diskussionen mit Nutzern, die dies blockieren
++Erstelle private Diskussionen mit Nutzern, die es blockieren
+```
+
+Erstelle private Diskussionen mit Nutzern, die <del>dies</del><ins>es</ins> blockieren
+
+#### [`fof-byobu.admin.settings.post-event-icon`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.admin.settings.post-event-icon%22)
+
+> Byobu Post Events
+
+```diff
+-Byobu Post-Ereignisse
++Byobu-Post-Ereignisse
+```
+
+#### [`fof-byobu.email.subject.private_discussion_created`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.email.subject.private_discussion_created%22)
+
+> \[Private Discussion\] {display\_name} started a new private discussion with you
+
+```diff
+-[Private Diskussion] {display_name} hat eine neue private Diskussion mit dir begonnen
++[Private Diskussion] {display_name} hat eine neue private Diskussion mit Ihnen begonnen
+```
+
+\[Private Diskussion\] {display\_name} hat eine neue private Diskussion mit <del>dir</del><ins>Ihnen</ins> begonnen
 
 #### [`fof-byobu.forum.confirm.make_public`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.confirm.make_public%22)
 
@@ -2411,6 +2601,72 @@ Jemand hat in einer Diskussion geantwortet, der <del>du</del><ins>Sie</ins> <del
 ```
 
 Dadurch wird diese private Diskussion für alle sichtbar. <del>Überlege,</del><ins>Überlegen Sie,</ins> ob dies die richtige Handlung ist, bevor <del>du</del><ins>Sie</ins> <del>fortfährst.</del><ins>fortfahren.</ins>
+
+#### [`fof-byobu.forum.modal.help.add_recipients`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.modal.help.add_recipients%22)
+
+> This discussion will only be visible to the users you choose here. At least 1 recipient (other than yourself) is required.
+
+```diff
+-Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.
++Diese Diskussion wird nur für die Nutzer sichtbar sein, die Sie hier auswählen. Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.
+```
+
+Diese Diskussion wird nur für die Nutzer sichtbar sein, die <del>du</del><ins>Sie</ins> hier <del>auswählst.</del><ins>auswählen.</ins> Mindestens 1 Empfänger (außer dir selbst) ist erforderlich.
+
+#### [`fof-byobu.forum.modal.help.selected_users`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.modal.help.selected_users%22)
+
+> Click a user's name to remove them.
+
+```diff
+-Klicke auf den Namen eines Benutzers, um ihn zu entfernen.
++Klicken Sie auf den Namen eines Benutzers, um ihn zu entfernen.
+```
+
+<del>Klicke</del><ins>Klicken Sie</ins> auf den Namen eines Benutzers, um ihn zu entfernen.
+
+#### [`fof-byobu.forum.modal.help.update_recipients`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.modal.help.update_recipients%22)
+
+> This discussion will only be visible to the users you choose here.
+
+```diff
+-Diese Diskussion wird nur für die Nutzer sichtbar sein, die du hier auswählst.
++Diese Diskussion wird nur für die Nutzer sichtbar sein, die Sie hier auswählen.
+```
+
+Diese Diskussion wird nur für die Nutzer sichtbar sein, die <del>du</del><ins>Sie</ins> hier <del>auswählst.</del><ins>auswählen.</ins>
+
+#### [`fof-byobu.forum.notifications.pd_added_text`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_added_text%22)
+
+> {username} added you to a private discussion
+
+```diff
+-{username} hat dich zu einer privaten Diskussion hinzugefügt
++{username} hat Sie zu einer privaten Diskussion hinzugefügt
+```
+
+{username} hat <del>dich</del><ins>Sie</ins> zu einer privaten Diskussion hinzugefügt
+
+#### [`fof-byobu.forum.notifications.pd_reply_text`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_reply_text%22)
+
+> {username} posted in a private discussion you're a part of
+
+```diff
+-{username} hat in einer privaten Diskussion gepostet, an der du beteiligt bist
++{username} hat in einer privaten Diskussion gepostet, an der Sie beteiligt sind
+```
+
+{username} hat in einer privaten Diskussion gepostet, an der <del>du</del><ins>Sie</ins> beteiligt <del>bist</del><ins>sind</ins>
+
+#### [`fof-byobu.forum.notifications.pd_text`](https://weblate.rob006.net/translate/flarum/fof-byobu/de@formal/?q=context%3A%3D%22fof-byobu.forum.notifications.pd_text%22)
+
+> {username} started a new private discussion with you
+
+```diff
+-{username} hat eine neue private Diskussion mit dir begonnen
++{username} hat eine neue private Diskussion mit Ihnen begonnen
+```
+
+{username} hat eine neue private Diskussion mit <del>dir</del><ins>Ihnen</ins> begonnen
 
 
 ### `fof-cookie-consent`
@@ -2526,22 +2782,183 @@ Antwortvorlagen für <del>deine</del><ins>Ihre</ins> Diskussionen verwalten
 > Append template on tag change?
 
 ```diff
--Vorlage bei Themen-Änderung anhängen?
+-Vorlage bei Tag-Änderung anhängen?
 +Vorlage bei Thema-Änderung anhängen?
 ```
 
-Vorlage bei <del>Themen-Änderung</del><ins>Thema-Änderung</ins> anhängen?
+Vorlage bei <del>Tag-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 
 #### [`fof-discussion-templates.admin.tags.tag_template_text`](https://weblate.rob006.net/translate/flarum/fof-discussion-templates/de@formal/?q=context%3A%3D%22fof-discussion-templates.admin.tags.tag_template_text%22)
 
 > Manage a template for new discussions in this tag.
 
 ```diff
--Verwalte eine Vorlage für neue Diskussionen in diesem Thema.
+-Verwalte eine Vorlage für neue Diskussionen in diesem Tag.
 +Verwalten Sie eine Vorlage für neue Diskussionen in diesem Thema.
 ```
 
-<del>Verwalte</del><ins>Verwalten Sie</ins> eine Vorlage für neue Diskussionen in diesem Thema.
+<del>Verwalte</del><ins>Verwalten Sie</ins> eine Vorlage für neue Diskussionen in diesem <del>Tag.</del><ins>Thema.</ins>
+
+
+### `fof-drafts`
+
+#### [`fof-drafts.forum.dropdown.empty_text`](https://weblate.rob006.net/translate/flarum/fof-drafts/de@formal/?q=context%3A%3D%22fof-drafts.forum.dropdown.empty_text%22)
+
+> You haven't saved any drafts
+
+```diff
+-Du hast keine Entwürfe gespeichert
++Sie haben keine Entwürfe gespeichert
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> keine Entwürfe gespeichert
+
+
+### `fof-follow-tags`
+
+#### [`fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.all_discussions_on_following_page_for_guests_label%22)
+
+> Show all discussions on the Following page for guests
+
+```diff
+-Alle Diskussionen auf der „Du folgst“-Seite für Gäste anzeigen
++Alle Diskussionen auf der „Sie folgen“-Seite für Gäste anzeigen
+```
+
+Alle Diskussionen auf der <del>„Du</del><ins>„Sie</ins> <del>folgst“-Seite</del><ins>folgen“-Seite</ins> für Gäste anzeigen
+
+#### [`fof-follow-tags.admin.settings.following_page_default_label`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.following_page_default_label%22)
+
+> Default Following Page Filtering
+
+```diff
+-Standardfilterung der "Du folgst"-Seiten
++Standardfilterung der "Sie folgen"-Seiten
+```
+
+Standardfilterung der <del>"Du</del><ins>"Sie</ins> <del>folgst"-Seiten</del><ins>folgen"-Seiten</ins>
+
+#### [`fof-follow-tags.admin.settings.prompt_button_on_following_page_label`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.admin.settings.prompt_button_on_following_page_label%22)
+
+> Show a "Choose tags to follow" button on the Following page
+
+```diff
+-Schaltfläche „Wähle Tags aus, denen Du folgen möchtest“ auf der „Du folgst“ anzeigen
++Schaltfläche „Wähle Tags aus, denen Sie folgen möchten“ auf der „Sie folgen“ anzeigen
+```
+
+Schaltfläche „Wähle Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest“</del><ins>möchten“</ins> auf der <del>„Du</del><ins>„Sie</ins> <del>folgst“</del><ins>folgen“</ins> anzeigen
+
+#### [`fof-follow-tags.forum.prompt.choose_button`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.prompt.choose_button%22)
+
+> Choose tags to follow
+
+```diff
+-Wähle Tags aus, denen Du folgen möchtest
++Wählen Sie Tags aus, denen Sie folgen möchten
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest</del><ins>möchten</ins>
+
+#### [`fof-follow-tags.forum.prompt.modal_title`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.prompt.modal_title%22)
+
+> Choose tags to follow
+
+```diff
+-Wähle Tags aus, denen Du folgen möchtest
++Wählen Sie Tags aus, denen Sie folgen möchten
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>möchtest</del><ins>möchten</ins>
+
+#### [`fof-follow-tags.forum.sub_controls.header`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.header%22)
+
+> Subscription for {tagName}
+
+```diff
+-Dein Abo von „{tagName}“
++Ihr Abo von „{tagName}“
+```
+
+<del>Dein</del><ins>Ihr</ins> Abo von „{tagName}“
+
+#### [`fof-follow-tags.forum.sub_controls.subscription_label`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.subscription_label%22)
+
+> Select your subscription level for {tagName}
+
+```diff
+-Wähle die Art aus, wie du „{tagName}“ abonnierst
++Wählen Sie die Art aus, wie Sie „{tagName}“ abonnieren
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> die Art aus, wie <del>du</del><ins>Sie</ins> „{tagName}“ <del>abonnierst</del><ins>abonnieren</ins>
+
+#### [`fof-follow-tags.forum.user.settings.filter_label`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.user.settings.filter_label%22)
+
+> What to show by default in the Following page
+
+```diff
+-Was standardmäßig auf der "Du folgst"-Seite angezeigt werden soll
++Was standardmäßig auf der "Sie folgen"-Seite angezeigt werden soll
+```
+
+Was standardmäßig auf der <del>"Du</del><ins>"Sie</ins> <del>folgst"-Seite</del><ins>folgen"-Seite</ins> angezeigt werden soll
+
+#### [`fof-follow-tags.forum.user.settings.heading`](https://weblate.rob006.net/translate/flarum/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.user.settings.heading%22)
+
+> Follow Tags
+
+```diff
+-Darstellung der „Du folgst“-Seite
++Darstellung der „Sie folgen“-Seite
+```
+
+Darstellung der <del>„Du</del><ins>„Sie</ins> <del>folgst“-Seite</del><ins>folgen“-Seite</ins>
+
+
+### `fof-geoip`
+
+#### [`fof-geoip.admin.settings.service_ipsevenex_label`](https://weblate.rob006.net/translate/flarum/fof-geoip/de@formal/?q=context%3A%3D%22fof-geoip.admin.settings.service_ipsevenex_label%22)
+
+> 7x Geolocation API
+
+```diff
+-7x Geolocation API
++7x Geolocation-API
+```
+
+7x <del>Geolocation API</del><ins>Geolocation-API</ins>
+
+
+### `fof-horizon`
+
+#### [`fof-horizon.admin.settings.trim_help`](https://weblate.rob006.net/translate/flarum/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.settings.trim_help%22)
+
+> Here you can configure for how long (in minutes) you desire Horizon to
+> persist the recent and failed jobs. Typically, recent jobs are kept
+> for one hour while all failed jobs are stored for an entire week.
+>
+
+```diff
+-Hier kannst du einstellen, wie lange (in Minuten) Horizon
++Hier können Sie einstellen, wie lange (in Minuten) Horizon
+ die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge
+ eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.
+
+```
+
+Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen, wie lange (in Minuten) Horizon<br />die letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge<br />eine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.<br />
+
+#### [`fof-horizon.admin.stats.error.fetch_failed`](https://weblate.rob006.net/translate/flarum/fof-horizon/de@formal/?q=context%3A%3D%22fof-horizon.admin.stats.error.fetch_failed%22)
+
+> Unable to fetch Horizon statistics. Please check your Redis configuration.
+
+```diff
+-Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.
++Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.
+```
+
+Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del><ins>überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> Redis-Konfiguration.
 
 
 ### `fof-impersonate`
@@ -2551,11 +2968,11 @@ Vorlage bei <del>Themen-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 > (Optional) Provide your reason for switching to this user
 
 ```diff
--(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an.
+-(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an
 +(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an.
 ```
 
-(Optional) <del>Gib</del><ins>Geben Sie</ins> einen Grund für den Wechsel zu diesem Benutzer an.
+(Optional) <del>Gib</del><ins>Geben Sie</ins> einen Grund für den Wechsel zu diesem Benutzer <del>an</del><ins>an.</ins>
 
 
 ### `fof-links`
@@ -2583,6 +3000,159 @@ Vorlage bei <del>Themen-Änderung</del><ins>Thema-Änderung</ins> anhängen?
 Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del><ins>möchten,</ins> lautet <del>das</del><ins>der</ins> Präfix stattdessen<del> &lt;code&gt;fab</del> <del>fa-&lt;/code&gt;.</del><ins>&lt;code&gt;fab-fa-&lt;/code&gt;.</ins>
 
 
+### `fof-mailing`
+
+#### [`fof-mailing.forum.modal_sent.on_its_way`](https://weblate.rob006.net/translate/flarum/fof-mailing/de@formal/?q=context%3A%3D%22fof-mailing.forum.modal_sent.on_its_way%22)
+
+> High Five! Your mail is on its way to {recipientsCount} recipients!
+
+```diff
+-High Five! Deine E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
++High Five! Ihre E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
+```
+
+High Five! <del>Deine</del><ins>Ihre</ins> E-Mail ist auf dem Weg zu {recipientsCount} Empfängern!
+
+
+### `fof-merge-discussions`
+
+#### [`fof-merge-discussions.email.merged.subject`](https://weblate.rob006.net/translate/flarum/fof-merge-discussions/de@formal/?q=context%3A%3D%22fof-merge-discussions.email.merged.subject%22)
+
+> Your discussion "{merged\_discussion\_title}" was merged
+
+```diff
+-Deine Diskussion „{merged_discussion_title}“ wurde zusammengeführt
++Ihre Diskussion „{merged_discussion_title}“ wurde zusammengeführt
+```
+
+<del>Deine</del><ins>Ihre</ins> Diskussion „{merged\_discussion\_title}“ wurde zusammengeführt
+
+#### [`fof-merge-discussions.forum.modal.type_heading`](https://weblate.rob006.net/translate/flarum/fof-merge-discussions/de@formal/?q=context%3A%3D%22fof-merge-discussions.forum.modal.type_heading%22)
+
+> Merge type
+
+```diff
+-Art der Zusammenführung
++Zusammenführungsart
+```
+
+
+### `fof-moderator-warnings`
+
+#### [`fof-moderator-warnings.emails.post_warned.body`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.emails.post_warned.body%22)
+
+> Hey {warnee\_display\_name}!
+>
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion\_title}
+>
+> The following reason was given:
+>
+> \---
+>
+> {public\_comment}
+>
+
+```diff
+ Hallo {warnee_display_name}!
+
+-{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
++{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion_title} gewarnt
+
+ Es wurde folgender Grund angegeben:
+
+ ---
+
+ {public_comment}
+
+```
+
+Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} in {discussion\_title} gewarnt<br /><br />Es wurde folgender Grund angegeben:<br /><br />---<br /><br />{public\_comment}<br />
+
+#### [`fof-moderator-warnings.emails.user_warned.body`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.emails.user_warned.body%22)
+
+> Hey {warnee\_display\_name}!
+>
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}}
+>
+> The following reason was given:
+>
+> \---
+>
+> {public\_comment}
+>
+
+```diff
+ Hallo {warnee_display_name}!
+
+-{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
++{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
+
+ Es wurde folgender Grund angegeben wurde angegeben:
+
+ ---
+
+ {public_comment}
+
+```
+
+Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt<br /><br />Es wurde folgender Grund angegeben wurde angegeben:<br /><br />---<br /><br />{public\_comment}<br />
+
+#### [`fof-moderator-warnings.emails.user_warned.subject`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.emails.user_warned.subject%22)
+
+> {warner\_display\_name} warned you with {strikes, plural, one {# strike} other {# strikes}}
+
+```diff
+-{warner_display_name} hat Dich mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
++{warner_display_name} hat Sie mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
+```
+
+{warner\_display\_name} hat <del>Dich</del><ins>Sie</ins> mit {strikes, plural, one {# Strike} other {# Strikes}} gewarnt
+
+#### [`fof-moderator-warnings.forum.notifications.warning_no_strikes_text`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.notifications.warning_no_strikes_text%22)
+
+> You were warned by {mod\_username} (no strikes)
+
+```diff
+-Du wurdest von {mod_username} gewarnt (keine Strikes)
++Sie wurden von {mod_username} gewarnt (keine Strikes)
+```
+
+<del>Du</del><ins>Sie</ins> <del>wurdest</del><ins>wurden</ins> von {mod\_username} gewarnt (keine Strikes)
+
+#### [`fof-moderator-warnings.forum.notifications.warning_text`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.notifications.warning_text%22)
+
+> {strikes, plural, one {You were warned with # strike by {mod\_username}} other {You were warned with # strikes by {mod\_username}}}
+
+```diff
+-{strikes, plural, one {Du wurdest mit # strike von {mod_username} verwarnt} other {Du wurdest mit # strikes von {mod_username} verwarnt}}
++{strikes, plural, one {Sie wurden mit # strike von {mod_username} verwarnt} other {Sie wurden mit # strikes von {mod_username} verwarnt}}
+```
+
+{strikes, plural, one <del>{Du</del><ins>{Sie</ins> <del>wurdest</del><ins>wurden</ins> mit # strike von {mod\_username} verwarnt} other <del>{Du</del><ins>{Sie</ins> <del>wurdest</del><ins>wurden</ins> mit # strikes von {mod\_username} verwarnt}}
+
+#### [`fof-moderator-warnings.forum.validation.public_comment_required`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.validation.public_comment_required%22)
+
+> You most provide a public comment.
+
+```diff
+-Du musst eine öffentliche Begründung abgeben.
++Sie müssen eine öffentliche Begründung abgeben.
+```
+
+<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> eine öffentliche Begründung abgeben.
+
+#### [`fof-moderator-warnings.forum.warning_controls.delete_forever_button`](https://weblate.rob006.net/translate/flarum/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_controls.delete_forever_button%22)
+
+> Permanently Delete
+
+```diff
+-Entgültig löschen
++Endgültig löschen
+```
+
+<del>Entgültig</del><ins>Endgültig</ins> löschen
+
+
 ### `fof-move-posts`
 
 #### [`fof-move-posts.forum.modal.confirm_move_all_to_new_discussion`](https://weblate.rob006.net/translate/flarum/fof-move-posts/de@formal/?q=context%3A%3D%22fof-move-posts.forum.modal.confirm_move_all_to_new_discussion%22)
@@ -2590,11 +3160,11 @@ Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del
 > You are about to move all posts from this discussion into a new one. In most cases, it makes more sense to edit the existing discussion instead, for example by changing its title, tags, or other attributes. Do you want to continue?
 
 ```diff
--Du bist dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem du den Titel, die Themen oder andere Attribute änderst. Möchtest du fortfahren?
+-Du bist dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem du den Titel, die Tags oder andere Attribute änderst. Möchtest du fortfahren?
 +Sie sind dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem Sie den Titel, die Themen oder andere Attribute ändern. Möchten Sie fortfahren?
 ```
 
-<del>Du</del><ins>Sie</ins> <del>bist</del><ins>sind</ins> dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem <del>du</del><ins>Sie</ins> den Titel, die Themen oder andere Attribute <del>änderst.</del><ins>ändern.</ins> <del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> fortfahren?
+<del>Du</del><ins>Sie</ins> <del>bist</del><ins>sind</ins> dabei, alle Beiträge aus dieser Diskussion in eine neue zu verschieben. In den meisten Fällen ist es sinnvoller, stattdessen die bestehende Diskussion zu bearbeiten, beispielsweise indem <del>du</del><ins>Sie</ins> den Titel, die <del>Tags</del><ins>Themen</ins> oder andere Attribute <del>änderst.</del><ins>ändern.</ins> <del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> fortfahren?
 
 
 ### `fof-oauth`
@@ -2608,32 +3178,16 @@ Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del
 +API-Secret
 ```
 
-#### [`fof-oauth.ref.settings.app_id`](https://weblate.rob006.net/translate/flarum/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.ref.settings.app_id%22)
+#### [`fof-oauth.forum.user.settings.linked-account.orphaned-account`](https://weblate.rob006.net/translate/flarum/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.forum.user.settings.linked-account.orphaned-account%22)
 
-> App ID
-
-```diff
--App ID
-+App-ID
-```
-
-#### [`fof-oauth.ref.settings.app_secret`](https://weblate.rob006.net/translate/flarum/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.ref.settings.app_secret%22)
-
-> App Secret
+> You have signed in through this provider previously, but this forum has disabled sign-in with this method since.
 
 ```diff
--App Secret
-+App-Secret
+-Du hast dich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.
++Sie haben sich zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.
 ```
 
-#### [`fof-oauth.ref.settings.client_secret`](https://weblate.rob006.net/translate/flarum/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.ref.settings.client_secret%22)
-
-> Client Secret
-
-```diff
--Client Secret
-+Client-Secret
-```
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> <del>dich</del><ins>sich</ins> zuvor über diesen Anbieter angemeldet, jedoch hat das Forum die Anmeldung mit dieser Methode seitdem deaktiviert.
 
 
 ### `fof-profile-image-crop`
@@ -2663,48 +3217,622 @@ Zuschneiden fehlgeschlagen. <del>Stelle</del><ins>Stellen Sie</ins> sicher das d
 Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen <del>deines</del><ins>Ihres</ins> Browsers sehr streng sind. <del>Hast</del><ins>Wenn</ins> <del>du</del><ins>Sie</ins> <del>Probleme,</del><ins>Probleme</ins> <del>Versuche</del><ins>haben, versuchen Sie</ins> den Fingerprinting-Schutz zu deaktivieren. Ansonsten <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> auch &lt;disableResize&gt;die Komprimierung des zugeschnittenen Bildes deaktivieren&lt;/disableResize&gt; oder &lt;disableCrop&gt;das Zuschneiden ganz deaktivieren&lt;/disableCrop&gt;.<br />
 
 
-### `fof-username-request`
+### `fof-reactions`
 
-#### [`fof-username-request.forum.nickname_modals.action.success`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.success%22)
+#### [`fof-reactions.admin.page.convert.converting`](https://weblate.rob006.net/translate/flarum/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.admin.page.convert.converting%22)
 
-> Decision sent.
+> Your reactions are now converting. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total number of reactions)
 
 ```diff
--Entscheidung abgeschickt.
-+Entscheidung gesendet.
+-Deine Reaktionen werden nun konvertiert. Lade die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
++Ihre Reaktionen werden nun konvertiert. Laden Sie die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
 ```
 
-Entscheidung <del>abgeschickt.</del><ins>gesendet.</ins>
+<del>Deine</del><ins>Ihre</ins> Reaktionen werden nun konvertiert. <del>Lade</del><ins>Laden Sie</ins> die Seite nach ein paar Minuten neu, um zu sehen, dass der Prozess abgeschlossen ist. (Die Konvertierungszeit kann abhängig von der Gesamtzahl deiner Reaktionen eine Weile dauern)
+
+#### [`fof-reactions.admin.page.convert.help`](https://weblate.rob006.net/translate/flarum/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.admin.page.convert.help%22)
+
+> If you just updated your extension, your reactions will have to be converted. If you just installed this extension, you can saftely ignore this message.
+
+```diff
+-Wenn du deine Erweiterung gerade aktualisiert hast, müssen deine Reaktionen konvertiert werden. Wenn du diese Erweiterung gerade erst installiert hast, kannst du diese Nachricht getrost ignorieren.
++Wenn Sie Ihere Erweiterung gerade aktualisiert hast, müssen Ihre Reaktionen konvertiert werden. Wenn Sie diese Erweiterung gerade erst installiert haben, können Sie diese Nachricht getrost ignorieren.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihere</ins> Erweiterung gerade aktualisiert hast, müssen <del>deine</del><ins>Ihre</ins> Reaktionen konvertiert werden. Wenn <del>du</del><ins>Sie</ins> diese Erweiterung gerade erst installiert <del>hast,</del><ins>haben,</ins> <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> diese Nachricht getrost ignorieren.
+
+#### [`fof-reactions.forum.warning`](https://weblate.rob006.net/translate/flarum/fof-reactions/de@formal/?q=context%3A%3D%22fof-reactions.forum.warning%22)
+
+> Your reaction was converted
+
+```diff
+-Deine Reaktion wurde umgewandelt
++Ihre Reaktion wurde umgewandelt
+```
+
+<del>Deine</del><ins>Ihre</ins> Reaktion wurde umgewandelt
+
+
+### `fof-seo`
+
+#### [`fof-seo.admin.dashboard.widget.review_prompt`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.dashboard.widget.review_prompt%22)
+
+> It's time to review your SEO settings!
+
+```diff
+-Es ist Zeit, deine SEO-Einstellungen zu überprüfen!
++Es ist Zeit, Ihre SEO-Einstellungen zu überprüfen!
+```
+
+Es ist Zeit, <del>deine</del><ins>Ihre</ins> SEO-Einstellungen zu überprüfen!
+
+#### [`fof-seo.admin.modals.dofollow.default_note`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.modals.dofollow.default_note%22)
+
+> The domain you use for your Flarum instance is added to the list by default.
+
+```diff
+-Die Domain, die du für deine Flarum-Instanz verwendest, wird standardmäßig zur Liste hinzugefügt.
++Die Domain, die Sie für Ihre Flarum-Instanz verwenden, wird standardmäßig zur Liste hinzugefügt.
+```
+
+Die Domain, die <del>du</del><ins>Sie</ins> für <del>deine</del><ins>Ihre</ins> Flarum-Instanz <del>verwendest,</del><ins>verwenden,</ins> wird standardmäßig zur Liste hinzugefügt.
+
+#### [`fof-seo.admin.pages.health.checks.review.label`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.review.label%22)
+
+> Review your SEO settings every two months. Next review needed on {date}
+
+```diff
+-Überprüfe deine SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
++Überprüfen Sie Ihre SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
+```
+
+<del>Überprüfe</del><ins>Überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> SEO-Einstellungen alle zwei Monate. Die nächste Überprüfung ist am {date} fällig.
+
+#### [`fof-seo.admin.pages.health.checks.review.reason`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.review.reason%22)
+
+> It is time to re-review your SEO settings.
+
+```diff
+-Es ist an der Zeit, deine SEO-Einstellungen noch einmal zu überprüfen.
++Es ist an der Zeit, Ihre SEO-Einstellungen noch einmal zu überprüfen.
+```
+
+Es ist an der Zeit, <del>deine</del><ins>Ihre</ins> SEO-Einstellungen noch einmal zu überprüfen.
+
+#### [`fof-seo.admin.pages.health.checks.robots.reason`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.robots.reason%22)
+
+> Your robots.txt is provided by the FriendsOfFlarum Sitemap extension. Install and enable it to make a robots.txt available to search engines.
+
+```diff
+-Deine robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installiere und aktiviere sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
++Ihre robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. Installieren und aktivieren Sie sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
+```
+
+<del>Deine</del><ins>Ihre</ins> robots.txt-Datei wird von der Sitemap-Erweiterung von FriendsOfFlarum bereitgestellt. <del>Installiere</del><ins>Installieren</ins> und <del>aktiviere</del><ins>aktivieren Sie</ins> sie, um Suchmaschinen eine robots.txt-Datei zur Verfügung zu stellen.
+
+#### [`fof-seo.admin.pages.health.checks.ssl.label`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.ssl.label%22)
+
+> Checks whether your site has a secure connection available (SSL/TLS)
+
+```diff
+-Prüft, ob deine Website über eine sichere Verbindung (SSL/TLS) verfügt
++Prüft, ob Ihre Website über eine sichere Verbindung (SSL/TLS) verfügt
+```
+
+Prüft, ob <del>deine</del><ins>Ihre</ins> Website über eine sichere Verbindung (SSL/TLS) verfügt
+
+#### [`fof-seo.admin.pages.health.checks.ssl.reason`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.health.checks.ssl.reason%22)
+
+> Your forum does not force a SSL/TLS connection (a secure connection to your website). Most search engines won't index your website or lower your ranking if you have no secure connection available.
+
+```diff
+-Dein Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu deiner Website). Die meisten Suchmaschinen indexieren deine Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
++Ihr Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu Ihrer Website). Die meisten Suchmaschinen indexieren Ihre Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
+```
+
+<del>Dein</del><ins>Ihr</ins> Forum erzwingt keine SSL/TLS-Verbindung (eine sichere Verbindung zu <del>deiner</del><ins>Ihrer</ins> Website). Die meisten Suchmaschinen indexieren <del>deine</del><ins>Ihre</ins> Website nicht oder stufen ihr Ranking herab, wenn keine sichere Verbindung verfügbar ist.
+
+#### [`fof-seo.admin.pages.search_engines.bing_heading`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_heading%22)
+
+> Add your website to the Bing search results
+
+```diff
+-Füge deine Website zu den Bing-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Bing-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Bing-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.bing_sitemap`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_sitemap%22)
+
+> Don't forget to configure your sitemap URL. After you verified your website you're all set and Bing will now index your website.
+
+```diff
+-Vergiss nicht, die URL deiner Sitemap zu konfigurieren. Sobald du deine Website verifiziert hast, ist alles bereit, und Bing wird deine Website nun indizieren.
++Vergessen Sie nicht, die URL Ihrer Sitemap zu konfigurieren. Sobald Sie Ihre Website verifiziert haben, ist alles bereit, und Bing wird Ihre Website nun indizieren.
+```
+
+<del>Vergiss</del><ins>Vergessen Sie</ins> nicht, die URL <del>deiner</del><ins>Ihrer</ins> Sitemap zu konfigurieren. Sobald <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website verifiziert <del>hast,</del><ins>haben,</ins> ist alles bereit, und Bing wird <del>deine</del><ins>Ihre</ins> Website nun indizieren.
+
+#### [`fof-seo.admin.pages.search_engines.bing_visit`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.bing_visit%22)
+
+> If you want to add your website to the Bing search results, visit the {link} and complete the given steps. Not all fields are required.
+
+```diff
+-Wenn du deine Website zu den Bing-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
++Wenn Sie Ihre Website zu den Bing-Suchergebnissen hinzufügen möchten, rufen Sie {link} auf und führen Sie die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Bing-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>rufe</del><ins>rufen Sie</ins> {link} auf und <del>führe</del><ins>führen Sie</ins> die angegebenen Schritte aus. Nicht alle Felder müssen ausgefüllt werden.
+
+#### [`fof-seo.admin.pages.search_engines.google_heading`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_heading%22)
+
+> Add your website to the Google search results
+
+```diff
+-Füge deine Website zu den Google-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Google-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Google-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.google_sitemap`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_sitemap%22)
+
+> When you completed the registration in the Google Search Console, visit the &lt;b&gt;Sitemaps&lt;/b&gt; page. Pass your &lt;b&gt;sitemap.xml&lt;/b&gt; to Google. Make sure that Google can crawl your sitemap and will keep doing this.
+
+```diff
+-Nachdem du die Registrierung in der Google Search Console abgeschlossen hast, rufe die Seite <b>Sitemaps</b> auf. Übermittele deine <b>sitemap.xml</b> an Google. Stelle sicher, dass Google deine Sitemap crawlen kann und dies auch weiterhin tun wird.
++Nachdem Sie die Registrierung in der Google Search Console abgeschlossen haben, rufen Sie die Seite <b>Sitemaps</b> auf. Übermitteln Sie Ihre <b>sitemap.xml</b> an Google. Stellen Sie sicher, dass Google Ihre Sitemap crawlen kann und dies auch weiterhin tun wird.
+```
+
+Nachdem <del>du</del><ins>Sie</ins> die Registrierung in der Google Search Console abgeschlossen <del>hast,</del><ins>haben,</ins> <del>rufe</del><ins>rufen Sie</ins> die Seite &lt;b&gt;Sitemaps&lt;/b&gt; auf. <del>Übermittele</del><ins>Übermitteln</ins> <del>deine</del><ins>Sie Ihre</ins> &lt;b&gt;sitemap.xml&lt;/b&gt; an Google. <del>Stelle</del><ins>Stellen Sie</ins> sicher, dass Google <del>deine</del><ins>Ihre</ins> Sitemap crawlen kann und dies auch weiterhin tun wird.
+
+#### [`fof-seo.admin.pages.search_engines.google_visit`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_visit%22)
+
+> If you want to add your website to the Google search results, visit the {link}. You'll need to add your website and verify that you're the owner of the associated domain name.
+
+```diff
+-Wenn du deine Website in die Google-Suchergebnisse aufnehmen möchtest, besuche {link}. Du musst deine Website hinzufügen und bestätigen, dass du der Inhaber der zugehörigen Domain bist.
++Wenn Sie Ihre Website in die Google-Suchergebnisse aufnehmen möchten, besuchen Sie {link}. Sie müssen Ihre Website hinzufügen und bestätigen, dass Sie der Inhaber der zugehörigen Domain sind.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website in die Google-Suchergebnisse aufnehmen <del>möchtest,</del><ins>möchten,</ins> <del>besuche</del><ins>besuchen Sie</ins> {link}. <del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> <del>deine</del><ins>Ihre</ins> Website hinzufügen und bestätigen, dass <del>du</del><ins>Sie</ins> der Inhaber der zugehörigen Domain <del>bist.</del><ins>sind.</ins>
+
+#### [`fof-seo.admin.pages.search_engines.google_www`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.google_www%22)
+
+> When you enter your domain you need to answer the following question for yourself: Do you want to use the 'www' sub-domain in the search results? You can &lt;strong&gt;not&lt;/strong&gt; change this later. Registering your domain in the Google Search Console multiple times won't result in a better ranking.
+
+```diff
+-Wenn du deine Domain eingibst, musst du dir folgende Frage stellen: Möchtest du die Subdomain „www“ in den Suchergebnissen verwenden? Du kannst dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
++Wenn Sie Ihre Domain eingeben, müssen Sie sich folgende Frage stellen: Möchten Sie die Subdomain „www“ in den Suchergebnissen verwenden? Sie können dies später <strong>nicht</strong> ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Domain <del>eingibst,</del><ins>eingeben,</ins> <del>musst</del><ins>müssen</ins> <del>du</del><ins>Sie</ins> <del>dir</del><ins>sich</ins> folgende Frage stellen: <del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> die Subdomain „www“ in den Suchergebnissen verwenden? <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> dies später &lt;strong&gt;nicht&lt;/strong&gt; ändern. Eine mehrfache Registrierung deiner Domain in der Google Search Console führt nicht zu einem besseren Ranking.
+
+#### [`fof-seo.admin.pages.search_engines.heading`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.heading%22)
+
+> Submit your website to Search Engines
+
+```diff
+-Deine Website bei Suchmaschinen einreichen
++Ihre Website bei Suchmaschinen einreichen
+```
+
+<del>Deine</del><ins>Ihre</ins> Website bei Suchmaschinen einreichen
+
+#### [`fof-seo.admin.pages.search_engines.intro`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.intro%22)
+
+> It is good practice to let Search Engines know your site is exists. This page will guide you in doing this succesfully.
+
+```diff
+-Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass deine Website existiert. Auf dieser Seite erfährst du, wie du dies erfolgreich umsetzen kannst.
++Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass Ihre Website existiert. Auf dieser Seite erfahren Sie, wie Sie dies erfolgreich umsetzen können.
+```
+
+Es empfiehlt sich, Suchmaschinen darüber zu informieren, dass <del>deine</del><ins>Ihre</ins> Website existiert. Auf dieser Seite <del>erfährst</del><ins>erfahren</ins> <del>du,</del><ins>Sie,</ins> wie <del>du</del><ins>Sie</ins> dies erfolgreich umsetzen <del>kannst.</del><ins>können.</ins>
+
+#### [`fof-seo.admin.pages.search_engines.yahoo_body`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yahoo_body%22)
+
+> If you want to add your website to the Yahoo search results, finish your Bing search results registration. Yahoo will use that data.
+
+```diff
+-Wenn du deine Website zu den Yahoo-Suchergebnissen hinzufügen möchtest, schließe bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
++Wenn Sie Ihre Website zu den Yahoo-Suchergebnissen hinzufügen möchten, schließen Sie bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Yahoo-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>schließe</del><ins>schließen Sie</ins> bitte die Registrierung für die Bing-Suchergebnisse ab. Yahoo wird diese Daten verwenden.
+
+#### [`fof-seo.admin.pages.search_engines.yahoo_heading`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yahoo_heading%22)
+
+> Add your website to the Yahoo search results
+
+```diff
+-Füge deine Website zu den Yahoo-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Yahoo-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Yahoo-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.yandex_heading`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yandex_heading%22)
+
+> Add your website to the Yandex search results
+
+```diff
+-Füge deine Website zu den Yandex-Suchergebnissen hinzu
++Fügen Sie Ihre Website zu den Yandex-Suchergebnissen hinzu
+```
+
+<del>Füge</del><ins>Fügen</ins> <del>deine</del><ins>Sie Ihre</ins> Website zu den Yandex-Suchergebnissen hinzu
+
+#### [`fof-seo.admin.pages.search_engines.yandex_visit`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.search_engines.yandex_visit%22)
+
+> If you want to add your website to the Yandex search results, visit the {link} and follow the given steps.
+
+```diff
+-Wenn du deine Website zu den Yandex-Suchergebnissen hinzufügen möchtest, rufe {link} auf und führe die angegebenen Schritte aus.
++Wenn Sie Ihre Website zu den Yandex-Suchergebnissen hinzufügen möchten, rufen Sie {link} auf und führen Sie die angegebenen Schritte aus.
+```
+
+Wenn <del>du</del><ins>Sie</ins> <del>deine</del><ins>Ihre</ins> Website zu den Yandex-Suchergebnissen hinzufügen <del>möchtest,</del><ins>möchten,</ins> <del>rufe</del><ins>rufen Sie</ins> {link} auf und <del>führe</del><ins>führen Sie</ins> die angegebenen Schritte aus.
+
+#### [`fof-seo.admin.pages.sitemap.which_extension_details`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.sitemap.which_extension_details%22)
+
+> This extension will make sure crawlers will find your forum &lt;b&gt;discussions&lt;/b&gt;, &lt;b&gt;tags&lt;/b&gt; (when extension is enabled) and &lt;b&gt;Pages&lt;/b&gt; extension (when extension is installed and enabled). It will automatically make an sitemap.xml available.
+
+```diff
+-Diese Erweiterung sorgt dafür, dass Crawler deine <b>Diskussionen</b>, <b>Tags</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
++Diese Erweiterung sorgt dafür, dass Crawler Ihre <b>Diskussionen</b>, <b>Tags</b> (sofern die Erweiterung aktiviert ist) und <b>Seiten</b> (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
+```
+
+Diese Erweiterung sorgt dafür, dass Crawler <del>deine</del><ins>Ihre</ins> &lt;b&gt;Diskussionen&lt;/b&gt;, &lt;b&gt;Tags&lt;/b&gt; (sofern die Erweiterung aktiviert ist) und &lt;b&gt;Seiten&lt;/b&gt; (sofern die Erweiterung installiert und aktiviert ist) finden. Außerdem wird automatisch eine sitemap.xml bereitgestellt.
+
+#### [`fof-seo.admin.pages.ssl.how_body`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.how_body%22)
+
+> For people who are using a webhosting, the most common way is to enter the webhosting panel, go to the hosting-settings of your website and click SSL. You can follow the steps to add SSL to your website. The most webhosting companies nowadays are supporting the popular certificate issuer {link}.
+
+```diff
+-Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolge die dortigen Anweisungen, um SSL für deine Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
++Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. Befolgen Sie die dortigen Anweisungen, um SSL für Ihre Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
+```
+
+Für Nutzer eines Webhostings ist es am gängigsten, sich im Webhosting-Panel anzumelden, zu den Hosting-Einstellungen der Website zu gehen und auf „SSL“ zu klicken. <del>Befolge</del><ins>Befolgen Sie</ins> die dortigen Anweisungen, um SSL für <del>deine</del><ins>Ihre</ins> Website hinzuzufügen. Die meisten Webhosting-Anbieter unterstützen heutzutage den beliebten Zertifikatsaussteller {link}.
+
+#### [`fof-seo.admin.pages.ssl.rankings_body`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.rankings_body%22)
+
+> When you do not have a secure connection to your website, search engines will rank your site much lower then other sites, or even won't index it.
+
+```diff
+-Wenn es keine sichere Verbindung zu deiner Website gibt, stufen Suchmaschinen deine Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
++Wenn es keine sichere Verbindung zu Ihrer Website gibt, stufen Suchmaschinen Ihre Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
+```
+
+Wenn es keine sichere Verbindung zu <del>deiner</del><ins>Ihrer</ins> Website gibt, stufen Suchmaschinen <del>deine</del><ins>Ihre</ins> Website viel niedriger ein als andere Websites oder nehmen sie gar nicht erst in ihren Index auf.
+
+#### [`fof-seo.admin.pages.ssl.rankings_body_ssl`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.rankings_body_ssl%22)
+
+> When you have SSL available, your website will get an higher rank and will be indexed.
+
+```diff
+-Wenn SSL verfügbar ist, erhält deine Website ein besseres Ranking und wird indexiert.
++Wenn SSL verfügbar ist, erhält Ihre Website ein besseres Ranking und wird indexiert.
+```
+
+Wenn SSL verfügbar ist, erhält <del>deine</del><ins>Ihre</ins> Website ein besseres Ranking und wird indexiert.
+
+#### [`fof-seo.admin.pages.ssl.what_body`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.pages.ssl.what_body%22)
+
+> The most people know &lt;b&gt;https&lt;/b&gt; that's used for secure connections as SSL: &lt;i&gt;Secure Sockets Layer&lt;/i&gt;. Officially it's called TLS: &lt;i&gt;Transport Layer Security&lt;/i&gt;. This method is used to create a secure connection to your webserver what will prevent attackers or other webservers to impersonate your website and keep your visitors safe. The SSL connection will be broken if that happens and the visitors browsers will warning the user that's it's not trusted.
+
+```diff
+-Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu deinem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als deine Website ausgeben, und damit deine Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
++Die meisten Menschen kennen <b>https</b>, das für sichere Verbindungen als SSL verwendet wird: <i>Secure Sockets Layer</i>. Offiziell heißt es TLS: <i>Transport Layer Security</i>. Diese Methode wird verwendet, um eine sichere Verbindung zu Ihrem Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als Ihre Website ausgeben, und damit Ihre Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
+```
+
+Die meisten Menschen kennen &lt;b&gt;https&lt;/b&gt;, das für sichere Verbindungen als SSL verwendet wird: &lt;i&gt;Secure Sockets Layer&lt;/i&gt;. Offiziell heißt es TLS: &lt;i&gt;Transport Layer Security&lt;/i&gt;. Diese Methode wird verwendet, um eine sichere Verbindung zu <del>deinem</del><ins>Ihrem</ins> Webserver herzustellen, wodurch verhindert wird, dass Angreifer oder andere Webserver sich als <del>deine</del><ins>Ihre</ins> Website ausgeben, und damit <del>deine</del><ins>Ihre</ins> Besucher geschützt werden. In diesem Fall wird die SSL-Verbindung unterbrochen und die Browser der Besucher warnen den Nutzer, dass die Seite nicht vertrauenswürdig ist.
+
+#### [`fof-seo.admin.settings.info.maintain`](https://weblate.rob006.net/translate/flarum/fof-seo/de@formal/?q=context%3A%3D%22fof-seo.admin.settings.info.maintain%22)
+
+> Check all your settings when you first setup this extensions. Maintain them to get the best search results.
+
+```diff
+-Überprüfe bei der Ersteinrichtung dieser Erweiterung alle deine Einstellungen. Passe diese an, um die besten Suchergebnisse zu erhalten.
++Überprüfen Sie bei der Ersteinrichtung dieser Erweiterung alle Ihre Einstellungen. Passen Sie diese an, um die besten Suchergebnisse zu erhalten.
+```
+
+<del>Überprüfe</del><ins>Überprüfen Sie</ins> bei der Ersteinrichtung dieser Erweiterung alle <del>deine</del><ins>Ihre</ins> Einstellungen. <del>Passe</del><ins>Passen Sie</ins> diese an, um die besten Suchergebnisse zu erhalten.
+
+
+### `fof-signature`
+
+#### [`fof-signature.forum.editor.placeholder`](https://weblate.rob006.net/translate/flarum/fof-signature/de@formal/?q=context%3A%3D%22fof-signature.forum.editor.placeholder%22)
+
+> Edit your signature here
+
+```diff
+-Bearbeite deine Signatur hier
++Bearbeiten Sie Ihre Signatur hier
+```
+
+<del>Bearbeite</del><ins>Bearbeiten</ins> <del>deine</del><ins>Sie Ihre</ins> Signatur hier
+
+#### [`fof-signature.forum.profile.click`](https://weblate.rob006.net/translate/flarum/fof-signature/de@formal/?q=context%3A%3D%22fof-signature.forum.profile.click%22)
+
+> Click to write your signature
+
+```diff
+-Klicke hier, um deine Signatur einzutragen
++Klicken Sie hier, um Ihre Signatur einzutragen
+```
+
+<del>Klicke</del><ins>Klicken Sie</ins> hier, um <del>deine</del><ins>Ihre</ins> Signatur einzutragen
+
+
+### `fof-sitemap`
+
+#### [`fof-sitemap.admin.settings.mode_help_large`](https://weblate.rob006.net/translate/flarum/fof-sitemap/de@formal/?q=context%3A%3D%22fof-sitemap.admin.settings.mode_help_large%22)
+
+> 50\.000 is the technical limit for sitemap files. If you have more entries to store, use the following option!
+
+```diff
+-50.000 ist das technische Limit für Sitemap-Dateien. Wenn du mehr Einträge zu speichern hast, nutze die folgende Option!
++50.000 ist das technische Limit für Sitemap-Dateien. Wenn Sie mehr Einträge zu speichern haben, nutzen Sie die folgende Option!
+```
+
+50\.000 ist das technische Limit für Sitemap-Dateien. Wenn <del>du</del><ins>Sie</ins> mehr Einträge zu speichern <del>hast,</del><ins>haben,</ins> <del>nutze</del><ins>nutzen Sie</ins> die folgende Option!
+
+
+### `fof-socialprofile`
+
+#### [`fof-socialprofile.forum.edit.add`](https://weblate.rob006.net/translate/flarum/fof-socialprofile/de@formal/?q=context%3A%3D%22fof-socialprofile.forum.edit.add%22)
+
+> Add buttons to your social media
+
+```diff
+-Füge Schaltflächen zu deinen sozialen Medien hinzu
++Füge Schaltflächen zu Ihren Social-Media-Konten hinzu
+```
+
+Füge Schaltflächen zu <del>deinen sozialen</del><ins>Ihren</ins> <del>Medien</del><ins>Social-Media-Konten</ins> hinzu
+
+#### [`fof-socialprofile.forum.edit.edit`](https://weblate.rob006.net/translate/flarum/fof-socialprofile/de@formal/?q=context%3A%3D%22fof-socialprofile.forum.edit.edit%22)
+
+> Edit your social media buttons
+
+```diff
+-Bearbeite deine Social-Media-Buttons
++Ihre Social-Media-Buttons bearbeiten
+```
+
+<del>Bearbeite deine</del><ins>Ihre</ins> Social-Media-Buttons<ins> bearbeiten</ins>
+
+
+### `fof-upload`
+
+#### [`fof-upload.admin.help_texts.client_extension`](https://weblate.rob006.net/translate/flarum/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.client_extension%22)
+
+> By default Upload will choose a safe file extension based on the MIME type.
+> For some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.
+> Here you can enter a comma-separated list of file extensions that will be kept verbatim.
+>
+
+```diff
+ Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.
+ Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.
+-Hier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
++Hier können Sie eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.
+
+```
+
+Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.<br />Bei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.<br />Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.<br />
+
+#### [`fof-upload.admin.help_texts.composer_buttons`](https://weblate.rob006.net/translate/flarum/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.composer_buttons%22)
+
+> By default both the media manager button and upload button are visible. You can also choose to display only one button.
+>
+
+```diff
+-Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.
++Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Sie können auch festlegen, dass nur eine Schaltfläche angezeigt wird.
+
+```
+
+Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> auch festlegen, dass nur eine Schaltfläche angezeigt wird.<br />
+
+#### [`fof-upload.admin.help_texts.disable-download-logging`](https://weblate.rob006.net/translate/flarum/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.disable-download-logging%22)
+
+> Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
+>
+
+```diff
+-Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
++Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn Sie es aktiviert lassen, können Sie die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.
+
+```
+
+Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn <del>du</del><ins>Sie</ins> es aktiviert <del>lässt,</del><ins>lassen,</ins> <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.<br />
+
+#### [`fof-upload.admin.help_texts.resize`](https://weblate.rob006.net/translate/flarum/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.resize%22)
+
+> Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
+>
+
+```diff
+-Wähle aus, ob du die Größe deiner Bilder ändern möchtest, bevor sie hochgeladen werden. Du kannst eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
++Wählen Sie aus, ob Sie die Größe Ihrer Bilder ändern möchten, bevor sie hochgeladen werden. Sie können eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob <del>du</del><ins>Sie</ins> die Größe <del>deiner</del><ins>Ihrer</ins> Bilder ändern <del>möchtest,</del><ins>möchten,</ins> bevor sie hochgeladen werden. <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> eine maximale Breite und Höhe in Pixeln wählen. Bei der Größenänderung wird das Seitenverhältnis der Bilder beibehalten.<br />
+
+#### [`fof-upload.admin.help_texts.watermark`](https://weblate.rob006.net/translate/flarum/fof-upload/de@formal/?q=context%3A%3D%22fof-upload.admin.help_texts.watermark%22)
+
+> Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
+>
+
+```diff
+-Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
++Wählen Sie aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.
+
+```
+
+<del>Wähle</del><ins>Wählen Sie</ins> aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.<br />
+
+
+### `fof-username-request`
+
+#### [`fof-username-request.email.subject.approved`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.email.subject.approved%22)
+
+> {display\_name} approved your username change to {requested\_username}
+
+```diff
+-{display_name} hat deine Namensänderung zu {requested_username} genehmigt
++{display_name} hat Ihre Namensänderung zu {requested_username} genehmigt
+```
+
+{display\_name} hat <del>deine</del><ins>Ihre</ins> Namensänderung zu {requested\_username} genehmigt
+
+#### [`fof-username-request.email.subject.rejected`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.email.subject.rejected%22)
+
+> {display\_name} rejected your username change to {requested\_username}
+
+```diff
+-{display_name} hat deine Namensänderung zu {requested_username} abgelehnt
++{display_name} hat Ihre Namensänderung zu {requested_username} abgelehnt
+```
+
+{display\_name} hat <del>deine</del><ins>Ihre</ins> Namensänderung zu {requested\_username} abgelehnt
+
+#### [`fof-username-request.forum.nickname_modals.action.approval_label`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.approval_label%22)
+
+> Approve
+
+```diff
+-Akzeptieren
++Genehmigen
+```
+
+#### [`fof-username-request.forum.nickname_modals.action.help_text`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.help_text%22)
+
+> Please make sure that this requested nickname change follows the forum guidelines.
+
+```diff
+-Bitte achte darauf, dass die gewünschte Änderung deines Spitznamens den Forenrichtlinien entspricht.
++Bitte achten Sie darauf, dass die gewünschte Änderung Ihres Spitznamens den Forenrichtlinien entspricht.
+```
+
+Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderung <del>deines</del><ins>Ihres</ins> Spitznamens den Forenrichtlinien entspricht.
+
+#### [`fof-username-request.forum.nickname_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.reason_title%22)
+
+> Reason for Rejection
+
+```diff
+-Grund für die Ablehnung
++Ablehnungsgrund
+```
 
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
 
 > Your nickname change request has been submitted and is pending approval.
 
 ```diff
--Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
+-Deine Anfrage zur Änderung deines Spitznamens wurde eingereicht und wartet auf Genehmigung.
 +Ihr Antrag auf Änderung des Spitznamens wurde übermittelt und wartet auf seine Genehmigung.
 ```
 
-<del>Dein</del><ins>Ihr</ins> <del>Änderungswunsch</del><ins>Antrag auf Änderung des Spitznamens</ins> wurde <del>eingereicht</del><ins>übermittelt</ins> und <del>muss</del><ins>wartet</ins> <del>noch</del><ins>auf</ins> <del>genehmigt</del><ins>seine</ins> <del>werden.</del><ins>Genehmigung.</ins>
+<del>Deine</del><ins>Ihr</ins> <del>Anfrage</del><ins>Antrag</ins> <del>zur</del><ins>auf</ins> Änderung <del>deines</del><ins>des</ins> Spitznamens wurde <del>eingereicht</del><ins>übermittelt</ins> und wartet auf<ins> seine</ins> Genehmigung.
+
+#### [`fof-username-request.forum.nickname_modals.request.current_request`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.current_request%22)
+
+> You have already requested to change your nickname to "{name}". You can either update your request or delete it.
+
+```diff
+-Du hast bereits eine offene Anfrage deinen Spitznamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
++Sie haben bereits eine offene Anfrage zur Änderung deinen Spitznamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
 > Nickname request deleted.
 
 ```diff
--Deine Anfrage wurde gelöscht.
+-Spitznamenanfrage gelöscht.
 +Anfrage zum Spitznamen gelöscht.
 ```
 
-<del>Deine </del>Anfrage <del>wurde</del><ins>zum Spitznamen</ins> gelöscht.
+<del>Spitznamenanfrage</del><ins>Anfrage zum Spitznamen</ins> gelöscht.
+
+#### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
+
+> Request Nickname Change
+
+```diff
+-=> fof-username-request.ref.nickname_change_request
++Änderung des Spitznamens anfordern
+```
+
+#### [`fof-username-request.forum.nickname_modals.results.approved`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.approved%22)
+
+> Your nickname change request has been approved
+
+```diff
+-Deine gewünschte Änderung des Spitznamens wurde genehmigt
++Ihre gewünschte Änderung des Spitznamens wurde genehmigt
+```
+
+<del>Deine</del><ins>Ihre</ins> gewünschte Änderung des Spitznamens wurde genehmigt
+
+#### [`fof-username-request.forum.nickname_modals.results.new_name`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.new_name%22)
+
+> Your nickname has been successfully changed to: {name}
+
+```diff
+-Dein Spitzname wurde erfolgreich geändert zu: {name}
++Ihr Spitzname wurde erfolgreich geändert zu: {name}
+```
+
+<del>Dein</del><ins>Ihr</ins> Spitzname wurde erfolgreich geändert zu: {name}
 
 #### [`fof-username-request.forum.nickname_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.resubmit%22)
 
 > At this time you may resubmit a new nickname change request from your account settings if you so choose to.
 
 ```diff
--Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
+-Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Spitznamens stellen.
 +Sie können jetzt über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Spitznamens stellen, falls Sie dies wünschen.
+```
+
+<del>Zu diesem Zeitpunkt kannst du, wenn</del><ins>Sie</ins> <del>du</del><ins>können</ins> <del>möchtest,</del><ins>jetzt</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Spitznamens <del>stellen.</del><ins>stellen, falls Sie dies wünschen.</ins>
+
+#### [`fof-username-request.forum.username_modals.action.approval_label`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.approval_label%22)
+
+> Approve
+
+```diff
+-Akzeptieren
++Genehmigen
+```
+
+#### [`fof-username-request.forum.username_modals.action.help_text`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.help_text%22)
+
+> Please make sure that this requested username change follows the forum guidelines.
+
+```diff
+-Bitte achte darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.
++Bitte achten Sie darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.
+```
+
+Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.
+
+#### [`fof-username-request.forum.username_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.reason_title%22)
+
+> Reason for Rejection
+
+```diff
+-Grund für die Ablehnung
++Ablehnungsgrund
 ```
 
 #### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
@@ -2712,44 +3840,97 @@ Entscheidung <del>abgeschickt.</del><ins>gesendet.</ins>
 > Decision sent.
 
 ```diff
--Entscheidung abgeschickt.
+-Entscheidung gesendet.
 +Entscheidung versendet.
 ```
 
-Entscheidung <del>abgeschickt.</del><ins>versendet.</ins>
+Entscheidung <del>gesendet.</del><ins>versendet.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
 > Your username change request has been submitted and is pending approval.
 
 ```diff
--Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
+-Deine Anfrage zur Änderung deines Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 +Ihr Antrag auf Änderung des Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 ```
 
-<del>Dein</del><ins>Ihr</ins> <del>Änderungswunsch</del><ins>Antrag auf Änderung des Benutzernamens</ins> wurde <del>eingereicht</del><ins>übermittelt</ins> und<del> muss</del> <del>noch</del><ins>wartet</ins> <del>genehmigt</del><ins>auf</ins> <del>werden.</del><ins>Genehmigung.</ins>
+<del>Deine</del><ins>Ihr</ins> <del>Anfrage</del><ins>Antrag</ins> <del>zur</del><ins>auf</ins> Änderung <del>deines</del><ins>des</ins> Benutzernamens wurde übermittelt und wartet auf Genehmigung.
+
+#### [`fof-username-request.forum.username_modals.request.current_request`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.current_request%22)
+
+> You have already requested to change your username to "{name}". You can either update your request or delete it.
+
+```diff
+-Du hast bereits eine offene Anfrage deinen Benutzernamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
++Sie haben bereits eine offene Anfrage zur Änderung Ihres Benutzernamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
+```
+
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Benutzernamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
 #### [`fof-username-request.forum.username_modals.request.deleted`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.deleted%22)
 
 > Username request deleted.
 
 ```diff
--Deine Anfrage wurde gelöscht.
+-Benutzernamenanfrage gelöscht.
 +Anfrage auf Änderung des Benutzernamens wurde gelöscht.
 ```
 
-<del>Deine </del>Anfrage<ins> auf Änderung des Benutzernamens</ins> wurde gelöscht.
+<del>Benutzernamenanfrage</del><ins>Anfrage auf Änderung des Benutzernamens wurde</ins> gelöscht.
+
+#### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
+
+> Request Username Change
+
+```diff
+-=> fof-username-request.ref.username_change_request
++Änderung des Benutzernamens beantragen
+```
+
+#### [`fof-username-request.forum.username_modals.results.approved`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.approved%22)
+
+> Your username change request has been approved
+
+```diff
+-Deine gewünschte Änderung des Benutzernamens wurde genehmigt
++Ihre gewünschte Änderung des Benutzernamens wurde genehmigt
+```
+
+<del>Deine</del><ins>Ihre</ins> gewünschte Änderung des Benutzernamens wurde genehmigt
+
+#### [`fof-username-request.forum.username_modals.results.new_name`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.new_name%22)
+
+> Your username has been successfully changed to: {name}
+
+```diff
+-Dein Benutzername wurde erfolgreich geändert zu: {name}
++Ihr Benutzername wurde erfolgreich geändert zu: {name}
+```
+
+<del>Dein</del><ins>Ihr</ins> Benutzername wurde erfolgreich geändert zu: {name}
+
+#### [`fof-username-request.forum.username_modals.results.rejected`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.rejected%22)
+
+> Your username change request was rejected
+
+```diff
+-Deine gewünschte Änderung des Benutzernamens wurde abgelehnt
++Ihre gewünschte Änderung des Benutzernamens wurde abgelehnt
+```
+
+<del>Deine</del><ins>Ihre</ins> gewünschte Änderung des Benutzernamens wurde abgelehnt
 
 #### [`fof-username-request.forum.username_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.resubmit%22)
 
 > At this time you may resubmit a new username change request from your account settings if you so choose to.
 
 ```diff
--Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
+-Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Benutzernamens stellen.
 +Sie können jetzt, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens stellen.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>nun</del><ins>jetzt,</ins> <del>weitere</del><ins>wenn</ins> <del>Anfragen</del><ins>Sie möchten,</ins> über <del>deine</del><ins>Ihre</ins> <del>Account-Einstellungen</del><ins>Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens</ins> stellen.
+<del>Zu diesem Zeitpunkt</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>du,</del><ins>jetzt,</ins> wenn <del>du</del><ins>Sie</ins> <del>möchtest,</del><ins>möchten,</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Benutzernamens stellen.
 
 
 ### `forumaker-magicbb`
@@ -2768,16 +3949,38 @@ Ermöglicht das Einbetten von iFrames aus beliebigen Quellen. Mit Vorsicht verwe
 
 ### `ianm-follow-users`
 
-#### [`ianm-follow-users.forum.followers`](https://weblate.rob006.net/translate/flarum/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.followers%22)
+#### [`ianm-follow-users.forum.modals.select_follow_level.description`](https://weblate.rob006.net/translate/flarum/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.modals.select_follow_level.description%22)
 
-> {count, plural, one {Follower} other {Followers}}
+> Choose how you'd like to follow &lt;em&gt;{username}&lt;/em&gt;.
 
 ```diff
--{count, plural, one {Follower} other {Followers}}
-+{count, plural, one {Follower} other {Follower}}
+-Wähle, wie Du <em>{username}</em> folgen möchtest.
++Wählen Sie, wie Sie <em>{username}</em> folgen möchtest.
 ```
 
-{count, plural, one {Follower} other <del>{Followers}}</del><ins>{Follower}}</ins>
+<del>Wähle,</del><ins>Wählen Sie,</ins> wie <del>Du</del><ins>Sie</ins> &lt;em&gt;{username}&lt;/em&gt; folgen möchtest.
+
+#### [`ianm-follow-users.forum.profile_page.no_followers`](https://weblate.rob006.net/translate/flarum/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.profile_page.no_followers%22)
+
+> It looks like you have no followers yet.
+
+```diff
+-Es sieht so aus, als hättest du noch keine Follower.
++Es sieht so aus, als hätten Sie noch keine Follower.
+```
+
+Es sieht so aus, als <del>hättest</del><ins>hätten</ins> <del>du</del><ins>Sie</ins> noch keine Follower.
+
+#### [`ianm-follow-users.forum.profile_page.no_following`](https://weblate.rob006.net/translate/flarum/ianm-follow-users/de@formal/?q=context%3A%3D%22ianm-follow-users.forum.profile_page.no_following%22)
+
+> It looks like you're not following anyone.
+
+```diff
+-Anscheinend folgst du niemandem.
++Anscheinend folgen Sie niemandem.
+```
+
+Anscheinend <del>folgst</del><ins>folgen</ins> <del>du</del><ins>Sie</ins> niemandem.
 
 
 ### `ianm-level-ranks`
@@ -2992,6 +4195,28 @@ reCAPTCHA <del>Secret</del><ins>Geheimer</ins> <del>Key</del><ins>Schlüssel</in
 
 
 ### `yippy-auth-ldap`
+
+#### [`yippy-auth-ldap.admin.settings.domains.data.filter_help`](https://weblate.rob006.net/translate/flarum/yippy-auth-ldap/de@formal/?q=context%3A%3D%22yippy-auth-ldap.admin.settings.domains.data.filter_help%22)
+
+> Optional, must exclude 'Search fields' into the filter. For example inputting filter as '(objectclass=user)' and selecting 'uid' within 'Search fields' will amend the filter as '(&amp;(objectclass=user)(uid=\[User's Input\]))"
+
+```diff
+-Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn du beispielsweise den Filter „(objectclass=user)“ eingibst und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&(objectclass=user)(uid=[Benutzereingabe])“ geändert.
++Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn Sie beispielsweise den Filter „(objectclass=user)“ eingeben und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&(objectclass=user)(uid=[Benutzereingabe])“ geändert.
+```
+
+Optional: Die „Suchfelder“ müssen aus dem Filter ausgeschlossen werden. Wenn <del>du</del><ins>Sie</ins> beispielsweise den Filter „(objectclass=user)“ <del>eingibst</del><ins>eingeben</ins> und in den „Suchfeldern“ „uid“ auswählen, wird der Filter zu „(&amp;(objectclass=user)(uid=\[Benutzereingabe\])“ geändert.
+
+#### [`yippy-auth-ldap.admin.settings.domains.data.user_nickname_fields_help`](https://weblate.rob006.net/translate/flarum/yippy-auth-ldap/de@formal/?q=context%3A%3D%22yippy-auth-ldap.admin.settings.domains.data.user_nickname_fields_help%22)
+
+> Nickname extension must be enabled, compile the Nickname with multiple LDAP fields using the dropdown options. For example selecting "givenname,sn" will assign "\[First Name\] \[Last Name\]" as their Nickname
+
+```diff
+-Die Spitznamen-Erweiterung muss aktiviert sein. Stelle den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn du beispielsweise „givenname,sn“ auswählst, wird als Spitzname „[Vorname] [Nachname]“ zugewiesen.
++Die Spitznamen-Erweiterung muss aktiviert sein. Stellen Sie den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn Sie beispielsweise „givenname,sn“ auswählen, wird als Spitzname „[Vorname] [Nachname]“ zugewiesen.
+```
+
+Die Spitznamen-Erweiterung muss aktiviert sein. <del>Stelle</del><ins>Stellen Sie</ins> den Spitznamen mithilfe der Dropdown-Optionen aus mehreren LDAP-Feldern zusammen. Wenn <del>du</del><ins>Sie</ins> beispielsweise „givenname,sn“ <del>auswählst,</del><ins>auswählen,</ins> wird als Spitzname „\[Vorname\] \[Nachname\]“ zugewiesen.
 
 #### [`yippy-auth-ldap.forum.errors.csrf_token_mismatch`](https://weblate.rob006.net/translate/flarum/yippy-auth-ldap/de@formal/?q=context%3A%3D%22yippy-auth-ldap.forum.errors.csrf_token_mismatch%22)
 

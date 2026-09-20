@@ -2,7 +2,7 @@
 
 Translations for Serbian (Latin) (`sr_Latn`) are inherited from Serbian (Cyrillic), but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **281** are translated differently and **126** are
+sides, but do not match between them: **283** are translated differently and **126** are
 translated only in `sr_Latn`. Altogether they cover **18** components.
 
 <!-- {% raw %} -->
@@ -16,7 +16,7 @@ translated only in `sr_Latn`. Altogether they cover **18** components.
 | `blomstra-readme` | 0 | [1](#blomstra-readme-missing) |
 | `blomstra-realtime` | 0 | [2](#blomstra-realtime-missing) |
 | `clarkwinkelmann-likes-received` | 0 | [1](#clarkwinkelmann-likes-received-missing) |
-| `core` | [232](#core) | [34](#core-missing) |
+| `core` | [234](#core) | [34](#core-missing) |
 | `flarum-flags` | [2](#flarum-flags) | [3](#flarum-flags-missing) |
 | `flarum-likes` | [8](#flarum-likes) | 0 |
 | `flarum-lock` | [7](#flarum-lock) | 0 |
@@ -652,6 +652,15 @@ Dozvoli uređivanje <del>poruka</del><ins>odgovora</ins>
 
 Napravi <del>token za</del><ins>pristupni</ins> <del>pristup</del><ins>token</ins>
 
+#### [`core.admin.permissions.create_heading`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.admin.permissions.create_heading%22)
+
+> Create
+
+```diff
+-Napravi
++Kreiranje
+```
+
 #### [`core.admin.permissions.delete_discussions_forever_label`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.admin.permissions.delete_discussions_forever_label%22)
 
 > Delete discussions forever
@@ -1002,6 +1011,15 @@ Prikaži <del>adresu e-pošte</del><ins>e-poštu</ins>
 ```diff
 -Identifikator
 +ID
+```
+
+#### [`core.admin.users.grid.invalid_column_content`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.admin.users.grid.invalid_column_content%22)
+
+> Invalid
+
+```diff
+-Nevažeće
++Nevažeći
 ```
 
 #### [`core.admin.users.pagination.back_button`](https://weblate.rob006.net/translate/flarum/core/sr_Latn/?q=context%3A%3D%22core.admin.users.pagination.back_button%22)
