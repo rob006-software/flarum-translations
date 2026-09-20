@@ -30,7 +30,7 @@
                 "disable-download-logging": "Deshabilite el registro de cada descarga realizada por los usuarios de su foro. Mantenerlo habilitado le permite ver la cantidad de descargas y otras métricas en un futuro próximo.\n",
                 "disable-hotlink-protection": "La protección Hotlink evita que se abran descargas de otros sitios. El método actual requiere un token csrf y un ID de publicación.\n",
                 "download_templates": "Las plantillas de descarga son la forma en que se muestran las subidas en su foro, por ejemplo: Vistas previas, botones. Actualmente disponible:\n",
-                "mime_types": "",
+                "mime_types": "Configure aquí su mapeado. Cada expresión regular de tipo MIME será gestionada por un adaptador de carga y una plantilla de descarga específicos.\nOpcionalmente, asigne a cada entrada una etiqueta de permiso (ej. \"Imágenes\", \"Vídeos\") para crear un permiso específico en la cuadrícula de permisos.\nEsto le permite restringir qué grupos pueden cargar tipos de archivo específicos, además del permiso básico \"Cargar archivos\", que siempre es obligatorio.\n",
                 "mime_order": "",
                 "resize": "Elija si desea cambiar el tamaño de sus imágenes antes de que se carguen. Puede elegir un ancho y alto máximo, en píxeles. El proceso de cambio de tamaño mantiene la relación de aspecto de las imágenes.\n",
                 "client_extension": "Por defecto, Upload elegirá una extensión de archivo segura basada en el tipo MIME.\nPara algunos tipos de archivos basados en ZIP o datos binarios, esto puede resultar en el uso de extensiones genéricas en lugar de la esperada. \nAquí puede ingresar una lista separada por comas de extensiones de archivo que se mantendrán palabra por palabra.\n",
@@ -189,7 +189,7 @@
             },
             "permissions": {
                 "download_label": "Descargar archivos",
-                "upload_label": "",
+                "upload_label": "Subir archivos (permiso base, necesario para todas las subidas)",
                 "upload_mime_label": "Subir {label}",
                 "view_user_uploads_label": "Ver las subidas de los usuarios",
                 "delete_uploads_of_others_label": "Eliminar las subidas de los usuarios",

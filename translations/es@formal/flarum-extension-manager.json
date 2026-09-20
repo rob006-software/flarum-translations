@@ -5,7 +5,7 @@
                 "add_label": "Nuevo método de autenticación",
                 "add_modal": {
                     "host_label": "Host",
-                    "host_placeholder": "",
+                    "host_placeholder": "ejemplo: bearer.flarum.org",
                     "submit_button": "Enviar",
                     "token_label": "Token",
                     "type_label": "Tipo",
@@ -99,7 +99,7 @@
                 "update": "Actualizar"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Esto también actualizará cualquier otra extensión o paquete con las actualizaciones disponibles."
             },
             "required_php_functions": "El gestor de extensiones requiere que se habiliten las siguientes funciones de PHP: <code>{functions}</code>. Si no tiene acceso a la configuración de PHP, póngase en contacto con su proveedor de hosting.\n",
             "sections": {
@@ -173,12 +173,12 @@
                 "access_warning": "Por favor, tenga cuidado a quién le da acceso al área de administración, el gestor de extensiones podría ser mal utilizado por personas malintencionadas para instalar paquetes que pueden conducir a brechas de seguridad.",
                 "debug_mode_warning": "Está ejecutando en modo de depuración, el gestor de extensiones no puede instalar y actualizar correctamente los paquetes de desarrollo locales. Para ello, utilice la interfaz de línea de comandos.",
                 "queue_jobs": "Ejecutar operaciones en la cola de fondo",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Puedes leer sobre la implementación <basic_impl_link>basic queue</basic_impl_link> o una <adv_impl_link>más avanzada</adv_impl_link>. Asegurate que tu versión de PHP usadas en que es {php_version}. Asegurate que los <folder_perms_link>permisos de la carpeta</folder_perms_link> fueron correctamente configurados.\n",
                 "task_retention_days": "Días de retención de la tarea",
                 "task_retention_days_help": "El número de días para mantener las tareas completadas en la base de datos. Las tareas más antiguas se eliminarán. Establezca 0 para mantener todas las tareas.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Sin actualizaciones pendientes.",
                 "check_for_updates": "Buscar actualizaciones",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Actualizados correctamente todos los paquetes.",
