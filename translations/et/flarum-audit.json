@@ -2,27 +2,27 @@
     "flarum-audit": {
         "admin": {
             "permissions": {
-                "view": "",
+                "view": "Vaata auditi logi",
                 "viewLimited": ""
             },
             "header": {
-                "title": ""
+                "title": "Audit"
             },
             "limitedSettings": {
-                "configure": "",
+                "configure": "Seadista",
                 "title": "",
                 "introduction": "",
                 "requiresExtension": ""
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Vaata IP aadressi"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
+                "all-audit": "Auditi logi",
+                "discussion-audit": "Auditi logi",
+                "user-audit": "Auditi logi (konto muudatused)",
                 "actor-audit": ""
             },
             "modal": {
@@ -35,15 +35,15 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterApply": "Rakenda",
+                "filterClear": "Tühjenda filter",
+                "refresh": "Värskenda",
+                "filtersHint": "Filtrid:",
                 "filters": {
                     "actor": "",
                     "user": "",
                     "action": "",
-                    "client": "",
+                    "client": "Kuidas päring tehti.",
                     "ip": "",
                     "discussion": ""
                 },
@@ -53,31 +53,31 @@
                     "negate": ""
                 },
                 "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "loadMore": "Laadi rohkem",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
                     "discussion": "",
                     "group": "",
                     "post": "",
-                    "tag": "",
-                    "user": ""
+                    "tag": "Silt #{id}",
+                    "user": "Kasutaja #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Kommentaar",
+                    "post": "Postitus"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(väärtust pole)",
+                "noReason": "(põhjust pole)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
+                    "session": "Veebisessioon",
+                    "api_key": "API võti",
                     "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "cli": "Käsurida",
+                    "unknown": "Tundmatu klient"
                 },
                 "controls": {
                     "hideRaw": "",
@@ -96,7 +96,7 @@
                     "create_date_changed": "",
                     "deleted": "",
                     "hidden": "",
-                    "locked": "",
+                    "locked": "Lukustas vestluse {discussion}",
                     "merged_away": "",
                     "merged_into": "",
                     "renamed": "",
