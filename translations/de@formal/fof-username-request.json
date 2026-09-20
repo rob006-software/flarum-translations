@@ -27,16 +27,16 @@
                     "new_name": "Ihr Spitzname wurde erfolgreich geändert zu: {name}",
                     "rejected": "Die gewünschte Änderung des Spitznamens wurde abgelehnt",
                     "reason": "Grund für die Ablehnung: <i>„{reason}“</i>.",
-                    "resubmit": "Zu diesem Zeitpunkt können Sie, wenn sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung Ihres Spitznamens stellen."
+                    "resubmit": "Sie können jetzt über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Spitznamens stellen, falls Sie dies wünschen."
                 },
                 "request": {
                     "title": "Änderung des Spitznamens anfordern",
                     "current_request": "Sie haben bereits eine offene Anfrage zur Änderung deinen Spitznamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.",
                     "submit_button": "Anfrage absenden",
                     "delete_button": "Anfrage löschen",
-                    "confirmation_message": "Ihre Anfrage zur Änderung Ihres Spitznamens wurde eingereicht und wartet auf Genehmigung.",
+                    "confirmation_message": "Ihr Antrag auf Änderung des Spitznamens wurde übermittelt und wartet auf seine Genehmigung.",
                     "dismiss_button": "=> core.ref.okay",
-                    "deleted": "Spitznamenanfrage gelöscht."
+                    "deleted": "Anfrage zum Spitznamen gelöscht."
                 }
             },
             "username_modals": {
@@ -48,7 +48,7 @@
                     "rejected_label": "Ablehnen",
                     "submit_button": "Absenden",
                     "reason_title": "Ablehnungsgrund",
-                    "success": "Entscheidung gesendet.",
+                    "success": "Entscheidung versendet.",
                     "name": "{name} hat die Änderung des Benutzernamens zu \"{requestedName}\" angefordert"
                 },
                 "results": {
@@ -58,16 +58,16 @@
                     "new_name": "Ihr Benutzername wurde erfolgreich geändert zu: {name}",
                     "rejected": "Ihre gewünschte Änderung des Benutzernamens wurde abgelehnt",
                     "reason": "Grund für die Ablehnung: <i>„{reason}“</i>.",
-                    "resubmit": "Zu diesem Zeitpunkt können Sie, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung Ihres Benutzernamens stellen."
+                    "resubmit": "Sie können jetzt, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens stellen."
                 },
                 "request": {
                     "title": "Änderung des Benutzernamens beantragen",
                     "current_request": "Sie haben bereits eine offene Anfrage zur Änderung Ihres Benutzernamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.",
                     "submit_button": "Anfrage absenden",
                     "delete_button": "Anfrage löschen",
-                    "confirmation_message": "Ihre Anfrage zur Änderung Ihres Benutzernamens wurde übermittelt und wartet auf Genehmigung.",
+                    "confirmation_message": "Ihr Antrag auf Änderung des Benutzernamens wurde übermittelt und wartet auf Genehmigung.",
                     "dismiss_button": "=> core.ref.okay",
-                    "deleted": "Benutzernamenanfrage gelöscht."
+                    "deleted": "Anfrage auf Änderung des Benutzernamens wurde gelöscht."
                 }
             },
             "pending_requests": {
