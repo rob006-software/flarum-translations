@@ -48,7 +48,7 @@
                 "s3_path_style": "Umieszcza nazwę bucketu w ścieżce URL zamiast w nazwie hosta. Jest to wymagane przez MinIO i Cloudflare R2; ustawienie włącza się automatycznie po wybraniu odpowiedniego dostawcy.\n",
                 "custom_s3_url": "Publiczny adres bazowy, spod którego serwowane są Twoje pliki — CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n",
                 "s3_instance_profile": "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM — działa to tylko na EC2, ECS i EKS.\n",
-                "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
+                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
             },
             "tabs": {
@@ -178,7 +178,7 @@
                     "options": {
                         "both": "Oba",
                         "upload-btn": "Jedynie przycisk do wysyłania plików",
-                        "media-btn": "Jedynie przycisk managera plików"
+                        "media-btn": "Jedynie przycisk menedżera multimediów"
                     }
                 },
                 "inspect-mime": "Przetestuj typ MIME pliku"
@@ -194,7 +194,7 @@
                 "view_user_uploads_label": "Przeglądanie plików użytkowników",
                 "delete_uploads_of_others_label": "Usuwanie plików użytkowników",
                 "upload_shared_label": "Prześlij współdzielone pliki",
-                "access_shared_label": "Dostęp do współdzielonych plików w menedżerze mediów"
+                "access_shared_label": "Dostęp do współdzielonych plików w menedżerze multimediów"
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
@@ -234,7 +234,7 @@
             }
         },
         "forum": {
-            "media_manager": "Manager plików",
+            "media_manager": "Menedżer multimediów",
             "display_name": {
                 "title": "Nadaj nazwę temu plikowi",
                 "title_plural": "Nadaj nazwy tym plikom",
@@ -304,8 +304,8 @@
                 "delete_file_a11y_label": "Usuń plik \"{fileName}\"",
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "Ukryj \"{fileName}\" w menedżerze plików",
-                    "btn_a11y_label_show": "Pokaż \"{fileName}\" w menedżerze plików",
+                    "btn_a11y_label_hide": "Ukryj \"{fileName}\" w menedżerze multimediów",
+                    "btn_a11y_label_show": "Pokaż \"{fileName}\" w menedżerze multimediów",
                     "hide_confirmation": "Czy na pewno chcesz ukryć \"{fileName}\"? Ukrycie pliku spowoduje jedynie usunięcie go z menedżera multimediów i nie wpłynie na istniejące posty.",
                     "hide_success": "Plik ukryty",
                     "show_confirmation": "Czy na pewno chcesz wyświetlić \"{fileName}\"? Wyświetlenie pliku spowoduje, że będzie on widoczny w menedżerze multimediów.",
@@ -319,7 +319,7 @@
                     "btn_a11y_label_show": "Ustaw \"{fileName}\" jako publiczny (z publicznym adresem URL)",
                     "hide_confirmation": "Czy na pewno chcesz ustawić \"{fileName}\" jako prywatny? Ustawienie pliku jako prywatny spowoduje usunięcie jego publicznego adresu URL, ale nie wpłynie na istniejące posty. Nie będzie on również widoczny w menedżerze multimediów dla nieautoryzowanych użytkowników.",
                     "hide_success": "Plik stał się prywatny",
-                    "show_confirmation": "Czy na pewno chcesz upublicznić plik \"{fileName}\"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera plików.",
+                    "show_confirmation": "Czy na pewno chcesz upublicznić plik \"{fileName}\"? Upublicznienie pliku sprawi, że będzie on dostępny dla każdego, kto ma publiczny adres URL i każdy będzie mógł go udostępnić za pomocą menedżera multimediów.",
                     "show_success": "Plik został upubliczniony",
                     "hide_fail": "Nie można ustawić pliku \"{fileName}\" jako prywatnego",
                     "show_fail": "Nie można upublicznić pliku \"{fileName}\"",
