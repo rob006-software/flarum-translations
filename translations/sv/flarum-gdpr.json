@@ -164,8 +164,8 @@
                 "anonymization_button": "Anonymisera användare",
                 "deletion_button": "Ta bort användare",
                 "requested_at": "Begärd: {date}",
-                "confirmed_at": "Bekräftad: {datum}",
-                "eligible_at": "Kvalificerad för automatisk behandling: {datum}"
+                "confirmed_at": "Bekräftad: {date}",
+                "eligible_at": "Kvalificerad för automatisk behandling: {date}"
             },
             "request_erasure": {
                 "title": "Begär radering av konto",
@@ -190,7 +190,7 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "Begäran om radering av {användarnamn}s uppgifter",
+                    "gdpr_erasure_requested": "Begäran om radering av {username}s uppgifter",
                     "gdpr_erasure_confirmed": "Bekräftade begäran om radering av {username}s data",
                     "gdpr_erasure_cancelled": "Avbröt begäran om radering av {username}s data",
                     "gdpr_anonymized": "Anonymiserade datat för {username}",
