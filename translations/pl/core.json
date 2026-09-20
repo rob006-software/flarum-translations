@@ -733,7 +733,7 @@
             "abandoned_extensions": {
                 "subject": "Wymagane działanie: wykryto porzucone rozszerzenia",
                 "body": "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n",
-                "line_with_replacement": "{package} (sugerowany zamiennik: {replacement})",
+                "line_with_replacement": "- {package} (sugerowany zamiennik: {replacement})",
                 "line_no_replacement": "- {package} (brak dostępnego zamiennika)"
             }
         },
