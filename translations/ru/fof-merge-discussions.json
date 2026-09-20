@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Объединено 1 сообщение из {titles}.} other {Объединено {count} сообщений из {titles}.}}"
+                "merged": "{count, plural, one {Объединено # сообщение из {titles}.} other {Объединено # сообщений из {titles}.}}"
             }
         },
         "admin": {
