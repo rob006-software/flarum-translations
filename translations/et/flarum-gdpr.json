@@ -21,14 +21,14 @@
                 "user_table_data": {
                     "title": "Kasutaja tabeli andmed",
                     "help_text": "Enamasti tabeli <code>kasutaja</code> lisatud veerge hallatakse automaatselt ning andmete eksportimisel kui ka kustutamisel.\nAga on ka erandeid, mis on loetletud all.\n",
-                    "column": "",
-                    "type": "",
+                    "column": "Veerg",
+                    "type": "Liik",
                     "nullable": "",
                     "pii": "",
-                    "redacted_on_export": "",
+                    "redacted_on_export": "Eemaldatakse eksportimisel",
                     "extension": "",
-                    "yes": "",
-                    "no": "",
+                    "yes": "Jah",
+                    "no": "Ei",
                     "pii_tooltip": "",
                     "redacted_on_export_tooltip": ""
                 }
@@ -163,9 +163,9 @@
                 "comments_label": "Kommentaarid (valikuline)",
                 "anonymization_button": "Anonümiseeri kasutaja",
                 "deletion_button": "Kustuta kasutaja",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "Päringu kuupäev: {date}",
+                "confirmed_at": "Kinnitatud: {date}",
+                "eligible_at": "Sobib automaatseks töötlemiseks: {date}"
             },
             "request_erasure": {
                 "title": "Nõua konto kustutamist",

@@ -7,23 +7,23 @@
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
+                    "description_label": "Kirjeldus",
                     "description_text": "",
-                    "long_name_label": "",
+                    "long_name_label": "Pikk nimi",
                     "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "heading": "Info",
+                    "short_name_label": "Lühike nimi",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Värvid",
+                    "background_color_label": "Taustavärv",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Teema värv",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Hooldamine",
                     "debug_label": "",
                     "debug_text": "",
                     "reset_vapid_button": "",
@@ -32,13 +32,13 @@
                     "reset_vapid_success": ""
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Laadi fail üles"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Muu",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -48,16 +48,16 @@
                     "user_max_subscriptions_text": "",
                     "push_notification_ttl_label": "",
                     "push_notification_ttl_text": "",
-                    "share_buttons_label": "",
+                    "share_buttons_label": "Luba jagamise nupu",
                     "share_buttons_text": ""
                 },
                 "heading": "",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Oleku kontroll",
+                "logo_heading": "Logod ja ikoonid",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
+                "submit_button": "Salvesta seaded",
                 "refreshed_message": ""
             },
             "status": {
@@ -80,16 +80,16 @@
                 "optin_deferred": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Jaga"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Jaga",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Jaga"
             },
             "settings": {
                 "push_header": "",
@@ -97,9 +97,9 @@
                     "access_default": "",
                     "access_default_button": "",
                     "access_denied": "",
-                    "access_denied_button": "",
+                    "access_denied_button": "Õpi kuidas",
                     "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "no_browser_support_button": "Loe lisa"
                 }
             },
             "notifications_help": {
@@ -122,7 +122,7 @@
         },
         "views": {
             "offline": {
-                "header": "",
+                "header": "Võrguühenduse viga",
                 "text": ""
             }
         }
