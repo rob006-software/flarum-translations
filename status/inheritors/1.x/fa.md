@@ -2,8 +2,8 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **9** are translated differently and **177** are
-translated only in `fa`. Altogether they cover **63** components.
+sides, but do not match between them: **9** are translated differently and **179** are
+translated only in `fa`. Altogether they cover **64** components.
 
 <!-- {% raw %} -->
 
@@ -12,7 +12,7 @@ translated only in `fa`. Altogether they cover **63** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [6](#core) | [3](#core-missing) |
+| `core` | [6](#core) | [4](#core-missing) |
 | `datitisev-backup` | 0 | [3](#datitisev-backup-missing) |
 | `datlechin-birthdays` | 0 | [1](#datlechin-birthdays-missing) |
 | `datlechin-copy-links` | 0 | [2](#datlechin-copy-links-missing) |
@@ -30,6 +30,7 @@ translated only in `fa`. Altogether they cover **63** components.
 | `fof-blog` | 0 | [3](#fof-blog-missing) |
 | `fof-discussion-thumbnail` | 0 | [1](#fof-discussion-thumbnail-missing) |
 | `fof-disposable-emails` | 0 | [1](#fof-disposable-emails-missing) |
+| `fof-doorman` | 0 | [1](#fof-doorman-missing) |
 | `fof-follow-tags` | 0 | [1](#fof-follow-tags-missing) |
 | `fof-forum-stats-widget` | 0 | [2](#fof-forum-stats-widget-missing) |
 | `fof-html-errors` | 0 | [5](#fof-html-errors-missing) |
@@ -209,6 +210,14 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +منسوخ
+```
+
+#### [`core.forum.security.session_terminated`](https://weblate.rob006.net/translate/flarum2/core/fa/?q=context%3A%3D%22core.forum.security.session_terminated%22)
+
+> {count, plural, one {Session terminated} other {# Sessions terminated}}.
+
+```diff
++{تعداد،مجموع، یک {Session terminated} از {# Sessions terminated}}.
 ```
 
 
@@ -622,6 +631,17 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +شما مجاز به استفاده از ایمیل یک‌بارمصرف نیستید.
+```
+
+
+### `fof-doorman` (missing)
+
+#### [`fof-doorman.admin.list.content.uses.used_times`](https://weblate.rob006.net/translate/flarum2/fof-doorman/fa/?q=context%3A%3D%22fof-doorman.admin.list.content.uses.used_times%22)
+
+> {remaining, plural, =0 {Unlimited uses} one {{remainingUses} use left} other {{remainingUses} uses left}}
+
+```diff
++{remaining, plural, =0 {بهره‌وری نامحدود} one {{بهره‌وری مانده} use left} other {{بهره‌وری مانده} uses left}}
 ```
 
 

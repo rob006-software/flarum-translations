@@ -2,7 +2,7 @@
 
 Translations for Chinese (Simplified) (`zh_Hans`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1978** are translated differently and **2004** are
+sides, but do not match between them: **1980** are translated differently and **2004** are
 translated only in `zh_Hans`. Altogether they cover **150** components.
 
 <!-- {% raw %} -->
@@ -16,7 +16,7 @@ translated only in `zh_Hans`. Altogether they cover **150** components.
 | `acpl-my-tags` | [2](#acpl-my-tags) | 0 |
 | `antoinefr-money` | [16](#antoinefr-money) | 0 |
 | `asyntai-chatbot` | 0 | [5](#asyntai-chatbot-missing) |
-| `core` | [117](#core) | 0 |
+| `core` | [119](#core) | 0 |
 | `datitisev-backup` | [41](#datitisev-backup) | 0 |
 | `datitisev-post-galleries` | [1](#datitisev-post-galleries) | 0 |
 | `datlechin-bbcode-hide-content` | [2](#datlechin-bbcode-hide-content) | 0 |
@@ -761,6 +761,15 @@ SMTP <del>设置</del><ins>服务</ins>
 +发起讨论
 ```
 
+#### [`core.admin.settings.saved_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.settings.saved_message%22)
+
+> Your changes were saved.
+
+```diff
+-您的修改已保存。
++你的修改已保存。
+```
+
 #### [`core.admin.users.description`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.admin.users.description%22)
 
 > A paginated list of all users on your forum.
@@ -854,7 +863,16 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -您输入的密码有误！
-+您输入的密码不正确。
++你输入的密码不正确。
+```
+
+#### [`core.forum.change_password.text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.change_password.text%22)
+
+> Click the button below and check your email for a link to change your password.
+
+```diff
+-点击按钮发送重置链接到您的邮箱以重置密码。
++点击按钮发送重置链接到你的邮箱以重置密码。
 ```
 
 #### [`core.forum.composer_discussion.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.composer_discussion.discard_confirmation%22)
@@ -872,7 +890,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -编辑成功
-+您的修改已保存。
++你的修改已保存。
 ```
 
 #### [`core.forum.composer_edit.post_link`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.composer_edit.post_link%22)
@@ -890,7 +908,7 @@ SMTP <del>设置</del><ins>服务</ins>
 
 ```diff
 -您没有权限回复这个帖子。
-+您没有权限回帖。
++你没有权限回帖。
 ```
 
 #### [`core.forum.discussion_controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/core/zh_Hans/?q=context%3A%3D%22core.forum.discussion_controls.delete_confirmation%22)
@@ -12263,7 +12281,7 @@ FoF <del>身份模拟</del><ins>身份切换</ins>
 
 ```diff
 -仅在平板设备上显示图标
-+平板设备仅显示图标
++平板屏幕仅显示图标
 ```
 
 #### [`fof-links.ref.create_link`](https://weblate.rob006.net/translate/flarum2/fof-links/zh_Hans/?q=context%3A%3D%22fof-links.ref.create_link%22)
@@ -12982,10 +13000,10 @@ FoF <del>身份模拟</del><ins>身份切换</ins>
 
 ```diff
 -收到 {warner_display_name} 的警告并记 {strikes, plural, one {# 分} other {# 分}}
-+{warner_display_name} 向你发出站务警告并记{strikes} 分
++{warner_display_name} 向你发出站务警告并记 {strikes} 分
 ```
 
-<del>收到 </del>{warner\_display\_name}<del> 的警告并记 {strikes, plural, one {# 分} other</del> <del>{#</del><ins>向你发出站务警告并记{strikes}</ins> <del>分}}</del><ins>分</ins>
+<del>收到 </del>{warner\_display\_name}<del> 的警告并记 {strikes, plural, one {# 分}</del> <del>other</del><ins>向你发出站务警告并记</ins> <del>{#</del><ins>{strikes}</ins> <del>分}}</del><ins>分</ins>
 
 #### [`fof-moderator-warnings.forum.notifications.warning_no_strikes_text`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/zh_Hans/?q=context%3A%3D%22fof-moderator-warnings.forum.notifications.warning_no_strikes_text%22)
 
@@ -13140,7 +13158,7 @@ FoF <del>身份模拟</del><ins>身份切换</ins>
 
 ```diff
 -管理员备注。为什么警告 <strong>{username}</strong>？备注仅对您和其他管理员可见。
-+内部备注。此内容仅站务人员可见。
++<strong>内部备注</strong>。此内容仅站务人员可见。
 ```
 
 #### [`fof-moderator-warnings.forum.warning_modal.public_comment_heading`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/zh_Hans/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.public_comment_heading%22)

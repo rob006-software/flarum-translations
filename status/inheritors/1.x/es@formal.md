@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **155** are translated differently and **205** are
-translated only in `es@formal`. Altogether they cover **32** components.
+sides, but do not match between them: **155** are translated differently and **207** are
+translated only in `es@formal`. Altogether they cover **33** components.
 
 <!-- {% raw %} -->
 
@@ -23,6 +23,7 @@ translated only in `es@formal`. Altogether they cover **32** components.
 | `ekumanov-inline-audio` | 0 | [5](#ekumanov-inline-audio-missing) |
 | `ekumanov-new-posts-notice` | 0 | [2](#ekumanov-new-posts-notice-missing) |
 | `flarum-mentions` | [1](#flarum-mentions) | 0 |
+| `flarum-suspend` | 0 | [2](#flarum-suspend-missing) |
 | `fof-analytics` | [1](#fof-analytics) | 0 |
 | `fof-best-answer` | [1](#fof-best-answer) | 0 |
 | `fof-masquerade` | 0 | [4](#fof-masquerade-missing) |
@@ -766,11 +767,11 @@ Se <del>realizó</del><ins>han</ins> <del>su</del><ins>guardado</ins> <del>edici
 > Post #{number} in {discussion}
 
 ```diff
--Publicación n.º {number} en '{discussion}'
+-Publicación n.º {number} en {discussion}
 +Publicación #{number} en {discussion}
 ```
 
-Publicación <del>n.º {number}</del><ins>#{number}</ins> en <del>'{discussion}'</del><ins>{discussion}</ins>
+Publicación <del>n.º {number}</del><ins>#{number}</ins> en {discussion}
 
 #### [`core.forum.composer_reply.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_reply.discard_confirmation%22)
 
@@ -2267,6 +2268,25 @@ These strings are translated only in `es@formal`, so there is nothing to inherit
 +
 +Aceptar → Publica tu respuesta de todos modos
 +Cancelar → Leerla primero (tu borrador permanecerá abierto)
+```
+
+
+### `flarum-suspend` (missing)
+
+#### [`flarum-suspend.forum.notifications.user_suspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/es@formal/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_suspended_text%22)
+
+> You have been suspended for {timeReadable}
+
+```diff
++{username} le ha suspendido durante {timeReadable}
+```
+
+#### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/es@formal/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
+
+> You have been unsuspended
+
+```diff
++{username} le ha quitado la suspensión
 ```
 
 

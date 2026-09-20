@@ -2,8 +2,8 @@
 
 Translations for Croatian (`hr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **249** are translated differently and **33** are
-translated only in `hr`. Altogether they cover **1** components.
+sides, but do not match between them: **249** are translated differently and **35** are
+translated only in `hr`. Altogether they cover **2** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `hr`. Altogether they cover **1** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `core` | [249](#core) | [33](#core-missing) |
+| `flarum-suspend` | 0 | [2](#flarum-suspend-missing) |
 
 
 ## Different translations
@@ -2848,6 +2849,25 @@ These strings are translated only in `hr`, so there is nothing to inherit from F
 
 ```diff
 +Ova stranica ne podržava tu metodu zahtjeva.
+```
+
+
+### `flarum-suspend` (missing)
+
+#### [`flarum-suspend.forum.notifications.user_suspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/hr/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_suspended_text%22)
+
+> You have been suspended for {timeReadable}
+
+```diff
++{username} te isključuje na {timeReadable}
+```
+
+#### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/hr/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
+
+> You have been unsuspended
+
+```diff
++{username} opoziva tvoje isključenje
 ```
 
 <!-- {% endraw %} -->

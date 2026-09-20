@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **374** are translated differently and **0** are
+sides, but do not match between them: **364** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **52** components.
 
 <!-- {% raw %} -->
@@ -58,7 +58,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-sitemap` | [1](#fof-sitemap) |
 | `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [19](#fof-upload) |
-| `fof-username-request` | [33](#fof-username-request) |
+| `fof-username-request` | [23](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `ianm-follow-users` | [6](#ianm-follow-users) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
@@ -4178,17 +4178,8 @@ Dateien hochladen (Basisberechtigung, <del>erforderlich </del>für alle <del>Upl
 > Approve
 
 ```diff
--=> fof-username-request.ref.action.approval_label
+-Akzeptieren
 +Genehmigen
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.decision_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.decision_title%22)
-
-> Decision
-
-```diff
--=> fof-username-request.ref.action.decision_title
-+Entscheidung
 ```
 
 #### [`fof-username-request.forum.nickname_modals.action.help_text`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.help_text%22)
@@ -4207,26 +4198,8 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 > Reason for Rejection
 
 ```diff
--=> fof-username-request.ref.action.reason_title
+-Grund für die Ablehnung
 +Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.rejected_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.rejected_label%22)
-
-> Reject
-
-```diff
--=> fof-username-request.ref.action.rejected_label
-+Ablehnen
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.submit_button%22)
-
-> Submit
-
-```diff
--=> fof-username-request.ref.action.submit_button
-+Absenden
 ```
 
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
@@ -4250,24 +4223,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
-
-#### [`fof-username-request.forum.nickname_modals.request.delete_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.delete_button%22)
-
-> Delete Request
-
-```diff
--=> fof-username-request.ref.request.delete_button
-+Anfrage löschen
-```
-
-#### [`fof-username-request.forum.nickname_modals.request.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.submit_button%22)
-
-> Submit Request
-
-```diff
--=> fof-username-request.ref.request.submit_button
-+Anfrage absenden
-```
 
 #### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
 
@@ -4316,17 +4271,8 @@ Zu diesem Zeitpunkt <del>kannst</del><ins>können</ins> <del>du,</del><ins>Sie,<
 > Approve
 
 ```diff
--=> fof-username-request.ref.action.approval_label
+-Akzeptieren
 +Genehmigen
-```
-
-#### [`fof-username-request.forum.username_modals.action.decision_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.decision_title%22)
-
-> Decision
-
-```diff
--=> fof-username-request.ref.action.decision_title
-+Entscheidung
 ```
 
 #### [`fof-username-request.forum.username_modals.action.help_text`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.help_text%22)
@@ -4345,26 +4291,8 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 > Reason for Rejection
 
 ```diff
--=> fof-username-request.ref.action.reason_title
+-Grund für die Ablehnung
 +Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.username_modals.action.rejected_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.rejected_label%22)
-
-> Reject
-
-```diff
--=> fof-username-request.ref.action.rejected_label
-+Ablehnen
-```
-
-#### [`fof-username-request.forum.username_modals.action.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.submit_button%22)
-
-> Submit
-
-```diff
--=> fof-username-request.ref.action.submit_button
-+Absenden
 ```
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
@@ -4388,24 +4316,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Benutzernamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
-
-#### [`fof-username-request.forum.username_modals.request.delete_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.delete_button%22)
-
-> Delete Request
-
-```diff
--=> fof-username-request.ref.request.delete_button
-+Anfrage löschen
-```
-
-#### [`fof-username-request.forum.username_modals.request.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.submit_button%22)
-
-> Submit Request
-
-```diff
--=> fof-username-request.ref.request.submit_button
-+Anfrage absenden
-```
 
 #### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
 

@@ -2,7 +2,7 @@
 
 Translations for Swedish (`sv`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **195** are translated differently and **701** are
+sides, but do not match between them: **192** are translated differently and **703** are
 translated only in `sv`. Altogether they cover **30** components.
 
 <!-- {% raw %} -->
@@ -13,7 +13,7 @@ translated only in `sv`. Altogether they cover **30** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | 0 | [22](#acpl-lscache-missing) |
-| `core` | [144](#core) | [48](#core-missing) |
+| `core` | [143](#core) | [48](#core-missing) |
 | `flarum-akismet` | [1](#flarum-akismet) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
 | `flarum-bbcode` | 0 | [1](#flarum-bbcode-missing) |
@@ -28,8 +28,8 @@ translated only in `sv`. Altogether they cover **30** components.
 | `flarum-statistics` | 0 | [17](#flarum-statistics-missing) |
 | `flarum-sticky` | [3](#flarum-sticky) | [1](#flarum-sticky-missing) |
 | `flarum-subscriptions` | [5](#flarum-subscriptions) | [3](#flarum-subscriptions-missing) |
-| `flarum-suspend` | [4](#flarum-suspend) | [11](#flarum-suspend-missing) |
-| `flarum-tags` | [23](#flarum-tags) | [13](#flarum-tags-missing) |
+| `flarum-suspend` | [4](#flarum-suspend) | [12](#flarum-suspend-missing) |
+| `flarum-tags` | [21](#flarum-tags) | [14](#flarum-tags-missing) |
 | `fof-analytics` | 0 | [20](#fof-analytics-missing) |
 | `fof-anti-spam` | 0 | [56](#fof-anti-spam-missing) |
 | `fof-formatting` | 0 | [7](#fof-formatting-missing) |
@@ -1393,17 +1393,6 @@ Redigera <del>Anpassat</del><ins>anpassat</ins> sidhuvud
 +Aviseringar
 ```
 
-#### [`core.ref.some_others`](https://weblate.rob006.net/translate/flarum2/core/sv/?q=context%3A%3D%22core.ref.some_others%22)
-
-> {count, plural, one {# other} other {# others}}
-
-```diff
--{count, plural, one {# annan} annan {# andra}}
-+{count, plural, one {# annan} other {# andra}}
-```
-
-{count, plural, one {# annan} <del>annan</del><ins>other</ins> {# andra}}
-
 #### [`core.ref.start_a_discussion`](https://weblate.rob006.net/translate/flarum2/core/sv/?q=context%3A%3D%22core.ref.start_a_discussion%22)
 
 > Start a Discussion
@@ -1856,15 +1845,6 @@ Stäng av under <ins>en </ins>begränsad tid...
 +Slug
 ```
 
-#### [`flarum-tags.admin.edit_tag.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.admin.edit_tag.title%22)
-
-> Create Tag
-
-```diff
--=> flarum-tags.ref.create_tag
-+Skapa tagg
-```
-
 #### [`flarum-tags.admin.nav.tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.admin.nav.tags_text%22)
 
 > Manage the list of tags available to organise discussions with.
@@ -2023,15 +2003,6 @@ Tillbaka till <del>Taggar</del><ins>tagglistan</ins>
 ```
 
 {username} tog bort <del>{tagsRemoved}.</del><ins>{tagsRemoved} {time}.</ins>
-
-#### [`flarum-tags.forum.post_stream.tags_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.forum.post_stream.tags_text%22)
-
-> {count, plural, one {{tags} tag} other {{tags} tags}}
-
-```diff
--{tags} tagg|{tags} taggar
-+{count, plural, one {{tags} tagg} other {{tags} taggar}}
-```
 
 #### [`flarum-tags.forum.tag.meta_description_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.forum.tag.meta_description_text%22)
 
@@ -5490,6 +5461,14 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 +Du har stängts av på obestämd tid
 ```
 
+#### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/sv/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
+
+> You have been unsuspended
+
+```diff
++{username} upphävde avstängningen
+```
+
 #### [`flarum-suspend.forum.suspend_user.display_message`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/sv/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.display_message%22)
 
 > Display message for user
@@ -5548,6 +5527,14 @@ These strings are translated only in `sv`, so there is nothing to inherit from F
 
 
 ### `flarum-tags` (missing)
+
+#### [`flarum-tags.admin.edit_tag.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.admin.edit_tag.title%22)
+
+> Create Tag
+
+```diff
++Skapa tagg
+```
 
 #### [`flarum-tags.admin.settings.button_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/sv/?q=context%3A%3D%22flarum-tags.admin.settings.button_text%22)
 

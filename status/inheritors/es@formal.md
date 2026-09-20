@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Spanish informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **366** are translated differently and **0** are
-translated only in `es@formal`. Altogether they cover **23** components.
+sides, but do not match between them: **360** are translated differently and **0** are
+translated only in `es@formal`. Altogether they cover **22** components.
 
 <!-- {% raw %} -->
 
@@ -20,20 +20,19 @@ translated only in `es@formal`. Altogether they cover **23** components.
 | `flarum-likes` | [4](#flarum-likes) |
 | `flarum-lock` | [5](#flarum-lock) |
 | `flarum-mentions` | [8](#flarum-mentions) |
-| `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-sticky` | [3](#flarum-sticky) |
 | `flarum-subscriptions` | [4](#flarum-subscriptions) |
-| `flarum-suspend` | [3](#flarum-suspend) |
-| `flarum-tags` | [10](#flarum-tags) |
+| `flarum-suspend` | [2](#flarum-suspend) |
+| `flarum-tags` | [9](#flarum-tags) |
 | `fof-links` | [1](#fof-links) |
 | `fof-masquerade` | [3](#fof-masquerade) |
 | `fof-pages` | [2](#fof-pages) |
-| `fof-polls` | [4](#fof-polls) |
+| `fof-polls` | [2](#fof-polls) |
 | `fof-reactions` | [1](#fof-reactions) |
 | `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [2](#fof-upload) |
 | `fof-user-bio` | [2](#fof-user-bio) |
-| `fof-webhooks` | [2](#fof-webhooks) |
+| `fof-webhooks` | [1](#fof-webhooks) |
 | `michaelbelgium-discussion-views` | [1](#michaelbelgium-discussion-views) |
 
 
@@ -3555,11 +3554,11 @@ Alguien cerró una discusión que <del>tú</del><ins>usted</ins> <del>creaste</d
 > {mentioner\_display\_name} mentioned you in {title}
 
 ```diff
--{mencioner_display_name} te mencionó en {title}
-+{mencioner_display_name} le mencionó en {title}
+-{mentioner_display_name} te mencionó en {title}
++{mentioner_display_name} le mencionó en {title}
 ```
 
-{mencioner\_display\_name} <del>te</del><ins>le</ins> mencionó en {title}
+{mentioner\_display\_name} <del>te</del><ins>le</ins> mencionó en {title}
 
 #### [`flarum-mentions.forum.composer.mention_tooltip`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/es@formal/?q=context%3A%3D%22flarum-mentions.forum.composer.mention_tooltip%22)
 
@@ -3624,20 +3623,6 @@ Alguien respondió a <del>tu</del><ins>su</ins> publicación
 ```
 
 Alguien <del>te</del><ins>le</ins> mencionó en una publicación
-
-
-### `flarum-pusher`
-
-#### [`flarum-pusher.forum.discussion_list.show_updates_text`](https://weblate.rob006.net/translate/flarum2/flarum-pusher/es@formal/?q=context%3A%3D%22flarum-pusher.forum.discussion_list.show_updates_text%22)
-
-> {count, plural, one {Show # updated discussion} other {Show # updated discussions}}
-
-```diff
--{count, plural, one {Mostrar # discusión actualizada} other {Mostrar # discusiones actualizadas}}
-+Mostrar {count} discusión actualizada|Mostrar {count} discusiones actualizadas
-```
-
-<del>{count, plural, one {Mostrar</del><ins>Mostrar</ins> <del>#</del><ins>{count}</ins> discusión<del> actualizada} other</del> <del>{Mostrar</del><ins>actualizada\|Mostrar</ins> <del>#</del><ins>{count}</ins> discusiones <del>actualizadas}}</del><ins>actualizadas</ins>
 
 
 ### `flarum-sticky`
@@ -3745,17 +3730,6 @@ Recibir un <del>email</del><ins>e-mail</ins> cuando haya nuevas publicaciones
 
 <del>Te</del><ins>{username}</ins> <del>han</del><ins>le ha</ins> quitado la suspensión
 
-#### [`flarum-suspend.forum.suspend_user.title`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/es@formal/?q=context%3A%3D%22flarum-suspend.forum.suspend_user.title%22)
-
-> Suspend {username}
-
-```diff
--Suspender a {username}
-+Suspender a {user}
-```
-
-Suspender a <del>{username}</del><ins>{user}</ins>
-
 
 ### `flarum-tags`
 
@@ -3776,8 +3750,10 @@ Suspender a <del>{username}</del><ins>{user}</ins>
 
 ```diff
 -Crear Etiqueta
-+=> flarum-tags.ref.create_tag
++Crear etiqueta
 ```
+
+Crear <del>Etiqueta</del><ins>etiqueta</ins>
 
 #### [`flarum-tags.admin.tag_settings.required_primary_text`](https://weblate.rob006.net/translate/flarum2/flarum-tags/es@formal/?q=context%3A%3D%22flarum-tags.admin.tag_settings.required_primary_text%22)
 
@@ -3800,17 +3776,6 @@ Suspender a <del>{username}</del><ins>{user}</ins>
 ```
 
 <del>Introduce</del><ins>Introduzca</ins> el número mínimo y máximo de etiquetas secundarias que pueden ser aplicadas a una discusión.
-
-#### [`flarum-tags.forum.choose_tags.edit_title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/es@formal/?q=context%3A%3D%22flarum-tags.forum.choose_tags.edit_title%22)
-
-> Edit Tags for {title}
-
-```diff
--Editar las etiquetas para {title}
-+Editar las etiquetas para '{title}'
-```
-
-Editar las etiquetas para <del>{title}</del><ins>'{title}'</ins>
 
 #### [`flarum-tags.forum.choose_tags.title`](https://weblate.rob006.net/translate/flarum2/flarum-tags/es@formal/?q=context%3A%3D%22flarum-tags.forum.choose_tags.title%22)
 
@@ -3967,28 +3932,6 @@ Por favor <del>completa</del><ins>complete</ins> los campos del perfil de usuari
 +Añadir encuesta
 ```
 
-#### [`fof-polls.forum.days_remaining`](https://weblate.rob006.net/translate/flarum2/fof-polls/es@formal/?q=context%3A%3D%22fof-polls.forum.days_remaining%22)
-
-> Poll ends {time}.
-
-```diff
--La encuesta termina en {time}.
-+La encuesta termina en {hora}.
-```
-
-La encuesta termina en <del>{time}.</del><ins>{hora}.</ins>
-
-#### [`fof-polls.forum.modal.max`](https://weblate.rob006.net/translate/flarum2/fof-polls/es@formal/?q=context%3A%3D%22fof-polls.forum.modal.max%22)
-
-> You can have a maximum of {max} answers
-
-```diff
--Puede tener un máximo de {max} respuestas
-+Puede tener un máximo de 10 respuestas
-```
-
-Puede tener un máximo de <del>{max}</del><ins>10</ins> respuestas
-
 
 ### `fof-reactions`
 
@@ -4076,15 +4019,6 @@ Editar <del>tu</del><ins>su</ins> propia biografía
 
 
 ### `fof-webhooks`
-
-#### [`fof-webhooks.admin.errors.service_not_found`](https://weblate.rob006.net/translate/flarum2/fof-webhooks/es@formal/?q=context%3A%3D%22fof-webhooks.admin.errors.service_not_found%22)
-
-> The service "{service}" cannot be found.
-
-```diff
--No se puede encontrar el servicio "{service}".
-+El servicio '{service}' no puede ser encontrado.
-```
 
 #### [`fof-webhooks.admin.settings.item.tag_any_label`](https://weblate.rob006.net/translate/flarum2/fof-webhooks/es@formal/?q=context%3A%3D%22fof-webhooks.admin.settings.item.tag_any_label%22)
 

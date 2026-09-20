@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **323** are translated differently and **709** are
-translated only in `de`. Altogether they cover **96** components.
+sides, but do not match between them: **333** are translated differently and **709** are
+translated only in `de`. Altogether they cover **98** components.
 
 <!-- {% raw %} -->
 
@@ -30,11 +30,12 @@ translated only in `de`. Altogether they cover **96** components.
 | `flarum-pusher` | [2](#flarum-pusher) | 0 |
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
+| `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `flarum-tags` | [31](#flarum-tags) | 0 |
 | `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [6](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
-| `fof-blog` | [2](#fof-blog) | 0 |
+| `fof-blog` | [10](#fof-blog) | 0 |
 | `fof-byobu` | [4](#fof-byobu) | 0 |
 | `fof-categories` | [5](#fof-categories) | 0 |
 | `fof-checklist` | [1](#fof-checklist) | 0 |
@@ -43,6 +44,7 @@ translated only in `de`. Altogether they cover **96** components.
 | `fof-discussion-templates` | [5](#fof-discussion-templates) | 0 |
 | `fof-doorman` | [1](#fof-doorman) | 0 |
 | `fof-filter` | [4](#fof-filter) | 0 |
+| `fof-follow-tags` | [1](#fof-follow-tags) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [4](#fof-geoip) | 0 |
 | `fof-horizon` | [1](#fof-horizon) | 0 |
@@ -704,6 +706,18 @@ Diskussion <del>anpinnen</del><ins>anheften</ins>
 ```
 
 
+### `flarum-subscriptions`
+
+#### [`flarum-subscriptions.forum.sub_controls.not_following_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/de/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.not_following_button%22)
+
+> Not Following
+
+```diff
+-Nicht folgen
++Folgen
+```
+
+
 ### `flarum-tags`
 
 #### [`flarum-tags.admin.edit_tag.delete_tag_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-tags/de/?q=context%3A%3D%22flarum-tags.admin.edit_tag.delete_tag_confirmation%22)
@@ -1280,6 +1294,26 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 
 ### `fof-blog`
 
+#### [`fof-blog.admin.permissions.approve_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.admin.permissions.approve_posts%22)
+
+> Can approve blog articles
+
+```diff
+-Kann Blog genehmigen
++Darf Blogartikel genehmigen
+```
+
+<del>Kann</del><ins>Darf</ins> <del>Blog</del><ins>Blogartikel</ins> genehmigen
+
+#### [`fof-blog.admin.settings.redirects_heading`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.admin.settings.redirects_heading%22)
+
+> Redirects
+
+```diff
+-Umleitungen
++Weiterleitungen
+```
+
 #### [`fof-blog.admin.settings.show_tag_hierarchy_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_text%22)
 
 > Add spacing to child-categories and give the category-list a hierarchy.
@@ -1291,6 +1325,24 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 
 Füge Abstände zu den Unterkategorien hinzu und <del>gebe</del><ins>gib</ins> der Kategorieliste eine Hierarchie.
 
+#### [`fof-blog.forum.article_settings.fields.image.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.image.title%22)
+
+> Article image
+
+```diff
+-Artikel Bild
++Artikelbild
+```
+
+#### [`fof-blog.forum.article_settings.fields.summary.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.title%22)
+
+> Article summary
+
+```diff
+-Artikel Zusammenfassung
++Artikel-Zusammenfassung
+```
+
 #### [`fof-blog.forum.composer.enter_message_here`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.composer.enter_message_here%22)
 
 > Enter your message here
@@ -1301,6 +1353,46 @@ Füge Abstände zu den Unterkategorien hinzu und <del>gebe</del><ins>gib</ins> d
 ```
 
 <del>Gebe</del><ins>Gib</ins> deine Nachricht hier ein
+
+#### [`fof-blog.forum.forum_nav`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.forum_nav%22)
+
+> Forum Nav
+
+```diff
+-Forum Navigation
++Forumnavigation
+```
+
+#### [`fof-blog.forum.tools.article_settings`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.tools.article_settings%22)
+
+> Article settings
+
+```diff
+-Artikel Einstellungen
++Artikel-Einstellungen
+```
+
+#### [`fof-blog.forum.tools.hide_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.tools.hide_article%22)
+
+> Hide article
+
+```diff
+-Artikel verstecken
++Artikel verbergen
+```
+
+Artikel <del>verstecken</del><ins>verbergen</ins>
+
+#### [`fof-blog.forum.utils.redirect.link`](https://weblate.rob006.net/translate/flarum2/fof-blog/de/?q=context%3A%3D%22fof-blog.forum.utils.redirect.link%22)
+
+> &lt;a&gt;Click here&lt;/a&gt; if the page does not redirect you
+
+```diff
+-<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet
++<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet
+```
+
+&lt;a&gt;Klicke <del>hier&lt;/a&gt;</del><ins>hier&lt;/a&gt;,</ins> wenn die Seite dich nicht weiterleitet
 
 
 ### `fof-byobu`
@@ -1585,7 +1677,7 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 > Strings to filter
 
 ```diff
--=> fof-filter.ref.strings_to_filter
+-Zeichenfolgen zu filtern
 +Zu filternde Zeichenfolgen
 ```
 
@@ -1603,7 +1695,7 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 > Strings to filter
 
 ```diff
--=> fof-filter.ref.strings_to_filter
+-Zeichenfolgen zu filtern
 +Zu filternde Zeichenfolgen
 ```
 
@@ -1617,6 +1709,18 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 ```
 
 Sende E-Mail an <del>Verfasser</del><ins>Verfasser,</ins> wenn Beitrag gefiltert wird
+
+
+### `fof-follow-tags`
+
+#### [`fof-follow-tags.forum.sub_controls.not_following_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.not_following_button%22)
+
+> Not Following
+
+```diff
+-Nicht folgend
++Folgen
+```
 
 
 ### `fof-gamification`
@@ -2349,72 +2453,88 @@ Durchsuche alle Benutzer nach <del>"{query}"</del><ins>„{query}“</ins>
 > Decision sent.
 
 ```diff
--=> fof-username-request.ref.action.success
+-Entscheidung abgeschickt.
 +Entscheidung gesendet.
 ```
+
+Entscheidung <del>abgeschickt.</del><ins>gesendet.</ins>
 
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
 
 > Your nickname change request has been submitted and is pending approval.
 
 ```diff
--=> fof-username-request.ref.request.confirmation_message
+-Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
 +Deine Anfrage zur Änderung deines Spitznamens wurde eingereicht und wartet auf Genehmigung.
 ```
+
+<del>Dein</del><ins>Deine</ins> <del>Änderungswunsch</del><ins>Anfrage zur Änderung deines Spitznamens</ins> wurde eingereicht und<del> muss</del> <del>noch</del><ins>wartet</ins> <del>genehmigt</del><ins>auf</ins> <del>werden.</del><ins>Genehmigung.</ins>
 
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
 > Nickname request deleted.
 
 ```diff
--=> fof-username-request.ref.request.deleted
+-Deine Anfrage wurde gelöscht.
 +Spitznamenanfrage gelöscht.
 ```
+
+<del>Deine Anfrage wurde</del><ins>Spitznamenanfrage</ins> gelöscht.
 
 #### [`fof-username-request.forum.nickname_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.resubmit%22)
 
 > At this time you may resubmit a new nickname change request from your account settings if you so choose to.
 
 ```diff
--=> fof-username-request.ref.results.resubmit
+-Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
 +Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Spitznamens stellen.
 ```
+
+<del>Du</del><ins>Zu diesem Zeitpunkt</ins> kannst <del>nun</del><ins>du,</ins> <del>weitere</del><ins>wenn</ins> <del>Anfragen</del><ins>du möchtest,</ins> über deine <del>Account-Einstellungen</del><ins>Kontoeinstellungen einen neuen Antrag auf Änderung deines Spitznamens</ins> stellen.
 
 #### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
 
 > Decision sent.
 
 ```diff
--=> fof-username-request.ref.action.success
+-Entscheidung abgeschickt.
 +Entscheidung gesendet.
 ```
+
+Entscheidung <del>abgeschickt.</del><ins>gesendet.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
 > Your username change request has been submitted and is pending approval.
 
 ```diff
--=> fof-username-request.ref.request.confirmation_message
+-Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
 +Deine Anfrage zur Änderung deines Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 ```
+
+<del>Dein</del><ins>Deine</ins> <del>Änderungswunsch</del><ins>Anfrage zur Änderung deines Benutzernamens</ins> wurde <del>eingereicht</del><ins>übermittelt</ins> und<del> muss</del> <del>noch</del><ins>wartet</ins> <del>genehmigt</del><ins>auf</ins> <del>werden.</del><ins>Genehmigung.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.deleted%22)
 
 > Username request deleted.
 
 ```diff
--=> fof-username-request.ref.request.deleted
+-Deine Anfrage wurde gelöscht.
 +Benutzernamenanfrage gelöscht.
 ```
+
+<del>Deine Anfrage wurde</del><ins>Benutzernamenanfrage</ins> gelöscht.
 
 #### [`fof-username-request.forum.username_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.resubmit%22)
 
 > At this time you may resubmit a new username change request from your account settings if you so choose to.
 
 ```diff
--=> fof-username-request.ref.results.resubmit
+-Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
 +Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Benutzernamens stellen.
 ```
+
+<del>Du</del><ins>Zu diesem Zeitpunkt</ins> kannst <del>nun</del><ins>du,</ins> <del>weitere</del><ins>wenn</ins> <del>Anfragen</del><ins>du möchtest,</ins> über deine <del>Account-Einstellungen</del><ins>Kontoeinstellungen einen neuen Antrag auf Änderung deines Benutzernamens</ins> stellen.
 
 
 ### `fof-webhooks`
@@ -3439,12 +3559,12 @@ Navigation umkehren <del>(Themen</del><ins>(Tags</ins> oberhalb der Menüpunkte 
 >
 
 ```diff
--Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
+-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „'{{ login_url }}'“ und „'{{ register_url }}'“ in deinem HTML-Code.
 +Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen '{{ login_url }}' und '{{ register_url }}' in deinem HTML-Code.
 
 ```
 
-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„{{</del><ins>'{{</ins> login\_url <del>}}“</del><ins>}}'</ins> und <del>„{{</del><ins>'{{</ins> register\_url <del>}}“</del><ins>}}'</ins> in deinem HTML-Code.<br />
+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„'{{</del><ins>'{{</ins> login\_url <del>}}'“</del><ins>}}'</ins> und <del>„'{{</del><ins>'{{</ins> register\_url <del>}}'“</del><ins>}}'</ins> in deinem HTML-Code.<br />
 
 #### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
 

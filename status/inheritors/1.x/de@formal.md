@@ -3,7 +3,7 @@
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
 sides, but do not match between them: **408** are translated differently and **709** are
-translated only in `de@formal`. Altogether they cover **100** components.
+translated only in `de@formal`. Altogether they cover **101** components.
 
 <!-- {% raw %} -->
 
@@ -30,11 +30,12 @@ translated only in `de@formal`. Altogether they cover **100** components.
 | `flarum-nicknames` | [1](#flarum-nicknames) | 0 |
 | `flarum-statistics` | [1](#flarum-statistics) | 0 |
 | `flarum-sticky` | [6](#flarum-sticky) | 0 |
+| `flarum-subscriptions` | [1](#flarum-subscriptions) | 0 |
 | `flarum-tags` | [26](#flarum-tags) | 0 |
 | `fof-anti-spam` | [8](#fof-anti-spam) | 0 |
 | `fof-badges` | [7](#fof-badges) | 0 |
 | `fof-best-answer` | [7](#fof-best-answer) | 0 |
-| `fof-blog` | [2](#fof-blog) | 0 |
+| `fof-blog` | [10](#fof-blog) | 0 |
 | `fof-byobu` | [11](#fof-byobu) | 0 |
 | `fof-categories` | [5](#fof-categories) | 0 |
 | `fof-checklist` | [1](#fof-checklist) | 0 |
@@ -44,7 +45,7 @@ translated only in `de@formal`. Altogether they cover **100** components.
 | `fof-doorman` | [1](#fof-doorman) | 0 |
 | `fof-drafts` | [1](#fof-drafts) | 0 |
 | `fof-filter` | [4](#fof-filter) | 0 |
-| `fof-follow-tags` | [9](#fof-follow-tags) | 0 |
+| `fof-follow-tags` | [10](#fof-follow-tags) | 0 |
 | `fof-gamification` | [9](#fof-gamification) | 0 |
 | `fof-geoip` | [5](#fof-geoip) | 0 |
 | `fof-horizon` | [3](#fof-horizon) | 0 |
@@ -68,7 +69,7 @@ translated only in `de@formal`. Altogether they cover **100** components.
 | `fof-terms` | [1](#fof-terms) | 0 |
 | `fof-upload` | [7](#fof-upload) | 0 |
 | `fof-user-directory` | [3](#fof-user-directory) | 0 |
-| `fof-username-request` | [34](#fof-username-request) | 0 |
+| `fof-username-request` | [24](#fof-username-request) | 0 |
 | `fof-webhooks` | [4](#fof-webhooks) | 0 |
 | `forumaker-magicread` | 0 | [18](#forumaker-magicread-missing) |
 | `forumaker-magicslider` | [3](#forumaker-magicslider) | 0 |
@@ -780,6 +781,18 @@ Diskussion <del>anpinnen</del><ins>anheften</ins>
 ```
 
 
+### `flarum-subscriptions`
+
+#### [`flarum-subscriptions.forum.sub_controls.not_following_button`](https://weblate.rob006.net/translate/flarum2/flarum-subscriptions/de@formal/?q=context%3A%3D%22flarum-subscriptions.forum.sub_controls.not_following_button%22)
+
+> Not Following
+
+```diff
+-Nicht folgen
++Folgen
+```
+
+
 ### `flarum-tags`
 
 #### [`flarum-tags.admin.edit_tag.delete_tag_confirmation`](https://weblate.rob006.net/translate/flarum2/flarum-tags/de@formal/?q=context%3A%3D%22flarum-tags.admin.edit_tag.delete_tag_confirmation%22)
@@ -1312,6 +1325,26 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 
 ### `fof-blog`
 
+#### [`fof-blog.admin.permissions.approve_posts`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.admin.permissions.approve_posts%22)
+
+> Can approve blog articles
+
+```diff
+-Kann Blog genehmigen
++Darf Blogartikel genehmigen
+```
+
+<del>Kann</del><ins>Darf</ins> <del>Blog</del><ins>Blogartikel</ins> genehmigen
+
+#### [`fof-blog.admin.settings.redirects_heading`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.admin.settings.redirects_heading%22)
+
+> Redirects
+
+```diff
+-Umleitungen
++Weiterleitungen
+```
+
 #### [`fof-blog.admin.settings.show_tag_hierarchy_text`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.admin.settings.show_tag_hierarchy_text%22)
 
 > Add spacing to child-categories and give the category-list a hierarchy.
@@ -1323,6 +1356,24 @@ Wenn ein Tag „Beste Antwort“ aktiviert ist, <del>weisen Sie</del><ins>weise<
 
 Füge Abstände zu den Unterkategorien hinzu und <del>gebe</del><ins>gib</ins> der Kategorieliste eine Hierarchie.
 
+#### [`fof-blog.forum.article_settings.fields.image.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.image.title%22)
+
+> Article image
+
+```diff
+-Artikel Bild
++Artikelbild
+```
+
+#### [`fof-blog.forum.article_settings.fields.summary.title`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.article_settings.fields.summary.title%22)
+
+> Article summary
+
+```diff
+-Artikel Zusammenfassung
++Artikel-Zusammenfassung
+```
+
 #### [`fof-blog.forum.composer.enter_message_here`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.composer.enter_message_here%22)
 
 > Enter your message here
@@ -1333,6 +1384,46 @@ Füge Abstände zu den Unterkategorien hinzu und <del>gebe</del><ins>gib</ins> d
 ```
 
 <del>Gebe</del><ins>Gib</ins> deine Nachricht hier ein
+
+#### [`fof-blog.forum.forum_nav`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.forum_nav%22)
+
+> Forum Nav
+
+```diff
+-Forum Navigation
++Forumnavigation
+```
+
+#### [`fof-blog.forum.tools.article_settings`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.tools.article_settings%22)
+
+> Article settings
+
+```diff
+-Artikel Einstellungen
++Artikel-Einstellungen
+```
+
+#### [`fof-blog.forum.tools.hide_article`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.tools.hide_article%22)
+
+> Hide article
+
+```diff
+-Artikel verstecken
++Artikel verbergen
+```
+
+Artikel <del>verstecken</del><ins>verbergen</ins>
+
+#### [`fof-blog.forum.utils.redirect.link`](https://weblate.rob006.net/translate/flarum2/fof-blog/de@formal/?q=context%3A%3D%22fof-blog.forum.utils.redirect.link%22)
+
+> &lt;a&gt;Click here&lt;/a&gt; if the page does not redirect you
+
+```diff
+-<a>Klicke hier</a> wenn die Seite dich nicht weiterleitet
++<a>Klicke hier</a>, wenn die Seite dich nicht weiterleitet
+```
+
+&lt;a&gt;Klicke <del>hier&lt;/a&gt;</del><ins>hier&lt;/a&gt;,</ins> wenn die Seite dich nicht weiterleitet
 
 
 ### `fof-byobu`
@@ -1684,7 +1775,7 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 > Strings to filter
 
 ```diff
--=> fof-filter.ref.strings_to_filter
+-Zeichenfolgen zu filtern
 +Zu filternde Zeichenfolgen
 ```
 
@@ -1702,7 +1793,7 @@ Verwalte eine Vorlage für neue Diskussionen in diesem <del>Thema.</del><ins>Tag
 > Strings to filter
 
 ```diff
--=> fof-filter.ref.strings_to_filter
+-Zeichenfolgen zu filtern
 +Zu filternde Zeichenfolgen
 ```
 
@@ -1785,6 +1876,15 @@ Schaltfläche „Wähle Tags aus, denen <del>Du</del><ins>Sie</ins> folgen <del>
 ```
 
 <del>Dein</del><ins>Ihr</ins> Abo von „{tagName}“
+
+#### [`fof-follow-tags.forum.sub_controls.not_following_button`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.not_following_button%22)
+
+> Not Following
+
+```diff
+-Nicht folgend
++Folgen
+```
 
 #### [`fof-follow-tags.forum.sub_controls.subscription_label`](https://weblate.rob006.net/translate/flarum2/fof-follow-tags/de@formal/?q=context%3A%3D%22fof-follow-tags.forum.sub_controls.subscription_label%22)
 
@@ -3100,17 +3200,8 @@ Durchsuche alle Benutzer nach <del>"{query}"</del><ins>„{query}“</ins>
 > Approve
 
 ```diff
--=> fof-username-request.ref.action.approval_label
+-Akzeptieren
 +Genehmigen
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.decision_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.decision_title%22)
-
-> Decision
-
-```diff
--=> fof-username-request.ref.action.decision_title
-+Entscheidung
 ```
 
 #### [`fof-username-request.forum.nickname_modals.action.help_text`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.help_text%22)
@@ -3129,26 +3220,8 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 > Reason for Rejection
 
 ```diff
--=> fof-username-request.ref.action.reason_title
+-Grund für die Ablehnung
 +Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.rejected_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.rejected_label%22)
-
-> Reject
-
-```diff
--=> fof-username-request.ref.action.rejected_label
-+Ablehnen
-```
-
-#### [`fof-username-request.forum.nickname_modals.action.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.submit_button%22)
-
-> Submit
-
-```diff
--=> fof-username-request.ref.action.submit_button
-+Absenden
 ```
 
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
@@ -3173,15 +3246,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
-#### [`fof-username-request.forum.nickname_modals.request.delete_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.delete_button%22)
-
-> Delete Request
-
-```diff
--=> fof-username-request.ref.request.delete_button
-+Anfrage löschen
-```
-
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
 > Nickname request deleted.
@@ -3192,15 +3256,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 <del>Anfrage zum Spitznamen</del><ins>Spitznamenanfrage</ins> gelöscht.
-
-#### [`fof-username-request.forum.nickname_modals.request.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.submit_button%22)
-
-> Submit Request
-
-```diff
--=> fof-username-request.ref.request.submit_button
-+Anfrage absenden
-```
 
 #### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
 
@@ -3249,17 +3304,8 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 > Approve
 
 ```diff
--=> fof-username-request.ref.action.approval_label
+-Akzeptieren
 +Genehmigen
-```
-
-#### [`fof-username-request.forum.username_modals.action.decision_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.decision_title%22)
-
-> Decision
-
-```diff
--=> fof-username-request.ref.action.decision_title
-+Entscheidung
 ```
 
 #### [`fof-username-request.forum.username_modals.action.help_text`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.help_text%22)
@@ -3278,26 +3324,8 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 > Reason for Rejection
 
 ```diff
--=> fof-username-request.ref.action.reason_title
+-Grund für die Ablehnung
 +Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.username_modals.action.rejected_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.rejected_label%22)
-
-> Reject
-
-```diff
--=> fof-username-request.ref.action.rejected_label
-+Ablehnen
-```
-
-#### [`fof-username-request.forum.username_modals.action.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.submit_button%22)
-
-> Submit
-
-```diff
--=> fof-username-request.ref.action.submit_button
-+Absenden
 ```
 
 #### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
@@ -3333,15 +3361,6 @@ Entscheidung <del>versendet.</del><ins>gesendet.</ins>
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Benutzernamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
-#### [`fof-username-request.forum.username_modals.request.delete_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.delete_button%22)
-
-> Delete Request
-
-```diff
--=> fof-username-request.ref.request.delete_button
-+Anfrage löschen
-```
-
 #### [`fof-username-request.forum.username_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.deleted%22)
 
 > Username request deleted.
@@ -3352,15 +3371,6 @@ Entscheidung <del>versendet.</del><ins>gesendet.</ins>
 ```
 
 <del>Anfrage auf Änderung des Benutzernamens wurde</del><ins>Benutzernamenanfrage</ins> gelöscht.
-
-#### [`fof-username-request.forum.username_modals.request.submit_button`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.submit_button%22)
-
-> Submit Request
-
-```diff
--=> fof-username-request.ref.request.submit_button
-+Anfrage absenden
-```
 
 #### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
 
@@ -4449,12 +4459,12 @@ Navigation umkehren <del>(Themen</del><ins>(Tags</ins> oberhalb der Menüpunkte 
 >
 
 ```diff
--Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „{{ login_url }}“ und „{{ register_url }}“ in deinem HTML-Code.
+-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für „/login“ und „/register“ zu erstellen, oder verwende die Vorlagenvariablen „'{{ login_url }}'“ und „'{{ register_url }}'“ in deinem HTML-Code.
 +Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für /login und /register zu erstellen, oder verwende die Vorlagenvariablen '{{ login_url }}' und '{{ register_url }}' in deinem HTML-Code.
 
 ```
 
-Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„{{</del><ins>'{{</ins> login\_url <del>}}“</del><ins>}}'</ins> und <del>„{{</del><ins>'{{</ins> register\_url <del>}}“</del><ins>}}'</ins> in deinem HTML-Code.<br />
+Wenn aktiviert, umgehen angemeldete Benutzer die Startseite und gelangen direkt zum normalen Forum. Installiere „fof/direct-links“, um eigene Seiten für <del>„/login“</del><ins>/login</ins> und <del>„/register“</del><ins>/register</ins> zu erstellen, oder verwende die Vorlagenvariablen <del>„'{{</del><ins>'{{</ins> login\_url <del>}}'“</del><ins>}}'</ins> und <del>„'{{</del><ins>'{{</ins> register\_url <del>}}'“</del><ins>}}'</ins> in deinem HTML-Code.<br />
 
 #### [`tapao-custom-landing-page.admin.settings.guests_only_label`](https://weblate.rob006.net/translate/flarum2/tapao-custom-landing-page/de@formal/?q=context%3A%3D%22tapao-custom-landing-page.admin.settings.guests_only_label%22)
 
