@@ -15,7 +15,7 @@
                 "custom_styles_heading": "Individueller Stil",
                 "custom_styles_text": "Die Erscheinung des Forums durch eigenen Less/CSS-Code anpassen.",
                 "dark_mode_label": "Dunkles Design",
-                "description": "Ändere die Farbe, das Logo und weitere Variablen des Forums.",
+                "description": "Ändere die Farben, das Logo und weitere Variablen des Forums.",
                 "edit_css_button": "Individuelles CSS bearbeiten",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -32,9 +32,9 @@
                 "description": "Lege den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
                 "display_name_heading": "Anzeigename",
                 "display_name_text": "Wähle den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
-                "forum_description_heading": "Beschreibung des Forums",
+                "forum_description_heading": "Forumbeschreibung",
                 "forum_description_text": "Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.",
-                "forum_title_heading": "Titel des Forums",
+                "forum_title_heading": "Forumtitel",
                 "home_page_heading": "Startseite",
                 "home_page_text": "Wähle die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.",
                 "show_language_selector_label": "Sprachauswahlmenü zeigen",
@@ -88,7 +88,7 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Scheduler",
-                        "queue-driver": "Queue-Treiber",
+                        "queue-driver": "Warteschlangen-Treiber",
                         "session-driver": "Session-Treiber"
                     },
                     "scheduler": {
@@ -393,7 +393,7 @@
                 "email_sent_message": "Falls die von dir eingegebene E-Mail-Adresse auf dieser Seite registriert ist, senden wir dir eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst. Bitte prüfe auch deinen Spam-Ordner, falls die E-Mail nicht innerhalb der nächsten Minuten ankommt.",
                 "not_found_message": "Es existiert kein Benutzer mit dieser E-Mail-Adresse.",
                 "submit_button": "Passwort wiederherstellen",
-                "text": "Bitte gebe deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.",
+                "text": "Bitte gib deine E-Mail-Adresse ein, um einen Link zum Zurücksetzen deines Passwortes zu erhalten.",
                 "title": "Passwort vergessen"
             },
             "header": {
@@ -642,7 +642,7 @@
                 "scrubber": "MMMM YYYY"
             },
             "series": {
-                "glue_text": ", ",
+                "glue_text": "، ",
                 "three_text": "{first}, {second}, und {third}",
                 "two_text": "{first} und {second}"
             },
@@ -759,7 +759,7 @@
             "delete": "Löschen",
             "delete_forever": "Endgültig löschen",
             "discussions": "Diskussionen",
-            "edit": "Ändern",
+            "edit": "Bearbeiten",
             "edit_user": "Benutzer bearbeiten",
             "email": "E-Mail",
             "extensions": "Erweiterungen",

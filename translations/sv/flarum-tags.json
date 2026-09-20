@@ -5,26 +5,26 @@
                 "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "Färg",
-                "delete_tag_button": "Radera tagg",
-                "delete_tag_confirmation": "Är du säker på att du vill radera denna tagg? Trådar med den här taggen kommer INTE att raderas.",
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Ta bort tagg",
+                "delete_tag_confirmation": "Är du säker på att du vill ta bort den här taggen? Diskussionerna som är kopplade till taggen kommer INTE att tas bort.",
                 "description_label": "Beskrivning",
-                "hide_label": "Göm från Alla Diskussioner",
+                "hide_label": "Dölj från alla diskussioner",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
-                "slug_label": "Kortlänk",
+                "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Skapa tagg"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Justera listan över vilka taggar som är möjliga att organisera trådar med."
+                "tags_text": "Hantera listan över taggar som kan användas för att organisera diskussioner."
             },
             "permissions": {
                 "allow_edit_tags_label": "Tillåt redigering av taggar",
-                "bypass_tag_counts_label": "Undantag från tagg-begränsningar",
+                "bypass_tag_counts_label": "Kringgå krav på taggar",
                 "restrict_by_tag_heading": "Begränsa efter tagg",
                 "tag_discussions_label": "Tagga diskussioner"
             },
@@ -33,14 +33,14 @@
             },
             "tag_settings": {
                 "range_separator_text": " till ",
-                "required_primary_heading": "Antal primära taggar som krävs",
-                "required_primary_text": "Ange lägsta och högsta antalet primära taggar som måste kopplas till en tråd.",
-                "required_secondary_heading": "Antal sekundära taggar som krävs",
-                "required_secondary_text": "Ange lägsta och högsta antalet sekundära taggar som måste kopplas till en tråd.",
+                "required_primary_heading": "Obligatoriskt antal primära taggar",
+                "required_primary_text": "Ange minsta och största antal primära taggar som får tillämpas på en diskussion.",
+                "required_secondary_heading": "Obligatoriskt antal sekundära taggar",
+                "required_secondary_text": "Ange det lägsta och högsta antalet sekundära taggar som får tillämpas på en diskussion.",
                 "title": "Inställningar för taggar"
             },
             "tags": {
-                "about_tags_text": "Taggar används för att kategorisera trådar. Primära taggar är som traditionella forumkategorier: De de kan placeras i en tvåstegshierarki. Sekundära taggar har ingen hierarki eller ordning och är användbara för mikrokategorisering.",
+                "about_tags_text": "Taggar används för att kategorisera diskussioner. Primära taggar fungerar som traditionella forumkategorier: de kan organiseras i en hierarki i två nivåer. Sekundära taggar saknar hierarki och ordning, och är användbara för mikrokategorisering.",
                 "create_primary_tag_button": "Skapa primär tagg",
                 "create_secondary_tag_button": "Skapa sekundär tagg",
                 "edit_tag_label": "Redigera tagg {tag}",
@@ -53,38 +53,38 @@
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Alla Taggar",
+                "meta_description_text": "Alla taggar",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "edit_title": "Redigera taggar för {title}",
-                "title": "Välj taggar för din tråd",
+                "title": "Välj taggar för din diskussion",
                 "choose_primary_placeholder": "Välj en primär tagg|Välj {count} primära taggar",
                 "choose_secondary_placeholder": "Välj 1 tagg till|Välj {count} taggar till",
                 "submit_button": "=> core.ref.okay"
             },
             "composer_discussion": {
-                "choose_tags_link": "Välj taggar"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "discussion_controls": {
                 "edit_tags_button": "Redigera taggar"
             },
             "header": {
-                "back_to_tags_tooltip": "Tillbaka till Taggar"
+                "back_to_tags_tooltip": "Tillbaka till tagglistan"
             },
             "index": {
                 "more_link": "Mer...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "Omärkta"
+                "untagged_link": "Otaggade"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} lade till {tagsAdded} och tog bort {tagsRemoved}.",
-                "added_tags_text": "{username} lade till {tagsAdded}.",
-                "removed_tags_text": "{username} tog bort {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} lade till {tagsAdded} och tog bort {tagsRemoved} {time}.",
+                "added_tags_text": "{username} lade till {tagsAdded} {time}.",
+                "removed_tags_text": "{username} tog bort {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} tagg} other {{tags} taggar}}"
             },
             "tag": {
-                "meta_description_text": "Alla trådar med taggen {tag}"
+                "meta_description_text": "Alla diskussioner med taggen {tag}"
             }
         },
         "lib": {

@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Diskussion anpinnen"
+                "sticky_discussions_label": "Diskussion anheften"
             },
             "settings": {
                 "pin_sticky_on_all_discussions_label": "Angepinnte Diskussionen auf der Seite „Alle Diskussionen“ anheften",
@@ -14,19 +14,19 @@
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "Angepinnt"
+                "sticky_tooltip": "Angeheftet"
             },
             "discussion_controls": {
                 "sticky_button": "=> flarum-sticky.ref.sticky",
-                "unsticky_button": "Anpinnen zurücknehmen"
+                "unsticky_button": "Anheften zurücknehmen"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username} hat die Diskussion angepinnt ({time}).",
-                "discussion_unstickied_text": "{username} hat die Diskussion gelöst ({time})."
+                "discussion_stickied_text": "{username} hat die Diskussion angeheftet ({time}).",
+                "discussion_unstickied_text": "{username} hat die Diskussion abgelöst ({time})."
             }
         },
         "ref": {
-            "sticky": "Anpinnen"
+            "sticky": "Anheften"
         },
         "lib": {
             "gambits": {

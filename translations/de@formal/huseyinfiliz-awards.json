@@ -27,9 +27,9 @@
                 "status_active": "Aktiv",
                 "status_ended": "Beendet",
                 "status_published": "Veröffentlicht",
-                "show_live_votes": "Stimmenanzahl live anzeigen",
-                "show_live_votes_help": "Stimmenanzahl während der Abstimmung live anzeigen",
-                "image_url": "Titelbild-URL",
+                "show_live_votes": "Live-Abstimmungsergebnisse anzeigen",
+                "show_live_votes_help": "Anzahl der Stimmen anzeigen, während die Abstimmung läuft",
+                "image_url": "URL des Titelbildes",
                 "image_url_help": "Titelbild, das im Hero-Bereich angezeigt wird. Hochladen oder URL einfügen.",
                 "categories": "Kategorien",
                 "publish": "Ergebnisse veröffentlichen",
@@ -69,8 +69,8 @@
                 "displayed_votes": "Angezeigte Stimmen",
                 "reset": "Zurücksetzen",
                 "reset_adjustment": "Anpassung auf 0 zurücksetzen",
-                "delete_confirm": "Möchtest du diesen Vorschlag wirklich löschen?",
-                "empty": "Keine Vorschläge gefunden."
+                "delete_confirm": "Möchtest du diesen Kandidaten wirklich löschen?",
+                "empty": "Keine Kandidaten gefunden."
             },
             "suggestions": {
                 "title": "Ausstehende Vorschläge",
@@ -82,8 +82,8 @@
                 "approve": "Genehmigen",
                 "reject": "Ablehnen",
                 "merge": "Zusammenführen",
-                "approve_confirm": "Neuen Kandidaten erstellen? Der Benutzer wird automatisch dafür stimmen.",
-                "reject_confirm": "Vorschlag ablehnen?",
+                "approve_confirm": "Als neuen Kandidaten vorschlagen? Der Benutzer wird automatisch dafür stimmen.",
+                "reject_confirm": "Diesen Vorschlag ablehnen?",
                 "merge_title": "Vorschlag zusammenführen",
                 "merge_info": "„{name}“ mit einem bestehenden Kandidaten zusammenführen. Die Stimme des Benutzers werden zu diesem Kandidaten hinzugefügt.",
                 "select_nominee_label": "Kandidaten auswählen",
@@ -95,7 +95,7 @@
                 "nav_title": "Navigationstitel",
                 "nav_title_help": "Text in der Navigations-Seitenleiste",
                 "nav_icon": "Navigationssymbol",
-                "nav_icon_help": "FontAwesome-Symbol-Klasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)",
+                "nav_icon_help": "FontAwesome-Symbolklasse (z. B. fas fa-trophy, fas fa-award, fas fa-star)",
                 "votes_per_category": "Stimmen pro Kategorie",
                 "votes_per_category_help": "0 für unbegrenzte Stimmen, 1 für eine Stimme (ersetzen), >1 für mehrere Stimmen."
             },
@@ -118,9 +118,9 @@
                 "results": "Ergebnisse"
             },
             "page": {
-                "voting_ends": "Abstimmung endet {time}",
-                "voting_ended": "Abstimmung beendet {time}",
-                "voting_starts": "Abstimmung beginnt {time}",
+                "voting_ends": "Abstimmung endet um {time}",
+                "voting_ended": "Abstimmung endete um {time}",
+                "voting_starts": "Abstimmung beginnt um {time}",
                 "results_published": "Ergebnisse veröffentlicht",
                 "select_award": "Auszeichnung auswählen",
                 "previous_awards": "Auszeichnungen des Vorjahres"
@@ -129,12 +129,12 @@
                 "select": "Auswählen",
                 "voted": "Abgestimmt",
                 "change_vote": "Stimme ändern",
-                "voting_closed": "Abstimmung wurde geschlossen",
-                "ended": "Abstimmung ist beendet",
+                "voting_closed": "Abstimmung ist beendet",
+                "ended": "Abstimmung wurde beendet",
                 "ends_in_days": "Abstimmung endet in {days} Tagen",
                 "ends_in_hours": "Abstimmung endet in {hours} Stunden",
                 "ends_soon": "Abstimmung endet bald",
-                "vote_saved": "Deine Stimme wurde erfasst!",
+                "vote_saved": "Deine Stimme wurde gewertet!",
                 "vote_removed": "Deine Stimme wurde entfernt."
             },
             "my_votes": {
@@ -152,7 +152,7 @@
                 "categories_remaining": "Kategorien ohne Stimmen"
             },
             "progress": {
-                "voted": "In {count}/{total} Kategorien abgestimmt",
+                "voted": "{count}/{total} Kategorien abgestimmt",
                 "complete": "Abgeschlossen!",
                 "prev": "Zurück",
                 "next": "Weiter"
@@ -169,20 +169,20 @@
             },
             "results": {
                 "winner": "Gewinner",
-                "runner_up": "Zweitplatzierter",
+                "runner_up": "Zweiter",
                 "votes": "{count} Stimmen",
                 "percentage": "{percent} %",
-                "view_all": "Alle Ergebnisse ansehen",
-                "full_results": "Vollständige Ergebnisse"
+                "view_all": "Alle Ergebnisse anzeigen",
+                "full_results": "Alle Ergebnisse"
             },
             "prediction": {
                 "title": "Dein Vorhersage-Ergebnis",
                 "score": "{correct}/{total} richtige Vorhersagen!",
-                "correct": "Richtig:",
+                "correct": "Korrekt:",
                 "wrong": "Falsch:"
             },
             "category": {
-                "nominees_count": "{count} Nominierte",
+                "nominees_count": "{count} Kandidaten",
                 "votes_used": "{used}/{limit} Stimmen",
                 "votes_unlimited": "{count} Stimmen"
             },
@@ -190,7 +190,7 @@
                 "suggest": "Andere vorschlagen",
                 "click_to_suggest": "Klicken, um einen Kandidaten vorzuschlagen",
                 "placeholder": "Namen des Nominierten eingeben...",
-                "submit": "Vorschlag einreichen",
+                "submit": "Kandidaten vorschlagen",
                 "success": "Vorschlag eingereicht! Er wird von den Moderatoren geprüft.",
                 "already_submitted": "Du hast bereits einen Vorschlag für diese Kategorie eingereicht.",
                 "pending_count": "{count} ausstehende Vorschläge",
@@ -200,7 +200,7 @@
                 "no_suggestions": "Du hast noch keine Vorschläge eingereicht.",
                 "cancel": "Abbrechen",
                 "status_pending": "Ausstehend",
-                "status_approved": "Genehmigt",
+                "status_approved": "Angenommen",
                 "status_rejected": "Abgelehnt",
                 "status_merged": "Zusammengeführt",
                 "cancel_confirm": "Diesen Vorschlag verwerfen?"

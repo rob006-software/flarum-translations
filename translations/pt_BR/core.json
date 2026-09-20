@@ -475,7 +475,7 @@
             "post_scrubber": {
                 "now_link": "Agora",
                 "original_post_link": "Post Original",
-                "unread_text": "{count} não {count, plural, one {lida} other {lidas}}",
+                "unread_text": "{count, plural, one {# não lida} other {# não lidas}}",
                 "viewing_text": "{count, plural, one {{index} de {formattedCount} post} other {{index} de {formattedCount} posts}}"
             },
             "post_stream": {

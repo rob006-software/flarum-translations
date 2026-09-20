@@ -20,7 +20,7 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Por favor, introduce un código hexadecimal de color.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Icono del sitio",
                 "favicon_text": "Sube una imagen para que sea mostrada como icono de acceso directo al foro.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Sube una imagen para que sea mostrada en lugar del título del foro.",
@@ -87,7 +87,7 @@
                 "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
                 "status": {
                     "headers": {
-                        "scheduler-status": "Scheduler",
+                        "scheduler-status": "Programador",
                         "queue-driver": "Driver de cola",
                         "session-driver": "Driver de sesión"
                     },
@@ -394,7 +394,7 @@
                 "not_found_message": "No hay ningún usuario registrado con esa dirección de correo electrónico.",
                 "submit_button": "Restablecer contraseña",
                 "text": "Introduce tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.",
-                "title": "¿Olvidaste tu contraseña?"
+                "title": "Contraseña olvidada"
             },
             "header": {
                 "admin_button": "Administración",
@@ -440,7 +440,7 @@
             },
             "notifications": {
                 "delete_all_confirm": "¿Estás seguro de eliminar todas las notificaciones? Esta acción no es reversible",
-                "delete_all_tooltip": "Eliminar notificaciones",
+                "delete_all_tooltip": "Eliminar todas las notificaciones",
                 "discussion_renamed_text": "{username} cambió el título",
                 "empty_text": "No hay notificaciones",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",

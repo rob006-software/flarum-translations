@@ -2,12 +2,12 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "Avstängda användare"
+                "suspend_users_label": "Stäng av användare"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Du har blivit avstängd i {timeReadable}",
+                "user_suspended_text": "Du har blivit stängts av i {timeReadable}",
                 "user_suspended_indefinite_text": "Du har stängts av på obestämd tid",
                 "user_unsuspended_text": ""
             },
@@ -21,11 +21,11 @@
                 "display_message": "Visa meddelande för användaren",
                 "indefinitely_label": "Avstängd på obestämd tid",
                 "limited_time_days_text": " dagar",
-                "limited_time_label": "Stäng av under begränsad tid...",
+                "limited_time_label": "Stäng av under en begränsad tid...",
                 "not_suspended_label": "Inte avstängd",
                 "placeholder_optional": "Valfri",
                 "reason": "Orsak till avstängning",
-                "status_heading": "Avstängningens status",
+                "status_heading": "Status för avstängning",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Stäng av {username}"
             },

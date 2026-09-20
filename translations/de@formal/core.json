@@ -32,9 +32,9 @@
                 "description": "Legen Sie den Forentitel, die Sprache und weitere Grundeinstellungen fest.",
                 "display_name_heading": "Anzeigename",
                 "display_name_text": "Wählen Sie den Treiber, der verwendet wird, um den Anzeigenamen der Benutzer zu bestimmen. Standardmäßig wird der Benutzername angezeigt.",
-                "forum_description_heading": "Beschreibung des Forums",
+                "forum_description_heading": "Forumbeschreibung",
                 "forum_description_text": "Kurze Beschreibung des Forums. Diese erscheint in den Meta-Tags für Suchmaschinen.",
-                "forum_title_heading": "Titel des Forums",
+                "forum_title_heading": "Forumtitel",
                 "home_page_heading": "Startseite",
                 "home_page_text": "Wählen Sie die Seite aus, die Benutzer beim Besuch des Forums zuerst sehen.",
                 "show_language_selector_label": "Sprachauswahlmenü zeigen",
@@ -42,7 +42,7 @@
                 "slug_driver_text": "Wählen Sie den Treiber, welcher die Foren-URLs mit einem \"Slug\" ausstattet.",
                 "title": "Grundeinstellungen",
                 "welcome_banner_heading": "Willkommensnachricht",
-                "welcome_banner_text": "Legen Sie den Text fest, der auf der Seite \"Alle Diskussionen\" erscheint, um Besucher zu begrüßen.",
+                "welcome_banner_text": "Legen Sie den Text fest, der auf der Seite „Alle Diskussionen“ erscheint, um Besucher zu begrüßen.",
                 "abandoned_extensions_heading": "Verwaiste Erweiterungen",
                 "abandoned_extensions_text": "Flarum führt eine <a>Community-Liste verwaister Erweiterungen</a>. Wenn eine installierte Erweiterung auf dieser Liste erscheint, wird sie im Admin-Panel markiert.",
                 "abandoned_extensions_sync_button": "Jetzt prüfen",
@@ -88,7 +88,7 @@
                 "status": {
                     "headers": {
                         "scheduler-status": "Scheduler",
-                        "queue-driver": "Queue-Treiber",
+                        "queue-driver": "Warteschlangen-Treiber",
                         "session-driver": "Session-Treiber"
                     },
                     "scheduler": {
@@ -640,7 +640,7 @@
                 "scrubber": "MMMM YYYY"
             },
             "series": {
-                "glue_text": ", ",
+                "glue_text": "، ",
                 "three_text": "{first}, {second}, und {third}",
                 "two_text": "{first} und {second}"
             },
@@ -753,7 +753,7 @@
             "delete": "Löschen",
             "delete_forever": "Endgültig löschen",
             "discussions": "Diskussionen",
-            "edit": "Ändern",
+            "edit": "Bearbeiten",
             "edit_user": "Benutzer bearbeiten",
             "email": "E-Mail",
             "extensions": "Erweiterungen",

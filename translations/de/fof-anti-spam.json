@@ -15,8 +15,8 @@
                     "delete_posts_help": "Hierdurch werden alle Beiträge dieses Benutzers dauerhaft gelöscht. Wenn diese Option deaktiviert ist, werden Beiträge stattdessen „weich“ gelöscht.",
                     "heading": "Standard-Moderationsmaßnahmen",
                     "introduction": "Wenn ein Benutzer als Spammer markiert wird, können Moderatoren aus verschiedenen Aktionen auswählen, wie sie mit dem jeweiligen Anwendungsfall umgehen möchten. Mit diesen Einstellungen kannst du die Aktionen, die du normalerweise durchführst, vorab festlegen, um den Prozess zu beschleunigen, aber auch Variationen nach Bedarf zulassen.",
-                    "move_discussions_to_tags_label": "Diskussionen in Themen verschieben",
-                    "move_discussions_to_tags_help": "Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von dir angegebenen Themen verschoben. Lösche die Themen-Auswahl, um Diskussionen in ihren ursprünglichen Themen zu belassen. Hat keinen Effekt, wenn die Option „Diskussionen löschen“ aktiviert ist."
+                    "move_discussions_to_tags_label": "Diskussionen in Tags verschieben",
+                    "move_discussions_to_tags_help": "Dadurch werden alle Diskussionen, die von diesem Benutzer begonnen wurden, in die von dir angegebenen Tags verschoben. Lösche die Tag-Auswahl, um Diskussionen in ihren ursprünglichen Tags zu belassen. Hat keinen Effekt, wenn die Option „Diskussionen löschen“ aktiviert ist."
                 },
                 "stopforumspam": {
                     "introduction": "Prüft neue Benutzerregistrierungen anhand der <a>StopForumSpam</a>-Datenbank. Wenn entweder der Schwellenwert für die <code>Zuverlässigkeit</code> oder der Schwellenwert für die <code>Häufigkeit</code> erreicht ist, wird der Benutzer daran gehindert, seine Registrierung in Ihrem Forum abzuschließen.\n\nSSO-Registrierung über <code>fof/oauth</code> und <code>fof/passport</code> wird ebenfalls unterstützt. Andere SSO-Anbieter sollten funktionieren, wurden jedoch nicht getestet.\n",
@@ -39,7 +39,7 @@
                     "email_hash_help": "Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.",
                     "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.",
-                    "report_blocked_registrations_label": "Melde blockierte Registrierungen",
+                    "report_blocked_registrations_label": "Blockierte Registrierungen melden",
                     "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).",
                     "heading": "StopForumSpam"
                 }
@@ -73,9 +73,9 @@
                 "hard_delete_user_label": "Benutzer löschen",
                 "hard_delete_user_help": "Dadurch wird dieser Benutzer dauerhaft gelöscht. Wenn diese Option deaktiviert ist, wird der Benutzer stattdessen nur eingeschränkt.",
                 "intro": "Wenn ein Benutzer als Spammer markiert wird, werden mehrere Aktionen vorgenommen, abhängig von den in deinem Forum aktivierten Erweiterungen.",
-                "move_discussions_tag_label": "Diskussion zu Quarantäne-Tag verschieben",
-                "move_discussions_tag_help": "Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Thema verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Thema.",
-                "process_button": "Prozess",
+                "move_discussions_tag_label": "Diskussion in Quarantäne-Tag verschieben",
+                "move_discussions_tag_help": "Dadurch werden alle von diesem Benutzer gestarteten Diskussionen in das Tag verschoben, das du in den Forumeinstellungen festgelegt hast. Wenn diese Option deaktiviert ist, verbleiben Diskussionen im bisherigen Tag.",
+                "process_button": "Aktionen anwenden",
                 "title": "Markiere {username} als Spammer",
                 "report_to_sfs_label": "An StopForumSpam melden",
                 "report_to_sfs_help": "Hiermit werden die grundlegenden Benutzerdaten (Benutzername, E-Mail-Adresse, IP-Adresse) an StopForumSpam übermittelt. Damit wird verhindert, dass sich der Benutzer in anderen Foren registriert, die den StopForumSpam-Dienst nutzen."
