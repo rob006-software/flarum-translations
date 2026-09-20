@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Mục có sẵn",
-            "active_items": "Mục đang dùng",
+            "available_items_help": "",
             "create_new_item_button": "Tạo mục mới",
             "edit_item": {
                 "modal_title": "Chỉnh sửa mục",
@@ -18,11 +18,24 @@
                 "delete_button": "Xóa",
                 "delete_item_confirmation": "Bạn có chắc muốn xóa mục này không?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Ẩn hiện khi cuộn trang",
                 "threshold_label": "Ngưỡng cuộn (px)",
                 "threshold_help": "Khoảng cách cần cuộn từ vị trí hiện tại để ẩn hoặc hiện."
-            }
+            },
+            "active_items": "Mục đang dùng"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Hồ sơ",
                 "tags": "Thẻ",
                 "messages": "Tin nhắn",
+                "flags": "",
                 "fof-byobu": "Riêng tư",
                 "ramon-chat": ""
             }

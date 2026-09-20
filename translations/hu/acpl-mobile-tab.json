@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Elérhető elemek",
-            "active_items": "Aktív elemek",
+            "available_items_help": "",
             "create_new_item_button": "Új elem létrehozása",
             "edit_item": {
                 "modal_title": "Elem szerkesztése",
@@ -18,11 +18,24 @@
                 "delete_button": "Törlés",
                 "delete_item_confirmation": "Biztos, hogy törli ezt az elemet?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Láthatóság átállítása görgetéskor",
                 "threshold_label": "Görgetés küszöbértéke (képpont)",
                 "threshold_help": "Görgetési távolság a jelenlegi pozíciótól a láthatóság átállításához."
-            }
+            },
+            "active_items": "Aktív elemek"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Profil",
                 "tags": "Címkék",
                 "messages": "Üzenetek",
+                "flags": "",
                 "fof-byobu": "Privát",
                 "ramon-chat": "Csevegés"
             }

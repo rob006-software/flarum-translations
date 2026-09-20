@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Dostępne elementy",
-            "active_items": "Aktywne elementy",
+            "available_items_help": "",
             "create_new_item_button": "Utwórz nowy element",
             "edit_item": {
                 "modal_title": "Edytuj element",
@@ -18,11 +18,24 @@
                 "delete_button": "Usuń",
                 "delete_item_confirmation": "Jesteś pewien, że chcesz usunąć ten element?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Przełączaj widoczność podczas przewijania",
                 "threshold_label": "Próg przewijania (px)",
                 "threshold_help": "Odległość przewinięcia od bieżącej pozycji, po której widoczność zostanie przełączona."
-            }
+            },
+            "active_items": "Aktywne elementy"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Profil",
                 "tags": "Tagi",
                 "messages": "Wiadomości",
+                "flags": "",
                 "fof-byobu": "Prywatne",
                 "ramon-chat": "Czat"
             }

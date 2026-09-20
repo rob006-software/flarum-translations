@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Tillgängliga objekt",
-            "active_items": "Aktiva objekt",
+            "available_items_help": "",
             "create_new_item_button": "Skapa nytt objekt",
             "edit_item": {
                 "modal_title": "Redigera objekt",
@@ -18,11 +18,24 @@
                 "delete_button": "Radera",
                 "delete_item_confirmation": "Är du säker på att du vill ta bort det här objektet?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Växla synlighet vid skrollning",
                 "threshold_label": "Tröskelvärde för skrollning (px)",
                 "threshold_help": "Avstånd att skrolla från aktuell position för att växla synlighet."
-            }
+            },
+            "active_items": "Aktiva objekt"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Profil",
                 "tags": "Taggar",
                 "messages": "Meddelanden",
+                "flags": "",
                 "fof-byobu": "Privat",
                 "ramon-chat": ""
             }

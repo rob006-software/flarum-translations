@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Kullanılabilir öğeler",
-            "active_items": "Aktif öğeler",
+            "available_items_help": "",
             "create_new_item_button": "Yeni öğe oluştur",
             "edit_item": {
                 "modal_title": "Öğeyi düzenle",
@@ -18,11 +18,24 @@
                 "delete_button": "Sil",
                 "delete_item_confirmation": "Bu öğeyi silmek istediğinizden emin misiniz?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Kaydırmada görünürlüğü değiştir",
                 "threshold_label": "Kaydırma eşiği (px)",
                 "threshold_help": "Görünürlüğü değiştirmek için mevcut konumdan kaydırılması gereken mesafe."
-            }
+            },
+            "active_items": "Aktif öğeler"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Profil",
                 "tags": "Etiketler",
                 "messages": "Mesajlar",
+                "flags": "",
                 "fof-byobu": "Özel Tartışma",
                 "ramon-chat": "",
                 "categories": "Kategoriler"

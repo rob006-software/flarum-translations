@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Éléments disponibles",
-            "active_items": "Élément actifs",
+            "available_items_help": "",
             "create_new_item_button": "Créer un nouvel élément",
             "edit_item": {
                 "modal_title": "Modifier un élément",
@@ -18,11 +18,24 @@
                 "delete_button": "Supprimer",
                 "delete_item_confirmation": "Êtes-vous sûr de vouloir supprimer cet élément ?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Activer l'affichage lors du défilement",
                 "threshold_label": "Seuil de défilement (px)",
                 "threshold_help": "Distance à parcourir à partir de la position actuelle pour basculer la visibilité."
-            }
+            },
+            "active_items": "Élément actifs"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Profil",
                 "tags": "Étiquettes",
                 "messages": "Messages",
+                "flags": "",
                 "fof-byobu": "Privé",
                 "ramon-chat": "Chat",
                 "categories": "Catégories"

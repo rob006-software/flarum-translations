@@ -2,7 +2,7 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Доступные элементы",
-            "active_items": "Активные элементы",
+            "available_items_help": "",
             "create_new_item_button": "Создать элемент",
             "edit_item": {
                 "modal_title": "Редактировать элемент",
@@ -18,11 +18,24 @@
                 "delete_button": "Удалить",
                 "delete_item_confirmation": "Удалить этот элемент?"
             },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
+            },
             "scroll_settings": {
                 "toggle_label": "Переключать видимость при прокрутке",
                 "threshold_label": "Порог прокрутки (px)",
                 "threshold_help": "Расстояние прокрутки от текущей позиции, после которого будет изменяться видимость."
-            }
+            },
+            "active_items": "Активные элементы"
         },
         "lib": {
             "item": {
@@ -36,6 +49,7 @@
                 "profile": "Профиль",
                 "tags": "Теги",
                 "messages": "Сообщения",
+                "flags": "",
                 "fof-byobu": "Переписки",
                 "ramon-chat": "",
                 "categories": "Категории"

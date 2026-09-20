@@ -2,8 +2,8 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Available items",
-            "active_items": "Active items",
-            "create_new_item_button": "Create new item",
+            "available_items_help": "Drag items from this list into any variant to add them to the mobile tab.",
+            "create_new_item_button": "Create item",
             "edit_item": {
                 "modal_title": "Edit item",
                 "label": "Label",
@@ -17,6 +17,18 @@
                 "submit_button": "Save",
                 "delete_button": "Delete",
                 "delete_item_confirmation": "Are you sure you want to delete this item?"
+            },
+            "variants": {
+                "heading": "Mobile tab variants",
+                "empty_help": "Drag items here to add them to this variant.",
+                "help": "Variants are checked from top to bottom. Users will see the first enabled variant they have permission to view. Put more specific roles first, for example: #1 administrators, #2 moderators, #3 members, #4 everyone.",
+                "number": "#{number}",
+                "enabled": "Enabled",
+                "visible_to": "Visible to",
+                "reorder": "Reorder variant",
+                "delete": "Delete variant",
+                "delete_confirmation": "Are you sure you want to delete this variant? This action cannot be undone.",
+                "create": "Create variant"
             },
             "scroll_settings": {
                 "toggle_label": "Toggle visibility on scroll",
@@ -36,6 +48,7 @@
                 "profile": "Profile",
                 "tags": "Tags",
                 "messages": "Messages",
+                "flags": "Flags",
                 "fof-byobu": "Private",
                 "ramon-chat": "Chat"
             }
