@@ -8,4 +8,4 @@ which have the same source string on both sides, but do not match between them.
 | --- | --- | --- | --- | --- |
 | [German (formal) (`de@formal`)](de@formal.md) | German informal variant | 1 | 237 | 0 |
 | [Serbian (Latin) (`sr_Latn`)](sr_Latn.md) | Serbian (Cyrillic) | 1 | 281 | 126 |
-| [Spanish (formal) (`es@formal`)](es@formal.md) | Spanish informal variant | 1 | 165 | 0 |
+| [Spanish (formal) (`es@formal`)](es@formal.md) | Spanish informal variant | 1 | 155 | 0 |

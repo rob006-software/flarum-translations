@@ -2670,34 +2670,40 @@ Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen <
 > Decision sent.
 
 ```diff
--=> fof-username-request.ref.action.success
+-Entscheidung abgeschickt.
 +Entscheidung gesendet.
 ```
+
+Entscheidung <del>abgeschickt.</del><ins>gesendet.</ins>
 
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
 
 > Your nickname change request has been submitted and is pending approval.
 
 ```diff
--=> fof-username-request.ref.request.confirmation_message
+-Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
 +Ihr Antrag auf Änderung des Spitznamens wurde übermittelt und wartet auf seine Genehmigung.
 ```
+
+<del>Dein</del><ins>Ihr</ins> <del>Änderungswunsch</del><ins>Antrag auf Änderung des Spitznamens</ins> wurde <del>eingereicht</del><ins>übermittelt</ins> und <del>muss</del><ins>wartet</ins> <del>noch</del><ins>auf</ins> <del>genehmigt</del><ins>seine</ins> <del>werden.</del><ins>Genehmigung.</ins>
 
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
 > Nickname request deleted.
 
 ```diff
--=> fof-username-request.ref.request.deleted
+-Deine Anfrage wurde gelöscht.
 +Anfrage zum Spitznamen gelöscht.
 ```
+
+<del>Deine </del>Anfrage <del>wurde</del><ins>zum Spitznamen</ins> gelöscht.
 
 #### [`fof-username-request.forum.nickname_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.resubmit%22)
 
 > At this time you may resubmit a new nickname change request from your account settings if you so choose to.
 
 ```diff
--=> fof-username-request.ref.results.resubmit
+-Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
 +Sie können jetzt über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Spitznamens stellen, falls Sie dies wünschen.
 ```
 
@@ -2706,36 +2712,44 @@ Das Hochladen von Bildern kann fehlschlagen, wenn die Datenschutzeinstellungen <
 > Decision sent.
 
 ```diff
--=> fof-username-request.ref.action.success
+-Entscheidung abgeschickt.
 +Entscheidung versendet.
 ```
+
+Entscheidung <del>abgeschickt.</del><ins>versendet.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
 > Your username change request has been submitted and is pending approval.
 
 ```diff
--=> fof-username-request.ref.request.confirmation_message
+-Dein Änderungswunsch wurde eingereicht und muss noch genehmigt werden.
 +Ihr Antrag auf Änderung des Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 ```
+
+<del>Dein</del><ins>Ihr</ins> <del>Änderungswunsch</del><ins>Antrag auf Änderung des Benutzernamens</ins> wurde <del>eingereicht</del><ins>übermittelt</ins> und<del> muss</del> <del>noch</del><ins>wartet</ins> <del>genehmigt</del><ins>auf</ins> <del>werden.</del><ins>Genehmigung.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.deleted`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.deleted%22)
 
 > Username request deleted.
 
 ```diff
--=> fof-username-request.ref.request.deleted
+-Deine Anfrage wurde gelöscht.
 +Anfrage auf Änderung des Benutzernamens wurde gelöscht.
 ```
+
+<del>Deine </del>Anfrage<ins> auf Änderung des Benutzernamens</ins> wurde gelöscht.
 
 #### [`fof-username-request.forum.username_modals.results.resubmit`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.resubmit%22)
 
 > At this time you may resubmit a new username change request from your account settings if you so choose to.
 
 ```diff
--=> fof-username-request.ref.results.resubmit
+-Du kannst nun weitere Anfragen über deine Account-Einstellungen stellen.
 +Sie können jetzt, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens stellen.
 ```
+
+<del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>nun</del><ins>jetzt,</ins> <del>weitere</del><ins>wenn</ins> <del>Anfragen</del><ins>Sie möchten,</ins> über <del>deine</del><ins>Ihre</ins> <del>Account-Einstellungen</del><ins>Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens</ins> stellen.
 
 
 ### `forumaker-magicbb`
