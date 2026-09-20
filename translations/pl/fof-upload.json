@@ -46,8 +46,8 @@
                 "s3_acl": "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
                 "s3_acl_unsupported": "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n",
                 "s3_path_style": "Umieszcza nazwę bucketu w ścieżce URL zamiast w nazwie hosta. Jest to wymagane przez MinIO i Cloudflare R2; ustawienie włącza się automatycznie po wybraniu odpowiedniego dostawcy.\n",
-                "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
-                "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
+                "custom_s3_url": "Publiczny adres bazowy, spod którego serwowane są Twoje pliki — CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n",
+                "s3_instance_profile": "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM — działa to tylko na EC2, ECS i EKS.\n",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
             },
@@ -66,16 +66,16 @@
                 },
                 "aws-s3": {
                     "bucket": "Bucket",
-                    "key": "Key",
+                    "key": "Access key ID",
                     "region": "Region",
-                    "secret": "Secret",
-                    "title": "Ustawienia AWS S3",
+                    "secret": "Secret access key",
+                    "title": "Magazyn S3",
                     "provider": "Dostawca",
-                    "advanced_title": "Zaawansowane ustawienia S3",
+                    "advanced_title": "Opcje zaawansowane",
                     "endpoint": "Endpoint",
-                    "use_path_style_endpoint": "Use path style endpoint",
+                    "use_path_style_endpoint": "Adresowanie path-style",
                     "acl": "Access Control List (ACL)",
-                    "custom_url": "Niestandardowy adres URL S3"
+                    "custom_url": "Publiczny adres URL"
                 },
                 "disable-download-logging": {
                     "title": "Wyłącz rejestrowanie pobrań",
@@ -104,7 +104,7 @@
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku",
                     "max_file_size_equivalent": "Zapisywane jako <code>{kb}</code> KB ({value}).",
-                    "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
+                    "mime_types": "Typy plików",
                     "mime_type_regex_placeholder": "np. ^image/(jpeg|png|gif)$",
                     "mime_type_regex_invalid": "Nieprawidłowe wyrażenie regularne (np. puste alternatywy, takie jak ||)",
                     "mime_type_permission_placeholder": "Opcjonalnie, np. Obrazy",
@@ -213,7 +213,7 @@
                 "text-preview_description": "Wstawia podgląd (pierwsze 5 wierszy) pliku tekstowego z opcją rozwinięcia w celu wyświetlenia pełnej zawartości pliku.\n"
             },
             "upload_methods": {
-                "aws-s3": "Kompatybilne z S3",
+                "aws-s3": "S3 lub kompatybilne",
                 "imgur": "Imgur",
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
@@ -254,7 +254,7 @@
             "states": {
                 "error": "Błąd",
                 "loading": "Wysyłanie",
-                "unauthorized": "Nie masz uprawnień, aby pobierać pliki",
+                "unauthorized": "Nie masz uprawnień, aby pobrać ten plik",
                 "permission_required": "Wymagane uprawnienie"
             },
             "validation": {
