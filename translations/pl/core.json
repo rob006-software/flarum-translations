@@ -382,7 +382,7 @@
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} few {# nieodczytane odpowiedzi} other {# nieodczytanych odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -463,7 +463,7 @@
             "post_scrubber": {
                 "now_link": "Teraz",
                 "original_post_link": "Początek dyskusji",
-                "unread_text": "{count} nieodczytanych",
+                "unread_text": "{count, plural, one {# nieodczytany} few {# nieodczytane} other {# nieodczytanych}}",
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
