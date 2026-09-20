@@ -9,11 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-/* @noinspection PhpUnusedAliasInspection */
-
 declare(strict_types=1);
-
-use app\components\release\ReleaseGenerator;
 
 return [
 	'af' => [
@@ -22,11 +18,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/afrikaans.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'ar' => [
@@ -35,11 +26,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/arabic.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.2.2'],
-		],
 		'maintainers' => [], // ['neerugupta'], see https://github.com/flarum-lang/arabic/pull/6#issuecomment-3020290604
 	],
 	'ast' => [
@@ -48,11 +34,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/asturian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'az' => [
@@ -61,11 +42,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/azerbaijani.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.0.2'],
-		],
 		'maintainers' => [], // ['khayal011'], see https://github.com/flarum-lang/azerbaijani/pull/1#issuecomment-1311812451
 	],
 	'be' => [
@@ -74,11 +50,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/belarusian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'bg' => [
@@ -87,11 +58,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/bulgarian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['nsokoloff'],
 	],
 	'bn' => [
@@ -100,11 +66,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/bengali.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [], // ['mueenulit'], see https://github.com/flarum-lang/bengali/pull/1#issuecomment-1311816335
 	],
 	'br' => [
@@ -113,11 +74,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/breton.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'bs' => [
@@ -126,11 +82,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/bosnian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'ca' => [
@@ -139,11 +90,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/catalan.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['pepoliveras', 'joanaranda'],
 	],
 	'ckb' => [
@@ -152,11 +98,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/kurdish-central.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'cs' => [
@@ -165,11 +106,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/czech.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.1.5'],
-		],
 		'maintainers' => ['YelehaUwU'],
 	],
 	'cy' => [
@@ -178,11 +114,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/welsh.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'da' => [
@@ -191,11 +122,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/danish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [], // ['DeliciousDanny', 'davwheat'], see https://github.com/flarum-lang/danish/pull/1#issuecomment-1311822729
 	],
 	'de' => [
@@ -203,11 +129,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/german.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.25.10'],
-		],
 		'maintainers' => ['Kakifrucht', 'claudiush'],
 		'variants' => [
 			'informal' => [
@@ -228,11 +149,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/greek.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.0.2'],
-		],
 		'maintainers' => ['futuresound'],
 	],
 	'eo' => [
@@ -241,11 +157,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/esperanto.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'es' => [
@@ -254,11 +165,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/spanish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.13.1'],
-		],
 		'maintainers' => ['iamdarkle', 'jslirola'],
 		'variants' => [
 			'informal' => [
@@ -279,11 +185,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/spanish-argentina.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'es_MX' => [
@@ -292,11 +193,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/spanish-mexico.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'et' => [
@@ -305,11 +201,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/estonian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['JoomlaEstonia'],
 	],
 	'eu' => [
@@ -318,11 +209,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/basque.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'fa' => [
@@ -331,11 +217,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/persian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.4.2'],
-		],
 		'maintainers' => ['claudiush'],
 	],
 	'fi' => [
@@ -344,11 +225,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/finnish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.17.2'],
-		],
 		'maintainers' => ['MarkoKaartinen'],
 	],
 	'fil' => [
@@ -357,11 +233,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/filipino.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'fr' => [
@@ -370,11 +241,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/french.git',
 		'branch' => '5.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v5.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^4.29.2'],
-		],
 		'maintainers' => ['Wlork'],
 	],
 	'ga' => [
@@ -383,11 +249,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/irish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'gl' => [
@@ -396,11 +257,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/galician.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'he' => [
@@ -409,11 +265,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/hebrew.git',
 		'branch' => '3.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '3.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^2.7.2'],
-		],
 		'maintainers' => ['icecore2'],
 	],
 	'hi' => [
@@ -422,11 +273,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/hindi.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.1.9'],
-		],
 		'maintainers' => ['ItsNeil17'],
 	],
 	'hr' => [
@@ -435,11 +281,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/croatian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'hu' => [
@@ -448,11 +289,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/hungarian.git',
 		'branch' => '3.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v3.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^2.10.2'],
-		],
 		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
 	'hy' => [
@@ -461,11 +297,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/armenian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'id' => [
@@ -474,11 +305,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/indonesian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.34.4'],
-		],
 		'maintainers' => ['realodix'],
 	],
 	'is' => [
@@ -487,11 +313,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/icelandic.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'it' => [
@@ -500,11 +321,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/italian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.19.4'],
-		],
 		'maintainers' => ['justoverclockl'],
 	],
 	'ja' => [
@@ -513,11 +329,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/japanese.git',
 		'branch' => '4.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v4.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^3.9.4'],
-		],
 		'maintainers' => ['takumi9942'],
 	],
 	'ka' => [
@@ -526,11 +337,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/georgian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'kab' => [
@@ -539,11 +345,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/kabyle.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'kk' => [
@@ -552,11 +353,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/kazakh.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'km' => [
@@ -565,11 +361,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/khmer.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'kmr' => [
@@ -578,11 +369,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/kurdish-northern.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'kn' => [
@@ -591,11 +377,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/kannada.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'ko' => [
@@ -604,11 +385,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/korean.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.1.3'],
-		],
 		'maintainers' => ['hahagu'],
 	],
 	'lt' => [
@@ -617,11 +393,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/lithuanian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.1.6'],
-		],
 		'maintainers' => [], // ['tavoweb'], see https://github.com/flarum-lang/lithuanian/pull/1#issuecomment-1311833030
 	],
 	'lv' => [
@@ -630,11 +401,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/latvian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.2.3'],
-		],
 		'maintainers' => ['edevrob'],
 	],
 	'mk' => [
@@ -643,11 +409,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/macedonian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'ml' => [
@@ -656,11 +417,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/malayalam.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [], // ['meetdilip'], see https://github.com/flarum-lang/malayalam/pull/1#issuecomment-1311837994
 	],
 	'mr' => [
@@ -669,11 +425,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/marathi.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'my' => [
@@ -682,11 +433,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/burmese.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'nb' => [
@@ -695,11 +441,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/norwegian-bokmal.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['tormi-github'],
 	],
 	'ne' => [
@@ -708,11 +449,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/nepali.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'nl' => [
@@ -721,11 +457,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/dutch.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.4.2'],
-		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
 	'nn' => [
@@ -734,11 +465,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/norwegian-nynorsk.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'oc' => [
@@ -747,11 +473,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/occitan.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'pa' => [
@@ -760,11 +481,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/punjabi.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'pl' => [
@@ -773,11 +489,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/polish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.10.6'],
-		],
 		'maintainers' => ['rob006'],
 		'discussThreadId' => 18134,
 	],
@@ -787,11 +498,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/portuguese.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'pt_BR' => [
@@ -800,11 +506,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/brazilian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.7.4'],
-		],
 		'maintainers' => ['ram0ng1'],
 	],
 	'ro' => [
@@ -813,11 +514,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/romanian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.2.3'],
-		],
 		'maintainers' => ['laurentiu86stan'],
 	],
 	'ru' => [
@@ -826,11 +522,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/russian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.59.18'],
-		],
 		'maintainers' => ['KaiKimera'],
 	],
 	'sc' => [
@@ -839,11 +530,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/sardinian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'si' => [
@@ -852,11 +538,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/sinhala.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.6.3'],
-		],
 		'maintainers' => ['sayuri-gi'],
 	],
 	'sk' => [
@@ -865,11 +546,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/slovak.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.4.1'],
-		],
 		'maintainers' => ['SKevo18'],
 	],
 	'sl' => [
@@ -878,11 +554,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/slovenian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'sq' => [
@@ -891,11 +562,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/albanian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'sr_Cyrl' => [
@@ -904,11 +570,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/serbian-cyrillic.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'sr_Latn' => [
@@ -917,11 +578,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/serbian-latin.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'sv' => [
@@ -930,11 +586,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/swedish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.1.2'],
-		],
 		'maintainers' => ['Dzenan', 'gustjoha'],
 	],
 	'ta' => [
@@ -943,11 +594,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/tamil.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.3.2'],
-		],
 		'maintainers' => [], // ['eYM3', 'sayuri-gi'], see https://github.com/flarum-lang/tamil/pull/3#issuecomment-1311851703
 	],
 	'te' => [
@@ -956,11 +602,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/telugu.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'tg' => [
@@ -969,11 +610,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/tajik.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['alikhakbaz97'],
 	],
 	'th' => [
@@ -982,11 +618,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/thai.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [], // ['kon3ko'], see https://github.com/flarum-lang/thai/pull/2#issuecomment-1311857526
 	],
 	'tk' => [
@@ -995,11 +626,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/turkmen.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['NuryagdyMuhyyev'],
 	],
 	'tl' => [
@@ -1008,11 +634,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/tagalog.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'tok' => [
@@ -1021,11 +642,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/toki-pona.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['mazziechai'],
 	],
 	'tr' => [
@@ -1034,11 +650,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/turkish.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.45.7'],
-		],
 		'maintainers' => ['tolgaaaltas', 'selmanozturk', 'huseyinfiliz'], // todo: temporary maintainer? https://discuss.flarum.org/d/27519-the-flarum-language-project/235
 	],
 	'tt' => [
@@ -1047,11 +658,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/tatar.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => ['inov8ru'],
 	],
 	'ug' => [
@@ -1060,11 +666,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/uyghur.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'uk' => [
@@ -1073,11 +674,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/ukrainian.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.54.2'],
-		],
 		'maintainers' => ['denysdesign'],
 	],
 	'ur' => [
@@ -1086,11 +682,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/urdu.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => [],
-		],
 		'maintainers' => [],
 	],
 	'uz' => [
@@ -1099,11 +690,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/uzbek.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => '2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^0.1.4'],
-		],
 		'maintainers' => ['JeongJun-Lee'],
 	],
 	'vi' => [
@@ -1112,11 +698,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/vietnamese.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.12.2'],
-		],
 		'maintainers' => ['datlechin'],
 	],
 	'zh_Hans' => [
@@ -1125,11 +706,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/chinese-simplified.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.6.1'],
-		],
 		'maintainers' => ['thatsgolden'],
 	],
 	'zh_Hant' => [
@@ -1138,11 +714,6 @@ return [
 		'repository' => 'git@github.com:flarum-lang/chinese-traditional.git',
 		'branch' => '2.x',
 		'path' => '/locale',
-		'releaseGenerator' => [
-			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'v2.Minor.Patch',
-			'ignoredVersionsConstraints' => ['^1.28.2'],
-		],
 		'maintainers' => ['efast1568'],
 	],
 ];
