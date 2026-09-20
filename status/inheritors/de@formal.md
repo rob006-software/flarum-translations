@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **364** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **52** components.
+sides, but do not match between them: **371** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **54** components.
 
 <!-- {% raw %} -->
 
@@ -44,6 +44,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-gamification` | [1](#fof-gamification) |
 | `fof-geoip` | [1](#fof-geoip) |
 | `fof-horizon` | [2](#fof-horizon) |
+| `fof-impersonate` | [1](#fof-impersonate) |
 | `fof-links` | [2](#fof-links) |
 | `fof-mailing` | [1](#fof-mailing) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
@@ -58,9 +59,10 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-sitemap` | [1](#fof-sitemap) |
 | `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [19](#fof-upload) |
-| `fof-username-request` | [23](#fof-username-request) |
+| `fof-username-request` | [26](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `ianm-follow-users` | [6](#ianm-follow-users) |
+| `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
@@ -1464,10 +1466,10 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 
 ```diff
 -Du musst angemeldet sein, um diesen Inhalt ansehen zu können.
-+Sie müssen angemeldet sein, um diesen Inhalt ansehen zu können
++Sie müssen angemeldet sein, um diesen Inhalt ansehen zu können.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> angemeldet sein, um diesen Inhalt ansehen zu <del>können.</del><ins>können</ins>
+<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> angemeldet sein, um diesen Inhalt ansehen zu können.
 
 #### [`datlechin-bbcode-hide-content.forum.must_liked`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/de@formal/?q=context%3A%3D%22datlechin-bbcode-hide-content.forum.must_liked%22)
 
@@ -1475,10 +1477,10 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 
 ```diff
 -Du musst diesen Inhalt liken, um ihn ansehen zu können.
-+Sie müssen diesen Inhalt liken, um ihn ansehen zu können
++Sie müssen diesen Inhalt liken, um ihn ansehen zu können.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> diesen Inhalt liken, um ihn ansehen zu <del>können.</del><ins>können</ins>
+<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> diesen Inhalt liken, um ihn ansehen zu können.
 
 #### [`datlechin-bbcode-hide-content.forum.must_replied`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/de@formal/?q=context%3A%3D%22datlechin-bbcode-hide-content.forum.must_replied%22)
 
@@ -1486,10 +1488,10 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 
 ```diff
 -Du musst auf diesen Inhalt antworten, um ihn ansehen zu können.
-+Sie müssen auf diesen Inhalt antworten, um ihn ansehen zu können
++Sie müssen auf diesen Inhalt antworten, um ihn ansehen zu können.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> auf diesen Inhalt antworten, um ihn ansehen zu <del>können.</del><ins>können</ins>
+<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> auf diesen Inhalt antworten, um ihn ansehen zu können.
 
 
 ### `datlechin-birthdays`
@@ -3051,6 +3053,20 @@ Hier <del>kannst</del><ins>können</ins> <del>du</del><ins>Sie</ins> einstellen,
 Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del><ins>überprüfen</ins> <del>deine</del><ins>Sie Ihre</ins> Redis-Konfiguration.
 
 
+### `fof-impersonate`
+
+#### [`fof-impersonate.lib.modal.placeholder_optional`](https://weblate.rob006.net/translate/flarum2/fof-impersonate/de@formal/?q=context%3A%3D%22fof-impersonate.lib.modal.placeholder_optional%22)
+
+> (Optional) Provide your reason for switching to this user
+
+```diff
+-(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an
++(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an.
+```
+
+(Optional) <del>Gib</del><ins>Geben Sie</ins> einen Grund für den Wechsel zu diesem Benutzer <del>an</del><ins>an.</ins>
+
+
 ### `fof-links`
 
 #### [`fof-links.admin.edit_link.delete_link_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-links/de@formal/?q=context%3A%3D%22fof-links.admin.edit_link.delete_link_confirmation%22)
@@ -4208,10 +4224,10 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 ```diff
 -Deine Anfrage zur Änderung deines Spitznamens wurde eingereicht und wartet auf Genehmigung.
-+Ihre Anfrage zur Änderung Ihres Spitznamens wurde eingereicht und wartet auf Genehmigung.
++Ihr Antrag auf Änderung des Spitznamens wurde übermittelt und wartet auf seine Genehmigung.
 ```
 
-<del>Deine</del><ins>Ihre</ins> Anfrage zur Änderung <del>deines</del><ins>Ihres</ins> Spitznamens wurde eingereicht und wartet auf Genehmigung.
+<del>Deine</del><ins>Ihr</ins> <del>Anfrage</del><ins>Antrag</ins> <del>zur</del><ins>auf</ins> Änderung <del>deines</del><ins>des</ins> Spitznamens wurde <del>eingereicht</del><ins>übermittelt</ins> und wartet auf<ins> seine</ins> Genehmigung.
 
 #### [`fof-username-request.forum.nickname_modals.request.current_request`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.current_request%22)
 
@@ -4223,6 +4239,17 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
+
+#### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
+
+> Nickname request deleted.
+
+```diff
+-Spitznamenanfrage gelöscht.
++Anfrage zum Spitznamen gelöscht.
+```
+
+<del>Spitznamenanfrage</del><ins>Anfrage zum Spitznamen</ins> gelöscht.
 
 #### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
 
@@ -4261,10 +4288,10 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 ```diff
 -Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Spitznamens stellen.
-+Zu diesem Zeitpunkt können Sie, wenn sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung Ihres Spitznamens stellen.
++Sie können jetzt über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Spitznamens stellen, falls Sie dies wünschen.
 ```
 
-Zu diesem Zeitpunkt <del>kannst</del><ins>können</ins> <del>du,</del><ins>Sie,</ins> wenn <del>du</del><ins>sie</ins> <del>möchtest,</del><ins>möchten,</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>Ihres</ins> Spitznamens stellen.
+<del>Zu diesem Zeitpunkt kannst du, wenn</del><ins>Sie</ins> <del>du</del><ins>können</ins> <del>möchtest,</del><ins>jetzt</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Spitznamens <del>stellen.</del><ins>stellen, falls Sie dies wünschen.</ins>
 
 #### [`fof-username-request.forum.username_modals.action.approval_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.approval_label%22)
 
@@ -4295,16 +4322,27 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 +Ablehnungsgrund
 ```
 
+#### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
+
+> Decision sent.
+
+```diff
+-Entscheidung gesendet.
++Entscheidung versendet.
+```
+
+Entscheidung <del>gesendet.</del><ins>versendet.</ins>
+
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
 > Your username change request has been submitted and is pending approval.
 
 ```diff
 -Deine Anfrage zur Änderung deines Benutzernamens wurde übermittelt und wartet auf Genehmigung.
-+Ihre Anfrage zur Änderung Ihres Benutzernamens wurde übermittelt und wartet auf Genehmigung.
++Ihr Antrag auf Änderung des Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 ```
 
-<del>Deine</del><ins>Ihre</ins> Anfrage zur Änderung <del>deines</del><ins>Ihres</ins> Benutzernamens wurde übermittelt und wartet auf Genehmigung.
+<del>Deine</del><ins>Ihr</ins> <del>Anfrage</del><ins>Antrag</ins> <del>zur</del><ins>auf</ins> Änderung <del>deines</del><ins>des</ins> Benutzernamens wurde übermittelt und wartet auf Genehmigung.
 
 #### [`fof-username-request.forum.username_modals.request.current_request`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.current_request%22)
 
@@ -4316,6 +4354,17 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 ```
 
 <del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Benutzernamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Benutzernamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
+
+#### [`fof-username-request.forum.username_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.deleted%22)
+
+> Username request deleted.
+
+```diff
+-Benutzernamenanfrage gelöscht.
++Anfrage auf Änderung des Benutzernamens wurde gelöscht.
+```
+
+<del>Benutzernamenanfrage</del><ins>Anfrage auf Änderung des Benutzernamens wurde</ins> gelöscht.
 
 #### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
 
@@ -4365,10 +4414,10 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutze
 
 ```diff
 -Zu diesem Zeitpunkt kannst du, wenn du möchtest, über deine Kontoeinstellungen einen neuen Antrag auf Änderung deines Benutzernamens stellen.
-+Zu diesem Zeitpunkt können Sie, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung Ihres Benutzernamens stellen.
++Sie können jetzt, wenn Sie möchten, über Ihre Kontoeinstellungen einen neuen Antrag auf Änderung des Benutzernamens stellen.
 ```
 
-Zu diesem Zeitpunkt <del>kannst</del><ins>können</ins> <del>du,</del><ins>Sie,</ins> wenn <del>du</del><ins>Sie</ins> <del>möchtest,</del><ins>möchten,</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>Ihres</ins> Benutzernamens stellen.
+<del>Zu diesem Zeitpunkt</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>du,</del><ins>jetzt,</ins> wenn <del>du</del><ins>Sie</ins> <del>möchtest,</del><ins>möchten,</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Benutzernamens stellen.
 
 
 ### `forumaker-magicbb`
@@ -4480,6 +4529,40 @@ Es sieht so aus, als <del>hättest</del><ins>hätten</ins> <del>du</del><ins>Sie
 ```
 
 Anscheinend <del>folgst</del><ins>folgen</ins> <del>du</del><ins>Sie</ins> niemandem.
+
+
+### `ralkage-hcaptcha`
+
+#### [`ralkage-hcaptcha.admin.settings.dark_mode_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_help%22)
+
+> Use the dark theme for the hCaptcha widget. Enable this if your forum uses a dark theme.
+
+```diff
+-Verwende das dunklen Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
++Verwende das dunkle Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
+```
+
+Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
+
+#### [`ralkage-hcaptcha.admin.settings.dark_mode_label`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_label%22)
+
+> Dark Mode
+
+```diff
+-Dunkles Design
++Dunkler Modus
+```
+
+#### [`ralkage-hcaptcha.admin.settings.enable_login_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.enable_login_help%22)
+
+> Require hCaptcha when users log in. Helps protect against brute-force attacks.
+
+```diff
+-Bei der Anmeldung von Benutzern hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
++Bei der Anmeldung der Benutzer hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
+```
+
+Bei der Anmeldung <del>von</del><ins>der</ins> <del>Benutzern</del><ins>Benutzer</ins> hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
 
 
 ### `resofire-digest-mail`

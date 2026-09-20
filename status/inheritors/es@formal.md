@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Spanish informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **360** are translated differently and **0** are
-translated only in `es@formal`. Altogether they cover **22** components.
+sides, but do not match between them: **357** are translated differently and **0** are
+translated only in `es@formal`. Altogether they cover **21** components.
 
 <!-- {% raw %} -->
 
@@ -12,7 +12,7 @@ translated only in `es@formal`. Altogether they cover **22** components.
 
 | Component | Different translations |
 | --- | --- |
-| `core` | [286](#core) |
+| `core` | [285](#core) |
 | `datlechin-birthdays` | [9](#datlechin-birthdays) |
 | `flarum-akismet` | [1](#flarum-akismet) |
 | `flarum-emoji` | [1](#flarum-emoji) |
@@ -22,7 +22,6 @@ translated only in `es@formal`. Altogether they cover **22** components.
 | `flarum-mentions` | [8](#flarum-mentions) |
 | `flarum-sticky` | [3](#flarum-sticky) |
 | `flarum-subscriptions` | [4](#flarum-subscriptions) |
-| `flarum-suspend` | [2](#flarum-suspend) |
 | `flarum-tags` | [9](#flarum-tags) |
 | `fof-links` | [1](#fof-links) |
 | `fof-masquerade` | [3](#fof-masquerade) |
@@ -2033,17 +2032,6 @@ Aún no has publicado tus cambios. <del>¿Estás seguro de</del><ins>¿Seguro</i
 
 Se <del>realizó</del><ins>han</ins> <del>tu</del><ins>guardado</ins> <del>edición.</del><ins>tus cambios.</ins>
 
-#### [`core.forum.composer_edit.post_link`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_edit.post_link%22)
-
-> Post #{number} in {discussion}
-
-```diff
--Publicación n.º {number} en {discussion}
-+Publicación #{number} en {discussion}
-```
-
-Publicación <del>n.º {number}</del><ins>#{number}</ins> en {discussion}
-
 #### [`core.forum.composer_reply.discard_confirmation`](https://weblate.rob006.net/translate/flarum2/core/es@formal/?q=context%3A%3D%22core.forum.composer_reply.discard_confirmation%22)
 
 > You have not posted your reply. Do you wish to discard it?
@@ -3369,11 +3357,11 @@ Algunas extensiones instaladas no son compatibles con la versión principal más
 
 ```diff
 -Completa el nombre del paquete de extensión para continuar. Puedes especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/package-name:version</code>. Visita {link} para explorar extensiones disponibles.
-+Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {extiverse} para explorar extensiones.
++Complete el nombre del paquete de extensión para continuar. Puede especificar una <semantic_link>versión semántica</semantic_link> utilizando el formato <code>vendor/nombre-del-paquete:versión</code>. Visite {link} para explorar extensiones.
 
 ```
 
-<del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato <del>&lt;code&gt;vendor/package-name:version&lt;/code&gt;.</del><ins>&lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;.</ins> <del>Visita</del><ins>Visite</ins> <del>{link}</del><ins>{extiverse}</ins> para explorar<del> extensiones</del> <del>disponibles.</del><ins>extensiones.</ins><br />
+<del>Completa</del><ins>Complete</ins> el nombre del paquete de extensión para continuar. <del>Puedes</del><ins>Puede</ins> especificar una &lt;semantic\_link&gt;versión semántica&lt;/semantic\_link&gt; utilizando el formato <del>&lt;code&gt;vendor/package-name:version&lt;/code&gt;.</del><ins>&lt;code&gt;vendor/nombre-del-paquete:versión&lt;/code&gt;.</ins> <del>Visita</del><ins>Visite</ins> {link} para explorar<del> extensiones</del> <del>disponibles.</del><ins>extensiones.</ins><br />
 
 #### [`flarum-extension-manager.admin.major_updater.description`](https://weblate.rob006.net/translate/flarum2/flarum-extension-manager/es@formal/?q=context%3A%3D%22flarum-extension-manager.admin.major_updater.description%22)
 
@@ -3704,31 +3692,6 @@ No ser notificado <del>nunca. Ocultar de la</del><ins>y</ins> <del>lista</del><i
 ```
 
 Recibir un <del>email</del><ins>e-mail</ins> cuando haya nuevas publicaciones
-
-
-### `flarum-suspend`
-
-#### [`flarum-suspend.forum.notifications.user_suspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/es@formal/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_suspended_text%22)
-
-> You have been suspended for {timeReadable}
-
-```diff
--Te han suspendido durante {timeReadable}
-+{username} le ha suspendido durante {timeReadable}
-```
-
-<del>Te</del><ins>{username}</ins> <del>han</del><ins>le ha</ins> suspendido durante {timeReadable}
-
-#### [`flarum-suspend.forum.notifications.user_unsuspended_text`](https://weblate.rob006.net/translate/flarum2/flarum-suspend/es@formal/?q=context%3A%3D%22flarum-suspend.forum.notifications.user_unsuspended_text%22)
-
-> You have been unsuspended
-
-```diff
--Te han quitado la suspensión
-+{username} le ha quitado la suspensión
-```
-
-<del>Te</del><ins>{username}</ins> <del>han</del><ins>le ha</ins> quitado la suspensión
 
 
 ### `flarum-tags`
