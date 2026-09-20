@@ -16,7 +16,7 @@
                 "no-option-selected": "Nie wybrano żadnej opcji"
             },
             "tags": {
-                "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i podrzędny lub wyłącz opcję \"Pokaż listę wyboru tagów jako pole\".\n",
+                "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i jeden dodatkowy lub wyłącz opcję \"Pokaż listę wyboru tagów jako pole\".\n",
                 "tags-label": "Tagi"
             }
         },
@@ -45,7 +45,7 @@
                 "show_when_empty": "Pokaż, jeśli puste",
                 "show_when_empty-help": "Czy pokazać to pole w dyskusji, nawet jeśli nie zostało uzupełnione",
                 "validation": "Walidacja dla wartości wprowadzonych przez użytkownika",
-                "user_values_allowed": "Pozwól użytkowników podawać własne wartości",
+                "user_values_allowed": "Pozwól użytkownikom podawać własne wartości",
                 "user_values_allowed-help": "Jeśli włączone, użytkownicy będą mogli podawać własne wartości zamiast tych zdefiniowanych przez administratora. Te wartości zostaną sprawdzone zgodnie z regułami walidacji podanymi poniżej. Jeśli wyłączone, użytkownicy będą mogli używać jedynie \"sugerowanych\" odpowiedzi.\n",
                 "validation-help": "Sprawdź wspierane <a>reguły walidacji Laravela</a>. Na przykład: \"string|min:5\" lub \"url\".\n",
                 "enable-user-values-for-validation": "Pozwól użytkownikom wprowadzać własne wartości, aby skonfigurować reguły walidacji",
@@ -73,7 +73,7 @@
                 "hide-empty-fields-section": "Ukryj tytuł i kontrolki, jeśli wszystkie pola są puste lub ukryte",
                 "hide-empty-fields-section-help": "Domyślnie, jeśli użytkownik może edytować pola lub tytuł został ustawiony, sekcja zawsze będzie wyświetlana, nawet jeśli wszystkie pola są ukryte. Po włączeniu tej opcji, cała sekcja zostanie ukryta i przycisk \"Edytuj pola\" będzie dostępny jedynie wewnątrz menu \"Odpowiedz\", jeśli wszystkie pola są puste.\n",
                 "tags-as-field": "Pokaż listę wyboru tagów jako pole",
-                "tags-as-field-help": "To schowa standardowe pole do wyboru tagów i zamiast tego wyświetli niestandardową listę wyboru. Ta opcja zadziała jedynie, jeśli pozwoliłeś maksymalnie na jeden główny i jeden tag podrzędny!\n",
+                "tags-as-field-help": "To schowa standardowe pole do wyboru tagów i zamiast tego wyświetli niestandardową listę wyboru. Ta opcja zadziała jedynie, jeśli pozwoliłeś maksymalnie na jeden tag główny i jeden dodatkowy!\n",
                 "tags-field-name": "Etykieta dla pola z tagami",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },

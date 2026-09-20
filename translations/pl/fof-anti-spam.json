@@ -19,7 +19,7 @@
                     "move_discussions_to_tags_help": "Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do określonych tagów. Wyczyść wybór tagów, aby pozostawić dyskusje w ich oryginalnych tagach. To nie ma wpływu, jeśli opcja \"Usuń dyskusje\" jest włączona."
                 },
                 "stopforumspam": {
-                    "introduction": "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n",
+                    "introduction": "Sprawdza nowe rejestracje użytkowników w bazie danych <a>StopForumSpam</a>. Jeśli osiągnięte zostaną progi <code>confidence</code> (pewności) lub <code>frequency</code> (częstotliwości), użytkownikowi uniemożliwione zostanie dokończenie rejestracji na Twoim forum.\n\nObsługiwane jest także SSO przez <code>fof/oauth</code> i <code>fof/passport</code>. Inni dostawcy SSO powinni działać, ale nie są przetestowani.\n",
                     "username_label": "Kontrola spamu nazwy użytkownika",
                     "ip_label": "Kontrola spamu adresu IP",
                     "email_label": "Kontrola spamu adresu e-mail",
@@ -51,7 +51,7 @@
                 "help": "Ta strona pokazuje wszystkie rejestracje, które zostały zablokowane przez usługę StopForumSpam. Możesz wyświetlić szczegóły każdej rejestracji, a jeśli chcesz, możesz usunąć rekord z bazy danych.\n",
                 "attempted-at": "Próba",
                 "ip": "Adres IP",
-                "email": "Adres email",
+                "email": "Adres e-mail",
                 "username": "Nazwa użytkownika",
                 "login-provider": "Dostawca logowania",
                 "login-provider-data": "Dane dostawcy logowania",
@@ -93,7 +93,7 @@
                     "marked_as_spammer": "Oznaczono {username} jako spamera"
                 },
                 "registration": {
-                    "blocked": "Zablokowano rejestrację użytkownika {username} ({email}) z {ip})"
+                    "blocked": "Zablokowano rejestrację użytkownika {username} ({email}) z {ip}"
                 }
             }
         }

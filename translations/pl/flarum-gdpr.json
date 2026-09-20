@@ -25,11 +25,11 @@
                     "type": "Typ",
                     "nullable": "Dopuszcza null",
                     "pii": "Dane osobowe",
-                    "redacted_on_export": "Redagowane przy eksporcie",
+                    "redacted_on_export": "Maskowane przy eksporcie",
                     "extension": "Rozszerzenie",
                     "yes": "Tak",
                     "no": "Nie",
-                    "pii_tooltip": "Ta kolumna jest uznawana za dane osobowe i będzie redagowana w kontekstach anonimizacji (np. anonimizowane ładunki zdarzeń).",
+                    "pii_tooltip": "Ta kolumna jest uznawana za dane osobowe i będzie maskowana w kontekstach anonimizacji (np. anonimizowane ładunki zdarzeń).",
                     "redacted_on_export_tooltip": "Wartość tej kolumny jest zerowana (ustawiana na null) podczas generowania eksportu danych użytkownika. Kolumna nadal pojawia się w eksporcie z wartością null."
                 }
             },
@@ -47,7 +47,7 @@
                 "allow_deletion": "Zezwalaj na całkowite usunięcie przy wnioskach o usunięcie konta",
                 "allow_deletion_help": "Opcja znacznie bardziej restrykcyjna. W tym trybie wszystkie posty/komentarze zostaną usunięte i użytkownik zostanie usunięty z bazy danych. Używaj z ostrożnością.",
                 "default_anonymous_username": "Domyślna nazwa użytkownika dla zanonimizowanych użytkowników",
-                "default_anonymous_username_help": "Gdy użytkownik zostanie zanonimizowany, jego nazwa użytkownika zostanie zastąpiona tą wartością, plus ID żądania anonimizacji, na przykład <code>Anonim123</code>.",
+                "default_anonymous_username_help": "Gdy użytkownik zostanie zanonimizowany, jego nazwa użytkownika zostanie zastąpiona tą wartością, plus ID żądania anonimizacji, na przykład <code>Anonymous123</code>.",
                 "default_erasure": "Domyślne działanie dla wniosków o usunięcie konta",
                 "default_erasure_help": "Jakie powinno być domyślne działanie dla wniosków o usunięcie konta?",
                 "default_erasure_options": {
@@ -56,7 +56,7 @@
                 },
                 "gdpr_page": {
                     "title": "Integracja danych i akcje",
-                    "help_text": "Przed podjęciem decyzji o wyborze akcji na swoim forum, istotne jest zrozumienie, które dane są zintegrowane i jak są one obsługiwane zarówno w przypadku anonimizacji, jak i usuwania. Odwiedź przegląd GDPR, aby zrozumieć, jak dane są obsługiwane i które opcjonalne rozszerzenia zarejestrowały swoje dane do obsługi przez to rozszerzenie."
+                    "help_text": "Przed podjęciem decyzji o wyborze akcji na swoim forum, istotne jest zrozumienie, które dane są zintegrowane i jak są one obsługiwane zarówno w przypadku anonimizacji, jak i usuwania. Odwiedź przegląd RODO, aby zrozumieć, jak dane są obsługiwane i które opcjonalne rozszerzenia zarejestrowały swoje dane do obsługi przez to rozszerzenie."
                 }
             },
             "userlist": {
@@ -128,7 +128,7 @@
         },
         "forum": {
             "badges": {
-                "anonymized_user": "Anonimowy użytkownik"
+                "anonymized_user": "Zanonimizowany użytkownik"
             },
             "delete_user": {
                 "title": "Usuń konto {username}",
