@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "大数缩写精度",
+                    "help": "设置大数字缩写为 K、M、B 时保留的小数位数（0–2 位）。"
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "帖子",
+                    "discussion_count": "讨论",
+                    "user_count": "用户"
                 },
-                "title": ""
+                "title": "论坛统计"
             }
         }
     }

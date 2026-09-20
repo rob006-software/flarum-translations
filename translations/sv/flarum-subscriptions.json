@@ -11,7 +11,7 @@
                 "unignore_button": "Sluta ignorera"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
@@ -21,24 +21,24 @@
             },
             "settings": {
                 "follow_after_reply_label": "Följ automatiskt trådar som jag svarar i",
-                "notify_for_all_posts_label": "",
-                "notify_new_post_label": "Någon skriver i en tråd som jag följer"
+                "notify_for_all_posts_label": "Avisera om varje nytt inlägg istället för bara det senaste i en diskussion",
+                "notify_new_post_label": "Någon gör ett inlägg i en diskussion jag följer"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "Få notiser om alla svar.",
+                "following_text": "Få aviseringar om alla svar.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Få aldrig notiser. Göm från diskussionslistan.",
+                "ignoring_text": "Ta aldrig emot aviseringar. Dölj från diskussionslistan.",
                 "not_following_button": "Följer inte",
-                "not_following_text": "Få notis endast när du blir @omnämnd.",
-                "notify_alert_tooltip": "Få notiser från forumet när det finns nya inlägg",
+                "not_following_text": "Få endast aviseringar när du blir omnämnd med @.",
+                "notify_alert_tooltip": "Få aviseringar från forumet när det finns nya inlägg",
                 "notify_email_tooltip": "Få ett mail när det finns nya inlägg"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
+                "subject": "[Nytt inlägg] {title}",
                 "body": ""
             }
         },

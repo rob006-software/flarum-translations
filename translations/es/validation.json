@@ -94,9 +94,9 @@
         "required_with_all": "El campo :attribute es obligatorio cuando :values estén presentes.",
         "required_without": "El campo :attribute es obligatorio cuando :values no esté presente.",
         "required_without_all": "El campo :attribute es obligatorio cuando ninguno de :values estén presentes.",
-        "prohibited": "",
-        "prohibited_if": "",
-        "prohibited_unless": "",
+        "prohibited": "El campo :attribute prohibido.",
+        "prohibited_if": "El campo :attribute se prohíbe cuando :other es :value.",
+        "prohibited_unless": "El campo :attribute se prohíbe salvo que :other es :values.",
         "same": "El :attribute y :other deben concordar.",
         "size": {
             "numeric": "El :attribute debe ser :size.",

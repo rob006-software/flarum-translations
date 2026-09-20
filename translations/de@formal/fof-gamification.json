@@ -16,12 +16,12 @@
             },
             "ranking": {
                 "rank": "Platz",
-                "name": "Nutzer",
+                "name": "Benutzer",
                 "amount": "Punkte"
             },
             "notification": {
-                "upvote": "{username} hat deinen Beitrag Upgevoted",
-                "downvote": "{username} hat deinen Beitrag Downgevoted",
+                "upvote": "{username} hat deinen Beitrag upgevoted",
+                "downvote": "{username} hat deinen Beitrag downgevoted",
                 "prefrences": {
                     "vote": "Wenn einer meiner Beiträge mit Up/Down bewertet wird"
                 }
@@ -35,14 +35,14 @@
             },
             "modal": {
                 "downvotes_label": "Downvoter:",
-                "title": "Wähler",
+                "title": "Abstimmende",
                 "upvotes_label": "Upvoter:"
             },
             "mod_item": "Wähler anzeigen",
             "voters": {
-                "none": "Noch keine Wähler",
-                "label": "Noch keine Wähler",
-                "label_none": "Keine Wähler"
+                "none": "Noch keine Abstimmenden",
+                "label": "Abstimmende",
+                "label_none": "Keine Abstimmenden"
             },
             "post": {
                 "upvote_button": "Beitrag positiv bewerten",
@@ -86,7 +86,7 @@
                     "title": "Stimmen",
                     "vote_color": "Abgestimmt Farbe",
                     "icon_name": "Upvote/Downvote Symbol",
-                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
+                    "icon_help": "Gib ein beliebiges Font-Awesome-Symbol mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
                     "upvotes_only": "Nur Upvoting zulassen",
                     "first_post_only": "Stimmen nach oben/unten nur im ersten Beitrag einer Diskussion zulassen",
                     "allow_self_votes": "Nutzer können über ihre eigenen Beiträge abstimmen"
@@ -104,7 +104,7 @@
                     "number_title": "Wie viele Rangabzeichen sollen angezeigt werden?",
                     "help": {
                         "color": "#ffffff",
-                        "help": "Gebe die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein",
+                        "help": "Gib die gewünschte Anzahl an Upvotes, den Namen des Ranges und die Hex-Farbe des Ranges ein",
                         "points": "Punkte",
                         "name": "Name"
                     }

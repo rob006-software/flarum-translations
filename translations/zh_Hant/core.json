@@ -43,12 +43,12 @@
                 "title": "一般",
                 "welcome_banner_heading": "歡迎橫幅",
                 "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "已棄用插件",
+                "abandoned_extensions_text": "Flarum 維護了一份<a>已棄用擴充套件清單</a>。若安裝了清單中的擴充套件，管理後台將會標示該擴充套件。",
+                "abandoned_extensions_sync_button": "立即檢查",
+                "abandoned_extensions_sync_success": "已完成更新已棄用擴充套件清單。已安裝的擴充套件中，共有 {count} 個已棄用。",
+                "abandoned_extensions_sync_error": "已棄用擴充套件清單更新失敗。請稍後再試。",
+                "abandoned_extensions_notify_admins_label": "每週例行檢查時，若發現新的已棄用擴充套件，將以電子郵件通知管理員"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,22 +61,22 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# 則留言} other {# 則留言}}",
+                "description": "Flarum 團隊的最新消息和公告。",
+                "empty": "未發現公告。",
+                "load_error": "無法加載公告。請稍候再試。",
+                "about": "來自 Flarum 官方社群 discuss.flarum.org 的最新消息與公告。",
+                "hide": "隱藏公告",
+                "read_more": "閱讀更多",
+                "refresh": "刷新公告",
+                "retry": "重試",
+                "show": "顯示公告",
+                "title": "公告",
+                "view_all": "在 discuss.flarum.org 查看全部"
             },
             "dashboard": {
                 "clear_cache_button": "清除快取",
-                "description": "論壇資訊總覽",
+                "description": "論壇資訊總覽。",
                 "info_button": "系統訊息",
                 "info_modal": {
                     "title": "系統訊息",
@@ -101,7 +101,7 @@
                 "tools_button": "工具"
             },
             "debug-warning": {
-                "detail": "啟用 <code>調適</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的 <code>debug</code> 設置為 <code>false</code> 以禁用調試模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
+                "detail": "啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
                 "label": "除錯模式啟動"
             },
             "edit_css": {
@@ -134,7 +134,7 @@
             },
             "email": {
                 "addresses_heading": "郵箱地址",
-                "description": "配置論壇郵件服務",
+                "description": "配置論壇郵件服務。",
                 "driver_heading": "驅動模式",
                 "driver_label": "驅動",
                 "from_label": "發信人",
@@ -142,7 +142,7 @@
                 "mail_host_label": "主機",
                 "mail_mailgun_domain_label": "域名",
                 "mail_mailgun_region_label": "區域",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "密鑰",
                 "mail_password_label": "密碼",
                 "mail_port_label": "通訊埠",
                 "mail_username_label": "用戶名 (部分服務商要求使用完整郵件地址)",
@@ -151,7 +151,7 @@
                 "send_test_mail_button": "發送",
                 "send_test_mail_heading": "發送測試郵件",
                 "send_test_mail_success": "測試郵件發送成功！",
-                "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}",
+                "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}。",
                 "smtp_heading": "SMTP 設定",
                 "title": "信箱"
             },
@@ -202,7 +202,7 @@
                     "discussion": "主題",
                     "feature": "功能",
                     "formatting": "格式化",
-                    "forum-widget": "",
+                    "forum-widget": "論譠小組件",
                     "language": "語言包",
                     "moderation": "內容審核",
                     "other": "其他",
@@ -348,11 +348,11 @@
                 "discard_confirmation": "貼文尚未發佈，是否丟棄？",
                 "submit_button": "發佈",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": "文章標題 ..."
+                "title_placeholder": "文章標題"
             },
             "composer_edit": {
                 "discard_confirmation": "更改未儲存，是否丟棄？",
-                "edited_message": "編輯成功",
+                "edited_message": "編輯成功。",
                 "post_link": "發佈 #{number} 於 {discussion}",
                 "submit_button": "儲存更改",
                 "view_button": "查看"
@@ -377,7 +377,7 @@
                 "toggle_dropdown_accessible_label": "主題下拉選單開關"
             },
             "discussion_list": {
-                "empty_text": "因為什麼都沒有，所以什麼都做得到",
+                "empty_text": "因為什麼都沒有，所以什麼都做得到。",
                 "load_more_button": "載入更多",
                 "replied_text": "{username} 回覆於 {ago}",
                 "started_text": "{username} 發佈於 {ago}",
@@ -548,7 +548,7 @@
                 "in_discussion_text": "於 {discussion}",
                 "joined_date_text": "加入於 {ago}",
                 "online_text": "正在線上",
-                "posts_empty_text": "暫無內容",
+                "posts_empty_text": "暫無內容。",
                 "posts_link": "貼文",
                 "posts_load_more_button": "載入更多",
                 "security_link": "=> core.ref.security",
@@ -682,7 +682,7 @@
                 "csrf_token_mismatch_return_link": "返回並再試一下",
                 "invalid_confirmation_token": "驗證連結已使用或無效。",
                 "not_authenticated": "您沒有權限訪問此頁面。請登入後再試。",
-                "method_not_allowed": "",
+                "method_not_allowed": "此頁面不支持該請求方法。",
                 "not_found": "頁面未找到。",
                 "not_found_return_link": "返回 {forum}",
                 "permission_denied": "您沒有權限訪問此頁面。",
@@ -731,7 +731,7 @@
                 "body": "{username}，您好！\n\n這是一個測試郵件，用於測試您的郵箱設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這代表您的設置有正常運作！\n\n若非您本人發送測試郵件，請忽略此內容。\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "注意：偵測到已淘汰的擴充套件",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

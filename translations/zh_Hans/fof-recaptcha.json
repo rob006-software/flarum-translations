@@ -2,9 +2,9 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "点击<a>此处</a>获取 Google reCAPTCHA 证书。",
+                "help_text": "点击<a>此处</a>获取 Google reCAPTCHA 凭据。",
                 "secret_key_label": "密钥",
-                "site_key_label": "网站密钥",
+                "site_key_label": "站点密钥",
                 "type_label": "reCAPTCHA 类型",
                 "type_help": "此扩展只支持 reCAPTCHA v2。请输入与所选验证类型匹配凭据 reCAPTCHA 凭据。",
                 "signup": "=> core.forum.sign_up.title",
@@ -13,14 +13,14 @@
             },
             "test": {
                 "title": "测试 reCAPTCHA",
-                "help_text": "使用上方配置测试验证码。修改设置后请重新加载测试，测试通过后请注意保存设置。\n以下测试可能无法代表已保存设置的情况。\n",
-                "success_message": "成功！reCAPTCHA 已正确设置。",
+                "help_text": "此测试会使用上方当前填写的值。修改设置后，请重新加载测试；测试通过后别忘了保存设置！\n下方测试结果可能与已保存的设置不一致。\n",
+                "success_message": "测试成功！reCAPTCHA 配置正确。",
                 "load_test_button": "加载",
-                "submit_button": "保存",
+                "submit_button": "提交",
                 "reload_button": "重新加载"
             },
             "permissions": {
-                "post_without_captcha": "发帖不需要验证码"
+                "post_without_captcha": "无需通过 reCAPTCHA 即可发布帖子和讨论"
             }
         },
         "forum": {
@@ -30,6 +30,6 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA 验证失败。",
-        "recaptcha-unknown": "校验验证码时发生了未知错误（{errors}）。"
+        "recaptcha-unknown": "验证 reCAPTCHA 时发生未知错误（{errors}）。"
     }
 }

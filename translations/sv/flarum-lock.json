@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Lås tråd"
+                "lock_discussions_label": "Lås diskussioner"
             }
         },
         "forum": {
@@ -17,11 +17,11 @@
                 "discussion_locked_text": "{username} låste"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} låste tråden.",
-                "discussion_unlocked_text": "{username} låste upp tråden."
+                "discussion_locked_text": "{username} låste diskussionen {time}.",
+                "discussion_unlocked_text": "{username} låste upp diskussionen {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Någon låste en tråd som jag startade"
+                "notify_discussion_locked_label": "Någon låser en diskussion som jag startat"
             }
         }
     }

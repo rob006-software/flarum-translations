@@ -66,7 +66,7 @@
                     },
                     "path-prefix": {
                         "label": "Префикс пути",
-                        "description": ""
+                        "description": "Необязательный префикс пути по умолчанию для файлов."
                     }
                 },
                 "azure": {
@@ -97,11 +97,11 @@
                         "description": "Укажите версию или оставьте пустой для использования самой последней."
                     },
                     "bucket": {
-                        "label": "",
+                        "label": "Бакет",
                         "description": "Бакет S3 для загрузки."
                     },
                     "path-prefix": {
-                        "label": "",
+                        "label": "Префикс пути",
                         "description": "Необязательный префикс пути по умолчанию для файлов."
                     },
                     "credentials": {
@@ -140,7 +140,7 @@
                         "description": " "
                     },
                     "refresh-token": {
-                        "label": "",
+                        "label": "Токен обновления",
                         "description": "Следуйте инструкциям: https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, чтобы получить токен обновления для вашего приложения Google OAuth.\n"
                     },
                     "folder": {

@@ -24,12 +24,12 @@
                     "ip_label": "Kontrola spamu adresu IP",
                     "email_label": "Kontrola spamu adresu e-mail",
                     "frequency_label": "Próg",
-                    "frequency_help": "Liczba zgłoszeń spamu między wszystkimi włączonymi opcjami, które spowodują wyzwolenie filtra antyspamowego.\nNa przykład: Jeśli e-mail ma 1 trafienie, a adres IP ma 2 trafienia, w sumie będą 3 trafienia. Jeśli próg jest ustawiony na 3 lub mniej, uniemożliwimy rejestrację.\n",
-                    "api_key_label": "Klucz AIP",
+                    "frequency_help": "Łączna liczba zgłoszeń spamu ze wszystkich włączonych metod sprawdzania, które spowodują wyzwolenie filtra antyspamowego.\nNa przykład: Jeśli e-mail ma 1 trafienie, a adres IP ma 2 trafienia, w sumie będą 3 trafienia. Jeśli próg jest ustawiony na 3 lub mniej, uniemożliwimy rejestrację.\n",
+                    "api_key_label": "Klucz API",
                     "api_key_text": "Masz możliwość zgłaszania spamerów do StopForumSpam, aby utrzymać większą społeczność forum wolną od spamu.",
                     "api_key_instructions_text": "<register>Zarejestruj się w StopForumSpam</register>. Następnie należy tam <key>uzyskać klucz API</key>.",
                     "regional_endpoint_label": "Dostęp geograficzny",
-                    "regional_endpoint_help": "Domyślnie skierujemy wyszukiwanie do najbliższego serwera regionalnego, aby zapewnić najszybszą odpowiedź. Jeśli chcesz ograniczyć ruch do określonego regionu, na przykład w celu zapewnienia zgodności z przepisami dotyczącymi prywatności firmy lub kraju, możesz wymusić połączenie z określonym regionem.",
+                    "regional_endpoint_help": "Zapytania będą domyślnie wysyłane do najbliższego serwera regionalnego, aby zapewnić najszybszą odpowiedź. Jeśli chcesz ograniczyć ruch do określonego regionu, na przykład w celu zapewnienia zgodności z przepisami dotyczącymi prywatności firmy lub kraju, możesz wymusić połączenie z określonym regionem.",
                     "region_closest_label": "Najbliższy",
                     "region_europe_label": "Europa",
                     "region_us_label": "Stany Zjednoczone",
@@ -62,7 +62,7 @@
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": "Szczegóły Twojej rejestracji zostały znalezione w bazie danych zapobiegania spamowi, dlatego Twoja rejestracja została zablokowana."
+                    "blocked": "Dane podane podczas rejestracji znajdują się w bazie danych używanej do wykrywania spamu, dlatego rejestracja została zablokowana."
                 },
                 "spam": "Twoje informacje zostały oznaczone jako spam."
             },
@@ -73,7 +73,7 @@
                 "hard_delete_posts_help": "Spowoduje to trwałe usunięcie wszystkich postów (komentarzy, odpowiedzi itp.) utworzonych przez tego użytkownika. Po wyłączeniu tej opcji, posty zostaną ukryte.",
                 "hard_delete_user_label": "Usuń użytkownika",
                 "hard_delete_user_help": "Spowoduje to nieodwracalne usunięcie użytkownika. Po wyłączeniu tej opcji, użytkownik zostanie zbanowany.",
-                "intro": "Oznaczając użytkownika jako spamera, zostanie podjętych kilka działań, które zależą od rozszerzeń dostępnych na Twoim forum.",
+                "intro": "Po oznaczeniu użytkownika jako spamera zostaną wykonane działania zależne od rozszerzeń zainstalowanych na forum.",
                 "move_discussions_tag_label": "Przenieś dyskusje do tagu kwarantanny",
                 "move_discussions_tag_help": "Spowoduje to przeniesienie wszystkich dyskusji rozpoczętych przez tego użytkownika do tagu określonego w ustawieniach forum. Gdy opcja ta jest wyłączona, dyskusje pozostaną w swoich aktualnych tagach.",
                 "process_button": "Wykonaj",
@@ -90,10 +90,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "Oznaczono {username} jako spamera"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "Zablokowano rejestrację użytkownika {username} ({email}) z {ip})"
                 }
             }
         }

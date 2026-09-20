@@ -19,8 +19,8 @@
                 "allow_image_uploads_help": "Si se activa, los usuarios podrán subir imágenes además de proporcionar una URL de la imagen (si se activa para las opciones, siempre se activa para la propia encuesta).",
                 "enable_global_polls": "Activar encuestas globales",
                 "enable_global_polls_help": "Las encuestas globales no están vinculadas a una entrada específica, y se puede acceder a ellas desde una página dedicada a las encuestas.",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
+                "enabled_poll_groups": "Habilitar grupos de encuestas",
+                "enabled_poll_groups_help": "Los grupos de encuestas permiten agrupar encuestas globales y mostrarlas en una página dedicada.",
                 "max_options": "Número máximo de opciones por encuesta",
                 "options_color_blend": "Texto con mezcla de colores en las opciones de la encuesta",
                 "options_color_blend_help": "Use esta opción para mezclar colores y hacer las opciones de la encuesta más legibles. Desactivar si esta función causa problemas con la apariencia de su foro, reduciendo la legibilidad.",
@@ -37,9 +37,9 @@
                 "vote": "Votar en las encuestas",
                 "change_vote": "Cambiar el voto",
                 "moderate": "Editar y eliminar encuestas",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Ver grupos de encuestas",
+                "start_group": "Crear grupos de encuesta",
+                "moderate_group": "Editar & eliminar grupos de encuestas"
             }
         },
         "forum": {
@@ -85,11 +85,11 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
+                    "add_title": "Agregar grupo de encuesta",
+                    "edit_title": "Editar grupo de encuesta",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Eliminar grupo de encuesta",
+                    "groups_manager": "Administrador de grupos de encuestas",
                     "view_group": "",
                     "success": ""
                 },
@@ -207,7 +207,7 @@
             "page": {
                 "nav": "Encuestas",
                 "nav-all": "Todas las encuestas globales",
-                "nav-groups": ""
+                "nav-groups": "Grupos de encuesta"
             },
             "showcase": {
                 "active-polls": "Encuestas activas",

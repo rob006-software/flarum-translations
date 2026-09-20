@@ -2,25 +2,25 @@
     "linkrobins-link-gate": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "domains_label": "",
-                "domains_help": "",
-                "html_label": "",
-                "html_help": "",
-                "fallback_label": "",
-                "fallback_help": ""
+                "enabled_label": "启用链接访问限制",
+                "enabled_help": "关闭后，所有用户都可以重新看到全部链接，已设置的域名列表不会丢失。",
+                "domains_label": "受限域名",
+                "domains_help": "每行填写一个域名，例如 mega.nz。其子域名 folder.mega.nz 等也会一并限制。留空则不会限制任何链接。",
+                "html_label": "替代显示内容",
+                "html_help": "受限链接原位置显示的 HTML 内容。这里可以使用帖子中支持的内容格式。留空则改为显示下方设置的纯文本提示。",
+                "fallback_label": "纯文本提示",
+                "fallback_help": "用于无法显示 HTML 的场景，尤其是通知邮件。建议保持简短，并说明用户可以在哪里查看该链接。"
             },
             "translations": {
-                "label": "",
-                "help": ""
+                "label": "其他语言",
+                "help": "上方填写的内容默认向所有用户显示。你可以在此为其他语言单独填写内容，使用相应语言的用户将看到对应版本。留空则使用上方的默认内容。"
             },
             "permissions": {
-                "view_gated_links_label": ""
+                "view_gated_links_label": "查看受限链接"
             }
         },
         "forum": {
-            "fallback": ""
+            "fallback": "此链接仅限社区成员可见。"
         }
     }
 }

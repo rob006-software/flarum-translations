@@ -3,7 +3,7 @@
         "admin": {
             "labels": {
                 "design_default": "Diskussionsdesigndarstellung",
-                "display_themes": "Berechtigung „Thema für Designs“ aktivieren"
+                "display_themes": "Berechtigung „Tag für Designs“ aktivieren"
             },
             "helps": {
                 "design_default": "Wähle ein Standard-Layout aus",
@@ -47,9 +47,9 @@
                 }
             },
             "designs": {
-                "title": "Individuell gestaltetes Design-Thema für Themen",
-                "description": "Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Themen",
-                "add": "Design für Themen hinzufügen",
+                "title": "Individuell gestaltetes Design-Thema für Tags",
+                "description": "Erstelle eine Liste mit Regeln für die Anzeige verschiedener Designs für bestimmte Tags",
+                "add": "Design für Tags hinzufügen",
                 "banner": "Design-Thema {index} - [{isEnabled}]",
                 "is_enabled": {
                     "enabled": "Aktivieren",
@@ -62,7 +62,7 @@
                 "data": {
                     "themeName": "Theme auswählen",
                     "tags": "Ausgewählte Hauptthemen",
-                    "tags_help": "Wähle eines oder mehrere Themen für dieses benutzerdefinierte Design-Thema aus",
+                    "tags_help": "Wähle eines oder mehrere Tags für dieses benutzerdefinierte Design-Thema aus",
                     "primary_background_color": "Primäre Hintergrundfarbe bearbeiten",
                     "primary_font_class": "Primäre Schriftart bearbeiten",
                     "child_background_color": "Hintergrundfarbe des Unterelements bearbeiten",

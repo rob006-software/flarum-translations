@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "trim_title": "Trim-Einstellungen",
-                "trim_help": "Hier kannst du einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n",
+                "trim_help": "Hier können Sie einstellen, wie lange (in Minuten) Horizon\ndie letzten und fehlgeschlagenen Aufträge aufbewahren soll. In der Regel werden die letzten Aufträge\neine Stunde lang aufbewahrt, während alle fehlgeschlagenen Aufträge eine ganze Woche lang gespeichert werden.\n",
                 "trim_recent": "Kürzliche Aufträge trimmen",
                 "trim_recent_help": "Diese Tabelle wird verwendet, um aktuelle Aufträge im Horizon-Dashboard anzuzeigen.\n",
                 "trim_pending": "Ausstehende Aufträge trimmen",
@@ -32,7 +32,7 @@
                 },
                 "error": {
                     "title": "Verbindungsfehler",
-                    "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfe deine Redis-Konfiguration.",
+                    "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.",
                     "setup_docs": "Redis-Setup-Dokumentation aufrufen"
                 },
                 "data": {
@@ -45,7 +45,7 @@
                     "redis-ops-per-sec": "Ops pro Sekunde",
                     "redis-connected-clients": "Verbundene Clients",
                     "redis-blocked-clients": "Blockierte Clients",
-                    "jobs-per-minute": "Jobs pro Minute",
+                    "jobs-per-minute": "Aufträge pro Minute",
                     "jobs-past-hour": "Jobs der letzten Stunde",
                     "failed-last-seconds": "Kürzlich fehlgeschlagene Jobs",
                     "status": {

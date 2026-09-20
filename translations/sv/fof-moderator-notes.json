@@ -2,33 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Skapa moderatoranteckningar",
+                "viewnotes": "Visa moderatoranteckningar",
+                "deletenotes": "Ta bort moderatoranteckningar"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "En tom anteckning är inte tillåten.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": "",
-                "filter_by_me": ""
+                "created_text": "{username} skapade den här anteckningen {date}",
+                "add_button": "Ny anteckning",
+                "create-heading": "Skapa en ny moderatoranteckning",
+                "dismiss_button": "Klart",
+                "input_heading": "Ange dina anteckningar för <strong>{username}</strong> (markdown stöds)",
+                "noNotes": "Det verkar inte finnas några anteckningar här.",
+                "submit_button": "Spara anteckning",
+                "delete": "Ta bort",
+                "confirm": "Är du säker på att du vill ta bort den här anteckningen?",
+                "filter_by_me": "Endast anteckningar jag har skapat"
             },
             "user": {
-                "notes": ""
+                "notes": "Moderatoranteckningar"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Jag bytte till den här användaren:_ {reason}",
+            "auto_note_actor": "_Bytte till_ @{username}: {reason}",
+            "no_reason_provided": "Ingen anledning angiven"
         }
     }
 }

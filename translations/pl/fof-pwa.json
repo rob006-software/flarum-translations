@@ -10,7 +10,7 @@
                     "description_label": "Opis",
                     "description_text": "Opis możesz ustawić na stronie „Podstawowe” w panelu administracyjnym.",
                     "long_name_label": "Pełna nazwa",
-                    "long_name_text": "Nazwa aplikacji wyświetlana użytkownikom.",
+                    "long_name_text": "Pełna nazwa aplikacji wyświetlana użytkownikom.",
                     "heading": "Informacje",
                     "short_name_label": "Krótka nazwa",
                     "short_name_text": "Nazwa aplikacji wyświetlana, gdy brakuje miejsca na pełną nazwę."
@@ -46,8 +46,8 @@
                     "user_max_subscriptions_text": "Ile subskrypcji powiadomień push może mieć jednocześnie jeden użytkownik? Każda subskrypcja powoduje osobne wywołanie API przy wysyłaniu powiadomienia. Zwykle odpowiada ona przeglądarce używanej przez użytkownika.",
                     "window_controls_overlay_label": "Włączyć nakładkę kontrolek okna?",
                     "window_controls_overlay_text": "Po włączeniu tej opcji użytkownicy mogą korzystać z bardziej immersyjnego, zbliżonego do natywnego interfejsu dzięki ukryciu systemowego paska tytułu. Dostępność nakładki kontrolek okna zależy od preferencji użytkownika i kompatybilności przeglądarki. Po jej włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS, w przeciwnym razie kontrolki mogą nakładać się na elementy górnego paska nawigacji forum, a przeciąganie okna może być praktycznie niemożliwe.\n\nZobacz również: <compatibilitylink>zgodność nakładki kontrolek okna</compatibilitylink> oraz <learnlink>opis Window Controls Overlay w Microsoft Learn</learnlink>.\n",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "share_buttons_label": "Włącz przyciski udostępniania",
+                    "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników."
                 },
                 "heading": "Konfiguracja progresywnej aplikacji internetowej",
                 "text": "Skonfiguruj forum Flarum jako progresywną aplikację internetową. Nie powoduje to automatycznego opublikowania strony w sklepie z aplikacjami. Użytkownicy zobaczą natomiast możliwość dodania strony do ekranu głównego. Udostępniamy podstawowe kontrole stanu, ale najlepiej przetestować instalację samodzielnie — wyszukaj w Google instrukcję instalowania progresywnych aplikacji internetowych. Pamiętaj też, że komunikaty zachęcające do instalacji PWA są kontrolowane przez przeglądarki i nie mogą być wywoływane przez administratorów ani skrypty. Warto dodać instrukcję instalacji PWA do dokumentacji forum.",
@@ -90,7 +90,7 @@
                 "push_header": "Push",
                 "pwa_notifications": {
                     "access_default": "Ze względu na ograniczenia przeglądarki musisz wyrazić zgodę na powiadomienia push na tym urządzeniu.",
-                    "access_default_button": "Zgadzam się",
+                    "access_default_button": "Włącz",
                     "access_denied": "Aby otrzymywać powiadomienia push na tym urządzeniu, zmień ustawienia przeglądarki.",
                     "access_denied_button": "Dowiedz się jak",
                     "no_browser_support": "Ta przeglądarka nie obsługuje powiadomień push dla progresywnych aplikacji internetowych.",

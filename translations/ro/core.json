@@ -61,18 +61,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# comentariu} other {# comentarii}}",
+                "description": "Ultimele noutăți și anunțuri de la Echipa Flarum.",
+                "empty": "Nu au fost găsite anunțuri.",
+                "load_error": "Nu s-au putut încărca anunțurile. Vă rugăm să încercați din nou mai târziu.",
+                "about": "Ultimele noutăți și anunțuri preluate de pe comunitatea oficială Flarum de la adresa discuss.flarum.org.",
+                "hide": "Ascunde anunțurile",
+                "read_more": "Citește mai mult",
+                "refresh": "Actualizează anunțurile",
+                "retry": "Încearcă din nou",
+                "show": "Afișează anunțurile",
+                "title": "Anunțuri",
+                "view_all": "Vezi toate pe discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Ștergere memoria cache",

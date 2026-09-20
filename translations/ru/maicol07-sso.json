@@ -2,35 +2,35 @@
     "maicol07-sso": {
         "admin": {
             "settings": {
-                "title": "",
-                "provider_mode": "",
-                "client_name": "",
-                "client_name_help": "",
-                "client_url": "",
-                "client_url_help": "",
-                "client_api_key": "",
-                "client_api_key_help": "",
-                "client_password_token": "",
-                "client_password_token_help": "",
-                "client_verify_ssl": "",
-                "client_verify_ssl_help": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "cookies_prefix": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "title": "Настройки SSO",
+                "provider_mode": "Включите эту опцию, чтобы использовать режим провайдера — SSO между экземплярами Flarum. Позволяет другим экземплярам Flarum выполнять вход пользователей этого экземпляра Flarum. Это отключит стандартную функцию SSO для других сайтов.",
+                "client_name": "Название",
+                "client_name_help": "Название экземпляра Flarum",
+                "client_url": "URL",
+                "client_url_help": "URL экземпляра Flarum",
+                "client_api_key": "API-ключ",
+                "client_api_key_help": "API-ключ вашего экземпляра Flarum.",
+                "client_password_token": "Токен пароля",
+                "client_password_token_help": "Токен пароля, который используется при регистрации через экземпляр Flarum.",
+                "client_verify_ssl": "Проверять SSL",
+                "client_verify_ssl_help": "Проверять SSL-сертификат экземпляра Flarum при выполнении запросов к нему — рекомендуется.",
+                "signup_url": "URL регистрации",
+                "login_url": "URL входа",
+                "logout_url": "URL выхода",
+                "remove_login_btn": "Удалить кнопку входа",
+                "remove_signup_btn": "Удалить кнопку регистрации",
+                "manage_account_url": "URL управления аккаунтом",
+                "manage_account_btn_open_in_new_tab": "Открывать управление аккаунтом в новой вкладке",
+                "cookies_prefix": "Префикс имени cookie",
+                "jwt_section_subtitle": "Настройки дополнения JWT",
+                "jwt_iss": "Домен издателя",
+                "jwt_signer_key": "Ключ подписи",
+                "jwt_signing_algorithm": "Метод подписи"
             }
         },
         "forum": {
-            "manage_account_btn": "",
-            "no_login_url_error": ""
+            "manage_account_btn": "Управление аккаунтом",
+            "no_login_url_error": "URL для входа не указан. Проверьте настройки SSO!"
         }
     }
 }

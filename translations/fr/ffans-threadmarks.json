@@ -2,127 +2,127 @@
     "ffans-threadmarks": {
         "admin": {
             "permissions": {
-                "manage_personal_label": "",
-                "manage_own_discussion_label": "",
-                "manage_discussion_label": ""
+                "manage_personal_label": "Gérer ses propres signets",
+                "manage_own_discussion_label": "Gérer les signets dans ses propres discussions",
+                "manage_discussion_label": "Gérer les signets dans n'importe quelle discussion"
             },
             "types": {
-                "add_button": "",
-                "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
-                "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
-                "builtin_label": "",
-                "custom_label": "",
-                "enable_type_a11y_label": "",
-                "edit_type_a11y_label": "",
-                "empty_text": ""
+                "add_button": "Ajouter un type",
+                "table_a11y_label": "Types de signets",
+                "order_heading": "Ordre",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Source",
+                "enabled_heading": "Activé",
+                "actions_heading": "Actions",
+                "reorder_tooltip": "Glisser pour réorganiser",
+                "builtin_label": "Intégré",
+                "custom_label": "Personnalisé",
+                "enable_type_a11y_label": "Activer {name}",
+                "edit_type_a11y_label": "Modifier {name}",
+                "empty_text": "Aucun type de signet pour le moment."
             },
             "create_type_modal": {
-                "title": "",
-                "submit_button": ""
+                "title": "Créer un type de signet",
+                "submit_button": "Créer"
             },
             "edit_type_modal": {
-                "title": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": ""
+                "title": "Modifier un type de signet",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Supprimer ce type de signet ?"
             }
         },
         "forum": {
             "type_labels": {
-                "default": "",
-                "notice": "",
-                "highlight": "",
-                "progress": "",
-                "update": "",
-                "chapter": ""
+                "default": "Signet",
+                "notice": "Annonce",
+                "highlight": "À la une",
+                "progress": "Progrès",
+                "update": "Mise à jour",
+                "chapter": "Chapitre"
             },
             "manage_modal": {
-                "title": "",
-                "scope_a11y_label": "",
-                "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
-                "unavailable_text": "",
-                "type_label": "",
-                "type_placeholder": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
-                "delete_personal_confirmation": "",
-                "delete_discussion_confirmation": ""
+                "title": "Signet · #{number}",
+                "scope_a11y_label": "Portée du signet",
+                "personal_tab": "Personnel",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "Aucun signet disponible à gérer.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Choisir un type",
+                "note_label": "Note",
+                "note_placeholder": "Facultatif",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Ajouter",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "Supprimer ce signet personnel ?",
+                "delete_discussion_confirmation": "Supprimer ce signet de discussion ?"
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
-                "show_button_a11y_label": "",
-                "close_a11y_label": "",
-                "scope_a11y_label": "",
-                "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Ouvrir le répertoire des signets",
+                "close_a11y_label": "Fermer le répertoire des signets",
+                "scope_a11y_label": "Filtrer les signets par portée",
+                "all_filter": "Tous",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
-                "personal_tooltip": "",
-                "edit_personal_tooltip": "",
-                "edit_discussion_tooltip": "",
-                "edit_personal_a11y_label": "",
-                "edit_discussion_a11y_label": "",
-                "deleted_text": ""
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Signet personnel, visible uniquement par vous",
+                "edit_personal_tooltip": "Modifier le signet personnel",
+                "edit_discussion_tooltip": "Modifier le signet de discussion",
+                "edit_personal_a11y_label": "Modifier le signet personnel sur le message #{number}",
+                "edit_discussion_a11y_label": "Modifier le signet de discussion sur le message #{number}",
+                "deleted_text": "Ce contenu a été supprimé."
             },
             "scrubber": {
-                "threadmark_a11y_label": "",
-                "cluster_a11y_label": "",
-                "open_directory_a11y_label": ""
+                "threadmark_a11y_label": "Signet sur le message #{number}",
+                "cluster_a11y_label": "{count, plural, one {# signet} other {# signets}}",
+                "open_directory_a11y_label": "Ouvrir le répertoire complet des signets"
             },
             "discussion_controls": {
-                "show_all_button": "",
-                "show_threadmarks_button": "",
-                "show_all_button_a11y_label": "",
-                "show_threadmarks_button_a11y_label": ""
+                "show_all_button": "Messages",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Afficher tous les messages",
+                "show_threadmarks_button_a11y_label": "Afficher uniquement les messages marqués d'un signet"
             },
             "post_controls": {
-                "manage_button": ""
+                "manage_button": "Gérer un signet"
             }
         },
         "ref": {
-            "discussion": "",
-            "mine": "",
-            "threadmarks": "",
-            "type": "",
-            "key": "",
-            "save": ""
+            "discussion": "Discussion",
+            "mine": "À moi",
+            "threadmarks": "Signets",
+            "type": "Type",
+            "key": "Clé",
+            "save": "Enregistrer"
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Exporte tous vos signets personnels et vos signets de discussion que vous avez créés ou modifiés en dernier, sans le contenu des messages.",
+                "anonymize_description": "Supprime vos signets personnels et efface vos identifiants d'auteur/éditeur des signets de discussion.",
+                "delete_description": "Supprime vos signets personnels et efface vos identifiants d'auteur/éditeur des signets de discussion."
             },
             "type_form": {
-                "key_label": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_placeholder": ""
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Nom",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
-                "first_post": "",
-                "duplicate_discussion": "",
-                "invalid_discussion_post": "",
-                "duplicate_personal": "",
-                "invalid_personal_post": "",
-                "disabled_type": "",
-                "type_in_use": ""
+                "first_post": "Les signets ne peuvent pas être ajoutés au premier message.",
+                "duplicate_discussion": "Ce message comporte déjà un signet de discussion. Modifiez plutôt celui qui existe déjà.",
+                "invalid_discussion_post": "Les signets de discussion ne peuvent cibler que les commentaires.",
+                "duplicate_personal": "Vous avez déjà un signet personnel sur ce message. Modifiez plutôt celui qui existe déjà.",
+                "invalid_personal_post": "Les signets personnels ne peuvent cibler que les commentaires.",
+                "disabled_type": "Ce type de signet est désactivé. Choisissez un autre type.",
+                "type_in_use": "Ce type est actuellement utilisé et ne peut pas être supprimé."
             }
         }
     }
