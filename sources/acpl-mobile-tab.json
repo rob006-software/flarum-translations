@@ -6,13 +6,28 @@
             "create_new_item_button": "Create item",
             "edit_item": {
                 "modal_title": "Edit item",
+                "help": "Need more than a link? See the <a>developer documentation</a> for custom items and behavior.",
                 "label": "Label",
                 "label_placeholder": "My custom item",
                 "path": "Path",
-                "url": "Url",
+                "url": "URL",
+                "url_help": {
+                    "internal": "The part of the address after {baseUrl}, starting with a slash.",
+                    "external": "The full address, including <code>https://</code>."
+                },
                 "icon": "Icon",
                 "icon_help": "Enter the name of any <a>FontAwesome</a> icon class, including the <code>fas fa-</code> prefix.",
-                "is_internal_checkbox": "Is it an internal link?",
+                "type": {
+                    "heading": "What this link does",
+                    "internal": {
+                        "label": "Goes to a page on this forum",
+                        "help": "Opens without reloading the page."
+                    },
+                    "external": {
+                        "label": "Goes to another site",
+                        "help": "Opens an address outside this forum."
+                    }
+                },
                 "open_new_tab_checkbox": "Open link in new tab",
                 "submit_button": "Save",
                 "delete_button": "Delete",
@@ -21,7 +36,7 @@
             "variants": {
                 "heading": "Mobile tab variants",
                 "empty_help": "Drag items here to add them to this variant.",
-                "help": "Variants are checked from top to bottom. Users will see the first enabled variant they have permission to view. Put more specific roles first, for example: #1 administrators, #2 moderators, #3 members, #4 everyone.",
+                "help": "Variants are checked from top to bottom. Users will see the first enabled variant they have permission to view. Put more specific roles first, for example: #1 administrators, #2 moderators, #3 members, #4 everyone. Leave a variant empty to hide the tab entirely for the selected groups.",
                 "number": "#{number}",
                 "enabled": "Enabled",
                 "visible_to": "Visible to",

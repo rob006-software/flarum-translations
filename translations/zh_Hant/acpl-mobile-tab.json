@@ -6,17 +6,33 @@
             "create_new_item_button": "建立新項目",
             "edit_item": {
                 "modal_title": "編輯項目",
+                "help": "",
                 "label": "標籤",
                 "label_placeholder": "我的自訂項目",
                 "path": "路徑",
                 "url": "網址",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "圖示",
                 "icon_help": "輸入任何 <a>FontAwesome</a> 圖示類別名稱，包含 <code>fas fa-</code> 前綴。",
-                "is_internal_checkbox": "是否為內部連結？",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "於新分頁開啟連結",
                 "submit_button": "儲存",
                 "delete_button": "刪除",
-                "delete_item_confirmation": "您確定要刪除此項目嗎？"
+                "delete_item_confirmation": "您確定要刪除此項目嗎？",
+                "is_internal_checkbox": "是否為內部連結？"
             },
             "variants": {
                 "heading": "",

@@ -6,17 +6,33 @@
             "create_new_item_button": "Skapa nytt objekt",
             "edit_item": {
                 "modal_title": "Redigera objekt",
+                "help": "",
                 "label": "Etikett",
                 "label_placeholder": "Mitt anpassade objekt",
                 "path": "Sökväg",
                 "url": "Url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Ikon",
                 "icon_help": "Ange namnet på valfri <a>FontAwesome</a>-ikonklass, inklusive prefixet <code>fas fa-</code>.",
-                "is_internal_checkbox": "Är det en intern länk?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Öppna länk i ny flik",
                 "submit_button": "Spara",
                 "delete_button": "Radera",
-                "delete_item_confirmation": "Är du säker på att du vill ta bort det här objektet?"
+                "delete_item_confirmation": "Är du säker på att du vill ta bort det här objektet?",
+                "is_internal_checkbox": "Är det en intern länk?"
             },
             "variants": {
                 "heading": "",

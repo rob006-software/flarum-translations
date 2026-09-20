@@ -6,17 +6,33 @@
             "create_new_item_button": "Element erstellen",
             "edit_item": {
                 "modal_title": "Element bearbeiten",
+                "help": "",
                 "label": "Beschriftung",
                 "label_placeholder": "Mein eigenes Element",
                 "path": "Pfad",
                 "url": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Symbol",
                 "icon_help": "Gib den Namen einer beliebigen <a>FontAwesome</a>-Symbolklasse ein, einschließlich des Präfixes <code>fas fa-</code>.",
-                "is_internal_checkbox": "Ist das ein interner Link?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Link in neuem Tab öffnen",
                 "submit_button": "Speichern",
                 "delete_button": "Löschen",
-                "delete_item_confirmation": "Möchtest du diesen Artikel wirklich löschen?"
+                "delete_item_confirmation": "Möchtest du diesen Artikel wirklich löschen?",
+                "is_internal_checkbox": "Ist das ein interner Link?"
             },
             "variants": {
                 "heading": "Varianten der mobilen Reiterkarten",

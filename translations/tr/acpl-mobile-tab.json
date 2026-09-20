@@ -6,17 +6,33 @@
             "create_new_item_button": "Yeni öğe oluştur",
             "edit_item": {
                 "modal_title": "Öğeyi düzenle",
+                "help": "",
                 "label": "Etiket",
                 "label_placeholder": "Özel öğe",
                 "path": "Dizin",
                 "url": "Bağlantı",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Simge",
                 "icon_help": "<code>fas fa-</code> öneki dahil olmak üzere herhangi bir <a>FontAwesome</a> simge sınıfı adını girin.",
-                "is_internal_checkbox": "Bu bir dahili bağlantı mı?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Bağlantıyı yeni sekmede aç",
                 "submit_button": "Kaydet",
                 "delete_button": "Sil",
-                "delete_item_confirmation": "Bu öğeyi silmek istediğinizden emin misiniz?"
+                "delete_item_confirmation": "Bu öğeyi silmek istediğinizden emin misiniz?",
+                "is_internal_checkbox": "Bu bir dahili bağlantı mı?"
             },
             "variants": {
                 "heading": "",

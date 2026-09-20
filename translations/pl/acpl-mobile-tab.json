@@ -6,17 +6,33 @@
             "create_new_item_button": "Utwórz element",
             "edit_item": {
                 "modal_title": "Edytuj element",
+                "help": "",
                 "label": "Etykieta",
                 "label_placeholder": "Mój własny element",
                 "path": "Ścieżka",
                 "url": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Ikona",
                 "icon_help": "Podaj nazwę klasy dowolnej ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.",
-                "is_internal_checkbox": "Czy to wewnętrzny link?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Otwieraj link w nowej karcie",
                 "submit_button": "Zapisz",
                 "delete_button": "Usuń",
-                "delete_item_confirmation": "Czy na pewno chcesz usunąć ten element?"
+                "delete_item_confirmation": "Czy na pewno chcesz usunąć ten element?",
+                "is_internal_checkbox": "Czy to wewnętrzny link?"
             },
             "variants": {
                 "heading": "Warianty mobilnego paska",

@@ -6,17 +6,33 @@
             "create_new_item_button": "Créer un élément",
             "edit_item": {
                 "modal_title": "Modifier un élément",
+                "help": "",
                 "label": "Libellé",
                 "label_placeholder": "Mon élément personnalisé",
                 "path": "Chemin",
                 "url": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Icône",
                 "icon_help": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a>, en incluant le préfixe <code>fas fa-</code>.",
-                "is_internal_checkbox": "Est-ce un lien interne ?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Ouvrir le lien dans un nouvel onglet",
                 "submit_button": "Enregistrer",
                 "delete_button": "Supprimer",
-                "delete_item_confirmation": "Êtes-vous sûr de vouloir supprimer cet élément ?"
+                "delete_item_confirmation": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+                "is_internal_checkbox": "Est-ce un lien interne ?"
             },
             "variants": {
                 "heading": "Variantes de l'onglet « Mobile »",

@@ -6,17 +6,33 @@
             "create_new_item_button": "Crear nuevo ítem",
             "edit_item": {
                 "modal_title": "Editar ítem",
+                "help": "",
                 "label": "Etiqueta",
                 "label_placeholder": "Mí ítem personalizado",
                 "path": "Ruta",
                 "url": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Ícono",
                 "icon_help": "Escribe el nombre de la clase de un ícono <a>FontAwesome</a> incluyendo el prefijo <code>fas fa-</code>.",
-                "is_internal_checkbox": "¿Es un enlace interno?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Abrir en nueva pestaña",
                 "submit_button": "Grabar",
                 "delete_button": "Borrar",
-                "delete_item_confirmation": "¿Seguro que deseas borrar este ítem?"
+                "delete_item_confirmation": "¿Seguro que deseas borrar este ítem?",
+                "is_internal_checkbox": "¿Es un enlace interno?"
             },
             "variants": {
                 "heading": "",

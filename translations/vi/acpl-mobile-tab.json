@@ -6,17 +6,33 @@
             "create_new_item_button": "Tạo mục mới",
             "edit_item": {
                 "modal_title": "Chỉnh sửa mục",
+                "help": "",
                 "label": "Nhãn",
                 "label_placeholder": "Mục tùy chỉnh của tôi",
                 "path": "Đường dẫn",
                 "url": "Url",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "Biểu tượng",
                 "icon_help": "Hãy nhập tên của bất kỳ lớp biểu tượng <a>FontAwesome</a> nào, gồm cả tiền tố <code>fas fa-</code>.",
-                "is_internal_checkbox": "Đây có phải là liên kết nội bộ?",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "Mở liên kết trong tab mới",
                 "submit_button": "Lưu",
                 "delete_button": "Xóa",
-                "delete_item_confirmation": "Bạn có chắc muốn xóa mục này không?"
+                "delete_item_confirmation": "Bạn có chắc muốn xóa mục này không?",
+                "is_internal_checkbox": "Đây có phải là liên kết nội bộ?"
             },
             "variants": {
                 "heading": "",

@@ -6,17 +6,33 @@
             "create_new_item_button": "创建新项目",
             "edit_item": {
                 "modal_title": "编辑项目",
+                "help": "",
                 "label": "名称",
                 "label_placeholder": "我的自定义项目",
                 "path": "路径",
                 "url": "URL",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "图标",
                 "icon_help": "输入任意 <a>FontAwesome</a> 图标类名，包括 <code>fas fa-</code> 前缀。",
-                "is_internal_checkbox": "内部链接",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "在新标签页中打开链接",
                 "submit_button": "保存",
                 "delete_button": "删除",
-                "delete_item_confirmation": "确定要删除此项目吗？"
+                "delete_item_confirmation": "确定要删除此项目吗？",
+                "is_internal_checkbox": "内部链接"
             },
             "variants": {
                 "heading": "",
