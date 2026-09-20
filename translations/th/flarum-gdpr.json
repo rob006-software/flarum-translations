@@ -2,62 +2,62 @@
     "flarum-gdpr": {
         "admin": {
             "gdpr_page": {
-                "heading": "ดู",
-                "description": "สถานะ",
+                "heading": "",
+                "description": "",
                 "data_types": {
-                    "title": "ประเภท",
-                    "help_text": "ส่งออก",
+                    "title": "",
+                    "help_text": "",
                     "type": "ประเภท",
-                    "export_description": "ส่งออก",
-                    "anonymize_description": "ไม่",
-                    "delete_description": "ลบ",
-                    "extension": "extension"
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "extension": ""
                 },
                 "settings": {
-                    "heading": "ตั้งค่า",
-                    "help_text": "ตกลง",
-                    "extension_settings_button": "ตั้งค่า"
+                    "heading": "",
+                    "help_text": "",
+                    "extension_settings_button": ""
                 },
                 "user_table_data": {
-                    "title": "ผู้ใช้",
-                    "help_text": "เพิ่ม",
-                    "column": "column",
+                    "title": "",
+                    "help_text": "",
+                    "column": "",
                     "type": "ประเภท",
-                    "nullable": "nullable",
-                    "pii": "PII",
-                    "redacted_on_export": "ส่งออก",
-                    "extension": "extension",
+                    "nullable": "",
+                    "pii": "",
+                    "redacted_on_export": "",
+                    "extension": "",
                     "yes": "ใช่",
                     "no": "ไม่",
-                    "pii_tooltip": "ไม่",
-                    "redacted_on_export_tooltip": "ส่งออก"
+                    "pii_tooltip": "",
+                    "redacted_on_export_tooltip": ""
                 }
             },
             "nav": {
-                "gdpr_button": "GDPR",
+                "gdpr_button": "",
                 "gdpr_title": ""
             },
             "permissions": {
-                "process_erasure": "ร้องขอ",
-                "process_export_for_others": "ส่งออก",
-                "see_anonymized_user_badges": "ไม่"
+                "process_erasure": "",
+                "process_export_for_others": "",
+                "see_anonymized_user_badges": ""
             },
             "settings": {
-                "allow_anonymization": "ไม่",
-                "allow_anonymization_help": "นำออก",
-                "allow_deletion": "ทั้งหมด",
-                "allow_deletion_help": "ลบ",
-                "default_anonymous_username": "ไม่",
-                "default_anonymous_username_help": "ไม่",
-                "default_erasure": "ค่าเริ่มต้น",
-                "default_erasure_help": "ค่าเริ่มต้น",
+                "allow_anonymization": "",
+                "allow_anonymization_help": "",
+                "allow_deletion": "",
+                "allow_deletion_help": "",
+                "default_anonymous_username": "",
+                "default_anonymous_username_help": "",
+                "default_erasure": "",
+                "default_erasure_help": "",
                 "default_erasure_options": {
-                    "anonymization": "ไม่",
-                    "deletion": "deletion"
+                    "anonymization": "",
+                    "deletion": ""
                 },
                 "gdpr_page": {
-                    "title": "Data Integration and actions",
-                    "help_text": "ดู"
+                    "title": "",
+                    "help_text": ""
                 }
             },
             "userlist": {
@@ -74,116 +74,116 @@
         "lib": {
             "data": {
                 "avatar": {
-                    "delete_description": "ลบ",
-                    "export_description": "ส่งออก"
+                    "delete_description": "",
+                    "export_description": ""
                 },
                 "discussions": {
-                    "export_description": "ส่งออก"
+                    "export_description": ""
                 },
                 "forum": {
-                    "export_description": "ส่งออก"
+                    "export_description": ""
                 },
-                "default_user_action": "ไม่",
-                "no_action": "ไม่",
+                "default_user_action": "",
+                "no_action": "",
                 "posts": {
-                    "anonymize_description": "เพิ่ม",
-                    "delete_description": "ลบ",
-                    "export_description": "เพิ่ม"
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 },
                 "tokens": {
-                    "delete_description": "ลบ",
-                    "export_description": "สร้าง"
+                    "delete_description": "",
+                    "export_description": ""
                 },
                 "user": {
-                    "anonymize_description": "นำออก",
-                    "delete_description": "ลบ",
-                    "export_description": "ส่งออก"
+                    "anonymize_description": "",
+                    "delete_description": "",
+                    "export_description": ""
                 }
             },
             "request_data": {
-                "title": "ชื่อ",
-                "text": "ดาวน์โหลด",
-                "request_button": "rc"
+                "title": "",
+                "text": "",
+                "request_button": ""
             }
         },
         "email": {
             "confirm_erasure": {
-                "subject": "ยืนยัน",
+                "subject": "",
                 "body": ""
             },
             "erasure_completed": {
                 "deletion": {
-                    "subject": "เสร็จสิ้น",
+                    "subject": "",
                     "body": ""
                 },
                 "anonymization": {
-                    "subject": "ไม่",
+                    "subject": "",
                     "body": ""
                 }
             },
             "erasure_cancelled": {
-                "subject": "ยกเลิก",
+                "subject": "",
                 "body": ""
             },
             "export_available": {
-                "subject": "ส่งออก",
+                "subject": "",
                 "body": ""
             }
         },
         "forum": {
             "badges": {
-                "anonymized_user": "ไม่"
+                "anonymized_user": ""
             },
             "delete_user": {
-                "title": "ชื่อ",
-                "text": "ชื่อ",
-                "modal_delete_button": "ค่าเริ่มต้น",
+                "title": "",
+                "text": "",
+                "modal_delete_button": "",
                 "delete_button": "ลบ"
             },
             "erasure_requests": {
-                "empty_text": "ไม่",
-                "item_text": "ชื่อ",
-                "tooltip": "บัญชี",
-                "title": "บัญชี"
+                "empty_text": "",
+                "item_text": "",
+                "tooltip": "",
+                "title": ""
             },
-            "erasure_request_confirmed": "ยืนยัน",
+            "erasure_request_confirmed": "",
             "settings": {
                 "data": {
                     "heading": "ข้อมูลส่วนบุคคล"
                 },
-                "export_data_button": "ส่งออก",
-                "export_data_help": "ดาวน์โหลด",
-                "request_erasure_button": "บัญชี",
-                "request_erasure_help": "บันทึก"
+                "export_data_button": "",
+                "export_data_help": "",
+                "request_erasure_button": "",
+                "request_erasure_help": ""
             },
             "process_erasure": {
-                "confirm": "ชื่อ",
-                "title": "ร้องขอ",
-                "text": "ชื่อ",
-                "comments_label": "ความเห็น",
-                "anonymization_button": "ไม่",
-                "deletion_button": "ลบ",
-                "requested_at": "วันที่",
-                "confirmed_at": "ยืนยัน",
-                "eligible_at": "กำลังประมวลผล"
+                "confirm": "",
+                "title": "",
+                "text": "",
+                "comments_label": "",
+                "anonymization_button": "",
+                "deletion_button": "",
+                "requested_at": "",
+                "confirmed_at": "",
+                "eligible_at": ""
             },
             "request_erasure": {
-                "title": "บัญชี",
+                "title": "",
                 "reason": "คุณได้ระบุเหตุผลดังนี้: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "ยืนยัน",
-                    "user_confirmed": "ยืนยัน"
+                    "awaiting_user_confirmation": "",
+                    "user_confirmed": ""
                 },
-                "text": "ดู",
-                "password_label": "ยืนยัน",
-                "reason_label": "ตัวเลือก",
-                "cancel_button": "ยกเลิก",
-                "request_button": "ร้องขอ"
+                "text": "",
+                "password_label": "",
+                "reason_label": "",
+                "cancel_button": "",
+                "request_button": ""
             },
             "notification": {
-                "export-ready": "ดาวน์โหลด"
+                "export-ready": ""
             },
-            "export_file": "ส่งออก"
+            "export_file": ""
         }
     },
     "flarum-audit": {
