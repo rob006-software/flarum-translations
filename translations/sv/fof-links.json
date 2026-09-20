@@ -6,15 +6,15 @@
                 "delete_link_confirmation": "",
                 "internal_link": "",
                 "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
-                "icon_additional_text": "",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "icon_additional_text": "Om du vill använda en varumärkesikon är prefixet istället <code>fab fa-</code>.",
                 "url_description": "",
-                "url_label": "",
+                "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "",
                 "use_rel_me": "",
                 "visibility": {
@@ -28,19 +28,19 @@
                 }
             },
             "links": {
-                "create_button": "",
-                "links": "",
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links",
                 "preconfigured": ""
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "show_icons_only_on_tablet": "Visa endast ikoner på surfplatteskärmar"
             }
         },
         "ref": {
-            "create_link": "",
-            "links": "",
-            "title": "",
-            "url": ""
+            "create_link": "Skapa länk",
+            "links": "Länkar",
+            "title": "Titel",
+            "url": "URL"
         }
     }
 }

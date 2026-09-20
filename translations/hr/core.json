@@ -43,12 +43,12 @@
                 "title": "Osnove",
                 "welcome_banner_heading": "Dobrodošlica",
                 "welcome_banner_text": "Prilagodite tekst koji će se prikazivati u dobrodošlici na stranici Sve raspave.Koristite ovo za izražavanje dobrodošlice gostima vašeg foruma.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Napuštena proširenja",
+                "abandoned_extensions_text": "Flarum održava <a>popis napuštenih proširenja koji vodi zajednica</a>. Kada se instalirano proširenje pojavi na popisu, bit će označeno u administratorskoj ploči.",
+                "abandoned_extensions_sync_button": "Provjeri sada",
+                "abandoned_extensions_sync_success": "Popis napuštenih proširenja je ažuriran. Pronađeno je {count} odgovarajućih instaliranih proširenja.",
+                "abandoned_extensions_sync_error": "Dohvaćanje popisa napuštenih proširenja nije uspjelo. Pokušajte ponovno kasnije.",
+                "abandoned_extensions_notify_admins_label": "Pošalji e-mail administratorima kada se tijekom tjedne provjere otkrije novo napušteno proširenje"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,28 +61,28 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# komentar} few {# komentara} other {# komentara}}",
+                "description": "Najnovije vijesti i obavijesti Flarum tima.",
+                "empty": "Nema obavijesti.",
+                "load_error": "Obavijesti nije moguće učitati. Pokušajte ponovno kasnije.",
+                "about": "Najnovije vijesti i obavijesti preuzete sa službene Flarum zajednice na discuss.flarum.org.",
+                "hide": "Sakrij obavijesti",
+                "read_more": "Pročitaj više",
+                "refresh": "Osvježi obavijesti",
+                "retry": "Pokušaj ponovno",
+                "show": "Prikaži obavijesti",
+                "title": "Obavijesti",
+                "view_all": "Prikaži sve na discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Isprazni predmemoriju",
                 "description": "Pregled vašeg foruma.",
-                "info_button": "",
+                "info_button": "Informacije o sustavu",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informacije o sustavu",
+                    "copy_button": "Kopiraj u međuspremnik",
+                    "copy_success": "Informacije o sustavu kopirane su u međuspremnik",
+                    "copy_error": "Kopiranje u međuspremnik nije uspjelo"
                 },
                 "io_error_message": "Ni mogoče zapisati v datotečni sistem. Preverite dovoljenja datotečnega sistema in poskusite znova. Ali pa poskusite zagnati iz ukazne vrstice.",
                 "status": {
@@ -156,11 +156,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Autor više ne održava ovo proširenje i ono možda neće dobivati ažuriranja.",
+                "abandoned_with_replacement": "Ovo je proširenje zamijenjeno paketom {replacement}. Razmotrite prelazak na zamjenski paket.",
                 "configure_scopes": "Prilagodi djelokrug",
                 "confirm_purge": "Čiščenje bo odstranilo vse vnose v bazi podatkov in sredstva, povezana z razširitvijo. Ne bo odstranilo razširitve; to je treba storiti prek composerja. Ali ste prepričani, da želite nadaljevati?",
-                "deprecated": "",
+                "deprecated": "Zastarjelo",
                 "disabled": "Onemogućeno",
                 "enable_to_see": "Omogućite proširenje kako bi mogli pregledavati i izmjenjivati postavke.",
                 "enabled": "Omogućeno",
@@ -182,7 +182,7 @@
                     "no_readme": "Ta razširitev ne vsebuje README datoteke",
                     "title": "{extName} dokumentacija"
                 },
-                "replaced": ""
+                "replaced": "Zamijenjeno"
             },
             "header": {
                 "get_help": "Pomoć",
@@ -202,7 +202,7 @@
                     "discussion": "Rasprave",
                     "feature": "Značajke",
                     "formatting": "Oblikovanje",
-                    "forum-widget": "",
+                    "forum-widget": "Widgeti foruma",
                     "language": "Jezici",
                     "moderation": "Moderacija",
                     "other": "Ostala proširenja",
@@ -573,7 +573,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Vaša je veza ponovno uspostavljena.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Zavrni opozorilo"
@@ -608,9 +608,9 @@
                 "generic_message": "Ups! Nešto je pošlo po zlu. Ponovno učitajte stranicu i pokušajte ponovno, molimo.",
                 "generic_cross_origin_message": "Oops! Nekaj je šlo narobe med zahtevo iz drugega vira. Prosimo, osvežite stran in poskusite znova.",
                 "missing_dependencies_message": "Nemoguće omogućavanje {extension} bez uključivanja sljedećih proširenja: {extensions}",
-                "network_message": "",
+                "network_message": "Čini se da nešto nije u redu s vašom vezom. Provjerite mrežnu vezu i pokušajte ponovno.",
                 "not_found_message": "Traženi resurs nije pronađen.",
-                "offline_message": "",
+                "offline_message": "Čini se da niste povezani s internetom. Provjerite vezu i pokušajte ponovno.",
                 "payload_too_large_message": "Zahtevek je bil prevelik.",
                 "permission_denied_message": "Nemate dozvolu za to.",
                 "rate_limit_exceeded_message": "Malo ste prebrzi. Pokušajte ponovno za par sekundi, molimo.",
@@ -682,7 +682,7 @@
                 "csrf_token_mismatch_return_link": "Vratite se, kako bi pokušali ponovno",
                 "invalid_confirmation_token": "Ova poveznica potvrde je iskorištena ili nije valjana.",
                 "not_authenticated": "Nemate dozvolu za pristup ovoj stranici. Pokušajte ponovno nakon prijave.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Ova stranica ne podržava tu metodu zahtjeva.",
                 "not_found": "Stranica koju tražite nije pronađena.",
                 "not_found_return_link": "Povratak na {forum} forum",
                 "permission_denied": "Nemate dozvolu za pristup ovoj stranici.",
@@ -731,7 +731,7 @@
                 "body": "Hej {username}!\n\nOvo je probni e-mail kako bi potvrdili da vaše e-mail postavke Flaruma rade ispravno.\n\nAko ste to bili vi, ovaj e-mail znači da vaše postavke rade!\n\nU suprotnom, ignorirajte ovaj e-mail, molimo.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Potrebna radnja: otkriveno napušteno proširenje/proširenja",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

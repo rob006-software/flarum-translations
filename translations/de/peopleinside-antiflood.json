@@ -2,28 +2,28 @@
     "peopleinside-antiflood": {
         "forum": {
             "error": {
-                "pending_limit": "",
-                "flood_limit": ""
+                "pending_limit": "Du hast zu viele Beiträge oder Diskussionen, die noch auf Freigabe warten. Bitte warte, bis einige davon geprüft wurden, bevor du neue Inhalte erstellst.",
+                "flood_limit": "Du schreibst zu schnell. Bitte warte {minutes} Minuten, bevor du erneut einen Beitrag verfasst."
             }
         },
         "admin": {
-            "description": "",
+            "description": "Verhindere eine Flut von Diskussionen & Antworten und begrenze die Anzahl der ausstehenden Prüfungen.",
             "settings": {
-                "max_pending_label": "",
-                "max_pending_help": "",
-                "flood_limit_label": "",
-                "flood_limit_help": "",
-                "post_flood_limit_label": "",
-                "post_flood_limit_help": "",
-                "flood_interval_minutes_label": "",
-                "flood_interval_minutes_help": "",
-                "pending_limit_message_label": "",
-                "pending_limit_message_help": "",
-                "flood_limit_message_label": "",
-                "flood_limit_message_help": "",
-                "pending_limit_message_suggestion": "",
-                "flood_limit_message_suggestion": "",
-                "reset_button": ""
+                "max_pending_label": "Maximale Anzahl ausstehender Beiträge",
+                "max_pending_help": "Maximale Anzahl an Beiträgen und Diskussionen, die ein Benutzer zur Freigabe ausstehend haben darf, bevor er für das Verfassen von Beiträgen gesperrt wird. Standardwert: 6.",
+                "flood_limit_label": "Obergrenze für die Anzahl der Diskussionen",
+                "flood_limit_help": "Maximale Anzahl neuer Diskussionen, die ein Benutzer innerhalb des Flood-Intervalls erstellen kann, bevor er gesperrt wird. Standardwert: 3. Hinweis: Flarum erzwingt bereits eine integrierte Wartezeit von 10 Sekunden zwischen allen Beiträgen und Diskussionen.",
+                "post_flood_limit_label": "Obergrenze für die Anzahl der Antworten",
+                "post_flood_limit_help": "Maximale Anzahl neuer Antworten, die ein Benutzer innerhalb des Flood-Intervalls posten kann, bevor er gesperrt wird. Auf 0 setzen, um die Funktion zu deaktivieren (basiert auf der in Flarum integrierten 10-Sekunden-Drosselung). Standardwert: 0.",
+                "flood_interval_minutes_label": "Flood-Intervall (Minuten)",
+                "flood_interval_minutes_help": "Zeitfenster in Minuten, das zur Zählung der zuletzt erstellten Diskussionen oder Antworten herangezogen wird. Gilt sowohl für die Obergrenze bei Diskussionen als auch bei Antworten. Standardwert: 5.",
+                "pending_limit_message_label": "Benutzerdefinierte Meldung: Limit für ausstehende erreicht",
+                "pending_limit_message_help": "Überschreibe die Standardfehlermeldung, die angezeigt wird, wenn ein Benutzer das Limit für ausstehende Beiträge erreicht. Lasse das Feld leer, um die Standardmeldung zu verwenden.",
+                "flood_limit_message_label": "Benutzerdefinierte Meldung: Flood-Limit erreicht",
+                "flood_limit_message_help": "Überschreibe die Standardfehlermeldung, die angezeigt wird, wenn ein Benutzer zu schnell einen Beitrag verfasst. Lasse das Feld leer, um die Standardmeldung zu verwenden. Du kannst {minutes} als Platzhalter verwenden.",
+                "pending_limit_message_suggestion": "Du hast zu viele Beiträge oder Diskussionen, die noch auf Freigabe warten. Bitte warte, bis einige davon geprüft wurden, bevor du neue Inhalte erstellst.",
+                "flood_limit_message_suggestion": "Du schreibst zu schnell. Bitte warte {minutes} Minuten, bevor du erneut einen Beitrag verfasst.",
+                "reset_button": "Zurücksetzen"
             }
         }
     }

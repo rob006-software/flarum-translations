@@ -70,7 +70,7 @@
                     "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
                     "title": "存储设置"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "存储设置已通过环境变量预配置。",
                 "qiniu": {
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
                     "key": "Key",
@@ -98,10 +98,10 @@
                     "toggle": "开启"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "SVG 安全清理",
+                    "allow_animate": "允许 SVG 动画",
+                    "help": "设置 SVG 文件上传时的处理和安全清理方式。SVG 文件可能包含有害脚本，需要谨慎处理。上传的 SVG 会自动进行安全清理，并移除有害脚本和标签。",
+                    "allow_animate_help": "启用 SVG 动画可能带来安全风险，因为动态 SVG 可能包含恶意代码。请谨慎启用，并仅在信任论坛用户的情况下开启。"
                 },
                 "composer_buttons": {
                     "title": "编辑器按钮",

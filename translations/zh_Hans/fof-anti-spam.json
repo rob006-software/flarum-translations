@@ -89,10 +89,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "将 {username} 标记为垃圾用户"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "拦截了 {username}（{email}）从 {ip} 发起的注册"
                 }
             }
         }

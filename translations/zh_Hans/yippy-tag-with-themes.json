@@ -3,15 +3,15 @@
         "admin": {
             "labels": {
                 "design_default": "主题帖布局",
-                "display_themes": ""
+                "display_themes": "启用标签主题权限"
             },
             "helps": {
                 "design_default": "选择一个默认布局",
-                "display_themes": ""
+                "display_themes": "仅允许特定用户组使用主题样式"
             },
             "options": {
                 "design_options": {
-                    "none": "",
+                    "none": "无",
                     "sticky_note": "便笺",
                     "sticky_note_tag": "便笺（突出标签）",
                     "sticky_note_tab": "便笺（突出页签）",
@@ -36,14 +36,14 @@
                     "flat_border_tag": "扁平描边（突出标签）",
                     "flat_border_tab": "扁平描边（突出页签）",
                     "flat_border_banner": "扁平描边（突出页脚）",
-                    "rounded_flat": "",
-                    "rounded_flat_tag": "",
-                    "rounded_flat_tab": "",
-                    "rounded_flat_banner": "",
-                    "rounded_flat_border": "",
-                    "rounded_flat_border_tag": "",
-                    "rounded_flat_border_tab": "",
-                    "rounded_flat_border_banner": ""
+                    "rounded_flat": "圆角扁平化",
+                    "rounded_flat_tag": "圆角扁平化（主标签样式）",
+                    "rounded_flat_tab": "圆角扁平化（主选项卡样式）",
+                    "rounded_flat_banner": "圆角扁平化（主横幅样式）",
+                    "rounded_flat_border": "圆角扁平化边框",
+                    "rounded_flat_border_tag": "圆角扁平化边框（主标签样式）",
+                    "rounded_flat_border_tab": "圆角扁平化边框（主选项卡样式）",
+                    "rounded_flat_border_banner": "圆角扁平化边框（主横幅样式）"
                 }
             },
             "designs": {
@@ -52,8 +52,8 @@
                 "add": "添加样式",
                 "banner": "主题 {index}",
                 "is_enabled": {
-                    "enabled": "",
-                    "disabled": ""
+                    "enabled": "启用",
+                    "disabled": "禁用"
                 },
                 "header": {
                     "theme": "自定义主题",
@@ -70,9 +70,9 @@
                     "outline_background_color": "编辑轮廓色",
                     "secondary_font_class": "编辑次字体",
                     "unread_color": "编辑未读背景色",
-                    "opacity_background": "",
-                    "opacity_footer": "",
-                    "opacity_outline": "",
+                    "opacity_background": "背景透明度",
+                    "opacity_footer": "页脚透明度",
+                    "opacity_outline": "轮廓透明度",
                     "is_enabled": "启用主题设计"
                 }
             }

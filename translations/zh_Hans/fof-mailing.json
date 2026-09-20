@@ -2,43 +2,43 @@
     "fof-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "向单个用户发送邮件",
+                "mail_all": "向用户组或全体用户发送邮件"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "发送邮件",
+                "mail_all": "发送邮件"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
+                "title_text": "撰写邮件",
+                "recipients_label": "收件人",
+                "recipients_placeholder": "添加更多收件人…",
+                "subject_label": "主题",
+                "default_subject": "=> fof-mailing.ref.default_subject",
+                "message_label": "正文",
                 "as_html_label": "",
-                "submit_button": ""
+                "submit_button": "发送"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "邮件已发送！",
+                "on_its_way": "你的邮件正在飞速奔向 {recipientsCount} 位收件人。"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "用户",
+                "group": "用户组",
+                "email": "邮箱"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "未找到匹配的收件人"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> fof-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "来自社区管理团队的消息"
         }
     }
 }

@@ -37,7 +37,7 @@
                 "title": "Campos",
                 "add": "Añadir campo {field}",
                 "edit": "Editar campo {field}",
-                "delete-confirmation": "",
+                "delete-confirmation": "¿Seguro que deseas borrar el campo {field}? Esto no se puede deshacer.",
                 "name": "Nombre",
                 "name-help": "Nombre visible del campo.\n",
                 "description": "Descripción",
@@ -73,9 +73,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exportar el campo respuestas del perfil del usuario",
+                    "delete_description": "Borrar todos los campos con respuestas del perfil del usuario",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }

@@ -2,8 +2,8 @@
     "fof-usercard-stats": {
         "forum": {
             "user": {
-                "discussion-count": "",
-                "post-count": ""
+                "discussion-count": "{count, plural, other {讨论 {count}}}",
+                "post-count": "{count, plural, other {帖子 {count}}}"
             }
         }
     }

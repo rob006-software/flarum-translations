@@ -24,16 +24,16 @@
                 "refresh": "刷新",
                 "last_refresh": "",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
+                    "excellent": "优秀",
+                    "good": "良好",
+                    "poor": "较差",
+                    "critical": "危急",
                     "tooltip": ""
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "连接错误",
+                    "fetch_failed": "无法获取 Horizon 统计数据，请检查 Redis 配置。",
+                    "setup_docs": "查看 Redis 配置文档"
                 },
                 "data": {
                     "redis-used-memory": "Redis 已用内存",

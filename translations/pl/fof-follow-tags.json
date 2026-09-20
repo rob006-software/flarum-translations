@@ -45,10 +45,10 @@
                 "new_discussion_tag_text": "{username} zmienił tagi"
             },
             "prompt": {
-                "choose_button": "",
-                "modal_title": "",
-                "later_button": "",
-                "continue_button": ""
+                "choose_button": "Wybierz tagi do obserwowania",
+                "modal_title": "Wybierz tagi do obserwowania",
+                "later_button": "Przypomnij mi później",
+                "continue_button": "Przejdź do forum"
             },
             "user": {
                 "settings": {
@@ -62,23 +62,23 @@
                 "following_page_default_label": "Domyślny filtr na stronie \"Obserwowane\"",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "Proś nowych użytkowników o wybranie tagów do obserwowania",
+                "prompt_new_users_help": "Użytkownicy, którzy nie potwierdzili jeszcze swojego wyboru, zobaczą okno z prośbą o wybranie tagów do obserwowania. Okno będzie wyświetlane przy każdej wizycie, dopóki nie klikną „Przejdź do forum”.\n",
+                "prompt_button_on_following_page_label": "Pokaż przycisk „Wybierz tagi do obserwowania” na stronie „Obserwowane”",
+                "prompt_tag_strategy_label": "Tagi wyświetlane w oknie wyboru",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Tagi główne pierwszego poziomu",
+                    "primaryAndChildren": "Wszystkie tagi główne, niezależnie od poziomu",
+                    "primaryAndSecondary": "Tagi główne pierwszego poziomu i tagi dodatkowe",
+                    "secondary": "Tylko tagi dodatkowe",
+                    "all": "Wszystkie tagi",
+                    "list": "Tagi wybrane poniżej"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "Tagi do wyświetlenia",
+                "all_discussions_on_following_page_for_guests_label": "Pokazuj wszystkie dyskusje gościom na stronie „Obserwowane”"
             },
             "basics": {
-                "following_label": ""
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {

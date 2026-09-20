@@ -70,10 +70,10 @@
                     "extra_text_help": "附加文本到发送的 Webhook 中",
                     "group_label": "组群",
                     "group_help": "发送该组群可见的资源",
-                    "name_label": "",
-                    "name_help": "",
+                    "name_label": "名称",
+                    "name_help": "Webhook 的名称，将用作 Discord 用户名、Slack 机器人名称等。",
                     "events_label": "事件",
-                    "include_matching_tags_label": ""
+                    "include_matching_tags_label": "包含匹配的标签（对于限制到特定标签的 Webhook，显示匹配到的标签）"
                 },
                 "services": {
                     "discord": "Discord",

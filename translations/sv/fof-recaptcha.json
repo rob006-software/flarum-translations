@@ -2,25 +2,25 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
+                "help_text": "Hämta dina reCAPTCHA-uppgifter från Google <a>här</a>.",
+                "secret_key_label": "Hemlig nyckel (Secret Key)",
+                "site_key_label": "Webbplatsnyckel (Site Key)",
+                "type_label": "reCAPTCHA-typ",
                 "type_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Testa reCAPTCHA",
+                "help_text": "Detta test använder de aktuella värdena som angetts ovan. Kom ihåg att ladda om testet efter att ha ändrat inställningarna, och glöm inte att spara när testet har godkänts!\nDet som visas nedan kanske inte återspeglar de sparade inställningarna.\n",
+                "success_message": "Klart! reCAPTCHA är korrekt konfigurerat.",
+                "load_test_button": "Ladda",
+                "submit_button": "Skicka",
+                "reload_button": "Ladda om"
             },
             "permissions": {
-                "post_without_captcha": ""
+                "post_without_captcha": "Skapa inlägg och diskussioner utan captcha"
             }
         },
         "forum": {
@@ -29,7 +29,7 @@
         }
     },
     "validation": {
-        "recaptcha": "",
-        "recaptcha-unknown": ""
+        "recaptcha": "Validering av reCAPTCHA misslyckades.",
+        "recaptcha-unknown": "Ett okänt fel uppstod vid validering av reCAPTCHA ({errors})."
     }
 }

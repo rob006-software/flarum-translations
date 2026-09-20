@@ -2,25 +2,25 @@
     "linkrobins-link-gate": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "domains_label": "",
-                "domains_help": "",
-                "html_label": "",
-                "html_help": "",
-                "fallback_label": "",
-                "fallback_help": ""
+                "enabled_label": "Zugriffsbeschränkte Links",
+                "enabled_help": "Deaktiviere diese Option, um alle Links wieder für alle Nutzer anzuzeigen, ohne dass deine Domänen-Liste verloren geht.",
+                "domains_label": "Zugriffsbeschränkte Domänen",
+                "domains_help": "Eine Domäne pro Zeile, zum Beispiel mega.nz. Subdomains sind enthalten, sodass mega.nz auch folder.mega.nz umfasst. Lasse das Feld leer, wenn nichts gesperrt werden soll.",
+                "html_label": "Was stattdessen angezeigt wird",
+                "html_help": "Der angezeigte HTML-Code an Stelle des beschränkten Links. D u kannst hier alles verwenden, was auch in einen Beitrag funktioniert. Lasse das Feld leer, um stattdessen den untenstehenden Text anzuzeigen.",
+                "fallback_label": "Einfacher Wortlaut",
+                "fallback_help": "Wird dort verwendet, wo HTML nicht eingesetzt werden kann, insbesondere in Benachrichtigungs-E-Mails. Halte den Text kurz und gib an, wo der Link gefunden werden kann."
             },
             "translations": {
-                "label": "",
-                "help": ""
+                "label": "Andere Sprachen",
+                "help": "Was du oben geschrieben hast, wird allen angezeigt. Gib hier eine Sprache ein, dann wird den Lesern, die diese Sprache verwenden, stattdessen dieser Text angezeigt. Lässt du das Feld leer, wird stattdessen das angezeigt, was du oben geschrieben hast."
             },
             "permissions": {
-                "view_gated_links_label": ""
+                "view_gated_links_label": "Zugriffsbeschränkte Links ansehen"
             }
         },
         "forum": {
-            "fallback": ""
+            "fallback": "Dieser Link ist nur für Mitglieder zugänglich."
         }
     }
 }

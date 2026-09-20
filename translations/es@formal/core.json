@@ -44,12 +44,12 @@
                 "title": "Lo esencial",
                 "welcome_banner_heading": "Mensaje de bienvenida",
                 "welcome_banner_text": "Introduzca el texto que se mostrará en la lista de discusiones. Utilícelo para dar la bienvenida a los invitados en su foro.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": "",
+                "abandoned_extensions_heading": "Extensiones abandonadas",
+                "abandoned_extensions_text": "Flarum mantiene una <a>lista comunitaria de extensiones abandonadas</a>. Cuando una extensión instalada aparece en la lista, se marcará en el panel de administración.",
+                "abandoned_extensions_sync_button": "Revisar ahora",
+                "abandoned_extensions_sync_success": "Lista de extensiones abandonadas actualizada. Número de extensiones encontradas en tu foro: {count}.",
+                "abandoned_extensions_sync_error": "No se ha podido obtener la lista de extensiones abandonadas. Inténtalo de nuevo más tarde.",
+                "abandoned_extensions_notify_admins_label": "Enviar un correo electrónico a los administradores cuando la comprobación semanal detecte una nueva extensión abandonada",
                 "saved_message": "Sus cambios fueron guardados.",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -64,28 +64,28 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# comentario} other {# comentarios}}",
+                "description": "Últimas noticias y comunicados del equipo de Flarum.",
+                "empty": "No se encontraron anuncios.",
+                "load_error": "No se han podido cargar los anuncios. Inténtalo de nuevo más tarde.",
+                "about": "Las últimas noticias y anuncios provienen de la comunidad oficial de Flarum en discuss.flarum.org.",
+                "hide": "Ocultar anuncios",
+                "read_more": "Leer más",
+                "refresh": "Actualizar anuncios",
+                "retry": "Reintentar",
+                "show": "Mostrar anuncios",
+                "title": "Anuncios",
+                "view_all": "Ver todos en discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Limpiar cache",
                 "description": "Su foro de un vistazo.",
-                "info_button": "",
+                "info_button": "Información del sistema",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Información del sistema",
+                    "copy_button": "Copiar al portapapeles",
+                    "copy_success": "Información del sistema copiada al portapapeles",
+                    "copy_error": "No se ha podido copiar al portapapeles"
                 },
                 "io_error_message": "No se pudo escribir en el sistema de archivos. Verifica los permisos de su sistema de archivos y vuelve a intentarlo. O intenta ejecutar desde la línea de comandos.",
                 "status": {
@@ -164,11 +164,11 @@
                 "text": "Configure el servidor SMTP y las direcciones que su foro usará para enviar correos electrónicos."
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Esta extensión ya no recibe mantenimiento por parte de su autor y es posible que no reciba actualizaciones.",
+                "abandoned_with_replacement": "Esta extensión ha sido sustituida por {replacement}. Considera migrar al paquete que la sustituye.",
                 "configure_scopes": "Configurar ámbitos",
                 "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
-                "deprecated": "",
+                "deprecated": "Obsoleta",
                 "disabled": "Desactivada",
                 "enable_to_see": "Habilite la extensión para ver y cambiar la configuración.",
                 "enabled": "Activada",
@@ -190,7 +190,7 @@
                     "no_readme": "Esta extensión no incluye un archivo LÉEME",
                     "title": "Documentación de {extName}"
                 },
-                "replaced": "",
+                "replaced": "Reemplazada",
                 "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Está seguro de que quiere continuar?",
                 "saved_message": "Se guardaron tus cambios.",
                 "uninstall_button": "Desinstalar"
@@ -213,7 +213,7 @@
                     "discussion": "Discusión",
                     "feature": "Características",
                     "formatting": "Formato",
-                    "forum-widget": "",
+                    "forum-widget": "Widgets del foro",
                     "language": "Idiomas",
                     "moderation": "Moderación",
                     "other": "Otras Extensiones",
@@ -258,7 +258,7 @@
                 "participate_heading": "Participar",
                 "post_without_throttle_label": "Publicar varias veces sin tener que esperar",
                 "read_heading": "Leer",
-                "remove_scope_label": "",
+                "remove_scope_label": "Eliminar el ámbito de {scope}",
                 "rename_discussions_label": "Cambiar el título a discusiones",
                 "reply_to_discussions_label": "Responder en discusiones",
                 "search_users_label": "=> core.ref.search_users",
@@ -614,7 +614,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Se ha restablecido tu conexión.",
             "debug_button": "Depurar",
             "alert": {
                 "dismiss_a11y_label": "Descartar la alerta"
@@ -649,9 +649,9 @@
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, cargue de nuevo la página y vuelva a intentarlo.",
                 "generic_cross_origin_message": "¡Ups! Algo salió mal durante una solicitud de origen cruzado. Vuelve a cargar la página e inténtalo de nuevo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
-                "network_message": "",
+                "network_message": "Parece que hay un problema con tu conexión. Comprueba la red y vuelve a intentarlo.",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
-                "offline_message": "",
+                "offline_message": "Parece que no tienes conexión. Comprueba tu conexión y vuelve a intentarlo.",
                 "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tiene permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Pare el carro! Va usted muy rápido. Por favor, vuelva a intentarlo en unos segundos.",
@@ -723,7 +723,7 @@
                 "csrf_token_mismatch_return_link": "Vuelva atrás para intentarlo de nuevo",
                 "invalid_confirmation_token": "Este enlace de confirmación ya se ha utilizado o no es válido.",
                 "not_authenticated": "Usted no tiene permiso para acceder a esta página. Inténtelo de nuevo después de iniciar sesión.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Esta página no admite ese método de solicitud.",
                 "not_found": "¡Recórcholis! La página solicitada no ha podido ser encontrada.",
                 "not_found_return_link": "Volver a {forum}",
                 "permission_denied": "¡Nanay de la China! No tiene permiso para acceder a esta página.",
@@ -772,7 +772,7 @@
                 "body": "Hey {username}!\n\nEste es un correo electrónico de prueba para confirmar que la configuración de Flarum funciona correctamente.\n\nSi fué usted, este correo electrónico significa que su configuración funciona.\n\nSi no ha sido usted, ignore este correo electrónico.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Acción necesaria: se han detectado extensiones abandonadas",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

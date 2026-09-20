@@ -2,28 +2,28 @@
     "peopleinside-powcaptcha": {
         "admin": {
             "settings": {
-                "enabled_login_label": "",
-                "enabled_login_help": "",
-                "enabled_signup_label": "",
-                "enabled_signup_help": "",
-                "enabled_forgot_label": "",
-                "enabled_forgot_help": "",
-                "difficulty_label": "",
-                "difficulty_help": "",
-                "difficulty_3": "",
-                "difficulty_4": "",
-                "difficulty_5": ""
+                "enabled_login_label": "CAPTCHA bei Anmeldung aktivieren",
+                "enabled_login_help": "Zeige die PoW-Sicherheitsabfrage im Anmeldeformular an.",
+                "enabled_signup_label": "CAPTCHA bei Registrierung aktivieren",
+                "enabled_signup_help": "Zeige die PoW-Sicherheitsabfrage im Registrierungsformular an.",
+                "enabled_forgot_label": "CAPTCHA bei Passwortrücksetzung aktivieren",
+                "enabled_forgot_help": "Zeige die PoW-Sicherheitsabfrage im Formular „Passwort vergessen“ an.",
+                "difficulty_label": "Schwierigkeit",
+                "difficulty_help": "Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 kann von einigen Bots umgangen werden (~100 ms). Stufe 2 bietet besseren Schutz und ist die Standardeinstellung (~1 s). Stufe 3 versucht, maximalen Schutz und maximalen Schwierigkeitsgrad für Bots zu gewährleisten (~10 s).",
+                "difficulty_3": "Stufe 1 – Niedrig (~100 ms)",
+                "difficulty_4": "Stufe 2 – Mittel (~1 s)",
+                "difficulty_5": "Stufe 3 – Hoch (~10 s)"
             }
         },
         "forum": {
-            "solving": "",
-            "verified": "",
-            "error": "",
-            "retry": "",
-            "challenge_not_ready": ""
+            "solving": "Bewältigung der Sicherheitsabfrage…",
+            "verified": "Sicherheitsabfrage bestanden",
+            "error": "Die Sicherheitsabfrage ist fehlgeschlagen. Bitte versuche es erneut.",
+            "retry": "Erneut versuchen",
+            "challenge_not_ready": "Die Sicherheitsüberprüfung läuft noch oder ist noch nicht abgeschlossen. Bitte warten."
         },
         "validation": {
-            "pow_captcha": ""
+            "pow_captcha": "Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut."
         }
     }
 }

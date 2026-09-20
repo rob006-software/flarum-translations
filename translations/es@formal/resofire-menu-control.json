@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
-                "add_custom_link": "",
-                "custom_link_label": "",
-                "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "title": "Orden de los elementos del menú",
+                "description": "Usa los botones de flecha para reordenar los elementos de navegación de la barra lateral en la página de inicio del foro. Los cambios surten efecto inmediatamente después de guardar.",
+                "save_button": "Guardar orden",
+                "save_success": "Orden de navegación guardado.",
+                "no_items": "Aún no se han detectado elementos de navegación. Visita la página de inicio del foro como administrador primero para poblar esta lista.",
+                "move_up": "Mover arriba",
+                "icon_input_title": "Clase de icono personalizada de Font Awesome (ej. fas fa-bolt). Déjalo vacío para usar el predeterminado.",
+                "highlight_color_label": "Color de resaltado",
+                "highlight_color_help": "Color de fondo para los elementos de navegación resaltados. Déjalo vacío para usar el color del tema predeterminado.",
+                "remove_item": "Eliminar de la lista",
+                "add_custom_link": "Añadir enlace personalizado",
+                "custom_link_label": "Etiqueta del enlace",
+                "polls_note": "Nota: Si fof/polls está instalado, fof-polls-showcase y elementos similares pueden aparecer en esta lista incluso si las encuestas globales están desactivadas. Usa el botón × para eliminarlos permanentemente.",
+                "add_highlight": "Resaltar este elemento para los usuarios",
+                "remove_highlight": "Eliminar resaltado",
+                "move_down": "Mover abajo",
+                "flip_label": "Invertir navegación (mostrar etiquetas sobre los elementos del menú)",
+                "flip_help": "Cuando está activado, los enlaces de etiquetas aparecen en la parte superior de la barra lateral y los elementos de navegación (Todas las discusiones, Siguiendo, etc.) aparecen debajo.",
+                "sticky_label": "Barra lateral fija (la barra lateral permanece visible al hacer scroll)",
+                "sticky_help": "Cuando está activado, la barra lateral, incluido el botón \"Iniciar una discusión\", permanece fija en la parte superior de la ventana a medida que te desplazas hacia abajo."
             }
         }
     }

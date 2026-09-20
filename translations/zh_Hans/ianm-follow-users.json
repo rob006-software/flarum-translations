@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "导出已关注用户及被关注用户的详细信息。",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
+                    "delete_description": "删除与关注用户相关的所有数据。"
                 }
             }
         }
@@ -24,10 +24,10 @@
             "followed": "追随",
             "followers": "粉丝",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "",
+            "followers_link": "我的粉丝",
             "profile_page": {
                 "no_following": "您还没有关注任何人。",
-                "no_followers": ""
+                "no_followers": "还没有人关注您。"
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",

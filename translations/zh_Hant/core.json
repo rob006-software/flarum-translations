@@ -43,12 +43,12 @@
                 "title": "一般",
                 "welcome_banner_heading": "歡迎橫幅",
                 "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "已棄用插件",
+                "abandoned_extensions_text": "Flarum 維護了一份<a>已棄用擴充套件清單</a>。若安裝了清單中的擴充套件，管理後台將會標示該擴充套件。",
+                "abandoned_extensions_sync_button": "立即檢查",
+                "abandoned_extensions_sync_success": "已完成更新已棄用擴充套件清單。已安裝的擴充套件中，共有 {count} 個已棄用。",
+                "abandoned_extensions_sync_error": "已棄用擴充套件清單更新失敗。請稍後再試。",
+                "abandoned_extensions_notify_admins_label": "每週例行檢查時，若發現新的已棄用擴充套件，將以電子郵件通知管理員"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,18 +61,18 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# 則留言} other {# 則留言}}",
+                "description": "Flarum 團隊的最新消息和公告。",
+                "empty": "未發現公告。",
+                "load_error": "無法加載公告。請稍候再試。",
+                "about": "來自 Flarum 官方社群 discuss.flarum.org 的最新消息與公告。",
+                "hide": "隱藏公告",
+                "read_more": "閱讀更多",
+                "refresh": "刷新公告",
+                "retry": "重試",
+                "show": "顯示公告",
+                "title": "公告",
+                "view_all": "在 discuss.flarum.org 查看全部"
             },
             "dashboard": {
                 "clear_cache_button": "清除快取",
@@ -202,7 +202,7 @@
                     "discussion": "主題",
                     "feature": "功能",
                     "formatting": "格式化",
-                    "forum-widget": "",
+                    "forum-widget": "論譠小組件",
                     "language": "語言包",
                     "moderation": "內容審核",
                     "other": "其他",
@@ -682,7 +682,7 @@
                 "csrf_token_mismatch_return_link": "返回並再試一下",
                 "invalid_confirmation_token": "驗證連結已使用或無效。",
                 "not_authenticated": "您沒有權限訪問此頁面。請登入後再試。",
-                "method_not_allowed": "",
+                "method_not_allowed": "此頁面不支持該請求方法。",
                 "not_found": "頁面未找到。",
                 "not_found_return_link": "返回 {forum}",
                 "permission_denied": "您沒有權限訪問此頁面。",
@@ -731,7 +731,7 @@
                 "body": "{username}，您好！\n\n這是一個測試郵件，用於測試您的郵箱設置是否正確。\n\n若是您本人發送了測試郵件，那麼恭喜，這代表您的設置有正常運作！\n\n若非您本人發送測試郵件，請忽略此內容。\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "注意：偵測到已淘汰的擴充套件",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

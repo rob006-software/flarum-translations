@@ -37,7 +37,7 @@
                 "title": "字段",
                 "add": "添加字段 {field}",
                 "edit": "编辑字段 {field}",
-                "delete-confirmation": "",
+                "delete-confirmation": "确定要删除字段「{field}」吗？此操作无法撤销。",
                 "name": "字段名",
                 "name-help": "公开可见（不可翻译）的字段名。\n",
                 "description": "字段描述",
@@ -69,9 +69,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "导出用户填写的扩展资料。",
+                    "delete_description": "删除用户账号中的所有扩展资料。",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
@@ -83,7 +83,7 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
-                    "profile_updated": ""
+                    "profile_updated": "更新了 {username} 的扩展资料"
                 }
             }
         }

@@ -47,9 +47,9 @@
                 "abandoned_extensions_heading": "Övergivna tillägg",
                 "abandoned_extensions_text": "Flarum förvaltar en <a>community-lista över övergivna tillägg</a>. När ett installerat tillägg finns med på listan flaggas det i administratörspanelen.",
                 "abandoned_extensions_sync_button": "Kontrollera nu",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": "",
+                "abandoned_extensions_sync_success": "Listan över övergivna tillägg har uppdaterats. {count} matchande installerade tillägg hittades.",
+                "abandoned_extensions_sync_error": "Det gick inte att hämta listan över övergivna tillägg. Försök igen senare.",
+                "abandoned_extensions_notify_admins_label": "Skicka e-post till administratörer när ett nyligen övergivet tillägg upptäcks under den veckovisa kontrollen",
                 "saved_message": "Dina ändringar sparades",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -64,28 +64,28 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# kommentar} other {# kommentarer}}",
+                "description": "Senaste nytt och aviseringar från Flarum-teamet.",
+                "empty": "Inga aviseringar hittades.",
+                "load_error": "Det gick inte att läsa in aviseringarna. Försök igen senare.",
+                "about": "Senaste nytt och aviseringar hämtade från Flarums officiella community på discuss.flarum.org.",
+                "hide": "Dölj aviseringar",
+                "read_more": "Läs mer",
+                "refresh": "Uppdatera aviseringar",
+                "retry": "Försök igen",
+                "show": "Visa aviseringar",
+                "title": "Aviseringar",
+                "view_all": "Visa alla på discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
-                "info_button": "",
+                "info_button": "Systeminformation",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Systeminformation",
+                    "copy_button": "Kopiera till urklipp",
+                    "copy_success": "Systeminformation kopierad till urklipp",
+                    "copy_error": "Det gick inte att kopiera till urklipp"
                 },
                 "io_error_message": "Kan inte skriva till filsystemet. Kontrollera dina behörigheter till filsystemet och försök igen. Eller försök köra via kommandorad.",
                 "status": {
@@ -160,11 +160,11 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Detta tillägg underhålls inte längre av sin upphovsman och kommer kanske inte att få några uppdateringar.",
+                "abandoned_with_replacement": "Detta tillägg har ersatts av {replacement}. Överväg att migrera till ersättningspaketet.",
                 "configure_scopes": "Konfigurera scopes",
                 "confirm_purge": "Rensning kommer att radera alla databasposter och inställningar relaterad till den här extensionen. Det kommer inte att avinstallera extensionen, det måste göras via Composer. Är du säker på att du vill fortsätta?",
-                "deprecated": "",
+                "deprecated": "Utfasad",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -186,7 +186,7 @@
                     "no_readme": "Den här extensionen verkar inte ha någon README-fil",
                     "title": "{extName} dokumentation"
                 },
-                "replaced": "",
+                "replaced": "Ersatt",
                 "confirm_uninstall": "Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?",
                 "uninstall_button": "Avinstallera",
                 "saved_message": "Your changes were saved."
@@ -209,7 +209,7 @@
                     "discussion": "Discussion",
                     "feature": "Funktioner",
                     "formatting": "Formatting",
-                    "forum-widget": "",
+                    "forum-widget": "Forum-widgets",
                     "language": "Språk",
                     "moderation": "Moderation",
                     "other": "Andra tillägg",
@@ -247,7 +247,7 @@
                 "participate_heading": "Participate",
                 "post_without_throttle_label": "Reply multiple times without waiting",
                 "read_heading": "Read",
-                "remove_scope_label": "",
+                "remove_scope_label": "Ta bort scope för {scope}",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
                 "search_users_label": "Sök efter användare",
@@ -263,7 +263,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
-                "allow_never_button": "",
+                "allow_never_button": "=> core.ref.never",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "I 10 minuter",
                 "allow_until_reply_button": "Until next reply",
@@ -306,7 +306,7 @@
                             "title": "Gick med"
                         },
                         "user_actions": {
-                            "title": ""
+                            "title": "Åtgärder"
                         },
                         "user_id": {
                             "title": "ID"
@@ -326,7 +326,7 @@
                     "next_button": "Nästa sida",
                     "page_counter": "Sida {current} av {total}"
                 },
-                "search_placeholder": "",
+                "search_placeholder": "=> core.ref.search_users",
                 "title": "Användare",
                 "total_users": "Totalt antal användare: {count}"
             }
@@ -502,30 +502,30 @@
                 "global_logout": {
                     "heading": "Global utloggning",
                     "help_text": "Rensar aktuell cookie-session, avslutar alla sessioner, återkallar utvecklartokens och ogiltigförklarar alla e-postmeddelanden för e-postbekräftelse eller återställning av lösenord.",
-                    "log_out_button": ""
+                    "log_out_button": "=> core.ref.log_out"
                 },
                 "hide_access_token": "Dölj Token",
                 "last_activity": "Senaste aktivitet",
-                "never": "",
-                "new_access_token_button": "",
+                "never": "=> core.ref.never",
+                "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
                     "submit_button": "Skapa Token",
-                    "title": "",
+                    "title": "=> core.ref.new_token",
                     "title_placeholder": "Titel"
                 },
                 "revoke_access_token": "Återkalla",
-                "revoke_access_token_confirmation": "",
+                "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Aktiva sessioner",
                 "session_terminated": "{count, plural, one {Session avslutad} other {# Sessioner avslutade}}.",
                 "session_termination_failed": "Ett fel uppstod vid avslutandet av dina sessioner.",
                 "show_access_token": "Visa token",
                 "terminate_all_other_sessions": "Avsluta alla andra sessioner",
-                "terminate_all_other_sessions_confirmation": "",
+                "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Avsluta",
-                "title": "",
+                "title": "=> core.ref.security",
                 "token_revoked": "Token återkallad.",
-                "token_item_title": "",
-                "token_title_placeholder": ""
+                "token_item_title": "{title} - {token}",
+                "token_title_placeholder": "/"
             },
             "settings": {
                 "account_heading": "Konto",
@@ -561,7 +561,7 @@
                 "posts_empty_text": "Det verkar inte finnas några inlägg här.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
-                "security_link": "",
+                "security_link": "=> core.ref.security",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -596,7 +596,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Din anslutning har återställts.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Avfärda varning"
@@ -608,7 +608,7 @@
                 "toggle_dropdown_accessible_label": "Visa/dölj dropdownmeny"
             },
             "data_segment": {
-                "label": ""
+                "label": "{label}:"
             },
             "edit_user": {
                 "activate_button": "Aktivera användare",
@@ -631,9 +631,9 @@
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
                 "generic_cross_origin_message": "Hoppsan! Något gick fel under en förfrågan mellan olika ursprung. Var vänlig ladda om sidan och försök igen.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
-                "network_message": "",
+                "network_message": "Det verkar vara något fel på din anslutning. Kontrollera nätverket och försök igen.",
                 "not_found_message": "Den begärda resursen hittades inte.",
-                "offline_message": "",
+                "offline_message": "Du verkar vara offline. Kontrollera din anslutning och försök igen.",
                 "payload_too_large_message": "Innehållet i svaret var för stort.",
                 "permission_denied_message": "Du saknar rättigheterna för att göra det.",
                 "rate_limit_exceeded_message": "Du är lite för snabb. Försök igen om några sekunder.",
@@ -657,9 +657,9 @@
                 "mega_text": "M"
             },
             "datetime_formats": {
-                "humanTimeShort": "",
-                "humanTimeLong": "",
-                "scrubber": ""
+                "humanTimeShort": "D MMM",
+                "humanTimeLong": "ll",
+                "scrubber": "MMMM YYYY"
             },
             "series": {
                 "glue_text": ", ",
@@ -705,7 +705,7 @@
                 "csrf_token_mismatch_return_link": "Gå tillbaka och försök igen",
                 "invalid_confirmation_token": "Den här bekräftelselänken har redan använts eller är ogiltig.",
                 "not_authenticated": "Du har inte behörighet att komma åt den här sidan. Logga in och försök igen.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Den här sidan stöder inte begärandemetoden.",
                 "not_found": "Sidan du försöker nå finns ej.",
                 "not_found_return_link": "Tillbaka till {forum}",
                 "permission_denied": "Du har ej behörighet att besöka denna sida.",
@@ -754,7 +754,7 @@
                 "body": "Hey {username}!\nThis is a test email to confirm that your Flarum email configuration is working properly.\nIf this was you, this email means that your configuration works!\nIf this was not you, please ignore this email.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Åtgärd krävs: övergivna tillägg har upptäckts",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

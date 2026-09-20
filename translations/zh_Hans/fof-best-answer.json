@@ -4,7 +4,7 @@
             "permissions": {
                 "best_answer": "为自己的主题选择最佳回复",
                 "best_answer_not_own_discussion": "为他人的主题选择最佳回复",
-                "allow_select_own_post": ""
+                "allow_select_own_post": "将自己的帖子设为最佳回复"
             },
             "settings": {
                 "label": {
@@ -126,8 +126,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "best_answer_set": "",
-                    "best_answer_unset": ""
+                    "best_answer_set": "将 {post} 设为 {discussion} 的最佳回复",
+                    "best_answer_unset": "取消了 {discussion} 中的最佳回复 {post}"
                 }
             }
         }

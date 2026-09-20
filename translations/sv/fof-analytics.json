@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Aktivera Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimera spårningskod (valfritt)",
+                    "googleTrackingCode": "ID för spårningskod",
+                    "googleGTMCode": "GTM-kod-ID (valfritt)",
+                    "statusPiwik": "Aktivera Matomo",
+                    "piwikUrl": "Matomo-domän eller webbadress",
+                    "piwikSiteId": "Webbplats-ID",
+                    "piwikTrackSubdomain": "Spåra besökare till alla Flarums underdomäner",
+                    "piwikPrependDomain": "Lägg till webbplatsdomänen före sidtiteln vid spårning",
+                    "piwikHideAliasUrl": "Dölj klick på kända alias-webbadresser i rapporten ”Utgående länkar”",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Spåra enskilda användarkonton",
+                    "piwikAuthToken": "Autentiseringstoken"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Ange denna token för att aktivera en Matomo-statistikwidget i administrationspanelen.\nDu hittar den under Inställningar > Personligt > API-autentiseringstoken.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Spåra inte",
+                    "username": "Spåra via användarnamn",
+                    "email": "Spåra via e-post"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }

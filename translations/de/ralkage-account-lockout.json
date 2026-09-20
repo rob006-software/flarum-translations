@@ -2,48 +2,48 @@
     "ralkage-account-lockout": {
         "api": {
             "error": {
-                "locked_timed": "",
-                "locked_manual": ""
+                "locked_timed": "Konto ist gesperrt. Erneut versuchen in {minutes} Minute(n).",
+                "locked_manual": "Konto ist gesperrt. Kontaktiere einen Administrator."
             }
         },
         "admin": {
             "settings": {
-                "max_attempts_label": "",
-                "max_attempts_help": "",
-                "lockout_mode_label": "",
-                "lockout_mode_help": "",
-                "lockout_duration_label": "",
-                "lockout_duration_help": ""
+                "max_attempts_label": "Maximale Anzahl fehlgeschlagener Anmeldeversuche",
+                "max_attempts_help": "Anzahl der aufeinanderfolgenden fehlgeschlagenen Anmeldeversuche, bevor ein Konto gesperrt wird.",
+                "lockout_mode_label": "Sperrmodus",
+                "lockout_mode_help": "Zeitgesteuert: Wird nach Ablauf der Dauer automatisch entsperrt. Manuell: Muss von einem Administrator/Moderator entsperrt werden.",
+                "lockout_duration_label": "Sperrdauer (Minuten)",
+                "lockout_duration_help": "Wie lange Konten gesperrt bleiben. Gilt nur, wenn der Sperrmodus auf „Zeitgesteuert“ eingestellt ist."
             },
             "permissions": {
-                "unlock_users_label": ""
+                "unlock_users_label": "Gesperrte Konten entsperren"
             },
             "users": {
-                "lock_status_column": "",
-                "locked_tooltip": "",
-                "unlock_button": "",
-                "unlock_confirmation": ""
+                "lock_status_column": "Sperrstatus",
+                "locked_tooltip": "Dieses Konto ist gesperrt",
+                "unlock_button": "Entsperren",
+                "unlock_confirmation": "Möchtest du {username} wirklich entsperren?"
             }
         },
         "forum": {
             "user_controls": {
-                "unlock_button": ""
+                "unlock_button": "Entsperren"
             },
             "user_badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Konto gesperrt"
             },
             "unlock_modal": {
-                "title": "",
-                "locked_since": "",
-                "locked_until": "",
-                "manually_locked": "",
-                "failed_attempts": "",
-                "unlock_button": ""
+                "title": "{username} entsperren",
+                "locked_since": "Gesperrt seit {date}",
+                "locked_until": "Automatisch Entsperren am {date}",
+                "manually_locked": "Dieses Konto wurde manuell gesperrt und kann nur von einem Administrator oder Moderator entsperrt werden.",
+                "failed_attempts": "{count} fehlgeschlagene(r) Anmeldeversuch(e)",
+                "unlock_button": "Konto entsperren"
             },
             "log_in": {
-                "locked_timed": "",
-                "locked_manual": "",
-                "attempts_remaining": ""
+                "locked_timed": "Dieses Konto wurde aufgrund zu vieler fehlgeschlagener Anmeldeversuche gesperrt. Bitte versuche es in {minutes} Minute(n) erneut.",
+                "locked_manual": "Dieses Konto wurde gesperrt. Bitte wende dich an einen Administrator.",
+                "attempts_remaining": "Ungültige Anmeldedaten. Es verbleiben noch {remaining} von {max} Anmeldeversuchen, bevor dein Konto gesperrt wird."
             }
         }
     }

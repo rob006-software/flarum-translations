@@ -3,104 +3,104 @@
         "admin": {
             "permissions": {
                 "view": "查看审查日志",
-                "viewLimited": ""
+                "viewLimited": "查看部分审计日志"
             },
             "header": {
-                "title": ""
+                "title": "审计"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "配置",
+                "title": "配置可见类型",
+                "introduction": "选择「查看部分审计日志」权限用户可见的日志类型",
+                "requiresExtension": "需要先启用扩展「{extension}」"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "查看 IP 地址"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "all-audit": "审计日志",
+                "discussion-audit": "审计日志",
+                "user-audit": "账号变更记录",
+                "actor-audit": "用户操作记录"
             },
             "modal": {
-                "all-title": "",
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "all-title": "审计日志",
+                "discussion-title": "讨论审计日志",
+                "user-title": "账号变更记录",
+                "actor-title": "用户操作记录"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "filterClear": "",
-                "refresh": "",
-                "filtersHint": "",
+                "filterPlaceholder": "筛选日志",
+                "filterApply": "应用",
+                "filterClear": "清除筛选",
+                "refresh": "刷新",
+                "filtersHint": "筛选条件：",
                 "filters": {
-                    "actor": "",
-                    "user": "",
-                    "action": "",
-                    "client": "",
-                    "ip": "",
-                    "discussion": ""
+                    "actor": "执行操作的用户。对于系统或未登录操作，可使用 actor:guest。",
+                    "user": "操作所影响的用户，使用用户名筛选。",
+                    "action": "操作类型，例如 action:post.created。",
+                    "client": "请求的发起方式。",
+                    "ip": "发起操作的 IP 地址。",
+                    "discussion": "查询影响指定讨论的操作，使用讨论 ID 筛选。"
                 },
                 "help": {
-                    "toggle": "",
-                    "multiple": "",
-                    "negate": ""
+                    "toggle": "搜索帮助",
+                    "multiple": "使用英文逗号分隔多个筛选条件，可匹配其中任意一个，例如 action:post.created,post.deleted",
+                    "negate": "在筛选条件前加减号可排除匹配项，例如 -client:cli"
                 },
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "empty": "暂无审计记录",
+                "loadMore": "加载更多",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "讨论 #{id}",
+                    "group": "用户组 #{id}",
+                    "post": "帖子 #{id}",
+                    "tag": "标签 #{id}",
+                    "user": "用户 #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "回复",
+                    "post": "帖子"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "（无值）",
+                "noReason": "（无原因）",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "网页会话",
+                    "api_key": "API 密钥",
+                    "access_token": "访问令牌",
+                    "cli": "命令行",
+                    "unknown": "未知客户端"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "隐藏原始日志",
+                    "showRaw": "显示原始日志",
+                    "filterActor": "筛选同一操作者",
+                    "filterIp": "筛选同一 IP",
+                    "filterClient": "筛选同一客户端类型",
+                    "filterAction": "筛选同一操作类型",
+                    "filterUser": "筛选同一受影响用户",
+                    "filterDiscussion": "筛选同一讨论"
                 },
-                "audit_log_cleared": "",
-                "cache_cleared": "",
+                "audit_log_cleared": "清除了审计日志中的 {deleted_count} 条记录",
+                "cache_cleared": "手动清除了缓存",
                 "discussion": {
-                    "created": "",
+                    "created": "发起了讨论 {discussion}",
                     "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
+                    "deleted": "删除了讨论 {discussion}",
+                    "hidden": "隐藏了讨论 {discussion}",
                     "locked": "",
                     "merged_away": "",
                     "merged_into": "",
-                    "renamed": "",
-                    "restored": "",
+                    "renamed": "将讨论标题从“{old_title}”修改为“{new_title}”",
+                    "restored": "恢复了讨论 {discussion}",
                     "split_away": "",
                     "split_into": "",
                     "stickied": "",
@@ -110,62 +110,62 @@
                     "user_changed": ""
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": "",
-                    "uninstalled": ""
+                    "disabled": "禁用了扩展 {package}",
+                    "enabled": "启用了扩展 {package}",
+                    "uninstalled": "卸载了扩展 {package}"
                 },
                 "fof_ban_ips": {
                     "banned": "",
                     "unbanned": ""
                 },
-                "permission_changed": "",
+                "permission_changed": "将 {permission} 权限的用户组从 {old_groups} 调整为 {new_groups}",
                 "post": {
                     "approved": "",
-                    "created": "",
+                    "created": "在 {discussion} 中发布了 {post}",
                     "create_date_changed": "",
-                    "deleted": "",
+                    "deleted": "删除了 {postuser} 在 {discussion} 中发布的 {post}",
                     "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
+                    "hidden": "隐藏了 {postuser} 在 {discussion} 中发布的 {post}",
+                    "restored": "恢复了 {postuser} 在 {discussion} 中发布的 {post}",
+                    "revised": "修改了 {postuser} 在 {discussion} 中发布的 {post}",
                     "user_changed": ""
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "修改了设置 {key}",
+                "setting_changed_with_values": "修改了设置 {key}：{old_value} → {new_value}",
                 "tag": {
                     "created": "",
                     "deleted": "",
                     "updated": ""
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
+                    "activated": "手动激活了 {username} 的账号",
+                    "activated_with_email": "通过确认链接激活了 {username} 的账号",
+                    "avatar_changed": "更换了 {username} 的头像",
+                    "avatar_removed": "移除了 {username} 的头像",
                     "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
+                    "created": "为 {username} 创建了账号",
+                    "deleted": "删除了用户 {username}",
+                    "email_changed": "修改了 {username} 的邮箱：{old_email} → {new_email}",
+                    "email_change_requested": "请求将 {username} 的邮箱变更为 {new_email}",
+                    "groups_changed": "修改了 {username} 的用户组：{old_groups} → {new_groups}",
                     "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
+                    "logged_in": "登录了 {username} 的账号",
+                    "logged_in_with_provider": "通过 {provider} 登录了 {username} 的账号",
+                    "logged_out": "登出了 {username} 的账号",
                     "nickname_changed": "",
                     "nickname_requested": "",
                     "nickname_request_approved": "",
                     "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "password_reset_attempted": "",
-                    "password_reset_attempted_unmatched": "",
-                    "provider_connected": "",
+                    "password_changed": "修改了 {username} 的密码",
+                    "password_change_requested": "请求修改 {username} 的密码",
+                    "password_reset_attempted": "请求重置 {username} 的密码",
+                    "password_reset_attempted_unmatched": "请求重置未注册邮箱 {email} 的密码",
+                    "provider_connected": "为 {username} 的账号绑定了 {provider}",
                     "suspended": "",
                     "unsuspended": "",
-                    "username_changed": "",
+                    "username_changed": "修改了 {username} 的用户名：{old_username} → {new_username}",
                     "username_requested": "",
                     "username_request_approved": "",
                     "username_request_rejected": ""

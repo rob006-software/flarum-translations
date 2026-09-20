@@ -16,7 +16,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Kortlänk",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "Skapa tagg"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Tagga diskussioner"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " till ",
@@ -41,12 +41,12 @@
             },
             "tags": {
                 "about_tags_text": "Taggar används för att kategorisera trådar. Primära taggar är som traditionella forumkategorier: De de kan placeras i en tvåstegshierarki. Sekundära taggar har ingen hierarki eller ordning och är användbara för mikrokategorisering.",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "edit_tag_label": "",
+                "create_primary_tag_button": "Skapa primär tagg",
+                "create_secondary_tag_button": "Skapa sekundär tagg",
+                "edit_tag_label": "Redigera tagg {tag}",
                 "primary_heading": "Primära taggar",
                 "secondary_heading": "Sekundära taggar",
-                "settings_heading": "",
+                "settings_heading": "Inställningar",
                 "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Inställningar"
             }
@@ -90,17 +90,17 @@
         "lib": {
             "deleted_tag_text": "Raderad",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Kringgå krav på taggar",
+                "choose_primary_placeholder": "{count, plural, one {Välj en primär tagg} other {Välj # primära taggar}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Välj taggar",
+            "choose_tags_placeholder": "{count, plural, one {Välj 1 tagg till} other {Välj # taggar till}}",
             "name": "Namn",
             "tags": "Taggar",
             "create_tag": "Skapa tagg"

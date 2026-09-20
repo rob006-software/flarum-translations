@@ -2,66 +2,66 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Siirretyn keskustelun (ensimmäisen viestin) sisältö",
+                "moved_first_post_content_help": "Kun keskustelussa on vain yksi viesti, sen siirtäminen muokkaa alkuperäisen keskustelun ensimmäistä viestiä osoittamaan uuteen keskusteluun. Voit muokata kyseisen viestin sisältöä täällä.\n",
+                "group_sequential_posts": "Ryhmittele peräkkäiset siirretyn viestin tapahtumaviestit yhdeksi."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Siirretty"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Et voi siirtää viestejä samaan keskusteluun."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Tarkista operaation tyyppi",
+                "destination": "Kohdekeskustelu",
+                "discussion_help": "Lähdekeskustelun avainsanat otetaan käyttöön, ja niitä voidaan muuttaa luomisen jälkeen.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Uusi keskustelu",
+                "selected_posts": "{count, plural, one {Yksi viesti valittu} other {{count} viestiä valittu}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Kyseessä on monimutkainen siirto — viestit työnnetään muiden viestien väliin, minkä vuoksi myös kohdekeskustelun viestien vanhat URL-viittaukset muuttuvat.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Kyseessä on yksinkertainen siirto — viestit lisätään kaikki keskustelun loppuun."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Jatka",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Olet siirtämässä kaikki viestit tästä keskustelusta uuteen. Useimmissa tapauksissa on järkevämpää muokata olemassa olevaa keskustelua sen sijaan, esimerkiksi muuttamalla sen otsikkoa, avainsanoja tai muita ominaisuuksia. Haluatko jatkaa?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Viesti siirretty kohteeseen {target_discussion}.} other {Siirretty {count} viestiä kohteeseen {target_discussion}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Yksi tai useampi viesteistäsi siirrettiin kohteeseen {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Poista valinta siirtääksesi",
+                "move": "Valitse siirtääksesi",
+                "moving": "Siirretään viestiä"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} siirsi viestin kohteeseen {target_discussion}.} other {{username} siirsi {count} viestiä kohteeseen {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Siirrä viestit",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Ei voida siirtää vanhempaa viestiä uudempaan keskusteluun."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Tämä viesti on siirretty kohteeseen **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }

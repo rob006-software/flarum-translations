@@ -11,7 +11,7 @@
                 "unignore_button": "Sluta ignorera"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
@@ -21,7 +21,7 @@
             },
             "settings": {
                 "follow_after_reply_label": "Följ automatiskt trådar som jag svarar i",
-                "notify_for_all_posts_label": "",
+                "notify_for_all_posts_label": "Avisera om varje nytt inlägg istället för bara det senaste i en diskussion",
                 "notify_new_post_label": "Någon skriver i en tråd som jag följer"
             },
             "sub_controls": {
@@ -38,7 +38,7 @@
         },
         "email": {
             "new_post": {
-                "subject": "",
+                "subject": "[Nytt inlägg] {title}",
                 "body": ""
             }
         },

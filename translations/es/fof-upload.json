@@ -70,7 +70,7 @@
                     "cdn_url": "URL de entrega de contenido (archivos de prefijos)",
                     "title": "Configuración de almacenamiento local"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "La configuración de almacenamiento se ha preconfigurado mediante vía Environment Variables.",
                 "qiniu": {
                     "title": "Configuración de almacenamiento Qiniu",
                     "key": "Key",
@@ -98,10 +98,10 @@
                     "toggle": "Imágenes de marca de agua"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Desinfección SVG",
+                    "allow_animate": "Permitir animaciones SVG",
+                    "help": "Configure cómo se procesan y desinfectan los archivos SVG al subirlos. Los archivos SVG pueden contener scripts potencialmente dañinos y deben manejarse con cuidado. Los archivos SVG subidos se desinfectan al cargarlos y se eliminan los scripts y etiquetas dañinos.",
+                    "allow_animate_help": "Habilitar animaciones SVG puede introducir vulnerabilidades de seguridad, ya que los SVG animados pueden contener código malicioso. Habilite esta configuración bajo su propia responsabilidad y sólo si confía en sus usuarios."
                 },
                 "composer_buttons": {
                     "title": "Botones del compositor",
