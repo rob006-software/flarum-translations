@@ -6,26 +6,26 @@
             "create_new_item_button": "Utwórz element",
             "edit_item": {
                 "modal_title": "Edytuj element",
-                "help": "",
+                "help": "Potrzebujesz czegoś więcej niż zwykłego linku? Zobacz <a>dokumentację dla deweloperów</a>, aby dowiedzieć się, jak tworzyć własne elementy i ich zachowanie.",
                 "label": "Etykieta",
                 "label_placeholder": "Mój własny element",
                 "path": "Ścieżka",
                 "url": "URL",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "Część adresu znajdująca się po {baseUrl}, zaczynająca się od ukośnika.",
+                    "external": "Pełny adres, razem z <code>https://</code>."
                 },
                 "icon": "Ikona",
                 "icon_help": "Podaj nazwę klasy dowolnej ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Dokąd prowadzi ten link",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Do strony na tym forum",
+                        "help": "Otwiera stronę bez jej ponownego ładowania."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Do innej strony",
+                        "help": "Otwiera adres poza tym forum."
                     }
                 },
                 "open_new_tab_checkbox": "Otwieraj link w nowej karcie",
