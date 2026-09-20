@@ -2,33 +2,33 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Dostępne elementy",
-            "available_items_help": "",
+            "available_items_help": "Przeciągnij elementy z tej listy do dowolnego wariantu, aby dodać je do mobilnego paska.",
             "create_new_item_button": "Utwórz element",
             "edit_item": {
                 "modal_title": "Edytuj element",
                 "label": "Etykieta",
                 "label_placeholder": "Mój własny element",
                 "path": "Ścieżka",
-                "url": "Url",
-                "icon": "Ikonka",
-                "icon_help": "Podaj nazwę klasy ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.",
+                "url": "URL",
+                "icon": "Ikona",
+                "icon_help": "Podaj nazwę klasy dowolnej ikony <a>Font Awesome</a>, razem z prefiksem <code>fas fa-</code>.",
                 "is_internal_checkbox": "Czy to wewnętrzny link?",
                 "open_new_tab_checkbox": "Otwieraj link w nowej karcie",
                 "submit_button": "Zapisz",
                 "delete_button": "Usuń",
-                "delete_item_confirmation": "Jesteś pewien, że chcesz usunąć ten element?"
+                "delete_item_confirmation": "Czy na pewno chcesz usunąć ten element?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "heading": "Warianty mobilnego paska",
+                "empty_help": "Przeciągnij tutaj elementy, aby dodać je do tego wariantu.",
+                "help": "Warianty są sprawdzane od góry do dołu. Użytkownik zobaczy pierwszy włączony wariant, do którego ma dostęp. Bardziej szczegółowe role umieść wyżej, na przykład: #1 administratorzy, #2 moderatorzy, #3 użytkownicy, #4 wszyscy.",
+                "number": "#{number}",
+                "enabled": "Włączony",
+                "visible_to": "Widoczny dla",
+                "reorder": "Zmień kolejność wariantu",
+                "delete": "Usuń wariant",
+                "delete_confirmation": "Czy na pewno chcesz usunąć ten wariant? Tej operacji nie można cofnąć.",
+                "create": "Utwórz wariant"
             },
             "scroll_settings": {
                 "toggle_label": "Przełączaj widoczność podczas przewijania",
@@ -49,7 +49,7 @@
                 "profile": "Profil",
                 "tags": "Tagi",
                 "messages": "Wiadomości",
-                "flags": "",
+                "flags": "Zgłoszenia",
                 "fof-byobu": "Prywatne",
                 "ramon-chat": "Czat"
             }
