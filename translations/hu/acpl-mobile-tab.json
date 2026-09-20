@@ -2,8 +2,8 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Elérhető elemek",
-            "available_items_help": "",
-            "create_new_item_button": "Új elem létrehozása",
+            "available_items_help": "Húzzon elemeket a listáról bármelyik változatra, hogy hozzáadja őket a mobilos laphoz.",
+            "create_new_item_button": "Elem létrehozása",
             "edit_item": {
                 "modal_title": "Elem szerkesztése",
                 "label": "Címke",
@@ -19,16 +19,16 @@
                 "delete_item_confirmation": "Biztos, hogy törli ezt az elemet?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "heading": "Mobilos lapváltozatok",
+                "empty_help": "Húzzon elemeket ide, hogy hozzáadja ehhez a változathoz.",
+                "help": "A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki.",
+                "number": "#{number}",
+                "enabled": "Engedélyezve",
+                "visible_to": "Következők számára látható",
+                "reorder": "Változat átrendezése",
+                "delete": "Változat törlése",
+                "delete_confirmation": "Biztos, hogy törli ezt a változatot? Ez a művelet nem vonható vissza.",
+                "create": "Változat létrehozása"
             },
             "scroll_settings": {
                 "toggle_label": "Láthatóság átállítása görgetéskor",
@@ -49,7 +49,7 @@
                 "profile": "Profil",
                 "tags": "Címkék",
                 "messages": "Üzenetek",
-                "flags": "",
+                "flags": "Jelzők",
                 "fof-byobu": "Privát",
                 "ramon-chat": "Csevegés"
             }
