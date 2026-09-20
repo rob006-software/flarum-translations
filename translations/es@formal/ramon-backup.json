@@ -140,7 +140,7 @@
                 "phase_done": "Listo",
                 "phase_error": "Error",
                 "phase_error_network": "Se perdió la conexión con el servidor durante la copia de seguridad. Es posible que el trabajo siga ejecutándose en el servidor; comprueba la lista de copias de seguridad en breve.",
-                "warnings_title": "{count} advertencia de traducción|{count} advertencias de traducción",
+                "warnings_title": "{count, plural, one {# advertencia de traducción} other {# advertencias de traducción}}",
                 "warnings_help": "Algunas columnas usan tipos que no tienen un equivalente directo en el motor de destino elegido. La copia de seguridad se completa, pero la columna de destino podría no validarse o comportarse de manera idéntica. Revisa cada nota abajo antes de confiar en esta copia de seguridad para la migración."
             },
             "import_modal": {

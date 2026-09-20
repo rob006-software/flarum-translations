@@ -268,7 +268,7 @@
                 "suggested_by": "由 {extension} 建議"
             },
             "database-driver-mismatch-warning": {
-                "detail": "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => '{actual}'</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n",
+                "detail": "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => ''{actual}''</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n",
                 "label": "數據庫驅動不匹配"
             },
             "database-version-warning": {

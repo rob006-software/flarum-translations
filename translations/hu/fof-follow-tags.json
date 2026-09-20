@@ -103,7 +103,7 @@
             "newDiscussionTag": {
                 "subject": "[Címke | Címke megváltoztatva] {title}",
                 "plain": {
-                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
+                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
                     "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: [{discussion_title}]({discussion_url})\n"

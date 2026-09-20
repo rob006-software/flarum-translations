@@ -178,11 +178,11 @@
                     }
                 },
                 "sftp": {
-                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
-                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
-                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
-                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
-                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
+                    "host": "",
+                    "username": "",
+                    "password": "",
+                    "root": "",
+                    "timeout": "",
                     "port": {
                         "label": "Port",
                         "description": "Le port SFTP (22 par défaut)."

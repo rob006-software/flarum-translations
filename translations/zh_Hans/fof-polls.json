@@ -62,7 +62,7 @@
                 "submit_button": "投票",
                 "start_poll_button": "发起全站投票",
                 "cannot_start_poll_button": "无法发起投票",
-                "total_votes": "{count, plural, other {共 {count} 票}}",
+                "total_votes": "{count, plural, other {共 # 票}}",
                 "draft_label": "草稿",
                 "scheduled_label": "定于 {date} 发布",
                 "scheduled_error_tooltip": "定时发布失败。打开投票查看原因。"
@@ -171,7 +171,7 @@
                 "include_question": "请填写投票问题",
                 "max": "最多可以添加 {max} 个选项",
                 "min": "至少需要添加 2 个选项",
-                "empty_answers": "{count, plural, other {有 {count} 个选项为空，请填写或删除。}}",
+                "empty_answers": "{count, plural, other {有 # 个选项为空，请填写或删除。}}",
                 "no_voters": "暂无投票",
                 "option_placeholder": "选项",
                 "image_option_placeholder": "图片链接（可选）",
@@ -226,7 +226,7 @@
             },
             "tooltip": {
                 "badge": "投票",
-                "votes": "{count, plural, other {{count} 票}}"
+                "votes": "{count, plural, other {# 票}}"
             },
             "votes_modal": {
                 "title": "投票用户"
