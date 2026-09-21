@@ -18,13 +18,13 @@
                 "enabled_help": "Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.",
                 "extract_url_references_label": "Eingefügte Links aufnehmen",
                 "extract_url_references_help": "Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.",
-                "extract_short_references_label": "",
+                "extract_short_references_label": "Eingegebene Verweise erfassen",
                 "extract_short_references_help": "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n",
                 "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
                 "extract_mention_references_help": "Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.",
                 "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
                 "event_post_enabled_help": "Fügt der verwiesenen Diskussion eine Zeile hinzu, in der angegeben wird, von wo aus darauf verwiesen wurde. Aufeinanderfolgende Zeilen werden zu einer einzigen zusammengefasst.\n",
-                "max_preview_label": "",
+                "max_preview_label": "Anzahl der Verweise, die gleichzeitig angezeigt werden",
                 "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
                 "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
                 "related_discussions_enabled_help": "Wurde dadurch ermittelt, welche Diskussionen gemeinsam zitiert werden – nicht anhand von Tags oder Titeln.",
@@ -37,7 +37,7 @@
                 "graph_max_depth_label": "Tiefe des Graphen",
                 "graph_max_depth_help": "Wie viele Schritte von einer Diskussion entfernt der Graph reicht.",
                 "graph_max_per_hop_label": "Verknüpfungen pro Schritt",
-                "graph_max_per_hop_help": "",
+                "graph_max_per_hop_help": "Über diese hinaus werden nur die Neuesten angezeigt und auch so im Graph kommuniziert.",
                 "notify_followers_label": "Auch Follower benachrichtigen",
                 "notify_followers_help": "Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.",
                 "broken_retention_days_label": "Unterbrochene Verweise beibehalten (in Tagen)",
@@ -46,7 +46,7 @@
             "permissions": {
                 "manage_references": "Verweise erstellen und bearbeiten",
                 "view_broken_report": "Siehe fehlerhafte Verweise",
-                "view_analytics": ""
+                "view_analytics": "Verweis-Analyse anzeigen"
             },
             "analytics": {
                 "title": "Verweise",
@@ -57,12 +57,12 @@
                 "by_relation_label": "Was sie sagen",
                 "export_button": "CSV exportieren",
                 "empty": "Noch nichts aufgezeichnet.",
-                "unavailable": "",
+                "unavailable": "Metriken konnte nicht eingelesen werden.",
                 "chart_label": "Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}."
             },
             "origin": {
                 "url": "Eingefügter Link",
-                "shortref": "",
+                "shortref": "Eingegebener Verweis",
                 "mention": "Beitragserwähnung",
                 "manual": "Händisch hinzugefügt"
             },
