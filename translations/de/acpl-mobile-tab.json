@@ -6,26 +6,26 @@
             "create_new_item_button": "Element erstellen",
             "edit_item": {
                 "modal_title": "Element bearbeiten",
-                "help": "",
+                "help": "Du benötigest mehr als nur einen Link? Informationen zu benutzerdefinierten Elementen und Verhaltensweisen findest du in der <a>Entwicklerdokumentation</a>.",
                 "label": "Beschriftung",
                 "label_placeholder": "Mein eigenes Element",
                 "path": "Pfad",
                 "url": "URL",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "Der Teil der Adresse nach {baseUrl}, der mit einem Schrägstrich beginnt.",
+                    "external": "Die vollständige Adresse, inklusive <code>https://</code>."
                 },
                 "icon": "Symbol",
                 "icon_help": "Gib den Namen einer beliebigen <a>FontAwesome</a>-Symbolklasse ein, einschließlich des Präfixes <code>fas fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Was dieser Link bewirkt",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ruft eine Seite im Forum auf",
+                        "help": "Wird ohne ein neues Laden der Seite geöffnet."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ruft eine andere Seite auf",
+                        "help": "Öffnet eine Seite außerhalb dieses Forums."
                     }
                 },
                 "open_new_tab_checkbox": "Link in neuem Tab öffnen",
@@ -37,7 +37,7 @@
             "variants": {
                 "heading": "Varianten der mobilen Reiterkarten",
                 "empty_help": "Ziehe Elemente hierher, um sie dieser Variante hinzuzufügen.",
-                "help": "Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle.",
+                "help": "Varianten werden von oben nach unten geprüft. Den Benutzern wird die erste aktivierte Variante angezeigt, für deren Anzeige sie die Berechtigung haben. Setze spezifischere Rollen an den Anfang, zum Beispiel: #1 Administratoren, #2 Moderatoren, #3 Mitglieder, #4 alle. Lasse ein Feld leer, um die Registerkarte für die ausgewählten Gruppen vollständig auszublenden.",
                 "number": "#{number}",
                 "enabled": "Aktiviert",
                 "visible_to": "Sichtbar für",
