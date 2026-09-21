@@ -95,7 +95,7 @@
                 "appeal_window_days_help": "",
                 "max_concurrent_appeals": "",
                 "max_concurrent_appeals_help": "",
-                "error_save": ""
+                "error_save": "Die Ratenbegrenzungen konnten nicht gespeichert werden."
             },
             "settings": {
                 "title": "Support",
@@ -134,7 +134,7 @@
                 "in_progress": "In Bearbeitung",
                 "awaiting_response": "Warte auf Antwort",
                 "open": "Offen",
-                "resolved": "",
+                "resolved": "Abgeschlossen",
                 "closed": "Geschlossen"
             },
             "index": {
@@ -150,18 +150,18 @@
             "errors": {
                 "load_tickets": "Tickets konnten nicht geladen werden.",
                 "unknown": "Unbekannter Fehler.",
-                "submit": "",
-                "submit_ticket": "",
-                "upload": "",
+                "submit": "Die Übermittlung ist fehlgeschlagen.",
+                "submit_ticket": "Die Übermittlung des Tickets ist fehlgeschlagen.",
+                "upload": "Datei konnte nicht hochgeladen werden.",
                 "upload_no_files": "",
                 "load_ticket": "",
-                "load_more_replies": "",
-                "update_assignment": "",
+                "load_more_replies": "Mehr Antworten konnten nicht geladen werden.",
+                "update_assignment": "Zuweisung konnte nicht aktualisiert werden.",
                 "update_status": "Status konnte nicht aktualisiert werden.",
                 "update_decision": "",
                 "save_edit": "Bearbeitung konnte nicht gespeichert werden.",
                 "delete_reply": "Antwort konnte nicht gelöscht werden.",
-                "restore_reply": "",
+                "restore_reply": "Antwort konnte nicht wiederhergestellt werden.",
                 "delete_reply_forever": "Die Antwort konnte nicht endgültig gelöscht werden.",
                 "delete_ticket": "Ticket konnte nicht gelöscht werden.",
                 "restore_ticket": "Ticket konnte nicht wiederhergestellt werden.",
