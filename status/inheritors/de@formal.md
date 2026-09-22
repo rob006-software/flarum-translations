@@ -3061,10 +3061,10 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 
 ```diff
 -(Optional) Gib einen Grund für den Wechsel zu diesem Benutzer an
-+(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an.
++(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an
 ```
 
-(Optional) <del>Gib</del><ins>Geben Sie</ins> einen Grund für den Wechsel zu diesem Benutzer <del>an</del><ins>an.</ins>
+(Optional) <del>Gib</del><ins>Geben Sie</ins> einen Grund für den Wechsel zu diesem Benutzer an
 
 
 ### `fof-links`
