@@ -822,6 +822,17 @@
             }
         }
     },
+    "datlechin-more-discussions.json": {
+        "datlechin-more-discussions": {
+            "admin": {
+                "settings": {
+                    "filter_dropdown": {
+                        "latest": "d41d8cd98f00b204e9800998ecf8427e 99772fcf9cde5026082a9ef378b36e92"
+                    }
+                }
+            }
+        }
+    },
     "datlechin-passkey.json": {
         "datlechin-passkey": {
             "forum": {
@@ -898,7 +909,12 @@
             "lib": {
                 "browser": {
                     "filterApply": "28874eef0df4abc71a6d925fd433a1f7 28874eef0df4abc71a6d925fd433a1f7",
-                    "refresh": "0f43610e36491b49803f9a55d996b754 0f43610e36491b49803f9a55d996b754"
+                    "permissionGroup": {
+                        "everyone": "d41d8cd98f00b204e9800998ecf8427e 084c157fb330e7769a1c742a6122ea1c",
+                        "members": "d41d8cd98f00b204e9800998ecf8427e b411d8eccb7e838d6c2290a5eee01208"
+                    },
+                    "refresh": "0f43610e36491b49803f9a55d996b754 0f43610e36491b49803f9a55d996b754",
+                    "withoutActor": "d41d8cd98f00b204e9800998ecf8427e 5e69538747a83484c05287770cfefc61"
                 }
             }
         }
@@ -2207,7 +2223,8 @@
                 "widget": {
                     "stats": {
                         "comment_post_count": "eab630a0b5ac90496e3b140ab0bba3e4 eab630a0b5ac90496e3b140ab0bba3e4",
-                        "discussion_count": "20e066e3f358e704a5ea44dc430d44c4 20e066e3f358e704a5ea44dc430d44c4"
+                        "discussion_count": "20e066e3f358e704a5ea44dc430d44c4 20e066e3f358e704a5ea44dc430d44c4",
+                        "user_count": "d41d8cd98f00b204e9800998ecf8427e b0ab872b4a12decd8598e7532282828c"
                     }
                 }
             }
@@ -3362,6 +3379,30 @@
             },
             "forum": {
                 "schedule_cancel": "f7c41ff9d4227cccd24d006bff475ec7 f7c41ff9d4227cccd24d006bff475ec7"
+            }
+        }
+    },
+    "michaelbelgium-discussion-views.json": {
+        "michaelbelgium-discussion-views": {
+            "forum": {
+                "post": {
+                    "others_link": "d41d8cd98f00b204e9800998ecf8427e dae504cea1fdf7bf7bddb02da1aa7ba1",
+                    "you": "d41d8cd98f00b204e9800998ecf8427e 5c3defc66e2e1f24b87246bce4417683"
+                },
+                "viewlist": {
+                    "guest": "d41d8cd98f00b204e9800998ecf8427e b3156639785df1386cc66d339fcf547f"
+                }
+            }
+        }
+    },
+    "michaelbelgium-profile-views.json": {
+        "michaelbelgium-flarum-profile-views": {
+            "forum": {
+                "user": {
+                    "viewlist": {
+                        "guest": "d41d8cd98f00b204e9800998ecf8427e b3156639785df1386cc66d339fcf547f"
+                    }
+                }
             }
         }
     },
