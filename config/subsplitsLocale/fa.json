@@ -2,12 +2,16 @@
     "readme": {
         "status-table": {
             "header-status": "وضعیت",
-            "header-extension": "افزونه"
+            "header-extension": "افزونه",
+            "label-translation-status": "وضعیت ترجمه"
         }
     },
     "changelog": {
         "general-changes": "تغییرات کلی",
-        "all-changes": "تمام تغییرات: {link}"
+        "all-changes": "تمام تغییرات: {link}",
+        "count-changed": "{count} تغییر کرد",
+        "count-removed": "{count} حذف شد",
+        "count-added": "{count} اضافه شد"
     },
     "announcement": {
         "version": "نسخه {version}"
