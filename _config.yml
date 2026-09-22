@@ -3,3 +3,11 @@ description:
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+
+# Files for AI agents - they contain ICU MessageFormat examples which break Liquid parser,
+# and they're not useful as a part of generated site.
+exclude:
+  - master/AGENTS.md
+  - master/CLAUDE.md
+  - flarum2/AGENTS.md
+  - flarum2/CLAUDE.md
