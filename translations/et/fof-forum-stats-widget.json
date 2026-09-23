@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Komakohti",
+                    "help": "Komekohtade arv suurte numbrite puhul (0-2)."
                 }
             }
         },
@@ -13,9 +13,9 @@
                 "stats": {
                     "comment_post_count": "Postitusi",
                     "discussion_count": "Vestlusi",
-                    "user_count": "Kasu"
+                    "user_count": "Kasutajaid"
                 },
-                "title": ""
+                "title": "Foorumi statistika"
             }
         }
     }
