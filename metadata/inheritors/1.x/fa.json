@@ -1682,10 +1682,13 @@
                 "badge_name": "09b003f0e5e50a5f7a00cc706df21451 09b003f0e5e50a5f7a00cc706df21451",
                 "badge_slug": "155a528b1c5aaa0ac812730de6d4a9e1 155a528b1c5aaa0ac812730de6d4a9e1",
                 "cancel": "f7c41ff9d4227cccd24d006bff475ec7 f7c41ff9d4227cccd24d006bff475ec7",
+                "category_enabled": "d41d8cd98f00b204e9800998ecf8427e 7485818ed4d263d6aa26c48ad28cc714",
                 "category_name": "09b003f0e5e50a5f7a00cc706df21451 09b003f0e5e50a5f7a00cc706df21451",
                 "category_slug": "155a528b1c5aaa0ac812730de6d4a9e1 155a528b1c5aaa0ac812730de6d4a9e1",
                 "delete": "3b9854e1bb2b4b1f8b901248d9d16b3b 3b9854e1bb2b4b1f8b901248d9d16b3b",
+                "disabled": "d41d8cd98f00b204e9800998ecf8427e b6f893a889d1cedda948873a6542c05d",
                 "edit": "af929aa6353eba94e16c8c8ed799a354 af929aa6353eba94e16c8c8ed799a354",
+                "enabled": "d41d8cd98f00b204e9800998ecf8427e 7485818ed4d263d6aa26c48ad28cc714",
                 "headers": {
                     "name": "09b003f0e5e50a5f7a00cc706df21451 09b003f0e5e50a5f7a00cc706df21451"
                 },
@@ -3230,7 +3233,8 @@
     "huoxin-filter-rule-manager.json": {
         "huoxin-filter-rule-manager": {
             "admin": {
-                "cancel": "f7c41ff9d4227cccd24d006bff475ec7 f7c41ff9d4227cccd24d006bff475ec7"
+                "cancel": "f7c41ff9d4227cccd24d006bff475ec7 f7c41ff9d4227cccd24d006bff475ec7",
+                "ruleset_is_active": "d41d8cd98f00b204e9800998ecf8427e 7485818ed4d263d6aa26c48ad28cc714"
             }
         }
     },
@@ -3377,6 +3381,12 @@
     },
     "ianm-twofactor.json": {
         "ianm-twofactor": {
+            "email": {
+                "status_type": {
+                    "disabled": "d41d8cd98f00b204e9800998ecf8427e b6f893a889d1cedda948873a6542c05d",
+                    "enabled": "d41d8cd98f00b204e9800998ecf8427e 7485818ed4d263d6aa26c48ad28cc714"
+                }
+            },
             "forum": {
                 "security": {
                     "cancel_button": "f7c41ff9d4227cccd24d006bff475ec7 f7c41ff9d4227cccd24d006bff475ec7"
@@ -3574,6 +3584,9 @@
     "sycho-advanced-extension-categories.json": {
         "sycho-ace": {
             "admin": {
+                "categories": {
+                    "disabled": "d41d8cd98f00b204e9800998ecf8427e b6f893a889d1cedda948873a6542c05d"
+                },
                 "category_selection": {
                     "options": {
                         "default": "e0aa8687c055db5de1800ac763afba07 e0aa8687c055db5de1800ac763afba07"
@@ -3692,11 +3705,31 @@
     },
     "yippy-auth-ldap.json": {
         "yippy-auth-ldap": {
+            "admin": {
+                "settings": {
+                    "domains": {
+                        "is_enabled": {
+                            "disabled": "d41d8cd98f00b204e9800998ecf8427e b6f893a889d1cedda948873a6542c05d"
+                        }
+                    }
+                }
+            },
             "forum": {
                 "errors": {
                     "core_csrf_token_mismatch": "51195536a56ab6c4f4d96c1d73d066d7 51195536a56ab6c4f4d96c1d73d066d7"
                 },
                 "log_out": "f925317549ba6b605a3f98483a5285db f925317549ba6b605a3f98483a5285db"
+            }
+        }
+    },
+    "yippy-tag-with-themes.json": {
+        "yippy-tag-with-themes": {
+            "admin": {
+                "designs": {
+                    "is_enabled": {
+                        "disabled": "d41d8cd98f00b204e9800998ecf8427e b6f893a889d1cedda948873a6542c05d"
+                    }
+                }
             }
         }
     }
