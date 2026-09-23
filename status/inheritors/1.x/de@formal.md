@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **4** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **2** components.
+sides, but do not match between them: **3** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **1** components.
 
 <!-- {% raw %} -->
 
@@ -12,27 +12,12 @@ translated only in `de@formal`. Altogether they cover **2** components.
 
 | Component | Different translations |
 | --- | --- |
-| `fof-impersonate` | [1](#fof-impersonate) |
 | `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) |
 
 
 ## Different translations
 
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de@formal` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
-
-
-### `fof-impersonate`
-
-#### [`fof-impersonate.lib.modal.placeholder_optional`](https://weblate.rob006.net/translate/flarum2/fof-impersonate/de@formal/?q=context%3A%3D%22fof-impersonate.lib.modal.placeholder_optional%22)
-
-> (Optional) Provide your reason for switching to this user
-
-```diff
--(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an.
-+(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer an
-```
-
-(Optional) Geben Sie einen Grund für den Wechsel zu diesem Benutzer <del>an.</del><ins>an</ins>
 
 
 ### `ralkage-hcaptcha`

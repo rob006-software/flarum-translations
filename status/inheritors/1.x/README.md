@@ -7,5 +7,5 @@ are fully in sync and are not listed here.
 
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
-| [German (formal)](de@formal.md) (`de@formal`) | 4 | 0 | 2 |
-| [Persian](fa.md) (`fa`) | 0 | 4 | 3 |
+| [German (formal)](de@formal.md) (`de@formal`) | 3 | 0 | 1 |
+| [Persian](fa.md) (`fa`) | 0 | 13 | 8 |
