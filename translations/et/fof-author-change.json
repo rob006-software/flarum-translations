@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Muuda autorit ja kuupäeva"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
-                "submit": "",
-                "cancel": ""
+                "title-post": "Muuda postituse autorit ja kuupäeva",
+                "title-discussion": "Muuda vestluse autorit ja kuupäeva",
+                "user": "Autor",
+                "created_at": "Loomise aeg",
+                "edited_at": "Muutmise aeg",
+                "sync-with-discussion": "Sünkrooni vestlusega",
+                "sync-with-post": "Sünkrooni esimese postitusega",
+                "sync-impossible": "Ei leia esimest postitust. Proovi kerida vestluse algusesse.",
+                "submit": "Salvesta",
+                "cancel": "Loobu"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Otsi kasutajaid",
+                "type-more": "Sisesta 3 sümbolit, et otsida",
+                "no-results": "Tulemusi pole"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Uuenda vestlust ja postituse autorit",
+                "edit-date": "Uuenda vestlust ja postituse kuupäeva"
             }
         }
     }
