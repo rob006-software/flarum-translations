@@ -175,11 +175,11 @@
                 "welcome_banner_heading": "Tervitusloosung",
                 "welcome_banner_text": "Sisesta tekst, mida kuvatakse 'Kõikide teemade' lehe päises. Kasuta seda oma foorumi külaliste tervitamiseks.",
                 "abandoned_extensions_heading": "Hüljatud lisaprogrammid",
-                "abandoned_extensions_text": "",
+                "abandoned_extensions_text": "Flarumi kogukond haldab nimekirja <a>hüljatud lisaprogrammidest</a>. Kui sinu saidil olev lisaprogramm esineb selles nimekirjas, siis antakse sellest adminiliideses märku.",
                 "abandoned_extensions_sync_button": "Kontrolli kohe",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_sync_success": "Hüljatud lisaprogrammide nimekirja on uuendatud. Leiti {count} lisaprogramm(i).",
+                "abandoned_extensions_sync_error": "Hüljatud lisaprogrammide nimekirja tõmbamine ebaõnnestus. Proovi hiljem uuesti.",
+                "abandoned_extensions_notify_admins_label": "Saada adminidele kiri, kui nädalase kontrolli käigus leitakse uus hüljetud lisaprogramm"
             },
             "create_user": {
                 "email_placeholder": "E-post",
@@ -192,11 +192,11 @@
                 "username_placeholder": "Kasutajanimi"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
+                "comments_label": "{count, plural, one {# kommentaar} other {# kommentaari}}",
+                "description": "Viimased uudised ja teadaanded Flarumi meeskonnalt.",
                 "empty": "Teadaandeid ei leitud.",
                 "load_error": "Teadaannete laadimine ebaõnnestus. Proovi hiljem uuesti.",
-                "about": "",
+                "about": "Viimased uudised ja teadaanded ametlikust Flarumi kogukonnast aadressil discuss.flarum.org.",
                 "hide": "Peida teadaanded",
                 "read_more": "Loe lisa",
                 "refresh": "Värskenda teadaandeid",
@@ -1119,7 +1119,7 @@
                 "body": ""
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Toiming on vajalik: tuvastati hüljatud lisaprogramm(e)",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",

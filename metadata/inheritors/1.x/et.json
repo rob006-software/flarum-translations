@@ -81,6 +81,9 @@
         "core": {
             "admin": {
                 "announcements": {
+                    "about": "2dcae87f724606dbed1604f8d2f36ac9 2dcae87f724606dbed1604f8d2f36ac9",
+                    "comments_label": "8613701738cb3ae71ebe56199dad16f7 8613701738cb3ae71ebe56199dad16f7",
+                    "description": "5e067ca2c841528fcda1fb770b9e463b 5e067ca2c841528fcda1fb770b9e463b",
                     "empty": "48fd9f9470c304a21caa8bae477b52e7 48fd9f9470c304a21caa8bae477b52e7",
                     "hide": "b718924856509fa0a9cf43c74fbd61b0 b718924856509fa0a9cf43c74fbd61b0",
                     "load_error": "1cc913e7d34d576a4c1916e001a8f53a 1cc913e7d34d576a4c1916e001a8f53a",
@@ -117,7 +120,11 @@
                 },
                 "basics": {
                     "abandoned_extensions_heading": "e0867dc3124997d39c7071411e6efcea e0867dc3124997d39c7071411e6efcea",
+                    "abandoned_extensions_notify_admins_label": "e7962fe44318d6a26b830a91ccfcc40d e7962fe44318d6a26b830a91ccfcc40d",
                     "abandoned_extensions_sync_button": "49ca3ceb282821ff2487605f4f558ebe 49ca3ceb282821ff2487605f4f558ebe",
+                    "abandoned_extensions_sync_error": "f20154e537ea298d88c02ec1bea32379 f20154e537ea298d88c02ec1bea32379",
+                    "abandoned_extensions_sync_success": "5581a6b75840f8514e43fb8a325e2fc8 5581a6b75840f8514e43fb8a325e2fc8",
+                    "abandoned_extensions_text": "1f2c51b086f3f1e27d8a061c54a6f831 1f2c51b086f3f1e27d8a061c54a6f831",
                     "all_discussions_label": "fa93b126d1b9a3781a8facaff4f045ff fa93b126d1b9a3781a8facaff4f045ff",
                     "default_language_heading": "91e6c227c88da79ca448911ec6434422 91e6c227c88da79ca448911ec6434422",
                     "description": "f1965be8db74781198bd683b7d80cd6e f1965be8db74781198bd683b7d80cd6e",
@@ -388,6 +395,9 @@
                 }
             },
             "email": {
+                "abandoned_extensions": {
+                    "subject": "f7763c9faf80e4ff4487aa4a951c031c f7763c9faf80e4ff4487aa4a951c031c"
+                },
                 "activate_account": {
                     "subject": "b8579a7998ca808ae102eb39ae2ff11a b8579a7998ca808ae102eb39ae2ff11a"
                 },
@@ -6995,6 +7005,15 @@
                 "removed": {
                     "error": "e680ab6f4b723e2e2f891313c1628c17 e680ab6f4b723e2e2f891313c1628c17",
                     "success": "107968c547ee7ec5142bf6c46c1b7d8f 107968c547ee7ec5142bf6c46c1b7d8f"
+                }
+            }
+        }
+    },
+    "tapao-custom-landing-page.json": {
+        "tapao-custom-landing-page": {
+            "admin": {
+                "settings": {
+                    "guests_only_label": "b3ca2728b27531e1c1bd21fdd4fb4c35 b3ca2728b27531e1c1bd21fdd4fb4c35"
                 }
             }
         }
