@@ -132,7 +132,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-markdown-tables/v1.0.3/locale/en.yml',
 	],
 	'ekumanov-new-posts-notice' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v2.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v2.2.2/locale/en.yml',
 	],
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.0.1/locale/en.yml',
