@@ -807,7 +807,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/shoutbox/v1.8.0/locale/en.yml',
 	],
 	'linkrobins-support' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.8.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.8.1/locale/en.yml',
 	],
 	'linkrobins-swoop' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-swoop/v2.0.1/locale/en.yml',
