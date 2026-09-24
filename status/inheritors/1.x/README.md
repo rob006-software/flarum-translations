@@ -8,4 +8,4 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [German (formal)](de@formal.md) (`de@formal`) | 3 | 0 | 1 |
-| [Persian](fa.md) (`fa`) | 0 | 13 | 8 |
+| [Persian](fa.md) (`fa`) | 0 | 81 | 39 |
