@@ -105,7 +105,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
 	'ekumanov-auto-promote' => [
-		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-auto-promote/v1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-auto-promote/v1.4.0/resources/locale/en.yml',
 	],
 	'ekumanov-forum-widgets' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.5/locale/en.yml',
