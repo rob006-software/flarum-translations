@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **1** components.
+sides, but do not match between them: **4** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **2** components.
 
 <!-- {% raw %} -->
 
@@ -12,12 +12,25 @@ translated only in `de@formal`. Altogether they cover **1** components.
 
 | Component | Different translations |
 | --- | --- |
+| `core` | [1](#core) |
 | `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) |
 
 
 ## Different translations
 
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de@formal` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `core`
+
+#### [`core.forum.discussion_controls.log_in_to_reply_button`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.discussion_controls.log_in_to_reply_button%22)
+
+> Log In to Reply
+
+```diff
+-=> core.ref.reply
++Anmelden zum Antworten
+```
 
 
 ### `ralkage-hcaptcha`

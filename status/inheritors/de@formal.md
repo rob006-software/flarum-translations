@@ -850,11 +850,11 @@ Das <ins>von Ihnen </ins>eingegebene Passwort ist falsch.
 > {count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read.
 
 ```diff
--{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
+-{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen markieren.
 +{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markieren Sie ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
 ```
 
-{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Markiere</del><ins>Markieren Sie</ins> ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
+{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Ungelesene</del><ins>Markieren Sie ungelesene</ins> {count, plural, one {Antwort} other {Antworten}} als<del> gelesen</del> <del>markieren.</del><ins>gelesen.</ins>
 
 #### [`core.forum.forgot_password.email_sent_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.forgot_password.email_sent_message%22)
 
