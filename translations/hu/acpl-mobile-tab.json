@@ -6,26 +6,26 @@
             "create_new_item_button": "Elem létrehozása",
             "edit_item": {
                 "modal_title": "Elem szerkesztése",
-                "help": "",
+                "help": "Többre van szüksége egy hivatkozásnál? Nézze meg a <a>fejlesztői dokumentációt</a> az egyéni elemekhez és viselkedéshez.",
                 "label": "Címke",
                 "label_placeholder": "Saját egyéni elem",
                 "path": "Elérési út",
-                "url": "Webcím",
+                "url": "URL",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "A cím {baseUrl} utáni része, amely / jellel kezdődik.",
+                    "external": "A teljes cím a <code>https://</code> résszel együtt."
                 },
                 "icon": "Ikon",
                 "icon_help": "Adja meg egy <a>FontAwesome</a> ikonosztály nevét, beleértve a <code>fas fa-</code> előtagot.",
                 "type": {
-                    "heading": "",
+                    "heading": "Mit csinál ez a hivatkozás",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "A fórum egyik lapjára vezet",
+                        "help": "A lap újratöltése nélkül nyílik meg."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Egy másik webhelyre vezet",
+                        "help": "Egy a fórumtól eltérő címre vezet."
                     }
                 },
                 "open_new_tab_checkbox": "Hivatkozás megnyitása új lapon",
@@ -37,7 +37,7 @@
             "variants": {
                 "heading": "Mobilos lapváltozatok",
                 "empty_help": "Húzzon elemeket ide, hogy hozzáadja ehhez a változathoz.",
-                "help": "A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki.",
+                "help": "A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki. Hagyja üresen a változatot, hogy teljesen elrejtse a kiválasztott csoportok elől.",
                 "number": "#{number}",
                 "enabled": "Engedélyezve",
                 "visible_to": "Következők számára látható",
