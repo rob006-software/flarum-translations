@@ -1029,7 +1029,7 @@ return [
 		],
 	],
 	'stezkoy-audex' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-audex/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-audex/v1.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
