@@ -1028,6 +1028,12 @@ return [
 			'ru',
 		],
 	],
+	'stezkoy-audex' => [
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-audex/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'stezkoy-doorquest' => [
 		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-doorquest/1.0.0-beta.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
