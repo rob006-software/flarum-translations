@@ -1107,6 +1107,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`shebaoting-repost`](https://weblate.rob006.net/projects/flarum2/shebaoting-repost) | [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) |
 | [`shebaoting-rss`](https://weblate.rob006.net/projects/flarum2/shebaoting-rss) | [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) |
 | [`stezkoy-ai-openreply`](https://weblate.rob006.net/projects/flarum2/stezkoy-ai-openreply) | [`stezkoy/flarum-ai-openreply`](https://github.com/Stezkoy/flarum-ai-openreply) |
+| [`stezkoy-audex`](https://weblate.rob006.net/projects/flarum2/stezkoy-audex) | [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) |
 | [`stezkoy-doorquest`](https://weblate.rob006.net/projects/flarum2/stezkoy-doorquest) | [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) |
 | [`stezkoy-feed2forum`](https://weblate.rob006.net/projects/flarum2/stezkoy-feed2forum) | [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) |
 | [`stezkoy-modularis`](https://weblate.rob006.net/projects/flarum2/stezkoy-modularis) | [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) |
