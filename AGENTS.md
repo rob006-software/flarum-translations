@@ -18,7 +18,8 @@ it. Everything you need is in this repository; contribute through a GitHub pull 
 - `config/components.php` - list of components and URLs of the English source files. URLs contain the repository and
   the exact tag/version the sources were fetched from. `__builtInLanguages` lists languages that the extension already
   ships itself - these languages intentionally have no translation file for that component.
-- `config/languages.php` - list of supported languages (language codes used as directory names).
+- Supported languages and language packs are configured in
+  [flarum-translations-builder](https://github.com/rob006-software/flarum-translations-builder) (`config/translations/`).
 - `config/inheritors.php` - languages that inherit translations from other languages (see below).
 - `README.md` - list of supported extensions with links to their repositories.
 - `status/<language>.md` - translation status per language. Extensions are sorted by popularity (rank, downloads),
