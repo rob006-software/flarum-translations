@@ -996,6 +996,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ffans-bbcode-studio`](https://weblate.rob006.net/projects/flarum2/ffans-bbcode-studio) | [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio) |
 | [`ffans-creator-declarations`](https://weblate.rob006.net/projects/flarum2/ffans-creator-declarations) | [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations) |
 | [`ffans-geetest`](https://weblate.rob006.net/projects/flarum2/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
+| [`ffans-link-guard`](https://weblate.rob006.net/projects/flarum2/ffans-link-guard) | [`ffans/link-guard`](https://github.com/FFans/link-guard) |
 | [`ffans-threadmarks`](https://weblate.rob006.net/projects/flarum2/ffans-threadmarks) | [`ffans/threadmarks`](https://github.com/FFans/threadmarks) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
 | [`forumaker-bento`](https://weblate.rob006.net/projects/flarum2/forumaker-bento) | [`forumaker/bento`](https://github.com/forumaker/Bento) |
