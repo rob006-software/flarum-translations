@@ -322,7 +322,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/bulgarian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/bulgarian" alt="last release" style="max-width: 160px;" />
@@ -378,7 +378,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/catalan">Catalan</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/catalan">Catalan</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/catalan/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/catalan" alt="last release" style="max-width: 160px;" />
@@ -602,7 +602,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/estonian">Estonian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/estonian">Estonian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/estonian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/estonian" alt="last release" style="max-width: 160px;" />
@@ -854,7 +854,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hindi/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/hindi" alt="last release" style="max-width: 160px;" />
@@ -1162,7 +1162,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/korean">Korean</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/korean/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/korean" alt="last release" style="max-width: 160px;" />
@@ -1246,7 +1246,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/latvian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/latvian" alt="last release" style="max-width: 160px;" />
@@ -1414,7 +1414,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/norwegian-bokmal/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/norwegian-bokmal" alt="last release" style="max-width: 160px;" />
@@ -1638,7 +1638,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/romanian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/romanian" alt="last release" style="max-width: 160px;" />
@@ -1806,7 +1806,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/slovak/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/slovak" alt="last release" style="max-width: 160px;" />
@@ -2002,7 +2002,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/tajik">Tajik</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/tajik">Tajik</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/tajik/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/tajik" alt="last release" style="max-width: 160px;" />
@@ -2058,7 +2058,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/tatar">Tatar</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/tatar">Tatar</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/tatar/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/tatar" alt="last release" style="max-width: 160px;" />
@@ -2142,7 +2142,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/toki-pona">Toki Pona</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/toki-pona">Toki Pona</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/toki-pona/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/toki-pona" alt="last release" style="max-width: 160px;" />
@@ -2198,7 +2198,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/turkmen">Turkmen</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/turkmen">Turkmen</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/turkmen/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/turkmen" alt="last release" style="max-width: 160px;" />
@@ -2310,7 +2310,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
+		<td>⚠️ <a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/uzbek/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/uzbek" alt="last release" style="max-width: 160px;" />
