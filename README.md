@@ -118,7 +118,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/bulgarian">Bulgarian</a></td>
-		<td><a href="https://github.com/nsokoloff">nsokoloff</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/bg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/bg/svg-badge.svg" alt="detailed translation status" />
@@ -136,7 +136,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/catalan">Catalan</a></td>
-		<td><a href="https://github.com/pepoliveras">pepoliveras</a>, <a href="https://github.com/joanaranda">joanaranda</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/ca.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ca/svg-badge.svg" alt="detailed translation status" />
@@ -208,7 +208,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/estonian">Estonian</a></td>
-		<td><a href="https://github.com/JoomlaEstonia">JoomlaEstonia</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/et.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/et/svg-badge.svg" alt="detailed translation status" />
@@ -289,7 +289,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
-		<td><a href="https://github.com/ItsNeil17">ItsNeil17</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/hi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/hi/svg-badge.svg" alt="detailed translation status" />
@@ -388,7 +388,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
-		<td><a href="https://github.com/hahagu">hahagu</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/ko.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ko/svg-badge.svg" alt="detailed translation status" />
@@ -415,7 +415,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
-		<td><a href="https://github.com/edevrob">edevrob</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/lv.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/lv/svg-badge.svg" alt="detailed translation status" />
@@ -469,7 +469,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/norwegian-bokmal">Norwegian Bokmål</a></td>
-		<td><a href="https://github.com/tormi-github">tormi-github</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/nb.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/nb/svg-badge.svg" alt="detailed translation status" />
@@ -541,7 +541,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
-		<td><a href="https://github.com/laurentiu86stan">laurentiu86stan</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/ro.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ro/svg-badge.svg" alt="detailed translation status" />
@@ -595,7 +595,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/slovak">Slovak</a></td>
-		<td><a href="https://github.com/SKevo18">SKevo18</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/sk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/sk/svg-badge.svg" alt="detailed translation status" />
@@ -658,7 +658,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/tajik">Tajik</a></td>
-		<td><a href="https://github.com/alikhakbaz97">alikhakbaz97</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/tg.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/tg/svg-badge.svg" alt="detailed translation status" />
@@ -676,7 +676,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/tatar">Tatar</a></td>
-		<td><a href="https://github.com/inov8ru">inov8ru</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/tt.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/tt/svg-badge.svg" alt="detailed translation status" />
@@ -703,7 +703,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/toki-pona">Toki Pona</a></td>
-		<td><a href="https://github.com/mazziechai">mazziechai</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/tok.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/tok/svg-badge.svg" alt="detailed translation status" />
@@ -712,7 +712,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
-		<td><a href="https://github.com/tolgaaaltas">tolgaaaltas</a>, <a href="https://github.com/selmanozturk">selmanozturk</a>, <a href="https://github.com/huseyinfiliz">huseyinfiliz</a></td>
+		<td><a href="https://github.com/tolgaaaltas">tolgaaaltas</a>, <a href="https://github.com/huseyinfiliz">huseyinfiliz</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/tr.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/tr/svg-badge.svg" alt="detailed translation status" />
@@ -721,7 +721,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/turkmen">Turkmen</a></td>
-		<td><a href="https://github.com/NuryagdyMuhyyev">NuryagdyMuhyyev</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/tk.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/tk/svg-badge.svg" alt="detailed translation status" />
@@ -757,7 +757,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
-		<td><a href="https://github.com/JeongJun-Lee">JeongJun-Lee</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/master/status/uz.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/uz/svg-badge.svg" alt="detailed translation status" />
