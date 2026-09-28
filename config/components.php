@@ -1029,7 +1029,7 @@ return [
 		],
 	],
 	'stezkoy-ai-openreply' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
