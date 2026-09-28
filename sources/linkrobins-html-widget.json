@@ -8,7 +8,9 @@
                 "icon_label": "Icon class",
                 "icon_help": "FontAwesome class shown next to the title (e.g. fas fa-bullhorn). Leave blank for no icon.",
                 "body_label": "HTML body",
-                "body_help": "Raw HTML, sanitised before display -- script tags, event-handler attributes, javascript: URLs, and unsafe elements such as iframes are removed.",
+                "body_help": "Raw HTML, sanitised before display -- script tags, event-handler attributes and javascript: URLs are removed. Iframes are removed too unless you allow their host below.",
+                "allowed_iframe_hosts_label": "Allowed iframe hosts",
+                "allowed_iframe_hosts_help": "Optional, one host per line. Iframes in the body are kept only if their src is on this list, e.g. www.youtube.com or *.vimeo.com for any subdomain. Leave blank to remove all iframes. Only http and https embeds are ever allowed, and this is enforced in the browser, so treat it as a guard against a mistake rather than a security boundary.",
                 "background_label": "Background color",
                 "background_help": "Optional. The widget's background color. Leave blank to follow your theme."
             }

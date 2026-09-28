@@ -9,6 +9,8 @@
                 "icon_help": "显示在标题旁的 Font Awesome 类名，例如 fas fa-bullhorn。留空则不显示图标。",
                 "body_label": "HTML 内容",
                 "body_help": "支持 HTML，显示前会进行安全过滤。script 标签、事件处理属性、javascript: URL，以及 iframe 等不安全元素都会被移除。",
+                "allowed_iframe_hosts_label": "",
+                "allowed_iframe_hosts_help": "",
                 "background_label": "背景颜色",
                 "background_help": "可选。设置小组件的背景颜色，留空则跟随当前主题。"
             }
