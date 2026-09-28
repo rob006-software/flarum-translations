@@ -5281,6 +5281,37 @@
             }
         }
     },
+    "ffans-link-guard.json": {
+        "ffans-link-guard": {
+            "admin": {
+                "settings": {
+                    "trusted_domains_help": "5fcc4ebb656536938e60d046849aeacf 5fcc4ebb656536938e60d046849aeacf",
+                    "trusted_domains_label": "2ee290d927060a15431be7ecac4fc0f7 2ee290d927060a15431be7ecac4fc0f7",
+                    "use_modal_help": "960a54525d85a794ecf4f2cf516eaee9 960a54525d85a794ecf4f2cf516eaee9",
+                    "use_modal_label": "cb6294da6964ae9c3e44c55ba5e897da cb6294da6964ae9c3e44c55ba5e897da",
+                    "warning_message_help": "a6cb898fed295e0eabfca96eb512bab9 a6cb898fed295e0eabfca96eb512bab9",
+                    "warning_message_label": "6f43730346eeefdaf1dadbb8366dfcd2 6f43730346eeefdaf1dadbb8366dfcd2",
+                    "warning_title_help": "47a7172aa5f798d72477c2812d432a68 47a7172aa5f798d72477c2812d432a68",
+                    "warning_title_label": "dd8ce69ee6da6e3155db219a12fd1d1d dd8ce69ee6da6e3155db219a12fd1d1d"
+                }
+            },
+            "forum": {
+                "cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                "close_button": "3c11084c7943702bee69c369b8d5b6b9 3c11084c7943702bee69c369b8d5b6b9",
+                "close_fallback": "3afebacfc9cbe9b3a4677eae274ff313 3afebacfc9cbe9b3a4677eae274ff313",
+                "continue_button": "6bb478b68c23107fa86bb14bdaf7bd0b 6bb478b68c23107fa86bb14bdaf7bd0b",
+                "destination_label": "faa2644661d7b2affd63db274aef15da faa2644661d7b2affd63db274aef15da",
+                "invalid_message": "44d7bceccb29d48a4bf223936accacf8 44d7bceccb29d48a4bf223936accacf8",
+                "invalid_title": "d20845e7d121f000cc76ee02f15b39d9 d20845e7d121f000cc76ee02f15b39d9",
+                "page_title": "a43d093cbb1b886086a99c045953ba4e a43d093cbb1b886086a99c045953ba4e"
+            },
+            "lib": {
+                "default_forum_name": "ce858aeab028de473833b66c5fee1408 ce858aeab028de473833b66c5fee1408",
+                "default_warning_message": "7d0369d77f3b0d69a78a06edcaa7ec49 7d0369d77f3b0d69a78a06edcaa7ec49",
+                "default_warning_title": "622f6f670c872a55c19e43e267732fb5 622f6f670c872a55c19e43e267732fb5"
+            }
+        }
+    },
     "ffans-threadmarks.json": {
         "ffans-threadmarks": {
             "admin": {
@@ -15585,6 +15616,9 @@
         "linkrobins-countdown-widget": {
             "admin": {
                 "settings": {
+                    "description_help": "f1dc879dc744f26fabfd581dc66de724 f1dc879dc744f26fabfd581dc66de724",
+                    "description_label": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
+                    "description_placeholder": "44c6b1efbae3ecb2cac95a1f92d2a89e 44c6b1efbae3ecb2cac95a1f92d2a89e",
                     "done_message_help": "8e79bd5e9a6f18525a791c4d8ddf6ec7 8e79bd5e9a6f18525a791c4d8ddf6ec7",
                     "done_message_label": "a6c52d3f62756af29057a9559799e842 a6c52d3f62756af29057a9559799e842",
                     "done_message_placeholder": "7c9d9cb1df3cb0edf6414f2b49275d40 7c9d9cb1df3cb0edf6414f2b49275d40",
@@ -20263,6 +20297,7 @@
                     "author_change_tooltip": "2018434b0d51f7b44f8dfe045e37912a 2018434b0d51f7b44f8dfe045e37912a",
                     "author_help": "0286518da718258519a0bcf0d9a359e2 0286518da718258519a0bcf0d9a359e2",
                     "author_label": "c481b00a606907fd59b4d46623b8d99d c481b00a606907fd59b4d46623b8d99d",
+                    "author_loading_tooltip": "45dafea9824db0f25df4269be5418cb0 45dafea9824db0f25df4269be5418cb0",
                     "author_select_button": "2836900333f2d1e965acd881df773956 2836900333f2d1e965acd881df773956",
                     "author_select_title": "2836900333f2d1e965acd881df773956 2836900333f2d1e965acd881df773956",
                     "author_unbind_tooltip": "82bf90279a8a4064a94c845a31f0b434 82bf90279a8a4064a94c845a31f0b434",
@@ -20299,7 +20334,7 @@
                     "log_level_error": "52e5304c8c7dfe795117f86497f74b8d 52e5304c8c7dfe795117f86497f74b8d",
                     "log_level_info": "4059b0251f66a18cb56f544728796875 4059b0251f66a18cb56f544728796875",
                     "log_load_error": "98f251b8e6e9e9c278e970d825185c65 98f251b8e6e9e9c278e970d825185c65",
-                    "log_more": "6e6c891e4478a8c0a475dade4b79daed 6e6c891e4478a8c0a475dade4b79daed",
+                    "log_more": "5cc9dddd6270544a19301d3227a40a18 5cc9dddd6270544a19301d3227a40a18",
                     "log_refresh": "bf3cfcc67443f35738da254ed9c6ef3f bf3cfcc67443f35738da254ed9c6ef3f",
                     "new_feed_add": "4969859e399fc1c7b42a5adc1d371bd7 4969859e399fc1c7b42a5adc1d371bd7",
                     "new_feed_error": "5721bf00aa6040349f310923e63b3852 5721bf00aa6040349f310923e63b3852",
