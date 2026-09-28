@@ -3207,7 +3207,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/linkrobins/flarum-forage" title="linkrobins/flarum-forage"><code>linkrobins/flarum-forage</code></a>
 		</td>
 		<td align="center">290<br /><img src="https://img.shields.io/badge/-%2B19-red" alt="+19" title="Change from last week"></td>
@@ -3229,7 +3229,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
 			<a href="https://github.com/linkrobins/flarum-swoop" title="linkrobins/flarum-swoop"><code>linkrobins/flarum-swoop</code></a>
 		</td>
 		<td align="center">292<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
