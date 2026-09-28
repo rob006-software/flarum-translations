@@ -815,9 +815,6 @@ return [
 	'linkrobins-support' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/support/v1.8.1/locale/en.yml',
 	],
-	'linkrobins-swoop' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-swoop/v2.0.1/locale/en.yml',
-	],
 	'linkrobins-toc' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/toc/v1.2.2/locale/en.yml',
 	],
