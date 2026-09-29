@@ -260,6 +260,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ffans-community-notes' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/community-notes/v2.0.0-beta.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'ffans-creator-declarations' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.3/locale/en.yml',
 		'__builtInLanguages' => [
