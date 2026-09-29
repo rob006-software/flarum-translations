@@ -27,6 +27,8 @@
                 "direct": "Direct / unknown",
                 "unknown": "Unknown",
                 "no_data": "No data yet.",
+                "country_lookup_note": "not configured",
+                "country_lookup_unconfigured": "No visitor countries are being recorded, so this map stays empty. Birdseye reads a visitor's country from a trusted proxy header such as CF-IPCountry, or failing that from a local MaxMind country database. This forum has neither configured. Set the country database file in the settings below, or point the trusted country header at whatever your proxy sends. Countries appear from the next day processed onwards; days already summarised cannot be filled in retrospectively.",
                 "visitors_word": "visitors",
                 "views_word": "views",
                 "searches_word": "searches",
