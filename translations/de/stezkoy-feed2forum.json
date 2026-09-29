@@ -1,6 +1,7 @@
 {
     "stezkoy-feed2forum": {
         "admin": {
+            "author_missing": "",
             "settings": {
                 "general_heading": "Allgemeine Einstellungen",
                 "general_help": "Globale Einstellungen, die auf alle Feeds angewendet werden.",
@@ -61,6 +62,7 @@
                 "publish_mode_queue": "Manuell",
                 "check_all": "Alle Feeds jetzt prüfen",
                 "check_all_success": "Abruf-Jobs wurden in die Warteschlange eingereiht.",
+                "fetch_success": "",
                 "fetch_tooltip": "Diesen Feed jetzt abrufen",
                 "fetch_error": "Feed-Abruf konnte nicht ausgelöst werden.",
                 "tag_select_title": "Tag wählen",
@@ -76,6 +78,7 @@
                 "new_feed_error": "Feed konnte nicht hinzugefügt werden.",
                 "new_feed_url_invalid": "Die URL muss entweder mit http:// oder https:// beginnen.",
                 "preview_tooltip": "Vorschau",
+                "preview_fetch_failed": "",
                 "preview_title": "{title} — Vorschau",
                 "preview_close": "Schließen",
                 "preview_empty": "Der Feed hat noch keine Artikel.",

@@ -1,6 +1,7 @@
 {
     "stezkoy-feed2forum": {
         "admin": {
+            "author_missing": "",
             "settings": {
                 "general_heading": "Cài đặt chung",
                 "general_help": "Các thiết lập chung áp dụng cho mọi nguồn cấp.",
@@ -61,6 +62,7 @@
                 "publish_mode_queue": "Thủ công",
                 "check_all": "Kiểm tra mọi nguồn cấp ngay",
                 "check_all_success": "Đã đưa các tác vụ lấy dữ liệu vào hàng đợi.",
+                "fetch_success": "",
                 "fetch_tooltip": "Lấy nguồn cấp này ngay",
                 "fetch_error": "Không kích hoạt được việc lấy nguồn cấp.",
                 "tag_select_title": "Chọn thẻ",
@@ -76,6 +78,7 @@
                 "new_feed_error": "Không thêm được nguồn cấp.",
                 "new_feed_url_invalid": "URL phải bắt đầu bằng http:// hoặc https://.",
                 "preview_tooltip": "Xem trước",
+                "preview_fetch_failed": "",
                 "preview_title": "{title} — xem trước",
                 "preview_close": "Đóng",
                 "preview_empty": "Nguồn cấp chưa có mục nào.",
