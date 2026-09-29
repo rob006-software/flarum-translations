@@ -1041,7 +1041,7 @@ return [
 		],
 	],
 	'stezkoy-feed2forum' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v2.0.3/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
