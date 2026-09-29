@@ -2,17 +2,18 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **2** are translated differently and **0** are
-translated only in `de`. Altogether they cover **1** components.
+sides, but do not match between them: **2** are translated differently and **19** are
+translated only in `de`. Altogether they cover **2** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Different translations |
-| --- | --- |
-| `core` | [2](#core) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `core` | [2](#core) | 0 |
+| `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
 
 
 ## Different translations
@@ -41,5 +42,165 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 {count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Markiere ungelesene</del><ins>Ungelesene</ins> {count, plural, one {Antwort} other {Antworten}} als <del>gelesen.</del><ins>gelesen markieren.</ins>
+
+
+## Missing translations
+
+These strings are translated only in `de`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de`.
+
+
+### `ffans-link-guard` (missing)
+
+#### [`ffans-link-guard.admin.settings.trusted_domains_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_help%22)
+
+> Enter one domain per line. Same-origin links always bypass the warning. &lt;code&gt;example.com&lt;/code&gt; matches only that domain. &lt;code&gt;\*.example.com&lt;/code&gt; matches its subdomains, but not &lt;code&gt;example.com&lt;/code&gt; itself.
+
+```diff
++Gib eine Domäne pro Zeile ein. Links derselben Herkunft umgehen die Warnung immer. <code>example.com</code> passt nur auf diese Domain. <code>*.example.com</code> passt auch auf deren Subdomains, jedoch nicht auf <code>example.com</code> selbst.
+```
+
+#### [`ffans-link-guard.admin.settings.trusted_domains_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_label%22)
+
+> Trusted domains
+
+```diff
++Vertrauenswürdige Domänen
+```
+
+#### [`ffans-link-guard.admin.settings.use_modal_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_help%22)
+
+> Shows the warning on the current page via modal.
+
+```diff
++Zeigt die Warnung auf der aktuellen Seite in einem Modalfenster an.
+```
+
+#### [`ffans-link-guard.admin.settings.use_modal_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_label%22)
+
+> Show warnings in a modal
+
+```diff
++Warnungen in einem Modalfenster anzeigen
+```
+
+#### [`ffans-link-guard.admin.settings.warning_message_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_help%22)
+
+> Leave blank to use the default warning. Plain text only; line breaks are supported.
+
+```diff
++Lasse das Feld leer, um die Standardwarnung zu verwenden. Nur Klartext; Zeilenumbrüche werden unterstützt.
+```
+
+#### [`ffans-link-guard.admin.settings.warning_message_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_label%22)
+
+> Warning message
+
+```diff
++Warnmeldung
+```
+
+#### [`ffans-link-guard.admin.settings.warning_title_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_help%22)
+
+> Leave blank to use the default title. Plain text only.
+
+```diff
++Lasse das Feld leer, um den Standardtitel zu verwenden. Nur Klartext.
+```
+
+#### [`ffans-link-guard.admin.settings.warning_title_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_label%22)
+
+> Warning title
+
+```diff
++Titel der Warnung
+```
+
+#### [`ffans-link-guard.forum.cancel_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.cancel_button%22)
+
+> Cancel
+
+```diff
++Abbrechen
+```
+
+#### [`ffans-link-guard.forum.close_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.close_button%22)
+
+> Close this tab
+
+```diff
++Diesen Tab schließen
+```
+
+#### [`ffans-link-guard.forum.close_fallback`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.close_fallback%22)
+
+> If this tab did not close, close it manually or &lt;a&gt;return to the community&lt;/a&gt;.
+
+```diff
++Falls dieser Reiter nicht geschlossen wurde, schließe ihn bitte manuell oder <a>kehre zur Community zurück</a>.
+```
+
+#### [`ffans-link-guard.forum.continue_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.continue_button%22)
+
+> Continue
+
+```diff
++Fortfahren
+```
+
+#### [`ffans-link-guard.forum.destination_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.destination_label%22)
+
+> Destination website
+
+```diff
++Zielseite
+```
+
+#### [`ffans-link-guard.forum.invalid_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.invalid_message%22)
+
+> This address could not be recognized. Please return to the community and open the link again.
+
+```diff
++Die Adresse konnte nicht erkannt werden. Bitte kehre zur Community zurück und öffne den Link erneut.
+```
+
+#### [`ffans-link-guard.forum.invalid_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.invalid_title%22)
+
+> Invalid external link
+
+```diff
++Ungültiger externer Link
+```
+
+#### [`ffans-link-guard.forum.page_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.forum.page_title%22)
+
+> Leaving the forum
+
+```diff
++Verlasse das Forum
+```
+
+#### [`ffans-link-guard.lib.default_forum_name`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.lib.default_forum_name%22)
+
+> this site
+
+```diff
++diese Seite
+```
+
+#### [`ffans-link-guard.lib.default_warning_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_message%22)
+
+> Please keep your account and personal information safe.
+
+```diff
++Bitte achte darauf, deine Kontodaten und persönliche Daten sicher zu halten.
+```
+
+#### [`ffans-link-guard.lib.default_warning_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_title%22)
+
+> You are about to leave {forumName}
+
+```diff
++Du bist dabei, {forumName} zu verlassen
+```
 
 <!-- {% endraw %} -->
