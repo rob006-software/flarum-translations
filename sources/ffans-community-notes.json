@@ -1,0 +1,259 @@
+{
+    "ffans-community-notes": {
+        "admin": {
+            "settings": {
+                "min_ratings_label": "Minimum number of ratings",
+                "min_ratings_help": "A note must receive this many ratings before it can be rated helpful or not helpful. Enter a value from 1 to 100.",
+                "helpful_threshold_label": "Helpful threshold (%)",
+                "helpful_threshold_help": "A note is rated helpful when its score reaches this percentage. Must be higher than the not helpful threshold.",
+                "not_helpful_threshold_label": "Not helpful threshold (%)",
+                "not_helpful_threshold_help": "A note is rated not helpful when its score is at or below this percentage. Must be lower than the helpful threshold."
+            },
+            "permissions": {
+                "create": "Create community notes",
+                "rate": "=> ffans-community-notes.ref.rate_note",
+                "moderate": "=> ffans-community-notes.ref.moderate_note"
+            }
+        },
+        "forum": {
+            "navigation": {
+                "title": "=> ffans-community-notes.ref.community_notes",
+                "description": "Add sources and context to help the community decide which information is helpful.",
+                "list_a11y_label": "Note lists",
+                "helpful_button": "=> ffans-community-notes.ref.helpful",
+                "latest_button": "New",
+                "hidden_button": "=> ffans-community-notes.ref.hidden",
+                "refresh_a11y_label": "Refresh the note list"
+            },
+            "post_controls": {
+                "add_button": "=> ffans-community-notes.ref.add_note",
+                "view_mine_button": "View my community note",
+                "manage_button": "=> ffans-community-notes.ref.manage_notes"
+            },
+            "list": {
+                "latest_heading_a11y_label": "Posts without a publicly displayed note",
+                "latest_description": "Notes on these posts are not yet publicly displayed, with the newest notes first. Rate them to help the community decide which information is useful.",
+                "latest_a11y_label": "Posts with the latest notes",
+                "latest_empty": "There are currently no posts with notes awaiting public display.",
+                "helpful_heading_a11y_label": "Notes the community has rated helpful",
+                "helpful_description": "Notes on these posts have been rated helpful and provide additional context for readers.",
+                "helpful_a11y_label": "Posts with helpful notes",
+                "helpful_empty": "No notes have been rated helpful yet.",
+                "hidden_heading_a11y_label": "Hidden notes",
+                "hidden_description": "These notes are hidden and are not publicly displayed. You can restore or permanently delete them from the note information section.",
+                "hidden_a11y_label": "Hidden note list",
+                "hidden_empty": "There are currently no hidden notes.",
+                "rating_permission_denied": "You do not have permission to rate community notes.",
+                "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "other_notes": "{count, plural, one {# more note} other {# more notes}}",
+                "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Load more"
+            },
+            "post": {
+                "page_title": "=> ffans-community-notes.ref.rate_note",
+                "modal_title": "=> ffans-community-notes.ref.view_all_notes",
+                "title": "Note details",
+                "description": "Use the original post and sources to decide whether this additional information is helpful.",
+                "back_a11y_label": "Back to the community note list",
+                "permission_denied": "You do not have permission to view the community note rating page.",
+                "notes_a11y_label": "All notes on this post",
+                "notes_title": "Community notes on this post",
+                "empty": "There are no notes you can view on this post, or you do not have permission to access them.",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Load more notes"
+            },
+            "post_link": {
+                "a11y_label": "View original post: {title}",
+                "with_number_a11y_label": "View original post: {title}, post #{number}",
+                "number": "#{number}"
+            },
+            "public_note": {
+                "a11y_label": "=> ffans-community-notes.ref.community_notes",
+                "title": "The community found this note helpful"
+            },
+            "note": {
+                "a11y_label": "Community note details",
+                "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
+                "meta_a11y_label": "Note information",
+                "rated_as": "Currently rated <status></status>",
+                "hidden": "=> ffans-community-notes.ref.hidden",
+                "public": "Publicly displayed with the original post",
+                "not_public": "Not publicly displayed",
+                "drafted_by": "Written by {author}",
+                "reason": "Reason: {reason}",
+                "deleted_user": "Deleted user",
+                "contributor": "Community contributor"
+            },
+            "status": {
+                "needs_more_ratings": "Needs more ratings",
+                "helpful": "=> ffans-community-notes.ref.helpful",
+                "not_helpful": "=> ffans-community-notes.ref.not_helpful",
+                "unknown": "Unknown"
+            },
+            "sources": {
+                "a11y_label": "Sources",
+                "open_in_new_window_a11y_label": "(opens in a new window)"
+            },
+            "editor": {
+                "create_title": "=> ffans-community-notes.ref.add_note",
+                "edit_title": "My community note",
+                "help": "Add verifiable context and sources, avoiding replies or arguments. Once submitted, your note will await community ratings.",
+                "create_unavailable": "You cannot add a community note at this time.",
+                "edit_unavailable": "You cannot edit or delete this note at this time.",
+                "reason_label": "Reason for the note",
+                "reason_placeholder": "Select a reason",
+                "content_label": "Note content",
+                "character_count": "{count} / 1000 characters, minimum 30",
+                "content_help": "Use plain text. Markdown and BBCode are not supported.",
+                "sources_label": "Sources (1–5)",
+                "sources_help": "Provide links to verifiable web pages using HTTP or HTTPS.",
+                "source_a11y_label": "Source {number}",
+                "add_source_button": "Add source",
+                "add_source_a11y_label": "Add a source after source {number}",
+                "remove_source_button": "Remove source",
+                "remove_source_a11y_label": "Remove source {number}",
+                "submit_button": "Submit note",
+                "save_button": "Save changes",
+                "delete_button": "Delete note",
+                "delete_confirmation": "Are you sure you want to permanently delete this community note? This cannot be undone.",
+                "created_message": "Your community note has been submitted and is awaiting community ratings.",
+                "updated_message": "Your community note has been updated.",
+                "deleted_message": "Your community note has been deleted.",
+                "errors": {
+                    "reason_required": "Please select a reason for the note.",
+                    "content_length": "The note must contain 30–1000 characters.",
+                    "sources_count": "Please provide 1–5 sources.",
+                    "source_invalid": "Sources must be valid HTTP or HTTPS URLs no longer than 2048 characters.",
+                    "source_duplicate": "Source URLs must be unique."
+                }
+            },
+            "note_reasons": {
+                "missing_context": "Missing important context",
+                "outdated_information": "Information may be outdated",
+                "factual_error": "Contains a factual error",
+                "misleading": "Content may be misleading",
+                "media_context": "Images or media lack context",
+                "other": "Other"
+            },
+            "rating": {
+                "title": "=> ffans-community-notes.ref.rate_note",
+                "button": "Do you find this helpful?",
+                "button_a11y_label": "Rate this community note",
+                "edit_button_a11y_label": "{rating}, edit your rating",
+                "unavailable": "You cannot rate this note at this time.",
+                "question": "Is this note helpful?",
+                "reasons_label": "Reasons for your rating (select 1–3)",
+                "submit_button": "Submit rating",
+                "update_button": "Update rating",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "values": {
+                    "helpful": "=> ffans-community-notes.ref.helpful",
+                    "somewhat_helpful": "Somewhat Helpful",
+                    "not_helpful": "=> ffans-community-notes.ref.not_helpful"
+                },
+                "summaries": {
+                    "helpful": "You rated this note as <b>Helpful</b>",
+                    "somewhat_helpful": "You rated this note as <b>Somewhat Helpful</b>",
+                    "not_helpful": "You rated this note as <b>Not Helpful</b>"
+                },
+                "reasons": {
+                    "helpful": {
+                        "important_context": "Adds important context",
+                        "directly_addresses_claim": "Directly addresses the original post",
+                        "clear": "Clearly written",
+                        "reliable_sources": "Reliable sources",
+                        "neutral": "Neutral wording",
+                        "unique_information": "Provides unique information"
+                    },
+                    "somewhat_helpful": {
+                        "partially_helpful": "Some content is helpful",
+                        "needs_more_context": "Needs more context",
+                        "mixed_source_quality": "Mixed source quality",
+                        "wording_needs_improvement": "Wording needs improvement"
+                    },
+                    "not_helpful": {
+                        "incorrect": "Incorrect information",
+                        "unreliable_or_missing_sources": "Unreliable or insufficient sources",
+                        "not_needed": "This note is not needed",
+                        "irrelevant": "Unrelated to the original post",
+                        "missing_important_context": "Missing important context",
+                        "opinion_or_speculation": "Opinion or speculation",
+                        "hostile_or_inflammatory": "Hostile or inflammatory wording",
+                        "unclear": "Unclear wording",
+                        "outdated": "Outdated information"
+                    }
+                },
+                "errors": {
+                    "value_required": "Please select a rating.",
+                    "reasons_count": "Please select 1–3 reasons for your rating.",
+                    "reasons_invalid": "The reasons do not match your current rating. Please select them again."
+                }
+            },
+            "moderation": {
+                "title": "=> ffans-community-notes.ref.moderate_note",
+                "permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "hidden_reason_label": "Reason for hiding",
+                "hide_reason_label": "Reason for hiding (required)",
+                "hide_help": "Hiding a note removes it from public display and the rating queue. Existing ratings and its rating status are preserved.",
+                "restore_help": "Once restored, the note will be eligible for display based on its existing rating status. Existing ratings remain unchanged.",
+                "hide_button": "Hide",
+                "restore_button": "Restore",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "delete_button": "Delete permanently",
+                "delete_confirmation": "Are you sure you want to permanently delete this community note? Its content, sources, and ratings will be deleted and cannot be recovered.",
+                "reason_required": "=> ffans-community-notes.validation.hide_reason_required",
+                "hidden_message": "The note has been hidden.",
+                "restored_message": "The note has been restored.",
+                "deleted_message": "The note has been permanently deleted."
+            },
+            "errors": {
+                "inaccessible": "This note is unavailable, or you no longer have permission to perform this action. Refresh the page and try again.",
+                "request_failed": "The action failed. Check your connection and try again.",
+                "detail_separator": "; "
+            }
+        },
+        "validation": {
+            "note": {
+                "reason_invalid": "Please select a valid reason for the note.",
+                "content_invalid": "The note content must be plain text containing 30 to 1000 Unicode characters.",
+                "sources_count": "Please provide 1 to 5 source links.",
+                "source_invalid": "Sources must be valid HTTP or HTTPS links.",
+                "source_url_invalid": "Sources must be HTTP or HTTPS URLs with a hostname and no more than 2048 characters.",
+                "source_duplicate": "A source URL cannot be used more than once in the same note."
+            },
+            "rating": {
+                "value_invalid": "Please select a valid rating.",
+                "reasons_count": "Please select 1 to 3 reasons for your rating.",
+                "reason_mismatch": "Reasons must match the selected rating.",
+                "reason_duplicate": "A rating reason cannot be selected more than once."
+            },
+            "settings": {
+                "min_ratings_invalid": "The minimum number of ratings must be an integer from 1 to 100.",
+                "helpful_threshold_invalid": "The helpful threshold must be an integer from 0 to 100.",
+                "not_helpful_threshold_invalid": "The not helpful threshold must be an integer from 0 to 100.",
+                "thresholds_invalid": "The not helpful threshold must be lower than the helpful threshold."
+            },
+            "data_invalid": "Please submit valid community note data. Only the reason, content, and sources can be changed.",
+            "relationships_invalid": "You cannot change the relationships of this note.",
+            "post_invalid": "Please select a valid original post.",
+            "hide_reason_required": "Please enter a reason for hiding this community note."
+        },
+        "ref": {
+            "community_notes": "Community Notes",
+            "add_note": "Add Community Note",
+            "rate_note": "Rate Community Notes",
+            "moderate_note": "Manage Community Notes",
+            "manage_notes": "=> ffans-community-notes.ref.moderate_note",
+            "view_all_notes": "View all notes on this post",
+            "helpful": "Helpful",
+            "not_helpful": "Not Helpful",
+            "hidden": "Hidden",
+            "retry": "Retry",
+            "cancel": "Cancel",
+            "moderation_permission_denied": "You do not have permission to manage community notes."
+        }
+    }
+}
