@@ -994,6 +994,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-wardrobe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-wardrobe) | [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) |
 | [`ernestdefoe-warren`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-warren) | [`ernestdefoe/warren`](https://github.com/ernestdefoe/warren) |
 | [`ffans-bbcode-studio`](https://weblate.rob006.net/projects/flarum2/ffans-bbcode-studio) | [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio) |
+| [`ffans-community-notes`](https://weblate.rob006.net/projects/flarum2/ffans-community-notes) | [`ffans/community-notes`](https://github.com/FFans/community-notes) |
 | [`ffans-creator-declarations`](https://weblate.rob006.net/projects/flarum2/ffans-creator-declarations) | [`ffans/creator-declarations`](https://github.com/FFans/creator-declarations) |
 | [`ffans-geetest`](https://weblate.rob006.net/projects/flarum2/ffans-geetest) | [`ffans/geetest`](https://github.com/FFans/geetest) |
 | [`ffans-link-guard`](https://weblate.rob006.net/projects/flarum2/ffans-link-guard) | [`ffans/link-guard`](https://github.com/FFans/link-guard) |
