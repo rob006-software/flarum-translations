@@ -70,6 +70,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "Увійдіть за допомогою {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -109,6 +110,12 @@
             "error": {
                 "bad_verification_code": "Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.",
                 "invalid_state": "Недійсний стан. Будь ласка, спробуйте ще раз."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {

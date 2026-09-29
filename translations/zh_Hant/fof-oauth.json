@@ -70,6 +70,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "{provider} 帳號登入",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -109,6 +110,12 @@
             "error": {
                 "bad_verification_code": "無效或過期的驗證令牌，請重試。",
                 "invalid_state": "無效狀態，請重試。"
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {
