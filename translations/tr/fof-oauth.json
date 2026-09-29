@@ -70,6 +70,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "{provider} ile giriş yapın",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -115,6 +116,12 @@
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
                 "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin.",
                 "already_linked": "Bu hesap zaten başka bir kullanıcıya bağlı."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {

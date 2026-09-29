@@ -70,6 +70,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "Mit {provider} anmelden",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -115,6 +116,12 @@
                 "bad_verification_code": "Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.",
                 "invalid_state": "Ungültiger Zustand. Bitte versuche es erneut.",
                 "already_linked": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {

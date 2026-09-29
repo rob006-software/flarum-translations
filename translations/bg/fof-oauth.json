@@ -59,6 +59,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "",
                 "with_discord_button": "",
                 "with_facebook_button": "",
@@ -102,6 +103,12 @@
                 "bad_verification_code": "",
                 "invalid_state": "",
                 "already_linked": ""
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {

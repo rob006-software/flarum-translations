@@ -70,6 +70,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "Kirjaudu {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -115,6 +116,12 @@
                 "bad_verification_code": "Virheellinen tai vanhentunut token. Yritä uudelleen.",
                 "invalid_state": "Virhellinen tila. Yritä uudelleen.",
                 "already_linked": "Tämä tili on jo yhdistetty toiseen käyttäjään."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {

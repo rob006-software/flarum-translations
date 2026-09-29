@@ -64,6 +64,7 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "",
                 "with_button": "Σύνδεση με {provider}",
                 "with_discord_button": "",
                 "with_facebook_button": "",
@@ -107,6 +108,12 @@
                 "bad_verification_code": "Μη έγκυρος ή ληγμένος κωδικός επαλήθευσης. Δοκιμάστε ξανά.",
                 "invalid_state": "Σφάλμα. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
                 "already_linked": ""
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "",
+                "body": ""
             }
         },
         "lib": {
