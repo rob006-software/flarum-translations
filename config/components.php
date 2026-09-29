@@ -1053,7 +1053,7 @@ return [
 		],
 	],
 	'stezkoy-pagify' => [
-		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-pagify/1.0.10/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-pagify/2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
