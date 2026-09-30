@@ -2,19 +2,24 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                },
                 "subtitle": "Готовность к обновлению Flarum {version}.",
                 "pass": "Ваш форум готов к обновлению Flarum {version}",
                 "warning": "Ваш форум почти готов к обновлению Flarum {version}",
                 "fail": "Ваш форум ещё не готов к обновлению Flarum {version}"
             },
-            "categories": {
-                "environment": "Окружение сервера",
-                "database": "База данных",
-                "extensions": "Расширения"
-            },
             "checks": {
                 "php-version": {
                     "title": "Версия PHP",
+                    "chip": "",
                     "pass": "Установлена PHP {current}.",
                     "warning": "Не удалось определить версию PHP.",
                     "fail": "Установлена PHP {current}, но требуется {required} или новее."
@@ -34,18 +39,18 @@
                 }
             },
             "extensions": {
+                "contact": {
+                    "forum": "Тема поддержки",
+                    "issues": "Проблемы",
+                    "source": "Исходный код",
+                    "label": "Узнать о планах 2.0:"
+                },
                 "name": "Расширение",
                 "installed": "Установлено",
                 "status": "Статус",
                 "compatible": "Совместимо ({version})",
                 "incompatible": "Нет совместимой версии — последняя {version}",
                 "unknown": "Не найдено — скорее всего премиум или приватное. Настройте доступ к репозиторию",
-                "contact": {
-                    "label": "Узнать о планах 2.0:",
-                    "forum": "Тема поддержки",
-                    "issues": "Проблемы",
-                    "source": "Исходный код"
-                },
                 "superseded_into_core": "Удалить — теперь встроено в ядро",
                 "superseded_replaced": "Удалить перед обновлением, затем установить {replacement} после завершения обновления",
                 "superseded_self": "Удалить этот помощник как финальный шаг обновления",
@@ -53,6 +58,77 @@
                 "abandoned_replacement": "Заброшено — заменено на {replacement}",
                 "abandoned_replacement_ready": "Заброшено — переключитесь на {replacement}, который имеет 2.0-готовный релиз ✓",
                 "abandoned_replacement_not_ready": "Заброшено — замена {replacement} ещё не готова к 2.0"
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "final_step": "",
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": "",
+                    "remove_last": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": "",
+                "remove_last": ""
             },
             "tabs": {
                 "report": "Отчёт о готовности",
@@ -75,11 +151,16 @@
                 "test_fail_unreachable": "Не удалось подключиться к репозиторию",
                 "test_fail_invalid": "Неверный ответ — проверьте URL"
             },
-            "actions": {
-                "recheck": "Повторить проверки"
-            },
             "errors": {
                 "load_failed": "Не удалось запустить проверки готовности. Попробуйте ещё раз."
+            },
+            "categories": {
+                "environment": "Окружение сервера",
+                "database": "База данных",
+                "extensions": "Расширения"
+            },
+            "actions": {
+                "recheck": "Повторить проверки"
             }
         }
     }

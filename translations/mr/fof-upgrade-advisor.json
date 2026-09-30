@@ -2,19 +2,20 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "subtitle": "",
-                "pass": "",
-                "warning": "",
-                "fail": ""
-            },
-            "categories": {
-                "environment": "",
-                "database": "",
-                "extensions": ""
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                }
             },
             "checks": {
                 "php-version": {
                     "title": "",
+                    "chip": "",
                     "pass": "",
                     "warning": "",
                     "fail": ""
@@ -27,32 +28,86 @@
                     "fail": ""
                 },
                 "extension-compatibility": {
-                    "title": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": ""
                 }
             },
             "extensions": {
-                "name": "",
-                "installed": "",
-                "status": "",
-                "compatible": "",
-                "incompatible": "",
-                "unknown": "",
                 "contact": {
-                    "label": "",
                     "forum": "",
                     "issues": "",
                     "source": ""
+                }
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "final_step": "",
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
                 },
-                "superseded_into_core": "",
-                "superseded_replaced": "",
-                "superseded_self": "",
-                "abandoned": "",
-                "abandoned_replacement": "",
-                "abandoned_replacement_ready": "",
-                "abandoned_replacement_not_ready": ""
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": "",
+                    "remove_last": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": "",
+                "remove_last": ""
             },
             "tabs": {
                 "report": "",
@@ -74,9 +129,6 @@
                 "test_fail_auth": "",
                 "test_fail_unreachable": "",
                 "test_fail_invalid": ""
-            },
-            "actions": {
-                "recheck": ""
             },
             "errors": {
                 "load_failed": ""

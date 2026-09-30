@@ -2,19 +2,24 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                },
                 "subtitle": "Flarum {version} sürümüne yükseltme hazırlığı.",
                 "pass": "Forumunuz Flarum {version} sürümü için hazır görünüyor",
                 "warning": "Forumunuz Flarum {version} sürümü için neredeyse hazır görünüyor",
                 "fail": "Forumunuz henüz Flarum {version} sürümü için hazır değil"
             },
-            "categories": {
-                "environment": "Sunucu ortamı",
-                "database": "Veritabanı",
-                "extensions": "Uzantılar"
-            },
             "checks": {
                 "php-version": {
                     "title": "PHP sürümü",
+                    "chip": "",
                     "pass": "PHP {current} ile çalıştırılıyor.",
                     "warning": "PHP sürümü belirlenemedi.",
                     "fail": "PHP {current} sürümü kurulu, ancak {required} veya daha yeni bir sürüm gerekiyor."
@@ -34,18 +39,18 @@
                 }
             },
             "extensions": {
+                "contact": {
+                    "forum": "Destek tartışması",
+                    "issues": "Sorun Kayıtları",
+                    "source": "Kaynak",
+                    "label": "2.0 planları hakkında sorun:"
+                },
                 "name": "Uzantı",
                 "installed": "Kurulu",
                 "status": "Durum",
                 "compatible": "Uyumlu ({version})",
                 "incompatible": "Uyumlu sürüm yok (en son {version})",
                 "unknown": "Bulunamadı, premium veya özel mi? Depo erişimini yapılandırın",
-                "contact": {
-                    "label": "2.0 planları hakkında sorun:",
-                    "forum": "Destek tartışması",
-                    "issues": "Sorun Kayıtları",
-                    "source": "Kaynak"
-                },
                 "superseded_into_core": "Çekirdeğe dahil edildi, kaldırın",
                 "superseded_replaced": "Yükseltmeden önce kaldırın, yükseltme tamamlandığında {replacement} uzantısını kurun",
                 "superseded_self": "Son yükseltme adımı olarak bu uzantıyı kaldırın",
@@ -53,6 +58,77 @@
                 "abandoned_replacement": "Terk edilmiş, yerini {replacement} aldı",
                 "abandoned_replacement_ready": "Terk edilmiş, 2.0 sürümünde çalışan {replacement} uzantısına geçin ✓",
                 "abandoned_replacement_not_ready": "Terk edilmiş, önerilen {replacement} uzantısı henüz 2.0'a hazır değil"
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "final_step": "",
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": "",
+                    "remove_last": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": "",
+                "remove_last": ""
             },
             "tabs": {
                 "report": "Hazırlık raporu",
@@ -75,11 +151,16 @@
                 "test_fail_unreachable": "Depoya ulaşılamadı",
                 "test_fail_invalid": "Geçersiz yanıt, bağlantıyı kontrol edin"
             },
-            "actions": {
-                "recheck": "Kontrolleri yeniden çalıştır"
-            },
             "errors": {
                 "load_failed": "Hazırlık kontrolleri çalıştırılamadı. Lütfen tekrar deneyin."
+            },
+            "categories": {
+                "environment": "Sunucu ortamı",
+                "database": "Veritabanı",
+                "extensions": "Uzantılar"
+            },
+            "actions": {
+                "recheck": "Kontrolleri yeniden çalıştır"
             }
         }
     }

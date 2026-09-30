@@ -2,19 +2,20 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "subtitle": "Readiness for upgrading to Flarum {version}.",
-                "pass": "Your forum looks ready for Flarum {version}",
-                "warning": "Your forum is nearly ready for Flarum {version}",
-                "fail": "Your forum is not ready for Flarum {version} yet"
-            },
-            "categories": {
-                "environment": "Server environment",
-                "database": "Database",
-                "extensions": "Extensions"
+                "ready": "Ready for Flarum {version}",
+                "blocked": "Blocked: {reasons}",
+                "tasks": "Ready once {count, plural, one {# task is} other {# tasks are}} done",
+                "unchecked_only": "Nearly ready: {count, plural, one {# extension} other {# extensions}} couldn't be checked",
+                "reasons": {
+                    "no_path": "{count, plural, one {# extension has} other {# extensions have}} no 2.0 path",
+                    "check": "{title} needs fixing",
+                    "unchecked": "{count, plural, one {# extension} other {# extensions}} couldn't be checked"
+                }
             },
             "checks": {
                 "php-version": {
                     "title": "PHP version",
+                    "chip": "PHP {current}",
                     "pass": "Running PHP {current}.",
                     "warning": "Could not determine the PHP version.",
                     "fail": "PHP {current} is installed, but {required} or newer is required."
@@ -27,32 +28,86 @@
                     "fail": "{current} is installed, but at least {required} is required for Flarum 2.0."
                 },
                 "extension-compatibility": {
-                    "title": "Extension compatibility",
-                    "pass": "All {current} enabled extensions are ready.",
-                    "warning": "{current} enabled extensions could not be checked — they may be premium extensions or from private repositories. Add access under the Repositories tab.",
-                    "fail": "{current} enabled extensions need action before upgrading."
+                    "title": "Extension compatibility"
                 }
             },
             "extensions": {
-                "name": "Extension",
-                "installed": "Installed",
-                "status": "Status",
-                "compatible": "Compatible ({version})",
-                "incompatible": "No compatible release (latest {version})",
-                "unknown": "Not found — premium or private? Configure repository access",
                 "contact": {
-                    "label": "Ask about 2.0 plans:",
                     "forum": "Support thread",
                     "issues": "Issues",
                     "source": "Source"
+                }
+            },
+            "summary": {
+                "progress": "{percent}% of extensions ready as-is",
+                "ready": "{count} ready as-is",
+                "tasks": "{count} to do",
+                "blocked": "{count} blocked",
+                "unknown": "{count} couldn't be checked",
+                "checked": "Checked {time}",
+                "data_as_of": "Package data from {time}",
+                "data_as_of_help": "Package lookups are cached for up to 6 hours. Refresh to fetch the latest.",
+                "recommended": "{version} recommended",
+                "refresh": "Refresh",
+                "refresh_cooldown": "Refresh ({seconds}s)",
+                "export": "Export CSV"
+            },
+            "list": {
+                "final_step": "Last step: remove {title} once the upgrade is done.",
+                "before": "Before upgrading",
+                "after": "After upgrading",
+                "copy": "Copy",
+                "copied": "Copied",
+                "configure": "Configure repository access",
+                "groups": {
+                    "environment": {
+                        "title": "Server environment",
+                        "description": "Fix these before upgrading."
+                    },
+                    "decision": {
+                        "title": "Needs a decision",
+                        "description": "No 2.0-ready release yet: ask the author about their plans, or plan to go without."
+                    },
+                    "unknown": {
+                        "title": "Couldn't check",
+                        "description": "Usually premium or private extensions. Add repository access so the advisor can check them."
+                    },
+                    "replace": {
+                        "title": "Remove or replace",
+                        "description": "Remove these before upgrading; install any replacements once the upgrade is done."
+                    },
+                    "ready": {
+                        "title": "Ready",
+                        "description": "These have a 2.0-compatible release."
+                    }
                 },
-                "superseded_into_core": "Remove — now built into core",
-                "superseded_replaced": "Remove before upgrading, then install {replacement} once the upgrade completes",
-                "superseded_self": "Remove this advisor as the final upgrade step",
-                "abandoned": "Abandoned — no maintained replacement",
-                "abandoned_replacement": "Abandoned — replaced by {replacement}",
-                "abandoned_replacement_ready": "Abandoned — switch to {replacement}, which has a 2.0-ready release ✓",
-                "abandoned_replacement_not_ready": "Abandoned — replacement {replacement} is not 2.0-ready yet"
+                "details": {
+                    "none": "{version}",
+                    "none_unversioned": "Marked 2.0-ready on Discuss",
+                    "remove": "Built into core",
+                    "replacement": "→ {replacement}",
+                    "replacement_unverified": "→ {replacement} (check 2.0 support)",
+                    "abandoned": "Abandoned, no replacement",
+                    "replacement_not_ready": "Abandoned → {replacement} (not 2.0-ready)",
+                    "latest": "Latest {version} is 1.x only",
+                    "no_release": "No 2.0 release",
+                    "unknown": "Not found",
+                    "remove_last": "Remove as the final step"
+                }
+            },
+            "hints": {
+                "none": "Ready: {version} supports Flarum 2.0.",
+                "none_unversioned": "Ready: marked 2.0-compatible on Discuss.",
+                "remove": "Remove before upgrading. It's built into Flarum 2.0, so nothing replaces it.",
+                "swap_after_upgrade": "Remove before upgrading, then install {replacement} after the upgrade.",
+                "switch_replacement": "Abandoned. Remove before upgrading, then install {replacement} (2.0-ready) after the upgrade.",
+                "switch_replacement_unverified": "Abandoned. Remove before upgrading, then install {replacement} after the upgrade. Check it supports 2.0 first.",
+                "no_path": "No 2.0 release yet (latest is {version}). Ask the author about plans, or plan to remove it.",
+                "no_path_unversioned": "Not 2.0-compatible yet. Ask the author about plans, or plan to remove it.",
+                "no_path_abandoned": "Abandoned with no replacement. Plan to remove it or find an alternative.",
+                "no_path_replacement_not_ready": "Abandoned. Its replacement {replacement} isn't 2.0-ready yet.",
+                "unknown": "Not found on Packagist or any configured repository. If it's premium or private, add repository access.",
+                "remove_last": "Remove this advisor as the final upgrade step."
             },
             "tabs": {
                 "report": "Readiness report",
@@ -74,9 +129,6 @@
                 "test_fail_auth": "Authentication failed — check the token",
                 "test_fail_unreachable": "Could not reach the repository",
                 "test_fail_invalid": "Invalid response — check the URL"
-            },
-            "actions": {
-                "recheck": "Re-run checks"
             },
             "errors": {
                 "load_failed": "Could not run the readiness checks. Please try again."

@@ -2,19 +2,24 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                },
                 "subtitle": "Mức độ sẵn sàng để nâng cấp lên Flarum {version}.",
                 "pass": "Diễn đàn của bạn có vẻ đã sẵn sàng cho Flarum {version}",
                 "warning": "Diễn đàn của bạn gần sẵn sàng cho Flarum {version}",
                 "fail": "Diễn đàn của bạn chưa sẵn sàng cho Flarum {version}"
             },
-            "categories": {
-                "environment": "Môi trường máy chủ",
-                "database": "Cơ sở dữ liệu",
-                "extensions": "Tiện ích mở rộng"
-            },
             "checks": {
                 "php-version": {
                     "title": "Phiên bản PHP",
+                    "chip": "",
                     "pass": "Đang chạy PHP {current}.",
                     "warning": "Không xác định được phiên bản PHP.",
                     "fail": "PHP {current} đang được cài đặt, nhưng cần PHP {required} trở lên."
@@ -34,18 +39,18 @@
                 }
             },
             "extensions": {
+                "contact": {
+                    "forum": "Chủ đề hỗ trợ",
+                    "issues": "Báo lỗi",
+                    "source": "Mã nguồn",
+                    "label": "Hỏi về kế hoạch cho 2.0:"
+                },
                 "name": "Tiện ích",
                 "installed": "Đã cài đặt",
                 "status": "Trạng thái",
                 "compatible": "Tương thích ({version})",
                 "incompatible": "Chưa có bản phát hành tương thích (mới nhất {version})",
                 "unknown": "Không tìm thấy — tiện ích trả phí hay riêng tư? Hãy cấu hình quyền truy cập kho lưu trữ",
-                "contact": {
-                    "label": "Hỏi về kế hoạch cho 2.0:",
-                    "forum": "Chủ đề hỗ trợ",
-                    "issues": "Báo lỗi",
-                    "source": "Mã nguồn"
-                },
                 "superseded_into_core": "Hãy gỡ bỏ — nay đã được tích hợp vào lõi",
                 "superseded_replaced": "Hãy gỡ bỏ trước khi nâng cấp, rồi cài {replacement} sau khi nâng cấp xong",
                 "superseded_self": "Hãy gỡ bỏ tiện ích tư vấn này ở bước nâng cấp cuối cùng",
@@ -53,6 +58,77 @@
                 "abandoned_replacement": "Đã bị bỏ rơi — được thay thế bởi {replacement}",
                 "abandoned_replacement_ready": "Đã bị bỏ rơi — hãy chuyển sang {replacement}, tiện ích này đã có bản phát hành sẵn sàng cho 2.0 ✓",
                 "abandoned_replacement_not_ready": "Đã bị bỏ rơi — tiện ích thay thế {replacement} vẫn chưa sẵn sàng cho 2.0"
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "final_step": "",
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": "",
+                    "remove_last": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": "",
+                "remove_last": ""
             },
             "tabs": {
                 "report": "Báo cáo mức độ sẵn sàng",
@@ -75,11 +151,16 @@
                 "test_fail_unreachable": "Không thể kết nối tới kho lưu trữ",
                 "test_fail_invalid": "Phản hồi không hợp lệ — hãy kiểm tra URL"
             },
-            "actions": {
-                "recheck": "Chạy lại kiểm tra"
-            },
             "errors": {
                 "load_failed": "Không thể chạy các bước kiểm tra mức độ sẵn sàng. Vui lòng thử lại."
+            },
+            "categories": {
+                "environment": "Môi trường máy chủ",
+                "database": "Cơ sở dữ liệu",
+                "extensions": "Tiện ích mở rộng"
+            },
+            "actions": {
+                "recheck": "Chạy lại kiểm tra"
             }
         }
     }
