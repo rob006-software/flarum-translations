@@ -7,7 +7,7 @@ are fully in sync and are not listed here.
 
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
-| [French](fr.md) (`fr`) | 1 | 0 | 1 |
-| [German](de.md) (`de`) | 2 | 19 | 2 |
+| [French](fr.md) (`fr`) | 2 | 0 | 2 |
+| [German](de.md) (`de`) | 3 | 21 | 3 |
 | [German (formal)](de@formal.md) (`de@formal`) | 4 | 19 | 3 |
 | [Persian](fa.md) (`fa`) | 0 | 81 | 39 |

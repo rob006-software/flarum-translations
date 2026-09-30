@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **371** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **54** components.
+sides, but do not match between them: **373** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **55** components.
 
 <!-- {% raw %} -->
 
@@ -50,7 +50,7 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
 | `fof-moderator-warnings` | [9](#fof-moderator-warnings) |
 | `fof-move-posts` | [1](#fof-move-posts) |
-| `fof-oauth` | [1](#fof-oauth) |
+| `fof-oauth` | [2](#fof-oauth) |
 | `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) |
 | `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
 | `fof-reactions` | [4](#fof-reactions) |
@@ -64,6 +64,7 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `ianm-follow-users` | [6](#ianm-follow-users) |
 | `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
+| `stezkoy-feed2forum` | [1](#stezkoy-feed2forum) |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
 
@@ -3343,6 +3344,17 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 
 ### `fof-oauth`
 
+#### [`fof-oauth.admin.settings.update_email_from_provider_help`](https://weblate.rob006.net/translate/flarum2/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.admin.settings.update_email_from_provider_help%22)
+
+> If enabled, logging in with an OAuth provider whose verified email differs from the user's forum email sends a confirmation link to the new address, and a notice to the current one. The email changes once the link is followed. Providers that cannot confirm the address is verified, including third-party providers that have not been updated to support it, will not change the email address.
+
+```diff
+-Wenn aktiviert, wird bei der Anmeldung über einen OAuth-Anbieter, dessen verifizierte E-Mail-Adresse von der im Forum hinterlegten E-Mail-Adresse des Benutzers abweicht, ein Bestätigungslink an die neue Adresse gesendet und eine Benachrichtigung an die aktuelle Adresse. Die E-Mail-Adresse wird erst geändert sich, sobald der Link angeklickt wird. Anbieter, die die Verifizierung der Adresse nicht bestätigen können – darunter auch Drittanbieter, die noch nicht entsprechend aktualisiert wurden –, ändern die E-Mail-Adresse nicht.
++Wenn diese Option aktiviert ist, wird die E-Mail-Adresse des Nutzers bei jeder Anmeldung im Forum aktualisiert, damit sie mit der vom OAuth-Anbieter angegebenen Adresse übereinstimmt. Nicht alle Anbieter stellen die aktualisierte E-Mail-Adresse zur Verfügung. In diesem Fall hat diese Einstellung bei diesen Anbietern keine Auswirkungen.
+```
+
+Wenn <del>aktiviert, wird</del><ins>diese</ins> <del>bei</del><ins>Option</ins> <del>der</del><ins>aktiviert</ins> <del>Anmeldung</del><ins>ist,</ins> <del>über</del><ins>wird</ins> <del>einen</del><ins>die</ins> <del>OAuth-Anbieter,</del><ins>E-Mail-Adresse</ins> <del>dessen</del><ins>des</ins> <del>verifizierte</del><ins>Nutzers</ins> <del>E-Mail-Adresse</del><ins>bei</ins> <del>von</del><ins>jeder</ins> <del>der</del><ins>Anmeldung</ins> im Forum<del> hinterlegten E-Mail-Adresse</del> <del>des</del><ins>aktualisiert,</ins> <del>Benutzers</del><ins>damit</ins> <del>abweicht,</del><ins>sie</ins> <del>ein</del><ins>mit</ins> <del>Bestätigungslink</del><ins>der</ins> <del>an</del><ins>vom</ins> <del>die</del><ins>OAuth-Anbieter</ins> <del>neue</del><ins>angegebenen</ins> Adresse <del>gesendet</del><ins>übereinstimmt.</ins> <del>und</del><ins>Nicht</ins> <del>eine</del><ins>alle</ins> <del>Benachrichtigung</del><ins>Anbieter</ins> <del>an</del><ins>stellen</ins> die<del> aktuelle Adresse.</del> <del>Die</del><ins>aktualisierte</ins> E-Mail-Adresse<del> wird erst geändert sich, sobald der Link angeklickt wird. Anbieter, die die Verifizierung der Adresse nicht bestätigen können – darunter</del> <del>auch</del><ins>zur</ins> <del>Drittanbieter,</del><ins>Verfügung.</ins> <del>die</del><ins>In</ins> <del>noch</del><ins>diesem</ins> <del>nicht</del><ins>Fall</ins> <del>entsprechend</del><ins>hat</ins> <del>aktualisiert</del><ins>diese</ins> <del>wurden</del><ins>Einstellung</ins> <del>–,</del><ins>bei</ins> <del>ändern</del><ins>diesen</ins> <del>die</del><ins>Anbietern</ins> <del>E-Mail-Adresse</del><ins>keine</ins> <del>nicht.</del><ins>Auswirkungen.</ins>
+
 #### [`fof-oauth.forum.user.settings.linked-account.orphaned-account`](https://weblate.rob006.net/translate/flarum2/fof-oauth/de@formal/?q=context%3A%3D%22fof-oauth.forum.user.settings.linked-account.orphaned-account%22)
 
 > You have signed in through this provider previously, but this forum has disabled sign-in with this method since.
@@ -4577,6 +4589,20 @@ Bei der Anmeldung <del>von</del><ins>der</ins> <del>Benutzern</del><ins>Benutzer
 ```
 
 Die Tageszeit, zu der der Versand der Zusammenfassungs-E-Mails beginnt. <del>Wähle</del><ins>Wählen Sie</ins> eine ruhige Zeit, in der in <del>deinem</del><ins>Ihrem</ins> Forum wenig los ist – in der Regel spätabends oder frühmorgens.
+
+
+### `stezkoy-feed2forum`
+
+#### [`stezkoy-feed2forum.admin.settings.show_source_link_label`](https://weblate.rob006.net/translate/flarum2/stezkoy-feed2forum/de@formal/?q=context%3A%3D%22stezkoy-feed2forum.admin.settings.show_source_link_label%22)
+
+> Add links to original articles
+
+```diff
+-Links zu Originalartikeln hinzufügen
++Links zu den Originalartikeln hinzufügen
+```
+
+Links zu <ins>den </ins>Originalartikeln hinzufügen
 
 
 ### `stezkoy-time-of-magic`
