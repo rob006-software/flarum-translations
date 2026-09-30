@@ -2,7 +2,7 @@
     "ffans-community-notes": {
         "admin": {
             "settings": {
-                "min_ratings_label": "",
+                "min_ratings_label": "Mindestanzahl an Bewertungen",
                 "min_ratings_help": "",
                 "helpful_threshold_label": "",
                 "helpful_threshold_help": "",
@@ -10,25 +10,25 @@
                 "not_helpful_threshold_help": ""
             },
             "permissions": {
-                "create": "",
-                "rate": "",
-                "moderate": ""
+                "create": "Kollektive Anmerkung erstellen",
+                "rate": "=> ffans-community-notes.ref.rate_note",
+                "moderate": "=> ffans-community-notes.ref.moderate_note"
             }
         },
         "forum": {
             "navigation": {
-                "title": "",
+                "title": "=> ffans-community-notes.ref.community_notes",
                 "description": "",
-                "list_a11y_label": "",
-                "helpful_button": "",
-                "latest_button": "",
-                "hidden_button": "",
+                "list_a11y_label": "Liste der Anmerkungen",
+                "helpful_button": "=> ffans-community-notes.ref.helpful",
+                "latest_button": "Neu",
+                "hidden_button": "=> ffans-community-notes.ref.hidden",
                 "refresh_a11y_label": ""
             },
             "post_controls": {
-                "add_button": "",
-                "view_mine_button": "",
-                "manage_button": ""
+                "add_button": "=> ffans-community-notes.ref.add_note",
+                "view_mine_button": "Meine kollektive Anmerkung anzeigen",
+                "manage_button": "=> ffans-community-notes.ref.manage_notes"
             },
             "list": {
                 "latest_heading_a11y_label": "",
@@ -39,20 +39,20 @@
                 "helpful_description": "",
                 "helpful_a11y_label": "",
                 "helpful_empty": "",
-                "hidden_heading_a11y_label": "",
+                "hidden_heading_a11y_label": "Verborgene Anmerkungen",
                 "hidden_description": "",
                 "hidden_a11y_label": "",
                 "hidden_empty": "",
                 "rating_permission_denied": "",
-                "moderation_permission_denied": "",
-                "other_notes": "",
-                "view_all_button": "",
-                "retry_button": "",
-                "load_more_button": ""
+                "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "other_notes": "{count, plural, one {# weitere Anmerkung} other {# weitere Anmerkungen}}",
+                "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Mehr laden"
             },
             "post": {
-                "page_title": "",
-                "modal_title": "",
+                "page_title": "=> ffans-community-notes.ref.rate_note",
+                "modal_title": "=> ffans-community-notes.ref.view_all_notes",
                 "title": "",
                 "description": "",
                 "back_a11y_label": "",
@@ -60,43 +60,43 @@
                 "notes_a11y_label": "",
                 "notes_title": "",
                 "empty": "",
-                "retry_button": "",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "load_more_button": ""
             },
             "post_link": {
                 "a11y_label": "",
                 "with_number_a11y_label": "",
-                "number": ""
+                "number": "#{number}"
             },
             "public_note": {
-                "a11y_label": "",
+                "a11y_label": "=> ffans-community-notes.ref.community_notes",
                 "title": ""
             },
             "note": {
                 "a11y_label": "",
-                "manage_a11y_label": "",
+                "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
                 "meta_a11y_label": "",
                 "rated_as": "",
-                "hidden": "",
+                "hidden": "=> ffans-community-notes.ref.hidden",
                 "public": "",
                 "not_public": "",
-                "drafted_by": "",
-                "reason": "",
+                "drafted_by": "Geschrieben von {author}",
+                "reason": "Begründung: {reason}",
                 "deleted_user": "",
                 "contributor": ""
             },
             "status": {
                 "needs_more_ratings": "",
-                "helpful": "",
-                "not_helpful": "",
-                "unknown": ""
+                "helpful": "=> ffans-community-notes.ref.helpful",
+                "not_helpful": "=> ffans-community-notes.ref.not_helpful",
+                "unknown": "Unbekannt"
             },
             "sources": {
-                "a11y_label": "",
+                "a11y_label": "Quellen",
                 "open_in_new_window_a11y_label": ""
             },
             "editor": {
-                "create_title": "",
+                "create_title": "=> ffans-community-notes.ref.add_note",
                 "edit_title": "",
                 "help": "",
                 "create_unavailable": "",
@@ -114,8 +114,8 @@
                 "remove_source_button": "",
                 "remove_source_a11y_label": "",
                 "submit_button": "",
-                "save_button": "",
-                "delete_button": "",
+                "save_button": "Änderungen speichern",
+                "delete_button": "Anmerkung löschen",
                 "delete_confirmation": "",
                 "created_message": "",
                 "updated_message": "",
@@ -137,7 +137,7 @@
                 "other": ""
             },
             "rating": {
-                "title": "",
+                "title": "=> ffans-community-notes.ref.rate_note",
                 "button": "",
                 "button_a11y_label": "",
                 "edit_button_a11y_label": "",
@@ -146,12 +146,12 @@
                 "reasons_label": "",
                 "submit_button": "",
                 "update_button": "",
-                "cancel_button": "",
-                "retry_button": "",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "values": {
-                    "helpful": "",
+                    "helpful": "=> ffans-community-notes.ref.helpful",
                     "somewhat_helpful": "",
-                    "not_helpful": ""
+                    "not_helpful": "=> ffans-community-notes.ref.not_helpful"
                 },
                 "summaries": {
                     "helpful": "",
@@ -192,19 +192,19 @@
                 }
             },
             "moderation": {
-                "title": "",
-                "permission_denied": "",
-                "retry_button": "",
+                "title": "=> ffans-community-notes.ref.moderate_note",
+                "permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "hidden_reason_label": "",
                 "hide_reason_label": "",
                 "hide_help": "",
                 "restore_help": "",
-                "hide_button": "",
-                "restore_button": "",
-                "cancel_button": "",
-                "delete_button": "",
+                "hide_button": "Verbergen",
+                "restore_button": "Wiederherstellen",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "delete_button": "Dauerhaft löschen",
                 "delete_confirmation": "",
-                "reason_required": "",
+                "reason_required": "=> ffans-community-notes.validation.hide_reason_required",
                 "hidden_message": "",
                 "restored_message": "",
                 "deleted_message": ""
@@ -212,7 +212,7 @@
             "errors": {
                 "inaccessible": "",
                 "request_failed": "",
-                "detail_separator": ""
+                "detail_separator": "; "
             }
         },
         "validation": {
@@ -246,13 +246,13 @@
             "add_note": "",
             "rate_note": "",
             "moderate_note": "",
-            "manage_notes": "",
+            "manage_notes": "=> ffans-community-notes.ref.moderate_note",
             "view_all_notes": "",
             "helpful": "",
             "not_helpful": "",
             "hidden": "",
             "retry": "",
-            "cancel": "",
+            "cancel": "Abbrechen",
             "moderation_permission_denied": ""
         }
     }
