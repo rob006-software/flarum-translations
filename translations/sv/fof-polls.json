@@ -3,237 +3,237 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Allmänna inställningar",
+                    "help": "Dessa inställningar styr grundläggande funktioner i Polls-tillägget."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Omröstningar i diskussioner",
+                    "help": "Dessa inställningar styr omröstningar som är kopplade till diskussionsinlägg."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Aktivera omröstningar i diskussioner",
+                "enable_discussion_polls_help": "När funktionen är aktiverad kan användare skapa omröstningar i diskussionsinlägg. Inaktivera detta om du endast vill använda globala omröstningar.",
                 "global_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Globala omröstningar",
+                    "help": "Dessa inställningar styr funktionen för globala omröstningar."
                 },
                 "image": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Bildinställningar",
+                    "help": "Konfigurera gränser och bilddimensioner för bilduppladdning. Bilder konverteras automatiskt till WebP och responsiva varianter genereras."
                 },
-                "enable_global_polls": "",
-                "enable_global_polls_help": "",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "enable_global_polls": "Aktivera globala omröstningar",
+                "enable_global_polls_help": "Globala omröstningar är inte kopplade till ett specifikt inlägg och kan nås via en särskild sida för omröstningar.",
+                "enabled_poll_groups": "Aktivera omröstningsgrupper",
+                "enabled_poll_groups_help": "Omröstningsgrupper gör det möjligt att gruppera globala omröstningar och visa dem på en dedikerad sida.",
+                "max_options": "Maximalt antal alternativ per omröstning",
+                "options_color_blend": "Färga text i omröstningsalternativ",
+                "options_color_blend_help": "Använd detta för att göra omröstningsalternativen mer lättlästa med hjälp av färger. Inaktivera funktionen om den påverkar forumets utseende negativt och försämrar läsbarheten.",
+                "max_image_upload_size": "Maximal storlek för bilduppladdning (KB)",
+                "max_image_upload_size_help": "Maximal filstorlek för bilduppladdning i kilobyte. Bilder konverteras automatiskt till WebP och storleksändras efter uppladdning, så den slutliga lagringsstorleken blir vanligtvis betydligt mindre. Standardvärdet är 10 240 KB (10 MB).",
+                "image_height": "Ändra bildhöjd (px)",
+                "image_width": "Ändra bildbredd (px)",
+                "image_dimensions_help": "Basdimensioner för lagrade bilder. HiDPI-varianter (@2x,@3x) genereras automatiskt när källbilden är tillräckligt stor."
             },
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "start_global": "",
-                "self_edit": "",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": "",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_results_without_voting": "Visa resultat utan att rösta",
+                "start": "Starta en omröstning",
+                "start_global": "Starta en global omröstning",
+                "self_edit": "Redigera skapade omröstningar (kräver behörighet att redigera inlägg)",
+                "self_post_edit": "Redigera *alla* omröstningar i egna inlägg (kräver behörighet att redigera inlägg)",
+                "upload_images": "Tillåt användare att ladda upp bilder till omröstningar",
+                "vote": "Rösta i omröstningar",
+                "change_vote": "Ändra röst",
+                "moderate": "Redigera och ta bort omröstningar",
+                "view_group": "Visa omröstningsgrupper",
+                "start_group": "Skapa omröstningsgrupper",
+                "moderate_group": "Redigera och ta bort omröstningsgrupper"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
-            "max_votes_allowed": "",
-            "polls_count": "",
-            "poll_never_ends": "",
-            "answers": "",
+            "days_remaining": "Omröstningen avslutas {time}.",
+            "no_permission": "Du har inte behörighet att rösta",
+            "poll_ended": "Denna omröstning har avslutats.",
+            "public_poll": "Visa användare som röstat",
+            "max_votes_allowed": "Omröstningen tillåter röstning på {max, plural, one {# alternativ} other {# alternativ}}.",
+            "polls_count": "{count, plural, one {{count} röst} other {{count} röster}}",
+            "poll_never_ends": "Omröstningen avslutas aldrig",
+            "answers": "Svar",
             "poll": {
-                "cannot_change_vote": "",
-                "submit_button": "",
-                "start_poll_button": "",
-                "cannot_start_poll_button": "",
-                "total_votes": "",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "cannot_change_vote": "Du kan inte ändra din röst efter att du har röstat.",
+                "submit_button": "Rösta",
+                "start_poll_button": "Starta global omröstning",
+                "cannot_start_poll_button": "Det går inte att starta omröstningen",
+                "total_votes": "{count, plural, one {# röst lagd} other {# röster lades}}",
+                "draft_label": "Utkast",
+                "scheduled_label": "Planerad till {date}",
+                "scheduled_error_tooltip": "Den schemalagda publiceringen misslyckades. Öppna omröstningen för att se varför."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
-                "edit_label": "",
-                "delete_label": "",
-                "view_label": "",
-                "delete_confirmation": "",
-                "delete_success_message": "",
-                "delete_error_message": "",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "toggle_dropdown_accessible_label": "Visa/dölj meny för omröstningskontroller",
+                "edit_label": "=> core.ref.edit",
+                "delete_label": "=> core.ref.delete",
+                "view_label": "=> core.ref.view",
+                "delete_confirmation": "Är du säker på att du vill ta bort den här omröstningen?",
+                "delete_success_message": "Omröstningen har tagits bort.",
+                "delete_error_message": "Något gick fel när omröstningen skulle tas bort.",
+                "publish_label": "Publicera nu",
+                "publish_success": "Omröstning publicerad.",
+                "schedule_publish_label": "Schemalägg publicering",
+                "edit_schedule_publish_label": "Redigera schemalagd publicering",
+                "cancel_schedule_label": "Avbryt schemalagd publicering",
+                "cancel_schedule_success": "Planerad publicering avbruten.",
+                "unpublish_label": "Flytta tillbaka till utkast",
+                "unpublish_confirmation": "Vill du flytta tillbaka den här omröstningen till utkast? Den kommer att försvinna från visningen.",
+                "unpublish_success": "Omröstningen har flyttats till utkast.",
+                "unpublish_error_has_votes": "Kan inte avpublicera – omröstningen har redan fått röster. Ta bort den i stället."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Ta bort omröstning",
+                "error": "Ett fel uppstod när omröstningen skulle sparas, vänligen kontakta en administratör."
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Lägg till omröstningsgrupp",
+                    "edit_title": "Redigera omröstningsgrupp",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Ta bort omröstningsgrupp",
+                    "groups_manager": "Hanterare för omröstningsgrupper",
+                    "view_group": "Visa omröstningsgrupp",
+                    "success": "Omröstningsgruppen har sparats."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Omröstningsgrupper",
+                    "start_poll_group_button": "Starta en omröstningsgrupp",
+                    "cannot_start_poll_group_button": "Det går inte att starta en omröstningsgrupp",
+                    "empty_text": "Det verkar inte finnas några omröstningsgrupper här.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Det finns inga omröstningar i den här gruppen.",
+                    "add_poll_button": "Lägg till omröstning i gruppen"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Lägg till omröstning",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Visa omröstningsgrupp",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Är du säker på att du vill ta bort den här omröstningsgruppen?",
+                    "delete_success_message": "Omröstningsgruppen har tagits bort.",
+                    "delete_error_message": "Något gick fel när omröstningsgruppen skulle tas bort."
                 }
             },
             "polls_page": {
-                "title": ""
+                "title": "Omröstningar"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": "",
+                "empty_text": "Det verkar inte finnas några omröstningar för hela communityn här.",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "Nyaste",
+                    "oldest": "Äldsta",
+                    "most_voted": "Flest röster",
+                    "least_voted": "Minst röster",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Alla",
+                    "published": "Publicerad",
+                    "draft": "Utkast"
                 }
             },
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": "",
-                "no_permission_alert": ""
+                "add_poll": "=> fof-polls.forum.moderation.add",
+                "edit_poll": "=> fof-polls.forum.moderation.edit",
+                "no_permission_alert": "Du har inte behörighet att starta en omröstning."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": "",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "add_title": "Lägg till en omröstning",
+                "edit_title": "Redigera omröstning",
+                "polls_manager": "Hanterare av omröstningar",
+                "polls_preview": "Visa omröstning",
+                "continue_editing": "Fortsätt redigera",
+                "success": "Omröstningen har sparats.",
+                "submit": "Skicka",
+                "save_as_draft": "Spara som utkast",
+                "update_draft": "Uppdatera utkast",
+                "draft_saved": "Utkast sparat",
+                "publish": "Publicera",
+                "schedule_publication": "Schemalägg publicering",
+                "schedule_publication_edit": "Redigera schemalagd publicering",
+                "schedule_datetime_label": "Publicera vid",
+                "schedule_submit": "Schema",
+                "schedule": "Schema"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "empty_answers": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "image_option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
-                "question_placeholder": "",
-                "subtitle_placeholder": "",
-                "submit": "",
-                "delete": "",
-                "error": "",
+                "add_title": "Lägg till en omröstning",
+                "add_option_label": "Lägg till ett alternativ",
+                "date_placeholder": "Slutdatum för omröstning (valfritt)",
+                "edit_title": "Redigera omröstning",
+                "include_question": "Du måste inkludera en fråga",
+                "max": "Du kan ha högst {max} svar",
+                "min": "Du måste inkludera minst två svar",
+                "empty_answers": "{count, plural, one {# svar är tomt – vänligen fyll i eller ta bort det.} other {# svar är tomma – vänligen fyll i eller ta bort dem.}}",
+                "no_voters": "Inga röster",
+                "option_placeholder": "Svar",
+                "image_option_placeholder": "Bild-URL (valfritt)",
+                "options_label": "Svar",
+                "public_poll_label": "Låt användare se vilka som har röstat",
+                "allow_multiple_votes_label": "Låt användare rösta på flera alternativ",
+                "max_votes_label": "Max antal röster per användare",
+                "max_votes_help": "Ställ in på 0 för att låta användare rösta på alla alternativ.",
+                "hide_votes_label": "Dölj röster tills omröstningen avslutas",
+                "hide_votes_label_help": "Användaren som startade omröstningen kommer alltid att kunna se rösterna.",
+                "allow_change_vote_label": "Tillåt användare att ändra sin röst",
+                "question_placeholder": "Fråga",
+                "subtitle_placeholder": "Undertext/beskrivning (valfritt)",
+                "submit": "Skicka",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "url_deprecated": ""
+                    "label": "Omröstningsbild",
+                    "help": "Ladda upp en bild som ska visas bredvid omröstningen (valfritt).",
+                    "alt_label": "Alternativ text för bild",
+                    "alt_help_text": "Denna text krävs när en bild har angetts; den visas om bilden inte kan läsas in.",
+                    "url_deprecated": "Denna omröstning använder en extern bild-URL. Externa URL:er är nu inaktiva och kommer att tas bort i en framtida version. Ladda upp bilden på nytt med hjälp av uppladdningsknappen."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Bild för omröstningssvar",
+                    "help": "Ladda upp en bild som ska visas bredvid omröstningssvaret (valfritt)."
                 },
-                "date_clear": "",
+                "date_clear": "Ta bort slutdatum",
                 "tooltip": {
                     "options": {
-                        "add-button": "",
-                        "remove-button": ""
+                        "add-button": "Lägg till svar",
+                        "remove-button": "Ta bort svar"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "add": "Lägg till omröstning",
+                "delete": "Ta bort omröstning",
+                "delete_confirm": "Är du säker på att du vill ta bort den här omröstningen?",
+                "edit": "Redigera omröstning"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Omröstningar",
+                "nav-all": "Alla globala omröstningar",
+                "nav-groups": "Omröstningsgrupper"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Aktiva omröstningar",
+                "ended-polls": "Avslutade omröstningar",
+                "no-active-polls": "Det finns inga aktiva omröstningar för tillfället.",
+                "no-recent-polls": "Det finns inga nyligen avslutade omröstningar för tillfället."
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Omröstning",
+                "votes": "{count, plural, one {# röst} other {# röster}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Röstare"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Ta bort bild",
+                "upload_button": "Ladda upp bild"
             }
         }
     }
