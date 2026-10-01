@@ -3447,6 +3447,17 @@
 		<td align="center"><a href="https://packagist.org/packages/ernestdefoe/garrison/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison/zh_Hans/"><img src="https://weblate.rob006.net/widgets/flarum2/zh_Hans/ernestdefoe-garrison/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FFans/community-notes" title="ffans/community-notes"><code>ffans/community-notes</code></a>
+		</td>
+		<td align="center">312</td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/community-notes/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/community-notes/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/community-notes/stats">0</a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
+	</tr>
 </tbody>
 </table>
 
