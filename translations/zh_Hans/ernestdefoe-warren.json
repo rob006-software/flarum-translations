@@ -2,56 +2,56 @@
     "ernestdefoe-warren": {
         "forum": {
             "vote": {
-                "up": "",
-                "down": ""
+                "up": "赞同",
+                "down": "反对"
             },
             "row": {
-                "posted_by": "",
-                "comments": "",
-                "share": "",
-                "share_copied": ""
+                "posted_by": "{author} 发布",
+                "comments": "{count} 条评论",
+                "share": "分享",
+                "share_copied": "链接已复制。"
             },
             "sort": {
-                "hot": "",
-                "top": ""
+                "hot": "热门",
+                "top": "高票"
             },
             "thread": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "收起",
+                "expand": "{count} 条回复"
             },
             "sidebar": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "收起侧栏",
+                "expand": "显示侧栏"
             },
             "rail": {
-                "about": "",
-                "hashtags": "",
-                "hashtags_count": "",
-                "members": "",
-                "discussions": "",
-                "comments": "",
-                "create": ""
+                "about": "关于本社区",
+                "hashtags": "热门话题",
+                "hashtags_count": "{count} 篇帖子",
+                "members": "成员",
+                "discussions": "讨论",
+                "comments": "评论",
+                "create": "发布帖子"
             }
         },
         "admin": {
             "settings": {
-                "density_label": "",
-                "density_help": "",
-                "density_card": "",
-                "density_compact": "",
-                "default_sort_label": "",
-                "default_sort_help": "",
-                "default_sort_hot": "",
-                "default_sort_latest": "",
-                "show_about_label": "",
-                "show_about_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
-                "thread_depth_label": "",
-                "thread_depth_help": "",
-                "allow_self_votes_label": "",
-                "allow_self_votes_help": "",
-                "vote_permission_label": ""
+                "density_label": "帖子显示密度",
+                "density_help": "调整帖子流中每篇帖子的留白空间。",
+                "density_card": "宽松 - 留白充足，采用圆角样式",
+                "density_compact": "紧凑 - 经典的高密度列表",
+                "default_sort_label": "默认视图",
+                "default_sort_help": "用户选择排序方式前，首页默认采用的排序方式。",
+                "default_sort_hot": "热门 - 综合得分和发布时间",
+                "default_sort_latest": "最新 - 最近有回复的帖子优先",
+                "show_about_label": "显示「关于」面板",
+                "show_about_help": "右侧面板会显示论坛简介、统计数据和发帖按钮。关闭后，帖子列表将占用这部分空间。",
+                "hashtag_count_label": "标签云中的话题标签数量",
+                "hashtag_count_help": "控制右侧栏显示多少个最常用的话题标签。仅在启用 Hashtags 扩展时生效。",
+                "thread_depth_label": "回复最大缩进层级",
+                "thread_depth_help": "设置回复最多可以向右缩进多少层。更深层的回复仍会显示在其上级回复下方，只是不再继续缩进，以免长串对话不断向右偏移，挤出内容区域。",
+                "allow_self_votes_label": "允许用户给自己的帖子投票",
+                "allow_self_votes_help": "默认开启，与 fof/gamification 一致。如果你认为给自己的帖子投赞成票会虚增排名，可以关闭。",
+                "vote_permission_label": "为帖子投票"
             }
         }
     }
