@@ -1,50 +1,50 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "可用项目",
-            "available_items_help": "",
-            "create_new_item_button": "创建新项目",
+            "available_items": "可用导航项",
+            "available_items_help": "将导航项从此列表拖到任意方案中，即可添加到底部导航栏。",
+            "create_new_item_button": "创建新导航项",
             "edit_item": {
-                "modal_title": "编辑项目",
-                "help": "",
+                "modal_title": "编辑导航项",
+                "help": "需要链接以外的功能？有关自定义导航项和行为，请参阅<a>开发者文档</a>。",
                 "label": "名称",
-                "label_placeholder": "我的自定义项目",
+                "label_placeholder": "我的自定义导航项",
                 "path": "路径",
                 "url": "URL",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "填写 {baseUrl} 后面的地址部分，并以斜杠开头。",
+                    "external": "填写完整地址，包括 <code>https://</code>。"
                 },
                 "icon": "图标",
                 "icon_help": "输入任意 <a>FontAwesome</a> 图标类名，包括 <code>fas fa-</code> 前缀。",
                 "type": {
-                    "heading": "",
+                    "heading": "链接用途",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "前往本站页面",
+                        "help": "无需重新加载页面即可打开。"
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "前往其他网站",
+                        "help": "打开外部地址。"
                     }
                 },
                 "open_new_tab_checkbox": "在新标签页中打开链接",
                 "submit_button": "保存",
                 "delete_button": "删除",
-                "delete_item_confirmation": "确定要删除此项目吗？",
+                "delete_item_confirmation": "确定要删除此导航项吗？",
                 "is_internal_checkbox": "内部链接"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "heading": "底部导航栏方案",
+                "empty_help": "将导航项拖到这里，即可添加到此方案。",
+                "help": "系统会从上到下依次检查各方案。用户将看到自己有权查看的第一个已启用方案。请将更宽泛的方案放在最后，例如：#1 管理员、#2 版主、#3 注册用户、#4 所有人。将方案留空，可对所选用户组完全隐藏底部导航栏。",
+                "number": "#{number}",
+                "enabled": "启用",
+                "visible_to": "可见用户",
+                "reorder": "调整方案顺序",
+                "delete": "删除方案",
+                "delete_confirmation": "确定要删除此方案吗？此操作无法撤销。",
+                "create": "创建方案"
             },
             "scroll_settings": {
                 "toggle_label": "滚动时自动隐藏底部导航栏",
@@ -65,7 +65,7 @@
                 "profile": "我的",
                 "tags": "标签",
                 "messages": "私信",
-                "flags": "",
+                "flags": "举报",
                 "fof-byobu": "私密讨论",
                 "ramon-chat": "聊天",
                 "categories": "分类"
