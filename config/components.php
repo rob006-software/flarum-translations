@@ -693,7 +693,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/2.0.0/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-modern-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/modern-footer/2.0.0/resources/locale/en.yml',
