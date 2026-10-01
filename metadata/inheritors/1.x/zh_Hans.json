@@ -1488,7 +1488,7 @@
                 }
             },
             "forum": {
-                "bbcode_description": "5dd4bcfc449de869469aa3a86c4e8692 5dd4bcfc449de869469aa3a86c4e8692"
+                "bbcode_description": "5dd4bcfc449de869469aa3a86c4e8692 9ee8e762bc44e1373f0e79ae07327a96"
             }
         }
     },
@@ -5307,10 +5307,16 @@
                             "description": "420e7944020c7e48d56c652538e2e5c9 420e7944020c7e48d56c652538e2e5c9"
                         }
                     },
-                    "update_email_from_provider_help": "114d904b01845f2811beac035017f3f4 114d904b01845f2811beac035017f3f4",
+                    "update_email_from_provider_help": "114d904b01845f2811beac035017f3f4 8eefa505479bf743c0dc08f6e65b6fcd",
                     "update_email_from_provider_label": "5d874faa60edd4634a87626b490fe3fc 5d874faa60edd4634a87626b490fe3fc"
                 },
                 "settings_accessibility_label": "dc4a40d600c6d8ffd5082aad3443a72b dc4a40d600c6d8ffd5082aad3443a72b"
+            },
+            "email": {
+                "provider_email_change_notice": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 6409bc24a768ccf662b3a728d37de411",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e f9632e4bc19d5114eb343d3270003017"
+                }
             },
             "forum": {
                 "error": {
@@ -5318,6 +5324,7 @@
                     "invalid_state": "42b600e6877d7963dc33051acf2551be 42b600e6877d7963dc33051acf2551be"
                 },
                 "log_in": {
+                    "unverified_email_in_use": "d41d8cd98f00b204e9800998ecf8427e a6ab99fd85b52a5720d1086f153ff107",
                     "with_button": "824f4876c9c0955fffefc1668e3f084e 824f4876c9c0955fffefc1668e3f084e",
                     "with_discord_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
                     "with_facebook_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
@@ -5548,7 +5555,7 @@
                     "date_placeholder": "9b7e94b9814cdec08df64535250f5f33 9b7e94b9814cdec08df64535250f5f33",
                     "delete": "c483181e82ffe762b4a38a1add4db25b c483181e82ffe762b4a38a1add4db25b",
                     "edit_title": "5ad925a6d60e94d796e7c899ab42a8f7 5ad925a6d60e94d796e7c899ab42a8f7",
-                    "empty_answers": "1fba96a68ab1f01b1fb3f20621268c73 1fba96a68ab1f01b1fb3f20621268c73",
+                    "empty_answers": "1fba96a68ab1f01b1fb3f20621268c73 3208248ab1b19a62b71c887fa37d0283",
                     "error": "1d52c2a5521a657311004141ffe1c296 1d52c2a5521a657311004141ffe1c296",
                     "hide_votes_label": "a03293707588bf5c935d0742bd1eb3de a03293707588bf5c935d0742bd1eb3de",
                     "hide_votes_label_help": "dd35c4ffbb9f0450a7cc8b5a69390744 dd35c4ffbb9f0450a7cc8b5a69390744",
@@ -5601,7 +5608,7 @@
                     "scheduled_label": "ef40af098a013e875bbe113387ecce57 ef40af098a013e875bbe113387ecce57",
                     "start_poll_button": "2a1dabdcdf262d45b913956645ff009f 2a1dabdcdf262d45b913956645ff009f",
                     "submit_button": "e7f40ca894a3e904003a03f62bcec763 e7f40ca894a3e904003a03f62bcec763",
-                    "total_votes": "46850b63981e62f416ce75bbd28279f3 46850b63981e62f416ce75bbd28279f3"
+                    "total_votes": "46850b63981e62f416ce75bbd28279f3 b9262404ad912053be26112223bd5781"
                 },
                 "poll_controls": {
                     "cancel_schedule_label": "3925aa003cbbe015e0871a1072defe1c 3925aa003cbbe015e0871a1072defe1c",
@@ -5687,7 +5694,7 @@
                 },
                 "tooltip": {
                     "badge": "e7f40ca894a3e904003a03f62bcec763 e7f40ca894a3e904003a03f62bcec763",
-                    "votes": "a7270f84e1a571a56e3f648511c81b7a a7270f84e1a571a56e3f648511c81b7a"
+                    "votes": "a7270f84e1a571a56e3f648511c81b7a 8865c3956736bcdfd9b508a14162e0d6"
                 },
                 "upload_image": {
                     "remove_button": "3875ccae23ffd33f78e6f41fba46bd3b 3875ccae23ffd33f78e6f41fba46bd3b",
