@@ -32,12 +32,12 @@
             },
             "list": {
                 "latest_heading_a11y_label": "Beiträge ohne veröffentlichte kollektive Anmerkungen",
-                "latest_description": "",
-                "latest_a11y_label": "",
-                "latest_empty": "",
-                "helpful_heading_a11y_label": "",
+                "latest_description": "Anmerkungen zu diesen Beiträgen werden noch nicht öffentlich angezeigt, wobei die neuesten Anmerkungen an erster Stelle stehen. Bewerte sie, um der Community dabei zu helfen, zu entscheiden, welche Informationen nützlich sind.",
+                "latest_a11y_label": "Beiträge mit den neuesten Anmerkungen",
+                "latest_empty": "Es gibt noch keine Beiträge mit Anmerkungen, die ihrer öffentlichen Freigabe harren.",
+                "helpful_heading_a11y_label": "Anmerkungen, die die Community als hilfreich bewertet hat",
                 "helpful_description": "",
-                "helpful_a11y_label": "",
+                "helpful_a11y_label": "Beiträge mit hilfreichen Anmerkungen",
                 "helpful_empty": "",
                 "hidden_heading_a11y_label": "Verborgene Anmerkungen",
                 "hidden_description": "",
@@ -138,11 +138,11 @@
             },
             "rating": {
                 "title": "=> ffans-community-notes.ref.rate_note",
-                "button": "",
+                "button": "Findest du das hilfreich?",
                 "button_a11y_label": "",
                 "edit_button_a11y_label": "",
                 "unavailable": "",
-                "question": "",
+                "question": "Ist diese Anmerkung hilfreich?",
                 "reasons_label": "",
                 "submit_button": "",
                 "update_button": "",
@@ -150,13 +150,13 @@
                 "retry_button": "=> ffans-community-notes.ref.retry",
                 "values": {
                     "helpful": "=> ffans-community-notes.ref.helpful",
-                    "somewhat_helpful": "",
+                    "somewhat_helpful": "Etwas hilfreich",
                     "not_helpful": "=> ffans-community-notes.ref.not_helpful"
                 },
                 "summaries": {
-                    "helpful": "",
-                    "somewhat_helpful": "",
-                    "not_helpful": ""
+                    "helpful": "Du hast diese Anmerkung als <b>hilfreich</b> bewertet",
+                    "somewhat_helpful": "Du hast diese Anmerkung als <b>etwas hilfreich</b> bewertet",
+                    "not_helpful": "Du hast diese Anmerkung als <b>nicht hilfreich</b> bewertet"
                 },
                 "reasons": {
                     "helpful": {
