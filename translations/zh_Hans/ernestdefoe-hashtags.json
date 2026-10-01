@@ -2,32 +2,32 @@
     "ernestdefoe-hashtags": {
         "forum": {
             "nav": {
-                "browse": ""
+                "browse": "话题"
             },
             "page": {
-                "meta": "",
-                "browse_all": "",
-                "empty": ""
+                "meta": "{posts} 篇帖子 · {discussions} 个讨论",
+                "browse_all": "浏览全部话题",
+                "empty": "暂时还没有人使用 #{name} 发帖，或者你无权查看相关内容。"
             },
             "browse": {
-                "title": "",
-                "lede": "",
-                "search_placeholder": "",
-                "sort_popular": "",
-                "sort_recent": "",
-                "sort_alphabetical": "",
-                "empty": "",
-                "no_matches": ""
+                "title": "话题",
+                "lede": "任何人都可以发起话题，只需在帖子中输入 # 加上一个词。",
+                "search_placeholder": "搜索话题…",
+                "sort_popular": "使用最多",
+                "sort_recent": "最近使用",
+                "sort_alphabetical": "A–Z",
+                "empty": "暂无话题。在帖子中输入 # 加上一个词即可发起话题。",
+                "no_matches": "没有找到匹配的话题。"
             },
             "composer": {
-                "post_count": ""
+                "post_count": "{count} 篇帖子"
             }
         },
         "admin": {
             "backfill": {
-                "heading": "",
-                "body": "",
-                "help": ""
+                "heading": "现有帖子",
+                "body": "安装 Hashtags 之前发布的帖子中没有保存话题链接，因此在重新解析前不会出现在话题页面中。请在 Flarum 根目录运行一次以下命令：",
+                "help": "可先添加 --dry-run 参数，测试查看有多少篇帖子。实际运行时只会更新包含话题的帖子，其他帖子不受影响。"
             }
         }
     }
