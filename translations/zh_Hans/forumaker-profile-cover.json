@@ -2,39 +2,39 @@
     "forumaker-profile-cover": {
         "admin": {
             "sections": {
-                "thumbnails": "",
-                "general": ""
+                "thumbnails": "缩略图",
+                "general": "常规"
             },
-            "thumbnails": "",
-            "thumbnails_help": "",
-            "thumbnail_width": "",
-            "thumbnail_width_help": "",
-            "recreate_thumbnails": "",
-            "delete_thumbnails": "",
-            "recreate_thumbnails_confirm": "",
-            "delete_thumbnails_confirm": "",
-            "recreate_success": "",
-            "delete_success": "",
-            "recreate_error": "",
-            "delete_error": "",
-            "max_size": "",
+            "thumbnails": "生成缩略图",
+            "thumbnails_help": "为封面生成缩小版本，用于用户卡片、用户目录等紧凑视图。关闭后将直接使用原尺寸封面",
+            "thumbnail_width": "缩略图最大宽度（px）",
+            "thumbnail_width_help": "封面会按比例缩放至此宽度。默认为 500",
+            "recreate_thumbnails": "重新生成缩略图",
+            "delete_thumbnails": "删除缩略图",
+            "recreate_thumbnails_confirm": "确定要重新生成所有缩略图吗？",
+            "delete_thumbnails_confirm": "确定要删除所有缩略图吗？",
+            "recreate_success": "缩略图已重新生成",
+            "delete_success": "所有缩略图已删除",
+            "recreate_error": "缩略图重新生成失败",
+            "delete_error": "缩略图删除失败",
+            "max_size": "封面图片最大大小（KB）",
             "permission": {
-                "set_cover": ""
+                "set_cover": "设置个人主页封面"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
-            "position_label": "",
-            "save_position_button": "",
+            "cover": "封面",
+            "edit_cover": "编辑封面",
+            "notice": "最大大小：{size}。推荐比例为 21:9，且至少为 1600×400 像素",
+            "position_label": "桌面端封面位置",
+            "save_position_button": "保存位置",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "封面已更新",
+                "error": "图片上传失败"
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "封面已移除",
+                "error": "封面移除失败，请重试"
             }
         }
     }
