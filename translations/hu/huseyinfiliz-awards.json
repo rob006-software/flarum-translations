@@ -61,6 +61,8 @@
                 "image": "Kép",
                 "image_url": "Kép webcíme",
                 "image_url_help": "A jelölt képének webcíme (például játékborító, személyes fénykép)",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "Szavazatok módosítása",
                 "vote_adjustment_title": "Szavazatmódosítás",
                 "real_votes": "Valódi szavazatok",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} szavazat",
                 "votes_unlimited": "{count} szavazat"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "Más javaslata",
                 "click_to_suggest": "Kattintson egy jelölt javaslatához",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "Csak {limit} jelöltre szavazhat ebben a kategóriában.",
                 "vote_quota_exhausted": "Felhasználta az összes elérhető szavazatát/javaslatát ebben a kategóriában.",
                 "cannot_delete_processed_suggestion": "Csak a függőben lévő javaslatok vonhatóak vissza.",
+                "already_voted": "",
                 "not_available": "Ez a díj még nem érhető el."
             }
         },

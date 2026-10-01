@@ -61,6 +61,8 @@
                 "image": "Bild",
                 "image_url": "Bild-URL",
                 "image_url_help": "URL zum Bild des Vorschlags (z. B. Spielcover, Porträtfoto)",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "Stimmen anpassen",
                 "vote_adjustment_title": "Stimmenanpassung",
                 "real_votes": "Echte Stimmen",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} Stimmen",
                 "votes_unlimited": "{count} Stimmen"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "Andere vorschlagen",
                 "click_to_suggest": "Klicken, um einen Kandidaten vorzuschlagen",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "In dieser Kategorie kannst du nur für {limit} Nominierte stimmen.",
                 "vote_quota_exhausted": "Du hast alle deine verfügbaren Stimmen/Vorschläge für diese Kategorie bereits abgegeben.",
                 "cannot_delete_processed_suggestion": "Es können nur ausstehende Vorschläge storniert werden.",
+                "already_voted": "",
                 "not_available": "Diese Auszeichnung ist noch nicht verfügbar."
             }
         },

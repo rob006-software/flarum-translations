@@ -61,6 +61,8 @@
                 "image": "Görsel",
                 "image_url": "Görsel Bağlantısı",
                 "image_url_help": "Adayın görseline bağlantı (örn: oyun kapağı, kişi fotoğrafı)",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "Oy Ayarla",
                 "vote_adjustment_title": "Oy Ayarlaması",
                 "real_votes": "Gerçek Oy",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} oy",
                 "votes_unlimited": "{count} oy"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "Başka Öner",
                 "click_to_suggest": "Aday önermek için tıklayın",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "Bu kategoride en fazla {limit} adaya oy verebilirsiniz.",
                 "vote_quota_exhausted": "Bu kategorideki tüm oy/öneri hakkınızı kullandınız.",
                 "cannot_delete_processed_suggestion": "Sadece bekleyen öneriler iptal edilebilir.",
+                "already_voted": "",
                 "not_available": "Bu ödül henüz mevcut değil."
             }
         },

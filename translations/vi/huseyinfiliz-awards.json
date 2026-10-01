@@ -61,6 +61,8 @@
                 "image": "Hình ảnh",
                 "image_url": "URL hình ảnh",
                 "image_url_help": "URL đến hình ảnh của đề cử (ví dụ: bìa trò chơi, ảnh chân dung)",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "Điều chỉnh phiếu bầu",
                 "vote_adjustment_title": "Điều chỉnh phiếu bầu",
                 "real_votes": "Phiếu bầu thực",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} phiếu",
                 "votes_unlimited": "{count} phiếu bầu"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "Gợi ý khác",
                 "click_to_suggest": "Nhấp để gợi ý một đề cử",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "Bạn chỉ có thể bình chọn cho {limit} đề cử trong hạng mục này.",
                 "vote_quota_exhausted": "Bạn đã dùng hết số lượt bình chọn/gợi ý cho hạng mục này.",
                 "cannot_delete_processed_suggestion": "Chỉ có thể hủy các gợi ý đang chờ duyệt.",
+                "already_voted": "",
                 "not_available": "Giải thưởng này chưa khả dụng."
             }
         },

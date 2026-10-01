@@ -61,6 +61,8 @@
                 "image": "รูปภาพ",
                 "image_url": "URL รูปภาพ",
                 "image_url_help": "URL รูปภาพของผู้ได้รับการเสนอชื่อ (เช่น ปกเกม รูปบุคคล)",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "ปรับจำนวน vote",
                 "vote_adjustment_title": "ปรับ Vote",
                 "real_votes": "Vote จริง",
@@ -187,6 +189,9 @@
                 "votes_used": "ใช้ {used}/{limit} votes",
                 "votes_unlimited": "{count} votes"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "เสนอชื่ออื่น",
                 "click_to_suggest": "คลิกเพื่อเสนอชื่อ",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "คุณสามารถโหวตได้เพียง {limit} คนในหมวดหมู่นี้",
                 "vote_quota_exhausted": "คุณใช้ votes/ข้อเสนอแนะที่มีทั้งหมดสำหรับหมวดหมู่นี้แล้ว",
                 "cannot_delete_processed_suggestion": "ยกเลิกได้เฉพาะข้อเสนอแนะที่รอดำเนินการเท่านั้น",
+                "already_voted": "",
                 "not_available": "Award นี้ยังไม่พร้อมใช้งาน"
             }
         },

@@ -61,6 +61,8 @@
                 "image": "Image",
                 "image_url": "Image URL",
                 "image_url_help": "URL to the nominee's image (e.g., game cover, person photo)",
+                "website_url": "Website / Link URL",
+                "website_url_help": "External URL for this nominee (must start with http:// or https://)",
                 "adjust_votes": "Adjust Votes",
                 "vote_adjustment_title": "Vote Adjustment",
                 "real_votes": "Real Votes",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} votes",
                 "votes_unlimited": "{count} votes"
             },
+            "nominee": {
+                "open_link": "Open link in new tab"
+            },
             "other": {
                 "suggest": "Suggest Other",
                 "click_to_suggest": "Click to suggest a nominee",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "You can only vote for {limit} nominees in this category.",
                 "vote_quota_exhausted": "You have used all your available votes/suggestions for this category.",
                 "cannot_delete_processed_suggestion": "Only pending suggestions can be cancelled.",
+                "already_voted": "You have already voted for this nominee.",
                 "not_available": "This award is not available yet."
             }
         },

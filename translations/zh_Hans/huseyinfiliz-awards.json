@@ -61,6 +61,8 @@
                 "image": "图片",
                 "image_url": "图片 URL",
                 "image_url_help": "候选图片的 URL，例如游戏封面或人物照片",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "调整票数",
                 "vote_adjustment_title": "票数调整",
                 "real_votes": "实际票数",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} 票",
                 "votes_unlimited": "{count} 票"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "推荐其他候选",
                 "click_to_suggest": "点击推荐候选",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "此类别最多可投 {limit} 个候选",
                 "vote_quota_exhausted": "你已用完此类别的投票或推荐名额",
                 "cannot_delete_processed_suggestion": "只能取消待审核的推荐",
+                "already_voted": "",
                 "not_available": "此评选尚未开放"
             }
         },
