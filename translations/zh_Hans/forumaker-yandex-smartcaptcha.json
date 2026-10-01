@@ -2,26 +2,26 @@
     "forumaker-yandex-smart-captcha": {
         "admin": {
             "sections": {
-                "keys": "",
-                "protection": ""
+                "keys": "密钥",
+                "protection": "验证设置"
             },
             "settings": {
-                "site_key": "",
-                "site_key_help": "",
-                "server_key": "",
-                "server_key_help": "",
-                "signup": "",
-                "signup_help": "",
-                "signin": "",
-                "signin_help": "",
-                "create_here": "",
-                "here": ""
+                "site_key": "站点密钥",
+                "site_key_help": "公钥",
+                "server_key": "服务器密钥",
+                "server_key_help": "私钥",
+                "signup": "注册时启用",
+                "signup_help": "注册账号时要求完成人机验证",
+                "signin": "登录时启用",
+                "signin_help": "登录时要求完成人机验证",
+                "create_here": "前往 {link} 创建验证码并获取密钥",
+                "here": "这里"
             }
         },
         "forum": {
             "validation": {
-                "captcha_required": "",
-                "captcha_invalid": ""
+                "captcha_required": "请完成人机验证",
+                "captcha_invalid": "请重新完成人机验证"
             }
         }
     }
