@@ -2,121 +2,121 @@
     "forumaker-friendship": {
         "lib": {
             "errors": {
-                "user_not_found": "",
-                "request_not_found": "",
-                "not_friends": "",
-                "self_request": "",
-                "already_friends": ""
+                "user_not_found": "用户不存在",
+                "request_not_found": "好友请求不存在",
+                "not_friends": "你与该用户不是好友",
+                "self_request": "不能向自己发送好友请求",
+                "already_friends": "你们已经是好友"
             }
         },
         "forum": {
             "user": {
-                "friends_tab": "",
-                "friends_count": "",
-                "requests_btn": "",
-                "requests_btn_count": "",
-                "no_friends": "",
-                "friends_hidden": "",
-                "friends_since": "",
-                "load_more": ""
+                "friends_tab": "好友",
+                "friends_count": "{count} 位好友",
+                "requests_btn": "好友请求",
+                "requests_btn_count": "{count} 个请求",
+                "no_friends": "暂无好友",
+                "friends_hidden": "好友列表已隐藏",
+                "friends_since": "于 {date} 成为好友",
+                "load_more": "加载更多"
             },
             "dropdown": {
-                "add_friend_btn": "",
-                "cancel_request_btn": "",
-                "remove_friend_btn": ""
+                "add_friend_btn": "添加好友",
+                "cancel_request_btn": "撤回好友请求",
+                "remove_friend_btn": "删除好友"
             },
             "add_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "添加好友",
+                "text": "要向 {username} 发送好友请求吗？",
+                "confirm_btn": "添加好友",
+                "cancel_btn": "取消",
+                "success": "好友请求已发送"
             },
             "pending_modal": {
-                "text": "",
-                "accept_btn": "",
-                "decline_btn": ""
+                "text": "该用户已经向你发送了好友请求",
+                "accept_btn": "接受请求",
+                "decline_btn": "拒绝"
             },
             "cancel_request_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": ""
+                "title": "撤回好友请求",
+                "text": "要撤回发给 {username} 的好友请求吗？",
+                "confirm_btn": "撤回请求",
+                "cancel_btn": "保留请求"
             },
             "remove_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "删除好友",
+                "text": "要将 {username} 从好友中删除吗？",
+                "confirm_btn": "删除",
+                "cancel_btn": "不删除",
+                "success": "你们已不再是好友"
             },
             "requests_modal": {
-                "title": "",
-                "incoming_tab": "",
-                "outgoing_tab": "",
-                "history_btn": "",
-                "search_placeholder": "",
-                "no_incoming": "",
-                "no_outgoing": "",
-                "accept_btn": "",
-                "decline_btn": "",
-                "cancel_btn": "",
-                "cancel_success": "",
-                "accept_success": ""
+                "title": "好友请求",
+                "incoming_tab": "收到的 - {count}",
+                "outgoing_tab": "发出的 - {count}",
+                "history_btn": "历史记录",
+                "search_placeholder": "搜索用户",
+                "no_incoming": "暂无收到的请求",
+                "no_outgoing": "暂无发出的请求",
+                "accept_btn": "接受",
+                "decline_btn": "拒绝",
+                "cancel_btn": "撤回",
+                "cancel_success": "请求已撤回",
+                "accept_success": "你们已成为好友"
             },
             "history_modal": {
-                "title": "",
-                "empty": "",
-                "load_more": ""
+                "title": "历史记录",
+                "empty": "暂无记录",
+                "load_more": "加载更多"
             },
             "history": {
-                "requested_self": "",
-                "requested_other": "",
-                "cancelled_self": "",
-                "cancelled_other": "",
-                "accepted_self": "",
-                "accepted_other": "",
-                "declined_self": "",
-                "declined_other": "",
-                "removed_self": "",
-                "removed_other": ""
+                "requested_self": "你向 {username} 发送了好友请求",
+                "requested_other": "{username} 向你发送了好友请求",
+                "cancelled_self": "你撤回了发给 {username} 的好友请求",
+                "cancelled_other": "{username} 撤回了好友请求",
+                "accepted_self": "你接受了 {username} 的好友请求",
+                "accepted_other": "{username} 接受了你的好友请求",
+                "declined_self": "你拒绝了 {username} 的好友请求",
+                "declined_other": "{username} 拒绝了你的好友请求",
+                "removed_self": "你将 {username} 从好友中删除",
+                "removed_other": "{username} 将你从好友中删除"
             },
             "notifications": {
-                "requested_text": "",
-                "removed_text": "",
-                "declined_text": ""
+                "requested_text": "{name} 想添加你为好友",
+                "removed_text": "{name} 已将你从好友中删除",
+                "declined_text": "{name} 拒绝了你的好友请求"
             },
             "settings": {
-                "section_label": "",
-                "show_on_usercard": "",
-                "show_in_posts": "",
-                "notify_requested_label": "",
-                "notify_removed_label": "",
-                "notify_declined_label": ""
+                "section_label": "好友",
+                "show_on_usercard": "在个人资料头像旁显示好友数",
+                "show_in_posts": "在帖子头像旁显示好友数",
+                "notify_requested_label": "有人向我发送好友请求",
+                "notify_removed_label": "有人将我从好友中删除",
+                "notify_declined_label": "有人拒绝我的好友请求"
             }
         },
         "admin": {
             "sections": {
-                "badges": "",
-                "history": ""
+                "badges": "徽章",
+                "history": "历史记录"
             },
             "settings": {
-                "badges_intro": "",
-                "show_badge_on_usercard": "",
-                "show_badge_on_usercard_help": "",
-                "show_badge_on_post": "",
-                "show_badge_on_post_help": "",
-                "badge_color": "",
-                "badge_bg_color": "",
-                "event_retention_intro": "",
-                "event_retention_days": "",
-                "event_retention_days_help": ""
+                "badges_intro": "启用后，用户可以在自己的设置中选择是否显示",
+                "show_badge_on_usercard": "在个人资料头像旁显示好友数",
+                "show_badge_on_usercard_help": "显示在个人资料卡片的在线状态和加入日期旁",
+                "show_badge_on_post": "在帖子头像旁显示好友数",
+                "show_badge_on_post_help": "显示在帖子头部的头像旁",
+                "badge_color": "个人资料中的颜色和图标",
+                "badge_bg_color": "帖子中的背景颜色",
+                "event_retention_intro": "系统每天会自动清理过期的好友请求历史记录",
+                "event_retention_days": "历史记录保留天数",
+                "event_retention_days_help": "设为 0 可关闭自动清理，永久保留历史记录"
             },
             "permissions": {
-                "add_friends": "",
-                "view_others": "",
-                "moderate": "",
-                "manage": ""
+                "add_friends": "添加好友",
+                "view_others": "查看其他用户的好友",
+                "moderate": "管理好友关系",
+                "manage": "管理好友关系"
             }
         }
     }
