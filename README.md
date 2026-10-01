@@ -874,6 +874,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-linguist`](https://weblate.rob006.net/projects/flarum/fof-linguist) | [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) |
 | [`fof-links`](https://weblate.rob006.net/projects/flarum/fof-links) | [`fof/links`](https://github.com/FriendsOfFlarum/links) |
 | [`fof-mailing`](https://weblate.rob006.net/projects/flarum/fof-mailing) | [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing) |
+| [`fof-mark-unread`](https://weblate.rob006.net/projects/flarum/fof-mark-unread) | [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) |
 | [`fof-mason`](https://weblate.rob006.net/projects/flarum/fof-mason) | [`fof/mason`](https://github.com/FriendsOfFlarum/mason) |
 | [`fof-masquerade`](https://weblate.rob006.net/projects/flarum/fof-masquerade) | [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) |
 | [`fof-merge-discussions`](https://weblate.rob006.net/projects/flarum/fof-merge-discussions) | [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) |
