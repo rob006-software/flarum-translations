@@ -681,7 +681,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
 	'huseyinfiliz-awards' => [
-		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0-beta.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0/resources/locale/en.yml',
 	],
 	'huseyinfiliz-diff' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0-beta.4/locale/en.yml',
