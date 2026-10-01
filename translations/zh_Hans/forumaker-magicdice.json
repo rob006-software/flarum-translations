@@ -3,20 +3,20 @@
         "admin": {
             "settings": {
                 "section_main": "设置",
-                "clearOnEdit": "编辑帖子时重新生成随机数",
+                "clearOnEdit": "编辑帖子时重新掷骰",
                 "icons": {
-                    "color": "",
-                    "icon": "",
-                    "preview": "",
-                    "d6": "",
-                    "d10": "",
-                    "d20": ""
+                    "color": "颜色",
+                    "icon": "图标类",
+                    "preview": "预览",
+                    "d6": "d6",
+                    "d10": "d10",
+                    "d20": "d20"
                 }
             }
         },
         "forum": {
             "tooltip": {
-                "preview": "保存后随机掷骰"
+                "preview": "保存时随机掷骰"
             },
             "composer": {
                 "rollDie": "魔法骰子"
@@ -25,7 +25,7 @@
                 "diceSkin": {
                     "heading": "骰子样式",
                     "classic": "经典",
-                    "circle": "轨道",
+                    "circle": "环形",
                     "hc": "高对比度",
                     "gradient": "日落",
                     "neon": "霓虹"
