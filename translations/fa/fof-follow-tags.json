@@ -53,29 +53,29 @@
             "user": {
                 "settings": {
                     "heading": "برچسب‌ها را دنبال کن",
-                    "filter_label": "چیزی که به صورت پیش‌فرض در صفحه دنبال کردن‌ها نشان داده می‌شود"
+                    "filter_label": "آنچه به صورت پیش‌گزیده در صفحهٔ پی‌گیری نمایش داده می‌شود"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "محدود کننده پیش‌فرض برای صفحه دنبال‌ کردن‌ها",
+                "following_page_default_label": "پالایش پیش‌گزیدهٔ صفحهٔ پی‌گیری",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "prompt_new_users_label": "",
-                "prompt_new_users_help": "",
-                "prompt_button_on_following_page_label": "",
-                "prompt_tag_strategy_label": "",
+                "prompt_new_users_label": "کاربران جدید را به انتخاب برچسب‌هایی برای پی‌گیری ترغیب کنید",
+                "prompt_new_users_help": "کاربرانی که هنوز انتخاب خود را تأیید نکرده‌اند، با یک پنجرهٔ واشو مواجه خواهند شد که از آن‌ها می‌خواهد برچسب‌ها را پی‌گیری کنند. این پنجره تا زمانی که آن‌ها «ادامه به انجمن» را فشار ندهند، در هر بار بازدید دوباره ظاهر خواهد شد.\n",
+                "prompt_button_on_following_page_label": "نمایش دکمهٔ «انتخاب برچسب‌ها برای پی‌گیری» در صفحهٔ پی‌گیری",
+                "prompt_tag_strategy_label": "برچسب‌های قابل‌ارائه در پنجرهٔ ترغیب",
                 "prompt_tag_strategy_options": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "برچسب‌های اصلی سطح اول",
+                    "primaryAndChildren": "همهٔ برچسب‌های اصلی در هر سطحی",
+                    "primaryAndSecondary": "برچسب‌های اصلی سطح اول و برچسب‌های فرعی",
+                    "secondary": "فقط برچسب‌های فرعی",
+                    "all": "همه برچسب‌ها",
+                    "list": "برچسب‌های انتخاب‌شده در زیر"
                 },
-                "prompt_tag_ids_label": "",
-                "all_discussions_on_following_page_for_guests_label": ""
+                "prompt_tag_ids_label": "برچسب‌های قابل‌ارائه",
+                "all_discussions_on_following_page_for_guests_label": "نمایش همهٔ گفت‌وگوها در صفحهٔ پی‌گیری برای مهمانان"
             },
             "basics": {
                 "following_label": ""
@@ -88,20 +88,20 @@
                 "newDiscussionTag": "[برچسب | برچسب تغییر کرده] {title}"
             },
             "body": {
-                "newDiscussionInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگو با برچسبی که شما دنبال می‌کنید شروع کرده: {discussion_title}\n\nبرای مشاهده این گفت‌وگوی جدید، لینک زیر را بررسی کنید:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newPostInTag": "سلام {recipient_display_name}،\n\n{actor_display_name} یک گفت‌وگوی جدید با برچشبی که شما دنبال می‌کنید ارسال کرده: {discussion_title}\n\nجهت مشاهده فعالیت جدید لینک زیر را بررسی کنید:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nتا زمانی که به روزرسانی نشید، آگاهسازی دیگری در باره این گفت‌وگو دریافت نخواهید کد.\n",
-                "newDiscussionTag": "سلام {recipient_display_name}،\n\n{actor_display_name} برچسب گفت‌وگوی {author_display_name} با عنوان {discussion_title} را به یک برچسب که شما دنبال می‌کنید تغییر داد.\n\nجهت مشاهده گفت‌وگوهای تازه لینک زیر را بررسی کنید:\n{discussion_url}\n"
+                "newDiscussionInTag": "درود {recipient_display_name}،\n\n{actor_display_name} گفت‌وگویی را در برچسبی که پی‌گیری می‌کنید، آغاز کرد: {discussion_title}\n\nبرای مشاهدهٔ این گفت‌وگوی جدید، پیوند زیر را بررسی کنید:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "درود {recipient_display_name}،\n\n{actor_display_name} در گفت‌وگویی از برچسبی که پی‌گیری می‌کنید، فرسته‌ای ارسال کرد:: {discussion_title}\n\nبرای مشاهدهٔ این فعالیت جدید، پیوند زیر را بررسی کنید:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nتا زمانی که به‌روز شوید، دیگر هیچ اعلانی دربارهٔ این گفت‌وگو دریافت نخواهید کرد.\n",
+                "newDiscussionTag": "سلام {recipient_display_name}،\n\n{actor_display_name} برچسب گفت‌وگوی {author_display_name} با عنوان {discussion_title} را به یک برچسب که شما دنبال می‌کنید تغییر داد.\n\nجهت مشاهده گفت‌وگوهای تازه پیوند زیر را بررسی کنید:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "دنبال کردن",
-            "following": "دنبال می‌کند",
-            "hiding": "مخفی می‌کند",
-            "ignoring": "نادیده می‌گیرد",
-            "lurking": "بدون مشارکت دنبال می‌کند",
+            "follow": "پی‌گیری",
+            "following": "پی‌گیری",
+            "hiding": "پنهان‌سازی",
+            "ignoring": "نادیده‌انگاری",
+            "lurking": "بدون مشارکت پی‌میگیرد",
             "filtering_options": {
-                "none": "گفت‌وگوهای دنبال شده",
-                "tags": "برچسب‌های دنبال شده"
+                "none": "گفت‌وگوهای پی‌گرفته",
+                "tags": "برچسب‌های پی‌گیری‌شده"
             }
         }
     },
@@ -110,7 +110,7 @@
             "data": {
                 "tagsubscription": {
                     "export_description": "در صورت وجود، جزئیات سطح اشتراک برای یک برچسب را خروجی می‌دهد.",
-                    "anonymize_description": "اشتراک کاربر برای یک برچسب را پاک می‌کند."
+                    "anonymize_description": "پی‌گیری کاربر از برچسب را حذف می‌کند."
                 }
             }
         }
