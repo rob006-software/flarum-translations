@@ -40,10 +40,10 @@
                 "helpful_a11y_label": "Beiträge mit hilfreichen Anmerkungen",
                 "helpful_empty": "Bisher wurde noch keine Anmerkung als hilfreich bewertet.",
                 "hidden_heading_a11y_label": "Verborgene Anmerkungen",
-                "hidden_description": "",
-                "hidden_a11y_label": "",
-                "hidden_empty": "",
-                "rating_permission_denied": "",
+                "hidden_description": "Diese Anmerkungen sind ausgeblendet und werden nicht öffentlich angezeigt. Du kannst sie im Bereich „Informationen zur Anmerkung“ wiederherstellen oder endgültig löschen.",
+                "hidden_a11y_label": "Liste der ausgeblendeten Anmerkungen",
+                "hidden_empty": "Es gibt gerade keine ausgeblendeten Anmerkungen.",
+                "rating_permission_denied": "Du hast keine Berechtigung, kollektive Anmerkungen zu bewerten.",
                 "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
                 "other_notes": "{count, plural, one {# weitere Anmerkung} other {# weitere Anmerkungen}}",
                 "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
@@ -53,19 +53,19 @@
             "post": {
                 "page_title": "=> ffans-community-notes.ref.rate_note",
                 "modal_title": "=> ffans-community-notes.ref.view_all_notes",
-                "title": "",
-                "description": "",
-                "back_a11y_label": "",
+                "title": "Anmerkungsdetails",
+                "description": "Entscheide anhand des Originalbeitrags und der Quellen, ob diese zusätzlichen Informationen hilfreich sind.",
+                "back_a11y_label": "Zurück zur Liste der kollektiven Anmerkungen",
                 "permission_denied": "",
-                "notes_a11y_label": "",
-                "notes_title": "",
+                "notes_a11y_label": "Alle Anmerkungen für diesen Beitrag",
+                "notes_title": "Kollektive Anmerkungen für diesen Beitrag",
                 "empty": "",
                 "retry_button": "=> ffans-community-notes.ref.retry",
-                "load_more_button": ""
+                "load_more_button": "Mehr Anmerkungen laden"
             },
             "post_link": {
-                "a11y_label": "",
-                "with_number_a11y_label": "",
+                "a11y_label": "Originalbeitrag anzeigen: {title}",
+                "with_number_a11y_label": "Originalbeitrag anzeigen: {title}, Beitrag #{number}",
                 "number": "#{number}"
             },
             "public_note": {
@@ -73,27 +73,27 @@
                 "title": ""
             },
             "note": {
-                "a11y_label": "",
+                "a11y_label": "Details zur kollektiven Anmerkunge",
                 "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
                 "meta_a11y_label": "",
-                "rated_as": "",
+                "rated_as": "Aktuell bewertet <status></status>",
                 "hidden": "=> ffans-community-notes.ref.hidden",
-                "public": "",
-                "not_public": "",
+                "public": "Wird öffentlich mit dem Originalbeitrag angezeigt",
+                "not_public": "Wird nicht öffentlich angezeigt",
                 "drafted_by": "Geschrieben von {author}",
                 "reason": "Begründung: {reason}",
-                "deleted_user": "",
+                "deleted_user": "Gelöschter Benutzer",
                 "contributor": ""
             },
             "status": {
-                "needs_more_ratings": "",
+                "needs_more_ratings": "Benötigt weitere Bewertungen",
                 "helpful": "=> ffans-community-notes.ref.helpful",
                 "not_helpful": "=> ffans-community-notes.ref.not_helpful",
                 "unknown": "Unbekannt"
             },
             "sources": {
                 "a11y_label": "Quellen",
-                "open_in_new_window_a11y_label": ""
+                "open_in_new_window_a11y_label": "(wird in einem neuen Fenster geöffnet)"
             },
             "editor": {
                 "create_title": "=> ffans-community-notes.ref.add_note",
