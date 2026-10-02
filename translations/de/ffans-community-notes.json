@@ -75,7 +75,7 @@
             "note": {
                 "a11y_label": "Details zur kollektiven Anmerkunge",
                 "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
-                "meta_a11y_label": "",
+                "meta_a11y_label": "Informationen zur Anmerkung",
                 "rated_as": "Aktuell bewertet <status></status>",
                 "hidden": "=> ffans-community-notes.ref.hidden",
                 "public": "Wird öffentlich mit dem Originalbeitrag angezeigt",
@@ -83,7 +83,7 @@
                 "drafted_by": "Geschrieben von {author}",
                 "reason": "Begründung: {reason}",
                 "deleted_user": "Gelöschter Benutzer",
-                "contributor": ""
+                "contributor": "Community-Beitragender"
             },
             "status": {
                 "needs_more_ratings": "Benötigt weitere Bewertungen",
@@ -101,51 +101,51 @@
                 "help": "Füge nachprüfbare Hintergründe und Quellen hinzu und vermeide dabei Antworten oder Auseinandersetzungen. Nach dem Absenden wird deine Anmerkung von der Community bewertet.",
                 "create_unavailable": "Du kannst momentan keine kollektive Anmerkung hinzufügen.",
                 "edit_unavailable": "Du kannst momentan keine Anmerkung bearbeiten oder entfernen.",
-                "reason_label": "",
+                "reason_label": "Grund für diese Anmerkung",
                 "reason_placeholder": "Wähle einen Grund",
-                "content_label": "",
+                "content_label": "Inhalt der Anmerkung",
                 "character_count": "{count} / 1000 Zeichen, mindestens 30",
-                "content_help": "",
+                "content_help": "Verwende unformatierten Text. Markdown und BBCode werden nicht unterstützt.",
                 "sources_label": "Quellen (1–5)",
-                "sources_help": "",
-                "source_a11y_label": "",
+                "sources_help": "Gib Links zu überprüfbaren Webseiten unter Verwendung von HTTP oder HTTPS an.",
+                "source_a11y_label": "Quelle {number}",
                 "add_source_button": "Quelle hinzufügen",
-                "add_source_a11y_label": "",
+                "add_source_a11y_label": "Eine Quelle nach Quelle {number} hinzufügen",
                 "remove_source_button": "Quelle entfernen",
                 "remove_source_a11y_label": "Quelle {number} entfernen",
-                "submit_button": "",
+                "submit_button": "Anmerkung absenden",
                 "save_button": "Änderungen speichern",
                 "delete_button": "Anmerkung löschen",
-                "delete_confirmation": "",
-                "created_message": "",
-                "updated_message": "",
-                "deleted_message": "",
+                "delete_confirmation": "Möchtest du diese kollektive Anmerkung wirklich endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "created_message": "Deine kollektive Anmerkung wurde eingereicht und wartet nun auf Bewertungen durch die Community.",
+                "updated_message": "Deine kollektive Anmerkung wurde aktualisiert.",
+                "deleted_message": "Deine kollektive Anmerkung wurde gelöscht.",
                 "errors": {
-                    "reason_required": "",
-                    "content_length": "",
-                    "sources_count": "",
-                    "source_invalid": "",
-                    "source_duplicate": ""
+                    "reason_required": "Bitte wähle einen Grund für diese Anmerkung.",
+                    "content_length": "Die Anmerkung muss 30 bis 1000 Zeichen umfassen.",
+                    "sources_count": "Bitte gib 1–5 Quellen an.",
+                    "source_invalid": "Quellen müssen gültige HTTP- oder HTTPS-URLs sein, die nicht länger als 2048 Zeichen sind.",
+                    "source_duplicate": "Quell-URLs müssen einzigartig sein."
                 }
             },
             "note_reasons": {
-                "missing_context": "",
-                "outdated_information": "",
-                "factual_error": "",
-                "misleading": "",
-                "media_context": "",
-                "other": ""
+                "missing_context": "Wichtiger Kontext fehlt",
+                "outdated_information": "Informationen möglicherweise veraltet",
+                "factual_error": "Enthält einen sachlichen Fehler",
+                "misleading": "Inhalt könnte irreführend sein",
+                "media_context": "Bildern oder Medien fehlt der Kontext",
+                "other": "Anderes"
             },
             "rating": {
                 "title": "=> ffans-community-notes.ref.rate_note",
                 "button": "Findest du das hilfreich?",
-                "button_a11y_label": "",
-                "edit_button_a11y_label": "",
-                "unavailable": "",
+                "button_a11y_label": "Diese kollektive Anmerkung bewerten",
+                "edit_button_a11y_label": "{rating}, bearbeite deine Bewertung",
+                "unavailable": "Du kannst diese Anmerkung derzeit nicht bewerten.",
                 "question": "Ist diese Anmerkung hilfreich?",
-                "reasons_label": "",
-                "submit_button": "",
-                "update_button": "",
+                "reasons_label": "Gründe für deine Bewertung (wähle 1–3)",
+                "submit_button": "Bewertung abgeben",
+                "update_button": "Bewertung aktualisieren",
                 "cancel_button": "=> ffans-community-notes.ref.cancel",
                 "retry_button": "=> ffans-community-notes.ref.retry",
                 "values": {
@@ -160,34 +160,34 @@
                 },
                 "reasons": {
                     "helpful": {
-                        "important_context": "",
-                        "directly_addresses_claim": "",
-                        "clear": "",
-                        "reliable_sources": "",
-                        "neutral": "",
-                        "unique_information": ""
+                        "important_context": "Liefert wichtigen Kontext",
+                        "directly_addresses_claim": "Bezieht sich direkt auf den ursprünglichen Beitrag",
+                        "clear": "Verständlich geschrieben",
+                        "reliable_sources": "Verlässliche Quellen",
+                        "neutral": "Neutrale Formulierung",
+                        "unique_information": "Bietet einzigartige Informationen"
                     },
                     "somewhat_helpful": {
-                        "partially_helpful": "",
-                        "needs_more_context": "",
-                        "mixed_source_quality": "",
-                        "wording_needs_improvement": ""
+                        "partially_helpful": "Manche Inhalte sind hilfreich",
+                        "needs_more_context": "Braucht mehr Kontext",
+                        "mixed_source_quality": "Uneinheitliche Qualität der Quellen",
+                        "wording_needs_improvement": "Formulierung ist verbesserungswürdig"
                     },
                     "not_helpful": {
-                        "incorrect": "",
-                        "unreliable_or_missing_sources": "",
-                        "not_needed": "",
-                        "irrelevant": "",
+                        "incorrect": "Falsche Angaben",
+                        "unreliable_or_missing_sources": "Unzuverlässige oder unzureichende Quellen",
+                        "not_needed": "Die Anmerkung ist nicht erforderlich",
+                        "irrelevant": "Fehlender Bezug zum ursprünglichen Beitrag",
                         "missing_important_context": "",
-                        "opinion_or_speculation": "",
-                        "hostile_or_inflammatory": "",
-                        "unclear": "",
-                        "outdated": ""
+                        "opinion_or_speculation": "Meinung oder Spekulation",
+                        "hostile_or_inflammatory": "Feindselige oder hetzerische Formulierung",
+                        "unclear": "Unklare Formulierung",
+                        "outdated": "Veraltete Informationen"
                     }
                 },
                 "errors": {
-                    "value_required": "",
-                    "reasons_count": "",
+                    "value_required": "Bitte wähle eine Bewertung.",
+                    "reasons_count": "Bitte wähle 1–3 Gründe für deine Bewertung aus.",
                     "reasons_invalid": ""
                 }
             },
