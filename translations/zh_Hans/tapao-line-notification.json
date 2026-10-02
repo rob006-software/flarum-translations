@@ -2,64 +2,64 @@
     "tapao-line-notification": {
         "forum": {
             "settings": {
-                "line_section_heading": "",
-                "line_connect_button": "",
-                "line_disconnect_button": "",
-                "line_connected_as": "",
-                "line_linking_description": "",
-                "line_disconnect_confirm": "",
-                "line_error": ""
+                "line_section_heading": "LINE 通知",
+                "line_connect_button": "绑定 LINE",
+                "line_disconnect_button": "解除 LINE 绑定",
+                "line_connected_as": "已绑定：{name}",
+                "line_linking_description": "绑定 LINE 账号，通过 LINE 接收论坛通知。",
+                "line_disconnect_confirm": "确定要解除 LINE 账号绑定吗？",
+                "line_error": "LINE 绑定失败：{error}"
             }
         },
         "admin": {
             "settings": {
-                "line_heading": "",
-                "line_login_channel_id_label": "",
-                "line_login_channel_id_help": "",
-                "line_login_channel_secret_label": "",
-                "line_login_channel_secret_help": "",
-                "line_messaging_token_label": "",
-                "line_messaging_token_help": "",
-                "line_messaging_channel_secret_label": "",
-                "line_messaging_channel_secret_help": "",
-                "flex_header_color_label": "",
-                "flex_header_color_help": "",
-                "flex_button_color_label": "",
-                "flex_button_color_help": "",
-                "flex_title_color_label": "",
-                "flex_title_color_help": "",
-                "use_first_image_as_thumbnail_label": "",
-                "use_first_image_as_thumbnail_help": "",
-                "disabled_notification_types_label": "",
-                "disabled_notification_types_help": ""
+                "line_heading": "LINE 通知",
+                "line_login_channel_id_label": "LINE Login Channel ID",
+                "line_login_channel_id_help": "LINE Developers Console 中 LINE Login Channel 的 Channel ID。",
+                "line_login_channel_secret_label": "LINE Login Channel Secret",
+                "line_login_channel_secret_help": "LINE Login Channel 的 Channel Secret。",
+                "line_messaging_token_label": "Messaging API Channel Access Token",
+                "line_messaging_token_help": "Messaging API Channel 的长期有效 Channel Access Token。",
+                "line_messaging_channel_secret_label": "Messaging API Channel Secret",
+                "line_messaging_channel_secret_help": "Messaging API Channel 的 Channel Secret，用于验证 Webhook 签名。",
+                "flex_header_color_label": "Flex Message 顶部颜色",
+                "flex_header_color_help": "通知顶部栏的背景颜色。默认：#06C755（LINE 绿色）。",
+                "flex_button_color_label": "Flex Message 按钮颜色",
+                "flex_button_color_help": "通知中操作按钮的颜色。默认：#06C755（LINE 绿色）。",
+                "flex_title_color_label": "Flex Message 标题颜色",
+                "flex_title_color_help": "通知正文中讨论标题的文字颜色。默认：#111111。",
+                "use_first_image_as_thumbnail_label": "使用首张图片作为缩略图",
+                "use_first_image_as_thumbnail_help": "帖子包含图片时，将首张图片作为 Flex Message 主图。",
+                "disabled_notification_types_label": "禁用的通知类型",
+                "disabled_notification_types_help": "填写不通过 LINE 发送的通知类型，以英文逗号分隔，例如 <code>postMentioned, postLiked, newPost, discussionCreated</code>。这些通知类型的 LINE 开关也不会展示在用户设置中。"
             }
         },
         "lib": {
             "notification": {
-                "line_driver_label": ""
+                "line_driver_label": "LINE"
             },
             "line_message": {
-                "notification_postMentioned": "",
-                "notification_userMentioned": "",
-                "notification_postLiked": "",
-                "notification_newPost": "",
-                "notification_privateDiscussion": "",
-                "notification_default": "",
-                "view_post_button": "",
-                "fallback_title": "",
-                "notification_from_user": "",
-                "connection_success_header": "",
-                "connection_success_greeting_name": "",
-                "connection_success_greeting": "",
-                "connection_success_body": "",
-                "connection_success_features_intro": "",
-                "connection_success_feature_mention": "",
-                "connection_success_feature_user_mention": "",
-                "connection_success_feature_like": "",
-                "connection_success_feature_new_post": "",
-                "connection_success_settings_hint": "",
-                "connection_success_open_forum": "",
-                "connection_success_alt_text": ""
+                "notification_postMentioned": "💬 有人提及了你的帖子",
+                "notification_userMentioned": "📣 有人提及了你",
+                "notification_postLiked": "❤️ 有人点赞了你的帖子",
+                "notification_newPost": "🔔 你关注的讨论有新回复",
+                "notification_privateDiscussion": "✉️ 你收到了一条私密回复",
+                "notification_default": "🔔 来自 {forum} 的新通知",
+                "view_post_button": "查看帖子",
+                "fallback_title": "新通知",
+                "notification_from_user": "来自 {user}",
+                "connection_success_header": "✅ 绑定成功",
+                "connection_success_greeting_name": "你好，{name}！",
+                "connection_success_greeting": "你好！",
+                "connection_success_body": "你的 LINE 账号已绑定到 {forum}（用户名：{username}）。",
+                "connection_success_features_intro": "以下情况会通过 LINE 向你发送论坛通知：",
+                "connection_success_feature_mention": "💬 有人提及你的帖子",
+                "connection_success_feature_user_mention": "📣 有人提及你",
+                "connection_success_feature_like": "❤️ 有人点赞你的帖子",
+                "connection_success_feature_new_post": "🔔 你关注的讨论有新回复",
+                "connection_success_settings_hint": "你可以在设置页面管理通知。",
+                "connection_success_open_forum": "打开 {forum}",
+                "connection_success_alt_text": "✅ LINE 账号已绑定到 {forum}"
             }
         }
     }
