@@ -1,20 +1,20 @@
 {
     "sycho-ace": {
         "admin": {
-            "extensions": "扩展程序",
+            "extensions": "扩展",
             "category_selection": {
-                "label": "分类",
+                "label": "分类方式",
                 "options": {
                     "default": "默认",
-                    "vendor": "供应商",
-                    "none": "无",
+                    "vendor": "开发者",
+                    "none": "不分类",
                     "availability": "启用状态"
                 }
             },
             "categories": {
-                "none": "A-Z",
-                "enabled": "启用",
-                "disabled": "禁用"
+                "none": "A–Z",
+                "enabled": "已启用",
+                "disabled": "已停用"
             }
         }
     }
