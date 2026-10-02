@@ -2,28 +2,28 @@
     "peopleinside-powcaptcha": {
         "admin": {
             "settings": {
-                "enabled_login_label": "",
-                "enabled_login_help": "",
-                "enabled_signup_label": "",
-                "enabled_signup_help": "",
-                "enabled_forgot_label": "",
-                "enabled_forgot_help": "",
-                "difficulty_label": "",
-                "difficulty_help": "",
-                "difficulty_3": "",
-                "difficulty_4": "",
-                "difficulty_5": ""
+                "enabled_login_label": "登录验证",
+                "enabled_login_help": "在登录时启用 PoW 安全验证。",
+                "enabled_signup_label": "注册验证",
+                "enabled_signup_help": "在注册时启用 PoW 安全验证。",
+                "enabled_forgot_label": "重置密码验证",
+                "enabled_forgot_help": "在忘记密码时启用 PoW 安全验证。",
+                "difficulty_label": "验证难度",
+                "difficulty_help": "难度越高，机器人完成验证所需的计算量越大。等级 1 可能会被部分机器人绕过（约 100 毫秒）；等级 2 可提供更好的防护，默认推荐值（约 1 秒）；等级 3 会进一步提高机器人的计算成本，以增强防护（约 10 秒）。",
+                "difficulty_3": "等级 1 - 低（约 100 毫秒）",
+                "difficulty_4": "等级 2 - 中（约 1 秒）",
+                "difficulty_5": "等级 3 - 高（约 10 秒）"
             }
         },
         "forum": {
-            "solving": "",
-            "verified": "",
-            "error": "",
-            "retry": "",
-            "challenge_not_ready": ""
+            "solving": "正在完成安全验证…",
+            "verified": "安全验证已通过",
+            "error": "安全验证失败，请重试。",
+            "retry": "重试",
+            "challenge_not_ready": "安全验证仍在进行中或尚未完成，请稍候。"
         },
         "validation": {
-            "pow_captcha": ""
+            "pow_captcha": "安全验证未通过，请重试。"
         }
     }
 }
