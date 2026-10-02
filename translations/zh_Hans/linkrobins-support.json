@@ -25,8 +25,8 @@
                 "column_name": "名称",
                 "column_slug": "固定链接名",
                 "column_type": "类型",
-                "column_assignee": "",
-                "assignee_all_staff": "",
+                "column_assignee": "处理人",
+                "assignee_all_staff": "所有支持人员",
                 "column_tickets": "工单",
                 "general_badge": "普通",
                 "appeal_badge": "申诉",
@@ -50,12 +50,12 @@
                 "field_position_help": "分类按此值升序排列，数值越小越靠前。",
                 "field_is_appeal": "封禁申诉分类",
                 "field_is_appeal_help": "在此分类中提交的工单将作为封禁申诉处理。",
-                "field_default_assignee": "",
-                "field_default_assignee_none": "",
-                "field_default_assignee_help": "",
-                "field_default_assignee_loading": "",
-                "field_default_assignee_unavailable": "",
-                "field_default_assignee_error": "",
+                "field_default_assignee": "新工单指派给",
+                "field_default_assignee_none": "不指定处理人 — 通知所有支持人员",
+                "field_default_assignee_help": "此分类中的新工单会自动指派给所选人员，并且只有所选人员会收到通知。选择「不指定处理人」则会通知所有支持人员，由最先回复的人接手工单。",
+                "field_default_assignee_loading": "正在加载支持人员…",
+                "field_default_assignee_unavailable": "{name}（已不是支持人员）",
+                "field_default_assignee_error": "无法加载支持人员列表，你的设置保持不变。",
                 "submit_create": "创建分类",
                 "submit_update": "保存更改",
                 "error_load": "无法加载此分类。",
@@ -73,14 +73,14 @@
                 "view_banned_button": "查看申诉受限用户"
             },
             "navigation": {
-                "heading": "",
-                "intro": "",
-                "in_sidebar": "",
-                "in_sidebar_help": "",
-                "in_account_menu": "",
-                "in_account_menu_help": "",
-                "forum_nav": "",
-                "forum_nav_help": ""
+                "heading": "导航",
+                "intro": "设置「支持」入口的显示位置，以及支持页面侧边栏中显示的内容。",
+                "in_sidebar": "在论坛侧边栏显示「支持」入口",
+                "in_sidebar_help": "与「全部讨论」和「标签」等入口并列显示。无论是否启用，只有登录用户可以使用支持功能，访客无法提交工单。",
+                "in_account_menu": "在头像菜单中显示「支持」入口",
+                "in_account_menu_help": "显示在头像菜单中，与「个人主页」和「设置」等入口并列。",
+                "forum_nav": "在支持页面显示论坛导航",
+                "forum_nav_help": "启用后，支持页面的工单筛选上方还会显示「全部讨论」「关注」和「标签」。默认关闭，支持页面只显示工单相关内容。"
             },
             "rate_limits": {
                 "heading": "频率限制",
@@ -114,17 +114,17 @@
                 "reply_generic": "支持人员回复了你的工单",
                 "new_ticket": "{name} 提交了新的支持工单",
                 "new_appeal": "{name} 提交了新的申诉",
-                "status_changed": "",
-                "status_changed_generic": "",
-                "reopened_by_owner": "",
-                "assigned": "",
-                "assigned_generic": ""
+                "status_changed": "你的工单已标记为「{status}」",
+                "status_changed_generic": "工单已标记为「{status}」",
+                "reopened_by_owner": "{name} 重新开启了自己的工单",
+                "assigned": "{name} 将工单指派给了你",
+                "assigned_generic": "有工单已指派给你"
             },
             "settings": {
                 "notify_new_reply_label": "有人回复我的支持工单",
                 "notify_new_ticket_label": "有新的支持工单提交（工作人员）",
-                "notify_status_changed_label": "",
-                "notify_assigned_label": ""
+                "notify_status_changed_label": "支持工单状态发生变化",
+                "notify_assigned_label": "有支持工单指派给我"
             },
             "status": {
                 "in_progress": "处理中",
@@ -265,14 +265,14 @@
             "ticket_type_general": "支持工单",
             "new_ticket_body": "{name} 刚刚提交了新的{type}：",
             "open_ticket": "查看工单",
-            "status_changed_subject": "",
-            "status_changed_body": "",
-            "assigned_subject": "",
-            "assigned_body": ""
+            "status_changed_subject": "[{subject}] 已标记为「{status}」",
+            "status_changed_body": "你的支持工单已标记为「{status}」。",
+            "assigned_subject": "已指派给你：{subject}",
+            "assigned_body": "{name} 将此支持工单指派给了你。"
         },
         "api": {
             "assign_staff_only": "工单只能指派给支持人员。",
-            "default_assignee_staff_only": "",
+            "default_assignee_staff_only": "分类的默认处理人只能是支持人员。",
             "category_required": "必须选择分类。",
             "subject_required": "必须填写主题。",
             "ticket_soft_delete_first": "工单必须先删除，才能永久移除。",
