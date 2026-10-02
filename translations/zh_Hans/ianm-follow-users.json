@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "followuser": {
-                    "export_description": "导出已关注用户及被关注用户的详细信息。",
+                    "export_description": "导出用户关注与被关注关系的详细信息。",
                     "anonymize_description": "=> flarum-gdpr.lib.data.followuser.delete_description",
-                    "delete_description": "删除与关注用户相关的所有数据。"
+                    "delete_description": "删除所有用户关注关系数据。"
                 }
             }
         }
@@ -13,23 +13,23 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "follow_label": "",
-                "be_followed_label": "允许用户关注他人",
-                "view_followed_users_label": ""
+                "follow_label": "允许关注他人",
+                "be_followed_label": "允许他人关注自己",
+                "view_followed_users_label": "查看用户关注关系"
             },
             "settings": {
-                "button-on-profile-label": "在用户资料卡片头部区域展示关注按钮",
-                "stats-on-profile-label": "在用户资料中展示追随和粉丝数量"
+                "button-on-profile-label": "在个人主页顶部显示「关注」按钮",
+                "stats-on-profile-label": "在个人主页显示粉丝和关注数量"
             }
         },
         "forum": {
-            "followed": "追随",
-            "followers": "粉丝",
+            "followed": "已关注",
+            "followers": "{count} 粉丝",
             "profile_link": "=> ianm-follow-users.lib.following_link",
-            "followers_link": "我的粉丝",
+            "followers_link": "关注者",
             "profile_page": {
-                "no_following": "您还没有关注任何人。",
-                "no_followers": "还没有人关注您。"
+                "no_following": "你还没有关注任何人",
+                "no_followers": "还没有人关注你"
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
@@ -39,8 +39,8 @@
             "settings": {
                 "notify_new_follower_label": "有人关注我",
                 "notify_new_unfollower_label": "有人取关我",
-                "notify_new_discussion_label": "我关注的人发布了新讨论",
-                "notify_new_post_label": "我关注的人发表了新回复",
+                "notify_new_discussion_label": "我关注的人发起讨论",
+                "notify_new_post_label": "我关注的人在回帖",
                 "block_follow": "禁止他人关注我"
             },
             "index": {
@@ -48,28 +48,28 @@
                 "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "{username} 发布了新讨论",
-                "new_post_text": "{username} 在讨论中发表了回复",
+                "new_discussion_text": "{username} 发起讨论",
+                "new_post_text": "{username} 回帖",
                 "new_follower_text": "{username} 关注了你",
                 "new_unfollower_text": "{username} 取消关注了你"
             },
             "badge": {
                 "label": {
                     "follow": "关注讨论",
-                    "lurk": "特别关注"
+                    "lurk": "关注全部动态"
                 }
             },
             "filter": {
-                "following": "已关注的用户"
+                "following": "已关注用户"
             },
             "modals": {
                 "select_follow_level": {
                     "title": "选择对 {username} 的关注方式",
-                    "description": "您想要如何关注 <em>{username}</em>。",
-                    "follow_levels_heading": "关注级别",
-                    "follow_select_label": "关注类型",
-                    "no_user_attr_provided_err": "哎呀，打开弹窗时发生了错误。",
-                    "no_user_attr_provided_err_debug": "创建选择关注级别 (SelectFollowUserLevel) 弹窗时未传入 `user` 用户属性，因此弹窗无法渲染。",
+                    "description": "你想如何关注 <em>{username}</em>。",
+                    "follow_levels_heading": "关注方式",
+                    "follow_select_label": "关注方式",
+                    "no_user_attr_provided_err": "哎呀，打开弹窗时出了点问题。",
+                    "no_user_attr_provided_err_debug": "创建 SelectFollowUserLevel 窗口时未传入 `user` 属性，无法渲染窗口。",
                     "save_btn": "保存",
                     "cancel_btn": "取消"
                 }
@@ -77,55 +77,55 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "{user_display_name} 发布了新讨论",
+                "subject": "{user_display_name} 发起了讨论",
                 "plain": {
-                    "body": "{user_display_name} 发布了新讨论：{discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+                    "body": "{user_display_name} 发起了新讨论：{discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": "{user_display_name} 发布了新讨论：[{discussion_title}]({discussion_url})。"
+                    "body": "{user_display_name} 发起了新讨论：[{discussion_title}]({discussion_url})。"
                 }
             },
             "new_follower": {
-                "subject": "{follower_display_name} 关注了您",
+                "subject": "{follower_display_name} 关注了你",
                 "plain": {
-                    "body": "{follower_display_name} 开始关注您，当您发布新讨论时他们将收到通知。\n\n{profile_url}\n"
+                    "body": "{follower_display_name} 关注了你，对方会在你发起新讨论时收到通知。\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": "{follower_display_name} 开始关注您，当您发布新讨论时他们将收到通知。"
+                    "body": "{follower_display_name} 关注了你，对方会在你发起新讨论时收到通知。"
                 }
             },
             "new_post": {
-                "subject": "{user_display_name} 在 {discussion_title} 中发表了回复",
+                "subject": "{user_display_name} 在「{discussion_title}」中回帖了",
                 "plain": {
-                    "body": "{user_display_name} 在 {discussion_title} 中发表了回复。\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n当您跟上该讨论的进度后，将不再收到关于此讨论的通知。\n"
+                    "body": "{user_display_name} 在「{discussion_title}」中回帖了。\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在你查看最新内容前，不会再次收到此讨论的新通知。\n"
                 },
                 "html": {
-                    "body": "{user_display_name} 在 [{discussion_title}]({post_url}) 中发表了回复。"
+                    "body": "{user_display_name} 在 [{discussion_title}]({post_url}) 中回帖了。"
                 }
             }
         },
         "lib": {
-            "following_link": "我的关注",
+            "following_link": "我关注的用户",
             "follow": "关注",
-            "change_follow_type": "修改关注类型",
+            "change_follow_type": "更改关注方式",
             "unfollow": "取消关注",
             "follow_levels": {
                 "unfollow": {
-                    "name": "取消关注",
-                    "description": "不接收 <em>{username}</em> 的任何活动通知。\n"
+                    "name": "不关注",
+                    "description": "不接收 <em>{username}</em> 的任何动态通知\n"
                 },
                 "follow": {
                     "name": "关注讨论",
-                    "description": "当 <em>{username}</em> 发布新讨论时接收通知。\n"
+                    "description": "当 <em>{username}</em> 发起新讨论时接收通知\n"
                 },
                 "lurk": {
-                    "name": "特别关注",
-                    "description": "当 <em>{username}</em> 发布新讨论或在任意讨论中发表回复时接收通知。\n"
+                    "name": "关注全部动态",
+                    "description": "当 <em>{username}</em> 发起新讨论或在其他讨论中回帖时接收通知\n"
                 }
             },
             "gambits": {
                 "followeduser": {
-                    "key": "followeduser"
+                    "key": "我关注的用户"
                 }
             }
         }
