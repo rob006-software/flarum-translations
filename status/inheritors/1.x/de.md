@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **2** are translated differently and **19** are
-translated only in `de`. Altogether they cover **2** components.
+sides, but do not match between them: **3** are translated differently and **19** are
+translated only in `de`. Altogether they cover **3** components.
 
 <!-- {% raw %} -->
 
@@ -14,6 +14,7 @@ translated only in `de`. Altogether they cover **2** components.
 | --- | --- | --- |
 | `core` | [2](#core) | 0 |
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
+| `flarum-pusher` | [1](#flarum-pusher) | 0 |
 
 
 ## Different translations
@@ -42,6 +43,18 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 {count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Markiere ungelesene</del><ins>Ungelesene</ins> {count, plural, one {Antwort} other {Antworten}} als <del>gelesen.</del><ins>gelesen markieren.</ins>
+
+
+### `flarum-pusher`
+
+#### [`flarum-pusher.admin.pusher_settings.app_secret_label`](https://weblate.rob006.net/translate/flarum2/flarum-pusher/de/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_secret_label%22)
+
+> App Secret
+
+```diff
+-App Secret
++App-Secret
+```
 
 
 ## Missing translations

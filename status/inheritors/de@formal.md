@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **371** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **54** components.
+sides, but do not match between them: **360** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **52** components.
 
 <!-- {% raw %} -->
 
@@ -12,12 +12,11 @@ translated only in `de@formal`. Altogether they cover **54** components.
 
 | Component | Different translations |
 | --- | --- |
-| `acpl-my-tags` | [3](#acpl-my-tags) |
-| `core` | [98](#core) |
+| `acpl-my-tags` | [2](#acpl-my-tags) |
+| `core` | [97](#core) |
 | `datitisev-backup` | [18](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
-| `datlechin-copy-links` | [1](#datlechin-copy-links) |
 | `datlechin-link-preview` | [1](#datlechin-link-preview) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
@@ -29,7 +28,6 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `flarum-mentions` | [10](#flarum-mentions) |
 | `flarum-messages` | [2](#flarum-messages) |
 | `flarum-nicknames` | [2](#flarum-nicknames) |
-| `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-statistics` | [1](#flarum-statistics) |
 | `flarum-subscriptions` | [3](#flarum-subscriptions) |
 | `flarum-suspend` | [5](#flarum-suspend) |
@@ -59,10 +57,10 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `fof-sitemap` | [1](#fof-sitemap) |
 | `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [19](#fof-upload) |
-| `fof-username-request` | [26](#fof-username-request) |
+| `fof-username-request` | [20](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `ianm-follow-users` | [6](#ianm-follow-users) |
-| `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) |
+| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
@@ -75,25 +73,16 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ### `acpl-my-tags`
 
-#### [`acpl-my-tags.admin.settings.enable-placeholder`](https://weblate.rob006.net/translate/flarum2/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.admin.settings.enable-placeholder%22)
-
-> Enable placeholder text when the user is not following any tags
-
-```diff
--Platzhaltertext aktivieren, wenn der Benutzer keinen Tags folgt
-+Platzhaltertext aktivieren, wenn der Benutzer keinen Themen folgt
-```
-
-Platzhaltertext aktivieren, wenn der Benutzer keinen <del>Tags</del><ins>Themen</ins> folgt
-
 #### [`acpl-my-tags.forum.index.my_tags`](https://weblate.rob006.net/translate/flarum2/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.forum.index.my_tags%22)
 
 > My tags
 
 ```diff
 -Meine Tags
-+Ihre Themen
++Ihre Tags
 ```
+
+<del>Meine</del><ins>Ihre</ins> Tags
 
 #### [`acpl-my-tags.forum.index.placeholder`](https://weblate.rob006.net/translate/flarum2/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.forum.index.placeholder%22)
 
@@ -101,10 +90,10 @@ Platzhaltertext aktivieren, wenn der Benutzer keinen <del>Tags</del><ins>Themen<
 
 ```diff
 -Du folgst noch keinen Tags. <a>Siehe Tags</a>
-+Sie haben noch keine Themen. <a>Siehe Themen </a>
++Sie haben noch keine Tags. <a>Siehe Tags </a>
 ```
 
-<del>Du</del><ins>Sie</ins> <del>folgst</del><ins>haben</ins> noch <del>keinen</del><ins>keine</ins> <del>Tags.</del><ins>Themen.</ins> &lt;a&gt;Siehe <del>Tags&lt;/a&gt;</del><ins>Themen &lt;/a&gt;</ins>
+<del>Du</del><ins>Sie</ins> <del>folgst</del><ins>haben</ins> noch <del>keinen</del><ins>keine</ins> Tags. &lt;a&gt;Siehe <del>Tags&lt;/a&gt;</del><ins>Tags &lt;/a&gt;</ins>
 
 
 ### `core`
@@ -264,15 +253,6 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 ```
 
 <del>Lade</del><ins>Laden Sie</ins> ein Bild hoch, welches als Favicon für das Forum verwendet wird.
-
-#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
-
-> Logo
-
-```diff
--Logo
-+Firmenzeichen
-```
 
 #### [`core.admin.appearance.logo_text`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_text%22)
 
@@ -1550,20 +1530,6 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 ```
 
 
-### `datlechin-copy-links`
-
-#### [`datlechin-copy-links.forum.link_copied_message`](https://weblate.rob006.net/translate/flarum2/datlechin-copy-links/de@formal/?q=context%3A%3D%22datlechin-copy-links.forum.link_copied_message%22)
-
-> Link copied to clipboard!
-
-```diff
--Link in Zwischenablage gespeichert!
-+Link in der Zwischenablage gespeichert!
-```
-
-Link in <ins>der </ins>Zwischenablage gespeichert!
-
-
 ### `datlechin-link-preview`
 
 #### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_label`](https://weblate.rob006.net/translate/flarum2/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_label%22)
@@ -2261,18 +2227,6 @@ Jemand hat <del>dich</del><ins>Sie</ins> in einem Beitrag erwähnt
 ```
 
 Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dich</del><ins>Sie sich</ins> an <del>deinen</del><ins>Ihren</ins> Forenadministrator, um weitere Informationen zu den Regeln für Spitznamen zu erhalten.
-
-
-### `flarum-pusher`
-
-#### [`flarum-pusher.admin.pusher_settings.app_secret_label`](https://weblate.rob006.net/translate/flarum2/flarum-pusher/de@formal/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_secret_label%22)
-
-> App Secret
-
-```diff
--App Secret
-+App-Secret
-```
 
 
 ### `flarum-statistics`
@@ -4209,15 +4163,6 @@ Dateien hochladen (Basisberechtigung, <del>erforderlich </del>für alle <del>Upl
 
 Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderung <del>deines</del><ins>Ihres</ins> Spitznamens den Forenrichtlinien entspricht.
 
-#### [`fof-username-request.forum.nickname_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.reason_title%22)
-
-> Reason for Rejection
-
-```diff
--Grund für die Ablehnung
-+Ablehnungsgrund
-```
-
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
 
 > Your nickname change request has been submitted and is pending approval.
@@ -4235,10 +4180,10 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 ```diff
 -Du hast bereits eine offene Anfrage deinen Spitznamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
-+Sie haben bereits eine offene Anfrage zur Änderung deinen Spitznamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
++Sie haben bereits eine offene Anfrage zur Änderung Ihres Spitznamens zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Spitznamens</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
@@ -4250,15 +4195,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 <del>Spitznamenanfrage</del><ins>Anfrage zum Spitznamen</ins> gelöscht.
-
-#### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
-
-> Request Nickname Change
-
-```diff
--=> fof-username-request.ref.nickname_change_request
-+Änderung des Spitznamens anfordern
-```
 
 #### [`fof-username-request.forum.nickname_modals.results.approved`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.approved%22)
 
@@ -4293,15 +4229,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 <del>Zu diesem Zeitpunkt kannst du, wenn</del><ins>Sie</ins> <del>du</del><ins>können</ins> <del>möchtest,</del><ins>jetzt</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Spitznamens <del>stellen.</del><ins>stellen, falls Sie dies wünschen.</ins>
 
-#### [`fof-username-request.forum.username_modals.action.approval_label`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.approval_label%22)
-
-> Approve
-
-```diff
--Akzeptieren
-+Genehmigen
-```
-
 #### [`fof-username-request.forum.username_modals.action.help_text`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.help_text%22)
 
 > Please make sure that this requested username change follows the forum guidelines.
@@ -4312,26 +4239,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.
-
-#### [`fof-username-request.forum.username_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.reason_title%22)
-
-> Reason for Rejection
-
-```diff
--Grund für die Ablehnung
-+Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
-
-> Decision sent.
-
-```diff
--Entscheidung gesendet.
-+Entscheidung versendet.
-```
-
-Entscheidung <del>gesendet.</del><ins>versendet.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
@@ -4365,15 +4272,6 @@ Entscheidung <del>gesendet.</del><ins>versendet.</ins>
 ```
 
 <del>Benutzernamenanfrage</del><ins>Anfrage auf Änderung des Benutzernamens wurde</ins> gelöscht.
-
-#### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
-
-> Request Username Change
-
-```diff
--=> fof-username-request.ref.username_change_request
-+Änderung des Benutzernamens beantragen
-```
 
 #### [`fof-username-request.forum.username_modals.results.approved`](https://weblate.rob006.net/translate/flarum2/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.approved%22)
 
@@ -4539,19 +4437,10 @@ Anscheinend <del>folgst</del><ins>folgen</ins> <del>du</del><ins>Sie</ins> niema
 
 ```diff
 -Verwende das dunklen Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
-+Verwende das dunkle Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
++Verwende das dunkle Design für das hCaptcha-Widget. Aktivieren Sie diese Option, wenn Ihr Forum ein dunkles Design verwendet.
 ```
 
-Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
-
-#### [`ralkage-hcaptcha.admin.settings.dark_mode_label`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_label%22)
-
-> Dark Mode
-
-```diff
--Dunkles Design
-+Dunkler Modus
-```
+Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. <del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum ein dunkles Design verwendet.
 
 #### [`ralkage-hcaptcha.admin.settings.enable_login_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.enable_login_help%22)
 

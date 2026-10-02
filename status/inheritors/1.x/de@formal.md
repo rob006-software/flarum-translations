@@ -12,9 +12,9 @@ translated only in `de@formal`. Altogether they cover **3** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [1](#core) | 0 |
+| `core` | [2](#core) | 0 |
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
-| `ralkage-hcaptcha` | [3](#ralkage-hcaptcha) | 0 |
+| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
 
 
 ## Different translations
@@ -23,6 +23,15 @@ Each entry contains the English source string, followed by a diff between the tr
 
 
 ### `core`
+
+#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
+
+> Logo
+
+```diff
+-Firmenzeichen
++Logo
+```
 
 #### [`core.forum.discussion_controls.log_in_to_reply_button`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.discussion_controls.log_in_to_reply_button%22)
 
@@ -42,19 +51,10 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ```diff
 -Verwende das dunklen Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
-+Verwende das dunkle Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
++Verwende das dunkle Design für das hCaptcha-Widget. Aktivieren Sie diese Option, wenn Ihr Forum ein dunkles Design verwendet.
 ```
 
-Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
-
-#### [`ralkage-hcaptcha.admin.settings.dark_mode_label`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_label%22)
-
-> Dark Mode
-
-```diff
--Dunkles Design
-+Dunkler Modus
-```
+Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. <del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum ein dunkles Design verwendet.
 
 #### [`ralkage-hcaptcha.admin.settings.enable_login_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.enable_login_help%22)
 
