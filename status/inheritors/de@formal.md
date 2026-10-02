@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **337** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **59** components.
+sides, but do not match between them: **317** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
 
@@ -12,16 +12,15 @@ translated only in `de@formal`. Altogether they cover **59** components.
 
 | Component | Different translations |
 | --- | --- |
-| `acpl-my-tags` | [3](#acpl-my-tags) |
+| `acpl-my-tags` | [2](#acpl-my-tags) |
 | `blomstra-fontawesome` | [1](#blomstra-fontawesome) |
 | `blomstra-oauth-apple` | [1](#blomstra-oauth-apple) |
-| `clarkwinkelmann-emojionearea` | [2](#clarkwinkelmann-emojionearea) |
+| `clarkwinkelmann-emojionearea` | [1](#clarkwinkelmann-emojionearea) |
 | `core` | [79](#core) |
 | `datitisev-backup` | [14](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
-| `datlechin-copy-links` | [1](#datlechin-copy-links) |
-| `datlechin-link-preview` | [15](#datlechin-link-preview) |
+| `datlechin-link-preview` | [5](#datlechin-link-preview) |
 | `davwheat-share` | [1](#davwheat-share) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
@@ -59,7 +58,7 @@ translated only in `de@formal`. Altogether they cover **59** components.
 | `fof-sitemap` | [1](#fof-sitemap) |
 | `fof-socialprofile` | [2](#fof-socialprofile) |
 | `fof-upload` | [5](#fof-upload) |
-| `fof-username-request` | [24](#fof-username-request) |
+| `fof-username-request` | [18](#fof-username-request) |
 | `forumaker-magicbb` | [1](#forumaker-magicbb) |
 | `ianm-follow-users` | [3](#ianm-follow-users) |
 | `ianm-level-ranks` | [1](#ianm-level-ranks) |
@@ -69,7 +68,6 @@ translated only in `de@formal`. Altogether they cover **59** components.
 | `nearata-maintenance-mode` | [2](#nearata-maintenance-mode) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `sycho-force-password-reset` | [3](#sycho-force-password-reset) |
-| `tryhackx-homepage-blocks` | [1](#tryhackx-homepage-blocks) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
 
 
@@ -80,25 +78,16 @@ Each entry contains the English source string, followed by a diff between the tr
 
 ### `acpl-my-tags`
 
-#### [`acpl-my-tags.admin.settings.enable-placeholder`](https://weblate.rob006.net/translate/flarum/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.admin.settings.enable-placeholder%22)
-
-> Enable placeholder text when the user is not following any tags
-
-```diff
--Platzhaltertext aktivieren, wenn der Benutzer keinen Tags folgt
-+Platzhaltertext aktivieren, wenn der Benutzer keinen Themen folgt
-```
-
-Platzhaltertext aktivieren, wenn der Benutzer keinen <del>Tags</del><ins>Themen</ins> folgt
-
 #### [`acpl-my-tags.forum.index.my_tags`](https://weblate.rob006.net/translate/flarum/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.forum.index.my_tags%22)
 
 > My tags
 
 ```diff
 -Meine Tags
-+Ihre Themen
++Ihre Tags
 ```
+
+<del>Meine</del><ins>Ihre</ins> Tags
 
 #### [`acpl-my-tags.forum.index.placeholder`](https://weblate.rob006.net/translate/flarum/acpl-my-tags/de@formal/?q=context%3A%3D%22acpl-my-tags.forum.index.placeholder%22)
 
@@ -106,10 +95,10 @@ Platzhaltertext aktivieren, wenn der Benutzer keinen <del>Tags</del><ins>Themen<
 
 ```diff
 -Du folgst noch keinen Tags. <a>Siehe Tags</a>
-+Sie haben noch keine Themen. <a>Siehe Themen </a>
++Sie haben noch keine Tags. <a>Siehe Tags </a>
 ```
 
-<del>Du</del><ins>Sie</ins> <del>folgst</del><ins>haben</ins> noch <del>keinen</del><ins>keine</ins> <del>Tags.</del><ins>Themen.</ins> &lt;a&gt;Siehe <del>Tags&lt;/a&gt;</del><ins>Themen &lt;/a&gt;</ins>
+<del>Du</del><ins>Sie</ins> <del>folgst</del><ins>haben</ins> noch <del>keinen</del><ins>keine</ins> Tags. &lt;a&gt;Siehe <del>Tags&lt;/a&gt;</del><ins>Tags &lt;/a&gt;</ins>
 
 
 ### `blomstra-fontawesome`
@@ -141,17 +130,6 @@ FontAwesome 6 <del>Free</del><ins>Kostenlos</ins>
 
 
 ### `clarkwinkelmann-emojionearea`
-
-#### [`clarkwinkelmann-emojionearea.admin.settings.enableTones`](https://weblate.rob006.net/translate/flarum/clarkwinkelmann-emojionearea/de@formal/?q=context%3A%3D%22clarkwinkelmann-emojionearea.admin.settings.enableTones%22)
-
-> Enable tones
-
-```diff
--Hauttöne aktivieren
-+Farbtöne aktivieren
-```
-
-<del>Hauttöne</del><ins>Farbtöne</ins> aktivieren
 
 #### [`clarkwinkelmann-emojionearea.admin.settings.searchPosition`](https://weblate.rob006.net/translate/flarum/clarkwinkelmann-emojionearea/de@formal/?q=context%3A%3D%22clarkwinkelmann-emojionearea.admin.settings.searchPosition%22)
 
@@ -1378,20 +1356,6 @@ Um diesen Treiber verwenden zu können, <del>musst</del><ins>müssen</ins> <del>
 ```
 
 
-### `datlechin-copy-links`
-
-#### [`datlechin-copy-links.forum.link_copied_message`](https://weblate.rob006.net/translate/flarum/datlechin-copy-links/de@formal/?q=context%3A%3D%22datlechin-copy-links.forum.link_copied_message%22)
-
-> Link copied to clipboard!
-
-```diff
--Link in Zwischenablage gespeichert!
-+Link in der Zwischenablage gespeichert!
-```
-
-Link in <ins>der </ins>Zwischenablage gespeichert!
-
-
 ### `datlechin-link-preview`
 
 #### [`datlechin-link-preview.admin.settings.blacklist_help`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_help%22)
@@ -1404,15 +1368,6 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 ```
 
 <del>Gib</del><ins>Geben Sie eine kommagetrennte Liste von</ins> Domains oder URLs <del>an,</del><ins>ein,</ins> die<del> keine Link-Vorschauen erzeugen</del> <del>sollen.</del><ins>von</ins> <del>Mehrere</del><ins>der</ins> <del>Einträge</del><ins>Linkvorschau</ins> <del>durch</del><ins>ausgeschlossen</ins> <del>Kommas</del><ins>werden</ins> <del>trennen.</del><ins>sollen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.blacklist_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_label%22)
-
-> Domain Blacklist
-
-```diff
--Sperrliste für Domains
-+Blacklist
-```
 
 #### [`datlechin-link-preview.admin.settings.blacklist_placeholder`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.blacklist_placeholder%22)
 
@@ -1433,95 +1388,6 @@ Link in <ins>der </ins>Zwischenablage gespeichert!
 ```
 
 <del>Legt</del><ins>Anzahl</ins> <del>fest,</del><ins>der</ins> <del>wie</del><ins>Minuten,</ins> <del>lange</del><ins>die</ins> <del>Link-Vorschauen</del><ins>gecrawlte</ins> <del>gespeichert</del><ins>Links zwischengespeichert</ins> werden, bevor sie <del>aktualisiert</del><ins>erneut aufgerufen</ins> werden. <del>Auf</del><ins>Mit</ins> <del>0</del><ins>dem</ins> <del>setzen,</del><ins>Wert</ins> <del>um</del><ins>0 wird</ins> das <del>Caching</del><ins>Link-Caching</ins> <del>zu</del><ins>deaktiviert.</ins> <del>deaktivieren.</del><ins>Der</ins> <del>Standard:</del><ins>Standardwert ist</ins> 60 <del>Minuten.</del><ins>Minuten, wenn er nicht gesetzt ist.</ins>
-
-#### [`datlechin-link-preview.admin.settings.cache_time_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.cache_time_label%22)
-
-> Cache Duration (minutes)
-
-```diff
--Speicherdauer im Cache (Minuten)
-+Dauer des Zwischenspeicherns
-```
-
-#### [`datlechin-link-preview.admin.settings.convert_media_urls_help`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.convert_media_urls_help%22)
-
-> Generate previews for URLs that point to media files (images, videos, etc.).
-
-```diff
--Vorschauen für URLs erzeugen, die auf Mediendateien (Bilder, Videos usw.) verweisen.
-+Wenn aktiviert, werden alle Medien-URLs in eine Linkvorschau umgewandelt.
-```
-
-#### [`datlechin-link-preview.admin.settings.convert_media_urls_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.convert_media_urls_label%22)
-
-> Preview Media URLs
-
-```diff
--URLs für Medienvorschauen
-+Medien-URLs umwandeln
-```
-
-#### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_help`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_help%22)
-
-> Always open previewed links in a new browser tab.
-
-```diff
--Alle Vorschau-Links standardmäßig in einem neuen Tab öffnen.
-+Wenn aktiviert, werden die Links in einem neuen Tab geöffnet.
-```
-
-<del>Alle</del><ins>Wenn</ins> <del>Vorschau-Links</del><ins>aktiviert,</ins> <del>standardmäßig</del><ins>werden die Links</ins> in einem neuen Tab <del>öffnen.</del><ins>geöffnet.</ins>
-
-#### [`datlechin-link-preview.admin.settings.open_links_in_new_tab_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.open_links_in_new_tab_label%22)
-
-> Open Links in New Tab
-
-```diff
--Links in einem neuen Browser-Tab öffnen
-+Links in einem neuen Tab öffnen
-```
-
-Links in einem neuen <del>Browser-Tab</del><ins>Tab</ins> öffnen
-
-#### [`datlechin-link-preview.admin.settings.use_google_favicons_help`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.use_google_favicons_help%22)
-
-> Show website favicons using Google's Favicon service to enhance visual recognition.
-
-```diff
--Website-Favicons über den Google-Favicon-Dienst anzeigen, um die visuelle Erkennung zu verbessern.
-+Wenn aktiviert, wird ein Google-Dienst im Frontend verwendet, um das Favicon der jeweiligen Webseite abzurufen.
-```
-
-<del>Website-Favicons</del><ins>Wenn</ins> <del>über</del><ins>aktiviert,</ins> <del>den</del><ins>wird</ins> <del>Google-Favicon-Dienst</del><ins>ein</ins> <del>anzeigen,</del><ins>Google-Dienst im Frontend verwendet,</ins> um <del>die</del><ins>das</ins> <del>visuelle</del><ins>Favicon</ins> <del>Erkennung</del><ins>der</ins> <del>zu</del><ins>jeweiligen</ins> <del>verbessern.</del><ins>Webseite abzurufen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.use_google_favicons_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.use_google_favicons_label%22)
-
-> Display Site Icons
-
-```diff
--Icons der Websites anzeigen
-+Google Favicon-API verwenden
-```
-
-#### [`datlechin-link-preview.admin.settings.whitelist_help`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_help%22)
-
-> Only generate previews for these domains or URLs. Leave empty to allow all non-blacklisted domains.
-
-```diff
--Vorschauen nur für die angegebenen Domains oder URLs erstellen. Feld leer lassen, um alle Domains, die nicht auf der Blacklist stehen, zuzulassen.
-+Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die eine Linkvorschau ermöglichen sollen.
-```
-
-<del>Vorschauen</del><ins>Geben</ins> <del>nur</del><ins>Sie</ins> <del>für</del><ins>eine</ins> <del>die</del><ins>kommagetrennte</ins> <del>angegebenen</del><ins>Liste von</ins> Domains oder URLs<del> erstellen. Feld leer lassen, um alle</del> <del>Domains,</del><ins>ein,</ins> die<del> nicht auf</del> <del>der</del><ins>eine</ins> <del>Blacklist</del><ins>Linkvorschau</ins> <del>stehen,</del><ins>ermöglichen</ins> <del>zuzulassen.</del><ins>sollen.</ins>
-
-#### [`datlechin-link-preview.admin.settings.whitelist_label`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_label%22)
-
-> Domain Whitelist
-
-```diff
--Freigabeliste für Domains
-+Whitelist
-```
 
 #### [`datlechin-link-preview.admin.settings.whitelist_placeholder`](https://weblate.rob006.net/translate/flarum/datlechin-link-preview/de@formal/?q=context%3A%3D%22datlechin-link-preview.admin.settings.whitelist_placeholder%22)
 
@@ -3722,15 +3588,6 @@ Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums g
 
 Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderung <del>deines</del><ins>Ihres</ins> Spitznamens den Forenrichtlinien entspricht.
 
-#### [`fof-username-request.forum.nickname_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.action.reason_title%22)
-
-> Reason for Rejection
-
-```diff
--Grund für die Ablehnung
-+Ablehnungsgrund
-```
-
 #### [`fof-username-request.forum.nickname_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.confirmation_message%22)
 
 > Your nickname change request has been submitted and is pending approval.
@@ -3748,10 +3605,10 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 ```diff
 -Du hast bereits eine offene Anfrage deinen Spitznamen zu "{name}" zu ändern. Du kannst deine Anfrage entweder aktualisieren oder löschen.
-+Sie haben bereits eine offene Anfrage zur Änderung deinen Spitznamen zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
++Sie haben bereits eine offene Anfrage zur Änderung Ihres Spitznamens zu „{name}“. Sie können Ihre Anfrage entweder aktualisieren oder löschen.
 ```
 
-<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>deinen</ins> <del>"{name}"</del><ins>Spitznamen</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
+<del>Du</del><ins>Sie</ins> <del>hast</del><ins>haben</ins> bereits eine offene Anfrage <del>deinen</del><ins>zur</ins> <del>Spitznamen</del><ins>Änderung</ins> <del>zu</del><ins>Ihres</ins> <del>"{name}"</del><ins>Spitznamens</ins> zu <del>ändern.</del><ins>„{name}“.</ins> <del>Du</del><ins>Sie</ins> <del>kannst</del><ins>können</ins> <del>deine</del><ins>Ihre</ins> Anfrage entweder aktualisieren oder löschen.
 
 #### [`fof-username-request.forum.nickname_modals.request.deleted`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.deleted%22)
 
@@ -3763,15 +3620,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 <del>Spitznamenanfrage</del><ins>Anfrage zum Spitznamen</ins> gelöscht.
-
-#### [`fof-username-request.forum.nickname_modals.request.title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.request.title%22)
-
-> Request Nickname Change
-
-```diff
--=> fof-username-request.ref.nickname_change_request
-+Änderung des Spitznamens anfordern
-```
 
 #### [`fof-username-request.forum.nickname_modals.results.approved`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.nickname_modals.results.approved%22)
 
@@ -3806,15 +3654,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 
 <del>Zu diesem Zeitpunkt kannst du, wenn</del><ins>Sie</ins> <del>du</del><ins>können</ins> <del>möchtest,</del><ins>jetzt</ins> über <del>deine</del><ins>Ihre</ins> Kontoeinstellungen einen neuen Antrag auf Änderung <del>deines</del><ins>des</ins> Spitznamens <del>stellen.</del><ins>stellen, falls Sie dies wünschen.</ins>
 
-#### [`fof-username-request.forum.username_modals.action.approval_label`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.approval_label%22)
-
-> Approve
-
-```diff
--Akzeptieren
-+Genehmigen
-```
-
 #### [`fof-username-request.forum.username_modals.action.help_text`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.help_text%22)
 
 > Please make sure that this requested username change follows the forum guidelines.
@@ -3825,26 +3664,6 @@ Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Änderu
 ```
 
 Bitte <del>achte</del><ins>achten Sie</ins> darauf, dass die gewünschte Benutzername-Änderung den Forenrichtlinien entspricht.
-
-#### [`fof-username-request.forum.username_modals.action.reason_title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.reason_title%22)
-
-> Reason for Rejection
-
-```diff
--Grund für die Ablehnung
-+Ablehnungsgrund
-```
-
-#### [`fof-username-request.forum.username_modals.action.success`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.action.success%22)
-
-> Decision sent.
-
-```diff
--Entscheidung gesendet.
-+Entscheidung versendet.
-```
-
-Entscheidung <del>gesendet.</del><ins>versendet.</ins>
 
 #### [`fof-username-request.forum.username_modals.request.confirmation_message`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.confirmation_message%22)
 
@@ -3878,15 +3697,6 @@ Entscheidung <del>gesendet.</del><ins>versendet.</ins>
 ```
 
 <del>Benutzernamenanfrage</del><ins>Anfrage auf Änderung des Benutzernamens wurde</ins> gelöscht.
-
-#### [`fof-username-request.forum.username_modals.request.title`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.request.title%22)
-
-> Request Username Change
-
-```diff
--=> fof-username-request.ref.username_change_request
-+Änderung des Benutzernamens beantragen
-```
 
 #### [`fof-username-request.forum.username_modals.results.approved`](https://weblate.rob006.net/translate/flarum/fof-username-request/de@formal/?q=context%3A%3D%22fof-username-request.forum.username_modals.results.approved%22)
 
@@ -4178,20 +3988,6 @@ Der Seitenadministrator fordert <del>dich</del><ins>Sie</ins> dazu auf das Passw
 ```
 
 <del>Dein</del><ins>Ihr</ins> neues Passwort muss sich von <del>deinem</del><ins>Ihrem</ins> <del>alten</del><ins>aktuellen</ins> Passwort unterscheiden.
-
-
-### `tryhackx-homepage-blocks`
-
-#### [`tryhackx-homepage-blocks.admin.settings.recaptcha_secret_key`](https://weblate.rob006.net/translate/flarum/tryhackx-homepage-blocks/de@formal/?q=context%3A%3D%22tryhackx-homepage-blocks.admin.settings.recaptcha_secret_key%22)
-
-> reCAPTCHA Secret Key
-
-```diff
--reCAPTCHA Secret Key
-+reCAPTCHA Geheimer Schlüssel
-```
-
-reCAPTCHA <del>Secret</del><ins>Geheimer</ins> <del>Key</del><ins>Schlüssel</ins>
 
 
 ### `yippy-auth-ldap`
