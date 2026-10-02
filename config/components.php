@@ -153,7 +153,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.1/locale/en.yml',
 	],
 	'ernestdefoe-digest-mail' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.3/locale/en.yml',
 	],
 	'ernestdefoe-discussion-participants' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.3/locale/en.yml',
