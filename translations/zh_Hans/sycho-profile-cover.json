@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "创建缩略图",
-            "max_size": "个人资料背景图片的最大大小（KB）",
+            "thumbnails": "生成缩略图",
+            "max_size": "个人资料封面图片大小上限（KB）",
             "permission": {
-                "set_cover": "设置个人资料背景"
+                "set_cover": "设置个人资料封面"
             }
         },
         "forum": {
-            "cover": "背景图",
-            "edit_cover": "编辑背景图",
-            "notice": "最大图片大小：{size}",
+            "cover": "封面",
+            "edit_cover": "编辑封面",
+            "notice": "最大文件大小：{size}",
             "added": {
-                "success": "背景图更换成功。",
+                "success": "封面已更新。",
                 "error": "无法上传图片。"
             },
             "removed": {
-                "success": "背景图已移除。",
-                "error": "无法移除背景图，请稍后再试。"
+                "success": "封面已移除。",
+                "error": "无法移除封面，请稍后再试。"
             }
         }
     }
