@@ -225,21 +225,21 @@
                 "source_duplicate": "Eine Quell-URL darf in derselben Anmerkung nicht mehr als einmal verwendet werden."
             },
             "rating": {
-                "value_invalid": "",
-                "reasons_count": "",
-                "reason_mismatch": "",
-                "reason_duplicate": ""
+                "value_invalid": "Bitte wähle eine gültige Bewertung.",
+                "reasons_count": "Bitte wähle 1 bis 3 Gründe für deine Bewertung aus.",
+                "reason_mismatch": "Die Begründungen müssen mit der ausgewählten Bewertung übereinstimmen.",
+                "reason_duplicate": "Ein Bewertungsgrund kann nicht mehr als einmal ausgewählt werden."
             },
             "settings": {
-                "min_ratings_invalid": "",
-                "helpful_threshold_invalid": "",
-                "not_helpful_threshold_invalid": "",
-                "thresholds_invalid": ""
+                "min_ratings_invalid": "Die Mindestanzahl der Bewertungen muss eine ganze Zahl zwischen 1 und 100 sein.",
+                "helpful_threshold_invalid": "Der relevante Schwellenwert muss eine ganze Zahl zwischen 0 und 100 sein.",
+                "not_helpful_threshold_invalid": "Der Schwellenwert für „nicht hilfreich“ muss eine ganze Zahl zwischen 0 und 100 sein.",
+                "thresholds_invalid": "Der Schwellenwert für „nicht hilfreich“ muss niedriger sein als der Schwellenwert für „hilfreich“."
             },
-            "data_invalid": "",
-            "relationships_invalid": "",
-            "post_invalid": "",
-            "hide_reason_required": ""
+            "data_invalid": "Bitte gib gültige Daten für kollektive Anmerkungen ein. Es können nur der Grund, der Inhalt und die Quellen geändert werden.",
+            "relationships_invalid": "Die Beziehungen dieser Anmerkung können nicht geändert werden.",
+            "post_invalid": "Bitte wähle einen gültigen Originalbeitrag aus.",
+            "hide_reason_required": "Bitte gib einen Grund an, warum du diese kollektive Anmerkung ausblenden möchtest."
         },
         "ref": {
             "community_notes": "Kollektive Anmerkungen",
@@ -253,7 +253,7 @@
             "hidden": "Verborgen",
             "retry": "Erneut versuchen",
             "cancel": "Abbrechen",
-            "moderation_permission_denied": ""
+            "moderation_permission_denied": "Du hast keine Berechtigung, kollektive Anmerkungen zu verwalten."
         }
     }
 }
