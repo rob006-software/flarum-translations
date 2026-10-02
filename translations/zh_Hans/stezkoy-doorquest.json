@@ -2,84 +2,84 @@
     "stezkoy-doorquest": {
         "forum": {
             "sign_up": {
-                "question_label": "",
-                "answer_placeholder": "",
-                "invalid_answer": "",
-                "answer_required": ""
+                "question_label": "问题",
+                "answer_placeholder": "填写答案",
+                "invalid_answer": "答案不正确，请重试。",
+                "answer_required": "请回答问题后再注册。"
             }
         },
         "admin": {
             "settings": {
-                "heading": "",
-                "total_questions": "",
-                "search": "",
-                "create_question_button": ""
+                "heading": "Doorquest 设置",
+                "total_questions": "{count} 个问题",
+                "search": "搜索问题…",
+                "create_question_button": "添加问题"
             },
             "list": {
-                "heading": "",
+                "heading": "问题",
                 "columns": {
-                    "id": "",
-                    "question": "",
-                    "answer": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "uses": "",
-                    "created_by": "",
-                    "manage": ""
+                    "id": "ID",
+                    "question": "问题",
+                    "answer": "答案",
+                    "group": "用户组",
+                    "max_uses": "使用次数上限",
+                    "activates_user": "自动激活",
+                    "uses": "使用情况",
+                    "created_by": "创建者",
+                    "manage": "操作"
                 },
                 "actions": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "编辑",
+                    "delete": "删除"
                 },
                 "content": {
-                    "no_group": "",
-                    "no_created_by": "",
-                    "delete": "",
-                    "warning": "",
+                    "no_group": "无",
+                    "no_created_by": "—",
+                    "delete": "确定要删除问题「{question}」吗？",
+                    "warning": "已达上限",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "剩余 {remainingUses} 次",
+                        "total_uses": "已使用 {totalUses} 次"
                     },
-                    "invalid_column": ""
+                    "invalid_column": "—"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "next_button": "",
-                    "last_page_button": "",
-                    "page_counter": ""
+                    "first_page_button": "第一页",
+                    "back_button": "上一页",
+                    "next_button": "下一页",
+                    "last_page_button": "最后一页",
+                    "page_counter": "第 {current} / {total} 页"
                 }
             },
             "modals": {
                 "create_question": {
-                    "title": "",
+                    "title": "添加问题",
                     "question": {
-                        "label": "",
-                        "help": ""
+                        "label": "问题",
+                        "help": "用户注册时需要回答的问题。"
                     },
                     "answer": {
-                        "label": "",
-                        "help": ""
+                        "label": "答案",
+                        "help": "正确答案，不区分大小写。"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "加入用户组",
+                        "help": "答对问题并注册成功的用户会自动加入此用户组。"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "使用次数上限",
+                        "help": "此问题最多可被正确回答多少次。设为 0 表示不限制。"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "自动激活账号",
+                        "help": "答对问题后无需邮箱确认，自动激活用户账号。"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "添加",
+                    "submit_and_create_another_button": "添加并继续"
                 },
                 "edit_question": {
-                    "title": "",
-                    "submit_button": ""
+                    "title": "编辑问题",
+                    "submit_button": "保存更改"
                 }
             }
         }
