@@ -476,6 +476,9 @@ return [
 	'fof-mailing' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0-beta.2/resources/locale/en.yml',
 	],
+	'fof-mark-unread' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mark-unread/2.0.0/locale/en.yml',
+	],
 	'fof-masquerade' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/3.0.0-rc.2/resources/locale/en.yml',
 	],
