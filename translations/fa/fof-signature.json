@@ -2,42 +2,42 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "امضا",
+                "save": "ذخیرهٔ امضا",
+                "edit": "ویرایش امضا"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "تعداد نویسه‌ها از حد مجاز فراتر رفته است.",
+                "max_image_count_exceed": "تعداد تصاویر از حد مجاز فراتر رفته است.",
+                "save_failed": "هنگام ذخیرهٔ امضای شما خطایی رخ داد."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "امضای خود را در اینجا ویرایش کنید"
             },
             "settings": {
-                "heading": ""
+                "heading": "امضا"
             },
             "profile": {
-                "click": ""
+                "click": "برای نوشتن امضای خود کلیک کنید"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "ویرایش امضای سایر کاربران",
+                "allow_signature": "می‌تواند امضا داشته باشد"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "حداکثر تصاویر درج‌شده.",
+                    "help": "هنگامی که کاربر از بیشینهٔ شمار تصاویر در امضای خود فراتر رود، تا اصلاح شمار تصاویر از ذخیره‌سازی بازداشته خواهد شد."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "حد مجاز نویسه‌های امضا.",
+                    "help": "هنگامی که کاربر از حد مجاز نویسه‌ها در امضای خود فراتر رود، تا اصلاح شمار نویسه‌ها از ذخیره‌سازی بازداشته خواهد شد."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "ویرایش درجای امضا.",
+                    "help": "در صورت فعال بودن، کاربران می‌توانند هنگام مشاهدهٔ نوشته، امضای خود را ویرایش کنند."
                 }
             }
         }
