@@ -14,7 +14,7 @@
                 },
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "update_email_from_provider_label": "Mettre à jour l'adresse de courriel du fournisseur",
-                "update_email_from_provider_help": "Si cette option est activée, l'adresse de courriel de l'utilisateur sera mise à jour pour correspondre à celle fournie par le fournisseur OAuth à chaque connexion au forum. Tous les fournisseurs ne fournissent pas l'adresse de courriel mise à jour, auquel cas ce paramètre n'aura aucun effet avec ces fournisseurs.",
+                "update_email_from_provider_help": "Si cette option est activée, la connexion avec un fournisseur OAuth dont l'adresse de courriel vérifiée diffère de celle associée au compte sur le forum entraîne l'envoi d'un lien de confirmation à la nouvelle adresse et d'une notification à l'adresse actuelle. L'adresse de courriel est modifiée une fois que le lien a été suivi. Les fournisseurs incapables de confirmer que l'adresse est vérifiée — y compris les fournisseurs tiers n'ayant pas été mis à jour pour prendre en charge cette fonctionnalité — ne modifieront pas l'adresse de courriel.",
                 "disable_avatars_label": "Désactiver les avatars du fournisseur",
                 "disable_avatars_help": "Si cette option est activée, l'avatar de l'utilisateur ne sera pas mis à jour pour correspondre à l'avatar du fournisseur lors de l'inscription. Notez que cela n'affecte que les inscriptions futures et ne modifie pas l'avatar des utilisateurs existants.\n",
                 "providers": {
@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "{provider} n'a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l'utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.",
                 "with_button": "Se connecter avec {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -120,8 +120,8 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
-                "body": ""
+                "subject": "Demande de modification de l'adresse de courriel",
+                "body": "Après vous être connecté à {forum} avec {provider}, une modification de l'adresse e-mail de votre compte vers {new_email} a été demandée. Cette modification prendra effet une fois la nouvelle adresse confirmée.\n\nSi vous n'êtes pas à l'origine de cette demande, votre compte {provider} pourrait être compromis. Sécurisez-le et contactez les administrateurs de {forum}.\n"
             }
         },
         "lib": {
