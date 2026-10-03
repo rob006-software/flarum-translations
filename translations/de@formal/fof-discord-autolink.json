@@ -2,27 +2,27 @@
     "fof-discord-autolink": {
         "forum": {
             "invite": {
-                "heading": "",
-                "invalid_heading": "",
-                "invalid_title": "",
-                "invalid_text": "",
-                "join": "",
-                "members": "",
-                "online": "",
-                "partnered": "",
-                "verified": ""
+                "heading": "Du wurdest eingeladen, einem Server beizutreten",
+                "invalid_heading": "Du wurdest eingeladen, einem Server beizutreten, aber…",
+                "invalid_title": "Ungültige Einladung",
+                "invalid_text": "Möglicherweise ist diese Einladung bereits abgelaufen, oder du hast keine Berechtigung zur Teilnahme.",
+                "join": "Beitreten",
+                "members": "{count} Mitglieder",
+                "online": "{count} online",
+                "partnered": "Discord-Partner",
+                "verified": "Verifiziert"
             },
             "event": {
-                "heading": "",
-                "interested": "",
-                "active": "",
-                "completed": "",
-                "canceled": ""
+                "heading": "Du wurdest zu einem Event eingeladen",
+                "interested": "{count} interessiert",
+                "active": "Findet gerade statt",
+                "completed": "Dieses Event ist vorbei",
+                "canceled": "Dieses Event wurde abgesagt"
             },
             "label": {
-                "channel": "",
-                "event": "",
-                "message": ""
+                "channel": "Discord-Kanal",
+                "event": "Discord-Event",
+                "message": "Discord-Nachricht"
             }
         }
     }
