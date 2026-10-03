@@ -1,0 +1,93 @@
+{
+    "ernestdefoe-ladder": {
+        "admin": {
+            "ladder": {
+                "heading": "The ladder",
+                "help": "Each rung is a group with a post threshold. Members hold exactly one rung, the highest their post count has reached, and their other groups are never touched.",
+                "empty": "No rungs yet. Add the first one, usually a rank that starts at 0 posts so every member has one from the day they join.",
+                "add": "Add a rung",
+                "edit": "Edit",
+                "members": "{count, plural, one {# member} other {# members}}",
+                "range": "{min}–{max} posts",
+                "range_open": "{min}+ posts",
+                "hidden_group": "Hidden group. Members won't see this rung.",
+                "existing_group": "Existing group"
+            },
+            "rerank": {
+                "button": "Re-rank everyone now",
+                "help": "Puts every member on the rung their post count has earned. Runs on its own after you change the ladder; use this after changing the settings below.",
+                "running": "Re-ranking… {done} of {total} members",
+                "finished": "Done. {changed, plural, =0 {Everyone was already on the right rung.} one {# member changed rank.} other {# members changed rank.}}",
+                "failed": "Re-ranking stopped partway, so some members may be on the wrong rung. Run it again to finish."
+            },
+            "modal": {
+                "create_title": "Add a rung",
+                "edit_title": "Edit rung",
+                "source_label": "Group",
+                "source_new": "Create a new group for this rung",
+                "source_existing": "Use a group I already have",
+                "existing_label": "Existing group",
+                "existing_placeholder": "Choose a group…",
+                "existing_help": "The group's members stay in it. Ladder only adds and removes members as they climb.",
+                "name_label": "Rank name",
+                "plural_label": "Plural name",
+                "plural_help": "Used where Flarum lists the group's members. Leave empty to use the rank name.",
+                "min_posts_label": "Posts needed",
+                "min_posts_help": "A member reaches this rung at this many posts, and stays on it until they reach the next one.",
+                "icon_label": "Icon",
+                "icon_help": "A Font Awesome class, e.g. fas fa-tv. It shows on the rank badge.",
+                "color_label": "Colour",
+                "description_label": "Description",
+                "description_help": "Shown on the public Ranks page. Optional.",
+                "preview_label": "Preview",
+                "save": "Save rung",
+                "delete": "Remove rung",
+                "delete_confirm_owned": "Remove this rung? Its group was made by Ladder, so the group is deleted too, and its members move to the rung below.",
+                "delete_confirm_existing": "Remove this rung? The group itself stays, members included. Ladder will just stop managing it."
+            },
+            "settings": {
+                "inherit_label": "Higher ranks keep the permissions of lower ones",
+                "inherit_help": "Rank groups usually need no permissions, since every member already has the Member group's. To unlock something at a rank, grant it once to the lowest rank that should have it and every rank above inherits it. Members still wear one rank badge.",
+                "demote_label": "Move members down when their post count drops",
+                "demote_help": "Off by default, so a rank once reached is kept even if posts are deleted later. Turn on for a strict post-count ranking.",
+                "exempt_label": "Groups that never get a rank",
+                "exempt_help": "Members of these groups are kept off the ladder entirely. Useful for bots and staff accounts.",
+                "show_nav_label": "Show a Ranks link in the forum sidebar",
+                "show_nav_help": "The Ranks page lists every rung and shows signed-in members how far they are from the next one. It's always at /ranks."
+            }
+        },
+        "forum": {
+            "nav": "Ranks",
+            "ranks": {
+                "title": "Ranks",
+                "intro": "Every post you make moves you up the ladder. Here's every rank, and what it takes to reach it.",
+                "empty": "This forum hasn't set up any ranks yet.",
+                "range": "{min}–{max} posts",
+                "range_open": "{min}+ posts",
+                "members": "{count, plural, one {# member} other {# members}}",
+                "you_are_here": "You are here",
+                "your_rank": "You're a {rank}, with {count, plural, one {# post} other {# posts}}.",
+                "next": "{count, plural, one {# more post} other {# more posts}} to reach {rank}.",
+                "top": "You've reached the top rank.",
+                "unranked": "{count, plural, one {# more post} other {# more posts}} to reach your first rank, {rank}.",
+                "guest": "Sign up and start posting to climb the ladder."
+            },
+            "notifications": {
+                "promoted": "You've reached the rank {rank}!"
+            },
+            "settings": {
+                "notify_promoted_label": "I reach a new rank"
+            }
+        },
+        "lib": {
+            "errors": {
+                "min_posts_invalid": "Posts needed must be a whole number, 0 or more.",
+                "min_posts_taken": "Another rung already starts at {count} posts. Each rung needs its own threshold.",
+                "name_invalid": "Give the rank a name, up to 100 characters.",
+                "color_invalid": "The colour must be a hex value, e.g. #7c3aed.",
+                "group_invalid": "That group can't be used as a rank.",
+                "group_taken": "That group is already a rung on the ladder."
+            }
+        }
+    }
+}
