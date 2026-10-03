@@ -420,7 +420,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/3.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-drafts' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0-rc.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/2.0.0/resources/locale/en.yml',
 	],
 	'fof-filter' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/2.0.0-beta.1/resources/locale/en.yml',
