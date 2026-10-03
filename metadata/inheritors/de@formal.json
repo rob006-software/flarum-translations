@@ -4924,18 +4924,36 @@
     "ernestdefoe-steward.json": {
         "ernestdefoe-steward": {
             "admin": {
+                "permissions": {
+                    "review_label": "0d9fbab8cf6c89c853b4862471dd2365 0d9fbab8cf6c89c853b4862471dd2365"
+                },
                 "settings": {
+                    "moderation_label": "bda5ebf2cc7b99c286e74e7049b93147 bda5ebf2cc7b99c286e74e7049b93147",
                     "relay_url_label": "3aee26d723115e8e38c545fdb204c178 3aee26d723115e8e38c545fdb204c178",
-                    "site_key_label": "6f926681a87f83231e42116cee1cc42a 6f926681a87f83231e42116cee1cc42a"
+                    "site_key_label": "6f926681a87f83231e42116cee1cc42a 6f926681a87f83231e42116cee1cc42a",
+                    "trusted_posts_help": "f568b148dc681625ea26ef19b65183c8 f568b148dc681625ea26ef19b65183c8"
                 },
                 "usage": {
                     "answers": "2090cf846f4801f7d7c3e7e3056b64b6 2090cf846f4801f7d7c3e7e3056b64b6",
+                    "chart_label": "b81332819602ba916a3dbfb7c1ec5079 b81332819602ba916a3dbfb7c1ec5079",
                     "left": "d4affa7ecde5cd1c3e89fd826fdb9ffb d4affa7ecde5cd1c3e89fd826fdb9ffb",
                     "resets": "c860af636962d4c577e849fb072dd6a7 c860af636962d4c577e849fb072dd6a7",
                     "screenings": "88a2ff7558eaa29c4575d1de9e9d08b7 88a2ff7558eaa29c4575d1de9e9d08b7",
                     "title": "96bc9697c7af21c557b600793627c664 96bc9697c7af21c557b600793627c664",
                     "unmetered": "49eb03fd088cf13fd54503811b204f33 49eb03fd088cf13fd54503811b204f33",
                     "unmeteredUsed": "44dd91cbd3165f139b46f3b121b1bb5b 44dd91cbd3165f139b46f3b121b1bb5b"
+                }
+            },
+            "forum": {
+                "ask": {
+                    "ask": "fdfd88858bbef3fdbc303159f7ab8c43 fdfd88858bbef3fdbc303159f7ab8c43",
+                    "nav": "fdfd88858bbef3fdbc303159f7ab8c43 fdfd88858bbef3fdbc303159f7ab8c43",
+                    "sources": "da746359cc92782585a8007f0caf100c da746359cc92782585a8007f0caf100c",
+                    "title": "b935beeec3290c953195ae9b2cc14999 b935beeec3290c953195ae9b2cc14999"
+                },
+                "queue": {
+                    "nav": "683c6e14ee1ab73d9844fe236ef657c5 683c6e14ee1ab73d9844fe236ef657c5",
+                    "title": "683c6e14ee1ab73d9844fe236ef657c5 683c6e14ee1ab73d9844fe236ef657c5"
                 }
             }
         }
