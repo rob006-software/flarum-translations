@@ -206,6 +206,9 @@ return [
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-gridiron-nation' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gridiron-nation/2.2.4/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.4/locale/en.yml',
 	],
