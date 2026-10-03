@@ -360,7 +360,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0-beta.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0-rc.5/locale/en.yml',
