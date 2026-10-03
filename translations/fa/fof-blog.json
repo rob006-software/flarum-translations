@@ -3,16 +3,16 @@
         "admin": {
             "blog": "وبلاگ",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "نوشتن و ویرایش مقاله‌های وب‌نوشت",
+                "auto_approve_posts": "انتشار مقاله‌ها بدون تأیید",
+                "approve_posts": "اجازهٔ تأیید مقاله‌های وب‌نوشت"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
+                "no_categories_selected": "هیچ دسته‌بندی‌ای انتخاب نشده است",
+                "selected_category_count": "{count, plural, one {شما ۱ دسته‌بندی انتخاب کرده‌اید} other {شما # دسته‌بندی انتخاب کرده‌اید}}",
+                "select_categories_button": "انتخاب دسته‌بندی‌های وبلاگ",
+                "blog_heading": "وبلاگ",
+                "featured_count_label": "حداکثر پست‌های ویژه",
                 "featured_count_text": "",
                 "allow_comments_label": "",
                 "allow_comments_text": "",
