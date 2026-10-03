@@ -164,6 +164,9 @@ return [
 	'ernestdefoe-federation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.0.7/resources/locale/en.yml',
 	],
+	'ernestdefoe-gameday' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gameday/1.7.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-garrison' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.5.1/resources/locale/en.yml',
 	],
