@@ -5,12 +5,12 @@
                 "site_key_label": "Seitenschlüssel",
                 "site_key_help": "",
                 "relay_url_label": "Dienst-URL",
-                "moderation_label": "",
+                "moderation_label": "Neue Beiträge filtern",
                 "moderation_help": "",
                 "answers_label": "",
                 "answers_help": "",
                 "trusted_posts_label": "",
-                "trusted_posts_help": "",
+                "trusted_posts_help": "Etablierte Mitglieder werden niemals überprüft.",
                 "threshold_label": "",
                 "threshold_help": ""
             },
@@ -23,29 +23,29 @@
                 "unmeteredUsed": "{n} verwendet · Keine Begrenzung",
                 "resets": "Wird zurückgesetzt {date}",
                 "not_connected": "",
-                "chart_label": ""
+                "chart_label": "Tägliche Nutzung über die letzten {n} Tage hinweg"
             },
             "permissions": {
-                "review_label": ""
+                "review_label": "Steward Moderationswarteschlange anzeigen"
             }
         },
         "forum": {
             "ask": {
-                "nav": "",
-                "title": "",
+                "nav": "Fragen",
+                "title": "Dieses Forum fragen",
                 "subtitle": "",
                 "placeholder": "",
-                "ask": "",
+                "ask": "Fragen",
                 "thinking": "",
-                "sources": "",
+                "sources": "Beantwortet durch",
                 "caveat": "",
                 "miss_not_found": "",
                 "miss_exhausted": "",
                 "miss_unavailable": ""
             },
             "queue": {
-                "nav": "",
-                "title": "",
+                "nav": "Moderationswarteschlange",
+                "title": "Moderationswarteschlange",
                 "subtitle": "",
                 "tab_open": "",
                 "tab_unscreened": "",
