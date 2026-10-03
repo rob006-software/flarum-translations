@@ -850,6 +850,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-cookie-consent`](https://weblate.rob006.net/projects/flarum2/fof-cookie-consent) | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum2/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum2/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
+| [`fof-discord-autolink`](https://weblate.rob006.net/projects/flarum2/fof-discord-autolink) | [`fof/discord-autolink`](https://github.com/FriendsOfFlarum/discord-autolink) |
 | [`fof-discussion-templates`](https://weblate.rob006.net/projects/flarum2/fof-discussion-templates) | [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) |
 | [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum2/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-discussion-views`](https://weblate.rob006.net/projects/flarum2/fof-discussion-views) | [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) |
