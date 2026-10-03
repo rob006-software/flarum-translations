@@ -2,8 +2,8 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **81** are
-translated only in `fa`. Altogether they cover **39** components.
+sides, but do not match between them: **0** are translated differently and **80** are
+translated only in `fa`. Altogether they cover **38** components.
 
 <!-- {% raw %} -->
 
@@ -22,7 +22,6 @@ translated only in `fa`. Altogether they cover **39** components.
 | `fof-author-change` | [1](#fof-author-change-missing) |
 | `fof-badges` | [6](#fof-badges-missing) |
 | `fof-best-answer` | [1](#fof-best-answer-missing) |
-| `fof-blog` | [1](#fof-blog-missing) |
 | `fof-forum-stats-widget` | [1](#fof-forum-stats-widget-missing) |
 | `fof-geoip` | [1](#fof-geoip-missing) |
 | `fof-polls` | [1](#fof-polls-missing) |
@@ -357,17 +356,6 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 
 ```diff
 +عمومی
-```
-
-
-### `fof-blog` (missing)
-
-#### [`fof-blog.admin.settings.blog_heading`](https://weblate.rob006.net/translate/flarum2/fof-blog/fa/?q=context%3A%3D%22fof-blog.admin.settings.blog_heading%22)
-
-> Blog
-
-```diff
-+وبلاگ
 ```
 
 

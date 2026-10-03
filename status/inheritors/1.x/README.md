@@ -7,9 +7,9 @@ are fully in sync and are not listed here.
 
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
-| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 567 | 226 | 32 |
+| [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 1310 | 698 | 67 |
 | [French](fr.md) (`fr`) | 2 | 0 | 2 |
 | [German](de.md) (`de`) | 3 | 19 | 3 |
 | [German (formal)](de@formal.md) (`de@formal`) | 4 | 19 | 3 |
-| [Persian](fa.md) (`fa`) | 0 | 81 | 39 |
+| [Persian](fa.md) (`fa`) | 0 | 80 | 38 |
 | [Swedish](sv.md) (`sv`) | 0 | 156 | 1 |

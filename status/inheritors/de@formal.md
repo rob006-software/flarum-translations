@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **360** are translated differently and **0** are
+sides, but do not match between them: **358** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **52** components.
 
 <!-- {% raw %} -->
@@ -23,7 +23,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `flarum-extension-manager` | [13](#flarum-extension-manager) |
 | `flarum-flags` | [5](#flarum-flags) |
 | `flarum-gdpr` | [14](#flarum-gdpr) |
-| `flarum-likes` | [5](#flarum-likes) |
+| `flarum-likes` | [4](#flarum-likes) |
 | `flarum-lock` | [1](#flarum-lock) |
 | `flarum-mentions` | [10](#flarum-mentions) |
 | `flarum-messages` | [2](#flarum-messages) |
@@ -46,7 +46,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-links` | [2](#fof-links) |
 | `fof-mailing` | [1](#fof-mailing) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
-| `fof-moderator-warnings` | [9](#fof-moderator-warnings) |
+| `fof-moderator-warnings` | [8](#fof-moderator-warnings) |
 | `fof-move-posts` | [1](#fof-move-posts) |
 | `fof-oauth` | [1](#fof-oauth) |
 | `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) |
@@ -1802,14 +1802,13 @@ Dieser Beitrag ist <del>Werbung oder Spam.</del><ins>Werbung.</ins>
 >
 
 ```diff
--Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>blomstra/gdpr</code> registrieren.
+ Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.
 -Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe Benutzertabellendaten unten.
-+Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <code>flarum/gdpr</code> registrieren.
 +Daten, die in der <code>Benutzer</code>-Tabelle gespeichert sind, werden gesondert behandelt, siehe „Daten der Benutzertabelle“ unten.
 
 ```
 
-Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei <del>&lt;code&gt;blomstra/gdpr&lt;/code&gt;</del><ins>&lt;code&gt;flarum/gdpr&lt;/code&gt;</ins> registrieren.<br />Daten, die in der &lt;code&gt;Benutzer&lt;/code&gt;-Tabelle gespeichert sind, werden gesondert behandelt, siehe <del>Benutzertabellendaten</del><ins>„Daten der Benutzertabelle“</ins> unten.<br />
+Hier sind die derzeit registrierten Datentypen aufgeführt. Jeder Typ wird zusammen mit den zugehörigen Export-, Anonymisierungs- und Löschungsaktionen aufgeführt. Wenn eine Erweiterung Daten verarbeitet, die unter die DSGVO-Vorschriften fallen, so sollte sie ihre Datentypen bei &lt;code&gt;flarum/gdpr&lt;/code&gt; registrieren.<br />Daten, die in der &lt;code&gt;Benutzer&lt;/code&gt;-Tabelle gespeichert sind, werden gesondert behandelt, siehe <del>Benutzertabellendaten</del><ins>„Daten der Benutzertabelle“</ins> unten.<br />
 
 #### [`flarum-gdpr.admin.settings.gdpr_page.help_text`](https://weblate.rob006.net/translate/flarum2/flarum-gdpr/de@formal/?q=context%3A%3D%22flarum-gdpr.admin.settings.gdpr_page.help_text%22)
 
@@ -2041,15 +2040,6 @@ Sofern aktiviert, können Benutzer ihre eigenen Beiträge im Forum mit einem 'Ge
 ```
 
 Jemandem gefällt <del>dein</del><ins>Ihr</ins> Beitrag
-
-#### [`flarum-likes.lib.gambits.posts.likedBy.key`](https://weblate.rob006.net/translate/flarum2/flarum-likes/de@formal/?q=context%3A%3D%22flarum-likes.lib.gambits.posts.likedBy.key%22)
-
-> likedBy
-
-```diff
--likedBy
-+likeVon
-```
 
 
 ### `flarum-lock`
@@ -3257,17 +3247,6 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 ```
 
 <del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> eine öffentliche Begründung abgeben.
-
-#### [`fof-moderator-warnings.forum.warning_controls.delete_forever_button`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_controls.delete_forever_button%22)
-
-> Permanently Delete
-
-```diff
--Entgültig löschen
-+Endgültig löschen
-```
-
-<del>Entgültig</del><ins>Endgültig</ins> löschen
 
 #### [`fof-moderator-warnings.forum.warning_modal.confirmation_message`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.warning_modal.confirmation_message%22)
 
