@@ -4894,6 +4894,20 @@
             }
         }
     },
+    "fof-mark-unread.json": {
+        "fof-mark-unread": {
+            "admin": {
+                "permissions": {
+                    "mark_unread_label": "d41d8cd98f00b204e9800998ecf8427e bd7abdcf3af583d0a9fa8fdb8e8ea6c2"
+                }
+            },
+            "forum": {
+                "discussion_controls": {
+                    "mark_unread_button": "d41d8cd98f00b204e9800998ecf8427e 25d3b6a398e55cccf3043c4f3fb85bf5"
+                }
+            }
+        }
+    },
     "fof-masquerade.json": {
         "flarum-audit": {
             "lib": {
@@ -5281,10 +5295,16 @@
                             "description": "e47d4ca8b898836e364322ca0d523ae4 e47d4ca8b898836e364322ca0d523ae4"
                         }
                     },
-                    "update_email_from_provider_help": "c6979ca95bdcde3d1c6aa61829c08748 c6979ca95bdcde3d1c6aa61829c08748",
+                    "update_email_from_provider_help": "c6979ca95bdcde3d1c6aa61829c08748 032f668d37457476c16fb34df6010cc2",
                     "update_email_from_provider_label": "8f6c24e5e325ac452083936423b673a5 8f6c24e5e325ac452083936423b673a5"
                 },
                 "settings_accessibility_label": "3698043c05393820c96edf87bcea6a34 3698043c05393820c96edf87bcea6a34"
+            },
+            "email": {
+                "provider_email_change_notice": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e 2f6f8e2d5817f5c4a42d4d578c5e67a0",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e 7366d646a60d92277928855b736430e8"
+                }
             },
             "forum": {
                 "error": {
@@ -5292,6 +5312,7 @@
                     "invalid_state": "527fbf14afe4f5e20bced394d1075494 527fbf14afe4f5e20bced394d1075494"
                 },
                 "log_in": {
+                    "unverified_email_in_use": "d41d8cd98f00b204e9800998ecf8427e 6d4e46872ddd4ac94d58fcfc73281a97",
                     "with_button": "f4ec740a38e45f1516083934783de474 f4ec740a38e45f1516083934783de474",
                     "with_discord_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
                     "with_facebook_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
