@@ -11,7 +11,10 @@
                 "range": "{min}–{max} Beiträge",
                 "range_open": "{min}+ Beiträge",
                 "hidden_group": "Ausgeblendete Gruppe. Mitglieder sehen diese Stufe nicht.",
-                "existing_group": "Vorhandene Gruppe"
+                "existing_group": "Vorhandene Gruppe",
+                "has_image": "",
+                "preview": "",
+                "preview_help": ""
             },
             "rerank": {
                 "button": "Alle jetzt neu einstufen",
@@ -39,6 +42,11 @@
                 "color_label": "Farbe",
                 "description_label": "Beschreibung",
                 "description_help": "Wird auf der öffentlichen Stufenseite angezeigt. Optional.",
+                "image_label": "",
+                "image_help": "",
+                "image_choose": "",
+                "image_replace": "",
+                "image_remove": "",
                 "preview_label": "Vorschau",
                 "save": "Sprosse speichern",
                 "delete": "Sprosse entfernen",
@@ -53,7 +61,13 @@
                 "exempt_label": "",
                 "exempt_help": "",
                 "show_nav_label": "",
-                "show_nav_help": ""
+                "show_nav_help": "",
+                "banner_title_label": "",
+                "banner_title_help": "",
+                "banner_tagline_label": "",
+                "banner_tagline_help": "",
+                "banner_on_index_label": "",
+                "banner_on_index_help": ""
             }
         },
         "forum": {
@@ -80,13 +94,20 @@
             }
         },
         "lib": {
+            "banner": {
+                "range": "",
+                "range_open": ""
+            },
             "errors": {
                 "min_posts_invalid": "",
                 "min_posts_taken": "",
                 "name_invalid": "",
                 "color_invalid": "",
                 "group_invalid": "",
-                "group_taken": ""
+                "group_taken": "",
+                "image_missing": "",
+                "image_too_large": "",
+                "image_type": ""
             }
         }
     }

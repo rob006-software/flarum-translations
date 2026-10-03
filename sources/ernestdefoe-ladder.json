@@ -11,7 +11,10 @@
                 "range": "{min}–{max} posts",
                 "range_open": "{min}+ posts",
                 "hidden_group": "Hidden group. Members won't see this rung.",
-                "existing_group": "Existing group"
+                "existing_group": "Existing group",
+                "has_image": "Has a picture on the banner",
+                "preview": "Banner preview",
+                "preview_help": "This is drawn from the ladder above and shown at the top of the Ranks page. Give a rank a picture to use it in place of the icon."
             },
             "rerank": {
                 "button": "Re-rank everyone now",
@@ -39,6 +42,11 @@
                 "color_label": "Colour",
                 "description_label": "Description",
                 "description_help": "Shown on the public Ranks page. Optional.",
+                "image_label": "Banner picture",
+                "image_help": "Shown on this rank's card in the banner, in place of the icon. Tall pictures fit best, about 3 wide by 5 high. PNG, JPEG, WebP or GIF, up to 8MB.",
+                "image_choose": "Choose a picture",
+                "image_replace": "Replace picture",
+                "image_remove": "Remove picture",
                 "preview_label": "Preview",
                 "save": "Save rung",
                 "delete": "Remove rung",
@@ -53,7 +61,13 @@
                 "exempt_label": "Groups that never get a rank",
                 "exempt_help": "Members of these groups are kept off the ladder entirely. Useful for bots and staff accounts.",
                 "show_nav_label": "Show a Ranks link in the forum sidebar",
-                "show_nav_help": "The Ranks page lists every rung and shows signed-in members how far they are from the next one. It's always at /ranks."
+                "show_nav_help": "The Ranks page lists every rung and shows signed-in members how far they are from the next one. It's always at /ranks.",
+                "banner_title_label": "Banner title",
+                "banner_title_help": "The heading across the top of the ranks banner. Leave empty to use your forum's name.",
+                "banner_tagline_label": "Banner tagline",
+                "banner_tagline_help": "A short line under the title, e.g. your forum's motto. Optional.",
+                "banner_on_index_label": "Also show the banner on the home page",
+                "banner_on_index_help": "Puts the ranks banner above the discussion list, so every visitor sees what there is to climb."
             }
         },
         "forum": {
@@ -80,13 +94,20 @@
             }
         },
         "lib": {
+            "banner": {
+                "range": "{min}–{max}",
+                "range_open": "{min}+"
+            },
             "errors": {
                 "min_posts_invalid": "Posts needed must be a whole number, 0 or more.",
                 "min_posts_taken": "Another rung already starts at {count} posts. Each rung needs its own threshold.",
                 "name_invalid": "Give the rank a name, up to 100 characters.",
                 "color_invalid": "The colour must be a hex value, e.g. #7c3aed.",
                 "group_invalid": "That group can't be used as a rank.",
-                "group_taken": "That group is already a rung on the ladder."
+                "group_taken": "That group is already a rung on the ladder.",
+                "image_missing": "Choose a picture to upload.",
+                "image_too_large": "That picture is larger than 8MB.",
+                "image_type": "That file isn't a PNG, JPEG, WebP or GIF picture."
             }
         }
     }

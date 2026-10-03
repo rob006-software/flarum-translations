@@ -11,7 +11,10 @@
                 "range": "",
                 "range_open": "",
                 "hidden_group": "",
-                "existing_group": ""
+                "existing_group": "",
+                "has_image": "",
+                "preview": "",
+                "preview_help": ""
             },
             "rerank": {
                 "button": "",
@@ -39,6 +42,11 @@
                 "color_label": "",
                 "description_label": "",
                 "description_help": "",
+                "image_label": "",
+                "image_help": "",
+                "image_choose": "",
+                "image_replace": "",
+                "image_remove": "",
                 "preview_label": "",
                 "save": "",
                 "delete": "",
@@ -53,7 +61,13 @@
                 "exempt_label": "",
                 "exempt_help": "",
                 "show_nav_label": "",
-                "show_nav_help": ""
+                "show_nav_help": "",
+                "banner_title_label": "",
+                "banner_title_help": "",
+                "banner_tagline_label": "",
+                "banner_tagline_help": "",
+                "banner_on_index_label": "",
+                "banner_on_index_help": ""
             }
         },
         "forum": {
@@ -80,13 +94,20 @@
             }
         },
         "lib": {
+            "banner": {
+                "range": "",
+                "range_open": ""
+            },
             "errors": {
                 "min_posts_invalid": "",
                 "min_posts_taken": "",
                 "name_invalid": "",
                 "color_invalid": "",
                 "group_invalid": "",
-                "group_taken": ""
+                "group_taken": "",
+                "image_missing": "",
+                "image_too_large": "",
+                "image_type": ""
             }
         }
     }
