@@ -61,8 +61,8 @@
                 "image": "Image",
                 "image_url": "URL de l'image",
                 "image_url_help": "URL vers l'image du nominé (p. ex. couverture du jeu)",
-                "website_url": "",
-                "website_url_help": "",
+                "website_url": "Site internet / URL du lien",
+                "website_url_help": "URL externe pour ce nominé (doit commencer par http:// ou https://)",
                 "adjust_votes": "Ajuster les votes",
                 "vote_adjustment_title": "Ajustement du vote",
                 "real_votes": "Votes réels",
@@ -190,7 +190,7 @@
                 "votes_unlimited": "{count} votes"
             },
             "nominee": {
-                "open_link": ""
+                "open_link": "Ouvrir le lien dans un nouvel onglet"
             },
             "other": {
                 "suggest": "Autre suggestion",
@@ -227,7 +227,7 @@
                 "vote_limit_reached": "Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.",
                 "vote_quota_exhausted": "Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.",
                 "cannot_delete_processed_suggestion": "Seules les suggestions en attente peuvent être annulées.",
-                "already_voted": "",
+                "already_voted": "Vous avez déjà voté pour ce nominé.",
                 "not_available": "Cette distinction n'est pas encore disponible."
             }
         },
