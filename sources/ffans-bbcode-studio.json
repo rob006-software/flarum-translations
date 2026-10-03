@@ -80,13 +80,10 @@
                 "enabled_label": "Enable rule",
                 "toolbar_enabled_label": "Add composer button",
                 "media_group": "Media recognition",
-                "source_rule_extract": "Direct extraction",
-                "source_rule_redirect": "Short-link recognition",
-                "source_rule_number": "Source rule #{number}",
-                "source_hosts_prefix": "Source domains:",
+                "source_rule_number": "Rule #{number}",
+                "source_hosts_prefix": "Identified domain:",
                 "capture_variables_prefix": "Variables:",
-                "source_rule_extract_help": "Extract content used for embedding from the complete URL. Use PCRE Named Capture Groups for variable extraction.",
-                "source_rule_redirect_help": "For short links. When a post is saved, the server records the redirected URL and then applies direct recognition.",
+                "source_rule_extract_help": "Extract embed values directly from URLs using PCRE named capture groups.",
                 "embed_url_label": "Embed URL",
                 "embed_url_help": "Use an HTTPS iframe embed URL or one beginning with //. Click to insert a variable:",
                 "capture_values_empty": "No extracted variables detected yet",
@@ -95,12 +92,12 @@
                 "aspect_ratio_label": "Aspect ratio",
                 "aspect_ratio_help": "Responsive ratio for the media player, such as 16 / 9. Leave it empty for a fixed-height player and set height in the iframe attributes.",
                 "test_url_label": "Test",
-                "test_url_help": "Tests the current unsaved rules with PHP PCRE. Short URLs are resolved by the server only when you start the test.",
+                "test_url_help": "Tests the current unsaved rules with PHP PCRE.",
                 "sort_order_label": "Sort order",
-                "sort_order_help": "Used to order custom BBCode icons in the composer."
+                "sort_order_help": "Used to order custom buttons in the composer."
             },
             "test": {
-                "matched": "Matched {type} rule #{number}",
+                "matched": "Matched rule #{number}",
                 "embed_url": "Embed URL",
                 "empty_url": "Enter a URL to test.",
                 "url_too_long": "The test URL cannot exceed 2,000 characters.",
@@ -110,8 +107,7 @@
                 "missing_pattern_capture": "Direct recognition rule #{number} does not provide every variable used by the embed URL.",
                 "missing_extract_rule": "Add at least one direct recognition rule.",
                 "empty_capture": "Rule #{number} matched, but a required capture value was empty.",
-                "redirect_failed": "Short URL rule #{number} matched, but the server could not resolve it to a supported direct URL.",
-                "no_match": "The URL did not match any source rule.",
+                "no_match": "The URL did not match any source rule. For a short link, open it and copy the full URL.",
                 "request_failed": "The test request failed. Check the connection and try again."
             }
         },
@@ -125,7 +121,8 @@
                 "example_attribute_choice": "The inserted value for {attribute} must be one of its declared choices.",
                 "source_rules_array": "Media source rules must be an array.",
                 "source_rule_invalid": "Media source rule #{number} is invalid.",
-                "source_rule_type": "Media source rule #{number} has an invalid type.",
+                "source_rule_type": "Media source rule #{number} must use direct extraction.",
+                "redirect_unsupported": "Short-link redirect rules are no longer supported. Use direct extraction rules instead.",
                 "fixed_height_required": "A fixed-height media rule must include a positive integer height, such as height='86'.",
                 "aspect_ratio_positive": "Both aspect-ratio values must be greater than zero.",
                 "embed_capture_required": "The embed URL must reference at least one named capture.",
@@ -133,8 +130,6 @@
                 "extract_capture_required": "Extraction rule #{number} must contain at least one named capture.",
                 "embed_capture_mismatch": "Every embed URL placeholder must match a named capture in every extraction rule.",
                 "extract_regexp_invalid": "Extraction rule #{number} is not a valid regular expression.",
-                "redirect_hostname_required": "Short-link rule #{number} must contain at least one literal hostname.",
-                "redirect_regexp_invalid": "Short-link rule #{number} is not a valid regular expression.",
                 "embed_url_https": "The embed URL must use HTTPS or be protocol-relative.",
                 "bbcode_definition_invalid": "The BBCode usage or rendering template is invalid.",
                 "template_attributes_undeclared": "The rendering template references attributes not declared by the BBCode usage: {attributes}.",
@@ -146,8 +141,6 @@
                 "styles_close_scope": "Custom styles cannot close the automatically generated class scope.",
                 "styles_unclosed": "The custom styles contain an unclosed comment, quote, or block.",
                 "template_requires_element": "The rendering template must output at least one HTML element so its automatic class can be applied.",
-                "regexp_delimiter_required": "The regular expression must use a delimiter.",
-                "regexp_delimiter_unclosed": "The regular expression delimiter is not closed.",
                 "iframe_attribute_format": "Iframe attributes must use the name or name='value' format.",
                 "iframe_attribute_not_allowed": "Iframe attribute \"{attribute}\" is not allowed.",
                 "iframe_attribute_repeated": "Iframe attribute \"{attribute}\" must not be repeated.",
@@ -157,12 +150,15 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "title": "Details"
+            },
             "toolbar": {
                 "title": "Insert BBCode",
                 "built_in": {
                     "notice": "Notice",
                     "kdb": "KDB",
-                    "spoiler": "Spoiler",
+                    "spoiler": "Collapser",
                     "bilibili": "Bilibili",
                     "youtube": "YouTube",
                     "vimeo": "Vimeo",

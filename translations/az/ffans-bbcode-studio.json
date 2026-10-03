@@ -80,13 +80,10 @@
                 "enabled_label": "",
                 "toolbar_enabled_label": "",
                 "media_group": "",
-                "source_rule_extract": "",
-                "source_rule_redirect": "",
                 "source_rule_number": "",
                 "source_hosts_prefix": "",
                 "capture_variables_prefix": "",
                 "source_rule_extract_help": "",
-                "source_rule_redirect_help": "",
                 "embed_url_label": "",
                 "embed_url_help": "",
                 "capture_values_empty": "",
@@ -110,7 +107,6 @@
                 "missing_pattern_capture": "",
                 "missing_extract_rule": "",
                 "empty_capture": "",
-                "redirect_failed": "",
                 "no_match": "",
                 "request_failed": ""
             }
@@ -126,6 +122,7 @@
                 "source_rules_array": "",
                 "source_rule_invalid": "",
                 "source_rule_type": "",
+                "redirect_unsupported": "",
                 "fixed_height_required": "",
                 "aspect_ratio_positive": "",
                 "embed_capture_required": "",
@@ -133,8 +130,6 @@
                 "extract_capture_required": "",
                 "embed_capture_mismatch": "",
                 "extract_regexp_invalid": "",
-                "redirect_hostname_required": "",
-                "redirect_regexp_invalid": "",
                 "embed_url_https": "",
                 "bbcode_definition_invalid": "",
                 "template_attributes_undeclared": "",
@@ -146,8 +141,6 @@
                 "styles_close_scope": "",
                 "styles_unclosed": "",
                 "template_requires_element": "",
-                "regexp_delimiter_required": "",
-                "regexp_delimiter_unclosed": "",
                 "iframe_attribute_format": "",
                 "iframe_attribute_not_allowed": "",
                 "iframe_attribute_repeated": "",
@@ -157,6 +150,9 @@
             }
         },
         "forum": {
+            "spoiler": {
+                "title": ""
+            },
             "toolbar": {
                 "title": "",
                 "built_in": {

@@ -80,13 +80,10 @@
                 "enabled_label": "Bật quy tắc",
                 "toolbar_enabled_label": "Thêm nút vào trình soạn thảo",
                 "media_group": "Nhận dạng đa phương tiện",
-                "source_rule_extract": "Trích xuất trực tiếp",
-                "source_rule_redirect": "Nhận dạng liên kết rút gọn",
                 "source_rule_number": "Quy tắc nguồn #{number}",
                 "source_hosts_prefix": "Tên miền nguồn:",
                 "capture_variables_prefix": "Biến:",
                 "source_rule_extract_help": "Trích xuất phần nội dung dùng để nhúng từ URL đầy đủ. Hãy dùng nhóm bắt có tên của PCRE để trích xuất biến.",
-                "source_rule_redirect_help": "Dành cho liên kết rút gọn. Khi một bài viết được lưu, máy chủ ghi lại URL sau khi chuyển hướng rồi áp dụng nhận dạng trực tiếp.",
                 "embed_url_label": "URL nhúng",
                 "embed_url_help": "Hãy dùng URL nhúng iframe theo HTTPS hoặc bắt đầu bằng //. Bấm để chèn một biến:",
                 "capture_values_empty": "Chưa phát hiện biến trích xuất nào",
@@ -97,7 +94,10 @@
                 "test_url_label": "Tin nhắn thử nghiệm",
                 "test_url_help": "Kiểm tra các quy tắc chưa lưu hiện tại bằng PCRE của PHP. Máy chủ chỉ phân giải các URL rút gọn khi bạn bắt đầu kiểm tra.",
                 "sort_order_label": "Thứ tự sắp xếp",
-                "sort_order_help": "Dùng để sắp xếp các biểu tượng BBCode tùy chỉnh trong trình soạn thảo."
+                "sort_order_help": "Dùng để sắp xếp các biểu tượng BBCode tùy chỉnh trong trình soạn thảo.",
+                "source_rule_extract": "Trích xuất trực tiếp",
+                "source_rule_redirect": "Nhận dạng liên kết rút gọn",
+                "source_rule_redirect_help": "Dành cho liên kết rút gọn. Khi một bài viết được lưu, máy chủ ghi lại URL sau khi chuyển hướng rồi áp dụng nhận dạng trực tiếp."
             },
             "test": {
                 "matched": "Khớp quy tắc {type} #{number}",
@@ -110,9 +110,9 @@
                 "missing_pattern_capture": "Quy tắc nhận dạng trực tiếp #{number} không cung cấp đủ mọi biến mà URL nhúng sử dụng.",
                 "missing_extract_rule": "Hãy thêm ít nhất một quy tắc nhận dạng trực tiếp.",
                 "empty_capture": "Quy tắc #{number} khớp, nhưng một giá trị bắt buộc lại rỗng.",
-                "redirect_failed": "Quy tắc URL rút gọn #{number} khớp, nhưng máy chủ không phân giải được nó thành một URL trực tiếp được hỗ trợ.",
                 "no_match": "URL không khớp với quy tắc nguồn nào.",
-                "request_failed": "Yêu cầu kiểm tra thất bại. Hãy kiểm tra kết nối và thử lại."
+                "request_failed": "Yêu cầu kiểm tra thất bại. Hãy kiểm tra kết nối và thử lại.",
+                "redirect_failed": "Quy tắc URL rút gọn #{number} khớp, nhưng máy chủ không phân giải được nó thành một URL trực tiếp được hỗ trợ."
             }
         },
         "api": {
@@ -126,6 +126,7 @@
                 "source_rules_array": "Các quy tắc nguồn đa phương tiện phải là một mảng.",
                 "source_rule_invalid": "Quy tắc nguồn đa phương tiện #{number} không hợp lệ.",
                 "source_rule_type": "Quy tắc nguồn đa phương tiện #{number} có loại không hợp lệ.",
+                "redirect_unsupported": "",
                 "fixed_height_required": "Quy tắc đa phương tiện có chiều cao cố định phải kèm một số nguyên dương cho height, ví dụ height='86'.",
                 "aspect_ratio_positive": "Cả hai giá trị của tỉ lệ khung hình đều phải lớn hơn không.",
                 "embed_capture_required": "URL nhúng phải tham chiếu ít nhất một nhóm bắt có tên.",
@@ -133,8 +134,6 @@
                 "extract_capture_required": "Quy tắc trích xuất #{number} phải chứa ít nhất một nhóm bắt có tên.",
                 "embed_capture_mismatch": "Mọi chỗ giữ chỗ trong URL nhúng đều phải khớp với một nhóm bắt có tên trong mọi quy tắc trích xuất.",
                 "extract_regexp_invalid": "Quy tắc trích xuất #{number} không phải là một biểu thức chính quy hợp lệ.",
-                "redirect_hostname_required": "Quy tắc liên kết rút gọn #{number} phải chứa ít nhất một tên miền tường minh.",
-                "redirect_regexp_invalid": "Quy tắc liên kết rút gọn #{number} không phải là một biểu thức chính quy hợp lệ.",
                 "embed_url_https": "URL nhúng phải dùng HTTPS hoặc theo giao thức tương đối.",
                 "bbcode_definition_invalid": "Phần cách dùng BBCode hoặc mẫu hiển thị không hợp lệ.",
                 "template_attributes_undeclared": "Mẫu hiển thị tham chiếu những thuộc tính chưa được khai báo trong phần cách dùng BBCode: {attributes}.",
@@ -146,17 +145,22 @@
                 "styles_close_scope": "Kiểu dáng tùy chỉnh không được đóng phạm vi lớp được tạo tự động.",
                 "styles_unclosed": "Kiểu dáng tùy chỉnh chứa một chú thích, dấu nháy hoặc khối chưa được đóng.",
                 "template_requires_element": "Mẫu hiển thị phải tạo ra ít nhất một phần tử HTML để lớp tự động có thể được áp dụng.",
-                "regexp_delimiter_required": "Biểu thức chính quy phải có ký tự phân cách.",
-                "regexp_delimiter_unclosed": "Ký tự phân cách của biểu thức chính quy chưa được đóng.",
                 "iframe_attribute_format": "Các thuộc tính iframe phải theo định dạng name hoặc name='value'.",
                 "iframe_attribute_not_allowed": "Thuộc tính iframe \"{attribute}\" không được phép.",
                 "iframe_attribute_repeated": "Thuộc tính iframe \"{attribute}\" không được lặp lại.",
                 "iframe_attribute_requires_value": "Thuộc tính iframe \"{attribute}\" cần một giá trị đặt trong dấu nháy.",
                 "iframe_attribute_static_value": "Giá trị của thuộc tính iframe phải là văn bản tĩnh.",
-                "iframe_attribute_quote_types": "Giá trị của thuộc tính iframe không được chứa cả hai loại dấu nháy."
+                "iframe_attribute_quote_types": "Giá trị của thuộc tính iframe không được chứa cả hai loại dấu nháy.",
+                "redirect_hostname_required": "Quy tắc liên kết rút gọn #{number} phải chứa ít nhất một tên miền tường minh.",
+                "redirect_regexp_invalid": "Quy tắc liên kết rút gọn #{number} không phải là một biểu thức chính quy hợp lệ.",
+                "regexp_delimiter_required": "Biểu thức chính quy phải có ký tự phân cách.",
+                "regexp_delimiter_unclosed": "Ký tự phân cách của biểu thức chính quy chưa được đóng."
             }
         },
         "forum": {
+            "spoiler": {
+                "title": ""
+            },
             "toolbar": {
                 "title": "Chèn BBCode",
                 "built_in": {
