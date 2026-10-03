@@ -257,6 +257,9 @@ return [
 	'ernestdefoe-warren' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-waymark' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/waymark/1.0.1/locale/en.yml',
+	],
 	'ffans-bbcode-studio' => [
 		'beta' => 'https://raw.githubusercontent.com/FFans/bbcode-studio/v2.0.0-beta.3/locale/en.yml',
 		'__builtInLanguages' => [
