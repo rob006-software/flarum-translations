@@ -203,6 +203,9 @@ return [
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-nameplate' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/nameplate/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.4/locale/en.yml',
 	],
