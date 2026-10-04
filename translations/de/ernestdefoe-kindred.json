@@ -1,18 +1,18 @@
 {
     "ernestdefoe-kindred": {
         "forum": {
-            "heading": "",
-            "replies": ""
+            "heading": "Ähnliche Diskussionen",
+            "replies": "{count, plural, =0 {Keine Antworten} one {# Antwort} other {# Antworten}}"
         },
         "admin": {
-            "limit": "",
-            "limit_help": "",
-            "max_age": "",
+            "limit": "Anzahl der Diskussionen",
+            "limit_help": "Wie viele ähnliche Diskussionen maximal angezeigt werden sollen (1-20). Wenn keine ähnlichen gefunden wurden, wird nichts angezeigt.",
+            "max_age": "Ignoriere Diskussionen, die länger inaktiv waren (in Tagen)",
             "max_age_help": "",
-            "extra_stopwords": "",
+            "extra_stopwords": "Stopwörter, die ignoriert werden sollen",
             "extra_stopwords_help": "",
-            "extra_stopwords_placeholder": "",
-            "sidebar": "",
+            "extra_stopwords_placeholder": "Fussball, Spiele, Saison",
+            "sidebar": "Auch in der Seitenleiste von Diskussionen auf breiten Bildschirmen anzeigen",
             "sidebar_help": ""
         }
     }
