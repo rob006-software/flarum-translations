@@ -94,6 +94,12 @@
                     "title": "de55f3429efef9d994dbe410026143e3 de55f3429efef9d994dbe410026143e3"
                 },
                 "basics": {
+                    "abandoned_extensions_heading": "eb614a6da7bebcd7df8331599178e263 eb614a6da7bebcd7df8331599178e263",
+                    "abandoned_extensions_notify_admins_label": "de35dff96077c85e8b5afffcc4b44321 de35dff96077c85e8b5afffcc4b44321",
+                    "abandoned_extensions_sync_button": "aeef9d566c222433046bcc0df34ccf49 aeef9d566c222433046bcc0df34ccf49",
+                    "abandoned_extensions_sync_error": "d7d95d4fe2314d061b6962f1b85c8c54 d7d95d4fe2314d061b6962f1b85c8c54",
+                    "abandoned_extensions_sync_success": "87a0edbb4e0d57372711331b59e8eae9 87a0edbb4e0d57372711331b59e8eae9",
+                    "abandoned_extensions_text": "3f3f44c830473f78eb61be4feb2f5713 3f3f44c830473f78eb61be4feb2f5713",
                     "all_discussions_label": "fa93b126d1b9a3781a8facaff4f045ff fa93b126d1b9a3781a8facaff4f045ff",
                     "default_language_heading": "391a03ff079e5899466c25ae022069d9 391a03ff079e5899466c25ae022069d9",
                     "description": "9e82400556434bb62db5adda598be8b3 9e82400556434bb62db5adda598be8b3",
@@ -249,6 +255,7 @@
                         "discussion": "00168cf74d5252a6c2bd4c8b30d50616 00168cf74d5252a6c2bd4c8b30d50616",
                         "feature": "2fbb08d2cf19595d63833a5fe49b5e39 2fbb08d2cf19595d63833a5fe49b5e39",
                         "formatting": "1e33853143e34ea19225c2586c17a3d3 1e33853143e34ea19225c2586c17a3d3",
+                        "forum-widget": "39823f7c6f05f322b9431bb6d162bbdf 39823f7c6f05f322b9431bb6d162bbdf",
                         "language": "90b0f8f3fdeccfe4802e15b91c95d92c 90b0f8f3fdeccfe4802e15b91c95d92c",
                         "moderation": "bbdf79ff3400cd3ccc4771c905e6b879 bbdf79ff3400cd3ccc4771c905e6b879",
                         "other": "55a1e211afa4913879fe234245766552 55a1e211afa4913879fe234245766552",
@@ -363,6 +370,9 @@
                 }
             },
             "email": {
+                "abandoned_extensions": {
+                    "subject": "87be6f61b9d51147432a887587100259 87be6f61b9d51147432a887587100259"
+                },
                 "activate_account": {
                     "subject": "e5215d4db459bdc38b1656c5882282c7 e5215d4db459bdc38b1656c5882282c7"
                 },
@@ -629,6 +639,7 @@
                 "badge": {
                     "hidden_tooltip": "bd42588af691df64b906d81d403e85d7 bd42588af691df64b906d81d403e85d7"
                 },
+                "connection_restored_message": "eaa3738ddc9568085ad7ec98c24f7faa eaa3738ddc9568085ad7ec98c24f7faa",
                 "data_segment": {
                     "label": "4005f6e781f147f712c9633fe0f95be2 4005f6e781f147f712c9633fe0f95be2"
                 },
@@ -662,7 +673,9 @@
                     "generic_cross_origin_message": "3868c7dc1318023469608004dc094fc0 3868c7dc1318023469608004dc094fc0",
                     "generic_message": "ea0a065b263173f8fac249edbd07c28d ea0a065b263173f8fac249edbd07c28d",
                     "missing_dependencies_message": "a66683600f1b0fe21729d4cc1696ed53 a66683600f1b0fe21729d4cc1696ed53",
+                    "network_message": "d1c49c97d7df19c0b4b43fc478635f40 d1c49c97d7df19c0b4b43fc478635f40",
                     "not_found_message": "a88e0fb7eb600994e9f3d699fd0d7936 a88e0fb7eb600994e9f3d699fd0d7936",
+                    "offline_message": "15cf72fa60664bf85b5f8431704468ec 15cf72fa60664bf85b5f8431704468ec",
                     "payload_too_large_message": "89c500d21b27a13e89891d133c4fc03f 89c500d21b27a13e89891d133c4fc03f",
                     "permission_denied_message": "542b0c211015ce3538cf20653b0e3575 542b0c211015ce3538cf20653b0e3575",
                     "rate_limit_exceeded_message": "43a79244716eb87db104ea3482a1c295 43a79244716eb87db104ea3482a1c295",

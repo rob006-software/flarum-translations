@@ -174,12 +174,12 @@
                 "title": "Setări de bază",
                 "welcome_banner_heading": "Mesaj de bun-venit",
                 "welcome_banner_text": "Introduceți textul care va apărea deasupra listei de discuții. Utilizați-l pentru a ura bun venit noilor vizitatori ai acestui forum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Extensii abandonate",
+                "abandoned_extensions_text": "Flarum menține o <a>listă comunitară de extensii abandonate</a>. Când o extensie instalată apare în listă, aceasta va fi marcată în panoul de administrare.",
+                "abandoned_extensions_sync_button": "Verifică acum",
+                "abandoned_extensions_sync_success": "Lista de extensii abandonate actualizată. S-a găsit {count} extensie instalată care se potrivește.",
+                "abandoned_extensions_sync_error": "Eșec la preluarea listei de extensii abandonate. Te rugăm să încerci din nou mai târziu.",
+                "abandoned_extensions_notify_admins_label": "Trimite un e-mail administratorilor când este detectată o extensie nou abandonată în timpul verificării săptămânale"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -414,7 +414,7 @@
                     "discussion": "Discuție",
                     "feature": "Caracteristici",
                     "formatting": "Formatare",
-                    "forum-widget": "",
+                    "forum-widget": "Widget-uri pentru forum",
                     "infrastructure": "Infrastructură",
                     "language": "Limbi",
                     "moderation": "Moderare",
@@ -808,7 +808,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Conexiunea a fost restabilită.",
             "debug_button": "Depanare",
             "alert": {
                 "dismiss_a11y_label": "Închide"
@@ -849,9 +849,9 @@
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "Hopa! Ceva nu a funcționat corect în timpul unei solicitări între origini (cross-origin). Te rugăm să reîncarci pagina și să încerci din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
-                "network_message": "",
+                "network_message": "Ceva pare să fie în neregulă cu conexiunea ta. Te rugăm să îți verifici rețeaua și să încerci din nou.",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
-                "offline_message": "",
+                "offline_message": "Pare că ești deconectat. Te rugăm să îți verifici conexiunea și să încerci din nou.",
                 "payload_too_large_message": "Datele utile ale cererii au fost prea mari.",
                 "permission_denied_message": "Nu aveți permisiunea de a face acest lucru.",
                 "rate_limit_exceeded_message": "Faceți totul prea rapid. Vă rugăm, încercați din nou peste câteva secunde.",
@@ -1119,7 +1119,7 @@
                 "body": "Acesta este un e-mail de test pentru a confirma că setările de e-mail Flarum funcționează corect.\n\nDacă ați fost dumneavoastră, acest e-mail înseamnă că setările funcționează!\n\nDacă nu ați fost dumneavoastră, vă rugăm să ignorați acest e-mail.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Acțiune necesară: s-a(u) detectat extensie(s) abandonată(e)",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
