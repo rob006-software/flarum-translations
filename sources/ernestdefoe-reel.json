@@ -1,0 +1,37 @@
+{
+    "ernestdefoe-reel": {
+        "forum": {
+            "button": "Add a GIF",
+            "title": "Add a GIF",
+            "search_placeholder": "Search GIFs",
+            "trending": "Trending",
+            "results_for": "Results for “{query}”",
+            "no_results": "No GIFs found. Try another word.",
+            "untitled": "GIF",
+            "powered_by": "Powered by {provider}",
+            "failed": "GIFs couldn't be loaded. Please try again.",
+            "slow_down": "You're searching very quickly. Wait a moment and try again."
+        },
+        "admin": {
+            "permission": "Search for GIFs",
+            "provider": "GIF provider",
+            "provider_help": "Where GIFs come from. Each needs its own free API key below.",
+            "giphy_key": "GIPHY API key",
+            "giphy_key_help": "Create an app (choose API, not SDK) and copy its key at",
+            "klipy_key": "KLIPY API key",
+            "klipy_key_help": "Sign up, create an app and copy its key at",
+            "rating": "Content rating",
+            "rating_help": "The most adult content searches can return.",
+            "rating_g": "G, suitable for everyone",
+            "rating_pg": "PG",
+            "rating_pg13": "PG-13",
+            "rating_r": "R, adults only"
+        },
+        "lib": {
+            "errors": {
+                "not_configured": "GIF search isn't set up on this forum yet.",
+                "unavailable": "The GIF service didn't answer. Please try again in a moment."
+            }
+        }
+    }
+}

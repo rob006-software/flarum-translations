@@ -1,0 +1,38 @@
+{
+    "ernestdefoe-greeter": {
+        "admin": {
+            "enabled": "Welcome new members",
+            "enabled_help": "Each new member is welcomed once, when they are actually in: when they confirm their email address, or when Gatehouse approves them. Existing members are never messaged.",
+            "channel": "Send the welcome as",
+            "channel_help": "A private message uses Parley if it is installed, otherwise Flarum's own private messages.",
+            "channel_message": "A private message",
+            "channel_email": "An email",
+            "channel_both": "Both",
+            "sender": "Send it from",
+            "sender_help": "The username the private message comes from, for example your own or a staff account. Leave it empty to use the first admin.",
+            "sender_placeholder": "The first admin",
+            "subject": "Email subject",
+            "subject_help": "For the email. You can use {username}, {display_name}, {forum} and {url}.",
+            "body": "The welcome",
+            "body_help": "Used for both the private message and the email. You can use {username}, {display_name}, {forum} and {url}. Leave it empty for the standard welcome.",
+            "default_subject_placeholder": "Welcome to {forum}!",
+            "default_body_placeholder": "Hi {display_name}, welcome to {forum}! …",
+            "test": {
+                "button": "Send a test to yourself",
+                "help": "Sends the welcome to you, using the saved settings. Save first.",
+                "message": "Private message",
+                "email": "Email",
+                "status_sent": "sent: check your messages and inbox.",
+                "status_off": "not used by the current setting.",
+                "status_failed": "failed. The forum's log has the reason.",
+                "status_no_messages": "nothing to send it with: enable Parley or Flarum's private messages.",
+                "status_no_sender": "skipped: you are the sender, and nobody can message themselves. Try it from another admin account, or set a different sender.",
+                "status_already": "already welcomed."
+            }
+        },
+        "lib": {
+            "default_subject": "Welcome to {forum}!",
+            "default_body": "Hi {display_name}, welcome to {forum}!\n\nWe're glad you're here. Have a look around, say hello in a discussion, and if you have a question, just reply to this message.\n\n{url}\n"
+        }
+    }
+}

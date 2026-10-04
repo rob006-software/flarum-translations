@@ -1,0 +1,65 @@
+{
+    "ernestdefoe-folio": {
+        "forum": {
+            "export": "Export",
+            "modal": {
+                "title": "Export this discussion",
+                "format": "Format",
+                "contents": "Contents",
+                "scope_all": "Whole discussion",
+                "scope_first": "First post only",
+                "include": "Include",
+                "authors": "Author names",
+                "dates": "Dates",
+                "avatars": "Avatars",
+                "download": "Download",
+                "private_note": "The file contains only the posts you can see.",
+                "failed": "The export could not be created. Please try again.",
+                "throttled": "You just exported something. Wait a few seconds and try again.",
+                "use_word": "Export as Word instead"
+            }
+        },
+        "admin": {
+            "permission": "Export discussions",
+            "formats_heading": "Formats",
+            "format_pdf": "PDF",
+            "format_docx": "Word (DOCX)",
+            "format_markdown": "Markdown",
+            "scripts_heading": "Chinese, Japanese, Korean, Arabic, Hebrew and other scripts in PDFs",
+            "scripts_ok": "Ready: mPDF is installed, and PDFs of discussions in these scripts are set with it automatically.",
+            "scripts_missing": "Not set up. PDFs of discussions containing these scripts are refused, and the member is pointed to Word, which shows every language. To enable them, run:",
+            "document_heading": "The document",
+            "paper": "Paper size",
+            "paper_a4": "A4",
+            "paper_letter": "US Letter",
+            "header": "Header text",
+            "header_help": "Printed above the title. You can use {forum}, {title}, {date} and {url}.",
+            "footer": "Footer text",
+            "footer_help": "Printed after the last post. The same placeholders work here.",
+            "filename": "File name",
+            "filename_help": "Without the extension. You can use {title}, {id}, {date} and {forum}.",
+            "max_posts": "Most posts in one export",
+            "max_posts_help": "A longer discussion is cut here, and the file says how many posts were left out.",
+            "remote_images": "Include images from other websites",
+            "remote_images_help": "Off: only images uploaded to this forum are put in the file, and others become links. On: images linked from other sites are downloaded too, with a 5 MB limit and private network addresses refused.",
+            "custom_css": "Custom CSS for PDF exports",
+            "custom_css_help": "Applied to exported PDFs only. It never affects the forum itself."
+        },
+        "lib": {
+            "format_pdf": "PDF",
+            "format_docx": "Word",
+            "format_markdown": "Markdown",
+            "deleted_user": "[deleted]",
+            "edited": "edited",
+            "exported_on": "Exported {date}",
+            "page_of": "Page {page} of {pages}",
+            "image_unavailable": "image",
+            "omitted": "{count, plural, one {# more post was} other {# more posts were}} left out because the discussion is longer than this forum exports.",
+            "spoiler": "Spoiler:",
+            "errors": {
+                "unknown_format": "That export format is not available.",
+                "needs_mpdf": "This discussion contains Chinese, Japanese, Korean, Arabic, Hebrew or another script this forum's PDF export can't set correctly. Export it as Word instead: Word shows every language properly."
+            }
+        }
+    }
+}

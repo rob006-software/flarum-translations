@@ -1,0 +1,34 @@
+{
+    "ernestdefoe-cadence": {
+        "forum": {
+            "map_label": "Activity over time",
+            "metric_label": "What to show",
+            "kind_all": "All",
+            "kind_discussion": "Discussions",
+            "kind_reply": "Replies",
+            "kind_like": "Likes",
+            "kind_reaction": "Reactions",
+            "kind_best_answer": "Best answers",
+            "kind_count_discussion": "{count, plural, one {# discussion started} other {# discussions started}}",
+            "kind_count_reply": "{count, plural, one {# reply} other {# replies}}",
+            "kind_count_like": "{count, plural, one {# like given} other {# likes given}}",
+            "kind_count_reaction": "{count, plural, one {# reaction} other {# reactions}}",
+            "kind_count_best_answer": "{count, plural, one {# best answer} other {# best answers}}",
+            "nothing_on": "Nothing on {date}",
+            "count_on": "{count, plural, one {# thing on {date}} other {# things on {date}}}",
+            "spark_label": "{count, plural, one {# thing in the last 26 weeks} other {# things in the last 26 weeks}}",
+            "less": "Less",
+            "more": "More",
+            "nothing": "Nothing",
+            "at_least": "{count, plural, one {# or more} other {# or more}}"
+        },
+        "admin": {
+            "show_on_profile": "Show the map on member profiles",
+            "show_on_profile_help": "The full map, on every profile. This is the one most forums want.\n",
+            "show_on_posts": "Show a sparkline beside every post",
+            "show_on_posts_help": "A small twenty-six week trace next to each author. Costs one extra query per distinct member on a page — not per post — so it is cheap, but it is off unless you ask for it.\n",
+            "show_on_cards": "Show a sparkline on user cards",
+            "show_on_cards_help": "On hover cards and anywhere else a member is summarised.\n"
+        }
+    }
+}
