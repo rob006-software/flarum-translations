@@ -179,6 +179,9 @@ return [
 	'ernestdefoe-google-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.4/locale/en.yml',
 	],
+	'ernestdefoe-greeter' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/greeter/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-group-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.3/locale/en.yml',
 	],
