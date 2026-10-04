@@ -194,6 +194,9 @@ return [
 	'ernestdefoe-janitor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-kindred' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kindred/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-ladder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.1.0/locale/en.yml',
 	],
