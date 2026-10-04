@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **316** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **57** components.
+sides, but do not match between them: **314** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **56** components.
 
 <!-- {% raw %} -->
 
@@ -13,10 +13,9 @@ translated only in `de@formal`. Altogether they cover **57** components.
 | Component | Different translations |
 | --- | --- |
 | `acpl-my-tags` | [2](#acpl-my-tags) |
-| `blomstra-fontawesome` | [1](#blomstra-fontawesome) |
 | `blomstra-oauth-apple` | [1](#blomstra-oauth-apple) |
 | `clarkwinkelmann-emojionearea` | [1](#clarkwinkelmann-emojionearea) |
-| `core` | [79](#core) |
+| `core` | [78](#core) |
 | `datitisev-backup` | [14](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
@@ -101,20 +100,6 @@ Each entry contains the English source string, followed by a diff between the tr
 <del>Du</del><ins>Sie</ins> <del>folgst</del><ins>haben</ins> noch <del>keinen</del><ins>keine</ins> Tags. &lt;a&gt;Siehe <del>Tags&lt;/a&gt;</del><ins>Tags &lt;/a&gt;</ins>
 
 
-### `blomstra-fontawesome`
-
-#### [`blomstra-fontawesome.admin.settings.test.fa6_free`](https://weblate.rob006.net/translate/flarum/blomstra-fontawesome/de@formal/?q=context%3A%3D%22blomstra-fontawesome.admin.settings.test.fa6_free%22)
-
-> FontAwesome 6 Free
-
-```diff
--FontAwesome 6 Free
-+FontAwesome 6 Kostenlos
-```
-
-FontAwesome 6 <del>Free</del><ins>Kostenlos</ins>
-
-
 ### `blomstra-oauth-apple`
 
 #### [`fof-oauth.admin.settings.providers.apple.keyfile_upload_help`](https://weblate.rob006.net/translate/flarum/blomstra-oauth-apple/de@formal/?q=context%3A%3D%22fof-oauth.admin.settings.providers.apple.keyfile_upload_help%22)
@@ -173,10 +158,10 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 
 ```diff
 -Ändere die Farben, das Logo und weitere Variablen des Forums.
-+Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.
++Ändern Sie die Farbe, das Logo und weitere Variablen des Forums.
 ```
 
-<del>Ändere</del><ins>Verändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
+<del>Ändere</del><ins>Ändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
 
@@ -199,15 +184,6 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 ```
 
 <del>Lade</del><ins>Laden Sie</ins> ein Bild hoch, welches als Favicon für das Forum verwendet wird.
-
-#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
-
-> Logo
-
-```diff
--Logo
-+Firmenzeichen
-```
 
 #### [`core.admin.appearance.logo_text`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_text%22)
 
