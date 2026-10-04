@@ -210,7 +210,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kindred/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-ladder' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.3.0/locale/en.yml',
 	],
 	'ernestdefoe-logo-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.1/locale/en.yml',
