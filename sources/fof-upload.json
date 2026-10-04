@@ -86,6 +86,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
+                    "deprecated": "Imgur no longer issues API client IDs, so this adapter is deprecated and will be removed in a future version. Move these file types to another storage adapter.",
                     "title": "Imgur image storage settings",
                     "tos": "It is your responsibility to ensure your forum users adhere to Imgur's <a>Terms of service</a>"
                 },
@@ -292,6 +293,7 @@
             "file_list": {
                 "loading": "Loading files...",
                 "empty": "There are no files to show.",
+                "load_error": "Could not load files. Please try again.",
                 "release_to_upload": "Release to upload",
                 "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
                 "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
