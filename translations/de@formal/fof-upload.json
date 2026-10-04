@@ -87,7 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur Client ID",
-                    "deprecated": "",
+                    "deprecated": "Imgur vergibt keine API-Client-IDs mehr, daher ist dieser Adapter veraltet und wird in einer zukünftigen Version entfernt. Verschiebe diese Dateitypen auf einen anderen Speicheradapter.",
                     "title": "Imgur Bilder Speichereinstellungen",
                     "tos": "Es liegt in deiner Verantwortung sicherzustellen, dass deine Forenbenutzer die <a>Nutzungsbedingungen</a> von Imgur einhalten"
                 },
@@ -296,7 +296,7 @@
             "file_list": {
                 "loading": "Dateien laden...",
                 "empty": "Es existieren keine Dateien zum Anzeigen.",
-                "load_error": "",
+                "load_error": "Dateien konnten nicht geladen werden. Bitte versuche es erneut.",
                 "release_to_upload": "Veröffentlichung zum Hochladen",
                 "modal_empty_desktop": "Deine Dateiliste ist leer. Klicke auf die Schaltfläche oder ziehe eine Datei hierher, um sie hochzuladen.",
                 "modal_empty_phone": "Deine Dateiliste ist leer. Tippe auf die Schaltfläche oben, um eine Datei hochzuladen.",
