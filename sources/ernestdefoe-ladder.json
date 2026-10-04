@@ -4,21 +4,37 @@
             "ladder": {
                 "heading": "The ladder",
                 "help": "Each rung is a group with a post threshold. Members hold exactly one rung, the highest their post count has reached, and their other groups are never touched.",
+                "help_points": "Each rung is a group with a points threshold. Members hold exactly one rung, the highest their points have reached, and their other groups are never touched.",
                 "empty": "No rungs yet. Add the first one, usually a rank that starts at 0 posts so every member has one from the day they join.",
+                "empty_points": "No rungs yet. Add the first one, usually a rank that starts at 0 points so every member has one from the day they join.",
                 "add": "Add a rung",
                 "edit": "Edit",
                 "members": "{count, plural, one {# member} other {# members}}",
                 "range": "{min}–{max} posts",
                 "range_open": "{min}+ posts",
+                "range_points": "{min}–{max} points",
+                "range_open_points": "{min}+ points",
                 "hidden_group": "Hidden group. Members won't see this rung.",
                 "existing_group": "Existing group",
                 "has_image": "Has a picture on the banner",
                 "preview": "Banner preview",
                 "preview_help": "This is drawn from the ladder above and shown at the top of the Ranks page. Give a rank a picture to use it in place of the icon."
             },
+            "metric": {
+                "label": "Rank members by",
+                "posts": "Posts",
+                "points": "Leaderboard points",
+                "votes": "Gamification points",
+                "help": "Posts counts every reply and discussion a member writes.",
+                "help_points": "Leaderboard points use the totals from the Leaderboard extension, so likes, reactions, best answers and anything else it scores all count.",
+                "help_votes": "Gamification points are the upvotes and downvotes a member's posts have received, from FoF Gamification. Ranks change the moment a vote is cast.",
+                "points_note": "A member's rank is checked against their points whenever they use the forum, at most every two minutes, so it follows points they earn while away, such as likes on their posts.",
+                "switched": "Now ranking by {metric}, and everyone has been re-ranked. Check the thresholds below still make sense for it."
+            },
             "rerank": {
                 "button": "Re-rank everyone now",
                 "help": "Puts every member on the rung their post count has earned. Runs on its own after you change the ladder; use this after changing the settings below.",
+                "help_points": "Puts every member on the rung their points have earned. Runs on its own after you change the ladder; use it too after Leaderboard recalculates its totals.",
                 "running": "Re-ranking… {done} of {total} members",
                 "finished": "Done. {changed, plural, =0 {Everyone was already on the right rung.} one {# member changed rank.} other {# members changed rank.}}",
                 "failed": "Re-ranking stopped partway, so some members may be on the wrong rung. Run it again to finish."
@@ -37,6 +53,8 @@
                 "plural_help": "Used where Flarum lists the group's members. Leave empty to use the rank name.",
                 "min_posts_label": "Posts needed",
                 "min_posts_help": "A member reaches this rung at this many posts, and stays on it until they reach the next one.",
+                "min_posts_label_points": "Points needed",
+                "min_posts_help_points": "A member reaches this rung at this many points, and stays on it until they reach the next one.",
                 "icon_label": "Icon",
                 "icon_help": "A Font Awesome class, e.g. fas fa-tv. It shows on the rank badge.",
                 "color_label": "Colour",
@@ -56,8 +74,8 @@
             "settings": {
                 "inherit_label": "Higher ranks keep the permissions of lower ones",
                 "inherit_help": "Rank groups usually need no permissions, since every member already has the Member group's. To unlock something at a rank, grant it once to the lowest rank that should have it and every rank above inherits it. Members still wear one rank badge.",
-                "demote_label": "Move members down when their post count drops",
-                "demote_help": "Off by default, so a rank once reached is kept even if posts are deleted later. Turn on for a strict post-count ranking.",
+                "demote_label": "Move members down when they fall below their rank",
+                "demote_help": "Off by default, so a rank once reached is kept even if posts are deleted or points are taken away later. Turn on for a strict ranking.",
                 "exempt_label": "Groups that never get a rank",
                 "exempt_help": "Members of these groups are kept off the ladder entirely. Useful for bots and staff accounts.",
                 "show_nav_label": "Show a Ranks link in the forum sidebar",
@@ -75,16 +93,23 @@
             "ranks": {
                 "title": "Ranks",
                 "intro": "Every post you make moves you up the ladder. Here's every rank, and what it takes to reach it.",
+                "intro_points": "Everything that earns you points moves you up the ladder. Here's every rank, and what it takes to reach it.",
                 "empty": "This forum hasn't set up any ranks yet.",
                 "range": "{min}–{max} posts",
                 "range_open": "{min}+ posts",
+                "range_points": "{min}–{max} points",
+                "range_open_points": "{min}+ points",
                 "members": "{count, plural, one {# member} other {# members}}",
                 "you_are_here": "You are here",
                 "your_rank": "You're a {rank}, with {count, plural, one {# post} other {# posts}}.",
+                "your_rank_points": "You're a {rank}, with {count, plural, one {# point} other {# points}}.",
                 "next": "{count, plural, one {# more post} other {# more posts}} to reach {rank}.",
+                "next_points": "{count, plural, one {# more point} other {# more points}} to reach {rank}.",
                 "top": "You've reached the top rank.",
                 "unranked": "{count, plural, one {# more post} other {# more posts}} to reach your first rank, {rank}.",
-                "guest": "Sign up and start posting to climb the ladder."
+                "unranked_points": "{count, plural, one {# more point} other {# more points}} to reach your first rank, {rank}.",
+                "guest": "Sign up and start posting to climb the ladder.",
+                "exempt": "Your group is kept off the ladder, so you don't hold a rank."
             },
             "notifications": {
                 "promoted": "You've reached the rank {rank}!"
@@ -101,6 +126,8 @@
             "errors": {
                 "min_posts_invalid": "Posts needed must be a whole number, 0 or more.",
                 "min_posts_taken": "Another rung already starts at {count} posts. Each rung needs its own threshold.",
+                "min_points_invalid": "Points needed must be a whole number, 0 or more.",
+                "min_points_taken": "Another rung already starts at {count} points. Each rung needs its own threshold.",
                 "name_invalid": "Give the rank a name, up to 100 characters.",
                 "color_invalid": "The colour must be a hex value, e.g. #7c3aed.",
                 "group_invalid": "That group can't be used as a rank.",

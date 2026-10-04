@@ -45,6 +45,10 @@
                 "disc_style_help": "默认使用当前的讨论页样式。「编辑式排版」会加宽阅读区域，并在头像栏中用一条细线串联整个对话，每个头像作为细线上的节点，时间间隔则显示为带时间标签的小节点。两种样式的页头保持一致。仅桌面端生效。无论选择哪种样式，手机和平板布局不变。\n",
                 "disc_style_default": "默认",
                 "disc_style_editorial": "编辑式排版（对话轴线）",
+                "reply_to_header_label": "",
+                "reply_to_header_help": "",
+                "reply_dock_label": "",
+                "reply_dock_help": "",
                 "post_badge_position_label": "帖子中用户组徽章位置",
                 "post_badge_position_help": "设置成员的用户组徽章在帖子中的显示位置。Flarum 默认是圆形徽章并叠加在头像上。其他选项会将每个徽章显示为胶囊样式，在图标旁显示用户组名称。无论是否启用固定头像效果都可使用。手机端始终使用紧凑的叠加样式。\n",
                 "post_badge_position_default": "Flarum 默认（关闭自定义样式 — 圆形徽章叠在头像上）",
@@ -68,6 +72,13 @@
                 "showcase_image_style_help": "选择紧凑图片或完整高度图片。",
                 "showcase_image_style_default": "默认（紧凑）",
                 "showcase_image_style_full": "完整图片",
+                "section_home_feed": "",
+                "home_feed_sort_label": "",
+                "home_feed_sort_help": "",
+                "home_feed_sort_popular": "",
+                "home_feed_sort_latest": "",
+                "home_feed_count_label": "",
+                "home_feed_count_help": "",
                 "section_titles_heading": "首页栏目标题",
                 "section_titles_help": "自定义首页各栏目的标题。留空则使用语言包中的默认文本。",
                 "categories_heading_label": "板块栏目标题",
@@ -344,6 +355,7 @@
                 "new_discussion": "发起讨论",
                 "no_tags_found": "未找到标签",
                 "or": "或",
+                "latest_heading": "",
                 "popular_heading": "热门讨论",
                 "popular_no_discussions": "暂无讨论。",
                 "replies": "回复",
@@ -437,6 +449,7 @@
                 "message": "私信"
             },
             "post": {
+                "in_reply_to": "",
                 "op_badge": "楼主",
                 "copy_code": "复制代码"
             },
@@ -466,6 +479,10 @@
                 "member_since": "加入于",
                 "member_singular": "位成员",
                 "member_plural": "位成员"
+            },
+            "composer": {
+                "remove_reply": "",
+                "guest_pill": ""
             },
             "changelog": {
                 "title": "更新日志",

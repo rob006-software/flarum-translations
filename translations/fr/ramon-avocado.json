@@ -45,6 +45,10 @@
                 "disc_style_help": "Par défaut, la page est celle d'aujourd'hui. Le style Éditorial élargit la colonne de lecture et tisse le fil de la conversation à l'aide d'une fine ligne verticale qui descend le long de la colonne des avatars, chaque avatar y figurant comme un nœud et chaque intervalle de temps devenant une étape libellée. L'en-tête est identique dans les deux cas. Pour les ordinateurs de bureau uniquement — les téléphones et les tablettes conservent la page actuelle dans tous les cas.\n",
                 "disc_style_default": "Par défaut",
                 "disc_style_editorial": "Éditorial (fil de la conversation)",
+                "reply_to_header_label": "",
+                "reply_to_header_help": "",
+                "reply_dock_label": "",
+                "reply_dock_help": "",
                 "post_badge_position_label": "Position du badge de groupe dans les messages",
                 "post_badge_position_help": "Emplacement des badges de groupe d'un membre dans un message. La première option désactive le badge personnalisé et revient au badge rond de Flarum superposé à l'avatar. Toutes les autres options transforment chaque badge en capsule avec le nom du groupe à côté de son icône. Fonctionne avec l'effet d'avatar fixe activé ou non. Sur téléphone, la superposition compacte est toujours conservée.\n",
                 "post_badge_position_default": "Par défaut Flarum (désactivé — disque au-dessus de l'avatar)",
@@ -68,6 +72,13 @@
                 "showcase_image_style_help": "Choisir entre un affichage des images en mode compact ou en pleine hauteur.",
                 "showcase_image_style_default": "Par défaut (Compact)",
                 "showcase_image_style_full": "Image entière",
+                "section_home_feed": "",
+                "home_feed_sort_label": "",
+                "home_feed_sort_help": "",
+                "home_feed_sort_popular": "",
+                "home_feed_sort_latest": "",
+                "home_feed_count_label": "",
+                "home_feed_count_help": "",
                 "section_titles_heading": "Titres des sections",
                 "section_titles_help": "Remplacer les titres des sections de la page d'accueil. Laisser un champ vide pour utiliser le titre par défaut du pack de langue.",
                 "categories_heading_label": "Titre de la section « Catégories »",
@@ -335,6 +346,7 @@
                 "new_discussion": "Nouvelle discussion",
                 "no_tags_found": "Aucune étiquette trouvée",
                 "or": "ou",
+                "latest_heading": "",
                 "popular_heading": "Discussions populaires",
                 "popular_no_discussions": "Aucune discussion pour le moment.",
                 "replies": "Réponses",
@@ -428,6 +440,7 @@
                 "message": "Message"
             },
             "post": {
+                "in_reply_to": "",
                 "op_badge": "AO",
                 "copy_code": "Copier le code"
             },
@@ -456,6 +469,10 @@
                 "member_since": "Depuis",
                 "member_singular": "membre",
                 "member_plural": "membres"
+            },
+            "composer": {
+                "remove_reply": "",
+                "guest_pill": ""
             },
             "changelog": {
                 "title": "Journal des modifications",

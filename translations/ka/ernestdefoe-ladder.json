@@ -4,21 +4,37 @@
             "ladder": {
                 "heading": "",
                 "help": "",
+                "help_points": "",
                 "empty": "",
+                "empty_points": "",
                 "add": "",
                 "edit": "",
                 "members": "",
                 "range": "",
                 "range_open": "",
+                "range_points": "",
+                "range_open_points": "",
                 "hidden_group": "",
                 "existing_group": "",
                 "has_image": "",
                 "preview": "",
                 "preview_help": ""
             },
+            "metric": {
+                "label": "",
+                "posts": "",
+                "points": "",
+                "votes": "",
+                "help": "",
+                "help_points": "",
+                "help_votes": "",
+                "points_note": "",
+                "switched": ""
+            },
             "rerank": {
                 "button": "",
                 "help": "",
+                "help_points": "",
                 "running": "",
                 "finished": "",
                 "failed": ""
@@ -37,6 +53,8 @@
                 "plural_help": "",
                 "min_posts_label": "",
                 "min_posts_help": "",
+                "min_posts_label_points": "",
+                "min_posts_help_points": "",
                 "icon_label": "",
                 "icon_help": "",
                 "color_label": "",
@@ -75,16 +93,23 @@
             "ranks": {
                 "title": "",
                 "intro": "",
+                "intro_points": "",
                 "empty": "",
                 "range": "",
                 "range_open": "",
+                "range_points": "",
+                "range_open_points": "",
                 "members": "",
                 "you_are_here": "",
                 "your_rank": "",
+                "your_rank_points": "",
                 "next": "",
+                "next_points": "",
                 "top": "",
                 "unranked": "",
-                "guest": ""
+                "unranked_points": "",
+                "guest": "",
+                "exempt": ""
             },
             "notifications": {
                 "promoted": ""
@@ -101,6 +126,8 @@
             "errors": {
                 "min_posts_invalid": "",
                 "min_posts_taken": "",
+                "min_points_invalid": "",
+                "min_points_taken": "",
                 "name_invalid": "",
                 "color_invalid": "",
                 "group_invalid": "",

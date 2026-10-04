@@ -45,6 +45,10 @@
                 "disc_style_help": "Standardmäßig wird die aktuelle Seite angezeigt. Im redaktionellen Modus wird die Lesespalte verbreitert und die Konversation durch einen hauchdünnen Strich entlang der Avatar-Spalte verlaufend dargestellt, wobei jeder Avatar als Knotenpunkt darauf sitzt und jede Zeitlücke zu einer beschrifteten Station wird. Die Kopfzeile ist in beiden Modi identisch. Nur auf dem Desktop – auf Smartphones und Tablets bleibt in beiden Fällen die aktuelle Seite angezeigt.\n",
                 "disc_style_default": "Standard",
                 "disc_style_editorial": "Redaktionell (dünner Strich)",
+                "reply_to_header_label": "",
+                "reply_to_header_help": "",
+                "reply_dock_label": "",
+                "reply_dock_help": "",
                 "post_badge_position_label": "Position von Gruppenabzeichen in Beiträgen",
                 "post_badge_position_help": "Die Position der Gruppenabzeichen eines Mitglieds in einem Beitrag. Die erste Option deaktiviert das benutzerdefinierte Abzeichen: Es wird wieder das runde Flarum-Abzeichen angezeigt, das den Avatar überlagert. Alle anderen Optionen wandeln jedes Abzeichen in eine Kapsel um, in der der Gruppenname neben dem Symbol steht. Funktioniert unabhängig davon, ob der „Fixierter Avatar“-Effekt aktiviert oder deaktiviert ist. Auf Mobilgeräten wird immer die kompakte Überlagerung angezeigt.\n",
                 "post_badge_position_default": "Flarum Standard (aus — Scheibe über dem Avatar)",
@@ -68,6 +72,13 @@
                 "showcase_image_style_help": "Wähle zwischen kompakter oder Bildanzeige in voller Höhe.",
                 "showcase_image_style_default": "Standard (kompakt)",
                 "showcase_image_style_full": "Volles Bild",
+                "section_home_feed": "",
+                "home_feed_sort_label": "",
+                "home_feed_sort_help": "",
+                "home_feed_sort_popular": "",
+                "home_feed_sort_latest": "",
+                "home_feed_count_label": "",
+                "home_feed_count_help": "",
                 "section_titles_heading": "Abschnitttitel",
                 "section_titles_help": "Überschreibe die Titel der Abschnitte auf der Startseite. Lasse ein Feld leer, um die Standardeinstellung des Sprachpakets zu verwenden.",
                 "categories_heading_label": "Titel für Kategorien-Abschnitt",
@@ -344,6 +355,7 @@
                 "new_discussion": "Neue Diskussion",
                 "no_tags_found": "Keine Tags gefunden",
                 "or": "oder",
+                "latest_heading": "",
                 "popular_heading": "Populäre Diskussionen",
                 "popular_no_discussions": "Noch keine Diskussionen.",
                 "replies": "Antworten",
@@ -437,6 +449,7 @@
                 "message": "Nachricht"
             },
             "post": {
+                "in_reply_to": "",
                 "op_badge": "Verfasser",
                 "copy_code": "Code kopieren"
             },
@@ -465,6 +478,10 @@
                 "member_since": "Seit",
                 "member_singular": "Mitglied",
                 "member_plural": "Mitglieder"
+            },
+            "composer": {
+                "remove_reply": "",
+                "guest_pill": ""
             },
             "changelog": {
                 "title": "Änderungsprotokoll",

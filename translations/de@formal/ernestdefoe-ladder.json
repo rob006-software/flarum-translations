@@ -4,21 +4,37 @@
             "ladder": {
                 "heading": "Die Rangliste",
                 "help": "Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.",
+                "help_points": "",
                 "empty": "Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.",
+                "empty_points": "",
                 "add": "Einen Rang hinzufügen",
                 "edit": "Bearbeiten",
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
                 "range": "{min}–{max} Beiträge",
                 "range_open": "{min}+ Beiträge",
+                "range_points": "",
+                "range_open_points": "",
                 "hidden_group": "Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.",
                 "existing_group": "Vorhandene Gruppe",
                 "has_image": "Hat ein Bild auf dem Banner",
                 "preview": "Bannervorschau",
                 "preview_help": "Diese Information wird aus der obigen Rangliste übernommen und oben auf der Seite „Ränge“ angezeigt. Weise einem Rang ein Bild zu, um es anstelle des Symbols zu verwenden."
             },
+            "metric": {
+                "label": "",
+                "posts": "",
+                "points": "",
+                "votes": "",
+                "help": "",
+                "help_points": "",
+                "help_votes": "",
+                "points_note": "",
+                "switched": ""
+            },
             "rerank": {
                 "button": "Alle jetzt neu einstufen",
                 "help": "",
+                "help_points": "",
                 "running": "Neueinstufung… {done} von {total} Mitgliedern",
                 "finished": "Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf dem richtigen Rang.} one {# Mitglied hat seinen Rang geändert.} other {# Mitglieder haben ihre Ränge geändert.}}",
                 "failed": ""
@@ -37,6 +53,8 @@
                 "plural_help": "",
                 "min_posts_label": "Nötige Beiträge",
                 "min_posts_help": "",
+                "min_posts_label_points": "",
+                "min_posts_help_points": "",
                 "icon_label": "Symbol",
                 "icon_help": "",
                 "color_label": "Farbe",
@@ -75,16 +93,23 @@
             "ranks": {
                 "title": "Ränge",
                 "intro": "",
+                "intro_points": "",
                 "empty": "",
                 "range": "{min}–{max} Beiträge",
                 "range_open": "{min}+ Beiträge",
+                "range_points": "",
+                "range_open_points": "",
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
                 "you_are_here": "Du bist hier",
                 "your_rank": "",
+                "your_rank_points": "",
                 "next": "{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um {rank} zu erreichen.",
+                "next_points": "",
                 "top": "Du hast den höchsten Rang erreicht.",
                 "unranked": "{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um den ersten Rang zu erreichen: {rank}.",
-                "guest": ""
+                "unranked_points": "",
+                "guest": "",
+                "exempt": ""
             },
             "notifications": {
                 "promoted": "Du hast den Rang {rank} erreicht!"
@@ -101,6 +126,8 @@
             "errors": {
                 "min_posts_invalid": "",
                 "min_posts_taken": "",
+                "min_points_invalid": "",
+                "min_points_taken": "",
                 "name_invalid": "",
                 "color_invalid": "",
                 "group_invalid": "",

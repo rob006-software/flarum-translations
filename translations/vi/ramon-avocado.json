@@ -45,6 +45,10 @@
                 "disc_style_help": "Mặc định là trang hiện tại. Kiểu Editorial mở rộng cột đọc và nối cuộc trò chuyện bằng một đường mảnh chạy dọc cột ảnh đại diện, mỗi ảnh đại diện là một nút trên đường đó và mỗi khoảng thời gian trống trở thành một mốc có nhãn. Phần đầu trang giống nhau ở cả hai kiểu. Chỉ áp dụng trên máy tính, điện thoại và máy tính bảng vẫn giữ trang hiện tại trong cả hai trường hợp.\n",
                 "disc_style_default": "Mặc định",
                 "disc_style_editorial": "Editorial (đường nối cuộc trò chuyện)",
+                "reply_to_header_label": "",
+                "reply_to_header_help": "",
+                "reply_dock_label": "",
+                "reply_dock_help": "",
                 "post_badge_position_label": "Vị trí huy hiệu nhóm trong bài viết",
                 "post_badge_position_help": "Nơi huy hiệu nhóm của thành viên nằm trong một bài viết. Lựa chọn đầu tiên tắt huy hiệu tùy chỉnh và quay về huy hiệu tròn của Flarum đè lên ảnh đại diện. Mọi lựa chọn khác biến từng huy hiệu thành một viên nang có tên nhóm bên cạnh biểu tượng. Dùng được dù hiệu ứng ảnh đại diện cố định bật hay tắt. Điện thoại luôn giữ kiểu đè gọn.\n",
                 "post_badge_position_default": "Mặc định của Flarum (tắt — đĩa tròn đè lên ảnh đại diện)",
@@ -68,6 +72,13 @@
                 "showcase_image_style_help": "Chọn giữa kiểu hiển thị ảnh gọn hoặc ảnh cao toàn phần.",
                 "showcase_image_style_default": "Mặc định (gọn)",
                 "showcase_image_style_full": "Ảnh đầy đủ",
+                "section_home_feed": "",
+                "home_feed_sort_label": "",
+                "home_feed_sort_help": "",
+                "home_feed_sort_popular": "",
+                "home_feed_sort_latest": "",
+                "home_feed_count_label": "",
+                "home_feed_count_help": "",
                 "section_titles_heading": "Tiêu đề các mục",
                 "section_titles_help": "Ghi đè tiêu đề của các mục trên trang chủ. Hãy để trống ô nào bạn muốn dùng tiêu đề mặc định của gói ngôn ngữ.",
                 "categories_heading_label": "Tiêu đề mục Danh mục",
@@ -335,6 +346,7 @@
                 "new_discussion": "Thảo luận mới",
                 "no_tags_found": "Không tìm thấy thẻ nào",
                 "or": "hoặc",
+                "latest_heading": "",
                 "popular_heading": "Thảo luận nổi bật",
                 "popular_no_discussions": "Chưa có cuộc thảo luận nào.",
                 "replies": "Câu trả lời",
@@ -428,6 +440,7 @@
                 "message": "Nhắn tin"
             },
             "post": {
+                "in_reply_to": "",
                 "op_badge": "Chủ thớt",
                 "copy_code": "Sao chép mã"
             },
@@ -456,6 +469,10 @@
                 "member_since": "Từ",
                 "member_singular": "thành viên",
                 "member_plural": "thành viên"
+            },
+            "composer": {
+                "remove_reply": "",
+                "guest_pill": ""
             },
             "changelog": {
                 "title": "",
