@@ -1,0 +1,68 @@
+{
+    "ernestdefoe-gatehouse": {
+        "forum": {
+            "notice_pending": "Thanks for signing up! An admin needs to approve your account before you can post. We'll email you as soon as that happens.",
+            "notice_declined": "Your account was not approved, so it can't be used on this forum.",
+            "notification": "{name} signed up and is waiting for your approval"
+        },
+        "admin": {
+            "queue_heading": "Waiting for approval",
+            "queue": {
+                "tab_pending": "Waiting",
+                "tab_declined": "Declined",
+                "tab_approved": "Approved",
+                "empty_pending": "Nobody is waiting.",
+                "empty_declined": "Nobody has been declined.",
+                "empty_approved": "Nobody has been approved through Gatehouse yet.",
+                "signed_up": "Signed up",
+                "approved_by": "Approved by {name}",
+                "declined_by": "Declined by {name}",
+                "approve": "Approve",
+                "decline": "Decline"
+            },
+            "rules_heading": "Rules",
+            "enabled": "Hold new sign-ups for approval",
+            "enabled_help": "Existing members are never affected. Admins adding members by hand are never held.",
+            "allow": "Let these in automatically",
+            "allow_help": "One per line. A domain (uni-freiburg.de, which includes its subdomains), an exact domain (@staff.example.org), an ending (.edu), a wildcard (*@example.com) or a regular expression between slashes. Everyone else waits. Leave it empty to approve every new member by hand.",
+            "deny": "Refuse these outright",
+            "deny_help": "Same patterns. These addresses can't sign up at all, and the form says so.",
+            "usernames_heading": "Usernames",
+            "reserved_usernames": "Reserved usernames",
+            "reserved_usernames_help": "One per line. Nobody but an admin can sign up with these, or rename themselves to one later. Not case-sensitive. Use * as a wildcard (admin*, *moderator*) or a regular expression between slashes. Works whether or not sign-ups are held for approval.",
+            "messages_heading": "Emails",
+            "held_message": "Extra text for applicants who are waiting",
+            "held_message_help": "Added to the 'we've received your application' email. Say what you need from them, for example: reply with your student ID.",
+            "declined_message": "Extra text for declined applicants",
+            "declined_message_help": "Added to the email sent when you decline someone. Leave it empty for the standard wording."
+        },
+        "lib": {
+            "refused": "Sign-ups from this email address aren't accepted on this forum.",
+            "username_reserved": "That username isn't available. Please choose another.",
+            "signin_pending": "Your account is waiting for an admin to approve it. We'll email you when it's ready.",
+            "signin_declined": "This account was not approved, so it can't be used on this forum."
+        },
+        "email": {
+            "held": {
+                "subject": "Your {forum} account is waiting for approval",
+                "body": "Thanks for signing up to {forum}. New accounts here are approved by hand, so an admin will look at yours shortly. You’ll get another email as soon as they do.\n\n{message}\n"
+            },
+            "approved_activate": {
+                "subject": "Welcome to {forum}: your account is approved",
+                "body": "Your {forum} account has been approved. Confirm your email address with this link and you’re in:\n\n{url}\n"
+            },
+            "approved": {
+                "subject": "Welcome to {forum}: your account is approved",
+                "body": "Your {forum} account has been approved. You can sign in now:\n\n{url}\n"
+            },
+            "declined": {
+                "subject": "Your {forum} account",
+                "body": "Thanks for your interest in {forum}. Your account wasn’t approved, so it can’t be used to sign in.\n\n{message}\n"
+            },
+            "admin_new": {
+                "subject": "{applicant} is waiting to join {forum}",
+                "body": "{applicant} ({email}) signed up and is waiting for approval.\n\nApprove or decline them here:\n\n{url}\n"
+            }
+        }
+    }
+}
