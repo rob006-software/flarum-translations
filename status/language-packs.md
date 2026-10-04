@@ -1638,7 +1638,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
+		<td><a href="https://github.com/flarum-lang/romanian">Romanian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/romanian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/romanian" alt="last release" style="max-width: 160px;" />
