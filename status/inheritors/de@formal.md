@@ -227,10 +227,10 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 
 ```diff
 -Ändere die Farben, das Logo und weitere Variablen des Forums.
-+Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.
++Ändern Sie die Farbe, das Logo und weitere Variablen des Forums.
 ```
 
-<del>Ändere</del><ins>Verändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
+<del>Ändere</del><ins>Ändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
 

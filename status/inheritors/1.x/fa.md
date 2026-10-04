@@ -2,8 +2,8 @@
 
 Translations for Persian (`fa`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **80** are
-translated only in `fa`. Altogether they cover **38** components.
+sides, but do not match between them: **0** are translated differently and **79** are
+translated only in `fa`. Altogether they cover **37** components.
 
 <!-- {% raw %} -->
 
@@ -24,7 +24,6 @@ translated only in `fa`. Altogether they cover **38** components.
 | `fof-best-answer` | [1](#fof-best-answer-missing) |
 | `fof-forum-stats-widget` | [1](#fof-forum-stats-widget-missing) |
 | `fof-geoip` | [1](#fof-geoip-missing) |
-| `fof-polls` | [1](#fof-polls-missing) |
 | `fof-pwa` | [1](#fof-pwa-missing) |
 | `fof-sentry` | [1](#fof-sentry-missing) |
 | `fof-upload` | [1](#fof-upload-missing) |
@@ -373,17 +372,6 @@ These strings are translated only in `fa`, so there is nothing to inherit from F
 ### `fof-geoip` (missing)
 
 #### [`fof-geoip.admin.settings.general.heading`](https://weblate.rob006.net/translate/flarum2/fof-geoip/fa/?q=context%3A%3D%22fof-geoip.admin.settings.general.heading%22)
-
-> General Settings
-
-```diff
-+تنظیمات عمومی
-```
-
-
-### `fof-polls` (missing)
-
-#### [`fof-polls.admin.settings.general.heading`](https://weblate.rob006.net/translate/flarum2/fof-polls/fa/?q=context%3A%3D%22fof-polls.admin.settings.general.heading%22)
 
 > General Settings
 

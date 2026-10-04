@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **4** are translated differently and **19** are
-translated only in `de@formal`. Altogether they cover **3** components.
+sides, but do not match between them: **3** are translated differently and **21** are
+translated only in `de@formal`. Altogether they cover **4** components.
 
 <!-- {% raw %} -->
 
@@ -12,8 +12,9 @@ translated only in `de@formal`. Altogether they cover **3** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [2](#core) | 0 |
+| `core` | [1](#core) | 0 |
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
+| `fof-mark-unread` | 0 | [2](#fof-mark-unread-missing) |
 | `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
 
 
@@ -23,15 +24,6 @@ Each entry contains the English source string, followed by a diff between the tr
 
 
 ### `core`
-
-#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
-
-> Logo
-
-```diff
--Firmenzeichen
-+Logo
-```
 
 #### [`core.forum.discussion_controls.log_in_to_reply_button`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.discussion_controls.log_in_to_reply_button%22)
 
@@ -225,6 +217,25 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Du bist dabei, {forumName} zu verlassen
+```
+
+
+### `fof-mark-unread` (missing)
+
+#### [`fof-mark-unread.admin.permissions.mark_unread_label`](https://weblate.rob006.net/translate/flarum2/fof-mark-unread/de@formal/?q=context%3A%3D%22fof-mark-unread.admin.permissions.mark_unread_label%22)
+
+> Mark discussions as unread
+
+```diff
++Diskussionen als ungelesen markieren
+```
+
+#### [`fof-mark-unread.forum.discussion_controls.mark_unread_button`](https://weblate.rob006.net/translate/flarum2/fof-mark-unread/de@formal/?q=context%3A%3D%22fof-mark-unread.forum.discussion_controls.mark_unread_button%22)
+
+> Mark as unread
+
+```diff
++Als ungelesen markieren
 ```
 
 <!-- {% endraw %} -->

@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **19** are
-translated only in `de`. Altogether they cover **3** components.
+sides, but do not match between them: **3** are translated differently and **21** are
+translated only in `de`. Altogether they cover **4** components.
 
 <!-- {% raw %} -->
 
@@ -15,6 +15,7 @@ translated only in `de`. Altogether they cover **3** components.
 | `core` | [2](#core) | 0 |
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
+| `fof-mark-unread` | 0 | [2](#fof-mark-unread-missing) |
 
 
 ## Different translations
@@ -214,6 +215,25 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Du bist dabei, {forumName} zu verlassen
+```
+
+
+### `fof-mark-unread` (missing)
+
+#### [`fof-mark-unread.admin.permissions.mark_unread_label`](https://weblate.rob006.net/translate/flarum2/fof-mark-unread/de/?q=context%3A%3D%22fof-mark-unread.admin.permissions.mark_unread_label%22)
+
+> Mark discussions as unread
+
+```diff
++Diskussionen als ungelesen markieren
+```
+
+#### [`fof-mark-unread.forum.discussion_controls.mark_unread_button`](https://weblate.rob006.net/translate/flarum2/fof-mark-unread/de/?q=context%3A%3D%22fof-mark-unread.forum.discussion_controls.mark_unread_button%22)
+
+> Mark as unread
+
+```diff
++Als ungelesen markieren
 ```
 
 <!-- {% endraw %} -->
