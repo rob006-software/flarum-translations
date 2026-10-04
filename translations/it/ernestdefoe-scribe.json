@@ -29,6 +29,7 @@
                 "code_block": "",
                 "link": "",
                 "image": "",
+                "video": "",
                 "table": "",
                 "toggle_header_cell": "",
                 "add_row": "",
@@ -54,6 +55,18 @@
                 "image_placeholder": "",
                 "spoiler_title_placeholder": "",
                 "info_title_placeholder": ""
+            },
+            "video": {
+                "placeholder": "",
+                "unsupported": "",
+                "provider_off": "",
+                "play": "",
+                "watch_on": "",
+                "player_title": "",
+                "caption_placeholder": "",
+                "caption_label": "",
+                "replace": "",
+                "remove": ""
             }
         },
         "admin": {
@@ -62,7 +75,14 @@
             "palette_label": "",
             "toolbar_empty": "",
             "palette_empty": "",
-            "reset": ""
+            "reset": "",
+            "video": {
+                "heading": "",
+                "help": "",
+                "enabled": "",
+                "providers": "",
+                "not_supported": ""
+            }
         }
     }
 }

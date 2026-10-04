@@ -29,6 +29,7 @@
                 "code_block": "Codeblock",
                 "link": "Link",
                 "image": "Bild",
+                "video": "",
                 "table": "Tabelle",
                 "toggle_header_cell": "Kopfzeile umschalten",
                 "add_row": "Zeile hinzufügen",
@@ -54,6 +55,18 @@
                 "image_placeholder": "Bildadresse…",
                 "spoiler_title_placeholder": "Spoilertitel…",
                 "info_title_placeholder": "Titel…"
+            },
+            "video": {
+                "placeholder": "",
+                "unsupported": "",
+                "provider_off": "",
+                "play": "",
+                "watch_on": "",
+                "player_title": "",
+                "caption_placeholder": "",
+                "caption_label": "",
+                "replace": "",
+                "remove": ""
             }
         },
         "admin": {
@@ -62,7 +75,14 @@
             "palette_label": "Verfügbare Funktionen",
             "toolbar_empty": "Ziehe eine Funktion hierher, um die Symbolleiste anzupassen.",
             "palette_empty": "Alle Funktionen sind jetzt in der Symbolleiste.",
-            "reset": "Auf Standard zurücksetzen"
+            "reset": "Auf Standard zurücksetzen",
+            "video": {
+                "heading": "",
+                "help": "",
+                "enabled": "",
+                "providers": "",
+                "not_supported": ""
+            }
         }
     }
 }

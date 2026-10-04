@@ -29,6 +29,7 @@
                 "code_block": "Code block",
                 "link": "Link",
                 "image": "Image",
+                "video": "Video",
                 "table": "Table",
                 "toggle_header_cell": "Toggle header cell",
                 "add_row": "Add row",
@@ -54,6 +55,18 @@
                 "image_placeholder": "Image address…",
                 "spoiler_title_placeholder": "Spoiler title…",
                 "info_title_placeholder": "Title…"
+            },
+            "video": {
+                "placeholder": "Paste a video link (YouTube, Vimeo, TikTok…)",
+                "unsupported": "That link isn't a video Scribe can embed. Use the link button to add it as a link.",
+                "provider_off": "Embedding {provider} videos is switched off on this forum.",
+                "play": "Play {provider} video",
+                "watch_on": "Watch on {provider}",
+                "player_title": "{provider} video player",
+                "caption_placeholder": "Add a caption (optional)",
+                "caption_label": "Video caption",
+                "replace": "Replace video",
+                "remove": "Remove video"
             }
         },
         "admin": {
@@ -62,7 +75,14 @@
             "palette_label": "Available features",
             "toolbar_empty": "Drag features here to build your toolbar.",
             "palette_empty": "Every feature is already in the toolbar.",
-            "reset": "Reset to defaults"
+            "reset": "Reset to defaults",
+            "video": {
+                "heading": "Video embeds",
+                "help": "Paste a link to a supported video on its own line and it becomes an embed. Readers see a preview; nothing is loaded from the video site until they press play. Switching a provider off keeps new links to it as links, and existing embeds then open the video's own page instead of playing in the post.\n",
+                "enabled": "Embed videos (click to load)",
+                "providers": "Providers",
+                "not_supported": "Not supported, so they stay links: fb.watch, vm.tiktok.com and facebook.com/share links (they are redirects), Rumble, Kick and X/Twitter.\n"
+            }
         }
     }
 }

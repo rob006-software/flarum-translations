@@ -161,6 +161,8 @@
                 "logo_svg_help": "Upload a custom SVG logo for your forum.",
                 "logo_enabled_label": "Enable Custom Logo",
                 "logo_enabled_help": "Display the custom logo in the header.",
+                "link_icon_svg_label": "Internal link icon (SVG)",
+                "link_icon_svg_help": "Replaces the favicon in links to other discussions of the forum (#123). It is painted in the link color, so it follows colored accents — only the shape of the SVG is used.",
                 "custom_loading_spinner_label": "Custom loading spinner",
                 "custom_loading_spinner_help": "Replace the default text loading indicator with an animated SVG spinner.",
                 "loading_spinner_style_label": "Spinner style",
@@ -442,7 +444,10 @@
             "post": {
                 "in_reply_to": "In reply to",
                 "op_badge": "OP",
-                "copy_code": "Copy code"
+                "copy_code": "Copy code",
+                "gallery_prev": "Previous photos",
+                "gallery_next": "Next photos",
+                "gallery_count": "{count} photos"
             },
             "messages": {
                 "deleted_message": "Message deleted"

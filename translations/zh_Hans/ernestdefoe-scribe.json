@@ -29,6 +29,7 @@
                 "code_block": "代码块",
                 "link": "链接",
                 "image": "图片",
+                "video": "",
                 "table": "表格",
                 "toggle_header_cell": "切换表头单元格",
                 "add_row": "添加行",
@@ -54,6 +55,18 @@
                 "image_placeholder": "图片地址…",
                 "spoiler_title_placeholder": "剧透标题…",
                 "info_title_placeholder": "标题…"
+            },
+            "video": {
+                "placeholder": "",
+                "unsupported": "",
+                "provider_off": "",
+                "play": "",
+                "watch_on": "",
+                "player_title": "",
+                "caption_placeholder": "",
+                "caption_label": "",
+                "replace": "",
+                "remove": ""
             }
         },
         "admin": {
@@ -62,7 +75,14 @@
             "palette_label": "可用功能",
             "toolbar_empty": "将功能拖到这里以配置工具栏。",
             "palette_empty": "所有功能都已添加到工具栏。",
-            "reset": "恢复默认设置"
+            "reset": "恢复默认设置",
+            "video": {
+                "heading": "",
+                "help": "",
+                "enabled": "",
+                "providers": "",
+                "not_supported": ""
+            }
         }
     }
 }

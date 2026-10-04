@@ -29,6 +29,7 @@
                 "code_block": "Khối mã",
                 "link": "Liên kết",
                 "image": "Hình ảnh",
+                "video": "",
                 "table": "Bảng",
                 "toggle_header_cell": "Bật/tắt ô tiêu đề",
                 "add_row": "Thêm dòng",
@@ -54,6 +55,18 @@
                 "image_placeholder": "Địa chỉ hình ảnh…",
                 "spoiler_title_placeholder": "Tiêu đề phần spoiler…",
                 "info_title_placeholder": "Tiêu đề…"
+            },
+            "video": {
+                "placeholder": "",
+                "unsupported": "",
+                "provider_off": "",
+                "play": "",
+                "watch_on": "",
+                "player_title": "",
+                "caption_placeholder": "",
+                "caption_label": "",
+                "replace": "",
+                "remove": ""
             }
         },
         "admin": {
@@ -62,7 +75,14 @@
             "palette_label": "Tính năng có sẵn",
             "toolbar_empty": "Hãy kéo các tính năng vào đây để dựng thanh công cụ của bạn.",
             "palette_empty": "Mọi tính năng đều đã nằm trong thanh công cụ.",
-            "reset": "Đặt lại về mặc định"
+            "reset": "Đặt lại về mặc định",
+            "video": {
+                "heading": "",
+                "help": "",
+                "enabled": "",
+                "providers": "",
+                "not_supported": ""
+            }
         }
     }
 }

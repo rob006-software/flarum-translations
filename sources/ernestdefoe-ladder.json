@@ -111,6 +111,24 @@
                 "guest": "Sign up and start posting to climb the ladder.",
                 "exempt": "Your group is kept off the ladder, so you don't hold a rank."
             },
+            "members": {
+                "score": "{count, plural, one {# post} other {# posts}}",
+                "score_points": "{count, plural, one {# point} other {# points}}",
+                "empty": "Nobody holds this rank yet.",
+                "more": "Show more ({shown} of {total})"
+            },
+            "profile": {
+                "heading": "Rank",
+                "unranked": "No rank yet",
+                "score": "{count, plural, one {# post} other {# posts}}",
+                "score_points": "{count, plural, one {# point} other {# points}}",
+                "next": "{count, plural, one {# more post} other {# more posts}} until {name} reaches {rank}.",
+                "next_points": "{count, plural, one {# more point} other {# more points}} until {name} reaches {rank}.",
+                "next_own": "{count, plural, one {# more post} other {# more posts}} to reach {rank}.",
+                "next_own_points": "{count, plural, one {# more point} other {# more points}} to reach {rank}.",
+                "top": "{name} has reached the top rank.",
+                "top_own": "You've reached the top rank."
+            },
             "notifications": {
                 "promoted": "You've reached the rank {rank}!"
             },
