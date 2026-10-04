@@ -2,101 +2,101 @@
     "ernestdefoe-ladder": {
         "admin": {
             "ladder": {
-                "heading": "Die Leiter",
-                "help": "Jede Stufe entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einer Stufe an, nämlich der höchsten, die ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.",
-                "empty": "Es gibt noch keine Stufen. Füge die erste hinzu – in der Regel eine Stufe, die bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an eine hat.",
-                "add": "Eine Stufe hinzufügen",
+                "heading": "Die Rangliste",
+                "help": "Jeder Rang entspricht einer Gruppe mit einer bestimmten Beitragsschwelle. Mitglieder gehören genau einem Rang an, nämlich dem höchsten, den ihre Beitragszahl freischaltet, und ihre anderen Gruppen bleiben davon unberührt.",
+                "empty": "Es gibt noch keine Ränge. Füge den ersten hinzu – in der Regel einen Rang, der bei 0 Beiträgen beginnt, damit jedes Mitglied vom Tag seines Beitritts an einen hat.",
+                "add": "Einen Rang hinzufügen",
                 "edit": "Bearbeiten",
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
                 "range": "{min}–{max} Beiträge",
                 "range_open": "{min}+ Beiträge",
-                "hidden_group": "Ausgeblendete Gruppe. Mitglieder sehen diese Stufe nicht.",
+                "hidden_group": "Ausgeblendete Gruppe. Mitglieder sehen diesen Rang nicht.",
                 "existing_group": "Vorhandene Gruppe",
-                "has_image": "",
-                "preview": "",
-                "preview_help": ""
+                "has_image": "Hat ein Bild auf dem Banner",
+                "preview": "Bannervorschau",
+                "preview_help": "Diese Information wird aus der obigen Rangliste übernommen und oben auf der Seite „Ränge“ angezeigt. Weise einem Rang ein Bild zu, um es anstelle des Symbols zu verwenden."
             },
             "rerank": {
                 "button": "Alle jetzt neu einstufen",
                 "help": "",
                 "running": "Neueinstufung… {done} von {total} Mitgliedern",
-                "finished": "Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf der richtigen Stufe.} one {# Mitglied hat seine Stufe geändert.} other {# Mitglieder haben ihre Stufe geändert.}}",
+                "finished": "Abgeschlossen. {changed, plural, =0 {Alle waren bereits auf dem richtigen Rang.} one {# Mitglied hat seinen Rang geändert.} other {# Mitglieder haben ihre Ränge geändert.}}",
                 "failed": ""
             },
             "modal": {
-                "create_title": "Stufe hinzufügen",
-                "edit_title": "Stufe bearbeiten",
+                "create_title": "Rang hinzufügen",
+                "edit_title": "Rang bearbeiten",
                 "source_label": "Gruppe",
-                "source_new": "",
-                "source_existing": "",
+                "source_new": "Neue Gruppe für diesen Rang erstellen",
+                "source_existing": "Verwende eine bereits vorhandene Gruppe",
                 "existing_label": "Vorhandene Gruppe",
                 "existing_placeholder": "Wähle eine Gruppe…",
                 "existing_help": "",
-                "name_label": "",
-                "plural_label": "",
+                "name_label": "Rangname",
+                "plural_label": "Pluralname",
                 "plural_help": "",
-                "min_posts_label": "",
+                "min_posts_label": "Nötige Beiträge",
                 "min_posts_help": "",
                 "icon_label": "Symbol",
                 "icon_help": "",
                 "color_label": "Farbe",
                 "description_label": "Beschreibung",
-                "description_help": "Wird auf der öffentlichen Stufenseite angezeigt. Optional.",
-                "image_label": "",
+                "description_help": "Wird auf der öffentlichen Rangseite angezeigt. Optional.",
+                "image_label": "Bannerbild",
                 "image_help": "",
-                "image_choose": "",
-                "image_replace": "",
-                "image_remove": "",
+                "image_choose": "Wähle ein Bild",
+                "image_replace": "Bild ersetzen",
+                "image_remove": "Bild entfernen",
                 "preview_label": "Vorschau",
                 "save": "Sprosse speichern",
-                "delete": "Sprosse entfernen",
+                "delete": "Rang entfernen",
                 "delete_confirm_owned": "",
                 "delete_confirm_existing": ""
             },
             "settings": {
-                "inherit_label": "",
+                "inherit_label": "Höhere Ränge behalten die Berechtigungen von niedrigeren",
                 "inherit_help": "",
                 "demote_label": "",
                 "demote_help": "",
-                "exempt_label": "",
+                "exempt_label": "Gruppe, die nie einen Rang erhalten",
                 "exempt_help": "",
-                "show_nav_label": "",
+                "show_nav_label": "Rangliste in der Seitenleiste des Forums anzeigen",
                 "show_nav_help": "",
-                "banner_title_label": "",
+                "banner_title_label": "Bannertitel",
                 "banner_title_help": "",
-                "banner_tagline_label": "",
-                "banner_tagline_help": "",
-                "banner_on_index_label": "",
+                "banner_tagline_label": "Banner-Slogan",
+                "banner_tagline_help": "Eine kurze Zeile unter dem Titel, z. B. das Motto deines Forums. Optional.",
+                "banner_on_index_label": "Banner auch auf der Startseite anzeigen",
                 "banner_on_index_help": ""
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Ränge",
             "ranks": {
-                "title": "",
+                "title": "Ränge",
                 "intro": "",
                 "empty": "",
-                "range": "",
-                "range_open": "",
-                "members": "",
-                "you_are_here": "",
+                "range": "{min}–{max} Beiträge",
+                "range_open": "{min}+ Beiträge",
+                "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+                "you_are_here": "Du bist hier",
                 "your_rank": "",
-                "next": "",
-                "top": "",
-                "unranked": "",
+                "next": "{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um {rank} zu erreichen.",
+                "top": "Du hast den höchsten Rang erreicht.",
+                "unranked": "{count, plural, one {# Beitrag mehr} other {# Beiträge mehr}} um den ersten Rang zu erreichen: {rank}.",
                 "guest": ""
             },
             "notifications": {
-                "promoted": ""
+                "promoted": "Du hast den Rang {rank} erreicht!"
             },
             "settings": {
-                "notify_promoted_label": ""
+                "notify_promoted_label": "Ich habe einen neuen Rang"
             }
         },
         "lib": {
             "banner": {
-                "range": "",
-                "range_open": ""
+                "range": "{min}–{max}",
+                "range_open": "{min}+"
             },
             "errors": {
                 "min_posts_invalid": "",
@@ -106,7 +106,7 @@
                 "group_invalid": "",
                 "group_taken": "",
                 "image_missing": "",
-                "image_too_large": "",
+                "image_too_large": "Das Bild ist größer als 8 MB.",
                 "image_type": ""
             }
         }
