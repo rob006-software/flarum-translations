@@ -170,6 +170,9 @@ return [
 	'ernestdefoe-garrison' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.5.1/resources/locale/en.yml',
 	],
+	'ernestdefoe-gatehouse' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.2.0/locale/en.yml',
+	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.5.0/locale/en.yml',
 	],
