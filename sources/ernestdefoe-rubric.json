@@ -1,0 +1,70 @@
+{
+    "ernestdefoe-rubric": {
+        "lib": {
+            "gambits": {
+                "prefix": {
+                    "key": "prefix",
+                    "hint": "the prefix's slug, e.g. rumor"
+                }
+            }
+        },
+        "forum": {
+            "choose_prefix": "Prefix",
+            "choose_prefix_required": "Choose a prefix",
+            "no_prefix": "No prefix",
+            "change_button": "Change prefix",
+            "change_title": "Change prefix",
+            "filter_tooltip": "Show every discussion marked {prefix}",
+            "filter_chip": "Prefix:",
+            "filter_clear": "Show all discussions"
+        },
+        "admin": {
+            "prefixes_heading": "Prefixes",
+            "prefixes_help": "A short coloured label before a discussion's title, chosen when it is started. Drag to change the order they are offered in.",
+            "empty": "No prefixes yet.",
+            "add_button": "Add a prefix",
+            "drag_tooltip": "Drag to reorder",
+            "edit_button": "Edit",
+            "delete_button": "Delete",
+            "delete_confirm": "Delete the prefix \"{prefix}\"? Discussions that have it keep their titles and lose the label.",
+            "everywhere": "In every tag",
+            "only_in": "Only in: {tags}",
+            "staff_only_badge": "Staff only",
+            "preview": "Preview",
+            "preview_title": "How it looks before a discussion title",
+            "name_label": "Name",
+            "name_placeholder": "Rumor",
+            "slug_label": "Link name",
+            "slug_help": "Used in the filter link, e.g. /?prefix=rumor. Changing it breaks links people have already shared.",
+            "color_label": "Colour",
+            "icon_label": "Icon (optional)",
+            "icon_help": "A Font Awesome class, e.g. fas fa-bullhorn. Leave empty for none.",
+            "tags_label": "Tags it can be used in",
+            "tags_help": "Choose none to offer it everywhere.",
+            "staff_only_label": "Staff only",
+            "staff_only_help": "Only members with the \"Use staff-only prefixes\" permission may apply it — for prefixes like Official.",
+            "create_button": "Create prefix",
+            "save_button": "Save",
+            "cancel_button": "Cancel",
+            "saved": "Saved.",
+            "loading_tags": "Loading tags…",
+            "no_tags": "There are no tags yet.",
+            "tag_search_placeholder": "Type to find a tag…",
+            "tag_search_none": "No tags match.",
+            "required_heading": "Require a prefix",
+            "required_help": "Starting a discussion in any of these tags needs a prefix. (Only when the member has a prefix they're allowed to choose there.)",
+            "save_required_button": "Save",
+            "permission_staff_prefixes": "Use staff-only prefixes"
+        },
+        "api": {
+            "not_found": "That prefix no longer exists.",
+            "not_allowed_here": "The prefix {prefix} can't be used in this discussion's tags.",
+            "required": "Choose a prefix for a discussion in this tag.",
+            "invalid_name": "Give the prefix a name of up to 60 characters.",
+            "invalid_color": "Choose a colour as a hex code, e.g. #2563eb.",
+            "invalid_icon": "An icon is a Font Awesome class, e.g. fas fa-bullhorn.",
+            "invalid_slug": "Give the prefix a link name of letters, numbers and dashes.",
+            "slug_taken": "Another prefix already uses that link name."
+        }
+    }
+}

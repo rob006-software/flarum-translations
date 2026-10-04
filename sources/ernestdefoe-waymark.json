@@ -1,0 +1,51 @@
+{
+    "ernestdefoe-waymark": {
+        "forum": {
+            "label": "Breadcrumb",
+            "home": "Home",
+            "show_all": "Show the whole trail",
+            "tags": "=> flarum-tags.ref.tags",
+            "all_discussions": "=> core.ref.all_discussions",
+            "discussions": "=> core.ref.discussions",
+            "security": "=> core.ref.security",
+            "settings": "=> core.ref.settings",
+            "notifications": "=> core.ref.notifications",
+            "posts": "=> core.ref.posts",
+            "messages": "Messages",
+            "search": "Search: “{query}”"
+        },
+        "admin": {
+            "position_label": "Position",
+            "position_help": "Where the trail sits on a page.",
+            "position_below": "Below the page header (hero)",
+            "position_above": "Above the page header (hero)",
+            "style_label": "Style",
+            "style_help": "How the trail looks. Both use your theme's own colours.",
+            "style_plain": "Plain — links separated by ›",
+            "style_tabs": "Tabs — each step on its own slanted tab",
+            "home_label": "First crumb",
+            "home_help": "What the first crumb, which always links to your forum's home page, is called.",
+            "home_home": "Home",
+            "home_title": "Your forum's title",
+            "home_text_label": "Custom name for the first crumb",
+            "home_text_help": "Leave empty to use the choice above. Fill it in to call it anything you like, such as \"Forum\".",
+            "home_target_label": "The first crumb links to",
+            "home_target_help": "If your home page is a landing page visitors only see once, point the first crumb at the tags page so it takes them back into the forum instead.",
+            "home_target_home": "Your home page",
+            "home_target_tags": "The tags page",
+            "tags_text_label": "Name for the tags page",
+            "tags_text_help": "What the trail calls the tags page. Leave empty for \"Tags\"; many forums prefer \"Forums\" or \"Categories\".",
+            "mobile_label": "On phones",
+            "mobile_help": "A long trail can take several lines on a narrow screen.",
+            "mobile_collapse": "Shorten it — Home, … and the last two crumbs, the rest on a tap",
+            "mobile_hide": "Hide it",
+            "pages_heading": "Show a trail on",
+            "show_discussions": "Discussions",
+            "show_tags": "Tags and tag pages",
+            "show_users": "Profiles",
+            "show_messages": "Messages",
+            "show_other": "Every other page",
+            "show_other_help": "The discussion list, settings, notifications, and pages added by other extensions (named after the page's own title)."
+        }
+    }
+}
