@@ -958,6 +958,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
+| [`ernestdefoe-cadence`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cadence) | [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) |
 | [`ernestdefoe-calendar`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar) | [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) |
 | [`ernestdefoe-cascade`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cascade) | [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) |
 | [`ernestdefoe-chronicle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-chronicle) | [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) |
@@ -967,10 +968,12 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
+| [`ernestdefoe-folio`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-folio) | [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) |
 | [`ernestdefoe-garrison`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison) | [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison) |
 | [`ernestdefoe-gatehouse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-gatehouse) | [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) |
 | [`ernestdefoe-giveaways`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-giveaways) | [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) |
 | [`ernestdefoe-google-fonts`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-google-fonts) | [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) |
+| [`ernestdefoe-greeter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-greeter) | [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) |
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
 | [`ernestdefoe-hashtags`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hashtags) | [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) |
 | [`ernestdefoe-header-nav`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-header-nav) | [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) |
@@ -985,6 +988,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-mobile-tab`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mobile-tab) | [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) |
 | [`ernestdefoe-onair`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onair) | [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair) |
 | [`ernestdefoe-opensearch`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-opensearch) | [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch) |
+| [`ernestdefoe-reel`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-reel) | [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
 | [`ernestdefoe-ridge`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ridge) | [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) |
 | [`ernestdefoe-roleplay`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-roleplay) | [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) |
