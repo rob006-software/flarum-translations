@@ -23,40 +23,40 @@
             "rules_heading": "Regeln",
             "enabled": "Neue Anmeldungen bis zur Freigabe zurückhalten",
             "enabled_help": "Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.",
-            "allow": "",
-            "allow_help": "",
-            "deny": "",
-            "deny_help": "",
+            "allow": "Diese automatisch freigeben",
+            "allow_help": "Je eines pro Zeile. Eine Domain (uni-freiburg.de, einschließlich ihrer Subdomains), eine exakte Domain (@staff.example.org), eine Endung (.edu), ein Platzhalter (*@example.com) oder ein regulärer Ausdruck zwischen Schrägstrichen. Alle anderen warten. Lasse das Feld leer, um jedes neue Mitglied manuell zu genehmigen.",
+            "deny": "Diese direkt ablehnen",
+            "deny_help": "Gleiche Muster sind erlaubt. Mit diesen Adressen ist eine Registrierung überhaupt nicht möglich, und das wird im Formular auch so angegeben.",
             "usernames_heading": "Benutzernamen",
             "reserved_usernames": "Reservierte Benutzernamen",
-            "reserved_usernames_help": "",
+            "reserved_usernames_help": "Je eine pro Zeile. Nur Administratoren können sich mit diesen Bezeichnungen registrieren oder ihren Namen später entsprechend ändern. Die Groß-/Kleinschreibung spielt keine Rolle. Verwende * als Platzhalter (admin*, *moderator*) oder einen regulären Ausdruck zwischen Schrägstrichen. Funktioniert unabhängig davon, ob Registrierungen zur Freigabe zurückgestellt werden oder nicht.",
             "messages_heading": "E-Mails",
-            "held_message": "",
-            "held_message_help": "",
-            "declined_message": "",
-            "declined_message_help": ""
+            "held_message": "Zusatztext für Bewerber, die noch auf eine Antwort warten",
+            "held_message_help": "Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.",
+            "declined_message": "Zusatztext für abgelehnte Bewerber",
+            "declined_message_help": "Wird der E-Mail hinzugefügt, die versendet wird, wenn du jemanden ablehnst. Lasse das Feld leer, um den Standardtext zu verwenden."
         },
         "lib": {
-            "refused": "",
-            "username_reserved": "",
-            "signin_pending": "",
-            "signin_declined": ""
+            "refused": "Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.",
+            "username_reserved": "Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen aus.",
+            "signin_pending": "Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.",
+            "signin_declined": "Dieses Konto wurde nicht freigeschaltet und kann daher in diesem Forum nicht verwendet werden."
         },
         "email": {
             "held": {
-                "subject": "",
-                "body": ""
+                "subject": "Dein Konto bei {forum} wartet auf Freigabe",
+                "body": "Vielen Dank für deine Anmeldung bei {forum}. Neue Konten werden hier manuell freigeschaltet, daher wird ein Administrator dein Konto in Kürze prüfen. Sobald dies geschehen ist, erhältst du eine weitere E-Mail.\n\n{message}\n"
             },
             "approved_activate": {
-                "subject": "",
-                "body": ""
+                "subject": "Willkommen bei {forum}: Dein Konto wurde freigegeben",
+                "body": "Dein {forum}-Konto wurde freigeschaltet. Bestätige deine E-Mail-Adresse über diesen Link, und schon kannst du loslegen:\n\n{url}\n"
             },
             "approved": {
-                "subject": "",
-                "body": ""
+                "subject": "Willkommen bei {forum}: Dein Konto wurde freigegeben",
+                "body": "Dein {forum}-Konto wurde freigeschaltet. Du kannst dich jetzt anmelden:\n\n{url}\n"
             },
             "declined": {
-                "subject": "",
+                "subject": "Dein {forum}-Konto",
                 "body": ""
             },
             "admin_new": {
