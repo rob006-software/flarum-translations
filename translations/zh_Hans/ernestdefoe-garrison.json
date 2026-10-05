@@ -16,11 +16,13 @@
                 "bad_scheme": "只能获取 http 或 https 地址。",
                 "unresolvable": "无法解析此地址。",
                 "private_address": "此地址指向当前网络内部，Garrison 不会获取。",
+                "no_follow": "",
                 "bad_player_name": "这看起来不像游戏内名称。",
                 "player_taken": "已有其他用户证明这是自己在此服务器上的角色。",
                 "code_expired": "验证码已过期，请重新获取。",
                 "code_wrong": "验证码不正确，请在游戏中核对后重试。",
-                "code_too_soon": "刚刚已经发送过验证码。请先查看游戏内消息，或稍后再试。"
+                "code_too_soon": "刚刚已经发送过验证码。请先查看游戏内消息，或稍后再试。",
+                "cannot_whisper": ""
             }
         },
         "email": {
@@ -46,6 +48,25 @@
             "recovered": "✅ **{name}** 已恢复。{url}",
             "abandoned": "🚨 **{name}** 多次重启后仍未恢复。自动重启已停止，需要人工处理。{url}",
             "unknown": "**{name}**：{state}。{url}"
+        },
+        "health": {
+            "summary": {
+                "not_running": "",
+                "no_probes": "",
+                "none_evaluated": ""
+            },
+            "detail": {
+                "udp_queue_stuck": "",
+                "udp_queue": "",
+                "tcp_refused": "",
+                "tcp_accepting": "",
+                "no_port": "",
+                "log_absent": "",
+                "log_absent_within": "",
+                "log_found": "",
+                "unknown_type": ""
+            },
+            "seconds": ""
         },
         "forum": {
             "notification": {
@@ -123,6 +144,22 @@
                 "uptime": "启动时间",
                 "driver": "运行方式",
                 "game": "游戏"
+            },
+            "driver": {
+                "docker": "",
+                "systemd": "",
+                "process": "",
+                "unknown": ""
+            },
+            "block": {
+                "name": "",
+                "servers_label": "",
+                "servers_public": "",
+                "servers_running": "",
+                "show_players": "",
+                "show_join": "",
+                "show_join_help": "",
+                "compact": ""
             },
             "back_to_all": "全部服务器",
             "server_not_here": "找不到此服务器。它可能已被移除，或所属主机已取消配对。",

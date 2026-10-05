@@ -16,11 +16,13 @@
                 "bad_scheme": "Only http and https addresses can be fetched.",
                 "unresolvable": "That address does not resolve to anything.",
                 "private_address": "That address points inside this network, so Garrison will not fetch it.",
+                "no_follow": "The forum reads the console as it is shipped, so it cannot open a following stream. Open the server's console instead.",
                 "bad_player_name": "That does not look like an in-game name.",
                 "player_taken": "Somebody has already proved that this is their character on this server.",
                 "code_expired": "That code has expired. Ask for a new one.",
                 "code_wrong": "That code is not right. Check it in the game and try again.",
-                "code_too_soon": "A code was just sent. Check the game, or wait a moment and try again."
+                "code_too_soon": "A code was just sent. Check the game, or wait a moment and try again.",
+                "cannot_whisper": "This server can only announce to everybody, not message one player, so it cannot send you a private code. Ask an administrator to link your account."
             }
         },
         "email": {
@@ -46,6 +48,25 @@
             "recovered": "✅ **{name}** is back. {url}",
             "abandoned": "🚨 **{name}** did not come back after repeated restarts. Automatic restarts have stopped and it needs a person. {url}",
             "unknown": "**{name}**: {state}. {url}"
+        },
+        "health": {
+            "summary": {
+                "not_running": "Not running",
+                "no_probes": "No readiness probes are configured for this game",
+                "none_evaluated": "No probe could be evaluated"
+            },
+            "detail": {
+                "udp_queue_stuck": "UDP {port} has {bytes} bytes queued and unread — the socket is open but nothing is reading it",
+                "udp_queue": "UDP {port}: {bytes} bytes queued",
+                "tcp_refused": "Nothing is accepting connections on TCP {port}",
+                "tcp_accepting": "TCP {port} is accepting connections",
+                "no_port": "No port is configured for this probe",
+                "log_absent": "Nothing matching “{pattern}” in recent output",
+                "log_absent_within": "Nothing matching “{pattern}” in the last {within}",
+                "log_found": "Found “{pattern}” in recent output",
+                "unknown_type": "Unknown probe type “{type}”"
+            },
+            "seconds": "{count, plural, one {# second} other {# seconds}}"
         },
         "forum": {
             "notification": {
@@ -123,6 +144,22 @@
                 "uptime": "Started",
                 "driver": "Runs as",
                 "game": "Game"
+            },
+            "driver": {
+                "docker": "Docker",
+                "systemd": "systemd",
+                "process": "A process on the host",
+                "unknown": "Unknown"
+            },
+            "block": {
+                "name": "Game servers",
+                "servers_label": "Which servers",
+                "servers_public": "Every public server",
+                "servers_running": "Only servers that are up",
+                "show_players": "Show who is online",
+                "show_join": "Show join details",
+                "show_join_help": "Only ever shown to people whose group is allowed to see them.",
+                "compact": "Compact rows"
             },
             "back_to_all": "All servers",
             "server_not_here": "That server is not here. It may have been removed, or its host may not be paired any more.",

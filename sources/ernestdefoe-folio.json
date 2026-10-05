@@ -58,6 +58,8 @@
             "spoiler": "Spoiler:",
             "errors": {
                 "unknown_format": "That export format is not available.",
+                "export_running": "Your previous export is still being made. Wait for it to finish, then try again.",
+                "exports_busy": "The forum is making other exports right now. Try again in a moment.",
                 "needs_mpdf": "This discussion contains Chinese, Japanese, Korean, Arabic, Hebrew or another script this forum's PDF export can't set correctly. Export it as Word instead: Word shows every language properly."
             }
         }

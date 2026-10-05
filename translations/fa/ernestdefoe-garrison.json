@@ -16,11 +16,13 @@
                 "bad_scheme": "",
                 "unresolvable": "",
                 "private_address": "",
+                "no_follow": "",
                 "bad_player_name": "",
                 "player_taken": "",
                 "code_expired": "",
                 "code_wrong": "",
-                "code_too_soon": ""
+                "code_too_soon": "",
+                "cannot_whisper": ""
             }
         },
         "email": {
@@ -46,6 +48,25 @@
             "recovered": "",
             "abandoned": "",
             "unknown": ""
+        },
+        "health": {
+            "summary": {
+                "not_running": "",
+                "no_probes": "",
+                "none_evaluated": ""
+            },
+            "detail": {
+                "udp_queue_stuck": "",
+                "udp_queue": "",
+                "tcp_refused": "",
+                "tcp_accepting": "",
+                "no_port": "",
+                "log_absent": "",
+                "log_absent_within": "",
+                "log_found": "",
+                "unknown_type": ""
+            },
+            "seconds": ""
         },
         "forum": {
             "notification": {
@@ -123,6 +144,22 @@
                 "uptime": "",
                 "driver": "",
                 "game": ""
+            },
+            "driver": {
+                "docker": "",
+                "systemd": "",
+                "process": "",
+                "unknown": ""
+            },
+            "block": {
+                "name": "",
+                "servers_label": "",
+                "servers_public": "",
+                "servers_running": "",
+                "show_players": "",
+                "show_join": "",
+                "show_join_help": "",
+                "compact": ""
             },
             "back_to_all": "",
             "server_not_here": "",

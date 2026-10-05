@@ -23,7 +23,6 @@
             "test_failed": "连接失败。",
             "start_failed": "无法开始导入。",
             "confirm_start": "确定要立即开始导入吗？此操作会向当前论坛写入讨论、帖子和成员数据。建议导入到全新的论坛中，以获得最佳效果。",
-            "starting": "正在启动…",
             "running": "正在导入",
             "complete": "导入完成",
             "failed": "导入失败",
@@ -49,7 +48,8 @@
                 "error_no_such_run": "此导入记录已不存在。",
                 "error_unknown_source": "没有已知的此平台链接格式。",
                 "error_failed": "无法保存，请重试。"
-            }
+            },
+            "starting": "正在启动…"
         }
     }
 }

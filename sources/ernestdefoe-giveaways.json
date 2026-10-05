@@ -12,11 +12,15 @@
             "enter_too_new": "Your account is too new to enter this giveaway.",
             "skill_answer_missing": "Answer the skill-testing question to claim your prize.",
             "skill_answer_wrong": "That answer isn't right — check the question and try again.",
-            "skill_answer_wrong_attempts": "That answer isn't right — {count} {count, plural, one {attempt} other {attempts}} left before the prize is redrawn.",
+            "skill_answer_wrong_attempts": "That answer isn't right — {count, plural, one {# attempt} other {# attempts}} left before the prize is redrawn.",
             "skill_forfeited": "That was your last attempt, so the prize has been redrawn. Better luck next time!",
             "skill_already_forfeited": "This prize was redrawn after the skill-testing question went unanswered.",
             "skill_answer_required": "Give the correct answer to your skill-testing question.",
-            "claim_not_winner": "You're not a winner of this giveaway."
+            "claim_not_winner": "You're not a winner of this giveaway.",
+            "enter_own": "You can't enter a giveaway you are hosting.",
+            "draw_not_ended": "This giveaway can be drawn once it ends.",
+            "locked_after_draw": "This can't be changed after the draw.",
+            "ends_no_earlier": "Once people have entered, the end can be moved later but not earlier."
         },
         "forum": {
             "nav": "Giveaways",
@@ -36,6 +40,7 @@
             "status_drawn": "Drawn",
             "status_cancelled": "Cancelled",
             "enter": "Enter giveaway",
+            "hosting": "You're hosting this giveaway.",
             "entered": "You're entered!",
             "enter_again": "You're entered",
             "login_to_enter": "Log in to enter",
