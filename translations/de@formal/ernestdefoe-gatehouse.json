@@ -57,11 +57,11 @@
             },
             "declined": {
                 "subject": "Dein {forum}-Konto",
-                "body": ""
+                "body": "Vielen Dank für dein Interesse an {forum}. Dein Konto wurde nicht freigeschaltet, daher kannst du dich damit nicht anmelden.\n\n{message}\n"
             },
             "admin_new": {
-                "subject": "",
-                "body": ""
+                "subject": "{applicant} wartet auf den Beitritt zu {forum}",
+                "body": "{applicant} ({email}) hat sich angemeldet und wartet auf die Freigabe.\n\nHier kannst du den Antrag freigeben oder ablehnen:\n\n{url}\n"
             }
         }
     }
