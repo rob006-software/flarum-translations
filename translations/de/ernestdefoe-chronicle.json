@@ -12,38 +12,38 @@
                 "badge": "Abzeichen"
             },
             "item": {
-                "discussion": "",
-                "reply": "",
-                "like": "",
-                "like_no_author": "",
-                "best_answer": "",
-                "badge": "",
-                "joined": "",
-                "untitled": ""
+                "discussion": "{title} begonnen",
+                "reply": "Geantwortet in {title}",
+                "like": "Hat Beitrag von {author} in {title} geliked",
+                "like_no_author": "Hat einen Beitrag in {title} geliked",
+                "best_answer": "Beste Antwort in {title} beigetragen",
+                "badge": "Hat sich das Abzeichen {badge} verdient",
+                "joined": "Ist dem Forum beigetreten",
+                "untitled": "eine Diskussion"
             },
             "today": "Heute",
             "yesterday": "Gestern",
             "day_format": "dddd, D MMMM YYYY",
             "load_more": "Mehr laden",
-            "empty": "",
-            "empty_filtered": "",
-            "failed": "",
+            "empty": "Hier gibt es noch nichts.",
+            "empty_filtered": "Noch nichts dieser Aktivität.",
+            "failed": "Die Aktivität konnte nicht geladen werden.",
             "retry": "Erneut versuchen",
             "settings": {
-                "show_likes": ""
+                "show_likes": "Likes in meiner Aktivität anzeigen"
             }
         },
         "admin": {
-            "types_heading": "",
-            "types_help": "",
-            "show_discussion": "",
-            "show_reply": "",
-            "show_like": "",
-            "show_like_help": "",
-            "show_best_answer": "",
-            "show_badge": "",
-            "show_joined": "",
-            "permission_view": ""
+            "types_heading": "Was in meiner Mitgliedsaktivität angezeigt wird",
+            "types_help": "Likes, beste Antworten und Abzeichen werden angezeigt, wenn Flarum Likes, FoF Best Answer und FoF Badges installiert sind.",
+            "show_discussion": "Diskussionen, die sie begonnen haben",
+            "show_reply": "Ihre Antworten",
+            "show_like": "Beiträge, die sie geliked haben",
+            "show_like_help": "Mitglieder können ihre eigenen Likes weiterhin unter „Einstellungen“ → „Datenschutz“ ausblenden.",
+            "show_best_answer": "Ihre besten Antworten",
+            "show_badge": "Abzeichen, die sie sich verdient haben",
+            "show_joined": "Wann sie beigetreten sind",
+            "permission_view": "Mitgliedsaktivität ansehen"
         }
     }
 }
