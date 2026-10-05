@@ -47,8 +47,18 @@
                 "disc_style_editorial": "Editorial (đường nối cuộc trò chuyện)",
                 "reply_to_header_label": "",
                 "reply_to_header_help": "",
+                "composer_morph_label": "",
+                "composer_morph_help": "",
+                "composer_preview_label": "",
+                "composer_preview_help": "",
                 "reply_dock_label": "",
                 "reply_dock_help": "",
+                "section_home_composer": "",
+                "new_discussion_composer_label": "",
+                "new_discussion_composer_help": "",
+                "new_discussion_composer_default": "",
+                "new_discussion_composer_inline": "",
+                "new_discussion_composer_floating": "",
                 "post_badge_position_label": "Vị trí huy hiệu nhóm trong bài viết",
                 "post_badge_position_help": "Nơi huy hiệu nhóm của thành viên nằm trong một bài viết. Lựa chọn đầu tiên tắt huy hiệu tùy chỉnh và quay về huy hiệu tròn của Flarum đè lên ảnh đại diện. Mọi lựa chọn khác biến từng huy hiệu thành một viên nang có tên nhóm bên cạnh biểu tượng. Dùng được dù hiệu ứng ảnh đại diện cố định bật hay tắt. Điện thoại luôn giữ kiểu đè gọn.\n",
                 "post_badge_position_default": "Mặc định của Flarum (tắt — đĩa tròn đè lên ảnh đại diện)",
@@ -475,9 +485,16 @@
                 "member_singular": "thành viên",
                 "member_plural": "thành viên"
             },
+            "tags_modal": {
+                "title": "",
+                "cancel": "",
+                "save": ""
+            },
             "composer": {
                 "remove_reply": "",
-                "guest_pill": ""
+                "guest_pill": "",
+                "hide_preview": "",
+                "resize_handle": ""
             },
             "changelog": {
                 "title": "",

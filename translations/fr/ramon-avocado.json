@@ -47,8 +47,18 @@
                 "disc_style_editorial": "Éditorial (fil de la conversation)",
                 "reply_to_header_label": "",
                 "reply_to_header_help": "",
+                "composer_morph_label": "",
+                "composer_morph_help": "",
+                "composer_preview_label": "",
+                "composer_preview_help": "",
                 "reply_dock_label": "",
                 "reply_dock_help": "",
+                "section_home_composer": "",
+                "new_discussion_composer_label": "",
+                "new_discussion_composer_help": "",
+                "new_discussion_composer_default": "",
+                "new_discussion_composer_inline": "",
+                "new_discussion_composer_floating": "",
                 "post_badge_position_label": "Position du badge de groupe dans les messages",
                 "post_badge_position_help": "Emplacement des badges de groupe d'un membre dans un message. La première option désactive le badge personnalisé et revient au badge rond de Flarum superposé à l'avatar. Toutes les autres options transforment chaque badge en capsule avec le nom du groupe à côté de son icône. Fonctionne avec l'effet d'avatar fixe activé ou non. Sur téléphone, la superposition compacte est toujours conservée.\n",
                 "post_badge_position_default": "Par défaut Flarum (désactivé — disque au-dessus de l'avatar)",
@@ -475,9 +485,16 @@
                 "member_singular": "membre",
                 "member_plural": "membres"
             },
+            "tags_modal": {
+                "title": "",
+                "cancel": "",
+                "save": ""
+            },
             "composer": {
                 "remove_reply": "",
-                "guest_pill": ""
+                "guest_pill": "",
+                "hide_preview": "",
+                "resize_handle": ""
             },
             "changelog": {
                 "title": "Journal des modifications",

@@ -47,8 +47,18 @@
                 "disc_style_editorial": "Redaktionell (dünner Strich)",
                 "reply_to_header_label": "",
                 "reply_to_header_help": "",
+                "composer_morph_label": "",
+                "composer_morph_help": "",
+                "composer_preview_label": "",
+                "composer_preview_help": "",
                 "reply_dock_label": "",
                 "reply_dock_help": "",
+                "section_home_composer": "",
+                "new_discussion_composer_label": "",
+                "new_discussion_composer_help": "",
+                "new_discussion_composer_default": "",
+                "new_discussion_composer_inline": "",
+                "new_discussion_composer_floating": "",
                 "post_badge_position_label": "Position von Gruppenabzeichen in Beiträgen",
                 "post_badge_position_help": "Die Position der Gruppenabzeichen eines Mitglieds in einem Beitrag. Die erste Option deaktiviert das benutzerdefinierte Abzeichen: Es wird wieder das runde Flarum-Abzeichen angezeigt, das den Avatar überlagert. Alle anderen Optionen wandeln jedes Abzeichen in eine Kapsel um, in der der Gruppenname neben dem Symbol steht. Funktioniert unabhängig davon, ob der „Fixierter Avatar“-Effekt aktiviert oder deaktiviert ist. Auf Mobilgeräten wird immer die kompakte Überlagerung angezeigt.\n",
                 "post_badge_position_default": "Flarum Standard (aus — Scheibe über dem Avatar)",
@@ -484,9 +494,16 @@
                 "member_singular": "Mitglied",
                 "member_plural": "Mitglieder"
             },
+            "tags_modal": {
+                "title": "",
+                "cancel": "",
+                "save": ""
+            },
             "composer": {
                 "remove_reply": "",
-                "guest_pill": ""
+                "guest_pill": "",
+                "hide_preview": "",
+                "resize_handle": ""
             },
             "changelog": {
                 "title": "Änderungsprotokoll",

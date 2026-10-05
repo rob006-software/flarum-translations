@@ -47,8 +47,18 @@
                 "disc_style_editorial": "编辑式排版（对话轴线）",
                 "reply_to_header_label": "",
                 "reply_to_header_help": "",
+                "composer_morph_label": "",
+                "composer_morph_help": "",
+                "composer_preview_label": "",
+                "composer_preview_help": "",
                 "reply_dock_label": "",
                 "reply_dock_help": "",
+                "section_home_composer": "",
+                "new_discussion_composer_label": "",
+                "new_discussion_composer_help": "",
+                "new_discussion_composer_default": "",
+                "new_discussion_composer_inline": "",
+                "new_discussion_composer_floating": "",
                 "post_badge_position_label": "帖子中用户组徽章位置",
                 "post_badge_position_help": "设置成员的用户组徽章在帖子中的显示位置。Flarum 默认是圆形徽章并叠加在头像上。其他选项会将每个徽章显示为胶囊样式，在图标旁显示用户组名称。无论是否启用固定头像效果都可使用。手机端始终使用紧凑的叠加样式。\n",
                 "post_badge_position_default": "Flarum 默认（关闭自定义样式 — 圆形徽章叠在头像上）",
@@ -485,9 +495,16 @@
                 "member_singular": "位成员",
                 "member_plural": "位成员"
             },
+            "tags_modal": {
+                "title": "",
+                "cancel": "",
+                "save": ""
+            },
             "composer": {
                 "remove_reply": "",
-                "guest_pill": ""
+                "guest_pill": "",
+                "hide_preview": "",
+                "resize_handle": ""
             },
             "changelog": {
                 "title": "更新日志",

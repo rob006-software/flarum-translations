@@ -6,12 +6,16 @@
                 "behaviour_description": "Welche Links in Beiträgen als Verweise aufgenommen werden.",
                 "display_label": "Anzeige",
                 "display_description": "Wo Verweise angezeigt werden und wie viele aufgelistet werden, bevor die Liste abgeschnitten wird.",
+                "notifications_label": "",
+                "notifications_description": "",
+                "advanced_label": "",
+                "advanced_description": "",
+                "extensions_label": "Andere Erweiterungen",
+                "extensions_description": "Einstellungen, die andere Erweiterungen dieser Seite hinzufügen.",
                 "discovery_label": "Entdecken",
                 "discovery_description": "Das Widget, das vom Verweisgraph gefüllt wird.",
                 "maintenance_label": "Wartung",
-                "maintenance_description": "Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird.",
-                "extensions_label": "Andere Erweiterungen",
-                "extensions_description": "Einstellungen, die andere Erweiterungen dieser Seite hinzufügen."
+                "maintenance_description": "Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird."
             },
             "settings": {
                 "enabled_label": "Verweise aufnehmen",
@@ -57,6 +61,7 @@
                 "by_relation_label": "Was sie sagen",
                 "export_button": "CSV exportieren",
                 "empty": "Noch nichts aufgezeichnet.",
+                "pending": "",
                 "unavailable": "Metriken konnte nicht eingelesen werden.",
                 "chart_label": "Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}."
             },
@@ -92,17 +97,82 @@
             "reference": {
                 "deleted_text": "[gelöscht]"
             },
+            "links": {
+                "incoming_heading": "",
+                "outgoing_heading": "",
+                "all_button": "",
+                "summary_button": "",
+                "modal_title": "",
+                "post_modal_title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "map_tab": "",
+                "add_button": "",
+                "manage_button": "",
+                "load_more_button": "",
+                "empty": "",
+                "by_text": "",
+                "edit_button": "",
+                "remove_button": "",
+                "remove_confirmation": ""
+            },
             "post": {
+                "linked_from_text": "",
+                "more_button": "",
                 "referenced_by_text": "{discussions} {count, plural, one {verweist} other {verweisen}} hierher",
                 "others_text": "{count, plural, one {# anderer} other {# andere}}"
+            },
+            "related": {
+                "title": "Verwandte Diskussionen"
+            },
+            "sort": {
+                "most_linked": ""
+            },
+            "map": {
+                "empty": "",
+                "accessible_label": ""
+            },
+            "relation": {
+                "references": "Verweise",
+                "duplicate_of": "Duplikat von",
+                "see_also": "ersetzt",
+                "supersedes": "ersetzt",
+                "answers": "beantwortet"
+            },
+            "form": {
+                "add_title": "",
+                "edit_title": "",
+                "target_label": "",
+                "target_placeholder": "",
+                "no_results": "",
+                "change_button": "",
+                "type_label": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "add_button": "",
+                "save_button": ""
+            },
+            "event_post": {
+                "linked": "",
+                "linked_from": "",
+                "referenced": "{username} verweist auf diese Diskussion"
+            },
+            "notifications": {
+                "discussion_linked_text": "",
+                "post_linked_text": "",
+                "followed_discussion_linked_text": "",
+                "discussion_referenced_text": "{username} verweist auf eine Diskussion, die du begonnen hast",
+                "post_referenced_text": "{username} verweist auf deinen Beitrag"
+            },
+            "settings": {
+                "notify_discussion_linked_label": "",
+                "notify_post_linked_label": "",
+                "notify_followed_discussion_linked_label": ""
             },
             "discussion": {
                 "referenced_by_title": "{count, plural, one {# Verweis} other {# Verweise}}",
                 "references_title": "Diese Diskussion verweist auf",
                 "show_all_button": "Alle anzeigen"
-            },
-            "related": {
-                "title": "Verwandte Diskussionen"
             },
             "most_referenced": {
                 "sort": "Am meisten verwiesen auf"
@@ -113,13 +183,6 @@
                 "empty": "Es gibt noch nichts darzustellen.",
                 "accessible_label": "{count, plural, one {# Diskussion} other {# Diskussionen}} und die Verknüpfungen untereinander"
             },
-            "relation": {
-                "references": "Verweise",
-                "duplicate_of": "Duplikat von",
-                "see_also": "ersetzt",
-                "supersedes": "ersetzt",
-                "answers": "beantwortet"
-            },
             "manual": {
                 "add_button": "Verweis hinzufügen",
                 "title": "Verweis hinzufügen",
@@ -129,19 +192,24 @@
                 "note_label": "Hinweis",
                 "note_placeholder": "Warum diese beiden zusammen gehören",
                 "submit_button": "Hinzufügen"
-            },
-            "event_post": {
-                "referenced": "{username} verweist auf diese Diskussion"
-            },
-            "notifications": {
-                "discussion_referenced_text": "{username} verweist auf eine Diskussion, die du begonnen hast",
-                "post_referenced_text": "{username} verweist auf deinen Beitrag"
+            }
+        },
+        "api": {
+            "manual": {
+                "not_found_message": "",
+                "same_discussion_message": "",
+                "duplicate_message": "",
+                "source_required_message": ""
             }
         },
         "email": {
             "discussion_referenced": {
                 "subject": "Ein Verweis auf deine Diskussion wurde erstellt: {title}",
                 "body": "{username} hat auf deine Diskussion von einer anderen Diskussion verwiesen.\n\n{url}\n"
+            },
+            "followed_discussion_referenced": {
+                "subject": "",
+                "body": ""
             },
             "post_referenced": {
                 "subject": "Auf deinen Beitrag wurde verwiesen in {title}",
