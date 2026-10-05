@@ -165,7 +165,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-facebook-post' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.7/locale/en.yml',
 	],
 	'ernestdefoe-federation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.0.7/resources/locale/en.yml',
