@@ -87,7 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur kliensazonosító",
-                    "deprecated": "",
+                    "deprecated": "Az Imgur már nem állít ki API-kliensazonosítókat, így ez az adapter elavult, és egy jövőbeli kiadásban el lesz távolítva. Helyezze át ezeket a fájltípusokat egy másik tárolóadapterhez.",
                     "title": "Imgur képtároló beállításai",
                     "tos": "Az Ön felelőssége, hogy a fórum felhasználói betartsák az Imgur <a>szolgáltatási feltételeit</a>"
                 },
@@ -296,7 +296,7 @@
             "file_list": {
                 "loading": "Fájlok betöltése…",
                 "empty": "Nincsenek megjeleníthető fájlok.",
-                "load_error": "",
+                "load_error": "Nem sikerült betölteni a fájlokat. Próbálja újra.",
                 "release_to_upload": "Engedje el a feltöltéshez",
                 "modal_empty_desktop": "A fájllista üres. Kattintson a gombra, vagy húzza ide a fájlt a feltöltéshez.",
                 "modal_empty_phone": "A fájllista üres. Koppintson a fenti gomb egy fájl feltöltéséhez.",
