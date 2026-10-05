@@ -14,7 +14,7 @@
                 },
                 "only_icons_label": "Csak az ikonok megjelenítése (alternatív elrendezés)",
                 "update_email_from_provider_label": "E-mail-cím frissítése a szolgáltató által",
-                "update_email_from_provider_help": "Ha be van kapcsolva, akkor a fórumba történő bejelentkezéskor a felhasználó e-mail-címe frissítve lesz, hogy megegyezzen az OAuth-szolgáltató által megadottal. Nem minden szolgáltató adja meg a frissített e-mail-címet, ebben az esetben a beállítás nincs hatással ezekre a szolgáltatókra.",
+                "update_email_from_provider_help": "Ha be van kapcsolva, akkor ha a felhasználó olyan OAuth-szolgáltatón keresztül jelentkezik be, amelynél a hitelesített e-mail-címe eltér a felhasználó fórumon megadott e-mail-címétől, a rendszer megerősítő hivatkozást küld az új címre, és értesítést a jelenlegi címre. Az e-mail-cím akkor változik meg, ha a felhasználó rákattint a hivatkozásra. Azok a szolgáltatók, amelyek nem tudják megerősíteni a cím hitelesítését – ideértve azokat a külső szolgáltatókat is, amelyek még nem lettek frissítve ennek támogatására –, nem módosítják az e-mail-címet.",
                 "disable_avatars_label": "Szolgáltatótól származó profilképek letiltása",
                 "disable_avatars_help": "Ha engedélyezve van, akkor a felhasználó profilképe nem lesz frissítve, hogy regisztrációkor megegyezzen a szolgáltatóval tárolttal. Ez csak a jövőbeli regisztrációkat érinti, a meglévő felhasználók profilképén nem változtat.\n",
                 "fullscreen_popup_label": "Teljes képernyős felugró ablak használata az OAuth-hoz",
@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "A(z) {provider} nem erősítette meg ezt az e-mail-címet, így nem tud bejelentkezni. Ha már van fiókja, jelentkezzen be alább, majd kösse hozzá a(z) {provider} szolgáltatót a fiókbeállításaiban.",
                 "with_button": "Bejelentkezés ezzel: {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -114,8 +114,8 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
-                "body": ""
+                "subject": "E-mail-cím módosítása kérve",
+                "body": "Kedves {username}!\n\nMiután bejelentkezett a(z) {forum} fórumba a(z) {provider} szolgáltatóval, az e-mail-címe erre való megváltoztatását kérték: {new_email}. A változás az új e-mail-cím megerősítése után lép életbe.\n\nHa ezt nem Ön kérte, akkor feltörhették a(z) {provider}-fiókját. Győződjön meg a biztonságáról, és lépjen kapcsolatba a(z) {forum} rendszergazdáival.\n"
             }
         },
         "lib": {
