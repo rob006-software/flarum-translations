@@ -150,7 +150,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cascade/v0.3.5/locale/en.yml',
 	],
 	'ernestdefoe-chronicle' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/chronicle/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/chronicle/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.1/locale/en.yml',
