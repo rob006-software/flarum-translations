@@ -23,11 +23,11 @@
                 "extract_url_references_label": "Eingefügte Links aufnehmen",
                 "extract_url_references_help": "Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.",
                 "extract_short_references_label": "Eingegebene Verweise erfassen",
-                "extract_short_references_help": "Das Format @\"Discussion title\"#d123, wie es bei Eingabe von # im Composer eingefügt wird.\n",
+                "extract_short_references_help": "Verweise im Format @\"Discussion title\"#d123 erfassen.Gib # im Composer ein, um einen einzufügen.",
                 "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
                 "extract_mention_references_help": "Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.",
                 "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
-                "event_post_enabled_help": "Fügt der verwiesenen Diskussion eine Zeile hinzu, in der angegeben wird, von wo aus darauf verwiesen wurde. Aufeinanderfolgende Zeilen werden zu einer einzigen zusammengefasst.\n",
+                "event_post_enabled_help": "Füge der verlinkten Diskussion eine Zeile wie „Alice hat von … aus auf diese Diskussion verwiesen“ hinzu. Gilt nur für Links aus öffentlichen Beiträgen.",
                 "max_preview_label": "Anzahl der Verweise, die gleichzeitig angezeigt werden",
                 "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
                 "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
@@ -205,7 +205,7 @@
         "email": {
             "discussion_referenced": {
                 "subject": "Ein Verweis auf deine Diskussion wurde erstellt: {title}",
-                "body": "{username} hat auf deine Diskussion von einer anderen Diskussion verwiesen.\n\n{url}\n"
+                "body": "{username} hat auf deine Diskussion „{title}“ von einer anderen Diskussion verwiesen.\n\n{url}\n"
             },
             "followed_discussion_referenced": {
                 "subject": "",
@@ -213,7 +213,7 @@
             },
             "post_referenced": {
                 "subject": "Auf deinen Beitrag wurde verwiesen in {title}",
-                "body": "{username} hat auf deinen Beitrag verwiesen.\n\n{url}\n"
+                "body": "{username} hat auf deinen Beitrag „{title}“ von einer anderen Diskussion verwiesen.\n\n{url}\n"
             }
         },
         "gdpr": {
