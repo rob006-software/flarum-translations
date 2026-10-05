@@ -147,7 +147,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.2.10/resources/locale/en.yml',
 	],
 	'ernestdefoe-cascade' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cascade/v0.3.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cascade/v0.3.5/locale/en.yml',
 	],
 	'ernestdefoe-chronicle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/chronicle/1.0.0/locale/en.yml',
