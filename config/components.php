@@ -228,7 +228,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.6/locale/en.yml',
 	],
 	'ernestdefoe-opensearch' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-reel' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/reel/1.0.0/locale/en.yml',
