@@ -4,33 +4,33 @@
             "button": "GIF hinzufügen",
             "title": "GIF hinzufügen",
             "search_placeholder": "GIFs durchsuchen",
-            "trending": "",
+            "trending": "Angesagt",
             "results_for": "Ergebnisse für „{query}“",
             "no_results": "Keine GIFs gefunden. Versuche es mit einem anderen Wort.",
             "untitled": "GIF",
-            "powered_by": "",
-            "failed": "",
-            "slow_down": ""
+            "powered_by": "Unterstützt von {provider}",
+            "failed": "GIFs können nicht geladen werden. Bitte versuche es erneut.",
+            "slow_down": "Du suchst sehr schnell. Warte einen Moment und versuche es noch einmal."
         },
         "admin": {
             "permission": "Nach GIFs suchen",
             "provider": "GIF-Anbieter",
-            "provider_help": "",
+            "provider_help": "Woher die GIFs stammen. Für jeden Anbieter ist unten ein eigener kostenloser API-Schlüssel erforderlich.",
             "giphy_key": "GIPHY API-Schlüssel",
-            "giphy_key_help": "",
+            "giphy_key_help": "Erstelle eine App (wähle „API“, nicht „SDK“) und kopiere deren Schlüssel von",
             "klipy_key": "KLIPY API-Schlüssel",
-            "klipy_key_help": "",
-            "rating": "",
-            "rating_help": "",
-            "rating_g": "",
-            "rating_pg": "",
-            "rating_pg13": "",
-            "rating_r": ""
+            "klipy_key_help": "Registriere dich, erstelle eine App und kopiere deren Schlüssel von",
+            "rating": "Inhaltsfreigabe",
+            "rating_help": "Inhalte bis zu welcher jugendfreien Einstufung in Suchanfragen angezeigt werden können.",
+            "rating_g": "G, für alle geeignet",
+            "rating_pg": "PG",
+            "rating_pg13": "PG-13",
+            "rating_r": "R, nur für Erwachsene"
         },
         "lib": {
             "errors": {
-                "not_configured": "",
-                "unavailable": ""
+                "not_configured": "GIF-Suche ist auf diesem Forum noch nicht eingerichtet.",
+                "unavailable": "Der GIF-Dienst hat nicht geantwortet. Bitte versuche es in Kürze erneut."
             }
         }
     }
