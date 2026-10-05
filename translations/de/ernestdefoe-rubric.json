@@ -49,22 +49,22 @@
             "saved": "Gespeichert.",
             "loading_tags": "Tags werden geladen…",
             "no_tags": "Es gibt noch keine Tags.",
-            "tag_search_placeholder": "",
-            "tag_search_none": "",
-            "required_heading": "",
-            "required_help": "",
+            "tag_search_placeholder": "Gib etwas ein, um ein Tag zu finden…",
+            "tag_search_none": "Es wurden keine Tags gefunden.",
+            "required_heading": "Präfix erfordern",
+            "required_help": "Um eine Diskussion in einem dieser Tags zu starten, ist ein Präfix erforderlich. (Nur wenn das Mitglied ein Präfix verwenden darf, das hier eingerichtet ist.)",
             "save_required_button": "Speichern",
             "permission_staff_prefixes": "Präfixe nur für Mitarbeiter verwenden"
         },
         "api": {
-            "not_found": "",
-            "not_allowed_here": "",
-            "required": "",
-            "invalid_name": "",
-            "invalid_color": "",
-            "invalid_icon": "",
-            "invalid_slug": "",
-            "slug_taken": ""
+            "not_found": "Dieses Präfix existiert nicht mehr.",
+            "not_allowed_here": "Das Präfix {prefix} darf in den Tags dieser Diskussion nicht verwendet werden.",
+            "required": "Wähle ein Präfix für eine Diskussion in diesem Tag aus.",
+            "invalid_name": "Gib dem Präfix einen Namen mit maximal 60 Zeichen.",
+            "invalid_color": "Wähle eine Farbe als Hex-Code aus, z. B. #2563eb.",
+            "invalid_icon": "Ein Symbol ist eine Font-Awesome-Klasse, z. B. fas fa-bullhorn.",
+            "invalid_slug": "Gib dem Präfix einen Linknamen aus Buchstaben, Zahlen und Bindestrichen.",
+            "slug_taken": "Ein anderes Präfix verwendet diesen Linknamen bereits."
         }
     }
 }
