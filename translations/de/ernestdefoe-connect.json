@@ -3,9 +3,9 @@
         "admin": {
             "intro": "Mit „Connect“ können externe Dienste dein Forum automatisieren. Erstelle einen API-Schlüssel und verwende ihn anschließend in Zapier, Make, IFTTT, n8n oder jedem anderen Dienst, der Webhooks unterstützt. Jeder Schlüssel fungiert als Benutzer und signiert seine ausgehenden Webhooks mit seinem geheimen Schlüssel.\n",
             "new_key": "Einen Schlüssel erstellen",
-            "label_placeholder": "",
-            "scope_read": "",
-            "scope_write": "",
+            "label_placeholder": "Wofür ist dieser Schlüssel gedacht? (z. B. Zapier)",
+            "scope_read": "Lesen (Auslöser)",
+            "scope_write": "Schreiben (Aktionen)",
             "create": "Schlüssel erstellen",
             "key_created": "API-Schlüssel erstellt.",
             "key_error": "Schlüssel konnte nicht erstellt werden.",
