@@ -1,30 +1,30 @@
 {
     "ernestdefoe-sheaf": {
         "forum": {
-            "toggle": "",
-            "toggle_add": "",
-            "toggle_remove": "",
-            "toggle_count": "",
-            "add_selection": "",
-            "full": "",
-            "pill_label": "",
-            "reply_with": "",
-            "inserted": "",
-            "cannot_reply": "",
-            "show_list": "",
-            "clear": "",
-            "cleared": "",
-            "undo": "",
-            "list_heading": "",
-            "selection": "",
-            "remove": "",
-            "source_link": "",
-            "plain_quote_header": "",
-            "unavailable": ""
+            "toggle": "Mehrfachzitat",
+            "toggle_add": "Diesen Beitrag für ein Zitat in einer Antwort sammeln",
+            "toggle_remove": "Diesen Beitrag vom Mehrfachzitat entfernen",
+            "toggle_count": "{count, plural, one {# Zitat gesammelt} other {# Zitate gesammelt}}",
+            "add_selection": "Zum Mehrfachzitat hinzufügen",
+            "full": "Du kannst bis zu {max} Zitate gleichzeitig sammeln. Antworte mit diesen oder lösche zunächst einige davon.",
+            "pill_label": "Mehrfachzitat",
+            "reply_with": "{count, plural, one {Antwort mit # Zitat} other {Antwort mit # Zitaten}}",
+            "inserted": "{count, plural, one {# Zitat in deiner Antwort} other {# Zitate in deiner Antwort}}",
+            "cannot_reply": "Du darfst in dieser Diskussion nicht antworten.",
+            "show_list": "Gesammelte Zitate anzeigen",
+            "clear": "Mehrfachzitat löschen",
+            "cleared": "Mehrfachzitat gelöscht.",
+            "undo": "Rückgängig",
+            "list_heading": "{count} von {max} gesammelt",
+            "selection": "Auswahl",
+            "remove": "{name} #{number} entfernen",
+            "source_link": "Von: {title}",
+            "plain_quote_header": "{name} hat geschrieben:",
+            "unavailable": "{count, plural, one {# zitierter Beitrag ist nicht mehr verfügbar und wurde übersprungen.} other {# zitierte Beiträge sind nicht mehr verfügbar und wurde übersprungen.}}"
         },
         "admin": {
-            "max_quotes": "",
-            "max_quotes_help": ""
+            "max_quotes": "Höchstanzahl an Zitaten, die ein Mitglied sammeln darf",
+            "max_quotes_help": "Wie viele Beiträge oder Auszüge passen in ein Multi-Zitat, bevor man antworten oder einige davon entfernen muss? Standardeinstellung ist 10."
         }
     }
 }
