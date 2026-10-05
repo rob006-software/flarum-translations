@@ -204,7 +204,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.3.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-janitor' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-kindred' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kindred/1.0.0/locale/en.yml',
