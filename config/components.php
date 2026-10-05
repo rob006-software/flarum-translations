@@ -102,7 +102,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v2.0.0-beta.2/locale/en.yml',
 	],
 	'datlechin-references' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-references/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-references/v1.1.0/locale/en.yml',
 	],
 	'datlechin-scroll-buttons' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v2.0.0-beta.1/locale/en.yml',
