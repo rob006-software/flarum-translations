@@ -29,7 +29,7 @@
                 "code_block": "Codeblock",
                 "link": "Link",
                 "image": "Bild",
-                "video": "",
+                "video": "Video",
                 "table": "Tabelle",
                 "toggle_header_cell": "Kopfzeile umschalten",
                 "add_row": "Zeile hinzufügen",
@@ -57,16 +57,16 @@
                 "info_title_placeholder": "Titel…"
             },
             "video": {
-                "placeholder": "",
-                "unsupported": "",
-                "provider_off": "",
-                "play": "",
-                "watch_on": "",
-                "player_title": "",
-                "caption_placeholder": "",
-                "caption_label": "",
-                "replace": "",
-                "remove": ""
+                "placeholder": "Videolink einfügen (YouTube, Vimeo, TikTok…)",
+                "unsupported": "Dieser Link ist kein Video, das Scribe einbetten kann. Verwende die Schaltfläche „Link“, um ihn als Link hinzuzufügen.",
+                "provider_off": "Das Einbetten von {provider}-Videos ist in diesem Forum deaktiviert.",
+                "play": "{provider}-Video abspielen",
+                "watch_on": "Auf {provider} ansehen",
+                "player_title": "{provider}-Videoplayer",
+                "caption_placeholder": "Bildunterschrift hinzufügen (optional)",
+                "caption_label": "Bildunterschrift",
+                "replace": "Video ersetzen",
+                "remove": "Video entfernen"
             }
         },
         "admin": {
@@ -77,11 +77,11 @@
             "palette_empty": "Alle Funktionen sind jetzt in der Symbolleiste.",
             "reset": "Auf Standard zurücksetzen",
             "video": {
-                "heading": "",
-                "help": "",
-                "enabled": "",
-                "providers": "",
-                "not_supported": ""
+                "heading": "Videoeinbettungen",
+                "help": "Füge einen Link zu einem unterstützten Video in einer eigenen Zeile ein, und er wird zu einer Einbettung. Die Leser sehen eine Vorschau; es wird nichts von der Videoseite geladen, bis sie auf „Abspielen“ klicken. Wenn du einen Anbieter deaktivierst, bleiben neue Links zu diesem Anbieter weiterhin als Links erhalten, und bestehende Einbettungen öffnen dann die Seite des Videos selbst, anstatt das Video im Beitrag abzuspielen.\n",
+                "enabled": "Videos einbetten (Klicken zum Laden)",
+                "providers": "Anbieter",
+                "not_supported": "Nicht unterstützt, daher bleiben es Links: fb.watch, vm.tiktok.com und facebook.com/share (es handelt sich um Weiterleitungen), Rumble, Kick und X/Twitter.\n"
             }
         }
     }
