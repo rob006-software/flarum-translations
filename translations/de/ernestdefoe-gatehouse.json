@@ -1,34 +1,34 @@
 {
     "ernestdefoe-gatehouse": {
         "forum": {
-            "notice_pending": "",
-            "notice_declined": "",
-            "notification": ""
+            "notice_pending": "Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.",
+            "notice_declined": "Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.",
+            "notification": "{name} hat sich angemeldet und wartet auf deine Freigabe"
         },
         "admin": {
-            "queue_heading": "",
+            "queue_heading": "Wartet auf Freigabe",
             "queue": {
-                "tab_pending": "",
+                "tab_pending": "Wartet",
                 "tab_declined": "Abgelehnt",
                 "tab_approved": "Genehmigt",
-                "empty_pending": "",
-                "empty_declined": "",
-                "empty_approved": "",
-                "signed_up": "",
+                "empty_pending": "Niemand wartet gerade.",
+                "empty_declined": "Niemand wurde abgelehnt.",
+                "empty_approved": "Niemand wurde bisher durch Gatehouse freigegeben.",
+                "signed_up": "Angemeldet",
                 "approved_by": "Genehmigt von {name}",
                 "declined_by": "Abgelehnt von {name}",
                 "approve": "Genehmigen",
                 "decline": "Ablehnen"
             },
             "rules_heading": "Regeln",
-            "enabled": "",
-            "enabled_help": "",
+            "enabled": "Neue Anmeldungen bis zur Freigabe zurückhalten",
+            "enabled_help": "Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.",
             "allow": "",
             "allow_help": "",
             "deny": "",
             "deny_help": "",
             "usernames_heading": "Benutzernamen",
-            "reserved_usernames": "",
+            "reserved_usernames": "Reservierte Benutzernamen",
             "reserved_usernames_help": "",
             "messages_heading": "E-Mails",
             "held_message": "",
