@@ -180,7 +180,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.0.3/locale/en.yml',
 	],
 	'ernestdefoe-herald' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-hero-builder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.4.0/resources/locale/en.yml',
