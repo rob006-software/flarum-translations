@@ -1,34 +1,34 @@
 {
     "ernestdefoe-cadence": {
         "forum": {
-            "map_label": "",
-            "metric_label": "",
-            "kind_all": "",
-            "kind_discussion": "",
-            "kind_reply": "",
-            "kind_like": "",
-            "kind_reaction": "",
-            "kind_best_answer": "",
-            "kind_count_discussion": "",
-            "kind_count_reply": "",
-            "kind_count_like": "",
-            "kind_count_reaction": "",
-            "kind_count_best_answer": "",
-            "nothing_on": "",
-            "count_on": "",
-            "spark_label": "",
-            "less": "",
-            "more": "",
-            "nothing": "",
-            "at_least": ""
+            "map_label": "Aktivität im Zeitverlauf",
+            "metric_label": "Was angezeigt werden soll",
+            "kind_all": "Alle",
+            "kind_discussion": "Diskussionen",
+            "kind_reply": "Antworten",
+            "kind_like": "Likes",
+            "kind_reaction": "Reaktionen",
+            "kind_best_answer": "Beste Antworten",
+            "kind_count_discussion": "{count, plural, one {# Diskussion begonnen} other {# Diskussionen begonnen}}",
+            "kind_count_reply": "{count, plural, one {# Antwort} other {# Antworten}}",
+            "kind_count_like": "{count, plural, one {# Like vergeben} other {# Likes vergeben}}",
+            "kind_count_reaction": "{count, plural, one {# Reaktion} other {# Reaktionen}}",
+            "kind_count_best_answer": "{count, plural, one {# beste Antwort} other {# beste Antworten}}",
+            "nothing_on": "Nichts am {date}",
+            "count_on": "{count, plural, one {# Ereignis am {date}} other {# Ereignisse am {date}}}",
+            "spark_label": "{count, plural, one {# Ereignis in den vergangenen 26 Wochen} other {# Ereignisse in den vergangenen 26 Wochen}}",
+            "less": "Weniger",
+            "more": "Mehr",
+            "nothing": "Nichts",
+            "at_least": "{count, plural, one {# oder mehr} other {# oder mehr}}"
         },
         "admin": {
-            "show_on_profile": "",
-            "show_on_profile_help": "",
-            "show_on_posts": "",
-            "show_on_posts_help": "",
-            "show_on_cards": "",
-            "show_on_cards_help": ""
+            "show_on_profile": "Übersicht auf Benutzerprofilen anzeigen",
+            "show_on_profile_help": "Vollständige Übersicht auf jedem Profil. Das ist das, was sich die meisten Foren wünschen.\n",
+            "show_on_posts": "Neben jedem Beitrag eine Sparkline anzeigen",
+            "show_on_posts_help": "Eine kleine, 26 Wochen lange Nachverfolgung neben jedem Autor. Das kostet eine zusätzliche Abfrage pro eindeutigem Mitglied auf einer Seite – nicht pro Beitrag –, ist also kostengünstig, ist aber standardmäßig nicht angeschaltet, es sei denn, du aktivierst es ausdrücklich.\n",
+            "show_on_cards": "Sparkline auf Benutzerkarten anzeigen",
+            "show_on_cards_help": "Auf Hover-Karten und überall dort, wo ein Mitglied zusammengefasst wird.\n"
         }
     }
 }
