@@ -1,36 +1,36 @@
 {
     "ernestdefoe-gatehouse": {
         "forum": {
-            "notice_pending": "",
-            "notice_declined": "",
-            "notification": ""
+            "notice_pending": "Merci beaucoup pour votre inscription ! Un administrateur doit valider votre compte avant que vous puissiez publier des messages. Nous vous enverrons un e-mail dès que ce sera fait.",
+            "notice_declined": "Votre compte n'a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.",
+            "notification": "{name} s'est inscrit(e) et attend votre approbation"
         },
         "admin": {
-            "queue_heading": "",
+            "queue_heading": "En attente d'approbation",
             "queue": {
-                "tab_pending": "",
-                "tab_declined": "",
-                "tab_approved": "",
-                "empty_pending": "",
-                "empty_declined": "",
-                "empty_approved": "",
-                "signed_up": "",
-                "approved_by": "",
-                "declined_by": "",
-                "approve": "",
-                "decline": ""
+                "tab_pending": "En attente",
+                "tab_declined": "Refusé",
+                "tab_approved": "Approuvé",
+                "empty_pending": "Personne n'attend.",
+                "empty_declined": "Personne n'a été refusé.",
+                "empty_approved": "Personne n'a encore été approuvé par Gatehouse.",
+                "signed_up": "S'est inscrit",
+                "approved_by": "Approuvé par {name}",
+                "declined_by": "Refusé par {name}",
+                "approve": "Approuver",
+                "decline": "Refuser"
             },
-            "rules_heading": "",
-            "enabled": "",
-            "enabled_help": "",
+            "rules_heading": "Règles",
+            "enabled": "Mettre en attente les nouvelles inscriptions pour approbation",
+            "enabled_help": "Les membres existants ne sont jamais affectés. Les administrateurs qui ajoutent des membres manuellement ne sont jamais retenus.",
             "allow": "",
-            "allow_help": "",
+            "allow_help": "Un par ligne. Un domaine (uni-freiburg.de, incluant ses sous-domaines), un domaine exact (@staff.example.org), une terminaison (.edu), un caractère générique (*@example.com) ou une expression régulière entre barres obliques. Tous les autres sont mis en attente. Laissez ce champ vide pour approuver manuellement chaque nouveau membre.",
             "deny": "",
             "deny_help": "",
-            "usernames_heading": "",
-            "reserved_usernames": "",
+            "usernames_heading": "Noms d'utilisateur",
+            "reserved_usernames": "Noms d'utilisateur réservés",
             "reserved_usernames_help": "",
-            "messages_heading": "",
+            "messages_heading": "Courriels",
             "held_message": "",
             "held_message_help": "",
             "declined_message": "",
@@ -61,7 +61,7 @@
             },
             "admin_new": {
                 "subject": "",
-                "body": ""
+                "body": "{applicant} ({email}) s'est inscrit(e) et attend l'approbation.\n\nApprouver ou refuser sa demande ici :\n\n{url}\n"
             }
         }
     }
