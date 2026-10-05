@@ -219,7 +219,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-roster' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roster/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roster/1.2.4/resources/locale/en.yml',
 	],
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.2.0/locale/en.yml',
