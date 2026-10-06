@@ -208,15 +208,15 @@
             "queue_widget": {
                 "title": "Coadă",
                 "pending": "În așteptare",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "reserved": "În curs",
+                "failed": "Eșuat",
+                "refresh": "Actualizare"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
+                "title": "Joburi eșuate",
+                "none": "Niciun job eșuat.",
+                "meta": "Coadă {queue} · eșuat {time}",
+                "details": "Detalii",
                 "retry": "",
                 "retry_all": "",
                 "delete": ""
