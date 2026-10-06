@@ -1,0 +1,33 @@
+{
+    "ernestdefoe-manticore": {
+        "forum": {
+            "powered_by": "Powered by Manticore Search"
+        },
+        "admin": {
+            "host_label": "Host",
+            "host_help": "The Manticore server's host name or IP, reachable from your forum's server. Nothing is sent anywhere until this is filled in.\n",
+            "port_label": "HTTP port",
+            "scheme_label": "Protocol",
+            "table_prefix_label": "Table prefix",
+            "table_prefix_help": "Optional. Keeps tables apart when several forums share one Manticore server. Leave blank to use your forum's host name.\n",
+            "username_label": "Username",
+            "auth_help": "Optional. Only if your Manticore sits behind a proxy that asks for HTTP basic authentication. The password is stored on the server and never sent to visitors.\n",
+            "password_label": "Password",
+            "drivers_label": "Use Manticore for…",
+            "drivers_help": "Text searches go to Manticore; filtering and browsing keep using the database. Flarum still decides what each visitor may see. If Manticore cannot be reached, search quietly falls back to the database.\n",
+            "use_for_discussions": "Discussion search",
+            "use_for_users": "User search",
+            "use_for_posts": "Post search",
+            "connection_label": "Connection",
+            "test_button": "Test connection",
+            "test_ok": "Connected to Manticore {version}",
+            "test_fail": "Could not reach Manticore",
+            "not_configured": "Enter a host and save first.",
+            "rebuild_label": "Search index",
+            "rebuild_help": "Builds the discussions, posts and users tables from your existing content. Run it once after connecting, and whenever you think the index has drifted. On a large forum, run a queue worker so this happens in the background.\n",
+            "rebuild_button": "Rebuild index",
+            "rebuild_queued": "Rebuild started.",
+            "rebuild_failed": "Could not start the rebuild. Check the connection settings."
+        }
+    }
+}
