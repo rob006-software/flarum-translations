@@ -50,8 +50,8 @@
                     "cdn_url_help": "URL complet către fișierul CSS FontAwesome de pe un CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "URL-ul scriptului tău FontAwesome Kit (de pe kit.fontawesome.com)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Stil pictogramă forțat",
+                    "forced_style_help": "Forțează fiecare pictogramă la un stil FontAwesome specific, de exemplu \"fa-duotone fa-light\" sau \"fa-regular\". Înlocuiește stilul declarat de nucleu și extensii (pictogramele de brand nu sunt modificate niciodată). Sursa ta de pictograme trebuie să poată furniza stilul: pictogramele incluse sunt FontAwesome Free, care acoperă doar câteva sute de pictograme în afara stilului solid, așa că forțarea altui stil lasă majoritatea pictogramelor goale. Fiecare stil este disponibil cu un CDN sau Kit FontAwesome Pro. Lăsați gol pentru dezactivare.",
                     "config_override": {
                         "label": "Suprascriere Configurare",
                         "help": "Setările FontAwesome sunt configurate în prezent în fișierul tău config.php și nu pot fi modificate aici."
@@ -69,10 +69,10 @@
                     "search_configuration": "Configurația de căutare de utilizat"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Pauză procesare coadă",
+                    "pause_all_label": "Pauză pentru toate cozile",
+                    "pause_queue_label": "Pauză pentru coada {queue}",
+                    "pause_help": "În timpul pauzei, lucrătorii nu preiau noi joburi din cozile afectate — joburile se acumulează până când procesarea este reluată. Joburile care rulează deja nu sunt afectate.",
                     "section_label": "Coadă",
                     "sync_info": "Forumul tău utilizează driverul de coadă sincron. Joburile sunt procesate imediat în firul principal de execuție.",
                     "sync_help": "Pentru o performanță și o experiență de utilizare mai bună, ia în considerare utilizarea driverului de coadă prin baza de date. Află mai multe în documentație.",
@@ -96,8 +96,8 @@
                         "default": "Căutare implicită în baza de date"
                     },
                     "no_other_drivers": "Niciun driver de căutare nu este disponibil încă. Instalați o extensie de driver de căutare pentru a-l putea configura.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "Optimizare căutare pentru limbi CJK",
+                    "cjk_mode_help": "Activează dacă forumul tău este în principal în chineză, japoneză sau coreeană. Căutarea bazată pe cuvinte a bazei de date nu poate potrivi părți din textul CJK, așa că aceasta comută la o căutare de subșiruri care poate face acest lucru. Este mai lent pe forumurile foarte mari, unde configurarea unui analizor de text complet compatibil CJK la nivelul bazei de date (cum ar fi analizorul ngram din MySQL/MariaDB) este o alternativă mai rapidă."
                 },
                 "title": "Avansat"
             },
@@ -126,8 +126,8 @@
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
                 "logo_dark_mode_heading": "Logo pentru modul întunecat",
                 "logo_dark_mode_text": "Încărcați un logo alternativ care să fie afișat atunci când modul întunecat este activat.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "Permite utilizatorilor să comute între schemele de culori disponibile dintr-un control din antet.",
+                "show_theme_selector_label": "Afișare selector temă",
                 "title": "Aspect",
                 "color_scheme_label": "Schemă de culori (implicită)",
                 "color_schemes": {
