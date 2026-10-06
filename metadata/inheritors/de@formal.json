@@ -10916,6 +10916,7 @@
                         "warning": "a2e862f528cd1704d2aac07cee042909 a2e862f528cd1704d2aac07cee042909"
                     },
                     "php-version": {
+                        "chip": "1f695bdcd7b9116f8d9d7167f270e8a5 1f695bdcd7b9116f8d9d7167f270e8a5",
                         "fail": "6bd53b3886186252c846fc4217b581cd 6bd53b3886186252c846fc4217b581cd",
                         "pass": "66c73e453710524088fb059d73949391 66c73e453710524088fb059d73949391",
                         "title": "7bde750544352fc4862c386de03aafe7 7bde750544352fc4862c386de03aafe7",
@@ -10946,10 +10947,76 @@
                     "superseded_self": "eae36f7d1120324cb152398c4eabcdac eae36f7d1120324cb152398c4eabcdac",
                     "unknown": "167a8dac2fddb91c00c118d8ca4cea57 167a8dac2fddb91c00c118d8ca4cea57"
                 },
+                "hints": {
+                    "no_path": "04cad1c219b145014435db304fe0383b 04cad1c219b145014435db304fe0383b",
+                    "no_path_abandoned": "5cfc024590046dd59d02ae440b6d93bb 5cfc024590046dd59d02ae440b6d93bb",
+                    "no_path_replacement_not_ready": "99a3094a7f17c78910f663accd75cd3f 99a3094a7f17c78910f663accd75cd3f",
+                    "no_path_unversioned": "fb48e6e21f0d4fa3e0810b9a69e7550c fb48e6e21f0d4fa3e0810b9a69e7550c",
+                    "none": "af7f5e4a97b22d9d3d2c8590cd498ccc af7f5e4a97b22d9d3d2c8590cd498ccc",
+                    "none_unversioned": "ed3446b8729eb02221cec2247928b6cc ed3446b8729eb02221cec2247928b6cc",
+                    "remove": "4b389c72cda2d53578db62db1781448c 4b389c72cda2d53578db62db1781448c",
+                    "remove_last": "c99cc99ac204aad443dd2205a9a71460 c99cc99ac204aad443dd2205a9a71460",
+                    "swap_after_upgrade": "1e825b23b8632088b075eb58c9688ee6 1e825b23b8632088b075eb58c9688ee6",
+                    "switch_replacement": "c05f6883330f8a4f61c83944199448bf c05f6883330f8a4f61c83944199448bf",
+                    "switch_replacement_unverified": "d4c2fbae3bf2963d47fcdf2fcad7ab43 d4c2fbae3bf2963d47fcdf2fcad7ab43",
+                    "unknown": "5cda82fbac300fef2c352d2fb5c445b7 5cda82fbac300fef2c352d2fb5c445b7"
+                },
+                "list": {
+                    "after": "c333e5268d370b87c896c5e68819238c c333e5268d370b87c896c5e68819238c",
+                    "before": "8886de6d424454f22383ba88d5c719ef 8886de6d424454f22383ba88d5c719ef",
+                    "configure": "04fdf071fbe39d0012a9796918505e65 04fdf071fbe39d0012a9796918505e65",
+                    "copied": "3a116571039d32884c4f16798ec1254a 3a116571039d32884c4f16798ec1254a",
+                    "copy": "668b1e13ff6bf731158f233dfb31671a 668b1e13ff6bf731158f233dfb31671a",
+                    "details": {
+                        "abandoned": "049712d67b106e1257b42408d37c4127 049712d67b106e1257b42408d37c4127",
+                        "latest": "062416e5cf5031c1950f4078b43340f9 062416e5cf5031c1950f4078b43340f9",
+                        "no_release": "766e4acc08ba114c0a64729f13c0820d 766e4acc08ba114c0a64729f13c0820d",
+                        "none": "e458e665538e1fda08dff7f2bac9961c e458e665538e1fda08dff7f2bac9961c",
+                        "none_unversioned": "e91da8cf0b1c4a1e0d4531cf29600303 e91da8cf0b1c4a1e0d4531cf29600303",
+                        "remove": "fedd7b586cbcf1577acd033d7d3062bd fedd7b586cbcf1577acd033d7d3062bd",
+                        "remove_last": "66d3ef1acc7adc12ec2153da92cb8250 66d3ef1acc7adc12ec2153da92cb8250",
+                        "replacement": "8aa02e7f48b813ccb4c52f1095f2c73f 8aa02e7f48b813ccb4c52f1095f2c73f",
+                        "replacement_not_ready": "03ce771806f9c38cdeaa6aa19a4825d4 03ce771806f9c38cdeaa6aa19a4825d4",
+                        "replacement_unverified": "99287970324553232f9343e302f070f4 99287970324553232f9343e302f070f4",
+                        "unknown": "1eaed357ff889d37e59b7985edab618e 1eaed357ff889d37e59b7985edab618e"
+                    },
+                    "final_step": "39e47d033f46e361cf1865eab08315de 39e47d033f46e361cf1865eab08315de",
+                    "groups": {
+                        "decision": {
+                            "description": "0b1899c7622d2c6ad98114f12edfc332 0b1899c7622d2c6ad98114f12edfc332",
+                            "title": "ab3bd4b954e00a1a0982f8c60e672804 ab3bd4b954e00a1a0982f8c60e672804"
+                        },
+                        "environment": {
+                            "description": "a875c161efbf9bb10c6192c1cfe9a65f a875c161efbf9bb10c6192c1cfe9a65f",
+                            "title": "852b4eb940dd2a291a4d3c7730baff7c 852b4eb940dd2a291a4d3c7730baff7c"
+                        },
+                        "ready": {
+                            "description": "eab126cf33a5f4149e8400e8085a1b06 eab126cf33a5f4149e8400e8085a1b06",
+                            "title": "379ee82bcb2d574dc209be01c3f7f165 379ee82bcb2d574dc209be01c3f7f165"
+                        },
+                        "replace": {
+                            "description": "b06dc01043dde53f887fa762868b302d b06dc01043dde53f887fa762868b302d",
+                            "title": "956cad4051b12692b08d90c735a33e41 956cad4051b12692b08d90c735a33e41"
+                        },
+                        "unknown": {
+                            "description": "0ec61b686cef2e7187cc4694b613e758 0ec61b686cef2e7187cc4694b613e758",
+                            "title": "92740fbf9bf2def561fb0340d015bbeb 92740fbf9bf2def561fb0340d015bbeb"
+                        }
+                    }
+                },
                 "overall": {
+                    "blocked": "b9f4178b790c159adff87cdfd30c1f7a b9f4178b790c159adff87cdfd30c1f7a",
                     "fail": "15dd6a6c73a7b5e133496ae22457ddb4 15dd6a6c73a7b5e133496ae22457ddb4",
                     "pass": "2ebd77a71654bc52e2a6ec154329c9c7 2ebd77a71654bc52e2a6ec154329c9c7",
+                    "ready": "ccfb8cef2659dd98741102c7420b376a ccfb8cef2659dd98741102c7420b376a",
+                    "reasons": {
+                        "check": "47fe3955a783318a389913258eb3b3dc 47fe3955a783318a389913258eb3b3dc",
+                        "no_path": "f02219fdb1c602b7f080bd3634ad475c f02219fdb1c602b7f080bd3634ad475c",
+                        "unchecked": "7f62b99ef122c1d9b504cb95c47f118a 7f62b99ef122c1d9b504cb95c47f118a"
+                    },
                     "subtitle": "e11b5fa2df193ee8405682401fd6b37b e11b5fa2df193ee8405682401fd6b37b",
+                    "tasks": "4661f289feb22e7c9fcdfa6043ea9d80 4661f289feb22e7c9fcdfa6043ea9d80",
+                    "unchecked_only": "c0f32871ef0cef9f72fc316c52fef46a c0f32871ef0cef9f72fc316c52fef46a",
                     "warning": "b7a7aaf955bc60278bce97cc071dabec b7a7aaf955bc60278bce97cc071dabec"
                 },
                 "repositories": {
@@ -10968,6 +11035,20 @@
                     "type_floxum": "c84d00a8b356207f7ecfa46fa9b89d5e c84d00a8b356207f7ecfa46fa9b89d5e",
                     "url": "8ce2755b96cc84aba8918ee7db5639f3 8ce2755b96cc84aba8918ee7db5639f3",
                     "username": "cca8493f6f1bd794b75879a6d8a7bbc7 cca8493f6f1bd794b75879a6d8a7bbc7"
+                },
+                "summary": {
+                    "blocked": "b2c435cd2cecf4df547257fae086c62d b2c435cd2cecf4df547257fae086c62d",
+                    "checked": "a02c99448a1e6e3d99f32559bff6b051 a02c99448a1e6e3d99f32559bff6b051",
+                    "data_as_of": "d3b2758a30524633f3b47ccc6ad11c20 d3b2758a30524633f3b47ccc6ad11c20",
+                    "data_as_of_help": "88a990ec89506770edff23ec9f49c195 88a990ec89506770edff23ec9f49c195",
+                    "export": "dfa1b7ea5b94594ce4353e71d97d28a5 dfa1b7ea5b94594ce4353e71d97d28a5",
+                    "progress": "a4c79c7a35d2c89dc32d15b93755bc4f a4c79c7a35d2c89dc32d15b93755bc4f",
+                    "ready": "84beb5406dc6194b1660f273f247a9b0 84beb5406dc6194b1660f273f247a9b0",
+                    "recommended": "b67d70fa8aa5f0f1a363d3172aa9d6aa b67d70fa8aa5f0f1a363d3172aa9d6aa",
+                    "refresh": "bf3cfcc67443f35738da254ed9c6ef3f bf3cfcc67443f35738da254ed9c6ef3f",
+                    "refresh_cooldown": "328d21315a2185933927903ba30febf5 328d21315a2185933927903ba30febf5",
+                    "tasks": "fc0723ddb56d492024316d4e1f680a99 fc0723ddb56d492024316d4e1f680a99",
+                    "unknown": "cb8c9aee2dd29e618e5723fad654a1b3 cb8c9aee2dd29e618e5723fad654a1b3"
                 },
                 "tabs": {
                     "report": "6335751d665360d3446e9eac43060b5a 6335751d665360d3446e9eac43060b5a",
