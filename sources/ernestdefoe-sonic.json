@@ -1,0 +1,37 @@
+{
+    "ernestdefoe-sonic": {
+        "forum": {
+            "powered_by": "Powered by Sonic"
+        },
+        "admin": {
+            "host_label": "Host",
+            "host_help": "Address of your Sonic server, as seen from this forum's server (for example 127.0.0.1, or the container name).",
+            "port_label": "Port",
+            "bucket_label": "Bucket",
+            "bucket_help": "Optional. Keeps this forum's index apart when several forums share one Sonic. Leave blank to use your forum's host name. Rebuild the index after changing it.\n",
+            "password_label": "Password",
+            "password_help": "Sonic's channel.auth_password. Stored on the server and never sent back to the browser.",
+            "password_saved": "A password is saved. Type a new one to replace it.",
+            "drivers_label": "Use Sonic for…",
+            "drivers_help": "Text searches go to Sonic; browsing and filters keep using the database. Flarum still decides who may see each result. If Sonic is unreachable, searches fall back to the database.\n",
+            "use_for_discussions": "Discussion search",
+            "use_for_posts": "Post search",
+            "use_for_users": "User search",
+            "status_label": "Connection",
+            "status_button": "Check connection",
+            "status_ok": "Connected. Indexed: {discussions} discussions, {posts} posts, {users} users.",
+            "error": {
+                "not_configured": "Enter a host and save first.",
+                "unreachable": "Could not reach Sonic at that host and port.",
+                "timeout": "Sonic did not answer in time.",
+                "auth_failed": "Sonic refused the password.",
+                "protocol": "Something answered, but it does not speak the Sonic protocol."
+            },
+            "rebuild_label": "Search index",
+            "rebuild_help": "Rebuild every Sonic index from your existing content. Run it once after connecting, and whenever results look out of date (for example after Sonic was offline). On large forums, run a queue worker so it happens in the background.\n",
+            "rebuild_button": "Rebuild index",
+            "rebuild_queued": "Rebuild started.",
+            "rebuild_failed": "Could not rebuild the index. Check the connection."
+        }
+    }
+}
