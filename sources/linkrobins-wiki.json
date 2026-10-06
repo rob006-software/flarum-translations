@@ -10,7 +10,7 @@
             },
             "index_layout": {
                 "heading": "Wiki home page",
-                "intro": "Compose what the /wiki landing page shows using shortcodes. Leave blank to list all articles.",
+                "intro": "Compose what the /wiki landing page shows using shortcodes. Leave blank to show every category with its articles.",
                 "label": "Home page layout",
                 "help": "Each shortcode goes on its own line. Lines that are not shortcodes are shown as text; lines starting with #, ## or ### become headings.",
                 "shortcodes_heading": "Available shortcodes",
@@ -20,7 +20,9 @@
                 "shortcode_categories": "Show the category list.",
                 "shortcode_heading": "A heading (## and ### for smaller).",
                 "shortcode_link": "A link. Bare web addresses become links too.",
-                "shortcode_html": "Raw HTML on the lines between the tags, for an embed or a widget. Left exactly as written."
+                "shortcode_html": "Raw HTML on the lines between the tags, for an embed or a widget. Left exactly as written.",
+                "per_category_label": "Articles per category",
+                "per_category_help": "When the layout is blank, the wiki home page lists every category with this many of its articles, positioned ones first, and a \"See all\" link when it has more. Between 1 and 50."
             },
             "layout": {
                 "heading": "Layout",
@@ -121,6 +123,8 @@
                 "untitled": "Untitled",
                 "deleted_badge": "Deleted",
                 "draft_badge": "Draft",
+                "uncategorised": "Other",
+                "see_all_lead": "See all in",
                 "no_categories": "No categories yet."
             },
             "compose": {
