@@ -273,7 +273,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.0.8/locale/en.yml',
 	],
 	'ernestdefoe-typesense' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.3/locale/en.yml',
 	],
 	'ernestdefoe-verbatim' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.1/locale/en.yml',
