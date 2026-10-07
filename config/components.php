@@ -990,7 +990,7 @@ return [
 		],
 	],
 	'ramon-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.3.2/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
