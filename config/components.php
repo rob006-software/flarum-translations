@@ -260,6 +260,9 @@ return [
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-showcase' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-showcase/2.0.3/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.6.3/locale/en.yml',
 	],
