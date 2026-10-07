@@ -1590,6 +1590,12 @@ return [
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v1.6.1/locale/en.yml',
 	],
+	'prm-trade-feedback' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-trade-feedback/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
