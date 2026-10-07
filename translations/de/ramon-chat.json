@@ -66,7 +66,8 @@
             "move_too_many": "{max, plural, one {Du kannst höchstens # Nachrichten auf einmal verschieben.} other {Du kannst höchstens # Nachrichten auf einmal verschieben.}}",
             "move_target_frozen": "Du kannst keine Nachrichten in einen geschlossenen oder archivierten Kanal verschieben.",
             "webhook_channel_unavailable": "Der Kanal dieses Webhooks ist geschlossen oder nicht verfügbar.",
-            "webhook_empty": "Die Webhook-Nutzlast enthielt keinen Text."
+            "webhook_empty": "Die Webhook-Nutzlast enthielt keinen Text.",
+            "webhook_user_not_admin": ""
         },
         "email": {
             "mentioned": {
@@ -759,7 +760,9 @@
                 "deliveries": "{count, plural, one {# Zustellung} other {# Zustellungen}}",
                 "url_once": "Kopiere diese URL jetzt. Sie wird nicht noch einmal angezeigt.",
                 "disabled": "Eingehende Webhooks sind deaktiviert. Schalte den Schalter oben ein und speichere die Einstellung, um sie zu verwalten.",
-                "failed": "Diese Änderung konnte nicht gespeichert werden."
+                "failed": "Diese Änderung konnte nicht gespeichert werden.",
+                "author": "",
+                "author_bot": ""
             }
         }
     }

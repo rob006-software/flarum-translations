@@ -66,7 +66,8 @@
             "move_too_many": "{max, plural, one {Bạn chỉ có thể chuyển tối đa # tin nhắn mỗi lần.} other {Bạn chỉ có thể chuyển tối đa # tin nhắn mỗi lần.}}",
             "move_target_frozen": "Bạn không thể chuyển tin nhắn vào một kênh đã đóng hoặc đã lưu trữ.",
             "webhook_channel_unavailable": "Kênh của webhook đó đang đóng hoặc không khả dụng.",
-            "webhook_empty": "Dữ liệu webhook không chứa nội dung văn bản nào."
+            "webhook_empty": "Dữ liệu webhook không chứa nội dung văn bản nào.",
+            "webhook_user_not_admin": ""
         },
         "email": {
             "mentioned": {
@@ -737,7 +738,9 @@
                 "deliveries": "{count, plural, one {# lượt gửi} other {# lượt gửi}}",
                 "url_once": "Hãy sao chép URL này ngay. Nó sẽ không hiển thị lại.",
                 "disabled": "Tính năng webhook gửi đến đang tắt. Hãy bật công tắc phía trên và lưu lại để quản lý chúng.",
-                "failed": "Không thể lưu thay đổi đó."
+                "failed": "Không thể lưu thay đổi đó.",
+                "author": "",
+                "author_bot": ""
             }
         }
     }

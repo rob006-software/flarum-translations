@@ -66,7 +66,8 @@
             "move_too_many": "{max, plural, other {一次最多可移动 # 条消息。}}",
             "move_target_frozen": "不能将消息移动到已关闭或已归档的频道。",
             "webhook_channel_unavailable": "该 Webhook 对应的频道已关闭或不可用。",
-            "webhook_empty": "Webhook 请求中没有消息文本。"
+            "webhook_empty": "Webhook 请求中没有消息文本。",
+            "webhook_user_not_admin": ""
         },
         "email": {
             "mentioned": {
@@ -756,7 +757,9 @@
                 "deliveries": "{count, plural, other {# 次投递}}",
                 "url_once": "请立即复制此 URL，之后将不再显示。",
                 "disabled": "传入 Webhook 已关闭。请先开启上方开关并保存设置，再管理 Webhook。",
-                "failed": "无法保存此更改。"
+                "failed": "无法保存此更改。",
+                "author": "",
+                "author_bot": ""
             }
         }
     }
