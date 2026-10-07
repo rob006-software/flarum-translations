@@ -248,6 +248,9 @@ return [
 	'ernestdefoe-rubric' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rubric/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-ruffle' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ruffle/0.4.0/locale/en.yml',
+	],
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.4/locale/en.yml',
 	],
