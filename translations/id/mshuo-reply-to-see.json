@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "Opsi tampilan balasan",
                 "reply-type-lable-helpText": "Balas ke topik: Bergabunglah dalam diskusi untuk melihat konten tersembunyi, Balas ke post yang ditentukan: Harus membalas langsung ke post yang berisi konten tersembunyi",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "Balas untuk membuka",
             "must-reply-theme": "Ikuti diskusi untuk melihat",
-            "insert-reply-to-see": "Balas untuk membuka konten tersembunyi"
+            "insert-reply-to-see": "Balas untuk membuka konten tersembunyi",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

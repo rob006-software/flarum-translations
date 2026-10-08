@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "",
                 "reply-type-lable-helpText": "",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "Avamiseks vasta",
             "must-reply-theme": "Vaatamiseks liitu vestlusega",
-            "insert-reply-to-see": "Vasta, et näha peidetud sisu"
+            "insert-reply-to-see": "Vasta, et näha peidetud sisu",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

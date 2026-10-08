@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "ตัวเลือกการแสดงผลของการตอบกลับ",
                 "reply-type-lable-helpText": "ตอบกลับ topic: เข้าร่วมโพสต์เพื่อดูเนื้อหาที่ซ่อนอยู่, ตอบกลับ post ที่กำหนด: ต้องตอบกลับ post ที่มีเนื้อหาซ่อนอยู่โดยตรง",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "ตอบกลับเพื่อปลดล็อก",
             "must-reply-theme": "เข้าร่วมโพสต์เพื่อดู",
-            "insert-reply-to-see": "ตอบกลับเพื่อปลดล็อกเนื้อหาที่ซ่อน"
+            "insert-reply-to-see": "ตอบกลับเพื่อปลดล็อกเนื้อหาที่ซ่อน",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

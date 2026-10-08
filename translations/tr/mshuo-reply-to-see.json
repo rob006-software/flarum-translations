@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "Yanıt görüntüleme seçenekleri",
                 "reply-type-lable-helpText": "Konuya yanıt ver:Gizli içeriği görmek için tartışmaya katılın,Belirli gönderiye yanıt ver:Gizli içeriği görmek için doğrudan bu gönderiye yanıt verin",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "Görmek için yanıt ver",
             "must-reply-theme": "Görmek için tartışmaya katıl",
-            "insert-reply-to-see": "Gizli içeriği görmek için yanıt ver"
+            "insert-reply-to-see": "Gizli içeriği görmek için yanıt ver",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "Tùy chọn hiển thị khi trả lời",
                 "reply-type-lable-helpText": "Trả lời chủ đề: tham gia thảo luận để xem nội dung ẩn; Trả lời bài viết được chỉ định: phải trả lời trực tiếp bài viết chứa nội dung ẩn",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "Trả lời để mở khóa",
             "must-reply-theme": "Tham gia thảo luận để xem",
-            "insert-reply-to-see": "Trả lời để mở khóa nội dung ẩn"
+            "insert-reply-to-see": "Trả lời để mở khóa nội dung ẩn",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

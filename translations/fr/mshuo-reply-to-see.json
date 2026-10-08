@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "Options d'affichage des réponses",
                 "reply-type-lable-helpText": "Répondre au sujet : Participez à la discussion pour voir le contenu caché. Répondre au message spécifié : Vous devez répondre directement au message contenant le contenu caché",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "Répondre pour déverrouiller",
             "must-reply-theme": "Participer à la discussion pour voir",
-            "insert-reply-to-see": "Répondre pour débloquer le contenu caché"
+            "insert-reply-to-see": "Répondre pour débloquer le contenu caché",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }

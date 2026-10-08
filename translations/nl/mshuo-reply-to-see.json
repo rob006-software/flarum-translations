@@ -1,6 +1,7 @@
 {
     "mshuo-reply-to-see": {
         "admin": {
+            "description": "",
             "settings": {
                 "reply-type-lable": "",
                 "reply-type-lable-helpText": "",
@@ -20,9 +21,12 @@
             ]
         },
         "forum": {
+            "reply-visible": "",
             "must-reply-specific": "",
             "must-reply-theme": "",
-            "insert-reply-to-see": ""
+            "insert-reply-to-see": "",
+            "refresh-failed": "",
+            "reload": ""
         }
     }
 }
