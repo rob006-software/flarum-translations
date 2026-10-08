@@ -174,7 +174,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-garrison' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-gatehouse' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.2.1/locale/en.yml',
