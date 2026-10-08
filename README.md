@@ -1,6 +1,13 @@
 # Flarum translations monorepo
 
-This repository contains raw translations data used by [Weblate](https://weblate.rob006.net/projects/flarum/) instance - an initiative to facilitate the translation process for Flarum core and community extensions. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+This repository contains raw translations data used by [Weblate](https://weblate.rob006.net/) instance - an initiative to facilitate the translation process for Flarum core and community extensions. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+
+| Flarum version | Branch | Weblate project | Translation status |
+| --- | --- | --- | --- |
+| 1.x | [`master`](https://github.com/rob006-software/flarum-translations/tree/master) | [Flarum 1.x](https://weblate.rob006.net/projects/flarum/) | [Summary](https://github.com/rob006-software/flarum-translations/blob/master/status/summary.md) |
+| 2.x | [`flarum2`](https://github.com/rob006-software/flarum-translations/tree/flarum2) | [Flarum 2.x](https://weblate.rob006.net/projects/flarum2/) | [Summary](https://github.com/rob006-software/flarum-translations/blob/flarum2/status/summary.md) |
+
+You are viewing the `master` branch - lists below show languages and extensions supported for **Flarum 1.x**. For Flarum 2.x see the [`flarum2` branch](https://github.com/rob006-software/flarum-translations/tree/flarum2).
 
 
 ## Supported languages
