@@ -344,6 +344,9 @@ return [
 	'flarum-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0/locale/en.yml',
 	],
+	'flarum-deck' => [
+		'tag' => 'https://raw.githubusercontent.com/flarum/deck/v2.0.0/locale/en.yml',
+	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0/locale/en.yml',
 	],
