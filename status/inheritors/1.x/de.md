@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **21** are
-translated only in `de`. Altogether they cover **4** components.
+sides, but do not match between them: **5** are translated differently and **21** are
+translated only in `de`. Altogether they cover **5** components.
 
 <!-- {% raw %} -->
 
@@ -16,6 +16,7 @@ translated only in `de`. Altogether they cover **4** components.
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
 | `fof-mark-unread` | 0 | [2](#fof-mark-unread-missing) |
+| `fof-sentry` | [2](#fof-sentry) | 0 |
 
 
 ## Different translations
@@ -56,6 +57,31 @@ Each entry contains the English source string, followed by a diff between the tr
 -App Secret
 +App-Secret
 ```
+
+
+### `fof-sentry`
+
+#### [`fof-sentry.admin.settings.db_track_bindings_help`](https://weblate.rob006.net/translate/flarum2/fof-sentry/de/?q=context%3A%3D%22fof-sentry.admin.settings.db_track_bindings_help%22)
+
+> Include actual parameter values in query tracking (e.g., "SELECT \* FROM users WHERE id = 123" instead of "SELECT \* FROM users WHERE id = ?"). Benefits: See exact values causing slow queries and identify problematic data patterns. Security &amp; Privacy Warning: May expose sensitive user data in Sentry. Passwords and hashes (32+ hex chars) are automatically masked. Long strings (100+ chars) are truncated. Review your privacy policy before enabling. Recommendation: Enable only in staging/development, disable in production.
+
+```diff
+-Füge tatsächliche Parameterwerte in die Abfrageverfolgung ein (z. B. „SELECT * FROM users WHERE id = 123” anstelle von „SELECT * FROM users WHERE id = ?”). Vorteile: Du siehst die genauen Werte, die langsame Abfragen verursachen, und kannst problematische Datenmuster identifizieren. Sicherheits- und Datenschutzhinweis: Es können sensible Benutzerdaten in Sentry offengelegt werden. Passwörter und Hashes (32+ Hexadezimalzeichen) werden automatisch maskiert. Lange Zeichenfolgen (100+ Zeichen) werden gekürzt. Überprüfe deine Datenschutzrichtlinie, bevor du diese Funktion aktivierst. Empfehlung: Nur in der Staging-/Entwicklungsumgebung aktivieren, in der Produktionsumgebung deaktivieren.
++Füge tatsächliche Parameterwerte in die Abfrageverfolgung ein (z. B. „SELECT * FROM users WHERE id = 123” anstelle von „SELECT * FROM users WHERE id = ?”). Vorteile: Du siehst die genauen Werte, die langsame Abfragen verursachen, und kannst problematische Datenmuster identifizieren. Sicherheits- und Datenschutzhinweis: Es können sensible Benutzerdaten in Sentry offengelegt werden. Passwörter und Hashes (32+ Hexadezimalzeichen) werden automatisch maskiert. Lange Zeichenfolgen (100+ Zeichen) werden gekürzt. Überprüfe deine Datenschutzrichtlinie, bevor du diese Funktion aktivierst. Empfehlung: Nur in der Staging-/Entwicklungsumgebung aktivieren, in Produktionsumgebungen deaktivieren.
+```
+
+Füge tatsächliche Parameterwerte in die Abfrageverfolgung ein (z. B. „SELECT \* FROM users WHERE id = 123” anstelle von „SELECT \* FROM users WHERE id = ?”). Vorteile: Du siehst die genauen Werte, die langsame Abfragen verursachen, und kannst problematische Datenmuster identifizieren. Sicherheits- und Datenschutzhinweis: Es können sensible Benutzerdaten in Sentry offengelegt werden. Passwörter und Hashes (32+ Hexadezimalzeichen) werden automatisch maskiert. Lange Zeichenfolgen (100+ Zeichen) werden gekürzt. Überprüfe deine Datenschutzrichtlinie, bevor du diese Funktion aktivierst. Empfehlung: Nur in der Staging-/Entwicklungsumgebung aktivieren, in <del>der Produktionsumgebung</del><ins>Produktionsumgebungen</ins> deaktivieren.
+
+#### [`fof-sentry.admin.settings.javascript_console_help`](https://weblate.rob006.net/translate/flarum2/fof-sentry/de/?q=context%3A%3D%22fof-sentry.admin.settings.javascript_console_help%22)
+
+> Record console.log, console.info, console.warn, and console.error calls as breadcrumbs. See the sequence of events leading to an error and debug complex user interactions. Note: Increases data volume. Use selectively in production.
+
+```diff
+-Zeichne Aufrufe von console.log, console.info, console.warn und console.error als Breadcrumbs auf. Sieh dir die Abfolge der Ereignisse an, die zu einem Fehler geführt haben, und debugge komplexe Benutzerinteraktionen. Hinweis: Erhöht das Datenvolumen. Verwende diese Funktion in der Produktion nur selektiv.
++Zeichne Aufrufe von console.log, console.info, console.warn und console.error als Breadcrumbs auf. Sieh dir die Abfolge der Ereignisse an, die zu einem Fehler geführt haben, und debugge komplexe Benutzerinteraktionen. Hinweis: Erhöht das Datenvolumen. Verwende diese Funktion in Produktionsumgebungen nur selektiv.
+```
+
+Zeichne Aufrufe von console.log, console.info, console.warn und console.error als Breadcrumbs auf. Sieh dir die Abfolge der Ereignisse an, die zu einem Fehler geführt haben, und debugge komplexe Benutzerinteraktionen. Hinweis: Erhöht das Datenvolumen. Verwende diese Funktion in <del>der Produktion</del><ins>Produktionsumgebungen</ins> nur selektiv.
 
 
 ## Missing translations

@@ -9,7 +9,7 @@ are fully in sync and are not listed here.
 | --- | --- | --- | --- |
 | [Chinese (Simplified)](zh_Hans.md) (`zh_Hans`) | 1310 | 698 | 67 |
 | [French](fr.md) (`fr`) | 3 | 4 | 4 |
-| [German](de.md) (`de`) | 3 | 21 | 4 |
-| [German (formal)](de@formal.md) (`de@formal`) | 3 | 21 | 4 |
+| [German](de.md) (`de`) | 5 | 21 | 5 |
+| [German (formal)](de@formal.md) (`de@formal`) | 5 | 21 | 5 |
 | [Persian](fa.md) (`fa`) | 0 | 79 | 37 |
 | [Swedish](sv.md) (`sv`) | 0 | 156 | 1 |
