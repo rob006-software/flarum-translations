@@ -351,7 +351,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0/locale/en.yml',
 	],
 	'flarum-flags' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.0-rc.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v2.0.0/locale/en.yml',
 	],
 	'flarum-gdpr' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/gdpr/v2.0.0-rc.8/resources/locale/en.yml',
