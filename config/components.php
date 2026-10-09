@@ -903,7 +903,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
 	'prm-moderation' => [
-		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/v2.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
