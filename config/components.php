@@ -243,7 +243,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ridge/v1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-roleplay' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.5/resources/locale/en.yml',
 	],
 	'ernestdefoe-rubric' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rubric/1.0.1/locale/en.yml',
