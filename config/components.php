@@ -909,7 +909,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
 	'prm-forum-activity' => [
-		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v2.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v2.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
