@@ -339,7 +339,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0/locale/en.yml',
 	],
 	'flarum-audit' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/audit/v2.0.0-rc.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/audit/v2.0.0/locale/en.yml',
 	],
 	'flarum-bbcode' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0-rc.8/locale/en.yml',
