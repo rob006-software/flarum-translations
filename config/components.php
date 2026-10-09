@@ -363,7 +363,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v2.0.0/locale/en.yml',
 	],
 	'flarum-markdown' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.0-rc.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v2.0.0/locale/en.yml',
 	],
 	'flarum-mentions' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/mentions/v2.0.0-rc.8/locale/en.yml',
