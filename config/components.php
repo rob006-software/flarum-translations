@@ -908,6 +908,12 @@ return [
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
+	'prm-forum-activity' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v2.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
