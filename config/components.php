@@ -216,7 +216,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-maintenance' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.6/resources/locale/en.yml',
 	],
 	'ernestdefoe-manticore' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/manticore/0.1.1/locale/en.yml',
