@@ -1,7 +1,7 @@
 {
     "flarum-realtime": {
         "forum": {
-            "discussion-removed": "",
+            "discussion-removed": "Ta dyskusja została usunięta.",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} few {Pokaż # zaktualizowane dyskusje} other {Pokaż # zaktualizowanych dyskusji}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja ma} few {# dyskusje mają} other {# dyskusji ma}} nową aktywność. Zmiany pojawią się za {releaseTimeout, plural, one {# sekundę} few {# sekundy} other {# sekund}}. Kliknij, by zobaczyć je teraz."
@@ -29,7 +29,7 @@
         },
         "admin": {
             "permission": {
-                "view-all-typing": "",
+                "view-all-typing": "Wyświetlanie, kto pisze na całym forum",
                 "view-who-types": "Wyświetlanie, kto pisze"
             },
             "settings": {
@@ -41,10 +41,10 @@
                 "notification-toast-dismiss-after-help": "Jak długo (w sekundach) wyskakujące powiadomienie pozostaje na ekranie, zanim automatycznie zniknie. Ustaw wartość 0, aby wyłączyć takie powiadomienia.",
                 "typing-indicator": "Wskaźnik pisania",
                 "typing-indicator-help": "Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket.",
-                "index-typing-indicator": "",
-                "index-typing-indicator-help": "",
-                "index-typing-indicator-restricted": "",
-                "index-typing-indicator-restricted-help": ""
+                "index-typing-indicator": "Wskaźniki pisania na liście dyskusji",
+                "index-typing-indicator-help": "Po włączeniu na liście dyskusji pojawi się kropka przy każdej publicznej dyskusji, w której ktoś aktualnie pisze. Nazwy użytkowników nie będą wyświetlane.",
+                "index-typing-indicator-restricted": "Wskaźniki pisania w tagach z ograniczonym dostępem",
+                "index-typing-indicator-restricted-help": "Pokazuj wskaźniki pisania również przy dyskusjach w tagach z ograniczonym dostępem, ale tylko użytkownikom, którzy mają dostęp do tych tagów. Wymaga rozszerzenia Tags. Domyślnie wyłączone."
             }
         }
     }
