@@ -381,7 +381,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0/resources/locale/en.yml',
 	],
 	'flarum-statistics' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0-rc.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0-rc.8/locale/en.yml',
