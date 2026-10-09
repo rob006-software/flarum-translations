@@ -345,7 +345,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/bbcode/v2.0.0/locale/en.yml',
 	],
 	'flarum-emoji' => [
-		'beta' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0-rc.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
 		'beta' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0-rc.8/locale/en.yml',
