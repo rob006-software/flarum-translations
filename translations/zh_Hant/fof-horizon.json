@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Horizon 儀表板",
                 "auto_refresh": "自動重新整理",
                 "refresh": "重整",
@@ -38,9 +37,6 @@
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -75,13 +71,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Redis 使用記憶體",
                     "redis-peak-memory": "Redis 峰值內存",
                     "redis-max-memory": "Redis 最大內存",

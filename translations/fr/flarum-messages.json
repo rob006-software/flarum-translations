@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "Envoyer des messages privés",
-                "delete_own_messages_label": "Supprimer ses propres messages"
+                "message_users_without_permission_label": "",
+                "delete_own_messages_label": "Supprimer ses propres messages",
+                "send_without_throttle_label": "",
+                "view_ips_label": ""
             }
         },
         "forum": {
@@ -17,7 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Marquer comme lue",
+                "own_last_message_preview": "",
                 "title": "Messages",
+                "unread_count_text": "",
                 "view_all": "Afficher tous les messages"
             },
             "dialog_section": {
@@ -67,7 +72,12 @@
                 "title": "Messages"
             },
             "recipient_selection_modal": {
+                "cannot_reply_text": "",
                 "title": "Sélectionnez les destinataires de ce message"
+            },
+            "search_source": {
+                "conversation_with": "",
+                "heading": ""
             },
             "settings": {
                 "notify_message_received_label": "Quelqu'un m'a envoyé un message"
@@ -94,6 +104,38 @@
         "lib": {
             "dialog": {
                 "title": "Messagerie {username}"
+            },
+            "no_other_members_message": "",
+            "recipient_cannot_reply_message": "",
+            "recipient_unavailable_message": ""
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "messages": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "dialog": {
+                    "started": "",
+                    "posted": ""
+                }
+            }
+        }
+    },
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "dialogs_heading": "",
+                "dialog_replies_heading": ""
             }
         }
     }

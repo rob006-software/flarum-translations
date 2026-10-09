@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "File d'attente",
-                "kv_heading": "Base de données clé-valeur",
                 "full_dashboard": "Tableau de bord d'Horizon",
                 "auto_refresh": "Actualisation automatique",
                 "refresh": "Actualiser",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.",
                     "setup_docs": "Consulter la documentation relative à la configuration de Redis"
                 },
-                "eviction_pressure": "Pression sur la mémoire",
-                "eviction_policy_tooltip": "La politique d'éviction détermine la manière dont le magasin sélectionne les éléments à supprimer lorsque la limite « maxmemory » est atteinte. Le paramètre par défaut est « noeviction » : les nouvelles valeurs ne sont pas enregistrées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.",
-                "eviction_warning": "L'utilisation de la mémoire s'élève à {usage} % de maxmemory et la politique d'éviction est « {policy} ». Par conséquent, des clés — y compris potentiellement des données de la file d'attente — pourraient être supprimées prochainement. Augmentez la valeur de maxmemory ou déplacez la file d'attente vers une base de données dédiée disposant d'une marge plus importante.",
                 "health": {
                     "excellent": "Excellent",
                     "good": "Bien",
@@ -115,6 +111,10 @@
                 },
                 "horizon_max_wait_none": "Aucune",
                 "horizon_max_wait_value": "{seconds} s dans {queue}",
+                "kv_heading": "Base de données clé-valeur",
+                "eviction_pressure": "Pression sur la mémoire",
+                "eviction_policy_tooltip": "La politique d'éviction détermine la manière dont le magasin sélectionne les éléments à supprimer lorsque la limite « maxmemory » est atteinte. Le paramètre par défaut est « noeviction » : les nouvelles valeurs ne sont pas enregistrées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.",
+                "eviction_warning": "L'utilisation de la mémoire s'élève à {usage} % de maxmemory et la politique d'éviction est « {policy} ». Par conséquent, des clés — y compris potentiellement des données de la file d'attente — pourraient être supprimées prochainement. Augmentez la valeur de maxmemory ou déplacez la file d'attente vers une base de données dédiée disposant d'une marge plus importante.",
                 "heading": "Vue d'ensemble de la file d'attente",
                 "last_refresh": "Dernière actualisation : {time}"
             }

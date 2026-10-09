@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "Warteschlange",
-                "kv_heading": "Schlüssel-Wert-Speicher",
                 "full_dashboard": "Horizon-Dashboard",
                 "auto_refresh": "Automatische Aktualisierung",
                 "refresh": "Aktualisieren",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Horizon-Statistiken konnten nicht abgerufen werden. Bitte überprüfen Sie Ihre Redis-Konfiguration.",
                     "setup_docs": "Redis-Setup-Dokumentation aufrufen"
                 },
-                "eviction_pressure": "Speicherbelastung",
-                "eviction_policy_tooltip": "Die „Eviction“-Richtlinie legt fest, nach welchen Kriterien der Store entscheidet, welche Daten entfernt werden, wenn das „maxmemory“-Limit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte werden nicht gespeichert, wenn das Speicherlimit erreicht wurde. Klicke hier, um die Dokumentation anzuzeigen.",
-                "eviction_warning": "Die Speicherauslastung beträgt {usage} % von maxmemory, und die Löschrichtlinie lautet „{policy}“. Daher werden möglicherweise bald Schlüssel – darunter möglicherweise auch Warteschlangendaten – gelöscht. Erhöhe den Wert für maxmemory oder verschiebe die Warteschlange in eine eigene Datenbank mit mehr Spielraum.",
                 "health": {
                     "excellent": "Hervorragend",
                     "good": "Gut",
@@ -115,6 +111,10 @@
                 },
                 "horizon_max_wait_none": "Keine",
                 "horizon_max_wait_value": "{seconds} s in {queue}",
+                "kv_heading": "Schlüssel-Wert-Speicher",
+                "eviction_pressure": "Speicherbelastung",
+                "eviction_policy_tooltip": "Die „Eviction“-Richtlinie legt fest, nach welchen Kriterien der Store entscheidet, welche Daten entfernt werden, wenn das „maxmemory“-Limit erreicht ist. Die Standardeinstellung ist „noeviction“: Neue Werte werden nicht gespeichert, wenn das Speicherlimit erreicht wurde. Klicke hier, um die Dokumentation anzuzeigen.",
+                "eviction_warning": "Die Speicherauslastung beträgt {usage} % von maxmemory, und die Löschrichtlinie lautet „{policy}“. Daher werden möglicherweise bald Schlüssel – darunter möglicherweise auch Warteschlangendaten – gelöscht. Erhöhe den Wert für maxmemory oder verschiebe die Warteschlange in eine eigene Datenbank mit mehr Spielraum.",
                 "heading": "Warteschlangenübersicht",
                 "last_refresh": "Letzte Aktualisierung: {time}"
             }

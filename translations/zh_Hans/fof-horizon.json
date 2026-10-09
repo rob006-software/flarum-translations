@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "队列",
-                "kv_heading": "键值存储",
                 "full_dashboard": "Horizon 控制面板",
                 "auto_refresh": "自动刷新",
                 "refresh": "刷新",
@@ -38,9 +37,6 @@
                     "fetch_failed": "无法获取 Horizon 统计数据，请检查 Redis 配置。",
                     "setup_docs": "查看 Redis 配置文档"
                 },
-                "eviction_pressure": "内存压力",
-                "eviction_policy_tooltip": "淘汰策略决定 Redis 达到 maxmemory 上限时优先移除哪些数据。默认策略为 `noeviction`：达到内存上限后不再写入新数据。点击查看文档。",
-                "eviction_warning": "内存使用量已达到 maxmemory 的 {usage}%，当前淘汰策略为「{policy}」，部分键（包括队列数据）可能很快被清除。请提高 maxmemory，或将队列迁移到有更多可用空间的独立数据库。",
                 "health": {
                     "excellent": "优秀",
                     "good": "良好",
@@ -115,6 +111,10 @@
                 },
                 "horizon_max_wait_none": "无",
                 "horizon_max_wait_value": "{seconds} 秒（{queue}）",
+                "kv_heading": "键值存储",
+                "eviction_pressure": "内存压力",
+                "eviction_policy_tooltip": "淘汰策略决定 Redis 达到 maxmemory 上限时优先移除哪些数据。默认策略为 `noeviction`：达到内存上限后不再写入新数据。点击查看文档。",
+                "eviction_warning": "内存使用量已达到 maxmemory 的 {usage}%，当前淘汰策略为「{policy}」，部分键（包括队列数据）可能很快被清除。请提高 maxmemory，或将队列迁移到有更多可用空间的独立数据库。",
                 "heading": "队列概览",
                 "last_refresh": "上次刷新: {time}"
             }

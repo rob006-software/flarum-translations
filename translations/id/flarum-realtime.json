@@ -1,6 +1,7 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# diskusi memiliki} other {# diskusi memiliki}} aktivitas yang diperbarui dan akan dirilis dalam {releaseTimeout} detik. Klik untuk menampilkan sekarang."
@@ -28,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "",
                 "view-who-types": "Lihat siapa yang sedang mengetik"
             },
             "settings": {

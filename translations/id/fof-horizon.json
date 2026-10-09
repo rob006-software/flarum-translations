@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Dashboard Horizon",
                 "auto_refresh": "Refresh Otomatis",
                 "refresh": "Segarkan",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Tidak dapat mengambil statistik Horizon. Harap periksa konfigurasi Redis Anda.",
                     "setup_docs": "Lihat Dokumentasi Pengaturan Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "Sangat Baik",
                     "good": "Baik",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Redis: Memori Yang Digunakan",
                     "redis-peak-memory": "Redis: Memori Puncak",
                     "redis-max-memory": "Redis: Memori Maksimum",

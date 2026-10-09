@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Панель мониторинга Horizon",
                 "auto_refresh": "Автоматическое обновление",
                 "refresh": "Обновить",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Не удается получить статистику Horizon. Пожалуйста, проверьте конфигурацию вашего Redis.",
                     "setup_docs": "Просмотр документации по настройке Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "Отлично",
                     "good": "Хорошо",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Используемая память Redis",
                     "redis-peak-memory": "Пиковое значение памяти Redis",
                     "redis-max-memory": "Максимальная память Redis",

@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Horizon Dashboard",
                 "auto_refresh": "Automatisch vernieuwen",
                 "refresh": "Vernieuw",
@@ -38,9 +37,6 @@
                     "fetch_failed": "",
                     "setup_docs": ""
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "",
                     "good": "",
@@ -75,13 +71,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Cache opslag Gebruikt geheugen",
                     "redis-peak-memory": "Cache opslag Piek geheugen",
                     "redis-max-memory": "Cache opslag Maximaal geheugen",

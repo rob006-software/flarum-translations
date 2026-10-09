@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Horizon vezérlőpult",
                 "auto_refresh": "Automatikus frissítés",
                 "refresh": "Frissítés",
@@ -38,9 +37,6 @@
                     "fetch_failed": "A Horizon statisztikák nem kérhetők le. Ellenőrizze a Redis konfigurációt.",
                     "setup_docs": "Redis telepítési dokumentáció megtekintése"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "Kiváló",
                     "good": "Jó",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "A gyorsítótár által használt memória",
                     "redis-peak-memory": "A gyorsítótár legnagyobb memóriahasználata",
                     "redis-max-memory": "A gyorsítótár memóriakorlátja",

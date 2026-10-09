@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Панель Horizon",
                 "auto_refresh": "Автоматичне оновлення",
                 "refresh": "Оновлення",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Неможливо отримати статистику Horizon. Перевірте конфігурацію Redis.",
                     "setup_docs": "Переглянути документацію щодо налаштування Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "Відмінно",
                     "good": "Добре",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Використана пам'ять Redis",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
