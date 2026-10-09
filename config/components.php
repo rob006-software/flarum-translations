@@ -824,7 +824,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upgrade-advisor/1.0.3/locale/en.yml',
 	],
 	'fof-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.9.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/1.9.1/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/1.4.3/resources/locale/en.yml',
