@@ -119,6 +119,8 @@
                 "edit_css_button": "Kohandatud CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Sisesta kuueteistkümnendsüsteemis värvikood.",
                 "favicon_heading": "Väikeikoon",
                 "favicon_text": "Laadi üles pilt, mida näidatakse foorumi otsetee ikoonil.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Puhasta vahemälu",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Foorumi ülevaade.",
                 "info_button": "Süsteemi info",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Postituste kustutamine igaveseks",
                 "delete_posts_label": "Postituste kustutamine",
                 "description": "Seadista, kes mida näeb ja mida teha saab.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Postituste muutmine",
                 "edit_users_label": "Kasutajate muutmine",
                 "edit_users_credentials_label": "Kasutajanime ja parooli muutmine",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Veeb",
                 "notify_discussion_renamed_label": "Keegi nimetab minu alustatud vestluse ümber",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

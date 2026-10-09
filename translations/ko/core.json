@@ -119,6 +119,8 @@
                 "edit_css_button": "커스텀 CSS 편집",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "16 진수 색상 코드를 입력하세요.",
                 "favicon_heading": "사이트 아이콘",
                 "favicon_text": "포럼의 바로가기에 보여질 이미지를 업로드하세요.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "캐시 삭제",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "한눈에 보이는 당신의 포럼.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "게시물 영구 삭제",
                 "delete_posts_label": "게시물 삭제",
                 "description": "누가 보고 무엇을 할 수 있는지 설정하세요.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "게시물 수정",
                 "edit_users_label": "사용자 편집",
                 "edit_users_credentials_label": "사용자 로그인 편집",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "웹",
                 "notify_discussion_renamed_label": "누군가 내가 시작한 게시물의 이름을 바꿨을 때",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

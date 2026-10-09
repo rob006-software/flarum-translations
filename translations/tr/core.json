@@ -119,6 +119,8 @@
                 "edit_css_button": "Özel CSS’i Düzenle",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Lütfen onaltılık bir renk kodu gir.",
                 "favicon_heading": "Kısayol Simgesi",
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir görsel yükleyin.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Tüm kuyruk işleme duraklatıldı. İşler, yeniden başlatılana kadar birikecektir.",
                 "queue_paused_manage": "Yönet",
                 "clear_cache_button": "Önbelleği Temizle",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Bir bakışta forumun.",
                 "info_button": "Sistem Bilgisi",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Gönderileri kalıcı olarak sil",
                 "delete_posts_label": "Gönderileri sil",
                 "description": "Kimin ne görebileceğini ve ne yapabileceğini yapılandırın.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Gönderileri düzenle",
                 "edit_users_label": "Kullanıcıları düzenle",
                 "edit_users_credentials_label": "Kullanıcı kimlik bilgilerini düzenle",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Birisi başlattığım bir tartışmayı yeniden adlandırdığında",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": "tekil veya çoğul grup adları"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Girdiyi temizle"

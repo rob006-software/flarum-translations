@@ -119,6 +119,8 @@
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Przetwarzanie wszystkich kolejek jest wstrzymane. Nowe zadania będą czekać na jego wznowienie.",
                 "queue_paused_manage": "Zarządzaj",
                 "clear_cache_button": "Wyczyść cache",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Podstawowe informacje dotyczące forum.",
                 "info_button": "Informacje systemowe",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Nieodwracalne usuwanie postów",
                 "delete_posts_label": "Usuwanie postów",
                 "description": "Skonfiguruj uprawnienia użytkowników i grup.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Edytowanie postów",
                 "edit_users_label": "Edytowanie atrybutów użytkownika",
                 "edit_users_credentials_label": "Edytowanie danych logowania użytkownika",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ktoś zmienił tytuł dyskusji, którą rozpocząłem",
+                "reset_notifications_button": "",
                 "device_heading": "Urządzenie",
                 "haptic_feedback_help": "Dostępne tylko na obsługiwanych urządzeniach mobilnych",
                 "haptic_feedback_label": "Włącz reakcje haptyczne",
@@ -895,6 +913,9 @@
                         "hint": "nazwa grupy w liczbie pojedynczej lub mnogiej"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Wyczyść pole"

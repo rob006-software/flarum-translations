@@ -119,6 +119,8 @@
                 "edit_css_button": "Eigen CSS bewerken",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Kies a.u.b. een hexadecimale kleurcode.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Cache wissen",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Uw forum in één oogopslag.",
                 "info_button": "Systeeminfo",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Verwijder berichten permanent",
                 "delete_posts_label": "Verwijder berichten",
                 "description": "Configureer wie wat kan zien en doen.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Wijzig berichten",
                 "edit_users_label": "Wijzig gebruikers",
                 "edit_users_credentials_label": "Bewerk gebruikersgegevens",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Iemand heeft een discussie die jij hebt gestart hernoemd",
+                "reset_notifications_button": "",
                 "device_heading": "Apparaat",
                 "haptic_feedback_help": "Alleen beschikbaar op ondersteunde mobiele apparaten",
                 "haptic_feedback_label": "Haptische feedback inschakelen",
@@ -895,6 +913,9 @@
                         "hint": "enkelvoudige of meervoudige groepsnamen"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Invoer wissen"

@@ -119,6 +119,8 @@
                 "edit_css_button": "شەخسىي CSS تەھرىرلەش",
                 "edit_footer_button": "=> core.ref.custom_footer_text",
                 "edit_header_button": "=> core.ref.custom_footer_text",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "16لىق سېستىمىدا رەڭنىڭ كودىنى كىرگۈزۈڭ.",
                 "favicon_heading": "ياقتۇرغان سىنبەلگە",
                 "favicon_text": "مۇنبەرنىڭ تېزلەتمە كونۇپكىسىغا بىر سۈرەت يوللاڭ.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "ۋاقىتلىق ھۆججەتلەرنى ئۆچۈرۈش",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "مۇنبىرىڭىزنىڭ بىر قاراشتا.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "يوللانمىلارنى پۈتۈنلەي ئۆچۈرۈش",
                 "delete_posts_label": "يوللانمىلارنى ئۆچۈرۈش",
                 "description": "كىمنىڭ كۆرۈش ۋە قىلىش ھوقۇقلىرىنى تەڭشەش.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "يوللانمىلارنى تەھرىرلەش",
                 "edit_users_label": "قوللانچى خاسلىقلىرىنى تەھرىرلەش",
                 "edit_users_credentials_label": "قوللانچى مەخپىي نومۇرلىرىنى تەھرىرلەش",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "تور",
                 "notify_discussion_renamed_label": "بىرسى مەن باشلىغان مۇھاكىمە نامىنى ئۆزگەرتتى",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

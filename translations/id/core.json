@@ -119,6 +119,8 @@
                 "edit_css_button": "Edit CSS Khusus",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Masukkan kode warna heksadesimal.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Upload gambar untuk ditampilkan sebagai forum shortcut icon.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Hapus Cache",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Sekilas tentang forum Anda.",
                 "info_button": "Info Sistem",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Menghapus postingan (permanen)",
                 "delete_posts_label": "Menghapus postingan",
                 "description": "Mengonfigurasi siapa saja yang dapat melihat dan apa saja yang dapat dilakukan.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Mengedit postingan",
                 "edit_users_label": "Mengedit atribut pengguna",
                 "edit_users_credentials_label": "Mengedit kredensial pengguna",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Seseorang mengganti nama diskusi yang Saya buat",
+                "reset_notifications_button": "",
                 "device_heading": "Perangkat",
                 "haptic_feedback_help": "Hanya tersedia di perangkat seluler yang didukung",
                 "haptic_feedback_label": "Aktifkan umpan balik haptic",
@@ -895,6 +913,9 @@
                         "hint": "nama kelompok tunggal atau jamak"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Bersihkan input"

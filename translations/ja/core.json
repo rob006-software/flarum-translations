@@ -119,6 +119,8 @@
                 "edit_css_button": "CSSを編集",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "16進数のカラーコードを入力してください。",
                 "favicon_heading": "Favicon",
                 "favicon_text": "画像をアップロードすると、フォーラムのFaviconに表示されます。",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "キャッシュのクリア",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "フォーラムの概況を確認します。",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "投稿の完全削除",
                 "delete_posts_label": "投稿の削除",
                 "description": "各グループのユーザーが閲覧出来る範囲と操作可能な範囲を設定します。",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "投稿の編集",
                 "edit_users_label": "ユーザーの編集",
                 "edit_users_credentials_label": "ユーザーの認証情報の編集",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "あなたの作成したスレッドのタイトルが変更された時",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

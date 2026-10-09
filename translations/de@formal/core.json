@@ -119,6 +119,8 @@
                 "edit_css_button": "Individuelles CSS bearbeiten",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Geben Sie eine Farbe im Hexadezimalformat ein.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Laden Sie ein Bild hoch, welches als Favicon für das Forum verwendet wird.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Die gesamte Warteschlangenverarbeitung wurde pausiert. Die Aufträge sammeln sich an, bis die Verarbeitung wieder aufgenommen wird.",
                 "queue_paused_manage": "Verwalten",
                 "clear_cache_button": "Cache leeren",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Ihr Forum auf einen Blick.",
                 "info_button": "Systeminformationen",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Beiträge endgültig löschen",
                 "delete_posts_label": "Beiträge löschen",
                 "description": "Konfiguriere, wer was machen und sehen darf.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Beiträge bearbeiten",
                 "edit_users_label": "Attribute der Benutzer bearbeiten",
                 "edit_users_credentials_label": "Zugangsdaten der Benutzer bearbeiten",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Wenn jemand eine Diskussion ändert, die Sie gestartet haben",
+                "reset_notifications_button": "",
                 "device_heading": "Geräte",
                 "haptic_feedback_help": "Nur auf unterstützten Mobilgeräten verfügbar",
                 "haptic_feedback_label": "Haptisches Feedback aktivieren",
@@ -895,6 +913,9 @@
                         "hint": "Singular- oder Plural-Gruppennamen"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Eingabe leeren"

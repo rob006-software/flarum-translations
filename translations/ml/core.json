@@ -119,6 +119,8 @@
                 "edit_css_button": "പ്രത്യേക സിഎസ്എസ്  ൽ മാറ്റം വരുത്തുക",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "ഒരു ഹെക്‌സാഡെസിമൽ കളർ കോഡ് നൽകുക.",
                 "favicon_heading": "ഫെവിക്കോൺ",
                 "favicon_text": "ഫോറത്തിന്റെ കുറുക്കുവഴി ഐക്കണായി പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "കാഷെ മായ്ക്കുക",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "നിങ്ങളുടെ ഫോറം ഒറ്റ നോട്ടത്തിൽ.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "പോസ്റ്റുകൾ എന്നെന്നേക്കുമായി ഇല്ലാതാക്കുക",
                 "delete_posts_label": "പോസ്റ്റുകൾ ഇല്ലാതാക്കുക",
                 "description": "ആർക്കൊക്കെ കാണാനാകുമെന്നും എന്തുചെയ്യാനാകുമെന്നും ക്രമീകരിക്കുക.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "പോസ്റ്റുകൾ തിരുത്തുക",
                 "edit_users_label": "ഉപയോക്തൃ ആട്രിബ്യൂട്ടുകൾ തിരുത്തുക",
                 "edit_users_credentials_label": "ഉപയോക്തൃ ക്രെഡൻഷ്യലുകൾ തിരുത്തുക",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

@@ -119,6 +119,8 @@
                 "edit_css_button": "Muokkaa mukautettua CSS koodia",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Syötä värikoodi heksadesimaali muodossa.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Siirrä kuva, jota käytetään foorumin faviconina.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Tyhjennä välimuisti",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Foorumisi yhdellä silmäyksellä.",
                 "info_button": "Järjestelmän tiedot",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Poista viesti pysyvästi",
                 "delete_posts_label": "Poista viestejä",
                 "description": "Määritä kuka näkee ja voi tehdä mitä.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Muokkaa viestejä",
                 "edit_users_label": "Muokkaa käyttäjän tietoja",
                 "edit_users_credentials_label": "Muokkaa käyttäjän tunnuksia",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Joku nimeää uudelleen keskustelun jonka aloitin",
+                "reset_notifications_button": "",
                 "device_heading": "Laite",
                 "haptic_feedback_help": "Saatavilla vain tuetuissa mobiililaitteissa",
                 "haptic_feedback_label": "Ota haptinen palaute käyttöön",
@@ -895,6 +913,9 @@
                         "hint": "yksikön tai monikon ryhmänimi"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Tyhjennä"

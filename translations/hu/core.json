@@ -119,6 +119,8 @@
                 "edit_css_button": "Egyéni CSS szerkesztése",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Adjon meg egy hexadecimális színkódot.",
                 "favicon_heading": "Favikon",
                 "favicon_text": "Töltse fel a fórum favikonjaként megjelenítendő képet.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Az összes várólista-feldolgozás szüneteltetve. A feladatok gyűlni fognak a folytatásig.",
                 "queue_paused_manage": "Kezelés",
                 "clear_cache_button": "Gyorsítótár törlése",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Fórum összefoglalása.",
                 "info_button": "Rendszer-információk",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Bejegyzések végleges törlése",
                 "delete_posts_label": "Bejegyzések törlése",
                 "description": "Állítsa be, hogy ki mit láthat és mit csinálhat.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Bejegyzések szerkesztése",
                 "edit_users_label": "Felhasználók tulajdonságainak szerkesztése",
                 "edit_users_credentials_label": "Felhasználók hitelesítési adatainak szerkesztése",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Valaki átnevezte az Ön által indított témát",
+                "reset_notifications_button": "",
                 "device_heading": "Eszköz",
                 "haptic_feedback_help": "Csak támogatott mobileszközökön érhető el",
                 "haptic_feedback_label": "Haptikus visszajelzés engedélyezése",
@@ -895,6 +913,9 @@
                         "hint": "egy vagy több csoportnév"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Bemenet törlése"
