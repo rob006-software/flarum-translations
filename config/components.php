@@ -189,7 +189,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/greeter/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-group-messages' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.0.4/locale/en.yml',
 	],
 	'ernestdefoe-hashtags' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.0.3/locale/en.yml',
