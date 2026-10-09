@@ -822,7 +822,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-badge-labels/v2.3.0/locale/en.yml',
 	],
 	'linkrobins-birdseye' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v2.4.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/birdseye/v2.5.0/locale/en.yml',
 	],
 	'linkrobins-chirp' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/chirp/v2.0.3/locale/en.yml',
