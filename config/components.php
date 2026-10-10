@@ -269,6 +269,9 @@ return [
 	'ernestdefoe-steward' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.1.0/locale/en.yml',
 	],
+	'ernestdefoe-tag-covers' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tag-covers/1.2.1/locale/en.yml',
+	],
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.12/locale/en.yml',
 	],
