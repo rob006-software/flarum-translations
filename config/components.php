@@ -487,6 +487,9 @@ return [
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/1.0.3/resources/locale/en.yml',
 	],
+	'ernestdefoe-millwright-bridge' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/millwright-bridge/v0.1.5/resources/locale/en.yml',
+	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.1.0/resources/locale/en.yml',
 	],
