@@ -119,8 +119,8 @@
                 "edit_css_button": "Modifier le CSS personnalisé",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "email_logo_heading": "",
-                "email_logo_text": "",
+                "email_logo_heading": "Logo du courriel",
+                "email_logo_text": "Transférez une image qui s'affichera en haut de vos courriels. Elle sera enregistrée dans un format compatible avec tous les clients de messagerie. Si vous n'en transférez pas, vos courriels afficheront une copie de votre logo. Si vos courriels affichent le titre du forum à la place de votre logo, transférez à nouveau votre logo.",
                 "enter_hex_message": "Veuillez saisir un code de couleur hexadécimal.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
@@ -229,14 +229,14 @@
                 "queue_paused_manage": "Gérer",
                 "clear_cache_button": "Effacer le cache",
                 "clear_cache_modal": {
-                    "title": "",
-                    "working": "",
-                    "cleared": "",
-                    "cleared_files": "",
+                    "title": "Effacer le cache",
+                    "working": "Reconstruction des ressources compilées. Cela peut prendre un certain temps sur les forums de grande taille.",
+                    "cleared": "{name} a été effacé",
+                    "cleared_files": "{name} a été effacé ({count} fichiers)",
                     "rebuilt": "",
-                    "unchanged": "",
+                    "unchanged": "{bundle} était déjà à jour",
                     "rewritten": "",
-                    "empty": "",
+                    "empty": "{bundle} n'a rien à compiler",
                     "chunks": "",
                     "failed": "",
                     "took": "",
@@ -775,7 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Quelqu'un renomme une discussion que j'ai démarrée",
-                "reset_notifications_button": "",
+                "reset_notifications_button": "Réinitialiser les paramètres par défaut",
                 "device_heading": "Appareil",
                 "haptic_feedback_help": "Disponible uniquement sur les appareils mobiles pris en charge",
                 "haptic_feedback_label": "Activer le retour haptique",
@@ -915,7 +915,7 @@
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Choisir un groupe"
             },
             "input": {
                 "clear_button": "Effacer la saisie"
