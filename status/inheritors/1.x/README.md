@@ -11,5 +11,5 @@ are fully in sync and are not listed here.
 | [French](fr.md) (`fr`) | 3 | 4 | 4 |
 | [German](de.md) (`de`) | 5 | 21 | 5 |
 | [German (formal)](de@formal.md) (`de@formal`) | 5 | 21 | 5 |
-| [Persian](fa.md) (`fa`) | 0 | 79 | 37 |
+| [Persian](fa.md) (`fa`) | 0 | 80 | 38 |
 | [Swedish](sv.md) (`sv`) | 0 | 156 | 1 |
