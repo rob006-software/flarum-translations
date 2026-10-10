@@ -783,7 +783,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-reddit/2.0.0/locale/en.yml',
 	],
 	'ianm-online-guests' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-online-guests-widget/2.0.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-online-guests-widget/2.0.0/locale/en.yml',
 	],
 	'ianm-syndication' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/syndication/2.0.0-beta.1/resources/locale/en.yml',
