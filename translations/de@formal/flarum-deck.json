@@ -2,72 +2,72 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Deck verwenden"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
-                "poll_interval_label": ""
+                "max_columns_help": "Jede Spalte stellt bei jeder Aktualisierung eine separate Anfrage dar. Zwischen 1 und 12.",
+                "max_columns_label": "Maximale Anzahl Spalten je Mitglied",
+                "poll_interval_help": "Wie oft die Spalten auf neue Aktivitäten prüfen, wenn keine Verbindung zu Realtime besteht. Der Wert 0 deaktiviert diese Funktion; der Mindestwert beträgt 15.",
+                "poll_interval_label": "Aktualisierungsintervall (Sekunden)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
+                "author_label": "Mitglieder",
+                "author_placeholder": "Suche ein Mitglied",
+                "back_button": "Zurück",
+                "discussion_label": "Diskussion",
+                "discussion_placeholder": "Suche eine Diskussion",
+                "filter_help": "Kombiniere Filter aus der Suche, wie z. B. „tag:“, „author:“, „is:unread“ oder „is:following“. Einfache Wörter werden nicht unterstützt.",
+                "filter_invalid_message": "Verwende ausschließlich Filter wie beispielsweise „tag:support is:unread“. Einfache Wörter werden nicht unterstützt.",
+                "filter_label": "Filter",
+                "group_invalid_message": "Wähle eine Gruppe.",
+                "group_label": "Gruppe",
+                "in_deck_badge": "Im Deck",
+                "in_deck_count_badge": "{count}× im Deck",
+                "filter_placeholder": "z. B. tag:support is:unread",
+                "invalid_value_message": "Gib einen gültigen Wert für {field} ein.",
                 "pick_a_result_message": "",
-                "submit_button": "",
+                "submit_button": "Spalte hinzufügen",
                 "title": "",
                 "use_filters_button": ""
             },
             "column": {
                 "controls_label": "",
                 "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
+                "move_left_button": "Nach links",
+                "move_right_button": "Nach rechts",
+                "move_to_bottom_row_button": "In die untere Zeile",
+                "move_to_top_row_button": "In die obere Zeile",
+                "moved_announcement": "In Position {position} von {count} verschoben.",
+                "moved_in_bottom_row_announcement": "In Position {position} von {count} in der unteren Zeile verschoben.",
+                "moved_in_top_row_announcement": "In Position {position} von {count} in der oberen Zeile verschoben.",
+                "new_items_button": "{count, plural, one {# neu} other {# neu}}",
+                "open_discussion_button": "Diskussion öffnen",
+                "refresh_button": "Aktualisieren",
+                "remove_button": "Spalte entfernen",
+                "reset_width_button": "Breite zurücksetzen",
                 "resize_label": ""
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
+                "all": "Alle Diskussionen",
+                "author": "Diskussionen eines Mitglieds",
+                "author_posts": "Beiträge eines Mitglieds",
+                "author_posts_title": "Beiträge von {username}",
                 "author_title": "",
                 "discussion": "",
                 "filter": "",
                 "group_posts": "",
                 "group_posts_title": "",
                 "typing": "",
-                "unread": ""
+                "unread": "Ungelesen"
             },
             "discussion_controls": {
                 "add_to_deck_button": "",
                 "added_message": ""
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Deck"
             },
             "typing": {
                 "empty_text": "",
