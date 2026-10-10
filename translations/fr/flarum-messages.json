@@ -5,8 +5,8 @@
                 "send_messages_label": "Envoyer des messages privés",
                 "message_users_without_permission_label": "",
                 "delete_own_messages_label": "Supprimer ses propres messages",
-                "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "send_without_throttle_label": "Envoyer des messages sans limitation de débit",
+                "view_ips_label": "Afficher les adresses IP des messages"
             }
         },
         "forum": {
@@ -20,9 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Marquer comme lue",
-                "own_last_message_preview": "",
+                "own_last_message_preview": "Vous : {content}",
                 "title": "Messages",
-                "unread_count_text": "",
+                "unread_count_text": "{count} non lus",
                 "view_all": "Afficher tous les messages"
             },
             "dialog_section": {
@@ -72,12 +72,12 @@
                 "title": "Messages"
             },
             "recipient_selection_modal": {
-                "cannot_reply_text": "",
+                "cannot_reply_text": "Impossible de répondre aux messages",
                 "title": "Sélectionnez les destinataires de ce message"
             },
             "search_source": {
-                "conversation_with": "",
-                "heading": ""
+                "conversation_with": "Conversation avec {username}",
+                "heading": "Messages"
             },
             "settings": {
                 "notify_message_received_label": "Quelqu'un m'a envoyé un message"
@@ -94,10 +94,10 @@
             "message_received": {
                 "subject": "{user_display_name} vous a envoyé un message",
                 "plain": {
-                    "body": "{user_display_name} vous a envoyé un nouveau message.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "{user_display_name} vous a envoyé un nouveau message.\n\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
                 },
                 "html": {
-                    "body": "{user_display_name} vous a envoyé un [nouveau message]({url})."
+                    "body": "{user_display_name} vous a envoyé un [nouveau message]({url}).\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
                 }
             }
         },
@@ -105,18 +105,18 @@
             "dialog": {
                 "title": "Messagerie {username}"
             },
-            "no_other_members_message": "",
-            "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "no_other_members_message": "Il n'y a personne d'autre dans cette conversation.",
+            "recipient_cannot_reply_message": "{username} ne peut pas répondre aux messages.",
+            "recipient_unavailable_message": "{username} ne peut pas recevoir de messages."
         }
     },
     "flarum-gdpr": {
         "lib": {
             "data": {
                 "messages": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Vos messages privés, avec la date et l'heure d'envoi ainsi que l'adresse d'où ils proviennent.",
+                    "anonymize_description": "Les adresses à partir desquelles vos messages privés ont été envoyés sont supprimées. Les messages sont conservés.",
+                    "delete_description": "Vos messages privés ont été supprimés."
                 }
             }
         }
@@ -125,8 +125,8 @@
         "lib": {
             "browser": {
                 "dialog": {
-                    "started": "",
-                    "posted": ""
+                    "started": "A commencé une conversation privée avec {username}",
+                    "posted": "A envoyé un message privé à {username}"
                 }
             }
         }
