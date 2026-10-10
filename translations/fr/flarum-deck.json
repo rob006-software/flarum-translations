@@ -2,7 +2,7 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": "Utiliser le Deck"
+                "use_deck_label": "Utiliser le deck"
             },
             "settings": {
                 "max_columns_help": "Chaque colonne est une requête distincte à chaque actualisation. Entre 1 et 12.",
@@ -81,20 +81,20 @@
                 "was_starting_text": ""
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Ajouter colonne",
+                "column_limit_reached_text": "Vous avez atteint le nombre maximal de colonnes.",
+                "drop_row_hint": "Insérez une colonne ici pour commencer une deuxième rangée",
+                "empty_text": "Votre Deck est vide. Ajoutez une colonne pour suivre les conversations en temps réel.",
+                "exit_fullscreen_button": "Quitter le mode plein écran",
+                "fullscreen_button": "Mode plein écran",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Masquer cette introduction",
+                    "subtitle": "Suivez toutes les conversations qui vous intéressent, côte à côte et en temps réel. Ajoutez des colonnes, faites-les glisser pour les positionner, puis organisez-les sur deux rangées maximum."
                 },
-                "navigator_label": "",
+                "navigator_label": "Colonnes",
                 "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
+                "reset_button": "Réinitialiser les colonnes",
+                "resize_rows_label": "Redimensionner les lignes",
                 "reset_confirmation": "Voulez-vous remplacer vos colonnes par celles de la configuration par défaut ? Cette action est irréversible.",
                 "scroll_left_label": "Défiler à gauche",
                 "scroll_right_label": "Défiler à droite",
