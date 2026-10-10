@@ -261,7 +261,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-social-groups' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.6.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.6.4/locale/en.yml',
 	],
 	'ernestdefoe-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sonic/0.1.1/locale/en.yml',
