@@ -2,103 +2,103 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Korzystanie z pulpitu"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
-                "poll_interval_label": ""
+                "max_columns_help": "Każda kolumna wysyła osobne żądanie przy każdym odświeżeniu. Wybierz wartość od 1 do 12.",
+                "max_columns_label": "Maksymalna liczba kolumn na użytkownika",
+                "poll_interval_help": "Jak często kolumny sprawdzają nową aktywność, gdy nie ma połączenia z Realtime. Wartość 0 wyłącza sprawdzanie, a najmniejsza dodatnia wartość to 15.",
+                "poll_interval_label": "Częstotliwość odświeżania (w sekundach)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
-                "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": ""
+                "author_label": "Użytkownik",
+                "author_placeholder": "Wyszukaj użytkownika",
+                "back_button": "Wróć",
+                "discussion_label": "Dyskusja",
+                "discussion_placeholder": "Wyszukaj dyskusję",
+                "filter_help": "Możesz łączyć filtry wyszukiwania, np. tag:, author:, is:unread lub is:following. Zwykłe słowa nie są obsługiwane.",
+                "filter_invalid_message": "Wpisz same filtry, np. tag:support is:unread. Zwykłe słowa nie są obsługiwane.",
+                "filter_label": "Filtry",
+                "group_invalid_message": "Wybierz grupę.",
+                "group_label": "Grupa",
+                "in_deck_badge": "Na pulpicie",
+                "in_deck_count_badge": "Na pulpicie ×{count}",
+                "filter_placeholder": "np. tag:support is:unread",
+                "invalid_value_message": "Podaj prawidłową wartość pola „{field}”.",
+                "pick_a_result_message": "Wybierz podpowiedź z listy dla pola „{field}”.",
+                "submit_button": "Dodaj kolumnę",
+                "title": "Dodaj kolumnę",
+                "use_filters_button": "Użyj tych filtrów"
             },
             "column": {
-                "controls_label": "",
-                "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
-                "resize_label": ""
+                "controls_label": "Opcje kolumny „{title}”",
+                "drag_handle_label": "Przeciągnij, aby przenieść kolumnę „{title}”",
+                "move_left_button": "Przenieś w lewo",
+                "move_right_button": "Przenieś w prawo",
+                "move_to_bottom_row_button": "Przenieś do dolnego rzędu",
+                "move_to_top_row_button": "Przenieś do górnego rzędu",
+                "moved_announcement": "Przeniesiono na pozycję {position} z {count}.",
+                "moved_in_bottom_row_announcement": "Przeniesiono na pozycję {position} z {count} w dolnym rzędzie.",
+                "moved_in_top_row_announcement": "Przeniesiono na pozycję {position} z {count} w górnym rzędzie.",
+                "new_items_button": "{count, plural, one {# nowość} other {# nowości}}",
+                "open_discussion_button": "Otwórz dyskusję",
+                "refresh_button": "Odśwież",
+                "remove_button": "Usuń kolumnę",
+                "reset_width_button": "Przywróć domyślną szerokość",
+                "resize_label": "Zmień szerokość kolumny „{title}”"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
-                "author_title": "",
-                "discussion": "",
-                "filter": "",
-                "group_posts": "",
-                "group_posts_title": "",
-                "typing": "",
-                "unread": ""
+                "all": "Wszystkie dyskusje",
+                "author": "Dyskusje użytkownika",
+                "author_posts": "Posty użytkownika",
+                "author_posts_title": "Posty użytkownika {username}",
+                "author_title": "Dyskusje rozpoczęte przez {username}",
+                "discussion": "Wybrana dyskusja",
+                "filter": "Filtr niestandardowy",
+                "group_posts": "Posty użytkowników z grupy",
+                "group_posts_title": "Posty użytkowników z grupy {group}",
+                "typing": "Kto pisze",
+                "unread": "Nieprzeczytane"
             },
             "discussion_controls": {
-                "add_to_deck_button": "",
-                "added_message": ""
+                "add_to_deck_button": "Dodaj do pulpitu",
+                "added_message": "Dyskusja została dodana do pulpitu jako osobna kolumna."
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Pulpit"
             },
             "typing": {
-                "empty_text": "",
-                "offline_text": "",
-                "replying_text": "",
-                "someone": "",
-                "starting_in_text": "",
-                "starting_text": "",
-                "was_replying_text": "",
-                "was_starting_in_text": "",
-                "was_starting_text": ""
+                "empty_text": "Nikt teraz nie pisze.",
+                "offline_text": "Aby widzieć, kto pisze, potrzebne jest aktywne połączenie z serwerem Realtime.",
+                "replying_text": "{name} pisze odpowiedź w dyskusji „{discussion}”",
+                "someone": "Ktoś",
+                "starting_in_text": "{name} zakłada dyskusję z tagami {tags}",
+                "starting_text": "{name} zakłada dyskusję",
+                "was_replying_text": "Wcześniej pisano odpowiedź w dyskusji „{discussion}” ({name})",
+                "was_starting_in_text": "Wcześniej tworzono dyskusję z tagami {tags} ({name})",
+                "was_starting_text": "Wcześniej tworzono dyskusję ({name})"
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Dodaj kolumnę",
+                "column_limit_reached_text": "Osiągnięto maksymalną liczbę kolumn.",
+                "drop_row_hint": "Upuść tutaj kolumnę, aby utworzyć drugi rząd",
+                "empty_text": "Twój pulpit jest pusty. Dodaj kolumnę, aby śledzić dyskusje na żywo.",
+                "exit_fullscreen_button": "Wyłącz pełny ekran",
+                "fullscreen_button": "Pełny ekran",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Ukryj wprowadzenie",
+                    "subtitle": "Śledź interesujące Cię dyskusje na żywo, obok siebie. Dodawaj i przeciągaj kolumny, układając je w maksymalnie dwóch rzędach."
                 },
-                "navigator_label": "",
-                "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
-                "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
-                "title": ""
+                "navigator_label": "Kolumny",
+                "options_label": "Opcje pulpitu",
+                "reset_button": "Przywróć domyślne kolumny",
+                "resize_rows_label": "Zmień wysokość rzędów",
+                "reset_confirmation": "Zastąpić obecne kolumny domyślnym układem? Tej operacji nie można cofnąć.",
+                "scroll_left_label": "Przewiń w lewo",
+                "scroll_right_label": "Przewiń w prawo",
+                "title": "Pulpit"
             }
         }
     }
