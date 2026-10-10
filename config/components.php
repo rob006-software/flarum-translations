@@ -498,7 +498,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/2.0.0-beta.5/resources/locale/en.yml',
 	],
 	'fof-geoip' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/2.0.0-rc.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/2.0.0/resources/locale/en.yml',
 	],
 	'fof-github-sponsors' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/2.0.0-beta.1/resources/locale/en.yml',
