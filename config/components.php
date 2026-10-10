@@ -764,6 +764,9 @@ return [
 	'huseyinfiliz-sticky-title' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/2.0.1/locale/en.yml',
 	],
+	'huseyinfiliz-traderfeedback' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/traderfeedback/v3.0/resources/locale/en.yml',
+	],
 	'ianm-boring-avatars' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/2.0.0-beta.2/locale/en.yml',
 	],
