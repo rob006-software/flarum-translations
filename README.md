@@ -814,6 +814,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarum-approval`](https://weblate.rob006.net/projects/flarum2/flarum-approval) | [`flarum/approval`](https://github.com/flarum/approval) |
 | [`flarum-audit`](https://weblate.rob006.net/projects/flarum2/flarum-audit) | [`flarum/audit`](https://github.com/flarum/audit) |
 | [`flarum-bbcode`](https://weblate.rob006.net/projects/flarum2/flarum-bbcode) | [`flarum/bbcode`](https://github.com/flarum/bbcode) |
+| [`flarum-deck`](https://weblate.rob006.net/projects/flarum2/flarum-deck) | [`flarum/deck`](https://github.com/flarum/deck) |
 | [`flarum-emoji`](https://weblate.rob006.net/projects/flarum2/flarum-emoji) | [`flarum/emoji`](https://github.com/flarum/emoji) |
 | [`flarum-extension-manager`](https://weblate.rob006.net/projects/flarum2/flarum-extension-manager) | [`flarum/extension-manager`](https://github.com/flarum/extension-manager) |
 | [`flarum-flags`](https://weblate.rob006.net/projects/flarum2/flarum-flags) | [`flarum/flags`](https://github.com/flarum/flags) |
@@ -1053,6 +1054,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-simple-dark-mode`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-simple-dark-mode) | [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode) |
 | [`huseyinfiliz-stickiest`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest) | [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) |
 | [`huseyinfiliz-sticky-title`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-sticky-title) | [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) |
+| [`huseyinfiliz-traderfeedback`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-traderfeedback) | [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum2/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum2/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum2/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
