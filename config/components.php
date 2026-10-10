@@ -549,7 +549,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/2.0.0-rc.1/resources/locale/en.yml',
 	],
 	'fof-online-users-widget' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/online-users-widget/2.0.0-beta.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/online-users-widget/2.0.0/locale/en.yml',
 	],
 	'fof-open-collective' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/2.0.0-beta.1/resources/locale/en.yml',
