@@ -815,6 +815,12 @@ return [
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/3.0.0/locale/en.yml',
 	],
+	'kuma-develop-level' => [
+		'tag' => 'https://raw.githubusercontent.com/kuma-develop/Level/1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'vi',
+		],
+	],
 	'lcoy-cipher' => [
 		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.1/resources/locale/en.yml',
 		'__builtInLanguages' => [
