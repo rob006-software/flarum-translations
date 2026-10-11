@@ -96,9 +96,9 @@
                     "edit_title": "Modifier le groupe de sondages",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Supprimer le groupe de sondages",
-                    "name_label": "",
-                    "name_required": "",
-                    "error": "",
+                    "name_label": "Nom",
+                    "name_required": "Un groupe de sondages doit avoir un nom.",
+                    "error": "Une erreur s'est produite lors de l'enregistrement du groupe de sondages. Veuillez contacter un administrateur.",
                     "groups_manager": "Gestionnaire de groupes de sondages",
                     "view_group": "Voir le groupe de sondages",
                     "success": "Le groupe de sondages a été enregistré avec succès."
@@ -179,7 +179,7 @@
                 "option_placeholder": "Répondre",
                 "image_option_placeholder": "URL de l'image (facultatif)",
                 "options_label": "Réponses",
-                "settings_label": "",
+                "settings_label": "Vote",
                 "public_poll_label": "Autoriser les utilisateurs de voir qui a voté",
                 "allow_multiple_votes_label": "Autoriser de voter pour plusieurs options",
                 "max_votes_label": "Nombre maximum de votes par utilisateur",
@@ -245,17 +245,17 @@
         "lib": {
             "browser": {
                 "poll": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": "",
-                    "published": "",
-                    "unpublished": "",
-                    "voted": ""
+                    "created": "A créé le sondage {title}",
+                    "updated": "A mis à jour le sondage {title}",
+                    "deleted": "A supprimé le sondage {title}",
+                    "published": "A publié le sondage {title}",
+                    "unpublished": "A dépublié le sondage {title}",
+                    "voted": "A voté au sondage {title}"
                 },
                 "poll_group": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "A créé le groupe de sondages {name}",
+                    "updated": "A mis à jour le groupe de sondages {name}",
+                    "deleted": "A supprimé le groupe de sondages {name}"
                 }
             }
         }
