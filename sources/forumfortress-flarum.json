@@ -14,7 +14,7 @@
                 "allow_global_fallback_label": "Allow global emergency fallback",
                 "allow_global_fallback_help": "After a regional retry fails, permit the global network. Processing may occur outside the selected region.",
                 "api_key_label": "Site API key",
-                "api_key_help": "Leave blank to bootstrap an anonymous site and receive a stable key automatically.",
+                "api_key_help": "The current key is never displayed. Leave blank to keep it, or enter a replacement. An anonymous site receives a key automatically during bootstrap. Use Disconnect and remove site to revoke the remote credential.",
                 "registration_email_label": "Site registration email",
                 "registration_email_help": "Optional for normal operation. Set this to your account email only when using the plugin Register Site flow; portal registration does not need it.",
                 "preferred_endpoint_label": "Preferred edge endpoint",
