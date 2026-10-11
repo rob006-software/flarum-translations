@@ -291,7 +291,7 @@ return [
 		],
 	],
 	'ernestdefoe-warren' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-waymark' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/waymark/1.5.0/locale/en.yml',
