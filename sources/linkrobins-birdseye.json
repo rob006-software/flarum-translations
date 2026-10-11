@@ -42,6 +42,8 @@
                 "country_lookup_invalid": "The country database file can't be used: the file at that path is not a MaxMind database. Point the setting at a GeoLite2-Country.mmdb file.",
                 "country_lookup_download_failed": "Birdseye couldn't download its free country database, so no visitor countries are being recorded. Your host may block outgoing connections from PHP; ask them to allow HTTPS to download.db-ip.com, or set a country database file yourself. Birdseye tries again every few hours. The error was:",
                 "country_lookup_download_pending": "No visitor countries are being recorded yet. Birdseye downloads a free country database by itself, but it hasn't run yet. That happens on Flarum's scheduler, so check that your cron job runs php flarum schedule:run every minute, or run php flarum birdseye:country-database once to fetch it now.",
+                "sync_behind_no_scheduler": "Statistics haven't updated since {date}: Flarum's scheduler isn't running. <a>Set up the scheduler</a>",
+                "sync_behind_failing": "Statistics haven't updated since {date}, but Flarum's scheduler is running. Check storage/logs for a Birdseye error.",
                 "country_lookup_after": "Countries appear from the next day processed onwards; days already summarised cannot be filled in afterwards.",
                 "visitors_word": "visitors",
                 "views_word": "views",

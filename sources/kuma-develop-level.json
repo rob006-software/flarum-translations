@@ -22,7 +22,10 @@
             "add_level": "Add level",
             "new_level": "New level",
             "reset": "Restore defaults",
-            "reset_confirm": "Restore the default level table?"
+            "reset_confirm": "Restore the default level table?",
+            "perm_edit": "Edit users' EXP and level",
+            "notify_levelup": "Notify users when they level up",
+            "notify_levelup_help": "Users can turn this off themselves in Settings > Notifications."
         },
         "forum": {
             "exp_progress": "EXP {exp} / {next}",
@@ -37,6 +40,9 @@
             "tip_remaining": "{remaining} EXP to reach Lv.{level}{name}",
             "tip_max": "MAX",
             "tip_max_desc": "You have reached the highest level",
+            "tip_max_desc_other": "{name} has reached the highest level",
+            "notif_levelup": "Congratulations! You reached Level {level}{name}",
+            "notif_setting": "I level up",
             "modal_save": "Save"
         },
         "lib": {

@@ -39,7 +39,26 @@
                 },
                 "other": {
                     "heading": "Autre",
-                    "force_portrait_text": "Forcer l'orientation en mode portrait",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
                     "push_notif_preference_default_to_email_label": "Définir les préférences de poussée par défaut vers l'envoi de courriel",
                     "push_notif_preference_default_to_email_text": "Si cette option est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette option est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.",
                     "window_controls_overlay_label": "Activer la superposition des contrôles de fenêtre",
@@ -49,7 +68,8 @@
                     "push_notification_ttl_label": "Durée de vie (TTL) des notifications push",
                     "push_notification_ttl_text": "Durée pendant laquelle les notifications push non envoyées doivent rester dans la file d'attente du service de notification push avant d'expirer (en secondes).",
                     "share_buttons_label": "Activer les boutons de partage",
-                    "share_buttons_text": "Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs."
+                    "share_buttons_text": "Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs.",
+                    "force_portrait_text": "Forcer l'orientation en mode portrait"
                 },
                 "heading": "Configuration de l'application web progressive",
                 "text": "Configurez votre site sous Flarum pour qu'il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d'applications. Au lieu de cela, elle offre aux utilisateurs une option « Ajouter à l'écran d'accueil » pour votre site. Nous fournissons quelques vérifications d'état, mais la meilleure façon de le tester est d'essayer de l'installer vous-même (recherchez sur le Web des instructions pour installer les applications web progressives). Gardez à l'esprit que les invites « Installer cette application web progressive » sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs, les administrateurs ou les programmes. Envisagez d'inclure des instructions d'installation pour les applications web progressive dans la documentation de votre site.",
@@ -117,6 +137,7 @@
             }
         },
         "api": {
+            "keys_invalid": "",
             "endpoint_https_required": "Les notifications push n'ont pas pu être activées car votre navigateur a fourni une URL de service push invalide « {url} ». Une URL HTTPS valide est requise.",
             "endpoint_host_not_allowed": "Les notifications push n'ont pas pu être activées car l'hôte du service push « {host} » utilisé par votre navigateur n'est pas autorisé. Veuillez contacter l'administrateur du forum."
         },

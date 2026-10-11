@@ -39,7 +39,26 @@
                 },
                 "other": {
                     "heading": "Pozostałe",
-                    "force_portrait_text": "Wymuś orientację pionową",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
                     "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z e-mail",
                     "push_notif_preference_default_to_email_text": "Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.",
                     "window_controls_overlay_label": "Włącz Window Controls Overlay",
@@ -49,7 +68,8 @@
                     "push_notification_ttl_label": "",
                     "push_notification_ttl_text": "",
                     "share_buttons_label": "Włącz przyciski udostępniania",
-                    "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników."
+                    "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników.",
+                    "force_portrait_text": "Wymuś orientację pionową"
                 },
                 "heading": "Konfiguracja progresywnej aplikacji internetowej",
                 "text": "Skonfiguruj swoje forum Flarum jako progresywną aplikację internetową! Nie oznacza to automatycznej publikacji forum w sklepie z aplikacjami. Użytkownicy otrzymają natomiast możliwość dodania go do ekranu głównego. Udostępniamy kilka kontroli stanu, ale najlepszym sposobem na przetestowanie PWA jest samodzielna próba instalacji (instrukcje instalowania progresywnych aplikacji internetowych znajdziesz w internecie). Pamiętaj, że komunikaty zachęcające do instalacji PWA są kontrolowane przez przeglądarki i nie mogą być wywoływane przez programistów, administratorów ani aplikacje. Warto dodać instrukcję instalacji PWA do dokumentacji forum.",
@@ -117,6 +137,7 @@
             }
         },
         "api": {
+            "keys_invalid": "",
             "endpoint_https_required": "",
             "endpoint_host_not_allowed": ""
         },

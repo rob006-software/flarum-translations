@@ -42,6 +42,8 @@
                 "country_lookup_invalid": "Die Länderdatenbankdatei kann nicht verwendet werden: Die Datei unter diesem Pfad ist keine MaxMind-Datenbank. Verweise die Einstellung auf eine „GeoLite2-Country.mmdb“-Datei.",
                 "country_lookup_download_failed": "Birdseye konnte die kostenlose Länderdatenbank nicht herunterladen, daher werden keine Besucherländer erfasst. Möglicherweise blockiert dein Host ausgehende Verbindungen von PHP; bitte ihn, HTTPS für download.db-ip.com zuzulassen, oder richte selbst eine Länderdatenbankdatei ein. Birdseye versucht es alle paar Stunden erneut. Der Fehler lautete:",
                 "country_lookup_download_pending": "Bislang werden noch keine Besuchsländer erfasst. Birdseye lädt zwar selbstständig eine kostenlose Länderdatenbank herunter, der Vorgang wurde jedoch noch nicht ausgeführt. Dies geschieht über den Flarum-Scheduler. Überprüfe daher, ob dein Cron-Job „php flarum schedule:run“ jede Minute ausführt, oder führe „php flarum birdseye:country-database“ einmalig aus, um die Datenbank jetzt abzurufen.",
+                "sync_behind_no_scheduler": "",
+                "sync_behind_failing": "",
                 "country_lookup_after": "Länder werden ab dem nächsten verarbeiteten Tag angezeigt; bereits zusammengefasste Tage können nachträglich nicht mehr ergänzt werden.",
                 "visitors_word": "Besucher",
                 "views_word": "Aufrufe",

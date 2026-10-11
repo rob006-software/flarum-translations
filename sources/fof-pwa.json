@@ -39,11 +39,30 @@
                 },
                 "other": {
                     "heading": "Other",
-                    "force_portrait_text": "Force portrait orientation",
+                    "display_label": "Display mode",
+                    "display_text": "How the app opens when launched from its icon:\n\nStandalone: A separate app window without the browser's address bar.\nMinimal UI: Like Standalone, with basic navigation such as back and reload.\nFull screen: Uses the entire screen without browser controls.\nBrowser: Opens in a normal browser tab or window.\n\nBrowsers may use a fallback if the selected mode is not supported.\n",
+                    "display_options": {
+                        "standalone": "Standalone",
+                        "minimal_ui": "Minimal UI",
+                        "fullscreen": "Full screen",
+                        "browser": "Browser"
+                    },
+                    "orientation_label": "Orientation",
+                    "orientation_text": "Any: Let the app rotate with the device.\nNatural: Use the device's usual orientation, typically portrait on phones and landscape on monitors.\nPortrait: Keep the app vertical.\nLandscape: Keep the app horizontal.\n\nPortrait and Landscape each allow two positions, 180 degrees apart. Select a Primary or Secondary option to use just one. On a phone, Portrait (primary) usually means upright, and Portrait (secondary) means upside down. For landscape, which direction is primary depends on the device.\n\nSome browsers and devices may ignore the selected orientation.\n",
+                    "orientation_options": {
+                        "any": "Any",
+                        "natural": "Natural",
+                        "portrait": "Portrait",
+                        "portrait_primary": "Portrait (primary)",
+                        "portrait_secondary": "Portrait (secondary)",
+                        "landscape": "Landscape",
+                        "landscape_primary": "Landscape (primary)",
+                        "landscape_secondary": "Landscape (secondary)"
+                    },
                     "push_notif_preference_default_to_email_label": "Default push preferences to email",
                     "push_notif_preference_default_to_email_text": "If enabled, users will have push notifications enabled by default for all notification types where email notifications are enabled by default. If disabled, users will have push notifications disabled by default.",
                     "window_controls_overlay_label": "Enable Window Controls Overlay",
-                    "window_controls_overlay_text": "If enabled, users can get a more immersive, native-like experience by hiding the native title bar. Whether Window Controls Overlay is actually applied depends on the user's preference and browser compatibility. You must customize your title bar with CSS/JS after enabling this, otherwise the controls will overlay elements of your forum's top navbar and the window will be nearly impossible to drag, resulting in a bad experience.\n\nSee also: <compatibilitylink>Window Controls Overlay browser compatibility</compatibilitylink> & <learnlink>About Window Controls Overlay on Microsoft Learn</learnlink>\n",
+                    "window_controls_overlay_text": "When used by a supported desktop browser, Window Controls Overlay takes precedence over the selected display mode.\n\nIf enabled, users can get a more immersive, native-like experience by hiding the native title bar. Whether Window Controls Overlay is actually applied depends on the user's preference and browser compatibility. You must customize your title bar with CSS/JS after enabling this, otherwise the controls will overlay elements of your forum's top navbar and the window will be nearly impossible to drag, resulting in a bad experience.\n\nSee also: <compatibilitylink>Window Controls Overlay browser compatibility</compatibilitylink> & <learnlink>About Window Controls Overlay on Microsoft Learn</learnlink>\n",
                     "user_max_subscriptions_label": "Max push subscriptions per user",
                     "user_max_subscriptions_text": "How many push subscriptions should each user be able to have at a time? When a user receives a push notification, each subscription results in an API call. Each subscription typically corresponds to a browser the user has used.",
                     "push_notification_ttl_label": "Push notification TTL",
@@ -117,6 +136,7 @@
             }
         },
         "api": {
+            "keys_invalid": "Push notifications could not be enabled because your browser provided invalid encryption keys. Please try enabling notifications again.",
             "endpoint_https_required": "Push notifications could not be enabled because your browser provided an invalid push service URL \"{url}\". A valid HTTPS URL is required.",
             "endpoint_host_not_allowed": "Push notifications could not be enabled because the push service host \"{host}\" used by your browser is not allowed. Please contact the forum administrator."
         },

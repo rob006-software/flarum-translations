@@ -100,6 +100,9 @@
                 "global_evasion_threshold_help": "Atlatma cezası uygulamak için zaman aşımı süresi içinde gereken engelleme sayısı. (Varsayılan: 2)",
                 "global_evasion_log_keep_days": "Atlatma Günlüğü Saklama Süresi (gün)",
                 "global_evasion_log_keep_days_help": "Günlük temizlemeyi devre dışı bırakmak ve günlükleri süresiz saklamak için 0 olarak ayarlayın. (Varsayılan: 0)",
+                "global_evasion_flag_message": "",
+                "global_evasion_flag_message_placeholder": "",
+                "global_evasion_flag_message_help": "",
                 "obfuscate_active": "Ön Uç Veri Gizlemesini Etkinleştir",
                 "obfuscate_active_help": "Etkinleştirilirse, tarayıcıya gönderilen Bilgi ve Uyarı filtre kurallarının JSON yükü XOR ile gizlenir. Bu, kuralların doğrudan incelenmesini zorlaştırır.",
                 "obfuscate_key": "Özel Gizleme Anahtarı",
@@ -255,6 +258,15 @@
             "token_matched_string_desc": "Regex tarafından yakalanan alt metin dizesi",
             "token_matched_group_desc": "Kuralı tetikleyen kullanıcı grubu kimliği",
             "token_word_count_desc": "Gönderinin hesaplanan kelime sayısı",
+            "token_evasion_ruleset_desc": "",
+            "token_evasion_count_desc": "",
+            "token_evasion_matches_desc": "",
+            "token_evasion_timeline_desc": "",
+            "token_evasion_details_desc": "",
+            "token_evasion_last_match_desc": "",
+            "token_evasion_last_content_desc": "",
+            "token_evasion_timeout_desc": "",
+            "token_evasion_threshold_desc": "",
             "type_contains_word": "Kelime içeriyor",
             "type_regex": "Regex deseni ile eşleşiyor",
             "type_group": "Kullanıcı grupta",
@@ -309,7 +321,11 @@
             "sidebar_title": "Düzenleyici ipuçları",
             "flag_message": "Filtre Kuralı Yöneticisi tarafından otomatik olarak bayraklandı. Tetiklenen kural kümeleri: {rulesets}",
             "flagger_name": "Filtre Kuralı Yöneticisi",
-            "evasion_flag_message": "Şüpheli: Kullanıcı kısa süre önce '{ruleset}' kural kümesi tarafından engellendi, ardından bu gönderiyi başarıyla gönderdi. Lütfen filtre atlatma ihtimaline karşı inceleyin."
+            "evasion_flag_message": "Şüpheli: Kullanıcı kısa süre önce '{ruleset}' kural kümesi tarafından engellendi, ardından bu gönderiyi başarıyla gönderdi. Lütfen filtre atlatma ihtimaline karşı inceleyin.",
+            "evasion_matched_terms": "",
+            "evasion_attempts_header": "",
+            "evasion_item_matched": "",
+            "evasion_earlier_attempts": ""
         }
     }
 }

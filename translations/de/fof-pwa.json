@@ -39,7 +39,26 @@
                 },
                 "other": {
                     "heading": "Andere",
-                    "force_portrait_text": "Hochformat erzwingen",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
                     "push_notif_preference_default_to_email_label": "Standard-Push-Präferenzen von E-Mail übernehmen",
                     "push_notif_preference_default_to_email_text": "Wenn aktiviert, haben Benutzer standardmäßig Push-Benachrichtigungen aktiviert für alle Benachrichtigungsarten, bei denen auch E-Mail-Benachrichtigungen standardmäßig aktiviert sind. Wenn deaktiviert, sind Push-Benachrichtigungen standardmäßig deaktiviert.",
                     "window_controls_overlay_label": "Overlay der Fenstersteuerelemente aktivieren",
@@ -49,7 +68,8 @@
                     "push_notification_ttl_label": "TTL für Push-Benachrichtigung",
                     "push_notification_ttl_text": "Wie lange nicht zugestellte Push-Benachrichtigungen in der Warteschlange des Push-Dienstes verbleiben sollen, bevor sie verfallen (in Sekunden).",
                     "share_buttons_label": "Schaltflächen „Teilen“ hinzufügen",
-                    "share_buttons_text": "Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt."
+                    "share_buttons_text": "Wenn aktiviert, wird Diskussionen, Beiträgen und Benutzerseiten eine „Teilen“-Schaltfläche hinzugefügt.",
+                    "force_portrait_text": "Hochformat erzwingen"
                 },
                 "heading": "Progressive Web App-Konfiguration",
                 "text": "Konfiguriere deine Flarumseite, damit sie als Progressive Web App läuft! Bitte beachte, dass dies deine Seite nicht automatisch in den App Store bringt. Stattdessen bedeutet dies, dass Nutzer für deine Website die Option „Zum Homescreen hinzufügen“ erhalten. Wir bieten einige Statusüberprüfungen an, aber der beste Weg dies zu testen ist selber eine Test-Installation durchzuführen (suche nach einer Anleitung, wie man Progressive Web Apps installiert). Bitte bedenke auch, dass „Installiere diese PWA“-Popups von Browsern gesteuert werden und nicht von Entwicklern/Admins/Programmen ausgelöst werden können. Es wird empfohlen, eine Anleitung für die Installation einer PWA in die Dokumentation deiner Seite aufzunehmen.",
@@ -117,6 +137,7 @@
             }
         },
         "api": {
+            "keys_invalid": "",
             "endpoint_https_required": "Push-Benachrichtigungen konnten nicht aktiviert werden, da dein Browser eine ungültige Push-Dienst-URL „{url}“ angegeben hat. Es ist eine gültige HTTPS-URL erforderlich.",
             "endpoint_host_not_allowed": "Push-Benachrichtigungen konnten nicht aktiviert werden, da der von deinem Browser verwendete Push-Dienst-Host „{host}“ nicht zugelassen ist. Bitte wende dich an den Forum-Administrator."
         },
