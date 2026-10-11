@@ -699,7 +699,7 @@ return [
 		],
 	],
 	'forumfortress-flarum' => [
-		'tag' => 'https://raw.githubusercontent.com/forum-fortress/flarum/v1.4.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forum-fortress/flarum/v1.4.4/locale/en.yml',
 	],
 	'gitzaai-cnsearch' => [
 		'tag' => 'https://raw.githubusercontent.com/gitzaai/cnsearch/v0.2.0/locale/en.yml',
