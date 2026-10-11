@@ -962,7 +962,7 @@ return [
 		],
 	],
 	'huoxin-filter-rule-manager' => [
-		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/1.0.0-beta.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
