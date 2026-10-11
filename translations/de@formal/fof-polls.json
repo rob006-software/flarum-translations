@@ -23,7 +23,7 @@
                 "enable_global_polls": "Globale Umfragen aktivieren",
                 "enable_global_polls_help": "Globale Umfragen sind nicht an einen bestimmten Beitrag gebunden und können über eine spezielle Umfragen-Seite aufgerufen werden.",
                 "enabled_poll_groups": "Umfragegruppen aktivieren",
-                "enabled_poll_groups_help": "Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.",
+                "enabled_poll_groups_help": "Umfragegruppen ermöglichen es dir, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.",
                 "max_options": "Maximale Anzahl von Optionen pro Umfrage",
                 "options_color_blend": "Textfarbe in Umfrageoptionen für bessere Lesbarkeit anpassen",
                 "options_color_blend_help": "Mit dieser Funktion kannst du durch Farbmischen die Umfrageoptionen besser lesbar machen. Deaktiviere diese Funktion wenn sie dein Forum seltsam aussehen lässt und die Lesbarkeit verringert.",
@@ -92,33 +92,33 @@
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "Umfrage-Gruppe hinzufügen",
-                    "edit_title": "Umfrage-Gruppe bearbeiten",
-                    "save_changes": "Änderungen speichern",
-                    "delete": "Umfrage-Gruppe löschen",
-                    "name_label": "",
-                    "name_required": "",
-                    "error": "",
-                    "groups_manager": "Umfrage-Gruppen-Manager",
-                    "view_group": "Umfrage-Gruppe anzeigen",
-                    "success": "Umfrage-Gruppe erfolgreich gespeichert."
+                    "add_title": "Umfragegruppe hinzufügen",
+                    "edit_title": "Umfragegruppe bearbeiten",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Umfragegruppe löschen",
+                    "name_label": "Name",
+                    "name_required": "Eine Umfragegruppe braucht einen Namen.",
+                    "error": "Beim Speichern der Umfragegruppe ist ein Fehler aufgetreten. Bitte wende dich an einen Administrator.",
+                    "groups_manager": "Umfragegruppen-Manager",
+                    "view_group": "Umfragegruppe anzeigen",
+                    "success": "Umfragegruppe erfolgreich gespeichert."
                 },
                 "list_page": {
-                    "title": "Umfrage-Gruppen",
-                    "start_poll_group_button": "Eine Umfrage-Gruppe starten",
-                    "cannot_start_poll_group_button": "Kann keine Umfrage-Gruppe starten",
-                    "empty_text": "Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.",
-                    "load_more_button": "Mehr laden",
+                    "title": "Umfragegruppen",
+                    "start_poll_group_button": "Eine Umfragegruppe starten",
+                    "cannot_start_poll_group_button": "Kann keine Umfragegruppe starten",
+                    "empty_text": "Es scheint, als gäbe es hier noch keine Umfragegruppen.",
+                    "load_more_button": "=> core.ref.load_more",
                     "no_polls": "In dieser Gruppe gibt es keine Umfragen.",
                     "add_poll_button": "Umfrage zur Gruppe hinzufügen"
                 },
                 "controls": {
                     "add_poll_label": "Umfrage hinzufügen",
-                    "edit_label": "Bearbeiten",
-                    "view_label": "Umfrage-Gruppe anzeigen",
-                    "delete_label": "Löschen",
-                    "delete_confirmation": "Möchtest du diese Umfrage-Gruppe wirklich löschen?",
-                    "delete_success_message": "Umfrage-Gruppe erfolgreich gelöscht.",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Umfragegruppe anzeigen",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Möchtest du diese Umfragegruppe wirklich löschen?",
+                    "delete_success_message": "Umfragegruppe erfolgreich gelöscht.",
                     "delete_error_message": "Beim Löschen der Umfragegruppe ist etwas schiefgelaufen."
                 }
             },
@@ -127,7 +127,7 @@
             },
             "polls_list": {
                 "empty_text": "Es sieht so aus, als gäbe es hier keine gemeinschaftsweiten Umfragen.",
-                "load_more_button": "Mehr laden",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
                     "newest": "Neueste",
                     "oldest": "Älteste",
@@ -179,7 +179,7 @@
                 "option_placeholder": "Antwort",
                 "image_option_placeholder": "Bild-URL (optional)",
                 "options_label": "Antworten",
-                "settings_label": "",
+                "settings_label": "Abstimmung",
                 "public_poll_label": "Alle dürfen sehen, wer abgestimmt hat",
                 "allow_multiple_votes_label": "Benutzern erlauben, für mehrere Optionen abzustimmen",
                 "max_votes_label": "Maximale Stimmen pro Benutzer",
@@ -220,7 +220,7 @@
             "page": {
                 "nav": "Umfragen",
                 "nav-all": "Alle globalen Umfragen",
-                "nav-groups": "Umfrage-Gruppen"
+                "nav-groups": "Umfragegruppen"
             },
             "showcase": {
                 "active-polls": "Aktive Umfragen",
@@ -233,7 +233,7 @@
                 "votes": "{count, plural, one {Eine Stimme} other {# Stimmen}}"
             },
             "votes_modal": {
-                "title": "=> fof-polls.forum.public_poll"
+                "title": "Abstimmende"
             },
             "upload_image": {
                 "remove_button": "Bild löschen",
@@ -245,17 +245,17 @@
         "lib": {
             "browser": {
                 "poll": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": "",
-                    "published": "",
-                    "unpublished": "",
-                    "voted": ""
+                    "created": "Umfrage {title} erstellt",
+                    "updated": "Umfrage {title} aktualisiert",
+                    "deleted": "Umfrage {title} gelöscht",
+                    "published": "Umfrage {title} veröffentlicht",
+                    "unpublished": "Umfrage {title} Veröffentlichung widerrufen",
+                    "voted": "Hat in der Umfrage {title} abgestimmt"
                 },
                 "poll_group": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Hat Umfragegruppe {name} erstellt",
+                    "updated": "Hat Umfragegruppe {name} aktualisiert",
+                    "deleted": "Hat Umfragegruppe {name} gelöscht"
                 }
             }
         }
