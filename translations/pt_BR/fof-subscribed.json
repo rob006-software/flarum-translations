@@ -2,45 +2,45 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "Definir \"{setting}\" ativado por padrão",
+                "defaults_label": "Ativar \"{setting}\" por padrão",
                 "forced_label": "Forçar ativação de \"{setting}\" para todos",
                 "notify_discussion_created_label": "Alguém cria uma discussão",
-                "notify_post_created_label": "Alguém cria uma nova postagem ou resposta",
-                "notify_post_unapproved_label": "Uma postagem criada precisa de aprovação",
+                "notify_post_created_label": "Alguém cria um novo post ou resposta",
+                "notify_post_unapproved_label": "Um post criado precisa de aprovação",
                 "notify_user_created_label": "Quando alguém se cadastra",
-                "notify_post_flagged_label": "Alguém cria uma nova marcação em uma postagem"
+                "notify_post_flagged_label": "Alguém cria uma nova sinalização em um post"
             },
             "notifications": {
                 "discussion_created_text": "{username} criou uma nova discussão",
-                "post_created_text": "{username} escreveu uma nova postagem",
-                "post_unapproved_text": "{username} criou uma postagem que requer aprovação",
-                "user_created_text": "{username} acabou de se inscrever",
-                "post_flagged_text": "{username} marcou uma postagem"
+                "post_created_text": "{username} escreveu um novo post",
+                "post_unapproved_text": "{username} criou um post que requer aprovação",
+                "user_created_text": "{username} acabou de se cadastrar",
+                "post_flagged_text": "{username} sinalizou um post"
             }
         },
         "admin": {
             "permission": {
-                "subscribe_to_discussion_created": "Tem permissão para receber notificações sobre uma nova discussão",
-                "subscribe_to_post_created": "Tem permissão para receber notificação sobre nova postagem ou resposta",
-                "subscribe_to_post_unapproved": "Tem permissão para receber notificação sobre nova postagem não aprovada",
-                "subscribe_to_user_created": "Tem permissão para receber notificação sobre um novo usuário",
-                "subscribe_to_post_flagged": "Tem permissão para receber notificação sobre nova marcação"
+                "subscribe_to_discussion_created": "Receber notificação de nova discussão",
+                "subscribe_to_post_created": "Receber notificação de novo post ou resposta",
+                "subscribe_to_post_unapproved": "Receber notificação de novo post não aprovado",
+                "subscribe_to_user_created": "Receber notificação de novo usuário",
+                "subscribe_to_post_flagged": "Receber notificação de nova sinalização"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "[Inscrito | Nova discussão] {title}",
-                "newUser": "[Inscrito | Novo usuário] {username}",
-                "postUnapproved": "[Inscrito | Não aprovado] {username} postado em {title}",
-                "postCreated": "[Inscrito | Nova postagem] {username} escreveu uma nova postagem em {title}",
-                "postFlagged": "[Inscrito | Nova Marcação] {username} marcou uma postagem em {title}"
+                "newDiscussion": "[Inscrição | Nova Discussão] {title}",
+                "newUser": "[Inscrição | Novo Usuário] {username}",
+                "postUnapproved": "[Inscrição | Não Aprovado] {username} postou em {title}",
+                "postCreated": "[Inscrição | Novo Post] {username} escreveu um novo post em {title}",
+                "postFlagged": "[Inscrição | Nova Sinalização] {username} sinalizou um post em {title}"
             },
             "body": {
-                "newDiscussion": "Olá {recipient_display_name},\n\n{actor_display_name} iniciou uma nova discussão: {discussion_title}\n\nPara ver esta nova discussão, confira o seguinte link:\n{discussion_url}\n\n---\n\n{post_content}\n",
-                "newUser": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de se inscrever em {forum_url}.\n\nPara ver o perfil deste novo usuário, confira o seguinte link:\n{user_url}\n",
-                "postUnapproved": "Olá {recipient_display_name},\n\n{actor_display_name} criou uma postagem que não foi aprovada automaticamente em {discussion_title}\n\nPara ver este novo post, confira o seguinte link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de criar uma nova postagem em {discussion_title}\n\nPara ver este novo post, confira o seguinte link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postFlagged": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de marcar uma postagem em {discussion_title}\n\nPara ver esta postagem, confira o link a seguir:\n{post_url}\n"
+                "newDiscussion": "Olá {recipient_display_name},\n\n{actor_display_name} iniciou uma nova discussão: {discussion_title}\n\nPara ver esta nova discussão, acesse o link a seguir:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de se cadastrar em {forum_url}.\n\nPara ver o perfil deste novo usuário, acesse o link a seguir:\n{user_url}\n",
+                "postUnapproved": "Olá {recipient_display_name},\n\n{actor_display_name} criou um post que não foi aprovado automaticamente em {discussion_title}\n\nPara ver este novo post, acesse o link a seguir:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de criar um novo post em {discussion_title}\n\nPara ver este novo post, acesse o link a seguir:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de sinalizar um post em {discussion_title}\n\nPara ver este post, acesse o link a seguir:\n{post_url}\n"
             }
         }
     }

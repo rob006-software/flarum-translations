@@ -2,27 +2,27 @@
     "fof-discord-autolink": {
         "forum": {
             "invite": {
-                "heading": "",
-                "invalid_heading": "",
-                "invalid_title": "",
-                "invalid_text": "",
-                "join": "",
-                "members": "",
-                "online": "",
-                "partnered": "",
-                "verified": ""
+                "heading": "Você recebeu um convite para entrar em um servidor",
+                "invalid_heading": "Você recebeu um convite para entrar em um servidor, mas…",
+                "invalid_title": "Convite Inválido",
+                "invalid_text": "Este convite pode ter expirado, ou você pode não ter permissão para entrar.",
+                "join": "Entrar",
+                "members": "{count} Membros",
+                "online": "{count} Online",
+                "partnered": "Parceiro do Discord",
+                "verified": "Verificado"
             },
             "event": {
-                "heading": "",
-                "interested": "",
-                "active": "",
-                "completed": "",
-                "canceled": ""
+                "heading": "Você recebeu um convite para um evento",
+                "interested": "{count} interessados",
+                "active": "Acontecendo agora",
+                "completed": "Este evento terminou",
+                "canceled": "Este evento foi cancelado"
             },
             "label": {
-                "channel": "",
-                "event": "",
-                "message": ""
+                "channel": "Canal do Discord",
+                "event": "Evento do Discord",
+                "message": "Mensagem do Discord"
             }
         }
     }

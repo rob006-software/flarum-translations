@@ -2,48 +2,48 @@
     "fof-bookmarks": {
         "admin": {
             "settings": {
-                "independent_button": "",
-                "independent_button_help": "",
-                "post_button_position": "",
-                "post_button_position_header": "",
-                "post_button_position_actions": "",
-                "post_button_position_menu": "",
-                "post_header_badge": "",
-                "post_header_badge_help": ""
+                "independent_button": "Mostrar o controle de favoritos da discussão na barra lateral",
+                "independent_button_help": "Quando desativado, o controle aparece no menu suspenso da discussão.",
+                "post_button_position": "Posição do botão de favoritar posts",
+                "post_button_position_header": "Acima do post (cabeçalho)",
+                "post_button_position_actions": "Abaixo do post (ações rápidas)",
+                "post_button_position_menu": "No menu do post (três pontos)",
+                "post_header_badge": "Rotular posts favoritados",
+                "post_header_badge_help": "Mostra um rótulo acima de um post favoritado. Só se aplica quando o botão não está no cabeçalho."
             }
         },
         "forum": {
-            "badge": "",
+            "badge": "Nos favoritos",
             "dropdownButton": {
-                "add": "",
-                "remove": ""
+                "add": "Adicionar aos favoritos",
+                "remove": "Remover dos favoritos"
             },
             "independentButton": {
-                "add": "",
-                "remove": ""
+                "add": "Favoritar",
+                "remove": "Nos favoritos"
             },
             "postButton": {
-                "add": "",
-                "remove": ""
+                "add": "Favoritar",
+                "remove": "Nos favoritos"
             },
             "alert": {
-                "added": "",
-                "removed": "",
-                "show_bookmarks": ""
+                "added": "Favorito adicionado!",
+                "removed": "Favorito removido!",
+                "show_bookmarks": "Ir para os favoritos"
             },
             "page": {
-                "link": "",
-                "title": "",
+                "link": "Favoritos",
+                "title": "Favoritos",
                 "tab": {
-                    "discussions": "",
-                    "posts": ""
+                    "discussions": "Discussões",
+                    "posts": "Posts"
                 }
             }
         },
         "lib": {
             "gambits": {
                 "bookmarked": {
-                    "key": ""
+                    "key": "favoritado"
                 }
             }
         }

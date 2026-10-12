@@ -6,7 +6,7 @@
                 "description": "Status de várias ações e integrações do GDPR",
                 "data_types": {
                     "title": "Tipos de Dados",
-                    "help_text": "Estes são os tipos de dados atualmente registrados. Cada tipo é listado junto com suas ações associadas de exportação, anonimização e exclusão. Se uma extensão manipular quaisquer dados que se enquadrem nas regulamentações do GDPR, ela deve registrar seus tipos de dados com <code>flarum/gdpr</code>.\nOs dados armazenados na tabela <code>user</code> são tratados separadamente, veja os dados da tabela de usuários abaixo.\n",
+                    "help_text": "Estes são os tipos de dados atualmente registrados. Cada tipo é listado junto com suas ações associadas de exportação, anonimização e exclusão. Se uma extensão manipula dados que se enquadram nas regulamentações do GDPR, ela deve registrar seus tipos de dados com <code>flarum/gdpr</code>.\nOs dados armazenados na tabela <code>user</code> são tratados separadamente, veja os dados da tabela de usuários abaixo.\n",
                     "type": "Tipo",
                     "export_description": "Ação de Exportação",
                     "anonymize_description": "Ação de Anonimização",
@@ -20,22 +20,22 @@
                 },
                 "user_table_data": {
                     "title": "Dados da Tabela de Usuários",
-                    "help_text": "Na maioria das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, existem alguns casos especiais, que estão listados abaixo.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "help_text": "Na maior parte das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, há alguns casos especiais, listados abaixo.\n",
+                    "column": "Coluna",
+                    "type": "Tipo",
+                    "nullable": "Anulável",
+                    "pii": "PII",
+                    "redacted_on_export": "Omitido na exportação",
+                    "extension": "Extensão",
+                    "yes": "Sim",
+                    "no": "Não",
+                    "pii_tooltip": "Esta coluna é considerada informação pessoal identificável e será omitida em contextos anonimizados (ex.: payloads de eventos anonimizados).",
+                    "redacted_on_export_tooltip": "O valor desta coluna é esvaziado (definido como nulo) ao gerar uma exportação dos dados do usuário. A coluna ainda aparece na exportação com valor nulo."
                 }
             },
             "nav": {
                 "gdpr_button": "Integrações GDPR",
-                "gdpr_title": ""
+                "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
                 "process_erasure": "Processar solicitações de exclusão",
@@ -44,11 +44,11 @@
             },
             "settings": {
                 "allow_anonymization": "Permitir anonimização para solicitações de exclusão",
-                "allow_anonymization_help": "A opção padrão, e recomendada para a maioria das comunidades. Nesse modo, postagens/comentários serão preservados tanto quanto possível conforme permitido pelo GDPR, mas qualquer informação identificável do usuário será removida.",
+                "allow_anonymization_help": "A opção padrão, recomendada para a maioria das comunidades. Neste modo, posts/comentários serão preservados o máximo possível conforme permitido pelo GDPR, mas qualquer informação identificável do usuário será removida.",
                 "allow_deletion": "Permitir exclusão para solicitações de exclusão",
-                "allow_deletion_help": "Uma opção muito mais rigorosa. Nesse modo, todas as postagens/comentários serão excluídos e o usuário será removido do banco de dados. Use com cautela.",
+                "allow_deletion_help": "Uma opção muito mais rigorosa. Neste modo, todos os posts/comentários serão excluídos e o usuário será removido do banco de dados. Use com cautela.",
                 "default_anonymous_username": "Nome de usuário padrão para usuários anonimizados",
-                "default_anonymous_username_help": "Quando um usuário é anonimizado, seu nome de usuário será substituído por este valor, mais o ID da solicitação de anonimização, por exemplo <code>Anônimo123</code>.",
+                "default_anonymous_username_help": "Quando um usuário é anonimizado, seu nome de usuário será substituído por este valor mais o ID da solicitação de anonimização, por exemplo <code>Anonymous123</code>.",
                 "default_erasure": "Ação padrão para solicitações de exclusão",
                 "default_erasure_help": "Qual deve ser a ação padrão para solicitações de exclusão?",
                 "default_erasure_options": {
@@ -57,15 +57,15 @@
                 },
                 "gdpr_page": {
                     "title": "Integração e ações de dados",
-                    "help_text": "Antes de decidir quais ações usar em seu fórum, é vital entender quais dados são integrados e como eles são tratados tanto para anonimização quanto para exclusão. Visite a visão geral do GDPR para entender como os dados são tratados e quais extensões opcionais registraram seus dados para serem tratados por esta extensão."
+                    "help_text": "Antes de decidir quais ações usar em seu fórum, é vital entender quais dados estão integrados e como são tratados tanto para anonimização quanto para exclusão. Visite a visão geral do GDPR para entender como os dados são tratados e quais extensões opcionais registraram seus dados para serem tratados por esta extensão."
                 }
             },
             "userlist": {
                 "columns": {
                     "user_actions": {
                         "data_export": {
-                            "button": "",
-                            "tooltip": ""
+                            "button": "Exportar",
+                            "tooltip": "Exportar dados de {username}"
                         }
                     }
                 }
@@ -83,25 +83,25 @@
                 "forum": {
                     "export_description": "Exporta o título do fórum, URL, nome de usuário, e-mail e a data atual."
                 },
-                "default_user_action": "",
+                "default_user_action": "Sem ação, coberto pelo tratamento padrão da tabela de usuários.",
                 "no_action": "Nenhuma ação tomada.",
                 "posts": {
-                    "anonymize_description": "Remove o endereço IP de todas as postagens feitas pelo usuário.",
-                    "delete_description": "Exclui todas as postagens feitas pelo usuário.",
-                    "export_description": "Exporta todas as postagens feitas pelo usuário. Dados restritos ao conteúdo, data de criação, endereço IP e ID da discussão."
+                    "anonymize_description": "Remove o endereço IP de todos os posts feitos pelo usuário.",
+                    "delete_description": "Exclui todos os posts feitos pelo usuário.",
+                    "export_description": "Exporta todos os posts feitos pelo usuário. Dados restritos ao conteúdo, data de criação, endereço IP e ID da discussão."
                 },
                 "tokens": {
                     "delete_description": "Exclui todos os tokens criados pelo usuário.",
                     "export_description": "Exporta todos os tokens criados pelo usuário. Dados restritos à data de criação e tipo de token."
                 },
                 "user": {
-                    "anonymize_description": "Define todas as colunas na tabela de usuários como nulas. Colunas não anuláveis são definidas para seus valores padrão ou valores especiais. A senha é alterada, as preferências são definidas como padrão e todos os grupos são removidos.",
+                    "anonymize_description": "Define todas as colunas na tabela de usuários como nulas. Colunas não anuláveis recebem seus valores padrão ou valores especiais. A senha é alterada, as preferências voltam ao padrão e todos os grupos são removidos.",
                     "delete_description": "Exclui o usuário do banco de dados.",
-                    "export_description": "Exporta dados da tabela de usuários. Todas as colunas, exceto id, senha."
+                    "export_description": "Exporta dados da tabela de usuários. Todas as colunas, exceto id e senha."
                 }
             },
             "request_data": {
-                "title": "Solicitar dados para {username}",
+                "title": "Solicitar dados de {username}",
                 "text": "Um arquivo zip será preparado para você. Assim que estiver pronto, você receberá uma notificação com um link para download. O link permanecerá ativo por um dia.\n",
                 "request_button": "Solicitar arquivo"
             }
@@ -109,25 +109,25 @@
         "email": {
             "confirm_erasure": {
                 "subject": "Confirme sua solicitação de exclusão de conta",
-                "body": ""
+                "body": "Alguém (esperamos que você) acabou de solicitar a exclusão da conta `{display_name}`.\n\nPara confirmar esta ação, siga o link abaixo, após o qual sua solicitação será processada por nossa equipe.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
                     "subject": "Exclusão de conta concluída",
-                    "body": ""
+                    "body": "Esta é uma notificação automática e final de que sua conta foi excluída.\n"
                 },
                 "anonymization": {
                     "subject": "Anonimização de conta concluída",
-                    "body": ""
+                    "body": "Esta é uma notificação automática e final de que sua conta foi anonimizada.\n"
                 }
             },
             "erasure_cancelled": {
                 "subject": "Solicitação de exclusão de conta cancelada",
-                "body": ""
+                "body": "Esta é uma notificação automática de que sua solicitação para cancelar a exclusão de conta foi processada.\n\nSua conta não será mais excluída.\n"
             },
             "export_available": {
                 "subject": "Exportação de dados disponível",
-                "body": ""
+                "body": "Você solicitou uma exportação dos dados da conta para {username}. Esta exportação foi gerada com sucesso e está disponível:\n\n{url}\n\nEsta exportação permanecerá disponível até {destroys_at}.\n"
             }
         },
         "forum": {
@@ -135,7 +135,7 @@
                 "anonymized_user": "Usuário Anonimizado"
             },
             "delete_user": {
-                "title": "Excluir conta de {username}",
+                "title": "Excluir a conta de {username}",
                 "text": "Tem certeza de que deseja excluir a conta de {username}?\n\nEsta ação é irreversível.\n",
                 "modal_delete_button": "Excluir usando a ação padrão",
                 "delete_button": "Excluir"
@@ -146,15 +146,15 @@
                 "tooltip": "Solicitações de Exclusão de Conta",
                 "title": "Solicitações de Exclusão de Conta"
             },
-            "erasure_request_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada dentro de 30 dias, conforme exigido pelo GDPR.",
+            "erasure_request_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.",
             "settings": {
                 "data": {
                     "heading": "Dados pessoais"
                 },
                 "export_data_button": "Exportar Dados",
-                "export_data_help": "Solicitar exportação de dados fornecerá uma cópia para download de todas as informações associadas à sua conta. Isso inclui postagens, comentários e detalhes do perfil.",
+                "export_data_help": "Solicitar a exportação de dados fornecerá uma cópia para download de todas as informações associadas à sua conta. Isso inclui posts, comentários e detalhes do perfil.",
                 "request_erasure_button": "Excluir Conta",
-                "request_erasure_help": "Solicitar exclusão apagará permanentemente sua conta e todos os dados associados. Esta ação é irreversível. Antes de prosseguir, certifique-se de ter salvo qualquer conteúdo que deseja manter."
+                "request_erasure_help": "Solicitar a exclusão removerá permanentemente sua conta e todos os dados associados. Esta ação é irreversível. Antes de prosseguir, certifique-se de ter salvo qualquer conteúdo que deseja manter."
             },
             "process_erasure": {
                 "confirm": "Tem certeza de que deseja excluir a conta de {name} no modo {mode}?",
@@ -163,18 +163,18 @@
                 "comments_label": "Comentários (opcional)",
                 "anonymization_button": "Anonimizar usuário",
                 "deletion_button": "Excluir usuário",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": ""
+                "requested_at": "Solicitada: {date}",
+                "confirmed_at": "Confirmada: {date}",
+                "eligible_at": "Elegível para processamento automático: {date}"
             },
             "request_erasure": {
                 "title": "Solicitar exclusão de conta",
                 "reason": "Você forneceu o seguinte motivo: {reason}",
                 "status": {
                     "awaiting_user_confirmation": "Você deve ter recebido um e-mail para confirmar sua solicitação de exclusão de conta.\n",
-                    "user_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada dentro de 30 dias, conforme exigido pelo GDPR.\n"
+                    "user_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.\n"
                 },
-                "text": "Uma vez recebida e confirmada, um administrador revisará sua solicitação dentro de 30 dias, conforme exigido pelo GDPR.",
+                "text": "Após recebida e confirmada, um administrador revisará sua solicitação em até 30 dias, conforme exigido pelo GDPR.",
                 "password_label": "Confirmar Senha",
                 "reason_label": "Motivo (opcional)",
                 "cancel_button": "Cancelar solicitação",
@@ -183,19 +183,19 @@
             "notification": {
                 "export-ready": "Sua exportação de dados para {username} está pronta para download."
             },
-            "export_file": "Exportação de dados do usuário para {username} ({email}) preparada em {date} de {forumTitle} ({url})"
+            "export_file": "Exportação dos dados do usuário {username} ({email}) preparada em {date} a partir de {forumTitle} ({url})"
         }
     },
     "flarum-audit": {
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "",
-                    "gdpr_erasure_confirmed": "",
-                    "gdpr_erasure_cancelled": "",
-                    "gdpr_anonymized": "",
-                    "gdpr_deleted": "",
-                    "gdpr_exported": ""
+                    "gdpr_erasure_requested": "Solicitou a exclusão dos dados de {username}",
+                    "gdpr_erasure_confirmed": "Confirmou a solicitação de exclusão dos dados de {username}",
+                    "gdpr_erasure_cancelled": "Cancelou a solicitação de exclusão dos dados de {username}",
+                    "gdpr_anonymized": "Anonimizou os dados de {username}",
+                    "gdpr_deleted": "Excluiu os dados de {username}",
+                    "gdpr_exported": "Exportou os dados de {username}"
                 }
             }
         }

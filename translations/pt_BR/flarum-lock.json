@@ -17,18 +17,18 @@
                 "discussion_locked_text": "{username} trancou"
             },
             "post_stream": {
-                "discussion_locked_text": "{username} trancou esta discussão.",
-                "discussion_unlocked_text": "{username} destrancou esta discussão."
+                "discussion_locked_text": "{username} trancou a discussão {time}.",
+                "discussion_unlocked_text": "{username} destrancou a discussão {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Alguém tranca uma discussão que eu comecei"
+                "notify_discussion_locked_label": "Alguém tranca uma discussão que iniciei"
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "locked": {
-                        "key": ""
+                        "key": "trancada"
                     }
                 }
             }
@@ -38,8 +38,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "locked": "",
-                    "unlocked": ""
+                    "locked": "Trancou a discussão {discussion}",
+                    "unlocked": "Destrancou a discussão {discussion}"
                 }
             }
         }

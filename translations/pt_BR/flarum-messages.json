@@ -2,121 +2,121 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "message_users_without_permission_label": "",
-                "delete_own_messages_label": "",
-                "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "send_messages_label": "Enviar mensagens privadas",
+                "message_users_without_permission_label": "Enviar mensagens a usuários sem permissão de mensagens",
+                "delete_own_messages_label": "Excluir as próprias mensagens",
+                "send_without_throttle_label": "Enviar mensagens sem limite de frequência",
+                "view_ips_label": "Ver endereços IP das mensagens"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Você não enviou sua mensagem. Tem certeza de que deseja descartá-la?",
+                "placeholder": "Escreva uma mensagem...",
+                "recipients": "Destinatários",
+                "submit_button": "Enviar mensagem",
+                "to": "Para:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "own_last_message_preview": "",
-                "title": "",
-                "unread_count_text": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Marcar como lida",
+                "own_last_message_preview": "Você: {content}",
+                "title": "Mensagens",
+                "unread_count_text": "{count, plural, one {# não lida} other {# não lidas}}",
+                "view_all": "Ver todas as mensagens"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Voltar",
+                "cannot_reply_text": "Este usuário não pode responder",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Detalhes"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Ações de controle do diálogo",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Data de criação",
+                    "recipients": "Participantes",
+                    "title": "Detalhes da conversa"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Mensagens"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Mensagens"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Recentes",
+                "newest_button": "Mais novas",
+                "oldest_button": "Mais antigas"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Excluir",
+                "delete_confirmation": "Tem certeza de que deseja excluir esta mensagem? Esta ação não pode ser desfeita."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Não Pode Enviar Mensagem",
+                "empty_text": "Sem novas mensagens",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Mensagens",
+                    "subtitle": "Suas conversas privadas com outros usuários"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Marcar todas como lidas",
+                "refresh_tooltip": "Atualizar",
+                "send_message_button": "Enviar uma Mensagem",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Carregar mensagens anteriores",
+                    "load_next_button": "Carregar próximas mensagens",
+                    "start_of_the_conversation": "Início da conversa",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Mensagens"
             },
             "recipient_selection_modal": {
-                "cannot_reply_text": "",
-                "title": ""
+                "cannot_reply_text": "Não pode responder a mensagens",
+                "title": "Selecione os destinatários desta mensagem"
             },
             "search_source": {
-                "conversation_with": "",
-                "heading": ""
+                "conversation_with": "Conversa com {username}",
+                "heading": "Mensagens"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Alguém me envia uma mensagem"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Enviar uma mensagem",
+                "cannot_reply_text": "Este usuário não pode responder"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Notificação de mensagem recebida de {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "{user_display_name} enviou uma mensagem para você",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} enviou uma nova mensagem para você.\n\n{url}\n\n---\n\n{content}\n\n---\n\nVocê não receberá mais e-mails sobre esta conversa até que a leia.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} enviou uma [nova mensagem]({url}) para você.\n\nVocê não receberá mais e-mails sobre esta conversa até que a leia.\n"
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Conversando com {username}"
             },
-            "no_other_members_message": "",
-            "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "no_other_members_message": "Não há mais ninguém nesta conversa.",
+            "recipient_cannot_reply_message": "{username} não pode responder a mensagens.",
+            "recipient_unavailable_message": "{username} não pode receber mensagens."
         }
     },
     "flarum-gdpr": {
         "lib": {
             "data": {
                 "messages": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Suas mensagens privadas, com a data de envio e o endereço de origem.",
+                    "anonymize_description": "Os endereços de onde suas mensagens privadas foram enviadas são removidos. As mensagens permanecem.",
+                    "delete_description": "Suas mensagens privadas são excluídas."
                 }
             }
         }
@@ -125,8 +125,8 @@
         "lib": {
             "browser": {
                 "dialog": {
-                    "started": "",
-                    "posted": ""
+                    "started": "Iniciou uma conversa privada com {username}",
+                    "posted": "Enviou uma mensagem privada para {username}"
                 }
             }
         }
@@ -134,8 +134,8 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "dialogs_heading": "",
-                "dialog_replies_heading": ""
+                "dialogs_heading": "MPs iniciadas",
+                "dialog_replies_heading": "Respostas de MP"
             }
         }
     }
