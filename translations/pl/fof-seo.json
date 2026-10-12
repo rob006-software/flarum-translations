@@ -32,7 +32,7 @@
                     "mode_main_title": "Indeksuj tylko pierwszy post (domyślnie)",
                     "mode_main_help": "Wyszukiwarki będą pokazywać w wynikach tylko pierwszy post dyskusji. Nie wpłynie to na szybkość ładowania, gdy przejdziesz do dyskusji z linków na forum.",
                     "mode_all_title": "Indeksuj wszystkie posty w dyskusji (opcja włączona)",
-                    "mode_all_help": "",
+                    "mode_all_help": "Wyszukiwarki będą lepiej rozpoznawać zawartość dyskusji i mogą wyświetlać trafne posty bezpośrednio pod wynikami wyszukiwania. Jeśli na forum masz zainstalowane i włączone rozszerzenie „<a>Best Answer</a>”, dyskusja będzie oznaczona w wynikach wyszukiwania jako „z odpowiedzią”, a użytkownik zostanie przekierowany do odpowiedniego posta. Przy każdej odpowiedzi udostępniana jest również liczba polubień i głosów pozytywnych, dzięki czemu wyszukiwarki mogą rozpoznawać najbardziej pomocne odpowiedzi nawet bez rozszerzenia Best Answer. <b>Może to jednak bardziej obciążać serwer, zależnie od jego konfiguracji</b>. Włączenie tej funkcji może wpłynąć na wydajność, dlatego warto uwzględnić szybkość działania serwera.",
                     "question": "Czy chcesz włączyć tę funkcję?",
                     "switch_label": "Indeksuj wszystkie posty (wolniejsze przy odświeżaniu strony, ale lepsze wyniki wyszukiwania)"
                 },
@@ -83,7 +83,7 @@
                 },
                 "nofollow": {
                     "heading": "Linki no-follow",
-                    "help": "",
+                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut „<i>nofollow</i>”. Ma to zapobiegać spamowaniu forum linkami do innych domen w celu pozyskiwania ruchu.",
                     "help_dofollow": "To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.",
                     "button": "Otwórz listę domen do-follow"
                 },
@@ -139,7 +139,7 @@
                     "how_heading": "Jak dodać SSL do witryny?",
                     "how_body": "Jeśli korzystasz z hostingu, najczęściej wystarczy wejść do panelu hostingowego, przejść do ustawień hostingu swojej strony i kliknąć SSL. Następnie postępuj zgodnie z instrukcjami. Większość firm hostingowych obsługuje dziś popularnego wystawcę certyfikatów {link}.",
                     "added_heading": "OK, SSL został dodany!",
-                    "added_body": "",
+                    "added_body": "Świetnie! Teraz otwórz plik <b>config.php</b> i zmień wartość <b>„url”</b> tak, aby adres zaczynał się od <b>https</b>!",
                     "no_ssl_heading": "A jeśli nie chcę dodawać SSL?",
                     "no_ssl_body": "W takim przypadku możesz odinstalować to rozszerzenie, ponieważ wyszukiwarki ze względów bezpieczeństwa <b>nie będą indeksować Twojego forum</b> albo umieszczą je znacznie niżej niż inne strony."
                 },
