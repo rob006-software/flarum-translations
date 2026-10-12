@@ -20,7 +20,7 @@
                 },
                 "user_table_data": {
                     "title": "Dados da Tabela de Usuários",
-                    "help_text": "Na maior parte das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para apagamento.\nNo entanto, há alguns casos especiais, listados abaixo.\n",
+                    "help_text": "Na maior parte das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, há alguns casos especiais, listados abaixo.\n",
                     "column": "Coluna",
                     "type": "Tipo",
                     "nullable": "Anulável",
@@ -30,7 +30,7 @@
                     "yes": "Sim",
                     "no": "Não",
                     "pii_tooltip": "Esta coluna é considerada informação pessoal identificável e será omitida em contextos anonimizados (ex.: payloads de eventos anonimizados).",
-                    "redacted_on_export_tooltip": "O valor desta coluna é apagado (definido como nulo) ao gerar uma exportação dos dados do usuário. A coluna ainda aparece na exportação com valor nulo."
+                    "redacted_on_export_tooltip": "O valor desta coluna é esvaziado (definido como nulo) ao gerar uma exportação dos dados do usuário. A coluna ainda aparece na exportação com valor nulo."
                 }
             },
             "nav": {
@@ -38,19 +38,19 @@
                 "gdpr_title": "=> flarum-gdpr.admin.gdpr_page.description"
             },
             "permissions": {
-                "process_erasure": "Processar solicitações de apagamento",
+                "process_erasure": "Processar solicitações de exclusão",
                 "process_export_for_others": "Solicitar e receber exportações de dados para outros usuários",
                 "see_anonymized_user_badges": "Ver emblemas de usuários anonimizados"
             },
             "settings": {
-                "allow_anonymization": "Permitir anonimização para solicitações de apagamento",
+                "allow_anonymization": "Permitir anonimização para solicitações de exclusão",
                 "allow_anonymization_help": "A opção padrão, recomendada para a maioria das comunidades. Neste modo, posts/comentários serão preservados o máximo possível conforme permitido pelo GDPR, mas qualquer informação identificável do usuário será removida.",
-                "allow_deletion": "Permitir exclusão para solicitações de apagamento",
+                "allow_deletion": "Permitir exclusão para solicitações de exclusão",
                 "allow_deletion_help": "Uma opção muito mais rigorosa. Neste modo, todos os posts/comentários serão excluídos e o usuário será removido do banco de dados. Use com cautela.",
                 "default_anonymous_username": "Nome de usuário padrão para usuários anonimizados",
                 "default_anonymous_username_help": "Quando um usuário é anonimizado, seu nome de usuário será substituído por este valor mais o ID da solicitação de anonimização, por exemplo <code>Anonymous123</code>.",
-                "default_erasure": "Ação padrão para solicitações de apagamento",
-                "default_erasure_help": "Qual deve ser a ação padrão para solicitações de apagamento?",
+                "default_erasure": "Ação padrão para solicitações de exclusão",
+                "default_erasure_help": "Qual deve ser a ação padrão para solicitações de exclusão?",
                 "default_erasure_options": {
                     "anonymization": "Anonimização",
                     "deletion": "Exclusão"
@@ -108,8 +108,8 @@
         },
         "email": {
             "confirm_erasure": {
-                "subject": "Confirme sua solicitação de apagamento de conta",
-                "body": "Alguém (esperamos que você) acabou de solicitar o apagamento da conta `{display_name}`.\n\nPara confirmar esta ação, siga o link abaixo, após o qual sua solicitação será processada por nossa equipe.\n\n{erasure_confirm_url}\n"
+                "subject": "Confirme sua solicitação de exclusão de conta",
+                "body": "Alguém (esperamos que você) acabou de solicitar a exclusão da conta `{display_name}`.\n\nPara confirmar esta ação, siga o link abaixo, após o qual sua solicitação será processada por nossa equipe.\n\n{erasure_confirm_url}\n"
             },
             "erasure_completed": {
                 "deletion": {
@@ -122,7 +122,7 @@
                 }
             },
             "erasure_cancelled": {
-                "subject": "Solicitação de apagamento de conta cancelada",
+                "subject": "Solicitação de exclusão de conta cancelada",
                 "body": "Esta é uma notificação automática de que sua solicitação para cancelar a exclusão de conta foi processada.\n\nSua conta não será mais excluída.\n"
             },
             "export_available": {
@@ -135,31 +135,31 @@
                 "anonymized_user": "Usuário Anonimizado"
             },
             "delete_user": {
-                "title": "Apagar a conta de {username}",
-                "text": "Tem certeza de que deseja apagar a conta de {username}?\n\nEsta ação é irreversível.\n",
-                "modal_delete_button": "Apagar usando ação padrão",
-                "delete_button": "Apagar"
+                "title": "Excluir a conta de {username}",
+                "text": "Tem certeza de que deseja excluir a conta de {username}?\n\nEsta ação é irreversível.\n",
+                "modal_delete_button": "Excluir usando a ação padrão",
+                "delete_button": "Excluir"
             },
             "erasure_requests": {
-                "empty_text": "Nenhuma solicitação de apagamento de conta pendente",
-                "item_text": "{name} solicitou o apagamento da conta",
-                "tooltip": "Solicitações de Apagamento de Conta",
-                "title": "Solicitações de Apagamento de Conta"
+                "empty_text": "Nenhuma solicitação de exclusão de conta pendente",
+                "item_text": "{name} solicitou a exclusão da conta",
+                "tooltip": "Solicitações de Exclusão de Conta",
+                "title": "Solicitações de Exclusão de Conta"
             },
-            "erasure_request_confirmed": "Você confirmou sua solicitação de apagamento de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.",
+            "erasure_request_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.",
             "settings": {
                 "data": {
                     "heading": "Dados pessoais"
                 },
                 "export_data_button": "Exportar Dados",
                 "export_data_help": "Solicitar a exportação de dados fornecerá uma cópia para download de todas as informações associadas à sua conta. Isso inclui posts, comentários e detalhes do perfil.",
-                "request_erasure_button": "Apagar Conta",
-                "request_erasure_help": "Solicitar o apagamento excluirá permanentemente sua conta e todos os dados associados. Esta ação é irreversível. Antes de prosseguir, certifique-se de ter salvo qualquer conteúdo que deseja manter."
+                "request_erasure_button": "Excluir Conta",
+                "request_erasure_help": "Solicitar a exclusão removerá permanentemente sua conta e todos os dados associados. Esta ação é irreversível. Antes de prosseguir, certifique-se de ter salvo qualquer conteúdo que deseja manter."
             },
             "process_erasure": {
-                "confirm": "Tem certeza de que deseja apagar a conta de {name} no modo {mode}?",
-                "title": "Processar solicitação de apagamento",
-                "text": "{name} solicitou o apagamento da conta.",
+                "confirm": "Tem certeza de que deseja excluir a conta de {name} no modo {mode}?",
+                "title": "Processar solicitação de exclusão",
+                "text": "{name} solicitou a exclusão da conta.",
                 "comments_label": "Comentários (opcional)",
                 "anonymization_button": "Anonimizar usuário",
                 "deletion_button": "Excluir usuário",
@@ -168,17 +168,17 @@
                 "eligible_at": "Elegível para processamento automático: {date}"
             },
             "request_erasure": {
-                "title": "Solicitar apagamento de conta",
+                "title": "Solicitar exclusão de conta",
                 "reason": "Você forneceu o seguinte motivo: {reason}",
                 "status": {
-                    "awaiting_user_confirmation": "Você deve ter recebido um e-mail para confirmar sua solicitação de apagamento de conta.\n",
-                    "user_confirmed": "Você confirmou sua solicitação de apagamento de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.\n"
+                    "awaiting_user_confirmation": "Você deve ter recebido um e-mail para confirmar sua solicitação de exclusão de conta.\n",
+                    "user_confirmed": "Você confirmou sua solicitação de exclusão de conta. A ação será tomada em até 30 dias, conforme exigido pelo GDPR.\n"
                 },
                 "text": "Após recebida e confirmada, um administrador revisará sua solicitação em até 30 dias, conforme exigido pelo GDPR.",
                 "password_label": "Confirmar Senha",
                 "reason_label": "Motivo (opcional)",
                 "cancel_button": "Cancelar solicitação",
-                "request_button": "Solicitar apagamento"
+                "request_button": "Solicitar exclusão"
             },
             "notification": {
                 "export-ready": "Sua exportação de dados para {username} está pronta para download."
@@ -190,9 +190,9 @@
         "lib": {
             "browser": {
                 "user": {
-                    "gdpr_erasure_requested": "Solicitou o apagamento dos dados de {username}",
-                    "gdpr_erasure_confirmed": "Confirmou a solicitação de apagamento dos dados de {username}",
-                    "gdpr_erasure_cancelled": "Cancelou a solicitação de apagamento dos dados de {username}",
+                    "gdpr_erasure_requested": "Solicitou a exclusão dos dados de {username}",
+                    "gdpr_erasure_confirmed": "Confirmou a solicitação de exclusão dos dados de {username}",
+                    "gdpr_erasure_cancelled": "Cancelou a solicitação de exclusão dos dados de {username}",
                     "gdpr_anonymized": "Anonimizou os dados de {username}",
                     "gdpr_deleted": "Excluiu os dados de {username}",
                     "gdpr_exported": "Exportou os dados de {username}"
