@@ -2,13 +2,13 @@
     "clarkwinkelmann-prominent-post-numbers": {
         "admin": {
             "settings": {
-                "floating": "",
-                "prefix": "",
-                "prefixPlaceholder": ""
+                "floating": "Nomor postingan diposisikan di kanan atas postingan, bukan di header postingan",
+                "prefix": "Prefiks",
+                "prefixPlaceholder": "Biarkan kosong untuk menyesuaikan melalui penerjemah"
             }
         },
         "views": {
-            "format": ""
+            "format": "{number}"
         }
     }
 }
