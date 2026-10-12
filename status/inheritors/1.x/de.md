@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **6** are translated differently and **19** are
-translated only in `de`. Altogether they cover **4** components.
+sides, but do not match between them: **27** are translated differently and **19** are
+translated only in `de`. Altogether they cover **5** components.
 
 <!-- {% raw %} -->
 
@@ -15,6 +15,7 @@ translated only in `de`. Altogether they cover **4** components.
 | `core` | [3](#core) | 0 |
 | `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
+| `fof-polls` | [21](#fof-polls) | 0 |
 | `fof-sentry` | [2](#fof-sentry) | 0 |
 
 
@@ -66,6 +67,222 @@ Es gibt noch keine Diskussionen <del>in diesem Forum.</del><ins>hier.</ins>
 ```diff
 -App Secret
 +App-Secret
+```
+
+
+### `fof-polls`
+
+#### [`fof-polls.admin.settings.enabled_poll_groups_help`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.admin.settings.enabled_poll_groups_help%22)
+
+> Poll groups allow you to group globals polls together, and display them in a dedicated page.
+
+```diff
+-Umfragegruppen ermöglichen es Ihnen, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.
++Umfragegruppen ermöglichen es dir, globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.
+```
+
+Umfragegruppen ermöglichen es <del>Ihnen,</del><ins>dir,</ins> globale Umfragen zu gruppieren und auf einer speziellen Seite anzuzeigen.
+
+#### [`fof-polls.forum.page.nav-groups`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.page.nav-groups%22)
+
+> Poll Groups
+
+```diff
+-Umfrage-Gruppen
++Umfragegruppen
+```
+
+#### [`fof-polls.forum.poll_groups.composer.add_title`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.add_title%22)
+
+> Add Poll Group
+
+```diff
+-Umfrage-Gruppe hinzufügen
++Umfragegruppe hinzufügen
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> hinzufügen
+
+#### [`fof-polls.forum.poll_groups.composer.delete`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.delete%22)
+
+> Delete Poll Group
+
+```diff
+-Umfrage-Gruppe löschen
++Umfragegruppe löschen
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> löschen
+
+#### [`fof-polls.forum.poll_groups.composer.edit_title`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.edit_title%22)
+
+> Edit Poll Group
+
+```diff
+-Umfrage-Gruppe bearbeiten
++Umfragegruppe bearbeiten
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> bearbeiten
+
+#### [`fof-polls.forum.poll_groups.composer.groups_manager`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.groups_manager%22)
+
+> Poll Groups Manager
+
+```diff
+-Umfrage-Gruppen-Manager
++Umfragegruppen-Manager
+```
+
+#### [`fof-polls.forum.poll_groups.composer.save_changes`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.save_changes%22)
+
+> =&gt; core.ref.save\_changes
+
+```diff
+-Änderungen speichern
++=> core.ref.save_changes
+```
+
+#### [`fof-polls.forum.poll_groups.composer.success`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.success%22)
+
+> Poll group saved successfully.
+
+```diff
+-Umfrage-Gruppe erfolgreich gespeichert.
++Umfragegruppe erfolgreich gespeichert.
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> erfolgreich gespeichert.
+
+#### [`fof-polls.forum.poll_groups.composer.view_group`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.composer.view_group%22)
+
+> View Poll Group
+
+```diff
+-Umfrage-Gruppe anzeigen
++Umfragegruppe anzeigen
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> anzeigen
+
+#### [`fof-polls.forum.poll_groups.controls.delete_confirmation`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.controls.delete_confirmation%22)
+
+> Are you sure you want to delete this poll group?
+
+```diff
+-Möchtest du diese Umfrage-Gruppe wirklich löschen?
++Möchtest du diese Umfragegruppe wirklich löschen?
+```
+
+Möchtest du diese <del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> wirklich löschen?
+
+#### [`fof-polls.forum.poll_groups.controls.delete_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.controls.delete_label%22)
+
+> =&gt; core.ref.delete
+
+```diff
+-Löschen
++=> core.ref.delete
+```
+
+#### [`fof-polls.forum.poll_groups.controls.delete_success_message`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.controls.delete_success_message%22)
+
+> Poll group deleted successfully.
+
+```diff
+-Umfrage-Gruppe erfolgreich gelöscht.
++Umfragegruppe erfolgreich gelöscht.
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> erfolgreich gelöscht.
+
+#### [`fof-polls.forum.poll_groups.controls.edit_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.controls.edit_label%22)
+
+> =&gt; core.ref.edit
+
+```diff
+-Bearbeiten
++=> core.ref.edit
+```
+
+#### [`fof-polls.forum.poll_groups.controls.view_label`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.controls.view_label%22)
+
+> View Poll Group
+
+```diff
+-Umfrage-Gruppe anzeigen
++Umfragegruppe anzeigen
+```
+
+<del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> anzeigen
+
+#### [`fof-polls.forum.poll_groups.list_page.cannot_start_poll_group_button`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.list_page.cannot_start_poll_group_button%22)
+
+> Cannot Start a Poll Group
+
+```diff
+-Kann keine Umfrage-Gruppe starten
++Kann keine Umfragegruppe starten
+```
+
+Kann keine <del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> starten
+
+#### [`fof-polls.forum.poll_groups.list_page.empty_text`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.list_page.empty_text%22)
+
+> It looks as though there are no poll groups here.
+
+```diff
+-Es scheint, als gäbe es hier noch keine Umfrage-Gruppen.
++Es scheint, als gäbe es hier noch keine Umfragegruppen.
+```
+
+Es scheint, als gäbe es hier noch keine <del>Umfrage-Gruppen.</del><ins>Umfragegruppen.</ins>
+
+#### [`fof-polls.forum.poll_groups.list_page.load_more_button`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.list_page.load_more_button%22)
+
+> =&gt; core.ref.load\_more
+
+```diff
+-Mehr laden
++=> core.ref.load_more
+```
+
+#### [`fof-polls.forum.poll_groups.list_page.start_poll_group_button`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.list_page.start_poll_group_button%22)
+
+> Start a Poll Group
+
+```diff
+-Eine Umfrage-Gruppe starten
++Eine Umfragegruppe starten
+```
+
+Eine <del>Umfrage-Gruppe</del><ins>Umfragegruppe</ins> starten
+
+#### [`fof-polls.forum.poll_groups.list_page.title`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.poll_groups.list_page.title%22)
+
+> Poll Groups
+
+```diff
+-Umfrage-Gruppen
++Umfragegruppen
+```
+
+#### [`fof-polls.forum.polls_list.load_more_button`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.polls_list.load_more_button%22)
+
+> =&gt; core.ref.load\_more
+
+```diff
+-Mehr laden
++=> core.ref.load_more
+```
+
+#### [`fof-polls.forum.votes_modal.title`](https://weblate.rob006.net/translate/flarum2/fof-polls/de/?q=context%3A%3D%22fof-polls.forum.votes_modal.title%22)
+
+> Voters
+
+```diff
+-=> fof-polls.forum.public_poll
++Abstimmende
 ```
 
 

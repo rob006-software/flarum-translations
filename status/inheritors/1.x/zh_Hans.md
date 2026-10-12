@@ -13411,7 +13411,7 @@ These strings are translated only in `zh_Hans`, so there is nothing to inherit f
 
 #### [`forumfortress-flarum.admin.settings.api_key_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/zh_Hans/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_key_help%22)
 
-> Leave blank to bootstrap an anonymous site and receive a stable key automatically.
+> The current key is never displayed. Leave blank to keep it, or enter a replacement. An anonymous site receives a key automatically during bootstrap. Use Disconnect and remove site to revoke the remote credential.
 
 ```diff
 +留空即可自动初始化匿名站点，并获取一个固定密钥。
