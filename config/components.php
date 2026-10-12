@@ -45,7 +45,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
 	'cengizkemec-support-tickets' => [
-		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.0.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
