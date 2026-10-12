@@ -48,19 +48,27 @@
                 "field_icon_help": "Класс Font Awesome, например fas fa-life-ring.",
                 "field_position": "Позиция",
                 "field_position_help": "Категории упорядочены по этому значению, начиная с наименьшего.",
-                "field_is_appeal": "",
-                "field_is_appeal_help": "",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
                 "field_default_assignee": "",
                 "field_default_assignee_none": "",
                 "field_default_assignee_help": "",
                 "field_default_assignee_loading": "",
                 "field_default_assignee_unavailable": "",
                 "field_default_assignee_error": "",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "Создать категорию",
                 "submit_update": "Сохранить изменения",
                 "error_load": "Не удалось загрузить эту категорию.",
                 "error_save": "Не удалось сохранить категорию. Пожалуйста, проверьте поля и повторите попытку.",
                 "error_delete": "Не удалось удалить категорию."
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "",
@@ -395,6 +403,9 @@
             "assigned_body": ""
         },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "",
             "default_assignee_staff_only": "",
             "category_required": "",

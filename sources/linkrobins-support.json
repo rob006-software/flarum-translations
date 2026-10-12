@@ -48,19 +48,27 @@
                 "field_icon_help": "A Font Awesome class, e.g. fas fa-life-ring.",
                 "field_position": "Position",
                 "field_position_help": "Categories are ordered by this value, lowest first.",
-                "field_is_appeal": "Appeal category",
-                "field_is_appeal_help": "Tickets opened in this category are treated as ban appeals.",
+                "field_ticket_type": "Ticket type",
+                "field_ticket_type_help": "Determines the workflow, decision options, and rate limits for tickets in this category.",
                 "field_default_assignee": "Assign new tickets to",
                 "field_default_assignee_none": "Nobody -- notify all staff",
                 "field_default_assignee_help": "New tickets in this category are assigned to this person, and only they are notified about them. Leave it on \"Nobody\" to notify every staff member instead and let whoever replies first pick the ticket up.",
                 "field_default_assignee_loading": "Loading staff...",
                 "field_default_assignee_unavailable": "{name} (no longer support staff)",
                 "field_default_assignee_error": "Couldn't load the list of staff. The current setting is unchanged.",
+                "field_allowed_groups": "Allowed user groups",
+                "field_allowed_groups_help": "Leave empty to allow all registered users permitted by the ticket type. Select specific groups to restrict who can create tickets in this category.",
                 "submit_create": "Create category",
                 "submit_update": "Save changes",
                 "error_load": "Couldn't load this category.",
                 "error_save": "Couldn't save the category. Please check the fields and try again.",
                 "error_delete": "Couldn't delete the category."
+            },
+            "ticket_types": {
+                "standard": "Standard Support",
+                "standard_help": "Regular support tickets for general inquiries, bug reports, and account help.",
+                "appeal": "Ban Appeal",
+                "appeal_help": "Tickets opened in this category are treated as ban appeals with appeal rate limits."
             },
             "appeal_bans": {
                 "heading_alt": "Appeal bans",
@@ -269,7 +277,7 @@
                 "update_assignment": "Could not update assignment.",
                 "update_priority": "Could not update the priority.",
                 "update_status": "Could not update status.",
-                "update_decision": "Could not update the appeal decision.",
+                "update_decision": "Could not update the decision.",
                 "save_edit": "Could not save the edit.",
                 "delete_reply": "Could not delete the reply.",
                 "restore_reply": "Could not restore the reply.",
@@ -318,7 +326,7 @@
             },
             "staff": {
                 "change_status": "Change status",
-                "change_decision": "Change appeal decision"
+                "change_decision": "Change decision"
             },
             "reply": {
                 "deleted_notice": "This reply was deleted.",
@@ -395,6 +403,9 @@
             "assigned_body": "{name} assigned this support ticket to you."
         },
         "api": {
+            "category_not_permitted": "Your account is not permitted to create tickets in this category.",
+            "unknown_ticket_type": "That ticket type is not available. Pick one from the list.",
+            "decision_not_allowed": "Tickets in this category do not take that decision.",
             "assign_staff_only": "Tickets can only be assigned to support staff.",
             "default_assignee_staff_only": "A category can only be assigned to support staff.",
             "category_required": "A category is required.",

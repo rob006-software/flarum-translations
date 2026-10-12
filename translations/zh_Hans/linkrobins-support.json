@@ -48,19 +48,29 @@
                 "field_icon_help": "Font Awesome 类名，例如 fas fa-life-ring。",
                 "field_position": "排序值",
                 "field_position_help": "分类按此值升序排列，数值越小越靠前。",
-                "field_is_appeal": "封禁申诉分类",
-                "field_is_appeal_help": "在此分类中提交的工单将作为封禁申诉处理。",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
                 "field_default_assignee": "新工单指派给",
                 "field_default_assignee_none": "不指定处理人 — 通知所有支持人员",
                 "field_default_assignee_help": "此分类中的新工单会自动指派给所选人员，并且只有所选人员会收到通知。选择「不指定处理人」则会通知所有支持人员，由最先回复的人接手工单。",
                 "field_default_assignee_loading": "正在加载支持人员…",
                 "field_default_assignee_unavailable": "{name}（已不是支持人员）",
                 "field_default_assignee_error": "无法加载支持人员列表，你的设置保持不变。",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "创建分类",
                 "submit_update": "保存更改",
                 "error_load": "无法加载此分类。",
                 "error_save": "无法保存分类，请检查各字段后重试。",
-                "error_delete": "无法删除分类。"
+                "error_delete": "无法删除分类。",
+                "field_is_appeal": "封禁申诉分类",
+                "field_is_appeal_help": "在此分类中提交的工单将作为封禁申诉处理。"
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "申诉限制",
@@ -402,6 +412,9 @@
             "assigned_body": "{name} 将此支持工单指派给了你。"
         },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "工单只能指派给支持人员。",
             "default_assignee_staff_only": "分类的默认处理人只能是支持人员。",
             "category_required": "必须选择分类。",

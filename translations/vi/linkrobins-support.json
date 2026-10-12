@@ -48,19 +48,29 @@
                 "field_icon_help": "Một lớp Font Awesome, ví dụ fas fa-life-ring.",
                 "field_position": "Vị trí",
                 "field_position_help": "Các danh mục được sắp xếp theo giá trị này, nhỏ nhất lên trước.",
-                "field_is_appeal": "Danh mục kháng nghị",
-                "field_is_appeal_help": "Các phiếu mở trong danh mục này được coi là kháng nghị lệnh cấm.",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
                 "field_default_assignee": "Giao phiếu mới cho",
                 "field_default_assignee_none": "Không ai — thông báo cho toàn bộ đội ngũ",
                 "field_default_assignee_help": "Các phiếu mới trong danh mục này sẽ được giao cho người này, và chỉ họ nhận được thông báo. Hãy để ở mức \"Không ai\" để thông báo cho mọi thành viên trong đội ngũ và ai trả lời trước thì nhận phiếu.",
                 "field_default_assignee_loading": "Đang tải danh sách đội ngũ...",
                 "field_default_assignee_unavailable": "{name} (không còn thuộc đội ngũ hỗ trợ)",
                 "field_default_assignee_error": "Không tải được danh sách đội ngũ. Thiết lập hiện tại vẫn được giữ nguyên.",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "Tạo danh mục",
                 "submit_update": "Lưu thay đổi",
                 "error_load": "Không tải được danh mục này.",
                 "error_save": "Không lưu được danh mục. Vui lòng kiểm tra các ô nhập rồi thử lại.",
-                "error_delete": "Không xóa được danh mục."
+                "error_delete": "Không xóa được danh mục.",
+                "field_is_appeal": "Danh mục kháng nghị",
+                "field_is_appeal_help": "Các phiếu mở trong danh mục này được coi là kháng nghị lệnh cấm."
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "Cấm kháng nghị",
@@ -402,6 +412,9 @@
             "assigned_body": "{name} đã giao phiếu hỗ trợ này cho bạn."
         },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "Chỉ có thể giao phiếu cho thành viên đội ngũ hỗ trợ.",
             "default_assignee_staff_only": "Chỉ có thể giao một danh mục cho thành viên đội ngũ hỗ trợ.",
             "category_required": "Bắt buộc phải có danh mục.",
