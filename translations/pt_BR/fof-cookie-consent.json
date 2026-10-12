@@ -2,86 +2,86 @@
     "fof-cookie-consent": {
         "admin": {
             "settings": {
-                "configuration_title": "",
-                "configuration_button_title": "",
-                "text_help": "",
-                "learnMoreLinkUrl": "",
-                "learnMoreLinkUrl_help": "",
-                "appearance_title": "",
-                "layout": "",
-                "layout_help": "",
-                "position": "",
-                "equalWeightButtons": "",
-                "equalWeightButtons_help": "",
-                "colors_help": "",
-                "catchall_title": "",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
-                "allowedCookies": "",
-                "allowedCookies_help": "",
-                "theme_popup_title": "",
-                "backgroundColor": "",
-                "textColor": "",
-                "theme_dismiss_title": "",
-                "buttonBackgroundColor": "",
-                "buttonTextColor": "",
+                "configuration_title": "Opções de Configuração",
+                "configuration_button_title": "Link \"Saiba Mais\"",
+                "text_help": "O texto mostrado aos visitantes fica nos arquivos de idioma desta extensão, para\nque possa ser traduzido. Substitua-o com o FoF Linguist ou um pacote de idioma.\n",
+                "learnMoreLinkUrl": "Link",
+                "learnMoreLinkUrl_help": "Deixe em branco para ocultar o link.",
+                "appearance_title": "Aparência",
+                "layout": "Layout",
+                "layout_help": "Controla o formato do banner de consentimento.",
+                "position": "Posição",
+                "equalWeightButtons": "Dar o mesmo peso aos dois botões",
+                "equalWeightButtons_help": "Recomendado. Estilizar aceitar e recusar de forma idêntica evita induzir os visitantes a aceitar.",
+                "colors_help": "O banner segue o tema do seu fórum, incluindo o modo escuro. Defina uma cor\napenas para substituí-la — deixe em branco para herdar.\n",
+                "catchall_title": "Cookies Não Declarados",
+                "sweepUndeclared": "Apagar cookies que nenhuma extensão declarou",
+                "sweepUndeclared_help": "Quando um visitante recusa, apaga também os cookies que nenhuma extensão declarou\npelo extender de consentimento de cookies. Isso pega rastreadores de\nextensões que não o adotaram — mas também apagará cookies de que uma\nextensão realmente precisa, o que pode quebrá-la. Use a lista de permitidos abaixo\npara poupá-los.\n",
+                "allowedCookies": "Nunca apagar estes cookies",
+                "allowedCookies_help": "Um nome por linha. Coloque entre barras para um padrão, ex.: /^app_/.\nOs cookies que o próprio Flarum define são sempre mantidos.\n",
+                "theme_popup_title": "Cores do Popup",
+                "backgroundColor": "Fundo",
+                "textColor": "Texto",
+                "theme_dismiss_title": "Cores dos Botões",
+                "buttonBackgroundColor": "Fundo",
+                "buttonTextColor": "Texto",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
-                    "bar": "",
-                    "bar_inline": ""
+                    "box": "Caixa",
+                    "box_wide": "Caixa (larga)",
+                    "box_inline": "Caixa (em linha)",
+                    "cloud": "Nuvem",
+                    "cloud_inline": "Nuvem (em linha)",
+                    "bar": "Barra",
+                    "bar_inline": "Barra (em linha)"
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "Superior à esquerda",
+                    "top_center": "Superior central",
+                    "top_right": "Superior à direita",
+                    "middle_left": "Centro à esquerda",
+                    "middle_center": "Centro",
+                    "middle_right": "Centro à direita",
+                    "bottom_left": "Inferior à esquerda",
+                    "bottom_center": "Inferior central",
+                    "bottom_right": "Inferior à direita"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "Este site usa cookies. Você pode gerenciar suas preferências ou aceitar todos os cookies.",
+                "accept": "Aceitar",
+                "decline": "Recusar",
+                "preferences": "Gerenciar preferências",
+                "learn_more": "Saiba mais"
             },
             "preferences": {
-                "title": "",
-                "save": "",
-                "description": "",
+                "title": "Preferências de cookies",
+                "save": "Salvar preferências",
+                "description": "Cookies são pequenos arquivos que este site armazena no seu navegador. Abaixo está o que é armazenado e por quê. Você pode mudar sua escolha a qualquer momento.",
                 "cookie_table": {
-                    "name": "",
-                    "description": ""
+                    "name": "Cookie",
+                    "description": "Finalidade"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Mantém sua sessão ativa enquanto você navega.",
+                "flarum_remember": "Faz seu login automaticamente na próxima visita.",
+                "locale": "Lembra o idioma que você escolheu.",
+                "cc_cookie": "Lembra sua escolha de cookies para não perguntar de novo."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Estritamente necessários",
+                    "description": "Necessários para o site funcionar — entrar, manter a sessão ativa e lembrar sua escolha de cookies. Não podem ser desativados."
                 },
                 "analytics": {
-                    "title": "",
-                    "description": ""
+                    "title": "Analíticos",
+                    "description": "Ajudam a entender como o fórum é usado, para podermos melhorá-lo. Nada aqui é necessário para o fórum funcionar."
                 },
                 "marketing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Marketing",
+                    "description": "Usados para medir publicidade e mostrar anúncios a você em outros sites."
                 }
             }
         }

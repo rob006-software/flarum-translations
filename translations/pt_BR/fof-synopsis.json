@@ -3,28 +3,28 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tamanho do trecho de resumo em caracteres",
+                    "help": "Quantos caracteres do post devem ser exibidos."
                 },
                 "rich-excerpts": {
-                    "label": "",
-                    "help": ""
+                    "label": "Exibir trechos com conteúdo rico",
+                    "help": "Quando ativado, imagens, embeds e outros elementos não textuais podem ser incluídos na sinopse"
                 },
                 "excerpt-type": {
-                    "label": "",
-                    "help": ""
+                    "label": "Qual post deve ser exibido como trecho?",
+                    "help": "Selecione se o primeiro ou o último post será usado como conteúdo da sinopse"
                 },
-                "first-label": "",
-                "last-label": "",
-                "tags-enabled": ""
+                "first-label": "Primeiro post",
+                "last-label": "Último post",
+                "tags-enabled": "Você tem <code>flarum/tags</code> ativado. Estas configurações serão o padrão, a menos que tags individuais tenham sua própria configuração."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "Sinopse",
+                    "show-summaries": "Exibir um trecho de cada discussão nas listas de discussões (Desktop/Tablet)",
+                    "show-summaries-mobile": "Exibir um trecho de cada discussão nas listas de discussões (Celular)"
                 }
             }
         }

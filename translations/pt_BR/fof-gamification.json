@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Tendência",
+                "hot_button": "Em alta",
                 "votes_button": "Votos positivos"
             }
         }
@@ -10,20 +10,20 @@
     "fof-gamification": {
         "forum": {
             "votes": "Votos",
-            "vote_title": "Mostrar quem votou",
+            "vote_title": "Mostrar Quem Votou",
             "nav": {
                 "name": "Ranking"
             },
             "ranking": {
-                "rank": "Classificação",
+                "rank": "Posição",
                 "name": "Usuário",
                 "amount": "Pontos"
             },
             "notification": {
-                "upvote": "{username} votou positivamente em sua postagem",
-                "downvote": "{username} votou negativamente em sua postagem",
+                "upvote": "{username} deu voto positivo no seu post",
+                "downvote": "{username} deu voto negativo no seu post",
                 "prefrences": {
-                    "vote": "Quando um dos meus posts é votado para cima/para baixo"
+                    "vote": "Alguém vota em um dos meus posts"
                 }
             },
             "user": {
@@ -34,109 +34,109 @@
                 "votes_link": "Votos"
             },
             "modal": {
-                "downvotes_label": "Desaprovadores:",
-                "title": "Eleitores",
-                "upvotes_label": "Apoiadores:"
+                "downvotes_label": "Votos negativos:",
+                "title": "Quem votou",
+                "upvotes_label": "Votos positivos:"
             },
-            "mod_item": "Ver eleitores",
+            "mod_item": "Ver Quem Votou",
             "voters": {
-                "none": "Ainda não há eleitores",
-                "label": "Eleitores",
-                "label_none": "Não eleitores"
+                "none": "Ninguém votou ainda",
+                "label": "Quem votou",
+                "label_none": "Ninguém votou"
             },
             "post": {
-                "upvote_button": "Aprovar postagem",
-                "downvote_button": "Reprovar postagem"
+                "upvote_button": "Dar voto positivo",
+                "downvote_button": "Dar voto negativo"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "Aprovar/Reprovar postagens",
-                "see_votes_label": "Ver contagem de votos para cima/para baixo",
+                "vote_label": "Votar em posts",
+                "see_votes_label": "Ver a contagem de votos",
                 "see_voters_label": "Ver quem votou",
-                "see_ranking_page": "Ver página de classificação",
-                "upvote_notifications": "Receba notificações sobre o upvote",
-                "downvote_notifications": "Receba notificações sobre o downvote"
+                "see_ranking_page": "Ver a página de ranking",
+                "upvote_notifications": "Receber notificações de votos positivos",
+                "downvote_notifications": "Receber notificações de votos negativos"
             },
             "page": {
                 "rankings": {
                     "blocked": {
                         "placeholder": "admin, user1, user2",
-                        "title": "Usuários ignorados",
-                        "help": "Esses usuários não serão mostrados na página de classificação. Os nomes de usuário devem ser separados por uma vírgula seguida de um espaço."
+                        "title": "Usuários Ignorados",
+                        "help": "Estes usuários não serão mostrados na página de ranking. Os nomes de usuário devem ser separados por uma vírgula seguida de um espaço."
                     },
-                    "title": "Página de classificação",
+                    "title": "Página de Ranking",
                     "enable": "Ativar imagens personalizadas",
-                    "custom_image_1": "Imagem em 1º lugar",
-                    "custom_image_2": "Imagem em 2º lugar",
-                    "custom_image_3": "Imagem em 3º lugar"
+                    "custom_image_1": "Imagem do 1º lugar",
+                    "custom_image_2": "Imagem do 2º lugar",
+                    "custom_image_3": "Imagem do 3º lugar"
                 },
                 "alt_votes": {
-                    "icon_name": "Nome do ícone do layout alternativo"
+                    "icon_name": "Ícone do layout alternativo"
                 },
                 "votes": {
                     "points_title": "Marcador de Pontos",
                     "points_placeholder": "Pontos: ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Auto upvote posts quando postados",
-                    "rate_limit": "Aplicar um limite de taxa de votação (10 segundos)",
-                    "discussion_page": "Mostrar o total de votos da postagem original na lista de discussões",
-                    "alternate_layout": "Use o layout de votação alternativo na lista de discussões",
-                    "alternate_post_layout": "Use o layout de votação alternativo nas postagens",
+                    "auto_upvote": "Voto positivo automático ao postar",
+                    "rate_limit": "Aplicar limite de frequência de votos (10 segundos)",
+                    "discussion_page": "Mostrar o total de votos do post original na lista de discussões",
+                    "alternate_layout": "Usar o layout de votação alternativo na lista de discussões",
+                    "alternate_post_layout": "Usar o layout de votação alternativo nos posts",
                     "title": "Votos",
-                    "vote_color": "Cor votada",
-                    "icon_name": "Ícone de upvote/downvote",
-                    "icon_help": "Insira qualquer ícone Font-Awesome com o sufixo -up e -down. Exemplos: seta, polegar, chevron",
-                    "icon_preview_upvote": "",
-                    "icon_preview_downvote": "",
+                    "vote_color": "Cor ao votar",
+                    "icon_name": "Ícone de voto positivo/negativo",
+                    "icon_help": "Insira qualquer ícone Font-Awesome com os sufixos -up e -down. Exemplos: arrow, thumbs, chevron",
+                    "icon_preview_upvote": "Voto positivo",
+                    "icon_preview_downvote": "Voto negativo",
                     "upvotes_only": "Permitir apenas votos positivos",
-                    "first_post_only": "Permitir apenas votos para cima/para baixo na primeira postagem de uma discussão",
-                    "allow_self_votes": "Os usuários podem votar em suas próprias postagens"
+                    "first_post_only": "Permitir votos apenas no primeiro post de uma discussão",
+                    "allow_self_votes": "Usuários podem votar nos próprios posts"
                 },
                 "save_settings": "Salvar configurações",
                 "convert": {
-                    "button": "Converter likes para upvotes",
-                    "help": "",
+                    "button": "Converter curtidas em votos positivos",
+                    "help": "Converte suas curtidas anteriores do flarum/likes em votos positivos e calcula a popularidade de todas as discussões atuais.",
                     "converting": "Suas curtidas estão sendo convertidas. Atualize seu site após alguns minutos para ver o processo concluído. (O tempo de conversão pode demorar um pouco dependendo do total de curtidas no fórum)",
-                    "converted": "Todas as {number} curtidas foram convertidas com sucesso"
+                    "converted": "Todas as {number} curtidas foram convertidas"
                 },
                 "ranks": {
-                    "title": "Classificações",
-                    "ranks": "Classificações personalizadas",
-                    "number_title": "Quantos emblemas de classificação devem ser mostrados?",
+                    "title": "Níveis",
+                    "ranks": "Níveis personalizados",
+                    "number_title": "Quantos emblemas de nível mostrar?",
                     "help": {
                         "color": "#ffffff",
-                        "help": "Insira o número necessário de votos positivos, o nome da classificação e a cor hexadecimal da classificação",
+                        "help": "Insira o número necessário de votos positivos, o nome do nível e a cor hexadecimal do nível",
                         "points": "Pontos",
                         "name": "Nome"
                     }
                 },
                 "groups": {
                     "title": "Grupos atribuídos automaticamente",
-                    "help": "Os grupos selecionados serão automaticamente adicionados ou removidos conforme necessário quando o número de pontos de um usuário mudar. Se você fez alterações na configuração, execute o comando <code>php flarum fof:gamification:assign-groups</code> para atualizar os usuários existentes. Se você deseja excluir uma regra e remover todos os usuários do grupo, defina os valores mínimo e máximo para uma string vazia, salve as configurações e execute o comando de linha de comando. Por fim, você pode excluir a regra totalmente das configurações.\n",
+                    "help": "Os grupos selecionados serão adicionados ou removidos automaticamente, conforme necessário, quando o número de pontos de um usuário mudar. Se você alterou a configuração, execute o comando <code>php flarum fof:gamification:assign-groups</code> para atualizar os usuários existentes. Para excluir uma regra e remover todos os usuários do grupo, deixe os valores mínimo e máximo vazios, salve as configurações e execute o comando. Por fim, você pode excluir a regra das configurações.\n",
                     "column": {
                         "group": "Grupo",
                         "minPoints": "Pontos mínimos (inclusive)",
-                        "maxPoints": "Máximo de pontos (inclusive)"
+                        "maxPoints": "Pontos máximos (inclusive)"
                     },
-                    "add": "Adicionar nova regra",
+                    "add": "Adicionar regra",
                     "delete": "Excluir regra"
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": "Hey {recipient_display_name},\n\n{actor_display_name} acabei de votar no seu post em {discussion_title}.\n\nVeja aqui: {discussion_url}\n"
+                "postVoted": "Olá {recipient_display_name},\n\n{actor_display_name} acabou de votar no seu post em {discussion_title}.\n\nVeja aqui: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": "Sua publicação foi votada por {display_name}"
+                "postVoted": "Seu post recebeu um voto de {display_name}"
             }
         }
     },
     "lib": {
         "gambits": {
             "hot": {
-                "key": ""
+                "key": "em-alta"
             }
         }
     }

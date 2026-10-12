@@ -3,15 +3,15 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
-                "app_cluster_help": "",
+                "app_cluster_help": "O cluster em que seu app Pusher está hospedado (por exemplo <code>eu</code> ou <code>us2</code>), exibido na página \"App Keys\" do app. Deixe em branco se você definir um hostname de servidor personalizado abaixo.",
                 "app_id_label": "App ID",
-                "app_id_help": "",
+                "app_id_help": "O App ID numérico da página \"App Keys\" do seu app Pusher.",
                 "app_key_label": "App Key",
-                "app_key_help": "",
+                "app_key_help": "A chave pública da página \"App Keys\" do seu app Pusher. Ela é enviada aos navegadores, portanto não é secreta.",
                 "app_secret_label": "App Secret",
-                "app_secret_help": "",
-                "server_hostname_label": "",
-                "server_hostname_help": "",
+                "app_secret_help": "O segredo privado da página \"App Keys\" do seu app Pusher. Mantenha-o confidencial — ele só é usado no servidor.",
+                "server_hostname_label": "Hostname do Servidor",
+                "server_hostname_help": "Opcional. Substitui o host ao qual o cliente se conecta, para um servidor auto-hospedado compatível com Pusher (por exemplo, soketi). Deixe em branco para usar o serviço hospedado do Pusher com o cluster acima.",
                 "title": "Configurações do Pusher"
             }
         },

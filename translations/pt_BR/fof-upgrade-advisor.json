@@ -2,137 +2,137 @@
     "fof-upgrade-advisor": {
         "admin": {
             "latest": {
-                "title": "",
-                "description": ""
+                "title": "Nenhuma versão futura do Flarum precisa de verificação",
+                "description": "Seu fórum atende aos requisitos de todas as versões do Flarum que o Upgrade Advisor conhece. Quando uma versão com novos requisitos for anunciada, uma atualização do Upgrade Advisor verificará se o seu fórum está pronto para ela.\n"
             },
             "overall": {
-                "ready": "",
-                "blocked": "",
-                "tasks": "",
-                "unchecked_only": "",
+                "ready": "Pronto para o Flarum {target}",
+                "blocked": "Bloqueado: {reasons}",
+                "tasks": "Pronto após {count, plural, one {# tarefa concluída} other {# tarefas concluídas}}",
+                "unchecked_only": "Quase pronto: {count, plural, one {# extensão não pôde ser verificada} other {# extensões não puderam ser verificadas}}",
                 "reasons": {
-                    "no_path": "",
-                    "check": "",
-                    "unchecked": ""
+                    "no_path": "{count, plural, one {# extensão não tem} other {# extensões não têm}} caminho para {target}",
+                    "check": "{title} precisa de correção",
+                    "unchecked": "{count, plural, one {# extensão não pôde ser verificada} other {# extensões não puderam ser verificadas}}"
                 }
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "chip": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Versão do PHP",
+                    "chip": "PHP {current}",
+                    "pass": "Executando PHP {current}.",
+                    "warning": "Não foi possível determinar a versão do PHP.",
+                    "fail": "PHP {current} está instalado, mas é exigida a versão {required} ou mais recente."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
-                    "fail": ""
+                    "title": "Versão do banco de dados",
+                    "pass": "Executando {current}.",
+                    "warning_unknown": "Não foi possível determinar a versão do servidor de banco de dados.",
+                    "warning_below_recommended": "{current} funciona, mas {recommended} ou mais recente é recomendado para a melhor experiência.",
+                    "fail": "{current} está instalado, mas o Flarum {target} exige pelo menos {required}."
                 },
                 "extension-compatibility": {
-                    "title": ""
+                    "title": "Compatibilidade de extensões"
                 }
             },
             "extensions": {
                 "contact": {
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "forum": "Discussão de suporte",
+                    "issues": "Issues",
+                    "source": "Código-fonte"
                 }
             },
             "summary": {
-                "progress": "",
-                "ready": "",
-                "tasks": "",
-                "blocked": "",
-                "unknown": "",
-                "checked": "",
-                "data_as_of": "",
-                "data_as_of_help": "",
-                "recommended": "",
-                "refresh": "",
-                "refresh_cooldown": "",
-                "export": ""
+                "progress": "{percent}% das extensões já prontas",
+                "ready": "Já prontas: {count}",
+                "tasks": "A fazer: {count}",
+                "blocked": "Bloqueadas: {count}",
+                "unknown": "Não verificadas: {count}",
+                "checked": "Verificado {time}",
+                "data_as_of": "Dados dos pacotes: {time}",
+                "data_as_of_help": "As consultas de pacotes ficam em cache por até 6 horas. Atualize para buscar os mais recentes.",
+                "recommended": "Recomendado: {version}",
+                "refresh": "Atualizar",
+                "refresh_cooldown": "Atualizar ({seconds}s)",
+                "export": "Exportar CSV"
             },
             "list": {
-                "before": "",
-                "after": "",
-                "copy": "",
-                "copied": "",
-                "configure": "",
+                "before": "Antes de atualizar",
+                "after": "Depois de atualizar",
+                "copy": "Copiar",
+                "copied": "Copiado",
+                "configure": "Configurar acesso ao repositório",
                 "groups": {
                     "environment": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ambiente do servidor",
+                        "description": "Corrija estes itens antes de atualizar."
                     },
                     "decision": {
-                        "title": "",
-                        "description": ""
+                        "title": "Precisa de decisão",
+                        "description": "Ainda sem versão pronta para {target}: pergunte ao autor sobre os planos, ou planeje ficar sem ela."
                     },
                     "unknown": {
-                        "title": "",
-                        "description": ""
+                        "title": "Não verificadas",
+                        "description": "Geralmente extensões premium ou privadas. Adicione acesso ao repositório para que o Upgrade Advisor possa verificá-las."
                     },
                     "replace": {
-                        "title": "",
-                        "description": ""
+                        "title": "Remover ou substituir",
+                        "description": "Remova estas antes de atualizar; instale os substitutos quando a atualização terminar."
                     },
                     "ready": {
-                        "title": "",
-                        "description": ""
+                        "title": "Prontas",
+                        "description": "Estas têm uma versão compatível com {target}."
                     }
                 },
                 "details": {
-                    "none": "",
-                    "none_unversioned": "",
-                    "remove": "",
-                    "replacement": "",
-                    "replacement_unverified": "",
-                    "abandoned": "",
-                    "replacement_not_ready": "",
-                    "latest": "",
-                    "no_release": "",
-                    "unknown": ""
+                    "none": "{version}",
+                    "none_unversioned": "Marcada como pronta para {target} no Discuss",
+                    "remove": "Incorporada ao core",
+                    "replacement": "→ {replacement}",
+                    "replacement_unverified": "→ {replacement} (verifique o suporte a {target})",
+                    "abandoned": "Abandonada, sem substituto",
+                    "replacement_not_ready": "Abandonada → {replacement} (sem suporte a {target})",
+                    "latest": "A mais recente ({version}) não suporta {target}",
+                    "no_release": "Sem versão para {target}",
+                    "unknown": "Não encontrada"
                 }
             },
             "hints": {
-                "none": "",
-                "none_unversioned": "",
-                "remove": "",
-                "swap_after_upgrade": "",
-                "switch_replacement": "",
-                "switch_replacement_unverified": "",
-                "no_path": "",
-                "no_path_unversioned": "",
-                "no_path_abandoned": "",
-                "no_path_replacement_not_ready": "",
-                "unknown": ""
+                "none": "Pronta: {version} é compatível com o Flarum {target}.",
+                "none_unversioned": "Pronta: marcada como compatível com {target} no Discuss.",
+                "remove": "Remova antes de atualizar. Ela está incorporada ao Flarum {target}, então nada a substitui.",
+                "swap_after_upgrade": "Remova antes de atualizar e instale {replacement} depois da atualização.",
+                "switch_replacement": "Abandonada. Remova antes de atualizar e instale {replacement} (com suporte a {target}) depois da atualização.",
+                "switch_replacement_unverified": "Abandonada. Remova antes de atualizar e instale {replacement} depois da atualização. Antes, verifique se há suporte a {target}.",
+                "no_path": "Ainda sem versão para {target} (a mais recente é {version}). Pergunte ao autor sobre os planos, ou planeje removê-la.",
+                "no_path_unversioned": "Ainda não é compatível com {target}. Pergunte ao autor sobre os planos, ou planeje removê-la.",
+                "no_path_abandoned": "Abandonada e sem substituto. Planeje removê-la ou encontre uma alternativa.",
+                "no_path_replacement_not_ready": "Abandonada. Seu substituto {replacement} ainda não tem suporte a {target}.",
+                "unknown": "Não encontrada no Packagist nem em nenhum repositório configurado. Se for premium ou privada, adicione acesso ao repositório."
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Relatório de prontidão",
+                "repositories": "Repositórios"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Adicione repositórios Composer privados ou de marketplace para que o Upgrade Advisor possa verificar extensões que não estão no Packagist público. Usados apenas quando uma extensão não é encontrada no Packagist.\n",
+                "empty": "Nenhum repositório adicional configurado.",
+                "add_floxum": "Adicionar Floxum",
+                "add_composer": "Adicionar repositório",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Personalizado",
+                "url": "URL do Repositório",
+                "username": "Nome de usuário",
+                "token": "Token",
+                "remove": "Remover repositório",
+                "test": "Testar conexão",
+                "test_ok": "Conectado",
+                "test_fail_auth": "Falha na autenticação — verifique o token",
+                "test_fail_unreachable": "Não foi possível acessar o repositório",
+                "test_fail_invalid": "Resposta inválida — verifique a URL"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Não foi possível executar as verificações de prontidão. Tente novamente."
             }
         }
     }

@@ -11,19 +11,19 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "Duração do Cache",
+                "cache_duration_help": "Defina por quanto tempo as estatísticas do widget ficam em cache (em segundos). <code>0</code> desativa o cache (não recomendado).",
+                "flush_cache_on_new_registration_label": "Limpar Cache de Estatísticas em Novo Cadastro",
+                "flush_cache_on_new_registration_help": "Se ativado, o cache de estatísticas será limpo quando um novo usuário se cadastrar no fórum.",
                 "widget_ignore_private_discussions_label": "Ignorar Discussões Privadas",
-                "classic_look_label": "",
-                "classic_look_help": ""
+                "classic_look_label": "Visual Clássico",
+                "classic_look_help": "Restaura a aparência original do widget, usada antes da integração com fof/forum-widgets-core."
             },
             "permissions": {
-                "view_discussions_count_label": "Exibir a contagem de discussões no widget de estatísticas do fórum",
-                "view_posts_count_label": "Exibir a contagem de postagens no widget de estatísticas do fórum",
-                "view_users_count_label": "Exibir a contagem de usuários no widget de estatísticas do fórum",
-                "view_lastest_member_label": "Exibir o último membro no widget de estatísticas do fórum"
+                "view_discussions_count_label": "Ver a contagem de discussões no widget de estatísticas",
+                "view_posts_count_label": "Ver a contagem de posts no widget de estatísticas",
+                "view_users_count_label": "Ver a contagem de usuários no widget de estatísticas",
+                "view_lastest_member_label": "Ver o último membro no widget de estatísticas"
             }
         }
     }
