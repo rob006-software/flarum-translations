@@ -44,6 +44,9 @@ return [
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-prominent-post-numbers' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-prominent-post-numbers/2.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-selective-mediaembed' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-selective-mediaembed/2.0.0/resources/locale/en.yml',
 	],
