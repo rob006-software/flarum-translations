@@ -43,12 +43,12 @@
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
                 "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Estensioni abbandonate",
+                "abandoned_extensions_text": "Flarum gestisce un <a>elenco comunitario di estensioni abbandonate</a>. Quando un'estensione installata compare in tale elenco, verrà segnalata nel pannello di amministrazione.",
+                "abandoned_extensions_sync_button": "Controlla ora",
+                "abandoned_extensions_sync_success": "Elenco delle estensioni abbandonate aggiornato. Trovata/e {count} estensione/i installata/e corrispondente/i.",
+                "abandoned_extensions_sync_error": "Impossibile recuperare l'elenco delle estensioni abbandonate. Riprova più tardi.",
+                "abandoned_extensions_notify_admins_label": "Invia un'email agli amministratori quando viene rilevata un'estensione appena abbandonata durante il controllo settimanale"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,28 +61,28 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# commento} other {# commenti}}",
+                "description": "Ultime notizie e annunci dal team di Flarum.",
+                "empty": "Nessun annuncio trovato.",
+                "load_error": "Impossibile caricare gli annunci. Riprova più tardi.",
+                "about": "Ultime notizie e annunci tratti dalla community ufficiale di Flarum su discuss.flarum.org.",
+                "hide": "Nascondi annunci",
+                "read_more": "Leggi di più",
+                "refresh": "Aggiorna annunci",
+                "retry": "Prova di nuovo",
+                "show": "Mostra annunci",
+                "title": "Annunci",
+                "view_all": "Guarda tutto su discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
                 "description": "Il tuo forum a colpo d'occhio.",
-                "info_button": "",
+                "info_button": "Info sistema",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informazioni sistema",
+                    "copy_button": "Copia",
+                    "copy_success": "Informazioni di sistema copiate",
+                    "copy_error": "Copia fallita"
                 },
                 "io_error_message": "Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando.",
                 "status": {
@@ -156,11 +156,11 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Questa estensione non è più mantenuta dal suo autore e potrebbe non ricevere aggiornamenti.",
+                "abandoned_with_replacement": "Questa estensione è stata sostituita da {replacement}. Valuta la migrazione al pacchetto sostitutivo.",
                 "configure_scopes": "Configura ambiti",
                 "confirm_purge": "L'eliminazione rimuoverà tutte le voci del database e le risorse relative all'estensione. Non disinstallerà l'estensione; che deve essere fatto tramite Composer. Sei sicuro di voler continuare?",
-                "deprecated": "",
+                "deprecated": "Deprecate",
                 "disabled": "Disabilitata",
                 "enable_to_see": "Abilita l'estensione per vedere e modificare le impostazioni.",
                 "enabled": "Abilitata",
@@ -182,7 +182,7 @@
                     "no_readme": "Questa estensione non sembra avere un file README",
                     "title": "{extName} documentazione"
                 },
-                "replaced": "",
+                "replaced": "Rimpiazzata",
                 "confirm_uninstall": "La disinstallazione rimuoverà tutte le voci del database e le risorse correlate all'estensione. Sei sicuro di voler continuare?",
                 "uninstall_button": "Disinstalla"
             },
@@ -204,7 +204,7 @@
                     "discussion": "Discussione",
                     "feature": "Funzionalità",
                     "formatting": "Formattazione",
-                    "forum-widget": "",
+                    "forum-widget": "Widget del forum",
                     "language": "Lingue",
                     "moderation": "Moderazione",
                     "other": "Altre estensioni",
@@ -576,7 +576,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "La tua connessione è stata ripristinata.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Ignora avviso"
@@ -611,9 +611,9 @@
                 "generic_message": "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.",
                 "generic_cross_origin_message": "Ops! Qualcosa è andato storto durante una richiesta cross-origin. Ricarica la pagina e riprova.",
                 "missing_dependencies_message": "Non puoi attivare l'estensione {extension} finché non attiverai le seguenti estensioni: {extensions}",
-                "network_message": "",
+                "network_message": "Sembra esserci un problema con la tua connessione. Controlla la rete e riprova.",
                 "not_found_message": "La risorsa richiesta non è stata trovata.",
-                "offline_message": "",
+                "offline_message": "Sembra che tu sia offline. Controlla la connessione e riprova.",
                 "payload_too_large_message": "Il payload richiesto era troppo grande.",
                 "permission_denied_message": "Non hai il permesso di farlo.",
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.",
@@ -685,7 +685,7 @@
                 "csrf_token_mismatch_return_link": "Torna indietro e riprova",
                 "invalid_confirmation_token": "Questo link di conferma è già stato usato oppure non è valido.",
                 "not_authenticated": "Non hai i permessi necessari per accedere a questa pagina. Riprova dopo aver effettuato l'accesso.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Questa pagina non supporta quel metodo di richiesta.",
                 "not_found": "La pagina che hai richiesto non è stata trovata.",
                 "not_found_return_link": "Ritorna su {forum}",
                 "permission_denied": "Non hai i permessi necessari per accedere a questa pagina.",
@@ -738,10 +738,10 @@
                 "body": "Ciao {username}!\n\nQuesta è un'email di prova per confermarti che l'attuale configurazione sta funzionando correttamente.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
-                "body": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "subject": "Azione richiesta: rilevata/e estensione/i abbandonata/e",
+                "body": "Ciao {username},\n\nLe seguenti estensioni installate sono state segnalate come abbandonate:\n\n{extensions}\n\nTi invitiamo a esaminare queste estensioni e a valutare la migrazione verso alternative, ove disponibili.\n",
+                "line_with_replacement": "- {package} (sostituzione suggerita: {replacement})",
+                "line_no_replacement": "- {package} (nessuna alternativa disponibile)"
             }
         },
         "ref": {
