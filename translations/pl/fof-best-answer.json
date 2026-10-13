@@ -20,10 +20,10 @@
                 "select_best_answer_reminder_days_help": "Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.",
                 "select_best_answer_tags_label": "Tagi dla dyskusji z najlepszą odpowiedzią",
                 "select_best_answer_tags_help": "Wybierz, które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Dozwolone są tylko tagi dodatkowe. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.",
-                "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler)",
+                "schedule_on_one_server": "Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler)",
                 "schedule_on_one_server_help": "Wymaga Redis/Memcache",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
-                "schedule_stop_overnight_help": "21.00 - 8.00 według czasu serwera",
+                "schedule_stop_overnight_help": "21.00–8.00 według czasu serwera",
                 "schedule_log_output": "Zapisz logi harmonogramu zadań",
                 "show_filter_label": "Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią",
                 "show_filter_help": "Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście",
@@ -31,7 +31,7 @@
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
                 "enabled_tags_label": "Włączone tagi",
-                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na \"Pytania i Odpowiedzi\" (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
+                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na „Pytania i Odpowiedzi” (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
                 "remind_tags_label": "Tagi z przypomnieniami",
                 "remind_tags_help": "Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.",
                 "tags_info": "Gdy tag ma włączoną obsługę najlepszych odpowiedzi, przypisz uprawnienia dla każdej grupy użytkowników, która może je wybierać (we własnej dyskusji, w dowolnej dyskusji). Uprawnienia mogą być przypisywane globalnie (dla każdego tagu obsługującego najlepsze odpowiedzi) lub niezależnie dla poszczególnych tagów.\n",
@@ -91,9 +91,9 @@
                 "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
             },
             "body": {
-                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
+                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w „{discussion_title}”. Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
+                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji „{discussion_title}”, w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
+                "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie „{discussion_title}”. Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem – dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli – poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
             }
         },
         "lib": {
