@@ -5,6 +5,7 @@
             "page_title": "تقویم",
             "upcoming": "",
             "no_events": "",
+            "no_events_day": "",
             "view_month": "ماه",
             "view_week": "هفته",
             "view_day": "روز",
@@ -60,6 +61,9 @@
             "saved": "",
             "save_error": "",
             "widget_title": "",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "",
             "heat_contributions": "",
             "heat_current_streak": "",
@@ -108,10 +112,20 @@
             "end_before_start": "",
             "category_name_required": ""
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "",
             "default_view": "",
             "view_month_opt": "",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "",
             "week_starts_on": "",
             "week_sunday": "",
@@ -122,7 +136,13 @@
             "index_widget_count": "",
             "show_pulse_widget": "",
             "show_pulse_widget_help": "",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "",
             "categories": "",
             "categories_help": "",

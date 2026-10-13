@@ -5,6 +5,7 @@
             "page_title": "Календарь",
             "upcoming": "Предстоящие события",
             "no_events": "Нет предстоящих событий.",
+            "no_events_day": "",
             "view_month": "Месяц",
             "view_week": "Неделя",
             "view_day": "День",
@@ -60,6 +61,9 @@
             "saved": "Событие сохранено.",
             "save_error": "Не удалось сохранить событие — проверьте форму и попробуйте ещё раз.",
             "widget_title": "Предстоящие события",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "Пульс форума",
             "heat_contributions": "вклады",
             "heat_current_streak": "дневная серия",
@@ -108,10 +112,20 @@
             "end_before_start": "",
             "category_name_required": ""
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "Календарь",
             "default_view": "Вид календаря по умолчанию",
             "view_month_opt": "Сетка месяца",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "Ближайшие события",
             "week_starts_on": "Неделя начинается с",
             "week_sunday": "Воскресенье",
@@ -122,7 +136,13 @@
             "index_widget_count": "Количество событий в виджете на главной",
             "show_pulse_widget": "Показывать виджет «Пульс» на главной форума",
             "show_pulse_widget_help": "Тепловая карта активности и рейтинг самых активных участников, показывающие жизнь сообщества. График вклада также отображается в профиле каждого участника",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "Показывать виджет «В этот день» на главной форума",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "Показывать виджет «Сегодняшние праздники» на главной форума",
             "categories": "Категории событий",
             "categories_help": "Цветовые категории позволяют участникам фильтровать календарь и дают каждому событию цветовой акцент. Изменения сохраняются построчно.",

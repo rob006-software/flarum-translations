@@ -5,6 +5,7 @@
             "page_title": "Calendar",
             "upcoming": "Upcoming events",
             "no_events": "No upcoming events.",
+            "no_events_day": "Nothing on this day.",
             "view_month": "Month",
             "view_week": "Week",
             "view_day": "Day",
@@ -60,6 +61,9 @@
             "saved": "Event saved.",
             "save_error": "Couldn’t save the event — please check the form and try again.",
             "widget_title": "Upcoming events",
+            "happening_now": "Happening now",
+            "coming_up": "Coming up",
+            "ends_at": "Ends {date}",
             "widget_pulse": "Forum pulse",
             "heat_contributions": "contributions",
             "heat_current_streak": "day streak",
@@ -108,10 +112,20 @@
             "end_before_start": "The end must be after the start.",
             "category_name_required": "The category name is required."
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "Upcoming events",
+                "calendarPulse": "Forum pulse",
+                "calendarCelebrations": "Today’s celebrations",
+                "calendarMemories": "On this day"
+            }
+        },
         "admin": {
             "settings_title": "Calendar",
             "default_view": "Default calendar view",
             "view_month_opt": "Month grid",
+            "view_week_opt": "Week",
+            "view_day_opt": "Day",
             "view_list_opt": "Upcoming list",
             "week_starts_on": "Week starts on",
             "week_sunday": "Sunday",
@@ -122,7 +136,13 @@
             "index_widget_count": "Events to show in the index widget",
             "show_pulse_widget": "Show a “Forum pulse” widget on the forum index",
             "show_pulse_widget_help": "An activity heatmap + most-active leaderboard that shows the community is alive. (A contribution graph also appears on every member’s profile.)",
+            "pulse_exclude_groups": "Leave these groups out of the Forum pulse",
+            "pulse_exclude_groups_help": "For automated accounts — a bot that posts every day would always top the leaderboard. Their posts are left out of the activity chart too.",
+            "pulse_exclude_users": "Leave these members out of the Forum pulse",
+            "pulse_exclude_users_help": "Usernames, separated by commas.",
             "show_memories_widget": "Show an “On this day” widget on the forum index",
+            "onthisday_exclude_tags": "Never show discussions from these tags in “On this day”",
+            "onthisday_exclude_tags_help": "Useful for read-only tags, where members could not reply to the memory.",
             "show_celebrations_widget": "Show a “Today’s celebrations” widget on the forum index",
             "categories": "Event categories",
             "categories_help": "Colour-coded categories let members filter the calendar and give each event a coloured accent. Changes save per row.",

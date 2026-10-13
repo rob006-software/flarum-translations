@@ -63,7 +63,22 @@
                 "single_clickable_label": "Cho phép bấm vào ngôi sao đơn",
                 "single_clickable_help": "Khi bật, việc bấm vào ngôi sao đơn (và con số của nó) sẽ mở danh sách đánh giá trong một hộp thoại. Khi tắt, ngôi sao chỉ để xem — và những chủ đề chưa có đánh giá sẽ không hiển thị gì cả.",
                 "single_modal_rate_label": "Cho phép đánh giá ngay trong hộp thoại",
-                "single_modal_rate_help": "Hiển thị một khung đánh giá tương tác ở đầu hộp thoại danh sách đánh giá, để người dùng đánh giá (hoặc đổi đánh giá) mà không phải rời khỏi danh sách."
+                "single_modal_rate_help": "Hiển thị một khung đánh giá tương tác ở đầu hộp thoại danh sách đánh giá, để người dùng đánh giá (hoặc đổi đánh giá) mà không phải rời khỏi danh sách.",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
                 "rate_label": "Đánh giá thảo luận",
@@ -85,9 +100,19 @@
                 "rate_this": "Đánh giá chủ đề này",
                 "rate_first": "Hãy là người đầu tiên đánh giá!",
                 "your_rating": "Đánh giá của bạn:",
-                "restricted": "Nhóm của bạn không được đánh giá chủ đề này."
+                "restricted": "Nhóm của bạn không được đánh giá chủ đề này.",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
             "rating_count": "Lượt đánh giá: {count}",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "Đánh giá gần nhất:",
             "rating_restricted_message": "Nhóm của bạn không được đánh giá.",
             "controls": {
@@ -105,7 +130,8 @@
                 "title": "Đánh giá ({count})",
                 "empty": "Chưa có đánh giá nào.",
                 "deleted_user": "[đã xóa]",
-                "updated_prefix": "đã cập nhật "
+                "updated_prefix": "đã cập nhật ",
+                "author_tag": ""
             }
         },
         "api": {
