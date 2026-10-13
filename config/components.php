@@ -147,7 +147,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-cadence' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.1.2/locale/en.yml',
 	],
 	'ernestdefoe-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.2.11/resources/locale/en.yml',
