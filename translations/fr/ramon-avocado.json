@@ -22,10 +22,10 @@
                 "section_posts": "Messages",
                 "section_logo": "Logo",
                 "section_footer": "Pied de page",
-                "section_footer_contacts": "",
-                "section_footer_links": "",
-                "section_footer_text": "",
-                "footer_enabled_label": "",
+                "section_footer_contacts": "Contacts et réseaux sociaux",
+                "section_footer_links": "Liens",
+                "section_footer_text": "Texte",
+                "footer_enabled_label": "Activer le pied de page du thème",
                 "footer_enabled_help": "",
                 "footer_text_label": "",
                 "footer_text_help": "",
@@ -145,8 +145,8 @@
                 "banner_image_help": "Transférer l'image de la bannière affichée en haut du forum.",
                 "show_auth_buttons_label": "Afficher les boutons « Se connecter » / « S'inscrire » dans l'en-tête pour les invités",
                 "show_auth_buttons_help": "Afficher les boutons « Se connecter » et « S'inscrire » dans le menu de navigation secondaire de l'en-tête pour les invités.",
-                "show_guest_cta_label": "Afficher l'appel à l'action pour les invités",
-                "show_guest_cta_help": "Affichez un message d'incitation à l'action pour les invités.",
+                "show_guest_cta_label": "Afficher les boutons « Se connecter » / « S'inscrire » dans la bannière de la page d'accueil",
+                "show_guest_cta_help": "Affichez les boutons d'incitation à l'action dans la bannière principale de la page d'accueil, pour les invités.",
                 "hero_image_position_label": "Position de l'image du bandeau",
                 "hero_image_position_help": "Valeur CSS de background-position, p. ex. « center top » ou « 50% 20% ».",
                 "custom_hero_enabled_label": "Utiliser un contenu personnalisé pour le bandeau (HTML)",
@@ -197,9 +197,9 @@
                 "colored_border_style_none": "Aucune",
                 "colored_border_style_left": "Bordure gauche",
                 "colored_border_style_full": "Bordure complète",
-                "show_post_cta_label": "Afficher l'invitation après le premier message pour les invités",
-                "show_post_cta_help": "Afficher une carte « Connexion / Inscription » après le premier message d'une discussion, visible uniquement par les invités.",
-                "post_cta_position_label": "Position de l'invitation (après quel numéro de message)",
+                "show_post_cta_label": "Afficher l'invitation dans les discussions pour les invités",
+                "show_post_cta_help": "Afficher une carte « Connexion / Inscription » entre les messages d'une discussion, visible uniquement par les invités.",
+                "post_cta_position_label": "Position de l'invitation",
                 "post_cta_position_help": "Insérer la bannière d'invitation entre ce numéro de message et le suivant.",
                 "post_cta_position_1": "Après le message #1",
                 "post_cta_position_2": "Après le message #2",
@@ -213,8 +213,8 @@
                 "logo_svg_help": "Transférer un logo SVG personnalisé pour votre forum.",
                 "logo_colored_label": "",
                 "logo_colored_help": "",
-                "logo_offset_y_label": "",
-                "logo_offset_y_help": "",
+                "logo_offset_y_label": "Ajustement vertical (px)",
+                "logo_offset_y_help": "Décale le logo vers le haut (valeur négative) ou vers le bas (valeur positive) dans l'en-tête, dans une plage de -30 à 30. Pour les logos dont le dessin n'est pas centré dans le fichier.",
                 "logo_enabled_label": "Activer le logo personnalisé",
                 "logo_enabled_help": "Afficher le logo personnalisé dans l'en-tête.",
                 "link_icon_svg_label": "Icône de lien interne (SVG)",
@@ -291,10 +291,10 @@
         },
         "lib": {
             "footer": {
-                "default_text": "",
-                "nav_home": "",
-                "nav_discussions": "",
-                "nav_tags": ""
+                "default_text": "Propulsé par [Flarum](https://flarum.org).",
+                "nav_home": "Accueil",
+                "nav_discussions": "Toutes les discussions",
+                "nav_tags": "Étiquettes"
             }
         },
         "forum": {
@@ -540,9 +540,9 @@
                 "load_more": "Charger plus"
             },
             "footer": {
-                "contacts": "",
-                "socials": "",
-                "navigation": ""
+                "contacts": "Contacts",
+                "socials": "Réseaux sociaux",
+                "navigation": "Navigation"
             },
             "team": {
                 "title": "Notre équipe",
