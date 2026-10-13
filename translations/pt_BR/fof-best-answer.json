@@ -11,8 +11,8 @@
                     "tags": "Tags de Melhor Resposta",
                     "general": "Geral",
                     "reminders": "Lembretes",
-                    "advanced": "Avançado",
-                    "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
+                    "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente.",
+                    "advanced": "Avançado"
                 },
                 "show_max_lines_label": "Máximo de linhas na prévia do post",
                 "show_max_lines_help": "Defina 0 para desativar. Se um post tiver mais linhas que o configurado, ele será truncado na prévia do post com um efeito de esmaecimento.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Envia um lembrete ao autor, após o número de dias configurado, para selecionar uma melhor resposta. 0 = desativar lembretes.",
                 "select_best_answer_tags_label": "Tags para discussões com melhor resposta",
                 "select_best_answer_tags_help": "Selecione quais tags, se houver, adicionar às discussões quando uma melhor resposta for definida. Apenas tags secundárias são permitidas. Essas tags serão removidas se a melhor resposta for removida.",
-                "schedule_on_one_server": "Usar a diretiva 'onOneServer()' no agendador de tarefas",
-                "schedule_on_one_server_help": "Requer Redis/Memcache",
                 "schedule_stop_overnight": "Não enviar notificações de lembrete em horários inconvenientes",
                 "schedule_stop_overnight_help": "21h - 8h, horário do servidor",
                 "schedule_log_output": "Anexar a saída do agendador aos logs",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Mostrar o menu de filtro de melhor resposta",
                 "show_filter_help": "Em tags com melhor resposta ativada, mostra a opção de filtro resolvidas/não resolvidas na lista de discussões",
                 "use_alt_ui": "Layout alternativo",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Selecione para quais tags, se houver, enviar lembretes. Os lembretes só serão enviados para discussões com essas tags.",
                 "tags_info": "Quando uma tag tiver a melhor resposta ativada, atribua permissões a cada grupo de usuários que poderá definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag com melhor resposta ativada) ou por tag.\n",
                 "discussion_sidebar_jump_button": "Mostrar o botão de ir para a melhor resposta na barra lateral da discussão",
-                "discussion_sidebar_jump_button_help": "Adiciona à barra lateral da discussão um botão que leva à melhor resposta na sequência de posts."
+                "discussion_sidebar_jump_button_help": "Adiciona à barra lateral da discussão um botão que leva à melhor resposta na sequência de posts.",
+                "schedule_on_one_server": "Usar a diretiva 'onOneServer()' no agendador de tarefas",
+                "schedule_on_one_server_help": "Requer Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Permitir definir melhores respostas nesta tag",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Não Pode Perguntar",
                 "solved_link": "Discussões resolvidas",
                 "unsolved_link": "Discussões não resolvidas"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Todas as perguntas",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "resolvida"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }

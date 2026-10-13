@@ -11,8 +11,8 @@
                     "tags": "Parimad vastused sildid",
                     "general": "Üldine",
                     "reminders": "Meeldetuletused",
-                    "advanced": "Lisavalikud",
-                    "reminders_notice": "Meeldetuletuste töötamiseks pead sa esmalt seadistama korrektselt Flarumi ajastusprogrammi."
+                    "reminders_notice": "Meeldetuletuste töötamiseks pead sa esmalt seadistama korrektselt Flarumi ajastusprogrammi.",
+                    "advanced": "Lisavalikud"
                 },
                 "show_max_lines_label": "Maksimaalne ridade arv eelvaates",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "Parimate vastustega vestluste sildid",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Kasuta ajastaja jaoks 'onOneServer()' direktiivi",
-                "schedule_on_one_server_help": "Nõuab Redis/Memcache kasutamist",
                 "schedule_stop_overnight": "Takista teavituste saamist ebasobivatel kellaaegadel",
                 "schedule_stop_overnight_help": "9pl - 8el serveri aeg",
                 "schedule_log_output": "",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Näitab filtris parima vastuse valikut",
                 "show_filter_help": "",
                 "use_alt_ui": "Alternatiivne paigutus",
@@ -36,11 +35,12 @@
                 "remind_tags_help": "Vali, mis siltides meeldetuletusi saadetakse. Meeldetuletusi saadetakse ainult nende vaatluste kohta, millel on valitud sildid.",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Kasuta ajastaja jaoks 'onOneServer()' direktiivi",
+                "schedule_on_one_server_help": "Nõuab Redis/Memcache kasutamist"
             },
             "edit_tag": {
-                "qna_label": "Luba selle sildi all parima vastuse kasutamine",
-                "reminders": ""
+                "qna_label": "Luba selle sildi all parima vastuse kasutamine"
             }
         },
         "forum": {
@@ -67,6 +67,10 @@
                 "cannot_ask_question": "Ei saa küsimust esitada",
                 "solved_link": "Lahendatud vestlused",
                 "unsolved_link": "Lahendamata vestlused"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Kõik küsimused",
@@ -99,6 +103,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

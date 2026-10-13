@@ -11,8 +11,8 @@
                     "tags": "最佳回复标签",
                     "general": "常规",
                     "reminders": "提醒",
-                    "advanced": "高级",
-                    "reminders_notice": "要使用提醒功能，请先正确配置 Flarum 任务调度。"
+                    "reminders_notice": "要使用提醒功能，请先正确配置 Flarum 任务调度。",
+                    "advanced": "高级"
                 },
                 "show_max_lines_label": "帖子预览最大行数",
                 "show_max_lines_help": "超过此行数的内容会在预览中渐隐截断，设为 0 则不限制。",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "讨论发起一定天数后，提醒发起人选择最佳回复。设为 0 则关闭提醒。",
                 "select_best_answer_tags_label": "「已解决」讨论标签",
                 "select_best_answer_tags_help": "设置最佳回复后，自动为讨论添加指定的次标签。取消最佳回复时自动移除。例如「已解决」。",
-                "schedule_on_one_server": "任务调度使用 onOneServer()",
-                "schedule_on_one_server_help": "需要 Redis 或 Memcache",
                 "schedule_stop_overnight": "夜间暂停提醒",
                 "schedule_stop_overnight_help": "服务器时间 21:00 至次日 08:00 不发送提醒。",
                 "schedule_log_output": "将任务调度输出写入日志",
+                "schedule_log_output_help": "",
                 "show_filter_label": "显示解决状态筛选",
                 "show_filter_help": "在启用最佳回复的标签中，为讨论列表显示「已解决 / 未解决」筛选项。",
                 "use_alt_ui": "底部布局",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "仅提醒这些标签下尚未设置最佳回复的讨论。",
                 "tags_info": "启用最佳回复后，请按需配置「设置最佳回复」的全局或标签权限。\n",
                 "discussion_sidebar_jump_button": "最佳回复定位按钮",
-                "discussion_sidebar_jump_button_help": "在讨论页侧边栏添加按钮，点击可直接跳转至最佳回复。"
+                "discussion_sidebar_jump_button_help": "在讨论页侧边栏添加按钮，点击可直接跳转至最佳回复。",
+                "schedule_on_one_server": "任务调度使用 onOneServer()",
+                "schedule_on_one_server_help": "需要 Redis 或 Memcache"
             },
             "edit_tag": {
                 "qna_label": "在此标签启用最佳回复",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "提问已关闭",
                 "solved_link": "已解决",
                 "unsolved_link": "未解决"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "全部问题",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "已解决"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }

@@ -11,8 +11,8 @@
                     "tags": "Tagi najlepszej odpowiedzi",
                     "general": "Ogólne",
                     "reminders": "Przypomnienia",
-                    "advanced": "Zaawansowane",
-                    "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany."
+                    "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany.",
+                    "advanced": "Zaawansowane"
                 },
                 "show_max_lines_label": "Maksymalna liczba wierszy do wyświetlenia w podglądzie posta",
                 "show_max_lines_help": "Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.",
                 "select_best_answer_tags_label": "Tagi dla dyskusji z najlepszą odpowiedzią",
                 "select_best_answer_tags_help": "Wybierz, które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Dozwolone są tylko tagi dodatkowe. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.",
-                "schedule_on_one_server": "Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler)",
-                "schedule_on_one_server_help": "Wymaga Redis/Memcache",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
                 "schedule_stop_overnight_help": "21.00–8.00 według czasu serwera",
                 "schedule_log_output": "Zapisz logi harmonogramu zadań",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią",
                 "show_filter_help": "Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście",
                 "use_alt_ui": "Alternatywny układ",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.",
                 "tags_info": "Gdy tag ma włączoną obsługę najlepszych odpowiedzi, przypisz uprawnienia dla każdej grupy użytkowników, która może je wybierać (we własnej dyskusji, w dowolnej dyskusji). Uprawnienia mogą być przypisywane globalnie (dla każdego tagu obsługującego najlepsze odpowiedzi) lub niezależnie dla poszczególnych tagów.\n",
                 "discussion_sidebar_jump_button": "Przycisk przejścia do najlepszej odpowiedzi na pasku bocznym",
-                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi."
+                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi.",
+                "schedule_on_one_server": "Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler)",
+                "schedule_on_one_server_help": "Wymaga Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Włącz możliwość ustawiania najlepszej odpowiedzi w tym tagu",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Nie można zadać pytania",
                 "solved_link": "Rozwiązane dyskusje",
                 "unsolved_link": "Nierozwiązane dyskusje"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Wszystkie pytania",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "rozwiązane"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }

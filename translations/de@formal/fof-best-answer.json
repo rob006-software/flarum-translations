@@ -11,8 +11,8 @@
                     "tags": "Tags für beste Antworten",
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
-                    "advanced": "Erweitert",
-                    "reminders_notice": "Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben."
+                    "reminders_notice": "Damit Erinnerungen funktionieren, musst du den Flarum-Planer richtig eingerichtet haben.",
+                    "advanced": "Erweitert"
                 },
                 "show_max_lines_label": "Maximal anzuzeigende Zeilen in der Postvorschau",
                 "show_max_lines_help": "Zum Deaktivieren auf 0 festlegen. Wenn ein Beitrag länger als die konfigurierte Anzahl von Zeilen ist, wird er in der Beitragsvorschau mit einem Ausblendeffekt abgeschnitten.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an den Diskussionsstarter, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
                 "select_best_answer_tags_label": "Tags für Diskussionen mit Besten Antworten",
                 "select_best_answer_tags_help": "Wähle aus, ob und welche Tags zu Diskussionen hinzugefügt werden sollen, wenn eine Beste Antwort festgelegt wird. Es sind nur sekundäre Tags erlaubt. Diese Tags werden entfernt, wenn die Beste Antwort entfernt wird.",
-                "schedule_on_one_server": "Direktive 'onOneServer()' für den Taskplaner verwenden",
-                "schedule_on_one_server_help": "Erfordert Redis/Memcache",
                 "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
                 "schedule_stop_overnight_help": "21:00 - 08:00 Uhr Serverzeit",
                 "schedule_log_output": "Scheduler-Output an den Log anhängen",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Dropdown-Liste für Filter für beste Antwort anzeigen",
                 "show_filter_help": "Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen",
                 "use_alt_ui": "Alternatives Layout verwenden",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Wähle aus, für welche Tags (sofern vorhanden) Erinnerungen gesendet werden sollen. Erinnerungen werden nur für Diskussionen mit diesen Tags gesendet.",
                 "tags_info": "Wenn ein Tag „Beste Antwort“ aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen darf (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für jeden Tag mit aktivierter „Beste Antwort“) oder pro Tag zugewiesen werden.\n",
                 "discussion_sidebar_jump_button": "Schaltfläche „Zur besten Antwort springen“ in der Diskussionsseitenleiste anzeigen",
-                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt."
+                "discussion_sidebar_jump_button_help": "Fügt der Diskussionsseitenleiste eine Schaltfläche hinzu, die zur besten Antwort im Beitragsstream springt.",
+                "schedule_on_one_server": "Direktive 'onOneServer()' für den Taskplaner verwenden",
+                "schedule_on_one_server_help": "Erfordert Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Kann keine Frage stellen",
                 "solved_link": "Gelöste Diskussionen",
                 "unsolved_link": "Ungelöste Diskussionen"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Alle Fragen",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "gelöst"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
