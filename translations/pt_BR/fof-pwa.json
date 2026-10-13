@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Progressive Web App",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Descrição",
+                    "description_text": "Você pode definir a descrição na página \"Básico\" do seu dashboard de administração.",
+                    "long_name_label": "Nome longo",
+                    "long_name_text": "O nome do aplicativo web exibido ao usuário.",
+                    "heading": "Sobre",
+                    "short_name_label": "Nome curto",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Cores",
+                    "background_color_label": "Cor de fundo",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Cor do tema",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Manutenção",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Isso registrará informações sobre notificações em `storage/logs`. Em geral, deve ficar desativado para não encher os logs sem necessidade.",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Redefinir as chaves VAPID removerá as inscrições que usam as chaves existentes, então os usuários não receberão notificações até a próxima visita ao seu site. Faça isso apenas ao configurar as notificações push pela primeira vez, ou se as notificações push não estiverem funcionando e houver um aviso acima sobre chaves VAPID ausentes.",
+                    "reset_vapid_success": "Chaves VAPID redefinidas com sucesso. Inscrições redefinidas: {count}. Recarregue a página para ver o relatório de verificação de status atualizado."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "see_documentation_here": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Enviar arquivo"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Outros",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -46,23 +46,23 @@
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": "",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "share_buttons_label": "Ativar botões de compartilhamento",
+                    "share_buttons_text": "Se ativado, um botão \"Compartilhar\" será adicionado a discussões, posts e usuários."
                 },
-                "heading": "",
+                "heading": "Configuração do Progressive Web App",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Verificação de Status",
+                "logo_heading": "Logotipos e Ícones",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Salvar Configurações",
+                "refreshed_message": "Configuração do PWA atualizada com sucesso."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Você deve enviar pelo menos um logotipo, com tamanho mínimo de 144x144px, para que o PWA seja instalável.",
+                "no_name": "Você deve informar um nome completo para que seu app funcione.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -75,33 +75,33 @@
                 "optin_button": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Compartilhar"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Compartilhar",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Compartilhar"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Devido a restrições do navegador, você precisa aceitar receber notificações push neste dispositivo.",
+                    "access_default_button": "Aceitar",
+                    "access_denied": "Você precisa ajustar as configurações do navegador para receber notificações push neste dispositivo.",
+                    "access_denied_button": "Saiba como",
+                    "no_browser_support": "Este navegador não oferece suporte a notificações push para progressive web apps.",
+                    "no_browser_support_button": "Saiba Mais"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Erro de conexão de rede",
+                "text": "Este app requer conexão de rede; ele não pode ser usado offline. Verifique sua conexão."
             }
         }
     },
@@ -109,8 +109,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exporta todas as inscrições de notificações push e tokens de dispositivo associados ao usuário.",
+                    "delete_description": "Exclui todas as inscrições de notificações push e tokens de dispositivo associados ao usuário."
                 }
             }
         }

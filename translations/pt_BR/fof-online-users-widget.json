@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Tempo de cache da lista de usuários (em segundos)",
+                "last_seen_interval": "Intervalo desde a última visita para considerar um usuário online (em minutos)",
+                "max_users": "Máx. de usuários mostrados"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Ver o Widget de Usuários Online"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Usuários Online",
+                "empty": "Nenhum Usuário Online no Momento."
             }
         }
     }

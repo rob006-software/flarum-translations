@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "{provider} n'a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l'utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.",
                 "with_button": "Se connecter avec {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -114,7 +114,7 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
+                "subject": "Demande de modification de l'adresse de courriel",
                 "body": ""
             }
         },

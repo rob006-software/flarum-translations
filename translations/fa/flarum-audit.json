@@ -54,7 +54,7 @@
                 },
                 "empty": "",
                 "loadMore": "",
-                "withoutActor": "",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
                     "discussion": "",
                     "group": "",
@@ -67,14 +67,14 @@
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "",
                 "noReason": "",
                 "client": {
                     "session": "",
-                    "api_key": "",
+                    "api_key": "کلید API",
                     "access_token": "",
                     "cli": "",
                     "unknown": ""

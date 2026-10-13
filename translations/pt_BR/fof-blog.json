@@ -102,20 +102,20 @@
                 "post_without_blog_info": "Tem certeza de que deseja postar esta postagem no blog? Você ainda não inseriu um resumo ou imagem do blog."
             },
             "article_settings": {
-                "title": "",
+                "title": "Configurações do post do blog",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Resumo do artigo",
+                        "placeholder": "Digite um resumo",
+                        "helper_text": "Este resumo ficará visível na página de visão geral do blog e será usado para fins de SEO."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Imagem do artigo",
+                        "helper_text": "Melhor resolução de imagem para redes sociais: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Post em destaque",
+                        "helper_text": "Dá a este post uma imagem grande na página de visão geral do blog."
                     }
                 }
             }

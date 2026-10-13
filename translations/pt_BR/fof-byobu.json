@@ -23,7 +23,7 @@
                 "make_public": "Tem certeza de que deseja remover os destinatários e tornar esta discussão visível para qualquer pessoa que possa visualizar a tag atribuída?"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Destinatário} other {{count} Destinatários}}"
@@ -86,7 +86,7 @@
         "admin": {
             "permission": {
                 "create_private_discussions_with_users": "Crie discussões privadas com usuários",
-                "add_more_than_two_user_recipients": "",
+                "add_more_than_two_user_recipients": "Adicionar mais de 2 usuários destinatários a uma discussão privada",
                 "create_private_discussions_with_groups": "Crie discussões privadas com grupos",
                 "create_private_discussions_with_blocking_users": "Crie discussões privadas com usuários que bloqueiam",
                 "edit_user_recipients": "Editar usuários participando de discussões privadas",
@@ -109,8 +109,8 @@
                 "post-event-icon": "Eventos pós Byobu",
                 "delete_on_last_recipient_left": "Apagar Discussões Privadas quando o último membro sair",
                 "delete_on_last_recipient_left_help": "Se ativado, as Discussões Privadas serão excluídas permanentemente do banco de dados quando o último usuário sair. Caso contrário, a Discussão Privada será soft-excluída/ocultada.",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "hide_from_all_discussions_page": "Ocultar DPs da página \"Todas as Discussões\"",
+                "hide_from_all_discussions_page_help": "As discussões privadas só poderão ser acessadas pela página \"Discussões Privadas\" ou pelo perfil do usuário"
             }
         },
         "email": {

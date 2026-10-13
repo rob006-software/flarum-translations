@@ -4,23 +4,23 @@
             "permissions": {
                 "best_answer": "Selecione a Melhor Resposta (própria Discussão)",
                 "best_answer_not_own_discussion": "Selecione a Melhor Resposta (não é a própria Discussão)",
-                "allow_select_own_post": ""
+                "allow_select_own_post": "Selecionar o próprio post como melhor resposta"
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "Tags de Melhor Resposta",
                     "general": "Geral",
                     "reminders": "Lembretes",
                     "search": "",
                     "advanced": "Avançado",
                     "reminders_notice": "Para que os lembretes funcionem, você deve ter configurado o agendador do Flarum corretamente."
                 },
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
+                "show_max_lines_label": "Máximo de linhas na prévia do post",
+                "show_max_lines_help": "Defina 0 para desativar. Se um post tiver mais linhas que o configurado, ele será truncado na prévia do post com um efeito de esmaecimento.",
                 "select_best_answer_reminder_days": "Frequência do lembrete",
                 "select_best_answer_reminder_days_help": "Envie um lembrete após a quantidade configurável de dias para o autor para selecionar uma melhor resposta, 0 = desativar lembretes.",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
+                "select_best_answer_tags_label": "Tags para discussões com melhor resposta",
+                "select_best_answer_tags_help": "Selecione quais tags, se houver, adicionar às discussões quando uma melhor resposta for definida. Apenas tags secundárias são permitidas. Essas tags serão removidas se a melhor resposta for removida.",
                 "schedule_on_one_server": "Use a diretiva 'onOneServer()' para o agendador de tarefas",
                 "schedule_on_one_server_help": "Requer Redis/Memcache",
                 "schedule_stop_overnight": "Impedir que notificações de lembrete sejam enviadas durante horários não sociais",
@@ -31,19 +31,19 @@
                 "use_alt_ui": "Layout alternativo",
                 "use_alt_ui_help": "Controle de Melhor Resposta no rodapé da postagem",
                 "documentation": "Documentação",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
+                "enabled_tags_label": "Tags Ativadas",
+                "enabled_tags_help": "Selecione em quais tags, se houver, ativar a melhor resposta. Essas tags passarão a ter o formato de \"Perguntas e Respostas\" e permitirão definir melhores respostas.",
+                "remind_tags_label": "Tags com Lembrete",
+                "remind_tags_help": "Selecione para quais tags, se houver, enviar lembretes. Os lembretes só serão enviados para discussões com essas tags.",
+                "tags_info": "Quando uma tag tiver a melhor resposta ativada, atribua permissões a cada grupo de usuários que poderá definir respostas (própria discussão, qualquer discussão). As permissões podem ser atribuídas globalmente (para qualquer tag com melhor resposta ativada) ou por tag.\n",
                 "solution_search": "",
                 "solution_search_help": "",
                 "remove_solutions_from_main_search": "",
                 "remove_solutions_from_main_search_help": "",
                 "display_tags": "",
                 "display_tags_help": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": "",
+                "discussion_sidebar_jump_button": "Mostrar o botão de ir para a melhor resposta na barra lateral da discussão",
+                "discussion_sidebar_jump_button_help": "Adiciona à barra lateral da discussão um botão que leva à melhor resposta na sequência de posts.",
                 "allow_select_own_post": "Selecione a própria postagem",
                 "allow_select_own_post_help": "Permita que o autor selecione uma de suas próprias postagens na discussão como a melhor resposta",
                 "enable_all_tags_button": "Ativar todas as tags para Melhores Respostas",
@@ -97,7 +97,7 @@
                 "all_discussions_solutions_button": ""
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "Ver Melhor Resposta"
             }
         },
         "email": {
@@ -116,8 +116,8 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "Mais melhores respostas",
+                "least_best_answers": "Menos melhores respostas"
             }
         }
     },
@@ -125,8 +125,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "best_answer_set": "",
-                    "best_answer_unset": ""
+                    "best_answer_set": "Definiu o {post} como melhor resposta em {discussion}",
+                    "best_answer_unset": "Removeu a melhor resposta do {post} em {discussion}"
                 }
             }
         }

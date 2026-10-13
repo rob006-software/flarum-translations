@@ -10,8 +10,8 @@
             "reacting-own-post": "Você não pode reagir ao seu próprio post",
             "modal": {
                 "title": "Reações",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "anonymous_count": "{count, plural, one {# usuário anônimo} other {# usuários anônimos}}",
+                "no_reactions": "Nenhuma reação ainda"
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir"
@@ -20,14 +20,14 @@
             "permissions": {
                 "react_posts_label": "Reagir a posts",
                 "see_reactions_label": "Veja quem reagiu a posts",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Excluir reações em posts"
             },
             "page": {
                 "cdn": {
-                    "title": "",
+                    "title": "CDN",
                     "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "label": "URL",
+                    "default-url": "Padrão: {url}"
                 },
                 "reactions": {
                     "title": "Reações Customizáveis",
@@ -37,7 +37,7 @@
                         "display": "Exibição",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Tem certeza de que deseja excluir esta reação? Esta ação não pode ser desfeita."
                 },
                 "convert": {
                     "help": "Se você acabou de atualizar sua extensão, suas reações terão que ser convertidas. Se você acabou de instalar esta extensão, pode ignorar esta mensagem.",
@@ -48,8 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "Quando ativado, sujeito à permissão, os usuários podem reagir às suas próprias postagens no fórum. Para evitar que os usuários reajam em suas próprias postagens, desative essa configuração.",
                     "react_own_posts_label": "Usuários podem reagir às suas próprias postagens",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
+                    "allow-anonymous": "Permitir reações anônimas (de convidados)",
+                    "allow-anonymous-help": "Se ativado, convidados e usuários anônimos poderão reagir aos posts. Observe que as reações anônimas não serão vinculadas a um perfil de usuário e serão agregadas na lista de reações.",
                     "save_settings": "Salvar Alterações",
                     "integrations": {
                         "legend": "Integrações",

@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": "",
+                    "modal": "Configurações de Afiliação Amazon",
+                    "tags": "Tags de Afiliado",
                     "tags-mediaembed": ""
                 },
                 "field": {
-                    "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag": "Manter as tags de afiliado da Amazon dos links originais em vez de substituí-las",
+                    "keep-existing-tag-help": "Por padrão, qualquer tag existente na URL original é substituída pela tag que você definir abaixo.",
                     "help-mediaembed": "",
-                    "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled": "Remover as tags de afiliado da Amazon em links da Amazon não cobertos",
+                    "remove-tag-if-unhandled-help": "Por padrão, links não cobertos são mantidos como estão, inclusive com a tag, se houver.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Deixe em branco para não cobrir esses links"
                 }
             }
         }

@@ -2,43 +2,43 @@
     "fof-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Enviar e-mails a usuários individuais",
+                "mail_all": "Enviar e-mails a grupos ou a todos os usuários"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Enviar E-mail ao Usuário",
+                "mail_all": "Enviar E-mail"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
+                "title_text": "Escrever E-mail",
+                "recipients_label": "Destinatários",
+                "recipients_placeholder": "Adicionar mais destinatários...",
+                "subject_label": "Assunto",
+                "default_subject": "=> fof-mailing.ref.default_subject",
+                "message_label": "Mensagem",
                 "as_html_label": "",
-                "submit_button": ""
+                "submit_button": "Enviar"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "E-mail Enviado!",
+                "on_its_way": "Toca aqui! Seu e-mail está a caminho de {recipientsCount} destinatários!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Usuário",
+                "group": "Grupo",
+                "email": "E-mail"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Nenhum destinatário encontrado"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> fof-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Mensagem da administração do fórum"
         }
     }
 }

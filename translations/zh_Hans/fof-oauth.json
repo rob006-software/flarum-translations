@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "你无法通过 {provider} 登录，因为 {provider} 尚未验证邮箱地址。如果已有账号，请先点击下方登录，请前往账号设置中绑定 {provider}。",
                 "with_button": "使用 {provider} 账号登录",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -114,7 +114,7 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
+                "subject": "请求变更邮箱地址",
                 "body": ""
             }
         },

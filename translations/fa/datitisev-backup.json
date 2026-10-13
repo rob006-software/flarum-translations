@@ -4,15 +4,15 @@
             "adapters": {
                 "local": "",
                 "aliyun": "",
-                "azure": "",
-                "aws": "",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
                 "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
                 "gridfs": "",
                 "rackspace": "",
-                "sftp": "",
+                "sftp": "SFTP",
                 "webdav": "",
                 "zip": ""
             },
@@ -81,7 +81,7 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
+                        "label": "کلید",
                         "description": ""
                     },
                     "credentials-secret": {
@@ -139,7 +139,7 @@
                     },
                     "folder": {
                         "label": "",
-                        "description": ""
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
                         "test_success_alert": "",
@@ -156,7 +156,7 @@
                         "description": ""
                     },
                     "password": {
-                        "label": "",
+                        "label": "رمز عبور",
                         "description": ""
                     },
                     "private-key": {
@@ -164,7 +164,7 @@
                         "description": ""
                     },
                     "port": {
-                        "label": "",
+                        "label": "پورت",
                         "description": ""
                     },
                     "root": {
@@ -176,7 +176,7 @@
                         "description": ""
                     },
                     "ssl": {
-                        "toggle": "",
+                        "toggle": "SSL",
                         "description": ""
                     },
                     "timeout": {

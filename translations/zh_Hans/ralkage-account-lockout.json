@@ -43,7 +43,7 @@
             "log_in": {
                 "locked_timed": "账户已被临时锁定，请 {minutes} 分钟后重试。",
                 "locked_manual": "账户已被管理员锁定。",
-                "attempts_remaining": ""
+                "attempts_remaining": "登录信息有误。账号将在连续登录失败 {max} 次后被锁定，还剩 {remaining} 次机会。"
             }
         }
     }

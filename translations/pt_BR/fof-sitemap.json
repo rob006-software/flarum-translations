@@ -4,13 +4,13 @@
             "settings": {
                 "exclude_users": "Excluir todos os perfis de usuário do mapa do site (sitemap)",
                 "exclude_users_help": "Por padrão, qualquer usuário visível para visitantes será indexado",
-                "exclude_tags": "",
-                "exclude_tags_help": "",
-                "build_button": "",
-                "build_button_help": "",
-                "build_success": "",
-                "build_error": "",
-                "last_build_time": "",
+                "exclude_tags": "Excluir todas as páginas de tags do sitemap",
+                "exclude_tags_help": "Por padrão, qualquer tag visível para convidados será indexada",
+                "build_button": "Reconstruir Sitemaps Agora",
+                "build_button_help": "Dispara a reconstrução imediata de todos os arquivos de sitemap. O job será enviado à fila, se ela estiver configurada; caso contrário, será executado imediatamente.",
+                "build_success": "A reconstrução do sitemap foi colocada na fila com sucesso. Verifique seus logs para acompanhar o progresso.",
+                "build_error": "Falha ao colocar a reconstrução do sitemap na fila. Verifique seus logs e a configuração da fila.",
+                "last_build_time": "Horário da Última Geração",
                 "mode_label": "Modo de Operação",
                 "mode_help": "Selecionar o modo correto para o tamanho do fórum é de vital importância.",
                 "mode_help_runtime_label": "Modo de Execução (Runtime)",
@@ -26,10 +26,10 @@
                 "risky_performance_improvements_help": "Essas melhorias tornam o trabalho CRON mais rápido em conjuntos de dados de um milhão de linhas, mas podem quebrar compatibilidade com algumas extensões.",
                 "column_pruning": "",
                 "column_pruning_help": "",
-                "include_priority": "",
-                "include_priority_help": "",
-                "include_changefreq": "",
-                "include_changefreq_help": "",
+                "include_priority": "Incluir valores de prioridade no sitemap",
+                "include_priority_help": "Os valores de prioridade são ignorados pelo Google, mas podem ser usados por outros mecanismos de busca, como Bing e Yandex",
+                "include_changefreq": "Incluir valores de frequência de alteração no sitemap",
+                "include_changefreq_help": "Os valores de frequência de alteração são ignorados pelo Google, mas podem ser usados por outros mecanismos de busca para agendar o rastreamento",
                 "modes": {
                     "runtime": "Execução",
                     "multi_file": "Multi arquivo"
@@ -40,18 +40,18 @@
                     "daily": "Diariamente"
                 },
                 "soft_404": {
-                    "heading": "",
-                    "help": "",
+                    "heading": "Prevenção de soft 404",
+                    "help": "Quando um modelo tem pouco ou nenhum conteúdo relevante, o Google e outros rastreadores podem sinalizar essas páginas como \"soft 404\". Para evitar isso, defina aqui um número mínimo de itens exigido para cada item qualificável.",
                     "user": {
                         "comments": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Usuário: Número mínimo de comentários/posts",
+                            "minimum_item_threshold_help": "O número mínimo de comentários/posts que um usuário deve ter para que seu perfil seja incluído no sitemap."
                         }
                     },
                     "tags": {
                         "discussion": {
-                            "minimum_item_threshold_label": "",
-                            "minimum_item_threshold_help": ""
+                            "minimum_item_threshold_label": "Tag: Número mínimo de discussões",
+                            "minimum_item_threshold_help": "O número mínimo de discussões que uma tag deve ter para ser incluída no sitemap."
                         }
                     }
                 }

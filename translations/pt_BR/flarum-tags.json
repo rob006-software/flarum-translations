@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Tag da Discussão"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
@@ -43,7 +43,7 @@
                 "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para sub-categorização.",
                 "create_primary_tag_button": "Criar Tag Principal",
                 "create_secondary_tag_button": "Criar Tag Secundária",
-                "edit_tag_label": "",
+                "edit_tag_label": "Editar Tag {tag}",
                 "primary_heading": "Tags Primárias",
                 "secondary_heading": "Tags Secundárias",
                 "settings_heading": "Configurações"
@@ -89,17 +89,17 @@
         "lib": {
             "deleted_tag_text": "Deletada",
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Ignorar requisitos de tags",
+                "choose_primary_placeholder": "{count, plural, one {Escolha uma tag primária} other {Escolha # tags primárias}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Escolher Tags",
+            "choose_tags_placeholder": "{count, plural, one {Escolha mais 1 tag} other {Escolha mais # tags}}",
             "name": "Nome",
             "tags": "Tags"
         },

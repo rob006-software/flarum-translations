@@ -2,19 +2,19 @@
     "fof-open-collective": {
         "admin": {
             "settings": {
-                "title": "",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
-                "api_key_label": "",
-                "api_key_help": "",
-                "personal_token_label": "",
-                "personal_token_help": "",
-                "slug_label": "",
-                "slug_help": "",
-                "group_label": "",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": ""
+                "title": "FriendsOfFlarum Open Collective",
+                "use_legacy_api_key_label": "Usar Chave de API de Aplicação Legada",
+                "use_legacy_api_key_help": "Se você tem uma chave de API legada, pode continuar usando-a, mas é recomendado mudar para um Token Pessoal. Atualmente, tokens pessoais parecem funcionar no modo de Chave de API (ou seja, cabeçalho \"API-Key\"), mas isso não está documentado.\n",
+                "api_key_label": "Chave de API de Aplicação (obsoleta)",
+                "api_key_help": "Este método de autenticação está obsoleto. Considere mudar para um Token Pessoal.",
+                "personal_token_label": "Token Pessoal",
+                "personal_token_help": "Crie um token pessoal em <a>https://opencollective.com/applications</a>. Este token é usado para buscar as informações dos seus apoiadores no Open Collective.",
+                "slug_label": "Slug do Coletivo",
+                "slug_help": "Digite o slug do seu coletivo no Open Collective (a parte depois de opencollective.com/ na URL do seu coletivo).",
+                "group_label": "Grupo de Apoiadores Recorrentes",
+                "group_help": "Selecione a qual grupo de usuários do Flarum os apoiadores recorrentes devem ser adicionados. Os usuários serão adicionados automaticamente quando se tornarem apoiadores recorrentes e movidos para o grupo de apoiadores únicos (se configurado) quando a assinatura terminar.",
+                "onetime_group_label": "Grupo de Apoiadores Únicos (Opcional)",
+                "onetime_group_help": "Selecione a qual grupo de usuários do Flarum os apoiadores únicos devem ser adicionados. Se não for definido, os apoiadores únicos não serão gerenciados. Quando um apoiador recorrente cancelar a assinatura, ele será movido para este grupo."
             }
         }
     }

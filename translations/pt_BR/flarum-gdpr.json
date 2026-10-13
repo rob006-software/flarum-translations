@@ -21,16 +21,16 @@
                 "user_table_data": {
                     "title": "Dados da Tabela de Usuários",
                     "help_text": "Na maioria das vezes, quaisquer colunas adicionadas à tabela <code>user</code> serão tratadas automaticamente, tanto para exportação de dados quanto para exclusão.\nNo entanto, existem alguns casos especiais, que estão listados abaixo.\n",
-                    "column": "",
-                    "type": "",
-                    "nullable": "",
-                    "pii": "",
-                    "redacted_on_export": "",
-                    "extension": "",
-                    "yes": "",
-                    "no": "",
-                    "pii_tooltip": "",
-                    "redacted_on_export_tooltip": ""
+                    "column": "Coluna",
+                    "type": "Tipo",
+                    "nullable": "Anulável",
+                    "pii": "PII",
+                    "redacted_on_export": "Omitido na exportação",
+                    "extension": "Extensão",
+                    "yes": "Sim",
+                    "no": "Não",
+                    "pii_tooltip": "Esta coluna é considerada informação pessoal identificável e será omitida em contextos anonimizados (ex.: payloads de eventos anonimizados).",
+                    "redacted_on_export_tooltip": "O valor desta coluna é esvaziado (definido como nulo) ao gerar uma exportação dos dados do usuário. A coluna ainda aparece na exportação com valor nulo."
                 }
             },
             "nav": {
@@ -73,7 +73,7 @@
                     "delete_description": "Exclui o avatar do usuário do sistema de arquivos.",
                     "export_description": "Recupera o avatar do usuário do sistema de arquivos e o inclui na exportação."
                 },
-                "default_user_action": "",
+                "default_user_action": "Sem ação, coberto pelo tratamento padrão da tabela de usuários.",
                 "discussions": {
                     "export_description": "Exporta todas as discussões iniciadas pelo usuário. Dados restritos ao título e data de criação."
                 },
@@ -156,9 +156,9 @@
                 "confirm": "Tem certeza de que deseja excluir a conta de {name} no modo {mode}?",
                 "title": "Processar solicitação de exclusão",
                 "text": "{name} solicitou a exclusão da conta.",
-                "requested_at": "",
-                "confirmed_at": "",
-                "eligible_at": "",
+                "requested_at": "Solicitada: {date}",
+                "confirmed_at": "Confirmada: {date}",
+                "eligible_at": "Elegível para processamento automático: {date}",
                 "comments_label": "Comentários (opcional)",
                 "anonymization_button": "Anonimizar usuário",
                 "deletion_button": "Excluir usuário"

@@ -2,95 +2,95 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": ""
+                "see_country": "Sempre ver o país do endereço IP"
             },
             "settings": {
                 "general": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Configurações Gerais",
+                    "help": "Estas configurações controlam o comportamento geral da extensão."
                 },
                 "providers": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Serviço de Consulta de IP",
+                    "help": "Escolha um serviço para as consultas de IP. Alguns serviços têm limites de requisições, então consulte a documentação do serviço para mais informações."
                 },
-                "service_label": "",
-                "service_ipdata_label": "",
-                "service_ipdata_description": "",
-                "service_ipapi_label": "",
-                "service_ipapi_description": "",
-                "service_ipapi-pro_label": "",
-                "service_ipapi-pro_description": "",
-                "service_iplocation_label": "",
-                "service_iplocation_description": "",
-                "service_ipsevenex_label": "",
-                "service_ipsevenex_description": "",
-                "service_ipinfo-lite_label": "",
-                "service_ipinfo-lite_description": "",
-                "access_key_label": "",
-                "quota_label": "",
-                "show_flag_label": "",
-                "show_flag_help": "",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "service_label": "Serviço",
+                "service_ipdata_label": "IPData",
+                "service_ipdata_description": "Use <b>https://ipdata.co</b> para fazer até 1.500 consultas diárias grátis. Planos pagos com limites de uso maiores também estão disponíveis.",
+                "service_ipapi_label": "IP Api",
+                "service_ipapi_description": "Use <b>http://ip-api.com</b> para fazer até 45 consultas por minuto grátis. Se fizer mais, as requisições entrarão na fila e serão consultadas quando a janela de tempo reiniciar.",
+                "service_ipapi-pro_label": "IP Api Pro",
+                "service_ipapi-pro_description": "Use <b>https://members.ip-api.com/#pricing</b>. O plano Pro tem uso ilimitado.",
+                "service_iplocation_label": "IP Location",
+                "service_iplocation_description": "Use <b>https://www.iplocation.net/</b> para obter dados de país e provedor (ISP). Os limites de requisições são desconhecidos.",
+                "service_ipsevenex_label": "7x Geolocation API",
+                "service_ipsevenex_description": "Use <b>https://7x.ax</b> para obter uma chave de API gratuita para até 20 requisições por minuto. Planos pagos com limites de uso maiores também estão disponíveis.",
+                "service_ipinfo-lite_label": "IPInfo Lite",
+                "service_ipinfo-lite_description": "Use <b>https://ipinfo.io</b> para obter informações de IP sem limite de requisições nem restrições. Requer cadastro para obter uma chave de API gratuita.",
+                "access_key_label": "Chave de Acesso",
+                "quota_label": "Cota de consultas",
+                "show_flag_label": "Mostrar a bandeira do país em cada post",
+                "show_flag_help": "Sem revelar o endereço IP, mostra a bandeira do país do IP do autor do post, quando o usuário opta por isso nas preferências.",
+                "allow_custom_flag_label": "Permitir que usuários escolham uma bandeira de país personalizada",
+                "allow_custom_flag_help": "Quando ativado, os usuários podem escolher uma bandeira de país para exibir em seus posts nas configurações do perfil. A bandeira escolhida pelo usuário é mostrada a todos e tem precedência sobre a bandeira baseada no IP. Requer que \"Mostrar a bandeira do país em cada post\" esteja ativado.",
                 "test": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Testar Configuração do Serviço",
+                    "help": "Teste a configuração do seu serviço de consulta de IP com um endereço IP de exemplo. Salve suas configurações antes de testar."
                 },
-                "test_service_label": "",
-                "test_service_help": "",
-                "test_button": "",
-                "testing": "",
-                "test_result_title": "",
-                "test_ip_required": "",
-                "test_error": "",
-                "test_service_label_result": "",
-                "test_status_label": "",
-                "test_response_time_label": "",
-                "test_timestamp_label": "",
-                "test_http_status_code_label": "",
-                "test_error_details_label": "",
-                "test_processed_service_response_label": "",
-                "status_success": "",
-                "status_error": "",
-                "status_unknown": "",
-                "response_headers_label": "",
-                "raw_http_response_label": "",
-                "request_url_label": "",
-                "request_options_label": "",
-                "error_prefix": "",
-                "error_code_prefix": ""
+                "test_service_label": "Testar Serviço de Consulta de IP",
+                "test_service_help": "Digite um endereço IPv4 ou IPv6 para testar a configuração atual do serviço.",
+                "test_button": "Testar Serviço",
+                "testing": "Testando...",
+                "test_result_title": "Resultado do Teste",
+                "test_ip_required": "Digite um endereço IP para testar.",
+                "test_error": "Ocorreu um erro ao testar o serviço.",
+                "test_service_label_result": "Serviço:",
+                "test_status_label": "Status:",
+                "test_response_time_label": "Tempo de Resposta:",
+                "test_timestamp_label": "Data e hora:",
+                "test_http_status_code_label": "Código de Status HTTP:",
+                "test_error_details_label": "Detalhes do Erro:",
+                "test_processed_service_response_label": "Resposta Processada do Serviço:",
+                "status_success": "✓ Sucesso",
+                "status_error": "✗ Erro",
+                "status_unknown": "Desconhecido",
+                "response_headers_label": "Cabeçalhos da Resposta",
+                "raw_http_response_label": "Corpo Bruto da Resposta HTTP",
+                "request_url_label": "URL da Requisição",
+                "request_options_label": "Opções da Requisição",
+                "error_prefix": "Erro:",
+                "error_code_prefix": "Código:"
             }
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Endereço IP Copiado"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Copiar IP para a área de transferência",
+            "map_button_label": "Info do IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
+                "title": "Informações do IP",
+                "ip_address": "Endereço IP",
                 "country_code": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": ""
+                "zip_code": "Código Postal",
+                "isp": "Provedor",
+                "as": "ASN",
+                "mobile": "Rede móvel",
+                "organization": "Organização",
+                "threat_level": "Nível de Ameaça",
+                "threat_types": "Tipos de Ameaça",
+                "error": "Erro",
+                "not_enough_data": "Dados insuficientes para desenhar um mapa"
             },
             "custom_flag": {
-                "none": ""
+                "none": "Sem bandeira personalizada"
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "ip_country": "",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "ip_country": "Mostrar a bandeira do país de onde posto, com base no meu endereço IP",
+                    "custom_flag_label": "Bandeira de país personalizada",
+                    "custom_flag_help": "Escolha uma bandeira de país para exibir em seus posts. Esta bandeira é visível para todos e é mostrada no lugar da bandeira baseada no seu endereço IP."
                 }
             }
         }
@@ -98,8 +98,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "showIPCountry": "",
-                "showIPCountry-help": ""
+                "showIPCountry": "Mostrar a bandeira do país de onde o usuário posta",
+                "showIPCountry-help": "Baseia-se no endereço IP no momento do post. A bandeira do país (se ativada) ficará visível para todos os usuários. Administradores e moderadores verão o endereço IP no tooltip."
             }
         }
     }

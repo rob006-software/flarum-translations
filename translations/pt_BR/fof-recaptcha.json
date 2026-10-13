@@ -7,16 +7,16 @@
                 "site_key_label": "Chave do Site",
                 "type_label": "Tipo reCAPTCHA",
                 "type_help": "Esta extensão suporta apenas o reCAPTCHA v2. O tipo selecionado deve corresponder ao tipo das suas credenciais do reCAPTCHA.",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
+                "title": "Testar reCAPTCHA",
+                "help_text": "Este teste usa os valores atuais digitados acima. Recarregue o teste após modificar as configurações e não se esqueça de salvar quando o teste passar!\nO que aparece abaixo pode não refletir as configurações salvas.\n",
+                "success_message": "Sucesso! O reCAPTCHA está configurado corretamente.",
+                "load_test_button": "Carregar",
+                "submit_button": "Enviar",
                 "reload_button": "Recarregar"
             },
             "permissions": {
@@ -30,6 +30,6 @@
     },
     "validation": {
         "recaptcha": "Falha na validação do reCAPTCHA.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Ocorreu um erro desconhecido ao validar o reCAPTCHA ({errors})."
     }
 }

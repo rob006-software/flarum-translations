@@ -3,132 +3,132 @@
         "admin": {
             "overall": {
                 "ready": "",
-                "blocked": "",
-                "tasks": "",
-                "unchecked_only": "",
+                "blocked": "Bloqueado: {reasons}",
+                "tasks": "Pronto após {count, plural, one {# tarefa concluída} other {# tarefas concluídas}}",
+                "unchecked_only": "Quase pronto: {count, plural, one {# extensão não pôde ser verificada} other {# extensões não puderam ser verificadas}}",
                 "reasons": {
                     "no_path": "",
-                    "check": "",
-                    "unchecked": ""
+                    "check": "{title} precisa de correção",
+                    "unchecked": "{count, plural, one {# extensão não pôde ser verificada} other {# extensões não puderam ser verificadas}}"
                 }
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "chip": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Versão do PHP",
+                    "chip": "PHP {current}",
+                    "pass": "Executando PHP {current}.",
+                    "warning": "Não foi possível determinar a versão do PHP.",
+                    "fail": "PHP {current} está instalado, mas é exigida a versão {required} ou mais recente."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
+                    "title": "Versão do banco de dados",
+                    "pass": "Executando {current}.",
+                    "warning_unknown": "Não foi possível determinar a versão do servidor de banco de dados.",
+                    "warning_below_recommended": "{current} funciona, mas {recommended} ou mais recente é recomendado para a melhor experiência.",
                     "fail": ""
                 },
                 "extension-compatibility": {
-                    "title": ""
+                    "title": "Compatibilidade de extensões"
                 }
             },
             "extensions": {
                 "contact": {
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "forum": "Discussão de suporte",
+                    "issues": "Issues",
+                    "source": "Código-fonte"
                 }
             },
             "summary": {
-                "progress": "",
-                "ready": "",
-                "tasks": "",
-                "blocked": "",
-                "unknown": "",
-                "checked": "",
-                "data_as_of": "",
-                "data_as_of_help": "",
-                "recommended": "",
-                "refresh": "",
-                "refresh_cooldown": "",
-                "export": ""
+                "progress": "{percent}% das extensões já prontas",
+                "ready": "Já prontas: {count}",
+                "tasks": "A fazer: {count}",
+                "blocked": "Bloqueadas: {count}",
+                "unknown": "Não verificadas: {count}",
+                "checked": "Verificado {time}",
+                "data_as_of": "Dados dos pacotes: {time}",
+                "data_as_of_help": "As consultas de pacotes ficam em cache por até 6 horas. Atualize para buscar os mais recentes.",
+                "recommended": "Recomendado: {version}",
+                "refresh": "Atualizar",
+                "refresh_cooldown": "Atualizar ({seconds}s)",
+                "export": "Exportar CSV"
             },
             "list": {
-                "before": "",
-                "after": "",
-                "copy": "",
-                "copied": "",
-                "configure": "",
+                "before": "Antes de atualizar",
+                "after": "Depois de atualizar",
+                "copy": "Copiar",
+                "copied": "Copiado",
+                "configure": "Configurar acesso ao repositório",
                 "groups": {
                     "environment": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ambiente do servidor",
+                        "description": "Corrija estes itens antes de atualizar."
                     },
                     "decision": {
-                        "title": "",
+                        "title": "Precisa de decisão",
                         "description": ""
                     },
                     "unknown": {
-                        "title": "",
-                        "description": ""
+                        "title": "Não verificadas",
+                        "description": "Geralmente extensões premium ou privadas. Adicione acesso ao repositório para que o Upgrade Advisor possa verificá-las."
                     },
                     "replace": {
-                        "title": "",
-                        "description": ""
+                        "title": "Remover ou substituir",
+                        "description": "Remova estas antes de atualizar; instale os substitutos quando a atualização terminar."
                     },
                     "ready": {
-                        "title": "",
+                        "title": "Prontas",
                         "description": ""
                     }
                 },
                 "details": {
-                    "none": "",
+                    "none": "{version}",
                     "none_unversioned": "",
-                    "remove": "",
-                    "replacement": "",
+                    "remove": "Incorporada ao core",
+                    "replacement": "→ {replacement}",
                     "replacement_unverified": "",
-                    "abandoned": "",
+                    "abandoned": "Abandonada, sem substituto",
                     "replacement_not_ready": "",
                     "latest": "",
                     "no_release": "",
-                    "unknown": ""
+                    "unknown": "Não encontrada"
                 }
             },
             "hints": {
                 "none": "",
                 "none_unversioned": "",
                 "remove": "",
-                "swap_after_upgrade": "",
+                "swap_after_upgrade": "Remova antes de atualizar e instale {replacement} depois da atualização.",
                 "switch_replacement": "",
                 "switch_replacement_unverified": "",
                 "no_path": "",
                 "no_path_unversioned": "",
-                "no_path_abandoned": "",
+                "no_path_abandoned": "Abandonada e sem substituto. Planeje removê-la ou encontre uma alternativa.",
                 "no_path_replacement_not_ready": "",
-                "unknown": ""
+                "unknown": "Não encontrada no Packagist nem em nenhum repositório configurado. Se for premium ou privada, adicione acesso ao repositório."
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Relatório de prontidão",
+                "repositories": "Repositórios"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Adicione repositórios Composer privados ou de marketplace para que o Upgrade Advisor possa verificar extensões que não estão no Packagist público. Usados apenas quando uma extensão não é encontrada no Packagist.\n",
+                "empty": "Nenhum repositório adicional configurado.",
+                "add_floxum": "Adicionar Floxum",
+                "add_composer": "Adicionar repositório",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Personalizado",
+                "url": "URL do Repositório",
+                "username": "Nome de usuário",
+                "token": "Token",
+                "remove": "Remover repositório",
+                "test": "Testar conexão",
+                "test_ok": "Conectado",
+                "test_fail_auth": "Falha na autenticação — verifique o token",
+                "test_fail_unreachable": "Não foi possível acessar o repositório",
+                "test_fail_invalid": "Resposta inválida — verifique a URL"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Não foi possível executar as verificações de prontidão. Tente novamente."
             }
         }
     }

@@ -2,127 +2,127 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Iniciou a discussão `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Renomeou a discussão `{1}`",
+                    "description": "Novo título: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Ocultou a discussão `{1}`",
+                "restored": "Restaurou a discussão `{1}`",
+                "deleted": "Excluiu a discussão `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Criou o grupo `{1}`",
+                "renamed": "Renomeou um grupo para `{1}`",
+                "deleted": "Excluiu o grupo `{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": "",
-                "approved": ""
+                "posted": "Novo post em `{1}`",
+                "revised": "Editou um post em `{1}`",
+                "hidden": "Ocultou um post em `{1}`",
+                "restored": "Restaurou um post em `{1}`",
+                "deleted": "Excluiu um post em `{1}`",
+                "approved": "Aprovou um post em `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Novo usuário cadastrado",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Alterou o nome de usuário de `{1}`",
+                    "description": "Novo nome de usuário: {1}"
                 },
-                "deleted": ""
+                "deleted": "Excluiu o usuário `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook Não Encontrado"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": "",
-                "tag_disabled": ""
+                "service_not_found": "O serviço \"{service}\" não foi encontrado.",
+                "url_invalid": "A URL não é válida para o serviço selecionado.",
+                "tag_invalid": "Este webhook está restrito a uma tag inválida. A restrição não será aplicada. Confirme se isso é intencional.",
+                "tag_disabled": "Este webhook tinha uma restrição de tag configurada. A extensão Tags está desativada. A restrição não será aplicada. Confirme se isso é intencional."
             },
             "nav": {
-                "desc": ""
+                "desc": "Webhooks de saída personalizáveis para o seu fórum."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Debug",
+                "debug_help": "Adiciona logs extras ao arquivo de log do Flarum para depurar problemas com webhooks e/ou eventos que não funcionam corretamente.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Qualquer Tag"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "tags": "",
-                    "url": ""
+                    "disabled": "Este webhook está desativado porque não tem nenhum evento ativado.",
+                    "general": "Aqui você pode adicionar, editar e remover webhooks do seu fórum.",
+                    "tags": "Você pode restringir webhooks a tags específicas. Se você selecionar alguma tag, o webhook só será disparado se o evento ocorrer em um recurso que tenha alguma das tags selecionadas.",
+                    "url": "O endpoint do webhook a ser executado"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "name_label": "",
-                    "name_help": "",
-                    "events_label": "",
-                    "include_matching_tags_label": ""
+                    "title": "Configurações do Webhook",
+                    "description": "Aqui você altera em quais eventos o webhook é disparado.",
+                    "use_plain_text_label": "Reduzir a formatação no conteúdo do post",
+                    "max_post_content_length_label": "Tamanho Máximo do Conteúdo do Post",
+                    "max_post_content_length_help": "Defina um número para limitar o conteúdo do post em todos os eventos relacionados a posts. Use 0 ou deixe vazio para remover o limite.",
+                    "extra_text_label": "Texto Extra",
+                    "extra_text_help": "Texto extra a incluir no webhook enviado.",
+                    "group_label": "Grupo",
+                    "group_help": "Enviar recursos que este grupo pode ver",
+                    "name_label": "Nome",
+                    "name_help": "O nome do webhook. Será usado em coisas como o nome de usuário no Discord, o nome do bot no Slack etc.",
+                    "events_label": "Eventos",
+                    "include_matching_tags_label": "Incluir tags correspondentes -- em webhooks restritos a tags específicas, mostra com quais o evento correspondeu"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Discussão do Flarum",
+                            "started": "Início",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Grupo do Flarum",
+                            "created": "Criação",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Post do Flarum",
+                            "posted": "Publicação",
+                            "revised": "Edição",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Usuário do Flarum",
+                            "registered": "Cadastro",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "approval": {
-                            "title": "",
-                            "postwasapproved": ""
+                            "title": "Aprovação do Flarum",
+                            "postwasapproved": "Post Aprovado"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Exclusão",
+            "hidden": "Ocultação",
+            "renamed": "Renomeação",
+            "restored": "Restauração"
         }
     }
 }

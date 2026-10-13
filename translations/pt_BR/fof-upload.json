@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Todos os arquivos enviados pelo usuário.",
+                    "anonymize_description": "Remove a referência ao usuário dos arquivos enviados. Os arquivos em si continuam acessíveis aos usuários que podiam vê-los antes da anonimização.",
+                    "delete_description": "Exclui todos os arquivos enviados pelo usuário."
                 }
             }
         }
@@ -13,14 +13,14 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Uploads compartilhados"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Envie arquivos que podem ser usados por todos os usuários do fórum.",
+                "introduction": "Uploads compartilhados são arquivos que podem ser usados por todos os usuários do fórum. Eles não ficam anexados a nenhum post, mas podem ser inseridos em posts pelo gerenciador de mídia.\n\n<strong>Aviso:</strong> uploads compartilhados não são protegidos por nenhuma permissão. Qualquer pessoa com a URL pode vê-los.\n",
+                "no-files": "Nenhum arquivo compartilhado foi enviado ainda.",
+                "title": "Uploads compartilhados",
+                "upload-new-button": "Enviar novo arquivo"
             },
             "pane": {
                 "title": "Upload",
@@ -42,7 +42,7 @@
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
+                    "bucket": "Bucket",
                     "key": "Chave",
                     "region": "Região",
                     "secret": "",
@@ -70,12 +70,12 @@
                     "cdn_url": "URL de entrega de conteúdo (arquivos de prefixos)",
                     "title": "Configurações de armazenamento local"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Suas configurações de armazenamento foram pré-configuradas por variáveis de ambiente.",
                 "qiniu": {
                     "title": "Configurações de armazenamento Qiniu",
                     "key": "Chave",
                     "secret": "Segredo",
-                    "bucket": ""
+                    "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Tamanho máximo do arquivo (em kilobytes)",
@@ -98,10 +98,10 @@
                     "toggle": "Imagens de marca d'água"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Sanitizador de SVG",
+                    "allow_animate": "Permitir animações SVG",
+                    "help": "Configure como os arquivos SVG são processados e sanitizados no upload. Arquivos SVG podem conter scripts potencialmente perigosos e devem ser tratados com cuidado. Os SVGs enviados são sanitizados no upload, e scripts e tags perigosos são removidos.",
+                    "allow_animate_help": "Ativar animações SVG pode introduzir vulnerabilidades de segurança, pois SVGs animados podem conter código malicioso. Ative esta configuração por sua conta e risco e somente se confiar nos seus usuários."
                 },
                 "composer_buttons": {
                     "title": "Botões do Composer",
@@ -118,8 +118,8 @@
                 "upload_label": "Fazer upload de arquivos",
                 "view_user_uploads_label": "Ver uploads de usuários",
                 "delete_uploads_of_others_label": "Excluir uploads de usuários",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "upload_shared_label": "Enviar arquivos compartilhados",
+                "access_shared_label": "Acessar arquivos compartilhados no gerenciador de mídia"
             },
             "templates": {
                 "file": "Modelo de download de arquivo padrão",
@@ -164,11 +164,11 @@
             "buttons": {
                 "attach": "Anexar",
                 "upload": "Upload",
-                "upload_shared": "",
+                "upload_shared": "Compartilhados",
                 "user_uploads": "Upload do usuário",
                 "cancel": "Cancelar",
                 "media": "Minha mídia",
-                "shared_media": ""
+                "shared_media": "Mídia compartilhada"
             },
             "states": {
                 "error": "Erro",
@@ -208,55 +208,55 @@
                 "forbidden_type": "O upload de arquivos deste tipo não é permitido.",
                 "unsupported_type": "O adaptador de upload não é compatível com o tipo MIME fornecido: {mime}.",
                 "could_not_detect_mime": "Não foi possível detectar o tipo MIME deste arquivo, tente novamente.",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "max_upload_file_size_ini": "Limite máximo de tamanho de arquivo do php.ini atingido.",
+                "max_upload_file_size_form": "Limite máximo de tamanho de arquivo do formulário atingido.",
+                "partial_upload": "Upload parcial.",
+                "no_file_uploaded": "Nenhum arquivo enviado.",
+                "no_upload_tmp_folder": "Sem pasta tmp para o upload de arquivos.",
+                "cannot_write_to_disk": "Falha ao gravar no disco.",
+                "upload_blocked_by_php_extension": "Uma extensão do PHP bloqueou o upload.",
+                "no_files_made_it_to_upload": "Envie arquivos de no máximo {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Novo arquivo compartilhado",
+                "dropzone": "Arraste e solte arquivos aqui ou clique para procurar",
+                "hide-from-media-gallery": "Ocultar da galeria de mídia do usuário",
+                "upload": "Enviar"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "Carregando arquivos...",
+                "empty": "Não há arquivos para mostrar.",
+                "release_to_upload": "Solte para enviar",
+                "modal_empty_desktop": "Sua lista de arquivos está vazia. Clique no botão ou arraste um arquivo para cá para enviar.",
+                "modal_empty_phone": "Sua lista de arquivos está vazia. Toque no botão acima para enviar um arquivo.",
+                "select_file_a11y_label": "Selecionar o arquivo \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nenhum selecionado} one {Selecionar arquivo} other {Selecionar arquivos}}",
+                "load_more_files_btn": "Carregar mais arquivos",
+                "delete_file_a11y_label": "Excluir o arquivo \"{fileName}\"",
+                "delete_confirmation": "Tem certeza de que deseja excluir \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ocultar \"{fileName}\" do gerenciador de mídia",
+                    "btn_a11y_label_show": "Mostrar \"{fileName}\" no gerenciador de mídia",
+                    "hide_confirmation": "Tem certeza de que deseja ocultar \"{fileName}\"? Ocultar um arquivo apenas o remove do seu gerenciador de mídia e não afeta os posts existentes.",
+                    "hide_success": "Arquivo oculto",
+                    "show_confirmation": "Tem certeza de que deseja mostrar \"{fileName}\"? Mostrar um arquivo o torna visível no seu gerenciador de mídia.",
+                    "show_success": "Arquivo visível",
+                    "hide_fail": "Não foi possível ocultar o arquivo \"{fileName}\"",
+                    "show_fail": "Não foi possível mostrar o arquivo \"{fileName}\"",
+                    "loading": "Ocultando arquivo..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Tornar \"{fileName}\" privado (sem URL pública)",
+                    "btn_a11y_label_show": "Tornar \"{fileName}\" público (com URL pública)",
+                    "hide_confirmation": "Tem certeza de que deseja tornar \"{fileName}\" privado? Tornar um arquivo privado remove a URL pública dele, mas não afeta os posts existentes. Ele também deixa de ficar visível no gerenciador de mídia para usuários não autorizados.",
+                    "hide_success": "Arquivo tornado privado",
+                    "show_confirmation": "Tem certeza de que deseja tornar \"{fileName}\" público? Tornar um arquivo público o deixa acessível a qualquer pessoa com a URL pública, e qualquer um poderá compartilhá-lo pelo gerenciador de mídia.",
+                    "show_success": "Arquivo tornado público",
+                    "hide_fail": "Não foi possível tornar o arquivo \"{fileName}\" privado",
+                    "show_fail": "Não foi possível tornar o arquivo \"{fileName}\" público",
+                    "loading": "Tornando o arquivo privado..."
                 }
             }
         }

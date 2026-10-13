@@ -4,9 +4,9 @@
             "settings": {
                 "enabled_label": "Schutz durch Forum Fortress aktivieren",
                 "enabled_help": "Registrierungen, Diskussionen, Antworten, Beiträge und Profiländerungen mit „Forum Fortress“ gegenprüfen.",
-                "repeat_offender_label": "",
-                "repeat_offender_help": "",
-                "repeat_offender_unavailable": "",
+                "repeat_offender_label": "Wiederholte Spammer für sieben Tage sperren",
+                "repeat_offender_help": "Standardmäßig deaktiviert. Nach zwei eindeutig bestätigten Spam-Blockierungen mit ursprünglichen Werten über 80 innerhalb von 24 Stunden wird ein neues Mitglied mit geringer Aktivität für sieben Tage gesperrt. Erfordert den Flarum-Scheduler. Mitarbeiter, benutzerdefinierte Gruppen und etablierte Mitglieder sind davon ausgenommen. Die Sperre kann über die nativen Sperrfunktionen aufgehoben werden; die automatische Sperrung wird höchstens einmal pro Mitglied angewendet.",
+                "repeat_offender_unavailable": "Nicht verfügbar: Installiere und aktiviere die kompatible Flarum-Erweiterung „Suspend“. Es wird keine Kontoaktion ersetzt. Der Flarum-Scheduler muss jede Minute ausgeführt werden.",
                 "api_base_url_label": "API-Basis-URL prüfen",
                 "api_region_label": "API-Region",
                 "api_region_help": "Beschränke den Datenverkehr auf eine Region oder nutze das empfohlene globale Netzwerk.",

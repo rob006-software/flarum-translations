@@ -43,12 +43,12 @@
                 "title": "Básico",
                 "welcome_banner_heading": "Banner de boas-vindas",
                 "welcome_banner_text": "Configure o texto exibido no banner na página Todas as discussões. Use isso para receber convidados no seu fórum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Extensões Abandonadas",
+                "abandoned_extensions_text": "O Flarum mantém uma <a>lista comunitária de extensões abandonadas</a>. Quando uma extensão instalada aparece na lista, ela é sinalizada no painel admin.",
+                "abandoned_extensions_sync_button": "Verificar Agora",
+                "abandoned_extensions_sync_success": "Lista de extensões abandonadas atualizada. Extensões instaladas na lista: {count}.",
+                "abandoned_extensions_sync_error": "Falha ao buscar a lista de extensões abandonadas. Tente novamente mais tarde.",
+                "abandoned_extensions_notify_admins_label": "Notificar admins por e-mail quando uma extensão recém-abandonada for detectada na verificação semanal"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -61,28 +61,28 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
-                "title": "",
-                "view_all": ""
+                "comments_label": "{count, plural, one {# comentário} other {# comentários}}",
+                "description": "Últimas notícias e anúncios da equipe Flarum.",
+                "empty": "Nenhum anúncio encontrado.",
+                "load_error": "Não foi possível carregar os anúncios. Tente novamente mais tarde.",
+                "about": "Últimas notícias e anúncios extraídos da comunidade oficial do Flarum em discuss.flarum.org.",
+                "hide": "Ocultar anúncios",
+                "read_more": "Ler mais",
+                "refresh": "Atualizar anúncios",
+                "retry": "Tentar novamente",
+                "show": "Mostrar anúncios",
+                "title": "Anúncios",
+                "view_all": "Ver todos em discuss.flarum.org"
             },
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
                 "description": "Seu fórum em uma visão geral.",
-                "info_button": "",
+                "info_button": "Info do Sistema",
                 "info_modal": {
-                    "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "title": "Informações do Sistema",
+                    "copy_button": "Copiar",
+                    "copy_success": "Informações do sistema copiadas",
+                    "copy_error": "Falha ao copiar"
                 },
                 "io_error_message": "Não foi possível escrever no sistema de arquivos. Verifique as permissões e tente novamente ou execute pela linha de comando.",
                 "status": {
@@ -160,11 +160,11 @@
                 "mail_ses_key_label": "Chave"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Esta extensão não é mais mantida pelo autor e pode não receber atualizações.",
+                "abandoned_with_replacement": "Esta extensão foi substituída por {replacement}. Considere migrar para o pacote substituto.",
                 "configure_scopes": "Configurações",
                 "confirm_purge": "A limpeza removerá todas as entradas do banco de dados e recursos relacionados à extensão. Ela NÃO desinstalará a extensão; isso deve ser feito via Composer. Tem certeza de que deseja continuar?",
-                "deprecated": "",
+                "deprecated": "Obsoleta",
                 "disabled": "Desabilitada",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Habilitada",
@@ -186,7 +186,7 @@
                     "no_readme": "Esta extensão não parece ter um arquivo README",
                     "title": "Documentação da extensão {extName}"
                 },
-                "replaced": "",
+                "replaced": "Substituída",
                 "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
                 "uninstall_button": "Desinstalar"
             },
@@ -208,7 +208,7 @@
                     "discussion": "Discussão",
                     "feature": "Recursos",
                     "formatting": "Formatação",
-                    "forum-widget": "",
+                    "forum-widget": "Widgets do Fórum",
                     "language": "Idiomas",
                     "moderation": "Moderação",
                     "other": "Outras Extensões",
@@ -585,7 +585,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Sua conexão foi restabelecida.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Fechar alerta"
@@ -620,9 +620,9 @@
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
                 "generic_cross_origin_message": "Oops! Algo deu errado durante uma solicitação de origem cruzada. Por favor, recarregue a página e tente novamente.",
                 "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
-                "network_message": "",
+                "network_message": "Parece haver algo errado com sua conexão. Verifique sua rede e tente novamente.",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
-                "offline_message": "",
+                "offline_message": "Você parece estar offline. Verifique sua conexão e tente novamente.",
                 "payload_too_large_message": "A carga da solicitação era muito grande.",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
                 "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
@@ -694,7 +694,7 @@
                 "csrf_token_mismatch_return_link": "Voltar para tentar novamente",
                 "invalid_confirmation_token": "Este link de confirmação já foi usado ou é inválido.",
                 "not_authenticated": "Você não tem permissão para acessar esta página. Tente novamente após o login.",
-                "method_not_allowed": "",
+                "method_not_allowed": "Esta página não suporta esse método de requisição.",
                 "not_found": "A página solicitada não pôde ser encontrada.",
                 "not_found_return_link": "Retornar para {forum}",
                 "permission_denied": "Você não tem permissão para acessar esta página.",
@@ -743,7 +743,7 @@
                 "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar que a configuração de e-mail do seu Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração está funcionando!\n\nSe não foi você, ignore este e-mail.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Ação necessária: extensão(ões) abandonada(s) detectada(s)",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""
