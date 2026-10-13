@@ -9,7 +9,7 @@
             "notifications": {
                 "user_suspended_text": "Você foi suspenso por {timeReadable}",
                 "user_suspended_indefinite_text": "Você foi suspenso indefinidamente",
-                "user_unsuspended_text": "Você não está mais suspenso"
+                "user_unsuspended_text": "Sua suspensão foi removida"
             },
             "suspension_info": {
                 "dismiss_button": "Dispensar",
@@ -18,14 +18,14 @@
                 "title": "Esta conta está suspensa"
             },
             "suspend_user": {
-                "display_message": "Exibir mensagem para o usuário",
+                "display_message": "Mensagem exibida ao usuário",
                 "indefinitely_label": "Suspenso indefinidamente",
                 "limited_time_days_text": " dias",
                 "limited_time_label": "Suspenso por tempo limitado...",
                 "not_suspended_label": "Não suspenso",
                 "placeholder_optional": "Opcional",
                 "reason": "Motivo da suspensão",
-                "status_heading": "Situação da Suspensão",
+                "status_heading": "Status da Suspensão",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Suspender {username}"
             },
@@ -37,13 +37,13 @@
             }
         },
         "email": {
-            "no_reason_given": "Nenhuma razão foi dada para esta suspensão.",
+            "no_reason_given": "Nenhum motivo foi dado para esta suspensão.",
             "suspended": {
-                "subject": "A sua conta foi suspensa",
+                "subject": "Sua conta foi suspensa",
                 "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "Sua conta não está mais suspensa",
+                "subject": "Sua suspensão foi removida",
                 "body": "Olá, {recipient_display_name},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{forum_url}\n"
             }
         },

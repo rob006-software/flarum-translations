@@ -4,10 +4,10 @@
             "settings": {
                 "title": "Configurações dos Termos",
                 "field": {
-                    "signup-legal-text": "Texto adicional no formulário de inscrição",
+                    "signup-legal-text": "Texto adicional no formulário de cadastro",
                     "hide-updated-at": "Não mostrar a data de atualização dos termos quando uma atualização estiver disponível",
                     "date-format": "Formato da data",
-                    "date-format-help": "Você pode usar qualquer formato <a>Day.js</a> válido. Deixe o campo vazio por padrão."
+                    "date-format-help": "Você pode usar qualquer formato <a>Day.js</a> válido. Deixe o campo vazio para usar o padrão."
                 }
             },
             "titles": {
@@ -18,7 +18,7 @@
                 "edit-policy": "Editar Política",
                 "add-policy": "Adicionar Política",
                 "save-policy": "Salvar Política",
-                "delete-policy": "Deletar Política",
+                "delete-policy": "Excluir Política",
                 "set-to-now": "Definir para agora"
             },
             "messages": {
@@ -28,38 +28,38 @@
                 "name": "Nome",
                 "name-help": "Este nome será mostrado ao lado da caixa de seleção e como o título do modal de atualização.",
                 "url": "URL",
-                "url-help": "O URL para a página onde você pode ler os termos. Abrirá em uma nova aba quando clicado.",
-                "update-message": "Atualizar Mensagem",
+                "url-help": "A URL da página onde é possível ler os termos. Abrirá em uma nova aba ao ser clicada.",
+                "update-message": "Mensagem de Atualização",
                 "update-message-help": "Uma mensagem para mostrar aos usuários existentes que ainda não aceitaram os termos mais recentes.",
                 "terms-updated-at": "Atualizado em",
-                "terms-updated-at-placeholder": "DD-MM-YYYY (hh:mm:ss)",
+                "terms-updated-at-placeholder": "AAAA-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "A data da última atualização de termos. Definir esse valor exigirá que todos os usuários que aceitaram antes dessa data aceitem novamente. Deve estar no passado (caso contrário, os usuários nunca conseguiriam aceitar após a data e passar do modal).\n",
-                "export-url": "Exportar URL",
-                "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n",
+                "export-url": "URL de Exportação",
+                "export-url-help": "Qualquer usuário com a permissão \"Exportar todos os dados de usuários e políticas\" pode acessar essas URLs para baixar a lista de usuários que aceitaram esta política. Você encontra mais detalhes sobre as opções disponíveis na <a>wiki da extensão</a>.\n",
                 "optional": "Política Opcional",
                 "optional-help": "Quando ativado, os usuários podem usar e interagir com o fórum sem aceitar esta política."
             },
             "permissions": {
-                "see-user-policies-state": "Veja o estado das políticas do usuário",
+                "see-user-policies-state": "Ver o estado das políticas do usuário",
                 "postpone-policies-accept": "Pode adiar a aceitação dos novos termos",
-                "export-policies": "Exporte todos os dados de usuários e políticas"
+                "export-policies": "Exportar todos os dados de usuários e políticas"
             }
         },
         "forum": {
             "signup": {
                 "i-accept": "Aceito <a>{policy}</a>",
-                "must-accept": "{policy} deve ser aceita."
+                "must-accept": "É obrigatório aceitar {policy}."
             },
             "accept-modal": {
                 "title": "Atualização de Termos",
                 "updated-at": "Os termos foram atualizados em {date}",
                 "updated-recently": "Os termos foram atualizados desde sua última visita",
-                "i-accept": "Aceito a nova <a>{policy}</a>",
-                "accept": "Confirme",
+                "i-accept": "Aceito a nova versão de <a>{policy}</a>",
+                "accept": "Confirmar",
                 "close": "Obrigado por aceitar, agora você pode voltar ao fórum"
             },
             "state-modal": {
-                "title": "O estado de aceite dos termos do usuário {username}",
+                "title": "Estado de aceite dos termos do usuário {username}",
                 "accepted-at": "Aceito {date}",
                 "not-accepted": "Não aceito"
             },

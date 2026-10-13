@@ -3,12 +3,12 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "Ajustes Gerais",
-                    "help": "Essas configurações controlam os recursos básicos da extensão de Enquetes."
+                    "heading": "Configurações Gerais",
+                    "help": "Essas configurações controlam os recursos básicos da extensão de enquetes."
                 },
                 "global_polls": {
                     "heading": "Enquetes Globais",
-                    "help": "Essas configurações controlam o recurso global de enquetes."
+                    "help": "Essas configurações controlam o recurso de enquetes globais."
                 },
                 "image": {
                     "heading": "Configurações de Imagem",
@@ -18,7 +18,7 @@
                 "allow_image_uploads": "Permitir o envio de imagens para enquetes e suas opções",
                 "allow_image_uploads_help": "Se ativado, os usuários poderão enviar imagens juntamente com a URL da imagem (se ativado para as opções, sempre estará ativado para a própria enquete).",
                 "enable_global_polls": "Ativar enquetes globais",
-                "enable_global_polls_help": "Enquetes globais não estão vinculadas a uma postagem específica e podem ser acessadas a partir de uma página dedicada de enquetes.",
+                "enable_global_polls_help": "Enquetes globais não estão vinculadas a um post específico e podem ser acessadas em uma página própria de enquetes.",
                 "enabled_poll_groups": "Ativar grupos de enquetes",
                 "enabled_poll_groups_help": "Os grupos de enquetes permitem agrupar enquetes globais e exibi-las em uma página própria.",
                 "max_options": "Número máximo de opções por enquete",
@@ -29,12 +29,12 @@
             },
             "permissions": {
                 "view_results_without_voting": "Ver resultados sem votar",
-                "start": "Iniciar uma enquete",
+                "start": "Iniciar enquete",
                 "start_global": "Iniciar enquete global",
-                "self_edit": "Permitir que os usuários editem suas próprias enquetes",
+                "self_edit": "Editar as enquetes criadas (requer permissão de editar posts)",
                 "self_post_edit": "Editar *todas* as enquetes nos próprios posts (requer permissão de editar posts)",
                 "upload_images": "Enviar imagens para enquetes",
-                "vote": "Vote nas enquetes",
+                "vote": "Votar em enquetes",
                 "change_vote": "Mudar voto",
                 "moderate": "Editar e remover enquetes",
                 "view_group": "Ver grupos de enquetes",
@@ -43,19 +43,19 @@
             }
         },
         "forum": {
-            "days_remaining": "Enquete termina em {time}.",
+            "days_remaining": "Enquete termina {time}.",
             "no_permission": "Você não tem permissão para votar",
             "poll_ended": "Esta enquete terminou.",
-            "public_poll": "Veja quem votou",
+            "public_poll": "Ver quem votou",
             "max_votes_allowed": "A enquete permite votar em {max, plural, one {# opção} other {# opções}}.",
-            "polls_count": "{count, plural, one { {count} voto} other {{count} votos}}",
+            "polls_count": "{count, plural, one {# voto} other {# votos}}",
             "poll_never_ends": "Enquete nunca termina",
             "answers": "Respostas",
             "poll": {
                 "cannot_change_vote": "Você não pode alterar seu voto após votar.",
-                "submit_button": "Voto",
+                "submit_button": "Votar",
                 "start_poll_button": "Iniciar Enquete Global",
-                "cannot_start_poll_button": "Não é possível iniciar a enquete",
+                "cannot_start_poll_button": "Impossível Iniciar Enquete",
                 "total_votes": "{count, plural, one {# voto registrado} other {# votos registrados}}",
                 "draft_label": "Rascunho",
                 "scheduled_label": "Agendada para {date}",
@@ -134,7 +134,7 @@
                 }
             },
             "composer_discussion": {
-                "add_poll": "Adicionar enquete",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
                 "no_permission_alert": "Você não tem permissão para iniciar uma enquete."
             },
@@ -157,19 +157,19 @@
                 "schedule": "Agendar"
             },
             "modal": {
-                "add_title": "Adicionar enquete",
-                "add_option_label": "Adicionar uma opção",
-                "date_placeholder": "Data de término da enquete (opcional)",
-                "edit_title": "Editar enquete",
+                "add_title": "Adicionar Enquete",
+                "add_option_label": "Adicionar Opção",
+                "date_placeholder": "Data final da enquete (Opcional)",
+                "edit_title": "Editar Enquete",
                 "include_question": "Você deve incluir uma pergunta",
                 "max": "Você pode ter no máximo {max} respostas",
                 "min": "Você deve incluir um mínimo de 2 respostas",
                 "empty_answers": "{count, plural, one {# resposta está vazia — preencha-a ou remova-a.} other {# respostas estão vazias — preencha-as ou remova-as.}}",
-                "no_voters": "Sem votos",
+                "no_voters": "Sem Votos",
                 "option_placeholder": "Resposta",
-                "image_option_placeholder": "URL da imagem (opcional)",
+                "image_option_placeholder": "URL da Imagem (opcional)",
                 "options_label": "Respostas",
-                "public_poll_label": "Permitir que as pessoas vejam quem votou",
+                "public_poll_label": "Permitir ver quem votou",
                 "allow_multiple_votes_label": "Permitir votar em várias opções",
                 "max_votes_label": "Máximo de votos por usuário",
                 "max_votes_help": "Defina 0 para permitir que os usuários votem em todas as opções.",
@@ -200,9 +200,9 @@
             },
             "moderation": {
                 "add": "Adicionar Enquete",
-                "delete": "Remover enquete",
+                "delete": "Remover Enquete",
                 "delete_confirm": "Tem certeza de que deseja excluir esta enquete?",
-                "edit": "Editar enquete"
+                "edit": "Editar Enquete"
             },
             "page": {
                 "nav": "Enquetes",
@@ -217,10 +217,10 @@
             },
             "tooltip": {
                 "badge": "Enquete",
-                "votes": "{count, plural, one {# vote} other {# votes} }"
+                "votes": "{count, plural, one {# voto} other {# votos}}"
             },
             "votes_modal": {
-                "title": "Veja quem votou"
+                "title": "Votantes"
             },
             "upload_image": {
                 "remove_button": "Excluir Imagem",

@@ -2,10 +2,10 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "API Key",
+                "api_key_label": "Chave de API",
                 "title": "Configurações do Akismet",
-                "delete_blatant_spam_label": "Excluir spam sinalizado automaticamente",
-                "delete_blatant_spam_help": "Se o Akismet determinar que o comentário é spam, em vez de sinalizar, exclua automaticamente a postagem"
+                "delete_blatant_spam_label": "Excluir automaticamente spam evidente",
+                "delete_blatant_spam_help": "Se o Akismet determinar que o comentário é spam evidente, exclui o post automaticamente em vez de sinalizá-lo"
             },
             "permissions": {
                 "bypass_akismet": "Ignorar Akismet"
@@ -14,7 +14,7 @@
         "forum": {
             "post": {
                 "akismet_flagged_text": "Akismet sinalizou como spam",
-                "not_spam_button": "Não é Spam"
+                "not_spam_button": "Não É Spam"
             }
         }
     }
