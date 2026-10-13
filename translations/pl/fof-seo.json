@@ -32,7 +32,7 @@
                     "mode_main_title": "Indeksuj tylko pierwszy post (domyślnie)",
                     "mode_main_help": "Wyszukiwarki będą pokazywać w wynikach tylko pierwszy post dyskusji. Nie wpłynie to na szybkość ładowania, gdy przejdziesz do dyskusji z linków na forum.",
                     "mode_all_title": "Indeksuj wszystkie posty w dyskusji (opcja włączona)",
-                    "mode_all_help": "Wyszukiwarki lepiej zrozumieją przebieg dyskusji i mogą pokazać trafne odpowiedzi bezpośrednio pod wynikiem wyszukiwania. Jeśli masz zainstalowane i włączone rozszerzenie '<a>best answer</a>', dyskusja może zostać oznaczona w wynikach jako „rozwiązana”, a użytkownik zostanie przekierowany do konkretnego posta. Każda odpowiedź udostępnia też liczbę polubień i głosów, dzięki czemu wyszukiwarki mogą rozpoznać najbardziej pomocne odpowiedzi nawet bez rozszerzenia best answer. <b>Jednak w zależności od konfiguracji serwera może to być bardziej obciążające</b>. Może wpłynąć na wydajność, więc decyzja o włączeniu tej funkcji zależy od tego, jak szybki jest Twój serwer.",
+                    "mode_all_help": "Wyszukiwarki lepiej zrozumieją przebieg dyskusji i mogą pokazać trafne odpowiedzi bezpośrednio pod wynikiem wyszukiwania. Jeśli masz zainstalowane i włączone rozszerzenie „<a>best answer</a>”, dyskusja może zostać oznaczona w wynikach jako „rozwiązana”, a użytkownik zostanie przekierowany do konkretnego posta. Każda odpowiedź udostępnia też liczbę polubień i głosów, dzięki czemu wyszukiwarki mogą rozpoznać najbardziej pomocne odpowiedzi nawet bez rozszerzenia best answer. <b>Jednak w zależności od konfiguracji serwera może to być bardziej obciążające</b>. Może wpłynąć na wydajność, więc decyzja o włączeniu tej funkcji zależy od tego, jak szybki jest Twój serwer.",
                     "question": "Czy chcesz włączyć tę funkcję?",
                     "switch_label": "Indeksuj wszystkie posty (wolniejsze przy odświeżaniu strony, ale lepsze wyniki wyszukiwania)"
                 },
@@ -83,7 +83,7 @@
                 },
                 "nofollow": {
                     "heading": "Linki no-follow",
-                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut '<i>nofollow</i>'. Dzięki temu użytkownicy nie będą spamować forum linkami do innych domen, aby zdobywać odesłania.",
+                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut „<i>nofollow</i>”. Dzięki temu użytkownicy nie będą spamować forum linkami do innych domen, aby zdobywać odesłania.",
                     "help_dofollow": "To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.",
                     "button": "Otwórz listę domen do-follow"
                 },
