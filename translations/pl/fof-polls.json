@@ -57,9 +57,9 @@
                 "start_poll_button": "Rozpocznij globalną ankietę",
                 "cannot_start_poll_button": "Nie można rozpocząć ankiety",
                 "total_votes": "{count, plural, one {Oddano # głos} few {Oddano # głosy} other {Oddano # głosów}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "draft_label": "Wersja robocza",
+                "scheduled_label": "Zaplanowano na {date}",
+                "scheduled_error_tooltip": "Nie udało się opublikować ankiety w zaplanowanym terminie. Otwórz ankietę, aby sprawdzić przyczynę."
             },
             "poll_controls": {
                 "edit_label": "=> core.ref.edit",
@@ -68,16 +68,16 @@
                 "delete_confirmation": "Czy na pewno chcesz usunąć tę ankietę?",
                 "delete_success_message": "Usunięto ankietę pomyślnie.",
                 "delete_error_message": "Coś poszło nie tak podczas usuwania ankiety.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Opublikuj teraz",
+                "publish_success": "Opublikowano ankietę.",
+                "schedule_publish_label": "Zaplanuj publikację",
+                "edit_schedule_publish_label": "Edytuj zaplanowaną publikację",
+                "cancel_schedule_label": "Anuluj zaplanowaną publikację",
+                "cancel_schedule_success": "Anulowano zaplanowaną publikację.",
+                "unpublish_label": "Przenieś do wersji roboczych",
+                "unpublish_confirmation": "Przenieść tę ankietę do wersji roboczych? Zniknie z listy prezentowanych ankiet.",
+                "unpublish_success": "Przeniesiono ankietę do wersji roboczych.",
+                "unpublish_error_has_votes": "Nie można cofnąć publikacji — w ankiecie oddano już głosy. Zamiast tego usuń ją."
             },
             "poll_form": {
                 "delete": "Usuń ankietę",
@@ -128,9 +128,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Wszystkie",
+                    "published": "Opublikowane",
+                    "draft": "Wersje robocze"
                 }
             },
             "composer_discussion": {
@@ -145,16 +145,16 @@
                 "polls_preview": "Zobacz ankietę",
                 "continue_editing": "Kontynuuj edycję",
                 "success": "Ankieta zapisana pomyślnie.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Zatwierdź",
+                "save_as_draft": "Zapisz jako wersję roboczą",
+                "update_draft": "Zaktualizuj wersję roboczą",
+                "draft_saved": "Zapisano wersję roboczą",
+                "publish": "Opublikuj",
+                "schedule_publication": "Zaplanuj publikację",
+                "schedule_publication_edit": "Edytuj zaplanowaną publikację",
+                "schedule_datetime_label": "Termin publikacji",
+                "schedule_submit": "Zaplanuj",
+                "schedule": "Zaplanuj"
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
@@ -164,7 +164,7 @@
                 "include_question": "Ankieta musi zawierać pytanie",
                 "max": "Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}",
                 "min": "Musisz uwzględnić co najmniej 2 opcje",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# odpowiedź jest pusta — uzupełnij ją lub usuń.} few {# odpowiedzi są puste — uzupełnij je lub usuń.} other {# odpowiedzi jest pustych — uzupełnij je lub usuń.}}",
                 "no_voters": "Brak głosów",
                 "option_placeholder": "Odpowiedź",
                 "image_option_placeholder": "URL obrazka (opcjonalne)",
@@ -183,7 +183,7 @@
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
                     "label": "Obrazek ankiety",
-                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie).",
+                    "help": "Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).",
                     "alt_label": "Alternatywny tekst obrazka",
                     "alt_help_text": "Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.",
                     "later_help": "Po utworzeniu ankiety będzie można przesłać obrazek."

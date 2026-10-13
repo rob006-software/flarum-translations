@@ -3,13 +3,13 @@
         "forum": {
             "modal": {
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "Falha ao carregar a ferramenta de recorte.",
+                    "generic_resize": "Algo deu errado ao recortar e redimensionar a imagem.",
+                    "get_image_data": "Falha ao recortar. Verifique se a proteção contra fingerprinting do navegador está desativada."
                 },
                 "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "submit_button": "Enviar",
+                "submit_crop_button": "Recortar e Enviar"
             }
         }
     }

@@ -2,85 +2,85 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Marcar usuário como spammer"
             },
             "settings": {
-                "button": "",
+                "button": "Configurações",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Excluir usuário",
+                    "delete_user_help": "Isso excluirá o usuário permanentemente. Quando desativado, o usuário será suspenso.",
+                    "delete_discussions_label": "Excluir discussões",
+                    "delete_discussions_help": "Isso excluirá permanentemente todas as discussões iniciadas por este usuário. Quando desativado, as discussões serão apenas ocultadas.",
+                    "delete_posts_label": "Excluir posts",
+                    "delete_posts_help": "Isso excluirá permanentemente todos os posts feitos por este usuário. Quando desativado, os posts serão apenas ocultados.",
+                    "heading": "Ações de moderação padrão",
+                    "introduction": "Quando um usuário é marcado como spammer, os moderadores podem escolher entre várias ações para lidar com cada caso. Estas configurações permitem predefinir as ações que você costuma tomar, para agilizar o processo, sem impedir variações quando necessário.",
+                    "move_discussions_to_tags_label": "Mover discussões para tag(s)",
+                    "move_discussions_to_tags_help": "Isso moverá todas as discussões iniciadas por este usuário para a(s) tag(s) especificada(s). Limpe a seleção de tags para manter as discussões nas tags originais. Não tem efeito se a opção \"Excluir discussões\" estiver ativada."
                 },
                 "stopforumspam": {
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
-                    "report_blocked_registrations_help": ""
+                    "introduction": "Verifica os novos cadastros de usuários no banco de dados do <a>StopForumSpam</a>. Se o limite de <code>confidence</code> ou de <code>frequency</code> for atingido, o usuário é impedido de concluir o cadastro no seu fórum.\n\nO cadastro por SSO via <code>fof/oauth</code> e <code>fof/passport</code> também é compatível. Outros provedores de SSO devem funcionar, mas não foram testados.\n",
+                    "username_label": "Verificação de Spam por Nome de Usuário",
+                    "ip_label": "Verificação de Spam por Endereço IP",
+                    "email_label": "Verificação de Spam por E-mail",
+                    "frequency_label": "Limite",
+                    "frequency_help": "O número de denúncias de spam, somando todas as verificações ativadas, que acionará o filtro de spam.\nEx.: se o e-mail tiver 1 ocorrência e o IP tiver 2, haverá 3 ocorrências no total. Se o limite for 3 ou menos, o cadastro será impedido.\n",
+                    "api_key_label": "Chave de API",
+                    "api_key_text": "Você tem a opção de denunciar spammers ao StopForumSpam para ajudar a manter toda a comunidade de fóruns livre de spam.",
+                    "api_key_instructions_text": "<register>Cadastre-se no StopForumSpam</register>. Depois, você precisará <key>obter uma chave de API</key>.",
+                    "regional_endpoint_label": "Acesso Geográfico",
+                    "regional_endpoint_help": "Por padrão, a consulta é direcionada ao servidor regional mais próximo para obter a resposta mais rápida. Se quiser restringir o tráfego a uma região específica, por exemplo para cumprir regras de privacidade da empresa ou do país, você pode forçar a conexão a uma região específica.",
+                    "region_closest_label": "Mais próximo",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Estados Unidos",
+                    "confidence_label": "Confiança",
+                    "confidence_help": "A pontuação de confiança é um indicador razoavelmente bom de que o campo testado resultaria em atividade indesejada. Defina seu nível de confiança como uma porcentagem. Se o campo for igual ou superior a esse valor, o cadastro será bloqueado, independentemente do teste de \"frequência\" acima.",
+                    "email_hash_label": "Usar hash do endereço de e-mail",
+                    "email_hash_help": "Envia um hash MD5 do endereço de e-mail caso você não queira enviar o próprio endereço. Este método ignora todas as verificações de lista de bloqueio, normalização e contorno de ofuscação.",
+                    "sfs_lookup_label": "Consultar cadastros",
+                    "sfs_lookup_help": "Se ativado, consultaremos o banco de dados do StopForumSpam quando um novo usuário se cadastrar no seu fórum. Se o usuário for encontrado (nome de usuário, endereço IP, e-mail), esse dado estiver ativado e o nível de confiança do SFS atingir o nível definido por você, ele será impedido de concluir o cadastro.",
+                    "report_blocked_registrations_label": "Denunciar cadastros bloqueados",
+                    "report_blocked_registrations_help": "Quando um cadastro for bloqueado pelo recurso \"Consultar cadastros\", a tentativa será denunciada ao StopForumSpam, para que a atividade do spammer seja melhor confirmada. Requer uma chave de API do StopForumSpam definida (veja abaixo)."
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
-                "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "button": "Cadastros Bloqueados",
+                "title": "Cadastros Bloqueados",
+                "no-records": "Nenhum cadastro bloqueado encontrado.",
+                "help": "Esta página mostra todos os cadastros bloqueados pelo serviço StopForumSpam. Você pode ver os detalhes de cada cadastro e, se quiser, excluir o registro do banco de dados.\n",
+                "attempted-at": "Tentativa em",
+                "ip": "Endereço IP",
+                "email": "Endereço de E-mail",
+                "username": "Nome de usuário",
+                "login-provider": "Provedor de Login",
+                "login-provider-data": "Dados do Provedor de Login",
+                "sfs-data": "Dados do StopForumSpam",
+                "delete_entry": "Excluir entrada"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Dados do seu cadastro foram encontrados em um banco de dados de prevenção de spam, por isso seu cadastro foi bloqueado."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Excluir discussões",
+                "hard_delete_discussions_help": "Isso excluirá permanentemente todas as discussões iniciadas por este usuário. Quando desativado, as discussões serão apenas ocultadas.",
+                "hard_delete_posts_label": "Excluir posts",
+                "hard_delete_posts_help": "Isso excluirá permanentemente todos os posts (comentários, respostas etc.) feitos por este usuário. Quando desativado, os posts serão apenas ocultados.",
+                "hard_delete_user_label": "Excluir usuário",
+                "hard_delete_user_help": "Isso excluirá o usuário permanentemente. Quando desativado, o usuário será suspenso.",
+                "intro": "Ao marcar um usuário como spammer, várias ações serão executadas, dependendo das extensões disponíveis no seu fórum.",
+                "move_discussions_tag_label": "Mover discussões para a tag de quarentena",
+                "move_discussions_tag_help": "Isso moverá todas as discussões iniciadas por este usuário para a tag especificada nas configurações do fórum. Quando desativado, as discussões permanecerão nas tags atuais.",
+                "process_button": "Processar",
+                "title": "Marcar {username} como spammer",
+                "report_to_sfs_label": "Denunciar ao StopForumSpam",
+                "report_to_sfs_help": "Isso enviará os dados básicos do usuário (nome de usuário, e-mail, endereço IP) ao StopForumSpam. Isso ajudará a impedir que o usuário se cadastre em outros fóruns que usam o serviço StopForumSpam."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spammer"
             }
         }
     },
@@ -88,10 +88,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "Marcou {username} como spammer"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "Bloqueou o cadastro de {username} ({email}) vindo de {ip}"
                 }
             }
         }

@@ -4,103 +4,103 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Chave",
+                        "help": "Código que o usuário digitará ao se cadastrar."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Grupo",
+                        "help": "O grupo ao qual o usuário será adicionado ao se cadastrar com o código de convite."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Máximo de Usos",
+                        "help": "O número máximo de vezes que o código pode ser usado. Defina 0 para usos ilimitados"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Ativa o Usuário",
+                        "help": "Ativa o usuário automaticamente quando ele se cadastra."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Criar novo código de convite",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Criar Código de Convite",
+                    "submit_and_create_another_button": "Criar e adicionar outro"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Editar Código de Convite",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Salvar Alterações"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Enviar Códigos de Convite",
+                    "group": "Enviando convites para o grupo {group}",
+                    "help": "Aceita uma lista separada por vírgula, espaço ou vírgula e espaço. Digite um e-mail individual ou cole uma lista e pressione espaço para adicionar.",
+                    "placeholder": "Digite os e-mails aqui",
+                    "invalid_emails": "E-mail(s) inválido(s): {emails}",
+                    "max_use_conflict": "O número de e-mails excede o máximo de usos deste código.",
+                    "send": "Enviar E-mails",
+                    "success": "E-mails enviados com sucesso"
                 }
             },
             "settings": {
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": ""
+                "search": "Buscar códigos de convite",
+                "total_doorkeys": "Total de códigos: {count}",
+                "create_doorkey_button": "Criar Código de Convite",
+                "optional_usage": "Tornar o código de convite opcional no cadastro"
             },
             "list": {
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Gerenciar",
+                    "uses": "Usos",
+                    "created_by": "Criado por"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Este código de convite já foi usado o número máximo de vezes.",
+                    "delete": "Tem certeza de que deseja excluir o código de convite \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Usos ilimitados} one {{remainingUses} uso restante} other {{remainingUses} usos restantes}}",
+                        "total_uses": "{totalUses, plural, one {Usado # vez} other {Usado # vezes}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Usuário Desconhecido"
                 },
                 "pagination": {
                     "first_page_button": "",
@@ -155,8 +155,8 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "O código de convite inserido é inválido.",
-                "doorkey_required": "Insira um código de convite.",
+                "invalid_doorkey": "O código de convite digitado é inválido.",
+                "doorkey_required": "Digite um código de convite.",
                 "doorman_placeholder": "Código de Convite",
                 "doorman_placeholder_optional": "Código de Convite (opcional)"
             },
@@ -166,7 +166,7 @@
             }
         },
         "email": {
-            "subject": "",
+            "subject": "Convite para Participar",
             "body": ""
         }
     }

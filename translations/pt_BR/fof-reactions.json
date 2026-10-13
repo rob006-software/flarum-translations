@@ -1,17 +1,17 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "Você não pode usar esta reação neste momento, por favor atualize a página",
+            "disabled-reaction": "Você não pode usar esta reação agora, atualize a página",
             "warning": "Sua reação foi convertida",
             "notification": "{username} reagiu com {reaction} ao seu post",
             "settings": {
-                "notify_post_reacted_label": "Alguém reagiu a um dos meus posts"
+                "notify_post_reacted_label": "Alguém reage a um dos meus posts"
             },
             "reacting-own-post": "Você não pode reagir ao seu próprio post",
             "modal": {
                 "title": "Reações",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "anonymous_count": "{count, plural, one {# usuário anônimo} other {# usuários anônimos}}",
+                "no_reactions": "Nenhuma reação ainda"
             },
             "mod_item": "Ver Reações",
             "react_button_label": "Reagir"
@@ -19,52 +19,52 @@
         "admin": {
             "permissions": {
                 "react_posts_label": "Reagir a posts",
-                "see_reactions_label": "Veja quem reagiu a posts",
-                "delete_post_reactions_label": ""
+                "see_reactions_label": "Ver quem reagiu aos posts",
+                "delete_post_reactions_label": "Excluir reações em posts"
             },
             "page": {
                 "cdn": {
-                    "title": "",
+                    "title": "CDN",
                     "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "label": "URL",
+                    "default-url": "Padrão: {url}"
                 },
                 "reactions": {
                     "title": "Reações Customizáveis",
                     "reactions": "Reações Atuais",
-                    "Helptext": "Entre o nome (identificador) do emoji ou ícone font-awesome e selecione qual tipo você deseja.",
+                    "Helptext": "Digite o nome (identificador) do emoji ou ícone font-awesome e selecione o tipo desejado.",
                     "help": {
                         "display": "Exibição",
                         "identifier": "Identificador"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Tem certeza de que deseja excluir esta reação? Esta ação não pode ser desfeita."
                 },
                 "convert": {
                     "help": "Se você acabou de atualizar sua extensão, suas reações terão que ser convertidas. Se você acabou de instalar esta extensão, pode ignorar esta mensagem.",
                     "button": "Converter reações antigas",
                     "converting": "Suas reações estão sendo convertidas. Atualize seu site após alguns minutos para ver o processo concluído. (O tempo de conversão pode demorar um pouco, dependendo do número total de reações)",
-                    "converted": "Todas as {number} curtidas foram convertidas com sucesso"
+                    "converted": "Todas as {number} curtidas foram convertidas"
                 },
                 "settings": {
-                    "react_own_posts_help": "Quando ativado, sujeito à permissão, os usuários podem reagir às suas próprias postagens no fórum. Para evitar que os usuários reajam em suas próprias postagens, desative essa configuração.",
-                    "react_own_posts_label": "Usuários podem reagir às suas próprias postagens",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
+                    "react_own_posts_help": "Quando ativado, sujeito à permissão, os usuários podem reagir aos próprios posts no fórum. Para impedir que os usuários reajam aos próprios posts, desative esta configuração.",
+                    "react_own_posts_label": "Usuários podem reagir aos próprios posts",
+                    "allow-anonymous": "Permitir reações anônimas (de convidados)",
+                    "allow-anonymous-help": "Se ativado, convidados e usuários anônimos poderão reagir aos posts. Observe que as reações anônimas não serão vinculadas a um perfil de usuário e serão agregadas na lista de reações.",
                     "save_settings": "Salvar Alterações",
                     "integrations": {
                         "legend": "Integrações",
-                        "warning": "A mesma reação <strong>não</strong> pode ser convertida em um like <strong>e</strong> em um voto positivo",
+                        "warning": "A mesma reação <strong>não</strong> pode ser convertida em uma curtida <strong>e</strong> em um voto positivo",
                         "gamification": {
-                            "legend": "Gameficação",
+                            "legend": "Gamificação",
                             "upvoteLabel": "Converter reações em votos positivos",
-                            "upvoteHelptext": "Entre o identificador da reação que você gostaria de converter automaticamente em um voto positivo",
+                            "upvoteHelptext": "Digite o identificador da reação que deseja converter automaticamente em voto positivo",
                             "downvoteLabel": "Converter reações em votos negativos",
-                            "downvoteHelptext": "Entre o identificador da reação que você gostaria de converter automaticamente em um voto negativo"
+                            "downvoteHelptext": "Digite o identificador da reação que deseja converter automaticamente em voto negativo"
                         },
                         "likes": {
                             "legend": "Curtidas",
                             "Label": "Converter reações em curtidas",
-                            "Helptext": "Entre o identificador da reação que você gostaria de converter automaticamente em uma curtida"
+                            "Helptext": "Digite o identificador da reação que deseja converter automaticamente em curtida"
                         }
                     }
                 }

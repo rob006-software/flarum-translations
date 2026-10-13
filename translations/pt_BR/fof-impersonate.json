@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Entrar como outros usuários"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
+                "title": "FoF Impersonate",
+                "require_reason": "Exigir que um motivo seja informado antes de entrar como outro usuário.",
                 "no_settings_available": ""
             }
         },
         "lib": {
             "modal": {
-                "title": "",
+                "title": "Entrar como outro usuário",
                 "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "placeholder_optional": "(Opcional) Informe o motivo para entrar como este usuário",
+                "placeholder_required": "Você deve informar o motivo para entrar como este usuário antes de continuar",
+                "impersonate_username": "Entrar como {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Entrar como usuário"
             }
         }
     }

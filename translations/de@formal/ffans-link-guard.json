@@ -2,30 +2,30 @@
     "ffans-link-guard": {
         "admin": {
             "settings": {
-                "warning_title_label": "",
-                "warning_title_help": "",
-                "warning_message_label": "",
-                "warning_message_help": "",
-                "trusted_domains_label": "",
-                "trusted_domains_help": "",
-                "use_modal_label": "",
-                "use_modal_help": ""
+                "warning_title_label": "Titel der Warnung",
+                "warning_title_help": "Lasse das Feld leer, um den Standardtitel zu verwenden. Nur Klartext.",
+                "warning_message_label": "Warnmeldung",
+                "warning_message_help": "Lasse das Feld leer, um die Standardwarnung zu verwenden. Nur Klartext; Zeilenumbrüche werden unterstützt.",
+                "trusted_domains_label": "Vertrauenswürdige Domänen",
+                "trusted_domains_help": "Gib eine Domäne pro Zeile ein. Links derselben Herkunft umgehen die Warnung immer. <code>example.com</code> passt nur auf diese Domain. <code>*.example.com</code> passt auch auf deren Subdomains, jedoch nicht auf <code>example.com</code> selbst.",
+                "use_modal_label": "Warnungen in einem Modalfenster anzeigen",
+                "use_modal_help": "Zeigt die Warnung auf der aktuellen Seite in einem Modalfenster an."
             }
         },
         "forum": {
-            "page_title": "",
-            "destination_label": "",
-            "invalid_title": "",
-            "invalid_message": "",
-            "close_button": "",
-            "cancel_button": "",
-            "continue_button": "",
-            "close_fallback": ""
+            "page_title": "Verlasse das Forum",
+            "destination_label": "Zielseite",
+            "invalid_title": "Ungültiger externer Link",
+            "invalid_message": "Die Adresse konnte nicht erkannt werden. Bitte kehre zur Community zurück und öffne den Link erneut.",
+            "close_button": "Diesen Tab schließen",
+            "cancel_button": "Abbrechen",
+            "continue_button": "Fortfahren",
+            "close_fallback": "Falls dieser Reiter nicht geschlossen wurde, schließe ihn bitte manuell oder <a>kehre zur Community zurück</a>."
         },
         "lib": {
-            "default_forum_name": "",
-            "default_warning_title": "",
-            "default_warning_message": ""
+            "default_forum_name": "diese Seite",
+            "default_warning_title": "Du bist dabei, {forumName} zu verlassen",
+            "default_warning_message": "Bitte achte darauf, deine Kontodaten und persönliche Daten sicher zu halten."
         }
     }
 }

@@ -47,7 +47,7 @@
             "no_permission": "Nincs joga szavazni",
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
-            "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
+            "max_votes_allowed": "A szavazásban legfeljebb {max, plural, one {# lehetőség} other {# lehetőség}} választható.",
             "polls_count": "{count, plural, one { {count} szavazat} other {{count} szavazat}}",
             "poll_never_ends": "A szavazás sosem ér véget",
             "answers": "Válaszok",
@@ -217,7 +217,7 @@
             },
             "tooltip": {
                 "badge": "Szavazás",
-                "votes": "{count} szavazat"
+                "votes": "{count, plural, one {# szavazat} other {# szavazat}}"
             },
             "votes_modal": {
                 "title": "Szavazók"

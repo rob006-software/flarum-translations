@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Casas Decimais",
+                    "help": "O número de casas decimais a exibir em números grandes (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Posts",
+                    "discussion_count": "Discussões",
+                    "user_count": "Usuários"
                 },
-                "title": ""
+                "title": "Estatísticas do Fórum"
             }
         }
     }

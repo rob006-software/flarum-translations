@@ -66,7 +66,7 @@
                 "collect_help": "无需禁用扩展即可暂停收集数据，已有统计数据仍会正常显示。",
                 "geo_ip_prefix_label": "通过匿名化 IP 前缀识别国家或地区",
                 "geo_ip_prefix_help": "",
-                "geoip_db_path_label": "国家或地区数据库文件（可选）",
+                "geoip_db_path_label": "国家和地区数据库文件（可选）",
                 "geoip_db_path_help": "填写此服务器上的 MaxMind 数据库完整路径，例如免费的 GeoLite2-Country.mmdb（需使用你自己的账号从 maxmind.com 下载）。仅在受信任的代理请求头未提供国家或地区信息时使用，所有查询都会在本服务器完成。",
                 "country_header_label": "受信任的国家或地区请求头",
                 "country_header_help": "填写代理用于传递访客两位国家或地区代码的请求头，例如 Cloudflare 的 CF-IPCountry，或 nginx-geoip 使用的 X-Country。系统会直接信任该请求头的值，因此仅应填写确实由你的代理设置的请求头；如果你的代理不会设置这类请求头，请留空，并改用匿名化 IP 前缀识别国家或地区。",

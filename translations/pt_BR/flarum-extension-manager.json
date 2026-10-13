@@ -2,100 +2,100 @@
     "flarum-extension-manager": {
         "admin": {
             "auth_config": {
-                "add_label": "",
+                "add_label": "Novo método de autenticação",
                 "add_modal": {
-                    "host_label": "",
+                    "host_label": "Host",
                     "host_placeholder": "",
-                    "submit_button": "",
-                    "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "submit_button": "Enviar",
+                    "token_label": "Token",
+                    "type_label": "Tipo",
+                    "unchanged_token_placeholder": "(inalterado)"
                 },
-                "delete_confirmation": "",
-                "delete_label": "",
-                "edit_label": "",
+                "delete_confirmation": "Tem certeza de que deseja excluir este método de autenticação?",
+                "delete_label": "Excluir método de autenticação",
+                "edit_label": "Editar método de autenticação",
                 "fields": {
-                    "host": "",
-                    "token": ""
+                    "host": "Host",
+                    "token": "Token"
                 },
-                "no_auth_methods_configured": "",
-                "remove_button_label": "",
-                "title": "",
+                "no_auth_methods_configured": "Nenhum método de autenticação configurado. Este é um recurso avançado opcional para permitir a instalação de repositórios privados.",
+                "remove_button_label": "Remover método de autenticação",
+                "title": "Métodos de Autenticação",
                 "types": {
-                    "github-oauth": "",
-                    "gitlab-oauth": "",
-                    "gitlab-token": "",
-                    "bearer": ""
+                    "github-oauth": "GitHub OAuth",
+                    "gitlab-oauth": "GitLab OAuth",
+                    "gitlab-token": "GitLab Token",
+                    "bearer": "HTTP Bearer"
                 }
             },
             "composer": {
-                "add_repository_label": "",
-                "delete_repository_confirmation": "",
-                "delete_repository_label": "",
-                "edit_repository_label": "",
-                "title": "",
+                "add_repository_label": "Adicionar Repositório",
+                "delete_repository_confirmation": "Tem certeza de que deseja excluir este repositório? Todas as extensões instaladas a partir deste repositório serão removidas.",
+                "delete_repository_label": "Excluir repositório",
+                "edit_repository_label": "Editar repositório",
+                "title": "Composer",
                 "minimum_stability": {
-                    "label": "",
-                    "help": "",
+                    "label": "Estabilidade Mínima",
+                    "help": "O tipo de pacotes permitidos para instalação. Não altere isso a menos que saiba o que está fazendo.",
                     "options": {
-                        "stable": "",
-                        "rc": "",
-                        "beta": "",
-                        "alpha": "",
-                        "dev": ""
+                        "stable": "Stable (Recomendado)",
+                        "rc": "Release Candidate",
+                        "beta": "Beta",
+                        "alpha": "Alpha",
+                        "dev": "Dev"
                     }
                 },
                 "repositories": {
-                    "label": "",
-                    "help": "",
+                    "label": "Repositórios",
+                    "help": "Adicione repositórios adicionais para instalar pacotes. Este é um recurso avançado, não adicione repositórios não confiáveis, pois eles podem ser usados para executar código malicioso em seu servidor.\n",
                     "types": {
-                        "composer": "",
-                        "vcs": "",
-                        "path": ""
+                        "composer": "composer",
+                        "vcs": "vcs",
+                        "path": "path"
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "Nome",
+                        "type_label": "Tipo",
+                        "url": "URL",
+                        "submit_button": "Enviar"
                     }
                 }
             },
             "exceptions": {
-                "composer_command_failure": "",
-                "extension_already_installed": "",
-                "extension_not_directly_dependency": "",
-                "extension_not_installed": "",
+                "composer_command_failure": "Falha na execução. Verifique os logs do composer em storage/logs/composer.",
+                "extension_already_installed": "A extensão já está instalada.",
+                "extension_not_directly_dependency": "A extensão está instalada como dependência de outra extensão e não pode ser removida diretamente.",
+                "extension_not_installed": "Extensão não encontrada.",
                 "guessed_cause": {
-                    "extension_incompatible_with_instance": "",
-                    "extension_not_found": "",
-                    "extensions_incompatible_with_new_major": ""
+                    "extension_incompatible_with_instance": "A extensão provavelmente é incompatível com sua instância atual do Flarum.",
+                    "extension_not_found": "A extensão não foi encontrada ou não existe.",
+                    "extensions_incompatible_with_new_major": "Algumas extensões instaladas não são compatíveis com a nova versão major. Aguarde até que os autores atualizem as extensões para serem compatíveis, ou remova-as antes de prosseguir.\n"
                 }
             },
             "extensions": {
-                "check_why_it_failed_updating": "",
-                "install": "",
+                "check_why_it_failed_updating": "Mostrar por que não atualizou para a mais recente.",
+                "install": "Instalar uma nova extensão",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
-                "successful_install": "",
-                "successful_remove": "",
-                "successful_update": "",
-                "update": "",
-                "update_soft_label": "",
-                "update_hard_label": ""
+                "proceed": "Prosseguir",
+                "remove": "Desinstalar",
+                "successful_install": "{extension} foi instalada com sucesso, redirecionando..",
+                "successful_remove": "Extensão removida com sucesso.",
+                "successful_update": "{extension} foi atualizada com sucesso, redirecionando..",
+                "update": "Atualizar",
+                "update_soft_label": "Atualização leve",
+                "update_hard_label": "Atualização forçada"
             },
-            "file_permissions": "",
+            "file_permissions": "O gerenciador de extensões requer permissões de leitura e escrita nos seguintes arquivos e diretórios: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
-                "description": "",
-                "dry_run": "",
-                "dry_run_help": "",
+                "description": "Atualizações major do Flarum não são compatíveis com versões anteriores, ou seja, algumas das extensões instaladas e modificações feitas manualmente podem não funcionar com esta nova versão. Faça um backup do banco de dados e dos arquivos antes de prosseguir.\n",
+                "dry_run": "Simulação",
+                "dry_run_help": "Uma simulação emula a atualização para ver se sua configuração atual pode ser atualizada com segurança. Isso não significa que suas modificações personalizadas funcionarão na nova versão.",
                 "failure": {
-                    "desc": "",
-                    "why": ""
+                    "desc": "A última atualização major falhou; algumas extensões instaladas não são compatíveis com a nova versão major.",
+                    "why": "Saiba mais"
                 },
-                "title": "",
-                "update": ""
+                "title": "Atualização Major do Flarum {version} Disponível",
+                "update": "Atualizar"
             },
             "minor_update_confirmation": {
                 "content": ""
@@ -106,63 +106,63 @@
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
-                        "elapsed_time": "",
-                        "peak_memory_used": "",
-                        "operation": "",
-                        "package": "",
-                        "status": ""
+                        "details": "Detalhes",
+                        "elapsed_time": "Concluída em",
+                        "peak_memory_used": "Pico de Memória",
+                        "operation": "Operação",
+                        "package": "Pacote",
+                        "status": "Status"
                     },
-                    "none": "",
+                    "none": "Ainda não há tarefas.",
                     "operations": {
-                        "extension_install": "",
-                        "extension_remove": "",
-                        "extension_update": "",
-                        "update_check": "",
-                        "update_global": "",
-                        "update_major": "",
-                        "update_minor": "",
-                        "why_not": ""
+                        "extension_install": "Instalar extensão",
+                        "extension_remove": "Remover extensão",
+                        "extension_update": "Atualizar extensão",
+                        "update_check": "Verificar atualizações",
+                        "update_global": "Atualizar todos os pacotes",
+                        "update_major": "Atualização major",
+                        "update_minor": "Atualização minor",
+                        "why_not": "Analisar por que um pacote não pode ser atualizado"
                     },
                     "output_modal": {
-                        "cause_unknown": "",
-                        "command": "",
-                        "guessed_cause": "",
-                        "output": ""
+                        "cause_unknown": "Desconhecida",
+                        "command": "Comando do Composer",
+                        "guessed_cause": "Causa",
+                        "output": "Saída"
                     },
-                    "refresh": "",
+                    "refresh": "Atualizar lista de tarefas",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
-                        "running": ""
+                        "success": "Sucesso",
+                        "failure": "Falhou",
+                        "pending": "Pendente",
+                        "running": "Executando"
                     },
-                    "task_just_started": "",
-                    "title": ""
+                    "task_just_started": "Tarefa iniciada agora",
+                    "title": "Fila"
                 }
             },
             "settings": {
-                "title": "",
-                "access_warning": "",
-                "debug_mode_warning": "",
-                "queue_jobs": "",
+                "title": "=> core.ref.settings",
+                "access_warning": "Tenha cuidado com quem você dá acesso à área administrativa; o gerenciador de extensões pode ser usado por agentes maliciosos para instalar pacotes que levem a brechas de segurança.",
+                "debug_mode_warning": "Você está executando em modo debug; o gerenciador de extensões não consegue instalar e atualizar pacotes de desenvolvimento local corretamente. Use a interface de linha de comando para essa finalidade.",
+                "queue_jobs": "Executar operações na fila em segundo plano",
                 "queue_jobs_help": "",
-                "task_retention_days": "",
-                "task_retention_days_help": ""
+                "task_retention_days": "Dias de retenção de tarefas",
+                "task_retention_days_help": "O número de dias para manter tarefas concluídas no banco de dados. Tarefas mais antigas que isso serão excluídas. Defina 0 para manter todas as tarefas.\n"
             },
             "updater": {
                 "up_to_date": "",
-                "check_for_updates": "",
-                "flarum": "",
-                "global_update_successful": "",
-                "last_update_checked_at": "",
-                "run_global_update": "",
-                "updater_title": "",
-                "updater_help": ""
+                "check_for_updates": "Verificar atualizações",
+                "flarum": "Flarum Core",
+                "global_update_successful": "Todos os pacotes foram atualizados.",
+                "last_update_checked_at": "Última Verificação: ",
+                "run_global_update": "Executar Atualização Global",
+                "updater_title": "Atualizações",
+                "updater_help": "Verifica novas atualizações de extensões e do Flarum."
             },
-            "update_successful": "",
+            "update_successful": "Flarum atualizado com sucesso.",
             "why_not_modal": {
-                "title": ""
+                "title": "Por que Não Atualiza"
             }
         },
         "validation": {

@@ -2,38 +2,38 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "Configurações de Limpeza",
+                "trim_help": "Aqui você pode configurar por quanto tempo (em minutos) o Horizon deve\nmanter os jobs recentes e os com falha. Normalmente, os jobs recentes são mantidos\npor uma hora, enquanto todos os jobs com falha são guardados por uma semana inteira.\n",
+                "trim_recent": "Limpar Jobs Recentes",
+                "trim_recent_help": "Esta tabela é usada para exibir os jobs recentes no dashboard do Horizon.\n",
+                "trim_pending": "Limpar Jobs Pendentes",
+                "trim_pending_help": "Esta tabela é usada para exibir os jobs pendentes no dashboard do Horizon.\n",
+                "trim_completed": "Limpar Jobs Concluídos",
+                "trim_completed_help": "Esta tabela é usada para exibir os jobs concluídos no dashboard do Horizon.\n",
+                "trim_recent_failed": "Limpar Jobs com Falha Recentes",
+                "trim_recent_failed_help": "Esta tabela é usada para exibir os jobs com falha recentes no dashboard do Horizon.\n",
+                "trim_failed": "Limpar Jobs com Falha",
+                "trim_failed_help": "Esta tabela é usada para exibir os jobs com falha no dashboard do Horizon.\n",
+                "trim_monitored": "Limpar Jobs Monitorados",
+                "trim_monitored_help": "Esta tabela é usada para exibir os jobs monitorados no dashboard do Horizon.\n"
             },
             "stats": {
-                "auto_refresh": "",
+                "auto_refresh": "Atualização Automática",
                 "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
+                "full_dashboard": "Dashboard do Horizon",
+                "refresh": "Atualizar",
                 "last_refresh": "",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
+                    "excellent": "Excelente",
+                    "good": "Boa",
+                    "poor": "Ruim",
+                    "critical": "Crítica",
                     "tooltip": ""
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Erro de Conexão",
+                    "fetch_failed": "Não foi possível obter as estatísticas do Horizon. Verifique sua configuração do Redis.",
+                    "setup_docs": "Ver Documentação de Configuração do Redis"
                 },
                 "data": {
                     "redis-used-memory": "",
@@ -45,7 +45,7 @@
                     "redis-ops-per-sec": "",
                     "redis-connected-clients": "",
                     "redis-blocked-clients": "",
-                    "jobs-per-minute": "",
+                    "jobs-per-minute": "Jobs por Minuto",
                     "jobs-past-hour": "",
                     "failed-last-seconds": "",
                     "status": {
