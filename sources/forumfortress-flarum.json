@@ -4,6 +4,9 @@
             "settings": {
                 "enabled_label": "Enable Forum Fortress protection",
                 "enabled_help": "Check registrations, topics, replies, posts, and profile changes against Forum Fortress.",
+                "repeat_offender_label": "Suspend repeat spammers for seven days",
+                "repeat_offender_help": "Off by default. After two distinct confirmed spam blocks with original scores above 80 within 24 hours, suspend a new low-activity member for seven days. Requires the Flarum scheduler. Staff, custom groups and established members are protected. Reverse through the native Suspend controls; automatic suspension is applied at most once per member.",
+                "repeat_offender_unavailable": "Unavailable: install and enable the compatible Flarum Suspend extension. No account action is substituted. The Flarum scheduler must run every minute.",
                 "api_base_url_label": "Check API base URL",
                 "api_region_label": "API region",
                 "api_region_help": "Lock check traffic to a region, or use the recommended global network.",
