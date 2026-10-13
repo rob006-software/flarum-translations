@@ -1783,7 +1783,6 @@ return [
 	'tryhackx-thumb-sliders' => [
 	],
 	'tryhackx-topic-rating' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/1.0.5/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
