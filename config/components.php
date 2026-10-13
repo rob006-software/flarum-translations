@@ -1781,7 +1781,6 @@ return [
 		],
 	],
 	'tryhackx-thumb-sliders' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-thumb-sliders/1.0.6/locale/en.yml',
 	],
 	'tryhackx-topic-rating' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/1.0.5/locale/en.yml',
