@@ -46,7 +46,7 @@
                     "blocked_words_help": "Słowa lub wyrażenia, które mają być traktowane jako spam. Wpisz po jednym w każdym wierszu. Wielkość liter nie ma znaczenia, a dopasowywane są tylko całe słowa. Przykładowo „viagra” pasuje do „viagra”, ale nie do „niagara”.",
                     "advanced_patterns_heading": "Zaawansowane wzorce blokowania",
                     "advanced_block_patterns_label": "Zaawansowane wzorce (regex)",
-                    "advanced_block_patterns_help": "Własne wyrażenia regularne dla zaawansowanych użytkowników. Używaj ostrożnie — nieprawidłowe wzorce zostaną pominięte. Podaj tablicę JSON obiektów z kluczem „pattern” i opcjonalnym kluczem „description”."
+                    "advanced_block_patterns_help": "Własne wyrażenia regularne dla zaawansowanych użytkowników. Używaj ostrożnie – nieprawidłowe wzorce zostaną pominięte. Podaj tablicę JSON obiektów z kluczem „pattern” i opcjonalnym kluczem „description”."
                 },
                 "default-actions": {
                     "delete_user_label": "Usuń użytkownika",
@@ -179,7 +179,7 @@
         },
         "forum": {
             "post": {
-                "flagged_as_spam_text": "Automatyczne wykrywanie spamu — wynik: {score}"
+                "flagged_as_spam_text": "Automatyczne wykrywanie spamu – wynik: {score}"
             },
             "message": {
                 "profile": {
