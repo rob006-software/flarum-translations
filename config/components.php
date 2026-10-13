@@ -432,7 +432,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.0.0/resources/locale/en.yml',
 	],
 	'fof-blog' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.3/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.4/locale/en.yml',
 	],
 	'fof-bookmarks' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/2.0.0-rc.3/locale/en.yml',
