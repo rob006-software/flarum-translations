@@ -11,10 +11,10 @@
         "before": "Pole :attribute musi być datą wcześniejszą od :date.",
         "before_or_equal": "Pole :attribute musi być datą nie późniejszą niż :date.",
         "between": {
-            "numeric": "Pole :attribute musi zawierać się w granicach :min - :max.",
-            "file": "Pole :attribute musi zawierać się w granicach :min - :max kilobajtów.",
-            "string": "Pole :attribute musi zawierać się w granicach :min - :max znaków.",
-            "array": "Pole :attribute musi składać się z :min - :max elementów."
+            "numeric": "Pole :attribute musi zawierać się w granicach :min–:max.",
+            "file": "Pole :attribute musi zawierać się w granicach :min–:max kilobajtów.",
+            "string": "Pole :attribute musi zawierać się w granicach :min–:max znaków.",
+            "array": "Pole :attribute musi składać się z :min–:max elementów."
         },
         "boolean": "Pole :attribute musi mieć wartość logiczną prawda albo fałsz.",
         "confirmed": "Potwierdzenie pola :attribute nie zgadza się.",
