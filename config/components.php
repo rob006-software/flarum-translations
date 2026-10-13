@@ -230,6 +230,9 @@ return [
 	'ernestdefoe-marginalia' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.4/locale/en.yml',
 	],
+	'ernestdefoe-menu-control' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.1/resources/locale/en.yml',
 	],
