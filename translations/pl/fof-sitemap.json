@@ -25,7 +25,7 @@
                 "risky_performance_improvements": "Włącz duży rozmiar porcji danych (ryzykowne)",
                 "risky_performance_improvements_help": "Zwiększa rozmiar porcji danych pobieranej z bazy z 75 000 do 150 000 wierszy. Przyspiesza generowanie dla bardzo dużych zbiorów danych, ale podwaja maksymalne zużycie pamięci RAM na jedną porcję. Włącz tylko wtedy, gdy masz pewność, że serwer ma wystarczającą ilość pamięci. Włącza również opcję ograniczania zakresu danych (patrz powyżej).",
                 "column_pruning": "Włącz ograniczanie zakresu danych",
-                "column_pruning_help": "Pobiera tylko dane potrzebne do generowania adresów URL (np. id, slug, nazwa użytkownika, daty), zamiast wszystkich kolumn. Znacząco zmniejsza zużycie pamięci dla dużych forów. Opcja jest domyślnie włączona — wyłącz ją tylko wtedy, gdy niestandardowy mechanizm slugów lub widoczności wymaga dodatkowych danych spoza standardowego zakresu.",
+                "column_pruning_help": "Pobiera tylko dane potrzebne do generowania adresów URL (np. id, slug, nazwa użytkownika, daty), zamiast wszystkich kolumn. Znacząco zmniejsza zużycie pamięci dla dużych forów. Opcja jest domyślnie włączona – wyłącz ją tylko wtedy, gdy niestandardowy mechanizm slugów lub widoczności wymaga dodatkowych danych spoza standardowego zakresu.",
                 "include_priority": "Dołącz wartości priorytetu w mapie witryny",
                 "include_priority_help": "Wartości priorytetu są ignorowane przez Google, ale mogą być używane przez inne wyszukiwarki, takie jak Bing i Yandex",
                 "include_changefreq": "Dołącz wartości częstotliwości zmian w mapie witryny",
@@ -41,7 +41,7 @@
                 },
                 "soft_404": {
                     "heading": "Zapobieganie pozornym błędom 404",
-                    "help": "Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako \"Pozorny błąd 404\". Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.",
+                    "help": "Kiedy dany zasób ma mało (lub nie ma jej wcale) istotnej treści, Google może oznaczyć stronę jako „Pozorny błąd 404”. Aby tego uniknąć, ustaw minimalną liczbę elementów, aby zasób kwalifikował się do mapy witryny.",
                     "user": {
                         "comments": {
                             "minimum_item_threshold_label": "Użytkownik: Minimalna liczba postów",

@@ -33,7 +33,7 @@
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
                 "forum_description_heading": "Opis forum",
-                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
+                "forum_description_text": "Wpisz 1–2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona główna",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
@@ -42,7 +42,7 @@
                 "slug_driver_text": "Wybierz generator slugów dla tego modelu.",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie „Wszystkie dyskusje”. Użyj go, aby powitać gości na swoim forum.",
                 "abandoned_extensions_heading": "Porzucone rozszerzenia",
                 "abandoned_extensions_text": "Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.",
                 "abandoned_extensions_sync_button": "Sprawdź teraz",
@@ -467,7 +467,7 @@
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Poprzedni tytuł: \"{old}\"",
+                "discussion_renamed_old_tooltip": "Poprzedni tytuł: „{old}”",
                 "discussion_renamed_text": "{username} zmienił tytuł na {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
@@ -478,7 +478,7 @@
                 "title": "Zmień tytuł dyskusji"
             },
             "search": {
-                "all_discussions_button": "Przeszukaj wszystkie dyskusje dla \"{query}\"",
+                "all_discussions_button": "Przeszukaj wszystkie dyskusje dla „{query}”",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
@@ -514,14 +514,14 @@
                 "terminate_session": "Zakończ",
                 "title": "=> core.ref.security",
                 "token_revoked": "Token został unieważniony.",
-                "token_item_title": "{title} - {token}",
+                "token_item_title": "{title} – {token}",
                 "token_title_placeholder": "-"
             },
             "settings": {
                 "account_heading": "Konto",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
-                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}",
+                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu „{description}” za pomocą {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
@@ -620,8 +620,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} – {forumName}} other {{pageTitle}: Strona # – {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # – {forumName}}}"
             },
             "modal": {
                 "close": "Zamknij"

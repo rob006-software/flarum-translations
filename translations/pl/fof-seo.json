@@ -32,7 +32,7 @@
                     "mode_main_title": "Indeksuj tylko pierwszy post (domyślnie)",
                     "mode_main_help": "Wyszukiwarki będą pokazywać w wynikach tylko pierwszy post dyskusji. Nie wpłynie to na szybkość ładowania, gdy przejdziesz do dyskusji z linków na forum.",
                     "mode_all_title": "Indeksuj wszystkie posty w dyskusji (opcja włączona)",
-                    "mode_all_help": "Wyszukiwarki lepiej zrozumieją przebieg dyskusji i mogą pokazać trafne odpowiedzi bezpośrednio pod wynikiem wyszukiwania. Jeśli masz zainstalowane i włączone rozszerzenie '<a>best answer</a>', dyskusja może zostać oznaczona w wynikach jako „rozwiązana”, a użytkownik zostanie przekierowany do konkretnego posta. Każda odpowiedź udostępnia też liczbę polubień i głosów, dzięki czemu wyszukiwarki mogą rozpoznać najbardziej pomocne odpowiedzi nawet bez rozszerzenia best answer. <b>Jednak w zależności od konfiguracji serwera może to być bardziej obciążające</b>. Może wpłynąć na wydajność, więc decyzja o włączeniu tej funkcji zależy od tego, jak szybki jest Twój serwer.",
+                    "mode_all_help": "Wyszukiwarki lepiej zrozumieją przebieg dyskusji i mogą pokazać trafne odpowiedzi bezpośrednio pod wynikiem wyszukiwania. Jeśli masz zainstalowane i włączone rozszerzenie „<a>best answer</a>”, dyskusja może zostać oznaczona w wynikach jako „rozwiązana”, a użytkownik zostanie przekierowany do konkretnego posta. Każda odpowiedź udostępnia też liczbę polubień i głosów, dzięki czemu wyszukiwarki mogą rozpoznać najbardziej pomocne odpowiedzi nawet bez rozszerzenia best answer. <b>Jednak w zależności od konfiguracji serwera może to być bardziej obciążające</b>. Może wpłynąć na wydajność, więc decyzja o włączeniu tej funkcji zależy od tego, jak szybki jest Twój serwer.",
                     "question": "Czy chcesz włączyć tę funkcję?",
                     "switch_label": "Indeksuj wszystkie posty (wolniejsze przy odświeżaniu strony, ale lepsze wyniki wyszukiwania)"
                 },
@@ -65,8 +65,8 @@
                 },
                 "social_media_image": {
                     "heading": "Obraz dla mediów społecznościowych",
-                    "help_size": "Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego — zalecany rozmiar to 1200x630.",
-                    "help_usage": "Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X — dawniej Twitter, Reddit)."
+                    "help_size": "Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego – zalecany rozmiar to 1200x630.",
+                    "help_usage": "Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X – dawniej Twitter, Reddit)."
                 },
                 "crawl": {
                     "heading": "Ustawienia indeksowania postów w dyskusjach",
@@ -83,7 +83,7 @@
                 },
                 "nofollow": {
                     "heading": "Linki no-follow",
-                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut '<i>nofollow</i>'. Dzięki temu użytkownicy nie będą spamować forum linkami do innych domen, aby zdobywać odesłania.",
+                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut „<i>nofollow</i>”. Dzięki temu użytkownicy nie będą spamować forum linkami do innych domen, aby zdobywać odesłania.",
                     "help_dofollow": "To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.",
                     "button": "Otwórz listę domen do-follow"
                 },
@@ -124,7 +124,7 @@
                     "which_extension_body": "{link} to zalecane rozszerzenie dla Flarum. Zdecydowanie rekomendujemy jego instalację i włączenie.",
                     "which_extension_details": "To rozszerzenie sprawi, że roboty znajdą <b>dyskusje</b>, <b>tagi</b> (jeśli rozszerzenie tagów jest włączone) oraz strony z rozszerzenia <b>Pages</b> (jeśli jest zainstalowane i włączone). Automatycznie udostępni też plik sitemap.xml.",
                     "robots_heading": "A co z robots.txt?",
-                    "robots_body": "To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz — nie musisz nic dodatkowo konfigurować.",
+                    "robots_body": "To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz – nie musisz nic dodatkowo konfigurować.",
                     "just_installed_heading": "Właśnie zainstalowałem rozszerzenie",
                     "just_installed_body": "W takim razie aktywuj je, klikając rozszerzenie na pasku bocznym po lewej. Po aktywacji to ostrzeżenie zniknie."
                 },
@@ -218,7 +218,7 @@
                 "reset_seo": "Zresetuj SEO"
             },
             "meta_seo": {
-                "title": "Ustawienia SEO - meta",
+                "title": "Ustawienia SEO – meta",
                 "note_prefix": "Uwaga:",
                 "managed": "Zarządzane",
                 "saved": "Zapisano!",
