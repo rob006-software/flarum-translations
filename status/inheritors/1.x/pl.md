@@ -2,8 +2,8 @@
 
 Translations for Polish (`pl`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **13** are translated differently and **27** are
-translated only in `pl`. Altogether they cover **2** components.
+sides, but do not match between them: **15** are translated differently and **27** are
+translated only in `pl`. Altogether they cover **3** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `pl`. Altogether they cover **2** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `fof-polls` | [1](#fof-polls) | [27](#fof-polls-missing) |
+| `fof-rich-text` | [2](#fof-rich-text) | 0 |
 | `fof-username-request` | [12](#fof-username-request) | 0 |
 
 
@@ -33,6 +34,31 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 Prześlij obrazek, który będzie wyświetlany obok <del>odpowiedzi w ankiecie</del><ins>ankiety</ins> (opcjonalnie).
+
+
+### `fof-rich-text`
+
+#### [`fof-rich-text.admin.settings.toggle_on_editor`](https://weblate.rob006.net/translate/flarum2/fof-rich-text/pl/?q=context%3A%3D%22fof-rich-text.admin.settings.toggle_on_editor%22)
+
+> Show rich text mode toggle on editor?
+
+```diff
+-Pokazać przełącznik trybu edytora wizualnego?
++Wyświetlaj przełącznik trybu edytora wizualnego
+```
+
+<del>Pokazać</del><ins>Wyświetlaj</ins> przełącznik trybu edytora <del>wizualnego?</del><ins>wizualnego</ins>
+
+#### [`fof-rich-text.forum.settings.rich_text_compact_paragraphs_label`](https://weblate.rob006.net/translate/flarum2/fof-rich-text/pl/?q=context%3A%3D%22fof-rich-text.forum.settings.rich_text_compact_paragraphs_label%22)
+
+> Don't separate paragraphs with newline.
+
+```diff
+-Nie oddzielaj akapitów nową linią.
++Nie oddzielaj akapitów pustą linią
+```
+
+Nie oddzielaj akapitów <del>nową</del><ins>pustą</ins> <del>linią.</del><ins>linią</ins>
 
 
 ### `fof-username-request`

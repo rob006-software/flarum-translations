@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **27** are translated differently and **19** are
-translated only in `de`. Altogether they cover **5** components.
+sides, but do not match between them: **28** are translated differently and **55** are
+translated only in `de`. Altogether they cover **7** components.
 
 <!-- {% raw %} -->
 
@@ -17,6 +17,8 @@ translated only in `de`. Altogether they cover **5** components.
 | `flarum-pusher` | [1](#flarum-pusher) | 0 |
 | `fof-polls` | [21](#fof-polls) | 0 |
 | `fof-sentry` | [2](#fof-sentry) | 0 |
+| `forumfortress-flarum` | [1](#forumfortress-flarum) | 0 |
+| `huoxin-filter-rule-manager` | 0 | [36](#huoxin-filter-rule-manager-missing) |
 
 
 ## Different translations
@@ -311,6 +313,20 @@ Füge tatsächliche Parameterwerte in die Abfrageverfolgung ein (z. B. „SELECT
 Zeichne Aufrufe von console.log, console.info, console.warn und console.error als Breadcrumbs auf. Sieh dir die Abfolge der Ereignisse an, die zu einem Fehler geführt haben, und debugge komplexe Benutzerinteraktionen. Hinweis: Erhöht das Datenvolumen. Verwende diese Funktion in <del>der Produktion</del><ins>Produktionsumgebungen</ins> nur selektiv.
 
 
+### `forumfortress-flarum`
+
+#### [`forumfortress-flarum.admin.settings.api_key_help`](https://weblate.rob006.net/translate/flarum2/forumfortress-flarum/de/?q=context%3A%3D%22forumfortress-flarum.admin.settings.api_key_help%22)
+
+> The current key is never displayed. Leave blank to keep it, or enter a replacement. An anonymous site receives a key automatically during bootstrap. Use Disconnect and remove site to revoke the remote credential.
+
+```diff
+-Lasse das Feld leer, um eine anonyme Website zu erstellen und automatisch einen stabilen Schlüssel zu erhalten.
++Der aktuelle Schlüssel wird niemals angezeigt. Lasse das Feld leer, um ihn beizubehalten, oder gib einen neuen Schlüssel ein. Eine anonyme Site erhält während des Bootstrap-Vorgangs automatisch einen Schlüssel. Verwende „Verbindung trennen und Seite entfernen“, um die Remote-Anmeldeinformationen zu widerrufen.
+```
+
+<ins>Der aktuelle Schlüssel wird niemals angezeigt. </ins>Lasse das Feld leer, um <del>eine</del><ins>ihn beizubehalten, oder gib einen neuen Schlüssel ein. Eine</ins> anonyme <del>Website</del><ins>Site</ins> <del>zu</del><ins>erhält</ins> <del>erstellen</del><ins>während</ins> <del>und</del><ins>des Bootstrap-Vorgangs</ins> automatisch einen <del>stabilen</del><ins>Schlüssel.</ins> <del>Schlüssel</del><ins>Verwende „Verbindung trennen und Seite entfernen“, um die Remote-Anmeldeinformationen</ins> zu <del>erhalten.</del><ins>widerrufen.</ins>
+
+
 ## Missing translations
 
 These strings are translated only in `de`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de`.
@@ -468,6 +484,297 @@ These strings are translated only in `de`, so there is nothing to inherit from F
 
 ```diff
 +Du bist dabei, {forumName} zu verlassen
+```
+
+
+### `huoxin-filter-rule-manager` (missing)
+
+#### [`huoxin-filter-rule-manager.admin.active`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.active%22)
+
+> Active
+
+```diff
++Aktiv
+```
+
+#### [`huoxin-filter-rule-manager.admin.add_ruleset`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.add_ruleset%22)
+
+> Add ruleset
+
+```diff
++Regelsatz hinzufügen
+```
+
+#### [`huoxin-filter-rule-manager.admin.cancel`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.cancel%22)
+
+> Cancel
+
+```diff
++Abbrechen
+```
+
+#### [`huoxin-filter-rule-manager.admin.delete`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.delete%22)
+
+> Delete
+
+```diff
++Löschen
+```
+
+#### [`huoxin-filter-rule-manager.admin.delete_success`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.delete_success%22)
+
+> Ruleset deleted.
+
+```diff
++Regelsatz gelöscht.
+```
+
+#### [`huoxin-filter-rule-manager.admin.displays.sidebar`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.displays.sidebar%22)
+
+> Sidebar
+
+```diff
++Seitenleiste
+```
+
+#### [`huoxin-filter-rule-manager.admin.edit`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.edit%22)
+
+> Edit
+
+```diff
++Bearbeiten
+```
+
+#### [`huoxin-filter-rule-manager.admin.edit_ruleset`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.edit_ruleset%22)
+
+> Edit ruleset
+
+```diff
++Regelsatz bearbeiten
+```
+
+#### [`huoxin-filter-rule-manager.admin.export`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.export%22)
+
+> Export
+
+```diff
++Exportieren
+```
+
+#### [`huoxin-filter-rule-manager.admin.export_all`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.export_all%22)
+
+> Export All
+
+```diff
++Alle exportieren
+```
+
+#### [`huoxin-filter-rule-manager.admin.headers.active`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.headers.active%22)
+
+> Active
+
+```diff
++Aktiv
+```
+
+#### [`huoxin-filter-rule-manager.admin.headers.name`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.headers.name%22)
+
+> Name
+
+```diff
++Name
+```
+
+#### [`huoxin-filter-rule-manager.admin.headers.order`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.headers.order%22)
+
+> Order
+
+```diff
++Reihenfolge
+```
+
+#### [`huoxin-filter-rule-manager.admin.headers.status`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.headers.status%22)
+
+> Status
+
+```diff
++Status
+```
+
+#### [`huoxin-filter-rule-manager.admin.import`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.import%22)
+
+> Import
+
+```diff
++Importieren
+```
+
+#### [`huoxin-filter-rule-manager.admin.import_rulesets`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.import_rulesets%22)
+
+> Import Rulesets
+
+```diff
++Regelsatz importieren
+```
+
+#### [`huoxin-filter-rule-manager.admin.inactive`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.inactive%22)
+
+> Inactive
+
+```diff
++Inaktiv
+```
+
+#### [`huoxin-filter-rule-manager.admin.interventions.warning`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.interventions.warning%22)
+
+> Warning
+
+```diff
++Warnung
+```
+
+#### [`huoxin-filter-rule-manager.admin.move_down`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.move_down%22)
+
+> Move down
+
+```diff
++Nach unten
+```
+
+#### [`huoxin-filter-rule-manager.admin.move_up`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.move_up%22)
+
+> Move up
+
+```diff
++Nach oben
+```
+
+#### [`huoxin-filter-rule-manager.admin.post_contexts.all`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.post_contexts.all%22)
+
+> All Posts
+
+```diff
++Alle Beiträge
+```
+
+#### [`huoxin-filter-rule-manager.admin.registry_tabs.modes`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.registry_tabs.modes%22)
+
+> Display Modes
+
+```diff
++Darstellungsmodi
+```
+
+#### [`huoxin-filter-rule-manager.admin.rule_builder.add_rule`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.rule_builder.add_rule%22)
+
+> Add Rule
+
+```diff
++Regel hinzufügen
+```
+
+#### [`huoxin-filter-rule-manager.admin.rule_builder.and`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.rule_builder.and%22)
+
+> AND
+
+```diff
++AND
+```
+
+#### [`huoxin-filter-rule-manager.admin.rule_builder.delete_rule`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.rule_builder.delete_rule%22)
+
+> Delete Rule
+
+```diff
++Regel löschen
+```
+
+#### [`huoxin-filter-rule-manager.admin.rule_builder.not`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.rule_builder.not%22)
+
+> NOT
+
+```diff
++NOT
+```
+
+#### [`huoxin-filter-rule-manager.admin.rule_builder.or`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.rule_builder.or%22)
+
+> OR
+
+```diff
++OR
+```
+
+#### [`huoxin-filter-rule-manager.admin.save`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.save%22)
+
+> Save
+
+```diff
++Speichern
+```
+
+#### [`huoxin-filter-rule-manager.admin.save_success`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.save_success%22)
+
+> Ruleset saved.
+
+```diff
++Regelsatz gespeichert.
+```
+
+#### [`huoxin-filter-rule-manager.admin.scope_filters.all`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.scope_filters.all%22)
+
+> All
+
+```diff
++Alle
+```
+
+#### [`huoxin-filter-rule-manager.admin.scopes.global`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.scopes.global%22)
+
+> All posts
+
+```diff
++Alle Beiträge
+```
+
+#### [`huoxin-filter-rule-manager.admin.section_general`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.section_general%22)
+
+> General
+
+```diff
++Allgemein
+```
+
+#### [`huoxin-filter-rule-manager.admin.section_rules`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.section_rules%22)
+
+> Rules
+
+```diff
++Regeln
+```
+
+#### [`huoxin-filter-rule-manager.admin.tabs.rulesets`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.tabs.rulesets%22)
+
+> Rulesets
+
+```diff
++Regelsätze
+```
+
+#### [`huoxin-filter-rule-manager.admin.tabs.settings`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.tabs.settings%22)
+
+> Settings
+
+```diff
++Einstellungen
+```
+
+#### [`huoxin-filter-rule-manager.admin.unsaved_changes_title`](https://weblate.rob006.net/translate/flarum2/huoxin-filter-rule-manager/de/?q=context%3A%3D%22huoxin-filter-rule-manager.admin.unsaved_changes_title%22)
+
+> Unsaved Changes
+
+```diff
++Ungespeicherte Änderungen
 ```
 
 <!-- {% endraw %} -->
