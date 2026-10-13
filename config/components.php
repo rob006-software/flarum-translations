@@ -429,7 +429,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-best-answer' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.0.0-beta.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/2.0.0/resources/locale/en.yml',
 	],
 	'fof-blog' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.3/locale/en.yml',
