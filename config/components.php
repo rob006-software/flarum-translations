@@ -932,6 +932,12 @@ return [
 	'prm-analytics' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-analytics/v2.0.0/locale/en.yml',
 	],
+	'prm-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/v2.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
