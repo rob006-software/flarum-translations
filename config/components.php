@@ -357,7 +357,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/deck/v2.0.1/locale/en.yml',
 	],
 	'flarum-emoji' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v2.0.1/locale/en.yml',
 	],
 	'flarum-extension-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/extension-manager/v2.0.0/locale/en.yml',
