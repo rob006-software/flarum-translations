@@ -6,22 +6,35 @@
             "message_too_long": "Nachrichten dürfen nicht länger als {max} Zeichen sein.",
             "rate_limited": "Du sendest zu schnell Nachrichten. Bitte mach etwas langsamer.",
             "invalid_reaction": "Dies ist keine gültige Emoji-Reaktion.",
+            "reaction_limit": "Diese Nachricht kann keine weiteren Reaktionen annehmen.",
+            "bookmark_name_too_long": "Namen von Lesezeichen dürfen nicht mehr als {max} Zeichen enthalten.",
+            "draft_too_long": "Dieser Entwurf ist zu lang, um ihn zu speichern. Entwürfe dürfen nicht länger als {max} Zeichen sein.",
             "slow_mode_wait": "In diesem Kanal ist der Langsam-Modus aktiviert. Du kannst in {seconds} Sekunden erneut eine Nachricht senden.",
             "flag_reason_invalid": "Das ist kein Grund, aus dem eine Nachricht gemeldet werden kann.",
             "flag_detail_required": "Beschreibe bitte, was an dieser Nachricht nicht stimmt.",
             "invalid_reply_target": "Du kannst nicht auf eine Nachricht aus einem anderen Kanal antworten.",
             "invalid_thread_target": "Dieser Thread gehört nicht zu diesem Kanal.",
             "invalid_channel_status": "Ein Kanal kann nur auf „offen“ oder „geschlossen“ eingestellt werden.",
+            "channel_archived_status": "Diese Kanal wurde archiviert. Mache die Archivierung erst rückgängig.",
             "threading_disabled": "Threads sind in diesem Kanal nicht aktiviert.",
             "channel_not_found": "Dieser Kanal existiert nicht oder du hast keinen Zugriff darauf.",
             "archive_discussion_not_found": "Diese Diskussion existiert nicht oder du hast keinen Zugriff darauf.",
             "archive_title_required": "Ein Archiv benötigt einen Diskussionstitel.",
             "archive_empty": "Dieser Kanal wurde ohne Nachrichten archiviert.",
+            "archive_private_channel": "Nur ein Administrator kann einen privaten Kanal in eine Diskussion archivieren.",
+            "archive_discussion_wider": "",
+            "archive_needs_approval": "",
+            "archive_too_large": "Dieser Kanal hat mehr als {max} Nachrichten. Bitte einen Administrator, ihn zu archivieren.",
+            "invite_rate_limited": "",
+            "membership_rate_limited": "",
+            "channel_flag_not_allowed": "Nur Chat-Moderatoren dürfen diese Einstellung ändern.",
+            "channel_tag_not_found": "Diese Kategorie existiert nicht oder du darfst nicht darauf zugreifen.",
             "direct_channel_self": "Nur du",
             "uploads_disabled": "Das Hochladen von Dateien ist im Chat deaktiviert.",
             "upload_missing": "Keine Datei wurde hochgeladen.",
             "upload_too_large": "Diese Datei ist zu groß.",
             "upload_unsupported": "Nicht unterstützter Dateityp: {type}",
+            "upload_storage_failed": "",
             "direct_needs_participant": "Wähle mindestens einen Benutzer aus, dem du eine Nachricht senden möchtest.",
             "direct_too_many": "{max, plural, one {Ein Gruppenchat kann höchstens # Teilnehmer haben.} other {Ein Gruppenchat kann höchstens # Teilnehmer haben.}}",
             "direct_unknown_user": "Einer dieser Benutzer existiert nicht.",
@@ -31,13 +44,30 @@
             "cannot_remove_self": "Benutze „Kanal verlassen“, um dich selbst zu entfernen.",
             "not_a_member": "Dieser Benutzer ist nicht in diesem Kanal.",
             "invite_not_found": "Es liegt hier keine ausstehende Einladung zur Beantwortung vor.",
+            "rank_limit": "",
+            "rank_name_invalid": "",
+            "rank_color_invalid": "",
+            "rank_icon_invalid": "",
+            "rank_flag_invalid": "",
+            "rank_not_found": "",
+            "rank_order_invalid": "",
+            "rank_rate_limited": "",
+            "transfer_unavailable": "",
+            "transfer_target_is_owner": "",
+            "transfer_target_not_allowed": "",
+            "transfer_rate_limited": "",
+            "transfer_not_found": "",
+            "transfer_expired": "",
+            "transfer_code_locked": "",
+            "transfer_code_invalid": "",
             "transcript_empty": "Es wurden keine Nachrichten ausgewählt, oder du kannst sie nicht lesen.",
             "transcript_too_many": "{max, plural, one {Du kannst höchstens # Nachrichten gleichzeitig zitieren.} other {Du kannst höchstens # Nachrichten gleichzeitig zitieren.}}",
             "move_empty": "Es wurden keine Nachrichten ausgewählt, oder sie befinden sich bereits in diesem Kanal.",
             "move_too_many": "{max, plural, one {Du kannst höchstens # Nachrichten auf einmal verschieben.} other {Du kannst höchstens # Nachrichten auf einmal verschieben.}}",
             "move_target_frozen": "Du kannst keine Nachrichten in einen geschlossenen oder archivierten Kanal verschieben.",
             "webhook_channel_unavailable": "Der Kanal dieses Webhooks ist geschlossen oder nicht verfügbar.",
-            "webhook_empty": "Die Webhook-Nutzlast enthielt keinen Text."
+            "webhook_empty": "Die Webhook-Nutzlast enthielt keinen Text.",
+            "webhook_user_not_admin": ""
         },
         "email": {
             "mentioned": {
@@ -51,6 +81,10 @@
                     "intro": "<strong>{author}</strong> hat dich in <strong>{channel}</strong> erwähnt.",
                     "action": "Den Kanal öffnen"
                 }
+            },
+            "transfer_code": {
+                "subject": "",
+                "body": ""
             }
         },
         "notifications": {
@@ -61,7 +95,7 @@
         },
         "lib": {
             "gdpr": {
-                "export_description": "Deine Chat-Nachrichten, die Details zu deren Anhängen und die Kanäle, denen du angehörst.",
+                "export_description": "Deine Chat-Nachrichten, Details zu deren Anhängenm, Kanäle, denen du angehörst und Ränge, die du in ihnen erreicht hast.",
                 "anonymize_description": "Deine Chat-Nachrichten bleiben erhalten, sodass die Unterhaltungen weiterhin lesbar sind, werden jedoch nicht mehr dir zugeordnet. Anhänge, Reaktionen, Entwürfe und Kanalmitgliedschaften werden gelöscht.",
                 "delete_description": "Deine Chat-Nachrichten und Anhänge werden gelöscht, ebenso wie deine Reaktionen, Entwürfe und Kanalmitgliedschaften."
             }
@@ -94,12 +128,14 @@
                 "back_to_channels": "Zurück zu Kanälen"
             },
             "channel": {
+                "gone": "",
                 "threading_enabled": "Threads aktiviert",
                 "closed": "Dieser Kanal ist geschlossen. Es können keine neuen Nachrichten gesendet werden.",
                 "join_to_post": "Tritt diesem Kanal bei, um Nachrichten zu senden.",
                 "moderators_only": "Nur Moderatoren dürfen in diesem Kanal Nachrichten verfassen.",
                 "archived": "Dieser Kanal wurde archiviert.",
                 "archived_link": "Die archivierte Mitschrift anzeigen",
+                "unarchive": "",
                 "no_messages": "Noch keine Nachrichten. Schreib etwas.",
                 "scroll_to_latest": "Zur neuesten Nachricht springen",
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
@@ -339,8 +375,8 @@
                 "failed": "Diese Änderungen konnten nicht gespeichert werden.",
                 "saved": "Kanal aktualisiert.",
                 "lifecycle": "Kanalstatus",
-                "lifecycle_help": "Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal endgültig gesperrt.",
-                "archive_confirm": "Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird dauerhaft gesperrt."
+                "lifecycle_help": "Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal bis zur Aufhebung der Archivierung gesperrt.",
+                "archive_confirm": "Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird bis zur Aufhebung der Archivierung gesperrt."
             },
             "add_members": {
                 "title": "Mitglieder einladen",
@@ -417,7 +453,6 @@
                 "auto_join": "Alle Benutzer automatisch hinzufügen",
                 "auto_join_help": "Alle bestehenden und zukünftigen Nutzer werden diesem Kanal hinzugefügt.",
                 "auto_join_on_reply": "Benutzer hinzufügen, die in dieser Kategorie antworten",
-                "auto_join_on_reply_help_none": "Wird nur dann ausgeführt, wenn der Kanal einer Kategorie zugeordnet ist.",
                 "auto_join_on_reply_help_bound": "Ein Nutzer wird beim ersten Mal als Mitglied hinzugefügt, wenn er auf eine Diskussion in {category} antwortet, und wird nicht erneut hinzugefügt, wenn er die Gruppe später verlässt.",
                 "post_discussions": "Neue Diskussionen aus dieser Kategorie ankündigen",
                 "post_discussions_help_bound": "Jede neue Diskussion, die in {category} gestartet wird, wird im Kanal angekündigt.",
@@ -425,6 +460,7 @@
                 "close_channel": "Kanal schließen",
                 "reopen_channel": "Kanal wieder öffnen",
                 "archive_channel": "Kanal archivieren",
+                "unarchive_channel": "",
                 "delete_channel": "Kanal löschen",
                 "delete_confirm": "Das Löschen eines Kanals kann nicht rückgängig gemacht werden. Möchtest du ihn trotzdem löschen?",
                 "member_search": "Mitglieder filtern",
@@ -443,8 +479,64 @@
                 "demote_moderator": "{username} als Moderator dieses Kanals entfernen",
                 "moderator_promoted": "{username} ist jetzt Moderator in diesem Kanal.",
                 "moderator_demoted": "{username} ist nicht mehr Moderator in diesem Kanal.",
+                "transfer_ownership": "",
+                "transfer_title": "",
+                "transfer_confirm_start": "",
+                "transfer_intro": "Gib den 6-stelligen Code ein, den wir dir per E-Mail gesendet haben, um diesen Kanal für {username} freizuschalten.",
+                "transfer_code_label": "Bestätigungscode",
+                "transfer_submit": "Bestätigen",
+                "transfer_offered": "",
+                "transfer_pending_code": "",
+                "transfer_pending_answer": "",
+                "transfer_incoming": "",
+                "transfer_enter_code": "Code eingeben",
+                "transfer_cancel": "Übertragung abbrechen",
+                "transfer_cancelled": "Die Übertragung wurde abgebrochen.",
+                "transfer_accepted": "Du bist jetzt Besitzer dieses Kanals.",
+                "transfer_declined": "Du hast die Übertragung abgelehnt.",
+                "transfer_failed": "Übertragung konnte nicht abgeschlossen werden.",
                 "no_members": "Es wurden keine Mitglieder gefunden.",
-                "save_failed": "Änderung konnte nicht gespeichert werden."
+                "save_failed": "Änderung konnte nicht gespeichert werden.",
+                "auto_join_on_reply_help_none": "Wird nur dann ausgeführt, wenn der Kanal einer Kategorie zugeordnet ist."
+            },
+            "ranks": {
+                "tab": "Ränge",
+                "owner_default": "Besitzer",
+                "moderator_default": "Moderator",
+                "intro": "In diesem Kanal werden die Ränge vor dem Namen eines Mitglieds angezeigt. Wer mehrere Ränge hat, sieht den höchsten Rang in dieser Liste.",
+                "builtin_tag": "Eingebaut",
+                "name_color": "Namensfarbe",
+                "holders": "{count, plural, =0 {Kein Mitglied} one {# Mitglied} other {# Mitglieder}}",
+                "new": "Neuer Rang",
+                "edit_title": "Rang bearbeiten",
+                "edit": "{name} bearbeiten",
+                "delete": "{name} löschen",
+                "reset": "",
+                "delete_confirm": "",
+                "reset_confirm": "{name} auf den Standardnamen und -farbe zurücksetzen?",
+                "move_up": "{name} nach oben",
+                "move_down": "{name} nach unten",
+                "name": "Name",
+                "name_required": "Gib dem Rang einen Namen.",
+                "color": "Farbe",
+                "color_theme": "Farbe deines Designs verwenden",
+                "color_invalid": "Wähle eine Farbe im Format #RRGGBB.",
+                "icon": "Symbol",
+                "icon_help": "",
+                "show_badge": "Als Tag anzeigen",
+                "show_badge_help_on": "",
+                "show_badge_help_off": "",
+                "preview": "",
+                "save": "Speichern",
+                "cancel": "Abbrechen",
+                "saved": "Rang gespeichert.",
+                "deleted": "Rang gelöscht.",
+                "reset_done": "Rang auf Standard zurückgesetzt.",
+                "empty": "",
+                "limit": "Du kannst bis zu {max} Ränge erstellen.",
+                "assign": "Ränge von {username}",
+                "assign_empty": "",
+                "save_failed": "Rang konnte nicht gespeichert werden."
             },
             "selection": {
                 "count": "{count} ausgewählt",
@@ -465,16 +557,14 @@
                 "empty": "Keine passenden Nachrichten gefunden.",
                 "close": "Suche schließen"
             },
-            "revisions": {
-                "title": "Änderungsverlauf",
-                "current": "Aktuelle Version",
-                "unknown_editor": "Unbekannt",
-                "failed": "Der Änderungsverlauf konnte nicht geladen werden."
-            },
             "notifications": {
                 "message_flagged": "{username} hat eine Nachricht in {channel} gemeldet",
                 "channel_invite": "{username} hat dich in {channel} eingeladen",
                 "channel_invite_declined": "{username} hat deine Einladung in {channel} abgelehnt",
+                "moderator_promoted": "",
+                "ownership_transfer": "",
+                "ownership_transfer_declined": "",
+                "ownership_inherited": "{username} hat {channel} verlassen, also bist du jetzt Besitzer",
                 "invite_accept": "Annehmen",
                 "invite_decline": "Ablehnen",
                 "someone": "Jemand"
@@ -493,7 +583,17 @@
                 "sound_none": "Keiner",
                 "notify_message_flagged": "Jemand meldet eine Chat-Nachricht",
                 "notify_channel_invite": "Jemand lädt mich in einen Chat-Kanal ein",
-                "notify_channel_invite_declined": "Jemand lehnt meine Einladung in einen Chat-Kanal ab"
+                "notify_channel_invite_declined": "Jemand lehnt meine Einladung in einen Chat-Kanal ab",
+                "notify_moderator_promoted": "",
+                "notify_ownership_transfer": "",
+                "notify_ownership_transfer_declined": "",
+                "notify_ownership_inherited": "Ich Besitzer eines Chatkanals geworden bin, nachdem der Vorbesitzer ihn verlassen hat"
+            },
+            "revisions": {
+                "title": "Änderungsverlauf",
+                "current": "Aktuelle Version",
+                "unknown_editor": "Unbekannt",
+                "failed": "Der Änderungsverlauf konnte nicht geladen werden."
             }
         },
         "admin": {
@@ -521,6 +621,14 @@
                 "allow_uploads_help": "Anhänge in Nachrichten. Welche Gruppen Anhänge hinzufügen dürfen, ist weiter unten unter „Berechtigungen“ geregelt.",
                 "max_upload_size": "Maximale Dateigröße beim Hochladen (Bytes)",
                 "max_upload_size_help": "10485760 entsprechen 10 MB.",
+                "upload_storage": "",
+                "upload_storage_help": "",
+                "upload_storage_local": "",
+                "upload_storage_fof": "",
+                "fof_upload_adapter": "FoF Upload-Adapter",
+                "fof_upload_adapter_help": "",
+                "fof_upload_adapter_mapping": "",
+                "fof_upload_local_warning": "",
                 "title_label": "Chatname",
                 "title_help": "Wird auf der Schaltfläche in der Kopfzeile und in der Leiste angezeigt. Lasse das Feld leer, um „Chat“ zu verwenden.",
                 "icon_label": "Chatsymbol",
@@ -535,6 +643,8 @@
                 "allow_archiving_channels": "Kanalarchivierung erlauben",
                 "queue_realtime": "Ereignisse in Echtzeit über die Warteschlange übermitteln",
                 "queue_realtime_help": "Standardmäßig deaktiviert: Push-Nachrichten werden im Rahmen der Anfrage übermittelt, sodass sie sofort ankommen. Aktiviere diese Option nur, wenn dein Forum einen kontinuierlich laufenden Queue-Worker nutzt oder wenn der Webserver den WebSocket-Daemon nicht erreichen kann. Bei Verwendung des Datenbank-Queue-Treibers von Flarum wird der Worker einmal pro Minute ausgeführt, wodurch sich jede Nachricht um bis zu diese Zeitspanne verzögert.",
+                "queue_realtime_inline": "",
+                "queue_realtime_inline_database": "",
                 "sound": "Benachrichtigungston",
                 "sound_help": "Wird abgespielt, wenn eine Nachricht in einem Kanal eintrifft, den du gerade nicht im Blick hast.",
                 "sound_none": "Aus",
@@ -571,7 +681,7 @@
                 "messages_title": "Nachrichten",
                 "messages_help": "Längen-, Tempo- und Bearbeitungsbeschränkungen für jede gesendete Nachricht.",
                 "uploads_title": "Hochgeladene Anhänge",
-                "uploads_help": "Ob Nachrichten Dateien im Anhang enthalten dürfen und wie groß diese sein dürfen.",
+                "uploads_help": "Ob Nachrichten Dateien im Anhang enthalten dürfen, wie groß diese sein dürfen und wo sie gespeichert werden.",
                 "retention_title": "Vorhaltedauer",
                 "retention_help": "Wie lange Nachrichten aufbewahrt werden. Ältere Nachrichten werden im Rahmen der nächtlichen Bereinigung gelöscht.",
                 "realtime_title": "Echtzeit und Klänge",
@@ -582,6 +692,23 @@
                 "webhooks_help": "Slack-kompatible Endpunkte, über die ein externer Dienst Beiträge in einem Kanal veröffentlichen kann. Die URL wird einmalig angezeigt, und zwar bei ihrer Erstellung oder bei einer Rotation.",
                 "other_title": "Weitere Einstellungen",
                 "other_help": "Einstellungen, die von anderen Erweiterungen für den Chat beigetragen wurden."
+            },
+            "layout": {
+                "groups_aria": "Einstellungs-Gruppen",
+                "group_general": "Allgemein",
+                "group_messages": "Nachrichten und Dateien",
+                "group_delivery": "Zustellung und Daten",
+                "group_integrations": "Integrationen",
+                "search_placeholder": "Sucheinstellungen",
+                "search_clear": "Suche löschen",
+                "search_empty": "Keine Einstellung entspricht dieser Suche.",
+                "unsaved": "{count, plural, one {# ungespeicherte Änderung} other {# ungespeicherte Änderungen}}",
+                "saved": "Alle Änderungen gespeichert",
+                "preview_label": "Vorschau",
+                "preview_header": "Schaltfläche in der Kopfzeile",
+                "preview_drawer": "Chat-Reiter",
+                "preview_bot_tag": "Bot",
+                "preview_message_sample": ""
             },
             "permissions": {
                 "use": "Chat verwenden",
@@ -633,7 +760,9 @@
                 "deliveries": "{count, plural, one {# Zustellung} other {# Zustellungen}}",
                 "url_once": "Kopiere diese URL jetzt. Sie wird nicht noch einmal angezeigt.",
                 "disabled": "Eingehende Webhooks sind deaktiviert. Schalte den Schalter oben ein und speichere die Einstellung, um sie zu verwalten.",
-                "failed": "Diese Änderung konnte nicht gespeichert werden."
+                "failed": "Diese Änderung konnte nicht gespeichert werden.",
+                "author": "",
+                "author_bot": ""
             }
         }
     }

@@ -3,237 +3,260 @@
         "admin": {
             "settings": {
                 "general": {
-                    "heading": "Ajustes Gerais",
-                    "help": "Essas configurações controlam os recursos básicos da extensão de Enquetes."
+                    "heading": "Configurações Gerais",
+                    "help": "Essas configurações controlam os recursos básicos da extensão de enquetes."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Enquetes de Discussão",
+                    "help": "Essas configurações controlam as enquetes anexadas a posts de discussões."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Ativar enquetes de discussão",
+                "enable_discussion_polls_help": "Quando ativado, os usuários podem criar enquetes em posts de discussões. Desative se quiser usar apenas enquetes globais.",
                 "global_polls": {
                     "heading": "Enquetes Globais",
-                    "help": "Essas configurações controlam o recurso global de enquetes."
+                    "help": "Essas configurações controlam o recurso de enquetes globais."
                 },
                 "image": {
                     "heading": "Configurações de Imagem",
-                    "help": ""
+                    "help": "Configure os limites de upload e as dimensões das imagens. As imagens são convertidas automaticamente para WebP e variantes responsivas são geradas."
                 },
                 "enable_global_polls": "Ativar enquetes globais",
-                "enable_global_polls_help": "Enquetes globais não estão vinculadas a uma postagem específica e podem ser acessadas a partir de uma página dedicada de enquetes.",
-                "enabled_poll_groups": "",
-                "enabled_poll_groups_help": "",
-                "max_options": "",
-                "options_color_blend": "",
-                "options_color_blend_help": "",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "enable_global_polls_help": "Enquetes globais não estão vinculadas a um post específico e podem ser acessadas em uma página própria de enquetes.",
+                "enabled_poll_groups": "Ativar grupos de enquetes",
+                "enabled_poll_groups_help": "Os grupos de enquetes permitem agrupar enquetes globais e exibi-las em uma página própria.",
+                "max_options": "Número máximo de opções por enquete",
+                "options_color_blend": "Mesclar cores do texto nas opções da enquete",
+                "options_color_blend_help": "Usa a mistura de cores para deixar as opções da enquete mais legíveis. Desative se este recurso causar problemas na aparência do seu fórum, reduzindo a legibilidade.",
+                "max_image_upload_size": "Tamanho máximo de upload de imagem (KB)",
+                "max_image_upload_size_help": "O tamanho máximo de arquivo para upload de imagens, em kilobytes. As imagens são convertidas automaticamente para WebP e redimensionadas após o upload, então o tamanho final armazenado costuma ser bem menor. O padrão é 10240 KB (10 MB).",
+                "image_height": "Redimensionar altura da imagem (px)",
+                "image_width": "Redimensionar largura da imagem (px)",
+                "image_dimensions_help": "As dimensões base das imagens armazenadas. Variantes HiDPI (@2x, @3x) são geradas automaticamente quando a imagem original é grande o bastante."
             },
             "permissions": {
                 "view_results_without_voting": "Ver resultados sem votar",
-                "start": "Iniciar uma enquete",
-                "start_global": "",
-                "self_edit": "Permitir que os usuários editem suas próprias enquetes",
-                "self_post_edit": "",
-                "upload_images": "",
-                "vote": "Vote nas enquetes",
+                "start": "Iniciar enquete",
+                "start_global": "Iniciar enquete global",
+                "self_edit": "Editar as enquetes criadas (requer permissão de editar posts)",
+                "self_post_edit": "Editar *todas* as enquetes nos próprios posts (requer permissão de editar posts)",
+                "upload_images": "Enviar imagens para enquetes",
+                "vote": "Votar em enquetes",
                 "change_vote": "Mudar voto",
                 "moderate": "Editar e remover enquetes",
-                "view_group": "",
-                "start_group": "",
-                "moderate_group": ""
+                "view_group": "Ver grupos de enquetes",
+                "start_group": "Criar grupos de enquetes",
+                "moderate_group": "Editar e remover grupos de enquetes"
             }
         },
         "forum": {
-            "days_remaining": "Enquete termina em {time}.",
+            "days_remaining": "Enquete termina {time}.",
             "no_permission": "Você não tem permissão para votar",
             "poll_ended": "Esta enquete terminou.",
-            "public_poll": "Veja quem votou",
-            "max_votes_allowed": "",
-            "polls_count": "{count, plural, one { {count} voto} other {{count} votos}}",
+            "public_poll": "Ver quem votou",
+            "max_votes_allowed": "A enquete permite votar em {max, plural, one {# opção} other {# opções}}.",
+            "polls_count": "{count, plural, one {# voto} other {# votos}}",
             "poll_never_ends": "Enquete nunca termina",
             "answers": "Respostas",
             "poll": {
                 "cannot_change_vote": "Você não pode alterar seu voto após votar.",
-                "submit_button": "Voto",
+                "submit_button": "Votar",
                 "start_poll_button": "Iniciar Enquete Global",
-                "cannot_start_poll_button": "Não é possível iniciar a enquete",
-                "total_votes": "",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "cannot_start_poll_button": "Impossível Iniciar Enquete",
+                "total_votes": "{count, plural, one {# voto registrado} other {# votos registrados}}",
+                "draft_label": "Rascunho",
+                "scheduled_label": "Agendada para {date}",
+                "scheduled_error_tooltip": "Esta publicação agendada falhou. Abra a enquete para ver o motivo."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Alternar menu de controles da enquete",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Tem certeza de que deseja excluir esta enquete?",
                 "delete_success_message": "Enquete excluída com sucesso.",
-                "delete_error_message": "",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "delete_error_message": "Algo deu errado ao excluir a enquete.",
+                "publish_label": "Publicar agora",
+                "publish_success": "Enquete publicada.",
+                "schedule_publish_label": "Agendar publicação",
+                "edit_schedule_publish_label": "Editar publicação agendada",
+                "cancel_schedule_label": "Cancelar publicação agendada",
+                "cancel_schedule_success": "Publicação agendada cancelada.",
+                "unpublish_label": "Voltar para rascunho",
+                "unpublish_confirmation": "Voltar esta enquete para rascunho? Ela sairá da vitrine.",
+                "unpublish_success": "Enquete movida para rascunho.",
+                "unpublish_error_has_votes": "Não é possível despublicar — a enquete já tem votos. Em vez disso, exclua-a."
             },
             "poll_form": {
-                "delete": "",
-                "error": ""
+                "delete": "Excluir Enquete",
+                "error": "Ocorreu um erro ao salvar a enquete, contate um administrador."
             },
             "poll_groups": {
                 "composer": {
-                    "add_title": "",
-                    "edit_title": "",
-                    "save_changes": "",
-                    "delete": "",
-                    "groups_manager": "",
-                    "view_group": "",
-                    "success": ""
+                    "add_title": "Adicionar Grupo de Enquetes",
+                    "edit_title": "Editar Grupo de Enquetes",
+                    "save_changes": "=> core.ref.save_changes",
+                    "delete": "Excluir Grupo de Enquetes",
+                    "name_label": "Nome",
+                    "name_required": "Um grupo de enquetes precisa de um nome.",
+                    "error": "Ocorreu um erro ao salvar o grupo de enquetes, contate um administrador.",
+                    "groups_manager": "Gerenciador de Grupos de Enquetes",
+                    "view_group": "Ver Grupo de Enquetes",
+                    "success": "Grupo de enquetes salvo com sucesso."
                 },
                 "list_page": {
-                    "title": "",
-                    "start_poll_group_button": "",
-                    "cannot_start_poll_group_button": "",
-                    "empty_text": "",
-                    "load_more_button": "",
-                    "no_polls": "",
-                    "add_poll_button": ""
+                    "title": "Grupos de Enquetes",
+                    "start_poll_group_button": "Iniciar Grupo de Enquetes",
+                    "cannot_start_poll_group_button": "Impossível Iniciar Grupo de Enquetes",
+                    "empty_text": "Parece que não há grupos de enquetes aqui.",
+                    "load_more_button": "=> core.ref.load_more",
+                    "no_polls": "Não há enquetes neste grupo.",
+                    "add_poll_button": "Adicionar Enquete ao Grupo"
                 },
                 "controls": {
-                    "add_poll_label": "",
-                    "edit_label": "",
-                    "view_label": "",
-                    "delete_label": "",
-                    "delete_confirmation": "",
-                    "delete_success_message": "",
-                    "delete_error_message": ""
+                    "add_poll_label": "Adicionar Enquete",
+                    "edit_label": "=> core.ref.edit",
+                    "view_label": "Ver Grupo de Enquetes",
+                    "delete_label": "=> core.ref.delete",
+                    "delete_confirmation": "Tem certeza de que deseja excluir este grupo de enquetes?",
+                    "delete_success_message": "Grupo de enquetes excluído com sucesso.",
+                    "delete_error_message": "Algo deu errado ao excluir o grupo de enquetes."
                 }
             },
             "polls_page": {
-                "title": ""
+                "title": "Enquetes"
             },
             "polls_list": {
-                "empty_text": "",
-                "load_more_button": "",
+                "empty_text": "Parece que não há enquetes da comunidade aqui.",
+                "load_more_button": "=> core.ref.load_more",
                 "sort_dropdown": {
-                    "newest": "",
-                    "oldest": "",
-                    "most_voted": "",
-                    "least_voted": "",
+                    "newest": "Mais novas",
+                    "oldest": "Mais antigas",
+                    "most_voted": "Mais Votadas",
+                    "least_voted": "Menos Votadas",
                     "sort_dropdown": {
-                        "default": ""
+                        "default": "=> fof-polls.forum.polls_list.sort_dropdown.newest"
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Todas",
+                    "published": "Publicadas",
+                    "draft": "Rascunhos"
                 }
             },
             "composer_discussion": {
-                "add_poll": "Adicionar enquete",
+                "add_poll": "=> fof-polls.forum.moderation.add",
                 "edit_poll": "=> fof-polls.forum.moderation.edit",
-                "no_permission_alert": ""
+                "no_permission_alert": "Você não tem permissão para iniciar uma enquete."
             },
             "compose": {
-                "add_title": "",
-                "edit_title": "",
-                "polls_manager": "",
-                "polls_preview": "",
-                "continue_editing": "",
-                "success": "",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "add_title": "Adicionar Enquete",
+                "edit_title": "Editar Enquete",
+                "polls_manager": "Gerenciador de Enquetes",
+                "polls_preview": "Ver Enquete",
+                "continue_editing": "Continuar Editando",
+                "success": "Enquete salva com sucesso.",
+                "submit": "Enviar",
+                "save_as_draft": "Salvar como rascunho",
+                "update_draft": "Atualizar rascunho",
+                "draft_saved": "Rascunho salvo",
+                "publish": "Publicar",
+                "schedule_publication": "Agendar publicação",
+                "schedule_publication_edit": "Editar publicação agendada",
+                "schedule_datetime_label": "Publicar em",
+                "schedule_submit": "Agendar",
+                "schedule": "Agendar"
             },
             "modal": {
-                "add_title": "Adicionar enquete",
-                "add_option_label": "Adicionar uma opção",
-                "date_placeholder": "Data de término da enquete (opcional)",
-                "edit_title": "Editar enquete",
+                "add_title": "Adicionar Enquete",
+                "add_option_label": "Adicionar Opção",
+                "date_placeholder": "Data final da enquete (Opcional)",
+                "edit_title": "Editar Enquete",
                 "include_question": "Você deve incluir uma pergunta",
                 "max": "Você pode ter no máximo {max} respostas",
                 "min": "Você deve incluir um mínimo de 2 respostas",
-                "empty_answers": "",
-                "no_voters": "Sem votos",
+                "empty_answers": "{count, plural, one {# resposta está vazia — preencha-a ou remova-a.} other {# respostas estão vazias — preencha-as ou remova-as.}}",
+                "no_voters": "Sem Votos",
                 "option_placeholder": "Resposta",
-                "image_option_placeholder": "URL da imagem (opcional)",
+                "image_option_placeholder": "URL da Imagem (opcional)",
                 "options_label": "Respostas",
-                "public_poll_label": "Permitir que as pessoas vejam quem votou",
-                "allow_multiple_votes_label": "",
-                "max_votes_label": "",
-                "max_votes_help": "",
-                "hide_votes_label": "",
-                "hide_votes_label_help": "",
-                "allow_change_vote_label": "",
+                "settings_label": "Votação",
+                "public_poll_label": "Permitir ver quem votou",
+                "allow_multiple_votes_label": "Permitir votar em várias opções",
+                "max_votes_label": "Máximo de votos por usuário",
+                "max_votes_help": "Defina 0 para permitir que os usuários votem em todas as opções.",
+                "hide_votes_label": "Ocultar votos até o fim da enquete",
+                "hide_votes_label_help": "O usuário que iniciou a enquete sempre poderá ver os votos.",
+                "allow_change_vote_label": "Permitir que os usuários alterem o voto",
                 "question_placeholder": "Pergunta",
-                "subtitle_placeholder": "",
+                "subtitle_placeholder": "Subtítulo/Descrição (opcional)",
                 "submit": "Enviar",
-                "delete": "",
-                "error": "",
+                "delete": "=> core.ref.delete",
+                "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "",
-                    "help": "",
-                    "alt_label": "",
-                    "alt_help_text": "",
-                    "url_deprecated": ""
+                    "label": "Imagem da Enquete",
+                    "help": "Envie uma imagem para ser exibida junto à enquete (opcional).",
+                    "alt_label": "Texto Alternativo da Imagem",
+                    "alt_help_text": "Este texto é obrigatório quando há uma imagem; ele será exibido se a imagem não carregar.",
+                    "url_deprecated": "Esta enquete usa uma URL de imagem externa. URLs externas estão obsoletas e serão removidas em uma versão futura. Reenvie a imagem usando o botão de upload."
                 },
                 "poll_option_image": {
-                    "label": "",
-                    "help": ""
+                    "label": "Imagem da Resposta da Enquete",
+                    "help": "Envie uma imagem para ser exibida junto à resposta da enquete (opcional)."
                 },
-                "date_clear": "",
+                "date_clear": "Limpar data final",
                 "tooltip": {
                     "options": {
-                        "add-button": "",
-                        "remove-button": ""
+                        "add-button": "Adicionar Resposta",
+                        "remove-button": "Remover Resposta"
                     }
                 }
             },
             "moderation": {
-                "add": "",
-                "delete": "Remover enquete",
+                "add": "Adicionar Enquete",
+                "delete": "Remover Enquete",
                 "delete_confirm": "Tem certeza de que deseja excluir esta enquete?",
-                "edit": "Editar enquete"
+                "edit": "Editar Enquete"
             },
             "page": {
-                "nav": "",
-                "nav-all": "",
-                "nav-groups": ""
+                "nav": "Enquetes",
+                "nav-all": "Todas as Enquetes Globais",
+                "nav-groups": "Grupos de Enquetes"
             },
             "showcase": {
-                "active-polls": "",
-                "ended-polls": "",
-                "no-active-polls": "",
-                "no-recent-polls": ""
+                "active-polls": "Enquetes Ativas",
+                "ended-polls": "Enquetes Encerradas",
+                "no-active-polls": "Não há enquetes ativas no momento.",
+                "no-recent-polls": "Não há enquetes encerradas recentemente no momento."
             },
             "tooltip": {
                 "badge": "Enquete",
-                "votes": "{count, plural, one {# vote} other {# votes} }"
+                "votes": "{count, plural, one {# voto} other {# votos}}"
             },
             "votes_modal": {
-                "title": "Veja quem votou"
+                "title": "Votantes"
             },
             "upload_image": {
-                "remove_button": "",
-                "upload_button": ""
+                "remove_button": "Excluir Imagem",
+                "upload_button": "Enviar Imagem"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "Criou a enquete {title}",
+                    "updated": "Atualizou a enquete {title}",
+                    "deleted": "Excluiu a enquete {title}",
+                    "published": "Publicou a enquete {title}",
+                    "unpublished": "Despublicou a enquete {title}",
+                    "voted": "Votou na enquete {title}"
+                },
+                "poll_group": {
+                    "created": "Criou o grupo de enquetes {name}",
+                    "updated": "Atualizou o grupo de enquetes {name}",
+                    "deleted": "Excluiu o grupo de enquetes {name}"
+                }
             }
         }
     }

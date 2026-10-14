@@ -15,6 +15,9 @@
                 "only_icons_label": "Ukazovať iba ikony (iné rozloženie)",
                 "update_email_from_provider_label": "Aktualizovať emailovú adresu z poskytovateľa",
                 "update_email_from_provider_help": "Ak je táto možnosť povolená, e-mailová adresa používateľa sa pri každom prihlásení do fóra aktualizuje tak, aby zodpovedala adrese poskytnutej poskytovateľom OAuth. Nie všetci poskytovatelia poskytujú aktualizovaný e-mail, v takom prípade toto nastavenie nebude mať u týchto poskytovateľov žiadny účinok.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
                 "providers": {
@@ -65,6 +68,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Prihlásenie pomocou {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

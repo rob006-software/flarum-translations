@@ -1,0 +1,64 @@
+{
+    "kuma-develop-level": {
+        "admin": {
+            "exp_discussion": "EXP for starting a discussion (default 10)",
+            "exp_post": "EXP for replying to a post (default 5)",
+            "exp_daily": "EXP for the first visit each day (default 2)",
+            "timezone": "Time zone for the daily check-in",
+            "timezone_help": "IANA time zone name, e.g. Asia/Ho_Chi_Minh or UTC. The day resets at midnight in this time zone.",
+            "icons_enabled": "Show icons before levels",
+            "icons_help": "Turn off to hide all icons. To hide the icon of a single level, leave its icon field empty.",
+            "levels_title": "Levels",
+            "levels_help": "Level N is row N, sorted by ascending EXP. Level 1 always starts at 0 EXP. Icons use Font Awesome classes (e.g. fas fa-star). Click Save Changes at the bottom of the page to apply. The highest level always gets the premium effect.",
+            "col_level": "Level",
+            "col_name": "Name",
+            "col_exp": "Min. EXP",
+            "col_icon": "Icon",
+            "col_fx": "Premium",
+            "fx_title": "Shiny effect and show the level name",
+            "col_color": "Color",
+            "name_placeholder": "Level name",
+            "delete_title": "Delete this level",
+            "add_level": "Add level",
+            "new_level": "New level",
+            "reset": "Restore defaults",
+            "reset_confirm": "Restore the default level table?",
+            "perm_edit": "Edit users' EXP and level",
+            "notify_levelup": "Notify users when they level up",
+            "notify_levelup_help": "Users can turn this off themselves in Settings > Notifications."
+        },
+        "forum": {
+            "exp_progress": "EXP {exp} / {next}",
+            "exp_max": "EXP {exp}",
+            "card_level": "Level {level}",
+            "control_edit": "Edit level",
+            "modal_title": "Edit level: {name}",
+            "modal_by_level": "Set by level",
+            "modal_choose": "Choose a level to set EXP",
+            "modal_option": "Lv.{level}{name} ({exp} EXP)",
+            "modal_exp": "EXP",
+            "tip_remaining": "{remaining} EXP to reach Lv.{level}{name}",
+            "tip_max": "MAX",
+            "tip_max_desc": "You have reached the highest level",
+            "tip_max_desc_other": "{name} has reached the highest level",
+            "notif_levelup": "Congratulations! You reached Level {level}{name}",
+            "notif_setting": "I level up",
+            "modal_save": "Save"
+        },
+        "lib": {
+            "level_short": "Lv.{level}",
+            "default_names": {
+                "newbie": "Newbie",
+                "apprentice": "Apprentice",
+                "member": "Member",
+                "active": "Active",
+                "expert": "Expert",
+                "elite": "Elite",
+                "master": "Master",
+                "grandmaster": "Grandmaster",
+                "legend": "Legend",
+                "sovereign": "Sovereign"
+            }
+        }
+    }
+}

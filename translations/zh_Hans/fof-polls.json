@@ -96,6 +96,9 @@
                     "edit_title": "编辑投票合集",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "删除投票合集",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "投票合集管理",
                     "view_group": "查看投票合集",
                     "success": "投票合集已保存。"
@@ -176,6 +179,7 @@
                 "option_placeholder": "选项",
                 "image_option_placeholder": "图片链接（可选）",
                 "options_label": "选项",
+                "settings_label": "",
                 "public_poll_label": "允许查看投票用户",
                 "allow_multiple_votes_label": "允许多选",
                 "max_votes_label": "每人最多可选",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "删除图片",
                 "upload_button": "上传图片"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

@@ -5,6 +5,7 @@
             "page_title": "Naptár",
             "upcoming": "Közelgő események",
             "no_events": "Nincsenek közelgő események.",
+            "no_events_day": "",
             "view_month": "Hónap",
             "view_week": "Hét",
             "view_day": "Nap",
@@ -60,6 +61,9 @@
             "saved": "Esemény mentve.",
             "save_error": "Nem sikerült az esemény mentése – ellenőrizze az űrlapot, és próbálja újra.",
             "widget_title": "Közelgő események",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "Fórum impulzusa",
             "heat_contributions": "közreműködés",
             "heat_current_streak": "napos sorozat",
@@ -108,10 +112,20 @@
             "end_before_start": "A végének a kezdete után kell lennie.",
             "category_name_required": "A kategórianév kötelező."
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "Naptár",
             "default_view": "Alapértelmezett naptárnézet",
             "view_month_opt": "Havi rácsnézet",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "Közelgők listája",
             "week_starts_on": "Hét kezdete",
             "week_sunday": "Vasárnap",
@@ -122,7 +136,13 @@
             "index_widget_count": "A kezdőlapi modulon megjelenítendő események",
             "show_pulse_widget": "A „Fórum impulzusa” modul megjelenítése a fórum kezdőlapján",
             "show_pulse_widget_help": "Egy aktív hőtérkép és a legaktívabbak rangsora jelzi a közösség aktivitását. (Egy közreműködési grafikon is megjelenik minden tag profilján.)",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "Egy „Mai napon” modul megjelenítése a fórum kezdőlapján",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "Egy „Mai ünnepeltek” modul megjelenítése a fórum kezdőlapján",
             "categories": "Eseménykategóriák",
             "categories_help": "A színkódolt kategóriák lehetővé teszik, hogy a tagok leszűrjék a naptárat, és minden eseménynek színes kiemelést adjanak. A változások soronként vannak mentve.",

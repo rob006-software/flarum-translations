@@ -7,13 +7,15 @@
                 "banners_empty": "No banners yet.",
                 "banners_add": "Add banner",
                 "top_heading": "Above the discussion",
+                "first_heading": "After the first post",
                 "bottom_heading": "Below the discussion",
                 "stream_heading": "Between posts",
                 "top_short": "Top",
+                "first_short": "After first post",
                 "bottom_short": "Bottom",
                 "stream_short": "Between posts",
                 "placement_label": "Where it appears",
-                "placement_help": "Above the first post, below the last post, or repeated after every few posts.",
+                "placement_help": "Above the first post, right after it, below the last post, or repeated after every few posts.",
                 "stream_every_label": "Show after every N posts",
                 "stream_every_help": "The banner appears after every Nth post in a discussion. Minimum 2.",
                 "label_label": "Small heading",
@@ -57,7 +59,9 @@
                 "summary_discussion_many": "{count} discussions",
                 "summary_tag_one": "1 tag",
                 "summary_tag_many": "{count} tags",
-                "delete": "Delete banner"
+                "delete": "Delete banner",
+                "most_specific_label": "Show only the most specific banner",
+                "most_specific_help": "When several banners would appear in the same place, show only the most specific ones: a banner picked for the discussion beats one for its subtag, which beats one for a tag, which beats one shown in every discussion. \"Everywhere except\" banners count as shown in every discussion."
             }
         }
     }

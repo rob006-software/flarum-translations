@@ -96,6 +96,9 @@
                     "edit_title": "แก้ไขกลุ่มแบบสำรวจ",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "ลบกลุ่มแบบสำรวจนี้",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "หน้าจัดการกลุ่มแบบสำรวจ",
                     "view_group": "แสดงผลกลุ่มแบบสำรวจ",
                     "success": "บันทึกข้อมูลกลุ่มแบบสำรวจเสร็จสมบูรณ์"
@@ -176,6 +179,7 @@
                 "option_placeholder": "ระบุตัวเลือกคำตอบที่นี่",
                 "image_option_placeholder": "ลิงก์ภาพประกอบตัวเลือก (ระบุหรือไม่ก็ได้)",
                 "options_label": "ตัวเลือกคำตอบทั้งหมด",
+                "settings_label": "",
                 "public_poll_label": "อนุญาตให้ทุกคนตรวจสอบผู้ที่ลงคะแนนโหวตในแต่ละหัวข้อได้",
                 "allow_multiple_votes_label": "อนุญาตให้ผู้ใช้ลงคะแนนโหวตเลือกได้มากกว่าหนึ่งคำตอบ",
                 "max_votes_label": "คะแนนโหวตเลือกสูงสุดต่อผู้ใช้หนึ่งคน",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "ลบรูปภาพประกอบทิ้ง",
                 "upload_button": "อัปโหลดรูปภาพประกอบ"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

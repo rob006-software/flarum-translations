@@ -11,8 +11,8 @@
                     "tags": "Thẻ Câu trả lời hay nhất",
                     "general": "Chung",
                     "reminders": "Nhắc nhở",
-                    "advanced": "Nâng cao",
-                    "reminders_notice": "Để lời nhắc hoạt động, bạn phải thiết lập bộ lập lịch Flarum một cách chính xác."
+                    "reminders_notice": "Để lời nhắc hoạt động, bạn phải thiết lập bộ lập lịch Flarum một cách chính xác.",
+                    "advanced": "Nâng cao"
                 },
                 "show_max_lines_label": "Số dòng tối đa hiển thị trong xem trước bài đăng",
                 "show_max_lines_help": "Đặt giá trị là 0 để vô hiệu hóa tính năng. Nếu một bài đăng dài hơn số dòng được cấu hình, nó sẽ bị cắt ngắn trong xem trước bài đăng với hiệu ứng phai mờ.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Gửi lời nhắc sau khoảng thời gian có thể cấu hình đến OP để chọn Câu trả lời hay nhất, 0 = tắt lời nhắc.",
                 "select_best_answer_tags_label": "Các thẻ cho các cuộc thảo luận có Câu trả lời hay nhất",
                 "select_best_answer_tags_help": "Chọn những thẻ nào, nếu có, để thêm vào các cuộc thảo luận khi có Câu trả lời hay nhất được đặt. Chỉ các thẻ phụ được cho phép. Những thẻ này sẽ bị xóa nếu Câu trả lời hay nhất bị xóa.",
-                "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
-                "schedule_on_one_server_help": "Yêu cầu Redis/Memcache",
                 "schedule_stop_overnight": "Ngăn gửi thông báo nhắc nhở vào giờ nghỉ ban đêm",
                 "schedule_stop_overnight_help": "9 giờ tối - 8 giờ sáng theo giờ máy chủ",
                 "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Hiển thị dropdown bộ lọc Câu trả lời hay nhất",
                 "show_filter_help": "Đối với các thẻ đã bật Câu trả lời hay nhất, chọn hiển thị tùy chọn bộ lọc đã giải quyết/chưa giải quyết trong danh sách thảo luận",
                 "use_alt_ui": "Bố cục thay thế",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Chọn những thẻ nào, nếu có, để gửi nhắc nhở. Nhắc nhở chỉ được gửi cho các cuộc thảo luận có những thẻ này.",
                 "tags_info": "Khi một thẻ được kích hoạt Câu trả lời hay nhất, gán quyền cho từng nhóm người dùng có thể đặt câu trả lời (cho thảo luận của riêng họ, cho bất kỳ thảo luận nào). Quyền có thể được gán toàn cầu (cho bất kỳ thẻ nào được kích hoạt Câu trả lời hay nhất), hoặc trên cơ sở từng thẻ.\n",
                 "discussion_sidebar_jump_button": "Hiển thị nút nhảy đến Câu trả lời hay nhất trong thanh bên của cuộc thảo luận",
-                "discussion_sidebar_jump_button_help": "Thêm một nút vào thanh bên của cuộc thảo luận để nhảy đến Câu trả lời hay nhất trong danh sách các bài đăng."
+                "discussion_sidebar_jump_button_help": "Thêm một nút vào thanh bên của cuộc thảo luận để nhảy đến Câu trả lời hay nhất trong danh sách các bài đăng.",
+                "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
+                "schedule_on_one_server_help": "Yêu cầu Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Bật Câu trả lời hay nhất đặt trong thẻ này",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Không thể đặt câu hỏi",
                 "solved_link": "Cuộc thảo luận đã giải quyết",
                 "unsolved_link": "Cuộc thảo luận chưa được giải quyết"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Tất cả câu hỏi",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "đã giải quyết"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }

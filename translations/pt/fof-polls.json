@@ -96,6 +96,9 @@
                     "edit_title": "Editar grupo de sondagens",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Apagar grupo de sondagens",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Gestor de grupos de sondagens",
                     "view_group": "Visualizar grupo de sondagens",
                     "success": "O grupo de sondagens foi guardado com sucesso."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Resposta",
                 "image_option_placeholder": "Endereço URL da imagem (opcional)",
                 "options_label": "Respostas",
+                "settings_label": "",
                 "public_poll_label": "Permitir aos utilizadores visualizar quem votou",
                 "allow_multiple_votes_label": "Permitir que os utilizadores votem em múltiplas opções",
                 "max_votes_label": "Máximo de votações por utilizador",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Apagar imagem",
                 "upload_button": "Enviar imagem"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

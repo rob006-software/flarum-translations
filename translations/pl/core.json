@@ -119,6 +119,8 @@
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "Logo w wiadomościach e-mail",
+                "email_logo_text": "Prześlij obrazek, który będzie wyświetlany u góry wiadomości e-mail. Zostanie zapisany w formacie obsługiwanym przez wszystkie programy pocztowe. Jeśli nie prześlesz osobnego obrazka, w wiadomościach będzie używana kopia logo forum. Jeśli zamiast logo wyświetla się nazwa forum, prześlij logo ponownie.",
                 "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
@@ -153,7 +155,7 @@
                 "avatar_driver_heading": "Awatar użytkownika",
                 "avatar_driver_text": "Wybierz sposób wyświetlania awatara użytkownikom, którzy nie przesłali własnego. Domyślnie takim użytkownikom nie wyświetla się awatara.",
                 "forum_description_heading": "Opis forum",
-                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
+                "forum_description_text": "Wpisz 1–2 krótkie zdania, które opisują Twoje forum. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona główna",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
@@ -173,7 +175,7 @@
                 "slug_driver_text": "Wybierz generator slugów dla tego modelu.",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie „Wszystkie dyskusje”. Użyj go, aby powitać gości na swoim forum.",
                 "abandoned_extensions_heading": "Porzucone rozszerzenia",
                 "abandoned_extensions_text": "Flarum prowadzi <a>społecznościową listę porzuconych rozszerzeń</a>. Gdy zainstalowane rozszerzenie znajdzie się na tej liście, zostanie oznaczone w panelu administracyjnym.",
                 "abandoned_extensions_sync_button": "Sprawdź teraz",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Przetwarzanie wszystkich kolejek jest wstrzymane. Nowe zadania będą czekać na jego wznowienie.",
                 "queue_paused_manage": "Zarządzaj",
                 "clear_cache_button": "Wyczyść cache",
+                "clear_cache_modal": {
+                    "title": "Czyszczenie cache",
+                    "working": "Trwa ponowne generowanie skompilowanych zasobów. Na większych forach może to chwilę potrwać.",
+                    "cleared": "Wyczyszczono {name}",
+                    "cleared_files": "Wyczyszczono {name} ({count, plural, one {# plik} few {# pliki} other {# plików}})",
+                    "rebuilt": "Przebudowano {bundle}",
+                    "unchanged": "{bundle} – bez zmian",
+                    "rewritten": "Zapisano ponownie {bundle}",
+                    "empty": "{bundle} – brak zasobów do kompilacji",
+                    "chunks": "Przebudowano części pakietu {frontend} (zmienione: {count})",
+                    "failed": "Nie udało się przebudować {step}: {message}",
+                    "took": "Czas: {time} ms",
+                    "reload_button": "Odśwież"
+                },
                 "description": "Podstawowe informacje dotyczące forum.",
                 "info_button": "Informacje systemowe",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Nieodwracalne usuwanie postów",
                 "delete_posts_label": "Usuwanie postów",
                 "description": "Skonfiguruj uprawnienia użytkowników i grup.",
+                "edit_own_avatar_label": "Edytowanie własnego awatara",
                 "edit_posts_label": "Edytowanie postów",
                 "edit_users_label": "Edytowanie atrybutów użytkownika",
                 "edit_users_credentials_label": "Edytowanie danych logowania użytkownika",
@@ -687,7 +704,7 @@
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "Poprzedni tytuł: \"{old}\"",
+                "discussion_renamed_old_tooltip": "Poprzedni tytuł: „{old}”",
                 "discussion_renamed_text": "{username} zmienił tytuł na {new} {time}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
@@ -738,7 +755,7 @@
                 "terminate_session": "Zakończ",
                 "title": "=> core.ref.security",
                 "token_revoked": "Token został unieważniony.",
-                "token_item_title": "{title} - {token}",
+                "token_item_title": "{title} – {token}",
                 "token_title_placeholder": "-"
             },
             "settings": {
@@ -753,11 +770,12 @@
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
                 },
-                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu \"{description}\" za pomocą {method}",
+                "notification_checkbox_a11y_label_template": "Otrzymuj powiadomienia typu „{description}” za pomocą {method}",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ktoś zmienił tytuł dyskusji, którą rozpocząłem",
+                "reset_notifications_button": "Przywróć ustawienia domyślne",
                 "device_heading": "Urządzenie",
                 "haptic_feedback_help": "Dostępne tylko na obsługiwanych urządzeniach mobilnych",
                 "haptic_feedback_label": "Włącz reakcje haptyczne",
@@ -896,6 +914,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": "Wybierz grupę"
+            },
             "input": {
                 "clear_button": "Wyczyść pole"
             },
@@ -903,8 +924,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Strona # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} – {forumName}} other {{pageTitle}: Strona # – {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Strona # – {forumName}}}"
             },
             "modal": {
                 "close": "Zamknij"
@@ -978,7 +999,7 @@
             },
             "user_selection_modal": {
                 "empty_results": "Nie znaleziono użytkowników pasujących do wyszukiwania.",
-                "max_items_to_select": "{count, plural, one {Wybierz maksymalnie # użytkownika} few {Wybierz maksymalnie # użytkowników} other {Wybierz maksymalnie # użytkowników}}",
+                "max_items_to_select": "{count, plural, one {Wybierz maksymalnie # użytkownika} other {Wybierz maksymalnie # użytkowników}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
                 "title": "Wybierz użytkowników"

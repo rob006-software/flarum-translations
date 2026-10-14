@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "แดชบอร์ด Horizon (Horizon Dashboard)",
                 "auto_refresh": "รีเฟรชอัตโนมัติ",
                 "refresh": "รีเฟรชข้อมูล",
@@ -38,9 +37,6 @@
                     "fetch_failed": "ไม่สามารถดึงข้อมูลสถิติจาก Horizon ได้ โปรดตรวจสอบการกำหนดค่า Redis ของคุณให้ถูกต้อง",
                     "setup_docs": "ดูเอกสารประกอบการตั้งค่า Redis"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "ดีเยี่ยม",
                     "good": "ดี",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "หน่วยความจำที่กำลังใช้งานของ Cache",
                     "redis-peak-memory": "หน่วยความจำที่ใช้งานสูงสุด (Peak Memory) ของ Cache",
                     "redis-max-memory": "ขีดจำกัดหน่วยความจำสูงสุด (Max Memory) ของ Cache",

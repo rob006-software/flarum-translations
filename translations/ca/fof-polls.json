@@ -96,6 +96,9 @@
                     "edit_title": "",
                     "save_changes": "",
                     "delete": "",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "",
                     "view_group": "",
                     "success": ""
@@ -176,6 +179,7 @@
                 "option_placeholder": "Resposta",
                 "image_option_placeholder": "Adreça web de la imatge (opcional)",
                 "options_label": "Respostes",
+                "settings_label": "",
                 "public_poll_label": "Permetre veure qui ha votat",
                 "allow_multiple_votes_label": "Permetre votar múltiples opcions",
                 "max_votes_label": "Màxim de vots per usuari",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Esborrar imatge",
                 "upload_button": "Escollir imatge"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

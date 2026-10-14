@@ -2,109 +2,109 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Aprovar solicitações de alteração de nome de usuário/apelido",
+                "request_nickname": "Solicitar alteração de apelido",
+                "request_username": "Solicitar alteração de nome de usuário"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Verifique se esta alteração de apelido solicitada segue as diretrizes do fórum.",
+                    "decision_title": "Decisão",
+                    "approval_label": "Aprovar",
+                    "rejected_label": "Rejeitar",
+                    "submit_button": "Enviar",
+                    "reason_title": "Motivo da Rejeição",
+                    "success": "Decisão enviada.",
+                    "name": "{name} solicitou a alteração do apelido para \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Solicitação de Alteração de Apelido",
+                    "approved": "Sua solicitação de alteração de apelido foi aprovada",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Seu apelido foi alterado com sucesso para: {name}",
+                    "rejected": "Sua solicitação de alteração de apelido foi rejeitada",
+                    "reason": "Motivo da rejeição: <i>\"{reason}\"</i>.",
+                    "resubmit": "Agora você pode enviar uma nova solicitação de alteração de apelido nas configurações da conta, se quiser."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Solicitar Alteração de Apelido",
+                    "current_request": "Você já solicitou a alteração do seu apelido para \"{name}\". Você pode atualizar ou excluir a solicitação.",
+                    "submit_button": "Enviar Solicitação",
+                    "delete_button": "Excluir Solicitação",
+                    "confirmation_message": "Sua solicitação de alteração de apelido foi enviada e aguarda aprovação.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Solicitação de apelido excluída."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Verifique se esta alteração de nome de usuário solicitada segue as diretrizes do fórum.",
+                    "decision_title": "Decisão",
+                    "approval_label": "Aprovar",
+                    "rejected_label": "Rejeitar",
+                    "submit_button": "Enviar",
+                    "reason_title": "Motivo da Rejeição",
+                    "success": "Decisão enviada.",
+                    "name": "{name} solicitou a alteração do nome de usuário para \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Solicitação de Alteração de Nome de Usuário",
+                    "approved": "Sua solicitação de alteração de nome de usuário foi aprovada",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Seu nome de usuário foi alterado com sucesso para: {name}",
+                    "rejected": "Sua solicitação de alteração de nome de usuário foi rejeitada",
+                    "reason": "Motivo da rejeição: <i>\"{reason}\"</i>.",
+                    "resubmit": "Agora você pode enviar uma nova solicitação de alteração de nome de usuário nas configurações da conta, se quiser."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Solicitar Alteração de Nome de Usuário",
+                    "current_request": "Você já solicitou a alteração do seu nome de usuário para \"{name}\". Você pode atualizar ou excluir a solicitação.",
+                    "submit_button": "Enviar Solicitação",
+                    "delete_button": "Excluir Solicitação",
+                    "confirmation_message": "Sua solicitação de alteração de nome de usuário foi enviada e aguarda aprovação.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Solicitação de nome de usuário excluída."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "group_label": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Nenhuma solicitação de alteração de nome encontrada.",
+                "group_label": "Solicitações",
+                "nickname_item_text": "{name} solicitou uma alteração de apelido",
+                "nickname_exerpt": "Apelido solicitado: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} solicitou uma alteração de nome de usuário",
+                "username_exerpt": "Nome de usuário solicitado: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Alterar Apelido",
+                "username_request_button": "Alterar Nome de Usuário"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Histórico de Nomes"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Solicitação de Alteração de Nome",
+            "name_change_requests": "Solicitações de Alteração de Nome",
+            "nickname_change_request": "Solicitação de Alteração de Apelido",
+            "nickname_change_requests": "Solicitações de Alteração de Apelido",
+            "username_change_request": "Solicitação de Alteração de Nome de Usuário",
+            "username_change_requests": "Solicitações de Alteração de Nome de Usuário"
         },
         "email": {
             "body": {
-                "noReasonProvided": "",
-                "approved": "",
-                "rejected": ""
+                "noReasonProvided": "Nenhum motivo informado.",
+                "approved": "Sua solicitação para alterar seu nome de usuário para \"{new_username}\" foi aprovada por {actor_display_name}.\n\nAgora você pode entrar com seu novo nome de usuário: {login_url}\n",
+                "rejected": "Sua solicitação para alterar seu nome de usuário de \"{old_username}\" para \"{requested_username}\" foi rejeitada por {actor_display_name}.\n\nMotivo: {reason}\n"
             },
             "subject": {
-                "approved": "",
-                "rejected": ""
+                "approved": "{display_name} aprovou a alteração do seu nome de usuário para {requested_username}",
+                "rejected": "{display_name} rejeitou a alteração do seu nome de usuário para {requested_username}"
             }
         }
     },
@@ -112,12 +112,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "nickname_requested": "Solicitou o novo apelido {new_nickname} para o usuário {username}",
+                    "nickname_request_approved": "Aprovou a alteração do apelido de {username} de {old_nickname} para {new_nickname}",
+                    "nickname_request_rejected": "Rejeitou a alteração do apelido de {username}",
+                    "username_requested": "Solicitou o novo nome de usuário {new_username} para o usuário {username}",
+                    "username_request_approved": "Aprovou a alteração do nome de usuário de {username} de {old_username} para {new_username}",
+                    "username_request_rejected": "Rejeitou a alteração do nome de usuário de {username}"
                 }
             }
         }

@@ -96,6 +96,9 @@
                     "edit_title": "Muuda küsitluse gruppi",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Kustuta küsitluse grupp",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Küsitluste gruppide haldamine",
                     "view_group": "Vaata küsitluste gruppe",
                     "success": "Küsitluste grupp on salvestatud."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Vastus",
                 "image_option_placeholder": "Link pildile (valikuline)",
                 "options_label": "Vastused",
+                "settings_label": "",
                 "public_poll_label": "Luba inimestel näha, kes vastasid",
                 "allow_multiple_votes_label": "Luba inimestel valida mitu valikuvarianti",
                 "max_votes_label": "Maksimaalseid vastuseid kasutaja kohta",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Kustuta pilt",
                 "upload_button": "Laadi pilt üles"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

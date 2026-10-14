@@ -119,6 +119,8 @@
                 "edit_css_button": "Промените ваш додатни CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Унесите хексадецималну вредност за боју.",
                 "favicon_heading": "Иконица",
                 "favicon_text": "Пошаљите слику која ће бити коришћена као икона пречице за форум.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Очисти кеш",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Преглед вашег форума.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Обриши поруке заувек",
                 "delete_posts_label": "Обриши поруке",
                 "description": "Прилагоди да може да се види ко шта да ради.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Уреди поуке",
                 "edit_users_label": "Уреди атрибуте корисника",
                 "edit_users_credentials_label": "Уреди акредитиве корисника",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Веб",
                 "notify_discussion_renamed_label": "Кад неко преименује дискусију коју сам започео",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

@@ -96,6 +96,9 @@
                     "edit_title": "",
                     "save_changes": "",
                     "delete": "",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "",
                     "view_group": "",
                     "success": ""
@@ -176,6 +179,7 @@
                 "option_placeholder": "選項",
                 "image_option_placeholder": "圖面連結(可選)",
                 "options_label": "選項",
+                "settings_label": "",
                 "public_poll_label": "允許用戶查看投票人",
                 "allow_multiple_votes_label": "允許選擇多個選項",
                 "max_votes_label": "每個用戶的最大投票數",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "刪除影像",
                 "upload_button": "選擇影像"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

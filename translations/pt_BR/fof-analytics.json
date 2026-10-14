@@ -3,50 +3,50 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Ativar Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Código de Rastreamento do Optimize (opcional)",
+                    "googleTrackingCode": "ID de Rastreamento",
+                    "googleGTMCode": "ID do código GTM (opcional)",
+                    "statusPiwik": "Ativar Matomo",
+                    "piwikUrl": "Domínio ou URL do Matomo",
+                    "piwikSiteId": "ID do Site",
+                    "piwikTrackSubdomain": "Rastrear visitantes em todos os subdomínios do Flarum",
+                    "piwikPrependDomain": "Prefixar o título da página com o domínio do site ao rastrear",
+                    "piwikHideAliasUrl": "No relatório \"Links de saída\", ocultar cliques em URLs de alias conhecidas",
+                    "piwikAliasUrl": "URL de Alias",
+                    "piwikTrackAccounts": "Rastrear contas de usuário individuais",
+                    "piwikAuthToken": "Token de Autenticação"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Preencha este token para ativar um widget de estatísticas do Matomo no painel admin.\nVocê o encontra em Configurações > Pessoal > Token de Autenticação da API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Não rastrear",
+                    "username": "Rastrear por nome de usuário",
+                    "email": "Rastrear por e-mail"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         },
         "forum": {
             "consent": {
                 "cookies": {
-                    "ga": "",
-                    "gat": "",
-                    "gid": "",
-                    "utm": "",
-                    "pk_id": "",
-                    "pk_ses": "",
-                    "pk_ref": "",
-                    "pk_cvar": "",
-                    "pk_hsr": "",
-                    "matomo_sessid": ""
+                    "ga": "Distingue as visitas, para que visitas repetidas não contem como novas pessoas.",
+                    "gat": "Limita a frequência de envio de dados ao Google.",
+                    "gid": "Distingue as visitas, mantido por 24 horas.",
+                    "utm": "Cookies antigos do Google Analytics, que registram como você chegou ao site.",
+                    "pk_id": "Distingue as visitas, para que visitas repetidas não contem como novas pessoas.",
+                    "pk_ses": "Acompanha a visita atual, mantido por 30 minutos.",
+                    "pk_ref": "Registra como você chegou ao site.",
+                    "pk_cvar": "Armazena detalhes personalizados sobre a visita atual.",
+                    "pk_hsr": "Registra a visita atual para mapas de calor e gravação de sessão.",
+                    "matomo_sessid": "Mantém sua sessão do Matomo enquanto ela é gravada."
                 }
             }
         }

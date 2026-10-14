@@ -5,6 +5,7 @@
             "page_title": "日历",
             "upcoming": "近期活动",
             "no_events": "暂无近期活动。",
+            "no_events_day": "",
             "view_month": "月",
             "view_week": "周",
             "view_day": "日",
@@ -60,6 +61,9 @@
             "saved": "活动已保存。",
             "save_error": "无法保存活动，请检查表单后重试。",
             "widget_title": "近期活动",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "论坛活跃度",
             "heat_contributions": "活跃记录",
             "heat_current_streak": "连续活跃天数",
@@ -108,10 +112,20 @@
             "end_before_start": "结束时间必须晚于开始时间。",
             "category_name_required": "必须填写分类名称。"
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "日历",
             "default_view": "默认日历视图",
             "view_month_opt": "月视图",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "近期活动列表",
             "week_starts_on": "每周起始日",
             "week_sunday": "星期日",
@@ -122,7 +136,13 @@
             "index_widget_count": "首页小组件显示的活动数量",
             "show_pulse_widget": "在论坛首页显示「论坛活跃度」小组件",
             "show_pulse_widget_help": "显示社区活跃热力图和活跃用户排行，让社区活跃情况一目了然。每位成员的个人资料页也会显示个人活跃热力图。",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "在论坛首页显示「往年今日」小组件",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "在论坛首页显示「今日庆祝」小组件",
             "categories": "活动分类",
             "categories_help": "使用不同颜色的分类，方便成员筛选日历中的活动，并为活动显示对应的强调色。每行修改后会单独保存。",

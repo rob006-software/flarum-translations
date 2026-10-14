@@ -2,8 +2,8 @@
     "flarum-emoji": {
         "admin": {
             "settings": {
-                "cdn_label": "",
-                "cdn_help": ""
+                "cdn_label": "Endereço do espelho da CDN",
+                "cdn_help": "ex.: https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/. A versão atual é: {version}"
             }
         },
         "forum": {

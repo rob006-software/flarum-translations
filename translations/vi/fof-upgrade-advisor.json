@@ -1,0 +1,139 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "latest": {
+                "title": "",
+                "description": ""
+            },
+            "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                }
+            },
+            "checks": {
+                "php-version": {
+                    "title": "Phiên bản PHP",
+                    "chip": "",
+                    "pass": "Đang chạy PHP {current}.",
+                    "warning": "Không xác định được phiên bản PHP.",
+                    "fail": "PHP {current} đang được cài đặt, nhưng cần PHP {required} trở lên."
+                },
+                "database-version": {
+                    "title": "Phiên bản cơ sở dữ liệu",
+                    "pass": "Đang chạy {current}.",
+                    "warning_unknown": "Không xác định được phiên bản máy chủ cơ sở dữ liệu.",
+                    "warning_below_recommended": "{current} vẫn hoạt động, nhưng nên dùng {recommended} trở lên để có trải nghiệm tốt nhất.",
+                    "fail": ""
+                },
+                "extension-compatibility": {
+                    "title": "Khả năng tương thích của tiện ích"
+                }
+            },
+            "extensions": {
+                "contact": {
+                    "forum": "Chủ đề hỗ trợ",
+                    "issues": "Báo lỗi",
+                    "source": "Mã nguồn"
+                }
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": ""
+            },
+            "tabs": {
+                "report": "Báo cáo mức độ sẵn sàng",
+                "repositories": "Kho lưu trữ"
+            },
+            "repositories": {
+                "help": "Thêm các kho Composer riêng tư hoặc kho của chợ tiện ích để trình tư vấn có thể kiểm tra những tiện ích không có trên Packagist công khai. Chỉ được dùng khi không tìm thấy tiện ích trên Packagist.\n",
+                "empty": "Chưa cấu hình kho lưu trữ bổ sung nào.",
+                "add_floxum": "Thêm Floxum",
+                "add_composer": "Thêm kho lưu trữ",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Tùy chỉnh",
+                "url": "URL kho lưu trữ",
+                "username": "Tên người dùng",
+                "token": "Token",
+                "remove": "Xóa kho lưu trữ",
+                "test": "Kiểm tra kết nối",
+                "test_ok": "Đã kết nối",
+                "test_fail_auth": "Xác thực thất bại — hãy kiểm tra token",
+                "test_fail_unreachable": "Không thể kết nối tới kho lưu trữ",
+                "test_fail_invalid": "Phản hồi không hợp lệ — hãy kiểm tra URL"
+            },
+            "errors": {
+                "load_failed": "Không thể chạy các bước kiểm tra mức độ sẵn sàng. Vui lòng thử lại."
+            }
+        }
+    }
+}

@@ -119,6 +119,8 @@
                 "edit_css_button": "Custom CSS সম্পাদনা করুন",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "একটি Hexadecimal কালার Code Enter করুন।",
                 "favicon_heading": "ফেভিকন",
                 "favicon_text": "ফোরাম এর Shortcut আইকন হিসেবে ব্যবহার করার জন্য একটি ইমেজ আপলোড করুন ।",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Cache ক্লিয়ার করুন",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "একনজরে আপনার ফোরাম।",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "পোস্ট গুলো ডিলিট করুন",
                 "delete_posts_label": "পোস্ট গুলো ডিলিট করুন",
                 "description": "কে কি দেখবে এবং করতে পারবে তা কনফিগার করুন।",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "পোস্টগুলো সম্পাদনা করুন",
                 "edit_users_label": "User Attributes সম্পাদনা করুন",
                 "edit_users_credentials_label": "User এর Credentials সম্পাদনা করুন",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

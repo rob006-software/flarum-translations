@@ -1,0 +1,61 @@
+{
+    "ernestdefoe-backdrop": {
+        "admin": {
+            "height": "Cover height on profiles (px)",
+            "height_mobile": "Cover height on phones (px)",
+            "overlay": "Readability shade",
+            "overlay_help": "A dark layer over covers, so names and stats stay legible on bright images.",
+            "overlay_gradient": "Gradient, darkest at the bottom",
+            "overlay_darken": "Even darken",
+            "overlay_none": "None",
+            "on_cards": "Show covers on hover cards",
+            "on_directory": "Show covers in the member directory",
+            "on_directory_help": "For forums running FoF User Directory.",
+            "use_fof_upload": "Store member uploads with FoF Upload",
+            "use_fof_upload_help": "When FoF Upload is enabled, a member's cover goes through it like their other images: its storage, resizing, watermark and WebP thumbnails, and it appears in their My Media. Members FoF Upload does not let upload images, and forums without it, use Backdrop's own storage.",
+            "max_size": "Largest upload (KB)",
+            "max_size_help": "Covers are resized to 1920px wide when they are stored, so a large photo still loads quickly.",
+            "default": "Default cover",
+            "default_help": "Shown for members who have not set a cover. Saved as soon as you change it.",
+            "default_set": "Set a default cover",
+            "default_change": "Change the default cover",
+            "permission_upload": "Upload own profile cover",
+            "permission_choose": "Choose a profile cover from the gallery",
+            "gallery": "Cover gallery",
+            "gallery_help": "Covers members can choose from, in this order. Drag to reorder. Up to {max}.",
+            "gallery_add": "Add covers",
+            "gallery_empty": "No covers yet. Members can only upload their own until you add some.",
+            "gallery_frame": "Frame",
+            "gallery_delete": "Delete",
+            "gallery_delete_confirm": "Delete this cover? Members using it will go back to the default cover.",
+            "gallery_frame_title": "Frame gallery cover"
+        },
+        "api": {
+            "invalid_focus": "The focal point must be a number between 0 and 100.",
+            "invalid_zoom": "The zoom must be a number between 0.5 and 4.",
+            "no_file": "Choose an image to upload.",
+            "no_cover": "There is no cover to reposition.",
+            "unknown_preset": "That cover is no longer in the gallery.",
+            "gallery_full": "The gallery holds up to {max} covers.",
+            "busy": "The gallery is being changed. Please try again in a moment."
+        },
+        "forum": {
+            "edit_cover": "Edit cover"
+        },
+        "lib": {
+            "editor": {
+                "empty": "Choose an image",
+                "formats": "JPEG, PNG, WebP or GIF.",
+                "hint": "Drag the image to frame it. Scroll or use the slider to zoom; below 1× the edges are filled with a blurred copy.",
+                "stage_label": "Cover position. Use the arrow keys to move it, and plus or minus to zoom.",
+                "zoom": "Zoom",
+                "choose": "Choose an image",
+                "upload_own": "Upload your own",
+                "gallery": "Gallery",
+                "gallery_label": "Choose a cover from the gallery",
+                "remove": "Remove cover",
+                "save": "Save"
+            }
+        }
+    }
+}

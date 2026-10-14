@@ -119,6 +119,8 @@
                 "edit_css_button": "Chỉnh sửa CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Vui lòng nhập mã màu thập lục phân.",
                 "favicon_heading": "Biểu tượng",
                 "favicon_text": "Tải lên hình ảnh để dùng làm biểu tượng của diễn đàn.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Toàn bộ việc xử lý hàng đợi đang tạm dừng. Các tác vụ sẽ dồn lại cho đến khi được tiếp tục.",
                 "queue_paused_manage": "Quản lý",
                 "clear_cache_button": "Xóa bộ nhớ đệm",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Tổng quan nhanh về diễn đàn của bạn.",
                 "info_button": "Thông tin hệ thống",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Xóa bài viết vĩnh viễn",
                 "delete_posts_label": "Xóa bài viết",
                 "description": "Cấu hình ai được xem và làm những gì.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Chỉnh sửa bài viết",
                 "edit_users_label": "Chỉnh sửa thông tin người dùng",
                 "edit_users_credentials_label": "Chỉnh sửa thông tin đăng nhập người dùng",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ai đó đổi tên cuộc thảo luận mà tôi đã đăng",
+                "reset_notifications_button": "",
                 "device_heading": "Thiết bị",
                 "haptic_feedback_help": "Chỉ khả dụng trên các thiết bị di động được hỗ trợ",
                 "haptic_feedback_label": "Bật phản hồi rung",
@@ -895,6 +913,9 @@
                         "hint": "tên nhóm dạng số ít hoặc số nhiều"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Xóa nội dung đã nhập"

@@ -22,7 +22,45 @@
                 "section_posts": "Beiträge",
                 "section_logo": "Logo",
                 "section_footer": "Fußzeile",
+                "section_footer_contacts": "",
+                "section_footer_links": "",
+                "section_footer_text": "",
+                "footer_enabled_label": "",
+                "footer_enabled_help": "",
+                "footer_text_label": "",
+                "footer_text_help": "",
+                "footer_email_label": "",
+                "footer_phone_label": "",
+                "footer_address_label": "",
+                "footer_contact_help": "",
+                "footer_social_label": "",
+                "footer_social_help": "",
+                "footer_links_label": "",
+                "footer_links_help": "",
+                "footer_legal_label": "",
+                "footer_legal_help": "",
+                "footer_copyright_label": "",
+                "footer_copyright_help": "",
+                "footer_list_label_placeholder": "",
+                "footer_list_url_placeholder": "",
+                "footer_list_add": "",
+                "footer_list_up": "",
+                "footer_list_down": "",
+                "footer_list_remove": "",
+                "footer_social_add": "",
+                "footer_social_other": "",
+                "footer_social_network": "",
+                "footer_social_url": "",
                 "section_colored": "Colored",
+                "section_font": "",
+                "font_family_label": "",
+                "font_family_help": "",
+                "font_family_dm_sans": "",
+                "font_family_system": "",
+                "font_family_inter": "",
+                "font_family_custom": "",
+                "font_custom_family_label": "",
+                "font_custom_family_help": "",
                 "section_team": "Teamseite",
                 "section_hero_image_tags": "Titelbild für Diskussionen",
                 "section_discussion": "Diskussionsseite",
@@ -37,6 +75,7 @@
                 "group_discussions": "Diskussionen",
                 "group_community": "Community",
                 "group_access": "Zugang",
+                "group_footer": "",
                 "groups_aria": "Einstellungsgruppen",
                 "search_placeholder": "Einstellungen suchen …",
                 "search_clear": "Suche leeren",
@@ -84,11 +123,11 @@
                 "showcase_image_style_full": "Volles Bild",
                 "section_home_feed": "Diskussionsliste",
                 "home_feed_sort_label": "Sortierung",
-                "home_feed_sort_help": "",
-                "home_feed_sort_popular": "",
-                "home_feed_sort_latest": "",
-                "home_feed_count_label": "",
-                "home_feed_count_help": "",
+                "home_feed_sort_help": "Beliebte Beiträge werden nach Antworten, Likes, Aufrufen und aktuellen Aktivitäten sortiert. Die neuesten Aktivitäten folgen auf die aktuellste Antwort, genau wie in der Standard-Diskussionsliste. Angeheftete Diskussionen bleiben in beiden Listen ganz oben.",
+                "home_feed_sort_popular": "Beliebte Diskussionen",
+                "home_feed_sort_latest": "Neueste Aktivität",
+                "home_feed_count_label": "Anzahl der Diskussionen",
+                "home_feed_count_help": "Wie viele Diskussionen auf der Homepage-Liste angezeigt werden. Gilt auch für die Seite „Folgen“.",
                 "section_titles_heading": "Abschnitttitel",
                 "section_titles_help": "Überschreibe die Titel der Abschnitte auf der Startseite. Lasse ein Feld leer, um die Standardeinstellung des Sprachpakets zu verwenden.",
                 "categories_heading_label": "Titel für Kategorien-Abschnitt",
@@ -167,12 +206,19 @@
                 "post_cta_position_3": "Nach Beitrag #3",
                 "post_cta_position_4": "Nach Beitrag #4",
                 "post_cta_position_5": "Nach Beitrag #5",
+                "post_cta_position_end": "",
+                "post_cta_text_label": "",
+                "post_cta_text_help": "",
                 "logo_svg_label": "SVG-Logo",
                 "logo_svg_help": "Lade ein benutzerdefiniertes SVG-Logo für dein Forum hoch.",
+                "logo_colored_label": "",
+                "logo_colored_help": "",
+                "logo_offset_y_label": "",
+                "logo_offset_y_help": "",
                 "logo_enabled_label": "Benutzerdefiniertes Logo aktivieren",
                 "logo_enabled_help": "Das benutzerdefinierte Logo in der Kopfzeile anzeigen.",
-                "link_icon_svg_label": "",
-                "link_icon_svg_help": "",
+                "link_icon_svg_label": "Symbol für interne Links (SVG)",
+                "link_icon_svg_help": "Ersetzt das Favicon in Links zu anderen Diskussionen des Forums (#123). Es wird in der Linkfarbe dargestellt, passt sich also den farblichen Akzenten an – es wird lediglich die Form der SVG-Datei verwendet.",
                 "custom_loading_spinner_label": "Benutzerdefinierte Lade-Animation",
                 "custom_loading_spinner_help": "Ersetze die standardmäßige Lade-Animation durch einen animierten SVG-Lade-Spinner.",
                 "loading_spinner_style_label": "Spinner-Stil",
@@ -252,9 +298,24 @@
                 "team_groups_empty": "Keine Gruppen gefunden."
             }
         },
+        "lib": {
+            "footer": {
+                "default_text": "",
+                "nav_home": "",
+                "nav_discussions": "",
+                "nav_tags": ""
+            }
+        },
         "forum": {
             "loading": "Wird geladen…",
             "back": "Zurück",
+            "wiki": {
+                "style_label": "Design",
+                "style_default": "Standard",
+                "style_default_help": "Inhaltsverzeichnis auf der rechten Seite, das Wiki-eigene Layout.",
+                "style_manual": "Manuell",
+                "style_manual_help": "Inhaltsverzeichnis auf der linken Seite, großer Titel und Einleitungstext."
+            },
             "profile": {
                 "joined": "Beigetreten {date}",
                 "member_since": "Mitglied seit {date}",
@@ -321,6 +382,8 @@
                 "post_plural": "Beiträge",
                 "participant_singular": "Teilnehmer",
                 "participant_plural": "Teilnehmer",
+                "view_singular": "",
+                "view_plural": "",
                 "hero_image_add": "Bild hinzufügen",
                 "hero_image_replace": "Bild ersetzen",
                 "hero_image_remove": "Bild entfernen",
@@ -367,7 +430,7 @@
                 "new_discussion": "Neue Diskussion",
                 "no_tags_found": "Keine Tags gefunden",
                 "or": "oder",
-                "latest_heading": "",
+                "latest_heading": "Neueste Diskussionen",
                 "popular_heading": "Populäre Diskussionen",
                 "popular_no_discussions": "Noch keine Diskussionen.",
                 "replies": "Antworten",
@@ -376,6 +439,8 @@
                 "reply_label": "Antworten",
                 "reply_singular": "Eine Antwort",
                 "reply_plural": "{count} Antworten",
+                "view_count_plural": "",
+                "view_count_singular": "",
                 "see_all": "Alle anzeigen",
                 "see_other_replies": "{count} weitere Antworten anzeigen",
                 "see_other_reply_singular": "{count} andere Antwort anzeigen",
@@ -461,12 +526,12 @@
                 "message": "Nachricht"
             },
             "post": {
-                "in_reply_to": "",
+                "in_reply_to": "Antwort auf",
                 "op_badge": "Verfasser",
                 "copy_code": "Code kopieren",
-                "gallery_prev": "",
-                "gallery_next": "",
-                "gallery_count": ""
+                "gallery_prev": "Vorherige Fotos",
+                "gallery_next": "Nächste Fotos",
+                "gallery_count": "{count} Fotos"
             },
             "messages": {
                 "deleted_message": "Nachricht gelöscht"
@@ -483,6 +548,11 @@
                 "not_found": "Tag nicht gefunden.",
                 "load_more": "Mehr laden"
             },
+            "footer": {
+                "contacts": "",
+                "socials": "",
+                "navigation": ""
+            },
             "team": {
                 "title": "Unser Team",
                 "disabled": "Diese Seite ist nicht verfügbar.",
@@ -495,15 +565,15 @@
                 "member_plural": "Mitglieder"
             },
             "tags_modal": {
-                "title": "",
-                "cancel": "",
-                "save": ""
+                "title": "Tags bearbeiten",
+                "cancel": "Abbrechen",
+                "save": "Speichern"
             },
             "composer": {
-                "remove_reply": "",
-                "guest_pill": "",
-                "hide_preview": "",
-                "resize_handle": ""
+                "remove_reply": "Antwort entfernen",
+                "guest_pill": "Anmelden, um zu antworten",
+                "hide_preview": "Vorschau ausblenden",
+                "resize_handle": "Zum Ändern der Größe ziehen · zum Minimieren nach unten ziehen"
             },
             "changelog": {
                 "title": "Änderungsprotokoll",

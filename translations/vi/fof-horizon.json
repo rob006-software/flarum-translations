@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "Hàng đợi",
-                "kv_heading": "Kho khóa - giá trị",
                 "full_dashboard": "Bảng điều khiển Horizon",
                 "auto_refresh": "Tự động làm mới",
                 "refresh": "Làm mới",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Không thể lấy số liệu thống kê Horizon. Vui lòng kiểm tra cấu hình Redis của bạn.",
                     "setup_docs": "Xem tài liệu thiết lập Redis"
                 },
-                "eviction_pressure": "áp lực bộ nhớ",
-                "eviction_policy_tooltip": "Chính sách loại bỏ là cách kho dữ liệu chọn thứ cần xóa khi chạm giới hạn maxmemory. Mặc định là `noeviction`: giá trị mới sẽ không được lưu khi bộ nhớ đã đầy. Hãy bấm để xem tài liệu.",
-                "eviction_warning": "Mức dùng bộ nhớ đang ở {usage}% của maxmemory và chính sách loại bỏ là \"{policy}\", nên các khóa — có thể gồm cả dữ liệu hàng đợi — sắp bị loại bỏ. Hãy tăng maxmemory hoặc chuyển hàng đợi sang một cơ sở dữ liệu riêng có nhiều dung lượng trống hơn.",
                 "health": {
                     "excellent": "Tuyệt vời",
                     "good": "Tốt",
@@ -115,6 +111,10 @@
                 },
                 "horizon_max_wait_none": "Không có",
                 "horizon_max_wait_value": "{seconds}s ở {queue}",
+                "kv_heading": "Kho khóa - giá trị",
+                "eviction_pressure": "áp lực bộ nhớ",
+                "eviction_policy_tooltip": "Chính sách loại bỏ là cách kho dữ liệu chọn thứ cần xóa khi chạm giới hạn maxmemory. Mặc định là `noeviction`: giá trị mới sẽ không được lưu khi bộ nhớ đã đầy. Hãy bấm để xem tài liệu.",
+                "eviction_warning": "Mức dùng bộ nhớ đang ở {usage}% của maxmemory và chính sách loại bỏ là \"{policy}\", nên các khóa — có thể gồm cả dữ liệu hàng đợi — sắp bị loại bỏ. Hãy tăng maxmemory hoặc chuyển hàng đợi sang một cơ sở dữ liệu riêng có nhiều dung lượng trống hơn.",
                 "heading": "Tổng quan hàng đợi"
             }
         }

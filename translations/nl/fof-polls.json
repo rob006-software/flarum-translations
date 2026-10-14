@@ -96,6 +96,9 @@
                     "edit_title": "Peiling Bewerken",
                     "save_changes": "Wijzigingen Opslaan",
                     "delete": "Verwijderen",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Peiling-groepen Beheerder",
                     "view_group": "Bekijk Peiling-groep",
                     "success": "Peiling-groep succesvol opgeslagen."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Antwoord",
                 "image_option_placeholder": "Afbeelding URL (optioneel)",
                 "options_label": "Antwoorden",
+                "settings_label": "",
                 "public_poll_label": "Mensen laten zien wie er gestemd heeft",
                 "allow_multiple_votes_label": "Sta toe om op meerdere opties te stemmen",
                 "max_votes_label": "Maximale stemmen per gebruiker",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Verwijder afbeelding",
                 "upload_button": "Afbeelding uploaden"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

@@ -29,7 +29,6 @@
             },
             "stats": {
                 "queue_heading": "",
-                "kv_heading": "",
                 "full_dashboard": "Horizon Kontrol Paneli",
                 "auto_refresh": "Otomatik Yenile",
                 "refresh": "Yenile",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Horizon istatistikleri alınamıyor. Lütfen Redis yapılandırmanızı kontrol edin.",
                     "setup_docs": "Redis Kurulum Dokümantasyonunu Görüntüle"
                 },
-                "eviction_pressure": "",
-                "eviction_policy_tooltip": "",
-                "eviction_warning": "",
                 "health": {
                     "excellent": "Mükemmel",
                     "good": "İyi",
@@ -76,13 +72,6 @@
                     "max-wait": "",
                     "slowest-queue": "",
                     "highest-throughput-queue": "",
-                    "memory-used": "",
-                    "memory-peak": "",
-                    "memory-max": "",
-                    "ops-per-sec": "",
-                    "connected-clients": "",
-                    "blocked-clients": "",
-                    "eviction-policy": "",
                     "redis-used-memory": "Kullanılan Redis Belleği",
                     "redis-peak-memory": "Redis Bellek Zirvesi",
                     "redis-max-memory": "Redis Maks Bellek",

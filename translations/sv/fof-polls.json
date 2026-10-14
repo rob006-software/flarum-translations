@@ -96,6 +96,9 @@
                     "edit_title": "Redigera omröstningsgrupp",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Ta bort omröstningsgrupp",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Hanterare för omröstningsgrupper",
                     "view_group": "Visa omröstningsgrupp",
                     "success": "Omröstningsgruppen har sparats."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Svar",
                 "image_option_placeholder": "Bild-URL (valfritt)",
                 "options_label": "Svar",
+                "settings_label": "",
                 "public_poll_label": "Låt användare se vilka som har röstat",
                 "allow_multiple_votes_label": "Låt användare rösta på flera alternativ",
                 "max_votes_label": "Max antal röster per användare",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Ta bort bild",
                 "upload_button": "Ladda upp bild"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

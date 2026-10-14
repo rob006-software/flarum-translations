@@ -7,13 +7,15 @@
                 "banners_empty": "Noch keine Banner.",
                 "banners_add": "Banner hinzufügen",
                 "top_heading": "Oberhalb der Diskussion",
+                "first_heading": "Nach dem ersten Beitrag",
                 "bottom_heading": "Unterhalb der Diskussion",
                 "stream_heading": "Zwischen Beiträgen",
                 "top_short": "Oben",
+                "first_short": "Nach erstem Beitrag",
                 "bottom_short": "Unten",
                 "stream_short": "Dazwischen",
                 "placement_label": "Wo es angezeigt wird",
-                "placement_help": "Über dem ersten Beitrag, unter dem letzten Beitrag oder nach jeweils einigen Beiträgen wiederholt.",
+                "placement_help": "Über dem ersten Beitrag, direkt danach, unter dem letzten Beitrag oder nach jeweils einigen Beiträgen wiederholt.",
                 "stream_every_label": "Nach jeweils N Beiträgen anzeigen",
                 "stream_every_help": "Das Banner erscheint nach jedem N-ten Beitrag in einer Diskussion. Mindestens 2.",
                 "label_label": "Kleine Überschrift",
@@ -57,7 +59,9 @@
                 "summary_discussion_many": "{count} Diskussionen",
                 "summary_tag_one": "1 Tag",
                 "summary_tag_many": "{count} Tags",
-                "delete": "Banner löschen"
+                "delete": "Banner löschen",
+                "most_specific_label": "Nur das am besten passende Banner anzeigen",
+                "most_specific_help": "Wenn mehrere Banner an derselben Stelle erscheinen würden, werden nur die spezifischsten angezeigt: Ein Banner, das für die Diskussion ausgewählt wurde, hat Vorrang vor einem Banner für dessen Untertag, das wiederum Vorrang vor einem Banner für ein Tag hat, das wiederum Vorrang vor einem Banner hat, das in jeder Diskussion angezeigt wird. Banner vom Typ „Überall außer“ gelten als in jeder Diskussion angezeigt."
             }
         }
     }

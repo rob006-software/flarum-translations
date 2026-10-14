@@ -119,6 +119,8 @@
                 "edit_css_button": "编辑自定义 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "请输入十六进制颜色代码。",
                 "favicon_heading": "站点图标",
                 "favicon_text": "上传图片，用于浏览器标签页、书签、搜索引擎结果等位置。",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "所有队列均已暂停处理，请留意任务积压风险。",
                 "queue_paused_manage": "管理",
                 "clear_cache_button": "清除缓存",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "论坛概况一览",
                 "info_button": "系统信息",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "永久删除帖子",
                 "delete_posts_label": "删除帖子",
                 "description": "全局或分标签设置用户的查看和操作权限",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "编辑帖子",
                 "edit_users_label": "编辑用户资料",
                 "edit_users_credentials_label": "编辑用户登录凭据",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "站内通知",
                 "notify_discussion_renamed_label": "有人更改我的讨论标题",
+                "reset_notifications_button": "",
                 "device_heading": "设备",
                 "haptic_feedback_help": "仅在受支持的移动设备上可用",
                 "haptic_feedback_label": "启用触感反馈",
@@ -895,6 +913,9 @@
                         "hint": "成员称谓或用户组名称"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "清空输入"

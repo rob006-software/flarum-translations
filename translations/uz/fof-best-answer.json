@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "Umumiy",
                     "reminders": "Eslatmalar",
-                    "advanced": "Murakkab",
-                    "reminders_notice": "Eslatmalar ishlashi uchun siz Flarum rejalashtiruvchisini to'g'ri sozlagan bo'lishingiz kerak."
+                    "reminders_notice": "Eslatmalar ishlashi uchun siz Flarum rejalashtiruvchisini to'g'ri sozlagan bo'lishingiz kerak.",
+                    "advanced": "Murakkab"
                 },
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Eng yaxshi javobni tanlash uchun OPga sozlanishi mumkin bo'lgan kunlar miqdoridan keyin eslatma yuboring, 0 = eslatmalarni o'chirib qo'ying.",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Vazifa rejalashtiruvchisi uchun \"onOneServer()\" direktivasidan foydalaning",
-                "schedule_on_one_server_help": "Redis/Memcache talab qiladi",
                 "schedule_stop_overnight": "Ijtimoiy bo'lmagan soatlarda eslatma bildirishnomalarining yuborilishini oldini oling",
                 "schedule_stop_overnight_help": "Server vaqti bilan 21:00 dan 8:00 gacha",
                 "schedule_log_output": "Rejalashtiruvchi chiqishini jurnal xotirasiga qo'shing",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Eng yaxshi javob filtri ochiladigan roʻyxatini koʻrsatish",
                 "show_filter_help": "Eng yaxshi javoblar yoqilgan teglar uchun muhokamalar roʻyxatida hal qilingan/yechilmagan filtr variantini koʻrsatishni tanlang",
                 "use_alt_ui": "Muqobil tartib",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Vazifa rejalashtiruvchisi uchun \"onOneServer()\" direktivasidan foydalaning",
+                "schedule_on_one_server_help": "Redis/Memcache talab qiladi"
             },
             "edit_tag": {
                 "qna_label": "Ushbu tegda eng yaxshi javoblarni o'rnatishni yoqing",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Savol berish mumkin emas",
                 "solved_link": "Yechilgan muhokamalar",
                 "unsolved_link": "Yechilmagan muhokamalar"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Hamma savollar",
@@ -99,6 +104,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

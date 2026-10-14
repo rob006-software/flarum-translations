@@ -2,36 +2,36 @@
     "fof-share-social": {
         "admin": {
             "settings": {
-                "canonical-urls": "",
-                "plain-copy": "",
-                "default-option": "",
-                "default-option-help": ""
+                "canonical-urls": "Usar URLs canônicas ao compartilhar",
+                "plain-copy": "Exibir opção de copiar a URL simples",
+                "default-option": "Opção de compartilhamento padrão",
+                "default-option-help": "Escolher uma opção padrão transforma o modal em um botão com menu suspenso.\nSe \"Compartilhamento Nativo\" for selecionado, ele só será exibido se o navegador for compatível; caso contrário, o comportamento volta ao modal original.\n"
             }
         },
         "forum": {
             "discussion": {
-                "share_button": "",
-                "share_dropdown_accessible_label": ""
+                "share_button": "Compartilhar",
+                "share_dropdown_accessible_label": "Alternar menu suspenso de compartilhamento da discussão"
             },
             "modal": {
-                "title": "",
-                "copy_button": ""
+                "title": "Compartilhar",
+                "copy_button": "Copiar"
             }
         },
         "lib": {
             "networks": {
-                "facebook": "",
-                "twitter": "",
-                "linkedin": "",
-                "reddit": "",
-                "whatsapp": "",
-                "telegram": "",
-                "vkontakte": "",
-                "odnoklassniki": "",
-                "my_mail": "",
-                "qq": "",
-                "qzone": "",
-                "native": ""
+                "facebook": "Facebook",
+                "twitter": "X (antigo Twitter)",
+                "linkedin": "LinkedIn",
+                "reddit": "Reddit",
+                "whatsapp": "WhatsApp",
+                "telegram": "Telegram",
+                "vkontakte": "VKontakte",
+                "odnoklassniki": "Odnoklassniki",
+                "my_mail": "My World",
+                "qq": "QQ",
+                "qzone": "QZone",
+                "native": "Compartilhamento Nativo"
             }
         }
     }

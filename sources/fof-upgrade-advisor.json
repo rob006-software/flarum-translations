@@ -1,0 +1,139 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "latest": {
+                "title": "No upcoming Flarum release needs checking",
+                "description": "Your forum meets the requirements of every Flarum release Upgrade Advisor knows about. When a release with new requirements is announced, an update to Upgrade Advisor will check your forum's readiness for it.\n"
+            },
+            "overall": {
+                "ready": "Ready for Flarum {target}",
+                "blocked": "Blocked: {reasons}",
+                "tasks": "Ready once {count, plural, one {# task is} other {# tasks are}} done",
+                "unchecked_only": "Nearly ready: {count, plural, one {# extension} other {# extensions}} couldn't be checked",
+                "reasons": {
+                    "no_path": "{count, plural, one {# extension has} other {# extensions have}} no {target} path",
+                    "check": "{title} needs fixing",
+                    "unchecked": "{count, plural, one {# extension} other {# extensions}} couldn't be checked"
+                }
+            },
+            "checks": {
+                "php-version": {
+                    "title": "PHP version",
+                    "chip": "PHP {current}",
+                    "pass": "Running PHP {current}.",
+                    "warning": "Could not determine the PHP version.",
+                    "fail": "PHP {current} is installed, but {required} or newer is required."
+                },
+                "database-version": {
+                    "title": "Database version",
+                    "pass": "Running {current}.",
+                    "warning_unknown": "Could not determine the database server version.",
+                    "warning_below_recommended": "{current} works, but {recommended} or newer is recommended for the best experience.",
+                    "fail": "{current} is installed, but at least {required} is required for Flarum {target}."
+                },
+                "extension-compatibility": {
+                    "title": "Extension compatibility"
+                }
+            },
+            "extensions": {
+                "contact": {
+                    "forum": "Support thread",
+                    "issues": "Issues",
+                    "source": "Source"
+                }
+            },
+            "summary": {
+                "progress": "{percent}% of extensions ready as-is",
+                "ready": "{count} ready as-is",
+                "tasks": "{count} to do",
+                "blocked": "{count} blocked",
+                "unknown": "{count} couldn't be checked",
+                "checked": "Checked {time}",
+                "data_as_of": "Package data from {time}",
+                "data_as_of_help": "Package lookups are cached for up to 6 hours. Refresh to fetch the latest.",
+                "recommended": "{version} recommended",
+                "refresh": "Refresh",
+                "refresh_cooldown": "Refresh ({seconds}s)",
+                "export": "Export CSV"
+            },
+            "list": {
+                "before": "Before upgrading",
+                "after": "After upgrading",
+                "copy": "Copy",
+                "copied": "Copied",
+                "configure": "Configure repository access",
+                "groups": {
+                    "environment": {
+                        "title": "Server environment",
+                        "description": "Fix these before upgrading."
+                    },
+                    "decision": {
+                        "title": "Needs a decision",
+                        "description": "No {target}-ready release yet: ask the author about their plans, or plan to go without."
+                    },
+                    "unknown": {
+                        "title": "Couldn't check",
+                        "description": "Usually premium or private extensions. Add repository access so the advisor can check them."
+                    },
+                    "replace": {
+                        "title": "Remove or replace",
+                        "description": "Remove these before upgrading; install any replacements once the upgrade is done."
+                    },
+                    "ready": {
+                        "title": "Ready",
+                        "description": "These have a {target}-compatible release."
+                    }
+                },
+                "details": {
+                    "none": "{version}",
+                    "none_unversioned": "Marked {target}-ready on Discuss",
+                    "remove": "Built into core",
+                    "replacement": "→ {replacement}",
+                    "replacement_unverified": "→ {replacement} (check {target} support)",
+                    "abandoned": "Abandoned, no replacement",
+                    "replacement_not_ready": "Abandoned → {replacement} (not {target}-ready)",
+                    "latest": "Latest {version} doesn't support {target}",
+                    "no_release": "No {target} release",
+                    "unknown": "Not found"
+                }
+            },
+            "hints": {
+                "none": "Ready: {version} supports Flarum {target}.",
+                "none_unversioned": "Ready: marked {target}-compatible on Discuss.",
+                "remove": "Remove before upgrading. It's built into Flarum {target}, so nothing replaces it.",
+                "swap_after_upgrade": "Remove before upgrading, then install {replacement} after the upgrade.",
+                "switch_replacement": "Abandoned. Remove before upgrading, then install {replacement} ({target}-ready) after the upgrade.",
+                "switch_replacement_unverified": "Abandoned. Remove before upgrading, then install {replacement} after the upgrade. Check it supports {target} first.",
+                "no_path": "No {target} release yet (latest is {version}). Ask the author about plans, or plan to remove it.",
+                "no_path_unversioned": "Not {target}-compatible yet. Ask the author about plans, or plan to remove it.",
+                "no_path_abandoned": "Abandoned with no replacement. Plan to remove it or find an alternative.",
+                "no_path_replacement_not_ready": "Abandoned. Its replacement {replacement} isn't {target}-ready yet.",
+                "unknown": "Not found on Packagist or any configured repository. If it's premium or private, add repository access."
+            },
+            "tabs": {
+                "report": "Readiness report",
+                "repositories": "Repositories"
+            },
+            "repositories": {
+                "help": "Add private or marketplace Composer repositories so the advisor can check extensions that aren't on public Packagist. Used only when an extension can't be found on Packagist.\n",
+                "empty": "No additional repositories configured.",
+                "add_floxum": "Add Floxum",
+                "add_composer": "Add repository",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / Custom",
+                "url": "Repository URL",
+                "username": "Username",
+                "token": "Token",
+                "remove": "Remove repository",
+                "test": "Test connection",
+                "test_ok": "Connected",
+                "test_fail_auth": "Authentication failed — check the token",
+                "test_fail_unreachable": "Could not reach the repository",
+                "test_fail_invalid": "Invalid response — check the URL"
+            },
+            "errors": {
+                "load_failed": "Could not run the readiness checks. Please try again."
+            }
+        }
+    }
+}

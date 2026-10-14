@@ -15,6 +15,9 @@
                 "only_icons_label": "Mostrar sólo los iconos del botón de inicio de sesión (diseño alternativo)",
                 "update_email_from_provider_label": "Actualizar la dirección de correo electrónico del proveedor",
                 "update_email_from_provider_help": "Si se habilita, la dirección de correo electrónico del usuario se actualizará para que coincida con la proporcionada a través de OAuth en cada inicio de sesión en el foro. No todos los proveedores proporcionan la dirección de correo electrónico actualizada, en cuyo caso esta configuración no tendrá ningún efecto con esos proveedores.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Deshabilitar avatares del proveedor",
                 "disable_avatars_help": "Si está habilitada, el avatar del usuario no se actualizará para coincidir con el del proveedor al registrarse. Tenga en cuenta que esto solo afecta a los registros futuros y no modificará el avatar de los usuarios existentes.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Iniciar sesión con {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
