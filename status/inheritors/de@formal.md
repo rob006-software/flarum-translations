@@ -30,7 +30,6 @@ translated only in `de@formal`. Altogether they cover **56** components.
 | `flarum-lock` | [1](#flarum-lock) |
 | `flarum-mentions` | [13](#flarum-mentions) |
 | `flarum-nicknames` | [2](#flarum-nicknames) |
-| `flarum-pusher` | [1](#flarum-pusher) |
 | `flarum-statistics` | [1](#flarum-statistics) |
 | `flarum-subscriptions` | [4](#flarum-subscriptions) |
 | `flarum-suspend` | [7](#flarum-suspend) |
@@ -65,6 +64,7 @@ translated only in `de@formal`. Altogether they cover **56** components.
 | `migratetoflarum-canonical` | [7](#migratetoflarum-canonical) |
 | `nearata-embed-video` | [1](#nearata-embed-video) |
 | `nearata-maintenance-mode` | [2](#nearata-maintenance-mode) |
+| `ralkage-hcaptcha` | [1](#ralkage-hcaptcha) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `sycho-force-password-reset` | [3](#sycho-force-password-reset) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
@@ -711,11 +711,11 @@ Das <ins>von Ihnen </ins>eingegebene Passwort ist falsch.
 > {count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read.
 
 ```diff
--{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
+-{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen markieren.
 +{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markieren Sie ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
 ```
 
-{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Markiere</del><ins>Markieren Sie</ins> ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.
+{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. <del>Ungelesene</del><ins>Markieren Sie ungelesene</ins> {count, plural, one {Antwort} other {Antworten}} als<del> gelesen</del> <del>markieren.</del><ins>gelesen.</ins>
 
 #### [`core.forum.forgot_password.email_sent_message`](https://weblate.rob006.net/translate/flarum/core/de@formal/?q=context%3A%3D%22core.forum.forgot_password.email_sent_message%22)
 
@@ -2113,18 +2113,6 @@ Jemand hat <del>dich</del><ins>Sie</ins> in einem Beitrag erwähnt
 ```
 
 Dieser Spitzname ist ungültig. Bitte <del>wende</del><ins>wenden</ins> <del>dich</del><ins>Sie sich</ins> an <del>deinen</del><ins>Ihren</ins> Forenadministrator, um weitere Informationen zu den Regeln für Spitznamen zu erhalten.
-
-
-### `flarum-pusher`
-
-#### [`flarum-pusher.admin.pusher_settings.app_secret_label`](https://weblate.rob006.net/translate/flarum/flarum-pusher/de@formal/?q=context%3A%3D%22flarum-pusher.admin.pusher_settings.app_secret_label%22)
-
-> App Secret
-
-```diff
--App Secret
-+App-Secret
-```
 
 
 ### `flarum-statistics`
@@ -3902,6 +3890,20 @@ Zurzeit wegen Wartungsarbeiten nicht verfügbar. Bitte <del>komm</del><ins>komme
 ```
 
 &lt;p&gt;Wir führen gerade Wartungsarbeiten durch. Bitte <del>komm</del><ins>kommen Sie</ins> später wieder.&lt;/p&gt;<br />
+
+
+### `ralkage-hcaptcha`
+
+#### [`ralkage-hcaptcha.admin.settings.dark_mode_help`](https://weblate.rob006.net/translate/flarum/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_help%22)
+
+> Use the dark theme for the hCaptcha widget. Enable this if your forum uses a dark theme.
+
+```diff
+-Verwende das dunklen Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
++Verwende das dunkle Design für das hCaptcha-Widget. Aktivieren Sie diese Option, wenn Ihr Forum ein dunkles Design verwendet.
+```
+
+Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. <del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum ein dunkles Design verwendet.
 
 
 ### `resofire-digest-mail`
