@@ -390,7 +390,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v2.0.0/locale/en.yml',
 	],
 	'flarum-realtime' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/realtime/v2.0.1/resources/locale/en.yml',
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.0/locale/en.yml',
