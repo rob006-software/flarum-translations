@@ -3,7 +3,9 @@
         "forum": {
             "notice_pending": "Thanks for signing up! An admin needs to approve your account before you can post. We'll email you as soon as that happens.",
             "notice_declined": "Your account was not approved, so it can't be used on this forum.",
-            "notification": "{name} signed up and is waiting for your approval"
+            "notification": "{name} signed up and is waiting for your approval",
+            "optional": "optional",
+            "notify_applicant_label": "Someone signs up and is waiting for my approval"
         },
         "admin": {
             "queue_heading": "Waiting for approval",
@@ -17,6 +19,7 @@
                 "signed_up": "Signed up",
                 "approved_by": "Approved by {name}",
                 "declined_by": "Declined by {name}",
+                "answer": "Their answer",
                 "approve": "Approve",
                 "decline": "Decline"
             },
@@ -30,6 +33,12 @@
             "usernames_heading": "Usernames",
             "reserved_usernames": "Reserved usernames",
             "reserved_usernames_help": "One per line. Nobody but an admin can sign up with these, or rename themselves to one later. Not case-sensitive. Use * as a wildcard (admin*, *moderator*) or a regular expression between slashes. Works whether or not sign-ups are held for approval.",
+            "question_heading": "Sign-up question",
+            "question": "Ask applicants a question",
+            "question_help": "Shown on the sign-up form, and you read the answer in the queue above, in your notification and in your email. Ask for whatever helps you decide: why they want to join, their student ID, who invited them. Leave it empty to ask nothing.",
+            "question_placeholder": "Why would you like to join?",
+            "question_required": "Applicants must answer it",
+            "question_required_help": "Only addresses that wait for approval have to answer. Trusted addresses walk straight in and may leave it blank.",
             "messages_heading": "Emails",
             "held_message": "Extra text for applicants who are waiting",
             "held_message_help": "Added to the 'we've received your application' email. Say what you need from them, for example: reply with your student ID.",
@@ -40,6 +49,7 @@
             "refused": "Sign-ups from this email address aren't accepted on this forum.",
             "username_reserved": "That username isn't available. Please choose another.",
             "signin_pending": "Your account is waiting for an admin to approve it. We'll email you when it's ready.",
+            "reason_required": "Please answer this question so an admin can approve your account.",
             "signin_declined": "This account was not approved, so it can't be used on this forum."
         },
         "email": {
@@ -61,7 +71,10 @@
             },
             "admin_new": {
                 "subject": "{applicant} is waiting to join {forum}",
-                "body": "{applicant} ({email}) signed up and is waiting for approval.\n\nApprove or decline them here:\n\n{url}\n"
+                "body": "{applicant} ({email}) signed up and is waiting for approval.",
+                "answer_to": "Their answer to “{question}”:",
+                "answer": "They wrote:",
+                "button": "Approve or decline them"
             }
         }
     }

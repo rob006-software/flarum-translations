@@ -15,6 +15,9 @@
                 "only_icons_label": "Csak az ikonok megjelenítése (alternatív elrendezés)",
                 "update_email_from_provider_label": "E-mail-cím frissítése a szolgáltató által",
                 "update_email_from_provider_help": "Ha be van kapcsolva, akkor ha a felhasználó olyan OAuth-szolgáltatón keresztül jelentkezik be, amelynél a hitelesített e-mail-címe eltér a felhasználó fórumon megadott e-mail-címétől, a rendszer megerősítő hivatkozást küld az új címre, és értesítést a jelenlegi címre. Az e-mail-cím akkor változik meg, ha a felhasználó rákattint a hivatkozásra. Azok a szolgáltatók, amelyek nem tudják megerősíteni a cím hitelesítését – ideértve azokat a külső szolgáltatókat is, amelyek még nem lettek frissítve ennek támogatására –, nem módosítják az e-mail-címet.",
+                "oauth_only_label": "Csak az OAuth-szolgáltatóval való bejelentkezés és regisztráció engedélyezése",
+                "oauth_only_help": "Ha ez a beállítás engedélyezve van, a tagok többé nem tudnak jelszóval bejelentkezni, regisztrálni vagy jelszót visszaállítani; ehelyett a engedélyezett szolgáltatókat kell használniuk. A rendszergazdák továbbra is jelszóval tudnak bejelentkezni a bejelentkezési ablakban található „Rendszergazdai bejelentkezés” hivatkozás segítségével. A már regisztrált tagok, akiknek még nincs összekapcsolt szolgáltatójuk, az első szolgáltatói bejelentkezéskor lesznek összekapcsolva, amennyiben a szolgáltató megerősíti ugyanazt az e-mail-címet; mindenki másnak rendszergazdai segítségére lesz szüksége. Ha nincs engedélyezett szolgáltató, ennek a beállításnak nincs hatása. Az „Engedélyek” menüpontban a „Regisztráció” beállítást hagyja „Nyitva” állapotban, ellenkező esetben az új tagok szolgáltatón keresztül sem tudnak regisztrálni.\n",
+                "oauth_only_sign_up_closed_warning": "A regisztráció Zárva értékre van állítva az <a>Engedélyekben</a>. A Flarum ezt a beállítást használja a szolgáltatói regisztrációkra is, így míg zárva van, senki sem csatlakozhat.",
                 "disable_avatars_label": "Szolgáltatótól származó profilképek letiltása",
                 "disable_avatars_help": "Ha engedélyezve van, akkor a felhasználó profilképe nem lesz frissítve, hogy regisztrációkor megegyezzen a szolgáltatóval tárolttal. Ez csak a jövőbeli regisztrációkat érinti, a meglévő felhasználók profilképén nem változtat.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "A(z) {provider} nem erősítette meg ezt az e-mail-címet, így nem tud bejelentkezni. Ha már van fiókja, jelentkezzen be alább, majd kösse hozzá a(z) {provider} szolgáltatót a fiókbeállításaiban.",
+                "unverified_email_in_use_oauth_only": "A(z) {provider} nem erősítette meg ezt az e-mail-címet, így nem lehet bejelentkezésre használni. Erősítse meg a címet a(z) {provider} szolgáltatóval, és próbálja újra, vagy kérje egy rendszergazda segítségét.",
+                "admin_log_in_link": "Rendszergazdai bejelentkezés",
                 "with_button": "Bejelentkezés ezzel: {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

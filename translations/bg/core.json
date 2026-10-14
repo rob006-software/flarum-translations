@@ -119,6 +119,8 @@
                 "edit_css_button": "Редакция на персонализирания CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Моля, въведете шестнадесетичен код на цвят.",
                 "favicon_heading": "Фавикон",
                 "favicon_text": "Качете изображение, което да бъде показвано като иконка на бърз достъп за форума.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Изчисти кеша",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Вашият форум в един поглед.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Изтрий публикациите завинаги",
                 "delete_posts_label": "Изтрий публикациите",
                 "description": "Конфигуриране на това, кой може какво вижда и какво да прави.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Редактиране на публикации",
                 "edit_users_label": "Редактиране на атрибути на потребителя",
                 "edit_users_credentials_label": "Редактиране на потребителски данни",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Уеб",
                 "notify_discussion_renamed_label": "Някой преименува дискусия, която стартирахте",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

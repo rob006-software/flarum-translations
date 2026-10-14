@@ -63,7 +63,22 @@
                 "single_clickable_label": "Einzelner Stern ist klickbar",
                 "single_clickable_help": "Wenn aktiviert, wird durch Klicken auf den einzelnen Stern (und die dazugehörige Zahl) die Bewertungsliste in einem Modalfenster geöffnet. Ist diese Option deaktiviert, dient der Stern lediglich zur Anzeige – und bei Themen, die noch keine Bewertung haben, wird gar nichts angezeigt.",
                 "single_modal_rate_label": "Bewertung innerhalb des Modals erlauben",
-                "single_modal_rate_help": "Zeigt oben im Bewertungs-Modalfenster ein interaktives Bewertungsfeld an, damit Nutzer eine Bewertung abgeben (oder ihre Bewertung ändern) können, ohne die Liste zu verlassen."
+                "single_modal_rate_help": "Zeigt oben im Bewertungs-Modalfenster ein interaktives Bewertungsfeld an, damit Nutzer eine Bewertung abgeben (oder ihre Bewertung ändern) können, ohne die Liste zu verlassen.",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
                 "rate_label": "Diskussionen bewerten",
@@ -85,9 +100,19 @@
                 "rate_this": "Diese Diskussion bewerten",
                 "rate_first": "Sei der Erste, der eine Bewertung abgibt!",
                 "your_rating": "Deine Bewertung:",
-                "restricted": "Bewertungen zu diesem Thema liegen für deine Gruppe nicht vor."
+                "restricted": "Bewertungen zu diesem Thema liegen für deine Gruppe nicht vor.",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
             "rating_count": "Bewertungen: {count}",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "Zuletzt bewertet:",
             "rating_restricted_message": "Bewertungen sind für deine Gruppe nicht verfügbar.",
             "controls": {
@@ -106,7 +131,8 @@
                 "title": "Bewertungen ({count})",
                 "empty": "Noch keine Bewertungen.",
                 "deleted_user": "[gelöscht]",
-                "updated_prefix": "aktualisiert "
+                "updated_prefix": "aktualisiert ",
+                "author_tag": ""
             }
         },
         "api": {

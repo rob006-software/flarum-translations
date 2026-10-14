@@ -96,6 +96,9 @@
                     "edit_title": "Anket Grubunu Düzenle",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Anket Grubunu Sil",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Anket Grupları Yöneticisi",
                     "view_group": "Anket Grubunu Görüntüle",
                     "success": "Anket grubu başarıyla kaydedildi."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Yanıt",
                 "image_option_placeholder": "Resim URL'si (isteğe bağlı)",
                 "options_label": "Yanıtlar",
+                "settings_label": "",
                 "public_poll_label": "Kullanıcıların yanıt verenleri görmesine izin ver",
                 "allow_multiple_votes_label": "Kullanıcıların birden fazla seçeneği oylamasına izin ver",
                 "max_votes_label": "Kullanıcı başına azami oylar",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Görseli Sil",
                 "upload_button": "Görsel Yükle"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

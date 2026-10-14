@@ -48,19 +48,27 @@
                 "field_icon_help": "",
                 "field_position": "",
                 "field_position_help": "",
-                "field_is_appeal": "",
-                "field_is_appeal_help": "",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
                 "field_default_assignee": "",
                 "field_default_assignee_none": "",
                 "field_default_assignee_help": "",
                 "field_default_assignee_loading": "",
                 "field_default_assignee_unavailable": "",
                 "field_default_assignee_error": "",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "",
                 "submit_update": "",
                 "error_load": "",
                 "error_save": "",
                 "error_delete": ""
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "",
@@ -245,6 +253,7 @@
             "event": {
                 "status_changed": "",
                 "status_changed_no_actor": "",
+                "status_changed_automatically": "",
                 "auto_closed": "",
                 "claimed": "",
                 "assigned": "",
@@ -394,6 +403,9 @@
             "assigned_body": ""
         },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "",
             "default_assignee_staff_only": "",
             "category_required": "",

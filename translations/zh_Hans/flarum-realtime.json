@@ -1,6 +1,7 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {有 # 条新内容} other {有 # 条新内容}}，点击查看",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {有 # 条新内容} other {有 # 条新内容}}，{releaseTimeout} 后自动刷新。点击立即查看"
@@ -28,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "",
                 "view-who-types": "查看正在输入的用户"
             },
             "settings": {

@@ -14,7 +14,10 @@
                 },
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
-                "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail - ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
+                "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail – ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
                 "providers": {
@@ -65,6 +68,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Zaloguj się za pomocą {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

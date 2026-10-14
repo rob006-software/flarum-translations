@@ -25,11 +25,10 @@
                 "supervisor_title": "Worker Settings",
                 "supervisor_help": "Horizon runs your queue workers in tiered profiles (standard, fast,\nlong, emails). Worker counts, memory and queues are configured per\ndeployment via REDIS_HORIZON_* environment variables, config.php (under\nthe \"horizon\" key), or the Horizon extender in extend.php — see the\nextension's README. Restart Horizon after changing worker configuration.\n",
                 "memory_limit": "Master Process Memory Limit (MB)",
-                "memory_limit_help": "Memory limit for the Horizon master supervisor process. Horizon raises\nthis automatically to the largest worker budget, so you rarely need to\nset it by hand.\n"
+                "memory_limit_help": "Memory limit for the Horizon master supervisor process: past it, the\nmaster restarts itself. Each worker's memory is set by its supervisor.\n"
             },
             "stats": {
                 "queue_heading": "Queue",
-                "kv_heading": "Key-Value Store",
                 "full_dashboard": "Horizon Dashboard",
                 "auto_refresh": "Auto Refresh",
                 "refresh": "Refresh",
@@ -38,9 +37,6 @@
                     "fetch_failed": "Unable to fetch Horizon statistics. Please check your Redis configuration.",
                     "setup_docs": "View Redis Setup Documentation"
                 },
-                "eviction_pressure": "memory pressure",
-                "eviction_policy_tooltip": "The eviction policy is how the store selects what to remove when the maxmemory limit is reached. The default is `noeviction`: new values aren't saved when the memory limit is reached. Click to view documentation.",
-                "eviction_warning": "Memory usage is at {usage}% of maxmemory and the eviction policy is \"{policy}\", so keys — potentially including queue data — may be evicted soon. Increase maxmemory or move the queue to a dedicated database with more headroom.",
                 "health": {
                     "excellent": "Excellent",
                     "good": "Good",
@@ -74,14 +70,7 @@
                     "failed-jobs": "Failed Jobs",
                     "max-wait": "Max Wait",
                     "slowest-queue": "Slowest Queue",
-                    "highest-throughput-queue": "Busiest Queue",
-                    "memory-used": "Memory Used",
-                    "memory-peak": "Memory Peak",
-                    "memory-max": "Max Memory",
-                    "ops-per-sec": "Ops Per Second",
-                    "connected-clients": "Connected Clients",
-                    "blocked-clients": "Blocked Clients",
-                    "eviction-policy": "Eviction Policy"
+                    "highest-throughput-queue": "Busiest Queue"
                 },
                 "tile": {
                     "processes": "Worker Processes",

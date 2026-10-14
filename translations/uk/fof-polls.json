@@ -96,6 +96,9 @@
                     "edit_title": "Редагувати групу опитування",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Видалити групу опитування",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Менеджер груп опитування",
                     "view_group": "Переглянути групу опитування",
                     "success": "Групу опитування успішно збережено."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Відповідь",
                 "image_option_placeholder": "URL-адреса зображення (необов'язково)",
                 "options_label": "Відповіді",
+                "settings_label": "",
                 "public_poll_label": "Дозвольте людям бачити, хто проголосував",
                 "allow_multiple_votes_label": "Дозвольте людям голосувати за кілька варіантів",
                 "max_votes_label": "Максимальна кількість голосів на одного користувача",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Видалити зображення",
                 "upload_button": "Завантажити зображення"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

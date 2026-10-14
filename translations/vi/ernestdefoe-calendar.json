@@ -5,6 +5,7 @@
             "page_title": "Lịch",
             "upcoming": "Sự kiện sắp diễn ra",
             "no_events": "Không có sự kiện nào sắp diễn ra.",
+            "no_events_day": "",
             "view_month": "Tháng",
             "view_week": "Tuần",
             "view_day": "Ngày",
@@ -60,6 +61,9 @@
             "saved": "Đã lưu sự kiện.",
             "save_error": "Không lưu được sự kiện — vui lòng kiểm tra biểu mẫu và thử lại.",
             "widget_title": "Sự kiện sắp diễn ra",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "Nhịp đập diễn đàn",
             "heat_contributions": "lượt đóng góp",
             "heat_current_streak": "ngày liên tiếp",
@@ -108,10 +112,20 @@
             "end_before_start": "Thời điểm kết thúc phải sau thời điểm bắt đầu.",
             "category_name_required": "Bắt buộc phải có tên danh mục."
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "Lịch",
             "default_view": "Chế độ xem lịch mặc định",
             "view_month_opt": "Lưới tháng",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "Danh sách sắp diễn ra",
             "week_starts_on": "Tuần bắt đầu vào",
             "week_sunday": "Chủ nhật",
@@ -122,7 +136,13 @@
             "index_widget_count": "Số sự kiện hiển thị trong tiện ích ở trang chủ",
             "show_pulse_widget": "Hiển thị tiện ích “Nhịp đập diễn đàn” ở trang chủ diễn đàn",
             "show_pulse_widget_help": "Một bản đồ nhiệt hoạt động kèm bảng xếp hạng thành viên tích cực nhất, cho thấy cộng đồng đang sôi động. (Biểu đồ đóng góp cũng xuất hiện trên trang cá nhân của mỗi thành viên.)",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "Hiển thị tiện ích “Ngày này năm xưa” ở trang chủ diễn đàn",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "Hiển thị tiện ích “Chúc mừng hôm nay” ở trang chủ diễn đàn",
             "categories": "Danh mục sự kiện",
             "categories_help": "Các danh mục có màu giúp thành viên lọc lịch và cho mỗi sự kiện một điểm nhấn màu sắc. Thay đổi được lưu theo từng dòng.",

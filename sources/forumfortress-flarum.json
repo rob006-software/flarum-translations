@@ -4,6 +4,9 @@
             "settings": {
                 "enabled_label": "Enable Forum Fortress protection",
                 "enabled_help": "Check registrations, topics, replies, posts, and profile changes against Forum Fortress.",
+                "repeat_offender_label": "Suspend repeat spammers for seven days",
+                "repeat_offender_help": "Off by default. After two distinct confirmed spam blocks with original scores above 80 within 24 hours, suspend a new low-activity member for seven days. Requires the Flarum scheduler. Staff, custom groups and established members are protected. Reverse through the native Suspend controls; automatic suspension is applied at most once per member.",
+                "repeat_offender_unavailable": "Unavailable: install and enable the compatible Flarum Suspend extension. No account action is substituted. The Flarum scheduler must run every minute.",
                 "api_base_url_label": "Check API base URL",
                 "api_region_label": "API region",
                 "api_region_help": "Lock check traffic to a region, or use the recommended global network.",
@@ -14,7 +17,7 @@
                 "allow_global_fallback_label": "Allow global emergency fallback",
                 "allow_global_fallback_help": "After a regional retry fails, permit the global network. Processing may occur outside the selected region.",
                 "api_key_label": "Site API key",
-                "api_key_help": "Leave blank to bootstrap an anonymous site and receive a stable key automatically.",
+                "api_key_help": "The current key is never displayed. Leave blank to keep it, or enter a replacement. An anonymous site receives a key automatically during bootstrap. Use Disconnect and remove site to revoke the remote credential.",
                 "registration_email_label": "Site registration email",
                 "registration_email_help": "Optional for normal operation. Set this to your account email only when using the plugin Register Site flow; portal registration does not need it.",
                 "preferred_endpoint_label": "Preferred edge endpoint",

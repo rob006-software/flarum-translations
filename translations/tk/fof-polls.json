@@ -96,6 +96,9 @@
                     "edit_title": "",
                     "save_changes": "",
                     "delete": "",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "",
                     "view_group": "",
                     "success": ""
@@ -176,6 +179,7 @@
                 "option_placeholder": "Jogap",
                 "image_option_placeholder": "Suratyň URL-y (islege görä)",
                 "options_label": "Jogaplar",
+                "settings_label": "",
                 "public_poll_label": "Kim ses berenini hemmeler görsün",
                 "allow_multiple_votes_label": "Birnäçe jogap berip bolar",
                 "max_votes_label": "Her ulanyjy üçin iň köp ses sany",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Suraty aýyr",
                 "upload_button": "Surat saýla"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

@@ -1,0 +1,139 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "latest": {
+                "title": "",
+                "description": ""
+            },
+            "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                }
+            },
+            "checks": {
+                "php-version": {
+                    "title": "Версия PHP",
+                    "chip": "",
+                    "pass": "Установлена PHP {current}.",
+                    "warning": "Не удалось определить версию PHP.",
+                    "fail": "Установлена PHP {current}, но требуется {required} или новее."
+                },
+                "database-version": {
+                    "title": "Версия базы данных",
+                    "pass": "Установлена {current}.",
+                    "warning_unknown": "Не удалось определить версию сервера базы данных.",
+                    "warning_below_recommended": "{current} работает, но для лучшего опыта рекомендуется {recommended} или новее.",
+                    "fail": ""
+                },
+                "extension-compatibility": {
+                    "title": "Совместимость расширений"
+                }
+            },
+            "extensions": {
+                "contact": {
+                    "forum": "Тема поддержки",
+                    "issues": "Проблемы",
+                    "source": "Исходный код"
+                }
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": ""
+            },
+            "tabs": {
+                "report": "Отчёт о готовности",
+                "repositories": "Репозитории"
+            },
+            "repositories": {
+                "help": "Добавьте приватные или премиум-репозитории Composer, чтобы помощник мог проверить расширения, которые отсутствуют в публичном Packagist. Поможет, если расширение не найдено на Packagist.\n",
+                "empty": "Нет дополнительных репозиториев.",
+                "add_floxum": "Добавить Floxum",
+                "add_composer": "Добавить репозиторий",
+                "type_floxum": "Floxum",
+                "type_composer": "Приватный или пользовательский Packagist",
+                "url": "URL репозитория",
+                "username": "Имя пользователя",
+                "token": "Токен",
+                "remove": "Удалить репозиторий",
+                "test": "Проверить подключение",
+                "test_ok": "Подключено",
+                "test_fail_auth": "Ошибка аутентификации — проверьте токен",
+                "test_fail_unreachable": "Не удалось подключиться к репозиторию",
+                "test_fail_invalid": "Неверный ответ — проверьте URL"
+            },
+            "errors": {
+                "load_failed": "Не удалось запустить проверки готовности. Попробуйте ещё раз."
+            }
+        }
+    }
+}

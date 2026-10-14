@@ -15,6 +15,9 @@
                 "only_icons_label": "แสดงเฉพาะปุ่มรูปไอคอนเท่านั้น (การจัดวางรูปแบบทางเลือก)",
                 "update_email_from_provider_label": "อัปเดตอีเมลของผู้ใช้จากผู้ให้บริการระบบโดยอัตโนมัติ",
                 "update_email_from_provider_help": "หากเปิดใช้งาน ที่อยู่อีเมลของผู้ใช้บนบอร์ดจะได้รับการปรับปรุงตามข้อมูลล่าสุดจากผู้ให้บริการ OAuth ทุกครั้งที่ทำการล็อกอินเข้าสู่ระบบ ทั้งนี้ผู้ให้บริการบางรายอาจไม่ได้ให้ข้อมูลอีเมลที่เปลี่ยนใหม่ ซึ่งการตั้งค่านี้จะไม่มีผลการเปลี่ยนแปลงกับผู้ให้บริการรายนั้นๆ",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "ปิดใช้งานการดึงรูปโปรไฟล์จากผู้ให้บริการระบบ",
                 "disable_avatars_help": "หากเปิดใช้งาน รูปภาพแทนตัว (Avatar) ของผู้ใช้จะไม่ได้รับการอัปเดตตามรูปโปรไฟล์ของผู้ให้บริการระบบเมื่อสมัครสมาชิกใหม่ ทั้งนี้จะส่งผลต่อผู้ที่สมัครสมาชิกใหม่ในอนาคตเท่านั้น โดยไม่เปลี่ยนรูปโปรไฟล์ปัจจุบันของผู้ใช้ที่มีอยู่แล้ว\n",
                 "providers": {
@@ -60,6 +63,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "เข้าสู่ระบบด้วย {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

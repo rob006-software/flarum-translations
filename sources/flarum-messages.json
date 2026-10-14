@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "Send private messages",
-                "delete_own_messages_label": "Delete own messages"
+                "message_users_without_permission_label": "Message users without messaging permission",
+                "delete_own_messages_label": "Delete own messages",
+                "send_without_throttle_label": "Send messages without throttling",
+                "view_ips_label": "View IP addresses of messages"
             }
         },
         "forum": {
@@ -17,7 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Mark as read",
+                "own_last_message_preview": "You: {content}",
                 "title": "Messages",
+                "unread_count_text": "{count} unread",
                 "view_all": "View all messages"
             },
             "dialog_section": {
@@ -67,7 +72,12 @@
                 "title": "Messages"
             },
             "recipient_selection_modal": {
+                "cannot_reply_text": "Can't reply to messages",
                 "title": "Select the recipients of this message"
+            },
+            "search_source": {
+                "conversation_with": "Conversation with {username}",
+                "heading": "Messages"
             },
             "settings": {
                 "notify_message_received_label": "Someone sends me a message"
@@ -84,16 +94,48 @@
             "message_received": {
                 "subject": "{user_display_name} sent you a message",
                 "plain": {
-                    "body": "{user_display_name} sent you a new message.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "{user_display_name} sent you a new message.\n\n{url}\n\n---\n\n{content}\n\n---\n\nYou won't receive any more emails about this conversation until you've read it.\n"
                 },
                 "html": {
-                    "body": "{user_display_name} sent you a [new message]({url})."
+                    "body": "{user_display_name} sent you a [new message]({url}).\n\nYou won't receive any more emails about this conversation until you've read it.\n"
                 }
             }
         },
         "lib": {
             "dialog": {
                 "title": "Messaging {username}"
+            },
+            "no_other_members_message": "There is no one else in this conversation.",
+            "recipient_cannot_reply_message": "{username} can't reply to messages.",
+            "recipient_unavailable_message": "{username} can't receive messages."
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "messages": {
+                    "export_description": "Your private messages, with when they were sent and from which address.",
+                    "anonymize_description": "The addresses your private messages were sent from are removed. The messages stay.",
+                    "delete_description": "Your private messages are deleted."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "dialog": {
+                    "started": "Started a private conversation with {username}",
+                    "posted": "Sent a private message to {username}"
+                }
+            }
+        }
+    },
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "dialogs_heading": "PM started",
+                "dialog_replies_heading": "PM replies"
             }
         }
     }

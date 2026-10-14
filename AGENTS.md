@@ -56,6 +56,9 @@ Contributors do not have write access to this repository - fork it and open a PR
   (`rob006-software/flarum-translations`). Weblate and automation commit to both branches very often.
 - All the work should go to a single PR. It may contain many commits (for example one commit per extension) or one
   big commit - both are fine.
+- Prefix the PR title and every commit message with the targeted Flarum version: `[1.x] ` for `master`,
+  `[2.x] ` for `flarum2` (e.g. `[2.x] Update Brazilian Portuguese translations`). Name the language in the text,
+  not in a second bracket.
 - Make sure the PR targets the correct base branch (`master` or `flarum2`).
 
 

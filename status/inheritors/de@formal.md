@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **0** are
+sides, but do not match between them: **359** are translated differently and **0** are
 translated only in `de@formal`. Altogether they cover **52** components.
 
 <!-- {% raw %} -->
@@ -43,7 +43,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-geoip` | [1](#fof-geoip) |
 | `fof-horizon` | [2](#fof-horizon) |
 | `fof-impersonate` | [1](#fof-impersonate) |
-| `fof-links` | [2](#fof-links) |
+| `fof-links` | [3](#fof-links) |
 | `fof-mailing` | [1](#fof-mailing) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
 | `fof-moderator-warnings` | [8](#fof-moderator-warnings) |
@@ -3034,6 +3034,17 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 ```
 
 Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del><ins>möchten,</ins> lautet <del>das</del><ins>der</ins> Präfix stattdessen<del> &lt;code&gt;fab</del> <del>fa-&lt;/code&gt;.</del><ins>&lt;code&gt;fab-fa-&lt;/code&gt;.</ins>
+
+#### [`fof-links.admin.edit_link.open_newtab`](https://weblate.rob006.net/translate/flarum2/fof-links/de@formal/?q=context%3A%3D%22fof-links.admin.edit_link.open_newtab%22)
+
+> Open in a new tab
+
+```diff
+-Link in neuem Tab öffnen
++In neuem Tab öffnen
+```
+
+<del>Link in</del><ins>In</ins> neuem Tab öffnen
 
 
 ### `fof-mailing`

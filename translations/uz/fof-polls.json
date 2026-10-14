@@ -96,6 +96,9 @@
                     "edit_title": "",
                     "save_changes": "",
                     "delete": "",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "",
                     "view_group": "",
                     "success": ""
@@ -176,6 +179,7 @@
                 "option_placeholder": "Variant",
                 "image_option_placeholder": "",
                 "options_label": "Javoblar",
+                "settings_label": "",
                 "public_poll_label": "Odamlarga kim ovoz berganini ko'rishga ruxsat berish",
                 "allow_multiple_votes_label": "",
                 "max_votes_label": "",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

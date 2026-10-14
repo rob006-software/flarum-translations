@@ -15,6 +15,9 @@
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
                 "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Sağlayıcıdan avatarları devre dışı bırak",
                 "disable_avatars_help": "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "{provider} ile giriş yapın",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

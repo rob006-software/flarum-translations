@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "Γενικά",
                     "reminders": "Υπενθυμίσεις",
-                    "advanced": "Προχωρημένο",
-                    "reminders_notice": "Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum."
+                    "reminders_notice": "Για να λειτουργούν σωστά οι υπενθυμίσεις, πρέπει να έχετε ρυθμίσει σωστά τον scheduler Flarum.",
+                    "advanced": "Προχωρημένο"
                 },
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Χρησιμοποιήστε την οδηγία 'onOneServer()' για το χρονοδιάγραμμα εργασιών (απαιτείται Redis/Memcache)",
-                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Αποτρέψτε την εκτέλεση του χρονοδιαγράμματος υπενθυμίσεων κατά τη διάρκεια κοινωνικών ωρών (9pm - 8am server time)",
                 "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Προσάρτηση εξόδου του scheduler στο χώρο αποθήκευσης των logs",
+                "schedule_log_output_help": "",
                 "show_filter_label": "",
                 "show_filter_help": "",
                 "use_alt_ui": "Χρησιμοποιήστε εναλλακτική διάταξη (κουμπιά καλύτερων απαντήσεων στο υποσέλιδο)",
@@ -36,11 +35,8 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
-            },
-            "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Χρησιμοποιήστε την οδηγία 'onOneServer()' για το χρονοδιάγραμμα εργασιών (απαιτείται Redis/Memcache)"
             }
         },
         "forum": {
@@ -64,9 +60,11 @@
             },
             "index": {
                 "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "cannot_ask_question": ""
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "",
@@ -99,6 +97,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

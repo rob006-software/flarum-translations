@@ -15,6 +15,9 @@
                 "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
                 "update_email_from_provider_label": "Päivitä sähköpostiosoite toimittajalta",
                 "update_email_from_provider_help": "Jos käytössä, käyttäjän sähköpostiosoite vastaa OAuth toimittajan toimittamaa sähköpostia aina kirjautumisen yhteydessä. Kaikki toimittajat eivät toimita päivitettyä sähköpostia, jolloin niiden toimittajien kohdalla tällä asetuksella ei ole vaikutusta.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Ota toimittajan avatarit pois käytöstä",
                 "disable_avatars_help": "Jos tämä on käytössä, käyttäjän profiilikuvaa ei päivitetä vastaamaan palveluntarjoajan profiilikuvaa rekisteröitymisen yhteydessä. Huomaa, että tämä koskee vain tulevia rekisteröitymisiä eikä muuta olemassa olevien käyttäjien profiilikuvia.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Kirjaudu {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

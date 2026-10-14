@@ -119,6 +119,8 @@
                 "edit_css_button": "編輯自定義 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "請輸入十六進位色碼。",
                 "favicon_heading": "網站圖示",
                 "favicon_text": "上傳圖片作為論壇的網站圖示，該圖示將顯示在瀏覽器標籤頁、搜尋引擎結果列表和書籤等多個位置。",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "清除快取",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "論壇資訊總覽。",
                 "info_button": "系統訊息",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "永久刪除回覆",
                 "delete_posts_label": "刪除回覆",
                 "description": "設置各群組訪問及操作權限。",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "編輯回覆",
                 "edit_users_label": "編輯會員",
                 "edit_users_credentials_label": "編輯用戶身份標識",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "郵箱",
                 "notify_by_web_heading": "網頁",
                 "notify_discussion_renamed_label": "你的貼文主題被更改",
+                "reset_notifications_button": "",
                 "device_heading": "設備",
                 "haptic_feedback_help": "僅在受支持的移動設備上可用",
                 "haptic_feedback_label": "啟用觸控反饋",
@@ -895,6 +913,9 @@
                         "hint": "單數或複數用戶組名稱"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "清除輸入"

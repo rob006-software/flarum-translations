@@ -39,7 +39,26 @@
                 },
                 "other": {
                     "heading": "Khác",
-                    "force_portrait_text": "Buộc hiển thị theo chiều dọc",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
                     "push_notif_preference_default_to_email_label": "Mặc định tùy chọn thông báo đẩy theo email",
                     "push_notif_preference_default_to_email_text": "Nếu bật, người dùng sẽ mặc định được bật thông báo đẩy cho tất cả các loại thông báo vốn được bật thông báo email theo mặc định. Nếu tắt, người dùng sẽ mặc định bị tắt thông báo đẩy.",
                     "window_controls_overlay_label": "Bật Window Controls Overlay",
@@ -49,7 +68,8 @@
                     "push_notification_ttl_label": "Thời gian sống của thông báo đẩy",
                     "push_notification_ttl_text": "Những thông báo đẩy chưa gửi được sẽ nằm trong hàng đợi của dịch vụ đẩy bao lâu trước khi hết hạn (tính bằng giây).",
                     "share_buttons_label": "Bật nút chia sẻ",
-                    "share_buttons_text": "Nếu bật, một nút \"Chia sẻ\" sẽ được thêm vào các cuộc thảo luận, bài viết và người dùng."
+                    "share_buttons_text": "Nếu bật, một nút \"Chia sẻ\" sẽ được thêm vào các cuộc thảo luận, bài viết và người dùng.",
+                    "force_portrait_text": "Buộc hiển thị theo chiều dọc"
                 },
                 "heading": "Cấu hình Progressive Web App",
                 "text": "Cấu hình trang Flarum của bạn để chạy như một progressive web app! Xin lưu ý rằng điều này không tự động đưa trang của bạn lên các kho ứng dụng. Thay vào đó, nó cho người dùng tùy chọn 'Thêm vào màn hình chính' với trang của bạn. Chúng tôi cung cấp một vài bước kiểm tra trạng thái, nhưng cách kiểm tra tốt nhất là tự thử cài đặt (hãy tìm trên mạng hướng dẫn cài đặt progressive web app). Hãy nhớ rằng những lời nhắc 'cài đặt PWA này' do trình duyệt kiểm soát và lập trình viên, quản trị viên hay chương trình đều không thể kích hoạt được. Bạn nên đưa hướng dẫn cài đặt PWA vào tài liệu của trang.",
@@ -117,6 +137,7 @@
             }
         },
         "api": {
+            "keys_invalid": "",
             "endpoint_https_required": "Không bật được thông báo đẩy vì trình duyệt của bạn cung cấp một URL dịch vụ đẩy không hợp lệ \"{url}\". Cần một URL HTTPS hợp lệ.",
             "endpoint_host_not_allowed": "Không bật được thông báo đẩy vì máy chủ dịch vụ đẩy \"{host}\" mà trình duyệt của bạn dùng không được phép. Vui lòng liên hệ quản trị viên diễn đàn."
         },

@@ -1,0 +1,60 @@
+{
+    "prm-analytics": {
+        "admin": {
+            "title": "",
+            "subtitle": "Echtzeit-Forumanalyse zu Gesundheit, Wachstum und Arbeitsbelastung des Teams",
+            "refresh": "Aktualisieren",
+            "loading": "Analysedaten werden geladen…",
+            "error": "Analysedten konnten nicht geladen werden.",
+            "range": {
+                "label": "Zeitraum",
+                "7d": "7 Tage",
+                "30d": "30 Tage",
+                "90d": "90 Tage"
+            },
+            "kpis": {
+                "users": "Mitglieder",
+                "discussions": "Diskussionen",
+                "posts": "Beiträge",
+                "likes": "Likes",
+                "reports": "Meldungen",
+                "tickets": "Tickets",
+                "warnings": "Warnungen",
+                "trade": "",
+                "pending_reports": "",
+                "open_tickets": "Offene Tickets",
+                "vs_prev": "vs vorher",
+                "now": "jetzt"
+            },
+            "charts": {
+                "growth": "Wachstum",
+                "engagement": "",
+                "moderation": "Moderationsbelastung",
+                "trade": "",
+                "reports_status": "Meldungen nach Status",
+                "reports_reason": "Meldungen nach Grund",
+                "tickets_status": "Tickets nach Status",
+                "tickets_category": "Tickets nach Kategorie",
+                "trade_mix": "",
+                "top_tags": "Beliebteste Tags",
+                "activity": "Aktivitäts-Mix"
+            },
+            "series": {
+                "users": "Neue Mitglieder",
+                "discussions": "Neue Diskussionen",
+                "posts": "Neue Beiträge",
+                "likes": "Likes",
+                "reports": "Meldungen",
+                "tickets": "Tickets eröffnet",
+                "warnings": "Warnungen",
+                "trade": "Feedback"
+            },
+            "empty": "Keine Daten in diesem Zeitraum",
+            "soft": {
+                "moderation_off": "",
+                "trade_off": "",
+                "likes_off": ""
+            }
+        }
+    }
+}

@@ -3,7 +3,9 @@
         "forum": {
             "notice_pending": "Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.",
             "notice_declined": "Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.",
-            "notification": "{name} hat sich angemeldet und wartet auf deine Freigabe"
+            "notification": "{name} hat sich angemeldet und wartet auf deine Freigabe",
+            "optional": "optional",
+            "notify_applicant_label": "Jemand registriert sich und wartet auf meine Genehmigung"
         },
         "admin": {
             "queue_heading": "Wartet auf Freigabe",
@@ -17,6 +19,7 @@
                 "signed_up": "Angemeldet",
                 "approved_by": "Genehmigt von {name}",
                 "declined_by": "Abgelehnt von {name}",
+                "answer": "Deren Antwort",
                 "approve": "Genehmigen",
                 "decline": "Ablehnen"
             },
@@ -30,6 +33,12 @@
             "usernames_heading": "Benutzernamen",
             "reserved_usernames": "Reservierte Benutzernamen",
             "reserved_usernames_help": "Je eine pro Zeile. Nur Administratoren können sich mit diesen Bezeichnungen registrieren oder ihren Namen später entsprechend ändern. Die Groß-/Kleinschreibung spielt keine Rolle. Verwende * als Platzhalter (admin*, *moderator*) oder einen regulären Ausdruck zwischen Schrägstrichen. Funktioniert unabhängig davon, ob Registrierungen zur Freigabe zurückgestellt werden oder nicht.",
+            "question_heading": "Frage während der Registrierung",
+            "question": "Neu-Registrierenden eine Frage stellen",
+            "question_help": "Dies wird im Registrierungsformular angezeigt, und du findest die Antwort oben in der Warteschlange, in deiner Benachrichtigung und in deiner E-Mail. Frage nach allem, was dir bei der Entscheidung hilft: warum die Person beitreten möchte, ihre Matrikelnummer, wer sie eingeladen hat. Lass das Feld leer, wenn du nichts fragen möchtest.",
+            "question_placeholder": "Warum möchtest du beitreten?",
+            "question_required": "Bewerber müssen dies beantworten",
+            "question_required_help": "Nur Adressen, die auf eine Genehmigung warten, müssen diese Frage beantworten. Vertrauenswürdige Adressen erhalten direkten Zugang und können das Feld leer lassen.",
             "messages_heading": "E-Mails",
             "held_message": "Zusatztext für Bewerber, die noch auf eine Antwort warten",
             "held_message_help": "Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.",
@@ -40,6 +49,7 @@
             "refused": "Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.",
             "username_reserved": "Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen aus.",
             "signin_pending": "Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.",
+            "reason_required": "Bitte beantworte diese Frage, damit ein Administrator dein Konto freischalten kann.",
             "signin_declined": "Dieses Konto wurde nicht freigeschaltet und kann daher in diesem Forum nicht verwendet werden."
         },
         "email": {
@@ -61,7 +71,10 @@
             },
             "admin_new": {
                 "subject": "{applicant} wartet auf den Beitritt zu {forum}",
-                "body": "{applicant} ({email}) hat sich angemeldet und wartet auf die Freigabe.\n\nHier kannst du den Antrag freigeben oder ablehnen:\n\n{url}\n"
+                "body": "{applicant} ({email}) hat sich registriert und wartet auf die Freigabe.",
+                "answer_to": "Ihre Antwort auf „{question}“:",
+                "answer": "Ihre Antwort:",
+                "button": "Genehmigen oder ablehnen"
             }
         }
     }

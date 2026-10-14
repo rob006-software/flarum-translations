@@ -4,20 +4,20 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Padrão",
+                    "id_with_slug": "ID com slug"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "delete_tag_button": "Deletar Tag",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
-                "delete_tag_confirmation": "Tem certeza que deseja deletar esta tag? As discussões da tag NÃO serão deletadas.",
+                "delete_tag_button": "Excluir Tag",
+                "default_sort_label": "Ordenação Padrão",
+                "default_sort_none": "Usar o padrão do fórum",
+                "default_sort_text": "Como as discussões desta tag são ordenadas quando alguém chega sem escolher uma ordenação.",
+                "default_sort_unavailable": "{sort} (não está mais disponível)",
+                "delete_tag_confirmation": "Tem certeza de que deseja excluir esta tag? As discussões da tag NÃO serão excluídas.",
                 "description_label": "Descrição",
-                "hide_label": "Esconder de Todas as Discussões",
+                "hide_label": "Ocultar de Todas as Discussões",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -28,30 +28,30 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Administre a lista de tags disponíveis para organizar discussões."
+                "tags_text": "Gerencie a lista de tags disponíveis para organizar discussões."
             },
             "permissions": {
-                "allow_edit_tags_label": "Permitir edição de Tag",
-                "bypass_tag_counts_label": "Ignorar requisitos de tag",
+                "allow_edit_tags_label": "Permitir edição de tags",
+                "bypass_tag_counts_label": "Ignorar requisitos de tags",
                 "restrict_by_tag_heading": "Restringir por Tag",
-                "tag_discussions_label": "Tag da Discussão"
+                "tag_discussions_label": "Marcar discussões com tags"
             },
             "settings": {
-                "button_text": ""
+                "button_text": "=> flarum-tags.ref.choose_tags"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
                 "required_primary_heading": "Número Exigido de Tags Primárias",
-                "required_primary_text": "Entre com o número mínimo e máximo de tags primárias que podem ser aplicadas a uma discussão.",
+                "required_primary_text": "Digite o número mínimo e máximo de tags primárias que podem ser aplicadas a uma discussão.",
                 "required_secondary_heading": "Número Exigido de Tags Secundárias",
-                "required_secondary_text": "Entre com o número mínimo e máximo de tags secundárias que podem ser aplicadas a uma discussão.",
-                "title": "Configurações de Tag"
+                "required_secondary_text": "Digite o número mínimo e máximo de tags secundárias que podem ser aplicadas a uma discussão.",
+                "title": "Configurações de Tags"
             },
             "tags": {
-                "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para sub-categorização.",
-                "create_primary_tag_button": "Criar Tag Principal",
+                "about_tags_text": "Tags são usadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: podem ser organizadas em uma hierarquia de dois níveis. Tags secundárias não têm hierarquia ou ordem, e são úteis para microcategorização.",
+                "create_primary_tag_button": "Criar Tag Primária",
                 "create_secondary_tag_button": "Criar Tag Secundária",
-                "edit_tag_label": "",
+                "edit_tag_label": "Editar Tag {tag}",
                 "primary_heading": "Tags Primárias",
                 "secondary_heading": "Tags Secundárias",
                 "settings_heading": "Configurações"
@@ -63,17 +63,22 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "edit_title": "Edite as Tags de {title}",
-                "title": "Escolha as Tags para Sua Discussão"
+                "edit_title": "Editar Tags de {title}",
+                "title": "Escolher Tags para Sua Discussão"
             },
             "composer_discussion": {
-                "choose_tags_link": "Escolha as Tags"
+                "choose_tags_link": "=> flarum-tags.ref.choose_tags"
+            },
+            "deck": {
+                "column_label": "Tag",
+                "tag_label": "Tag",
+                "tag_placeholder": "Buscar uma tag"
             },
             "discussion_controls": {
                 "edit_tags_button": "Editar Tags"
             },
             "header": {
-                "back_to_tags_tooltip": "Voltar a Lista de Tags"
+                "back_to_tags_tooltip": "Voltar à Lista de Tags"
             },
             "index": {
                 "more_link": "Mais...",
@@ -81,9 +86,9 @@
                 "untagged_link": "Sem Tags"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} adicionou {tagsAdded} e removeu {tagsRemoved}.",
-                "added_tags_text": "{username} adicionou {tagsAdded}.",
-                "removed_tags_text": "{username} removeu {tagsRemoved}.",
+                "added_and_removed_tags_text": "{username} adicionou {tagsAdded} e removeu {tagsRemoved} {time}.",
+                "added_tags_text": "{username} adicionou {tagsAdded} {time}.",
+                "removed_tags_text": "{username} removeu {tagsRemoved} {time}.",
                 "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
             },
             "tag": {
@@ -91,27 +96,27 @@
             }
         },
         "lib": {
-            "deleted_tag_text": "Deletada",
+            "deleted_tag_text": "Excluída",
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tag",
+                        "hint": "nome de uma tag, lista de nomes separada por vírgulas, ou \"untagged\""
                     }
                 }
             },
             "tag_selection_modal": {
-                "bypass_requirements": "",
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "choose_tags_placeholder": "",
-                "submit_button": "",
-                "title": ""
+                "bypass_requirements": "Ignorar requisitos de tags",
+                "choose_primary_placeholder": "{count, plural, one {Escolha uma tag primária} other {Escolha # tags primárias}}",
+                "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
+                "submit_button": "=> core.ref.okay",
+                "title": "=> flarum-tags.ref.choose_tags"
             }
         },
         "ref": {
-            "choose_tags": "",
-            "choose_tags_placeholder": "",
+            "choose_tags": "Escolher Tags",
+            "choose_tags_placeholder": "{count, plural, one {Escolha mais 1 tag} other {Escolha mais # tags}}",
             "name": "Nome",
             "tags": "Tags"
         }
@@ -120,12 +125,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Atualizou as tags de {discussion} de {old_tags} para {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Criou a tag {tag}",
+                    "updated": "Atualizou a tag {tag}",
+                    "deleted": "Excluiu a tag {tag}"
                 }
             }
         }

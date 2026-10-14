@@ -15,6 +15,9 @@
                 "only_icons_label": "Hanya menampilkan ikon (tata letak alternatif)",
                 "update_email_from_provider_label": "Memperbarui alamat email dari provider",
                 "update_email_from_provider_help": "Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Nonaktifkan avatar dari provider",
                 "disable_avatars_help": "Jika diaktifkan, avatar pengguna tidak akan diperbarui agar sesuai dengan avatar provider saat pendaftaran. Perhatikan bahwa ini hanya berlaku untuk pendaftaran baru dan tidak akan mengubah avatar pengguna yang sudah ada.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Login dengan {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

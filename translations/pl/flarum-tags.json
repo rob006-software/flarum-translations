@@ -17,7 +17,7 @@
                 "default_sort_unavailable": "{sort} (już niedostępne)",
                 "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE zostaną usunięte.",
                 "description_label": "Opis",
-                "hide_label": "Ukryj z \"Wszystkie dyskusje\"",
+                "hide_label": "Ukryj z „Wszystkie dyskusje”",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -68,6 +68,11 @@
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
+            },
+            "deck": {
+                "column_label": "Tag",
+                "tag_label": "Tag",
+                "tag_placeholder": "Szukaj tagu"
             },
             "discussion_controls": {
                 "edit_tags_button": "Edytuj tagi"

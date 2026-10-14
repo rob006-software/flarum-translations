@@ -5,6 +5,7 @@
             "page_title": "Kalender",
             "upcoming": "Bevorstehende Veranstaltungen",
             "no_events": "Keine bevorstehende Veranstaltungen.",
+            "no_events_day": "",
             "view_month": "Monat",
             "view_week": "Woche",
             "view_day": "Tag",
@@ -60,6 +61,9 @@
             "saved": "Veranstaltung gespeichert.",
             "save_error": "Die Veranstaltung konnte nicht gespeichert werden – bitte überprüfe das Formular und versuche es erneut.",
             "widget_title": "Bevorstehende Veranstaltungen",
+            "happening_now": "",
+            "coming_up": "",
+            "ends_at": "",
             "widget_pulse": "Forum-Pulsschlag",
             "heat_contributions": "Beiträge",
             "heat_current_streak": "Tages-Serie",
@@ -108,10 +112,20 @@
             "end_before_start": "Das Ende muss nach dem Beginn liegen.",
             "category_name_required": "Der Kategoriename wird benötigt."
         },
+        "lib": {
+            "widgets": {
+                "calendarUpcoming": "",
+                "calendarPulse": "",
+                "calendarCelebrations": "",
+                "calendarMemories": ""
+            }
+        },
         "admin": {
             "settings_title": "Kalender",
             "default_view": "Standardansicht des Kalenders",
             "view_month_opt": "Monatsübersicht",
+            "view_week_opt": "",
+            "view_day_opt": "",
             "view_list_opt": "Bevorstehende Veranstaltungen",
             "week_starts_on": "Die Woche beginnt am",
             "week_sunday": "Sonntag",
@@ -122,7 +136,13 @@
             "index_widget_count": "Im Index-Widget anzuzeigende Veranstaltungen",
             "show_pulse_widget": "Widget „Forum-Pulsschlag“ auf der Startseite des Forums anzeigen",
             "show_pulse_widget_help": "Eine Aktivitäts-Heatmap und eine Rangliste der aktivsten Mitglieder, die zeigen, dass die Community lebendig ist. (Ein Beitragsdiagramm wird außerdem im Profil jedes Mitglieds angezeigt.)",
+            "pulse_exclude_groups": "",
+            "pulse_exclude_groups_help": "",
+            "pulse_exclude_users": "",
+            "pulse_exclude_users_help": "",
             "show_memories_widget": "Widget „An diesem Tag“ auf der Startseite des Forums anzeigen",
+            "onthisday_exclude_tags": "",
+            "onthisday_exclude_tags_help": "",
             "show_celebrations_widget": "Widget „Heutige Feierlichkeiten“ auf der Startseite des Forums anzeigen",
             "categories": "Veranstaltungskategorien",
             "categories_help": "Mithilfe farbcodierter Kategorien können Mitglieder den Kalender filtern und jedem Termin einen farblichen Akzent verleihen. Änderungen werden zeilenweise gespeichert.",

@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "Generale",
                     "reminders": "Promemoria",
-                    "advanced": "Avanzate",
-                    "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
+                    "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum.",
+                    "advanced": "Avanzate"
                 },
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Invia un promemoria dopo un numero di giorni configurabile per invitare a scegliere la risposta migliore, 0 = disabilita promemoria.",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni",
-                "schedule_on_one_server_help": "Richiede Redis/Memcache",
                 "schedule_stop_overnight": "Impedisci l'invio di notifiche promemoria  durante determinate ore",
                 "schedule_stop_overnight_help": "9pm - 8am orario server",
                 "schedule_log_output": "Aggiungi l'output dello scheduler alla memoria del registro",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Mostra filtro Risposta Migliore nel menu a comparsa",
                 "show_filter_help": "Per i tag che hanno abilitazione a Risposta migliore, scegli ri mostrare filtro risolto/non risolto nella lista discussioni",
                 "use_alt_ui": "Layout Alternativo",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni",
+                "schedule_on_one_server_help": "Richiede Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Abilita Risposta Migliore in questo tag",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Non può fare una domanda",
                 "solved_link": "Discussioni Risolte",
                 "unsolved_link": "Discussioni non risolte"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Tutte le domande",
@@ -99,6 +104,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

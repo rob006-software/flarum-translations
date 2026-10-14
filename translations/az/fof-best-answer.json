@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "Ümumi",
                     "reminders": "Xatırlatmalar",
-                    "advanced": "Qabaqcıl",
-                    "reminders_notice": "Xatırlatmaların işləməsi üçün Flarum planlayıcısını düzgün qurmalısınız."
+                    "reminders_notice": "Xatırlatmaların işləməsi üçün Flarum planlayıcısını düzgün qurmalısınız.",
+                    "advanced": "Qabaqcıl"
                 },
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Ən yaxşı cavabı seçmək üçün OP -yə konfiqurasiya edilə bilən günlərdən sonra bir xatırlatma göndərin, 0 = xatırlatmaları deaktiv edin.",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Tapşırıq planlayıcısı üçün 'onOneServer ()' direktivindən istifadə edin",
-                "schedule_on_one_server_help": "Redis/Memcache tələb edir",
                 "schedule_stop_overnight": "Sosial olmayan saatlarda xatırlatma bildirişlərinin göndərilməsinin qarşısını alın",
                 "schedule_stop_overnight_help": "9:00 - 8:00 server vaxtı",
                 "schedule_log_output": "Günlük saxlamaya planlaşdırıcı çıxışını əlavə edin",
+                "schedule_log_output_help": "",
                 "show_filter_label": "",
                 "show_filter_help": "",
                 "use_alt_ui": "Alternativ layout",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Tapşırıq planlayıcısı üçün 'onOneServer ()' direktivindən istifadə edin",
+                "schedule_on_one_server_help": "Redis/Memcache tələb edir"
             },
             "edit_tag": {
                 "qna_label": "Bu etiketdə ən yaxşı cavabları təyin edin",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Sual Verilə Bilmir",
                 "solved_link": "Mövzular həll edildi",
                 "unsolved_link": "Həll olunmamış mövzular"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Bütün mövzular",
@@ -99,6 +104,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

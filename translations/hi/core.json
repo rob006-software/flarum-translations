@@ -119,6 +119,8 @@
                 "edit_css_button": "विशेष सीइसइस को बदले",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "कृपया एक हेक्साडेसिमल रंग कोड दर्ज करें।",
                 "favicon_heading": "फेविकोण",
                 "favicon_text": "फ़ोरम के शॉर्टकट आइकन के रूप में प्रदर्शित होने के लिए एक छवि अपलोड करें।",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "कैश को साफ़ करें",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "आपका मंच एक नजर में।",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "सारे पोस्ट हमेशा के लिए हटाएं",
                 "delete_posts_label": "सारे पोस्ट हटाएं",
                 "description": "कॉन्फ़िगर करें कि कौन देख सकता है और क्या कर सकता है।",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "पोस्ट संपादित करें",
                 "edit_users_label": "उपयोगकर्ता विशेषताओं को संपादित करें",
                 "edit_users_credentials_label": "उपयोगकर्ता विशेषण संपादित करें",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "वेब",
                 "notify_discussion_renamed_label": "किसी ने मेरे द्वारा शुरू की गई चर्चा का नाम बदल दिया",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

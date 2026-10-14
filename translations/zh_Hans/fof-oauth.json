@@ -15,6 +15,9 @@
                 "only_icons_label": "登录按钮仅显示图标",
                 "update_email_from_provider_label": "从登录服务同步邮箱地址",
                 "update_email_from_provider_help": "开启后，如果用户通过 OAuth 服务登录时，该服务已验证的邮箱地址与论坛账号当前邮箱不同，系统会向新邮箱发送确认链接，并向当前邮箱发送通知。用户点击确认链接后，才会变更邮箱地址。对于无法确认邮箱地址已验证的服务，包括尚不支持此功能的第三方登录服务，系统不会更改邮箱地址。",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "不使用登录服务头像",
                 "disable_avatars_help": "开启后，新用户注册时不会使用登录服务提供的头像。仅影响之后注册的用户，不会更改现有用户的头像。\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "你无法通过 {provider} 登录，因为 {provider} 尚未验证邮箱地址。如果已有账号，请先点击下方登录，请前往账号设置中绑定 {provider}。",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "使用 {provider} 账号登录",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

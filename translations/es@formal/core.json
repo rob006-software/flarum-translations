@@ -119,6 +119,8 @@
                 "edit_css_button": "Editar los estilos personalizados",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Introduce un código de color hexadecimal.",
                 "favicon_heading": "<em>Favicon</em>",
                 "favicon_text": "Sube una imagen para que se muestre como icono de acceso directo al foro.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "El procesamiento de todas las colas está en pausa. Las tareas se acumularán hasta que se reanude.",
                 "queue_paused_manage": "Gestionar",
                 "clear_cache_button": "Vaciar caché",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Tu foro de un vistazo.",
                 "info_button": "Información del sistema",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Eliminar publicaciones para siempre",
                 "delete_posts_label": "Eliminar publicaciones",
                 "description": "Configura qué puede ver y hacer cada usuario.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Editar publicaciones",
                 "edit_users_label": "Editar usuarios",
                 "edit_users_credentials_label": "Editar credenciales de usuario",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Alguien ha cambiado el título de una discusión que creaste",
+                "reset_notifications_button": "",
                 "device_heading": "Dispositivo",
                 "haptic_feedback_help": "Solo disponible en dispositivos móviles compatibles",
                 "haptic_feedback_label": "Activar la respuesta háptica",
@@ -895,6 +913,9 @@
                         "hint": "nombres de grupos en singular o plural"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Borrar el contenido del campo"

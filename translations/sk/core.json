@@ -119,6 +119,8 @@
                 "edit_css_button": "Upraviť Vlastné CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Prosím, uveďte farbu v hexadecimálnom tvare.",
                 "favicon_heading": "Favikona",
                 "favicon_text": "Nahrajte obrázok ktorý bude použitý ako favicon Vášho fóra.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Vaše fórum na dlani.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Navždy odstrániť príspevky",
                 "delete_posts_label": "Odstrániť príspevky",
                 "description": "Vyberte, kto môže čo vidieť a robiť.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Upraviť príspevky",
                 "edit_users_label": "Upraviť používateľa",
                 "edit_users_credentials_label": "Upraviť prihlasovacie údaje používateľa",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Niekto premenuje diskusiu ktorú som začal",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

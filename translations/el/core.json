@@ -119,6 +119,8 @@
                 "edit_css_button": "Επεξεργασία προσαρμοσμένου CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Γράψε εδώ τον δεκαεξαδικό κωδικό χρώματος.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Διαγραφή Cache",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Το forum σου με μια ματιά.",
                 "info_button": "",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Οριστική διαγραφή δημοσιεύσεων",
                 "delete_posts_label": "Διαγραφή δημοσιεύσεων",
                 "description": "Διαμόρφωσε ποιος μπορεί να δει και να κάνει τι.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Επεξεργασία δημοσιεύσεων",
                 "edit_users_label": "Επεξεργασία χρηστών",
                 "edit_users_credentials_label": "Επεξεργασία των διαπιστευτηρίων χρήστη",
@@ -758,6 +775,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Ιστοσελίδα",
                 "notify_discussion_renamed_label": "Κάποιος μετονόμασε μια συζήτηση που ξεκίνησα",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -895,6 +913,9 @@
                         "hint": ""
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": ""

@@ -15,6 +15,9 @@
                 "only_icons_label": "",
                 "update_email_from_provider_label": "",
                 "update_email_from_provider_help": "",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "",
                 "disable_avatars_help": "",
                 "providers": {
@@ -60,6 +63,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
