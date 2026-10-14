@@ -282,7 +282,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.12/locale/en.yml',
 	],
 	'ernestdefoe-topic-map' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.2/locale/en.yml',
 	],
 	'ernestdefoe-tributary' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.0.8/locale/en.yml',
