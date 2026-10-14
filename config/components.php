@@ -929,6 +929,9 @@ return [
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
+	'prm-analytics' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-analytics/v2.0.0/locale/en.yml',
+	],
 	'prm-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
@@ -1005,7 +1008,7 @@ return [
 		],
 	],
 	'ramon-avocado' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.2.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.2.7/locale/en.yml',
 		'__builtInLanguages' => [
 			'pt_BR',
 		],
