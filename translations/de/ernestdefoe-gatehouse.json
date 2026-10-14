@@ -38,7 +38,7 @@
             "question_help": "Dies wird im Registrierungsformular angezeigt, und du findest die Antwort oben in der Warteschlange, in deiner Benachrichtigung und in deiner E-Mail. Frage nach allem, was dir bei der Entscheidung hilft: warum die Person beitreten möchte, ihre Matrikelnummer, wer sie eingeladen hat. Lass das Feld leer, wenn du nichts fragen möchtest.",
             "question_placeholder": "Warum möchtest du beitreten?",
             "question_required": "Bewerber müssen dies beantworten",
-            "question_required_help": "",
+            "question_required_help": "Nur Adressen, die auf eine Genehmigung warten, müssen diese Frage beantworten. Vertrauenswürdige Adressen erhalten direkten Zugang und können das Feld leer lassen.",
             "messages_heading": "E-Mails",
             "held_message": "Zusatztext für Bewerber, die noch auf eine Antwort warten",
             "held_message_help": "Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.",
@@ -73,7 +73,7 @@
                 "subject": "{applicant} wartet auf den Beitritt zu {forum}",
                 "body": "{applicant} ({email}) hat sich registriert und wartet auf die Freigabe.",
                 "answer_to": "Ihre Antwort auf „{question}“:",
-                "answer": "",
+                "answer": "Ihre Antwort:",
                 "button": "Genehmigen oder ablehnen"
             }
         }
