@@ -932,6 +932,12 @@ return [
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
+	'prm-forum-activity' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v2.2.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'prm-analytics' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-analytics/v2.0.0/locale/en.yml',
 	],
