@@ -1768,7 +1768,6 @@ return [
 		],
 	],
 	'tryhackx-homepage-blocks' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/1.0.3/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
