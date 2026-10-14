@@ -1,0 +1,46 @@
+{
+    "prm-notification": {
+        "admin": {
+            "permissions": {
+                "manage_label": "Manage site notification campaigns"
+            },
+            "settings": {
+                "new_user_hours_label": "New-user window (hours)",
+                "new_user_hours_help": "Users who joined within this many hours count as \"new registrations\"."
+            },
+            "page": {
+                "title": "Notification campaigns",
+                "create": "New campaign",
+                "empty": "No campaigns yet.",
+                "title_field": "Title",
+                "body_field": "Body",
+                "link_url": "Link URL (optional)",
+                "link_label": "Link label (optional)",
+                "audiences": "Audiences",
+                "audience_new_users": "New registrations",
+                "audience_new_users_help": "Users who registered recently (within the new-user window).",
+                "audience_members": "All members (ad package)",
+                "audience_members_help": "Logged-in members. Returning visitors will see newly published campaigns when they come back.",
+                "audience_guests": "Guests / unregistered visitors (ad plus)",
+                "audience_guests_help": "Every visitor who is not logged in, however they arrived (search, link or typed URL). Guests also get a notifications bell.",
+                "is_active": "Active",
+                "starts_at": "Starts at (optional)",
+                "ends_at": "Ends at (optional)",
+                "save": "Save campaign",
+                "delete": "Delete",
+                "edit": "Edit",
+                "cancel": "Cancel",
+                "status_active": "Active",
+                "status_inactive": "Inactive"
+            }
+        },
+        "forum": {
+            "group_label": "Site announcements",
+            "bell_tooltip": "Site notifications",
+            "empty": "No notifications",
+            "dismiss": "Dismiss",
+            "open_link": "Open",
+            "unread": "{count} new"
+        }
+    }
+}
