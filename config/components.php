@@ -146,6 +146,9 @@ return [
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.2/resources/locale/en.yml',
 	],
+	'ernestdefoe-backdrop' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
+	],
 	'ernestdefoe-cadence' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.1.2/locale/en.yml',
 	],
