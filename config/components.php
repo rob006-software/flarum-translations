@@ -947,6 +947,12 @@ return [
 			'tr',
 		],
 	],
+	'prm-moderation' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/v2.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => [
