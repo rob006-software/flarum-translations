@@ -1,0 +1,62 @@
+{
+    "prm-forum-activity": {
+        "admin": {
+            "permissions": {
+                "feature_label": "Feature discussions"
+            },
+            "settings": {
+                "default_tab_label": "Default activity tab",
+                "default_tab_help": "Which tab opens first for visitors who have not chosen one yet. On tag pages the tag's own Default Sort (flarum/tags) wins.",
+                "default_tab_latest": "New posts",
+                "default_tab_featured": "Featured",
+                "default_tab_newest": "New topics",
+                "default_tab_top": "Popular",
+                "tab_style_label": "Tab layout",
+                "tab_style_help": "Show the sort options as buttons side by side, or as a single dropdown button.",
+                "tab_style_tabs": "Buttons side by side",
+                "tab_style_dropdown": "Single dropdown button",
+                "tabs_label": "Visible tabs",
+                "tabs_help": "Turn sort tabs on or off. Sorts added by other extensions (e.g. Trending, Upvotes) appear here automatically.",
+                "color_mode_label": "Accent color source",
+                "color_mode_help": "Controls tab and section header colors in Forum Activity.",
+                "color_mode_default": "Built-in green",
+                "color_mode_theme": "Forum theme primary color",
+                "color_mode_tag": "Current tag color (falls back to theme)",
+                "color_mode_manual": "Manual color below",
+                "accent_color_label": "Manual accent color",
+                "accent_color_help": "Used when accent source is Manual. Example",
+                "color_rows_label": "Tint rows by tag color",
+                "color_rows_help": "Adds a soft background and left border using each discussion's primary tag color.",
+                "sticky_highlight_label": "Highlight sticky / Stickiest rows",
+                "sticky_highlight_help": "Shows colored left borders for sticky, tag-sticky and super-sticky discussions when huseyinfiliz/stickiest is installed (still safe without it)."
+            }
+        },
+        "forum": {
+            "title": "Forum activity",
+            "tabs": {
+                "latest": "New posts",
+                "featured": "Featured",
+                "newest": "New topics",
+                "top": "Popular"
+            },
+            "columns": {
+                "topic": "Topic",
+                "forum": "Forum",
+                "posts": "Replies",
+                "last_poster": "Last poster"
+            },
+            "sticky_section": "Sticky topics",
+            "normal_section": "Normal topics",
+            "sticky_label": "Sticky topic",
+            "empty": "No discussions to show.",
+            "load_more": "Load more",
+            "discussion_controls": {
+                "feature": "Feature",
+                "unfeature": "Unfeature"
+            },
+            "badge": {
+                "featured_tooltip": "Featured discussion"
+            }
+        }
+    }
+}
