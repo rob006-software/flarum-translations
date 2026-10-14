@@ -345,7 +345,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.1/locale/en.yml',
 	],
 	'flarum-approval' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v2.0.1/locale/en.yml',
 	],
 	'flarum-audit' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/audit/v2.0.0/locale/en.yml',
