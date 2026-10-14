@@ -1104,6 +1104,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`peopleinside-antiflood`](https://weblate.rob006.net/projects/flarum2/peopleinside-antiflood) | [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood) |
 | [`pianotell-flamoji`](https://weblate.rob006.net/projects/flarum2/pianotell-flamoji) | [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) |
 | [`prm-analytics`](https://weblate.rob006.net/projects/flarum2/prm-analytics) | [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) |
+| [`prm-forum-activity`](https://weblate.rob006.net/projects/flarum2/prm-forum-activity) | [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) |
+| [`prm-moderation`](https://weblate.rob006.net/projects/flarum2/prm-moderation) | [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) |
 | [`prm-notification`](https://weblate.rob006.net/projects/flarum2/prm-notification) | [`prm/notification`](https://github.com/smmpanelscripts1/prm-notification) |
 | [`proxytracer-proxytracer`](https://weblate.rob006.net/projects/flarum2/proxytracer-proxytracer) | [`proxytracer/flarum-proxytracer`](https://github.com/ProxyTracer/flarum-proxytracer) |
 | [`quasimo-carousel-grids`](https://weblate.rob006.net/projects/flarum2/quasimo-carousel-grids) | [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids) |
