@@ -396,7 +396,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v2.0.1/locale/en.yml',
 	],
 	'flarum-sticky' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v2.0.1/locale/en.yml',
 	],
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v2.0.0/locale/en.yml',
