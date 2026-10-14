@@ -498,7 +498,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-stats-widget/2.0.0-beta.2/locale/en.yml',
 	],
 	'fof-forum-widgets-core' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-widgets-core/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-widgets-core/2.0.2/locale/en.yml',
 	],
 	'fof-frontpage' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/2.0.0-beta.1/resources/locale/en.yml',
