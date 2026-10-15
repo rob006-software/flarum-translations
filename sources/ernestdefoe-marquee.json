@@ -1,0 +1,138 @@
+{
+    "ernestdefoe-marquee": {
+        "admin": {
+            "tmdb_token_label": "TMDB API read access token",
+            "tmdb_token_help": "Movies and TV shows come from The Movie Database. <a>Get a token from your TMDB API settings</a> and paste the long API Read Access Token here. It stays on the server.",
+            "igdb_label": "Twitch app credentials for IGDB",
+            "igdb_help": "Games come from IGDB, which Twitch runs. <a>Register an app in the Twitch developer console</a> (client type Confidential), make a client secret, and paste both here. The secret stays on the server. IGDB is free for non-commercial forums; a commercial forum needs a partnership with IGDB.",
+            "igdb_client_id": "Client ID",
+            "igdb_client_secret": "Client secret",
+            "language_label": "Data language",
+            "language_help": "The language TMDB returns titles and synopses in, as a language and region code such as en-US, fr-FR or pt-BR.",
+            "tags_label": "Which tags use which source",
+            "tags_help": "When someone starts a discussion under one of these tags, the title field searches that source and the discussion shows the title's card in its header. Every other tag keeps the normal composer.",
+            "source_none": "Normal discussion",
+            "source_movie": "Movies (TMDB)",
+            "source_tv": "TV shows (TMDB)",
+            "source_game": "Games (IGDB)",
+            "source_music": "Music albums (Deezer, no key needed)"
+        },
+        "api": {
+            "link_invalid": "That title could not be linked. Pick it again from the list.",
+            "link_unavailable": "The title source could not be reached, so the title was not linked. Try again in a moment."
+        },
+        "forum": {
+            "kind": {
+                "movie": "Movie",
+                "tv": "TV",
+                "game": "Game",
+                "music": "Album"
+            },
+            "picker": {
+                "placeholder_movie": "Search for a movie by title",
+                "placeholder_tv": "Search for a TV show by title",
+                "placeholder_game": "Search for a game by title",
+                "placeholder_music": "Search for an album or artist",
+                "results_from": "Results from {source}",
+                "escape_hint": "Esc keeps a plain title",
+                "unavailable": "{source} is not answering right now. You can still post with a plain title."
+            },
+            "composer": {
+                "linked": "Linked to {title} · {source}",
+                "remove_link": "Remove the link"
+            },
+            "scope": {
+                "season_label": "Season",
+                "episode_label": "Episode",
+                "whole_show": "Whole show",
+                "whole_season": "Whole season",
+                "loading": "Loading episodes…",
+                "season_option": "Season {number} ({year})",
+                "episode_option": "E{number} · {title}"
+            },
+            "title": {
+                "season": "{base} Season {number}",
+                "episode": "{base} S{season}E{episode}: {name}"
+            },
+            "meta": {
+                "runtime_hours": "{hours}h {minutes}m",
+                "runtime_minutes": "{minutes}m",
+                "runtime_hours_only": "{hours}h",
+                "seasons_count": "{count, plural, one {# season} other {# seasons}}",
+                "episodes_count": "{count, plural, one {# episode} other {# episodes}}",
+                "season_episode": "Season {season}, Episode {episode}",
+                "tracks_count": "{count, plural, one {# track} other {# tracks}}",
+                "record_album": "Album",
+                "record_single": "Single",
+                "record_ep": "EP",
+                "record_compile": "Compilation"
+            },
+            "credits": {
+                "director": "Director",
+                "writer": "Screenplay",
+                "based_on": "Based on",
+                "creator": "Created by",
+                "network": "Network",
+                "status": "Status",
+                "directed_by": "Directed by",
+                "written_by": "Written by",
+                "developer": "Developer",
+                "publisher": "Publisher",
+                "series": "Series",
+                "artist": "Artist",
+                "label": "Label"
+            },
+            "hero": {
+                "user_score": "TMDB user score",
+                "season_score": "TMDB season score",
+                "episode_score": "TMDB episode score",
+                "cast": "Cast",
+                "guest_stars": "Guest stars",
+                "seasons": "Seasons",
+                "season_failed": "This season could not be loaded right now.",
+                "view_on": "View on {source}",
+                "trailer": "Trailer",
+                "episode_details": "Episode details",
+                "discuss_show": "Discuss the whole show",
+                "critic_rating": "Critic rating",
+                "member_rating": "IGDB member rating",
+                "time_to_beat": "How long to beat",
+                "ttb_hastily": "Main story",
+                "ttb_normally": "Main + extras",
+                "ttb_completely": "Completionist",
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "screenshots": "Screenshots",
+                "tracklist": "Tracklist",
+                "explicit": "Explicit",
+                "fans": "{count} fans on Deezer",
+                "listen_on": "Listen on {source}",
+                "attribution_tmdb": "Data and images from TMDB. Not endorsed or certified by TMDB.",
+                "attribution_igdb": "Game data from IGDB.com",
+                "attribution_deezer": "Album data and covers from Deezer"
+            },
+            "modal": {
+                "title": "S{season} · E{episode}  {name}",
+                "badge": "{title} · Season {season}, Episode {episode}",
+                "score": "{score}% on TMDB",
+                "previous": "Previous",
+                "next": "Next",
+                "discuss_episode": "Discuss this episode"
+            },
+            "link": {
+                "change": "Change linked title",
+                "add": "Link a title",
+                "title": "Linked title",
+                "none": "This discussion isn't linked to a title.",
+                "remove": "Remove",
+                "search_label": "Find a different title",
+                "rename": "Rename the discussion to {title}",
+                "save": "Save",
+                "saved": "The linked title was updated."
+            },
+            "list": {
+                "season": "Season {number}",
+                "episode": "S{season}E{episode}"
+            }
+        }
+    }
+}
