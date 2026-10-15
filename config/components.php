@@ -931,6 +931,15 @@ return [
 	'glowingblue-author-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/1.0.1/resources/locale/en.yml',
 	],
+	'glowingblue-date-filters' => [
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/1.1.1/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'de',
+			'es',
+			'fr',
+			'it',
+		],
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/glowingblue-localizd.yml',
 	],
