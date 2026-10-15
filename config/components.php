@@ -179,7 +179,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.8/locale/en.yml',
 	],
 	'ernestdefoe-federation' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.1.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-folio' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
