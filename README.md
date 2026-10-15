@@ -976,6 +976,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-chronicle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-chronicle) | [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) |
 | [`ernestdefoe-connect`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-connect) | [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) |
 | [`ernestdefoe-cross-references`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cross-references) | [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) |
+| [`ernestdefoe-depot`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-depot) | [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) |
 | [`ernestdefoe-digest-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-digest-mail) | [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) |
 | [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
