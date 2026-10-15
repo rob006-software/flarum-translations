@@ -521,7 +521,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/2.0.1/resources/locale/en.yml',
 	],
 	'fof-github-sponsors' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/2.0.0/resources/locale/en.yml',
 	],
 	'fof-horizon' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/horizon/v2.0.0/resources/locale/en.yml',
