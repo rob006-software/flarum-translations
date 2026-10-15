@@ -572,7 +572,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/online-users-widget/2.0.0/locale/en.yml',
 	],
 	'fof-open-collective' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/2.0.1/resources/locale/en.yml',
 	],
 	'fof-pages' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/2.0.0-beta.2/resources/locale/en.yml',
