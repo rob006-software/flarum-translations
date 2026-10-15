@@ -212,7 +212,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-importer' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.3.5/resources/locale/en.yml',
 	],
 	'ernestdefoe-janitor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.2/resources/locale/en.yml',
