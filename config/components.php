@@ -938,9 +938,6 @@ return [
 			'tr',
 		],
 	],
-	'prm-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-analytics/v2.0.0/locale/en.yml',
-	],
 	'prm-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
