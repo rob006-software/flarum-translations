@@ -18,7 +18,7 @@
             "source_music": "Musikalben (Deezer, kein Schlüssel nötig)"
         },
         "api": {
-            "link_invalid": "",
+            "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
             "link_unavailable": ""
         },
         "forum": {
@@ -29,17 +29,17 @@
                 "music": "Album"
             },
             "picker": {
-                "placeholder_movie": "",
-                "placeholder_tv": "",
-                "placeholder_game": "",
-                "placeholder_music": "",
-                "results_from": "",
+                "placeholder_movie": "Film nach Titel suchen",
+                "placeholder_tv": "Serie nach Titel suchen",
+                "placeholder_game": "Spiel nach Titel suchen",
+                "placeholder_music": "Album oder Künstler suchen",
+                "results_from": "Ergebnisse von {source}",
                 "escape_hint": "",
                 "unavailable": ""
             },
             "composer": {
-                "linked": "",
-                "remove_link": ""
+                "linked": "Verknüpft mit {title} · {source}",
+                "remove_link": "Verknüpfung aufheben"
             },
             "scope": {
                 "season_label": "Staffel",
@@ -65,20 +65,20 @@
                 "record_album": "Album",
                 "record_single": "Single",
                 "record_ep": "EP",
-                "record_compile": ""
+                "record_compile": "Compilation"
             },
             "credits": {
                 "director": "Regisseur",
-                "writer": "",
-                "based_on": "",
-                "creator": "",
-                "network": "",
+                "writer": "Drehbuch",
+                "based_on": "Basierend auf",
+                "creator": "Urheber",
+                "network": "Sender",
                 "status": "Status",
                 "directed_by": "Regie",
                 "written_by": "Drehbuch",
                 "developer": "Entwickler",
                 "publisher": "Publisher",
-                "series": "",
+                "series": "Serie",
                 "artist": "Künstler",
                 "label": "Label"
             },
@@ -86,29 +86,29 @@
                 "user_score": "TMDB-Nutzerwertung",
                 "season_score": "TMDB-Staffelwertung",
                 "episode_score": "TMDB-Folgenwertung",
-                "cast": "Darsteller",
-                "guest_stars": "",
+                "cast": "Besetzung",
+                "guest_stars": "Gastdarsteller",
                 "seasons": "Staffeln",
-                "season_failed": "",
-                "view_on": "",
+                "season_failed": "Diese Staffel konnte gerade nicht geladen werden.",
+                "view_on": "Anzeigen auf {source}",
                 "trailer": "Trailer",
-                "episode_details": "",
-                "discuss_show": "",
+                "episode_details": "Details zur Folge",
+                "discuss_show": "Gesamte Serie diskutieren",
                 "critic_rating": "",
-                "member_rating": "",
+                "member_rating": "IGDB-Benutzerwertung",
                 "time_to_beat": "",
-                "ttb_hastily": "",
-                "ttb_normally": "",
+                "ttb_hastily": "Hauptgeschichte",
+                "ttb_normally": "Hauptgeschichte + Extras",
                 "ttb_completely": "",
                 "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
-                "screenshots": "",
-                "tracklist": "",
+                "screenshots": "Screenshots",
+                "tracklist": "Trackliste",
                 "explicit": "",
-                "fans": "",
-                "listen_on": "",
-                "attribution_tmdb": "",
-                "attribution_igdb": "",
-                "attribution_deezer": ""
+                "fans": "{count} Fans auf Deezer",
+                "listen_on": "Anhören auf {source}",
+                "attribution_tmdb": "Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.",
+                "attribution_igdb": "Spieldaten von IGDB.com",
+                "attribution_deezer": "Albumdaten und Coverbilder von Deezer"
             },
             "modal": {
                 "title": "S{season} · F{episode}  {name}",
@@ -119,15 +119,15 @@
                 "discuss_episode": "Diese Folge diskutieren"
             },
             "link": {
-                "change": "",
-                "add": "",
-                "title": "",
-                "none": "",
+                "change": "Verknüpften Titel ändern",
+                "add": "Titel verknüpfen",
+                "title": "Verknüpfter Titel",
+                "none": "Diese Diskussion ist nicht mit einem Titel verknüpft.",
                 "remove": "Entfernen",
-                "search_label": "",
-                "rename": "",
+                "search_label": "Anderen Titel finden",
+                "rename": "Diese Diskussion in {title} umbenennen",
                 "save": "Speichern",
-                "saved": ""
+                "saved": "Der verknüpfte Titel wurde aktualisiert."
             },
             "list": {
                 "season": "Staffel {number}",
