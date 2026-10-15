@@ -945,6 +945,9 @@ return [
 	],
 	'prm-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/v2.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
 	],
 	'prm-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/v2.0.0/locale/en.yml',
