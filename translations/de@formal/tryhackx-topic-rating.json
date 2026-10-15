@@ -64,12 +64,12 @@
                 "single_clickable_help": "Wenn aktiviert, wird durch Klicken auf den einzelnen Stern (und die dazugehörige Zahl) die Bewertungsliste in einem Modalfenster geöffnet. Ist diese Option deaktiviert, dient der Stern lediglich zur Anzeige – und bei Themen, die noch keine Bewertung haben, wird gar nichts angezeigt.",
                 "single_modal_rate_label": "Bewertung innerhalb des Modals erlauben",
                 "single_modal_rate_help": "Zeigt oben im Bewertungs-Modalfenster ein interaktives Bewertungsfeld an, damit Nutzer eine Bewertung abgeben (oder ihre Bewertung ändern) können, ohne die Liste zu verlassen.",
-                "author_mode_heading": "",
-                "author_mode_label": "",
+                "author_mode_heading": "Bewertung des Autors selbst",
+                "author_mode_label": "Wie die Bewertung einer eigenen Diskussion durch den Autor behandelt wird",
                 "author_mode_help": "",
-                "author_mode_default": "",
-                "author_mode_exclude": "",
-                "author_mode_separate": "",
+                "author_mode_default": "Autorbewertungen wie von jedem (Standard)",
+                "author_mode_exclude": "Autoren dürfen eigene Diskussionen nicht bewerten",
+                "author_mode_separate": "Autorenbewertung separat anzeigen",
                 "author_mode_author_only": "",
                 "author_mode_hint_default": "",
                 "author_mode_hint_exclude": "",
@@ -77,8 +77,8 @@
                 "author_mode_hint_author_only": "",
                 "author_mode_tags_label": "",
                 "author_mode_tags_help": "",
-                "author_mode_tags_none": "",
-                "author_mode_tags_some": ""
+                "author_mode_tags_none": "Kein Tag ausgewählt - Wird auf jede Diskussion angewendet.",
+                "author_mode_tags_some": "Gilt für Diskussionen, die mindestens eines der {count} ausgewählten Tags enthalten."
             },
             "permissions": {
                 "rate_label": "Diskussionen bewerten",

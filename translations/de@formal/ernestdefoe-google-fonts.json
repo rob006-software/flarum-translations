@@ -20,25 +20,25 @@
             "uploading": "Wird hochgeladen…",
             "only_woff2": "Es werden nur .woff2-Dateien unterstützt. Konvertiere deine Schriftart zunächst in das woff2-Format.",
             "upload_error": "Hochladen fehlgeschlagen. Bitte versuche es erneut.",
-            "weight_100": "",
-            "weight_200": "",
-            "weight_300": "",
-            "weight_400": "",
-            "weight_500": "",
-            "weight_600": "",
-            "weight_700": "",
-            "weight_800": "",
-            "weight_900": ""
+            "weight_100": "Dünn",
+            "weight_200": "Extraleicht",
+            "weight_300": "Leicht",
+            "weight_400": "Normal",
+            "weight_500": "Mittel",
+            "weight_600": "Halbfett",
+            "weight_700": "Fett",
+            "weight_800": "Extrafett",
+            "weight_900": "Schwarz"
         },
         "api": {
-            "invalid_slot": "",
-            "invalid_weight": "",
-            "no_file": "",
-            "size": "",
-            "woff2_only": "",
-            "not_woff2": "",
-            "upload_failed": "",
-            "delete_failed": ""
+            "invalid_slot": "Ungültiger Schriftart-Slot.",
+            "invalid_weight": "Ungültige Schriftstärke.",
+            "no_file": "Keine Datei hochgeladen.",
+            "size": "Schriftart muss zwischen 1 Byte und {max} Bytes liegen.",
+            "woff2_only": "Nur .woff2 Schriftart-Dateien sind erlaubt.",
+            "not_woff2": "Datei ist keine gültige WOFF2-Schriftart.",
+            "upload_failed": "Hochladen fehlgeschlagen.",
+            "delete_failed": "Löschen fehlgeschlagen."
         }
     }
 }
