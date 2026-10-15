@@ -1075,6 +1075,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`import-ai-webhook-notification`](https://weblate.rob006.net/projects/flarum2/import-ai-webhook-notification) | [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) |
 | [`irmmr-rtl`](https://weblate.rob006.net/projects/flarum2/irmmr-rtl) | [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum2/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
+| [`jslirola-registration-policy`](https://weblate.rob006.net/projects/flarum2/jslirola-registration-policy) | [`jslirola/flarum-registration-policy`](https://github.com/jslirola/flarum-registration-policy) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum2/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
 | [`kuma-develop-level`](https://weblate.rob006.net/projects/flarum2/kuma-develop-level) | [`kuma-develop/level`](https://github.com/kuma-develop/Level) |
 | [`lcoy-cipher`](https://weblate.rob006.net/projects/flarum2/lcoy-cipher) | [`lcoy/cipher`](https://github.com/Lcoy2004/Flarum-cipher) |
