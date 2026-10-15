@@ -68,6 +68,30 @@
                 "was_removed": "Removed",
                 "was_ignored": "Dismissed"
             }
+        },
+        "api": {
+            "answers_off": "Answers are switched off on this forum.",
+            "ask_first": "Ask a question first.",
+            "unknown_resolution": "Unknown resolution.",
+            "relay": {
+                "not_connected": "Steward is not connected — no site key.",
+                "exhausted": "Allowance used up for this period.",
+                "key_rejected": "This site key was rejected. It may have been revoked or bound to another domain.",
+                "refused": "The AI service refused the request.",
+                "unavailable": "The AI service is unavailable.",
+                "unreachable": "The AI service could not be reached.",
+                "unreadable": "The AI service returned something unreadable."
+            },
+            "reasons": {
+                "new_account_links": "{count, plural, one {new account posting # link} other {new account posting # links}}",
+                "bare_links": "links with almost no text around them",
+                "capitals": "almost entirely capitals",
+                "repetition": "the same phrase repeated over and over",
+                "contact_details": "new account sharing off-site contact details",
+                "almost_no_content": "first posts, almost no content",
+                "unscreened_allowance_used": "allowance used up — not screened",
+                "unscreened_unavailable": "screening unavailable — not screened"
+            }
         }
     }
 }

@@ -49,7 +49,76 @@
                 "error_unknown_source": "Không có mẫu địa chỉ nào được biết cho nền tảng đó.",
                 "error_failed": "Không lưu được. Vui lòng thử lại."
             },
+            "count": {
+                "users": "",
+                "categories": "",
+                "topics": "",
+                "posts": "",
+                "skipped": ""
+            },
             "starting": "Đang bắt đầu…"
+        },
+        "api": {
+            "unknown_source": "",
+            "missing_run_id": "",
+            "run_not_found": "",
+            "starting": "",
+            "working": "",
+            "complete": "",
+            "failed": "",
+            "summary": "",
+            "summary_with_tags": "",
+            "sqlsrv_missing": "",
+            "dump_unreadable": "",
+            "scratch_failed": "",
+            "explain": {
+                "timed_out": "",
+                "no_answer": "",
+                "host_refused": "",
+                "bad_login": ""
+            },
+            "not_source": {
+                "phpbb": "",
+                "vbulletin": "",
+                "vbulletin5": "",
+                "mybb": "",
+                "smf": "",
+                "vanilla": "",
+                "invision": "",
+                "xenforo": "",
+                "convoro": "",
+                "convoro_columns": "",
+                "discourse": "",
+                "nodebb": "",
+                "webwiz": "",
+                "webwiz_columns": ""
+            },
+            "nodebb": {
+                "no_extension": "",
+                "no_connect": ""
+            },
+            "upload": {
+                "no_file": "",
+                "too_large": "",
+                "unreadable": "",
+                "wrong_source": "",
+                "skipped_batches": "",
+                "empty": "",
+                "binary": ""
+            },
+            "phase": {
+                "finishing": "",
+                "boards": "",
+                "categories": "",
+                "channels": "",
+                "comments": "",
+                "discussions": "",
+                "forums": "",
+                "members": "",
+                "posts": "",
+                "topics": "",
+                "member_counts": ""
+            }
         }
     }
 }

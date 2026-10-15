@@ -19,7 +19,26 @@
             "remove_weight": "Remove this weight",
             "uploading": "Uploading…",
             "only_woff2": "Only .woff2 files are supported. Convert your font to woff2 first.",
-            "upload_error": "Upload failed. Please try again."
+            "upload_error": "Upload failed. Please try again.",
+            "weight_100": "Thin",
+            "weight_200": "Extra Light",
+            "weight_300": "Light",
+            "weight_400": "Regular",
+            "weight_500": "Medium",
+            "weight_600": "Semi Bold",
+            "weight_700": "Bold",
+            "weight_800": "Extra Bold",
+            "weight_900": "Black"
+        },
+        "api": {
+            "invalid_slot": "Invalid font slot.",
+            "invalid_weight": "Invalid font weight.",
+            "no_file": "No file uploaded.",
+            "size": "Font must be 1 byte to {max} bytes.",
+            "woff2_only": "Only .woff2 font files are allowed.",
+            "not_woff2": "File is not a valid WOFF2 font.",
+            "upload_failed": "Upload failed.",
+            "delete_failed": "Delete failed."
         }
     }
 }

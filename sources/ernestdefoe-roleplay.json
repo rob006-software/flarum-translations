@@ -71,11 +71,33 @@
             "spawn_foe_card": "Spawn foe from card…",
             "crit_toast": "Critical hit with {card}!",
             "outcome_victory": "Victory!",
-            "outcome_defeat": "Defeat…"
+            "outcome_defeat": "Defeat…",
+            "hp_value": "{hp}/{max} HP",
+            "request_failed": "Request failed ({status})"
         },
         "admin": {
             "tags_label": "Role-play tags",
+            "tags_placeholder": "role-play, in-character",
             "tags_help": "Comma-separated tag slugs where role-play is enabled — the character picker, the deck and combat encounters only appear in discussions with one of these tags. Leave blank to allow role-play in every discussion."
+        },
+        "api": {
+            "combatant_name_required": "A combatant name is required.",
+            "no_combatants": "Add at least one combatant before starting.",
+            "not_active": "The encounter is not active.",
+            "unknown_action": "Unknown encounter action.",
+            "join_too_late": "You can only join before the encounter starts.",
+            "downed": "A downed combatant cannot act.",
+            "card_name_required": "A card name is required.",
+            "bad_dice": "Not a valid dice expression (e.g. \"2d6+1\").",
+            "character_name_required": "A character name is required.",
+            "summary": {
+                "untitled": "The encounter",
+                "ended": "⚔️ {title} has ended.",
+                "ended_after": "⚔️ {title} has ended after {rounds, plural, one {# round} other {# rounds}}.",
+                "standing": "Still standing: {names}",
+                "defeated": "Defeated: {names}",
+                "hp": "{name} ({hp}/{max} HP)"
+            }
         }
     }
 }
