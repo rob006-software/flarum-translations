@@ -1,7 +1,7 @@
 {
     "prm-analytics": {
         "admin": {
-            "title": "",
+            "title": "Analyse",
             "subtitle": "Echtzeit-Forumanalyse zu Gesundheit, Wachstum und Arbeitsbelastung des Teams",
             "refresh": "Aktualisieren",
             "loading": "Analysedaten werden geladen…",
@@ -20,22 +20,22 @@
                 "reports": "Meldungen",
                 "tickets": "Tickets",
                 "warnings": "Warnungen",
-                "trade": "",
-                "pending_reports": "",
+                "trade": "Handel",
+                "pending_reports": "Ausstehend",
                 "open_tickets": "Offene Tickets",
                 "vs_prev": "vs vorher",
                 "now": "jetzt"
             },
             "charts": {
                 "growth": "Wachstum",
-                "engagement": "",
+                "engagement": "Engagement",
                 "moderation": "Moderationsbelastung",
-                "trade": "",
+                "trade": "Umfang des Handelsfeedbacks",
                 "reports_status": "Meldungen nach Status",
                 "reports_reason": "Meldungen nach Grund",
                 "tickets_status": "Tickets nach Status",
                 "tickets_category": "Tickets nach Kategorie",
-                "trade_mix": "",
+                "trade_mix": "Mix der Handelsratings",
                 "top_tags": "Beliebteste Tags",
                 "activity": "Aktivitäts-Mix"
             },
@@ -51,9 +51,9 @@
             },
             "empty": "Keine Daten in diesem Zeitraum",
             "soft": {
-                "moderation_off": "",
-                "trade_off": "",
-                "likes_off": ""
+                "moderation_off": "Moderationserweiterung nicht erkannt – Mitarbeiterdiagramme ausgeblendet.",
+                "trade_off": "Erweiterung „Trade Feedback“ nicht erkannt – Handelsdiagramme ausgeblendet.",
+                "likes_off": "Likes-Tabelle nicht gefunden."
             }
         }
     }
