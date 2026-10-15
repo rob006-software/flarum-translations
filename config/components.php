@@ -838,6 +838,12 @@ return [
 			'es',
 		],
 	],
+	'jslirola-registration-policy' => [
+		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-registration-policy/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'es',
+		],
+	],
 	'justoverclock-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/justoverclock-related-discussions.yml',
 	],
