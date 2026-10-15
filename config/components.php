@@ -445,6 +445,9 @@ return [
 	'fof-bookmarks' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/2.0.0-rc.3/locale/en.yml',
 	],
+	'fof-brevo-mail' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/brevo-mail/2.0.0/locale/en.yml',
+	],
 	'fof-byobu' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/2.0.0-rc.1/resources/locale/en.yml',
 	],
