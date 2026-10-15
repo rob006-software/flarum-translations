@@ -851,6 +851,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-best-answer`](https://weblate.rob006.net/projects/flarum2/fof-best-answer) | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) |
 | [`fof-blog`](https://weblate.rob006.net/projects/flarum2/fof-blog) | [`fof/blog`](https://github.com/FriendsOfFlarum/blog) |
 | [`fof-bookmarks`](https://weblate.rob006.net/projects/flarum2/fof-bookmarks) | [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) |
+| [`fof-brevo-mail`](https://weblate.rob006.net/projects/flarum2/fof-brevo-mail) | [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) |
 | [`fof-byobu`](https://weblate.rob006.net/projects/flarum2/fof-byobu) | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) |
 | [`fof-categories`](https://weblate.rob006.net/projects/flarum2/fof-categories) | [`fof/categories`](https://github.com/FriendsOfFlarum/categories) |
 | [`fof-checklist`](https://weblate.rob006.net/projects/flarum2/fof-checklist) | [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) |
@@ -1046,6 +1047,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`forumfortress-flarum`](https://weblate.rob006.net/projects/flarum2/forumfortress-flarum) | [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) |
 | [`gitzaai-cnsearch`](https://weblate.rob006.net/projects/flarum2/gitzaai-cnsearch) | [`gitzaai/cnsearch`](https://github.com/gitzaai/cnsearch) |
 | [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum2/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
+| [`glowingblue-date-filters`](https://weblate.rob006.net/projects/flarum2/glowingblue-date-filters) | [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`huoxin-filter-rule-manager`](https://weblate.rob006.net/projects/flarum2/huoxin-filter-rule-manager) | [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) |
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
