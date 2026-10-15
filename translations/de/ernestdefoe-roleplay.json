@@ -81,12 +81,12 @@
             "tags_help": "Durch Kommas getrennte Tag-Slugs, bei denen Rollenspiel aktiviert ist – die Charakterauswahl, das Deck und Kampfbegegnungen werden nur in Diskussionen mit einem dieser Tags angezeigt. Lasse das Feld leer, um Rollenspiel in jeder Diskussion zuzulassen."
         },
         "api": {
-            "combatant_name_required": "",
-            "no_combatants": "",
+            "combatant_name_required": "Ein Kämpfername ist erforderlich.",
+            "no_combatants": "Füge vor dem Start mindestens einen Kämpfer hinzu.",
             "not_active": "Begegnung ist nicht aktiv.",
             "unknown_action": "Unbekannte Begegnungsaktion.",
-            "join_too_late": "",
-            "downed": "",
+            "join_too_late": "Du kannst nur vor Beginn der Begegnung beitreten.",
+            "downed": "Ein ausgeschalteter Kämpfer kann keine Aktionen ausführen.",
             "card_name_required": "Kartenname erforderlich.",
             "bad_dice": "Ungültiger Würfelausdruck (z. B. „2d6+1“).",
             "character_name_required": "Charaktername erforderlich.",
@@ -94,7 +94,7 @@
                 "untitled": "Die Begegnung",
                 "ended": "⚔️ {title} ist vorbei.",
                 "ended_after": "⚔️ {title} ist nach {rounds, plural, one {einer Runde} other {# Runden}} zu Ende gegangen.",
-                "standing": "",
+                "standing": "Noch dabei: {names}",
                 "defeated": "Besiegt: {names}",
                 "hp": "{name} ({hp}/{max} TP)"
             }
