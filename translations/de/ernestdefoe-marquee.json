@@ -1,14 +1,14 @@
 {
     "ernestdefoe-marquee": {
         "admin": {
-            "tmdb_token_label": "",
+            "tmdb_token_label": "TMDB API-Token für Lesezugriff",
             "tmdb_token_help": "Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.",
             "igdb_label": "Twitch-Anwendungs-Zugangsdaten für IGDB",
             "igdb_help": "Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.",
             "igdb_client_id": "Client-ID",
             "igdb_client_secret": "Client Secret",
-            "language_label": "",
-            "language_help": "",
+            "language_label": "Sprache der Daten",
+            "language_help": "Die Sprache, in der TMDB Titel und Inhaltsangaben ausgibt, wird als Sprach- und Regionscode angegeben, z. B. en-US, de-CH oder pt-BR.",
             "tags_label": "Welche Tags welche Quelle verwenden",
             "tags_help": "Wenn jemand eine Diskussion unter einem dieser Tags startet, durchsucht das Titelfeld diese Quelle, und die Diskussion zeigt die Titelkarte in ihrer Kopfzeile an. Bei allen anderen Tags bleibt der normale Editor erhalten.",
             "source_none": "Normale Diskussionen",
@@ -19,7 +19,7 @@
         },
         "api": {
             "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
-            "link_unavailable": ""
+            "link_unavailable": "Die Quelle des Titels konnte nicht aufgerufen werden, daher wurde der Titel nicht verknüpft. Bitte versuche es in Kürze erneut."
         },
         "forum": {
             "kind": {
