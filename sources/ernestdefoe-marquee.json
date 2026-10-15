@@ -8,7 +8,7 @@
             "igdb_client_id": "Client ID",
             "igdb_client_secret": "Client secret",
             "language_label": "Data language",
-            "language_help": "The language movie and TV titles, synopses and genres come in, as a code such as fr, fr-FR or pt-BR. Leave it blank to follow the forum's default language. IGDB's game data is in English (it has Japanese and Korean names only), and album data is the artists' own. Titles already linked switch language when they next refresh.",
+            "language_help": "The language movie and TV titles, synopses and genres come in, as a code such as fr, fr-FR or pt-BR. Leave it blank to follow the forum's default language. IGDB's game data is in English (it has Japanese and Korean names only), album data is the artists' own, and book titles, covers and publishers follow it where Open Library has an edition in that language (book descriptions are mostly in English). Titles already linked switch language when they next refresh.",
             "language_placeholder": "The forum's language",
             "list_posters_label": "Show posters in the discussion list",
             "list_posters_help": "A small poster next to each linked discussion. Turn it off if another extension, such as FoF Discussion Thumbnail, already shows thumbnails there.",
@@ -18,7 +18,8 @@
             "source_movie": "Movies (TMDB)",
             "source_tv": "TV shows (TMDB)",
             "source_game": "Games (IGDB)",
-            "source_music": "Music albums (Deezer, no key needed)"
+            "source_music": "Music albums (Deezer, no key needed)",
+            "source_book": "Books (Open Library, no key needed)"
         },
         "api": {
             "link_invalid": "That title could not be linked. Pick it again from the list.",
@@ -29,13 +30,15 @@
                 "movie": "Movie",
                 "tv": "TV",
                 "game": "Game",
-                "music": "Album"
+                "music": "Album",
+                "book": "Book"
             },
             "picker": {
                 "placeholder_movie": "Search for a movie by title",
                 "placeholder_tv": "Search for a TV show by title",
                 "placeholder_game": "Search for a game by title",
                 "placeholder_music": "Search for an album or artist",
+                "placeholder_book": "Search for a book by title, author or ISBN",
                 "results_from": "Results from {source}",
                 "escape_hint": "Esc keeps a plain title",
                 "unavailable": "{source} is not answering right now. You can still post with a plain title."
@@ -71,7 +74,10 @@
                 "record_album": "Album",
                 "record_single": "Single",
                 "record_ep": "EP",
-                "record_compile": "Compilation"
+                "record_compile": "Compilation",
+                "first_published": "First published {year}",
+                "pages_count": "{count, plural, one {# page} other {# pages}}",
+                "editions_count": "{count, plural, one {# edition} other {# editions}}"
             },
             "credits": {
                 "director": "Director",
@@ -86,7 +92,10 @@
                 "publisher": "Publisher",
                 "series": "Series",
                 "artist": "Artist",
-                "label": "Label"
+                "label": "Label",
+                "author": "Author",
+                "original_title": "Original title",
+                "isbn": "ISBN"
             },
             "hero": {
                 "user_score": "TMDB user score",
@@ -95,6 +104,7 @@
                 "cast": "Cast",
                 "guest_stars": "Guest stars",
                 "seasons": "Seasons",
+                "this_discussion": "This discussion",
                 "season_failed": "This season could not be loaded right now.",
                 "view_on": "View on {source}",
                 "trailer": "Trailer",
@@ -114,7 +124,11 @@
                 "listen_on": "Listen on {source}",
                 "attribution_tmdb": "Data and images from TMDB. Not endorsed or certified by TMDB.",
                 "attribution_igdb": "Game data from IGDB.com",
-                "attribution_deezer": "Album data and covers from Deezer"
+                "attribution_deezer": "Album data and covers from Deezer",
+                "attribution_open_library": "Book data and covers from Open Library",
+                "authors": "Authors",
+                "book_rating": "{rating} · {count} Open Library ratings",
+                "want_to_read": "{count} want to read it"
             },
             "modal": {
                 "title": "S{season} · E{episode}  {name}",

@@ -15,6 +15,53 @@
                 "group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe wiederkehrende Unterstützer hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie wiederkehrende Unterstützer werden, und nach Ablauf ihres Abonnements in die Gruppe für einmalige Unterstützer verschoben (sofern konfiguriert).",
                 "onetime_group_label": "Einmalige Unterstützergruppe (optional)",
                 "onetime_group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe einmalige Unterstützer hinzugefügt werden sollen. Wenn diese Option nicht festgelegt ist, werden einmalige Unterstützer nicht verwaltet. Wenn ein wiederkehrender Unterstützer sein Abonnement kündigt, wird er in diese Gruppe verschoben."
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

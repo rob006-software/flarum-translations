@@ -13,7 +13,55 @@
                 "login_label": "Identifiant",
                 "login_help": "Saisissez votre nom d'utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s'agit du compte dont les sponsors seront synchronisés.",
                 "group_label": "Groupe à attribuer",
-                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront sponsors et supprimés lorsqu'ils cesseront de l'être."
+                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront sponsors et supprimés lorsqu'ils cesseront de l'être.",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "onetime_group_none": ""
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_sponsors": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_github_sponsors": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "sponsorship_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "githubsponsor": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

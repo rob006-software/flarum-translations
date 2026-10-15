@@ -8,13 +8,60 @@
                 "api_key_label": "Application API Key (deprecated)",
                 "api_key_help": "This authentication method is deprecated. Please consider switching to a Personal Token.",
                 "personal_token_label": "Personal Token",
-                "personal_token_help": "Create a personal token at <a>https://opencollective.com/applications</a>. This token is used to fetch your backer information from Open Collective.",
+                "personal_token_help": "Create a personal token at <a>https://opencollective.com/applications</a> with the \"orders\" and \"email\" scopes, from an account that is an admin of the collective. This token is used to fetch your backer information from Open Collective.",
                 "slug_label": "Collective Slug",
                 "slug_help": "Enter your Open Collective collective slug (the part after opencollective.com/ in your collective URL).",
                 "group_label": "Recurring Backers Group",
                 "group_help": "Select which Flarum user group recurring backers should be added to. Users will be automatically added when they become recurring backers and moved to the one-time group (if configured) when their subscription ends.",
                 "onetime_group_label": "One-Time Backers Group (Optional)",
                 "onetime_group_help": "Select which Flarum user group one-time backers should be added to. If not set, one-time backers will not be managed. When a recurring backer cancels their subscription, they will be moved to this group."
+            },
+            "status": {
+                "heading": "Sync status",
+                "never_run": "The sync has not run yet. It runs hourly through Flarum's scheduler, so check that the scheduler is set up.",
+                "last_success": "Last sync {time}: {backers} backers, {changes} changes.",
+                "last_failure": "Last sync {time} failed: {reason}",
+                "stale": "The last sync was more than two hours ago. Check that Flarum's scheduler is running.",
+                "test_button": "Test connection",
+                "test_success": "Connected to {collective} as {account}. {orders} contributions found, and backer emails are readable.",
+                "test_success_no_orders": "Connected to {collective} as {account}. There are no contributions yet, so email access could not be checked.",
+                "request_failed": "The connection test could not be run.",
+                "reasons": {
+                    "unauthorized": "Open Collective rejected the token. It may have expired or been revoked.",
+                    "forbidden": "The token is missing a required scope. It needs the \"orders\" and \"email\" scopes.",
+                    "emails_hidden": "The token cannot read backer emails. It needs the \"email\" scope.",
+                    "not_found": "Collective not found. Check the collective slug.",
+                    "rate_limited": "Open Collective's rate limit was reached. The next sync will try again.",
+                    "network": "Could not reach Open Collective.",
+                    "configuration": "The token, collective slug or group settings are incomplete.",
+                    "no_backers": "Open Collective returned no backers, so nothing was changed. Run the sync with --force if this is correct.",
+                    "other": "Open Collective returned an unexpected response."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "{username} became a recurring backer on Open Collective. Groups: {old_groups} → {new_groups}",
+                    "recurring_stopped": "{username}'s recurring backing on Open Collective stopped. Groups: {old_groups} → {new_groups}",
+                    "onetime_started": "{username} became a one-time backer on Open Collective. Groups: {old_groups} → {new_groups}",
+                    "backing_ended": "{username} is no longer an Open Collective backer. Groups: {old_groups} → {new_groups}",
+                    "groups_changed": "Open Collective sync changed {username}'s groups from {old_groups} to {new_groups}",
+                    "membership_adopted": "Open Collective sync took over {username}'s membership of {new_groups}"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "Exports the member's Open Collective backer status, when it last changed, and the groups the sync manages for them.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.opencollectivebacker.delete_description",
+                    "delete_description": "Deletes the member's Open Collective backer record, so the sync forgets them without announcing the end of their backing."
+                }
             }
         }
     }

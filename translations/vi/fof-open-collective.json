@@ -15,6 +15,53 @@
                 "group_help": "Chọn nhóm người dùng Flarum mà những người ủng hộ định kỳ sẽ được thêm vào. Người dùng sẽ được tự động thêm khi họ trở thành người ủng hộ định kỳ và được chuyển sang nhóm ủng hộ một lần (nếu đã cấu hình) khi gói đăng ký của họ kết thúc.",
                 "onetime_group_label": "Nhóm người ủng hộ một lần (Tùy chọn)",
                 "onetime_group_help": "Chọn nhóm người dùng Flarum mà những người ủng hộ một lần sẽ được thêm vào. Nếu không đặt, người ủng hộ một lần sẽ không được quản lý. Khi một người ủng hộ định kỳ hủy gói đăng ký, họ sẽ được chuyển sang nhóm này."
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

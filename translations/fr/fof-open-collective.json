@@ -15,6 +15,53 @@
                 "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les contributeurs réguliers doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront des contributeurs réguliers et transférés vers le groupe des contributeurs ponctuels (si configuré) à la fin de leur abonnement.",
                 "onetime_group_label": "Groupe de contributeurs ponctuels (facultatif)",
                 "onetime_group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les contributeurs ponctuels doivent être ajoutés. Si ce paramètre n'est pas défini, les contributeurs ponctuels ne seront pas gérés. Lorsqu'un contributeur récurrent annule son abonnement, il sera déplacé vers ce groupe."
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

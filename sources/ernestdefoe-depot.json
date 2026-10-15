@@ -20,6 +20,8 @@
                 "download": "Download v{version}",
                 "details": "See details",
                 "install": "How to install",
+                "get_it": "Get it",
+                "sites": "sites run it",
                 "downloads": "downloads",
                 "installs": "installs"
             },
@@ -149,6 +151,11 @@
                 "watchers": "{count} watching",
                 "total_downloads": "downloads",
                 "total_installs": "installs",
+                "total_sites": "sites run it",
+                "get_it": "Get it",
+                "buy": "Buy",
+                "owned": "You have a licence for this",
+                "manage_licence": "Manage your licence",
                 "install_with_composer": "Install with Composer",
                 "view_on_github": "View on GitHub",
                 "counted_by_packagist": "Installs counted by Packagist",
@@ -181,6 +188,13 @@
                 "watch": "Watch",
                 "watching": "Watching",
                 "copy": "Copy"
+            },
+            "price": {
+                "per_month": "{price} a month",
+                "per_year": "{price} a year",
+                "per_week": "{price} a week",
+                "per_day": "{price} a day",
+                "from": "From {price}"
             },
             "lightbox": {
                 "previous": "Previous screenshot",

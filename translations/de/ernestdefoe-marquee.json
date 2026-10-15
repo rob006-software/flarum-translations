@@ -18,7 +18,8 @@
             "source_movie": "Filme (TMDB)",
             "source_tv": "Fernsehserien (TMDB)",
             "source_game": "Spiele (IGDB)",
-            "source_music": "Musikalben (Deezer, kein Schlüssel nötig)"
+            "source_music": "Musikalben (Deezer, kein Schlüssel nötig)",
+            "source_book": ""
         },
         "api": {
             "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
@@ -29,13 +30,15 @@
                 "movie": "Film",
                 "tv": "Serie",
                 "game": "Spiel",
-                "music": "Album"
+                "music": "Album",
+                "book": ""
             },
             "picker": {
                 "placeholder_movie": "Film nach Titel suchen",
                 "placeholder_tv": "Serie nach Titel suchen",
                 "placeholder_game": "Spiel nach Titel suchen",
                 "placeholder_music": "Album oder Künstler suchen",
+                "placeholder_book": "",
                 "results_from": "Ergebnisse von {source}",
                 "escape_hint": "„Esc“ behält einen einfachen Titel bei",
                 "unavailable": "{source} antwortet gerade nicht. Du kannst trotzdem mit einem einfachen Titel posten."
@@ -71,7 +74,10 @@
                 "record_album": "Album",
                 "record_single": "Single",
                 "record_ep": "EP",
-                "record_compile": "Compilation"
+                "record_compile": "Compilation",
+                "first_published": "",
+                "pages_count": "",
+                "editions_count": ""
             },
             "credits": {
                 "director": "Regisseur",
@@ -86,7 +92,10 @@
                 "publisher": "Publisher",
                 "series": "Serie",
                 "artist": "Künstler",
-                "label": "Label"
+                "label": "Label",
+                "author": "",
+                "original_title": "",
+                "isbn": ""
             },
             "hero": {
                 "user_score": "TMDB-Nutzerwertung",
@@ -95,6 +104,7 @@
                 "cast": "Besetzung",
                 "guest_stars": "Gastdarsteller",
                 "seasons": "Staffeln",
+                "this_discussion": "",
                 "season_failed": "Diese Staffel konnte gerade nicht geladen werden.",
                 "view_on": "Anzeigen auf {source}",
                 "trailer": "Trailer",
@@ -114,7 +124,11 @@
                 "listen_on": "Anhören auf {source}",
                 "attribution_tmdb": "Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.",
                 "attribution_igdb": "Spieldaten von IGDB.com",
-                "attribution_deezer": "Albumdaten und Coverbilder von Deezer"
+                "attribution_deezer": "Albumdaten und Coverbilder von Deezer",
+                "attribution_open_library": "",
+                "authors": "",
+                "book_rating": "",
+                "want_to_read": ""
             },
             "modal": {
                 "title": "S{season} · F{episode}  {name}",
