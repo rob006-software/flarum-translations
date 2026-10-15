@@ -8,7 +8,7 @@
             "igdb_client_id": "Client-ID",
             "igdb_client_secret": "Client Secret",
             "language_label": "Sprache der Daten",
-            "language_help": "Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), und die Albumdaten stammen von den Künstlern selbst. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.",
+            "language_help": "Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.",
             "language_placeholder": "Die Forumsprache",
             "list_posters_label": "Poster in der Diskussionsliste anzeigen",
             "list_posters_help": "Ein kleines Poster neben jeder verlinkten Diskussion. Deaktiviere diese Funktion, wenn eine andere Erweiterung, wie beispielsweise „FoF Discussion Thumbnail“, dort bereits Miniaturansichten anzeigt.",
@@ -19,7 +19,7 @@
             "source_tv": "Fernsehserien (TMDB)",
             "source_game": "Spiele (IGDB)",
             "source_music": "Musikalben (Deezer, kein Schlüssel nötig)",
-            "source_book": ""
+            "source_book": "Bücher (Open Library, kein Schlüssel nötig)"
         },
         "api": {
             "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
@@ -31,14 +31,14 @@
                 "tv": "Serie",
                 "game": "Spiel",
                 "music": "Album",
-                "book": ""
+                "book": "Buch"
             },
             "picker": {
                 "placeholder_movie": "Film nach Titel suchen",
                 "placeholder_tv": "Serie nach Titel suchen",
                 "placeholder_game": "Spiel nach Titel suchen",
                 "placeholder_music": "Album oder Künstler suchen",
-                "placeholder_book": "",
+                "placeholder_book": "Buch nach Titel, Autor oder ISBN suchen",
                 "results_from": "Ergebnisse von {source}",
                 "escape_hint": "„Esc“ behält einen einfachen Titel bei",
                 "unavailable": "{source} antwortet gerade nicht. Du kannst trotzdem mit einem einfachen Titel posten."
@@ -75,9 +75,9 @@
                 "record_single": "Single",
                 "record_ep": "EP",
                 "record_compile": "Compilation",
-                "first_published": "",
-                "pages_count": "",
-                "editions_count": ""
+                "first_published": "Erstveröffentlichung {year}",
+                "pages_count": "{count, plural, one {# Seite} other {# Seiten}}",
+                "editions_count": "{count, plural, one {# Auflage} other {# Auflagen}}"
             },
             "credits": {
                 "director": "Regisseur",
@@ -93,9 +93,9 @@
                 "series": "Serie",
                 "artist": "Künstler",
                 "label": "Label",
-                "author": "",
-                "original_title": "",
-                "isbn": ""
+                "author": "Autor",
+                "original_title": "Originaltitel",
+                "isbn": "ISBN"
             },
             "hero": {
                 "user_score": "TMDB-Nutzerwertung",
@@ -104,7 +104,7 @@
                 "cast": "Besetzung",
                 "guest_stars": "Gastdarsteller",
                 "seasons": "Staffeln",
-                "this_discussion": "",
+                "this_discussion": "Diese Diskussion",
                 "season_failed": "Diese Staffel konnte gerade nicht geladen werden.",
                 "view_on": "Anzeigen auf {source}",
                 "trailer": "Trailer",
@@ -125,10 +125,10 @@
                 "attribution_tmdb": "Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.",
                 "attribution_igdb": "Spieldaten von IGDB.com",
                 "attribution_deezer": "Albumdaten und Coverbilder von Deezer",
-                "attribution_open_library": "",
-                "authors": "",
-                "book_rating": "",
-                "want_to_read": ""
+                "attribution_open_library": "Buchdaten und Umschlagbilder von Open Library",
+                "authors": "Autoren",
+                "book_rating": "{rating} · {count} Open Library Bewertungen",
+                "want_to_read": "{count} möchten es lesen"
             },
             "modal": {
                 "title": "S{season} · F{episode}  {name}",
