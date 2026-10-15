@@ -143,7 +143,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-aurora' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-backdrop' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
