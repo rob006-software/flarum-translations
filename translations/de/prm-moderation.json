@@ -2,16 +2,16 @@
     "prm-moderation": {
         "admin": {
             "permissions": {
-                "access_label": "",
-                "report_label": "",
-                "ticket_label": ""
+                "access_label": "Auf den Moderationsbereich zugreifen",
+                "report_label": "Benutzer, Beiträge und Diskussionen melden",
+                "ticket_label": "Support-Tickets erstellen"
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "monitor_all_users_label": "",
+                "enabled_label": "Inhalts-Spamfilter aktivieren",
+                "enabled_help": "Neue Beiträge und Diskussionstitel von neuen Konten nach Anzeichen für Spam prüfen.",
+                "monitor_all_users_label": "Alle Benutzer überwachen",
                 "monitor_all_users_help": "",
-                "monitor_post_count_label": "",
+                "monitor_post_count_label": "Die ersten N Beiträge überwachen",
                 "monitor_post_count_help": "",
                 "monitor_hours_old_label": "",
                 "monitor_hours_old_help": "",
