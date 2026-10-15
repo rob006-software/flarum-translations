@@ -1095,6 +1095,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`gbcl-oauth-logto`](https://weblate.rob006.net/projects/flarum/gbcl-oauth-logto) | [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto) |
 | [`gbcl-userip`](https://weblate.rob006.net/projects/flarum/gbcl-userip) | [`gbcl/userip`](https://github.com/GBCLStudio/userip) |
 | [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
+| [`glowingblue-date-filters`](https://weblate.rob006.net/projects/flarum/glowingblue-date-filters) | [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`gtdxyz-badges`](https://weblate.rob006.net/projects/flarum/gtdxyz-badges) | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) |
 | [`gtdxyz-login`](https://weblate.rob006.net/projects/flarum/gtdxyz-login) | [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login) |
