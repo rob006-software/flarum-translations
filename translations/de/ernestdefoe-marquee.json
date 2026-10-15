@@ -5,17 +5,17 @@
             "tmdb_token_help": "",
             "igdb_label": "",
             "igdb_help": "",
-            "igdb_client_id": "",
-            "igdb_client_secret": "",
+            "igdb_client_id": "Client-ID",
+            "igdb_client_secret": "Client Secret",
             "language_label": "",
             "language_help": "",
             "tags_label": "",
             "tags_help": "",
             "source_none": "",
-            "source_movie": "",
-            "source_tv": "",
-            "source_game": "",
-            "source_music": ""
+            "source_movie": "Filme (TMDB)",
+            "source_tv": "Fernsehserien (TMDB)",
+            "source_game": "Spiele (IGDB)",
+            "source_music": "Musikalben (Deezer, kein Schlüssel nötig)"
         },
         "api": {
             "link_invalid": "",
@@ -23,10 +23,10 @@
         },
         "forum": {
             "kind": {
-                "movie": "",
-                "tv": "",
-                "game": "",
-                "music": ""
+                "movie": "Film",
+                "tv": "Serie",
+                "game": "Spiel",
+                "music": "Album"
             },
             "picker": {
                 "placeholder_movie": "",
@@ -42,45 +42,45 @@
                 "remove_link": ""
             },
             "scope": {
-                "season_label": "",
-                "episode_label": "",
-                "whole_show": "",
-                "whole_season": "",
-                "loading": "",
-                "season_option": "",
-                "episode_option": ""
+                "season_label": "Staffel",
+                "episode_label": "Folge",
+                "whole_show": "Gesamte Serie",
+                "whole_season": "Gesamte Staffel",
+                "loading": "Folgen werden geladen…",
+                "season_option": "Staffel {number} ({year})",
+                "episode_option": "F{number} · {title}"
             },
             "title": {
-                "season": "",
-                "episode": ""
+                "season": "{base} Staffel {number}",
+                "episode": "{base} S{season}F{episode}: {name}"
             },
             "meta": {
-                "runtime_hours": "",
-                "runtime_minutes": "",
-                "runtime_hours_only": "",
-                "seasons_count": "",
-                "episodes_count": "",
-                "season_episode": "",
-                "tracks_count": "",
-                "record_album": "",
-                "record_single": "",
-                "record_ep": "",
+                "runtime_hours": "{hours} h {minutes} m",
+                "runtime_minutes": "{minutes} m",
+                "runtime_hours_only": "{hours} h",
+                "seasons_count": "{count, plural, one {# Staffel} other {# Staffeln}}",
+                "episodes_count": "{count, plural, one {# Folge} other {# Folgen}}",
+                "season_episode": "Staffel {season}, Folge {episode}",
+                "tracks_count": "{count, plural, one {# Track} other {# Tracks}}",
+                "record_album": "Album",
+                "record_single": "Single",
+                "record_ep": "EP",
                 "record_compile": ""
             },
             "credits": {
-                "director": "",
+                "director": "Regisseur",
                 "writer": "",
                 "based_on": "",
                 "creator": "",
                 "network": "",
-                "status": "",
+                "status": "Status",
                 "directed_by": "",
                 "written_by": "",
                 "developer": "",
                 "publisher": "",
                 "series": "",
-                "artist": "",
-                "label": ""
+                "artist": "Künstler",
+                "label": "Label"
             },
             "hero": {
                 "user_score": "",
@@ -91,7 +91,7 @@
                 "seasons": "",
                 "season_failed": "",
                 "view_on": "",
-                "trailer": "",
+                "trailer": "Trailer",
                 "episode_details": "",
                 "discuss_show": "",
                 "critic_rating": "",
@@ -100,7 +100,7 @@
                 "ttb_hastily": "",
                 "ttb_normally": "",
                 "ttb_completely": "",
-                "hours": "",
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
                 "screenshots": "",
                 "tracklist": "",
                 "explicit": "",
@@ -111,27 +111,27 @@
                 "attribution_deezer": ""
             },
             "modal": {
-                "title": "",
-                "badge": "",
-                "score": "",
-                "previous": "",
-                "next": "",
-                "discuss_episode": ""
+                "title": "S{season} · F{episode}  {name}",
+                "badge": "{title} · Staffel {season}, Folge {episode}",
+                "score": "{score} % auf TMDB",
+                "previous": "Vorherige",
+                "next": "Nächste",
+                "discuss_episode": "Diese Folge diskutieren"
             },
             "link": {
                 "change": "",
                 "add": "",
                 "title": "",
                 "none": "",
-                "remove": "",
+                "remove": "Entfernen",
                 "search_label": "",
                 "rename": "",
-                "save": "",
+                "save": "Speichern",
                 "saved": ""
             },
             "list": {
-                "season": "",
-                "episode": ""
+                "season": "Staffel {number}",
+                "episode": "S{season}F{episode}"
             }
         }
     }
