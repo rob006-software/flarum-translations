@@ -737,7 +737,7 @@ return [
 		],
 	],
 	'glowingblue-date-filters' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/2.0.2/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'de',
 			'es',
