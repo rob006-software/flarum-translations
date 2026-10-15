@@ -41,6 +41,12 @@ return [
 	'asyntai-chatbot' => [
 		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
 	],
+	'bigreja-bragalotto' => [
+		'tag' => 'https://raw.githubusercontent.com/bigreja/bragalotto/2.0/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'pt',
+		],
+	],
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
