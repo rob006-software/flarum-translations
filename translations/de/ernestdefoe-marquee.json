@@ -1,14 +1,14 @@
 {
     "ernestdefoe-marquee": {
         "admin": {
-            "tmdb_token_label": "",
+            "tmdb_token_label": "TMDB API-Token für Lesezugriff",
             "tmdb_token_help": "Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.",
             "igdb_label": "Twitch-Anwendungs-Zugangsdaten für IGDB",
             "igdb_help": "Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.",
             "igdb_client_id": "Client-ID",
             "igdb_client_secret": "Client Secret",
-            "language_label": "",
-            "language_help": "",
+            "language_label": "Sprache der Daten",
+            "language_help": "Die Sprache, in der TMDB Titel und Inhaltsangaben ausgibt, wird als Sprach- und Regionscode angegeben, z. B. en-US, de-CH oder pt-BR.",
             "language_placeholder": "",
             "list_posters_label": "",
             "list_posters_help": "",
@@ -22,7 +22,7 @@
         },
         "api": {
             "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
-            "link_unavailable": ""
+            "link_unavailable": "Die Quelle des Titels konnte nicht aufgerufen werden, daher wurde der Titel nicht verknüpft. Bitte versuche es in Kürze erneut."
         },
         "forum": {
             "kind": {
