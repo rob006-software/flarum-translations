@@ -21,7 +21,7 @@ return [
 	],
 	/* extensions list begin */
 	'acpl-lscache' => [
-		'beta' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/v4.0.0-beta.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/v4.0.0/locale/en.yml',
 	],
 	'acpl-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/2.0.1/locale/en.yml',
