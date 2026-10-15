@@ -236,7 +236,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-marquee' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.5.0/locale/en.yml',
 	],
 	'ernestdefoe-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.1.1/locale/en.yml',
