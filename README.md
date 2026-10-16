@@ -1259,6 +1259,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`peopleinside-antiflood`](https://weblate.rob006.net/projects/flarum/peopleinside-antiflood) | [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood) |
 | [`peruguitar-user-portrait`](https://weblate.rob006.net/projects/flarum/peruguitar-user-portrait) | [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait) |
 | [`pianotell-flamoji`](https://weblate.rob006.net/projects/flarum/pianotell-flamoji) | [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) |
+| [`prm-forum-activity`](https://weblate.rob006.net/projects/flarum/prm-forum-activity) | [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) |
+| [`prm-hero-image`](https://weblate.rob006.net/projects/flarum/prm-hero-image) | [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) |
+| [`prm-messages`](https://weblate.rob006.net/projects/flarum/prm-messages) | [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) |
+| [`prm-moderation`](https://weblate.rob006.net/projects/flarum/prm-moderation) | [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) |
+| [`prm-rank-banner`](https://weblate.rob006.net/projects/flarum/prm-rank-banner) | [`prm/rank-banner`](https://github.com/smmpanelscripts1/prm-rank-banner) |
+| [`prm-security`](https://weblate.rob006.net/projects/flarum/prm-security) | [`prm/security`](https://github.com/smmpanelscripts1/prm-security) |
+| [`prm-sleek-dark`](https://weblate.rob006.net/projects/flarum/prm-sleek-dark) | [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) |
+| [`prm-trade-feedback`](https://weblate.rob006.net/projects/flarum/prm-trade-feedback) | [`prm/trade-feedback`](https://github.com/smmpanelscripts1/prm-trade-feedback) |
 | [`proxytracer-proxytracer`](https://weblate.rob006.net/projects/flarum/proxytracer-proxytracer) | [`proxytracer/flarum-proxytracer`](https://github.com/ProxyTracer/flarum-proxytracer) |
 | [`quasimo-carousel-grids`](https://weblate.rob006.net/projects/flarum/quasimo-carousel-grids) | [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids) |
 | [`quasimo-llms-txt`](https://weblate.rob006.net/projects/flarum/quasimo-llms-txt) | [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) |
