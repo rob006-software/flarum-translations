@@ -1,0 +1,56 @@
+{
+    "ernestdefoe-recipes": {
+        "forum": {
+            "servings": "Serves",
+            "prep": "Prep",
+            "cook": "Cook",
+            "total": "Total",
+            "ingredients": "Ingredients",
+            "steps": "Method",
+            "duration": {
+                "hours": "{count} h",
+                "minutes": "{count} min",
+                "seconds": "{count} s"
+            },
+            "card": {
+                "fewer": "Fewer servings",
+                "more": "More servings",
+                "reset": "Back to the original amounts",
+                "print": "Print",
+                "print_label": "Print this recipe",
+                "timer_start": "Start a {time} timer",
+                "timer_pause": "Pause timer",
+                "timer_resume": "Resume timer",
+                "timer_done": "Time's up",
+                "timer_reset": "Reset timer"
+            }
+        },
+        "lib": {
+            "composer": {
+                "button": "Recipe",
+                "title": "Insert a recipe",
+                "edit_title": "Edit recipe",
+                "name": "Title",
+                "name_placeholder": "Fluffy pancakes",
+                "servings": "Servings",
+                "prep": "Prep time",
+                "cook": "Cook time",
+                "time_placeholder": "e.g. 25m or 1h 30m",
+                "image": "Photo URL",
+                "image_help": "Optional. Shown at the top of the card and offered to search engines.",
+                "description": "Description",
+                "ingredients": "Ingredients",
+                "ingredients_help": "One per line. Start with an amount (1 1/2 cups, 200 g, ½ tsp) and it scales with the servings. A line ending in a colon starts a group.",
+                "steps": "Steps",
+                "steps_help": "One per line. Put a time in square brackets, like [25m] or [1h 30m], and it becomes a one-click timer.",
+                "insert": "Insert recipe",
+                "update": "Save recipe",
+                "invalid_image": "The photo address must start with http:// or https://",
+                "empty": "Add a title, an ingredient or a step.",
+                "card_edit": "Edit",
+                "card_label": "Recipe: {title}",
+                "card_untitled": "Untitled recipe"
+            }
+        }
+    }
+}

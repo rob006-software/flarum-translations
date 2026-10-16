@@ -1,0 +1,136 @@
+{
+    "ernestdefoe-shelf": {
+        "admin": {
+            "min_ratings_label": "Ratings a title needs to be top rated",
+            "min_ratings_help": "A title with fewer ratings than this in the period is left off the top-rated list, so one member's five stars can't top it. The list refreshes every ten minutes.",
+            "permission_use": "Rate, log and list titles on their shelf",
+            "permission_moderate": "Delete anyone's shelf lists"
+        },
+        "api": {
+            "empty_entry": "Give it a rating, a status or add it to your collection first.",
+            "too_many_lists": "You can keep up to {count} lists.",
+            "list_full": "A list can hold up to {count} titles."
+        },
+        "forum": {
+            "kind": {
+                "movie": "Movie",
+                "tv": "TV show",
+                "game": "Game",
+                "music": "Album",
+                "book": "Book",
+                "movie_plural": "Movies",
+                "tv_plural": "TV",
+                "game_plural": "Games",
+                "music_plural": "Music",
+                "book_plural": "Books"
+            },
+            "status": {
+                "want_watch": "Want to watch",
+                "want_read": "Want to read",
+                "want_play": "Want to play",
+                "want_listen": "Want to listen",
+                "done_watch": "Watched",
+                "done_read": "Read",
+                "done_play": "Played",
+                "done_listen": "Listened",
+                "owned": "In my collection"
+            },
+            "card": {
+                "add_to_shelf": "Add to shelf",
+                "rate_label": "Your rating",
+                "average_title": "Members' average from {count, plural, one {# rating} other {# ratings}}",
+                "ratings": "{count, plural, one {{formatted} rating} other {{formatted} ratings}}",
+                "done_on_watch": "Watched {date}",
+                "done_on_read": "Read {date}",
+                "done_on_play": "Played {date}",
+                "done_on_listen": "Listened {date}"
+            },
+            "menu": {
+                "want_watch": "Want to watch",
+                "want_read": "Want to read",
+                "want_play": "Want to play",
+                "want_listen": "Want to listen",
+                "log_watch": "Log as watched…",
+                "log_read": "Log as read…",
+                "log_play": "Log as played…",
+                "log_listen": "Log as listened…",
+                "done_on_watch": "Watched {date} (change)",
+                "done_on_read": "Read {date} (change)",
+                "done_on_play": "Played {date} (change)",
+                "done_on_listen": "Listened {date} (change)",
+                "collection": "In my collection",
+                "add_to_list": "Add to a list…",
+                "remove": "Remove from my shelf"
+            },
+            "log": {
+                "title_watch": "When did you watch {title}?",
+                "title_read": "When did you finish {title}?",
+                "title_play": "When did you play {title}?",
+                "title_listen": "When did you listen to {title}?",
+                "date_label": "Date",
+                "save": "Save"
+            },
+            "add": {
+                "title": "Add {title} to a list",
+                "new_list": "Or start a new list",
+                "new_list_placeholder": "e.g. Best of the decade",
+                "create": "Create",
+                "added": "Added to {list}."
+            },
+            "lists": {
+                "items": "{count, plural, one {# title} other {# titles}}",
+                "new_button": "New list",
+                "new_title": "New list",
+                "edit_title": "Edit list",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "delete_confirm": "Delete the list {name}? The titles stay on everyone's shelves.",
+                "name_label": "Name",
+                "description_label": "Description (optional)",
+                "save": "Save",
+                "empty": "This list has no titles yet. Add one from any title's card.",
+                "missing": "This list doesn't exist, or was deleted.",
+                "drag_hint": "Drag titles to change the order.",
+                "remove_title": "Remove {title} from this list"
+            },
+            "profile": {
+                "nav": "Shelf",
+                "lists_heading": "Lists",
+                "shelf_heading": "Shelf",
+                "filter_all": "All",
+                "filter_rated": "Rated",
+                "filter_done": "Logged",
+                "filter_want": "Want to",
+                "filter_owned": "Collection",
+                "no_lists": "No lists yet.",
+                "no_lists_own": "You have no lists yet. Start one here, or from any title's card.",
+                "empty": "Nothing on this shelf yet.",
+                "empty_own": "Your shelf is empty. Rate or log a title from its card in any linked discussion.",
+                "load_more": "Load more"
+            },
+            "top": {
+                "nav": "Top rated",
+                "title": "Top rated",
+                "heading_month": "Top rated this month",
+                "heading_year": "Top rated this year",
+                "heading_all": "Top rated of all time",
+                "period_label": "Period",
+                "period_month": "This month",
+                "period_year": "This year",
+                "period_all": "All time",
+                "kind_label": "Kind",
+                "kind_all": "Everything",
+                "empty_month": "Nothing has enough ratings this month yet.",
+                "empty_year": "Nothing has enough ratings this year yet.",
+                "empty_all": "Nothing has enough ratings yet.",
+                "failed": "The top-rated list couldn't be loaded."
+            },
+            "widget": {
+                "label": "Shelf – top rated",
+                "field_title": "Title (leave blank for the default)",
+                "field_period": "Period",
+                "field_limit": "How many titles"
+            }
+        }
+    }
+}
