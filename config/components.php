@@ -1819,11 +1819,6 @@ return [
 			'de@formal',
 		],
 	],
-	'tryhackx-advanced-pages' => [
-		'__builtInLanguages' => [
-			'pl',
-		],
-	],
 	'tryhackx-homepage-blocks' => [
 		'__builtInLanguages' => [
 			'pl',
