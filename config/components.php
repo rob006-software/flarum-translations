@@ -191,6 +191,9 @@ return [
 	'ernestdefoe-gatehouse' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.3.1/locale/en.yml',
 	],
+	'ernestdefoe-github-release-bot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/github-release-bot/2.1.1/locale/en.yml',
+	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.5.5/locale/en.yml',
 	],
