@@ -13,31 +13,31 @@
         },
         "forum": {
             "kind": {
-                "movie": "",
-                "tv": "",
-                "game": "",
-                "music": "",
-                "book": "",
-                "movie_plural": "",
-                "tv_plural": "",
-                "game_plural": "",
-                "music_plural": "",
-                "book_plural": ""
+                "movie": "Film",
+                "tv": "TV-Serie",
+                "game": "Spiel",
+                "music": "Album",
+                "book": "Buch",
+                "movie_plural": "Filme",
+                "tv_plural": "TV",
+                "game_plural": "Spiele",
+                "music_plural": "Musik",
+                "book_plural": "Bücher"
             },
             "status": {
-                "want_watch": "",
-                "want_read": "",
-                "want_play": "",
-                "want_listen": "",
-                "done_watch": "",
-                "done_read": "",
-                "done_play": "",
-                "done_listen": "",
-                "owned": ""
+                "want_watch": "Möchte ich anschauen",
+                "want_read": "Möchte ich lesen",
+                "want_play": "Möchte ich spielen",
+                "want_listen": "Möchte ich anhören",
+                "done_watch": "Angeschaut",
+                "done_read": "Gelesen",
+                "done_play": "Gespielt",
+                "done_listen": "Angehört",
+                "owned": "In meiner Sammlung"
             },
             "card": {
                 "add_to_shelf": "",
-                "rate_label": "",
+                "rate_label": "Deine Bewertung",
                 "average_title": "",
                 "ratings": "",
                 "done_on_watch": "",
@@ -67,27 +67,27 @@
                 "title_read": "",
                 "title_play": "",
                 "title_listen": "",
-                "date_label": "",
-                "save": ""
+                "date_label": "Datum",
+                "save": "Speichern"
             },
             "add": {
                 "title": "",
                 "new_list": "",
                 "new_list_placeholder": "",
-                "create": "",
+                "create": "Erstellen",
                 "added": ""
             },
             "lists": {
-                "items": "",
-                "new_button": "",
-                "new_title": "",
+                "items": "{count, plural, one {# Titel} other {# Titel}}",
+                "new_button": "Neue Liste",
+                "new_title": "Neue Liste",
                 "edit_title": "",
-                "edit_button": "",
-                "delete_button": "",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
                 "delete_confirm": "",
-                "name_label": "",
-                "description_label": "",
-                "save": "",
+                "name_label": "Name",
+                "description_label": "Beschreibung (optional)",
+                "save": "Speichern",
                 "empty": "",
                 "missing": "",
                 "drag_hint": "",
@@ -95,18 +95,18 @@
             },
             "profile": {
                 "nav": "",
-                "lists_heading": "",
+                "lists_heading": "Listen",
                 "shelf_heading": "",
-                "filter_all": "",
-                "filter_rated": "",
+                "filter_all": "Alle",
+                "filter_rated": "Bewertet",
                 "filter_done": "",
                 "filter_want": "",
-                "filter_owned": "",
+                "filter_owned": "Sammlung",
                 "no_lists": "",
                 "no_lists_own": "",
                 "empty": "",
                 "empty_own": "",
-                "load_more": ""
+                "load_more": "Mehr laden"
             },
             "top": {
                 "nav": "",
@@ -115,11 +115,11 @@
                 "heading_year": "",
                 "heading_all": "",
                 "period_label": "",
-                "period_month": "",
-                "period_year": "",
+                "period_month": "Diesen Monat",
+                "period_year": "Dieses Jahr",
                 "period_all": "",
                 "kind_label": "",
-                "kind_all": "",
+                "kind_all": "Alles",
                 "empty_month": "",
                 "empty_year": "",
                 "empty_all": "",
@@ -128,8 +128,8 @@
             "widget": {
                 "label": "",
                 "field_title": "",
-                "field_period": "",
-                "field_limit": ""
+                "field_period": "Zeitraum",
+                "field_limit": "Wie viele Titel"
             }
         }
     }
