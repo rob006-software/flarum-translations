@@ -478,6 +478,12 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
+	'dunea-member-promotion' => [
+		'tag' => 'https://raw.githubusercontent.com/dunea/flarum-member-promotion/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'ekumanov-inline-audio' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-inline-audio/v1.10.2/locale/en.yml',
 	],
