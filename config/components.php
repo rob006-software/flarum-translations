@@ -275,6 +275,9 @@ return [
 	'ernestdefoe-sheaf' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sheaf/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-shelf' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/shelf/v1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
