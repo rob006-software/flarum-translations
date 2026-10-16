@@ -14,7 +14,7 @@
                 },
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
-                "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, adres e-mail użytkownika zostanie zaktualizowany przy każdym logowaniu na forum, aby pasował do adresu podanego przez dostawcę OAuth. Nie wszyscy dostawcy udostępniają zaktualizowany adres e-mail – ustawienie nie będzie miało żadnego wpływu na tych dostawców.",
+                "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, a dostawca OAuth zwróci przy logowaniu zweryfikowany adres e-mail inny niż adres użytkownika na forum, na nowy adres zostanie wysłany link potwierdzający, a na obecny – powiadomienie. Adres e-mail zostanie zmieniony po kliknięciu w link. Dostawcy, którzy nie potwierdzają, że adres jest zweryfikowany (w tym zewnętrzni dostawcy, którzy nie zostali jeszcze zaktualizowani, aby to obsługiwać), nie zmienią adresu e-mail.",
                 "oauth_only_label": "",
                 "oauth_only_help": "",
                 "oauth_only_sign_up_closed_warning": "",
