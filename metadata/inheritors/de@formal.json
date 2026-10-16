@@ -11333,6 +11333,31 @@
         }
     },
     "fof-github-sponsors.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "fof_github_sponsors": {
+                        "groups_changed": "e45354b8dc7fed3a410242296c2d2d14 e45354b8dc7fed3a410242296c2d2d14",
+                        "membership_adopted": "ed800b45df8a95276b3d5a4e0c4d7274 ed800b45df8a95276b3d5a4e0c4d7274",
+                        "onetime_started": "3a08fd748f04a757ffd2959d383449c0 3a08fd748f04a757ffd2959d383449c0",
+                        "recurring_started": "857c8f2cfe7033bce2ac99a1b71f3d82 857c8f2cfe7033bce2ac99a1b71f3d82",
+                        "recurring_stopped": "6f2e2119c646ee2fba5a747f45e2200c 6f2e2119c646ee2fba5a747f45e2200c",
+                        "sponsorship_ended": "c8c2dd4156753317a94e7076a3b5c054 c8c2dd4156753317a94e7076a3b5c054"
+                    }
+                }
+            }
+        },
+        "flarum-gdpr": {
+            "lib": {
+                "data": {
+                    "githubsponsor": {
+                        "anonymize_description": "74c3eaad189d1d2891eefaa55972e90a 74c3eaad189d1d2891eefaa55972e90a",
+                        "delete_description": "791a559f20e6798af1093bb96658c46a 791a559f20e6798af1093bb96658c46a",
+                        "export_description": "e971fbabf2749b81e8ccaf7dcc18857e e971fbabf2749b81e8ccaf7dcc18857e"
+                    }
+                }
+            }
+        },
         "fof-github-sponsors": {
             "admin": {
                 "account_types": {
@@ -11348,10 +11373,27 @@
                     "group_label": "29d206ad6107ec24922c0418a596ac93 29d206ad6107ec24922c0418a596ac93",
                     "login_help": "b7cff40f2af6aa935831b1bf8a3dd11a b7cff40f2af6aa935831b1bf8a3dd11a",
                     "login_label": "ef1bc5a5cd92bd4a5a9f9dba6b29bdd9 ef1bc5a5cd92bd4a5a9f9dba6b29bdd9",
-                    "onetime_group_label": "b47b74858294de86ba1ed479b24a67bb b47b74858294de86ba1ed479b24a67bb"
+                    "onetime_group_help": "5865782e41bc828fe07c90df979571df 5865782e41bc828fe07c90df979571df",
+                    "onetime_group_label": "b47b74858294de86ba1ed479b24a67bb b47b74858294de86ba1ed479b24a67bb",
+                    "onetime_group_none": "1b26a8bba6e841f1c375b283db5c1c61 1b26a8bba6e841f1c375b283db5c1c61"
                 },
                 "status": {
+                    "heading": "42f23df15d7800c3587dc2c5739fa193 42f23df15d7800c3587dc2c5739fa193",
+                    "last_failure": "f5f1be807a326ed9743e5a313aef95ea f5f1be807a326ed9743e5a313aef95ea",
+                    "last_success": "8670921a12264ab388f785f54112ffef 8670921a12264ab388f785f54112ffef",
+                    "never_run": "72f3ea723cf995dc246d15c895ff4d17 72f3ea723cf995dc246d15c895ff4d17",
+                    "reasons": {
+                        "configuration": "54e1423c25811a176a473867c95bb3c3 54e1423c25811a176a473867c95bb3c3",
+                        "forbidden": "bed9aba4d66111b52a61a218b41d8f83 bed9aba4d66111b52a61a218b41d8f83",
+                        "network": "1d2f15dd5d3f46c592276b9033c12ce9 1d2f15dd5d3f46c592276b9033c12ce9",
+                        "no_sponsors": "5422dff31dc2dbdb5d7368e62c824280 5422dff31dc2dbdb5d7368e62c824280",
+                        "not_found": "97d454041c3c07b20ba21bbdfd0ee54f 97d454041c3c07b20ba21bbdfd0ee54f",
+                        "other": "ca73265b2ea2a72d8fdb5fd188742585 ca73265b2ea2a72d8fdb5fd188742585",
+                        "rate_limited": "84dac1e26791f8f7c31d63210f24e3a3 84dac1e26791f8f7c31d63210f24e3a3",
+                        "unauthorized": "0014efeb32f5cff5df9de541f6afc8c0 0014efeb32f5cff5df9de541f6afc8c0"
+                    },
                     "request_failed": "3f4700aadb35432fe296267be7705922 3f4700aadb35432fe296267be7705922",
+                    "stale": "b7d0729cf29e99d0ccf94ff4783c04f2 b7d0729cf29e99d0ccf94ff4783c04f2",
                     "test_button": "6a0795d10226eefef28dfea5a23eb03b 6a0795d10226eefef28dfea5a23eb03b",
                     "test_success": "126d371f2c62da77e5fdaf645a957d27 126d371f2c62da77e5fdaf645a957d27"
                 }
