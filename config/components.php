@@ -1158,7 +1158,7 @@ return [
 		],
 	],
 	'toreador-mail-audit' => [
-		'tag' => 'https://raw.githubusercontent.com/toreador34/flarum-mail-audit/v2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/toreador34/flarum-mail-audit/v2.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
