@@ -153,7 +153,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.1.2/locale/en.yml',
 	],
 	'ernestdefoe-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.4.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.5.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-cascade' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cascade/v0.3.6/locale/en.yml',
