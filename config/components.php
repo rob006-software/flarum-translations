@@ -209,6 +209,9 @@ return [
 	'ernestdefoe-header-nav' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.6.2/locale/en.yml',
 	],
+	'ernestdefoe-herald' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/1.0.2/locale/en.yml',
+	],
 	'ernestdefoe-hero-builder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.2/resources/locale/en.yml',
 	],
