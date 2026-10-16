@@ -1,0 +1,52 @@
+{
+    "prm-messages": {
+        "admin": {
+            "permissions": {
+                "start_label": "Send private messages"
+            },
+            "settings": {
+                "public_chat_label": "Public chat",
+                "public_chat_help": "When enabled, members can talk in a shared chat room. When off, the page and menu are hidden."
+            }
+        },
+        "forum": {
+            "header": "Messages",
+            "title": "Private messages",
+            "empty": "You have no private messages yet.",
+            "compose": "New message",
+            "search_user": "Search users",
+            "search_placeholder": "Type a username…",
+            "no_users": "No users found.",
+            "to": "To",
+            "subject": "Subject",
+            "subject_placeholder": "e.g. About payment (optional)",
+            "message": "Message",
+            "send": "Send",
+            "sending": "Sending…",
+            "sent": "Message sent.",
+            "back": "Inbox",
+            "hide": "Hide conversation",
+            "hide_confirm": "This conversation will leave your inbox. The other person can still see it.",
+            "you": "You",
+            "type_placeholder": "Write a message… (Enter to send)",
+            "unread": "Unread",
+            "user_controls": {
+                "message": "Send message"
+            },
+            "chat": {
+                "header": "Chat",
+                "title": "Public chat",
+                "intro": "A shared room where every member can talk.",
+                "empty": "No messages yet. Be the first to write.",
+                "placeholder": "Message everyone… (Enter to send)",
+                "login": "Log in to write in chat.",
+                "disabled": "Public chat is turned off.",
+                "delete": "Delete"
+            },
+            "notifications": {
+                "received": "{username} sent you a message",
+                "notify_label": "Someone sends me a private message"
+            }
+        }
+    }
+}

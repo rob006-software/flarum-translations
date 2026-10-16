@@ -1,0 +1,144 @@
+{
+    "prm-moderation": {
+        "admin": {
+            "permissions": {
+                "access_label": "Access the moderation panel",
+                "report_label": "Report users, posts, and discussions",
+                "ticket_label": "Open support tickets"
+            }
+        },
+        "forum": {
+            "header": "Moderation",
+            "header_tickets": "Support",
+            "nav_warnings": "Warnings",
+            "user_controls": {
+                "warn": "Warn user",
+                "report": "Report user"
+            },
+            "post_controls": {
+                "warn": "Warn author",
+                "report": "Report post"
+            },
+            "discussion_controls": {
+                "warn": "Warn author",
+                "report": "Report discussion"
+            },
+            "report": {
+                "title_user": "Report {username}",
+                "title_post": "Report post",
+                "title_discussion": "Report discussion",
+                "reason": "Reason",
+                "reason_placeholder": "(Select)",
+                "reason_spam": "Spam",
+                "reason_abuse": "Abuse / harassment",
+                "reason_illegal": "Rule-breaking content",
+                "reason_other": "Other",
+                "details": "Details",
+                "submit": "Submit report",
+                "success": "The report was sent to the moderation panel."
+            },
+            "warn": {
+                "title": "Warn {username}",
+                "points": "Warning points",
+                "reason": "Reason",
+                "comment": "Comment (optional)",
+                "submit": "Send warning",
+                "success": "Warning saved."
+            },
+            "warnings": {
+                "empty": "No warnings yet.",
+                "points": "{points} points",
+                "by": "by {username}"
+            },
+            "panel": {
+                "title": "Moderation Panel",
+                "pending": "Pending reports",
+                "resolved": "Resolved",
+                "rejected": "Rejected",
+                "empty": "No reports in this list.",
+                "reporter": "Reporter",
+                "target": "User",
+                "type": "Type",
+                "type_user": "User",
+                "type_post": "Post",
+                "type_discussion": "Discussion",
+                "reason": "Reason",
+                "date": "Date",
+                "actions": "Actions",
+                "open": "Review",
+                "view_content": "View content",
+                "chart_activity": "Topics / replies (30 days)",
+                "chart_moderation": "Reports / warnings (30 days)",
+                "chart_discussions": "Topics",
+                "chart_replies": "Replies",
+                "chart_reports": "Reports",
+                "chart_warnings": "Warnings"
+            },
+            "tickets": {
+                "title": "My support tickets",
+                "panel_title": "Support tickets",
+                "section_reports": "Reports",
+                "section_tickets": "Support",
+                "create": "New ticket",
+                "empty": "No tickets yet.",
+                "empty_inbox": "No tickets waiting for staff.",
+                "subject": "Subject",
+                "category": "Category",
+                "category_placeholder": "(Select)",
+                "category_account": "Account",
+                "category_payment": "Payment / trade",
+                "category_technical": "Technical issue",
+                "category_appeal": "Warning / ban appeal",
+                "category_other": "Other",
+                "priority": "Priority",
+                "priority_normal": "Normal",
+                "priority_high": "High",
+                "message": "Message",
+                "submit": "Submit ticket",
+                "success": "Your support ticket was created.",
+                "reply": "Write a reply",
+                "send_reply": "Send",
+                "close": "Close ticket",
+                "reopen": "Reopen",
+                "closed": "This ticket is closed.",
+                "status": "Status",
+                "status_open": "New",
+                "status_waiting": "Waiting",
+                "status_answered": "Answered",
+                "status_closed": "Closed",
+                "inbox": "Needs reply",
+                "user": "User",
+                "last_update": "Last update",
+                "open": "Open",
+                "assigned": "{username} is handling this",
+                "mine_open": "Open tickets",
+                "mine_closed": "Closed tickets",
+                "staff_badge": "Staff"
+            },
+            "handle": {
+                "title": "Review report",
+                "delete_content": "Delete (hide) content",
+                "warn": "Send a warning",
+                "ban": "Ban user",
+                "ban_days": "Ban duration",
+                "ban_1": "1 day",
+                "ban_7": "7 days",
+                "ban_30": "30 days",
+                "ban_0": "Permanent",
+                "warning_reason": "Warning reason",
+                "warning_points": "Warning points",
+                "ban_reason": "Ban reason",
+                "resolve": "Resolve and apply",
+                "reject": "Dismiss",
+                "close": "Close"
+            },
+            "notifications": {
+                "warning_received": "{username} warned you ({points} points)",
+                "notify_warning_label": "Someone warns me",
+                "ticket_replied": "{username} replied to your support ticket",
+                "ticket_replied_staff": "{username} replied to a support ticket",
+                "notify_ticket_label": "Someone replies to my support ticket"
+            }
+        }
+    }
+}

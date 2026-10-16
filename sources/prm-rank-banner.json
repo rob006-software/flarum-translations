@@ -1,0 +1,29 @@
+{
+    "prm-rank-banner": {
+        "forum": {
+            "rank_banner_label": "{name} rank"
+        },
+        "admin": {
+            "title": "Ranks",
+            "help": "Manage each group’s rank banner here. The default style uses icon + color + name, or upload a custom horizontal image like XenForo.",
+            "show_label": "Show on forum",
+            "style_label": "Banner style",
+            "style_default": "Default (icon + text)",
+            "style_image": "Custom image",
+            "name_label": "Rank name",
+            "color_label": "Color",
+            "icon_label": "Icon",
+            "icon_help": "Font Awesome class, e.g. fas fa-star",
+            "label_label": "Banner text",
+            "label_help": "Leave empty to use the rank name.",
+            "image_label": "Horizontal banner image",
+            "image_help": "PNG, JPG, GIF or WEBP. Max 1 MB. Transparent PNG recommended.",
+            "upload_button": "Upload image",
+            "remove_image_button": "Remove image",
+            "save_button": "Save",
+            "saved": "Saved",
+            "preview_label": "Preview",
+            "guest_note": "The Guest group is never shown as a banner."
+        }
+    }
+}

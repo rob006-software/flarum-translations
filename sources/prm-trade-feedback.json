@@ -1,0 +1,76 @@
+{
+    "prm-trade-feedback": {
+        "admin": {
+            "permissions": {
+                "give_label": "Leave trade feedback",
+                "moderate_label": "Moderate trade feedback"
+            },
+            "settings": {
+                "notice_label": "Form notice",
+                "notice_help": "Shown under the leave-feedback form."
+            }
+        },
+        "forum": {
+            "nav": "Trade",
+            "leave_button": "Leave feedback",
+            "leave_title": "Leave feedback for {username}",
+            "stats": {
+                "trade": "Trade",
+                "percent": "Trade percentage",
+                "given_positive": "Positive feedback given",
+                "given_neutral": "Neutral feedback given",
+                "given_negative": "Negative feedback given",
+                "total_positive": "Total positive feedback",
+                "last_30d": "Last 30 days",
+                "last_6m": "Last 6 months",
+                "last_1y": "Last 1 year",
+                "positive": "Positive",
+                "neutral": "Neutral",
+                "negative": "Negative"
+            },
+            "filters": {
+                "received": "Received",
+                "given": "Given",
+                "all": "All",
+                "positive": "Positive",
+                "neutral": "Neutral",
+                "negative": "Negative"
+            },
+            "table": {
+                "options": "Options",
+                "sender": "Sender",
+                "receiver": "Receiver",
+                "date": "Date",
+                "empty": "No trade feedback yet."
+            },
+            "form": {
+                "role": "You are",
+                "role_placeholder": "(Select)",
+                "role_buyer": "Buyer",
+                "role_seller": "Seller",
+                "role_trade": "Trade",
+                "rating": "Overall experience",
+                "rating_positive": "Positive (+1)",
+                "rating_neutral": "Neutral (0)",
+                "rating_negative": "Negative (-1)",
+                "short_comment": "Short comment",
+                "short_help": "Note: 80 characters max. Do not use HTML.",
+                "thread_url": "Thread URL",
+                "thread_help": "Example: http://localhost:8088/d/1",
+                "comment": "Comment",
+                "submit": "Submit",
+                "cancel": "Cancel"
+            },
+            "actions": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "confirm_delete": "Delete this trade feedback?"
+            },
+            "notifications": {
+                "received": "{username} left you trade feedback",
+                "notify_received_label": "Someone leaves me trade feedback"
+            },
+            "user_controls": "Leave feedback"
+        }
+    }
+}

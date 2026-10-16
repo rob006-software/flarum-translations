@@ -1,0 +1,44 @@
+{
+    "prm-forum-activity": {
+        "admin": {
+            "permissions": {
+                "feature_label": "Feature discussions"
+            },
+            "settings": {
+                "default_tab_label": "Default activity tab",
+                "default_tab_help": "Which tab opens first for visitors who have not chosen one yet.",
+                "default_tab_latest": "New posts",
+                "default_tab_featured": "Featured",
+                "default_tab_newest": "New topics",
+                "default_tab_popular": "Popular"
+            }
+        },
+        "forum": {
+            "title": "Forum activity",
+            "tabs": {
+                "latest": "New posts",
+                "featured": "Featured",
+                "newest": "New topics",
+                "popular": "Popular"
+            },
+            "columns": {
+                "topic": "Topic",
+                "forum": "Forum",
+                "posts": "Replies",
+                "last_poster": "Last poster"
+            },
+            "sticky_section": "Sticky topics",
+            "normal_section": "Normal topics",
+            "sticky_label": "Sticky topic",
+            "empty": "No discussions to show.",
+            "load_more": "Load more",
+            "discussion_controls": {
+                "feature": "Feature",
+                "unfeature": "Unfeature"
+            },
+            "badge": {
+                "featured_tooltip": "Featured discussion"
+            }
+        }
+    }
+}
