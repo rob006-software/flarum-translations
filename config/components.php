@@ -1605,6 +1605,12 @@ return [
 			'tr',
 		],
 	],
+	'prm-hero-image' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-hero-image/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
