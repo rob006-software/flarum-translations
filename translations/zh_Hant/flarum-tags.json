@@ -4,17 +4,17 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "預設",
+                    "id_with_slug": "ID + Slug"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "刪除標籤",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
+                "default_sort_label": "默認排序",
+                "default_sort_none": "默認",
+                "default_sort_text": "使用者未自行選擇排序方式時，此標籤的討論將以此順序顯示。",
+                "default_sort_unavailable": "{sort}（已不可用）",
                 "delete_tag_confirmation": "確定要刪除此標籤？此標籤下的貼文將不會被刪除。",
                 "description_label": "說明",
                 "hide_label": "從「全部貼文」中隱藏",
@@ -51,7 +51,7 @@
                 "about_tags_text": "標籤用於分類貼文。主標籤類似於傳統論壇的板塊；次標籤無層級或順序，可作為子分類。拖動標籤即可排序或調整層級位置。",
                 "create_primary_tag_button": "新建主標籤",
                 "create_secondary_tag_button": "新建次標籤",
-                "edit_tag_label": "",
+                "edit_tag_label": "編輯標籤 {tag}",
                 "primary_heading": "主標籤",
                 "secondary_heading": "次標籤",
                 "settings_heading": "設置"
@@ -70,9 +70,9 @@
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "deck": {
-                "column_label": "",
-                "tag_label": "",
-                "tag_placeholder": ""
+                "column_label": "標籤",
+                "tag_label": "標籤",
+                "tag_placeholder": "搜尋標籤"
             },
             "discussion_controls": {
                 "edit_tags_button": "編輯標籤"
@@ -100,8 +100,8 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "標籤",
+                        "hint": "標籤名稱，或用英文逗號分隔的多個標籤名稱，或「無標籤」"
                     }
                 }
             },
@@ -125,12 +125,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "修改了 {discussion} 的標籤：{old_tags} → {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "建立了標籤 {tag}",
+                    "updated": "修改了標籤 {tag}",
+                    "deleted": "刪除了標籤 {tag}"
                 }
             }
         }
