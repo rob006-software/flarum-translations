@@ -2,60 +2,60 @@
     "prm-forum-activity": {
         "admin": {
             "permissions": {
-                "feature_label": ""
+                "feature_label": "Diskussionen hervorheben"
             },
             "settings": {
-                "default_tab_label": "",
-                "default_tab_help": "",
-                "default_tab_latest": "",
-                "default_tab_featured": "",
-                "default_tab_newest": "",
-                "default_tab_top": "",
-                "tab_style_label": "",
-                "tab_style_help": "",
-                "tab_style_tabs": "",
-                "tab_style_dropdown": "",
-                "tabs_label": "",
-                "tabs_help": "",
-                "color_mode_label": "",
-                "color_mode_help": "",
-                "color_mode_default": "",
-                "color_mode_theme": "",
-                "color_mode_tag": "",
-                "color_mode_manual": "",
-                "accent_color_label": "",
-                "accent_color_help": "",
-                "color_rows_label": "",
-                "color_rows_help": "",
-                "sticky_highlight_label": "",
-                "sticky_highlight_help": ""
+                "default_tab_label": "Standard-Aktivitäts-Tab",
+                "default_tab_help": "Welcher Reiter wird für Besucher, die noch keinen ausgewählt haben, zuerst geöffnet? Auf Tag-Seiten hat die tag-eigene Standardsortierung (flarum/tags) Vorrang.",
+                "default_tab_latest": "Neue Beiträge",
+                "default_tab_featured": "Hervorgehoben",
+                "default_tab_newest": "Neue Diskussionen",
+                "default_tab_top": "Beliebt",
+                "tab_style_label": "Tab-Layout",
+                "tab_style_help": "Zeige die Sortieroptionen entweder als nebeneinander angeordnete Schaltflächen oder als eine einzige Dropdown-Schaltfläche an.",
+                "tab_style_tabs": "Schaltflächen nebeneinander",
+                "tab_style_dropdown": "Eine Dropdown-Schaltfläche",
+                "tabs_label": "Angezeigte Tabs",
+                "tabs_help": "Tabs zur Sortierung ein- oder ausschalten. Von anderen Erweiterungen hinzugefügte Sortierkriterien (z. B. „Trends“, „Upvotes“) werden hier automatisch angezeigt.",
+                "color_mode_label": "Quelle der Akzentfarbe",
+                "color_mode_help": "Wird für die Farben der Tabs und Abschnittsüberschriften im Bereich „Forum-Aktivitäten“ verwendet.",
+                "color_mode_default": "Voreingestelltes Grün",
+                "color_mode_theme": "Primärfarbe des Forendesigns",
+                "color_mode_tag": "Farbe des aktuellen Tags (falls nicht vorhanden, wird Designfarbe verwendet)",
+                "color_mode_manual": "Manuell unten ausgewählte Farbe",
+                "accent_color_label": "Manuelle Akzentfarbe",
+                "accent_color_help": "Wird verwendet, wenn die Quelle der Akzentfarbe auf „Manuell“ eingestellt ist. Beispiel",
+                "color_rows_label": "Zeilen mit Tag-Farbe einfärben",
+                "color_rows_help": "Fügt einen sanften Hintergrund und einen linken Rand hinzu, wobei jeweils die Hauptfarbe des Tags der jeweiligen Diskussion verwendet wird.",
+                "sticky_highlight_label": "Angeheftete / Super-angeheftete Zeilen hervorheben",
+                "sticky_highlight_help": "Zeigt farbige linke Ränder für „angeheftete“, „tag-angeheftete“ und „super-angeheftete“-Diskussionen an, wenn huseyinfiliz/stickiest installiert ist (ohne diese Erweiterung ist die Nutzung weiterhin sicher)."
             }
         },
         "forum": {
-            "title": "",
+            "title": "Aktivitäten im Forum",
             "tabs": {
-                "latest": "",
-                "featured": "",
-                "newest": "",
-                "top": ""
+                "latest": "Neue Beiträge",
+                "featured": "Hervorgehoben",
+                "newest": "Neue Diskussionen",
+                "top": "Beliebt"
             },
             "columns": {
-                "topic": "",
-                "forum": "",
-                "posts": "",
-                "last_poster": ""
+                "topic": "Diskussion",
+                "forum": "Forum",
+                "posts": "Antworten",
+                "last_poster": "Letzte Antwort"
             },
-            "sticky_section": "",
-            "normal_section": "",
-            "sticky_label": "",
-            "empty": "",
-            "load_more": "",
+            "sticky_section": "Angeheftete Diskussionen",
+            "normal_section": "Normale Diskussionen",
+            "sticky_label": "Angeheftete Diskussion",
+            "empty": "Keine Diskussionen vorhanden.",
+            "load_more": "Mehr laden",
             "discussion_controls": {
-                "feature": "",
-                "unfeature": ""
+                "feature": "Hervorheben",
+                "unfeature": "Hervorhebung zurücknehmen"
             },
             "badge": {
-                "featured_tooltip": ""
+                "featured_tooltip": "Hervorgehobene Diskussion"
             }
         }
     }
