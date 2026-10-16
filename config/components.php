@@ -41,6 +41,12 @@ return [
 	'asyntai-chatbot' => [
 		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
 	],
+	'blenderrus-indexnow' => [
+		'tag' => 'https://raw.githubusercontent.com/BlenderRUS/flarum-indexnow/v1.0.2/locale/en.yml',
+		'__builtInLanguages' => [
+			'ru',
+		],
+	],
 	'captchala-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
