@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "Jeton API",
-                "api_token_help": "Créez un jeton d'accès personnel à l'adresse <a>https://github.com/settings/tokens/new</a> avec les champs d'application <code>user</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.",
+                "api_token_help": "Créez un jeton d'accès personnel à l'adresse <a>https://github.com/settings/tokens/new</a> avec les champs <code>read:user</code>, <code>user:email</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.",
                 "account_type_label": "Type de compte",
                 "account_type_help": "Indiquez si vous effectuez le suivi des sponsors pour un compte utilisateur GitHub personnel ou pour un compte d'organisation.",
                 "login_label": "Identifiant",
                 "login_help": "Saisissez votre nom d'utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s'agit du compte dont les sponsors seront synchronisés.",
-                "group_label": "Groupe à attribuer",
-                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront sponsors et supprimés lorsqu'ils cesseront de l'être.",
+                "group_label": "Groupe des parrains mensuels",
+                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les parrains mensuels actifs doivent être ajoutés. Les utilisateurs sont ajoutés lorsqu'ils commencent à parrainer mensuellement, puis transférés vers le groupe des parrainages ponctuels (si celui-ci est configuré) à la fin de leur parrainage mensuel.",
                 "onetime_group_label": "",
                 "onetime_group_help": "",
                 "onetime_group_none": ""
@@ -59,7 +59,7 @@
             "data": {
                 "githubsponsor": {
                     "export_description": "",
-                    "anonymize_description": "",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.githubsponsor.delete_description",
                     "delete_description": ""
                 }
             }
