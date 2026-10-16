@@ -13,8 +13,8 @@
                 "login_label": "Einloggen",
                 "login_help": "Gib deinen GitHub-Benutzernamen (für Benutzerkonten) oder den Namen den Organisationsnamen (für Organisationen) ein. Dies ist das Konto, dessen Sponsoren synchronisiert werden.",
                 "group_label": "Monatliche Sponsoren-Gruppe",
-                "group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe Sponsoren hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie Sponsoren werden, und entfernt, wenn sie ihr Sponsoring beenden.",
-                "onetime_group_label": "",
+                "group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe aktive monatliche Sponsoren hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie Sponsoren werden und in die Gruppe einmaliger Sponsoren (sofern eingerichtet) verschoben, sobald ihr monatliches Sponsoring endet.",
+                "onetime_group_label": "Gruppe einmaliger und vergangener Sponsoren (optional)",
                 "onetime_group_help": "",
                 "onetime_group_none": ""
             },
@@ -24,9 +24,9 @@
                 "last_success": "",
                 "last_failure": "",
                 "stale": "",
-                "test_button": "",
-                "test_success": "",
-                "request_failed": "",
+                "test_button": "Verbindung testen",
+                "test_success": "Mit {maintainer} als {account} verbunden. {sponsorships} öffentliche Sponsoren gefunden.",
+                "request_failed": "Der Verbindungstest konnte nicht durchgeführt werden.",
                 "reasons": {
                     "unauthorized": "",
                     "forbidden": "",
