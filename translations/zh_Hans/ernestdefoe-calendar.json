@@ -23,6 +23,7 @@
             "organizer": "组织者",
             "view_event": "查看活动",
             "view_discussion": "打开讨论",
+            "start_discussion": "",
             "export": "导出",
             "add_to_google": "添加到 Google 日历",
             "download_ics": "下载 .ics",
@@ -116,7 +117,8 @@
             "title_required": "必须填写标题。",
             "start_required": "必须填写有效的开始日期和时间。",
             "end_before_start": "结束时间必须晚于开始时间。",
-            "category_name_required": "必须填写分类名称。"
+            "category_name_required": "必须填写分类名称。",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "每周起始日",
             "week_sunday": "星期日",
             "week_monday": "星期一",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "在侧边栏导航中隐藏「日历」入口",
             "hide_nav_link_help": "隐藏后仍可通过「近期活动」小组件和 /calendar 地址访问日历，适合侧边栏入口较多时使用。",
             "show_index_widget": "在论坛首页显示「近期活动」小组件",

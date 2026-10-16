@@ -23,6 +23,7 @@
             "organizer": "Organisiert von",
             "view_event": "Veranstaltung anzeigen",
             "view_discussion": "Diskussion öffnen",
+            "start_discussion": "",
             "export": "Exportieren",
             "add_to_google": "Zu Google Kalender hinzufügen",
             "download_ics": ".ICS herunterladen",
@@ -116,7 +117,8 @@
             "title_required": "Ein Titel wird benötigt.",
             "start_required": "Ein gültiges Startdatum und -zeit wird benötigt.",
             "end_before_start": "Das Ende muss nach dem Beginn liegen.",
-            "category_name_required": "Der Kategoriename wird benötigt."
+            "category_name_required": "Der Kategoriename wird benötigt.",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "Die Woche beginnt am",
             "week_sunday": "Sonntag",
             "week_monday": "Montag",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "Link „Kalender“ in der Seitenleiste ausblenden",
             "hide_nav_link_help": "Der Kalender bleibt über das Widget „Bevorstehende Veranstaltungen“ und die URL /calendar erreichbar – praktisch, wenn deine Navigation zu überladen ist.",
             "show_index_widget": "Widget „Bevorstehende Veranstaltungen“ auf der Startseite des Forums anzeigen",

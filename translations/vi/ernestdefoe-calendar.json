@@ -23,6 +23,7 @@
             "organizer": "Tổ chức bởi",
             "view_event": "Xem sự kiện",
             "view_discussion": "Mở cuộc thảo luận",
+            "start_discussion": "",
             "export": "Xuất",
             "add_to_google": "Thêm vào Google Calendar",
             "download_ics": "Tải tệp .ics",
@@ -116,7 +117,8 @@
             "title_required": "Bắt buộc phải có tiêu đề.",
             "start_required": "Bắt buộc phải có ngày giờ bắt đầu hợp lệ.",
             "end_before_start": "Thời điểm kết thúc phải sau thời điểm bắt đầu.",
-            "category_name_required": "Bắt buộc phải có tên danh mục."
+            "category_name_required": "Bắt buộc phải có tên danh mục.",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "Tuần bắt đầu vào",
             "week_sunday": "Chủ nhật",
             "week_monday": "Thứ hai",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "Ẩn liên kết Lịch trong phần điều hướng ở thanh bên",
             "hide_nav_link_help": "Vẫn có thể vào lịch từ tiện ích Sự kiện sắp diễn ra và qua địa chỉ /calendar — hữu ích khi phần điều hướng của bạn đã quá chật.",
             "show_index_widget": "Hiển thị tiện ích “Sự kiện sắp diễn ra” ở trang chủ diễn đàn",

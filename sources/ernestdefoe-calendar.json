@@ -23,6 +23,7 @@
             "organizer": "Organized by",
             "view_event": "View event",
             "view_discussion": "Open discussion",
+            "start_discussion": "Start a discussion",
             "export": "Export",
             "add_to_google": "Add to Google Calendar",
             "download_ics": "Download .ics",
@@ -116,7 +117,8 @@
             "title_required": "The title is required.",
             "start_required": "A valid start date/time is required.",
             "end_before_start": "The end must be after the start.",
-            "category_name_required": "The category name is required."
+            "category_name_required": "The category name is required.",
+            "discussion_needs_tag": "Event discussions need a tag. An admin can choose one in the Calendar settings."
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "Week starts on",
             "week_sunday": "Sunday",
             "week_monday": "Monday",
+            "date_order": "Date format",
+            "date_order_help": "The order dates are written in across the calendar and its widgets. Automatic follows your forum’s language.",
+            "date_order_auto": "Automatic",
+            "date_order_dmy": "Day first (31 December 2026)",
+            "date_order_mdy": "Month first (December 31, 2026)",
+            "event_discussions": "Give every new event its own discussion",
+            "event_discussions_help": "Replies, likes, mentions and notifications then work exactly like any other discussion. Events made before this was on get a “Start a discussion” button for their organiser.",
+            "event_discussion_tags": "Tag event discussions with",
+            "event_discussion_tags_help": "Choose at least one — every new discussion on a forum with tags needs a tag. The organiser must be allowed to start discussions in it.",
             "hide_nav_link": "Hide the Calendar link in the sidebar navigation",
             "hide_nav_link_help": "The calendar stays reachable from the Upcoming events widget and the /calendar URL — useful if your nav is getting crowded.",
             "show_index_widget": "Show an “Upcoming events” widget on the forum index",

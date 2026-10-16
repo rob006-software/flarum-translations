@@ -23,6 +23,7 @@
             "organizer": "Организовано",
             "view_event": "Просмотреть событие",
             "view_discussion": "Открыть тему",
+            "start_discussion": "",
             "export": "Экспортировать",
             "add_to_google": "Добавить в Google Календарь",
             "download_ics": "Скачать .ics",
@@ -116,7 +117,8 @@
             "title_required": "",
             "start_required": "",
             "end_before_start": "",
-            "category_name_required": ""
+            "category_name_required": "",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "Неделя начинается с",
             "week_sunday": "Воскресенье",
             "week_monday": "Понедельник",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "Скрыть календарь в боковой навигации",
             "hide_nav_link_help": "Календарь останется в виджете «Ближайшие события» и по адресу /calendar — полезно, если навигация перегружена.",
             "show_index_widget": "Показывать виджет «Ближайшие события» на главной форума",

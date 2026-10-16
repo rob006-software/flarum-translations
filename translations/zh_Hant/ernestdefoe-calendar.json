@@ -23,6 +23,7 @@
             "organizer": "主辦者",
             "view_event": "查看活動",
             "view_discussion": "開啟討論",
+            "start_discussion": "",
             "export": "匯出",
             "add_to_google": "加入 Google 日曆",
             "download_ics": "下載 .ics",
@@ -116,7 +117,8 @@
             "title_required": "",
             "start_required": "",
             "end_before_start": "",
-            "category_name_required": ""
+            "category_name_required": "",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "每週起始日",
             "week_sunday": "星期日",
             "week_monday": "星期一",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "",
             "hide_nav_link_help": "",
             "show_index_widget": "在論壇首頁顯示「即將到來的活動」小工具",

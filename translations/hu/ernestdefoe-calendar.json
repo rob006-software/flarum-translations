@@ -23,6 +23,7 @@
             "organizer": "Szervező",
             "view_event": "Esemény megtekintése",
             "view_discussion": "Téma megnyitása",
+            "start_discussion": "",
             "export": "Exportálás",
             "add_to_google": "Hozzáadás a Google Naptárhoz",
             "download_ics": "Az .ics letöltése",
@@ -116,7 +117,8 @@
             "title_required": "A cím kötelező.",
             "start_required": "Érvényes kezdő dátum/időpont szükséges.",
             "end_before_start": "A végének a kezdete után kell lennie.",
-            "category_name_required": "A kategórianév kötelező."
+            "category_name_required": "A kategórianév kötelező.",
+            "discussion_needs_tag": ""
         },
         "lib": {
             "widgets": {
@@ -136,6 +138,15 @@
             "week_starts_on": "Hét kezdete",
             "week_sunday": "Vasárnap",
             "week_monday": "Hétfő",
+            "date_order": "",
+            "date_order_help": "",
+            "date_order_auto": "",
+            "date_order_dmy": "",
+            "date_order_mdy": "",
+            "event_discussions": "",
+            "event_discussions_help": "",
+            "event_discussion_tags": "",
+            "event_discussion_tags_help": "",
             "hide_nav_link": "Naptárhivatkozás elrejtése az oldalsáv-navigációban",
             "hide_nav_link_help": "A naptár elérhető marad a Közelgő események modulról, és a /calendar webcímről – hasznos, ha a navigáció zsúfolttá válik.",
             "show_index_widget": "A „Közelgő események” modul megjelenítése a fórum kezdőlapján",
