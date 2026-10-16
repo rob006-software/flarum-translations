@@ -33,7 +33,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/anto0102/MailGuard/v2.0.7/locale/en.yml',
 	],
 	'antoinefr-money' => [
-		'beta' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v2.0.0-rc.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'fr',
 		],
