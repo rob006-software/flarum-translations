@@ -267,7 +267,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rubric/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-scribe' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.10/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fof-seo/2.0.17/locale/en.yml',
