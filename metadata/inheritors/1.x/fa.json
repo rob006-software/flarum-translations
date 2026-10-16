@@ -23,6 +23,18 @@
             }
         }
     },
+    "clarkwinkelmann-prominent-post-numbers.json": {
+        "clarkwinkelmann-prominent-post-numbers": {
+            "admin": {
+                "settings": {
+                    "prefix": "d41d8cd98f00b204e9800998ecf8427e da09535fe072f41349cafc55e57cc69d"
+                }
+            },
+            "views": {
+                "format": "d41d8cd98f00b204e9800998ecf8427e f55cf03d065f24271aceca9d3c3f243c"
+            }
+        }
+    },
     "core.json": {
         "core": {
             "admin": {
@@ -2412,9 +2424,15 @@
     },
     "fof-forum-statistics-widget.json": {
         "fof-forum-statistics-widget": {
+            "admin": {
+                "settings": {
+                    "classic_look_label": "d41d8cd98f00b204e9800998ecf8427e 2900c90cbf0262f7352043dc9f5e3398"
+                }
+            },
             "forum": {
                 "navbar": {
                     "discussions_count": "f7d23e16f3262c63a447d9be6eb71ccf f7d23e16f3262c63a447d9be6eb71ccf",
+                    "latest_member": "d41d8cd98f00b204e9800998ecf8427e 59a447fea390a86c11144c3640ecb61c",
                     "posts_count": "f6870d5de4d999b79dd24f236ef49f57 f6870d5de4d999b79dd24f236ef49f57",
                     "users_count": "371c6e2df307b3cb0dad6a68b42d6bc8 371c6e2df307b3cb0dad6a68b42d6bc8"
                 }
@@ -3441,6 +3459,16 @@
             }
         }
     },
+    "fof-usercard-stats.json": {
+        "fof-usercard-stats": {
+            "forum": {
+                "user": {
+                    "discussion-count": "d41d8cd98f00b204e9800998ecf8427e 52f4ddc8c3d073d78468d6912b034315",
+                    "post-count": "d41d8cd98f00b204e9800998ecf8427e 4a5af613fade47de04d43a2e9e90ca03"
+                }
+            }
+        }
+    },
     "fof-username-request.json": {
         "fof-username-request": {
             "forum": {
@@ -3765,6 +3793,15 @@
                 "SettingsLink": "b67081a58bbfa92f732a9eafdff9243a b67081a58bbfa92f732a9eafdff9243a",
                 "discussion": "1fba4d52deca7e78411c1d977f21138d 1fba4d52deca7e78411c1d977f21138d",
                 "npost": "906cc71a8f8ed77b1a421cf3d1a3bca2 906cc71a8f8ed77b1a421cf3d1a3bca2"
+            }
+        }
+    },
+    "linkrobins-birdseye.json": {
+        "linkrobins-birdseye": {
+            "lib": {
+                "dashboard": {
+                    "posts": "d41d8cd98f00b204e9800998ecf8427e eab630a0b5ac90496e3b140ab0bba3e4"
+                }
             }
         }
     },
