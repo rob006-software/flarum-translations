@@ -278,6 +278,9 @@ return [
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-og-image' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/og-image/v2.0.9/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.6.7/locale/en.yml',
 	],
