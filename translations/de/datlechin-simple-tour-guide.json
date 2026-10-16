@@ -82,10 +82,10 @@
                 "key_label": "Schlüssel",
                 "key_help": "Identifiziert die Tour in Exporten und Links. Nicht mehr ändern, wenn Mitglieder sie bereits abgeschlossen haben.",
                 "start_mode_label": "Startet",
-                "start_mode_help": "Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Eine manuell gestartete Tour muss erst über die Einstellungsseite des jeweiligen Mitglieds gestartet werden.",
+                "start_mode_help": "Eine automatisch gestartete Tour, wird für jedes Mitglied, das die Kriterien erfüllt, einmal ausgeführt. Ein manueller Start ist nur über die Einstellungsseite des Mitglieds möglich, daher müssen dort die Touren aufgeführt sein.",
                 "route_label": "Seite",
                 "route_placeholder": "Jede Seite",
-                "route_help": "Die Flarum-Route, zu der diese Tour gehört, z. B. „index“ oder „discussion“. Lasse das Feld leer, wenn die Tour an der Kopfzeile verankert sein soll und dem Mitglied folgt.",
+                "route_help": "Die Flarum-Route, auf der diese Tour verläuft, z. B. „index“, „discussion“ oder „user“. Eine Route umfasst ihre Unterseiten, sodass „user“ auch „user.posts“ umfasst. Eine Tour gehört zu einer bestimmten Seite und endet, wenn das Mitglied diese verlässt; Schritte für eine andere Seite benötigen daher eine eigene Tour. Lasse das Feld leer, damit die Tour auf der Seite ausgeführt wird, auf der sich das Mitglied gerade befindet.",
                 "audience_label": "Wer sieht sie",
                 "audience_help": "Leer lassen, um die Tour allen anzuzeigen.",
                 "max_age_label": "Nur Konten, die neuer sind als",
@@ -105,9 +105,9 @@
                 "description_help": "Die Formatierung entspricht der eines Beitrags in diesem Forum, sodass Links, Fettdruck und Bilder funktionieren, sofern die entsprechenden Erweiterungen aktiviert sind.",
                 "target_label": "Ziel",
                 "target_placeholder": "Ein CSS-Selektor, z. B. #home-link",
-                "target_help": "Das Element, auf das sich dieser Schritt bezieht. Lasse es leer, um den Schritt für sich allein mittig auf dem Bildschirm anzuzeigen.",
+                "target_help": "Das Element, auf das dieser Schritt auf der Tour-Seite verweist. Ein Schritt, dessen Element zum Zeitpunkt des Aufrufs nicht vorhanden ist, wird übersprungen. Lasse das Feld leer, um den Schritt allein in der Mitte des Bildschirms anzuzeigen.",
                 "target_invalid": "Das ist kein gültiger CSS-Selektor.",
-                "target_route_mismatch": "",
+                "target_route_mismatch": "Ausgewählt auf {picked}, aber diese Tour verläuft auf der {route}. Der Schritt wird übersprungen, es sei denn, diese Seite enthält das Element ebenfalls.",
                 "pick_button": "Auswählen",
                 "test_button": "Testen",
                 "placement_label": "Position",
@@ -131,7 +131,7 @@
             }
         },
         "api": {
-            "step_not_in_tour": ""
+            "step_not_in_tour": "Dieser Schritt ist nicht Teil der Tour."
         },
         "forum": {
             "progress": "{current} von {total}",
@@ -141,10 +141,10 @@
             "close_button": "Tour beenden",
             "click_to_continue": "Klicken, um fortzufahren",
             "preview_notice": "Vorschau. Nichts, was du hier tust, wird aufgezeichnet.",
-            "go_to_page": "",
-            "preview_go_to": "",
-            "unknown_page": "",
-            "nothing_here": "",
+            "go_to_page": "Gehe zu der Seite, um die es in {title} geht, und dort geht es los.",
+            "preview_go_to": "Öffne eine {route}-Seite, und die Vorschau wird dort angezeigt.",
+            "unknown_page": "Dieses Forum hat keine Seite {route}.",
+            "nothing_here": "Nichts auf dieser Seite für {title}.",
             "settings": {
                 "heading": "Touren",
                 "none": "Es werden noch keine Touren angeboten.",
@@ -160,14 +160,14 @@
                 "matches": "{count, plural, =0 {Kein Treffer} one {# Treffer} other {# Treffer}}",
                 "browse": "Durchsuchen",
                 "resume": "Auswählen",
-                "show": "",
-                "go_to_page": "",
+                "show": "Anzeigen",
+                "go_to_page": "Öffne eine {route}-Seite und klicke dann erneut auf die Schaltfläche.",
                 "cancel": "Abbrechen"
             },
             "user_controls": {
                 "reset_tour_guide": "Touren erneut starten",
                 "reset_tour_guide_confirmation": "Soll dieses Mitglied bei seinem nächsten Besuch wieder seine Touren sehen?",
-                "reset_tour_guide_done": ""
+                "reset_tour_guide_done": "Ihre Touren werden wieder angeboten."
             }
         }
     }
