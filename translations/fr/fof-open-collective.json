@@ -9,8 +9,8 @@
                 "api_key_help": "Cette méthode d'authentification est obsolète. Veuillez envisager de passer à un jeton personnel.",
                 "personal_token_label": "Jeton personnel",
                 "personal_token_help": "Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d'Open Collective.",
-                "slug_label": "Identifiant texte unique collectif",
-                "slug_help": "Saisissez le slug de votre collectif Open Collective (la partie après opencollective.com/ dans l'URL de votre collectif).",
+                "slug_label": "Identifiant texte unique du collectif",
+                "slug_help": "Saisissez l’identifiant texte unique de votre collectif Open Collective (la partie après opencollective.com/ dans l'URL de votre collectif).",
                 "group_label": "Groupe des contributeurs réguliers",
                 "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les contributeurs réguliers doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront des contributeurs réguliers et transférés vers le groupe des contributeurs ponctuels (si configuré) à la fin de leur abonnement.",
                 "onetime_group_label": "Groupe de contributeurs ponctuels (facultatif)",
@@ -28,14 +28,14 @@
                 "request_failed": "Le test de connexion n'a pas pu être effectué.",
                 "reasons": {
                     "unauthorized": "Open Collective a rejeté le jeton. Il est possible qu'il ait expiré ou qu'il ait été révoqué.",
-                    "forbidden": "",
-                    "emails_hidden": "",
-                    "not_found": "",
-                    "rate_limited": "",
-                    "network": "",
-                    "configuration": "",
-                    "no_backers": "",
-                    "other": ""
+                    "forbidden": "Le jeton ne dispose pas d'une portée requise. Il a besoin des portées « orders » et « email ».",
+                    "emails_hidden": "Le jeton ne peut pas lire les adresses courriel des contributeurs. Il a besoin de la portée « email ».",
+                    "not_found": "Collectif introuvable. Vérifiez l’identifiant texte unique du collectif.",
+                    "rate_limited": "La limite de requêtes d'Open Collective a été atteinte. La prochaine synchronisation effectuera une nouvelle tentative.",
+                    "network": "Impossible d'accéder à Open Collective.",
+                    "configuration": "Le jeton, l’identifiant texte unique du collectif ou les paramètres de groupe sont incomplets.",
+                    "no_backers": "Open Collective n'a renvoyé aucun contributeur ; rien n'a donc été modifié. Exécutez la synchronisation avec l'option --force si cela vous convient.",
+                    "other": "Open Collective a renvoyé une réponse inattendue."
                 }
             }
         }
@@ -44,8 +44,8 @@
         "lib": {
             "browser": {
                 "fof_open_collective": {
-                    "recurring_started": "",
-                    "recurring_stopped": "",
+                    "recurring_started": "{username} est devenu un contributeur récurrent sur Open Collective. Groupes : {old_groups} → {new_groups}",
+                    "recurring_stopped": "Le soutien récurrent de {username} sur Open Collective a pris fin. Groupes : {old_groups} → {new_groups}",
                     "onetime_started": "",
                     "backing_ended": "",
                     "groups_changed": "",
