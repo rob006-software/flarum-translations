@@ -185,6 +185,9 @@ return [
 	'ernestdefoe-folio' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
 	],
+	'ernestdefoe-gameday' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gameday/1.8.5/resources/locale/en.yml',
+	],
 	'ernestdefoe-garrison' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.3/resources/locale/en.yml',
 	],
