@@ -1629,6 +1629,12 @@ return [
 			'tr',
 		],
 	],
+	'prm-security' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-security/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'prm-sleek-dark' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-sleek-dark/v0.1.0/locale/en.yml',
 		'__builtInLanguages' => [
