@@ -1825,8 +1825,6 @@ return [
 			'pl',
 		],
 	],
-	'tryhackx-thumb-sliders' => [
-	],
 	'tryhackx-topic-rating' => [
 		'__builtInLanguages' => [
 			'pl',
