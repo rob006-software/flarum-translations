@@ -50,24 +50,24 @@
                 "error_failed": "Das Speichern ist fehlgeschlagen. Bitte versuche es erneut."
             },
             "count": {
-                "users": "",
-                "categories": "",
-                "topics": "",
-                "posts": "",
-                "skipped": ""
+                "users": "Benutzer",
+                "categories": "Kategorien",
+                "topics": "Diskussionen",
+                "posts": "Beiträge",
+                "skipped": "Übersprungen"
             },
             "starting": "Starten…"
         },
         "api": {
-            "unknown_source": "",
-            "missing_run_id": "",
-            "run_not_found": "",
-            "starting": "",
-            "working": "",
-            "complete": "",
-            "failed": "",
-            "summary": "",
-            "summary_with_tags": "",
+            "unknown_source": "Unbekannte Importquelle.",
+            "missing_run_id": "Fehlende Ausführungs-ID.",
+            "run_not_found": "Import-Ausführung nicht gefunden.",
+            "starting": "Wird gestartet…",
+            "working": "Wird bearbeitet…",
+            "complete": "Import abgeschlossen.",
+            "failed": "Import fehlgeschlagen: {error}",
+            "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
+            "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
             "sqlsrv_missing": "",
             "dump_unreadable": "",
             "scratch_failed": "",
@@ -103,21 +103,21 @@
                 "unreadable": "",
                 "wrong_source": "",
                 "skipped_batches": "",
-                "empty": "",
+                "empty": "Die Datei ist leer.",
                 "binary": ""
             },
             "phase": {
                 "finishing": "",
-                "boards": "",
-                "categories": "",
-                "channels": "",
-                "comments": "",
-                "discussions": "",
-                "forums": "",
-                "members": "",
-                "posts": "",
-                "topics": "",
-                "member_counts": ""
+                "boards": "Bereiche werden importiert…",
+                "categories": "Kategorien werden importiert…",
+                "channels": "Kanäle werden importiert…",
+                "comments": "Kommentare werden importiert…",
+                "discussions": "Diskussionen werden importiert…",
+                "forums": "Foren werden importiert…",
+                "members": "Mitglieder werden importiert…",
+                "posts": "Beiträge werden importiert…",
+                "topics": "Diskussionen werden importiert…",
+                "member_counts": "Mitgliederanzahl wird aktualisiert…"
             }
         }
     }
