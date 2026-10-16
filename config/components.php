@@ -586,6 +586,9 @@ return [
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.1/locale/en.yml',
 	],
+	'floxum-spam-prevention' => [
+		'tag' => 'https://gitlab.com/floxum/extensions/flarum-ext-spam-prevention/raw/0.1.2/locale/en.yml',
+	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/1.1.1/resources/locale/en.yml',
 	],
