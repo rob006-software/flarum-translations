@@ -350,6 +350,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ffans-ip-location' => [
+		'beta' => 'https://raw.githubusercontent.com/FFans/ip-location/v2.0.0-beta.4/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.1/locale/en.yml',
 	],
