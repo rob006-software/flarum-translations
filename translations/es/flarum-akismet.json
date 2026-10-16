@@ -3,7 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "Clave API",
-                "invalid_api_key_message": "",
+                "invalid_api_key_message": "Akismet ha rechazado esta clave API. Por favor, verifíquela en su cuenta de Akismet e inténtelo de nuevo.",
                 "title": "Configuración de Akismet",
                 "delete_blatant_spam_label": "Eliminar automáticamente el spam flagrante",
                 "delete_blatant_spam_help": "Si Akismet determina que el comentario es spam descarado, en lugar de marcarlo como spam, elimina automáticamente la publicación"
