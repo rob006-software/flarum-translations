@@ -1623,6 +1623,12 @@ return [
 			'tr',
 		],
 	],
+	'prm-rank-banner' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-rank-banner/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v1.0.0/locale/en.yml',
 		'__builtInLanguages' => [
