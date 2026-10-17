@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Feld anlegen",
                 "edit-field": "Änderungen speichern",
-                "delete-field": "Feld löschen"
+                "delete-field": "Feld löschen",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Profil anderer Benutzer bearbeiten",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Felder",
+                "trash": "",
                 "create": "Feld erstellen",
                 "edit": "Feld „{field}“ bearbeiten",
                 "delete-confirmation": "Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "Feldsichtbarkeit einschränken",
                 "permissions": "Feldsichtbarkeit",
                 "permissions-alert": "Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.",
@@ -97,6 +101,8 @@
                     "field_created": "Profilfeld „{name}“ angelegt",
                     "field_updated": "Profilfeld „{name}“ aktualisiert",
                     "field_deleted": "Profilfeld „{name}“ gelöscht",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "Profilfeld von {username} aktualisiert"
                 }
             }

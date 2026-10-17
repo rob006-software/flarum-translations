@@ -90,6 +90,8 @@
                 "controls": "Dateisteuerung",
                 "new_version": "Eine Version hinzufügen",
                 "edit": "Details bearbeiten",
+                "link_discussion": "",
+                "change_discussion": "",
                 "feature": "Hervorheben",
                 "unfeature": "Nicht mehr hervorheben",
                 "delete": "Löschen",
@@ -223,6 +225,14 @@
                 "save": "Diese Version veröffentlichen",
                 "github": ""
             },
+            "link": {
+                "title": "",
+                "label": "",
+                "placeholder": "",
+                "help": "",
+                "save": "",
+                "unlink": ""
+            },
             "edit": {
                 "title": "Details bearbeiten",
                 "fields_label": "Zusätzliche Details",
@@ -318,6 +328,7 @@
             "bad_category": "",
             "pick_subcategory": "",
             "bad_tag": "",
+            "bad_discussion": "",
             "no_version": "",
             "duplicate_version": "Version {version} ist bereits vorhanden.",
             "last_version": "",

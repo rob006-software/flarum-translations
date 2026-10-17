@@ -7,6 +7,8 @@
             "igdb_help": "Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.",
             "igdb_client_id": "Client-ID",
             "igdb_client_secret": "Client Secret",
+            "deepl_label": "",
+            "deepl_help": "",
             "language_label": "Sprache der Daten",
             "language_help": "Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten bei IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.",
             "language_placeholder": "Die Forumsprache",
@@ -126,6 +128,7 @@
                 "attribution_igdb": "Spieldaten von IGDB.com",
                 "attribution_deezer": "Albumdaten und Coverbilder von Deezer",
                 "attribution_open_library": "Buchdaten und Umschlagbilder von Open Library",
+                "translated_deepl": "",
                 "authors": "Autoren",
                 "book_rating": "{rating} · {count} Open Library Bewertungen",
                 "want_to_read": "{count} möchten es lesen"

@@ -90,6 +90,8 @@
                 "controls": "File controls",
                 "new_version": "Add a version",
                 "edit": "Edit details",
+                "link_discussion": "Link a support discussion",
+                "change_discussion": "Change the support discussion",
                 "feature": "Feature it",
                 "unfeature": "Stop featuring it",
                 "delete": "Delete",
@@ -223,6 +225,14 @@
                 "save": "Publish this version",
                 "github": "New releases on github.com/{repo} are added automatically, about once an hour. Publish a release there and it will appear here."
             },
+            "link": {
+                "title": "Support discussion",
+                "label": "Discussion",
+                "placeholder": "Paste a link to the discussion, or its number",
+                "help": "People who open this file see the discussion's latest posts and can go straight to it. Only a discussion you can see yourself can be linked.",
+                "save": "Link this discussion",
+                "unlink": "Unlink the discussion"
+            },
             "edit": {
                 "title": "Edit details",
                 "fields_label": "Extra details",
@@ -318,6 +328,7 @@
             "bad_category": "Choose a category you can upload to.",
             "pick_subcategory": "That category has subcategories. Choose one of them.",
             "bad_tag": "You can't start a discussion in that tag. Choose another.",
+            "bad_discussion": "That isn't a discussion you can see here. Paste its link, or its number.",
             "no_version": "Give the version a number.",
             "duplicate_version": "Version {version} already exists.",
             "last_version": "This is the only version. Delete the file instead.",

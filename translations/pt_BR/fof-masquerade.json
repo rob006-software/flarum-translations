@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Criar campo",
                 "edit-field": "Salvar alterações",
-                "delete-field": "Excluir campo"
+                "delete-field": "Excluir campo",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Editar o perfil de outros usuários",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Campos",
+                "trash": "",
                 "create": "Criar campo",
                 "edit": "Editar campo {field}",
                 "delete-confirmation": "Tem certeza de que deseja excluir o campo {field}? Isso não pode ser desfeito.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "Restringir visibilidade do campo",
                 "permissions": "Visibilidade do campo",
                 "permissions-alert": "As configurações de permissão ficarão disponíveis ao editar o campo após a criação.",
@@ -95,6 +99,8 @@
                     "field_created": "Criou o campo de perfil \"{name}\"",
                     "field_updated": "Atualizou o campo de perfil \"{name}\"",
                     "field_deleted": "Excluiu o campo de perfil \"{name}\"",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "Atualizou os campos de perfil de {username}"
                 }
             }

@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Utwórz pole",
                 "edit-field": "Zapisz zmiany",
-                "delete-field": "Usuń pole"
+                "delete-field": "Usuń pole",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Edycja cudzego profilu masquerade",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Pola",
+                "trash": "",
                 "create": "Utwórz pole",
                 "edit": "Edytuj pole {field}",
                 "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć pole {field}? Ta operacja nie może zostać cofnięta.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "Ogranicz widoczność pola",
                 "permissions": "Widoczność pola",
                 "permissions-alert": "Ustawienia uprawnień będą widoczne podczas edycji, po utworzeniu pola.",
@@ -97,6 +101,8 @@
                     "field_created": "Utworzono pole profilu „{name}”",
                     "field_updated": "Zaktualizowano pole profilu „{name}”",
                     "field_deleted": "Usunięto pole profilu „{name}”",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "Zaktualizowano pola profilu użytkownika {username}"
                 }
             }

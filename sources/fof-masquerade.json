@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Create field",
                 "edit-field": "Save changes",
-                "delete-field": "Delete field"
+                "delete-field": "Move to trash",
+                "restore-field": "Restore field \"{field}\"",
+                "delete-field-permanently": "Delete field \"{field}\" permanently"
             },
             "permissions": {
                 "edit-others-profile": "Edit the profile of other users",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Fields",
+                "trash": "Trash",
                 "create": "Create field",
-                "edit": "Edit field {field}",
-                "delete-confirmation": "Are you sure you want to delete the field {field}? This cannot be undone.",
+                "edit": "Edit field \"{field}\"",
+                "delete-confirmation": "Move field \"{field}\" to trash?",
+                "delete-permanently-confirmation": "Permanently delete the field \"{field}\" and all its saved answers? This cannot be undone.",
                 "is_restricted": "Restrict field visibility",
                 "permissions": "Field visibility",
                 "permissions-alert": "Permission settings will be available when editing the field after creation.",
@@ -95,6 +99,8 @@
                     "field_created": "Created profile field \"{name}\"",
                     "field_updated": "Updated profile field \"{name}\"",
                     "field_deleted": "Deleted profile field \"{name}\"",
+                    "field_restored": "Restored profile field \"{name}\"",
+                    "field_permanently_deleted": "Permanently deleted profile field \"{name}\"",
                     "profile_updated": "Updated {username}'s profile fields"
                 }
             }
