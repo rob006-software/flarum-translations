@@ -1,55 +1,55 @@
 {
     "ernestdefoe-recipes": {
         "forum": {
-            "servings": "",
-            "prep": "",
-            "cook": "",
-            "total": "",
-            "ingredients": "",
-            "steps": "",
+            "servings": "Portionen",
+            "prep": "Vorbereitung",
+            "cook": "Kochzeit",
+            "total": "Insgesamt",
+            "ingredients": "Zutaten",
+            "steps": "Zubereitung",
             "duration": {
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "hours": "{count} h",
+                "minutes": "{count} min",
+                "seconds": "{count} s"
             },
             "card": {
-                "fewer": "",
-                "more": "",
-                "reset": "",
-                "print": "",
-                "print_label": "",
-                "timer_start": "",
-                "timer_pause": "",
-                "timer_resume": "",
-                "timer_done": "",
-                "timer_reset": ""
+                "fewer": "Weniger Portionen",
+                "more": "Mehr Portionen",
+                "reset": "Zurück zu ursprünglichen Mengenangaben",
+                "print": "Drucken",
+                "print_label": "Dieses Rezept drucken",
+                "timer_start": "Timer für {time} starten",
+                "timer_pause": "Timer anhalten",
+                "timer_resume": "Timer fortsetzen",
+                "timer_done": "Zeit vorbei",
+                "timer_reset": "Timer zurücksetzen"
             }
         },
         "lib": {
             "composer": {
-                "button": "",
-                "title": "",
-                "edit_title": "",
-                "name": "",
-                "name_placeholder": "",
-                "servings": "",
-                "prep": "",
-                "cook": "",
-                "time_placeholder": "",
-                "image": "",
+                "button": "Rezept",
+                "title": "Rezept einfügen",
+                "edit_title": "Rezept bearbeiten",
+                "name": "Titel",
+                "name_placeholder": "Fluffige Pfannkuchen",
+                "servings": "Portionen",
+                "prep": "Vorbereitungszeit",
+                "cook": "Kochzeit",
+                "time_placeholder": "z. B. 25m oder 1h 30m",
+                "image": "Foto-URL",
                 "image_help": "",
-                "description": "",
-                "ingredients": "",
+                "description": "Beschreibung",
+                "ingredients": "Zutaten",
                 "ingredients_help": "",
-                "steps": "",
+                "steps": "Schritte",
                 "steps_help": "",
-                "insert": "",
-                "update": "",
+                "insert": "Rezept einfügen",
+                "update": "Rezept speichern",
                 "invalid_image": "",
-                "empty": "",
-                "card_edit": "",
-                "card_label": "",
-                "card_untitled": ""
+                "empty": "Füge einen Titel, eine Zutat oder einen Schritt hinzu.",
+                "card_edit": "Bearbeiten",
+                "card_label": "Rezept: {title}",
+                "card_untitled": "Unbenanntes Rezept"
             }
         }
     }
