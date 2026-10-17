@@ -3947,6 +3947,18 @@
     },
     "ernestdefoe-club.json": {
         "ernestdefoe-club": {
+            "admin": {
+                "permission_create": "c11c825bc7715db4f8ed72e4fa4fb23e c11c825bc7715db4f8ed72e4fa4fb23e",
+                "permission_join": "a9f9cae8adeeb514f351d2cdb3e06b58 a9f9cae8adeeb514f351d2cdb3e06b58",
+                "permission_moderate": "42986cc8720f1789b1c67bbecbfbd8c2 42986cc8720f1789b1c67bbecbfbd8c2"
+            },
+            "api": {
+                "already_a_pick": "a9d56df4bf1eb2c0c877ac66f604f1e5 a9d56df4bf1eb2c0c877ac66f604f1e5",
+                "bad_section": "b46ee65831fd47c7b8f04b6e0187ccc6 b46ee65831fd47c7b8f04b6e0187ccc6",
+                "not_linked": "93ccd00b78c9706e7b6355d8ac983cb9 93ccd00b78c9706e7b6355d8ac983cb9",
+                "section_due": "b45695bfe11a583f58b421f9c308e95c b45695bfe11a583f58b421f9c308e95c",
+                "section_label": "755e2cc271a8d910aa7ff987803c8b63 755e2cc271a8d910aa7ff987803c8b63"
+            },
             "forum": {
                 "club": {
                     "delete": "1010b01ca33474b21dfca7411a13552c 1010b01ca33474b21dfca7411a13552c",
@@ -5582,11 +5594,13 @@
     "ernestdefoe-marquee.json": {
         "ernestdefoe-marquee": {
             "admin": {
+                "deepl_help": "109a63b15faad18a3efd9f354f3dab1a 109a63b15faad18a3efd9f354f3dab1a",
+                "deepl_label": "7ebfab088367b86b02d62808fccf6c83 7ebfab088367b86b02d62808fccf6c83",
                 "igdb_client_id": "eeb1efbd26704027efcf2f69b4db01db eeb1efbd26704027efcf2f69b4db01db",
                 "igdb_client_secret": "734082edf44417dd19cc65943aa65c36 734082edf44417dd19cc65943aa65c36",
                 "igdb_help": "8c437964bc2e67ce6952d235f1652ad2 8c437964bc2e67ce6952d235f1652ad2",
                 "igdb_label": "c57158578a28d333cb46334278fa6391 c57158578a28d333cb46334278fa6391",
-                "language_help": "f9e268adbf87a7fe3b820e1da21dead7 f9e268adbf87a7fe3b820e1da21dead7",
+                "language_help": "5a1d762196c0bc5ec3b14bdddff2d15c 5a1d762196c0bc5ec3b14bdddff2d15c",
                 "language_label": "06fd357c0185c71f72cee47de55c9f35 06fd357c0185c71f72cee47de55c9f35",
                 "language_placeholder": "6088b241a6fd42837813fd9ac76e48f3 6088b241a6fd42837813fd9ac76e48f3",
                 "list_posters_help": "8dc6fc93b69e54f31528e57ffbd1d0fd 8dc6fc93b69e54f31528e57ffbd1d0fd",
@@ -5655,6 +5669,7 @@
                     "time_to_beat": "f1e639eca47920a7499820d747c3ef5f f1e639eca47920a7499820d747c3ef5f",
                     "tracklist": "787ef97786216a54a5bc7bd988e120db 787ef97786216a54a5bc7bd988e120db",
                     "trailer": "7777d162b1fa729345ddb7de48654012 7777d162b1fa729345ddb7de48654012",
+                    "translated_deepl": "315559e633247f3ed8441b0305b64ef3 315559e633247f3ed8441b0305b64ef3",
                     "ttb_completely": "1dc408816208bf4a4b53e27bed9db80a 1dc408816208bf4a4b53e27bed9db80a",
                     "ttb_hastily": "e966d406cfbd059d078eb4a4ce45b8c5 e966d406cfbd059d078eb4a4ce45b8c5",
                     "ttb_normally": "d67b8e06b5db09f617b1bf9c2ed166d0 d67b8e06b5db09f617b1bf9c2ed166d0",
@@ -5979,13 +5994,17 @@
                     "edit_title": "e0e2c5b5e9e4fa8900bf72678b447bb6 e0e2c5b5e9e4fa8900bf72678b447bb6",
                     "empty": "eb5385e0f85907e0cf5142896ba3c4bf eb5385e0f85907e0cf5142896ba3c4bf",
                     "image": "324b1d507a27ba71799493e5332c293d 324b1d507a27ba71799493e5332c293d",
+                    "image_help": "d530fbbe0268faea829065d75ca00732 d530fbbe0268faea829065d75ca00732",
                     "ingredients": "1272b4912f6b84dac7f183407208740b 1272b4912f6b84dac7f183407208740b",
+                    "ingredients_help": "4fb4e0a031da061f7fa07e870d1b09da 4fb4e0a031da061f7fa07e870d1b09da",
                     "insert": "044ffb2711903efd6b03e245f3e0cc8b 044ffb2711903efd6b03e245f3e0cc8b",
+                    "invalid_image": "d1553199cd307ce81930649058248d98 d1553199cd307ce81930649058248d98",
                     "name": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
                     "name_placeholder": "a2dcd9a6b0c67d1fe72a06d543620a97 a2dcd9a6b0c67d1fe72a06d543620a97",
                     "prep": "9542d33e3288a37b20f6768a5972cd57 9542d33e3288a37b20f6768a5972cd57",
                     "servings": "378ba193957969a3a39789539e9b0dd5 378ba193957969a3a39789539e9b0dd5",
                     "steps": "f2ac27f1a0c1c01677f91207a3a11b44 f2ac27f1a0c1c01677f91207a3a11b44",
+                    "steps_help": "a2f049baca31e0275c73b0a61ed98cda a2f049baca31e0275c73b0a61ed98cda",
                     "time_placeholder": "2b69555e005d92fda2b7dc8500f2df04 2b69555e005d92fda2b7dc8500f2df04",
                     "title": "044ffb2711903efd6b03e245f3e0cc8b 044ffb2711903efd6b03e245f3e0cc8b",
                     "update": "771e76bc8f2de2061a62185729c4c6fa 771e76bc8f2de2061a62185729c4c6fa"
@@ -11008,6 +11027,9 @@
                     "title": "9b4cae6f1f7f5c6ac379bd84ef8fa80e 9b4cae6f1f7f5c6ac379bd84ef8fa80e"
                 }
             },
+            "api": {
+                "empty_draft_message": "23f443660b1fcfeb384bbd5b1199e578 23f443660b1fcfeb384bbd5b1199e578"
+            },
             "console": {
                 "no_title_error": "5c489f6a06b76488383aff810c61110a 5c489f6a06b76488383aff810c61110a",
                 "scheduled_drafts_disabled": "276f5c34eb93c7c591ae376a8a693a30 276f5c34eb93c7c591ae376a8a693a30"
@@ -12021,8 +12043,8 @@
                     "locale": "ff940ad7740516663c385c2e3837fec0 ff940ad7740516663c385c2e3837fec0",
                     "locale-all": "5c5709248f51c5fa89b90ce481ff317b 5c5709248f51c5fa89b90ce481ff317b",
                     "override-existing": "993a75b128594f9599447935a31d4811 993a75b128594f9599447935a31d4811",
-                    "results": "f83840725ca5a94fc4b5382b57eabccf f83840725ca5a94fc4b5382b57eabccf",
-                    "results-with-ignore": "8c3e9d6595556d0d7c66b83d2c95ec32 8c3e9d6595556d0d7c66b83d2c95ec32",
+                    "results": "36bfc7bcca9db6b1e07b718f03a553e2 36bfc7bcca9db6b1e07b718f03a553e2",
+                    "results-with-ignore": "8ef04b1bf99197792cfe0ba0ef45b5aa 8ef04b1bf99197792cfe0ba0ef45b5aa",
                     "submit": "5af5fb34160907d05c1ac280dbb7fc90 5af5fb34160907d05c1ac280dbb7fc90",
                     "title": "5af5fb34160907d05c1ac280dbb7fc90 5af5fb34160907d05c1ac280dbb7fc90"
                 },
@@ -12054,6 +12076,10 @@
                     "import": "5af5fb34160907d05c1ac280dbb7fc90 5af5fb34160907d05c1ac280dbb7fc90",
                     "strings": "f686f320c3802565876af86f523cdfb6 f686f320c3802565876af86f523cdfb6"
                 }
+            },
+            "api": {
+                "cannot_change_key_or_locale": "32cb763b965720965377d4a439778988 32cb763b965720965377d4a439778988",
+                "invalid_icu_syntax": "2e9ea9ab7676626b103d7a37350036ed 2e9ea9ab7676626b103d7a37350036ed"
             }
         }
     },
@@ -12240,6 +12266,8 @@
                     "masquerade": {
                         "field_created": "2f44e0ac37786a5a63ca89b6715b9d52 2f44e0ac37786a5a63ca89b6715b9d52",
                         "field_deleted": "7ef821d581a7a48836986969bb84af20 7ef821d581a7a48836986969bb84af20",
+                        "field_permanently_deleted": "39d79fde3937e4b4a6065cf73049aa3a 39d79fde3937e4b4a6065cf73049aa3a",
+                        "field_restored": "ffec1026e4ab2f6c03f6960d83a6f56a ffec1026e4ab2f6c03f6960d83a6f56a",
                         "field_updated": "c1089af92ff025aa7a29cf868e16f973 c1089af92ff025aa7a29cf868e16f973",
                         "profile_updated": "84c7f7cad40023da3ccb16a1ced9b7b1 84c7f7cad40023da3ccb16a1ced9b7b1"
                     }
@@ -12261,18 +12289,21 @@
             "admin": {
                 "buttons": {
                     "add-field": "3a04107a0d6ef356dc8de6004cce9ca4 3a04107a0d6ef356dc8de6004cce9ca4",
-                    "delete-field": "f15394683c7736122f3fff59c5b7a688 f15394683c7736122f3fff59c5b7a688",
-                    "edit-field": "2aecef96f81b160fed14d90375699a85 2aecef96f81b160fed14d90375699a85"
+                    "delete-field": "7317b17c6f563fc015840ace7de80cda 7317b17c6f563fc015840ace7de80cda",
+                    "delete-field-permanently": "051400e289020eccf0b4bb1a996cb4e0 051400e289020eccf0b4bb1a996cb4e0",
+                    "edit-field": "2aecef96f81b160fed14d90375699a85 2aecef96f81b160fed14d90375699a85",
+                    "restore-field": "2be887a5a4960402ff69064a375beb6c 2be887a5a4960402ff69064a375beb6c"
                 },
                 "fields": {
                     "add": "2f1179b324ee3cf1b4af9793419266ba 2f1179b324ee3cf1b4af9793419266ba",
                     "create": "0815b142ae82c0aec418df8f3da4400e 0815b142ae82c0aec418df8f3da4400e",
-                    "delete-confirmation": "22f4e3eed04619a137d1c76f37644967 22f4e3eed04619a137d1c76f37644967",
+                    "delete-confirmation": "79ed0b3712f3381f8302dad4af89fe99 79ed0b3712f3381f8302dad4af89fe99",
+                    "delete-permanently-confirmation": "98d3bff76358cf2a7c2b28537e85e06b 98d3bff76358cf2a7c2b28537e85e06b",
                     "description": "72f7c76d9eaa47372a0de17f8228b637 72f7c76d9eaa47372a0de17f8228b637",
                     "description-help": "3c358b89351187ff0390f9fcdb0be049 3c358b89351187ff0390f9fcdb0be049",
                     "edit": "de942a9763daf5e723dd9f864665fa24 de942a9763daf5e723dd9f864665fa24",
                     "force-user-to-completion": "0250424cb30ce49359c19215ebffb707 0250424cb30ce49359c19215ebffb707",
-                    "hide-empty-fields": "599ec6801880cfc7b8fea7f243d4141d 599ec6801880cfc7b8fea7f243d4141d",
+                    "hide-empty-fields": "6754535900af336f74871a1834f1cdea 6754535900af336f74871a1834f1cdea",
                     "icon": "02c86eb2792f3262c21d030a87e19793 02c86eb2792f3262c21d030a87e19793",
                     "icon-help": "96143ca6c0484f92ac1a343ecb18377a 96143ca6c0484f92ac1a343ecb18377a",
                     "is_restricted": "78ccc3b082baba60cb7b3f437a184112 78ccc3b082baba60cb7b3f437a184112",
@@ -12286,6 +12317,7 @@
                     "permissions-alert": "24a31c985e24646018fd6e19e38961dc 24a31c985e24646018fd6e19e38961dc",
                     "required": "44772c1facc8907094803f2f561c65d9 44772c1facc8907094803f2f561c65d9",
                     "title": "5a736d79157299b6ceeed1682b7cf3e8 5a736d79157299b6ceeed1682b7cf3e8",
+                    "trash": "feacfbd2c91af5cd584acbb3a700cbfa feacfbd2c91af5cd584acbb3a700cbfa",
                     "type": "c2ea84331318265913c436726c9c4ff3 c2ea84331318265913c436726c9c4ff3",
                     "validation": "3dbb4d7e5e43245c9793ee540b9dfc19 3dbb4d7e5e43245c9793ee540b9dfc19",
                     "validation-help": "61ba6eec9ad64b557e6af7e302a14d45 61ba6eec9ad64b557e6af7e302a14d45"
