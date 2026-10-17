@@ -1,15 +1,15 @@
 {
     "ernestdefoe-shelf": {
         "admin": {
-            "min_ratings_label": "",
-            "min_ratings_help": "",
-            "permission_use": "",
-            "permission_moderate": ""
+            "min_ratings_label": "Bewertungen, die ein Titel benötigt, um in der Liste der bestbewerteten aufgeführt zu werden",
+            "min_ratings_help": "Ein Titel mit weniger Bewertungen als dieser in diesem Zeitraum wird nicht in die Liste der am besten bewerteten Titel aufgenommen, sodass die fünf Sterne eines einzelnen Mitglieds nicht ausreichen, um ihn an die Spitze zu bringen. Die Liste wird alle zehn Minuten aktualisiert.",
+            "permission_use": "Titel bewerten und in Regal aufnehmen und auflisten",
+            "permission_moderate": "Regallisten von allen löschen"
         },
         "api": {
-            "empty_entry": "",
-            "too_many_lists": "",
-            "list_full": ""
+            "empty_entry": "Gib eine Bewertung ab, vergebe einen Status oder füge es zu deiner Sammlung hinzu.",
+            "too_many_lists": "Du kannst bis zu {count} Listen führen.",
+            "list_full": "Eine Liste kann bis zu {count} Titel enthalten."
         },
         "forum": {
             "kind": {
@@ -36,14 +36,14 @@
                 "owned": "In meiner Sammlung"
             },
             "card": {
-                "add_to_shelf": "",
+                "add_to_shelf": "Ins Regal stellen",
                 "rate_label": "Deine Bewertung",
-                "average_title": "",
-                "ratings": "",
-                "done_on_watch": "",
-                "done_on_read": "",
-                "done_on_play": "",
-                "done_on_listen": ""
+                "average_title": "Durchschnitt der Mitglieder aus {count, plural, one {einer Bewertung} other {# Bewertungen}}",
+                "ratings": "{count, plural, one {{formatted} Bewertung} other {{formatted} Bewertungen}}",
+                "done_on_watch": "Angeschaut {date}",
+                "done_on_read": "Gelesen {date}",
+                "done_on_play": "Gespielt {date}",
+                "done_on_listen": "Angehört {date}"
             },
             "menu": {
                 "want_watch": "",
