@@ -87,7 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Client ID Imgura",
-                    "deprecated": "",
+                    "deprecated": "Imgur nie udostępnia już identyfikatorów klientów API, dlatego ten adapter jest przestarzały i zostanie usunięty w przyszłej wersji. Przenieś te typy plików do innego adaptera przechowywania.",
                     "title": "Ustawienia Imgura",
                     "tos": "To Twoim obowiązkiem jest dopilnowanie, by użytkownicy forum przestrzegali <a>warunków korzystania z usługi</a> Imgur"
                 },
@@ -296,7 +296,7 @@
             "file_list": {
                 "loading": "Wczytywanie plików...",
                 "empty": "Nie ma żadnych plików do wyświetlenia.",
-                "load_error": "",
+                "load_error": "Nie udało się wczytać plików. Spróbuj ponownie.",
                 "release_to_upload": "Upuść, aby przesłać",
                 "modal_empty_desktop": "Lista plików jest pusta. Kliknij przycisk lub przeciągnij plik tutaj, aby go przesłać.",
                 "modal_empty_phone": "Lista plików jest pusta. Dotknij powyższego przycisku, aby przesłać plik.",
