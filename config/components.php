@@ -171,7 +171,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.5/locale/en.yml',
 	],
 	'ernestdefoe-depot' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.1/locale/en.yml',
 	],
 	'ernestdefoe-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.7/locale/en.yml',
