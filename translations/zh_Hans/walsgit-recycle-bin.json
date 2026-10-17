@@ -9,18 +9,19 @@
             "search_post_help_text": "搜索已隐藏帖子中的关键词",
             "total_hidden_discussions": "已隐藏讨论总数",
             "total_hidden_posts": "已隐藏帖子总数",
-            "empty_list": "回收站中暂无讨论",
-            "hidden_discussions": "已隐藏讨论",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "讨论标题",
-            "discussion_link_tooltip": "查看讨论",
             "author": "作者",
             "unknown_user": "未知用户",
             "created_at": "创建时间",
             "hidden_at": "隐藏时间",
             "unknown_date": "日期未知",
             "actions": "操作",
-            "restore_tooltip": "恢复讨论 #{discussionId}",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "恢复帖子 #{postId}",
             "restore_discussion": {
                 "title": "恢复讨论",
@@ -46,7 +47,7 @@
                 "delete_button": "永久删除帖子",
                 "success": "帖子已永久删除"
             },
-            "delete_tooltip": "永久删除讨论 #{discussionId}",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "永久删除帖子 #{postId}",
             "bulk_actions": "所选讨论操作： ",
             "bulk_post_actions": "所选帖子操作： ",
@@ -82,15 +83,31 @@
             },
             "bulk_delete_label": "永久删除所选讨论",
             "bulk_post_delete_label": "永久删除所选帖子",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "pagination": {
                 "first_page_button": "第一页",
                 "back_button": "上一页",
                 "page_counter": "第 {current} / {total} 页",
                 "go_to_page_textbox_a11y_label": "跳转到指定页",
                 "next_button": "下一页",
-                "last_page_button": "最后一页"
+                "last_page_button": "最后一页",
+                "page_counter_search": ""
             },
-            "mass_help_text": "批量恢复或删除后，请等待页面刷新",
             "grid": {
                 "invalid_column_content": "内容无效"
             },
@@ -99,6 +116,12 @@
                 "title": "帖子内容",
                 "open_post": "查看帖子"
             },
+            "empty_list": "回收站中暂无讨论",
+            "hidden_discussions": "已隐藏讨论",
+            "discussion_link_tooltip": "查看讨论",
+            "restore_tooltip": "恢复讨论 #{discussionId}",
+            "delete_tooltip": "永久删除讨论 #{discussionId}",
+            "mass_help_text": "批量恢复或删除后，请等待页面刷新",
             "unknownn_user": "未知用户"
         }
     }

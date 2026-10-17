@@ -9,18 +9,19 @@
             "search_post_help_text": "Поиск слов в скрытых сообщениях",
             "total_hidden_discussions": "Полностью скрытые темы",
             "total_hidden_posts": "Всего скрытых сообщений",
-            "empty_list": "В корзине нет тем.",
-            "hidden_discussions": "Скрытые темы",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "Заголовок темы",
-            "discussion_link_tooltip": "Просмотреть тему",
             "author": "Автор",
             "unknown_user": "Неизвестный пользователь",
             "created_at": "Создано",
             "hidden_at": "Скрыто",
             "unknown_date": "Неизвестная дата",
             "actions": "Действия",
-            "restore_tooltip": "Восстановить тему #{discussionId}",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "Восстановить сообщение #{postId}",
             "restore_discussion": {
                 "title": "Восстановить тему",
@@ -46,7 +47,7 @@
                 "delete_button": "Навсегда удалить это сообщение",
                 "success": "Сообщение успешно удалено"
             },
-            "delete_tooltip": "Удалить тему #{discussionId}",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "Удалить сообщение #{postId}",
             "bulk_actions": "Действия для выбранных тем: ",
             "bulk_post_actions": "Действия для выбранных сообщений: ",
@@ -82,15 +83,31 @@
             },
             "bulk_delete_label": "Удалить выбранные темы",
             "bulk_post_delete_label": "Удалить выбранные сообщения",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "pagination": {
                 "first_page_button": "Перейти на первую страницу",
                 "back_button": "Назад на предыдущую страницу",
                 "page_counter": "Страница {current} из {total}",
                 "go_to_page_textbox_a11y_label": "Перейти на конкретную страницу",
                 "next_button": "Перейти на следующую страницу",
-                "last_page_button": "Перейти на последнюю страницу"
+                "last_page_button": "Перейти на последнюю страницу",
+                "page_counter_search": ""
             },
-            "mass_help_text": "Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления",
             "grid": {
                 "invalid_column_content": "Недопустимый контент!"
             },
@@ -99,6 +116,12 @@
                 "title": "Текст сообщения",
                 "open_post": "Открыть сообщение"
             },
+            "empty_list": "В корзине нет тем.",
+            "hidden_discussions": "Скрытые темы",
+            "discussion_link_tooltip": "Просмотреть тему",
+            "restore_tooltip": "Восстановить тему #{discussionId}",
+            "delete_tooltip": "Удалить тему #{discussionId}",
+            "mass_help_text": "Пожалуйста ждите обновления страницы после подтверждения группового удаления или восстановления",
             "unknownn_user": "Неизвестный пользователь"
         }
     }

@@ -9,18 +9,19 @@
             "search_post_help_text": "Searches for words in the hidden posts",
             "total_hidden_discussions": "Total hidden discussions",
             "total_hidden_posts": "Total hidden posts",
-            "empty_list": "No discussions in the recycle bin.",
-            "hidden_discussions": "Hidden discussions",
+            "empty_discussions_list": "There are no discussions in the recycle bin.",
+            "empty_posts_list": "There are no posts in the recycle bin.",
+            "no_search_results": "There are no results for this search.",
+            "select_all": "Select all items on this page",
             "discussion_id": "ID",
             "discussion_title": "Discussion title",
-            "discussion_link_tooltip": "View discussion",
             "author": "Author",
             "unknown_user": "Unknown user",
             "created_at": "Created at",
             "hidden_at": "Hidden at",
             "unknown_date": "Unknown date",
             "actions": "Actions",
-            "restore_tooltip": "Restore discussion #{discussionId}",
+            "restore_discussion_tooltip": "Restore discussion #{discussionId}",
             "restore_post_tooltip": "Restore post #{postId}",
             "restore_discussion": {
                 "title": "Restore discussion",
@@ -46,7 +47,7 @@
                 "delete_button": "Forever delete this post",
                 "success": "Successfully deleted the post"
             },
-            "delete_tooltip": "Delete discussion #{discussionId}",
+            "delete_discussion_tooltip": "Delete discussion #{discussionId}",
             "delete_post_tooltip": "Delete post #{postId}",
             "bulk_actions": "Actions for selected discussions : ",
             "bulk_post_actions": "Actions for selected posts : ",
@@ -82,15 +83,31 @@
             },
             "bulk_delete_label": "Delete selected discussions",
             "bulk_post_delete_label": "Delete selected posts",
+            "bulk_delete_all_label": "Delete all discussions",
+            "bulk_post_delete_all_label": "Delete all posts",
+            "mass_delete_all_modal": {
+                "title": "Forever delete all hidden discussions",
+                "text_start": "Are you sure you want to <u>forever delete</u> ALL ",
+                "text_end": " discussions in the recycle bin (irreversible)?",
+                "submit_button": "Forever delete all discussions",
+                "success": "Successfully deleted all discussions"
+            },
+            "mass_delete_all_post_modal": {
+                "title": "Forever delete all posts",
+                "text_start": "Are you sure you want to <u>forever delete</u> ALL ",
+                "text_end": " posts in the recycle bin (irreversible)?",
+                "submit_button": "Forever delete all posts",
+                "success": "Successfully deleted all posts"
+            },
             "pagination": {
                 "first_page_button": "Go to first page",
                 "back_button": "Back to previous page",
                 "page_counter": "Page {current} of {total}",
                 "go_to_page_textbox_a11y_label": "Go directly to page number",
                 "next_button": "Go to next page",
-                "last_page_button": "Go to last page"
+                "last_page_button": "Go to last page",
+                "page_counter_search": "Page {current}"
             },
-            "mass_help_text": "Please wait for page refresh after confirming mass restore or delete",
             "grid": {
                 "invalid_column_content": "Invalid content!"
             },

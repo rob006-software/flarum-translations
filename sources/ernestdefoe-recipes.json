@@ -7,12 +7,30 @@
             "total": "Total",
             "ingredients": "Ingredients",
             "steps": "Method",
+            "based_on": "Based on another recipe",
             "duration": {
                 "hours": "{count} h",
                 "minutes": "{count} min",
                 "seconds": "{count} s"
             },
+            "directory": {
+                "title": "Recipes",
+                "nav": "Recipes",
+                "search_placeholder": "Search recipes",
+                "all_tags": "All tags",
+                "empty": "No recipes yet.",
+                "no_results": "No recipes match.",
+                "load_more": "Load more",
+                "by": "by {name}",
+                "variant": "Variant"
+            },
             "card": {
+                "based_on": "Based on {title} by {name}",
+                "variants": "Variants",
+                "remix": "Remix",
+                "remix_label": "Make your own version of this recipe",
+                "remix_reply": "As a reply here",
+                "remix_discussion": "As a new discussion",
                 "fewer": "Fewer servings",
                 "more": "More servings",
                 "reset": "Back to the original amounts",
@@ -49,7 +67,9 @@
                 "empty": "Add a title, an ingredient or a step.",
                 "card_edit": "Edit",
                 "card_label": "Recipe: {title}",
-                "card_untitled": "Untitled recipe"
+                "card_untitled": "Untitled recipe",
+                "remix_title": "Remix this recipe",
+                "remix_insert": "Open in the composer"
             }
         }
     }

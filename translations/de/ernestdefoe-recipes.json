@@ -7,12 +7,30 @@
             "total": "Insgesamt",
             "ingredients": "Zutaten",
             "steps": "Zubereitung",
+            "based_on": "",
             "duration": {
                 "hours": "{count} h",
                 "minutes": "{count} min",
                 "seconds": "{count} s"
             },
+            "directory": {
+                "title": "",
+                "nav": "",
+                "search_placeholder": "",
+                "all_tags": "",
+                "empty": "",
+                "no_results": "",
+                "load_more": "",
+                "by": "",
+                "variant": ""
+            },
             "card": {
+                "based_on": "",
+                "variants": "",
+                "remix": "",
+                "remix_label": "",
+                "remix_reply": "",
+                "remix_discussion": "",
                 "fewer": "Weniger Portionen",
                 "more": "Mehr Portionen",
                 "reset": "Zurück zu ursprünglichen Mengenangaben",
@@ -49,7 +67,9 @@
                 "empty": "Füge einen Titel, eine Zutat oder einen Schritt hinzu.",
                 "card_edit": "Bearbeiten",
                 "card_label": "Rezept: {title}",
-                "card_untitled": "Unbenanntes Rezept"
+                "card_untitled": "Unbenanntes Rezept",
+                "remix_title": "",
+                "remix_insert": ""
             }
         }
     }

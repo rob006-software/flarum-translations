@@ -9,18 +9,19 @@
             "search_post_help_text": "Tìm kiếm từ trong các bài viết bị ẩn",
             "total_hidden_discussions": "Tổng số thảo luận bị ẩn",
             "total_hidden_posts": "Tổng số bài viết bị ẩn",
-            "empty_list": "Không có thảo luận nào trong thùng rác.",
-            "hidden_discussions": "Thảo luận bị ẩn",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "Tiêu đề thảo luận",
-            "discussion_link_tooltip": "Xem thảo luận",
             "author": "Tác giả",
             "unknown_user": "Người dùng không xác định",
             "created_at": "Tạo lúc",
             "hidden_at": "Ẩn lúc",
             "unknown_date": "Ngày không xác định",
             "actions": "Hành động",
-            "restore_tooltip": "Khôi phục thảo luận #{discussionId}",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "Khôi phục bài viết #{postId}",
             "restore_discussion": {
                 "title": "Khôi phục thảo luận",
@@ -46,7 +47,7 @@
                 "delete_button": "Xóa vĩnh viễn bài viết này",
                 "success": "Đã xóa thành công bài viết"
             },
-            "delete_tooltip": "Xóa thảo luận #{discussionId}",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "Xóa bài viết #{postId}",
             "bulk_actions": "Hành động cho các thảo luận đã chọn : ",
             "bulk_post_actions": "Hành động cho các bài viết đã chọn : ",
@@ -82,15 +83,31 @@
             },
             "bulk_delete_label": "Xóa các thảo luận đã chọn",
             "bulk_post_delete_label": "Xóa các bài viết đã chọn",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "pagination": {
                 "first_page_button": "Đi đến trang đầu",
                 "back_button": "Quay lại trang trước",
                 "page_counter": "Trang {current} trên {total}",
                 "go_to_page_textbox_a11y_label": "Đi trực tiếp đến số trang",
                 "next_button": "Đi đến trang tiếp theo",
-                "last_page_button": "Đi đến trang cuối"
+                "last_page_button": "Đi đến trang cuối",
+                "page_counter_search": ""
             },
-            "mass_help_text": "Vui lòng đợi trang làm mới sau khi xác nhận khôi phục hoặc xóa hàng loạt",
             "grid": {
                 "invalid_column_content": "Nội dung không hợp lệ!"
             },
@@ -99,6 +116,12 @@
                 "title": "Nội dung bài viết",
                 "open_post": "Mở bài viết"
             },
+            "empty_list": "Không có thảo luận nào trong thùng rác.",
+            "hidden_discussions": "Thảo luận bị ẩn",
+            "discussion_link_tooltip": "Xem thảo luận",
+            "restore_tooltip": "Khôi phục thảo luận #{discussionId}",
+            "delete_tooltip": "Xóa thảo luận #{discussionId}",
+            "mass_help_text": "Vui lòng đợi trang làm mới sau khi xác nhận khôi phục hoặc xóa hàng loạt",
             "unknownn_user": "Người dùng không xác định"
         }
     }

@@ -9,18 +9,19 @@
             "search_post_help_text": "Sucht nach Wörtern in verborgenen Beiträgen",
             "total_hidden_discussions": "Verborgene Diskussionen insgesamt",
             "total_hidden_posts": "Verborgene Beiträge insgesamt",
-            "empty_list": "Keine Diskussionen im Papierkorb.",
-            "hidden_discussions": "Verborgene Diskussionen",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "Diskussionstitel",
-            "discussion_link_tooltip": "Diskussion anzeigen",
             "author": "Autor",
             "unknown_user": "Unbekannter Benutzer",
             "created_at": "Erstellt am",
             "hidden_at": "Verborgen am",
             "unknown_date": "Unbekanntes Datum",
             "actions": "Aktionen",
-            "restore_tooltip": "Diskussion #{discussionId} wiederherstellen",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "Beitrag #{postId} wiederherstellen",
             "restore_discussion": {
                 "title": "Diskussion wiederherstellen",
@@ -46,7 +47,7 @@
                 "delete_button": "Diesen Beitrag endgültig löschen",
                 "success": "Der Beitrag wurde erfolgreich gelöscht"
             },
-            "delete_tooltip": "Diskussion #{discussionId} löschen",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "Beitrag #{postId} löschen",
             "bulk_actions": "Aktionen für ausgewählte Diskussionen: ",
             "bulk_post_actions": "Aktionen für ausgewählte Beiträge: ",
@@ -82,15 +83,31 @@
             },
             "bulk_delete_label": "Ausgewählte Diskussionen löschen",
             "bulk_post_delete_label": "Ausgewählte Beiträge löschen",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
             "pagination": {
                 "first_page_button": "Zur Startseite",
                 "back_button": "Zurück zur vorherigen Seite",
                 "page_counter": "Seite {current} von {total}",
                 "go_to_page_textbox_a11y_label": "Direkt zur Seitenzahl springen",
                 "next_button": "Zur nächsten Seite",
-                "last_page_button": "Zur letzten Seite"
+                "last_page_button": "Zur letzten Seite",
+                "page_counter_search": ""
             },
-            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "grid": {
                 "invalid_column_content": "Ungültiger Inhalt!"
             },
@@ -99,6 +116,12 @@
                 "title": "Beitragstext",
                 "open_post": "Beitrag öffnen"
             },
+            "empty_list": "Keine Diskussionen im Papierkorb.",
+            "hidden_discussions": "Verborgene Diskussionen",
+            "discussion_link_tooltip": "Diskussion anzeigen",
+            "restore_tooltip": "Diskussion #{discussionId} wiederherstellen",
+            "delete_tooltip": "Diskussion #{discussionId} löschen",
+            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "unknownn_user": "Unbekannter Benutzer"
         }
     }
