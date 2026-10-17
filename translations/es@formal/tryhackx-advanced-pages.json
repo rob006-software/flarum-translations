@@ -31,31 +31,31 @@
                 "title": "Configuración de BBCode",
                 "bbcode_help": "Activa o desactiva etiquetas BBCode personalizadas para renderizar páginas. Los cambios requieren limpiar el caché del formateador (php flarum cache:clear).",
                 "bbcode_table": "[table] [tr] [th] [td] — Tablas",
-                "bbcode_spoiler": "",
-                "bbcode_center": "",
-                "bbcode_url": "",
-                "forum_title": "",
-                "forum_help": "",
-                "replace_forum_spoiler": "",
-                "code_buttons_in_posts": ""
+                "bbcode_spoiler": "[spoiler] — Contenido oculto",
+                "bbcode_center": "[center] — Centrar texto",
+                "bbcode_url": "[url] — Analizador de URL avanzado (admite enlaces rechazados por defecto en Flarum)",
+                "forum_title": "Integración con el foro",
+                "forum_help": "Personalizar la visualización de spoilers en los mensajes. Requiere vaciar la caché del formateador (php flarum cache:clear).",
+                "replace_forum_spoiler": "Usar spoiler de Advanced Pages en lugar del predeterminado de Flarum (details/summary)",
+                "code_buttons_in_posts": "Añadir botones de selección y copiado rápido en bloques de código de las publicaciones"
             },
             "edit_page": {
-                "create_title": "",
-                "edit_title": "",
-                "title_label": "",
-                "slug_label": "",
-                "parent_label": "",
+                "create_title": "Crear página",
+                "edit_title": "Editar página",
+                "title_label": "Título",
+                "slug_label": "Identificador URL (Slug)",
+                "parent_label": "Página superior",
                 "parent_none": "",
                 "parent_help": "",
-                "content_type_label": "",
-                "type_text": "",
+                "content_type_label": "Tipo de contenido",
+                "type_text": "Texto plano",
                 "type_redirect": "",
-                "content_label": "",
+                "content_label": "Contenido",
                 "redirect_url_label": "",
                 "redirect_url_help": "",
                 "redirect_immediate_label": "",
                 "redirect_immediate_help": "",
-                "is_published_label": "",
+                "is_published_label": "Publicado",
                 "is_hidden_label": "",
                 "is_restricted_label": "",
                 "visible_groups_label": "",
@@ -64,8 +64,8 @@
                 "preview": "",
                 "meta_description_label": "",
                 "submit_button": "",
-                "delete_button": "",
-                "delete_title": "",
+                "delete_button": "Borrar",
+                "delete_title": "Borrar página",
                 "delete_confirmation": "",
                 "cancel_button": "Cancelar",
                 "unsaved_title": "",
@@ -97,9 +97,9 @@
         },
         "forum": {
             "code": {
-                "select": "",
-                "copy": "",
-                "copied": ""
+                "select": "Seleccionar",
+                "copy": "Copiar",
+                "copied": "¡Copiado!"
             },
             "redirect": {
                 "countdown": "",
@@ -110,7 +110,7 @@
             },
             "page": {
                 "loading": "",
-                "not_found_title": "",
+                "not_found_title": "Página no enconrada",
                 "not_found_message": ""
             }
         }
