@@ -249,7 +249,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-onair' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.9/locale/en.yml',
 	],
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.3/locale/en.yml',
