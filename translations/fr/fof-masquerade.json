@@ -28,9 +28,9 @@
             "buttons": {
                 "add-field": "Créer un champ",
                 "edit-field": "Enregistrer les modifications",
-                "delete-field": "Supprimer le champ",
-                "restore-field": "",
-                "delete-field-permanently": ""
+                "delete-field": "Déplacer vers la corbeille",
+                "restore-field": "Restaurer le champ « {field} »",
+                "delete-field-permanently": "Supprimer définitivement le champ « {field} »"
             },
             "permissions": {
                 "edit-others-profile": "Modifier le profil des autres utilisateurs",
@@ -39,11 +39,11 @@
             },
             "fields": {
                 "title": "Champs",
-                "trash": "",
+                "trash": "Corbeille",
                 "create": "Créer un champ",
-                "edit": "Modifier le champ {field}",
-                "delete-confirmation": "Êtes-vous sûr de vouloir supprimer le champ {field} ? Cette action est irréversible.",
-                "delete-permanently-confirmation": "",
+                "edit": "Modifier le champ « {field} »",
+                "delete-confirmation": "Déplacer le champ « {field} » vers la corbeille ?",
+                "delete-permanently-confirmation": "Souhaitez-vous supprimer définitivement le champ « {field} » et toutes les réponses qui y sont enregistrées ? Cette action est irréversible.",
                 "is_restricted": "Restreindre la visibilité du champ",
                 "permissions": "Visibilité du champ",
                 "permissions-alert": "Les paramètres d'autorisation seront disponibles lors de la modification du champ après sa création.",
@@ -101,8 +101,8 @@
                     "field_created": "A créé le champ de profil « {name} »",
                     "field_updated": "A mis à jour le champ de profil « {name} »",
                     "field_deleted": "A supprimé le champ de profil « {name} »",
-                    "field_restored": "",
-                    "field_permanently_deleted": "",
+                    "field_restored": "Champ de profil « {name} » restauré",
+                    "field_permanently_deleted": "Champ de profil « {name} » définitivement supprimé",
                     "profile_updated": "A mis à jour les champs du profil de {username}"
                 }
             }
