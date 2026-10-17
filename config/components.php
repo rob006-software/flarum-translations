@@ -162,7 +162,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/chronicle/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-club' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/club/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/club/v1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.5/locale/en.yml',
