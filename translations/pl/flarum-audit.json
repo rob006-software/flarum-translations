@@ -81,7 +81,7 @@
                     "unknown": "Nieznany klient"
                 },
                 "controls": {
-                    "title": "",
+                    "title": "Elementy sterujące",
                     "hideRaw": "Ukryj surowy log",
                     "showRaw": "Pokaż surowy log",
                     "filterActor": "Pokaż logi tego użytkownika",
@@ -93,7 +93,7 @@
                 },
                 "audit_log_cleared": "Usunięto {deleted_count} wpisów z dziennika audytu",
                 "cache_cleared": "Ręcznie wyczyszczono pamięć podręczną",
-                "developer_token_created": "",
+                "developer_token_created": "Utworzono token deweloperski „{title}” dla użytkownika {username}",
                 "discussion": {
                     "created": "Rozpoczęto dyskusję {discussion}",
                     "deleted": "Usunięto dyskusję {discussion}",
@@ -113,13 +113,13 @@
                     "uninstalled": "Odinstalowano rozszerzenie {package}"
                 },
                 "queue": {
-                    "paused": "",
-                    "resumed": ""
+                    "paused": "Wstrzymano przetwarzanie kolejki {queue} ({connection})",
+                    "resumed": "Wznowiono przetwarzanie kolejki {queue} ({connection})"
                 },
                 "group": {
-                    "created": "",
-                    "deleted": "",
-                    "renamed": ""
+                    "created": "Utworzono grupę {name}",
+                    "deleted": "Usunięto grupę {name}",
+                    "renamed": "Zmieniono nazwę grupy z {old_name} na {new_name}"
                 },
                 "permission_changed": "Zmieniono uprawnienie {permission} z {old_groups} na {new_groups}",
                 "post": {
@@ -134,7 +134,7 @@
                 },
                 "setting_changed": "Zmieniono ustawienie {key}",
                 "setting_changed_with_values": "Zmieniono ustawienie {key} z {old_value} na {new_value}",
-                "settings_reset": "",
+                "settings_reset": "Zresetowano ustawienia {keys} rozszerzenia {extension}",
                 "user": {
                     "activated": "Ręcznie aktywowano konto użytkownika {username}",
                     "activated_with_email": "Aktywowano konto użytkownika {username} przez link potwierdzający",
