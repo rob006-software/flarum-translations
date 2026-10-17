@@ -3950,12 +3950,17 @@
         "fof-oauth": {
             "admin": {
                 "configure_button_label": "aace061e036fb78eac5dda786d124e2f aace061e036fb78eac5dda786d124e2f",
+                "permissions": {
+                    "moderate_user_providers": "d41d8cd98f00b204e9800998ecf8427e 0b06da5fc2ffea00289a740b1d7179ca"
+                },
                 "settings": {
                     "advanced": {
                         "heading": "76a468db01029307b3cffa7bb7e16824 76a468db01029307b3cffa7bb7e16824",
                         "log-oauth-errors-help": "fc659113ed7502c186c883d8eb46913d fc659113ed7502c186c883d8eb46913d",
                         "log-oauth-errors-label": "ba8ad885c56ec9042c8f3f339c66a9b3 ba8ad885c56ec9042c8f3f339c66a9b3"
                     },
+                    "disable_avatars_help": "d41d8cd98f00b204e9800998ecf8427e bbd1670a9a8d0c49ec9769cdc9b5d6ae",
+                    "disable_avatars_label": "d41d8cd98f00b204e9800998ecf8427e 7ece27c5021ac43f39882b2fc36ae834",
                     "only_icons_label": "b9db6fc115a4bfab08ad781c891a39c8 b9db6fc115a4bfab08ad781c891a39c8",
                     "providers": {
                         "callback_url_text": "91d4c45bccb39933bb4a1da00363faa8 91d4c45bccb39933bb4a1da00363faa8",
@@ -3983,13 +3988,17 @@
                         "google": {
                             "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
                             "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
-                            "description": "2994910604dba7683c650ca4b2d3a0a9 2994910604dba7683c650ca4b2d3a0a9"
+                            "description": "2994910604dba7683c650ca4b2d3a0a9 2994910604dba7683c650ca4b2d3a0a9",
+                            "hosted_domain_label": "d41d8cd98f00b204e9800998ecf8427e 7292c23db32946edb1564de1d60fa280"
                         },
+                        "group_help": "d41d8cd98f00b204e9800998ecf8427e d129fb4c69407cff809ed2d34b9a8989",
+                        "group_label": "d41d8cd98f00b204e9800998ecf8427e 83bd40df726ed411ff262015811386b4",
                         "linkedin": {
                             "client_id_label": "d47707256e40ecc534633dfeebd1259c d47707256e40ecc534633dfeebd1259c",
                             "client_secret_label": "e99fee4473832f9c0d1990563fcf0bc1 e99fee4473832f9c0d1990563fcf0bc1",
                             "description": "2994910604dba7683c650ca4b2d3a0a9 2994910604dba7683c650ca4b2d3a0a9"
                         },
+                        "no_group_label": "d41d8cd98f00b204e9800998ecf8427e 02c1dbb2498e6b9ece77d0c3f75d1392",
                         "twitter": {
                             "api_key_label": "d876ff8da67c3731ae25d8335a4168b4 d876ff8da67c3731ae25d8335a4168b4",
                             "api_secret_label": "1ddec0f92f297e937bdf409977df0c02 1ddec0f92f297e937bdf409977df0c02",
@@ -4001,12 +4010,19 @@
                 },
                 "settings_accessibility_label": "daeca2d03817128cf933427b02b06798 daeca2d03817128cf933427b02b06798"
             },
+            "email": {
+                "provider_email_change_notice": {
+                    "body": "d41d8cd98f00b204e9800998ecf8427e ac45842f5fb1528a36e37e20d4bbf847",
+                    "subject": "d41d8cd98f00b204e9800998ecf8427e 5da6fc893abcc408a25ae5d98790b783"
+                }
+            },
             "forum": {
                 "error": {
                     "bad_verification_code": "cf10efbc32a260d0f8b0b6ae24c96014 cf10efbc32a260d0f8b0b6ae24c96014",
                     "invalid_state": "2c6d9bf2067174fcdc32d7f3cb427b17 2c6d9bf2067174fcdc32d7f3cb427b17"
                 },
                 "log_in": {
+                    "unverified_email_in_use": "d41d8cd98f00b204e9800998ecf8427e 4f09d0882a6805bbe7636d3a8d924e94",
                     "with_button": "b8cc8c641aacc3928e6e583c2fc65bf7 b8cc8c641aacc3928e6e583c2fc65bf7",
                     "with_discord_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
                     "with_facebook_button": "625db5950e116b42b8d60e995c02ab39 625db5950e116b42b8d60e995c02ab39",
@@ -4033,6 +4049,7 @@
                     "settings": {
                         "linked-account": {
                             "help": "fd762aa67a1d5a845c52e955b58f6a9d fd762aa67a1d5a845c52e955b58f6a9d",
+                            "identification-label": "d41d8cd98f00b204e9800998ecf8427e af45bf679465d450edc4049c92794f2d",
                             "identifier-label": "af45bf679465d450edc4049c92794f2d af45bf679465d450edc4049c92794f2d",
                             "label": "69d943be357d398c3d21e6f6c0c6c3d3 69d943be357d398c3d21e6f6c0c6c3d3",
                             "last-used-label": "3ef82a13f86bf298bd1a0237e3df2681 3ef82a13f86bf298bd1a0237e3df2681",
