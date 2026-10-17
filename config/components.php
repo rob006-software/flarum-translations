@@ -359,6 +359,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'ernestdefoe-espn-cfb-ticker' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/espn-cfb-ticker/v2.0.13/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.1/locale/en.yml',
 	],
