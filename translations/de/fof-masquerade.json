@@ -28,9 +28,9 @@
             "buttons": {
                 "add-field": "Feld anlegen",
                 "edit-field": "Änderungen speichern",
-                "delete-field": "Feld löschen",
-                "restore-field": "",
-                "delete-field-permanently": ""
+                "delete-field": "In den Papierkorb verschieben",
+                "restore-field": "Feld „{field}“ wiederherstellen",
+                "delete-field-permanently": "Feld „{field}“ endgültig löschen"
             },
             "permissions": {
                 "edit-others-profile": "Profil anderer Benutzer bearbeiten",
@@ -39,11 +39,11 @@
             },
             "fields": {
                 "title": "Felder",
-                "trash": "",
+                "trash": "Papierkorb",
                 "create": "Feld erstellen",
                 "edit": "Feld „{field}“ bearbeiten",
-                "delete-confirmation": "Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
-                "delete-permanently-confirmation": "",
+                "delete-confirmation": "Das Feld „{field}“ in den Papierkorb verschieben?",
+                "delete-permanently-confirmation": "Das Feld „{field}“ und alle darin gespeicherten Antworten endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
                 "is_restricted": "Feldsichtbarkeit einschränken",
                 "permissions": "Feldsichtbarkeit",
                 "permissions-alert": "Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.",
@@ -59,7 +59,7 @@
                 "icon": "Symbol",
                 "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n",
                 "force-user-to-completion": "Ausfüllen des Profils verpflichtend machen",
-                "hide-empty-fields": "Leere Felder verbergen",
+                "hide-empty-fields": "Leere Felder ausblenden",
                 "options": "Optionen",
                 "option-new": "Neue Option",
                 "option-comma-warning": "Die Bezeichnung einer Option darf kein Komma enthalten (\",\").",
@@ -101,8 +101,8 @@
                     "field_created": "Profilfeld „{name}“ angelegt",
                     "field_updated": "Profilfeld „{name}“ aktualisiert",
                     "field_deleted": "Profilfeld „{name}“ gelöscht",
-                    "field_restored": "",
-                    "field_permanently_deleted": "",
+                    "field_restored": "Profilfeld „{name}“ wiederhergestellt",
+                    "field_permanently_deleted": "Profilfeld „{name}“ endgültig gelöscht",
                     "profile_updated": "Profilfeld von {username} aktualisiert"
                 }
             }
