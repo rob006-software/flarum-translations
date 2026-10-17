@@ -1310,5 +1310,8 @@ return [
 	'yippy-tag-with-themes' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-tag-with-themes/v2.0.3/locale/en.yml',
 	],
+	'zerosonesfun-log' => [
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-log/2.0.2/locale/en.yml',
+	],
 	/* extensions list end */
 ];
