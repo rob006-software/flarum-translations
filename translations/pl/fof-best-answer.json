@@ -23,7 +23,7 @@
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
                 "schedule_stop_overnight_help": "Przypomnienia są wysyłane tylko w godzinach 8.00–21.00 UTC.",
                 "schedule_log_output": "Zapisuj w logu przebieg wysyłania przypomnień",
-                "schedule_log_output_help": "",
+                "schedule_log_output_help": "Dopisuje wynik każdego uruchomienia do pliku storage/logs/fof-best-answer.log.",
                 "show_filter_label": "Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią",
                 "show_filter_help": "Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście",
                 "use_alt_ui": "Alternatywny układ",
@@ -70,8 +70,8 @@
                 "unsolved_link": "Nierozwiązane dyskusje"
             },
             "deck": {
-                "best_answers": "",
-                "unsolved_questions": ""
+                "best_answers": "Najlepsze odpowiedzi",
+                "unsolved_questions": "Nierozwiązane pytania"
             },
             "filter": {
                 "all_label": "Wszystkie pytania",
@@ -96,9 +96,9 @@
                 "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
             },
             "body": {
-                "awarded": "Świetna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w „{discussion_title}”. Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "ba-set": "{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji „{discussion_title}”, w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "select": "Tylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie „{discussion_title}”. Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem – dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli – poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
+                "awarded": "Świetna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w „{discussion_title}”. Dzięki za pomoc!\n\nLink do dyskusji: {discussion_url}\n",
+                "ba-set": "{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji „{discussion_title}”, w której uczestniczyłeś.\n\nLink do dyskusji: {discussion_url}\n",
+                "select": "Tylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie „{discussion_title}”. Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem – dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli – poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij link: {discussion_url}\n\nDzięki!\n"
             }
         },
         "lib": {
@@ -107,10 +107,10 @@
                     "key": "rozwiązane"
                 },
                 "qna": {
-                    "key": ""
+                    "key": "pytanie"
                 },
                 "solution": {
-                    "key": ""
+                    "key": "rozwiązanie"
                 }
             }
         }
