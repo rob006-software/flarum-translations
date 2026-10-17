@@ -170,6 +170,12 @@ return [
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.5/locale/en.yml',
 	],
+	'ernestdefoe-curio' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'fr',
+		],
+	],
 	'ernestdefoe-depot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.1/locale/en.yml',
 	],
