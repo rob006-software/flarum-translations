@@ -4,7 +4,7 @@
             "configure_button_label": "Skonfiguruj z FoF OAuth",
             "settings_accessibility_label": "Ustawienia {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Moderowanie powiązanych kont użytkowników"
             },
             "settings": {
                 "advanced": {
@@ -15,16 +15,16 @@
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, a dostawca OAuth zwróci przy logowaniu zweryfikowany adres e-mail inny niż adres użytkownika na forum, na nowy adres zostanie wysłany link potwierdzający, a na obecny – powiadomienie. Adres e-mail zostanie zmieniony po kliknięciu w link. Dostawcy, którzy nie potwierdzają, że adres jest zweryfikowany (w tym zewnętrzni dostawcy, którzy nie zostali jeszcze zaktualizowani, aby to obsługiwać), nie zmienią adresu e-mail.",
-                "oauth_only_label": "",
-                "oauth_only_help": "",
-                "oauth_only_sign_up_closed_warning": "",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "oauth_only_label": "Zezwalaj na logowanie i rejestrację tylko przez dostawców OAuth",
+                "oauth_only_help": "Po włączeniu tej opcji użytkownicy nie będą mogli logować się, rejestrować ani resetować hasła za pomocą hasła. Zamiast tego będą korzystać z włączonych dostawców. Administratorzy nadal będą mogli logować się hasłem przez link „Logowanie administratora” w oknie logowania. Konta istniejących użytkowników, którzy nie mają powiązanego dostawcy, zostaną powiązane podczas pierwszego logowania przez dostawcę, jeśli potwierdzi on ten sam adres e-mail. Pozostali będą potrzebować pomocy administratora. Ustawienie nie działa, jeśli nie włączono żadnego dostawcy. W sekcji uprawnień pozostaw rejestrację ustawioną na „Otwarta”, w przeciwnym razie nowi użytkownicy nie będą mogli rejestrować się również przez dostawców.\n",
+                "oauth_only_sign_up_closed_warning": "Rejestracja jest ustawiona na „Zamknięta” w sekcji <a>Uprawnienia</a>. Flarum stosuje to ustawienie również do rejestracji przez dostawców, więc dopóki rejestracja jest zamknięta, nikt nie może dołączyć do forum.",
+                "disable_avatars_label": "Wyłącz pobieranie awatarów od dostawcy",
+                "disable_avatars_help": "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "group_label": "Przypisz grupę",
+                    "group_help": "Wybierz grupę, do której automatycznie będą przypisywani użytkownicy rejestrujący się przez tego dostawcę.",
+                    "no_group_label": "Nie przypisuj grupy",
                     "discord": {
                         "description": "Utwórz aplikację na {link}. Dodaj URL do przekierowania w zakładce OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -50,7 +50,7 @@
                         "description": "Utwórz aplikację na {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Domena organizacji (G Suite/Google Apps for Business, opcjonalnie)"
                     },
                     "linkedin": {
                         "description": "Utwórz aplikację na {link}.",
@@ -67,9 +67,9 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
-                "unverified_email_in_use_oauth_only": "",
-                "admin_log_in_link": "",
+                "unverified_email_in_use": "{provider} nie potwierdził tego adresu e-mail, więc nie możemy użyć go do zalogowania. Jeśli masz już konto, zaloguj się poniżej, a następnie powiąż je z usługą {provider} w ustawieniach konta.",
+                "unverified_email_in_use_oauth_only": "{provider} nie potwierdził tego adresu e-mail, więc nie możemy użyć go do zalogowania. Potwierdź adres e-mail w usłudze {provider} i spróbuj ponownie lub poproś administratora o pomoc.",
+                "admin_log_in_link": "Logowanie administratora",
                 "with_button": "Zaloguj się za pomocą {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -85,7 +85,7 @@
                         "label": "Powiązane konta",
                         "last-used-label": "Ostatnio używane",
                         "link-created-label": "Utworzono powiązanie",
-                        "identification-label": "",
+                        "identification-label": "ID {provider}",
                         "orphaned-account": "Zalogowałeś się za pomocą tej usługi w przeszłości, ale obecnie logowanie za pomocą tej metody zostało wyłączone.",
                         "help": "Te powiązane konta pozwalają Ci zalogować się na forum za pomocą zewnętrznych usług.",
                         "identifier-label": "ID {provider}",
@@ -103,9 +103,9 @@
                 "twitter": "Twittera"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Konto powiązane",
+                "body": "Twoje konto <strong>{username}</strong> na forum {forum} zostało powiązane z usługą {provider}. Od teraz możesz logować się hasłem do forum lub za pomocą usługi {provider}.",
+                "dismiss_button": "Rozumiem"
             },
             "signup": {
                 "username_help": "Wybierz nazwę użytkownika wykorzystywaną na forum"
@@ -114,13 +114,13 @@
             "error": {
                 "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",
                 "invalid_state": "Nieprawidłowy status. Spróbuj ponownie.",
-                "already_linked": ""
+                "already_linked": "To konto jest już powiązane z innym użytkownikiem."
             }
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
-                "body": ""
+                "subject": "Prośba o zmianę adresu e-mail",
+                "body": "Po zalogowaniu się na forum {forum} za pomocą usługi {provider} poproszono o zmianę adresu e-mail Twojego konta na {new_email}. Zmiana zacznie obowiązywać po potwierdzeniu nowego adresu.\n\nJeśli to nie Ty, ktoś mógł uzyskać dostęp do Twojego konta w usłudze {provider}. Zabezpiecz je i skontaktuj się z administratorami forum {forum}.\n"
             }
         },
         "lib": {
@@ -135,8 +135,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "dostawca logowania"
                 }
             }
         },
