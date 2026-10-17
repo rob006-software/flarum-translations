@@ -101,8 +101,8 @@
                 "locale-all": "Pseudo-locale \"All\"",
                 "override-existing": "Override my existing custom translations",
                 "submit": "Import",
-                "results": "The import is finished. {imported} strings have been imported and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n",
-                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n"
+                "results": "The import is finished. {imported} strings have been imported, and {identical} identical strings and {empty} empty strings were skipped. The page will now refresh to show the new translations.\n",
+                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored, and {identical} identical strings and {empty} empty strings were skipped. The page will now refresh to show the new translations.\n"
             },
             "known-namespace": {
                 "core": "Flarum Core",
@@ -115,6 +115,10 @@
                 "ref": "Ref (re-used in other keys)",
                 "api": "API"
             }
+        },
+        "api": {
+            "invalid_icu_syntax": "The translation is not valid ICU message syntax, for example because a brace is not closed.",
+            "cannot_change_key_or_locale": "The key and locale of a saved translation cannot be changed."
         }
     }
 }
