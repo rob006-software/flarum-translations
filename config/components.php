@@ -636,7 +636,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/2.0.0-beta.3/resources/locale/en.yml',
 	],
 	'fof-split' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/2.0.0-beta.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/2.0.0/locale/en.yml',
 	],
 	'fof-subscribed' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/2.0.0-beta.1/resources/locale/en.yml',
