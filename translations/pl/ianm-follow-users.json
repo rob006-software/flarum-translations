@@ -13,9 +13,9 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "follow_label": "",
+                "follow_label": "Obserwowanie innych użytkowników",
                 "be_followed_label": "Może być obserwowany",
-                "view_followed_users_label": ""
+                "view_followed_users_label": "Wyświetlanie użytkowników obserwowanych przez innych"
             },
             "settings": {
                 "button-on-profile-label": "Pokaż przycisk do obserwowania bezpośrednio w nagłówku profilu użytkownika",
@@ -77,30 +77,30 @@
         },
         "email": {
             "new_discussion_by_user": {
-                "subject": "",
+                "subject": "{user_display_name} rozpoczął nową dyskusję",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} rozpoczął nową dyskusję: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} rozpoczął nową dyskusję: [{discussion_title}]({discussion_url})."
                 }
             },
             "new_follower": {
-                "subject": "",
+                "subject": "{follower_display_name} zaczął Cię obserwować",
                 "plain": {
-                    "body": ""
+                    "body": "{follower_display_name} zaczął Cię obserwować, więc będzie otrzymywać powiadomienia, gdy rozpoczniesz nową dyskusję.\n\n{profile_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{follower_display_name} zaczął Cię obserwować, więc będzie otrzymywać powiadomienia, gdy rozpoczniesz nową dyskusję."
                 }
             },
             "new_post": {
-                "subject": "",
+                "subject": "{user_display_name} dodał post w dyskusji {discussion_title}",
                 "plain": {
-                    "body": ""
+                    "body": "{user_display_name} dodał post w dyskusji {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNie otrzymasz kolejnych powiadomień o tej dyskusji, dopóki nie nadrobisz zaległości.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{user_display_name} dodał post w dyskusji [{discussion_title}]({post_url})."
                 }
             }
         },
@@ -125,7 +125,7 @@
             },
             "gambits": {
                 "followeduser": {
-                    "key": ""
+                    "key": "obserwowany"
                 }
             }
         }
