@@ -7,30 +7,30 @@
             "total": "Insgesamt",
             "ingredients": "Zutaten",
             "steps": "Zubereitung",
-            "based_on": "",
+            "based_on": "Basierend auf einem anderen Rezept",
             "duration": {
                 "hours": "{count} h",
                 "minutes": "{count} min",
                 "seconds": "{count} s"
             },
             "directory": {
-                "title": "",
-                "nav": "",
-                "search_placeholder": "",
-                "all_tags": "",
-                "empty": "",
-                "no_results": "",
-                "load_more": "",
-                "by": "",
-                "variant": ""
+                "title": "Rezepte",
+                "nav": "Rezepte",
+                "search_placeholder": "Rezepte durchsuchen",
+                "all_tags": "Alle Tags",
+                "empty": "Noch keine Rezepte.",
+                "no_results": "Keine passenden Rezepte.",
+                "load_more": "Mehr laden",
+                "by": "von {name}",
+                "variant": "Variante"
             },
             "card": {
-                "based_on": "",
-                "variants": "",
-                "remix": "",
-                "remix_label": "",
-                "remix_reply": "",
-                "remix_discussion": "",
+                "based_on": "Basierend auf {title} von {name}",
+                "variants": "Varianten",
+                "remix": "Remix",
+                "remix_label": "Kreiere deine eigene Variante dieses Rezepts",
+                "remix_reply": "Als Antwort hier",
+                "remix_discussion": "Als eine neue Diskussion",
                 "fewer": "Weniger Portionen",
                 "more": "Mehr Portionen",
                 "reset": "Zurück zu ursprünglichen Mengenangaben",
@@ -68,8 +68,8 @@
                 "card_edit": "Bearbeiten",
                 "card_label": "Rezept: {title}",
                 "card_untitled": "Unbenanntes Rezept",
-                "remix_title": "",
-                "remix_insert": ""
+                "remix_title": "Dieses Rezept remixen",
+                "remix_insert": "Im Composer öffnen"
             }
         }
     }

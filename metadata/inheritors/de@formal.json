@@ -3965,8 +3965,13 @@
                     "edit": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad",
                     "leave": "82f357d1e4c80c143a22db05a3e9cd9e 82f357d1e4c80c143a22db05a3e9cd9e",
                     "name_label": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
+                    "no_picks": "94b10d0c8d266ccc525ab8e53e8f09ba 94b10d0c8d266ccc525ab8e53e8f09ba",
+                    "no_picks_host": "a037448532a2d36ec74dbaccbfc7a37a a037448532a2d36ec74dbaccbfc7a37a",
                     "open_discussion": "ec8891c470fd5ae5821be81067a21eaf ec8891c470fd5ae5821be81067a21eaf",
                     "save": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271"
+                },
+                "clubs": {
+                    "members": "8f9ff774c6a7fe1207c688a1613be2dd 8f9ff774c6a7fe1207c688a1613be2dd"
                 },
                 "composer": {
                     "about": "e4fc557f576be7e92b592f15007c2b2d e4fc557f576be7e92b592f15007c2b2d"
@@ -3975,14 +3980,18 @@
                     "done_of": "0fe47ac649db11f7ce56a1660b55c514 0fe47ac649db11f7ce56a1660b55c514",
                     "due": "2b1655585141017ac9a1b117ab2b805b 2b1655585141017ac9a1b117ab2b805b",
                     "members": "8f9ff774c6a7fe1207c688a1613be2dd 8f9ff774c6a7fe1207c688a1613be2dd",
+                    "pick_for": "5457ddff1f104923e501ca2b8acda410 5457ddff1f104923e501ca2b8acda410",
                     "your_progress": "b7136c608d116d522052db57a0d0d682 b7136c608d116d522052db57a0d0d682"
                 },
                 "pick": {
                     "add_section": "becf159a1c44ac53fa9a6f311f310688 becf159a1c44ac53fa9a6f311f310688",
+                    "club_label": "aeef646f76c57ed9084edddbb6365b9c aeef646f76c57ed9084edddbb6365b9c",
                     "default_part": "34c4cc843791111427add03142196bfe 34c4cc843791111427add03142196bfe",
                     "default_week": "2f138583cb6beb29aaea3672ad9c068f 2f138583cb6beb29aaea3672ad9c068f",
+                    "due_label": "f0e49ddba82f02a005797364f965719b f0e49ddba82f02a005797364f965719b",
                     "edit_title": "922116444562cfe504efd65f58adaefd 922116444562cfe504efd65f58adaefd",
                     "month_label": "1570ac089f695b7fc28d6123c0a0b5bc 1570ac089f695b7fc28d6123c0a0b5bc",
+                    "remove_section": "d5ff82db65a3576edc6606e2dfc944b9 d5ff82db65a3576edc6606e2dfc944b9",
                     "schedule_label": "8d579728573f416b53d9165daec558ea 8d579728573f416b53d9165daec558ea",
                     "section_label": "778ec17304f547852ec9b719416984c9 778ec17304f547852ec9b719416984c9",
                     "section_placeholder": "eb3f7328e5cbbb2834f809a1f579028a eb3f7328e5cbbb2834f809a1f579028a"
@@ -5646,13 +5655,13 @@
     "ernestdefoe-marquee.json": {
         "ernestdefoe-marquee": {
             "admin": {
-                "deepl_help": "109a63b15faad18a3efd9f354f3dab1a 109a63b15faad18a3efd9f354f3dab1a",
+                "deepl_help": "56a7b0b6908a059087e239ba58f7fd61 56a7b0b6908a059087e239ba58f7fd61",
                 "deepl_label": "7ebfab088367b86b02d62808fccf6c83 7ebfab088367b86b02d62808fccf6c83",
                 "igdb_client_id": "eeb1efbd26704027efcf2f69b4db01db eeb1efbd26704027efcf2f69b4db01db",
                 "igdb_client_secret": "734082edf44417dd19cc65943aa65c36 734082edf44417dd19cc65943aa65c36",
                 "igdb_help": "8c437964bc2e67ce6952d235f1652ad2 8c437964bc2e67ce6952d235f1652ad2",
                 "igdb_label": "c57158578a28d333cb46334278fa6391 c57158578a28d333cb46334278fa6391",
-                "language_help": "5a1d762196c0bc5ec3b14bdddff2d15c 5a1d762196c0bc5ec3b14bdddff2d15c",
+                "language_help": "b7a81d310234a90234259a4a12c5886c b7a81d310234a90234259a4a12c5886c",
                 "language_label": "06fd357c0185c71f72cee47de55c9f35 06fd357c0185c71f72cee47de55c9f35",
                 "language_placeholder": "6088b241a6fd42837813fd9ac76e48f3 6088b241a6fd42837813fd9ac76e48f3",
                 "list_posters_help": "8dc6fc93b69e54f31528e57ffbd1d0fd 8dc6fc93b69e54f31528e57ffbd1d0fd",
@@ -5709,6 +5718,7 @@
                     "episode_score": "cad8a1414c9fd419dd66985de844a331 cad8a1414c9fd419dd66985de844a331",
                     "explicit": "e41890fa8ef4843dcd970157270b9792 e41890fa8ef4843dcd970157270b9792",
                     "fans": "a46a85a1a6bee9d5b0cbf87ccb43ed37 a46a85a1a6bee9d5b0cbf87ccb43ed37",
+                    "from_wikipedia": "26e4311f279b5f2d9742a41acf6461d1 26e4311f279b5f2d9742a41acf6461d1",
                     "guest_stars": "64f0e809a16125609730acfbf27300cd 64f0e809a16125609730acfbf27300cd",
                     "hours": "3c6bad25f88f4c37a702246b3b7ec0aa 3c6bad25f88f4c37a702246b3b7ec0aa",
                     "listen_on": "89e2187f72cbdcd0c13a34121d9f08fb 89e2187f72cbdcd0c13a34121d9f08fb",
@@ -6011,19 +6021,37 @@
     "ernestdefoe-recipes.json": {
         "ernestdefoe-recipes": {
             "forum": {
+                "based_on": "56f639734e30871b9acaad4ee3d8dc58 56f639734e30871b9acaad4ee3d8dc58",
                 "card": {
+                    "based_on": "c863f4d44086127760f328398ddfc344 c863f4d44086127760f328398ddfc344",
                     "fewer": "1aa3faf70d0a25affa5b6905ab438ae7 1aa3faf70d0a25affa5b6905ab438ae7",
                     "more": "9a34a41b9948c45af662f9422c3cf460 9a34a41b9948c45af662f9422c3cf460",
                     "print": "86ebb5f06f46b9208103658ef4486da6 86ebb5f06f46b9208103658ef4486da6",
                     "print_label": "d86d9ed9dcdabcaedd0b620f40af7411 d86d9ed9dcdabcaedd0b620f40af7411",
+                    "remix": "d3932716505231ac00a4471c5766efe4 d3932716505231ac00a4471c5766efe4",
+                    "remix_discussion": "737fde9abbdb3e454a57efb8cc1deca5 737fde9abbdb3e454a57efb8cc1deca5",
+                    "remix_label": "54e36d1040c3e2a8854aac9eab0fc762 54e36d1040c3e2a8854aac9eab0fc762",
+                    "remix_reply": "2c1820924e427994a97aafe2c28b3eb6 2c1820924e427994a97aafe2c28b3eb6",
                     "reset": "aed81bbd76a9040478e5cf4696e4e9cc aed81bbd76a9040478e5cf4696e4e9cc",
                     "timer_done": "556040d0a4997053b6df9352fc094a58 556040d0a4997053b6df9352fc094a58",
                     "timer_pause": "fbbddcc045cdf40870a5c97412228590 fbbddcc045cdf40870a5c97412228590",
                     "timer_reset": "1ac2cd815c5e843b5a09394007415e5a 1ac2cd815c5e843b5a09394007415e5a",
                     "timer_resume": "fbb694a1e305bd8185cd2db19046026b fbb694a1e305bd8185cd2db19046026b",
-                    "timer_start": "0046d6dbf45dc68f933bbcfdb0f42d5f 0046d6dbf45dc68f933bbcfdb0f42d5f"
+                    "timer_start": "0046d6dbf45dc68f933bbcfdb0f42d5f 0046d6dbf45dc68f933bbcfdb0f42d5f",
+                    "variants": "6ed06a646b71bd9d6d44203ab0d78ed5 6ed06a646b71bd9d6d44203ab0d78ed5"
                 },
                 "cook": "64a0261af96de214b016661b7a6ebc39 64a0261af96de214b016661b7a6ebc39",
+                "directory": {
+                    "all_tags": "f35859ecc9454cd25294662e8787bbfd f35859ecc9454cd25294662e8787bbfd",
+                    "by": "9579af291dbc98946855f89bd8e5b9a1 9579af291dbc98946855f89bd8e5b9a1",
+                    "empty": "dc8491a8c32b29bf6820134f9c9d0890 dc8491a8c32b29bf6820134f9c9d0890",
+                    "load_more": "5cc9dddd6270544a19301d3227a40a18 5cc9dddd6270544a19301d3227a40a18",
+                    "nav": "ec374eacca8536ad0451b9dfa490af6f ec374eacca8536ad0451b9dfa490af6f",
+                    "no_results": "962c2e23ce51108c6be8fb3b08ec81f4 962c2e23ce51108c6be8fb3b08ec81f4",
+                    "search_placeholder": "a6ba45f6634bcb31221ee30eae2ae229 a6ba45f6634bcb31221ee30eae2ae229",
+                    "title": "ec374eacca8536ad0451b9dfa490af6f ec374eacca8536ad0451b9dfa490af6f",
+                    "variant": "18ba1e98e443deee7b9d509a116bbdb8 18ba1e98e443deee7b9d509a116bbdb8"
+                },
                 "duration": {
                     "hours": "0979825ba209f3b6862c3d93de75d2c4 0979825ba209f3b6862c3d93de75d2c4",
                     "minutes": "ba72c27e68b6bd834cc28003e960b9cf ba72c27e68b6bd834cc28003e960b9cf",
@@ -6054,6 +6082,8 @@
                     "name": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
                     "name_placeholder": "a2dcd9a6b0c67d1fe72a06d543620a97 a2dcd9a6b0c67d1fe72a06d543620a97",
                     "prep": "9542d33e3288a37b20f6768a5972cd57 9542d33e3288a37b20f6768a5972cd57",
+                    "remix_insert": "e3a0e59229f75f192f732acd2011a031 e3a0e59229f75f192f732acd2011a031",
+                    "remix_title": "07500ab70addb89312ad663ae92a6d66 07500ab70addb89312ad663ae92a6d66",
                     "servings": "378ba193957969a3a39789539e9b0dd5 378ba193957969a3a39789539e9b0dd5",
                     "steps": "f2ac27f1a0c1c01677f91207a3a11b44 f2ac27f1a0c1c01677f91207a3a11b44",
                     "steps_help": "a2f049baca31e0275c73b0a61ed98cda a2f049baca31e0275c73b0a61ed98cda",
