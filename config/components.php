@@ -870,7 +870,7 @@ return [
 		],
 	],
 	'lcoy-cipher' => [
-		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.2/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
