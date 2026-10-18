@@ -1,0 +1,300 @@
+{
+    "ernestdefoe-curio": {
+        "forum": {
+            "status": {
+                "owned": "Owned",
+                "wishlist": "Wanted",
+                "trade": "Open to trade"
+            },
+            "condition": {
+                "sealed": "Sealed",
+                "mint": "Mint",
+                "very_good": "Very good",
+                "good": "Good",
+                "fair": "Fair",
+                "poor": "Poor"
+            },
+            "visibility": {
+                "public": "Everyone",
+                "public_help": "Anyone who can see collections on this forum.",
+                "members": "Members",
+                "members_help": "Only people signed in to the forum.",
+                "private": "Only me",
+                "private_help": "Nobody else, not even other members."
+            },
+            "count": {
+                "items": "{count, plural, one {# item} other {# items}}",
+                "wanted": "{count} wanted",
+                "trade": "{count} to trade"
+            },
+            "filter": {
+                "all": "All",
+                "owned": "Owned",
+                "wishlist": "Wanted",
+                "trade": "Open to trade",
+                "any": "Any {field}"
+            },
+            "sort": {
+                "position": "Owner's order",
+                "recent": "Recently added",
+                "title": "Title",
+                "year": "Newest first"
+            },
+            "table": {
+                "title": "Title",
+                "status": "Status"
+            },
+            "page": {
+                "missing": "This collection doesn't exist, or you can't see it.",
+                "empty": "Nothing here yet.",
+                "since": "Since {date}",
+                "owned": "Owned",
+                "wanted": "Wanted",
+                "trade": "To trade",
+                "follow": "Follow",
+                "following": "Following",
+                "followers": "{count, plural, one {# follower} other {# followers}}",
+                "add_item": "Add an item",
+                "settings": "Settings",
+                "search": "Search {count} items…",
+                "filter_label": "Show",
+                "view_label": "View",
+                "view_grid": "Grid",
+                "view_list": "List",
+                "arrange": "Arrange",
+                "arrange_done": "Done",
+                "load_more": "Show more"
+            },
+            "edit": {
+                "title_new": "New collection",
+                "title_edit": "Collection settings",
+                "type": "What do you collect?",
+                "name": "Name",
+                "name_placeholder": "The Nintendo shelf",
+                "description": "Description",
+                "visibility": "Who can see it",
+                "wishlist_public": "Show what I'm looking for (wanted items) to others",
+                "featured": "Feature it on the Collections page",
+                "create": "Create collection",
+                "save": "Save",
+                "delete": "Delete collection",
+                "delete_confirm": "Delete {name} and everything in it? This can't be undone."
+            },
+            "item_edit": {
+                "title_new": "Add to {name}",
+                "title_edit": "Edit item",
+                "tab_find": "Look it up",
+                "tab_details": "Details & photos",
+                "search_placeholder": "Title, or scan or type a barcode or ISBN",
+                "barcode_placeholder": "Scan or type a barcode or ISBN",
+                "scan": "Scan",
+                "scan_stop": "Stop",
+                "camera_error": "The camera could not be started. You can type the barcode instead.",
+                "barcode_found": "Barcode {code} recognised.",
+                "barcode_unknown": "Nobody knows barcode {code} yet. Add it by hand and the next person who scans it will get your entry.",
+                "no_results": "Nothing found. Try fewer words, or add it by hand.",
+                "find_hint": "Picking a result fills in the cover and details, and its title and description show in every language this forum speaks.",
+                "by_hand": "Add it by hand",
+                "lookup_failed": "That title could not be looked up just now. Try again, or add it by hand.",
+                "cover_looked_up": "Looked-up cover",
+                "add_photos": "Add your own photos",
+                "photos_hint": "Drop, paste or choose · up to {count} more",
+                "remove_photo": "Remove photo",
+                "title": "Title",
+                "translated_hint": "Readers see it in their own language ({count} available).",
+                "subtitle": "Developer, artist or author",
+                "year": "Year",
+                "status": "Status",
+                "condition": "Condition",
+                "condition_none": "Not set",
+                "acquired": "Acquired on",
+                "notes": "Notes",
+                "notes_placeholder": "Where you found it, what's in the box, anything worth saying…",
+                "price": "Price paid",
+                "price_private": "Only you see this",
+                "favourite": "Favourite",
+                "choose": "Choose…",
+                "add": "Add to collection",
+                "save": "Save",
+                "delete": "Delete item",
+                "delete_confirm": "Delete {title}? This can't be undone."
+            },
+            "item": {
+                "missing": "This item doesn't exist, or you can't see it.",
+                "favourite": "Favourite",
+                "photo_n": "Photo {n}",
+                "yes": "Yes",
+                "no": "No",
+                "condition": "Condition",
+                "acquired": "Acquired",
+                "price": "Price paid",
+                "about": "About it",
+                "more": "Read more",
+                "less": "Show less",
+                "from_wikipedia": "Description from Wikipedia",
+                "from_wikidata": "Description from Wikidata",
+                "translated_deepl": "Translated by DeepL",
+                "languages": "{count, plural, one {# language} other {# languages}}",
+                "offers": "{count, plural, one {# member has this open to trade} other {# members have this open to trade}}",
+                "edit": "Edit",
+                "have_too": "I have this too",
+                "want_it": "Add to my wishlist",
+                "choose_collection": "Which collection?",
+                "show_off": "Show it off",
+                "discussed": "Discussed here",
+                "cancel": "Cancel"
+            },
+            "profile": {
+                "nav": "Collections",
+                "items": "Items",
+                "collections": "Collections",
+                "wanted": "Wanted",
+                "trade": "To trade",
+                "since": "Collecting since",
+                "collections_heading": "Collections",
+                "new": "New collection",
+                "empty": "No collections yet.",
+                "empty_own": "Start your first collection and show off what you've got.",
+                "wishlist_heading": "Wishlist"
+            },
+            "browse": {
+                "title": "Collections",
+                "lead": "{items, plural, one {# item} other {# items}} in {members, plural, one {# member’s} other {# members’}} collections.",
+                "search": "Search every collection…",
+                "results": "Items matching “{q}”",
+                "no_results": "Nothing matches that.",
+                "recent": "Recently added",
+                "featured": "Featured collections",
+                "none": "No collections here yet."
+            },
+            "showoff": {
+                "title": "My {title}",
+                "composer": "Showing off {title}",
+                "remove": "Don't link this item"
+            },
+            "marquee": {
+                "add": "Add to collection"
+            },
+            "hero": {
+                "here": "On this forum",
+                "members": "{count, plural, one {# member has it} other {# members have it}}",
+                "from": "From {name}",
+                "view_in": "View in {name}’s collection",
+                "in_my_collection": "View in my collection",
+                "open_item": "Open the item"
+            },
+            "transfer": {
+                "heading": "Import and export",
+                "help": "Bring in a spreadsheet: a Curio export, a Discogs collection export, or a Goodreads or StoryGraph library export. Covers and descriptions are found in the background over the next few minutes.",
+                "import": "Import a CSV file",
+                "export": "Download as CSV",
+                "done": "{count, plural, one {# item} other {# items}} imported from the {format} file ({skipped} skipped).",
+                "format_curio": "Curio",
+                "format_discogs": "Discogs",
+                "format_goodreads": "Goodreads",
+                "format_storygraph": "StoryGraph"
+            },
+            "notifications": {
+                "match": "{username} has {title} open to trade. It’s on your wishlist.",
+                "match_setting": "Someone offers to trade something on my wishlist",
+                "new_items": "{username} added to {name}",
+                "new_items_setting": "A collection I follow has new things"
+            },
+            "widget": {
+                "label": "Recently added to collections",
+                "field_title": "Title",
+                "field_limit": "How many",
+                "empty": "Nothing added yet."
+            }
+        },
+        "admin": {
+            "settings": {
+                "upc_label": "UPCitemdb key (optional)",
+                "upc_help": "Barcodes for games, films and other products are looked up on UPCitemdb, which allows 100 a day with no key. Every barcode the forum resolves is kept, so most forums never need more. A paid key raises the limit.",
+                "upc_link": "Get a key",
+                "deepl_label": "DeepL key (optional)",
+                "deepl_help": "When Wikipedia has no description in a language, DeepL translates the English one. Free keys end in \":fx\".",
+                "deepl_link": "Get a key",
+                "max_upload_label": "Largest photo (KB)",
+                "max_upload_help": "Photos are re-encoded as WebP and resized, so what is stored is much smaller than this."
+            },
+            "types": {
+                "heading": "Collection types",
+                "help": "Members pick a type for each collection. A type sets the cover shape, the details asked for, and where look-ups come from. Drag to change the order.",
+                "drag": "Drag to reorder",
+                "add": "Add a type",
+                "labels_in": "Labels in",
+                "name": "Name",
+                "icon": "Icon",
+                "color": "Colour",
+                "shape": "Cover shape",
+                "source": "Look-ups",
+                "needs_marquee": "Film, TV and game search comes from Marquee. Until it is installed, members of this type can still scan barcodes or add items by hand.",
+                "fields": "Details",
+                "fields_help": "What members fill in for each item. The first choice field is used for the breakdown and filter on collection pages (platform, format…).",
+                "field_label": "Label ({language})",
+                "field_kind": "Kind",
+                "field_choices": "Choices",
+                "add_choice": "Add a choice, press Enter",
+                "remove_choice": "Remove choice",
+                "remove_field": "Remove detail",
+                "add_field": "Add a detail",
+                "translation_note": "Titles and descriptions from look-ups arrive in each installed language by themselves (Wikidata and Wikipedia). Only the labels you write here need translating.",
+                "save": "Save type",
+                "create": "Create type",
+                "delete": "Delete type",
+                "delete_confirm": "Delete the type {name}?",
+                "in_use": "A type with collections cannot be deleted.",
+                "save_failed": "The type could not be saved."
+            },
+            "shape": {
+                "portrait": "Portrait",
+                "square": "Square",
+                "landscape": "Landscape"
+            },
+            "source": {
+                "none": "None (barcodes and by hand)",
+                "books": "Books (Open Library)",
+                "music": "Albums (Deezer, MusicBrainz)",
+                "movies": "Films (via Marquee)",
+                "tv": "TV (via Marquee)",
+                "games": "Games (via Marquee)"
+            },
+            "kind": {
+                "select": "Choice",
+                "text": "Text",
+                "number": "Number",
+                "date": "Date",
+                "bool": "Yes / no"
+            },
+            "permissions": {
+                "view": "View collections",
+                "create": "Create collections, add items and photos",
+                "moderate": "Remove anyone's collections and feature them"
+            }
+        },
+        "email": {
+            "match": {
+                "subject": "{title} is open to trade",
+                "body": "Hi {recipient_display_name}, {owner} has {title} open to trade. It’s on your wishlist.",
+                "link": "See the offer"
+            },
+            "new_items": {
+                "subject": "New in {name}",
+                "body": "Hi {recipient_display_name}, {owner} has added new things to {name}, a collection you follow.",
+                "link": "See the collection"
+            }
+        },
+        "api": {
+            "type_in_use": "This type has collections, so it cannot be deleted.",
+            "too_many_collections": "You can have up to {count} collections.",
+            "collection_full": "A collection holds up to {count} items.",
+            "too_many_photos": "An item can have up to {count} photos.",
+            "not_your_item": "Only your own items, owned or open to trade, can be shown off.",
+            "import_missing": "Choose a CSV file to import.",
+            "import_too_big": "The file is too big (largest {size}).",
+            "import_too_often": "You have imported several files in the last hour. Try again later.",
+            "import_unknown_format": "That file isn’t one Curio can read. Export it from Curio, Discogs, Goodreads or StoryGraph."
+        }
+    }
+}
