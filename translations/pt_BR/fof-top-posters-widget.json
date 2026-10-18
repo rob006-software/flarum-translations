@@ -2,19 +2,19 @@
     "fof-top-posters-widget": {
         "admin": {
             "settings": {
-                "info": ""
+                "info": "Os usuários dos grupos selecionados serão excluídos dos resultados do widget."
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "load_error": ""
+                "title": "Quem Mais Postou este Mês",
+                "load_error": "Não foi possível carregar os usuários que mais postaram."
             }
         },
         "lib": {
             "gambits": {
                 "top_poster": {
-                    "key": ""
+                    "key": "top_poster"
                 }
             }
         }

@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
-                "button_label": ""
+                "section_label": "Clockwork",
+                "button_label": "Abrir Clockwork"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Configurações",
+                "disable_auth_label": "Desativar autenticação",
+                "disable_auth_help": "Quando ativado, todas as requisições passam por profiling e o visualizador do Clockwork fica acessível sem login. Ative apenas temporariamente, para depuração.",
+                "disable_auth_warning": "Aviso: a autenticação está desativada. O visualizador do Clockwork e todos os dados de profiling estão acessíveis publicamente. Desative isto quando terminar a depuração."
             }
         }
     }

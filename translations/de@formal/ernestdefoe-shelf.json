@@ -1,0 +1,136 @@
+{
+    "ernestdefoe-shelf": {
+        "admin": {
+            "min_ratings_label": "Bewertungen, die ein Titel benötigt, um in der Liste der bestbewerteten aufgeführt zu werden",
+            "min_ratings_help": "Ein Titel mit weniger Bewertungen als dieser in diesem Zeitraum wird nicht in die Liste der am besten bewerteten Titel aufgenommen, sodass die fünf Sterne eines einzelnen Mitglieds nicht ausreichen, um ihn an die Spitze zu bringen. Die Liste wird alle zehn Minuten aktualisiert.",
+            "permission_use": "Titel bewerten und in Regal aufnehmen und auflisten",
+            "permission_moderate": "Regallisten von allen löschen"
+        },
+        "api": {
+            "empty_entry": "Gib eine Bewertung ab, vergebe einen Status oder füge es zu deiner Sammlung hinzu.",
+            "too_many_lists": "Du kannst bis zu {count} Listen führen.",
+            "list_full": "Eine Liste kann bis zu {count} Titel enthalten."
+        },
+        "forum": {
+            "kind": {
+                "movie": "Film",
+                "tv": "TV-Serie",
+                "game": "Spiel",
+                "music": "Album",
+                "book": "Buch",
+                "movie_plural": "Filme",
+                "tv_plural": "TV",
+                "game_plural": "Spiele",
+                "music_plural": "Musik",
+                "book_plural": "Bücher"
+            },
+            "status": {
+                "want_watch": "Möchte ich anschauen",
+                "want_read": "Möchte ich lesen",
+                "want_play": "Möchte ich spielen",
+                "want_listen": "Möchte ich anhören",
+                "done_watch": "Angeschaut",
+                "done_read": "Gelesen",
+                "done_play": "Gespielt",
+                "done_listen": "Angehört",
+                "owned": "In meiner Sammlung"
+            },
+            "card": {
+                "add_to_shelf": "Ins Regal stellen",
+                "rate_label": "Deine Bewertung",
+                "average_title": "Durchschnitt der Mitglieder aus {count, plural, one {einer Bewertung} other {# Bewertungen}}",
+                "ratings": "{count, plural, one {{formatted} Bewertung} other {{formatted} Bewertungen}}",
+                "done_on_watch": "Angeschaut {date}",
+                "done_on_read": "Gelesen {date}",
+                "done_on_play": "Gespielt {date}",
+                "done_on_listen": "Angehört {date}"
+            },
+            "menu": {
+                "want_watch": "Möchte ich anschauen",
+                "want_read": "Möchte ich lesen",
+                "want_play": "Möchte ich spielen",
+                "want_listen": "Möchte ich anhören",
+                "log_watch": "Als angesehen erfassen…",
+                "log_read": "Als gelesen erfassen…",
+                "log_play": "Als gespielt erfassen…",
+                "log_listen": "Als angehört erfassen…",
+                "done_on_watch": "Angeschaut {date} (ändern)",
+                "done_on_read": "Gelesen {date} (ändern)",
+                "done_on_play": "Gespielt {date} (ändern)",
+                "done_on_listen": "Angehört {date} (ändern)",
+                "collection": "In meiner Sammlung",
+                "add_to_list": "Zu einer Liste hinzufügen…",
+                "remove": "Aus meinem Regal entfernen"
+            },
+            "log": {
+                "title_watch": "Wann hast du {title} angeschaut?",
+                "title_read": "Wann hast du {title} zu Ende gelesen?",
+                "title_play": "Wann hast du {title} zu Ende gespielt?",
+                "title_listen": "Wann hast du {title} angehört?",
+                "date_label": "Datum",
+                "save": "Speichern"
+            },
+            "add": {
+                "title": "{title} zu einer Liste hinzufügen",
+                "new_list": "Oder eine neue Liste erstellen",
+                "new_list_placeholder": "z. B. Das Beste vom Besten",
+                "create": "Erstellen",
+                "added": "Zu {list} hinzugefügt."
+            },
+            "lists": {
+                "items": "{count, plural, one {# Titel} other {# Titel}}",
+                "new_button": "Neue Liste",
+                "new_title": "Neue Liste",
+                "edit_title": "Liste bearbeiten",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
+                "delete_confirm": "Die Liste {name} löschen? Die Titel bleiben in den Regalen aller Nutzer erhalten.",
+                "name_label": "Name",
+                "description_label": "Beschreibung (optional)",
+                "save": "Speichern",
+                "empty": "Diese Liste enthält noch keine Titel. Füge einen von jeder Titelkarte hinzu.",
+                "missing": "Diese Liste existiert nicht oder wurde gelöscht.",
+                "drag_hint": "Titel ziehen, um die Reihenfolge zu ändern.",
+                "remove_title": "{title} von dieser Liste entfernen"
+            },
+            "profile": {
+                "nav": "Regal",
+                "lists_heading": "Listen",
+                "shelf_heading": "Regal",
+                "filter_all": "Alle",
+                "filter_rated": "Bewertet",
+                "filter_done": "Erfasst",
+                "filter_want": "Möchte ich",
+                "filter_owned": "Sammlung",
+                "no_lists": "Noch keine Listen.",
+                "no_lists_own": "Du hast noch keine Listen. Erstelle hier eine oder über die Karte eines beliebigen Titels.",
+                "empty": "Noch nichts in diesem Regal.",
+                "empty_own": "Dein Regal ist leer. Bewerte oder erfasse einen Titel von dessen Karte in jeder verknüpften Diskussion.",
+                "load_more": "Mehr laden"
+            },
+            "top": {
+                "nav": "Bestbewertet",
+                "title": "Bestbewertet",
+                "heading_month": "Die Bestbewerteten dieses Monats",
+                "heading_year": "Die Bestbewerteten dieses Jahres",
+                "heading_all": "Die Bestbewerteten aller Zeiten",
+                "period_label": "Zeitraum",
+                "period_month": "Diesen Monat",
+                "period_year": "Dieses Jahr",
+                "period_all": "Allzeit",
+                "kind_label": "Art",
+                "kind_all": "Alles",
+                "empty_month": "In diesem Monat hat noch nichts genügend Bewertungen erhalten.",
+                "empty_year": "In diesem Jahr hat noch nichts genügend Bewertungen erhalten.",
+                "empty_all": "Noch nichts hat genügend Bewertungen erhalten.",
+                "failed": "Die Liste der Bestbewerteten konnte nicht geladen werden."
+            },
+            "widget": {
+                "label": "Regal – bestbewertet",
+                "field_title": "Titel (leer lassen für Standard)",
+                "field_period": "Zeitraum",
+                "field_limit": "Wie viele Titel"
+            }
+        }
+    }
+}

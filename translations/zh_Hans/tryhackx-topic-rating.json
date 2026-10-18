@@ -63,7 +63,22 @@
                 "single_clickable_label": "允许点击单星",
                 "single_clickable_help": "启用后，点击单星或分数会打开评分列表弹窗。关闭后仅用于显示，尚无评分的讨论也不会显示单星。",
                 "single_modal_rate_label": "允许在评分弹窗中评分",
-                "single_modal_rate_help": "在评分弹窗顶部显示评分控件，无需离开讨论列表即可评分或修改自己的评分。"
+                "single_modal_rate_help": "在评分弹窗顶部显示评分控件，无需离开讨论列表即可评分或修改自己的评分。",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
                 "rate_label": "为讨论评分",
@@ -85,9 +100,19 @@
                 "rate_this": "给此讨论评分",
                 "rate_first": "还没有人评分，抢先评分吧！",
                 "your_rating": "你的评分：",
-                "restricted": "你的用户组无权为此讨论评分。"
+                "restricted": "你的用户组无权为此讨论评分。",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
             "rating_count": "评分数：{count}",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "最后评分：",
             "rating_restricted_message": "你的用户组无权评分。",
             "controls": {
@@ -105,7 +130,8 @@
                 "title": "评分（{count}）",
                 "empty": "暂无评分",
                 "deleted_user": "[已删除]",
-                "updated_prefix": "更新于 "
+                "updated_prefix": "更新于 ",
+                "author_tag": ""
             }
         },
         "api": {

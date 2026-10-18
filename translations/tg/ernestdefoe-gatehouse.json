@@ -3,7 +3,9 @@
         "forum": {
             "notice_pending": "",
             "notice_declined": "",
-            "notification": ""
+            "notification": "",
+            "optional": "",
+            "notify_applicant_label": ""
         },
         "admin": {
             "queue_heading": "",
@@ -17,6 +19,7 @@
                 "signed_up": "",
                 "approved_by": "",
                 "declined_by": "",
+                "answer": "",
                 "approve": "",
                 "decline": ""
             },
@@ -30,6 +33,13 @@
             "usernames_heading": "",
             "reserved_usernames": "",
             "reserved_usernames_help": "",
+            "reserved_usernames_placeholder": "",
+            "question_heading": "",
+            "question": "",
+            "question_help": "",
+            "question_placeholder": "",
+            "question_required": "",
+            "question_required_help": "",
             "messages_heading": "",
             "held_message": "",
             "held_message_help": "",
@@ -40,6 +50,7 @@
             "refused": "",
             "username_reserved": "",
             "signin_pending": "",
+            "reason_required": "",
             "signin_declined": ""
         },
         "email": {
@@ -61,7 +72,10 @@
             },
             "admin_new": {
                 "subject": "",
-                "body": ""
+                "body": "",
+                "answer_to": "",
+                "answer": "",
+                "button": ""
             }
         }
     }

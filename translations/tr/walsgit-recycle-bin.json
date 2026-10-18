@@ -9,18 +9,19 @@
             "search_post_help_text": "Gizli gönderilerdeki kelimeleri arar",
             "total_hidden_discussions": "Toplam gizli tartışma",
             "total_hidden_posts": "Toplam gizli gönderi",
-            "empty_list": "Çöp kutusunda henüz tartışma yok.",
-            "hidden_discussions": "Gizli tartışmalar",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "Tartışma başlığı",
-            "discussion_link_tooltip": "Tartışmayı gör",
             "author": "Yazar",
             "unknown_user": "Bilinmeyen kullanıcı",
             "created_at": "Oluşturuldu",
             "hidden_at": "Gizlendi",
             "unknown_date": "Bilinmeyen tarih",
             "actions": "Eylemler",
-            "restore_tooltip": "Tartışmayı geri yükle #{discussionId}",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "Gönderiyi geri yükle #{postId}",
             "restore_discussion": {
                 "title": "Tartışmayı geri yükle",
@@ -46,7 +47,7 @@
                 "delete_button": "Gönderiyi tamamen sil",
                 "success": "Gönderi başarıyla silindi"
             },
-            "delete_tooltip": "Tartışmayı sil #{discussionId}",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "Gönderiyi sil #{postId}",
             "bulk_actions": "Seçili tartışmalar için eylemler : ",
             "bulk_post_actions": "Seçili gönderiler için eylemler : ",
@@ -82,15 +83,32 @@
             },
             "bulk_delete_label": "Seçili tartışmaları sil",
             "bulk_post_delete_label": "Seçili gönderileri sil",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_progress": "",
             "pagination": {
                 "first_page_button": "İlk sayfaya git",
                 "back_button": "Önceki sayfaya geri dön",
                 "page_counter": "Sayfa {current} / {total}",
                 "go_to_page_textbox_a11y_label": "Doğrudan sayfa numarasına git",
                 "next_button": "Sonraki sayfaya git",
-                "last_page_button": "Son sayfaya git"
+                "last_page_button": "Son sayfaya git",
+                "page_counter_search": ""
             },
-            "mass_help_text": "Toplu geri yüklemeyi veya silmeyi onayladıktan sonra lütfen sayfanın yenilenmesini bekleyin",
             "grid": {
                 "invalid_column_content": "Geçersiz içerik!"
             },
@@ -99,6 +117,12 @@
                 "title": "Gönderi metni",
                 "open_post": "Gönderiyi aç"
             },
+            "empty_list": "Çöp kutusunda henüz tartışma yok.",
+            "hidden_discussions": "Gizli tartışmalar",
+            "discussion_link_tooltip": "Tartışmayı gör",
+            "restore_tooltip": "Tartışmayı geri yükle #{discussionId}",
+            "delete_tooltip": "Tartışmayı sil #{discussionId}",
+            "mass_help_text": "Toplu geri yüklemeyi veya silmeyi onayladıktan sonra lütfen sayfanın yenilenmesini bekleyin",
             "unknownn_user": "Bilinmeyen kullanıcı"
         }
     }

@@ -82,7 +82,23 @@
             "op_less_than": "is less than",
             "op_is_empty": "is empty",
             "op_is_not_empty": "is not empty",
-            "op_matches": "matches (regex)"
+            "op_matches": "matches (regex)",
+            "events": {
+                "discussion_created": "New discussion",
+                "post_created": "New reply",
+                "user_registered": "New user"
+            },
+            "actions": {
+                "reply": "Post a reply",
+                "add_tag": "Add a tag",
+                "remove_tag": "Remove a tag",
+                "add_to_group": "Add user to a group",
+                "remove_from_group": "Remove user from a group",
+                "call_webhook": "Send to a webhook URL"
+            }
+        },
+        "api": {
+            "untitled_rule": "Untitled rule"
         }
     }
 }

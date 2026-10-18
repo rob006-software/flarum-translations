@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "新增欄位",
                 "edit-field": "編輯欄位",
-                "delete-field": "刪除欄位"
+                "delete-field": "刪除欄位",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "編輯他人資料",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "欄位",
+                "trash": "",
                 "create": "",
                 "edit": "編輯欄位 {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +101,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

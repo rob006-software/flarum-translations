@@ -2,9 +2,9 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "Criar notas do moderador",
-                "viewnotes": "Ver notas do moderador",
-                "deletenotes": "Apagar notas do moderador"
+                "createnotes": "Criar notas de moderador",
+                "viewnotes": "Ver notas de moderador",
+                "deletenotes": "Excluir notas de moderador"
             }
         },
         "forum": {
@@ -13,16 +13,16 @@
                 "created_text": "{username} criou esta nota em {date}",
                 "add_button": "Nova nota",
                 "create-heading": "Criar uma nova nota de moderador",
-                "dismiss_button": "Feito",
-                "input_heading": "Insira suas notas para <strong>{username}</strong>, (a redução é suportada)",
+                "dismiss_button": "Pronto",
+                "input_heading": "Digite suas notas para <strong>{username}</strong> (markdown é suportado)",
                 "noNotes": "Parece que não há notas aqui.",
                 "submit_button": "Salvar nota",
-                "delete": "Apagar",
-                "confirm": "Você tem certeza que quer apagar essa nota?",
-                "filter_by_me": ""
+                "delete": "Excluir",
+                "confirm": "Tem certeza de que deseja excluir esta nota?",
+                "filter_by_me": "Apenas notas que criei"
             },
             "user": {
-                "notes": "Notas de moderador"
+                "notes": "Notas de Moderador"
             }
         },
         "api": {

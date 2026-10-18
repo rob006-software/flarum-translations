@@ -8,13 +8,60 @@
                 "api_key_label": "Anwendungs-API-Schlüssel (veraltet)",
                 "api_key_help": "Diese Authentifizierungsmethode ist veraltet. Bitte erwäge den Wechsel zu einem persönlichen Token.",
                 "personal_token_label": "Persönlicher Token",
-                "personal_token_help": "Erstelle einen persönlichen Token unter <a>https://opencollective.com/applications</a>. Dieser Token wird verwendet, um deine Unterstützerinformationen von Open Collective abzurufen.",
+                "personal_token_help": "Erstelle einen persönlichen Token unter <a>https://opencollective.com/applications</a> mit den Bereichen „orders“ und „email“ mit einem Konto, das Admin des Kollektivs ist. Dieser Token wird verwendet, um deine Unterstützerinformationen von Open Collective abzurufen.",
                 "slug_label": "Kollektiver Slug",
                 "slug_help": "Gib deinen Open Collective-Kollektiv-Slug ein (den Teil nach opencollective.com/ in deiner Kollektiv-URL).",
                 "group_label": "Wiederkehrende Unterstützergruppe",
                 "group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe wiederkehrende Unterstützer hinzugefügt werden sollen. Benutzer werden automatisch hinzugefügt, wenn sie wiederkehrende Unterstützer werden, und nach Ablauf ihres Abonnements in die Gruppe für einmalige Unterstützer verschoben (sofern konfiguriert).",
                 "onetime_group_label": "Einmalige Unterstützergruppe (optional)",
                 "onetime_group_help": "Wähle aus, zu welcher Flarum-Benutzergruppe einmalige Unterstützer hinzugefügt werden sollen. Wenn diese Option nicht festgelegt ist, werden einmalige Unterstützer nicht verwaltet. Wenn ein wiederkehrender Unterstützer sein Abonnement kündigt, wird er in diese Gruppe verschoben."
+            },
+            "status": {
+                "heading": "Synchronisierungsstatus",
+                "never_run": "Die Synchronisierung wurde noch nicht ausgeführt. Sie wird stündlich über den Flarum-Scheduler ausgeführt. Überprüfe daher, ob der Scheduler eingerichtet ist.",
+                "last_success": "Letzte Synchronisierung {time}: {backers} Unterstützer, {changes} Änderungen.",
+                "last_failure": "Letzte Synchronisierung {time} fehlgeschlagen: {reason}",
+                "stale": "Die letzte Synchronisierung liegt mehr als zwei Stunden zurück. Überprüfe, ob der Flarum-Scheduler läuft.",
+                "test_button": "Verbindung testen",
+                "test_success": "Mit {collective} als {account} verbunden. {orders} Beiträge gefunden, und die E-Mail-Adressen der Unterstützer sind lesbar.",
+                "test_success_no_orders": "Mit {collective} als {account} verbunden. Es gibt noch keine Beiträge, und die E-Mail-Adressen konnten daher noch nicht geprüft werden.",
+                "request_failed": "Der Verbindungstest konnte nicht ausgeführt werden.",
+                "reasons": {
+                    "unauthorized": "Open Collective hat den Token abgelehnt. Möglicherweise ist er abgelaufen oder wurde widerrufen.",
+                    "forbidden": "Dem Token fehlt ein erforderlicher Geltungsbereich. Es benötigt die Geltungsbereiche „orders“ und „email“.",
+                    "emails_hidden": "Das Token kann die E-Mail-Adressen der Unterstützer nicht auslesen. Es benötigt den Geltungsbereich „email“.",
+                    "not_found": "Kollektiv nicht gefunden. Überprüfe den Kollektiv-Slug.",
+                    "rate_limited": "Das Ratenlimit von Open Collective wurde erreicht. Bei der nächsten Synchronisierung wird ein erneuter Versuch unternommen.",
+                    "network": "Open Collective konnte nicht erreicht werden.",
+                    "configuration": "Das Token, der Sammel-Slug oder die Gruppeneinstellungen sind unvollständig.",
+                    "no_backers": "Open Collective hat keine Unterstützer zurückgegeben, daher wurde nichts geändert. Führe die Synchronisierung mit dem Parameter „--force“ durch, wenn dies korrekt ist.",
+                    "other": "Open Collective hat eine unerwartete Antwort zurückgegeben."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "{username} ist nun regelmäßiger Unterstützer bei Open Collective. Gruppen: {old_groups} → {new_groups}",
+                    "recurring_stopped": "Die regelmäßige Unterstützung von {username} auf Open Collective wurde eingestellt. Gruppen: {old_groups} → {new_groups}",
+                    "onetime_started": "{username} ist einmaliger Unterstützer bei Open Collective geworden. Gruppen: {old_groups} → {new_groups}",
+                    "backing_ended": "{username} ist kein Unterstützer von Open Collective mehr. Gruppen: {old_groups} → {new_groups}",
+                    "groups_changed": "Open Collective-Synchronisierung hat die Gruppen von {username} von {old_groups} in {new_groups} geändert",
+                    "membership_adopted": "Open Collective-Synchronisierung hat die Mitgliedschaft von {username} in {new_groups} übernommen"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "Exportiert den Status des Mitglieds als Unterstützer bei Open Collective, den Zeitpunkt der letzten Änderung sowie die Gruppen, die die Synchronisierung für das Mitglied verwaltet.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.opencollectivebacker.delete_description",
+                    "delete_description": "Löscht den Backer-Eintrag des Mitglieds bei Open Collective, sodass die Synchronisierung das Mitglied ausblendet, ohne das Ende seiner Unterstützung anzukündigen."
+                }
             }
         }
     }

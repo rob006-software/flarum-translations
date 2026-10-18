@@ -18,6 +18,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "settings": "",
+                "order": "",
+                "stats": "",
+                "server": ""
+            },
             "settings": {
                 "limit_new_label": "新讨论 — 最多显示",
                 "limit_new_help": "设置每封摘要邮件最多包含多少个新讨论。",
@@ -107,6 +113,8 @@
                 "help": "设置摘要邮件中包含哪些可选扩展集成。只有相应扩展已安装并启用时，开关才可操作。启用后的集成会出现在「摘要栏目顺序」中。",
                 "extension_active": "扩展已启用",
                 "not_installed_or_disabled": "未安装或已禁用",
+                "ext_installed": "",
+                "ext_not_installed": "",
                 "status_active": "已启用",
                 "status_inactive": "未启用",
                 "always_shown": "始终显示",
@@ -144,7 +152,32 @@
                 "window_spread": "摘要邮件将在 {from} 至 {to} 之间逐步发送。订阅者会分批收到邮件，从而保持服务器响应，并避免某一分钟承担全部发送负载。",
                 "window_single": "所有摘要邮件将在 {from} 开始发送。适合订阅者少于 2,000 人的小型论坛。",
                 "spread_send_label": "分散发送： ",
-                "single_send_label": "集中发送： "
+                "single_send_label": "集中发送： ",
+                "midnight": "",
+                "noon": "",
+                "timezones": {
+                    "honolulu": "",
+                    "anchorage": "",
+                    "los_angeles": "",
+                    "denver": "",
+                    "chicago": "",
+                    "new_york": "",
+                    "halifax": "",
+                    "sao_paulo": "",
+                    "azores": "",
+                    "london": "",
+                    "paris": "",
+                    "helsinki": "",
+                    "moscow": "",
+                    "dubai": "",
+                    "karachi": "",
+                    "kolkata": "",
+                    "bangkok": "",
+                    "shanghai": "",
+                    "tokyo": "",
+                    "sydney": "",
+                    "auckland": ""
+                }
             },
             "order": {
                 "help": "使用箭头设置各栏目在摘要邮件中的显示顺序。这里只会显示已启用的扩展集成栏目，请先在「设置」中启用。",
@@ -195,6 +228,8 @@
             },
             "server": {
                 "copy_to_clipboard": "复制到剪贴板",
+                "cron_comment_workers": "",
+                "cron_comment_enqueue": "",
                 "queue_name_label": "队列名称",
                 "queue_name_help_1": "摘要任务会推送到此命名队列。默认值： ",
                 "queue_name_help_2": "。如果使用数据库队列，你的 ",
@@ -375,6 +410,29 @@
                 "frequency_help": "设置新用户自动订阅的摘要发送频率。这里只能选择上方「用户可选频率」中已启用的频率。",
                 "no_frequencies_enabled": "当前没有启用任何发送频率。请先在上方「用户可选频率」中至少启用一项。"
             }
+        },
+        "api": {
+            "no_token": "",
+            "token_not_found": "",
+            "invalid_frequency": "",
+            "email_required": "",
+            "frequency_invalid": "",
+            "mail_failed": ""
+        },
+        "lib": {
+            "weekdays": {
+                "sunday": "",
+                "monday": "",
+                "tuesday": "",
+                "wednesday": "",
+                "thursday": "",
+                "friday": "",
+                "saturday": ""
+            },
+            "ordinal_st": "",
+            "ordinal_nd": "",
+            "ordinal_rd": "",
+            "ordinal_th": ""
         },
         "email": {
             "subject": "{forum} — 你的{frequency}摘要",

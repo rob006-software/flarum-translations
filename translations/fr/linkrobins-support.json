@@ -48,20 +48,30 @@
                 "field_icon_help": "Une classe Font Awesome, p. ex. fas fa-life-ring.",
                 "field_position": "Position",
                 "field_position_help": "Les catégories sont classées selon cette valeur, par ordre croissant.",
-                "field_is_appeal": "Catégorie de recours",
-                "field_is_appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.",
+                "field_ticket_type": "Type de ticket",
+                "field_ticket_type_help": "Détermine le flux de travail, les options de décision et les limites de fréquence pour les tickets de cette catégorie.",
                 "field_default_assignee": "Attribuer les nouveaux tickets à",
                 "field_default_assignee_none": "Personne — notifier toute l'équipe",
                 "field_default_assignee_help": "Les nouveaux tickets dans cette catégorie sont affectés à cette personne, et elle seule en est informée. Laissez l'option sur « Personne » pour informer tous les membres de l'équipe et laisser celui qui répond en premier prendre en charge le ticket.",
                 "field_default_assignee_loading": "Chargement de l'équipe…",
                 "field_default_assignee_unavailable": "{name} (ne fait plus partie de l'équipe)",
                 "field_default_assignee_error": "Impossible de charger la liste du personnel. Le paramètre actuel reste inchangé.",
+                "field_allowed_groups": "Groupes d'utilisateurs autorisés",
+                "field_allowed_groups_help": "Laissez ce champ vide pour autoriser tous les utilisateurs enregistrés autorisés par le type de ticket. Sélectionnez des groupes spécifiques pour limiter les utilisateurs autorisés à créer des tickets dans cette catégorie.",
                 "submit_create": "Créer une catégorie",
                 "submit_update": "Enregistrer les modifications",
                 "error_load": "Impossible de charger cette catégorie.",
                 "error_save": "Impossible d'enregistrer la catégorie. Veuillez vérifier les champs et réessayer.",
                 "error_delete": "Impossible de supprimer la catégorie.",
+                "field_is_appeal": "Catégorie de recours",
+                "field_is_appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.",
                 "saving": "Enregistrement en cours…"
+            },
+            "ticket_types": {
+                "standard": "Assistance standard",
+                "standard_help": "Tickets d'assistance standard pour les demandes d'informations générales, les signalements de bugs et l'aide relative aux comptes.",
+                "appeal": "Recours contre une suspension",
+                "appeal_help": "Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension, avec des limites quant au nombre de recours autorisés."
             },
             "appeal_bans": {
                 "heading_alt": "Recours contre les suspensions",
@@ -285,7 +295,7 @@
                 "update_assignment": "Impossible de mettre à jour l'affectation.",
                 "update_priority": "Impossible de mettre à jour la priorité.",
                 "update_status": "Impossible de mettre à jour le status.",
-                "update_decision": "Impossible de mettre à jour la décision de recours.",
+                "update_decision": "Impossible de mettre à jour la décision.",
                 "save_edit": "Impossible d'enregistrer les modifications.",
                 "delete_reply": "Impossible de supprimer la réponse.",
                 "restore_reply": "Impossible de restaurer la réponse.",
@@ -337,7 +347,7 @@
             },
             "staff": {
                 "change_status": "Modifier le statut",
-                "change_decision": "Modifier la décision relative au recours",
+                "change_decision": "Modifier la décision",
                 "set_status": "Définir le statut :",
                 "set_decision": "Décision :"
             },
@@ -418,6 +428,9 @@
             "assigned_body": "{name} vous a attribué ce ticket d'assistance."
         },
         "api": {
+            "category_not_permitted": "Votre compte n'est pas autorisé à créer des tickets dans cette catégorie.",
+            "unknown_ticket_type": "Ce type de ticket n'est pas disponible. Choisissez-en un dans la liste.",
+            "decision_not_allowed": "Les tickets de cette catégorie ne permettent pas de prendre cette décision.",
             "assign_staff_only": "Les tickets ne peuvent être affectés qu'à l'équipe.",
             "default_assignee_staff_only": "Une catégorie ne peut être affectée qu'à l'équipe.",
             "category_required": "Une catégorie est requise.",

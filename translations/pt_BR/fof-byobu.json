@@ -9,35 +9,35 @@
             "buttons": {
                 "add_recipients": "Destinatários",
                 "submit": "OK",
-                "edit_recipients": "Editar destinatários",
-                "send_pd": "Envie uma mensagem para {username}",
+                "edit_recipients": "Editar Destinatários",
+                "send_pd": "Enviar mensagem a {username}",
                 "cancel": "Cancelar",
                 "make_public": "Tornar esta discussão pública",
                 "remove_from_discussion": "Sair desta discussão privada"
             },
             "composer_private_discussion": {
-                "submit_button": "Postar discussão privada",
-                "title_placeholder": "Título da discussão privada"
+                "submit_button": "Postar Discussão Privada",
+                "title_placeholder": "Título da Discussão Privada"
             },
             "confirm": {
-                "make_public": "Tem certeza de que deseja remover os destinatários e tornar esta discussão visível para qualquer pessoa que possa visualizar a tag atribuída?"
+                "make_public": "Tem certeza de que deseja remover os destinatários e tornar esta discussão visível para qualquer pessoa que possa ver a tag atribuída?"
             },
             "hero": {
-                "title": ""
+                "title": "=> fof-byobu.forum.nav.nav_item"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Destinatário} other {{count} Destinatários}}"
             },
             "nav": {
-                "start_button": "Discutir em particular",
+                "start_button": "Discutir em Particular",
                 "nav_item": "Discussões Privadas"
             },
             "input": {
-                "search_recipients": "Pesquisar destinatário digitando os três primeiros caracteres..."
+                "search_recipients": "Buscar destinatário digitando os três primeiros caracteres..."
             },
             "search": {
                 "headings": {
-                    "groups": "Grupos de permissão"
+                    "groups": "Grupos de Permissão"
                 }
             },
             "modal": {
@@ -47,7 +47,7 @@
                 },
                 "labels": {
                     "selected_users": "Usuários selecionados",
-                    "search_field": "Pesquisar usuário"
+                    "search_field": "Buscar usuário"
                 },
                 "help": {
                     "add_recipients": "Esta discussão só será visível para os usuários que você escolher aqui. É necessário pelo menos 1 destinatário (além de você).",
@@ -69,69 +69,69 @@
                 "settings": {
                     "block_pd": "Bloquear discussões privadas"
                 },
-                "byobu_link": "Discussões privadas",
-                "dropdown_label": "Discussões privadas"
+                "byobu_link": "Discussões Privadas",
+                "dropdown_label": "Discussões Privadas"
             },
             "notifications": {
                 "pd_label": "Alguém me inclui em uma nova discussão privada",
-                "pd_reply_label": "Alguém publica em uma discussão privada da qual sou um destinatário",
+                "pd_reply_label": "Alguém posta em uma discussão privada da qual sou destinatário",
                 "pd_reply_text": "{username} postou em uma discussão privada da qual você faz parte",
                 "pd_text": "{username} iniciou uma nova discussão privada com você",
-                "pd_user_left_label": "Um usuário destinatário deixa uma discussão privada da qual faço parte",
+                "pd_user_left_label": "Um destinatário sai de uma discussão privada da qual faço parte",
                 "pd_user_left_text": "{username} saiu da discussão privada",
                 "pd_added_text": "{username} adicionou você a uma discussão privada",
-                "pd_added_label": "Alguém me adicionou a uma discussão privada existente"
+                "pd_added_label": "Alguém me adiciona a uma discussão privada existente"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "Crie discussões privadas com usuários",
-                "add_more_than_two_user_recipients": "",
-                "create_private_discussions_with_groups": "Crie discussões privadas com grupos",
-                "create_private_discussions_with_blocking_users": "Crie discussões privadas com usuários que bloqueiam",
-                "edit_user_recipients": "Editar usuários participando de discussões privadas",
-                "edit_group_recipients": "Editar grupos participando de discussões privadas",
-                "make_private_into_public": "Transforme uma discussão privada em uma discussão pública",
-                "view_private_discussions-when-flagged": "Veja as discussões privadas de outros usuários, se sinalizado"
+                "create_private_discussions_with_users": "Criar discussões privadas com usuários",
+                "add_more_than_two_user_recipients": "Adicionar mais de 2 usuários destinatários a uma discussão privada",
+                "create_private_discussions_with_groups": "Criar discussões privadas com grupos",
+                "create_private_discussions_with_blocking_users": "Criar discussões privadas com usuários que as bloqueiam",
+                "edit_user_recipients": "Editar os usuários participantes de discussões privadas",
+                "edit_group_recipients": "Editar os grupos participantes de discussões privadas",
+                "make_private_into_public": "Transformar uma discussão privada em discussão pública",
+                "view_private_discussions-when-flagged": "Ver discussões privadas de outros usuários quando sinalizadas"
             },
             "settings": {
-                "badge-icon": "Distintivo de Discussão Byobu",
-                "enable-make-public-option": "Habilite a habilidade \"tornar público\"",
-                "enable-make-public-option-help": "Adiciona a capacidade para aqueles com permissão para remover todos os destinatários, atribuir uma nova tag e tornar a discussão publicamente visível (de acordo com as configurações de visibilidade da tag escolhida).",
-                "post-event-icon": "Eventos pós Byobu",
-                "delete_on_last_recipient_left": "Apagar Discussões Privadas quando o último membro sair",
-                "delete_on_last_recipient_left_help": "Se ativado, as Discussões Privadas serão excluídas permanentemente do banco de dados quando o último usuário sair. Caso contrário, a Discussão Privada será soft-excluída/ocultada.",
-                "hide_from_all_discussions_page": "",
-                "hide_from_all_discussions_page_help": ""
+                "badge-icon": "Emblema de Discussão do Byobu",
+                "enable-make-public-option": "Ativar a opção \"tornar pública\"",
+                "enable-make-public-option-help": "Permite que quem tem permissão remova todos os destinatários, atribua uma nova tag e torne a discussão visível publicamente (de acordo com as configurações de visibilidade da tag escolhida).",
+                "post-event-icon": "Eventos de Post do Byobu",
+                "delete_on_last_recipient_left": "Excluir DPs quando o último usuário sair",
+                "delete_on_last_recipient_left_help": "Se ativado, as discussões privadas (DPs) serão excluídas permanentemente do banco de dados quando o último usuário sair. Caso contrário, a DP será apenas ocultada (soft delete).",
+                "hide_from_all_discussions_page": "Ocultar DPs da página \"Todas as Discussões\"",
+                "hide_from_all_discussions_page_help": "As discussões privadas só poderão ser acessadas pela página \"Discussões Privadas\" ou pelo perfil do usuário"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "[Display Private] {display_name} iniciou uma nova discussão privada com você",
-                "private_discussion_replied": "[Display Private] {display_name} postou em uma discussão privada",
-                "recipient_removed": "[Display Privado] {display_name} saiu da discussão",
-                "private_discussion_added": "[Display Privado] {display_name} adicionou você a uma discussão privada"
+                "private_discussion_created": "[Discussão Privada] {display_name} iniciou uma nova discussão privada com você",
+                "private_discussion_replied": "[Discussão Privada] {display_name} postou em uma discussão privada",
+                "recipient_removed": "[Discussão Privada] {display_name} saiu da discussão",
+                "private_discussion_added": "[Discussão Privada] {display_name} adicionou você a uma discussão privada"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} iniciou uma nova discussão privada com você como destinatário: {discussion_title}.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário entrar antes de acessar este link.\n",
+                "private_discussion_replied": "{actor_display_name} postou em uma discussão privada com você como destinatário: {discussion_title}.\n\nVeja aqui:\n{post_url}\n\nTalvez seja necessário entrar antes de acessar este link.\n",
+                "recipient_removed": "{actor_display_name} saiu da discussão privada: {discussion_title}. Essa pessoa não poderá mais ver nenhum conteúdo dela.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário entrar antes de acessar este link.\n",
+                "private_discussion_added": "{actor_display_name} adicionou você a uma discussão privada existente: {discussion_title}.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário entrar antes de acessar este link.\n",
+                "made_public": "{actor_display_name} removeu todos os destinatários e tornou a discussão pública: {discussion_title}.\n\nVeja aqui:\n{discussion_url}\n\nTalvez seja necessário entrar antes de acessar este link.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "",
-                    "hint": ""
+                    "key": "byobu",
+                    "hint": "nome de usuário ou de exibição de um destinatário"
                 },
                 "private": {
-                    "key": ""
+                    "key": "privada"
                 },
                 "allows-pd": {
-                    "key": "",
-                    "hint": ""
+                    "key": "permite-dp",
+                    "hint": "sim"
                 }
             }
         }

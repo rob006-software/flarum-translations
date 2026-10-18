@@ -20,17 +20,17 @@
                 "new_post_text": "{username} postou"
             },
             "settings": {
-                "follow_after_reply_label": "Seguir automaticamente discussões que eu responder",
-                "follow_after_create_label": "",
-                "notify_for_all_posts_label": "Notificar sobre todos os novos posts em vez de apenas o último em uma discussão",
-                "notify_new_post_label": "Alguém posta numa discussão que estou seguindo"
+                "follow_after_reply_label": "Seguir automaticamente as discussões que eu responder",
+                "follow_after_create_label": "Seguir automaticamente as discussões que eu criar",
+                "notify_for_all_posts_label": "Notificar sobre cada novo post em vez de apenas o último em uma discussão",
+                "notify_new_post_label": "Alguém posta em uma discussão que estou seguindo"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
                 "following_text": "Seja notificado de todas as respostas.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Nunca seja notificado. Oculta da lista de discussão.",
+                "ignoring_text": "Nunca seja notificado. Ocultar da lista de discussões.",
                 "not_following_button": "Não Seguindo",
                 "not_following_text": "Seja notificado apenas quando @mencionado.",
                 "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
@@ -41,10 +41,10 @@
             "new_post": {
                 "subject": "[Novo Post] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{poster_display_name} acabou de postar em uma discussão que você está seguindo: {title}.\n\nPara visualizar a nova atividade, acesse o link a seguir:\n{url}\n\n---\n\n{content}\n\n---\n\nVocê não receberá mais notificações sobre esta discussão até estar atualizado.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{poster_display_name} acabou de postar em uma discussão que você está seguindo: [{title}]({url}).\n\nVocê não receberá mais notificações sobre esta discussão até estar atualizado.\n"
                 }
             }
         },
@@ -52,8 +52,8 @@
             "gambits": {
                 "discussions": {
                     "subscription": {
-                        "following_key": "",
-                        "ignoring_key": ""
+                        "following_key": "seguindo",
+                        "ignoring_key": "ignorando"
                     }
                 }
             }

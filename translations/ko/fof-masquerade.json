@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "항목 생성",
                 "edit-field": "항목 저장",
-                "delete-field": "항목 삭제"
+                "delete-field": "항목 삭제",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "다른 유저들의 프로필을 편집",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "항목들",
+                "trash": "",
                 "create": "",
                 "edit": "{field} 항목 편집",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +101,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

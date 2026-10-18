@@ -2,18 +2,18 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "discloseOnline": "",
-                "discloseOnline-help": "",
-                "indexProfile": "",
-                "indexProfile-help": "",
-                "followAfterReply": "",
-                "followAfterReply-help": "",
-                "postMentioned": "",
-                "postMentioned-help": "",
-                "userMentioned": "",
-                "userMentioned-help": "",
-                "groupMentioned": "",
-                "groupMentioned-help": ""
+                "discloseOnline": "Revelar Status Online",
+                "discloseOnline-help": "Quando ativado, os novos usuários permitirão que outros vejam quando estão online. Administradores e outros usuários com permissão ainda poderão ver o status online, independentemente desta configuração.",
+                "indexProfile": "Indexar Perfil",
+                "indexProfile-help": "Quando ativado, os novos usuários permitirão que mecanismos de busca indexem sua página de perfil, a menos que isso seja bloqueado por outras configurações do site ou de extensões.",
+                "followAfterReply": "Seguir após responder",
+                "followAfterReply-help": "Quando ativado, os novos usuários seguirão automaticamente as discussões em que responderem ou comentarem.",
+                "postMentioned": "E-mail de post mencionado",
+                "postMentioned-help": "Quando ativado, os novos usuários optarão automaticamente por receber uma notificação por e-mail quando um de seus posts for mencionado.",
+                "userMentioned": "E-mail de usuário mencionado",
+                "userMentioned-help": "Quando ativado, os novos usuários optarão automaticamente por receber uma notificação por e-mail quando forem @mencionados.",
+                "groupMentioned": "E-mail de grupo mencionado",
+                "groupMentioned-help": "Quando ativado, os novos usuários optarão automaticamente por receber uma notificação por e-mail quando um grupo do qual fazem parte for mencionado."
             }
         }
     }

@@ -18,6 +18,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "settings": "Settings",
+                "order": "Digest Order",
+                "stats": "Statistics",
+                "server": "Server Settings"
+            },
             "settings": {
                 "limit_new_label": "New Discussions — max items",
                 "limit_new_help": "Maximum number of new discussions to include in each digest.",
@@ -107,6 +113,8 @@
                 "help": "Control which optional extension integrations are included in digest emails. A toggle is only activatable when the required extension is installed and enabled. Enabled integrations appear in the Digest Order tab.",
                 "extension_active": "Extension active",
                 "not_installed_or_disabled": "Not installed or disabled",
+                "ext_installed": "{ext} is installed and active",
+                "ext_not_installed": "{ext} is not installed or is disabled",
                 "status_active": "Active",
                 "status_inactive": "Inactive",
                 "always_shown": "Always shown",
@@ -144,7 +152,32 @@
                 "window_spread": "Digest emails will go out gradually from {from} to {to}. Subscribers are emailed in batches — your server stays responsive and no single minute carries the full load.",
                 "window_single": "All digest emails will begin sending at {from}. Best for smaller forums with under 2,000 subscribers.",
                 "spread_send_label": "Spread send: ",
-                "single_send_label": "Single send: "
+                "single_send_label": "Single send: ",
+                "midnight": "(midnight)",
+                "noon": "(noon)",
+                "timezones": {
+                    "honolulu": "Hawaii",
+                    "anchorage": "Alaska",
+                    "los_angeles": "Pacific Time (US & Canada)",
+                    "denver": "Mountain Time (US & Canada)",
+                    "chicago": "Central Time (US & Canada)",
+                    "new_york": "Eastern Time (US & Canada)",
+                    "halifax": "Atlantic Time (Canada)",
+                    "sao_paulo": "Brasilia",
+                    "azores": "Azores",
+                    "london": "London",
+                    "paris": "Paris / Berlin / Rome",
+                    "helsinki": "Helsinki / Kyiv",
+                    "moscow": "Moscow",
+                    "dubai": "Dubai",
+                    "karachi": "Karachi",
+                    "kolkata": "Mumbai / New Delhi",
+                    "bangkok": "Bangkok / Jakarta",
+                    "shanghai": "Beijing / Singapore",
+                    "tokyo": "Tokyo / Seoul",
+                    "sydney": "Sydney",
+                    "auckland": "Auckland"
+                }
             },
             "order": {
                 "help": "Use the arrows to set the order sections appear in the digest email. Only enabled integration sections appear here — enable them in the Settings tab first.",
@@ -195,6 +228,8 @@
             },
             "server": {
                 "copy_to_clipboard": "Copy to clipboard",
+                "cron_comment_workers": "Add one line per worker — e.g. 3 workers:",
+                "cron_comment_enqueue": "Optional: pre-build jobs before the window opens (large forums only):",
                 "queue_name_label": "Queue Name",
                 "queue_name_help_1": "The named queue digest jobs are pushed onto. Default: ",
                 "queue_name_help_2": ". If using the database queue, your ",
@@ -375,6 +410,29 @@
                 "frequency_help": "The digest frequency new users are automatically enrolled at. Only frequencies enabled in User Frequency Options above are available.",
                 "no_frequencies_enabled": "No frequencies are currently enabled. Enable at least one frequency in User Frequency Options above."
             }
+        },
+        "api": {
+            "no_token": "No token provided.",
+            "token_not_found": "Token not found or expired.",
+            "invalid_frequency": "Invalid frequency.",
+            "email_required": "A valid email address is required.",
+            "frequency_invalid": "frequency must be daily, weekly, or monthly.",
+            "mail_failed": "Mail sending failed. Check the server logs for details."
+        },
+        "lib": {
+            "weekdays": {
+                "sunday": "Sunday",
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday",
+                "saturday": "Saturday"
+            },
+            "ordinal_st": "{n}st",
+            "ordinal_nd": "{n}nd",
+            "ordinal_rd": "{n}rd",
+            "ordinal_th": "{n}th"
         },
         "email": {
             "subject": "{forum} — Your {frequency} Digest",

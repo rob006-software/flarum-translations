@@ -1,0 +1,61 @@
+{
+    "ernestdefoe-backdrop": {
+        "admin": {
+            "height": "Höhe der Titelbilder auf Profilseiten (px)",
+            "height_mobile": "Höhe der Titelbilder auf Handys (px)",
+            "overlay": "Schattierung zur verbesserten Lesbarkeit",
+            "overlay_help": "Eine dunkle Abblendebene überlagert Titelbilder, sodass Namen und Angaben auf hellen Bildern lesbar bleiben.",
+            "overlay_gradient": "Farbübergang, am dunkelsten unten",
+            "overlay_darken": "Gleichmäßig dunkel",
+            "overlay_none": "Keine",
+            "on_cards": "Titelbilder auf Hoverkarten anzeigen",
+            "on_directory": "Titelbilder im Mitgliederverzeichnis anzeigen",
+            "on_directory_help": "Für Foren, die FoF User Directory verwenden.",
+            "use_fof_upload": "Bilder von Mitgliedern mit FoF Upload speichern",
+            "use_fof_upload_help": "Wenn „FoF Upload“ aktiviert ist, durchläuft das Titelbild eines Mitglieds denselben Prozess wie seine anderen Bilder: Speicherung, Größenanpassung, Wasserzeichen und WebP-Miniaturansichten. Anschließend erscheint es unter „Meine Medien“. Mitglieder, für die „FoF Upload“ nicht aktiviert ist, können keine Bilder hochladen, und Foren ohne diese Funktion nutzen den eigenen Speicher von Backdrop.",
+            "max_size": "Maximale Uploadgröße (KB)",
+            "max_size_help": "Die Größe der Titelbilder wird beim Speichern auf eine Breite von 1920px angepasst, sodass auch große Fotos schnell geladen werden.",
+            "default": "Standard-Titelbild",
+            "default_help": "Wird für Mitglieder angezeigt, die noch kein Titelbild festgelegt haben. Wird gespeichert, sobald du es änderst.",
+            "default_set": "Standard-Titelbild festlegen",
+            "default_change": "Standard-Titelbild ändern",
+            "permission_upload": "Eigenes Titelbild hochladen",
+            "permission_choose": "Wähle ein Titelbild aus der Galerie",
+            "gallery": "Titelbild-Galerie",
+            "gallery_help": "Titelbilder, aus denen Mitglieder wählen können, in dieser Reihenfolge. Zum Ändern der Reihenfolge ziehen. Bis zu {max}.",
+            "gallery_add": "Titelbilder hinzufügen",
+            "gallery_empty": "Es gibt noch keine Titelbilder. Mitglieder können nur ihre eigenen hochladen, bis du welche hinzufügst.",
+            "gallery_frame": "Ausrichten",
+            "gallery_delete": "Löschen",
+            "gallery_delete_confirm": "Dieses Titelbild löschen? Mitglieder, die es verwenden, werden auf das Standard-Titelbild umgestellt.",
+            "gallery_frame_title": "Galerie-Titelbild ausrichten"
+        },
+        "api": {
+            "invalid_focus": "Der Fokuspunkt muss eine Zahl zwischen 0 und 100 sein.",
+            "invalid_zoom": "Zoom muss eine Zahl zwischen 0.5 und 4 sein.",
+            "no_file": "Bild zum Hochladen wählen.",
+            "no_cover": "Es gibt kein Titelbild, dass neu ausgerichtet werden kann.",
+            "unknown_preset": "Dieses Titelbild ist nicht mehr in der Galerie.",
+            "gallery_full": "Die Galerie enthält maximal {max} Titelbilder.",
+            "busy": "Die Galerie wird gerade geändert. Bitte versuche es in Kürze erneut."
+        },
+        "forum": {
+            "edit_cover": "Titelbild bearbeiten"
+        },
+        "lib": {
+            "editor": {
+                "empty": "Wähle ein Bild",
+                "formats": "JPEG, PNG, WebP oder GIF.",
+                "hint": "Ziehe das Bild, um den Ausschnitt festzulegen. Scrolle oder verwende den Schieberegler, um die Ansicht zu vergrößern oder zu verkleinern; unterhalb von 1× werden die Ränder mit einer unscharfen Kopie ausgefüllt.",
+                "stage_label": "Ausrichtung des Titelbilds. Verwende die Pfeiltasten, um es zu verschieben, und die Plus- oder Minustasten zur Zoomanpassung.",
+                "zoom": "Zoom",
+                "choose": "Wähle ein Bild",
+                "upload_own": "Eigenes hochladen",
+                "gallery": "Galerie",
+                "gallery_label": "Titelbild aus der Galerie wählen",
+                "remove": "Titelbild entfernen",
+                "save": "Speichern"
+            }
+        }
+    }
+}

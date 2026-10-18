@@ -5,135 +5,135 @@
                 "description": "高級進階設置。",
                 "maintenance": {
                     "bisect": {
-                        "begin_button_text": "二分法除錯",
-                        "continue_button_text": "繼續二分排查",
-                        "label": "擴展二分法除錯",
-                        "help": "協助找出造成問題的擴充套件。執行期間，論壇會自動進入（低層級）維護模式，直到問題定位完成。"
+                        "begin_button_text": "開始排查",
+                        "continue_button_text": "繼續排查",
+                        "label": "排查擴充功能",
+                        "help": "透過二分搜尋法，協助你找出導致錯誤的擴充功能。使用此功能時，論壇會自動開啟「一般維護模式」，直到排查結束。"
                     },
                     "bisect_modal": {
-                        "description": "此操作會將論壇切換至（低層級）維護模式，直到問題定位完成。系統會在每個步驟暫時停用部分擴充套件，以逐步找出造成問題的擴充套件。因此，在此期間，部分功能可能無法使用，或討論頁面的外觀可能有所變化，這是正常現象。請保持此頁面開啟，並在每個步驟完成後，於另一個獨立的頁面嘗試重現問題。如果不小心關閉此頁面，也可以隨時返回繼續。\n",
-                        "end_button": "關閉並切換至擴展程序頁面",
-                        "issue_question": "問題仍在存在嗎？",
-                        "issue_question_help": "請在另一個頁面嘗試重現問題，並依照結果回答下列問題。",
-                        "no_button": "不",
-                        "result_description": "論壇已退出維護模式。擴充套件問題定位已完成。根據您在各步驟中的回饋，造成問題的擴充套件如下：\n",
-                        "start_button": "開始二分法除錯",
-                        "stop_button": "停止二分法除錯",
-                        "steps_left": "剩餘步數：{steps}",
-                        "total_steps": "這大約需要 {steps} 步。",
-                        "title": "擴展二分法除錯",
-                        "yes_button": "是"
+                        "description": "繼續操作會自動開啟「一般維護模式」，直到排查結束。在每一步中，系統都會停用部分擴充功能，直到找到導致問題的擴充功能。因此，如果你發現論壇功能缺失，或是樣式變更，這是正常現象，請勿擔心。請不要關閉目前頁面，每操作一步，請在新分頁嘗試重現問題。如不慎關閉目前頁面，你可以隨時返回這裡。\n",
+                        "end_button": "關閉並前往擴充功能頁面",
+                        "issue_question": "問題仍然存在嗎？",
+                        "issue_question_help": "請在新分頁中嘗試重現問題，並根據實際情況選擇回答。",
+                        "no_button": "不存在",
+                        "result_description": "擴充功能排查完畢，論壇已退出維護模式。根據各步驟回饋，導致問題的擴充功能是：\n",
+                        "start_button": "開始排查",
+                        "stop_button": "停止排查",
+                        "steps_left": "剩餘步驟：{steps}",
+                        "total_steps": "排查大約需要 {steps} 步。",
+                        "title": "擴充功能排查",
+                        "yes_button": "存在"
                     },
                     "config_override": {
-                        "label": "您的 <code>config.php</code> 文件正在覆這些設置。",
-                        "help": "您仍可在此修改這些設定，但在 <code>config.php</code> 檔案中將 <code>offline</code> 設為 <code>0</code> 之前，這些設定都不會生效。"
+                        "label": "你的 <code>config.php</code> 檔案正在覆寫這些設定。",
+                        "help": "此處的設定可以修改儲存。如需生效，請將 <code>config.php</code> 檔案中的 <code>offline</code> 設定為 <code>0</code>。"
                     },
-                    "help": "將論壇切換為維護模式，以防止使用者存取。",
+                    "help": "開啟維護模式，防止使用者存取論壇。",
                     "options": {
-                        "none": "無維護。",
+                        "none": "停止維護。",
                         "high": "高階維護模式。所有人都無法存取論壇（僅能透過 <code>config.php</code> 啟用）",
-                        "low": "低階維護模式。管理員仍可存取論壇。",
-                        "safe": "安全模式。不載入任何擴充套件，且僅管理員可存取論壇。"
+                        "low": "一般維護。僅限管理員存取論壇。",
+                        "safe": "安全模式。不載入任何擴充功能，且僅限管理員存取論壇。"
                     },
-                    "safe_mode_extensions": "安全模式下允許加載的擴展",
-                    "safe_mode_extensions_override_help": "此設定會由 <code>config.php</code> 檔案中的 <code>safe_mode_extensions</code> 設定覆寫。（<b>{extensions}</b>）",
+                    "safe_mode_extensions": "啟用擴充功能",
+                    "safe_mode_extensions_override_help": "此設定已被 <code>config.php</code> 檔案中的 <code>safe_mode_extensions</code> 鍵值覆寫。(<b>{extensions}</b>)",
                     "section_label": "維護"
                 },
                 "fontawesome": {
-                    "section_label": "FontAwesome 图标",
+                    "section_label": "FontAwesome 圖示",
                     "source_label": "圖示來源",
-                    "source_help": "選擇 Font Awesome 圖示的載入方式。「本機」使用隨附的字型檔；「CDN」從 CDN 載入；「Kit」則使用包含自訂圖示的 Font Awesome Kit。",
-                    "source_local": "本機（隨附）",
+                    "source_help": "選擇 FontAwesome 圖示的來源。論壇預設使用 Flarum 內建字型，你可以透過 CDN 或 FontAwesome Kit 自訂圖示。",
+                    "source_local": "本機（內建）",
                     "source_cdn": "CDN",
-                    "source_kit": "FontAwesome 套件",
+                    "source_kit": "FontAwesome Kit",
                     "cdn_url_label": "CDN URL",
-                    "cdn_url_help": "CDN 上 FontAwesome CSS 文件的完整 URL",
-                    "kit_url_label": "套件 URL",
-                    "kit_url_help": "您的 FontAwesome Kit 脚本 URL（来自 kit.fontawesome.com）",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "cdn_url_help": "Font Awesome CSS 檔案的 CDN 連結",
+                    "kit_url_label": "Kit 連結",
+                    "kit_url_help": "你的 Font Awesome Kit 指令碼 URL（來自 kit.fontawesome.com）",
+                    "forced_style_label": "強制圖示樣式",
+                    "forced_style_help": "強制所有圖示使用指定的 Font Awesome 樣式，例如 `fa-duotone fa-light` 或 `fa-regular`。此設定會覆寫核心和擴充功能指定的圖示樣式，但不會影響品牌圖示。請確保目前圖示來源支援所選樣式：內建的 Font Awesome Free 對 `fas` 實心樣式以外的樣式支援有限，強制使用其他樣式可能導致大量圖示無法顯示。Font Awesome Pro CDN 或 Kit 支援全部樣式。留空則停用此設定。",
                     "config_override": {
-                        "label": "配置覆蓋",
-                        "help": "Font Awesome 設定已於 <code>config.php</code> 檔案中指定，因此無法在此修改。"
+                        "label": "設定覆寫",
+                        "help": "FontAwesome 設定目前已在 config.php 檔案中存在，無法在此處修改。"
                     },
                     "preview": {
                         "button": "預覽圖示",
                         "label": "圖示預覽",
-                        "help": "驗證您的 Font Awesome 設定。顯示正常的圖示代表該等級可用；若顯示為破損方框，則表示尚未載入。",
-                        "fa5_fa6_label": "FA5/FA6 別名",
-                        "fa7_label": "FA7 類名",
-                        "pro_label": "僅限專業版"
+                        "help": "驗證你的 FontAwesome 設定。圖示是否正常顯示，表示對應版本是否可用。",
+                        "fa5_fa6_label": "FA5 / FA6 別名",
+                        "fa7_label": "FA7 類別名稱",
+                        "pro_label": "僅限 Pro 版本"
                     }
                 },
                 "pgsql": {
-                    "search_configuration": "要使用的搜索配置"
+                    "search_configuration": "要使用的搜尋設定"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
-                    "section_label": "隊列",
-                    "sync_info": "您的論壇目前使用同步佇列驅動程式，所有工作會立即於主程序中執行。",
-                    "sync_help": "為了提升效能與使用體驗，建議改用資料庫佇列驅動程式。請參閱文件以了解更多資訊。",
-                    "custom_driver": "您的論壇目前使用由擴充套件提供的 {driver} 佇列驅動程式。",
+                    "pause_label": "暫停佇列",
+                    "pause_all_label": "暫停所有佇列",
+                    "pause_queue_label": "暫停 {queue} 佇列",
+                    "pause_help": "暫停處理受影響佇列中的任務，已經開始執行的任務不會受到影響。",
+                    "section_label": "佇列",
+                    "sync_info": "目前使用同步佇列驅動程式，所有任務均由主執行緒直接處理。",
+                    "sync_help": "為了更佳的效能和使用者體驗，建議使用資料庫佇列驅動程式。相關資訊請查閱文件。",
+                    "custom_driver": "目前使用由擴充功能提供的 {driver} 佇列驅動程式。",
                     "retries_label": "任務重試",
-                    "retries_help": "工作在標記為失敗前的最大重試次數。預設為 1。",
-                    "memory_label": "內存限級(MB)",
-                    "memory_help": "佇列工作程序在重新啟動前可使用的最大記憶體。預設為 128 MB。",
-                    "timeout_label": "工作逾時（秒）",
-                    "timeout_help": "單一工作在逾時前可執行的最長時間。預設為 60 秒。",
-                    "rest_label": "等待時間（秒）",
-                    "rest_help": "每次處理工作之間的等待時間。預設為 0 秒。",
-                    "backoff_label": "重試等待時間（秒）",
-                    "backoff_help": "工作失敗後，再次嘗試執行前的等待時間。預設為 0 秒。"
+                    "retries_help": "任務失敗時的重試次數，預設為 1。",
+                    "memory_label": "記憶體限制（MB）",
+                    "memory_help": "佇列程序的記憶體使用上限，達到上限後將自動重新啟動。預設為 128 MB。",
+                    "timeout_label": "任務逾時（秒）",
+                    "timeout_help": "單一任務的執行時間上限，預設為 60 秒。",
+                    "rest_label": "任務間隔（秒）",
+                    "rest_help": "執行下一個任務前的間隔時間，預設為 0 秒。",
+                    "backoff_label": "重試間隔（秒）",
+                    "backoff_help": "任務失敗時的重試間隔時間，預設為 0 秒。"
                 },
                 "search": {
-                    "section_label": "搜尋驅動",
-                    "driver_heading": "搜尋驅動：{model}",
-                    "driver_text": "選擇此模型使用的搜尋驅動。",
+                    "section_label": "搜尋驅動程式",
+                    "driver_heading": "搜尋驅動程式：{model}",
+                    "driver_text": "選擇此內容的搜尋驅動程式。",
                     "driver_options": {
                         "default": "預設資料庫搜尋"
                     },
-                    "no_other_drivers": "目前沒有可用的搜尋驅動。請安裝搜尋驅動擴充套件後，再進行設定。",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "no_other_drivers": "暫無可用驅動程式，請先安裝相關擴充功能。",
+                    "cjk_mode_label": "最佳化中日韓搜尋",
+                    "cjk_mode_help": "如果論壇主要使用中文、日文或韓文，請開啟此項。資料庫預設搜尋無法比對中日韓文字中的部分內容，開啟後將改用子字串比對。此模式在超大型論壇中速度較慢，可在資料庫層設定支援中日韓文字的全文解析器（如 MySQL/MariaDB 的 ngram 解析器）來提升搜尋效能。"
                 },
-                "title": "進階"
+                "title": "進階設定"
             },
             "appearance": {
-                "allow_user_color_scheme_label": "允許使用者自行選擇配色主題",
-                "colored_header_label": "導航欄上色",
-                "colors_heading": "顏色",
-                "colors_primary_label": "主色調",
-                "colors_secondary_label": "次色調",
-                "colors_text": "選擇兩種顏色作為論壇主色調。第一種作為突出顯示顏色，第二種作為背景等元素的顏色。",
-                "custom_footer_heading": "自定義頁腳",
+                "allow_user_color_scheme_label": "允許使用者切換顯示模式",
+                "colored_header_label": "彩色導覽列",
+                "colors_heading": "配色",
+                "colors_primary_label": "主題色",
+                "colors_secondary_label": "輔助色",
+                "colors_text": "選擇論壇的主題色和輔助色，分別用於內容凸顯和背景元素。",
+                "custom_footer_heading": "自訂頁尾",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "自定義頁眉",
+                "custom_header_heading": "自訂頁首",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_cannot_use_less_features": "@import 和 data-uri 特性在自定義 LESS 中是不允許的。",
-                "custom_styles_heading": "自定義樣式",
-                "custom_styles_text": "增加 Less/CSS 程式碼以自定義論壇外觀，此設置將覆蓋 Flarum 預設樣式。",
-                "description": "自訂論壇風格、圖示及其他元素。",
-                "edit_css_button": "編輯自定義 CSS",
+                "custom_styles_cannot_use_less_features": "自訂 LESS 不支援使用 @import 和 data-uri 功能。",
+                "custom_styles_heading": "自訂樣式",
+                "custom_styles_text": "新增 Less/CSS 程式碼以自訂論壇外觀，此設定將覆寫 Flarum 預設樣式。",
+                "description": "自訂論壇配色、圖示以及其他元素",
+                "edit_css_button": "編輯自訂 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "email_logo_heading": "",
-                "email_logo_text": "",
+                "email_logo_heading": "Email 標誌",
+                "email_logo_text": "上傳一張顯示在電子郵件頂端的圖片。系統會以所有電子郵件用戶端都能顯示的格式儲存。若未上傳，郵件將使用你的 Logo 副本。如果你的郵件顯示的是論壇名稱而非 Logo，請重新上傳你的 Logo。",
                 "enter_hex_message": "請輸入十六進位色碼。",
                 "favicon_heading": "網站圖示",
-                "favicon_text": "上傳圖片作為論壇的網站圖示，該圖示將顯示在瀏覽器標籤頁、搜尋引擎結果列表和書籤等多個位置。",
-                "logo_heading": "網站標誌",
-                "logo_text": "上傳圖片代替論壇名稱，將顯示在導航欄的左側。",
+                "favicon_text": "上傳圖片，用於瀏覽器分頁、書籤、搜尋引擎結果等位置。",
+                "logo_heading": "Logo",
+                "logo_text": "上傳圖片，替代論壇名稱顯示在導覽列左側。",
                 "logo_dark_mode_heading": "深色模式 Logo",
-                "logo_dark_mode_text": "上傳在深色模式下顯示的替代 Logo。",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "logo_dark_mode_text": "上傳更適合在深色模式下顯示的 Logo 圖片。",
+                "show_theme_selector_help": "允許使用者在導覽列切換顯示模式。",
+                "show_theme_selector_label": "導覽列支援切換顯示模式",
                 "title": "外觀",
-                "color_scheme_label": "配色主題（預設）",
+                "color_scheme_label": "預設顯示模式",
                 "color_schemes": {
-                    "auto_mode_label": "依使用者系統或個人設定",
+                    "auto_mode_label": "跟隨系統或使用者設定",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
@@ -141,275 +141,275 @@
                 }
             },
             "basics": {
-                "all_discussions_label": "全部主題",
+                "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "預設語言",
-                "description": "設置論壇名稱、語言以及其它基本設定。",
+                "description": "設定論壇名稱、語言及其他一般設定",
                 "display_name_driver_options": {
-                    "username": "用戶名"
+                    "username": "使用者名稱"
                 },
                 "display_name_heading": "使用者顯示名稱",
-                "display_name_text": "選擇外顯名稱的類型，預設為用戶名。",
+                "display_name_text": "選擇顯示名稱的類型，預設為使用者名稱。",
                 "avatar_driver_options": {
                     "default": "預設"
                 },
-                "avatar_driver_heading": "用戶頭像",
-                "avatar_driver_text": "選擇使用者未上傳頭像時所使用的頭像驅動。預設情況下，若使用者未上傳頭像，則不會顯示任何頭像。",
-                "forum_description_heading": "論壇說明",
+                "avatar_driver_heading": "使用者頭像",
+                "avatar_driver_text": "設定使用者未上傳頭像時的頭像顯示方式，預設不顯示頭像。",
+                "forum_description_heading": "論壇描述",
                 "forum_description_text": "使用一到兩句話簡短描述論壇。這將會增加到 Meta 標籤中，並顯示於搜尋引擎結果中。",
                 "forum_title_heading": "論壇名稱",
                 "home_page_heading": "論壇首頁",
-                "home_page_text": "選擇一個頁面作為論壇首頁。",
-                "show_language_selector_label": "顯示語言選擇選單",
+                "home_page_text": "選擇使用者存取論壇時預設進入的頁面。",
+                "show_language_selector_label": "允許使用者切換語言",
                 "slug_driver_options": {
                     "discussions": {
-                        "default": "帶別名的ID",
-                        "utf8": "帶 UTF-8 別名的 ID"
+                        "default": "ID + Slug",
+                        "utf8": "ID + UTF-8 Slug"
                     },
                     "users": {
-                        "default": "用戶名",
+                        "default": "使用者名稱",
                         "id": "ID",
-                        "id_with_display_name": "ID 與顯示名稱"
+                        "id_with_display_name": "ID + 顯示名稱"
                     }
                 },
-                "slug_driver_heading": "固定連結驅動：{model}",
-                "slug_driver_text": "選擇此模組的 URL 驅動。",
+                "slug_driver_heading": "固定連結格式：{model}",
+                "slug_driver_text": "選擇此內容的連結產生方式。",
                 "title": "一般",
                 "welcome_banner_heading": "歡迎橫幅",
-                "welcome_banner_text": "橫幅文字將顯示於「全部貼文」頁面頂部，用以歡迎新到訪的遊客。",
-                "abandoned_extensions_heading": "已棄用插件",
-                "abandoned_extensions_text": "Flarum 維護了一份<a>已棄用擴充套件清單</a>。若安裝了清單中的擴充套件，管理後台將會標示該擴充套件。",
+                "welcome_banner_text": "設定「全部主題」頁面頂端的歡迎橫幅文字。",
+                "abandoned_extensions_heading": "停止維護的擴充功能",
+                "abandoned_extensions_text": "若安裝了 <a>停止維護清單</a> 中的擴充功能，儀表板中會有提示。",
                 "abandoned_extensions_sync_button": "立即檢查",
-                "abandoned_extensions_sync_success": "已完成更新已棄用擴充套件清單。已安裝的擴充套件中，共有 {count} 個已棄用。",
-                "abandoned_extensions_sync_error": "已棄用擴充套件清單更新失敗。請稍後再試。",
-                "abandoned_extensions_notify_admins_label": "每週例行檢查時，若發現新的已棄用擴充套件，將以電子郵件通知管理員"
+                "abandoned_extensions_sync_success": "停止維護的擴充功能清單已更新，發現 {count} 個已安裝。",
+                "abandoned_extensions_sync_error": "取得停止維護的擴充功能清單失敗，請稍後重試。",
+                "abandoned_extensions_notify_admins_label": "每週檢查停止維護清單，符合時以電子郵件通知管理員"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
-                "email_confirmed_label": "需要用戶驗證此郵件",
+                "email_confirmed_label": "需要使用者驗證電子郵件",
                 "password_placeholder": "=> core.ref.password",
-                "submit_and_create_another_button": "建立並增加另一個",
-                "submit_button": "建立用戶",
-                "title": "建立新用戶",
+                "submit_and_create_another_button": "建立並新增下一個",
+                "submit_button": "建立",
+                "title": "新增使用者",
                 "use_random_password": "產生隨機密碼",
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "{count, plural, one {# 則留言} other {# 則留言}}",
-                "description": "Flarum 團隊的最新消息和公告。",
-                "empty": "未發現公告。",
-                "load_error": "無法加載公告。請稍候再試。",
-                "about": "來自 Flarum 官方社群 discuss.flarum.org 的最新消息與公告。",
-                "hide": "隱藏公告",
+                "comments_label": "{count, plural, one {# 則回覆} other {# 則回覆}}",
+                "description": "Flarum 團隊的最新動態與公告。",
+                "empty": "暫無公告",
+                "load_error": "公告載入失敗，請稍後重試。",
+                "about": "最新動態與公告均來自 Flarum 官方社群 discuss.flarum.org。",
+                "hide": "隱藏",
                 "read_more": "閱讀更多",
-                "refresh": "刷新公告",
+                "refresh": "重新整理",
                 "retry": "重試",
-                "show": "顯示公告",
+                "show": "顯示",
                 "title": "公告",
-                "view_all": "在 discuss.flarum.org 查看全部"
+                "view_all": "前往 discuss.flarum.org 查看全部"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "佇列",
+                "pending": "等待中",
+                "reserved": "處理中",
+                "failed": "失敗",
+                "refresh": "重新整理"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "title": "失敗任務",
+                "none": "無失敗任務。",
+                "meta": "佇列 {queue} · {time} 失敗",
+                "details": "詳情",
+                "retry": "重試",
+                "retry_all": "全部重試",
+                "delete": "刪除"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "以下佇列已暫停處理：{queues}，請留意任務積壓風險。",
+                "queue_paused_all_warning": "所有佇列均已暫停處理，請留意任務積壓風險。",
+                "queue_paused_manage": "管理",
                 "clear_cache_button": "清除快取",
                 "clear_cache_modal": {
-                    "title": "",
-                    "working": "",
-                    "cleared": "",
-                    "cleared_files": "",
-                    "rebuilt": "",
-                    "unchanged": "",
-                    "rewritten": "",
-                    "empty": "",
-                    "chunks": "",
-                    "failed": "",
-                    "took": "",
-                    "reload_button": ""
+                    "title": "清除快取",
+                    "working": "正在重建已編譯的資源。在較大型的論壇上，這可能需要一段時間。",
+                    "cleared": "{name} 已清除",
+                    "cleared_files": "已清除 {name}（{count} 個檔案）",
+                    "rebuilt": "已重建 {bundle}",
+                    "unchanged": "已更新 {bundle}",
+                    "rewritten": "已重寫 {bundle}",
+                    "empty": "{bundle} 沒有需要編譯的內容",
+                    "chunks": "已重建 {frontend} 的分割區塊（{count} 項變更）",
+                    "failed": "無法重建 {step}: {message}",
+                    "took": "{time} 毫秒",
+                    "reload_button": "重新加載"
                 },
                 "description": "論壇資訊總覽。",
-                "info_button": "系統訊息",
+                "info_button": "系統資訊",
                 "info_modal": {
-                    "title": "系統訊息",
+                    "title": "系統資訊",
                     "copy_button": "複製到剪貼簿",
-                    "copy_success": "系統資訊已複製到剪貼簿",
-                    "copy_error": "無法複製到剪貼簿"
+                    "copy_success": "複製成功",
+                    "copy_error": "複製失敗"
                 },
-                "io_error_message": "無法寫入檔案。請檢查操作權限，重試或者直接從命令列執行命令。",
+                "io_error_message": "檔案系統寫入失敗，請檢查檔案權限後重試，或改用命令列執行。",
                 "status": {
                     "headers": {
-                        "scheduler-status": "排程",
-                        "queue-driver": "Queue 驅動",
-                        "session-driver": "Session 驅動"
+                        "scheduler-status": "任務排程",
+                        "queue-driver": "佇列驅動程式",
+                        "session-driver": "工作階段驅動程式"
                     },
                     "scheduler": {
-                        "active": "啟用",
-                        "inactive": "禁用",
-                        "never-run": "沒有執行過"
+                        "active": "執行中",
+                        "inactive": "未執行",
+                        "never-run": "從未執行"
                     }
                 },
                 "title": "儀表板",
-                "toggle_advanced_page_button": "切換為進階頁面",
+                "toggle_advanced_page_button": "顯示/隱藏進階設定",
                 "tools_button": "工具"
             },
             "extensions-health-widget": {
-                "abandoned_no_replacement": "無可用替代方案",
-                "abandoned_with_replacement": "由 {replacement} 替代",
-                "all_healthy": "所有擴展均正常。",
-                "section_abandoned_empty": "未發現問題。",
-                "section_suggested_empty": "無建議。",
-                "section_disabled_empty": "所有擴展均已啟用。",
-                "title": "擴展運行狀況Q",
-                "section_abandoned_heading": "需要注意",
-                "section_abandoned_help": "這些擴展不再維護，或者可能存在兼容性問題，請考慮更新、更換或移除。",
+                "abandoned_no_replacement": "暫無替代擴充功能",
+                "abandoned_with_replacement": "推薦替代：{replacement}",
+                "all_healthy": "擴充功能狀態正常。",
+                "section_abandoned_empty": "未發現問題",
+                "section_suggested_empty": "暫無建議",
+                "section_disabled_empty": "所有擴充功能均已啟用",
+                "title": "擴充功能狀態",
+                "section_abandoned_heading": "需要關注",
+                "section_abandoned_help": "這些擴充功能已停止維護或可能存在相容性問題，請考慮更新、替換或解除安裝。",
                 "section_suggested_heading": "建議",
-                "section_suggested_help": "Flarum 擴充套件可透過指定其他擴充套件或套件，提供額外的選用功能。這些套件可能會增加更多功能或整合能力。",
-                "section_disabled_heading": "已禁用",
-                "section_disabled_help": "這些擴充套件已安裝，但目前未啟用。請至各自的設定頁面啟用，或於不再需要時將其移除。",
-                "suggested_by": "由 {extension} 建議"
+                "section_suggested_help": "部分擴充功能會推薦其他擴充功能或套件，安裝後可獲得額外功能或整合。",
+                "section_disabled_heading": "已停用",
+                "section_disabled_help": "這些擴充功能已安裝但未啟用。如不再使用請考慮解除安裝。",
+                "suggested_by": "{extension} 推薦安裝"
             },
             "database-driver-mismatch-warning": {
-                "detail": "您的環境設定檔 <code>config.php</code> 中設定的資料庫驅動為 <code>{configured}</code>，但 Flarum 偵測到目前實際使用的資料庫驅動為 <code>{actual}</code>。\n\n使用錯誤的資料庫驅動可能導致嚴重且難以診斷的問題。請將 <code>config.php</code> 中 <code>database</code> 設定的資料庫驅動修改為 <code>'driver' => ''{actual}''</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n",
-                "label": "數據庫驅動不匹配"
+                "detail": "Flarum 偵測到目前實際使用 <code>{actual}</code> 資料庫，這與 <code>config.php</code> 中設定的資料庫驅動程式 <code>{configured}</code> 不一致。\n\n使用錯誤的資料庫驅動程式可能引發難以察覺、難以排查的故障，請將 <code>config.php</code> 中 <code>database</code> 下的設定更正為 <code>'driver' => ''{actual}''</code>。詳情請參閱 <link>Flarum 官方文件</link>。\n",
+                "label": "資料庫驅動程式設定不一致"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "目前 {server} 執行版本為 <code>{version}</code>。該版本可正常使用，但 Flarum 建議升級至 <code>{recommended}</code> 或更高版本，以獲得最佳效能並接收長期維護。更多資訊請參閱 <link>Flarum 文件</link>。\n",
+                "below-recommended-label": "建議更新資料庫"
             },
             "debug-warning": {
-                "detail": "啟用 <code>debug</code> 模式時，<code>JavaScript</code> 和 <code>CSS</code> 檔案將於每次請求時返回全新的編譯版本。調試模式中，所有日誌、警告和錯誤均會以彈窗形式展示在網頁中，資料庫密碼、環境變數等敏感資訊均有可能在此期間洩漏。 \n \n因此我們強烈建議您在生產環境中將 <code>config.php</code> 檔案中的禁用 <code>debug</code> 模式。請查看 <link>Flarum 文件</link>了解更多資訊。\n",
-                "label": "除錯模式啟動"
+                "detail": "啟用 <code>debug</code> 模式時，Flarum 會在每次請求時重新建置 <code>JavaScript</code> 和 <code>CSS</code> 資源。頁面警告和錯誤也會以彈出視窗形式顯示詳細資訊，資料庫憑證、環境變數等敏感資訊可能會在此期間外洩。\n\n強烈建議在正式環境中停用 <code>config.php</code> 中的 <code>debug</code> 模式。詳情請參閱 <link>Flarum 官方文件</link>。\n",
+                "label": "偵錯模式已啟用"
             },
             "edit_css": {
-                "customize_text": "透過增加 LESS/CSS 程式碼以客製化論壇外觀，此設定將覆蓋 Flarum <a>預設樣式</a>。",
-                "submit_button": "儲存更改",
-                "title": "編輯客製化 CSS"
+                "customize_text": "新增 Less/CSS 程式碼以自訂論壇外觀，此設定將覆寫 Flarum <a>預設樣式</a>。",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "編輯自訂 CSS"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
-                "submit_button": "儲存更改",
-                "title": "編輯客製化頁腳"
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "顏色",
-                "delete_button": "刪除群組",
-                "delete_confirmation": "確定是否刪除此群組？群組成員不會被刪除。",
-                "hide_label": "隱藏群組",
-                "icon_label": "圖示",
-                "icon_text": "輸入任意 <a>FontAwesome</a> 圖示類名，<em>需要包含</em>前綴 <code>fas fa-</code>",
+                "color_label": "=> core.ref.color",
+                "delete_button": "刪除使用者組",
+                "delete_confirmation": "確定要刪除此使用者組嗎？此操作不會刪除組內成員的帳號。",
+                "hide_label": "在論壇中隱藏",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "名稱",
-                "plural_placeholder": "群組（例如：管理組）",
-                "singular_placeholder": "群組成員（例如：管理員）",
-                "submit_button": "儲存更改",
-                "title": "新增群組"
+                "plural_placeholder": "使用者組（例如：管理組）",
+                "singular_placeholder": "成員（例如：管理員）",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "建立使用者組"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
-                "submit_button": "儲存更改",
-                "title": "編輯客製化頁眉"
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "郵箱地址",
+                "addresses_heading": "寄件地址",
                 "description": "配置論壇郵件服務。",
-                "driver_heading": "驅動模式",
-                "driver_label": "驅動",
+                "driver_heading": "選擇寄件方式",
+                "driver_label": "寄件方式",
                 "format": {
-                    "multipart_option": "Multipart（建議）",
-                    "plain_option": "純文本",
+                    "multipart_option": "混合格式（推薦）",
+                    "plain_option": "純文字",
                     "html_option": "HTML"
                 },
-                "format_heading": "Email 格式",
-                "format_help": "選擇寄出電子郵件的格式。建議使用 <code>multipart</code>，因為它可讓收件者的電子郵件用戶端自動選擇最適合的顯示格式。",
-                "from_label": "發信人",
-                "mail_encryption_label": "加密協議 (小寫ssl或tls)",
-                "mail_encryption_tls_help": "連線開始時不使用加密，之後再升級為 TLS（STARTTLS）。通常使用連接埠 587 或 25。",
-                "mail_encryption_ssl_help": "連線一開始即使用 TLS 加密（Implicit TLS）。通常使用連接埠 465。",
-                "mail_encryption_none_help": "不使用加密。不建議在正式環境中使用。",
-                "mail_host_label": "主機",
-                "mail_mailgun_domain_label": "域名",
+                "format_heading": "內容格式",
+                "format_help": "選擇電子郵件的內容格式。推薦使用混合格式（<code>multipart</code>），以便收件人的電子郵件用戶端選擇最合適的格式顯示。",
+                "from_label": "寄件地址",
+                "mail_encryption_label": "加密協定",
+                "mail_encryption_tls_help": "先建立未加密連線，再升級為 TLS（STARTTLS），通常使用 587 或 25 連接埠。",
+                "mail_encryption_ssl_help": "建立連線時即啟用 TLS 加密（隱式 TLS），通常使用 465 連接埠。",
+                "mail_encryption_none_help": "不加密，不建議用於正式環境。",
+                "mail_host_label": "伺服器位址",
+                "mail_mailgun_domain_label": "網域",
                 "mail_mailgun_region_label": "區域",
                 "mail_mailgun_secret_label": "密鑰",
-                "mail_password_label": "密碼",
-                "mail_port_label": "通訊埠",
-                "mail_postmark_message_stream_label": "訊息串流",
-                "mail_postmark_token_label": "伺服器權杖",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "連接埠",
+                "mail_postmark_message_stream_label": "訊息串流（Message stream）",
+                "mail_postmark_token_label": "伺服器權杖（Server token）",
                 "mail_smtp_verify_peer_label": "驗證 SSL 憑證",
-                "mail_smtp_verify_peer_help": "使用 TLS 或 SSL 加密時，驗證伺服器的 SSL 憑證。僅當郵件伺服器使用自簽憑證時，才建議停用此選項。",
-                "mail_username_label": "用戶名 (部分服務商要求使用完整郵件地址)",
-                "mailgun_heading": "Mailgun 設定",
-                "postmark_heading": "Postmark 設置",
-                "postmark_description": "透過 Postmark 的 HTTP API 傳送電子郵件。您也可以指定 Message Stream，以使用預設以外的訊息串流。",
-                "not_sending_message": "Flarum 目前無法傳送郵件，請檢查郵件驅動及配置。",
-                "send_test_mail_button": "發送",
-                "send_test_mail_heading": "發送測試郵件",
-                "send_test_mail_success": "測試郵件發送成功！",
+                "mail_smtp_verify_peer_help": "使用 TLS 或 SSL 加密時驗證郵件伺服器的 SSL 憑證。伺服器使用自簽憑證時請關閉此項。",
+                "mail_username_label": "使用者名稱（部分郵件服務商要求使用者名稱必須與寄件地址一致）",
+                "mailgun_heading": "Mailgun 服務",
+                "postmark_heading": "Postmark 服務",
+                "postmark_description": "透過 Postmark HTTP API 傳送電子郵件，也可指定其他訊息串流。",
+                "not_sending_message": "Flarum 目前無法傳送電子郵件，請檢查寄件方式及其設定。",
+                "send_test_mail_button": "傳送",
+                "send_test_mail_heading": "傳送測試郵件",
+                "send_test_mail_success": "測試郵件傳送成功！",
                 "send_test_mail_text": "使用上述設置發送測試郵件到您的郵箱：{email}。",
-                "smtp_heading": "SMTP 設定",
-                "smtp_description": "設定 SMTP 連線參數。常見設定為連接埠 587（TLS）或連接埠 465（SSL）。",
-                "title": "信箱"
+                "smtp_heading": "SMTP 服務",
+                "smtp_description": "設定 SMTP 伺服器連線。通常使用 587 連接埠（TLS）或 465 連接埠（SSL）。",
+                "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "此擴充功能不再由其作者維護，並且可能不會再收到更新。",
-                "abandoned_with_replacement": "此擴充功能已被{replacement}取代。考慮遷移到替換包。",
-                "configure_scopes": "設置範圍",
-                "confirm_purge": "重置操作會清除資料庫中所有該擴充套件相關的記錄和資源。如要卸載擴充套件，請透過 Composer 操作。確定要重置擴充套件嗎？",
-                "database_driver_mismatch": "此擴充套件不支援您目前設定的資料庫驅動。",
+                "abandoned_no_replacement": "此擴充功能已停止維護，今後可能不再更新。",
+                "abandoned_with_replacement": "此擴充功能已被 {replacement} 替代，請考慮遷移。",
+                "configure_scopes": "新增標籤設定",
+                "confirm_purge": "此操作將清除該擴充功能的所有資料庫紀錄及相關資源，但不會解除安裝擴充功能；如需解除安裝，請透過 Composer 操作。確定要繼續嗎？",
+                "database_driver_mismatch": "此擴充功能不支援你設定的資料庫驅動程式。",
                 "deprecated": "已棄用",
                 "disabled": "關閉",
-                "enable_to_see": "開啟擴充套件程式以查看或修改設置。",
+                "enable_to_see": "啟用擴充功能以查看和修改設定。",
                 "enabled": "開啟",
                 "info_links": {
-                    "discuss": "討論區",
-                    "documentation": "檔案",
+                    "discuss": "英文社群",
+                    "documentation": "文件",
                     "donate": "贊助",
                     "source": "原始碼",
                     "support": "支援",
                     "website": "網站"
                 },
-                "no_permissions": "此擴充套件無新增權限。",
-                "no_settings": "此擴充套件無設置項。",
-                "open_modal": "打開設置",
+                "no_permissions": "無新增權限",
+                "no_settings": "無設定項",
+                "open_modal": "開啟設定",
                 "permissions_title": "權限",
-                "purge_button": "重置",
+                "purge_button": "重設",
                 "readme": {
-                    "button_label": "說明檔",
-                    "no_readme": "此擴充套件未提供說明檔",
-                    "title": "{extName} 檔案"
+                    "button_label": "說明",
+                    "no_readme": "此擴充功能似乎沒有 README 檔案",
+                    "title": "{extName} 文件"
                 },
-                "replaced": "替換",
+                "replaced": "已被替代",
                 "reset_settings": {
-                    "button": "重置設定",
+                    "button": "重設設定",
                     "cancel_button": "取消",
-                    "confirm_button": "重置",
-                    "warning": "此操作無法復原。以下設定將從資料庫中永久刪除，並恢復為預設值。擴充套件的資料不會受到影響。",
-                    "title": "重置設定",
-                    "title_extension": "重置{extensionTitle}設定"
+                    "confirm_button": "重設",
+                    "warning": "此操作無法復原。擴充功能設定將還原為預設值，資料庫已儲存的內容資料不受影響。",
+                    "title": "重設設定",
+                    "title_extension": "重設 {extensionTitle} 設定"
                 },
-                "safe_mode_warning": "目前已啟用安全模式。擴展未啟動，因為無法訪問該設置。"
+                "safe_mode_warning": "目前處於安全模式，無法載入擴充功能及其設定。"
             },
             "header": {
-                "get_help": "幫助",
-                "log_out_button": "登出",
-                "search_placeholder": "搜索…",
-                "search_role_label": "搜索"
+                "get_help": "取得協助",
+                "log_out_button": "=> core.ref.log_out",
+                "search_placeholder": "搜尋…",
+                "search_role_label": "搜尋"
             },
             "loading": {
-                "title": "請稍候..."
+                "title": "請稍後…"
             },
             "models": {
                 "discussions": "=> core.ref.discussions",
@@ -419,117 +419,117 @@
             "nav": {
                 "advanced_button": "=> core.admin.advanced.title",
                 "advanced_title": "=> core.admin.advanced.description",
-                "appearance_button": "外觀設定",
-                "appearance_title": "自定義論壇色調、圖示以及其他元素",
-                "basics_button": "基本設定",
-                "basics_title": "設置論壇名稱、語言以及其他基本設置",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "analytics": "分析",
-                    "authentication": "驗證",
-                    "core": "核心配置",
-                    "discussion": "主題",
+                    "authentication": "身分驗證",
+                    "core": "核心設定",
+                    "discussion": "討論與內容",
                     "feature": "功能",
                     "formatting": "格式化",
-                    "forum-widget": "論譠小組件",
-                    "infrastructure": "基礎",
+                    "forum-widget": "小工具",
+                    "infrastructure": "基礎架構",
                     "language": "語言包",
                     "moderation": "內容審核",
                     "other": "其他",
-                    "theme": "樣式"
+                    "theme": "主題樣式"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
-                "email_button": "郵箱",
+                "email_button": "=> core.ref.email",
                 "email_title": "=> core.admin.email.description",
-                "permissions_button": "權限設定",
-                "permissions_title": "設置各群組訪問及操作權限",
-                "userlist_button": "用戶",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "搜尋擴充套件"
+                "search_placeholder": "搜尋擴充功能"
             },
             "permissions": {
                 "allow_hide_own_posts_label": "允許刪除自己的文章",
-                "allow_post_editing_label": "編輯貼文",
-                "allow_renaming_label": "更改主題",
-                "create_access_token_label": "建立訪問令牌",
-                "create_heading": "貼文",
-                "delete_discussions_forever_label": "永久刪除貼文",
-                "delete_discussions_label": "刪除貼文",
-                "delete_posts_forever_label": "永久刪除回覆",
-                "delete_posts_label": "刪除回覆",
-                "description": "設置各群組訪問及操作權限。",
-                "edit_own_avatar_label": "",
-                "edit_posts_label": "編輯回覆",
-                "edit_users_label": "編輯會員",
-                "edit_users_credentials_label": "編輯用戶身份標識",
-                "edit_users_groups_label": "編輯群組",
-                "global_heading": "全站",
+                "allow_post_editing_label": "允許編輯文章",
+                "allow_renaming_label": "允許變更自己的討論標題",
+                "create_access_token_label": "建立存取權杖",
+                "create_heading": "發佈",
+                "delete_discussions_forever_label": "永久刪除討論",
+                "delete_discussions_label": "刪除討論",
+                "delete_posts_forever_label": "永久刪除文章",
+                "delete_posts_label": "刪除文章",
+                "description": "全域或分標籤設定使用者的檢視和操作權限",
+                "edit_own_avatar_label": "編輯頭像",
+                "edit_posts_label": "編輯文章",
+                "edit_users_label": "編輯使用者資料",
+                "edit_users_credentials_label": "編輯使用者登入憑證",
+                "edit_users_groups_label": "編輯使用者組",
+                "global_heading": "全域",
                 "moderate_heading": "管理",
-                "moderate_access_tokens_label": "適度的訪問令牌",
-                "new_group_button": "新增群組",
-                "participate_heading": "操作",
-                "post_without_throttle_label": "頻繁回覆無需等待間隔",
-                "read_heading": "訪問",
-                "remove_scope_label": "移除 {scope} 的範圍",
-                "remove_scope_confirmation": "你確定要移除 {scope} 範圍嗎？",
-                "rename_discussions_label": "更改主題",
-                "reply_to_discussions_label": "新增回覆",
+                "moderate_access_tokens_label": "管理存取權杖",
+                "new_group_button": "建立使用者組",
+                "participate_heading": "參與",
+                "post_without_throttle_label": "允許連續發文",
+                "read_heading": "存取",
+                "remove_scope_label": "移除 {scope} 的權限設定",
+                "remove_scope_confirmation": "確定要移除 {scope} 的權限設定？",
+                "rename_discussions_label": "變更討論標題",
+                "reply_to_discussions_label": "回覆",
                 "search_users_label": "=> core.ref.search_users",
-                "sign_up_label": "註冊帳戶",
-                "start_discussions_label": "發表文章",
+                "sign_up_label": "註冊",
+                "start_discussions_label": "發起討論",
                 "title": "權限",
-                "view_forum_label": "瀏覽論壇（討論和用戶）",
-                "view_hidden_groups_label": "查看隱藏群組",
-                "view_last_seen_at_label": "查看最後活動時間",
-                "view_post_ips_label": "查看 IP 地址"
+                "view_forum_label": "瀏覽論壇（討論和使用者）",
+                "view_hidden_groups_label": "檢視隱藏的使用者組徽章",
+                "view_last_seen_at_label": "始終檢視使用者最後上線時間",
+                "view_post_ips_label": "檢視 IP 位址"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "無限期",
+                "allow_indefinitely_button": "無限制",
                 "allow_never_button": "=> core.ref.never",
-                "allow_some_minutes_button": "{count, plural, one {發布 # 分鐘內} other {發布 # 分鐘內}}",
-                "allow_ten_minutes_button": "10 分鐘內",
+                "allow_some_minutes_button": "{count, plural, one {發佈 # 分鐘內} other {發佈 # 分鐘內}}",
+                "allow_ten_minutes_button": "發佈 10 分鐘內",
                 "allow_until_reply_button": "直到被回覆",
                 "everyone_button": "所有人",
-                "members_button": "註冊會員",
+                "members_button": "=> core.group.members",
                 "signup_closed_button": "關閉註冊",
                 "signup_open_button": "開放註冊"
             },
             "search_source": {
                 "general": {
-                    "heading": "通用"
+                    "heading": "一般"
                 }
             },
             "settings": {
-                "saved_message": "您的修改已儲存。",
-                "select_dropdown_custom_label": "自定義",
-                "submit_button": "儲存更改"
+                "saved_message": "你的修改已儲存。",
+                "select_dropdown_custom_label": "自訂",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "移除",
+                "remove_button": "=> core.ref.remove",
                 "upload_button": "選擇圖片..."
             },
             "users": {
-                "create_user_button": "新用戶",
-                "description": "論壇用戶分頁列表。",
+                "create_user_button": "新增使用者",
+                "description": "論壇使用者一覽。",
                 "grid": {
                     "columns": {
                         "display_name": {
                             "title": "顯示名稱"
                         },
                         "email": {
-                            "title": "郵箱",
-                            "visibility_hide": "隱藏郵箱地址",
-                            "visibility_show": "顯示郵箱地址"
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "隱藏電子郵件地址",
+                            "visibility_show": "顯示電子郵件地址"
                         },
                         "group_badges": {
                             "no_badges": "無",
-                            "title": "群組"
+                            "title": "使用者組"
                         },
                         "join_time": {
                             "title": "註冊時間"
                         },
                         "user_actions": {
-                            "title": "行動",
+                            "title": "操作",
                             "edit_user": {
                                 "button": "=> core.ref.edit",
                                 "tooltip": "編輯 {username}"
@@ -539,15 +539,15 @@
                             "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "訪問 {username} 的主頁",
-                            "title": "用戶名"
+                            "profile_link_tooltip": "前往 {username} 的主頁",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": "無效"
+                    "invalid_column_content": "資料異常"
                 },
                 "search_placeholder": "=> core.ref.search_users",
-                "title": "用戶",
-                "total_users": "用戶數：{count}"
+                "title": "=> core.ref.users",
+                "total_users": "使用者數：{count}"
             }
         },
         "forum": {
@@ -555,13 +555,13 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "輸入的密碼不正確。",
-                "submit_button": "儲存更改",
+                "incorrect_password_message": "你輸入的密碼不正確。",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "發送密碼重設郵件",
-                "text": "點擊下面的按鈕並檢查郵件中的連結以重設密碼。",
+                "send_button": "傳送重設密碼郵件",
+                "text": "點擊按鈕傳送重設連結到你的電子郵件以重設密碼。",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -572,111 +572,111 @@
                 "preview_tooltip": "預覽"
             },
             "composer_discussion": {
-                "body_placeholder": "撰寫內容 ...",
-                "discard_confirmation": "貼文尚未發佈，是否丟棄？",
+                "body_placeholder": "說點什麼吧...",
+                "discard_confirmation": "討論尚未發佈，確定要捨棄嗎？",
                 "submit_button": "發佈",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "文章標題"
             },
             "composer_edit": {
-                "discard_confirmation": "更改未儲存，是否丟棄？",
+                "discard_confirmation": "變更尚未儲存，確定要捨棄嗎？",
                 "edited_message": "編輯成功。",
-                "post_link": "發佈 #{number} 於 {discussion}",
-                "submit_button": "儲存更改",
-                "view_button": "查看"
+                "post_link": "編輯 {discussion} 的 #{number}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "回覆尚未發佈，是否丟棄？",
-                "posted_message": "回覆已發佈。",
-                "submit_button": "發佈",
-                "view_button": "查看"
+                "discard_confirmation": "回覆尚未發佈，確定要捨棄嗎？",
+                "posted_message": "回覆成功。",
+                "submit_button": "回覆",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "無法回覆",
-                "cannot_reply_text": "你沒有權限回覆此貼文。",
-                "delete_button": "刪除",
-                "delete_confirmation": "確定是否刪除此貼文？",
-                "delete_forever_button": "永久刪除",
+                "cannot_reply_button": "回覆已關閉",
+                "cannot_reply_text": "你沒有權限回覆。",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "確定要永久刪除這個討論嗎？",
+                "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "登入以回覆",
                 "rename_button": "=> core.ref.rename",
-                "reply_button": "回覆",
-                "restore_button": "還原",
-                "toggle_dropdown_accessible_label": "主題下拉選單開關"
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "展開或收合更多選單"
             },
             "discussion_list": {
                 "empty_text": "因為什麼都沒有，所以什麼都做得到。",
-                "load_more_button": "載入更多",
+                "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} 回覆於 {ago}",
-                "skip_discussion_list_pane": "跳過討論列表面版",
+                "skip_discussion_list_pane": "跳過討論列表",
                 "started_text": "{username} 發佈於 {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# 條回覆} other {# 條回覆}}",
-                "unread_replies_a11y_label": "{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。"
+                "total_replies_a11y_label": "{count, plural, one {# 則回覆} other {# 則回覆}}",
+                "unread_replies_a11y_label": "{count, plural, one {# 則未讀} other {# 則未讀}}，全部標記為已讀。"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
-                "email_placeholder": "郵箱",
-                "email_sent_message": "已將包含密碼重設連結的郵件發送至該郵箱，若未收到請檢查垃圾箱。",
-                "not_found_message": "沒有使用此郵箱位址註冊的會員。",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "如果你輸入的電子郵件已在本站註冊，我們會向該電子郵件傳送一封包含密碼重設連結的郵件。若一兩分鐘後仍未收到，請檢查垃圾郵件匣。",
+                "not_found_message": "此電子郵件未註冊。",
                 "submit_button": "重設密碼",
-                "text": "請輸入郵箱位址，我們將發送密碼重設連結至該郵箱。",
+                "text": "請輸入電子郵件地址，我們會向你傳送密碼重設連結。",
                 "title": "忘記密碼"
             },
             "header": {
                 "admin_button": "管理後台",
-                "back_to_index_tooltip": "返回貼文列表",
-                "locale_dropdown_accessible_label": "更改論壇語言",
-                "log_in_link": "登入",
-                "log_out_button": "登出",
+                "back_to_index_tooltip": "返回討論列表",
+                "locale_dropdown_accessible_label": "切換介面語言",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
                 "profile_button": "個人主頁",
-                "search_placeholder": "搜尋",
-                "search_role_label": "搜尋論壇",
-                "session_dropdown_accessible_label": "對話下拉選單開關",
+                "search_placeholder": "搜尋社群",
+                "search_role_label": "搜尋社群",
+                "session_dropdown_accessible_label": "展開或收合我的選項選單",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "註冊",
-                "theme_switcher_accessible_label": ""
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": "切換顯示模式"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "無法發佈貼文",
-                "mark_all_as_read_confirmation": "你確定要標記所有貼文為已讀嗎？",
-                "mark_all_as_read_tooltip": "標記所有為已讀",
-                "meta_title_text": "全部主題",
+                "cannot_start_discussion_button": "發文功能已關閉",
+                "mark_all_as_read_confirmation": "確定要將所有討論標記為已讀嗎？",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "=> core.ref.refresh",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "skip_to_main_content": "跳至主體內容",
-                "toggle_sidenav_dropdown_accessible_label": "導航欄下拉選單開關"
+                "toggle_sidenav_dropdown_accessible_label": "展開或收合導覽列選單"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "最新回覆",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
-                "toggle_dropdown_accessible_label": "更改「全部主題」排序",
-                "top_button": "熱門討論",
-                "za_button": ""
+                "toggle_dropdown_accessible_label": "變更討論列表排序方式",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "忘記密碼？",
                 "invalid_login_message": "=> core.ref.invalid_login_message",
-                "password_placeholder": "密碼",
+                "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
-                "sign_up_text": "還沒有帳戶？ <a>立即註冊</a>",
-                "submit_button": "登入",
-                "title": "登入",
+                "sign_up_text": "還沒有帳號？<a>立即註冊</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
-                "delete_all_confirm": "您確定要刪除所有通知嗎？此操作不可撒銷",
+                "delete_all_confirm": "確定要刪除所有通知嗎？此操作無法復原",
                 "delete_all_tooltip": "刪除所有通知",
-                "discussion_renamed_text": "{username} 更改了主題",
+                "discussion_renamed_text": "{username} 變更了標題",
                 "empty_text": "暫無通知",
-                "mark_all_as_read_tooltip": "標記所有為已讀",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "標記為已讀",
-                "title": "通知",
-                "toggle_dropdown_accessible_label": "查看通知",
-                "tooltip": "通知"
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "檢視通知",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "已編輯",
@@ -684,31 +684,31 @@
                 "number_tooltip": "發佈 #{number}"
             },
             "post_controls": {
-                "delete_button": "刪除",
-                "delete_confirmation": "您確定要永久刪除這篇貼文嗎？這個動作將無法撤回。",
-                "delete_forever_button": "永久刪除",
-                "edit_button": "編輯",
-                "hide_confirmation": "您確定要刪除這篇貼文嗎？",
-                "restore_button": "還原",
-                "toggle_dropdown_accessible_label": "貼文下拉選單開關"
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "確定要永久刪除這篇文章嗎？此操作無法復原。",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "確定要刪除這篇文章嗎？",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "展開或收合文章更多選單"
             },
             "post_list": {
-                "empty_text": "這里似乎沒有任何回覆。",
+                "empty_text": "這裡似乎是無人之地…",
                 "in_discussion_text": "在 {discussion} 中",
                 "load_more_button": "=> core.ref.load_more"
             },
             "post_scrubber": {
                 "now_link": "最新回覆",
-                "original_post_link": "最早文章",
-                "unread_text": "{count} 未讀",
-                "viewing_text": "{count, plural, one {{index} / {formattedCount} 條} other {{index} / {formattedCount} 條}}"
+                "original_post_link": "最早內容",
+                "unread_text": "{count} 則未讀",
+                "viewing_text": "{count, plural, one {{index} / {formattedCount} 則} other {{index} / {formattedCount} 則}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "舊主題是: 「{old}」",
-                "discussion_renamed_text": "{username} 將主題更改為 「{new}」。",
-                "load_more_button": "載入更多",
+                "discussion_renamed_old_tooltip": "原標題「{old}」",
+                "discussion_renamed_text": "{username} 於 {time} 將標題變更為「{new}」",
+                "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period}後"
+                "time_lapsed_text": "{period} 後"
             },
             "posts_sort": {
                 "newest_button": "=> core.ref.newest",
@@ -716,178 +716,178 @@
                 "relevance_button": "=> core.ref.relevance"
             },
             "posts": {
-                "meta_title_text": "文章搜索結果",
+                "meta_title_text": "文章搜尋結果",
                 "refresh_tooltip": "=> core.ref.refresh"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": "更改貼文主題"
+                "title": "變更討論標題"
             },
             "security": {
-                "browser_on_operating_system": "{browser} 於 {os}",
-                "cannot_terminate_current_session": "無法終止目前的活動會話。請直接登出。",
-                "created": "已建立",
-                "current_active_session": "目前活動對話",
-                "developer_tokens_heading": "開發者令牌",
-                "empty_text": "暫無資訊。",
+                "browser_on_operating_system": "{browser}（{os} 平台）",
+                "cannot_terminate_current_session": "無法終止目前工作階段，請直接登出。",
+                "created": "建立時間",
+                "current_active_session": "目前工作階段",
+                "developer_tokens_heading": "開發者權杖",
+                "empty_text": "尚未建立權杖。",
                 "global_logout": {
-                    "heading": "全局登出",
-                    "help_text": "清除目前的 cookie ，終止所有對話，撤銷開發人員令牌，並使任何電子郵件確認或密碼重置電子郵件無效。",
+                    "heading": "全域登出",
+                    "help_text": "登出目前登入並終止所有其他工作階段，同時撤銷開發者權杖，已發出的電子郵件驗證和密碼重設連結也將失效。",
                     "log_out_button": "=> core.ref.log_out"
                 },
-                "hide_access_token": "隱藏令牌",
-                "last_activity": "最後活動",
+                "hide_access_token": "隱藏權杖",
+                "last_activity": "上次活動",
                 "never": "=> core.ref.never",
                 "new_access_token_button": "=> core.ref.new_token",
                 "new_access_token_modal": {
-                    "submit_button": "建立令牌",
+                    "submit_button": "建立權杖",
                     "title": "=> core.ref.new_token",
-                    "title_placeholder": "標題"
+                    "title_placeholder": "名稱"
                 },
                 "revoke_access_token": "撤銷",
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
-                "sessions_heading": "活動對話",
-                "session_terminated": "{count, plural, one {對話終止} other {# 個對話終止}}.",
-                "session_termination_failed": "終止對話時出錯。",
-                "show_access_token": "查看令牌",
-                "terminate_all_other_sessions": "終止所有其它對話",
+                "sessions_heading": "活動工作階段",
+                "session_terminated": "{count, plural, one {工作階段已終止} other {已終止 # 個工作階段}}。",
+                "session_termination_failed": "終止工作階段時發生錯誤。",
+                "show_access_token": "檢視權杖",
+                "terminate_all_other_sessions": "終止其他所有工作階段",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "終止",
                 "title": "=> core.ref.security",
-                "token_revoked": "令牌已撤銷。",
+                "token_revoked": "權杖已撤銷。",
                 "token_item_title": "{title} - {token}",
                 "token_title_placeholder": "/"
             },
             "settings": {
-                "account_heading": "帳戶",
-                "change_email_button": "更改郵箱",
-                "change_password_button": "更改密碼",
-                "color_scheme_heading": "配色方案",
+                "account_heading": "帳號",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "color_scheme_heading": "顯示模式",
                 "color_schemes": {
-                    "auto_mode_label": "系統編好設置",
+                    "auto_mode_label": "跟隨系統",
                     "dark_hc_mode_label": "=> core.ref.dark_hc_mode_label",
                     "dark_mode_label": "=> core.ref.dark_mode_label",
                     "light_hc_mode_label": "=> core.ref.light_hc_mode_label",
                     "light_mode_label": "=> core.ref.light_mode_label"
                 },
                 "notification_checkbox_a11y_label_template": "透過 {method} 接收「{description}」通知",
-                "notifications_heading": "通知",
-                "notify_by_email_heading": "郵箱",
-                "notify_by_web_heading": "網頁",
-                "notify_discussion_renamed_label": "你的貼文主題被更改",
-                "reset_notifications_button": "",
-                "device_heading": "設備",
-                "haptic_feedback_help": "僅在受支持的移動設備上可用",
-                "haptic_feedback_label": "啟用觸控反饋",
-                "privacy_disclose_online_label": "公開我的在線狀態",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "站內通知",
+                "notify_discussion_renamed_label": "有人變更我的討論標題",
+                "reset_notifications_button": "還原為預設值",
+                "device_heading": "裝置",
+                "haptic_feedback_help": "僅在支援的移動裝置上可用",
+                "haptic_feedback_label": "啟用觸覺回饋",
+                "privacy_disclose_online_label": "公開我的線上狀態",
                 "privacy_heading": "隱私",
-                "title": "設定"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
-                "email_placeholder": "郵箱",
-                "log_in_text": "已有帳戶？ <a>登入</a>",
-                "password_placeholder": "密碼",
-                "submit_button": "註冊",
-                "title": "註冊",
-                "username_placeholder": "會員名稱",
-                "welcome_text": "歡迎造訪，{username}！"
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "已有帳號？ <a>登入</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "歡迎加入，{username}！"
             },
             "user": {
-                "avatar_remove_button": "移除",
-                "avatar_upload_button": "上傳圖像",
-                "avatar_upload_tooltip": "上傳新圖像",
-                "discussions_link": "主題",
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "上傳",
+                "avatar_upload_tooltip": "上傳新頭像",
+                "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "於 {discussion}",
-                "joined_date_text": "加入於 {ago}",
-                "online_text": "正在線上",
+                "joined_date_text": "註冊於 {ago}",
+                "online_text": "線上",
                 "posts_empty_text": "暫無內容。",
-                "posts_link": "貼文",
-                "posts_load_more_button": "載入更多",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
                 "security_link": "=> core.ref.security",
-                "settings_link": "設定"
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "操作",
-                "delete_button": "刪除",
-                "delete_confirmation": "確定要刪除此帳號？用戶的貼文將不會被刪除。",
-                "delete_error_message": "刪除帳號 <i>{username} ({email})</i> 失敗",
-                "delete_success_message": "帳號 <i>{username} ({email})</i> 已刪除",
-                "edit_button": "編輯",
-                "toggle_dropdown_accessible_label": "用戶下拉選單開關"
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "確定要刪除此使用者？此帳號會被註銷，已發佈的文章仍會保留。",
+                "delete_error_message": "刪除使用者 <i>{username} ({email})</i> 失敗",
+                "delete_success_message": "已刪除使用者 <i>{username} ({email})</i>",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "展開或收合使用者操作選單"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "重新發送驗證郵件",
-                "sent_message": "發送"
+                "resend_button": "重新傳送驗證郵件",
+                "sent_message": "傳送"
             },
             "welcome_hero": {
-                "hide": "隱藏歡迎橫幅內容"
+                "hide": "隱藏歡迎橫幅"
             }
         },
         "lib": {
-            "connection_restored_message": "",
-            "debug_button": "除錯",
+            "connection_restored_message": "網路連線已恢復。",
+            "debug_button": "偵錯",
             "alert": {
                 "dismiss_a11y_label": "忽略警告"
             },
             "assets_updated": {
                 "message": "此頁面有新版本。",
-                "reload_button": "刷新"
+                "reload_button": "重新整理"
             },
             "badge": {
                 "hidden_tooltip": "隱藏"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": "下拉選單開關"
+                "toggle_dropdown_accessible_label": "展開或收合更多選單"
             },
             "data_segment": {
-                "label": "{label}:"
+                "label": "{label}："
             },
             "edit_user": {
-                "activate_button": "啟用用戶",
-                "email_heading": "電子郵件",
-                "email_label": "電子郵件",
-                "groups_heading": "群組",
-                "password_heading": "密碼",
-                "password_label": "密碼",
-                "set_password_label": "修改密碼",
-                "submit_button": "儲存",
-                "title": "編輯用戶",
-                "username_heading": "用戶名",
-                "username_label": "用戶名",
-                "nothing_available": "您無權編輯此用戶。"
+                "activate_button": "啟用使用者",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "使用者組",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "變更密碼",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "你沒有權限編輯此使用者。"
             },
             "error": {
-                "circular_dependencies_message": "檢測到循環依賴項：{extensions}。 中止。 請禁用其中一個擴充套件，然後重試。",
-                "db_error_message": "資料庫查詢失敗。這可能是因為擴充套件與目前使用的資料庫驅動不相容所導致。",
-                "dependent_extensions_message": "無法停用「{extension}」，請先停用依賴擴充套件「{extensions}」",
-                "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳細資訊請查看瀏覽器控制台。",
-                "extension_runtime_failed_message": "{extension} 執行時發生錯誤。請檢查瀏覽器主控台以取得更多資訊。",
-                "generic_message": "糟糕，出錯啦！請重新整理頁面再試一次。",
-                "generic_cross_origin_message": "哎呀！跨來源請求時出現問題；請重新整理頁面，然後再試一次。",
-                "missing_dependencies_message": "無法啟用「{extension}」，請先啟用依賴擴充套件「{extensions}」",
-                "network_message": "",
-                "not_found_message": "請求的資源不存在。",
-                "offline_message": "",
+                "circular_dependencies_message": "偵測到循環依賴關係：{extensions}，已中止操作。請停用其中一個擴充功能後重試。",
+                "db_error_message": "資料庫查詢失敗。某個擴充功能可能與目前使用的資料庫驅動程式不相容。",
+                "dependent_extensions_message": "無法停用「{extension}」。請先停用以下依賴它的擴充功能：{extensions}",
+                "extension_initialiation_failed_message": "初始化「{extension}」失敗，詳情請查看瀏覽器主控台。",
+                "extension_runtime_failed_message": "「{extension}」在執行時發生錯誤，詳情請查看瀏覽器主控台。",
+                "generic_message": "糟糕，出錯了！請重新整理頁面重試。",
+                "generic_cross_origin_message": "跨域請求時發生問題，請重新整理頁面重試。",
+                "missing_dependencies_message": "無法啟用「{extension}」，請先啟用前置擴充功能「{extensions}」",
+                "network_message": "網路連線異常，請檢查網路後重試。",
+                "not_found_message": "你請求的資源不存在。",
+                "offline_message": "目前似乎處於離線狀態，請檢查網路連線後重試。",
                 "payload_too_large_message": "請求負載過大。",
-                "permission_denied_message": "沒有權限執行此操作。",
-                "rate_limit_exceeded_message": "操作太頻繁，請稍後再試。",
-                "render_failed_message": "抱歉，載入此內容時出錯。如果您是使用者，請稍後再試。如果您是管理員，請查看 Flarum 記錄檔以取得更多資訊。"
+                "permission_denied_message": "你沒有權限執行此操作。",
+                "rate_limit_exceeded_message": "操作過於頻繁，請稍後再試。",
+                "render_failed_message": "抱歉，載入此內容時發生錯誤，請重新整理頁面重試。管理員可查看 Flarum 日誌檔案取得更多資訊。"
             },
             "gambits": {
                 "group_keys": {
                     "allows": "允許",
-                    "has": "擁有",
+                    "has": "有",
                     "is": "是"
                 },
                 "discussions": {
                     "author": {
                         "key": "作者",
-                        "hint": "用戶名或以逗號分隔的用戶名列表"
+                        "hint": "使用者名稱，多個請用英文逗號分隔"
                     },
                     "created": {
-                        "key": "創建於",
+                        "key": "建立於",
                         "hint": "2020-12-31 或 2020-12-31..2021-09-30"
                     },
                     "hidden": {
@@ -899,26 +899,26 @@
                 },
                 "posts": {
                     "discussion": {
-                        "key": "話題",
+                        "key": "討論",
                         "hint": "討論 ID"
                     }
                 },
                 "users": {
                     "email": {
-                        "key": "電子郵箱",
-                        "hint": "example@machine.local"
+                        "key": "電子郵件",
+                        "hint": "example@qq.com"
                     },
                     "group": {
-                        "key": "用戶組",
-                        "hint": "單數或複數用戶組名稱"
+                        "key": "使用者組",
+                        "hint": "成員稱謂或使用者組名稱"
                     }
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "選擇使用者組"
             },
             "input": {
-                "clear_button": "清除輸入"
+                "clear_button": "清空輸入"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -931,57 +931,57 @@
                 "close": "關閉"
             },
             "multi_select": {
-                "placeholder": "選擇多個選項"
+                "placeholder": "請選擇多個選項"
             },
             "nav": {
-                "drawer_button": "打開導航抽屜",
-                "pin_pane_button": ""
+                "drawer_button": "開啟導覽選單",
+                "pin_pane_button": "固定討論列表"
             },
             "notices": {
-                "bisecting": "正在運行擴展程序的二分法排查，以確定是那個擴展導致了問題。",
+                "bisecting": "正在排查導致問題的擴充功能。",
                 "bisecting_continue": "繼續排查",
-                "maintenance_mode_low": "正在維護。僅管理可訪問論譠。",
-                "maintenance_mode_safe": "論壇目前處於安全模式維護中。僅管理員可存取論壇，且不會載入任何擴充套件。"
+                "maintenance_mode_low": "論壇維護中，僅管理員可存取。",
+                "maintenance_mode_safe": "論壇維護中，目前僅管理員可存取。安全模式下不會載入任何擴充功能。"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
-                "kilo_text": "K",
-                "mega_text": "M"
+                "kilo_text": "千",
+                "mega_text": "百萬"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "更多選單"
             },
             "pagination": {
                 "back_button": "上一頁",
-                "first_button": "返回首頁",
-                "go_to_page_textbox_a11y_label": "跳轉至頁碼",
+                "first_button": "返回第一頁",
+                "go_to_page_textbox_a11y_label": "跳轉頁碼",
                 "last_button": "前往最後一頁",
                 "next_button": "下一頁",
-                "page_counter": "第 {current} 頁 / 共 {total} 頁"
+                "page_counter": "第 {current} 頁，共 {total} 頁"
             },
             "search": {
-                "gambit_plus_button_a11y_label": "添加正向過濾器",
-                "gambit_minus_button_a11y_label": "添加反向過濾器",
-                "title": "搜索",
-                "no_results_text": "這里似乎沒有任何結果。",
-                "no_search_text": "您還沒有搜索任何內容。",
-                "options_heading": "搜索選項",
-                "placeholder": "搜索…",
-                "preview_heading": "搜索預覽",
-                "search_active_button_accessible_label": "",
-                "search_clear_button_accessible_label": "清空搜索"
+                "gambit_plus_button_a11y_label": "新增包含條件",
+                "gambit_minus_button_a11y_label": "新增排除條件",
+                "title": "搜尋",
+                "no_results_text": "似乎沒有你要找的內容…",
+                "no_search_text": "想找什麼？搜搜看吧……",
+                "options_heading": "篩選項",
+                "placeholder": "搜尋...",
+                "preview_heading": "結果預覽",
+                "search_active_button_accessible_label": "修改目前搜尋：{query}",
+                "search_clear_button_accessible_label": "清空搜尋"
             },
             "search_source": {
                 "discussions": {
-                    "all_button": "搜索“{query}”",
+                    "all_button": "在所有討論中搜尋 “{query}”",
                     "heading": "=> core.ref.discussions"
                 },
                 "posts": {
@@ -993,25 +993,25 @@
                 }
             },
             "series": {
-                "glue_text": ", ",
-                "three_text": "{first}, {second} 以及 {third}",
-                "two_text": "{first} 及 {second}"
+                "glue_text": "，",
+                "three_text": "{first}、{second} 和 {third}",
+                "two_text": "{first} 和 {second}"
             },
             "user_selection_modal": {
-                "empty_results": "未找到符合搜索條件的用戶。",
-                "max_items_to_select": "{count, plural, one {最多可選擇 # 位使用者} other {最多可選擇 # 位使用者}}",
+                "empty_results": "未找到符合搜尋條件的使用者。",
+                "max_items_to_select": "{count, plural, one {最多選擇 # 名使用者} other {最多選擇 # 名使用者}}",
                 "search_placeholder": "=> core.ref.search_users",
                 "submit_button": "=> core.ref.okay",
-                "title": "選擇相關用戶"
+                "title": "選擇使用者"
             },
             "username": {
                 "deleted_text": "[已註銷]"
             },
             "datetime_formats": {
                 "fullTime": "LLLL",
-                "humanTimeShort": "MMM D日",
+                "humanTimeShort": "M月D日",
                 "humanTimeLong": "ll",
-                "scrubber": "YYYY年 MMM",
+                "scrubber": "YYYY年M月",
                 "userListJoinDate": "LLL"
             }
         },
@@ -1020,25 +1020,25 @@
                 "extensions": {
                     "caption": "=> core.ref.extensions",
                     "disable": "關閉",
-                    "empty": "尚未安裝擴充套件",
+                    "empty": "尚未安裝擴充功能",
                     "enable": "啟用",
-                    "name": "擴充套件名稱",
-                    "package_name": "封包名稱",
+                    "name": "擴充功能名稱",
+                    "package_name": "套件名稱",
                     "version": "版本"
                 },
                 "info": {
                     "caption": "說明"
                 },
-                "title": "管理員"
+                "title": "管理後台"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "點擊下方按鈕確認您的郵箱。",
+                "text": "點擊下方按鈕確認你的電子郵件。",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "請使用現代瀏覽器並啟用 JavaScript 以取得最佳瀏覽體驗。",
-                "load_error_message": "嘗試載入完整版本的論壇時出錯，請清空瀏覽器快取後再試。",
+                "javascript_disabled_message": "為獲得最佳瀏覽體驗，請使用現代瀏覽器並啟用 JavaScript。",
+                "load_error_message": "載入論壇時發生錯誤，請強制重新整理頁面重試。",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -1046,18 +1046,18 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "您已長時間沒有動作。",
-                "csrf_token_mismatch_return_link": "返回並再試一下",
+                "csrf_token_mismatch": "你離開得有點久，目前工作階段已經失效。",
+                "csrf_token_mismatch_return_link": "請返回再試一次",
                 "invalid_confirmation_token": "驗證連結已使用或無效。",
-                "maintenance_mode_link": "管理員登錄",
-                "maintenance_mode_message": "論譠目前正在維護。請稍候再試。",
-                "maintenance_mode_title": "維護",
-                "method_not_allowed": "此頁面不支持該請求方法。",
-                "not_authenticated": "您沒有權限訪問此頁面。請登入後再試。",
-                "not_found": "頁面未找到。",
+                "maintenance_mode_link": "管理員登入",
+                "maintenance_mode_message": "論壇正在維護中，晚點再來看看吧。",
+                "maintenance_mode_title": "維護中",
+                "method_not_allowed": "此頁面不支援該請求方式。",
+                "not_authenticated": "你沒有權限存取此頁面，請登入後再試。",
+                "not_found": "你存取的頁面不存在。",
                 "not_found_return_link": "返回 {forum}",
-                "permission_denied": "您沒有權限訪問此頁面。",
-                "unknown": "載入頁面時出錯。"
+                "permission_denied": "你沒有權限存取此頁面。",
+                "unknown": "出了點差錯，頁面暫時無法載入。"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1065,11 +1065,11 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "layout": {
-                "skip_to_content": "跳至內容"
+                "skip_to_content": "跳至主要內容"
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "您確定要登出 {forum}？",
+                "log_out_confirmation": "確定要登出 {forum} 嗎？",
                 "title": "=> core.ref.log_out"
             },
             "log_in": {
@@ -1081,149 +1081,149 @@
                 "title": "=> core.ref.log_in"
             },
             "reset_password": {
-                "confirm_password_label": "確認密碼",
+                "confirm_password_label": "=> core.ref.confirm_password",
                 "new_password_label": "新密碼",
-                "submit_button": "儲存更改",
-                "title": "重設密碼"
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             },
             "unsubscribe_email": {
-                "title": "確認退訂",
-                "return_to_forum": "返回到 {forumTitle}",
+                "title": "確認取消訂閱",
+                "return_to_forum": "返回 {forumTitle}",
                 "confirm_button": "確認",
-                "immediate_helptext": "確認後，您將立即取消訂閱。",
-                "confirm_message": "您已要求取消訂閱來自 {forumTitle} 的「{type}」電子郵件通知。",
-                "success_message": "您已成功取消訂閱來自 {forumTitle} 的「{type}」通知。若想再次接收通知，請更新您的通知設定。",
-                "invalid_message": "此取消訂閱連結無效或已失效。如需變更來自 {forumTitle} 的電子郵件通知設定，請檢查您的通知設定({settingsLink})。"
+                "immediate_helptext": "確認後立即取消訂閱。",
+                "confirm_message": "你即將取消接收來自 {forumTitle} 的「{type}」電子郵件通知。",
+                "success_message": "你已成功取消訂閱來自 {forumTitle} 的「{type}」電子郵件通知。如需再次接收，請 [更新你的設定]({settingsLink})。",
+                "invalid_message": "此取消訂閱連結無效或已被使用。如需調整來自 {forumTitle} 的電子郵件通知，請 [查看你的設定]({settingsLink})。"
             }
         },
         "api": {
-            "invalid_username_message": "用戶名只能包含字母、數字和連字符，且至少包含一個字母。",
+            "invalid_username_message": "使用者名稱只能使用字母、數字和連字號（-），並且至少要有一個字母。",
             "invalid_filter_type": {
-                "must_be_numeric_message": "{filter} 過濾器必須是數字。",
-                "must_not_be_array_message": "{filter} 過濾器不能是數組。",
-                "must_not_be_multidimensional_array_message": "{filter} 過濾器不能是多維數組。"
+                "must_be_numeric_message": "查詢條件 {filter} 必須是數值。",
+                "must_not_be_array_message": "查詢條件 {filter} 不能是陣列。",
+                "must_not_be_multidimensional_array_message": "查詢條件 {filter} 不能是多維陣列。"
             }
         },
         "email": {
-            "greeting": "嘿 {displayName}，",
-            "signoff": "{forumTitle} 團隊",
+            "greeting": "{displayName}，你好！",
+            "signoff": "{forumTitle}",
             "informational": {
-                "default_title": "信息",
-                "footer": "此電子郵件已發送至 {userEmail}，作為您在 {forumTitle} ({forumUrl}) 帳戶相關資訊通知服務的一部分。",
-                "footer_plain": "發送此郵件至 {userEmail} 是作為與您在 {forumTitle} 上的賬戶相關的通知服務。"
+                "default_title": "通知",
+                "footer": "此郵件寄送至 {userEmail}，是因為內容與你的 [{forumTitle}]({forumUrl}) 帳號相關。",
+                "footer_plain": "此郵件寄送至 {userEmail}，是因為內容與你的 {forumTitle} 帳號相關。"
             },
             "notification": {
                 "default_title": "通知",
                 "footer": {
-                    "main_text": "發送此郵件至 {email} 是因為您訂閱了 [{forumTitle}]({forumUrl}) 上的 “{type}” 通知。",
-                    "main_text_plain": "發送此郵件至 {email} 是因為您訂閲了 {forumTitle} 上的 “{type}” 通知。",
-                    "unsubscribe_text": "如果您想停止接收此類通知，請 [在此取消訂閱]({unsubscribeLink})。",
-                    "unsubscribe_text_plain": "如果您想停止接收此類通知，請在此取消訂閱：{unsubscribeLink}",
-                    "settings_text": "[在此]({settingsLink})管理您的通知設置。",
-                    "settings_text_plain": "在此管理您的通知設置：{settingsLink}"
+                    "main_text": "此郵件寄送至 {email}，是因為你已訂閱 [{forumTitle}]({forumUrl}) 的「{type}」通知。",
+                    "main_text_plain": "此郵件寄送至 {email}，是因為你已訂閱 {forumTitle} 的「{type}」通知。",
+                    "unsubscribe_text": "如不想再接收此類通知，可 [在此取消訂閱]({unsubscribeLink})。",
+                    "unsubscribe_text_plain": "如不想再接收此類通知，可在此取消訂閱：{unsubscribeLink}",
+                    "settings_text": "你可以 [在此]({settingsLink}) 管理通知設定。",
+                    "settings_text_plain": "你可以在此管理通知設定：{settingsLink}"
                 }
             },
             "activate_account": {
-                "subject": "啟用帳號",
-                "body": "有人（希望是您！）已使用此郵箱注冊了 {forum}。\n\n如果是您本人，只需點擊以下鍵結，您的帳戶即可激活：\n{url}\n\n如果您沒有注冊，請忽略此郵件。\n"
+                "subject": "啟用你的新帳號",
+                "body": "你正在使用此電子郵件地址註冊 {forum} 帳號。\n\n請點擊以下連結完成帳號啟用：\n{url}\n\n如果這不是你的操作，請忽略此郵件。\n"
             },
             "confirm_email": {
-                "subject": "郵箱位址驗證",
-                "body": "有人（希望就是您！）已將您在 {forum} 的電子郵件地址變更為此電子郵件地址。\n\n如果這是您本人所為，只需點擊下方連結即可完成電子郵件地址驗證：\n{url}\n\n如果這不是您本人所進行的操作，請直接忽略此電子郵件。\n"
+                "subject": "確認新電子郵件地址",
+                "body": "你正在將 {forum} 帳號的電子郵件地址變更為此電子郵件。\n\n請點擊以下連結完成新電子郵件地址變更：\n{url}\n\n如果這不是你的操作，請忽略此郵件。\n"
             },
             "reset_password": {
-                "subject": "重設密碼",
-                "body": "有人（希望就是您！）已提出重設您在 {forum} 帳戶密碼的請求。\n\n若此操作是由您本人進行，請點擊下方連結以重設您的密碼：\n{url}\n\n若您不打算變更密碼，請直接忽略此電子郵件。\n"
+                "subject": "=> core.ref.reset_your_password",
+                "body": "你正在重設 {forum} 帳號的密碼。\n\n請點擊以下連結完成密碼重設：\n{url}\n\n如果這不是你的操作，請忽略此郵件。\n"
             },
             "send_test": {
                 "subject": "Flarum 郵件測試",
-                "body": "這是一封測試電子郵件，用於確認您的 Flarum 郵件設定是否正常運作。\n\n若此郵件是由您發送，表示您的郵件設定已正常運作！\n\n若您並未發送此郵件，請直接忽略此電子郵件。\n"
+                "body": "這是一封測試郵件，用於確認 Flarum 的郵件設定是否正常運作。\n\n當你看到這句話，就表示設定已成功生效。\n\n如果不是你的操作，請忽略此郵件。\n"
             },
             "abandoned_extensions": {
-                "subject": "注意：偵測到已淘汰的擴充套件",
-                "body_intro": "下列擴充套件已棄用：",
-                "body_outro": "請檢查這些擴充套件，並規劃遷移至可用的替代擴充套件。",
-                "line_with_replacement": "{package}（建議改用：{replacement}）",
-                "line_no_replacement": "{package}（暫無可用的替代擴展）"
+                "subject": "部分擴充功能已停止維護",
+                "body_intro": "以下安裝的擴充功能已停止維護：",
+                "body_outro": "請檢查這些擴充功能，並在有可替代方案時考慮遷移。",
+                "line_with_replacement": "{package}（推薦替代：{replacement}）",
+                "line_no_replacement": "{package}（暫無可用替代）"
             }
         },
         "ref": {
-            "all_discussions": "全部文章",
-            "change_email": "更改郵箱",
-            "change_password": "更改密碼",
+            "all_discussions": "全部討論",
+            "change_email": "變更電子郵件",
+            "change_password": "變更密碼",
             "color": "顏色",
             "confirm_password": "確認密碼",
-            "confirm_email": "確認郵件",
-            "confirmation_email_sent": "驗證郵件已發送至 {email}，若未收到請檢查垃圾郵件信箱。",
-            "custom_footer_text": "新增顯示在頁面底部的 HTML 原始碼。",
-            "custom_footer_title": "編輯客製化頁腳",
-            "custom_header_text": "新增要顯示在頁面頂部，位於 Flarum 預設頁首之上的 HTML 原始碼。",
-            "custom_header_title": "編輯客製化頁首",
-            "dark_hc_mode_label": "深色高對比度模式",
-            "dark_mode_label": "深色模式",
+            "confirm_email": "確認電子郵件",
+            "confirmation_email_sent": "啟用郵件已寄送至 {email}，若未收到請檢查垃圾郵件匣。",
+            "custom_footer_text": "新增顯示於頁面底部的 HTML 程式碼。",
+            "custom_footer_title": "自訂頁尾",
+            "custom_header_text": "新增顯示於頁面頂端、位於 Flarum 導覽列上方的 HTML 程式碼。",
+            "custom_header_title": "自訂頁首",
+            "dark_hc_mode_label": "深色高對比",
+            "dark_mode_label": "深色",
             "delete": "刪除",
             "delete_forever": "永久刪除",
-            "discussions": "主題",
+            "discussions": "討論",
             "edit": "編輯",
-            "edit_user": "編輯用戶",
+            "edit_user": "編輯使用者",
             "email": "電子郵件",
-            "extensions": "擴充套件",
-            "generic_confirmation_message": "您確定要繼續嗎？ 此操作無法撤銷。",
+            "extensions": "擴充功能",
+            "generic_confirmation_message": "確定要繼續嗎？此操作無法復原。",
             "icon": "圖示",
             "icon_text": "輸入任意一個 <a>FontAwesome</a> 圖示名稱，<em>需要包含</em>前綴 ，例如 <code>fas fa-</code>或 <code>fa-solid fa-flag</code>。",
-            "invalid_login_message": "您的登錄信息不正確。",
-            "light_hc_mode_label": "淺色高對比度模式",
-            "light_mode_label": "淺色模式",
+            "invalid_login_message": "登入資訊有誤。",
+            "light_hc_mode_label": "淺色高對比",
+            "light_mode_label": "淺色",
             "load_more": "載入更多",
-            "latest": "",
+            "latest": "最新回覆",
             "loading": "正在載入…",
             "log_in": "登入",
             "log_out": "登出",
             "mark_all_as_read": "全部已讀",
-            "never": "從不",
-            "new_token": "新令牌",
-            "newest": "新鮮出爐",
+            "never": "無",
+            "new_token": "建立權杖",
+            "newest": "最新發佈",
             "next_page": "下一頁",
             "notifications": "通知",
-            "okay": "確認",
-            "oldest": "陳年舊帖",
+            "okay": "確定",
+            "oldest": "最舊文章",
             "password": "密碼",
-            "posts": "貼文",
+            "posts": "回覆",
             "previous_page": "上一頁",
-            "relevance": "相關推薦",
-            "remember_me_label": "記住我的登錄狀態",
+            "relevance": "最相關",
+            "remember_me_label": "記住我的登入狀態",
             "remove": "移除",
             "rename": "重新命名",
             "reply": "回覆",
-            "refresh": "刷新",
+            "refresh": "重新整理",
             "reset_your_password": "重設密碼",
             "restore": "還原",
-            "save_changes": "儲存更改",
-            "search_users": "搜尋用戶",
-            "security": "安全性",
-            "settings": "設置",
+            "save_changes": "儲存",
+            "search_users": "搜尋使用者",
+            "security": "安全",
+            "settings": "設定",
             "sign_up": "註冊",
             "some_others": "{count, plural, one {# 人} other {# 人}}",
-            "start_a_discussion": "發表文章",
-            "title_az": "",
-            "title_za": "",
-            "top": "",
+            "start_a_discussion": "發起討論",
+            "title_az": "標題（正序）",
+            "title_za": "標題（倒序）",
+            "top": "回覆最多",
             "username": "使用者名稱",
-            "username_or_email_placeholder": "用戶名或郵箱",
+            "username_or_email_placeholder": "使用者名稱或電子郵件",
             "users": "使用者",
-            "view": "查看",
-            "write_a_reply": "撰寫回覆...",
+            "view": "檢視",
+            "write_a_reply": "說點什麼吧...",
             "you": "你"
         },
         "group": {
             "admin": "管理員",
-            "admins": "管理員",
+            "admins": "管理組",
             "guest": "訪客",
             "guests": "訪客",
-            "member": "會員",
-            "members": "會員",
-            "mod": "板主",
-            "mods": "板主"
+            "member": "註冊使用者",
+            "members": "註冊使用者",
+            "mod": "版主",
+            "mods": "版主組"
         }
     }
 }

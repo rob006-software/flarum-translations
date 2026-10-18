@@ -49,7 +49,76 @@
                 "error_unknown_source": "Für diese Plattform sind keine Adressmuster bekannt.",
                 "error_failed": "Das Speichern ist fehlgeschlagen. Bitte versuche es erneut."
             },
+            "count": {
+                "users": "Benutzer",
+                "categories": "Kategorien",
+                "topics": "Diskussionen",
+                "posts": "Beiträge",
+                "skipped": "Übersprungen"
+            },
             "starting": "Starten…"
+        },
+        "api": {
+            "unknown_source": "Unbekannte Importquelle.",
+            "missing_run_id": "Fehlende Ausführungs-ID.",
+            "run_not_found": "Import-Ausführung nicht gefunden.",
+            "starting": "Wird gestartet…",
+            "working": "Wird bearbeitet…",
+            "complete": "Import abgeschlossen.",
+            "failed": "Import fehlgeschlagen: {error}",
+            "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
+            "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
+            "sqlsrv_missing": "",
+            "dump_unreadable": "",
+            "scratch_failed": "",
+            "explain": {
+                "timed_out": "",
+                "no_answer": "",
+                "host_refused": "",
+                "bad_login": ""
+            },
+            "not_source": {
+                "phpbb": "",
+                "vbulletin": "",
+                "vbulletin5": "",
+                "mybb": "",
+                "smf": "",
+                "vanilla": "",
+                "invision": "",
+                "xenforo": "",
+                "convoro": "",
+                "convoro_columns": "",
+                "discourse": "",
+                "nodebb": "",
+                "webwiz": "",
+                "webwiz_columns": ""
+            },
+            "nodebb": {
+                "no_extension": "",
+                "no_connect": ""
+            },
+            "upload": {
+                "no_file": "",
+                "too_large": "",
+                "unreadable": "",
+                "wrong_source": "",
+                "skipped_batches": "",
+                "empty": "Die Datei ist leer.",
+                "binary": ""
+            },
+            "phase": {
+                "finishing": "",
+                "boards": "Bereiche werden importiert…",
+                "categories": "Kategorien werden importiert…",
+                "channels": "Kanäle werden importiert…",
+                "comments": "Kommentare werden importiert…",
+                "discussions": "Diskussionen werden importiert…",
+                "forums": "Foren werden importiert…",
+                "members": "Mitglieder werden importiert…",
+                "posts": "Beiträge werden importiert…",
+                "topics": "Diskussionen werden importiert…",
+                "member_counts": "Mitgliederanzahl wird aktualisiert…"
+            }
         }
     }
 }

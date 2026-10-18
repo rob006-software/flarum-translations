@@ -23,9 +23,9 @@
             "settings": {
                 "heading": "Settings",
                 "show_progress_label": "Show progress",
-                "show_progress_help": "Shows how far through a tour the reader is, next to the buttons.",
+                "show_progress_help": "Shows how far through a tour the reader is, next to the buttons. The total counts every step meant for their device, so the number jumps ahead past a step whose element is missing.",
                 "allow_close_label": "Allow closing",
-                "allow_close_help": "Lets the reader leave a tour early, with a close button and the Escape key. The tour is still marked as taken.",
+                "allow_close_help": "Lets the reader leave a tour early, with a close button and the Escape key. A tour left early, by closing it or by going to another page, is still marked as taken.",
                 "show_in_settings_label": "List tours on the member's settings page",
                 "show_in_settings_help": "Lets members start a tour again themselves, instead of asking a moderator to reset it."
             },
@@ -40,7 +40,6 @@
                 "edit_action": "Edit",
                 "controls_label": "Controls for {title}",
                 "preview_button": "Preview on the forum",
-                "preview_navigate": "Opened the forum. Go to a {route} page and the preview starts there.",
                 "export_button": "Export as a file",
                 "duplicate_button": "Duplicate this tour",
                 "copy_title": "{title} (copy)",
@@ -78,16 +77,16 @@
                 "create_title": "New tour",
                 "edit_title": "Edit {title}",
                 "title_label": "Name",
-                "title_help": "For your reference. Members never see it.",
+                "title_help": "Members see it when tours are listed on their settings page.",
                 "key_label": "Key",
                 "key_help": "Identifies the tour in exports and in links. Leave it alone once members have taken it.",
                 "start_mode_label": "Starts",
-                "start_mode_help": "A tour that starts on its own runs once for each member who matches it. A manual one waits to be launched from their settings page.",
+                "start_mode_help": "A tour that starts on its own runs once for each member who matches it. A manual one can only be started from the member's settings page, so it needs tours listed there.",
                 "route_label": "Page",
                 "route_placeholder": "Any page",
-                "route_help": "The Flarum route this tour belongs to, such as index or discussion. Leave it empty for a tour anchored to the header, which follows the member around.",
+                "route_help": "The Flarum route this tour runs on, such as index, discussion or user. A route covers its sub-pages, so user also covers user.posts. A tour belongs to one page and ends when the member leaves it, so steps for another page need a tour of their own. Leave it empty to run on whichever page the member is on.",
                 "audience_label": "Who sees it",
-                "audience_help": "Leave every group unticked to show it to everybody.",
+                "audience_help": "Leave it empty to show the tour to everybody.",
                 "max_age_label": "Only accounts newer than",
                 "max_age_help": "In days. Leave it empty to show the tour whatever the account's age.",
                 "enabled_label": "Switched on",
@@ -105,9 +104,9 @@
                 "description_help": "Formatted the same way a post is on this forum, so links, bold and images work if the extensions for them are on.",
                 "target_label": "Target",
                 "target_placeholder": "A CSS selector, e.g. #home-link",
-                "target_help": "The element this step points at. Leave it empty to show the step on its own, in the middle of the screen.",
+                "target_help": "The element this step points at, on the tour's page. A step whose element is not there when it is reached is skipped. Leave it empty to show the step on its own, in the middle of the screen.",
                 "target_invalid": "That is not a valid CSS selector.",
-                "target_matches": "{count, plural, =0 {Matched nothing on the page you looked at} one {Matched # element} other {Matched # elements}}",
+                "target_route_mismatch": "Picked on {picked}, but this tour runs on {route}. The step is skipped unless that page has the element too.",
                 "pick_button": "Pick",
                 "test_button": "Test",
                 "placement_label": "Position",
@@ -129,6 +128,9 @@
                 "reset_tour_guide": "Send a member through their tours again"
             }
         },
+        "api": {
+            "step_not_in_tour": "That step is not part of this tour."
+        },
         "forum": {
             "progress": "{current} of {total}",
             "next_button": "Next",
@@ -137,13 +139,15 @@
             "close_button": "Close the tour",
             "click_to_continue": "Click it to continue",
             "preview_notice": "Preview. Nothing you do here is recorded.",
+            "go_to_page": "Go to the page {title} is about and it will start there.",
+            "preview_go_to": "Open a {route} page and the preview starts there.",
+            "unknown_page": "This forum has no page called {route}.",
+            "nothing_here": "Nothing on this page for {title}.",
             "settings": {
                 "heading": "Tours",
                 "none": "There are no tours to take.",
                 "take": "Take the tour",
-                "take_again": "Take it again",
-                "waiting": "Go to the page {title} is about and it will start there.",
-                "nothing_here": "Nothing on this page for {title}. Try it from the page it belongs to."
+                "take_again": "Take it again"
             },
             "picker": {
                 "picking": "Click the element this step points at",
@@ -152,11 +156,14 @@
                 "matches": "{count, plural, =0 {no matches} one {# match} other {# matches}}",
                 "browse": "Browse",
                 "resume": "Pick",
+                "show": "Show",
+                "go_to_page": "Open a {route} page, then press the button again.",
                 "cancel": "Cancel"
             },
             "user_controls": {
                 "reset_tour_guide": "Start tours again",
-                "reset_tour_guide_confirmation": "Show this member their tours again next time they visit?"
+                "reset_tour_guide_confirmation": "Show this member their tours again next time they visit?",
+                "reset_tour_guide_done": "Their tours will be offered again."
             }
         }
     }

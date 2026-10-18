@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Loo väli",
                 "edit-field": "Salvesta muudatused",
-                "delete-field": "Kustuta väli"
+                "delete-field": "Kustuta väli",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Teiste kasutajate profiili muutmine",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Väljad",
+                "trash": "",
                 "create": "",
                 "edit": "Lisa väli {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +101,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

@@ -18,6 +18,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "settings": "",
+                "order": "",
+                "stats": "",
+                "server": ""
+            },
             "settings": {
                 "limit_new_label": "",
                 "limit_new_help": "",
@@ -107,6 +113,8 @@
                 "help": "",
                 "extension_active": "",
                 "not_installed_or_disabled": "",
+                "ext_installed": "",
+                "ext_not_installed": "",
                 "status_active": "",
                 "status_inactive": "",
                 "always_shown": "",
@@ -144,7 +152,32 @@
                 "window_spread": "",
                 "window_single": "",
                 "spread_send_label": "",
-                "single_send_label": ""
+                "single_send_label": "",
+                "midnight": "",
+                "noon": "",
+                "timezones": {
+                    "honolulu": "",
+                    "anchorage": "",
+                    "los_angeles": "",
+                    "denver": "",
+                    "chicago": "",
+                    "new_york": "",
+                    "halifax": "",
+                    "sao_paulo": "",
+                    "azores": "",
+                    "london": "",
+                    "paris": "",
+                    "helsinki": "",
+                    "moscow": "",
+                    "dubai": "",
+                    "karachi": "",
+                    "kolkata": "",
+                    "bangkok": "",
+                    "shanghai": "",
+                    "tokyo": "",
+                    "sydney": "",
+                    "auckland": ""
+                }
             },
             "order": {
                 "help": "",
@@ -195,6 +228,8 @@
             },
             "server": {
                 "copy_to_clipboard": "",
+                "cron_comment_workers": "",
+                "cron_comment_enqueue": "",
                 "queue_name_label": "",
                 "queue_name_help_1": "",
                 "queue_name_help_2": "",
@@ -375,6 +410,29 @@
                 "frequency_help": "",
                 "no_frequencies_enabled": ""
             }
+        },
+        "api": {
+            "no_token": "",
+            "token_not_found": "",
+            "invalid_frequency": "",
+            "email_required": "",
+            "frequency_invalid": "",
+            "mail_failed": ""
+        },
+        "lib": {
+            "weekdays": {
+                "sunday": "",
+                "monday": "",
+                "tuesday": "",
+                "wednesday": "",
+                "thursday": "",
+                "friday": "",
+                "saturday": ""
+            },
+            "ordinal_st": "",
+            "ordinal_nd": "",
+            "ordinal_rd": "",
+            "ordinal_th": ""
         },
         "email": {
             "subject": "",

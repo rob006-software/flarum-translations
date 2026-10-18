@@ -84,7 +84,7 @@
             },
             "transfer_code": {
                 "subject": "Potwierdź przeniesienie własności kanału {channel}",
-                "body": "Twój kod potwierdzający to {code}. Wprowadź go, aby przekazać kanał {channel} użytkownikowi {recipient}. Kod wygaśnie za {minutes} min. Jeśli nie prosiłeś o tę zmianę, zignoruj tę wiadomość — nic się nie zmieni."
+                "body": "Twój kod potwierdzający to {code}. Wprowadź go, aby przekazać kanał {channel} użytkownikowi {recipient}. Kod wygaśnie za {minutes} min. Jeśli nie prosiłeś o tę zmianę, zignoruj tę wiadomość – nic się nie zmieni."
             }
         },
         "notifications": {
@@ -95,7 +95,7 @@
         },
         "lib": {
             "gdpr": {
-                "export_description": "Twoje wiadomości na czacie, informacje o ich załącznikach oraz kanały, do których należałeś.",
+                "export_description": "Twoje wiadomości na czacie, informacje o ich załącznikach, kanały, do których należałeś, oraz rangi, które w nich miałeś.",
                 "anonymize_description": "Twoje wiadomości na czacie pozostaną, aby rozmowy zachowały ciągłość, ale nie będą już przypisane do Ciebie. Załączniki, reakcje, wersje robocze i członkostwa w kanałach zostaną usunięte.",
                 "delete_description": "Twoje wiadomości i załączniki na czacie zostaną usunięte wraz z reakcjami, wersjami roboczymi i członkostwami w kanałach."
             }
@@ -195,7 +195,7 @@
                 "select": "Wybierz",
                 "replying_to": "Odpowiedź do {username}",
                 "reply_jump": "Przejdź do oryginalnej wiadomości",
-                "reply_not_loaded": "Ta wiadomość nie została jeszcze wczytana — przewiń w górę, aby do niej dotrzeć.",
+                "reply_not_loaded": "Ta wiadomość nie została jeszcze wczytana – przewiń w górę, aby do niej dotrzeć.",
                 "starting_thread": "Rozpoczynanie wątku od wiadomości użytkownika {username}",
                 "delete_confirm": "Usunąć tę wiadomość?",
                 "delete_failed": "Nie udało się usunąć tej wiadomości.",
@@ -331,7 +331,7 @@
                 "message_length_help_inherit": "{count, plural, one {Wiadomości mogą mieć tutaj maksymalnie # znak, tak jak na pozostałej części forum.} few {Wiadomości mogą mieć tutaj maksymalnie # znaki, tak jak na pozostałej części forum.} other {Wiadomości mogą mieć tutaj maksymalnie # znaków, tak jak na pozostałej części forum.}} Zmiana ustawienia forum zmieni również limit tego kanału.",
                 "message_length_help_own": "{count, plural, one {Wiadomości mogą mieć tutaj maksymalnie # znak, niezależnie od limitu pozostałej części forum.} few {Wiadomości mogą mieć tutaj maksymalnie # znaki, niezależnie od limitu pozostałej części forum.} other {Wiadomości mogą mieć tutaj maksymalnie # znaków, niezależnie od limitu pozostałej części forum.}}",
                 "message_length_help_empty": "{count, plural, one {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znak.} few {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znaki.} other {Pozostaw puste, aby użyć domyślnego limitu forum wynoszącego # znaków.}}",
-                "message_length_help_clamped": "{count, plural, one {Wartość poza zakresem — zostanie zapisana jako # znak.} few {Wartość poza zakresem — zostanie zapisana jako # znaki.} other {Wartość poza zakresem — zostanie zapisana jako # znaków.}}",
+                "message_length_help_clamped": "{count, plural, one {Wartość poza zakresem – zostanie zapisana jako # znak.} few {Wartość poza zakresem – zostanie zapisana jako # znaki.} other {Wartość poza zakresem – zostanie zapisana jako # znaków.}}",
                 "slow_mode": "Tryb powolny",
                 "slow_mode_off": "Wyłączony",
                 "slow_mode_help_off": "Członkowie mogą wysyłać wiadomości jedna po drugiej bez oczekiwania.",
@@ -345,7 +345,7 @@
                 "icon_kind_to_image": "Użyj obrazu",
                 "icon_kind_to_emoji": "Użyj emoji",
                 "emoji_help": "Wyświetlane obok nazwy kanału, na pasku bocznym i podczas przeglądania kanałów.",
-                "image_help": "Najlepiej sprawdzi się kwadratowy obraz — zostanie przycięty i zmniejszony do 128×128.",
+                "image_help": "Najlepiej sprawdzi się kwadratowy obraz – zostanie przycięty i zmniejszony do 128×128.",
                 "image_upload": "Prześlij obraz",
                 "image_remove": "Usuń obraz",
                 "image_failed": "Nie udało się przesłać tego obrazu.",
@@ -361,7 +361,7 @@
                 "post_all": "Wszyscy na kanale",
                 "post_moderators": "Tylko moderatorzy",
                 "post_all_help": "Każdy członek kanału może wysyłać wiadomości.",
-                "post_moderators_help": "Kanał działa jak tablica ogłoszeń — wszyscy mogą czytać, ale tylko moderatorzy mogą wysyłać wiadomości.",
+                "post_moderators_help": "Kanał działa jak tablica ogłoszeń – wszyscy mogą czytać, ale tylko moderatorzy mogą wysyłać wiadomości.",
                 "category_help_none": "Kanał jest dostępny na całym forum. Może go zobaczyć każdy, kto ma dostęp do czatu.",
                 "category_help_bound": "Kanał dziedziczy uprawnienia kategorii {category}: zobaczą go tylko użytkownicy mający dostęp do tej kategorii.",
                 "submit": "Utwórz kanał",
@@ -374,8 +374,8 @@
                 "failed": "Nie udało się zapisać zmian.",
                 "saved": "Kanał został zaktualizowany.",
                 "lifecycle": "Stan kanału",
-                "lifecycle_help": "Zamknięcie blokuje nowe wiadomości, ale kanał pozostaje dostępny do odczytu. Archiwizacja kopiuje historię do dyskusji i trwale zamraża kanał.",
-                "archive_confirm": "Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie trwale zamrożony."
+                "lifecycle_help": "Zamknięcie blokuje nowe wiadomości, ale kanał pozostaje dostępny do odczytu. Archiwizacja kopiuje historię do dyskusji i zamraża kanał do czasu przywrócenia go z archiwum.",
+                "archive_confirm": "Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie zamrożony do czasu przywrócenia go z archiwum."
             },
             "add_members": {
                 "title": "Zaproś członków",
@@ -624,7 +624,7 @@
                 "upload_storage_local": "Dysk tego forum",
                 "upload_storage_fof": "Magazyn FoF Upload",
                 "fof_upload_adapter": "Adapter FoF Upload",
-                "fof_upload_adapter_help": "Określa, do którego magazynu FoF Upload trafiają załączniki z czatu. Zasobnik musi umożliwiać publiczny odczyt. Typy plików, limity rozmiaru i uprawnienia skonfigurowane w FoF Upload nie mają tutaj zastosowania — obowiązują powyższe limity czatu i jego uprawnienie do przesyłania plików.",
+                "fof_upload_adapter_help": "Określa, do którego magazynu FoF Upload trafiają załączniki z czatu. Zasobnik musi umożliwiać publiczny odczyt. Typy plików, limity rozmiaru i uprawnienia skonfigurowane w FoF Upload nie mają tutaj zastosowania – obowiązują powyższe limity czatu i jego uprawnienie do przesyłania plików.",
                 "fof_upload_adapter_mapping": "Użyj mapowania typów plików z FoF Upload",
                 "fof_upload_local_warning": "Lokalny adapter FoF Upload, często wybierany przez mapowanie typów plików, zapisuje pliki w public/assets/files na tym serwerze. Pozwoli to ograniczyć wykorzystanie transferu tylko wtedy, gdy w ustawieniach FoF Upload skonfigurowano adres URL CDN.",
                 "title_label": "Nazwa czatu",
@@ -659,7 +659,7 @@
                 "messages_title": "Wiadomości",
                 "messages_help": "Limity długości, częstotliwości wysyłania i edycji wiadomości.",
                 "uploads_title": "Pliki",
-                "uploads_help": "Czy do wiadomości można dołączać pliki i jak duże mogą być.",
+                "uploads_help": "Czy do wiadomości można dołączać pliki, jak duże mogą być i gdzie są przechowywane.",
                 "retention_title": "Retencja",
                 "retention_help": "Jak długo wiadomości są przechowywane. Starsze są usuwane przez nocne zadanie czyszczące.",
                 "realtime_title": "Aktualizacje na żywo i dźwięk",
@@ -667,7 +667,7 @@
                 "announcer_title": "Ogłoszenia",
                 "announcer_help": "Jako kto czat wysyła automatyczne wiadomości, np. o nowych dyskusjach w powiązanej kategorii.",
                 "webhooks_title": "Przychodzące webhooki",
-                "webhooks_help": "Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz — podczas tworzenia lub zmiany klucza.",
+                "webhooks_help": "Endpointy zgodne ze Slackiem, przez które zewnętrzna usługa może wysyłać wiadomości na kanał. Adres URL jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.",
                 "other_title": "Inne ustawienia",
                 "other_help": "Ustawienia czatu dodane przez inne rozszerzenia."
             },
@@ -718,14 +718,14 @@
                 "remove_upload": "Usuń obraz",
                 "upload_failed": "Nie udało się przesłać tego obrazu.",
                 "user_label": "Wysyłaj jako użytkownik",
-                "user_help": "Wybierz konto, a ogłoszenia staną się zwykłymi wiadomościami tego użytkownika — bez nazwy bota, obrazu i oznaczenia BOT.",
+                "user_help": "Wybierz konto, a ogłoszenia staną się zwykłymi wiadomościami tego użytkownika – bez nazwy bota, obrazu i oznaczenia BOT.",
                 "user_search": "Szukaj użytkowników",
                 "user_active": "Ogłoszenia są wysyłane jako ten użytkownik.",
                 "use_bot": "Używaj bota"
             },
             "webhooks": {
                 "title": "Przychodzące webhooki",
-                "help": "Zewnętrzna usługa może wysyłać wiadomości na kanał za pomocą tajnego adresu URL. Adres jest wyświetlany tylko raz — podczas tworzenia lub zmiany klucza.",
+                "help": "Zewnętrzna usługa może wysyłać wiadomości na kanał za pomocą tajnego adresu URL. Adres jest wyświetlany tylko raz – podczas tworzenia lub zmiany klucza.",
                 "name": "Nazwa webhooka",
                 "pick_channel": "Wybierz kanał",
                 "create": "Utwórz webhook",

@@ -72,11 +72,33 @@
             "crit_toast": "{card} 造成暴击！",
             "outcome_victory": "胜利！",
             "outcome_defeat": "战败…",
+            "hp_value": "",
+            "request_failed": "",
             "in_character": "角色身份"
         },
         "admin": {
             "tags_label": "角色扮演标签",
+            "tags_placeholder": "",
             "tags_help": "填写允许角色扮演的标签固定链接名，多个标签使用半角逗号分隔。角色选择器、卡组和战斗遭遇仅会出现在带有任意一个所选标签的讨论中。留空则允许在所有讨论中使用角色扮演功能。"
+        },
+        "api": {
+            "combatant_name_required": "",
+            "no_combatants": "",
+            "not_active": "",
+            "unknown_action": "",
+            "join_too_late": "",
+            "downed": "",
+            "card_name_required": "",
+            "bad_dice": "",
+            "character_name_required": "",
+            "summary": {
+                "untitled": "",
+                "ended": "",
+                "ended_after": "",
+                "standing": "",
+                "defeated": "",
+                "hp": ""
+            }
         }
     }
 }

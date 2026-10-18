@@ -63,7 +63,22 @@
                 "single_clickable_label": "",
                 "single_clickable_help": "",
                 "single_modal_rate_label": "",
-                "single_modal_rate_help": ""
+                "single_modal_rate_help": "",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
                 "rate_label": "Оценивать темы",
@@ -85,9 +100,19 @@
                 "rate_this": "Оценить тему",
                 "rate_first": "Поставьте первую оценку!",
                 "your_rating": "Ваша оценка:",
-                "restricted": "Оценивание недоступно для вашей группы в этой теме."
+                "restricted": "Оценивание недоступно для вашей группы в этой теме.",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
             "rating_count": "Оценки: {count}",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "Последняя оценка:",
             "rating_restricted_message": "Оценивание недоступно для вашей группы.",
             "controls": {
@@ -106,7 +131,8 @@
                 "title": "Оценки ({count})",
                 "empty": "Пока нет оценок.",
                 "deleted_user": "[удалён]",
-                "updated_prefix": "обновлено "
+                "updated_prefix": "обновлено ",
+                "author_tag": ""
             }
         },
         "api": {

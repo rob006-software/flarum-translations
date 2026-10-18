@@ -48,6 +48,75 @@
                 "error_no_such_run": "That import no longer exists.",
                 "error_unknown_source": "No address patterns are known for that platform.",
                 "error_failed": "Could not save. Please try again."
+            },
+            "count": {
+                "users": "users",
+                "categories": "categories",
+                "topics": "topics",
+                "posts": "posts",
+                "skipped": "skipped"
+            }
+        },
+        "api": {
+            "unknown_source": "Unknown import source.",
+            "missing_run_id": "Missing run id.",
+            "run_not_found": "Import run not found.",
+            "starting": "Starting…",
+            "working": "Working…",
+            "complete": "Import complete.",
+            "failed": "Import failed: {error}",
+            "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
+            "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
+            "sqlsrv_missing": "This server cannot connect to SQL Server directly: the PHP extension pdo_sqlsrv is not installed. Export the source database to a dump or CSV and use the file-upload import instead.",
+            "dump_unreadable": "Could not open the uploaded dump.",
+            "scratch_failed": "Could not create a scratch database at {path}",
+            "explain": {
+                "timed_out": "This server could not reach the source database at all: the connection timed out. The source MySQL server is not accepting connections from this server — usually a firewall blocking port 3306, MySQL listening on 127.0.0.1 only (bind-address), or the host not allowing remote MySQL (on cPanel, add this server's IP under Remote MySQL). If you cannot open it up, upload a dump instead, or load the dump into a database on this server and connect to 127.0.0.1.",
+                "no_answer": "Nothing answered at that host and port. Check the host and port, and that the database server is running and reachable from this server.",
+                "host_refused": "The source database refused this server's address. Grant the database user access from this server's IP (not just localhost).",
+                "bad_login": "The source database rejected the username or password. If they are right, the user may only be allowed to connect from localhost."
+            },
+            "not_source": {
+                "phpbb": "This doesn't look like a phpBB database (missing “{table}”). Check the table prefix.",
+                "vbulletin": "This doesn't look like a vBulletin database (missing “{table}”). Check the table prefix.",
+                "vbulletin5": "This doesn't look like a vBulletin 5 database (missing “{table}”).",
+                "mybb": "This doesn't look like a MyBB database (missing “{table}”). Check the table prefix.",
+                "smf": "This doesn't look like an SMF database (missing “{table}”). Check the table prefix.",
+                "vanilla": "This doesn't look like a Vanilla database (missing “{table}”). Check the table prefix.",
+                "invision": "This doesn't look like an Invision Community database (missing “{table}”).",
+                "xenforo": "This doesn't look like a XenForo database (missing “{table}”).",
+                "convoro": "This doesn't look like a Convoro database (missing “{table}”).",
+                "convoro_columns": "This database has the right table names but not Convoro's columns — is it really a Convoro forum?",
+                "discourse": "This doesn't look like a Discourse database (missing “{table}”). Discourse uses PostgreSQL.",
+                "nodebb": "This doesn't look like a NodeBB Redis store (no “global” or “categories:cid” key). Check the host, port and database number.",
+                "webwiz": "This doesn't look like a Web Wiz Forums database (missing “{table}”). Check the table prefix — Web Wiz ships tables as tblAuthor, tblForum, tblTopic, tblThread.",
+                "webwiz_columns": "Found the Web Wiz tables, but could not identify these columns: {columns}. This is likely a Web Wiz version with a different schema — send the output of a column listing for tblAuthor/tblForum/tblTopic/tblThread so the mapping can be extended."
+            },
+            "nodebb": {
+                "no_extension": "Importing from NodeBB requires the PHP “redis” (phpredis) extension on the server.",
+                "no_connect": "Could not connect to the NodeBB Redis server at {host}:{port}."
+            },
+            "upload": {
+                "no_file": "No file was uploaded (or it exceeded the server upload limit).",
+                "too_large": "That file is {size} — the limit is {limit}. Gzip the dump (.sql.gz) or import from a live database connection instead.",
+                "unreadable": "Could not read that file: {error}",
+                "wrong_source": "File loaded, but it doesn't look like a {source} database: {error}",
+                "skipped_batches": "{skipped} of {total} row batches in this dump could not be read and were skipped, so some content may be missing. Importing from a live database connection avoids this.",
+                "empty": "That file is empty.",
+                "binary": "That file doesn't look like a database dump — it appears to be binary. Upload a .sql, .sql.gz or SQLite file."
+            },
+            "phase": {
+                "finishing": "Finishing up…",
+                "boards": "Importing boards…",
+                "categories": "Importing categories…",
+                "channels": "Importing channels…",
+                "comments": "Importing comments…",
+                "discussions": "Importing discussions…",
+                "forums": "Importing forums…",
+                "members": "Importing members…",
+                "posts": "Importing posts…",
+                "topics": "Importing topics…",
+                "member_counts": "Updating member counts…"
             }
         }
     }

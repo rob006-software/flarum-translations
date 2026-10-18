@@ -15,6 +15,53 @@
                 "group_help": "เลือกกลุ่มผู้ใช้ของ Flarum ที่จะใช้จัดเก็บสมาชิกผู้สนับสนุนแบบรายเดือน โดยผู้ใช้จะได้รับการเพิ่มเข้ากลุ่มนี้โดยอัตโนมัติเมื่อพวกเขาเป็นผู้สนับสนุนรายเดือน และจะถูกย้ายไปยังกลุ่มผู้สนับสนุนแบบครั้งเดียว (หากมีการตั้งค่าไว้) เมื่อหมดอายุสิทธิ์สนับสนุนแบบรายเดือน",
                 "onetime_group_label": "กลุ่มผู้ใช้สำหรับผู้สนับสนุนแบบครั้งเดียว (ระบุหรือไม่ก็ได้)",
                 "onetime_group_help": "เลือกกลุ่มผู้ใช้ของ Flarum ที่จะใช้สำหรับกลุ่มสมาชิกผู้สนับสนุนแบบครั้งเดียว หากไม่กำหนดค่าไว้ กลุ่มผู้สนับสนุนแบบครั้งเดียวจะไม่ได้รับการบริหารจัดการระบบ เมื่อสมาชิกผู้สนับสนุนรายเดือนยกเลิกการสมัครใช้งาน พวกเขาจะถูกย้ายมายังกลุ่มผู้ใช้นี้แทน"
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

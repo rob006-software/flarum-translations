@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "创建字段",
                 "edit-field": "保存更改",
-                "delete-field": "删除字段"
+                "delete-field": "删除字段",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "编辑其他用户的扩展资料",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "资料字段",
+                "trash": "",
                 "create": "创建字段",
                 "edit": "编辑字段「{field}」",
                 "delete-confirmation": "确定要删除字段「{field}」吗？此操作无法撤销。",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "限制字段可见范围",
                 "permissions": "字段可见范围",
                 "permissions-alert": "创建字段后，可在编辑时设置可见权限。",
@@ -97,6 +101,8 @@
                     "field_created": "创建了资料字段「{name}」",
                     "field_updated": "更新了资料字段「{name}」",
                     "field_deleted": "删除了资料字段「{name}」",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "更新了 {username} 的扩展资料"
                 }
             }

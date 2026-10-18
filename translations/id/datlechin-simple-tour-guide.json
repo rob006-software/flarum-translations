@@ -40,7 +40,6 @@
                 "edit_action": "",
                 "controls_label": "",
                 "preview_button": "",
-                "preview_navigate": "",
                 "export_button": "",
                 "duplicate_button": "",
                 "copy_title": "",
@@ -107,7 +106,7 @@
                 "target_placeholder": "",
                 "target_help": "",
                 "target_invalid": "",
-                "target_matches": "",
+                "target_route_mismatch": "",
                 "pick_button": "",
                 "test_button": "",
                 "placement_label": "",
@@ -129,6 +128,9 @@
                 "reset_tour_guide": ""
             }
         },
+        "api": {
+            "step_not_in_tour": ""
+        },
         "forum": {
             "progress": "",
             "next_button": "",
@@ -137,13 +139,15 @@
             "close_button": "",
             "click_to_continue": "",
             "preview_notice": "",
+            "go_to_page": "",
+            "preview_go_to": "",
+            "unknown_page": "",
+            "nothing_here": "",
             "settings": {
                 "heading": "",
                 "none": "",
                 "take": "",
-                "take_again": "",
-                "waiting": "",
-                "nothing_here": ""
+                "take_again": ""
             },
             "picker": {
                 "picking": "",
@@ -152,11 +156,14 @@
                 "matches": "",
                 "browse": "",
                 "resume": "",
+                "show": "",
+                "go_to_page": "",
                 "cancel": ""
             },
             "user_controls": {
                 "reset_tour_guide": "",
-                "reset_tour_guide_confirmation": ""
+                "reset_tour_guide_confirmation": "",
+                "reset_tour_guide_done": ""
             }
         }
     }

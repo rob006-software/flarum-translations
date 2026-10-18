@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Sahəni yarat",
                 "edit-field": "Dəyişiklikləri yadda saxla",
-                "delete-field": "Sahəni sil"
+                "delete-field": "Sahəni sil",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Digər istifadəçilərin profilini redaktə et",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Sahələr",
+                "trash": "",
                 "create": "",
                 "edit": "{field} sahəsini redaktə et",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +101,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

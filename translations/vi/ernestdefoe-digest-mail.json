@@ -18,6 +18,12 @@
             }
         },
         "admin": {
+            "tabs": {
+                "settings": "",
+                "order": "",
+                "stats": "",
+                "server": ""
+            },
             "settings": {
                 "limit_new_label": "Thảo luận mới — số mục tối đa",
                 "limit_new_help": "Số lượng thảo luận mới tối đa được đưa vào mỗi email tổng hợp.",
@@ -107,6 +113,8 @@
                 "help": "Quản lý những tích hợp tiện ích tùy chọn được đưa vào email bản tin. Một công tắc chỉ bật được khi tiện ích tương ứng đã được cài và bật. Các tích hợp đang bật sẽ xuất hiện ở tab Thứ tự bản tin.",
                 "extension_active": "Tiện ích đang bật",
                 "not_installed_or_disabled": "Chưa cài hoặc đang tắt",
+                "ext_installed": "",
+                "ext_not_installed": "",
                 "status_active": "Đang bật",
                 "status_inactive": "Đang tắt",
                 "always_shown": "Luôn hiển thị",
@@ -144,7 +152,32 @@
                 "window_spread": "Email bản tin sẽ được gửi dần từ {from} đến {to}. Người đăng ký nhận thư theo từng đợt, nhờ vậy máy chủ của bạn vẫn phản hồi tốt và không phút nào phải gánh toàn bộ tải.",
                 "window_single": "Toàn bộ email bản tin sẽ bắt đầu gửi lúc {from}. Phù hợp nhất với các diễn đàn nhỏ dưới 2.000 người đăng ký.",
                 "spread_send_label": "Gửi rải: ",
-                "single_send_label": "Gửi một lượt: "
+                "single_send_label": "Gửi một lượt: ",
+                "midnight": "",
+                "noon": "",
+                "timezones": {
+                    "honolulu": "",
+                    "anchorage": "",
+                    "los_angeles": "",
+                    "denver": "",
+                    "chicago": "",
+                    "new_york": "",
+                    "halifax": "",
+                    "sao_paulo": "",
+                    "azores": "",
+                    "london": "",
+                    "paris": "",
+                    "helsinki": "",
+                    "moscow": "",
+                    "dubai": "",
+                    "karachi": "",
+                    "kolkata": "",
+                    "bangkok": "",
+                    "shanghai": "",
+                    "tokyo": "",
+                    "sydney": "",
+                    "auckland": ""
+                }
             },
             "order": {
                 "help": "Dùng các mũi tên để sắp xếp thứ tự các mục xuất hiện trong email bản tin. Chỉ những mục tích hợp đang bật mới hiện ở đây, hãy bật chúng ở tab Cài đặt trước.",
@@ -195,6 +228,8 @@
             },
             "server": {
                 "copy_to_clipboard": "Sao chép vào bộ nhớ tạm",
+                "cron_comment_workers": "",
+                "cron_comment_enqueue": "",
                 "queue_name_label": "Tên hàng đợi",
                 "queue_name_help_1": "Tên hàng đợi mà các tác vụ bản tin được đẩy vào. Mặc định: ",
                 "queue_name_help_2": ". Nếu dùng hàng đợi database, lệnh cron ",
@@ -375,6 +410,29 @@
                 "frequency_help": "Tần suất bản tin mà người dùng mới được tự động đăng ký. Chỉ những tần suất đã bật ở mục Tùy chọn tần suất cho người dùng phía trên mới dùng được.",
                 "no_frequencies_enabled": "Hiện không có tần suất nào được bật. Hãy bật ít nhất một tần suất ở mục Tùy chọn tần suất cho người dùng phía trên."
             }
+        },
+        "api": {
+            "no_token": "",
+            "token_not_found": "",
+            "invalid_frequency": "",
+            "email_required": "",
+            "frequency_invalid": "",
+            "mail_failed": ""
+        },
+        "lib": {
+            "weekdays": {
+                "sunday": "",
+                "monday": "",
+                "tuesday": "",
+                "wednesday": "",
+                "thursday": "",
+                "friday": "",
+                "saturday": ""
+            },
+            "ordinal_st": "",
+            "ordinal_nd": "",
+            "ordinal_rd": "",
+            "ordinal_th": ""
         },
         "email": {
             "subject": "{forum} — Bản tin {frequency} của bạn",

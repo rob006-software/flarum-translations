@@ -28,7 +28,9 @@
             "buttons": {
                 "add-field": "Tạo trường",
                 "edit-field": "Lưu thay đổi",
-                "delete-field": "Xóa trường"
+                "delete-field": "Xóa trường",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Chỉnh sửa hồ sơ của người dùng khác",
@@ -37,9 +39,11 @@
             },
             "fields": {
                 "title": "Trường",
+                "trash": "",
                 "create": "Tạo trường",
                 "edit": "Sửa trường {field}",
                 "delete-confirmation": "Bạn có chắc muốn xóa trường {field} không? Hành động này không thể hoàn tác.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "Giới hạn mức hiển thị của trường",
                 "permissions": "Mức hiển thị của trường",
                 "permissions-alert": "Cài đặt quyền sẽ có sau khi trường được tạo và bạn mở sửa nó.",
@@ -97,6 +101,8 @@
                     "field_created": "Đã tạo trường hồ sơ \"{name}\"",
                     "field_updated": "Đã cập nhật trường hồ sơ \"{name}\"",
                     "field_deleted": "Đã xóa trường hồ sơ \"{name}\"",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "Đã cập nhật các trường hồ sơ của {username}"
                 }
             }

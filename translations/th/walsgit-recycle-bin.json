@@ -9,18 +9,19 @@
             "search_post_help_text": "ค้นหาคำในโพสต์ที่ซ่อน",
             "total_hidden_discussions": "โพสต์ที่ซ่อนทั้งหมด",
             "total_hidden_posts": "โพสต์ที่ซ่อนทั้งหมด",
-            "empty_list": "ไม่มีโพสต์ในถังรีไซเคิล",
-            "hidden_discussions": "โพสต์ที่ซ่อน",
+            "empty_discussions_list": "",
+            "empty_posts_list": "",
+            "no_search_results": "",
+            "select_all": "",
             "discussion_id": "ID",
             "discussion_title": "ชื่อเรื่องโพสต์",
-            "discussion_link_tooltip": "ดูโพสต์",
             "author": "ผู้แต่ง",
             "unknown_user": "ผู้ใช้ที่ไม่รู้จัก",
             "created_at": "สร้างเมื่อ",
             "hidden_at": "ซ่อนเมื่อ",
             "unknown_date": "วันที่ไม่รู้จัก",
             "actions": "การดำเนินการ",
-            "restore_tooltip": "คืนค่าโพสต์ #{discussionId}",
+            "restore_discussion_tooltip": "",
             "restore_post_tooltip": "คืนค่า post #{postId}",
             "restore_discussion": {
                 "title": "คืนค่าโพสต์",
@@ -46,7 +47,7 @@
                 "delete_button": "ลบ post นี้ไปตลอด",
                 "success": "ลบ post สำเร็จ"
             },
-            "delete_tooltip": "ลบโพสต์ #{discussionId}",
+            "delete_discussion_tooltip": "",
             "delete_post_tooltip": "ลบ post #{postId}",
             "bulk_actions": "การดำเนินการสำหรับโพสต์ที่เลือก: ",
             "bulk_post_actions": "การดำเนินการสำหรับ post ที่เลือก: ",
@@ -82,15 +83,32 @@
             },
             "bulk_delete_label": "ลบโพสต์ที่เลือก",
             "bulk_post_delete_label": "ลบ post ที่เลือก",
+            "bulk_delete_all_label": "",
+            "bulk_post_delete_all_label": "",
+            "mass_delete_all_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_delete_all_post_modal": {
+                "title": "",
+                "text_start": "",
+                "text_end": "",
+                "submit_button": "",
+                "success": ""
+            },
+            "mass_progress": "",
             "pagination": {
                 "first_page_button": "ไปยังหน้าแรก",
                 "back_button": "กลับไปยังหน้าก่อนหน้า",
                 "page_counter": "หน้า {current} จาก {total}",
                 "go_to_page_textbox_a11y_label": "ไปยังหน้าที่โดยตรง",
                 "next_button": "ไปยังหน้าถัดไป",
-                "last_page_button": "ไปยังหน้าสุดท้าย"
+                "last_page_button": "ไปยังหน้าสุดท้าย",
+                "page_counter_search": ""
             },
-            "mass_help_text": "โปรดรอให้หน้าเปลี่ยนปกติหลังจากยืนยันการ bulk restore หรือ delete",
             "grid": {
                 "invalid_column_content": "เนื้อหาไม่ถูกต้อง"
             },
@@ -98,7 +116,13 @@
                 "id": "ID",
                 "title": "ข้อความ Post",
                 "open_post": "เปิด post"
-            }
+            },
+            "empty_list": "ไม่มีโพสต์ในถังรีไซเคิล",
+            "hidden_discussions": "โพสต์ที่ซ่อน",
+            "discussion_link_tooltip": "ดูโพสต์",
+            "restore_tooltip": "คืนค่าโพสต์ #{discussionId}",
+            "delete_tooltip": "ลบโพสต์ #{discussionId}",
+            "mass_help_text": "โปรดรอให้หน้าเปลี่ยนปกติหลังจากยืนยันการ bulk restore หรือ delete"
         }
     }
 }

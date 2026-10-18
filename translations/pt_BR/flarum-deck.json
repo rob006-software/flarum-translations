@@ -2,103 +2,103 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Usar o Deck"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
-                "poll_interval_label": ""
+                "max_columns_help": "Cada coluna é uma requisição separada a cada atualização. Entre 1 e 12.",
+                "max_columns_label": "Máximo de colunas por membro",
+                "poll_interval_help": "Com que frequência as colunas verificam novas atividades quando o Realtime não está conectado. 0 desativa; o mínimo é 15.",
+                "poll_interval_label": "Intervalo de atualização (segundos)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
-                "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": ""
+                "author_label": "Membro",
+                "author_placeholder": "Buscar um membro",
+                "back_button": "Voltar",
+                "discussion_label": "Discussão",
+                "discussion_placeholder": "Buscar uma discussão",
+                "filter_help": "Combine filtros da busca, como tag:, author:, is:unread ou is:following. Palavras soltas não são suportadas.",
+                "filter_invalid_message": "Use apenas filtros, como tag:support is:unread. Palavras soltas não são suportadas.",
+                "filter_label": "Filtros",
+                "group_invalid_message": "Escolha um grupo.",
+                "group_label": "Grupo",
+                "in_deck_badge": "No seu deck",
+                "in_deck_count_badge": "No seu deck ×{count}",
+                "filter_placeholder": "ex.: tag:support is:unread",
+                "invalid_value_message": "Informe um valor válido para {field}.",
+                "pick_a_result_message": "Escolha um resultado para {field} entre as sugestões.",
+                "submit_button": "Adicionar coluna",
+                "title": "Adicionar uma coluna",
+                "use_filters_button": "Usar estes filtros"
             },
             "column": {
-                "controls_label": "",
-                "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
-                "resize_label": ""
+                "controls_label": "Opções da coluna {title}",
+                "drag_handle_label": "Arraste para mover {title}",
+                "move_left_button": "Mover para a esquerda",
+                "move_right_button": "Mover para a direita",
+                "move_to_bottom_row_button": "Mover para a linha de baixo",
+                "move_to_top_row_button": "Mover para a linha de cima",
+                "moved_announcement": "Movida para a posição {position} de {count}.",
+                "moved_in_bottom_row_announcement": "Movida para a posição {position} de {count} na linha de baixo.",
+                "moved_in_top_row_announcement": "Movida para a posição {position} de {count} na linha de cima.",
+                "new_items_button": "{count, plural, one {# novo} other {# novos}}",
+                "open_discussion_button": "Abrir discussão",
+                "refresh_button": "Atualizar",
+                "remove_button": "Remover coluna",
+                "reset_width_button": "Redefinir largura",
+                "resize_label": "Redimensionar {title}"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
-                "author_title": "",
-                "discussion": "",
-                "filter": "",
-                "group_posts": "",
-                "group_posts_title": "",
-                "typing": "",
-                "unread": ""
+                "all": "Todas as discussões",
+                "author": "Discussões de um membro",
+                "author_posts": "Posts de um membro",
+                "author_posts_title": "Posts de {username}",
+                "author_title": "Iniciadas por {username}",
+                "discussion": "Uma discussão",
+                "filter": "Filtro personalizado",
+                "group_posts": "Posts de um grupo",
+                "group_posts_title": "Posts de {group}",
+                "typing": "Atividade de digitação",
+                "unread": "Não lidas"
             },
             "discussion_controls": {
-                "add_to_deck_button": "",
-                "added_message": ""
+                "add_to_deck_button": "Adicionar ao Deck",
+                "added_message": "Esta discussão agora é uma coluna no seu Deck."
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Deck"
             },
             "typing": {
-                "empty_text": "",
-                "offline_text": "",
-                "replying_text": "",
-                "someone": "",
-                "starting_in_text": "",
-                "starting_text": "",
-                "was_replying_text": "",
-                "was_starting_in_text": "",
-                "was_starting_text": ""
+                "empty_text": "Ninguém está digitando agora.",
+                "offline_text": "A atividade de digitação precisa de uma conexão ativa com o servidor realtime.",
+                "replying_text": "{name} está respondendo em {discussion}",
+                "someone": "Alguém",
+                "starting_in_text": "{name} está iniciando uma discussão em {tags}",
+                "starting_text": "{name} está iniciando uma discussão",
+                "was_replying_text": "{name} estava respondendo em {discussion}",
+                "was_starting_in_text": "{name} estava iniciando uma discussão em {tags}",
+                "was_starting_text": "{name} estava iniciando uma discussão"
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Adicionar coluna",
+                "column_limit_reached_text": "Você atingiu o número máximo de colunas.",
+                "drop_row_hint": "Solte uma coluna aqui para iniciar uma segunda linha",
+                "empty_text": "Seu Deck está vazio. Adicione uma coluna para acompanhar conversas ao vivo.",
+                "exit_fullscreen_button": "Sair da tela cheia",
+                "fullscreen_button": "Tela cheia",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Ocultar esta introdução",
+                    "subtitle": "Acompanhe todas as conversas que importam para você, lado a lado e ao vivo. Adicione colunas, arraste-as para o lugar e organize-as em até duas linhas."
                 },
-                "navigator_label": "",
-                "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
-                "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
-                "title": ""
+                "navigator_label": "Colunas",
+                "options_label": "Opções do Deck",
+                "reset_button": "Redefinir colunas",
+                "resize_rows_label": "Redimensionar linhas",
+                "reset_confirmation": "Substituir suas colunas pelo conjunto padrão? Isso não pode ser desfeito.",
+                "scroll_left_label": "Rolar para a esquerda",
+                "scroll_right_label": "Rolar para a direita",
+                "title": "Deck"
             }
         }
     }

@@ -1,0 +1,28 @@
+{
+    "glowingblue-date-filters": {
+        "admin": {
+            "permissions": {
+                "view_date_filter_label": "View date filter in forum"
+            }
+        },
+        "forum": {
+            "index_date_filter": {
+                "toggle_dropdown_accessible_label": "Toggle date filter dropdown",
+                "allTime_button": "All Time",
+                "today_button": "Today",
+                "yesterday_button": "Yesterday",
+                "past-7-days_button": "Last week",
+                "past-30-days_button": "Last month",
+                "past-365-days_button": "Last year",
+                "custom_date_range_button": "Custom..."
+            },
+            "custom_date_range_modal": {
+                "title": "Select Custom Date Range",
+                "start_date_label": "Start date:",
+                "end_date_label": "End date:",
+                "cancel_button": "Cancel",
+                "apply_button": "Apply"
+            }
+        }
+    }
+}

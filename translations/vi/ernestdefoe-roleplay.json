@@ -72,11 +72,33 @@
             "crit_toast": "Đòn chí mạng với {card}!",
             "outcome_victory": "Chiến thắng!",
             "outcome_defeat": "Thất bại…",
+            "hp_value": "",
+            "request_failed": "",
             "in_character": "Trong vai nhân vật"
         },
         "admin": {
             "tags_label": "Thẻ dành cho nhập vai",
+            "tags_placeholder": "",
             "tags_help": "Danh sách slug của thẻ, cách nhau bằng dấu phẩy, nơi tính năng nhập vai được bật — bộ chọn nhân vật, bộ bài và các trận đánh chỉ xuất hiện trong những cuộc thảo luận có một trong các thẻ này. Để trống để cho phép nhập vai ở mọi cuộc thảo luận."
+        },
+        "api": {
+            "combatant_name_required": "",
+            "no_combatants": "",
+            "not_active": "",
+            "unknown_action": "",
+            "join_too_late": "",
+            "downed": "",
+            "card_name_required": "",
+            "bad_dice": "",
+            "character_name_required": "",
+            "summary": {
+                "untitled": "",
+                "ended": "",
+                "ended_after": "",
+                "standing": "",
+                "defeated": "",
+                "hp": ""
+            }
         }
     }
 }

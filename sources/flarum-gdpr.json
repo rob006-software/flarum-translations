@@ -184,6 +184,13 @@
                 "export-ready": "Your data export for {username} is now ready to download."
             },
             "export_file": "Export of user data for {username} ({email}) prepared at {date} from {forumTitle} ({url})"
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "Confirm account erasure",
+                "text": "Confirm that you want your account and its data erased. Until your request has been processed, you can still cancel it from your settings.",
+                "submit_button": "Confirm erasure"
+            }
         }
     },
     "flarum-audit": {

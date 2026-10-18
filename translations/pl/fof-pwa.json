@@ -39,34 +39,34 @@
                 },
                 "other": {
                     "heading": "Pozostałe",
-                    "display_label": "",
-                    "display_text": "",
+                    "display_label": "Tryb wyświetlania",
+                    "display_text": "Jak aplikacja otwiera się po uruchomieniu z jej ikony:\n\nSamodzielny: Aplikacja otwiera się w osobnym oknie, bez paska adresu przeglądarki.\nMinimalny interfejs: Jak w trybie samodzielnym, ale z podstawowymi przyciskami nawigacji, takimi jak Wstecz i Odśwież.\nPełny ekran: Aplikacja zajmuje cały ekran, bez elementów sterowania przeglądarki.\nPrzeglądarka: Aplikacja otwiera się w zwykłej karcie lub oknie przeglądarki.\n\nJeśli wybrany tryb nie jest obsługiwany, przeglądarka może użyć innego.\n",
                     "display_options": {
-                        "standalone": "",
-                        "minimal_ui": "",
-                        "fullscreen": "",
-                        "browser": ""
+                        "standalone": "Samodzielny",
+                        "minimal_ui": "Minimalny interfejs",
+                        "fullscreen": "Pełny ekran",
+                        "browser": "Przeglądarka"
                     },
-                    "orientation_label": "",
-                    "orientation_text": "",
+                    "orientation_label": "Orientacja ekranu",
+                    "orientation_text": "Dowolna: Aplikacja zmienia orientację wraz z urządzeniem.\nNaturalna: Aplikacja korzysta z naturalnej orientacji urządzenia, zwykle pionowej na telefonach i poziomej na monitorach.\nPionowa: Aplikacja pozostaje w orientacji pionowej.\nPozioma: Aplikacja pozostaje w orientacji poziomej.\n\nOrientacja pionowa i pozioma mogą występować w dwóch położeniach różniących się o 180 stopni. Wybierz wariant podstawowy lub alternatywny, aby korzystać tylko z jednego z nich. Na telefonie orientacja pionowa (podstawowa) zwykle oznacza zwykłe ułożenie telefonu, a pionowa (alternatywna) – ułożenie do góry nogami. W przypadku orientacji poziomej położenie podstawowe zależy od urządzenia.\n\nNiektóre przeglądarki i urządzenia mogą ignorować wybraną orientację.\n",
                     "orientation_options": {
-                        "any": "",
-                        "natural": "",
-                        "portrait": "",
-                        "portrait_primary": "",
-                        "portrait_secondary": "",
-                        "landscape": "",
-                        "landscape_primary": "",
-                        "landscape_secondary": ""
+                        "any": "Dowolna",
+                        "natural": "Naturalna",
+                        "portrait": "Pionowa",
+                        "portrait_primary": "Pionowa (podstawowa)",
+                        "portrait_secondary": "Pionowa (alternatywna)",
+                        "landscape": "Pozioma",
+                        "landscape_primary": "Pozioma (podstawowa)",
+                        "landscape_secondary": "Pozioma (alternatywna)"
                     },
                     "push_notif_preference_default_to_email_label": "Domyślne ustawienia push zgodne z e-mail",
                     "push_notif_preference_default_to_email_text": "Po włączeniu powiadomienia push będą domyślnie aktywne dla wszystkich typów powiadomień, dla których domyślnie włączone są powiadomienia e-mail. Po wyłączeniu powiadomienia push będą domyślnie wyłączone.",
                     "window_controls_overlay_label": "Włącz Window Controls Overlay",
-                    "window_controls_overlay_text": "Po włączeniu użytkownicy mogą uzyskać bardziej immersyjne środowisko przypominające natywną aplikację dzięki ukryciu systemowego paska tytułu. Dostępność Window Controls Overlay zależy od ustawień użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS. W przeciwnym razie kontrolki mogą zasłonić elementy górnego paska nawigacyjnego forum, a przeciąganie okna będzie bardzo utrudnione.\n\nZobacz także: <compatibilitylink>zgodność przeglądarek z Window Controls Overlay</compatibilitylink> i <learnlink>informacje o Window Controls Overlay w Microsoft Learn</learnlink>\n",
+                    "window_controls_overlay_text": "W przeglądarkach komputerowych obsługujących tę funkcję Window Controls Overlay ma pierwszeństwo przed wybranym trybem wyświetlania.\n\nPo włączeniu użytkownicy mogą uzyskać bardziej immersyjne środowisko przypominające natywną aplikację dzięki ukryciu systemowego paska tytułu. Dostępność Window Controls Overlay zależy od ustawień użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu za pomocą CSS/JS. W przeciwnym razie kontrolki mogą zasłonić elementy górnego paska nawigacyjnego forum, a przeciąganie okna będzie bardzo utrudnione.\n\nZobacz także: <compatibilitylink>zgodność przeglądarek z Window Controls Overlay</compatibilitylink> i <learnlink>informacje o Window Controls Overlay w Microsoft Learn</learnlink>\n",
                     "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
                     "user_max_subscriptions_text": "Ile subskrypcji push może mieć jednocześnie każdy użytkownik? Przy wysyłaniu powiadomienia push każda subskrypcja powoduje osobne wywołanie API. Każda subskrypcja zwykle odpowiada jednej przeglądarce używanej przez użytkownika.",
-                    "push_notification_ttl_label": "",
-                    "push_notification_ttl_text": "",
+                    "push_notification_ttl_label": "Czas ważności powiadomień push (TTL)",
+                    "push_notification_ttl_text": "Przez ile sekund usługa push ma przechowywać niedostarczone powiadomienia w kolejce, zanim wygasną.",
                     "share_buttons_label": "Włącz przyciski udostępniania",
                     "share_buttons_text": "Po włączeniu przycisk „Udostępnij” zostanie dodany do dyskusji, postów i profili użytkowników.",
                     "force_portrait_text": "Wymuś orientację pionową"
@@ -137,9 +137,9 @@
             }
         },
         "api": {
-            "keys_invalid": "",
-            "endpoint_https_required": "",
-            "endpoint_host_not_allowed": ""
+            "keys_invalid": "Nie udało się włączyć powiadomień push, ponieważ przeglądarka przekazała nieprawidłowe klucze szyfrowania. Spróbuj ponownie włączyć powiadomienia.",
+            "endpoint_https_required": "Nie udało się włączyć powiadomień push, ponieważ przeglądarka podała nieprawidłowy adres URL usługi push: „{url}”. Wymagany jest prawidłowy adres HTTPS.",
+            "endpoint_host_not_allowed": "Nie udało się włączyć powiadomień push, ponieważ host usługi push „{host}”, z którego korzysta przeglądarka, jest niedozwolony. Skontaktuj się z administratorem forum."
         },
         "views": {
             "offline": {
