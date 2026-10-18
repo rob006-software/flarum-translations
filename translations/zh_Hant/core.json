@@ -665,6 +665,7 @@
                 "sign_up_text": "還沒有帳號？<a>立即註冊</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -1078,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "=> core.ref.confirm_password",
@@ -1207,6 +1209,7 @@
             "start_a_discussion": "發起討論",
             "title_az": "標題（正序）",
             "title_za": "標題（倒序）",
+            "too_many_login_attempts_message": "",
             "top": "回覆最多",
             "username": "使用者名稱",
             "username_or_email_placeholder": "使用者名稱或電子郵件",

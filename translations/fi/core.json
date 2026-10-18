@@ -665,6 +665,7 @@
                 "sign_up_text": "Etkö ole vielä rekisteröitynyt? <a>Rekisteröidy</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -1078,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Vahvista uusi salasana",
@@ -1207,6 +1209,7 @@
             "start_a_discussion": "Aloita keskustelu",
             "title_az": "",
             "title_za": "",
+            "too_many_login_attempts_message": "",
             "top": "",
             "username": "Käyttäjätunnus",
             "username_or_email_placeholder": "Käyttäjätunnus tai sähköposti",

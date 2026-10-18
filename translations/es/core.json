@@ -665,6 +665,7 @@
                 "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -1078,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Confirmar nueva contraseña",
@@ -1207,6 +1209,7 @@
             "start_a_discussion": "Crear discusión",
             "title_az": "Título (A–Z)",
             "title_za": "Título (Z–A)",
+            "too_many_login_attempts_message": "",
             "top": "Principales",
             "username": "Nombre de usuario",
             "username_or_email_placeholder": "Nombre de usuario o Email",

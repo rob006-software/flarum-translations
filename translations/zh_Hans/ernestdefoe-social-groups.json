@@ -275,7 +275,6 @@
                 "poll_single_choice": "此投票仅允许选择一个选项。",
                 "not_member": "你不是此社群的成员。",
                 "target_group_required": "必须提供 targetGroupId。",
-                "sharing_unavailable": "当前安装环境不支持分享功能。",
                 "invite_banned": "",
                 "too_many_previews": "",
                 "share_private_refused": "",
@@ -285,14 +284,15 @@
                 "post_required_fields": "必须提供 discussionId 和 content。",
                 "parent_post_not_found": "未找到上级帖子。",
                 "content_empty": "内容不能为空。",
-                "pinning_unavailable": "当前安装环境不支持置顶功能。",
                 "invalid_reaction": "表情回应类型无效。",
                 "group_id_required": "必须提供 groupId。",
                 "media_required_fields": "必须提供 groupId 和 content。",
                 "media_member_required": "你必须加入此社群后才能上传媒体。",
                 "content_or_poll_required": "必须填写内容或添加投票。",
                 "title_too_long": "标题不能超过 255 个字符。",
-                "slug_conflict": "无法为此社群名称生成唯一的固定链接名，请尝试使用其他名称。"
+                "slug_conflict": "无法为此社群名称生成唯一的固定链接名，请尝试使用其他名称。",
+                "sharing_unavailable": "当前安装环境不支持分享功能。",
+                "pinning_unavailable": "当前安装环境不支持置顶功能。"
             }
         },
         "admin": {

@@ -5,8 +5,11 @@
                 "themes_label": "Themes members can choose from",
                 "themes_help": "Every enabled extension that declares itself a theme. Tick the ones this forum offers — each gets its own stylesheet, so they never overlap.\n",
                 "no_themes": "No themes are installed and enabled yet. Install a second theme and it will appear here.\n",
+                "flarum_title": "Flarum (no theme)",
                 "default_label": "Default theme",
                 "default_help": "What guests see, and what members see until they choose for themselves.",
+                "offer_flarum_label": "Offer Flarum's standard look",
+                "offer_flarum_help": "Adds plain Flarum to the choices, with every theme left out, so members can go back to the forum as it looks out of the box. It can also be the default.\n",
                 "allow_user_choice_label": "Let members choose their own theme",
                 "allow_user_choice_help": "Turn this off to hold the whole forum to the default. Choices members have already made stop applying immediately.\n"
             }
@@ -18,6 +21,7 @@
             "theme": {
                 "heading": "Theme",
                 "follow_forum": "Use the forum's theme",
+                "flarum": "Flarum (no theme)",
                 "help": "How the forum looks to you. Nobody else sees your choice.",
                 "save_failed": "Your theme could not be saved. Please try again."
             }
