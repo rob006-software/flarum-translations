@@ -2,44 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Редактировать язык для {title}",
+                "title": "Редактировать язык",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Язык"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Установить язык"
             },
             "index_language": {
-                "any": ""
+                "any": "Любой"
             },
             "language_dropdown": {
                 "toggle_label": ""
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "Язык темы",
+                "subscription_language_help": "Уведомления будут приходить только на выбранном языке."
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "Собственные названия языков",
+                "show_flag_label": "Флаги стран рядом с названиями языков",
+                "composer_default_label": "Язык по умолчанию",
+                "locale_sort_label": "Использовать обнаруженный язык для фильтрации дискуссий по умолчанию",
+                "show_any_lang_opt_label": "Показывать пункт выбора «Любой язык»",
+                "tags_page_discussion_locale_label": "Показывать только темы на текущем языке пользователя на странице тегов",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Не получается загрузить наборы, необходимые для этого расширения. Попробуйте запустить <code>php flarum assets:publish</code> и проверить, не решит ли это проблему."
                 },
                 "languages_heading": "",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
-                    "language_label": "",
-                    "country_label": "",
+                    "language_label": "Язык",
+                    "country_label": "Страна для отображения флага",
                     "choose_language": "",
                     "choose_country": "",
                     "add_button": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "Разрешить изменять язык",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Вы должны выбрать язык темы."
             }
         },
         "lib": {

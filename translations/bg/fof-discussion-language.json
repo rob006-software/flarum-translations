@@ -2,44 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Език за редактиране за {title}",
+                "title": "Език за редактиране",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Език"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Задай Език"
             },
             "index_language": {
-                "any": ""
+                "any": "Всеки език"
             },
             "language_dropdown": {
                 "toggle_label": ""
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "Език за дискусия",
+                "subscription_language_help": "Когато изберете език, ще бъдете уведомявани само за нова дейност на този език."
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "Използвай имена на роден език",
+                "show_flag_label": "Покажи знамена на държави с имена на езици",
+                "composer_default_label": "Предварително изберете текущия локален език в инструмента за създаване на дискусии",
+                "locale_sort_label": "Използвай открития език за филтър на дискусията по подразбиране",
+                "show_any_lang_opt_label": "Покажи опцията за избор на „Всеки език“",
+                "tags_page_discussion_locale_label": "Показвайте само дискусии от текущия локален език на потребителя на страницата с тагове",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Не можахме да заредим активите, необходими на това разширение. Опитайте да стартирате <code>php flarum assets:publish</code> и вижте дали това решава проблема."
                 },
                 "languages_heading": "",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
-                    "language_label": "",
-                    "country_label": "",
+                    "language_label": "Език",
+                    "country_label": "Държава (за показване на флаг)",
                     "choose_language": "",
                     "choose_country": "",
                     "add_button": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "Позволи редактиране на език",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Трябва да избереш език на дискусията."
             }
         },
         "lib": {

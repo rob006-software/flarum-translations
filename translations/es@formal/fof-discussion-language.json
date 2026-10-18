@@ -2,18 +2,18 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Edición de idioma para {title}",
+                "title": "Edición de idioma",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Idioma"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Establecer Idioma"
             },
             "index_language": {
-                "any": ""
+                "any": "Cualquier Idioma"
             },
             "language_dropdown": {
                 "toggle_label": ""
@@ -25,9 +25,9 @@
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
+                "native_label": "Utilice nombres de lengua materna",
+                "show_flag_label": "Mostrar banderas de países con nombres de idiomas",
+                "composer_default_label": "Preseleccionar la configuración regional actual en el redactor de debates",
                 "locale_sort_label": "",
                 "show_any_lang_opt_label": "",
                 "tags_page_discussion_locale_label": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "Permitir la edición de idioma",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Debes seleccionar el idioma de tu discusión."
             }
         },
         "lib": {

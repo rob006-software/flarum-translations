@@ -2,44 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "设置主题「{title}」的语言",
+                "title": "设置语言",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "语言"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "设置语言"
             },
             "index_language": {
-                "any": ""
+                "any": "所有语言"
             },
             "language_dropdown": {
                 "toggle_label": ""
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "主题帖语言",
+                "subscription_language_help": "选择想要关注的语言，您只会收到与该语言相关的新活动通知。"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "使用原始语言名称",
+                "show_flag_label": "在国旗后显示语言名称",
+                "composer_default_label": "在文本编辑器中预选当前语言",
+                "locale_sort_label": "检测用户本地语言并设为默认筛选项",
+                "show_any_lang_opt_label": "显示筛选按钮「所有语言」",
+                "tags_page_discussion_locale_label": "标签页只显示用户本地语言的主题帖",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "无法载入此扩展的资源文件。请运行 <code>php flarum assets:publish</code> 尝试修复此问题。"
                 },
                 "languages_heading": "",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
-                    "language_label": "",
-                    "country_label": "",
+                    "language_label": "语言",
+                    "country_label": "国家或地区（用于展示旗帜）",
                     "choose_language": "",
                     "choose_country": "",
                     "add_button": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "允许设置主题帖语言",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "请选择主题帖使用的语言。"
             }
         },
         "lib": {

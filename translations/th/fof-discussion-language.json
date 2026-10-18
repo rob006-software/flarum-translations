@@ -2,44 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "แก้ไขภาษาของ {title}",
+                "title": "แก้ไขภาษา",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "ภาษา"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "กำหนดภาษา"
             },
             "index_language": {
-                "any": ""
+                "any": "ทุกภาษา"
             },
             "language_dropdown": {
                 "toggle_label": ""
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "ภาษาของโพสต์",
+                "subscription_language_help": "เมื่อคุณเลือกภาษาที่นี่ คุณจะได้รับการแจ้งเตือนเกี่ยวกับกิจกรรมใหม่ๆ เฉพาะในภาษานั้นเท่านั้น"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "ใช้ชื่อดั้งเดิมของภาษานั้นๆ (Native Language Names)",
+                "show_flag_label": "แสดงธงชาติคู่กับชื่อภาษา",
+                "composer_default_label": "เลือกภาษาตามส่วนติดต่อผู้ใช้ปัจจุบันล่วงหน้าในช่องเขียนโพสต์",
+                "locale_sort_label": "ใช้ภาษาที่ตรวจพบสำหรับตัวกรองโพสต์เริ่มต้น",
+                "show_any_lang_opt_label": "แสดงตัวเลือก \"ทุกภาษา\"",
+                "tags_page_discussion_locale_label": "แสดงเฉพาะโพสต์ที่ตรงกับภาษาปัจจุบันของผู้ใช้ในหน้าแท็ก",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "ไม่สามารถโหลดไฟล์ทรัพยากรระบบ (Assets) ที่ส่วนขยายนี้ต้องการได้ ลองรันคำสั่ง <code>php flarum assets:publish</code> เพื่อแก้ไขปัญหานี้"
                 },
                 "languages_heading": "",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
-                    "language_label": "",
-                    "country_label": "",
+                    "language_label": "ภาษา",
+                    "country_label": "ประเทศ (สำหรับแสดงธงชาติ)",
                     "choose_language": "",
                     "choose_country": "",
                     "add_button": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "อนุญาตให้แก้ไขภาษาของโพสต์",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "คุณต้องเลือกภาษาสำหรับโพสต์ของคุณ"
             }
         },
         "lib": {

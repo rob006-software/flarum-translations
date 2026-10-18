@@ -3161,6 +3161,55 @@
             }
         }
     },
+    "fof-discussion-language.json": {
+        "fof-discussion-language": {
+            "admin": {
+                "permissions": {
+                    "allow_change_language_label": "728b0379f8659b29d081a185472a85ca 728b0379f8659b29d081a185472a85ca"
+                },
+                "settings": {
+                    "composer_default_label": "92d5a7d6a3fa3b26bf29109d3ab50f1c 92d5a7d6a3fa3b26bf29109d3ab50f1c",
+                    "config": {
+                        "country_label": "636e62bbb4dfdf9ae7641078f6b27116 636e62bbb4dfdf9ae7641078f6b27116",
+                        "language_label": "c6a5bed157bd96f6569b21cc4c78bbc7 c6a5bed157bd96f6569b21cc4c78bbc7"
+                    },
+                    "errors": {
+                        "missing_assets": "e1ad7e01f27d23c9b14f586bb78ae19d e1ad7e01f27d23c9b14f586bb78ae19d"
+                    },
+                    "locale_sort_label": "7f10e411fbd092f06ee74abe9e2130a5 7f10e411fbd092f06ee74abe9e2130a5",
+                    "native_label": "98d66bd5f1bee6b2732a5eab5c7e4f5a 98d66bd5f1bee6b2732a5eab5c7e4f5a",
+                    "show_any_lang_opt_label": "7cbf6dbcf3db8594bfc1d128043b0c4b 7cbf6dbcf3db8594bfc1d128043b0c4b",
+                    "show_flag_label": "b0add32767e2a3409697c1b8f01e5e16 b0add32767e2a3409697c1b8f01e5e16",
+                    "tags_page_discussion_locale_label": "728c78fcb3ee95b6035d48e48ecc3af2 728c78fcb3ee95b6035d48e48ecc3af2"
+                }
+            },
+            "api": {
+                "discussion": {
+                    "validation_error": "7303189815322916929d1ec055c07e43 7303189815322916929d1ec055c07e43"
+                }
+            },
+            "forum": {
+                "change_language": {
+                    "edit_title": "823f7a6138913ae8d7745f342fc8f4f2 823f7a6138913ae8d7745f342fc8f4f2",
+                    "submit_button": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
+                    "title": "97cd4b19b9c972635691e3473e8b53af 97cd4b19b9c972635691e3473e8b53af"
+                },
+                "composer_discussion": {
+                    "choose_language_link": "c6a5bed157bd96f6569b21cc4c78bbc7 c6a5bed157bd96f6569b21cc4c78bbc7"
+                },
+                "discussion_controls": {
+                    "change_language_button": "85e319d9476cde6adfc3e07a395f2354 85e319d9476cde6adfc3e07a395f2354"
+                },
+                "index_language": {
+                    "any": "16f8ded4579d221cf613c0d59d09d92f 16f8ded4579d221cf613c0d59d09d92f"
+                },
+                "sub_controls": {
+                    "subscription_language_help": "9bd45cd83780ee87d20659845474cc60 9bd45cd83780ee87d20659845474cc60",
+                    "subscription_language_label": "5e1cbe60b591b2ed2cd5544a7874706b 5e1cbe60b591b2ed2cd5544a7874706b"
+                }
+            }
+        }
+    },
     "fof-discussion-templates.json": {
         "fof-discussion-templates": {
             "admin": {

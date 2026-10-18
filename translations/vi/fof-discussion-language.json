@@ -2,44 +2,44 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Chỉnh sửa ngôn ngữ cho {title}",
+                "title": "Chỉnh sửa ngôn ngữ",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Ngôn ngữ"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Đặt ngôn ngữ"
             },
             "index_language": {
-                "any": ""
+                "any": "Mọi ngôn ngữ"
             },
             "language_dropdown": {
                 "toggle_label": ""
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "Ngôn ngữ cuộc thảo luận",
+                "subscription_language_help": "Khi bạn chọn một ngôn ngữ ở đây, bạn sẽ chỉ được thông báo về hoạt động mới bằng ngôn ngữ đó."
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": "",
-                "show_any_lang_opt_label": "",
-                "tags_page_discussion_locale_label": "",
+                "native_label": "Sử dụng tên ngôn ngữ bản địa",
+                "show_flag_label": "Hiển thị cờ quốc gia kèm tên ngôn ngữ",
+                "composer_default_label": "Chọn trước ngôn ngữ hiện tại trong trình soạn thảo thảo luận",
+                "locale_sort_label": "Sử dụng ngôn ngữ được phát hiện cho bộ lọc thảo luận mặc định",
+                "show_any_lang_opt_label": "Hiển thị tuỳ chọn \"Mọi ngôn ngữ\"",
+                "tags_page_discussion_locale_label": "Chỉ hiển thị các cuộc thảo luận từ ngôn ngữ hiện tại của người dùng trên trang Thẻ",
                 "errors": {
-                    "missing_assets": ""
+                    "missing_assets": "Chúng tôi không thể tải tài nguyên mà tiện ích mở rộng này cần. Hãy thử chạy <code>php flarum assets:publish</code> và xem nó có khắc phục được hay không."
                 },
                 "languages_heading": "",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
-                    "language_label": "",
-                    "country_label": "",
+                    "language_label": "Ngôn ngữ",
+                    "country_label": "Quốc gia (để hiển thị cờ)",
                     "choose_language": "",
                     "choose_country": "",
                     "add_button": "",
@@ -47,13 +47,13 @@
                 }
             },
             "permissions": {
-                "allow_change_language_label": "",
+                "allow_change_language_label": "Cho phép chỉnh sửa ngôn ngữ",
                 "change_language_label": ""
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Bạn phải chọn ngôn ngữ cho cuộc thảo luận của mình."
             }
         },
         "lib": {
