@@ -4,7 +4,7 @@
             "configure_button_label": "Skonfiguruj z FoF OAuth",
             "settings_accessibility_label": "Ustawienia {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Moderowanie powiązanych kont użytkowników"
             },
             "settings": {
                 "advanced": {
@@ -15,8 +15,8 @@
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "update_email_from_provider_label": "Zaktualizuj adres e-mail od dostawcy",
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, a dostawca OAuth zwróci przy logowaniu zweryfikowany adres e-mail inny niż adres użytkownika na forum, na nowy adres zostanie wysłany link potwierdzający, a na obecny – powiadomienie. Adres e-mail zostanie zmieniony po kliknięciu w link. Dostawcy, którzy nie potwierdzają, że adres jest zweryfikowany (w tym zewnętrzni dostawcy, którzy nie zostali jeszcze zaktualizowani, aby to obsługiwać), nie zmienią adresu e-mail.",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "disable_avatars_label": "Wyłącz pobieranie awatarów od dostawcy",
+                "disable_avatars_help": "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n",
                 "fullscreen_popup_label": "",
                 "fullscreen_popup_help": "",
                 "popup_width_label": "",
