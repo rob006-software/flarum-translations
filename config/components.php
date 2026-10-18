@@ -609,7 +609,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0-beta.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/2.0.0-beta.2/resources/locale/en.yml',
