@@ -324,7 +324,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-wardrobe' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.1.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'es',
 		],
