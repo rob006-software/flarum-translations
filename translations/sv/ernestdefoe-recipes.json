@@ -8,6 +8,7 @@
             "ingredients": "",
             "steps": "",
             "based_on": "",
+            "per_serving": "",
             "duration": {
                 "hours": "",
                 "minutes": "",
@@ -69,7 +70,49 @@
                 "card_label": "",
                 "card_untitled": "",
                 "remix_title": "",
+                "field_serving": "",
+                "field_recipe": "",
+                "invalid_number": "",
                 "remix_insert": ""
+            }
+        },
+        "admin": {
+            "fields": {
+                "title": "",
+                "help": "",
+                "label": "",
+                "label_placeholder": "",
+                "key": "",
+                "key_help": "",
+                "unit": "",
+                "unit_placeholder": "",
+                "scope": "",
+                "scope_serving": "",
+                "scope_recipe": "",
+                "schema": "",
+                "schema_none": "",
+                "schema_options": {
+                    "calories": "",
+                    "carbohydrate": "",
+                    "cholesterol": "",
+                    "fat": "",
+                    "fiber": "",
+                    "protein": "",
+                    "saturatedFat": "",
+                    "sodium": "",
+                    "sugar": "",
+                    "transFat": "",
+                    "unsaturatedFat": ""
+                },
+                "add": "",
+                "remove": "",
+                "drag": "",
+                "empty": "",
+                "key_required": "",
+                "key_invalid": "",
+                "reserved": "",
+                "duplicate": "",
+                "max": ""
             }
         }
     }

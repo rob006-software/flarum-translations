@@ -8,6 +8,7 @@
             "ingredients": "Zutaten",
             "steps": "Zubereitung",
             "based_on": "Basierend auf einem anderen Rezept",
+            "per_serving": "",
             "duration": {
                 "hours": "{count} h",
                 "minutes": "{count} min",
@@ -69,7 +70,49 @@
                 "card_label": "Rezept: {title}",
                 "card_untitled": "Unbenanntes Rezept",
                 "remix_title": "Dieses Rezept remixen",
+                "field_serving": "",
+                "field_recipe": "",
+                "invalid_number": "",
                 "remix_insert": "Im Composer öffnen"
+            }
+        },
+        "admin": {
+            "fields": {
+                "title": "",
+                "help": "",
+                "label": "",
+                "label_placeholder": "",
+                "key": "",
+                "key_help": "",
+                "unit": "",
+                "unit_placeholder": "",
+                "scope": "",
+                "scope_serving": "",
+                "scope_recipe": "",
+                "schema": "",
+                "schema_none": "",
+                "schema_options": {
+                    "calories": "",
+                    "carbohydrate": "",
+                    "cholesterol": "",
+                    "fat": "",
+                    "fiber": "",
+                    "protein": "",
+                    "saturatedFat": "",
+                    "sodium": "",
+                    "sugar": "",
+                    "transFat": "",
+                    "unsaturatedFat": ""
+                },
+                "add": "",
+                "remove": "",
+                "drag": "",
+                "empty": "",
+                "key_required": "",
+                "key_invalid": "",
+                "reserved": "",
+                "duplicate": "",
+                "max": ""
             }
         }
     }
