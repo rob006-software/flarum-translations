@@ -423,7 +423,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v2.0.2/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v2.0.2/locale/en.yml',
 	],
 	'flectar-turnstile' => [
 		'beta' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.0-rc.3/locale/en.yml',
