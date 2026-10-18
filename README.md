@@ -985,6 +985,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-depot`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-depot) | [`ernestdefoe/depot`](https://github.com/ernestdefoe/depot) |
 | [`ernestdefoe-digest-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-digest-mail) | [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) |
 | [`ernestdefoe-discussion-participants`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-discussion-participants) | [`ernestdefoe/discussion-participants`](https://github.com/ernestdefoe/discussion-participants) |
+| [`ernestdefoe-earshot`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-earshot) | [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
 | [`ernestdefoe-folio`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-folio) | [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) |
