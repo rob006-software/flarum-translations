@@ -191,6 +191,9 @@ return [
 	'ernestdefoe-discussion-participants' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.4/locale/en.yml',
 	],
+	'ernestdefoe-earshot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.8/locale/en.yml',
 	],
