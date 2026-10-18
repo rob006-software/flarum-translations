@@ -1,0 +1,178 @@
+{
+    "ernestdefoe-earshot": {
+        "forum": {
+            "nav": {
+                "link": "Podcasts"
+            },
+            "index": {
+                "title": "Podcasts",
+                "subtitle": "Shows from this community. Every episode has its own discussion.",
+                "new_show": "New show",
+                "empty": "No shows yet.",
+                "latest": "Latest {date}"
+            },
+            "hero": {
+                "podcast": "Podcast",
+                "followed_feed": "Followed feed",
+                "episodes": "{count, plural, one {# episode} other {# episodes}}",
+                "episodes_label": "Episodes",
+                "around": "~{time} each",
+                "explicit": "Explicit",
+                "clean": "Clean",
+                "you_played": "You played",
+                "followers": "Followers",
+                "hosts": "Hosts",
+                "host": "Host",
+                "on_this_episode": "On this episode",
+                "chapters": "Chapters",
+                "follow": "Follow show",
+                "following": "Following",
+                "play_latest": "Play latest",
+                "play_latest_numbered": "Play latest · {label}",
+                "play_episode": "Play episode",
+                "resume_at": "Resume at {time}",
+                "replies": "{count, plural, =0 {No replies yet} one {# reply} other {# replies}}",
+                "reply": "Reply",
+                "reply_at": "Reply at {time}",
+                "download": "Download",
+                "edit_episode": "Edit episode",
+                "ep_short": "EP {episode}",
+                "episode": "EP {episode}",
+                "season": "Season {season}",
+                "season_episode": "S{season} · EP {episode}"
+            },
+            "links": {
+                "apple": "Apple Podcasts",
+                "spotify": "Spotify",
+                "youtube": "YouTube",
+                "pocketcasts": "Pocket Casts",
+                "overcast": "Overcast",
+                "rss": "RSS",
+                "rss_help": "Paste this address into any podcast app."
+            },
+            "show": {
+                "episodes_heading": "Episodes · {count}",
+                "no_episodes": "No episodes yet.",
+                "missing": "This show does not exist, or was removed.",
+                "load_more": "Load more",
+                "played": "Played",
+                "left": "{time} left",
+                "replies_label": "{count, plural, one {# reply} other {# replies}}",
+                "publish": "Publish episode",
+                "edit": "Edit show",
+                "refresh": "Check feed now",
+                "refreshed": "{count, plural, =0 {No new episodes.} one {# new episode added.} other {# new episodes added.}}",
+                "refresh_failed": "The feed could not be read ({error}).",
+                "fetch_error": "The last attempt to read this show's feed failed ({error}). Episodes will be added again once it can be read."
+            },
+            "player": {
+                "label": "Podcast player",
+                "play": "Play",
+                "pause": "Pause",
+                "back": "Back 15 seconds",
+                "forward": "Forward 30 seconds",
+                "seek": "Position in episode",
+                "speed": "Playback speed",
+                "close": "Stop and close the player",
+                "play_from": "Play from {time}"
+            },
+            "composer": {
+                "insert_time": "Insert the player's current time"
+            },
+            "time": {
+                "minutes": "{minutes} min",
+                "hours_minutes": "{hours} hr {minutes} min"
+            },
+            "modal": {
+                "new_show": "New show",
+                "edit_show": "Edit show",
+                "new_episode": "New episode of {show}",
+                "edit_episode": "Edit episode",
+                "title": "Title",
+                "title_help": "Following a feed? Leave this empty to use the feed's own title.",
+                "tagline": "Tagline",
+                "description": "Description",
+                "cover": "Cover art",
+                "cover_help": "Square works best, at least 1400 × 1400 pixels. JPEG, PNG or WebP.",
+                "category": "Category",
+                "category_placeholder": "e.g. Technology",
+                "language": "Language",
+                "color": "Colour",
+                "explicit": "Explicit content",
+                "links": "Where else to listen",
+                "moderation": "Moderation",
+                "hosts": "Hosts",
+                "hosts_placeholder": "username, username",
+                "hosts_help": "Hosts can publish episodes and edit this show.",
+                "feed_url": "Follow a feed",
+                "feed_url_help": "For a show hosted elsewhere (Buzzsprout, Transistor, Spotify for Creators…). Its episodes are added here, each with a discussion. Leave empty to host the show on this forum.",
+                "tag": "Tag",
+                "no_tag": "No tag",
+                "tag_help": "The tag every episode's discussion starts in.",
+                "season": "Season",
+                "number": "Episode number",
+                "audio": "Audio",
+                "replace_audio": "Replace audio (optional)",
+                "audio_file": "Upload a file",
+                "audio_url": "Link to a file",
+                "audio_help": "MP3, M4A or Ogg. A link must point at the audio file itself.",
+                "notes": "Show notes",
+                "notes_help": "Becomes the first post of the episode's discussion.",
+                "chapters": "Chapters",
+                "chapters_help": "One per line, a time then a title: 12:30 The main story",
+                "publish": "Publish",
+                "save": "Save",
+                "uploading": "Uploading… {percent}%",
+                "server_limit": "The server refused a file this big. Its upload limit (the web server's body size, and PHP's upload_max_filesize and post_max_size) must be raised, or link to the file instead.",
+                "delete_show": "Delete show",
+                "delete_show_confirm": "Delete this show? Its episodes' discussions stay, as ordinary discussions.",
+                "delete_episode": "Delete episode",
+                "delete_episode_confirm": "Delete this episode? Its discussion is hidden and can be restored."
+            },
+            "widget": {
+                "title": "Latest episodes",
+                "heading": "Heading (optional)",
+                "empty": "No episodes yet.",
+                "all": "All podcasts"
+            },
+            "notifications": {
+                "new_episode": "New episode of {show}"
+            },
+            "settings": {
+                "notify_new_episode": "Someone publishes an episode of a show I follow"
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "Show \"Podcasts\" in the sidebar",
+                "fetch_minutes": "Read followed feeds every (minutes)",
+                "fetch_minutes_help": "Earshot checks a feed at most this often. An unchanged feed costs one small request.",
+                "backlog": "Episodes to bring in when a feed is first followed",
+                "backlog_help": "The latest episodes only, so following a show with years of episodes does not flood the forum. Later episodes are always added.",
+                "max_audio_mb": "Largest audio upload (MB)",
+                "max_audio_mb_help": "PHP's upload_max_filesize and post_max_size, and your web server's body limit, must allow this too."
+            },
+            "permissions": {
+                "view": "Listen to podcasts",
+                "follow": "Follow shows",
+                "manage": "Start and manage shows"
+            }
+        },
+        "api": {
+            "title_required": "A title is needed.",
+            "feed_invalid": "That is not an address Earshot can read.",
+            "host_missing": "There is no member called {username}.",
+            "upload_failed": "The file did not arrive. It may be bigger than the server allows.",
+            "too_big": "Files can be up to {mb} MB.",
+            "cover_invalid": "Cover art must be a JPEG, PNG or WebP picture at least 200 pixels wide.",
+            "audio_invalid": "That is not an MP3, M4A or Ogg audio file.",
+            "audio_required": "An episode needs audio."
+        },
+        "email": {
+            "new_episode": {
+                "subject": "{show}: {title}",
+                "body": "A new episode of {show} is out: {title}\n\nListen and join the discussion: {url}\n"
+            }
+        }
+    }
+}
