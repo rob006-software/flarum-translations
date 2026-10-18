@@ -453,7 +453,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/blog/2.0.0-beta.4/locale/en.yml',
 	],
 	'fof-bookmarks' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/2.0.0-rc.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/bookmarks/2.0.0/locale/en.yml',
 	],
 	'fof-brevo-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/brevo-mail/2.0.0/locale/en.yml',
