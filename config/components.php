@@ -907,6 +907,9 @@ return [
 			'zh_Hans',
 		],
 	],
+	'frozenplain-connect' => [
+		'tag' => 'https://raw.githubusercontent.com/FrozenPlain/flarum-ext-connect/v1.0.1/locale/en.yml',
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
