@@ -4,8 +4,28 @@
             "permissions": {
                 "spamblock_users_label": "Benutzer als Spammer markieren"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "Einstellungen",
+                "sign_ups": {
+                    "heading": "",
+                    "introduction": "",
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
                 "content-filter": {
                     "heading": "Inhaltsfilter",
                     "introduction": "Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von kürzlich registrierten Benutzern auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.",
@@ -35,8 +55,14 @@
                     "auto_unapprove_help": "Wenn aktiviert, werden Beiträge, die den Spam-Schwellenwert erreichen, in die Genehmigungswarteschlange verschoben (erfordert „flarum/approval“). Moderatoren müssen die Beiträge genehmigen, bevor sie sichtbar werden.",
                     "auto_flag_label": "Spaminhalte automatisch melden",
                     "auto_flag_help": "Wenn aktiviert, werden Inhalte, die den Schwellenwert für die Markierung erreichen, automatisch zur Überprüfung durch einen Moderator markiert (erfordert „flarum/flags“). Die Begründung für die Markierung enthält Angaben dazu, warum der Inhalt als Spam erkannt wurde.",
-                    "system_user_id_label": "System-Benutzer-ID für Meldungen",
-                    "system_user_id_help": "Die Benutzer-ID, die als Urheber automatischer Spam-Markierungen verwendet wird. In der Regel sollte dies ein Admin- oder Systemkonto sein. Wenn keine Konfiguration vorliegt, wird standardmäßig die Benutzer-ID 1 verwendet.",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
                     "no_action_extensions": "Installiere die Erweiterungen „flarum/approval“ und/oder „flarum/flags“, um automatische Moderationsmaßnahmen zu aktivieren. Erkannter Spam wird über die in Flarum integrierte Genehmigungswarteschlange und das Meldesystem verwaltet.",
                     "allowlist_heading": "Domänen-Zulassungsliste",
                     "allowed_domains_label": "Erlaubte Domänen",
@@ -46,7 +72,9 @@
                     "blocked_words_help": "Wörter oder Begriffe, die als Spam blockiert werden sollen. Ein Eintrag pro Zeile. Die Groß-/Kleinschreibung spielt keine Rolle, und es werden nur ganze Wörter berücksichtigt. Beispielsweise wird „viagra“ bei „viagra“ als Treffer erkannt, „niagara“ jedoch nicht.",
                     "advanced_patterns_heading": "Erweiterte Blockiermuster",
                     "advanced_block_patterns_label": "Erweiterte Muster (Regex)",
-                    "advanced_block_patterns_help": "Benutzerdefinierte Regex-Muster für fortgeschrittene Benutzer. Mit Vorsicht verwenden – ungültige Muster werden übersprungen. Das Format sollte ein JSON-Array aus Objekten mit den Schlüsseln „pattern“ und optional „description“ sein."
+                    "advanced_block_patterns_help": "Benutzerdefinierte Regex-Muster für fortgeschrittene Benutzer. Mit Vorsicht verwenden – ungültige Muster werden übersprungen. Das Format sollte ein JSON-Array aus Objekten mit den Schlüsseln „pattern“ und optional „description“ sein.",
+                    "system_user_id_label": "System-Benutzer-ID für Meldungen",
+                    "system_user_id_help": "Die Benutzer-ID, die als Urheber automatischer Spam-Markierungen verwendet wird. In der Regel sollte dies ein Admin- oder Systemkonto sein. Wenn keine Konfiguration vorliegt, wird standardmäßig die Benutzer-ID 1 verwendet."
                 },
                 "default-actions": {
                     "delete_user_label": "Benutzer löschen",
@@ -65,6 +93,10 @@
                     "username_label": "Benutzernamen-Spam-Prüfung",
                     "ip_label": "IP-Adressen-Spam-Prüfung",
                     "email_label": "E-Mail-Spam-Prüfung",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "Schwellenwert",
                     "frequency_help": "Die Anzahl der Spam-Meldungen aus allen aktivierten Prüfungen, die den Spamfilter auslösen.\nBeispiel: Wenn die E-Mail-Adresse 1 Treffer und die IP-Adresse 2 Treffer liefert, ergibt das insgesamt 3 Treffer. Ist der Schwellenwert auf 3 oder weniger festgelegt, wird die Registrierung abgelehnt.\n",
                     "api_key_label": "API-Schlüssel",
@@ -81,8 +113,6 @@
                     "blocked_asns_help": "Eine pro Zeile oder durch Kommas getrennt. Registrierungen aus diesen Netzwerken werden grundsätzlich abgelehnt, unabhängig davon, ob die Adresse aufgeführt ist oder nicht. StopForumSpam gibt bei jeder Abfrage die Netzwerknummer zurück, und fast niemand besucht ein Forum über einen Hosting-Anbieter. Akzeptiert 31272 oder AS31272. Lasse das Feld leer, um das Netzwerk zu erfassen, ohne Maßnahmen zu ergreifen.",
                     "max_listing_age_label": "Einträge ignorieren, die älter sind (in Tagen)",
                     "max_listing_age_help": "Eine Sichtung von vor Jahren sagt wenig darüber aus, wer heute eine Registrierung vornimmt. 0 behält jeden Eintrag bei, egal wie alt er ist. Auf der schwarzen Liste stehende Domains und Netzwerke werden davon unberührt stets berücksichtigt.",
-                    "registration_throttle_label": "Sekunden zwischen Registrierungen von derselben Adresse",
-                    "registration_throttle_help": "Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen.",
                     "lookup_failed": "StopForumSpam konnte nicht erreicht werden (letzter Fehler {when}). Registrierungen werden bis zur Wiederherstellung ungeprüft zugelassen.",
                     "email_hash_label": "Gehashte E-Mail-Adresse verwenden",
                     "email_hash_help": "Es wird ein MD5-Hash der E-Mail-Adresse weiter gegeben, wenn du nicht die E-Mail-Adresse weitergeben möchtest. Diese Methode umgeht alle Tests auf Blockierlisten, Normalisierung und Verschleierungsprüfungen.",
@@ -91,8 +121,11 @@
                     "sfs_lookup_label": "Registrierungen überprüfen",
                     "sfs_lookup_help": "Wenn diese Option aktiviert ist, überprüfen wir die StopForumSpam-Datenbank, wenn sich ein neuer Benutzer in deinem Forum registriert. Wenn der Benutzer gefunden wird (Benutzername, IP-Adresse, E-Mail) und dieser Punkt aktiviert sowie die Vertrauensstufe die von dir festgelegte Stufe erreicht, wird er daran gehindert, seine Registrierung abzuschließen.",
                     "report_blocked_registrations_label": "Blockierte Registrierungen melden",
-                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten)."
-                }
+                    "report_blocked_registrations_help": "Wenn eine Registrierung durch die Spam-Prüfung blockiert wird, melden wir den Versuch an StopForumSpam zurück, damit die Aktivität des Spammers besser bestätigt werden kann. Dazu muss ein StopForumSpam-API-Schlüssel festgelegt werden (siehe unten).",
+                    "registration_throttle_label": "Sekunden zwischen Registrierungen von derselben Adresse",
+                    "registration_throttle_help": "Flarum begrenzt, wie oft jemand Beiträge verfassen kann, nicht jedoch, wie oft er Konten erstellen kann. Mit dem Wert 0 wird diese Funktion deaktiviert. Beachte, dass in Büros, Schulen und Mobilfunknetzen oft viele Personen dieselbe IP-Adresse nutzen."
+                },
+                "button": "Einstellungen"
             },
             "statistics": {
                 "heading": "Spamabwehr",
@@ -150,7 +183,11 @@
                         "frequency": "Berichtsschwelle",
                         "blacklisted": "Auf der schwarzen Liste",
                         "torExit": "Tor-Ausgangsknoten",
-                        "deniedAsn": "Abgelehntes Netzwerk"
+                        "deniedAsn": "Abgelehntes Netzwerk",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
                     },
                     "field": {
                         "ip": "IP",
@@ -178,12 +215,19 @@
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
                 "flagged_as_spam_text": "Automatische Spam-Erkennung – Bewertung {score}"
             },
             "message": {
                 "profile": {
                     "blocked": "Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut."
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
                 },
                 "stopforumspam": {
                     "blocked": "Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt."
