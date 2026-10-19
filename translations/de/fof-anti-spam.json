@@ -55,14 +55,14 @@
                     "auto_unapprove_help": "Wenn aktiviert, werden Beiträge, die den Spam-Schwellenwert erreichen, in die Genehmigungswarteschlange verschoben (erfordert „flarum/approval“). Moderatoren müssen die Beiträge genehmigen, bevor sie sichtbar werden.",
                     "auto_flag_label": "Spaminhalte automatisch melden",
                     "auto_flag_help": "Wenn aktiviert, werden Inhalte, die den Schwellenwert für die Markierung erreichen, automatisch zur Überprüfung durch einen Moderator markiert (erfordert „flarum/flags“). Die Begründung für die Markierung enthält Angaben dazu, warum der Inhalt als Spam erkannt wurde.",
-                    "flag_account_label": "",
-                    "flag_account_help": "",
-                    "flag_account_default": "",
+                    "flag_account_label": "Konto, das Spammeldungen einreicht",
+                    "flag_account_help": "Wird in der Moderationswarteschlange als Urheber der automatischen Spammeldungen angezeigt. Bei Beibehaltung der Standardeinstellung werden diese vom ersten Administrator gesetzt.",
+                    "flag_account_default": "Standard: erster Administrator",
                     "flag_account_choose_button": "Wähle…",
                     "flag_account_default_button": "Standard verwenden",
-                    "flag_account_modal_title": "",
-                    "flag_account_missing": "",
-                    "flag_account_in_code": "",
+                    "flag_account_modal_title": "Wähle das Konto, das Spammeldungen einreicht",
+                    "flag_account_missing": "Das ausgewählte Konto existiert nicht mehr, daher reicht der erste Administrator Spammeldungen ein, bis du ein anderes auswählst.",
+                    "flag_account_in_code": "Wird in „extend.php“ mit „assignFlagsToModerator()“ festgelegt, daher kann es hier nicht geändert werden.",
                     "no_action_extensions": "Installiere die Erweiterungen „flarum/approval“ und/oder „flarum/flags“, um automatische Moderationsmaßnahmen zu aktivieren. Erkannter Spam wird über die in Flarum integrierte Genehmigungswarteschlange und das Meldesystem verwaltet.",
                     "allowlist_heading": "Domänen-Zulassungsliste",
                     "allowed_domains_label": "Erlaubte Domänen",
@@ -93,10 +93,10 @@
                     "username_label": "Benutzernamen-Spam-Prüfung",
                     "ip_label": "IP-Adressen-Spam-Prüfung",
                     "email_label": "E-Mail-Spam-Prüfung",
-                    "checks_heading": "",
-                    "thresholds_heading": "",
-                    "also_block_heading": "",
-                    "reporting_heading": "",
+                    "checks_heading": "Was geprüft wird",
+                    "thresholds_heading": "Wann blockiert wird",
+                    "also_block_heading": "Auch blockieren",
+                    "reporting_heading": "Meldung erstatten",
                     "frequency_label": "Schwellenwert",
                     "frequency_help": "Die Anzahl der Spam-Meldungen aus allen aktivierten Prüfungen, die den Spamfilter auslösen.\nBeispiel: Wenn die E-Mail-Adresse 1 Treffer und die IP-Adresse 2 Treffer liefert, ergibt das insgesamt 3 Treffer. Ist der Schwellenwert auf 3 oder weniger festgelegt, wird die Registrierung abgelehnt.\n",
                     "api_key_label": "API-Schlüssel",
@@ -184,10 +184,10 @@
                         "blacklisted": "Auf der schwarzen Liste",
                         "torExit": "Tor-Ausgangsknoten",
                         "deniedAsn": "Abgelehntes Netzwerk",
-                        "honeypot": "",
-                        "tooFast": "",
-                        "formToken": "",
-                        "noForm": ""
+                        "honeypot": "Hat verborgenes Formularfeld ausgefüllt",
+                        "tooFast": "Schneller eingereicht, als es ein Mensch könnte",
+                        "formToken": "Manipuliertes oder wiederverwendetes Registrierungsformular",
+                        "noForm": "Nicht von Registrierungsformular gesendet"
                     },
                     "field": {
                         "ip": "IP",
@@ -216,7 +216,7 @@
         },
         "forum": {
             "sign_up": {
-                "trap_label": ""
+                "trap_label": "Dieses Feld leer lassen"
             },
             "post": {
                 "flagged_as_spam_text": "Automatische Spam-Erkennung – Bewertung {score}"
@@ -226,8 +226,8 @@
                     "blocked": "Das sieht nach Spam aus, daher wurde es nicht gespeichert. Bitte entferne alle Links und Kontaktdaten und versuche es erneut."
                 },
                 "honeypot": {
-                    "refused": "",
-                    "reload": ""
+                    "refused": "Deine Registrierung konnte nicht abgeschlossen werden.",
+                    "reload": "Beim Anmeldeformular ist ein Fehler aufgetreten. Bitte lade die Seite neu und versuche es erneut."
                 },
                 "stopforumspam": {
                     "blocked": "Details deiner Registrierung wurden ein einer Datenbank zur Spamvermeidung gefunden, daher haben wir deine Registrierung abgelehnt."
