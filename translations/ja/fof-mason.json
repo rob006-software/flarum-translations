@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "フィールドを編集"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "{title} のフィールドを編集",
+                "save": "フィールドを保存"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "無回答"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "オプションを選択してください",
+                "no-option-selected": "選択されていません",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "タグ設定が正しく構成されていません。 最大で1つのプライマリラベルとセカンダリラベルを許可するか、この機能を無効にします。\n",
+                "tags-label": "タグ"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "フィールドを追加",
+                "add-field": "フィールドを追加",
+                "save-field": "フィールドを保存",
+                "delete-field": "フィールドを削除",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "回答を追加",
+                "delete-answer": "回答を削除",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
+                "edit": "編集フィールド {field}",
+                "required": "必須",
+                "name": "フィールド名",
+                "name-help": "一般に表示され、翻訳できないフィールドラベル\n",
+                "description": "フィールドの説明",
+                "description-help": "このフィールドの目的を説明するオプションの説明\n",
+                "show_when_empty": "空のフィールドを表示",
+                "show_when_empty-help": "フィールドが空かどうかを投稿に表示",
+                "validation": "ユーザー入力を確認する",
+                "user_values_allowed": "ユーザーが許可するもの",
+                "user_values_allowed-help": "有効にすると、ユーザーは管理者が定義した値の代わりに独自の値を追加できます。 これらの値は、検証設定に従ってチェックされます。 無効にした場合、「推奨」回答のみを使用できます。\n",
+                "validation-help": "サポートされている <a>Laravel validation rules</a> を参照してください。例： \"string|min:5\" または \"url\"。\n",
+                "icon": "アイコン",
+                "icon-help": "このフィールドの前に小さなアイコンが表示されます。 利用可能なアイコンは <a>FontAwesome</a> をご覧ください，接頭辞を含む完全なチャートクラス名を使用します。例：「fas fa-bolt」。\n",
+                "save-field-for-answers": "このフィールドを保存して回答を追加してください",
                 "new-answer": "",
-                "new-answer-placeholder": ""
+                "new-answer-placeholder": "一部のテキスト"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "回答「{content}」を削除しますか？ これは、それを使用するすべての投稿から削除されます。既存の回答を保持する場合は、回答の提案を無効にしてください。 回答を削除しますか？\n",
+                "delete-field-confirmation": "フィールド「{name}」を削除してもよろしいですか？ これは、それを使用するすべての投稿から削除されます。 フィールドを削除しますか？\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "カスタムフィールドタイトル",
+                "fields-section-title-placeholder": "デフォルトではタイトルは表示されません",
+                "fields-section-title-help": "ユーザーには、このテキストがフィールドに表示されます\n",
+                "column-count": "表示されるフィールドの数",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "フォームのラベルをプレースホルダーとして表示する",
+                "labels-as-placeholders-help": "フィールドの垂直方向のスペースが少なくなり、小さなアイコンが表示されなくなります。 これは、特に既存のフィールドを編集する場合、使いやすさに影響する可能性があることに注意してください。\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "すべてのフィールドが空で非表示のときにタイトルとコントロールを非表示にします。",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "セクションヒットをフィールドとして表示する。",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "ノードフィールドラベル",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
+                "fields": "フィールド",
+                "settings": "設定する",
                 "field-answers": ""
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "自身のトピックに表示されるフィールド",
+                "see-other-fields": "すべてのトピックに表示されるフィールド",
+                "fill-fields": "新しいトピックのフィールドに入力する",
+                "update-own-fields": "自分のディスカッションのフィールドを更新する",
+                "update-other-fields": "件名フィールドを更新する",
+                "skip-required-fields": "必須フィールドのスキップを許可する"
             }
         }
     },

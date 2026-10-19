@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Править поля"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Править поля для {title}",
+                "save": "Сохранить поля"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Нет ответа"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Выберите вариант",
+                "no-option-selected": "Вариант не выбран",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Настройки тегов заданы некорректно. Разрешите не более одного основного и одного дополнительного тега либо отключите функцию «Теги как поля».\n",
+                "tags-label": "Теги"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Новое поле",
+                "add-field": "Добавить поле",
+                "save-field": "Сохранить изменение полей",
+                "delete-field": "Удалить поле",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Добавить ответ",
+                "delete-answer": "Удалить ответ",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "edit": "Править поле {field}",
+                "required": "Требуемое",
+                "name": "Имя поля",
+                "name-help": "Видимая всем (не переводимая) метка поля.\n",
+                "description": "Описание поля",
+                "description-help": "Необязательное описание использования/необходимости этого поля.\n",
+                "show_when_empty": "Показать, если пустое",
+                "show_when_empty-help": "Показывать ли это поле в обсуждении, когда в нем нет ответов",
+                "validation": "Проверка пользовательских значений",
+                "user_values_allowed": "Разрешать пользовательские значения",
+                "user_values_allowed-help": "Если включено, пользователи могут добавлять собственные значения вместо заданных администратором. Эти значения будут проверяться по настройке «Проверка». Если отключено, они смогут использовать только «предлагаемые» ответы.\n",
+                "validation-help": "Проверьте поддерживаемые <a>правила валидации Laravel</a>. Например: «string|min:5» или »url».\n",
+                "icon": "Иконка",
+                "icon-help": "Показывает иконку перед значениями, введёнными пользователем. Список доступных иконок — на сайте <a>FontAwesome</a>. Используйте полное имя класса иконки вместе с префиксом, например «fas fa-bolt».\n",
+                "save-field-for-answers": "Сохранить поле для добавления ответов",
+                "new-answer": "Новый ответ",
+                "new-answer-placeholder": "Текст"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Удалить ответ «{content}»? Он будет удалён из всех тем, где используется. Если вы хотите сохранить существующие ответы, отключите вместо этого подсказку ответов.\n",
+                "delete-field-confirmation": "Удалить поле «{name}»? Поле и его ответы будут удалены из всех тем, где они используются.\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Заголовок раздела пользовательских полей",
+                "fields-section-title-placeholder": "По умолчанию заголовок не отображается",
+                "fields-section-title-help": "Пользователи увидят этот текст над пользовательскими полями в редакторе и в теме.\n",
+                "column-count": "Количество столбцов при отображении полей",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "Показывать подписи как плейсхолдеры в форме",
+                "labels-as-placeholders-help": "Поля будут занимать меньше места по вертикали, а иконки больше не будут отображаться. Учтите, что это может повлиять на удобство использования, особенно при редактировании существующих полей.\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "Скрывать заголовок и элементы управления, если все поля пусты и скрыты",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Показывать выбор тегов как поле",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "Подпись поля тегов",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Поля",
+                "settings": "Настройки",
+                "field-answers": "Ответы поля"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Видеть поля в собственных существующих темах",
+                "see-other-fields": "Видеть поля во всех существующих темах",
+                "fill-fields": "Заполнять поля в новых темах",
+                "update-own-fields": "Изменять поля собственной темы",
+                "update-other-fields": "Изменять поля любой темы",
+                "skip-required-fields": "Разрешено пропускать обязательные поля"
             }
         }
     },

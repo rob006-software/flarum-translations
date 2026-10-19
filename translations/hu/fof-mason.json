@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Mezők szerkesztése"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "A(z) {title} mezőinek szerkesztése",
+                "save": "Mezők mentése"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Nincs válasz"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Válasszon egy lehetőséget",
+                "no-option-selected": "Nincs lehetőség kiválasztva",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "A címkebeállítások nincsenek helyesen megadva. Legfeljebb egy elsődleges és másodlagos címkét engedélyezzen, vagy kapcsolja ki a „Címkék mezőként” funkciót.\n",
+                "tags-label": "Címkék"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Új mező",
+                "add-field": "Mező hozzáadása",
+                "save-field": "Mezőváltoztatások mentése",
+                "delete-field": "Mező törlése",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Válasz hozzáadása",
+                "delete-answer": "Válasz törlése",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "edit": "{field} mező szerkesztése",
+                "required": "Kötelező",
+                "name": "Mező neve",
+                "name-help": "A nyilvánosan látható (nem fordítható) mezőcím.\n",
+                "description": "Mező leírása",
+                "description-help": "Esetleges leírás a mező használatának/szükségének magyarázatához.\n",
+                "show_when_empty": "Megjelenítés, ha üres",
+                "show_when_empty-help": "Megjelenjen-e a mező, ha nincs rá válasz",
+                "validation": "Felhasználói értékek ellenőrzése",
+                "user_values_allowed": "Megengedett felhasználói értékek",
+                "user_values_allowed-help": "Ha engedélyezett, akkor a felhasználók megadhatják a saját értéküket az adminisztrátor által megadott helyett. Az értékek az „Ellenőrzés” beállítással lesznek összenézve. Ha le van tiltva, akkor csak a „javasolt” válaszokat fogják tudni használni.\n",
+                "validation-help": "A támogatott <a>Laravel ellenőrzési szabályok</a> vizsgálata. Például „string|min:5” vagy „url”.\n",
+                "icon": "Ikon",
+                "icon-help": "Ikon megjelenítése a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájáért nézze meg a <a>FontAwesome weboldalát</a>. Használja a teljes ikonosztályt, beleértve az előtagot is, például: „fas fa-bolt”.\n",
+                "save-field-for-answers": "A mező mentése a válaszok hozzáadásához",
+                "new-answer": "Új válasz",
+                "new-answer-placeholder": "Valamilyen szöveg"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Biztos, hogy törli a következő választ: „{content}”? El lesz távolítva az összes témából, ahol használták. Ha szeretné megtartani a jelenlegi válaszokat, akkor tiltsa le a válaszjavaslatokat. Törli a választ?\n",
+                "delete-field-confirmation": "Biztos, hogy törli a következő mezőt: „{name}”? A mező és a válaszai el lesznek távolítva az összes témából, amelyben használták őket. Törli a mezőt?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Az egyéni mezők szakasz címe",
+                "fields-section-title-placeholder": "Alapértelmezetten nem jelenik meg cím",
+                "fields-section-title-help": "A felhasználók ezt a szöveget fogják látni az egyéni mezők felett a szerkesztőben és a témában.\n",
+                "column-count": "Oszlopok száma a mezők megjelenítésekor",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "Címkék megjelenítése helykitöltőként az űrlapon",
+                "labels-as-placeholders-help": "A mezők kevesebb függőleges helyet fognak használni, és az ikonok nem lesznek megjelenítve. Vegye figyelembe, hogy ez hatással lehet a használatra, különösen a meglévő mezők szerkesztésekor.\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "A cím és a vezérlők elrejtése, ha a mezők üresek és rejtettek",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Címkeválasztó megjelenítése mezőként",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "A címkemezők címkéje",
+                "tags-field-name-placeholder": "az egyéni mezők felett"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Mezők",
+                "settings": "Beállítások",
+                "field-answers": "Mezők válaszai"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Mezők megtekintése a saját meglévő témáknál",
+                "see-other-fields": "Mezők megtekintése az összes meglévő témánál",
+                "fill-fields": "Mezők kitöltése az új témáknál",
+                "update-own-fields": "Saját téma mezőinek frissítése",
+                "update-other-fields": "Összes téma mezőinek frissítése",
+                "skip-required-fields": "Kihagyhatja a kötelező mezőket"
             }
         }
     },

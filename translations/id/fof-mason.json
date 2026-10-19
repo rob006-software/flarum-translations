@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Edit kolom"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Mengedit kolom pada {title}",
+                "save": "Simpan kolom"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Tidak ada jawaban"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Pilih salah satu opsi",
+                "no-option-selected": "Tidak ada opsi yang dipilih",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Pengaturan tag tidak dikonfigurasi dengan benar. Diperbolehkan hingga satu tag primer dan sekunder atau nonaktifkan fitur \"Tag sebagai kolom\".\n",
+                "tags-label": "Tag"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Kolom baru",
+                "add-field": "Tambah kolom",
+                "save-field": "Simpan perubahan kolom",
+                "delete-field": "Hapus kolom",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Tambah jawaban",
+                "delete-answer": "Hapus jawaban",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "edit": "Edit kolom {field}",
+                "required": "Dibutuhkan",
+                "name": "Nama kolom",
+                "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
+                "description": "Deskripsi kolom",
+                "description-help": "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n",
+                "show_when_empty": "Tampilkan saat kosong",
+                "show_when_empty-help": "Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban",
+                "validation": "Validasi user value",
+                "user_values_allowed": "User value yang diizinkan",
+                "user_values_allowed-help": "Jika diaktifkan, pengguna dapat menambahkan value mereka sendiri, bukan yang value yang telah ditentukan oleh admin. Semua value tersebut akan diperiksa dengan pengaturan \"Validasi\". Jika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n",
+                "validation-help": "Periksa <a>aturan validasi Laravel</a> yang didukung. Contohnya: \"string|min:5\" or \"url\".\n",
+                "icon": "Ikon",
+                "icon-help": "Tampilkan ikon di depan value yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, periksa situs web <a>FontAwesome</a>. Gunakan nama kelas ikon lengkap termasuk prefiks, misalnya \"fas fa-bolt\".\n",
+                "save-field-for-answers": "Simpan kolom untuk menambahkan jawaban",
+                "new-answer": "Jawaban baru",
+                "new-answer-placeholder": "Beberapa teks"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n",
+                "delete-field-confirmation": "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Judul pada bagian kolom khusus",
+                "fields-section-title-placeholder": "Secara default tidak ada judul yang akan ditampilkan",
+                "fields-section-title-help": "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n",
+                "column-count": "Jumlah kolom saat menampilkan kolom",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "Tampilkan label sebagai placeholder dalam formulir",
+                "labels-as-placeholders-help": "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Tampilkan tag selector sebagai kolom",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "Label kolom tag",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Kolom",
+                "settings": "Pengaturan",
+                "field-answers": "Respon kolom"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Melihat kolom pada diskusi sendiri yang sudah ada",
+                "see-other-fields": "Melihat kolom pada semua diskusi yang ada",
+                "fill-fields": "Mengisi kolom pada diskusi baru",
+                "update-own-fields": "Memperbarui kolom diskusi sendiri",
+                "update-other-fields": "Memperbarui kolom diskusi apa pun",
+                "skip-required-fields": "Diizinkan untuk melewatkan kolom yang harus diisi"
             }
         }
     },

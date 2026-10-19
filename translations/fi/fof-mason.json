@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Muokkaa kenttiä"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Muokkaa kenttiä {title}",
+                "save": "Tallenna kentät"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Ei vastausta"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Valitse vaihtoehto",
+                "no-option-selected": "Ei vaihtoehtoa valittuna",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Avainsanan asetukset ei ole oikein asetettu. Salli yhden pää tai toissijaisen avainsanan tai ota pois käytöstä \"Avainsanat kenttinä\" ominaisuus.\n",
+                "tags-label": "Avainsanat"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Uusi kenttä",
+                "add-field": "Lisää kenttä",
+                "save-field": "Tallenna kentän muutokset",
+                "delete-field": "Poista kenttä",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Lisää vastaus",
+                "delete-answer": "Poista vastaus",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "edit": "Muokkaa kenttää {field}",
+                "required": "Pakollinen",
+                "name": "Kentän nimi",
+                "name-help": "Julkisesti näkyvä (ei käännettävä) kentän tunniste.\n",
+                "description": "Kentän kuvaus",
+                "description-help": "Vaihtoehtoinen kuvaus kentälle joka kertoo sen tarpeen/käytön.\n",
+                "show_when_empty": "Näytä kun tyhjä",
+                "show_when_empty-help": "Näytetäänkö kenttä keskustelussa, kun siihen ei ole vastattu",
+                "validation": "Käyttäjän arvojen validointi",
+                "user_values_allowed": "Käyttäjän syöte sallittu",
+                "user_values_allowed-help": "Jos käytössä käyttäjät voivat omia arvojaan ylläpitäjän määrittämien arvojen lisäksi. Nämä arvot tarkistetaan validaatio asetusta vasten. Jos otettu pois käytöstä käytetään vain \"ehdotettuja\" vastauksia.\n",
+                "validation-help": "Tarkista tuetut <a>Laravelin validointi sännöt</a>. Esim. \"string|min:5\" or \"url\".\n",
+                "icon": "Ikoni",
+                "icon-help": "Näyttää ikonin käyttäjän syöttämän arvon edessä. Saatavilla olevat ikonit näkee <a>FontAwesomen sivustolta</a>. Käytä ikonin koko nimeä etuliitteinen, esimerkiksi \"fas fa-bolt\".\n",
+                "save-field-for-answers": "Tallenna kenttä lisätäksesi vastauksia",
+                "new-answer": "Uusi vastaus",
+                "new-answer-placeholder": "Jotain tekstiä"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Haluatko varmasti poistaa vastauksen \"{content}\"? Se poistetaan kaikista keskusteluista joissa sitä on käytetty. Jos haluat pitää olemassa olevat vastaukset, ota pois käytöstä vastauksen ehdotus sen sijaan. Poista vastaus?\n",
+                "delete-field-confirmation": "Haluatko varmasti poistaa kentän \"{name}\"? Kentän vastaukset poistetaan kaikista keskusteluista, jotka käyttää sitä. Poista kenttä?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Mukautettujen kenttien osion otsikko",
+                "fields-section-title-placeholder": "Oletuksena otsikkoa ei näytetä",
+                "fields-section-title-help": "Käyttäjät näkevät tämän tekstin mukautettujen kenttien yläpuolella editorissa ja keskustelussa.\n",
+                "column-count": "Sarakkeiden määrä kun kenttiä näytetään",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "Näytä tunnisteet placeholdereina lomakkeella",
+                "labels-as-placeholders-help": "Kentät käyttävät vähemmän vertikaalista tilaa ja ikonit eivät näy enää. Ota huomioon, että tämä vaikuttaa käytettävyyteen, varsinkin kun muokataan olemassa olevia kenttiä.\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "Piilota otsikko ja säätimet, kun kaikki kentät ovat tyhjiä ja piilotettu",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Näytä avainsana valitsin kenttänä",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "Avainsana kentän tunniste",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Kentät",
+                "settings": "Asetukset",
+                "field-answers": "Kentän vastaukset"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Näe kentät omissa olemassa olevissa keskusteluissa",
+                "see-other-fields": "Näe kentät kaikissa olemassa olevissa keskusteluissa",
+                "fill-fields": "Täytä kentät uusissa keskusteluissa",
+                "update-own-fields": "Päivitä kenttiä omissa keskusteluissa",
+                "update-other-fields": "Päivitä kenttiä missä tahansa keskusteluissa",
+                "skip-required-fields": "Saa ohittaa pakolliset kentät"
             }
         }
     },

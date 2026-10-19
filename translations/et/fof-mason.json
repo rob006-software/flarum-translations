@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Muuda väljasid"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Muuda {title} väljasid",
+                "save": "Salvesta väljad"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Vastuseid pole"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Tee valik",
+                "no-option-selected": "Ühtegi valikut pole tehtud",
                 "required": ""
             },
             "tags": {
                 "inadequate-settings": "",
-                "tags-label": ""
+                "tags-label": "Sildid"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Uus väli",
+                "add-field": "Lisa väli",
+                "save-field": "Salvesta välja muudatused",
+                "delete-field": "Kustuta väli",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Lisa vastus",
+                "delete-answer": "Kustuta vastus",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
+                "edit": "Muuda välja {field}",
+                "required": "Nõutud",
+                "name": "Välja nimi",
+                "name-help": "Avalikult nähtav (ja mitte tõlgitav) välja nimi.\n",
+                "description": "Välja kirjeldus",
+                "description-help": "Valikuline kirjeldus, miks seda välja on vaja.\n",
+                "show_when_empty": "Näita, kui väli on tühi",
+                "show_when_empty-help": "Kas välja näidatakse vestluses, kui sellesse pole midagi sisestatud",
+                "validation": "Kasutaja väärtuste kontrollimine",
+                "user_values_allowed": "Kasutaja väärtused on lubatud",
                 "user_values_allowed-help": "",
                 "validation-help": "",
-                "icon": "",
+                "icon": "Ikoon",
                 "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "save-field-for-answers": "Salvesta väli, et lisada vastuseid",
+                "new-answer": "Uus vastus",
+                "new-answer-placeholder": "Sama tekst"
             },
             "messages": {
                 "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-field-confirmation": "Oled sa kindel, et soovid kustutada välja \"{name}\"? Väli ja selle vastused eemaldatakse kõigist vestlustest, mis neid kasutavad. Kas kustutada väli?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Kohandatud väljade sektsiooni pealkiri",
+                "fields-section-title-placeholder": "Vaikimisi pealkirja ei näidata",
+                "fields-section-title-help": "Kasutajad näevad seda teksti kohandatud väljade kohal redaktoris ja vestluses.\n",
+                "column-count": "Veergude arv väljade näitamisel",
                 "n-columns": "",
-                "labels-as-placeholders": "",
+                "labels-as-placeholders": "Näita veerge kui kohatäitjaid vormis",
                 "labels-as-placeholders-help": "",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "Peida pealkiri ja juhtelemendid, kui kõik väljad tühjad ja peidetud",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Näita siltide valijat väljana",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "Siltide välja silt",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Väljad",
+                "settings": "Seaded",
+                "field-answers": "Välja vastused"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Oma olemasolevates vestlustes väljade nägemine",
+                "see-other-fields": "Väljade nägemine kõigis olemasolevates vestlustes",
+                "fill-fields": "Väljade täitmine kõigis uutes vestlustes",
+                "update-own-fields": "Omaenda vestlustes väljade muutmine",
+                "update-other-fields": "Kõigi vestluse väljade uuendamine",
+                "skip-required-fields": "Luba nõutud väljad vahele jätta"
             }
         }
     },

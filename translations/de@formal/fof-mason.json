@@ -5,35 +5,35 @@
                 "add-details": ""
             },
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Felder bearbeiten"
             },
             "answers-modal": {
                 "compose-title": "",
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Felder bearbeiten für {title}",
+                "save": "Felder speichern"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Keine Antwort"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": "",
+                "choose-option": "Eine Option auswählen",
+                "no-option-selected": "Keine option ausgewählt",
                 "required": ""
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Die Themen-Einstellungen sind nicht korrekt konfiguriert. Erlaube maximal ein primäres und ein sekundäres Thema oder deaktiviere die Funktion „Thema als Felder”.\n",
+                "tags-label": "Themen"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
+                "new-field": "Neues Feld",
+                "add-field": "Feld hinzufügen",
+                "save-field": "Feldänderungen speichern",
+                "delete-field": "Feld löschen",
                 "edit-field": "",
-                "add-answer": "",
-                "delete-answer": "",
+                "add-answer": "Antwort hinzufügen",
+                "delete-answer": "Antwort löschen",
                 "edit-answer": "",
                 "edit-answer-prompt": "",
                 "show-user-answers": ""
@@ -49,56 +49,56 @@
                 "unsuggest": ""
             },
             "fields": {
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "save-field-for-answers": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "edit": "Feld {field} bearbeiten",
+                "required": "Erforderlich",
+                "name": "Feldname",
+                "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
+                "description": "Feldbeschreibung",
+                "description-help": "Eine optionale Beschreibung, um die Verwendung/Notwendigkeit dieses Feldes zu erläutern.\n",
+                "show_when_empty": "Anzeigen, wenn leer",
+                "show_when_empty-help": "Legt fest, ob das Feld in der Diskussion angezeigt werden soll, wenn es keine Antwort enthält",
+                "validation": "Validierung für Benutzerwerte",
+                "user_values_allowed": "Erlaubte Benutzerwerte",
+                "user_values_allowed-help": "Wenn aktiviert, können Benutzer ihre eigenen Werte anstelle der vom Administrator definierten Werte hinzufügen. Diese Werte werden anhand der Einstellung „Validierung” überprüft. Wenn diese Option deaktiviert ist, können sie nur die „vorgeschlagenen” Antworten verwenden.\n",
+                "validation-help": "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Beispiel: „string|min:5“ oder „url“.\n",
+                "icon": "Symbol",
+                "icon-help": "Zeigt ein Symbol vor den vom Benutzer eingegebenen Werten an. Eine Übersicht über die verfügbaren Symbole findest du auf der <a>FontAwesome-Website</a>. Verwende den vollständigen Namen der Symbolklasse einschließlich Präfix, zum Beispiel „fas fa-bolt“.\n",
+                "save-field-for-answers": "Speichere das Feld, um Antworten hinzuzufügen",
+                "new-answer": "Neue Antwort",
+                "new-answer-placeholder": "Irgendein Text"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Möchtest du die Antwort „{content}“ wirklich löschen? Sie wird aus allen Diskussionen entfernt, in denen sie verwendet wird. Wenn du vorhandene Antworten behalten möchtest, deaktiviere stattdessen die Antwortvorschläge. Antwort löschen?\n",
+                "delete-field-confirmation": "Möchtest du das Feld „{name}“ wirklich löschen? Das Feld und die darin enthaltenen Antworten werden aus allen Diskussionen entfernt, in denen sie verwendet werden. Feld löschen?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
+                "fields-section-title": "Titel des Abschnitts „Benutzerdefinierte Felder“",
+                "fields-section-title-placeholder": "Standardmäßig wird kein Titel angezeigt",
+                "fields-section-title-help": "Benutzer sehen diesen Text über den benutzerdefinierten Feldern im Editor und in der Diskussion.\n",
+                "column-count": "Anzahl der Spalten bei der Anzeige der Felder",
                 "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
+                "labels-as-placeholders": "Labels als Platzhalter im Formular anzeigen",
+                "labels-as-placeholders-help": "Felder benötigen weniger vertikalen Platz und Symbole werden nicht mehr angezeigt. Beachte, dass dies Auswirkungen auf die Benutzerfreundlichkeit haben kann, insbesondere beim Bearbeiten bestehender Felder.\n",
                 "fields-in-hero": "",
-                "hide-empty-fields-section": "",
+                "hide-empty-fields-section": "Titel und Steuerelemente ausblenden, wenn alle Felder leer und ausgeblendet sind",
                 "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
+                "tags-as-field": "Themen-Auswahl als Feld anzeigen",
                 "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "tags-field-name": "Bezeichnung des Themen-Feldes",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "fields": "",
-                "settings": "",
-                "field-answers": ""
+                "fields": "Felder",
+                "settings": "Einstellungen",
+                "field-answers": "Feld-Antworten"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Felder in eigenen bestehenden Diskussionen sehen",
+                "see-other-fields": "Felder in allen bestehenden Diskussionen sehen",
+                "fill-fields": "Felder in neuen Diskussionen ausfüllen",
+                "update-own-fields": "Felder in eigenen Diskussionen aktualisieren",
+                "update-other-fields": "Felder in allen Diskussionen aktualisieren",
+                "skip-required-fields": "Darf erforderliche Felder überspringen"
             }
         }
     },
