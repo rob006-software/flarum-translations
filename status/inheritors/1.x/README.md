@@ -12,4 +12,4 @@ are fully in sync and are not listed here.
 | [German](de.md) (`de`) | 1 | 24 | 3 |
 | [German (formal)](de@formal.md) (`de@formal`) | 2 | 24 | 4 |
 | [Persian](fa.md) (`fa`) | 0 | 13 | 6 |
-| [Polish](pl.md) (`pl`) | 1 | 10 | 2 |
+| [Polish](pl.md) (`pl`) | 0 | 7 | 1 |

@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Spanish informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **357** are translated differently and **0** are
-translated only in `es@formal`. Altogether they cover **21** components.
+sides, but do not match between them: **358** are translated differently and **0** are
+translated only in `es@formal`. Altogether they cover **22** components.
 
 <!-- {% raw %} -->
 
@@ -23,6 +23,7 @@ translated only in `es@formal`. Altogether they cover **21** components.
 | `flarum-sticky` | [3](#flarum-sticky) |
 | `flarum-subscriptions` | [4](#flarum-subscriptions) |
 | `flarum-tags` | [9](#flarum-tags) |
+| `fof-discussion-language` | [1](#fof-discussion-language) |
 | `fof-links` | [1](#fof-links) |
 | `fof-masquerade` | [3](#fof-masquerade) |
 | `fof-pages` | [2](#fof-pages) |
@@ -3792,6 +3793,20 @@ Crear <del>Etiqueta</del><ins>etiqueta</ins>
 ```
 
 {username} quitó <del>{tagsRemoved} {time}.</del><ins>{tagsRemoved}.</ins>
+
+
+### `fof-discussion-language`
+
+#### [`fof-discussion-language.admin.settings.native_label`](https://weblate.rob006.net/translate/flarum2/fof-discussion-language/es@formal/?q=context%3A%3D%22fof-discussion-language.admin.settings.native_label%22)
+
+> Use native language names
+
+```diff
+-Utiliza nombres de lengua materna
++Utilice nombres de lengua materna
+```
+
+<del>Utiliza</del><ins>Utilice</ins> nombres de lengua materna
 
 
 ### `fof-links`
