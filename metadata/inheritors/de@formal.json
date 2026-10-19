@@ -3673,6 +3673,13 @@
                 "hide_nav_link": "0ba7dd3dbb1da49e4fe027c8b50e66b6 0ba7dd3dbb1da49e4fe027c8b50e66b6",
                 "hide_nav_link_help": "75910d15184f0c6aba4874df5aadc665 75910d15184f0c6aba4874df5aadc665",
                 "index_widget_count": "d6a410b1edbadd1e41f0bf580e520331 d6a410b1edbadd1e41f0bf580e520331",
+                "location_apple": "7000d6f3efa98f78b349e0e7c9468d89 7000d6f3efa98f78b349e0e7c9468d89",
+                "location_google": "4c81f3198099e6597e1251438eb81840 4c81f3198099e6597e1251438eb81840",
+                "location_mode": "4b611b66e04008860f3ec53388acde87 4b611b66e04008860f3ec53388acde87",
+                "location_mode_help": "4eb02feb28bc71aeaaf5f48d3bf1628f 4eb02feb28bc71aeaaf5f48d3bf1628f",
+                "location_off": "e3925fa583d897dcc056d63eecddf9de e3925fa583d897dcc056d63eecddf9de",
+                "location_osm": "47c09d4e35d9ce9ee9af9c99591c181a 47c09d4e35d9ce9ee9af9c99591c181a",
+                "location_text": "caea00c142de197e97768f6228c342a8 caea00c142de197e97768f6228c342a8",
                 "onthisday_exclude_tags": "1a40d7ca26e48e7dbea41317b8a084f3 1a40d7ca26e48e7dbea41317b8a084f3",
                 "onthisday_exclude_tags_help": "442854dba03e6e076fddc1119ca61319 442854dba03e6e076fddc1119ca61319",
                 "permission_create": "1522598b799b969fa77befd06ab22e59 1522598b799b969fa77befd06ab22e59",
@@ -3750,7 +3757,7 @@
                 "field_cover": "769620fe3c6bf618866cb63126d5bc20 769620fe3c6bf618866cb63126d5bc20",
                 "field_description": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
                 "field_end": "37958de49a6922465be7cb2a71a8ee13 37958de49a6922465be7cb2a71a8ee13",
-                "field_location": "473390974397014edf78846c8f0e93b3 473390974397014edf78846c8f0e93b3",
+                "field_location": "cf6ebc40926847c36d31eeecc82b2c2c cf6ebc40926847c36d31eeecc82b2c2c",
                 "field_repeat": "dc0462575ab372239bcfd43a81cbc51f dc0462575ab372239bcfd43a81cbc51f",
                 "field_start": "a6122a65eaa676f700ae68d393054a37 a6122a65eaa676f700ae68d393054a37",
                 "field_timezone": "01f001f10a42f81c99f0b422feb33aa7 01f001f10a42f81c99f0b422feb33aa7",
@@ -4186,6 +4193,7 @@
                     "very_good": "6a14cc29a33cb8ab42ba7884ce469ea8 6a14cc29a33cb8ab42ba7884ce469ea8"
                 },
                 "count": {
+                    "collections": "4cc11bd5e8fb9f48b44dc6097269a88c 4cc11bd5e8fb9f48b44dc6097269a88c",
                     "trade": "3a56733f19e2287820ce3b751f377a5d 3a56733f19e2287820ce3b751f377a5d"
                 },
                 "edit": {
@@ -4255,6 +4263,8 @@
                     "new": "613b4bf08b1f4d9239b85e9490c0ef99 613b4bf08b1f4d9239b85e9490c0ef99"
                 },
                 "sort": {
+                    "position": "1999253b0db4f9d3ad20b0a8f5fc52f8 1999253b0db4f9d3ad20b0a8f5fc52f8",
+                    "recent": "fc3d9e4a9114e2ca59f8d4063dd62ab3 fc3d9e4a9114e2ca59f8d4063dd62ab3",
                     "title": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
                     "year": "137dfd061c7dea15cd29565ffd5c1d91 137dfd061c7dea15cd29565ffd5c1d91"
                 },
@@ -15524,11 +15534,12 @@
                 },
                 "permissions": {
                     "access_shared_label": "c77aa58b3cd42feb7d99655b8e266f53 c77aa58b3cd42feb7d99655b8e266f53",
-                    "delete_uploads_of_others_label": "fbde8f56facfd5641b84d438fc1a47da fbde8f56facfd5641b84d438fc1a47da",
+                    "delete_own_uploads_label": "1332920656066028442bdfd0636eed78 1332920656066028442bdfd0636eed78",
+                    "delete_uploads_of_others_label": "90774ac2e82073f0d0f074823709ae36 90774ac2e82073f0d0f074823709ae36",
                     "download_label": "71b7b6af6e2f122466af604065dcbab7 71b7b6af6e2f122466af604065dcbab7",
                     "upload_label": "db1eb3eeae87cda202b2be616f63e543 350defa1afc4386a1a9968f7f5dac3c0",
                     "upload_mime_label": "c1c9097d1767cda20f1fd95bfd5b4309 c1c9097d1767cda20f1fd95bfd5b4309",
-                    "upload_shared_label": "fad6cb04445cb8e60dc7bd6fadce5ed2 fad6cb04445cb8e60dc7bd6fadce5ed2",
+                    "upload_shared_label": "9b950224f11e721236d8253f9be5596e 9b950224f11e721236d8253f9be5596e",
                     "view_user_uploads_label": "50ec27f975eb64844204e07a65dc38e2 50ec27f975eb64844204e07a65dc38e2"
                 },
                 "shared-uploads": {
