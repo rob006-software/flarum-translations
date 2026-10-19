@@ -50,6 +50,9 @@ return [
 			'tr',
 		],
 	],
+	'clarkwinkelmann-likes-received' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/2.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-prominent-post-numbers' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-prominent-post-numbers/2.0.0/locale/en.yml',
 	],
