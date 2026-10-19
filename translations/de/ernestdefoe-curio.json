@@ -4,15 +4,15 @@
             "status": {
                 "owned": "Im Besitz",
                 "wishlist": "Wünsche ich mir",
-                "trade": ""
+                "trade": "Zum Tausch verfügbar"
             },
             "condition": {
-                "sealed": "",
-                "mint": "",
-                "very_good": "",
-                "good": "",
-                "fair": "",
-                "poor": ""
+                "sealed": "Versiegelt",
+                "mint": "Neuwertig",
+                "very_good": "Sehr gut",
+                "good": "Gut",
+                "fair": "Ordentlich",
+                "poor": "Schlecht"
             },
             "visibility": {
                 "public": "Jeder",
@@ -25,13 +25,13 @@
             "count": {
                 "items": "",
                 "wanted": "",
-                "trade": ""
+                "trade": "{count} zum Tausch verfügbar"
             },
             "filter": {
                 "all": "Alle",
                 "owned": "Im Besitz",
                 "wishlist": "Wünsche ich mir",
-                "trade": "",
+                "trade": "Zum Tausch verfügbar",
                 "any": ""
             },
             "sort": {
@@ -46,30 +46,30 @@
             },
             "page": {
                 "missing": "",
-                "empty": "",
+                "empty": "Hier ist noch nichts.",
                 "since": "Seit {date}",
                 "owned": "",
                 "wanted": "",
-                "trade": "",
+                "trade": "Zum Tausch",
                 "follow": "",
                 "following": "",
                 "followers": "",
                 "add_item": "",
                 "settings": "Einstellungen",
                 "search": "",
-                "filter_label": "",
-                "view_label": "",
+                "filter_label": "Anzeigen",
+                "view_label": "Darstellung",
                 "view_grid": "Raster",
                 "view_list": "Liste",
-                "arrange": "",
+                "arrange": "Anordnen",
                 "arrange_done": "",
                 "load_more": ""
             },
             "edit": {
                 "title_new": "Neue Sammlung",
                 "title_edit": "",
-                "type": "",
-                "name": "",
+                "type": "Was sammelst du?",
+                "name": "Name",
                 "name_placeholder": "Das Nintendo-Regal",
                 "description": "Beschreibung",
                 "visibility": "",
@@ -81,13 +81,13 @@
                 "delete_confirm": ""
             },
             "item_edit": {
-                "title_new": "",
+                "title_new": "Zu {name} hinzufügen",
                 "title_edit": "",
                 "tab_find": "",
                 "tab_details": "Details & Fotos",
                 "search_placeholder": "",
                 "barcode_placeholder": "",
-                "scan": "",
+                "scan": "Scannen",
                 "scan_stop": "",
                 "camera_error": "",
                 "barcode_found": "Barcode {code} erkannt.",
@@ -97,18 +97,18 @@
                 "by_hand": "Händisch hinzufügen",
                 "lookup_failed": "",
                 "cover_looked_up": "",
-                "add_photos": "",
+                "add_photos": "Eigene Fotos hinzufügen",
                 "photos_hint": "",
-                "remove_photo": "",
+                "remove_photo": "Foto entfernen",
                 "title": "Titel",
                 "translated_hint": "",
                 "subtitle": "",
                 "year": "Jahr",
                 "status": "Status",
                 "condition": "Zustand",
-                "condition_none": "",
-                "acquired": "",
-                "notes": "",
+                "condition_none": "Nicht festgelegt",
+                "acquired": "Erworben am",
+                "notes": "Notizen",
                 "notes_placeholder": "",
                 "price": "",
                 "price_private": "",
@@ -233,12 +233,12 @@
                 "fields": "Details",
                 "fields_help": "",
                 "field_label": "Beschriftung ({language})",
-                "field_kind": "",
-                "field_choices": "",
+                "field_kind": "Art",
+                "field_choices": "Auswahlmöglichkeiten",
                 "add_choice": "",
-                "remove_choice": "",
-                "remove_field": "",
-                "add_field": "",
+                "remove_choice": "Auswahlmöglichkeit entfernen",
+                "remove_field": "Detail entfernen",
+                "add_field": "Detail hinzufügen",
                 "translation_note": "",
                 "save": "",
                 "create": "",
@@ -248,13 +248,13 @@
                 "save_failed": ""
             },
             "shape": {
-                "portrait": "",
-                "square": "",
-                "landscape": ""
+                "portrait": "Hochformat",
+                "square": "Quadratisch",
+                "landscape": "Querformat"
             },
             "source": {
-                "none": "",
-                "books": "",
+                "none": "Keine (per Barcode oder händisch hinzufügen)",
+                "books": "Bücher (Open Library)",
                 "music": "",
                 "movies": "",
                 "tv": "",
