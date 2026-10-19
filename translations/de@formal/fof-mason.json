@@ -2,13 +2,13 @@
     "fof-mason": {
         "forum": {
             "composer": {
-                "add-details": ""
+                "add-details": "Details hinzufügen"
             },
             "discussion-controls": {
                 "edit-answers": "Felder bearbeiten"
             },
             "answers-modal": {
-                "compose-title": "",
+                "compose-title": "Diskussionsdetails",
                 "edit-title": "Felder bearbeiten für {title}",
                 "save": "Felder speichern"
             },
@@ -18,7 +18,7 @@
             "answers": {
                 "choose-option": "Eine Option auswählen",
                 "no-option-selected": "Keine option ausgewählt",
-                "required": ""
+                "required": "Dieses Feld ist erforderlich."
             },
             "tags": {
                 "inadequate-settings": "Die Themen-Einstellungen sind nicht korrekt konfiguriert. Erlaube maximal ein primäres und ein sekundäres Thema oder deaktiviere die Funktion „Thema als Felder”.\n",
@@ -31,22 +31,22 @@
                 "add-field": "Feld hinzufügen",
                 "save-field": "Feldänderungen speichern",
                 "delete-field": "Feld löschen",
-                "edit-field": "",
+                "edit-field": "Bearbeiten",
                 "add-answer": "Antwort hinzufügen",
                 "delete-answer": "Antwort löschen",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "edit-answer": "Antwort bearbeiten",
+                "edit-answer-prompt": "Ändert die Antwort überall, wo sie verwendet wird",
+                "show-user-answers": "{count, plural, one {# Antwort von Benutzern eingegeben} other {# Antworten von Benutzern eingegeben}}"
             },
             "field-list": {
-                "empty": "",
-                "free-text": "",
-                "dropdown": ""
+                "empty": "Noch keine Felder vorhanden. Füge eines hinzu, um strukturierte Angaben zu neuen Diskussionen zu erfassen.",
+                "free-text": "Freitext",
+                "dropdown": "{count, plural, =0 {Dropdown, noch keine Antworten} one {Dropdown · # Antwort} other {Dropdown · # Antworten}}"
             },
             "answers": {
-                "help": "",
-                "suggest": "",
-                "unsuggest": ""
+                "help": "Vorgeschlagene Antworten werden in einer Dropdown-Liste in dieser Reihenfolge angezeigt. Wenn eine Antwort bearbeitet wird, ändert sich diese in jeder Diskussion, in der sie verwendet wird.\n",
+                "suggest": "Vorschlagen",
+                "unsuggest": "Vorschlagmodus verlassen"
             },
             "fields": {
                 "edit": "Feld {field} bearbeiten",
@@ -76,14 +76,14 @@
                 "fields-section-title-placeholder": "Standardmäßig wird kein Titel angezeigt",
                 "fields-section-title-help": "Benutzer sehen diesen Text über den benutzerdefinierten Feldern im Editor und in der Diskussion.\n",
                 "column-count": "Anzahl der Spalten bei der Anzeige der Felder",
-                "n-columns": "",
+                "n-columns": "{count, plural, one {# Spalte} other {# Spalten}}",
                 "labels-as-placeholders": "Labels als Platzhalter im Formular anzeigen",
                 "labels-as-placeholders-help": "Felder benötigen weniger vertikalen Platz und Symbole werden nicht mehr angezeigt. Beachte, dass dies Auswirkungen auf die Benutzerfreundlichkeit haben kann, insbesondere beim Bearbeiten bestehender Felder.\n",
-                "fields-in-hero": "",
+                "fields-in-hero": "Felder im Diskussionsbanner anzeigen statt unter dem ersten Beitrag",
                 "hide-empty-fields-section": "Titel und Steuerelemente ausblenden, wenn alle Felder leer und ausgeblendet sind",
-                "hide-empty-fields-section-help": "",
+                "hide-empty-fields-section-help": "Standardmäßig wird der Abschnitt immer angezeigt, wenn der Benutzer Felder bearbeiten kann oder ein Titel festgelegt wurde, selbst wenn alle Felder ausgeblendet sind. Ist diese Option aktiviert, wird der Abschnitt ausgeblendet, und die Schaltfläche „Felder bearbeiten“ ist im Diskussionsmenü nur dann verfügbar, wenn alle Felder leer sind.\n",
                 "tags-as-field": "Themen-Auswahl als Feld anzeigen",
-                "tags-as-field-help": "",
+                "tags-as-field-help": "Fügt dem Formular mit den Diskussionsdetails ein Dropdown-Menü für Tags hinzu. Dies funktioniert nur, wenn du maximal ein primäres und ein sekundäres Tag zugelassen hast!\n",
                 "tags-field-name": "Bezeichnung des Themen-Feldes",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
@@ -106,9 +106,9 @@
         "lib": {
             "data": {
                 "masonanswers": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Die benutzererstellten Feldantworten auf von dir gestarteten Diskussionen.",
+                    "anonymize_description": "Deine benutzererstellten Antworten bleiben bei deinen Diskussionen.",
+                    "delete_description": "Antworten in benutzererstellten Feldern werden aus den von dir gestarteten Diskussionen entfernt, und von deinen eingegebene Antworten, die in keiner anderen Diskussion verwendet werden, werden sie gelöscht."
                 }
             }
         }
@@ -117,7 +117,7 @@
         "lib": {
             "browser": {
                 "mason_field": {
-                    "created": "",
+                    "created": "Benutzerdefiniertes Feld {name} erstellt",
                     "updated": "",
                     "deleted": ""
                 },
