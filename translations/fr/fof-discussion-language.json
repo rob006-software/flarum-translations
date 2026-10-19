@@ -16,7 +16,7 @@
                 "any": "N'importe quelle langue"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Choisissez une langue pour la discussion"
             },
             "sub_controls": {
                 "subscription_language_label": "Langue de discussion",
@@ -34,21 +34,21 @@
                 "errors": {
                     "missing_assets": "Nous n'avons pas pu charger les ressources nécessaires à cette extension. Essayez d'exécuter <code>php flarum assets:publish</code> et vérifiez si cela résout le problème."
                 },
-                "languages_heading": "",
-                "languages_help": "",
-                "attribution": "",
+                "languages_heading": "Langues",
+                "languages_help": "Les langues dans lesquelles une discussion peut avoir lieu. Chaque pays choisit le drapeau qui s'affiche à côté de chacune d'elles.",
+                "attribution": "Cette extension utilise des éléments issus de l’article Wikipédia <article>Liste des codes ISO 639-2</article>, publié sous la <license>Creative Commons Attribution – Partage dans les mêmes conditions 3.0</license>.",
                 "config": {
                     "language_label": "Langue",
                     "country_label": "Pays (pour l'affichage du drapeau)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Choisir une langue…",
+                    "choose_country": "Choisir un pays…",
+                    "add_button": "Ajouter une langue",
+                    "remove_button": "Supprimer {language}"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Autoriser la modification de la langue",
-                "change_language_label": ""
+                "change_language_label": "Changer la langue de la discussion"
             }
         },
         "api": {
@@ -59,8 +59,8 @@
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
-                    "hint": ""
+                    "key": "langue",
+                    "hint": "code de langue ou liste de codes de langue séparés par des virgules"
                 }
             }
         }
@@ -70,7 +70,7 @@
             "data": {
                 "subscriptionlanguages": {
                     "export_description": "",
-                    "anonymize_description": ""
+                    "anonymize_description": "Supprime la langue de discussion choisie par l'utilisateur pour chaque étiquette qu'il suit."
                 }
             }
         }
