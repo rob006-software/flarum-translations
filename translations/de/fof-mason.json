@@ -122,12 +122,12 @@
                     "deleted": "Benutzerdefiniertes Feld {name} gelöscht"
                 },
                 "mason_answer": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Antwort {name} zu benutzerdefiniertem Feld {key} hinzugefügt",
+                    "updated": "Antwort aktualisiert von {old_name} zu {new_name} in benutzerdefiniertem Feld {key} ({keys})",
+                    "deleted": "Antwort {name} von benutzerdefiniertem Feld {key} gelöscht"
                 },
                 "discussion": {
-                    "mason_answers_changed": ""
+                    "mason_answers_changed": "{keys} in {discussion} von {old_value} zu {new_value} geändert"
                 }
             }
         }
