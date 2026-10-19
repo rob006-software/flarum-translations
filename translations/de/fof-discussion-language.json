@@ -35,7 +35,7 @@
                     "missing_assets": "Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist."
                 },
                 "languages_heading": "Sprachen",
-                "languages_help": "",
+                "languages_help": "Die Sprachen, in denen eine Diskussion geführt werden kann. Das jeweilige Land bestimmt, welche Flagge dabei angezeigt wird.",
                 "attribution": "",
                 "config": {
                     "language_label": "Sprache",
@@ -60,7 +60,7 @@
             "gambits": {
                 "language": {
                     "key": "sprache",
-                    "hint": ""
+                    "hint": "Sprachcode oder durch Kommas getrennte Liste von Sprachcodes"
                 }
             }
         }
