@@ -2,8 +2,8 @@
     "ernestdefoe-curio": {
         "forum": {
             "status": {
-                "owned": "",
-                "wishlist": "",
+                "owned": "Im Besitz",
+                "wishlist": "Wünsche ich mir",
                 "trade": ""
             },
             "condition": {
@@ -15,12 +15,12 @@
                 "poor": ""
             },
             "visibility": {
-                "public": "",
-                "public_help": "",
-                "members": "",
-                "members_help": "",
-                "private": "",
-                "private_help": ""
+                "public": "Jeder",
+                "public_help": "Alle, die Sammlungen in diesem Forum ansehen können.",
+                "members": "Mitglieder",
+                "members_help": "Nur im Forum angemeldete.",
+                "private": "Nur ich",
+                "private_help": "Niemand, nicht einmal andere Mitglieder."
             },
             "count": {
                 "items": "",
@@ -28,26 +28,26 @@
                 "trade": ""
             },
             "filter": {
-                "all": "",
-                "owned": "",
-                "wishlist": "",
+                "all": "Alle",
+                "owned": "Im Besitz",
+                "wishlist": "Wünsche ich mir",
                 "trade": "",
                 "any": ""
             },
             "sort": {
                 "position": "",
                 "recent": "",
-                "title": "",
-                "year": ""
+                "title": "Titel",
+                "year": "Neueste zuerst"
             },
             "table": {
-                "title": "",
-                "status": ""
+                "title": "Titel",
+                "status": "Status"
             },
             "page": {
                 "missing": "",
                 "empty": "",
-                "since": "",
+                "since": "Seit {date}",
                 "owned": "",
                 "wanted": "",
                 "trade": "",
@@ -55,57 +55,57 @@
                 "following": "",
                 "followers": "",
                 "add_item": "",
-                "settings": "",
+                "settings": "Einstellungen",
                 "search": "",
                 "filter_label": "",
                 "view_label": "",
-                "view_grid": "",
-                "view_list": "",
+                "view_grid": "Raster",
+                "view_list": "Liste",
                 "arrange": "",
                 "arrange_done": "",
                 "load_more": ""
             },
             "edit": {
-                "title_new": "",
+                "title_new": "Neue Sammlung",
                 "title_edit": "",
                 "type": "",
                 "name": "",
-                "name_placeholder": "",
-                "description": "",
+                "name_placeholder": "Das Nintendo-Regal",
+                "description": "Beschreibung",
                 "visibility": "",
                 "wishlist_public": "",
                 "featured": "",
-                "create": "",
-                "save": "",
-                "delete": "",
+                "create": "Sammlung erstellen",
+                "save": "Speichern",
+                "delete": "Sammlung löschen",
                 "delete_confirm": ""
             },
             "item_edit": {
                 "title_new": "",
                 "title_edit": "",
                 "tab_find": "",
-                "tab_details": "",
+                "tab_details": "Details & Fotos",
                 "search_placeholder": "",
                 "barcode_placeholder": "",
                 "scan": "",
                 "scan_stop": "",
                 "camera_error": "",
-                "barcode_found": "",
+                "barcode_found": "Barcode {code} erkannt.",
                 "barcode_unknown": "",
                 "no_results": "",
                 "find_hint": "",
-                "by_hand": "",
+                "by_hand": "Händisch hinzufügen",
                 "lookup_failed": "",
                 "cover_looked_up": "",
                 "add_photos": "",
                 "photos_hint": "",
                 "remove_photo": "",
-                "title": "",
+                "title": "Titel",
                 "translated_hint": "",
                 "subtitle": "",
-                "year": "",
-                "status": "",
-                "condition": "",
+                "year": "Jahr",
+                "status": "Status",
+                "condition": "Zustand",
                 "condition_none": "",
                 "acquired": "",
                 "notes": "",
@@ -114,8 +114,8 @@
                 "price_private": "",
                 "favourite": "",
                 "choose": "",
-                "add": "",
-                "save": "",
+                "add": "Zur Sammlung hinzufügen",
+                "save": "Speichern",
                 "delete": "",
                 "delete_confirm": ""
             },
@@ -123,9 +123,9 @@
                 "missing": "",
                 "favourite": "",
                 "photo_n": "",
-                "yes": "",
-                "no": "",
-                "condition": "",
+                "yes": "Ja",
+                "no": "Nein",
+                "condition": "Zustand",
                 "acquired": "",
                 "price": "",
                 "about": "",
@@ -134,31 +134,31 @@
                 "from_wikipedia": "",
                 "from_wikidata": "",
                 "translated_deepl": "",
-                "languages": "",
+                "languages": "{count, plural, one {# Sprache} other {# Sprachen}}",
                 "offers": "",
-                "edit": "",
+                "edit": "Bearbeiten",
                 "have_too": "",
                 "want_it": "",
                 "choose_collection": "",
                 "show_off": "",
                 "discussed": "",
-                "cancel": ""
+                "cancel": "Abbrechen"
             },
             "profile": {
-                "nav": "",
+                "nav": "Sammlungen",
                 "items": "",
-                "collections": "",
+                "collections": "Sammlungen",
                 "wanted": "",
                 "trade": "",
                 "since": "",
-                "collections_heading": "",
-                "new": "",
-                "empty": "",
+                "collections_heading": "Sammlungen",
+                "new": "Neue Sammlung",
+                "empty": "Noch keine Sammlungen.",
                 "empty_own": "",
                 "wishlist_heading": ""
             },
             "browse": {
-                "title": "",
+                "title": "Sammlungen",
                 "lead": "",
                 "search": "",
                 "results": "",
@@ -173,7 +173,7 @@
                 "remove": ""
             },
             "marquee": {
-                "add": ""
+                "add": "Zur Sammlung hinzufügen"
             },
             "hero": {
                 "here": "",
@@ -186,13 +186,13 @@
             "transfer": {
                 "heading": "",
                 "help": "",
-                "import": "",
-                "export": "",
+                "import": "CSV-Datei importieren",
+                "export": "Als CSV herunterladen",
                 "done": "",
-                "format_curio": "",
-                "format_discogs": "",
-                "format_goodreads": "",
-                "format_storygraph": ""
+                "format_curio": "Curio",
+                "format_discogs": "Discogs",
+                "format_goodreads": "Goodreads",
+                "format_storygraph": "StoryGraph"
             },
             "notifications": {
                 "match": "",
@@ -202,8 +202,8 @@
             },
             "widget": {
                 "label": "",
-                "field_title": "",
-                "field_limit": "",
+                "field_title": "Titel",
+                "field_limit": "Wie viele",
                 "empty": ""
             }
         },
@@ -212,25 +212,25 @@
                 "upc_label": "",
                 "upc_help": "",
                 "upc_link": "",
-                "deepl_label": "",
-                "deepl_help": "",
-                "deepl_link": "",
-                "max_upload_label": "",
-                "max_upload_help": ""
+                "deepl_label": "DeepL-Schlüssel (optional)",
+                "deepl_help": "Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.",
+                "deepl_link": "Schlüssel holen",
+                "max_upload_label": "Maximale Fotogröße (KB)",
+                "max_upload_help": "Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese."
             },
             "types": {
-                "heading": "",
-                "help": "",
-                "drag": "",
-                "add": "",
+                "heading": "Typen von Sammlungen",
+                "help": "Die Mitglieder wählen für jede Sammlung einen Typ aus. Ein Typ legt die Form des Deckblatts, die abgefragten Angaben und die Quelle der Abfragen fest. Ziehe die Elemente, um die Reihenfolge zu ändern.",
+                "drag": "Zum Neuanordnen ziehen",
+                "add": "Typ hinzufügen",
                 "labels_in": "",
-                "name": "",
-                "icon": "",
-                "color": "",
+                "name": "Name",
+                "icon": "Symbol",
+                "color": "Farbe",
                 "shape": "",
                 "source": "",
                 "needs_marquee": "",
-                "fields": "",
+                "fields": "Details",
                 "fields_help": "",
                 "field_label": "",
                 "field_kind": "",
