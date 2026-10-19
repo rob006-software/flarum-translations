@@ -6,7 +6,7 @@
             },
             "index": {
                 "title": "Podcasts",
-                "subtitle": "",
+                "subtitle": "Shows aus dieser Community. Jede Episode erhält eine eigene Diskussion.",
                 "new_show": "Neue Show",
                 "empty": "Noch keine Shows.",
                 "latest": "Neueste {date}"
@@ -84,21 +84,21 @@
                 "hours_minutes": "{hours} Std. {minutes} Min."
             },
             "modal": {
-                "new_show": "",
-                "edit_show": "",
-                "new_episode": "",
+                "new_show": "Neue Show",
+                "edit_show": "Show bearbeiten",
+                "new_episode": "Neue Episode von {show}",
                 "edit_episode": "Episode bearbeiten",
                 "title": "Titel",
                 "title_help": "",
-                "tagline": "",
+                "tagline": "Untertitel",
                 "description": "Beschreibung",
                 "cover": "Titelbild",
                 "cover_help": "",
-                "category": "",
-                "category_placeholder": "",
+                "category": "Kategorie",
+                "category_placeholder": "z. B. Technologie",
                 "language": "Sprache",
                 "color": "Farbe",
-                "explicit": "",
+                "explicit": "Expliziter Inhalt",
                 "links": "",
                 "moderation": "",
                 "hosts": "",
@@ -109,9 +109,9 @@
                 "tag": "",
                 "no_tag": "",
                 "tag_help": "",
-                "season": "",
-                "number": "",
-                "audio": "",
+                "season": "Staffel",
+                "number": "Episodennummer",
+                "audio": "Audio",
                 "replace_audio": "",
                 "audio_file": "",
                 "audio_url": "",
@@ -133,7 +133,7 @@
                 "title": "",
                 "heading": "",
                 "empty": "",
-                "all": ""
+                "all": "Alle Podcasts"
             },
             "notifications": {
                 "new_episode": ""
@@ -144,7 +144,7 @@
         },
         "admin": {
             "settings": {
-                "nav": "",
+                "nav": "„Podcasts“ in der Seitenleiste anzeigen",
                 "fetch_minutes": "",
                 "fetch_minutes_help": "",
                 "backlog": "",
@@ -153,9 +153,9 @@
                 "max_audio_mb_help": ""
             },
             "permissions": {
-                "view": "",
+                "view": "Podcasts anhören",
                 "follow": "",
-                "manage": ""
+                "manage": "Shows starten und verwalten"
             }
         },
         "api": {
