@@ -17,14 +17,14 @@
                     "introduction": "Ce forum effectue lui-même ces vérifications lors de chaque inscription, sans rien transmettre à un service externe. Les recherches effectuées auprès de StopForumSpam disposent d'un onglet dédié.",
                     "honeypot_heading": "Honeypot",
                     "honeypot_label": "Piéger les robots qui remplissent des formulaires",
-                    "honeypot_help": "",
-                    "honeypot_min_seconds_label": "",
-                    "honeypot_min_seconds_help": "",
-                    "honeypot_strict_label": "",
-                    "honeypot_strict_help": "",
-                    "throttle_heading": "",
-                    "registration_throttle_label": "",
-                    "registration_throttle_help": ""
+                    "honeypot_help": "Ajoute un champ invisible aux utilisateurs dans le formulaire d'inscription et refuse les inscriptions qui le remplissent ou qui sont effectuées plus rapidement qu'une personne ne le pourrait. Il détecte les robots que StopForumSpam n'a pas encore identifiés, n'envoie aucune donnée hors du site et ne demande rien aux vrais utilisateurs.",
+                    "honeypot_min_seconds_label": "Nombre minimum de secondes avant une inscription",
+                    "honeypot_min_seconds_help": "Ce délai est calculé à partir du moment où la page a été affichée. Une personne qui lit le formulaire met plus de temps que cela ; un script, non.",
+                    "honeypot_strict_label": "Refuser les inscriptions qui ignorent le formulaire",
+                    "honeypot_strict_help": "Refuse également les inscriptions d'invités envoyées sans le formulaire, comme c'est le cas avec les scripts qui effectuent des requêtes directement via l'API. Désactivez cette option si une application, une passerelle SSO ou un autre outil crée des comptes via l'API.",
+                    "throttle_heading": "Limite de fréquence",
+                    "registration_throttle_label": "Nombre de secondes entre deux inscriptions provenant d'une même adresse",
+                    "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes."
                 },
                 "content-filter": {
                     "heading": "Filtre de contenu",
@@ -113,7 +113,7 @@
                     "blocked_asns_help": "Une par ligne, ou séparées par des virgules. Les inscriptions provenant de ces réseaux sont systématiquement refusées, que l'adresse figure dans la liste ou non. StopForumSpam renvoie le numéro de réseau à chaque requête, et presque personne ne navigue sur un forum depuis un hébergeur. Accepte 31272 ou AS31272. Laissez ce champ vide pour enregistrer le réseau sans prendre de mesure.",
                     "max_listing_age_label": "Ignorer les listes anciennes de plus de (en jours)",
                     "max_listing_age_help": "Une observation datant d'il y a plusieurs années ne nous apprend pas grand-chose sur la personne qui s'inscrit aujourd'hui. 0 conserve toutes les inscriptions, quelle que soit leur ancienneté. Les domaines et réseaux figurant sur la liste noire sont toujours pris en compte, indépendamment de cela.",
-                    "lookup_failed": "Impossible d'accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu'à ce que le service soit rétabli.",
+                    "lookup_failed": "Impossible d'accéder à StopForumSpam (premier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu'à ce que le service soit rétabli.",
                     "email_hash_label": "Utiliser une adresse électronique hachée",
                     "email_hash_help": "Transmettez un hachage MD5 de l'adresse de courriel si vous souhaitez ne pas transmettre l'adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l'obscurcissement.",
                     "block_tor_exit_nodes_label": "Bloquer les nœuds de sortie Tor",
@@ -121,7 +121,7 @@
                     "sfs_lookup_label": "Consulter les inscriptions",
                     "sfs_lookup_help": "Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu'un nouvel utilisateur s'inscrit sur votre forum. Si l'utilisateur est trouvé (nom d'utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l'utilisateur ne pourra pas finaliser son inscription.",
                     "report_blocked_registrations_label": "Signaler les inscriptions bloquées",
-                    "report_blocked_registrations_help": "Lorsqu'une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l'activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous).",
+                    "report_blocked_registrations_help": "Lorsque les données propres à StopForumSpam bloquent une inscription, cette tentative est signalée afin de pouvoir confirmer l'activité du spammeur. Les blocages provenant de Tor ou d'un réseau refusé ne sont jamais signalés, car il s'agit d'une règle de ce forum et non d'une preuve. Nécessite une clé API StopForumSpam (voir ci-dessus).",
                     "registration_throttle_label": "Nombre de secondes entre deux inscriptions provenant d'une même adresse",
                     "registration_throttle_help": "Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l'esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes."
                 },
@@ -144,7 +144,7 @@
                 "button": "Inscriptions bloquées",
                 "title": "Inscriptions bloquées",
                 "no-records": "Aucune inscription n'a été bloquée.",
-                "help": "Cette page présente toutes les inscriptions qui ont été bloquées par le service StopForumSpam. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n",
+                "help": "Cette page présente toutes les inscriptions qui ont été bloquées, par StopForumSpam ou par le « honeypot » d'inscription. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n",
                 "attempted-at": "Tentative sur",
                 "ip": "Adresse IP",
                 "email": "Adresse de courriel",
@@ -184,10 +184,10 @@
                         "blacklisted": "Sur la liste noire",
                         "torExit": "Nœud de sortie Tor",
                         "deniedAsn": "Réseau refusé",
-                        "honeypot": "",
-                        "tooFast": "",
-                        "formToken": "",
-                        "noForm": ""
+                        "honeypot": "A renseigné le champ masqué",
+                        "tooFast": "Envoyé plus vite qu'une personne ne pourrait le faire",
+                        "formToken": "Formulaire d'inscription altéré ou réutilisé",
+                        "noForm": "Non envoyé via le formulaire d'inscription"
                     },
                     "field": {
                         "ip": "IP",
@@ -226,8 +226,8 @@
                     "blocked": "Cela ressemble à du spam, c'est pourquoi il n'a pas été enregistré. Veuillez supprimer tous les liens et coordonnées, puis réessayez."
                 },
                 "honeypot": {
-                    "refused": "",
-                    "reload": ""
+                    "refused": "Nous n'avons pas pu finaliser votre inscription.",
+                    "reload": "Une erreur s'est produite avec le formulaire d'inscription. Veuillez actualiser la page et réessayer."
                 },
                 "stopforumspam": {
                     "blocked": "Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée."
