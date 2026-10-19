@@ -936,7 +936,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/font-sizer/v1.7.0/locale/en.yml',
 	],
 	'linkrobins-html-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.3.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/html-widget/v1.3.4/locale/en.yml',
 	],
 	'linkrobins-link-gate' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-link-gate/v2.0.2/locale/en.yml',
