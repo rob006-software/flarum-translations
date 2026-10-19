@@ -31,7 +31,7 @@
                 "save": "Speichern",
                 "edit": "Bearbeiten",
                 "delete": "Löschen",
-                "delete_confirm": "",
+                "delete_confirm": "Den Club {name} löschen? Die Diskussionen bleiben erhalten; die Termine und die Fortschritte aller Mitglieder gehen verloren.",
                 "join": "Club beitreten",
                 "leave": "Verlassen",
                 "missing": "Dieser Club existiert nicht oder wurde gelöscht.",
@@ -48,14 +48,14 @@
             "pick": {
                 "title": "{title} als Club-Auswahl hinzufügen",
                 "edit_title": "Zeitplan für {title}",
-                "no_clubs": "",
+                "no_clubs": "Du leitest noch keinen Club. Gründe zunächst einen auf der Seite „Clubs“.",
                 "club_label": "Club",
                 "month_label": "Monat",
                 "schedule_label": "Zeitplan",
-                "schedule_help": "",
-                "split_into": "",
-                "parts_label": "",
-                "split_button": "",
+                "schedule_help": "Teile es in Abschnitte auf, zum Beispiel Kapitel 1–5 bis zum 10. oder Folgen 1–3 in dieser Woche. In den Antworten ist der jeweilige Abschnitt anzugeben, auf den sie sich beziehen, und sie bleiben für Mitglieder verborgen, die diesen Abschnitt noch nicht abgeschlossen haben.",
+                "split_into": "Aufteilen in",
+                "parts_label": "Anzahl der Abschnitte",
+                "split_button": "Abschnitte gleichmäßig über den Monat verteilen",
                 "default_part": "Teil {number}",
                 "default_week": "Woche {number}",
                 "section_label": "Abschnitt {number}",
@@ -63,34 +63,34 @@
                 "due_label": "Abschnitt {number} fällig",
                 "remove_section": "Abschnitt {number} entfernen",
                 "add_section": "Abschnitt hinzufügen",
-                "create": "",
-                "save": ""
+                "create": "Zur Auswahl machen",
+                "save": "Zeitplan speichern"
             },
             "panel": {
                 "pick_for": "Club-Auswahl für {month}",
                 "your_progress": "Dein Fortschritt",
                 "done_of": "{done} von {count}",
                 "due": "bis {date}",
-                "mark": "",
-                "unmark": "",
-                "join": "",
-                "members_only": "",
+                "mark": "Ich habe {label} abgeschlossen",
+                "unmark": "Ich habe {label} doch noch nicht abgeschlossen",
+                "join": "Tritt {club} bei, um auf dem Laufenden zu bleiben",
+                "members_only": "Mitglieder des Clubs verfolgen hier ihren Fortschritt.",
                 "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
-                "member_progress": ""
+                "member_progress": "Fortschritt von {name}"
             },
             "section": {
-                "name": "",
+                "name": "{number}. {label}",
                 "number": "Abschnitt {number}"
             },
             "composer": {
                 "about": "Über",
-                "general": ""
+                "general": "Alles bisher (keine Spoiler)"
             },
             "spoiler": {
                 "title": "Spoiler für {section}",
-                "body": "",
-                "body_member": "",
-                "finished": ""
+                "body": "Mitglieder, die diesen Abschnitt abgeschlossen haben, können ihn lesen.",
+                "body_member": "Du hast diesen Abschnitt noch nicht als abgeschlossen markiert, daher ist er ausgeblendet, damit dir die Überraschung nicht vorweggenommen wird.",
+                "finished": "Ich habe {section} abgeschlossen"
             }
         }
     }
