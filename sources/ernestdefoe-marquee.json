@@ -4,7 +4,7 @@
             "tmdb_token_label": "TMDB API read access token",
             "tmdb_token_help": "Movies and TV shows come from The Movie Database. <a>Get a token from your TMDB API settings</a> and paste the long API Read Access Token here. It stays on the server.",
             "igdb_label": "Twitch app credentials for IGDB",
-            "igdb_help": "Games come from IGDB, which Twitch runs. <a>Register an app in the Twitch developer console</a> (client type Confidential), make a client secret, and paste both here. The secret stays on the server. IGDB is free for non-commercial forums; a commercial forum needs a partnership with IGDB.",
+            "igdb_help": "Games come from IGDB, which Twitch runs. <a>Register an app in the Twitch developer console</a> (Twitch asks for two-factor authentication on your account first; client type Confidential, redirect URL https://localhost), make a client secret, and paste both here. The secret stays on the server. IGDB is free for non-commercial forums; a commercial forum needs a partnership with IGDB.",
             "igdb_client_id": "Client ID",
             "igdb_client_secret": "Client secret",
             "deepl_label": "DeepL API key (optional)",
