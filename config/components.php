@@ -270,7 +270,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-mobile-tab' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.10/locale/en.yml',
