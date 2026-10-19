@@ -79,40 +79,40 @@
         "admin": {
             "fields": {
                 "title": "Rezeptfelder",
-                "help": "",
+                "help": "Zusätzliche Angaben, die deine Community zu jedem Rezept erfasst, wie beispielsweise Kalorien, Eiweiß oder Phe. Die Autoren tragen diese Angaben in das Rezeptformular ein, und die Leser sehen sie auf der Karte. Ein Wert pro Portion bleibt unverändert, wenn ein Leser die Anzahl der Portionen ändert; der Wert für das gesamte Rezept passt sich entsprechend an. Zum Neuanordnen ziehen.",
                 "label": "Beschriftung",
-                "label_placeholder": "Protein",
+                "label_placeholder": "Eiweiß",
                 "key": "Schlüssel",
-                "key_help": "",
+                "key_help": "Der Schlüssel jedes Feldes wird im Rezepttext im Format „Schlüssel: Wert“ angegeben: Kleinbuchstaben, Zahlen und Bindestriche, beginnend mit einem Buchstaben.",
                 "unit": "Einheit",
                 "unit_placeholder": "g",
-                "scope": "",
+                "scope": "Wert ist",
                 "scope_serving": "Pro Portion",
                 "scope_recipe": "Gesamtes Rezept",
                 "schema": "Suchmaschinen",
-                "schema_none": "Nur Karte",
+                "schema_none": "Nur auf der Karte",
                 "schema_options": {
                     "calories": "Kalorien",
-                    "carbohydrate": "",
-                    "cholesterol": "",
+                    "carbohydrate": "Kohlenhydrate",
+                    "cholesterol": "Cholesterin",
                     "fat": "Fett",
                     "fiber": "Ballaststoffe",
-                    "protein": "Protein",
+                    "protein": "Eiweiß",
                     "saturatedFat": "Gesättigte Fettsäuren",
                     "sodium": "Natrium",
                     "sugar": "Zucker",
-                    "transFat": "",
-                    "unsaturatedFat": ""
+                    "transFat": "Transfette",
+                    "unsaturatedFat": "Ungesättigte Fettsäuren"
                 },
                 "add": "Feld hinzufügen",
                 "remove": "Dieses Feld entfernen",
-                "drag": "",
+                "drag": "Zum Neuanordnen ziehen",
                 "empty": "Noch keine Felder.",
-                "key_required": "",
-                "key_invalid": "",
-                "reserved": "",
-                "duplicate": "",
-                "max": ""
+                "key_required": "Diesem Feld einen Schlüssel zuweisen.",
+                "key_invalid": "Ein Schlüssel beginnt mit einem Buchstaben und besteht ausschließlich aus Kleinbuchstaben, Ziffern und Bindestrichen.",
+                "reserved": "Dieser Schlüssel wird bereits von jedem Rezept verwendet.",
+                "duplicate": "Ein anderes Feld verwendet bereits diesen Schlüssel.",
+                "max": "Ein Forum kann bis zu 20 Felder haben."
             }
         }
     }
