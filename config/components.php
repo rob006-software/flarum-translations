@@ -842,6 +842,9 @@ return [
 	'ianm-follow-users' => [
 		'beta' => 'https://raw.githubusercontent.com/imorland/follow-users/2.0.0-beta.9/resources/locale/en.yml',
 	],
+	'ianm-gravatar' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/2.0.0/resources/locale/en.yml',
+	],
 	'ianm-html-head' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/2.0.0/resources/locale/en.yml',
 	],
