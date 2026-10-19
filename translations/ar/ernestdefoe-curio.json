@@ -25,7 +25,8 @@
             "count": {
                 "items": "",
                 "wanted": "",
-                "trade": ""
+                "trade": "",
+                "collections": ""
             },
             "filter": {
                 "all": "",
@@ -38,11 +39,13 @@
                 "position": "",
                 "recent": "",
                 "title": "",
-                "year": ""
+                "year": "",
+                "rating": ""
             },
             "table": {
                 "title": "",
-                "status": ""
+                "status": "",
+                "rating": ""
             },
             "page": {
                 "missing": "",
@@ -117,7 +120,10 @@
                 "add": "",
                 "save": "",
                 "delete": "",
-                "delete_confirm": ""
+                "delete_confirm": "",
+                "rating": "",
+                "rating_value": "",
+                "rating_none": ""
             },
             "item": {
                 "missing": "",
@@ -142,7 +148,12 @@
                 "choose_collection": "",
                 "show_off": "",
                 "discussed": "",
-                "cancel": ""
+                "cancel": "",
+                "developer": "",
+                "publisher": "",
+                "released": "",
+                "genres": "",
+                "platforms": ""
             },
             "profile": {
                 "nav": "",
@@ -165,7 +176,36 @@
                 "no_results": "",
                 "recent": "",
                 "featured": "",
-                "none": ""
+                "none": "",
+                "add": ""
+            },
+            "nav": {
+                "mine": ""
+            },
+            "genre": {
+                "point_and_click": "",
+                "fighting": "",
+                "shooter": "",
+                "music": "",
+                "platform": "",
+                "puzzle": "",
+                "racing": "",
+                "real_time_strategy_rts": "",
+                "role_playing_rpg": "",
+                "simulator": "",
+                "sport": "",
+                "strategy": "",
+                "turn_based_strategy_tbs": "",
+                "tactical": "",
+                "hack_and_slash_beat_em_up": "",
+                "quiz_trivia": "",
+                "pinball": "",
+                "adventure": "",
+                "indie": "",
+                "arcade": "",
+                "visual_novel": "",
+                "card_board_game": "",
+                "moba": ""
             },
             "showoff": {
                 "title": "",
@@ -216,7 +256,18 @@
                 "deepl_help": "",
                 "deepl_link": "",
                 "max_upload_label": "",
-                "max_upload_help": ""
+                "max_upload_help": "",
+                "layout_label": "",
+                "layout_help": "",
+                "layout_tags": "",
+                "layout_covers": "",
+                "widget_label": "",
+                "widget_help": "",
+                "igdb_id_label": "",
+                "igdb_secret_label": "",
+                "igdb_help": "",
+                "igdb_link": "",
+                "igdb_docs": ""
             },
             "types": {
                 "heading": "",

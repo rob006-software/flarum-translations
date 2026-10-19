@@ -25,7 +25,8 @@
             "count": {
                 "items": "{count, plural, one {# item} other {# items}}",
                 "wanted": "{count} wanted",
-                "trade": "{count} to trade"
+                "trade": "{count} to trade",
+                "collections": "{count, plural, one {# collection} other {# collections}}"
             },
             "filter": {
                 "all": "All",
@@ -38,11 +39,13 @@
                 "position": "Owner's order",
                 "recent": "Recently added",
                 "title": "Title",
-                "year": "Newest first"
+                "year": "Newest first",
+                "rating": "Highest rated"
             },
             "table": {
                 "title": "Title",
-                "status": "Status"
+                "status": "Status",
+                "rating": "Rating"
             },
             "page": {
                 "missing": "This collection doesn't exist, or you can't see it.",
@@ -117,7 +120,10 @@
                 "add": "Add to collection",
                 "save": "Save",
                 "delete": "Delete item",
-                "delete_confirm": "Delete {title}? This can't be undone."
+                "delete_confirm": "Delete {title}? This can't be undone.",
+                "rating": "Your rating",
+                "rating_value": "{stars} out of 5",
+                "rating_none": "Not rated. Tap a star; tap it again to clear."
             },
             "item": {
                 "missing": "This item doesn't exist, or you can't see it.",
@@ -142,7 +148,12 @@
                 "choose_collection": "Which collection?",
                 "show_off": "Show it off",
                 "discussed": "Discussed here",
-                "cancel": "Cancel"
+                "cancel": "Cancel",
+                "developer": "Developer",
+                "publisher": "Publisher",
+                "released": "Released",
+                "genres": "Genres",
+                "platforms": "Platforms"
             },
             "profile": {
                 "nav": "Collections",
@@ -165,7 +176,36 @@
                 "no_results": "Nothing matches that.",
                 "recent": "Recently added",
                 "featured": "Featured collections",
-                "none": "No collections here yet."
+                "none": "No collections here yet.",
+                "add": "Add an item"
+            },
+            "nav": {
+                "mine": "My collections"
+            },
+            "genre": {
+                "point_and_click": "Point-and-click",
+                "fighting": "Fighting",
+                "shooter": "Shooter",
+                "music": "Music",
+                "platform": "Platform",
+                "puzzle": "Puzzle",
+                "racing": "Racing",
+                "real_time_strategy_rts": "Real-time strategy",
+                "role_playing_rpg": "Role-playing (RPG)",
+                "simulator": "Simulation",
+                "sport": "Sport",
+                "strategy": "Strategy",
+                "turn_based_strategy_tbs": "Turn-based strategy",
+                "tactical": "Tactical",
+                "hack_and_slash_beat_em_up": "Hack and slash / Beat 'em up",
+                "quiz_trivia": "Quiz / Trivia",
+                "pinball": "Pinball",
+                "adventure": "Adventure",
+                "indie": "Indie",
+                "arcade": "Arcade",
+                "visual_novel": "Visual novel",
+                "card_board_game": "Card & board game",
+                "moba": "MOBA"
             },
             "showoff": {
                 "title": "My {title}",
@@ -185,7 +225,7 @@
             },
             "transfer": {
                 "heading": "Import and export",
-                "help": "Bring in a spreadsheet: a Curio export, a Discogs collection export, or a Goodreads or StoryGraph library export. Covers and descriptions are found in the background over the next few minutes.",
+                "help": "Bring in a spreadsheet: a Curio export, a Discogs collection export, or a Goodreads or StoryGraph library export. Ratings come across too. Covers and descriptions are found in the background over the next few minutes.",
                 "import": "Import a CSV file",
                 "export": "Download as CSV",
                 "done": "{count, plural, one {# item} other {# items}} imported from the {format} file ({skipped} skipped).",
@@ -216,7 +256,18 @@
                 "deepl_help": "When Wikipedia has no description in a language, DeepL translates the English one. Free keys end in \":fx\".",
                 "deepl_link": "Get a key",
                 "max_upload_label": "Largest photo (KB)",
-                "max_upload_help": "Photos are re-encoded as WebP and resized, so what is stored is much smaller than this."
+                "max_upload_help": "Photos are re-encoded as WebP and resized, so what is stored is much smaller than this.",
+                "layout_label": "Collections page layout",
+                "layout_help": "How the Collections page shows each type.",
+                "layout_tags": "Like the Tags page (Flarum default)",
+                "layout_covers": "Cover tiles",
+                "widget_label": "Offer the \"Recently added\" widget",
+                "widget_help": "Off by default. When on, the widget can be placed with Bespoke or FoF Forum Widgets (it first appears in FoF's right-hand column; move or remove it in FoF's layout editor). Reload the admin after switching it on.",
+                "igdb_id_label": "IGDB client ID (optional)",
+                "igdb_secret_label": "IGDB client secret",
+                "igdb_help": "With a free Twitch developer app, game look-ups search IGDB: cover, developer, publisher, release date, platforms and genres. Register an application (any name; OAuth redirect URL http://localhost; category Application Integration), then copy its Client ID and make a New Secret. Without it, games are looked up through Marquee when it is installed.",
+                "igdb_link": "Create a Twitch app",
+                "igdb_docs": "(IGDB's instructions)"
             },
             "types": {
                 "heading": "Collection types",
@@ -229,7 +280,7 @@
                 "color": "Colour",
                 "shape": "Cover shape",
                 "source": "Look-ups",
-                "needs_marquee": "Film, TV and game search comes from Marquee. Until it is installed, members of this type can still scan barcodes or add items by hand.",
+                "needs_marquee": "Film and TV search comes from Marquee, and game search from IGDB (set up in the settings above) or Marquee. Until it is installed, members of this type can still scan barcodes or add items by hand.",
                 "fields": "Details",
                 "fields_help": "What members fill in for each item. The first choice field is used for the breakdown and filter on collection pages (platform, format…).",
                 "field_label": "Label ({language})",
@@ -258,7 +309,7 @@
                 "music": "Albums (Deezer, MusicBrainz)",
                 "movies": "Films (via Marquee)",
                 "tv": "TV (via Marquee)",
-                "games": "Games (via Marquee)"
+                "games": "Games (IGDB, or via Marquee)"
             },
             "kind": {
                 "select": "Choice",
