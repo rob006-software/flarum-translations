@@ -26,7 +26,7 @@
                 "items": "",
                 "wanted": "",
                 "trade": "{count} zum Tausch verfügbar",
-                "collections": ""
+                "collections": "{count, plural, one {# Sammlung} other {# Sammlungen}}"
             },
             "filter": {
                 "all": "Alle",
@@ -36,8 +36,8 @@
                 "any": ""
             },
             "sort": {
-                "position": "",
-                "recent": "",
+                "position": "Sortierung des Besitzers",
+                "recent": "Kürzlich hinzugefügt",
                 "title": "Titel",
                 "year": "Neueste zuerst",
                 "rating": ""
