@@ -16,7 +16,7 @@
                 "any": "Beliebige Sprache"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Wähle eine Diskussionssprache"
             },
             "sub_controls": {
                 "subscription_language_label": "Sprache für Diskussionen",
@@ -34,21 +34,21 @@
                 "errors": {
                     "missing_assets": "Die von dieser Erweiterung benötigten Assets konnten nicht geladen werden. Versuche, <code>php flarum assets:publish</code> auszuführen und prüfe, ob das Problem damit behoben ist."
                 },
-                "languages_heading": "",
+                "languages_heading": "Sprachen",
                 "languages_help": "",
                 "attribution": "",
                 "config": {
                     "language_label": "Sprache",
                     "country_label": "Land (für Display-Flagge)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Wähle eine Sprache…",
+                    "choose_country": "Wähle ein Land…",
+                    "add_button": "Sprache hinzufügen",
+                    "remove_button": "{language} entfernen"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Sprachbearbeitung erlauben",
-                "change_language_label": ""
+                "change_language_label": "Diskussionssprache ändern"
             }
         },
         "api": {
@@ -59,7 +59,7 @@
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
+                    "key": "sprache",
                     "hint": ""
                 }
             }
