@@ -246,7 +246,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.4.0/locale/en.yml',
 	],
 	'ernestdefoe-lobby' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-logo-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.3/locale/en.yml',
