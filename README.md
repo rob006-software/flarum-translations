@@ -1002,6 +1002,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-janitor`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-janitor) | [`ernestdefoe/janitor`](https://github.com/ernestdefoe/janitor) |
 | [`ernestdefoe-kindred`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kindred) | [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) |
 | [`ernestdefoe-ladder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ladder) | [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) |
+| [`ernestdefoe-lobby`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-lobby) | [`ernestdefoe/lobby`](https://github.com/ernestdefoe/lobby) |
 | [`ernestdefoe-logo-manager`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-logo-manager) | [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) |
 | [`ernestdefoe-maintenance`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-maintenance) | [`ernestdefoe/maintenance`](https://github.com/ernestdefoe/maintenance) |
 | [`ernestdefoe-manticore`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-manticore) | [`ernestdefoe/manticore`](https://github.com/ernestdefoe/manticore) |
