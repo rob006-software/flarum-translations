@@ -8,7 +8,7 @@
             "ingredients": "Zutaten",
             "steps": "Zubereitung",
             "based_on": "Basierend auf einem anderen Rezept",
-            "per_serving": "",
+            "per_serving": "pro Portion",
             "duration": {
                 "hours": "{count} h",
                 "minutes": "{count} min",
@@ -70,15 +70,15 @@
                 "card_label": "Rezept: {title}",
                 "card_untitled": "Unbenanntes Rezept",
                 "remix_title": "Dieses Rezept remixen",
-                "field_serving": "",
-                "field_recipe": "",
-                "invalid_number": "",
+                "field_serving": "Pro Portion",
+                "field_recipe": "Gesamtes Rezept",
+                "invalid_number": "{field} muss eine Zahl sein, zum Beispiel 12 oder 12,5.",
                 "remix_insert": "Im Composer öffnen"
             }
         },
         "admin": {
             "fields": {
-                "title": "",
+                "title": "Rezeptfelder",
                 "help": "",
                 "label": "",
                 "label_placeholder": "",
