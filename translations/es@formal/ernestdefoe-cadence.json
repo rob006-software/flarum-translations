@@ -1,34 +1,34 @@
 {
     "ernestdefoe-cadence": {
         "forum": {
-            "map_label": "",
-            "metric_label": "",
-            "kind_all": "",
-            "kind_discussion": "",
-            "kind_reply": "",
-            "kind_like": "",
-            "kind_reaction": "",
-            "kind_best_answer": "",
-            "kind_count_discussion": "",
-            "kind_count_reply": "",
-            "kind_count_like": "",
-            "kind_count_reaction": "",
-            "kind_count_best_answer": "",
-            "nothing_on": "",
-            "count_on": "",
-            "spark_label": "",
-            "less": "",
-            "more": "",
-            "nothing": "",
-            "at_least": ""
+            "map_label": "Actividad a lo largo del tiempo",
+            "metric_label": "Qué mostrar",
+            "kind_all": "Todo",
+            "kind_discussion": "Discusiones",
+            "kind_reply": "Respuestas",
+            "kind_like": "Me gusta",
+            "kind_reaction": "Reacciones",
+            "kind_best_answer": "Mejores respuestas",
+            "kind_count_discussion": "{count, plural, one {# discusión iniciada} other {# discusiones iniciadas}}",
+            "kind_count_reply": "{count, plural, one {# respuesta} other {# respuestas}}",
+            "kind_count_like": "{count, plural, one {# «Me gusta» dado} other {# «Me gusta» dados}}",
+            "kind_count_reaction": "{count, plural, one {# reacción} other {# reacciones}}",
+            "kind_count_best_answer": "{count, plural, one {# mejor respuesta} other {# mejores respuestas}}",
+            "nothing_on": "Sin actividad el {date}",
+            "count_on": "{count, plural, one {# elemento el {date}} other {# elementos el {date}}}",
+            "spark_label": "{count, plural, one {# elemento en las últimas 26 semanas} other {# elementos en las últimas 26 semanas}}",
+            "less": "Menos",
+            "more": "Más",
+            "nothing": "Ninguna",
+            "at_least": "{count, plural, one {# o más} other {# o más}}"
         },
         "admin": {
-            "show_on_profile": "",
-            "show_on_profile_help": "",
-            "show_on_posts": "",
-            "show_on_posts_help": "",
-            "show_on_cards": "",
-            "show_on_cards_help": ""
+            "show_on_profile": "Mostrar el mapa en el perfil de los miembros",
+            "show_on_profile_help": "El mapa completo en cada perfil. Esta es la opción recomendada para la mayoría de los foros.\n",
+            "show_on_posts": "Mostrar una gráfica de tendencia (sparkline) junto a cada publicación",
+            "show_on_posts_help": "Un pequeño trazado de las últimas 26 semanas junto a cada autor. Realiza solo una consulta adicional por cada miembro distinto en la página (no por publicación), por lo que consume muy pocos recursos, pero permanece desactivado a menos que lo habilite.\n",
+            "show_on_cards": "Mostrar una gráfica de tendencia (sparkline) en las tarjetas de usuario",
+            "show_on_cards_help": "En las tarjetas emergentes y en cualquier otro lugar donde se muestre el resumen de un miembro.\n"
         }
     }
 }
