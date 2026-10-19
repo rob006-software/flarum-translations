@@ -887,6 +887,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-mailing`](https://weblate.rob006.net/projects/flarum2/fof-mailing) | [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing) |
 | [`fof-mailtrap-mail`](https://weblate.rob006.net/projects/flarum2/fof-mailtrap-mail) | [`fof/mailtrap-mail`](https://github.com/FriendsOfFlarum/mailtrap-mail) |
 | [`fof-mark-unread`](https://weblate.rob006.net/projects/flarum2/fof-mark-unread) | [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) |
+| [`fof-mason`](https://weblate.rob006.net/projects/flarum2/fof-mason) | [`fof/mason`](https://github.com/FriendsOfFlarum/mason) |
 | [`fof-masquerade`](https://weblate.rob006.net/projects/flarum2/fof-masquerade) | [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) |
 | [`fof-merge-discussions`](https://weblate.rob006.net/projects/flarum2/fof-merge-discussions) | [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) |
 | [`fof-moderator-notes`](https://weblate.rob006.net/projects/flarum2/fof-moderator-notes) | [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) |
@@ -942,6 +943,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`asyntai-chatbot`](https://weblate.rob006.net/projects/flarum2/asyntai-chatbot) | [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) |
 | [`captchala-flarum`](https://weblate.rob006.net/projects/flarum2/captchala-flarum) | [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) |
 | [`cengizkemec-support-tickets`](https://weblate.rob006.net/projects/flarum2/cengizkemec-support-tickets) | [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) |
+| [`clarkwinkelmann-likes-received`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-likes-received) | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) |
 | [`clarkwinkelmann-prominent-post-numbers`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-prominent-post-numbers) | [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) |
 | [`clarkwinkelmann-selective-mediaembed`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-selective-mediaembed) | [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) |
 | [`dashzeveg-ads-manager`](https://weblate.rob006.net/projects/flarum2/dashzeveg-ads-manager) | [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager) |
@@ -1076,6 +1078,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-traderfeedback`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-traderfeedback) | [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) |
 | [`ianm-boring-avatars`](https://weblate.rob006.net/projects/flarum2/ianm-boring-avatars) | [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum2/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
+| [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum2/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum2/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-log-viewer`](https://weblate.rob006.net/projects/flarum2/ianm-log-viewer) | [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) |
 | [`ianm-oauth-reddit`](https://weblate.rob006.net/projects/flarum2/ianm-oauth-reddit) | [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit) |
