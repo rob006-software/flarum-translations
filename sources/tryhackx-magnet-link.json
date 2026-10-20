@@ -29,6 +29,8 @@
                 "max_trackers_help": "Maximum number of trackers to contact per magnet. Set to 0 to use the built-in safety cap (12). A hard time budget also applies so a single magnet can't hang a request.",
                 "topic_scrape_budget_label": "Topic Scrape Time Budget (seconds)",
                 "topic_scrape_budget_help": "Maximum total time spent scraping trackers for a magnet shown in the open topic (the in-post card). Default 15. This is the accurate, full view, so it gets a longer budget than the list tooltip. Hard-capped at 30 seconds so one request can't tie up a worker for long.",
+                "scrape_max_concurrent_label": "Max Concurrent Scrapes (server-wide)",
+                "scrape_max_concurrent_help": "How many tracker scrapes that miss the cache may run at the same time on the whole server (default 4). Each one holds a PHP worker for up to its time budget — and a tooltip hover that the visitor leaves early keeps scraping on the server — so without a cap, fast browsing of the list or many uncached topics at once could tie up the whole worker pool. Over the limit the request is answered at once with \"busy\" — never cached: the card in the post retries by itself, the list tooltip asks again on the next hover. Raise it only if your server has spare PHP workers.",
                 "scraper_max_redirects_label": "Max Tracker Redirects",
                 "scraper_max_redirects_help": "How many HTTP(S) redirects to follow when scraping a tracker. Default 0 (don't follow). Raise to 1-2 if a tracker is behind Cloudflare or a CDN that redirects http→https. Every redirect hop is still validated by the SSRF guard, so a tracker can't redirect the request to a private/internal address.",
                 "priority_trackers_label": "Priority Trackers",
@@ -112,6 +114,9 @@
                 "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
                 "copy": "Copy address",
                 "thanks": "Thank you for your support!"
+            },
+            "permissions": {
+                "view_magnet_links": "View magnet links"
             }
         },
         "forum": {
@@ -152,6 +157,7 @@
                 "no_trackers": "Magnet link contains no trackers",
                 "no_http_trackers": "No HTTP(S) trackers available",
                 "no_response": "No tracker responded",
+                "busy": "Tracker statistics are busy right now — try again in a moment",
                 "scraper_error": "Failed to contact trackers",
                 "load_failed": "Failed to load magnet info"
             },
@@ -159,9 +165,6 @@
                 "cooldown": "This magnet was just refreshed — you can refresh it again in {seconds}s. Everyone already sees the latest result.",
                 "quota": "Refresh limit reached. Please try again in {seconds}s."
             }
-        },
-        "permissions": {
-            "viewMagnetLinks": "View magnet links"
         }
     }
 }

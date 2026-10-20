@@ -29,6 +29,8 @@
                 "max_trackers_help": "",
                 "topic_scrape_budget_label": "",
                 "topic_scrape_budget_help": "",
+                "scrape_max_concurrent_label": "",
+                "scrape_max_concurrent_help": "",
                 "scraper_max_redirects_label": "",
                 "scraper_max_redirects_help": "",
                 "priority_trackers_label": "",
@@ -112,6 +114,9 @@
                 "description": "ถ้า extension นี้มีประโยชน์สำหรับคุณ กรุณาพิจารณาสนับสนุนการพัฒนาด้วยการบริจาคเล็กน้อย ทุกการมีส่วนร่วมช่วยให้โปรเจกต์ดำเนินต่อไปได้",
                 "copy": "คัดลอกที่อยู่",
                 "thanks": "ขอบคุณสำหรับการสนับสนุน!"
+            },
+            "permissions": {
+                "view_magnet_links": ""
             }
         },
         "forum": {
@@ -152,6 +157,7 @@
                 "no_trackers": "Magnet link ไม่มี tracker",
                 "no_http_trackers": "ไม่มี HTTP(S) tracker",
                 "no_response": "ไม่มี tracker ตอบสนอง",
+                "busy": "",
                 "scraper_error": "ติดต่อ tracker ไม่สำเร็จ",
                 "load_failed": "โหลดข้อมูล magnet ไม่สำเร็จ"
             },

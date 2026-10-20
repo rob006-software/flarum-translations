@@ -29,6 +29,8 @@
                 "max_trackers_help": "Số tracker tối đa được liên hệ cho mỗi magnet. Đặt 0 để dùng mức trần an toàn có sẵn (12). Một hạn mức thời gian cứng cũng được áp dụng để một magnet không làm treo cả yêu cầu.",
                 "topic_scrape_budget_label": "Hạn mức thời gian thu thập trong chủ đề (giây)",
                 "topic_scrape_budget_help": "Tổng thời gian tối đa dành cho việc hỏi các tracker của một magnet hiển thị trong chủ đề đang mở (thẻ nằm trong bài viết). Mặc định 15. Đây là chế độ xem đầy đủ và chính xác nên được cấp hạn mức dài hơn so với chú thích ở danh sách. Bị chặn cứng ở 30 giây để một yêu cầu không chiếm tiến trình xử lý quá lâu.",
+                "scrape_max_concurrent_label": "",
+                "scrape_max_concurrent_help": "",
                 "scraper_max_redirects_label": "Số lần chuyển hướng tối đa của tracker",
                 "scraper_max_redirects_help": "Số lần chuyển hướng HTTP(S) được đi theo khi hỏi một tracker. Mặc định 0 (không đi theo). Hãy nâng lên 1-2 nếu tracker nằm sau Cloudflare hoặc một CDN chuyển hướng http→https. Mỗi bước chuyển hướng vẫn được bộ bảo vệ SSRF kiểm tra, nên tracker không thể chuyển hướng yêu cầu tới một địa chỉ riêng tư/nội bộ.",
                 "priority_trackers_label": "Tracker ưu tiên",
@@ -112,6 +114,9 @@
                 "description": "Nếu thấy tiện ích mở rộng này hữu ích, bạn hãy cân nhắc ủng hộ việc phát triển bằng một khoản đóng góp nhỏ. Mỗi đóng góp đều giúp dự án tiếp tục tồn tại và được duy trì.",
                 "copy": "Sao chép địa chỉ",
                 "thanks": "Cảm ơn sự ủng hộ của bạn!"
+            },
+            "permissions": {
+                "view_magnet_links": ""
             }
         },
         "forum": {
@@ -152,6 +157,7 @@
                 "no_trackers": "Liên kết magnet không chứa tracker nào",
                 "no_http_trackers": "Không có tracker HTTP(S) khả dụng",
                 "no_response": "Không có tracker nào phản hồi",
+                "busy": "",
                 "scraper_error": "Không thể liên hệ với các tracker",
                 "load_failed": "Không thể tải thông tin magnet"
             },
