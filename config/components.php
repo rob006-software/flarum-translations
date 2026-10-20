@@ -1306,7 +1306,7 @@ return [
 		],
 	],
 	'tryhackx-topic-rating' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/2.5.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/2.6.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
