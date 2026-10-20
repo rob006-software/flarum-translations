@@ -41,7 +41,7 @@
                 "owned": "Im Besitz",
                 "wishlist": "Wunschliste",
                 "trade": "Zum Tausch",
-                "any": ""
+                "any": "Jedes {field}"
             },
             "sort": {
                 "position": "Sortierung des Besitzers",
@@ -100,7 +100,7 @@
                 "search_placeholder": "Titel, Barcode oder ISBN scannen oder eingeben",
                 "barcode_placeholder": "Barcode oder ISBN scannen oder eingeben",
                 "scan": "Scannen",
-                "scan_stop": "",
+                "scan_stop": "Stoppen",
                 "camera_error": "Die Kamera konnte nicht gestartet werden. Du kannst den Barcode stattdessen eingeben.",
                 "barcode_found": "Barcode {code} erkannt.",
                 "barcode_unknown": "Der Barcode {code} ist noch niemandem bekannt. Füge ihn manuell hinzu, dann erhält die nächste Person, die ihn scannt, deinen Eintrag.",
@@ -110,7 +110,7 @@
                 "lookup_failed": "Der Titel konnte aktuell nicht nachgeschlagen werden. Erneut versuchen oder händisch hinzufügen.",
                 "cover_looked_up": "Nachgeschlagenes Titelbild",
                 "add_photos": "Eigene Fotos hinzufügen",
-                "photos_hint": "",
+                "photos_hint": "Ablegen, einfügen oder auswählen · bis zu {count} weitere",
                 "remove_photo": "Foto entfernen",
                 "title": "Titel",
                 "translated_hint": "Leser sehen es in ihrer eigenen Sprache ({count} verfügbar).",
@@ -150,12 +150,12 @@
                 "from_wikidata": "Beschreibung von Wikidata",
                 "translated_deepl": "Übersetzt mit DeepL",
                 "languages": "{count, plural, one {# Sprache} other {# Sprachen}}",
-                "offers": "",
+                "offers": "{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}",
                 "edit": "Bearbeiten",
                 "have_too": "Das habe ich auch",
                 "want_it": "Zu meiner Wunschliste hinzufügen",
                 "choose_collection": "Welche Sammlung?",
-                "show_off": "",
+                "show_off": "Zeig es allen",
                 "discussed": "Hier diskutiert",
                 "cancel": "Abbrechen",
                 "developer": "Entwickler",
@@ -181,8 +181,8 @@
                 "title": "Sammlungen",
                 "lead": "{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.",
                 "search": "Alle Sammlungen durchsuchen…",
-                "results": "",
-                "no_results": "",
+                "results": "Ergebnisse für „{q}“",
+                "no_results": "Keine Treffer.",
                 "recent": "Kürzlich hinzugefügt",
                 "featured": "Hervorgehobene Sammlungen",
                 "largest": "Größte Sammlungen",
@@ -218,20 +218,20 @@
                 "moba": "MOBA"
             },
             "showoff": {
-                "title": "",
-                "composer": "",
-                "remove": ""
+                "title": "Mein {title}",
+                "composer": "{title} zur Schau gestellt",
+                "remove": "Diesen Artikel nicht verknüpfen"
             },
             "marquee": {
                 "add": "Zur Sammlung hinzufügen"
             },
             "hero": {
-                "here": "",
+                "here": "In diesem Forum",
                 "members": "{count, plural, one {# Mitglied hat es} other {# Mitglieder haben es}}",
                 "from": "Von {name}",
-                "view_in": "",
+                "view_in": "In der Sammlung von {name} ansehen",
                 "in_my_collection": "In meiner Sammlung ansehen",
-                "open_item": ""
+                "open_item": "Artikel öffnen"
             },
             "transfer": {
                 "heading": "Import und Export",
@@ -245,16 +245,16 @@
                 "format_storygraph": "StoryGraph"
             },
             "notifications": {
-                "match": "",
-                "match_setting": "",
-                "new_items": "",
-                "new_items_setting": ""
+                "match": "{username} bietet {title} zum Tausch an. Es ist auf deiner Wunschliste.",
+                "match_setting": "Jemand bietet etwas von deiner Wunschliste zum Tausch an",
+                "new_items": "{username} hat zu {name} hinzugefügt",
+                "new_items_setting": "Eine Sammlung, der ich folge, hat neue Artikel"
             },
             "widget": {
-                "label": "",
+                "label": "Kürzlich zu Sammlungen hinzugefügt",
                 "field_title": "Titel",
                 "field_limit": "Wie viele",
-                "empty": ""
+                "empty": "Noch nichts hinzugefügt."
             }
         },
         "admin": {
@@ -267,14 +267,14 @@
                 "deepl_link": "Schlüssel holen",
                 "max_upload_label": "Maximale Fotogröße (KB)",
                 "max_upload_help": "Fotos werden als WebP neu kodiert und in der Größe angepasst, sodass die gespeicherten Dateien deutlich kleiner sind als diese.",
-                "layout_label": "",
-                "layout_help": "",
-                "layout_tags": "",
+                "layout_label": "Seitenlayout der Sammlungen",
+                "layout_help": "Wie jeder Typ auf der Sammlungsseite angezeigt wird.",
+                "layout_tags": "Wie die Tags-Seite (Flarum Standard)",
                 "layout_covers": "",
-                "shortcut_label": "",
-                "shortcut_help": "",
-                "shortcut_both": "",
-                "shortcut_sidebar": "",
+                "shortcut_label": "„Meine Sammlungen“-Verknüpfung",
+                "shortcut_help": "Wo Mitglieder einen Link zu ihren eigenen Sammlungen finden.",
+                "shortcut_both": "Seitenleiste und Benutzermenü",
+                "shortcut_sidebar": "Nur Seitenleiste",
                 "shortcut_menu": "",
                 "shortcut_none": "",
                 "widget_label": "",
@@ -322,11 +322,11 @@
                 "progress": "Fortschritt verfolgen",
                 "progress_help": "",
                 "export": "Exportieren",
-                "export_all": "",
-                "import": "",
+                "export_all": "Alle exportieren",
+                "import": "Importieren",
                 "import_help": "",
                 "import_done": "",
-                "import_failed": ""
+                "import_failed": "Diese Datei ist kein Curio-Export."
             },
             "shape": {
                 "portrait": "Hochformat",
