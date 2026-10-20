@@ -1820,7 +1820,6 @@ return [
 		],
 	],
 	'tryhackx-magnet-link' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/1.0.8/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'pl',
 		],
