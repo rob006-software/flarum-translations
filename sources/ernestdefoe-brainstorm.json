@@ -1,0 +1,288 @@
+{
+    "ernestdefoe-brainstorm": {
+        "api": {
+            "title": "Give the quiz a title of up to 200 characters.",
+            "dates": "The closing date has to come after the opening date.",
+            "publish_empty": "Add at least one question before publishing.",
+            "too_many_questions": "A quiz can have up to {max} questions.",
+            "question_type": "Question {number} has a type this forum does not know.",
+            "question_body": "Question {number} needs its question, up to 5,000 characters.",
+            "option_length": "An answer in question {number} is longer than 300 characters.",
+            "option_count": "Question {number} needs {min} to {max} answers.",
+            "accepted_count": "Question {number} needs {min} to {max} accepted answers.",
+            "no_correct": "Mark at least one correct answer in question {number}.",
+            "image_url": "The image for question {number} has to be a web address starting with http:// or https://, or a path on this forum.",
+            "reward_locked": "This quiz carries points or a badge, so its answers, points and pass mark can only be changed by staff who may attach rewards. You can still edit its wording.",
+            "no_attempts_left": "You have used all your attempts at this quiz.",
+            "no_questions": "This quiz has no questions yet.",
+            "slow_down": "That is a lot in a short time. Give it a few minutes and try again."
+        },
+        "lib": {
+            "units": {
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "minutes": "{count, plural, one {# minute} other {# minutes}}",
+                "seconds": "{count, plural, one {# second} other {# seconds}}"
+            }
+        },
+        "forum": {
+            "nav": "Quizzes",
+            "draft": "Draft",
+            "settings": {
+                "private": "Keep me off quiz leaderboards"
+            },
+            "composer": {
+                "add": "Quiz",
+                "title": "Add a quiz to your post",
+                "search": "Search quizzes",
+                "meta": "{count, plural, one {# question} other {# questions}}",
+                "none": "No quizzes found.",
+                "create": "Write a new quiz"
+            },
+            "facts": {
+                "questions": "{count, plural, one {# question} other {# questions}}",
+                "pass_mark": "Pass: {mark}%",
+                "attempts": "{count, plural, one {# attempt} other {# attempts}}",
+                "attempts_left": "{count} of {max} attempts left",
+                "points": "{count, plural, one {# point} other {# points}}",
+                "badge": "Badge: {name}"
+            },
+            "card": {
+                "best": "Your best: {score}",
+                "log_in": "Log in to play",
+                "cannot_take": "You can't take quizzes here.",
+                "closed": "Not open for attempts",
+                "no_attempts": "No attempts left",
+                "start": "Start the quiz",
+                "resume": "Carry on",
+                "again": "Try again",
+                "preview": "Try it out"
+            },
+            "index": {
+                "title": "Quizzes",
+                "new": "New quiz",
+                "search": "Search quizzes",
+                "more": "Load more",
+                "empty": "No quizzes yet.",
+                "no_results": "No quizzes match that.",
+                "tabs": {
+                    "new": "Newest",
+                    "popular": "Most played",
+                    "mine": "Mine"
+                }
+            },
+            "quiz": {
+                "all": "All quizzes",
+                "missing": "This quiz doesn't exist, or you can't see it.",
+                "stats": "{taken, plural, one {# attempt} other {# attempts}} · {passed} passed",
+                "edit": "Edit",
+                "copy_link": "Copy link for a post",
+                "link_copied": "Link copied. Paste it on a line of its own in a post and the quiz appears there.",
+                "delete": "Delete",
+                "delete_confirm": "Delete \"{title}\" with all its results? This can't be undone.",
+                "opens": "Opens {time}",
+                "closes": "Closes {time}",
+                "closed": "Closed for new attempts.",
+                "tabs": {
+                    "board": "Leaderboard",
+                    "results": "Results"
+                }
+            },
+            "player": {
+                "question_of": "Question {number} of {total}",
+                "review_heading": "Ready to hand in?",
+                "answered": "{count} of {total} answered",
+                "time_left": "Time left",
+                "practice": "Practice",
+                "choose_all": "Choose every answer that applies.",
+                "type_answer": "Type your answer",
+                "true": "True",
+                "false": "False",
+                "points": "{count, plural, one {Worth # point} other {Worth # points}}",
+                "previous": "Previous",
+                "next": "Next",
+                "finish": "Finish",
+                "unanswered": "{count, plural, one {# question has no answer yet.} other {# questions have no answer yet.}} Hand in anyway, or go back to them.",
+                "all_answered": "Every question has an answer.",
+                "back": "Back to the questions",
+                "submit": "Hand in",
+                "jump": "Questions",
+                "error": "This quiz can't be played right now.",
+                "close": "Close"
+            },
+            "result": {
+                "passed": "Passed!",
+                "not_passed": "Not passed this time",
+                "score": "{score} of {max} points ({percent}), pass mark {mark}%",
+                "time": "Time {time}",
+                "expired": "The time ran out; what was saved before then was marked.",
+                "practice": "A practice run — it doesn't count on leaderboards or earn rewards.",
+                "attempts_left": "{count, plural, =0 {No attempts left.} one {# attempt left.} other {# attempts left.}}",
+                "again": "Try again",
+                "close": "Close",
+                "right": "Right",
+                "partial": "Partly right ({earned} of {points})",
+                "wrong": "Not right",
+                "you_typed": "You typed:",
+                "no_answer": "(no answer)",
+                "accepted": "Accepted:",
+                "your_answer": "Your answer",
+                "key_hidden": "The right answers show once you pass or have no attempts left."
+            },
+            "leaderboard": {
+                "title": "Leaderboard",
+                "overall": "Top quiz takers",
+                "overall_help": "Ranked by quizzes passed, then by the scores behind them. Members can keep themselves off leaderboards in their settings.",
+                "see_all": "See the full leaderboard",
+                "back": "All quizzes",
+                "passed": "{count, plural, one {# passed} other {# passed}}",
+                "average": "avg {score}",
+                "empty": "Nobody on the board yet.",
+                "off": "This quiz has no leaderboard.",
+                "you_quiz": "You: #{rank} with {score}",
+                "you_overall": "You: #{rank}, {count, plural, one {# quiz passed} other {# quizzes passed}}"
+            },
+            "results": {
+                "questions": "How each question went",
+                "asked": "{count, plural, one {Asked once} other {Asked # times}}",
+                "attempts": "Attempts",
+                "none": "Nobody has finished this quiz yet.",
+                "more": "Load more",
+                "practice": "practice",
+                "expired": "timed out",
+                "deleted_user": "A deleted member",
+                "reset": "Reset this member's attempts",
+                "reset_confirm": "Reset {name}'s attempts at this quiz? Their results go; points and badges already earned stay."
+            },
+            "editor": {
+                "new_title": "New quiz",
+                "edit_title": "Edit quiz",
+                "view": "View",
+                "title": "Title",
+                "description": "Introduction",
+                "formatting_help": "Formatted the same way as posts.",
+                "questions": "{count, plural, one {# question} other {# questions}}",
+                "question": "Question",
+                "question_placeholder": "Ask your question",
+                "untitled": "New question",
+                "type": "Question type",
+                "types": {
+                    "single": "One answer",
+                    "multiple": "Several answers",
+                    "boolean": "True or false",
+                    "text": "Typed answer"
+                },
+                "drag": "Drag to move question {number}",
+                "sortable": "movable",
+                "duplicate": "Duplicate",
+                "remove": "Remove",
+                "remove_confirm": "Remove question {number}?",
+                "image": "Image address",
+                "image_placeholder": "Image address (optional)",
+                "pick_image": "Choose",
+                "correct_answer": "The right answer",
+                "single_help": "Tick the right answer. Write up to 10.",
+                "multiple_help": "Tick every right answer. Write up to 10.",
+                "accepted_help": "Every answer that counts as right. Case, accents, spacing and punctuation around it don't matter.",
+                "mark_correct": "Right answer",
+                "answer": "Answer {number}",
+                "accepted": "Accepted answer {number}",
+                "remove_answer": "Remove",
+                "add_answer": "Add an answer",
+                "add_accepted": "Add another accepted answer",
+                "points": "Points",
+                "explanation": "Explanation",
+                "explanation_placeholder": "Why that's the answer (optional; shown when answers are revealed)",
+                "settings": "Settings",
+                "time_limit": "Time limit",
+                "time_limit_help": "Leave both empty for no limit. The server keeps the time.",
+                "minutes": "min",
+                "seconds": "sec",
+                "pass_mark": "Pass mark (%)",
+                "pass_mark_help": "The score needed to pass.",
+                "max_attempts": "Attempts",
+                "max_attempts_help": "How many tries each member gets. Empty for no limit.",
+                "question_pick": "Questions per attempt",
+                "question_pick_help": "Draw this many at random from all the questions. Empty to ask them all.",
+                "unlimited": "No limit",
+                "shuffle_questions": "Shuffle the questions",
+                "shuffle_options": "Shuffle the answers",
+                "partial_credit": "Part marks for \"several answers\" questions",
+                "leaderboard": "Leaderboard",
+                "reveal": "After an attempt, show",
+                "reveals": {
+                    "score": "Only the score",
+                    "mistakes": "Which questions were right",
+                    "answers": "The answers, once passed or out of attempts",
+                    "answers_always": "The answers, every time"
+                },
+                "reveal_help": {
+                    "score": "Members see their score and nothing else.",
+                    "mistakes": "Members see which questions they got right, but not the right answers.",
+                    "answers": "The right answers and explanations show once a member passes or has no attempts left, so they can't be copied into the next try.",
+                    "answers_always": "The right answers and explanations show after every attempt. Best for practice quizzes."
+                },
+                "opens_at": "Opens",
+                "closes_at": "Closes",
+                "rewards": "Rewards",
+                "rewards_help": "Paid once, the first time a member passes. Not paid for the author's own runs.",
+                "reward_points": "Points",
+                "reward_points_help": "FoF Gamification points.",
+                "reward_badge": "Badge",
+                "no_badge": "No badge",
+                "save_draft": "Save draft",
+                "unpublish": "Back to draft",
+                "publish": "Publish",
+                "save": "Save",
+                "saved": "Saved.",
+                "published": "Published.",
+                "save_failed": "The quiz couldn't be saved."
+            },
+            "widget": {
+                "name": "Quizzes",
+                "title": "Top quiz takers",
+                "heading": "Heading",
+                "show": "Show",
+                "show_leaderboard": "Top quiz takers",
+                "show_latest": "Newest quizzes",
+                "limit": "How many",
+                "all": "All quizzes"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "View quizzes",
+                "take": "Take quizzes",
+                "create": "Write quizzes",
+                "manage": "Edit and delete any quiz, see every result",
+                "reward": "Attach points and badges to quizzes"
+            },
+            "settings": {
+                "show_nav": "Show \"Quizzes\" in the sidebar navigation"
+            },
+            "badges": {
+                "quizzes_passed": "Quizzes passed (Brainstorm)",
+                "perfect_scores": "Quizzes finished with 100% (Brainstorm)"
+            }
+        }
+    },
+    "ernestdefoe-onramp": {
+        "lib": {
+            "types": {
+                "brainstorm": {
+                    "passed": {
+                        "title": "{count, plural, one {Pass a quiz} other {Pass # quizzes}}",
+                        "description": "Test what you know in one of the forum's quizzes.",
+                        "button": "Find a quiz"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "types": {
+                "brainstorm": {
+                    "passed": "Pass quizzes (Brainstorm)"
+                }
+            }
+        }
+    }
+}
