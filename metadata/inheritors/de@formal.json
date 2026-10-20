@@ -3685,9 +3685,9 @@
                 "permission_create": "1522598b799b969fa77befd06ab22e59 1522598b799b969fa77befd06ab22e59",
                 "permission_manage": "307f38f7608363350edab9fdc4e07c99 307f38f7608363350edab9fdc4e07c99",
                 "pulse_exclude_groups": "9a925f3a190964e83223092302168a11 9a925f3a190964e83223092302168a11",
-                "pulse_exclude_groups_help": "0638dd7e25ffb282860c2526d2dae53a 0638dd7e25ffb282860c2526d2dae53a",
+                "pulse_exclude_groups_help": "053f2c1351f911488dd07d40483c6ee2 053f2c1351f911488dd07d40483c6ee2",
                 "pulse_exclude_users": "4ca5a2290d41b16af2c07a02a3e451ab 4ca5a2290d41b16af2c07a02a3e451ab",
-                "pulse_exclude_users_help": "987c007455615c146cb9713ce1d00110 987c007455615c146cb9713ce1d00110",
+                "pulse_exclude_users_help": "096380b06018353e71a17b621145ecb6 096380b06018353e71a17b621145ecb6",
                 "settings_title": "5f6e141c52c1e8802746ecdaa883c9c9 5f6e141c52c1e8802746ecdaa883c9c9",
                 "show_celebrations_widget": "848d6ef13a0e81b34966c7ffd00f3b38 848d6ef13a0e81b34966c7ffd00f3b38",
                 "show_index_widget": "d9496ca596cba029a393482e66861858 d9496ca596cba029a393482e66861858",
@@ -4148,6 +4148,7 @@
                     "deepl_link": "5556514d67a55b7755e45e3b98b180e7 5556514d67a55b7755e45e3b98b180e7",
                     "max_upload_help": "c1fe5d75f60bd08995c82ba3714b95cc c1fe5d75f60bd08995c82ba3714b95cc",
                     "max_upload_label": "a163e1556d1e8f2e0c9471823e972e9a a163e1556d1e8f2e0c9471823e972e9a",
+                    "upc_label": "d4f90ee7511c87943ffa3cdf3fd5a01c d4f90ee7511c87943ffa3cdf3fd5a01c",
                     "upc_link": "5556514d67a55b7755e45e3b98b180e7 5556514d67a55b7755e45e3b98b180e7"
                 },
                 "shape": {
@@ -4182,6 +4183,9 @@
             },
             "forum": {
                 "browse": {
+                    "add": "a516e9b3d135c267069826320f362c91 a516e9b3d135c267069826320f362c91",
+                    "largest": "211264b4d36779b25f9f03e25228a006 211264b4d36779b25f9f03e25228a006",
+                    "none": "9fa24903f92734bdf4656655bac953b8 9fa24903f92734bdf4656655bac953b8",
                     "title": "18c4b3ff903711a9bd98c54cacb132a2 18c4b3ff903711a9bd98c54cacb132a2"
                 },
                 "condition": {
@@ -4194,39 +4198,49 @@
                 },
                 "count": {
                     "collections": "4cc11bd5e8fb9f48b44dc6097269a88c 4cc11bd5e8fb9f48b44dc6097269a88c",
-                    "trade": "3a56733f19e2287820ce3b751f377a5d 3a56733f19e2287820ce3b751f377a5d"
+                    "items": "121490f3bacbe5448aa24d01aec006bc 121490f3bacbe5448aa24d01aec006bc",
+                    "trade": "a824d4c6dd238623447b6398ea4f17e8 a824d4c6dd238623447b6398ea4f17e8",
+                    "wanted": "6d3b748bb8bcf2994c860642d92d5f15 6d3b748bb8bcf2994c860642d92d5f15"
                 },
                 "edit": {
                     "create": "8215c35839bdf9c5fe8379112e398fa7 8215c35839bdf9c5fe8379112e398fa7",
                     "delete": "6710cad93dd626ec137f04cac9ce366d 6710cad93dd626ec137f04cac9ce366d",
+                    "delete_confirm": "346d13226ee0856854401f40f0f38dd9 346d13226ee0856854401f40f0f38dd9",
                     "description": "35bedb45241d6b3f70fa6f56197c3361 35bedb45241d6b3f70fa6f56197c3361",
+                    "featured": "ec14e586434381c6702c86a663bc0a4f ec14e586434381c6702c86a663bc0a4f",
                     "name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
                     "name_placeholder": "c5bf43dd7f8ad986ea40104ddda9a557 c5bf43dd7f8ad986ea40104ddda9a557",
                     "save": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
+                    "title_edit": "bdd5a4a9c0eab033f8285a2afa18635a bdd5a4a9c0eab033f8285a2afa18635a",
                     "title_new": "613b4bf08b1f4d9239b85e9490c0ef99 613b4bf08b1f4d9239b85e9490c0ef99",
-                    "type": "fdd5e59eb5e7a365ea3b6023331040eb fdd5e59eb5e7a365ea3b6023331040eb"
+                    "type": "fdd5e59eb5e7a365ea3b6023331040eb fdd5e59eb5e7a365ea3b6023331040eb",
+                    "visibility": "ad117977559777a6719e6856a862aae8 ad117977559777a6719e6856a862aae8",
+                    "wishlist_public": "fc6c754d04d0dccd81407e9685bda0cf fc6c754d04d0dccd81407e9685bda0cf"
                 },
                 "filter": {
                     "all": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
                     "owned": "16fc8d797a38ec62bb4514f4fe9aba62 16fc8d797a38ec62bb4514f4fe9aba62",
-                    "trade": "38141af95ea32aaf4e9e368ca9cc27d7 38141af95ea32aaf4e9e368ca9cc27d7",
-                    "wishlist": "49bde46894c2db19366844b298162e69 49bde46894c2db19366844b298162e69"
+                    "trade": "456a418f63e1a10f5739a4076fdd2a61 456a418f63e1a10f5739a4076fdd2a61",
+                    "wishlist": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695"
                 },
                 "genre": {
                     "adventure": "dc1d2a4d591857f0a0dd38b4ebcf5a72 dc1d2a4d591857f0a0dd38b4ebcf5a72",
                     "arcade": "ee1dde1e718954c9d03109f34f7cb3b6 ee1dde1e718954c9d03109f34f7cb3b6",
                     "card_board_game": "fd77dbf4470de03ae7248e3f30d2b8c4 fd77dbf4470de03ae7248e3f30d2b8c4",
+                    "fighting": "80dc2c8cb20e8cd5b5edf2fca0c06366 80dc2c8cb20e8cd5b5edf2fca0c06366",
                     "hack_and_slash_beat_em_up": "9c48557b6c74de7b0a5b0d3891135561 9c48557b6c74de7b0a5b0d3891135561",
                     "indie": "04c0e904a3f85a6beec3c2e6145ff78a 04c0e904a3f85a6beec3c2e6145ff78a",
                     "moba": "58df6065e416946fbf24c81777e3df23 58df6065e416946fbf24c81777e3df23",
                     "music": "687de8dadf9e4a56d29795df00584c80 687de8dadf9e4a56d29795df00584c80",
                     "pinball": "7485e05433ac5d3a346a594485a92908 7485e05433ac5d3a346a594485a92908",
                     "platform": "c4f57e8d746a475aeade2f034e1372a7 c4f57e8d746a475aeade2f034e1372a7",
+                    "point_and_click": "7151781359a8c660d82e880b8adbdcd2 7151781359a8c660d82e880b8adbdcd2",
                     "puzzle": "2b1b78c96448cca5d0d1d3a9e2b1caed 2b1b78c96448cca5d0d1d3a9e2b1caed",
                     "quiz_trivia": "1ca8ef6738a9094a1d95c703b3837942 1ca8ef6738a9094a1d95c703b3837942",
                     "racing": "ec9a233d959dd022138f1f85a41e2b7f ec9a233d959dd022138f1f85a41e2b7f",
                     "real_time_strategy_rts": "2372fcb90f5188526054dbb3f5a4704c 2372fcb90f5188526054dbb3f5a4704c",
                     "role_playing_rpg": "5f75f215bdd19f7621d9d0a1e0a4e2a3 5f75f215bdd19f7621d9d0a1e0a4e2a3",
+                    "shooter": "07312fb380dc0e653b77ddc9dfa05013 07312fb380dc0e653b77ddc9dfa05013",
                     "simulator": "4f502b57d2835715eaa382c7d4c32e94 4f502b57d2835715eaa382c7d4c32e94",
                     "sport": "96faa3e6c45bb5a07bcc0bcd3be37654 96faa3e6c45bb5a07bcc0bcd3be37654",
                     "strategy": "471d7ac6412bdb702030603c82b77380 471d7ac6412bdb702030603c82b77380",
@@ -4235,17 +4249,32 @@
                     "visual_novel": "4955a0ead5eb02a5982824853080bc03 4955a0ead5eb02a5982824853080bc03"
                 },
                 "hero": {
+                    "from": "1dc1bdbc7081d736dc73467c382cc105 1dc1bdbc7081d736dc73467c382cc105",
+                    "in_my_collection": "5969b64a49317bceccf1d7ae8cffb5b8 5969b64a49317bceccf1d7ae8cffb5b8",
                     "members": "eba27b23513d0031acbb4c766bda97e9 eba27b23513d0031acbb4c766bda97e9"
                 },
                 "item": {
+                    "about": "5d12610324df42e823b47af9492443c5 5d12610324df42e823b47af9492443c5",
                     "cancel": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                    "choose_collection": "533bc9e4f288feefc7325482392adaf1 533bc9e4f288feefc7325482392adaf1",
                     "condition": "7f5acff9d1957e4d771d513b1794812a 7f5acff9d1957e4d771d513b1794812a",
+                    "developer": "37255573651f84300951d242fc30020f 37255573651f84300951d242fc30020f",
                     "edit": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad",
+                    "favourite": "48d082c318579c12b24b27b3ae0f3986 48d082c318579c12b24b27b3ae0f3986",
                     "from_wikidata": "1a7844af233e2a59d05770b30d5f1a1f 1a7844af233e2a59d05770b30d5f1a1f",
                     "from_wikipedia": "99b90e6b87ba854a027cdaae732a39a1 99b90e6b87ba854a027cdaae732a39a1",
+                    "genres": "4798cc774d4e385a2e87e911a1be6378 4798cc774d4e385a2e87e911a1be6378",
                     "languages": "de56e7c58656eab92455ee9cad807be7 de56e7c58656eab92455ee9cad807be7",
+                    "less": "0d9b30a06ba69cf8872590df14cc7dd0 0d9b30a06ba69cf8872590df14cc7dd0",
+                    "more": "e4b2150a3983865f3a23856907d4a133 e4b2150a3983865f3a23856907d4a133",
                     "no": "b397ec0bea79fb90df2b7ec2845cde07 b397ec0bea79fb90df2b7ec2845cde07",
+                    "photo_n": "1fc5358ebf8f1e488e7c7de1da0bec00 1fc5358ebf8f1e488e7c7de1da0bec00",
+                    "platforms": "ae211993b5edd9f8682dd99a3ec7e1a1 ae211993b5edd9f8682dd99a3ec7e1a1",
+                    "price": "081716a937b581e92112598b10c9593c 081716a937b581e92112598b10c9593c",
+                    "publisher": "32c73be0cb175da278c8e2af0811b0d1 32c73be0cb175da278c8e2af0811b0d1",
+                    "released": "18a0e401fa2f82a3f80c10b7d6555604 18a0e401fa2f82a3f80c10b7d6555604",
                     "translated_deepl": "ee927c4dfecdca6d1e6251dfe03c5bf6 ee927c4dfecdca6d1e6251dfe03c5bf6",
+                    "want_it": "9eb61cf7fa8d848ad61f6ba3bb6f2d48 9eb61cf7fa8d848ad61f6ba3bb6f2d48",
                     "yes": "375ee26098b46e23bcb854331f0ad8c5 375ee26098b46e23bcb854331f0ad8c5"
                 },
                 "item_edit": {
@@ -4253,52 +4282,99 @@
                     "add": "4206757daa0171fa5d7a29a6389ec07c 4206757daa0171fa5d7a29a6389ec07c",
                     "add_photos": "3986927fdfec519efce021db07358294 3986927fdfec519efce021db07358294",
                     "barcode_found": "781e46a156e9da3e1065c17877c4f2a3 781e46a156e9da3e1065c17877c4f2a3",
+                    "barcode_placeholder": "15da1574b93886b076827638db790fe1 15da1574b93886b076827638db790fe1",
+                    "barcode_unknown": "3872f4d261f7e60613c7c2e952546188 3872f4d261f7e60613c7c2e952546188",
                     "by_hand": "fb6a4df200b749c3556569d2fbb12858 fb6a4df200b749c3556569d2fbb12858",
+                    "camera_error": "0dc30427baa8804f8815735be4d4dd59 0dc30427baa8804f8815735be4d4dd59",
+                    "choose": "2c5c42b77638150ccecb0f5791153eab 2c5c42b77638150ccecb0f5791153eab",
                     "condition": "7f5acff9d1957e4d771d513b1794812a 7f5acff9d1957e4d771d513b1794812a",
                     "condition_none": "0e6e19383f6b702df1aeb6f5dd284826 0e6e19383f6b702df1aeb6f5dd284826",
+                    "cover_looked_up": "a8d9282ce727bbac149db60d5a019f4f a8d9282ce727bbac149db60d5a019f4f",
+                    "delete": "b12ed2e4060f32ad427757d1ff149d1b b12ed2e4060f32ad427757d1ff149d1b",
+                    "delete_confirm": "f55d365d330c99cb955698dc671b0e08 f55d365d330c99cb955698dc671b0e08",
+                    "favourite": "48d082c318579c12b24b27b3ae0f3986 48d082c318579c12b24b27b3ae0f3986",
+                    "find_hint": "8a0a6e8f8c052089ccc4f3a47bbe46a1 8a0a6e8f8c052089ccc4f3a47bbe46a1",
+                    "lookup_failed": "b25bde21c1a954c781c9e8647511fe44 b25bde21c1a954c781c9e8647511fe44",
+                    "no_results": "81bce8e7a36f2e8ced41d47887ae26cd 81bce8e7a36f2e8ced41d47887ae26cd",
                     "notes": "66855ac30daafe78a3f85ca05e667586 66855ac30daafe78a3f85ca05e667586",
+                    "price": "081716a937b581e92112598b10c9593c 081716a937b581e92112598b10c9593c",
+                    "price_private": "088ed13c04554618c7eb5106d3fd45c3 088ed13c04554618c7eb5106d3fd45c3",
+                    "rating": "bbe9dc4d07d01a942c7cbdadd5185ca2 bbe9dc4d07d01a942c7cbdadd5185ca2",
+                    "rating_value": "c37077c18af88033b839c35c0989507d c37077c18af88033b839c35c0989507d",
                     "remove_photo": "e342b9c6b6b4aa87dd3bc369e0d5258f e342b9c6b6b4aa87dd3bc369e0d5258f",
                     "save": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271",
                     "scan": "bb0355976a39e5c754e0f5f4b82dd9f0 bb0355976a39e5c754e0f5f4b82dd9f0",
+                    "search_placeholder": "fe4c6de38de7f90b3d1692f92a03fdc3 fe4c6de38de7f90b3d1692f92a03fdc3",
                     "status": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be",
+                    "subtitle": "0d2c75dc5d5d1799e7cce0e08aa4d0da 0d2c75dc5d5d1799e7cce0e08aa4d0da",
                     "tab_details": "32eb60892dcbe61b20d4a67010aa7462 32eb60892dcbe61b20d4a67010aa7462",
+                    "tab_find": "0a1e8c9a8e04629745409cef42e10215 0a1e8c9a8e04629745409cef42e10215",
                     "title": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
+                    "title_edit": "2061004c4b5d5218e688e0ea8839ed35 2061004c4b5d5218e688e0ea8839ed35",
                     "title_new": "bb646f7b590b73bcbe3b4c788352b824 bb646f7b590b73bcbe3b4c788352b824",
+                    "translated_hint": "d7d0f4e7b2b7c3fa1045403e2c42547a d7d0f4e7b2b7c3fa1045403e2c42547a",
                     "year": "e1eacb6bf3dbfdbc5cbc2af054ee3921 e1eacb6bf3dbfdbc5cbc2af054ee3921"
                 },
                 "marquee": {
                     "add": "4206757daa0171fa5d7a29a6389ec07c 4206757daa0171fa5d7a29a6389ec07c"
                 },
+                "nav": {
+                    "mine": "1c6dd5262855a7b003bab452855a6dcf 1c6dd5262855a7b003bab452855a6dcf"
+                },
                 "page": {
+                    "add_item": "a516e9b3d135c267069826320f362c91 a516e9b3d135c267069826320f362c91",
                     "arrange": "bed971b82f9b3c8752249fafca933717 bed971b82f9b3c8752249fafca933717",
+                    "arrange_done": "4d79152b5d9f9fe8185bff13520ca9fa 4d79152b5d9f9fe8185bff13520ca9fa",
                     "empty": "4a50992827694355a748062010d9596a 4a50992827694355a748062010d9596a",
                     "filter_label": "60d441bc928fe885ac10754bf77120ec 60d441bc928fe885ac10754bf77120ec",
+                    "follow": "34ce98ca9ac26f73c779d8be9363d9ae 34ce98ca9ac26f73c779d8be9363d9ae",
+                    "followers": "a4f8f94024a2de8f675006318520fc1a a4f8f94024a2de8f675006318520fc1a",
+                    "following": "17562d2f3366246ca937cfd469be09b5 17562d2f3366246ca937cfd469be09b5",
+                    "load_more": "4f02abcd0236148c6fe91ca67cca6b4c 4f02abcd0236148c6fe91ca67cca6b4c",
+                    "missing": "8621b8f7e7f0eb793e4fd8b788e4d59b 8621b8f7e7f0eb793e4fd8b788e4d59b",
+                    "owned": "16fc8d797a38ec62bb4514f4fe9aba62 16fc8d797a38ec62bb4514f4fe9aba62",
+                    "search": "1a55c8cab59792636f7944a369dab1e1 1a55c8cab59792636f7944a369dab1e1",
                     "settings": "27014dd1bf5fe7e41ced3bedfc4cd2aa 27014dd1bf5fe7e41ced3bedfc4cd2aa",
                     "since": "500c69f1e7c85cdca57b421fdd0a89f8 500c69f1e7c85cdca57b421fdd0a89f8",
                     "trade": "456a418f63e1a10f5739a4076fdd2a61 456a418f63e1a10f5739a4076fdd2a61",
                     "view_grid": "7125f394de382b13a7e7a5a4b6d23364 7125f394de382b13a7e7a5a4b6d23364",
                     "view_label": "a91603fbf51d49d2c05c229cee7be65e a91603fbf51d49d2c05c229cee7be65e",
-                    "view_list": "428269744a2efc790a5ef04bb1004c4b 428269744a2efc790a5ef04bb1004c4b"
+                    "view_list": "428269744a2efc790a5ef04bb1004c4b 428269744a2efc790a5ef04bb1004c4b",
+                    "wanted": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695"
                 },
                 "profile": {
                     "collections": "18c4b3ff903711a9bd98c54cacb132a2 18c4b3ff903711a9bd98c54cacb132a2",
                     "collections_heading": "18c4b3ff903711a9bd98c54cacb132a2 18c4b3ff903711a9bd98c54cacb132a2",
                     "empty": "fdbfe7fb0a2e937d75c87d9a80cfe5fc fdbfe7fb0a2e937d75c87d9a80cfe5fc",
+                    "items": "15f40291299d8c47431c7045a05f9cf8 15f40291299d8c47431c7045a05f9cf8",
                     "nav": "18c4b3ff903711a9bd98c54cacb132a2 18c4b3ff903711a9bd98c54cacb132a2",
-                    "new": "613b4bf08b1f4d9239b85e9490c0ef99 613b4bf08b1f4d9239b85e9490c0ef99"
+                    "new": "613b4bf08b1f4d9239b85e9490c0ef99 613b4bf08b1f4d9239b85e9490c0ef99",
+                    "since": "5d7ca880c3971497cc0f1f69e5e3a820 5d7ca880c3971497cc0f1f69e5e3a820",
+                    "wanted": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695",
+                    "wishlist_heading": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695"
+                },
+                "progress": {
+                    "completed": "e5a557e11c5934e2ed68ef8e4501ba72 e5a557e11c5934e2ed68ef8e4501ba72",
+                    "in_progress": "5adb663cf7af0d051fab16890eca6764 5adb663cf7af0d051fab16890eca6764",
+                    "label": "adcbc9a8c7aa494a82383626f5bc47e3 adcbc9a8c7aa494a82383626f5bc47e3",
+                    "none": "0e6e19383f6b702df1aeb6f5dd284826 0e6e19383f6b702df1aeb6f5dd284826",
+                    "pending": "26bc05d16eaec46d34c879b68d9097b3 26bc05d16eaec46d34c879b68d9097b3"
                 },
                 "sort": {
                     "position": "1999253b0db4f9d3ad20b0a8f5fc52f8 1999253b0db4f9d3ad20b0a8f5fc52f8",
+                    "rating": "2819388bd579944a2e3e291dd0fec5e9 2819388bd579944a2e3e291dd0fec5e9",
                     "recent": "fc3d9e4a9114e2ca59f8d4063dd62ab3 fc3d9e4a9114e2ca59f8d4063dd62ab3",
                     "title": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce",
                     "year": "137dfd061c7dea15cd29565ffd5c1d91 137dfd061c7dea15cd29565ffd5c1d91"
                 },
                 "status": {
                     "owned": "16fc8d797a38ec62bb4514f4fe9aba62 16fc8d797a38ec62bb4514f4fe9aba62",
-                    "trade": "38141af95ea32aaf4e9e368ca9cc27d7 38141af95ea32aaf4e9e368ca9cc27d7",
-                    "wishlist": "49bde46894c2db19366844b298162e69 49bde46894c2db19366844b298162e69"
+                    "trade": "456a418f63e1a10f5739a4076fdd2a61 456a418f63e1a10f5739a4076fdd2a61",
+                    "wishlist": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695"
                 },
                 "table": {
+                    "progress": "adcbc9a8c7aa494a82383626f5bc47e3 adcbc9a8c7aa494a82383626f5bc47e3",
+                    "rating": "1eb869cbc62e298e310d0b4d40ef819b 1eb869cbc62e298e310d0b4d40ef819b",
                     "status": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be",
                     "title": "18a8022569d6ced829f833aa855530ce 18a8022569d6ced829f833aa855530ce"
                 },
@@ -4308,6 +4384,7 @@
                     "format_discogs": "2ee4f79910c7906af26d3b9909291354 2ee4f79910c7906af26d3b9909291354",
                     "format_goodreads": "d83ab74cfa254ecea9ac7362f2a5491e d83ab74cfa254ecea9ac7362f2a5491e",
                     "format_storygraph": "1628351d21d2c728288990a11e3976ea 1628351d21d2c728288990a11e3976ea",
+                    "heading": "51e1af0eeff880398b9cf6645d8477ba 51e1af0eeff880398b9cf6645d8477ba",
                     "import": "eaa7cf93ccb143cb946d0b95027ebb87 eaa7cf93ccb143cb946d0b95027ebb87"
                 },
                 "visibility": {
@@ -18588,6 +18665,22 @@
         }
     },
     "ianm-twofactor.json": {
+        "flarum-audit": {
+            "lib": {
+                "browser": {
+                    "group": {
+                        "two_factor_not_required": "f5e0242cbde0c5e3276230d93d68a162 f5e0242cbde0c5e3276230d93d68a162",
+                        "two_factor_required": "e17dc22f33d6c9e1519b53f9df90a57e e17dc22f33d6c9e1519b53f9df90a57e"
+                    },
+                    "user": {
+                        "two_factor_backup_code_used": "37d36c73cc45c9e02a53fa1d243bf2c3 37d36c73cc45c9e02a53fa1d243bf2c3",
+                        "two_factor_device_changed": "65a1b4cf3e4c5e70aaa6e7483730abbc 65a1b4cf3e4c5e70aaa6e7483730abbc",
+                        "two_factor_disabled": "a1cf166ba95864fb72667e51ccc3c145 a1cf166ba95864fb72667e51ccc3c145",
+                        "two_factor_enabled": "ac26e724016fae8bb7927a1c9a4141a3 ac26e724016fae8bb7927a1c9a4141a3"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "lib": {
                 "data": {
@@ -18647,6 +18740,7 @@
             },
             "forum": {
                 "log_in": {
+                    "two_factor_incorrect_message": "1c2af206a159c4cf09b22f83405a7e45 1c2af206a159c4cf09b22f83405a7e45",
                     "two_factor_placeholder": "4b00e460836fe3f8c1b594bcf60b35f3 4b00e460836fe3f8c1b594bcf60b35f3",
                     "two_factor_required_message": "3839da2ce05ebe86cd8574caff562d11 3839da2ce05ebe86cd8574caff562d11"
                 },
@@ -18698,6 +18792,11 @@
                 }
             },
             "views": {
+                "log_in": {
+                    "two_factor_incorrect_message": "1c2af206a159c4cf09b22f83405a7e45 1c2af206a159c4cf09b22f83405a7e45",
+                    "two_factor_required_message": "8e7a499b23a5f6076d2aedd0fc3e2f58 8e7a499b23a5f6076d2aedd0fc3e2f58",
+                    "two_factor_token_placeholder": "1e657cc54f2722a17dbb130eac5ed874 1e657cc54f2722a17dbb130eac5ed874"
+                },
                 "reset_password": {
                     "two_factor_token_label": "c298ce2de6647bcee4a3abb3901a6481 c298ce2de6647bcee4a3abb3901a6481"
                 },
