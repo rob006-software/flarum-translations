@@ -1826,11 +1826,6 @@ return [
 			'de@formal',
 		],
 	],
-	'tryhackx-magnet-link' => [
-		'__builtInLanguages' => [
-			'pl',
-		],
-	],
 	'umhelper-oauth-clerk' => [
 		'tag' => 'https://raw.githubusercontent.com/UMHelper/flarum-ext-oauth-clerk/1.0.1/locale/en.yml',
 	],
