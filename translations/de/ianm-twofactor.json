@@ -83,7 +83,7 @@
             "log_in": {
                 "two_factor_placeholder": "2FA-Sicherheitsschlüssel, z.B. 123456",
                 "two_factor_required_message": "Ein gültiger 2FA Sicherheitsschlüssel wird benötigt um fortzufahren.",
-                "two_factor_incorrect_message": ""
+                "two_factor_incorrect_message": "Der 2FA-Token ist falsch. Bitte versuche es erneut."
             }
         },
         "email": {
@@ -101,9 +101,9 @@
         },
         "views": {
             "log_in": {
-                "two_factor_token_placeholder": "",
-                "two_factor_required_message": "",
-                "two_factor_incorrect_message": ""
+                "two_factor_token_placeholder": "2FA-Token (wenn für dein Konto aktiviert)",
+                "two_factor_required_message": "Für dieses Konto ist die Zwei-Faktor-Authentifizierung aktiviert. Gib das Token aus deiner Authentifizierungs-App oder einen Sicherungscode ein.",
+                "two_factor_incorrect_message": "Der 2FA-Token ist falsch. Bitte versuche es erneut."
             },
             "reset_password": {
                 "two_factor_token_label": "2FA Sicherheitsschlüssel"
@@ -129,14 +129,14 @@
         "lib": {
             "browser": {
                 "user": {
-                    "two_factor_enabled": "",
-                    "two_factor_disabled": "",
-                    "two_factor_device_changed": "",
-                    "two_factor_backup_code_used": ""
+                    "two_factor_enabled": "Zwei-Faktor-Authentifizierung für {username} aktiviert",
+                    "two_factor_disabled": "Zwei-Faktor-Authentifizierung für {username} deaktiviert",
+                    "two_factor_device_changed": "Gerät zur Zwei-Faktor-Authentifizierung für {username} geändert",
+                    "two_factor_backup_code_used": "Zwei-Faktor-Sicherungscode für {username} verwendet ({remaining} verbleibend)"
                 },
                 "group": {
-                    "two_factor_required": "",
-                    "two_factor_not_required": ""
+                    "two_factor_required": "Zwei-Faktor-Authentifizierung für Gruppe {name} erforderlich",
+                    "two_factor_not_required": "Zwei-Faktor-Authentifizierung für Gruppe {name} nicht mehr erforderlich"
                 }
             }
         }
