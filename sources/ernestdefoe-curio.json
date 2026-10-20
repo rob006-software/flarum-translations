@@ -278,6 +278,13 @@
                 "layout_help": "How the Collections page shows each type.",
                 "layout_tags": "Like the Tags page (Flarum default)",
                 "layout_covers": "Cover tiles",
+                "hide_empty_label": "Hide types with nothing in them",
+                "hide_empty_help": "Off by default, so the Collections page shows every switched-on type, as the Tags page shows every tag; an empty one invites a first collection. When on, only types holding something are shown (all of them while the forum has nothing yet).",
+                "cover_fit_label": "Covers that don't fit the frame",
+                "cover_fit_help": "Each type has a cover shape, so a collection's grid stays tidy. A cover of another shape (a 3:4 game box in a 2:3 frame) can be shown whole on a blurred copy of itself, whole on a plain background, or cropped to fill. A type whose shape matches its covers (Portrait 3:4 for game boxes) needs none of this.",
+                "cover_fit_blur": "Show whole on a blurred background",
+                "cover_fit_plain": "Show whole on a plain background",
+                "cover_fit_crop": "Crop to fill the frame",
                 "shortcut_label": "\"My collections\" shortcut",
                 "shortcut_help": "Where members find a link to their own collections.",
                 "shortcut_both": "Sidebar and account menu",
@@ -336,9 +343,10 @@
                 "import_failed": "That file isn't a Curio types export."
             },
             "shape": {
-                "portrait": "Portrait",
-                "square": "Square",
-                "landscape": "Landscape"
+                "portrait": "Portrait 2:3 (books, films)",
+                "box": "Portrait 3:4 (game boxes)",
+                "square": "Square (albums)",
+                "landscape": "Landscape 4:3"
             },
             "source": {
                 "none": "None (barcodes and by hand)",
