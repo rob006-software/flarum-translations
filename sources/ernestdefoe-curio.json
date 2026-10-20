@@ -3,8 +3,16 @@
         "forum": {
             "status": {
                 "owned": "Owned",
-                "wishlist": "Wanted",
+                "wishlist": "Wishlist",
                 "trade": "Open to trade"
+            },
+            "progress": {
+                "label": "Progress",
+                "none": "Not set",
+                "any": "Any progress",
+                "pending": "Not started",
+                "in_progress": "In progress",
+                "completed": "Completed"
             },
             "condition": {
                 "sealed": "Sealed",
@@ -24,14 +32,14 @@
             },
             "count": {
                 "items": "{count, plural, one {# item} other {# items}}",
-                "wanted": "{count} wanted",
+                "wanted": "{count} on wishlist",
                 "trade": "{count} to trade",
                 "collections": "{count, plural, one {# collection} other {# collections}}"
             },
             "filter": {
                 "all": "All",
                 "owned": "Owned",
-                "wishlist": "Wanted",
+                "wishlist": "Wishlist",
                 "trade": "Open to trade",
                 "any": "Any {field}"
             },
@@ -45,14 +53,15 @@
             "table": {
                 "title": "Title",
                 "status": "Status",
-                "rating": "Rating"
+                "rating": "Rating",
+                "progress": "Progress"
             },
             "page": {
                 "missing": "This collection doesn't exist, or you can't see it.",
                 "empty": "Nothing here yet.",
                 "since": "Since {date}",
                 "owned": "Owned",
-                "wanted": "Wanted",
+                "wanted": "Wishlist",
                 "trade": "To trade",
                 "follow": "Follow",
                 "following": "Following",
@@ -76,7 +85,7 @@
                 "name_placeholder": "The Nintendo shelf",
                 "description": "Description",
                 "visibility": "Who can see it",
-                "wishlist_public": "Show what I'm looking for (wanted items) to others",
+                "wishlist_public": "Show my wishlist to others",
                 "featured": "Feature it on the Collections page",
                 "create": "Create collection",
                 "save": "Save",
@@ -159,7 +168,7 @@
                 "nav": "Collections",
                 "items": "Items",
                 "collections": "Collections",
-                "wanted": "Wanted",
+                "wanted": "Wishlist",
                 "trade": "To trade",
                 "since": "Collecting since",
                 "collections_heading": "Collections",
@@ -269,7 +278,8 @@
                 "shortcut_menu": "Account menu only",
                 "shortcut_none": "Nowhere (Profile → Collections still works)",
                 "widget_label": "Offer the \"Recently added\" widget",
-                "widget_help": "Off by default. When on, the widget can be placed with Bespoke or FoF Forum Widgets (it first appears in FoF's right-hand column; move or remove it in FoF's layout editor). Reload the admin after switching it on.",
+                "widget_help": "Off by default. When on, the widget can be placed with Bespoke or FoF Forum Widgets (it first appears in FoF's right-hand column; move or remove it in FoF's layout editor).",
+                "widget_title": "Recently added to collections",
                 "igdb_id_label": "IGDB client ID (optional)",
                 "igdb_secret_label": "IGDB client secret",
                 "igdb_help": "With a free Twitch developer app, game look-ups search IGDB: cover, developer, publisher, release date, platforms and genres. Register an application (any name; OAuth redirect URL http://localhost; category Application Integration), then copy its Client ID and make a New Secret. Without it, games are looked up through Marquee when it is installed.",
@@ -305,7 +315,18 @@
                 "duplicate": "Duplicate",
                 "delete_confirm": "Delete the type {name}?",
                 "in_use": "A type with collections cannot be deleted.",
-                "save_failed": "The type could not be saved."
+                "save_failed": "The type could not be saved.",
+                "enabled": "Switched on",
+                "enabled_help": "When off, members don't see this type and can't start a collection of it. Collections already made with it stay, seen only by their owners and moderators. Admins can still try it out.",
+                "off": "Off",
+                "progress": "Track progress",
+                "progress_help": "Each item can be marked Not started, In progress or Completed: a badge on the item and a filter on the collection page. Handy for a backlog of games, books or films.",
+                "export": "Export",
+                "export_all": "Export all",
+                "import": "Import",
+                "import_help": "Types travel as JSON files with their details and every language's labels. Importing adds them as new types.",
+                "import_done": "{count, plural, one {# type imported} other {# types imported}}",
+                "import_failed": "That file isn't a Curio types export."
             },
             "shape": {
                 "portrait": "Portrait",
@@ -347,6 +368,7 @@
         },
         "api": {
             "type_in_use": "This type has collections, so it cannot be deleted.",
+            "type_disabled": "This collection type is switched off.",
             "too_many_collections": "You can have up to {count} collections.",
             "collection_full": "A collection holds up to {count} items.",
             "too_many_photos": "An item can have up to {count} photos.",

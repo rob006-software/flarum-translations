@@ -82,7 +82,8 @@
             },
             "log_in": {
                 "two_factor_placeholder": "2FA 令牌，例如 123456",
-                "two_factor_required_message": "需要有效的 2FA 令牌才能繼續。"
+                "two_factor_required_message": "需要有效的 2FA 令牌才能繼續。",
+                "two_factor_incorrect_message": ""
             }
         },
         "email": {
@@ -99,6 +100,11 @@
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "",
+                "two_factor_required_message": "",
+                "two_factor_incorrect_message": ""
+            },
             "reset_password": {
                 "two_factor_token_label": "2FA 令牌"
             },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "",
                     "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "",
+                    "two_factor_disabled": "",
+                    "two_factor_device_changed": "",
+                    "two_factor_backup_code_used": ""
+                },
+                "group": {
+                    "two_factor_required": "",
+                    "two_factor_not_required": ""
                 }
             }
         }

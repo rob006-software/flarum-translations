@@ -82,7 +82,8 @@
             },
             "log_in": {
                 "two_factor_placeholder": "Mã token 2FA, ví dụ: 123456",
-                "two_factor_required_message": "Bạn cần nhập một mã token 2FA hợp lệ để tiếp tục."
+                "two_factor_required_message": "Bạn cần nhập một mã token 2FA hợp lệ để tiếp tục.",
+                "two_factor_incorrect_message": ""
             }
         },
         "email": {
@@ -99,6 +100,11 @@
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "",
+                "two_factor_required_message": "",
+                "two_factor_incorrect_message": ""
+            },
             "reset_password": {
                 "two_factor_token_label": "Mã token 2FA"
             },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "Xuất trạng thái 2FA và mã sao lưu được mã hóa.",
                     "delete_description": "Xóa tất cả dữ liệu liên quan đến 2FA."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "",
+                    "two_factor_disabled": "",
+                    "two_factor_device_changed": "",
+                    "two_factor_backup_code_used": ""
+                },
+                "group": {
+                    "two_factor_required": "",
+                    "two_factor_not_required": ""
                 }
             }
         }

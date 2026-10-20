@@ -6,6 +6,14 @@
                 "wishlist": "",
                 "trade": ""
             },
+            "progress": {
+                "label": "",
+                "none": "",
+                "any": "",
+                "pending": "",
+                "in_progress": "",
+                "completed": ""
+            },
             "condition": {
                 "sealed": "",
                 "mint": "",
@@ -45,7 +53,8 @@
             "table": {
                 "title": "",
                 "status": "",
-                "rating": ""
+                "rating": "",
+                "progress": ""
             },
             "page": {
                 "missing": "",
@@ -270,6 +279,7 @@
                 "shortcut_none": "",
                 "widget_label": "",
                 "widget_help": "",
+                "widget_title": "",
                 "igdb_id_label": "",
                 "igdb_secret_label": "",
                 "igdb_help": "",
@@ -305,7 +315,18 @@
                 "duplicate": "",
                 "delete_confirm": "",
                 "in_use": "",
-                "save_failed": ""
+                "save_failed": "",
+                "enabled": "",
+                "enabled_help": "",
+                "off": "",
+                "progress": "",
+                "progress_help": "",
+                "export": "",
+                "export_all": "",
+                "import": "",
+                "import_help": "",
+                "import_done": "",
+                "import_failed": ""
             },
             "shape": {
                 "portrait": "",
@@ -347,6 +368,7 @@
         },
         "api": {
             "type_in_use": "",
+            "type_disabled": "",
             "too_many_collections": "",
             "collection_full": "",
             "too_many_photos": "",

@@ -17,6 +17,8 @@
             },
             "browse": {
                 "title": "Browse the forum",
+                "subtags": "Subtags",
+                "last_post": "Latest: {title}",
                 "all": "All sections",
                 "count": "{count, plural, one {# discussion} other {# discussions}}",
                 "latest": "latest {time}"
@@ -107,7 +109,7 @@
                 "custom": "Custom"
             },
             "colour": {
-                "hex": "Hex colour, such as"
+                "hex": "Hex colour, such as #0e2340"
             },
             "bar": {
                 "label": "Masthead colour",
@@ -158,20 +160,29 @@
                 "source_pagebuilder": "Page Builder articles",
                 "tag_label": "Tag",
                 "tag_none": "Choose a tag",
+                "tag_secondary": "{name} (secondary)",
+                "tags_label": "Show the tag on each story",
+                "tags_help": "The tag name on the featured story's label and above each story beside it. Turn off for a cleaner hero; the stories keep their tag colours.",
                 "type_label": "Page Builder content type",
                 "type_help": "The slug of the content type whose records are featured, such as articles."
             },
-            "topic": {
-                "lead_image_label": "Show a lead image on discussions",
-                "lead_image_help": "The first picture in a discussion's opening post, shown as a wide banner at the top of the article. Discussions without a picture show none."
+            "pictures": {
+                "label": "Pictures",
+                "help": "The pictures on the featured stories and the wide banner at the top of a discussion. A story's own picture is the first one in its opening post (or a Page Builder article's cover); Backdrop is the author's profile cover, from the Backdrop extension. A story with no picture shows its tag-coloured stripes.",
+                "both": "Its own picture, else the author's Backdrop cover",
+                "image": "Its own picture only",
+                "backdrop": "The author's Backdrop cover only",
+                "off": "No pictures"
             },
             "portal": {
                 "tag_count_label": "Sections in the grid",
-                "tag_count_help": "How many top-level tags the Browse the forum grid shows before All sections."
+                "tag_count_help": "How many top-level tags the Browse the forum grid shows before All sections.",
+                "tags_page_label": "Draw the Tags page as section tiles",
+                "tags_page_help": "The Tags page (/tags) uses the same tiles as Browse the forum on the home page, with each section's subtags and latest discussion. Turn off to keep Flarum's own coloured tiles."
             },
             "footer": {
                 "label": "Footer links",
-                "help": "Links shown in the footer of every page. An address can be a path on this forum (/p/1-rules), a web address or a mailto link. Drag to reorder.",
+                "help": "Links shown in the footer of every page. An address can be a path on this forum (/p/1-rules), a web address, a mailto link, or # for a placeholder link that goes nowhere (#name scrolls to that part of the page). Drag to reorder.",
                 "name": "Name",
                 "url": "Address",
                 "url_placeholder": "/p/1-about or https://…",

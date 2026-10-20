@@ -82,7 +82,8 @@
             },
             "log_in": {
                 "two_factor_placeholder": "Jeton A2F, p. ex. 123456",
-                "two_factor_required_message": "Un jeton A2F valide est nécessaire pour continuer."
+                "two_factor_required_message": "Un jeton A2F valide est nécessaire pour continuer.",
+                "two_factor_incorrect_message": ""
             }
         },
         "email": {
@@ -99,6 +100,11 @@
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "",
+                "two_factor_required_message": "",
+                "two_factor_incorrect_message": ""
+            },
             "reset_password": {
                 "two_factor_token_label": "Jeton A2F"
             },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "Exporte le statut A2F et les codes de sauvegarde chiffrés.",
                     "delete_description": "Supprime toutes les données relatives à l'A2F."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "",
+                    "two_factor_disabled": "",
+                    "two_factor_device_changed": "",
+                    "two_factor_backup_code_used": ""
+                },
+                "group": {
+                    "two_factor_required": "",
+                    "two_factor_not_required": ""
                 }
             }
         }
