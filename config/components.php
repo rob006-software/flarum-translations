@@ -1451,6 +1451,7 @@ return [
 	],
 	'mattoid-store' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.2.3.2/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.3.0.beta/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
