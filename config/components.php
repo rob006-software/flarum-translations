@@ -332,6 +332,9 @@ return [
 	'ernestdefoe-typesense' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.4/locale/en.yml',
 	],
+	'ernestdefoe-velvet-rope' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/velvet-rope/1.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-verbatim' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.1/locale/en.yml',
 	],
