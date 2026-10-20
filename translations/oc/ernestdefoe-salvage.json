@@ -1,0 +1,134 @@
+{
+    "ernestdefoe-salvage": {
+        "forum": {
+            "flag_reason": ""
+        },
+        "admin": {
+            "status": {
+                "title": "",
+                "scheduler_missing": "",
+                "scheduler_stale": "",
+                "scheduler_docs": "",
+                "scan_title": "",
+                "scan_help": "",
+                "scan_start": "",
+                "scan_running": "",
+                "scan_stop": "",
+                "pending": ""
+            },
+            "views": {
+                "broken": "",
+                "failing": "",
+                "decided": "",
+                "mirrored": "",
+                "ignored": "",
+                "skipped": "",
+                "all": ""
+            },
+            "links": {
+                "kind_all": "",
+                "kind_link": "",
+                "kind_image": "",
+                "search_placeholder": "",
+                "empty": "",
+                "empty_broken": "",
+                "image": "",
+                "in_post": "",
+                "hidden_post": "",
+                "more_posts": "",
+                "show_posts": "",
+                "load_more": "",
+                "checked": "",
+                "broken_since": "",
+                "never_checked": "",
+                "applying": "",
+                "replaced_with": "",
+                "unlinked": "",
+                "mirrored": "",
+                "ignored_note": "",
+                "archive_copy": "",
+                "no_archive": "",
+                "fail_count": "",
+                "previous": "",
+                "next": "",
+                "page": ""
+            },
+            "actions": {
+                "replace": "",
+                "archive": "",
+                "unlink": "",
+                "ignore": "",
+                "restore": "",
+                "recheck": "",
+                "mirror": "",
+                "unlink_confirm": ""
+            },
+            "replace_modal": {
+                "title": "",
+                "help": "",
+                "label": "",
+                "submit": ""
+            },
+            "status_labels": {
+                "pending": "",
+                "ok": "",
+                "broken": "",
+                "blocked": "",
+                "skipped": ""
+            },
+            "errors": {
+                "http": "",
+                "http_404": "",
+                "http_410": "",
+                "dns_none": "",
+                "dns": "",
+                "timeout": "",
+                "connect": "",
+                "tls": "",
+                "redirects": "",
+                "too_large": "",
+                "not_image": "",
+                "storage": "",
+                "scheme": "",
+                "credentials": "",
+                "port": "",
+                "host": "",
+                "private_address": "",
+                "own_site": "",
+                "skip_list": ""
+            },
+            "settings": {
+                "check_links_label": "",
+                "check_links_help": "",
+                "mirror_images_label": "",
+                "mirror_images_help": "",
+                "use_fof_upload_label": "",
+                "use_fof_upload_help": "",
+                "archive_label": "",
+                "archive_help": "",
+                "auto_archive_label": "",
+                "auto_archive_help": "",
+                "flag_posts_label": "",
+                "flag_posts_help": "",
+                "per_run_label": "",
+                "per_run_help": "",
+                "recheck_days_label": "",
+                "max_image_kb_label": "",
+                "daily_mb_label": "",
+                "daily_mb_help": "",
+                "skip_domains_label": "",
+                "skip_domains_help": ""
+            }
+        },
+        "api": {
+            "errors": {
+                "unknown_action": "",
+                "still_applying": "",
+                "bad_url": "",
+                "no_archive": "",
+                "undo_first": "",
+                "cannot_restore": ""
+            }
+        }
+    }
+}
