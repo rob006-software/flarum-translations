@@ -4143,9 +4143,16 @@
         "ernestdefoe-curio": {
             "admin": {
                 "kind": {
+                    "bool": "cb9a79a31f57e42cdd7aa833a096ccfd cb9a79a31f57e42cdd7aa833a096ccfd",
+                    "date": "9ba51734ced032fd8ec25acfb387a23f 9ba51734ced032fd8ec25acfb387a23f",
                     "number": "e9716bc6a1ade215b8bc4fc50339a343 e9716bc6a1ade215b8bc4fc50339a343",
                     "select": "c750f9f8d5deaecc9162be3abdb7c95f c750f9f8d5deaecc9162be3abdb7c95f",
                     "text": "9dffbf69ffba8bc38bc4e01abf4b1675 9dffbf69ffba8bc38bc4e01abf4b1675"
+                },
+                "permissions": {
+                    "create": "9a5f31f8189604319610e2e497bc66e7 9a5f31f8189604319610e2e497bc66e7",
+                    "moderate": "f314b9453c6f42713c1855d2293607a4 f314b9453c6f42713c1855d2293607a4",
+                    "view": "20fb55f9eca54e202cdb60da46ce6973 20fb55f9eca54e202cdb60da46ce6973"
                 },
                 "settings": {
                     "deepl_help": "a05284c1b4c460bec93b154218a5666d a05284c1b4c460bec93b154218a5666d",
@@ -4167,6 +4174,7 @@
                     "shortcut_menu": "9281e2b8dfefe53a26c6e7c95f06e6e9 9281e2b8dfefe53a26c6e7c95f06e6e9",
                     "shortcut_none": "7504c8a9cf6047f35c3d27364b48b42f 7504c8a9cf6047f35c3d27364b48b42f",
                     "shortcut_sidebar": "5f2b8ba66a4d8efc059e714010452cae 5f2b8ba66a4d8efc059e714010452cae",
+                    "upc_help": "c871fb547815d96704ba7e3164bcd42a c871fb547815d96704ba7e3164bcd42a",
                     "upc_label": "d4f90ee7511c87943ffa3cdf3fd5a01c d4f90ee7511c87943ffa3cdf3fd5a01c",
                     "upc_link": "5556514d67a55b7755e45e3b98b180e7 5556514d67a55b7755e45e3b98b180e7",
                     "widget_help": "2aab7ca6381959e87173bd64ed4af150 2aab7ca6381959e87173bd64ed4af150",
@@ -4180,7 +4188,7 @@
                 },
                 "source": {
                     "books": "2f513859797422daae2e66372be8bc5d 2f513859797422daae2e66372be8bc5d",
-                    "games": "7b4e09883e5e58a39eec4c9d4a9cfabe 7b4e09883e5e58a39eec4c9d4a9cfabe",
+                    "games": "057c01a11ae43653665f66b99d2554e8 057c01a11ae43653665f66b99d2554e8",
                     "movies": "8a77d5ea32282953bd0f020e82eae51b 8a77d5ea32282953bd0f020e82eae51b",
                     "music": "e31e54986b30ec2879609eab009a55e2 e31e54986b30ec2879609eab009a55e2",
                     "none": "1a5d69a38ebd391e915085e489920e43 1a5d69a38ebd391e915085e489920e43",
@@ -4227,6 +4235,25 @@
                     "shape": "a8655e7e0536afdbbf886a1c0788cad2 a8655e7e0536afdbbf886a1c0788cad2",
                     "source": "4cc337e912e193625da0a4cbbcc009bb 4cc337e912e193625da0a4cbbcc009bb",
                     "translation_note": "623326e57b57c598e0bc668d6b6cd86e 623326e57b57c598e0bc668d6b6cd86e"
+                }
+            },
+            "api": {
+                "collection_full": "38ffe273357bb71cd33079044a442b0d 38ffe273357bb71cd33079044a442b0d",
+                "too_many_collections": "a80014f4b2554f1bea4a73aa3af33e9e a80014f4b2554f1bea4a73aa3af33e9e",
+                "too_many_photos": "e588ce5104abc0bfb76e74bc11080ea1 e588ce5104abc0bfb76e74bc11080ea1",
+                "type_disabled": "c206362f56d4d08675e14925ad955ce0 c206362f56d4d08675e14925ad955ce0",
+                "type_in_use": "7a55940bcef72293e5fb0043b9e44be4 7a55940bcef72293e5fb0043b9e44be4"
+            },
+            "email": {
+                "match": {
+                    "body": "08d87cc40dea881c3ea0d9fdba8acf00 08d87cc40dea881c3ea0d9fdba8acf00",
+                    "link": "35daae47392d1fa43b96ee874453f55c 35daae47392d1fa43b96ee874453f55c",
+                    "subject": "e64eba1ad356c52e08fa7198b4e5c9b7 e64eba1ad356c52e08fa7198b4e5c9b7"
+                },
+                "new_items": {
+                    "body": "b573161f3c92f22dad67b3a240e9e1b4 b573161f3c92f22dad67b3a240e9e1b4",
+                    "link": "5949375d53b4854b3d68be82b1c0e0a9 5949375d53b4854b3d68be82b1c0e0a9",
+                    "subject": "15a52403740f8cc379da34e9687ca285 15a52403740f8cc379da34e9687ca285"
                 }
             },
             "forum": {
