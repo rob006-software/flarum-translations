@@ -791,6 +791,12 @@ return [
 	'glowingblue-password-strength' => [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
+	'hideinmatrix-telegram-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/HideInMatrix/flarum-telegram-upload/v0.2.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'huoxin-filter-rule-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/2.0.0/locale/en.yml',
 		'__builtInLanguages' => [
