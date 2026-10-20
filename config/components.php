@@ -308,6 +308,9 @@ return [
 	'ernestdefoe-rubric' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rubric/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-salvage' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/salvage/v1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.12/locale/en.yml',
 	],
