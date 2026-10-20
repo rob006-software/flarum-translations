@@ -180,7 +180,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.0.5/locale/en.yml',
 	],
 	'ernestdefoe-curio' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.3.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'fr',
 		],
