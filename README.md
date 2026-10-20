@@ -1025,6 +1025,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-ridge`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ridge) | [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) |
 | [`ernestdefoe-roleplay`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-roleplay) | [`ernestdefoe/roleplay`](https://github.com/ernestdefoe/roleplay) |
 | [`ernestdefoe-rubric`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-rubric) | [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) |
+| [`ernestdefoe-salvage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-salvage) | [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) |
 | [`ernestdefoe-scribe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe) | [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) |
 | [`ernestdefoe-seo`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seo) | [`ernestdefoe/seo`](https://github.com/ernestdefoe/fof-seo) |
 | [`ernestdefoe-sheaf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sheaf) | [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) |
