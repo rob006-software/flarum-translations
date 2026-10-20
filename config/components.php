@@ -846,7 +846,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-boring-avatars/2.0.0-beta.2/locale/en.yml',
 	],
 	'ianm-follow-users' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/follow-users/2.0.0-beta.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/2.0.0/resources/locale/en.yml',
 	],
 	'ianm-gravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/gravatar/2.0.0/resources/locale/en.yml',
