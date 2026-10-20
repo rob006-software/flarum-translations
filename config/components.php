@@ -867,7 +867,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/imorland/syndication/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'ianm-twofactor' => [
-		'beta' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/2.0.0-beta.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-twofactor/2.0.0/locale/en.yml',
 	],
 	'import-ai-webhook-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook-notification/v0.1.5/locale/en.yml',
