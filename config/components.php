@@ -158,6 +158,9 @@ return [
 	'ernestdefoe-backdrop' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-brainstorm' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-cadence' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.2.1/locale/en.yml',
 	],
