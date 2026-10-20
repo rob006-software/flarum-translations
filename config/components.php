@@ -792,7 +792,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
 	'hideinmatrix-telegram-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/HideInMatrix/flarum-telegram-upload/v0.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/HideInMatrix/flarum-telegram-upload/v0.2.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
