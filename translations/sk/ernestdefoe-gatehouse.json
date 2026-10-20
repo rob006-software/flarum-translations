@@ -5,24 +5,16 @@
             "notice_declined": "",
             "notification": "",
             "optional": "",
-            "notify_applicant_label": ""
+            "notify_applicant_label": "",
+            "applicants": {
+                "title": "",
+                "link": "",
+                "not_allowed": ""
+            }
         },
         "admin": {
             "queue_heading": "",
-            "queue": {
-                "tab_pending": "",
-                "tab_declined": "",
-                "tab_approved": "",
-                "empty_pending": "",
-                "empty_declined": "",
-                "empty_approved": "",
-                "signed_up": "",
-                "approved_by": "",
-                "declined_by": "",
-                "answer": "",
-                "approve": "",
-                "decline": ""
-            },
+            "permission_decide": "",
             "rules_heading": "",
             "enabled": "",
             "enabled_help": "",
@@ -47,6 +39,20 @@
             "declined_message_help": ""
         },
         "lib": {
+            "queue": {
+                "tab_pending": "",
+                "tab_declined": "",
+                "tab_approved": "",
+                "empty_pending": "",
+                "empty_declined": "",
+                "empty_approved": "",
+                "signed_up": "",
+                "approved_by": "",
+                "declined_by": "",
+                "answer": "",
+                "approve": "",
+                "decline": ""
+            },
             "refused": "",
             "username_reserved": "",
             "signin_pending": "",

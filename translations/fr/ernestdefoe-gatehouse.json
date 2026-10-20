@@ -5,24 +5,16 @@
             "notice_declined": "Votre compte n'a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.",
             "notification": "{name} s'est inscrit(e) et attend votre approbation",
             "optional": "Facultatif",
-            "notify_applicant_label": "Quelqu'un s'est inscrit et attend votre approbation"
+            "notify_applicant_label": "Quelqu'un s'est inscrit et attend votre approbation",
+            "applicants": {
+                "title": "",
+                "link": "",
+                "not_allowed": ""
+            }
         },
         "admin": {
             "queue_heading": "En attente d'approbation",
-            "queue": {
-                "tab_pending": "En attente",
-                "tab_declined": "Refusé",
-                "tab_approved": "Approuvé",
-                "empty_pending": "Personne n'attend.",
-                "empty_declined": "Personne n'a été refusé.",
-                "empty_approved": "Personne n'a encore été approuvé par Gatehouse.",
-                "signed_up": "S'est inscrit",
-                "approved_by": "Approuvé par {name}",
-                "declined_by": "Refusé par {name}",
-                "answer": "Leur réponse",
-                "approve": "Approuver",
-                "decline": "Refuser"
-            },
+            "permission_decide": "",
             "rules_heading": "Règles",
             "enabled": "Mettre en attente les nouvelles inscriptions pour approbation",
             "enabled_help": "Les membres existants ne sont jamais affectés. Les administrateurs qui ajoutent des membres manuellement ne sont jamais retenus.",
@@ -44,9 +36,37 @@
             "held_message": "Texte supplémentaire destiné aux candidats dont l'inscription est en attente d'approbation",
             "held_message_help": "Ajoute au courriel la mention « Nous avons bien reçu votre inscription ». Précisez ce que vous attendez d'eux, par exemple : « veuillez répondre en indiquant votre numéro d'étudiant ».",
             "declined_message": "Texte supplémentaire destiné aux candidats dont l'inscription a été rejetée",
-            "declined_message_help": "Ce texte sera ajouté au courriel envoyé lorsque vous refusez une demande. Laissez ce champ vide pour utiliser la formulation par défaut."
+            "declined_message_help": "Ce texte sera ajouté au courriel envoyé lorsque vous refusez une demande. Laissez ce champ vide pour utiliser la formulation par défaut.",
+            "queue": {
+                "tab_pending": "En attente",
+                "tab_declined": "Refusé",
+                "tab_approved": "Approuvé",
+                "empty_pending": "Personne n'attend.",
+                "empty_declined": "Personne n'a été refusé.",
+                "empty_approved": "Personne n'a encore été approuvé par Gatehouse.",
+                "signed_up": "S'est inscrit",
+                "approved_by": "Approuvé par {name}",
+                "declined_by": "Refusé par {name}",
+                "answer": "Leur réponse",
+                "approve": "Approuver",
+                "decline": "Refuser"
+            }
         },
         "lib": {
+            "queue": {
+                "tab_pending": "",
+                "tab_declined": "",
+                "tab_approved": "",
+                "empty_pending": "",
+                "empty_declined": "",
+                "empty_approved": "",
+                "signed_up": "",
+                "approved_by": "",
+                "declined_by": "",
+                "answer": "",
+                "approve": "",
+                "decline": ""
+            },
             "refused": "Les inscriptions à partir de cette adresse e-mail ne sont pas acceptées sur ce forum.",
             "username_reserved": "Ce nom d'utilisateur n'est pas disponible. Veuillez en choisir un autre.",
             "signin_pending": "Votre compte est en attente d'approbation par un administrateur. Nous vous enverrons un e-mail dès qu'il sera prêt.",

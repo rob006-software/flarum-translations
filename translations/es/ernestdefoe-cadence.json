@@ -20,15 +20,250 @@
             "less": "Menos",
             "more": "Más",
             "nothing": "Ninguna",
-            "at_least": "{count, plural, one {# o más} other {# o más}}"
+            "at_least": "{count, plural, one {# o más} other {# o más}}",
+            "streak": {
+                "page_title": "",
+                "page_intro_contribute": "",
+                "page_intro_visit": "",
+                "profile_tab": "",
+                "leaderboard": "",
+                "your_flame": "",
+                "their_flame": "",
+                "your_daily_streak": "",
+                "your_streak_page": "",
+                "no_flame": "",
+                "flame_out_short": "",
+                "best_short": "",
+                "birthday": "",
+                "badge_label": "",
+                "day_flame": "",
+                "days_count": "",
+                "days_unit": "",
+                "days_to_tier": "",
+                "top_tier": "",
+                "rank": "",
+                "started": "",
+                "rival_ahead": "",
+                "rival_level": "",
+                "longest": "",
+                "total_days": "",
+                "freezes": "",
+                "feed_today": "",
+                "embers_title": "",
+                "embers_body": "",
+                "time_left": "",
+                "activity_log": "",
+                "active_days": "",
+                "legend_fed": "",
+                "legend_saved": "",
+                "calendar_title": "",
+                "journal_title": "",
+                "calendar": {
+                    "previous": "",
+                    "next": "",
+                    "fed": "",
+                    "saved": ""
+                },
+                "board": {
+                    "current": "",
+                    "alltime": "",
+                    "hall": "",
+                    "hall_intro": "",
+                    "alight_now": "",
+                    "flame_out": "",
+                    "empty": "",
+                    "load_more": ""
+                },
+                "side": {
+                    "title": "",
+                    "alight": "",
+                    "fed_today": "",
+                    "best": "",
+                    "bonfire": "",
+                    "tiers": "",
+                    "from_days": "",
+                    "how": ""
+                },
+                "bonfire": {
+                    "fed": "",
+                    "to_next": "",
+                    "max": ""
+                },
+                "how": {
+                    "contribute": "",
+                    "visit": "",
+                    "grace": "",
+                    "freezes": "",
+                    "embers": "",
+                    "timezone": ""
+                },
+                "toast": {
+                    "day": "",
+                    "milestone": "",
+                    "tier": "",
+                    "record": "",
+                    "saved": "",
+                    "revived": ""
+                },
+                "warning": {
+                    "risk": "",
+                    "embers": ""
+                },
+                "notify_moments": "",
+                "notify_warnings": "",
+                "widgets": {
+                    "my_flame": "",
+                    "top_flames": ""
+                },
+                "settings": {
+                    "title": "",
+                    "celebrate_help": "",
+                    "celebrate_all": "",
+                    "celebrate_important": "",
+                    "celebrate_never": ""
+                }
+            }
+        },
+        "lib": {
+            "streak": {
+                "tiers": {
+                    "spark": "",
+                    "kindled": "",
+                    "blaze": "",
+                    "inferno": "",
+                    "eternal": ""
+                },
+                "journal": {
+                    "empty": "",
+                    "milestone": "",
+                    "tier": "",
+                    "record": "",
+                    "saved": "",
+                    "ended": "",
+                    "revived": "",
+                    "given": "",
+                    "edited": "",
+                    "reset": ""
+                }
+            }
         },
         "admin": {
+            "map_heading": "",
+            "streak": {
+                "heading": "",
+                "enabled": "",
+                "enabled_help": "",
+                "permission_view": "",
+                "permission_earn": "",
+                "mode": "",
+                "mode_help": "",
+                "mode_contribute": "",
+                "mode_visit": "",
+                "streak_grace": "",
+                "streak_grace_help": "",
+                "streak_milestones": "",
+                "streak_milestones_help": "",
+                "streak_freeze_per_milestone": "",
+                "streak_freeze_per_milestone_help": "",
+                "streak_freeze_bank": "",
+                "streak_freeze_bank_help": "",
+                "streak_embers_min": "",
+                "streak_embers_min_help": "",
+                "streak_embers_hours": "",
+                "streak_embers_hours_help": "",
+                "streak_embers_share": "",
+                "streak_embers_share_help": "",
+                "streak_hall_min": "",
+                "streak_hall_min_help": "",
+                "streak_risk_min": "",
+                "streak_risk_min_help": "",
+                "streak_risk_hour": "",
+                "streak_risk_hour_help": "",
+                "streak_bonfire_levels": "",
+                "streak_bonfire_levels_help": "",
+                "streak_timezone": "",
+                "streak_timezone_help": "",
+                "placements": "",
+                "in_header": "",
+                "in_header_help": "",
+                "on_posts": "",
+                "on_posts_help": "",
+                "on_cards": "",
+                "on_cards_help": "",
+                "on_profile": "",
+                "on_profile_help": "",
+                "nav": "",
+                "nav_help": "",
+                "sidebar": "",
+                "sidebar_help": "",
+                "remove": "",
+                "save_tiers": "",
+                "tiers": {
+                    "title": "",
+                    "help": "",
+                    "preview": "",
+                    "name": "",
+                    "days": "",
+                    "color": "",
+                    "icon": "",
+                    "glow": "",
+                    "enabled": "",
+                    "add": ""
+                },
+                "seasons": {
+                    "title": "",
+                    "help": "",
+                    "from": "",
+                    "to": "",
+                    "add": ""
+                },
+                "overview": {
+                    "title": "",
+                    "tracked": "",
+                    "alight": "",
+                    "fedToday": "",
+                    "best": "",
+                    "freezes": "",
+                    "embers": "",
+                    "by_tier": "",
+                    "from_days": "",
+                    "longest": "",
+                    "events": "",
+                    "days": "",
+                    "by": ""
+                },
+                "sheet": {
+                    "title": "",
+                    "help": "",
+                    "search": "",
+                    "current": "",
+                    "longest": "",
+                    "total": "",
+                    "freezes": "",
+                    "give": "",
+                    "edit": "",
+                    "revive": "",
+                    "reset": "",
+                    "reset_confirm": "",
+                    "done": ""
+                }
+            },
             "show_on_profile": "Mostrar el mapa en el perfil de los miembros",
             "show_on_profile_help": "El mapa completo en cada perfil. Esta es la opción recomendada para la mayoría de los foros.\n",
             "show_on_posts": "Mostrar una gráfica de tendencia (sparkline) junto a cada publicación",
             "show_on_posts_help": "Un pequeño trazado de las últimas 26 semanas junto a cada autor. Realiza solo una consulta adicional por cada miembro distinto en la página (no por publicación), por lo que consume muy pocos recursos, pero permanece desactivado a menos que lo habilite.\n",
             "show_on_cards": "Mostrar una gráfica de tendencia (sparkline) en las tarjetas de usuario",
             "show_on_cards_help": "En las tarjetas emergentes y en cualquier otro lugar donde se muestre el resumen de un miembro.\n"
+        },
+        "email": {
+            "risk": {
+                "subject": "",
+                "body": ""
+            },
+            "embers": {
+                "subject": "",
+                "body": ""
+            }
         }
     }
 }

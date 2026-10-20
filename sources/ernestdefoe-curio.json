@@ -37,7 +37,7 @@
                 "collections": "{count, plural, one {# collection} other {# collections}}"
             },
             "filter": {
-                "all": "All",
+                "all": "All items",
                 "owned": "Owned",
                 "wishlist": "Wishlist",
                 "trade": "Open to trade",
@@ -70,6 +70,7 @@
                 "settings": "Settings",
                 "search": "Search {count} items…",
                 "filter_label": "Show",
+                "sort_label": "Order",
                 "view_label": "View",
                 "view_grid": "Grid",
                 "view_list": "List",
@@ -81,6 +82,9 @@
                 "title_new": "New collection",
                 "title_edit": "Collection settings",
                 "type": "What do you collect?",
+                "type_pick": "Pick a type",
+                "type_off_group": "Switched off — only admins see these",
+                "type_change_help": "Items keep their details. The breakdown and filters follow the new type's fields.",
                 "name": "Name",
                 "name_placeholder": "The Nintendo shelf",
                 "description": "Description",

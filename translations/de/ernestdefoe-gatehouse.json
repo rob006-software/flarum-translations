@@ -5,24 +5,16 @@
             "notice_declined": "Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.",
             "notification": "{name} hat sich angemeldet und wartet auf deine Freigabe",
             "optional": "optional",
-            "notify_applicant_label": "Jemand registriert sich und wartet auf meine Genehmigung"
+            "notify_applicant_label": "Jemand registriert sich und wartet auf meine Genehmigung",
+            "applicants": {
+                "title": "",
+                "link": "",
+                "not_allowed": ""
+            }
         },
         "admin": {
             "queue_heading": "Wartet auf Freigabe",
-            "queue": {
-                "tab_pending": "Wartet",
-                "tab_declined": "Abgelehnt",
-                "tab_approved": "Genehmigt",
-                "empty_pending": "Niemand wartet gerade.",
-                "empty_declined": "Niemand wurde abgelehnt.",
-                "empty_approved": "Niemand wurde bisher durch Gatehouse freigegeben.",
-                "signed_up": "Angemeldet",
-                "approved_by": "Genehmigt von {name}",
-                "declined_by": "Abgelehnt von {name}",
-                "answer": "Deren Antwort",
-                "approve": "Genehmigen",
-                "decline": "Ablehnen"
-            },
+            "permission_decide": "",
             "rules_heading": "Regeln",
             "enabled": "Neue Anmeldungen bis zur Freigabe zurückhalten",
             "enabled_help": "Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.",
@@ -44,9 +36,37 @@
             "held_message": "Zusatztext für Bewerber, die noch auf eine Antwort warten",
             "held_message_help": "Wird der E-Mail „Wir haben deine Bewerbung erhalten“ hinzugefügt. Gib an, was du von ihnen benötigst, zum Beispiel: „Bitte antworte mit deiner Matrikelnummer“.",
             "declined_message": "Zusatztext für abgelehnte Bewerber",
-            "declined_message_help": "Wird der E-Mail hinzugefügt, die versendet wird, wenn du jemanden ablehnst. Lasse das Feld leer, um den Standardtext zu verwenden."
+            "declined_message_help": "Wird der E-Mail hinzugefügt, die versendet wird, wenn du jemanden ablehnst. Lasse das Feld leer, um den Standardtext zu verwenden.",
+            "queue": {
+                "tab_pending": "Wartet",
+                "tab_declined": "Abgelehnt",
+                "tab_approved": "Genehmigt",
+                "empty_pending": "Niemand wartet gerade.",
+                "empty_declined": "Niemand wurde abgelehnt.",
+                "empty_approved": "Niemand wurde bisher durch Gatehouse freigegeben.",
+                "signed_up": "Angemeldet",
+                "approved_by": "Genehmigt von {name}",
+                "declined_by": "Abgelehnt von {name}",
+                "answer": "Deren Antwort",
+                "approve": "Genehmigen",
+                "decline": "Ablehnen"
+            }
         },
         "lib": {
+            "queue": {
+                "tab_pending": "",
+                "tab_declined": "",
+                "tab_approved": "",
+                "empty_pending": "",
+                "empty_declined": "",
+                "empty_approved": "",
+                "signed_up": "",
+                "approved_by": "",
+                "declined_by": "",
+                "answer": "",
+                "approve": "",
+                "decline": ""
+            },
             "refused": "Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.",
             "username_reserved": "Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen aus.",
             "signin_pending": "Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.",

@@ -1,28 +1,20 @@
 {
     "ernestdefoe-gatehouse": {
         "forum": {
-            "notice_pending": "Thanks for signing up! An admin needs to approve your account before you can post. We'll email you as soon as that happens.",
+            "notice_pending": "Thanks for signing up! Your account needs to be approved before you can post. We'll email you as soon as that happens.",
             "notice_declined": "Your account was not approved, so it can't be used on this forum.",
             "notification": "{name} signed up and is waiting for your approval",
             "optional": "optional",
-            "notify_applicant_label": "Someone signs up and is waiting for my approval"
+            "notify_applicant_label": "Someone signs up and is waiting for my approval",
+            "applicants": {
+                "title": "Applicants",
+                "link": "Applicants",
+                "not_allowed": "You don't have permission to approve applicants."
+            }
         },
         "admin": {
             "queue_heading": "Waiting for approval",
-            "queue": {
-                "tab_pending": "Waiting",
-                "tab_declined": "Declined",
-                "tab_approved": "Approved",
-                "empty_pending": "Nobody is waiting.",
-                "empty_declined": "Nobody has been declined.",
-                "empty_approved": "Nobody has been approved through Gatehouse yet.",
-                "signed_up": "Signed up",
-                "approved_by": "Approved by {name}",
-                "declined_by": "Declined by {name}",
-                "answer": "Their answer",
-                "approve": "Approve",
-                "decline": "Decline"
-            },
+            "permission_decide": "Approve and decline applicants",
             "rules_heading": "Rules",
             "enabled": "Hold new sign-ups for approval",
             "enabled_help": "Existing members are never affected. Admins adding members by hand are never held.",
@@ -47,16 +39,30 @@
             "declined_message_help": "Added to the email sent when you decline someone. Leave it empty for the standard wording."
         },
         "lib": {
+            "queue": {
+                "tab_pending": "Waiting",
+                "tab_declined": "Declined",
+                "tab_approved": "Approved",
+                "empty_pending": "Nobody is waiting.",
+                "empty_declined": "Nobody has been declined.",
+                "empty_approved": "Nobody has been approved through Gatehouse yet.",
+                "signed_up": "Signed up",
+                "approved_by": "Approved by {name}",
+                "declined_by": "Declined by {name}",
+                "answer": "Their answer",
+                "approve": "Approve",
+                "decline": "Decline"
+            },
             "refused": "Sign-ups from this email address aren't accepted on this forum.",
             "username_reserved": "That username isn't available. Please choose another.",
-            "signin_pending": "Your account is waiting for an admin to approve it. We'll email you when it's ready.",
-            "reason_required": "Please answer this question so an admin can approve your account.",
+            "signin_pending": "Your account is waiting to be approved. We'll email you when it's ready.",
+            "reason_required": "Please answer this question so your account can be approved.",
             "signin_declined": "This account was not approved, so it can't be used on this forum."
         },
         "email": {
             "held": {
                 "subject": "Your {forum} account is waiting for approval",
-                "body": "Thanks for signing up to {forum}. New accounts here are approved by hand, so an admin will look at yours shortly. You’ll get another email as soon as they do.\n\n{message}\n"
+                "body": "Thanks for signing up to {forum}. New accounts here are approved by hand, so someone will look at yours shortly. You’ll get another email as soon as they do.\n\n{message}\n"
             },
             "approved_activate": {
                 "subject": "Welcome to {forum}: your account is approved",
