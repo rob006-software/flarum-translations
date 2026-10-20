@@ -1,6 +1,28 @@
 {
     "ramon-canela": {
         "admin": {
+            "preview": {
+                "dirty": "Changes not applied yet",
+                "discard": "Discard",
+                "apply": "Apply",
+                "preview_forum": "Preview",
+                "preview_login": "Preview log in",
+                "preview_signup": "Preview sign up"
+            },
+            "backgrounds": {
+                "same": "Same as the forum",
+                "tinted": "Tinted gradient with blurred icons (default)",
+                "gradient": "Tinted gradient, no icons",
+                "solid": "Plain tinted color",
+                "plain": "Plain, no tint",
+                "image": "Image",
+                "empty": "No image uploaded yet: until then the background stays plain.",
+                "upload": "Upload image",
+                "replace": "Replace image",
+                "remove": "Remove",
+                "image_help": "JPG, PNG, WebP or GIF. It becomes a WebP up to 2560 × 1600 and covers the whole window, behind the content.",
+                "upload_error": "The image could not be uploaded."
+            },
             "settings": {
                 "group_appearance": "Appearance",
                 "group_sidebar": "Sidebar",
@@ -27,6 +49,10 @@
                 "section_surfaces": "Background & card",
                 "tinted_background_label": "Background tinted with the primary color",
                 "tinted_background_help": "The background behind the content and the sidebar gets a light touch of the primary color, as in Horizon. Off, it stays a neutral grey.",
+                "forum_background_label": "Forum background",
+                "forum_background_help": "What sits behind the content and the sidebar. The tinted gradient (with or without the blurred icons) and the tinted color pick up the primary color, as in Horizon; plain stays a neutral grey.",
+                "auth_pages_modals_label": "Every link goes to the pages",
+                "auth_pages_modals_help": "Reply, like, follow and any other button that asks for a login also open the log in and sign up pages instead of the modals. Off, only the header buttons go to the pages.",
                 "content_card_label": "Content inside a card",
                 "content_card_help": "The list, the discussion and the profile sit on a rounded card over the background. Off, the content fills the whole area with no frame.",
                 "section_buttons": "Buttons",
@@ -165,6 +191,8 @@
                     "group_moderation_desc": "Staff tools: bulk actions, edit history and notices to the author.",
                     "group_integrations_desc": "The Discourse look for third-party extensions. Each one only works with its extension enabled.",
                     "group_ai_desc": "Provider, bot, composer helper, summaries and related discussions.",
+                    "group_system": "Automated messages",
+                    "group_system_desc": "The system user and the messages it sends on its own: welcome, trust levels, staff, flags and suspensions.",
                     "on": "On",
                     "off": "Off",
                     "locked": "Unavailable",
@@ -608,7 +636,24 @@
                 },
                 "auth": {
                     "pages_label": "Full-page log in and sign up",
-                    "pages_help": "The Log In and Sign Up header buttons open the /login and /signup pages, like Discourse. When off, they open the modals."
+                    "pages_help": "The Log In and Sign Up header buttons open the /login and /signup pages, like Discourse. When off, they open the modals.",
+                    "layout_label": "Layout",
+                    "layout_help": "In all of them the page has no header, only the forum logo. With social login, the buttons come before the form (beside it in the Discourse one).",
+                    "layout_card": "Single card over the background (default)",
+                    "layout_discourse": "Discourse: no card, social login beside the form",
+                    "layout_split": "Split screen: colored panel on the left",
+                    "background_label": "Log in and sign up background",
+                    "background_help": "In the split screen the image goes to the left panel; the other backgrounds sit behind the form.",
+                    "text_default": "Empty: the default text",
+                    "texts_login": "Log in page texts",
+                    "texts_signup": "Sign up page texts",
+                    "texts_panel": "Split screen panel",
+                    "title_label": "Title",
+                    "subtitle_label": "Subtitle (optional)",
+                    "panel_login_title": "Title on log in",
+                    "panel_signup_title": "Title on sign up",
+                    "panel_login_text": "Text on log in",
+                    "panel_signup_text": "Text on sign up"
                 },
                 "bookmarks": {
                     "title": "Bookmarks",
@@ -812,6 +857,115 @@
                     "dm_guard_label": "DM rules",
                     "dm_guard_help": "Refuses DMs with people who cannot use the chat or turned it off, and applies the participant limit below."
                 }
+            },
+            "system_user": {
+                "title": "System user",
+                "help": "Like Discourse's \"system\": it signs automatic notifications (bookmark reminders and badges) and the automated messages below. It's a regular user on the forum, with a profile, avatar and bio, but it never logs in: no login, password, password reset or session. Nobody can message it, and it's left out of the users directory.",
+                "bio": "Not a real person. A global user for system notifications and other system tasks.",
+                "create": "Create system user",
+                "created_as": "System user: {name}",
+                "open_profile": "Open profile",
+                "profile_hint": "Change its avatar, name and bio from its profile, like any other user.",
+                "unlink": "Unlink",
+                "unlink_confirm": "Unlink the system user? The account stays, but notifications go back to having no sender and automated messages stop until you create or link another one.",
+                "missing": "There's no system user yet. Without one, automatic notifications have no sender and no automated message is sent.",
+                "messages_notice": "Automated messages are private messages: they need the Messages extension (flarum/messages) enabled.",
+                "needs_user": "Create the system user first (card above).",
+                "no_replies_notice": "The conversation with the system user is one-way: recipients can't reply, since nobody reads its inbox."
+            },
+            "sysmsg": {
+                "custom": {
+                    "title": "Custom messages",
+                    "help": "Your own messages, besides the Discourse ones: choose when each one goes out (account activated, days later, group, trust level, badge, first post, account anniversary, verified account). Each one is sent only once per person.",
+                    "empty": "No custom messages yet.",
+                    "add": "Add message",
+                    "remove": "Delete",
+                    "remove_confirm": "Delete this automated message?",
+                    "enabled": "Enabled",
+                    "title_label": "Message name (admin only)",
+                    "when": "When",
+                    "which": "Which",
+                    "choose": "Choose…",
+                    "trigger_activated": "Account activated",
+                    "trigger_group": "Joined a group",
+                    "trigger_trust_level": "Reached a trust level",
+                    "trigger_badge": "Earned a badge",
+                    "trigger_first_post": "Published their first post",
+                    "trigger_anniversary": "Account anniversary",
+                    "trigger_verified": "Account verified (ramon/verified)",
+                    "level_1": "1 - Basic",
+                    "level_2": "2 - Member",
+                    "level_3": "3 - Regular",
+                    "level_4": "4 - Leader",
+                    "delay_label": "Days later",
+                    "delay_suffix": "days later (0 = right away)",
+                    "delay_help": "Sent by Flarum's scheduler (php flarum schedule:run in cron), and only to people who sign up after the message is created.",
+                    "years_label": "Years of account",
+                    "years_suffix": "year(s) of account",
+                    "anniversary_help": "Sent by Flarum's scheduler on the sign-up anniversary, only for anniversaries after the message is created."
+                },
+                "fields": {
+                    "subject": "Subject",
+                    "body": "Text",
+                    "default_hint": "Empty, the default text applies (the one greyed out in the field), in the recipient's language.",
+                    "use_default": "Edit from the default",
+                    "restore_default": "Restore default",
+                    "variables": "Variables: {list}"
+                },
+                "welcome_user": {
+                    "title": "Welcome",
+                    "help": "For someone who just activated their account (confirmed their email, or signed up already confirmed). Sent only once per person.",
+                    "subject": "Welcome to %{site_name}!",
+                    "body": "Thanks for joining %{site_name}, and welcome!\n\nWe believe in [civilized community behavior](%{guidelines_url}) at all times.\n\nEnjoy your stay!"
+                },
+                "welcome_invite": {
+                    "title": "Welcome by invite",
+                    "help": "Instead of the regular welcome, for someone who joined through an invite link.",
+                    "subject": "Welcome to %{site_name}!",
+                    "body": "Thanks for accepting your invitation to %{site_name} -- welcome!\n\n- We've created this new account **%{username}** for you. Change your name or password in [your settings](%{user_preferences_url}).\n\nWe believe in [civilized community behavior](%{guidelines_url}) at all times.\n\nEnjoy your stay!"
+                },
+                "welcome_tl1_user": {
+                    "title": "Trust level 1",
+                    "help": "When someone moves up to trust level 1 (Basic). Needs trust levels enabled.",
+                    "subject": "Thanks for spending time with us",
+                    "body": "Hey there. We see you've been busy reading, which is fantastic, so we've promoted you up a trust level!\n\nWe're really glad you're spending time with us and we'd love to know more about you. Take a moment to [fill out your profile](%{user_url}), or feel free to [start a new discussion](%{base_url})."
+                },
+                "tl2_promotion_message": {
+                    "title": "Trust level 2",
+                    "help": "When someone moves up to trust level 2 (Member). Needs trust levels enabled.",
+                    "subject": "Congratulations on your trust level promotion!",
+                    "body": "We've promoted you up another trust level!\n\nAchieving trust level 2 means that you have read and actively participated enough to be considered a member of this community.\n\nWe invite you to keep getting involved: we enjoy having you around."
+                },
+                "welcome_staff": {
+                    "title": "Joined the staff",
+                    "help": "When someone joins the Admin or Moderators group.",
+                    "subject": "Congratulations, you've been granted %{role} status!",
+                    "body": "You've been granted %{role} status by a fellow staff member.\n\nIt comes with the staff tools, and with great power comes great responsibility. If you're new to moderating, please read the [community guidelines](%{guidelines_url})."
+                },
+                "user_added_to_group_as_member": {
+                    "title": "Added to a group",
+                    "help": "When someone joins another group (other than Admin and Moderators). Off by default, as in Discourse.",
+                    "subject": "You have been added to the %{group_name} group",
+                    "body": "You have been added as a member of the [%{group_name}](%{base_url}%{group_path}) group."
+                },
+                "flags_agreed_and_post_deleted": {
+                    "title": "Flagged post removed",
+                    "help": "When staff hides or deletes a post that had flags. Needs the Flags extension (flarum/flags).",
+                    "subject": "Flagged post removed by staff",
+                    "body": "Hello,\n\nThis is an automated message from %{site_name} to let you know that [your post](%{base_url}%{url}) was removed.\n\n%{flag_reason}\n\nThis post was flagged by the community and a staff member opted to remove it.\n\n```\n%{flagged_post_raw_content}\n```\n\nPlease review our [community guidelines](%{guidelines_url}) for details."
+                },
+                "silenced_by_staff": {
+                    "title": "Account suspended",
+                    "help": "When staff suspends the account. Needs the Suspend extension (flarum/suspend).",
+                    "subject": "Account suspended",
+                    "body": "Hello,\n\nThis is an automated message from %{site_name} to let you know that your account has been suspended until %{suspended_till}.\n\n%{reason}\n\nYou can still browse the forum, but you won't be able to take part until the suspension ends. If you have questions, contact the [staff](%{base_url}/about)."
+                },
+                "unsilenced": {
+                    "title": "Suspension lifted",
+                    "help": "When the suspension is lifted. Needs the Suspend extension (flarum/suspend).",
+                    "subject": "Your account is no longer suspended",
+                    "body": "Hello,\n\nThis is an automated message from %{site_name} to let you know that your account is no longer suspended.\n\nYou can now create new discussions and replies again. Thank you for your patience."
+                }
             }
         },
         "forum": {
@@ -910,11 +1064,20 @@
                     "activity": "Activity"
                 }
             },
+            "preview": {
+                "banner": "Preview: nothing has been applied yet. Only you see this version, in this tab.",
+                "close": "Close"
+            },
             "auth": {
                 "login_page_title": "Log In",
                 "signup_page_title": "Sign Up",
                 "forgot_heading": "Reset password",
                 "back_to_login": "Back to log in",
+                "or": "or",
+                "panel_login_title": "Good to see you again",
+                "panel_login_text": "Log in to keep up with the conversations, reply and follow what matters to you.",
+                "panel_signup_title": "Join the community",
+                "panel_signup_text": "Create your account to take part in discussions, follow topics and get notifications.",
                 "reset_heading": "Reset password",
                 "reset_help": "Choose a new password for your account (at least 8 characters).",
                 "reset_new_password": "New password",
@@ -2717,6 +2880,10 @@
                     "other": "Other",
                     "private": "Notifications are personal: they only show on your own profile."
                 }
+            },
+            "system_user": {
+                "no_replies": "This is an automated system conversation: replies are not delivered.",
+                "conversation_note": "Automated system messages. Replies are not possible."
             }
         },
         "api": {

@@ -1,6 +1,28 @@
 {
     "ramon-canela": {
         "admin": {
+            "preview": {
+                "dirty": "",
+                "discard": "",
+                "apply": "",
+                "preview_forum": "",
+                "preview_login": "",
+                "preview_signup": ""
+            },
+            "backgrounds": {
+                "same": "",
+                "tinted": "",
+                "gradient": "",
+                "solid": "",
+                "plain": "",
+                "image": "",
+                "empty": "",
+                "upload": "",
+                "replace": "",
+                "remove": "",
+                "image_help": "",
+                "upload_error": ""
+            },
             "settings": {
                 "group_appearance": "",
                 "group_sidebar": "",
@@ -27,6 +49,10 @@
                 "section_surfaces": "",
                 "tinted_background_label": "",
                 "tinted_background_help": "",
+                "forum_background_label": "",
+                "forum_background_help": "",
+                "auth_pages_modals_label": "",
+                "auth_pages_modals_help": "",
                 "content_card_label": "",
                 "content_card_help": "",
                 "section_buttons": "",
@@ -165,6 +191,8 @@
                     "group_moderation_desc": "",
                     "group_integrations_desc": "",
                     "group_ai_desc": "",
+                    "group_system": "",
+                    "group_system_desc": "",
                     "on": "",
                     "off": "",
                     "locked": "",
@@ -608,7 +636,24 @@
                 },
                 "auth": {
                     "pages_label": "",
-                    "pages_help": ""
+                    "pages_help": "",
+                    "layout_label": "",
+                    "layout_help": "",
+                    "layout_card": "",
+                    "layout_discourse": "",
+                    "layout_split": "",
+                    "background_label": "",
+                    "background_help": "",
+                    "text_default": "",
+                    "texts_login": "",
+                    "texts_signup": "",
+                    "texts_panel": "",
+                    "title_label": "",
+                    "subtitle_label": "",
+                    "panel_login_title": "",
+                    "panel_signup_title": "",
+                    "panel_login_text": "",
+                    "panel_signup_text": ""
                 },
                 "bookmarks": {
                     "title": "",
@@ -812,6 +857,115 @@
                     "dm_guard_label": "",
                     "dm_guard_help": ""
                 }
+            },
+            "system_user": {
+                "title": "",
+                "help": "",
+                "bio": "",
+                "create": "",
+                "created_as": "",
+                "open_profile": "",
+                "profile_hint": "",
+                "unlink": "",
+                "unlink_confirm": "",
+                "missing": "",
+                "messages_notice": "",
+                "needs_user": "",
+                "no_replies_notice": ""
+            },
+            "sysmsg": {
+                "custom": {
+                    "title": "",
+                    "help": "",
+                    "empty": "",
+                    "add": "",
+                    "remove": "",
+                    "remove_confirm": "",
+                    "enabled": "",
+                    "title_label": "",
+                    "when": "",
+                    "which": "",
+                    "choose": "",
+                    "trigger_activated": "",
+                    "trigger_group": "",
+                    "trigger_trust_level": "",
+                    "trigger_badge": "",
+                    "trigger_first_post": "",
+                    "trigger_anniversary": "",
+                    "trigger_verified": "",
+                    "level_1": "",
+                    "level_2": "",
+                    "level_3": "",
+                    "level_4": "",
+                    "delay_label": "",
+                    "delay_suffix": "",
+                    "delay_help": "",
+                    "years_label": "",
+                    "years_suffix": "",
+                    "anniversary_help": ""
+                },
+                "fields": {
+                    "subject": "",
+                    "body": "",
+                    "default_hint": "",
+                    "use_default": "",
+                    "restore_default": "",
+                    "variables": ""
+                },
+                "welcome_user": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "welcome_invite": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "welcome_tl1_user": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "tl2_promotion_message": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "welcome_staff": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "user_added_to_group_as_member": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "flags_agreed_and_post_deleted": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "silenced_by_staff": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                },
+                "unsilenced": {
+                    "title": "",
+                    "help": "",
+                    "subject": "",
+                    "body": ""
+                }
             }
         },
         "forum": {
@@ -910,11 +1064,20 @@
                     "activity": ""
                 }
             },
+            "preview": {
+                "banner": "",
+                "close": ""
+            },
             "auth": {
                 "login_page_title": "",
                 "signup_page_title": "",
                 "forgot_heading": "",
                 "back_to_login": "",
+                "or": "",
+                "panel_login_title": "",
+                "panel_login_text": "",
+                "panel_signup_title": "",
+                "panel_signup_text": "",
                 "reset_heading": "",
                 "reset_help": "",
                 "reset_new_password": "",
@@ -2717,6 +2880,10 @@
                     "other": "",
                     "private": ""
                 }
+            },
+            "system_user": {
+                "no_replies": "",
+                "conversation_note": ""
             }
         },
         "api": {
