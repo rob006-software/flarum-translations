@@ -260,7 +260,7 @@
         "admin": {
             "settings": {
                 "upc_label": "UPCitemdb-Schlüssel (optional)",
-                "upc_help": "",
+                "upc_help": "Barcodes für Spiele, Filme und andere Produkte werden in der UPCitemdb nachgeschlagen, die täglich 100 Abfragen ohne Schlüssel zulässt. Jeder vom Forum identifizierte Barcode wird gespeichert, sodass die meisten Foren nie mehr benötigen. Mit einem kostenpflichtigen Schlüssel lässt sich das Limit erhöhen.",
                 "upc_link": "Schlüssel holen",
                 "deepl_label": "DeepL-Schlüssel (optional)",
                 "deepl_help": "Wenn es in einer Sprache keine Beschreibung auf Wikipedia gibt, übersetzt DeepL die englische Version. Kostenlose Schlüssel enden auf „:fx“.",
@@ -339,39 +339,39 @@
                 "music": "Alben (Deezer, MusicBrainz)",
                 "movies": "Filme (mittels Marquee)",
                 "tv": "Fernsehserien (mittels Marquee)",
-                "games": "Spiele (IGDB oder via Marquee)"
+                "games": "Spiele (IGDB oder mittels Marquee)"
             },
             "kind": {
                 "select": "Auswahl",
                 "text": "Text",
                 "number": "Zahl",
-                "date": "",
-                "bool": ""
+                "date": "Datum",
+                "bool": "Ja / Nein"
             },
             "permissions": {
-                "view": "",
-                "create": "",
-                "moderate": ""
+                "view": "Sammlungen anzeigen",
+                "create": "Sammlungen erstellen, Artikel und Fotos hinzufügen",
+                "moderate": "Sammlungen von jedem entfernen und hervorheben"
             }
         },
         "email": {
             "match": {
-                "subject": "",
-                "body": "",
-                "link": ""
+                "subject": "{title} wird zum Tausch angeboten",
+                "body": "Hallo {recipient_display_name}, {owner} hat gerade {title} zum Tausch angeboten. Es ist auf deiner Wunschliste.",
+                "link": "Angebot ansehen"
             },
             "new_items": {
-                "subject": "",
-                "body": "",
-                "link": ""
+                "subject": "Neu in {name}",
+                "body": "Hallo {recipient_display_name}, {owner} hat neue Artikel zu {name} hinzugefügt, einer Sammlung, der du folgst.",
+                "link": "Sammlung ansehen"
             }
         },
         "api": {
-            "type_in_use": "",
-            "type_disabled": "",
-            "too_many_collections": "",
-            "collection_full": "",
-            "too_many_photos": "",
+            "type_in_use": "Dieser Typ hat Sammlungen und kann daher nicht gelöscht werden.",
+            "type_disabled": "Dieser Sammlungstyp ist ausgeschaltet.",
+            "too_many_collections": "Du kannst bis zu {count} Sammlungen haben.",
+            "collection_full": "Eine Sammlung darf bis zu {count} Artikel beinhalten.",
+            "too_many_photos": "Ein Artikel kann bis zu {count} Fotos haben.",
             "not_your_item": "",
             "import_missing": "",
             "import_too_big": "",
