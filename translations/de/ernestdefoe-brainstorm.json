@@ -1,15 +1,15 @@
 {
     "ernestdefoe-brainstorm": {
         "api": {
-            "title": "",
-            "dates": "",
-            "publish_empty": "",
-            "too_many_questions": "",
-            "question_type": "",
-            "question_body": "",
-            "option_length": "",
-            "option_count": "",
-            "accepted_count": "",
+            "title": "Gib dem Quiz einen Titel mit bis zu 200 Zeichen.",
+            "dates": "Das Enddatum muss nach dem Startdatum liegen.",
+            "publish_empty": "Füge mindestens eine Frage hinzu, bevor du es veröffentlichst.",
+            "too_many_questions": "Ein Quiz darf bis zu {max} Fragen beinhalten.",
+            "question_type": "Frage {number} ist von einem Typ, den dieses Forum nicht kennt.",
+            "question_body": "Frage {number} benötigt eine Fragt mit bis zu 5000 Zeichen.",
+            "option_length": "Eine Antwort in Frage {number} ist länger als 300 Zeichen.",
+            "option_count": "Frage {number} benötigt {min} bis {max} Antworten.",
+            "accepted_count": "Frage {number} benötigt {min} bis {max} akzeptierte Antworten.",
             "no_correct": "",
             "image_url": "",
             "reward_locked": "",
@@ -19,32 +19,32 @@
         },
         "lib": {
             "units": {
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+                "seconds": "{count, plural, one {# Sekunde} other {# Sekunden}}"
             }
         },
         "forum": {
-            "nav": "",
-            "draft": "",
+            "nav": "Quiz",
+            "draft": "Entwurf",
             "settings": {
                 "private": ""
             },
             "composer": {
-                "add": "",
+                "add": "Quiz",
                 "title": "",
                 "search": "",
-                "meta": "",
-                "none": "",
-                "create": ""
+                "meta": "{count, plural, one {# Frage} other {# Fragen}}",
+                "none": "Keine Quiz gefunden.",
+                "create": "Neues Quiz schreiben"
             },
             "facts": {
-                "questions": "",
+                "questions": "{count, plural, one {# Frage} other {# Fragen}}",
                 "pass_mark": "",
-                "attempts": "",
-                "attempts_left": "",
-                "points": "",
-                "badge": ""
+                "attempts": "{count, plural, one {# Versuch} other {# Versuche}}",
+                "attempts_left": "{count} von {max} Versuchen verbleiben",
+                "points": "{count, plural, one {# Punkt} other {# Punkte}}",
+                "badge": "Abzeichen: {name}"
             },
             "card": {
                 "best": "",
@@ -58,11 +58,11 @@
                 "preview": ""
             },
             "index": {
-                "title": "",
-                "new": "",
-                "search": "",
-                "more": "",
-                "empty": "",
+                "title": "Quiz",
+                "new": "Neues Quiz",
+                "search": "Quiz durchsuchen",
+                "more": "Mehr laden",
+                "empty": "Noch keine Quiz.",
                 "no_results": "",
                 "tabs": {
                     "new": "",
@@ -74,38 +74,38 @@
                 "all": "",
                 "missing": "",
                 "stats": "",
-                "edit": "",
+                "edit": "Bearbeiten",
                 "copy_link": "",
                 "link_copied": "",
-                "delete": "",
+                "delete": "Löschen",
                 "delete_confirm": "",
                 "opens": "",
                 "closes": "",
                 "closed": "",
                 "tabs": {
-                    "board": "",
-                    "results": ""
+                    "board": "Rangliste",
+                    "results": "Ergebnisse"
                 }
             },
             "player": {
-                "question_of": "",
+                "question_of": "Frage {number} von {total}",
                 "review_heading": "",
                 "answered": "",
                 "time_left": "",
                 "practice": "",
                 "choose_all": "",
                 "type_answer": "",
-                "true": "",
-                "false": "",
+                "true": "Wahr",
+                "false": "Falsch",
                 "points": "",
-                "previous": "",
-                "next": "",
+                "previous": "Vorheriger",
+                "next": "Nächster",
                 "finish": "",
                 "unanswered": "",
                 "all_answered": "",
                 "back": "",
                 "submit": "",
-                "jump": "",
+                "jump": "Fragen",
                 "error": "",
                 "close": ""
             },
@@ -117,27 +117,27 @@
                 "expired": "",
                 "practice": "",
                 "attempts_left": "",
-                "again": "",
+                "again": "Erneut versuchen",
                 "close": "",
-                "right": "",
+                "right": "Richtig",
                 "partial": "",
                 "wrong": "",
                 "you_typed": "",
-                "no_answer": "",
+                "no_answer": "(Keine Antwort)",
                 "accepted": "",
-                "your_answer": "",
+                "your_answer": "Deine Antwort",
                 "key_hidden": ""
             },
             "leaderboard": {
-                "title": "",
+                "title": "Rangliste",
                 "overall": "",
                 "overall_help": "",
                 "see_all": "",
-                "back": "",
+                "back": "Alle Quiz",
                 "passed": "",
                 "average": "",
                 "empty": "",
-                "off": "",
+                "off": "Dieses Quiz hat keine Rangliste.",
                 "you_quiz": "",
                 "you_overall": ""
             },
