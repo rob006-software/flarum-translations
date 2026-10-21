@@ -615,7 +615,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-masquerade' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/3.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/3.0.1/resources/locale/en.yml',
 	],
 	'fof-merge-discussions' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/2.0.0-beta.4/resources/locale/en.yml',
