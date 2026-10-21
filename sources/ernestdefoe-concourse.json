@@ -1,0 +1,80 @@
+{
+    "ernestdefoe-concourse": {
+        "admin": {
+            "settings": {
+                "show_profile_label": "Show the profile card",
+                "show_profile_help": "The reader's own card at the top of the right-hand column, with their cover, avatar, bio and an Edit Profile button. Guests see the forum's welcome with Sign up and Log in instead.",
+                "show_contributors_label": "Show Top Contributors",
+                "show_contributors_help": "Who received the most likes (or, without the Likes extension, wrote the most comments) in the chosen period. Only public discussions count.",
+                "contributors_period_label": "Top Contributors starts on",
+                "contributors_period_help": "The period a visitor sees first. They can switch between today, this week, this month and this year.",
+                "period_day": "Today",
+                "period_week": "This week",
+                "period_month": "This month",
+                "period_year": "This year",
+                "contributors_count_label": "People in Top Contributors",
+                "contributors_count_help": "Between 1 and 10.",
+                "show_participants_label": "Show who is taking part",
+                "show_participants_help": "Small avatars under each discussion in the list and in the discussion's side panel.",
+                "footer_links_label": "Sidebar footer links",
+                "footer_links_help": "One link per line, written as Label | address. Addresses can be a page on this forum (/p/about) or a full https:// link."
+            }
+        },
+        "forum": {
+            "sidebar": {
+                "label": "Forum navigation",
+                "home": "Home",
+                "following": "Following",
+                "admin": "Admin",
+                "tags": "Tags",
+                "all_tags": "All tags",
+                "more": "More",
+                "unread": "New activity"
+            },
+            "head": {
+                "search": "Results for “{q}”"
+            },
+            "blocks": {
+                "label": "Profile and community"
+            },
+            "profile": {
+                "label": "Your profile",
+                "edit": "Edit Profile",
+                "welcome": "Welcome to {forum}"
+            },
+            "contributors": {
+                "title": "Top Contributors",
+                "period_label": "Period",
+                "period": {
+                    "day": "Today",
+                    "week": "Weekly",
+                    "month": "Monthly",
+                    "year": "Yearly"
+                },
+                "likes": "{count, plural, one {{formatted} like} other {{formatted} likes}}",
+                "posts": "{count, plural, one {{formatted} comment} other {{formatted} comments}}",
+                "empty": {
+                    "day": "Nobody yet today.",
+                    "week": "Nobody yet this week.",
+                    "month": "Nobody yet this month.",
+                    "year": "Nobody yet this year."
+                }
+            },
+            "row": {
+                "likes": "{count, plural, one {# like on the first post} other {# likes on the first post}}",
+                "participants": "{count, plural, one {# person taking part} other {# people taking part}}"
+            },
+            "panel": {
+                "label": "About this discussion",
+                "replies": "{count, plural, one {reply} other {replies}}",
+                "participants": "{count, plural, one {person} other {people}}",
+                "views": "{count, plural, one {view} other {views}}"
+            },
+            "phone": {
+                "tabs": "Main",
+                "messages": "Messages",
+                "more": "More"
+            }
+        }
+    }
+}

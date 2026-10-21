@@ -1,0 +1,60 @@
+{
+    "ernestdefoe-pigeonhole": {
+        "api": {
+            "too_many_folders": "You can have up to {count} folders.",
+            "unknown_folder": "That folder doesn't exist.",
+            "invalid_order": "The folder order couldn't be read."
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "The member's message folders: names, colours and icons.",
+                "anonymize_description": "Deletes the member's message folders.",
+                "delete_description": "Deletes the member's message folders."
+            }
+        },
+        "forum": {
+            "nav": {
+                "folders": "Folders",
+                "all": "All",
+                "archive": "Archive",
+                "more": "Show all folders",
+                "fewer": "Show fewer folders",
+                "manage_folders": "Manage folders",
+                "new_folder": "New folder",
+                "unread_count": "{count} unread"
+            },
+            "dialog": {
+                "move_to": "Move to folder",
+                "remove_from_folder": "Remove from folder",
+                "archive": "Archive",
+                "unarchive": "Move out of archive",
+                "archived_alert": "Conversation archived. It comes back when there's a new message.",
+                "in_folder": "In {folder}"
+            },
+            "list": {
+                "folder_empty": "Nothing in this folder yet. Open a conversation and choose Move to folder in its ⋯ menu, or drag one onto this folder.",
+                "archive_empty": "Nothing archived. An archived conversation stays here until someone writes in it again."
+            },
+            "manage": {
+                "title": "Folders",
+                "empty": "No folders yet. Folders are yours alone: nobody else sees them, and the other people in a conversation keep their own view.",
+                "new_button": "New folder",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "delete_confirm": "Delete the folder \"{name}\"? Its conversations go back to your messages.",
+                "drag_handle": "Drag to reorder",
+                "count": "{count, plural, one {# conversation} other {# conversations}}"
+            },
+            "edit": {
+                "new_title": "New folder",
+                "edit_title": "Edit folder",
+                "name_label": "Name",
+                "color_label": "Colour",
+                "icon_label": "Icon",
+                "icon_help": "A Font Awesome icon, such as fas fa-briefcase.",
+                "no_color": "None",
+                "save_button": "Save"
+            }
+        }
+    }
+}

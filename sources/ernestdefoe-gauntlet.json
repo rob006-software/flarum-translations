@@ -1,0 +1,411 @@
+{
+    "ernestdefoe-gauntlet": {
+        "api": {
+            "already_entered": "You are already in this tournament.",
+            "already_published": "This tournament is already open for sign-ups.",
+            "badge": "That badge doesn't exist.",
+            "best_of": "Best of must be an odd number.",
+            "both_scores": "Enter both scores.",
+            "cannot_cancel": "A finished or cancelled tournament can't be cancelled.",
+            "cannot_reset": "Only a running tournament can be reset.",
+            "cannot_start": "Only a tournament open for sign-ups can be started.",
+            "cannot_withdraw": "This entry can't be withdrawn now.",
+            "captain_cannot_leave": "A captain leaves by withdrawing the team.",
+            "checkin_closed": "Check-in isn't open.",
+            "checkin_needs_start": "Check-in needs a start time.",
+            "choice": "Choose one of the options.",
+            "date": "Enter a valid date and time.",
+            "description": "The description can be at most 5,000 characters.",
+            "entrants_cannot_predict": "Players in this tournament can't fill in a prediction bracket for it.",
+            "field_locked": "The field can't be changed once the tournament has started.",
+            "field_not_empty": "The field already has teams in it.",
+            "full": "This tournament is full.",
+            "game": "The game can be at most 80 characters.",
+            "group_already_entered": "That group is already entered.",
+            "invalid_pick": "One of your picks isn't possible in this bracket.",
+            "locked_after_publish": "This can't be changed once sign-ups are open.",
+            "locked_after_start": "This can't be changed once the tournament has started.",
+            "logo_url": "The logo must be an https:// image address.",
+            "max_entrants": "This format allows at most {max} entrants.",
+            "no_draws": "This tournament doesn't allow draws.",
+            "not_correctable": "This result can't be changed any more — a later match has already been played or reported.",
+            "not_group_captain": "You can only enter a group you created or moderate.",
+            "not_group_member": "Only members of this group can join its team.",
+            "not_open": "This match isn't waiting for a result.",
+            "number": "Enter a whole number from {min} to {max}.",
+            "picks_game": "Choose a Picks game between these two teams, played since the bracket was set.",
+            "picks_team": "That Picks team doesn't exist.",
+            "points": "Enter up to 12 point values.",
+            "predictions_closed": "Predictions are closed.",
+            "organisers_cannot_predict": "Organisers of a tournament with prizes can't fill in its bracket.",
+            "prizes_paid": "The prizes for this tournament are paid. Only someone who can attach prizes can change its results now.",
+            "predictions_need_staff_single": "A prediction bracket must be single elimination with the field entered by the organiser.",
+            "registration_closed": "Sign-ups are closed.",
+            "score_range": "Scores go from 0 to 9,999.",
+            "tag": "You can't start discussions in that tag.",
+            "team_closed": "Teams can't be changed now.",
+            "team_full": "This team is full.",
+            "team_name": "Enter a name of up to 100 characters.",
+            "title": "Enter a title of up to 150 characters.",
+            "too_few_entrants": "A tournament needs at least two entrants to start.",
+            "too_many_entrants": "There are more entrants than this format allows.",
+            "winner_contradicts_score": "The winner doesn't match the score.",
+            "winner_or_scores": "Choose a winner or enter the score."
+        },
+        "email": {
+            "open": "Open the tournament",
+            "match_ready": {
+                "subject": "Your match in {title} is ready",
+                "title": "Your match is ready",
+                "body": "Your next match in {title} is ready to play."
+            },
+            "ruling": {
+                "subject": "A result in {title} needs your decision",
+                "title": "A result needs your decision",
+                "body": "A match in {title} is waiting for you: the two sides reported different results, or they agree and the result needs your confirmation."
+            },
+            "checkin": {
+                "subject": "Check-in is open for {title}",
+                "title": "Check-in is open",
+                "body": "Check in for {title} to keep your place. Anyone not checked in when it starts is left out."
+            },
+            "promoted": {
+                "subject": "You're in {title}",
+                "title": "You're off the waitlist",
+                "body": "A place opened up and you're now in the field for {title}."
+            }
+        },
+        "forum": {
+            "nav": "Tournaments",
+            "format": {
+                "single": "Single elimination",
+                "double": "Double elimination",
+                "round_robin": "Round robin",
+                "swiss": "Swiss"
+            },
+            "status": {
+                "draft": "Draft",
+                "registration": "Sign-ups open",
+                "running": "In progress",
+                "finished": "Finished",
+                "cancelled": "Cancelled"
+            },
+            "tournaments": {
+                "title": "Tournaments",
+                "new": "New tournament",
+                "empty": "No tournaments here yet.",
+                "more": "Load more",
+                "filters": {
+                    "all": "All",
+                    "open": "Sign-ups open",
+                    "running": "In progress",
+                    "finished": "Finished",
+                    "mine": "Mine"
+                }
+            },
+            "tournament": {
+                "missing": "This tournament doesn't exist, or you can't see it.",
+                "entrants": "{count, plural, one {# entrant} other {# entrants}}",
+                "entrants_of": "{count} of {max} entrants",
+                "predictions": "{count, plural, one {# bracket picked} other {# brackets picked}}",
+                "solo": "Solo",
+                "teams_of": "Teams of {size}",
+                "organiser": "Run by",
+                "discussion": "Discussion",
+                "log_in": "Log in to sign up.",
+                "sign_up": "Sign up",
+                "join_waitlist": "Join the waitlist",
+                "enter_team": "Enter team",
+                "team_name": "Team name",
+                "team_new": "A new team…",
+                "team_group": "Enter as one of your groups",
+                "you_in": "You're in.",
+                "request_sent": "You asked to join {name}. Its captain decides.",
+                "you_team": "You're in, playing for {name}.",
+                "you_waitlisted": "You're on the waitlist. If a place opens up, you're in.",
+                "checked_in": "You've checked in.",
+                "checkin_window": "Check in from {time}, or lose your place.",
+                "check_in": "Check in",
+                "undo_checkin": "Undo check-in",
+                "withdraw": "Withdraw",
+                "withdraw_confirm": "Withdraw from this tournament?",
+                "withdraw_running": "Withdraw (forfeit the rest)",
+                "forfeit_confirm": "Withdraw now? You forfeit every match you have left.",
+                "leave_team": "Leave team",
+                "your_match": "Report your match against {name}",
+                "staff_waiting": "{count, plural, one {# result needs} other {# results need}} your decision.",
+                "champion": "{name} won the tournament.",
+                "tabs": {
+                    "bracket": "Bracket",
+                    "standings": "Standings",
+                    "matches": "Matches",
+                    "entrants": "Entrants",
+                    "predict": "My picks",
+                    "board": "Leaderboard",
+                    "manage": "Manage"
+                }
+            },
+            "bracket": {
+                "title": "Bracket",
+                "jump": "Jump to a round",
+                "round": "Round {number}",
+                "final": "Final",
+                "semi_finals": "Semi-finals",
+                "quarter_finals": "Quarter-finals",
+                "winners_final": "Winners' final",
+                "losers_final": "Losers' final",
+                "grand_final": "Grand final",
+                "reset": "Grand final reset",
+                "third_place": "Third place",
+                "section_W": "Winners' bracket",
+                "section_L": "Losers' bracket",
+                "section_F": "Grand final",
+                "bye": "Bye",
+                "tbd": "To be decided",
+                "live": "Live"
+            },
+            "match": {
+                "title": "Match",
+                "best_of": "Best of {count}",
+                "forfeit_win": "W/O",
+                "status": {
+                    "pending": "Waiting",
+                    "open": "Ready to play",
+                    "reported": "Reported",
+                    "disputed": "Disputed",
+                    "awaiting": "Awaiting staff",
+                    "completed": "Played",
+                    "bye": "Bye",
+                    "void": "Not played"
+                },
+                "reported_by": "{name} reported: {one} {a}–{b} {two}",
+                "picks_game": "Linked game: {status} {detail}",
+                "discussion": "Open the match discussion",
+                "report_heading": "Report the result",
+                "they_reported": "{name} reported {mine}–{theirs} (your score first).",
+                "confirm": "That's right",
+                "my_score": "Your score",
+                "their_score": "{name}'s score",
+                "report": "Report result",
+                "report_different": "Report a different result",
+                "awaiting_staff": "Both sides agree. An organiser confirms the result.",
+                "rule_heading": "Settle this match",
+                "correct_heading": "Correct the result",
+                "save_result": "Save result",
+                "save_correction": "Save correction",
+                "forfeit_to": "Win by forfeit: {name}",
+                "scheduled": "Scheduled for",
+                "save_time": "Save time",
+                "picks_link": "Picks game",
+                "picks_none": "Not linked",
+                "start_discussion": "Start a discussion for this match"
+            },
+            "standings": {
+                "entrant": "Entrant",
+                "played": "P",
+                "record": "W–D–L",
+                "diff": "+/−",
+                "points": "Pts",
+                "buchholz": "Buch.",
+                "buchholz_help": "Buchholz — the total points of everyone you played.",
+                "sb": "S-B",
+                "sb_help": "Sonneborn–Berger — the points of those you beat, and half of those you drew."
+            },
+            "entrants": {
+                "empty": "Nobody has signed up yet.",
+                "seed": "Seed",
+                "place": "Place",
+                "rating": "Rating",
+                "status": "Status",
+                "promote": "Move into the field",
+                "remove": "Remove",
+                "remove_confirm": "Remove {name}?",
+                "join_team": "Join team",
+                "ask_to_join": "Ask to join",
+                "cancel_request": "Cancel request",
+                "request": "{name} asks to join",
+                "approve": "Accept",
+                "decline": "Decline",
+                "statuses": {
+                    "registered": "In",
+                    "waitlisted": "Waitlisted",
+                    "withdrawn": "Withdrew",
+                    "disqualified": "Disqualified",
+                    "no_show": "Didn't check in"
+                }
+            },
+            "predict": {
+                "open_until": "Pick the winner of every match. Picks lock {time}.",
+                "open_until_first": "Pick the winner of every match. Picks lock when the first result comes in.",
+                "closed": "Picks are locked.",
+                "score": "You have {score} points ({correct} right), {possible} still possible.",
+                "progress": "{made} of {total} picked",
+                "tiebreaker": "Final's total score (tie-breaker)",
+                "save": "Save picks",
+                "saved": "Your picks are saved.",
+                "pick_label": "Pick {name}",
+                "board_empty": "No brackets picked yet.",
+                "member": "Member",
+                "points": "Points",
+                "correct": "Right",
+                "possible": "Possible"
+            },
+            "manage": {
+                "edit": "Edit",
+                "publish": "Open sign-ups",
+                "publish_staff": "Publish",
+                "start": "Start the tournament",
+                "start_confirm": "Start now? The field and the seeds are fixed once it starts.",
+                "start_help": "Starting draws the bracket from everyone in the field. With check-in on, anyone not checked in is left out and the checked-in waitlist fills their places.",
+                "reset": "Reset to sign-ups",
+                "reset_confirm": "Reset? Every result, rating change and prediction from this tournament is removed.",
+                "discussion": "Start the tournament discussion",
+                "cancel": "Cancel tournament",
+                "cancel_confirm": "Cancel this tournament?",
+                "delete": "Delete",
+                "delete_confirm": "Delete this tournament for good?",
+                "add_heading": "The field",
+                "picks_search": "Add a team from Picks",
+                "playoff_board": "The Playoff Board's week {week} projects this field, by playoff odds: {teams}. Fill the bracket with it, then check the seeds against the committee's before you start.",
+                "playoff_board_fill": "Fill the field from the Playoff Board",
+                "name": "Name",
+                "logo": "Logo (https address)",
+                "add": "Add to the field",
+                "seed_help": "Set seeds on the Entrants tab (with manual seeding); start when the field is complete."
+            },
+            "editor": {
+                "new_title": "New tournament",
+                "edit_title": "Edit tournament",
+                "create": "Create (as a draft)",
+                "save": "Save",
+                "basics": "Basics",
+                "format": "Format",
+                "entry": "Entry",
+                "play": "Play",
+                "predictions": "Prediction bracket",
+                "rewards": "Prizes",
+                "locked": "The format and the field can't change once the tournament has started.",
+                "game_placeholder": "Chess, Rocket League, five-a-side…",
+                "checkin_help": "With check-in, entrants confirm in the minutes before the start; the rest are left out.",
+                "discussion_help": "A discussion is started for the tournament when sign-ups open, in the tag chosen here. Match discussions start as each match is ready.",
+                "predictions_help": "Members pick the winner of every match before it starts and score as results come in — 10 points a round-one pick, doubling each round, unless you set other values. With Picks, link each match to its game and results arrive by themselves.",
+                "rewards_help": "Points need FoF Gamification with point grants; the badge needs FoF Badges. Paid to every member of a placed entrant (or, in a prediction bracket, to the best predictors).",
+                "reward_place": "Points for place {place}",
+                "no_tag": "No discussion",
+                "no_badge": "No badge",
+                "fields": {
+                    "title": "Title",
+                    "game": "Game",
+                    "description": "Description",
+                    "format": "Format",
+                    "entryMode": "Who enters",
+                    "entryType": "Entries",
+                    "teamSize": "Players per team (0 for any)",
+                    "maxEntrants": "Places (0 for the format's limit)",
+                    "waitlist": "Waitlist when full",
+                    "startsAt": "Starts",
+                    "registrationClosesAt": "Sign-ups close",
+                    "checkinMinutes": "Check-in opens (minutes before the start, 0 for none)",
+                    "seeding": "Seeding",
+                    "bestOf": "Matches are",
+                    "thirdPlace": "Play a third-place match",
+                    "grandFinalReset": "Grand final reset (the losers' side must win twice)",
+                    "swissRounds": "Rounds (0 for the usual number)",
+                    "allowDraws": "Allow draws",
+                    "confirmation": "Results",
+                    "matchDiscussions": "A discussion for every match",
+                    "tagId": "Discussion tag",
+                    "predictions": "Members predict this bracket",
+                    "predictionsLockAt": "Picks lock",
+                    "predictionPoints": "Points per round",
+                    "rewardBadgeId": "Badge for the winners"
+                },
+                "options": {
+                    "format": {
+                        "single": "Single elimination",
+                        "double": "Double elimination",
+                        "round_robin": "Round robin",
+                        "swiss": "Swiss"
+                    },
+                    "entryMode": {
+                        "members": "Members sign up",
+                        "staff": "I enter the field (e.g. a real playoff)"
+                    },
+                    "entryType": {
+                        "solo": "Solo",
+                        "team": "Teams"
+                    },
+                    "seeding": {
+                        "random": "Random",
+                        "manual": "Manual",
+                        "rating": "By rating"
+                    },
+                    "bestOf": {
+                        "1": "Single games",
+                        "3": "Best of 3",
+                        "5": "Best of 5",
+                        "7": "Best of 7",
+                        "9": "Best of 9"
+                    },
+                    "confirmation": {
+                        "agree": "Final when both sides agree",
+                        "staff": "Always confirmed by an organiser"
+                    }
+                }
+            },
+            "discussion": {
+                "tournament_body": "This is the discussion for **{title}**. The bracket, the entrants and the results: {url}",
+                "match_title": "{tournament}: {one} vs {two}",
+                "match_body": "The discussion for this match of **{title}**. Report the result on the tournament page: {url}"
+            },
+            "profile": {
+                "nav": "Tournaments",
+                "empty": "No tournaments yet.",
+                "entered": "Tournaments",
+                "won": "Won",
+                "podium": "Top three",
+                "rating": "{game} rating",
+                "any_game": "Overall",
+                "tournament": "Tournament",
+                "place_of": "{place} of {count}",
+                "predictions": "Prediction brackets"
+            },
+            "settings": {
+                "match_ready": "My next tournament match is ready",
+                "result_reported": "My opponent reports a result",
+                "checkin": "Check-in opens for a tournament I entered",
+                "promoted": "I'm moved off a tournament's waitlist",
+                "started": "A tournament I entered starts",
+                "finished": "A tournament I played in finishes",
+                "ruling": "A result in a tournament I run needs my decision"
+            },
+            "notifications": {
+                "gauntletMatchReady": "Your next match in {title} is ready",
+                "gauntletResultReported": "{opponent} reported a result in {title}: confirm it or report yours",
+                "gauntletRuling": "A result in {title} needs your decision",
+                "gauntletStarted": "{title} has started",
+                "gauntletCheckin": "Check-in is open for {title}",
+                "gauntletPromoted": "You're off the waitlist for {title}",
+                "gauntletFinished": "{title} has finished"
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_nav": "Show \"Tournaments\" in the forum's sidebar"
+            },
+            "permissions": {
+                "view": "View tournaments",
+                "join": "Sign up for tournaments",
+                "predict": "Pick prediction brackets",
+                "create": "Organise tournaments",
+                "manage": "Manage every tournament",
+                "reward": "Attach points and badges to tournaments"
+            },
+            "badges": {
+                "tournaments_won": "Tournaments won",
+                "tournaments_podium": "Tournament podium finishes (top 3)",
+                "tournaments_played": "Tournaments played to the finish"
+            }
+        }
+    }
+}
