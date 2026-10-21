@@ -67,7 +67,7 @@
             "move_target_frozen": "Nie możesz przenosić wiadomości do zamkniętego ani zarchiwizowanego kanału.",
             "webhook_channel_unavailable": "Kanał tego webhooka jest zamknięty lub niedostępny.",
             "webhook_empty": "Dane webhooka nie zawierały żadnego tekstu.",
-            "webhook_user_not_admin": ""
+            "webhook_user_not_admin": "Wybierz bota lub konto administratora."
         },
         "email": {
             "mentioned": {
@@ -188,8 +188,8 @@
                 "restore": "Przywróć",
                 "flag": "Zgłoś wiadomość",
                 "flagged": "Zgłosiłeś tę wiadomość",
-                "reports": "",
-                "reports_open": "",
+                "reports": "{count, plural, one {# zgłoszenie} few {# zgłoszenia} other {# zgłoszeń}}",
+                "reports_open": "{count, plural, one {Zgłoszone przez # osobę. Otwórz listę zgłoszeń.} few {Zgłoszone przez # osoby. Otwórz listę zgłoszeń.} other {Zgłoszone przez # osób. Otwórz listę zgłoszeń.}}",
                 "purge": "Usuń trwale",
                 "purge_confirm": "Usunąć tę wiadomość wraz ze śladem po niej na stałe? Tej operacji nie można cofnąć.",
                 "purge_failed": "Nie udało się trwale usunąć tej wiadomości.",
@@ -741,8 +741,8 @@
                 "url_once": "Skopiuj ten adres URL teraz. Nie zostanie wyświetlony ponownie.",
                 "disabled": "Przychodzące webhooki są wyłączone. Włącz opcję powyżej i zapisz ustawienia, aby nimi zarządzać.",
                 "failed": "Nie udało się zapisać tej zmiany.",
-                "author": "",
-                "author_bot": ""
+                "author": "Publikuj jako",
+                "author_bot": "Bot"
             }
         }
     }
