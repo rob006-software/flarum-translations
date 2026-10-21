@@ -3,7 +3,8 @@
         "api": {
             "closed": "Reopen this report first.",
             "assign_others": "You don't have permission to assign reports to other moderators.",
-            "cannot_see": "That member can't see this report, so it can't be assigned to them."
+            "cannot_see": "That member can't see this report, so it can't be assigned to them.",
+            "cannot_restore": "Rejecting this report puts the post back, and you don't have permission to restore it."
         },
         "email": {
             "assigned": {
@@ -17,6 +18,15 @@
                 "body_resolved": "Thanks for your report. A moderator reviewed it and took action.",
                 "body_rejected": "Thanks for your report. A moderator reviewed it and decided no action was needed.",
                 "link": "See your reports"
+            },
+            "crowd": {
+                "subject_hidden": "Your post was hidden until a moderator reviews it",
+                "subject_approval": "Your post is waiting for a moderator to review it",
+                "subject_restored": "Your post was restored",
+                "body_hidden": "Several members reported your post in “{title}” ({reason}), so it is hidden until a moderator reviews it. You can still see it.",
+                "body_approval": "Several members reported your post in “{title}” ({reason}), so it is waiting for a moderator to review it. You can still see it.",
+                "body_restored": "A moderator reviewed your post in “{title}” and restored it. Thanks for your patience.",
+                "link": "See the post"
             }
         },
         "forum": {
@@ -31,13 +41,17 @@
             },
             "settings": {
                 "notify_assigned": "Someone assigns a report to me",
-                "notify_outcome": "A report I made is reviewed"
+                "notify_outcome": "A report I made is reviewed",
+                "notify_crowd": "Members' reports hide one of my posts until a moderator reviews it"
             },
             "notifications": {
                 "assigned_by": "{username} assigned report #{id} to you",
                 "assigned_by_rule": "Report #{id} was assigned to you",
                 "outcome_resolved": "A moderator reviewed your report and took action",
-                "outcome_rejected": "A moderator reviewed your report and decided no action was needed"
+                "outcome_rejected": "A moderator reviewed your report and decided no action was needed",
+                "crowd_hidden": "Members reported your post ({reason}): it is hidden until a moderator reviews it",
+                "crowd_approval": "Members reported your post ({reason}): it is waiting for a moderator to review it",
+                "crowd_restored": "A moderator reviewed your post and restored it"
             },
             "status": {
                 "open": "Open",
@@ -125,13 +139,31 @@
                 "post_deleted": "{actor} deleted the post",
                 "post_approved": "{actor} approved the post",
                 "suspended": "{actor} suspended the author",
-                "warning": "{actor} warned the author ({strikes, plural, one {# strike} other {# strikes}})"
+                "warning": "{actor} warned the author ({strikes, plural, one {# strike} other {# strikes}})",
+                "crowd_hidden": "Hidden automatically: {people} members reported it (weight {weight} of {threshold})",
+                "crowd_hidden_discussion": "Discussion hidden automatically: {people} members reported its first post (weight {weight} of {threshold})",
+                "crowd_approval": "Sent to approval automatically: {people} members reported it (weight {weight} of {threshold})",
+                "crowd_approval_discussion": "Discussion sent to approval automatically: {people} members reported its first post (weight {weight} of {threshold})",
+                "crowd_held_staff": "{people} members reported it, enough to hide it, but the author is staff: left for you",
+                "crowd_held_exempt": "{people} members reported it, enough to hide it, but the author's group is exempt: left for you",
+                "crowd_held_cooldown": "{people} members reported it, enough to hide it, but it was restored recently: left for you",
+                "crowd_restored": "{actor} restored what the reports hid; it counts against the people who reported it"
+            },
+            "crowd": {
+                "chip_hidden": "Hidden by reports",
+                "chip_approval": "Sent to approval",
+                "banner_hidden": "Members' reports hid this automatically. It stays hidden until you decide. Restoring it rejects the report and counts against the people who reported it.",
+                "banner_approval": "Members' reports sent this back to approval automatically. Restoring it approves it, rejects the report and counts against the people who reported it.",
+                "held": "Enough members reported this to hide it, but it was left for you (see the timeline).",
+                "restore": "Restore"
             },
             "close": {
                 "title_resolved": "Resolve report #{id}",
                 "title_rejected": "Reject report #{id}",
                 "help_resolved": "Resolve it when action was taken. Its flags are dismissed.",
                 "help_rejected": "Reject it when no action is needed. Its flags are dismissed.",
+                "crowd_resolved": "The post stays hidden.",
+                "crowd_rejected": "Rejecting it puts the post back, and counts against the people who reported it.",
                 "notify": "{count, plural, one {Tell the person who reported it} other {Tell the # people who reported it}}",
                 "no_reporters": "Nobody to tell; this report was raised automatically or by you.",
                 "message_label": "Message (optional)",
@@ -176,7 +208,12 @@
                 "save": "Save queue",
                 "kept_to": "Kept to {groups}",
                 "open_to_all": "Every moderator",
-                "admins_only": "Admins only (the groups it was kept to were deleted)"
+                "admins_only": "Admins only (the groups it was kept to were deleted)",
+                "crowd": "Crowd moderation threshold",
+                "crowd_default": "The forum's",
+                "crowd_help": "How much reporting hides a post in this queue. Empty for the forum's setting, 0 for never here. Beats the tag thresholds.",
+                "crowd_summary": "crowd threshold {count}",
+                "crowd_never": "never hidden by reports"
             },
             "rules": {
                 "title": "Auto-assignment rules",
@@ -214,6 +251,39 @@
                 "summary_queue": "file in {queue}",
                 "summary_user": "assign to {name}",
                 "summary_group": "assign within {group}"
+            },
+            "crowd": {
+                "title": "Crowd moderation",
+                "help": "When enough trusted members report a post within a few hours, it is hidden (or sent back to approval) until a moderator reviews it in the report centre. The author is told why. Restoring it is one click, and counts against the people who reported it.",
+                "enabled": "Let members' reports hide posts",
+                "when": "When",
+                "threshold": "Reports needed",
+                "threshold_help": "How many members it takes (at least 2). With trust on, a member counts for between 0.5 and 1.5 by their record, so this is a total weight.",
+                "window": "Within (hours)",
+                "window_help": "Only reports from this many hours count.",
+                "action": "Then",
+                "action_hidden": "Hide the post",
+                "action_approval": "Send it back to approval",
+                "action_help": "A first post hides (or holds back) its whole discussion.",
+                "who": "Who counts",
+                "min_age": "Member for at least (days)",
+                "min_age_help": "Reports from newer accounts don't count, so new accounts can't brigade.",
+                "min_posts": "With at least (posts)",
+                "min_posts_help": "Reports from members with fewer posts don't count.",
+                "groups": "Only members of",
+                "groups_help": "Leave empty for every member.",
+                "trust": "Weigh reporters by their record",
+                "trust_help": "Members whose reports were upheld count for more, members whose reports were rejected or restored count for less. New reporters count as one.",
+                "address_help": "Reports sent from one connection (an IPv4 address, or an IPv6 /64) count once, as do accounts an alt-account extension links. The addresses are stored only as a keyed hash.",
+                "never": "Never hide",
+                "exempt": "Posts by members of",
+                "exempt_help": "Staff (anyone who can see flags or hide posts) are always exempt: reports about their posts are left for you.",
+                "cooldown": "Cool-down after a restore (hours)",
+                "cooldown_help": "A post staff restored isn't hidden by reports again for this long.",
+                "tags": "By tag",
+                "tags_help": "A different number for a tag: empty for the setting above, 0 for never. A discussion with several tags uses the highest; one with a 0 is never hidden. A queue's own threshold beats these.",
+                "save": "Save crowd moderation",
+                "saved": "Crowd moderation saved."
             },
             "reasons": {
                 "off_topic": "Off-topic",

@@ -3,7 +3,8 @@
         "api": {
             "closed": "",
             "assign_others": "",
-            "cannot_see": ""
+            "cannot_see": "",
+            "cannot_restore": ""
         },
         "email": {
             "assigned": {
@@ -16,6 +17,15 @@
                 "subject": "",
                 "body_resolved": "",
                 "body_rejected": "",
+                "link": ""
+            },
+            "crowd": {
+                "subject_hidden": "",
+                "subject_approval": "",
+                "subject_restored": "",
+                "body_hidden": "",
+                "body_approval": "",
+                "body_restored": "",
                 "link": ""
             }
         },
@@ -31,13 +41,17 @@
             },
             "settings": {
                 "notify_assigned": "",
-                "notify_outcome": ""
+                "notify_outcome": "",
+                "notify_crowd": ""
             },
             "notifications": {
                 "assigned_by": "",
                 "assigned_by_rule": "",
                 "outcome_resolved": "",
-                "outcome_rejected": ""
+                "outcome_rejected": "",
+                "crowd_hidden": "",
+                "crowd_approval": "",
+                "crowd_restored": ""
             },
             "status": {
                 "open": "",
@@ -125,13 +139,31 @@
                 "post_deleted": "",
                 "post_approved": "",
                 "suspended": "",
-                "warning": ""
+                "warning": "",
+                "crowd_hidden": "",
+                "crowd_hidden_discussion": "",
+                "crowd_approval": "",
+                "crowd_approval_discussion": "",
+                "crowd_held_staff": "",
+                "crowd_held_exempt": "",
+                "crowd_held_cooldown": "",
+                "crowd_restored": ""
+            },
+            "crowd": {
+                "chip_hidden": "",
+                "chip_approval": "",
+                "banner_hidden": "",
+                "banner_approval": "",
+                "held": "",
+                "restore": ""
             },
             "close": {
                 "title_resolved": "",
                 "title_rejected": "",
                 "help_resolved": "",
                 "help_rejected": "",
+                "crowd_resolved": "",
+                "crowd_rejected": "",
                 "notify": "",
                 "no_reporters": "",
                 "message_label": "",
@@ -176,7 +208,12 @@
                 "save": "",
                 "kept_to": "",
                 "open_to_all": "",
-                "admins_only": ""
+                "admins_only": "",
+                "crowd": "",
+                "crowd_default": "",
+                "crowd_help": "",
+                "crowd_summary": "",
+                "crowd_never": ""
             },
             "rules": {
                 "title": "",
@@ -214,6 +251,39 @@
                 "summary_queue": "",
                 "summary_user": "",
                 "summary_group": ""
+            },
+            "crowd": {
+                "title": "",
+                "help": "",
+                "enabled": "",
+                "when": "",
+                "threshold": "",
+                "threshold_help": "",
+                "window": "",
+                "window_help": "",
+                "action": "",
+                "action_hidden": "",
+                "action_approval": "",
+                "action_help": "",
+                "who": "",
+                "min_age": "",
+                "min_age_help": "",
+                "min_posts": "",
+                "min_posts_help": "",
+                "groups": "",
+                "groups_help": "",
+                "trust": "",
+                "trust_help": "",
+                "address_help": "",
+                "never": "",
+                "exempt": "",
+                "exempt_help": "",
+                "cooldown": "",
+                "cooldown_help": "",
+                "tags": "",
+                "tags_help": "",
+                "save": "",
+                "saved": ""
             },
             "reasons": {
                 "off_topic": "",
