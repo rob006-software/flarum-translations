@@ -176,6 +176,8 @@
                 "palette_dark": "深色",
                 "shell": {
                     "group_navigation": "页眉和侧边栏",
+                    "group_auth": "",
+                    "group_auth_desc": "",
                     "group_people": "个人资料和用户",
                     "group_messages": "消息和聊天",
                     "group_moderation": "管理",
@@ -637,6 +639,10 @@
                 "auth": {
                     "pages_label": "完整页面登录和注册",
                     "pages_help": "页眉中的“登录”和“注册”按钮会打开/login和/signup页面，类似Discourse。关闭后会打开弹窗。",
+                    "layout_card_title": "",
+                    "layout_card_help": "",
+                    "texts_card_title": "",
+                    "texts_card_help": "",
                     "layout_label": "布局",
                     "layout_help": "所有这些页面都不显示页眉，只显示论坛徽标。启用社交登录时，社交登录按钮会排在表单前面（Discourse样式则显示在表单旁）。",
                     "layout_card": "背景上的单张卡片（默认）",
