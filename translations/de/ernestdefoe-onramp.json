@@ -17,11 +17,11 @@
                 "bio": {
                     "title": "Erzähle etwas über dich",
                     "description": "",
-                    "button": ""
+                    "button": "Schreibe deine Biografie"
                 },
                 "nickname": {
-                    "title": "",
-                    "description": "",
+                    "title": "Wähle einen Anzeigenamen",
+                    "description": "Wähle den Namen aus, der neben deinen Beiträgen angezeigt werden soll.",
                     "button": "Anzeigenamen festlegen"
                 },
                 "email_confirmed": {
@@ -99,12 +99,12 @@
                 "upload": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Diskussion"
                 },
                 "message": {
-                    "title": "",
+                    "title": "{count, plural, one {Sende eine Privatnachricht} other {Sende # Privatnachrichten}}",
                     "description": "",
-                    "button": ""
+                    "button": "Öffne Nachrichten"
                 },
                 "private_discussion": {
                     "title": "",
@@ -120,16 +120,16 @@
         },
         "forum": {
             "launcher": {
-                "label": "",
-                "title": "",
-                "sub": "",
+                "label": "Dein Fortschritt: {done} von {total} abgeschlossen",
+                "title": "Dein Fortschritt",
+                "sub": "{count, plural, =0 {Alles fertig} one {Noch ein Schritt} other {Noch # Schritte}}",
                 "next": "Als Nächstes",
                 "see_all": ""
             },
             "page": {
-                "title": "",
+                "title": "Dein Fortschritt",
                 "intro": "",
-                "graduated_title": "",
+                "graduated_title": "Du hast es geschafft",
                 "graduated_text": "",
                 "closed_text": "",
                 "none": "",
@@ -140,15 +140,15 @@
                 "reopen": ""
             },
             "step": {
-                "required": "",
-                "skip": "",
-                "skipped": "",
+                "required": "Erforderlich",
+                "skip": "Überspringen",
+                "skipped": "Übersprungen",
                 "undo_skip": "",
                 "progress": "{done} von {total}",
                 "points": "{count, plural, one {# Punkt} other {# Punkte}}"
             },
             "toast": {
-                "step": "",
+                "step": "Schritt abgeschlossen: {title}",
                 "points": "{count, plural, one {+# Punkt} other {+# Punkte}}",
                 "graduated": ""
             },
@@ -163,23 +163,23 @@
                 "notify_reminder": ""
             },
             "widget": {
-                "title": ""
+                "title": "Dein Fortschritt"
             },
             "member": {
                 "tab": "Onramp",
                 "none": "",
-                "status_open": "",
-                "status_graduated": "",
+                "status_open": "Auf dem Weg",
+                "status_graduated": "Einarbeitung abgeschlossen",
                 "status_closed": "",
-                "started": "",
-                "finished": "",
-                "tick": "",
+                "started": "Begonnen",
+                "finished": "abgeschlossen",
+                "tick": "Als fertig markieren",
                 "tick_confirm": "",
                 "start": "",
                 "close": "",
                 "reopen": "",
-                "reset": "",
-                "reset_confirm": ""
+                "reset": "Von vorne beginnen",
+                "reset_confirm": "Den Weg dieses Mitglieds von vorne beginnen? Bereits ausgezahlte Prämien werden nicht erneut ausgezahlt."
             }
         },
         "admin": {
@@ -187,59 +187,59 @@
                 "view_members": ""
             },
             "tabs": {
-                "steps": "",
+                "steps": "Fortschritt",
                 "settings": "Einstellungen",
-                "funnel": ""
+                "funnel": "Trichter"
             },
             "load_failed": "",
             "needs_points": "",
             "needs_badges": "",
-            "export": "",
-            "import": "",
+            "export": "Exportieren",
+            "import": "Importieren",
             "import_invalid": "",
             "presets": {
                 "choose": "",
-                "starter": "",
-                "community": "",
-                "full": "",
+                "starter": "Einsteiger — vier Schritte",
+                "community": "Community — sieben Schritte",
+                "full": "Vollständig — zwölf Schritte",
                 "replace_confirm": ""
             },
             "steps": {
                 "intro": "",
                 "empty": "",
-                "add": "",
-                "edit": "",
-                "delete": "",
+                "add": "Schritt hinzufügen",
+                "edit": "Schritt bearbeiten",
+                "delete": "Schritt löschen",
                 "delete_confirm": "",
-                "drag": "",
+                "drag": "Zum Neuanordnen ziehen",
                 "type": "",
-                "from_extension": "",
-                "count": "",
+                "from_extension": "Gezählt durch {extension}.",
+                "count": "Wie oft",
                 "tag": "",
-                "any_tag": "",
-                "path": "",
+                "any_tag": "Jeder Tag",
+                "path": "Seite",
                 "path_help": "",
-                "title": "",
-                "description": "",
+                "title": "Titel",
+                "description": "Beschreibung",
                 "button_label": "",
                 "button_url": "",
                 "button_url_placeholder": "",
-                "icon": "",
-                "points": "",
-                "points_short": "",
-                "badge": "",
-                "no_badge": "",
-                "has_badge": "",
-                "required": "",
-                "required_short": "",
+                "icon": "Symbol",
+                "points": "Punkte",
+                "points_short": "{count} Pkt.",
+                "badge": "Abzeichen",
+                "no_badge": "Kein Abzeichen",
+                "has_badge": "Abzeichen",
+                "required": "Erforderlich",
+                "required_short": "Erforderlich",
                 "required_help": "",
                 "enabled": "",
-                "off": "",
-                "unavailable": "",
-                "save": ""
+                "off": "Aus",
+                "unavailable": "Erweiterung aus",
+                "save": "Schritt speichern"
             },
             "types": {
-                "avatar": "",
+                "avatar": "Füge ein Profilbild hinzu",
                 "bio": "",
                 "nickname": "",
                 "email_confirmed": "",
