@@ -5,26 +5,26 @@
                 "spamblock_users_label": "Oznacz użytkownika jako spamera"
             },
             "tabs": {
-                "sign_ups": "",
-                "stopforumspam": "",
-                "content_filter": "",
-                "spammer_actions": ""
+                "sign_ups": "Rejestracja",
+                "stopforumspam": "StopForumSpam",
+                "content_filter": "Filtr treści",
+                "spammer_actions": "Działania wobec spamerów"
             },
-            "unsaved_changes": "",
+            "unsaved_changes": "Na tej karcie masz niezapisane zmiany. Opuścić ją bez zapisywania?",
             "settings": {
                 "sign_ups": {
-                    "heading": "",
-                    "introduction": "",
-                    "honeypot_heading": "",
-                    "honeypot_label": "",
-                    "honeypot_help": "",
-                    "honeypot_min_seconds_label": "",
-                    "honeypot_min_seconds_help": "",
-                    "honeypot_strict_label": "",
-                    "honeypot_strict_help": "",
-                    "throttle_heading": "",
-                    "registration_throttle_label": "",
-                    "registration_throttle_help": ""
+                    "heading": "Kontrola rejestracji",
+                    "introduction": "Kontrole wykonywane przez forum przy każdej rejestracji, bez przesyłania danych do usług zewnętrznych. Sprawdzanie w StopForumSpam znajduje się na osobnej karcie.",
+                    "honeypot_heading": "Pułapka na boty",
+                    "honeypot_label": "Wykrywaj boty wypełniające formularz",
+                    "honeypot_help": "Dodaje do formularza rejestracji pole niewidoczne dla użytkowników i odrzuca próby rejestracji, w których je wypełniono lub formularz przesłano zbyt szybko, by mógł to zrobić człowiek. Wykrywa boty, których StopForumSpam jeszcze nie zna, nie wysyła danych poza forum i nie wymaga żadnych działań od użytkowników.",
+                    "honeypot_min_seconds_label": "Minimalny czas do rejestracji (sekundy)",
+                    "honeypot_min_seconds_help": "Czas liczony od udostępnienia strony. Przeczytanie formularza zajmuje człowiekowi więcej czasu, a skryptowi nie.",
+                    "honeypot_strict_label": "Odrzucaj rejestracje z pominięciem formularza",
+                    "honeypot_strict_help": "Odrzuca również rejestracje gości przesyłane bez formularza, np. przez skrypty wysyłające żądania bezpośrednio do API. Wyłącz tę opcję, jeśli aplikacja, integracja SSO lub inne narzędzie tworzy konta przez API.",
+                    "throttle_heading": "Ograniczenie częstotliwości",
+                    "registration_throttle_label": "Minimalny odstęp między rejestracjami z jednego adresu (sekundy)",
+                    "registration_throttle_help": "Flarum ogranicza częstotliwość publikowania, ale nie zakładania kont. Ustaw 0, aby wyłączyć limit. Pamiętaj, że w biurach, szkołach i sieciach komórkowych wiele osób może korzystać z jednego adresu IP."
                 },
                 "content-filter": {
                     "heading": "Filtr treści",
@@ -55,14 +55,14 @@
                     "auto_unapprove_help": "Po włączeniu treści, które osiągną próg spamu, zostaną skierowane do kolejki zatwierdzania (wymaga flarum/approval). Moderator będzie musiał je zatwierdzić, zanim staną się widoczne.",
                     "auto_flag_label": "Automatycznie zgłaszaj spam",
                     "auto_flag_help": "Po włączeniu treści, które osiągną próg zgłoszenia, zostaną automatycznie zgłoszone moderatorom (wymaga flarum/flags). Powód zgłoszenia będzie zawierał informacje o tym, dlaczego treść została uznana za spam.",
-                    "flag_account_label": "",
-                    "flag_account_help": "",
-                    "flag_account_default": "",
-                    "flag_account_choose_button": "",
-                    "flag_account_default_button": "",
-                    "flag_account_modal_title": "",
-                    "flag_account_missing": "",
-                    "flag_account_in_code": "",
+                    "flag_account_label": "Konto zgłaszające spam",
+                    "flag_account_help": "Będzie wskazywane jako autor automatycznych zgłoszeń spamu w kolejce moderacyjnej. Domyślnie zgłoszenia są przypisywane pierwszemu administratorowi.",
+                    "flag_account_default": "Domyślnie: pierwszy administrator",
+                    "flag_account_choose_button": "Wybierz…",
+                    "flag_account_default_button": "Użyj domyślnego",
+                    "flag_account_modal_title": "Wybierz konto zgłaszające spam",
+                    "flag_account_missing": "Wybrane konto już nie istnieje, dlatego do czasu wybrania innego zgłoszenia spamu będą przypisywane pierwszemu administratorowi.",
+                    "flag_account_in_code": "Konto zostało wskazane w pliku extend.php za pomocą assignFlagsToModerator(), dlatego nie można go tutaj zmienić.",
                     "no_action_extensions": "Zainstaluj flarum/approval lub flarum/flags, aby włączyć automatyczne działania moderacyjne. Wykryty spam będzie obsługiwany przez wbudowaną w Flarum kolejkę zatwierdzania i system zgłoszeń.",
                     "allowlist_heading": "Dozwolone domeny",
                     "allowed_domains_label": "Dozwolone domeny",
@@ -93,10 +93,10 @@
                     "username_label": "Kontrola spamu nazwy użytkownika",
                     "ip_label": "Kontrola spamu adresu IP",
                     "email_label": "Kontrola spamu adresu e-mail",
-                    "checks_heading": "",
-                    "thresholds_heading": "",
-                    "also_block_heading": "",
-                    "reporting_heading": "",
+                    "checks_heading": "Co sprawdzać",
+                    "thresholds_heading": "Kiedy blokować",
+                    "also_block_heading": "Dodatkowe blokady",
+                    "reporting_heading": "Zgłaszanie",
                     "frequency_label": "Próg",
                     "frequency_help": "Łączna liczba zgłoszeń spamu ze wszystkich włączonych metod sprawdzania, które spowodują wyzwolenie filtra antyspamowego.\nNa przykład: Jeśli e-mail ma 1 trafienie, a adres IP ma 2 trafienia, w sumie będą 3 trafienia. Jeśli próg jest ustawiony na 3 lub mniej, uniemożliwimy rejestrację.\n",
                     "api_key_label": "Klucz API",
@@ -113,7 +113,7 @@
                     "blocked_asns_help": "Wpisz po jednym numerze w wierszu lub rozdziel je przecinkami. Rejestracje z tych sieci będą bezwarunkowo odrzucane, niezależnie od tego, czy dany adres znajduje się w bazie. StopForumSpam zwraca numer sieci przy każdym sprawdzeniu, a użytkownicy forum bardzo rzadko korzystają z sieci firm hostingowych. Akceptowane są formaty 31272 i AS31272. Pozostaw puste, aby jedynie zapisywać numer sieci bez podejmowania działania.",
                     "max_listing_age_label": "Ignoruj wpisy starsze niż (dni)",
                     "max_listing_age_help": "Wpis sprzed wielu lat niewiele mówi o osobie rejestrującej się dzisiaj. Wartość 0 uwzględnia wszystkie wpisy niezależnie od wieku. Domeny i sieci znajdujące się na czarnej liście są zawsze uwzględniane.",
-                    "lookup_failed": "Nie udało się połączyć ze StopForumSpam (ostatni błąd: {when}). Do czasu przywrócenia połączenia rejestracje są przepuszczane bez sprawdzania.",
+                    "lookup_failed": "Nie udało się połączyć ze StopForumSpam (pierwszy błąd: {when}). Do czasu przywrócenia połączenia rejestracje są przepuszczane bez sprawdzania.",
                     "email_hash_label": "Użyj zahashowanego adresu e-mail",
                     "email_hash_help": "Przekaż skrót MD5 adresu e-mail, jeśli nie chcesz przekazywać samego adresu e-mail. Ta metoda omija wszystkie czarne listy, normalizację i kontrole omijające zaciemnianie.",
                     "block_tor_exit_nodes_label": "Blokuj węzły wyjściowe Tor",
@@ -121,7 +121,7 @@
                     "sfs_lookup_label": "Weryfikuj rejestracje",
                     "sfs_lookup_help": "Jeśli ta opcja jest włączona, będziemy sprawdzać bazę danych StopForumSpam, gdy nowy użytkownik zarejestruje się na Twoim forum. Jeśli użytkownik zostanie znaleziony (nazwa użytkownika, adres IP, e-mail) i ten punkt danych jest włączony wraz z poziomem zaufania SFS osiągającym zdefiniowany poziom, uniemożliwimy mu dokończenie rejestracji.",
                     "report_blocked_registrations_label": "Zgłoś blokowane rejestracje",
-                    "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana przez funkcję „Weryfikuj rejestracje”, zgłosimy próbę z powrotem do StopForumSpam, aby aktywność spamerów mogła zostać lepiej potwierdzona. Wymaga ustawienia klucza API StopForumSpam (zobacz poniżej).",
+                    "report_blocked_registrations_help": "Gdy rejestracja zostanie zablokowana na podstawie danych StopForumSpam, próba zostanie zgłoszona do tej usługi, aby potwierdzić aktywność spamera. Blokady wynikające z korzystania z sieci Tor lub zablokowanej sieci nie są zgłaszane, ponieważ wynikają z zasad obowiązujących na forum, a nie z dowodów na spam. Wymaga klucza API StopForumSpam (zobacz wyżej).",
                     "registration_throttle_label": "Minimalny odstęp między rejestracjami z jednego adresu (sekundy)",
                     "registration_throttle_help": "Flarum ogranicza częstotliwość publikowania, ale nie zakładania kont. Ustaw 0, aby wyłączyć ten limit. Pamiętaj, że biura, szkoły i sieci komórkowe mogą współdzielić jeden adres IP między wieloma osobami."
                 },
@@ -144,7 +144,7 @@
                 "button": "Zablokowane rejestracje",
                 "title": "Zablokowane rejestracje",
                 "no-records": "Nie znaleziono zablokowanych rejestracji.",
-                "help": "Ta strona pokazuje wszystkie rejestracje, które zostały zablokowane przez usługę StopForumSpam. Możesz wyświetlić szczegóły każdej rejestracji, a jeśli chcesz, możesz usunąć rekord z bazy danych.\n",
+                "help": "Ta strona pokazuje wszystkie rejestracje zablokowane przez StopForumSpam lub pułapkę na boty w formularzu rejestracji. Możesz wyświetlić szczegóły każdej próby rejestracji oraz usunąć jej rekord z bazy danych.\n",
                 "attempted-at": "Próba",
                 "ip": "Adres IP",
                 "email": "Adres e-mail",
@@ -184,10 +184,10 @@
                         "blacklisted": "Czarna lista",
                         "torExit": "Węzeł wyjściowy Tor",
                         "deniedAsn": "Zablokowana sieć",
-                        "honeypot": "",
-                        "tooFast": "",
-                        "formToken": "",
-                        "noForm": ""
+                        "honeypot": "Wypełniono ukryte pole",
+                        "tooFast": "Formularz przesłano zbyt szybko",
+                        "formToken": "Zmodyfikowano formularz rejestracji lub użyto go ponownie",
+                        "noForm": "Rejestracja bez użycia formularza"
                     },
                     "field": {
                         "ip": "IP",
@@ -216,7 +216,7 @@
         },
         "forum": {
             "sign_up": {
-                "trap_label": ""
+                "trap_label": "Pozostaw to pole puste"
             },
             "post": {
                 "flagged_as_spam_text": "Automatyczne wykrywanie spamu – wynik: {score}"
@@ -226,8 +226,8 @@
                     "blocked": "Ta treść wygląda na spam, dlatego nie została zapisana. Usuń linki lub dane kontaktowe i spróbuj ponownie."
                 },
                 "honeypot": {
-                    "refused": "",
-                    "reload": ""
+                    "refused": "Nie udało się dokończyć rejestracji.",
+                    "reload": "Wystąpił problem z formularzem rejestracji. Odśwież stronę i spróbuj ponownie."
                 },
                 "stopforumspam": {
                     "blocked": "Dane podane podczas rejestracji znajdują się w bazie danych używanej do wykrywania spamu, dlatego rejestracja została zablokowana."
