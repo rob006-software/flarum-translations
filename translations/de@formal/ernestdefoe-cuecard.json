@@ -2,63 +2,63 @@
     "ernestdefoe-cuecard": {
         "admin": {
             "permissions": {
-                "use": "",
-                "save_personal": "",
-                "manage_global": ""
+                "use": "Globale Makros einfügen",
+                "save_personal": "Persönliche Makros speichern",
+                "manage_global": "Globale Makros erstellen und bearbeiten"
             }
         },
         "api": {
-            "groups_required": "",
-            "too_many_macros": ""
+            "groups_required": "Wähle mindestens eine Gruppe. Wähle „Mitglieder“, um sie allen anzubieten, die Makros einfügen dürfen.",
+            "too_many_macros": "Du kannst bis zu {count} Makros speichern. Lösche eines, um ein weiteres hinzufügen zu können."
         },
         "forum": {
             "composer": {
-                "button": "",
-                "actions_label": "",
-                "action_lock": "",
-                "action_tags": "",
-                "action_tags_replace": "",
-                "action_best_answer": "",
+                "button": "Makro einfügen",
+                "actions_label": "Beim Absenden:",
+                "action_lock": "Sperren",
+                "action_tags": "Tag: {tags}",
+                "action_tags_replace": "Umtaggen: {tags}",
+                "action_best_answer": "Beste Antwort",
                 "remove_action": "",
-                "failed": "",
-                "failed_lock": "",
-                "failed_tags": "",
-                "failed_best_answer": "",
-                "failed_separator": ""
+                "failed": "Deine Antwort wurde gesendet, aber dies konnte nicht ausgeführt werden: {actions}.",
+                "failed_lock": "Diskussion sperren",
+                "failed_tags": "Tags ändern",
+                "failed_best_answer": "Als Beste Antwort markieren",
+                "failed_separator": ", "
             },
             "picker": {
-                "title": "",
-                "search_placeholder": "",
-                "empty": "",
-                "no_results": "",
-                "global_heading": "",
-                "personal_heading": "",
-                "new_button": "",
-                "save_reply_button": "",
-                "edit_button": "",
-                "delete_button": "",
-                "delete_confirm": "",
-                "insert_hint": ""
+                "title": "Makros",
+                "search_placeholder": "Makros durchsuchen",
+                "empty": "Noch keine Makros.",
+                "no_results": "Keine Makros entsprechen deiner Suche.",
+                "global_heading": "Geteilt",
+                "personal_heading": "Deine",
+                "new_button": "Neues Makro",
+                "save_reply_button": "Diesen Text als Makro speichern",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
+                "delete_confirm": "Das Makro „{title}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "insert_hint": "↑ ↓ zum Auswählen, Eingabe zum Einfügen"
             },
             "editor": {
-                "new_title": "",
-                "edit_title": "",
-                "title_label": "",
-                "content_label": "",
-                "placeholders_label": "",
-                "scope_label": "",
-                "scope_personal": "",
-                "scope_global": "",
-                "groups_label": "",
-                "groups_help": "",
-                "actions_label": "",
+                "new_title": "Neues Makro",
+                "edit_title": "Makro bearbeiten",
+                "title_label": "Titel",
+                "content_label": "Text",
+                "placeholders_label": "Platzhalter, die du benutzen kannst",
+                "scope_label": "Wer kann es verwenden",
+                "scope_personal": "Nur ich",
+                "scope_global": "Geteilt mit Team und den Gruppen unten",
+                "groups_label": "Diesen Gruppen anbieten",
+                "groups_help": "Mitglieder beinhaltet alle, die Makros einfügen dürfen.",
+                "actions_label": "Wenn es als Antwort verwendet wird",
                 "actions_help": "",
                 "lock_label": "",
                 "tags_label": "",
                 "tags_search_placeholder": "",
                 "replace_tags_label": "",
                 "best_answer_label": "",
-                "save_button": ""
+                "save_button": "Makro speichern"
             },
             "placeholders": {
                 "username": "",
