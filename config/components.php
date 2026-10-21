@@ -138,7 +138,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
 	'edgeinfinity-diy-homepage' => [
-		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
