@@ -278,6 +278,9 @@ return [
 	'ernestdefoe-logo-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.3/locale/en.yml',
 	],
+	'ernestdefoe-longshot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/longshot/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.6/resources/locale/en.yml',
 	],
