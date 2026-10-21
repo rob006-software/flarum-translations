@@ -137,6 +137,12 @@ return [
 	'datlechin-title-length' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
+	'edgeinfinity-diy-homepage' => [
+		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'ekumanov-forum-widgets' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.12/locale/en.yml',
 	],
@@ -158,6 +164,9 @@ return [
 	'ernestdefoe-backdrop' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-bouncer' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.0/resources/locale/en.yml',
+	],
 	'ernestdefoe-brainstorm' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.0.1/locale/en.yml',
 	],
@@ -176,6 +185,9 @@ return [
 	'ernestdefoe-club' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/club/v1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-concourse' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/concourse/1.1.1/locale/en.yml',
+	],
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.5/locale/en.yml',
 	],
@@ -193,6 +205,9 @@ return [
 	],
 	'ernestdefoe-depot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.1/locale/en.yml',
+	],
+	'ernestdefoe-detour' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/detour/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.7/locale/en.yml',
@@ -220,6 +235,9 @@ return [
 	],
 	'ernestdefoe-gatehouse' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.4.0/locale/en.yml',
+	],
+	'ernestdefoe-gauntlet' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gauntlet/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.0/locale/en.yml',
@@ -260,6 +278,9 @@ return [
 	'ernestdefoe-logo-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.0.3/locale/en.yml',
 	],
+	'ernestdefoe-longshot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/longshot/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.6/resources/locale/en.yml',
 	],
@@ -292,6 +313,9 @@ return [
 	],
 	'ernestdefoe-phrasebook' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.0/locale/en.yml',
+	],
+	'ernestdefoe-pigeonhole' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.2.0/locale/en.yml',
@@ -331,6 +355,9 @@ return [
 	],
 	'ernestdefoe-shelf' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/shelf/v1.1.0/locale/en.yml',
+	],
+	'ernestdefoe-shutter' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/shutter/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',

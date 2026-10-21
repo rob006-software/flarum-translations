@@ -10,12 +10,12 @@
             "option_length": "Eine Antwort in Frage {number} ist länger als 300 Zeichen.",
             "option_count": "Frage {number} benötigt {min} bis {max} Antworten.",
             "accepted_count": "Frage {number} benötigt {min} bis {max} akzeptierte Antworten.",
-            "no_correct": "",
-            "image_url": "",
-            "reward_locked": "",
-            "no_attempts_left": "",
+            "no_correct": "Markiere mindestens eine richtige Antwort in Frage {number}.",
+            "image_url": "Das Bild für Frage {number} muss eine Webadresse beginnend mit http:// oder https:// oder ein Pfad auf diesem Forum sein.",
+            "reward_locked": "Da es bei diesem Quiz um Punkte oder ein Abzeichen geht, können die Antworten, Punkte und die Mindestpunktzahl nur von Mitarbeitern geändert werden, die Belohnungen vergeben dürfen. Den Wortlaut des Quiz kannst du jedoch weiterhin bearbeiten.",
+            "no_attempts_left": "Du hast alle deine Versuche für dieses Quiz aufgebraucht.",
             "no_questions": "Dieses Quiz hat noch keine Fragen.",
-            "slow_down": ""
+            "slow_down": "Das ist ziemlich viel in so kurzer Zeit. Warte ein paar Minuten und versuche es dann erneut."
         },
         "lib": {
             "units": {
@@ -28,34 +28,34 @@
             "nav": "Quiz",
             "draft": "Entwurf",
             "settings": {
-                "private": ""
+                "private": "Zeige mich nicht auf Quiz-Ranglisten an"
             },
             "composer": {
                 "add": "Quiz",
-                "title": "",
-                "search": "",
+                "title": "Füge ein Quiz zu deinem Beitrag hinzu",
+                "search": "Quiz durchsuchen",
                 "meta": "{count, plural, one {# Frage} other {# Fragen}}",
                 "none": "Keine Quiz gefunden.",
                 "create": "Neues Quiz schreiben"
             },
             "facts": {
                 "questions": "{count, plural, one {# Frage} other {# Fragen}}",
-                "pass_mark": "",
+                "pass_mark": "Bestanden: {mark} %",
                 "attempts": "{count, plural, one {# Versuch} other {# Versuche}}",
                 "attempts_left": "{count} von {max} Versuchen verbleiben",
                 "points": "{count, plural, one {# Punkt} other {# Punkte}}",
                 "badge": "Abzeichen: {name}"
             },
             "card": {
-                "best": "",
-                "log_in": "",
-                "cannot_take": "",
-                "closed": "",
-                "no_attempts": "",
-                "start": "",
-                "resume": "",
-                "again": "",
-                "preview": ""
+                "best": "Dein bestes Ergebnis: {score}",
+                "log_in": "Anmelden, um mitzuspielen",
+                "cannot_take": "Du kannst hier kein Quiz einstellen.",
+                "closed": "Nimmt keine Versuche an",
+                "no_attempts": "Keine Versuche übrig",
+                "start": "Quiz starten",
+                "resume": "Fortsetzen",
+                "again": "Erneut versuchen",
+                "preview": "Probiere es aus"
             },
             "index": {
                 "title": "Quiz",
@@ -63,25 +63,25 @@
                 "search": "Quiz durchsuchen",
                 "more": "Mehr laden",
                 "empty": "Noch keine Quiz.",
-                "no_results": "",
+                "no_results": "Kein Quiz entspricht der Suche.",
                 "tabs": {
-                    "new": "",
-                    "popular": "",
-                    "mine": ""
+                    "new": "Neueste",
+                    "popular": "Meistgespielt",
+                    "mine": "Meine"
                 }
             },
             "quiz": {
-                "all": "",
-                "missing": "",
-                "stats": "",
+                "all": "Alle Quiz",
+                "missing": "Dieses Quiz existiert nicht oder du darfst nicht darauf zugreifen.",
+                "stats": "{taken, plural, one {# Versuch} other {# Versuche}} · {passed} bestanden",
                 "edit": "Bearbeiten",
-                "copy_link": "",
-                "link_copied": "",
+                "copy_link": "Link zu einem Beitrag kopieren",
+                "link_copied": "Link wurde kopiert. Füge ihn in einer eigenen Zeile in einen Beitrag ein, dann wird das Quiz dort angezeigt.",
                 "delete": "Löschen",
                 "delete_confirm": "",
-                "opens": "",
-                "closes": "",
-                "closed": "",
+                "opens": "Öffnet {time}",
+                "closes": "Schließt {time}",
+                "closed": "Für neue Versuche geschlossen.",
                 "tabs": {
                     "board": "Rangliste",
                     "results": "Ergebnisse"
@@ -90,35 +90,35 @@
             "player": {
                 "question_of": "Frage {number} von {total}",
                 "review_heading": "",
-                "answered": "",
-                "time_left": "",
-                "practice": "",
+                "answered": "{count} von {total} beantwortet",
+                "time_left": "Zeit übrig",
+                "practice": "Üben",
                 "choose_all": "",
-                "type_answer": "",
+                "type_answer": "Gib deine Antwort ein",
                 "true": "Wahr",
                 "false": "Falsch",
-                "points": "",
+                "points": "{count, plural, one {# Punkt wert} other {# Punkte wert}}",
                 "previous": "Vorheriger",
                 "next": "Nächster",
                 "finish": "",
                 "unanswered": "",
                 "all_answered": "",
-                "back": "",
-                "submit": "",
+                "back": "Zurück zu den Fragen",
+                "submit": "Einreichen",
                 "jump": "Fragen",
                 "error": "",
-                "close": ""
+                "close": "Schließen"
             },
             "result": {
-                "passed": "",
+                "passed": "Bestanden!",
                 "not_passed": "",
-                "score": "",
-                "time": "",
+                "score": "{score} von {max} Punkten ({percent}), Mindestbewertung {mark} %",
+                "time": "Zeit {time}",
                 "expired": "",
                 "practice": "",
                 "attempts_left": "",
                 "again": "Erneut versuchen",
-                "close": "",
+                "close": "Schließen",
                 "right": "Richtig",
                 "partial": "",
                 "wrong": "",
@@ -130,7 +130,7 @@
             },
             "leaderboard": {
                 "title": "Rangliste",
-                "overall": "",
+                "overall": "Top-Quizzer",
                 "overall_help": "",
                 "see_all": "",
                 "back": "Alle Quiz",
