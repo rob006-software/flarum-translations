@@ -1,48 +1,48 @@
 {
     "ernestdefoe-resurface": {
         "forum": {
-            "bump_button": "",
-            "bumped_alert": "",
-            "wait_button": "",
+            "bump_button": "An den Anfang verschieben",
+            "bumped_alert": "An den Anfang der Liste verschoben.",
+            "wait_button": "Erneut an den Anfang verschieben {time}",
             "wait_title": "",
             "left_title": "",
             "schedule_button": "",
-            "planned_button": "",
-            "log_button": "",
-            "bumped_text": "",
+            "planned_button": "Nächster Spitzenschub: {time}",
+            "log_button": "Verlauf der Spitzenschübe",
+            "bumped_text": "An den Anfang verschoben {ago}",
             "log": {
-                "title": ""
+                "title": "Verlauf der Spitzenschübe"
             },
             "schedule": {
-                "title": "",
-                "at_label": "",
+                "title": "Spitzenschub planen",
+                "at_label": "Spitzenschub um",
                 "repeat_label": "",
                 "every_label": "",
-                "hours": "",
-                "days": "",
+                "hours": "{count, plural, one {Stunde} other {Stunden}}",
+                "days": "{count, plural, one {Tag} other {Tage}}",
                 "every_help": "",
                 "times_label": "",
                 "times_placeholder": "",
                 "limits_help": "",
-                "save_button": "",
-                "cancel_button": "",
-                "saved_alert": "",
+                "save_button": "Plan speichern",
+                "cancel_button": "Plan abbrechen",
+                "saved_alert": "Spitzenschub geplant.",
                 "cancelled_alert": ""
             }
         },
         "lib": {
             "log": {
                 "empty": "",
-                "when": "",
-                "discussion": "",
-                "by": "",
+                "when": "Wann",
+                "discussion": "Diskussion",
+                "by": "Von",
                 "how": "",
-                "deleted": "",
-                "more": "",
+                "deleted": "[gelöscht]",
+                "more": "Mehr laden",
                 "source": {
-                    "manual": "",
-                    "scheduled": "",
-                    "auto": ""
+                    "manual": "Manuell",
+                    "scheduled": "Geplant",
+                    "auto": "Wiederholend"
                 }
             }
         },
@@ -58,7 +58,7 @@
             "groups": {
                 "label": "",
                 "help": "",
-                "group": "",
+                "group": "Gruppe",
                 "cooldown": "",
                 "daily": ""
             },
