@@ -201,7 +201,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-docket' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-earshot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.1/locale/en.yml',
