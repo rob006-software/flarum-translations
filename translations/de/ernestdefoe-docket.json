@@ -1,7 +1,7 @@
 {
     "ernestdefoe-docket": {
         "api": {
-            "closed": "",
+            "closed": "Diese Meldung zuerst wiedereröffnen.",
             "assign_others": "",
             "cannot_see": ""
         },
@@ -16,14 +16,14 @@
                 "subject": "",
                 "body_resolved": "",
                 "body_rejected": "",
-                "link": ""
+                "link": "Deine Meldungen anzeigen"
             }
         },
         "forum": {
             "nav": {
-                "report_centre": "",
-                "my_reports": "",
-                "user_reports": "",
+                "report_centre": "Meldungszentrale",
+                "my_reports": "Meine Meldungen",
+                "user_reports": "Meldungen",
                 "toggle": ""
             },
             "post": {
@@ -40,16 +40,16 @@
                 "outcome_rejected": ""
             },
             "status": {
-                "open": "",
-                "in_progress": "",
-                "resolved": "",
-                "rejected": "",
-                "closed": ""
+                "open": "Offen",
+                "in_progress": "In Bearbeitung",
+                "resolved": "Gelöst",
+                "rejected": "Abgelehnt",
+                "closed": "Geschlossen"
             },
             "reason": {
                 "approval": "",
                 "raised_by": "",
-                "other": ""
+                "other": "Andere"
             },
             "views": {
                 "active": "",
@@ -58,59 +58,59 @@
                 "resolved": "",
                 "rejected": "",
                 "all": "",
-                "in_queue": ""
+                "in_queue": "{view} in {queue}"
             },
             "queues": {
-                "all": "",
-                "general": ""
+                "all": "Alle Warteschlangen",
+                "general": "Allgemeine Warteschlange"
             },
             "list": {
-                "post_gone": "",
-                "by": "",
-                "report_count": "",
+                "post_gone": "Der Beitrag wurde gelöscht",
+                "by": "Beitrag von {name}",
+                "report_count": "{count, plural, one {# Meldung} other {# Meldungen}}",
                 "held_by": "",
                 "empty": "",
                 "load_more": ""
             },
             "report": {
-                "title": "",
-                "opened": "",
+                "title": "Meldung #{id}",
+                "opened": "Eröffnet {time}",
                 "post_gone": "",
                 "moderate": "",
                 "post_hidden": "",
                 "warning_count": "",
                 "reporters": "",
-                "system": "",
+                "system": "Automatisch",
                 "held_by": "",
                 "handled_by": "",
                 "no_one": "",
                 "claim": "",
-                "take_over": "",
-                "release": "",
+                "take_over": "Übernehmen",
+                "release": "Freigeben",
                 "unassign": "",
                 "assign": "",
                 "assign_title": "",
-                "queue": "",
+                "queue": "Warteschlange",
                 "resolve": "",
                 "reject": "",
-                "reopen": "",
+                "reopen": "Wiedereröffnen",
                 "reporters_told": "",
                 "timeline": "",
                 "timeline_empty": "",
                 "note_label": "",
                 "note_placeholder": "",
                 "note_help": "",
-                "note_submit": "",
+                "note_submit": "Notiz hinzufügen",
                 "post_history": "",
-                "post_history_empty": "",
+                "post_history_empty": "Keine.",
                 "user_history": "",
                 "user_history_empty": "",
                 "user_history_all": ""
             },
             "timeline": {
-                "someone": "",
-                "claimed": "",
-                "assigned": "",
+                "someone": "Jemand",
+                "claimed": "{actor} hat es beansprucht",
+                "assigned": "{actor} hat an {name} zugewiesen",
                 "assigned_by_rule": "",
                 "unassigned": "",
                 "moved": "",
