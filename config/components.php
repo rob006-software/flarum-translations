@@ -203,6 +203,9 @@ return [
 	'ernestdefoe-depot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.1/locale/en.yml',
 	],
+	'ernestdefoe-detour' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/detour/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-digest-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/digest-mail/2.2.7/locale/en.yml',
 	],
