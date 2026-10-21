@@ -15,14 +15,14 @@
                     "button": "Ein Foto hinzufügen"
                 },
                 "bio": {
-                    "title": "",
+                    "title": "Erzähle etwas über dich",
                     "description": "",
                     "button": ""
                 },
                 "nickname": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Anzeigenamen festlegen"
                 },
                 "email_confirmed": {
                     "title": "Bestätige deine E-Mail-Adresse",
@@ -315,7 +315,7 @@
         "email": {
             "reminder": {
                 "subject": "",
-                "body": ""
+                "body": "Du bist fast da. Als Nächstes: {next}.\n\nMach dort weiter, wo du aufgehört hast: {url}\n"
             }
         }
     }
