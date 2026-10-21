@@ -329,6 +329,9 @@ return [
 	'ernestdefoe-shelf' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/shelf/v1.1.0/locale/en.yml',
 	],
+	'ernestdefoe-shutter' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/shutter/1.1.0/locale/en.yml',
+	],
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
