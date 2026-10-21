@@ -10,9 +10,9 @@
             },
             "types": {
                 "avatar": {
-                    "title": "",
-                    "description": "",
-                    "button": ""
+                    "title": "Verbinde deinen Namen mit einem Gesicht",
+                    "description": "Füge ein Profilbild hinzu, damit man dich im Forum wiedererkennt.",
+                    "button": "Ein Foto hinzufügen"
                 },
                 "bio": {
                     "title": "",
@@ -25,39 +25,39 @@
                     "button": ""
                 },
                 "email_confirmed": {
-                    "title": "",
-                    "description": "",
-                    "button": ""
+                    "title": "Bestätige deine E-Mail-Adresse",
+                    "description": "Bestätige deine E-Mail-Adresse, damit du keine Antwort oder Erwähnung verpasst.",
+                    "button": "Meine E-Mail-Einstellungen überprüfen"
                 },
                 "read": {
-                    "title": "",
+                    "title": "{count, plural, one {Lies eine Diskussion} other {Lies # Diskussionen}}",
                     "description": "",
-                    "button": ""
+                    "button": "Diskussionen durchsuchen"
                 },
                 "discussion": {
-                    "title": "",
+                    "title": "{count, plural, one {Beginne deine erste Diskussion} other {Beginne # Diskussionen}}",
                     "title_in_tag": "",
                     "description": "",
-                    "button": ""
+                    "button": "Beginne eine Diskussion"
                 },
                 "reply": {
-                    "title": "",
+                    "title": "{count, plural, one {Antworte in einer Diskussion} other {Antworte # Mal}}",
                     "title_in_tag": "",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Diskussion"
                 },
                 "visit": {
-                    "title": "",
+                    "title": "Besuche eine Seite",
                     "description": "",
                     "button": ""
                 },
                 "mention": {
                     "title": "",
                     "description": "",
-                    "button": ""
+                    "button": "Finde eine Diskussion"
                 },
                 "like_given": {
-                    "title": "",
+                    "title": "{count, plural, one {Like einen Beitrag} other {Like # Beiträge}}",
                     "description": "",
                     "button": ""
                 },
@@ -123,7 +123,7 @@
                 "label": "",
                 "title": "",
                 "sub": "",
-                "next": "",
+                "next": "Als Nächstes",
                 "see_all": ""
             },
             "page": {
@@ -144,12 +144,12 @@
                 "skip": "",
                 "skipped": "",
                 "undo_skip": "",
-                "progress": "",
-                "points": ""
+                "progress": "{done} von {total}",
+                "points": "{count, plural, one {# Punkt} other {# Punkte}}"
             },
             "toast": {
                 "step": "",
-                "points": "",
+                "points": "{count, plural, one {+# Punkt} other {+# Punkte}}",
                 "graduated": ""
             },
             "notifications": {
@@ -166,7 +166,7 @@
                 "title": ""
             },
             "member": {
-                "tab": "",
+                "tab": "Onramp",
                 "none": "",
                 "status_open": "",
                 "status_graduated": "",
@@ -188,7 +188,7 @@
             },
             "tabs": {
                 "steps": "",
-                "settings": "",
+                "settings": "Einstellungen",
                 "funnel": ""
             },
             "load_failed": "",
@@ -265,15 +265,15 @@
                 "enabled": "",
                 "enabled_help": "",
                 "launcher": "",
-                "launcher_help": "",
+                "launcher_help": "Ein Ring, der neben den Benachrichtigungen den Fortschritt des Mitglieds anzeigt, wobei der nächste Schritt nur einen Fingertipp entfernt ist. Drücke J, um ihn zu öffnen.",
                 "reward_heading": "",
                 "reward_help": "",
-                "reward_points": "",
-                "reward_badge": "",
+                "reward_points": "Punkte",
+                "reward_badge": "Abzeichen",
                 "reward_badge_help": "",
                 "reward_group": "",
                 "reward_group_help": "",
-                "no_group": "",
+                "no_group": "Keine Gruppe",
                 "reminders_heading": "",
                 "reminders": "",
                 "reminders_help": "",

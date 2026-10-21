@@ -1,20 +1,20 @@
 {
     "ernestdefoe-gatehouse": {
         "forum": {
-            "notice_pending": "Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss ein Administrator dein Konto freischalten. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.",
+            "notice_pending": "Vielen Dank für deine Anmeldung! Bevor du Beiträge verfassen kannst, muss dein Konto freigeschaltet werden. Sobald dies geschehen ist, erhältst du eine E-Mail von uns.",
             "notice_declined": "Dein Konto wurde nicht freigeschaltet, daher kann es in diesem Forum nicht genutzt werden.",
             "notification": "{name} hat sich angemeldet und wartet auf deine Freigabe",
             "optional": "optional",
             "notify_applicant_label": "Jemand registriert sich und wartet auf meine Genehmigung",
             "applicants": {
-                "title": "",
-                "link": "",
-                "not_allowed": ""
+                "title": "Bewerber",
+                "link": "Bewerber",
+                "not_allowed": "Du hast keine Berechtigung, Bewerber freizuschalten."
             }
         },
         "admin": {
             "queue_heading": "Wartet auf Freigabe",
-            "permission_decide": "",
+            "permission_decide": "Bewerber freischalten und ablehnen",
             "rules_heading": "Regeln",
             "enabled": "Neue Anmeldungen bis zur Freigabe zurückhalten",
             "enabled_help": "Bestehende Mitglieder sind davon in keiner Weise betroffen. Administratoren, die Mitglieder manuell hinzufügen, werden in keiner Weise eingeschränkt.",
@@ -54,29 +54,29 @@
         },
         "lib": {
             "queue": {
-                "tab_pending": "",
-                "tab_declined": "",
-                "tab_approved": "",
-                "empty_pending": "",
-                "empty_declined": "",
-                "empty_approved": "",
-                "signed_up": "",
-                "approved_by": "",
-                "declined_by": "",
-                "answer": "",
-                "approve": "",
-                "decline": ""
+                "tab_pending": "Wartet",
+                "tab_declined": "Abgelehnt",
+                "tab_approved": "Freigeschaltet",
+                "empty_pending": "Niemand wartet.",
+                "empty_declined": "Niemand wurde abgelehnt.",
+                "empty_approved": "Niemand wurde mittels Gatehouse freigeschaltet.",
+                "signed_up": "Registriert",
+                "approved_by": "Freigeschaltet von {name}",
+                "declined_by": "Abgelehnt von {name}",
+                "answer": "Ihre Antwort",
+                "approve": "Freischalten",
+                "decline": "Ablehnen"
             },
             "refused": "Anmeldungen über diese E-Mail-Adresse werden in diesem Forum nicht akzeptiert.",
             "username_reserved": "Dieser Benutzername ist bereits vergeben. Bitte wähle einen anderen aus.",
-            "signin_pending": "Dein Konto wartet darauf, von einem Administrator freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.",
-            "reason_required": "Bitte beantworte diese Frage, damit ein Administrator dein Konto freischalten kann.",
+            "signin_pending": "Dein Konto wartet darauf, freigeschaltet zu werden. Wir benachrichtigen dich per E-Mail, sobald es bereit ist.",
+            "reason_required": "Bitte beantworte diese Frage, damit dein Konto freigeschaltet werden kann.",
             "signin_declined": "Dieses Konto wurde nicht freigeschaltet und kann daher in diesem Forum nicht verwendet werden."
         },
         "email": {
             "held": {
                 "subject": "Dein Konto bei {forum} wartet auf Freigabe",
-                "body": "Vielen Dank für deine Anmeldung bei {forum}. Neue Konten werden hier manuell freigeschaltet, daher wird ein Administrator dein Konto in Kürze prüfen. Sobald dies geschehen ist, erhältst du eine weitere E-Mail.\n\n{message}\n"
+                "body": "Vielen Dank für deine Anmeldung bei {forum}. Neue Konten werden hier manuell freigeschaltet, daher dein Konto in Kürze geprüft. Sobald dies geschehen ist, erhältst du eine weitere E-Mail.\n\n{message}\n"
             },
             "approved_activate": {
                 "subject": "Willkommen bei {forum}: Dein Konto wurde freigegeben",
