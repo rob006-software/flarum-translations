@@ -37,7 +37,7 @@
                 "collections": "{count, plural, one {# Sammlung} other {# Sammlungen}}"
             },
             "filter": {
-                "all": "Alle",
+                "all": "Alle Artikel",
                 "owned": "Im Besitz",
                 "wishlist": "Wunschliste",
                 "trade": "Zum Tausch",
@@ -70,7 +70,7 @@
                 "settings": "Einstellungen",
                 "search": "{count} Artikel durchsuchen…",
                 "filter_label": "Anzeigen",
-                "sort_label": "",
+                "sort_label": "Reihenfolge",
                 "view_label": "Darstellung",
                 "view_grid": "Raster",
                 "view_list": "Liste",
@@ -82,9 +82,9 @@
                 "title_new": "Neue Sammlung",
                 "title_edit": "Sammlungs-Einstellungen",
                 "type": "Was sammelst du?",
-                "type_pick": "",
-                "type_off_group": "",
-                "type_change_help": "",
+                "type_pick": "Typ wählen",
+                "type_off_group": "Ausgeschaltet — Nur Administratoren sehen diese",
+                "type_change_help": "Artikel behalten ihre Details bei. Die Aufschlüsselung und die Filter richten sich nach den Feldern des neuen Feldtyps.",
                 "name": "Name",
                 "name_placeholder": "Das Nintendo-Regal",
                 "description": "Beschreibung",
@@ -153,9 +153,9 @@
                 "from_wikipedia": "Beschreibung von Wikipedia",
                 "from_wikidata": "Beschreibung von Wikidata",
                 "translated_deepl": "Übersetzt mit DeepL",
-                "no_description": "",
-                "show_other": "",
-                "hide_other": "",
+                "no_description": "Keine Beschreibung verfügbar.",
+                "show_other": "Beschreibung in {language} anzeigen",
+                "hide_other": "Beschreibung in {language} ausblenden",
                 "languages": "{count, plural, one {# Sprache} other {# Sprachen}}",
                 "offers": "{count, plural, one {# Mitglied bietet dies zum Tausch} other {# Mitglieder bieten dies zum Tausch}}",
                 "edit": "Bearbeiten",
@@ -278,7 +278,7 @@
                 "layout_help": "Wie jeder Typ auf der Sammlungsseite angezeigt wird.",
                 "layout_tags": "Wie die Tags-Seite (Flarum Standard)",
                 "layout_covers": "",
-                "hide_empty_label": "",
+                "hide_empty_label": "Feldtypen verbergen, wenn sie leer sind",
                 "hide_empty_help": "",
                 "cover_fit_label": "",
                 "cover_fit_help": "",
@@ -344,10 +344,10 @@
                 "import_failed": "Diese Datei ist kein Curio-Export."
             },
             "shape": {
-                "portrait": "Hochformat",
+                "portrait": "Hochformat 2:3 (Bücher, Filme)",
                 "box": "",
-                "square": "Quadratisch",
-                "landscape": "Querformat"
+                "square": "Quadratisch (Musikalben)",
+                "landscape": "Querformat 4:3"
             },
             "source": {
                 "none": "Keine (per Barcode oder händisch hinzufügen)",
