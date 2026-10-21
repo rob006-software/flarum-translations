@@ -984,7 +984,18 @@
                     "click_to_show_translation": "点击查看译文。",
                     "disclaimer": "AI生成的译文可能不准确。",
                     "show_original_all": "显示原文",
-                    "show_translated_all": "显示译文"
+                    "show_translated_all": "显示译文",
+                    "prefs": {
+                        "title": "",
+                        "interface_language": "",
+                        "understood_label": "",
+                        "understood_help": "",
+                        "understood_placeholder": "",
+                        "remove": "",
+                        "auto_translate": "",
+                        "save": "",
+                        "cancel": ""
+                    }
                 },
                 "errors": {
                     "generic": "AI暂时无法回答，请稍后重试。"
@@ -1163,6 +1174,8 @@
                     "edit_title": "编辑书签",
                     "name_label": "名称",
                     "name_placeholder": "为书签命名，方便记住它的用途",
+                    "context": "",
+                    "context_deleted_user": "",
                     "reminder_label": "提醒我",
                     "existing_reminder": "将在{date}提醒你查看此书签。",
                     "custom_date": "提醒日期",
