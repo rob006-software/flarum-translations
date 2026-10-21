@@ -2,17 +2,81 @@
 
 Translations for Polish (`pl`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **7** are
-translated only in `pl`. Altogether they cover **1** components.
+sides, but do not match between them: **5** are translated differently and **7** are
+translated only in `pl`. Altogether they cover **2** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Missing translations |
-| --- | --- |
-| `fof-oauth` | [7](#fof-oauth-missing) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `fof-oauth` | 0 | [7](#fof-oauth-missing) |
+| `ianm-twofactor` | [5](#ianm-twofactor) | 0 |
+
+
+## Different translations
+
+Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `pl` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `ianm-twofactor`
+
+#### [`ianm-twofactor.admin.settings.tokens.also_kill_developer_tokens`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/pl/?q=context%3A%3D%22ianm-twofactor.admin.settings.tokens.also_kill_developer_tokens%22)
+
+> Also Kill Developer Tokens
+
+```diff
+-Zabij także tokeny developerskie
++Unieważniaj także tokeny deweloperskie
+```
+
+<del>Zabij</del><ins>Unieważniaj</ins> także tokeny <del>developerskie</del><ins>deweloperskie</ins>
+
+#### [`ianm-twofactor.admin.settings.tokens.also_kill_developer_tokens_help`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/pl/?q=context%3A%3D%22ianm-twofactor.admin.settings.tokens.also_kill_developer_tokens_help%22)
+
+> Also kill developer access tokens that have been inactive for the specified period of time.
+
+```diff
+-Zabija również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.
++Unieważnia również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.
+```
+
+<del>Zabija</del><ins>Unieważnia</ins> również tokeny dostępu dewelopera, które były nieaktywne przez określony czas.
+
+#### [`ianm-twofactor.admin.settings.tokens.kill_inactive_tokens`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/pl/?q=context%3A%3D%22ianm-twofactor.admin.settings.tokens.kill_inactive_tokens%22)
+
+> Kill Inactive Tokens
+
+```diff
+-Zabij nieaktywne tokeny
++Unieważniaj nieaktywne tokeny
+```
+
+<del>Zabij</del><ins>Unieważniaj</ins> nieaktywne tokeny
+
+#### [`ianm-twofactor.admin.settings.tokens.kill_inactive_tokens_age_days`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/pl/?q=context%3A%3D%22ianm-twofactor.admin.settings.tokens.kill_inactive_tokens_age_days%22)
+
+> Kill Inactive Tokens After (Days)
+
+```diff
+-Zabij nieaktywne tokeny po (dniach)
++Unieważniaj nieaktywne tokeny po (dniach)
+```
+
+<del>Zabij</del><ins>Unieważniaj</ins> nieaktywne tokeny po (dniach)
+
+#### [`ianm-twofactor.admin.settings.tokens.kill_inactive_tokens_help`](https://weblate.rob006.net/translate/flarum2/ianm-twofactor/pl/?q=context%3A%3D%22ianm-twofactor.admin.settings.tokens.kill_inactive_tokens_help%22)
+
+> Automatically kill access tokens that have been inactive for a specified period of time.
+
+```diff
+-Automatycznie zabija tokeny dostępu, które były nieaktywne przez określony czas.
++Automatycznie unieważnia tokeny dostępu, które były nieaktywne przez określony czas.
+```
+
+Automatycznie <del>zabija</del><ins>unieważnia</ins> tokeny dostępu, które były nieaktywne przez określony czas.
 
 
 ## Missing translations
