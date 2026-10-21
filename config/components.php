@@ -290,6 +290,9 @@ return [
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.3/locale/en.yml',
 	],
+	'ernestdefoe-phrasebook' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.2.0/locale/en.yml',
 	],
