@@ -345,7 +345,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/salvage/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-scribe' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.13/locale/en.yml',
 	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fof-seo/2.0.17/locale/en.yml',
