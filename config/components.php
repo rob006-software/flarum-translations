@@ -294,7 +294,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.8.2/locale/en.yml',
 	],
 	'ernestdefoe-masthead' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.1.3/locale/en.yml',
 	],
 	'ernestdefoe-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.1.3/locale/en.yml',
