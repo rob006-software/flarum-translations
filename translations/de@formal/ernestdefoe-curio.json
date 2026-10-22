@@ -32,6 +32,7 @@
             },
             "count": {
                 "items": "{count, plural, one {# Artikel} other {# Artikel}}",
+                "items_short": "",
                 "wanted": "{count} auf Wunschliste",
                 "trade": "{count} zum Tausch",
                 "collections": "{count, plural, one {# Sammlung} other {# Sammlungen}}"
@@ -194,7 +195,22 @@
                 "featured": "Hervorgehobene Sammlungen",
                 "largest": "Größte Sammlungen",
                 "none": "Hier gibt es noch keine Sammlungen.",
-                "add": "Artikel hinzufügen"
+                "add": "Artikel hinzufügen",
+                "types": "",
+                "tab_owned": "",
+                "tab_wishlist": "",
+                "tab_trade": "",
+                "none_owned": "",
+                "none_wishlist": "",
+                "none_trade": "",
+                "latest": "",
+                "tab_progress": "",
+                "tab_ratings": "",
+                "none_progress": "",
+                "none_ratings": "",
+                "change_progress": "",
+                "change_rating": "",
+                "more": ""
             },
             "nav": {
                 "mine": "Meine Sammlungen"
@@ -278,6 +294,13 @@
                 "layout_help": "Wie jeder Typ auf der Sammlungsseite angezeigt wird.",
                 "layout_tags": "Wie die Tags-Seite (Flarum Standard)",
                 "layout_covers": "Titelbildkacheln",
+                "layout_compact": "",
+                "type_color_label": "",
+                "type_color_help": "",
+                "type_color_background": "",
+                "type_color_text": "",
+                "latest_label": "",
+                "latest_help": "",
                 "hide_empty_label": "Feldtypen verbergen, wenn sie leer sind",
                 "hide_empty_help": "Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).",
                 "cover_fit_label": "Titelbilder, die nicht in den Rahmen passen",
@@ -313,6 +336,7 @@
                 "shape": "Form des Deckblatts",
                 "source": "Nachschlagewerke",
                 "needs_marquee": "Die Film- und TV-Suche erfolgt über Marquee, die Spielesuche über IGDB (in den obigen Einstellungen eingerichtet) oder Marquee. Solange die Installation noch nicht abgeschlossen ist, können Mitglieder dieses Typs weiterhin Barcodes scannen oder Artikel manuell hinzufügen.",
+                "cards_help": "",
                 "fields": "Details",
                 "fields_help": "Welche Angaben die Mitglieder zu den einzelnen Punkten machen. Das Feld „Erste Wahl“ dient der Aufschlüsselung und Filterung auf den Sammlungsseiten (Plattform, Format …).",
                 "field_label": "Beschriftung ({language})",
@@ -355,7 +379,11 @@
                 "music": "Alben (Deezer, MusicBrainz)",
                 "movies": "Filme (mittels Marquee)",
                 "tv": "Fernsehserien (mittels Marquee)",
-                "games": "Spiele (IGDB oder mittels Marquee)"
+                "games": "Spiele (IGDB oder mittels Marquee)",
+                "pokemon": "",
+                "magic": "",
+                "yugioh": "",
+                "cards": ""
             },
             "kind": {
                 "select": "Auswahl",
@@ -367,6 +395,8 @@
             "permissions": {
                 "view": "Sammlungen anzeigen",
                 "create": "Sammlungen erstellen, Artikel und Fotos hinzufügen",
+                "import": "",
+                "export": "",
                 "moderate": "Sammlungen von jedem entfernen und hervorheben"
             }
         },

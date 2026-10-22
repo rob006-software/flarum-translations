@@ -32,6 +32,7 @@
             },
             "count": {
                 "items": "{count, plural, one {# item} other {# items}}",
+                "items_short": "{count, plural, one {{short} item} other {{short} items}}",
                 "wanted": "{count} on wishlist",
                 "trade": "{count} to trade",
                 "collections": "{count, plural, one {# collection} other {# collections}}"
@@ -194,7 +195,22 @@
                 "featured": "Featured collections",
                 "largest": "Largest collections",
                 "none": "No collections here yet.",
-                "add": "Add an item"
+                "add": "Add an item",
+                "types": "Types of collection",
+                "tab_owned": "Owned",
+                "tab_wishlist": "Wishlist",
+                "tab_trade": "Open to trade",
+                "none_owned": "Nothing added yet.",
+                "none_wishlist": "No wishlist items to show yet.",
+                "none_trade": "Nothing open to trade yet.",
+                "latest": "Latest changes",
+                "tab_progress": "Status",
+                "tab_ratings": "Ratings",
+                "none_progress": "No progress marked yet.",
+                "none_ratings": "Nothing rated yet.",
+                "change_progress": "{name} marked {title} as",
+                "change_rating": "{name} rated {title}",
+                "more": "More"
             },
             "nav": {
                 "mine": "My collections"
@@ -278,6 +294,13 @@
                 "layout_help": "How the Collections page shows each type.",
                 "layout_tags": "Like the Tags page (Flarum default)",
                 "layout_covers": "Cover tiles",
+                "layout_compact": "Compact tabs (one row of small buttons)",
+                "type_color_label": "Colour of the compact tabs",
+                "type_color_help": "With compact tabs, each type's colour can fill its tab or only colour its icon and name.",
+                "type_color_background": "As the tab's background",
+                "type_color_text": "On the icon and name only",
+                "latest_label": "Show \"Latest changes\"",
+                "latest_help": "A row on the Collections page with the latest progress members marked (completed, in progress…) and the latest ratings they gave, from collections the reader can see.",
                 "hide_empty_label": "Hide types with nothing in them",
                 "hide_empty_help": "Off by default, so the Collections page shows every switched-on type, as the Tags page shows every tag; an empty one invites a first collection. When on, only types holding something are shown (all of them while the forum has nothing yet).",
                 "cover_fit_label": "Covers that don't fit the frame",
@@ -313,6 +336,7 @@
                 "shape": "Cover shape",
                 "source": "Look-ups",
                 "needs_marquee": "Film and TV search comes from Marquee, and game search from IGDB (set up in the settings above) or Marquee. Until it is installed, members of this type can still scan barcodes or add items by hand.",
+                "cards_help": "Free, no key needed: Pokémon from TCGdex (in the reader's language where it has it), Magic from Scryfall, Yu-Gi-Oh! from YGOPRODeck. Set, card number, rarity and language fill the details with those names (set, number, rarity, language) when the type has them.",
                 "fields": "Details",
                 "fields_help": "What members fill in for each item. The first choice field is used for the breakdown and filter on collection pages (platform, format…).",
                 "field_label": "Label ({language})",
@@ -355,7 +379,11 @@
                 "music": "Albums (Deezer, MusicBrainz)",
                 "movies": "Films (via Marquee)",
                 "tv": "TV (via Marquee)",
-                "games": "Games (IGDB, or via Marquee)"
+                "games": "Games (IGDB, or via Marquee)",
+                "pokemon": "Pokémon cards (TCGdex)",
+                "magic": "Magic cards (Scryfall)",
+                "yugioh": "Yu-Gi-Oh! cards (YGOPRODeck)",
+                "cards": "All three card games (Pokémon, Magic, Yu-Gi-Oh!)"
             },
             "kind": {
                 "select": "Choice",
@@ -367,6 +395,8 @@
             "permissions": {
                 "view": "View collections",
                 "create": "Create collections, add items and photos",
+                "import": "Import spreadsheets into their collections",
+                "export": "Export their collections as spreadsheets",
                 "moderate": "Remove anyone's collections and feature them"
             }
         },

@@ -32,6 +32,7 @@
             },
             "count": {
                 "items": "",
+                "items_short": "",
                 "wanted": "",
                 "trade": "",
                 "collections": ""
@@ -194,7 +195,22 @@
                 "featured": "",
                 "largest": "",
                 "none": "",
-                "add": ""
+                "add": "",
+                "types": "",
+                "tab_owned": "",
+                "tab_wishlist": "",
+                "tab_trade": "",
+                "none_owned": "",
+                "none_wishlist": "",
+                "none_trade": "",
+                "latest": "",
+                "tab_progress": "",
+                "tab_ratings": "",
+                "none_progress": "",
+                "none_ratings": "",
+                "change_progress": "",
+                "change_rating": "",
+                "more": ""
             },
             "nav": {
                 "mine": ""
@@ -278,6 +294,13 @@
                 "layout_help": "",
                 "layout_tags": "",
                 "layout_covers": "",
+                "layout_compact": "",
+                "type_color_label": "",
+                "type_color_help": "",
+                "type_color_background": "",
+                "type_color_text": "",
+                "latest_label": "",
+                "latest_help": "",
                 "hide_empty_label": "",
                 "hide_empty_help": "",
                 "cover_fit_label": "",
@@ -313,6 +336,7 @@
                 "shape": "",
                 "source": "",
                 "needs_marquee": "",
+                "cards_help": "",
                 "fields": "",
                 "fields_help": "",
                 "field_label": "",
@@ -355,7 +379,11 @@
                 "music": "",
                 "movies": "",
                 "tv": "",
-                "games": ""
+                "games": "",
+                "pokemon": "",
+                "magic": "",
+                "yugioh": "",
+                "cards": ""
             },
             "kind": {
                 "select": "",
@@ -367,6 +395,8 @@
             "permissions": {
                 "view": "",
                 "create": "",
+                "import": "",
+                "export": "",
                 "moderate": ""
             }
         },
