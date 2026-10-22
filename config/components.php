@@ -963,7 +963,7 @@ return [
 		],
 	],
 	'lcoy-roselle' => [
-		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-roselle/v1.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-roselle/v1.0.7/locale/en.yml',
 		'__builtInLanguages' => [
 			'zh_Hans',
 		],
