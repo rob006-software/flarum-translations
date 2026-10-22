@@ -165,7 +165,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-bouncer' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-brainstorm' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.0.1/locale/en.yml',
