@@ -13,7 +13,12 @@
                 "kicker": "Feature",
                 "kicker_tag": "Feature · {tag}",
                 "byline": "By {name}",
-                "replies": "{count, plural, one {# reply} other {# replies}}"
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "empty_tag": "No discussions in {tag} yet. Tag one to feature it here; visitors see no featured block until then.",
+                "empty_tag_gone": "The tag chosen for the featured stories no longer exists. Choose another; visitors see no featured block until then.",
+                "empty_sticky": "No sticky discussions yet. Sticky one to feature it here; visitors see no featured block until then.",
+                "empty_pagebuilder": "No published {type} in Page Builder yet. Publish one to feature it here; visitors see no featured block until then.",
+                "empty_settings": "Featured stories settings"
             },
             "browse": {
                 "title": "Browse the forum",
@@ -153,7 +158,7 @@
                 "style_split": "Split",
                 "style_off": "No featured stories",
                 "source_label": "Stories from",
-                "source_help": "Where the featured story and the three beside it come from. When a source has fewer than four, the newest discussions fill the rest.",
+                "source_help": "Where the featured story and the three beside it come from. Only that source is featured; with none yet, visitors see no featured block.",
                 "source_latest": "The newest discussions",
                 "source_tag": "A tag",
                 "source_sticky": "Sticky discussions",
@@ -161,6 +166,8 @@
                 "tag_label": "Tag",
                 "tag_none": "Choose a tag",
                 "tag_secondary": "{name} (secondary)",
+                "fill_label": "Fill the gaps with the newest discussions",
+                "fill_help": "Off, a source with fewer than four shows only what it has. On, the newest discussions fill the rest, from any tag.",
                 "tags_label": "Show the tag on each story",
                 "tags_help": "The tag name on the featured story's label and above each story beside it. Turn off for a cleaner hero; the stories keep their tag colours.",
                 "type_label": "Page Builder content type",

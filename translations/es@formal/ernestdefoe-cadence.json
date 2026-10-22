@@ -72,6 +72,7 @@
                     "alight_now": "Encendidas ahora: {count}",
                     "flame_out": "Llama apagada",
                     "empty": "Aún no hay llamas. Sea el primero.",
+                    "building": "",
                     "load_more": "Cargar más"
                 },
                 "side": {
@@ -149,6 +150,17 @@
         },
         "admin": {
             "map_heading": "Mapa de actividad",
+            "widgets": {
+                "my_flame": "",
+                "top_flames": "",
+                "bonfire": ""
+            },
+            "backfill": {
+                "activity": "",
+                "streaks": "",
+                "help": "",
+                "done": ""
+            },
             "streak": {
                 "heading": "Rachas",
                 "enabled": "Rachas diarias",

@@ -72,6 +72,7 @@
                     "alight_now": "Alight now: {count}",
                     "flame_out": "Flame out",
                     "empty": "No flames yet. Be the first.",
+                    "building": "Flames are still being built from the forum's history ({percent}%). More will appear shortly.",
                     "load_more": "Load more"
                 },
                 "side": {
@@ -149,6 +150,17 @@
         },
         "admin": {
             "map_heading": "Activity map",
+            "widgets": {
+                "my_flame": "My flame",
+                "top_flames": "Top flames",
+                "bonfire": "Bonfire"
+            },
+            "backfill": {
+                "activity": "Building the activity map from your forum's history: {percent}%",
+                "streaks": "Building streaks from your members' history: {percent}%",
+                "help": "This runs in the background — on the queue if you have one, otherwise every minute from the scheduler, and while this page is open. Members' flames appear as they are built. On a big forum you can also run php flarum cadence:rebuild-streaks to watch it finish.\n",
+                "done": "Your forum's history is built."
+            },
             "streak": {
                 "heading": "Streaks",
                 "enabled": "Daily streaks",

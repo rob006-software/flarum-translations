@@ -245,6 +245,9 @@
         },
         "admin": {
             "title": "Garrison",
+            "widgets": {
+                "servers": ""
+            },
             "alerts": "告警",
             "webhook": "Discord 或 Webhook 地址",
             "webhook_help": "服务器停止接受玩家连接时会发送通知，恢复后再发送一次。系统会自动识别 Discord Webhook 地址；其他地址将接收 JSON。",
