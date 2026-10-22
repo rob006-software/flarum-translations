@@ -19,7 +19,7 @@
                     "honeypot_label": "Wykrywaj boty wypełniające formularz",
                     "honeypot_help": "Dodaje do formularza rejestracji pole niewidoczne dla użytkowników i odrzuca próby rejestracji, w których je wypełniono lub formularz przesłano zbyt szybko, by mógł to zrobić człowiek. Wykrywa boty, których StopForumSpam jeszcze nie zna, nie wysyła danych poza forum i nie wymaga żadnych działań od użytkowników.",
                     "honeypot_min_seconds_label": "Minimalny czas do rejestracji (sekundy)",
-                    "honeypot_min_seconds_help": "Czas liczony od udostępnienia strony. Przeczytanie formularza zajmuje człowiekowi więcej czasu, a skryptowi nie.",
+                    "honeypot_min_seconds_help": "Czas liczony od udostępnienia strony. Człowiek czytający formularz potrzebuje więcej czasu, skrypt – nie.",
                     "honeypot_strict_label": "Odrzucaj rejestracje z pominięciem formularza",
                     "honeypot_strict_help": "Odrzuca również rejestracje gości przesyłane bez formularza, np. przez skrypty wysyłające żądania bezpośrednio do API. Wyłącz tę opcję, jeśli aplikacja, integracja SSO lub inne narzędzie tworzy konta przez API.",
                     "throttle_heading": "Ograniczenie częstotliwości",
