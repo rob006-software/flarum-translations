@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **12** are translated differently and **0** are
-translated only in `fr`. Altogether they cover **4** components.
+sides, but do not match between them: **14** are translated differently and **0** are
+translated only in `fr`. Altogether they cover **5** components.
 
 <!-- {% raw %} -->
 
@@ -16,6 +16,7 @@ translated only in `fr`. Altogether they cover **4** components.
 | `fof-anti-spam` | [7](#fof-anti-spam) |
 | `fof-oauth` | [1](#fof-oauth) |
 | `fof-open-collective` | [2](#fof-open-collective) |
+| `ianm-gravatar` | [2](#ianm-gravatar) |
 
 
 ## Different translations
@@ -163,5 +164,30 @@ Saisissez <del>le</del><ins>l’identifiant</ins> <del>slug</del><ins>texte uniq
 ```
 
 Identifiant texte unique <ins>du </ins>collectif
+
+
+### `ianm-gravatar`
+
+#### [`ianm-gravatar.admin.settings.defaults.monsterid_label`](https://weblate.rob006.net/translate/flarum2/ianm-gravatar/fr/?q=context%3A%3D%22ianm-gravatar.admin.settings.defaults.monsterid_label%22)
+
+> monsterid: a generated 'monster' with different colors, faces, etc
+
+```diff
+-monsterid : un « monstre » généré avec différentes couleurs, visages, etc.
++monsterid : un « monstre » généré avec différentes couleurs, visages, etc
+```
+
+monsterid : un « monstre » généré avec différentes couleurs, visages, <del>etc.</del><ins>etc</ins>
+
+#### [`ianm-gravatar.admin.settings.defaults.robohash_label`](https://weblate.rob006.net/translate/flarum2/ianm-gravatar/fr/?q=context%3A%3D%22ianm-gravatar.admin.settings.defaults.robohash_label%22)
+
+> robohash: a generated robot with different colors, faces, etc
+
+```diff
+-robohash : un robot généré avec différentes couleurs, visages, etc.
++robohash : un robot généré avec différentes couleurs, visages, etc
+```
+
+robohash : un robot généré avec différentes couleurs, visages, <del>etc.</del><ins>etc</ins>
 
 <!-- {% endraw %} -->

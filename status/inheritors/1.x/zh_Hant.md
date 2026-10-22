@@ -2,8 +2,8 @@
 
 Translations for Chinese (Traditional) (`zh_Hant`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **374** are translated differently and **4** are
-translated only in `zh_Hant`. Altogether they cover **2** components.
+sides, but do not match between them: **379** are translated differently and **3** are
+translated only in `zh_Hant`. Altogether they cover **3** components.
 
 <!-- {% raw %} -->
 
@@ -12,8 +12,9 @@ translated only in `zh_Hant`. Altogether they cover **2** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [374](#core) | [3](#core-missing) |
+| `core` | [374](#core) | 0 |
 | `flarum-tags` | 0 | [1](#flarum-tags-missing) |
+| `fof-forum-statistics-widget` | [5](#fof-forum-statistics-widget) | [2](#fof-forum-statistics-widget-missing) |
 
 
 ## Different translations
@@ -1961,16 +1962,7 @@ SMTP <del>設定</del><ins>服務</ins>
 
 ```diff
 -搜尋
-+搜尋社群
-```
-
-#### [`core.forum.header.search_role_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.forum.header.search_role_label%22)
-
-> Search Forum
-
-```diff
--搜尋論壇
-+搜尋社群
++搜尋論壇
 ```
 
 #### [`core.forum.header.session_dropdown_accessible_label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.forum.header.session_dropdown_accessible_label%22)
@@ -2792,6 +2784,15 @@ SMTP <del>設定</del><ins>服務</ins>
 +版主組
 ```
 
+#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.connection_restored_message%22)
+
+> Your connection has been restored.
+
+```diff
+-網路連接已恢復。
++網路連線已恢復。
+```
+
 #### [`core.lib.data_segment.label`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.data_segment.label%22)
 
 > {label}:
@@ -2999,6 +3000,15 @@ SMTP <del>設定</del><ins>服務</ins>
 +無法啟用「{extension}」，請先啟用前置擴充功能「{extensions}」
 ```
 
+#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.network_message%22)
+
+> Something seems to be wrong with your connection. Please check your network and try again.
+
+```diff
+-網路連線異常，請檢查網路連線後再試。
++網路連線異常，請檢查網路後重試。
+```
+
 #### [`core.lib.error.not_found_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.not_found_message%22)
 
 > The requested resource was not found.
@@ -3006,6 +3016,15 @@ SMTP <del>設定</del><ins>服務</ins>
 ```diff
 -請求的資源不存在。
 +你請求的資源不存在。
+```
+
+#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.offline_message%22)
+
+> You appear to be offline. Please check your connection and try again.
+
+```diff
+-您目前似乎未連線至網路，請檢查網路連線後再試。
++目前似乎處於離線狀態，請檢查網路連線後重試。
 ```
 
 #### [`core.lib.error.permission_denied_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.permission_denied_message%22)
@@ -3044,24 +3063,6 @@ SMTP <del>設定</del><ins>服務</ins>
 ```diff
 -打開導航抽屜
 +開啟導覽選單
-```
-
-#### [`core.lib.number_suffix.kilo_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.number_suffix.kilo_text%22)
-
-> K
-
-```diff
--K
-+千
-```
-
-#### [`core.lib.number_suffix.mega_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.number_suffix.mega_text%22)
-
-> M
-
-```diff
--M
-+百萬
 ```
 
 #### [`core.lib.series.glue_text`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.series.glue_text%22)
@@ -3478,36 +3479,61 @@ SMTP <del>設定</del><ins>服務</ins>
 ```
 
 
+### `fof-forum-statistics-widget`
+
+#### [`fof-forum-statistics-widget.admin.settings.flush_cache_on_new_registration_help`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.admin.settings.flush_cache_on_new_registration_help%22)
+
+> If enabled, the stats cache will be flushed when a new user registers on the forum.
+
+```diff
+-如果啟用，當新用戶在論壇上註冊時，統計快取將被重整。
++如果啟用，當新用戶在論壇上註冊時，統計快取將被刷新。
+```
+
+#### [`fof-forum-statistics-widget.admin.settings.flush_cache_on_new_registration_label`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.admin.settings.flush_cache_on_new_registration_label%22)
+
+> Flush Stats Cache on New Registration
+
+```diff
+-新註冊時重整統計緩存
++新用戶註冊時刷新統計緩存
+```
+
+#### [`fof-forum-statistics-widget.forum.navbar.discussions_count`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.forum.navbar.discussions_count%22)
+
+> Discussions: {discussionsCount}
+
+```diff
+-貼文數： {discussionsCount}
++主題數： {discussionsCount}
+```
+
+<del>貼文數：</del><ins>主題數：</ins> {discussionsCount}
+
+#### [`fof-forum-statistics-widget.forum.navbar.latest_member`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.forum.navbar.latest_member%22)
+
+> Latest Member: 
+
+```diff
+-新註冊： 
++最新成員： 
+```
+
+#### [`fof-forum-statistics-widget.forum.navbar.posts_count`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.forum.navbar.posts_count%22)
+
+> Posts: {postsCount}
+
+```diff
+-回貼數： {postsCount}
++評論數： {postsCount}
+```
+
+<del>回貼數：</del><ins>評論數：</ins> {postsCount}
+
+
 ## Missing translations
 
 These strings are translated only in `zh_Hant`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `zh_Hant`.
-
-
-### `core` (missing)
-
-#### [`core.lib.connection_restored_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.connection_restored_message%22)
-
-> Your connection has been restored.
-
-```diff
-+網路連線已恢復。
-```
-
-#### [`core.lib.error.network_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.network_message%22)
-
-> Something seems to be wrong with your connection. Please check your network and try again.
-
-```diff
-+網路連線異常，請檢查網路後重試。
-```
-
-#### [`core.lib.error.offline_message`](https://weblate.rob006.net/translate/flarum2/core/zh_Hant/?q=context%3A%3D%22core.lib.error.offline_message%22)
-
-> You appear to be offline. Please check your connection and try again.
-
-```diff
-+目前似乎處於離線狀態，請檢查網路連線後重試。
-```
 
 
 ### `flarum-tags` (missing)
@@ -3518,6 +3544,25 @@ These strings are translated only in `zh_Hant`, so there is nothing to inherit f
 
 ```diff
 +編輯標籤 {tag}
+```
+
+
+### `fof-forum-statistics-widget` (missing)
+
+#### [`fof-forum-statistics-widget.admin.settings.classic_look_help`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.admin.settings.classic_look_help%22)
+
+> Restore the original widget appearance used before the fof/forum-widgets-core integration.
+
+```diff
++還原整合 fof/forum-widgets-core 前的 Widget 原始樣式。
+```
+
+#### [`fof-forum-statistics-widget.admin.settings.classic_look_label`](https://weblate.rob006.net/translate/flarum2/fof-forum-statistics-widget/zh_Hant/?q=context%3A%3D%22fof-forum-statistics-widget.admin.settings.classic_look_label%22)
+
+> Classic Look
+
+```diff
++經典樣式
 ```
 
 <!-- {% endraw %} -->
