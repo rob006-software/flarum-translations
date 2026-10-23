@@ -696,7 +696,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.1/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/2.0.0-beta.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/2.0.0/resources/locale/en.yml',
 	],
 	'fof-rich-text' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/rich-text/2.0.0/resources/locale/en.yml',
