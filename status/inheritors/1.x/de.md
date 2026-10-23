@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **1** are translated differently and **24** are
-translated only in `de`. Altogether they cover **3** components.
+sides, but do not match between them: **2** are translated differently and **24** are
+translated only in `de`. Altogether they cover **4** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `de`. Altogether they cover **3** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `clarkwinkelmann-selective-mediaembed` | [1](#clarkwinkelmann-selective-mediaembed) | 0 |
+| `fof-sitemap` | [1](#fof-sitemap) | 0 |
 | `prm-forum-activity` | 0 | [21](#prm-forum-activity-missing) |
 | `prm-moderation` | 0 | [3](#prm-moderation-missing) |
 
@@ -34,6 +35,20 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 <del>Alles</del><ins>Alle</ins> auswählen
+
+
+### `fof-sitemap`
+
+#### [`fof-sitemap.admin.settings.exclude_tags`](https://weblate.rob006.net/translate/flarum2/fof-sitemap/de/?q=context%3A%3D%22fof-sitemap.admin.settings.exclude_tags%22)
+
+> Exclude all tag pages from sitemap
+
+```diff
+-Alle Themenseiten von Sitemap ausschließen
++Alle Tag-Seiten von der Sitemap ausschließen
+```
+
+Alle <del>Themenseiten</del><ins>Tag-Seiten</ins> von<ins> der</ins> Sitemap ausschließen
 
 
 ## Missing translations
