@@ -315,7 +315,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-pigeonhole' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.2.0/locale/en.yml',
