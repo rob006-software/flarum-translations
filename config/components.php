@@ -708,7 +708,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/seo/4.0.0-beta.16/locale/en.yml',
 	],
 	'fof-share-social' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/2.0.1/resources/locale/en.yml',
 	],
 	'fof-signature' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/signature/2.0.0-beta.1/locale/en.yml',
