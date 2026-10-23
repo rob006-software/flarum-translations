@@ -564,7 +564,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/2.0.0/resources/locale/en.yml',
 	],
 	'fof-discussion-templates' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-templates/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-templates/2.0.0/resources/locale/en.yml',
 	],
 	'fof-discussion-thumbnail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-thumbnail/2.0.0/resources/locale/en.yml',
