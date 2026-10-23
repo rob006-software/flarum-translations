@@ -1251,6 +1251,12 @@ return [
 			'zh_Hans',
 		],
 	],
+	'sonsuzus-engagement-money' => [
+		'tag' => 'https://raw.githubusercontent.com/sonsuzus/flarum-ext-engagement-money/v2.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'stezkoy-ai-openreply' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.1/locale/en.yml',
 		'__builtInLanguages' => [
