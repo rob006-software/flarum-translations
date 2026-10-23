@@ -516,7 +516,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0/locale/en.yml',
 	],
 	'fof-author-change' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/2.0.1/resources/locale/en.yml',
 	],
 	'fof-badges' => [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/2.0.0-beta.2/locale/en.yml',
