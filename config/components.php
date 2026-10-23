@@ -599,7 +599,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/author-change/1.0.0/resources/locale/en.yml',
 	],
 	'fof-badges' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/badges/1.0.6/locale/en.yml',
 	],
 	'fof-ban-ips' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/1.2.0/resources/locale/en.yml',
