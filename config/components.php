@@ -507,7 +507,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/2.0.0/locale/en.yml',
 	],
 	'fof-amazon-affiliation' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/2.0.0/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0/resources/locale/en.yml',
