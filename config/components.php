@@ -1158,7 +1158,7 @@ return [
 		],
 	],
 	'ramon-canela' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/canela/v0.0.19/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/canela/v0.0.20/locale/en.yml',
 		'__builtInLanguages' => [
 			'ja',
 			'pt_BR',
