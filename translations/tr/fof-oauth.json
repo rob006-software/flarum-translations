@@ -14,7 +14,7 @@
                 },
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
-                "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
+                "update_email_from_provider_help": "Etkinleştirildiğinde, doğrulanmış e-posta adresi kullanıcının forumdaki e-posta adresinden farklı olan bir OAuth sağlayıcısıyla giriş yapılırsa yeni adrese bir onay bağlantısı, mevcut adrese ise bir bilgilendirme e-postası gönderilir. Kullanıcı onay bağlantısına tıkladığında e-posta adresi değiştirilir. E-posta adresinin doğrulandığını teyit edemeyen sağlayıcılar, bu özelliği destekleyecek şekilde henüz güncellenmemiş üçüncü taraf sağlayıcılar da dahil olmak üzere, e-posta adresini değiştiremez.",
                 "disable_avatars_label": "Sağlayıcıdan avatarları devre dışı bırak",
                 "disable_avatars_help": "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n",
                 "fullscreen_popup_label": "OAuth için Tam Ekran Açılır Penceresini Kullan",
@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "{provider} bu e-posta adresini doğrulamadığı için oturum açmanızda kullanamıyoruz. Zaten bir hesabınız varsa aşağıdan giriş yapın ve ardından hesap ayarlarınızdan {provider} hesabınızı bağlayın.",
                 "with_button": "{provider} ile giriş yapın",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -114,8 +114,8 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
-                "body": ""
+                "subject": "E-posta Adresi Değişikliği Talep Edildi",
+                "body": "Merhaba {username},\n\n{provider} ile {forum} forumuna giriş yapmanızın ardından hesabınızın e-posta adresinin {new_email} olarak değiştirilmesi talep edildi. Değişiklik, yeni e-posta adresi doğrulandığında geçerli olacaktır.\n\nBu işlemi siz yapmadıysanız {provider} hesabınızın güvenliği tehlikeye girmiş olabilir. Hesabınızın güvenliğini sağlayın ve {forum} yöneticileriyle iletişime geçin.\n"
             }
         },
         "lib": {
