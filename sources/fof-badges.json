@@ -1,5 +1,63 @@
 {
     "fof-badges": {
+        "defaults": {
+            "categories": {
+                "getting-started": {
+                    "name": "Getting Started",
+                    "description": "Badges for new members taking their first steps"
+                },
+                "milestones": {
+                    "name": "Milestones",
+                    "description": "Badges for reaching important milestones"
+                },
+                "posting": {
+                    "name": "Posting",
+                    "description": "Badges for posting milestones and contributions"
+                }
+            },
+            "badges": {
+                "first-post": {
+                    "name": "First Post",
+                    "description": "Write your first reply"
+                },
+                "conversation-starter": {
+                    "name": "Conversation Starter",
+                    "description": "Start your first discussion"
+                },
+                "profile-picture": {
+                    "name": "Profile Picture",
+                    "description": "Upload a profile picture"
+                },
+                "first-week": {
+                    "name": "First Week",
+                    "description": "Be a member for 7 days"
+                },
+                "regular": {
+                    "name": "Regular",
+                    "description": "Be a member for 30 days"
+                },
+                "anniversary": {
+                    "name": "Anniversary",
+                    "description": "Be a member for one year"
+                },
+                "active-member": {
+                    "name": "Active Member",
+                    "description": "Post 50 replies"
+                },
+                "prolific": {
+                    "name": "Prolific",
+                    "description": "Post 200 replies"
+                },
+                "topic-starter": {
+                    "name": "Topic Starter",
+                    "description": "Start 10 discussions"
+                },
+                "editor": {
+                    "name": "Editor",
+                    "description": "Edit 10 posts to improve them"
+                }
+            }
+        },
         "admin": {
             "tabs": {
                 "badges": "Badges",
