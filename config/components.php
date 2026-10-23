@@ -684,7 +684,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/2.0.0/resources/locale/en.yml',
 	],
 	'fof-profile-image-crop' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/2.0.0-rc.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/2.0.0/resources/locale/en.yml',
 	],
 	'fof-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/2.0.0/resources/locale/en.yml',
