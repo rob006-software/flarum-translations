@@ -744,7 +744,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/2.0.1/resources/locale/en.yml',
 	],
 	'fof-user-directory' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/2.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/2.0.2/resources/locale/en.yml',
 	],
 	'fof-usercard-stats' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/usercard-stats/2.0.0/locale/en.yml',
