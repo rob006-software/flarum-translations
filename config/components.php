@@ -555,7 +555,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/2.0.0-beta.1/resources/locale/en.yml',
 	],
 	'fof-default-user-preferences' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/2.0.0-beta.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/2.0.0/locale/en.yml',
 	],
 	'fof-discord-autolink' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discord-autolink/2.0.0/locale/en.yml',
