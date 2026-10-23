@@ -1023,7 +1023,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.10.0/locale/en.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
 		'__builtInLanguages' => [
 			'it',
 		],
