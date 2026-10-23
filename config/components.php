@@ -510,7 +510,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/2.0.0/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/2.0.1/resources/locale/en.yml',
 	],
 	'fof-anti-spam' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/anti-spam/2.0.0/locale/en.yml',
