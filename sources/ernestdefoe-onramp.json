@@ -195,6 +195,7 @@
                 "funnel": "Funnel"
             },
             "load_failed": "The journey could not be loaded.",
+            "needs_gamification": "Point rewards need FoF Gamification.",
             "needs_points": "Point rewards need a FoF Gamification version with point grants.",
             "needs_badges": "Badge rewards need FoF Badges.",
             "export": "Export",
@@ -270,7 +271,9 @@
                 "launcher": "Show the launcher in the header",
                 "launcher_help": "A ring with the member's progress beside the notifications, with the next step one tap away. Press J to open it.",
                 "reward_heading": "Finishing the journey",
-                "reward_help": "Paid once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_help_points": "The points are paid once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_help_badge": "The badge is awarded once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_help_both": "The points and the badge are paid once, when a member finishes every step (skipped optional steps count as finished).",
                 "reward_points": "Points",
                 "reward_badge": "Badge",
                 "reward_badge_help": "A FoF Badges badge to award on finishing.",
