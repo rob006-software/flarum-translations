@@ -690,7 +690,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwa/2.0.0/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/2.0.0/locale/en.yml',
 	],
 	'fof-reactions' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/2.0.0/resources/locale/en.yml',
