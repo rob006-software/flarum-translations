@@ -810,7 +810,7 @@ return [
 		],
 	],
 	'forumaker-yandex-smartcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-SmartCaptcha/2.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-SmartCaptcha/3.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
