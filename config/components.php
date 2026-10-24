@@ -288,7 +288,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/longshot/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-maintenance' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.7/resources/locale/en.yml',
 	],
 	'ernestdefoe-manticore' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/manticore/0.1.2/locale/en.yml',
