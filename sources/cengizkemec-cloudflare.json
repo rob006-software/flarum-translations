@@ -14,6 +14,16 @@
                 "zone_name_help": "The domain name of the zone (for reference).",
                 "auto_purge_label": "Purge cache automatically",
                 "auto_purge_help": "Purge the Cloudflare cache automatically when discussions or posts are created.",
+                "auto_purge_warning": "HIGH RISK: while enabled, EVERY new discussion and post sends a purge-everything request to Cloudflare. On any active forum this nearly disables caching and can make posting noticeably slower. Do not enable this unless you fully understand the impact.",
+                "auto_purge_active": "Automatic purging is ACTIVE: every new discussion or post clears the ENTIRE zone cache. If your site slows down or origin load rises, turn it off.",
+                "auto_purge_confirm_title": "Enable automatic cache purging?",
+                "auto_purge_confirm_text": "WARNING — high-impact setting. Once enabled, every new discussion or post clears your ENTIRE Cloudflare cache.",
+                "auto_purge_consequence_cache": "Your cache hit rate drops sharply — most pages will be served uncached from your origin server.",
+                "auto_purge_consequence_speed": "Posting becomes slower — the purge request runs synchronously while saving.",
+                "auto_purge_consequence_recommend": "Recommended instead — keep this off and use the manual \"Purge Cache\" button when needed.",
+                "auto_purge_confirm_ack": "I understand these consequences and accept the performance impact.",
+                "auto_purge_confirm_cancel": "Cancel",
+                "auto_purge_confirm_enable": "Enable Anyway",
                 "development_mode_label": "Development mode",
                 "development_mode_help": "Toggle Cloudflare development mode for the zone.",
                 "bot_fight_mode_label": "Bot Fight Mode",
@@ -57,7 +67,19 @@
                 "early_hints_label": "Early Hints",
                 "early_hints_help": "Enable Early Hints (103) for the zone.",
                 "opportunistic_encryption_label": "Opportunistic Encryption",
-                "opportunistic_encryption_help": "Enable opportunistic encryption for the zone."
+                "opportunistic_encryption_help": "Enable opportunistic encryption for the zone.",
+                "actions_label": "Cloudflare actions",
+                "actions_help": "Apply the saved settings to Cloudflare or purge the cache.",
+                "test_connection": "Test Connection",
+                "apply_settings": "Apply Settings to Cloudflare",
+                "purge_cache": "Purge Cache",
+                "test_success": "Cloudflare connection successful.",
+                "test_failed": "Connection test failed.",
+                "apply_success": "Settings applied to Cloudflare.",
+                "apply_partial": "Some settings could not be applied.",
+                "apply_failed": "Failed to apply settings.",
+                "purge_success": "Cache purged.",
+                "purge_failed": "Failed to purge cache."
             }
         }
     }

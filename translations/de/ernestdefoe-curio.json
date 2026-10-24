@@ -157,6 +157,7 @@
                 "favourite": "Favorit",
                 "photo_n": "Foto {n}",
                 "yes": "Ja",
+                "read_review": "",
                 "no": "Nein",
                 "condition": "Zustand",
                 "acquired": "Erworben",
@@ -286,7 +287,13 @@
                 "match": "{username} bietet {title} zum Tausch an. Es ist auf deiner Wunschliste.",
                 "match_setting": "Jemand bietet etwas von deiner Wunschliste zum Tausch an",
                 "new_items": "{username} hat zu {name} hinzugefügt",
-                "new_items_setting": "Eine Sammlung, der ich folge, hat neue Artikel"
+                "new_items_setting": "Eine Sammlung, der ich folge, hat neue Artikel",
+                "wishlist_added": "",
+                "wishlist_added_setting": "",
+                "progress_changed": "",
+                "progress_changed_setting": "",
+                "rating_changed": "",
+                "rating_changed_setting": ""
             },
             "widget": {
                 "label": "Kürzlich zu Sammlungen hinzugefügt",
@@ -376,6 +383,7 @@
                 "remove_choice": "Auswahlmöglichkeit entfernen",
                 "remove_field": "Detail entfernen",
                 "add_field": "Detail hinzufügen",
+                "review_link": "",
                 "translation_note": "Titel und Beschreibungen aus den Nachschlagewerken werden automatisch in jeder installierten Sprache angezeigt (Wikidata und Wikipedia). Nur die Bezeichnungen, die du hier eingibst, müssen übersetzt werden.",
                 "save": "Typ speichern",
                 "create": "Typ erstellen",
@@ -420,7 +428,8 @@
                 "text": "Text",
                 "number": "Zahl",
                 "date": "Datum",
-                "bool": "Ja / Nein"
+                "bool": "Ja / Nein",
+                "link": ""
             },
             "permissions": {
                 "view": "Sammlungen anzeigen",
@@ -436,15 +445,29 @@
                 "body": "Hallo {recipient_display_name}, {owner} hat gerade {title} zum Tausch angeboten. Es ist auf deiner Wunschliste.",
                 "link": "Angebot ansehen"
             },
+            "followed_link": "",
             "new_items": {
                 "subject": "Neu in {name}",
                 "body": "Hallo {recipient_display_name}, {owner} hat neue Artikel zu {name} hinzugefügt, einer Sammlung, der du folgst.",
                 "link": "Sammlung ansehen"
+            },
+            "wishlist_added": {
+                "subject": "",
+                "body": ""
+            },
+            "progress_changed": {
+                "subject": "",
+                "body": ""
+            },
+            "rating_changed": {
+                "subject": "",
+                "body": ""
             }
         },
         "api": {
             "type_in_use": "Dieser Typ hat Sammlungen und kann daher nicht gelöscht werden.",
             "type_disabled": "Dieser Sammlungstyp ist ausgeschaltet.",
+            "bad_link": "",
             "too_many_collections": "Du kannst bis zu {count} Sammlungen haben.",
             "collection_full": "Eine Sammlung darf bis zu {count} Artikel beinhalten.",
             "too_many_photos": "Ein Artikel kann bis zu {count} Fotos haben.",

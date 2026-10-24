@@ -156,6 +156,7 @@
                 "favourite": "",
                 "photo_n": "",
                 "yes": "",
+                "read_review": "",
                 "no": "",
                 "condition": "",
                 "acquired": "",
@@ -285,7 +286,13 @@
                 "match": "",
                 "match_setting": "",
                 "new_items": "",
-                "new_items_setting": ""
+                "new_items_setting": "",
+                "wishlist_added": "",
+                "wishlist_added_setting": "",
+                "progress_changed": "",
+                "progress_changed_setting": "",
+                "rating_changed": "",
+                "rating_changed_setting": ""
             },
             "widget": {
                 "label": "",
@@ -375,6 +382,7 @@
                 "remove_choice": "",
                 "remove_field": "",
                 "add_field": "",
+                "review_link": "",
                 "translation_note": "",
                 "save": "",
                 "create": "",
@@ -419,7 +427,8 @@
                 "text": "",
                 "number": "",
                 "date": "",
-                "bool": ""
+                "bool": "",
+                "link": ""
             },
             "permissions": {
                 "view": "",
@@ -435,15 +444,28 @@
                 "body": "",
                 "link": ""
             },
+            "followed_link": "",
             "new_items": {
                 "subject": "",
-                "body": "",
-                "link": ""
+                "body": ""
+            },
+            "wishlist_added": {
+                "subject": "",
+                "body": ""
+            },
+            "progress_changed": {
+                "subject": "",
+                "body": ""
+            },
+            "rating_changed": {
+                "subject": "",
+                "body": ""
             }
         },
         "api": {
             "type_in_use": "",
             "type_disabled": "",
+            "bad_link": "",
             "too_many_collections": "",
             "collection_full": "",
             "too_many_photos": "",

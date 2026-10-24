@@ -156,6 +156,7 @@
                 "favourite": "Favourite",
                 "photo_n": "Photo {n}",
                 "yes": "Yes",
+                "read_review": "Read my review",
                 "no": "No",
                 "condition": "Condition",
                 "acquired": "Acquired",
@@ -285,7 +286,13 @@
                 "match": "{username} has {title} open to trade. It’s on your wishlist.",
                 "match_setting": "Someone offers to trade something on my wishlist",
                 "new_items": "{username} added to {name}",
-                "new_items_setting": "A collection I follow has new things"
+                "new_items_setting": "A collection I follow has new things",
+                "wishlist_added": "{username} added to the wishlist of {name}",
+                "wishlist_added_setting": "Something goes on the wishlist of a collection I follow",
+                "progress_changed": "{username} started or finished something in {name}",
+                "progress_changed_setting": "Something is started or finished in a collection I follow",
+                "rating_changed": "{username} rated something in {name}",
+                "rating_changed_setting": "Something is rated in a collection I follow"
             },
             "widget": {
                 "label": "Recently added to collections",
@@ -375,6 +382,7 @@
                 "remove_choice": "Remove choice",
                 "remove_field": "Remove detail",
                 "add_field": "Add a detail",
+                "review_link": "Review link: shows “Read my review” beside the rating",
                 "translation_note": "Titles and descriptions from look-ups arrive in each installed language by themselves (Wikidata and Wikipedia). Only the labels you write here need translating.",
                 "save": "Save type",
                 "create": "Create type",
@@ -419,7 +427,8 @@
                 "text": "Text",
                 "number": "Number",
                 "date": "Date",
-                "bool": "Yes / no"
+                "bool": "Yes / no",
+                "link": "Link"
             },
             "permissions": {
                 "view": "View collections",
@@ -435,15 +444,28 @@
                 "body": "Hi {recipient_display_name}, {owner} has {title} open to trade. It’s on your wishlist.",
                 "link": "See the offer"
             },
+            "followed_link": "See the collection",
             "new_items": {
                 "subject": "New in {name}",
-                "body": "Hi {recipient_display_name}, {owner} has added new things to {name}, a collection you follow.",
-                "link": "See the collection"
+                "body": "Hi {recipient_display_name}, {owner} has added new things to {name}, a collection you follow."
+            },
+            "wishlist_added": {
+                "subject": "New on the wishlist of {name}",
+                "body": "Hi {recipient_display_name}, {owner} has added to the wishlist of {name}, a collection you follow."
+            },
+            "progress_changed": {
+                "subject": "Progress in {name}",
+                "body": "Hi {recipient_display_name}, {owner} has started or finished something in {name}, a collection you follow."
+            },
+            "rating_changed": {
+                "subject": "New ratings in {name}",
+                "body": "Hi {recipient_display_name}, {owner} has rated something in {name}, a collection you follow."
             }
         },
         "api": {
             "type_in_use": "This type has collections, so it cannot be deleted.",
             "type_disabled": "This collection type is switched off.",
+            "bad_link": "A link must be a web address starting with http:// or https://.",
             "too_many_collections": "You can have up to {count} collections.",
             "collection_full": "A collection holds up to {count} items.",
             "too_many_photos": "An item can have up to {count} photos.",
