@@ -171,7 +171,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-cadence' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.2.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.3.0/locale/en.yml',
 	],
 	'ernestdefoe-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/calendar/v2.6.2/resources/locale/en.yml',
