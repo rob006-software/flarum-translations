@@ -225,7 +225,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-earshot' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-facebook-post' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarum-facebook-post/v2.1.8/locale/en.yml',
