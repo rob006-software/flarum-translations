@@ -375,7 +375,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sonic/0.1.1/locale/en.yml',
 	],
 	'ernestdefoe-steward' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.2.0/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.13/locale/en.yml',
