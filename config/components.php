@@ -756,7 +756,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/2.0.0/resources/locale/en.yml',
 	],
 	'forumaker-bento' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Bento/2.5.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Bento/3.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
