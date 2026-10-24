@@ -798,7 +798,7 @@ return [
 		],
 	],
 	'forumaker-vk-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/VK-Oauth/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/VK-Oauth/3.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
