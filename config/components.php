@@ -792,7 +792,7 @@ return [
 		],
 	],
 	'forumaker-steam-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Steam-Oauth/2.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Steam-Oauth/3.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
