@@ -315,7 +315,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onramp/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-opensearch' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-phrasebook' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.0/locale/en.yml',
