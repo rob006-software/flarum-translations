@@ -285,7 +285,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/maintenance/1.1.6/resources/locale/en.yml',
 	],
 	'ernestdefoe-manticore' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/manticore/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/manticore/0.1.2/locale/en.yml',
 	],
 	'ernestdefoe-marginalia' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.4/locale/en.yml',
