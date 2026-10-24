@@ -362,6 +362,9 @@ return [
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-mosaic' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mosaic/3.4.6/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.7.0/locale/en.yml',
 	],
