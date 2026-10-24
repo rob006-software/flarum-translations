@@ -1,5 +1,63 @@
 {
     "fof-badges": {
+        "defaults": {
+            "categories": {
+                "getting-started": {
+                    "name": "Premiers pas",
+                    "description": "Badges pour les nouveaux membres qui font leurs premiers pas"
+                },
+                "milestones": {
+                    "name": "Étapes importantes",
+                    "description": "Badges pour avoir franchi des étapes importantes"
+                },
+                "posting": {
+                    "name": "Publication",
+                    "description": "Badges pour la publication des étapes importantes et des contributions"
+                }
+            },
+            "badges": {
+                "first-post": {
+                    "name": "Premier message",
+                    "description": "Rédigez votre première réponse"
+                },
+                "conversation-starter": {
+                    "name": "Sujet de conversation",
+                    "description": "Démarrez votre première discussion"
+                },
+                "profile-picture": {
+                    "name": "Photo de profil",
+                    "description": "Transférer une photo de profil"
+                },
+                "first-week": {
+                    "name": "Première semaine",
+                    "description": "Être membre pendant 7 jours"
+                },
+                "regular": {
+                    "name": "Régulier",
+                    "description": "Être membre pendant 30 jours"
+                },
+                "anniversary": {
+                    "name": "Anniversaire",
+                    "description": "Être membre pendant un an"
+                },
+                "active-member": {
+                    "name": "Membre actif",
+                    "description": "Publier 50 réponses"
+                },
+                "prolific": {
+                    "name": "Prolifique",
+                    "description": "Publier 200 réponses"
+                },
+                "topic-starter": {
+                    "name": "Auteur du sujet",
+                    "description": "Démarrer 10 discussions"
+                },
+                "editor": {
+                    "name": "Éditeur",
+                    "description": "Modifier 10 messages pour les améliorer"
+                }
+            }
+        },
         "admin": {
             "tabs": {
                 "badges": "Badges",

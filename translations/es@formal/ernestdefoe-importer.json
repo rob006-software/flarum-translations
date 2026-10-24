@@ -28,6 +28,19 @@
             "failed": "",
             "shared_note": "",
             "import_another": "",
+            "sync": {
+                "title": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "",
                 "intro": "",
@@ -54,7 +67,9 @@
                 "categories": "",
                 "topics": "",
                 "posts": "",
-                "skipped": ""
+                "skipped": "",
+                "edited": "",
+                "kept": ""
             }
         },
         "api": {
@@ -65,8 +80,19 @@
             "working": "",
             "complete": "",
             "failed": "",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
             "summary": "",
             "summary_with_tags": "",
+            "quote_wrote": "",
             "sqlsrv_missing": "",
             "dump_unreadable": "",
             "scratch_failed": "",
@@ -116,7 +142,11 @@
                 "members": "",
                 "posts": "",
                 "topics": "",
-                "member_counts": ""
+                "member_counts": "",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": ""
             }
         }
     }

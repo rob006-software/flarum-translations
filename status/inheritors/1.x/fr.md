@@ -2,21 +2,22 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **14** are translated differently and **0** are
-translated only in `fr`. Altogether they cover **5** components.
+sides, but do not match between them: **14** are translated differently and **26** are
+translated only in `fr`. Altogether they cover **6** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Different translations |
-| --- | --- |
-| `core` | [2](#core) |
-| `fof-anti-spam` | [7](#fof-anti-spam) |
-| `fof-oauth` | [1](#fof-oauth) |
-| `fof-open-collective` | [2](#fof-open-collective) |
-| `ianm-gravatar` | [2](#ianm-gravatar) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `core` | [2](#core) | 0 |
+| `fof-anti-spam` | [7](#fof-anti-spam) | 0 |
+| `fof-badges` | 0 | [26](#fof-badges-missing) |
+| `fof-oauth` | [1](#fof-oauth) | 0 |
+| `fof-open-collective` | [2](#fof-open-collective) | 0 |
+| `ianm-gravatar` | [2](#ianm-gravatar) | 0 |
 
 
 ## Different translations
@@ -189,5 +190,221 @@ monsterid : un « monstre » généré avec différentes couleurs, visages, <del
 ```
 
 robohash : un robot généré avec différentes couleurs, visages, <del>etc.</del><ins>etc</ins>
+
+
+## Missing translations
+
+These strings are translated only in `fr`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `fr`.
+
+
+### `fof-badges` (missing)
+
+#### [`fof-badges.defaults.badges.active-member.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.active-member.description%22)
+
+> Post 50 replies
+
+```diff
++Publier 50 réponses
+```
+
+#### [`fof-badges.defaults.badges.active-member.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.active-member.name%22)
+
+> Active Member
+
+```diff
++Membre actif
+```
+
+#### [`fof-badges.defaults.badges.anniversary.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.anniversary.description%22)
+
+> Be a member for one year
+
+```diff
++Être membre pendant un an
+```
+
+#### [`fof-badges.defaults.badges.anniversary.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.anniversary.name%22)
+
+> Anniversary
+
+```diff
++Anniversaire
+```
+
+#### [`fof-badges.defaults.badges.conversation-starter.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.conversation-starter.description%22)
+
+> Start your first discussion
+
+```diff
++Démarrez votre première discussion
+```
+
+#### [`fof-badges.defaults.badges.conversation-starter.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.conversation-starter.name%22)
+
+> Conversation Starter
+
+```diff
++Sujet de conversation
+```
+
+#### [`fof-badges.defaults.badges.editor.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.editor.description%22)
+
+> Edit 10 posts to improve them
+
+```diff
++Modifier 10 messages pour les améliorer
+```
+
+#### [`fof-badges.defaults.badges.editor.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.editor.name%22)
+
+> Editor
+
+```diff
++Éditeur
+```
+
+#### [`fof-badges.defaults.badges.first-post.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.first-post.description%22)
+
+> Write your first reply
+
+```diff
++Rédigez votre première réponse
+```
+
+#### [`fof-badges.defaults.badges.first-post.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.first-post.name%22)
+
+> First Post
+
+```diff
++Premier message
+```
+
+#### [`fof-badges.defaults.badges.first-week.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.first-week.description%22)
+
+> Be a member for 7 days
+
+```diff
++Être membre pendant 7 jours
+```
+
+#### [`fof-badges.defaults.badges.first-week.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.first-week.name%22)
+
+> First Week
+
+```diff
++Première semaine
+```
+
+#### [`fof-badges.defaults.badges.profile-picture.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.profile-picture.description%22)
+
+> Upload a profile picture
+
+```diff
++Transférer une photo de profil
+```
+
+#### [`fof-badges.defaults.badges.profile-picture.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.profile-picture.name%22)
+
+> Profile Picture
+
+```diff
++Photo de profil
+```
+
+#### [`fof-badges.defaults.badges.prolific.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.prolific.description%22)
+
+> Post 200 replies
+
+```diff
++Publier 200 réponses
+```
+
+#### [`fof-badges.defaults.badges.prolific.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.prolific.name%22)
+
+> Prolific
+
+```diff
++Prolifique
+```
+
+#### [`fof-badges.defaults.badges.regular.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.regular.description%22)
+
+> Be a member for 30 days
+
+```diff
++Être membre pendant 30 jours
+```
+
+#### [`fof-badges.defaults.badges.regular.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.regular.name%22)
+
+> Regular
+
+```diff
++Régulier
+```
+
+#### [`fof-badges.defaults.badges.topic-starter.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.topic-starter.description%22)
+
+> Start 10 discussions
+
+```diff
++Démarrer 10 discussions
+```
+
+#### [`fof-badges.defaults.badges.topic-starter.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.badges.topic-starter.name%22)
+
+> Topic Starter
+
+```diff
++Auteur du sujet
+```
+
+#### [`fof-badges.defaults.categories.getting-started.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.getting-started.description%22)
+
+> Badges for new members taking their first steps
+
+```diff
++Badges pour les nouveaux membres qui font leurs premiers pas
+```
+
+#### [`fof-badges.defaults.categories.getting-started.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.getting-started.name%22)
+
+> Getting Started
+
+```diff
++Premiers pas
+```
+
+#### [`fof-badges.defaults.categories.milestones.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.milestones.description%22)
+
+> Badges for reaching important milestones
+
+```diff
++Badges pour avoir franchi des étapes importantes
+```
+
+#### [`fof-badges.defaults.categories.milestones.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.milestones.name%22)
+
+> Milestones
+
+```diff
++Étapes importantes
+```
+
+#### [`fof-badges.defaults.categories.posting.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.posting.description%22)
+
+> Badges for posting milestones and contributions
+
+```diff
++Badges pour la publication des étapes importantes et des contributions
+```
+
+#### [`fof-badges.defaults.categories.posting.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/fr/?q=context%3A%3D%22fof-badges.defaults.categories.posting.name%22)
+
+> Posting
+
+```diff
++Publication
+```
 
 <!-- {% endraw %} -->

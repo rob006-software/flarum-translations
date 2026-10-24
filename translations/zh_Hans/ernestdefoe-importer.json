@@ -28,6 +28,19 @@
             "failed": "导入失败",
             "shared_note": "导入会由当前浏览器页面分批执行，无需队列进程或 SSH，因此也适用于虚拟主机。请保持此标签页打开；如果过程中断，重新打开此页面即可从上次的位置继续。",
             "import_another": "导入另一个论坛",
+            "sync": {
+                "title": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "保持旧链接可用",
                 "intro": "旧论坛的链接可能已经被搜索引擎收录、加入书签，或出现在其他帖子的引用中。开启后，Flarum 会接管这些旧链接，将旧主题、标签和个人资料 URL 永久重定向到迁移后的对应内容，让搜索引擎能够将原有排名转移到新地址，而不是直接丢失。\n",
@@ -54,7 +67,9 @@
                 "categories": "",
                 "topics": "",
                 "posts": "",
-                "skipped": ""
+                "skipped": "",
+                "edited": "",
+                "kept": ""
             },
             "starting": "正在启动…"
         },
@@ -66,8 +81,19 @@
             "working": "",
             "complete": "",
             "failed": "",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
             "summary": "",
             "summary_with_tags": "",
+            "quote_wrote": "",
             "sqlsrv_missing": "",
             "dump_unreadable": "",
             "scratch_failed": "",
@@ -117,7 +143,11 @@
                 "members": "",
                 "posts": "",
                 "topics": "",
-                "member_counts": ""
+                "member_counts": "",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": ""
             }
         }
     }
