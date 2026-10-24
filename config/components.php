@@ -786,7 +786,7 @@ return [
 		],
 	],
 	'forumaker-statser' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/2.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/3.1.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
