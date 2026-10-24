@@ -41,7 +41,9 @@
                 "timer_pause": "Timer anhalten",
                 "timer_resume": "Timer fortsetzen",
                 "timer_done": "Zeit vorbei",
-                "timer_reset": "Timer zurücksetzen"
+                "timer_reset": "Timer zurücksetzen",
+                "untick": "",
+                "untick_label": ""
             }
         },
         "lib": {
@@ -57,6 +59,14 @@
                 "time_placeholder": "z. B. 25m oder 1h 30m",
                 "image": "Foto-URL",
                 "image_help": "Optional. Wird oben auf der Karte angezeigt und Suchmaschinen zur Verfügung gestellt.",
+                "image_drop": "",
+                "image_choose": "",
+                "image_uploading": "",
+                "image_remove": "",
+                "image_url_placeholder": "",
+                "image_type": "",
+                "image_too_big": "",
+                "image_kept": "",
                 "description": "Beschreibung",
                 "ingredients": "Zutaten",
                 "ingredients_help": "Je eine Angabe pro Zeile. Beginne mit einer Menge (1 1/2 Tassen, 200 g, ½ TL), die sich entsprechend der Anzahl der Portionen skaliert. Eine Zeile, die mit einem Doppelpunkt endet, leitet eine Gruppe ein.",
@@ -76,7 +86,18 @@
                 "remix_insert": "Im Composer öffnen"
             }
         },
+        "api": {
+            "photo_unavailable": "",
+            "image_urls_off": ""
+        },
         "admin": {
+            "settings": {
+                "image_urls_label": "",
+                "image_urls_help": ""
+            },
+            "permissions": {
+                "upload_photos": ""
+            },
             "fields": {
                 "title": "Rezeptfelder",
                 "help": "Zusätzliche Angaben, die deine Community zu jedem Rezept erfasst, wie beispielsweise Kalorien, Eiweiß oder Phe. Die Autoren tragen diese Angaben in das Rezeptformular ein, und die Leser sehen sie auf der Karte. Ein Wert pro Portion bleibt unverändert, wenn ein Leser die Anzahl der Portionen ändert; der Wert für das gesamte Rezept passt sich entsprechend an. Zum Neuanordnen ziehen.",

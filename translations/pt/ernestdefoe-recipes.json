@@ -41,7 +41,9 @@
                 "timer_pause": "",
                 "timer_resume": "",
                 "timer_done": "",
-                "timer_reset": ""
+                "timer_reset": "",
+                "untick": "",
+                "untick_label": ""
             }
         },
         "lib": {
@@ -57,6 +59,14 @@
                 "time_placeholder": "",
                 "image": "",
                 "image_help": "",
+                "image_drop": "",
+                "image_choose": "",
+                "image_uploading": "",
+                "image_remove": "",
+                "image_url_placeholder": "",
+                "image_type": "",
+                "image_too_big": "",
+                "image_kept": "",
                 "description": "",
                 "ingredients": "",
                 "ingredients_help": "",
@@ -76,7 +86,18 @@
                 "remix_insert": ""
             }
         },
+        "api": {
+            "photo_unavailable": "",
+            "image_urls_off": ""
+        },
         "admin": {
+            "settings": {
+                "image_urls_label": "",
+                "image_urls_help": ""
+            },
+            "permissions": {
+                "upload_photos": ""
+            },
             "fields": {
                 "title": "",
                 "help": "",
