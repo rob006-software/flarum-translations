@@ -28,6 +28,19 @@
             "failed": "Nhập dữ liệu thất bại",
             "shared_note": "Quá trình chạy theo từng đợt nhỏ ngay từ trình duyệt của bạn — không cần tiến trình xử lý hàng đợi hay SSH, nên nó chạy được cả trên hosting dùng chung. Hãy giữ tab này mở; nếu bị gián đoạn, hãy mở lại trang này và quá trình sẽ tiếp tục từ chỗ dừng lại.",
             "import_another": "Nhập diễn đàn khác",
+            "sync": {
+                "title": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "Giữ cho các liên kết cũ vẫn hoạt động",
                 "intro": "Các địa chỉ của diễn đàn cũ đang nằm trên Google, trong dấu trang của mọi người và trong mọi bài viết từng dẫn tới một cuộc thảo luận. Hãy bật tùy chọn này và Flarum sẽ đáp lại chúng — mỗi URL chủ đề, thẻ và trang cá nhân cũ sẽ dẫn người đọc tới nơi nội dung đó hiện nằm, bằng một lệnh chuyển hướng vĩnh viễn để các công cụ tìm kiếm chuyển thứ hạng sang chứ không bỏ đi.\n",
@@ -54,7 +67,9 @@
                 "categories": "",
                 "topics": "",
                 "posts": "",
-                "skipped": ""
+                "skipped": "",
+                "edited": "",
+                "kept": ""
             },
             "starting": "Đang bắt đầu…"
         },
@@ -66,8 +81,19 @@
             "working": "",
             "complete": "",
             "failed": "",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
             "summary": "",
             "summary_with_tags": "",
+            "quote_wrote": "",
             "sqlsrv_missing": "",
             "dump_unreadable": "",
             "scratch_failed": "",
@@ -117,7 +143,11 @@
                 "members": "",
                 "posts": "",
                 "topics": "",
-                "member_counts": ""
+                "member_counts": "",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": ""
             }
         }
     }

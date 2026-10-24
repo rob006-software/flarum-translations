@@ -28,6 +28,19 @@
             "failed": "Import failed",
             "shared_note": "Runs in small batches straight from your browser — no queue worker or SSH needed, so it works on shared hosting. Keep this tab open; if it's interrupted, reopen this page and it resumes where it left off.",
             "import_another": "Import another",
+            "sync": {
+                "title": "Keep the old forum in sync",
+                "intro": "Your {source} import can be brought up to date. A sync copies only what the old forum has gained since — new members, discussions and replies, and edits where {source} records them — and never touches anything written here.",
+                "last": "Last run: {date}",
+                "open": "Sync new content",
+                "start": "Sync now",
+                "cancel": "Cancel",
+                "password_help": "The password is never stored after a run, so enter it again.",
+                "upload_help": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
+                "confirm": "Bring across what the old forum has gained since the last run? Content written on this forum is left as it is.",
+                "running": "Sync running",
+                "complete": "Sync complete"
+            },
             "redirects": {
                 "title": "Keep the old links working",
                 "intro": "Your old forum's addresses are in Google, in bookmarks, and in every post that ever linked to a discussion. Turn this on and Flarum answers them — each old topic, tag and profile URL sends people to wherever that content ended up, with a permanent redirect so search engines move the ranking across instead of dropping it.\n",
@@ -54,7 +67,9 @@
                 "categories": "categories",
                 "topics": "topics",
                 "posts": "posts",
-                "skipped": "skipped"
+                "skipped": "skipped",
+                "edited": "edits copied",
+                "kept": "edits kept (changed here)"
             }
         },
         "api": {
@@ -65,8 +80,19 @@
             "working": "Working…",
             "complete": "Import complete.",
             "failed": "Import failed: {error}",
+            "busy": "Import #{id} is still running. Let it finish (or reset it) before starting another.",
+            "sync": {
+                "complete": "Sync complete.",
+                "no_base": "There is no finished import to sync. Run an import first.",
+                "unsupported": "Syncing is not available for {source} yet. Its import still works; run it again into a fresh forum to pick up new content.",
+                "needs_password": "The source database password is not kept after a run. Enter it again to sync.",
+                "needs_connection": "This import is from before connection settings were kept, so enter the old forum's database details again (the same ones as the import).",
+                "needs_upload": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
+                "summary": "Synced {topics} new discussions, {posts} new posts, {users} new members, {edited} edited posts ({kept} edits kept because the post was changed here)."
+            },
             "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
             "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
+            "quote_wrote": "{name} wrote:",
             "sqlsrv_missing": "This server cannot connect to SQL Server directly: the PHP extension pdo_sqlsrv is not installed. Export the source database to a dump or CSV and use the file-upload import instead.",
             "dump_unreadable": "Could not open the uploaded dump.",
             "scratch_failed": "Could not create a scratch database at {path}",
@@ -116,7 +142,11 @@
                 "members": "Importing members…",
                 "posts": "Importing posts…",
                 "topics": "Importing topics…",
-                "member_counts": "Updating member counts…"
+                "member_counts": "Updating member counts…",
+                "edits": "Copying edits…",
+                "sync": "Checking for new content…",
+                "avatars": "Importing avatars…",
+                "prune_tags": "Removing empty tags…"
             }
         }
     }

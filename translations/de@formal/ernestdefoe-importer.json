@@ -28,6 +28,19 @@
             "failed": "Import fehlgeschlagen",
             "shared_note": "Wird in kleinen Chargen direkt über deinen Browser ausgeführt – es sind weder ein Queue-Worker noch SSH erforderlich, sodass es auch auf Shared-Hosting-Servern funktioniert. Lasse diesen Tab geöffnet; sollte der Vorgang unterbrochen werden, öffne diese Seite einfach erneut, und der Vorgang wird an der Stelle fortgesetzt, an der er unterbrochen wurde.",
             "import_another": "Weiterer Import",
+            "sync": {
+                "title": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "Alte Links mit Weiterleitung weiter funktionsfähig halten",
                 "intro": "Die Adressen deines alten Forums befinden sich bei Google, in den Lesezeichen und in jedem Beitrag, der jemals auf eine Diskussion verlinkt hat. Aktiviere diese Funktion, und Flarum kümmert sich darum – jede URL eines alten Themas, Tags oder Profils leitet die Besucher dorthin weiter, wo der Inhalt nun zu finden ist, und zwar mit einer permanenten Weiterleitung, sodass Suchmaschinen das Ranking übertragen, anstatt es zu verlieren.\n",
@@ -54,7 +67,9 @@
                 "categories": "Kategorien",
                 "topics": "Diskussionen",
                 "posts": "Beiträge",
-                "skipped": "Übersprungen"
+                "skipped": "Übersprungen",
+                "edited": "",
+                "kept": ""
             },
             "starting": "Starten…"
         },
@@ -66,8 +81,19 @@
             "working": "Wird bearbeitet…",
             "complete": "Import abgeschlossen.",
             "failed": "Import fehlgeschlagen: {error}",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
             "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
             "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
+            "quote_wrote": "",
             "sqlsrv_missing": "",
             "dump_unreadable": "",
             "scratch_failed": "",
@@ -117,7 +143,11 @@
                 "members": "Mitglieder werden importiert…",
                 "posts": "Beiträge werden importiert…",
                 "topics": "Diskussionen werden importiert…",
-                "member_counts": "Mitgliederanzahl wird aktualisiert…"
+                "member_counts": "Mitgliederanzahl wird aktualisiert…",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": ""
             }
         }
     }
