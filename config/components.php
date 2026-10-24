@@ -387,7 +387,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.0.9/locale/en.yml',
 	],
 	'ernestdefoe-typesense' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.5/locale/en.yml',
 	],
 	'ernestdefoe-velvet-rope' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/velvet-rope/1.0.1/resources/locale/en.yml',
