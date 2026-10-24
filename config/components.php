@@ -762,7 +762,7 @@ return [
 		],
 	],
 	'forumaker-friendship' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/3.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/3.1.0/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
