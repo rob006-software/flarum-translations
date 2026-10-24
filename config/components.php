@@ -362,6 +362,9 @@ return [
 	'ernestdefoe-since' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/since/v1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-recruiting' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recruiting/3.1.7/locale/en.yml',
+	],
 	'ernestdefoe-social-groups' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/social-groups/v2.7.0/locale/en.yml',
 	],
