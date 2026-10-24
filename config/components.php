@@ -804,7 +804,7 @@ return [
 		],
 	],
 	'forumaker-yandex-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/2.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/3.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => [
 			'ru',
 		],
