@@ -630,7 +630,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/2.0.1/resources/locale/en.yml',
 	],
 	'fof-links' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0-rc.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/2.0.0/locale/en.yml',
 	],
 	'fof-mailing' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mailing/2.0.0/resources/locale/en.yml',
