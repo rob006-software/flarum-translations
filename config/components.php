@@ -45,7 +45,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Captcha-La/captchala-flarum/v1.0.2/resources/locale/en.yml',
 	],
 	'cengizkemec-cloudflare' => [
-		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-cloudflare/v1.2.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-cloudflare/v1.2.10/locale/en.yml',
 		'__builtInLanguages' => [
 			'tr',
 		],
