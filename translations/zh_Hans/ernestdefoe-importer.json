@@ -30,6 +30,7 @@
             "import_another": "导入另一个论坛",
             "sync": {
                 "title": "",
+                "messages_only_intro": "",
                 "intro": "",
                 "last": "",
                 "open": "",
@@ -62,7 +63,16 @@
                 "error_unknown_source": "没有已知的此平台链接格式。",
                 "error_failed": "无法保存，请重试。"
             },
+            "pm": {
+                "include": "",
+                "help": "",
+                "no_groups": "",
+                "unavailable": ""
+            },
             "count": {
+                "messages": "",
+                "conversations": "",
+                "pm_groups_skipped": "",
                 "users": "",
                 "categories": "",
                 "topics": "",
@@ -90,6 +100,11 @@
                 "needs_connection": "",
                 "needs_upload": "",
                 "summary": ""
+            },
+            "pm": {
+                "summary": "",
+                "groups_skipped": "",
+                "unavailable": ""
             },
             "summary": "",
             "summary_with_tags": "",
@@ -147,7 +162,8 @@
                 "edits": "",
                 "sync": "",
                 "avatars": "",
-                "prune_tags": ""
+                "prune_tags": "",
+                "messages": ""
             }
         }
     }

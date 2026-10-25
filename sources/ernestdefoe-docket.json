@@ -34,7 +34,11 @@
                 "report_centre": "Report centre",
                 "my_reports": "My reports",
                 "user_reports": "Reports",
-                "toggle": "Choose a list of reports"
+                "views": "Lists of reports",
+                "queue_toggle": "Choose a queue"
+            },
+            "centre": {
+                "subtitle": "Every report in one place. Claim one, work through it, and close it with a note."
             },
             "post": {
                 "open_report": "Report details"
@@ -90,6 +94,7 @@
             "report": {
                 "title": "Report #{id}",
                 "opened": "Opened {time}",
+                "back": "Back to the report centre",
                 "post_gone": "The reported post has been deleted. Its history is kept here.",
                 "moderate": "Moderate post",
                 "post_hidden": "This post is hidden.",
@@ -120,7 +125,10 @@
                 "post_history_empty": "None.",
                 "user_history": "Reports about {name}",
                 "user_history_empty": "No other reports.",
-                "user_history_all": "See all"
+                "user_history_all": "See all",
+                "reporter_history": "Reports by {name}",
+                "reporter_history_pick": "Whose reports to show",
+                "reporter_history_empty": "No other reports."
             },
             "user": {
                 "tabs": "Choose which reports",

@@ -30,6 +30,7 @@
             "import_another": "Import another",
             "sync": {
                 "title": "Keep the old forum in sync",
+                "messages_only_intro": "Content from {source} cannot be synced yet, but its private messages can be brought across: messages between members who were imported, added once each, however many times you run it.",
                 "intro": "Your {source} import can be brought up to date. A sync copies only what the old forum has gained since — new members, discussions and replies, and edits where {source} records them — and never touches anything written here.",
                 "last": "Last run: {date}",
                 "open": "Sync new content",
@@ -62,7 +63,16 @@
                 "error_unknown_source": "No address patterns are known for that platform.",
                 "error_failed": "Could not save. Please try again."
             },
+            "pm": {
+                "include": "Bring private messages across",
+                "help": "Conversations between two members become their Messages conversation. Conversations with three or more people come across as group conversations when Group Messages is installed. Only the people in a conversation can see it.",
+                "no_groups": "Group Messages is not installed, so conversations with three or more people will be skipped and counted. Install it first to bring them across too.",
+                "unavailable": "Private messages can be brought across once the Messages extension is enabled."
+            },
             "count": {
+                "messages": "private messages",
+                "conversations": "conversations",
+                "pm_groups_skipped": "group conversations skipped",
                 "users": "users",
                 "categories": "categories",
                 "topics": "topics",
@@ -89,6 +99,11 @@
                 "needs_connection": "This import is from before connection settings were kept, so enter the old forum's database details again (the same ones as the import).",
                 "needs_upload": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
                 "summary": "Synced {topics} new discussions, {posts} new posts, {users} new members, {edited} edited posts ({kept} edits kept because the post was changed here)."
+            },
+            "pm": {
+                "summary": "{messages} private messages in {conversations} new conversations.",
+                "groups_skipped": "{count} group conversations skipped: install Group Messages to bring them across, then sync.",
+                "unavailable": "Private messages skipped: Messages is not enabled."
             },
             "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
             "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
@@ -146,7 +161,8 @@
                 "edits": "Copying edits…",
                 "sync": "Checking for new content…",
                 "avatars": "Importing avatars…",
-                "prune_tags": "Removing empty tags…"
+                "prune_tags": "Removing empty tags…",
+                "messages": "Importing private messages…"
             }
         }
     }

@@ -30,6 +30,7 @@
             "import_another": "Weiterer Import",
             "sync": {
                 "title": "",
+                "messages_only_intro": "",
                 "intro": "",
                 "last": "",
                 "open": "",
@@ -62,7 +63,16 @@
                 "error_unknown_source": "Für diese Plattform sind keine Adressmuster bekannt.",
                 "error_failed": "Das Speichern ist fehlgeschlagen. Bitte versuche es erneut."
             },
+            "pm": {
+                "include": "",
+                "help": "",
+                "no_groups": "",
+                "unavailable": ""
+            },
             "count": {
+                "messages": "",
+                "conversations": "",
+                "pm_groups_skipped": "",
                 "users": "Benutzer",
                 "categories": "Kategorien",
                 "topics": "Diskussionen",
@@ -90,6 +100,11 @@
                 "needs_connection": "",
                 "needs_upload": "",
                 "summary": ""
+            },
+            "pm": {
+                "summary": "",
+                "groups_skipped": "",
+                "unavailable": ""
             },
             "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
             "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
@@ -147,7 +162,8 @@
                 "edits": "",
                 "sync": "",
                 "avatars": "",
-                "prune_tags": ""
+                "prune_tags": "",
+                "messages": ""
             }
         }
     }

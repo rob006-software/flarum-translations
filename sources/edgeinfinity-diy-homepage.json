@@ -86,7 +86,7 @@
                 "preload": "Include with the page (default)",
                 "async": "Load asynchronously after the page"
             },
-            "load_mode_help": "Preloading includes data in the home response to reduce flashes. Complex queries may delay the response. Navigation from another page uses asynchronous placeholders.",
+            "load_mode_help": "Preload includes data, including search results, in the first page response. Async loads it after the page. Navigation from another page uses asynchronous placeholders in either mode.",
             "loading_height": "Reserved content height while loading (px)",
             "loading_height_help": "Blank or 0 estimates from the item count. FoF widgets reuse a measured height at the same width, initially reserving 120px. Applies only while loading.",
             "fof_loading_help": "FoF data loading is controlled by its provider. Providers supporting initial data can use the FoF Widgets Core setting. Their components and permission checks are preserved.",
@@ -119,6 +119,7 @@
             "guest_home": "Show this homepage at / for guests",
             "routes_help": "Guests use /all for discussions when enabled. /home always opens this homepage. Members keep the forum’s configured default route.",
             "sticky_sidebar": "Keep the right column visible while scrolling on desktop",
+            "widget_settings": "Widget settings",
             "widget_type": "Widget type",
             "add_widget": "Add widget",
             "add_config_only": "Add to configuration only",
