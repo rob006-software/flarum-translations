@@ -971,6 +971,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum2/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
 | [`datlechin-title-length`](https://weblate.rob006.net/projects/flarum2/datlechin-title-length) | [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) |
 | [`edgeinfinity-diy-homepage`](https://weblate.rob006.net/projects/flarum2/edgeinfinity-diy-homepage) | [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) |
+| [`edgeinfinity-dice`](https://weblate.rob006.net/projects/flarum2/edgeinfinity-dice) | [`edgeinfinity/flarum-dice`](https://github.com/edgeinfinity1/flarum-dice) |
 | [`ekumanov-forum-widgets`](https://weblate.rob006.net/projects/flarum2/ekumanov-forum-widgets) | [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget) |
 | [`ekumanov-inline-audio`](https://weblate.rob006.net/projects/flarum2/ekumanov-inline-audio) | [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) |
 | [`ekumanov-markdown-tables`](https://weblate.rob006.net/projects/flarum2/ekumanov-markdown-tables) | [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables) |
