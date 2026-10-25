@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL du cache public par défaut",
             "public_cache_ttl_help": "Définir la durée, en secondes, pendant laquelle les pages publiques doivent être mises en cache. La valeur par défaut est de 604800 secondes (une semaine).",
             "clearing_cache_listener_label": "Purger LSCache lorsque le cache Flarum est vidé",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Servir du contenu obsolète",
             "serve_stale_help": "Si cette option est activée, une version obsolète d'une page mise en cache sera affichée aux visiteurs jusqu'à ce qu'une nouvelle copie du cache soit générée. Cela permet de réduire la charge du serveur. Si cette option est désactivée, la page sera générée dynamiquement lors de la mise à jour du cache, ce qui peut augmenter les temps d'attente. De par sa conception, cette option peut servir un contenu obsolète. N'activez pas cette option si vous souhaitez éviter ce comportement.",
             "purge_on_discussion_update_label": "Purger les URL ou mettre en cache les étiquettes lors de la mise à jour d'une discussion",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Il semble que votre serveur ne prenne pas en charge LSCache. Vérifiez la configuration de votre serveur. Serveur détecté : <b>{server}</b>, type de LiteSpeed détecté : <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Purger LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "За налаштуванням публічний кеш TTL",
             "public_cache_ttl_help": "Визначте, як довго, в секундах, повинні кешуватися загальнодоступні сторінки. Значення за замовчуванням - 604800 секунд (один тиждень).",
             "clearing_cache_listener_label": "Очищення LSCache після очищення кешу Flarum",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Подавати несвіжий контент",
             "serve_stale_help": "Якщо увімкнено, відвідувачам буде показано застарілу версію кешованої сторінки, доки не буде створено свіжу копію кешу. Це зменшує навантаження на сервер. Якщо вимкнено, сторінка буде динамічно генеруватися під час оновлення кешу, що може збільшити час очікування. За задумом, ця опція може показувати застарілий контент. Будь ласка, не вмикайте її, якщо ви вважаєте це неприйнятним.",
             "purge_on_discussion_update_label": "Очистити URL-адреси або кеш-теги в оновленні обговорень",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Схоже, ваш сервер не підтримує LSCache. Перевірте конфігурацію сервера. Виявлений сервер: <b>{server}</b>, виявлений тип LiteSpeed: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Очистити LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

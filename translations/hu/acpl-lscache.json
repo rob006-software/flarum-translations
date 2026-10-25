@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Alapértelmezett nyilvános gyorsítótár TTL-je",
             "public_cache_ttl_help": "Adja meg, hogy hány másodpercig legyenek a nyilvános lapok gyorsítótárazva. Az alapértelmezett érték 604800 másodperc (egy hét).",
             "clearing_cache_listener_label": "Az LSCache törlése a Flarum gyorsítótárának törlésekor",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Elavult tartalom kiszolgálása",
             "serve_stale_help": "Ha be van kapcsolva, akkor a gyorsítótárazott oldal lesz megjelenítve a látogatók számára, amíg elő nem áll egy új másolat. Csökkenti a kiszolgáló terhelését az egymást követő látogatások esetén. Ha ki van kapcsolva, akkor az oldal dinamikusan elő lesz állítva a gyorsítótár frissítésekor, amely növelheti a várakozási időt. Ez a beállítás tervezetten azt okozhatja, hogy elévült tartalmat fog szolgáltatni. Ha ez nem felel meg Önnek, akkor ne kapcsolja be ezt a beállítást.",
             "purge_on_discussion_update_label": "Webcímek vagy gyorsítótár-címkék törlése, ha egy téma frissül",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Úgy tűnik, hogy a kiszolgáló nem támogatja az LSCache-t. Ellenőrizze a kiszolgáló konfigurációját. Észlelt kiszolgáló: <b>{server}</b>, észlelt LiteSpeed típusa: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "LSCache törlése"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

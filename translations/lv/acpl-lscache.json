@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Noklusējuma publiskā kešatmiņa TTL",
             "public_cache_ttl_help": "uzraksti, cik ilgi sekundēs publiskās lapas ir jāglabā kešatmiņā. Noklusējuma vērtība ir 604 800 sekundes (viena nedēļa).",
             "clearing_cache_listener_label": "Iztīriet LSCache, kad Flarum kešatmiņa ir notīrīta",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Pasniedziet novecojušu saturu",
             "serve_stale_help": "Ja tas ir iespējots, apmeklētājiem tiks rādīta novecojusi kešatmiņā saglabātās lapas versija, līdz tiks ģenerēta jauna kešatmiņas kopija. Tas samazina servera slodzi. Ja tas ir atspējots, lapa tiks dinamiski ģenerēta kešatmiņas atjaunināšanas laikā, kas var palielināt gaidīšanas laiku. Pēc konstrukcijas šī opcija var nodrošināt novecojušu saturu. Lūdzu, neiespējojiet to, ja uzskatāt, ka tas ir nepieņemami.",
             "purge_on_discussion_update_label": "",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

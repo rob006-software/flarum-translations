@@ -58,7 +58,8 @@
                 "in_progress": "In progress",
                 "resolved": "Resolved",
                 "rejected": "Rejected",
-                "closed": "Closed"
+                "closed": "Closed",
+                "restored": "Post restored"
             },
             "reason": {
                 "approval": "Awaiting approval",
@@ -121,6 +122,27 @@
                 "user_history_empty": "No other reports.",
                 "user_history_all": "See all"
             },
+            "user": {
+                "tabs": "Choose which reports",
+                "about": "About their posts",
+                "made": "Made by them"
+            },
+            "record": {
+                "title": "Their record as a reporter",
+                "frame_30d": "Last 30 days",
+                "frame_90d": "Last 90 days",
+                "frame_12m": "Last 12 months",
+                "frame_all": "All time",
+                "total": "{count, plural, =0 {No reports} one {# report} other {# reports}}",
+                "resolved": "Resolved",
+                "rejected": "Rejected",
+                "open": "Open",
+                "note": "Counted from the reports you can see, by when they were made, the same way crowd moderation weighs reporters: a report counts as rejected when its post was restored after members' reports hid it. Only reports made with the report form count.",
+                "line": "{count, plural, one {# report} other {# reports}} · {resolved}% resolved · {rejected}% rejected",
+                "empty": "They haven't reported anything you can see.",
+                "post_unavailable": "A post you can't see, or that was deleted",
+                "reason": "Reason:"
+            },
             "timeline": {
                 "someone": "Someone",
                 "claimed": "{actor} claimed it",
@@ -177,6 +199,12 @@
                 "title": "My reports",
                 "intro": "The posts you reported and how they were handled.",
                 "empty": "You haven't reported anything.",
+                "empty_since": "You haven't reported anything recently.",
+                "since_30": "Reports from the last 30 days are shown.",
+                "since_90": "Reports from the last 90 days are shown.",
+                "since_180": "Reports from the last 6 months are shown.",
+                "since_365": "Reports from the last year are shown.",
+                "since_days": "{count, plural, one {Reports from the last day are shown.} other {Reports from the last # days are shown.}}",
                 "post_unavailable": "A post you can no longer see",
                 "your_reason": "Your reason:"
             }
@@ -184,7 +212,14 @@
         "admin": {
             "settings": {
                 "notify_by_default": "Tell reporters the outcome by default",
-                "notify_by_default_help": "When a report is resolved or rejected, the box to tell the people who reported it starts ticked. Moderators can still untick it."
+                "notify_by_default_help": "When a report is resolved or rejected, the box to tell the people who reported it starts ticked. Moderators can still untick it.",
+                "my_reports_days": "How far back My reports goes",
+                "my_reports_days_help": "Members see their own reports from this far back on their My reports page. Older reports are kept, and staff still see all of them.",
+                "my_reports_forever": "Forever",
+                "my_reports_30": "30 days",
+                "my_reports_90": "90 days",
+                "my_reports_180": "6 months",
+                "my_reports_365": "1 year"
             },
             "permissions": {
                 "assign_others": "Assign reports to other moderators"

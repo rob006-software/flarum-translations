@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL mặc định cho bộ nhớ đệm công khai",
             "public_cache_ttl_help": "Xác định khoảng thời gian, tính bằng giây, các trang công khai được lưu vào bộ nhớ đệm. Mặc định là 604800 giây (một tuần).",
             "clearing_cache_listener_label": "Xoá LSCache khi xoá bộ nhớ đệm Flarum",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Phục vụ nội dung cũ",
             "serve_stale_help": "Nếu bật, phiên bản cũ của trang đã lưu trong bộ nhớ đệm sẽ được hiển thị cho khách truy cập cho đến khi bản sao bộ nhớ đệm mới được tạo. Điều này giúp giảm tải máy chủ. Nếu tắt, trang sẽ được tạo động trong quá trình cập nhật bộ nhớ đệm, có thể làm tăng thời gian chờ. Theo thiết kế, tùy chọn này có thể hiển thị nội dung lỗi thời. Vui lòng không bật nếu bạn thấy điều đó không chấp nhận được.",
             "purge_on_discussion_update_label": "Xóa URL hoặc Thẻ đệm khi cập nhật thảo luận",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Có vẻ như máy chủ của bạn không hỗ trợ LSCache. Hãy kiểm tra cấu hình máy chủ của bạn. Máy chủ phát hiện được: <b>{server}</b>, loại LiteSpeed phát hiện được: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Xóa LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

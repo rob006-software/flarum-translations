@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Әдепкі қолжетімді жалпы кэш TTL",
             "public_cache_ttl_help": "Жалпы беттердің қанша секундта кэштелетінін көрсетіңіз. Әдепкі мән - 300 секунд.",
             "clearing_cache_listener_label": "Flarum кэші тазартылған кезде LSCache файлын тазалаңыз",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Ескірген Қызмет ету",
             "serve_stale_help": "ҚОСЫЛҒАН болса, кэштелген беттің ескірген көшірмесі кэштің жаңа көшірмесі қолжетімді болғанша келушілерге көрсетіледі. Келесі сапарларда сервер жүктемесін азайтады. ӨШІРІЛГЕН болса, келушілер күтіп тұрғанда бет динамикалық түрде жасалады. Дизайн бойынша бұл опция ескірген мазмұнға қызмет ете алады. Егер сізге ҰНАМАСА, бұл опцияны қоспаңыз.",
             "purge_on_discussion_update_label": "Талқылауды немесе жазбаны жаңарту кезінде URL мекенжайларын немесе тегтерді жойыңыз",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

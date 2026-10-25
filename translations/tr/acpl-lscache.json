@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Varsayılan Genel Önbellek TTL",
             "public_cache_ttl_help": "Genel sayfaların saniye cinsinden ne kadar süreyle önbelleğe alınması gerektiğini tanımlayın. Varsayılan değer 604800 saniyedir (bir hafta).",
             "clearing_cache_listener_label": "Flarum Önbelleği Temizlendiğinde LSCache'yi Temizle",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Eski İçeriği Sunun",
             "serve_stale_help": "Etkinleştirilirse, yeni bir önbellek kopyası oluşturulana kadar ziyaretçilere önbelleğe alınmış bir sayfanın eski bir sürümü sunulur. Bu, sunucu yükünü azaltır. Devre dışı bırakılırsa sayfa, önbellek güncellemesi sırasında dinamik olarak oluşturulur ve bu da bekleme sürelerini artırabilir. Tasarım gereği, bu seçenek güncel olmayan içerik sunabilir. Bunu kabul edilemez bulursanız lütfen bunu etkinleştirmeyin.",
             "purge_on_discussion_update_label": "Tartışma Güncellemesinde URL'leri temizle veya Etiketleri önbelleğe al",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Sunucunuzun LSCache'i desteklemediği görünüyor. Sunucu yapılandırmanızı kontrol edin. Tespit edilen sunucu: <b>{server}</b>, tespit edilen LiteSpeed türü: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "LSCache'yi Temizle"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Domyślny czas życia publicznego cache",
             "public_cache_ttl_help": "Określ przez jak długi czas, w sekundach, publiczne strony powinny być przechowywane w cache. Domyślna wartość to 604800 sekund (jeden tydzień).",
             "clearing_cache_listener_label": "Czyść LSCache, kiedy cache Flarum jest czyszczony",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Serwuj nieaktualną treść",
             "serve_stale_help": "Jeśli opcja jest włączona, odwiedzającym będzie serwowana przestarzała wersja strony z cache, do momentu wygenerowania świeżej kopii. Dzięki temu zmniejsza się obciążenie serwera. Jeżeli opcja jest wyłączona, strona będzie generowana dynamicznie podczas aktualizacji cache, co może zwiększyć czas oczekiwania. Ta opcja może serwować nieaktualną zawartość – jeżeli uznasz to za nieakceptowalne, nie włączaj jej.",
             "purge_on_discussion_update_label": "Czyść adresy URL lub Tagi cache przy aktualizacji dyskusji",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Wygląda na to, że Twój serwer nie obsługuje LSCache. Sprawdź konfigurację swojego serwera. Wykryty serwer: <b>{server}</b>, wykryty typ serwera LiteSpeed: <b>{type}</b>.",
             "permissions": {
                 "purge": "Czyszczenie LSCache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Wyczyść LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "기본 공용 캐시 TTL",
             "public_cache_ttl_help": "공용 페이지를 캐시할 시간을 초 단위로 정의하세요. 기본값은 604800초 (일주일)입니다.",
             "clearing_cache_listener_label": "Flarum 캐시가 지워질 때 LSCache 초기화",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "오래된 콘텐츠 제공",
             "serve_stale_help": "활성화되면 캐시된 페이지의 오래된 버전이 새로운 캐시 복사본이 생성될 때까지 방문자에게 제공됩니다. 이렇게 함으로써 서버 부하가 줄어듭니다. 비활성화되면 캐시 업데이트 중에 페이지가 동적으로 생성되어 대기 시간이 증가할 수 있습니다. 이 옵션은 고의적으로 오래된 콘텐츠를 제공할 수 있습니다. 이를 용납할 수 없다면 이를 활성화하지 마십시오.",
             "purge_on_discussion_update_label": "토론이나 게시물 업데이트 시 URL 또는 태그 초기화",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

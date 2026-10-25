@@ -139,6 +139,7 @@
                 "no_messages": "No messages yet. Say something.",
                 "scroll_to_latest": "Jump to the latest message",
                 "members": "{count, plural, one {# member} other {# members}}",
+                "everyone": "Open to everyone",
                 "view_info": "Channel details",
                 "search_in_channel": "Search this channel",
                 "threads": "Threads in this channel",
@@ -451,7 +452,7 @@
                 "send_key_help_enter": "Enter sends your message, and Shift+Enter starts a new line. Applies in every channel.",
                 "send_key_help_ctrl": "Ctrl+Enter (Cmd+Enter on macOS) sends your message, and Enter starts a new line. Applies in every channel.",
                 "auto_join": "Automatically add all users",
-                "auto_join_help": "Every existing and future user will be added to this channel.",
+                "auto_join_help": "Everyone who can use the chat is in this channel, including future users, without being added one by one. Anyone can still leave it.",
                 "auto_join_on_reply": "Add users who reply in this category",
                 "auto_join_on_reply_help_bound": "A user joins the first time they reply to a discussion in {category}, and is not re-added if they later leave.",
                 "post_discussions": "Announce new discussions from this category",
@@ -496,6 +497,7 @@
                 "transfer_declined": "You declined the transfer.",
                 "transfer_failed": "Could not complete the transfer.",
                 "no_members": "No members match.",
+                "everyone_help": "Everyone who can use the chat is in this channel. Listed here are the people who run it.",
                 "save_failed": "Could not save that change."
             },
             "ranks": {

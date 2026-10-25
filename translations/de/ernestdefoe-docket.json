@@ -58,7 +58,8 @@
                 "in_progress": "In Bearbeitung",
                 "resolved": "Gelöst",
                 "rejected": "Abgelehnt",
-                "closed": "Geschlossen"
+                "closed": "Geschlossen",
+                "restored": ""
             },
             "reason": {
                 "approval": "",
@@ -121,6 +122,27 @@
                 "user_history_empty": "",
                 "user_history_all": ""
             },
+            "user": {
+                "tabs": "",
+                "about": "",
+                "made": ""
+            },
+            "record": {
+                "title": "",
+                "frame_30d": "",
+                "frame_90d": "",
+                "frame_12m": "",
+                "frame_all": "",
+                "total": "",
+                "resolved": "",
+                "rejected": "",
+                "open": "",
+                "note": "",
+                "line": "",
+                "empty": "",
+                "post_unavailable": "",
+                "reason": ""
+            },
             "timeline": {
                 "someone": "Jemand",
                 "claimed": "{actor} hat es beansprucht",
@@ -177,6 +199,12 @@
                 "title": "",
                 "intro": "",
                 "empty": "",
+                "empty_since": "",
+                "since_30": "",
+                "since_90": "",
+                "since_180": "",
+                "since_365": "",
+                "since_days": "",
                 "post_unavailable": "",
                 "your_reason": ""
             }
@@ -184,7 +212,14 @@
         "admin": {
             "settings": {
                 "notify_by_default": "",
-                "notify_by_default_help": ""
+                "notify_by_default_help": "",
+                "my_reports_days": "",
+                "my_reports_days_help": "",
+                "my_reports_forever": "",
+                "my_reports_30": "",
+                "my_reports_90": "",
+                "my_reports_180": "",
+                "my_reports_365": ""
             },
             "permissions": {
                 "assign_others": ""
