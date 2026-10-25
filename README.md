@@ -1078,6 +1078,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`glowingblue-author-filter`](https://weblate.rob006.net/projects/flarum2/glowingblue-author-filter) | [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) |
 | [`glowingblue-date-filters`](https://weblate.rob006.net/projects/flarum2/glowingblue-date-filters) | [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum2/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
+| [`huoxin-auto-follow-discussion`](https://weblate.rob006.net/projects/flarum2/huoxin-auto-follow-discussion) | [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) |
 | [`huoxin-filter-rule-manager`](https://weblate.rob006.net/projects/flarum2/huoxin-filter-rule-manager) | [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) |
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
