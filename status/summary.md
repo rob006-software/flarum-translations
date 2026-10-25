@@ -409,6 +409,7 @@
 | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/walsgit-recycle-bin/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin/) |
 | [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/xxb5724-catch-the-fish/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/xxb5724-catch-the-fish/) |
 | [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/xxb5724-clipboardjs/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/xxb5724-clipboardjs/) |
+| [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/xxb5724-ner/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/xxb5724-ner/) |
 | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/yippy-auth-ldap/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/yippy-auth-ldap/) |
 | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/-/yippy-tag-with-themes/multi-auto.svg)](https://weblate.rob006.net/projects/flarum2/yippy-tag-with-themes/) |
 

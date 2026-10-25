@@ -1204,6 +1204,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`walsgit-recycle-bin`](https://weblate.rob006.net/projects/flarum2/walsgit-recycle-bin) | [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) |
 | [`xxb5724-catch-the-fish`](https://weblate.rob006.net/projects/flarum2/xxb5724-catch-the-fish) | [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) |
 | [`xxb5724-clipboardjs`](https://weblate.rob006.net/projects/flarum2/xxb5724-clipboardjs) | [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) |
+| [`xxb5724-ner`](https://weblate.rob006.net/projects/flarum2/xxb5724-ner) | [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) |
 | [`yippy-auth-ldap`](https://weblate.rob006.net/projects/flarum2/yippy-auth-ldap) | [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) |
 | [`yippy-tag-with-themes`](https://weblate.rob006.net/projects/flarum2/yippy-tag-with-themes) | [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) |
 
