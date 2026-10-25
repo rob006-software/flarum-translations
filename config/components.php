@@ -1326,6 +1326,12 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
+	'tacraft-sociality-onebot-notify' => [
+		'tag' => 'https://raw.githubusercontent.com/TaCraft-Sociality/flarum-onebot-notify/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'tapao-auto-ai-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/2.1.9/locale/en.yml',
 		'__builtInLanguages' => [
