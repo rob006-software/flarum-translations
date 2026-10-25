@@ -321,7 +321,7 @@
             "sidebar_title": "Gợi ý khi soạn bài",
             "flag_message": "Được báo cáo tự động bởi Filter Rule Manager. Các bộ quy tắc đã kích hoạt: {rulesets}",
             "flagger_name": "Filter Rule Manager",
-            "evasion_flag_message": "Đáng ngờ: Người dùng vừa bị bộ quy tắc '{ruleset}' chặn, sau đó đã gửi thành công bài viết này. Vui lòng xem xét khả năng lách bộ lọc.",
+            "evasion_flag_message": "Đáng ngờ: Người dùng vừa bị bộ quy tắc “{ruleset}” chặn ({count_formatted}), sau đó đã gửi thành công bài viết này. Vui lòng xem xét khả năng lách bộ lọc.{details}",
             "evasion_matched_terms": "",
             "evasion_attempts_header": "",
             "evasion_item_matched": "",
