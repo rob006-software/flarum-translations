@@ -267,6 +267,8 @@
                 "post_style_discourse": "Default",
                 "post_style_direct": "With the timeline (avocado style)",
                 "topic_reply_to_style_label": "\"In reply to\" on posts",
+                "post_username_first_label": "Username first",
+                "post_username_first_help": "On posts, the username comes first, in bold, and the display name after it. When off, the display name comes first.",
                 "topic_reply_to_style_help": "How a post that replies to another shows who it replies to. In the default style, \"↩ Name\" on the right of the header (only when the replied post is not the one above). In avocado, a line under the name, \"↳ In reply to [avatar] Name\", on every reply. Clicking shows the replied post.",
                 "topic_reply_to_style_discourse": "Default: ↩ name on the right of the header",
                 "topic_reply_to_style_avocado": "Line under the name (avocado style)",
@@ -532,6 +534,10 @@
                     "profile_cover_label": "Profile cover (forumaker/profile-cover)",
                     "profile_cover_help": "The extension's cover instead of the theme's own: in the profile banner, behind the user card (as the thumbnail, when there is one) and at the position chosen in its editor, which opens from the profile \"…\" menu and from Settings. The theme's own images stay stored and come back if this switch is turned off.",
                     "thumbnails_label": "Thumbnails in the list",
+                    "widgets_label": "Widgets (fof/forum-widgets-core)",
+                    "widgets_help": "The extension's widgets as cards, like the theme's, in a column to the right of the list. The ones meant for the page sidebar (which the theme hides) go into the same column. When off, they keep the extension's look and places.",
+                    "widgets_width_label": "Column width",
+                    "widgets_width_help": "The width of the widget column next to the list, on desktop (from 200 to 480 px). The list takes the rest of the space.",
                     "thumbnails_help": "The FoF Discussion Thumbnail image beside the title in the discussion list.",
                     "verified_label": "Verified badge",
                     "verified_help": "The ramon/verified badge right after the name, on the text line and at its size, like a user icon: in the post header, embedded posts, \"in reply to\", the user card and the profile.",
@@ -660,6 +666,37 @@
                     "panel_signup_title": "Title on sign up",
                     "panel_login_text": "Text on log in",
                     "panel_signup_text": "Text on sign up"
+                },
+                "events": {
+                    "title": "Events",
+                    "backend_off": "The events backend (extend/events.php) is not loaded on the server yet.",
+                    "events_enabled_help": "\"Create event\" in the composer ⊕ menu puts an event in the first post: date, time and time zone, recurrence, stream address, location and attendee limit. The post shows the card with \"Going\", \"Interested\" and \"Not going\", the attendees and \"Add to calendar\" (Google and .ics). When off, the card becomes text and the API answers as if the feature did not exist.",
+                    "events_tag_label": "Events tag",
+                    "events_tag_any": "Any tag",
+                    "events_tag_help": "The \"Create event\" button only shows when starting a discussion in this tag, and only its discussions show the event card, appear in \"Upcoming events\" and send reminders. Whoever can start a discussion in the tag can create events (the tag's own permissions). With \"Any tag\", it applies to every discussion.",
+                    "events_list_badge_label": "Date in the list and the header",
+                    "events_list_badge_help": "The event date (\"in 3 days\", \"2 days ago\") next to the title in the discussion list and in the topic header.",
+                    "events_upcoming_label": "Upcoming events",
+                    "events_upcoming_help": "The \"Events\" link in the sidebar, the /events page (list and calendar) and, at the top of the events tag list, the next dates.",
+                    "events_chat_label": "Event chat",
+                    "events_chat_help": "The builder gets the \"Event chat\" option: a ramon/chat channel just for the event, bound to the discussion tag; whoever marks \"Going\" joins the channel.",
+                    "events_docked_chat_label": "Chat beside the topic",
+                    "events_docked_chat_help": "On desktop, the event channel sits in a full-height column to the right of the topic. On phones and tablets, the card links to the chat.",
+                    "events_reminder_minutes_label": "Reminder before the event",
+                    "events_reminder_minutes_help": "How many minutes before each occurrence the people who marked \"Going\" get the alert. Zero turns the reminder off.",
+                    "minutes": "min",
+                    "reminders_notice": "Reminders go out through the Flarum scheduler every five minutes: the server must run \"php flarum schedule:run\" from cron every minute."
+                },
+                "cooked": {
+                    "backend_off": "The footnote and table of contents syntax (extend/cooked.php) is not loaded on the server yet.",
+                    "footnotes_title": "Footnotes",
+                    "footnotes_help": "Footnotes: \"text[^1]\" with \"[^1]: the note\" at the end of the post, or the inline note \"^[the note]\". The number shows small, above the line, and a click opens the note in a tooltip. The composer ⊕ menu gets \"Footnote\". When off, notes stay as \"[1]\" and \"[1]: text\".",
+                    "toc_title": "Table of contents",
+                    "toc_help": "With [toc] in the first post (the composer ⊕ menu has \"Insert table of contents\"), its headings show in the timeline column, with the current heading marked and \"Jump to end\". The button below switches between \"Contents\" and \"Timeline\", and the choice is kept in the browser. On phones, the table of contents lives in the timeline sheet.",
+                    "toc_min_headings_label": "Minimum headings",
+                    "toc_min_headings_help": "With fewer headings than this in the first post, the table of contents does not show.",
+                    "toc_auto_tags_label": "Automatic table of contents in these tags",
+                    "toc_auto_tags_help": "In discussions of these tags, the first post gets the table of contents even without [toc] (as long as it has enough headings)."
                 },
                 "bookmarks": {
                     "title": "Bookmarks",
@@ -850,6 +887,8 @@
                     "group_name_help": "Any participant may rename the group conversation.",
                     "starred_label": "Starred channels",
                     "starred_help": "The star in the header and in Channel info; starred channels go to the top of the sidebar.",
+                    "pin_bar_label": "Pinned bar",
+                    "pin_bar_help": "The bar follows the part of the conversation in view, with an indicator for several pins; clicking cycles through them, the \"×\" hides the bar for that reader only, and the panel lists pins in conversation order, with who pinned them.",
                     "pin_indicator_label": "Unseen pins",
                     "pin_indicator_help": "A dot on the pinned-message bar when there is a pin the reader has not opened yet.",
                     "retention_label": "Retention reminder",
@@ -975,6 +1014,106 @@
             }
         },
         "forum": {
+            "events": {
+                "sidebar": "Events",
+                "page_title": "Events",
+                "upcoming_title": "Upcoming events",
+                "all_events": "All events",
+                "no_upcoming": "No events scheduled.",
+                "view_list": "List",
+                "view_calendar": "Calendar",
+                "previous_month": "Previous month",
+                "next_month": "Next month",
+                "today": "Today",
+                "happening_now": "Happening now",
+                "created_by": "Created by",
+                "local_time": "In your time zone",
+                "more": "More options",
+                "going": "Going",
+                "interested": "Interested",
+                "not_going": "Not going",
+                "full": "Full",
+                "remove_answer": "Undo answer",
+                "login_to_rsvp": "Log in to respond",
+                "ended_notice": "This event has ended.",
+                "see_invitees": "See attendees",
+                "invitees_title": "Attendees: {title}",
+                "no_invitees": "Nobody here yet.",
+                "capacity": "{going} of {max} spots",
+                "add_google": "Add to Google Calendar",
+                "add_ics": "Download for your calendar (.ics)",
+                "open_chat": "Chat in the event channel",
+                "join_livestream": "Join the stream ({host})",
+                "status": {
+                    "public": "Public",
+                    "standalone": "Announcement",
+                    "ended": "Ended"
+                },
+                "tabs": {
+                    "going": "Going",
+                    "interested": "Interested",
+                    "not_going": "Not going"
+                },
+                "recurrence": {
+                    "every_day": "Every day",
+                    "every_weekday": "Every weekday",
+                    "every_week": "Every {weekday}",
+                    "every_two_weeks": "Every two weeks on {weekday}",
+                    "every_four_weeks": "Every four weeks on {weekday}",
+                    "every_month": "Every month on {weekday} #{position}"
+                },
+                "notification": {
+                    "text": "{name} starts {when}",
+                    "setting": "When an event I am going to is about to start"
+                },
+                "builder": {
+                    "create_title": "Create event",
+                    "edit_title": "Edit event",
+                    "name": "Event name",
+                    "name_placeholder": "The discussion title, if left empty",
+                    "start": "Starts",
+                    "end": "Ends",
+                    "time": "Time",
+                    "timezone": "Time zone",
+                    "status": "Type",
+                    "status_public": "Public (with RSVP)",
+                    "status_standalone": "Announcement (no RSVP)",
+                    "status_public_help": "Anyone who can see the discussion answers going, interested or not going.",
+                    "status_standalone_help": "Only the date and details, without the RSVP buttons.",
+                    "recurrence": "Repeat",
+                    "recurrence_none": "Does not repeat",
+                    "recurrence_every_day": "Every day",
+                    "recurrence_every_weekday": "Every weekday (Mon–Fri)",
+                    "recurrence_every_week": "Every week",
+                    "recurrence_every_two_weeks": "Every two weeks",
+                    "recurrence_every_four_weeks": "Every four weeks",
+                    "recurrence_every_month": "Every month (same weekday)",
+                    "until": "Until",
+                    "url": "Stream or meeting address",
+                    "location": "Location",
+                    "max": "Attendee limit",
+                    "max_placeholder": "No limit",
+                    "chat": "Event chat",
+                    "chat_help": "Creates a chat channel just for the event; whoever marks \"Going\" joins it, and on desktop it sits beside the topic.",
+                    "description": "Description",
+                    "create": "Insert event",
+                    "save": "Save event",
+                    "remove": "Remove event",
+                    "error_start": "Pick a start date.",
+                    "error_end": "The end must be after the start."
+                }
+            },
+            "toc": {
+                "title": "Contents",
+                "jump_end": "Jump to end",
+                "show_timeline": "Timeline",
+                "show_toc": "Contents",
+                "insert": "Insert table of contents"
+            },
+            "footnotes": {
+                "add": "Footnote",
+                "placeholder": "Footnote"
+            },
             "ai": {
                 "translation": {
                     "original_language": "This post was originally written in {language}.",
@@ -1334,10 +1473,14 @@
                     "invitations_sent": "{count, plural, one {Invitation sent} other {Invitations sent}}"
                 },
                 "pinned_bar": {
-                    "title": "Pinned"
+                    "title": "Pinned",
+                    "jump_to_pinned": "Jump to pinned message"
                 },
                 "pinned_messages": {
                     "title": "Pinned messages",
+                    "close": "Close pinned messages",
+                    "dismiss": "Hide the pinned bar for me",
+                    "show": "Show the pinned bar",
                     "pinned_by_you": "Pinned by you",
                     "pinned_by_user": "Pinned by {username}"
                 },
@@ -1722,7 +1865,8 @@
                     ]
                 },
                 "hashtags": {
-                    "autocomplete_header": "Tags"
+                    "autocomplete_header": "Tags",
+                    "tag_count": "(x{count})"
                 },
                 "similar": {
                     "title": "Your discussion is similar to…",
@@ -1860,6 +2004,7 @@
                     "failed": "The search could not be completed. Please try again in a moment.",
                     "start": "Type what you are looking for, or open the advanced filters.",
                     "need_more": "Type a search term.",
+                    "too_short": "{count, plural, one {Type at least # character.} other {Type at least # characters.}}",
                     "load_more": "More results",
                     "modal_link": "Advanced search →",
                     "posts_filters_note": "Post search only uses the author, one tag, likes and bookmarks; the other filters apply to discussions.",
@@ -2459,7 +2604,7 @@
                 "categories": "Tags",
                 "tags": "Secondary tags",
                 "all_categories": "All tags",
-                "all_tags": "All tags",
+                "all_tags": "All secondary tags",
                 "notifications": "Notifications",
                 "settings": "Settings",
                 "customize_categories": "Customize tags",
@@ -2635,6 +2780,7 @@
                 }
             },
             "topic": {
+                "tagged_post": "{count, plural, one {the {tags} tag} other {the {tags} tags}}",
                 "link_copied": "Link copied to clipboard.",
                 "new_replies": "{count, plural, one {There is # new reply} other {There are # new replies}}",
                 "embedded": {
@@ -3140,6 +3286,10 @@
             },
             "invites": {
                 "too_many": "You already have too many active invitations. Delete one before generating another."
+            },
+            "events": {
+                "invalid_status": "The answer must be going, interested or not going.",
+                "full": "The event has reached its maximum number of attendees."
             }
         },
         "views": {

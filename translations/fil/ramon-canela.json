@@ -267,6 +267,8 @@
                 "post_style_discourse": "",
                 "post_style_direct": "",
                 "topic_reply_to_style_label": "",
+                "post_username_first_label": "",
+                "post_username_first_help": "",
                 "topic_reply_to_style_help": "",
                 "topic_reply_to_style_discourse": "",
                 "topic_reply_to_style_avocado": "",
@@ -532,6 +534,10 @@
                     "profile_cover_label": "",
                     "profile_cover_help": "",
                     "thumbnails_label": "",
+                    "widgets_label": "",
+                    "widgets_help": "",
+                    "widgets_width_label": "",
+                    "widgets_width_help": "",
                     "thumbnails_help": "",
                     "verified_label": "",
                     "verified_help": "",
@@ -660,6 +666,37 @@
                     "panel_signup_title": "",
                     "panel_login_text": "",
                     "panel_signup_text": ""
+                },
+                "events": {
+                    "title": "",
+                    "backend_off": "",
+                    "events_enabled_help": "",
+                    "events_tag_label": "",
+                    "events_tag_any": "",
+                    "events_tag_help": "",
+                    "events_list_badge_label": "",
+                    "events_list_badge_help": "",
+                    "events_upcoming_label": "",
+                    "events_upcoming_help": "",
+                    "events_chat_label": "",
+                    "events_chat_help": "",
+                    "events_docked_chat_label": "",
+                    "events_docked_chat_help": "",
+                    "events_reminder_minutes_label": "",
+                    "events_reminder_minutes_help": "",
+                    "minutes": "",
+                    "reminders_notice": ""
+                },
+                "cooked": {
+                    "backend_off": "",
+                    "footnotes_title": "",
+                    "footnotes_help": "",
+                    "toc_title": "",
+                    "toc_help": "",
+                    "toc_min_headings_label": "",
+                    "toc_min_headings_help": "",
+                    "toc_auto_tags_label": "",
+                    "toc_auto_tags_help": ""
                 },
                 "bookmarks": {
                     "title": "",
@@ -850,6 +887,8 @@
                     "group_name_help": "",
                     "starred_label": "",
                     "starred_help": "",
+                    "pin_bar_label": "",
+                    "pin_bar_help": "",
                     "pin_indicator_label": "",
                     "pin_indicator_help": "",
                     "retention_label": "",
@@ -975,6 +1014,106 @@
             }
         },
         "forum": {
+            "events": {
+                "sidebar": "",
+                "page_title": "",
+                "upcoming_title": "",
+                "all_events": "",
+                "no_upcoming": "",
+                "view_list": "",
+                "view_calendar": "",
+                "previous_month": "",
+                "next_month": "",
+                "today": "",
+                "happening_now": "",
+                "created_by": "",
+                "local_time": "",
+                "more": "",
+                "going": "",
+                "interested": "",
+                "not_going": "",
+                "full": "",
+                "remove_answer": "",
+                "login_to_rsvp": "",
+                "ended_notice": "",
+                "see_invitees": "",
+                "invitees_title": "",
+                "no_invitees": "",
+                "capacity": "",
+                "add_google": "",
+                "add_ics": "",
+                "open_chat": "",
+                "join_livestream": "",
+                "status": {
+                    "public": "",
+                    "standalone": "",
+                    "ended": ""
+                },
+                "tabs": {
+                    "going": "",
+                    "interested": "",
+                    "not_going": ""
+                },
+                "recurrence": {
+                    "every_day": "",
+                    "every_weekday": "",
+                    "every_week": "",
+                    "every_two_weeks": "",
+                    "every_four_weeks": "",
+                    "every_month": ""
+                },
+                "notification": {
+                    "text": "",
+                    "setting": ""
+                },
+                "builder": {
+                    "create_title": "",
+                    "edit_title": "",
+                    "name": "",
+                    "name_placeholder": "",
+                    "start": "",
+                    "end": "",
+                    "time": "",
+                    "timezone": "",
+                    "status": "",
+                    "status_public": "",
+                    "status_standalone": "",
+                    "status_public_help": "",
+                    "status_standalone_help": "",
+                    "recurrence": "",
+                    "recurrence_none": "",
+                    "recurrence_every_day": "",
+                    "recurrence_every_weekday": "",
+                    "recurrence_every_week": "",
+                    "recurrence_every_two_weeks": "",
+                    "recurrence_every_four_weeks": "",
+                    "recurrence_every_month": "",
+                    "until": "",
+                    "url": "",
+                    "location": "",
+                    "max": "",
+                    "max_placeholder": "",
+                    "chat": "",
+                    "chat_help": "",
+                    "description": "",
+                    "create": "",
+                    "save": "",
+                    "remove": "",
+                    "error_start": "",
+                    "error_end": ""
+                }
+            },
+            "toc": {
+                "title": "",
+                "jump_end": "",
+                "show_timeline": "",
+                "show_toc": "",
+                "insert": ""
+            },
+            "footnotes": {
+                "add": "",
+                "placeholder": ""
+            },
             "ai": {
                 "translation": {
                     "original_language": "",
@@ -1334,10 +1473,14 @@
                     "invitations_sent": ""
                 },
                 "pinned_bar": {
-                    "title": ""
+                    "title": "",
+                    "jump_to_pinned": ""
                 },
                 "pinned_messages": {
                     "title": "",
+                    "close": "",
+                    "dismiss": "",
+                    "show": "",
                     "pinned_by_you": "",
                     "pinned_by_user": ""
                 },
@@ -1722,7 +1865,8 @@
                     ]
                 },
                 "hashtags": {
-                    "autocomplete_header": ""
+                    "autocomplete_header": "",
+                    "tag_count": ""
                 },
                 "similar": {
                     "title": "",
@@ -1860,6 +2004,7 @@
                     "failed": "",
                     "start": "",
                     "need_more": "",
+                    "too_short": "",
                     "load_more": "",
                     "modal_link": "",
                     "posts_filters_note": "",
@@ -2635,6 +2780,7 @@
                 }
             },
             "topic": {
+                "tagged_post": "",
                 "link_copied": "",
                 "new_replies": "",
                 "embedded": {
@@ -3140,6 +3286,10 @@
             },
             "invites": {
                 "too_many": ""
+            },
+            "events": {
+                "invalid_status": "",
+                "full": ""
             }
         },
         "views": {

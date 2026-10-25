@@ -267,6 +267,8 @@
                 "post_style_discourse": "Alapértelmezett",
                 "post_style_direct": "Idővonallal (avokádó stílus)",
                 "topic_reply_to_style_label": "„Válaszul erre” a hozzászólásokon",
+                "post_username_first_label": "",
+                "post_username_first_help": "",
                 "topic_reply_to_style_help": "Hogyan jelzi egy másik hozzászólásra válaszoló hozzászólás, hogy kinek válaszol. Az alapértelmezett stílusban „↩ Név” a fejléc jobb oldalán (csak ha a megválaszolt hozzászólás nem a közvetlenül fölötte lévő). Az avokádó stílusban a név alatt egy sor, „↳ Válaszul erre: [avatar] Név”, minden válasznál. A kattintás megmutatja a megválaszolt hozzászólást.",
                 "topic_reply_to_style_discourse": "Alapértelmezett: ↩ név a fejléc jobb oldalán",
                 "topic_reply_to_style_avocado": "Sor a név alatt (avokádó stílus)",
@@ -532,6 +534,10 @@
                     "profile_cover_label": "Profilborító (forumaker/profile-cover)",
                     "profile_cover_help": "A bővítmény borítója a téma sajátja helyett: a profil szalagcímén, a felhasználói kártya mögött (miniatűrként, ha van) és a szerkesztőjében választott pozícióban, amely a profil „…” menüjéből és a Beállításokból nyílik meg. A téma saját képei tárolva maradnak, és visszatérnek, ha ez a kapcsoló ki van kapcsolva.",
                     "thumbnails_label": "Miniatűrök a listában",
+                    "widgets_label": "",
+                    "widgets_help": "",
+                    "widgets_width_label": "",
+                    "widgets_width_help": "",
                     "thumbnails_help": "A FoF Discussion Thumbnail képe a cím mellett a beszélgetéslistában.",
                     "verified_label": "Hitelesített jelvény",
                     "verified_help": "A ramon/verified jelvény közvetlenül a név után, a szövegsorban és annak méretében, mint egy felhasználói ikon: a hozzászólás fejlécében, a beágyazott hozzászólásokban, a „válaszul erre” feliratban, a felhasználói kártyán és a profilon.",
@@ -660,6 +666,37 @@
                     "panel_signup_title": "Cím regisztrációkor",
                     "panel_login_text": "Szöveg bejelentkezéskor",
                     "panel_signup_text": "Szöveg regisztrációkor"
+                },
+                "events": {
+                    "title": "",
+                    "backend_off": "",
+                    "events_enabled_help": "",
+                    "events_tag_label": "",
+                    "events_tag_any": "",
+                    "events_tag_help": "",
+                    "events_list_badge_label": "",
+                    "events_list_badge_help": "",
+                    "events_upcoming_label": "",
+                    "events_upcoming_help": "",
+                    "events_chat_label": "",
+                    "events_chat_help": "",
+                    "events_docked_chat_label": "",
+                    "events_docked_chat_help": "",
+                    "events_reminder_minutes_label": "",
+                    "events_reminder_minutes_help": "",
+                    "minutes": "",
+                    "reminders_notice": ""
+                },
+                "cooked": {
+                    "backend_off": "",
+                    "footnotes_title": "",
+                    "footnotes_help": "",
+                    "toc_title": "",
+                    "toc_help": "",
+                    "toc_min_headings_label": "",
+                    "toc_min_headings_help": "",
+                    "toc_auto_tags_label": "",
+                    "toc_auto_tags_help": ""
                 },
                 "bookmarks": {
                     "title": "Könyvjelzők",
@@ -850,6 +887,8 @@
                     "group_name_help": "Bármelyik résztvevő átnevezheti a csoportos beszélgetést.",
                     "starred_label": "Csillagozott csatornák",
                     "starred_help": "A csillag a fejlécben és a Csatornainformációknál; a csillagozott csatornák az oldalsáv tetejére kerülnek.",
+                    "pin_bar_label": "",
+                    "pin_bar_help": "",
                     "pin_indicator_label": "Nem látott kitűzések",
                     "pin_indicator_help": "Egy pont a kitűzött üzenetek sávján, ha van olyan kitűzés, amelyet az olvasó még nem nyitott meg.",
                     "retention_label": "Megőrzési emlékeztető",
@@ -975,6 +1014,106 @@
             }
         },
         "forum": {
+            "events": {
+                "sidebar": "",
+                "page_title": "",
+                "upcoming_title": "",
+                "all_events": "",
+                "no_upcoming": "",
+                "view_list": "",
+                "view_calendar": "",
+                "previous_month": "",
+                "next_month": "",
+                "today": "",
+                "happening_now": "",
+                "created_by": "",
+                "local_time": "",
+                "more": "",
+                "going": "",
+                "interested": "",
+                "not_going": "",
+                "full": "",
+                "remove_answer": "",
+                "login_to_rsvp": "",
+                "ended_notice": "",
+                "see_invitees": "",
+                "invitees_title": "",
+                "no_invitees": "",
+                "capacity": "",
+                "add_google": "",
+                "add_ics": "",
+                "open_chat": "",
+                "join_livestream": "",
+                "status": {
+                    "public": "",
+                    "standalone": "",
+                    "ended": ""
+                },
+                "tabs": {
+                    "going": "",
+                    "interested": "",
+                    "not_going": ""
+                },
+                "recurrence": {
+                    "every_day": "",
+                    "every_weekday": "",
+                    "every_week": "",
+                    "every_two_weeks": "",
+                    "every_four_weeks": "",
+                    "every_month": ""
+                },
+                "notification": {
+                    "text": "",
+                    "setting": ""
+                },
+                "builder": {
+                    "create_title": "",
+                    "edit_title": "",
+                    "name": "",
+                    "name_placeholder": "",
+                    "start": "",
+                    "end": "",
+                    "time": "",
+                    "timezone": "",
+                    "status": "",
+                    "status_public": "",
+                    "status_standalone": "",
+                    "status_public_help": "",
+                    "status_standalone_help": "",
+                    "recurrence": "",
+                    "recurrence_none": "",
+                    "recurrence_every_day": "",
+                    "recurrence_every_weekday": "",
+                    "recurrence_every_week": "",
+                    "recurrence_every_two_weeks": "",
+                    "recurrence_every_four_weeks": "",
+                    "recurrence_every_month": "",
+                    "until": "",
+                    "url": "",
+                    "location": "",
+                    "max": "",
+                    "max_placeholder": "",
+                    "chat": "",
+                    "chat_help": "",
+                    "description": "",
+                    "create": "",
+                    "save": "",
+                    "remove": "",
+                    "error_start": "",
+                    "error_end": ""
+                }
+            },
+            "toc": {
+                "title": "",
+                "jump_end": "",
+                "show_timeline": "",
+                "show_toc": "",
+                "insert": ""
+            },
+            "footnotes": {
+                "add": "",
+                "placeholder": ""
+            },
             "ai": {
                 "translation": {
                     "original_language": "Ez a hozzászólás eredetileg ezen a nyelven íródott: {language}.",
@@ -1334,10 +1473,14 @@
                     "invitations_sent": "{count, plural, one {Meghívó elküldve} other {Meghívók elküldve}}"
                 },
                 "pinned_bar": {
-                    "title": "Kitűzve"
+                    "title": "Kitűzve",
+                    "jump_to_pinned": ""
                 },
                 "pinned_messages": {
                     "title": "Kitűzött üzenetek",
+                    "close": "",
+                    "dismiss": "",
+                    "show": "",
                     "pinned_by_you": "Te tűzted ki",
                     "pinned_by_user": "Kitűzte: {username}"
                 },
@@ -1722,7 +1865,8 @@
                     ]
                 },
                 "hashtags": {
-                    "autocomplete_header": "Címkék"
+                    "autocomplete_header": "Címkék",
+                    "tag_count": ""
                 },
                 "similar": {
                     "title": "A beszélgetésed hasonlít ezekre…",
@@ -1860,6 +2004,7 @@
                     "failed": "A keresést nem sikerült befejezni. Kérjük, próbáld újra egy pillanat múlva.",
                     "start": "Írd be, mit keresel, vagy nyisd meg a speciális szűrőket.",
                     "need_more": "Írj be egy keresőkifejezést.",
+                    "too_short": "",
                     "load_more": "További találatok",
                     "modal_link": "Speciális keresés →",
                     "posts_filters_note": "A hozzászólás-keresés csak a szerzőt, egy címkét, a kedveléseket és a könyvjelzőket használja; a többi szűrő a beszélgetésekre vonatkozik.",
@@ -2635,6 +2780,7 @@
                 }
             },
             "topic": {
+                "tagged_post": "",
                 "link_copied": "A hivatkozás a vágólapra másolva.",
                 "new_replies": "{count, plural, one {# új válasz érkezett} other {# új válasz érkezett}}",
                 "embedded": {
@@ -3140,6 +3286,10 @@
             },
             "invites": {
                 "too_many": "Már túl sok aktív meghívód van. Törölj egyet, mielőtt újat hoznál létre."
+            },
+            "events": {
+                "invalid_status": "",
+                "full": ""
             }
         },
         "views": {
