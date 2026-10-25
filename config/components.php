@@ -102,7 +102,7 @@ return [
 		],
 	],
 	'datlechin-link-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.0.2/locale/en.yml',
 	],
 	'datlechin-mermaid' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-mermaid/v1.1.0/locale/en.yml',
