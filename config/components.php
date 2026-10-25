@@ -34,9 +34,7 @@ return [
 	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'fr',
-		],
+		'__builtInLanguages' => ['fr'],
 	],
 	'asyntai-chatbot' => [
 		'tag' => 'https://raw.githubusercontent.com/asyntai/flarum-chatbot/v1.0.1/locale/en.yml',
@@ -46,15 +44,11 @@ return [
 	],
 	'cengizkemec-cloudflare' => [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-cloudflare/v1.2.10/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'cengizkemec-support-tickets' => [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.1.9/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'clarkwinkelmann-likes-received' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/2.0.0/resources/locale/en.yml',
@@ -97,9 +91,7 @@ return [
 	],
 	'datlechin-link-clicks' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-clicks/v1.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'vi',
-		],
+		'__builtInLanguages' => ['vi'],
 	],
 	'datlechin-link-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v2.1.0/locale/en.yml',
@@ -112,9 +104,7 @@ return [
 	],
 	'datlechin-passkey' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-passkey/v2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'vi',
-		],
+		'__builtInLanguages' => ['vi'],
 	],
 	'datlechin-placements' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-placements/v1.0.0/locale/en.yml',
@@ -145,9 +135,7 @@ return [
 	],
 	'edgeinfinity-diy-homepage' => [
 		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.4/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ekumanov-forum-widgets' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.12/locale/en.yml',
@@ -205,9 +193,7 @@ return [
 	],
 	'ernestdefoe-curio' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.14.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'fr',
-		],
+		'__builtInLanguages' => ['fr'],
 	],
 	'ernestdefoe-depot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.2/locale/en.yml',
@@ -334,9 +320,7 @@ return [
 	],
 	'ernestdefoe-resurface' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/resurface/v1.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'fr',
-		],
+		'__builtInLanguages' => ['fr'],
 	],
 	'ernestdefoe-ridge' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ridge/v1.0.2/locale/en.yml',
@@ -397,9 +381,7 @@ return [
 	],
 	'ernestdefoe-wardrobe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.1.4/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-		],
+		'__builtInLanguages' => ['es'],
 	],
 	'ernestdefoe-warren' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.3/locale/en.yml',
@@ -409,39 +391,27 @@ return [
 	],
 	'ffans-bbcode-studio' => [
 		'beta' => 'https://raw.githubusercontent.com/FFans/bbcode-studio/v2.0.0-beta.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-community-notes' => [
 		'beta' => 'https://raw.githubusercontent.com/FFans/community-notes/v2.0.0-beta.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-creator-declarations' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/creator-declarations/v0.2.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-geetest' => [
 		'beta' => 'https://raw.githubusercontent.com/FFans/geetest/v2.0.0-beta.1/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-link-guard' => [
 		'beta' => 'https://raw.githubusercontent.com/FFans/link-guard/v2.0.0-beta.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-threadmarks' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/threadmarks/v2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v2.0.1/locale/en.yml',
@@ -763,15 +733,11 @@ return [
 	],
 	'forumaker-bento' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Bento/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-friendship' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Friendship/3.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-magicbb' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicbb/3.1.0/resources/locale/en.yml',
@@ -787,87 +753,57 @@ return [
 	],
 	'forumaker-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Profile-Cover/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-statser' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Statser/3.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-steam-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Steam-Oauth/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-vk-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/VK-Oauth/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-yandex-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-Oauth/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-yandex-smartcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/Yandex-SmartCaptcha/3.1.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'forumfortress-flarum' => [
 		'tag' => 'https://raw.githubusercontent.com/forum-fortress/flarum/v1.4.6/locale/en.yml',
 	],
 	'gitzaai-cnsearch' => [
 		'tag' => 'https://raw.githubusercontent.com/gitzaai/cnsearch/v0.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'glowingblue-author-filter' => [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/2.0.0-beta.1/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'de',
-			'es',
-			'fr',
-			'it',
-		],
+		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
 	'glowingblue-date-filters' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/2.0.2/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'de',
-			'es',
-			'fr',
-			'it',
-		],
+		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
 	'glowingblue-password-strength' => [
 		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/5.0.0-beta.3/locale/en.yml',
 	],
 	'huoxin-auto-follow-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'huoxin-filter-rule-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'huoxin-money-with-history' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-money-with-history/2.0.0-beta.6/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
@@ -937,24 +873,18 @@ return [
 	],
 	'import-ai-webhook-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/import-ai/flarum-webhook-notification/v0.1.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'irmmr-rtl' => [
 		'tag' => 'https://raw.githubusercontent.com/irmmr/flarum-ext-rtl/v1.0.4/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
 		'beta' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v2.0.0-beta.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-		],
+		'__builtInLanguages' => ['es'],
 	],
 	'jslirola-registration-policy' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-registration-policy/v1.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-		],
+		'__builtInLanguages' => ['es'],
 	],
 	'justoverclock-related-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/main/justoverclock-related-discussions.yml',
@@ -964,15 +894,11 @@ return [
 	],
 	'kuma-develop-level' => [
 		'tag' => 'https://raw.githubusercontent.com/kuma-develop/Level/1.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'vi',
-		],
+		'__builtInLanguages' => ['vi'],
 	],
 	'lcoy-cipher' => [
 		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.2/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'linkrobins-auto-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-lock/v1.0.0/locale/en.yml',
@@ -1036,9 +962,7 @@ return [
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'it',
-		],
+		'__builtInLanguages' => ['it'],
 	],
 	'michaelbelgium-ai-autoreply' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.1/locale/en.yml',
@@ -1060,9 +984,7 @@ return [
 	],
 	'peopleinside-fla-powcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.6.9/locale/en.yml',
-		'__builtInLanguages' => [
-			'it',
-		],
+		'__builtInLanguages' => ['it'],
 	],
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
@@ -1072,57 +994,30 @@ return [
 	],
 	'prm-forum-activity' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v2.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'prm-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/v2.1.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'prm-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/v2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'ar',
-			'bn',
-			'de',
-			'es',
-			'fr',
-			'hi',
-			'id',
-			'it',
-			'ja',
-			'pl',
-			'pt',
-			'ru',
-			'tr',
-			'uk',
-			'ur',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['ar', 'bn', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ja', 'pl', 'pt', 'ru', 'tr', 'uk', 'ur', 'zh_Hans'],
 	],
 	'quasimo-carousel-grids' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-carousel-grids/v2.0.6/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'quasimo-llms-txt' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-llms-txt/v2.0.6/resources/locale/en.yml',
 	],
 	'quasimo-tag-sidebar' => [
 		'tag' => 'https://raw.githubusercontent.com/Quasimo/flarum-ext-tag-sidebar/v2.0.21/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ralkage-account-lockout' => [
 		'beta' => 'https://raw.githubusercontent.com/Ralkage/flarum-ext-account-lockout/v2.0.0-beta.8/resources/locale/en.yml',
@@ -1153,67 +1048,46 @@ return [
 	],
 	'ramon-auth-modals' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/auth-modals/2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-avocado' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.2.9/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/v2.0.25/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-canela' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/canela/v0.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'ja',
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['ja', 'pt_BR'],
 	],
 	'ramon-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.3.4/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-classifieds' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/classifieds/1.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-guest-cta' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-mail-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mail-reply/2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-point-system' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.1.15/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-stickers' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/v2.0.16/locale/en.yml',
 	],
 	'ramon-verified' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/verified/v2.1.25/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt_BR',
-		],
+		'__builtInLanguages' => ['pt_BR'],
 	],
 	'resofire-blog-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/ResofireV2/blog-cards/v2.1.0/locale/en.yml',
@@ -1229,87 +1103,59 @@ return [
 	],
 	'rob006-last-post-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/2.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'shebaoting-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.9/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'shebaoting-dependency-collector' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-dependency-collector/v2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'shebaoting-money' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-money/v2.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'shebaoting-repost' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-repost/v2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'shebaoting-rss' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/2.0.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'stezkoy-ai-openreply' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-audex' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-audex/v1.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-doorquest' => [
 		'beta' => 'https://raw.githubusercontent.com/Stezkoy/flarum-doorquest/1.0.0-beta.3/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-feed2forum' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-feed2forum/v2.1.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-modularis' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-modularis/v1.0.8/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-pagify' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-pagify/2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-telegram-notify' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-telegram-notify/1.4.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'stezkoy-time-of-magic' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-time-of-magic/v1.5.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.2.1/locale/en.yml',
@@ -1328,93 +1174,65 @@ return [
 	],
 	'tapao-auto-ai-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Auto-AI-Moderation/2.1.9/locale/en.yml',
-		'__builtInLanguages' => [
-			'th',
-		],
+		'__builtInLanguages' => ['th'],
 	],
 	'tapao-custom-landing-page' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Custom-Landing-Page/2.1.6/locale/en.yml',
 	],
 	'tapao-line-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/2.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'th',
-		],
+		'__builtInLanguages' => ['th'],
 	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.1/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-cover-studio' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-cover-studio/v2.3.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-homepage-blocks' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.9.2/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-magnet-link' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-magnet-link/2.10.2/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-thumb-sliders' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-thumb-sliders/2.2.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-topic-rating' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-topic-rating/2.6.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'pl',
-		],
+		'__builtInLanguages' => ['pl'],
 	],
 	'u0-ani-nya-ani-nya_i18n' => [
 		'beta' => 'https://raw.githubusercontent.com/u0-ani-nya/ani-nya_i18n/1.3.5-beta/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'vlssu-cravatar' => [
 		'tag' => 'https://raw.githubusercontent.com/vlssu/flarum-cravatar/v0.3.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'walsgit-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.0.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'fr',
-		],
+		'__builtInLanguages' => ['fr'],
 	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.1.1/locale/en.yml',
 	],
 	'xxb5724-catch-the-fish' => [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/catch-the-fish/2.0.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'xxb5724-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/clipboardjs/2.0.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'xxb5724-ner' => [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/ner/2.0.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
