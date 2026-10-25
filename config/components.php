@@ -143,6 +143,12 @@ return [
 	'datlechin-title-length' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
+	'edgeinfinity-dice' => [
+		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-dice/v0.1.0/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'edgeinfinity-diy-homepage' => [
 		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.4/locale/en.yml',
 		'__builtInLanguages' => [
