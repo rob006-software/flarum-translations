@@ -88,12 +88,12 @@
         },
         "api": {
             "photo_unavailable": "Das Rezeptbild ist nicht verfügbar. Bitte erneut hochladen.",
-            "image_urls_off": ""
+            "image_urls_off": "Dieses Forum erlaubt nur das Hochladen von Rezeptfotos über das Rezeptformular, nicht aber Bilder von Webadressen."
         },
         "admin": {
             "settings": {
-                "image_urls_label": "",
-                "image_urls_help": ""
+                "image_urls_label": "Bilder von Webadressen erlauben",
+                "image_urls_help": "Wenn deaktiviert, können Rezeptfotos nur über das Rezeptformular hochgeladen werden, und ein Rezept, das auf ein Bild einer anderen Website verweist, wird beim Speichern abgelehnt. Bereits veröffentlichte Rezepte behalten ihre Bilder."
             },
             "permissions": {
                 "upload_photos": ""
