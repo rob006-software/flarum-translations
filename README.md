@@ -1011,6 +1011,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-header-nav`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-header-nav) | [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) |
 | [`ernestdefoe-hero-builder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hero-builder) | [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) |
 | [`ernestdefoe-importer`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-importer) | [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer) |
+| [`ernestdefoe-insert-coin`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-insert-coin) | [`ernestdefoe/insert-coin`](https://github.com/ernestdefoe/insert-coin) |
 | [`ernestdefoe-janitor`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-janitor) | [`ernestdefoe/janitor`](https://github.com/ernestdefoe/janitor) |
 | [`ernestdefoe-kindred`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kindred) | [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) |
 | [`ernestdefoe-ladder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ladder) | [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) |
