@@ -287,7 +287,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-marquee' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.8.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.8.5/locale/en.yml',
 	],
 	'ernestdefoe-masthead' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.1.3/locale/en.yml',
