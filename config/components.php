@@ -134,7 +134,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v1.0.0-beta.1/locale/en.yml',
 	],
 	'dexif-telegram' => [
-		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/1.0.4/resources/locale/en.yml',
 		'__builtInLanguages' => ['ru', 'zh_Hans'],
 	],
 	'edgeinfinity-dice' => [
