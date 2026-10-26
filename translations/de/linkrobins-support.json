@@ -203,14 +203,14 @@
                 "assigned_to": "Zugewiesen an {name}",
                 "untitled": "Ohne Titel",
                 "deleted_badge": "Gelöscht",
-                "tickets": "",
-                "search_all_tickets": "",
-                "search_tickets_title": "",
-                "search_results_title": "",
-                "tickets_found": "",
-                "tickets_found_plural": "",
-                "back_to_desk": "",
-                "reset_search": ""
+                "tickets": "Tickets",
+                "search_all_tickets": "Alle Tickets anzeigen, die mit „{query}“ übereinstimmen",
+                "search_tickets_title": "Tickets durchsuchen",
+                "search_results_title": "Suchergebnisse für „{query}“",
+                "tickets_found": "{count} Ticket gefunden",
+                "tickets_found_plural": "{count} Tickets gefunden",
+                "back_to_desk": "Zurück zur Supportseite",
+                "reset_search": "Suche löschen"
             },
             "assign": {
                 "title": "Ticket zuweisen",
@@ -427,55 +427,55 @@
             "gambits": {
                 "tickets": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "autor",
+                        "hint": "benutzername"
                     },
                     "type": {
-                        "key": "",
-                        "hint": "",
+                        "key": "typ",
+                        "hint": "standard oder einspruch",
                         "types": {
-                            "standard": "",
-                            "appeal": ""
+                            "standard": "Standard-Supportickets",
+                            "appeal": "Einspruchtickets"
                         }
                     },
                     "assigned": {
-                        "key": "",
-                        "hint": "",
+                        "key": "zugewiesen",
+                        "hint": "mir oder niemandem",
                         "options": {
-                            "me": "",
-                            "none": ""
+                            "me": "Mir zugewiesen",
+                            "none": "Nicht zugewiesene Tickets"
                         }
                     },
                     "unassigned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "nicht zugewiesen",
+                        "hint": "Nicht zugewiesene Tickets"
                     },
                     "mine": {
-                        "key": "",
-                        "hint": ""
+                        "key": "meine",
+                        "hint": "Von mir eingereichte Tickets"
                     },
                     "priority": {
-                        "key": "",
-                        "hint": "",
+                        "key": "priorität",
+                        "hint": "wichtig, normal oder niedrig",
                         "levels": {
-                            "urgent": "",
-                            "normal": "",
-                            "low": ""
+                            "urgent": "Dringende Priorität",
+                            "normal": "Normale Priorität",
+                            "low": "Niedrige Priorität"
                         }
                     },
                     "category": {
-                        "key": "",
-                        "hint": ""
+                        "key": "kategorie",
+                        "hint": "slug"
                     },
                     "status": {
-                        "key": "",
-                        "hint": "",
+                        "key": "status",
+                        "hint": "offen, in-bearbeitung, warte-auf-antwort, gelöst oder geschlossen",
                         "statuses": {
-                            "open": "",
-                            "in_progress": "",
-                            "awaiting_response": "",
-                            "resolved": "",
-                            "closed": ""
+                            "open": "Offene Tickets",
+                            "in_progress": "In Bearbeitung",
+                            "awaiting_response": "Warte auf Antwort",
+                            "resolved": "Gelöst",
+                            "closed": "Geschlossen"
                         }
                     }
                 }
