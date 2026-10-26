@@ -972,7 +972,7 @@ return [
 		'__builtInLanguages' => ['it'],
 	],
 	'michaelbelgium-ai-autoreply' => [
-		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-ai-autoreply/v2.0.2/locale/en.yml',
 	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v8.0.1/locale/en.yml',
