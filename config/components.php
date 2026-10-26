@@ -1206,7 +1206,7 @@ return [
 		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-homepage-blocks' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.9.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-homepage-blocks/2.11.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-magnet-link' => [
