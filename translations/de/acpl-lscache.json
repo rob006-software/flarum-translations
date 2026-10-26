@@ -9,7 +9,7 @@
             "clearing_cache_listener_help": "Wenn deaktiviert, wird der Seitencache nach geringfügigen Änderungen an Assets nicht neu aufgebaut. Zwischengespeicherte Seiten können neu erstellte Assets über dieselben URLs laden, während ein CDN wie Cloudflare möglicherweise weiterhin ältere Versionen aus seinem Cache bereitstellt. Auch Seiteneinstellungen und Erweiterungsdaten bleiben möglicherweise veraltet. Wenn deaktiviert, solltest du den LSCache nach größeren Updates oder Änderungen an Erweiterungen manuell leeren.",
             "serve_stale_label": "Veraltete Inhalte bereitstellen",
             "serve_stale_help": "Wenn zwischengespeicherte Inhalte geleert werden, soll LiteSpeed die zuvor zwischengespeicherte Version bereitstellen, während eine neue Kopie erstellt wird. Dies verringert die Serverauslastung, allerdings werden den Besuchern möglicherweise vorübergehend veraltete Inhalte angezeigt. Ist diese Option deaktiviert, müssen Besucher auf eine neu geladene Seite warten.",
-            "purge_on_discussion_update_label": "URLs/Tags löschen, wenn Diskussion/en oder ein Beitrag/Beiträge aktualisiert werden",
+            "purge_on_discussion_update_label": "URLs/Tags löschen, wenn Diskussionen oder Beiträge aktualisiert werden",
             "purge_on_discussion_update_help": "Gib die URLs oder Cache-Tags ein, die du löschen möchten, wenn eine Diskussion aktualisiert wird, jeweils eine pro Zeile. Die URL sollte mit <code>/</code> beginnen, z. B. <code>/rankings</code>, und das Cache-Tag sollte mit <code>tag=</code> beginnen, z. B. <code>tag=rankings</code>. Bei mehreren Routen ist es schneller, eine Regel in .htaccess mit einem regulären Ausdruck hinzuzufügen, der Routen markiert, und hier nur dieses Tag einzugeben. <a>Weitere Informationen</a>. Standardmäßig wird der Cache für die Startseite und aktualisierte Diskussionen gelöscht.",
             "cache_exclude_label": "Pfade nicht zwischenspeichern",
             "cache_exclude_help": "Ein regulärer Ausdruck pro Zeile: <code>/private</code> trifft auf Pfade die /private irgendwo enthalten, <code>^/private$</code> trifft nur auf exakt /private zu. Abfrageparameter werden ignoriert. Bereits zwischengespeicherte Seiten bleiben verfügbar, bis sie ablaufen oder Sie sie löschen. Um Ausschlüsse sofort anzuwenden, löschen Sie die betroffenen URLs über die Befehlszeilenschnittstelle (CLI) oder löschen Sie alle LSCache-Einträge über das Admin-Cache-Menü.",
@@ -28,10 +28,10 @@
                 "all_label": "Alle zwischengespeicherten Seiten",
                 "paths_label": "URL",
                 "paths_help": "Eine URL oder Pfad pro Zeile, zum Beispiel <code>{url}/t/allgemein</code> oder <code>/t/allgemein</code>.",
-                "tags_label": "",
-                "tags_help": "",
-                "submit_button": "",
-                "empty_list_error": ""
+                "tags_label": "Cache-Tag",
+                "tags_help": "Gib ein LSCache Tag pro Zeile ein, zum Beispiel <code>discussion_123</code> oder <code>discussions</code>.",
+                "submit_button": "Löschen",
+                "empty_list_error": "Gib mindestens ein Element an."
             }
         },
         "forum": {
@@ -51,7 +51,7 @@
         "lib": {
             "browser": {
                 "acpl-lscache": {
-                    "cache_purged": ""
+                    "cache_purged": "LiteSpeed-Cache gelöscht"
                 }
             }
         }
