@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": ""
+            },
+            "discussion-controls": {
+                "edit-answers": "Alanları düzenleyin"
+            },
+            "answers-modal": {
+                "compose-title": "",
+                "edit-title": "{title} için alanları düzenleyin",
+                "save": "Alanları kaydet"
+            },
+            "post-answers": {
+                "no-answer": "Yanıt yok"
+            },
+            "answers": {
+                "choose-option": "Bir seçenek seçin",
+                "no-option-selected": "Hiçbir seçenek seçilmedi",
+                "required": ""
+            },
+            "tags": {
+                "inadequate-settings": "Etiket ayarları doğru yapılandırılmamış. En fazla bir birincil ve ikincil etikete izin verin veya \"Alan olarak etiketler\" özelliğini etkisizleştirin.\n",
+                "tags-label": "Etiketler"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Yeni alan",
+                "add-field": "Alan Ekle",
+                "save-field": "Alan değişikliklerini kaydedin",
+                "delete-field": "Alanı sil",
+                "edit-field": "",
+                "add-answer": "Yanıt ekleyin",
+                "delete-answer": "Yanıtı sil",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": ""
+            },
+            "field-list": {
+                "empty": "",
+                "free-text": "",
+                "dropdown": ""
+            },
+            "answers": {
+                "help": "",
+                "suggest": "",
+                "unsuggest": ""
+            },
+            "fields": {
+                "edit": "{field} alanını düzenleyin",
+                "required": "Gereklidir",
+                "name": "Alan adı",
+                "name-help": "Herkes tarafından görülebilen (çevrilemez) alan etiketi.\n",
+                "description": "Alan açıklaması",
+                "description-help": "Bu alanın kullanımını/ihtiyacını açıklamak için isteğe bağlı bir açıklama.\n",
+                "show_when_empty": "Boş olduğunda göster",
+                "show_when_empty-help": "Cevabı olmadığında alanın tartışmada gösterilip gösterilmeyeceği",
+                "validation": "Kullanıcı değerleri için doğrulama",
+                "user_values_allowed": "Kullanıcı değerlerine izin verilir",
+                "user_values_allowed-help": "Etkinleştirilir ise kullanıcılar yönetici tarafından tanımlananlar yerine kendi değerlerini ekleyebilir. Bu değerler \"Doğrulama\" ayarına göre kontrol edilecektir. Etkisizleştirilir ise yalnızca \"önerilen\" yanıtları kullanabilirler.\n",
+                "validation-help": "Desteklenen <a>Laravel doğrulama kurallarını</a> kontrol edin. Örneğin: \"string|min:5\" or \"url\".\n",
+                "icon": "Simge",
+                "icon-help": "Kullanıcı tarafından girilen değerlerin önünde bir simge gösterir. Mevcut simgelerin referansı için <a>FontAwesome internet sitesine</a> bakın. Önek dahil olmak üzere tam simge sınıfı adını kullanın, örneğin \"fas fa-bolt\".\n",
+                "save-field-for-answers": "Yanıt eklemek için alanı kaydedin",
+                "new-answer": "Yeni yanıt",
+                "new-answer-placeholder": "Bazı metin"
+            },
+            "messages": {
+                "delete-answer-confirmation": "\"{content}\" yanıtını silmek istediğinizden emin misiniz? Onu kullanan tüm tartışmalardan kaldırılacaktır. Mevcut yanıtları korumak istiyorsanız bunun yerine yanıt önerisini etkisizleştirin. Yanıt silinsin mi?\n",
+                "delete-field-confirmation": "\"{name}\" alanını silmek istediğinizden emin misiniz? Alan ve yanıtları, onları kullanan tüm tartışmalardan kaldırılacaktır. Alan silinsin mi?\n"
+            },
+            "settings": {
+                "fields-section-title": "Özel alanlar bölümünün başlığı",
+                "fields-section-title-placeholder": "Varsayılan olarak başlık gösterilmeyecektir",
+                "fields-section-title-help": "Kullanıcılar bu metni düzenleyicideki ve tartışmadaki özel alanların üzerinde göreceklerdir.\n",
+                "column-count": "Alanları gösterirken sütun sayısı",
+                "n-columns": "",
+                "labels-as-placeholders": "Etiketleri formda yer tutucu olarak göster",
+                "labels-as-placeholders-help": "Alanlar daha az dikey alan kullanacak ve simgeler artık gösterilmeyecek. Bunun özellikle mevcut alanları düzenlerken kullanılabilirlik üzerinde bir etkisi olabileceğini unutmayın.\n",
+                "fields-in-hero": "",
+                "hide-empty-fields-section": "Tüm alanlar boş ve gizli olduğunda başlığı ve kontrolleri gizle",
+                "hide-empty-fields-section-help": "",
+                "tags-as-field": "Etiket seçiciyi alan olarak göster",
+                "tags-as-field-help": "",
+                "tags-field-name": "Etiketler alanının etiketi",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "Alanlar",
+                "settings": "Ayarlar",
+                "field-answers": "Alan yanıtları"
+            },
+            "permissions": {
+                "see-own-fields": "Alanları kendi mevcut tartışmalarınızda görün",
+                "see-other-fields": "Mevcut tüm tartışmalardaki alanları görün",
+                "fill-fields": "Yeni tartışmalarda alanları doldurun",
+                "update-own-fields": "Kendi tartışma alanlarını güncelle",
+                "update-other-fields": "Herhangi bir tartışmanın alanlarını güncelleyin",
+                "skip-required-fields": "Gerekli alanları atlama izni var"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "mason_answer": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "discussion": {
+                    "mason_answers_changed": ""
+                }
+            }
+        }
+    }
+}

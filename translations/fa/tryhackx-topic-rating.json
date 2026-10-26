@@ -37,6 +37,7 @@
                 "tag_collapse_all": "",
                 "tags_unavailable": "",
                 "tags_empty": "",
+                "tags_load_error": "",
                 "untagged_enabled_label": "",
                 "untagged_enabled_help": "",
                 "secondary_solo_title": "",
@@ -63,7 +64,22 @@
                 "single_clickable_label": "",
                 "single_clickable_help": "",
                 "single_modal_rate_label": "",
-                "single_modal_rate_help": ""
+                "single_modal_rate_help": "",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
                 "rate_label": "",
@@ -85,9 +101,19 @@
                 "rate_this": "",
                 "rate_first": "",
                 "your_rating": "",
-                "restricted": ""
+                "restricted": "",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
             "rating_count": "",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "",
             "rating_restricted_message": "",
             "controls": {
@@ -105,7 +131,8 @@
                 "title": "",
                 "empty": "",
                 "deleted_user": "",
-                "updated_prefix": ""
+                "updated_prefix": "",
+                "author_tag": ""
             }
         },
         "api": {

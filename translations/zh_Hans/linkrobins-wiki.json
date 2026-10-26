@@ -4,6 +4,7 @@
             "permissions": {
                 "create_article": "创建 Wiki 文章",
                 "comment": "评论 Wiki 文章",
+                "report_article": "",
                 "edit_articles": "编辑和管理任意 Wiki 文章",
                 "view_history": "查看 Wiki 文章修订历史"
             },
@@ -19,7 +20,9 @@
                 "shortcode_categories": "显示分类列表。",
                 "shortcode_heading": "标题（使用 ## 和 ### 表示更小级别）。",
                 "shortcode_link": "链接。直接填写网址也会自动转换为链接。",
-                "shortcode_html": "在标签之间原样插入 HTML，可用于嵌入内容或小组件，不作任何修改。"
+                "shortcode_html": "在标签之间原样插入 HTML，可用于嵌入内容或小组件，不作任何修改。",
+                "per_category_label": "",
+                "per_category_help": ""
             },
             "layout": {
                 "heading": "布局",
@@ -103,13 +106,16 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "搜索 Wiki",
-                "button": "搜索",
-                "clear": "清除",
                 "results_heading": "「{query}」的搜索结果",
                 "all_button": "在 Wiki 中搜索「{query}」",
-                "empty": "没有找到与「{query}」匹配的文章。"
+                "empty": "没有找到与「{query}」匹配的文章。",
+                "button": "搜索",
+                "clear": "清除"
             },
             "nav": "Wiki",
+            "link_preview": {
+                "articles": ""
+            },
             "common": {
                 "date_at_time": "{date} {time}"
             },
@@ -122,6 +128,8 @@
                 "untitled": "未命名",
                 "deleted_badge": "已删除",
                 "draft_badge": "草稿",
+                "uncategorised": "",
+                "see_all_lead": "",
                 "no_categories": "暂无分类。"
             },
             "compose": {

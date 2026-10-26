@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **4** are translated differently and **19** are
-translated only in `de@formal`. Altogether they cover **3** components.
+sides, but do not match between them: **3** are translated differently and **24** are
+translated only in `de@formal`. Altogether they cover **5** components.
 
 <!-- {% raw %} -->
 
@@ -12,9 +12,11 @@ translated only in `de@formal`. Altogether they cover **3** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `core` | [2](#core) | 0 |
-| `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
-| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
+| `clarkwinkelmann-selective-mediaembed` | [1](#clarkwinkelmann-selective-mediaembed) | 0 |
+| `fof-sitemap` | [1](#fof-sitemap) | 0 |
+| `prm-forum-activity` | 0 | [21](#prm-forum-activity-missing) |
+| `prm-moderation` | 0 | [3](#prm-moderation-missing) |
+| `ralkage-hcaptcha` | [1](#ralkage-hcaptcha) | 0 |
 
 
 ## Different translations
@@ -22,39 +24,35 @@ translated only in `de@formal`. Altogether they cover **3** components.
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `de@formal` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
 
 
-### `core`
+### `clarkwinkelmann-selective-mediaembed`
 
-#### [`core.admin.appearance.logo_heading`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.logo_heading%22)
+#### [`clarkwinkelmann-selective-mediaembed.admin.selectAll`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-selective-mediaembed/de@formal/?q=context%3A%3D%22clarkwinkelmann-selective-mediaembed.admin.selectAll%22)
 
-> Logo
-
-```diff
--Firmenzeichen
-+Logo
-```
-
-#### [`core.forum.discussion_controls.log_in_to_reply_button`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.forum.discussion_controls.log_in_to_reply_button%22)
-
-> Log In to Reply
+> Select all
 
 ```diff
--=> core.ref.reply
-+Anmelden zum Antworten
+-Alles auswählen
++Alle auswählen
 ```
+
+<del>Alles</del><ins>Alle</ins> auswählen
+
+
+### `fof-sitemap`
+
+#### [`fof-sitemap.admin.settings.exclude_tags`](https://weblate.rob006.net/translate/flarum2/fof-sitemap/de@formal/?q=context%3A%3D%22fof-sitemap.admin.settings.exclude_tags%22)
+
+> Exclude all tag pages from sitemap
+
+```diff
+-Alle Themenseiten von Sitemap ausschließen
++Alle Tag-Seiten von der Sitemap ausschließen
+```
+
+Alle <del>Themenseiten</del><ins>Tag-Seiten</ins> von<ins> der</ins> Sitemap ausschließen
 
 
 ### `ralkage-hcaptcha`
-
-#### [`ralkage-hcaptcha.admin.settings.dark_mode_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.dark_mode_help%22)
-
-> Use the dark theme for the hCaptcha widget. Enable this if your forum uses a dark theme.
-
-```diff
--Verwende das dunklen Design für das hCaptcha-Widget. Aktiviere diese Option, wenn dein Forum ein dunkles Design verwendet.
-+Verwende das dunkle Design für das hCaptcha-Widget. Aktivieren Sie diese Option, wenn Ihr Forum ein dunkles Design verwendet.
-```
-
-Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget. <del>Aktiviere</del><ins>Aktivieren Sie</ins> diese Option, wenn <del>dein</del><ins>Ihr</ins> Forum ein dunkles Design verwendet.
 
 #### [`ralkage-hcaptcha.admin.settings.enable_login_help`](https://weblate.rob006.net/translate/flarum2/ralkage-hcaptcha/de@formal/?q=context%3A%3D%22ralkage-hcaptcha.admin.settings.enable_login_help%22)
 
@@ -73,158 +71,201 @@ Bei der Anmeldung <del>von</del><ins>der</ins> <del>Benutzern</del><ins>Benutzer
 These strings are translated only in `de@formal`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de@formal`.
 
 
-### `ffans-link-guard` (missing)
+### `prm-forum-activity` (missing)
 
-#### [`ffans-link-guard.admin.settings.trusted_domains_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_help%22)
+#### [`prm-forum-activity.admin.permissions.feature_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.admin.permissions.feature_label%22)
 
-> Enter one domain per line. Same-origin links always bypass the warning. &lt;code&gt;example.com&lt;/code&gt; matches only that domain. &lt;code&gt;\*.example.com&lt;/code&gt; matches its subdomains, but not &lt;code&gt;example.com&lt;/code&gt; itself.
+> Feature discussions
 
 ```diff
-+Gib eine Domäne pro Zeile ein. Links derselben Herkunft umgehen die Warnung immer. <code>example.com</code> passt nur auf diese Domain. <code>*.example.com</code> passt auch auf deren Subdomains, jedoch nicht auf <code>example.com</code> selbst.
++Diskussionen hervorheben
 ```
 
-#### [`ffans-link-guard.admin.settings.trusted_domains_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_label%22)
+#### [`prm-forum-activity.admin.settings.default_tab_featured`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_featured%22)
 
-> Trusted domains
+> Featured
 
 ```diff
-+Vertrauenswürdige Domänen
++Hervorgehoben
 ```
 
-#### [`ffans-link-guard.admin.settings.use_modal_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_help%22)
+#### [`prm-forum-activity.admin.settings.default_tab_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_label%22)
 
-> Shows the warning on the current page via modal.
+> Default activity tab
 
 ```diff
-+Zeigt die Warnung auf der aktuellen Seite in einem Modalfenster an.
++Standard-Aktivitäts-Tab
 ```
 
-#### [`ffans-link-guard.admin.settings.use_modal_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_label%22)
+#### [`prm-forum-activity.admin.settings.default_tab_latest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_latest%22)
 
-> Show warnings in a modal
+> New posts
 
 ```diff
-+Warnungen in einem Modalfenster anzeigen
++Neue Beiträge
 ```
 
-#### [`ffans-link-guard.admin.settings.warning_message_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_help%22)
+#### [`prm-forum-activity.admin.settings.default_tab_newest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_newest%22)
 
-> Leave blank to use the default warning. Plain text only; line breaks are supported.
+> New topics
 
 ```diff
-+Lasse das Feld leer, um die Standardwarnung zu verwenden. Nur Klartext; Zeilenumbrüche werden unterstützt.
++Neue Diskussionen
 ```
 
-#### [`ffans-link-guard.admin.settings.warning_message_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_label%22)
+#### [`prm-forum-activity.forum.badge.featured_tooltip`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.badge.featured_tooltip%22)
 
-> Warning message
+> Featured discussion
 
 ```diff
-+Warnmeldung
++Hervorgehobene Diskussion
 ```
 
-#### [`ffans-link-guard.admin.settings.warning_title_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_help%22)
+#### [`prm-forum-activity.forum.columns.forum`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.columns.forum%22)
 
-> Leave blank to use the default title. Plain text only.
+> Forum
 
 ```diff
-+Lasse das Feld leer, um den Standardtitel zu verwenden. Nur Klartext.
++Forum
 ```
 
-#### [`ffans-link-guard.admin.settings.warning_title_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_label%22)
+#### [`prm-forum-activity.forum.columns.last_poster`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.columns.last_poster%22)
 
-> Warning title
+> Last poster
 
 ```diff
-+Titel der Warnung
++Letzte Antwort
 ```
 
-#### [`ffans-link-guard.forum.cancel_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.cancel_button%22)
+#### [`prm-forum-activity.forum.columns.posts`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.columns.posts%22)
 
-> Cancel
+> Replies
 
 ```diff
-+Abbrechen
++Antworten
 ```
 
-#### [`ffans-link-guard.forum.close_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.close_button%22)
+#### [`prm-forum-activity.forum.columns.topic`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.columns.topic%22)
 
-> Close this tab
+> Topic
 
 ```diff
-+Diesen Tab schließen
++Diskussion
 ```
 
-#### [`ffans-link-guard.forum.close_fallback`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.close_fallback%22)
+#### [`prm-forum-activity.forum.discussion_controls.feature`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.discussion_controls.feature%22)
 
-> If this tab did not close, close it manually or &lt;a&gt;return to the community&lt;/a&gt;.
+> Feature
 
 ```diff
-+Falls dieser Reiter nicht geschlossen wurde, schließe ihn bitte manuell oder <a>kehre zur Community zurück</a>.
++Hervorheben
 ```
 
-#### [`ffans-link-guard.forum.continue_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.continue_button%22)
+#### [`prm-forum-activity.forum.discussion_controls.unfeature`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.discussion_controls.unfeature%22)
 
-> Continue
+> Unfeature
 
 ```diff
-+Fortfahren
++Hervorhebung zurücknehmen
 ```
 
-#### [`ffans-link-guard.forum.destination_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.destination_label%22)
+#### [`prm-forum-activity.forum.empty`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.empty%22)
 
-> Destination website
+> No discussions to show.
 
 ```diff
-+Zielseite
++Keine Diskussionen vorhanden.
 ```
 
-#### [`ffans-link-guard.forum.invalid_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.invalid_message%22)
+#### [`prm-forum-activity.forum.load_more`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.load_more%22)
 
-> This address could not be recognized. Please return to the community and open the link again.
+> Load more
 
 ```diff
-+Die Adresse konnte nicht erkannt werden. Bitte kehre zur Community zurück und öffne den Link erneut.
++Mehr laden
 ```
 
-#### [`ffans-link-guard.forum.invalid_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.invalid_title%22)
+#### [`prm-forum-activity.forum.normal_section`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.normal_section%22)
 
-> Invalid external link
+> Normal topics
 
 ```diff
-+Ungültiger externer Link
++Normale Diskussionen
 ```
 
-#### [`ffans-link-guard.forum.page_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.forum.page_title%22)
+#### [`prm-forum-activity.forum.sticky_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.sticky_label%22)
 
-> Leaving the forum
+> Sticky topic
 
 ```diff
-+Verlasse das Forum
++Angeheftete Diskussion
 ```
 
-#### [`ffans-link-guard.lib.default_forum_name`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.lib.default_forum_name%22)
+#### [`prm-forum-activity.forum.sticky_section`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.sticky_section%22)
 
-> this site
+> Sticky topics
 
 ```diff
-+diese Seite
++Angeheftete Diskussionen
 ```
 
-#### [`ffans-link-guard.lib.default_warning_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_message%22)
+#### [`prm-forum-activity.forum.tabs.featured`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.tabs.featured%22)
 
-> Please keep your account and personal information safe.
+> Featured
 
 ```diff
-+Bitte achte darauf, deine Kontodaten und persönliche Daten sicher zu halten.
++Hervorgehoben
 ```
 
-#### [`ffans-link-guard.lib.default_warning_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/de@formal/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_title%22)
+#### [`prm-forum-activity.forum.tabs.latest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.tabs.latest%22)
 
-> You are about to leave {forumName}
+> New posts
 
 ```diff
-+Du bist dabei, {forumName} zu verlassen
++Neue Beiträge
+```
+
+#### [`prm-forum-activity.forum.tabs.newest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.tabs.newest%22)
+
+> New topics
+
+```diff
++Neue Diskussionen
+```
+
+#### [`prm-forum-activity.forum.title`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/de@formal/?q=context%3A%3D%22prm-forum-activity.forum.title%22)
+
+> Forum activity
+
+```diff
++Aktivitäten im Forum
+```
+
+
+### `prm-moderation` (missing)
+
+#### [`prm-moderation.admin.permissions.access_label`](https://weblate.rob006.net/translate/flarum2/prm-moderation/de@formal/?q=context%3A%3D%22prm-moderation.admin.permissions.access_label%22)
+
+> Access the moderation panel
+
+```diff
++Auf den Moderationsbereich zugreifen
+```
+
+#### [`prm-moderation.admin.permissions.report_label`](https://weblate.rob006.net/translate/flarum2/prm-moderation/de@formal/?q=context%3A%3D%22prm-moderation.admin.permissions.report_label%22)
+
+> Report users, posts, and discussions
+
+```diff
++Benutzer, Beiträge und Diskussionen melden
+```
+
+#### [`prm-moderation.admin.permissions.ticket_label`](https://weblate.rob006.net/translate/flarum2/prm-moderation/de@formal/?q=context%3A%3D%22prm-moderation.admin.permissions.ticket_label%22)
+
+> Open support tickets
+
+```diff
++Support-Tickets erstellen
 ```
 
 <!-- {% endraw %} -->

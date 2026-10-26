@@ -27,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "درج کردن",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "درج ویرایش",
-                "delete-field": "پاک کردن"
+                "delete-field": "پاک کردن",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "ویرایش رخ‌نمای کاربران دیگر",
@@ -37,9 +41,11 @@
             },
             "fields": {
                 "title": "فیلدها",
+                "trash": "",
                 "create": "",
                 "edit": "ویرایش فیلد {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +103,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

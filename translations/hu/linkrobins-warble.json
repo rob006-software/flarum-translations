@@ -1,19 +1,28 @@
 {
     "linkrobins-warble": {
         "admin": {
-            "transport_label": "",
-            "transport_help": "",
-            "transport_auto": "",
-            "transport_polling": "",
-            "transport_socket": "",
-            "poll_interval_label": "",
-            "poll_interval_help": "",
-            "key_label": "",
-            "key_help": "",
-            "paste_key": "",
-            "connected": "",
-            "need_realtime": "",
-            "write_failed": ""
+            "health_title": "",
+            "health_recheck": "",
+            "health_failed": "",
+            "check": {
+                "realtime": "",
+                "realtime_missing": "",
+                "endpoint_ok": "",
+                "endpoint_fail": "",
+                "queue_sync": "",
+                "scheduler_not_needed": "",
+                "queue_async": "",
+                "scheduler_never": "",
+                "scheduler_stale": "",
+                "scheduler_active": "",
+                "polling_seen": "",
+                "polling_quiet": "",
+                "interval_auto": "",
+                "interval_waiting": "",
+                "updates_seen": "",
+                "updates_quiet": "",
+                "websocket_leftover": ""
+            }
         }
     }
 }

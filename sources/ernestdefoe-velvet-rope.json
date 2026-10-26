@@ -1,0 +1,116 @@
+{
+    "ernestdefoe-velvet-rope": {
+        "lib": {
+            "prompt": {
+                "guest_title": "Join to read the whole discussion",
+                "guest_title_short": "Sign up to read this reply",
+                "guest_text": "Sign up for free to read every reply, see images and files, and join the conversation.",
+                "meter_title_day": "{count, plural, one {You've read your free discussion for today} other {You've read your # free discussions for today}}",
+                "meter_title_week": "{count, plural, one {You've read your free discussion for this week} other {You've read your # free discussions for this week}}",
+                "meter_title_month": "{count, plural, one {You've read your free discussion for this month} other {You've read your # free discussions for this month}}",
+                "meter_title_short": "Sign up to keep reading",
+                "meter_text": "Sign up for free to keep reading, as much as you like. It takes a few seconds.",
+                "confirm_title": "Confirm your email to read the rest",
+                "confirm_title_short": "Confirm your email to read this reply",
+                "confirm_text": "We sent a confirmation link to {email}. Open it, then come back to this page.",
+                "member_title": "The rest of this discussion is for members of another group",
+                "member_title_short": "This reply is for members of another group",
+                "member_text": "Upgrade your account to read every reply.",
+                "sign_up": "Sign up free",
+                "log_in": "Log in",
+                "resend": "Send the email again",
+                "resent": "Sent. Check your inbox for the confirmation link.",
+                "upgrade": "Upgrade"
+            },
+            "lock": {
+                "guest": {
+                    "image": "Sign up to see this image",
+                    "file": "Sign up to download this file",
+                    "embed": "Sign up to watch this"
+                },
+                "confirm": {
+                    "image": "Confirm your email to see this image",
+                    "file": "Confirm your email to download this file",
+                    "embed": "Confirm your email to watch this"
+                },
+                "member": {
+                    "image": "This image is for members of another group",
+                    "file": "This file is for members of another group",
+                    "embed": "This video is for members of another group"
+                }
+            }
+        },
+        "forum": {
+            "meter": {
+                "left_day": "{count, plural, one {You have # free discussion left today.} other {You have # free discussions left today.}}",
+                "left_week": "{count, plural, one {You have # free discussion left this week.} other {You have # free discussions left this week.}}",
+                "left_month": "{count, plural, one {You have # free discussion left this month.} other {You have # free discussions left this month.}}",
+                "last_day": "This is your last free discussion today.",
+                "last_week": "This is your last free discussion this week.",
+                "last_month": "This is your last free discussion this month."
+            }
+        },
+        "admin": {
+            "rules": {
+                "heading": "Who reads what",
+                "help": "Each rule decides, for the discussions in its tags, which groups read everything. Everyone else reads the first posts, with the media you choose locked, and a preview of the rest, or none. A discussion follows the first rule naming one of its tags, or naming no tags. Admins and authors always read in full. With no rules, nothing is held back.",
+                "empty": "No rules. Nothing is held back from anyone.",
+                "add": "Add a rule",
+                "title": "Rule {number}",
+                "drag": "Drag to change the order",
+                "delete": "Delete this rule",
+                "tags": "Tags",
+                "tags_help": "The discussions this rule covers. None picked means every discussion.",
+                "readers": "Who reads everything",
+                "readers_help": "Members means everyone signed in with a confirmed email. Untick it and pick groups to keep these tags for those groups.",
+                "freePosts": "Free posts",
+                "freePosts_help": "How many posts at the start of each discussion everyone reads, 1 being the first post.",
+                "preview": "Preview of later posts",
+                "preview_help": "How many characters of each later post everyone else sees, 0 to show none.",
+                "lock": "Lock in the free posts",
+                "lock_help": "Replaced by a prompt for everyone else. To hide links too, pair this with Guest CTA (ramon/guest-cta).",
+                "lock_image": "Images",
+                "lock_file": "Attachments",
+                "lock_embed": "Videos and embeds",
+                "upgrade": "Upgrade page",
+                "upgrade_help": "Where members outside these groups go to join one: a page on this forum (/subscriptions) or a full address."
+            },
+            "meter": {
+                "heading": "Free discussions for guests",
+                "enabled": "Limit how many discussions a guest reads",
+                "enabled_help": "After the limit, a guest sees the start of the first post and a prompt to sign up. Discussions they already opened stay free until the period ends. Counted in a cookie, so a guest who clears theirs starts again, as on any metered site.",
+                "limit": "Free discussions",
+                "period": "Per",
+                "period_day": "Day",
+                "period_week": "Week",
+                "period_month": "Month",
+                "period_help": "Google suggests a month to start with.",
+                "warn": "Warn when this many are left",
+                "warn_help": "A notice says how many free discussions are left. 0 to never warn.",
+                "lead_in": "Lead-in after the limit",
+                "lead_in_help": "How many characters of the first post a guest still sees. 0 for none.",
+                "by_ip": "Also count by network address",
+                "by_ip_help": "Catches visitors who clear or refuse cookies. People sharing one address (an office, a school, a mobile network) share one allowance, and with search engines turned off below, a crawler would be counted too. Only a keyed hash of the address is kept, for the period.",
+                "exempt": "Always free in these tags",
+                "exempt_help": "Discussions in these tags are never counted."
+            },
+            "crawlers": {
+                "heading": "Search engines",
+                "enabled": "Let search engines read gated content",
+                "help": "Google, Bing, Apple, Yandex and Baidu crawlers, proved by DNS (never by user agent alone), read everything and index it, with the paywall structured data Google asks for (isAccessibleForFree), so it isn't cloaking. Turn it off and they see what guests see: your SEO keeps only the free posts."
+            },
+            "preview": {
+                "title_guest": "What a guest sees",
+                "title_member": "What a member outside these groups sees",
+                "title_nobody": "What everyone but admins sees",
+                "title_meter": "What a guest sees after the limit",
+                "author": "Member {number}",
+                "first_post": "Welcome to the build log. This week I finally wired up the new cooling loop, and the temperatures under load dropped by eleven degrees. Below are the parts I used, the mistakes I made along the way and the numbers before and after, so you can skip the expensive ones.",
+                "reply": "Great write-up. I tried the same pump last year and had to swap the fittings twice before it stopped dripping. Which reservoir did you end up going with, and would you buy it again?",
+                "media_intro": "Full parts list in",
+                "link_words": "the spreadsheet",
+                "file_name": "build-notes.pdf"
+            }
+        }
+    }
+}

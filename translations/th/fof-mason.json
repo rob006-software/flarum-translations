@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": ""
+            },
+            "discussion-controls": {
+                "edit-answers": "แก้ไขข้อมูลฟิลด์"
+            },
+            "answers-modal": {
+                "compose-title": "",
+                "edit-title": "แก้ไขข้อมูลฟิลด์สำหรับ {title}",
+                "save": "บันทึกข้อมูลฟิลด์"
+            },
+            "post-answers": {
+                "no-answer": "ไม่มีข้อมูล"
+            },
+            "answers": {
+                "choose-option": "เลือกตัวเลือก",
+                "no-option-selected": "ยังไม่ได้เลือกตัวเลือก",
+                "required": ""
+            },
+            "tags": {
+                "inadequate-settings": "การตั้งค่าแท็กไม่ถูกต้อง กรุณาตั้งค่าให้อนุญาตแท็กหลัก (Primary Tag) และแท็กหลักรอง (Secondary Tag) ได้อย่างละไม่เกินหนึ่งแท็ก หรือปิดใช้งานฟีเจอร์ \"แท็กเป็นฟิลด์ (Tags as fields)\"\n",
+                "tags-label": "แท็ก"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "สร้างฟิลด์ใหม่",
+                "add-field": "เพิ่มฟิลด์",
+                "save-field": "บันทึกการเปลี่ยนแปลงฟิลด์",
+                "delete-field": "ลบฟิลด์",
+                "edit-field": "",
+                "add-answer": "เพิ่มตัวเลือกคำตอบ",
+                "delete-answer": "ลบคำตอบ",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": ""
+            },
+            "field-list": {
+                "empty": "",
+                "free-text": "",
+                "dropdown": ""
+            },
+            "answers": {
+                "help": "",
+                "suggest": "",
+                "unsuggest": ""
+            },
+            "fields": {
+                "edit": "แก้ไขฟิลด์ {field}",
+                "required": "จำเป็นต้องกรอก",
+                "name": "ชื่อฟิลด์",
+                "name-help": "ป้ายชื่อของฟิลด์ที่จะแสดงผลแก่สาธารณะ (ไม่รองรับการแปลภาษา)\n",
+                "description": "คำอธิบายฟิลด์",
+                "description-help": "ระบุคำอธิบายสั้นๆ (ระบุหรือไม่ก็ได้) เพื่ออธิบายจุดประสงค์หรือความจำเป็นของฟิลด์นี้\n",
+                "show_when_empty": "แสดงฟิลด์แม้ไม่มีข้อมูล",
+                "show_when_empty-help": "กำหนดว่าจะให้แสดงฟิลด์นี้ในโพสต์หรือไม่เมื่อไม่มีการกรอกข้อมูลใดๆ ไว้",
+                "validation": "การตรวจสอบรูปแบบข้อมูลที่กรอก",
+                "user_values_allowed": "อนุญาตให้ผู้ใช้กรอกข้อความเอง",
+                "user_values_allowed-help": "หากเปิดใช้งาน ผู้ใช้จะสามารถระบุค่าข้อมูลของตนเองได้นอกเหนือจากค่าที่ผู้ดูแลระบบกำหนดไว้ ค่าเหล่านั้นจะถูกตรวจสอบกับกฎในตัวเลือก \"การตรวจสอบรูปแบบข้อมูลที่กรอก\" หากปิดใช้งาน ผู้ใช้จะเลือกใช้ได้เฉพาะคำตอบที่แนะแนวทางไว้เท่านั้น\n",
+                "validation-help": "ตรวจสอบรูปแบบ <a>กฎการตรวจสอบความถูกต้องของ Laravel (Laravel validation rules)</a> ตัวอย่างเช่น: \"string|min:5\" หรือ \"url\"\n",
+                "icon": "ไอคอน",
+                "icon-help": "แสดงไอคอนหน้าค่าที่ผู้ใช้กรอก ดูตัวอย่างไอคอนที่สามารถใช้ได้จาก <a>เว็บไซต์ FontAwesome</a> โดยใช้ชื่อคลาสไอคอนเต็มรวมคำนำหน้าคลาส เช่น \"fas fa-bolt\"\n",
+                "save-field-for-answers": "กรุณากดบันทึกฟิลด์ก่อนจึงจะสามารถระบุตัวเลือกคำตอบได้",
+                "new-answer": "เพิ่มคำตอบใหม่",
+                "new-answer-placeholder": "ระบุข้อความที่นี่"
+            },
+            "messages": {
+                "delete-answer-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบตัวเลือกคำตอบ \"{content}\"? คำตอบนี้จะถูกลบออกจากทุกโพสต์ที่ใช้งาน หากคุณต้องการเก็บตัวเลือกคำตอบเดิมที่มีอยู่ในโพสต์ต่างๆ ไว้ โปรดเปลี่ยนไปใช้วิธีปิดตัวเลือกแนะนำคำตอบแทน ลบตัวเลือกคำตอบนี้หรือไม่?\n",
+                "delete-field-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบฟิลด์ \"{name}\"? ฟิลด์นี้รวมถึงตัวเลือกคำตอบทั้งหมดจะถูกลบออกจากทุกโพสต์ที่ใช้งาน ลบฟิลด์นี้หรือไม่?\n"
+            },
+            "settings": {
+                "fields-section-title": "ชื่อหัวข้อสำหรับส่วนฟิลด์ข้อมูลกำหนดเอง",
+                "fields-section-title-placeholder": "โดยค่าเริ่มต้นจะไม่แสดงหัวข้อใดๆ",
+                "fields-section-title-help": "ผู้ใช้จะเห็นข้อความนี้ด้านบนส่วนแสดงผลฟิลด์ข้อมูลกำหนดเองในเครื่องมือเขียนโพสต์และบนโพสต์\n",
+                "column-count": "จำนวนคอลัมน์ในการจัดวางฟิลด์ข้อมูล",
+                "n-columns": "",
+                "labels-as-placeholders": "แสดงชื่อป้ายฟิลด์เป็นข้อความอธิบายในช่องกรอก (Placeholder)",
+                "labels-as-placeholders-help": "ฟิลด์จะใช้พื้นที่แสดงผลในแนวตั้งน้อยลงและไม่แสดงไอคอน ทั้งนี้การเปิดใช้งานอาจส่งผลกระทบต่อความสะดวกในการใช้งาน โดยเฉพาะเมื่อมีการแก้ไขฟิลด์เดิมที่มีอยู่แล้ว\n",
+                "fields-in-hero": "",
+                "hide-empty-fields-section": "ซ่อนหัวข้อและเมนูควบคุมเมื่อฟิลด์ทั้งหมดเป็นค่าว่างหรือถูกซ่อน",
+                "hide-empty-fields-section-help": "",
+                "tags-as-field": "แสดงตัวเลือกแท็กเป็นฟิลด์ข้อมูลหนึ่ง",
+                "tags-as-field-help": "",
+                "tags-field-name": "ป้ายชื่อของฟิลด์แท็ก",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "ฟิลด์ข้อมูล",
+                "settings": "การตั้งค่าส่วนขยาย",
+                "field-answers": "คำตอบของฟิลด์"
+            },
+            "permissions": {
+                "see-own-fields": "ดูฟิลด์ข้อมูลในโพสต์ของตนเอง",
+                "see-other-fields": "ดูฟิลด์ข้อมูลในโพสต์ทั้งหมด",
+                "fill-fields": "กรอกฟิลด์ข้อมูลเมื่อเริ่มตั้งโพสต์ใหม่",
+                "update-own-fields": "แก้ไขข้อมูลฟิลด์ในโพสต์ของตนเอง",
+                "update-other-fields": "แก้ไขข้อมูลฟิลด์ในโพสต์ใดก็ได้",
+                "skip-required-fields": "ได้รับสิทธิ์ละเว้นไม่ต้องกรอกฟิลด์ข้อมูลที่จำเป็น"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "mason_answer": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "discussion": {
+                    "mason_answers_changed": ""
+                }
+            }
+        }
+    }
+}

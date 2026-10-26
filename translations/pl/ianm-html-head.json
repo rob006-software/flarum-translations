@@ -16,15 +16,15 @@
                 "location_label": "",
                 "pages_label": "",
                 "active_label": "Aktywny",
-                "empty_text": "",
+                "empty_text": "Brak elementów. Kliknij „Utwórz”, aby dodać pierwszy element sekcji head.",
                 "delete_button": "Usuń",
                 "edit_button": "Edytuj",
                 "delete_confirm": "",
                 "header_label": "Element w <code>head</code>"
             },
             "modal": {
-                "create_title": "Utwórz nowy element",
-                "edit_title": "Edytuj element",
+                "create_title": "Utwórz element sekcji head",
+                "edit_title": "Edytuj element sekcji head",
                 "description_label": "Opis",
                 "description_help": "",
                 "type_label": "",
@@ -50,7 +50,10 @@
                 "meta": {
                     "variant_label": "",
                     "name_label": "",
+                    "name_placeholder": "",
+                    "name_help": "",
                     "property_label": "",
+                    "property_placeholder": "",
                     "content_label": ""
                 },
                 "link": {

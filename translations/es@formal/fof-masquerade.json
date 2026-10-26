@@ -27,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Crear campo",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Guardar cambios",
-                "delete-field": "Eliminar campo"
+                "delete-field": "Eliminar campo",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Editar el perfil de otros usuarios",
@@ -37,9 +41,11 @@
             },
             "fields": {
                 "title": "Campos",
+                "trash": "",
                 "create": "Crear campo",
                 "edit": "Editar campo {field}",
                 "delete-confirmation": "¿Seguro que deseas borrar el campo {field}? Esto no se puede deshacer.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +103,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

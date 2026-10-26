@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **52** components.
+sides, but do not match between them: **362** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **54** components.
 
 <!-- {% raw %} -->
 
@@ -18,6 +18,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
 | `datlechin-birthdays` | [5](#datlechin-birthdays) |
 | `datlechin-link-preview` | [1](#datlechin-link-preview) |
+| `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) |
 | `flarum-approval` | [2](#flarum-approval) |
 | `flarum-emoji` | [1](#flarum-emoji) |
 | `flarum-extension-manager` | [13](#flarum-extension-manager) |
@@ -43,7 +44,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `fof-geoip` | [1](#fof-geoip) |
 | `fof-horizon` | [2](#fof-horizon) |
 | `fof-impersonate` | [1](#fof-impersonate) |
-| `fof-links` | [2](#fof-links) |
+| `fof-links` | [3](#fof-links) |
 | `fof-mailing` | [1](#fof-mailing) |
 | `fof-merge-discussions` | [7](#fof-merge-discussions) |
 | `fof-moderator-warnings` | [8](#fof-moderator-warnings) |
@@ -63,6 +64,7 @@ translated only in `de@formal`. Altogether they cover **52** components.
 | `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) |
 | `resofire-digest-mail` | [1](#resofire-digest-mail) |
 | `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
+| `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) |
 | `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
 
 
@@ -227,10 +229,10 @@ Die Ankündigungen konnten nicht geladen werden. Bitte <del>versuche</del><ins>v
 
 ```diff
 -Ändere die Farben, das Logo und weitere Variablen des Forums.
-+Verändern Sie die Farbe, das Logo und weitere Variablen des Forums.
++Ändern Sie die Farbe, das Logo und weitere Variablen des Forums.
 ```
 
-<del>Ändere</del><ins>Verändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
+<del>Ändere</del><ins>Ändern Sie</ins> die <del>Farben,</del><ins>Farbe,</ins> das Logo und weitere Variablen des Forums.
 
 #### [`core.admin.appearance.enter_hex_message`](https://weblate.rob006.net/translate/flarum2/core/de@formal/?q=context%3A%3D%22core.admin.appearance.enter_hex_message%22)
 
@@ -1542,6 +1544,20 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 ```
 
 Links in einem neuen <del>Browser-Tab</del><ins>Tab</ins> öffnen
+
+
+### `ernestdefoe-roleplay`
+
+#### [`ernestdefoe-roleplay.forum.deck_intro`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-roleplay/de@formal/?q=context%3A%3D%22ernestdefoe-roleplay.forum.deck_intro%22)
+
+> Build the cards your characters use in tactical encounters — abilities, items, spells and enemies, each with dice formulas the game engine rolls.
+
+```diff
+-Erstelle die Karten, die deine Charaktere in taktischen Begegnungen einsetzen – Fähigkeiten, Gegenstände, Zaubersprüche und Gegner, jeweils mit Würfelformeln, die die Spiel-Engine auswertet.
++Erstellen Sie die Karten, die Ihre Charaktere in taktischen Begegnungen einsetzen – Fähigkeiten, Gegenstände, Zaubersprüche und Gegner, jeweils mit Würfelformeln, die die Spiel-Engine auswertet.
+```
+
+<del>Erstelle</del><ins>Erstellen Sie</ins> die Karten, die <del>deine</del><ins>Ihre</ins> Charaktere in taktischen Begegnungen einsetzen – Fähigkeiten, Gegenstände, Zaubersprüche und Gegner, jeweils mit Würfelformeln, die die Spiel-Engine auswertet.
 
 
 ### `flarum-approval`
@@ -3035,6 +3051,17 @@ Horizon-Statistiken konnten nicht abgerufen werden. Bitte <del>überprüfe</del>
 
 Wenn <del>du</del><ins>Sie</ins> ein Markensymbol verwenden <del>möchtest,</del><ins>möchten,</ins> lautet <del>das</del><ins>der</ins> Präfix stattdessen<del> &lt;code&gt;fab</del> <del>fa-&lt;/code&gt;.</del><ins>&lt;code&gt;fab-fa-&lt;/code&gt;.</ins>
 
+#### [`fof-links.admin.edit_link.open_newtab`](https://weblate.rob006.net/translate/flarum2/fof-links/de@formal/?q=context%3A%3D%22fof-links.admin.edit_link.open_newtab%22)
+
+> Open in a new tab
+
+```diff
+-Link in neuem Tab öffnen
++In neuem Tab öffnen
+```
+
+<del>Link in</del><ins>In</ins> neuem Tab öffnen
+
 
 ### `fof-mailing`
 
@@ -4525,6 +4552,31 @@ Kirschblütenblätter des Frühlings, die über <del>deine</del><ins>Ihre</ins> 
 ```
 
 Legt fest, wie sich visuelle Effekte in <del>deinem</del><ins>Ihrem</ins> Konto verhalten.
+
+
+### `walsgit-recycle-bin`
+
+#### [`walsgit-recycle-bin.admin.mass_delete_all_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/de@formal/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_all_modal.text_start%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; ALL 
+
+```diff
+-Möchtest du wirklich ALLE 
++Möchten Sie wirklich ALLE 
+```
+
+<del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> wirklich ALLE 
+
+#### [`walsgit-recycle-bin.admin.mass_delete_all_post_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/de@formal/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_all_post_modal.text_start%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; ALL 
+
+```diff
+-Möchtest du wirklich ALLE 
++Möchten Sie wirklich ALLE 
+```
+
+<del>Möchtest</del><ins>Möchten</ins> <del>du</del><ins>Sie</ins> wirklich ALLE 
 
 
 ### `yippy-auth-ldap`

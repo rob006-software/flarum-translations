@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": ""
+            },
+            "discussion-controls": {
+                "edit-answers": "Edytuj pola"
+            },
+            "answers-modal": {
+                "compose-title": "",
+                "edit-title": "Edytuj pola dla {title}",
+                "save": "Zapisz pola"
+            },
+            "post-answers": {
+                "no-answer": "Brak odpowiedzi"
+            },
+            "answers": {
+                "choose-option": "Wybierz opcję",
+                "no-option-selected": "Nie wybrano żadnej opcji",
+                "required": ""
+            },
+            "tags": {
+                "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i jeden dodatkowy lub wyłącz opcję „Pokaż listę wyboru tagów jako pole”.\n",
+                "tags-label": "Tagi"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Nowe pole",
+                "add-field": "Dodaj pole",
+                "save-field": "Zapisz zmiany",
+                "delete-field": "Usuń pole",
+                "edit-field": "",
+                "add-answer": "Dodaj odpowiedź",
+                "delete-answer": "Usuń odpowiedź",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": ""
+            },
+            "field-list": {
+                "empty": "",
+                "free-text": "",
+                "dropdown": ""
+            },
+            "answers": {
+                "help": "",
+                "suggest": "",
+                "unsuggest": ""
+            },
+            "fields": {
+                "edit": "Edytuj pole {field}",
+                "required": "Wymagane",
+                "name": "Nazwa pola",
+                "name-help": "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n",
+                "description": "Opis pola",
+                "description-help": "Opcjonalny opis wyjaśniający, w jaki sposób pole będzie wykorzystywane.\n",
+                "show_when_empty": "Pokaż, jeśli puste",
+                "show_when_empty-help": "Czy pokazać to pole w dyskusji, nawet jeśli nie zostało uzupełnione",
+                "validation": "Walidacja dla wartości wprowadzonych przez użytkownika",
+                "user_values_allowed": "Pozwól użytkownikom podawać własne wartości",
+                "user_values_allowed-help": "Jeśli włączone, użytkownicy będą mogli podawać własne wartości zamiast tych zdefiniowanych przez administratora. Te wartości zostaną sprawdzone zgodnie z regułami walidacji podanymi poniżej. Jeśli wyłączone, użytkownicy będą mogli używać jedynie „sugerowanych” odpowiedzi.\n",
+                "validation-help": "Sprawdź obsługiwane <a>reguły walidacji Laravela</a>. Na przykład: „string|min:5” lub „url”.\n",
+                "icon": "Ikona",
+                "icon-help": "Pokazuje ikonę przed wartością podaną przez użytkownika. Aby zobaczyć, jakie ikony są dostępne, sprawdź <a>stronę FontAwesome</a>. Użyj pełnej klasy ikony zawierającej prefiks, na przykład „fas fa-bolt”.\n",
+                "save-field-for-answers": "Zapisz pole, aby dodawać odpowiedzi",
+                "new-answer": "Nowa odpowiedź",
+                "new-answer-placeholder": "Jakiś tekst"
+            },
+            "messages": {
+                "delete-answer-confirmation": "Czy jesteś pewien, że chcesz usunąć odpowiedź „{content}”? Zostanie ona usunięta ze wszystkich dyskusji, które ją wykorzystują. Jeśli chcesz zachować istniejące odpowiedzi, wyłącz jedynie sugerowanie tej odpowiedzi. Usunąć odpowiedź?\n",
+                "delete-field-confirmation": "Czy jesteś pewien, że chcesz usunąć pole „{name}”? Pole oraz jego odpowiedzi zostaną usunięte ze wszystkich dyskusji, które je wykorzystują. Usunąć pole?\n"
+            },
+            "settings": {
+                "fields-section-title": "Tytuł sekcji z niestandardowymi polami",
+                "fields-section-title-placeholder": "Domyślnie żaden tytuł nie zostanie wyświetlony",
+                "fields-section-title-help": "Użytkownicy zobaczą ten tekst nad niestandardowymi polami w edytorze oraz w dyskusji.\n",
+                "column-count": "Liczba kolumn do wyświetlania pól",
+                "n-columns": "",
+                "labels-as-placeholders": "Pokaż etykiety jako tekst zastępczy w polach formularza",
+                "labels-as-placeholders-help": "Pola będą zajmować mniej przestrzeni w pionie oraz ikony nie będą się wyświetlać. Miej na uwadze, że może mieć to wpływ na czytelność, zwłaszcza podczas edycji uzupełnionych pól.\n",
+                "fields-in-hero": "",
+                "hide-empty-fields-section": "Ukryj tytuł i kontrolki, jeśli wszystkie pola są puste i ukryte",
+                "hide-empty-fields-section-help": "",
+                "tags-as-field": "Pokaż listę wyboru tagów jako pole",
+                "tags-as-field-help": "",
+                "tags-field-name": "Etykieta dla pola z tagami",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "Pola",
+                "settings": "Ustawienia",
+                "field-answers": "Odpowiedzi dla pola"
+            },
+            "permissions": {
+                "see-own-fields": "Przeglądanie pól we własnych dyskusjach",
+                "see-other-fields": "Przeglądanie pól we wszystkich dyskusjach",
+                "fill-fields": "Uzupełnianie pól dla nowych dyskusji",
+                "update-own-fields": "Edycja pól we własnych dyskusjach",
+                "update-other-fields": "Edycja pól we wszystkich dyskusjach",
+                "skip-required-fields": "Pomijanie wymaganych pól"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "mason_answer": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "discussion": {
+                    "mason_answers_changed": ""
+                }
+            }
+        }
+    }
+}

@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
+                    "deprecated": "",
                     "title": "Impostazioni storage Imgur",
                     "tos": "È tua responsabilità assicurarti che gli utenti del tuo forum aderiscano ai <a>Termini di servizio</a> di Imgur"
                 },
@@ -193,6 +194,7 @@
                 "upload_mime_label": "",
                 "view_user_uploads_label": "Visualizza i caricamenti degli utenti",
                 "delete_uploads_of_others_label": "Cancella caricamenti degli utenti",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "",
                 "empty": "",
+                "load_error": "",
                 "release_to_upload": "",
                 "modal_empty_desktop": "",
                 "modal_empty_phone": "",

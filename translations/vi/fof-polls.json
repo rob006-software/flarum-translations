@@ -96,6 +96,9 @@
                     "edit_title": "Chỉnh sửa nhóm thăm dò ý kiến",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Xóa nhóm thăm dò ý kiến",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Quản lý nhóm thăm dò ý kiến",
                     "view_group": "Xem nhóm thăm dò ý kiến",
                     "success": "Đã lưu nhóm thăm dò ý kiến thành công."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Câu trả lời",
                 "image_option_placeholder": "URL ảnh (tuỳ chọn)",
                 "options_label": "Các câu trả lời",
+                "settings_label": "",
                 "public_poll_label": "Cho phép mọi người xem ai đã bình chọn",
                 "allow_multiple_votes_label": "Cho phép mọi người bỏ phiếu cho nhiều lựa chọn",
                 "max_votes_label": "Số phiếu bầu tối đa cho mỗi người dùng",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Xóa hình ảnh",
                 "upload_button": "Tải lên hình ảnh"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

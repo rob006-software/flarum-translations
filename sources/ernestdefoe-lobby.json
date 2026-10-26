@@ -1,0 +1,96 @@
+{
+    "ernestdefoe-lobby": {
+        "admin": {
+            "settings": {
+                "accent_label": "Accent colour",
+                "accent_help": "The colour of buttons, unread dots, the active tab and the Pinned chip. Lobby's own presets are tuned for its dark and light backgrounds; \"Forum colour\" uses the primary colour from Appearance.",
+                "accent_amber": "Amber",
+                "accent_blue": "Blue",
+                "accent_green": "Green",
+                "accent_pink": "Pink",
+                "accent_primary": "Forum colour",
+                "show_online_label": "Show the Online list",
+                "show_online_help": "The column on the right of the discussion list, and the Online widget for Bespoke and FoF Forum Widgets. Members who hide their online status are never listed.",
+                "online_limit_label": "People in the Online list",
+                "online_limit_help": "The most people listed at once, between 5 and 100. Anyone past the limit is counted underneath.",
+                "staff_groups_label": "Staff groups",
+                "staff_groups_help": "Members of these groups are listed first in the Online list, under Staff."
+            },
+            "permissions": {
+                "view_online": "See who is online"
+            }
+        },
+        "forum": {
+            "sidebar": {
+                "label": "Channels",
+                "channels": "Channels",
+                "tags": "Tags",
+                "members": "{count, plural, one {{formatted} member} other {{formatted} members}}",
+                "activity": "Activity",
+                "messages": "Messages",
+                "unread_messages": "{count, plural, one {# unread conversation} other {# unread conversations}}",
+                "more_tags": "All tags",
+                "explore": "Explore",
+                "mentions": "{count, plural, one {# unread mention} other {# unread mentions}}",
+                "unread": "New activity"
+            },
+            "presence": {
+                "online": "Online",
+                "invisible": "Invisible"
+            },
+            "phone": {
+                "open_channels": "Open channels",
+                "back": "Back",
+                "tabs": "Main",
+                "home": "Home",
+                "alerts": "Alerts",
+                "you": "You",
+                "log_in": "Log in"
+            },
+            "channel": {
+                "following": "Following"
+            },
+            "compose": {
+                "in_channel": "Start a discussion in #{channel}",
+                "anywhere": "Start a discussion"
+            },
+            "online": {
+                "label": "Online",
+                "empty": "Nobody else is here right now.",
+                "staff": "Staff — {count}",
+                "members": "Online — {count}",
+                "more": "{count, plural, one {and {formatted} more} other {and {formatted} more}}"
+            },
+            "topic": {
+                "replies": "{count, plural, one {{formatted} reply} other {{formatted} replies}}",
+                "participants_label": "{count, plural, one {# participant} other {# participants}}",
+                "participants": "Participants — {count}",
+                "solved": "Solved",
+                "jump_unread": "Jump to unread",
+                "thread_info": "Thread info",
+                "thread_info_and_controls": "Thread info and controls",
+                "started_by": "Started by",
+                "created": "Created",
+                "replies_label": "Replies",
+                "jump_to": "Jump to",
+                "first": "First",
+                "unread": "Unread",
+                "latest": "Latest",
+                "online": "Online",
+                "locked": "This discussion is locked.",
+                "message_in": "Message #{channel} › {title}",
+                "message": "Message {title}",
+                "today": "Today",
+                "yesterday": "Yesterday",
+                "new_messages": "New messages",
+                "replying_to": "replying to {name}"
+            },
+            "row": {
+                "pinned": "Pinned",
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "last": "last {ago}",
+                "new_since": "New since your last visit"
+            }
+        }
+    }
+}

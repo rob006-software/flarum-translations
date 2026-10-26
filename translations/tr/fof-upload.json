@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
+                    "deprecated": "",
                     "title": "Imgur görsel depolama ayarları",
                     "tos": "Forum kullanıcılarınızın Imgur'un <a>Hizmet Şartlarına</a> uymasını sağlamak sizin sorumluluğunuzdadır"
                 },
@@ -193,6 +194,7 @@
                 "upload_mime_label": "{label} Yükle",
                 "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
                 "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "Paylaşılan dosyaları yükle",
                 "access_shared_label": "Medya Yöneticisi'nde paylaşılan dosyalara erişim"
             },
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "Dosyalar yükleniyor...",
                 "empty": "Gönderilecek dosya bulunmuyor.",
+                "load_error": "",
                 "release_to_upload": "Yüklemeye hazırla",
                 "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya bir dosyayı buraya sürükleyin.",
                 "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",

@@ -3,21 +3,21 @@
         "forum": {
             "navbar": {
                 "widget_title": "論壇統計",
-                "discussions_count": "貼文數： {discussionsCount}",
-                "posts_count": "回貼數： {postsCount}",
+                "discussions_count": "主題數： {discussionsCount}",
+                "posts_count": "評論數： {postsCount}",
                 "users_count": "會員數： {usersCount}",
-                "latest_member": "新註冊： "
+                "latest_member": "最新成員： "
             }
         },
         "admin": {
             "settings": {
                 "cache_duration_label": "快取持續時間",
                 "cache_duration_help": "指定小部件的統計資料應緩存多長時間（以秒為單位）。 <code>0</code> 停用快取（不建議）。",
-                "flush_cache_on_new_registration_label": "新註冊時重整統計緩存",
-                "flush_cache_on_new_registration_help": "如果啟用，當新用戶在論壇上註冊時，統計快取將被重整。",
+                "flush_cache_on_new_registration_label": "新用戶註冊時刷新統計緩存",
+                "flush_cache_on_new_registration_help": "如果啟用，當新用戶在論壇上註冊時，統計快取將被刷新。",
                 "widget_ignore_private_discussions_label": "不統計私密主題",
-                "classic_look_label": "",
-                "classic_look_help": ""
+                "classic_look_label": "經典樣式",
+                "classic_look_help": "還原整合 fof/forum-widgets-core 前的 Widget 原始樣式。"
             },
             "permissions": {
                 "view_discussions_count_label": "查看論譚小部件主題數",

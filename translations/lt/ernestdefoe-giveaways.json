@@ -16,7 +16,11 @@
             "skill_forfeited": "",
             "skill_already_forfeited": "",
             "skill_answer_required": "",
-            "claim_not_winner": ""
+            "claim_not_winner": "",
+            "enter_own": "",
+            "draw_not_ended": "",
+            "locked_after_draw": "",
+            "ends_no_earlier": ""
         },
         "forum": {
             "nav": "",
@@ -35,16 +39,36 @@
             "status_active": "",
             "status_drawn": "",
             "status_cancelled": "",
+            "status_upcoming": "",
+            "status_draft": "",
+            "winner_count": "",
+            "tabs": {
+                "all": "",
+                "open": "",
+                "ended": "",
+                "drafts": ""
+            },
+            "drafts_heading": "",
+            "drafts_help": "",
+            "draft_notice": "",
+            "publish": "",
+            "published": "",
             "enter": "",
+            "hosting": "",
             "entered": "",
             "enter_again": "",
             "login_to_enter": "",
+            "not_started": "",
             "enter_success": "",
             "earn_more": "",
             "earn_post": "",
             "earned_post": "",
             "base_entry": "",
             "prize_label": "",
+            "starts_label": "",
+            "draw_time_label": "",
+            "view_discussion": "",
+            "your_prize": "",
             "description_label": "",
             "rules_label": "",
             "rules_intro": "",
@@ -77,6 +101,17 @@
             "claim_next_steps": "",
             "claim_skill_intro": "",
             "claim_answer_placeholder": "",
+            "participants": {
+                "button": "",
+                "title": "",
+                "entries": "",
+                "load_more": "",
+                "deleted_user": ""
+            },
+            "composer": {
+                "add": "",
+                "edit": ""
+            },
             "notification": {
                 "won_content": "",
                 "claimed_content": ""
@@ -115,11 +150,18 @@
                 "skill_attempts_help": "",
                 "cover_label": "",
                 "cover_placeholder": "",
+                "cover_pick": "",
                 "category_label": "",
                 "category_none": "",
                 "claim_label": "",
                 "claim_placeholder": "",
                 "claim_help": "",
+                "claim_lines_label": "",
+                "claim_lines_placeholder": "",
+                "claim_lines_help": "",
+                "save_draft": "",
+                "add_to_post": "",
+                "composer_help": "",
                 "ends_label": "",
                 "starts_label": "",
                 "winner_count_label": "",
@@ -137,8 +179,10 @@
             "perm_enter": "",
             "perm_create": "",
             "perm_manage": "",
+            "perm_view_participants": "",
             "nav_label_setting": "",
             "nav_label_help": "",
+            "nav_label_placeholder": "",
             "show_nav_setting": ""
         }
     }

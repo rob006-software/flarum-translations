@@ -20,15 +20,29 @@
             "test": "Test connection",
             "start": "Start import",
             "test_ok": "Connected. Here's what we found:",
+            "editor": "Posts will be written for this forum's editor: {editor}.",
             "test_failed": "Connection failed.",
             "start_failed": "Could not start the import.",
             "confirm_start": "Start importing now? This writes discussions, posts and members into this forum. Import into a fresh forum for best results.",
-            "starting": "Starting…",
             "running": "Import running",
             "complete": "Import complete",
             "failed": "Import failed",
             "shared_note": "Runs in small batches straight from your browser — no queue worker or SSH needed, so it works on shared hosting. Keep this tab open; if it's interrupted, reopen this page and it resumes where it left off.",
             "import_another": "Import another",
+            "sync": {
+                "title": "Keep the old forum in sync",
+                "messages_only_intro": "Content from {source} cannot be synced yet, but its private messages can be brought across: messages between members who were imported, added once each, however many times you run it.",
+                "intro": "Your {source} import can be brought up to date. A sync copies only what the old forum has gained since — new members, discussions and replies, and edits where {source} records them — and never touches anything written here.",
+                "last": "Last run: {date}",
+                "open": "Sync new content",
+                "start": "Sync now",
+                "cancel": "Cancel",
+                "password_help": "The password is never stored after a run, so enter it again.",
+                "upload_help": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
+                "confirm": "Bring across what the old forum has gained since the last run? Content written on this forum is left as it is.",
+                "running": "Sync running",
+                "complete": "Sync complete"
+            },
             "redirects": {
                 "title": "Keep the old links working",
                 "intro": "Your old forum's addresses are in Google, in bookmarks, and in every post that ever linked to a discussion. Turn this on and Flarum answers them — each old topic, tag and profile URL sends people to wherever that content ended up, with a permanent redirect so search engines move the ranking across instead of dropping it.\n",
@@ -49,6 +63,110 @@
                 "error_no_such_run": "That import no longer exists.",
                 "error_unknown_source": "No address patterns are known for that platform.",
                 "error_failed": "Could not save. Please try again."
+            },
+            "pm": {
+                "include": "Bring private messages across",
+                "help": "Conversations between two members become their Messages conversation. Conversations with three or more people come across as group conversations when Group Messages is installed. Only the people in a conversation can see it.",
+                "no_groups": "Group Messages is not installed, so conversations with three or more people will be skipped and counted. Install it first to bring them across too.",
+                "unavailable": "Private messages can be brought across once the Messages extension is enabled."
+            },
+            "count": {
+                "messages": "private messages",
+                "conversations": "conversations",
+                "pm_groups_skipped": "group conversations skipped",
+                "users": "users",
+                "categories": "categories",
+                "topics": "topics",
+                "posts": "posts",
+                "skipped": "skipped",
+                "edited": "edits copied",
+                "kept": "edits kept (changed here)"
+            }
+        },
+        "api": {
+            "unknown_source": "Unknown import source.",
+            "missing_run_id": "Missing run id.",
+            "run_not_found": "Import run not found.",
+            "starting": "Starting…",
+            "working": "Working…",
+            "complete": "Import complete.",
+            "failed": "Import failed: {error}",
+            "busy": "Import #{id} is still running. Let it finish (or reset it) before starting another.",
+            "sync": {
+                "complete": "Sync complete.",
+                "no_base": "There is no finished import to sync. Run an import first.",
+                "unsupported": "Syncing is not available for {source} yet. Its import still works; run it again into a fresh forum to pick up new content.",
+                "needs_password": "The source database password is not kept after a run. Enter it again to sync.",
+                "needs_connection": "This import is from before connection settings were kept, so enter the old forum's database details again (the same ones as the import).",
+                "needs_upload": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
+                "summary": "Synced {topics} new discussions, {posts} new posts, {users} new members, {edited} edited posts ({kept} edits kept because the post was changed here)."
+            },
+            "pm": {
+                "summary": "{messages} private messages in {conversations} new conversations.",
+                "groups_skipped": "{count} group conversations skipped: install Group Messages to bring them across, then sync.",
+                "unavailable": "Private messages skipped: Messages is not enabled."
+            },
+            "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
+            "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
+            "quote_wrote": "{name} wrote:",
+            "spoiler": "Spoiler",
+            "attachment": "Attachment: {name}",
+            "editor_plain": "plain text (no Markdown, BBCode or HTML editor)",
+            "sqlsrv_missing": "This server cannot connect to SQL Server directly: the PHP extension pdo_sqlsrv is not installed. Export the source database to a dump or CSV and use the file-upload import instead.",
+            "dump_unreadable": "Could not open the uploaded dump.",
+            "scratch_failed": "Could not create a scratch database at {path}",
+            "explain": {
+                "timed_out": "This server could not reach the source database at all: the connection timed out. The source MySQL server is not accepting connections from this server — usually a firewall blocking port 3306, MySQL listening on 127.0.0.1 only (bind-address), or the host not allowing remote MySQL (on cPanel, add this server's IP under Remote MySQL). If you cannot open it up, upload a dump instead, or load the dump into a database on this server and connect to 127.0.0.1.",
+                "no_answer": "Nothing answered at that host and port. Check the host and port, and that the database server is running and reachable from this server.",
+                "host_refused": "The source database refused this server's address. Grant the database user access from this server's IP (not just localhost).",
+                "bad_login": "The source database rejected the username or password. If they are right, the user may only be allowed to connect from localhost."
+            },
+            "not_source": {
+                "phpbb": "This doesn't look like a phpBB database (missing “{table}”). Check the table prefix.",
+                "vbulletin": "This doesn't look like a vBulletin database (missing “{table}”). Check the table prefix.",
+                "vbulletin5": "This doesn't look like a vBulletin 5 database (missing “{table}”).",
+                "mybb": "This doesn't look like a MyBB database (missing “{table}”). Check the table prefix.",
+                "smf": "This doesn't look like an SMF database (missing “{table}”). Check the table prefix.",
+                "vanilla": "This doesn't look like a Vanilla database (missing “{table}”). Check the table prefix.",
+                "invision": "This doesn't look like an Invision Community database (missing “{table}”).",
+                "xenforo": "This doesn't look like a XenForo database (missing “{table}”).",
+                "convoro": "This doesn't look like a Convoro database (missing “{table}”).",
+                "convoro_columns": "This database has the right table names but not Convoro's columns — is it really a Convoro forum?",
+                "discourse": "This doesn't look like a Discourse database (missing “{table}”). Discourse uses PostgreSQL.",
+                "nodebb": "This doesn't look like a NodeBB Redis store (no “global” or “categories:cid” key). Check the host, port and database number.",
+                "webwiz": "This doesn't look like a Web Wiz Forums database (missing “{table}”). Check the table prefix — Web Wiz ships tables as tblAuthor, tblForum, tblTopic, tblThread.",
+                "webwiz_columns": "Found the Web Wiz tables, but could not identify these columns: {columns}. This is likely a Web Wiz version with a different schema — send the output of a column listing for tblAuthor/tblForum/tblTopic/tblThread so the mapping can be extended."
+            },
+            "nodebb": {
+                "no_extension": "Importing from NodeBB requires the PHP “redis” (phpredis) extension on the server.",
+                "no_connect": "Could not connect to the NodeBB Redis server at {host}:{port}."
+            },
+            "upload": {
+                "no_file": "No file was uploaded (or it exceeded the server upload limit).",
+                "too_large": "That file is {size} — the limit is {limit}. Gzip the dump (.sql.gz) or import from a live database connection instead.",
+                "unreadable": "Could not read that file: {error}",
+                "wrong_source": "File loaded, but it doesn't look like a {source} database: {error}",
+                "skipped_batches": "{skipped} of {total} row batches in this dump could not be read and were skipped, so some content may be missing. Importing from a live database connection avoids this.",
+                "empty": "That file is empty.",
+                "binary": "That file doesn't look like a database dump — it appears to be binary. Upload a .sql, .sql.gz or SQLite file."
+            },
+            "phase": {
+                "finishing": "Finishing up…",
+                "boards": "Importing boards…",
+                "categories": "Importing categories…",
+                "channels": "Importing channels…",
+                "comments": "Importing comments…",
+                "discussions": "Importing discussions…",
+                "forums": "Importing forums…",
+                "members": "Importing members…",
+                "posts": "Importing posts…",
+                "topics": "Importing topics…",
+                "member_counts": "Updating member counts…",
+                "edits": "Copying edits…",
+                "sync": "Checking for new content…",
+                "avatars": "Importing avatars…",
+                "prune_tags": "Removing empty tags…",
+                "messages": "Importing private messages…"
             }
         }
     }

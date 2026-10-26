@@ -20,15 +20,29 @@
             "test": "测试连接",
             "start": "开始导入",
             "test_ok": "连接成功，检测到以下内容：",
+            "editor": "",
             "test_failed": "连接失败。",
             "start_failed": "无法开始导入。",
             "confirm_start": "确定要立即开始导入吗？此操作会向当前论坛写入讨论、帖子和成员数据。建议导入到全新的论坛中，以获得最佳效果。",
-            "starting": "正在启动…",
             "running": "正在导入",
             "complete": "导入完成",
             "failed": "导入失败",
             "shared_note": "导入会由当前浏览器页面分批执行，无需队列进程或 SSH，因此也适用于虚拟主机。请保持此标签页打开；如果过程中断，重新打开此页面即可从上次的位置继续。",
             "import_another": "导入另一个论坛",
+            "sync": {
+                "title": "",
+                "messages_only_intro": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "保持旧链接可用",
                 "intro": "旧论坛的链接可能已经被搜索引擎收录、加入书签，或出现在其他帖子的引用中。开启后，Flarum 会接管这些旧链接，将旧主题、标签和个人资料 URL 永久重定向到迁移后的对应内容，让搜索引擎能够将原有排名转移到新地址，而不是直接丢失。\n",
@@ -49,6 +63,111 @@
                 "error_no_such_run": "此导入记录已不存在。",
                 "error_unknown_source": "没有已知的此平台链接格式。",
                 "error_failed": "无法保存，请重试。"
+            },
+            "pm": {
+                "include": "",
+                "help": "",
+                "no_groups": "",
+                "unavailable": ""
+            },
+            "count": {
+                "messages": "",
+                "conversations": "",
+                "pm_groups_skipped": "",
+                "users": "",
+                "categories": "",
+                "topics": "",
+                "posts": "",
+                "skipped": "",
+                "edited": "",
+                "kept": ""
+            },
+            "starting": "正在启动…"
+        },
+        "api": {
+            "unknown_source": "",
+            "missing_run_id": "",
+            "run_not_found": "",
+            "starting": "",
+            "working": "",
+            "complete": "",
+            "failed": "",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
+            "pm": {
+                "summary": "",
+                "groups_skipped": "",
+                "unavailable": ""
+            },
+            "summary": "",
+            "summary_with_tags": "",
+            "quote_wrote": "",
+            "spoiler": "",
+            "attachment": "",
+            "editor_plain": "",
+            "sqlsrv_missing": "",
+            "dump_unreadable": "",
+            "scratch_failed": "",
+            "explain": {
+                "timed_out": "",
+                "no_answer": "",
+                "host_refused": "",
+                "bad_login": ""
+            },
+            "not_source": {
+                "phpbb": "",
+                "vbulletin": "",
+                "vbulletin5": "",
+                "mybb": "",
+                "smf": "",
+                "vanilla": "",
+                "invision": "",
+                "xenforo": "",
+                "convoro": "",
+                "convoro_columns": "",
+                "discourse": "",
+                "nodebb": "",
+                "webwiz": "",
+                "webwiz_columns": ""
+            },
+            "nodebb": {
+                "no_extension": "",
+                "no_connect": ""
+            },
+            "upload": {
+                "no_file": "",
+                "too_large": "",
+                "unreadable": "",
+                "wrong_source": "",
+                "skipped_batches": "",
+                "empty": "",
+                "binary": ""
+            },
+            "phase": {
+                "finishing": "",
+                "boards": "",
+                "categories": "",
+                "channels": "",
+                "comments": "",
+                "discussions": "",
+                "forums": "",
+                "members": "",
+                "posts": "",
+                "topics": "",
+                "member_counts": "",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": "",
+                "messages": ""
             }
         }
     }

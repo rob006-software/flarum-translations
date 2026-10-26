@@ -1,0 +1,12 @@
+{
+    "core": {
+        "admin": {
+            "email": {
+                "brevo_heading": "Paramètres de Brevo",
+                "brevo_description": "Envoyez des courriels via l'API de courriels transactionnels de Brevo. L'adresse de l'expéditeur doit être celle d'un expéditeur vérifié ou appartenir à un domaine authentifié dans Brevo.",
+                "mail_brevo_api_key_label": "Clé API",
+                "mail_brevo_api_key_help": "Créez-en une dans Brevo, sous « SMTP & API » → « Clés API ». Utilisez une clé API (qui commence par « xkeysib- »), et non une clé SMTP."
+            }
+        }
+    }
+}

@@ -29,6 +29,8 @@
                 "max_trackers_help": "每个磁力链接最多查询多少个 Tracker。设为 0 使用内置安全上限（12 个）。同时受总抓取时间限制，避免单个磁力链接长时间占用 PHP 工作进程。",
                 "topic_scrape_budget_label": "讨论页抓取时间上限（秒）",
                 "topic_scrape_budget_help": "讨论页中单个磁力链接抓取 Tracker 数据的总时间上限。默认 15 秒。讨论页追求完整统计，因此比列表悬浮提示分配更长时间。最高 30 秒，避免单个请求长时间占用 PHP 工作进程。",
+                "scrape_max_concurrent_label": "",
+                "scrape_max_concurrent_help": "",
                 "scraper_max_redirects_label": "Tracker 最大重定向次数",
                 "scraper_max_redirects_help": "抓取 HTTP(S) Tracker 时最多跟随多少次重定向。默认 0，即不跟随。如果 Tracker 位于 Cloudflare 或会将 http 重定向到 https 的 CDN 后，可设为 1–2。每次跳转仍会经过 SSRF 检查，无法转向私有或内网地址。",
                 "priority_trackers_label": "优先 Tracker",
@@ -112,6 +114,9 @@
                 "description": "如果这个扩展对你有帮助，可考虑小额捐赠，支持后续开发和维护。",
                 "copy": "复制地址",
                 "thanks": "感谢你的支持！"
+            },
+            "permissions": {
+                "view_magnet_links": ""
             }
         },
         "forum": {
@@ -152,6 +157,7 @@
                 "no_trackers": "磁力链接中没有 Tracker",
                 "no_http_trackers": "没有可用的 HTTP(S) Tracker",
                 "no_response": "Tracker 均无响应",
+                "busy": "",
                 "scraper_error": "无法连接 Tracker",
                 "load_failed": "磁力链接信息加载失败"
             },
@@ -159,6 +165,9 @@
                 "cooldown": "此磁力链接刚刚刷新过，{seconds} 秒后可再次刷新。所有人看到的已是最新结果。",
                 "quota": "已达到刷新次数上限，请在 {seconds} 秒后重试。"
             }
+        },
+        "email": {
+            "magnet_hidden": ""
         },
         "permissions": {
             "viewMagnetLinks": "查看磁力链接"

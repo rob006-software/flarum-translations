@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Durasi Cache Untuk Halaman Publik",
             "public_cache_ttl_help": "Tentukan berapa lama, dalam detik, halaman publik harus disimpan dalam cache. Nilai default adalah 604800 detik ( 1 minggu).",
             "clearing_cache_listener_label": "Bersihkan LSCache Saat Cache Flarum Dihapus",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Sajikan Konten Yang Sudah Usang",
             "serve_stale_help": "Jika diaktifkan, versi lama dari halaman yang disimpan dalam cache akan ditampilkan kepada pengunjung hingga salinan cache yang baru dibuat. Hal ini mengurangi beban server. Jika dinonaktifkan, halaman akan dibuat secara dinamis selama proses pembaruan cache, yang dapat meningkatkan waktu tunggu. Secara desain, opsi ini dapat menyajikan konten yang sudah kedaluwarsa. Jangan aktifkan ini jika Anda merasa hal tersebut tidak dapat diterima.",
             "purge_on_discussion_update_label": "Bersihkan URL atau cache Tag pada Pembaruan Diskusi",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Sepertinya server Anda tidak mendukung LSCache. Periksa konfigurasi server Anda. Server yang terdeteksi: <b>{server}</b>, jenis LiteSpeed yang terdeteksi: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Bersihkan LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

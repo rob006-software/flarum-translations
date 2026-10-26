@@ -12,6 +12,9 @@
                 "schedule_log_output": "Append scheduler output to log storage"
             }
         },
+        "api": {
+            "empty_draft_message": "There's nothing to save in this draft yet."
+        },
         "console": {
             "scheduled_drafts_disabled": "Scheduled drafts are currently disabled in settings.",
             "no_title_error": "Draft skipped: discussion title is missing."

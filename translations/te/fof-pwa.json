@@ -39,7 +39,26 @@
                 },
                 "other": {
                     "heading": "",
-                    "force_portrait_text": "",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
                     "window_controls_overlay_label": "",
@@ -117,6 +136,7 @@
             }
         },
         "api": {
+            "keys_invalid": "",
             "endpoint_https_required": "",
             "endpoint_host_not_allowed": ""
         },

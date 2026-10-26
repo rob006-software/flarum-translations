@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": ""
+            },
+            "discussion-controls": {
+                "edit-answers": "編輯字段"
+            },
+            "answers-modal": {
+                "compose-title": "",
+                "edit-title": "編輯{title}的字段",
+                "save": "儲存字段"
+            },
+            "post-answers": {
+                "no-answer": "無答案"
+            },
+            "answers": {
+                "choose-option": "請選擇",
+                "no-option-selected": "未選擇",
+                "required": ""
+            },
+            "tags": {
+                "inadequate-settings": "標籤設置配置不正確。最多允許一個主標籤和次標籤，或停止使用「標籤文字段」特性。\n",
+                "tags-label": "標籤"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "增加字段",
+                "add-field": "增加字段",
+                "save-field": "儲存字段",
+                "delete-field": "刪除字段",
+                "edit-field": "",
+                "add-answer": "增加答案",
+                "delete-answer": "刪除答案",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": ""
+            },
+            "field-list": {
+                "empty": "",
+                "free-text": "",
+                "dropdown": ""
+            },
+            "answers": {
+                "help": "",
+                "suggest": "",
+                "unsuggest": ""
+            },
+            "fields": {
+                "edit": "編輯字段{field}",
+                "required": "必填",
+                "name": "字段名稱",
+                "name-help": "公開可見（不可翻譯）的字段名。\n",
+                "description": "字段描述",
+                "description-help": "可選的描述，以解釋這段文字的用途/要求。\n",
+                "show_when_empty": "顯示空字段",
+                "show_when_empty-help": "不論字段是否為空，均在主題中顯示",
+                "validation": "檢查用戶輸入的值",
+                "user_values_allowed": "允許用戶輸入自定義值",
+                "user_values_allowed-help": "如果啟用此項，用戶可以增加自己的值，可以不選擇管理員指定的值。 這些值將根據「檢查」設置進行檢查。 如果禁用此項，他們只能使用「建議」的答案。\n",
+                "validation-help": "查看支援的 <a>Laravel 驗證規則</a>，例：\"string|min:5\" 或 \"url\"。\n",
+                "icon": "圖示",
+                "icon-help": "顯示在這個字段前的圖示。可用的圖示請查看 <a>FontAwesome 網站</a>，請使用完整圖示名，包括前綴，例如「fas fa-bolt」。\n",
+                "save-field-for-answers": "儲存此字段以增加選項答案",
+                "new-answer": "新建答案",
+                "new-answer-placeholder": "在此輸入本文"
+            },
+            "messages": {
+                "delete-answer-confirmation": "確定要刪除答案「{content}」？ 這將從所有使用它的主題中移除該答案，如果您想要保留現有答案請停用答案建議。 刪除答案？\n",
+                "delete-field-confirmation": "你確定要刪除字段「{name}」？ 這將從所有使用它們的主題中移除該字段及其答案。刪除字段？\n"
+            },
+            "settings": {
+                "fields-section-title": "自定義字段標題",
+                "fields-section-title-placeholder": "預設為空標題且不顯示",
+                "fields-section-title-help": "用戶將在文字編輯器和主題中看到這個文字。\n",
+                "column-count": "表單欄數",
+                "n-columns": "",
+                "labels-as-placeholders": "在表單的占位符中顯示字段名",
+                "labels-as-placeholders-help": "表單將占用更少的縱向空間，字段圖示將不再顯示。請注意，這可能會影響可用性，尤其是在編輯現有字段時。\n",
+                "fields-in-hero": "",
+                "hide-empty-fields-section": "當所有字段為空且隱藏時，隱藏標題和控件。",
+                "hide-empty-fields-section-help": "",
+                "tags-as-field": "將標籤選擇器作為一個字段顯示",
+                "tags-as-field-help": "",
+                "tags-field-name": "標籤字段名",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "表單欄位",
+                "settings": "設置",
+                "field-answers": "欄位答案"
+            },
+            "permissions": {
+                "see-own-fields": "查看自己現有主題的表單",
+                "see-other-fields": "查看所有現有主題的表單",
+                "fill-fields": "填寫新主題的表單",
+                "update-own-fields": "更新自己主題的表單",
+                "update-other-fields": "更新任意主題的表單",
+                "skip-required-fields": "允許跳過必填字段"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "mason_answer": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "discussion": {
+                    "mason_answers_changed": ""
+                }
+            }
+        }
+    }
+}

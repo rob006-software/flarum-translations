@@ -96,6 +96,9 @@
                     "edit_title": "Uredi grupu anketa",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Izbriši grupu anketa",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Upravitelj grupa anketa",
                     "view_group": "Pregledaj grupu anketa",
                     "success": "Grupa anketa je uspješno spremljena."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Odgovor",
                 "image_option_placeholder": "URL slike (nije obavezno)",
                 "options_label": "Odgovori",
+                "settings_label": "",
                 "public_poll_label": "Dozvoli pregled glasača",
                 "allow_multiple_votes_label": "Dozvoli glasanje za više opcija",
                 "max_votes_label": "Maksimalni broj glasova po korisniku",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Izbriši sliku",
                 "upload_button": "Učitaj sliku"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

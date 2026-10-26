@@ -6,10 +6,10 @@
                 "behaviour_description": "",
                 "display_label": "",
                 "display_description": "",
-                "discovery_label": "",
-                "discovery_description": "",
-                "maintenance_label": "",
-                "maintenance_description": "",
+                "notifications_label": "",
+                "notifications_description": "",
+                "advanced_label": "",
+                "advanced_description": "",
                 "extensions_label": "",
                 "extensions_description": ""
             },
@@ -57,6 +57,7 @@
                 "by_relation_label": "",
                 "export_button": "",
                 "empty": "",
+                "pending": "",
                 "unavailable": "",
                 "chart_label": ""
             },
@@ -92,24 +93,36 @@
             "reference": {
                 "deleted_text": ""
             },
-            "post": {
-                "referenced_by_text": "",
-                "others_text": ""
+            "links": {
+                "incoming_heading": "",
+                "outgoing_heading": "",
+                "all_button": "",
+                "summary_button": "",
+                "modal_title": "",
+                "post_modal_title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "map_tab": "",
+                "add_button": "",
+                "manage_button": "",
+                "load_more_button": "",
+                "empty": "",
+                "by_text": "",
+                "edit_button": "",
+                "remove_button": "",
+                "remove_confirmation": ""
             },
-            "discussion": {
-                "referenced_by_title": "",
-                "references_title": "",
-                "show_all_button": ""
+            "post": {
+                "linked_from_text": "",
+                "more_button": ""
             },
             "related": {
                 "title": ""
             },
-            "most_referenced": {
-                "sort": ""
+            "sort": {
+                "most_linked": ""
             },
-            "graph": {
-                "title": "",
-                "description": "",
+            "map": {
                 "empty": "",
                 "accessible_label": ""
             },
@@ -120,26 +133,48 @@
                 "supersedes": "",
                 "answers": ""
             },
-            "manual": {
-                "add_button": "",
-                "title": "",
+            "form": {
+                "add_title": "",
+                "edit_title": "",
                 "target_label": "",
                 "target_placeholder": "",
-                "relation_label": "",
+                "no_results": "",
+                "change_button": "",
+                "type_label": "",
                 "note_label": "",
                 "note_placeholder": "",
-                "submit_button": ""
+                "add_button": "",
+                "save_button": ""
             },
             "event_post": {
-                "referenced": ""
+                "linked": "",
+                "linked_from": ""
             },
             "notifications": {
-                "discussion_referenced_text": "",
-                "post_referenced_text": ""
+                "discussion_linked_text": "",
+                "post_linked_text": "",
+                "followed_discussion_linked_text": ""
+            },
+            "settings": {
+                "notify_discussion_linked_label": "",
+                "notify_post_linked_label": "",
+                "notify_followed_discussion_linked_label": ""
+            }
+        },
+        "api": {
+            "manual": {
+                "not_found_message": "",
+                "same_discussion_message": "",
+                "duplicate_message": "",
+                "source_required_message": ""
             }
         },
         "email": {
             "discussion_referenced": {
+                "subject": "",
+                "body": ""
+            },
+            "followed_discussion_referenced": {
                 "subject": "",
                 "body": ""
             },

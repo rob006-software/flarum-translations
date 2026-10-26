@@ -1,0 +1,328 @@
+{
+    "ernestdefoe-onramp": {
+        "lib": {
+            "errors": {
+                "type": "",
+                "count": "",
+                "path": "",
+                "too_long": "",
+                "points": ""
+            },
+            "types": {
+                "avatar": {
+                    "title": "Verbinde deinen Namen mit einem Gesicht",
+                    "description": "Füge ein Profilbild hinzu, damit man dich im Forum wiedererkennt.",
+                    "button": "Ein Foto hinzufügen"
+                },
+                "bio": {
+                    "title": "Erzähle etwas über dich",
+                    "description": "",
+                    "button": "Schreibe deine Biografie"
+                },
+                "nickname": {
+                    "title": "Wähle einen Anzeigenamen",
+                    "description": "Wähle den Namen aus, der neben deinen Beiträgen angezeigt werden soll.",
+                    "button": "Anzeigenamen festlegen"
+                },
+                "email_confirmed": {
+                    "title": "Bestätige deine E-Mail-Adresse",
+                    "description": "Bestätige deine E-Mail-Adresse, damit du keine Antwort oder Erwähnung verpasst.",
+                    "button": "Meine E-Mail-Einstellungen überprüfen"
+                },
+                "read": {
+                    "title": "{count, plural, one {Lies eine Diskussion} other {Lies # Diskussionen}}",
+                    "description": "",
+                    "button": "Diskussionen durchsuchen"
+                },
+                "discussion": {
+                    "title": "{count, plural, one {Beginne deine erste Diskussion} other {Beginne # Diskussionen}}",
+                    "title_in_tag": "",
+                    "description": "",
+                    "button": "Beginne eine Diskussion"
+                },
+                "reply": {
+                    "title": "{count, plural, one {Antworte in einer Diskussion} other {Antworte # Mal}}",
+                    "title_in_tag": "",
+                    "description": "",
+                    "button": "Finde eine Diskussion"
+                },
+                "visit": {
+                    "title": "Besuche eine Seite",
+                    "description": "",
+                    "button": ""
+                },
+                "mention": {
+                    "title": "",
+                    "description": "",
+                    "button": "Finde eine Diskussion"
+                },
+                "like_given": {
+                    "title": "{count, plural, one {Like einen Beitrag} other {Like # Beiträge}}",
+                    "description": "",
+                    "button": ""
+                },
+                "like_received": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "reaction_given": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "upvote_given": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "best_answer": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "follow_discussion": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "follow_tag": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "poll_vote": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "upload": {
+                    "title": "",
+                    "description": "",
+                    "button": "Finde eine Diskussion"
+                },
+                "message": {
+                    "title": "{count, plural, one {Sende eine Privatnachricht} other {Sende # Privatnachrichten}}",
+                    "description": "",
+                    "button": "Öffne Nachrichten"
+                },
+                "private_discussion": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "streak": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                }
+            }
+        },
+        "forum": {
+            "launcher": {
+                "label": "Dein Fortschritt: {done} von {total} abgeschlossen",
+                "title": "Dein Fortschritt",
+                "sub": "{count, plural, =0 {Alles fertig} one {Noch ein Schritt} other {Noch # Schritte}}",
+                "next": "Als Nächstes",
+                "see_all": ""
+            },
+            "page": {
+                "title": "Dein Fortschritt",
+                "intro": "",
+                "graduated_title": "Du hast es geschafft",
+                "graduated_text": "",
+                "closed_text": "",
+                "none": "",
+                "reward": "",
+                "reward_earned": "",
+                "close": "",
+                "close_confirm": "",
+                "reopen": ""
+            },
+            "step": {
+                "required": "Erforderlich",
+                "skip": "Überspringen",
+                "skipped": "Übersprungen",
+                "undo_skip": "",
+                "progress": "{done} von {total}",
+                "points": "{count, plural, one {# Punkt} other {# Punkte}}"
+            },
+            "toast": {
+                "step": "Schritt abgeschlossen: {title}",
+                "points": "{count, plural, one {+# Punkt} other {+# Punkte}}",
+                "graduated": ""
+            },
+            "notifications": {
+                "step": "",
+                "graduated": "",
+                "reminder": ""
+            },
+            "settings": {
+                "notify_step": "",
+                "notify_graduated": "",
+                "notify_reminder": ""
+            },
+            "widget": {
+                "title": "Dein Fortschritt"
+            },
+            "member": {
+                "tab": "Onramp",
+                "none": "",
+                "status_open": "Auf dem Weg",
+                "status_graduated": "Einarbeitung abgeschlossen",
+                "status_closed": "",
+                "started": "Begonnen",
+                "finished": "abgeschlossen",
+                "tick": "Als fertig markieren",
+                "tick_confirm": "",
+                "start": "",
+                "close": "",
+                "reopen": "",
+                "reset": "Von vorne beginnen",
+                "reset_confirm": "Den Weg dieses Mitglieds von vorne beginnen? Bereits ausgezahlte Prämien werden nicht erneut ausgezahlt."
+            }
+        },
+        "admin": {
+            "widgets": {
+                "journey": ""
+            },
+            "permissions": {
+                "view_members": ""
+            },
+            "tabs": {
+                "steps": "Fortschritt",
+                "settings": "Einstellungen",
+                "funnel": "Trichter"
+            },
+            "load_failed": "",
+            "needs_gamification": "",
+            "needs_points": "",
+            "needs_badges": "",
+            "export": "Exportieren",
+            "import": "Importieren",
+            "import_invalid": "",
+            "presets": {
+                "choose": "",
+                "starter": "Einsteiger — vier Schritte",
+                "community": "Community — sieben Schritte",
+                "full": "Vollständig — zwölf Schritte",
+                "replace_confirm": ""
+            },
+            "steps": {
+                "intro": "",
+                "empty": "",
+                "add": "Schritt hinzufügen",
+                "edit": "Schritt bearbeiten",
+                "delete": "Schritt löschen",
+                "delete_confirm": "",
+                "drag": "Zum Neuanordnen ziehen",
+                "type": "",
+                "from_extension": "Gezählt durch {extension}.",
+                "count": "Wie oft",
+                "tag": "",
+                "any_tag": "Jeder Tag",
+                "path": "Seite",
+                "path_help": "",
+                "title": "Titel",
+                "description": "Beschreibung",
+                "button_label": "",
+                "button_url": "",
+                "button_url_placeholder": "",
+                "icon": "Symbol",
+                "points": "Punkte",
+                "points_short": "{count} Pkt.",
+                "badge": "Abzeichen",
+                "no_badge": "Kein Abzeichen",
+                "has_badge": "Abzeichen",
+                "required": "Erforderlich",
+                "required_short": "Erforderlich",
+                "required_help": "",
+                "enabled": "",
+                "off": "Aus",
+                "unavailable": "Erweiterung aus",
+                "save": "Schritt speichern"
+            },
+            "types": {
+                "avatar": "Füge ein Profilbild hinzu",
+                "bio": "",
+                "nickname": "",
+                "email_confirmed": "",
+                "read": "Diskussionen lesen",
+                "discussion": "Diskussionen starten",
+                "reply": "In Diskussionen antworten",
+                "visit": "Eine Seite besuchen",
+                "mention": "Jemanden erwähnen (Mentions)",
+                "like_given": "Beiträge liken (Likes)",
+                "like_received": "Likes empfangen (Likes)",
+                "reaction_given": "",
+                "upvote_given": "",
+                "best_answer": "",
+                "follow_discussion": "Diskussionen folgen (Subscriptions)",
+                "follow_tag": "",
+                "poll_vote": "",
+                "upload": "",
+                "message": "",
+                "private_discussion": "",
+                "streak": ""
+            },
+            "settings": {
+                "enabled": "Onramp ist angeschaltet",
+                "enabled_help": "",
+                "launcher": "",
+                "launcher_help": "Ein Ring, der neben den Benachrichtigungen den Fortschritt des Mitglieds anzeigt, wobei der nächste Schritt nur einen Fingertipp entfernt ist. Drücke J, um ihn zu öffnen.",
+                "reward_heading": "",
+                "reward_help_points": "",
+                "reward_help_badge": "",
+                "reward_help_both": "",
+                "reward_points": "Punkte",
+                "reward_badge": "Abzeichen",
+                "reward_badge_help": "",
+                "reward_group": "Zu Gruppe hinzufügen",
+                "reward_group_help": "",
+                "no_group": "Keine Gruppe",
+                "reminders_heading": "",
+                "reminders": "Erinnerungen senden",
+                "reminders_help": "",
+                "reminder_days": "",
+                "reminder_days_help": "",
+                "close_after": "",
+                "close_after_help": ""
+            },
+            "start": {
+                "heading": "Mitglieder, die vor der Aktivierung von Onramp beigetreten sind",
+                "help": "",
+                "button": "",
+                "result": ""
+            },
+            "funnel": {
+                "weeks": "{count, plural, other {Letzte # Wochen}}",
+                "empty": "",
+                "started": "Begonnen",
+                "graduated": "Abgeschlossen",
+                "open": "Auf dem Weg",
+                "closed": "",
+                "rate": "",
+                "step": "Schritt",
+                "reached": "",
+                "median": "",
+                "stuck": "",
+                "bottleneck": "",
+                "cohorts": "",
+                "week": "Woche vom",
+                "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "days": "{count, plural, one {# Tag} other {# Tage}}"
+            },
+            "badges": {
+                "steps_completed": "",
+                "graduated": ""
+            }
+        },
+        "email": {
+            "reminder": {
+                "subject": "",
+                "body": "Du bist fast da. Als Nächstes: {next}.\n\nMach dort weiter, wo du aufgehört hast: {url}\n"
+            }
+        }
+    }
+}

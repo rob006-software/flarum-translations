@@ -4,8 +4,28 @@
             "permissions": {
                 "spamblock_users_label": "标记垃圾用户"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "设置",
+                "sign_ups": {
+                    "heading": "",
+                    "introduction": "",
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
                 "content-filter": {
                     "heading": "内容过滤",
                     "introduction": "自动检测并标记新用户发布的垃圾内容。系统会检查近期新用户发布的帖子和讨论，识别电话号码、邮箱地址和可疑 URL 等常见垃圾内容特征。",
@@ -35,8 +55,14 @@
                     "auto_unapprove_help": "开启后，触发垃圾内容阈值的帖子会自动移入小黑屋等待审核（需要 flarum/approval）。社区管理人员审核通过后，才会重新显示。",
                     "auto_flag_label": "自动举报",
                     "auto_flag_help": "开启后，触发举报阈值的帖子会被自动举报，等待管理人员处理（需要 flarum/flags）。举报原因会写明系统判定依据。",
-                    "system_user_id_label": "机器账号",
-                    "system_user_id_help": "用于执行自动操作的用户 ID，通常为管理员或系统账号。默认为用户 ID 1。",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
                     "no_action_extensions": "安装 flarum/approval、flarum/flags 扩展以启用自动举报、自动提起审核功能。",
                     "allowlist_heading": "域名白名单",
                     "allowed_domains_label": "允许的域名",
@@ -46,7 +72,9 @@
                     "blocked_words_help": "每行填写一个禁止出现的词语或短语。不区分大小写，仅匹配独立出现的词语。与其他字符连续出现时不会命中。例如「菠菜」不会匹配「在线菠菜平台」。",
                     "advanced_patterns_heading": "高级拦截",
                     "advanced_block_patterns_label": "正则表达式",
-                    "advanced_block_patterns_help": "供高级用户使用的自定义正则表达式，请谨慎配置。无效规则会被跳过。格式应为 JSON 对象数组，每个对象均为“pattern”+“description”的键值对。"
+                    "advanced_block_patterns_help": "供高级用户使用的自定义正则表达式，请谨慎配置。无效规则会被跳过。格式应为 JSON 对象数组，每个对象均为“pattern”+“description”的键值对。",
+                    "system_user_id_label": "机器账号",
+                    "system_user_id_help": "用于执行自动操作的用户 ID，通常为管理员或系统账号。默认为用户 ID 1。"
                 },
                 "default-actions": {
                     "delete_user_label": "删除用户",
@@ -65,6 +93,10 @@
                     "username_label": "检查用户名",
                     "ip_label": "检查 IP 地址",
                     "email_label": "检查邮箱",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "命中数",
                     "frequency_help": "将已启用检查项的命中次数累加，达到此值时，将拦截注册。\n例如邮箱命中 1 次、IP 命中 2 次，合计 3 次。命中数设为 3 或更低时，此次注册将被拦截。\n",
                     "api_key_label": "API 密钥",
@@ -81,8 +113,6 @@
                     "blocked_asns_help": "填写需要直接拦截的 ASN，每行一个，也可以用英文逗号分隔。来自这些网络的注册会直接被拒绝，无论该 IP 是否已被 StopForumSpam 收录。支持填写 `31272` 或 `AS31272`。留空则仅记录查询到的 ASN，不进行拦截。",
                     "max_listing_age_label": "忽略早于指定天数的记录",
                     "max_listing_age_help": "过于久远的记录对当前注册的参考价值有限。设为 0 则不限时间，所有历史记录均参与判断。已列入黑名单的域名和网络不受此设置影响。",
-                    "registration_throttle_label": "限制同一地址连续注册",
-                    "registration_throttle_help": "Flarum 默认会限制发帖频率，但不会限制同一 IP 的注册频率。此项用于设置同一 IP 两次注册之间的最短间隔，设为 0 则关闭限制。办公网、校园网和移动网络可能多人共用同一 IP，建议不要将间隔设置过长。",
                     "lookup_failed": "无法连接 StopForumSpam（上次失败于 {when}）。恢复连接前，注册检查会临时关闭。",
                     "email_hash_label": "哈希邮箱地址",
                     "email_hash_help": "开启后，查询 StopForumSpam 时只会发送邮箱地址的 MD5 哈希值，不会发送原始邮箱地址。但是会导致无法使用黑名单、地址规范化和混淆识别等检查，可能降低垃圾注册的识别效果。",
@@ -91,8 +121,11 @@
                     "sfs_lookup_label": "检查新用户注册",
                     "sfs_lookup_help": "用户注册时，使用 StopForumSpam 服务检查注册信息和置信度，若命中数和置信度满足设置的条件，则禁止注册。",
                     "report_blocked_registrations_label": "共享拦截信息",
-                    "report_blocked_registrations_help": "开启后，被「检查新用户注册」拦截的注册会自动上报至 StopForumSpam，帮助完善恶意行为识别。使用此功能前，请先配置 StopForumSpam API 密钥（见下方）。"
-                }
+                    "report_blocked_registrations_help": "开启后，被「检查新用户注册」拦截的注册会自动上报至 StopForumSpam，帮助完善恶意行为识别。使用此功能前，请先配置 StopForumSpam API 密钥（见下方）。",
+                    "registration_throttle_label": "限制同一地址连续注册",
+                    "registration_throttle_help": "Flarum 默认会限制发帖频率，但不会限制同一 IP 的注册频率。此项用于设置同一 IP 两次注册之间的最短间隔，设为 0 则关闭限制。办公网、校园网和移动网络可能多人共用同一 IP，建议不要将间隔设置过长。"
+                },
+                "button": "设置"
             },
             "statistics": {
                 "heading": "恶意行为防护",
@@ -150,7 +183,11 @@
                         "frequency": "命中数",
                         "blacklisted": "黑名单",
                         "torExit": "Tor 出口节点",
-                        "deniedAsn": "封禁网络"
+                        "deniedAsn": "封禁网络",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
                     },
                     "field": {
                         "ip": "IP",
@@ -178,12 +215,19 @@
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
                 "flagged_as_spam_text": "识别到垃圾内容 · 评分 {score}"
             },
             "message": {
                 "profile": {
                     "blocked": "检测到疑似垃圾内容，无法保存。请移除可疑链接或联系方式后重试。"
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
                 },
                 "stopforumspam": {
                     "blocked": "网络环境异常。"
@@ -200,6 +244,7 @@
                 "move_discussions_tag_label": "移动讨论至隔离标签",
                 "move_discussions_tag_help": "将此用户发起的所有讨论移动至指定的标签，并清除原标签。关闭此项，保留原标签。",
                 "process_button": "处理",
+                "success": "",
                 "title": "将 {username} 标记为垃圾用户",
                 "report_to_sfs_label": "上报至 StopForumSpam",
                 "report_to_sfs_help": "将此用户的用户名、邮箱和 IP 地址上报至 StopForumSpam，帮助其他使用 StopForumSpam 的论坛识别并拦截该用户。"

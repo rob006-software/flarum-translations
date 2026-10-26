@@ -6,12 +6,16 @@
                 "behaviour_description": "Những liên kết nào trong bài viết được ghi nhận là tham chiếu.",
                 "display_label": "Hiển thị",
                 "display_description": "Tham chiếu xuất hiện ở đâu, và hiển thị bao nhiêu mục trước khi danh sách bị cắt bớt.",
+                "notifications_label": "",
+                "notifications_description": "",
+                "advanced_label": "",
+                "advanced_description": "",
+                "extensions_label": "Tiện ích khác",
+                "extensions_description": "Những thiết lập mà các tiện ích khác thêm vào trang này.",
                 "discovery_label": "Khám phá",
                 "discovery_description": "Các tiện ích được dựng từ đồ thị tham chiếu.",
                 "maintenance_label": "Bảo trì",
-                "maintenance_description": "Một tham chiếu tới nội dung đã bị xóa được giữ lại bao lâu.",
-                "extensions_label": "Tiện ích khác",
-                "extensions_description": "Những thiết lập mà các tiện ích khác thêm vào trang này."
+                "maintenance_description": "Một tham chiếu tới nội dung đã bị xóa được giữ lại bao lâu."
             },
             "settings": {
                 "enabled_label": "Ghi nhận tham chiếu",
@@ -57,6 +61,7 @@
                 "by_relation_label": "Chúng thể hiện điều gì",
                 "export_button": "Xuất CSV",
                 "empty": "Chưa ghi nhận gì.",
+                "pending": "",
                 "unavailable": "Không đọc được các số liệu.",
                 "chart_label": "Số tham chiếu mỗi ngày. {count, plural, one {# ngày} other {# ngày}} có hoạt động, cao điểm nhất là {peak}."
             },
@@ -92,17 +97,82 @@
             "reference": {
                 "deleted_text": "[đã xóa]"
             },
+            "links": {
+                "incoming_heading": "",
+                "outgoing_heading": "",
+                "all_button": "",
+                "summary_button": "",
+                "modal_title": "",
+                "post_modal_title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "map_tab": "",
+                "add_button": "",
+                "manage_button": "",
+                "load_more_button": "",
+                "empty": "",
+                "by_text": "",
+                "edit_button": "",
+                "remove_button": "",
+                "remove_confirmation": ""
+            },
             "post": {
+                "linked_from_text": "",
+                "more_button": "",
                 "referenced_by_text": "{discussions} {count, plural, one {tham chiếu} other {tham chiếu}} tới nội dung này",
                 "others_text": "{count, plural, one {# người khác} other {# người khác}}"
+            },
+            "related": {
+                "title": "Cuộc thảo luận liên quan"
+            },
+            "sort": {
+                "most_linked": ""
+            },
+            "map": {
+                "empty": "",
+                "accessible_label": ""
+            },
+            "relation": {
+                "references": "tham chiếu tới",
+                "duplicate_of": "trùng với",
+                "see_also": "xem thêm",
+                "supersedes": "thay thế cho",
+                "answers": "trả lời cho"
+            },
+            "form": {
+                "add_title": "",
+                "edit_title": "",
+                "target_label": "",
+                "target_placeholder": "",
+                "no_results": "",
+                "change_button": "",
+                "type_label": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "add_button": "",
+                "save_button": ""
+            },
+            "event_post": {
+                "linked": "",
+                "linked_from": "",
+                "referenced": "{username} đã tham chiếu tới cuộc thảo luận này"
+            },
+            "notifications": {
+                "discussion_linked_text": "",
+                "post_linked_text": "",
+                "followed_discussion_linked_text": "",
+                "discussion_referenced_text": "{username} đã tham chiếu tới một cuộc thảo luận bạn mở",
+                "post_referenced_text": "{username} đã tham chiếu tới bài viết của bạn"
+            },
+            "settings": {
+                "notify_discussion_linked_label": "",
+                "notify_post_linked_label": "",
+                "notify_followed_discussion_linked_label": ""
             },
             "discussion": {
                 "referenced_by_title": "{count, plural, one {# tham chiếu} other {# tham chiếu}}",
                 "references_title": "Cuộc thảo luận này tham chiếu tới",
                 "show_all_button": "Xem tất cả"
-            },
-            "related": {
-                "title": "Cuộc thảo luận liên quan"
             },
             "most_referenced": {
                 "sort": "Được tham chiếu nhiều nhất"
@@ -113,13 +183,6 @@
                 "empty": "Chưa có gì để vẽ.",
                 "accessible_label": "{count, plural, one {# cuộc thảo luận} other {# cuộc thảo luận}} và các liên kết giữa chúng"
             },
-            "relation": {
-                "references": "tham chiếu tới",
-                "duplicate_of": "trùng với",
-                "see_also": "xem thêm",
-                "supersedes": "thay thế cho",
-                "answers": "trả lời cho"
-            },
             "manual": {
                 "add_button": "Thêm một tham chiếu",
                 "title": "Thêm một tham chiếu",
@@ -129,19 +192,24 @@
                 "note_label": "Ghi chú",
                 "note_placeholder": "Vì sao hai nội dung này thuộc về nhau",
                 "submit_button": "Thêm"
-            },
-            "event_post": {
-                "referenced": "{username} đã tham chiếu tới cuộc thảo luận này"
-            },
-            "notifications": {
-                "discussion_referenced_text": "{username} đã tham chiếu tới một cuộc thảo luận bạn mở",
-                "post_referenced_text": "{username} đã tham chiếu tới bài viết của bạn"
+            }
+        },
+        "api": {
+            "manual": {
+                "not_found_message": "",
+                "same_discussion_message": "",
+                "duplicate_message": "",
+                "source_required_message": ""
             }
         },
         "email": {
             "discussion_referenced": {
                 "subject": "Cuộc thảo luận của bạn được tham chiếu: {title}",
                 "body": "{username} đã tham chiếu tới cuộc thảo luận của bạn trong một cuộc thảo luận khác.\n\n{url}\n"
+            },
+            "followed_discussion_referenced": {
+                "subject": "",
+                "body": ""
             },
             "post_referenced": {
                 "subject": "Bài viết của bạn được tham chiếu trong {title}",

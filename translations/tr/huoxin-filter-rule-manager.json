@@ -100,6 +100,9 @@
                 "global_evasion_threshold_help": "Atlatma cezası uygulamak için zaman aşımı süresi içinde gereken engelleme sayısı. (Varsayılan: 2)",
                 "global_evasion_log_keep_days": "Atlatma Günlüğü Saklama Süresi (gün)",
                 "global_evasion_log_keep_days_help": "Günlük temizlemeyi devre dışı bırakmak ve günlükleri süresiz saklamak için 0 olarak ayarlayın. (Varsayılan: 0)",
+                "global_evasion_flag_message": "Özel Atlatma Bildirimi Mesajı",
+                "global_evasion_flag_message_placeholder": "Tüm eşleşmelerin ayrıntılarını içeren varsayılan mesajı kullanmak için boş bırakın",
+                "global_evasion_flag_message_help": "İsteğe bağlı. Filtreyi aşma girişimi tespit edildiğinde oluşturulan moderasyon şikayetleri için özel mesaj şablonu.",
                 "obfuscate_active": "Ön Uç Veri Gizlemesini Etkinleştir",
                 "obfuscate_active_help": "Etkinleştirilirse, tarayıcıya gönderilen Bilgi ve Uyarı filtre kurallarının JSON yükü XOR ile gizlenir. Bu, kuralların doğrudan incelenmesini zorlaştırır.",
                 "obfuscate_key": "Özel Gizleme Anahtarı",
@@ -255,6 +258,15 @@
             "token_matched_string_desc": "Regex tarafından yakalanan alt metin dizesi",
             "token_matched_group_desc": "Kuralı tetikleyen kullanıcı grubu kimliği",
             "token_word_count_desc": "Gönderinin hesaplanan kelime sayısı",
+            "token_evasion_ruleset_desc": "Tetiklenen kural kümesinin adı",
+            "token_evasion_count_desc": "Belirtilen zaman aralığında engellenen girişim sayısı",
+            "token_evasion_matches_desc": "Girişimler arasında tekrarlananlar çıkarılmış eşleşen terimler",
+            "token_evasion_timeline_desc": "Son girişimlerin metin parçacıklarıyla birlikte denetim geçmişi",
+            "token_evasion_details_desc": "Tüm ayrıntılar (eşleşmeler ve zaman çizelgesi)",
+            "token_evasion_last_match_desc": "Son girişimde ihlale neden olan terim",
+            "token_evasion_last_content_desc": "Son engellenen girişimden bir metin parçası",
+            "token_evasion_timeout_desc": "Filtreyi aşma girişimlerinin izlendiği dakika",
+            "token_evasion_threshold_desc": "Yapılandırılmış engelleme eşiği",
             "type_contains_word": "Kelime içeriyor",
             "type_regex": "Regex deseni ile eşleşiyor",
             "type_group": "Kullanıcı grupta",
@@ -309,7 +321,11 @@
             "sidebar_title": "Düzenleyici ipuçları",
             "flag_message": "Filtre Kuralı Yöneticisi tarafından otomatik olarak bayraklandı. Tetiklenen kural kümeleri: {rulesets}",
             "flagger_name": "Filtre Kuralı Yöneticisi",
-            "evasion_flag_message": "Şüpheli: Kullanıcı kısa süre önce '{ruleset}' kural kümesi tarafından engellendi, ardından bu gönderiyi başarıyla gönderdi. Lütfen filtre atlatma ihtimaline karşı inceleyin."
+            "evasion_flag_message": "Kullanıcı kısa süre önce \"{ruleset}\" kural kümesi tarafından engellendi ({count_formatted}), ardından bu gönderiyi başarıyla paylaştı. Olası filtreyi aşma girişimini inceleyin.{details}",
+            "evasion_matched_terms": "Önceki eşleşmeler: {matches}",
+            "evasion_attempts_header": "Bu gönderiden önceki son engellenen girişimler:",
+            "evasion_item_matched": "Eşleşen: {match}",
+            "evasion_earlier_attempts": "(... ve önceki {count} engellenen girişim)"
         }
     }
 }

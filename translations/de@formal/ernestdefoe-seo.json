@@ -17,6 +17,19 @@
                 "title": "SEO-Einstellungen - Meta",
                 "managed_label": "Verwaltet",
                 "upload_button": "Datei hochladen",
+                "meta_description": {
+                    "title": "Meta-Beschreibung"
+                },
+                "buttons": {
+                    "save": "Speichern"
+                }
+            }
+        },
+        "forum": {
+            "meta_seo_modal": {
+                "title": "",
+                "managed_label": "",
+                "upload_button": "",
                 "not_supported": {
                     "alert_title": "",
                     "alert_body": "",
@@ -33,7 +46,7 @@
                     "placeholder": ""
                 },
                 "meta_description": {
-                    "title": "Meta-Beschreibung",
+                    "title": "",
                     "help": "",
                     "placeholder": ""
                 },
@@ -96,16 +109,14 @@
                 },
                 "buttons": {
                     "close": "",
-                    "save": "Speichern",
+                    "save": "",
                     "save_and_autofill": ""
                 },
                 "alerts": {
                     "saved": "",
                     "save_error": ""
                 }
-            }
-        },
-        "forum": {
+            },
             "profile_title": "",
             "profile_description": "",
             "controls": {

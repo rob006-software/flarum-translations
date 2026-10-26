@@ -35,8 +35,8 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignoruj wizyty botów",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Po ilu sekundach ponownie zliczać wyświetlenie",
+                "dedupe_ttl_help": "Określa, jak długo wyświetlenie dyskusji jest zapamiętywane, aby nie zostało zliczone ponownie. Ustaw 0, aby zliczać każde wyświetlenie."
             }
         },
         "lib": {

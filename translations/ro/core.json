@@ -50,8 +50,8 @@
                     "cdn_url_help": "URL complet către fișierul CSS FontAwesome de pe un CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "URL-ul scriptului tău FontAwesome Kit (de pe kit.fontawesome.com)",
-                    "forced_style_label": "",
-                    "forced_style_help": "",
+                    "forced_style_label": "Stil pictogramă forțat",
+                    "forced_style_help": "Forțează fiecare pictogramă la un stil FontAwesome specific, de exemplu \"fa-duotone fa-light\" sau \"fa-regular\". Înlocuiește stilul declarat de nucleu și extensii (pictogramele de brand nu sunt modificate niciodată). Sursa ta de pictograme trebuie să poată furniza stilul: pictogramele incluse sunt FontAwesome Free, care acoperă doar câteva sute de pictograme în afara stilului solid, așa că forțarea altui stil lasă majoritatea pictogramelor goale. Fiecare stil este disponibil cu un CDN sau Kit FontAwesome Pro. Lăsați gol pentru dezactivare.",
                     "config_override": {
                         "label": "Suprascriere Configurare",
                         "help": "Setările FontAwesome sunt configurate în prezent în fișierul tău config.php și nu pot fi modificate aici."
@@ -69,10 +69,10 @@
                     "search_configuration": "Configurația de căutare de utilizat"
                 },
                 "queue": {
-                    "pause_label": "",
-                    "pause_all_label": "",
-                    "pause_queue_label": "",
-                    "pause_help": "",
+                    "pause_label": "Pauză procesare coadă",
+                    "pause_all_label": "Pauză pentru toate cozile",
+                    "pause_queue_label": "Pauză pentru coada {queue}",
+                    "pause_help": "În timpul pauzei, lucrătorii nu preiau noi joburi din cozile afectate — joburile se acumulează până când procesarea este reluată. Joburile care rulează deja nu sunt afectate.",
                     "section_label": "Coadă",
                     "sync_info": "Forumul tău utilizează driverul de coadă sincron. Joburile sunt procesate imediat în firul principal de execuție.",
                     "sync_help": "Pentru o performanță și o experiență de utilizare mai bună, ia în considerare utilizarea driverului de coadă prin baza de date. Află mai multe în documentație.",
@@ -96,8 +96,8 @@
                         "default": "Căutare implicită în baza de date"
                     },
                     "no_other_drivers": "Niciun driver de căutare nu este disponibil încă. Instalați o extensie de driver de căutare pentru a-l putea configura.",
-                    "cjk_mode_label": "",
-                    "cjk_mode_help": ""
+                    "cjk_mode_label": "Optimizare căutare pentru limbi CJK",
+                    "cjk_mode_help": "Activează dacă forumul tău este în principal în chineză, japoneză sau coreeană. Căutarea bazată pe cuvinte a bazei de date nu poate potrivi părți din textul CJK, așa că aceasta comută la o căutare de subșiruri care poate face acest lucru. Este mai lent pe forumurile foarte mari, unde configurarea unui analizor de text complet compatibil CJK la nivelul bazei de date (cum ar fi analizorul ngram din MySQL/MariaDB) este o alternativă mai rapidă."
                 },
                 "title": "Avansat"
             },
@@ -119,6 +119,8 @@
                 "edit_css_button": "Editează CSS Personalizat",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Vă rugăm, introduceți un cod hexazecimal de culoare.",
                 "favicon_heading": "Pictogramă de site",
                 "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
@@ -126,8 +128,8 @@
                 "logo_text": "Încărcați o imagine care va înlocui titlul forumului.",
                 "logo_dark_mode_heading": "Logo pentru modul întunecat",
                 "logo_dark_mode_text": "Încărcați un logo alternativ care să fie afișat atunci când modul întunecat este activat.",
-                "show_theme_selector_help": "",
-                "show_theme_selector_label": "",
+                "show_theme_selector_help": "Permite utilizatorilor să comute între schemele de culori disponibile dintr-un control din antet.",
+                "show_theme_selector_label": "Afișare selector temă",
                 "title": "Aspect",
                 "color_scheme_label": "Schemă de culori (implicită)",
                 "color_schemes": {
@@ -153,7 +155,7 @@
                 "avatar_driver_heading": "Avatar utilizator",
                 "avatar_driver_text": "Selectați un driver care să fie utilizat pentru avatarele utilizatorilor atunci când nu este disponibil niciun avatar încărcat de aceștia. În mod implicit, nu va fi afișat niciun avatar atunci când un utilizator nu a încărcat unul.",
                 "forum_description_heading": "Descrierea Forumului",
-                "forum_description_text": "Introduceți o mică descriere a comunității Dvs. Aceasta va apărea în motoarele de căutare.",
+                "forum_description_text": "Introdu o propoziție sau două scurte care descriu forumul tău. Aceasta va apărea în etichetă meta și în motoarele de căutare.",
                 "forum_title_heading": "Titlul Forumului",
                 "home_page_heading": "Pagină de start",
                 "home_page_text": "Alegeți care este prima pagină pe care utilizatorii o vor vedea când vor intra pe forum.",
@@ -174,12 +176,12 @@
                 "title": "Setări de bază",
                 "welcome_banner_heading": "Mesaj de bun-venit",
                 "welcome_banner_text": "Introduceți textul care va apărea deasupra listei de discuții. Utilizați-l pentru a ura bun venit noilor vizitatori ai acestui forum.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Extensii abandonate",
+                "abandoned_extensions_text": "Flarum menține o <a>listă comunitară de extensii abandonate</a>. Când o extensie instalată apare în listă, aceasta va fi marcată în panoul de administrare.",
+                "abandoned_extensions_sync_button": "Verifică acum",
+                "abandoned_extensions_sync_success": "Lista de extensii abandonate actualizată. S-a găsit {count} extensie instalată care se potrivește.",
+                "abandoned_extensions_sync_error": "Eșec la preluarea listei de extensii abandonate. Te rugăm să încerci din nou mai târziu.",
+                "abandoned_extensions_notify_admins_label": "Trimite un e-mail administratorilor când este detectată o extensie nou abandonată în timpul verificării săptămânale"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -206,17 +208,17 @@
                 "view_all": "Vezi toate pe discuss.flarum.org"
             },
             "queue_widget": {
-                "title": "",
-                "pending": "",
-                "reserved": "",
-                "failed": "",
-                "refresh": ""
+                "title": "Coadă",
+                "pending": "În așteptare",
+                "reserved": "În curs",
+                "failed": "Eșuat",
+                "refresh": "Actualizare"
             },
             "failed_jobs": {
-                "title": "",
-                "none": "",
-                "meta": "",
-                "details": "",
+                "title": "Joburi eșuate",
+                "none": "Niciun job eșuat.",
+                "meta": "Coadă {queue} · eșuat {time}",
+                "details": "Detalii",
                 "retry": "",
                 "retry_all": "",
                 "delete": ""
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "",
                 "queue_paused_manage": "",
                 "clear_cache_button": "Ștergere memoria cache",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Forumul Dvs. dintr-o privire.",
                 "info_button": "Informații sistem",
                 "info_modal": {
@@ -414,7 +430,7 @@
                     "discussion": "Discuție",
                     "feature": "Caracteristici",
                     "formatting": "Formatare",
-                    "forum-widget": "",
+                    "forum-widget": "Widget-uri pentru forum",
                     "infrastructure": "Infrastructură",
                     "language": "Limbi",
                     "moderation": "Moderare",
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Ștergerea definitivă a postărilor",
                 "delete_posts_label": "Ștergerea postărilor",
                 "description": "Configurați cine și ce poate face.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Editarea postărilor",
                 "edit_users_label": "Editarea atributelor utilizatorilor",
                 "edit_users_credentials_label": "Editarea acreditărilor utilizatorilor",
@@ -648,6 +665,7 @@
                 "sign_up_text": "Nu aveți cont? <a>Înregistrare</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -758,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Cineva redenumește o discuție inițiată de mine",
+                "reset_notifications_button": "",
                 "device_heading": "Dispozitiv",
                 "haptic_feedback_help": "Disponibil doar pe dispozitivele mobile acceptate",
                 "haptic_feedback_label": "Activați feedback-ul haptic",
@@ -808,7 +827,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "Conexiunea a fost restabilită.",
             "debug_button": "Depanare",
             "alert": {
                 "dismiss_a11y_label": "Închide"
@@ -849,9 +868,9 @@
                 "generic_message": "Hopa! Ceva nu a mers. Vă rugăm, încărcați pagina din nou (F5) și încercați din nou.",
                 "generic_cross_origin_message": "Hopa! Ceva nu a funcționat corect în timpul unei solicitări între origini (cross-origin). Te rugăm să reîncarci pagina și să încerci din nou.",
                 "missing_dependencies_message": "Extensia {extension} nu poate fi activată până când următoarele dependențe sunt dezactivate: {extensions}",
-                "network_message": "",
+                "network_message": "Ceva pare să fie în neregulă cu conexiunea ta. Te rugăm să îți verifici rețeaua și să încerci din nou.",
                 "not_found_message": "Resursa solicitată nu a fost găsită.",
-                "offline_message": "",
+                "offline_message": "Pare că ești deconectat. Te rugăm să îți verifici conexiunea și să încerci din nou.",
                 "payload_too_large_message": "Datele utile ale cererii au fost prea mari.",
                 "permission_denied_message": "Nu aveți permisiunea de a face acest lucru.",
                 "rate_limit_exceeded_message": "Faceți totul prea rapid. Vă rugăm, încercați din nou peste câteva secunde.",
@@ -895,6 +914,9 @@
                         "hint": "nume de grup la singular sau plural"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Șterge intrarea"
@@ -1057,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Confirmare parolă nouă",
@@ -1119,7 +1142,7 @@
                 "body": "Acesta este un e-mail de test pentru a confirma că setările de e-mail Flarum funcționează corect.\n\nDacă ați fost dumneavoastră, acest e-mail înseamnă că setările funcționează!\n\nDacă nu ați fost dumneavoastră, vă rugăm să ignorați acest e-mail.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Acțiune necesară: s-a(u) detectat extensie(s) abandonată(e)",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
@@ -1186,6 +1209,7 @@
             "start_a_discussion": "Discuție nouă",
             "title_az": "",
             "title_za": "",
+            "too_many_login_attempts_message": "",
             "top": "",
             "username": "Nume utilizator",
             "username_or_email_placeholder": "Nume utilizator sau E-mail",

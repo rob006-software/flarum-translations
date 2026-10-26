@@ -20,6 +20,12 @@
                 "new_discussion_label": "Indiquez le titre de la nouvelle discussion",
                 "submit_button": "Séparer"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "Le message d'ouverture d'une discussion ne peut pas être séparé.",
+                "end_before_start": "La séparation doit se terminer au point où elle commence, ou après."
+            }
         }
     },
     "flarum-audit": {

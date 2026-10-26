@@ -89,5 +89,20 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof-reactions": {
+                    "reaction_created": "",
+                    "reaction_updated": "",
+                    "reaction_enabled": "",
+                    "reaction_disabled": "",
+                    "reaction_deleted": "",
+                    "post_reaction_removed": "",
+                    "post_reactions_removed": ""
+                }
+            }
+        }
     }
 }

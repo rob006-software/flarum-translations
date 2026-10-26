@@ -4,8 +4,28 @@
             "permissions": {
                 "spamblock_users_label": "Onači korisnika kao spamera"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "Postavke",
+                "sign_ups": {
+                    "heading": "",
+                    "introduction": "",
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
                 "content-filter": {
                     "heading": "",
                     "introduction": "",
@@ -35,8 +55,14 @@
                     "auto_unapprove_help": "",
                     "auto_flag_label": "",
                     "auto_flag_help": "",
-                    "system_user_id_label": "",
-                    "system_user_id_help": "",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
                     "no_action_extensions": "",
                     "allowlist_heading": "",
                     "allowed_domains_label": "",
@@ -65,6 +91,10 @@
                     "username_label": "Provjera korisničkog imena na spam",
                     "ip_label": "Provjera IP adrese na spam",
                     "email_label": "Provjera e-mail adrese na spam",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "Prag učestalosti",
                     "frequency_help": "Broj prijava spama kroz sve omogućene provjere koji će aktivirati spam filter.\nPrimjer: Ako e-mail ima 1 pogodak, a IP adresa 2 pogotka, to je ukupno 3 pogotka. Ako je prag postavljen na 3 ili manje, spriječit ćemo registraciju.\n",
                     "api_key_label": "API ključ",
@@ -81,8 +111,6 @@
                     "blocked_asns_help": "",
                     "max_listing_age_label": "",
                     "max_listing_age_help": "",
-                    "registration_throttle_label": "",
-                    "registration_throttle_help": "",
                     "lookup_failed": "",
                     "email_hash_label": "Koristi hash e-mail adrese",
                     "email_hash_help": "Pošaljite MD5 hash e-mail adrese ako ne želite slati samu e-mail adresu. Ova metoda zaobilazi sve crne liste, normalizaciju i provjere zaobilaženja obfuskacije.",
@@ -92,7 +120,8 @@
                     "sfs_lookup_help": "Ako je omogućeno, provjerit ćemo bazu podataka StopForumSpam kada se novi korisnik registrira na vašem forumu. Ako je korisnik pronađen (korisničko ime, IP adresa, e-mail) i ta je podatkovna točka omogućena, a razina vjerojatnosti SFS-a dosegne definiranu razinu, bit će mu onemogućeno dovršavanje registracije.",
                     "report_blocked_registrations_label": "Prijavi blokirane registracije",
                     "report_blocked_registrations_help": "Kada je registracija blokirana značajkom provjere registracija, prijavit ćemo pokušaj servisu StopForumSpam kako bi se aktivnost spamera mogla bolje potvrditi. Zahtijeva postavljen StopForumSpam API ključ (vidi ispod)."
-                }
+                },
+                "button": "Postavke"
             },
             "statistics": {
                 "heading": "",
@@ -150,7 +179,11 @@
                         "frequency": "",
                         "blacklisted": "",
                         "torExit": "",
-                        "deniedAsn": ""
+                        "deniedAsn": "",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
                     },
                     "field": {
                         "ip": "",
@@ -178,12 +211,19 @@
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
                 "flagged_as_spam_text": ""
             },
             "message": {
                 "profile": {
                     "blocked": ""
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
                 },
                 "stopforumspam": {
                     "blocked": "Podaci iz vaše registracije pronađeni su u bazi podataka za sprječavanje spama, stoga je vaša registracija blokirana."
@@ -200,6 +240,7 @@
                 "move_discussions_tag_label": "Premjesti rasprave u karantenu (oznaku)",
                 "move_discussions_tag_help": "Ovo će premjestiti sve rasprave koje je pokrenuo ovaj korisnik u oznaku koju ste odredili u postavkama foruma. Kada je onemogućeno, rasprave će ostati u svojim trenutnim oznakama.",
                 "process_button": "Izvrši",
+                "success": "",
                 "title": "Onači korisnika {username} kao spamera",
                 "report_to_sfs_label": "Prijavi na StopForumSpam",
                 "report_to_sfs_help": "Ovo će prijaviti osnovne podatke korisnika (korisničko ime, e-mail, IP adresu) servisu StopForumSpam. To će pomoći u sprječavanju registracije tog korisnika na drugim forumima koji koriste StopForumSpam uslugu."

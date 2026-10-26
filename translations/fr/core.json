@@ -119,6 +119,8 @@
                 "edit_css_button": "Modifier le CSS personnalisé",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "Logo du courriel",
+                "email_logo_text": "Transférez une image qui s'affichera en haut de vos courriels. Elle sera enregistrée dans un format compatible avec tous les clients de messagerie. Si vous n'en transférez pas, vos courriels afficheront une copie de votre logo. Si vos courriels affichent le titre du forum à la place de votre logo, transférez à nouveau votre logo.",
                 "enter_hex_message": "Veuillez saisir un code de couleur hexadécimal.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Tout le traitement des files d'attente est suspendu. Les tâches s'accumuleront jusqu'à ce qu'il reprenne.",
                 "queue_paused_manage": "Gérer",
                 "clear_cache_button": "Effacer le cache",
+                "clear_cache_modal": {
+                    "title": "Effacer le cache",
+                    "working": "Reconstruction des ressources compilées. Cela peut prendre un certain temps sur les forums de grande taille.",
+                    "cleared": "{name} a été effacé",
+                    "cleared_files": "{name} a été effacé ({count} fichiers)",
+                    "rebuilt": "{bundle} a été reconstruit",
+                    "unchanged": "{bundle} était déjà à jour",
+                    "rewritten": "{bundle} a été réécrit",
+                    "empty": "{bundle} n'a rien à compiler",
+                    "chunks": "Reconstruction des blocs fractionnés pour {frontend} ({count} modifié(s))",
+                    "failed": "Impossible de reconstruire {step} : {message}",
+                    "took": "{time} ms",
+                    "reload_button": "Actualiser"
+                },
                 "description": "Votre forum en un coup d'œil.",
                 "info_button": "Informations système",
                 "info_modal": {
@@ -350,7 +366,7 @@
             "extension": {
                 "abandoned_no_replacement": "Cette extension n'est plus maintenue par son auteur et pourrait ne plus recevoir de mises à jour.",
                 "abandoned_with_replacement": "Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.",
-                "configure_scopes": "Configurer Scopes",
+                "configure_scopes": "Configurer les champs d'application",
                 "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "database_driver_mismatch": "Cette extension ne prend pas en charge le pilote de base de données que vous avez configuré.",
                 "deprecated": "Obsolète",
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Supprimer définitivement les messages",
                 "delete_posts_label": "Supprimer les messages",
                 "description": "Configurez qui peut voir et faire quoi.",
+                "edit_own_avatar_label": "Modifier son avatar",
                 "edit_posts_label": "Modifier les messages",
                 "edit_users_label": "Modifier les attributs des utilisateurs",
                 "edit_users_credentials_label": "Modifier les identifiants de l'utilisateur",
@@ -453,8 +470,8 @@
                 "participate_heading": "Participer",
                 "post_without_throttle_label": "Répondre plusieurs fois sans attendre",
                 "read_heading": "Lire",
-                "remove_scope_label": "Supprimer la portée de {scope}",
-                "remove_scope_confirmation": "Êtes-vous sûr de vouloir supprimer la plage {scope} ?",
+                "remove_scope_label": "Supprimer le champ d'application {scope}",
+                "remove_scope_confirmation": "Êtes-vous sûr de vouloir supprimer le champ d'application {scope} ?",
                 "rename_discussions_label": "Renommer les discussions",
                 "reply_to_discussions_label": "Répondre aux discussions",
                 "search_users_label": "=> core.ref.search_users",
@@ -648,6 +665,7 @@
                 "sign_up_text": "Vous n'avez pas de compte ? <a>S'inscrire</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -758,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Quelqu'un renomme une discussion que j'ai démarrée",
+                "reset_notifications_button": "Réinitialiser les paramètres par défaut",
                 "device_heading": "Appareil",
                 "haptic_feedback_help": "Disponible uniquement sur les appareils mobiles pris en charge",
                 "haptic_feedback_label": "Activer le retour haptique",
@@ -895,6 +914,9 @@
                         "hint": "noms de groupe au singulier ou au pluriel"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": "Choisir un groupe"
             },
             "input": {
                 "clear_button": "Effacer la saisie"
@@ -1057,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message"
             },
             "reset_password": {
                 "confirm_password_label": "Confirmer le nouveau mot de passe",
@@ -1186,6 +1209,7 @@
             "start_a_discussion": "Nouvelle discussion",
             "title_az": "Titre (A–Z)",
             "title_za": "Titre (Z–A)",
+            "too_many_login_attempts_message": "Trop de tentatives de connexion infructueuses. Veuillez patienter quelques minutes, puis réessayez.",
             "top": "Popularité",
             "username": "Nom d'utilisateur",
             "username_or_email_placeholder": "Nom d'utilisateur ou adresse e-mail",

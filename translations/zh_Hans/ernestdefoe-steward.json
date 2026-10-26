@@ -68,6 +68,30 @@
                 "was_removed": "已删除",
                 "was_ignored": "已判定无问题"
             }
+        },
+        "api": {
+            "answers_off": "",
+            "ask_first": "",
+            "unknown_resolution": "",
+            "relay": {
+                "not_connected": "",
+                "exhausted": "",
+                "key_rejected": "",
+                "refused": "",
+                "unavailable": "",
+                "unreachable": "",
+                "unreadable": ""
+            },
+            "reasons": {
+                "new_account_links": "",
+                "bare_links": "",
+                "capitals": "",
+                "repetition": "",
+                "contact_details": "",
+                "almost_no_content": "",
+                "unscreened_allowance_used": "",
+                "unscreened_unavailable": ""
+            }
         }
     }
 }

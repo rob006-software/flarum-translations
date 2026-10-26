@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL общедоступного кеша по умолчанию",
             "public_cache_ttl_help": "Укажите, как долго в секундах должны кэшироваться общедоступные страницы. Значение по умолчанию — 604800 секунд (одна неделя).",
             "clearing_cache_listener_label": "Очищать LSCache при очистке кеша Flarum",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Доставлять устаревшее содержимое",
             "serve_stale_help": "Если включено, устаревшая версия кэшированной страницы будет доставляться посетителям до создания новой копии кеша. Это снижает нагрузку на сервер. Если отключено, страница будет динамически генерироваться при обновлении кеша, что может увеличить время ожидания. По замыслу, этот параметр может доставлять устаревшее содержимое. Не включайте эту опцию, если это для вас неприемлемо.",
             "purge_on_discussion_update_label": "Удалять URL-адреса или теги при обновлении темы",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Похоже, ваш сервер не поддерживает LSCache. Проверьте настройки сервера. Обнаружен сервер: <b>{server}</b>, тип LiteSpeed: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Очистить кэш LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

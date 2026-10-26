@@ -61,8 +61,8 @@
                 "image": "Kép",
                 "image_url": "Kép webcíme",
                 "image_url_help": "A jelölt képének webcíme (például játékborító, személyes fénykép)",
-                "website_url": "",
-                "website_url_help": "",
+                "website_url": "Webhely/hivatkozás webcíme",
+                "website_url_help": "Külső webcím ehhez a jelölthöz (http:// vagy https:// protokollal kell kezdődnie)",
                 "adjust_votes": "Szavazatok módosítása",
                 "vote_adjustment_title": "Szavazatmódosítás",
                 "real_votes": "Valódi szavazatok",
@@ -190,7 +190,7 @@
                 "votes_unlimited": "{count} szavazat"
             },
             "nominee": {
-                "open_link": ""
+                "open_link": "Hivatkozás megnyitása új lapon"
             },
             "other": {
                 "suggest": "Más javaslata",
@@ -227,7 +227,7 @@
                 "vote_limit_reached": "Csak {limit} jelöltre szavazhat ebben a kategóriában.",
                 "vote_quota_exhausted": "Felhasználta az összes elérhető szavazatát/javaslatát ebben a kategóriában.",
                 "cannot_delete_processed_suggestion": "Csak a függőben lévő javaslatok vonhatóak vissza.",
-                "already_voted": "",
+                "already_voted": "Már szavazott erre a jelöltre.",
                 "not_available": "Ez a díj még nem érhető el."
             }
         },

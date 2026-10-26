@@ -31,7 +31,8 @@
                 "delete_modal_cancel": "Abbrechen",
                 "delete_modal_error": "Dieses Bild konnte nicht gelöscht werden. Bitte versuche es erneut.",
                 "clear_selection": "Keine Auswahl verwenden",
-                "not_active_mode": "Diese Bilder werden nur verwendet, wenn der Ausweich-Modus auf „Benutzerdefiniertes hochgeladenes Bild“ eingestellt ist."
+                "not_active_mode": "Diese Bilder werden nur verwendet, wenn der Ausweich-Modus auf „Benutzerdefiniertes hochgeladenes Bild“ eingestellt ist.",
+                "request_failed": "Anfrage fehlgeschlagen. Bitte versuche es erneut."
             },
             "support": {
                 "button": "Unterstütze die Entwicklung",
@@ -40,6 +41,20 @@
                 "copy": "Adresse kopieren",
                 "thanks": "Vielen Dank für deine Unterstützung!"
             }
+        },
+        "api": {
+            "no_file": "Es wurde keine Datei hochgeladen.",
+            "upload_error": "Hochladen fehlgeschlagen (PHP Hochlade-Fehlercode {code}).",
+            "empty_file": "Die hochgeladene Datei ist leer.",
+            "too_large": "Die Datei ist zu groß (max. 5 MB).",
+            "unsupported_extension": "Nicht unterstützte Dateiendung. Zulässig: webp, jpg, jpeg, png, gif, bmp, avif.",
+            "unsupported_type": "Nicht unterstützter Dateityp ({mime}). Es werden nur Rasterbilder akzeptiert.",
+            "invalid_image": "Die Datei ist kein gültiges Bild.",
+            "save_failed": "Die Datei konnte nicht gespeichert werden. Weitere Informationen findest du im Serverprotokoll.",
+            "invalid_filename": "Ungültiger Dateiname.",
+            "not_found": "Datei nicht gefunden.",
+            "delete_failed": "Datei konnte nicht gelöscht werden. Weitere Informationen findest du im Serverprotokoll.",
+            "list_failed": "Die hochgeladenen Bilder konnten nicht aufgelistet werden. Weitere Informationen findest du im Serverprotokoll."
         }
     },
     "tryhackx-avatars": {

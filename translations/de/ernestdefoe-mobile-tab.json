@@ -13,7 +13,40 @@
             "field_label": "Beschriftung",
             "field_url": "URL",
             "field_visibility": "Angezeigt für",
-            "field_center": "Zentriert"
+            "field_center": "Zentriert",
+            "label_placeholder": "optional",
+            "label_placeholder_profile": "",
+            "url_placeholder": "/pfad oder https://…",
+            "auto_avatar": "Avatar (auto)",
+            "auto_site_image": "Seitenbild (auto)",
+            "type": {
+                "home": "Start",
+                "tags": "Tags",
+                "search": "Suche",
+                "notifications": "Benachrichtigungen",
+                "profile": "Profil (Avatar)",
+                "new-discussion": "Neue Diskussion",
+                "login": "Anmelden",
+                "logo": "Seitenlogo",
+                "favicon": "Favicon",
+                "link": "Benutzerdefinierter Link"
+            },
+            "visibility": {
+                "all": "Jeder",
+                "in": "Angemeldet",
+                "out": "Abgemeldet"
+            }
+        },
+        "lib": {
+            "tab": {
+                "home": "Start",
+                "profile": "",
+                "tags": "Tags",
+                "notifications": "Benachrichtigungen",
+                "login": "Anmelden",
+                "search": "Suche",
+                "new": "Neu"
+            }
         }
     }
 }

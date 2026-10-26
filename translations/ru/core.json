@@ -119,6 +119,8 @@
                 "edit_css_button": "Редактировать CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Пожалуйста, введите код цвета в формате HEX.",
                 "favicon_heading": "Фавикон",
                 "favicon_text": "Загрузите изображение, которое будет отображаться в качестве значка форума.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Обработка всех очередей приостановлена. Задачи будут накапливаться до возобновления обработки.",
                 "queue_paused_manage": "Управление",
                 "clear_cache_button": "Очистить кэш",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Панель управления форумом.",
                 "info_button": "Сведения о системе",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Удалять сообщения навсегда",
                 "delete_posts_label": "Удалять сообщения",
                 "description": "Настройка прав доступа к различным местам и функциям форума.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Редактировать сообщения",
                 "edit_users_label": "Редактировать пользователей",
                 "edit_users_credentials_label": "Редактировать учётные данные пользователя",
@@ -648,6 +665,7 @@
                 "sign_up_text": "У вас нет аккаунта? <a>Регистрация</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -758,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Кто-то изменил название моей темы",
+                "reset_notifications_button": "",
                 "device_heading": "Устройство",
                 "haptic_feedback_help": "Доступно только на поддерживаемых мобильных устройствах",
                 "haptic_feedback_label": "Включить вибрацию",
@@ -895,6 +914,9 @@
                         "hint": "название группы или несколько названий групп"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Очистить поле"
@@ -1057,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Подтвердить пароль",
@@ -1186,6 +1209,7 @@
             "start_a_discussion": "Создать тему",
             "title_az": "Название (А–Я)",
             "title_za": "Название (Я–А)",
+            "too_many_login_attempts_message": "",
             "top": "Популярное",
             "username": "Имя пользователя",
             "username_or_email_placeholder": "Имя пользователя или Email",

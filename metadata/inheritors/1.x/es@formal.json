@@ -55,6 +55,15 @@
             }
         }
     },
+    "clarkwinkelmann-likes-received.json": {
+        "clarkwinkelmann-likes-received": {
+            "admin": {
+                "permission": {
+                    "view": "0913cde5e21ea763244afb2b4777c8c8 0913cde5e21ea763244afb2b4777c8c8"
+                }
+            }
+        }
+    },
     "core.json": {
         "core": {
             "admin": {
@@ -2074,6 +2083,36 @@
             }
         }
     },
+    "flectar-turnstile.json": {
+        "flectar-turnstile": {
+            "admin": {
+                "settings": {
+                    "forgot": "d41d8cd98f00b204e9800998ecf8427e 1eb31d5ef4f07299a967de5544068940",
+                    "help_text": "d41d8cd98f00b204e9800998ecf8427e 06f09ff7debe24082ee4db35b149845a",
+                    "secret_key": "d41d8cd98f00b204e9800998ecf8427e 5cc9997cc1d062f004d742c205eab74d",
+                    "signin": "d41d8cd98f00b204e9800998ecf8427e 635451b1aa6992d3fb7d46a501cfa546",
+                    "signup": "d41d8cd98f00b204e9800998ecf8427e ee92ad3cf509197cabcdd01db6f2677a",
+                    "site_key": "d41d8cd98f00b204e9800998ecf8427e 19d8230a6a4c71f03cf9fb92b21ec93f"
+                }
+            },
+            "forum": {
+                "error": "d41d8cd98f00b204e9800998ecf8427e e2a831c74773ab1c8a51fcffed1fead0",
+                "not_loaded_error": "d41d8cd98f00b204e9800998ecf8427e 858a6fe45215fb9f62839985700b30e1",
+                "validation_error": "d41d8cd98f00b204e9800998ecf8427e 87be892c9e44d337a28bd1a0e6864b86"
+            }
+        },
+        "validation": {
+            "custom": {
+                "turnstile": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 87be892c9e44d337a28bd1a0e6864b86"
+                },
+                "turnstileToken": {
+                    "required": "d41d8cd98f00b204e9800998ecf8427e 87be892c9e44d337a28bd1a0e6864b86"
+                }
+            },
+            "turnstile": "d41d8cd98f00b204e9800998ecf8427e c2d0e1b059f7510b2aad1d067ccdb69a"
+        }
+    },
     "fof-analytics.json": {
         "fof-analytics": {
             "admin": {
@@ -3026,6 +3065,41 @@
                     "postMentioned-help": "3373522e8f0013e8c1155ae96d504c65 3373522e8f0013e8c1155ae96d504c65",
                     "userMentioned": "f3967b2938f78b0591aca15dffdabca6 f3967b2938f78b0591aca15dffdabca6",
                     "userMentioned-help": "cd9f37b81fb8067f04a05fb72ce1f0fd cd9f37b81fb8067f04a05fb72ce1f0fd"
+                }
+            }
+        }
+    },
+    "fof-discussion-language.json": {
+        "fof-discussion-language": {
+            "admin": {
+                "permissions": {
+                    "allow_change_language_label": "61f8ad531de0befb054f6ca39f4d6ba2 61f8ad531de0befb054f6ca39f4d6ba2"
+                },
+                "settings": {
+                    "composer_default_label": "f6ca257414b3d32e5272a2247ecc6fbc f6ca257414b3d32e5272a2247ecc6fbc",
+                    "native_label": "20f9055eaa3c6d6017667f7217e19336 20f9055eaa3c6d6017667f7217e19336",
+                    "show_flag_label": "3c4293c373f6b96b8a7eb84eaf3c9e74 3c4293c373f6b96b8a7eb84eaf3c9e74"
+                }
+            },
+            "api": {
+                "discussion": {
+                    "validation_error": "3b682bea35cddab014e5d020e1ef3f5f 3b682bea35cddab014e5d020e1ef3f5f"
+                }
+            },
+            "forum": {
+                "change_language": {
+                    "edit_title": "99ba72e15c81b4bbafdd9f6f5321199a 99ba72e15c81b4bbafdd9f6f5321199a",
+                    "submit_button": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
+                    "title": "22c5de66b8dcd64b9b588f70d678906c 22c5de66b8dcd64b9b588f70d678906c"
+                },
+                "composer_discussion": {
+                    "choose_language_link": "d62a3259ece127d00905fbe37f1b5cea d62a3259ece127d00905fbe37f1b5cea"
+                },
+                "discussion_controls": {
+                    "change_language_button": "21d91b2d3de3f79f9811d308984fd922 21d91b2d3de3f79f9811d308984fd922"
+                },
+                "index_language": {
+                    "any": "1e774e7aaa9ecea1c18adc20052a29c1 1e774e7aaa9ecea1c18adc20052a29c1"
                 }
             }
         }

@@ -27,6 +27,11 @@
                 "notify_author_label": "Notify the target discussion's author",
                 "notify_author_help": "Send an in-app alert to the author of the referenced discussion. The actor's own posts never notify themselves."
             }
+        },
+        "api": {
+            "invalid_discussion_id": "Invalid discussion id",
+            "not_found": "Not found",
+            "unexpected_error": "An unexpected error occurred."
         }
     }
 }

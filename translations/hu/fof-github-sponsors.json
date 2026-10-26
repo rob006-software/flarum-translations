@@ -13,7 +13,55 @@
                 "login_label": "Bejelentkezés",
                 "login_help": "Adja meg a GitHubon használt felhasználónevét (felhasználói fiókokhoz) vagy a szervezeti nevét (szervezetek számára). Ez az a fiók, melynek a szponzorai szinkronizálva lesznek.",
                 "group_label": "Hozzárendelendő csoport",
-                "group_help": "Válassza ki a Flarum felhasználói csoportot, amelyhez a szponzorok hozzá lesznek adva. A felhasználók automatikusan hozzá lesznek adva, ha szponzorok lesznek, és el lesznek távolítva, ha leállítják a szponzorációt."
+                "group_help": "Válassza ki a Flarum felhasználói csoportot, amelyhez a szponzorok hozzá lesznek adva. A felhasználók automatikusan hozzá lesznek adva, ha szponzorok lesznek, és el lesznek távolítva, ha leállítják a szponzorációt.",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "onetime_group_none": ""
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_sponsors": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_github_sponsors": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "sponsorship_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "githubsponsor": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

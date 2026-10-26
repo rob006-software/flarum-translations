@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Identifiant client d'Imgur",
+                    "deprecated": "Imgur ne délivre plus d'identifiants client API ; cet adaptateur est donc obsolète et sera supprimé dans une prochaine version. Veuillez transférer ces types de fichiers vers un autre adaptateur de stockage.",
                     "title": "Paramètres de stockage des images d'Imgur",
                     "tos": "Il est de votre responsabilité de vous assurer que les utilisateurs de votre forum adhèrent aux <a>conditions d'utilisation</a> d'Imgur"
                 },
@@ -192,8 +193,9 @@
                 "upload_label": "Transférer les fichiers (autorisation de base, requise pour tous les transferts)",
                 "upload_mime_label": "Transférer {label}",
                 "view_user_uploads_label": "Afficher les transferts des utilisateurs",
-                "delete_uploads_of_others_label": "Supprimer les transferts des utilisateurs",
-                "upload_shared_label": "Transférer des fichiers partagés",
+                "delete_uploads_of_others_label": "Masquer et supprimer les transferts des autres utilisateurs",
+                "delete_own_uploads_label": "Supprimer ses propres transferts",
+                "upload_shared_label": "Transférer, masquer et supprimer des fichiers partagés",
                 "access_shared_label": "Accéder aux fichiers partagés dans le gestionnaire de médias"
             },
             "templates": {
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "Chargement des fichiers…",
                 "empty": "Il n'y a aucun fichier à afficher.",
+                "load_error": "Impossible de charger les fichiers. Veuillez réessayer.",
                 "release_to_upload": "Lâcher pour transférer",
                 "modal_empty_desktop": "Votre liste de fichiers est vide. Cliquez sur le bouton ou faites glisser un fichier ici pour le transférer.",
                 "modal_empty_phone": "Votre liste de fichiers est vide. Appuyez sur le bouton ci-dessus pour transférer un fichier.",

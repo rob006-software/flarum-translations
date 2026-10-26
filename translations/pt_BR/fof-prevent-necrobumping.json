@@ -3,25 +3,27 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": ""
+                    "title": "A última resposta nesta discussão foi {time}.",
+                    "description": "Considere se sua resposta agrega algo novo ou se o assunto já foi resolvido.",
+                    "cta": "Considere iniciar uma nova discussão se você tiver uma nova pergunta ou perspectiva.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Entendo que esta discussão está inativa, mas minha resposta é relevante.",
+                    "confirmed": "",
+                    "undo": ""
                 },
-                "error": ""
+                "error": "Esta discussão é antiga demais para receber respostas."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Configurações Gerais",
+                "days_label": "Dias Até a Discussão Ser Considerada Inativa",
+                "days_help": "Marca discussões como inativas após este número de dias desde o último post. Defina <code>0</code> para desativar por padrão.",
+                "show_discussion_cta_label": "Mostrar Sugestão \"Iniciar Nova Discussão\"",
+                "show_discussion_cta_help": "Exibe uma sugestão para iniciar uma nova discussão quando usuários tentam responder a discussões inativas.",
+                "tags_title": "Configurações por Tag",
+                "tags_help": "Substitui o limite global de inatividade para tags específicas. Deixe vazio para usar o padrão. Quando várias tags têm valores diferentes, vale o período mais curto.",
+                "tags_placeholder": "Padrão"
             }
         }
     }

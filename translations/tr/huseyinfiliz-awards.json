@@ -61,8 +61,8 @@
                 "image": "Görsel",
                 "image_url": "Görsel Bağlantısı",
                 "image_url_help": "Adayın görseline bağlantı (örn: oyun kapağı, kişi fotoğrafı)",
-                "website_url": "",
-                "website_url_help": "",
+                "website_url": "Website Bağlantısı",
+                "website_url_help": "Bu aday için harici bağlantı (http:// veya https:// ile başlamalıdır)",
                 "adjust_votes": "Oy Ayarla",
                 "vote_adjustment_title": "Oy Ayarlaması",
                 "real_votes": "Gerçek Oy",
@@ -190,7 +190,7 @@
                 "votes_unlimited": "{count} oy"
             },
             "nominee": {
-                "open_link": ""
+                "open_link": "Bağlantıyı yeni sekmede aç"
             },
             "other": {
                 "suggest": "Başka Öner",
@@ -227,7 +227,7 @@
                 "vote_limit_reached": "Bu kategoride en fazla {limit} adaya oy verebilirsiniz.",
                 "vote_quota_exhausted": "Bu kategorideki tüm oy/öneri hakkınızı kullandınız.",
                 "cannot_delete_processed_suggestion": "Sadece bekleyen öneriler iptal edilebilir.",
-                "already_voted": "",
+                "already_voted": "Bu adaya zaten oy verdiniz.",
                 "not_available": "Bu ödül henüz mevcut değil."
             }
         },

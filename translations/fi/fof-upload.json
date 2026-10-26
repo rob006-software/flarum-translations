@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur asiakkaan ID (client ID)",
+                    "deprecated": "",
                     "title": "Imgur kuvan tallennustilan asetukset",
                     "tos": "On sinun vastuulla, että foorumin käyttäjät noudattavat Imgurin <a>käyttöehtoja</a>"
                 },
@@ -193,6 +194,7 @@
                 "upload_mime_label": "Siirrä {label}",
                 "view_user_uploads_label": "Nähdä käyttäjän siirrot",
                 "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "Siirrä jaettuihin tiedostoihin",
                 "access_shared_label": "Pääsy jaettuihin tiedostoihin median hallinnassa"
             },
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "Ladataan tiedostoja...",
                 "empty": "Ei näytettäviä tiedostoja.",
+                "load_error": "",
                 "release_to_upload": "Päästä irti siirtääksesi",
                 "modal_empty_desktop": "Tiedostolistasi on tyhjä. Klikkaa painiketta tai raahaa tiedosto tähän siirtääksesi.",
                 "modal_empty_phone": "Tiedostolista on tyhjä. Klikkaa ylläolevaa painiketta siirtääksesi tiedosto.",

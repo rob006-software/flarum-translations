@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
+                    "deprecated": "",
                     "title": "Imgur image storage settings",
                     "tos": ""
                 },
@@ -192,6 +193,7 @@
                 "upload_mime_label": "",
                 "view_user_uploads_label": "View user uploads",
                 "delete_uploads_of_others_label": "Delete user uploads",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -294,6 +296,7 @@
             "file_list": {
                 "loading": "",
                 "empty": "",
+                "load_error": "",
                 "release_to_upload": "",
                 "modal_empty_desktop": "",
                 "modal_empty_phone": "",

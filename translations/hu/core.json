@@ -119,6 +119,8 @@
                 "edit_css_button": "Egyéni CSS szerkesztése",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "E-mailben küldött logó",
+                "email_logo_text": "Töltsön fel egy képet, amely az e-mailek tetején jelenik meg. Olyan formában lesz mentve, melyet minden e-mail-kliens meg tud jeleníteni. Ha nem tölt fel ilyet, akkor a levelek a logója másolatát fogják használni. Ha az e-mailek a fórum címét tartalmazzák a logója helyett, akkor töltse fel újra a logót.",
                 "enter_hex_message": "Adjon meg egy hexadecimális színkódot.",
                 "favicon_heading": "Favikon",
                 "favicon_text": "Töltse fel a fórum favikonjaként megjelenítendő képet.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "Az összes várólista-feldolgozás szüneteltetve. A feladatok gyűlni fognak a folytatásig.",
                 "queue_paused_manage": "Kezelés",
                 "clear_cache_button": "Gyorsítótár törlése",
+                "clear_cache_modal": {
+                    "title": "A gyorsítótár törlése",
+                    "working": "Lefordított összetevők újjáépítése. Nagy fórumokon ez eltarthat egy ideig.",
+                    "cleared": "{name} törölve",
+                    "cleared_files": "{name} törölve ({count} fájl)",
+                    "rebuilt": "{bundle} újjáépítve",
+                    "unchanged": "A(z) {bundle} már naprakész volt",
+                    "rewritten": "{bundle} újraírva",
+                    "empty": "A(z) {bundle} csomagban semmit sem kell lefordítani",
+                    "chunks": "A(z) {frontend} elosztott darabjai újjáépítve ({count} változott meg)",
+                    "failed": "Nem sikerült a(z) {step} újjáépítése: {message}",
+                    "took": "{time} ms",
+                    "reload_button": "Újratöltés"
+                },
                 "description": "Fórum összefoglalása.",
                 "info_button": "Rendszer-információk",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Bejegyzések végleges törlése",
                 "delete_posts_label": "Bejegyzések törlése",
                 "description": "Állítsa be, hogy ki mit láthat és mit csinálhat.",
+                "edit_own_avatar_label": "Saját profilkép szerkesztése",
                 "edit_posts_label": "Bejegyzések szerkesztése",
                 "edit_users_label": "Felhasználók tulajdonságainak szerkesztése",
                 "edit_users_credentials_label": "Felhasználók hitelesítési adatainak szerkesztése",
@@ -648,6 +665,7 @@
                 "sign_up_text": "Nincs még fiókja? <a>Regisztráció</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -684,7 +702,7 @@
                 "now_link": "Most",
                 "original_post_link": "Eredeti bejegyzés",
                 "unread_text": "{count} olvasatlan",
-                "viewing_text": "{index}. / {formattedCount} bejegyzés"
+                "viewing_text": "{index}. bejegyzés / {formattedCount}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "A régi cím: „{old}”",
@@ -758,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Valaki átnevezte az Ön által indított témát",
+                "reset_notifications_button": "Alaphelyzetbe állítás",
                 "device_heading": "Eszköz",
                 "haptic_feedback_help": "Csak támogatott mobileszközökön érhető el",
                 "haptic_feedback_label": "Haptikus visszajelzés engedélyezése",
@@ -895,6 +914,9 @@
                         "hint": "egy vagy több csoportnév"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": "Válasszon csoportot"
             },
             "input": {
                 "clear_button": "Bemenet törlése"
@@ -1057,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Új jelszó megerősítése",
@@ -1186,6 +1209,7 @@
             "start_a_discussion": "Új téma indítása",
             "title_az": "Cím (A–Z)",
             "title_za": "Cím (Z–A)",
+            "too_many_login_attempts_message": "",
             "top": "Legnépszerűbb",
             "username": "Felhasználónév",
             "username_or_email_placeholder": "Felhasználónév vagy e-mail-cím",

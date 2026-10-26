@@ -40,12 +40,12 @@
                 "edit_action": "编辑",
                 "controls_label": "「{title}」操作",
                 "preview_button": "预览",
-                "preview_navigate": "前往 {route}，在此页面开始预览。",
                 "export_button": "导出为文件",
                 "duplicate_button": "复制此导览",
                 "copy_title": "{title}（副本）",
                 "no_steps_warning": "暂无步骤，无法运行",
-                "step_count": "{count, plural, =0 {无步骤} other {# 个步骤}}"
+                "step_count": "{count, plural, =0 {无步骤} other {# 个步骤}}",
+                "preview_navigate": "前往 {route}，在此页面开始预览。"
             },
             "steps": {
                 "heading": "「{title}」步骤",
@@ -107,7 +107,7 @@
                 "target_placeholder": "CSS 选择器，例如 #home-link",
                 "target_help": "此步骤指向的页面元素。留空则不指向任何元素，步骤会单独显示在屏幕中央。",
                 "target_invalid": "CSS 选择器无效。",
-                "target_matches": "{count, plural, =0 {在当前页面未匹配到任何元素} other {匹配到 # 个元素}}",
+                "target_route_mismatch": "",
                 "pick_button": "选择",
                 "test_button": "测试",
                 "placement_label": "显示位置",
@@ -123,11 +123,15 @@
                 "enabled_label": "启用",
                 "save_button": "保存",
                 "delete_button": "删除步骤",
-                "delete_confirmation": "确定要从此导览中删除这个步骤吗？"
+                "delete_confirmation": "确定要从此导览中删除这个步骤吗？",
+                "target_matches": "{count, plural, =0 {在当前页面未匹配到任何元素} other {匹配到 # 个元素}}"
             },
             "permissions": {
                 "reset_tour_guide": "重置用户导览记录"
             }
+        },
+        "api": {
+            "step_not_in_tour": ""
         },
         "forum": {
             "progress": "{current} / {total}",
@@ -137,6 +141,10 @@
             "close_button": "退出导览",
             "click_to_continue": "点击此处继续",
             "preview_notice": "预览模式，操作不会被记录。",
+            "go_to_page": "",
+            "preview_go_to": "",
+            "unknown_page": "",
+            "nothing_here": "",
             "settings": {
                 "heading": "导览",
                 "none": "暂无可体验的导览",
@@ -152,11 +160,14 @@
                 "matches": "{count, plural, =0 {无匹配项} other {# 个匹配项}}",
                 "browse": "浏览页面",
                 "resume": "继续选择",
+                "show": "",
+                "go_to_page": "",
                 "cancel": "取消"
             },
             "user_controls": {
                 "reset_tour_guide": "重新显示导览",
-                "reset_tour_guide_confirmation": "下次访问时重新向此用户显示导览"
+                "reset_tour_guide_confirmation": "下次访问时重新向此用户显示导览",
+                "reset_tour_guide_done": ""
             }
         }
     }

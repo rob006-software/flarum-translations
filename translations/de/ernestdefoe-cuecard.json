@@ -1,0 +1,77 @@
+{
+    "ernestdefoe-cuecard": {
+        "admin": {
+            "permissions": {
+                "use": "Globale Makros einfügen",
+                "save_personal": "Persönliche Makros speichern",
+                "manage_global": "Globale Makros erstellen und bearbeiten"
+            }
+        },
+        "api": {
+            "groups_required": "Wähle mindestens eine Gruppe. Wähle „Mitglieder“, um sie allen anzubieten, die Makros einfügen dürfen.",
+            "too_many_macros": "Du kannst bis zu {count} Makros speichern. Lösche eines, um ein weiteres hinzufügen zu können."
+        },
+        "forum": {
+            "composer": {
+                "button": "Makro einfügen",
+                "actions_label": "Beim Absenden:",
+                "action_lock": "Sperren",
+                "action_tags": "Tag: {tags}",
+                "action_tags_replace": "Umtaggen: {tags}",
+                "action_best_answer": "Beste Antwort",
+                "remove_action": "Tu das nicht",
+                "failed": "Deine Antwort wurde gesendet, aber dies konnte nicht ausgeführt werden: {actions}.",
+                "failed_lock": "Diskussion sperren",
+                "failed_tags": "Tags ändern",
+                "failed_best_answer": "Als Beste Antwort markieren",
+                "failed_separator": ", "
+            },
+            "picker": {
+                "title": "Makros",
+                "search_placeholder": "Makros durchsuchen",
+                "empty": "Noch keine Makros.",
+                "no_results": "Keine Makros entsprechen deiner Suche.",
+                "global_heading": "Geteilt",
+                "personal_heading": "Deine",
+                "new_button": "Neues Makro",
+                "save_reply_button": "Diesen Text als Makro speichern",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
+                "delete_confirm": "Das Makro „{title}“ löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "insert_hint": "↑ ↓ zum Auswählen, Eingabe zum Einfügen"
+            },
+            "editor": {
+                "new_title": "Neues Makro",
+                "edit_title": "Makro bearbeiten",
+                "title_label": "Titel",
+                "content_label": "Text",
+                "placeholders_label": "Platzhalter, die du benutzen kannst",
+                "scope_label": "Wer kann es verwenden",
+                "scope_personal": "Nur ich",
+                "scope_global": "Geteilt mit Team und den Gruppen unten",
+                "groups_label": "Diesen Gruppen anbieten",
+                "groups_help": "Mitglieder beinhaltet alle, die Makros einfügen dürfen.",
+                "actions_label": "Wenn es als Antwort verwendet wird",
+                "actions_help": "Beides geschieht nur dort, wo der Verfasser dazu berechtigt ist; andernfalls wird er darauf hingewiesen.",
+                "lock_label": "Diskussion sperren",
+                "tags_label": "Diskussion taggen",
+                "tags_search_placeholder": "Tags filtern",
+                "replace_tags_label": "Tags ersetzen, anstatt sie hinzuzufügen",
+                "best_answer_label": "Antwort als Beste Antwort markieren",
+                "save_button": "Makro speichern"
+            },
+            "placeholders": {
+                "username": "der Benutzername des Diskussionsstarters",
+                "display_name": "der Anzeigename des Diskussionsstarters",
+                "mention": "eine Erwähnung des Diskussionsstarters",
+                "my_username": "dein Benutzername",
+                "my_display_name": "dein Anzeigename",
+                "discussion_title": "der Diskussionstitel",
+                "discussion_url": "der Diskussionslink",
+                "forum_name": "der Forenname",
+                "forum_url": "der Forenlink",
+                "date": "heutiges Datum"
+            }
+        }
+    }
+}

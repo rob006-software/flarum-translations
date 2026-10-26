@@ -1,0 +1,282 @@
+{
+    "ernestdefoe-cadence": {
+        "forum": {
+            "map_label": "Activity over time",
+            "metric_label": "What to show",
+            "kind_all": "All",
+            "kind_discussion": "Discussions",
+            "kind_reply": "Replies",
+            "kind_like": "Likes",
+            "kind_reaction": "Reactions",
+            "kind_best_answer": "Best answers",
+            "kind_count_discussion": "{count, plural, one {# discussion started} other {# discussions started}}",
+            "kind_count_reply": "{count, plural, one {# reply} other {# replies}}",
+            "kind_count_like": "{count, plural, one {# like given} other {# likes given}}",
+            "kind_count_reaction": "{count, plural, one {# reaction} other {# reactions}}",
+            "kind_count_best_answer": "{count, plural, one {# best answer} other {# best answers}}",
+            "nothing_on": "Nothing on {date}",
+            "count_on": "{count, plural, one {# thing on {date}} other {# things on {date}}}",
+            "spark_label": "{count, plural, one {# thing in the last 26 weeks} other {# things in the last 26 weeks}}",
+            "less": "Less",
+            "more": "More",
+            "nothing": "Nothing",
+            "at_least": "{count, plural, one {# or more} other {# or more}}",
+            "streak": {
+                "page_title": "Streaks",
+                "page_intro_contribute": "Every day you post, reply, like or react feeds your flame. Miss too many days and it goes out. Keep it alight.",
+                "page_intro_visit": "Every day you visit feeds your flame. Miss too many days and it goes out. Keep it alight.",
+                "profile_tab": "Streak",
+                "leaderboard": "Leaderboard",
+                "your_flame": "Your flame",
+                "their_flame": "{name}'s flame",
+                "your_daily_streak": "Your daily streak",
+                "your_streak_page": "Your streak page",
+                "no_flame": "No flame yet",
+                "flame_out_short": "Flame out",
+                "best_short": "best {count}",
+                "birthday": "Birthday flame",
+                "badge_label": "{count}-day flame · {tier}",
+                "day_flame": "{count}-day flame",
+                "days_count": "{count, plural, one {# day} other {# days}}",
+                "days_unit": "{count, plural, one {day} other {days}}",
+                "days_to_tier": "{count, plural, one {# day to {tier}} other {# days to {tier}}}",
+                "top_tier": "The highest tier there is. Keep it burning.",
+                "rank": "Rank #{rank}",
+                "started": "Started {date}",
+                "rival_ahead": "{member} is {count, plural, one {# day} other {# days}} ahead of you.",
+                "rival_level": "{member} is level with you. Keep going to pass them.",
+                "longest": "Longest streak",
+                "total_days": "Total days",
+                "freezes": "Freezes",
+                "feed_today": "Not fed yet today. Keep your flame alight.",
+                "embers_title": "Your {count}-day flame is down to embers",
+                "embers_body": "Post anything to bring back {share} of it. {left}.",
+                "time_left": "{hours}h {minutes}m left",
+                "activity_log": "Activity log",
+                "active_days": "{count, plural, one {# active day} other {# active days}}",
+                "legend_fed": "Fed",
+                "legend_saved": "Saved by a freeze",
+                "calendar_title": "Flame calendar",
+                "journal_title": "Flame journal",
+                "calendar": {
+                    "previous": "Previous month",
+                    "next": "Next month",
+                    "fed": "{date}: fed",
+                    "saved": "{date}: saved by a freeze"
+                },
+                "board": {
+                    "current": "Current",
+                    "alltime": "All-time",
+                    "hall": "Hall of Flames",
+                    "hall_intro": "Great flames that burned before.",
+                    "alight_now": "Alight now: {count}",
+                    "flame_out": "Flame out",
+                    "empty": "No flames yet. Be the first.",
+                    "building": "Flames are still being built from the forum's history ({percent}%). More will appear shortly.",
+                    "load_more": "Load more"
+                },
+                "side": {
+                    "title": "The board",
+                    "alight": "Flames alight",
+                    "fed_today": "Fed today",
+                    "best": "Best run",
+                    "bonfire": "The bonfire",
+                    "tiers": "The tiers",
+                    "from_days": "from {count, plural, one {# day} other {# days}}",
+                    "how": "How it works"
+                },
+                "bonfire": {
+                    "fed": "{count, plural, one {flame fed today} other {flames fed today}}",
+                    "to_next": "{count} more to reach level {level}",
+                    "max": "The bonfire is at its highest. What a day."
+                },
+                "how": {
+                    "contribute": "Post, reply, like or react on any day to feed your flame.",
+                    "visit": "Visit on any day to feed your flame.",
+                    "grace": "Miss {count, plural, one {# day} other {# days}} in a row and your flame is forgiven.",
+                    "freezes": "Milestones earn freezes (bank up to {count}). One melts on its own to save a missed day.",
+                    "embers": "A flame of {count}+ days that goes out leaves embers for {hours} hours. Post anything to bring {share} of it back.",
+                    "timezone": "Days follow your own timezone, not the server's."
+                },
+                "toast": {
+                    "day": "Day {count}. Your flame is fed.",
+                    "milestone": "Milestone reached: {count, plural, one {# day} other {# days}} of fire.",
+                    "tier": "You reached {tier}.",
+                    "record": "New personal best: {count, plural, one {# day} other {# days}}.",
+                    "saved": "{count, plural, one {A freeze melted to save your flame.} other {# freezes melted to save your flame.}}",
+                    "revived": "Your flame is back: {count, plural, one {# day} other {# days}}."
+                },
+                "warning": {
+                    "risk": "Your {count}-day flame goes out unless you feed it today.",
+                    "embers": "Your {count}-day flame is down to embers. Post anything to bring it back."
+                },
+                "notify_moments": "My streak's milestones, tiers and records",
+                "notify_warnings": "When my streak is at risk or down to embers",
+                "widgets": {
+                    "my_flame": "My flame",
+                    "top_flames": "Top flames"
+                },
+                "settings": {
+                    "title": "Streaks",
+                    "celebrate_help": "How the first page of the day celebrates your flame.",
+                    "celebrate_all": "Every day",
+                    "celebrate_important": "Important moments only",
+                    "celebrate_never": "Never"
+                }
+            }
+        },
+        "lib": {
+            "streak": {
+                "tiers": {
+                    "spark": "Spark",
+                    "kindled": "Kindled",
+                    "blaze": "Blaze",
+                    "inferno": "Inferno",
+                    "eternal": "Eternal"
+                },
+                "journal": {
+                    "empty": "Nothing here yet. Milestones, freezes and records will show up as they happen.",
+                    "milestone": "Reached {count, plural, one {# day} other {# days}}",
+                    "tier": "Became {tier}",
+                    "record": "New personal best: {count, plural, one {# day} other {# days}}",
+                    "saved": "{count, plural, one {A freeze melted to save the flame} other {# freezes melted to save the flame}}",
+                    "ended": "{count, plural, one {A #-day flame went out} other {A #-day flame went out}}",
+                    "revived": "Flame revived at {count, plural, one {# day} other {# days}}",
+                    "given": "{count, plural, one {Given # freeze} other {Given # freezes}}",
+                    "edited": "Streak set to {count, plural, one {# day} other {# days}}",
+                    "reset": "Streak reset"
+                }
+            }
+        },
+        "admin": {
+            "map_heading": "Activity map",
+            "widgets": {
+                "my_flame": "My flame",
+                "top_flames": "Top flames",
+                "bonfire": "Bonfire"
+            },
+            "backfill": {
+                "activity": "Building the activity map from your forum's history: {percent}%",
+                "streaks": "Building streaks from your members' history: {percent}%",
+                "help": "This runs in the background — on the queue if you have one, otherwise every minute from the scheduler, and while this page is open. Members' flames appear as they are built. On a big forum you can also run php flarum cadence:rebuild-streaks to watch it finish.\n",
+                "done": "Your forum's history is built."
+            },
+            "streak": {
+                "heading": "Streaks",
+                "enabled": "Daily streaks",
+                "enabled_help": "The switch for the whole streaks feature: flames, the header button, the Streaks link and leaderboard, the profile tab, widgets, alerts and emails. Turn it off to use Cadence only for the activity map; nothing is counted while it is off, and nothing is deleted.\n",
+                "off_notice": "Streaks are off. Nothing about them appears anywhere on the forum, and the activity map below works on its own. Turn Daily streaks on and save to set them up.\n",
+                "permission_view": "View streaks and the leaderboard",
+                "permission_earn": "Earn a streak",
+                "mode": "What keeps a flame alight",
+                "mode_help": "Contributing (posting, replying, liking or reacting) can be rebuilt from your forum's history. Visiting rewards people who just read, but there is no history of visits, so those days start counting from now.\n",
+                "mode_contribute": "Contributing",
+                "mode_visit": "Visiting",
+                "streak_grace": "Grace days",
+                "streak_grace_help": "Missed days in a row that are forgiven without using a freeze (0 to 3).",
+                "streak_milestones": "Milestones",
+                "streak_milestones_help": "Lengths in days that are celebrated and earn freezes, separated by commas.",
+                "streak_freeze_per_milestone": "Freezes per milestone",
+                "streak_freeze_per_milestone_help": "How many freezes each milestone earns.",
+                "streak_freeze_bank": "Freeze bank limit",
+                "streak_freeze_bank_help": "The most freezes a member can hold at once.",
+                "streak_embers_min": "Embers from",
+                "streak_embers_min_help": "The shortest flame that leaves embers when it goes out. 0 turns revival off.",
+                "streak_embers_hours": "Embers last (hours)",
+                "streak_embers_hours_help": "How long a member has to post and revive a flame that went out.",
+                "streak_embers_share": "Revival brings back (%)",
+                "streak_embers_share_help": "The share of the old flame a revival restores.",
+                "streak_hall_min": "Hall of Flames from",
+                "streak_hall_min_help": "The shortest run that is remembered in the Hall of Flames when it ends.",
+                "streak_risk_min": "Remind from",
+                "streak_risk_min_help": "The shortest flame whose owner gets an \"at risk\" alert and email.",
+                "streak_risk_hour": "Remind at (local hour)",
+                "streak_risk_hour_help": "The hour of the member's own day, 0 to 23, after which an unfed flame is at risk.",
+                "streak_bonfire_levels": "Bonfire levels",
+                "streak_bonfire_levels_help": "Flames fed in a day to reach each bonfire level, separated by commas.",
+                "streak_timezone": "Fallback timezone",
+                "streak_timezone_help": "Used for members whose browser has not told the forum theirs yet, e.g. Europe/London. Everyone else's day follows their own timezone.\n",
+                "placements": "Where flames show",
+                "in_header": "A flame in the header",
+                "in_header_help": "Beside notifications, with the streak, the next tier and the month one tap away.",
+                "on_posts": "A flame after names in posts",
+                "on_posts_help": "Costs no requests; the flame rides along with the author.",
+                "on_cards": "A streak line on user cards",
+                "on_cards_help": "On profile and hover cards.",
+                "on_profile": "A Streak tab on profiles",
+                "on_profile_help": "The member's flame, a year of fed days, the month and (to them) their journal.",
+                "nav": "Streaks in the sidebar navigation",
+                "nav_help": "A link to the leaderboard under All Discussions.",
+                "sidebar": "Streak blocks in the index sidebar",
+                "sidebar_help": "My flame and Top flames, for forums without a widget manager. With fof/forum-widgets-core or Bespoke, place the widgets there instead.\n",
+                "remove": "Remove",
+                "save_tiers": "Save tiers and seasons",
+                "tiers": {
+                    "title": "Flame tiers",
+                    "help": "The flame changes colour and icon as a streak grows. The highest enabled tier a member's streak reaches is theirs. Leave a name empty to use the translated default.",
+                    "preview": "Preview",
+                    "name": "Name",
+                    "days": "From (days)",
+                    "color": "Colour",
+                    "icon": "Icon",
+                    "glow": "Glow",
+                    "enabled": "On",
+                    "add": "Add a tier"
+                },
+                "seasons": {
+                    "title": "Seasonal flames",
+                    "help": "Between two dates (MM-DD, may wrap the new year) every flame takes the season's colour and icon. Birthdays from Calendar get a golden flame.",
+                    "from": "From",
+                    "to": "To",
+                    "add": "Add a season"
+                },
+                "overview": {
+                    "title": "Overview",
+                    "tracked": "Members tracked",
+                    "alight": "Flames alight",
+                    "fedToday": "Fed today",
+                    "best": "Longest on record",
+                    "freezes": "Freezes banked",
+                    "embers": "Embers glowing",
+                    "by_tier": "Flames by tier",
+                    "from_days": "from {count, plural, one {# day} other {# days}}",
+                    "longest": "Longest flames alight",
+                    "events": "Recent events",
+                    "days": "{count, plural, one {# day} other {# days}}",
+                    "by": "by {name}"
+                },
+                "sheet": {
+                    "title": "Member flame sheet",
+                    "help": "Find a member to give freezes, set their streak, revive the last flame that went out, or reset it. Every change is written to their journal with your name.",
+                    "search": "Search members…",
+                    "current": "Current",
+                    "longest": "Longest",
+                    "total": "Total days",
+                    "freezes": "Freezes",
+                    "give": "Give freezes",
+                    "edit": "Set length",
+                    "revive": "Revive",
+                    "reset": "Reset",
+                    "reset_confirm": "Put this member's flame out? This cannot be undone.",
+                    "done": "Done."
+                }
+            },
+            "show_on_profile": "Show the map on member profiles",
+            "show_on_profile_help": "The full map, on every profile. This is the one most forums want.\n",
+            "show_on_posts": "Show a sparkline beside every post",
+            "show_on_posts_help": "A small twenty-six week trace next to each author. Costs one extra query per distinct member on a page — not per post — so it is cheap, but it is off unless you ask for it.\n",
+            "show_on_cards": "Show a sparkline on user cards",
+            "show_on_cards_help": "On hover cards and anywhere else a member is summarised.\n"
+        },
+        "email": {
+            "risk": {
+                "subject": "Your {count}-day flame needs you today",
+                "body": "Your {count}-day flame goes out unless you feed it today. Stop by and keep it alight:\n\n{url}\n"
+            },
+            "embers": {
+                "subject": "Your {count}-day flame is down to embers",
+                "body": "Your {count}-day flame went out, but its embers are still glowing. Post anything soon to bring it back:\n\n{url}\n"
+            }
+        }
+    }
+}

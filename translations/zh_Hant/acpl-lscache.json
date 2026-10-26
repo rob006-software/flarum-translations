@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "預設公共緩存TTL",
             "public_cache_ttl_help": "設置公共頁面的緩存時間，單位秒。預設 604800 秒(一週)。",
             "clearing_cache_listener_label": "清除 Flarum 緩存時同步清除 LSCache",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Serve Stale 緩服務",
             "serve_stale_help": "啟用後，在新緩存副本可用前，系統將使用舊緩存頁面響應給用戶，以減小後續訪問產生的伺服器負載。如果關閉此項，頁面將在訪客等待期間動態生成。根據 Serve Stale 的設計，此功能可能會響應陳舊的內容給用戶，你可以選擇關閉它。",
             "purge_on_discussion_update_label": "主題更新時清除 URL 或標籤緩存",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

@@ -16,7 +16,11 @@
             "skill_forfeited": "这是最后一次机会，奖品已重新抽取。下次好运！",
             "skill_already_forfeited": "由于技能测试题未作答，此奖品已重新抽取。",
             "skill_answer_required": "请正确回答你的技能测试题。",
-            "claim_not_winner": "你不是此抽奖活动的中奖者。"
+            "claim_not_winner": "你不是此抽奖活动的中奖者。",
+            "enter_own": "",
+            "draw_not_ended": "",
+            "locked_after_draw": "",
+            "ends_no_earlier": ""
         },
         "forum": {
             "nav": "抽奖",
@@ -35,16 +39,36 @@
             "status_active": "进行中",
             "status_drawn": "已开奖",
             "status_cancelled": "已取消",
+            "status_upcoming": "",
+            "status_draft": "",
+            "winner_count": "",
+            "tabs": {
+                "all": "",
+                "open": "",
+                "ended": "",
+                "drafts": ""
+            },
+            "drafts_heading": "",
+            "drafts_help": "",
+            "draft_notice": "",
+            "publish": "",
+            "published": "",
             "enter": "参与抽奖",
+            "hosting": "",
             "entered": "已参与！",
             "enter_again": "已参与",
             "login_to_enter": "登录后参与",
+            "not_started": "",
             "enter_success": "参与成功，祝你好运！",
             "earn_more": "获取更多抽奖机会",
             "earn_post": "在社区发帖，可额外获得 {count} 次抽奖机会",
             "earned_post": "发帖奖励（+{count}）",
             "base_entry": "基础抽奖机会",
             "prize_label": "奖品",
+            "starts_label": "",
+            "draw_time_label": "",
+            "view_discussion": "",
+            "your_prize": "",
             "description_label": "详情",
             "rules_label": "正式规则",
             "rules_intro": "以下为抽奖活动开始时公布的完整规则。",
@@ -77,6 +101,17 @@
             "claim_next_steps": "领取方式",
             "claim_skill_intro": "领取奖品前，请先回答以下技能测试题：",
             "claim_answer_placeholder": "你的答案",
+            "participants": {
+                "button": "",
+                "title": "",
+                "entries": "",
+                "load_more": "",
+                "deleted_user": ""
+            },
+            "composer": {
+                "add": "",
+                "edit": ""
+            },
             "notification": {
                 "won_content": "你在抽奖活动中中奖了！",
                 "claimed_content": "领取了奖品"
@@ -115,11 +150,18 @@
                 "skill_attempts_help": "设置中奖者最多可答错多少次。超过次数后，奖品将转给开奖种子选出的下一位参与者。设为 0 则可无限重试，奖品不会重新抽取。",
                 "cover_label": "封面图片 URL",
                 "cover_placeholder": "https://…",
+                "cover_pick": "",
                 "category_label": "分类",
                 "category_none": "— 无 —",
                 "claim_label": "领奖说明",
                 "claim_placeholder": "例如 私信发送收货地址，或提供邮箱以接收奖品。",
                 "claim_help": "中奖者确认领奖后会看到此说明，以便了解如何获得奖品。",
+                "claim_lines_label": "",
+                "claim_lines_placeholder": "",
+                "claim_lines_help": "",
+                "save_draft": "",
+                "add_to_post": "",
+                "composer_help": "",
                 "ends_label": "结束时间",
                 "starts_label": "开始时间（可选）",
                 "winner_count_label": "中奖人数",
@@ -137,8 +179,10 @@
             "perm_enter": "参与抽奖",
             "perm_create": "创建并管理自己的抽奖活动",
             "perm_manage": "管理所有抽奖活动",
+            "perm_view_participants": "",
             "nav_label_setting": "菜单名称",
             "nav_label_help": "设置在论坛主页侧边栏中显示的页面菜单名称。",
+            "nav_label_placeholder": "",
             "show_nav_setting": "在主页侧边栏中显示抽奖活动入口"
         }
     }

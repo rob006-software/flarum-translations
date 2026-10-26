@@ -16,7 +16,11 @@
             "skill_forfeited": "",
             "skill_already_forfeited": "",
             "skill_answer_required": "",
-            "claim_not_winner": "Bạn không phải người thắng của đợt tặng quà này."
+            "claim_not_winner": "Bạn không phải người thắng của đợt tặng quà này.",
+            "enter_own": "",
+            "draw_not_ended": "",
+            "locked_after_draw": "",
+            "ends_no_earlier": ""
         },
         "forum": {
             "nav": "Quà tặng",
@@ -35,16 +39,36 @@
             "status_active": "Mở",
             "status_drawn": "Đã bốc thăm",
             "status_cancelled": "Đã hủy",
+            "status_upcoming": "",
+            "status_draft": "",
+            "winner_count": "",
+            "tabs": {
+                "all": "",
+                "open": "",
+                "ended": "",
+                "drafts": ""
+            },
+            "drafts_heading": "",
+            "drafts_help": "",
+            "draft_notice": "",
+            "publish": "",
+            "published": "",
             "enter": "Tham gia",
+            "hosting": "",
             "entered": "Bạn đã tham gia!",
             "enter_again": "Bạn đã tham gia",
             "login_to_enter": "Đăng nhập để tham gia",
+            "not_started": "",
             "enter_success": "Bạn đã tham gia! Chúc may mắn.",
             "earn_more": "Kiếm thêm lượt tham gia",
             "earn_post": "Hãy đăng bài trong cộng đồng để nhận thêm {count} {count, plural, one {lượt tham gia} other {lượt tham gia}}",
             "earned_post": "Thưởng nhờ đăng bài (+{count})",
             "base_entry": "Lượt tham gia cơ bản",
             "prize_label": "Phần thưởng",
+            "starts_label": "",
+            "draw_time_label": "",
+            "view_discussion": "",
+            "your_prize": "",
             "description_label": "Chi tiết",
             "rules_label": "",
             "rules_intro": "",
@@ -77,6 +101,17 @@
             "claim_next_steps": "Cách nhận thưởng",
             "claim_skill_intro": "",
             "claim_answer_placeholder": "",
+            "participants": {
+                "button": "",
+                "title": "",
+                "entries": "",
+                "load_more": "",
+                "deleted_user": ""
+            },
+            "composer": {
+                "add": "",
+                "edit": ""
+            },
             "notification": {
                 "won_content": "Bạn đã thắng một đợt tặng quà!",
                 "claimed_content": "đã nhận phần thưởng của họ"
@@ -115,11 +150,18 @@
                 "skill_attempts_help": "",
                 "cover_label": "URL ảnh bìa",
                 "cover_placeholder": "https://…",
+                "cover_pick": "",
                 "category_label": "Danh mục",
                 "category_none": "— Không có —",
                 "claim_label": "Hướng dẫn nhận thưởng",
                 "claim_placeholder": "ví dụ: Hãy nhắn riêng cho tôi địa chỉ nhận hàng hoặc email để nhận phần thưởng.",
                 "claim_help": "Được hiển thị cho mỗi người thắng sau khi họ bấm nhận thưởng, để họ biết cách nhận phần thưởng.",
+                "claim_lines_label": "",
+                "claim_lines_placeholder": "",
+                "claim_lines_help": "",
+                "save_draft": "",
+                "add_to_post": "",
+                "composer_help": "",
                 "ends_label": "Kết thúc lúc",
                 "starts_label": "Bắt đầu lúc (tùy chọn)",
                 "winner_count_label": "Số người thắng",
@@ -137,8 +179,10 @@
             "perm_enter": "Tham gia các đợt tặng quà",
             "perm_create": "Tạo và quản lý đợt tặng quà của mình",
             "perm_manage": "Quản lý mọi đợt tặng quà",
+            "perm_view_participants": "",
             "nav_label_setting": "Nhãn điều hướng",
             "nav_label_help": "Dòng chữ hiển thị trong phần điều hướng diễn đàn cho trang tặng quà.",
+            "nav_label_placeholder": "",
             "show_nav_setting": "Hiển thị liên kết \"Tặng quà\" trong phần điều hướng chính"
         }
     }

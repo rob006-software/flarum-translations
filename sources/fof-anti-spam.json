@@ -4,8 +4,28 @@
             "permissions": {
                 "spamblock_users_label": "Mark user as spammer"
             },
+            "tabs": {
+                "sign_ups": "Sign-ups",
+                "stopforumspam": "StopForumSpam",
+                "content_filter": "Content Filter",
+                "spammer_actions": "Spammer Actions"
+            },
+            "unsaved_changes": "You have unsaved changes on this tab. Leave without saving them?",
             "settings": {
-                "button": "Settings",
+                "sign_ups": {
+                    "heading": "Sign-up Checks",
+                    "introduction": "Checks this forum makes on every sign-up by itself, with nothing sent to an outside service. Lookups against StopForumSpam have a tab of their own.",
+                    "honeypot_heading": "Honeypot",
+                    "honeypot_label": "Trap form-filling bots",
+                    "honeypot_help": "Adds a field people never see to the sign-up form, and refuses sign-ups that fill it in or come back faster than a person could. It catches bots StopForumSpam has not seen yet, sends nothing off-site, and asks nothing of real people.",
+                    "honeypot_min_seconds_label": "Minimum seconds before a sign-up",
+                    "honeypot_min_seconds_help": "Counted from when the page was served. A person reading the form takes longer than this; a script does not.",
+                    "honeypot_strict_label": "Refuse sign-ups that skip the form",
+                    "honeypot_strict_help": "Also refuses guest sign-ups sent without the form, as scripts posting straight to the API do. Leave this off if an app, an SSO bridge or another tool creates accounts through the API.",
+                    "throttle_heading": "Rate Limit",
+                    "registration_throttle_label": "Seconds between registrations from one address",
+                    "registration_throttle_help": "Flarum limits how often somebody can post, but not how often they can create accounts. 0 disables this. Bear in mind that offices, schools and mobile networks share one address between many people."
+                },
                 "content-filter": {
                     "heading": "Content Filter",
                     "introduction": "Automatically detect and flag spam content from new users. This system monitors posts and discussions from recently registered users for common spam indicators like phone numbers, email addresses, and suspicious URLs.",
@@ -35,8 +55,14 @@
                     "auto_unapprove_help": "When enabled, content that reaches the spam threshold will be sent to the approval queue (requires flarum/approval). Moderators will need to approve the content before it becomes visible.",
                     "auto_flag_label": "Auto-flag spam content",
                     "auto_flag_help": "When enabled, content that reaches the flag threshold will be automatically flagged for moderator review (requires flarum/flags). The flag reason will include details about why the content was detected as spam.",
-                    "system_user_id_label": "System user ID for flags",
-                    "system_user_id_help": "The user ID that will be assigned as the creator of automatic spam flags. This should typically be an admin or system account. Defaults to user ID 1 if not configured.",
+                    "flag_account_label": "Account that raises spam flags",
+                    "flag_account_help": "Shown as the author of automatic spam flags in the moderation queue. Left on the default, the first administrator raises them.",
+                    "flag_account_default": "Default: the first administrator",
+                    "flag_account_choose_button": "Choose…",
+                    "flag_account_default_button": "Use the default",
+                    "flag_account_modal_title": "Choose the account that raises spam flags",
+                    "flag_account_missing": "The chosen account no longer exists, so the first administrator raises spam flags until you choose another.",
+                    "flag_account_in_code": "Chosen in extend.php with assignFlagsToModerator(), so it can't be changed here.",
                     "no_action_extensions": "Install flarum/approval and/or flarum/flags extensions to enable automatic moderation actions. Detected spam will be managed through Flarum's built-in approval queue and flags system.",
                     "allowlist_heading": "Domain Allowlist",
                     "allowed_domains_label": "Allowed domains",
@@ -65,6 +91,10 @@
                     "username_label": "Username Spam Check",
                     "ip_label": "IP Address Spam Check",
                     "email_label": "Email Spam Check",
+                    "checks_heading": "What to Check",
+                    "thresholds_heading": "When to Block",
+                    "also_block_heading": "Also Block",
+                    "reporting_heading": "Reporting",
                     "frequency_label": "Threshold",
                     "frequency_help": "The number of spam reports between all enabled checks that will trip the spam filter.\nEx: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less we will prevent the registration.\n",
                     "api_key_label": "API Key",
@@ -81,9 +111,7 @@
                     "blocked_asns_help": "One per line, or comma separated. Registrations from these networks are refused outright, whether or not the address is listed. StopForumSpam returns the network number on every lookup, and almost nobody browses a forum from a hosting provider. Accepts 31272 or AS31272. Leave empty to record the network without acting on it.",
                     "max_listing_age_label": "Ignore listings older than (days)",
                     "max_listing_age_help": "A sighting from years ago says little about whoever is registering today. 0 keeps every listing, however old. Blacklisted domains and networks are always honoured regardless of this.",
-                    "registration_throttle_label": "Seconds between registrations from one address",
-                    "registration_throttle_help": "Flarum limits how often somebody can post, but not how often they can create accounts. 0 disables this. Bear in mind that offices, schools and mobile networks share one address between many people.",
-                    "lookup_failed": "StopForumSpam could not be reached (last failure {when}). Registrations are being allowed through unchecked until it recovers.",
+                    "lookup_failed": "StopForumSpam could not be reached (first failure {when}). Registrations are being allowed through unchecked until it recovers.",
                     "email_hash_label": "Use hashed email address",
                     "email_hash_help": "Pass a MD5 hash of the email address should you wish to not pass the email address itself. This method bypasses all blacklists, normalisation and obfuscation bypass checks.",
                     "block_tor_exit_nodes_label": "Block Tor exit nodes",
@@ -91,7 +119,7 @@
                     "sfs_lookup_label": "Lookup registrations",
                     "sfs_lookup_help": "If enabled, we will check the StopForumSpam database when a new user registers on your forum. If the user is found (username, IP address, email) and that data point is enabled along with the SFS confidence level reaching your defined level, they will be prevented from completing their registration.",
                     "report_blocked_registrations_label": "Report blocked registrations",
-                    "report_blocked_registrations_help": "When a registration is blocked by the Lookup Registrations feature, we will report the attempt back to StopForumSpam, so that the spammers activity can be better confirmed. Requires a StopForumSpam API key to be set (see below)."
+                    "report_blocked_registrations_help": "When StopForumSpam's own data blocks a registration, the attempt is reported back so the spammer's activity can be confirmed. Blocks from Tor or a denied network are never reported, as they are this forum's policy rather than evidence. Requires a StopForumSpam API key (see above)."
                 }
             },
             "statistics": {
@@ -111,7 +139,7 @@
                 "button": "Blocked Registrations",
                 "title": "Blocked Registrations",
                 "no-records": "No blocked registrations found.",
-                "help": "This page shows all registrations that have been blocked by the StopForumSpam service. You can view the details of each registration, and if you wish, you can delete the record from the database.\n",
+                "help": "This page shows all registrations that have been blocked, by StopForumSpam or by the sign-up honeypot. You can view the details of each registration, and if you wish, you can delete the record from the database.\n",
                 "attempted-at": "Attempted at",
                 "ip": "IP Address",
                 "email": "Email Address",
@@ -150,7 +178,11 @@
                         "frequency": "Report threshold",
                         "blacklisted": "Blacklisted",
                         "torExit": "Tor exit node",
-                        "deniedAsn": "Denied network"
+                        "deniedAsn": "Denied network",
+                        "honeypot": "Filled in the hidden field",
+                        "tooFast": "Sent faster than a person could",
+                        "formToken": "Tampered or reused sign-up form",
+                        "noForm": "Not sent from the sign-up form"
                     },
                     "field": {
                         "ip": "IP",
@@ -178,12 +210,19 @@
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": "Leave this field empty"
+            },
             "post": {
                 "flagged_as_spam_text": "Automatic Spam Detection - score {score}"
             },
             "message": {
                 "profile": {
                     "blocked": "This looks like spam, so it has not been saved. Please remove any links or contact details and try again."
+                },
+                "honeypot": {
+                    "refused": "We couldn't complete your registration.",
+                    "reload": "Something went wrong with the sign-up form. Please reload the page and try again."
                 },
                 "stopforumspam": {
                     "blocked": "Details of your registration have been found in a spam prevention database, therefore your registration has been blocked."
@@ -200,6 +239,7 @@
                 "move_discussions_tag_label": "Move discussions to quarantined tag",
                 "move_discussions_tag_help": "This will move all discussions started by this user to the tag you specified in the forum settings. When disabled, discussions will be left in their current tags.",
                 "process_button": "Process",
+                "success": "{username} has been marked as a spammer.",
                 "title": "Mark {username} as a spammer",
                 "report_to_sfs_label": "Report to StopForumSpam",
                 "report_to_sfs_help": "This will report the user's basic details (username, email, IP address) to StopForumSpam. This will help prevent the user from registering on other forums that use the StopForumSpam service."

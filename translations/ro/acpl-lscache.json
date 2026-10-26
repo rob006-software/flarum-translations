@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL (Time-to-Live) implicit pentru cache-ul public",
             "public_cache_ttl_help": "Definește durata, în secunde, pentru care paginile publice ar trebui să fie stocate în cache. Valoarea implicită este 604800 secunde (o săptămână).",
             "clearing_cache_listener_label": "Curăță LSCache când memoria cache Flarum este golită",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Servește conținut învechit",
             "serve_stale_help": "Dacă este activată, o versiune învechită a unei pagini stocate în cache va fi servită vizitatorilor până când este generată o copie nouă în cache. Aceasta reduce sarcina asupra serverului. Dacă este dezactivată, pagina va fi generată dinamic în timpul actualizării cache-ului, ceea ce poate crește timpii de așteptare. Prin natura sa, această opțiune poate servi conținut neactualizat. Te rugăm să nu o activezi dacă consideri acest lucru inacceptabil.",
             "purge_on_discussion_update_label": "Curăță URL-uri sau etichete (Tags) cache la actualizarea discuției",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Se pare că serverul dumneavoastră nu suportă LSCache. Verificați configurația serverului. Server detectat: {server}, tip LiteSpeed detectat: {type}.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Curățare LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

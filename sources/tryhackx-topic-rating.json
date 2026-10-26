@@ -37,6 +37,7 @@
                 "tag_collapse_all": "Collapse all",
                 "tags_unavailable": "The Tags extension must be installed and enabled to use per-tag rating permissions.",
                 "tags_empty": "No tags found. Create tags first in the Tags settings.",
+                "tags_load_error": "Failed to load the tags — see the browser console for details.",
                 "untagged_enabled_label": "Allow rating on discussions with no tags",
                 "untagged_enabled_help": "When off, discussions that have no tags at all show no rating widget and can't be rated. Useful if you only want specific tags to be rateable. On by default.",
                 "secondary_solo_title": "Secondary tags used on their own (no primary tag)",
@@ -63,7 +64,22 @@
                 "single_clickable_label": "Make the single star clickable",
                 "single_clickable_help": "When on, clicking the single star (and its number) opens the ratings list in a modal. When off, the star is display-only — and topics with no rating yet show nothing at all.",
                 "single_modal_rate_label": "Allow rating inside the modal",
-                "single_modal_rate_help": "Show an interactive rating control at the top of the ratings modal, so users can rate (or change their rating) without leaving the list."
+                "single_modal_rate_help": "Show an interactive rating control at the top of the ratings modal, so users can rate (or change their rating) without leaving the list.",
+                "author_mode_heading": "Topic author's own rating",
+                "author_mode_label": "How the author's rating of their own topic is treated",
+                "author_mode_help": "Useful when topics are reviews (the author scores the reviewed item) or to stop authors boosting their own topics. Changing this never deletes ratings — it decides who can rate from now on and which ratings make up the shown (and sorted) score, so switching back restores the previous scores. Off by default.",
+                "author_mode_default": "Author rates like everyone else (default)",
+                "author_mode_exclude": "Authors can't rate their own topics",
+                "author_mode_separate": "Show the author's rating separately",
+                "author_mode_author_only": "Only the author can rate (review score)",
+                "author_mode_hint_default": "Everyone with the Rate permission, the topic's author included, rates the topic and every rating counts towards one average.",
+                "author_mode_hint_exclude": "The author of a topic can't rate it; everyone else still can. A rating the author gave before this was switched on is left out of the score.",
+                "author_mode_hint_separate": "Everyone can still rate, but the author's own rating is shown on its own (\"Author ★ 4.5\") and is not part of the community average — members can't move the author's score and the author can't sway the community's.",
+                "author_mode_hint_author_only": "The topic's score is the author's own rating: only the author can rate it and everyone else sees it read-only (admins and bypass groups included). Member ratings given earlier are kept but not counted.",
+                "author_mode_tags_label": "Apply only to topics in these tags",
+                "author_mode_tags_help": "Optional — e.g. pick your reviews tag(s). Topics carrying none of the selected tags keep the default behaviour.",
+                "author_mode_tags_none": "No tag selected — applies to every topic.",
+                "author_mode_tags_some": "Applies to topics that carry at least one of the {count} selected tag(s)."
             },
             "permissions": {
                 "rate_label": "Rate discussions",
@@ -85,9 +101,19 @@
                 "rate_this": "Rate this topic",
                 "rate_first": "Be the first to rate!",
                 "your_rating": "Your rating:",
-                "restricted": "Rating is not available for your group on this topic."
+                "restricted": "Rating is not available for your group on this topic.",
+                "your_rating_as_author": "Your rating (shown as the author's rating):",
+                "rate_as_author": "Rate your topic — shown as the author's rating",
+                "author_only": "Rated by the topic's author.",
+                "author_only_unrated": "Only the topic's author can rate it — not rated yet.",
+                "own_topic": "You can't rate your own topic."
             },
             "rating_count": "Ratings: {count}",
+            "author_badge": {
+                "label": "Author",
+                "title": "Author's rating: {score} / 5",
+                "score_label": "Author's rating"
+            },
             "last_rated": "Last rated:",
             "rating_restricted_message": "Rating is not available for your group.",
             "controls": {
@@ -105,7 +131,8 @@
                 "title": "Ratings ({count})",
                 "empty": "No ratings yet.",
                 "deleted_user": "[deleted]",
-                "updated_prefix": "updated "
+                "updated_prefix": "updated ",
+                "author_tag": "Author"
             }
         },
         "api": {

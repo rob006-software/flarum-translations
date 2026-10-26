@@ -27,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Створити поле",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Зберегти зміни",
-                "delete-field": "Видалити поле"
+                "delete-field": "Видалити поле",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Редагувати обліковий запис інших користувачів",
@@ -37,9 +41,11 @@
             },
             "fields": {
                 "title": "Поля",
+                "trash": "",
                 "create": "",
                 "edit": "Редагувати поле {field}",
                 "delete-confirmation": "Ви впевнені, що хочете видалити поле {field}? Цю дію неможливо скасувати.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +103,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

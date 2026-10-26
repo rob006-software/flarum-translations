@@ -100,6 +100,9 @@
                 "global_evasion_threshold_help": "Number of blocks required within the timeout period to trigger an evasion penalty. (Default: 2)",
                 "global_evasion_log_keep_days": "Evasion Log Retention (days)",
                 "global_evasion_log_keep_days_help": "Set to 0 to disable log clearing and keep logs forever. (Default: 0)",
+                "global_evasion_flag_message": "Custom Evasion Flag Message",
+                "global_evasion_flag_message_placeholder": "Leave empty to use default message with full match breakdown",
+                "global_evasion_flag_message_help": "Optional. Custom message template for moderation flags when filter evasion is detected.",
                 "obfuscate_active": "Enable Frontend Payload Obfuscation",
                 "obfuscate_active_help": "If enabled, the JSON payload of the Info and Warning filter rules sent to the browser is XOR obfuscated. This obscures the rules from from casual inspection.",
                 "obfuscate_key": "Custom Obfuscation Key",
@@ -255,6 +258,15 @@
             "token_matched_string_desc": "The text substring captured by the regex",
             "token_matched_group_desc": "The user group ID that triggered the rule",
             "token_word_count_desc": "The calculated word count of the post",
+            "token_evasion_ruleset_desc": "The name of the triggered ruleset",
+            "token_evasion_count_desc": "Number of blocked attempts within the time window",
+            "token_evasion_matches_desc": "Deduplicated matched terms across attempts",
+            "token_evasion_timeline_desc": "Audit timeline of recent attempts with snippets",
+            "token_evasion_details_desc": "Complete breakdown (matches + timeline)",
+            "token_evasion_last_match_desc": "Offending term from the latest attempt",
+            "token_evasion_last_content_desc": "Snippet from the latest blocked attempt",
+            "token_evasion_timeout_desc": "Evasion window in minutes",
+            "token_evasion_threshold_desc": "Configured block threshold",
             "type_contains_word": "Contains word(s)",
             "type_regex": "Matches regex pattern(s)",
             "type_group": "User in Group(s)",
@@ -309,7 +321,11 @@
             "sidebar_title": "Composer hints",
             "flag_message": "Auto-flagged by Filter Rule Manager. Triggered rulesets: {rulesets}",
             "flagger_name": "Filter Rule Manager",
-            "evasion_flag_message": "Suspicious: User was recently blocked by ruleset '{ruleset}', then successfully submitted this post. Please review for filter evasion."
+            "evasion_flag_message": "User was recently blocked by ruleset \"{ruleset}\" ({count_formatted}), then successfully submitted this post. Please review for filter evasion.{details}",
+            "evasion_matched_terms": "Previously matched: {matches}",
+            "evasion_attempts_header": "Recent blocked attempts before this post:",
+            "evasion_item_matched": "Matched: {match}",
+            "evasion_earlier_attempts": "(... and {count} earlier blocked attempts)"
         }
     }
 }

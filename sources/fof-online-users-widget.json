@@ -13,7 +13,8 @@
         "forum": {
             "widget": {
                 "title": "Online Users",
-                "empty": "No Users Currently Online."
+                "empty": "No Users Currently Online.",
+                "more": "{count, plural, one {# more user online} other {# more users online}}"
             }
         }
     }

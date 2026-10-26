@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "默认公共缓存 TTL",
             "public_cache_ttl_help": "设置公共页面的缓存时长，单位为秒。默认值为 604800 秒（1 周）。",
             "clearing_cache_listener_label": "清除 Flarum 缓存时同步清除 LSCache",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "提供过期缓存",
             "serve_stale_help": "启用此项，在新缓存生成前，临时向客户端提供旧缓存内容，以减少服务器负载。否则，需要等待缓存更新完成后发送给客户端，这可能会增加客户端的等待时间。注意，该选项可能会提供过时的缓存内容，如果无法接受，请不要启用本设置。",
             "purge_on_discussion_update_label": "讨论更新时清除指定 URL 或缓存标签",
@@ -20,6 +21,17 @@
             "test_failed_alert": "服务器似乎不支持 LSCache，请检查服务器配置。检测到的服务器：<b>{server}</b>，LiteSpeed 类型：<b>{type}</b>。",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "清除 LSCache 缓存"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

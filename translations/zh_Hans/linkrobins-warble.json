@@ -1,6 +1,28 @@
 {
     "linkrobins-warble": {
         "admin": {
+            "health_title": "",
+            "health_recheck": "",
+            "health_failed": "",
+            "check": {
+                "realtime": "",
+                "realtime_missing": "",
+                "endpoint_ok": "",
+                "endpoint_fail": "",
+                "queue_sync": "",
+                "scheduler_not_needed": "",
+                "queue_async": "",
+                "scheduler_never": "",
+                "scheduler_stale": "",
+                "scheduler_active": "",
+                "polling_seen": "",
+                "polling_quiet": "",
+                "interval_auto": "",
+                "interval_waiting": "",
+                "updates_seen": "",
+                "updates_quiet": "",
+                "websocket_leftover": ""
+            },
             "transport_label": "实时连接方式",
             "transport_help": "自动模式会在 config.php 已配置 WebSocket 服务器时使用 WebSocket，否则改用轮询。轮询无需额外服务器，适用于任何托管环境，但会有几秒延迟；WebSocket 可即时更新，但需要自行运行服务器，例如 Reverb、soketi 或其他兼容 Pusher 的服务。\n",
             "transport_auto": "自动",

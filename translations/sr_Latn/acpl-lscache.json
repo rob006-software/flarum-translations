@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Podrazumevani TTL javne keš memorije",
             "public_cache_ttl_help": "Odredite koliko dugo, u sekundama, se javne stranice keširaju. Podrazumevana vrednost je 300 sekundi.",
             "clearing_cache_listener_label": "Očistite LSCache kada se očisti Flarum keš memorija",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Posluži zastarelu",
             "serve_stale_help": "Ukoliko je omogućeno, zastarela kopija keširane stranice će se prikazivati posetiocima dok nova kopija keš memorije ne bude dostupna. Smanjuje opterećenje servera za buduće posete. Ukoliko je onemogućeno, stranica će se dinamički generisati dok posetioci čekaju. Po dizajnu, ova opcija može poslužiti zastareli sadržaj. Ne omogućujte ovu opciju ukoliko vam to ne odgovara.",
             "purge_on_discussion_update_label": "Očistite URLove ili kategorije kada je diskusija ili odgovor ažuriran",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

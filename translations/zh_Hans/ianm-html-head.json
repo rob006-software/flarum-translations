@@ -50,7 +50,10 @@
                 "meta": {
                     "variant_label": "属性类型",
                     "name_label": "name=\"\"",
+                    "name_placeholder": "",
+                    "name_help": "",
                     "property_label": "property=\"\"（Open Graph）",
+                    "property_placeholder": "",
                     "content_label": "内容"
                 },
                 "link": {
@@ -91,7 +94,7 @@
                 },
                 "preview_label": "预览",
                 "preview_empty": "填写上方字段后即可预览",
-                "text": "请确保语法正确，因为在<head>标签中提供不正确的数据可能会使论坛出错。保存后，请使用开关按钮启用头部元素。",
+                "text": "请确保语法正确，因为在 head 标签中提供不正确的数据可能会使论坛出错。保存后，请使用开关按钮启用头部元素。",
                 "header_label": "自定义头部元素"
             }
         }

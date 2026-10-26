@@ -1,5 +1,63 @@
 {
     "fof-badges": {
+        "defaults": {
+            "categories": {
+                "getting-started": {
+                    "name": "İlk Başarılar",
+                    "description": "İlk adımlarını atan yeni üyelere verilen rozetler"
+                },
+                "milestones": {
+                    "name": "Kilometre Taşları",
+                    "description": "Önemli dönüm noktalarına ulaşan üyelere verilen rozetler"
+                },
+                "posting": {
+                    "name": "Katılım",
+                    "description": "Gönderi sayısı ve katkı başarıları için verilen rozetler"
+                }
+            },
+            "badges": {
+                "first-post": {
+                    "name": "İlk Gönderi",
+                    "description": "İlk yanıtını yaz"
+                },
+                "conversation-starter": {
+                    "name": "Sohbet Başlatan",
+                    "description": "İlk tartışmanı başlat"
+                },
+                "profile-picture": {
+                    "name": "Profil Fotoğrafı",
+                    "description": "Profil fotoğrafını yükle"
+                },
+                "first-week": {
+                    "name": "İlk Hafta",
+                    "description": "7 günden eski üyeler için"
+                },
+                "regular": {
+                    "name": "Müdavim",
+                    "description": "30 günden eski üyeler için"
+                },
+                "anniversary": {
+                    "name": "Yıl Dönümü",
+                    "description": "1 yıldan eski üyeler için"
+                },
+                "active-member": {
+                    "name": "Aktif Üye",
+                    "description": "50 yanıt yaz"
+                },
+                "prolific": {
+                    "name": "Üretken",
+                    "description": "200 yanıt yaz"
+                },
+                "topic-starter": {
+                    "name": "Tartışma Başlatan",
+                    "description": "10 tartışma başlat"
+                },
+                "editor": {
+                    "name": "Editör",
+                    "description": "10 gönderiyi iyileştirmek için düzenle"
+                }
+            }
+        },
         "admin": {
             "tabs": {
                 "badges": "Rozetler",

@@ -31,7 +31,8 @@
                 "delete_modal_cancel": "取消",
                 "delete_modal_error": "无法删除图片，请重试。",
                 "clear_selection": "清除选择",
-                "not_active_mode": "仅当「无可用图片时」设为「自定义图片」时，这些图片才会生效。"
+                "not_active_mode": "仅当「无可用图片时」设为「自定义图片」时，这些图片才会生效。",
+                "request_failed": ""
             },
             "support": {
                 "button": "支持开发",
@@ -40,6 +41,20 @@
                 "copy": "复制地址",
                 "thanks": "感谢你的支持！"
             }
+        },
+        "api": {
+            "no_file": "",
+            "upload_error": "",
+            "empty_file": "",
+            "too_large": "",
+            "unsupported_extension": "",
+            "unsupported_type": "",
+            "invalid_image": "",
+            "save_failed": "",
+            "invalid_filename": "",
+            "not_found": "",
+            "delete_failed": "",
+            "list_failed": ""
         }
     },
     "tryhackx-avatars": {

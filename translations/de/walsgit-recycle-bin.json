@@ -9,18 +9,19 @@
             "search_post_help_text": "Sucht nach Wörtern in verborgenen Beiträgen",
             "total_hidden_discussions": "Verborgene Diskussionen insgesamt",
             "total_hidden_posts": "Verborgene Beiträge insgesamt",
-            "empty_list": "Keine Diskussionen im Papierkorb.",
-            "hidden_discussions": "Verborgene Diskussionen",
+            "empty_discussions_list": "Keine Diskussionen im Papierkorb.",
+            "empty_posts_list": "Keine Beiträge im Papierkorb.",
+            "no_search_results": "Für diese Suche wurden keine Ergebnisse gefunden.",
+            "select_all": "Alle Einträge auf dieser Seite auswählen",
             "discussion_id": "ID",
             "discussion_title": "Diskussionstitel",
-            "discussion_link_tooltip": "Diskussion anzeigen",
             "author": "Autor",
             "unknown_user": "Unbekannter Benutzer",
             "created_at": "Erstellt am",
             "hidden_at": "Verborgen am",
             "unknown_date": "Unbekanntes Datum",
             "actions": "Aktionen",
-            "restore_tooltip": "Diskussion #{discussionId} wiederherstellen",
+            "restore_discussion_tooltip": "Diskussion #{discussionId} wiederherstellen",
             "restore_post_tooltip": "Beitrag #{postId} wiederherstellen",
             "restore_discussion": {
                 "title": "Diskussion wiederherstellen",
@@ -46,7 +47,7 @@
                 "delete_button": "Diesen Beitrag endgültig löschen",
                 "success": "Der Beitrag wurde erfolgreich gelöscht"
             },
-            "delete_tooltip": "Diskussion #{discussionId} löschen",
+            "delete_discussion_tooltip": "Diskussion #{discussionId} löschen",
             "delete_post_tooltip": "Beitrag #{postId} löschen",
             "bulk_actions": "Aktionen für ausgewählte Diskussionen: ",
             "bulk_post_actions": "Aktionen für ausgewählte Beiträge: ",
@@ -82,15 +83,32 @@
             },
             "bulk_delete_label": "Ausgewählte Diskussionen löschen",
             "bulk_post_delete_label": "Ausgewählte Beiträge löschen",
+            "bulk_delete_all_label": "Alle Diskussionen löschen",
+            "bulk_post_delete_all_label": "Alle Beiträge löschen",
+            "mass_delete_all_modal": {
+                "title": "Alle ausgeblendeten Diskussionen endgültig löschen",
+                "text_start": "Möchtest du wirklich ALLE ",
+                "text_end": " Diskussionen im Papierkorb <u>endgültig löschen</u>?",
+                "submit_button": "Alle Diskussionen endgültig löschen",
+                "success": "Alle Diskussionen erfolgreich gelöscht"
+            },
+            "mass_delete_all_post_modal": {
+                "title": "Alle Beiträge endgültig löschen",
+                "text_start": "Möchtest du wirklich ALLE ",
+                "text_end": " Beiträge im Papierkorb <u>endgültig löschen</u>?",
+                "submit_button": "Alle Beiträge endgültig löschen",
+                "success": "Alle Beiträge erfolgreich gelöscht"
+            },
+            "mass_progress": "{processed} von {total} verarbeitet…",
             "pagination": {
                 "first_page_button": "Zur Startseite",
                 "back_button": "Zurück zur vorherigen Seite",
                 "page_counter": "Seite {current} von {total}",
                 "go_to_page_textbox_a11y_label": "Direkt zur Seitenzahl springen",
                 "next_button": "Zur nächsten Seite",
-                "last_page_button": "Zur letzten Seite"
+                "last_page_button": "Zur letzten Seite",
+                "page_counter_search": "Seite {current}"
             },
-            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "grid": {
                 "invalid_column_content": "Ungültiger Inhalt!"
             },
@@ -99,6 +117,12 @@
                 "title": "Beitragstext",
                 "open_post": "Beitrag öffnen"
             },
+            "empty_list": "Keine Diskussionen im Papierkorb.",
+            "hidden_discussions": "Verborgene Diskussionen",
+            "discussion_link_tooltip": "Diskussion anzeigen",
+            "restore_tooltip": "Diskussion #{discussionId} wiederherstellen",
+            "delete_tooltip": "Diskussion #{discussionId} löschen",
+            "mass_help_text": "Bitte warte, bis die Seite neu geladen wird, nachdem du die Massenwiederherstellung oder das Massenlöschen bestätigt hast",
             "unknownn_user": "Unbekannter Benutzer"
         }
     }

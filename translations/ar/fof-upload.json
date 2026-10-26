@@ -86,6 +86,7 @@
                 },
                 "imgur": {
                     "client_id": "",
+                    "deprecated": "",
                     "title": "",
                     "tos": ""
                 },
@@ -190,6 +191,7 @@
                 "upload_mime_label": "",
                 "view_user_uploads_label": "عرض تحميلات المستخدم",
                 "delete_uploads_of_others_label": "حذف تحميلات المستخدم",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -292,6 +294,7 @@
             "file_list": {
                 "loading": "جاري تحميل الملفات...",
                 "empty": "لا توجد ملفات لعرضها.",
+                "load_error": "",
                 "release_to_upload": "أرسل لتحميل",
                 "modal_empty_desktop": "قائمة ملفاتك فارغة. انقر على الزر أو اسحب ملفًا هنا لتحميله.",
                 "modal_empty_phone": "قائمة ملفاتك فارغة. انقر على الزر أعلاه لتحميل ملف.",

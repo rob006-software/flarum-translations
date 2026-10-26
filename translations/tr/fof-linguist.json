@@ -101,8 +101,8 @@
                 "locale-all": "\"Tümü\"",
                 "override-existing": "Mevcut özel çevirilerimi geçersiz kıl",
                 "submit": "İçe Aktar",
-                "results": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı ve {identical} dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n",
-                "results-with-ignore": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı, {ignored} dize yok sayıldı ve {identical} aynı dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n"
+                "results": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı, {identical} aynı dize ve {empty} boş dize atlandı. Yeni çevirileri göstermek için sayfa şimdi yenilenecek.\n",
+                "results-with-ignore": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı, {ignored} mevcut dize yok sayıldı, {identical} aynı dize ve {empty} boş dize atlandı. Yeni çevirileri göstermek için sayfa şimdi yenilenecek.\n"
             },
             "known-namespace": {
                 "core": "Flarum Çekirdeği",
@@ -115,6 +115,10 @@
                 "ref": "Ref (diğer anahtarlar yeniden kullanılır)",
                 "api": "API"
             }
+        },
+        "api": {
+            "invalid_icu_syntax": "Çeviri, geçerli ICU mesaj sözdizimine uygun değil. Örneğin, bir süslü parantez kapatılmamış olabilir.",
+            "cannot_change_key_or_locale": "Kaydedilmiş bir çevirinin anahtarı ve dili değiştirilemez."
         }
     }
 }

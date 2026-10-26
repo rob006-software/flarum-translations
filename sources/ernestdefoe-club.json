@@ -1,0 +1,97 @@
+{
+    "ernestdefoe-club": {
+        "admin": {
+            "permission_join": "Join book and watch clubs",
+            "permission_create": "Start book and watch clubs",
+            "permission_moderate": "Run any club (edit, delete, change picks)"
+        },
+        "api": {
+            "not_linked": "A club pick has to be a discussion linked to a title with Marquee.",
+            "already_a_pick": "That discussion is already a club pick.",
+            "section_label": "Every section needs a name of up to 100 characters.",
+            "section_due": "A due date must be a date.",
+            "bad_section": "That section isn't part of this club pick.",
+            "last_host": "You're the club's only host. Delete the club instead, or ask a moderator."
+        },
+        "forum": {
+            "clubs": {
+                "nav": "Clubs",
+                "title": "Clubs",
+                "start": "Start a club",
+                "none": "No clubs yet.",
+                "members": "{count, plural, one {# member} other {# members}}",
+                "role_host": "You host",
+                "role_member": "You're in"
+            },
+            "club": {
+                "new_title": "Start a club",
+                "edit_title": "Edit club",
+                "name_label": "Name",
+                "description_label": "What it's about (optional)",
+                "save": "Save",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete the club {name}? Its discussions stay; the schedules and everyone's progress go.",
+                "join": "Join the club",
+                "leave": "Leave",
+                "missing": "This club doesn't exist, or was deleted.",
+                "no_picks": "No pick yet. Check back soon.",
+                "no_picks_host": "No pick yet.",
+                "how_to_pick": "To set a pick, open a discussion linked to a title and choose Make it a club pick from its controls.",
+                "past": "Past picks",
+                "open_discussion": "Open the discussion"
+            },
+            "controls": {
+                "make_pick": "Make it a club pick",
+                "edit_pick": "Edit the club schedule"
+            },
+            "pick": {
+                "title": "Make {title} a club pick",
+                "edit_title": "Schedule for {title}",
+                "no_clubs": "You don't host any club. Start one from the Clubs page first.",
+                "club_label": "Club",
+                "month_label": "Month",
+                "schedule_label": "Schedule",
+                "schedule_help": "Split it into sections, such as chapters 1–5 by the 10th or episodes 1–3 this week. Replies name the section they're about, and stay hidden from members who haven't finished it.",
+                "split_into": "Split into",
+                "parts_label": "Number of sections",
+                "split_button": "Even sections over the month",
+                "default_part": "Part {number}",
+                "default_week": "Week {number}",
+                "section_label": "Section {number}",
+                "section_placeholder": "e.g. Chapters 1–5",
+                "due_label": "Section {number} due",
+                "remove_section": "Remove section {number}",
+                "add_section": "Add a section",
+                "create": "Make it the pick",
+                "save": "Save schedule"
+            },
+            "panel": {
+                "pick_for": "Club pick for {month}",
+                "your_progress": "Your progress",
+                "done_of": "{done} of {count}",
+                "due": "by {date}",
+                "mark": "I've finished {label}",
+                "unmark": "Not finished {label} after all",
+                "join": "Join {club} to follow along",
+                "members_only": "Members of the club track their progress here.",
+                "members": "{count, plural, one {# member} other {# members}}",
+                "member_progress": "{name}'s progress"
+            },
+            "section": {
+                "name": "{number}. {label}",
+                "number": "Section {number}"
+            },
+            "composer": {
+                "about": "About",
+                "general": "Everything so far (no spoilers)"
+            },
+            "spoiler": {
+                "title": "Spoilers for {section}",
+                "body": "Members who have finished this section can read it.",
+                "body_member": "You haven't marked this section as finished, so it's hidden to keep it unspoiled.",
+                "finished": "I've finished {section}"
+            }
+        }
+    }
+}

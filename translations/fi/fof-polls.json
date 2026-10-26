@@ -96,6 +96,9 @@
                     "edit_title": "Muokkaa kyselyryhmää",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Poista kyselyryhmä",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Kyselyryhmän hallitsija",
                     "view_group": "Näytä kyselyryhmä",
                     "success": "Kyselyryhmät tallennettu onnistuneesti."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Vastaa",
                 "image_option_placeholder": "Kuvan osoite (valinnainen)",
                 "options_label": "Vastaukset",
+                "settings_label": "",
                 "public_poll_label": "Salli käyttäjien nähdä kuka vastasi",
                 "allow_multiple_votes_label": "Salli käyttäjien vastata useampaan vaihtoehtoon",
                 "max_votes_label": "Enimmäismäärä ääniä per käyttäjä",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Poista kuva",
                 "upload_button": "Siirrä kuva"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

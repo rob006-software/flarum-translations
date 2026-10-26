@@ -1,0 +1,181 @@
+{
+    "ernestdefoe-earshot": {
+        "forum": {
+            "nav": {
+                "link": "Podcasts"
+            },
+            "index": {
+                "title": "Podcasts",
+                "subtitle": "Shows aus dieser Community. Jede Episode erhält eine eigene Diskussion.",
+                "new_show": "Neue Show",
+                "empty": "Noch keine Shows.",
+                "latest": "Neueste {date}"
+            },
+            "hero": {
+                "podcast": "Podcast",
+                "followed_feed": "",
+                "episodes": "{count, plural, one {Eine Episode} other {# Episoden}}",
+                "episodes_label": "Episoden",
+                "around": "jeweils ~{time}",
+                "explicit": "Explizit",
+                "clean": "",
+                "you_played": "",
+                "followers": "",
+                "hosts": "",
+                "host": "",
+                "on_this_episode": "In dieser Episode",
+                "chapters": "Kapitel",
+                "follow": "",
+                "following": "",
+                "play_latest": "",
+                "play_latest_numbered": "",
+                "play_episode": "Episode abspielen",
+                "resume_at": "",
+                "replies": "{count, plural, =0 {Noch keine Antworten} one {Eine Antwort} other {# Antworten}}",
+                "reply": "Antworten",
+                "reply_at": "",
+                "download": "Herunterladen",
+                "edit_episode": "Episode bearbeiten",
+                "ep_short": "",
+                "episode": "",
+                "season": "Staffel {season}",
+                "season_episode": ""
+            },
+            "links": {
+                "apple": "Apple Podcasts",
+                "spotify": "Spotify",
+                "youtube": "YouTube",
+                "pocketcasts": "Pocket Casts",
+                "overcast": "Overcast",
+                "rss": "RSS",
+                "rss_help": ""
+            },
+            "show": {
+                "episodes_heading": "",
+                "no_episodes": "",
+                "missing": "",
+                "load_more": "Mehr laden",
+                "played": "",
+                "left": "",
+                "replies_label": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "publish": "Episode veröffentlichen",
+                "edit": "",
+                "refresh": "",
+                "refreshed": "",
+                "refresh_failed": "",
+                "fetch_error": ""
+            },
+            "player": {
+                "label": "",
+                "play": "Abspielen",
+                "pause": "Pausieren",
+                "back": "",
+                "forward": "",
+                "seek": "",
+                "speed": "",
+                "close": "",
+                "play_from": ""
+            },
+            "composer": {
+                "insert_time": ""
+            },
+            "time": {
+                "minutes": "{minutes} Min.",
+                "hours_minutes": "{hours} Std. {minutes} Min."
+            },
+            "modal": {
+                "new_show": "Neue Show",
+                "edit_show": "Show bearbeiten",
+                "new_episode": "Neue Episode von {show}",
+                "edit_episode": "Episode bearbeiten",
+                "title": "Titel",
+                "title_help": "",
+                "tagline": "Untertitel",
+                "description": "Beschreibung",
+                "cover": "Titelbild",
+                "cover_help": "",
+                "category": "Kategorie",
+                "category_placeholder": "z. B. Technologie",
+                "language": "Sprache",
+                "color": "Farbe",
+                "explicit": "Expliziter Inhalt",
+                "links": "",
+                "moderation": "",
+                "hosts": "",
+                "hosts_placeholder": "",
+                "hosts_help": "",
+                "feed_url": "",
+                "feed_url_help": "",
+                "tag": "",
+                "no_tag": "",
+                "tag_help": "",
+                "season": "Staffel",
+                "number": "Episodennummer",
+                "audio": "Audio",
+                "replace_audio": "",
+                "audio_file": "",
+                "audio_url": "",
+                "audio_help": "",
+                "notes": "",
+                "notes_help": "",
+                "chapters": "",
+                "chapters_help": "",
+                "publish": "",
+                "save": "",
+                "uploading": "",
+                "server_limit": "",
+                "delete_show": "",
+                "delete_show_confirm": "",
+                "delete_episode": "",
+                "delete_episode_confirm": ""
+            },
+            "widget": {
+                "title": "",
+                "heading": "",
+                "empty": "",
+                "all": "Alle Podcasts"
+            },
+            "notifications": {
+                "new_episode": ""
+            },
+            "settings": {
+                "notify_new_episode": ""
+            }
+        },
+        "admin": {
+            "widgets": {
+                "latest": ""
+            },
+            "settings": {
+                "nav": "„Podcasts“ in der Seitenleiste anzeigen",
+                "fetch_minutes": "",
+                "fetch_minutes_help": "",
+                "backlog": "",
+                "backlog_help": "",
+                "max_audio_mb": "",
+                "max_audio_mb_help": ""
+            },
+            "permissions": {
+                "view": "Podcasts anhören",
+                "follow": "",
+                "manage": "Shows starten und verwalten"
+            }
+        },
+        "api": {
+            "title_required": "",
+            "feed_invalid": "",
+            "host_missing": "",
+            "upload_failed": "",
+            "too_big": "",
+            "cover_invalid": "",
+            "audio_invalid": "",
+            "audio_required": ""
+        },
+        "email": {
+            "new_episode": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

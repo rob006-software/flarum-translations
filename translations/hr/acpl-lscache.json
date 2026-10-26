@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Zadano TTL vrijeme javne predmemorije",
             "public_cache_ttl_help": "Definirajte koliko dugo, u sekundama, javne stranice trebaju biti predmemorirane. Zadana vrijednost je 604800 sekundi (jedan tjedan).",
             "clearing_cache_listener_label": "Očisti LSCache kada se čisti Flarum predmemorija",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Posluži zastarjeli sadržaj",
             "serve_stale_help": "Ako je omogućeno, posjetiteljima će se prikazivati zastarjela verzija predmemorirane stranice sve dok se ne generira nova kopija predmemorije. To smanjuje opterećenje poslužitelja. Ako je onemogućeno, stranica će se dinamički generirati tijekom ažuriranja predmemorije, što može produžiti vrijeme čekanja. Po dizajnu, ova opcija može poslužiti zastarjeli sadržaj. Nemojte je omogućavati ako smatrate da je to neprihvatljivo.",
             "purge_on_discussion_update_label": "Očisti URL-ove ili oznake predmemorije pri ažuriranju rasprave",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Čini se da vaš poslužitelj ne podržava LSCache. Provjerite konfiguraciju poslužitelja. Otkriveni poslužitelj: <b>{server}</b>, otkrivena LiteSpeed vrsta: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Očisti LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

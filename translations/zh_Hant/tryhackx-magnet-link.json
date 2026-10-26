@@ -29,6 +29,8 @@
                 "max_trackers_help": "",
                 "topic_scrape_budget_label": "",
                 "topic_scrape_budget_help": "",
+                "scrape_max_concurrent_label": "",
+                "scrape_max_concurrent_help": "",
                 "scraper_max_redirects_label": "",
                 "scraper_max_redirects_help": "",
                 "priority_trackers_label": "",
@@ -112,6 +114,9 @@
                 "description": "",
                 "copy": "",
                 "thanks": ""
+            },
+            "permissions": {
+                "view_magnet_links": ""
             }
         },
         "forum": {
@@ -152,6 +157,7 @@
                 "no_trackers": "",
                 "no_http_trackers": "",
                 "no_response": "",
+                "busy": "",
                 "scraper_error": "",
                 "load_failed": ""
             },
@@ -160,8 +166,8 @@
                 "quota": ""
             }
         },
-        "permissions": {
-            "viewMagnetLinks": ""
+        "email": {
+            "magnet_hidden": ""
         }
     }
 }

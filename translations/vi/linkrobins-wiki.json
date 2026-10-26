@@ -4,6 +4,7 @@
             "permissions": {
                 "create_article": "Tạo bài viết wiki",
                 "comment": "Bình luận vào bài viết wiki",
+                "report_article": "",
                 "edit_articles": "Sửa và kiểm duyệt mọi bài viết wiki",
                 "view_history": "Xem lịch sử sửa đổi của bài viết wiki"
             },
@@ -19,7 +20,9 @@
                 "shortcode_categories": "Hiển thị danh sách danh mục.",
                 "shortcode_heading": "Một tiêu đề (## và ### cho cỡ nhỏ hơn).",
                 "shortcode_link": "Một liên kết. Địa chỉ web viết trần cũng tự thành liên kết.",
-                "shortcode_html": "HTML thuần trên các dòng nằm giữa hai thẻ, dùng cho nội dung nhúng hoặc tiện ích. Được giữ nguyên như bạn viết."
+                "shortcode_html": "HTML thuần trên các dòng nằm giữa hai thẻ, dùng cho nội dung nhúng hoặc tiện ích. Được giữ nguyên như bạn viết.",
+                "per_category_label": "",
+                "per_category_help": ""
             },
             "layout": {
                 "heading": "Bố cục",
@@ -103,13 +106,16 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "Tìm trong wiki",
-                "button": "Tìm kiếm",
-                "clear": "Xóa",
                 "results_heading": "Kết quả cho \"{query}\"",
                 "all_button": "Tìm \"{query}\" trong wiki",
-                "empty": "Không có bài viết nào khớp với \"{query}\"."
+                "empty": "Không có bài viết nào khớp với \"{query}\".",
+                "button": "Tìm kiếm",
+                "clear": "Xóa"
             },
             "nav": "Wiki",
+            "link_preview": {
+                "articles": ""
+            },
             "common": {
                 "date_at_time": "{date} lúc {time}"
             },
@@ -122,6 +128,8 @@
                 "untitled": "Chưa có tiêu đề",
                 "deleted_badge": "Đã xóa",
                 "draft_badge": "Bản nháp",
+                "uncategorised": "",
+                "see_all_lead": "",
                 "no_categories": "Chưa có danh mục nào."
             },
             "compose": {

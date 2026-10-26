@@ -1,0 +1,12 @@
+{
+    "core": {
+        "admin": {
+            "email": {
+                "brevo_heading": "Brevo Settings",
+                "brevo_description": "Send email via Brevo's transactional email API. The sender address must be a verified sender, or belong to a domain authenticated in Brevo.",
+                "mail_brevo_api_key_label": "API key",
+                "mail_brevo_api_key_help": "Create one in Brevo under SMTP & API → API keys. Use an API key (it starts with xkeysib-), not an SMTP key."
+            }
+        }
+    }
+}

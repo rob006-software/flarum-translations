@@ -4,6 +4,7 @@
             "permissions": {
                 "create_article": "Создавать статьи в Вики",
                 "comment": "Комментировать статьи в Вики",
+                "report_article": "",
                 "edit_articles": "Редактировать и модерировать статьи в Вики",
                 "view_history": "Смотреть историю изменений статей в Вики"
             },
@@ -19,7 +20,9 @@
                 "shortcode_categories": "Показать список категорий.",
                 "shortcode_heading": "Заголовок (## и ### для более мелкого).",
                 "shortcode_link": "Ссылка. Голые веб-адреса тоже становятся ссылками.",
-                "shortcode_html": "Необработанный HTML на строках между тегами — для вставки или виджета. Оставляется ровно как написано."
+                "shortcode_html": "Необработанный HTML на строках между тегами — для вставки или виджета. Оставляется ровно как написано.",
+                "per_category_label": "",
+                "per_category_help": ""
             },
             "layout": {
                 "heading": "Раскладка",
@@ -103,13 +106,16 @@
             "search": {
                 "heading": "Вики",
                 "placeholder": "Поиск по вики",
-                "button": "Искать",
-                "clear": "Очистить",
                 "results_heading": "Результаты по запросу \"{query}\"",
                 "all_button": "Искать в вики: \"{query}\"",
-                "empty": "Нет статей по запросу \"{query}\"."
+                "empty": "Нет статей по запросу \"{query}\".",
+                "button": "Искать",
+                "clear": "Очистить"
             },
             "nav": "Вики",
+            "link_preview": {
+                "articles": ""
+            },
             "common": {
                 "date_at_time": "{date} в {time}"
             },
@@ -122,6 +128,8 @@
                 "untitled": "Без названия",
                 "deleted_badge": "Удалено",
                 "draft_badge": "Черновик",
+                "uncategorised": "",
+                "see_all_lead": "",
                 "no_categories": "Пока нет категорий."
             },
             "compose": {

@@ -56,6 +56,9 @@ Contributors do not have write access to this repository - fork it and open a PR
   (`rob006-software/flarum-translations`). Weblate and automation commit to both branches very often.
 - All the work should go to a single PR. It may contain many commits (for example one commit per extension) or one
   big commit - both are fine.
+- Prefix the PR title and every commit message with the targeted Flarum version: `[1.x] ` for `master`,
+  `[2.x] ` for `flarum2` (e.g. `[2.x] Update Brazilian Portuguese translations`). Name the language in the text,
+  not in a second bracket.
 - Make sure the PR targets the correct base branch (`master` or `flarum2`).
 
 
@@ -92,6 +95,9 @@ The docs describe YAML files - this repository uses JSON, the data is converted 
   the extension. Keep tag names intact and balanced, translate only the text between them. Content of `<code>` is
   usually code, a setting name or a command - do not translate it. A few angle-bracketed strings are literal text or
   keyboard shortcut notation (e.g. `<shift-{modifierKey}-9>`) - check the source context and keep shortcuts as-is.
+  Never add angle brackets that are not in the source (e.g. `<head>` or `<meta>` for "the head section" / "the meta
+  tag", `<unknown>` for `[unknown]`): Flarum 2.x parses every `<word>` as a tag, and a tag that is not closed, is
+  closed without being opened or has attributes breaks the whole message. Write the name without brackets instead.
 - **Plurals**: keywords `plural`, `one`, `few`, `many`, `other`, `=0`, `=1` and the `#` sign are syntax, never translate
   them. Use the plural categories **required by your language**, not the ones used by English
   (see [CLDR plural rules](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html)).
@@ -106,11 +112,13 @@ The docs describe YAML files - this repository uses JSON, the data is converted 
   same argument is used both as `plural` and as a plain placeholder.
 - Nested placeholders inside plural branches are fine (`{count, plural, one {{users} likes it} other {...}}`), but keep
   braces balanced.
-- **Apostrophes**: avoid the ASCII apostrophe (`'`) directly before `{`, `}`, `'` or (inside plural) `#`. Flarum
+- **Apostrophes**: avoid the ASCII apostrophe (`'`) directly before `{`, `}`, `'`, `<` or (inside plural) `#`. Flarum
   formats the same message with different ICU implementations depending on where it is rendered, and they disagree:
   - PHP (backend, emails, both 1.x and 2.x) and JS in Flarum 2.x (`format-message`) treat `'` as an escape character:
     `File '{name}' deleted` renders as `File {name} deleted`, `l'{name}` renders as `l{name}`, and an apostrophe
-    before `#` in a plural branch breaks the whole message (it throws an error).
+    before `#` in a plural branch breaks the whole message (it throws an error). JS in Flarum 2.x also treats tags as
+    syntax, so the same applies to an apostrophe before `<`: in `<code>rel='me'</code>` the `</code>` becomes part of
+    the escaped text, the tag is never closed and the message throws an error.
   - JS in Flarum 1.x (`@ultraq/icu-message-formatter`) treats `'` literally: `File 'X' deleted`, `l'X`.
 
   Since you usually can't tell where a phrase is rendered, and doubling (`''`) is not portable either, use typographic

@@ -1,0 +1,278 @@
+{
+    "ernestdefoe-shutter": {
+        "admin": {
+            "settings": {
+                "show_nav": "",
+                "max_mb": "",
+                "max_mb_help": "",
+                "max_edge": "",
+                "max_edge_help": ""
+            },
+            "permissions": {
+                "enter": "",
+                "vote": "",
+                "manage": ""
+            },
+            "badges": {
+                "wins": "",
+                "podiums": "",
+                "entries": ""
+            }
+        },
+        "api": {
+            "atrium_caption": "",
+            "upload": {
+                "missing": "",
+                "incomplete": "",
+                "too_big": "",
+                "type": "",
+                "pixels": "",
+                "animated": "",
+                "damaged": ""
+            },
+            "block": {
+                "closed": "",
+                "guest": "",
+                "permission": "",
+                "groups": "",
+                "judge": "",
+                "judges_only": "",
+                "not_voting": "",
+                "too_new": "",
+                "too_few_posts": "",
+                "not_judge": ""
+            },
+            "entry": {
+                "title": "",
+                "caption": "",
+                "limit": "",
+                "duplicate": ""
+            },
+            "vote": {
+                "not_running": "",
+                "own": "",
+                "limit": ""
+            },
+            "score": {
+                "range": ""
+            },
+            "contest": {
+                "required": "",
+                "invalid": "",
+                "after_opens": "",
+                "after_submissions": "",
+                "too_long": "",
+                "between": "",
+                "judges_required": "",
+                "unknown_judges": "",
+                "scoring_locked": "",
+                "already_contest": ""
+            }
+        },
+        "lib": {
+            "place": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": ""
+            }
+        },
+        "email": {
+            "placed": {
+                "subject": "",
+                "plain": "",
+                "html": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "phase": {
+                "upcoming": "",
+                "submissions": "",
+                "voting": "",
+                "closed": ""
+            },
+            "controls": {
+                "start": "",
+                "edit": ""
+            },
+            "composer": {
+                "add": "",
+                "edit": ""
+            },
+            "notifications": {
+                "placed": "",
+                "results": "",
+                "voting_open": ""
+            },
+            "settings": {
+                "notify_voting_open": "",
+                "notify_placed": "",
+                "notify_results": ""
+            },
+            "panel": {
+                "label": "",
+                "rules": "",
+                "judged_by": "",
+                "opens": "",
+                "submissions_close": "",
+                "voting_closes": "",
+                "closed": "",
+                "photos": "",
+                "submit": "",
+                "edit": "",
+                "review_votes": "",
+                "winners": "",
+                "by": "",
+                "votes": "",
+                "score": "",
+                "slideshow": "",
+                "in_gallery": "",
+                "more": "",
+                "empty": "",
+                "empty_mine": "",
+                "empty_pending": "",
+                "view": {
+                    "all": "",
+                    "mine": "",
+                    "pending": ""
+                },
+                "sort": {
+                    "label": "",
+                    "top": "",
+                    "shuffle": "",
+                    "newest": ""
+                },
+                "you": {
+                    "entries_left": "",
+                    "not_open_yet": "",
+                    "votes_left": "",
+                    "judge": "",
+                    "judges_deciding": "",
+                    "counting": ""
+                }
+            },
+            "block": {
+                "kind_enter": "",
+                "kind_vote": "",
+                "guest": "",
+                "permission": "",
+                "groups": "",
+                "judge": "",
+                "judges_only": "",
+                "not_voting": "",
+                "too_new": "",
+                "too_few_posts": "",
+                "closed": ""
+            },
+            "entry": {
+                "vote": "",
+                "unvote": "",
+                "out_of_votes": "",
+                "my_score": "",
+                "status": {
+                    "pending": "",
+                    "disqualified": "",
+                    "approved": ""
+                }
+            },
+            "lightbox": {
+                "previous": "",
+                "next": "",
+                "play": "",
+                "pause": "",
+                "info": "",
+                "fullscreen": "",
+                "close": "",
+                "anonymous": "",
+                "your_score": "",
+                "voted_by": "",
+                "discuss": "",
+                "approve": "",
+                "disqualify": "",
+                "reinstate": "",
+                "delete": "",
+                "delete_confirm": "",
+                "edit": "",
+                "save": "",
+                "cancel": "",
+                "withdraw": "",
+                "withdraw_confirm": ""
+            },
+            "submit": {
+                "title": "",
+                "choose": "",
+                "type": "",
+                "too_big": "",
+                "photo_title": "",
+                "caption": "",
+                "privacy": "",
+                "send": "",
+                "done": "",
+                "pending": ""
+            },
+            "editor": {
+                "title_new": "",
+                "title_edit": "",
+                "schedule": "",
+                "opens_at": "",
+                "opens_at_help": "",
+                "submissions_close_at": "",
+                "voting_close_at": "",
+                "rules": "",
+                "rules_placeholder": "",
+                "entering": "",
+                "entries_per_member": "",
+                "who_enters": "",
+                "who_votes": "",
+                "groups_help": "",
+                "moderate_entries": "",
+                "deciding": "",
+                "scoring_votes": "",
+                "scoring_judges": "",
+                "scoring_locked": "",
+                "judges": "",
+                "judges_placeholder": "",
+                "judges_help": "",
+                "votes_per_member": "",
+                "voter_min_days": "",
+                "voter_min_posts": "",
+                "named_votes": "",
+                "live_counts": "",
+                "hide_entrants": "",
+                "winners_count": "",
+                "atrium_album": "",
+                "atrium_none": "",
+                "atrium_help": "",
+                "save": "",
+                "use": "",
+                "remove_draft": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "integrity": {
+                "title": "",
+                "summary": "",
+                "help": "",
+                "none": "",
+                "void": "",
+                "restore": "",
+                "void_all": "",
+                "reason": {
+                    "same_network": "",
+                    "shared_network": "",
+                    "new_account": "",
+                    "no_posts": "",
+                    "mutual": ""
+                }
+            },
+            "contests": {
+                "title": "",
+                "active": "",
+                "past": "",
+                "empty_active": "",
+                "empty_past": ""
+            }
+        }
+    }
+}

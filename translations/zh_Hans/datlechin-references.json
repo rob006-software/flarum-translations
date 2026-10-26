@@ -6,12 +6,16 @@
                 "behaviour_description": "设置帖子中的哪些链接会被记录为引用。",
                 "display_label": "显示",
                 "display_description": "设置引用的显示位置，以及列表折叠前显示的数量。",
+                "notifications_label": "",
+                "notifications_description": "",
+                "advanced_label": "",
+                "advanced_description": "",
+                "extensions_label": "其他扩展",
+                "extensions_description": "其他扩展添加到此页面的设置。",
                 "discovery_label": "内容发现",
                 "discovery_description": "基于引用关系生成的组件。",
                 "maintenance_label": "维护",
-                "maintenance_description": "设置指向已删除内容的引用保留多久。",
-                "extensions_label": "其他扩展",
-                "extensions_description": "其他扩展添加到此页面的设置。"
+                "maintenance_description": "设置指向已删除内容的引用保留多久。"
             },
             "settings": {
                 "enabled_label": "记录引用",
@@ -57,6 +61,7 @@
                 "by_relation_label": "关系类型",
                 "export_button": "导出 CSV",
                 "empty": "尚未记录任何引用。",
+                "pending": "",
                 "unavailable": "无法读取统计数据。",
                 "chart_label": "每日引用数。有记录 {count} 天，单日最高 {peak} 条。"
             },
@@ -92,17 +97,82 @@
             "reference": {
                 "deleted_text": "[已删除]"
             },
+            "links": {
+                "incoming_heading": "",
+                "outgoing_heading": "",
+                "all_button": "",
+                "summary_button": "",
+                "modal_title": "",
+                "post_modal_title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "map_tab": "",
+                "add_button": "",
+                "manage_button": "",
+                "load_more_button": "",
+                "empty": "",
+                "by_text": "",
+                "edit_button": "",
+                "remove_button": "",
+                "remove_confirmation": ""
+            },
             "post": {
+                "linked_from_text": "",
+                "more_button": "",
                 "referenced_by_text": "{discussions} 引用了此帖",
                 "others_text": "{count, plural, one {另有 # 个} other {另有 # 个}}"
+            },
+            "related": {
+                "title": "相关讨论"
+            },
+            "sort": {
+                "most_linked": ""
+            },
+            "map": {
+                "empty": "",
+                "accessible_label": ""
+            },
+            "relation": {
+                "references": "引用",
+                "duplicate_of": "重复于",
+                "see_also": "另请参阅",
+                "supersedes": "取代",
+                "answers": "回答"
+            },
+            "form": {
+                "add_title": "",
+                "edit_title": "",
+                "target_label": "",
+                "target_placeholder": "",
+                "no_results": "",
+                "change_button": "",
+                "type_label": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "add_button": "",
+                "save_button": ""
+            },
+            "event_post": {
+                "linked": "",
+                "linked_from": "",
+                "referenced": "{username} 引用了此讨论"
+            },
+            "notifications": {
+                "discussion_linked_text": "",
+                "post_linked_text": "",
+                "followed_discussion_linked_text": "",
+                "discussion_referenced_text": "{username} 引用了你发起的讨论",
+                "post_referenced_text": "{username} 引用了你的帖子"
+            },
+            "settings": {
+                "notify_discussion_linked_label": "",
+                "notify_post_linked_label": "",
+                "notify_followed_discussion_linked_label": ""
             },
             "discussion": {
                 "referenced_by_title": "被引用 {count, plural, one {# 次} other {# 次}}",
                 "references_title": "此讨论引用了",
                 "show_all_button": "查看全部"
-            },
-            "related": {
-                "title": "相关讨论"
             },
             "most_referenced": {
                 "sort": "引用最多"
@@ -113,13 +183,6 @@
                 "empty": "暂无可绘制的引用关系。",
                 "accessible_label": "{count, plural, one {# 个讨论} other {# 个讨论}}及其引用关系"
             },
-            "relation": {
-                "references": "引用",
-                "duplicate_of": "重复于",
-                "see_also": "另请参阅",
-                "supersedes": "取代",
-                "answers": "回答"
-            },
             "manual": {
                 "add_button": "添加引用",
                 "title": "添加引用",
@@ -129,19 +192,24 @@
                 "note_label": "备注",
                 "note_placeholder": "说明这两个讨论为何相关",
                 "submit_button": "添加"
-            },
-            "event_post": {
-                "referenced": "{username} 引用了此讨论"
-            },
-            "notifications": {
-                "discussion_referenced_text": "{username} 引用了你发起的讨论",
-                "post_referenced_text": "{username} 引用了你的帖子"
+            }
+        },
+        "api": {
+            "manual": {
+                "not_found_message": "",
+                "same_discussion_message": "",
+                "duplicate_message": "",
+                "source_required_message": ""
             }
         },
         "email": {
             "discussion_referenced": {
                 "subject": "你的讨论被引用：{title}",
                 "body": "{username} 在另一个讨论中引用了你的讨论。\n\n{url}\n"
+            },
+            "followed_discussion_referenced": {
+                "subject": "",
+                "body": ""
             },
             "post_referenced": {
                 "subject": "你的帖子在 {title} 中被引用",

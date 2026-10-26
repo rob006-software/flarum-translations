@@ -1,0 +1,339 @@
+{
+    "ernestdefoe-docket": {
+        "api": {
+            "closed": "Diese Meldung zuerst wiedereröffnen.",
+            "assign_others": "",
+            "cannot_see": "",
+            "cannot_restore": ""
+        },
+        "email": {
+            "assigned": {
+                "subject": "",
+                "title": "",
+                "body": "",
+                "link": ""
+            },
+            "outcome": {
+                "subject": "",
+                "body_resolved": "",
+                "body_rejected": "",
+                "link": "Deine Meldungen anzeigen"
+            },
+            "crowd": {
+                "subject_hidden": "",
+                "subject_approval": "",
+                "subject_restored": "",
+                "body_hidden": "",
+                "body_approval": "",
+                "body_restored": "",
+                "link": ""
+            }
+        },
+        "forum": {
+            "nav": {
+                "report_centre": "Meldungszentrale",
+                "my_reports": "Meine Meldungen",
+                "user_reports": "Meldungen",
+                "views": "",
+                "queue_toggle": ""
+            },
+            "centre": {
+                "subtitle": ""
+            },
+            "post": {
+                "open_report": ""
+            },
+            "settings": {
+                "notify_assigned": "",
+                "notify_outcome": "",
+                "notify_crowd": ""
+            },
+            "notifications": {
+                "assigned_by": "",
+                "assigned_by_rule": "",
+                "outcome_resolved": "",
+                "outcome_rejected": "",
+                "crowd_hidden": "",
+                "crowd_approval": "",
+                "crowd_restored": ""
+            },
+            "status": {
+                "open": "Offen",
+                "in_progress": "In Bearbeitung",
+                "resolved": "Gelöst",
+                "rejected": "Abgelehnt",
+                "closed": "Geschlossen",
+                "restored": ""
+            },
+            "reason": {
+                "approval": "",
+                "raised_by": "",
+                "other": "Andere"
+            },
+            "views": {
+                "active": "",
+                "unassigned": "",
+                "mine": "",
+                "resolved": "",
+                "rejected": "",
+                "all": "",
+                "in_queue": "{view} in {queue}"
+            },
+            "queues": {
+                "all": "Alle Warteschlangen",
+                "general": "Allgemeine Warteschlange"
+            },
+            "list": {
+                "post_gone": "Der Beitrag wurde gelöscht",
+                "by": "Beitrag von {name}",
+                "report_count": "{count, plural, one {# Meldung} other {# Meldungen}}",
+                "held_by": "",
+                "empty": "",
+                "load_more": ""
+            },
+            "report": {
+                "title": "Meldung #{id}",
+                "opened": "Eröffnet {time}",
+                "back": "",
+                "post_gone": "",
+                "moderate": "",
+                "post_hidden": "",
+                "warning_count": "",
+                "reporters": "",
+                "system": "Automatisch",
+                "held_by": "",
+                "handled_by": "",
+                "no_one": "",
+                "claim": "",
+                "take_over": "Übernehmen",
+                "release": "Freigeben",
+                "unassign": "",
+                "assign": "",
+                "assign_title": "",
+                "queue": "Warteschlange",
+                "resolve": "",
+                "reject": "",
+                "reopen": "Wiedereröffnen",
+                "reporters_told": "",
+                "timeline": "",
+                "timeline_empty": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "note_help": "",
+                "note_submit": "Notiz hinzufügen",
+                "post_history": "",
+                "post_history_empty": "Keine.",
+                "user_history": "",
+                "user_history_empty": "",
+                "user_history_all": "",
+                "reporter_history": "",
+                "reporter_history_pick": "",
+                "reporter_history_empty": ""
+            },
+            "user": {
+                "tabs": "",
+                "about": "",
+                "made": ""
+            },
+            "record": {
+                "title": "",
+                "frame_30d": "",
+                "frame_90d": "",
+                "frame_12m": "",
+                "frame_all": "",
+                "total": "",
+                "resolved": "",
+                "rejected": "",
+                "open": "",
+                "note": "",
+                "line": "",
+                "empty": "",
+                "post_unavailable": "",
+                "reason": ""
+            },
+            "timeline": {
+                "someone": "Jemand",
+                "claimed": "{actor} hat es beansprucht",
+                "assigned": "{actor} hat an {name} zugewiesen",
+                "assigned_by_rule": "",
+                "unassigned": "",
+                "moved": "",
+                "routed": "",
+                "routed_queue": "",
+                "status": "",
+                "status_notified": "",
+                "cleared": "",
+                "cleared_auto": "",
+                "post_hidden": "",
+                "post_restored": "",
+                "post_deleted": "",
+                "post_approved": "",
+                "suspended": "",
+                "warning": "",
+                "crowd_hidden": "",
+                "crowd_hidden_discussion": "",
+                "crowd_approval": "",
+                "crowd_approval_discussion": "",
+                "crowd_held_staff": "",
+                "crowd_held_exempt": "",
+                "crowd_held_cooldown": "",
+                "crowd_restored": ""
+            },
+            "crowd": {
+                "chip_hidden": "",
+                "chip_approval": "",
+                "banner_hidden": "",
+                "banner_approval": "",
+                "held": "",
+                "restore": ""
+            },
+            "close": {
+                "title_resolved": "",
+                "title_rejected": "",
+                "help_resolved": "",
+                "help_rejected": "",
+                "crowd_resolved": "",
+                "crowd_rejected": "",
+                "notify": "",
+                "no_reporters": "",
+                "message_label": "",
+                "message_placeholder_resolved": "",
+                "message_placeholder_rejected": "",
+                "message_help": "",
+                "submit_resolved": "",
+                "submit_rejected": ""
+            },
+            "mine": {
+                "title": "",
+                "intro": "",
+                "empty": "",
+                "empty_since": "",
+                "since_30": "",
+                "since_90": "",
+                "since_180": "",
+                "since_365": "",
+                "since_days": "",
+                "post_unavailable": "",
+                "your_reason": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "notify_by_default": "",
+                "notify_by_default_help": "",
+                "my_reports_days": "",
+                "my_reports_days_help": "",
+                "my_reports_forever": "",
+                "my_reports_30": "",
+                "my_reports_90": "",
+                "my_reports_180": "",
+                "my_reports_365": ""
+            },
+            "permissions": {
+                "assign_others": ""
+            },
+            "sort": {
+                "grip": ""
+            },
+            "queues": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "add": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "name": "",
+                "description": "",
+                "color": "",
+                "groups": "",
+                "groups_help": "",
+                "save": "",
+                "kept_to": "",
+                "open_to_all": "",
+                "admins_only": "",
+                "crowd": "",
+                "crowd_default": "",
+                "crowd_help": "",
+                "crowd_summary": "",
+                "crowd_never": ""
+            },
+            "rules": {
+                "title": "",
+                "help": "",
+                "empty": "",
+                "add": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "name": "",
+                "enabled": "",
+                "when": "",
+                "when_help": "",
+                "tags": "",
+                "reasons": "",
+                "types": "",
+                "types_help": "",
+                "groups": "",
+                "groups_help": "",
+                "then": "",
+                "queue": "",
+                "general_queue": "",
+                "assign": "",
+                "assign_none": "",
+                "assign_user": "",
+                "assign_group": "",
+                "pick_user": "",
+                "assign_user_help": "",
+                "assign_group_help": "",
+                "save": "",
+                "disabled_badge": "",
+                "summary": "",
+                "any_report": "",
+                "nothing": "",
+                "summary_queue": "",
+                "summary_user": "",
+                "summary_group": ""
+            },
+            "crowd": {
+                "title": "",
+                "help": "",
+                "enabled": "",
+                "when": "",
+                "threshold": "",
+                "threshold_help": "",
+                "window": "",
+                "window_help": "",
+                "action": "",
+                "action_hidden": "",
+                "action_approval": "",
+                "action_help": "",
+                "who": "",
+                "min_age": "",
+                "min_age_help": "",
+                "min_posts": "",
+                "min_posts_help": "",
+                "groups": "",
+                "groups_help": "",
+                "trust": "",
+                "trust_help": "",
+                "address_help": "",
+                "never": "",
+                "exempt": "",
+                "exempt_help": "",
+                "cooldown": "",
+                "cooldown_help": "",
+                "tags": "",
+                "tags_help": "",
+                "save": "",
+                "saved": ""
+            },
+            "reasons": {
+                "off_topic": "",
+                "inappropriate": "",
+                "spam": "",
+                "other": ""
+            }
+        }
+    }
+}

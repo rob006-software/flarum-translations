@@ -1,19 +1,28 @@
 {
     "linkrobins-warble": {
         "admin": {
-            "transport_label": "Realtime transport",
-            "transport_help": "Automatic uses a websocket server when one is configured in config.php and polling otherwise. Polling needs no server at all and works on any hosting; a few seconds behind. A websocket is instant but you run it yourself (Reverb, soketi, or any Pusher-compatible server).\n",
-            "transport_auto": "Automatic",
-            "transport_polling": "Polling (no server needed)",
-            "transport_socket": "Websocket only",
-            "poll_interval_label": "Polling interval (seconds)",
-            "poll_interval_help": "How often each visitor's browser asks for updates in polling mode. Lower is snappier and busier; higher is gentler on small hosting. Hidden tabs stop polling entirely.\n",
-            "key_label": "Warble key",
-            "key_help": "Paste the key from your linkrobins.com dashboard → Warble. That's it — Warble sets up the Realtime extension's connection for you automatically. After you save, realtime can take up to a minute to activate. Leave it blank to disconnect.\n",
-            "paste_key": "Paste your Warble key below to turn on realtime. Get it from your linkrobins.com dashboard → Warble.",
-            "connected": "✓ Connected — realtime is set up on your forum. It can take up to a minute to activate, so if new replies aren't appearing live right away, give it a moment. Tip: open the Realtime extension's settings to tune typing indicators, discussion-list updates, and notification toasts for your community.\n",
-            "need_realtime": "Warble needs the \"Realtime\" extension. Install and enable flarum/realtime, then paste your Warble key below — Warble does the rest.\n",
-            "write_failed": "Warble couldn't save the connection to your forum's config.php — it isn't writable by the web server. Make config.php writable (or ask your host), then save your key again.\n"
+            "health_title": "Realtime health",
+            "health_recheck": "Check again",
+            "health_failed": "The health check could not be loaded. Reload the page and try again.",
+            "check": {
+                "realtime": "The Realtime extension is enabled.",
+                "realtime_missing": "The Realtime extension is not enabled. Warble only carries Realtime's updates, so enable flarum/realtime first.",
+                "endpoint_ok": "Browsers can reach the polling address on this forum.",
+                "endpoint_fail": "Browsers cannot reach /api/warble/poll on this forum. A firewall, security plugin or host rule may be blocking it, and without it nothing updates live.",
+                "queue_sync": "The queue is set to sync, so updates go out the moment they happen.",
+                "scheduler_not_needed": "Warble does not need the scheduler (cron) with a sync queue.",
+                "queue_async": "The queue driver is {driver}. Realtime puts every update in this queue first, so visitors see it only once the queue is processed. If updates arrive minutes late, this is why.",
+                "scheduler_never": "The scheduler (cron) has never run. If nothing else processes your queue, updates will not be sent.",
+                "scheduler_stale": "The scheduler (cron) last ran {at}. If it processes your queue, updates are waiting until it runs again.",
+                "scheduler_active": "The scheduler (cron) is running; it last ran {at}.",
+                "polling_seen": "A visitor's browser last checked for updates {at}.",
+                "polling_quiet": "No visitor's browser has checked for updates in the last {minutes} minutes. Open the forum in another tab and check again.",
+                "interval_auto": "Visitors' browsers check for updates every {seconds} seconds, chosen automatically. Over the last few minutes polling kept about {load}% of one server process busy ({polls} checks a minute, {ms} ms each). Warble slows down by itself when your host is busy. For instant updates, run Realtime with its own websocket server instead of Warble.",
+                "interval_waiting": "Visitors' browsers check for updates every {seconds} seconds. Warble adjusts this automatically once visitors are browsing, based on how much polling costs your host.",
+                "updates_seen": "The last update was sent {at}.",
+                "updates_quiet": "No updates were sent in the last {minutes} minutes. Post a reply in another tab and check again.",
+                "websocket_leftover": "config.php still has a websocket section, probably from the retired hosted Warble service. Warble ignores it. You can remove it."
+            }
         }
     }
 }

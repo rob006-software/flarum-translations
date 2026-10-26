@@ -3,7 +3,10 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "Wysyłanie prywatnych wiadomości",
-                "delete_own_messages_label": "Usuwanie własnych wiadomości"
+                "message_users_without_permission_label": "",
+                "delete_own_messages_label": "Usuwanie własnych wiadomości",
+                "send_without_throttle_label": "",
+                "view_ips_label": ""
             }
         },
         "forum": {
@@ -17,7 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Oznacz jako przeczytaną",
+                "own_last_message_preview": "",
                 "title": "Wiadomości",
+                "unread_count_text": "",
                 "view_all": "Zobacz wszystkie wiadomości"
             },
             "dialog_section": {
@@ -67,7 +72,12 @@
                 "title": "Wiadomości"
             },
             "recipient_selection_modal": {
+                "cannot_reply_text": "",
                 "title": "Wybierz odbiorców wiadomości"
+            },
+            "search_source": {
+                "conversation_with": "",
+                "heading": ""
             },
             "settings": {
                 "notify_message_received_label": "Ktoś wyśle mi wiadomość"
@@ -82,18 +92,50 @@
         },
         "email": {
             "message_received": {
-                "subject": "{user_display_name} wysłał(a) Ci wiadomość",
+                "subject": "{user_display_name} wysłał Ci wiadomość",
                 "plain": {
-                    "body": "{user_display_name} wysłał(a) Ci nową wiadomość.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "{user_display_name} wysłał Ci nową wiadomość.\n\n{url}\n\n---\n\n{content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
                 },
                 "html": {
-                    "body": "{user_display_name} wysłał(a) Ci [nową wiadomość]({url})."
+                    "body": "{user_display_name} wysłał Ci [nową wiadomość]({url}).\n\nNie dostaniesz nowych powiadomień dotyczących tej konwersacji do czasu, aż zobaczysz nową zawartość.\n"
                 }
             }
         },
         "lib": {
             "dialog": {
                 "title": "Wiadomość do użytkownika {username}"
+            },
+            "no_other_members_message": "",
+            "recipient_cannot_reply_message": "",
+            "recipient_unavailable_message": ""
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "messages": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "dialog": {
+                    "started": "",
+                    "posted": ""
+                }
+            }
+        }
+    },
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "dialogs_heading": "",
+                "dialog_replies_heading": ""
             }
         }
     }

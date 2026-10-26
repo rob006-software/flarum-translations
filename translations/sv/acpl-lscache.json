@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Standard-TTL för publik cache",
             "public_cache_ttl_help": "Ange hur länge (i sekunder) publika sidor ska cachelagras. Standardvärdet är 604800 sekunder (en vecka).",
             "clearing_cache_listener_label": "Rensa LSCache när Flarum-cachen rensas",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Visa föråldrat innehåll",
             "serve_stale_help": "Om funktionen är aktiverad visas en föråldrad version av en cachad sida för besökare fram till dess att en ny kopia har skapats i cachen. Detta minskar serverbelastningen. Om funktionen är inaktiverad genereras sidan dynamiskt under cacheuppdateringen, vilket kan leda till längre väntetider. Det ligger i funktionens natur att kunna visa inaktuellt innehåll; aktivera den därför inte om du anser att detta är oacceptabelt.",
             "purge_on_discussion_update_label": "Rensa webbadresser eller cache-taggar vid uppdatering av diskussion",
@@ -20,6 +21,17 @@
             "test_failed_alert": "Det verkar som att din server inte stöder LSCache. Kontrollera serverkonfigurationen. Identifierad server: <b>{server}</b>, identifierad LiteSpeed-typ: <b>{type}</b>.",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Rensa LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

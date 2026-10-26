@@ -27,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Luo kenttä",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Tallenna muutokset",
-                "delete-field": "Poista kenttä"
+                "delete-field": "Poista kenttä",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Muokkaa toisen käyttäjän profiilia",
@@ -37,9 +41,11 @@
             },
             "fields": {
                 "title": "Kentät",
+                "trash": "",
                 "create": "Luo kenttä",
                 "edit": "Muokkaa kenttää {field}",
                 "delete-confirmation": "Haluatko varmasti poistaa kentän {field}? Tätä ei voi peruuttaa.",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -97,6 +103,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": ""
                 }
             }

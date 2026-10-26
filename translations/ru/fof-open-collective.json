@@ -15,6 +15,53 @@
                 "group_help": "Выберите группу пользователей для спонсоров. Пользователи будут автоматически добавляться при оформлении регулярной поддержки и переводиться в группу разовых спонсоров, если такая настроена, после окончания подписки.",
                 "onetime_group_label": "Группа разовых спонсоров — необязательно",
                 "onetime_group_help": "Выберите группу пользователей для разовых спонсоров. Если не задано, такие спонсоры не будут обрабатываться. При отмене подписки постоянный спонсор будет переведён в эту группу."
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

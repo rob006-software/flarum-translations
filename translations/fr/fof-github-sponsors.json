@@ -7,13 +7,61 @@
             },
             "settings": {
                 "api_token_label": "Jeton API",
-                "api_token_help": "Créez un jeton d'accès personnel à l'adresse <a>https://github.com/settings/tokens/new</a> avec les champs d'application <code>user</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.",
+                "api_token_help": "Créez un jeton d'accès personnel à l'adresse <a>https://github.com/settings/tokens/new</a> avec les champs <code>read:user</code>, <code>user:email</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.",
                 "account_type_label": "Type de compte",
                 "account_type_help": "Indiquez si vous effectuez le suivi des sponsors pour un compte utilisateur GitHub personnel ou pour un compte d'organisation.",
                 "login_label": "Identifiant",
                 "login_help": "Saisissez votre nom d'utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s'agit du compte dont les sponsors seront synchronisés.",
-                "group_label": "Groupe à attribuer",
-                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu'ils deviendront sponsors et supprimés lorsqu'ils cesseront de l'être."
+                "group_label": "Groupe des sponsors mensuels",
+                "group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel les groupes mensuels actifs doivent être ajoutés. Les utilisateurs sont ajoutés lorsqu'ils commencent à parrainer mensuellement, puis transférés vers le groupe des parrainages ponctuels (si celui-ci est configuré) à la fin de leur parrainage mensuel.",
+                "onetime_group_label": "Groupe des sponsors ponctuels (facultatif)",
+                "onetime_group_help": "Sélectionnez le groupe d'utilisateurs Flarum auquel doivent être ajoutés les sponsors ponctuels ainsi que les anciens sponsors mensuels. Si aucun groupe n’est défini, ils ne seront pas pris en charge.",
+                "onetime_group_none": "Aucun"
+            },
+            "status": {
+                "heading": "État de la synchronisation",
+                "never_run": "La synchronisation n'a pas encore été exécutée. Elle s'effectue toutes les heures via le planificateur de Flarum ; vérifiez donc que celui-ci est bien configuré.",
+                "last_success": "Dernière synchronisation {time} : {sponsors} sponsors, {changes} modifications.",
+                "last_failure": "Échec de la dernière synchronisation {time} : {reason}",
+                "stale": "La dernière synchronisation remonte à plus de deux heures. Vérifiez que le planificateur de Flarum fonctionne correctement.",
+                "test_button": "Test de connexion",
+                "test_success": "Connecté à {maintainer} en tant que {account}. {sponsorships} parrainage(s) public(s) trouvé(s).",
+                "request_failed": "Le test de connexion n'a pas pu être effectué.",
+                "reasons": {
+                    "unauthorized": "GitHub a rejeté le jeton. Il est possible qu'il ait expiré ou qu'il ait été révoqué.",
+                    "forbidden": "Le jeton ne dispose pas d'un champ d'application requis. Cela nécessite les champs « read:user », « user:email » et « read:org ».",
+                    "not_found": "Utilisateur ou organisation GitHub introuvable. Vérifiez le type de compte et l'identifiant.",
+                    "rate_limited": "La limite de requêtes de GitHub a été atteinte. La prochaine synchronisation effectuera une nouvelle tentative.",
+                    "network": "Impossible d'accéder à GitHub.",
+                    "configuration": "Le jeton, le type de compte, l'identifiant ou les paramètres de groupe sont incomplets.",
+                    "no_sponsors": "GitHub n'a renvoyé aucun contributeur ; rien n'a donc été modifié. Exécutez la synchronisation avec l'option --force si cela vous convient.",
+                    "other": "GitHub a renvoyé une réponse inattendue."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_github_sponsors": {
+                    "recurring_started": "{username} est devenu un contributeur mensuel sur GitHub. Groupes : {old_groups} → {new_groups}",
+                    "recurring_stopped": "Le parrainage mensuel de {username} sur GitHub a pris fin. Groupes : {old_groups} → {new_groups}",
+                    "onetime_started": "{username} est devenu un sponsor ponctuel sur GitHub. Groupes : {old_groups} → {new_groups}",
+                    "sponsorship_ended": "{username} n'est plus sponsor sur GitHub. Groupes : {old_groups} → {new_groups}",
+                    "groups_changed": "La synchronisation GitHub Sponsors a modifié les groupes de {username}, passant de {old_groups} à {new_groups}",
+                    "membership_adopted": "La synchronisation GitHub Sponsors a pris en charge l'adhésion de {username} aux groupes {new_groups}"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "githubsponsor": {
+                    "export_description": "Exporte le statut de sponsor GitHub du membre, la date de sa dernière modification, ainsi que les groupes que la synchronisation gère pour lui.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.githubsponsor.delete_description",
+                    "delete_description": "Supprime l'enregistrement du membre en tant que sponsor sur GitHub, de sorte que la synchronisation ne le prenne plus en compte, sans pour autant annoncer la fin de son parrainage."
+                }
             }
         }
     }

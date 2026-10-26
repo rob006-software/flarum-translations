@@ -12,7 +12,7 @@
                 "trusted_posts_label": "Trust members after this many posts",
                 "trusted_posts_help": "Established members are never screened.",
                 "threshold_label": "Answer confidence threshold",
-                "threshold_help": "Below this, Steward says it does not know rather than answering from a weak match. 0.62 suits most forums."
+                "threshold_help": "Below this, Steward says it does not know rather than answering from a weak match. It applies to every answer, from the hosted index or your own OpenSearch. 0.62 suits most forums."
             },
             "usage": {
                 "title": "Your usage this month",
@@ -67,6 +67,30 @@
                 "was_kept": "Kept",
                 "was_removed": "Removed",
                 "was_ignored": "Dismissed"
+            }
+        },
+        "api": {
+            "answers_off": "Answers are switched off on this forum.",
+            "ask_first": "Ask a question first.",
+            "unknown_resolution": "Unknown resolution.",
+            "relay": {
+                "not_connected": "Steward is not connected — no site key.",
+                "exhausted": "Allowance used up for this period.",
+                "key_rejected": "This site key was rejected. It may have been revoked or bound to another domain.",
+                "refused": "The AI service refused the request.",
+                "unavailable": "The AI service is unavailable.",
+                "unreachable": "The AI service could not be reached.",
+                "unreadable": "The AI service returned something unreadable."
+            },
+            "reasons": {
+                "new_account_links": "{count, plural, one {new account posting # link} other {new account posting # links}}",
+                "bare_links": "links with almost no text around them",
+                "capitals": "almost entirely capitals",
+                "repetition": "the same phrase repeated over and over",
+                "contact_details": "new account sharing off-site contact details",
+                "almost_no_content": "first posts, almost no content",
+                "unscreened_allowance_used": "allowance used up — not screened",
+                "unscreened_unavailable": "screening unavailable — not screened"
             }
         }
     }

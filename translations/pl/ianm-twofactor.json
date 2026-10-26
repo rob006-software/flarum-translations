@@ -24,12 +24,12 @@
                 "tokens": {
                     "heading": "Tokeny dostępu",
                     "help": "W celu zwiększenia bezpieczeństwa możesz tutaj zarządzać dodatkowymi zachowaniami związanymi z tokenami dostępu.",
-                    "kill_inactive_tokens": "Zabij nieaktywne tokeny",
-                    "kill_inactive_tokens_help": "Automatycznie zabija tokeny dostępu, które były nieaktywne przez określony czas.",
-                    "kill_inactive_tokens_age_days": "Zabij nieaktywne tokeny po (dniach)",
+                    "kill_inactive_tokens": "Unieważniaj nieaktywne tokeny",
+                    "kill_inactive_tokens_help": "Automatycznie unieważnia tokeny dostępu, które były nieaktywne przez określony czas.",
+                    "kill_inactive_tokens_age_days": "Unieważniaj nieaktywne tokeny po (dniach)",
                     "kill_inactive_tokens_age_days_help": "Liczba dni braku aktywności, po których tokeny dostępu zostaną usunięte.",
-                    "also_kill_developer_tokens": "Zabij także tokeny developerskie",
-                    "also_kill_developer_tokens_help": "Zabija również tokeny dostępu dewelopera, które były nieaktywne przez określony czas."
+                    "also_kill_developer_tokens": "Unieważniaj także tokeny deweloperskie",
+                    "also_kill_developer_tokens_help": "Unieważnia również tokeny dostępu dewelopera, które były nieaktywne przez określony czas."
                 }
             }
         },
@@ -82,7 +82,8 @@
             },
             "log_in": {
                 "two_factor_placeholder": "Token 2FA, np. 123456",
-                "two_factor_required_message": "Aby kontynuować, wymagany jest ważny token uwierzytelniania dwuskładnikowego."
+                "two_factor_required_message": "Aby kontynuować, wymagany jest ważny token uwierzytelniania dwuskładnikowego.",
+                "two_factor_incorrect_message": "Nieprawidłowy kod 2FA. Spróbuj ponownie."
             }
         },
         "email": {
@@ -95,17 +96,22 @@
             "status_type": {
                 "enabled": "włączone",
                 "disabled": "wyłączone",
-                "device_changed": ""
+                "device_changed": "przeniesione na nowe urządzenie"
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "Kod 2FA (jeśli jest włączony na Twoim koncie)",
+                "two_factor_required_message": "Na tym koncie włączono uwierzytelnianie dwuskładnikowe. Wprowadź kod z aplikacji uwierzytelniającej lub kod zapasowy.",
+                "two_factor_incorrect_message": "Nieprawidłowy kod 2FA. Spróbuj ponownie."
+            },
             "reset_password": {
                 "two_factor_token_label": "Token uwierzytelniania dwuskładnikowego"
             },
             "two_factor_token": {
                 "title": "Uwierzytelnianie dwuskładnikowe",
                 "submit_button": "Prześlij token",
-                "oauth_session_expired": ""
+                "oauth_session_expired": "Sesja uwierzytelniania OAuth wygasła. Spróbuj zalogować się ponownie."
             }
         }
     },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "Eksportuje status 2FA i zaszyfrowane kody zapasowe.",
                     "delete_description": "Usuwa wszystkie dane związane z 2FA."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "Włączono uwierzytelnianie dwuskładnikowe dla użytkownika {username}",
+                    "two_factor_disabled": "Wyłączono uwierzytelnianie dwuskładnikowe dla użytkownika {username}",
+                    "two_factor_device_changed": "Zmieniono urządzenie uwierzytelniające użytkownika {username}",
+                    "two_factor_backup_code_used": "Użyto zapasowego kodu uwierzytelniania dwuskładnikowego użytkownika {username} (pozostało: {remaining})"
+                },
+                "group": {
+                    "two_factor_required": "Włączono wymóg uwierzytelniania dwuskładnikowego dla grupy {name}",
+                    "two_factor_not_required": "Wyłączono wymóg uwierzytelniania dwuskładnikowego dla grupy {name}"
                 }
             }
         }

@@ -1,0 +1,278 @@
+{
+    "ernestdefoe-shutter": {
+        "admin": {
+            "settings": {
+                "show_nav": "Show \"Photo contests\" in the sidebar (once there is a contest)",
+                "max_mb": "Largest photo members may upload (MB)",
+                "max_mb_help": "Between 1 and 50. PHP's own upload_max_filesize and post_max_size must allow it too.",
+                "max_edge": "Longest side of the stored photo (pixels)",
+                "max_edge_help": "Between 1024 and 4096. Photos are re-encoded to this size with every piece of metadata removed; the upload itself is never kept."
+            },
+            "permissions": {
+                "enter": "Enter photo contests",
+                "vote": "Vote in photo contests",
+                "manage": "Run photo contests (start, edit, moderate entries, review votes)"
+            },
+            "badges": {
+                "wins": "Photo contests won",
+                "podiums": "Podium finishes in photo contests",
+                "entries": "Photos entered in contests"
+            }
+        },
+        "api": {
+            "atrium_caption": "{place} in the photo contest \"{contest}\".",
+            "upload": {
+                "missing": "Choose a photo to enter.",
+                "incomplete": "The photo did not arrive in full. Please try again.",
+                "too_big": "That photo is larger than {size} MB.",
+                "type": "Only JPEG, PNG and WebP photographs can be entered.",
+                "pixels": "That photo has too many pixels for this forum to process. Please send a smaller copy.",
+                "animated": "Animated images cannot be entered.",
+                "damaged": "That file could not be read as a photo."
+            },
+            "block": {
+                "closed": "Entries are not open in this contest right now.",
+                "guest": "Log in to take part.",
+                "permission": "You do not have permission to do that.",
+                "groups": "This contest is open to particular groups only.",
+                "judge": "Judges cannot enter the contest they are judging.",
+                "judges_only": "This contest is decided by its judges.",
+                "not_voting": "Voting is not open in this contest right now.",
+                "too_new": "Your account is too new to vote in this contest.",
+                "too_few_posts": "You need to have posted more to vote in this contest.",
+                "not_judge": "You are not a judge of this contest."
+            },
+            "entry": {
+                "title": "Give the photo a title of up to {max} characters.",
+                "caption": "Keep the caption to {max} characters.",
+                "limit": "{count, plural, one {You can enter one photo in this contest.} other {You can enter # photos in this contest.}}",
+                "duplicate": "That photo has already been entered in this contest."
+            },
+            "vote": {
+                "not_running": "That photo is not in the running.",
+                "own": "You cannot vote for or score your own photo.",
+                "limit": "{count, plural, one {You have used your vote.} other {You have used all # of your votes.}}"
+            },
+            "score": {
+                "range": "Scores run from 1 to 10."
+            },
+            "contest": {
+                "required": "This is required.",
+                "invalid": "That value is not valid.",
+                "after_opens": "Submissions must close after the contest opens.",
+                "after_submissions": "Voting must close after submissions close.",
+                "too_long": "Keep this to {max} characters.",
+                "between": "Choose a number from {min} to {max}.",
+                "judges_required": "Name at least one judge.",
+                "unknown_judges": "No member is called: {names}",
+                "scoring_locked": "Voting has begun, so how the contest is decided can no longer change.",
+                "already_contest": "This discussion is already a photo contest."
+            }
+        },
+        "lib": {
+            "place": {
+                "1": "1st",
+                "2": "2nd",
+                "3": "3rd",
+                "4": "{n}th"
+            }
+        },
+        "email": {
+            "placed": {
+                "subject": "Your photo placed {place} in {title}",
+                "plain": "Your photo placed {place} in the photo contest \"{title}\". Congratulations!\n\nSee the results: {url}\n",
+                "html": "Your photo placed **{place}** in the photo contest \"{title}\". Congratulations!\n\n[See the results]({url})\n"
+            }
+        },
+        "forum": {
+            "nav": "Photo contests",
+            "phase": {
+                "upcoming": "Opening soon",
+                "submissions": "Taking entries",
+                "voting": "Voting",
+                "closed": "Decided"
+            },
+            "controls": {
+                "start": "Run a photo contest here",
+                "edit": "Edit photo contest"
+            },
+            "composer": {
+                "add": "Photo contest",
+                "edit": "Photo contest ✓"
+            },
+            "notifications": {
+                "placed": "Your photo placed {place}!",
+                "results": "The results of a photo contest you entered are in",
+                "voting_open": "Voting is open in a photo contest you entered"
+            },
+            "settings": {
+                "notify_voting_open": "Voting opens in a photo contest I entered",
+                "notify_placed": "My photo places in a contest",
+                "notify_results": "The results of a contest I entered are in"
+            },
+            "panel": {
+                "label": "Photo contest",
+                "rules": "Rules",
+                "judged_by": "Judged by {names}",
+                "opens": "Opens {when}",
+                "submissions_close": "Entries close {when}",
+                "voting_closes": "Voting closes {when}",
+                "closed": "Closed {when}",
+                "photos": "{count, plural, one {# photo} other {# photos}}",
+                "submit": "Enter a photo",
+                "edit": "Edit contest",
+                "review_votes": "Review votes",
+                "winners": "Winners",
+                "by": "by {name}",
+                "votes": "{count, plural, one {# vote} other {# votes}}",
+                "score": "{score} / 10 from {count, plural, one {# judge} other {# judges}}",
+                "slideshow": "Slideshow",
+                "in_gallery": "See it in the gallery",
+                "more": "Load more",
+                "empty": "No photos yet.",
+                "empty_mine": "You have not entered a photo.",
+                "empty_pending": "Nothing is awaiting approval or disqualified.",
+                "view": {
+                    "all": "Gallery",
+                    "mine": "My entries",
+                    "pending": "Held back"
+                },
+                "sort": {
+                    "label": "Order",
+                    "top": "Top",
+                    "shuffle": "Shuffled",
+                    "newest": "Newest"
+                },
+                "you": {
+                    "entries_left": "{count, plural, =0 {You have entered all your photos.} one {You can enter # more photo.} other {You can enter # more photos.}}",
+                    "not_open_yet": "Entries open soon.",
+                    "votes_left": "{count, plural, =0 {You have used all your votes.} one {You have # vote left.} other {You have # votes left.}} One per photo, never your own.",
+                    "judge": "You are a judge. Open a photo to score it from 1 to 10.",
+                    "judges_deciding": "The judges are scoring the entries.",
+                    "counting": "Counting the votes…"
+                }
+            },
+            "block": {
+                "kind_enter": "enter",
+                "kind_vote": "vote",
+                "guest": "Log in to {kind}.",
+                "permission": "You cannot {kind} in this contest.",
+                "groups": "Only {groups} can {kind} in this contest.",
+                "judge": "You are judging this contest, so you cannot enter it.",
+                "judges_only": "This contest is decided by its judges.",
+                "not_voting": "Voting is not open.",
+                "too_new": "Your account must be at least {days} days old to vote.",
+                "too_few_posts": "You need at least {posts} posts to vote.",
+                "closed": "Entries are closed."
+            },
+            "entry": {
+                "vote": "Vote for this photo",
+                "unvote": "Take back your vote",
+                "out_of_votes": "You have used all your votes",
+                "my_score": "{score} / 10",
+                "status": {
+                    "pending": "Awaiting approval",
+                    "disqualified": "Disqualified",
+                    "approved": "Approved"
+                }
+            },
+            "lightbox": {
+                "previous": "Previous photo",
+                "next": "Next photo",
+                "play": "Play slideshow",
+                "pause": "Pause slideshow",
+                "info": "Show details",
+                "fullscreen": "Full screen",
+                "close": "Close",
+                "anonymous": "The photographer is revealed when voting ends.",
+                "your_score": "Your score",
+                "voted_by": "Voted for by:",
+                "discuss": "Talk about this photo",
+                "approve": "Approve",
+                "disqualify": "Disqualify",
+                "reinstate": "Reinstate",
+                "delete": "Delete",
+                "delete_confirm": "Delete this photo from the contest? Its votes go with it.",
+                "edit": "Edit title and caption",
+                "save": "Save",
+                "cancel": "Cancel",
+                "withdraw": "Withdraw",
+                "withdraw_confirm": "Withdraw this photo from the contest?"
+            },
+            "submit": {
+                "title": "Enter a photo",
+                "choose": "Choose a JPEG, PNG or WebP photo, up to {size} MB",
+                "type": "Only JPEG, PNG and WebP photographs can be entered.",
+                "too_big": "That photo is larger than {size} MB.",
+                "photo_title": "Title",
+                "caption": "Caption (optional)",
+                "privacy": "Your photo is re-saved on upload with its location and all other hidden data removed. The camera model and settings are kept to show with it.",
+                "send": "Enter photo",
+                "done": "Your photo is entered. Good luck!",
+                "pending": "Your photo is entered and will appear once a moderator approves it."
+            },
+            "editor": {
+                "title_new": "Run a photo contest",
+                "title_edit": "Edit photo contest",
+                "schedule": "Schedule",
+                "opens_at": "Entries open",
+                "opens_at_help": "Leave empty to open now.",
+                "submissions_close_at": "Entries close (voting opens)",
+                "voting_close_at": "Voting closes",
+                "rules": "Theme and rules",
+                "rules_placeholder": "e.g. Autumn colours. Your own work, taken this year, no heavy editing.",
+                "entering": "Entering",
+                "entries_per_member": "Photos per member",
+                "who_enters": "Who can enter",
+                "who_votes": "Who can vote",
+                "groups_help": "None ticked means everyone with the forum's permission.",
+                "moderate_entries": "Approve entries before they appear",
+                "deciding": "Deciding the winners",
+                "scoring_votes": "The community votes",
+                "scoring_judges": "Judges score each photo from 1 to 10",
+                "scoring_locked": "Voting has begun, so this can no longer change.",
+                "judges": "Judges",
+                "judges_placeholder": "usernames, separated by commas",
+                "judges_help": "Judges cannot enter. Their scores stay private until the contest closes.",
+                "votes_per_member": "Votes per member",
+                "voter_min_days": "Account at least this many days old",
+                "voter_min_posts": "At least this many posts",
+                "named_votes": "Show who voted for each photo (after voting closes)",
+                "live_counts": "Show vote counts while voting is open",
+                "hide_entrants": "Hide photographers' names until voting closes",
+                "winners_count": "Places on the podium",
+                "atrium_album": "Publish the winners to an Atrium album",
+                "atrium_none": "Don't publish",
+                "atrium_help": "When the contest is decided, the podium photos are added to this album, credited to their photographers, and can be seen by whoever can see the album.",
+                "save": "Save contest",
+                "use": "Use these settings",
+                "remove_draft": "Not a contest",
+                "delete": "Delete contest",
+                "delete_confirm": "Delete this contest with every photo and vote in it? The discussion stays."
+            },
+            "integrity": {
+                "title": "Review votes",
+                "summary": "{flagged, plural, =0 {No votes look out of place} one {# vote looks out of place} other {# votes look out of place}} out of {total}.",
+                "help": "These are hints, not verdicts. A flatmate voting for a flatmate looks the same as a second account. Void what you judge to be a ring; it can be restored.",
+                "none": "Nothing to review.",
+                "void": "Void",
+                "restore": "Restore",
+                "void_all": "Void {count, plural, one {# vote} other {all #}}",
+                "reason": {
+                    "same_network": "Same network as the photographer",
+                    "shared_network": "Many voters on one network",
+                    "new_account": "Account made during the contest",
+                    "no_posts": "Never posted",
+                    "mutual": "Entrants voting for each other"
+                }
+            },
+            "contests": {
+                "title": "Photo contests",
+                "active": "Running",
+                "past": "Decided",
+                "empty_active": "No contests are running right now.",
+                "empty_past": "No contests have been decided yet."
+            }
+        }
+    }
+}

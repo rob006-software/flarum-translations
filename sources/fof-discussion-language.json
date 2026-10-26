@@ -1,0 +1,78 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Editing Language for {title}",
+                "title": "Editing Language",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Language"
+            },
+            "discussion_controls": {
+                "change_language_button": "Set Language"
+            },
+            "index_language": {
+                "any": "Any Language"
+            },
+            "language_dropdown": {
+                "toggle_label": "Choose a discussion language"
+            },
+            "sub_controls": {
+                "subscription_language_label": "Discussion language",
+                "subscription_language_help": "When you select a language here, you'll only be notified of new activity in that language."
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Use native language names",
+                "show_flag_label": "Show country flags with language names",
+                "composer_default_label": "Pre-select current locale in the discussion composer",
+                "locale_sort_label": "Use detected language for default discussion filter",
+                "show_any_lang_opt_label": "Show the option to select \"Any Language\"",
+                "tags_page_discussion_locale_label": "Only show discussions from the user's current locale on the Tags page",
+                "errors": {
+                    "missing_assets": "We couldn't load the assets needed by this extension. Try running <code>php flarum assets:publish</code> and see if that fixes the issue."
+                },
+                "languages_heading": "Languages",
+                "languages_help": "The languages a discussion can be in. The country chooses the flag shown with each.",
+                "attribution": "This extension uses material from the Wikipedia article <article>List of ISO 639-2 codes</article>, which is released under the <license>Creative Commons Attribution-Share-Alike License 3.0</license>.",
+                "config": {
+                    "language_label": "Language",
+                    "country_label": "Country (for display flag)",
+                    "choose_language": "Choose a language…",
+                    "choose_country": "Choose a country…",
+                    "add_button": "Add language",
+                    "remove_button": "Remove {language}"
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Allow language editing",
+                "change_language_label": "Change discussion language"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "You must select your discussion's language."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "language": {
+                    "key": "language",
+                    "hint": "language code or comma-separated list of language codes"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "subscriptionlanguages": {
+                    "export_description": "Exported with each tag subscription, as fof/follow-tags exports them.",
+                    "anonymize_description": "Removes the discussion language the user chose for each tag they follow."
+                }
+            }
+        }
+    }
+}

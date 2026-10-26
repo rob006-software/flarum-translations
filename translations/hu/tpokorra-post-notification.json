@@ -1,0 +1,30 @@
+{
+    "tpokorra-post-notification": {
+        "admin": {
+            "settings": {
+                "title": "Bejegyzésértesítések beállításai",
+                "recipients": {
+                    "post_approval": {
+                        "to": "Az új bejegyzések jóváhagyásához küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája"
+                    },
+                    "new_discussion": {
+                        "to": "Az új témák miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "Az új témák miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
+                    },
+                    "new_post": {
+                        "to": "Az új bejegyzések miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "Az új bejegyzések miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
+                    },
+                    "revised_post": {
+                        "to": "A módosított bejegyzések miatt küldött levelek címzettjei e-mail-címének vesszővel elválasztott listája",
+                        "bcc": "A módosított bejegyzések miatt küldött levelekről vakmásolatot kapók e-mail-címének vesszővel elválasztott listája"
+                    }
+                },
+                "new_discussion": "Címke az új téma leírásához",
+                "new_post": "Címke az új bejegyzés leírásához",
+                "revised_post": "Címke a módosított bejegyzés leírásához",
+                "post_approval": "Címke a jóváhagyást igénylő új bejegyzés leírásához"
+            }
+        }
+    }
+}

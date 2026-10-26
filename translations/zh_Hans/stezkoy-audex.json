@@ -32,7 +32,7 @@
             "enabled_switch": "启用",
             "enabled_switch_help": "启用或停用此脚本块。",
             "code_label": "脚本代码",
-            "code_help": "代码会原样写入页面。若未包含 script 标签，则按 JavaScript 处理并自动添加 script 标签。若 JavaScript 字符串中出现闭合 script 标签，请写成 <\\/script>。",
+            "code_help": "代码会原样写入页面。若未包含 script 标签，则按 JavaScript 处理并自动添加 script 标签。若 JavaScript 字符串中出现闭合 script 标签，请在斜杠前加反斜杠进行转义。",
             "exclusions_section": "排除规则",
             "exclusions_section_help": "下列用户和所选用户组成员不会加载任何脚本。访客不受此规则影响。",
             "groups_label": "排除用户组",

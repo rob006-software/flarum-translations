@@ -1,0 +1,12 @@
+{
+    "core": {
+        "admin": {
+            "email": {
+                "brevo_heading": "Brevo-Einstellungen",
+                "brevo_description": "Versende E-Mails über die Transaktions-E-Mail-API von Brevo. Die Absenderadresse muss von einem verifizierten Absender stammen oder zu einer in Brevo authentifizierten Domain gehören.",
+                "mail_brevo_api_key_label": "API-Schlüssel",
+                "mail_brevo_api_key_help": "Erstelle einen Schlüssel in Brevo unter „SMTP & API“ → „API-Schlüssel“. Verwende einen API-Schlüssel (der mit „xkeysib-“ beginnt), keinen SMTP-Schlüssel."
+            }
+        }
+    }
+}

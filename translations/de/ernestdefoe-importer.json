@@ -20,15 +20,29 @@
             "test": "Verbindung testen",
             "start": "Import starten",
             "test_ok": "Verbunden. Das wurde gefunden:",
+            "editor": "",
             "test_failed": "Verbindung fehlgeschlagen.",
             "start_failed": "Import konnte nicht gestartet werden.",
             "confirm_start": "Jetzt mit dem Import starten? Dadurch werden Diskussionen, Beiträge und Mitglieder in dieses Forum übernommen. Für optimale Ergebnisse solltest du den Import in ein neues Forum durchführen.",
-            "starting": "Starten…",
             "running": "Import läuft",
             "complete": "Import abgeschlossen",
             "failed": "Import fehlgeschlagen",
             "shared_note": "Wird in kleinen Chargen direkt über deinen Browser ausgeführt – es sind weder ein Queue-Worker noch SSH erforderlich, sodass es auch auf Shared-Hosting-Servern funktioniert. Lasse diesen Tab geöffnet; sollte der Vorgang unterbrochen werden, öffne diese Seite einfach erneut, und der Vorgang wird an der Stelle fortgesetzt, an der er unterbrochen wurde.",
             "import_another": "Weiterer Import",
+            "sync": {
+                "title": "",
+                "messages_only_intro": "",
+                "intro": "",
+                "last": "",
+                "open": "",
+                "start": "",
+                "cancel": "",
+                "password_help": "",
+                "upload_help": "",
+                "confirm": "",
+                "running": "",
+                "complete": ""
+            },
             "redirects": {
                 "title": "Alte Links mit Weiterleitung weiter funktionsfähig halten",
                 "intro": "Die Adressen deines alten Forums befinden sich bei Google, in den Lesezeichen und in jedem Beitrag, der jemals auf eine Diskussion verlinkt hat. Aktiviere diese Funktion, und Flarum kümmert sich darum – jede URL eines alten Themas, Tags oder Profils leitet die Besucher dorthin weiter, wo der Inhalt nun zu finden ist, und zwar mit einer permanenten Weiterleitung, sodass Suchmaschinen das Ranking übertragen, anstatt es zu verlieren.\n",
@@ -49,6 +63,111 @@
                 "error_no_such_run": "Dieser Import existiert nicht mehr.",
                 "error_unknown_source": "Für diese Plattform sind keine Adressmuster bekannt.",
                 "error_failed": "Das Speichern ist fehlgeschlagen. Bitte versuche es erneut."
+            },
+            "pm": {
+                "include": "",
+                "help": "",
+                "no_groups": "",
+                "unavailable": ""
+            },
+            "count": {
+                "messages": "",
+                "conversations": "",
+                "pm_groups_skipped": "",
+                "users": "Benutzer",
+                "categories": "Kategorien",
+                "topics": "Diskussionen",
+                "posts": "Beiträge",
+                "skipped": "Übersprungen",
+                "edited": "",
+                "kept": ""
+            },
+            "starting": "Starten…"
+        },
+        "api": {
+            "unknown_source": "Unbekannte Importquelle.",
+            "missing_run_id": "Fehlende Ausführungs-ID.",
+            "run_not_found": "Import-Ausführung nicht gefunden.",
+            "starting": "Wird gestartet…",
+            "working": "Wird bearbeitet…",
+            "complete": "Import abgeschlossen.",
+            "failed": "Import fehlgeschlagen: {error}",
+            "busy": "",
+            "sync": {
+                "complete": "",
+                "no_base": "",
+                "unsupported": "",
+                "needs_password": "",
+                "needs_connection": "",
+                "needs_upload": "",
+                "summary": ""
+            },
+            "pm": {
+                "summary": "",
+                "groups_skipped": "",
+                "unavailable": ""
+            },
+            "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
+            "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
+            "quote_wrote": "",
+            "spoiler": "",
+            "attachment": "",
+            "editor_plain": "",
+            "sqlsrv_missing": "",
+            "dump_unreadable": "",
+            "scratch_failed": "",
+            "explain": {
+                "timed_out": "",
+                "no_answer": "",
+                "host_refused": "",
+                "bad_login": ""
+            },
+            "not_source": {
+                "phpbb": "",
+                "vbulletin": "",
+                "vbulletin5": "",
+                "mybb": "",
+                "smf": "",
+                "vanilla": "",
+                "invision": "",
+                "xenforo": "",
+                "convoro": "",
+                "convoro_columns": "",
+                "discourse": "",
+                "nodebb": "",
+                "webwiz": "",
+                "webwiz_columns": ""
+            },
+            "nodebb": {
+                "no_extension": "",
+                "no_connect": ""
+            },
+            "upload": {
+                "no_file": "",
+                "too_large": "",
+                "unreadable": "",
+                "wrong_source": "",
+                "skipped_batches": "",
+                "empty": "Die Datei ist leer.",
+                "binary": ""
+            },
+            "phase": {
+                "finishing": "",
+                "boards": "Bereiche werden importiert…",
+                "categories": "Kategorien werden importiert…",
+                "channels": "Kanäle werden importiert…",
+                "comments": "Kommentare werden importiert…",
+                "discussions": "Diskussionen werden importiert…",
+                "forums": "Foren werden importiert…",
+                "members": "Mitglieder werden importiert…",
+                "posts": "Beiträge werden importiert…",
+                "topics": "Diskussionen werden importiert…",
+                "member_counts": "Mitgliederanzahl wird aktualisiert…",
+                "edits": "",
+                "sync": "",
+                "avatars": "",
+                "prune_tags": "",
+                "messages": ""
             }
         }
     }

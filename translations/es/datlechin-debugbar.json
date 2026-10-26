@@ -1,212 +1,212 @@
 {
     "datlechin-debugbar": {
         "lib": {
-            "expand": "",
-            "collapse": "",
-            "resize": "",
-            "empty": "",
-            "no_matches": "",
-            "blank": "",
-            "yes": "",
-            "no": "",
-            "filter_placeholder": "",
+            "expand": "Mostrar barra de depuración",
+            "collapse": "Ocultar barra de depuración",
+            "resize": "Redimensionar barra de depuración",
+            "empty": "Nada registrado.",
+            "no_matches": "No hay coincidencias.",
+            "blank": "vacío",
+            "yes": "Sí",
+            "no": "No",
+            "filter_placeholder": "Filtrar…",
             "tabs": {
-                "timeline": "",
-                "queries": "",
-                "messages": "",
-                "request": "",
-                "events": "",
-                "cache": "",
-                "mail": "",
-                "settings": "",
-                "extensions": "",
-                "environment": ""
+                "timeline": "Cronología",
+                "queries": "Consultas",
+                "messages": "Mensajes",
+                "request": "Solicitud",
+                "events": "Eventos",
+                "cache": "Caché",
+                "mail": "Correo",
+                "settings": "Ajustes",
+                "extensions": "Extensiones",
+                "environment": "Entorno"
             },
             "summary": {
-                "duration": "",
-                "queries": "",
-                "memory": "",
-                "round_trip": ""
+                "duration": "Tiempo en el servidor",
+                "queries": "Consultas a la base de datos",
+                "memory": "Pico de memoria utilizada",
+                "round_trip": "Tiempo de ida y vuelta (navegador)"
             },
             "errors": {
-                "expired": "",
-                "failed": "",
-                "no_data": ""
+                "expired": "Este perfil ya no está almacenado. Solo se conservan las solicitudes más recientes.",
+                "failed": "No se pudo cargar ese perfil.",
+                "no_data": "No se registró nada para esta solicitud."
             },
             "requests": {
-                "toggle": "",
-                "none": "",
-                "document": ""
+                "toggle": "Seleccionar una solicitud",
+                "none": "Sin solicitud",
+                "document": "carga de página"
             },
             "timeline": {
-                "total": "",
-                "measures": "",
-                "unfinished": "",
-                "empty": "",
+                "total": "Total",
+                "measures": "Intervalos",
+                "unfinished": "(sin finalizar)",
+                "empty": "No se midió nada durante esta solicitud.",
                 "spans": {
                     "flarum": {
-                        "boot": "",
-                        "request": "",
-                        "route": ""
+                        "boot": "Arranque (Boot)",
+                        "request": "Middleware y ruta",
+                        "route": "Controlador de ruta"
                     }
                 }
             },
             "queries": {
-                "count": "",
-                "duration": "",
-                "duplicates": "",
-                "filter": "",
-                "preview": "",
-                "bindings": "",
-                "connection": "",
-                "origin": "",
-                "occurrences": "",
-                "dropped": "",
-                "empty": ""
+                "count": "Consultas",
+                "duration": "Tiempo total",
+                "duplicates": "Duplicadas",
+                "filter": "Filtrar sentencias…",
+                "preview": "Con parámetros",
+                "bindings": "Parámetros",
+                "connection": "Conexión",
+                "origin": "Ejecutada desde",
+                "occurrences": "Esta sentencia exacta se ejecutó {count} veces durante esta solicitud.",
+                "dropped": "No se registraron {count} sentencias adicionales.",
+                "empty": "Esta solicitud no ejecutó consultas."
             },
             "messages": {
-                "filter": "",
-                "show_trace": "",
-                "hide_trace": "",
-                "empty": "",
+                "filter": "Filtrar mensajes…",
+                "show_trace": "Mostrar traza",
+                "hide_trace": "Ocultar traza",
+                "empty": "No se registró nada en el historial durante esta solicitud.",
                 "levels": {
-                    "debug": "",
-                    "info": "",
-                    "warning": "",
-                    "error": ""
+                    "debug": "Depuración",
+                    "info": "Información",
+                    "warning": "Advertencia",
+                    "error": "Error"
                 }
             },
             "request": {
-                "method": "",
-                "uri": "",
-                "status": "",
-                "route": "",
-                "handler": "",
-                "internal": "",
-                "user": "",
-                "guest": "",
-                "admin": "",
-                "groups": "",
-                "authentication": "",
+                "method": "Método",
+                "uri": "URI",
+                "status": "Estado",
+                "route": "Ruta",
+                "handler": "Controlador",
+                "internal": "Despacho interno",
+                "user": "Usuario",
+                "guest": "Invitado",
+                "admin": "Administrador",
+                "groups": "Grupos",
+                "authentication": "Autenticado por",
                 "sections": {
-                    "overview": "",
-                    "actor": "",
-                    "parameters": "",
-                    "query": "",
-                    "json_api": "",
-                    "request_headers": "",
-                    "response_headers": ""
+                    "overview": "Vista general",
+                    "actor": "Actor",
+                    "parameters": "Parámetros de ruta",
+                    "query": "Cadena de consulta (Query string)",
+                    "json_api": "JSON:API",
+                    "request_headers": "Encabezados de solicitud",
+                    "response_headers": "Encabezados de respuesta"
                 }
             },
             "events": {
-                "count": "",
-                "listed": "",
-                "filter": "",
-                "dropped": "",
-                "collapsed_title": "",
-                "collapsed_help": "",
-                "empty": ""
+                "count": "Despachados",
+                "listed": "Listados",
+                "filter": "Filtrar eventos…",
+                "dropped": "No se registraron {count} eventos adicionales.",
+                "collapsed_title": "Contabilizados, no listados",
+                "collapsed_help": "Los eventos de modelo y base de datos se activan cientos de veces por solicitud. El panel de Consultas muestra lo que hacían los de la base de datos.",
+                "empty": "No se despacharon eventos durante esta solicitud."
             },
             "cache": {
-                "hit_rate": "",
-                "filter": "",
-                "dropped": "",
-                "empty": "",
+                "hit_rate": "Tasa de aciertos",
+                "filter": "Filtrar claves…",
+                "dropped": "No se registraron {count} operaciones adicionales.",
+                "empty": "Esta solicitud no interactuó con la caché.",
                 "types": {
-                    "hit": "",
-                    "miss": "",
-                    "write": "",
-                    "forget": "",
-                    "flush": ""
+                    "hit": "Acierto (Hit)",
+                    "miss": "Fallo (Miss)",
+                    "write": "Escritura",
+                    "forget": "Olvidar",
+                    "flush": "Vaciar"
                 }
             },
             "mail": {
-                "count": "",
-                "show": "",
-                "hide": "",
-                "empty": "",
+                "count": "Correos",
+                "show": "Mostrar",
+                "hide": "Ocultar",
+                "empty": "Esta solicitud no envió ningún correo.",
                 "statuses": {
-                    "sending": "",
-                    "sent": ""
+                    "sending": "Enviando",
+                    "sent": "Enviado"
                 },
                 "headers": {
-                    "from": "",
-                    "to": "",
-                    "cc": "",
-                    "bcc": "",
-                    "reply_to": ""
+                    "from": "De",
+                    "to": "Para",
+                    "cc": "CC",
+                    "bcc": "CCO",
+                    "reply_to": "Responder a"
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
-                "filter": "",
-                "redacted": "",
-                "empty": ""
+                "count": "Ajustes",
+                "groups": "Grupos",
+                "filter": "Filtrar claves…",
+                "redacted": "Este valor está oculto porque su clave parece una credencial.",
+                "empty": "No hay ajustes almacenados."
             },
             "extensions": {
-                "enabled": "",
-                "installed": "",
-                "filter": "",
-                "empty": "",
+                "enabled": "Habilitadas",
+                "installed": "Instaladas",
+                "filter": "Filtrar extensiones…",
+                "empty": "No hay extensiones instaladas.",
                 "columns": {
-                    "id": "",
-                    "title": "",
-                    "version": "",
-                    "dependencies": ""
+                    "id": "Extensión",
+                    "title": "Nombre",
+                    "version": "Versión",
+                    "dependencies": "Depende de"
                 }
             },
             "environment": {
-                "empty": "",
+                "empty": "Nada que reportar.",
                 "groups": {
-                    "flarum": "",
-                    "php": "",
-                    "drivers": ""
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "Controladores (Drivers)"
                 },
                 "keys": {
-                    "version": "",
-                    "url": "",
-                    "debug": "",
-                    "maintenance": "",
-                    "sapi": "",
-                    "memory_limit": "",
-                    "max_execution_time": "",
-                    "opcache": "",
-                    "timezone": "",
-                    "database": "",
-                    "cache": "",
-                    "queue": "",
-                    "session": "",
-                    "mail": ""
+                    "version": "Versión",
+                    "url": "URL",
+                    "debug": "Modo depuración",
+                    "maintenance": "Mantenimiento",
+                    "sapi": "Interfaz (SAPI)",
+                    "memory_limit": "Límite de memoria",
+                    "max_execution_time": "Tiempo máximo de ejecución",
+                    "opcache": "OPcache",
+                    "timezone": "Zona horaria",
+                    "database": "Base de datos",
+                    "cache": "Caché",
+                    "queue": "Cola",
+                    "session": "Sesión",
+                    "mail": "Correo"
                 }
             }
         },
         "admin": {
             "debug_mode": {
-                "on": "",
-                "off": ""
+                "on": "El modo depuración está activo, por lo que la barra de depuración está funcionando. Los administradores la verán en la parte inferior de cada página.",
+                "off": "La barra de depuración solo funciona mientras el modo depuración está activo. Configure `'debug' => true` en config.php para habilitarla."
             },
             "max_profiles": {
-                "label": "",
-                "help": ""
+                "label": "Solicitudes a conservar",
+                "help": "Cantidad de solicitudes recientes que permanecen disponibles en la barra. Las más antiguas se eliminan a medida que llegan nuevas."
             },
             "trace_queries": {
-                "label": "",
-                "help": ""
+                "label": "Registrar el origen de las consultas",
+                "help": "Muestra la línea de código de la aplicación que ejecutó cada consulta. Es la función más útil del panel de consultas y la que consume más recursos en la barra de depuración."
             },
             "open_by_default": {
-                "label": "",
-                "help": ""
+                "label": "Iniciar desplegada",
+                "help": "Abre la barra en su último panel en cada página, en lugar de iniciar replegada."
             },
             "collectors": {
-                "label": "",
-                "help": ""
+                "label": "Paneles",
+                "help": "Desactive cualquier panel que no necesite. Un panel desactivado no recolecta nada (ni siquiera un listener), por lo que no consume recursos."
             },
             "storage": {
-                "label": "",
-                "help": "",
-                "clear": "",
-                "cleared": ""
+                "label": "Solicitudes almacenadas",
+                "help": "Los perfiles se guardan en storage/debugbar. Contienen ajustes, SQL y encabezados de solicitud; elimínelos antes de compartir un sitio en desarrollo.",
+                "clear": "Eliminar solicitudes almacenadas",
+                "cleared": "Se eliminaron {count} solicitudes almacenadas."
             }
         }
     }

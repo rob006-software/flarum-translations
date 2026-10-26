@@ -69,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "Étiquette",
+                "tag_label": "Étiquette",
+                "tag_placeholder": "Rechercher une étiquette"
+            },
             "discussion_controls": {
                 "edit_tags_button": "Modifier les étiquettes"
             },
@@ -95,7 +100,7 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "étiquetée",
+                        "key": "étiquette",
                         "hint": "nom d'une étiquette, ou liste de noms d'étiquettes séparés par des virgules, ou « sans étiquette »"
                     }
                 }

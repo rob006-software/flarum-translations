@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "ค่า TTL แคชสาธารณะเริ่มต้น",
             "public_cache_ttl_help": "กำหนดระยะเวลาการแคชหน้าสาธารณะเป็นวินาที ค่าเริ่มต้นคือ 604800 วินาที (หนึ่งสัปดาห์)",
             "clearing_cache_listener_label": "ล้าง LSCache เมื่อล้างแคช Flarum",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "แสดงเนื้อหาเก่า",
             "serve_stale_help": "หากเปิดใช้งาน เวอร์ชันเก่าของหน้าที่แคชจะแสดงให้ผู้เยี่ยมชมเห็นจนกว่าจะสร้างแคชใหม่ ซึ่งช่วยลดภาระเซิร์ฟเวอร์ หากปิดใช้งาน หน้าจะสร้างขึ้นแบบไดนามิกระหว่างอัปเดตแคช ซึ่งอาจเพิ่มเวลารอ ตัวเลือกนี้อาจแสดงเนื้อหาที่ล้าสมัยได้",
             "purge_on_discussion_update_label": "ล้าง URL หรือ Cache Tag เมื่อโพสต์มีการอัปเดต",
@@ -20,6 +21,17 @@
             "test_failed_alert": "ดูเหมือนว่าเซิร์ฟเวอร์ของคุณไม่รองรับ LSCache โปรดตรวจสอบการตั้งค่าเซิร์ฟเวอร์ เซิร์ฟเวอร์ที่ตรวจพบ: <b>{server}</b>, ประเภท LiteSpeed: <b>{type}</b>",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "ล้าง LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

@@ -53,7 +53,7 @@
             "no_permission": "Nincs joga szavazni",
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
-            "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
+            "max_votes_allowed": "A szavazásban legfeljebb {max, plural, one {# lehetőség} other {# lehetőség}} választható.",
             "polls_count": "{count, plural, one { {count} szavazat} other {{count} szavazat}}",
             "poll_never_ends": "A szavazás sosem ér véget",
             "answers": "Válaszok",
@@ -96,6 +96,9 @@
                     "edit_title": "Szavazáscsoport szerkesztése",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Szavazáscsoport törlése",
+                    "name_label": "Név",
+                    "name_required": "Névre van szükség egy szavazáscsoporthoz.",
+                    "error": "Hiba történt a szavazáscsoport mentésekor, vegye fel a kapcsolatot egy rendszergazdával.",
                     "groups_manager": "Szavazáscsoport-kezelő",
                     "view_group": "Szavazáscsoport megtekintése",
                     "success": "Szavazáscsoport sikeresen mentve."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Válasz",
                 "image_option_placeholder": "Kép webcíme (nem kötelező)",
                 "options_label": "Válaszok",
+                "settings_label": "Szavazás",
                 "public_poll_label": "A felhasználók megnézhetik ki szavazott",
                 "allow_multiple_votes_label": "Az emberek több lehetőségre is szavazhatnak",
                 "max_votes_label": "Szavazatok maximális száma felhasználónként",
@@ -226,7 +230,7 @@
             },
             "tooltip": {
                 "badge": "Szavazás",
-                "votes": "{count} szavazat"
+                "votes": "{count, plural, one {# szavazat} other {# szavazat}}"
             },
             "votes_modal": {
                 "title": "Szavazók"
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Kép törlése",
                 "upload_button": "Kép feltöltése"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "A(z) {title} szavazás létrehozva",
+                    "updated": "A(z) {title} szavazás frissítve",
+                    "deleted": "A(z) {title} szavazás törölve",
+                    "published": "A(z) {title} szavazás közzétéve",
+                    "unpublished": "A(z) {title} szavazás közzététele visszavonva",
+                    "voted": "Szavazat leadva a(z) {title} szavazásban"
+                },
+                "poll_group": {
+                    "created": "A(z) {name} szavazáscsoport létrehozva",
+                    "updated": "A(z) {name} szavazáscsoport frissítve",
+                    "deleted": "A(z) {name} szavazáscsoport törölve"
+                }
             }
         }
     }

@@ -12,6 +12,9 @@
                 "schedule_log_output": "Depolamayı günlüğe kaydetmek için zamanlayıcı çıktısını ekleyin"
             }
         },
+        "api": {
+            "empty_draft_message": "Bu taslakta henüz kaydedilecek bir şey yok."
+        },
         "console": {
             "scheduled_drafts_disabled": "Zamanlanmış taslaklar şu anda ayarlardan etkisizleştirilmiştir.",
             "no_title_error": "Taslak atlandı: Tartışma başlığı eksik."
@@ -56,11 +59,11 @@
             "user": {
                 "settings": {
                     "drafts_heading": "Taslaklar",
-                    "draft_autosave_enable": "Taslaklar için otomatik kayıt etkinleştirilsin mi?",
+                    "draft_autosave_enable": "Taslakları Otomatik Kaydetmeyi Etkinleştir",
                     "draft_autosave_interval_label": "Otomatik Kaydetme Aralığı (saniye)",
                     "draft_autosave_interval_button": "Güncelleme Aralığı",
                     "draft_autosave_interval_invalid": "Güncelleme aralığı 4 sayısından büyük olmalıdır.",
-                    "draft_autosave_interval_saved_message": ""
+                    "draft_autosave_interval_saved_message": "Otomatik kaydetme aralığı güncellendi."
                 }
             }
         }

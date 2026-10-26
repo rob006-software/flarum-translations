@@ -1,0 +1,21 @@
+{
+    "jslirola-registration-policy": {
+        "admin": {
+            "settings": {
+                "block_token_unconfirmed_label": "Anmeldung verweigern, solange die E-Mail-Adresse noch nicht bestätigt ist",
+                "block_token_unconfirmed_help": "Ein korrektes Passwort wird abgelehnt (Anmeldeformular, POST /api/token, SSO-Clients), bis die E-Mail-Adresse des Kontos bestätigt wurde. Bei einem falschen Passwort wird die übliche Antwort ausgegeben.",
+                "override_sso_activation_label": "Bestätigung auch bei maicol07/flarum-ext-sso erfordern",
+                "override_sso_activation_help": "Diese Erweiterung bestätigt jedes neue Konto automatisch. Wenn aktiviert, müssen Konten, die über das Registrierungsformular des Forums erstellt wurden, ihre E-Mail-Adresse weiterhin bestätigen; Konten, die über den SSO-Client erstellt wurden, behalten ihre automatische Bestätigung bei. Hat keine Auswirkung, wenn diese Erweiterung deaktiviert ist."
+            }
+        },
+        "forum": {
+            "pending_confirmation": {
+                "title": "Prüfe deine E-Mail",
+                "text": "Dein Konto wurde erstellt, du bist jedoch noch nicht angemeldet. Wir haben einen Bestätigungslink an {email} gesendet: Öffne diesen, um dein Konto zu aktivieren und dich anzumelden.",
+                "spam_hint": "Sollte die E-Mail nicht innerhalb weniger Minuten eintreffen, sieh bitte in deinem Spam-Ordner nach.",
+                "close_button": "Verstanden",
+                "notice": "Bestätige deine E-Mail-Adresse, um dich anzumelden: Wir haben einen Link an {email} gesendet."
+            }
+        }
+    }
+}

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "كۆپچىلىك ساقلىغۇچىنىڭ سۈكۈتتىكى TTL قىممىتى",
             "public_cache_ttl_help": "ئوچۇق بەتلەرنىڭ قانچە سېكۇنت ساقلىنىشى كېرەكلىكىنى بەلگىلەڭ. سۈكۈتتىكى قىممەت 604800 سېكۇنتتۇر (بىر ھەپتە).",
             "clearing_cache_listener_label": "",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

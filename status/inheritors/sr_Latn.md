@@ -2,8 +2,8 @@
 
 Translations for Serbian (Latin) (`sr_Latn`) are inherited from Serbian (Cyrillic), but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **247** are translated differently and **79** are
-translated only in `sr_Latn`. Altogether they cover **14** components.
+sides, but do not match between them: **247** are translated differently and **80** are
+translated only in `sr_Latn`. Altogether they cover **15** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `sr_Latn`. Altogether they cover **14** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `acpl-lscache` | 0 | [2](#acpl-lscache-missing) |
+| `clarkwinkelmann-likes-received` | 0 | [1](#clarkwinkelmann-likes-received-missing) |
 | `core` | [221](#core) | [31](#core-missing) |
 | `flarum-flags` | [2](#flarum-flags) | [3](#flarum-flags-missing) |
 | `flarum-likes` | [8](#flarum-likes) | 0 |
@@ -2597,7 +2598,7 @@ These strings are translated only in `sr_Latn`, so there is nothing to inherit f
 
 #### [`acpl-lscache.admin.cache_exclude_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/sr_Latn/?q=context%3A%3D%22acpl-lscache.admin.cache_exclude_help%22)
 
-> Paths containing these strings will not be cached. For &lt;code&gt;/mypath/mypage?aa=bb&lt;/code&gt;, you can use &lt;code&gt;mypage?aa=&lt;/code&gt;. To match the beginning, add &lt;code&gt;^&lt;/code&gt; at the start. For an exact match, add &lt;code&gt;$&lt;/code&gt; at the end of the URL. One per line.
+> Enter one regular expression per line. &lt;code&gt;/private&lt;/code&gt; matches any path containing /private; &lt;code&gt;^/private$&lt;/code&gt; matches only /private. Query strings are ignored. Existing cached pages remain available until they expire or you purge them. To apply exclusions immediately, purge the affected URLs via CLI or purge all LSCache entries from the admin cache menu.
 
 ```diff
 +Putanje koje sadrže ove nizove neće biti keširane. Na primer, za <code>/mypath/mypage?aa=bb</code>,<code>mypage?aa=</code> se mogu ovde koristiti. Da biste podudarili početak, dodajte <code>^</code> na početak stavke. Da biste izvršili potpuno podudaranje, dodajte <code>$</code> na kraju URLa. Po jedan u redu.
@@ -2609,6 +2610,17 @@ These strings are translated only in `sr_Latn`, so there is nothing to inherit f
 
 ```diff
 +Navedite po jedan URL ili kategoriju u liniji. URL treba da počinje sa <code></code>, npr. <code>/rankings</code> i keš oznaka treba da počinje sa <code>tag=</code>, npr. <code>tag=rankings</code>. Ova ekstenzija označava svaku rutu i na primer ukoliko imate mnogo ruta koje želite da očistite, bolje je da dodate pravilo u .htaccess fajlu sa regularnim izrazom koji će označiti rute i ovde, u postavkama, unesite samo ovu oznaku. Ovaj metod će biti mnogo brži. <a>Pročitajte više</a>. Po podrazumevanim postavkama, keš memorija za početnu stranicu se čisti, kao i keš memorija za ažurirane diskusije.
+```
+
+
+### `clarkwinkelmann-likes-received` (missing)
+
+#### [`clarkwinkelmann-likes-received.forum.user-card.likes`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-likes-received/sr_Latn/?q=context%3A%3D%22clarkwinkelmann-likes-received.forum.user-card.likes%22)
+
+> {likes, plural, one {# like received} other {# likes received}}
+
+```diff
++{likes, plural, one {# sviđanja(e)} other {# sviđanja}}
 ```
 
 

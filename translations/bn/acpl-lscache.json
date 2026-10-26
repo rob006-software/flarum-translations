@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "ডিফল্ট পাবলিক ক্যাশ TTL",
             "public_cache_ttl_help": "পাবলিক পেজ গুলো কতক্ষণ Cached থাকবে তা নির্ধারন করুন (second এ) । পূর্ব নির্ধারিত Value হল 300 Second ।",
             "clearing_cache_listener_label": "ফ্লারাম এর Cache ক্লিয়ার হলে LSCache ও Purge করুন",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

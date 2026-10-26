@@ -82,7 +82,8 @@
             },
             "log_in": {
                 "two_factor_placeholder": "2FA Token, e.g., 123456",
-                "two_factor_required_message": "A valid 2FA token is required to continue."
+                "two_factor_required_message": "A valid 2FA token is required to continue.",
+                "two_factor_incorrect_message": "The 2FA token is incorrect. Please try again."
             }
         },
         "email": {
@@ -99,6 +100,11 @@
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "2FA token (if enabled on your account)",
+                "two_factor_required_message": "Two-factor authentication is enabled on this account. Enter the token from your authenticator app, or a backup code.",
+                "two_factor_incorrect_message": "The 2FA token is incorrect. Please try again."
+            },
             "reset_password": {
                 "two_factor_token_label": "2FA Token"
             },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "Exports 2FA status and encrypted backup codes.",
                     "delete_description": "Deletes all data related to 2FA."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "Enabled two-factor authentication for {username}",
+                    "two_factor_disabled": "Disabled two-factor authentication for {username}",
+                    "two_factor_device_changed": "Changed the two-factor authentication device for {username}",
+                    "two_factor_backup_code_used": "Used a two-factor backup code for {username} ({remaining} remaining)"
+                },
+                "group": {
+                    "two_factor_required": "Required two-factor authentication for group {name}",
+                    "two_factor_not_required": "Stopped requiring two-factor authentication for group {name}"
                 }
             }
         }

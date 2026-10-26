@@ -2,77 +2,83 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Este usuário ainda não preencheu nenhum campo de perfil."
             },
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Preencha os campos de perfil necessários abaixo.\n",
+                "profile-completed": "Perfil completo! <a>Ir para a página inicial</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Ver perfil",
+                "edit-profile": "Editar perfil",
+                "save-profile": "Salvar"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Nenhuma opção selecionada (opcional)",
+                    "none-required": "Selecione uma opção (obrigatório)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Sim",
+                    "no": "Não"
                 }
             }
         },
         "admin": {
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Criar campo",
+                "add-option": "",
+                "delete-option": "",
+                "edit-field": "Salvar alterações",
+                "delete-field": "Excluir campo",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Editar o perfil de outros usuários",
+                "have-profile": "Ter perfil masquerade",
+                "view-profile": "Ver perfil masquerade"
             },
             "fields": {
-                "title": "",
-                "create": "",
-                "edit": "",
-                "delete-confirmation": "",
-                "is_restricted": "",
-                "permissions": "",
-                "permissions-alert": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "hide-empty-fields": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Campos",
+                "trash": "",
+                "create": "Criar campo",
+                "edit": "Editar campo {field}",
+                "delete-confirmation": "Tem certeza de que deseja excluir o campo {field}? Isso não pode ser desfeito.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "Restringir visibilidade do campo",
+                "permissions": "Visibilidade do campo",
+                "permissions-alert": "As configurações de permissão ficarão disponíveis ao editar o campo após a criação.",
+                "name": "Nome do campo",
+                "name-help": "O rótulo do campo visível publicamente (não traduzível).\n",
+                "description": "Descrição do campo",
+                "description-help": "Uma descrição opcional para explicar o uso/a necessidade deste campo.\n",
+                "required": "Marcar campo como obrigatório",
+                "on_bio": "Mostrar a resposta deste campo na bio do usuário",
+                "type": "Tipo",
+                "validation": "Validação",
+                "validation-help": "Consulte as <a>regras de validação do Laravel</a> suportadas. Ex.: \"string|min:5\" ou \"url\".\n",
+                "icon": "Ícone",
+                "icon-help": "Mostra um ícone antes dos valores informados pelo usuário. Para ver os ícones disponíveis, consulte o <a>site do FontAwesome</a>. Use nomes de ícones com o prefixo \"fa-\", como \"fas fa-info\".\n",
+                "force-user-to-completion": "Forçar o usuário a completar o perfil",
+                "hide-empty-fields": "Ocultar campos vazios",
+                "options": "Opções",
+                "option-new": "Nova opção",
+                "option-comma-warning": "O rótulo de uma opção não pode conter vírgula (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Avançado",
+                "boolean": "Caixa de seleção",
+                "email": "E-mail",
+                "select": "Menu suspenso",
+                "url": "URL"
             }
         },
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "",
-                    "hint": ""
+                    "key": "resposta",
+                    "hint": "valores de campos de perfil do usuário"
                 }
             }
         }
@@ -81,9 +87,9 @@
         "lib": {
             "data": {
                 "masqueradeanswers": {
-                    "export_description": "",
-                    "delete_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Exporta as respostas dos campos de perfil do usuário",
+                    "delete_description": "Remove todas as respostas de campos de perfil da conta do usuário",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
                 }
             }
         }
@@ -92,10 +98,12 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
-                    "profile_updated": ""
+                    "field_created": "Criou o campo de perfil \"{name}\"",
+                    "field_updated": "Atualizou o campo de perfil \"{name}\"",
+                    "field_deleted": "Excluiu o campo de perfil \"{name}\"",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": "Atualizou os campos de perfil de {username}"
                 }
             }
         }

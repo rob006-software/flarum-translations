@@ -1,0 +1,315 @@
+{
+    "edgeinfinity-diy-homepage": {
+        "forum": {
+            "home": "Home",
+            "community": "OUR COMMUNITY",
+            "sidebar": "Community widgets",
+            "view_all": "View all",
+            "read_more": "Read more",
+            "search": "Search",
+            "search_placeholder": "Search discussions, ideas and answers…",
+            "notice_default": "Get to know the community, explore the discussions, and join the conversation.",
+            "empty": "Nothing to show yet.",
+            "empty_home": "This homepage has no widgets yet.",
+            "no_image": "No image has been configured.",
+            "load_error": "This section could not be loaded.",
+            "retry": "Try again",
+            "loading": "Loading…",
+            "deleted_user": "Deleted user",
+            "reply_count": "{count} replies",
+            "user_posts": "{count} posts",
+            "stats": {
+                "users": "Members",
+                "discussions": "Discussions",
+                "posts": "Posts",
+                "online": "Online (past {minutes} min)",
+                "recentPosts": "Posts in {days} days",
+                "recentUsers": "New members in {days} days",
+                "recentDiscussions": "Discussions in {days} days",
+                "postType": "{type} posts",
+                "tagDiscussions": "{tag} discussions"
+            }
+        },
+        "lib": {
+            "home": "Home",
+            "actions": {
+                "url": "Custom link",
+                "all": "Explore discussions",
+                "compose": "Start a discussion",
+                "signup": "Join the community",
+                "login": "Log in"
+            },
+            "widgets": {
+                "banner": {
+                    "name": "Banner",
+                    "title": "Welcome"
+                },
+                "image": {
+                    "name": "Image",
+                    "title": "In the spotlight"
+                },
+                "notice": {
+                    "name": "Notice",
+                    "title": "Good to know"
+                },
+                "discussions": {
+                    "name": "Discussion collection",
+                    "title": "Latest conversations"
+                },
+                "users": {
+                    "name": "User collection",
+                    "title": "Community members"
+                },
+                "stats": {
+                    "name": "Forum statistics",
+                    "title": "Community at a glance"
+                },
+                "links": {
+                    "name": "Links and actions",
+                    "title": "Explore"
+                },
+                "search": {
+                    "name": "Search",
+                    "title": "Find your next conversation"
+                },
+                "fof": {
+                    "name": "FoF widget",
+                    "title": "Community widget"
+                }
+            }
+        },
+        "admin": {
+            "intro": "Build a homepage from reusable widgets. Save your changes, then open the homepage to review them.",
+            "nav_label": "Navigation label",
+            "load_mode": "Data loading on the first home page visit",
+            "load_modes": {
+                "preload": "Include with the page (default)",
+                "async": "Load asynchronously after the page"
+            },
+            "load_mode_help": "Preload includes data, including search results, in the first page response. Async loads it after the page. Navigation from another page uses asynchronous placeholders in either mode.",
+            "loading_height": "Reserved content height while loading (px)",
+            "loading_height_help": "Blank or 0 estimates from the item count. FoF widgets reuse a measured height at the same width, initially reserving 120px. Applies only while loading.",
+            "fof_loading_help": "FoF data loading is controlled by its provider. Providers supporting initial data can use the FoF Widgets Core setting. Their components and permission checks are preserved.",
+            "animate_numbers": "Animate statistics after loading (respects reduced motion)",
+            "custom_font_size": "Custom font size (px)",
+            "custom_font_size_help": "Blank uses 24px. Enter a value from 12–120px.",
+            "custom_font_family": "Custom font family",
+            "custom_font_family_help": "CSS font family list, e.g. Georgia, serif. Blank inherits the site font. Fonts must already be available in the browser or on the site.",
+            "custom_font_color": "Custom text color",
+            "custom_font_color_help": "Applies to this theme and its high-contrast mode. Enter a hexadecimal color, or leave blank to inherit the default text color.",
+            "text_margin_bottom": "Text bottom spacing (px)",
+            "text_margin_bottom_help": "Applies to every text style and is independent of theme colors. Blank keeps the 14px default; enter 0–120px.",
+            "default_margin_bottom": "Default 14px",
+            "content_safe_width": "Content safe width (%)",
+            "actions_safe_width": "Button group safe width (%)",
+            "content_safe_width_help": "Percentage of the available width inside the widget padding (1–100%), preserved on narrow screens. The safe area follows left, center or right alignment. Blank keeps the original layout; independent of theme colors.",
+            "default_safe_width": "Keep original layout",
+            "custom_font_default_size": "Default 24px",
+            "custom_font_default_family": "Inherit site font",
+            "image_fit_manual": "manual (custom scale)",
+            "image_scale_help": "Image width as a percentage of the background container width, preserving its aspect ratio. The image always fills the background height, cropping horizontal overflow on narrow screens. Use horizontal and vertical position to choose the visible area.",
+            "hero_subtitle": "Page banner subtitle",
+            "hero_subtitle_help": "The subtitle supports line breaks; leave blank to hide it.",
+            "hero_enabled": "Show the top Flarum banner",
+            "hero_enabled_help": "Controls only the DIY homepage banner. Enabled by default; other pages such as All Discussions are unaffected.",
+            "hero_title": "Page banner heading",
+            "hero_title_help": "Leave blank to use the navigation label. Navigation and browser tab titles remain independent.",
+            "hero_show_icon": "Show an icon before the page banner heading",
+            "hero_icon_help": "An image takes priority over icon classes; leave both blank for no icon.",
+            "guest_home": "Show this homepage at / for guests",
+            "routes_help": "Guests use /all for discussions when enabled. /home always opens this homepage. Members keep the forum’s configured default route.",
+            "sticky_sidebar": "Keep the right column visible while scrolling on desktop",
+            "widget_settings": "Widget settings",
+            "widget_type": "Widget type",
+            "add_widget": "Add widget",
+            "add_config_only": "Add to configuration only",
+            "open_home": "Open homepage",
+            "regions": {
+                "fullWidth": "Top (full width)",
+                "top": "Upper",
+                "main": "Main",
+                "sidebar": "Right column",
+                "configOnly": "Configuration only"
+            },
+            "region_help": {
+                "fullWidth": "Below the page banner, spanning the left navigation, main and right columns. Suitable for news and other full-width widgets.",
+                "top": "Spans the main and right columns. The forum’s left navigation stays in place.",
+                "main": "The central stream, in the order shown below.",
+                "sidebar": "Uses the same sidebar width as the discussion index. Stacks below on small screens.",
+                "configOnly": "Configure widgets for FoF without displaying them anywhere on the homepage. Duplicate a homepage widget here to give FoF its own content and appearance."
+            },
+            "empty_region": "No widgets in this region.",
+            "region": "Region",
+            "audience": "Audience",
+            "audiences": {
+                "all": "Everyone",
+                "guests": "Guests",
+                "members": "Members"
+            },
+            "title": "Title",
+            "subtitle": "Subtitle",
+            "icon": "Icon classes",
+            "link_label": "Link label",
+            "link_url": "Link URL",
+            "enabled": "Enabled",
+            "duplicate": "Duplicate",
+            "remove": "Remove",
+            "move_up": "Move up",
+            "move_down": "Move down",
+            "add_link": "Add link or action",
+            "advanced": "JSON import / export",
+            "json_help": "Copy this JSON to export the layout. To import, paste a version 1 configuration, apply it, and save. Server validation runs when saving.",
+            "configuration": "Homepage configuration JSON",
+            "apply_json": "Apply JSON to editor",
+            "invalid_config": "Use version 1, up to 50 widgets, unique IDs and valid regions and audiences.",
+            "unavailable_type": "The extension providing this widget is unavailable. Its configuration is preserved.",
+            "choose_fof": "Choose a registered FoF widget…",
+            "bridge_help": "Enabled native widgets, including the Configuration only region, appear in the FoF widget store. Each instance keeps its own content and heading style. Duplicate a widget into Configuration only to customize FoF independently of the homepage. Audience restrictions still apply; disabled widgets and imported FoF widgets are not exported.",
+            "fields": {
+                "eyebrow": "Eyebrow / small label",
+                "text": "Text",
+                "imageUrl": "Image URL",
+                "actions": "Action buttons",
+                "alt": "Alternative text",
+                "url": "Image link URL",
+                "caption": "Image caption",
+                "tone": "Appearance",
+                "query": "Search query",
+                "ids": "Selected IDs (optional)",
+                "sort": "Sort order",
+                "limit": "Number of items",
+                "featured": "Feature the first discussion",
+                "showExcerpt": "Show post excerpts",
+                "showBio": "Show the user’s biography when available",
+                "links": "Links and actions",
+                "placeholder": "Search input placeholder",
+                "widgetId": "FoF widget",
+                "action": "Action",
+                "texts": "Text blocks",
+                "stats": "Statistics"
+            },
+            "field_help": {
+                "query": "Use Flarum search syntax, for example tag:news. For users, use the user search supported by your forum.",
+                "ids": "Numeric IDs separated by commas or spaces; up to 20. If set, they take priority over search and retain this order. Invisible records are omitted.",
+                "discussion_ids": "Up to 20 numeric IDs, separated by commas or spaces. These lead in the specified order; search results fill remaining slots without duplicates. Invisible records are omitted.",
+                "widgetId": "Uses the provider’s original component, state and availability checks. Enable the provider extension and widget first.",
+                "imageUrl": "Use a local path beginning with / or a complete http(s) URL.",
+                "showExcerpt": "Independent of featuring the first discussion; disabling hides all excerpts. With FoF Synopsis enabled, ordinary excerpts retain its content, tag settings and user display preferences."
+            },
+            "options": {
+                "latest": "Latest activity",
+                "newest": "Newest first",
+                "replies": "Most replies",
+                "members": "Newest members",
+                "posts": "Most posts",
+                "discussions": "Most discussions",
+                "soft": "Soft background",
+                "plain": "Plain",
+                "accent": "Accent border"
+            },
+            "online_permission": "View the number of online members (without their identities)",
+            "radius": "Widget border radius (px)",
+            "radius_help": "Leave blank to follow Flarum’s Start a Discussion button. Zero gives square corners. Applies to native surfaces and standard FoF content wrappers.",
+            "emphasized_titles": "Emphasize widget headings",
+            "title_style": "This widget's heading style",
+            "title_style_help": "Increase contrast for an individual heading without changing other widgets. Standard imported FoF headings also support this choice.",
+            "title_styles": {
+                "inherit": "Use page appearance",
+                "fof": "FoF default",
+                "emphasized": "Emphasized"
+            },
+            "emphasized_help": "Off: FoF’s normal heading style. On: larger headings and colored icons, also applied to imported FoF headings.",
+            "icon_image": "Icon image URL (overrides icon classes)",
+            "show_icon": "Show a leading icon",
+            "show_heading": "Show the widget heading",
+            "actions_align": "Action alignment",
+            "theme_default": "Follow theme",
+            "automatic": "Automatic label",
+            "new_text": "New text block",
+            "add_text": "Add text block",
+            "add_stat": "Add statistic",
+            "text_kind": "Text style",
+            "text_position": "Position relative to actions",
+            "text_align": "Text alignment",
+            "texts_help": "Add, remove and reorder text blocks. Blocks may appear before or after the actions, align independently and set their own bottom spacing. Remove all blocks for a banner without text.",
+            "background_mode": "Background mode",
+            "background_help": "Theme preserves the default appearance. Custom backgrounds have separate light/dark settings, also used for the corresponding high contrast modes. Gradients blend both colors and images; blank colors use theme colors. Legacy settings remain in both columns; editing one leaves the other unchanged.",
+            "background_themes": {
+                "light": "Light and light high contrast",
+                "dark": "Dark and dark high contrast"
+            },
+            "stats_help": "Enable, order or add metrics. Counts respect visibility. Online means active members, respects privacy, and requires either online-count permission or FoF’s online-list permission. Guest sessions are not counted.",
+            "metric": "Metric",
+            "stat_label": "Custom label",
+            "days": "Time window (days)",
+            "minutes": "Online window (minutes)",
+            "post_type": "Registered post type (e.g. comment, discussionRenamed)",
+            "tag_slug": "Tag slug (requires Flarum Tags)",
+            "groups": {
+                "loading": "Loading and placeholders",
+                "hero": "Page banner",
+                "appearance": "Page appearance",
+                "placement": "Placement and audience",
+                "heading": "Heading and navigation link",
+                "content": "Content",
+                "actions": "Links and actions",
+                "background": "Background",
+                "decoration": "Banner decoration"
+            },
+            "background": {
+                "leftColor": "Left/start color",
+                "rightColor": "Right/end color",
+                "leftImage": "Left/start image URL",
+                "rightImage": "Right/end image URL",
+                "angle": "Gradient angle (degrees)",
+                "position": "Transition midpoint (%)",
+                "width": "Transition width (%)",
+                "imageX": "Image horizontal position (%)",
+                "imageY": "Image vertical position (%)",
+                "imageOpacity": "Image opacity (0–1)",
+                "imageFit": "Image fit",
+                "imageScale": "Manual image width (%)"
+            },
+            "decoration": {
+                "enabled": "Show right-side decoration",
+                "orbits": "Show decorative outlines",
+                "size": "Size (px)",
+                "opacity": "Opacity (0–1)",
+                "x": "Horizontal center (%)",
+                "y": "Vertical center (%)"
+            },
+            "metrics": {
+                "users": "Members",
+                "discussions": "Discussions",
+                "posts": "Comment posts",
+                "online": "Online members",
+                "recentPosts": "Recent comment posts",
+                "recentUsers": "New members",
+                "recentDiscussions": "New discussions",
+                "postType": "Posts of a registered type",
+                "tagDiscussions": "Discussions in a tag"
+            },
+            "text_kinds": {
+                "eyebrow": "Small label",
+                "title": "Large title",
+                "body": "Body",
+                "caption": "Caption",
+                "custom": "Custom"
+            },
+            "positions": {
+                "beforeActions": "Before actions",
+                "afterActions": "After actions"
+            },
+            "align": {
+                "left": "Left",
+                "center": "Center",
+                "right": "Right"
+            },
+            "background_modes": {
+                "theme": "Theme default",
+                "solid": "Solid / one image",
+                "gradient": "Gradient / two images"
+            }
+        }
+    }
+}

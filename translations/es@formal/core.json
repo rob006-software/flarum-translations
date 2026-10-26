@@ -119,6 +119,8 @@
                 "edit_css_button": "Editar los estilos personalizados",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "Logotipo correo electrónico",
+                "email_logo_text": "Suba una imagen para que se muestre en la parte superior de los correos electrónicos. Se guarda en un formato que todos los clientes de correo pueden mostrar. Si no sube ninguna, los correos utilizarán una copia de su logotipo. Si sus correos muestran el título del foro en lugar de su logotipo, vuelva a subir su logotipo.",
                 "enter_hex_message": "Introduce un código de color hexadecimal.",
                 "favicon_heading": "<em>Favicon</em>",
                 "favicon_text": "Sube una imagen para que se muestre como icono de acceso directo al foro.",
@@ -226,6 +228,20 @@
                 "queue_paused_all_warning": "El procesamiento de todas las colas está en pausa. Las tareas se acumularán hasta que se reanude.",
                 "queue_paused_manage": "Gestionar",
                 "clear_cache_button": "Vaciar caché",
+                "clear_cache_modal": {
+                    "title": "Limpiando el Cache",
+                    "working": "Reconstruyendo los archivos compilados. Esto puede tardar en foros más grandes.",
+                    "cleared": "{name} limpiado",
+                    "cleared_files": "{name} limpiado ({count} archivos)",
+                    "rebuilt": "{bundle} reconstruido",
+                    "unchanged": "{bundle} ya estaba actualizado",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Tu foro de un vistazo.",
                 "info_button": "Información del sistema",
                 "info_modal": {
@@ -442,6 +458,7 @@
                 "delete_posts_forever_label": "Eliminar publicaciones para siempre",
                 "delete_posts_label": "Eliminar publicaciones",
                 "description": "Configura qué puede ver y hacer cada usuario.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Editar publicaciones",
                 "edit_users_label": "Editar usuarios",
                 "edit_users_credentials_label": "Editar credenciales de usuario",
@@ -648,6 +665,7 @@
                 "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -758,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Alguien ha cambiado el título de una discusión que creaste",
+                "reset_notifications_button": "",
                 "device_heading": "Dispositivo",
                 "haptic_feedback_help": "Solo disponible en dispositivos móviles compatibles",
                 "haptic_feedback_label": "Activar la respuesta háptica",
@@ -895,6 +914,9 @@
                         "hint": "nombres de grupos en singular o plural"
                     }
                 }
+            },
+            "group_selector": {
+                "placeholder": ""
             },
             "input": {
                 "clear_button": "Borrar el contenido del campo"
@@ -1057,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Confirmar nueva contraseña",
@@ -1186,6 +1209,7 @@
             "start_a_discussion": "Crear discusión",
             "title_az": "Título (A–Z)",
             "title_za": "Título (Z–A)",
+            "too_many_login_attempts_message": "",
             "top": "Más comentados",
             "username": "Nombre de usuario",
             "username_or_email_placeholder": "Nombre de usuario o correo electrónico",

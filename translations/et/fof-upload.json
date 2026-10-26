@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur kliendi ID",
+                    "deprecated": "",
                     "title": "Imgur piltide säilitamise seaded",
                     "tos": "Sina oled vastutav selle eest, sinu foorumi kasutajad järgivad Imguri <a>kasutustingimusi</a>"
                 },
@@ -193,6 +194,7 @@
                 "upload_mime_label": "",
                 "view_user_uploads_label": "Kasutaja üleslaadimiste vaatamine",
                 "delete_uploads_of_others_label": "Kustuta kasutajate üleslaadimised",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "Jagatud failide üleslaadimine",
                 "access_shared_label": "Ligipääs jagatud failidele failihalduris"
             },
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "Failide laadimine...",
                 "empty": "Pole faile, mida näidata.",
+                "load_error": "",
                 "release_to_upload": "Vabasta, et üles laadida",
                 "modal_empty_desktop": "Sinu fail on tühi. Kliki nupule või lohista üleslaaditav fail siia.",
                 "modal_empty_phone": "Sinu failide nimekiri on tühi. Vajuta ülevalolevale nupule, et fail üles laadida.",

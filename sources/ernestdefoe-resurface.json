@@ -1,0 +1,87 @@
+{
+    "ernestdefoe-resurface": {
+        "forum": {
+            "bump_button": "Bump to the top",
+            "bumped_alert": "Bumped to the top of the list.",
+            "wait_button": "Bump again {time}",
+            "wait_title": "It was active too recently, or you have used your bumps for now.",
+            "left_title": "{count, plural, one {# bump left in the next 24 hours} other {# bumps left in the next 24 hours}}",
+            "schedule_button": "Plan bumps…",
+            "planned_button": "Next bump: {time}",
+            "log_button": "Bump history",
+            "bumped_text": "bumped {ago}",
+            "log": {
+                "title": "Bump history"
+            },
+            "schedule": {
+                "title": "Plan bumps",
+                "at_label": "Bump at",
+                "repeat_label": "Keep bumping it",
+                "every_label": "Every",
+                "hours": "{count, plural, one {hour} other {hours}}",
+                "days": "{count, plural, one {day} other {days}}",
+                "every_help": "At least {hours, plural, one {# hour} other {# hours}} apart.",
+                "times_label": "How many times",
+                "times_placeholder": "Until I cancel",
+                "limits_help": "Planned bumps count towards your bumps for the day. When it is too soon, that bump is skipped and the next one goes ahead.",
+                "save_button": "Save plan",
+                "cancel_button": "Cancel plan",
+                "saved_alert": "Bumps planned.",
+                "cancelled_alert": "Plan cancelled."
+            }
+        },
+        "lib": {
+            "log": {
+                "empty": "No bumps yet.",
+                "when": "When",
+                "discussion": "Discussion",
+                "by": "By",
+                "how": "How",
+                "deleted": "[deleted]",
+                "more": "Load more",
+                "source": {
+                    "manual": "By hand",
+                    "scheduled": "Planned",
+                    "auto": "Repeating"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "cooldown_label": "Cooldown (hours)",
+                "cooldown_help": "How long a discussion must go without replies or bumps before its owner can bump it. 0 for no cooldown.",
+                "daily_label": "Bumps per 24 hours",
+                "daily_help": "How many bumps a member can make in any 24 hours, across all their discussions. 0 for no limit.",
+                "log_days_label": "Keep the bump log for (days)",
+                "log_days_help": "Older entries are removed. 0 keeps them all. Daily limits always see the last 24 hours."
+            },
+            "groups": {
+                "label": "Limits per group",
+                "help": "Leave a box blank to use the default above (shown in grey). A member in several groups gets the most generous value of each. Groups that can bump any discussion have no limits.",
+                "group": "Group",
+                "cooldown": "Cooldown (hours)",
+                "daily": "Bumps per 24 hours"
+            },
+            "tags": {
+                "label": "Tags members can bump in",
+                "help": "Tick none to allow every tag. Moderators can bump in any tag."
+            },
+            "permissions": {
+                "bump": "Bump own discussions",
+                "schedule": "Plan bumps on own discussions",
+                "bump_any": "Bump any discussion, plan bumps and see the bump log (no limits)"
+            },
+            "log": {
+                "title": "Bump log"
+            }
+        },
+        "api": {
+            "too_soon": "This discussion can't be bumped yet. It was active too recently, or you've used your bumps for now.",
+            "plan_at": "Pick a time between now and a year from now.",
+            "plan_every": "Repeat every 1 to 8760 hours.",
+            "plan_every_cooldown": "Repeats must be at least {hours, plural, one {# hour} other {# hours}} apart.",
+            "plan_times": "Repeat 1 to 999 times, or leave it blank.",
+            "plan_at_cooldown": "That's too soon after its last activity. Pick a later time."
+        }
+    }
+}

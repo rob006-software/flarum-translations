@@ -1,0 +1,282 @@
+{
+    "ernestdefoe-cadence": {
+        "forum": {
+            "map_label": "Actividad a lo largo del tiempo",
+            "metric_label": "Qué mostrar",
+            "kind_all": "Todo",
+            "kind_discussion": "Discusiones",
+            "kind_reply": "Respuestas",
+            "kind_like": "Me gusta",
+            "kind_reaction": "Reacciones",
+            "kind_best_answer": "Mejores respuestas",
+            "kind_count_discussion": "{count, plural, one {# discusión iniciada} other {# discusiones iniciadas}}",
+            "kind_count_reply": "{count, plural, one {# respuesta} other {# respuestas}}",
+            "kind_count_like": "{count, plural, one {# «Me gusta» dado} other {# «Me gusta» dados}}",
+            "kind_count_reaction": "{count, plural, one {# reacción} other {# reacciones}}",
+            "kind_count_best_answer": "{count, plural, one {# mejor respuesta} other {# mejores respuestas}}",
+            "nothing_on": "Sin actividad el {date}",
+            "count_on": "{count, plural, one {# elemento el {date}} other {# elementos el {date}}}",
+            "spark_label": "{count, plural, one {# elemento en las últimas 26 semanas} other {# elementos en las últimas 26 semanas}}",
+            "less": "Menos",
+            "more": "Más",
+            "nothing": "Ninguna",
+            "at_least": "{count, plural, one {# o más} other {# o más}}",
+            "streak": {
+                "page_title": "Rachas",
+                "page_intro_contribute": "Cada día que publica, responde, reacciona o da «Me gusta», alimenta su llama. Si deja pasar demasiados días, se apagará. ¡Manténgala encendida!",
+                "page_intro_visit": "Cada día que visita el foro alimenta su llama. Si deja pasar demasiados días, se apagará. ¡Manténgala encendida!",
+                "profile_tab": "Racha",
+                "leaderboard": "Tabla de clasificación",
+                "your_flame": "Su llama",
+                "their_flame": "Llama de {name}",
+                "your_daily_streak": "Su racha diaria",
+                "your_streak_page": "Su página de racha",
+                "no_flame": "Aún sin llama",
+                "flame_out_short": "Llama apagada",
+                "best_short": "mejor {count}",
+                "birthday": "Llama de cumpleaños",
+                "badge_label": "Llama de {count} días · {tier}",
+                "day_flame": "Llama de {count} días",
+                "days_count": "{count, plural, one {# día} other {# días}}",
+                "days_unit": "{count, plural, one {día} other {días}}",
+                "days_to_tier": "{count, plural, one {# día para {tier}} other {# días para {tier}}}",
+                "top_tier": "El nivel más alto. ¡Manténgala ardiendo!",
+                "rank": "Puesto #{rank}",
+                "started": "Iniciada el {date}",
+                "rival_ahead": "{member} le lleva {count, plural, one {# día} other {# días}} de ventaja.",
+                "rival_level": "{member} está empatado con usted. Siga participando para superarlo.",
+                "longest": "Racha más larga",
+                "total_days": "Días totales",
+                "freezes": "Congelaciones",
+                "feed_today": "Aún no alimentada hoy. Mantenga su llama encendida.",
+                "embers_title": "Su llama de {count} días se ha reducido a brasas",
+                "embers_body": "Publique cualquier contenido para recuperar el {share} de ella. Le quedan {left}.",
+                "time_left": "Quedan {hours}h {minutes}m",
+                "activity_log": "Registro de actividad",
+                "active_days": "{count, plural, one {# día activo} other {# días activos}}",
+                "legend_fed": "Alimentada",
+                "legend_saved": "Salvada por una congelación",
+                "calendar_title": "Calendario de la llama",
+                "journal_title": "Diario de la llama",
+                "calendar": {
+                    "previous": "Mes anterior",
+                    "next": "Mes siguiente",
+                    "fed": "{date}: alimentada",
+                    "saved": "{date}: salvada por una congelación"
+                },
+                "board": {
+                    "current": "Actual",
+                    "alltime": "Histórico",
+                    "hall": "Salón de las Llamas",
+                    "hall_intro": "Grandes llamas que ardieron en el pasado.",
+                    "alight_now": "Encendidas ahora: {count}",
+                    "flame_out": "Llama apagada",
+                    "empty": "Aún no hay llamas. Sea el primero.",
+                    "building": "",
+                    "load_more": "Cargar más"
+                },
+                "side": {
+                    "title": "El panel",
+                    "alight": "Llamas encendidas",
+                    "fed_today": "Alimentadas hoy",
+                    "best": "Mejor racha",
+                    "bonfire": "La fogata",
+                    "tiers": "Niveles",
+                    "from_days": "desde {count, plural, one {# día} other {# días}}",
+                    "how": "Cómo funciona"
+                },
+                "bonfire": {
+                    "fed": "{count, plural, one {llama alimentada hoy} other {llamas alimentadas hoy}}",
+                    "to_next": "{count} más para alcanzar el nivel {level}",
+                    "max": "La fogata está en su punto máximo. ¡Menudo día!"
+                },
+                "how": {
+                    "contribute": "Publique, responda, reaccione o dé «Me gusta» cualquier día para alimentar su llama.",
+                    "visit": "Inicie sesión o visite el foro cualquier día para alimentar su llama.",
+                    "grace": "Si pierde {count, plural, one {# día} other {# días}} seguidos, su racha será perdonada.",
+                    "freezes": "Los logros otorgan congelaciones (se pueden acumular hasta {count}). Una de ellas se usará automáticamente para salvar un día perdido.",
+                    "embers": "Una llama de {count}+ días que se apaga deja brasas durante {hours} horas. Publique algo para recuperar el {share} de la racha.",
+                    "timezone": "Los días se rigen por su propia zona horaria, no por la del servidor."
+                },
+                "toast": {
+                    "day": "Día {count}. Su llama ha sido alimentada.",
+                    "milestone": "Logro alcanzado: {count, plural, one {# día} other {# días}} de fuego.",
+                    "tier": "Ha alcanzado el nivel {tier}.",
+                    "record": "Nuevo récord personal: {count, plural, one {# día} other {# días}}.",
+                    "saved": "{count, plural, one {Se usó una congelación para salvar su llama.} other {Se usaron # congelaciones para salvar su llama.}}",
+                    "revived": "Su llama ha reaparecido: {count, plural, one {# día} other {# días}}."
+                },
+                "warning": {
+                    "risk": "Su llama de {count} días se apagará a menos que la alimente hoy.",
+                    "embers": "Su llama de {count} días se ha reducido a brasas. Publique algo para recuperarla."
+                },
+                "notify_moments": "Logros, niveles y récords de mi racha",
+                "notify_warnings": "Cuando mi racha esté en riesgo o reducida a brasas",
+                "widgets": {
+                    "my_flame": "Mi llama",
+                    "top_flames": "Principales llamas"
+                },
+                "settings": {
+                    "title": "Rachas",
+                    "celebrate_help": "Cómo celebra su llama la primera página que abra en el día.",
+                    "celebrate_all": "Todos los días",
+                    "celebrate_important": "Solo en momentos importantes",
+                    "celebrate_never": "Nunca"
+                }
+            }
+        },
+        "lib": {
+            "streak": {
+                "tiers": {
+                    "spark": "Chispa",
+                    "kindled": "Encendida",
+                    "blaze": "Llamarada",
+                    "inferno": "Infierno",
+                    "eternal": "Eterna"
+                },
+                "journal": {
+                    "empty": "Aún no hay registros. Los logros, congelaciones y récords aparecerán aquí a medida que ocurran.",
+                    "milestone": "Alcanzó {count, plural, one {# día} other {# días}}",
+                    "tier": "Pasó al nivel {tier}",
+                    "record": "Nuevo récord personal: {count, plural, one {# día} other {# días}}",
+                    "saved": "{count, plural, one {Se usó una congelación para salvar la llama} other {Se usaron # congelaciones para salvar la llama}}",
+                    "ended": "{count, plural, one {Una llama de # día se apagó} other {Una llama de # días se apagó}}",
+                    "revived": "Llama revivida en {count, plural, one {# día} other {# días}}",
+                    "given": "{count, plural, one {Se le otorgó # congelación} other {Se le otorgaron # congelaciones}}",
+                    "edited": "Racha ajustada a {count, plural, one {# día} other {# días}}",
+                    "reset": "Racha reiniciada"
+                }
+            }
+        },
+        "admin": {
+            "map_heading": "Mapa de actividad",
+            "widgets": {
+                "my_flame": "",
+                "top_flames": "",
+                "bonfire": ""
+            },
+            "backfill": {
+                "activity": "",
+                "streaks": "",
+                "help": "",
+                "done": ""
+            },
+            "streak": {
+                "heading": "Rachas",
+                "enabled": "Rachas diarias",
+                "enabled_help": "Otorga una llama a cada miembro que regresa continuamente, con niveles, congelaciones, tabla de clasificación y alertas. Si se desactiva, se oculta todo y se detiene el conteo, sin eliminar ningún dato.\n",
+                "off_notice": "",
+                "permission_view": "Ver las rachas y la tabla de clasificación",
+                "permission_earn": "Obtener una racha",
+                "mode": "Qué mantiene la llama encendida",
+                "mode_help": "La opción Participando (publicar, responder, dar «Me gusta» o reaccionar) se puede reconstruir a partir del historial de su foro. La opción Visitando recompensa a los usuarios que solo leen, pero al no existir un historial previo de visitas, comenzará a contar a partir de ahora.\n",
+                "mode_contribute": "Participando",
+                "mode_visit": "Visitando",
+                "streak_grace": "Días de gracia",
+                "streak_grace_help": "Días consecutivos perdidos que se perdonan sin consumir una congelación (de 0 a 3).",
+                "streak_milestones": "Logros",
+                "streak_milestones_help": "Días de racha destacados que se celebran y otorgan congelaciones, separados por comas.",
+                "streak_freeze_per_milestone": "Congelaciones por logro",
+                "streak_freeze_per_milestone_help": "Cuántas congelaciones otorga cada logro alcanzado.",
+                "streak_freeze_bank": "Límite de congelaciones",
+                "streak_freeze_bank_help": "La cantidad máxima de congelaciones que un usuario puede acumular a la vez.",
+                "streak_embers_min": "Brasas a partir de",
+                "streak_embers_min_help": "La racha mínima que deja brasas cuando la llama se apaga. Ingrese 0 para desactivar la recuperación.",
+                "streak_embers_hours": "Duración de las brasas (horas)",
+                "streak_embers_hours_help": "El tiempo que tiene un miembro para publicar algo y recuperar una llama apagada.",
+                "streak_embers_share": "Porcentaje de recuperación (%)",
+                "streak_embers_share_help": "La proporción de la racha anterior que se restaura tras la recuperación.",
+                "streak_hall_min": "Salón de las Llamas a partir de",
+                "streak_hall_min_help": "La racha mínima que se registrará en el Salón de las Llamas cuando llegue a su fin.",
+                "streak_risk_min": "Recordar a partir de",
+                "streak_risk_min_help": "La racha mínima cuyos propietarios recibirán una alerta y correo de «racha en riesgo».",
+                "streak_risk_hour": "Recordar a las (hora local)",
+                "streak_risk_hour_help": "La hora del día local del usuario (de 0 a 23) a partir de la cual se considera en riesgo una llama no alimentada.",
+                "streak_bonfire_levels": "Niveles de la fogata",
+                "streak_bonfire_levels_help": "Número de llamas alimentadas en un día para alcanzar cada nivel de la fogata, separados por comas.",
+                "streak_timezone": "Zona horaria secundaria",
+                "streak_timezone_help": "Se utiliza para los miembros cuyo navegador no ha informado su zona horaria al foro (p. ej., Europe/London). Para todos los demás, el día se ajusta a su propia zona horaria.\n",
+                "placements": "Dónde se muestran las llamas",
+                "in_header": "Una llama en el encabezado",
+                "in_header_help": "Junto a las notificaciones, mostrando la racha, el siguiente nivel y el resumen mensual a un clic.",
+                "on_posts": "Una llama junto al nombre en las publicaciones",
+                "on_posts_help": "No genera peticiones adicionales; la llama se incluye junto a la información del autor.",
+                "on_cards": "Una línea de racha en las tarjetas de usuario",
+                "on_cards_help": "En las tarjetas de perfil emergentes.",
+                "on_profile": "Una pestaña de Racha en los perfiles",
+                "on_profile_help": "Muestra la llama del usuario, un año de días alimentados, el calendario mensual y su diario personal.",
+                "nav": "Rachas en el menú de navegación lateral",
+                "nav_help": "Un enlace a la tabla de clasificación debajo de Todas las discusiones.",
+                "sidebar": "Bloques de racha en la barra lateral del índice",
+                "sidebar_help": "Bloques de «Mi llama» y «Principales llamas», pensados para foros sin un gestor de widgets. Si utiliza fof/forum-widgets-core o Bespoke, coloque los widgets desde allí.\n",
+                "remove": "Eliminar",
+                "save_tiers": "Guardar niveles y temporadas",
+                "tiers": {
+                    "title": "Niveles de llama",
+                    "help": "La llama cambia de color e icono conforme la racha aumenta. El nivel más alto habilitado que alcance el miembro será el suyo. Deje el nombre en blanco para usar la traducción predeterminada.",
+                    "preview": "Vista previa",
+                    "name": "Nombre",
+                    "days": "Desde (días)",
+                    "color": "Color",
+                    "icon": "Icono",
+                    "glow": "Resplandor",
+                    "enabled": "Activa",
+                    "add": "Añadir un nivel"
+                },
+                "seasons": {
+                    "title": "Llamas de temporada",
+                    "help": "Entre dos fechas (MM-DD) cada llama adoptará el color e icono de la temporada. Los cumpleaños provenientes de Calendar obtienen una llama dorada.",
+                    "from": "Desde",
+                    "to": "Hasta",
+                    "add": "Añadir una temporada"
+                },
+                "overview": {
+                    "title": "Visión general",
+                    "tracked": "Miembros registrados",
+                    "alight": "Llamas encendidas",
+                    "fedToday": "Alimentadas hoy",
+                    "best": "Récord histórico",
+                    "freezes": "Congelaciones acumuladas",
+                    "embers": "Brasas encendidas",
+                    "by_tier": "Llamas por nivel",
+                    "from_days": "desde {count, plural, one {# día} other {# días}}",
+                    "longest": "Llamas encendidas más largas",
+                    "events": "Eventos recientes",
+                    "days": "{count, plural, one {# día} other {# días}}",
+                    "by": "por {name}"
+                },
+                "sheet": {
+                    "title": "Ficha de racha del miembro",
+                    "help": "Busque a un miembro para otorgarle congelaciones, ajustar su racha, revivir la última llama apagada o reiniciarla. Cada cambio quedará registrado en su diario con su nombre de administrador.",
+                    "search": "Buscar miembros…",
+                    "current": "Actual",
+                    "longest": "Más larga",
+                    "total": "Días totales",
+                    "freezes": "Congelaciones",
+                    "give": "Conceder congelaciones",
+                    "edit": "Establecer racha",
+                    "revive": "Revivir",
+                    "reset": "Reiniciar",
+                    "reset_confirm": "¿Apagar la llama de este miembro? Esta acción no se puede deshacer.",
+                    "done": "Hecho."
+                }
+            },
+            "show_on_profile": "Mostrar el mapa en el perfil de los miembros",
+            "show_on_profile_help": "Muestra el mapa de actividad completo en cada perfil. Es la opción recomendada para la mayoría de los foros.\n",
+            "show_on_posts": "Mostrar una gráfica de tendencia (sparkline) junto a cada publicación",
+            "show_on_posts_help": "Un pequeño trazado de las últimas 26 semanas junto al autor. Realiza solo una consulta adicional por miembro distinto en la página (no por publicación), por lo que consume muy pocos recursos. Permanece desactivado a menos que lo habilite.\n",
+            "show_on_cards": "Mostrar una gráfica de tendencia (sparkline) en las tarjetas de usuario",
+            "show_on_cards_help": "En las tarjetas emergentes y en cualquier otro lugar donde se muestre el resumen de un miembro.\n"
+        },
+        "email": {
+            "risk": {
+                "subject": "Su llama de {count} días necesita de su ayuda hoy",
+                "body": "Su llama de {count} días se apagará a menos que la alimente hoy. Inicie sesión y manténgala encendida:\n\n{url}\n"
+            },
+            "embers": {
+                "subject": "Su llama de {count} días se ha reducido a brasas",
+                "body": "Su llama de {count} días se apagó, pero sus brasas aún están encendidas. Publique algo pronto para recuperarla:\n\n{url}\n"
+            }
+        }
+    }
+}

@@ -1,6 +1,28 @@
 {
     "linkrobins-warble": {
         "admin": {
+            "health_title": "",
+            "health_recheck": "",
+            "health_failed": "",
+            "check": {
+                "realtime": "",
+                "realtime_missing": "",
+                "endpoint_ok": "",
+                "endpoint_fail": "",
+                "queue_sync": "",
+                "scheduler_not_needed": "",
+                "queue_async": "",
+                "scheduler_never": "",
+                "scheduler_stale": "",
+                "scheduler_active": "",
+                "polling_seen": "",
+                "polling_quiet": "",
+                "interval_auto": "",
+                "interval_waiting": "",
+                "updates_seen": "",
+                "updates_quiet": "",
+                "websocket_leftover": ""
+            },
             "transport_label": "Kênh truyền thời gian thực",
             "transport_help": "Chế độ tự động sẽ dùng máy chủ websocket khi có một máy chủ được cấu hình trong config.php, còn lại thì dùng kiểu hỏi vòng. Kiểu hỏi vòng không cần máy chủ nào cả và chạy được trên mọi dịch vụ lưu trữ; chậm hơn vài giây. Websocket thì tức thì nhưng bạn phải tự vận hành (Reverb, soketi, hoặc bất kỳ máy chủ nào tương thích Pusher).\n",
             "transport_auto": "Tự động",

@@ -40,12 +40,12 @@
                 "edit_action": "Sửa",
                 "controls_label": "Các thao tác cho {title}",
                 "preview_button": "Xem trước trên diễn đàn",
-                "preview_navigate": "Đã mở diễn đàn. Hãy vào một trang {route} và bản xem trước sẽ bắt đầu ở đó.",
                 "export_button": "Xuất ra tệp",
                 "duplicate_button": "Nhân bản lượt hướng dẫn này",
                 "copy_title": "{title} (bản sao)",
                 "no_steps_warning": "Không có bước nào nên không chạy được gì",
-                "step_count": "{count, plural, =0 {không có bước nào} one {# bước} other {# bước}}"
+                "step_count": "{count, plural, =0 {không có bước nào} one {# bước} other {# bước}}",
+                "preview_navigate": "Đã mở diễn đàn. Hãy vào một trang {route} và bản xem trước sẽ bắt đầu ở đó."
             },
             "steps": {
                 "heading": "Các bước trong {title}",
@@ -107,7 +107,7 @@
                 "target_placeholder": "Một bộ chọn CSS, ví dụ #home-link",
                 "target_help": "Phần tử mà bước này trỏ tới. Để trống để hiển thị bước một cách độc lập, ở giữa màn hình.",
                 "target_invalid": "Đó không phải là một bộ chọn CSS hợp lệ.",
-                "target_matches": "{count, plural, =0 {Không khớp gì trên trang bạn vừa xem} one {Khớp # phần tử} other {Khớp # phần tử}}",
+                "target_route_mismatch": "",
                 "pick_button": "Dự đoán",
                 "test_button": "Tin nhắn thử nghiệm",
                 "placement_label": "Vị trí",
@@ -123,11 +123,15 @@
                 "enabled_label": "Đang bật",
                 "save_button": "Lưu",
                 "delete_button": "Xóa bước",
-                "delete_confirmation": "Xóa bước này khỏi lượt hướng dẫn?"
+                "delete_confirmation": "Xóa bước này khỏi lượt hướng dẫn?",
+                "target_matches": "{count, plural, =0 {Không khớp gì trên trang bạn vừa xem} one {Khớp # phần tử} other {Khớp # phần tử}}"
             },
             "permissions": {
                 "reset_tour_guide": "Cho một thành viên xem lại các lượt hướng dẫn"
             }
+        },
+        "api": {
+            "step_not_in_tour": ""
         },
         "forum": {
             "progress": "{current} trên {total}",
@@ -137,6 +141,10 @@
             "close_button": "Đóng lượt hướng dẫn",
             "click_to_continue": "Hãy nhấp vào đó để tiếp tục",
             "preview_notice": "Bản xem trước. Không có thao tác nào ở đây được ghi lại.",
+            "go_to_page": "",
+            "preview_go_to": "",
+            "unknown_page": "",
+            "nothing_here": "",
             "settings": {
                 "heading": "Hướng dẫn",
                 "none": "Không có lượt hướng dẫn nào để xem.",
@@ -152,11 +160,14 @@
                 "matches": "{count, plural, =0 {không khớp gì} one {# kết quả khớp} other {# kết quả khớp}}",
                 "browse": "Duyệt",
                 "resume": "Dự đoán",
+                "show": "",
+                "go_to_page": "",
                 "cancel": "Hủy"
             },
             "user_controls": {
                 "reset_tour_guide": "Xem lại các lượt hướng dẫn",
-                "reset_tour_guide_confirmation": "Cho thành viên này xem lại các lượt hướng dẫn trong lần truy cập tới?"
+                "reset_tour_guide_confirmation": "Cho thành viên này xem lại các lượt hướng dẫn trong lần truy cập tới?",
+                "reset_tour_guide_done": ""
             }
         }
     }

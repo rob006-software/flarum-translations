@@ -1,48 +1,50 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "Esta discussão foi removida.",
             "push": {
-                "discussion-list-new-activity": "",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity": "{count, plural, one {Mostrar # discussão atualizada} other {Mostrar # discussões atualizadas}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussão tem} other {# discussões têm}} atividade atualizada e {count, plural, one {será exibida} other {serão exibidas}} em {releaseTimeout} segundos. Clique para mostrar agora."
             },
             "typing-indicator": {
-                "anonymous-user": "",
-                "hidden-user": "",
-                "people-are-typing": "",
-                "users-are-typing": "",
-                "no-activity": ""
+                "anonymous-user": "[Oculto]",
+                "hidden-user": "{username} (oculto)",
+                "people-are-typing": "{number, plural, one {# pessoa está digitando} other {# pessoas estão digitando}}",
+                "users-are-typing": "{count, plural, one {{users} está digitando} other {{users}{others, plural, =1 { e # outro} =0 {} other { e # outros}} estão digitando}}",
+                "no-activity": "Ninguém está digitando"
             },
             "index-typing": {
-                "someone-typing": "",
-                "someone-typing-tag": ""
+                "someone-typing": "Alguém está digitando nesta discussão",
+                "someone-typing-tag": "Alguém está digitando nesta tag"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Tempo Real",
                     "typing-indicator-type": {
-                        "help": "",
-                        "label": ""
+                        "help": "Quando ativado, o indicador de digitação mostrará os usuários que estão digitando no momento. Desative para mostrar apenas o número de usuários digitando.",
+                        "label": "Mostrar quem está digitando"
                     }
                 }
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-all-typing": "Ver quem está digitando em qualquer lugar do fórum",
+                "view-who-types": "Ver quem está digitando"
             },
             "settings": {
-                "release-discussion-updates": "",
-                "release-discussion-updates-help": "",
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": "",
-                "notification-toast-dismiss-after": "",
-                "notification-toast-dismiss-after-help": "",
-                "typing-indicator": "",
-                "typing-indicator-help": "",
-                "index-typing-indicator": "",
-                "index-typing-indicator-help": "",
-                "index-typing-indicator-restricted": "",
-                "index-typing-indicator-restricted-help": ""
+                "release-discussion-updates": "Atualizações da DiscussionList",
+                "release-discussion-updates-help": "Quando ativado, novas discussões serão enviadas para a <code>DiscussionList</code> no intervalo definido abaixo.",
+                "release-discussion-updates-interval": "Intervalo para envio automático de nova atividade de discussão",
+                "release-discussion-updates-interval-help": "Em segundos. 0 significa sem envio automático.",
+                "notification-toast-dismiss-after": "Duração do toast de notificação",
+                "notification-toast-dismiss-after-help": "Por quanto tempo (em segundos) um toast de notificação em tempo real fica na tela antes de ser dispensado automaticamente. Defina 0 para desativar toasts de notificação.",
+                "typing-indicator": "Indicador de digitação",
+                "typing-indicator-help": "Quando ativado, sujeito a permissão, os usuários podem ver o número de outros usuários digitando em uma discussão. Quando desativado, a atividade de digitação é removida tanto da UI quanto do payload do websocket.",
+                "index-typing-indicator": "Pontos de digitação na lista de discussões",
+                "index-typing-indicator-help": "Quando ativado, um ícone discreto aparece na lista de discussões em qualquer discussão publicamente visível em que alguém esteja digitando. Nenhum nome é exibido.",
+                "index-typing-indicator-restricted": "Pontos de digitação na lista de discussões em tags restritas",
+                "index-typing-indicator-restricted-help": "Também mostra os pontos de digitação para discussões em tags restritas, aos usuários que podem ver essas tags. Requer a extensão Tags. Desativado por padrão."
             }
         }
     }

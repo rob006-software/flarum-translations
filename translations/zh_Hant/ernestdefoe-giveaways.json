@@ -16,7 +16,11 @@
             "skill_forfeited": "",
             "skill_already_forfeited": "",
             "skill_answer_required": "",
-            "claim_not_winner": "您不是此抽獎活動的得獎者。"
+            "claim_not_winner": "您不是此抽獎活動的得獎者。",
+            "enter_own": "",
+            "draw_not_ended": "",
+            "locked_after_draw": "",
+            "ends_no_earlier": ""
         },
         "forum": {
             "nav": "抽獎活動",
@@ -35,16 +39,36 @@
             "status_active": "進行中",
             "status_drawn": "已抽出",
             "status_cancelled": "已取消",
+            "status_upcoming": "",
+            "status_draft": "",
+            "winner_count": "",
+            "tabs": {
+                "all": "",
+                "open": "",
+                "ended": "",
+                "drafts": ""
+            },
+            "drafts_heading": "",
+            "drafts_help": "",
+            "draft_notice": "",
+            "publish": "",
+            "published": "",
             "enter": "參加抽獎",
+            "hosting": "",
             "entered": "您已成功參加！",
             "enter_again": "您已參加此活動",
             "login_to_enter": "登入後參加",
+            "not_started": "",
             "enter_success": "參加成功，祝您好運！",
             "earn_more": "獲得更多抽獎機會",
             "earn_post": "在論壇發表貼文可額外獲得 +{count} {count, plural, one {次抽獎機會} other {次抽獎機會}}",
             "earned_post": "發文獎勵（+{count}）",
             "base_entry": "基本抽獎資格",
             "prize_label": "獎品",
+            "starts_label": "",
+            "draw_time_label": "",
+            "view_discussion": "",
+            "your_prize": "",
             "description_label": "活動說明",
             "rules_label": "",
             "rules_intro": "",
@@ -77,6 +101,17 @@
             "claim_next_steps": "領獎方式",
             "claim_skill_intro": "",
             "claim_answer_placeholder": "",
+            "participants": {
+                "button": "",
+                "title": "",
+                "entries": "",
+                "load_more": "",
+                "deleted_user": ""
+            },
+            "composer": {
+                "add": "",
+                "edit": ""
+            },
             "notification": {
                 "won_content": "您在抽獎活動中中獎了！",
                 "claimed_content": "已領取獎品"
@@ -115,11 +150,18 @@
                 "skill_attempts_help": "",
                 "cover_label": "封面圖片網址",
                 "cover_placeholder": "https://…",
+                "cover_pick": "",
                 "category_label": "分類",
                 "category_none": "— 無 —",
                 "claim_label": "領獎說明",
                 "claim_placeholder": "例如：請私訊您的收件地址或電子郵件，以便寄送獎品。",
                 "claim_help": "得獎者領獎後將看到此說明，以了解如何取得獎品。",
+                "claim_lines_label": "",
+                "claim_lines_placeholder": "",
+                "claim_lines_help": "",
+                "save_draft": "",
+                "add_to_post": "",
+                "composer_help": "",
                 "ends_label": "結束時間",
                 "starts_label": "開始時間（選填）",
                 "winner_count_label": "得獎人數",
@@ -137,8 +179,10 @@
             "perm_enter": "參加抽獎活動",
             "perm_create": "建立並管理自己的抽獎活動",
             "perm_manage": "管理所有抽獎活動",
+            "perm_view_participants": "",
             "nav_label_setting": "導覽列名稱",
             "nav_label_help": "顯示於論壇導覽列中的抽獎活動名稱。",
+            "nav_label_placeholder": "",
             "show_nav_setting": "在主導覽列顯示「抽獎活動」連結"
         }
     }

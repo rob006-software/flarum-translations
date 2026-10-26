@@ -27,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "สร้างฟิลด์ข้อมูลใหม่",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "บันทึกการเปลี่ยนแปลง",
-                "delete-field": "ลบฟิลด์นี้"
+                "delete-field": "ลบฟิลด์นี้",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "แก้ไขประวัติส่วนตัวของผู้ใช้อื่นได้",
@@ -37,9 +41,11 @@
             },
             "fields": {
                 "title": "ฟิลด์ข้อมูลโปรไฟล์",
+                "trash": "",
                 "create": "",
                 "edit": "แก้ไขฟิลด์ {field}",
                 "delete-confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบฟิลด์ข้อมูล {field}? การดำเนินการนี้จะไม่สามารถกู้คืนกลับมาได้",
+                "delete-permanently-confirmation": "",
                 "is_restricted": "",
                 "permissions": "",
                 "permissions-alert": "",
@@ -95,6 +101,8 @@
                     "field_created": "",
                     "field_updated": "",
                     "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
                     "profile_updated": "อัปเดตฟิลด์ประวัติส่วนตัวเพิ่มเติมของผู้ใช้ {username}"
                 }
             }

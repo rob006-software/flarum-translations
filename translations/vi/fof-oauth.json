@@ -15,6 +15,9 @@
                 "only_icons_label": "Chỉ hiển thị các biểu tượng Nút đăng nhập (bố cục thay thế)",
                 "update_email_from_provider_label": "Cập nhật địa chỉ email từ nhà cung cấp",
                 "update_email_from_provider_help": "Nếu được kích hoạt, địa chỉ email của người dùng sẽ được cập nhật để khớp với địa chỉ được cung cấp bởi nhà cung cấp OAuth mỗi khi đăng nhập vào diễn đàn. Tuy nhiên, không phải tất cả các nhà cung cấp đều cung cấp địa chỉ email đã cập nhật, trong trường hợp này, cài đặt này sẽ không có tác dụng với những nhà cung cấp đó.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Vô hiệu hóa avatar từ nhà cung cấp",
                 "disable_avatars_help": "Nếu được bật, ảnh đại diện của người dùng sẽ không được cập nhật để khớp với ảnh đại diện của nhà cung cấp khi đăng ký. Lưu ý rằng tính năng này chỉ ảnh hưởng đến các lần đăng ký sau này và sẽ không thay đổi ảnh đại diện của người dùng hiện tại.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Đăng nhập với {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

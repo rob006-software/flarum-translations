@@ -15,6 +15,9 @@
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
                 "update_email_from_provider_label": "Обновлять адрес email от провайдера",
                 "update_email_from_provider_help": "Адрес email пользователя будет обновляться в соответствии с адресом, предоставленным провайдером OAuth при каждом входе на форум. Не все провайдеры предоставляют обновлённый адрес email и, в этом случае, этот параметр не будет иметь никакого влияния на подобных провайдеров.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Отключить аватары от провайдера",
                 "disable_avatars_help": "Если включено, при регистрации аватар пользователя не будет заменяться аватаром от провайдера. Это влияет только на будущие регистрации и не изменяет аватары существующих пользователей.\n",
                 "providers": {
@@ -71,6 +74,8 @@
         "forum": {
             "log_in": {
                 "unverified_email_in_use": "",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "Войти через {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",

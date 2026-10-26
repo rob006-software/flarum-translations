@@ -11,8 +11,8 @@
                     "tags": "En İyi Yanıt Etiketi",
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
-                    "advanced": "Gelişmiş",
-                    "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
+                    "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir.",
+                    "advanced": "Gelişmiş"
                 },
                 "show_max_lines_label": "Post önizlemede gösterilecek maks. satırlar",
                 "show_max_lines_help": "Devre dışı bırakmak için 0 olarak ayarlayın. Bir gönderi, yapılandırılan satır miktarından daha uzunsa, gönderi önizlemesinde bir solma efektiyle kesilecektir.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.",
                 "select_best_answer_tags_label": "En iyi cevapların olduğu tartışmalar için etiketler",
                 "select_best_answer_tags_help": "Bir En İyi Cevap ayarlandığında, varsa hangi etiketlerin tartışmalara ekleneceğini seçin. Yalnızca ikincil etiketlere izin verilir. En İyi Cevap kaldırılırsa bu etiketler kaldırılacaktır.",
-                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
-                "schedule_on_one_server_help": "Redis/Memcache gerektirir",
                 "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
                 "schedule_stop_overnight_help": "9ös - 8öö sunucu zamanı",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
+                "schedule_log_output_help": "",
                 "show_filter_label": "En İyi Yanıt filtresini göster",
                 "show_filter_help": "En İyi Yanıtların etkinleştirildiği etiketler için, tartışma listesinde çözülmüş/çözülmemiş filtre seçeneğini görüntülemeyi seçin",
                 "use_alt_ui": "Alternatif dizilim",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Varsa hangi etiketler için hatırlatıcı gönderileceğini seçin. Hatırlatıcılar yalnızca bu etiketlerle yapılan tartışmalar için gönderilecektir.",
                 "tags_info": "Bir etiket En İyi Yanıt etkinleştirildiğinde, her kullanıcı grubuna yanıtları (kendi tartışması, herhangi bir tartışma) ayarlayabilecek izinler atayın. İzinler genel olarak (En İyi Yanıt özellikli etiketler için) veya etiket bazında atanabilir.\n",
                 "discussion_sidebar_jump_button": "Tartışma kenar çubuğunda En İyi Yanıta atla düğmesini görüntüle",
-                "discussion_sidebar_jump_button_help": "Tartışma kenar çubuğuna gönderi akışındaki En İyi Yanıt'a atlayan bir düğme ekler."
+                "discussion_sidebar_jump_button_help": "Tartışma kenar çubuğuna gönderi akışındaki En İyi Yanıt'a atlayan bir düğme ekler.",
+                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
+                "schedule_on_one_server_help": "Redis/Memcache gerektirir"
             },
             "edit_tag": {
                 "qna_label": "Bu etikette En İyi Yanıtların belirlenmesine izin ver",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Soru Soramazsın",
                 "solved_link": "Çözülen tartışmalar",
                 "unsolved_link": "Çözülmeyen tartışmalar"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Tüm sorular",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "çözüldü"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }

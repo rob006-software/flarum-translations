@@ -87,6 +87,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur 客户端 ID",
+                    "deprecated": "Imgur 已不再发放 API 客户端 ID，因此该适配器已被弃用，并将在未来的版本中移除。请将这些文件类型迁移到其他存储适配器提供商。",
                     "title": "Imgur 图片存储设置",
                     "tos": "你有责任确保论坛用户遵守 Imgur 的<a>服务条款</a>"
                 },
@@ -193,6 +194,7 @@
                 "upload_mime_label": "上传 {label}",
                 "view_user_uploads_label": "查看用户上传的文件",
                 "delete_uploads_of_others_label": "删除其他用户上传的文件",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "上传共享文件",
                 "access_shared_label": "在媒体管理器中访问共享文件"
             },
@@ -295,6 +297,7 @@
             "file_list": {
                 "loading": "正在加载文件…",
                 "empty": "暂无文件。",
+                "load_error": ".无法加载这些文件,请重试。",
                 "release_to_upload": "松开以上传",
                 "modal_empty_desktop": "暂无文件。点击按钮或将文件拖到此处上传。",
                 "modal_empty_phone": "暂无文件。点击上方按钮上传文件。",

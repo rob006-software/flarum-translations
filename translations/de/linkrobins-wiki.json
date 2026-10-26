@@ -4,12 +4,13 @@
             "permissions": {
                 "create_article": "Wiki-Artikel erstellen",
                 "comment": "Wiki-Artikel kommentieren",
+                "report_article": "Wiki-Artikel melden",
                 "edit_articles": "Alle Wiki-Artikel bearbeiten und moderieren",
                 "view_history": "Versionsverlauf des Wiki-Artikels anzeigen"
             },
             "index_layout": {
                 "heading": "Wiki-Startseite",
-                "intro": "Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Artikel aufzulisten.",
+                "intro": "Gestalte den Inhalt der /wiki-Startseite mithilfe von Shortcodes. Lasse das Feld leer, um einfach alle Kategorien mit Artikeln aufzulisten.",
                 "label": "Layout der Startseite",
                 "help": "Jeder Shortcode steht in einer eigenen Zeile. Zeilen, die keine Shortcodes sind, werden als Text angezeigt; Zeilen, die mit #, ## oder ### beginnen, werden zu Überschriften.",
                 "shortcodes_heading": "Verfügbare Shortcodes",
@@ -19,7 +20,9 @@
                 "shortcode_categories": "Kategorien auflisten.",
                 "shortcode_heading": "Eine Überschrift (## und ### für kleinere).",
                 "shortcode_link": "Ein Link. Auch einfache Webadressen werden zu Links.",
-                "shortcode_html": "Roh-HTML in den Zeilen zwischen den Tags, für eine Einbettung oder ein Widget. Genau so belassen, wie es geschrieben steht."
+                "shortcode_html": "Roh-HTML in den Zeilen zwischen den Tags, für eine Einbettung oder ein Widget. Genau so belassen, wie es geschrieben steht.",
+                "per_category_label": "Artikel pro Kategorie",
+                "per_category_help": "Wenn das Layout leer ist, listet die Wiki-Startseite alle Kategorien mit dieser Anzahl ihrer Artikel auf, wobei sortierte Artikel zuerst angezeigt werden. Bei einer größeren Anzahl wird ein Link „Alle anzeigen“ angezeigt. Zwischen 1 und 50."
             },
             "layout": {
                 "heading": "Layout",
@@ -103,13 +106,16 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "Wiki durchsuchen",
-                "button": "Suchen",
-                "clear": "Löschen",
                 "results_heading": "Ergebnisse für „{query}“",
                 "all_button": "Wiki durchsuchen nach „{query}“",
-                "empty": "Keine Artikel zu „{query}“ gefunden."
+                "empty": "Keine Artikel zu „{query}“ gefunden.",
+                "button": "Suchen",
+                "clear": "Löschen"
             },
             "nav": "Wiki",
+            "link_preview": {
+                "articles": "{count, plural, one {# Artikel} other {# Artikel}}"
+            },
             "common": {
                 "date_at_time": "{date} um {time}"
             },
@@ -122,6 +128,8 @@
                 "untitled": "Ohne Titel",
                 "deleted_badge": "Gelöscht",
                 "draft_badge": "Entwurf",
+                "uncategorised": "Andere",
+                "see_all_lead": "Alle anzeigen in",
                 "no_categories": "Noch keine Kategorien."
             },
             "compose": {

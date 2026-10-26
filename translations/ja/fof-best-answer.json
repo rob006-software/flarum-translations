@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "基本設定",
                     "reminders": "リマインダー",
-                    "advanced": "詳細設定",
-                    "reminders_notice": "リマインダーが正しく動作するためには、Flarumのスケジューラを正しく設定する必要があります。"
+                    "reminders_notice": "リマインダーが正しく動作するためには、Flarumのスケジューラを正しく設定する必要があります。",
+                    "advanced": "詳細設定"
                 },
                 "show_max_lines_label": "",
                 "show_max_lines_help": "",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "タスクスケジューラに 'onOneServer()' ディレクティブを使用する (Redis/Memcache が必要です)",
-                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "深夜帯はリマインダースケジューラを停止する (サーバー時間で午後9時 ~ 午前8時)",
                 "schedule_stop_overnight_help": "サーバー時間 午後9時〜午前8時",
                 "schedule_log_output": "スケジューラの出力をログストレージに保存する",
+                "schedule_log_output_help": "",
                 "show_filter_label": "ベストアンサーフィルターのドロップダウンを表示",
                 "show_filter_help": "",
                 "use_alt_ui": "代替レイアウトを使用する (投稿画面のフッターにボタンを置く)",
@@ -36,7 +35,8 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "タスクスケジューラに 'onOneServer()' ディレクティブを使用する (Redis/Memcache が必要です)"
             },
             "edit_tag": {
                 "qna_label": "このタグでベストアンサーを有効にする",
@@ -67,6 +67,10 @@
                 "cannot_ask_question": "質問ができません",
                 "solved_link": "解決済みのディスカッション",
                 "unsolved_link": "未解決のディスカッション"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "全ての質問",
@@ -99,6 +103,12 @@
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }

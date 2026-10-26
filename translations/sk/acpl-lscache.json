@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Predvolená verejná vyrovnávacia pamäť TTL",
             "public_cache_ttl_help": "Zadajte, ako dlho (v sekundách) sa verejné stránky ukladajú do vyrovnávacej pamäte. Predvolená hodnota je 300 sekúnd.",
             "clearing_cache_listener_label": "Po vymazaní vyrovnávacej pamäte Flarum vymažte LSCache",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Podávajte zastarané",
             "serve_stale_help": "Ak je ZAPNUTÉ, návštevníkom sa bude zobrazovať zastaraná kópia stránky vo vyrovnávacej pamäti, kým nebude k dispozícii nová kópia. Znižuje zaťaženie servera pri nasledujúcich návštevách. Ak je VYPNUTÉ, stránka sa bude dynamicky generovať počas čakania návštevníkov. Podľa návrhu môže táto možnosť slúžiť zastaranému obsahu. Nepovoľujte túto možnosť, ak vám to nevyhovuje.",
             "purge_on_discussion_update_label": "Pri aktualizácii diskusie alebo príspevku vymažte adresy URL alebo značky",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

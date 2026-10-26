@@ -48,19 +48,29 @@
                 "field_icon_help": "Font Awesome 类名，例如 fas fa-life-ring。",
                 "field_position": "排序值",
                 "field_position_help": "分类按此值升序排列，数值越小越靠前。",
-                "field_is_appeal": "封禁申诉分类",
-                "field_is_appeal_help": "在此分类中提交的工单将作为封禁申诉处理。",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
                 "field_default_assignee": "新工单指派给",
                 "field_default_assignee_none": "不指定处理人 — 通知所有支持人员",
                 "field_default_assignee_help": "此分类中的新工单会自动指派给所选人员，并且只有所选人员会收到通知。选择「不指定处理人」则会通知所有支持人员，由最先回复的人接手工单。",
                 "field_default_assignee_loading": "正在加载支持人员…",
                 "field_default_assignee_unavailable": "{name}（已不是支持人员）",
                 "field_default_assignee_error": "无法加载支持人员列表，你的设置保持不变。",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "创建分类",
                 "submit_update": "保存更改",
                 "error_load": "无法加载此分类。",
                 "error_save": "无法保存分类，请检查各字段后重试。",
-                "error_delete": "无法删除分类。"
+                "error_delete": "无法删除分类。",
+                "field_is_appeal": "封禁申诉分类",
+                "field_is_appeal_help": "在此分类中提交的工单将作为封禁申诉处理。"
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "申诉限制",
@@ -81,6 +91,34 @@
                 "in_account_menu_help": "显示在头像菜单中，与「个人主页」和「设置」等入口并列。",
                 "forum_nav": "在支持页面显示论坛导航",
                 "forum_nav_help": "启用后，支持页面的工单筛选上方还会显示「全部讨论」「关注」和「标签」。默认关闭，支持页面只显示工单相关内容。"
+            },
+            "saved_replies": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "new_button": "",
+                "edit_button": "",
+                "title_new": "",
+                "title_edit": "",
+                "field_title": "",
+                "field_title_help": "",
+                "field_content": "",
+                "field_content_help": "",
+                "field_position": "",
+                "field_position_help": "",
+                "submit_create": "",
+                "submit_update": "",
+                "delete_button": "",
+                "delete_confirm": "",
+                "error_save": ""
+            },
+            "auto_close": {
+                "heading": "",
+                "intro": "",
+                "days": "",
+                "days_help": "",
+                "reminder_days": "",
+                "reminder_days_help": ""
             },
             "rate_limits": {
                 "heading": "频率限制",
@@ -117,6 +155,8 @@
                 "status_changed": "你的工单已标记为「{status}」",
                 "status_changed_generic": "工单已标记为「{status}」",
                 "reopened_by_owner": "{name} 重新开启了自己的工单",
+                "confirmed_solved_by_owner": "",
+                "awaiting_reminder": "",
                 "assigned": "{name} 将工单指派给了你",
                 "assigned_generic": "有工单已指派给你"
             },
@@ -124,6 +164,7 @@
                 "notify_new_reply_label": "有人回复我的支持工单",
                 "notify_new_ticket_label": "有新的支持工单提交（工作人员）",
                 "notify_status_changed_label": "支持工单状态发生变化",
+                "notify_awaiting_reminder_label": "",
                 "notify_assigned_label": "有支持工单指派给我"
             },
             "status": {
@@ -135,16 +176,107 @@
             },
             "index": {
                 "my_tickets": "我的工单",
+                "filter_assigned_to_me": "",
+                "filter_unassigned": "",
                 "filter_all": "全部",
                 "new_ticket": "新建工单",
                 "new_ticket_tooltip": "提交新的支持工单",
                 "empty_own": "暂无工单。点击「新建工单」即可提交。",
                 "empty": "暂无可显示的工单。",
+                "search_placeholder": "",
+                "unread": "",
+                "no_results": "",
+                "empty_assigned_to_me": "",
+                "empty_unassigned": "",
+                "empty_status": {
+                    "open": "",
+                    "in_progress": "",
+                    "awaiting_response": "",
+                    "resolved": "",
+                    "closed": ""
+                },
+                "unassigned": "",
+                "assigned_to": "",
                 "untitled": "未命名",
-                "deleted_badge": "已删除"
+                "deleted_badge": "已删除",
+                "tickets": "",
+                "search_all_tickets": "",
+                "search_tickets_title": "",
+                "search_results_title": "",
+                "tickets_found": "",
+                "tickets_found_plural": "",
+                "back_to_desk": "",
+                "reset_search": ""
+            },
+            "assign": {
+                "title": "",
+                "load_failed": "",
+                "you": "",
+                "unassign": ""
+            },
+            "priority": {
+                "urgent": "",
+                "low": ""
+            },
+            "stats": {
+                "auto": "",
+                "backlog": "",
+                "by_staff": "",
+                "closed": "",
+                "col_first": "",
+                "col_first_time": "",
+                "col_period": "",
+                "col_replies": "",
+                "col_tickets": "",
+                "confirmed": "",
+                "days": "",
+                "endings": "",
+                "first_response": "",
+                "first_response_slow": "",
+                "footnote": "",
+                "hours": "",
+                "legend_closed": "",
+                "legend_opened": "",
+                "load_failed": "",
+                "median_note": "",
+                "minutes": "",
+                "n_days": "",
+                "no_endings": "",
+                "no_people": "",
+                "older_3": "",
+                "older_7": "",
+                "opened": "",
+                "people": "",
+                "period_summary": "",
+                "range": "",
+                "resolve_slow": "",
+                "show_table": "",
+                "speed": "",
+                "still_waiting": "",
+                "time_to_resolve": "",
+                "title": "",
+                "unassigned": "",
+                "volume": "",
+                "waiting": "",
+                "week_of": ""
+            },
+            "event": {
+                "status_changed": "",
+                "status_changed_no_actor": "",
+                "status_changed_automatically": "",
+                "auto_closed": "",
+                "claimed": "",
+                "assigned": "",
+                "assigned_no_actor": "",
+                "unassigned": "",
+                "unassigned_no_actor": "",
+                "reassigned": "",
+                "reassigned_no_actor": "",
+                "deleted_user": ""
             },
             "errors": {
                 "load_tickets": "无法加载工单。",
+                "load_more_tickets": "",
                 "unknown": "未知错误。",
                 "submit": "无法提交。",
                 "submit_ticket": "无法提交工单。",
@@ -153,6 +285,7 @@
                 "load_ticket": "无法加载此工单。工单可能已被删除，或你没有查看权限。",
                 "load_more_replies": "无法加载更多回复。",
                 "update_assignment": "无法更新指派。",
+                "update_priority": "",
                 "update_status": "无法更新状态。",
                 "update_decision": "无法更新申诉决定。",
                 "save_edit": "无法保存编辑。",
@@ -188,12 +321,16 @@
                 "title": "工单",
                 "closed_notice": "此工单已关闭，重新开启前无法回复。",
                 "cannot_reply": "你无法回复此工单。",
-                "closed_badge": "已关闭",
-                "opened_by": "提交人",
-                "assigned_to": "处理人",
+                "confirm_solved_prompt": "",
+                "confirm_solved_yes": "",
+                "confirm_solved_no": "",
+                "assigned_to_name": "",
                 "unassigned": "未指派",
                 "decision": "申诉结果：",
-                "deleted_badge": "已删除"
+                "deleted_badge": "已删除",
+                "closed_badge": "已关闭",
+                "opened_by": "提交人",
+                "assigned_to": "处理人"
             },
             "decision": {
                 "pending": "待处理",
@@ -201,6 +338,8 @@
                 "rejected": "已驳回"
             },
             "staff": {
+                "change_status": "",
+                "change_decision": "",
                 "set_status": "设置状态：",
                 "set_decision": "申诉结果："
             },
@@ -209,6 +348,7 @@
                 "mod_actions": "管理操作",
                 "internal_placeholder": "内部备注（仅工作人员可见）…",
                 "internal_note": "内部备注",
+                "saved_replies": "",
                 "post_reply": "发表回复",
                 "posting": "正在发布…",
                 "discard_confirm": "有未保存的更改，确定要放弃吗？",
@@ -224,15 +364,15 @@
                 "saving": "正在保存…",
                 "edit_reply": "编辑回复",
                 "attach_files": "添加附件",
-                "claim": "接手",
-                "unassign": "取消指派",
                 "reopen": "重新开启工单",
                 "edit": "编辑",
                 "delete": "删除",
                 "restore": "恢复",
                 "cancel": "取消",
                 "load_more_replies": "加载更多回复",
-                "loading_more": "正在加载…"
+                "loading_more": "正在加载…",
+                "claim": "接手",
+                "unassign": "取消指派"
             },
             "confirm": {
                 "close_ticket": "确定要关闭此工单吗？重新开启前将无法继续回复。",
@@ -244,6 +384,10 @@
             "ticket": {
                 "delete": "删除工单",
                 "restore": "恢复工单",
+                "assign": "",
+                "priority_urgent": "",
+                "priority_normal": "",
+                "priority_low": "",
                 "mod_actions": "工单管理操作"
             },
             "user_controls": {
@@ -267,10 +411,76 @@
             "open_ticket": "查看工单",
             "status_changed_subject": "[{subject}] 已标记为「{status}」",
             "status_changed_body": "你的支持工单已标记为「{status}」。",
+            "status_changed_body_generic": "",
+            "reopened_by_owner_body": "",
+            "confirmed_solved_body": "",
+            "awaiting_reminder_subject": "",
+            "awaiting_reminder_body": "",
             "assigned_subject": "已指派给你：{subject}",
             "assigned_body": "{name} 将此支持工单指派给了你。"
         },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "type": {
+                        "key": "",
+                        "hint": "",
+                        "types": {
+                            "standard": "",
+                            "appeal": ""
+                        }
+                    },
+                    "assigned": {
+                        "key": "",
+                        "hint": "",
+                        "options": {
+                            "me": "",
+                            "none": ""
+                        }
+                    },
+                    "unassigned": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "mine": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "priority": {
+                        "key": "",
+                        "hint": "",
+                        "levels": {
+                            "urgent": "",
+                            "normal": "",
+                            "low": ""
+                        }
+                    },
+                    "category": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "status": {
+                        "key": "",
+                        "hint": "",
+                        "statuses": {
+                            "open": "",
+                            "in_progress": "",
+                            "awaiting_response": "",
+                            "resolved": "",
+                            "closed": ""
+                        }
+                    }
+                }
+            }
+        },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "工单只能指派给支持人员。",
             "default_assignee_staff_only": "分类的默认处理人只能是支持人员。",
             "category_required": "必须选择分类。",

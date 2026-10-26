@@ -4,8 +4,28 @@
             "permissions": {
                 "spamblock_users_label": "標示用戶為垃圾郵件發送者"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "設定",
+                "sign_ups": {
+                    "heading": "",
+                    "introduction": "",
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
                 "content-filter": {
                     "heading": "",
                     "introduction": "",
@@ -35,8 +55,14 @@
                     "auto_unapprove_help": "",
                     "auto_flag_label": "",
                     "auto_flag_help": "",
-                    "system_user_id_label": "",
-                    "system_user_id_help": "",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
                     "no_action_extensions": "",
                     "allowlist_heading": "",
                     "allowed_domains_label": "",
@@ -65,6 +91,10 @@
                     "username_label": "使用者名稱垃圾郵件檢查",
                     "ip_label": "IP位址垃圾郵件檢查",
                     "email_label": "電子郵件垃圾郵件檢查",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "臨界點",
                     "frequency_help": "所有啟用的檢查之間垃圾郵件報告的數量將觸發垃圾郵件過濾器。\n例如：如果電子郵件有 1 次點擊，而 ip 有 2 次點擊，總共將有 3 次點擊。 如果閾值設定為 3 或更少，我們將阻止註冊。\n",
                     "api_key_label": "API Key",
@@ -81,8 +111,6 @@
                     "blocked_asns_help": "",
                     "max_listing_age_label": "",
                     "max_listing_age_help": "",
-                    "registration_throttle_label": "",
-                    "registration_throttle_help": "",
                     "lookup_failed": "",
                     "email_hash_label": "使用散列郵箱地址",
                     "email_hash_help": "如果您不想傳遞電子郵件地址本身，請傳遞電子郵件地址的 MD5 雜湊值。 此方法繞過所有黑名單、規範化和混淆繞過檢查。",
@@ -92,7 +120,8 @@
                     "sfs_lookup_help": "如果啟用，當新用戶在您的論壇上註冊時，我們將檢查 StopForumSpam 資料庫。 如果找到使用者（使用者名稱、IP 位址、電子郵件）並且啟用該資料點並且 SFS 置信級別達到您定義的級別，他們將無法完成註冊。",
                     "report_blocked_registrations_label": "報告被阻止的註冊",
                     "report_blocked_registrations_help": "當「尋找註冊」功能阻止註冊時，我們將向 StopForumSpam 報告該嘗試，以便更好地確認垃圾郵件發送者的活動。 需要設定 StopForumSpam API 金鑰（見下文）。"
-                }
+                },
+                "button": "設定"
             },
             "statistics": {
                 "heading": "",
@@ -150,7 +179,11 @@
                         "frequency": "",
                         "blacklisted": "",
                         "torExit": "",
-                        "deniedAsn": ""
+                        "deniedAsn": "",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
                     },
                     "field": {
                         "ip": "",
@@ -178,12 +211,19 @@
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
                 "flagged_as_spam_text": ""
             },
             "message": {
                 "profile": {
                     "blocked": ""
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
                 },
                 "stopforumspam": {
                     "blocked": "您的註冊詳細資料已在垃圾郵件預防資料庫中找到，因此您的註冊已被封鎖。"
@@ -200,6 +240,7 @@
                 "move_discussions_tag_label": "將討論移至隔離標籤",
                 "move_discussions_tag_help": "這會將該使用者發起的所有討論移至您在論壇設定中指定的標籤。 禁用後，討論將保留在目前標籤中。",
                 "process_button": "執行",
+                "success": "",
                 "title": "將 {username} 標記為垃圾郵件發送者",
                 "report_to_sfs_label": "向 StopForumSpam 檢舉",
                 "report_to_sfs_help": "這將向 StopForumSpam 報告使用者的基本詳細資訊（使用者名稱、電子郵件、IP 位址）。 這將有助於防止用戶在使用 StopForumSpam 服務的其他論壇上註冊。"
