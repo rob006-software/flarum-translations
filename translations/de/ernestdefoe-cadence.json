@@ -23,8 +23,8 @@
             "at_least": "{count, plural, one {# oder mehr} other {# oder mehr}}",
             "streak": {
                 "page_title": "Serien",
-                "page_intro_contribute": "",
-                "page_intro_visit": "",
+                "page_intro_contribute": "Jeder Tag, an dem du etwas postest, antwortest, likest oder reagierst, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.",
+                "page_intro_visit": "Jeder Tag an dem du vorbeischaust, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.",
                 "profile_tab": "Serie",
                 "leaderboard": "Rangliste",
                 "your_flame": "Deine Flamme",
@@ -39,11 +39,11 @@
                 "day_flame": "{count}-Tages Flamme",
                 "days_count": "{count, plural, one {# Tag} other {# Tage}}",
                 "days_unit": "{count, plural, one {Tag} other {Tage}}",
-                "days_to_tier": "",
+                "days_to_tier": "{count, plural, one {# Tag bis {tier}} other {# Tage bis {tier}}}",
                 "top_tier": "",
                 "rank": "Rang #{rank}",
                 "started": "Angefangen {date}",
-                "rival_ahead": "",
+                "rival_ahead": "{member} liegt {count, plural, one {# Tag} other {# Tage}} vor dir.",
                 "rival_level": "",
                 "longest": "Längste Serie",
                 "total_days": "Tage insgesamt",
@@ -82,7 +82,7 @@
                     "best": "",
                     "bonfire": "",
                     "tiers": "",
-                    "from_days": "",
+                    "from_days": "von {count, plural, one {# Tag} other {# Tagen}}",
                     "how": ""
                 },
                 "bonfire": {
@@ -93,18 +93,18 @@
                 "how": {
                     "contribute": "",
                     "visit": "",
-                    "grace": "",
+                    "grace": "Verpasse {count, plural, one {# Tag} other {# Tag}} hintereinander und deine Flamme vergibt dir.",
                     "freezes": "",
-                    "embers": "",
-                    "timezone": ""
+                    "embers": "Eine Flamme die {count}+ Tage brannte und erlosch wird {hours} Stunden Glut hinterlassen. Schreibe etwas, um {share} davon zu retten.",
+                    "timezone": "Tage folgen deiner Zeitzone und nicht der des Servers."
                 },
                 "toast": {
                     "day": "",
-                    "milestone": "",
+                    "milestone": "Meilenstein erreicht: {count, plural, one {# Tag} other {# Tage}} durchgehendes Feuer.",
                     "tier": "",
-                    "record": "",
+                    "record": "Neue persönliche Bestleistung: {count, plural, one {# Tag} other {# Tage}}.",
                     "saved": "",
-                    "revived": ""
+                    "revived": "Deine Flamme brennt wieder: {count, plural, one {# Tag} other {# Tage}}."
                 },
                 "warning": {
                     "risk": "",
@@ -113,30 +113,30 @@
                 "notify_moments": "",
                 "notify_warnings": "",
                 "widgets": {
-                    "my_flame": "",
-                    "top_flames": ""
+                    "my_flame": "Meine Flamme",
+                    "top_flames": "Beste Flammen"
                 },
                 "settings": {
-                    "title": "",
+                    "title": "Serien",
                     "celebrate_help": "",
-                    "celebrate_all": "",
+                    "celebrate_all": "Jeden Tag",
                     "celebrate_important": "",
-                    "celebrate_never": ""
+                    "celebrate_never": "Nie"
                 }
             }
         },
         "lib": {
             "streak": {
                 "tiers": {
-                    "spark": "",
-                    "kindled": "",
-                    "blaze": "",
-                    "inferno": "",
-                    "eternal": ""
+                    "spark": "Funke",
+                    "kindled": "Entzündet",
+                    "blaze": "Feuerball",
+                    "inferno": "Inferno",
+                    "eternal": "Ewige Flamme"
                 },
                 "journal": {
                     "empty": "",
-                    "milestone": "",
+                    "milestone": "{count, plural, one {# Tag} other {# Tage}} erreicht",
                     "tier": "",
                     "record": "",
                     "saved": "",
