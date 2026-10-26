@@ -1195,6 +1195,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`tapao-auto-ai-moderation`](https://weblate.rob006.net/projects/flarum2/tapao-auto-ai-moderation) | [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation) |
 | [`tapao-custom-landing-page`](https://weblate.rob006.net/projects/flarum2/tapao-custom-landing-page) | [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) |
 | [`tapao-line-notification`](https://weblate.rob006.net/projects/flarum2/tapao-line-notification) | [`tapao/line-notification`](https://github.com/Tapao-NonSen/LINE-Notification) |
+| [`tpokorra-post-notification`](https://weblate.rob006.net/projects/flarum2/tpokorra-post-notification) | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) |
 | [`tryhackx-advanced-pages`](https://weblate.rob006.net/projects/flarum2/tryhackx-advanced-pages) | [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) |
 | [`tryhackx-cover-studio`](https://weblate.rob006.net/projects/flarum2/tryhackx-cover-studio) | [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) |
 | [`tryhackx-homepage-blocks`](https://weblate.rob006.net/projects/flarum2/tryhackx-homepage-blocks) | [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) |
