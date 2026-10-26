@@ -6,6 +6,7 @@
                 "cache_enabled_label": "3592c8be6e890d238349aa413127a825 3592c8be6e890d238349aa413127a825",
                 "cache_exclude_help": "7205ad2de32c8e1a646e84786d7e0bd8 7205ad2de32c8e1a646e84786d7e0bd8",
                 "cache_exclude_label": "9f7f23ce21f4c6ce886e18fc0ecbfce5 9f7f23ce21f4c6ce886e18fc0ecbfce5",
+                "clearing_cache_listener_help": "b629235bfa298faebcf52ed8cec1fa1f b629235bfa298faebcf52ed8cec1fa1f",
                 "clearing_cache_listener_label": "526b1405d8c45d94fda8c3a8d0b599f0 526b1405d8c45d94fda8c3a8d0b599f0",
                 "drop_qs_help": "1e4ab17ed955aae9c51805b917ff47af 1e4ab17ed955aae9c51805b917ff47af",
                 "drop_qs_label": "4165665c1ce12b6b8593f05458bd0b08 4165665c1ce12b6b8593f05458bd0b08",
@@ -17,7 +18,7 @@
                 "purge_all": "82ceb32e014a94db44d41f626982de95 82ceb32e014a94db44d41f626982de95",
                 "purge_on_discussion_update_help": "7997745eb3a519b1d538531d91082aaa 7997745eb3a519b1d538531d91082aaa",
                 "purge_on_discussion_update_label": "7cb59e52f6e07389f8e2a44761054ebb 7cb59e52f6e07389f8e2a44761054ebb",
-                "serve_stale_help": "7c029a874c3bf0b4c751bb295d442a80 7c029a874c3bf0b4c751bb295d442a80",
+                "serve_stale_help": "b248bccd754b2c1ab7b1a89263098359 b248bccd754b2c1ab7b1a89263098359",
                 "serve_stale_label": "6edb0d7eb42e1bb0213e53beddfd833f 6edb0d7eb42e1bb0213e53beddfd833f",
                 "status_codes_cache_help": "98b4f3e860e54398c2f2dfc0c685dbe4 98b4f3e860e54398c2f2dfc0c685dbe4",
                 "status_codes_cache_label": "dc1b735ac24d6c207f335c600dcd1cc5 dc1b735ac24d6c207f335c600dcd1cc5",
@@ -7238,6 +7239,9 @@
                     "unit_placeholder": "b2f5ff47436671b6e533d8dc3614845d b2f5ff47436671b6e533d8dc3614845d"
                 }
             },
+            "api": {
+                "photo_unavailable": "8af21a9e57952b93e353b2c05cd5009c 8af21a9e57952b93e353b2c05cd5009c"
+            },
             "forum": {
                 "based_on": "56f639734e30871b9acaad4ee3d8dc58 56f639734e30871b9acaad4ee3d8dc58",
                 "card": {
@@ -7297,7 +7301,15 @@
                     "field_recipe": "cbf320d77326c0dcbe2565412b71f76a cbf320d77326c0dcbe2565412b71f76a",
                     "field_serving": "805e650e6ecaf33d618675f17526cd7c 805e650e6ecaf33d618675f17526cd7c",
                     "image": "a5163fe21f330316158294f4b906f597 a5163fe21f330316158294f4b906f597",
+                    "image_choose": "e50aa9c280fa08db133898090f59c9c3 e50aa9c280fa08db133898090f59c9c3",
+                    "image_drop": "e358cbbedc2e49067b35ecf79e22848e e358cbbedc2e49067b35ecf79e22848e",
                     "image_help": "d530fbbe0268faea829065d75ca00732 d530fbbe0268faea829065d75ca00732",
+                    "image_kept": "d567591965c31f04bf09a9fc30613b5b d567591965c31f04bf09a9fc30613b5b",
+                    "image_remove": "e342b9c6b6b4aa87dd3bc369e0d5258f e342b9c6b6b4aa87dd3bc369e0d5258f",
+                    "image_too_big": "ac25100e51af43c667f307e4f5957ee3 ac25100e51af43c667f307e4f5957ee3",
+                    "image_type": "09f00f795dc454655920a87fb70275f2 09f00f795dc454655920a87fb70275f2",
+                    "image_uploading": "0c30f1d6e8d04ebcccfda4a1af9a0bc7 0c30f1d6e8d04ebcccfda4a1af9a0bc7",
+                    "image_url_placeholder": "08bd8b1ed79fdefa835260a3ad2d413c 08bd8b1ed79fdefa835260a3ad2d413c",
                     "ingredients": "1272b4912f6b84dac7f183407208740b 1272b4912f6b84dac7f183407208740b",
                     "ingredients_help": "4fb4e0a031da061f7fa07e870d1b09da 4fb4e0a031da061f7fa07e870d1b09da",
                     "insert": "044ffb2711903efd6b03e245f3e0cc8b 044ffb2711903efd6b03e245f3e0cc8b",
