@@ -2598,7 +2598,7 @@ These strings are translated only in `sr_Latn`, so there is nothing to inherit f
 
 #### [`acpl-lscache.admin.cache_exclude_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/sr_Latn/?q=context%3A%3D%22acpl-lscache.admin.cache_exclude_help%22)
 
-> One path pattern per line: &lt;code&gt;/private&lt;/code&gt; matches partially, &lt;code&gt;^/private$&lt;/code&gt; exactly. Query strings are ignored. Changes do not purge existing cache; optionally purge specific URLs via CLI or all LSCache from the admin cache menu.
+> Enter one regular expression per line. &lt;code&gt;/private&lt;/code&gt; matches any path containing /private; &lt;code&gt;^/private$&lt;/code&gt; matches only /private. Query strings are ignored. Existing cached pages remain available until they expire or you purge them. To apply exclusions immediately, purge the affected URLs via CLI or purge all LSCache entries from the admin cache menu.
 
 ```diff
 +Putanje koje sadrže ove nizove neće biti keširane. Na primer, za <code>/mypath/mypage?aa=bb</code>,<code>mypage?aa=</code> se mogu ovde koristiti. Da biste podudarili početak, dodajte <code>^</code> na početak stavke. Da biste izvršili potpuno podudaranje, dodajte <code>$</code> na kraju URLa. Po jedan u redu.
