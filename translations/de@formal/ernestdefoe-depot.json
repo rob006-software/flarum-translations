@@ -21,7 +21,7 @@
                 "details": "Details anzeigen",
                 "install": "Installationsanleitung",
                 "get_it": "Hol es dir",
-                "sites": "",
+                "sites": "Seiten, die es verwenden",
                 "downloads": "Downloads",
                 "installs": "Installationen"
             },
@@ -153,7 +153,7 @@
                 "watchers": "{count} verfolgen dies",
                 "total_downloads": "Downloads",
                 "total_installs": "Installationen",
-                "total_sites": "",
+                "total_sites": "Seiten, die es verwenden",
                 "get_it": "Hol es dir",
                 "buy": "Kaufen",
                 "owned": "Du hast die Lizenz dafür",
@@ -289,12 +289,12 @@
                 "shots_help": "Das erste ist das Titelbild. Bis zu 8.",
                 "thread_toggle": "Support-Diskussion beginnen",
                 "thread_toggle_help": "Nutzer können dort Fragen stellen und Probleme melden, und du erhältst eine Benachrichtigung bei jeder Antwort.",
-                "thread_tag": "",
-                "thread_no_tags": "",
+                "thread_tag": "Nachricht in",
+                "thread_no_tags": "Es gibt keine Tags, unter denen du Beiträge veröffentlichen kannst, daher landet der Beitrag in der Hauptdiskussionsliste.",
                 "thread_opening": "Eröffnungsbeitrag",
-                "thread_opening_placeholder": "",
-                "thread_opening_help": "",
-                "thread_preview": "",
+                "thread_opening_placeholder": "Alles, das man wissen sollte, bevor man eine Frage stellt, zum Beispiel bekannte Probleme.",
+                "thread_opening_help": "Ein Link zu der Datei und die Installationsschritte werden hinzugefügt.",
+                "thread_preview": "Wie es in der Diskussionsliste aussehen wird",
                 "thread_title": "{title}: Support und Kommentare",
                 "thread_linked": "Verknüpft mit der Datei",
                 "thread_off": "Kommentare werden für diese Datei deaktiviert.",
@@ -307,17 +307,17 @@
             },
             "notifications": {
                 "new_version": "Neue Version: {version}",
-                "approved": ""
+                "approved": "Deine Datei wurde freigegeben und ist jetzt veröffentlicht"
             },
             "settings": {
-                "notify_new_version": "",
-                "notify_approved": ""
+                "notify_new_version": "Eine Datei, der ich folge, hat eine neue Version",
+                "notify_approved": "Eine Datei, die ich hochgeladen habe, wurde freigeschaltet"
             }
         },
         "api": {
-            "not_an_image": "",
-            "image_too_big": "",
-            "too_large_server": "",
+            "not_an_image": "Dieses Bild kann von Depot nicht gelesen werden. Verwende JPEG, PNG, WebP oder GIF.",
+            "image_too_big": "Dieses Bild ist zu groß. Screenshots dürfen maximal {max} Megapixel groß sein.",
+            "too_large_server": "Diese Datei ist größer, als dieser Server zulässt.",
             "too_large": "",
             "upload_broken": "",
             "bad_source": "",
