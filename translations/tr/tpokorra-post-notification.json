@@ -2,28 +2,28 @@
     "tpokorra-post-notification": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Gönderi Bildirim Yapıladırması",
                 "recipients": {
                     "post_approval": {
-                        "to": ""
+                        "to": "Yeni gönderilerin onayı için alıcıya yönelik e-posta adreslerinin virgülle ayrılmış listesi"
                     },
                     "new_discussion": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Yeni tartışmalar için alıcıya yönelik e-posta adreslerinin virgülle ayrılmış listesi",
+                        "bcc": "Yeni tartışmalar için BCC alıcısı için virgülle ayrılmış e-posta adresleri listesi"
                     },
                     "new_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Yeni gönderiler için alıcıya yönelik e-posta adreslerinin virgülle ayrılmış listesi",
+                        "bcc": "Yeni gönderiler için BCC alıcısının e-posta adreslerinin virgülle ayrılmış listesi"
                     },
                     "revised_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Düzeltilmiş gönderiler için alıcıya yönelik e-posta adreslerinin virgülle ayrılmış listesi",
+                        "bcc": "BCC alıcısı için revize edilmiş gönderiler için e-posta adreslerinin virgülle ayrılmış listesi"
                     }
                 },
-                "new_discussion": "",
-                "new_post": "",
-                "revised_post": "",
-                "post_approval": ""
+                "new_discussion": "Yeni bir tartışmayı açıklamak için etiket",
+                "new_post": "Yeni bir gönderiyi açıklayan etiket",
+                "revised_post": "Gözden geçirilmiş bir gönderiyi açıklayan etiket",
+                "post_approval": "Onay gerektiren yeni bir gönderiyi açıklayan etiket"
             }
         }
     }

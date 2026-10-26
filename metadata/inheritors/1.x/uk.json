@@ -6724,6 +6724,36 @@
             }
         }
     },
+    "tpokorra-post-notification.json": {
+        "tpokorra-post-notification": {
+            "admin": {
+                "settings": {
+                    "new_discussion": "8aae2d2a8faaca6d6922c7f6347232ce 8aae2d2a8faaca6d6922c7f6347232ce",
+                    "new_post": "4a83d472cfd56bb57b687f80decc686c 4a83d472cfd56bb57b687f80decc686c",
+                    "post_approval": "3381cc85d22136f496d3619fb202c4f0 3381cc85d22136f496d3619fb202c4f0",
+                    "recipients": {
+                        "new_discussion": {
+                            "bcc": "03a71e1cda0c5cf84d5187816f8eed24 03a71e1cda0c5cf84d5187816f8eed24",
+                            "to": "1a79e3b4f683e172c113aebd9c21ff34 1a79e3b4f683e172c113aebd9c21ff34"
+                        },
+                        "new_post": {
+                            "bcc": "0ffd54a6a2be249226559cbf82fbeaf1 0ffd54a6a2be249226559cbf82fbeaf1",
+                            "to": "d8fbc57b8eb0b883447c470ec4ba4a00 d8fbc57b8eb0b883447c470ec4ba4a00"
+                        },
+                        "post_approval": {
+                            "to": "e6a6c19b3bc5954384a388bb297c8409 e6a6c19b3bc5954384a388bb297c8409"
+                        },
+                        "revised_post": {
+                            "bcc": "2e36bad7a93f70960201aee358cd0595 2e36bad7a93f70960201aee358cd0595",
+                            "to": "7bcac7c297215724df59160d4030311a 7bcac7c297215724df59160d4030311a"
+                        }
+                    },
+                    "revised_post": "bd38ba30d8432d39b1ecb0dbb758de36 bd38ba30d8432d39b1ecb0dbb758de36",
+                    "title": "60487b77662e2b38d12b93ccb5655008 60487b77662e2b38d12b93ccb5655008"
+                }
+            }
+        }
+    },
     "validation.json": {
         "validation": {
             "attributes": {

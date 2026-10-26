@@ -2,28 +2,28 @@
     "tpokorra-post-notification": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Cấu hình thông báo bài viết",
                 "recipients": {
                     "post_approval": {
-                        "to": ""
+                        "to": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết mới cần phê duyệt"
                     },
                     "new_discussion": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có thảo luận mới",
+                        "bcc": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có thảo luận mới"
                     },
                     "new_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết mới",
+                        "bcc": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có bài viết mới"
                     },
                     "revised_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (To) khi có bài viết được sửa đổi",
+                        "bcc": "Danh sách địa chỉ email phân tách bằng dấu phẩy cho người nhận (BCC) khi có bài viết được sửa đổi"
                     }
                 },
-                "new_discussion": "",
-                "new_post": "",
-                "revised_post": "",
-                "post_approval": ""
+                "new_discussion": "Nhãn để mô tả một cuộc thảo luận mới",
+                "new_post": "Nhãn để mô tả một bài viết mới",
+                "revised_post": "Nhãn để mô tả một bài viết đã sửa đổi",
+                "post_approval": "Nhãn để mô tả một bài viết mới cần được phê duyệt"
             }
         }
     }
