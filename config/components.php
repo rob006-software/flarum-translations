@@ -1326,6 +1326,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 		'__builtInLanguages' => ['it'],
 	],
+	'mattoid-plugin-scheduler' => [
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-plugin-scheduler/1.1.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'mattoid-store' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.3.1/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
