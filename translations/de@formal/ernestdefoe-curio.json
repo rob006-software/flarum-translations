@@ -23,6 +23,36 @@
                 "fair": "Ordentlich",
                 "poor": "Schlecht"
             },
+            "card_condition": {
+                "mint": "",
+                "near_mint": "",
+                "light_played": "",
+                "moderately_played": "",
+                "heavily_played": "",
+                "damaged": ""
+            },
+            "printing": {
+                "normal": "",
+                "holo": "",
+                "reverse": "",
+                "metal": "",
+                "lenticular": "",
+                "cosmos": "",
+                "galaxy": "",
+                "cracked-ice": "",
+                "trick-or-trade": "",
+                "1st-edition": "",
+                "w-promo": "",
+                "pre-release": "",
+                "staff": "",
+                "pokemon-center": "",
+                "snowflake": "",
+                "set-logo": "",
+                "player-rewards-program": "",
+                "jumbo": "",
+                "shadowless": "",
+                "unlimited": ""
+            },
             "visibility": {
                 "public": "Jeder",
                 "public_help": "Alle, die Sammlungen in diesem Forum ansehen können.",
@@ -141,6 +171,9 @@
                 "notes_placeholder": "Wo du es gefunden hast, was in der Verpackung ist, alles, was erwähnenswert ist…",
                 "price": "Bezahlter Preis",
                 "price_private": "Nur du kannst ihn sehen",
+                "graded": "",
+                "graded_help": "",
+                "someone_elses": "",
                 "favourite": "Favorit",
                 "choose": "Wählen…",
                 "other_choice": "",
@@ -159,6 +192,7 @@
                 "photo_n": "Foto {n}",
                 "yes": "Ja",
                 "read_review": "",
+                "graded": "",
                 "no": "Nein",
                 "condition": "Zustand",
                 "acquired": "Erworben",
@@ -410,6 +444,12 @@
                 "off": "Aus",
                 "progress": "Fortschritt verfolgen",
                 "progress_help": "Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“ oder „Abgeschlossen“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.",
+                "conditions": "",
+                "conditions_general": "",
+                "conditions_cards": "",
+                "conditions_help": "",
+                "grading": "",
+                "grading_help": "",
                 "export": "Exportieren",
                 "export_all": "Alle exportieren",
                 "import": "Importieren",
@@ -448,7 +488,8 @@
                 "create": "Sammlungen erstellen, Artikel und Fotos hinzufügen",
                 "import": "",
                 "export": "",
-                "moderate": "Sammlungen von jedem entfernen und hervorheben"
+                "moderate": "Sammlungen von jedem entfernen und hervorheben",
+                "edit_items": ""
             }
         },
         "email": {

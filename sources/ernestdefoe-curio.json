@@ -23,6 +23,36 @@
                 "fair": "Fair",
                 "poor": "Poor"
             },
+            "card_condition": {
+                "mint": "Mint (M)",
+                "near_mint": "Near Mint (NM)",
+                "light_played": "Light Played (LP)",
+                "moderately_played": "Moderately Played (MP)",
+                "heavily_played": "Heavily Played (HP)",
+                "damaged": "Damaged (DMG)"
+            },
+            "printing": {
+                "normal": "Normal",
+                "holo": "Holo",
+                "reverse": "Reverse holo",
+                "metal": "Metal",
+                "lenticular": "Lenticular",
+                "cosmos": "Cosmos",
+                "galaxy": "Galaxy",
+                "cracked-ice": "Cracked ice",
+                "trick-or-trade": "Trick or Trade",
+                "1st-edition": "1st edition",
+                "w-promo": "W promo stamp",
+                "pre-release": "Prerelease stamp",
+                "staff": "Staff stamp",
+                "pokemon-center": "Pokémon Center stamp",
+                "snowflake": "Snowflake stamp",
+                "set-logo": "Set logo stamp",
+                "player-rewards-program": "Play! Pokémon prize pack",
+                "jumbo": "Jumbo",
+                "shadowless": "Shadowless",
+                "unlimited": "Unlimited"
+            },
             "visibility": {
                 "public": "Everyone",
                 "public_help": "Anyone who can see collections on this forum.",
@@ -49,7 +79,7 @@
                 "position": "Owner's order",
                 "recent": "Recently added",
                 "title": "Title",
-                "year": "Newest first",
+                "year": "Release date",
                 "rating": "Highest rated"
             },
             "table": {
@@ -141,6 +171,9 @@
                 "notes_placeholder": "Where you found it, what's in the box, anything worth saying…",
                 "price": "Price paid",
                 "price_private": "Only you see this",
+                "graded": "Graded",
+                "graded_help": "Professionally graded and slabbed. Add a photo of the label so others can see who graded it and the score.",
+                "someone_elses": "You're editing {name}'s item.",
                 "favourite": "Favourite",
                 "choose": "Choose…",
                 "other_choice": "Other…",
@@ -158,6 +191,7 @@
                 "photo_n": "Photo {n}",
                 "yes": "Yes",
                 "read_review": "Read my review",
+                "graded": "Graded",
                 "no": "No",
                 "condition": "Condition",
                 "acquired": "Acquired",
@@ -409,6 +443,12 @@
                 "off": "Off",
                 "progress": "Track progress",
                 "progress_help": "Each item can be marked Not started, In progress, Completed or Abandoned: a badge on the item and a filter on the collection page. Handy for a backlog of games, books or films.",
+                "conditions": "Condition scale",
+                "conditions_general": "General (Sealed, Mint, Very good… Poor)",
+                "conditions_cards": "Trading cards (Mint, Near Mint, Light Played… Damaged)",
+                "conditions_help": "The conditions members pick from for this type's items. Trading cards use the card shops' scale, with its short codes (NM, LP…).",
+                "grading": "Graded tick box",
+                "grading_help": "Members can tick an item as professionally graded: a small badge on it. Their own photos show who graded it and the score.",
                 "export": "Export",
                 "export_all": "Export all",
                 "import": "Import",
@@ -447,7 +487,8 @@
                 "create": "Create collections, add items and photos",
                 "import": "Import spreadsheets into their collections",
                 "export": "Export their collections as spreadsheets",
-                "moderate": "Remove anyone's collections and feature them"
+                "moderate": "Remove anyone's collections and feature them",
+                "edit_items": "Add, edit and remove items in anyone's collection"
             }
         },
         "email": {
