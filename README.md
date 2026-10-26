@@ -1028,6 +1028,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-onair`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onair) | [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair) |
 | [`ernestdefoe-onramp`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onramp) | [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) |
 | [`ernestdefoe-opensearch`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-opensearch) | [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch) |
+| [`ernestdefoe-parley`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-parley) | [`ernestdefoe/parley`](https://github.com/ernestdefoe/parley) |
 | [`ernestdefoe-phrasebook`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-phrasebook) | [`ernestdefoe/phrasebook`](https://github.com/ernestdefoe/phrasebook) |
 | [`ernestdefoe-pigeonhole`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-pigeonhole) | [`ernestdefoe/pigeonhole`](https://github.com/ernestdefoe/pigeonhole) |
 | [`ernestdefoe-recipes`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-recipes) | [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) |
