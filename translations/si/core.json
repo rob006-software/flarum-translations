@@ -473,7 +473,7 @@
                 "remove_scope_label": "",
                 "remove_scope_confirmation": "",
                 "rename_discussions_label": "සාකච්ඡාව නැවත නම් කරන්න",
-                "reply_to_discussions_label": "සාකච්ඡාවලට පිළිතුරු  දෙන්න",
+                "reply_to_discussions_label": "සාකච්ඡාවලට පිළිතුරු දෙන්න",
                 "search_users_label": "පරිශීලකයින් සොයන්න",
                 "sign_up_label": "ලියාපදිංචිය",
                 "start_discussions_label": "සාකච්ඡා අරඹන්න",
@@ -649,12 +649,12 @@
             },
             "index_sort": {
                 "az_button": "",
-                "latest_button": "අන්තිම",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": "මුදුන",
+                "top_button": "=> core.ref.top",
                 "za_button": ""
             },
             "log_in": {
@@ -671,7 +671,7 @@
             "notifications": {
                 "delete_all_confirm": "",
                 "delete_all_tooltip": "",
-                "discussion_renamed_text": "{username} මාතෘකාව වෙනස් කළා.",
+                "discussion_renamed_text": "{username} මාතෘකාව වෙනස් කළා",
                 "empty_text": "දැනුම්දීම් නැත",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "කියවූ ලෙස සලකුණු කරන්න",
@@ -706,7 +706,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "පැරණි මාතෘකාව වූයේ: \"{old}\"",
-                "discussion_renamed_text": "{username} මාතෘකාව {new} ට වෙනස් කළා.",
+                "discussion_renamed_text": "{username} මාතෘකාව {new} {time} ට වෙනස් කළා",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} ට පසු"
