@@ -198,7 +198,15 @@
                 "unassigned": "",
                 "assigned_to": "",
                 "untitled": "Chưa có tiêu đề",
-                "deleted_badge": "Đã xóa"
+                "deleted_badge": "Đã xóa",
+                "tickets": "",
+                "search_all_tickets": "",
+                "search_tickets_title": "",
+                "search_results_title": "",
+                "tickets_found": "",
+                "tickets_found_plural": "",
+                "back_to_desk": "",
+                "reset_search": ""
             },
             "assign": {
                 "title": "",
@@ -410,6 +418,64 @@
             "awaiting_reminder_body": "",
             "assigned_subject": "Được giao cho bạn: {subject}",
             "assigned_body": "{name} đã giao phiếu hỗ trợ này cho bạn."
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "type": {
+                        "key": "",
+                        "hint": "",
+                        "types": {
+                            "standard": "",
+                            "appeal": ""
+                        }
+                    },
+                    "assigned": {
+                        "key": "",
+                        "hint": "",
+                        "options": {
+                            "me": "",
+                            "none": ""
+                        }
+                    },
+                    "unassigned": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "mine": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "priority": {
+                        "key": "",
+                        "hint": "",
+                        "levels": {
+                            "urgent": "",
+                            "normal": "",
+                            "low": ""
+                        }
+                    },
+                    "category": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "status": {
+                        "key": "",
+                        "hint": "",
+                        "statuses": {
+                            "open": "",
+                            "in_progress": "",
+                            "awaiting_response": "",
+                            "resolved": "",
+                            "closed": ""
+                        }
+                    }
+                }
+            }
         },
         "api": {
             "category_not_permitted": "",

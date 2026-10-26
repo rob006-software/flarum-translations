@@ -12,7 +12,8 @@
                 "any": "Any progress",
                 "pending": "Not started",
                 "in_progress": "In progress",
-                "completed": "Completed"
+                "completed": "Completed",
+                "abandoned": "Abandoned"
             },
             "condition": {
                 "sealed": "Sealed",
@@ -208,7 +209,13 @@
                 "no_results": "Nothing matches that.",
                 "recent": "Recently added",
                 "featured": "Featured collections",
-                "largest": "Largest collections",
+                "largest": "Top collections",
+                "collectors": "Top collectors",
+                "collector": "Member",
+                "collector_collections": "Collections",
+                "collector_owned": "Owned",
+                "collector_wishlist": "Wishlist",
+                "none_collectors": "Nobody collects anything yet.",
                 "none": "No collections here yet.",
                 "add": "Add an item",
                 "types": "Types of collection",
@@ -289,8 +296,8 @@
                 "new_items_setting": "A collection I follow has new things",
                 "wishlist_added": "{username} added to the wishlist of {name}",
                 "wishlist_added_setting": "Something goes on the wishlist of a collection I follow",
-                "progress_changed": "{username} started or finished something in {name}",
-                "progress_changed_setting": "Something is started or finished in a collection I follow",
+                "progress_changed": "{username} started, finished or abandoned something in {name}",
+                "progress_changed_setting": "Something is started, finished or abandoned in a collection I follow",
                 "rating_changed": "{username} rated something in {name}",
                 "rating_changed_setting": "Something is rated in a collection I follow"
             },
@@ -331,6 +338,11 @@
                 "layout_tags": "Like the Tags page (Flarum default)",
                 "layout_covers": "Cover tiles",
                 "layout_compact": "Compact tabs (one row of small buttons)",
+                "ranking_label": "Rankings on the Collections page",
+                "ranking_help": "What the Collections page ranks below the featured collections: the collections with the most items, the members who collect the most (avatar, collections, items owned and wishlist, ranked by items owned), or both.",
+                "ranking_collections": "Top collections",
+                "ranking_collectors": "Top collectors",
+                "ranking_both": "Both",
                 "type_color_label": "Colour of the compact tabs",
                 "type_color_help": "With compact tabs, each type's colour can fill its tab or only colour its icon and name.",
                 "type_color_background": "As the tab's background",
@@ -396,7 +408,7 @@
                 "on": "On",
                 "off": "Off",
                 "progress": "Track progress",
-                "progress_help": "Each item can be marked Not started, In progress or Completed: a badge on the item and a filter on the collection page. Handy for a backlog of games, books or films.",
+                "progress_help": "Each item can be marked Not started, In progress, Completed or Abandoned: a badge on the item and a filter on the collection page. Handy for a backlog of games, books or films.",
                 "export": "Export",
                 "export_all": "Export all",
                 "import": "Import",
@@ -455,7 +467,7 @@
             },
             "progress_changed": {
                 "subject": "Progress in {name}",
-                "body": "Hi {recipient_display_name}, {owner} has started or finished something in {name}, a collection you follow."
+                "body": "Hi {recipient_display_name}, {owner} has started, finished or abandoned something in {name}, a collection you follow."
             },
             "rating_changed": {
                 "subject": "New ratings in {name}",

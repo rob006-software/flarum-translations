@@ -196,7 +196,15 @@
                 "unassigned": "Unassigned",
                 "assigned_to": "Assigned to {name}",
                 "untitled": "Untitled",
-                "deleted_badge": "Deleted"
+                "deleted_badge": "Deleted",
+                "tickets": "Tickets",
+                "search_all_tickets": "View all tickets matching \"{query}\"",
+                "search_tickets_title": "Search tickets",
+                "search_results_title": "Search results for \"{query}\"",
+                "tickets_found": "{count} ticket found",
+                "tickets_found_plural": "{count} tickets found",
+                "back_to_desk": "Back to support",
+                "reset_search": "Clear search"
             },
             "assign": {
                 "title": "Assign ticket",
@@ -401,6 +409,64 @@
             "awaiting_reminder_body": "Our support team is waiting for your reply on this ticket. Answer when you can and we will pick it straight back up.",
             "assigned_subject": "Assigned to you: {subject}",
             "assigned_body": "{name} assigned this support ticket to you."
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "author",
+                        "hint": "username"
+                    },
+                    "type": {
+                        "key": "type",
+                        "hint": "standard or appeal",
+                        "types": {
+                            "standard": "Standard support tickets",
+                            "appeal": "Ban appeal tickets"
+                        }
+                    },
+                    "assigned": {
+                        "key": "assigned",
+                        "hint": "me or none",
+                        "options": {
+                            "me": "Assigned to me",
+                            "none": "Unassigned tickets"
+                        }
+                    },
+                    "unassigned": {
+                        "key": "unassigned",
+                        "hint": "Unassigned tickets"
+                    },
+                    "mine": {
+                        "key": "mine",
+                        "hint": "Tickets filed by me"
+                    },
+                    "priority": {
+                        "key": "priority",
+                        "hint": "urgent, normal, or low",
+                        "levels": {
+                            "urgent": "Urgent priority",
+                            "normal": "Normal priority",
+                            "low": "Low priority"
+                        }
+                    },
+                    "category": {
+                        "key": "category",
+                        "hint": "slug"
+                    },
+                    "status": {
+                        "key": "status",
+                        "hint": "open, in-progress, awaiting-response, resolved, or closed",
+                        "statuses": {
+                            "open": "Open tickets",
+                            "in_progress": "In progress",
+                            "awaiting_response": "Awaiting response",
+                            "resolved": "Resolved",
+                            "closed": "Closed"
+                        }
+                    }
+                }
+            }
         },
         "api": {
             "category_not_permitted": "Your account is not permitted to create tickets in this category.",

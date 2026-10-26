@@ -196,7 +196,15 @@
                 "unassigned": "",
                 "assigned_to": "",
                 "untitled": "",
-                "deleted_badge": ""
+                "deleted_badge": "",
+                "tickets": "",
+                "search_all_tickets": "",
+                "search_tickets_title": "",
+                "search_results_title": "",
+                "tickets_found": "",
+                "tickets_found_plural": "",
+                "back_to_desk": "",
+                "reset_search": ""
             },
             "assign": {
                 "title": "",
@@ -401,6 +409,64 @@
             "awaiting_reminder_body": "",
             "assigned_subject": "",
             "assigned_body": ""
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "type": {
+                        "key": "",
+                        "hint": "",
+                        "types": {
+                            "standard": "",
+                            "appeal": ""
+                        }
+                    },
+                    "assigned": {
+                        "key": "",
+                        "hint": "",
+                        "options": {
+                            "me": "",
+                            "none": ""
+                        }
+                    },
+                    "unassigned": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "mine": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "priority": {
+                        "key": "",
+                        "hint": "",
+                        "levels": {
+                            "urgent": "",
+                            "normal": "",
+                            "low": ""
+                        }
+                    },
+                    "category": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "status": {
+                        "key": "",
+                        "hint": "",
+                        "statuses": {
+                            "open": "",
+                            "in_progress": "",
+                            "awaiting_response": "",
+                            "resolved": "",
+                            "closed": ""
+                        }
+                    }
+                }
+            }
         },
         "api": {
             "category_not_permitted": "",

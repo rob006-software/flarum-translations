@@ -214,7 +214,15 @@
                 "unassigned": "Non attribué",
                 "assigned_to": "Attribué à {name}",
                 "untitled": "Sans titre",
-                "deleted_badge": "Supprimé"
+                "deleted_badge": "Supprimé",
+                "tickets": "",
+                "search_all_tickets": "",
+                "search_tickets_title": "",
+                "search_results_title": "",
+                "tickets_found": "",
+                "tickets_found_plural": "",
+                "back_to_desk": "",
+                "reset_search": ""
             },
             "assign": {
                 "title": "Attribuer un ticket",
@@ -426,6 +434,64 @@
             "awaiting_reminder_body": "Notre équipe d'assistance attend votre réponse concernant ce ticket. Répondez dès que possible et nous reprendrons immédiatement le traitement de votre demande.",
             "assigned_subject": "Ticket qui vous a été attribué : {subject}",
             "assigned_body": "{name} vous a attribué ce ticket d'assistance."
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "type": {
+                        "key": "",
+                        "hint": "",
+                        "types": {
+                            "standard": "",
+                            "appeal": ""
+                        }
+                    },
+                    "assigned": {
+                        "key": "",
+                        "hint": "",
+                        "options": {
+                            "me": "",
+                            "none": ""
+                        }
+                    },
+                    "unassigned": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "mine": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "priority": {
+                        "key": "",
+                        "hint": "",
+                        "levels": {
+                            "urgent": "",
+                            "normal": "",
+                            "low": ""
+                        }
+                    },
+                    "category": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "status": {
+                        "key": "",
+                        "hint": "",
+                        "statuses": {
+                            "open": "",
+                            "in_progress": "",
+                            "awaiting_response": "",
+                            "resolved": "",
+                            "closed": ""
+                        }
+                    }
+                }
+            }
         },
         "api": {
             "category_not_permitted": "Votre compte n'est pas autorisé à créer des tickets dans cette catégorie.",
