@@ -1461,7 +1461,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v1.6.1/locale/en.yml',
 	],
 	'privatus-privatus-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/Privatus-Analytics/flarum/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Privatus-Analytics/flarum/v1.0.1/locale/en.yml',
 	],
 	'prm-forum-activity' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/v0.2.0/locale/en.yml',
