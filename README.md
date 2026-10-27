@@ -918,6 +918,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-synopsis`](https://weblate.rob006.net/projects/flarum2/fof-synopsis) | [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) |
 | [`fof-terms`](https://weblate.rob006.net/projects/flarum2/fof-terms) | [`fof/terms`](https://github.com/FriendsOfFlarum/terms) |
 | [`fof-top-posters-widget`](https://weblate.rob006.net/projects/flarum2/fof-top-posters-widget) | [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) |
+| [`fof-translate`](https://weblate.rob006.net/projects/flarum2/fof-translate) | [`fof/translate`](https://github.com/FriendsOfFlarum/translate) |
 | [`fof-upgrade-advisor`](https://weblate.rob006.net/projects/flarum2/fof-upgrade-advisor) | [`fof/upgrade-advisor`](https://github.com/FriendsOfFlarum/upgrade-advisor) |
 | [`fof-upload`](https://weblate.rob006.net/projects/flarum2/fof-upload) | [`fof/upload`](https://github.com/FriendsOfFlarum/upload) |
 | [`fof-user-bio`](https://weblate.rob006.net/projects/flarum2/fof-user-bio) | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) |
