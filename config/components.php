@@ -1666,6 +1666,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 		'__builtInLanguages' => ['de', 'de@formal'],
 	],
+	'xlt-ipdisplaycn' => [
+		'tag' => 'https://raw.githubusercontent.com/XiaoLuoTian189/ipdisplay-cn/v1.0.0/resources/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v2.0.0/locale/en.yml',
 	],
