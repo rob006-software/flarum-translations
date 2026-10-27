@@ -107,6 +107,7 @@
                 "view_grid": "Grid",
                 "view_list": "List",
                 "arrange": "Arrange",
+                "sort_default": "Open this collection in this order",
                 "arrange_done": "Done",
                 "load_more": "Show more"
             },
@@ -183,7 +184,8 @@
                 "delete_confirm": "Delete {title}? This can't be undone.",
                 "rating": "Your rating",
                 "rating_value": "{stars} out of 5",
-                "rating_none": "Not rated. Tap a star; tap it again to clear."
+                "rating_none": "Not rated. Tap a star; tap it again to clear.",
+                "rating_zero": "No stars (0 out of 5)"
             },
             "item": {
                 "missing": "This item doesn't exist, or you can't see it.",
@@ -215,6 +217,9 @@
                 "choose_none": "You have no collections yet. Start one and this goes straight in.",
                 "choose_new": "New collection…",
                 "show_off": "Show it off",
+                "move": "Move",
+                "move_to": "Move to which collection?",
+                "moved": "Moved to {collection}.",
                 "discussed": "Discussed here",
                 "cancel": "Cancel",
                 "developer": "Developer",
