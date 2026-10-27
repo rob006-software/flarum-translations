@@ -11,7 +11,14 @@
                 "discussion_required": "Для отзыва нужно указать URL или ID темы.",
                 "already_reported": "Вы уже пожаловались на этот отзыв.",
                 "rate_limit_feedback": "Подождите {seconds} секунд перед отправкой следующего отзыва.",
-                "rate_limit_report": "Подождите {seconds} секунд перед отправкой следующей жалобы."
+                "rate_limit_report": "Подождите {seconds} секунд перед отправкой следующей жалобы.",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "Выберите пользователя, чтобы оставить ему отзыв",
                 "select_user_label": "Выбрать пользователя",
                 "no_users_found": "В этой теме нет других пользователей",
+                "load_error": "",
                 "continue": "Продолжить",
                 "search_user_placeholder": "Найти пользователей...",
                 "showing_limited_users": "Показано {shown} из {total} пользователей. Используйте поиск, чтобы найти остальных.",

@@ -11,7 +11,14 @@
                 "discussion_required": "Cần URL hoặc ID thảo luận để gửi phản hồi.",
                 "already_reported": "Bạn đã báo cáo phản hồi này rồi.",
                 "rate_limit_feedback": "Vui lòng đợi {seconds} giây trước khi gửi phản hồi tiếp theo.",
-                "rate_limit_report": "Vui lòng đợi {seconds} giây trước khi gửi báo cáo tiếp theo."
+                "rate_limit_report": "Vui lòng đợi {seconds} giây trước khi gửi báo cáo tiếp theo.",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "Chọn người dùng để gửi phản hồi",
                 "select_user_label": "Chọn người dùng",
                 "no_users_found": "Không tìm thấy người dùng nào khác trong thảo luận này",
+                "load_error": "",
                 "continue": "Tiếp tục",
                 "search_user_placeholder": "Tìm kiếm người dùng...",
                 "showing_limited_users": "Đang hiển thị {shown} trong số {total} người dùng. Hãy sử dụng tìm kiếm để tìm những người khác.",

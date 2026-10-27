@@ -18,6 +18,11 @@
                 "approval": "需审核",
                 "approval_required": "加入需审核",
                 "request_to_join": "申请加入",
+                "switch": "",
+                "request_switch": "",
+                "switch_confirm": "",
+                "request_switch_confirm": "",
+                "in_set": "",
                 "pending": "申请中…",
                 "featured": "精选",
                 "featured_heading": "精选社群",
@@ -47,7 +52,10 @@
             },
             "edit_modal": {
                 "title": "编辑社群",
-                "submit": "保存更改"
+                "submit": "保存更改",
+                "exclusive_set_label": "",
+                "exclusive_set_placeholder": "",
+                "exclusive_set_help": ""
             },
             "composer": {
                 "md_bold": "粗体",
@@ -296,6 +304,10 @@
                 "content_or_poll_required": "必须填写内容或添加投票。",
                 "title_too_long": "标题不能超过 255 个字符。",
                 "slug_conflict": "无法为此社群名称生成唯一的固定链接名，请尝试使用其他名称。",
+                "exclusive_conflict": "",
+                "exclusive_creator": "",
+                "exclusive_invite": "",
+                "exclusive_member_is_creator": "",
                 "invalid_file_type": "文件类型无效。允许的格式：jpg、jpeg、png、gif、webp。",
                 "analytics_forbidden": "只有社群管理员和论坛管理员可以查看统计数据。",
                 "invite_required_fields": "必须填写社群 ID 和用户名。",

@@ -11,7 +11,14 @@
                 "discussion_required": "URL atau ID diskusi diperlukan untuk memberikan feedback.",
                 "already_reported": "Anda telah melaporkan feedback ini.",
                 "rate_limit_feedback": "Silakan tunggu {seconds} detik sebelum mengirimkan feedback lainnya.",
-                "rate_limit_report": "Silakan tunggu {seconds} detik sebelum mengirimkan laporan lainnya."
+                "rate_limit_report": "Silakan tunggu {seconds} detik sebelum mengirimkan laporan lainnya.",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "Pilih pengguna untuk memberikan feedback",
                 "select_user_label": "Pilih Pengguna",
                 "no_users_found": "Tidak ada pengguna lain yang ditemukan dalam diskusi ini",
+                "load_error": "",
                 "continue": "Lanjutkan",
                 "search_user_placeholder": "Cari pengguna...",
                 "showing_limited_users": "Menampilkan {shown} dari {total} pengguna. Gunakan pencarian untuk menemukan yang lain.",

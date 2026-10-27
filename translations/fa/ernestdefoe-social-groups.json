@@ -18,6 +18,11 @@
                 "approval": "",
                 "approval_required": "",
                 "request_to_join": "",
+                "switch": "",
+                "request_switch": "",
+                "switch_confirm": "",
+                "request_switch_confirm": "",
+                "in_set": "",
                 "pending": "",
                 "featured": "",
                 "featured_heading": "",
@@ -45,7 +50,10 @@
             },
             "edit_modal": {
                 "title": "",
-                "submit": "ذخیره تغییرات"
+                "submit": "ذخیره تغییرات",
+                "exclusive_set_label": "",
+                "exclusive_set_placeholder": "",
+                "exclusive_set_help": ""
             },
             "composer": {
                 "md_bold": "",
@@ -271,7 +279,11 @@
                 "media_delete_denied": "",
                 "content_or_poll_required": "",
                 "title_too_long": "",
-                "slug_conflict": ""
+                "slug_conflict": "",
+                "exclusive_conflict": "",
+                "exclusive_creator": "",
+                "exclusive_invite": "",
+                "exclusive_member_is_creator": ""
             }
         },
         "admin": {

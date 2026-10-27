@@ -11,7 +11,14 @@
                 "discussion_required": "Geri bildirim için tartışma bağlantısı veya kimliği gereklidir.",
                 "already_reported": "Bu geri bildirimi zaten raporladınız.",
                 "rate_limit_feedback": "Yeni bir geri bildirim göndermeden önce lütfen {seconds} saniye bekleyin.",
-                "rate_limit_report": "Yeni bir rapor göndermeden önce lütfen {seconds} saniye bekleyin."
+                "rate_limit_report": "Yeni bir rapor göndermeden önce lütfen {seconds} saniye bekleyin.",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "Geri bildirim verilecek kullanıcıyı seçin",
                 "select_user_label": "Kullanıcı Seç",
                 "no_users_found": "Bu tartışmada başka kullanıcı bulunamadı",
+                "load_error": "",
                 "continue": "Devam Et",
                 "search_user_placeholder": "Kullanıcı ara...",
                 "showing_limited_users": "{total} kullanıcıdan {shown} tanesi gösteriliyor. Diğerleri için arama yapın.",

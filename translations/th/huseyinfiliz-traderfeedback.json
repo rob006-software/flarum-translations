@@ -11,7 +11,14 @@
                 "discussion_required": "จำเป็นต้องระบุ URL หรือ ID ของโพสต์",
                 "already_reported": "คุณได้รายงานความเห็นนี้แล้ว",
                 "rate_limit_feedback": "โปรดรอ {seconds} วินาทีก่อนส่งความเห็นอื่น",
-                "rate_limit_report": "โปรดรอ {seconds} วินาทีก่อนส่งรายงานอื่น"
+                "rate_limit_report": "โปรดรอ {seconds} วินาทีก่อนส่งรายงานอื่น",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "เลือกผู้ใช้เพื่อให้ความเห็น",
                 "select_user_label": "เลือกผู้ใช้",
                 "no_users_found": "ไม่พบผู้ใช้คนอื่น",
+                "load_error": "",
                 "continue": "ดำเนินการต่อ",
                 "search_user_placeholder": "ค้นหาผู้ใช้...",
                 "showing_limited_users": "แสดง {shown} จาก {total} ผู้ใช้ ใช้การค้นหาเพื่อหาคนอื่น",

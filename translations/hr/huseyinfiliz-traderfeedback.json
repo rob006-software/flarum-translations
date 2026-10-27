@@ -11,7 +11,14 @@
                 "discussion_required": "Za povratnu informaciju, obavezan je URL ili ID teme.",
                 "already_reported": "Ovu povratnu informaciju ste već prijavili.",
                 "rate_limit_feedback": "Pričekajte {seconds} sekundi prije nego što ostavite novu ocjenu.",
-                "rate_limit_report": "Pričekajte {seconds} sekundi prije nego što ponovno ocijenite."
+                "rate_limit_report": "Pričekajte {seconds} sekundi prije nego što ponovno ocijenite.",
+                "discussion_not_locked": "",
+                "discussion_tag_not_allowed": "",
+                "user_required": "",
+                "user_not_found": "",
+                "invalid_type": "",
+                "invalid_role": "",
+                "invalid_report_reason": ""
             }
         },
         "forum": {
@@ -149,6 +156,7 @@
                 "select_user_title": "Odaberi korisnika za povratnu informaciju",
                 "select_user_label": "Odaberi Korisnika",
                 "no_users_found": "Nije pronađen nijedan drugi korisnik u ovoj raspravi",
+                "load_error": "",
                 "continue": "Nastavi",
                 "search_user_placeholder": "Pretraži korisnike...",
                 "showing_limited_users": "Prikazano je {shown} od {total} korisnika. Koristi pretragu za pronalaženje ostalih.",

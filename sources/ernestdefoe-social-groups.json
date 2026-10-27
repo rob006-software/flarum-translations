@@ -18,6 +18,11 @@
                 "approval": "Approval",
                 "approval_required": "Approval required",
                 "request_to_join": "Request to Join",
+                "switch": "Switch to this group",
+                "request_switch": "Request to switch",
+                "switch_confirm": "You'll leave {from} and join {to}. Groups in the {set} set allow one membership at a time.",
+                "request_switch_confirm": "If your request is approved, you'll leave {from} and join {to}. Groups in the {set} set allow one membership at a time.",
+                "in_set": "One of the {set} set: members belong to one at a time.",
                 "pending": "Pending…",
                 "featured": "Featured",
                 "featured_heading": "Featured Groups",
@@ -45,7 +50,10 @@
             },
             "edit_modal": {
                 "title": "Edit Group",
-                "submit": "Save Changes"
+                "submit": "Save Changes",
+                "exclusive_set_label": "Exclusive set",
+                "exclusive_set_placeholder": "e.g. Houses",
+                "exclusive_set_help": "Groups with the same set name allow one membership between them: joining one means leaving the other. Leave empty for an ordinary group. Members already in two groups of a set keep both. Only forum admins see this."
             },
             "composer": {
                 "md_bold": "Bold",
@@ -271,7 +279,11 @@
                 "media_delete_denied": "You cannot delete this image.",
                 "content_or_poll_required": "Content or a poll is required.",
                 "title_too_long": "Title may not exceed 255 characters.",
-                "slug_conflict": "Could not generate a unique slug for this group name. Please try a different name."
+                "slug_conflict": "Could not generate a unique slug for this group name. Please try a different name.",
+                "exclusive_conflict": "You're already in {group}. Groups in the {set} set allow one membership at a time.",
+                "exclusive_creator": "You created {group}, which is in the same set, so you can't switch away from it.",
+                "exclusive_invite": "{username} is already in {group}, which is in the same set. They can switch themselves.",
+                "exclusive_member_is_creator": "They created {group}, which is in the same set, so they can't be moved out of it."
             }
         },
         "admin": {

@@ -18,6 +18,11 @@
                 "approval": "Cần duyệt",
                 "approval_required": "Cần được duyệt",
                 "request_to_join": "Xin tham gia",
+                "switch": "",
+                "request_switch": "",
+                "switch_confirm": "",
+                "request_switch_confirm": "",
+                "in_set": "",
                 "pending": "Đang chờ…",
                 "featured": "Nổi bật",
                 "featured_heading": "Nhóm nổi bật",
@@ -47,7 +52,10 @@
             },
             "edit_modal": {
                 "title": "Sửa nhóm",
-                "submit": "Lưu thay đổi"
+                "submit": "Lưu thay đổi",
+                "exclusive_set_label": "",
+                "exclusive_set_placeholder": "",
+                "exclusive_set_help": ""
             },
             "composer": {
                 "md_bold": "Chữ in đậm",
@@ -296,6 +304,10 @@
                 "content_or_poll_required": "Cần có nội dung hoặc một cuộc bình chọn.",
                 "title_too_long": "Tiêu đề không được vượt quá 255 ký tự.",
                 "slug_conflict": "Không tạo được slug duy nhất cho tên nhóm này. Vui lòng thử một tên khác.",
+                "exclusive_conflict": "",
+                "exclusive_creator": "",
+                "exclusive_invite": "",
+                "exclusive_member_is_creator": "",
                 "invalid_file_type": "Loại tệp không hợp lệ. Được phép: jpg, jpeg, png, gif, webp",
                 "analytics_forbidden": "Chỉ người kiểm duyệt nhóm và quản trị viên mới xem được dữ liệu phân tích.",
                 "invite_required_fields": "Bắt buộc phải có ID nhóm và tên người dùng.",
