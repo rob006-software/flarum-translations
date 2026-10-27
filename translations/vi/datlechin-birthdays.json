@@ -6,17 +6,69 @@
                 "view_birthday_label": "Xem sinh nhật"
             },
             "settings": {
+                "min_age_help": "Tuổi tối thiểu để đăng ký",
+                "min_age_label": "Tuổi tối thiểu",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
                 "required_label": "Bắt buộc nhập ngày sinh",
                 "required_help": "Bạn cần bật tùy chọn bên trên để tùy chọn này hoạt động",
-                "min_age_label": "Tuổi tối thiểu",
-                "min_age_help": "Tuổi tối thiểu để đăng ký",
                 "date_format_label": "Định dạng ngày sinh",
                 "date_format_help": "Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.",
                 "date_none_year_label": "Định dạng ngày sinh không có năm"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Sinh nhật hôm nay"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
+                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Sửa ngày sinh",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Hiển thị ngày tháng sinh",
+                "show_dob_year_label": "Hiển thị năm sinh",
+                "show_dob_year_help": "Cho phép mọi người có thể nhìn thấy tuổi của bạn."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Sinh nhật: {date}",
                 "age_text": "Tuổi: {age}"
@@ -26,28 +78,25 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Sửa ngày sinh",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Hiển thị ngày tháng sinh",
-                "show_dob_year_label": "Hiển thị năm sinh",
-                "show_dob_year_help": "Cho phép mọi người có thể nhìn thấy tuổi của bạn."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Sinh nhật hôm nay"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Cuộc thảo luận: #} other {Cuộc thảo luận: #}}",
-                "post_count": "{count, plural, one {Bài viết: #} other {Bài viết: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
             "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên.",
             "birthday_required_message": "Cần có ngày sinh."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Ngày sinh"

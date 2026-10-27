@@ -6,17 +6,69 @@
                 "view_birthday_label": "Geburtstag ansehen"
             },
             "settings": {
+                "min_age_help": "Mindestalter für die Registrierung",
+                "min_age_label": "Mindestalter",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben",
                 "required_label": "Erforderliche Eingabe von Geburtstagen",
                 "required_help": "Du musst die Option Bei Registrierung festlegen aktivieren, damit diese Option funktioniert",
-                "min_age_label": "Mindestalter",
-                "min_age_help": "Mindestalter für die Registrierung",
                 "date_format_label": "Datumsformat",
                 "date_format_help": "Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.",
                 "date_none_year_label": "Datumsformat ohne Jahr"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Heutige Geburtstage"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Diskussion: #} other {Diskussionen: #}}",
+                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Geburtsdatum ändern",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Geburtstag und Monat anzeigen",
+                "show_dob_year_label": "Geburtsjahr anzeigen",
+                "show_dob_year_help": "Dadurch können die Leute Dein Alter sehen."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Geburtstag: {date}",
                 "age_text": "{age} Jahre alt"
@@ -26,28 +78,25 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Geburtsdatum ändern",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Geburtstag und Monat anzeigen",
-                "show_dob_year_label": "Geburtsjahr anzeigen",
-                "show_dob_year_help": "Dadurch können die Leute Dein Alter sehen."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Heutige Geburtstage"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Diskussion: #} other {Diskussionen: #}}",
-                "post_count": "{count, plural, one {Beitrag: #} other {Beiträge: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Ungültiges Geburtsdatum",
             "invalid_age_message": "Dein Alter muss mindestens {minAge} Jahre betragen.",
             "birthday_required_message": "Das Geburtsdatum ist erforderlich."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Geburtsdatum"

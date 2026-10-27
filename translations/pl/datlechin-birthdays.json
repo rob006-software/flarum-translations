@@ -6,17 +6,69 @@
                 "view_birthday_label": "Wyświetlanie urodzin"
             },
             "settings": {
+                "min_age_help": "Minimalny wiek do rejestracji",
+                "min_age_label": "Minimalny wiek",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Zezwól na ustawianie daty urodzenia podczas rejestracji",
                 "required_label": "Wymagaj podania daty urodzenia",
                 "required_help": "Aby ta opcja działała, musisz pozwolić na ustawianie daty urodzenia podczas rejestracji",
-                "min_age_label": "Minimalny wiek",
-                "min_age_help": "Minimalny wiek do rejestracji",
                 "date_format_label": "Format daty",
                 "date_format_help": "Użyj formatu daty <a>dayjs</a>. Pozostaw puste, aby użyć domyślnego formatu.",
                 "date_none_year_label": "Format daty bez roku"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Dzisiejsze urodziny"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Dyskusje: #} other {Dyskusje: #}}",
+                "post_count": "{count, plural, one {Posty: #} other {Posty: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Zmień datę urodzenia",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Pokaż dzień i miesiąc urodzin",
+                "show_dob_year_label": "Pokaż rok urodzenia",
+                "show_dob_year_help": "Pozwoli to ludziom zobaczyć Twój wiek."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Urodziny: {date}",
                 "age_text": "Wiek: {age}"
@@ -26,28 +78,24 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Zmień datę urodzenia",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Pokaż dzień i miesiąc urodzin",
-                "show_dob_year_label": "Pokaż rok urodzenia",
-                "show_dob_year_help": "Pozwoli to ludziom zobaczyć Twój wiek."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Dzisiejsze urodziny"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Dyskusje: #} other {Dyskusje: #}}",
-                "post_count": "{count, plural, one {Posty: #} other {Posty: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Nieprawidłowa data urodzenia",
-            "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}.",
-            "birthday_required_message": ""
+            "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Data urodzenia"
