@@ -311,7 +311,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-parley' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.10.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.11.0/locale/en.yml',
 	],
 	'ernestdefoe-phrasebook' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.0/locale/en.yml',
