@@ -1276,9 +1276,7 @@ return [
 	],
 	'piwind-username-request' => [
 		'tag' => 'https://raw.githubusercontent.com/piwind/username-request/v1.3.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
