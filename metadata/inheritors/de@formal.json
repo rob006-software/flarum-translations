@@ -2536,9 +2536,9 @@
         "datlechin-link-preview": {
             "admin": {
                 "sections": {
-                    "appearance_description": "3460ec9f49e4a3971ec13d73bc95a297 3460ec9f49e4a3971ec13d73bc95a297",
+                    "appearance_description": "a284025f9a929dbdfcde218fa1101631 a284025f9a929dbdfcde218fa1101631",
                     "appearance_label": "fc046794f634c3ce35bb219f61e666c5 fc046794f634c3ce35bb219f61e666c5",
-                    "behaviour_description": "6068eeecd26e3153a877fdf64da127bc 6068eeecd26e3153a877fdf64da127bc",
+                    "behaviour_description": "e08656fba3768c345497967e54217e83 e08656fba3768c345497967e54217e83",
                     "behaviour_label": "5bb84a9cf009b2573b4c52b4705fa3ea 5bb84a9cf009b2573b4c52b4705fa3ea",
                     "external_api_description": "c49e0c9b7c1ae6bb90add37fa0775903 c49e0c9b7c1ae6bb90add37fa0775903",
                     "external_api_label": "be5ef315e5d4ec01f9413baeb1a73681 be5ef315e5d4ec01f9413baeb1a73681",
@@ -10818,6 +10818,41 @@
             "turnstile": "ca1a4487d7dd8a8e2dac6fa1a0a77744 ca1a4487d7dd8a8e2dac6fa1a0a77744"
         }
     },
+    "floxum-payments.json": {
+        "floxum-payments": {
+            "forum": {
+                "access-portal": {
+                    "options": "4f0743eb62a0a3051fa04b15ffe11360 4f0743eb62a0a3051fa04b15ffe11360"
+                },
+                "backers-widget": {
+                    "backers": "b8ce13a30548d7f1f25133a877b6d79e b8ce13a30548d7f1f25133a877b6d79e",
+                    "none": "fcade7d78e879a170b69eea56d26bc6d fcade7d78e879a170b69eea56d26bc6d"
+                },
+                "bounties": {
+                    "enable-control": "caf24eba2ab0b20c530dd7d2e80de804 caf24eba2ab0b20c530dd7d2e80de804",
+                    "purchase-control": "733be2a6a00cbd04063ca24c0ca3dcde 733be2a6a00cbd04063ca24c0ca3dcde"
+                },
+                "choose-bounty-amount-modal": {
+                    "checkout-control": "8e8b76267783167f405d021495c0ce6d 8e8b76267783167f405d021495c0ce6d",
+                    "title": "3a98c0f3b9ee5ea7704f180e9f741a81 3a98c0f3b9ee5ea7704f180e9f741a81"
+                },
+                "nav": {
+                    "access_portal": "3f007f669bfbaf7313165ccc5ffbf8a0 3f007f669bfbaf7313165ccc5ffbf8a0",
+                    "user_subscriptions": "35ec4bb88279e94717311ad558417e48 35ec4bb88279e94717311ad558417e48"
+                },
+                "pay-to-view": {
+                    "purchase-completed": "0b4f6d0d0b11f27b4e0f7b3012b913dd 0b4f6d0d0b11f27b4e0f7b3012b913dd"
+                },
+                "stripe": {
+                    "interval_once": "c28413cba796e3344088c618f20cecfe c28413cba796e3344088c618f20cecfe"
+                },
+                "subscription-card": {
+                    "bounty": "e874610aaffeec5fb65aab5f81befd6d e874610aaffeec5fb65aab5f81befd6d",
+                    "cancel-control": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7"
+                }
+            }
+        }
+    },
     "fof-amazon-affiliation.json": {
         "fof-amazon-affiliation": {
             "admin": {
@@ -18745,8 +18780,11 @@
                 },
                 "settings": {
                     "active_year_label": "07f5508d364e8f3931404a9b1a78f8c5 07f5508d364e8f3931404a9b1a78f8c5",
+                    "automatic_community_help": "4d3c9c106842fc333b6a13191b0b67c5 4d3c9c106842fc333b6a13191b0b67c5",
+                    "automatic_community_label": "efc5bf830de9d3fc0d13265466cd3fe2 efc5bf830de9d3fc0d13265466cd3fe2",
+                    "automatic_year_help": "762954eafd38f96e72f1d0eeea67454b 762954eafd38f96e72f1d0eeea67454b",
                     "automatic_year_label": "e8bbf0e0707d59de6190a38c1556cd3a e8bbf0e0707d59de6190a38c1556cd3a",
-                    "community_comparison_help": "52664364d52ec6f549d12c87f980ed23 52664364d52ec6f549d12c87f980ed23",
+                    "community_comparison_help": "d743b1fa8667067583d68cfa2a9ac528 d743b1fa8667067583d68cfa2a9ac528",
                     "community_comparison_label": "fe9b119b6819ce25f95a74ec95d6661d fe9b119b6819ce25f95a74ec95d6661d",
                     "community_slide_badge_leaderboard": "9e2f4218f70f798a9888460a3365d0a2 9e2f4218f70f798a9888460a3365d0a2",
                     "community_slide_best_answers_leaderboard": "9c6f768509d19ddeaafbda6ffc922577 9c6f768509d19ddeaafbda6ffc922577",
@@ -18776,6 +18814,9 @@
                     "invalid_active_year": "270a9e81a876a8e1a90275b506487490 270a9e81a876a8e1a90275b506487490",
                     "public_content_only_help": "8fba6ab129b52ffec1816f08c1d4a1cc 8fba6ab129b52ffec1816f08c1d4a1cc",
                     "public_content_only_label": "3b5ffc51fa9ae183bd3f4d85c31b2c80 3b5ffc51fa9ae183bd3f4d85c31b2c80",
+                    "regenerate_users_button": "955f19568c8748701e36f79ac741ba74 955f19568c8748701e36f79ac741ba74",
+                    "regenerate_users_help": "7953c595959190a163d09eb4f2c91fa9 7953c595959190a163d09eb4f2c91fa9",
+                    "regenerate_users_title": "7b2d5a5a99a467c5247af8a9bee4f497 7b2d5a5a99a467c5247af8a9bee4f497",
                     "render_mode_blade": "328020b82e4e53054e007d485b88667f 328020b82e4e53054e007d485b88667f",
                     "render_mode_slideshow": "cb8b4942a7db39d2600419ba83989f25 cb8b4942a7db39d2600419ba83989f25",
                     "section_achievements": "ce71644b3b27d7a90dd90234e13f6dfd ce71644b3b27d7a90dd90234e13f6dfd",
@@ -18862,6 +18903,7 @@
                     "no_activity": "4ff818564519e41cee8f2e33db180d55 4ff818564519e41cee8f2e33db180d55",
                     "not_generated": "07e746c873e58d074ccb3275d98e6c2e 07e746c873e58d074ccb3275d98e6c2e",
                     "post_count_label": "a3a4301617c9322f69d07454a162d313 a3a4301617c9322f69d07454a162d313",
+                    "preparing": "21fadebcf7ab0263cdb340ffa4ca2810 21fadebcf7ab0263cdb340ffa4ca2810",
                     "regenerate": "7d2958ea4b2f718cd0fa9e7cf511fedb 7d2958ea4b2f718cd0fa9e7cf511fedb",
                     "regenerate_confirm": "94f32fec8a4422c0f04ca3997d3ed131 94f32fec8a4422c0f04ca3997d3ed131",
                     "regenerate_short": "02e14d8e9af0cc2623c8425e7104bcdb 02e14d8e9af0cc2623c8425e7104bcdb",
