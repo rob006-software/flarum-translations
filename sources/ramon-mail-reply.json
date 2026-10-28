@@ -17,6 +17,7 @@
                 "webhook_secret_label": "Webhook shared secret",
                 "webhook_secret_help": "Required header X-Mail-Reply-Token in POST /api/mail-reply/inbound. Generate with: openssl rand -hex 32",
                 "secret_placeholder": "[set the secret above]",
+                "secret_saved_placeholder": "Secret saved — type to replace",
                 "providers_help": "Configure the provider to POST directly to the endpoint — no script.",
                 "providers_url_label": "Webhook URL:",
                 "providers_header_label": "Required header:",
@@ -96,6 +97,7 @@
                 "check_imap_library": "webklex/php-imap installed",
                 "check_imap": "IMAP server and login",
                 "check_webhook_auth": "Webhook secret or Mailgun key",
+                "check_secrets": "Stored secrets readable (re-enter the HMAC key, IMAP password or Mailgun key)",
                 "status_refresh": "Refresh",
                 "status_error": "Could not load the inbound status.",
                 "status_retry": "Try again",
@@ -118,12 +120,14 @@
                 "reason_invalid_address": "Alias missing, malformed or with an invalid signature",
                 "reason_unknown_user": "The alias points to a user that no longer exists",
                 "reason_sender_mismatch": "Sent from an address other than the account email",
+                "reason_sender_unauthenticated": "The receiving server reported a DMARC failure (forged From)",
                 "reason_discussion_unavailable": "Discussion deleted or no longer visible to the user",
                 "reason_private_discussion": "Discussion is not public",
                 "reason_not_allowed": "User may no longer reply to the discussion",
                 "reason_rate_limited": "Hourly reply limit reached",
                 "reason_empty_body": "No new text above the quoted message",
                 "reason_too_long": "Longer than the maximum post length",
+                "reason_validation": "Refused by the forum's content rules (another extension)",
                 "reason_duplicate": "Same message already received",
                 "reason_auto_submitted": "Automatic message (Auto-Submitted header)",
                 "reason_auto_reply_header": "Auto-reply header (out of office, vacation)",
@@ -164,6 +168,7 @@
                 "webhook_script_needs_secret": "Set or generate the webhook secret to get a ready-to-use script.",
                 "webhook_script_view": "View script",
                 "webhook_install_step1": "SSH into the mail server and paste the script into",
+                "webhook_install_step2": "to the user the mail server runs the pipe as (the cPanel account, the domain owner on DirectAdmin). The script holds the webhook secret: keep it unreadable to other accounts.",
                 "webhook_install_step3": "In DirectAdmin, Forwarders → reply@domain → Pipe:",
                 "webhook_install_step4": "Test with a mention. Watch <log>/var/log/exim/mainlog</log> and expect <expect>T=virtual_address_pipe ... Completed</expect>."
             }
@@ -178,6 +183,7 @@
                 "reason_rate_limited": "You reached the hourly limit of replies by email. Please wait a while or reply on the forum.",
                 "reason_empty_body": "We could not find any new text above the quoted message.",
                 "reason_too_long": "The reply is longer than the maximum post length.",
+                "reason_validation": "The forum's content rules refused the reply.",
                 "footer": "Original subject: {subject}. You can reply directly on the forum."
             }
         },

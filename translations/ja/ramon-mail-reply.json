@@ -17,6 +17,7 @@
                 "webhook_secret_label": "",
                 "webhook_secret_help": "",
                 "secret_placeholder": "",
+                "secret_saved_placeholder": "",
                 "providers_help": "",
                 "providers_url_label": "",
                 "providers_header_label": "",
@@ -96,6 +97,7 @@
                 "check_imap_library": "",
                 "check_imap": "",
                 "check_webhook_auth": "",
+                "check_secrets": "",
                 "status_refresh": "",
                 "status_error": "",
                 "status_retry": "",
@@ -118,12 +120,14 @@
                 "reason_invalid_address": "",
                 "reason_unknown_user": "",
                 "reason_sender_mismatch": "",
+                "reason_sender_unauthenticated": "",
                 "reason_discussion_unavailable": "",
                 "reason_private_discussion": "",
                 "reason_not_allowed": "",
                 "reason_rate_limited": "",
                 "reason_empty_body": "",
                 "reason_too_long": "",
+                "reason_validation": "",
                 "reason_duplicate": "",
                 "reason_auto_submitted": "",
                 "reason_auto_reply_header": "",
@@ -164,6 +168,7 @@
                 "webhook_script_needs_secret": "",
                 "webhook_script_view": "",
                 "webhook_install_step1": "",
+                "webhook_install_step2": "",
                 "webhook_install_step3": "",
                 "webhook_install_step4": ""
             }
@@ -178,6 +183,7 @@
                 "reason_rate_limited": "",
                 "reason_empty_body": "",
                 "reason_too_long": "",
+                "reason_validation": "",
                 "footer": ""
             }
         },
