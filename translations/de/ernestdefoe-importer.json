@@ -17,6 +17,9 @@
             "username": "Datenbank-Benutzername",
             "password": "Datenbank-Passwort",
             "prefix": "Tabellenpräfix",
+            "assets_base": "",
+            "files_path": "",
+            "files_help": "",
             "test": "Verbindung testen",
             "start": "Import starten",
             "test_ok": "Verbunden. Das wurde gefunden:",
@@ -29,6 +32,8 @@
             "failed": "Import fehlgeschlagen",
             "shared_note": "Wird in kleinen Chargen direkt über deinen Browser ausgeführt – es sind weder ein Queue-Worker noch SSH erforderlich, sodass es auch auf Shared-Hosting-Servern funktioniert. Lasse diesen Tab geöffnet; sollte der Vorgang unterbrochen werden, öffne diese Seite einfach erneut, und der Vorgang wird an der Stelle fortgesetzt, an der er unterbrochen wurde.",
             "import_another": "Weiterer Import",
+            "resume": "",
+            "resume_help": "",
             "sync": {
                 "title": "",
                 "messages_only_intro": "",
@@ -80,7 +85,22 @@
                 "posts": "Beiträge",
                 "skipped": "Übersprungen",
                 "edited": "",
-                "kept": ""
+                "kept": "",
+                "polls": "",
+                "poll_votes": "",
+                "polls_skipped": "",
+                "groups_created": "",
+                "groups_mapped": "",
+                "groups_skipped": "",
+                "group_members": "",
+                "avatars": "",
+                "avatars_missing": "",
+                "birthdays": "",
+                "birthdays_skipped": "",
+                "attachments": "",
+                "attachments_missing": "",
+                "empty_removed": "",
+                "pruned_tags": ""
             },
             "starting": "Starten…"
         },
@@ -102,10 +122,36 @@
                 "needs_upload": "",
                 "summary": ""
             },
+            "resume": {
+                "unavailable": ""
+            },
             "pm": {
                 "summary": "",
                 "groups_skipped": "",
                 "unavailable": ""
+            },
+            "polls": {
+                "summary": "",
+                "skipped": "",
+                "unavailable": ""
+            },
+            "extras": {
+                "groups": "",
+                "groups_skipped": "",
+                "group_reason": {
+                    "banned": "",
+                    "pending": "",
+                    "bots": "",
+                    "automatic": "",
+                    "ranks": "",
+                    "permissions": ""
+                },
+                "avatars": "",
+                "avatars_missing": "",
+                "birthdays": "",
+                "birthdays_skipped": "",
+                "attachments": "",
+                "attachments_missing": ""
             },
             "summary": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder importiert.",
             "summary_with_tags": "{topics} Diskussionen, {posts} Beiträge, {users} Mitglieder, {categories} Tags importiert.",
@@ -167,7 +213,11 @@
                 "sync": "",
                 "avatars": "",
                 "prune_tags": "",
-                "messages": ""
+                "messages": "",
+                "polls": "",
+                "groups": "",
+                "group_members": "",
+                "profiles": ""
             }
         }
     }

@@ -3,11 +3,11 @@
         "admin": {
             "errors": {
                 "generic": "Algo salió mal. Inténtelo de nuevo.",
+                "confirm_default": "Confirmar",
+                "cancel_default": "Cancelar",
                 "boundary_title": "No se pudo cargar esta sección.",
                 "boundary_body": "Ocurrió un error inesperado. El resto del panel sigue funcionando; intente reintentar o recargue la página si el problema persiste.",
-                "boundary_retry": "Reintentar",
-                "confirm_default": "Confirmar",
-                "cancel_default": "Cancelar"
+                "boundary_retry": "Reintentar"
             },
             "permissions": {
                 "manage_label": "Gestionar copias de seguridad"
@@ -126,6 +126,7 @@
                 "encryption_help": "Utiliza cifrado híbrido libsodium. El cuerpo se cifra con una clave simétrica por archivo, que luego se sella con una clave pública.",
                 "encryption_external": "Cifrar con una clave pública diferente (para transferencia)",
                 "encryption_external_help": "Pegue la clave pública del servidor de destino. Útil al preparar una copia de seguridad para restaurarla en un servidor externo sin compartir claves privadas.",
+                "encryption_external_placeholder": "",
                 "start_button": "Iniciar copia de seguridad",
                 "start_failed": "No se pudo iniciar la exportación.",
                 "cancel_button": "Cancelar",
@@ -178,6 +179,7 @@
                 "key_title": "Clave privada",
                 "key_help": "Este archivo está cifrado. Pegue la clave privada base64 correspondiente; permanecerá en esta sesión del navegador y se enviará UNA SOLA VEZ al servidor para la restauración.",
                 "key_hint_local": "Déjelo en blanco para usar la clave privada configurada en el config.php de este servidor.",
+                "key_placeholder": "",
                 "confirm_title": "Reemplazar datos existentes",
                 "confirm_body": "Las tablas del archivo reemplazan a las tablas de aquí. Los archivos se escribirán en sus rutas originales.",
                 "confirm_check": "Entendido. Reemplazar mis datos actuales con esta copia de seguridad.",
@@ -187,11 +189,10 @@
                 "cancel_failed_warn": "Se cerró el cuadro de diálogo, pero el servidor aún podría estar aplicando cambios. Verifique el estado del servidor antes de reintentar.",
                 "close_button": "Cerrar",
                 "completed": "Restauración completada.",
-                "reload_required": "Los datos del foro se han reemplazado. Recargue la página para continuar con una nueva sesión; es posible que su sesión anterior también haya sido sustituida.",
-                "reload_button": "Recargar página",
                 "done_title": "Restauración completada",
                 "done_body": "Todos los archivos seleccionados han sido restaurados. La base de datos no se modificó, por lo que su sesión actual no ha cambiado.",
                 "incomplete_title": "Restauración incompleta",
+                "notes_title": "",
                 "incomplete_body": "La restauración se ejecutó hasta el final, pero no todo lo seleccionado se escribió correctamente. Revise los detalles a continuación antes de considerar esta migración como terminada.",
                 "logout_title": "Ha cerrado sesión",
                 "logout_body": "Restaurar la base de datos reemplazó las tablas `users` y `sessions` de este servidor, por lo que la cuenta con la que inició sesión ya no existe aquí. Inicie sesión nuevamente con las credenciales del foro importado para continuar.",
@@ -208,7 +209,95 @@
                 "phase_done": "Hecho",
                 "phase_error": "Error",
                 "phase_error_network": "Se perdió la conexión con el servidor durante la restauración. Es posible que el servidor aún esté escribiendo datos; espere un momento y verifique el estado de la base de datos antes de reintentar.",
-                "url_rewrite_note": "Las URL en la base de datos que hacen referencia al servidor de origen se reescribirán automáticamente con la URL de este servidor."
+                "url_rewrite_note": "Las URL en la base de datos que hacen referencia al servidor de origen se reescribirán automáticamente con la URL de este servidor.",
+                "reload_required": "Los datos del foro se han reemplazado. Recargue la página para continuar con una nueva sesión; es posible que su sesión anterior también haya sido sustituida.",
+                "reload_button": "Recargar página"
+            }
+        },
+        "api": {
+            "error": "",
+            "for_example": "",
+            "export": {
+                "preparing": "",
+                "scanning": "",
+                "dumping": "",
+                "dumping_table": "",
+                "rows": "",
+                "rows_of": "",
+                "dump_complete": "",
+                "bundling": "",
+                "bundling_files": "",
+                "finalising": "",
+                "complete": "",
+                "file_changed": ""
+            },
+            "import": {
+                "inspecting": "",
+                "extracting": "",
+                "extracting_entries": "",
+                "reconciling": "",
+                "restoring": "",
+                "restoring_percent": "",
+                "restored": "",
+                "rewriting": "",
+                "rewrote_url": "",
+                "skipping_rewrite": "",
+                "complete": "",
+                "finished_dangling": "",
+                "finished_unwritable": "",
+                "finished_unresolved": "",
+                "reconcile_failed": "",
+                "preserved_reapply_failed": "",
+                "preserved_restored": "",
+                "boot_at_risk": "",
+                "unwritable_destination": "",
+                "incomplete_unresolved": "",
+                "incomplete_unwritable": "",
+                "mkdir_failed": "",
+                "fopen_failed": ""
+            },
+            "project": {
+                "incoming_invalid_json": "",
+                "local_invalid_json": "",
+                "encode_failed": "",
+                "write_failed": "",
+                "merged": "",
+                "fresh_manifest": "",
+                "only_here": "",
+                "only_there": "",
+                "extend_write_failed": "",
+                "extend_replaced": ""
+            },
+            "stack": {
+                "php_too_old": "",
+                "missing_extensions": "",
+                "composer_update": ""
+            },
+            "errors": {
+                "invalid_job": "",
+                "export_not_found": "",
+                "import_not_found": "",
+                "backup_not_found": "",
+                "file_unavailable": "",
+                "no_libsodium": "",
+                "acknowledge_loss": "",
+                "confirm_replace": "",
+                "bad_extension": "",
+                "empty_upload": "",
+                "upload_too_large": "",
+                "staging_not_writable": "",
+                "staging_create_failed": "",
+                "upload_not_initialised": "",
+                "upload_gone": "",
+                "upload_incomplete": "",
+                "invalid_archive": "",
+                "bad_offset_header": "",
+                "offset_out_of_range": "",
+                "seek_failed": "",
+                "open_staging_failed": "",
+                "chunk_too_large": "",
+                "chunk_past_end": "",
+                "write_failed": ""
             }
         }
     }

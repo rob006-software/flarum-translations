@@ -1,6 +1,7 @@
 {
     "edgeinfinity-diy-homepage": {
         "forum": {
+            "guest": "Guest",
             "home": "Home",
             "community": "OUR COMMUNITY",
             "sidebar": "Community widgets",
@@ -40,6 +41,10 @@
                 "login": "Log in"
             },
             "widgets": {
+                "divider": {
+                    "name": "Divider / spacer",
+                    "title": "Section"
+                },
                 "banner": {
                     "name": "Banner",
                     "title": "Welcome"
@@ -79,6 +84,34 @@
             }
         },
         "admin": {
+            "home_mode": "Forum root homepage",
+            "home_modes": {
+                "enabled": "Enabled (everyone)",
+                "disabled": "Disabled",
+                "guests": "Guests only"
+            },
+            "variables": "Text variables",
+            "variables_help": "Use the variables below in widget titles, subtitles, text blocks, button labels, image captions/alt text, search placeholders, statistics labels and page banner text. Username and display name become Guest for visitors. Values render as plain text, once; unknown variables are preserved. URLs, queries, styles, navigation labels and third-party widgets are not expanded.",
+            "variables_defaults": "Defaults use a double-quoted JSON string after a comma. They apply only when a known value is missing or empty; an empty string is allowed. Existing variables without defaults retain their behavior. Unknown names or malformed syntax remain unchanged. Defaults are plain text and are not expanded again.",
+            "variables_escape": "Double the braces to display a variable literally, for example:",
+            "button_style": "Button color",
+            "button_styles": {
+                "auto": "Automatic (existing appearance)",
+                "primary": "Primary",
+                "secondary": "Secondary"
+            },
+            "button_style_help": "Automatic preserves the first banner button as primary and all existing link styles. An explicit choice is kept when buttons are reordered.",
+            "no_bottom_padding": "Remove bottom content padding",
+            "no_bottom_margin": "Remove spacing after this widget",
+            "spacing_help": "Both are off by default. Padding controls the bottom of the content surface; spacing controls the gap to the next widget in the same region. Provider content must use a standard FoF content wrapper for its padding to be controlled.",
+            "stats_font_number": "Statistics numbers",
+            "stats_font_label": "Statistics labels",
+            "font_size": "Font size (px)",
+            "font_family": "Font family",
+            "font_weight": "Font weight",
+            "font_normal": "Normal",
+            "font_bold": "Bold",
+            "stats_font_help": "Blank keeps the existing appearance: numbers 17px/650, labels 12px/normal. Set each independently (8–120px). Font families must already be available on the site or device; no font is downloaded.",
             "intro": "Build a homepage from reusable widgets. Save your changes, then open the homepage to review them.",
             "nav_label": "Navigation label",
             "load_mode": "Data loading on the first home page visit",
@@ -117,7 +150,7 @@
             "hero_show_icon": "Show an icon before the page banner heading",
             "hero_icon_help": "An image takes priority over icon classes; leave both blank for no icon.",
             "guest_home": "Show this homepage at / for guests",
-            "routes_help": "Guests use /all for discussions when enabled. /home always opens this homepage. Members keep the forum’s configured default route.",
+            "routes_help": "Enabled opens DIY Homepage at / for everyone; Guests only does so for visitors. Disabled keeps the forum default (falls back to /all if that default is /home). /home remains available in every mode. Existing sites keep their previous behavior.",
             "sticky_sidebar": "Keep the right column visible while scrolling on desktop",
             "widget_settings": "Widget settings",
             "widget_type": "Widget type",
@@ -136,7 +169,7 @@
                 "top": "Spans the main and right columns. The forum’s left navigation stays in place.",
                 "main": "The central stream, in the order shown below.",
                 "sidebar": "Uses the same sidebar width as the discussion index. Stacks below on small screens.",
-                "configOnly": "Configure widgets for FoF without displaying them anywhere on the homepage. Duplicate a homepage widget here to give FoF its own content and appearance."
+                "configOnly": "Keep reusable instances off this homepage. With Friends of Flarum Widgets enabled, they can be placed on other forum pages through its widget store."
             },
             "empty_region": "No widgets in this region.",
             "region": "Region",
@@ -164,8 +197,10 @@
             "invalid_config": "Use version 1, up to 50 widgets, unique IDs and valid regions and audiences.",
             "unavailable_type": "The extension providing this widget is unavailable. Its configuration is preserved.",
             "choose_fof": "Choose a registered FoF widget…",
-            "bridge_help": "Enabled native widgets, including the Configuration only region, appear in the FoF widget store. Each instance keeps its own content and heading style. Duplicate a widget into Configuration only to customize FoF independently of the homepage. Audience restrictions still apply; disabled widgets and imported FoF widgets are not exported.",
+            "bridge_help": "With the optional Friends of Flarum Widgets extension enabled, native instances also appear in its widget store and can be placed on other forum pages. Configuration only keeps an instance off this homepage. Audience and enabled settings still apply.",
             "fields": {
+                "dividerStyle": "Divider style",
+                "height": "Content height (px)",
                 "eyebrow": "Eyebrow / small label",
                 "text": "Text",
                 "imageUrl": "Image URL",
@@ -197,6 +232,8 @@
                 "showExcerpt": "Independent of featuring the first discussion; disabling hides all excerpts. With FoF Synopsis enabled, ordinary excerpts retain its content, tag settings and user display preferences."
             },
             "options": {
+                "line": "Horizontal line",
+                "blank": "Blank space",
                 "latest": "Latest activity",
                 "newest": "Newest first",
                 "replies": "Most replies",
@@ -212,13 +249,13 @@
             "radius_help": "Leave blank to follow Flarum’s Start a Discussion button. Zero gives square corners. Applies to native surfaces and standard FoF content wrappers.",
             "emphasized_titles": "Emphasize widget headings",
             "title_style": "This widget's heading style",
-            "title_style_help": "Increase contrast for an individual heading without changing other widgets. Standard imported FoF headings also support this choice.",
+            "title_style_help": "Choose the standard or emphasized heading style. Imported third-party widgets keep their own heading content; only their standard heading style can be changed here.",
             "title_styles": {
                 "inherit": "Use page appearance",
-                "fof": "FoF default",
+                "fof": "Standard",
                 "emphasized": "Emphasized"
             },
-            "emphasized_help": "Off: FoF’s normal heading style. On: larger headings and colored icons, also applied to imported FoF headings.",
+            "emphasized_help": "Off: standard widget headings. On: larger headings and colored icons, also applied to standard imported headings.",
             "icon_image": "Icon image URL (overrides icon classes)",
             "show_icon": "Show a leading icon",
             "show_heading": "Show the widget heading",
@@ -246,6 +283,7 @@
             "post_type": "Registered post type (e.g. comment, discussionRenamed)",
             "tag_slug": "Tag slug (requires Flarum Tags)",
             "groups": {
+                "spacing": "Spacing",
                 "loading": "Loading and placeholders",
                 "hero": "Page banner",
                 "appearance": "Page appearance",

@@ -1,6 +1,7 @@
 {
     "edgeinfinity-diy-homepage": {
         "forum": {
+            "guest": "",
             "home": "Inicio",
             "community": "NUESTRA COMUNIDAD",
             "sidebar": "Widgets de la comunidad",
@@ -40,6 +41,10 @@
                 "login": "Iniciar sesión"
             },
             "widgets": {
+                "divider": {
+                    "name": "",
+                    "title": ""
+                },
                 "banner": {
                     "name": "Banner",
                     "title": "Bienvenido"
@@ -79,6 +84,34 @@
             }
         },
         "admin": {
+            "home_mode": "",
+            "home_modes": {
+                "enabled": "",
+                "disabled": "",
+                "guests": ""
+            },
+            "variables": "",
+            "variables_help": "",
+            "variables_defaults": "",
+            "variables_escape": "",
+            "button_style": "",
+            "button_styles": {
+                "auto": "",
+                "primary": "",
+                "secondary": ""
+            },
+            "button_style_help": "",
+            "no_bottom_padding": "",
+            "no_bottom_margin": "",
+            "spacing_help": "",
+            "stats_font_number": "",
+            "stats_font_label": "",
+            "font_size": "",
+            "font_family": "",
+            "font_weight": "",
+            "font_normal": "",
+            "font_bold": "",
+            "stats_font_help": "",
             "intro": "Cree una página de inicio con widgets reutilizables. Guarde los cambios y luego abra la página de inicio para revisarlos.",
             "nav_label": "Etiqueta de navegación",
             "load_mode": "Carga de datos en la primera visita a la página de inicio",
@@ -166,6 +199,8 @@
             "choose_fof": "Seleccione un widget FoF registrado…",
             "bridge_help": "Cuando FoF Widgets Core está habilitado, los widgets nativos configurados para la página de inicio también aparecen en su tienda de widgets. Colocarlos allí no modifica este diseño. Los widgets FoF importados no se vuelven a exportar.",
             "fields": {
+                "dividerStyle": "",
+                "height": "",
                 "eyebrow": "Título pequeño / antetítulo",
                 "text": "Texto",
                 "imageUrl": "URL de la imagen",
@@ -197,6 +232,8 @@
                 "showExcerpt": "Independiente de destacar la primera discusión; si se deshabilita, se ocultan todos los extractos. Con FoF Synopsis habilitado, los extractos normales conservan su contenido, ajustes de etiqueta y preferencias de visualización del usuario."
             },
             "options": {
+                "line": "",
+                "blank": "",
                 "latest": "Última actividad",
                 "newest": "Más recientes primero",
                 "replies": "Más respuestas",
@@ -246,6 +283,7 @@
             "post_type": "Tipo de publicación registrada (p. ej. comment, discussionRenamed)",
             "tag_slug": "Slug de la etiqueta (requiere Flarum Tags)",
             "groups": {
+                "spacing": "",
                 "loading": "Carga y marcadores de posición",
                 "hero": "Banner principal de la página",
                 "appearance": "Apariencia de la página",

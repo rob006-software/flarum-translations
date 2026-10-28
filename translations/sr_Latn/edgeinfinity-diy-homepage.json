@@ -1,6 +1,7 @@
 {
     "edgeinfinity-diy-homepage": {
         "forum": {
+            "guest": "",
             "home": "",
             "community": "",
             "sidebar": "",
@@ -40,6 +41,10 @@
                 "login": ""
             },
             "widgets": {
+                "divider": {
+                    "name": "",
+                    "title": ""
+                },
                 "banner": {
                     "name": "",
                     "title": ""
@@ -79,6 +84,34 @@
             }
         },
         "admin": {
+            "home_mode": "",
+            "home_modes": {
+                "enabled": "",
+                "disabled": "",
+                "guests": ""
+            },
+            "variables": "",
+            "variables_help": "",
+            "variables_defaults": "",
+            "variables_escape": "",
+            "button_style": "",
+            "button_styles": {
+                "auto": "",
+                "primary": "",
+                "secondary": ""
+            },
+            "button_style_help": "",
+            "no_bottom_padding": "",
+            "no_bottom_margin": "",
+            "spacing_help": "",
+            "stats_font_number": "",
+            "stats_font_label": "",
+            "font_size": "",
+            "font_family": "",
+            "font_weight": "",
+            "font_normal": "",
+            "font_bold": "",
+            "stats_font_help": "",
             "intro": "",
             "nav_label": "",
             "load_mode": "",
@@ -166,6 +199,8 @@
             "choose_fof": "",
             "bridge_help": "",
             "fields": {
+                "dividerStyle": "",
+                "height": "",
                 "eyebrow": "",
                 "text": "",
                 "imageUrl": "",
@@ -197,6 +232,8 @@
                 "showExcerpt": ""
             },
             "options": {
+                "line": "",
+                "blank": "",
                 "latest": "",
                 "newest": "",
                 "replies": "",
@@ -246,6 +283,7 @@
             "post_type": "",
             "tag_slug": "",
             "groups": {
+                "spacing": "",
                 "loading": "",
                 "hero": "",
                 "appearance": "",

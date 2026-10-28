@@ -3,11 +3,11 @@
         "admin": {
             "errors": {
                 "generic": "Đã có lỗi xảy ra. Hãy thử lại.",
+                "confirm_default": "Xác nhận",
+                "cancel_default": "Hủy",
                 "boundary_title": "Không hiển thị được phần này.",
                 "boundary_body": "Đã xảy ra lỗi không mong muốn. Phần còn lại của trang vẫn hoạt động — hãy thử lại, hoặc tải lại trang nếu lỗi vẫn còn.",
-                "boundary_retry": "Thử lại",
-                "confirm_default": "Xác nhận",
-                "cancel_default": "Hủy"
+                "boundary_retry": "Thử lại"
             },
             "permissions": {
                 "manage_label": "Quản lý bản sao lưu"
@@ -126,6 +126,7 @@
                 "encryption_help": "Dùng mã hóa lai của libsodium. Phần thân được mã hóa bằng một khóa đối xứng riêng cho từng kho lưu, rồi khóa đó được niêm phong bằng khóa công khai.",
                 "encryption_external": "Mã hóa bằng một khóa công khai khác (để chuyển đi)",
                 "encryption_external_help": "Hãy dán khóa công khai của máy chủ đích. Cách này hữu ích khi bạn chuẩn bị một bản sao lưu để khôi phục ở nơi khác mà không phải chia sẻ khóa riêng tư.",
+                "encryption_external_placeholder": "",
                 "start_button": "Bắt đầu sao lưu",
                 "start_failed": "Không bắt đầu được việc xuất.",
                 "cancel_button": "Hủy",
@@ -178,6 +179,7 @@
                 "key_title": "Khóa riêng tư",
                 "key_help": "Kho lưu này đã được mã hóa. Hãy dán khóa riêng tư dạng base64 tương ứng — nó chỉ nằm trong phiên trình duyệt này và được gửi MỘT LẦN tới máy chủ để khôi phục.",
                 "key_hint_local": "Để trống để dùng khóa riêng tư đã cấu hình trong config.php của máy chủ này.",
+                "key_placeholder": "",
                 "confirm_title": "Thay thế dữ liệu hiện có",
                 "confirm_body": "Các bảng trong kho lưu sẽ thay thế các bảng ở đây. Các tệp được ghi vào đúng đường dẫn gốc của chúng.",
                 "confirm_check": "Tôi hiểu. Hãy thay dữ liệu hiện tại của tôi bằng bản sao lưu này.",
@@ -187,11 +189,10 @@
                 "cancel_failed_warn": "Hộp thoại đã đóng, nhưng máy chủ có thể vẫn đang áp dụng các thay đổi. Hãy kiểm tra trạng thái máy chủ trước khi thử lại.",
                 "close_button": "Đóng",
                 "completed": "Đã khôi phục xong.",
-                "reload_required": "Dữ liệu diễn đàn đã được thay thế. Hãy tải lại trang để tiếp tục với một phiên mới — phiên đăng nhập trước đó của bạn có thể cũng đã bị thay.",
-                "reload_button": "Tải lại trang",
                 "done_title": "Đã khôi phục xong",
                 "done_body": "Mọi tệp đã chọn đều được khôi phục. Cơ sở dữ liệu không bị thay đổi nên phiên hiện tại của bạn vẫn nguyên vẹn.",
                 "incomplete_title": "Khôi phục kết thúc nhưng chưa đầy đủ",
+                "notes_title": "",
                 "incomplete_body": "Quá trình khôi phục đã chạy tới cuối, nhưng không phải mọi thứ bạn chọn đều được ghi. Hãy xem chi tiết bên dưới trước khi coi việc di chuyển này là xong.",
                 "logout_title": "Bạn đã bị đăng xuất",
                 "logout_body": "Việc khôi phục cơ sở dữ liệu đã thay thế bảng `users` và `sessions` của máy chủ này, nên tài khoản bạn đang đăng nhập không còn tồn tại ở đây. Hãy đăng nhập lại bằng thông tin của diễn đàn vừa nhập để tiếp tục.",
@@ -208,7 +209,95 @@
                 "phase_done": "Xong",
                 "phase_error": "Lỗi",
                 "phase_error_network": "Mất kết nối tới máy chủ trong lúc khôi phục. Máy chủ có thể vẫn đang ghi dữ liệu — hãy chờ một lát và kiểm tra trạng thái cơ sở dữ liệu trước khi thử lại.",
-                "url_rewrite_note": "Các URL trong cơ sở dữ liệu trỏ về máy chủ nguồn sẽ được tự động viết lại thành URL của máy chủ này."
+                "url_rewrite_note": "Các URL trong cơ sở dữ liệu trỏ về máy chủ nguồn sẽ được tự động viết lại thành URL của máy chủ này.",
+                "reload_required": "Dữ liệu diễn đàn đã được thay thế. Hãy tải lại trang để tiếp tục với một phiên mới — phiên đăng nhập trước đó của bạn có thể cũng đã bị thay.",
+                "reload_button": "Tải lại trang"
+            }
+        },
+        "api": {
+            "error": "",
+            "for_example": "",
+            "export": {
+                "preparing": "",
+                "scanning": "",
+                "dumping": "",
+                "dumping_table": "",
+                "rows": "",
+                "rows_of": "",
+                "dump_complete": "",
+                "bundling": "",
+                "bundling_files": "",
+                "finalising": "",
+                "complete": "",
+                "file_changed": ""
+            },
+            "import": {
+                "inspecting": "",
+                "extracting": "",
+                "extracting_entries": "",
+                "reconciling": "",
+                "restoring": "",
+                "restoring_percent": "",
+                "restored": "",
+                "rewriting": "",
+                "rewrote_url": "",
+                "skipping_rewrite": "",
+                "complete": "",
+                "finished_dangling": "",
+                "finished_unwritable": "",
+                "finished_unresolved": "",
+                "reconcile_failed": "",
+                "preserved_reapply_failed": "",
+                "preserved_restored": "",
+                "boot_at_risk": "",
+                "unwritable_destination": "",
+                "incomplete_unresolved": "",
+                "incomplete_unwritable": "",
+                "mkdir_failed": "",
+                "fopen_failed": ""
+            },
+            "project": {
+                "incoming_invalid_json": "",
+                "local_invalid_json": "",
+                "encode_failed": "",
+                "write_failed": "",
+                "merged": "",
+                "fresh_manifest": "",
+                "only_here": "",
+                "only_there": "",
+                "extend_write_failed": "",
+                "extend_replaced": ""
+            },
+            "stack": {
+                "php_too_old": "",
+                "missing_extensions": "",
+                "composer_update": ""
+            },
+            "errors": {
+                "invalid_job": "",
+                "export_not_found": "",
+                "import_not_found": "",
+                "backup_not_found": "",
+                "file_unavailable": "",
+                "no_libsodium": "",
+                "acknowledge_loss": "",
+                "confirm_replace": "",
+                "bad_extension": "",
+                "empty_upload": "",
+                "upload_too_large": "",
+                "staging_not_writable": "",
+                "staging_create_failed": "",
+                "upload_not_initialised": "",
+                "upload_gone": "",
+                "upload_incomplete": "",
+                "invalid_archive": "",
+                "bad_offset_header": "",
+                "offset_out_of_range": "",
+                "seek_failed": "",
+                "open_staging_failed": "",
+                "chunk_too_large": "",
+                "chunk_past_end": "",
+                "write_failed": ""
             }
         }
     }

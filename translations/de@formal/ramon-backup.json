@@ -3,11 +3,11 @@
         "admin": {
             "errors": {
                 "generic": "Es ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+                "confirm_default": "Bestätigen",
+                "cancel_default": "Abbrechen",
                 "boundary_title": "Dieser Abschnitt konnte nicht dargestellt werden.",
                 "boundary_body": "Es ist ein unerwarteter Fehler aufgetreten. Der Rest des Fensters funktioniert weiterhin – versuche es erneut oder lade die Seite neu, falls das Problem weiterhin besteht.",
-                "boundary_retry": "Erneut versuchen",
-                "confirm_default": "Bestätigen",
-                "cancel_default": "Abbrechen"
+                "boundary_retry": "Erneut versuchen"
             },
             "permissions": {
                 "manage_label": "Sicherungen verwalten"
@@ -126,6 +126,7 @@
                 "encryption_help": "Verwendet die Hybridverschlüsselung von libsodium. Der Hauptteil wird mit einem archivspezifischen symmetrischen Schlüssel verschlüsselt, der anschließend mit einem öffentlichen Schlüssel versiegelt wird.",
                 "encryption_external": "Mit einem anderen öffentlichen Schlüssel verschlüsseln (zur Übertragung)",
                 "encryption_external_help": "Füge den öffentlichen Schlüssel des Zielservers ein. Dies ist nützlich, wenn du ein Backup erstellst, um es an einem anderen Ort wiederherzustellen, ohne private Schlüssel weitergeben zu müssen.",
+                "encryption_external_placeholder": "",
                 "start_button": "Sicherung starten",
                 "start_failed": "Export konnte nicht gestartet werden.",
                 "cancel_button": "Abbrechen",
@@ -178,6 +179,7 @@
                 "key_title": "Privater Schlüssel",
                 "key_help": "Dieses Archiv ist verschlüsselt. Füge den passenden privaten Base64-Schlüssel ein – er bleibt in dieser Browsersitzung gespeichert und wird EINMALIG zur Wiederherstellung an den Server gesendet.",
                 "key_hint_local": "Lasse das Feld leer, um den in der Datei „config.php“ dieses Servers konfigurierten privaten Schlüssel zu verwenden.",
+                "key_placeholder": "",
                 "confirm_title": "Vorhandene Daten ersetzen",
                 "confirm_body": "Die Tabellen im Archiv ersetzen die Tabellen hier. Die Dateien werden in ihre ursprünglichen Pfade geschrieben.",
                 "confirm_check": "Ich verstehe. Ersetze meine aktuellen Daten durch diese Sicherung.",
@@ -187,11 +189,10 @@
                 "cancel_failed_warn": "Das Modalfenster wurde geschlossen, aber der Server führt möglicherweise noch Änderungen durch. Überprüfe den Serverstatus, bevor du es erneut versuchst.",
                 "close_button": "Schließen",
                 "completed": "Wiederherstellung abgeschlossen.",
-                "reload_required": "Die Forumdaten wurden aktualisiert. Lade die Seite neu, um mit einer neuen Sitzung fortzufahren – möglicherweise wurde auch deine vorherige Anmeldung zurückgesetzt.",
-                "reload_button": "Seite neu laden",
                 "done_title": "Wiederherstellung abgeschlossen",
                 "done_body": "Alle ausgewählten Dateien wurden wiederhergestellt. Die Datenbank wurde nicht verändert, sodass deine aktuelle Sitzung unverändert bleibt.",
                 "incomplete_title": "Wiederherstellung unvollständig abgeschlossen",
+                "notes_title": "",
                 "incomplete_body": "Die Wiederherstellung wurde vollständig durchgeführt, jedoch wurden nicht alle ausgewählten Elemente geschrieben. Bitte überprüfe die folgenden Details, bevor du diese Migration als abgeschlossen betrachtest.",
                 "logout_title": "Du wurdest abgemeldet",
                 "logout_body": "Durch die Wiederherstellung der Datenbank wurden die Tabellen „users“ und „sessions“ dieses Servers überschrieben, sodass das Konto, mit dem du angemeldet warst, hier nicht mehr existiert. Melde dich bitte erneut mit den Zugangsdaten des importierten Forums an, um fortzufahren.",
@@ -208,7 +209,95 @@
                 "phase_done": "Fertig",
                 "phase_error": "Fehler",
                 "phase_error_network": "Die Verbindung zum Server wurde während der Wiederherstellung unterbrochen. Der Server ist möglicherweise noch mit dem Schreiben beschäftigt – warte einen Moment und überprüfe den Status der Datenbank, bevor du es erneut versuchst.",
-                "url_rewrite_note": "URLs in der Datenbank, die auf den Ursprungsserver verweisen, werden automatisch in die URL dieses Servers umgeschrieben."
+                "url_rewrite_note": "URLs in der Datenbank, die auf den Ursprungsserver verweisen, werden automatisch in die URL dieses Servers umgeschrieben.",
+                "reload_required": "Die Forumdaten wurden aktualisiert. Lade die Seite neu, um mit einer neuen Sitzung fortzufahren – möglicherweise wurde auch deine vorherige Anmeldung zurückgesetzt.",
+                "reload_button": "Seite neu laden"
+            }
+        },
+        "api": {
+            "error": "",
+            "for_example": "",
+            "export": {
+                "preparing": "",
+                "scanning": "",
+                "dumping": "",
+                "dumping_table": "",
+                "rows": "",
+                "rows_of": "",
+                "dump_complete": "",
+                "bundling": "",
+                "bundling_files": "",
+                "finalising": "",
+                "complete": "",
+                "file_changed": ""
+            },
+            "import": {
+                "inspecting": "",
+                "extracting": "",
+                "extracting_entries": "",
+                "reconciling": "",
+                "restoring": "",
+                "restoring_percent": "",
+                "restored": "",
+                "rewriting": "",
+                "rewrote_url": "",
+                "skipping_rewrite": "",
+                "complete": "",
+                "finished_dangling": "",
+                "finished_unwritable": "",
+                "finished_unresolved": "",
+                "reconcile_failed": "",
+                "preserved_reapply_failed": "",
+                "preserved_restored": "",
+                "boot_at_risk": "",
+                "unwritable_destination": "",
+                "incomplete_unresolved": "",
+                "incomplete_unwritable": "",
+                "mkdir_failed": "",
+                "fopen_failed": ""
+            },
+            "project": {
+                "incoming_invalid_json": "",
+                "local_invalid_json": "",
+                "encode_failed": "",
+                "write_failed": "",
+                "merged": "",
+                "fresh_manifest": "",
+                "only_here": "",
+                "only_there": "",
+                "extend_write_failed": "",
+                "extend_replaced": ""
+            },
+            "stack": {
+                "php_too_old": "",
+                "missing_extensions": "",
+                "composer_update": ""
+            },
+            "errors": {
+                "invalid_job": "",
+                "export_not_found": "",
+                "import_not_found": "",
+                "backup_not_found": "",
+                "file_unavailable": "",
+                "no_libsodium": "",
+                "acknowledge_loss": "",
+                "confirm_replace": "",
+                "bad_extension": "",
+                "empty_upload": "",
+                "upload_too_large": "",
+                "staging_not_writable": "",
+                "staging_create_failed": "",
+                "upload_not_initialised": "",
+                "upload_gone": "",
+                "upload_incomplete": "",
+                "invalid_archive": "",
+                "bad_offset_header": "",
+                "offset_out_of_range": "",
+                "seek_failed": "",
+                "open_staging_failed": "",
+                "chunk_too_large": "",
+                "chunk_past_end": "",
+                "write_failed": ""
             }
         }
     }

@@ -3,11 +3,11 @@
         "admin": {
             "errors": {
                 "generic": "出现错误，请重试。",
+                "confirm_default": "确认",
+                "cancel_default": "取消",
                 "boundary_title": "无法显示此内容。",
                 "boundary_body": "发生未知错误。面板的其他部分仍可正常使用，请尝试重试。如果问题持续存在，请刷新页面。",
-                "boundary_retry": "重试",
-                "confirm_default": "确认",
-                "cancel_default": "取消"
+                "boundary_retry": "重试"
             },
             "permissions": {
                 "manage_label": "管理备份"
@@ -126,6 +126,7 @@
                 "encryption_help": "使用 libsodium 混合加密。备份主体使用独立生成的对称密钥加密，再使用公钥封装这个对称密钥。",
                 "encryption_external": "使用其他公钥加密（用于迁移）",
                 "encryption_external_help": "粘贴目标服务器的公钥。适合准备要恢复到其他服务器的备份，无需共享私钥。",
+                "encryption_external_placeholder": "",
                 "start_button": "开始备份",
                 "start_failed": "无法开始备份。",
                 "cancel_button": "取消",
@@ -178,6 +179,7 @@
                 "key_title": "私钥",
                 "key_help": "此归档文件已加密。请粘贴匹配的 Base64 编码私钥；私钥只会保留在当前浏览器会话中，并在恢复时仅向服务器发送一次。",
                 "key_hint_local": "留空则使用当前服务器 config.php 中配置的私钥。",
+                "key_placeholder": "",
                 "confirm_title": "替换现有数据",
                 "confirm_body": "归档中的数据表会替换当前数据表，文件则写回其原始路径。",
                 "confirm_check": "我已了解。使用此备份替换当前数据。",
@@ -187,11 +189,10 @@
                 "cancel_failed_warn": "弹窗已关闭，但服务器可能仍在应用更改。再次尝试前，请先确认服务器当前状态。",
                 "close_button": "关闭",
                 "completed": "恢复完成。",
-                "reload_required": "论坛数据已被替换。请重新加载页面，以新的会话继续操作。原有登录会话也可能已经失效。",
-                "reload_button": "重新加载页面",
                 "done_title": "恢复完成",
                 "done_body": "所有选中的文件均已恢复。数据库没有被修改，因此当前会话保持不变。",
                 "incomplete_title": "恢复未完全完成",
+                "notes_title": "",
                 "incomplete_body": "恢复流程已经执行到最后，但部分选中的内容未能写入。在确认迁移完成前，请先检查下方详情。",
                 "logout_title": "你已退出登录",
                 "logout_body": "恢复数据库后，当前服务器的 `users` 和 `sessions` 数据表已被替换，因此你原先登录的账号已不再存在于恢复后的数据中。请使用源论坛的账号凭据重新登录后继续。",
@@ -208,7 +209,95 @@
                 "phase_done": "已完成",
                 "phase_error": "错误",
                 "phase_error_network": "恢复过程中与服务器的连接中断。服务器可能仍在写入数据，请稍后检查数据库状态后再重试。",
-                "url_rewrite_note": "数据库中指向来源服务器的 URL 会自动重写为当前服务器的 URL。"
+                "url_rewrite_note": "数据库中指向来源服务器的 URL 会自动重写为当前服务器的 URL。",
+                "reload_required": "论坛数据已被替换。请重新加载页面，以新的会话继续操作。原有登录会话也可能已经失效。",
+                "reload_button": "重新加载页面"
+            }
+        },
+        "api": {
+            "error": "",
+            "for_example": "",
+            "export": {
+                "preparing": "",
+                "scanning": "",
+                "dumping": "",
+                "dumping_table": "",
+                "rows": "",
+                "rows_of": "",
+                "dump_complete": "",
+                "bundling": "",
+                "bundling_files": "",
+                "finalising": "",
+                "complete": "",
+                "file_changed": ""
+            },
+            "import": {
+                "inspecting": "",
+                "extracting": "",
+                "extracting_entries": "",
+                "reconciling": "",
+                "restoring": "",
+                "restoring_percent": "",
+                "restored": "",
+                "rewriting": "",
+                "rewrote_url": "",
+                "skipping_rewrite": "",
+                "complete": "",
+                "finished_dangling": "",
+                "finished_unwritable": "",
+                "finished_unresolved": "",
+                "reconcile_failed": "",
+                "preserved_reapply_failed": "",
+                "preserved_restored": "",
+                "boot_at_risk": "",
+                "unwritable_destination": "",
+                "incomplete_unresolved": "",
+                "incomplete_unwritable": "",
+                "mkdir_failed": "",
+                "fopen_failed": ""
+            },
+            "project": {
+                "incoming_invalid_json": "",
+                "local_invalid_json": "",
+                "encode_failed": "",
+                "write_failed": "",
+                "merged": "",
+                "fresh_manifest": "",
+                "only_here": "",
+                "only_there": "",
+                "extend_write_failed": "",
+                "extend_replaced": ""
+            },
+            "stack": {
+                "php_too_old": "",
+                "missing_extensions": "",
+                "composer_update": ""
+            },
+            "errors": {
+                "invalid_job": "",
+                "export_not_found": "",
+                "import_not_found": "",
+                "backup_not_found": "",
+                "file_unavailable": "",
+                "no_libsodium": "",
+                "acknowledge_loss": "",
+                "confirm_replace": "",
+                "bad_extension": "",
+                "empty_upload": "",
+                "upload_too_large": "",
+                "staging_not_writable": "",
+                "staging_create_failed": "",
+                "upload_not_initialised": "",
+                "upload_gone": "",
+                "upload_incomplete": "",
+                "invalid_archive": "",
+                "bad_offset_header": "",
+                "offset_out_of_range": "",
+                "seek_failed": "",
+                "open_staging_failed": "",
+                "chunk_too_large": "",
+                "chunk_past_end": "",
+                "write_failed": ""
             }
         }
     }

@@ -17,6 +17,9 @@
             "username": "数据库用户名",
             "password": "数据库密码",
             "prefix": "数据表前缀",
+            "assets_base": "",
+            "files_path": "",
+            "files_help": "",
             "test": "测试连接",
             "start": "开始导入",
             "test_ok": "连接成功，检测到以下内容：",
@@ -29,6 +32,8 @@
             "failed": "导入失败",
             "shared_note": "导入会由当前浏览器页面分批执行，无需队列进程或 SSH，因此也适用于虚拟主机。请保持此标签页打开；如果过程中断，重新打开此页面即可从上次的位置继续。",
             "import_another": "导入另一个论坛",
+            "resume": "",
+            "resume_help": "",
             "sync": {
                 "title": "",
                 "messages_only_intro": "",
@@ -80,7 +85,22 @@
                 "posts": "",
                 "skipped": "",
                 "edited": "",
-                "kept": ""
+                "kept": "",
+                "polls": "",
+                "poll_votes": "",
+                "polls_skipped": "",
+                "groups_created": "",
+                "groups_mapped": "",
+                "groups_skipped": "",
+                "group_members": "",
+                "avatars": "",
+                "avatars_missing": "",
+                "birthdays": "",
+                "birthdays_skipped": "",
+                "attachments": "",
+                "attachments_missing": "",
+                "empty_removed": "",
+                "pruned_tags": ""
             },
             "starting": "正在启动…"
         },
@@ -102,10 +122,36 @@
                 "needs_upload": "",
                 "summary": ""
             },
+            "resume": {
+                "unavailable": ""
+            },
             "pm": {
                 "summary": "",
                 "groups_skipped": "",
                 "unavailable": ""
+            },
+            "polls": {
+                "summary": "",
+                "skipped": "",
+                "unavailable": ""
+            },
+            "extras": {
+                "groups": "",
+                "groups_skipped": "",
+                "group_reason": {
+                    "banned": "",
+                    "pending": "",
+                    "bots": "",
+                    "automatic": "",
+                    "ranks": "",
+                    "permissions": ""
+                },
+                "avatars": "",
+                "avatars_missing": "",
+                "birthdays": "",
+                "birthdays_skipped": "",
+                "attachments": "",
+                "attachments_missing": ""
             },
             "summary": "",
             "summary_with_tags": "",
@@ -167,7 +213,11 @@
                 "sync": "",
                 "avatars": "",
                 "prune_tags": "",
-                "messages": ""
+                "messages": "",
+                "polls": "",
+                "groups": "",
+                "group_members": "",
+                "profiles": ""
             }
         }
     }

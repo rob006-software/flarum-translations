@@ -17,6 +17,9 @@
             "username": "Database username",
             "password": "Database password",
             "prefix": "Table prefix",
+            "assets_base": "Old forum's address (optional)",
+            "files_path": "Old forum's folder on this server (optional)",
+            "files_help": "Profile photos and attachments come across from the old forum's folder when it is on this server (where it was installed, or a copy of it, outside this forum's own folder), or else from its address while it is still online. Without either, attachments are named in their posts instead.",
             "test": "Test connection",
             "start": "Start import",
             "test_ok": "Connected. Here's what we found:",
@@ -29,6 +32,8 @@
             "failed": "Import failed",
             "shared_note": "Runs in small batches straight from your browser — no queue worker or SSH needed, so it works on shared hosting. Keep this tab open; if it's interrupted, reopen this page and it resumes where it left off.",
             "import_another": "Import another",
+            "resume": "Resume",
+            "resume_help": "Fix what stopped it (the old database went away, the server ran out of time), then resume — it carries on from the step that failed, and that step wrote nothing. For a database connection, enter its password again first; it is never kept. Import another starts over.",
             "sync": {
                 "title": "Keep the old forum in sync",
                 "messages_only_intro": "Content from {source} cannot be synced yet, but its private messages can be brought across: messages between members who were imported, added once each, however many times you run it.",
@@ -45,7 +50,7 @@
             },
             "redirects": {
                 "title": "Keep the old links working",
-                "intro": "Your old forum's addresses are in Google, in bookmarks, and in every post that ever linked to a discussion. Turn this on and Flarum answers them — each old topic, tag and profile URL sends people to wherever that content ended up, with a permanent redirect so search engines move the ranking across instead of dropping it.\n",
+                "intro": "Your old forum's addresses are in Google, in bookmarks, and in every post that ever linked to a discussion. Turn this on and Flarum answers them — each old topic, post, forum, profile, private message and poll URL sends people to wherever that content ended up, with a permanent redirect so search engines move the ranking across instead of dropping it.\n",
                 "loading": "Checking what this forum has to redirect…",
                 "no_runs": "Nothing to redirect yet. Once an import has finished, this is where you point the old forum's addresses at their new homes.",
                 "run": "Use the map from",
@@ -80,7 +85,22 @@
                 "posts": "posts",
                 "skipped": "skipped",
                 "edited": "edits copied",
-                "kept": "edits kept (changed here)"
+                "kept": "edits kept (changed here)",
+                "polls": "polls",
+                "poll_votes": "poll votes",
+                "polls_skipped": "polls skipped",
+                "groups_created": "groups created",
+                "groups_mapped": "groups matched",
+                "groups_skipped": "groups not copied",
+                "group_members": "group memberships",
+                "avatars": "profile photos",
+                "avatars_missing": "profile photos not found",
+                "birthdays": "birthdays",
+                "birthdays_skipped": "birthdays skipped",
+                "attachments": "attachments",
+                "attachments_missing": "attachments not found",
+                "empty_removed": "empty discussions left out",
+                "pruned_tags": "empty tags removed"
             }
         },
         "api": {
@@ -101,10 +121,36 @@
                 "needs_upload": "This import came from an uploaded file. Upload a fresh dump of the old forum to sync from it.",
                 "summary": "Synced {topics} new discussions, {posts} new posts, {users} new members, {edited} edited posts ({kept} edits kept because the post was changed here)."
             },
+            "resume": {
+                "unavailable": "Only the last import, after it failed, can be resumed."
+            },
             "pm": {
                 "summary": "{messages} private messages in {conversations} new conversations.",
                 "groups_skipped": "{count} group conversations skipped: install Group Messages to bring them across, then sync.",
                 "unavailable": "Private messages skipped: Messages is not enabled."
+            },
+            "polls": {
+                "summary": "{polls} polls with {votes} votes.",
+                "skipped": "{count} polls skipped: their discussion was not imported, or they had fewer than two answers or ranked choices.",
+                "unavailable": "Polls skipped: FoF Polls is not enabled. Enable it and run the import again to bring them across."
+            },
+            "extras": {
+                "groups": "Groups: {groups_created} created, {groups_mapped} matched to groups already here, {group_members} memberships.",
+                "groups_skipped": "{count} groups not brought across as groups ({reasons}).",
+                "group_reason": {
+                    "banned": "{count} for banned members, who arrive suspended",
+                    "pending": "{count} for members awaiting confirmation, who arrive unconfirmed",
+                    "bots": "{count} for bots, which are not imported",
+                    "automatic": "{count} filled automatically by the old forum (such as trust levels)",
+                    "ranks": "{count} post-count ranks",
+                    "permissions": "{count} permission sets, not groups of people"
+                },
+                "avatars": "{avatars} profile photos.",
+                "avatars_missing": "{count} profile photos could not be read: set the old forum's folder on this server, or its address, before importing.",
+                "birthdays": "{birthdays} birthdays.",
+                "birthdays_skipped": "{count} birthdays skipped: install Birthdays (datlechin/flarum-birthdays) before importing to bring them across.",
+                "attachments": "{attachments} attachments.",
+                "attachments_missing": "{count} attachments could not be read and are named in their posts instead: set the old forum's folder on this server, or its address."
             },
             "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
             "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
@@ -166,7 +212,11 @@
                 "sync": "Checking for new content…",
                 "avatars": "Importing avatars…",
                 "prune_tags": "Removing empty tags…",
-                "messages": "Importing private messages…"
+                "messages": "Importing private messages…",
+                "polls": "Importing polls…",
+                "groups": "Importing groups…",
+                "group_members": "Adding members to groups…",
+                "profiles": "Importing profile photos and birthdays…"
             }
         }
     }
