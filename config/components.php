@@ -1309,9 +1309,7 @@ return [
 	],
 	'shebaoting-rss' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-rss/0.3.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.3.0.1/locale/en.yml',
