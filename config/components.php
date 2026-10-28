@@ -1251,6 +1251,12 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/ner/2.0.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'ygpynet-leaderboard' => [
+		'tag' => 'https://raw.githubusercontent.com/ygpynet/leaderboard/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
 	],
