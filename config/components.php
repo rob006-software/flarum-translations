@@ -880,6 +880,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/4.0.0/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'gradba-s3-avatars' => [
+		'tag' => 'https://raw.githubusercontent.com/gradba/flarum-s3-avatars/v1.0.1/resources/locale/en.yml',
+	],
 	'gtdxyz-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.1/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
