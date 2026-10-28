@@ -1,14 +1,20 @@
 {
     "ramon-verified": {
         "lib": {
+            "document_types": {
+                "rg": "",
+                "cpf": "",
+                "passport": "",
+                "driver": "",
+                "other": ""
+            },
             "tooltip": "已认证账号",
-            "tooltip_with_date": "已认证账号 · 自 {date} 起",
             "popover": {
-                "pill": "已认证",
                 "headline": "此账号的<strong>身份已通过认证</strong>。",
                 "verified_on": "{date}通过认证",
                 "verified_no_date": "已通过自动认证",
-                "learn_more": "了解更多"
+                "learn_more": "了解更多",
+                "pill": "已认证"
             },
             "tier_prompt": {
                 "no_tiers": "尚未配置认证类型。请先在后台「认证」页面添加类型，再为用户进行认证。",
@@ -24,28 +30,29 @@
                 "generic": "出现错误，请重试。",
                 "network": "网络错误，请检查网络连接后重试。",
                 "clipboard": "无法复制到剪贴板。"
-            }
+            },
+            "tooltip_with_date": "已认证账号 · 自 {date} 起"
         },
         "forum": {
             "settings": {
-                "heading": "账号认证",
                 "verified_label": "你的账号已认证",
-                "verified_sublabel": "你的身份已由管理员确认。",
                 "pending_label": "认证申请审核中",
+                "request_button": "申请认证",
+                "heading": "账号认证",
+                "verified_sublabel": "你的身份已由管理员确认。",
                 "pending_sublabel": "管理员会尽快处理你的申请。",
                 "avatar_locked_label": "头像已锁定",
-                "avatar_locked_sublabel": "已认证账号无法更换头像。如需更新，请重新提交认证申请。",
-                "request_button": "申请认证"
+                "avatar_locked_sublabel": "已认证账号无法更换头像。如需更新，请重新提交认证申请。"
             },
             "avatar": {
-                "locked_tooltip": "由于账号已认证，你的头像已被锁定。如需更换，请重新提交认证申请。",
                 "locked_label": "头像已锁定",
                 "locked_help": "已认证账号无法更换头像。如需更新，请重新提交认证申请。",
                 "locked_alert": "由于账号已认证，你的头像已被锁定。",
                 "request_change_button": "申请更换头像",
                 "request_change_confirm": "此操作会撤销你当前的认证，以便更换头像。更换完成后需要重新提交认证申请。是否继续？",
                 "request_change_success": "你的认证已撤销，现在可以更换头像。更换完成后请重新提交认证申请。",
-                "request_change_failed": "无法撤销认证，请重试。"
+                "request_change_failed": "无法撤销认证，请重试。",
+                "locked_tooltip": "由于账号已认证，你的头像已被锁定。如需更换，请重新提交认证申请。"
             },
             "user_controls": {
                 "verify_button": "认证用户",
@@ -63,15 +70,9 @@
                 "reason_label": "申请认证的理由",
                 "reason_placeholder": "可选 — 提供有助于审核的背景信息，例如特殊身份、公开资料、所属组织等",
                 "document_type_label": "证件类型",
-                "document_type_rg": "身份证件（RG）",
-                "document_type_cpf": "税号（CPF）",
-                "document_type_passport": "护照",
-                "document_type_driver": "驾驶证",
-                "document_type_other": "其他",
                 "document_label": "身份证明文件",
                 "document_help": "支持 PNG、JPG、WEBP 或 PDF，最大 8 MB。文件不会公开，仅管理员可以查看。",
                 "uploading": "正在上传文件…",
-                "uploaded": "已附加：{name}",
                 "uploaded_short": "已附加文件",
                 "choose_file": "点击选择文件",
                 "choose_file_hint": "PNG、JPG、WEBP 或 PDF · 最大 8 MB",
@@ -81,7 +82,13 @@
                 "upload_failed": "上传失败，请重试。",
                 "document_required": "必须提供身份证明文件。",
                 "submit_button": "提交申请",
-                "success": "认证申请已提交！"
+                "success": "认证申请已提交！",
+                "document_type_rg": "身份证件（RG）",
+                "document_type_cpf": "税号（CPF）",
+                "document_type_passport": "护照",
+                "document_type_driver": "驾驶证",
+                "document_type_other": "其他",
+                "uploaded": "已附加：{name}"
             },
             "notifications": {
                 "user_verified_text": "你的账号已通过认证。",
@@ -130,7 +137,6 @@
                     "empty_title": "尚未配置认证类型",
                     "add": "添加类型",
                     "add_first": "创建第一个类型",
-                    "collapse": "收起",
                     "done": "完成",
                     "unnamed": "（未命名）",
                     "no_id": "（无 ID）",
@@ -151,7 +157,6 @@
                     "badge_replace": "替换",
                     "badge_remove": "移除",
                     "badge_svg_too_large": "SVG 文件过大，最大支持 8 KB。",
-                    "preview_label": "预览",
                     "preview_hint": "将鼠标悬停在徽章上查看实际认证信息卡片",
                     "learn_more_open": "在新标签页打开链接",
                     "remove_confirm": "确定移除此认证类型吗？原本使用此类型的用户会暂时回退到默认类型，直到重新分配。",
@@ -168,9 +173,11 @@
                     "description_toolbar_hint": "选择文字后点击",
                     "learn_more_label": "「了解更多」链接",
                     "learn_more_help": "填写指向认证政策的 https:// URL。留空则不会在认证信息卡片中显示链接。",
-                    "auto_groups_label": "自动获得此类型的用户组",
                     "auto_groups_help": "这些用户组中的成员无需人工审核即可获得此认证类型。当用户所属的多个用户组分别对应不同认证类型时，列表中排在最前的类型优先。",
-                    "auto_groups_empty": "没有可用的用户组。"
+                    "auto_groups_empty": "没有可用的用户组。",
+                    "collapse": "收起",
+                    "preview_label": "预览",
+                    "auto_groups_label": "自动获得此类型的用户组"
                 },
                 "section_document_types": "证件类型",
                 "section_document_types_help": "管理用户申请认证时可以选择的证件类型。默认列表（RG、CPF、护照、驾驶证、其他）基于巴西证件体系，你可以根据实际情况重命名或替换。",
@@ -195,6 +202,8 @@
             "encryption": {
                 "section_title": "文件加密",
                 "section_help": "对已上传的身份证明文件进行存储加密。私钥会在此处生成，但必须由你手动写入 config.php。扩展不会将私钥保存到设置中。如果 config.php 中没有私钥，已加密文件将无法解密。",
+                "toggle_label": "",
+                "toggle_help": "",
                 "status": {
                     "unknown": "无法加载加密状态。",
                     "libsodium_missing": "当前 PHP 环境无法使用 libsodium，安装后才能启用文件加密。",
@@ -204,6 +213,8 @@
                     "absent": "缺失",
                     "healthy": "加密已启用。新上传的文件会使用已配置的公钥加密，下载时会自动解密。",
                     "not_setup": "尚未配置加密。新上传的文件将以未加密形式保存。",
+                    "enabled_without_key": "",
+                    "healthy_disabled": "",
                     "private_missing_title": "config.php 中缺少私钥",
                     "private_missing_body": "已配置公钥，但在 config.php 中找不到匹配的私钥。恢复私钥前，已有的加密文件将无法解密。请将下方配置写入 config.php，或移除下方公钥以生成新的密钥对；后者会永久删除磁盘上的所有加密文件。",
                     "mismatch_title": "公钥与私钥不匹配",
@@ -228,10 +239,10 @@
                     "snippet_label": "将以下配置加入 config.php 数组：",
                     "copy_button": "复制配置",
                     "copied": "已复制！",
-                    "confirm_saved": "我已将此配置保存到 config.php，并确认 PHP 可以读取该文件。",
-                    "confirm_hint": "关闭前，请勾选上方确认项，确认私钥已经保存。",
                     "close": "关闭",
-                    "orphaned": "正在后台删除 {count} 个此前加密的文件。"
+                    "orphaned": "正在后台删除 {count} 个此前加密的文件。",
+                    "confirm_saved": "我已将此配置保存到 config.php，并确认 PHP 可以读取该文件。",
+                    "confirm_hint": "关闭前，请勾选上方确认项，确认私钥已经保存。"
                 },
                 "regenerate_modal": {
                     "title": "生成新的密钥对？",
@@ -252,7 +263,6 @@
                 "empty_pending": "暂无待审核申请。",
                 "empty_approved": "暂无已认证用户。",
                 "empty_rejected": "暂无已驳回申请。",
-                "truncated": "还有 {hidden} 条申请未显示，请进一步筛选或查看「已通过」标签页。",
                 "empty_search": "没有找到与「{query}」匹配的已认证用户。",
                 "search_placeholder": "搜索已认证用户…",
                 "search_clear": "清除搜索",
@@ -286,7 +296,8 @@
                 "decide_failed": "无法保存审核结果，请重试。",
                 "revoke_user_failed": "无法撤销认证，请重试。",
                 "generate_keypair_failed": "无法生成密钥对，请重试。",
-                "status_load_failed": "无法加载加密状态。"
+                "status_load_failed": "无法加载加密状态。",
+                "truncated": "还有 {hidden} 条申请未显示，请进一步筛选或查看「已通过」标签页。"
             }
         },
         "email": {
@@ -323,11 +334,15 @@
             "not_verified": "此用户尚未认证。",
             "verified_by_admin_note": "已由管理员直接认证。",
             "self_revoked_note": "用户因申请更换头像自行撤销认证。",
+            "too_many_uploads": "",
+            "revoke_not_approved": "",
+            "revoke_not_latest": "",
             "encryption": {
                 "libsodium_missing": "当前 PHP 环境无法使用 libsodium。",
                 "acknowledge_loss_required": "生成新的密钥对前，必须确认现有的所有加密文件都会被删除。",
                 "private_key_missing": "此文件已加密，但当前服务器的 config.php 中未配置私钥。请在 'verified-private-key' 键下添加私钥，或重新生成密钥对；重新生成会删除所有加密文件。",
-                "decryption_failed": "此文件已加密，但无法解密。config.php 中的私钥可能与已保存的公钥不匹配，或文件已经损坏。"
+                "decryption_failed": "此文件已加密，但无法解密。config.php 中的私钥可能与已保存的公钥不匹配，或文件已经损坏。",
+                "not_configured": ""
             },
             "badge_svg": {
                 "missing": "未在「verified-badge」字段中上传 SVG 文件。",

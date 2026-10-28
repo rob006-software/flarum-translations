@@ -1,14 +1,20 @@
 {
     "ramon-verified": {
         "lib": {
+            "document_types": {
+                "rg": "",
+                "cpf": "",
+                "passport": "",
+                "driver": "",
+                "other": ""
+            },
             "tooltip": "Tài khoản đã xác minh",
-            "tooltip_with_date": "Tài khoản đã xác minh · từ {date}",
             "popover": {
-                "pill": "Đã xác minh",
                 "headline": "Tài khoản này đã <strong>xác minh danh tính</strong>.",
                 "verified_on": "Xác minh ngày {date}",
                 "verified_no_date": "Tài khoản được xác minh tự động",
-                "learn_more": "Tìm hiểu thêm"
+                "learn_more": "Tìm hiểu thêm",
+                "pill": "Đã xác minh"
             },
             "tier_prompt": {
                 "no_tiers": "Chưa cấu hình hạng nào. Hãy thêm hạng trong Quản trị → Verified trước khi xác minh người dùng."
@@ -21,28 +27,29 @@
                 "generic": "Đã có lỗi xảy ra. Vui lòng thử lại.",
                 "network": "Lỗi mạng. Hãy kiểm tra kết nối và thử lại.",
                 "clipboard": "Không sao chép được vào bộ nhớ tạm."
-            }
+            },
+            "tooltip_with_date": "Tài khoản đã xác minh · từ {date}"
         },
         "forum": {
             "settings": {
-                "heading": "Xác minh",
                 "verified_label": "Tài khoản của bạn đã được xác minh",
-                "verified_sublabel": "Danh tính của bạn đã được quản trị viên xác nhận.",
                 "pending_label": "Yêu cầu xác minh đang được xem xét",
+                "request_button": "Yêu cầu xác minh",
+                "heading": "Xác minh",
+                "verified_sublabel": "Danh tính của bạn đã được quản trị viên xác nhận.",
                 "pending_sublabel": "Quản trị viên sẽ sớm phản hồi bạn.",
                 "avatar_locked_label": "Ảnh đại diện đã bị khóa",
-                "avatar_locked_sublabel": "Tài khoản đã xác minh không đổi được ảnh đại diện. Hãy gửi một yêu cầu xác minh mới để cập nhật.",
-                "request_button": "Yêu cầu xác minh"
+                "avatar_locked_sublabel": "Tài khoản đã xác minh không đổi được ảnh đại diện. Hãy gửi một yêu cầu xác minh mới để cập nhật."
             },
             "avatar": {
-                "locked_tooltip": "Ảnh đại diện của bạn bị khóa vì tài khoản đã được xác minh. Hãy gửi một yêu cầu xác minh mới để thay đổi.",
                 "locked_label": "Ảnh đại diện đã bị khóa",
                 "locked_help": "Tài khoản đã xác minh không đổi được ảnh đại diện. Hãy gửi một yêu cầu xác minh mới để cập nhật.",
                 "locked_alert": "Ảnh đại diện của bạn bị khóa vì tài khoản đã được xác minh.",
                 "request_change_button": "Yêu cầu đổi ảnh đại diện",
                 "request_change_confirm": "Việc này sẽ thu hồi trạng thái xác minh hiện tại để bạn cập nhật ảnh đại diện. Sau đó bạn sẽ phải gửi một yêu cầu xác minh mới. Tiếp tục chứ?",
                 "request_change_success": "Trạng thái xác minh của bạn đã bị thu hồi. Giờ bạn có thể đổi ảnh đại diện, hãy gửi yêu cầu xác minh mới khi xong.",
-                "request_change_failed": "Không thể thu hồi trạng thái xác minh của bạn. Vui lòng thử lại."
+                "request_change_failed": "Không thể thu hồi trạng thái xác minh của bạn. Vui lòng thử lại.",
+                "locked_tooltip": "Ảnh đại diện của bạn bị khóa vì tài khoản đã được xác minh. Hãy gửi một yêu cầu xác minh mới để thay đổi."
             },
             "user_controls": {
                 "verify_button": "Xác minh người dùng",
@@ -60,15 +67,9 @@
                 "reason_label": "Vì sao tài khoản này nên được xác minh?",
                 "reason_placeholder": "Tùy chọn — hãy chia sẻ bối cảnh có thể hữu ích (vai trò đáng chú ý, hồ sơ công khai, tổ chức, v.v.)",
                 "document_type_label": "Loại giấy tờ",
-                "document_type_rg": "Chứng minh nhân dân (RG)",
-                "document_type_cpf": "Mã số thuế (CPF)",
-                "document_type_passport": "Hộ chiếu",
-                "document_type_driver": "Giấy phép lái xe",
-                "document_type_other": "Khác",
                 "document_label": "Giấy tờ tùy thân",
                 "document_help": "PNG, JPG, WEBP hoặc PDF. Tối đa 8 MB. Giấy tờ được lưu riêng tư và chỉ quản trị viên nhìn thấy.",
                 "uploading": "Đang tải giấy tờ lên…",
-                "uploaded": "Đã đính kèm: {name}",
                 "uploaded_short": "Đã đính kèm giấy tờ",
                 "choose_file": "Bấm để chọn một giấy tờ",
                 "choose_file_hint": "PNG, JPG, WEBP hoặc PDF · tối đa 8 MB",
@@ -78,7 +79,13 @@
                 "upload_failed": "Tải lên thất bại. Vui lòng thử lại.",
                 "document_required": "Bắt buộc phải có giấy tờ tùy thân.",
                 "submit_button": "Gửi yêu cầu",
-                "success": "Đã gửi yêu cầu xác minh!"
+                "success": "Đã gửi yêu cầu xác minh!",
+                "document_type_rg": "Chứng minh nhân dân (RG)",
+                "document_type_cpf": "Mã số thuế (CPF)",
+                "document_type_passport": "Hộ chiếu",
+                "document_type_driver": "Giấy phép lái xe",
+                "document_type_other": "Khác",
+                "uploaded": "Đã đính kèm: {name}"
             },
             "notifications": {
                 "user_verified_text": "Tài khoản của bạn đã được xác minh.",
@@ -127,7 +134,6 @@
                     "empty_title": "Chưa cấu hình hạng nào",
                     "add": "Thêm hạng",
                     "add_first": "Tạo hạng đầu tiên của bạn",
-                    "collapse": "Thu gọn",
                     "done": "Xong",
                     "unnamed": "(chưa có tên)",
                     "no_id": "(chưa có ID)",
@@ -148,7 +154,6 @@
                     "badge_replace": "Thay thế",
                     "badge_remove": "Xóa",
                     "badge_svg_too_large": "Tệp SVG quá lớn (tối đa 8 KB).",
-                    "preview_label": "Xem trước",
                     "preview_hint": "Di chuột qua huy hiệu để xem thẻ thông tin thật",
                     "learn_more_open": "Mở liên kết trong tab mới",
                     "remove_confirm": "Xóa hạng này? Những người dùng đang giữ hạng đó sẽ quay về hạng mặc định cho đến khi được gán lại.",
@@ -165,9 +170,11 @@
                     "description_toolbar_hint": "Bôi đen văn bản rồi bấm",
                     "learn_more_label": "Liên kết \"Tìm hiểu thêm\"",
                     "learn_more_help": "URL https:// trỏ tới chính sách xác minh của bạn. Để trống nghĩa là thẻ thông tin không hiện liên kết nào.",
-                    "auto_groups_label": "Các nhóm được tự động nhận hạng này",
                     "auto_groups_help": "Thành viên của những nhóm này nhận hạng mà không cần duyệt thủ công. Khi một người dùng thuộc nhiều nhóm ở nhiều hạng khác nhau, hạng được liệt kê trước sẽ thắng.",
-                    "auto_groups_empty": "Không có nhóm nào."
+                    "auto_groups_empty": "Không có nhóm nào.",
+                    "collapse": "Thu gọn",
+                    "preview_label": "Xem trước",
+                    "auto_groups_label": "Các nhóm được tự động nhận hạng này"
                 },
                 "section_document_types": "Loại giấy tờ",
                 "section_document_types_help": "Quản lý các loại giấy tờ mà người dùng có thể chọn khi yêu cầu xác minh. Danh sách mặc định (RG, CPF, hộ chiếu, giấy phép lái xe, khác) phản ánh bối cảnh Brazil, bạn có thể đổi tên hoặc thay thế cho phù hợp với diễn đàn của mình.",
@@ -187,6 +194,8 @@
             "encryption": {
                 "section_title": "Mã hóa giấy tờ",
                 "section_help": "Mã hóa các giấy tờ tùy thân đã tải lên khi lưu trữ. Khóa riêng tư được tạo tại đây, nhưng bạn phải tự dán nó vào config.php, máy chủ không bao giờ lưu khóa này. Nếu khóa riêng tư không nằm đúng chỗ, các giấy tờ đã mã hóa sẽ không giải mã được.",
+                "toggle_label": "",
+                "toggle_help": "",
                 "status": {
                     "unknown": "Không tải được trạng thái mã hóa.",
                     "libsodium_missing": "libsodium không có trên bản cài PHP này. Hãy cài nó để bật tính năng mã hóa giấy tờ.",
@@ -196,6 +205,8 @@
                     "absent": "còn thiếu",
                     "healthy": "Mã hóa đang hoạt động. Các tệp tải lên mới được niêm phong bằng khóa công khai đã cấu hình, và việc tải xuống sẽ tự động giải mã.",
                     "not_setup": "Mã hóa chưa được thiết lập. Các tệp tải lên mới sẽ được lưu ở dạng không mã hóa.",
+                    "enabled_without_key": "",
+                    "healthy_disabled": "",
                     "private_missing_title": "Thiếu khóa riêng tư trong config.php",
                     "private_missing_body": "Đã có khóa công khai nhưng không tìm thấy khóa riêng tư tương ứng trong config.php. Những giấy tờ đã mã hóa sẽ không đọc được cho tới khi bạn khôi phục khóa riêng tư. Hãy thêm dòng bên dưới vào config.php, hoặc gỡ khóa công khai bên dưới để tạo cặp khóa mới (việc này sẽ xóa vĩnh viễn mọi giấy tờ đã mã hóa trên ổ đĩa).",
                     "mismatch_title": "Khóa công khai và khóa riêng tư không khớp",
@@ -220,10 +231,10 @@
                     "snippet_label": "Hãy thêm dòng này vào mảng trong config.php:",
                     "copy_button": "Sao chép đoạn mã",
                     "copied": "Đã sao chép!",
-                    "confirm_saved": "Tôi đã lưu khóa này vào config.php và xác nhận PHP đọc được tệp đó.",
-                    "confirm_hint": "Vui lòng xác nhận ở trên rằng bạn đã lưu khóa trước khi đóng.",
                     "close": "Đóng",
-                    "orphaned": "{count} giấy tờ đã mã hóa trước đây đang được xóa ở chế độ nền."
+                    "orphaned": "{count} giấy tờ đã mã hóa trước đây đang được xóa ở chế độ nền.",
+                    "confirm_saved": "Tôi đã lưu khóa này vào config.php và xác nhận PHP đọc được tệp đó.",
+                    "confirm_hint": "Vui lòng xác nhận ở trên rằng bạn đã lưu khóa trước khi đóng."
                 },
                 "regenerate_modal": {
                     "title": "Tạo cặp khóa mới?",
@@ -244,7 +255,6 @@
                 "empty_pending": "Không có yêu cầu nào đang chờ.",
                 "empty_approved": "Chưa có người dùng nào được duyệt.",
                 "empty_rejected": "Không có yêu cầu nào bị từ chối.",
-                "truncated": "Còn {hidden} yêu cầu chưa hiển thị — hãy thu hẹp bộ lọc hoặc xem tab Đã duyệt.",
                 "empty_search": "Không có người dùng đã xác minh nào khớp với \"{query}\".",
                 "search_placeholder": "Tìm người dùng đã xác minh…",
                 "search_clear": "Xóa tìm kiếm",
@@ -278,7 +288,8 @@
                 "decide_failed": "Không lưu được quyết định. Vui lòng thử lại.",
                 "revoke_user_failed": "Không thể thu hồi trạng thái xác minh. Vui lòng thử lại.",
                 "generate_keypair_failed": "Không tạo được cặp khóa. Vui lòng thử lại.",
-                "status_load_failed": "Không tải được trạng thái mã hóa."
+                "status_load_failed": "Không tải được trạng thái mã hóa.",
+                "truncated": "Còn {hidden} yêu cầu chưa hiển thị — hãy thu hẹp bộ lọc hoặc xem tab Đã duyệt."
             }
         },
         "email": {
@@ -315,11 +326,15 @@
             "not_verified": "Người dùng này chưa được xác minh.",
             "verified_by_admin_note": "Được quản trị viên xác minh trực tiếp.",
             "self_revoked_note": "Người dùng tự thu hồi trạng thái xác minh (yêu cầu đổi ảnh đại diện).",
+            "too_many_uploads": "",
+            "revoke_not_approved": "",
+            "revoke_not_latest": "",
             "encryption": {
                 "libsodium_missing": "libsodium không có trên bản cài PHP này.",
                 "acknowledge_loss_required": "Bạn phải xác nhận rằng mọi giấy tờ đã mã hóa hiện có sẽ bị xóa trước khi tạo cặp khóa mới.",
                 "private_key_missing": "Giấy tờ này đã được mã hóa, nhưng khóa riêng tư chưa được cấu hình trong config.php trên máy chủ này. Hãy thêm nó vào khóa 'verified-private-key', hoặc tạo lại cặp khóa (việc này sẽ xóa mọi giấy tờ đã mã hóa).",
-                "decryption_failed": "Giấy tờ này đã được mã hóa và không thể giải mã. Có thể khóa riêng tư trong config.php không khớp với khóa công khai đã lưu, hoặc tệp đã hỏng."
+                "decryption_failed": "Giấy tờ này đã được mã hóa và không thể giải mã. Có thể khóa riêng tư trong config.php không khớp với khóa công khai đã lưu, hoặc tệp đã hỏng.",
+                "not_configured": ""
             },
             "badge_svg": {
                 "missing": "Không có tệp SVG nào được tải lên ở trường \"verified-badge\".",

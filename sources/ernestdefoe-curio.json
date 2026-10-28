@@ -188,6 +188,10 @@
                 "rating_zero": "No stars (0 out of 5)"
             },
             "item": {
+                "who_has": "Who has this",
+                "owners_title": "Who has {title}",
+                "owners_none": "Nobody you can see has this yet.",
+                "for_trade": "To trade",
                 "missing": "This item doesn't exist, or you can't see it.",
                 "favourite": "Favourite",
                 "photo_n": "Photo {n}",
@@ -242,6 +246,12 @@
                 "wishlist_heading": "Wishlist"
             },
             "browse": {
+                "tab_collectors": "Top collectors",
+                "tab_most_owned": "Most owned",
+                "most_owned_title": "Title",
+                "most_owned_owners": "Members",
+                "none_most_owned": "Nothing is owned yet.",
+                "owned_by": "{count, plural, one {# member} other {# members}}",
                 "title": "Collections",
                 "lead": "{items, plural, one {# item} other {# items}} in {members, plural, one {# member’s} other {# members’}} collections.",
                 "search": "Search every collection…",

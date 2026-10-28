@@ -189,6 +189,10 @@
                 "barcode_unknown": "Der Barcode {code} ist noch niemandem bekannt. Füge ihn manuell hinzu, dann erhält die nächste Person, die ihn scannt, deinen Eintrag."
             },
             "item": {
+                "who_has": "",
+                "owners_title": "",
+                "owners_none": "",
+                "for_trade": "",
                 "missing": "Dieser Artikel existiert nicht oder ist für dich nicht sichtbar.",
                 "favourite": "Favorit",
                 "photo_n": "Foto {n}",
@@ -243,6 +247,12 @@
                 "wishlist_heading": "Wunschliste"
             },
             "browse": {
+                "tab_collectors": "",
+                "tab_most_owned": "",
+                "most_owned_title": "",
+                "most_owned_owners": "",
+                "none_most_owned": "",
+                "owned_by": "",
                 "title": "Sammlungen",
                 "lead": "{items, plural, one {# Artikel} other {# Artikel}} in Sammlungen von {members, plural, one {# Mitglied} other {# Mitgliedern}}.",
                 "search": "Alle Sammlungen durchsuchen…",
