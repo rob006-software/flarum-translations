@@ -1097,7 +1097,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-mail-reply' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mail-reply/2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mail-reply/2.1.0/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-point-system' => [
