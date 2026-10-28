@@ -1124,6 +1124,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/rob006-software/flarum-ext-last-post-avatar/2.0.1/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
 	],
+	'rysstad-blocked-usernames' => [
+		'tag' => 'https://raw.githubusercontent.com/Pawlemann/flarum-blocked-usernames/1.0.0/locale/en.yml',
+	],
 	'shebaoting-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.9/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
