@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **362** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **54** components.
+sides, but do not match between them: **357** are translated differently and **0** are
+translated only in `de@formal`. Altogether they cover **53** components.
 
 <!-- {% raw %} -->
 
@@ -16,7 +16,6 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `core` | [97](#core) |
 | `datitisev-backup` | [18](#datitisev-backup) |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
-| `datlechin-birthdays` | [5](#datlechin-birthdays) |
 | `datlechin-link-preview` | [1](#datlechin-link-preview) |
 | `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) |
 | `flarum-approval` | [2](#flarum-approval) |
@@ -1474,62 +1473,6 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 ```
 
 <del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> auf diesen Inhalt antworten, um ihn ansehen zu können.
-
-
-### `datlechin-birthdays`
-
-#### [`datlechin-birthdays.admin.settings.date_format_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/de@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.date_format_help%22)
-
-> Use the &lt;a&gt;dayjs&lt;/a&gt; date format. Leave blank to use the default format.
-
-```diff
--Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.
-+Das <a>dayjs</a>-Datumsforma verwenden. Lassen Sie dieses Feld leer, um das Standardformat zu verwenden.
-```
-
-<del>Verwende</del><ins>Das</ins> <del>das</del><ins>&lt;a&gt;dayjs&lt;/a&gt;-Datumsforma</ins> <del>&lt;a&gt;dayjs&lt;/a&gt;-Datumsformat.</del><ins>verwenden.</ins> <del>Lasse</del><ins>Lassen</ins> <del>das</del><ins>Sie dieses</ins> Feld leer, um das Standardformat zu verwenden.
-
-#### [`datlechin-birthdays.admin.settings.required_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/de@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.required_help%22)
-
-> You need enable Set on registration option to make this option work
-
-```diff
--Du musst die Option Bei Registrierung festlegen aktivieren, damit diese Option funktioniert
-+Sie müssen die Option Bei Registrierung festlegen aktivieren, damit diese Einstellung funktioniert
-```
-
-<del>Du</del><ins>Sie</ins> <del>musst</del><ins>müssen</ins> die Option Bei Registrierung festlegen aktivieren, damit diese <del>Option</del><ins>Einstellung</ins> funktioniert
-
-#### [`datlechin-birthdays.api.invalid_age_message`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/de@formal/?q=context%3A%3D%22datlechin-birthdays.api.invalid_age_message%22)
-
-> Your age must be at least {minAge} years old.
-
-```diff
--Dein Alter muss mindestens {minAge} Jahre betragen.
-+Ihr Alter muss mindestens {minAge} Jahre betragen.
-```
-
-<del>Dein</del><ins>Ihr</ins> Alter muss mindestens {minAge} Jahre betragen.
-
-#### [`datlechin-birthdays.forum.settings.show_dob_year_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/de@formal/?q=context%3A%3D%22datlechin-birthdays.forum.settings.show_dob_year_help%22)
-
-> This will allow people to see your age.
-
-```diff
--Dadurch können die Leute Dein Alter sehen.
-+Das erlaubt andere Benutzer Ihr Alter zu sehen.
-```
-
-<del>Dadurch</del><ins>Das</ins> <del>können</del><ins>erlaubt</ins> <del>die</del><ins>andere</ins> <del>Leute</del><ins>Benutzer</ins> <del>Dein</del><ins>Ihr</ins> Alter<ins> zu</ins> sehen.
-
-#### [`datlechin-birthdays.ref.date_of_birth`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/de@formal/?q=context%3A%3D%22datlechin-birthdays.ref.date_of_birth%22)
-
-> Date of Birth
-
-```diff
--Geburtsdatum
-+Geburtstag
-```
 
 
 ### `datlechin-link-preview`

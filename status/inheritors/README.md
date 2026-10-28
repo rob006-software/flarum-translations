@@ -6,7 +6,7 @@ which have the same source string on both sides, but do not match between them.
 
 | Inheritor | Inherited from | Languages | Different translations | Missing translations |
 | --- | --- | --- | --- | --- |
-| [German (formal) (`de@formal`)](de@formal.md) | German informal variant | 1 | 362 | 0 |
+| [German (formal) (`de@formal`)](de@formal.md) | German informal variant | 1 | 357 | 0 |
 | [Serbian (Latin) (`sr_Latn`)](sr_Latn.md) | Serbian (Cyrillic) | 1 | 247 | 80 |
-| [Spanish (formal) (`es@formal`)](es@formal.md) | Spanish informal variant | 1 | 358 | 0 |
+| [Spanish (formal) (`es@formal`)](es@formal.md) | Spanish informal variant | 1 | 349 | 0 |
 | [`1.x`](1.x/) | Flarum 1.x | 9 | 404 | 169 |

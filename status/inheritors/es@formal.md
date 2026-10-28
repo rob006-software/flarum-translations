@@ -2,8 +2,8 @@
 
 Translations for Spanish (formal) (`es@formal`) are inherited from Spanish informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **358** are translated differently and **0** are
-translated only in `es@formal`. Altogether they cover **22** components.
+sides, but do not match between them: **349** are translated differently and **0** are
+translated only in `es@formal`. Altogether they cover **21** components.
 
 <!-- {% raw %} -->
 
@@ -13,7 +13,6 @@ translated only in `es@formal`. Altogether they cover **22** components.
 | Component | Different translations |
 | --- | --- |
 | `core` | [285](#core) |
-| `datlechin-birthdays` | [9](#datlechin-birthdays) |
 | `flarum-akismet` | [1](#flarum-akismet) |
 | `flarum-emoji` | [1](#flarum-emoji) |
 | `flarum-extension-manager` | [11](#flarum-extension-manager) |
@@ -3158,108 +3157,6 @@ Este enlace para cancelar la suscripción no es válido o ya se ha utilizado. Pa
 ```
 
 Te has dado de baja correctamente de las notificaciones "{type}" de {forumTitle}. Si <del>deseas</del><ins>quieres</ins> volver a recibirlas,<del> por favor</del> \[actualiza <del>tu</del><ins>tus</ins> <del>configuración\]({settingsLink}).</del><ins>ajustes\]({settingsLink}).</ins>
-
-
-### `datlechin-birthdays`
-
-#### [`datlechin-birthdays.admin.settings.date_format_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.date_format_help%22)
-
-> Use the &lt;a&gt;dayjs&lt;/a&gt; date format. Leave blank to use the default format.
-
-```diff
--Utiliza el formato de fecha <a>dayjs</a>. Déjalo en blanco para utilizar el formato predeterminado.
-+Utiliza el formato <a>dayjs</a>. Deja en blanco para utilizar el formato por defecto.
-```
-
-Utiliza el formato <del>de fecha </del>&lt;a&gt;dayjs&lt;/a&gt;. <del>Déjalo</del><ins>Deja</ins> en blanco para utilizar el formato <del>predeterminado.</del><ins>por defecto.</ins>
-
-#### [`datlechin-birthdays.admin.settings.required_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.required_help%22)
-
-> You need enable Set on registration option to make this option work
-
-```diff
--Habilita la opción Establecer al registrarse para que esta opción funcione
-+Debes habilitar la opción Establecer al registrarse para que esta opción funcione
-```
-
-<del>Habilita</del><ins>Debes habilitar</ins> la opción Establecer al registrarse para que esta opción funcione
-
-#### [`datlechin-birthdays.admin.settings.required_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.required_label%22)
-
-> Required entering birthdays
-
-```diff
--Es obligatorio introducir la fecha de nacimiento
-+Es obligatorio introducir la fecha de cumpleaños
-```
-
-Es obligatorio introducir la fecha de <del>nacimiento</del><ins>cumpleaños</ins>
-
-#### [`datlechin-birthdays.admin.settings.set_on_registration_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.admin.settings.set_on_registration_label%22)
-
-> Allow setting birthdays on registration
-
-```diff
--Permitir configurar cumpleaños al registrarse
-+Establecer la fecha de cumpleaños al registrarse
-```
-
-<del>Permitir</del><ins>Establecer</ins> <del>configurar</del><ins>la fecha de</ins> cumpleaños al registrarse
-
-#### [`datlechin-birthdays.api.invalid_age_message`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.api.invalid_age_message%22)
-
-> Your age must be at least {minAge} years old.
-
-```diff
--Tu edad debe ser al menos {minAge} años.
-+Tu edad mínima debe ser de {minAge} años.
-```
-
-Tu edad <ins>mínima </ins>debe ser<del> al</del> <del>menos</del><ins>de</ins> {minAge} años.
-
-#### [`datlechin-birthdays.forum.change_dob.title`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.forum.change_dob.title%22)
-
-> Edit Date of Birth
-
-```diff
--Editar fecha de nacimiento
-+Editar Fecha de Nacimiento
-```
-
-Editar <del>fecha</del><ins>Fecha</ins> de <del>nacimiento</del><ins>Nacimiento</ins>
-
-#### [`datlechin-birthdays.forum.settings.change_dob_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.forum.settings.change_dob_label%22)
-
-> Change Date of Birth
-
-```diff
--Cambiar fecha de nacimiento
-+Cambiar Fecha de Nacimiento
-```
-
-Cambiar <del>fecha</del><ins>Fecha</ins> de <del>nacimiento</del><ins>Nacimiento</ins>
-
-#### [`datlechin-birthdays.forum.settings.show_dob_year_help`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.forum.settings.show_dob_year_help%22)
-
-> This will allow people to see your age.
-
-```diff
--Permitir que los demás vean tu edad.
-+Esto permitirá ver a los demás tu edad.
-```
-
-<del>Permitir</del><ins>Esto</ins> <del>que</del><ins>permitirá ver a</ins> los demás<del> vean</del> tu edad.
-
-#### [`datlechin-birthdays.ref.date_of_birth`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/es@formal/?q=context%3A%3D%22datlechin-birthdays.ref.date_of_birth%22)
-
-> Date of Birth
-
-```diff
--Fecha de nacimiento
-+Fecha de Nacimiento
-```
-
-Fecha de <del>nacimiento</del><ins>Nacimiento</ins>
 
 
 ### `flarum-akismet`
