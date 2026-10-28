@@ -322,6 +322,9 @@ return [
 	'ernestdefoe-pigeonhole' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-projects' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.8/resources/locale/en.yml',
+	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.3.1/locale/en.yml',
 	],
