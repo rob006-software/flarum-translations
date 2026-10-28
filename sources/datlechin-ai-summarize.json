@@ -1,0 +1,45 @@
+{
+    "datlechin-ai-summarize": {
+        "admin": {
+            "permissions": {
+                "summarize_label": "Write AI summaries",
+                "view_label": "View AI summaries"
+            },
+            "settings": {
+                "auto_per_hour_help": "Summarize up to this many recently active discussions per hour without anyone asking, through the Flarum scheduler. 0 turns it off.",
+                "auto_per_hour_label": "Automatic summaries per hour",
+                "instructions_help": "Added to the built-in instructions, for example about tone or what to leave out.",
+                "instructions_label": "Extra instructions",
+                "max_posts_help": "Longer discussions are summarized from their first and last five posts plus the most liked ones in between.",
+                "max_posts_label": "Posts to read at most",
+                "min_posts_help": "Shorter discussions can't be summarized.",
+                "min_posts_label": "Posts needed for a summary",
+                "provider_text": "Summaries use the provider and model set up in <a>AI</a>."
+            }
+        },
+        "api": {
+            "busy_message": "A summary of this discussion is being written. Try again in a moment.",
+            "failed_message": "The summary couldn't be written. Try again later.",
+            "too_short_message": "{count, plural, one {A discussion needs at least # post to be summarized.} other {A discussion needs at least # posts to be summarized.}}",
+            "up_to_date_message": "The summary already covers every reply."
+        },
+        "forum": {
+            "discussion_controls": {
+                "remove_button": "Remove summary",
+                "summarize_button": "Summarize",
+                "update_button": "Update summary"
+            },
+            "summary": {
+                "collapse_button": "Hide summary",
+                "expand_button": "Show summary",
+                "generate_button": "Summarize this discussion",
+                "generated_text": "AI-generated with {model} from {count, plural, one {# post} other {# posts}}, {ago}",
+                "generating_text": "Writing a summary…",
+                "heading": "AI summary",
+                "new_replies_text": "{count, plural, one {# new reply since} other {# new replies since}}",
+                "remove_confirmation": "Remove this summary? Anyone allowed to can write a new one.",
+                "update_button": "Update"
+            }
+        }
+    }
+}

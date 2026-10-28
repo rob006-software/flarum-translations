@@ -1,0 +1,45 @@
+{
+    "datlechin-ai-summarize": {
+        "admin": {
+            "permissions": {
+                "summarize_label": "",
+                "view_label": ""
+            },
+            "settings": {
+                "auto_per_hour_help": "",
+                "auto_per_hour_label": "",
+                "instructions_help": "",
+                "instructions_label": "",
+                "max_posts_help": "",
+                "max_posts_label": "",
+                "min_posts_help": "",
+                "min_posts_label": "",
+                "provider_text": ""
+            }
+        },
+        "api": {
+            "busy_message": "",
+            "failed_message": "",
+            "too_short_message": "",
+            "up_to_date_message": ""
+        },
+        "forum": {
+            "discussion_controls": {
+                "remove_button": "",
+                "summarize_button": "",
+                "update_button": ""
+            },
+            "summary": {
+                "collapse_button": "",
+                "expand_button": "",
+                "generate_button": "",
+                "generated_text": "",
+                "generating_text": "",
+                "heading": "",
+                "new_replies_text": "",
+                "remove_confirmation": "",
+                "update_button": ""
+            }
+        }
+    }
+}
