@@ -1201,7 +1201,7 @@ return [
 		'__builtInLanguages' => ['de'],
 	],
 	'tryhackx-advanced-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.3/resources/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
 	],
 	'tryhackx-cover-studio' => [
