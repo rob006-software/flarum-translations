@@ -1071,7 +1071,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-backup' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/v2.0.25/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/backup/v2.1.0/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-canela' => [
