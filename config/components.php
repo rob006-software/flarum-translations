@@ -573,12 +573,7 @@ return [
 	],
 	'flatrate-live-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/mrkcntrmn/flatrate-flarum-live-chat/v1.2.0/resources/locale/en.yaml',
-		'__builtInLanguages' => [
-			'ja',
-			'ru',
-			'vi',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['ja', 'ru', 'vi', 'zh_Hans'],
 	],
 	'flectar-turnstile' => [
 		'tag' => 'https://raw.githubusercontent.com/flectar/flarum-ext-turnstile/1.1.1/locale/en.yml',
