@@ -1066,6 +1066,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ffans-link-guard`](https://weblate.rob006.net/projects/flarum2/ffans-link-guard) | [`ffans/link-guard`](https://github.com/FFans/link-guard) |
 | [`ffans-threadmarks`](https://weblate.rob006.net/projects/flarum2/ffans-threadmarks) | [`ffans/threadmarks`](https://github.com/FFans/threadmarks) |
 | [`flectar-turnstile`](https://weblate.rob006.net/projects/flarum2/flectar-turnstile) | [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) |
+| [`floxum-payments`](https://weblate.rob006.net/projects/flarum2/floxum-payments) | [`floxum/payments`](https://gitlab.com/floxum/extensions/flarum-ext-payments) |
 | [`forumaker-bento`](https://weblate.rob006.net/projects/flarum2/forumaker-bento) | [`forumaker/bento`](https://github.com/forumaker/Bento) |
 | [`forumaker-friendship`](https://weblate.rob006.net/projects/flarum2/forumaker-friendship) | [`forumaker/friendship`](https://github.com/forumaker/Friendship) |
 | [`forumaker-magicbb`](https://weblate.rob006.net/projects/flarum2/forumaker-magicbb) | [`forumaker/magicbb`](https://github.com/forumaker/magicbb) |
