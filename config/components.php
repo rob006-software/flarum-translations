@@ -71,6 +71,9 @@ return [
 	'datitisev-post-galleries' => [
 		'tag' => 'https://raw.githubusercontent.com/dsevillamartin/flarum-post-galleries/2.0.0/resources/locale/en.yml',
 	],
+	'datlechin-ai-summarize' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ai-summarize/v1.0.0/locale/en.yml',
+	],
 	'datlechin-bbcode-hide-content' => [
 		'beta' => 'https://raw.githubusercontent.com/datlechin/flarum-bbcode-hide-content/v2.0.0-beta.2/locale/en.yml',
 	],
