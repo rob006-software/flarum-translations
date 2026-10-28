@@ -1,31 +1,31 @@
 {
     "quasimo-tag-sidebar": {
         "forum": {
-            "edit_button": "",
-            "modal_title": "",
-            "sidebar_label": "",
-            "sidebar_label_html": "",
-            "sidebar_placeholder": "",
-            "sidebar_placeholder_html": "",
-            "save_button": "",
-            "cancel_button": "",
-            "sidebar_empty": ""
+            "edit_button": "แก้ไข Sidebar",
+            "modal_title": "แก้ไข Sidebar: {tag}",
+            "sidebar_label": "เนื้อหา Sidebar (Markdown)",
+            "sidebar_label_html": "เนื้อหา Sidebar (HTML)",
+            "sidebar_placeholder": "ใส่เนื้อหา sidebar โดยใช้ Markdown...\n\n## ลิงก์\n- [ตัวอย่าง](https://example.com)\n\n**ตัวหนา**, *ตัวเอียง* และ ![alt](https://example.com/image.png) รูปภาพรองรับ",
+            "sidebar_placeholder_html": "ใส่เนื้อหา sidebar โดยใช้ HTML...\n\n<h2>ลิงก์</h2>\n<p><a href=\"https://example.com\">ตัวอย่าง</a></p>\n<img src=\"https://example.com/image.png\" alt=\"example\">",
+            "save_button": "บันทึก",
+            "cancel_button": "ยกเลิก",
+            "sidebar_empty": "(ยังไม่มีเนื้อหา sidebar)"
         },
         "admin": {
-            "instructions_title": "",
-            "instruction_1": "",
-            "instruction_2": "",
-            "instruction_3": "",
-            "instruction_4": "",
-            "setting_position": "",
-            "setting_position_help": "",
-            "position_left": "",
-            "position_right": "",
-            "setting_content_type": "",
-            "setting_content_type_help": "",
-            "content_type_markdown": "",
-            "content_type_html": "",
-            "permission_edit_sidebar": ""
+            "instructions_title": "วิธีใช้งาน",
+            "instruction_1": "ไปที่หน้า tag ใดก็ได้บน forum",
+            "instruction_2": "ปุ่ม \"แก้ไข Sidebar\" จะปรากฏสำหรับผู้ใช้ที่มีสิทธิ์",
+            "instruction_3": "คลิกปุ่มเพื่อเปิด editor เขียนเนื้อหา แล้วบันทึก",
+            "instruction_4": "กำหนดสิทธิ์ด้านล่างเพื่ออนุญาตให้ moderator แก้ไขเนื้อหา sidebar",
+            "setting_position": "ตำแหน่ง Sidebar (Desktop)",
+            "setting_position_help": "บน mobile widget จะแสดงด้านล่างรายการ post เสมอ",
+            "position_left": "ซ้าย — หลัง sidebar navigation (ค่าเริ่มต้น)",
+            "position_right": "ขวา — ถัดจากรายการ post",
+            "setting_content_type": "ประเภทเนื้อหา",
+            "setting_content_type_help": "เลือก Markdown สำหรับเนื้อหาที่ปลอดภัยและเขียนง่าย เลือก HTML สำหรับการควบคุมเต็มรูปแบบ (ควรให้เฉพาะผู้แก้ไขที่น่าเชื่อถือมีสิทธิ์)",
+            "content_type_markdown": "Markdown",
+            "content_type_html": "HTML",
+            "permission_edit_sidebar": "แก้ไขเนื้อหา sidebar ของ tag"
         }
     }
 }

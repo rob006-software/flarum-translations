@@ -1,0 +1,124 @@
+{
+    "forumaker-friendship": {
+        "lib": {
+            "errors": {
+                "user_not_found": "Benutzer nicht gefunden",
+                "request_not_found": "Freundschaftsanfrage nicht gefunden",
+                "not_friends": "Du bist kein Freund dieses Benutzers",
+                "self_request": "Du kannst keine Freundschaftsanfrage an dich selbst senden",
+                "already_friends": "Du bist bereits mit diesem Benutzer befreundet",
+                "not_recipient": "Du kannst auf diese Anfrage nicht antworten"
+            }
+        },
+        "forum": {
+            "user": {
+                "friends_tab": "Freunde",
+                "friends_count": "{count, plural, one {# Freund} other {# Freunde}}",
+                "requests_btn": "Anfragen",
+                "requests_btn_count": "{count, plural, one {# Anfrage} other {# Anfragen}}",
+                "no_friends": "Noch keine Freunde",
+                "friends_hidden": "Freunde sind verborgen",
+                "friends_since": "Freund seit {date}",
+                "load_more": "Mehr laden"
+            },
+            "dropdown": {
+                "add_friend_btn": "Freund hinzufügen",
+                "cancel_request_btn": "Freundschaftsanfrage zurückziehen",
+                "remove_friend_btn": "Freund entfernen"
+            },
+            "add_modal": {
+                "title": "Freund hinzufügen",
+                "text": "{username} eine Freundschaftsanfrage senden?",
+                "confirm_btn": "Freund hinzufügen",
+                "cancel_btn": "Abbrechen",
+                "success": "Freundschaftsanfrage gesendet"
+            },
+            "pending_modal": {
+                "text": "Dieser Benutzer hat dir bereits eine Freundschaftsanfrage gesendet",
+                "accept_btn": "Freund hinzufügen",
+                "decline_btn": "Ablehnen"
+            },
+            "cancel_request_modal": {
+                "title": "Freundschaftsanfrage zurückziehen",
+                "text": "Möchtest du deine Freundschaftsanfrage an {username} zurückziehen?",
+                "confirm_btn": "Ich möchte nicht",
+                "cancel_btn": "Beibehalten"
+            },
+            "remove_modal": {
+                "title": "Freund entfernen",
+                "text": "{username} von Freunden entfernen?",
+                "confirm_btn": "Entfernen",
+                "cancel_btn": "Nicht entfernen",
+                "success": "Ihr seid nicht mehr Freunde"
+            },
+            "requests_modal": {
+                "title": "Freundschaftsanfragen",
+                "incoming_tab": "Eingehend — {count}",
+                "outgoing_tab": "Ausgehend — {count}",
+                "history_btn": "Anfrageverlauf",
+                "search_placeholder": "Nach Namen suchen",
+                "no_incoming": "Keine eingehenden Anfragen",
+                "no_outgoing": "Keine ausgehenden Anfragen",
+                "accept_btn": "Annehmen",
+                "decline_btn": "Ablehnen",
+                "cancel_btn": "Abbrechen",
+                "cancel_success": "Anfrage abgebrochen",
+                "accept_success": "Ihr seid jetzt Freunde"
+            },
+            "history_modal": {
+                "title": "Anfrageverlauf",
+                "empty": "Noch keine Protokolleinträge",
+                "load_more": "Mehr laden"
+            },
+            "history": {
+                "requested_self": "Du hast {username} eine Freundschaftsanfrage gesendet",
+                "requested_other": "{username} hat dir eine Freundschaftsanfrage gesendet",
+                "cancelled_self": "Du hast es dir mit {username} anders überlegt",
+                "cancelled_other": "{username} hat die Anfrage zurückgezogen",
+                "accepted_self": "Du hast die Anfrage von {username} angenommen",
+                "accepted_other": "{username} hat deine Anfrage angenommen",
+                "declined_self": "Du hast die Anfrage von {username} abgelehnt",
+                "declined_other": "{username} hat deine Anfrage abgelehnt",
+                "removed_self": "Du hast {username} von deinen Freunden entfernt",
+                "removed_other": "{username} hat dich von den Freunden entfernt"
+            },
+            "notifications": {
+                "requested_text": "{name} möchte dich als Freund hinzufügen",
+                "removed_text": "{name} hat dich aus der Freundesliste entfernt",
+                "declined_text": "{name} hat deine Freundschaftsanfrage abgelehnt"
+            },
+            "settings": {
+                "section_label": "Freunde",
+                "show_on_usercard": "Anzahl der Freunde neben dem Avatar im Profil anzeigen",
+                "show_in_posts": "Anzahl der Freunde neben dem Avatar in Beiträgen anzeigen",
+                "notify_requested_label": "Jemand schickt mir eine Freundschaftsanfrage",
+                "notify_removed_label": "Jemand entfernt mich aus der Freundesliste",
+                "notify_declined_label": "Jemand lehnt meine Freundschaftsanfrage ab"
+            }
+        },
+        "admin": {
+            "sections": {
+                "badges": "Abzeichen",
+                "history": "Anfrageverlauf"
+            },
+            "settings": {
+                "badges_intro": "Sofern aktiviert, können Benutzer dies in ihren eigenen Einstellungen festlegen",
+                "show_badge_on_usercard": "Anzahl der Freunde neben dem Avatar im Profil anzeigen",
+                "show_badge_on_usercard_help": "Wird neben dem Online-Status/dem Beitrittsdatum auf der Profilkarte angezeigt",
+                "show_badge_on_post": "Anzahl der Freunde neben dem Avatar in Beiträgen anzeigen",
+                "show_badge_on_post_help": "Wirde neben dem Avatar im Beitragskopf angezeigt",
+                "badge_color": "Farbe und Symbol im Profil",
+                "badge_bg_color": "Hintergrundfarbe in Beiträgen",
+                "event_retention_intro": "Ältere Einträge im Anfrageverlauf werden einmal täglich automatisch gelöscht",
+                "event_retention_days": "Anfrageverlauf aufbewahren (in Tagen)",
+                "event_retention_days_help": "0 deaktiviert das Bereinigen — der Verlauf wird dauerhaft gespeichert"
+            },
+            "permissions": {
+                "add_friends": "Freunde hinzufügen",
+                "view_others": "Freunde anderer Benutzer sehen",
+                "moderate": "Freundschaften moderieren",
+                "manage": "Freundschaften verwalten"
+            }
+        }
+    }
+}

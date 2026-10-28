@@ -9,7 +9,7 @@
                 "ban_ip_no_users": "Пользователи не найдены"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Забанен по IP"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -60,10 +60,10 @@
             }
         },
         "ref": {
-            "ban_label": "",
+            "ban_label": "Забанить по IP",
             "ban_ip_addresses": "Заблокировать все IP",
             "ban_ip_button": "Заблокировать IP",
-            "unban_label": "",
+            "unban_label": "Разбанить по IP",
             "unban_ip_addresses": "Разблокировать все IP",
             "unban_ip_button": "Разблокировать IP",
             "address_label": "IP",
@@ -76,6 +76,16 @@
                 "bannedipdata": {
                     "export_description": "Если запись IP блокировки привязана к пользователю (т.е., пользователь был заблокирован по IP), IP адрес пользователя будет включен в протокол вместе с причиной блокировки и датой её установки.",
                     "anonymize_description": "Все привязки IP адресов к пользователю убраны, но IP адрес остается заблокирован, с записью о причине блокировки. Убедитесь, что в поле \"причина\" не содержится персональных данных."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_ban_ips": {
+                    "banned": "Забаненный ip {ip}",
+                    "unbanned": "Разбанен ip {ip}"
                 }
             }
         }

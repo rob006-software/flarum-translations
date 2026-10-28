@@ -65,5 +65,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "posts": {
+                    "moved": "Moved {post_count, plural, one {one post} other {{post_count} posts}} from {discussion} to {new_discussion}",
+                    "moved_to_new_discussion": "Moved {post_count, plural, one {one post} other {{post_count} posts}} from {discussion} into the new discussion {new_discussion}"
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,42 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "Moderador Automático",
+            "flag_message": "Continha termos bloqueados"
+        },
+        "admin": {
+            "title": "Filtro",
+            "bad_words_help": "Digite os textos ou palavras a filtrar, um por linha. Se o conteúdo do post de um usuário contiver um termo que você queira filtrar, ele será sinalizado para aprovação. Resistente a 133t.",
+            "help2": "Intervalo em minutos em que posts do mesmo usuário na mesma discussão serão mesclados automaticamente.",
+            "email_help": "Corpo do e-mail de sinalização. Aceita HTML ou texto simples. Use %USERNAME% para inserir o nome de usuário de quem teve o post sinalizado.\n",
+            "filter_label": "Termos a filtrar",
+            "countLabel": "Tolerância da Censura",
+            "cooldownLabel": "Intervalo de Mesclagem de Posts",
+            "auto_merge_title": "Mesclagem automática",
+            "input": {
+                "placeholder": "Termos a serem filtrados",
+                "filter_title": "Termos a filtrar",
+                "email_label": "Configurações de E-mail",
+                "email_help": "Deixe vazio para permitir o uso de traduções. Você pode usar o FoF Linguist para traduzir o e-mail.",
+                "switch": {
+                    "email": "Enviar e-mail ao usuário ao filtrar um post",
+                    "merge": "Mesclar posts duplos automaticamente",
+                    "delete": "Excluir posts filtrados automaticamente"
+                },
+                "email_subject": "Assunto",
+                "email_body": "Corpo"
+            },
+            "nav": {
+                "text": "Filtro",
+                "desc": "Filtrar posts por palavras"
+            },
+            "permission": {
+                "bypass_filter_label": "Ignorar filtro(s) de palavras"
+            },
+            "email": {
+                "default_subject": "Sobre Seu Post Recente",
+                "default_text": "%USERNAME%,\n\nObrigado por postar! Infelizmente, seu post foi removido porque continha algo que não queremos ver em nossos fóruns.\n\nSe você acredita que foi um engano, está com sorte: cada post removido é revisado pelos nossos moderadores. Se concluírem que a remoção foi indevida, eles o restaurarão.\n\nObrigado pela compreensão.\n"
+            }
+        }
+    }
+}

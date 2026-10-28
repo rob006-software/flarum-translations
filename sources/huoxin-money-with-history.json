@@ -1,0 +1,71 @@
+{
+    "huoxin-money-with-history": {
+        "admin": {
+            "settings": {
+                "title": "Settings",
+                "post_reward_amount": "Money given for a new post",
+                "discussion_reward_amount": "Money given for a new discussion",
+                "money_name": "Name of the money (ex: [money] points)",
+                "min_post_length": "Post minimum length to get the money (0 to disable)",
+                "exclude_mentions_from_length": "When checking the word count of replies, only focus on the content section",
+                "hide_zero_balances": "Do not show if the money value is zero",
+                "remove_money_trigger": "Automatically update money",
+                "cascade_money_removal": "Remove money for posts when a discussion is deleted",
+                "reward_private_discussion": "Allow earning money in private discussions",
+                "like_reward_amount": "Money given when a post is liked",
+                "help_extension_likes": "Requires the <code>flarum/likes</code> extension",
+                "reward_self_like": "Allow users to earn money by self like"
+            },
+            "permissions": {
+                "edit_money_label": "Edit money",
+                "disable_money_label": "Disable money reward",
+                "query_others_history": "View Others' Money History"
+            },
+            "remove_money_trigger": [
+                "Never remove money",
+                "When a discussion/post is hidden or restored (default)",
+                "When a discussion/post is deleted"
+            ]
+        },
+        "forum": {
+            "nav": "Money History",
+            "title": "Money History",
+            "list-empty": "No records found",
+            "money-list-load-more": "Load more",
+            "money-history": {
+                "discussion-deleted": "Discussion deletion deduction",
+                "discussion-hidden": "Discussion hidden deduction",
+                "discussion-restored": "Discussion restore reward",
+                "discussion-reward": "Discussion reward",
+                "manual-adjustment": "Manual balance adjustment",
+                "post-deleted": "Post deletion deduction",
+                "post-hidden": "Post hidden deduction",
+                "post-liked": "Post like reward",
+                "post-restored": "Post restore reward",
+                "post-reward": "Post reward",
+                "post-unliked": "Post unlike deduction"
+            },
+            "record": {
+                "from": "from",
+                "money-out": "Charging",
+                "money-in": "Reward",
+                "money-list-type": "Type",
+                "money-list-assign-at": "Time",
+                "money-list-id": "ID",
+                "money-list-from-user": "Operator",
+                "money-list-target-user": "Operation account",
+                "money-list-amount": "Amount",
+                "money-list-transfer-notes": "Purpose",
+                "money-list-balance": "Balance"
+            },
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "modal": {
+                "title": "{username}'s money",
+                "current": "Current:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

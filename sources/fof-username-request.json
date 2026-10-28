@@ -107,5 +107,19 @@
                 "rejected": "{display_name} rejected your username change to {requested_username}"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "Requested new nickname {new_nickname} for user {username}",
+                    "nickname_request_approved": "Approved {username}'s nickname change from {old_nickname} to {new_nickname}",
+                    "nickname_request_rejected": "Rejected {username}'s nickname change",
+                    "username_requested": "Requested new username {new_username} for user {username}",
+                    "username_request_approved": "Approved {username}'s username change from {old_username} to {new_username}",
+                    "username_request_rejected": "Rejected {username}'s username change"
+                }
+            }
+        }
     }
 }

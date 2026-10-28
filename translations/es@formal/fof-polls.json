@@ -49,7 +49,7 @@
             }
         },
         "forum": {
-            "days_remaining": "La encuesta termina en {hora}.",
+            "days_remaining": "La encuesta termina en {time}.",
             "no_permission": "No tienes permiso para votar",
             "poll_ended": "Esta encuesta ha terminado.",
             "public_poll": "Ver los votantes",
@@ -96,6 +96,9 @@
                     "edit_title": "Editar grupo de encuesta",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Eliminar grupo de encuesta",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Administrador de grupos de encuestas",
                     "view_group": "",
                     "success": ""
@@ -169,13 +172,14 @@
                 "date_placeholder": "Fecha de finalización de la encuesta (opcional)",
                 "edit_title": "Editar la encuesta",
                 "include_question": "Debe incluir una pregunta",
-                "max": "Puede tener un máximo de 10 respuestas",
+                "max": "Puede tener un máximo de {max} respuestas",
                 "min": "Debe incluir un mínimo de 2 respuestas",
                 "empty_answers": "",
                 "no_voters": "Sin votos",
                 "option_placeholder": "Respuesta",
                 "image_option_placeholder": "URL de la imagen (opcional)",
                 "options_label": "Respuestas",
+                "settings_label": "",
                 "public_poll_label": "Permitir que la gente vea quién ha votado",
                 "allow_multiple_votes_label": "Permitir votar a varias opciones",
                 "max_votes_label": "Número máximo de votos por usuario",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Borrar imagen",
                 "upload_button": "Cargar imagen"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

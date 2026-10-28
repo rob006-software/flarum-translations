@@ -1,0 +1,83 @@
+{
+    "forumaker-statser": {
+        "forum": {
+            "widget": {
+                "online_users": "Online",
+                "online_users_count": "{count, plural, one {# Benutzer} other {# Benutzer}}",
+                "online_guests_count": "{count, plural, one {# Gast} other {# Gäste}}",
+                "hidden_users_count": "{count, plural, one {# verborgen} other {# verborgen}}",
+                "total_users": "{count, plural, one {Benutzer} other {Benutzer}}",
+                "discussions": "{count, plural, one {Diskussion} other {Diskussionen}}",
+                "posts": "{count, plural, one {Beitrag} other {Beiträge}}",
+                "latest_registration": "neuester Benutzer",
+                "online_label": "Online",
+                "guests_label": "Gäste",
+                "hidden_label": "Verborgen",
+                "empty_online": "Derzeit ist niemand online",
+                "viewing_unknown": "Stöbert im Forum",
+                "viewing_page": "Liest {page}",
+                "title": "Online-Statistiken"
+            },
+            "routes": {
+                "index": "alle Diskussionen",
+                "discussion": "Diskussion „{title}“",
+                "tag": "Tag „{name}“",
+                "user": "{name}s Profil",
+                "tags": "Startseite",
+                "settings": "Einstellungen",
+                "notifications": "Benachrichtigungen",
+                "flags": "Meldungen",
+                "search": "Suche",
+                "generic": "das Forum",
+                "private_discussion": "eine private Diskussion",
+                "arena": "Kämpfe in der Arena"
+            },
+            "aria": {
+                "expand": "Online-Benutzer anzeigen",
+                "collapse": "Online-Benutzer verbergen"
+            }
+        },
+        "admin": {
+            "settings": {
+                "section_online": "Online",
+                "section_stats": "Forumzähler",
+                "section_activity": "Aktivität",
+                "show_online_users": "Online-Benutzer anzeigen",
+                "show_online_users_help": "Aktiviert den Online-Block im Widget",
+                "show_online_guests": "Gastzähler anzeigen",
+                "show_online_guests_help": "Ungefähre Anzahl nicht authentifizierter Besucher auf Basis von IP- und User-Agent-Fingerabdrücken",
+                "show_hidden_users": "Anzahl der versteckten Benutzer anzeigen",
+                "show_hidden_users_help": "Anzahl der anonymen Nutzer, ohne deren Identität preiszugeben",
+                "include_guests_in_total": "Gäste bei der Online-Zählung mit einbeziehen",
+                "exclude_bots": "Bots bei Zählung der Gäste ausschließen",
+                "exclude_bots_help": "Verhindert, dass Suchmaschinen-Crawler den Gästezähler in die Höhe treiben",
+                "last_seen_interval": "Online-Intervall – in Minuten",
+                "last_seen_interval_help": "Minuten der Inaktivität, nach der ein Benutzer nicht mehr als online zählt",
+                "online_users_cache_ttl": "Cache für Online-Nutzer – in Sekunden",
+                "show_discussions_count": "Anzahl der Diskussionen anzeigen",
+                "show_posts_count": "Anzahl der Beiträge anzeigen",
+                "show_users_count": "Gesamtzahl der Benutzer anzeigen",
+                "show_latest_registration": "Neueste Registrierung anzeigen",
+                "stats_cache_duration": "Statistik-Cache – in Sekunden",
+                "stats_cache_duration_help": "0 deaktiviert das Caching. Nicht empfohlen für große Foren",
+                "ignore_private_discussions": "Private Diskussionen aus der Zählung ausschließen",
+                "show_current_page": "Die vom Benutzer aktuell angesehene Seite anzeigen, wenn der Mauszeiger über das Profilbild bewegt wird",
+                "show_current_page_help": "Verfolgt die Hauptbereiche des Forums – Diskussionen und Profile. Zeigt andernfalls eine allgemeine Bezeichnung an",
+                "enable_heartbeat": "Aktivitäts-Herzschlag aktivieren",
+                "enable_heartbeat_help": "Ein geöffneter Tab sendet in regelmäßigen Abständen eine Anfrage, die den aktiven Status des Benutzers aktualisiert",
+                "heartbeat_interval": "Intervall des Aktivitätsherzschlags – in Sekunden",
+                "heartbeat_interval_help": "Wie oft ein aktiver Tab einen Präsenz-Ping sendet. Niedrigere Werte sind genauer, verursachen jedoch mehr Hintergrundanfragen",
+                "max_avatars": "Maximaler Anzahl an Avataren im Widget",
+                "max_avatars_help": "Wie viele Avatare sollen im Widget angezeigt werden? Alle weiteren werden zu einem „+N“-Zähler zusammengefasst."
+            },
+            "permissions": {
+                "view_online_users": "Aktuelle Online-Benutzer im Widget anzeigen",
+                "view_discussions_count": "Anzahl der Diskussionen im Widget anzeigen",
+                "view_posts_count": "Anzahl der Beiträge im Widget anzeigen",
+                "view_users_count": "Gesamtzahl der Nutzer im Widget anzeigen",
+                "view_latest_registration": "Letzte Registrierung im Widget anzeigen",
+                "view_current_page": "Zuletzt aufgerufene Seiten im Widget anzeigen"
+            }
+        }
+    }
+}

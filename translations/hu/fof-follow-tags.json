@@ -44,6 +44,12 @@
                 "new_post_text": "{username} bejegy",
                 "new_discussion_tag_text": "{username} megváltoztatta a címkét"
             },
+            "prompt": {
+                "choose_button": "Követendő címkék kiválasztása",
+                "modal_title": "Követendő címkék kiválasztása",
+                "later_button": "Emlékeztessen később",
+                "continue_button": "Tovább a fórumhoz"
+            },
             "user": {
                 "settings": {
                     "heading": "Címke követése",
@@ -55,35 +61,52 @@
             "settings": {
                 "following_page_default_label": "Alapértelmezett követett oldal szűrése",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "prompt_new_users_label": "Új felhasználók megkérdezése, hogy mely címkéket követik",
+                "prompt_new_users_help": "A felhasználók akik még nem erősítették meg a döntésüket, egy párbeszédablakot fognak látni, amely címkék követésére kéri őket. A párbeszédablak addig jelenik meg, amíg a felhasználók meg nem nyomják a „Tovább a fórumhoz” gombot.\n",
+                "prompt_button_on_following_page_label": "A „Követendő címkék kiválasztása” gomb megjelenítése a Követve oldalon",
+                "prompt_tag_strategy_label": "Felajánlandó címkék a párbeszédablakon",
+                "prompt_tag_strategy_options": {
+                    "primary": "Első szintű elsődleges címkék",
+                    "primaryAndChildren": "Összes elsődleges címke",
+                    "primaryAndSecondary": "Első szintű elsődleges és másodlagos címkék",
+                    "secondary": "Csak a másodlagos címkék",
+                    "all": "Összes címke",
+                    "list": "Alább kiválasztott címkék"
+                },
+                "prompt_tag_ids_label": "Felajánlandó címkék",
+                "all_discussions_on_following_page_for_guests_label": "Összes téma megjelenítése a vendégek Követve oldalán"
+            },
+            "basics": {
+                "following_label": "=> flarum-subscriptions.forum.index.following_link"
             }
         },
         "email": {
             "newDiscussionInTag": {
-                "subject": "",
+                "subject": "[Címke | Új téma] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} témát indított egy címkében, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} témát indított egy címkében, melyet követ: [{discussion_title}]({discussion_url})\n"
                 }
             },
             "newPostInTag": {
-                "subject": "",
+                "subject": "[Címke | Új bejegyzés] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: [{discussion_title}]({post_url})\n"
                 }
             },
             "newDiscussionTag": {
-                "subject": "",
+                "subject": "[Címke | Címke megváltoztatva] {title}",
                 "plain": {
-                    "body": ""
+                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{content}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: [{discussion_title}]({discussion_url})\n"
                 }
             }
         },

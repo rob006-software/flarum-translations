@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -111,6 +119,8 @@
                 "edit_css_button": "Επεξεργασία προσαρμοσμένου CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Γράψε εδώ τον δεκαεξαδικό κωδικό χρώματος.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.",
@@ -118,6 +128,8 @@
                 "logo_text": "Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Εμφάνιση",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -195,8 +207,41 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Διαγραφή Cache",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Το forum σου με μια ματιά.",
                 "info_button": "",
                 "info_modal": {
@@ -238,8 +283,16 @@
                 "section_disabled_help": "",
                 "suggested_by": ""
             },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
+            },
             "debug-warning": {
-                "detail": "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum<-link> για περισσότερες πληροφορίες.\n",
+                "detail": "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum</link> για περισσότερες πληροφορίες.\n",
                 "label": "Λειτουργία αποσφαλμάτωσης ενεργή"
             },
             "edit_css": {
@@ -405,6 +458,7 @@
                 "delete_posts_forever_label": "Οριστική διαγραφή δημοσιεύσεων",
                 "delete_posts_label": "Διαγραφή δημοσιεύσεων",
                 "description": "Διαμόρφωσε ποιος μπορεί να δει και να κάνει τι.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Επεξεργασία δημοσιεύσεων",
                 "edit_users_label": "Επεξεργασία χρηστών",
                 "edit_users_credentials_label": "Επεξεργασία των διαπιστευτηρίων χρήστη",
@@ -432,7 +486,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Επ 'αόριστον",
                 "allow_never_button": "",
-                "allow_some_minutes_button": "Για {count} λεπτό|Για {count} λεπτά",
+                "allow_some_minutes_button": "{count, plural, one {Για # λεπτό} other {Για # λεπτά}}",
                 "allow_ten_minutes_button": "Για 10 λεπτά",
                 "allow_until_reply_button": "Μέχρι την επόμενη απάντηση",
                 "everyone_button": "Όλοι",
@@ -579,7 +633,8 @@
                 "search_role_label": "Αναζήτηση στο forum",
                 "session_dropdown_accessible_label": "Εναλλαγή πτυσσόμενου μενού επιλογών session",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,12 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Εναλλαγή πτυσσόμενου μενού πλοήγησης"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Τα πιο πρόσφατα",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Αλλαγή ταξινόμησης λίστας συζητήσεων",
-                "top_button": "Τα πιο δημοφιλή"
+                "top_button": "Τα πιο δημοφιλή",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Ξεχάσατε τον κωδικό σας;",
@@ -608,6 +665,7 @@
                 "sign_up_text": "Δεν έχετε λογαριασμό; <a>Εγγραφή</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": ""
             },
             "notifications": {
@@ -643,8 +701,8 @@
             "post_scrubber": {
                 "now_link": "Τώρα",
                 "original_post_link": "Αρχική δημοσίευση",
-                "unread_text": "{count} μη αναγνωσμένο|{count} μη αναγνωσμένα",
-                "viewing_text": "{index} από {count} δημοσίευση|{index} από {count} δημοσιεύσεις"
+                "unread_text": "{count, plural, one {# μη αναγνωσμένο} other {# μη αναγνωσμένα}}",
+                "viewing_text": "{count, plural, one {{index} από {formattedCount} δημοσίευση} other {{index} από {formattedCount} δημοσιεύσεις}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Ο παλιός τίτλος ήταν: \"{old}\"",
@@ -718,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Ιστοσελίδα",
                 "notify_discussion_renamed_label": "Κάποιος μετονόμασε μια συζήτηση που ξεκίνησα",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -768,9 +827,14 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
+            },
+            "assets_updated": {
+                "message": "",
+                "reload_button": ""
             },
             "badge": {
                 "hidden_tooltip": "Κρυφό"
@@ -804,7 +868,9 @@
                 "generic_message": "Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "Δεν είναι δυνατή η ενεργοποίηση του πρόσθετου {extension} έως ότου ενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}",
+                "network_message": "",
                 "not_found_message": "Η πηγή που ζητήσατε δεν βρέθηκε.",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Δυστυχώς δεν έχετε τα απαραίτητα δικαώματα για να το κάνετε αυτό.",
                 "rate_limit_exceeded_message": "Δοκιμάσατε αρκετές φορές. Για λόγους ασφαλείας, ξαναδοκιμάστε σε λίγα λεπτά.",
@@ -849,6 +915,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": ""
+            },
             "input": {
                 "clear_button": ""
             },
@@ -866,7 +935,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -874,9 +944,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -895,6 +977,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -996,7 +1079,8 @@
                 "password_placeholder": "",
                 "remember_me_label": "",
                 "submit_button": "",
-                "title": ""
+                "title": "",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Επιβεβαίωση του κωδικού πρόσβασης",
@@ -1093,6 +1177,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "Φόρτωσε περισσότερα",
+            "latest": "",
             "loading": "",
             "log_in": "Σύνδεση",
             "log_out": "Αποσύνδεση",
@@ -1120,8 +1205,12 @@
             "security": "",
             "settings": "Ρυθμίσεις",
             "sign_up": "Εγγραφή",
-            "some_others": "{count} άλλος|{count} άλλοι",
+            "some_others": "{count, plural, one {# άλλος} other {# άλλοι}}",
             "start_a_discussion": "Νέα συζήτηση",
+            "title_az": "",
+            "title_za": "",
+            "too_many_login_attempts_message": "",
+            "top": "",
             "username": "Username",
             "username_or_email_placeholder": "",
             "users": "Χρήστες",

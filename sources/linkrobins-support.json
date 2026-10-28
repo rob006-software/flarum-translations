@@ -12,7 +12,8 @@
             },
             "permissions": {
                 "handle_tickets": "Handle support tickets",
-                "manage_appeal_bans": "Manage support appeal-bans"
+                "manage_appeal_bans": "Manage support appeal-bans",
+                "force_delete_tickets": "Permanently delete support tickets"
             },
             "categories": {
                 "heading": "Support categories",
@@ -24,6 +25,8 @@
                 "column_name": "Name",
                 "column_slug": "Slug",
                 "column_type": "Type",
+                "column_assignee": "Assigned to",
+                "assignee_all_staff": "All staff",
                 "column_tickets": "Tickets",
                 "general_badge": "General",
                 "appeal_badge": "Appeal",
@@ -45,13 +48,27 @@
                 "field_icon_help": "A Font Awesome class, e.g. fas fa-life-ring.",
                 "field_position": "Position",
                 "field_position_help": "Categories are ordered by this value, lowest first.",
-                "field_is_appeal": "Appeal category",
-                "field_is_appeal_help": "Tickets opened in this category are treated as ban appeals.",
+                "field_ticket_type": "Ticket type",
+                "field_ticket_type_help": "Determines the workflow, decision options, and rate limits for tickets in this category.",
+                "field_default_assignee": "Assign new tickets to",
+                "field_default_assignee_none": "Nobody -- notify all staff",
+                "field_default_assignee_help": "New tickets in this category are assigned to this person, and only they are notified about them. Leave it on \"Nobody\" to notify every staff member instead and let whoever replies first pick the ticket up.",
+                "field_default_assignee_loading": "Loading staff...",
+                "field_default_assignee_unavailable": "{name} (no longer support staff)",
+                "field_default_assignee_error": "Couldn't load the list of staff. The current setting is unchanged.",
+                "field_allowed_groups": "Allowed user groups",
+                "field_allowed_groups_help": "Leave empty to allow all registered users permitted by the ticket type. Select specific groups to restrict who can create tickets in this category.",
                 "submit_create": "Create category",
                 "submit_update": "Save changes",
                 "error_load": "Couldn't load this category.",
                 "error_save": "Couldn't save the category. Please check the fields and try again.",
                 "error_delete": "Couldn't delete the category."
+            },
+            "ticket_types": {
+                "standard": "Standard Support",
+                "standard_help": "Regular support tickets for general inquiries, bug reports, and account help.",
+                "appeal": "Ban Appeal",
+                "appeal_help": "Tickets opened in this category are treated as ban appeals with appeal rate limits."
             },
             "appeal_bans": {
                 "heading_alt": "Appeal bans",
@@ -62,6 +79,44 @@
                 "column_email": "Email",
                 "load_more": "Load more",
                 "view_banned_button": "View appeal-banned users"
+            },
+            "navigation": {
+                "heading": "Navigation",
+                "intro": "Where the Support link appears, and what the sidebar shows on support pages.",
+                "in_sidebar": "Show the Support link in the forum sidebar",
+                "in_sidebar_help": "The link that sits with All Discussions and Tags. Members only either way: guests cannot open a ticket.",
+                "in_account_menu": "Show the Support link in the account menu",
+                "in_account_menu_help": "The menu under your avatar, alongside Profile and Settings.",
+                "forum_nav": "Show the forum's navigation on support pages",
+                "forum_nav_help": "When on, support pages also list All Discussions, Following and Tags above the ticket filters. Off by default, so support pages show only the tickets."
+            },
+            "saved_replies": {
+                "heading": "Saved replies",
+                "intro": "Common answers staff can insert into a ticket reply from the composer, then edit before sending. Only staff see them.",
+                "empty": "No saved replies yet.",
+                "new_button": "New saved reply",
+                "edit_button": "Edit",
+                "title_new": "New saved reply",
+                "title_edit": "Edit saved reply",
+                "field_title": "Title",
+                "field_title_help": "What staff pick from the list, for example \"Need your forum URL\".",
+                "field_content": "Text",
+                "field_content_help": "Inserted into the reply exactly as written. Markdown and BBCode work as they do in any reply.",
+                "field_position": "Position",
+                "field_position_help": "Optional. Lower numbers come first; the rest follow alphabetically.",
+                "submit_create": "Create",
+                "submit_update": "Save changes",
+                "delete_button": "Delete",
+                "delete_confirm": "Delete the saved reply \"{name}\"?",
+                "error_save": "Could not save the saved reply."
+            },
+            "auto_close": {
+                "heading": "Reminders and automatic closing",
+                "intro": "Close tickets that stay Resolved with no further activity. A reply from either side reopens a resolved ticket, so this only closes tickets nobody came back to. Nobody is notified; the ticket history shows it was closed automatically, and the owner can still reopen it.",
+                "days": "Close resolved tickets after (days)",
+                "days_help": "Counted from when the ticket was resolved or last replied to, whichever is later. Set to 0 to turn this off. Runs once an hour, and needs the Flarum scheduler (php flarum schedule:run) set up in cron.",
+                "reminder_days": "Remind the owner after (days)",
+                "reminder_days_help": "When a ticket has been waiting on its owner (Awaiting response) this long with no activity, they get one reminder by notification and email. Once per wait. Set to 0 to turn this off."
             },
             "rate_limits": {
                 "heading": "Rate limits",
@@ -94,11 +149,21 @@
                 "reply_from": "{name} replied to your ticket",
                 "reply_generic": "Support replied to your ticket",
                 "new_ticket": "{name} opened a new support ticket",
-                "new_appeal": "{name} opened a new appeal"
+                "new_appeal": "{name} opened a new appeal",
+                "status_changed": "Your ticket was marked {status}",
+                "status_changed_generic": "A ticket was marked {status}",
+                "reopened_by_owner": "{name} reopened their ticket",
+                "confirmed_solved_by_owner": "{name} confirmed their ticket was solved",
+                "awaiting_reminder": "Support is waiting for your reply",
+                "assigned": "{name} assigned a ticket to you",
+                "assigned_generic": "A ticket was assigned to you"
             },
             "settings": {
                 "notify_new_reply_label": "Someone replies to my support ticket",
-                "notify_new_ticket_label": "A new support ticket is opened (staff)"
+                "notify_new_ticket_label": "A new support ticket is opened (staff)",
+                "notify_status_changed_label": "A support ticket's status changes",
+                "notify_awaiting_reminder_label": "Support has been waiting a few days for my reply",
+                "notify_assigned_label": "A support ticket is assigned to me"
             },
             "status": {
                 "in_progress": "In progress",
@@ -107,26 +172,127 @@
                 "resolved": "Resolved",
                 "closed": "Closed"
             },
+            "guest": {
+                "message": "Sign in to see your tickets.",
+                "ticket_message": "Sign in to view this ticket.",
+                "compose_message": "Sign in to open a support ticket.",
+                "log_in": "Log In",
+                "sign_up": "Sign Up"
+            },
             "index": {
                 "my_tickets": "My tickets",
+                "filter_assigned_to_me": "Assigned to me",
+                "filter_unassigned": "Unassigned",
                 "filter_all": "All",
                 "new_ticket": "New ticket",
                 "new_ticket_tooltip": "Open a new support ticket",
                 "empty_own": "No tickets yet. Click \"New ticket\" to open one.",
                 "empty": "No tickets to show.",
-                "untitled": "Untitled"
+                "search_placeholder": "Search tickets",
+                "unread": "New replies",
+                "no_results": "No tickets match your search.",
+                "empty_assigned_to_me": "No open tickets are assigned to you.",
+                "empty_unassigned": "Every open ticket has been claimed.",
+                "empty_status": {
+                    "open": "No open tickets.",
+                    "in_progress": "No tickets in progress.",
+                    "awaiting_response": "No tickets awaiting a response.",
+                    "resolved": "No resolved tickets.",
+                    "closed": "No closed tickets."
+                },
+                "unassigned": "Unassigned",
+                "assigned_to": "Assigned to {name}",
+                "untitled": "Untitled",
+                "deleted_badge": "Deleted",
+                "tickets": "Tickets",
+                "search_all_tickets": "View all tickets matching \"{query}\"",
+                "search_tickets_title": "Search tickets",
+                "search_results_title": "Search results for \"{query}\"",
+                "tickets_found": "{count} ticket found",
+                "tickets_found_plural": "{count} tickets found",
+                "back_to_desk": "Back to support",
+                "reset_search": "Clear search"
+            },
+            "assign": {
+                "title": "Assign ticket",
+                "load_failed": "Could not load the support team.",
+                "you": "(you)",
+                "unassign": "Unassign"
+            },
+            "priority": {
+                "urgent": "Urgent",
+                "low": "Low priority"
+            },
+            "stats": {
+                "auto": "Closed automatically",
+                "backlog": "Backlog right now",
+                "by_staff": "Closed by staff",
+                "closed": "Tickets closed",
+                "col_first": "First to answer",
+                "col_first_time": "Typical first response",
+                "col_period": "Period",
+                "col_replies": "Replies",
+                "col_tickets": "Tickets",
+                "confirmed": "Confirmed by the owner",
+                "days": "{count} days",
+                "endings": "How resolved tickets were closed",
+                "first_response": "First response",
+                "first_response_slow": "Slowest first response",
+                "footnote": "Status history is recorded from this version on, so time to resolve and how tickets were closed fill in as new tickets move through.",
+                "hours": "{count} h",
+                "legend_closed": "Closed",
+                "legend_opened": "Opened",
+                "load_failed": "Could not load stats.",
+                "median_note": "typical (median) and slowest tenth",
+                "minutes": "{count} min",
+                "n_days": "{count} days",
+                "no_endings": "None closed in this period.",
+                "no_people": "No staff replies in this period.",
+                "older_3": "Over 3 days",
+                "older_7": "Over 7 days",
+                "opened": "Tickets opened",
+                "people": "By staff member",
+                "period_summary": "{period}: {opened} opened, {closed} closed",
+                "range": "Time range",
+                "resolve_slow": "Slowest resolve",
+                "show_table": "Show as a table",
+                "speed": "Response times",
+                "still_waiting": "Still waiting for a reply",
+                "time_to_resolve": "Time to resolve",
+                "title": "Support stats",
+                "unassigned": "Unassigned",
+                "volume": "Opened and closed",
+                "waiting": "Waiting",
+                "week_of": "Week of {date}"
+            },
+            "event": {
+                "status_changed": "{name} changed the status from {from} to {to}",
+                "status_changed_no_actor": "The status changed from {from} to {to}",
+                "status_changed_automatically": "The status changed automatically from {from} to {to}",
+                "auto_closed": "Closed automatically after a period with no activity",
+                "claimed": "{name} claimed this ticket",
+                "assigned": "{name} assigned this ticket to {assignee}",
+                "assigned_no_actor": "Assigned to {assignee}",
+                "unassigned": "{name} unassigned {assignee}",
+                "unassigned_no_actor": "{assignee} was unassigned",
+                "reassigned": "{name} reassigned this ticket from {from} to {to}",
+                "reassigned_no_actor": "Reassigned from {from} to {to}",
+                "deleted_user": "a deleted user"
             },
             "errors": {
                 "load_tickets": "Could not load tickets.",
+                "load_more_tickets": "Could not load more tickets.",
                 "unknown": "Unknown error.",
                 "submit": "Could not submit.",
                 "submit_ticket": "Could not submit the ticket.",
                 "upload": "Could not upload file.",
                 "upload_no_files": "Upload returned no files. Please try again.",
                 "load_ticket": "Could not load this ticket. It may have been deleted, or you may not have permission to view it.",
+                "load_more_replies": "Could not load more replies.",
                 "update_assignment": "Could not update assignment.",
+                "update_priority": "Could not update the priority.",
                 "update_status": "Could not update status.",
-                "update_decision": "Could not update the appeal decision.",
+                "update_decision": "Could not update the decision.",
                 "save_edit": "Could not save the edit.",
                 "delete_reply": "Could not delete the reply.",
                 "restore_reply": "Could not restore the reply.",
@@ -160,9 +326,10 @@
                 "title": "Ticket",
                 "closed_notice": "This ticket has been closed and cannot be replied to.",
                 "cannot_reply": "You cannot reply to this ticket.",
-                "closed_badge": "Closed ticket",
-                "opened_by": "Opened by",
-                "assigned_to": "Assigned to",
+                "confirm_solved_prompt": "This ticket was marked resolved. Did this solve your problem?",
+                "confirm_solved_yes": "Yes, close it",
+                "confirm_solved_no": "No, I still need help",
+                "assigned_to_name": "Assigned to {name}",
                 "unassigned": "Unassigned",
                 "decision": "Decision:",
                 "deleted_badge": "Deleted"
@@ -173,14 +340,15 @@
                 "rejected": "Rejected"
             },
             "staff": {
-                "set_status": "Set status:",
-                "set_decision": "Appeal decision:"
+                "change_status": "Change status",
+                "change_decision": "Change decision"
             },
             "reply": {
                 "deleted_notice": "This reply was deleted.",
                 "mod_actions": "Moderation actions",
                 "internal_placeholder": "Internal note (only staff will see this)…",
                 "internal_note": "Internal note",
+                "saved_replies": "Saved replies",
                 "post_reply": "Post reply",
                 "posting": "Posting…",
                 "discard_confirm": "You have unsaved changes. Discard them?",
@@ -196,14 +364,16 @@
                 "saving": "Saving…",
                 "edit_reply": "Edit reply",
                 "attach_files": "Attach files",
-                "claim": "Claim",
-                "unassign": "Unassign",
+                "reopen": "Reopen ticket",
                 "edit": "Edit",
                 "delete": "Delete",
                 "restore": "Restore",
-                "cancel": "Cancel"
+                "cancel": "Cancel",
+                "load_more_replies": "Load more replies",
+                "loading_more": "Loading…"
             },
             "confirm": {
+                "close_ticket": "Close this ticket? It cannot be replied to until it is reopened.",
                 "delete_reply_forever": "Permanently delete this reply? This cannot be undone.",
                 "soft_delete_reply": "Soft-delete this reply? Staff can restore it later.",
                 "soft_delete_ticket": "Soft-delete this ticket? It will be hidden from the index and from the ticket owner; staff can restore it.",
@@ -212,6 +382,10 @@
             "ticket": {
                 "delete": "Delete ticket",
                 "restore": "Restore ticket",
+                "assign": "Assign…",
+                "priority_urgent": "Mark as urgent",
+                "priority_normal": "Normal priority",
+                "priority_low": "Mark as low priority",
                 "mod_actions": "Ticket moderation actions"
             },
             "user_controls": {
@@ -232,11 +406,83 @@
             "ticket_type_appeal": "appeal ticket",
             "ticket_type_general": "support ticket",
             "new_ticket_body": "A new {type} was just opened by {name}:",
-            "open_ticket": "Open the ticket"
+            "open_ticket": "Open the ticket",
+            "status_changed_subject": "[{subject}] marked {status}",
+            "status_changed_body": "Your support ticket has been marked {status}.",
+            "status_changed_body_generic": "A support ticket was marked {status}.",
+            "reopened_by_owner_body": "{name} reopened their ticket.",
+            "confirmed_solved_body": "{name} confirmed their ticket was solved and closed it.",
+            "awaiting_reminder_subject": "[{subject}] Waiting for your reply",
+            "awaiting_reminder_body": "Our support team is waiting for your reply on this ticket. Answer when you can and we will pick it straight back up.",
+            "assigned_subject": "Assigned to you: {subject}",
+            "assigned_body": "{name} assigned this support ticket to you."
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "author",
+                        "hint": "username"
+                    },
+                    "type": {
+                        "key": "type",
+                        "hint": "standard or appeal",
+                        "types": {
+                            "standard": "Standard support tickets",
+                            "appeal": "Ban appeal tickets"
+                        }
+                    },
+                    "assigned": {
+                        "key": "assigned",
+                        "hint": "me or none",
+                        "options": {
+                            "me": "Assigned to me",
+                            "none": "Unassigned tickets"
+                        }
+                    },
+                    "unassigned": {
+                        "key": "unassigned",
+                        "hint": "Unassigned tickets"
+                    },
+                    "mine": {
+                        "key": "mine",
+                        "hint": "Tickets filed by me"
+                    },
+                    "priority": {
+                        "key": "priority",
+                        "hint": "urgent, normal, or low",
+                        "levels": {
+                            "urgent": "Urgent priority",
+                            "normal": "Normal priority",
+                            "low": "Low priority"
+                        }
+                    },
+                    "category": {
+                        "key": "category",
+                        "hint": "slug"
+                    },
+                    "status": {
+                        "key": "status",
+                        "hint": "open, in-progress, awaiting-response, resolved, or closed",
+                        "statuses": {
+                            "open": "Open tickets",
+                            "in_progress": "In progress",
+                            "awaiting_response": "Awaiting response",
+                            "resolved": "Resolved",
+                            "closed": "Closed"
+                        }
+                    }
+                }
+            }
         },
         "api": {
+            "category_not_permitted": "Your account is not permitted to create tickets in this category.",
+            "unknown_ticket_type": "That ticket type is not available. Pick one from the list.",
+            "decision_not_allowed": "Tickets in this category do not take that decision.",
             "assign_staff_only": "Tickets can only be assigned to support staff.",
+            "default_assignee_staff_only": "A category can only be assigned to support staff.",
             "category_required": "A category is required.",
+            "subject_required": "A subject is required.",
             "ticket_soft_delete_first": "A ticket must be soft-deleted before it can be permanently removed.",
             "login_required_reply": "You must be logged in to reply.",
             "reply_content_required": "Reply content is required.",

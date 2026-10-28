@@ -1,0 +1,251 @@
+{
+    "linkrobins-wiki": {
+        "admin": {
+            "permissions": {
+                "create_article": "Tworzenie artykułów w wiki",
+                "comment": "Komentowanie artykułów w wiki",
+                "report_article": "Zgłaszanie artykułów w wiki",
+                "edit_articles": "Edytowanie i moderowanie wszystkich artykułów w wiki",
+                "view_history": "Wyświetlanie historii zmian artykułów w wiki"
+            },
+            "index_layout": {
+                "heading": "Strona główna wiki",
+                "intro": "Ustal, co ma się wyświetlać na stronie /wiki, korzystając z shortcode’ów. Pozostaw to pole puste, aby wyświetlać wszystkie kategorie wraz z artykułami.",
+                "label": "Układ strony głównej",
+                "help": "Każdy shortcode umieść w osobnym wierszu. Wiersze bez shortcode’ów będą wyświetlane jako tekst, a wiersze zaczynające się od #, ## lub ### staną się nagłówkami.",
+                "shortcodes_heading": "Dostępne shortcode’y",
+                "shortcode_articles": "Lista wszystkich artykułów.",
+                "shortcode_articles_cat": "Lista artykułów z kategorii wskazanej identyfikatorem lub slugiem. Można ograniczyć ją do N najnowszych artykułów. Dodaj title=\"…\", aby wyświetlić nagłówek.",
+                "shortcode_article": "Link do pojedynczego artykułu wskazanego identyfikatorem.",
+                "shortcode_categories": "Lista kategorii.",
+                "shortcode_heading": "Nagłówek (## i ### oznaczają mniejsze nagłówki).",
+                "shortcode_link": "Link. Same adresy internetowe również stają się linkami.",
+                "shortcode_html": "Surowy kod HTML w wierszach między znacznikami, np. do osadzenia treści lub widżetu. Zostaje zachowany dokładnie w podanej postaci.",
+                "per_category_label": "Liczba artykułów na kategorię",
+                "per_category_help": "Gdy układ strony jest pusty, na stronie głównej wiki wyświetlane są wszystkie kategorie wraz z podaną liczbą artykułów. Najpierw pojawiają się artykuły z ustawioną pozycją, a jeśli artykułów jest więcej, wyświetlany jest link „Zobacz wszystkie”. Wartość od 1 do 50."
+            },
+            "layout": {
+                "heading": "Układ",
+                "intro": "Ustaw położenie linku do wiki na pasku bocznym forum oraz szerokość stron wiki.",
+                "nav_position_label": "Położenie linku do wiki",
+                "nav_position_help": "Określ, gdzie na pasku bocznym pojawi się link do wiki względem „Wszystkich dyskusji” i linków dodanych przez inne rozszerzenia. Wybranie opcji „Nie pokazuj” ukryje link na pasku bocznym i w menu mobilnym. Wiki pozostanie dostępna pod adresem /wiki.",
+                "nav_position_top": "Na początku listy",
+                "nav_position_below_all": "Pod „Wszystkimi dyskusjami”",
+                "nav_position_sections": "Wśród linków do sekcji (domyślnie)",
+                "nav_position_bottom": "Na końcu listy",
+                "nav_position_hidden": "Nie pokazuj",
+                "full_width_label": "Używaj pełnej szerokości strony",
+                "full_width_help": "Po włączeniu tej opcji strony wiki będą zajmować pełną szerokość, bez paska bocznego forum. Panel ze spisem treści artykułu pozostanie bez zmian. Ponieważ filtr kategorii znajduje się na pasku bocznym, czytelnicy będą przeglądać kategorie ze strony głównej wiki."
+            },
+            "toc": {
+                "heading": "Spis treści",
+                "intro": "Wyświetlaj obok każdego artykułu automatyczny spis treści utworzony z jego nagłówków.",
+                "enabled_label": "Wyświetlaj spis treści artykułów",
+                "enabled_help": "Po włączeniu tej opcji przy każdym artykule pojawi się spis treści utworzony z nagłówków #, ## i ###. Panel boczny pozostaje widoczny podczas przewijania strony.",
+                "min_headings_label": "Minimalna liczba nagłówków",
+                "min_headings_help": "Wyświetlaj spis treści tylko wtedy, gdy artykuł zawiera co najmniej tyle nagłówków."
+            },
+            "related": {
+                "heading": "Powiązane artykuły",
+                "intro": "Wyświetlaj pod każdym artykułem krótką listę innych artykułów z tej samej kategorii.",
+                "enabled_label": "Wyświetlaj powiązane artykuły",
+                "enabled_help": "Po włączeniu tej opcji pod artykułami przypisanymi do kategorii pojawi się kilka innych artykułów z tej samej kategorii. Pod artykułami bez kategorii lista nie będzie wyświetlana.",
+                "limit_label": "Liczba wyświetlanych artykułów",
+                "limit_help": "Maksymalna liczba powiązanych artykułów, od 1 do 20."
+            },
+            "reports": {
+                "heading": "Zgłoszenia",
+                "intro": "Artykuły zgłoszone przez czytelników do sprawdzenia przez redaktora. Rozpatrzone zgłoszenia pozostają tutaj w historii, zamiast zostać usunięte.",
+                "empty": "Brak zgłoszeń.",
+                "show_resolved": "Pokaż rozpatrzone",
+                "hide_resolved": "Ukryj rozpatrzone",
+                "resolve": "Rozpatrz",
+                "reopen": "Otwórz ponownie",
+                "article_gone": "Artykuł usunięty",
+                "deleted_user": "Usunięte konto",
+                "reason_inaccurate": "Nieprawdziwe informacje",
+                "reason_outdated": "Nieaktualne informacje",
+                "reason_off_topic": "Nieodpowiednia treść",
+                "reason_duplicate": "Duplikat",
+                "reason_other": "Inny powód"
+            },
+            "categories": {
+                "heading": "Kategorie wiki",
+                "intro": "Twórz i porządkuj kategorie, do których można przypisywać artykuły.",
+                "new_button": "Nowa kategoria",
+                "edit_button": "Edytuj",
+                "delete_button": "Usuń",
+                "empty": "Nie ma jeszcze żadnych kategorii. Utwórz pierwszą kategorię.",
+                "this_category": "tę kategorię",
+                "column_name": "Nazwa",
+                "column_slug": "Slug",
+                "column_articles": "Artykuły",
+                "delete_confirm_named": "Usunąć kategorię „{name}”? Przypisane do niej artykuły pozostaną bez kategorii."
+            },
+            "category_editor": {
+                "title_new": "Nowa kategoria",
+                "title_edit": "Edytuj kategorię",
+                "field_name": "Nazwa",
+                "field_slug": "Slug",
+                "field_slug_help": "Część adresu URL kategorii. Pozostaw puste, aby wygenerować ją na podstawie nazwy.",
+                "field_slug_placeholder": "np. poradniki",
+                "field_description": "Opis",
+                "field_color": "Kolor",
+                "field_color_help": "Kolor plakietki kategorii zapisany szesnastkowo (np. #3b82f6).",
+                "field_icon": "Ikona",
+                "field_icon_help": "Klasa Font Awesome, np. fas fa-book.",
+                "field_position": "Pozycja",
+                "field_position_help": "Kategorie są sortowane według tej wartości, od najmniejszej.",
+                "submit_create": "Utwórz kategorię",
+                "submit_update": "Zapisz zmiany",
+                "error_save": "Nie udało się zapisać kategorii. Sprawdź pola i spróbuj ponownie.",
+                "error_delete": "Nie udało się usunąć kategorii."
+            }
+        },
+        "forum": {
+            "search": {
+                "heading": "Wiki",
+                "placeholder": "Szukaj w wiki",
+                "results_heading": "Wyniki wyszukiwania dla „{query}”",
+                "all_button": "Szukaj „{query}” w wiki",
+                "empty": "Nie znaleziono artykułów pasujących do „{query}”."
+            },
+            "nav": "Wiki",
+            "link_preview": {
+                "articles": ""
+            },
+            "common": {
+                "date_at_time": "{date} o {time}"
+            },
+            "index": {
+                "new_article": "Nowy artykuł",
+                "new_article_tooltip": "Napisz nowy artykuł",
+                "index_label": "Indeks",
+                "empty_own": "Nie ma jeszcze artykułów. Kliknij „Nowy artykuł”, aby napisać pierwszy.",
+                "empty": "Brak artykułów do wyświetlenia.",
+                "untitled": "Bez tytułu",
+                "deleted_badge": "Usunięty",
+                "draft_badge": "Szkic",
+                "uncategorised": "Inne",
+                "see_all_lead": "Zobacz wszystkie z kategorii",
+                "no_categories": "Nie ma jeszcze żadnych kategorii."
+            },
+            "compose": {
+                "title": "Nowy artykuł",
+                "title_edit": "Edytuj artykuł",
+                "title_label": "Tytuł",
+                "title_placeholder": "Tytuł artykułu",
+                "slug_label": "Slug adresu URL",
+                "slug_placeholder": "np. pierwsze-kroki",
+                "slug_help": "Część adresu URL artykułu. Pozostaw puste, aby wygenerować ją na podstawie tytułu.",
+                "position_label": "Pozycja",
+                "position_placeholder": "np. 1",
+                "position_help": "Określa kolejność artykułów w kategorii, od najmniejszej wartości. Artykuły bez ustawionej pozycji pojawią się po pozostałych, od najnowszego.",
+                "category_label": "Kategoria",
+                "no_category": "Bez kategorii",
+                "body_label": "Treść",
+                "body_placeholder": "Napisz artykuł. Możesz używać Markdown.",
+                "body_placeholder_click": "Kliknij, aby napisać artykuł…",
+                "body_placeholder_edit": "Kliknij, aby kontynuować edycję…",
+                "discard_confirm": "Masz niezapisany artykuł. Odrzucić go?",
+                "submit_create": "Opublikuj artykuł",
+                "submit_update": "Zapisz zmiany",
+                "draft_label": "Zapisz jako szkic",
+                "draft_help": "Dopóki nie opublikujesz szkicu, będzie widoczny tylko dla Ciebie i redaktorów wiki.",
+                "faq_heading": "FAQ",
+                "faq_help": "Opcjonalne pytania i odpowiedzi wyświetlane pod artykułem. W odpowiedziach można używać Markdown.",
+                "faq_question_placeholder": "Pytanie",
+                "faq_answer_placeholder": "Odpowiedź. Możesz używać Markdown.",
+                "faq_add": "Dodaj pytanie",
+                "faq_remove": "Usuń pytanie"
+            },
+            "show": {
+                "deleted_notice": "Ten artykuł został usunięty. Widzą go tylko redaktorzy.",
+                "draft_notice": "Ten artykuł jest szkicem. Widzą go tylko Ty i redaktorzy wiki.",
+                "toc_heading": "Spis treści",
+                "faq_heading": "Najczęściej zadawane pytania",
+                "related_heading": "Powiązane artykuły",
+                "by": "Autor: ",
+                "last_edited": "Ostatnia edycja: ",
+                "last_edited_tooltip": "Ostatnia edycja: {name}, {date}",
+                "created_tooltip": "Napisano {date}",
+                "history": "Historia ({count})",
+                "no_history": "Brak wcześniejszych wersji.",
+                "load_more_history": "Wczytaj starsze wersje",
+                "initial_version": "utworzono",
+                "diff_from_previous": "Zmiany względem poprzedniej wersji",
+                "diff_initial": "Pierwsza wersja",
+                "diff_title": "Tytuł",
+                "diff_none": "Brak zmian w treści."
+            },
+            "action": {
+                "report": "Zgłoś",
+                "edit": "Edytuj",
+                "delete": "Usuń",
+                "restore": "Przywróć",
+                "delete_forever": "Usuń na zawsze",
+                "save_changes": "Zapisz zmiany",
+                "cancel": "Anuluj"
+            },
+            "report": {
+                "title": "Zgłoś ten artykuł",
+                "intro": "Redaktorzy zobaczą to zgłoszenie wraz z artykułem.",
+                "reason_label": "Co jest nie tak z tym artykułem?",
+                "reason_inaccurate": "Zawiera nieprawdziwe informacje",
+                "reason_outdated": "Zawiera nieaktualne informacje",
+                "reason_off_topic": "Nie powinien się tu znajdować",
+                "reason_duplicate": "Powiela inny artykuł",
+                "reason_other": "Inny powód",
+                "detail_label": "Chcesz coś dodać? (opcjonalnie)",
+                "submit": "Wyślij zgłoszenie",
+                "sent": "Dziękujemy. Redaktor sprawdzi zgłoszenie.",
+                "failed": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie."
+            },
+            "comments": {
+                "heading": "Komentarze ({count})",
+                "empty": "Nie ma jeszcze komentarzy.",
+                "load_more": "Wczytaj więcej komentarzy",
+                "placeholder": "Napisz komentarz…",
+                "post": "Opublikuj komentarz",
+                "deleted": "Ten komentarz został usunięty.",
+                "discard_confirm": "Masz niewysłany komentarz. Odrzucić go?",
+                "empty_error": "Najpierw wpisz treść komentarza.",
+                "confirm_delete": "Usunąć ten komentarz?",
+                "confirm_delete_forever": "Trwale usunąć ten komentarz? Tej operacji nie można cofnąć.",
+                "error_post": "Nie udało się opublikować komentarza.",
+                "error_edit": "Nie udało się zapisać komentarza.",
+                "error_delete": "Nie udało się usunąć komentarza."
+            },
+            "confirm": {
+                "soft_delete": "Usunąć ten artykuł? Redaktorzy będą mogli go później przywrócić.",
+                "delete_forever": "Trwale usunąć ten artykuł wraz z historią zmian? Tej operacji nie można cofnąć."
+            },
+            "errors": {
+                "load_articles": "Nie udało się wczytać artykułów.",
+                "load_article": "Nie udało się wczytać tego artykułu. Mógł zostać usunięty lub nie masz uprawnień do jego wyświetlenia.",
+                "title_required": "Podaj tytuł.",
+                "empty_body": "Przed wysłaniem wpisz treść artykułu.",
+                "submit": "Nie udało się zapisać artykułu.",
+                "delete_article": "Nie udało się usunąć artykułu.",
+                "restore_article": "Nie udało się przywrócić artykułu.",
+                "delete_article_forever": "Nie udało się trwale usunąć artykułu.",
+                "upload": "Nie udało się przesłać pliku.",
+                "upload_no_files": "Przesyłanie nie zwróciło żadnych plików. Spróbuj ponownie.",
+                "unknown": "Nieznany błąd."
+            }
+        },
+        "api": {
+            "title_required": "Tytuł artykułu jest wymagany.",
+            "content_required": "Treść artykułu jest wymagana.",
+            "article_soft_delete_first": "Przed trwałym usunięciem artykułu należy go najpierw usunąć.",
+            "slug_invalid": "Ten slug adresu URL jest zarezerwowany. Wybierz taki, który nie składa się wyłącznie z cyfr.",
+            "slug_taken": "Inny artykuł ma już taki slug adresu URL.",
+            "faq_too_many": "Artykuł może zawierać maksymalnie {max} pytań i odpowiedzi.",
+            "article_required": "Artykuł jest wymagany.",
+            "report_already_open": "Ten artykuł został już przez Ciebie zgłoszony. Redaktor sprawdzi zgłoszenie.",
+            "article_not_found": "Nie znaleziono artykułu.",
+            "comment_required": "Treść komentarza jest wymagana.",
+            "comment_soft_delete_first": "Przed trwałym usunięciem komentarza należy go najpierw usunąć."
+        }
+    }
+}

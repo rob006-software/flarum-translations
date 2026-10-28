@@ -1,0 +1,77 @@
+{
+    "ernestdefoe-cuecard": {
+        "admin": {
+            "permissions": {
+                "use": "Insertar macros globales",
+                "save_personal": "Guardar macros personales",
+                "manage_global": "Crear y editar macros globales"
+            }
+        },
+        "api": {
+            "groups_required": "Seleccione al menos un grupo. Elija Miembros para ofrecerla a todos los usuarios autorizados a insertar macros.",
+            "too_many_macros": "Puede guardar un máximo de {count} macros. Elimine una para poder guardar otra."
+        },
+        "forum": {
+            "composer": {
+                "button": "Insertar una macro",
+                "actions_label": "Al publicar:",
+                "action_lock": "Bloquear",
+                "action_tags": "Etiquetar: {tags}",
+                "action_tags_replace": "Reetiquetar: {tags}",
+                "action_best_answer": "Mejor respuesta",
+                "remove_action": "No realizar esta acción",
+                "failed": "Su respuesta se publicó, pero no se pudo realizar lo siguiente: {actions}.",
+                "failed_lock": "bloquear la discusión",
+                "failed_tags": "cambiar sus etiquetas",
+                "failed_best_answer": "marcar la mejor respuesta",
+                "failed_separator": ", "
+            },
+            "picker": {
+                "title": "Macros",
+                "search_placeholder": "Buscar macros",
+                "empty": "Aún no hay macros.",
+                "no_results": "Ninguna macro coincide con su búsqueda.",
+                "global_heading": "Compartidas",
+                "personal_heading": "Suyas",
+                "new_button": "Nueva macro",
+                "save_reply_button": "Guardar este texto como macro",
+                "edit_button": "Editar",
+                "delete_button": "Eliminar",
+                "delete_confirm": "¿Eliminar la macro «{title}»? Esta acción no se puede deshacer.",
+                "insert_hint": "↑ ↓ para elegir, Enter para insertar"
+            },
+            "editor": {
+                "new_title": "Nueva macro",
+                "edit_title": "Editar macro",
+                "title_label": "Título",
+                "content_label": "Texto",
+                "placeholders_label": "Marcadores de posición disponibles",
+                "scope_label": "Quién puede usarla",
+                "scope_personal": "Solo yo",
+                "scope_global": "Compartida con el personal y los grupos seleccionados",
+                "groups_label": "Ofrecer a estos grupos",
+                "groups_help": "«Miembros» incluye a todos los usuarios autorizados a insertar macros.",
+                "actions_label": "Al usarse en una respuesta",
+                "actions_help": "Cada acción se ejecutará solo si quien publica tiene permiso para realizarla; de lo contrario, se le notificará.",
+                "lock_label": "Bloquear la discusión",
+                "tags_label": "Etiquetar la discusión",
+                "tags_search_placeholder": "Filtrar etiquetas",
+                "replace_tags_label": "Reemplazar las etiquetas actuales en lugar de añadir nuevas",
+                "best_answer_label": "Marcar la respuesta como la mejor respuesta",
+                "save_button": "Guardar macro"
+            },
+            "placeholders": {
+                "username": "el nombre de usuario de quien inició la discusión",
+                "display_name": "el nombre público de quien inició la discusión",
+                "mention": "una mención a quien inició la discusión",
+                "my_username": "su nombre de usuario",
+                "my_display_name": "su nombre público",
+                "discussion_title": "el título de la discusión",
+                "discussion_url": "el enlace a la discusión",
+                "forum_name": "el nombre del foro",
+                "forum_url": "el enlace al foro",
+                "date": "la fecha de hoy"
+            }
+        }
+    }
+}

@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "По умолчанию",
+                    "id_with_slug": "ID с slug"
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Удалить",
+                "default_sort_label": "Сортировка по умолчанию",
+                "default_sort_none": "Использовать настройки форума по умолчанию",
+                "default_sort_text": "Как упорядочиваются темы по этому тегу, если пользователь заходит на страницу, не выбрав сортировку.",
+                "default_sort_unavailable": "{sort} (больше не доступно)",
                 "delete_tag_confirmation": "Удалить тег? Темы из этого тега не будут удалены.",
                 "description_label": "Описание",
                 "hide_label": "Скрыть темы с этим тегом из общего списка",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Выбрать теги"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Изменить теги"
             },
@@ -103,9 +116,23 @@
         },
         "ref": {
             "choose_tags": "Выбор тегов",
-            "choose_tags_placeholder": "{count, plural, one {Укажите ещё 1 тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
+            "choose_tags_placeholder": "{count, plural, one {Укажите ещё # тег} few {Укажите ещё # тега} other {Укажите ещё # тегов}}",
             "name": "Название",
             "tags": "Теги"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": "Обновлены теги {discussion} с {old_tags} на {new_tags}"
+                },
+                "tag": {
+                    "created": "Тег создан {tag}",
+                    "updated": "Тег обновлен {tag}",
+                    "deleted": "Тег удален {tag}"
+                }
+            }
         }
     }
 }

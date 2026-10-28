@@ -1,0 +1,42 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "自动审核",
+            "flag_message": "包含违禁内容"
+        },
+        "admin": {
+            "title": "内容过滤",
+            "bad_words_help": "每行填写一个需要过滤的词语或文本。用户帖子包含其中任意内容时，将被标记等待审核。可识别 133t 等变体写法。",
+            "help2": "同一用户在同一讨论中连续发帖时，在此时间内发布的帖子将自动合并。单位为分钟。此设置全局有效，与内容是否含有过滤词无关。",
+            "email_help": "帖子被过滤后发送给用户的邮件正文。支持 HTML 或纯文本，可使用 %USERNAME% 插入发帖用户的用户名。\n",
+            "filter_label": "过滤词",
+            "countLabel": "过滤容差",
+            "cooldownLabel": "连续发帖合并间隔",
+            "auto_merge_title": "自动合并帖子",
+            "input": {
+                "placeholder": "输入需要过滤的词语",
+                "filter_title": "过滤词语",
+                "email_label": "邮件通知",
+                "email_help": "留空则使用语言包中的默认邮件内容。你可以使用 FoF Linguist 翻译此邮件。",
+                "switch": {
+                    "email": "帖子被过滤时邮件通知用户",
+                    "merge": "合并连续发帖",
+                    "delete": "自动删除被过滤的帖子"
+                },
+                "email_subject": "主题",
+                "email_body": "正文"
+            },
+            "nav": {
+                "text": "内容过滤",
+                "desc": "按关键词过滤帖子"
+            },
+            "permission": {
+                "bypass_filter_label": "绕过内容过滤"
+            },
+            "email": {
+                "default_subject": "你的内容已被移除",
+                "default_text": "%USERNAME%，\n\n感谢你的参与。你最近发布的帖子因包含不符合论坛要求的内容已被移除。\n\n如有异议，请联系管理员核查。若确认误删，将会恢复。\n\n感谢理解与配合。\n"
+            }
+        }
+    }
+}

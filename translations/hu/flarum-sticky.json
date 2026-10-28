@@ -2,9 +2,11 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": ""
+                "enable_display_excerpt": "Kivonat megjelenítése az első bejegyzésből, ha egy kitűzött téma olvasatlan",
+                "only_sticky_unread_discussions_label": "Csak az olvasatlan témák kitűzése",
+                "only_sticky_unread_discussions_help": "Az Összes téma oldalon csak az olvasatlan kitűzött témák maradnak a tetején, az olvasott témák a szokásos sorrendet követik.",
+                "pin_sticky_on_all_discussions_label": "Kitűzött témák rögzítése az Összes téma lapon",
+                "pin_sticky_on_all_discussions_help": "Ha be van kapcsolva (alapértelmezett), a kitűzött témák az Összes téma lap tetejére vannak rögzítve. Ha ki van kapcsolva, akkor a legutóbbi tevékenységük alapján adott természetes pozíciójukban találhatók. A címkelapok mindig rögzítik a kitűzött témákat, a beállítástól függetlenül."
             },
             "permissions": {
                 "sticky_discussions_label": "Témák kitűzése"
@@ -20,20 +22,30 @@
             },
             "post_stream": {
                 "discussion_stickied_text": "{username} {time} kitűzte a témát.",
-                "discussion_unstickied_text": "{username} {time} eltávolította a kitűzést."
+                "discussion_unstickied_text": "{username} {time} megszüntette a téma kitűzését."
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "kitűzve"
                     }
                 }
             }
         },
         "ref": {
             "sticky": "Kitűzés"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "stickied": "„{discussion}” téma kitűzve",
+                    "unstickied": "„{discussion}” téma kitűzése megszüntetve"
+                }
+            }
         }
     }
 }

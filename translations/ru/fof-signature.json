@@ -2,51 +2,51 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Подпись",
+                "save": "Сохранить подпись",
+                "edit": "Править подпись"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "remote_images_not_allowed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Превышен лимит символов.",
+                "max_image_count_exceed": "Превышен лимит изображений.",
+                "remote_images_not_allowed": "Удалённые изображения запрещены в подписях.",
+                "save_failed": "При сохранении подписи что-то пошло не так."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Отредактируйте свою подпись здесь"
             },
             "settings": {
-                "heading": ""
+                "heading": "Подпись"
             },
             "profile": {
-                "click": ""
+                "click": "Нажмите, чтобы оставить подпись"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Править подписи пользователей",
+                "allow_signature": "Использовать подпись"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Лимит вставленных изображений.",
+                    "help": "Если пользователь превысит его, сохранение будет запрещено, пока количество изображений не будет соответствовать ограничению."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Лимит символов.",
+                    "help": "Если пользователь превысит его, сохранение будет запрещено, пока количество символов не будет соответствовать ограничению."
                 },
                 "allow_remote_images": {
-                    "description": "",
-                    "help": ""
+                    "description": "Разрешить удалённые изображения.",
+                    "help": "Если отключено, пользователи не могут использовать изображения, размещённые на других веб-сайтах в их подписи. Это предотвращает отслеживание IP-адреса всех, кто просматривает подпись, внешними изображениями."
                 },
                 "allowed_image_hosts": {
-                    "description": "",
-                    "help": ""
+                    "description": "Разрешённые хосты изображений.",
+                    "help": "Когда удалённые изображения отключены, изображения с этих хостов по-прежнему разрешены Введите один хост в строке, например ваш CDN, в виде cdn.example.com."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Быстрая правка подписи.",
+                    "help": "Если включено, пользователи смогут править подпись при просмотре сообщения."
                 }
             }
         }

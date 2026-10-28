@@ -1,0 +1,87 @@
+{
+    "stezkoy-doorquest": {
+        "forum": {
+            "sign_up": {
+                "question_label": "Frage",
+                "answer_placeholder": "Deine Antwort",
+                "invalid_answer": "Falsche Antwort. Bitte versuche es erneut.",
+                "answer_required": "Du musst die Frage beantworten, um dich zu registrieren."
+            }
+        },
+        "admin": {
+            "settings": {
+                "heading": "Doorquest-Einstellungen",
+                "total_questions": "{count} Frage(n)",
+                "search": "Fragen durchsuchen...",
+                "create_question_button": "Frage erstellen"
+            },
+            "list": {
+                "heading": "Fragen",
+                "columns": {
+                    "id": "ID",
+                    "question": "Frage",
+                    "answer": "Antwort",
+                    "group": "Gruppe",
+                    "max_uses": "Max. Verwendungen",
+                    "activates_user": "Aktiviert",
+                    "uses": "Verwendungen",
+                    "created_by": "Erstellt von",
+                    "manage": "Verwalten"
+                },
+                "actions": {
+                    "edit": "Bearbeiten",
+                    "delete": "Löschen"
+                },
+                "content": {
+                    "no_group": "Keine",
+                    "no_created_by": "—",
+                    "delete": "Willst du die Frage „{question}“ wirklich löschen?",
+                    "warning": "Grenzwert erreicht",
+                    "uses": {
+                        "used_times": "{remainingUses} verbleibend",
+                        "total_uses": "{totalUses} Mal verwendet"
+                    },
+                    "invalid_column": "—"
+                },
+                "pagination": {
+                    "first_page_button": "Erste Seite",
+                    "back_button": "Vorherige Seite",
+                    "next_button": "Nächste Seite",
+                    "last_page_button": "Letzte Seite",
+                    "page_counter": "Seite {current} von {total}"
+                }
+            },
+            "modals": {
+                "create_question": {
+                    "title": "Frage erstellen",
+                    "question": {
+                        "label": "Frage",
+                        "help": "Diese Frage wird neuen Benutzern während der Registrierung gestellt."
+                    },
+                    "answer": {
+                        "label": "Antwort",
+                        "help": "Die richtige Antwort (Groß-/Kleinschreibung wird nicht beachtet)."
+                    },
+                    "group": {
+                        "label": "Gruppe zuweisen",
+                        "help": "Benutzer, die korrekt geantwortet haben, werden zu dieser Gruppe hinzugefügt."
+                    },
+                    "max_uses": {
+                        "label": "Max. Vewendungen",
+                        "help": "Maximale Anzahl der Antworten auf diese Frage. 0 = unbegrenzt."
+                    },
+                    "activates_user": {
+                        "label": "Auto-Aktivierung",
+                        "help": "Benutzer ohne E-Mail-Bestätigung automatisch aktivieren."
+                    },
+                    "submit_button": "Erstellen",
+                    "submit_and_create_another_button": "Erstellen und weitere hinzufügen"
+                },
+                "edit_question": {
+                    "title": "Frage bearbeiten",
+                    "submit_button": "Änderungen speichern"
+                }
+            }
+        }
+    }
+}

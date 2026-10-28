@@ -1,0 +1,160 @@
+{
+    "fof-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Configure o Flarum para rodar como um Progressive Web App, instalável em dispositivos móveis."
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "Descrição",
+                    "description_text": "Você pode definir a descrição na página \"Básico\" do seu dashboard de administração.",
+                    "long_name_label": "Nome longo",
+                    "long_name_text": "O nome do aplicativo web exibido ao usuário.",
+                    "heading": "Sobre",
+                    "short_name_label": "Nome curto",
+                    "short_name_text": "O nome do aplicativo exibido ao usuário quando não há espaço suficiente para o nome longo."
+                },
+                "colors": {
+                    "heading": "Cores",
+                    "background_color_label": "Cor de fundo",
+                    "background_color_text": "Usada como cor provisória da tela de abertura exibida enquanto seu PWA carrega. Não é usada depois que o app carrega.",
+                    "theme_color_label": "Cor do tema",
+                    "theme_color_text": "Esta cor às vezes é usada pelos dispositivos ao exibir seu app, por exemplo, no alternador de tarefas do Android, como a cor em volta do site."
+                },
+                "maintenance": {
+                    "heading": "Manutenção",
+                    "debug_label": "Ativar modo debug",
+                    "debug_text": "Isso registrará informações sobre notificações em `storage/logs`. Em geral, deve ficar desativado para não encher os logs sem necessidade.",
+                    "reset_vapid_button": "Redefinir chaves VAPID",
+                    "reset_vapid_text": "Isso gerará novas chaves VAPID e excluirá as inscrições existentes que usam as chaves VAPID atuais.",
+                    "reset_vapid_confirm": "Redefinir as chaves VAPID removerá as inscrições que usam as chaves existentes, então os usuários não receberão notificações até a próxima visita ao seu site. Faça isso apenas ao configurar as notificações push pela primeira vez, ou se as notificações push não estiverem funcionando e houver um aviso acima sobre chaves VAPID ausentes.",
+                    "reset_vapid_success": "Chaves VAPID redefinidas com sucesso. Inscrições redefinidas: {count}. Recarregue a página para ver o relatório de verificação de status atualizado."
+                },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "Para oferecer notificações push ao publicar seu app na Apple App Store, é preciso usar o Firebase para adicionar notificações push ao seu aplicativo. Gere seu Firebase Service Config e envie-o aqui. <a>Veja a documentação</a>.",
+                    "upload_successful": "Sua configuração do Firebase foi enviada com sucesso.",
+                    "upload_file": "Enviar arquivo"
+                },
+                "other": {
+                    "heading": "Outros",
+                    "display_label": "Modo de exibição",
+                    "display_text": "Como o app abre quando iniciado pelo ícone:\n\nIndependente: Uma janela de app separada, sem a barra de endereços do navegador.\nInterface Mínima: Como Independente, com navegação básica, como voltar e recarregar.\nTela cheia: Usa a tela inteira, sem os controles do navegador.\nNavegador: Abre em uma aba ou janela normal do navegador.\n\nOs navegadores podem usar uma alternativa se o modo selecionado não for compatível.\n",
+                    "display_options": {
+                        "standalone": "Independente",
+                        "minimal_ui": "Interface Mínima",
+                        "fullscreen": "Tela cheia",
+                        "browser": "Navegador"
+                    },
+                    "orientation_label": "Orientação",
+                    "orientation_text": "Qualquer: Deixa o app girar com o dispositivo.\nNatural: Usa a orientação habitual do dispositivo, normalmente retrato em celulares e paisagem em monitores.\nRetrato: Mantém o app na vertical.\nPaisagem: Mantém o app na horizontal.\n\nRetrato e Paisagem permitem duas posições cada, a 180 graus uma da outra. Selecione uma opção Primária ou Secundária para usar apenas uma. Em um celular, Retrato (primário) normalmente significa em pé, e Retrato (secundário), de cabeça para baixo. Em paisagem, a direção primária depende do dispositivo.\n\nAlguns navegadores e dispositivos podem ignorar a orientação selecionada.\n",
+                    "orientation_options": {
+                        "any": "Qualquer",
+                        "natural": "Natural",
+                        "portrait": "Retrato",
+                        "portrait_primary": "Retrato (primário)",
+                        "portrait_secondary": "Retrato (secundário)",
+                        "landscape": "Paisagem",
+                        "landscape_primary": "Paisagem (primária)",
+                        "landscape_secondary": "Paisagem (secundária)"
+                    },
+                    "push_notif_preference_default_to_email_label": "Usar os padrões de e-mail nas preferências de push",
+                    "push_notif_preference_default_to_email_text": "Se ativado, os usuários terão as notificações push ativadas por padrão em todos os tipos de notificação em que as notificações por e-mail são ativadas por padrão. Se desativado, os usuários terão as notificações push desativadas por padrão.",
+                    "window_controls_overlay_label": "Ativar Window Controls Overlay",
+                    "window_controls_overlay_text": "Quando usado por um navegador desktop compatível, o Window Controls Overlay tem precedência sobre o modo de exibição selecionado.\n\nSe ativado, os usuários podem ter uma experiência mais imersiva, parecida com a de um app nativo, com a barra de título nativa oculta. A aplicação efetiva do Window Controls Overlay depende da preferência do usuário e da compatibilidade do navegador. Você deve personalizar sua barra de título com CSS/JS depois de ativar isso; caso contrário, os controles ficarão sobre elementos da barra de navegação superior do fórum e será quase impossível arrastar a janela, resultando em uma experiência ruim.\n\nVeja também: <compatibilitylink>Compatibilidade de navegadores com Window Controls Overlay</compatibilitylink> e <learnlink>Sobre o Window Controls Overlay no Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Máximo de inscrições push por usuário",
+                    "user_max_subscriptions_text": "Quantas inscrições push cada usuário pode ter ao mesmo tempo? Quando um usuário recebe uma notificação push, cada inscrição resulta em uma chamada de API. Cada inscrição normalmente corresponde a um navegador que o usuário usou.",
+                    "push_notification_ttl_label": "TTL das notificações push",
+                    "push_notification_ttl_text": "Por quanto tempo as notificações push não entregues devem ficar na fila do serviço de push antes de expirar (em segundos).",
+                    "share_buttons_label": "Ativar botões de compartilhamento",
+                    "share_buttons_text": "Se ativado, um botão \"Compartilhar\" será adicionado a discussões, posts e usuários."
+                },
+                "heading": "Configuração do Progressive Web App",
+                "text": "Configure seu site Flarum para rodar como um progressive web app! Observe que isso não coloca seu site automaticamente na loja de aplicativos. Em vez disso, oferece aos usuários a opção \"Adicionar à tela inicial\" para o seu site. Fornecemos algumas verificações de status, mas a melhor forma de testar é tentar instalar você mesmo (busque na web instruções para instalar progressive web apps). Lembre-se de que os avisos de \"instalar este PWA\" são controlados pelos navegadores e não podem ser acionados por desenvolvedores, administradores ou programas. Considere incluir instruções de instalação do PWA na documentação do seu site.",
+                "status_check_heading": "Verificação de Status",
+                "logo_heading": "Logotipos e Ícones",
+                "logo_text": "Você deve enviar pelo menos um logotipo para que seu progressive web app seja instalável. Observe que todos os logotipos devem ser quadrados; se não forem, serão redimensionados e possivelmente esticados.\n\nVárias opções de tamanho estão disponíveis abaixo. Recomendamos enviar um logotipo para o maior número possível delas, pois isso dá suporte a mais dispositivos.\n\nVocê pode enviar um logotipo grande nos campos de tamanhos menores. Por exemplo, pode enviar um logotipo de 1000x1000px em TODOS os campos de arquivo abaixo. Porém, se enviar um logotipo de 50x50px no campo de 512x512, ele será bastante esticado.\n",
+                "logo_size_text": "Envie um logotipo que será redimensionado para {size} por {size} pixels.",
+                "submit_button": "Salvar Configurações",
+                "refreshed_message": "Configuração do PWA atualizada com sucesso."
+            },
+            "status": {
+                "config_no_https": "A URL no seu arquivo config.php não usa HTTPS. HTTPS é obrigatório para que Progressive Web Apps funcionem.",
+                "possible_https_disabled": "Seu site pode não estar rodando em HTTPS. Limpar o cache (dashboard de administração => botão de ferramentas) pode ajudar. Se estiver, ignore isto. Se não estiver, lembre-se de que HTTPS é obrigatório para que Progressive Web Apps funcionem.",
+                "no_logo": "Você deve enviar pelo menos um logotipo, com tamanho mínimo de 144x144px, para que o PWA seja instalável.",
+                "no_name": "Você deve informar um nome completo para que seu app funcione.",
+                "no_vapid_keys": "Nenhuma chave VAPID encontrada. Elas são necessárias para o envio de notificações push. Você pode redefinir as chaves VAPID abaixo.",
+                "key_gen_failed": "A geração das chaves necessárias para as notificações push falhou. A mensagem de erro completa foi: {error}",
+                "suggest_gmp": "A extensão PHP gmp não parece estar ativada no seu servidor. Ela não é estritamente necessária, mas pode melhorar o desempenho e é recomendada. Porém, algumas hospedagens compartilhadas podem não oferecer suporte a ela.",
+                "success": "Nenhum problema potencial encontrado!"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "Este fórum pode enviar notificações push para este dispositivo. Deseja ativá-las?",
+                "optin_enable_button": "Ativar",
+                "optin_success": "As notificações push foram ativadas neste dispositivo.",
+                "optin_declined": "As notificações push foram bloqueadas. Você pode permiti-las depois nas configurações do navegador.",
+                "optin_deferred": "As notificações push não foram ativadas. Você pode ativá-las depois nas configurações de notificação."
+            },
+            "discussion_controls": {
+                "share_button": "Compartilhar"
+            },
+            "post_controls": {
+                "share_button": "Compartilhar",
+                "share_api": {
+                    "title": "Resposta de {username} em {title}"
+                }
+            },
+            "user_controls": {
+                "share_button": "Compartilhar"
+            },
+            "settings": {
+                "push_header": "Push",
+                "pwa_notifications": {
+                    "access_default": "Devido a restrições do navegador, você precisa aceitar receber notificações push neste dispositivo.",
+                    "access_default_button": "Aceitar",
+                    "access_denied": "Você precisa ajustar as configurações do navegador para receber notificações push neste dispositivo.",
+                    "access_denied_button": "Saiba como",
+                    "no_browser_support": "Este navegador não oferece suporte a notificações push para progressive web apps.",
+                    "no_browser_support_button": "Saiba Mais"
+                }
+            },
+            "notifications_help": {
+                "browser_notifications_title": "Como Ativar as Notificações do Navegador",
+                "title": "Ativar Notificações Push",
+                "description": "Se você bloqueou as notificações anteriormente, siga as instruções abaixo para reativá-las no seu dispositivo.",
+                "chromium_title": "Google Chrome, Microsoft Edge e Android",
+                "chromium_instructions": "Clique no ícone de informações do site (o cadeado ou o ícone de ajustes) ao lado do endereço web no navegador. Selecione \"Configurações do site\" (ou \"Permissões\"), encontre \"Notificações\" e mude a configuração para \"Permitir\".",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Clique no ícone de cadeado ao lado do endereço web. Se \"Notificações\" estiver marcado como \"Bloqueado\", clique no \"X\" ao lado para remover a restrição. Atualize a página e permita as notificações quando solicitado.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Abra o menu Safari no topo da tela e selecione \"Ajustes\" (ou \"Preferências\"). Clique na aba \"Sites\", selecione \"Notificações\" na barra lateral esquerda, encontre este fórum na lista e mude a configuração para \"Permitir\".",
+                "safari_ios_title": "Apple iPhone e iPad (iOS/iPadOS)",
+                "safari_ios_instructions": "As notificações push no iOS exigem que o app esteja instalado. No Safari, toque no ícone \"Compartilhar\" e selecione \"Adicionar à Tela de Início\". Depois, abra o app recém-instalado. Se as notificações estiverem bloqueadas, abra o app \"Ajustes\" do iOS, vá em \"Notificações\", selecione este web app na lista e ative \"Permitir Notificações\"."
+            }
+        },
+        "api": {
+            "keys_invalid": "Não foi possível ativar as notificações push porque seu navegador forneceu chaves de criptografia inválidas. Tente ativar as notificações novamente.",
+            "endpoint_https_required": "Não foi possível ativar as notificações push porque seu navegador forneceu uma URL de serviço de push inválida \"{url}\". É necessária uma URL HTTPS válida.",
+            "endpoint_host_not_allowed": "Não foi possível ativar as notificações push porque o host do serviço de push \"{host}\" usado pelo seu navegador não é permitido. Entre em contato com o administrador do fórum."
+        },
+        "views": {
+            "offline": {
+                "header": "Erro de conexão de rede",
+                "text": "Este app requer conexão de rede; ele não pode ser usado offline. Verifique sua conexão."
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pushsubscriptions": {
+                    "export_description": "Exporta todas as inscrições de notificações push e tokens de dispositivo associados ao usuário.",
+                    "delete_description": "Exclui todas as inscrições de notificações push e tokens de dispositivo associados ao usuário."
+                }
+            }
+        }
+    }
+}

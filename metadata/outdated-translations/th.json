@@ -1,5 +1,161 @@
 {
+    "datlechin-link-preview": {
+        "datlechin-link-preview.admin.settings.blacklist_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.blacklist_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.blacklist_placeholder": "2026-09-13",
+        "datlechin-link-preview.admin.settings.convert_media_urls_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.convert_media_urls_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.use_google_favicons_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.use_google_favicons_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_placeholder": "2026-09-13",
+        "datlechin-link-preview.forum.site_cannot_be_reached": "2026-09-13"
+    },
+    "flarum-audit": {
+        "flarum-audit.lib.browser.discussion.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.banned": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.unbanned": "2026-07-12",
+        "flarum-audit.lib.browser.post.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.edit_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.bio_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.impersonated": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_requested": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_requested": "2026-07-12"
+    },
+    "fof-anti-spam": {
+        "fof-anti-spam.admin.settings.button": "2026-10-25"
+    },
+    "fof-best-answer": {
+        "fof-best-answer.admin.edit_tag.qna_label": "2026-10-18",
+        "fof-best-answer.admin.edit_tag.reminders": "2026-10-18",
+        "fof-best-answer.admin.settings.label.advanced": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server_help": "2026-10-18",
+        "fof-best-answer.forum.index.solved_link": "2026-10-18",
+        "fof-best-answer.forum.index.unsolved_link": "2026-10-18"
+    },
+    "fof-byobu": {
+        "fof-byobu.admin.settings.general.heading": "2026-08-02",
+        "fof-byobu.admin.settings.general.help": "2026-08-02",
+        "fof-byobu.admin.settings.icon.heading": "2026-08-02",
+        "fof-byobu.admin.settings.icon.help": "2026-08-02"
+    },
+    "fof-geoip": {
+        "fof-geoip.lib.map_modal.country_code": "2026-09-20"
+    },
+    "fof-horizon": {
+        "fof-horizon.admin.stats.data.failed-last-seconds": "2026-08-30",
+        "fof-horizon.admin.stats.data.failure-rate": "2026-08-30",
+        "fof-horizon.admin.stats.data.jobs-past-hour": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-runtime": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-throughput": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-wait-queue": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-wait-time": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-blocked-clients": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-connected-clients": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-max-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-policy": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-policy-tooltip": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-usage": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-ops-per-sec": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-peak-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-used-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.inactive": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.label": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.running": "2026-08-30",
+        "fof-horizon.admin.stats.data.success-rate": "2026-08-30",
+        "fof-horizon.admin.stats.data.total-processes": "2026-08-30",
+        "fof-horizon.admin.stats.heading": "2026-08-30",
+        "fof-horizon.admin.stats.health.tooltip": "2026-08-30"
+    },
+    "fof-links": {
+        "fof-links.admin.edit_link.internal_link": "2026-09-20",
+        "fof-links.admin.edit_link.url_description": "2026-09-20",
+        "fof-links.admin.edit_link.url_placeholder": "2026-09-20"
+    },
     "fof-reactions": {
         "fof-reactions.admin.page.settings.save_settings": "2026-03-29"
+    },
+    "fof-upload": {
+        "fof-upload.admin.help_texts.s3_compatible_storage": "2026-08-16",
+        "fof-upload.admin.labels.preferences.php_ini_values": "2026-08-16",
+        "fof-upload.admin.labels.preferences.title": "2026-08-16"
+    },
+    "fof-user-directory": {
+        "fof-user-directory.lib.sort.least_posts": "2026-08-16",
+        "fof-user-directory.lib.sort.most_posts": "2026-08-16"
+    },
+    "forumaker-magicslider": {
+        "forumaker-magicslider.admin.settings.uploading": "2026-09-13"
+    },
+    "huoxin-filter-rule-manager": {
+        "huoxin-filter-rule-manager.admin.ruleset_evaluate_title_label": "2026-07-26",
+        "huoxin-filter-rule-manager.admin.scopes.backend": "2026-08-16",
+        "huoxin-filter-rule-manager.admin.scopes.both": "2026-08-16",
+        "huoxin-filter-rule-manager.admin.scopes.frontend": "2026-08-16"
+    },
+    "peopleinside-fla-powcaptcha": {
+        "peopleinside-powcaptcha.forum.submitting": "2026-08-02"
+    },
+    "tryhackx-homepage-blocks": {
+        "tryhackx-homepage-blocks.admin.section_links": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.section_random": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.external_stats_mode": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.external_stats_url": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.external_stats_url_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.random_buttons": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.random_buttons_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_enabled": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_on_external_stats": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_on_random": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_on_search": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_on_stats": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_cost_random": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_cost_search": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_enabled": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_guest_extra": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_guest_extra_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_refill_amount": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_refill_amount_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_refill_seconds": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_refill_seconds_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_start": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_points_start_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_secret_key": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_site_key": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_skip_authenticated": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_skip_authenticated_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_v3_threshold": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_v3_threshold_help": "2026-07-12",
+        "tryhackx-homepage-blocks.admin.settings.recaptcha_version": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_close": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_description": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_failed": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_retry": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_title": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.captcha_verifying": "2026-07-12",
+        "tryhackx-homepage-blocks.forum.random_not_found": "2026-07-12"
+    },
+    "tryhackx-magnet-link": {
+        "tryhackx-magnet-link.permissions.viewMagnetLinks": "2026-10-25"
+    },
+    "walsgit-recycle-bin": {
+        "walsgit-recycle-bin.admin.delete_tooltip": "2026-10-18",
+        "walsgit-recycle-bin.admin.discussion_link_tooltip": "2026-10-18",
+        "walsgit-recycle-bin.admin.empty_list": "2026-10-18",
+        "walsgit-recycle-bin.admin.hidden_discussions": "2026-10-18",
+        "walsgit-recycle-bin.admin.mass_help_text": "2026-10-18",
+        "walsgit-recycle-bin.admin.restore_tooltip": "2026-10-18"
     }
 }

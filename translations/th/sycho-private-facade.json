@@ -2,29 +2,29 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "บังคับ redirect ผู้เยี่ยมชมไปยังหน้า login/สมัครสมาชิก",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "แสดง header",
+                        "show_only_logo": "แสดงเฉพาะ logo",
+                        "hide_secondary_items": "ซ่อนรายการรอง (Search, ลิงก์ login และสมัครสมาชิก)"
                     },
-                    "title": ""
+                    "title": "Layout ของ header"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
-                "url_exclusions": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "รูปภาพประกอบ",
+                "primary_color_bg": "ใช้สีหลักเป็นพื้นหลัง",
+                "route_exclusions": "Routes ที่ยกเว้นจากการ redirect ไปหน้า login/สมัครสมาชิก",
+                "url_exclusions": "URLs ที่ยกเว้นจากการ redirect ไปหน้า login/สมัครสมาชิก",
+                "screen_banner_description": "ข้อความบนหน้าจอ",
+                "screen_banner_heading": "Banner บนหน้าจอ",
+                "screen_banner_title": "หัวข้อบนหน้าจอ",
+                "use_welcome_hero_text": "ใช้ข้อความจาก Welcome Banner"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "หรือ",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }

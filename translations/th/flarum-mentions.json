@@ -2,30 +2,30 @@
     "flarum-mentions": {
         "admin": {
             "permissions": {
-                "mention_groups_label": ""
+                "mention_groups_label": "กล่าวถึงกลุ่ม"
             },
             "settings": {
-                "allow_username_format_label": "Allow username mention format (@Username)",
-                "allow_username_format_text": "The current format for user mentions is @\"Display Name\"#ID.\nThis setting allows using the old format of @Username, however it will still be converted to the new format upon saving.\n"
+                "allow_username_format_label": "อนุญาตรูปแบบกล่าวถึงด้วยชื่อผู้ใช้ (@Username)",
+                "allow_username_format_text": "รูปแบบปัจจุบันสำหรับกล่าวถึงผู้ใช้คือ @\"ชื่อที่แสดง\"#ID\nการตั้งค่านี้อนุญาตให้ใช้รูปแบบเก่า @Username แต่จะถูกแปลงเป็นรูปแบบใหม่โดยอัตโนมัติเมื่อบันทึก\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "กล่าวถึงผู้ใช้หรือโพสต์",
-                "reply_to_post_text": "ตอบกลับไปยัง #{number}"
+                "mention_tooltip": "กล่าวถึงผู้ใช้ กลุ่ม หรือโพสต์",
+                "reply_to_post_text": "ตอบกลับโพสต์ #{number}"
             },
             "mentioned_by": {
-                "title": "",
-                "load_more_button": ""
+                "title": "การตอบกลับโพสต์นี้",
+                "load_more_button": "=> core.ref.load_more"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "{username} ตอบกลับโพสต์ของคุณ",
                 "user_mentioned_text": "{username} กล่าวถึงคุณ",
-                "group_mentioned_text": ""
+                "group_mentioned_text": "{username} กล่าวถึงกลุ่มที่คุณเป็นสมาชิก"
             },
             "post": {
-                "mentioned_by_more_text": "",
+                "mentioned_by_more_text": "อีก {count} การตอบกลับ",
                 "mentioned_by_self_text": "{users} ตอบกลับโพสต์นี้",
                 "mentioned_by_text": "{users} ตอบกลับโพสต์นี้",
                 "others_text": "=> core.ref.some_others",
@@ -34,18 +34,18 @@
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "เมื่อมีคนตอบกระทู้ของฉัน",
-                "notify_user_mentioned_label": "มีคนกล่าวถึงฉันในโพสต์",
-                "notify_group_mentioned_label": ""
+                "notify_post_mentioned_label": "เมื่อมีคนตอบกลับโพสต์ของฉัน",
+                "notify_user_mentioned_label": "เมื่อมีคนกล่าวถึงฉันในโพสต์",
+                "notify_group_mentioned_label": "เมื่อมีคนกล่าวถึงกลุ่มที่ฉันเป็นสมาชิก"
             },
             "user": {
-                "mentions_link": "กล่าวถึง"
+                "mentions_link": "การกล่าวถึง"
             },
             "post_mention": {
-                "deleted_text": "[ไม่รู้จัก]"
+                "deleted_text": "[ไม่ทราบ]"
             },
             "group_mention": {
-                "deleted_text": ""
+                "deleted_text": "[กลุ่มที่ไม่ทราบ]"
             }
         },
         "email": {
@@ -68,7 +68,7 @@
                 }
             },
             "group_mentioned": {
-                "subject": "",
+                "subject": "{mentioner_display_name} กล่าวถึงกลุ่มที่คุณเป็นสมาชิกใน {title}",
                 "plain": {
                     "body": ""
                 },

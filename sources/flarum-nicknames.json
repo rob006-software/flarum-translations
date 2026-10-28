@@ -43,5 +43,14 @@
             "change_nickname": "Change Nickname",
             "nickname": "Nickname"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_changed": "Changed {username}'s nickname from {old_nickname} to {new_nickname}"
+                }
+            }
+        }
     }
 }

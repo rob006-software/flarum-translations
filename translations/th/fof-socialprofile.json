@@ -3,27 +3,27 @@
         "admin": {
             "permissions": {
                 "view": "ดูโปรไฟล์โซเชียล",
-                "editOwn": "เเก้ไขโปรไฟล์โซเซียลของตนเอง",
-                "editAny": "เเก้ไขโปรไฟล์โซเชียลของใครก็ได้"
+                "editOwn": "แก้ไขโปรไฟล์โซเชียลของตนเอง",
+                "editAny": "แก้ไขโปรไฟล์โซเชียลของผู้ใช้คนอื่น"
             },
             "settings": {
-                "allow_external_favicons_label": "อณุญาติไอคอนของเว็บไซต์อื่น",
-                "favicon_provider_label": ""
+                "allow_external_favicons_label": "อนุญาตไอคอนจากเว็บไซต์ภายนอก (ใช้ favicon API ของผู้ให้บริการ)",
+                "favicon_provider_label": "ผู้ให้บริการ Favicon ภายนอก"
             }
         },
         "forum": {
             "edit": {
-                "edit": "เเก้ไขปุ่มโซเชียล",
-                "add": "เพิ่มปุ่มโซเชียลของคุณ",
-                "headtitle": "เเก้ไขปุ่ม",
-                "title": "ขื่อ",
-                "url": "ลิ้ง",
+                "edit": "แก้ไขปุ่มโซเชียลมีเดีย",
+                "add": "เพิ่มปุ่มโซเชียลมีเดีย",
+                "headtitle": "แก้ไขปุ่ม",
+                "title": "ชื่อ",
+                "url": "URL",
                 "submit": "บันทึก",
                 "delete": "ลบ",
                 "deletetitle": "ลบปุ่ม",
-                "save_disabled_fetching_favicons": "หนึ่งไอคอนหรือมากกว่ากำลังโหลด โปรดรอสักครู่…",
-                "favicon": "ไอคอน",
-                "grey_favicon": "ไอคอนสีเทา"
+                "save_disabled_fetching_favicons": "กำลังโหลดไอคอนอยู่ กรุณารอสักครู่",
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon สีเทา"
             }
         }
     }

@@ -2,23 +2,29 @@
     "fof-ignore-users": {
         "admin": {
             "permissions": {
-                "can_not_be_ignored_label": ""
+                "can_not_be_ignored_label": "ไม่สามารถถูกละเลย (Ignore) ได้"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "ผู้ใช้ที่ละเลย",
             "profile_page": {
-                "no_ignored": ""
+                "no_ignored": "ดูเหมือนว่าคุณไม่ได้ละเลยผู้ใช้คนใดเลยในขณะนี้"
             },
             "user_controls": {
-                "ignore_button": "",
-                "ignore_confirmation": "",
-                "unignore_button": "",
-                "unignore_confirmation": ""
+                "ignore_button": "ละเลย (Ignore)",
+                "ignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการละเลยผู้ใช้รายนี้? (คุณจะไม่เห็นโพสต์หรือโพสต์จากผู้ใช้รายนี้)",
+                "unignore_button": "เลิกละเลย",
+                "unignore_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการละเลยผู้ใช้รายนี้?"
+            },
+            "post": {
+                "toggle_label": ""
+            },
+            "messages": {
+                "cannot_send_text": ""
             },
             "badge": {
-                "user_label": "",
-                "discussion_label": ""
+                "user_label": "ผู้ใช้ที่ถูก ignore",
+                "discussion_label": "เริ่มโดยผู้ใช้ที่ถูก ignore"
             }
         }
     }

@@ -11,6 +11,8 @@
             "thumbnail_width_help": "The cover is scaled proportionally so its width equals this value. Default is 500",
             "recreate_thumbnails": "Recreate thumbnails",
             "delete_thumbnails": "Delete thumbnails",
+            "recreate_thumbnails_confirm": "Recreate all thumbnails?",
+            "delete_thumbnails_confirm": "Delete all thumbnails?",
             "recreate_success": "Thumbnails recreated successfully",
             "delete_success": "All thumbnails deleted",
             "recreate_error": "Failed to recreate thumbnails",
@@ -23,7 +25,9 @@
         "forum": {
             "cover": "Cover",
             "edit_cover": "Edit Cover",
-            "notice": "Maximum size: {size}",
+            "notice": "Maximum size: {size}. Recommended format — 21:9 and at least 1600x400 pixels",
+            "position_label": "Cover position on desktop",
+            "save_position_button": "Save position",
             "added": {
                 "success": "Profile cover updated",
                 "error": "Image could not be uploaded"

@@ -68,22 +68,22 @@
                     "group": "Gửi lời mời cho nhóm {group}",
                     "help": "Chấp nhận danh sách phân tách bằng dấu phẩy, dấu cách, hoặc dấu phẩy kèm dấu cách. Nhập từng email hoặc dán một danh sách rồi nhấn phím cách để thêm.",
                     "placeholder": "Nhập email tại đây",
-                    "invalid_emails": "Email không hợp lệ: {emails}",
+                    "invalid_emails": "Các email sau không hợp lệ: {emails}",
                     "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa của mã này.",
                     "send": "Gửi email",
                     "success": "Đã gửi email thành công"
                 }
             },
             "settings": {
-                "heading": "",
+                "heading": "Cài đặt",
                 "search": "Tìm kiếm mã mời",
                 "total_doorkeys": "Tổng số mã mời: {count}",
                 "create_doorkey_button": "Tạo mã mời",
                 "optional_usage": "Cho phép bỏ qua mã mời khi đăng ký",
-                "optional_usage_help": ""
+                "optional_usage_help": "Khi bật, khách truy cập có thể đăng ký mà không cần nhập mã mời."
             },
             "list": {
-                "heading": "",
+                "heading": "Mã mời",
                 "columns": {
                     "id": "ID",
                     "key": "=> fof-doorman.admin.ref.fields.key.label",
@@ -97,7 +97,7 @@
                 "content": {
                     "invalid_column": "=> core.admin.users.grid.invalid_column_content",
                     "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
-                    "warning": "Mã mời này đã được sử dụng tối đa số lần.",
+                    "warning": "Mã mời này đã được sử dụng hết số lần cho phép.",
                     "delete": "Bạn có chắc chắn muốn xóa mã mời \"{key}\" không?",
                     "uses": {
                         "used_times": "{remaining, plural, =0 {Không giới hạn lượt dùng} one {Còn {remainingUses} lượt} other {Còn {remainingUses} lượt}}",
@@ -106,17 +106,17 @@
                     "no_created_by": "Người dùng không xác định"
                 },
                 "actions": {
-                    "notify": "",
-                    "edit": "",
-                    "delete": ""
+                    "notify": "Gửi email mã mời này",
+                    "edit": "Sửa mã mời",
+                    "delete": "Xóa mã mời"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -130,7 +130,7 @@
         },
         "email": {
             "subject": "Mời tham gia",
-            "body": ""
+            "body": "Bạn đã được mời đăng ký tài khoản tại {forum}.\n\nKhi bạn sẵn sàng tạo tài khoản, chỉ cần bấm vào liên kết sau và nhập mã khi đăng ký:\n\nUrl: {url}\nMã mời: {code}\n\nNếu bạn nhận được thư này do nhầm lẫn, vui lòng bỏ qua nó.\n"
         }
     }
 }

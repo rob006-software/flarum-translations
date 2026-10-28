@@ -1,0 +1,251 @@
+{
+    "linkrobins-wiki": {
+        "admin": {
+            "permissions": {
+                "create_article": "Create wiki articles",
+                "comment": "Comment on wiki articles",
+                "report_article": "Report wiki articles",
+                "edit_articles": "Edit and moderate any wiki article",
+                "view_history": "View wiki article revision history"
+            },
+            "index_layout": {
+                "heading": "Wiki home page",
+                "intro": "Compose what the /wiki landing page shows using shortcodes. Leave blank to show every category with its articles.",
+                "label": "Home page layout",
+                "help": "Each shortcode goes on its own line. Lines that are not shortcodes are shown as text; lines starting with #, ## or ### become headings.",
+                "shortcodes_heading": "Available shortcodes",
+                "shortcode_articles": "List all articles.",
+                "shortcode_articles_cat": "List a category (by slug or id), optionally limited to N most-recent. Add title=\"…\" for a heading.",
+                "shortcode_article": "Link a single article by id.",
+                "shortcode_categories": "Show the category list.",
+                "shortcode_heading": "A heading (## and ### for smaller).",
+                "shortcode_link": "A link. Bare web addresses become links too.",
+                "shortcode_html": "Raw HTML on the lines between the tags, for an embed or a widget. Left exactly as written.",
+                "per_category_label": "Articles per category",
+                "per_category_help": "When the layout is blank, the wiki home page lists every category with this many of its articles, positioned ones first, and a \"See all\" link when it has more. Between 1 and 50."
+            },
+            "layout": {
+                "heading": "Layout",
+                "intro": "Where the Wiki link sits in the forum sidebar, and how much of the page the wiki uses.",
+                "nav_position_label": "Wiki link position",
+                "nav_position_help": "Where the Wiki link appears in the sidebar navigation, alongside All Discussions and any links other extensions add. Choosing \"Do not show it\" removes the link from the sidebar and the mobile menu; the wiki itself stays open at /wiki.",
+                "nav_position_top": "Top of the list",
+                "nav_position_below_all": "Below All Discussions",
+                "nav_position_sections": "With the section links (default)",
+                "nav_position_bottom": "Bottom of the list",
+                "nav_position_hidden": "Do not show it",
+                "full_width_label": "Use the full page width",
+                "full_width_help": "When on, wiki pages drop the forum sidebar and run the full width of the page. The article contents panel is unaffected. Note that the category filter lives in that sidebar, so readers browse categories from the wiki home page instead."
+            },
+            "toc": {
+                "heading": "Table of contents",
+                "intro": "Show an automatic table of contents beside each article, built from its headings.",
+                "enabled_label": "Show a table of contents on articles",
+                "enabled_help": "When on, each article shows a contents list built from its #, ## and ### headings in a sticky side panel. It follows along as the reader scrolls.",
+                "min_headings_label": "Minimum headings",
+                "min_headings_help": "Only show the contents panel when an article has at least this many headings."
+            },
+            "related": {
+                "heading": "Related articles",
+                "intro": "Show a short list of other articles from the same category under each article.",
+                "enabled_label": "Show related articles",
+                "enabled_help": "When on, an article with a category lists a few of its siblings underneath. Articles without a category show nothing.",
+                "limit_label": "How many to show",
+                "limit_help": "At most this many related articles, between 1 and 20."
+            },
+            "reports": {
+                "heading": "Reports",
+                "intro": "Articles readers have flagged for an editor to look at. Resolving one keeps it here as history rather than deleting it.",
+                "empty": "Nothing reported.",
+                "show_resolved": "Show resolved",
+                "hide_resolved": "Hide resolved",
+                "resolve": "Resolve",
+                "reopen": "Reopen",
+                "article_gone": "Article deleted",
+                "deleted_user": "Deleted account",
+                "reason_inaccurate": "Inaccurate",
+                "reason_outdated": "Out of date",
+                "reason_off_topic": "Does not belong",
+                "reason_duplicate": "Duplicate",
+                "reason_other": "Something else"
+            },
+            "categories": {
+                "heading": "Wiki categories",
+                "intro": "Create and organize the categories articles can be filed under.",
+                "new_button": "New category",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "empty": "No categories yet. Create one to get started.",
+                "this_category": "this category",
+                "column_name": "Name",
+                "column_slug": "Slug",
+                "column_articles": "Articles",
+                "delete_confirm_named": "Delete the category “{name}”? Articles in it will become uncategorized."
+            },
+            "category_editor": {
+                "title_new": "New category",
+                "title_edit": "Edit category",
+                "field_name": "Name",
+                "field_slug": "Slug",
+                "field_slug_help": "Used in the category's URL. Leave blank to generate it from the name.",
+                "field_slug_placeholder": "e.g. guides",
+                "field_description": "Description",
+                "field_color": "Color",
+                "field_color_help": "Hex color (e.g. #3b82f6) used for the category's badge.",
+                "field_icon": "Icon",
+                "field_icon_help": "A Font Awesome class, e.g. fas fa-book.",
+                "field_position": "Position",
+                "field_position_help": "Categories are ordered by this value, lowest first.",
+                "submit_create": "Create category",
+                "submit_update": "Save changes",
+                "error_save": "Couldn't save the category. Please check the fields and try again.",
+                "error_delete": "Couldn't delete the category."
+            }
+        },
+        "forum": {
+            "search": {
+                "heading": "Wiki",
+                "placeholder": "Search the wiki",
+                "results_heading": "Results for \"{query}\"",
+                "all_button": "Search the wiki for \"{query}\"",
+                "empty": "No articles match \"{query}\"."
+            },
+            "nav": "Wiki",
+            "link_preview": {
+                "articles": "{count, plural, one {# article} other {# articles}}"
+            },
+            "common": {
+                "date_at_time": "{date} at {time}"
+            },
+            "index": {
+                "new_article": "New article",
+                "new_article_tooltip": "Write a new article",
+                "index_label": "Index",
+                "empty_own": "No articles yet. Click \"New article\" to write one.",
+                "empty": "No articles to show.",
+                "untitled": "Untitled",
+                "deleted_badge": "Deleted",
+                "draft_badge": "Draft",
+                "uncategorised": "Other",
+                "see_all_lead": "See all in",
+                "no_categories": "No categories yet."
+            },
+            "compose": {
+                "title": "New article",
+                "title_edit": "Edit article",
+                "title_label": "Title",
+                "title_placeholder": "Article title",
+                "slug_label": "URL slug",
+                "slug_placeholder": "e.g. getting-started",
+                "slug_help": "Used in the article's URL. Leave blank to generate it from the title.",
+                "position_label": "Position",
+                "position_placeholder": "e.g. 1",
+                "position_help": "Orders this article within its category, lowest first. Leave blank and it sits after the ordered ones, newest first.",
+                "category_label": "Category",
+                "no_category": "No category",
+                "body_label": "Content",
+                "body_placeholder": "Write the article. Markdown is supported.",
+                "body_placeholder_click": "Click to write the article…",
+                "body_placeholder_edit": "Click to continue editing…",
+                "discard_confirm": "You have an unsaved article. Discard it?",
+                "submit_create": "Publish article",
+                "submit_update": "Save changes",
+                "draft_label": "Save as a draft",
+                "draft_help": "A draft is visible only to you and to wiki editors until you publish it.",
+                "faq_heading": "FAQ",
+                "faq_help": "Optional questions and answers shown under the article. Markdown is supported in answers.",
+                "faq_question_placeholder": "Question",
+                "faq_answer_placeholder": "Answer. Markdown is supported.",
+                "faq_add": "Add question",
+                "faq_remove": "Remove question"
+            },
+            "show": {
+                "deleted_notice": "This article is deleted. Only editors can see it.",
+                "draft_notice": "This article is a draft. Only you and wiki editors can see it.",
+                "toc_heading": "Contents",
+                "faq_heading": "Frequently asked questions",
+                "related_heading": "Related articles",
+                "by": "by ",
+                "last_edited": "last edited by ",
+                "last_edited_tooltip": "Last edited by {name} on {date}",
+                "created_tooltip": "Written on {date}",
+                "history": "History ({count})",
+                "no_history": "No revisions yet.",
+                "load_more_history": "Load older revisions",
+                "initial_version": "created",
+                "diff_from_previous": "Changes from the previous version",
+                "diff_initial": "Initial version",
+                "diff_title": "Title",
+                "diff_none": "No content changes."
+            },
+            "action": {
+                "report": "Report",
+                "edit": "Edit",
+                "delete": "Delete",
+                "restore": "Restore",
+                "delete_forever": "Delete forever",
+                "save_changes": "Save changes",
+                "cancel": "Cancel"
+            },
+            "report": {
+                "title": "Report this article",
+                "intro": "Editors will see this along with the article.",
+                "reason_label": "What is wrong with it?",
+                "reason_inaccurate": "It is inaccurate",
+                "reason_outdated": "It is out of date",
+                "reason_off_topic": "It does not belong here",
+                "reason_duplicate": "It duplicates another article",
+                "reason_other": "Something else",
+                "detail_label": "Anything to add? (optional)",
+                "submit": "Send report",
+                "sent": "Thank you. An editor will look at this.",
+                "failed": "That could not be sent. Please try again."
+            },
+            "comments": {
+                "heading": "Comments ({count})",
+                "empty": "No comments yet.",
+                "load_more": "Load more comments",
+                "placeholder": "Write a comment…",
+                "post": "Post comment",
+                "deleted": "This comment was deleted.",
+                "discard_confirm": "You have an unsubmitted comment. Discard it?",
+                "empty_error": "Please write something first.",
+                "confirm_delete": "Delete this comment?",
+                "confirm_delete_forever": "Permanently delete this comment? This cannot be undone.",
+                "error_post": "Could not post the comment.",
+                "error_edit": "Could not save the comment.",
+                "error_delete": "Could not delete the comment."
+            },
+            "confirm": {
+                "soft_delete": "Delete this article? Editors can restore it later.",
+                "delete_forever": "Permanently delete this article and its history? This cannot be undone."
+            },
+            "errors": {
+                "load_articles": "Could not load articles.",
+                "load_article": "Could not load this article. It may have been deleted, or you may not have permission to view it.",
+                "title_required": "Please enter a title.",
+                "empty_body": "Please write the article body before submitting.",
+                "submit": "Could not save the article.",
+                "delete_article": "Could not delete the article.",
+                "restore_article": "Could not restore the article.",
+                "delete_article_forever": "Could not permanently delete the article.",
+                "upload": "Could not upload file.",
+                "upload_no_files": "Upload returned no files. Please try again.",
+                "unknown": "Unknown error."
+            }
+        },
+        "api": {
+            "title_required": "An article title is required.",
+            "content_required": "Article content is required.",
+            "article_soft_delete_first": "An article must be deleted before it can be permanently removed.",
+            "slug_invalid": "That URL slug is reserved. Please pick one that is not just a number.",
+            "slug_taken": "Another article already uses that URL slug.",
+            "faq_too_many": "An article can have at most {max} FAQ entries.",
+            "article_required": "An article is required.",
+            "report_already_open": "You have already reported this article. An editor will look at it.",
+            "article_not_found": "Article not found.",
+            "comment_required": "Comment content is required.",
+            "comment_soft_delete_first": "A comment must be deleted before it can be permanently removed."
+        }
+    }
+}

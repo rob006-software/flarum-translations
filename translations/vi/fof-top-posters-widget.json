@@ -2,18 +2,19 @@
     "fof-top-posters-widget": {
         "admin": {
             "settings": {
-                "info": ""
+                "info": "Người dùng thuộc các nhóm được chọn sẽ bị loại khỏi kết quả của widget."
             }
         },
         "forum": {
             "widget": {
-                "title": ""
+                "title": "Thành viên đăng bài nhiều nhất tháng này",
+                "load_error": ""
             }
         },
         "lib": {
             "gambits": {
                 "top_poster": {
-                    "key": ""
+                    "key": "người đăng hàng đầu"
                 }
             }
         }

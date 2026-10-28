@@ -1,0 +1,17 @@
+{
+    "fof-first-post-approval": {
+        "admin": {
+            "permissions": {
+                "bypass": "Post without first post approval"
+            },
+            "settings": {
+                "discussionCount": "Number of first discussions to require approval for",
+                "discussionCount_help": "Set to 0 to hold new discussions for approval based on the number of posts instead.",
+                "postCount": "Number of first posts to require approval for",
+                "postCount_help": "Once this many posts by a user have been approved, their posts are published immediately.",
+                "restrictPrivateDiscussions": "Prevent private discussions until approved",
+                "restrictPrivateDiscussions_help": "Private discussions cannot be held for approval, so users still subject to first post approval are stopped from starting them. Turn this off to let them start private discussions freely."
+            }
+        }
+    }
+}

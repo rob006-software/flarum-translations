@@ -21,5 +21,17 @@
         "ref": {
             "awaiting_approval": "В ожидании одобрения"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "Одобрено {discussion}"
+                },
+                "post": {
+                    "approved": "Одобрено сообщение пользователя {postuser} в разделе {discussion}"
+                }
+            }
+        }
     }
 }

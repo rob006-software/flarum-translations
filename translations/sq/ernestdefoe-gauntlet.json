@@ -1,0 +1,411 @@
+{
+    "ernestdefoe-gauntlet": {
+        "api": {
+            "already_entered": "",
+            "already_published": "",
+            "badge": "",
+            "best_of": "",
+            "both_scores": "",
+            "cannot_cancel": "",
+            "cannot_reset": "",
+            "cannot_start": "",
+            "cannot_withdraw": "",
+            "captain_cannot_leave": "",
+            "checkin_closed": "",
+            "checkin_needs_start": "",
+            "choice": "",
+            "date": "",
+            "description": "",
+            "entrants_cannot_predict": "",
+            "field_locked": "",
+            "field_not_empty": "",
+            "full": "",
+            "game": "",
+            "group_already_entered": "",
+            "invalid_pick": "",
+            "locked_after_publish": "",
+            "locked_after_start": "",
+            "logo_url": "",
+            "max_entrants": "",
+            "no_draws": "",
+            "not_correctable": "",
+            "not_group_captain": "",
+            "not_group_member": "",
+            "not_open": "",
+            "number": "",
+            "picks_game": "",
+            "picks_team": "",
+            "points": "",
+            "predictions_closed": "",
+            "organisers_cannot_predict": "",
+            "prizes_paid": "",
+            "predictions_need_staff_single": "",
+            "registration_closed": "",
+            "score_range": "",
+            "tag": "",
+            "team_closed": "",
+            "team_full": "",
+            "team_name": "",
+            "title": "",
+            "too_few_entrants": "",
+            "too_many_entrants": "",
+            "winner_contradicts_score": "",
+            "winner_or_scores": ""
+        },
+        "email": {
+            "open": "",
+            "match_ready": {
+                "subject": "",
+                "title": "",
+                "body": ""
+            },
+            "ruling": {
+                "subject": "",
+                "title": "",
+                "body": ""
+            },
+            "checkin": {
+                "subject": "",
+                "title": "",
+                "body": ""
+            },
+            "promoted": {
+                "subject": "",
+                "title": "",
+                "body": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "format": {
+                "single": "",
+                "double": "",
+                "round_robin": "",
+                "swiss": ""
+            },
+            "status": {
+                "draft": "",
+                "registration": "",
+                "running": "",
+                "finished": "",
+                "cancelled": ""
+            },
+            "tournaments": {
+                "title": "",
+                "new": "",
+                "empty": "",
+                "more": "",
+                "filters": {
+                    "all": "",
+                    "open": "",
+                    "running": "",
+                    "finished": "",
+                    "mine": ""
+                }
+            },
+            "tournament": {
+                "missing": "",
+                "entrants": "",
+                "entrants_of": "",
+                "predictions": "",
+                "solo": "",
+                "teams_of": "",
+                "organiser": "",
+                "discussion": "",
+                "log_in": "",
+                "sign_up": "",
+                "join_waitlist": "",
+                "enter_team": "",
+                "team_name": "",
+                "team_new": "",
+                "team_group": "",
+                "you_in": "",
+                "request_sent": "",
+                "you_team": "",
+                "you_waitlisted": "",
+                "checked_in": "",
+                "checkin_window": "",
+                "check_in": "",
+                "undo_checkin": "",
+                "withdraw": "",
+                "withdraw_confirm": "",
+                "withdraw_running": "",
+                "forfeit_confirm": "",
+                "leave_team": "",
+                "your_match": "",
+                "staff_waiting": "",
+                "champion": "",
+                "tabs": {
+                    "bracket": "",
+                    "standings": "",
+                    "matches": "",
+                    "entrants": "",
+                    "predict": "",
+                    "board": "",
+                    "manage": ""
+                }
+            },
+            "bracket": {
+                "title": "",
+                "jump": "",
+                "round": "",
+                "final": "",
+                "semi_finals": "",
+                "quarter_finals": "",
+                "winners_final": "",
+                "losers_final": "",
+                "grand_final": "",
+                "reset": "",
+                "third_place": "",
+                "section_W": "",
+                "section_L": "",
+                "section_F": "",
+                "bye": "",
+                "tbd": "",
+                "live": ""
+            },
+            "match": {
+                "title": "",
+                "best_of": "",
+                "forfeit_win": "",
+                "status": {
+                    "pending": "",
+                    "open": "",
+                    "reported": "",
+                    "disputed": "",
+                    "awaiting": "",
+                    "completed": "",
+                    "bye": "",
+                    "void": ""
+                },
+                "reported_by": "",
+                "picks_game": "",
+                "discussion": "",
+                "report_heading": "",
+                "they_reported": "",
+                "confirm": "",
+                "my_score": "",
+                "their_score": "",
+                "report": "",
+                "report_different": "",
+                "awaiting_staff": "",
+                "rule_heading": "",
+                "correct_heading": "",
+                "save_result": "",
+                "save_correction": "",
+                "forfeit_to": "",
+                "scheduled": "",
+                "save_time": "",
+                "picks_link": "",
+                "picks_none": "",
+                "start_discussion": ""
+            },
+            "standings": {
+                "entrant": "",
+                "played": "",
+                "record": "",
+                "diff": "",
+                "points": "",
+                "buchholz": "",
+                "buchholz_help": "",
+                "sb": "",
+                "sb_help": ""
+            },
+            "entrants": {
+                "empty": "",
+                "seed": "",
+                "place": "",
+                "rating": "",
+                "status": "",
+                "promote": "",
+                "remove": "",
+                "remove_confirm": "",
+                "join_team": "",
+                "ask_to_join": "",
+                "cancel_request": "",
+                "request": "",
+                "approve": "",
+                "decline": "",
+                "statuses": {
+                    "registered": "",
+                    "waitlisted": "",
+                    "withdrawn": "",
+                    "disqualified": "",
+                    "no_show": ""
+                }
+            },
+            "predict": {
+                "open_until": "",
+                "open_until_first": "",
+                "closed": "",
+                "score": "",
+                "progress": "",
+                "tiebreaker": "",
+                "save": "",
+                "saved": "",
+                "pick_label": "",
+                "board_empty": "",
+                "member": "",
+                "points": "",
+                "correct": "",
+                "possible": ""
+            },
+            "manage": {
+                "edit": "",
+                "publish": "",
+                "publish_staff": "",
+                "start": "",
+                "start_confirm": "",
+                "start_help": "",
+                "reset": "",
+                "reset_confirm": "",
+                "discussion": "",
+                "cancel": "",
+                "cancel_confirm": "",
+                "delete": "",
+                "delete_confirm": "",
+                "add_heading": "",
+                "picks_search": "",
+                "playoff_board": "",
+                "playoff_board_fill": "",
+                "name": "",
+                "logo": "",
+                "add": "",
+                "seed_help": ""
+            },
+            "editor": {
+                "new_title": "",
+                "edit_title": "",
+                "create": "",
+                "save": "",
+                "basics": "",
+                "format": "",
+                "entry": "",
+                "play": "",
+                "predictions": "",
+                "rewards": "",
+                "locked": "",
+                "game_placeholder": "",
+                "checkin_help": "",
+                "discussion_help": "",
+                "predictions_help": "",
+                "rewards_help": "",
+                "reward_place": "",
+                "no_tag": "",
+                "no_badge": "",
+                "fields": {
+                    "title": "",
+                    "game": "",
+                    "description": "",
+                    "format": "",
+                    "entryMode": "",
+                    "entryType": "",
+                    "teamSize": "",
+                    "maxEntrants": "",
+                    "waitlist": "",
+                    "startsAt": "",
+                    "registrationClosesAt": "",
+                    "checkinMinutes": "",
+                    "seeding": "",
+                    "bestOf": "",
+                    "thirdPlace": "",
+                    "grandFinalReset": "",
+                    "swissRounds": "",
+                    "allowDraws": "",
+                    "confirmation": "",
+                    "matchDiscussions": "",
+                    "tagId": "",
+                    "predictions": "",
+                    "predictionsLockAt": "",
+                    "predictionPoints": "",
+                    "rewardBadgeId": ""
+                },
+                "options": {
+                    "format": {
+                        "single": "",
+                        "double": "",
+                        "round_robin": "",
+                        "swiss": ""
+                    },
+                    "entryMode": {
+                        "members": "",
+                        "staff": ""
+                    },
+                    "entryType": {
+                        "solo": "",
+                        "team": ""
+                    },
+                    "seeding": {
+                        "random": "",
+                        "manual": "",
+                        "rating": ""
+                    },
+                    "bestOf": {
+                        "1": "",
+                        "3": "",
+                        "5": "",
+                        "7": "",
+                        "9": ""
+                    },
+                    "confirmation": {
+                        "agree": "",
+                        "staff": ""
+                    }
+                }
+            },
+            "discussion": {
+                "tournament_body": "",
+                "match_title": "",
+                "match_body": ""
+            },
+            "profile": {
+                "nav": "",
+                "empty": "",
+                "entered": "",
+                "won": "",
+                "podium": "",
+                "rating": "",
+                "any_game": "",
+                "tournament": "",
+                "place_of": "",
+                "predictions": ""
+            },
+            "settings": {
+                "match_ready": "",
+                "result_reported": "",
+                "checkin": "",
+                "promoted": "",
+                "started": "",
+                "finished": "",
+                "ruling": ""
+            },
+            "notifications": {
+                "gauntletMatchReady": "",
+                "gauntletResultReported": "",
+                "gauntletRuling": "",
+                "gauntletStarted": "",
+                "gauntletCheckin": "",
+                "gauntletPromoted": "",
+                "gauntletFinished": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_nav": ""
+            },
+            "permissions": {
+                "view": "",
+                "join": "",
+                "predict": "",
+                "create": "",
+                "manage": "",
+                "reward": ""
+            },
+            "badges": {
+                "tournaments_won": "",
+                "tournaments_podium": "",
+                "tournaments_played": ""
+            }
+        }
+    }
+}

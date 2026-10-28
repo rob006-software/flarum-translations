@@ -1,35 +1,35 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "ตอบกลับ: {count}",
+            "unreadReplies": "ตอบกลับที่ยังไม่ได้อ่าน: {count}",
+            "show_all_participants": "แสดงผู้เข้าร่วมทั้งหมด",
+            "more_participants": "{count}+",
+            "modal_title": "ผู้เข้าร่วม {count} คน",
+            "load_more": "โหลดเพิ่มเติม"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": "",
-                "showParticipants_label": "",
-                "showParticipants_help": ""
+                "onIndexPage_label": "ใช้ในหน้ารายการโพสต์",
+                "onIndexPage_help": "หากเปิดใช้งาน หน้ารายการโพสต์จะแสดงในรูปแบบ card",
+                "tagIds_label": "จำกัดตาม Tag",
+                "tagIds_help": "เลือก tag ที่ต้องการแสดง card หากไม่เลือก card จะปรากฏในทุกหน้า tag",
+                "fullWidth_label": "Card เต็มความกว้าง",
+                "fullWidth_help": "หากเปิดใช้งาน แต่ละ card จะกว้างเต็มหน้าแทนที่จะแสดงสองคอลัมน์",
+                "showParticipants_label": "แสดง Avatar ผู้เข้าร่วม",
+                "showParticipants_help": "หากเปิดใช้งาน แต่ละ card จะแสดง avatar ของผู้เข้าร่วมที่ด้านล่าง"
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "เครื่องมือ",
+            "recalculate_help": "คำนวณ avatar ผู้เข้าร่วมใหม่สำหรับทุกโพสต์ รันหลังจากติดตั้ง extension ครั้งแรกบนฟอรัมที่มีอยู่ หรือเมื่อข้อมูล preview ไม่ซิงค์",
+            "recalculate_button": "คำนวณผู้เข้าร่วมใหม่",
+            "recalculating_button": "กำลังคำนวณ…",
+            "recalculate_success": "เสร็จสิ้น คำนวณใหม่ {count} โพสต์ใน {duration} วินาที",
+            "recalculate_error": "เกิดข้อผิดพลาด กรุณาลองใหม่หรือใช้คำสั่ง CLI",
+            "recalculate_modal_title": "กำลังคำนวณผู้เข้าร่วมใหม่",
+            "recalculate_modal_warning": "อย่าปิดหน้าต่างนี้หรือออกไปจนกว่ากระบวนการจะเสร็จสิ้น",
+            "recalculate_modal_progress": "{processed} จาก {total} โพสต์",
+            "recalculate_modal_complete": "เสร็จสมบูรณ์! คำนวณใหม่ {total} โพสต์",
+            "recalculate_modal_close": "ปิด"
         }
     }
 }

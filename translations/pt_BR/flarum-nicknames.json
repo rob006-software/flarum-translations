@@ -3,25 +3,25 @@
         "admin": {
             "basics": {
                 "display_name_driver_options": {
-                    "nickname": ""
+                    "nickname": "Apelido"
                 }
             },
             "permissions": {
-                "edit_own_nickname_label": "Editar o próprio nome"
+                "edit_own_nickname_label": "Editar o próprio apelido"
             },
             "settings": {
-                "max_label": "Comprimento máximo do nome",
-                "min_label": "Comprimento mínimo do nome",
-                "random_username_label": "Nomes de Usuário aleatórios",
-                "random_username_help": "Isso ocultará a entrada `nome` no registro e usará um número aleatório. Também tornará o campo `nome` obrigatório. Isso só terá efeito se \"Permitir configuração de nome no registro\" estiver ativado.",
+                "max_label": "Tamanho máximo do apelido",
+                "min_label": "Tamanho mínimo do apelido",
+                "random_username_label": "Aleatorizar Nomes de Usuário",
+                "random_username_help": "Isso ocultará o campo `username` no cadastro e usará um número aleatório no lugar. Também tornará o campo `nickname` obrigatório. Só terá efeito se \"Permitir definir apelidos no cadastro\" estiver ativado.",
                 "regex_label": "Expressão regular para validação",
-                "set_on_registration_label": "Permitir nome no registro",
-                "unique_label": "Exigir apelidos exclusivos"
+                "set_on_registration_label": "Permitir definir apelidos no cadastro",
+                "unique_label": "Exigir apelidos únicos"
             },
-            "wrong_driver": "Você deve selecionar \"nickname\" como o driver do nome de exibição na <a><strong>Página Básica</strong></a> para que esta extensão tenha efeito."
+            "wrong_driver": "Você deve selecionar \"Apelido\" como driver de nome de exibição na página <a><strong>Básico</strong></a> para que esta extensão tenha efeito."
         },
         "api": {
-            "invalid_nickname_message": "Este apelido é inválido. Entre em contato com o administrador do fórum para obter mais informações sobre as regras de apelidos."
+            "invalid_nickname_message": "Este apelido é inválido. Entre em contato com o administrador do fórum para mais informações sobre as regras de apelidos."
         },
         "forum": {
             "change_nickname": {
@@ -42,6 +42,15 @@
         "ref": {
             "change_nickname": "Alterar Apelido",
             "nickname": "Apelido"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_changed": "Alterou o apelido de {username} de {old_nickname} para {new_nickname}"
+                }
+            }
         }
     }
 }

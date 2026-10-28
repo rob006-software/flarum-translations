@@ -5,7 +5,7 @@
                 "add_label": "Phương thức xác thực mới",
                 "add_modal": {
                     "host_label": "Máy chủ",
-                    "host_placeholder": "",
+                    "host_placeholder": "ví dụ: bearer.flarum.org",
                     "submit_button": "Gửi",
                     "token_label": "Mã token",
                     "type_label": "Kiểu",
@@ -47,11 +47,11 @@
                 },
                 "repositories": {
                     "label": "Kho lưu trữ",
-                    "help": "Thêm kho lữu trư bổ sung để cài đặt các gói từ đó. Đây là tính năng nâng cao, không thêm các kho lưu trữ không đáng tin cậy vì chúng có thể được sử dụng để thực thi mã độc trên máy chủ của bạn.\n",
+                    "help": "Thêm kho lưu trữ bổ sung để cài đặt các gói từ đó. Đây là tính năng nâng cao, không thêm các kho lưu trữ không đáng tin cậy vì chúng có thể được sử dụng để thực thi mã độc trên máy chủ của bạn.\n",
                     "types": {
                         "composer": "composer",
                         "vcs": "vcs",
-                        "path": "đường dẫn"
+                        "path": "path"
                     },
                     "add_modal": {
                         "name_label": "Tên",
@@ -73,9 +73,10 @@
                 }
             },
             "extensions": {
+                "already_installed": "Tiện ích này đã được cài đặt",
                 "check_why_it_failed_updating": "Xem lý do tại sao nó không cập nhật lên phiên bản mới nhất.",
                 "install": "Cài tiện ích mở rộng mới",
-                "install_help": "Điền tên gói tiện ích mở rộng để tiếp tục. Bạn có thể nhập <semantic_link>semantic version</semantic_link> bằng định dạng <code>vendor/package-name:version</code>. Truy cập {extiverse} để xem các tiện ích mở rộng.\n",
+                "install_help": "Điền tên gói tiện ích mở rộng để tiếp tục. Bạn có thể nhập <semantic_link>semantic version</semantic_link> bằng định dạng <code>vendor/package-name:version</code>. Truy cập {link} để xem các tiện ích mở rộng.\n",
                 "proceed": "Thực hiện",
                 "remove": "Gỡ cài đặt",
                 "successful_install": "{extension} đã được cài đặt thành công, đang chuyển hướng..",
@@ -88,7 +89,7 @@
             "file_permissions": "Trình quản lý tiện ích mở rộng yêu cầu quyền đọc và ghi trên các tệp và thư mục sau: composer.json, composer.lock, vendor, storage, storage/.composer\n",
             "major_updater": {
                 "description": "Các bản cập nhật chính của Flarum không tương thích ngược, nghĩa là một số tiện ích mở rộng hiện được cài đặt của bạn và các sửa đổi được thực hiện thủ công có thể không hoạt động với phiên bản mới này. Vui lòng đảm bảo tạo bản sao lưu cơ sở dữ liệu và tệp của bạn trước khi tiếp tục.\n",
-                "dry_run": "Chạy khô",
+                "dry_run": "Chạy thử",
                 "dry_run_help": "Chạy thử mô phỏng bản cập nhật để xem liệu thiết lập hiện tại của bạn có thể cập nhật an toàn hay không, điều này không có nghĩa là các sửa đổi tùy chỉnh được thực hiện thủ công của bạn sẽ hoạt động trong phiên bản mới hơn.",
                 "failure": {
                     "desc": "Bản cập nhật lớn gần đây nhất không thành công, một số tiện ích mở rộng đã cài đặt không tương thích với bản phát hành chính mới.",
@@ -98,33 +99,33 @@
                 "update": "Cập nhật"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Thao tác này cũng sẽ cập nhật mọi tiện ích/gói khác đang có bản cập nhật."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Trình quản lý tiện ích cần những hàm PHP sau được bật: <code>{functions}</code>. Nếu bạn không truy cập được cấu hình PHP, vui lòng liên hệ nhà cung cấp dịch vụ lưu trữ.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Hãy thêm tính năng và tích hợp mới cho diễn đàn Flarum của bạn bằng các tiện ích.",
+                    "empty_results": "Có vẻ như không có tiện ích nào.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Đã bỏ hoang",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {{formattedCount} lượt tải} other {{formattedCount} lượt tải}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Tìm kiếm...",
+                    "server_error": "Dịch vụ hiện không khả dụng, vui lòng thử lại sau.",
                     "sort": {
-                        "top": ""
+                        "top": "Tải nhiều nhất"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Khám phá",
+                        "extensions": "Tiện ích mở rộng",
+                        "languages": "Ngôn ngữ",
+                        "themes": "Giao diện"
                     },
-                    "title": ""
+                    "title": "Tiện ích mở rộng"
                 },
                 "queue": {
                     "columns": {
@@ -163,8 +164,8 @@
                     "title": "Hàng đợi"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Tùy chọn và hàng đợi",
+                    "description": "Cấu hình trình quản lý tiện ích và kiểm tra các thao tác trong hàng đợi."
                 }
             },
             "settings": {
@@ -172,23 +173,23 @@
                 "access_warning": "Hãy cẩn thận với người mà bạn cấp quyền truy cập vào khu vực quản trị, trình quản lý tiện ích mở rộng có thể bị kẻ xấu lạm dụng để cài đặt các gói có thể dẫn đến vi phạm bảo mật.",
                 "debug_mode_warning": "Bạn đang chạy ở chế độ gỡ lỗi, trình quản lý tiện ích mở rộng không thể cài đặt và cập nhật các gói phát triển cục bộ đúng cách. Vui lòng sử dụng giao diện dòng lệnh thay thế cho các mục đích như vậy.",
                 "queue_jobs": "Chạy các hành động trong hàng đợi nền",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Bạn có thể đọc về cách triển khai <basic_impl_link>hàng đợi cơ bản</basic_impl_link> hoặc <adv_impl_link>nâng cao hơn</adv_impl_link>. Hãy chắc chắn phiên bản PHP dùng cho hàng đợi là {php_version}. Hãy chắc chắn <folder_perms_link>quyền thư mục</folder_perms_link> được cấu hình đúng.\n",
                 "task_retention_days": "Số ngày lưu giữ nhiệm vụ",
                 "task_retention_days_help": "Số ngày lưu giữ các nhiệm vụ đã hoàn thành trong cơ sở dữ liệu. Nhiệm vụ cũ hơn này sẽ bị xóa. Đặt thành 0 để giữ tất cả các nhiệm vụ.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Không có bản cập nhật nào đang chờ.",
                 "check_for_updates": "Kiểm tra cập nhật",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Đã cập nhật thành công tất cả các gói.",
                 "last_update_checked_at": "Lần cuối kiểm tra cập nhật: ",
                 "run_global_update": "Chạy cập nhật toàn cục",
                 "updater_title": "Cập nhật",
-                "updater_help": "Chạy kiểm tra các bản cập nhật cho các tiện ích mở rộng và Flarum mới."
+                "updater_help": "Kiểm tra các bản cập nhật mới cho tiện ích mở rộng và Flarum."
             },
             "update_successful": "Cập nhật Flarum thành công.",
             "why_not_modal": {
-                "title": "Tại sao nó không cập nhật"
+                "title": "Tại sao không thể cập nhật"
             }
         }
     }

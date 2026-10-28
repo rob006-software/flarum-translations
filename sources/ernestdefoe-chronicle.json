@@ -1,0 +1,49 @@
+{
+    "ernestdefoe-chronicle": {
+        "forum": {
+            "nav": "Activity",
+            "filters": {
+                "label": "Show",
+                "all": "All",
+                "discussion": "Discussions",
+                "reply": "Replies",
+                "like": "Likes",
+                "best_answer": "Best answers",
+                "badge": "Badges"
+            },
+            "item": {
+                "discussion": "Started {title}",
+                "reply": "Replied to {title}",
+                "like": "Liked {author}’s post in {title}",
+                "like_no_author": "Liked a post in {title}",
+                "best_answer": "Gave the best answer in {title}",
+                "badge": "Earned the {badge} badge",
+                "joined": "Joined the forum",
+                "untitled": "a discussion"
+            },
+            "today": "Today",
+            "yesterday": "Yesterday",
+            "day_format": "dddd, D MMMM YYYY",
+            "load_more": "Load more",
+            "empty": "Nothing here yet.",
+            "empty_filtered": "Nothing of this kind yet.",
+            "failed": "The activity could not be loaded.",
+            "retry": "Try again",
+            "settings": {
+                "show_likes": "Show my likes in my activity"
+            }
+        },
+        "admin": {
+            "types_heading": "What appears in members' activity",
+            "types_help": "Likes, best answers and badges appear when Flarum Likes, FoF Best Answer and FoF Badges are installed.",
+            "show_discussion": "Discussions they started",
+            "show_reply": "Their replies",
+            "show_like": "Posts they liked",
+            "show_like_help": "Members can still hide their own likes under Settings → Privacy.",
+            "show_best_answer": "Their best answers",
+            "show_badge": "Badges they earned",
+            "show_joined": "When they joined",
+            "permission_view": "View members' activity"
+        }
+    }
+}

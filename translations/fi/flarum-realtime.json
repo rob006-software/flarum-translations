@@ -1,15 +1,21 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitettyä keskustelua}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# keskustelulla on} other {# keskustelulla on}} päivitettyä toimintaa ja se julkaistaan {releaseTimeout} sekunnin kuluttua. Napsauta näyttääksesi nyt."
             },
             "typing-indicator": {
                 "anonymous-user": "[Anonyymi]",
+                "hidden-user": "",
                 "people-are-typing": "{number, plural, one {# henkilö kirjoittaa} other {# henkilöä kirjoittaa}}",
                 "users-are-typing": "{count, plural, one {{users} kirjoittaa} other {{users}{others, plural, =1 { & # muu} =0 {} other { & # muuta}} kirjoittavat}}",
                 "no-activity": "Kukaan ei kirjoita"
+            },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
             },
             "user": {
                 "settings": {
@@ -23,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "",
                 "view-who-types": "Näe kuka kirjoittaa"
             },
             "settings": {
@@ -33,7 +40,11 @@
                 "notification-toast-dismiss-after": "Ilmoitusponnahduksen kesto",
                 "notification-toast-dismiss-after-help": "Kuinka kauan (sekunteina) reaaliaikainen ilmoitusponnahdus pysyy näytöllä ennen automaattista sulkemista. Aseta arvoksi 0 poistaaksesi ponnahdusikkunailmoitukset käytöstä.",
                 "typing-indicator": "Kirjoitus indikaattori",
-                "typing-indicator-help": "Kun käytössä, käyttäjät voivat oikeuksien mukaan nähdä muiden käyttäjien kirjoitusaktiivisuuden määrän keskustelussa. Kun poistettu käytöstä, kirjoitusaktiivisuus poistetaan sekä käyttöliittymästä että WebSocket-viestistä."
+                "typing-indicator-help": "Kun käytössä, käyttäjät voivat oikeuksien mukaan nähdä muiden käyttäjien kirjoitusaktiivisuuden määrän keskustelussa. Kun poistettu käytöstä, kirjoitusaktiivisuus poistetaan sekä käyttöliittymästä että WebSocket-viestistä.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

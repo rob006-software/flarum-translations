@@ -1,0 +1,19 @@
+{
+    "ernestdefoe-kindred": {
+        "forum": {
+            "heading": "Similar discussions",
+            "replies": "{count, plural, =0 {No replies} one {# reply} other {# replies}}"
+        },
+        "admin": {
+            "limit": "Number of discussions",
+            "limit_help": "How many similar discussions to show, at most (1–20). If nothing is similar enough, nothing is shown.",
+            "max_age": "Ignore discussions inactive for longer than (days)",
+            "max_age_help": "Leave at 0 to include discussions of any age.",
+            "extra_stopwords": "Extra words to ignore",
+            "extra_stopwords_help": "Words too common on your forum to say two titles are alike: your sport, your town, your product's name. Separate them with spaces or commas. Common English words like \"the\", \"best\" and \"question\" are already ignored.",
+            "extra_stopwords_placeholder": "football, game, season",
+            "sidebar": "Also show in the discussion sidebar on wide screens",
+            "sidebar_help": "A compact copy under the discussion controls. With this on, the list loads with the page on wide screens instead of waiting until the reader nears the end."
+        }
+    }
+}

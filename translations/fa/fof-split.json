@@ -20,6 +20,22 @@
                 "new_discussion_label": "عنوان بحث جدید را مشخص کنید",
                 "submit_button": "تقسیم"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "",
+                    "split_into": ""
+                }
+            }
         }
     }
 }

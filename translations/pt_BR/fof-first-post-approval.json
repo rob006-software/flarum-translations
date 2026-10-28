@@ -1,0 +1,17 @@
+{
+    "fof-first-post-approval": {
+        "admin": {
+            "permissions": {
+                "bypass": "Postar sem aprovação do primeiro post"
+            },
+            "settings": {
+                "discussionCount": "Número de primeiras discussões que exigem aprovação",
+                "discussionCount_help": "Defina 0 para reter novas discussões para aprovação com base no número de posts.",
+                "postCount": "Número de primeiros posts que exigem aprovação",
+                "postCount_help": "Depois que esta quantidade de posts de um usuário for aprovada, os posts dele são publicados imediatamente.",
+                "restrictPrivateDiscussions": "Impedir discussões privadas até a aprovação",
+                "restrictPrivateDiscussions_help": "Discussões privadas não podem ser retidas para aprovação, então usuários ainda sujeitos à aprovação do primeiro post são impedidos de iniciá-las. Desative para deixá-los iniciar discussões privadas livremente."
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "fof-upgrade-advisor": {
+        "admin": {
+            "latest": {
+                "title": "",
+                "description": ""
+            },
+            "overall": {
+                "ready": "",
+                "blocked": "",
+                "tasks": "",
+                "unchecked_only": "",
+                "reasons": {
+                    "no_path": "",
+                    "check": "",
+                    "unchecked": ""
+                }
+            },
+            "checks": {
+                "php-version": {
+                    "title": "",
+                    "chip": "",
+                    "pass": "",
+                    "warning": "",
+                    "fail": ""
+                },
+                "database-version": {
+                    "title": "",
+                    "pass": "",
+                    "warning_unknown": "",
+                    "warning_below_recommended": "",
+                    "fail": ""
+                },
+                "extension-compatibility": {
+                    "title": ""
+                }
+            },
+            "extensions": {
+                "contact": {
+                    "forum": "",
+                    "issues": "",
+                    "source": ""
+                }
+            },
+            "summary": {
+                "progress": "",
+                "ready": "",
+                "tasks": "",
+                "blocked": "",
+                "unknown": "",
+                "checked": "",
+                "data_as_of": "",
+                "data_as_of_help": "",
+                "recommended": "",
+                "refresh": "",
+                "refresh_cooldown": "",
+                "export": ""
+            },
+            "list": {
+                "before": "",
+                "after": "",
+                "copy": "",
+                "copied": "",
+                "configure": "",
+                "groups": {
+                    "environment": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "decision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "unknown": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "replace": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "ready": {
+                        "title": "",
+                        "description": ""
+                    }
+                },
+                "details": {
+                    "none": "",
+                    "none_unversioned": "",
+                    "remove": "",
+                    "replacement": "",
+                    "replacement_unverified": "",
+                    "abandoned": "",
+                    "replacement_not_ready": "",
+                    "latest": "",
+                    "no_release": "",
+                    "unknown": ""
+                }
+            },
+            "hints": {
+                "none": "",
+                "none_unversioned": "",
+                "remove": "",
+                "swap_after_upgrade": "",
+                "switch_replacement": "",
+                "switch_replacement_unverified": "",
+                "no_path": "",
+                "no_path_unversioned": "",
+                "no_path_abandoned": "",
+                "no_path_replacement_not_ready": "",
+                "unknown": ""
+            },
+            "tabs": {
+                "report": "",
+                "repositories": ""
+            },
+            "repositories": {
+                "help": "",
+                "empty": "",
+                "add_floxum": "",
+                "add_composer": "",
+                "type_floxum": "",
+                "type_composer": "",
+                "url": "",
+                "username": "",
+                "token": "",
+                "remove": "",
+                "test": "",
+                "test_ok": "",
+                "test_fail_auth": "",
+                "test_fail_unreachable": "",
+                "test_fail_invalid": ""
+            },
+            "errors": {
+                "load_failed": ""
+            }
+        }
+    }
+}

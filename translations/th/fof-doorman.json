@@ -4,106 +4,106 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "รหัสเชิญ (Key)",
+                        "help": "โค้ดที่ผู้ใช้ต้องกรอกเมื่อสมัครสมาชิก"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "กลุ่มผู้ใช้",
+                        "help": "กลุ่มที่ผู้ใช้จะถูกเพิ่มเข้าโดยอัตโนมัติเมื่อลงทะเบียนด้วยรหัสเชิญนี้"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "จำนวนครั้งสูงสุดที่ใช้ได้",
+                        "help": "จำนวนครั้งสูงสุดที่รหัสเชิญนี้สามารถนำไปใช้งานได้ กำหนดเป็น 0 เพื่อไม่จำกัดจำนวนครั้ง"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "เปิดใช้งานบัญชีอัตโนมัติ",
+                        "help": "เปิดใช้งานบัญชีผู้ใช้ทันทีเมื่อสมัครสมาชิกสำเร็จ"
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "สร้างรหัสเชิญใหม่",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "สร้างรหัสเชิญ",
+                    "submit_and_create_another_button": "สร้างและเพิ่มรายการอื่นต่อ"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "แก้ไขรหัสเชิญ",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "บันทึกการเปลี่ยนแปลง"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "ส่งรหัสเชิญ",
+                    "group": "ส่งคำเชิญสำหรับกลุ่ม {group}",
+                    "help": "กรอกอีเมลคั่นด้วยเครื่องหมายจุลภาค (,), เว้นวรรค หรือกด Spacebar หลังจากพิมพ์อีเมลแต่ละตัวเพื่อเพิ่มรายการ",
+                    "placeholder": "ระบุที่อยู่อีเมลที่นี่",
+                    "invalid_emails": "ที่อยู่อีเมลต่อไปนี้ไม่ถูกต้อง: {emails}",
+                    "max_use_conflict": "จำนวนอีเมลที่ระบุเกินจำนวนครั้งการใช้งานสูงสุดที่เหลือสำหรับรหัสเชิญนี้",
+                    "send": "ส่งอีเมลคำเชิญ",
+                    "success": "ส่งอีเมลคำเชิญสำเร็จแล้ว"
                 }
             },
             "settings": {
                 "heading": "",
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": "",
+                "search": "ค้นหารหัสเชิญ",
+                "total_doorkeys": "รหัสเชิญทั้งหมด: {count}",
+                "create_doorkey_button": "สร้างรหัสเชิญ",
+                "optional_usage": "เปิดให้การกรอกรหัสเชิญเป็นตัวเลือก (ไม่บังคับ) เมื่อลงทะเบียน",
                 "optional_usage_help": ""
             },
             "list": {
                 "heading": "",
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "จัดการ",
+                    "uses": "จำนวนครั้งที่ใช้",
+                    "created_by": "สร้างโดย"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "รหัสเชิญนี้ถูกใช้งานจนครบจำนวนจำกัดสูงสุดแล้ว",
+                    "delete": "คุณแน่ใจหรือไม่ว่าต้องการลบรหัสเชิญ \"{key}\"?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {ใช้งานได้ไม่จำกัด} one {เหลือการใช้งานอีก {remainingUses} ครั้ง} other {เหลือการใช้งานอีก {remainingUses} ครั้ง}}",
+                        "total_uses": "{totalUses, plural, other {ใช้งานไปแล้ว {totalUses} ครั้ง}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "ผู้ใช้ที่ไม่รู้จัก"
                 },
                 "actions": {
                     "notify": "",
@@ -122,14 +122,14 @@
         },
         "forum": {
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "รหัสเชิญที่คุณระบุไม่ถูกต้อง",
+                "doorkey_required": "กรุณาระบุรหัสเชิญ",
+                "doorman_placeholder": "รหัสเชิญ (Invite Code)",
+                "doorman_placeholder_optional": "รหัสเชิญ (Invite Code - ระบุหรือไม่ก็ได้)"
             }
         },
         "email": {
-            "subject": "",
+            "subject": "คุณได้รับคำเชิญให้เข้าร่วมชุมชน",
             "body": ""
         }
     }

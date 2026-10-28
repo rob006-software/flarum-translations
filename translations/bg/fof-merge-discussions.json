@@ -57,5 +57,15 @@
                 "subject": "Твоята дискусия\"{merged_discussion_title}\" беше обединена"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

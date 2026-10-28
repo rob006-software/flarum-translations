@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": "This user hasn't filled out any profile fields yet."
+            },
             "alerts": {
                 "profile-completion-required": "Please complete the necessary profile fields below.\n",
                 "profile-completed": "Profile completed! <a>Proceed to homepage</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Create field",
+                "add-option": "Add option",
+                "delete-option": "Delete option",
                 "edit-field": "Save changes",
-                "delete-field": "Delete field"
+                "delete-field": "Move to trash",
+                "restore-field": "Restore field \"{field}\"",
+                "delete-field-permanently": "Delete field \"{field}\" permanently"
             },
             "permissions": {
                 "edit-others-profile": "Edit the profile of other users",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Fields",
+                "trash": "Trash",
                 "create": "Create field",
-                "edit": "Edit field {field}",
-                "delete-confirmation": "Are you sure you want to delete the field {field}? This cannot be undone.",
+                "edit": "Edit field \"{field}\"",
+                "delete-confirmation": "Move field \"{field}\" to trash?",
+                "delete-permanently-confirmation": "Permanently delete the field \"{field}\" and all its saved answers? This cannot be undone.",
+                "is_restricted": "Restrict field visibility",
+                "permissions": "Field visibility",
+                "permissions-alert": "Permission settings will be available when editing the field after creation.",
                 "name": "Field name",
                 "name-help": "The publicly visible (non-translatable) field label.\n",
                 "description": "Field description",
@@ -65,7 +77,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "answer"
+                    "key": "answer",
+                    "hint": "values of user profile fields"
                 }
             }
         }
@@ -77,6 +90,20 @@
                     "export_description": "Exports the user's profile field answers",
                     "delete_description": "Removes all profile field answers from the user's account",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "Created profile field \"{name}\"",
+                    "field_updated": "Updated profile field \"{name}\"",
+                    "field_deleted": "Deleted profile field \"{name}\"",
+                    "field_restored": "Restored profile field \"{name}\"",
+                    "field_permanently_deleted": "Permanently deleted profile field \"{name}\"",
+                    "profile_updated": "Updated {username}'s profile fields"
                 }
             }
         }

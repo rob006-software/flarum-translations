@@ -65,5 +65,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "posts": {
+                    "moved": "{post_count, plural, one {Egy bejegyzés} other {{post_count} bejegyzés}} áthelyezve innen: {discussion}, ide: {new_discussion}",
+                    "moved_to_new_discussion": "{post_count, plural, one {Egy bejegyzés} other {{post_count} bejegyzés}} áthelyezve innen: {discussion}, ebbe az új témába: {new_discussion}"
+                }
+            }
+        }
     }
 }

@@ -2,8 +2,8 @@
     "flarum-emoji": {
         "admin": {
             "settings": {
-                "cdn_label": "",
-                "cdn_help": ""
+                "cdn_label": "CDN鏡像地址",
+                "cdn_help": "例如https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/,當前版本為：{version}"
             }
         },
         "forum": {

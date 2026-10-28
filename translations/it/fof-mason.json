@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": ""
+            },
+            "discussion-controls": {
+                "edit-answers": "Modifica campi"
+            },
+            "answers-modal": {
+                "compose-title": "",
+                "edit-title": "Modifica campi per {title}",
+                "save": "Salva campi"
+            },
+            "post-answers": {
+                "no-answer": "Nessuna risposta"
+            },
+            "answers": {
+                "choose-option": "Scegli opzione",
+                "no-option-selected": "Nessuna opzione selezionata",
+                "required": ""
+            },
+            "tags": {
+                "inadequate-settings": "Le impostazioni dei tag non sono configurate correttamente. Consenti fino a un tag primario e secondario o disattiva la funzione \"Tag come campi\".\n",
+                "tags-label": "Tag"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Nuovo campo",
+                "add-field": "Aggiungi campo",
+                "save-field": "Salva cambiamenti campi",
+                "delete-field": "Cancella campo",
+                "edit-field": "",
+                "add-answer": "Aggiungi risposta",
+                "delete-answer": "Cancella risposta",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": ""
+            },
+            "field-list": {
+                "empty": "",
+                "free-text": "",
+                "dropdown": ""
+            },
+            "answers": {
+                "help": "",
+                "suggest": "",
+                "unsuggest": ""
+            },
+            "fields": {
+                "edit": "Modifica campo {field}",
+                "required": "Richiesto",
+                "name": "Nome Campo",
+                "name-help": "L'etichetta del campo visibile pubblicamente (non traducibile).\n",
+                "description": "Descruzione campo",
+                "description-help": "Una descrizione facoltativa per spiegare l'uso/la necessità di questo campo.\n",
+                "show_when_empty": "Mostra quando vuoto",
+                "show_when_empty-help": "Mostrare il campo sulla discussione quando non ha risposta",
+                "validation": "Convalida per i valori dell'utente",
+                "user_values_allowed": "Valori utente consentiti",
+                "user_values_allowed-help": "Se abilitato, gli utenti possono aggiungere i propri valori invece di quelli definiti dall'amministratore. Questi valori verranno verificati rispetto all'impostazione \"Convalida\". Se disabilitati, potranno utilizzare solo le risposte \"suggerite\".\n",
+                "validation-help": "Controlla le <a>regole di convalida di Laravel</a> supportate. Ad esempio: \"string|min:5\" o \"url\".\n",
+                "icon": "Icona",
+                "icon-help": "Mostra un'icona davanti ai valori inseriti dall'utente. Per un riferimento alle icone disponibili, controlla il <a>sito web FontAwesome</a>. Utilizzare il nome completo della classe dell'icona incluso il prefisso, ad esempio \"fas fa-bolt\".\n",
+                "save-field-for-answers": "Salva il campo per aggiungere risposte",
+                "new-answer": "Nuova risposta",
+                "new-answer-placeholder": "Un po di testo"
+            },
+            "messages": {
+                "delete-answer-confirmation": "Sei sicuro di voler eliminare la risposta \"{content}\"? Verrà rimossa da tutte le discussioni che la utilizzano. Se vuoi mantenere le risposte esistenti, disabilita invece il suggerimento di risposta. Elimina risposta?\n",
+                "delete-field-confirmation": "Sei sicuro di voler eliminare il campo \"{name}\"? Il campo e le relative risposte verranno rimossi da tutte le discussioni che li utilizzano. Eliminare il campo?\n"
+            },
+            "settings": {
+                "fields-section-title": "Titolo della sezione dei campi personalizzati",
+                "fields-section-title-placeholder": "Per impostazione predefinita non verrà mostrato alcun titolo",
+                "fields-section-title-help": "Gli utenti vedranno questo testo sopra i campi personalizzati nell'editor e nella discussione.\n",
+                "column-count": "Numero di colonne quando si mostrano i campi",
+                "n-columns": "",
+                "labels-as-placeholders": "Mostra etichette come placeholder nel form",
+                "labels-as-placeholders-help": "I campi utilizzeranno meno spazio verticale e le icone non verranno più mostrate. Tieni presente che ciò potrebbe avere un impatto sull'usabilità, in particolare quando si modificano i campi esistenti.\n",
+                "fields-in-hero": "",
+                "hide-empty-fields-section": "Nascondi titolo e controlli quando tutti i campi sono vuoti e nascosti",
+                "hide-empty-fields-section-help": "",
+                "tags-as-field": "Mostra il selettore di tag come campo",
+                "tags-as-field-help": "",
+                "tags-field-name": "Etichetta del campo tag",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "Campi",
+                "settings": "Impostazioni",
+                "field-answers": "Campi risposte"
+            },
+            "permissions": {
+                "see-own-fields": "Visualizzare i campi nelle discussioni esistenti",
+                "see-other-fields": "Vedere i campi su tutte le discussioni esistenti",
+                "fill-fields": "Compilare i campi nelle nuove discussioni",
+                "update-own-fields": "Aggiornare i campi della propria discussione",
+                "update-other-fields": "AGgiornare i campi di qualunque discussione",
+                "skip-required-fields": "Consentire il salto dei campi obbligatori"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "mason_answer": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                },
+                "discussion": {
+                    "mason_answers_changed": ""
+                }
+            }
+        }
+    }
+}

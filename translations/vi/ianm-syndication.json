@@ -2,9 +2,9 @@
     "ianm-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "Nhật kí hoạt động diễn đàn",
+                "forum_activity": "Hoạt động của diễn đàn",
                 "forum_new_discussions": "Các cuộc thảo luận mới của diễn đàn",
-                "tag_activity": "Nhật kí hoạt động của thẻ {tag}",
+                "tag_activity": "Hoạt động của thẻ {tag}",
                 "tag_new_discussions": "Các cuộc thảo luận của thẻ {tag}",
                 "discussion_last_posts": "Cuộc thảo luận này",
                 "user_last_posts": "Bài viết và bình luận của người dùng này"
@@ -12,7 +12,7 @@
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": "Từ: {discussion}"
+                        "title_reply": "Trả lời: {discussion}"
                     }
                 },
                 "titles": {
@@ -20,7 +20,7 @@
                     "main_subtitle": "Bài viết mới nhất trên diễn đàn",
                     "main_d_title": "Các cuộc thảo luận mới trên {forum_name}",
                     "main_d_subtitle": "Các cuộc thảo luận mới nhất trên diễn đàn",
-                    "tag_title": "Nhật kí hoạt động trong thẻ {tag}",
+                    "tag_title": "Hoạt động trong thẻ {tag}",
                     "tag_subtitle": "Bài viết mới nhất trong thẻ {tag}",
                     "tag_d_title": "Các cuộc thảo luận mới trong thẻ {tag}",
                     "tag_d_subtitle": "Các cuộc thảo luận mới nhất trong thẻ {tag}",
@@ -37,11 +37,11 @@
         "admin": {
             "settings": {
                 "full-text": {
-                    "label": "Nguồn cấp dữ liệu hiện tất cả văn bản",
-                    "help": "Nếu bị tắt, nguồn cấp dữ liệu sẽ chỉ chứa đoạn trích của các bài đăng, và người dùng sẽ phải vào diễn đàn để đọc mọi thứ. Tôi khuyên bạn nên để tùy chọn này hoạt động để tôn trọng những người theo dõi diễn đàn từ một trình tổng hợp RSS — nếu có."
+                    "label": "Nguồn cấp dữ liệu toàn văn",
+                    "help": "Nếu bị tắt, nguồn cấp dữ liệu sẽ chỉ chứa đoạn trích của các bài viết, và người dùng sẽ phải vào diễn đàn để đọc toàn bộ. Bạn nên giữ tùy chọn này bật để thuận tiện cho những người theo dõi diễn đàn qua trình đọc RSS — nếu có."
                 },
                 "html": {
-                    "label": "Định dạng nguồn cấp dữ liệu được",
+                    "label": "Nguồn cấp dữ liệu có định dạng",
                     "help": "Chọn tùy chọn này để giữ HTML trong các nguồn cấp dữ liệu đã tạo. Nếu bị tắt, nguồn cấp dữ liệu sẽ ở dạng văn bản thuần túy."
                 },
                 "entries-count": "Có bao nhiêu mục trên mỗi nguồn cấp dữ liệu?",

@@ -66,5 +66,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "suspended": "{username} kullanıcısını {until} tarihine kadar uzaklaştırdı",
+                    "unsuspended": "{username} kullanıcısının uzaklaştırmasını kaldırdı"
+                }
+            }
+        }
     }
 }

@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Παρακαλώ συμπληρώστε τα απαραίτητα πεδία του προφίλ παρακάτω.\n",
                 "profile-completed": "Το προφίλ ολοκληρώθηκε! <a>Πίσω στην Αρχική σελίδα</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Δημιουργία πεδίου",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Αποθήκευση αλλαγών",
-                "delete-field": "Διαγραφή πεδίου"
+                "delete-field": "Διαγραφή πεδίου",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Πεδία",
+                "trash": "",
                 "create": "",
                 "edit": "Επεξεργασία πεδίου {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Όνομα πεδίου",
                 "name-help": "Η δημόσια ορατή (μη μεταφράσιμη) ετικέτα πεδίου.\n",
                 "description": "Περιγραφή πεδίου",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "",
                     "delete_description": "",
                     "anonymize_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

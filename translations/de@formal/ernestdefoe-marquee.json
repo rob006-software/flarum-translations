@@ -1,0 +1,162 @@
+{
+    "ernestdefoe-marquee": {
+        "admin": {
+            "tmdb_token_label": "TMDB API-Token für Lesezugriff",
+            "tmdb_token_help": "Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.",
+            "igdb_label": "Twitch-Anwendungs-Zugangsdaten für IGDB",
+            "igdb_help": "Die Spiele stammen von IGDB, das von Twitch betrieben wird. <a>Registriere eine Anwendung in der Twitch-Entwicklerkonsole</a> (Client-Typ „Vertraulich“), erstelle einen Client-Schlüssel und füge beides hier ein. Der Schlüssel verbleibt auf dem Server. IGDB ist für nichtkommerzielle Foren kostenlos; ein kommerzielles Forum benötigt eine Partnerschaft mit IGDB.",
+            "igdb_client_id": "Client-ID",
+            "igdb_client_secret": "Client Secret",
+            "deepl_label": "DeepL-API-Schlüssel (optional)",
+            "deepl_help": "Spielbeschreibungen aus Wikipedia werden in der jeweiligen Datensprache geliefert, sofern ein Eintrag zu dem Spiel vorhanden ist. Die übrigen Spieldaten aus der IGDB und die meisten Buchbeschreibungen aus Open Library liegen auf Englisch vor. Mit einem DeepL-Schlüssel übersetzt Marquee Spiel- und Buchbeschreibungen, Genres und Themen einmal pro Titel in die Datensprache und speichert die Übersetzung. <a>Hole dir einen kostenlosen DeepL-API-Schlüssel</a>: Der kostenlose Tarif umfasst 500.000 Zeichen pro Monat – genug für Tausende von Titeln. Der Schlüssel verbleibt auf dem Server.",
+            "language_label": "Sprache der Daten",
+            "language_help": "Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten der IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), daher stammen die Spielbeschreibungen aus der entsprechenden Sprachversion von Wikipedia, sofern das Spiel dort aufgeführt ist, und der Rest wird übersetzt, wenn du einen DeepL-Schlüssel hinzufügst. Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.",
+            "language_placeholder": "Die Forumsprache",
+            "list_posters_label": "Poster in der Diskussionsliste anzeigen",
+            "list_posters_help": "Ein kleines Poster neben jeder verlinkten Diskussion. Deaktiviere diese Funktion, wenn eine andere Erweiterung, wie beispielsweise „FoF Discussion Thumbnail“, dort bereits Miniaturansichten anzeigt.",
+            "tags_label": "Welche Tags welche Quelle verwenden",
+            "tags_help": "Wenn jemand eine Diskussion unter einem dieser Tags startet, durchsucht das Titelfeld diese Quelle, und die Diskussion zeigt die Titelkarte in ihrer Kopfzeile an. Bei allen anderen Tags bleibt der normale Editor erhalten.",
+            "source_none": "Normale Diskussionen",
+            "source_movie": "Filme (TMDB)",
+            "source_tv": "Fernsehserien (TMDB)",
+            "source_game": "Spiele (IGDB)",
+            "source_music": "Musikalben (Deezer, kein Schlüssel nötig)",
+            "source_book": "Bücher (Open Library, kein Schlüssel nötig)"
+        },
+        "api": {
+            "link_invalid": "Dieser Titel konnte nicht verknüpft werden. Wähle ihn erneut aus der Liste.",
+            "link_unavailable": "Die Quelle des Titels konnte nicht aufgerufen werden, daher wurde der Titel nicht verknüpft. Bitte versuche es in Kürze erneut."
+        },
+        "forum": {
+            "kind": {
+                "movie": "Film",
+                "tv": "Serie",
+                "game": "Spiel",
+                "music": "Album",
+                "book": "Buch"
+            },
+            "picker": {
+                "placeholder_movie": "Film nach Titel suchen",
+                "placeholder_tv": "Serie nach Titel suchen",
+                "placeholder_game": "Spiel nach Titel suchen",
+                "placeholder_music": "Album oder Künstler suchen",
+                "placeholder_book": "Buch nach Titel, Autor oder ISBN suchen",
+                "results_from": "Ergebnisse von {source}",
+                "escape_hint": "„Esc“ behält einen einfachen Titel bei",
+                "unavailable": "{source} antwortet gerade nicht. Du kannst trotzdem mit einem einfachen Titel posten."
+            },
+            "composer": {
+                "linked": "Verknüpft mit {title} · {source}",
+                "remove_link": "Verknüpfung aufheben"
+            },
+            "scope": {
+                "season_label": "Staffel",
+                "episode_label": "Folge",
+                "whole_show": "Gesamte Serie",
+                "whole_season": "Gesamte Staffel",
+                "loading": "Folgen werden geladen…",
+                "season_option": "Staffel {number} ({year})",
+                "episode_option": "F{number} · {title}"
+            },
+            "title": {
+                "season": "{base} Staffel {number}",
+                "episode": "{base} S{season}F{episode}: {name}"
+            },
+            "meta": {
+                "runtime_hours": "{hours} h {minutes} m",
+                "runtime_minutes": "{minutes} m",
+                "runtime_hours_only": "{hours} h",
+                "seasons_count": "{count, plural, one {# Staffel} other {# Staffeln}}",
+                "episodes_count": "{count, plural, one {# Folge} other {# Folgen}}",
+                "season_episode": "Staffel {season}, Folge {episode}",
+                "episode_code": "F{episode}",
+                "episode_label": "F{episode} · {name}",
+                "full_episode_label": "S{season}F{episode} · {name}",
+                "tracks_count": "{count, plural, one {# Track} other {# Tracks}}",
+                "record_album": "Album",
+                "record_single": "Single",
+                "record_ep": "EP",
+                "record_compile": "Compilation",
+                "first_published": "Erstveröffentlichung {year}",
+                "pages_count": "{count, plural, one {# Seite} other {# Seiten}}",
+                "editions_count": "{count, plural, one {# Auflage} other {# Auflagen}}"
+            },
+            "credits": {
+                "director": "Regisseur",
+                "writer": "Drehbuch",
+                "based_on": "Basierend auf",
+                "creator": "Urheber",
+                "network": "Sender",
+                "status": "Status",
+                "directed_by": "Regie",
+                "written_by": "Drehbuch",
+                "developer": "Entwickler",
+                "publisher": "Publisher",
+                "series": "Serie",
+                "artist": "Künstler",
+                "label": "Label",
+                "author": "Autor",
+                "original_title": "Originaltitel",
+                "isbn": "ISBN"
+            },
+            "hero": {
+                "user_score": "TMDB-Nutzerwertung",
+                "season_score": "TMDB-Staffelwertung",
+                "episode_score": "TMDB-Folgenwertung",
+                "cast": "Besetzung",
+                "guest_stars": "Gastdarsteller",
+                "seasons": "Staffeln",
+                "this_discussion": "Diese Diskussion",
+                "season_failed": "Diese Staffel konnte gerade nicht geladen werden.",
+                "view_on": "Anzeigen auf {source}",
+                "trailer": "Trailer",
+                "episode_details": "Details zur Folge",
+                "discuss_show": "Gesamte Serie diskutieren",
+                "critic_rating": "Kritikerbewertung",
+                "member_rating": "IGDB-Benutzerwertung",
+                "time_to_beat": "Wie lange dauert es, das Spiel zu meistern",
+                "ttb_hastily": "Hauptgeschichte",
+                "ttb_normally": "Hauptgeschichte + Extras",
+                "ttb_completely": "Komplettist",
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "screenshots": "Screenshots",
+                "tracklist": "Trackliste",
+                "explicit": "Explizit",
+                "fans": "{count} Fans auf Deezer",
+                "listen_on": "Anhören auf {source}",
+                "attribution_tmdb": "Daten und Bilder stammen von TMDB. Nicht von TMDB empfohlen oder zertifiziert.",
+                "attribution_igdb": "Spieldaten von IGDB.com",
+                "attribution_deezer": "Albumdaten und Coverbilder von Deezer",
+                "attribution_open_library": "Buchdaten und Umschlagbilder von Open Library",
+                "from_wikipedia": "Beschreibung von <a>Wikipedia</a> (<license>CC BY-SA</license>)",
+                "translated_deepl": "Übersetzt durch DeepL",
+                "authors": "Autoren",
+                "book_rating": "{rating} · {count} Open Library Bewertungen",
+                "want_to_read": "{count} möchten es lesen"
+            },
+            "modal": {
+                "title": "S{season} · F{episode}  {name}",
+                "badge": "{title} · Staffel {season}, Folge {episode}",
+                "score": "{score} % auf TMDB",
+                "previous": "Vorherige",
+                "next": "Nächste",
+                "discuss_episode": "Diese Folge diskutieren"
+            },
+            "link": {
+                "change": "Verknüpften Titel ändern",
+                "add": "Titel verknüpfen",
+                "title": "Verknüpfter Titel",
+                "none": "Diese Diskussion ist nicht mit einem Titel verknüpft.",
+                "remove": "Entfernen",
+                "search_label": "Anderen Titel finden",
+                "rename": "Diese Diskussion in {title} umbenennen",
+                "save": "Speichern",
+                "saved": "Der verknüpfte Titel wurde aktualisiert."
+            },
+            "list": {
+                "season": "Staffel {number}",
+                "episode": "S{season}F{episode}"
+            }
+        }
+    }
+}

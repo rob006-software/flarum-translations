@@ -1,0 +1,565 @@
+{
+    "datlechin-placements": {
+        "admin": {
+            "save": "",
+            "tabs": {
+                "campaigns": "",
+                "review": "",
+                "slots": "",
+                "reports": "",
+                "advertisers": "",
+                "settings": ""
+            },
+            "lists": {
+                "any": "",
+                "actions": "",
+                "sort_by": "",
+                "no_matches": ""
+            },
+            "permissions": {
+                "view_without_ads": "",
+                "manage": "",
+                "submit": "",
+                "author_html": ""
+            },
+            "demo": {
+                "title": "",
+                "help": "",
+                "open": ""
+            },
+            "review": {
+                "title": "",
+                "help": "",
+                "none": "",
+                "from": "",
+                "approve": "",
+                "reject": "",
+                "edit_reason": "",
+                "confirm_reject": "",
+                "cancel": "",
+                "reason_placeholder": ""
+            },
+            "campaigns": {
+                "title": "",
+                "create": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "none": "",
+                "always": "",
+                "not_running": "",
+                "not_running_help": "",
+                "search": "",
+                "back": "",
+                "gone": "",
+                "house": "",
+                "show_all": "",
+                "pause": "",
+                "resume": "",
+                "filtered_to_advertiser": "",
+                "member_submitted": "",
+                "member_submitted_help": "",
+                "source_label": "",
+                "sources": {
+                    "direct": "",
+                    "member": ""
+                },
+                "name_label": "",
+                "status_label": "",
+                "advertiser_label": "",
+                "tier_label": "",
+                "flight_label": "",
+                "impressions_label": "",
+                "clicks_label": "",
+                "tab_identity": "",
+                "tab_schedule": "",
+                "tab_delivery": "",
+                "tab_targeting": "",
+                "tab_commercial": "",
+                "commercial_help": "",
+                "rate_label": "",
+                "rate_type": "",
+                "rate_type_none": "",
+                "rate_types": {
+                    "cpm": "",
+                    "cpc": "",
+                    "flat": "",
+                    "barter": ""
+                },
+                "rate_amount": "",
+                "rate_amount_help": "",
+                "rate_currency": "",
+                "contract_notes": "",
+                "name": "",
+                "status": "",
+                "advertiser": "",
+                "advertiser_help": "",
+                "no_advertiser": "",
+                "status_help": "",
+                "tier": "",
+                "tier_help": "",
+                "is_house": "",
+                "is_house_help": "",
+                "starts_at": "",
+                "ends_at": "",
+                "ends_at_help": "",
+                "max_impressions": "",
+                "max_clicks": "",
+                "pacing": "",
+                "pacing_asap": "",
+                "pacing_even": "",
+                "frequency_cap": "",
+                "frequency_cap_help": "",
+                "frequency_windows": {
+                    "session": "",
+                    "hour": "",
+                    "day": ""
+                },
+                "pacing_help": "",
+                "statuses": {
+                    "draft": "",
+                    "scheduled": "",
+                    "active": "",
+                    "paused": "",
+                    "archived": ""
+                },
+                "tiers": {
+                    "sponsorship": "",
+                    "guaranteed": "",
+                    "standard": "",
+                    "remnant": "",
+                    "house": ""
+                }
+            },
+            "advertisers": {
+                "title": "",
+                "help": "",
+                "create": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "none": "",
+                "search": "",
+                "name": "",
+                "contact_email": "",
+                "notes": "",
+                "has_link": "",
+                "name_label": "",
+                "contact_label": "",
+                "link_label": "",
+                "campaigns_label": "",
+                "no_contact": "",
+                "no_link": "",
+                "view_campaigns": "",
+                "user": "",
+                "user_help": "",
+                "link_user": "",
+                "unlink_user": "",
+                "copy_link": "",
+                "copied": "",
+                "copy_failed": "",
+                "report_link": "",
+                "report_link_help": "",
+                "create_link": "",
+                "replace_link": "",
+                "revoke_link": "",
+                "replace_link_confirm": "",
+                "revoke_link_confirm": ""
+            },
+            "creatives": {
+                "title": "",
+                "create": "",
+                "edit": "",
+                "none": "",
+                "unassigned": "",
+                "delete": "",
+                "delete_confirm": "",
+                "preview": "",
+                "preview_empty": "",
+                "preview_unknown_type": "",
+                "name_label": "",
+                "type_label": "",
+                "status_label": "",
+                "slots_label": "",
+                "tab_details": "",
+                "tab_content": "",
+                "tab_slots": "",
+                "tab_advanced": "",
+                "tab_preview": "",
+                "attribute_not_allowed": "",
+                "label_override": "",
+                "label_override_placeholder": "",
+                "label_override_help": "",
+                "variant_group": "",
+                "variant_group_help": "",
+                "name": "",
+                "type": "",
+                "weight": "",
+                "weight_help": "",
+                "status": "",
+                "status_help": "",
+                "destination_url": "",
+                "destination_url_help": "",
+                "asset": "",
+                "alt": "",
+                "alt_help": "",
+                "width": "",
+                "height": "",
+                "size_help": "",
+                "headline": "",
+                "body": "",
+                "cta": "",
+                "placements": "",
+                "placements_help": "",
+                "html": "",
+                "html_help": "",
+                "frame_height": "",
+                "source": "",
+                "source_help": "",
+                "logos": "",
+                "logos_help": "",
+                "logo_url": "",
+                "add_logo": "",
+                "remove_logo": "",
+                "columns": "",
+                "columns_help": "",
+                "element": "",
+                "element_help": "",
+                "attributes": "",
+                "attributes_help": "",
+                "add_attribute": "",
+                "remove_attribute": "",
+                "network_height_help": "",
+                "requires_consent": "",
+                "requires_consent_help": "",
+                "refresh_on_navigate": "",
+                "refresh_on_navigate_help": "",
+                "statuses": {
+                    "draft": "",
+                    "pending": "",
+                    "approved": "",
+                    "rejected": ""
+                }
+            },
+            "diagnose": {
+                "title": "",
+                "help": "",
+                "on_dimension": "",
+                "reasons": {
+                    "eligible": "",
+                    "slot_unknown": "",
+                    "slot_disabled": "",
+                    "not_assigned": "",
+                    "type_not_accepted": "",
+                    "not_approved": "",
+                    "no_campaign": "",
+                    "campaign_not_running": "",
+                    "not_in_plan": "",
+                    "campaign_not_live": "",
+                    "campaign_capped": "",
+                    "outside_daypart": "",
+                    "targeted_out": "",
+                    "paced": "",
+                    "unavailable": ""
+                }
+            },
+            "daypart": {
+                "label": "",
+                "help": "",
+                "always": "",
+                "office_hours": "",
+                "timezone_note": "",
+                "days": {
+                    "mon": "",
+                    "tue": "",
+                    "wed": "",
+                    "thu": "",
+                    "fri": "",
+                    "sat": "",
+                    "sun": ""
+                }
+            },
+            "settings": {
+                "title": "",
+                "group_serving": "",
+                "group_serving_help": "",
+                "group_retention": "",
+                "group_publisher": "",
+                "group_publisher_help": "",
+                "timezone": "",
+                "timezone_help": "",
+                "retention_days": "",
+                "retention_days_help": "",
+                "storage_empty": "",
+                "storage_summary": "",
+                "storage_expiring": "",
+                "storage_orphans": "",
+                "storage_prune_help": "",
+                "network_scripts": "",
+                "network_scripts_help": "",
+                "ads_txt": "",
+                "ads_txt_help": ""
+            },
+            "rules": {
+                "label": "",
+                "add": "",
+                "remove": "",
+                "help": "",
+                "operators": {
+                    "is": "",
+                    "is_not": "",
+                    "gte": "",
+                    "lte": ""
+                }
+            },
+            "dimensions": {
+                "visitor": {
+                    "label": "",
+                    "guest": "",
+                    "member": ""
+                },
+                "group": {
+                    "label": ""
+                },
+                "route": {
+                    "label": "",
+                    "names": {
+                        "index": "",
+                        "posts": "",
+                        "discussion": "",
+                        "user": "",
+                        "tag": "",
+                        "tags": "",
+                        "settings": "",
+                        "notifications": "",
+                        "logoutPage": "",
+                        "resetPassword": "",
+                        "confirmEmail": ""
+                    }
+                },
+                "discussion": {
+                    "label": ""
+                },
+                "tag": {
+                    "label": ""
+                },
+                "locale": {
+                    "label": ""
+                },
+                "posts": {
+                    "label": ""
+                },
+                "account_age": {
+                    "label": ""
+                }
+            },
+            "reports": {
+                "title": "",
+                "last_days": "",
+                "range_label": "",
+                "download": "",
+                "retry": "",
+                "ctr_help": "",
+                "none": "",
+                "unavailable": "",
+                "impressions": "",
+                "viewable": "",
+                "viewable_help": "",
+                "clicks": "",
+                "ctr": "",
+                "filtered": "",
+                "filtered_help": "",
+                "by_placements": "",
+                "by_creatives": "",
+                "by_campaigns": "",
+                "by_devices": "",
+                "device": "",
+                "devices": {
+                    "phone": "",
+                    "tablet": "",
+                    "desktop": "",
+                    "unknown": ""
+                },
+                "campaign": "",
+                "slot": "",
+                "creative": ""
+            },
+            "slots": {
+                "title": "",
+                "configure": "",
+                "load_failed": "",
+                "save_failed": "",
+                "done": "",
+                "summary_max_fill": "",
+                "group_delivery": "",
+                "group_fallback": "",
+                "group_reserve": "",
+                "group_rotation": "",
+                "group_repeat": "",
+                "rotation": "",
+                "max_fill": "",
+                "fallback": "",
+                "fallback_next_tier": "",
+                "fallback_next_tier_help": "",
+                "fallback_house": "",
+                "fallback_house_help": "",
+                "fallback_passback": "",
+                "fallback_passback_help": "",
+                "fallback_collapse": "",
+                "fallback_collapse_help": "",
+                "passback_creative": "",
+                "passback_none": "",
+                "passback_help": "",
+                "label_mode": "",
+                "label_inherit": "",
+                "label_always": "",
+                "label_never": "",
+                "reserve": "",
+                "reserve_phone": "",
+                "reserve_tablet": "",
+                "reserve_desktop": "",
+                "rotation_random": "",
+                "rotation_sticky": "",
+                "every_n": "",
+                "repeat_limit": "",
+                "help": ""
+            },
+            "placement_groups": {
+                "global": "",
+                "page": "",
+                "index": "",
+                "discussion": "",
+                "user": "",
+                "tags": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "campaign_stopped": {
+                    "impressions": "",
+                    "clicks": "",
+                    "unnamed": ""
+                }
+            },
+            "submissions": {
+                "tab": "",
+                "help": "",
+                "unavailable": "",
+                "none": "",
+                "create": "",
+                "edit": "",
+                "delete": "",
+                "confirm_delete": "",
+                "submit": "",
+                "submit_help": "",
+                "approved_note": "",
+                "name": "",
+                "name_help": "",
+                "type": "",
+                "destination_url": "",
+                "asset": "",
+                "alt": "",
+                "alt_help": "",
+                "headline": "",
+                "body": "",
+                "cta": "",
+                "source": "",
+                "source_help": "",
+                "statuses": {
+                    "draft": "",
+                    "pending": "",
+                    "approved": "",
+                    "rejected": ""
+                }
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "",
+                "anonymize_description": "",
+                "delete_description": ""
+            },
+            "creatives": {
+                "types": {
+                    "image": "",
+                    "text": "",
+                    "rich_text": "",
+                    "logo_wall": "",
+                    "raw_html": "",
+                    "network": ""
+                }
+            },
+            "placements": {
+                "notice": {
+                    "label": "",
+                    "description": ""
+                },
+                "header": {
+                    "label": "",
+                    "description": ""
+                },
+                "footer": {
+                    "label": "",
+                    "description": ""
+                },
+                "page_top": {
+                    "label": "",
+                    "description": ""
+                },
+                "page_bottom": {
+                    "label": "",
+                    "description": ""
+                },
+                "page_sidebar_top": {
+                    "label": "",
+                    "description": ""
+                },
+                "page_sidebar_bottom": {
+                    "label": "",
+                    "description": ""
+                },
+                "index_above_list": {
+                    "label": "",
+                    "description": ""
+                },
+                "index_below_list": {
+                    "label": "",
+                    "description": ""
+                },
+                "index_sidebar": {
+                    "label": "",
+                    "description": ""
+                },
+                "discussion_after_op": {
+                    "label": "",
+                    "description": ""
+                },
+                "discussion_stream_end": {
+                    "label": "",
+                    "description": ""
+                },
+                "discussion_sidebar": {
+                    "label": "",
+                    "description": ""
+                },
+                "post_footer": {
+                    "label": "",
+                    "description": ""
+                },
+                "profile_sidebar": {
+                    "label": "",
+                    "description": ""
+                },
+                "tags_page": {
+                    "label": "",
+                    "description": ""
+                }
+            },
+            "label": "",
+            "demo_exit": "",
+            "upload": "",
+            "clear": "",
+            "upload_failed": ""
+        }
+    }
+}

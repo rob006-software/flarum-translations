@@ -2,66 +2,76 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "เนื้อหาในโพสต์แรกหลังการย้ายโพสต์",
+                "moved_first_post_content_help": "เมื่อย้ายโพสต์หลักของโพสต์ที่มีเพียงโพสต์เดียว การกระทำนี้จะส่งผลให้โพสต์แรกในโพสต์ต้นทางเดิมถูกเขียนแก้ไขใหม่เพื่อชี้ไปยังโพสต์ใหม่แทน คุณสามารถปรับแต่งรายละเอียดข้อความของโพสต์ดังกล่าวได้ที่นี่\n",
+                "group_sequential_posts": "รวมบันทึกรายการกิจกรรมการย้ายโพสต์ที่ต่อเนื่องกันเข้าด้วยกันเป็นรายการเดียว"
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "ย้ายแล้ว"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "คุณไม่สามารถย้ายโพสต์ไปยังโพสต์เดิมต้นทางได้"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "ตรวจสอบประเภทวิธีการย้าย",
+                "destination": "โพสต์ปลายทาง",
+                "discussion_help": "แท็กของโพสต์ต้นทางจะถูกดึงมาใช้โดยอัตโนมัติ และสามารถเปลี่ยนได้ภายหลังจากสร้างเสร็จแล้ว",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "โพสต์ใหม่",
+                "selected_posts": "{count, plural, other {เลือกแล้ว {count} โพสต์}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "จะเป็นการย้ายแบบซับซ้อน โดยโพสต์ต่างๆ จะถูกนำไปแทรกระหว่างโพสต์เดิม ซึ่งจะส่งผลให้ลิงก์อ้างอิง URL เดิมของโพสต์ในโพสต์ปลายทางเปลี่ยนแปลงไปด้วย",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "จะเป็นการย้ายแบบปกติ โดยโพสต์ทั้งหมดจะถูกนำไปต่อท้ายสุดของโพสต์ปลายทาง"
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "ดำเนินการย้าย",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "คุณกำลังจะย้ายโพสต์ทั้งหมดในโพสต์นี้ไปยังโพสต์ใหม่ ในหลายๆ กรณี การแก้ไขโพสต์เดิมโดยตรง เช่น เปลี่ยนชื่อเรื่อง เปลี่ยนแท็ก หรือค่าคุณลักษณะอื่นๆ จะเหมาะสมกว่า คุณต้องการดำเนินการต่อหรือไม่?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, other {ย้ายโพสต์ไปยัง {target_discussion} แล้วจำนวน {count} โพสต์}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "มีโพสต์ของคุณอย่างน้อยหนึ่งรายการถูกย้ายไปยังโพสต์ {targetDiscussionTitle}"
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "ยกเลิกการเลือกโพสต์เพื่อย้าย",
+                "move": "เลือกโพสต์นี้เพื่อย้าย",
+                "moving": "กำลังย้ายโพสต์..."
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, other {{username} ได้ย้ายโพสต์จำนวน {count} โพสต์ไปยัง {target_discussion}}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "ย้ายโพสต์",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "ไม่สามารถย้ายโพสต์ที่เก่ากว่าไปยังโพสต์ที่ใหม่กว่าได้"
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*โพสต์นี้ถูกย้ายไปยังโพสต์ **[%DISCUSSION_NAME%](%POST_LINK%)** แล้ว.*\n"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "posts": {
+                    "moved": "",
+                    "moved_to_new_discussion": ""
                 }
             }
         }

@@ -61,6 +61,8 @@
                 "image": "Изображение",
                 "image_url": "URL изображения",
                 "image_url_help": "URL изображения номинанта. К примеру, обложка игры или фото человека",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "Изменить количество голосов",
                 "vote_adjustment_title": "Корректировка голосов",
                 "real_votes": "Фактические голоса",
@@ -187,6 +189,9 @@
                 "votes_used": "{used}/{limit} голосов",
                 "votes_unlimited": "{count} голосов"
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "Предложить вариант",
                 "click_to_suggest": "Нажмите, чтобы предложить номинанта",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "В этой категории можно проголосовать только за {limit} номинантов.",
                 "vote_quota_exhausted": "Вы использовали все доступные голоса и предложения для этой категории.",
                 "cannot_delete_processed_suggestion": "Отменить можно только предложения на рассмотрении.",
+                "already_voted": "",
                 "not_available": "Эта награда пока недоступна."
             }
         },

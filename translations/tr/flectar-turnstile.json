@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Robot olup olmadığınızı doğrulayamadık. Lütfen sayfayı yenileyin ve tekrar deneyin.",
-        "required": "Lütfen Turnstile doğrulamasını tamamlayın."
+        "custom": {
+            "turnstileToken": {
+                "required": "Lütfen Turnstile doğrulamasını tamamlayın."
+            },
+            "turnstile": {
+                "required": "Lütfen Turnstile doğrulamasını tamamlayın."
+            }
+        }
     }
 }

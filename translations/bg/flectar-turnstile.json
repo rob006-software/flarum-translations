@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Не можем да потвърдим дали сте робот или не. Моля, опитайте отново след като опресните страницата.",
-        "required": ""
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

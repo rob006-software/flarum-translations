@@ -17,15 +17,13 @@ return [
 	'translationsDir' => __DIR__ . '/translations',
 	'metadataDir' => __DIR__ . '/metadata',
 	'components' => require __DIR__ . '/config/components.php',
-	'languages' => require __DIR__ . '/config/languages.php',
-	'subsplits' => require __DIR__ . '/config/subsplits.php',
 	'inheritors' => require __DIR__ . '/config/inheritors.php',
 	'ignoredExtensions' => require __DIR__ . '/config/ignored-extensions.php',
 	'unsupportedVersions' => [
 		'0.1.0-beta.16',
 	],
 	'supportedVersions' => [
-		'2.0.0-beta.7',
+		'2.0.0',
 		'2.99.99', // automatically support minor and patch releases
 	],
 ];

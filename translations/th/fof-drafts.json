@@ -2,64 +2,68 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
-                "schedule": ""
+                "start": "สร้างแบบร่าง",
+                "schedule": "กำหนดเวลาเผยแพร่แบบร่าง"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "title": "แบบร่าง (FoF Drafts)",
+                "enable_scheduled_drafts": "เปิดใช้งานการกำหนดเวลาเผยแพร่แบบร่าง",
+                "schedule_on_one_server": "ใช้คำสั่ง 'onOneServer()' สำหรับตัวกำหนดเวลาทำงาน (ต้องมี Redis/Memcache)",
+                "schedule_log_output": "บันทึกผลลัพธ์ของตัวกำหนดเวลาเก็บไว้ในระบบบันทึก (Log)"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
-            "scheduled_drafts_disabled": "",
+            "scheduled_drafts_disabled": "ระบบกำหนดเวลาเผยแพร่แบบร่างถูกปิดใช้งานอยู่ในการตั้งค่า",
             "no_title_error": ""
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "กำหนดเวลาเผยแพร่แบบร่าง"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "บันทึกแบบร่าง",
+                "saving": "กำลังบันทึก...",
+                "saved": "บันทึกเรียบร้อย!",
+                "exit_alert": "ละทิ้งการเปลี่ยนแปลงของแบบร่างนี้หรือไหม?",
+                "discard_empty_draft_alert": "ละทิ้งแบบร่างที่ว่างเปล่านี้ไหม?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
-                "schedule_button": "",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "empty_text": "คุณยังไม่มีแบบร่างที่บันทึกไว้",
+                "title": "แบบร่าง",
+                "delete_all_button": "ลบแบบร่างทั้งหมด",
+                "delete_button": "ลบแบบร่าง",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "กำหนดเวลาเผยแพร่ไว้ที่: {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [เวลา] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "คุณแน่ใจหรือไม่ว่าต้องการลบแบบร่างนี้?",
+                "delete_all_alert": "คุณแน่ใจหรือไม่ว่าต้องการลบแบบร่างทั้งหมดของคุณ?"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": "",
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "กำหนดเวลาเผยแพร่ให้แบบร่างของคุณโดยอัตโนมัติในภายหลัง!",
+                "scheduled_text": "ตั้งกำหนดการเผยแพร่ในวันที่ {datetime}",
+                "scheduled_error": "ไม่สามารถตั้งกำหนดเวลาแบบร่างได้เนื่องจาก: {error}",
+                "unschedule_button": "ยกเลิกกำหนดเวลา",
+                "unschedule_warning": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการกำหนดเวลาของแบบร่างนี้?",
+                "reschedule_button": "ปรับเปลี่ยนกำหนดเวลาใหม่",
+                "schedule_button": "ตั้งกำหนดเวลา",
+                "schedule_time_preview": "แบบร่างนี้จะได้รับการเผยแพร่โดยอัตโนมัติในวันที่ <b>{datetime}</b>",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "รูปแบบวันที่และ/หรือเวลาไม่ถูกต้อง",
                 "no_title_error": ""
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "แบบร่าง",
+                    "draft_autosave_enable": "เปิดใช้งานการบันทึกแบบร่างอัตโนมัติ?",
+                    "draft_autosave_interval_label": "ช่วงเวลาบันทึกอัตโนมัติ (หน่วยเป็นวินาที)",
+                    "draft_autosave_interval_button": "อัปเดตช่วงเวลา",
+                    "draft_autosave_interval_invalid": "ช่วงเวลาต้องระบุเป็นจำนวนเต็มและมีค่ามากกว่า 4 วินาทีขึ้นไป",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }
@@ -76,8 +80,8 @@
         "lib": {
             "data": {
                 "drafts": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "แบบร่างทั้งหมดที่สร้างโดยผู้ใช้รายนี้",
+                    "delete_description": "ลบแบบร่างทั้งหมดที่สร้างโดยผู้ใช้รายนี้"
                 }
             }
         }

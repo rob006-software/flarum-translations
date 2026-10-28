@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Pašalinti žymą",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Ar tikrai norite ištrinti šią žymą? Žymos diskusijos NEBUS ištrintos.",
                 "description_label": "Aprašymas",
                 "hide_label": "Slėpti nuo visų diskusijų",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Pasirinkti etiketes"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Redaguoti etiketes"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "Pavadinimas",
             "tags": "Žymės"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

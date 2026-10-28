@@ -1,19 +1,52 @@
 {
     "ernestdefoe-mobile-tab": {
         "admin": {
-            "tabs_label": "",
-            "tabs_help": "",
-            "add_tab": "",
-            "reset_default": "",
-            "raised": "",
-            "remove": "",
-            "preview_caption": "",
-            "field_type": "",
-            "field_icon": "",
-            "field_label": "",
-            "field_url": "",
-            "field_visibility": "",
-            "field_center": ""
+            "tabs_label": "Registerkarten in der Fußleiste",
+            "tabs_help": "Erstelle deine mobile Fußleiste. Jede Zeile entspricht einer Registerkarte – wähle einen Typ aus, lege ein Font Awesome-Symbol und eine Beschriftung fest, lege fest, wer sie sehen soll, und aktiviere das Kontrollkästchen „Erhöht“, um sie zur hervorgehobenen Schaltfläche in der Mitte zu machen. Mit den Pfeilen kannst du die Reihenfolge ändern. Bei den Typen „Website-Logo“ und „Favicon“ wird automatisch das Bild deiner Website angezeigt. Lasse die Liste leer, um die Standardleiste zu verwenden.",
+            "add_tab": "Registerkarte hinzufügen",
+            "reset_default": "Auf Standard zurücksetzen",
+            "raised": "Erhöht (mittig)",
+            "remove": "Registerkarte entfernen",
+            "preview_caption": "Live-Vorschau (Handy) – Reihenfolge mit den Pfeilen verschieben",
+            "field_type": "Art",
+            "field_icon": "Symbol",
+            "field_label": "Beschriftung",
+            "field_url": "URL",
+            "field_visibility": "Angezeigt für",
+            "field_center": "Zentriert",
+            "label_placeholder": "optional",
+            "label_placeholder_profile": "Profil oder '{username}', um den Benutzernamen anzuzeigen",
+            "url_placeholder": "/pfad oder https://…",
+            "auto_avatar": "Avatar (auto)",
+            "auto_site_image": "Seitenbild (auto)",
+            "type": {
+                "home": "Start",
+                "tags": "Tags",
+                "search": "Suche",
+                "notifications": "Benachrichtigungen",
+                "profile": "Profil (Avatar)",
+                "new-discussion": "Neue Diskussion",
+                "login": "Anmelden",
+                "logo": "Seitenlogo",
+                "favicon": "Favicon",
+                "link": "Benutzerdefinierter Link"
+            },
+            "visibility": {
+                "all": "Jeder",
+                "in": "Angemeldet",
+                "out": "Abgemeldet"
+            }
+        },
+        "lib": {
+            "tab": {
+                "home": "Start",
+                "profile": "Profil",
+                "tags": "Tags",
+                "notifications": "Benachrichtigungen",
+                "login": "Anmelden",
+                "search": "Suche",
+                "new": "Neu"
+            }
         }
     }
 }

@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Si prega di completare i campi profilo necessari di seguito.\n",
                 "profile-completed": "Profilo completato! <a> Vai alla home </a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Crea campo",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Salva modifiche",
-                "delete-field": "Cancella campo"
+                "delete-field": "Cancella campo",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Modifica il profilo di altri utenti",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Campi",
+                "trash": "",
                 "create": "",
                 "edit": "Modifica campo {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nome campo",
                 "name-help": "L'etichetta del campo visibile pubblicamente (non traducibile).\n",
                 "description": "Descrizione campo",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Esporta le risposte nei campi del profilo utente",
                     "delete_description": "Rimuove tutte le risposte dei campi profilo dall'account utente",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

@@ -161,6 +161,7 @@
                 "invalidMime": "File format not supported. Accepted formats: JPEG, PNG, GIF, BMP or WebP",
                 "imageProcessingSourceNotFound": "Image processing: source image {path} not found!",
                 "imageProcessingFailed": "Image processing failed!",
+                "webpNotSupported": "Your server's PHP GD extension cannot create WebP images (imagewebp() is missing). Enable GD with WebP support or ask your host to do it.",
                 "deleteFilenameRequired": "Couldn't delete: filename required!",
                 "deleteTargetNotFound": "Nothing to delete: target file {file} not found!",
                 "filenameTagidMissing": "Couldn't generate filename: Tag ID missing!",

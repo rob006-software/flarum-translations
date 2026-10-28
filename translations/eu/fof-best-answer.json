@@ -11,7 +11,6 @@
                     "tags": "",
                     "general": "General",
                     "reminders": "",
-                    "advanced": "",
                     "reminders_notice": "For reminders to function correctly, you must have set up the Flarum scheduler correctly."
                 },
                 "show_max_lines_label": "",
@@ -20,11 +19,10 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)",
-                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Ez gogoratu erabiltzaileak email bidez ordu desegokietan (9pm - 8am zerbitzari denboran)",
                 "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Atera plangintza logetan",
+                "schedule_log_output_help": "",
                 "show_filter_label": "",
                 "show_filter_help": "",
                 "use_alt_ui": "Erabili beste txantiloi bat (erantzun hoberena oinaren botoiak)",
@@ -36,11 +34,8 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
-            },
-            "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Erabili 'onOneServer()' direktiba lanaren plangintzarako (beharrezkoa da Redis/Memcache)"
             }
         },
         "forum": {
@@ -64,9 +59,11 @@
             },
             "index": {
                 "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "cannot_ask_question": ""
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "",
@@ -100,6 +97,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +112,16 @@
             "sort": {
                 "most_best_answers": "",
                 "least_best_answers": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "",
+                    "best_answer_unset": ""
+                }
             }
         }
     }

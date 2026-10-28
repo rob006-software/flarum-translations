@@ -1,0 +1,51 @@
+{
+    "fof-bookmarks": {
+        "admin": {
+            "settings": {
+                "independent_button": "Показывать кнопку закладки в боковой панели",
+                "independent_button_help": "Если выключено, кнопка отображается в выпадающем меню темы.",
+                "post_button_position": "Расположение кнопки закладки сообщения",
+                "post_button_position_header": "Над сообщением — в шапке",
+                "post_button_position_actions": "Под сообщением — в быстрых действиях",
+                "post_button_position_menu": "В меню сообщения — три точки",
+                "post_header_badge": "Показывать метку у сообщений в закладках",
+                "post_header_badge_help": "Показывает метку над сообщением, добавленным в закладки, если кнопка не отображается в шапке."
+            }
+        },
+        "forum": {
+            "badge": "В закладках",
+            "dropdownButton": {
+                "add": "Добавить в закладки",
+                "remove": "Удалить из закладок"
+            },
+            "independentButton": {
+                "add": "В закладки",
+                "remove": "В закладках"
+            },
+            "postButton": {
+                "add": "В закладки",
+                "remove": "В закладках"
+            },
+            "alert": {
+                "added": "Добавлено в закладки!",
+                "removed": "Удалено из закладок!",
+                "show_bookmarks": "Перейти к закладкам"
+            },
+            "page": {
+                "link": "Закладки",
+                "title": "Закладки",
+                "tab": {
+                    "discussions": "Темы",
+                    "posts": "Сообщения"
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "bookmarked": {
+                    "key": "в закладках"
+                }
+            }
+        }
+    }
+}

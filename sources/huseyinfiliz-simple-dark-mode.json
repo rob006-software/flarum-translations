@@ -1,0 +1,21 @@
+{
+    "huseyinfiliz-simple-dark-mode": {
+        "admin": {
+            "settings": {
+                "always_show_header_toggle_label": "Always show the theme switch button on the forum header",
+                "always_show_header_toggle_help": "By default the header button is only shown to guests. Enable this to also show it to logged-in users (they always have the toggle in their user menu regardless).",
+                "solid_icon_label": "Show theme icon in solid style",
+                "solid_icon_help": "Uses solid Font Awesome icons instead of the regular (outline) style for the theme toggle."
+            }
+        },
+        "forum": {
+            "header": {
+                "toggle_tooltip": "Toggle theme"
+            },
+            "session": {
+                "dark_mode": "Dark Mode",
+                "light_mode": "Light Mode"
+            }
+        }
+    }
+}

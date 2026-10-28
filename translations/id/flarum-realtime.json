@@ -1,15 +1,21 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# diskusi memiliki} other {# diskusi memiliki}} aktivitas yang diperbarui dan akan dirilis dalam {releaseTimeout} detik. Klik untuk menampilkan sekarang."
             },
             "typing-indicator": {
                 "anonymous-user": "",
+                "hidden-user": "",
                 "people-are-typing": "{number, plural, one {# orang sedang mengetik} other {# orang sedang mengetik}}",
                 "users-are-typing": "{count, plural, one {{users} sedang mengetik} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} sedang mengetik}}",
                 "no-activity": "Tidak ada yang sedang mengetik"
+            },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
             },
             "user": {
                 "settings": {
@@ -23,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "",
                 "view-who-types": "Lihat siapa yang sedang mengetik"
             },
             "settings": {
@@ -33,7 +40,11 @@
                 "notification-toast-dismiss-after": "",
                 "notification-toast-dismiss-after-help": "",
                 "typing-indicator": "Indikator sedang mengetik",
-                "typing-indicator-help": "Jika diaktifkan, tergantung pada hak akses, pengguna dapat melihat jumlah pengguna lain yang sedang mengetik dalam sebuah diskusi. Jika dinonaktifkan, aktivitas mengetik dihapus baik dari UI maupun dari websocket payload."
+                "typing-indicator-help": "Jika diaktifkan, tergantung pada hak akses, pengguna dapat melihat jumlah pengguna lain yang sedang mengetik dalam sebuah diskusi. Jika dinonaktifkan, aktivitas mengetik dihapus baik dari UI maupun dari websocket payload.",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

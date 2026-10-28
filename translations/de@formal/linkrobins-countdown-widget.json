@@ -14,8 +14,12 @@
                 "title_label": "Titel",
                 "title_placeholder": "Start in...",
                 "title_help": "Optional. Wird oberhalb des Countdowns angezeigt. Für keine Kopfzeile leer lassen.",
+                "description_label": "Beschreibung",
+                "description_placeholder": "Los geht es um 9:00 Uhr",
+                "description_help": "Optional. Kleiner Text unterhalb des Titels. Verwende ihn für einen Zeitraum, einen Veranstaltungsort oder sonstige zusätzliche Angaben.",
                 "icon_label": "Symbolklasse",
                 "icon_help": "Die FontAwesome-Klasse, die neben dem Titel angezeigt wird (z. B. fas fa-bullhorn). Für kein Symbol bitte leer lassen.",
+                "icon_placeholder": "fas fa-rocket",
                 "target_label": "Endzeitpunkt",
                 "target_help": "Wähle den Zeitpunkt aus, bis zu dem der Countdown hinunterzählt. Die Datumsauswahl des Browsers zeigt Jahr, Monat, Tag, Stunde und Minute an. Die Zeitzoneneinstellung unten teilt dem Widget mit, in welcher Zeitzone sich diese Uhrzeit befindet.",
                 "timezone_label": "Zeitzone",
@@ -25,7 +29,8 @@
                 "done_message_placeholder": "🎉 Wir sind live!",
                 "done_message_help": "Was soll angezeigt werden, wenn der Countdown bei Null angelangt ist? Wenn das Feld leer bleibt, wird standardmäßig ein Party-Emoji angezeigt.",
                 "link_url_label": "Link-URL",
-                "link_url_help": "Optional. Wenn aktiviert, werden die Countdown-Felder (und die Abschlussmeldung) zu einem anklickbaren Link zu dieser URL."
+                "link_url_help": "Optional. Wenn aktiviert, werden die Countdown-Felder (und die Abschlussmeldung) zu einem anklickbaren Link zu dieser URL.",
+                "link_url_placeholder": "https://beispiel.de/start"
             }
         }
     }

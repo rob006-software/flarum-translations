@@ -1,0 +1,32 @@
+{
+    "ernestdefoe-opensearch": {
+        "forum": {
+            "powered_by": "Powered by OpenSearch"
+        },
+        "admin": {
+            "url_label": "Cluster-URL",
+            "url_help": "Die vollständige URL deines OpenSearch- oder Elasticsearch-Clusters, einschließlich Schema und Port – zum Beispiel https://localhost:9200. Lasse die Felder für Benutzername und Passwort leer, wenn die Sicherheitsfunktionen des Clusters deaktiviert sind.\n",
+            "username_label": "Benutzername",
+            "username_help": "Optional. Nur erforderlich, wenn für deinen Cluster eine Authentifizierung erforderlich ist.\n",
+            "password_label": "Passwort",
+            "verify_tls_label": "TLS-Zertifikat überprüfen",
+            "verify_tls_help": "Deaktiviere diese Option nur für Cluster, auf die über ein privates Netzwerk mit einem selbstsignierten Zertifikat zugegriffen wird. Deaktiviere sie niemals für Cluster, auf die über das öffentliche Internet zugegriffen wird – eine nicht verifizierte Verbindung kann abgefangen werden.\n",
+            "index_prefix_label": "Index-Präfix",
+            "index_prefix_help": "Optional. Hält Indizes getrennt, wenn sich mehrere Foren einen Cluster teilen. Lasse das Feld leer, um automatisch einen Index aus deiner Forum-URL abzuleiten.\n",
+            "drivers_label": "Verwende OpenSearch für…",
+            "drivers_help": "Wähle aus, welche Suchanfragen von OpenSearch beantwortet werden sollen. Bei jeder dieser Suchanfragen werden Textsuchen an den Cluster weitergeleitet, während beim Filtern und Stöbern ohne Suchbegriff weiterhin die Datenbank verwendet wird. Die Berechtigungen werden stets von Flarum durchgesetzt – OpenSearch ordnet nur Ergebnisse nach Relevanz, die ein Mitglied bereits einsehen darf.\n",
+            "use_for_discussions": "Diskussionssuche",
+            "use_for_users": "Benutzersuche",
+            "use_for_posts": "Beitragssuche",
+            "connection_label": "Verbindung",
+            "test_button": "Verbindung testen",
+            "test_ok": "Verbunden",
+            "test_fail": "Der Cluster konnte nicht erreicht werden",
+            "rebuild_label": "Suchindex",
+            "rebuild_help": "Erstelle alle Indizes (Diskussionen, Benutzer, Beiträge) anhand deiner vorhandenen Inhalte neu oder aktualisiere sie. Führe diesen Vorgang einmalig nach der Eingabe deiner Verbindungsdaten aus und immer dann, wenn du vermutest, dass der Index nicht mehr aktuell ist. Konfiguriere bei großen Foren einen echten Queue-Worker, damit dieser Vorgang im Hintergrund statt innerhalb einer Webanfrage ausgeführt wird.\n",
+            "rebuild_button": "Index neu erstellen",
+            "rebuild_queued": "Neuerstellung in der Warteschlange. Der Vorgang wird im Hintergrund ausgeführt.",
+            "rebuild_failed": "Die Neuerstellung konnte nicht gestartet werden. Überprüfe die Verbindung und versuche es erneut."
+        }
+    }
+}

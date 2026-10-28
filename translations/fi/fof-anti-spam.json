@@ -4,14 +4,36 @@
             "permissions": {
                 "spamblock_users_label": "Merkitse käyttäjä roskapostittajaksi"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "Asetukset",
+                "sign_ups": {
+                    "heading": "",
+                    "introduction": "",
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
                 "content-filter": {
                     "heading": "Sisältösuodatin",
                     "introduction": "Tunnista ja merkitse automaattisesti roskapostisisältö uusilta käyttäjiltä. Järjestelmä seuraa äskettäin rekisteröityneiden käyttäjien viestejä ja keskusteluja yleisten roskapostin tunnusmerkkien, kuten puhelinnumeroiden, sähköpostiosoitteiden ja epäilyttävien URL-osoitteiden varalta.",
                     "enabled_label": "Ota sisältösuodatus käyttöön",
                     "enabled_help": "Kun käytössä, uusien käyttäjien viestit ja keskustelut analysoidaan roskapostin tunnusmerkkien varalta.",
                     "user_targeting_heading": "Käyttäjäkohdistus",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
                     "monitor_post_count_label": "Seuraa käyttäjiä viestirajaan asti",
                     "monitor_post_count_help": "Analysoi vain niiden käyttäjien sisältöä, joilla on tätä vähemmän viestejä. Aseta arvoksi 0 poistaaksesi viestirajatarkistuksen käytöstä.",
                     "monitor_hours_old_label": "Seuraa käyttäjiä tuntirajan asti",
@@ -33,8 +55,14 @@
                     "auto_unapprove_help": "Kun käytössä, roskapostikynnyksen saavuttava sisältö lähetetään hyväksymisjonoon (vaatii flarum/approval-lisäosan). Moderaattoreiden on hyväksyttävä sisältö ennen kuin se tulee näkyviin.",
                     "auto_flag_label": "Merkitse roskapostisisältö automaattisesti",
                     "auto_flag_help": "Kun käytössä, lippukynnyksen saavuttava sisältö merkitään automaattisesti moderaattorin tarkistettavaksi (vaatii flarum/flags-lisäosan). Merkinnän syy sisältää tiedot siitä, miksi sisältö tunnistettiin roskapostiksi.",
-                    "system_user_id_label": "Järjestelmä käyttäjän ID lippuja varten",
-                    "system_user_id_help": "Käyttäjän ID, joka määritetään automaattisten roskapostilippujen luojaksi. Tämän tulisi yleensä olla ylläpitäjä- tai järjestelmätili. Oletuksena käyttäjän ID 1, jos ei ole määritetty.",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
                     "no_action_extensions": "Asenna flarum/approval- ja/tai flarum/flags-lisäosat ottaaksesi automaattiset moderointitoiminnot käyttöön. Havaittu roskaposti hallitaan Flarumin sisäänrakennetun hyväksymisjonon ja lippujärjestelmän kautta.",
                     "allowlist_heading": "Sallittujen verkkotunnusten lista",
                     "allowed_domains_label": "Sallitut verkkotunnukset",
@@ -44,7 +72,9 @@
                     "blocked_words_help": "Sanat tai lauseet, jotka tulisi estää roskapostina. Syötä yksi per rivi. Kirjainkoosta riippumaton ja vastaa vain kokonaisia sanoja. Esimerkiksi \"viagra\" vastaa sanaa \"viagra\", mutta ei sanaa \"niagara\".",
                     "advanced_patterns_heading": "Edistyneet estokuviot",
                     "advanced_block_patterns_label": "Edistyneet kuviot (säännölliset lausekkeet)",
-                    "advanced_block_patterns_help": "Mukautetut säännöllisten lausekkeiden kuviot kokeneille käyttäjille. Käytä varoen — virheelliset kuviot ohitetaan. Muodon tulee olla JSON-taulukko olioista, joilla on \"pattern\"- ja valinnainen \"description\"-avain."
+                    "advanced_block_patterns_help": "Mukautetut säännöllisten lausekkeiden kuviot kokeneille käyttäjille. Käytä varoen — virheelliset kuviot ohitetaan. Muodon tulee olla JSON-taulukko olioista, joilla on \"pattern\"- ja valinnainen \"description\"-avain.",
+                    "system_user_id_label": "Järjestelmä käyttäjän ID lippuja varten",
+                    "system_user_id_help": "Käyttäjän ID, joka määritetään automaattisten roskapostilippujen luojaksi. Tämän tulisi yleensä olla ylläpitäjä- tai järjestelmätili. Oletuksena käyttäjän ID 1, jos ei ole määritetty."
                 },
                 "default-actions": {
                     "delete_user_label": "Poista käyttäjä",
@@ -63,6 +93,10 @@
                     "username_label": "Käyttäjätunnuksen roskapostitarkistus",
                     "ip_label": "IP osoitteen roskapostitarkistus",
                     "email_label": "Sähköpostin roskapostitarkistus",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "Kynnysarvo",
                     "frequency_help": "Spämmi-ilmoitusten määrä kaikkien käytössä olevien tarkistusten välillä, joka laukaisee roskapostisuodattimen.\nEsim: Jos sähköpostissa on 1 osuma ja IP-osoitteessa 2 osumaa, yhteensä on 3 osumaa. Jos kynnysarvo on asetettu 3:een tai vähemmän, estämme rekisteröinnin.\n",
                     "api_key_label": "API avain",
@@ -75,6 +109,11 @@
                     "region_us_label": "Yhdysvallat",
                     "confidence_label": "Luottamus",
                     "confidence_help": "Luottamuspisteet ovat melko hyvä indikaattori siitä, että testattava kenttä saattaa johtaa ei-toivottuun toimintaan. Aseta luottamustasosi prosentteina. Jos kenttä on yhtä suuri tai suurempi kuin tämä luku, rekisteröinti estetään, riippumatta yllä olevasta ‘taajuustestistä’.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Käytä hashattua sähköpostiosoitetta",
                     "email_hash_help": "Välitä sähköpostiosoitteen MD5-hash, jos et halua välittää itse sähköpostiosoitetta. Tämä menetelmä ohittaa kaikki mustalistat, normalisoinnit ja hämäyksen ohitustarkistukset.",
                     "block_tor_exit_nodes_label": "Estä Tor-poistumisnoodit",
@@ -83,7 +122,21 @@
                     "sfs_lookup_help": "Jos otettu käyttöön, tarkistamme StopForumSpam-tietokannan, kun uusi käyttäjä rekisteröityy foorumillesi. Jos käyttäjä löytyy (käyttäjätunnus, IP-osoite, sähköpostiosoite) ja tämä tietopiste on otettu käyttöön yhdessä SFS:n luottamustason saavuttamisen kanssa, käyttäjä estetään viimeistelemästä rekisteröintiään.",
                     "report_blocked_registrations_label": "Raportoi estetyt rekisteröinnit",
                     "report_blocked_registrations_help": "Kun rekisteröinti estetään Rekisteröintien haku -ominaisuuden avulla, ilmoitamme yrityksestä takaisin StopForumSpam-palveluun, jotta roskapostittajan toiminta voidaan varmemmin vahvistaa. Tämä vaatii StopForumSpam API-avaimen asettamisen (katso alla)."
-                }
+                },
+                "button": "Asetukset"
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Estetyt rekisteröinnit",
@@ -97,14 +150,83 @@
                 "login-provider": "Sisäänkirjautumisen tarjoaja",
                 "login-provider-data": "Sisäänkirjautumisen tarjoajan tiedot",
                 "sfs-data": "StopForumSpam tiedot",
-                "delete_entry": "Poista merkintä"
+                "reasons": "",
+                "delete_entry": "Poista merkintä",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": "",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
                 "flagged_as_spam_text": "Automaattinen roskapostin tunnistus — pistemäärä {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
+                },
                 "stopforumspam": {
                     "blocked": "Rekisteröintisi tiedot on löydetty roskapostin estotietokannasta, joten rekisteröintisi on estetty."
                 }
@@ -120,12 +242,25 @@
                 "move_discussions_tag_label": "Siirrä keskustelu karanteeni avainsanaan",
                 "move_discussions_tag_help": "Tämä siirtää kaikki tämän käyttäjän aloittamat keskustelut avainsanaan, jonka olet määrittänyt foorumin asetuksissa. Kun tämä on poistettu käytöstä, keskustelut jäävät nykyisiin avainsanoihinsa.",
                 "process_button": "Suorita",
+                "success": "",
                 "title": "Merkitse {username} roskapostittajaksi",
                 "report_to_sfs_label": "Raportoi StopForumSpam palveluun",
                 "report_to_sfs_help": "Tämä raportoi käyttäjän perus tiedot (käyttäjätunnus, sähköpostiosoite, IP-osoite) StopForumSpam-palveluun. Tämä auttaa estämään käyttäjää rekisteröitymästä muille foorumeille, jotka käyttävät StopForumSpam-palvelua."
             },
             "user_controls": {
                 "spammer_button": "Roskapostittaja"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": ""
+                },
+                "registration": {
+                    "blocked": ""
+                }
             }
         }
     }

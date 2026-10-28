@@ -95,6 +95,14 @@
                 "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
             },
             "settings": {
+                "badge-icon": "Ikona w etykiecie dyskusji Byobu",
+                "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",
+                "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
+                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
+                "delete_on_last_recipient_left": "Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści",
+                "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).",
+                "hide_from_all_discussions_page": "Ukryj prywatne dyskusje z podstrony „Wszystkie dyskusje”",
+                "hide_from_all_discussions_page_help": "Prywatne dyskusje będą dostępne jedynie na podstronie „Prywatne dyskusje” lub w profilu użytkownika",
                 "general": {
                     "heading": "Ogólne ustawienia",
                     "help": "Te ustawienia kontrolują podstawowe funkcje Byobu."
@@ -102,15 +110,7 @@
                 "icon": {
                     "heading": "Ustawienia ikon",
                     "help": "Te ustawienia kontrolują ikony używane przez forum."
-                },
-                "badge-icon": "Ikona w etykiecie dyskusji Byobu",
-                "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",
-                "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
-                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
-                "delete_on_last_recipient_left": "Usuń prywatną dyskusję po tym, jak ostatni uczestnik ją opuści",
-                "delete_on_last_recipient_left_help": "Jeśli włączone, prywatne dyskusje zostaną nieodwracalnie usunięte, gdy ostatni uczestnik opuści dyskusję. W innym wypadku prywatne dyskusje zostaną ukryte (soft deleted).",
-                "hide_from_all_discussions_page": "Ukryj prywatne dyskusje z podstrony \"Wszystkie dyskusje\"",
-                "hide_from_all_discussions_page_help": "Prywatne dyskusje będą dostępne jedynie na podstronie \"Prywatne dyskusje\" lub w profilu użytkownika"
+                }
             }
         },
         "email": {
@@ -121,23 +121,25 @@
                 "private_discussion_added": "[Prywatna dyskusja] {display_name} dodał Cię do prywatnej dyskusji"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": "",
-                "made_public": ""
+                "private_discussion_created": "{actor_display_name} rozpoczął z Tobą nową prywatną dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "private_discussion_replied": "{actor_display_name} odpowiedział w prywatnej dyskusji, w której uczestniczysz: {discussion_title}.\n\nZobacz odpowiedź tutaj:\n{post_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "recipient_removed": "{actor_display_name} opuścił prywatną dyskusję: {discussion_title}. Nie będzie już mieć dostępu do jej treści.\n\nZobacz dyskusję tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "private_discussion_added": "{actor_display_name} dodał Cię do istniejącej prywatnej dyskusji: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n",
+                "made_public": "{actor_display_name} usunął wszystkich uczestników i upublicznił dyskusję: {discussion_title}.\n\nZobacz ją tutaj:\n{discussion_url}\n\nPrzed otwarciem linku może być konieczne zalogowanie się.\n"
             }
         },
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": ""
+                    "key": "byobu",
+                    "hint": "nazwa użytkownika lub wyświetlana nazwa uczestnika"
                 },
                 "private": {
-                    "key": ""
+                    "key": "prywatna"
                 },
                 "allows-pd": {
-                    "key": ""
+                    "key": "zezwala-na-prywatne",
+                    "hint": "tak"
                 }
             }
         }

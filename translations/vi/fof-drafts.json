@@ -12,9 +12,12 @@
                 "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "Lên lịch bản nháp hiện bị vô hiệu hóa trong cài đặt.",
-            "no_title_error": ""
+            "no_title_error": "Đã bỏ qua bản nháp: thiếu tiêu đề cuộc thảo luận."
         },
         "ref": {
             "schedule_draft": "Lên lịch bản nháp"
@@ -33,7 +36,7 @@
                 "delete_all_button": "Xóa tất cả bản nháp",
                 "delete_button": "Xóa bản nháp",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
-                "scheduled_icon_tooltip": "Lên lịch cho {datetime}",
+                "scheduled_icon_tooltip": "Đã lên lịch vào {datetime}",
                 "scheduled_icon_tooltip_formatter": "L [lúc] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Bạn có chắc chắn muốn xóa bản nháp của mình không?",
@@ -51,7 +54,7 @@
                 "schedule_time_preview": "Bản nháp này sẽ được tự động đăng vào lúc <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Ngày giờ không hợp lệ",
-                "no_title_error": ""
+                "no_title_error": "Cần có tiêu đề cuộc thảo luận trước khi hẹn lịch."
             },
             "user": {
                 "settings": {
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "Bật tự động lưu bản nháp?",
                     "draft_autosave_interval_label": "Khoảng thời gian tự động lưu (giây)",
                     "draft_autosave_interval_button": "Cập nhật",
-                    "draft_autosave_interval_invalid": "Khoảng phải là một số nguyên lớn hơn 4."
+                    "draft_autosave_interval_invalid": "Khoảng thời gian phải là một số nguyên lớn hơn 4.",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }
@@ -67,8 +71,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Mặc định bật tự động lưu bản nháp",
+                "draftAutosaveInterval": "Chu kỳ tự động lưu mặc định (giây)"
             }
         }
     },

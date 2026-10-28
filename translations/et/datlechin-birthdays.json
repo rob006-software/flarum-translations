@@ -6,17 +6,69 @@
                 "view_birthday_label": "Vaata sünnipäeva"
             },
             "settings": {
+                "min_age_help": "Minimaalne vanud registreerimiseks",
+                "min_age_label": "Minimaalne vanus",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Luba liitumisel sünnipäeva määramine",
                 "required_label": "Nõua sünnipäeva sisestamine",
                 "required_help": "Selle valiku töötamiseks peab valik 'Luba liitumisel sünnipäeva määramine' olema sisse lülitatud",
-                "min_age_label": "Minimaalne vanus",
-                "min_age_help": "Minimaalne vanud registreerimiseks",
                 "date_format_label": "Kuupäeva vorming",
                 "date_format_help": "Kasuta <a>dayjs</a> kuupäeva vormingut. Vaikimisi vormingu kasutamiseks jäta lahter tühjaks.",
                 "date_none_year_label": "Kuupäeva vorming ilma aastata"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Tänased sünnipäevad"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Vestlus: #} other {Vestlusi: #}}",
+                "post_count": "{count, plural, one {Postitus: #} other {Postitusi: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Muuda sündimise kuupäeva",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Näita sündimise päeva ja kuud",
+                "show_dob_year_label": "Näita sündimise aastat",
+                "show_dob_year_help": "See võimaldab inimestel sinu vanust näha."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Sünnipäev: {date}",
                 "age_text": "Vanus: {age}"
@@ -26,28 +78,24 @@
                 "date_of_birth_text": "Sünnipäev",
                 "submit_button": "Salvesta muudatused"
             },
-            "settings": {
-                "change_dob_label": "Muuda sündimise kuupäeva",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Näita sündimise päeva ja kuud",
-                "show_dob_year_label": "Näita sündimise aastat",
-                "show_dob_year_help": "See võimaldab inimestel sinu vanust näha."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Tänased sünnipäevad"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Vestlus: #} other {Vestlusi: #}}",
-                "post_count": "{count, plural, one {Postitus: #} other {Postitusi: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Vigane sünnipäev",
-            "invalid_age_message": "Sinu vanus peab olema vähemalt {minAge} aastat.",
-            "birthday_required_message": ""
+            "invalid_age_message": "Sinu vanus peab olema vähemalt {minAge} aastat."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Sünnipäev"

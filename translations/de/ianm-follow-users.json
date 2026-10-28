@@ -13,7 +13,9 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": "Darf Benutzern folgen"
+                "follow_label": "Darf anderen Benutzern folgen",
+                "be_followed_label": "Benutzer dürfen folgen",
+                "view_followed_users_label": "Anzeigen, welchen Benutzern ein Mitglied folgt"
             },
             "settings": {
                 "button-on-profile-label": "Schaltfläche „Folgen“ direkt in der Kopfzeile des Benutzerprofils anzeigen",
@@ -63,7 +65,7 @@
             "modals": {
                 "select_follow_level": {
                     "title": "Follow-Level für {username} auswählen",
-                    "description": "Wähle , wie Du <em>{username}</em> folgen möchtest.",
+                    "description": "Wähle, wie Du <em>{username}</em> folgen möchtest.",
                     "follow_levels_heading": "Ebenen folgen",
                     "follow_select_label": "Folgetyp",
                     "no_user_attr_provided_err": "Uh oh, beim Öffnen dieses Modal ist etwas schief gelaufen.",

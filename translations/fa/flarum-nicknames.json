@@ -43,5 +43,14 @@
             "change_nickname": "ویرایش نام نمایشی",
             "nickname": "نام نمایشی"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_changed": "نام نمایشی {username} از {old_nickname} به {new_nickname} تغییر یافت"
+                }
+            }
+        }
     }
 }

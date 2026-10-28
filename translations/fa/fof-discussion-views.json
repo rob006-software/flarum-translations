@@ -1,6 +1,16 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "",
+            "least_viewed": ""
+        },
         "forum": {
+            "index_sort": {
+                "most_viewed_button": "",
+                "least_viewed_button": ""
+            }
+        },
+        "lib": {
             "index_sort": {
                 "most_viewed_button": "",
                 "least_viewed_button": ""
@@ -24,7 +34,9 @@
                 "reset_views_label": "تنظیم بازدیدهای گفت‌وگو"
             },
             "settings": {
-                "ignore_crawlers": "نادیده گرفتن بازدیدهای خزنده‌های موتورهای جست و جو"
+                "ignore_crawlers": "نادیده گرفتن بازدیدهای خزنده‌های موتورهای جست و جو",
+                "dedupe_ttl": "",
+                "dedupe_ttl_help": ""
             }
         },
         "lib": {

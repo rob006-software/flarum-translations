@@ -2,30 +2,30 @@
     "fof-share-social": {
         "admin": {
             "settings": {
-                "canonical-urls": "分享时使用 Canonical URL（标准网址）",
-                "plain-copy": "支持复制纯文本地址",
-                "default-option": "默认分享选项",
-                "default-option-help": "使用下拉选项打开默认分享。\n「系统分享」需要浏览器支持，否则会使用基础模式。\n"
+                "canonical-urls": "分享时使用规范 URL",
+                "plain-copy": "显示复制纯链接选项",
+                "default-option": "默认分享方式",
+                "default-option-help": "分享窗口改为下拉按钮。\n如果选择「系统分享」，仅在浏览器支持时显示；否则仍使用原来的分享窗口。\n"
             }
         },
         "forum": {
             "discussion": {
                 "share_button": "分享",
-                "share_dropdown_accessible_label": "启用主题分享"
+                "share_dropdown_accessible_label": "展开或收起讨论分享菜单"
             },
             "modal": {
-                "title": "分享到",
+                "title": "分享",
                 "copy_button": "复制"
             }
         },
         "lib": {
             "networks": {
-                "facebook": "脸书",
-                "twitter": "推特",
+                "facebook": "Facebook",
+                "twitter": "X（原 Twitter）",
                 "linkedin": "领英",
                 "reddit": "Reddit",
                 "whatsapp": "WhatsApp",
-                "telegram": "电报",
+                "telegram": "Telegram",
                 "vkontakte": "VKontakte",
                 "odnoklassniki": "Odnoklassniki",
                 "my_mail": "My World",

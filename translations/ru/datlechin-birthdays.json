@@ -6,17 +6,69 @@
                 "view_birthday_label": "Показывать день рождения"
             },
             "settings": {
+                "min_age_help": "Минимальный возраст для регистрации",
+                "min_age_label": "Минимальный возраст",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Разрешить установку дня рождения при регистрации",
                 "required_label": "Необходимо указывать день рождения",
                 "required_help": "Для работы этой опции включите «Разрешить установку дня рождения при регистрации»",
-                "min_age_label": "Минимальный возраст",
-                "min_age_help": "Минимальный возраст для регистрации",
                 "date_format_label": "Формат даты",
                 "date_format_help": "Использовать формат даты из <a>day.js</a>. Оставьте поле пустым для использования формата по умолчанию.",
                 "date_none_year_label": "Формат даты без года"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Дни рождения сегодня"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Тем: #} few {Темы: #} many {Тем: #} other {Тем: #}}",
+                "post_count": "{count, plural, one {Сообщение: #} other {Сообщений: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Изменить дату рождения",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Показать день и месяц рождения",
+                "show_dob_year_label": "Показать год рождения",
+                "show_dob_year_help": "Разрешает другим видеть ваш возраст."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "День рождения: {date}",
                 "age_text": "Возраст: {age}"
@@ -26,28 +78,25 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Изменить дату рождения",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Показать день и месяц рождения",
-                "show_dob_year_label": "Показать год рождения",
-                "show_dob_year_help": "Разрешает другим видеть ваш возраст."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Дни рождения сегодня"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Тем: #} few {Темы: #} many {Тем: #} other {Тем: #}}",
-                "post_count": "{count, plural, one {Сообщение: #} other {Сообщений: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Некорректная дата рождения",
             "invalid_age_message": "Ваша дата рождения должна быть как минимум {minAge} лет назад.",
             "birthday_required_message": "Нужно указать дату рождения."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Дата рождения"

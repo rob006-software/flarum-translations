@@ -8,6 +8,10 @@
                 "activated_only_help": "Only users with confirmed email can view magnet links. This setting applies to logged-in users only.",
                 "scraper_enabled_label": "Enable Tracker Scraping",
                 "scraper_enabled_help": "When enabled, the extension will query trackers to get seed/leech/download statistics. When disabled, only the torrent name and click count will be displayed.",
+                "scraper_engine_label": "Scraper engine",
+                "scraper_engine_help": "Hardened (default) = cURL engine that pins the resolved IP (closing the DNS-rebinding / SSRF window) and adds IPv6 support for UDP trackers; it requires the cURL PHP extension and verifies TLS strictly, so trackers with broken/self-signed certificates may stop responding. Classic = the original file_get_contents engine (no cURL needed) with a documented residual rebinding window — pick it only if cURL is unavailable.",
+                "scraper_engine_classic": "Classic (compatible)",
+                "scraper_engine_hardened": "Hardened (IP-pinning, IPv6, strict TLS)",
                 "http_only_label": "HTTP(S) Trackers Only",
                 "http_only_help": "Only query HTTP and HTTPS trackers. Enable this if your hosting provider doesn't allow UDP connections.",
                 "allow_private_trackers_label": "Allow Private/Internal Trackers",
@@ -23,10 +27,16 @@
                 "tracker_timeout_help": "Maximum time to wait for a tracker response. Set to 0 for default (2 seconds).",
                 "max_trackers_label": "Maximum Trackers to Query",
                 "max_trackers_help": "Maximum number of trackers to contact per magnet. Set to 0 to use the built-in safety cap (12). A hard time budget also applies so a single magnet can't hang a request.",
+                "topic_scrape_budget_label": "Topic Scrape Time Budget (seconds)",
+                "topic_scrape_budget_help": "Maximum total time spent scraping trackers for a magnet shown in the open topic (the in-post card). Default 15. This is the accurate, full view, so it gets a longer budget than the list tooltip. Hard-capped at 30 seconds so one request can't tie up a worker for long.",
+                "scrape_max_concurrent_label": "Max Concurrent Scrapes (server-wide)",
+                "scrape_max_concurrent_help": "How many tracker scrapes that miss the cache may run at the same time on the whole server (default 4). Each one holds a PHP worker for up to its time budget — and a tooltip hover that the visitor leaves early keeps scraping on the server — so without a cap, fast browsing of the list or many uncached topics at once could tie up the whole worker pool. Over the limit the request is answered at once with \"busy\" — never cached: the card in the post retries by itself, the list tooltip asks again on the next hover. Raise it only if your server has spare PHP workers.",
                 "scraper_max_redirects_label": "Max Tracker Redirects",
                 "scraper_max_redirects_help": "How many HTTP(S) redirects to follow when scraping a tracker. Default 0 (don't follow). Raise to 1-2 if a tracker is behind Cloudflare or a CDN that redirects http→https. Every redirect hop is still validated by the SSRF guard, so a tracker can't redirect the request to a private/internal address.",
                 "priority_trackers_label": "Priority Trackers",
                 "priority_trackers_help": "Optional. One tracker host per line (e.g. tracker.opentrackr.org). If a magnet contains any of these, they are queried first, in this order — most useful in the default 'stop at first responder' mode so stats come from a tracker you trust, and it improves latency/accuracy. Reorder only: trackers that aren't in the magnet are never added, and the SSRF guard, scheme/HTTP-only filters and limits still apply.",
+                "scraper_host_allowlist_label": "Tracker host allowlist (security)",
+                "scraper_host_allowlist_help": "Optional. One trusted tracker host per line. When non-empty, ONLY these hosts are ever contacted — tracker URLs supplied in post content that aren't listed are skipped entirely, closing the SSRF / DNS-rebinding surface for attacker-supplied trackers. Leave empty (default) to scrape any public host (current behaviour). The SSRF guard, scheme / HTTP-only filters and limits still apply on top.",
                 "cache_enabled_label": "Cache Tracker Results",
                 "cache_enabled_help": "Cache seed/leech/download stats so repeated views and tooltip hovers don't re-query the trackers. Strongly recommended — it is also the main protection against hover-driven load. Controls both the server cache and the in-browser cache.",
                 "cache_ttl_label": "Cache Lifetime (seconds)",
@@ -43,6 +53,14 @@
                 "tooltip_enabled_help": "Show magnet link stats when hovering over discussions in the discussion list.",
                 "tooltip_max_magnets_label": "Max Magnets in Tooltip",
                 "tooltip_max_magnets_help": "Maximum number of magnet links displayed in the discussion tooltip. Set to 0 for unlimited.",
+                "tooltip_scrape_budget_label": "Tooltip Scrape Time Budget (seconds)",
+                "tooltip_scrape_budget_help": "Total time budget shared across all magnets scraped for one discussion-list hover. Kept short (default 4) because the scrape runs synchronously and holds a PHP worker while you hover; the open-topic card uses the larger topic budget for full accuracy. Raise it if your magnets have many trackers and the tooltip often shows 'no response'. Hard-capped at 30 seconds.",
+                "tooltip_max_concurrent_label": "Max Concurrent Tooltip Requests",
+                "tooltip_max_concurrent_help": "How many hover-tooltip scrape requests may run at once (default 2). When you hover past this many discussions, the newest hover aborts the oldest in-flight request. Leaving a discussion or opening one also aborts its request. This caps how many PHP workers rapid hovering over the list can tie up. Lower it (e.g. 1) on small/shared hosting; raise it (up to 6) only if your server has spare workers.",
+                "tooltip_max_trackers_label": "Tooltip: Max Trackers to Query",
+                "tooltip_max_trackers_help": "Maximum number of trackers the tooltip contacts per magnet. Set to 0 (default) to inherit the global 'Maximum Trackers to Query'. The tooltip already falls through trackers that don't respond — it's bounded by the tooltip time budget above, not by where the first dead tracker is. Set a separate value here only to give the tooltip a different cap from the in-topic card; a different value gets its own cache entry so it never poisons the topic's full result.",
+                "tooltip_tracker_timeout_label": "Tooltip: Tracker Timeout (seconds)",
+                "tooltip_tracker_timeout_help": "Per-tracker response timeout used only for tooltip scrapes. Set to 0 (default) to inherit the global 'Tracker Timeout'. Lowering it (e.g. 1) makes dead/slow trackers fail faster, so more trackers can be tried within the tooltip time budget — the most effective way to make the tooltip reach a live tracker when private/dead trackers are listed first. Does not affect the in-topic card.",
                 "tooltip_show_permission_errors_label": "Show permission message in tooltip",
                 "tooltip_show_permission_errors_help": "When a guest or a user without permission hovers a discussion that has magnet links, show a clear message in the tooltip (\"You must be logged in…\") instead of letting it briefly flash the loading state and disappear. Mirrors the in-post behaviour. Enabled by default.",
                 "rename_enabled_label": "Enable Custom Torrent Names",
@@ -86,12 +104,19 @@
                 "success": "Re-secured {count} magnet token(s).",
                 "error": "Failed to re-secure tokens. Check the server logs."
             },
+            "maintenance": {
+                "label": "Table retention (large forums)",
+                "help": "magnet_clicks and magnet_bans can grow large on busy or bot-targeted forums. Pruning is opt-in by design (the topic click sorts read magnet_clicks directly, so the retention window is your call). Wire these into the server's cron, e.g. daily: php flarum magnet:prune-clicks --days=90  and  php flarum magnet:prune-bans"
+            },
             "support": {
                 "button": "Support Development",
                 "title": "Support This Extension",
                 "description": "If you find this extension useful, please consider supporting its development with a small donation. Every contribution helps keep the project alive and maintained.",
                 "copy": "Copy address",
                 "thanks": "Thank you for your support!"
+            },
+            "permissions": {
+                "view_magnet_links": "View magnet links"
             }
         },
         "forum": {
@@ -132,6 +157,7 @@
                 "no_trackers": "Magnet link contains no trackers",
                 "no_http_trackers": "No HTTP(S) trackers available",
                 "no_response": "No tracker responded",
+                "busy": "Tracker statistics are busy right now — try again in a moment",
                 "scraper_error": "Failed to contact trackers",
                 "load_failed": "Failed to load magnet info"
             },
@@ -140,8 +166,8 @@
                 "quota": "Refresh limit reached. Please try again in {seconds}s."
             }
         },
-        "permissions": {
-            "viewMagnetLinks": "View magnet links"
+        "email": {
+            "magnet_hidden": "Magnet link — open the post on the forum to get it"
         }
     }
 }

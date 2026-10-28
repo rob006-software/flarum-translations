@@ -2,62 +2,62 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "Căn giữa",
+                "bb_justify": "Căn đều",
+                "bb_color": "Màu sắc",
+                "bb_spoiler": "Spoiler",
+                "bb_table": "Bảng",
+                "bb_info": "Cảnh báo",
+                "bb_audio": "Âm thanh",
+                "bb_image": "Căn chỉnh hình ảnh",
+                "bb_image_help": "Bọc hình ảnh và các nội dung đa phương tiện nội tuyến khác trong một khung căn chỉnh. Nội dung căn giữa được thu nhỏ còn 60% chiều rộng bài viết, căn lề bên — tối đa 40%",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Cho phép nhúng iframe từ bất kỳ nguồn nào. Hãy thận trọng khi sử dụng — nội dung được nhúng có thể chứa các tập lệnh bên ngoài. 🧹 Sau khi thay đổi cài đặt này, vui lòng xóa bộ nhớ đệm của Flarum",
+                "bb_hide_login": "Đăng nhập",
+                "bb_hide_login_help": "Nội dung bị ẩn với khách và hiển thị với tất cả người dùng đã đăng nhập",
+                "bb_hide_reply": "Trả lời",
+                "bb_hide_reply_help": "Nội dung bị ẩn cho đến khi người dùng trả lời trong thảo luận",
+                "bb_hide_like": "Thích",
+                "bb_hide_like_help": "Nội dung bị ẩn cho đến khi người dùng thích bài viết",
+                "bb_anchor": "Neo & Nhảy đến",
+                "bb_anchor_help": "Các điểm neo cuộn được đặt tên và liên kết nhảy đến trong bài viết",
+                "toolbar_group": "Gom nhóm các nút MagicBB",
+                "toolbar_group_help": "Nếu bật, tất cả các nút MagicBB sẽ được gom vào một nút duy nhất trong trình soạn thảo"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": "",
-                "hide": ""
+                "text": "Nút văn bản",
+                "content": "Nút nội dung",
+                "images": "Nút hình ảnh",
+                "features": "Tính năng",
+                "hide": "Nút ẩn nội dung"
             },
             "permissions": {
-                "use_iframe": "",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "use_iframe": "Cho phép iframe",
+                "bypass_like": "Bỏ qua yêu cầu thích",
+                "bypass_reply": "Bỏ qua yêu cầu trả lời"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": "",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "center_button": "Căn giữa",
+                "justify_button": "Căn đều hai bên",
+                "color_button": "Thêm màu",
+                "spoiler_button": "Thêm spoiler",
+                "table_button": "Thêm bảng",
+                "info_button": "Thêm cảnh báo",
+                "audio_button": "Thêm âm thanh",
+                "image_button": "Căn chỉnh hình ảnh",
+                "more_button": "Xem thêm",
+                "hide_login_button": "Ẩn — yêu cầu đăng nhập",
+                "hide_reply_button": "Ẩn — yêu cầu trả lời",
+                "hide_like_button": "Ẩn — yêu cầu thích",
+                "anchor_button": "Thêm neo",
+                "jump_button": "Thêm liên kết nhảy đến"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "Đăng nhập để xem nội dung này",
+                "like_to_see_simple": "Thích bài viết này để xem nội dung này",
+                "reply_to_see_simple": "Trả lời trong thảo luận này để xem nội dung này"
             }
         }
     }

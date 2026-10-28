@@ -1,14 +1,14 @@
 {
     "anto0102-mailguard": {
         "admin": {
-            "mode_label": "",
-            "mode_help": "",
-            "domains_label": "",
-            "domains_help": "",
-            "message_label": "",
-            "message_help": "",
-            "check_mx_label": "",
-            "check_mx_help": ""
+            "mode_label": "域名過濾模式",
+            "mode_help": "允許 = 僅允許列出的網域註冊。拒絕 = 阻止在列出的網域註冊。",
+            "domains_label": "電子郵件網域（每行一個）",
+            "domains_help": "輸入網域名稱時無需輸入@符號。例如：gmail.com",
+            "message_label": "拒收消息",
+            "message_help": "向嘗試使用被封鎖的電子郵件網域註冊的使用者顯示此訊息。",
+            "check_mx_label": "驗證 MX/DNS 記錄",
+            "check_mx_help": "如果啟用，則會封鎖不存在或無法接收電子郵件的網域名稱（無論允許/拒絕清單如何設定）。"
         }
     }
 }

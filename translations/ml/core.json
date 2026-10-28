@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -111,6 +119,8 @@
                 "edit_css_button": "പ്രത്യേക സിഎസ്എസ്  ൽ മാറ്റം വരുത്തുക",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "ഒരു ഹെക്‌സാഡെസിമൽ കളർ കോഡ് നൽകുക.",
                 "favicon_heading": "ഫെവിക്കോൺ",
                 "favicon_text": "ഫോറത്തിന്റെ കുറുക്കുവഴി ഐക്കണായി പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
@@ -118,6 +128,8 @@
                 "logo_text": "ഫോറം ശീർഷകത്തിന്റെ സ്ഥാനത്ത് പ്രദർശിപ്പിക്കുന്നതിന് ഒരു ചിത്രം അപ്‌ലോഡ് ചെയ്യുക.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "രൂപം",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -159,7 +171,7 @@
                         "id_with_display_name": ""
                     }
                 },
-                "slug_driver_heading": "സ്ലഗ് ഡ്രൈവർ: {മോഡൽ }",
+                "slug_driver_heading": "സ്ലഗ് ഡ്രൈവർ: {model}",
                 "slug_driver_text": "ഈ മോഡൽ സ്ലഗ്ഗുചെയ്യാൻ ഉപയോഗിക്കുന്ന ഒരു ഡ്രൈവർ തിരഞ്ഞെടുക്കുക.",
                 "title": "അടിസ്ഥന കാര്യങ്ങൾ",
                 "welcome_banner_heading": "സ്വാഗത ബാനർ",
@@ -195,8 +207,41 @@
                 "title": "",
                 "view_all": ""
             },
+            "queue_widget": {
+                "title": "",
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
+            },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "കാഷെ മായ്ക്കുക",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "നിങ്ങളുടെ ഫോറം ഒറ്റ നോട്ടത്തിൽ.",
                 "info_button": "",
                 "info_modal": {
@@ -237,6 +282,14 @@
                 "section_disabled_heading": "",
                 "section_disabled_help": "",
                 "suggested_by": ""
+            },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "",
@@ -405,6 +458,7 @@
                 "delete_posts_forever_label": "പോസ്റ്റുകൾ എന്നെന്നേക്കുമായി ഇല്ലാതാക്കുക",
                 "delete_posts_label": "പോസ്റ്റുകൾ ഇല്ലാതാക്കുക",
                 "description": "ആർക്കൊക്കെ കാണാനാകുമെന്നും എന്തുചെയ്യാനാകുമെന്നും ക്രമീകരിക്കുക.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "പോസ്റ്റുകൾ തിരുത്തുക",
                 "edit_users_label": "ഉപയോക്തൃ ആട്രിബ്യൂട്ടുകൾ തിരുത്തുക",
                 "edit_users_credentials_label": "ഉപയോക്തൃ ക്രെഡൻഷ്യലുകൾ തിരുത്തുക",
@@ -432,7 +486,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "അനിശ്ചിതമായി",
                 "allow_never_button": "",
-                "allow_some_minutes_button": "{എണ്ണുക, ബഹുവചനം, ഒന്ന് { # മിനിറ്റിന്} മറ്റൊന്ന് { # മിനിറ്റിന്}}",
+                "allow_some_minutes_button": "{count, plural, one { # മിനിറ്റിന്} other { # മിനിറ്റിന്}}",
                 "allow_ten_minutes_button": "10 മിനിട്ടുകൾക്ക്",
                 "allow_until_reply_button": "അടുത്ത മറുപടി വരെ",
                 "everyone_button": "എല്ലാവരും",
@@ -579,7 +633,8 @@
                 "search_role_label": "ഫോറത്തിൽ തിരയുക",
                 "session_dropdown_accessible_label": "സെഷൻ ഓപ്ഷനുകൾ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,12 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "നാവിഗേഷൻ ഡ്രോപ്പ്ഡൗൺ മെനു ടോഗിൾ ചെയ്യുക"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "ഏറ്റവും പുതിയ",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "ചർച്ച ലിസ്റ്റ് അടുക്കൽ മാറ്റുക",
-                "top_button": "മുകളിൽ"
+                "top_button": "മുകളിൽ",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "പാസ്വേഡ് മറന്നോ?",
@@ -608,6 +665,7 @@
                 "sign_up_text": "ഒരു അക്കൗണ്ട് ഇല്ലേ? <a> ചേരുക</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": ""
             },
             "notifications": {
@@ -718,6 +776,7 @@
                 "notify_by_email_heading": "",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -768,9 +827,14 @@
             }
         },
         "lib": {
+            "connection_restored_message": "",
             "debug_button": "",
             "alert": {
                 "dismiss_a11y_label": ""
+            },
+            "assets_updated": {
+                "message": "",
+                "reload_button": ""
             },
             "badge": {
                 "hidden_tooltip": ""
@@ -804,7 +868,9 @@
                 "generic_message": "",
                 "generic_cross_origin_message": "",
                 "missing_dependencies_message": "",
+                "network_message": "",
                 "not_found_message": "",
+                "offline_message": "",
                 "payload_too_large_message": "",
                 "permission_denied_message": "",
                 "rate_limit_exceeded_message": "",
@@ -849,6 +915,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": ""
+            },
             "input": {
                 "clear_button": ""
             },
@@ -866,7 +935,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -874,9 +944,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "",
                 "mega_text": ""
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -895,6 +977,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -996,7 +1079,8 @@
                 "password_placeholder": "",
                 "remember_me_label": "",
                 "submit_button": "",
-                "title": ""
+                "title": "",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "",
@@ -1093,6 +1177,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "",
+            "latest": "",
             "loading": "",
             "log_in": "",
             "log_out": "",
@@ -1122,6 +1207,10 @@
             "sign_up": "",
             "some_others": "",
             "start_a_discussion": "",
+            "title_az": "",
+            "title_za": "",
+            "too_many_login_attempts_message": "",
+            "top": "",
             "username": "",
             "username_or_email_placeholder": "",
             "users": "",

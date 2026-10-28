@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "ברירת מחדל לcache TTL",
             "public_cache_ttl_help": "ציינו כמה זמן, בשניות, עמודים ציבוריים יישמרו במטמון. ערך ברירת מחדל הוא 300 שניות.",
             "clearing_cache_listener_label": "ניקוי LSCache כאשר מטמון Flarum מנוקה",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "טיפול במיושן",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

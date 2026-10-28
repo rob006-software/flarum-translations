@@ -66,5 +66,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "suspended": "Пользователь {username} заблокирован до {until}",
+                    "unsuspended": "Восстановлен {username}"
+                }
+            }
+        }
     }
 }

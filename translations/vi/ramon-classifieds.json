@@ -2,128 +2,128 @@
     "flarum-classifieds": {
         "admin": {
             "settings": {
-                "tag_ids_label": "",
-                "tag_ids_help": "",
-                "default_currency_label": "",
-                "default_currency_help": "",
-                "allowed_labels_label": "",
-                "allowed_labels_help": "",
-                "allow_price_range_label": "",
-                "allow_price_range_help": "",
-                "show_currency_symbol_label": "",
-                "show_currency_symbol_help": "",
-                "require_label_label": "",
-                "require_price_label": "",
-                "require_location_label": "",
-                "auto_prune_days_label": "",
-                "auto_prune_days_help": "",
-                "auto_prune_sold_label": "",
-                "auto_prune_sold_help": ""
+                "tag_ids_label": "Thẻ dành cho rao vặt",
+                "tag_ids_help": "Hãy chọn những thẻ mà các cuộc thảo luận trong đó hoạt động như tin rao vặt. Cuộc thảo luận thuộc bất kỳ thẻ nào được chọn sẽ có thêm các trường tin rao, nút đổi trạng thái và phần giá.",
+                "default_currency_label": "Mã tiền tệ mặc định",
+                "default_currency_help": "Mã tiền tệ ISO gồm 3 chữ cái (ví dụ USD, EUR, VND).",
+                "allowed_labels_label": "Các nhãn tin rao được phép",
+                "allowed_labels_help": "Danh sách cách nhau bằng dấu phẩy (ví dụ iso,wtb,wts,trade).",
+                "allow_price_range_label": "Cho phép khoảng giá",
+                "allow_price_range_help": "Cho phép người dùng nhập mức giá thấp nhất và cao nhất.",
+                "show_currency_symbol_label": "Hiển thị ký hiệu tiền tệ",
+                "show_currency_symbol_help": "Hiển thị $/€/v.v. thay cho mã tiền tệ thô.",
+                "require_label_label": "Bắt buộc có nhãn tin rao",
+                "require_price_label": "Bắt buộc có giá",
+                "require_location_label": "Bắt buộc có địa điểm",
+                "auto_prune_days_label": "Tự động dọn sau N ngày",
+                "auto_prune_days_help": "Xóa những tin rao cũ hơn số ngày này. Đặt 0 để tắt.",
+                "auto_prune_sold_label": "Tự động dọn các tin đã bán",
+                "auto_prune_sold_help": "Khi chạy dọn dẹp, xóa luôn cả những tin rao đã bán/đã hoàn tất."
             },
             "permissions": {
-                "mark_listing_sold_label": "",
-                "bump_listing_label": "",
-                "edit_listing_label": ""
+                "mark_listing_sold_label": "Đánh dấu tin rao là đã bán/đang bán",
+                "bump_listing_label": "Đẩy tin rao của mình",
+                "edit_listing_label": "Sửa các trường tin rao của mình"
             },
             "edit_tag": {
-                "is_classifieds_label": "",
-                "is_classifieds_help": ""
+                "is_classifieds_label": "Thẻ này là thẻ rao vặt",
+                "is_classifieds_help": "Các cuộc thảo luận thuộc thẻ này sẽ bắt buộc phải có thông tin rao vặt."
             }
         },
         "forum": {
             "composer": {
-                "section_title": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "price_label": "",
-                "price_max_label": "",
-                "currency_label": "",
-                "location_label": "",
-                "location_placeholder": "",
-                "configure_listing_button": ""
+                "section_title": "Thông tin rao vặt",
+                "label_label": "Loại tin rao",
+                "label_placeholder": "Chọn một nhãn…",
+                "price_label": "Giá",
+                "price_max_label": "Giá cao nhất (khoảng giá)",
+                "currency_label": "Đơn vị tiền",
+                "location_label": "Vị trí",
+                "location_placeholder": "Thành phố, tỉnh, quốc gia…",
+                "configure_listing_button": "Thiết lập thông tin tin rao"
             },
             "start_listing": {
-                "title": "",
-                "help": "",
-                "continue_button": ""
+                "title": "Tin rao vặt mới",
+                "help": "Cuộc thảo luận này thuộc một thẻ rao vặt. Hãy điền thông tin cho tin rao của bạn — bạn có thể sửa lại sau.",
+                "continue_button": "Tiếp tục"
             },
             "classifieds_composer": {
-                "title_placeholder": "",
-                "body_placeholder": "",
-                "label_required": "",
-                "price_required": "",
-                "location_required": ""
+                "title_placeholder": "Tiêu đề tin rao (ví dụ: iPhone 15 Pro 256GB)",
+                "body_placeholder": "Hãy mô tả tin rao của bạn: tình trạng, chi tiết, cách liên hệ…",
+                "label_required": "Vui lòng chọn một nhãn cho tin rao.",
+                "price_required": "Vui lòng nhập giá cho tin rao.",
+                "location_required": "Vui lòng nhập địa điểm."
             },
             "create_listing": {
-                "title": "",
-                "title_label": "",
-                "description_label": "",
-                "submit_button": "",
-                "title_required": "",
-                "description_required": ""
+                "title": "Tin rao vặt mới",
+                "title_label": "Tiêu đề",
+                "description_label": "Mô tả",
+                "submit_button": "Đăng tin",
+                "title_required": "Vui lòng nhập tiêu đề.",
+                "description_required": "Vui lòng nhập mô tả."
             },
             "edit_listing": {
-                "title": "",
-                "save_button": ""
+                "title": "Sửa tin rao",
+                "save_button": "Lưu tin rao"
             },
             "discussion_controls": {
-                "mark_sold_button": "",
-                "mark_active_button": "",
-                "bump_button": "",
-                "edit_listing_button": ""
+                "mark_sold_button": "Đánh dấu đã bán",
+                "mark_active_button": "Đánh dấu đang bán",
+                "bump_button": "Đẩy tin",
+                "edit_listing_button": "Sửa tin rao"
             },
             "post_stream": {
-                "status_changed_sold_text": "",
-                "status_changed_active_text": "",
-                "status_changed_completed_text": "",
-                "listing_bumped_text": ""
+                "status_changed_sold_text": "{username} đã đánh dấu tin rao là đã bán {time}.",
+                "status_changed_active_text": "{username} đã mở lại tin rao {time}.",
+                "status_changed_completed_text": "{username} đã hoàn tất tin rao {time}.",
+                "listing_bumped_text": "{username} đã đẩy tin rao {time}."
             },
             "uploader": {
-                "title": "",
-                "hint": "",
-                "add": "",
-                "remove": "",
-                "invalid_type": "",
-                "too_large": ""
+                "title": "Kéo ảnh vào đây hoặc bấm để chọn",
+                "hint": "Tối đa {max} ảnh, định dạng JPG/PNG/GIF/WEBP, mỗi ảnh tối đa 5MB.",
+                "add": "Thêm",
+                "remove": "Xóa",
+                "invalid_type": "Một số tệp bị từ chối — chỉ chấp nhận tệp hình ảnh.",
+                "too_large": "Một số tệp bị từ chối vì lớn hơn 5MB."
             },
             "landing": {
-                "title": "",
-                "greeting": "",
-                "greeting_guest": "",
-                "prompt": "",
-                "select_category": "",
-                "empty": "",
-                "discussion_count": ""
+                "title": "Rao vặt",
+                "greeting": "Xin chào {username}!",
+                "greeting_guest": "Chào mừng!",
+                "prompt": "Hôm nay bạn muốn rao gì?",
+                "select_category": "Chọn danh mục {name}",
+                "empty": "Chưa cấu hình thẻ rao vặt nào.",
+                "discussion_count": "{count, plural, =0{Chưa có tin rao nào} one {1 tin rao} other {# tin rao}}"
             },
             "breadcrumb": {
-                "classifieds": ""
+                "classifieds": "Rao vặt"
             },
             "actions": {
-                "contact_seller": "",
-                "login_to_contact": "",
-                "share": "",
-                "copy_link": "",
-                "link_copied": "",
-                "copy_failed": ""
+                "contact_seller": "Nhắn cho người bán",
+                "login_to_contact": "Đăng nhập để nhắn cho người bán",
+                "share": "Chia sẻ",
+                "copy_link": "Sao chép liên kết",
+                "link_copied": "Đã sao chép liên kết vào bộ nhớ tạm.",
+                "copy_failed": "Không sao chép được liên kết."
             },
             "seller": {
-                "title": "",
-                "member_since": "",
-                "listings": "",
-                "last_seen": ""
+                "title": "Người bán",
+                "member_since": "Thành viên từ {time}",
+                "listings": "{count, plural, =0{Không có tin rao nào} one {1 tin rao} other {# tin rao}}",
+                "last_seen": "Xuất hiện lần cuối {time}"
             }
         },
         "lib": {
             "labels": {
-                "iso": "",
-                "wtb": "",
-                "wts": "",
-                "trade": ""
+                "iso": "ISO",
+                "wtb": "WTB",
+                "wts": "WTS",
+                "trade": "TRADE"
             },
             "statuses": {
-                "active": "",
-                "sold": "",
-                "completed": ""
+                "active": "Đang bán",
+                "sold": "Đã bán",
+                "completed": "Đã hoàn tất"
             }
         }
     }

@@ -1,4 +1,67 @@
 {
+    "acpl-mobile-tab": {
+        "acpl-mobile-tab.admin.active_items": "2026-09-20",
+        "acpl-mobile-tab.admin.edit_item.is_internal_checkbox": "2026-09-27",
+        "acpl-mobile-tab.lib.item.categories": "2026-06-28"
+    },
+    "flarum-audit": {
+        "flarum-audit.lib.browser.discussion.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.banned": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.unbanned": "2026-07-12",
+        "flarum-audit.lib.browser.post.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.edit_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.bio_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.impersonated": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_requested": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_requested": "2026-07-12"
+    },
+    "fof-best-answer": {
+        "fof-best-answer.admin.edit_tag.qna_label": "2026-10-18",
+        "fof-best-answer.admin.edit_tag.reminders": "2026-10-18",
+        "fof-best-answer.admin.settings.label.advanced": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server_help": "2026-10-18",
+        "fof-best-answer.forum.index.solved_link": "2026-10-18",
+        "fof-best-answer.forum.index.unsolved_link": "2026-10-18"
+    },
+    "fof-byobu": {
+        "fof-byobu.admin.settings.general.heading": "2026-08-02",
+        "fof-byobu.admin.settings.general.help": "2026-08-02",
+        "fof-byobu.admin.settings.icon.heading": "2026-08-02",
+        "fof-byobu.admin.settings.icon.help": "2026-08-02"
+    },
+    "fof-geoip": {
+        "fof-geoip.forum.alerts.ip_copied": "2026-06-14",
+        "fof-geoip.forum.copy_ip_label": "2026-06-14",
+        "fof-geoip.forum.map_button_label": "2026-06-14",
+        "fof-geoip.forum.map_modal.as": "2026-06-14",
+        "fof-geoip.forum.map_modal.country_code": "2026-06-14",
+        "fof-geoip.forum.map_modal.error": "2026-06-14",
+        "fof-geoip.forum.map_modal.ip_address": "2026-06-14",
+        "fof-geoip.forum.map_modal.isp": "2026-06-14",
+        "fof-geoip.forum.map_modal.mobile": "2026-06-14",
+        "fof-geoip.forum.map_modal.not_enough_data": "2026-06-14",
+        "fof-geoip.forum.map_modal.organization": "2026-06-14",
+        "fof-geoip.forum.map_modal.threat_level": "2026-06-14",
+        "fof-geoip.forum.map_modal.threat_types": "2026-06-14",
+        "fof-geoip.forum.map_modal.title": "2026-06-14",
+        "fof-geoip.forum.map_modal.zip_code": "2026-06-14"
+    },
+    "fof-links": {
+        "fof-links.admin.edit_link.internal_link": "2026-09-20",
+        "fof-links.admin.edit_link.url_description": "2026-09-20",
+        "fof-links.admin.edit_link.url_placeholder": "2026-09-20"
+    },
     "fof-masquerade": {
         "fof-masquerade.admin.fields.add": "2026-04-12",
         "fof-masquerade.admin.general-options": "2026-04-26"
@@ -20,12 +83,26 @@
     "fof-reactions": {
         "fof-reactions.admin.page.settings.save_settings": "2026-03-29"
     },
+    "fof-upload": {
+        "fof-upload.admin.help_texts.s3_compatible_storage": "2026-08-16",
+        "fof-upload.admin.labels.preferences.php_ini_values": "2026-08-16",
+        "fof-upload.admin.labels.preferences.title": "2026-08-16"
+    },
+    "fof-user-directory": {
+        "fof-user-directory.lib.sort.least_posts": "2026-08-16",
+        "fof-user-directory.lib.sort.most_posts": "2026-08-16"
+    },
     "ianm-html-head": {
         "ianm-html-head.admin.modal.header_label": "2026-04-19",
         "ianm-html-head.admin.modal.text": "2026-04-19",
         "ianm-html-head.admin.table.header_label": "2026-04-19"
     },
     "walsgit-recycle-bin": {
+        "walsgit-recycle-bin.admin.delete_tooltip": "2026-10-18",
+        "walsgit-recycle-bin.admin.discussion_link_tooltip": "2026-10-18",
+        "walsgit-recycle-bin.admin.empty_list": "2026-10-18",
+        "walsgit-recycle-bin.admin.hidden_discussions": "2026-10-18",
+        "walsgit-recycle-bin.admin.restore_tooltip": "2026-10-18",
         "walsgit-recycle-bin.admin.unknownn_user": "2026-05-17"
     }
 }

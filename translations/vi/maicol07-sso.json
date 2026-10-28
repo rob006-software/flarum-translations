@@ -8,9 +8,9 @@
                 "client_name_help": "Tên của phiên bản Flarum",
                 "client_url": "URL",
                 "client_url_help": "URL của phiên bản Flarum",
-                "client_api_key": "Mã khoá API",
-                "client_api_key_help": "Mã khoá API của phiên bản Flarum của bạn.",
-                "client_password_token": "Mật khẩu mã token",
+                "client_api_key": "Khóa API",
+                "client_api_key_help": "Khóa API từ phiên bản Flarum của bạn.",
+                "client_password_token": "Mã token mật khẩu",
                 "client_password_token_help": "Một mã token mật khẩu ngẫu nhiên để sử dụng với các lần đăng ký phiên bản Flarum.",
                 "client_verify_ssl": "Xác thực SSL",
                 "client_verify_ssl_help": "Xác minh trạng thái SSL của phiên bản Flarum khi thực hiện yêu cầu đối với nó (được khuyến nghị).",
@@ -19,17 +19,17 @@
                 "logout_url": "URL đăng xuất",
                 "remove_login_btn": "Xóa nút đăng nhập",
                 "remove_signup_btn": "Xóa nút đăng ký",
-                "manage_account_url": "Quản lí URL tài khoản",
-                "manage_account_btn_open_in_new_tab": "Mở Quản lý tài khoản trong một tab mới",
+                "manage_account_url": "URL quản lý tài khoản",
+                "manage_account_btn_open_in_new_tab": "Mở trang quản lý tài khoản trong tab mới",
                 "cookies_prefix": "Tiền tố tên cookie",
                 "jwt_section_subtitle": "Cài đặt JWT Addon",
                 "jwt_iss": "Miền Issuer",
-                "jwt_signer_key": "Khóa Signer",
-                "jwt_signing_algorithm": "Phương thức Signing"
+                "jwt_signer_key": "Khóa ký (Signer key)",
+                "jwt_signing_algorithm": "Phương thức ký"
             }
         },
         "forum": {
-            "manage_account_btn": "Quản lí tài khoản",
+            "manage_account_btn": "Quản lý tài khoản",
             "no_login_url_error": "Không có URL đăng nhập nào được thiết lập, vui lòng kiểm tra cài đặt SSO!"
         }
     }

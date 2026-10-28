@@ -1,0 +1,20 @@
+{
+    "ernestdefoe-tributary": {
+        "forum": {
+            "reply_to": "Reply in thread",
+            "in_reply_to": "In reply to {username}",
+            "reply_count": "{count, plural, one {# reply} other {# replies}}",
+            "branch_empty": "Nothing here any more.",
+            "reply_context": "Level {depth}, in reply to {username}.",
+            "load_more": "Show more replies",
+            "answering": "Answering {username}",
+            "answering_cancel": "Reply to the discussion instead"
+        },
+        "api": {
+            "parent_not_post": "That is not a post.",
+            "parent_gone": "That post is not here any more.",
+            "parent_other_discussion": "A reply can only answer a post in the same discussion.",
+            "parent_unavailable": "That post is not available."
+        }
+    }
+}

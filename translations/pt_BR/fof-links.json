@@ -2,42 +2,88 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "Apagar Link",
-                "delete_link_confirmation": "Você tem certeza que quer apagar esse link?",
-                "internal_link": "É um link interno?",
-                "open_newtab": "Abrir link em uma nova aba",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
+                "title_child": "Novo link abaixo de {parent}",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "icon_additional_text": "",
-                "url_description": "Deixe em branco para mostrar como um rótulo.",
-                "url_label": "=> fof-links.ref.url",
-                "url_placeholder": "=> fof-links.ref.url",
-                "use_rel_me": "",
-                "visibility": {
-                    "help": "",
-                    "help-disabled": "",
-                    "label": "",
-                    "guest-only": {
-                        "label": "",
-                        "help": ""
+                "icon_additional_text": "Se quiser usar um ícone de marca, o prefixo é <code>fab fa-</code>.",
+                "type": {
+                    "heading": "O que este link faz",
+                    "internal": {
+                        "label": "Leva a uma página deste fórum",
+                        "help": "Abre sem recarregar a página."
+                    },
+                    "external": {
+                        "label": "Leva a outro site",
+                        "help": "Abre um endereço fora deste fórum."
+                    },
+                    "label": {
+                        "label": "Não leva a lugar nenhum",
+                        "help": "Exibido como um rótulo. Use para dar nome a um grupo de links."
                     }
-                }
+                },
+                "url_label": "=> fof-links.ref.url",
+                "url_help": {
+                    "internal": "A parte do endereço depois de {baseUrl}, começando com uma barra.",
+                    "external": "O endereço completo, incluindo <code>https://</code>."
+                },
+                "url_placeholder": "=> fof-links.ref.url",
+                "options_label": "Opções",
+                "open_newtab": "Abrir em uma nova aba",
+                "use_rel_me": "Adicionar um atributo <code>rel=\"me\"</code>",
+                "use_rel_me_help": "Permite que o site de destino do link verifique que este fórum é seu.",
+                "visibility": {
+                    "label": "Quem pode ver",
+                    "help": "Um novo link é visível apenas para usuários {admin}. Ajuste a permissão para ampliar isso.",
+                    "help-disabled": "Salve o link antes de escolher quem pode vê-lo.",
+                    "guest-only": {
+                        "label": "Mostrar apenas para {guest}",
+                        "help": "Usuários autenticados não verão este link. A permissão acima deve estar definida como {everyone}."
+                    }
+                },
+                "submit_button": "=> core.ref.save_changes",
+                "delete_link_button": "Excluir link",
+                "delete_link_confirmation": "Tem certeza de que deseja excluir “{title}”?",
+                "url_placeholder.internal": "/tags",
+                "url_placeholder.external": "https://example.com",
+                "internal_link": "É um link interno?",
+                "url_description": "Deixe em branco para mostrar como um rótulo."
             },
             "links": {
-                "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": ""
+                "description": "Eles aparecem na navegação do fórum, na ordem em que estão listados aqui.",
+                "create_button": "=> fof-links.ref.create_link",
+                "preconfigured": "Os links deste fórum foram pré-configurados no código e não podem ser editados aqui.",
+                "no_url": "Sem link, exibido como rótulo",
+                "reorder_help": "Arraste um link pela alça para reordená-lo, ou solte-o sobre outro para aninhá-lo abaixo. Com uma alça em foco, as setas do teclado fazem o mesmo.",
+                "reorder_loading": "Preparando a lista para reordenação…",
+                "reorder_accessible_label": "Reordenar {title}. Use as setas para mover para cima, para baixo, para dentro do link acima ou para fora.",
+                "edit_accessible_label": "Editar {title}",
+                "add_child_accessible_label": "Adicionar um link abaixo de {title}",
+                "audience_everyone": "Visível para todos",
+                "flag": {
+                    "new_tab": "Nova aba",
+                    "rel_me": "rel=\"me\"",
+                    "guest_only": "Apenas convidados"
+                },
+                "moved": "{title} movido para a posição {position} de {total}.",
+                "moved_under": "{title} movido para abaixo de {parent}, posição {position} de {total}."
             },
             "settings": {
-                "show_icons_only_on_tablet": ""
+                "heading": "Configurações",
+                "show_icons_only_on_tablet": "Mostrar apenas ícones em telas de tablet",
+                "show_icons_only_on_tablet_help": "Oculta os títulos dos links entre 768px e 991px de largura, onde a navegação tem menos espaço. Os títulos continuam sendo anunciados por leitores de tela."
+            }
+        },
+        "forum": {
+            "header": {
+                "toggle_dropdown_accessible_label": "Mostrar os links abaixo de {title}"
             }
         },
         "ref": {
-            "create_link": "Criar link",
+            "create_link": "Criar Link",
             "links": "Links",
             "title": "Título",
             "url": "URL"

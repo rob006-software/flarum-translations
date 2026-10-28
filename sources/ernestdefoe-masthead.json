@@ -1,0 +1,202 @@
+{
+    "ernestdefoe-masthead": {
+        "forum": {
+            "compose": "Start a discussion",
+            "strip": {
+                "online": "{count, plural, one {# member online} other {# members online}}"
+            },
+            "nav": {
+                "home": "Home"
+            },
+            "hero": {
+                "label": "Featured",
+                "kicker": "Feature",
+                "kicker_tag": "Feature · {tag}",
+                "byline": "By {name}",
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "empty_tag": "No discussions in {tag} yet. Tag one to feature it here; visitors see no featured block until then.",
+                "empty_tag_gone": "The tag chosen for the featured stories no longer exists. Choose another; visitors see no featured block until then.",
+                "empty_sticky": "No sticky discussions yet. Sticky one to feature it here; visitors see no featured block until then.",
+                "empty_pagebuilder": "No published {type} in Page Builder yet. Publish one to feature it here; visitors see no featured block until then.",
+                "empty_settings": "Featured stories settings"
+            },
+            "browse": {
+                "title": "Browse the forum",
+                "subtags": "Subtags",
+                "last_post": "Latest: {title}",
+                "all": "All sections",
+                "count": "{count, plural, one {# discussion} other {# discussions}}",
+                "latest": "latest {time}"
+            },
+            "latest": {
+                "title": "Latest discussions",
+                "tab_latest": "Latest",
+                "tab_top": "Top this week",
+                "empty_latest": "No discussions yet. Be the first to start one.",
+                "empty_top": "Nothing new this week yet.",
+                "all": "View all discussions",
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "replies_label": "{count, plural, one {reply} other {replies}}"
+            },
+            "top_posters": {
+                "title": "Top posters this week",
+                "posts": "{count, plural, one {# post} other {# posts}}",
+                "empty": "Nobody has posted this week yet."
+            },
+            "games": {
+                "title": "Upcoming games",
+                "at": "@ {team}",
+                "live": "Live",
+                "cta": "Make your picks"
+            },
+            "footer": {
+                "label": "Footer",
+                "powered_by": "Powered by Flarum"
+            },
+            "topic": {
+                "breadcrumb": "Breadcrumb",
+                "forum": "Forum",
+                "deleted_user": "[deleted]",
+                "read_time": "{count} min read",
+                "participants": "{count, plural, one {# participant} other {# participants}}",
+                "jump_best": "Jump to best answer",
+                "jump_best_short": "Best answer ›",
+                "copy_link": "Copy link",
+                "link_copied": "Link copied.",
+                "share": "Share",
+                "discussion_heading": "Discussion · {count, plural, one {# reply} other {# replies}}",
+                "reply": "Reply",
+                "about": "About this discussion",
+                "started": "Started",
+                "last_reply": "Last reply",
+                "replies": "Replies",
+                "participants_label": "Participants",
+                "more_in": "More in {tag}"
+            }
+        },
+        "admin": {
+            "section": {
+                "home": "Home page",
+                "look": "Look",
+                "hero": "Featured stories",
+                "footer": "Footer"
+            },
+            "home": {
+                "label": "What the home page shows",
+                "help": "The portal is Masthead's front page. Choose the discussion list to keep Flarum's own index as the home page; the portal stays at /portal. This is the same setting as Home page in Basics.",
+                "portal": "The portal",
+                "list": "The discussion list",
+                "other": "Another page (chosen in Basics)"
+            },
+            "preset": {
+                "label": "Preset",
+                "help": "A preset sets the accent, the masthead colour, the featured-story layout and the corners at once. Anything you change below is kept when you switch presets.",
+                "gameday": "Game Day",
+                "gameday_desc": "Navy and red, full-width feature",
+                "sunday": "Sunday",
+                "sunday_desc": "Charcoal and orange, split feature",
+                "evergreen": "Evergreen",
+                "evergreen_desc": "Forest green, full-width feature",
+                "royal": "Royal",
+                "royal_desc": "Midnight and purple, full-width feature",
+                "broadsheet": "Broadsheet",
+                "broadsheet_desc": "Black and red, square corners"
+            },
+            "accent": {
+                "label": "Accent colour",
+                "help": "The rule under the masthead, the kickers and the main buttons. Flarum's primary colour follows Appearance, including its dark-mode variant.",
+                "preset": "From the preset",
+                "red": "Red",
+                "orange": "Orange",
+                "green": "Green",
+                "purple": "Purple",
+                "primary": "Flarum's primary colour",
+                "custom": "Custom"
+            },
+            "colour": {
+                "hex": "Hex colour, such as #0e2340"
+            },
+            "bar": {
+                "label": "Masthead colour",
+                "help": "The header's background. Unless you set the strip below, the utility strip above it is drawn a shade darker.",
+                "reset": "Use the preset's colour",
+                "using_default": "Using the preset's colour."
+            },
+            "strip": {
+                "label": "Utility strip colour",
+                "help": "The thin bar above the header, with the date and the sign-in links. Leave empty to draw it a shade darker than the masthead.",
+                "reset": "Derive it from the masthead",
+                "using_default": "Derived from the masthead colour."
+            },
+            "ground": {
+                "label": "Page background (light mode)",
+                "help": "The colour the white cards sit on.",
+                "reset": "Use the default grey",
+                "using_default": "Using the default grey."
+            },
+            "ground_dark": {
+                "label": "Page background (dark mode)",
+                "help": "The colour the cards sit on in dark mode. Leave empty to follow Flarum's own dark background, a shade darker.",
+                "reset": "Follow Flarum's dark background",
+                "using_default": "Following Flarum's dark background."
+            },
+            "brand": {
+                "tagline_label": "Tagline",
+                "tagline_help": "A short line under the forum's name, such as \"College football community\". Leave empty for none.",
+                "monogram_label": "Monogram",
+                "monogram_help": "Up to three characters in the tile beside the name, shown when no logo is uploaded (Appearance → Logo). Leave empty to use the forum name's initials.",
+                "show_name_label": "Show the forum name beside the logo",
+                "show_name_help": "Off by default, because most logos already contain the name. Without a logo the name always shows. The masthead is dark in both colour modes, so it uses your dark-mode logo (Appearance) when you have uploaded one.",
+                "fonts_label": "Use the theme's fonts",
+                "fonts_help": "Barlow Condensed for headings and Figtree for text, served from your own forum. Turn off to use the reader's system fonts instead."
+            },
+            "hero": {
+                "style_label": "Layout",
+                "style_help": "How the featured story sits. Full width puts the headline over the picture; split puts them side by side.",
+                "style_preset": "From the preset",
+                "style_overlay": "Full width",
+                "style_split": "Split",
+                "style_off": "No featured stories",
+                "source_label": "Stories from",
+                "source_help": "Where the featured story and the three beside it come from. Only that source is featured; with none yet, visitors see no featured block.",
+                "source_latest": "The newest discussions",
+                "source_tag": "A tag",
+                "source_sticky": "Sticky discussions",
+                "source_pagebuilder": "Page Builder articles",
+                "tag_label": "Tag",
+                "tag_none": "Choose a tag",
+                "tag_secondary": "{name} (secondary)",
+                "fill_label": "Fill the gaps with the newest discussions",
+                "fill_help": "Off, a source with fewer than four shows only what it has. On, the newest discussions fill the rest, from any tag.",
+                "tags_label": "Show the tag on each story",
+                "tags_help": "The tag name on the featured story's label and above each story beside it. Turn off for a cleaner hero; the stories keep their tag colours.",
+                "type_label": "Page Builder content type",
+                "type_help": "The slug of the content type whose records are featured, such as articles."
+            },
+            "pictures": {
+                "label": "Pictures",
+                "help": "The pictures on the featured stories and the wide banner at the top of a discussion. A story's own picture is the first one in its opening post (or a Page Builder article's cover); Backdrop is the author's profile cover, from the Backdrop extension. A story with no picture shows its tag-coloured stripes.",
+                "both": "Its own picture, else the author's Backdrop cover",
+                "image": "Its own picture only",
+                "backdrop": "The author's Backdrop cover only",
+                "off": "No pictures"
+            },
+            "portal": {
+                "tag_count_label": "Sections in the grid",
+                "tag_count_help": "How many top-level tags the Browse the forum grid shows before All sections.",
+                "tags_page_label": "Draw the Tags page as section tiles",
+                "tags_page_help": "The Tags page (/tags) uses the same tiles as Browse the forum on the home page, with each section's subtags and latest discussion. Turn off to keep Flarum's own coloured tiles."
+            },
+            "footer": {
+                "label": "Footer links",
+                "help": "Links shown in the footer of every page. An address can be a path on this forum (/p/1-rules), a web address, a mailto link, or # for a placeholder link that goes nowhere (#name scrolls to that part of the page). Drag to reorder.",
+                "name": "Name",
+                "url": "Address",
+                "url_placeholder": "/p/1-about or https://…",
+                "remove": "Remove this link",
+                "add": "Add a link",
+                "powered_by_label": "Show \"Powered by Flarum\""
+            }
+        }
+    }
+}

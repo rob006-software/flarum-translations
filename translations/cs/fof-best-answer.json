@@ -11,8 +11,8 @@
                     "tags": "",
                     "general": "Obecné",
                     "reminders": "Připomínky",
-                    "advanced": "Pokročilé",
-                    "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum."
+                    "reminders_notice": "Aby připomínky fungovaly, je třeba správně nastavit plánovač (scheduler) Flarum.",
+                    "advanced": "Pokročilé"
                 },
                 "show_max_lines_label": "Maximální počet řádků, který se zobrazí v náhledu příspěvku",
                 "show_max_lines_help": "Nastavením na 0 vypnete. Pokud je příspěvek delší než nastavený počet řádků, bude v náhledu příspěvku zkrácen s efektem vyblednutí.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Po uplynutí stanoveného počtu dní zaslat autorovi diskuze připomínku, aby vybral nejlepší odpověď. Nastavením hodnoty na 0 připomenutí zakážete.",
                 "select_best_answer_tags_label": "Štítky pro diskuzi s nejlepší odpovědí",
                 "select_best_answer_tags_help": "Vyberte, které štítky mají být přidány do diskuze, když je u ní nastavena Nejlepší odpověď. Povoleny jsou pouze vedlejší štítky. Tyto štítky budou z diskuze odstraněny, pokud je u diskuze Nejlepší odpověď odstraněna.",
-                "schedule_on_one_server": "Používat direktivu \"onOneServer()\" pro plánovač úloh",
-                "schedule_on_one_server_help": "Vyžaduje Redis/Memcache",
                 "schedule_stop_overnight": "Zabránit zasílání oznámení s připomínkami v mimopracovní době",
                 "schedule_stop_overnight_help": "21:00 - 8:00 hodin času serveru",
                 "schedule_log_output": "Připojit výstup plánovače (scheduler) do úložiště protokolu (logu)",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Zobrazit rozbalovací filtr s/bez Nejlepší odpovědí",
                 "show_filter_help": "U štítků, kde je povolena možnost Nejlepší odpovědi, zvolte v seznamu diskuzí zobrazení filtru vyřešené/nevyřešené",
                 "use_alt_ui": "Alternativní uspořádání",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "",
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "discussion_sidebar_jump_button_help": "",
+                "schedule_on_one_server": "Používat direktivu \"onOneServer()\" pro plánovač úloh",
+                "schedule_on_one_server_help": "Vyžaduje Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Povolit nastavení Nejlepší odpovědi v tomto štítku",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Nelze položit otázku",
                 "solved_link": "Vyřešené diskuze",
                 "unsolved_link": "Nevyřešené diskuze"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Všechny otázky",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +120,16 @@
             "sort": {
                 "most_best_answers": "Nejvíce nejlepších odpovědí",
                 "least_best_answers": "Nejméně nejlepších odpovědí"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "",
+                    "best_answer_unset": ""
+                }
             }
         }
     }

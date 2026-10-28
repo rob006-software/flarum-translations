@@ -2,18 +2,22 @@
     "tryhackx-topic-rating": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
+                "enabled_label": "เปิดใช้การให้คะแนน Topic",
+                "enabled_help": "อนุญาตให้ผู้ใช้ให้คะแนนโพสต์ด้วยระบบ 5 ดาว",
                 "show_on_list_label": "",
                 "show_on_list_help": "",
                 "rate_on_list_label": "",
                 "rate_on_list_help": "",
                 "hide_empty_for_nonvoters_label": "",
                 "hide_empty_for_nonvoters_help": "",
-                "allow_unactivated_label": "",
-                "allow_unactivated_help": "",
+                "allow_unactivated_label": "อนุญาตให้บัญชีที่ยังไม่ยืนยันให้คะแนนได้",
+                "allow_unactivated_help": "เมื่อเปิดใช้ ผู้ใช้ที่ยังไม่ยืนยันอีเมลก็สามารถให้คะแนนโพสต์ได้",
                 "show_moderation_controls_label": "",
                 "show_moderation_controls_help": "",
+                "realtime_enabled_label": "",
+                "realtime_enabled_help": "",
+                "poll_interval_label": "",
+                "poll_interval_help": "",
                 "tag_config_label": "",
                 "tag_config_help": "",
                 "tag_admin_note": "",
@@ -33,6 +37,7 @@
                 "tag_collapse_all": "",
                 "tags_unavailable": "",
                 "tags_empty": "",
+                "tags_load_error": "",
                 "untagged_enabled_label": "",
                 "untagged_enabled_help": "",
                 "secondary_solo_title": "",
@@ -59,50 +64,80 @@
                 "single_clickable_label": "",
                 "single_clickable_help": "",
                 "single_modal_rate_label": "",
-                "single_modal_rate_help": ""
+                "single_modal_rate_help": "",
+                "author_mode_heading": "",
+                "author_mode_label": "",
+                "author_mode_help": "",
+                "author_mode_default": "",
+                "author_mode_exclude": "",
+                "author_mode_separate": "",
+                "author_mode_author_only": "",
+                "author_mode_hint_default": "",
+                "author_mode_hint_exclude": "",
+                "author_mode_hint_separate": "",
+                "author_mode_hint_author_only": "",
+                "author_mode_tags_label": "",
+                "author_mode_tags_help": "",
+                "author_mode_tags_none": "",
+                "author_mode_tags_some": ""
             },
             "permissions": {
-                "rate_label": "",
-                "toggle_label": "",
-                "reset_label": ""
+                "rate_label": "ให้คะแนนโพสต์",
+                "toggle_label": "เปิด/ปิดการให้คะแนนในโพสต์",
+                "reset_label": "รีเซ็ตคะแนนทั้งหมดในโพสต์"
             },
             "support": {
-                "button": "",
-                "title": "",
-                "description": "",
-                "copy": "",
-                "thanks": ""
+                "button": "สนับสนุนการพัฒนา",
+                "title": "สนับสนุน Extension นี้",
+                "description": "ถ้า extension นี้มีประโยชน์สำหรับคุณ กรุณาพิจารณาสนับสนุนการพัฒนาด้วยการบริจาคเล็กน้อย ทุกการมีส่วนร่วมช่วยให้โปรเจกต์ดำเนินต่อไปได้",
+                "copy": "คัดลอกที่อยู่",
+                "thanks": "ขอบคุณสำหรับการสนับสนุน!"
             }
         },
         "forum": {
             "tooltip": {
-                "login_required": "",
-                "activation_required": "",
-                "rate_this": "",
-                "rate_first": "",
-                "your_rating": "",
-                "restricted": ""
+                "login_required": "คุณต้อง login เพื่อให้คะแนน",
+                "activation_required": "คุณต้องยืนยันบัญชีเพื่อให้คะแนน",
+                "rate_this": "ให้คะแนน topic นี้",
+                "rate_first": "เป็นคนแรกที่ให้คะแนน!",
+                "your_rating": "คะแนนของคุณ:",
+                "restricted": "",
+                "your_rating_as_author": "",
+                "rate_as_author": "",
+                "author_only": "",
+                "author_only_unrated": "",
+                "own_topic": ""
             },
-            "rating_count": "",
+            "rating_count": "คะแนน: {count}",
+            "author_badge": {
+                "label": "",
+                "title": "",
+                "score_label": ""
+            },
             "last_rated": "",
             "rating_restricted_message": "",
             "controls": {
-                "enable_rating": "",
-                "disable_rating": "",
-                "reset_ratings": ""
+                "enable_rating": "เปิดใช้การให้คะแนน",
+                "disable_rating": "ปิดใช้การให้คะแนน",
+                "reset_ratings": "รีเซ็ตคะแนนทั้งหมด"
             },
             "reset_modal": {
-                "title": "",
-                "message": "",
-                "confirm": "",
-                "cancel": ""
+                "title": "รีเซ็ตคะแนนทั้งหมด",
+                "message": "คุณแน่ใจหรือไม่ว่าต้องการลบคะแนน {count} รายการของโพสต์นี้? การดำเนินการนี้ไม่สามารถยกเลิกได้",
+                "confirm": "รีเซ็ตคะแนน",
+                "cancel": "ยกเลิก"
             },
             "ratings_modal": {
-                "title": "",
-                "empty": "",
-                "deleted_user": "",
-                "updated_prefix": ""
+                "title": "คะแนน ({count})",
+                "empty": "ยังไม่มีคะแนน",
+                "deleted_user": "[ลบแล้ว]",
+                "updated_prefix": "อัปเดต ",
+                "author_tag": ""
             }
+        },
+        "api": {
+            "rating_out_of_range": "",
+            "rating_disabled": ""
         }
     },
     "tryhackx-avatars": {

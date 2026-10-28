@@ -184,6 +184,27 @@
                 "export-ready": ""
             },
             "export_file": ""
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "",
+                "text": "",
+                "submit_button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "",
+                    "gdpr_erasure_confirmed": "",
+                    "gdpr_erasure_cancelled": "",
+                    "gdpr_anonymized": "",
+                    "gdpr_deleted": "",
+                    "gdpr_exported": ""
+                }
+            }
         }
     }
 }

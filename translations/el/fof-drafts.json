@@ -12,6 +12,9 @@
                 "schedule_log_output": "Προσάρτηση εξόδου προγραμματιστή στα logs καταγραφής"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "Τα προγραμματισμένα πρόχειρα είναι απενεργοποιημένα στις ρυθμίσεις.",
             "no_title_error": ""
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "Ενεργοποίηση αυτόματης αποθήκευσης δημοσίευσης στα πρόχειρα;",
                     "draft_autosave_interval_label": "Διάστημα αυτόματης αποθήκευσης (δευτερόλεπτα)",
                     "draft_autosave_interval_button": "Διάστημα ανανέωσης",
-                    "draft_autosave_interval_invalid": "Το διαστήμα πρέπει να είναι ένας αριθμός μεγαλύτερος από 4."
+                    "draft_autosave_interval_invalid": "Το διαστήμα πρέπει να είναι ένας αριθμός μεγαλύτερος από 4.",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }

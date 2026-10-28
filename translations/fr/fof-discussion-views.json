@@ -1,9 +1,19 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "Populaire",
+            "least_viewed": "Impopulaire"
+        },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "Populaire",
-                "least_viewed_button": "Impopulaire"
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
+            }
+        },
+        "lib": {
+            "index_sort": {
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
@@ -24,7 +34,9 @@
                 "reset_views_label": "Définir les vues de la discussion"
             },
             "settings": {
-                "ignore_crawlers": "Ignorer les visites des robots"
+                "ignore_crawlers": "Ignorer les visites des robots",
+                "dedupe_ttl": "Nombre de secondes avant qu'un visiteur ne soit à nouveau comptabilisé",
+                "dedupe_ttl_help": "Durée pendant laquelle un visiteur est mémorisé après avoir consulté une discussion, afin que le rafraîchissement de la page ou le retour sur cette discussion ne soit pas comptabilisé à nouveau. Définissez cette valeur sur 0 pour comptabiliser chaque consultation."
             }
         },
         "lib": {

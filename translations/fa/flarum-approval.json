@@ -21,5 +21,17 @@
         "ref": {
             "awaiting_approval": "در انتظار تأیید شدن"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "{discussion} تأیید شد"
+                },
+                "post": {
+                    "approved": "{post} {postuser} در {discussion} تایید شد"
+                }
+            }
+        }
     }
 }

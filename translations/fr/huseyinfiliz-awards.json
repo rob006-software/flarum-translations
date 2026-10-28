@@ -60,12 +60,14 @@
                 "description_help": "Courte description affichée sous le nom (facultatif)",
                 "image": "Image",
                 "image_url": "URL de l'image",
-                "image_url_help": "URL vers l'image du nominé (par exemple, couverture du jeu)",
+                "image_url_help": "URL vers l'image du nominé (p. ex. couverture du jeu)",
+                "website_url": "Site internet / URL du lien",
+                "website_url_help": "URL externe pour ce nominé (doit commencer par http:// ou https://)",
                 "adjust_votes": "Ajuster les votes",
                 "vote_adjustment_title": "Ajustement du vote",
                 "real_votes": "Votes réels",
                 "adjustment": "Ajustement",
-                "adjustment_help": "Entrez un nombre positif ou négatif pour ajuster le nombre de votes affiché.",
+                "adjustment_help": "Saisissez un nombre positif ou négatif pour ajuster le nombre de votes affiché.",
                 "displayed_votes": "Votes affichés",
                 "reset": "Réinitialiser",
                 "reset_adjustment": "Réinitialiser l'ajustement à 0",
@@ -86,7 +88,7 @@
                 "approve_confirm": "Créer un nouveau nominé ? L'utilisateur votera automatiquement pour lui.",
                 "reject_confirm": "Rejeter cette suggestion ?",
                 "merge_title": "Fusionner la suggestion",
-                "merge_info": "Fusionner « {nom} » avec un nominé existant. Le vote de l'utilisateur sera pris en compte pour ce nominé.",
+                "merge_info": "Fusionner « {name} » avec un nominé existant. Le vote de l'utilisateur sera pris en compte pour ce nominé.",
                 "select_nominee_label": "Sélectionner le nominé",
                 "select_nominee_placeholder": "-- Sélectionner un nominé --",
                 "no_nominees": "Il n'y a aucun nominé dans cette catégorie pouvant être fusionné."
@@ -96,7 +98,7 @@
                 "nav_title": "Titre de navigation",
                 "nav_title_help": "Texte affiché dans la barre de navigation latérale",
                 "nav_icon": "Icône de navigation",
-                "nav_icon_help": "Classe d'icône Font Awesome (par exemple, fas fa-trophy, fas fa-award, fas fa-star)",
+                "nav_icon_help": "Classe d'icône Font Awesome (p. ex. : fas fa-trophy, fas fa-award, fas fa-star)",
                 "votes_per_category": "Votes par catégorie",
                 "votes_per_category_help": "0 pour illimité, 1 pour un seul vote (modifiable), >1 pour plusieurs votes."
             },
@@ -133,7 +135,7 @@
                 "voting_closed": "Le vote est clos",
                 "ended": "Le vote est terminé",
                 "ends_in_days": "Le vote se termine dans {days} jours",
-                "ends_in_hours": "Le vote se termine dans {heures} heures",
+                "ends_in_hours": "Le vote se termine dans {hours} heures",
                 "ends_soon": "Le vote se termine bientôt",
                 "vote_saved": "Votre vote a été enregistré !",
                 "vote_removed": "Votre vote a été supprimé."
@@ -143,7 +145,7 @@
                 "summary": "Vous avez voté dans {voted}/{total} catégories",
                 "total_votes": "{count} votes au total",
                 "last_vote": "Dernier vote : {time}",
-                "votes_used": "{utilisé}/{limite} votes utilisés",
+                "votes_used": "{used}/{limit} votes utilisés",
                 "votes_unlimited": "{count} votes",
                 "change": "Modifier",
                 "remove": "Supprimer",
@@ -159,7 +161,7 @@
                 "next": "Suivant"
             },
             "hero": {
-                "countdown": "Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s",
+                "countdown": "Le vote se termine dans : {days}j {hours}h {minutes}m {seconds}s",
                 "voting_ended": "Le vote est terminé",
                 "results_published": "Résultats publiés",
                 "draft_preview": "Aperçu du brouillon",
@@ -187,10 +189,13 @@
                 "votes_used": "{used}/{limit} votes",
                 "votes_unlimited": "{count} votes"
             },
+            "nominee": {
+                "open_link": "Ouvrir le lien dans un nouvel onglet"
+            },
             "other": {
                 "suggest": "Autre suggestion",
                 "click_to_suggest": "Cliquez pour proposer un nominé",
-                "placeholder": "Entrez le nom du nominé...",
+                "placeholder": "Saisissez le nom du nominé...",
                 "submit": "Soumettre la suggestion",
                 "success": "Suggestion soumise ! Elle sera examinée par les modérateurs.",
                 "already_submitted": "Vous avez déjà soumis une suggestion pour cette catégorie.",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.",
                 "vote_quota_exhausted": "Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.",
                 "cannot_delete_processed_suggestion": "Seules les suggestions en attente peuvent être annulées.",
+                "already_voted": "Vous avez déjà voté pour ce nominé.",
                 "not_available": "Cette distinction n'est pas encore disponible."
             }
         },

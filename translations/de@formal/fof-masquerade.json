@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": "Diese Benutzer hat noch keine Profilfelder ausgefüllt."
+            },
             "alerts": {
                 "profile-completion-required": "Bitte fülle die notwendigen Profilfelder unten aus.\n",
                 "profile-completed": "Profil vervollständigt! <a>Weiter zur Startseite</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Feld anlegen",
+                "add-option": "Auswahl hinzufügen",
+                "delete-option": "Auswahl entfernen",
                 "edit-field": "Änderungen speichern",
-                "delete-field": "Feld löschen"
+                "delete-field": "In den Papierkorb verschieben",
+                "restore-field": "Feld „{field}“ wiederherstellen",
+                "delete-field-permanently": "Feld „{field}“ endgültig löschen"
             },
             "permissions": {
                 "edit-others-profile": "Profil anderer Benutzer bearbeiten",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Felder",
+                "trash": "Papierkorb",
                 "create": "Feld erstellen",
                 "edit": "Feld „{field}“ bearbeiten",
-                "delete-confirmation": "Möchtest du das Feld {field} wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "delete-confirmation": "Das Feld „{field}“ in den Papierkorb verschieben?",
+                "delete-permanently-confirmation": "Das Feld „{field}“ und alle darin gespeicherten Antworten endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "is_restricted": "Feldsichtbarkeit einschränken",
+                "permissions": "Feldsichtbarkeit",
+                "permissions-alert": "Berechtigungseinstellungen sind nach der Erstellung des Feldes verfügbar.",
                 "name": "Name des Feldes",
                 "name-help": "Die öffentlich sichtbare (nicht übersetzbare) Feldbezeichnung.\n",
                 "description": "Feld-Beschreibung",
@@ -45,11 +57,11 @@
                 "on_bio": "Inhalt dieses Feldes in der Nutzerbio anzeigen",
                 "type": "Typ",
                 "validation": "Validierung",
-                "validation-help": "Überprüfe die unterstützten <a>Laravel-Validierungsregeln</a>. Z. B.: \"string|min:5\" oder \"url\".\n",
+                "validation-help": "Wende die unterstützten <a>Laravel-Validierungsregeln</a> an. Z. B.: „string|min:5“ oder „url“.\n",
                 "icon": "Symbol",
                 "icon-help": "Zeigt ein Symbol vor den von den Nutzern eingegebenen Werten an. Eine Liste aller verfügbaren Symbole ist auf der <a>FontAwesome Webseite</a> zu finden. Verwende Symbolnamen mit dem „fa-“ Prefix, zum Beispiel „fas fa-info“.\n",
                 "force-user-to-completion": "Ausfüllen des Profils verpflichtend machen",
-                "hide-empty-fields": "Leere Felder verbergen",
+                "hide-empty-fields": "Leere Felder ausblenden",
                 "options": "Optionen",
                 "option-new": "Neue Option",
                 "option-comma-warning": "Die Bezeichnung einer Option darf kein Komma enthalten (\",\").",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "antwort"
+                    "key": "antwort",
+                    "hint": "Werte in Benutzer-Profilfeldern"
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Exportiert die Antworten auf Felder im Nutzerprofil",
                     "delete_description": "Entfernt alle Antworten auf Felder im Nutzerprofil",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "Profilfeld „{name}“ angelegt",
+                    "field_updated": "Profilfeld „{name}“ aktualisiert",
+                    "field_deleted": "Profilfeld „{name}“ gelöscht",
+                    "field_restored": "Profilfeld „{name}“ wiederhergestellt",
+                    "field_permanently_deleted": "Profilfeld „{name}“ endgültig gelöscht",
+                    "profile_updated": "Profilfeld von {username} aktualisiert"
                 }
             }
         }

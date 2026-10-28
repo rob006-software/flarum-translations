@@ -2,18 +2,36 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "",
                 "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "filtering_label": "",
+                "filtering_description": ""
             },
             "settings": {
+                "open_links_in_new_tab_label": "Buka Link di Tab Baru",
+                "open_links_in_new_tab_help": "Selalu buka link pratinjau di tab baru.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Aktifkan Pemrosesan Massal",
                 "enable_batch_requests_help": "Tingkatkan kinerja dengan memproses beberapa pratinjau link secara bersamaan. Apabila dinonaktifkan, tautan akan diproses satu per satu.",
+                "cache_time_label": "Durasi Cache (menit)",
+                "cache_time_help": "Berapa lama menyimpan pratinjau link sebelum melakukan penyegaran. Atur ke 0 untuk menonaktifkan cache. Default: 60 menit.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Daftar Hitam Domain",
                 "blacklist_help": "Tentukan domain atau URL yang tidak boleh menghasilkan pratinjau tautan. Gunakan koma untuk memisahkan beberapa entri.",
                 "blacklist_placeholder": "Contoh: facebook.com, twitter.com/specific-page",
@@ -23,18 +41,21 @@
                 "convert_media_urls_label": "Pratinjau URL Media",
                 "convert_media_urls_help": "Hasilkan pratinjau untuk URL yang mengarah ke file media (gambar, video, dll.).",
                 "use_google_favicons_label": "Tampilkan Ikon Situs",
-                "use_google_favicons_help": "Tampilkan favicon situs web menggunakan layanan Google Favicon untuk meningkatkan pengenalan visual.",
-                "cache_time_label": "Durasi Cache (menit)",
-                "cache_time_help": "Berapa lama menyimpan pratinjau link sebelum melakukan penyegaran. Atur ke 0 untuk menonaktifkan cache. Default: 60 menit.",
-                "open_links_in_new_tab_label": "Buka Link di Tab Baru",
-                "open_links_in_new_tab_help": "Selalu buka link pratinjau di tab baru.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "use_google_favicons_help": "Tampilkan favicon situs web menggunakan layanan Google Favicon untuk meningkatkan pengenalan visual."
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Tidak dapat memuat pratinjau. Silakan periksa URL dan coba lagi."
         }
     }

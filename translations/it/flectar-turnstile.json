@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Non siamo riusciti a verificare se tu sia un robot o meno. Per favore ricarica la pagina e riprova.",
-        "required": ""
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

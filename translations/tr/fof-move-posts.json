@@ -65,5 +65,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "posts": {
+                    "moved": "{post_count, plural, one {Bir gönderi} other {{post_count} gönderi}} {discussion} tartışmasından {new_discussion} tartışmasına taşındı",
+                    "moved_to_new_discussion": "{post_count, plural, one {Bir gönderi} other {{post_count} gönderi}} {discussion} tartışmasından yeni oluşturulan {new_discussion} tartışmasına taşındı"
+                }
+            }
+        }
     }
 }

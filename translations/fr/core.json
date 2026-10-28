@@ -50,6 +50,8 @@
                     "cdn_url_help": "Lien complet vers le fichier CSS de FontAwesome sur un CDN",
                     "kit_url_label": "URL Kit",
                     "kit_url_help": "Lien vers le script du Kit FontAwesome (à partir de l'adresse kit.fontawesome.com)",
+                    "forced_style_label": "Style d'icône imposé",
+                    "forced_style_help": "Forcer chaque icône à adopter un style FontAwesome particulier, par exemple « fa-duotone fa-light » ou « fa-regular ». Cela remplace le style défini par le cœur du système et les extensions (les icônes de marques ne sont jamais modifiées). Votre source d’icônes doit pouvoir fournir ce style : les icônes fournies sont issues de FontAwesome Free, qui ne couvre que quelques centaines d’icônes en dehors du style « solid » ; par conséquent, leur appliquer un autre style rendra la plupart des icônes vides. Tous les styles sont disponibles avec un CDN ou un kit FontAwesome Pro. Laissez ce champ vide pour désactiver cette option.",
                     "config_override": {
                         "label": "Remplacement de configuration",
                         "help": "Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici."
@@ -67,6 +69,10 @@
                     "search_configuration": "Rechercher la configuration à utiliser"
                 },
                 "queue": {
+                    "pause_label": "Mettre en pause le traitement de la file d'attente",
+                    "pause_all_label": "Mettre en pause toutes les files d'attente",
+                    "pause_queue_label": "Mettre en pause la file d'attente {queue}",
+                    "pause_help": "Pendant la pause, les processus cessent de récupérer de nouvelles tâches provenant des files d'attente concernées. Les tâches s'accumulent jusqu'à la reprise du traitement. Les tâches déjà en cours ne sont pas affectées.",
                     "section_label": "File d'attente",
                     "sync_info": "Votre forum utilise un pilote de file d'attente synchrone. Les tâches sont traitées instantanément dans le thread principal.",
                     "sync_help": "Pour améliorer les performances et l'expérience utilisateur, envisagez d'utiliser le pilote de file d'attente de base de données. Pour plus d'informations, consultez la documentation.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Recherche dans la base de données par défaut"
                     },
-                    "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer."
+                    "no_other_drivers": "Aucun pilote de recherche n'est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer.",
+                    "cjk_mode_label": "Optimiser la recherche pour les langues CJK",
+                    "cjk_mode_help": "Activez cette option si votre forum est principalement en chinois, en japonais ou en coréen. La recherche par mot de la base de données ne permet pas de trouver des extraits de texte CJK ; c'est pourquoi le système bascule vers une recherche par sous-chaîne qui rend cela possible. Elle est plus lente sur les forums très volumineux, où la configuration d'un analyseur de texte intégral prenant en charge les langues CJK au niveau de la base de données (tel que l'analyseur « ngram » de MySQL/MariaDB) constitue une alternative plus rapide."
                 },
                 "title": "Avancé"
             },
@@ -111,6 +119,8 @@
                 "edit_css_button": "Modifier le CSS personnalisé",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "Logo du courriel",
+                "email_logo_text": "Transférez une image qui s'affichera en haut de vos courriels. Elle sera enregistrée dans un format compatible avec tous les clients de messagerie. Si vous n'en transférez pas, vos courriels afficheront une copie de votre logo. Si vos courriels affichent le titre du forum à la place de votre logo, transférez à nouveau votre logo.",
                 "enter_hex_message": "Veuillez saisir un code de couleur hexadécimal.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
@@ -118,6 +128,8 @@
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
                 "logo_dark_mode_heading": "Logo en mode sombre",
                 "logo_dark_mode_text": "Transférez une autre image qui sera affichée lorsque le mode sombre est activé.",
+                "show_theme_selector_help": "Permettre aux utilisateurs de basculer entre les thèmes disponibles à l'aide d'un élément de contrôle situé dans l'en-tête.",
+                "show_theme_selector_label": "Afficher le sélecteur de thème",
                 "title": "Apparence",
                 "color_scheme_label": "Thème (par défaut)",
                 "color_schemes": {
@@ -183,20 +195,53 @@
             },
             "announcements": {
                 "comments_label": "{count, plural, one {# commentaire} other {# commentaires}}",
-                "description": "Dernières actualités et annonces de l'équipe Flarum.",
+                "description": "Dernières actualités et annonces de l'équipe de Flarum.",
                 "empty": "Aucune annonce trouvée.",
                 "load_error": "Impossible de charger les annonces. Veuillez réessayer plus tard.",
                 "about": "Dernières actualités et annonces issues de la communauté officielle de Flarum sur discuss.flarum.org.",
                 "hide": "Masquer les annonces",
-                "read_more": "Lire la suite",
+                "read_more": "En savoir plus",
                 "refresh": "Actualiser les annonces",
                 "retry": "Réessayer",
                 "show": "Afficher les annonces",
                 "title": "Annonces",
-                "view_all": "Toutes les annonces sur discuss.flarum.org"
+                "view_all": "Tout afficher sur discuss.flarum.org"
+            },
+            "queue_widget": {
+                "title": "File d'attente",
+                "pending": "En attente",
+                "reserved": "En cours",
+                "failed": "Échec",
+                "refresh": "Actualiser"
+            },
+            "failed_jobs": {
+                "title": "Tâches en échec",
+                "none": "Aucune tâche n'a échoué.",
+                "meta": "File d'attente {queue} · échec {time}",
+                "details": "Informations",
+                "retry": "Réessayer",
+                "retry_all": "Réessayer tout",
+                "delete": "Supprimer"
             },
             "dashboard": {
+                "queue_paused_warning": "Le traitement de la file d'attente est suspendu (file d'attente : {queues}). Les tâches s'accumuleront jusqu'à ce qu'il reprenne.",
+                "queue_paused_all_warning": "Tout le traitement des files d'attente est suspendu. Les tâches s'accumuleront jusqu'à ce qu'il reprenne.",
+                "queue_paused_manage": "Gérer",
                 "clear_cache_button": "Effacer le cache",
+                "clear_cache_modal": {
+                    "title": "Effacer le cache",
+                    "working": "Reconstruction des ressources compilées. Cela peut prendre un certain temps sur les forums de grande taille.",
+                    "cleared": "{name} a été effacé",
+                    "cleared_files": "{name} a été effacé ({count} fichiers)",
+                    "rebuilt": "{bundle} a été reconstruit",
+                    "unchanged": "{bundle} était déjà à jour",
+                    "rewritten": "{bundle} a été réécrit",
+                    "empty": "{bundle} n'a rien à compiler",
+                    "chunks": "Reconstruction des blocs fractionnés pour {frontend} ({count} modifié(s))",
+                    "failed": "Impossible de reconstruire {step} : {message}",
+                    "took": "{time} ms",
+                    "reload_button": "Actualiser"
+                },
                 "description": "Votre forum en un coup d'œil.",
                 "info_button": "Informations système",
                 "info_modal": {
@@ -238,6 +283,14 @@
                 "section_disabled_help": "Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n'en avez plus besoin.",
                 "suggested_by": "Suggérée par {extension}"
             },
+            "database-driver-mismatch-warning": {
+                "detail": "Votre <code>config.php</code> est configuré pour utiliser le pilote de base de données <code>{configured}</code>, mais Flarum a détecté que le serveur de base de données est en réalité <code>{actual}</code>.\n\nL'utilisation d'un pilote incorrect peut entraîner des bugs difficiles à diagnostiquer. Définissez <code>'driver' => ''{actual}''</code> dans la section <code>database</code> de votre <code>config.php</code>. Consultez <link>la documentation Flarum</link> pour plus d'informations.\n",
+                "label": "Incompatibilité du pilote de base de données"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "Votre serveur {server} utilise la version <code>{version}</code>. Cette version est prise en charge, mais Flarum recommande {server} <code>{recommended}</code> ou une version ultérieure pour bénéficier des meilleures performances et rester sur une version maintenue. Consultez la <link>documentation de Flarum</link> pour plus d'informations.\n",
+                "below-recommended-label": "Version de la base de données obsolète"
+            },
             "debug-warning": {
                 "detail": "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n",
                 "label": "Mode débogage actif"
@@ -260,8 +313,8 @@
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nom",
-                "plural_placeholder": "Pluriel (par exemple « modérateurs »)",
-                "singular_placeholder": "Singulier (par exemple « modérateur »)",
+                "plural_placeholder": "Pluriel (p. ex. « Modérateurs »)",
+                "singular_placeholder": "Singulier (p. ex. « Modérateur »)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Créer le groupe"
             },
@@ -313,7 +366,7 @@
             "extension": {
                 "abandoned_no_replacement": "Cette extension n'est plus maintenue par son auteur et pourrait ne plus recevoir de mises à jour.",
                 "abandoned_with_replacement": "Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.",
-                "configure_scopes": "Configurer Scopes",
+                "configure_scopes": "Configurer les champs d'application",
                 "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "database_driver_mismatch": "Cette extension ne prend pas en charge le pilote de base de données que vous avez configuré.",
                 "deprecated": "Obsolète",
@@ -405,6 +458,7 @@
                 "delete_posts_forever_label": "Supprimer définitivement les messages",
                 "delete_posts_label": "Supprimer les messages",
                 "description": "Configurez qui peut voir et faire quoi.",
+                "edit_own_avatar_label": "Modifier son avatar",
                 "edit_posts_label": "Modifier les messages",
                 "edit_users_label": "Modifier les attributs des utilisateurs",
                 "edit_users_credentials_label": "Modifier les identifiants de l'utilisateur",
@@ -416,8 +470,8 @@
                 "participate_heading": "Participer",
                 "post_without_throttle_label": "Répondre plusieurs fois sans attendre",
                 "read_heading": "Lire",
-                "remove_scope_label": "Supprimer la portée de {scope}",
-                "remove_scope_confirmation": "Êtes-vous sûr de vouloir supprimer la plage {scope} ?",
+                "remove_scope_label": "Supprimer le champ d'application {scope}",
+                "remove_scope_confirmation": "Êtes-vous sûr de vouloir supprimer le champ d'application {scope} ?",
                 "rename_discussions_label": "Renommer les discussions",
                 "reply_to_discussions_label": "Répondre aux discussions",
                 "search_users_label": "=> core.ref.search_users",
@@ -570,7 +624,7 @@
             },
             "header": {
                 "admin_button": "Administration",
-                "back_to_index_tooltip": "Revenir à la liste de discussions",
+                "back_to_index_tooltip": "Revenir à la liste de discussion",
                 "locale_dropdown_accessible_label": "Modifier la langue du forum",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
@@ -579,7 +633,8 @@
                 "search_role_label": "Rechercher dans le forum",
                 "session_dropdown_accessible_label": "Afficher le menu déroulant des options de session",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": "Modifier le thème"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,12 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Afficher le menu déroulant de navigation"
             },
             "index_sort": {
-                "latest_button": "Activité",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
-                "toggle_dropdown_accessible_label": "Modifier le tri des listes de discussion",
-                "top_button": "Popularité"
+                "toggle_dropdown_accessible_label": "Modifier l'ordre d'affichage de la liste de discussion",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Mot de passe oublié ?",
@@ -608,6 +665,7 @@
                 "sign_up_text": "Vous n'avez pas de compte ? <a>S'inscrire</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -718,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Quelqu'un renomme une discussion que j'ai démarrée",
+                "reset_notifications_button": "Réinitialiser les paramètres par défaut",
                 "device_heading": "Appareil",
                 "haptic_feedback_help": "Disponible uniquement sur les appareils mobiles pris en charge",
                 "haptic_feedback_label": "Activer le retour haptique",
@@ -768,9 +827,14 @@
             }
         },
         "lib": {
+            "connection_restored_message": "Votre connexion a été rétablie.",
             "debug_button": "Déboguer",
             "alert": {
                 "dismiss_a11y_label": "Rejeter l'alerte"
+            },
+            "assets_updated": {
+                "message": "Une version plus récente de cette page est disponible.",
+                "reload_button": "Actualiser"
             },
             "badge": {
                 "hidden_tooltip": "Masquée"
@@ -804,7 +868,9 @@
                 "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
                 "generic_cross_origin_message": "Oups ! Un problème s'est produit lors d'une demande d'origine croisée. Veuillez recharger la page puis réessayer.",
                 "missing_dependencies_message": "Impossible d'activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}",
+                "network_message": "Il semble y avoir un problème avec votre connexion. Veuillez vérifier votre réseau et réessayer.",
                 "not_found_message": "La ressource demandée est introuvable.",
+                "offline_message": "Vous semblez être hors ligne. Veuillez vérifier votre connexion et réessayer.",
                 "payload_too_large_message": "La charge utile de la requête est trop élevée.",
                 "permission_denied_message": "Vous n'avez pas l'autorisation de faire cela.",
                 "rate_limit_exceeded_message": "Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.",
@@ -849,6 +915,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": "Choisir un groupe"
+            },
             "input": {
                 "clear_button": "Effacer la saisie"
             },
@@ -866,7 +935,8 @@
                 "placeholder": "Sélectionnez plusieurs options"
             },
             "nav": {
-                "drawer_button": "Ouvrir le tiroir de navigation"
+                "drawer_button": "Ouvrir le tiroir de navigation",
+                "pin_pane_button": "Épingler la liste de discussion"
             },
             "notices": {
                 "bisecting": "Exécution d'un processus de bissection des extensions afin de déterminer quelle extension est à l'origine du problème.",
@@ -874,9 +944,21 @@
                 "maintenance_mode_low": "Indisponible pour maintenance. Seuls les administrateurs peuvent accéder au forum.",
                 "maintenance_mode_safe": "Indisponible pour maintenance en mode sans échec. Seuls les administrateurs peuvent accéder au forum et aucune extension n'est lancée."
             },
+            "index_sort": {
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
+            },
             "number_suffix": {
                 "kilo_text": "k",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": "Plus d'éléments"
             },
             "pagination": {
                 "back_button": "Page précédente",
@@ -895,6 +977,7 @@
                 "options_heading": "Options de recherche",
                 "placeholder": "Rechercher...",
                 "preview_heading": "Aperçu de la recherche",
+                "search_active_button_accessible_label": "Modifier la recherche : {query}",
                 "search_clear_button_accessible_label": "Effacer la requête de recherche"
             },
             "search_source": {
@@ -996,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message"
             },
             "reset_password": {
                 "confirm_password_label": "Confirmer le nouveau mot de passe",
@@ -1088,11 +1172,12 @@
             "extensions": "Extensions",
             "generic_confirmation_message": "Êtes-vous sûr de vouloir continuer ? Cette action est irréversible.",
             "icon": "Icône",
-            "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (par exemple <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).",
+            "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (p. ex. : <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).",
             "invalid_login_message": "Vos identifiants de connexion sont incorrects.",
             "light_hc_mode_label": "Mode clair à contraste élevé",
             "light_mode_label": "Mode clair",
             "load_more": "Charger davantage",
+            "latest": "Activité",
             "loading": "Chargement…",
             "log_in": "Se connecter",
             "log_out": "Se déconnecter",
@@ -1122,6 +1207,10 @@
             "sign_up": "S'inscrire",
             "some_others": "{count, plural, one {# autre} other {# autres}}",
             "start_a_discussion": "Nouvelle discussion",
+            "title_az": "Titre (A–Z)",
+            "title_za": "Titre (Z–A)",
+            "too_many_login_attempts_message": "Trop de tentatives de connexion infructueuses. Veuillez patienter quelques minutes, puis réessayez.",
+            "top": "Popularité",
             "username": "Nom d'utilisateur",
             "username_or_email_placeholder": "Nom d'utilisateur ou adresse e-mail",
             "users": "Utilisateurs",

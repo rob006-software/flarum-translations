@@ -58,12 +58,24 @@
                 "linked_post": "Linked Post"
             },
             "warning_modal": {
-                "confirmation_message": "Your warning has been saved. You may need to refresh the page to see it.",
+                "confirmation_message": "Your warning has been saved.",
                 "heading": "Warn <strong>{username}</strong>",
                 "strikes_heading": "How many strikes should be applied?",
                 "public_comment_heading": "Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.",
                 "private_comment_heading": "Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.",
                 "submit_button": "Save warning"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "warning": {
+                    "created": "Warned {username}",
+                    "hidden": "Removed {username}'s warning",
+                    "restored": "Restored {username}'s warning",
+                    "deleted": "Permanently deleted {username}'s warning"
+                }
             }
         }
     }

@@ -185,6 +185,27 @@
                 "export-ready": "Ihr Datenexport für {username} ist bereit zum Download."
             },
             "export_file": "Export der Benutzerdaten für {username} ({email}) erstellt am {date} von {forumTitle} ({url})"
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "Kontolöschung bestätigen",
+                "text": "Bestätige, dass du dein Konto und die darin enthaltenen Daten löschen möchten. Bis deine Anfrage bearbeitet wurde, kannst du diese noch in deinen Einstellungen widerrufen.",
+                "submit_button": "Löschung bestätigen"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "Hat die Löschung der Daten von {username} beantragt",
+                    "gdpr_erasure_confirmed": "Hat die Löschung der Daten von {username} bestätigt",
+                    "gdpr_erasure_cancelled": "Hat den Antrag auf Löschung der Daten von {username} abgebrochen",
+                    "gdpr_anonymized": "Daten von {username} anonymisiert",
+                    "gdpr_deleted": "Daten von {username} gelöscht",
+                    "gdpr_exported": "Daten von {username} exportiert"
+                }
+            }
         }
     }
 }

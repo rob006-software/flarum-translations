@@ -2,7 +2,7 @@
     "ernestdefoe-google-fonts": {
         "admin": {
             "body_font_label": "Schriftart des Fließtextes",
-            "body_font_help": "Die Schriftart, die für Fließtext in deinem Forum verwendet wird. Beginne mit der Eingabe, um die Google Fonts-Bibliothek zu durchsuchen, oder lade deine eigene Schriftart hoch, um sie selbst zu hosten.\n",
+            "body_font_help": "Die Schriftart, die für Fließtext in deinem Forum verwendet wird. Beginne mit der Eingabe, um die <a>Google Fonts-Bibliothek</a> zu durchsuchen, oder lade deine eigene Schriftart hoch, um sie selbst zu hosten.\n",
             "heading_font_label": "Schriftart für Überschriften",
             "heading_font_help": "Die für Überschriften und Titel verwendete Schriftart. Lasse das Feld leer, um die Standardschriftart für den Fließtext beizubehalten.",
             "placeholder": "z. B. Inter, Roboto, Poppins…",
@@ -19,7 +19,26 @@
             "remove_weight": "Diese Schriftstärke entfernen",
             "uploading": "Wird hochgeladen…",
             "only_woff2": "Es werden nur .woff2-Dateien unterstützt. Konvertiere deine Schriftart zunächst in das woff2-Format.",
-            "upload_error": "Hochladen fehlgeschlagen. Bitte versuche es erneut."
+            "upload_error": "Hochladen fehlgeschlagen. Bitte versuche es erneut.",
+            "weight_100": "Dünn",
+            "weight_200": "Extraleicht",
+            "weight_300": "Leicht",
+            "weight_400": "Normal",
+            "weight_500": "Mittel",
+            "weight_600": "Halbfett",
+            "weight_700": "Fett",
+            "weight_800": "Extrafett",
+            "weight_900": "Schwarz"
+        },
+        "api": {
+            "invalid_slot": "Ungültiger Schriftart-Slot.",
+            "invalid_weight": "Ungültige Schriftstärke.",
+            "no_file": "Keine Datei hochgeladen.",
+            "size": "Schriftart muss zwischen 1 Byte und {max} Bytes liegen.",
+            "woff2_only": "Nur .woff2 Schriftart-Dateien sind erlaubt.",
+            "not_woff2": "Datei ist keine gültige WOFF2-Schriftart.",
+            "upload_failed": "Hochladen fehlgeschlagen.",
+            "delete_failed": "Löschen fehlgeschlagen."
         }
     }
 }

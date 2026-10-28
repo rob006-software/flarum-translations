@@ -3,15 +3,21 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
+                "app_cluster_help": "",
                 "app_id_label": "App ID",
+                "app_id_help": "",
                 "app_key_label": "App Key",
+                "app_key_help": "",
                 "app_secret_label": "App Secret",
+                "app_secret_help": "",
+                "server_hostname_label": "",
+                "server_hostname_help": "",
                 "title": "הגדרות Pusher"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "הצגת {count} דיון שעודכן|הצגת {count} דיונים שעודכנו"
+                "show_updates_text": "{count, plural, one {הצגת # דיון שעודכן} other {הצגת # דיונים שעודכנו}}"
             }
         }
     }

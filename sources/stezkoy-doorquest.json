@@ -1,0 +1,87 @@
+{
+    "stezkoy-doorquest": {
+        "forum": {
+            "sign_up": {
+                "question_label": "Question",
+                "answer_placeholder": "Your answer",
+                "invalid_answer": "Incorrect answer. Please try again.",
+                "answer_required": "You must answer the question to register."
+            }
+        },
+        "admin": {
+            "settings": {
+                "heading": "Doorquest Settings",
+                "total_questions": "{count} question(s)",
+                "search": "Search questions...",
+                "create_question_button": "Create Question"
+            },
+            "list": {
+                "heading": "Questions",
+                "columns": {
+                    "id": "ID",
+                    "question": "Question",
+                    "answer": "Answer",
+                    "group": "Group",
+                    "max_uses": "Max Uses",
+                    "activates_user": "Activates",
+                    "uses": "Uses",
+                    "created_by": "Created By",
+                    "manage": "Manage"
+                },
+                "actions": {
+                    "edit": "Edit",
+                    "delete": "Delete"
+                },
+                "content": {
+                    "no_group": "None",
+                    "no_created_by": "—",
+                    "delete": "Are you sure you want to delete the question: \"{question}\"?",
+                    "warning": "Limit reached",
+                    "uses": {
+                        "used_times": "{remainingUses} left",
+                        "total_uses": "Used {totalUses} times"
+                    },
+                    "invalid_column": "—"
+                },
+                "pagination": {
+                    "first_page_button": "First page",
+                    "back_button": "Previous page",
+                    "next_button": "Next page",
+                    "last_page_button": "Last page",
+                    "page_counter": "Page {current} of {total}"
+                }
+            },
+            "modals": {
+                "create_question": {
+                    "title": "Create Question",
+                    "question": {
+                        "label": "Question",
+                        "help": "The question that users will see during registration."
+                    },
+                    "answer": {
+                        "label": "Answer",
+                        "help": "The correct answer (case-insensitive)."
+                    },
+                    "group": {
+                        "label": "Assign to Group",
+                        "help": "Users who answer correctly will be added to this group."
+                    },
+                    "max_uses": {
+                        "label": "Max Uses",
+                        "help": "Maximum number of times this question can be answered. 0 = unlimited."
+                    },
+                    "activates_user": {
+                        "label": "Auto-activate",
+                        "help": "Automatically activate the user without email confirmation."
+                    },
+                    "submit_button": "Create",
+                    "submit_and_create_another_button": "Create and add another"
+                },
+                "edit_question": {
+                    "title": "Edit Question",
+                    "submit_button": "Save Changes"
+                }
+            }
+        }
+    }
+}

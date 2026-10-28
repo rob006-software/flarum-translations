@@ -2,41 +2,41 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "settings": {
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "show_sticky_highlight_label": "",
-                "show_sticky_highlight_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "show_tag_sticky_label": "Hiện các cuộc thảo luận ghim theo thẻ trong Tất cả cuộc thảo luận",
+                "show_tag_sticky_help": "Khi tắt, những cuộc thảo luận được ghim theo thẻ chỉ xuất hiện khi bạn đang xem đúng thẻ đó.",
+                "show_sticky_highlight_label": "Hiện phần làm nổi cho bài ghim",
+                "show_sticky_highlight_help": "Khi bật, những cuộc thảo luận được ghim sẽ có viền trái màu và nền được tô nhẹ trong danh sách thảo luận.",
+                "stickiest_icon_label": "Biểu tượng huy hiệu ghim đặc biệt",
+                "stickiest_icon_help": "Lớp biểu tượng Font Awesome (ví dụ fas fa-star)"
             },
             "permissions": {
-                "stickiest_label": "",
-                "tag_sticky_label": ""
+                "stickiest_label": "Ghim đặc biệt các thảo luận",
+                "tag_sticky_label": "Ghim thảo luận theo thẻ"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "stickiest_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "Ghim",
+                "stickiest_tooltip": "Ghim đặc biệt",
+                "tag_sticky_tooltip": "Ghim theo thẻ"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "Ghim"
             },
             "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+                "title": "Ghim: {title}",
+                "sticky_label": "Ghim",
+                "sticky_help": "Ghim lên đầu trong Tất cả cuộc thảo luận khi chưa đọc, luôn được ghim khi xem theo thẻ.",
+                "stickiest_label": "Ghim đặc biệt",
+                "stickiest_help": "Luôn được ghim lên trên cùng ở mọi nơi.",
+                "tag_sticky_label": "Ghim theo thẻ",
+                "tag_sticky_help": "Chỉ được ghim khi xem những thẻ đã chọn.",
+                "select_tags": "Chọn thẻ",
+                "submit_button": "Lưu thay đổi"
             },
             "post_stream": {
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_stickiest_text": "{username} đã đánh dấu thảo luận là ghim đặc biệt.",
+                "discussion_unstickiest_text": "{username} đã bỏ đánh dấu ghim đặc biệt của thảo luận."
             }
         }
     }

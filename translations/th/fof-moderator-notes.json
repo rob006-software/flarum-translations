@@ -2,33 +2,33 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "สร้างบันทึกบันทึกของผู้ควบคุมบอร์ด (Moderator Notes)",
+                "viewnotes": "เปิดดูบันทึกของผู้ควบคุมบอร์ด",
+                "deletenotes": "ลบบันทึกของผู้ควบคุมบอร์ด"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "ไม่อนุญาตให้สร้างบันทึกที่มีเนื้อหาว่างเปล่า",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": "",
-                "filter_by_me": ""
+                "created_text": "{username} ได้เขียนบันทึกนี้ไว้เมื่อ {date}",
+                "add_button": "สร้างบันทึกใหม่",
+                "create-heading": "สร้างบันทึกของผู้ควบคุมบอร์ดฉบับใหม่",
+                "dismiss_button": "เสร็จสิ้น",
+                "input_heading": "กรอกบันทึกของคุณเกี่ยวกับ <strong>{username}</strong> (รองรับการจัดรูปแบบด้วย Markdown)",
+                "noNotes": "ดูเหมือนว่าจะยังไม่มีบันทึกข้อมูลใดๆ ที่นี่",
+                "submit_button": "บันทึกข้อมูล",
+                "delete": "ลบออก",
+                "confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกข้อความนี้?",
+                "filter_by_me": "แสดงเฉพาะบันทึกที่ฉันเขียนขึ้นเอง"
             },
             "user": {
-                "notes": ""
+                "notes": "บันทึกของผู้ควบคุมบอร์ด"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_ฉันได้สวมบทบาทเข้าใช้งานเป็นผู้ใช้นี้เนื่องจาก:_ {reason}",
+            "auto_note_actor": "_สวมบทบาทเข้าใช้งานเป็น_ @{username} _เนื่องจาก:_ {reason}",
+            "no_reason_provided": "ไม่มีการระบุเหตุผลประกอบ"
         }
     }
 }

@@ -16,7 +16,7 @@
                     "piwikSiteId": "ID serwisu",
                     "piwikTrackSubdomain": "Śledź odwiedzających na wszystkich subdomenach forum",
                     "piwikPrependDomain": "Dodaj domenę do tytułu strony podczas śledzenia",
-                    "piwikHideAliasUrl": "W raporcie \"Outlinks\", ukryj kliknięcia w znane aliasy adresów URL",
+                    "piwikHideAliasUrl": "W raporcie „Outlinks”, ukryj kliknięcia w znane aliasy adresów URL",
                     "piwikAliasUrl": "URL aliasu",
                     "piwikTrackAccounts": "Śledź konta użytkowników",
                     "piwikAuthToken": "Token autentykacji API"
@@ -32,6 +32,22 @@
             },
             "matomo-widget": {
                 "title": "Matomo"
+            }
+        },
+        "forum": {
+            "consent": {
+                "cookies": {
+                    "ga": "",
+                    "gat": "",
+                    "gid": "",
+                    "utm": "",
+                    "pk_id": "",
+                    "pk_ses": "",
+                    "pk_ref": "",
+                    "pk_cvar": "",
+                    "pk_hsr": "",
+                    "matomo_sessid": ""
+                }
             }
         }
     }

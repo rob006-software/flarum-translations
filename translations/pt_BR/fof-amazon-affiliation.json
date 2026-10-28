@@ -1,0 +1,24 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Configurações de Afiliação Amazon",
+                    "tags": "Tags de Afiliado",
+                    "tags-mediaembed": "Defina abaixo uma tag de afiliado por marketplace. Links de produtos de um marketplace configurado recebem a tag com esse valor; deixe um marketplace em branco para ignorá-lo."
+                },
+                "field": {
+                    "rich-card": "Exibir links de produtos da Amazon como um card rico de produto",
+                    "rich-card-help": "Quando ativado, URLs de produtos da Amazon (/dp/ e /gp/product/) são exibidas como um card compacto com link para a página do produto com a tag. Quando desativado, permanecem como links simples e recebem a tag como qualquer outro link da Amazon.",
+                    "keep-existing-tag": "Manter as tags de afiliado da Amazon dos links originais em vez de substituí-las",
+                    "keep-existing-tag-help": "Por padrão, qualquer tag existente na URL original é substituída pela tag que você definir abaixo.",
+                    "help-mediaembed": "Os cards de produto sempre usam a tag configurada, então a opção \"manter tags existentes\" só se aplica a links simples.",
+                    "remove-tag-if-unhandled": "Remover as tags de afiliado da Amazon em links da Amazon não cobertos",
+                    "remove-tag-if-unhandled-help": "Por padrão, links não cobertos são mantidos como estão, inclusive com a tag, se houver.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Deixe em branco para não cobrir esses links"
+                }
+            }
+        }
+    }
+}

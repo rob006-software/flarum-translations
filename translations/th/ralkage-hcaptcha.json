@@ -2,24 +2,24 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": "",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "help_text": "รับ hCaptcha credentials ของคุณได้<a>ที่นี่</a>",
+                "secret_key_label": "Secret Key",
+                "site_key_label": "Site Key",
+                "type_label": "ประเภท hCaptcha",
+                "dark_mode_label": "Dark Mode",
+                "dark_mode_help": "ใช้ theme สีเข้มสำหรับ hCaptcha widget เปิดใช้งานหากฟอรัมของคุณใช้ dark theme",
+                "enable_login_label": "ต้องผ่านเมื่อ Login",
+                "enable_login_help": "ต้องผ่าน hCaptcha เมื่อผู้ใช้ login ช่วยป้องกันการโจมตีแบบ brute-force"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "สร้าง post และโพสต์โดยไม่ต้องผ่าน hCaptcha"
             }
         },
         "forum": {
-            "error": ""
+            "error": "เกิดข้อผิดพลาดในการส่ง hCaptcha กรุณาลองใหม่อีกครั้ง"
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "การตรวจสอบ hCaptcha ล้มเหลว"
     }
 }

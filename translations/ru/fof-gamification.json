@@ -126,10 +126,10 @@
         },
         "email": {
             "body": {
-                "postVoted": "Здравствуйте, {recipient_display_name},\n\nПользователь {actor_display_name} проголосовал за ваше сообщение в теме {discussion_title}.\n\nПосмотрите здесь: {discussion_url}\n"
+                "postVoted": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} проголосовал(а) за ваше сообщение в теме {discussion_title}.\n\nПосмотреть сообщение:\n{discussion_url}\n"
             },
             "subject": {
-                "postVoted": "Пользователь {display_name} проголосовал за ваше сообщение"
+                "postVoted": "{display_name} проголосовал(а) за ваше сообщение"
             }
         }
     },

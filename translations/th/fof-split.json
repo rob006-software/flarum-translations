@@ -2,23 +2,39 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "เเยกโพสต์ออกจากการสนทนานี้"
+                "split_discussion_label": "แยกโพสต์ย่อยออกจากโพสต์ปัจจุบัน"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "{count, plural, one {{count} ไพสต์ได้ถูกเเยกไปยัง {target}.} อื่นๆ {{count} โพสต์ได้ถูกเเยกไปยัง {target}.}}",
-                "was_split_from": "{count, plural, one {{count} โพสต์ถูกเเยกมาจาก {target}.} อื่นๆ {{count} โพสต์ถูกเเยกมาจาก {target}.}}"
+                "was_split_to": "{count, plural, other {จำนวน {count} โพสต์ ถูกแยกประเด็นสนทนาออกไปยัง {target}}}",
+                "was_split_from": "{count, plural, other {จำนวน {count} โพสต์ ถูกแยกย้ายต้นทางมาจาก {target}}}"
             },
             "split": {
-                "from": "เเยกมาที่นี่",
-                "to": "เเยกมาที่นี่",
-                "cancel": ""
+                "from": "เริ่มแยกย้ายตั้งแต่โพสต์นี้",
+                "to": "แยกย้ายโพสต์มาจนถึงจุดนี้",
+                "cancel": "ยกเลิกการแยกโพสต์"
             },
             "modal": {
-                "title": "เเยกการสนทนา",
-                "new_discussion_label": "กรุณาระบุหัวข้อสำหรับการสนทนาใหม่นี้",
-                "submit_button": "เเยกออก"
+                "title": "แยกโพสต์การสนทนา",
+                "new_discussion_label": "ระบุหัวข้อชื่อโพสต์ใหม่ที่จะจัดตั้งขึ้น",
+                "submit_button": "ดำเนินการแยกโพสต์"
+            }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "",
+                    "split_into": ""
+                }
             }
         }
     }

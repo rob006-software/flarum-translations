@@ -2,21 +2,48 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Beschikbare items",
-            "active_items": "",
+            "available_items_help": "",
             "create_new_item_button": "",
             "edit_item": {
                 "modal_title": "",
+                "help": "",
                 "label": "",
                 "label_placeholder": "",
                 "path": "",
                 "url": "",
+                "url_help": {
+                    "internal": "",
+                    "external": ""
+                },
                 "icon": "",
                 "icon_help": "",
-                "is_internal_checkbox": "",
+                "type": {
+                    "heading": "",
+                    "internal": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "external": {
+                        "label": "",
+                        "help": ""
+                    }
+                },
                 "open_new_tab_checkbox": "",
                 "submit_button": "",
                 "delete_button": "",
                 "delete_item_confirmation": ""
+            },
+            "variants": {
+                "heading": "",
+                "empty_help": "",
+                "help": "",
+                "number": "",
+                "enabled": "",
+                "visible_to": "",
+                "reorder": "",
+                "delete": "",
+                "delete_confirmation": "",
+                "create": ""
             },
             "scroll_settings": {
                 "toggle_label": "",
@@ -28,7 +55,7 @@
             "item": {
                 "home": "",
                 "all_discussions": "",
-                "categories": "",
+                "new_discussion": "",
                 "notifications": "",
                 "session": "",
                 "search": "",
@@ -36,7 +63,9 @@
                 "profile": "",
                 "tags": "",
                 "messages": "",
-                "fof-byobu": ""
+                "flags": "",
+                "fof-byobu": "",
+                "ramon-chat": ""
             }
         }
     }

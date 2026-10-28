@@ -1,0 +1,135 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "",
+                "moneyforpost_label": "",
+                "moneyforpost_help": "",
+                "moneyforpost_type": "",
+                "moneyforreply_label": "",
+                "moneyforreply_help": "",
+                "moneyforreply_type": "",
+                "moneyforreply_feedback": "",
+                "moneyforlike_label": "",
+                "moneyforlike_help": "",
+                "moneyforlike_type": "",
+                "moneyforlike_feedback": "",
+                "reward": "",
+                "deduct": "",
+                "feedback": "",
+                "no_feedback": "",
+                "initialmoney": "",
+                "moneyforpost": "",
+                "moneyfordiscussion": "",
+                "moneyname": "",
+                "postminimumlength": "",
+                "noshowzero": "",
+                "autoremove": "",
+                "moneyforlike": "",
+                "helpextensionlikes": "",
+                "initialmoney_help": "",
+                "level_names": "",
+                "level_names_help": "",
+                "money_scale": "",
+                "money_scale_help": "",
+                "extra_char_threshold_label": "",
+                "extra_char_threshold_help": "",
+                "extra_char_increment_label": "",
+                "extra_char_increment_help": "",
+                "extra_char_points_label": "",
+                "extra_char_points_help": ""
+            },
+            "permissions": {
+                "edit_money_label": ""
+            },
+            "autoremove": [
+                "",
+                "",
+                ""
+            ],
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": ""
+            },
+            "errors": {
+                "not_enough_money": "",
+                "no_money_logs": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            },
+            "log_time": "",
+            "log_type": "",
+            "log_amount": "",
+            "log_balance": "",
+            "log_description": "",
+            "log_type_deposit": "",
+            "log_type_withdrawal": "",
+            "log_type_transfer": "",
+            "log_type_reward": "",
+            "no_money_logs": "",
+            "load_more": "",
+            "logs_description": {
+                "created_discussion": "",
+                "created_reply": "",
+                "reply_received": "",
+                "liked": "",
+                "liked_by": "",
+                "unliked_post": "",
+                "unliked_by": "",
+                "initial_registration": "",
+                "admin_updated": "",
+                "discussion_started": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "posted_reply": "",
+                "post_created": "",
+                "post_restored": "",
+                "post_hidden": "",
+                "post_deleted": "",
+                "extra_characters": "",
+                "action_rewarded": "",
+                "action_deducted": "",
+                "no_permission": ""
+            },
+            "logs_type": {
+                "discussion_started": "",
+                "post_created": "",
+                "post_restored": "",
+                "post_hidden": "",
+                "post_deleted": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "liked": "",
+                "liked_by_others": "",
+                "admin_updated": "",
+                "registration": "",
+                "discussion_replied": ""
+            },
+            "point_log": {
+                "title": "",
+                "link": "",
+                "empty_text": "",
+                "table": {
+                    "headers": {
+                        "date": "",
+                        "amount": "",
+                        "balance": "",
+                        "reason": ""
+                    }
+                },
+                "load_more": "",
+                "no_permission": ""
+            }
+        }
+    }
+}

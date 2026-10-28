@@ -3,46 +3,46 @@
         "admin": {
             "settings": {
                 "proxy": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "Proxy cravatar",
+                    "helptext": "โดยค่าเริ่มต้น URL ของ cravatar จะดึงข้อมูลโดยตรงจาก cravatar.cn การเปิดใช้นี้จะให้ forum ให้บริการ request cravatar ทั้งหมดเอง"
                 },
                 "replace-flarum-custom": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "แทนที่ avatar กำหนดเองที่ upload ใน Forum",
+                    "helptext": "แทนที่ avatar กำหนดเองที่ upload ไว้ใน forum ด้วย Cravatar"
                 },
                 "allow-user-toggle": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "อนุญาตให้ผู้ใช้สลับระหว่าง Cravatar และ avatar ที่ upload",
+                    "helptext": "เมื่อเปิดใช้ ผู้ใช้สามารถเลือกใช้รูป Cravatar หรือ avatar ที่ upload ใน forum"
                 },
                 "defaults": {
-                    "title": "",
-                    "helptext": "",
-                    "mp_label": "",
-                    "identicon_label": "",
-                    "monsterid_label": "",
-                    "wavatar_label": "",
-                    "retro_label": "",
-                    "robohash_label": ""
+                    "title": "ค่าเริ่มต้น",
+                    "helptext": "จะเกิดอะไรขึ้นเมื่ออีเมลไม่มีรูป Cravatar? Cravatar มีตัวเลือกในตัวหลายแบบที่ใช้เป็นค่าเริ่มต้นได้ ส่วนใหญ่ใช้ hash ของอีเมลเพื่อสร้างรูปที่ไม่ซ้ำกัน",
+                    "mp_label": "mp: (mystery-person) รูปเงาคนการ์ตูนแบบง่าย (ไม่เปลี่ยนตาม email hash)",
+                    "identicon_label": "identicon: ลวดลายเรขาคณิตตาม email hash",
+                    "monsterid_label": "monsterid: 'มอนสเตอร์' ที่สร้างขึ้นพร้อมสีและหน้าตาต่างกัน",
+                    "wavatar_label": "wavatar: หน้าคนที่สร้างขึ้นพร้อมลักษณะและพื้นหลังต่างกัน",
+                    "retro_label": "retro: หน้าพิกเซล 8-bit สไตล์อาร์เคดที่สร้างขึ้น",
+                    "robohash_label": "robohash: 'หุ่นยนต์' ที่สร้างขึ้นพร้อมสีและหน้าตาต่างกัน"
                 },
                 "rating": {
-                    "title": "",
-                    "helptext": "",
-                    "g_label": "",
-                    "pg_label": "",
-                    "r_label": "",
-                    "x_label": ""
+                    "title": "ระดับเนื้อหา",
+                    "helptext": "Cravatar ให้ผู้ใช้กำหนดระดับเนื้อหาของรูปตัวเอง โดยค่าเริ่มต้นจะแสดงเฉพาะรูประดับ 'G' เว้นแต่ระบุไว้ว่าต้องการระดับสูงกว่า คุณสามารถระบุระดับใดระดับหนึ่งต่อไปนี้",
+                    "g_label": "g: เหมาะสำหรับแสดงบนทุกเว็บสำหรับผู้ชมทุกประเภท",
+                    "pg_label": "pg: อาจมีท่าทางหยาบ การแต่งตัวล่อแหลม คำหยาบเล็กน้อย หรือความรุนแรงเล็กน้อย",
+                    "r_label": "r: อาจมีคำหยาบรุนแรง ความรุนแรงเข้มข้น ภาพเปลือย หรือการใช้ยาเสพติดหนัก",
+                    "x_label": "x: อาจมีภาพทางเพศโจ่งแจ้งหรือความรุนแรงรุนแรงมาก"
                 },
                 "force-default": {
-                    "title": "",
-                    "helptext": ""
+                    "title": "บังคับค่าเริ่มต้น",
+                    "helptext": "บังคับให้ใช้ชุดค่าเริ่มต้น แม้ว่า email hash จะลิงก์ไปยัง avatar ที่ผู้ใช้ upload เอง"
                 }
             }
         },
         "forum": {
             "settings": {
-                "edit-cravatar": "",
-                "use-cravatar": "",
-                "use-uploaded": ""
+                "edit-cravatar": "จัดการ avatar บน cravatar.cn",
+                "use-cravatar": "ใช้ Cravatar avatar",
+                "use-uploaded": "ใช้ avatar ที่ upload"
             }
         }
     }

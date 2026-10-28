@@ -2,43 +2,43 @@
     "ekumanov-post-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "讨论下拉菜单入口",
+                "dropdownAccessHelp": "在讨论操作下拉菜单中显示“在讨论中搜索”按钮。",
+                "sideNavAccess": "讨论侧边栏入口",
+                "sideNavAccessHelp": "在讨论侧边栏中显示“在讨论中搜索”按钮。",
+                "authorQuickFilter": "作者快速筛选",
+                "authorQuickFilterHelp": "在每条回复的操作菜单中添加按作者筛选的快捷入口。",
+                "originalPosterBadge": "楼主快捷筛选",
+                "originalPosterBadgeHelp": "在楼主发布的帖子旁显示可点击的“楼主”标签。点击后仅显示该用户的回复。"
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "此讨论中没有符合搜索条件的回复",
+                "unmatchedGap": "{count, plural, one {已隐藏 1 条与搜索条件不符的回复} other {已隐藏 {count} 条与搜索条件不符的回复}}",
+                "otherAuthorsGap": "{count, plural, one {已隐藏 1 条其他作者的回复} other {已隐藏 {count} 条其他作者的回复}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "在讨论中搜索...",
+                "authorPlaceholder": "按作者筛选...",
+                "summary": "匹配 {matching} / {total} 条",
+                "pin": "始终显示讨论筛选工具栏",
+                "close": "清除筛选并关闭工具栏",
+                "clear": "清除筛选"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "在讨论中搜索"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "只看该作者"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "楼主",
+                "opBadgeTooltip": "点击只看楼主"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "无法跳转到该回复",
+                "action": "清除筛选后重试"
             }
         }
     }

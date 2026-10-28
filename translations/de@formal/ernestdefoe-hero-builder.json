@@ -1,0 +1,57 @@
+{
+    "ernestdefoe-hero-builder": {
+        "admin": {
+            "enabled": "Kopfzeilenbausatz aktivieren",
+            "enabled_help": "Hauptschalter – Animierte Kopfzeile oberhalb der Diskussionsliste und auf jeder Tag-Seite anzeigen.",
+            "studio": {
+                "context": "Kopfzeile bearbeiten für",
+                "home": "Startseite",
+                "loading_tags": "Tags werden geladen…",
+                "show_hero": "Kopfzeile hier anzeigen",
+                "title": "Titel",
+                "subtitle": "Untertitel",
+                "icon": "Symbol (Font Awesome)",
+                "icon_help": "Beliebige Font Awesome-Klasse eingeben – z. B. fas fa-dragon, fas fa-fire, fab fa-discord.",
+                "icon_bg": "Symbol anzeigen (mit dazugehörigen Hintergrundquadrat)",
+                "sharp_corners": "Scharfe Ecken (anstelle von abgerundeten)",
+                "border_width": "Rahmenbreite (px)",
+                "border_width_help": "0 = kein Rahmen. Für den normalen schmalen Rand das Feld leer lassen.",
+                "border_color": "Rahmenfarbe",
+                "effects": "Hintergrundeffekte",
+                "effects_animated": "Animiertes Leuchten",
+                "effects_still": "Unbewegtes Leuchten",
+                "effects_off": "Aus",
+                "shadow": "Schlagschatten",
+                "shadow_default": "Standard",
+                "shadow_none": "Keiner",
+                "shadow_soft": "Weich",
+                "shadow_medium": "Mittel",
+                "shadow_strong": "Hart",
+                "margin_top": "Oberer Rand (px)",
+                "margin_bottom": "Unterer Rand (px)",
+                "margin_help": "Abstand über dem Banner – setze den Wert auf 0, damit er bündig unter der Kopfzeile sitzt.",
+                "c1": "Farbverlauf Farbe 1",
+                "c2": "Farbverlauf Farbe 2",
+                "image": "URL des Titelbildes",
+                "image_help": "Optional. Anstelle des Farbverlaufs wird die ein vollständiges Bild angezeigt.",
+                "height": "Höhe (px)",
+                "height_help": "Optional. Höhe des Banners in Pixeln (Standardwert: 150).",
+                "width": "Maximale Breite (px)",
+                "width_ph": "Volle Breite",
+                "show_stats": "Statistiken anzeigen",
+                "stats_custom": "Metriken",
+                "stats_custom_help": "Optional – lasse das Feld leer, um LIVE-Metriken automatisch anzuzeigen (der „Home“-Hero zeigt die Gesamtzahlen des Forums an: Diskussionen, Beiträge, Mitglieder; ein „Tag“-Hero zeigt die Anzahl der Diskussionen an). Füge hier nur dann Zeilen hinzu, wenn du diese durch eigene überschreiben möchtest. Jede Zeile besteht aus einem Wert, einem Font Awesome-Symbol und einer Beschriftung.",
+                "stat_value": "Wert (z. B. 1,2T)",
+                "stat_icon": "Symbol (z. B. fas fa-users)",
+                "stat_label": "Beschriftung",
+                "stat_add": "Metrik hinzufügen",
+                "stat_remove": "Entfernen"
+            }
+        },
+        "forum": {
+            "discussions": "Diskussionen",
+            "posts": "Beiträge",
+            "members": "Mitglieder"
+        }
+    }
+}

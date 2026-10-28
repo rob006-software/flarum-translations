@@ -1,6 +1,16 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "",
+            "least_viewed": ""
+        },
         "forum": {
+            "index_sort": {
+                "most_viewed_button": "",
+                "least_viewed_button": ""
+            }
+        },
+        "lib": {
             "index_sort": {
                 "most_viewed_button": "",
                 "least_viewed_button": ""
@@ -24,7 +34,9 @@
                 "reset_views_label": "Postavi preglede rasprave"
             },
             "settings": {
-                "ignore_crawlers": "Zanemari posjete botova"
+                "ignore_crawlers": "Zanemari posjete botova",
+                "dedupe_ttl": "",
+                "dedupe_ttl_help": ""
             }
         },
         "lib": {

@@ -57,5 +57,15 @@
                 "subject": "Your discussion \"{merged_discussion_title}\" was merged"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "Merged {discussion} into {new_discussion}",
+                    "merged_into": "Merged {post_count} posts from {original_discussion_ids_count} discussions into {discussion}"
+                }
+            }
+        }
     }
 }

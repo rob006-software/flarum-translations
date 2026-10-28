@@ -5,16 +5,63 @@
                 "title": "FriendsOfFlarum Open Collective",
                 "use_legacy_api_key_label": "",
                 "use_legacy_api_key_help": "",
-                "api_key_label": "API Key",
+                "api_key_label": "Klucz API aplikacji (przestarzałe)",
                 "api_key_help": "",
                 "personal_token_label": "",
                 "personal_token_help": "",
                 "slug_label": "Collective Slug",
                 "slug_help": "",
-                "group_label": "Grupa do przypisania",
+                "group_label": "Grupa stałych wspierających",
                 "group_help": "",
                 "onetime_group_label": "",
                 "onetime_group_help": ""
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

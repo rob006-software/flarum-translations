@@ -1,15 +1,21 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "Cette discussion a été supprimée.",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion a} other {# discussion ont}} une nouvelle activité qui sera publiée dans {releaseTimeout} secondes. Cliquez pour afficher maintenant."
             },
             "typing-indicator": {
-                "anonymous-user": "[Anonyme]",
+                "anonymous-user": "[Masqué]",
+                "hidden-user": "{username} (masqué)",
                 "people-are-typing": "{number, plural, one {# personne est en train d'écrire} other {# personnes sont en train d'écrire}}",
                 "users-are-typing": "{count, plural, one {{users} est en train d'écrire} other {{users}{others, plural, =1 { & # other} =0 {} other { & # others}} sont en train d'écrire}}",
                 "no-activity": "Personne n'est en train d'écrire"
+            },
+            "index-typing": {
+                "someone-typing": "Quelqu'un est en train d'écrire dans cette discussion",
+                "someone-typing-tag": "Quelqu'un est entrain d'écrire dans cette étiquette"
             },
             "user": {
                 "settings": {
@@ -23,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "Voir qui est en train de taper n'importe où sur le forum",
                 "view-who-types": "Voir qui est en train d'écrire"
             },
             "settings": {
@@ -33,7 +40,11 @@
                 "notification-toast-dismiss-after": "Durée d'affichage des notifications contextuelles",
                 "notification-toast-dismiss-after-help": "Combien de temps (en secondes) une notification contextuelle en temps réel reste-t-elle à l'écran avant d'être automatiquement masquée ? Définissez cette valeur sur 0 pour désactiver les notifications contextuelles.",
                 "typing-indicator": "Indicateur de saisie",
-                "typing-indicator-help": "Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d'autres utilisateurs qui sont en train d'écrire dans une discussion. Lorsqu'elle est désactivée, l'activité de saisie est supprimée à la fois de l'interface utilisateur et de la charge utile du websocket."
+                "typing-indicator-help": "Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d'autres utilisateurs qui sont en train d'écrire dans une discussion. Lorsqu'elle est désactivée, l'activité de saisie est supprimée à la fois de l'interface utilisateur et de la charge utile du websocket.",
+                "index-typing-indicator": "Indicateur de saisie dans la liste de discussion",
+                "index-typing-indicator-help": "Lorsque cette option est activée, une icône s'affiche dans la liste des discussions pour chaque discussion accessible au public dans laquelle quelqu'un est en train d'écrire un message. Aucun nom n'est affiché.",
+                "index-typing-indicator-restricted": "Indicateur de saisie dans la liste de discussion pour les étiquettes à accès restreint",
+                "index-typing-indicator-restricted-help": "Afficher également l'indicateur de saisie pour les discussions dans les étiquettes à accès restreint, pour les utilisateurs autorisés à voir ces étiquettes. Nécessite l'extension « Tags ». Désactivé par défaut."
             }
         }
     }

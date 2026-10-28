@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "צבע",
                 "delete_tag_button": "הסרת תגית",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "האם ברצונך להסיר תגית זו? תגיות הדיונים לא יוסרו.",
                 "description_label": "תיאור",
                 "hide_label": "הסתרה מכל הדיונים",
@@ -16,7 +24,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "מזהה",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": "יצירת תגית"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "בחירת תגיות"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "ערוך תגיות"
             },
@@ -76,7 +89,7 @@
                 "added_and_removed_tags_text": "נוספו {tagsAdded} והוסרו {tagsRemoved} תגיות על ידי משתמש {username}.",
                 "added_tags_text": "{username} הוסיף את התגיות {tagsAdded}.",
                 "removed_tags_text": "{username} הסיר את התגיות {tagsRemoved}.",
-                "tags_text": "{tags} תגית|{tags} תגיות"
+                "tags_text": "{count, plural, one {{tags} תגית} other {{tags} תגיות}}"
             },
             "tag": {
                 "meta_description_text": "כל הנושאים עם התגית {tag}"
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "שם",
             "tags": "תגיות"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

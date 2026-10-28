@@ -9,19 +9,21 @@
                 "enabled_forgot_label": "CAPTCHA bei Passwortrücksetzung aktivieren",
                 "enabled_forgot_help": "Zeige die PoW-Sicherheitsabfrage im Formular „Passwort vergessen“ an.",
                 "difficulty_label": "Schwierigkeit",
-                "difficulty_help": "Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 3 ist für Menschen nicht wahrnehmbar (unter 100 ms). Stufe 5 kann auf langsameren Geräten einige Sekunden dauern.",
+                "difficulty_help": "Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 kann von einigen Bots umgangen werden (~100 ms). Stufe 2 bietet besseren Schutz und ist die Standardeinstellung (~1 s). Stufe 3 versucht, maximalen Schutz und maximalen Schwierigkeitsgrad für Bots zu gewährleisten (~10 s).",
+                "difficulty_3": "Stufe 1 – Niedrig (~100 ms)",
+                "difficulty_4": "Stufe 2 – Mittel (~1 s)",
+                "difficulty_5": "Stufe 3 – Hoch (~10 s)",
                 "difficulty_1": "Stufe 1 – Minimal (~1 ms)",
-                "difficulty_2": "Stufe 2 – Einfach (~10 ms)",
-                "difficulty_3": "Stufe 3 – Standard (~100 ms)",
-                "difficulty_4": "Stufe 4 – Schwer (~1 s)",
-                "difficulty_5": "Stufe 5 – Sehr schwer (~10 s)"
+                "difficulty_2": "Stufe 2 – Einfach (~10 ms)"
             }
         },
         "forum": {
             "solving": "Bewältigung der Sicherheitsabfrage…",
             "verified": "Sicherheitsabfrage bestanden",
             "error": "Die Sicherheitsabfrage ist fehlgeschlagen. Bitte versuche es erneut.",
-            "retry": "Erneut versuchen"
+            "retry": "Erneut versuchen",
+            "challenge_not_ready": "Die Sicherheitsüberprüfung läuft noch oder ist noch nicht abgeschlossen. Bitte warten.",
+            "submitting": "Sicherheit wird überprüft… Die Übermittlung wird automatisch abgeschlossen."
         },
         "validation": {
             "pow_captcha": "Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut."

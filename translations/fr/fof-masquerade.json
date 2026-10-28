@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": "Cet utilisateur n'a encore rempli aucun champ de son profil."
+            },
             "alerts": {
                 "profile-completion-required": "Veuillez remplir les champs de profil nécessaires ci-dessous.\n",
                 "profile-completed": "Profil rempli ! <a>Aller à la page d'accueil</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Créer un champ",
+                "add-option": "Ajouter une option",
+                "delete-option": "Supprimer l'option",
                 "edit-field": "Enregistrer les modifications",
-                "delete-field": "Supprimer le champ"
+                "delete-field": "Déplacer vers la corbeille",
+                "restore-field": "Restaurer le champ « {field} »",
+                "delete-field-permanently": "Supprimer définitivement le champ « {field} »"
             },
             "permissions": {
                 "edit-others-profile": "Modifier le profil des autres utilisateurs",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Champs",
+                "trash": "Corbeille",
                 "create": "Créer un champ",
-                "edit": "Modifier le champ {field}",
-                "delete-confirmation": "Êtes-vous sûr de vouloir supprimer le champ {field} ? Cette action est irréversible.",
+                "edit": "Modifier le champ « {field} »",
+                "delete-confirmation": "Déplacer le champ « {field} » vers la corbeille ?",
+                "delete-permanently-confirmation": "Souhaitez-vous supprimer définitivement le champ « {field} » et toutes les réponses qui y sont enregistrées ? Cette action est irréversible.",
+                "is_restricted": "Restreindre la visibilité du champ",
+                "permissions": "Visibilité du champ",
+                "permissions-alert": "Les paramètres d'autorisation seront disponibles lors de la modification du champ après sa création.",
                 "name": "Nom du champ",
                 "name-help": "Le libellé du champ visible publiquement (non traduisible).\n",
                 "description": "Description du champ",
@@ -45,7 +57,7 @@
                 "on_bio": "Afficher la réponse à ce champ dans la biographie de l'utilisateur",
                 "type": "Type",
                 "validation": "Validation",
-                "validation-help": "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. Par exemple : « string|min:5 » ou « url ».\n",
+                "validation-help": "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. P. ex. : « string|min:5 » ou « url ».\n",
                 "icon": "Icône",
                 "icon-help": "Affiche une icône devant les valeurs saisies par l'utilisateur. Pour une référence des icônes disponibles, consultez <a>site de Font Awesome</a>. Utilisez des noms d'icônes avec le préfixe « fa- », comme « fas fa-info ».\n",
                 "force-user-to-completion": "Obliger l'utilisateur à compléter son profil",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "réponse"
+                    "key": "réponse",
+                    "hint": "valeurs des champs du profil utilisateur"
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Exporte les réponses des champs du profil de l'utilisateur",
                     "delete_description": "Supprime toutes les réponses des champs de profil du compte de l'utilisateur",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "A créé le champ de profil « {name} »",
+                    "field_updated": "A mis à jour le champ de profil « {name} »",
+                    "field_deleted": "A supprimé le champ de profil « {name} »",
+                    "field_restored": "Champ de profil « {name} » restauré",
+                    "field_permanently_deleted": "Champ de profil « {name} » définitivement supprimé",
+                    "profile_updated": "A mis à jour les champs du profil de {username}"
                 }
             }
         }

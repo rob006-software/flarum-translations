@@ -1,0 +1,230 @@
+{
+    "fof-translate": {
+        "admin": {
+            "detection": {
+                "cancel_button": "Cancel",
+                "counts_failed_text": "The detection status could not be loaded.",
+                "detect_missing_button": "Detect missing languages",
+                "discussions_status_text": "{total, plural, one {# discussion} other {# discussions}}: {detected} detected, {undetermined} undetermined, {pending} not yet checked.",
+                "heading": "Language detection",
+                "help": "The translate button hides itself on content that is already in the reader's language, which needs the content's language to be known. New posts and discussions are detected automatically when they are saved, and polls are detected on the fly. Use this to detect content written before the extension was installed. Detection runs locally on your server: it makes no calls to the translation provider and costs nothing. The same can be done from the command line with {command}.",
+                "posts_status_text": "{total, plural, one {# post} other {# posts}}: {detected} detected, {undetermined} undetermined, {pending} not yet checked.",
+                "progress_discussions_text": "Detecting discussions… {processed} of {expected}",
+                "progress_posts_text": "Detecting posts… {processed} of {expected}",
+                "redetect_all_button": "Re-detect everything",
+                "redetect_all_confirm": "Detect the language of every post and discussion again, including those already detected? This can take a while on a large forum.",
+                "refresh_button": "Refresh",
+                "summary_cancelled_text": "Stopped. Checked {posts, plural, one {# post} other {# posts}} and {discussions, plural, one {# discussion} other {# discussions}} so far: {detected} detected, {undetermined} undetermined.",
+                "summary_done_text": "Done. Checked {posts, plural, one {# post} other {# posts}} and {discussions, plural, one {# discussion} other {# discussions}}: {detected} detected, {undetermined} undetermined.",
+                "summary_failed_text": "Detection stopped because of an error after checking {posts, plural, one {# post} other {# posts}} and {discussions, plural, one {# discussion} other {# discussions}}.",
+                "undetermined_help": "Undetermined content was checked, but the detector could not tell its language, which is common for placeholder or test text. It always shows the translate button."
+            },
+            "permissions": {
+                "refresh_label": "Refresh cached translations",
+                "translate_any_language_label": "Translate into any forum language",
+                "translate_label": "Translate content"
+            },
+            "settings": {
+                "ai": {
+                    "de_variant_help": "Which kind of German the AI drivers write when translating into German.",
+                    "de_variant_label": "German variant",
+                    "de_variant_options": {
+                        "casual": "Informal German (du)",
+                        "swiss": "Swiss Standard German"
+                    },
+                    "en_variant_help": "Which spelling the AI drivers use when translating into English.",
+                    "en_variant_label": "English variant"
+                },
+                "api_key_help": "Can also be set with the {env} environment variable, which takes precedence over this field.",
+                "claude": {
+                    "api_key_label": "Anthropic API key",
+                    "effort_help": "How much the model thinks before answering. Translation is a simple task, so low is usually enough and is the cheapest.",
+                    "effort_label": "Effort",
+                    "effort_options": {
+                        "high": "High",
+                        "low": "Low",
+                        "medium": "Medium"
+                    },
+                    "intro": "Uses Anthropic's Claude models. Create an API key in the <a>Claude Console</a>.",
+                    "model_help": "Opus gives the best translations, Haiku is the cheapest. Sonnet sits in between.",
+                    "model_label": "Model"
+                },
+                "deepl": {
+                    "api_key_label": "DeepL API key",
+                    "en_choice_help": "DeepL requires a regional variant when translating into English.",
+                    "en_choice_label": "English variant",
+                    "intro": "Uses DeepL machine translation. The free and Pro API plans both work: <a>get a DeepL API key</a>.",
+                    "pt_choice_help": "DeepL requires a regional variant when translating into Portuguese.",
+                    "pt_choice_label": "Portuguese variant",
+                    "formality_help": "Whether translations should lean formal or informal, for the languages that support it.",
+                    "formality_label": "Formality",
+                    "formality_options": {
+                        "default": "Default",
+                        "prefer_less": "Prefer informal",
+                        "prefer_more": "Prefer formal"
+                    },
+                    "glossaries_empty": "No glossaries were found in your DeepL account.",
+                    "glossaries_failed": "The glossaries could not be loaded from DeepL.",
+                    "glossaries_heading": "DeepL glossaries",
+                    "glossaries_help": "Pick a glossary from your DeepL account for each language pair it covers.",
+                    "glossaries_reload_button": "Reload",
+                    "glossaries_retry_button": "Try again",
+                    "glossary_none_option": "No glossary",
+                    "glossary_pair_label": "{source} → {target}",
+                    "model_type_help": "Faster responses, or the higher-quality model where DeepL offers one.",
+                    "model_type_label": "Model type",
+                    "model_type_options": {
+                        "latency_optimized": "Faster",
+                        "prefer_quality_optimized": "Higher quality"
+                    }
+                },
+                "driver_help": "The service that translates content. Nothing is translated until a driver is selected and configured.",
+                "driver_label": "Translation driver",
+                "driver_none_option": "None",
+                "driver_not_configured": "This driver is missing required settings. Fill them in and save to start translating.",
+                "driver_recommended_option": "{driver} (recommended)",
+                "driver_section_heading": "{driver} settings",
+                "driver_self_hosted_option": "{driver} (self-hosted)",
+                "driver_unofficial_option": "{driver} (free, unofficial)",
+                "disabled_notice": "Translation is disabled until you choose and configure a translation driver below.",
+                "english_options": {
+                    "en-GB": "British English",
+                    "en-US": "American English"
+                },
+                "portuguese_options": {
+                    "pt-BR": "Portuguese (Brazil)",
+                    "pt-PT": "Portuguese (Portugal)"
+                },
+                "env_override": "This value is set by an environment variable on the server.",
+                "env_override_named": "This value is set by the {env} environment variable on the server.",
+                "glossary": {
+                    "add_button": "Add term",
+                    "empty_text": "No terms yet.",
+                    "help": "Words and names that are never translated, such as your forum or product name.",
+                    "label": "Glossary",
+                    "placeholder": "Add a term…",
+                    "remove_button": "Remove {term}"
+                },
+                "google": {
+                    "intro": "Uses Google Translate's free web endpoint, so no account or API key is needed. It is unofficial and best-effort: Google may rate-limit or block busy servers, and quality is below the AI drivers. Formatting is checked after every translation, and a translation that cannot be verified is not stored. Recommended for trying the extension out or for small forums."
+                },
+                "ollama": {
+                    "api_key_help": "Optional bearer token, for an Ollama server behind an authenticating reverse proxy. Can also be set with the {env} environment variable.",
+                    "api_key_label": "API token",
+                    "base_url_help": "Address of your Ollama server, for example http://localhost:11434.",
+                    "base_url_label": "Server URL",
+                    "intro": "Runs models on your own server, so content never leaves it, and needs no API key. <a>Install Ollama</a> and pull a model first.",
+                    "model_help": "Name of an installed Ollama model, for example llama3.1.",
+                    "model_label": "Model",
+                    "think_help": "For reasoning models such as gpt-oss or qwen3. Low is much faster for translation; Off is ignored by some models (gpt-oss), which always reason.",
+                    "think_label": "Reasoning effort",
+                    "think_options": {
+                        "high": "High",
+                        "low": "Low",
+                        "medium": "Medium",
+                        "off": "Off"
+                    }
+                },
+                "openai": {
+                    "api_key_label": "OpenAI API key",
+                    "intro": "Uses OpenAI's GPT models. Create an API key on the <a>OpenAI platform</a>.",
+                    "max_tokens_help": "Upper limit on the length of each translation.",
+                    "max_tokens_label": "Maximum tokens",
+                    "model_help": "The OpenAI model used for translation.",
+                    "model_label": "Model"
+                },
+                "short_content_length_help": "Content shorter than this many characters is too short to detect its language reliably. It is assumed to be in the language its author uses the forum in, which is their chosen locale, or the forum default.",
+                "short_content_length_label": "Minimum length for language detection",
+                "throttle_per_minute_help": "How many translations each user (or guest IP address) may request per minute.",
+                "throttle_per_minute_label": "Translations per minute",
+                "timeout_help": "How long to wait for the service to answer, in seconds.",
+                "timeout_label": "Timeout",
+                "translate_all_enabled_help": "Let everyone who may translate pick any forum language, not only their own.",
+                "translate_all_enabled_label": "Allow translating into any language",
+                "use_native_locale_names_help": "Show language names in their own language (Deutsch, 日本語) instead of the reader's.",
+                "use_native_locale_names_label": "Use native language names"
+            },
+            "test": {
+                "button": "Test translation",
+                "detected_text": "Detected source language: {language}",
+                "failed_text": "The test failed: {error}",
+                "failed_unknown_text": "The test failed.",
+                "help": "Translates a short sample from another language into your admin language using the values above — saved or not. Uses one request to the provider.",
+                "markup_warning": "Formatting was not fully preserved.",
+                "source_label": "Sample",
+                "success_text": "Translated from {source} to {target} in {seconds}s",
+                "translation_label": "Translation"
+            }
+        },
+        "forum": {
+            "poll": {
+                "show_original_button": "Show original"
+            },
+            "translate_button": {
+                "dropdown_accessible_label": "Choose a language to translate into",
+                "label": "Translate",
+                "label_from": "Translate from {from}",
+                "target_tooltip": "Translate to {to}"
+            },
+            "translation": {
+                "close_button": "Close translation",
+                "header_from": "Translated from {from} to {to}",
+                "header_to": "Translated to {to}",
+                "loading_text": "Translating to {to}…",
+                "meta": "{provider} · {time}",
+                "refresh_button": "Refresh translation",
+                "show_original_button": "Show original",
+                "stale_text": "The original has been edited since this translation was made.",
+                "status_from": "Translated from {from}",
+                "status_text": "Translated",
+                "thread_failed_text": "{count, plural, one {# post} other {# posts}} could not be translated. Try again later."
+            }
+        },
+        "api": {
+            "already_in_language": "This content is already in the selected language.",
+            "glossaries_failed": "DeepL glossaries could not be loaded. Check the API key.",
+            "invalid_detection_cursor": "Invalid detection position.",
+            "invalid_detection_type": "Unknown content type for language detection.",
+            "no_driver": "Translation is not configured on this forum.",
+            "not_translatable": "This post cannot be translated.",
+            "too_long": "This content is too long to translate.",
+            "translation_failed": "Translation failed. Please try again later.",
+            "unsupported_locale": "This language is not available for translation."
+        },
+        "lib": {
+            "drivers": {
+                "claude": "Claude",
+                "deepl": "DeepL",
+                "google": "Google Translate",
+                "ollama": "Ollama",
+                "openai": "OpenAI"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "translationdata": {
+                    "export_description": "Exports the translations of the user's posts and discussion titles, with the language detected for each.",
+                    "anonymize_description": "No action. The user's content is kept, so its translations are kept too.",
+                    "delete_description": "Deletes the translations of the posts, discussions and polls removed with the user's content."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_translate": {
+                    "post_translation_refreshed": "Refreshed the {locale} translation of {postuser}'s {post} in {discussion}",
+                    "discussion_translation_refreshed": "Refreshed the {locale} translation of the title of {discussion}",
+                    "poll_translation_refreshed": "Refreshed the {locale} translation of poll #{poll_id}",
+                    "driver_tested": "Tested the {driver} translation driver: {ok, select, true {it worked} other {it failed}}",
+                    "language_detection_run": "{force, select, true {Re-detected} other {Detected}} the language of {rows, plural, one {# row} other {# rows}} of {type}",
+                    "translations_pruned": "Pruned {same_language} same-language translations, {orphaned_polls} orphaned poll translations and {orphaned_poll_options} orphaned poll option translations",
+                    "translations_repaired": "Marked {rows, plural, one {# corrupted post translation} other {# corrupted post translations}} for re-translation"
+                }
+            }
+        }
+    }
+}

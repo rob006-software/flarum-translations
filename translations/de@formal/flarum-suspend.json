@@ -66,5 +66,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "suspended": "Hat {username} bis {until} ausgeschlossen",
+                    "unsuspended": "Hat den Ausschluss von {username} aufgehoben"
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,188 @@
+{
+    "xxb-catch-the-fish": {
+        "forum": {
+            "moderate": {
+                "add": "Hinzufügen",
+                "edit": "Bearbeiten",
+                "delete": "Löschen",
+                "fishes": "Fische",
+                "rounds": "Runden"
+            },
+            "nav": {
+                "rankings": "Fang-den-Fisch Rangliste",
+                "settings": "Fang-den-Fisch Einstellungen"
+            },
+            "new-round-modal": {
+                "title": "Neue Runde"
+            },
+            "new-fish-modal": {
+                "title": "Neuer Fisch"
+            },
+            "edit-round-modal": {
+                "title": "Runde „{name}“ bearbeiten"
+            },
+            "edit-fish-modal": {
+                "title": "Fisch „{name}“ bearbeiten"
+            },
+            "caught-fish-modal": {
+                "title": "Du hast einen Fisch gefangen!",
+                "named-by": "Benannt von",
+                "placed-by": "Ausgesetzt von",
+                "congratulation": "Herzlichen Glückwunsch, du hast einen Fisch gefangen! Du hast {catch_count} Fische gefangen.",
+                "name": "Fischname",
+                "name-help": "Du kannst den Fisch umbenennen, wenn du möchtest. Der Name muss den Forenrichtlinien entsprechen.",
+                "placement-help": "Du kannst den Fisch an einer beliebigen Stelle im Forum verstecken, beispielsweise in den aktuellen Diskussionen oder in den Profilen aktiver Nutzer. Einen Fisch, den du selbst versteckt hast, kannst du nicht fangen.",
+                "submit-name-place-later": "Namen speichern und Versteck auswählen",
+                "submit-name": "Namen speichern",
+                "submit-place-later": "Ja, ich suche mir ein Versteck",
+                "submit-continue": "Weiter",
+                "submit-name-place-random": "Namen speichern und lass den Fisch sich verstecken",
+                "submit-place-random": "Lass den Fisch sich verstecken"
+            },
+            "edit-round": {
+                "name": "Name",
+                "name-help": "Der öffentliche Name für diese Runde wird im Banner und in der Rangliste angezeigt",
+                "starts-at": "Startzeit",
+                "ends-at": "Endzeit",
+                "starting-pack": "Startpaket",
+                "starting-pack-help": "Enthält ein paar Fische, damit du im Handumdrehen loslegen kannst",
+                "create": "Runde erstellen",
+                "save": "Runde speichern",
+                "delete": "Runde löschen",
+                "delete-confirmation": "Runde „{name}“ löschen?"
+            },
+            "edit-fish": {
+                "name": "Name",
+                "name-help": "Der aktuelle Name des Fisches. Kann von Spielern bearbeitet werden, sofern sie die Berechtigung zum Umbenennen von Fischen haben.",
+                "create": "Fisch erstellen",
+                "save": "Fisch speichern",
+                "delete": "Fisch löschen",
+                "delete-confirmation": "Fisch „{name}“ löschen?"
+            },
+            "moving-fish": {
+                "login": "Anmelden, um Fische zu fangen"
+            },
+            "fish-image": {
+                "alt": "Bild des Fisches „{name}“",
+                "missing": "Fehlendes Fischbild"
+            },
+            "round-alert": {
+                "message": "Runde „{name}“: Fange so viele Fische wie möglich bis {time}",
+                "rankings": "Rangliste ansehen"
+            },
+            "basket": {
+                "title": "Fischkorb",
+                "drag-help": "Ziehe den Fisch per Drag & Drop auf eine Diskussion, einen Beitrag oder ein Benutzerprofil",
+                "time": "Aussetzen bis: {time}"
+            },
+            "table-round": {
+                "loading": "Wird geladen...",
+                "title": "Runden",
+                "new": "Neue Runde",
+                "name": "Name",
+                "start": "Von",
+                "end": "Bis",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
+                "fishes": "Fische"
+            },
+            "table-fish": {
+                "loading": "Wird geladen...",
+                "title": "Fische für Runde {name}",
+                "new": "Neuer Fisch",
+                "image": "Bild",
+                "name": "Name",
+                "user-name": "Zuletzt benannt von",
+                "user-place": "Zuletzt ausgesetzt von",
+                "placement": "Aktueller Standort",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
+                "no-user-name": "Nicht umbenannt",
+                "no-user-place": "Zufällig",
+                "upload": "Neues Bild hochladen",
+                "new-from-image": "Neue Fische über den Massenimport von Bildern erstellen"
+            },
+            "table-ranking": {
+                "loading": "Wird geladen...",
+                "title": "Rangliste für Runde {name}",
+                "rank": "Name",
+                "count": "Fische gefangen",
+                "user": "Benutzer"
+            },
+            "page-ranking": {
+                "title": "Ranglisten",
+                "permission": "Du hast keine Berechtigung, die Ranglisten einzusehen",
+                "nothing": "Keine aktive Runde"
+            },
+            "drop-area": {
+                "message": "Du kannst den Fisch hier aussetzen",
+                "missing-from-store": "Der Fisch konnte im Datenspeicher nicht gefunden werden"
+            }
+        },
+        "admin": {
+            "settings": {
+                "user": "Benutzer",
+                "user-age": "Wie lange muss ein Benutzer bereits aktiv sein, damit ein Fisch darauf ausgesetzt wird (Tage)",
+                "user-probability": "Wahrscheinlichkeit, in einem Benutzerprofil ausgesetzt zu werden (%)",
+                "discussion": "Diskussionen",
+                "discussion-age": "Wie alt muss ein Diskussion sein, bevor ein Fisch darauf ausgesetzt wird (Tage)",
+                "discussion-tags": "Tag-Zulassungsliste",
+                "discussion-tags-unavailable": "Diese Einstellung ist nicht verfügbar, da die „Tags“-Erweiterung deaktiviert ist.",
+                "discussion-tags-help": "Wenn du kein Tag auswählst, kann jede Diskussion ausgewählt werden, die den oben genannten Zeiteinstellungen entspricht. Wenn mehrere Tags ausgewählt sind, muss eine Diskussion mindestens eines der ausgewählten Tags enthalten, um in die Auswahl zu kommen. Die Wahrscheinlichkeit gibt an, wie hoch die Chance ist, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten durchprobiert wurden. Das letzte Tag in der Liste dient immer als Ausweichoption. Stelle daher sicher, dass dieses Tag mindestens eine gültige Diskussion enthält.\n",
+                "tags-header": {
+                    "tag": "Tag",
+                    "probability": "Wahrscheinlichkeit"
+                },
+                "tags-control": {
+                    "choose": "Tag auswählen",
+                    "add": "Zur Zulassungsliste hinzufügen",
+                    "down": "Nach unten verschieben",
+                    "up": "Nach oben verschieben",
+                    "delete": "Von Zulassungsliste entfernen"
+                },
+                "tags-fallback": {
+                    "last-line": "Ausweichlösung",
+                    "single-line": "Für die Wahrscheinlichkeit sind mindestens 2 Tags erforderlich"
+                },
+                "post": "Beiträge",
+                "post-age": "Wie alt muss ein Beitrag sein, bevor ein Fisch darauf ausgesetzt wird (Tage)",
+                "post-probability": "Wahrscheinlichkeit, dass ein Fisch eher in einem Beitrag als in der Diskussion ausgesetzt wird (%)",
+                "general": "Allgemein",
+                "time-to-place": "Zeit, die zum Aussetzen der Fische zur Verfügung steht, bevor diese zufällig platziert werden (Minuten)",
+                "alert-round": "Auf der Startseite eine Meldung mit dem Namen und der Dauer der Runde anzeigen",
+                "animate-flip": "Fischbilder je nach Richtung spiegeln"
+            },
+            "permissions": {
+                "visible": "Fische anzeigen",
+                "list-rankings": "Auf die Rangliste zugreifen",
+                "participate": "Nimm an den Runden teil und fange Fische",
+                "choose-place": "Nach dem Fang den Aussetzort für den Fisch auswählen",
+                "choose-name": "Fischnamen nach dem Fang auswählen",
+                "moderate": "Runden und Fische moderieren"
+            }
+        },
+        "api": {
+            "default-fish-name": "Fisch #{number}",
+            "wrong-catch-placement": "Hier gibt es keinen Fisch. Vielleicht warst du nicht schnell genug und jemand ist dir zuvorgekommen.",
+            "too-many-placement-models": "Es ist jeweils nur eine Platzierung möglich",
+            "invalid-discussion-id": "Die Diskussion scheint es nicht zu geben, vielleicht wurde sie kürzlich gelöscht",
+            "invalid-post-id": "Den Beitrag scheint es nicht zu geben, vielleicht wurde er kürzlich gelöscht",
+            "invalid-user-id": "Den Benutzer scheint es nicht zu geben, vielleicht wurde er kürzlich gelöscht",
+            "model-deleted": "Fische können nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag ausgesetzt werden",
+            "model-private": "Fische können nicht in einer privaten Diskussion oder einem privaten Beitrag ausgesetzt werden",
+            "tag-not-allowed": "In diesem Tag kannst du keine Fische aussetzen",
+            "inactive-discussion": "Fische können nicht in einer Diskussion ausgesetzt werden, die seit mehr als {days} Tagen inaktiv ist",
+            "inactive-post": "Fische können nicht in einem Beitrag ausgesetzt werden, der vor mehr als {days} Tagen erstellt wurde",
+            "inactive-user": "Fische können nicht bei einem Benutzer ausgesetzt werden, der seit mehr als {days} Tagen inaktiv ist",
+            "non-comment-post": "Fische können nur in Kommentarbeiträgen ausgesetzt werden",
+            "user-suspended": "Fische können nicht bei einem gesperrten Benutzer ausgesetzt werden",
+            "random-error": "Ein zufälliger Aussetzort für den Fische konnte nicht generiert werden",
+            "cannot-catch-own-fish": "Du kannst einen Fisch, den du selbst ausgesetzt hast, nicht fangen",
+            "cannot-catch-hold-fish": "Der vorherige Angler muss den Fisch freilassen, bevor du ihn fangen kannst",
+            "fish-update-wrong-user": "Du kannst diesen Fisch nicht mehr bearbeiten. Wahrscheinlich hat ihn jemand anderes gefangen.",
+            "fish-update-expired": "Zu spät, du kannst diesen Fisch nicht mehr bearbeiten. Er wurde inzwischen automatisch anderswo ausgesetzt.",
+            "round-not-started": "Diese Runde hat noch nicht begonnen",
+            "round-finished": "Diese Runde ist abgeschlossen"
+        }
+    }
+}

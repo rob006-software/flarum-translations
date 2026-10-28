@@ -1,0 +1,230 @@
+{
+    "fof-translate": {
+        "admin": {
+            "detection": {
+                "cancel_button": "",
+                "counts_failed_text": "",
+                "detect_missing_button": "",
+                "discussions_status_text": "",
+                "heading": "",
+                "help": "",
+                "posts_status_text": "",
+                "progress_discussions_text": "",
+                "progress_posts_text": "",
+                "redetect_all_button": "",
+                "redetect_all_confirm": "",
+                "refresh_button": "",
+                "summary_cancelled_text": "",
+                "summary_done_text": "",
+                "summary_failed_text": "",
+                "undetermined_help": ""
+            },
+            "permissions": {
+                "refresh_label": "",
+                "translate_any_language_label": "",
+                "translate_label": ""
+            },
+            "settings": {
+                "ai": {
+                    "de_variant_help": "",
+                    "de_variant_label": "",
+                    "de_variant_options": {
+                        "casual": "",
+                        "swiss": ""
+                    },
+                    "en_variant_help": "",
+                    "en_variant_label": ""
+                },
+                "api_key_help": "",
+                "claude": {
+                    "api_key_label": "",
+                    "effort_help": "",
+                    "effort_label": "",
+                    "effort_options": {
+                        "high": "",
+                        "low": "",
+                        "medium": ""
+                    },
+                    "intro": "",
+                    "model_help": "",
+                    "model_label": ""
+                },
+                "deepl": {
+                    "api_key_label": "",
+                    "en_choice_help": "",
+                    "en_choice_label": "",
+                    "intro": "",
+                    "pt_choice_help": "",
+                    "pt_choice_label": "",
+                    "formality_help": "",
+                    "formality_label": "",
+                    "formality_options": {
+                        "default": "",
+                        "prefer_less": "",
+                        "prefer_more": ""
+                    },
+                    "glossaries_empty": "",
+                    "glossaries_failed": "",
+                    "glossaries_heading": "",
+                    "glossaries_help": "",
+                    "glossaries_reload_button": "",
+                    "glossaries_retry_button": "",
+                    "glossary_none_option": "",
+                    "glossary_pair_label": "",
+                    "model_type_help": "",
+                    "model_type_label": "",
+                    "model_type_options": {
+                        "latency_optimized": "",
+                        "prefer_quality_optimized": ""
+                    }
+                },
+                "driver_help": "",
+                "driver_label": "",
+                "driver_none_option": "",
+                "driver_not_configured": "",
+                "driver_recommended_option": "",
+                "driver_section_heading": "",
+                "driver_self_hosted_option": "",
+                "driver_unofficial_option": "",
+                "disabled_notice": "",
+                "english_options": {
+                    "en-GB": "",
+                    "en-US": ""
+                },
+                "portuguese_options": {
+                    "pt-BR": "",
+                    "pt-PT": ""
+                },
+                "env_override": "",
+                "env_override_named": "",
+                "glossary": {
+                    "add_button": "",
+                    "empty_text": "",
+                    "help": "",
+                    "label": "",
+                    "placeholder": "",
+                    "remove_button": ""
+                },
+                "google": {
+                    "intro": ""
+                },
+                "ollama": {
+                    "api_key_help": "",
+                    "api_key_label": "",
+                    "base_url_help": "",
+                    "base_url_label": "",
+                    "intro": "",
+                    "model_help": "",
+                    "model_label": "",
+                    "think_help": "",
+                    "think_label": "",
+                    "think_options": {
+                        "high": "",
+                        "low": "",
+                        "medium": "",
+                        "off": ""
+                    }
+                },
+                "openai": {
+                    "api_key_label": "",
+                    "intro": "",
+                    "max_tokens_help": "",
+                    "max_tokens_label": "",
+                    "model_help": "",
+                    "model_label": ""
+                },
+                "short_content_length_help": "",
+                "short_content_length_label": "",
+                "throttle_per_minute_help": "",
+                "throttle_per_minute_label": "",
+                "timeout_help": "",
+                "timeout_label": "",
+                "translate_all_enabled_help": "",
+                "translate_all_enabled_label": "",
+                "use_native_locale_names_help": "",
+                "use_native_locale_names_label": ""
+            },
+            "test": {
+                "button": "",
+                "detected_text": "",
+                "failed_text": "",
+                "failed_unknown_text": "",
+                "help": "",
+                "markup_warning": "",
+                "source_label": "",
+                "success_text": "",
+                "translation_label": ""
+            }
+        },
+        "forum": {
+            "poll": {
+                "show_original_button": ""
+            },
+            "translate_button": {
+                "dropdown_accessible_label": "",
+                "label": "",
+                "label_from": "",
+                "target_tooltip": ""
+            },
+            "translation": {
+                "close_button": "",
+                "header_from": "",
+                "header_to": "",
+                "loading_text": "",
+                "meta": "",
+                "refresh_button": "",
+                "show_original_button": "",
+                "stale_text": "",
+                "status_from": "",
+                "status_text": "",
+                "thread_failed_text": ""
+            }
+        },
+        "api": {
+            "already_in_language": "",
+            "glossaries_failed": "",
+            "invalid_detection_cursor": "",
+            "invalid_detection_type": "",
+            "no_driver": "",
+            "not_translatable": "",
+            "too_long": "",
+            "translation_failed": "",
+            "unsupported_locale": ""
+        },
+        "lib": {
+            "drivers": {
+                "claude": "",
+                "deepl": "",
+                "google": "",
+                "ollama": "",
+                "openai": ""
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "translationdata": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_translate": {
+                    "post_translation_refreshed": "",
+                    "discussion_translation_refreshed": "",
+                    "poll_translation_refreshed": "",
+                    "driver_tested": "",
+                    "language_detection_run": "",
+                    "translations_pruned": "",
+                    "translations_repaired": ""
+                }
+            }
+        }
+    }
+}

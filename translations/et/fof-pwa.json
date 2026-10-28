@@ -1,0 +1,160 @@
+{
+    "fof-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "",
+                "pwa_text": ""
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "Kirjeldus",
+                    "description_text": "",
+                    "long_name_label": "Pikk nimi",
+                    "long_name_text": "",
+                    "heading": "Info",
+                    "short_name_label": "Lühike nimi",
+                    "short_name_text": ""
+                },
+                "colors": {
+                    "heading": "Värvid",
+                    "background_color_label": "Taustavärv",
+                    "background_color_text": "",
+                    "theme_color_label": "Teema värv",
+                    "theme_color_text": ""
+                },
+                "maintenance": {
+                    "heading": "Hooldamine",
+                    "debug_label": "",
+                    "debug_text": "",
+                    "reset_vapid_button": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
+                },
+                "firebase_config": {
+                    "heading": "Firebase",
+                    "help_text": "",
+                    "upload_successful": "",
+                    "upload_file": "Laadi fail üles"
+                },
+                "other": {
+                    "heading": "Muu",
+                    "display_label": "",
+                    "display_text": "",
+                    "display_options": {
+                        "standalone": "",
+                        "minimal_ui": "",
+                        "fullscreen": "",
+                        "browser": ""
+                    },
+                    "orientation_label": "",
+                    "orientation_text": "",
+                    "orientation_options": {
+                        "any": "",
+                        "natural": "",
+                        "portrait": "",
+                        "portrait_primary": "",
+                        "portrait_secondary": "",
+                        "landscape": "",
+                        "landscape_primary": "",
+                        "landscape_secondary": ""
+                    },
+                    "push_notif_preference_default_to_email_label": "",
+                    "push_notif_preference_default_to_email_text": "",
+                    "window_controls_overlay_label": "",
+                    "window_controls_overlay_text": "",
+                    "user_max_subscriptions_label": "",
+                    "user_max_subscriptions_text": "",
+                    "push_notification_ttl_label": "",
+                    "push_notification_ttl_text": "",
+                    "share_buttons_label": "Luba jagamise nupu",
+                    "share_buttons_text": ""
+                },
+                "heading": "",
+                "text": "",
+                "status_check_heading": "Oleku kontroll",
+                "logo_heading": "Logod ja ikoonid",
+                "logo_text": "",
+                "logo_size_text": "",
+                "submit_button": "Salvesta seaded",
+                "refreshed_message": ""
+            },
+            "status": {
+                "config_no_https": "",
+                "possible_https_disabled": "",
+                "no_logo": "",
+                "no_name": "",
+                "no_vapid_keys": "",
+                "key_gen_failed": "",
+                "suggest_gmp": "",
+                "success": ""
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "",
+                "optin_enable_button": "",
+                "optin_success": "",
+                "optin_declined": "",
+                "optin_deferred": ""
+            },
+            "discussion_controls": {
+                "share_button": "Jaga"
+            },
+            "post_controls": {
+                "share_button": "Jaga",
+                "share_api": {
+                    "title": ""
+                }
+            },
+            "user_controls": {
+                "share_button": "Jaga"
+            },
+            "settings": {
+                "push_header": "",
+                "pwa_notifications": {
+                    "access_default": "",
+                    "access_default_button": "",
+                    "access_denied": "",
+                    "access_denied_button": "Õpi kuidas",
+                    "no_browser_support": "",
+                    "no_browser_support_button": "Loe lisa"
+                }
+            },
+            "notifications_help": {
+                "browser_notifications_title": "",
+                "title": "",
+                "description": "",
+                "chromium_title": "",
+                "chromium_instructions": "",
+                "firefox_title": "",
+                "firefox_instructions": "",
+                "safari_mac_title": "",
+                "safari_mac_instructions": "",
+                "safari_ios_title": "",
+                "safari_ios_instructions": ""
+            }
+        },
+        "api": {
+            "keys_invalid": "",
+            "endpoint_https_required": "",
+            "endpoint_host_not_allowed": ""
+        },
+        "views": {
+            "offline": {
+                "header": "Võrguühenduse viga",
+                "text": ""
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "pushsubscriptions": {
+                    "export_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    }
+}

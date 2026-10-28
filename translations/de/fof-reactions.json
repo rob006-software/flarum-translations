@@ -14,7 +14,7 @@
                 "no_reactions": "Noch keine Reaktionen",
                 "load_more": "Mehr laden",
                 "others_count": "+ {count, plural, one {# andere} other {# andere}}",
-                "remove_all_reaction_type": "Alle {Reaktion} Reaktionen entfernen",
+                "remove_all_reaction_type": "Alle {reaction} Reaktionen entfernen",
                 "remove_user_reaction": "Reaktion entfernen",
                 "confirm_remove_all_reaction_type": "Möchtest du wirklich alle {reaction}-Reaktionen von diesem Beitrag entfernen? Diese Aktion kann nicht rückgängig gemacht werden.",
                 "confirm_remove_user_reaction": "Möchtest du die Reaktion {reaction} von {username} wirklich von diesem Beitrag entfernen? Diese Aktion kann nicht rückgängig gemacht werden."
@@ -74,19 +74,34 @@
                         "legend": "Integrationen",
                         "warning": "Die gleiche Reaktion <strong>kann nicht</strong> in ein Gefällt-mir <strong>und</strong> ein Upvote umgewandelt werden",
                         "gamification": {
-                            "legend": "Gamifizierung",
+                            "legend": "Gamification",
                             "upvoteLabel": "Konvertiere Reaktionen in Upvotes",
-                            "upvoteHelptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest",
+                            "upvoteHelptext": "Gib den Bezeichner der Reaktion ein, die du automatisch in ein Upvote umwandeln möchtest",
                             "downvoteLabel": "Reaktionen in Downvotes umwandeln",
-                            "downvoteHelptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest"
+                            "downvoteHelptext": "Gib den Bezeichner der Reaktion ein, die du automatisch in ein Downvote umwandeln möchtest"
                         },
                         "likes": {
                             "legend": "Gefällt-mirs",
                             "Label": "Reaktionen zu Gefällt-mirs konvertieren",
-                            "Helptext": "Gebe den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
+                            "Helptext": "Gib den Bezeichner der Reaktion ein, die du automatisch in ein Gefällt mir umwandeln möchtest"
                         }
                     },
                     "save_settings": "Einstellungen speichern"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof-reactions": {
+                    "reaction_created": "Reaktion {reaction} erstellen",
+                    "reaction_updated": "{key} der Reaktion {reaction} von {old_value} zu {new_value} geändert",
+                    "reaction_enabled": "Reaktion {reaction} aktiviert",
+                    "reaction_disabled": "Reaktion {reaction} deaktiviert",
+                    "reaction_deleted": "Reaktion {reaction} gelöscht",
+                    "post_reaction_removed": "Reaktion {reaction} von {username} vom Beitrag {post} des Nutzers {postuser} in {discussion} entfernt",
+                    "post_reactions_removed": "{count, plural, one {Eine {reaction} Reaktion} other {# {reaction} Reaktionen}} vom Beitrag {post} von {postuser} in {discussion} entfernt"
                 }
             }
         }

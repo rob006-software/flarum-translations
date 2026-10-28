@@ -27,7 +27,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "{count, plural, one {Объединено 1 сообщение из {titles}.} other {Объединено {count} сообщений из {titles}.}}"
+                "merged": "{count, plural, one {Объединено # сообщение из {titles}.} other {Объединено # сообщений из {titles}.}}"
             }
         },
         "admin": {
@@ -55,6 +55,16 @@
             "merged": {
                 "body": "Ваша тема {merged_discussion_title} была объединена с {discussion_title} пользователем {actor_display_name}.\n\nПосмотрите её здесь: {discussion_url}\n",
                 "subject": "Ваша тема «{merged_discussion_title}» была объединена"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "Объединена {discussion} в {new_discussion}",
+                    "merged_into": "Объединено {post_count} сообщений из {original_discussion_ids_count} в {discussion}"
+                }
             }
         }
     }

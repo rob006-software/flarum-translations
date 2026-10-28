@@ -1,0 +1,282 @@
+{
+    "ernestdefoe-cadence": {
+        "forum": {
+            "map_label": "Aktivität im Zeitverlauf",
+            "metric_label": "Was angezeigt werden soll",
+            "kind_all": "Alle",
+            "kind_discussion": "Diskussionen",
+            "kind_reply": "Antworten",
+            "kind_like": "Likes",
+            "kind_reaction": "Reaktionen",
+            "kind_best_answer": "Beste Antworten",
+            "kind_count_discussion": "{count, plural, one {# Diskussion begonnen} other {# Diskussionen begonnen}}",
+            "kind_count_reply": "{count, plural, one {# Antwort} other {# Antworten}}",
+            "kind_count_like": "{count, plural, one {# Like vergeben} other {# Likes vergeben}}",
+            "kind_count_reaction": "{count, plural, one {# Reaktion} other {# Reaktionen}}",
+            "kind_count_best_answer": "{count, plural, one {# beste Antwort} other {# beste Antworten}}",
+            "nothing_on": "Nichts am {date}",
+            "count_on": "{count, plural, one {# Ereignis am {date}} other {# Ereignisse am {date}}}",
+            "spark_label": "{count, plural, one {# Ereignis in den vergangenen 26 Wochen} other {# Ereignisse in den vergangenen 26 Wochen}}",
+            "less": "Weniger",
+            "more": "Mehr",
+            "nothing": "Nichts",
+            "at_least": "{count, plural, one {# oder mehr} other {# oder mehr}}",
+            "streak": {
+                "page_title": "Serien",
+                "page_intro_contribute": "Jeder Tag, an dem du etwas postest, antwortest, likest oder reagierst, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.",
+                "page_intro_visit": "Jeder Tag an dem du vorbeischaust, hält deine Flamme am Leben. Wenn du zu viele Tage auslässt, erlischt sie. Halte sie am Leben.",
+                "profile_tab": "Serie",
+                "leaderboard": "Rangliste",
+                "your_flame": "Deine Flamme",
+                "their_flame": "{name}s Flamme",
+                "your_daily_streak": "Deine Tagesserie",
+                "your_streak_page": "Deine Serienseite",
+                "no_flame": "Noch keine Flamme",
+                "flame_out_short": "Flamme erloschen",
+                "best_short": "beste {count}",
+                "birthday": "Geburtstagsflamme",
+                "badge_label": "{count}-Tages Flamme · {tier}",
+                "day_flame": "{count}-Tages Flamme",
+                "days_count": "{count, plural, one {# Tag} other {# Tage}}",
+                "days_unit": "{count, plural, one {Tag} other {Tage}}",
+                "days_to_tier": "{count, plural, one {# Tag bis {tier}} other {# Tage bis {tier}}}",
+                "top_tier": "",
+                "rank": "Rang #{rank}",
+                "started": "Angefangen {date}",
+                "rival_ahead": "{member} liegt {count, plural, one {# Tag} other {# Tage}} vor dir.",
+                "rival_level": "",
+                "longest": "Längste Serie",
+                "total_days": "Tage insgesamt",
+                "freezes": "",
+                "feed_today": "",
+                "embers_title": "",
+                "embers_body": "",
+                "time_left": "{hours} h {minutes} m verbleiben",
+                "activity_log": "Aktivitätsprotokoll",
+                "active_days": "{count, plural, one {# aktiver Tag} other {# aktive Tage}}",
+                "legend_fed": "Genährt",
+                "legend_saved": "",
+                "calendar_title": "",
+                "journal_title": "",
+                "calendar": {
+                    "previous": "Vorheriger Monat",
+                    "next": "Nächster Monat",
+                    "fed": "",
+                    "saved": ""
+                },
+                "board": {
+                    "current": "Aktueller",
+                    "alltime": "Allzeit",
+                    "hall": "",
+                    "hall_intro": "",
+                    "alight_now": "",
+                    "flame_out": "",
+                    "empty": "",
+                    "building": "",
+                    "load_more": "Mehr laden"
+                },
+                "side": {
+                    "title": "",
+                    "alight": "",
+                    "fed_today": "",
+                    "best": "",
+                    "bonfire": "",
+                    "tiers": "",
+                    "from_days": "von {count, plural, one {# Tag} other {# Tagen}}",
+                    "how": ""
+                },
+                "bonfire": {
+                    "fed": "",
+                    "to_next": "",
+                    "max": ""
+                },
+                "how": {
+                    "contribute": "",
+                    "visit": "",
+                    "grace": "Verpasse {count, plural, one {# Tag} other {# Tag}} hintereinander und deine Flamme vergibt dir.",
+                    "freezes": "",
+                    "embers": "Eine Flamme die {count}+ Tage brannte und erlosch wird {hours} Stunden Glut hinterlassen. Schreibe etwas, um {share} davon zu retten.",
+                    "timezone": "Tage folgen deiner Zeitzone und nicht der des Servers."
+                },
+                "toast": {
+                    "day": "",
+                    "milestone": "Meilenstein erreicht: {count, plural, one {# Tag} other {# Tage}} durchgehendes Feuer.",
+                    "tier": "",
+                    "record": "Neue persönliche Bestleistung: {count, plural, one {# Tag} other {# Tage}}.",
+                    "saved": "",
+                    "revived": "Deine Flamme brennt wieder: {count, plural, one {# Tag} other {# Tage}}."
+                },
+                "warning": {
+                    "risk": "",
+                    "embers": "Deine {count}-tägige Flamme ist bis auf etwas Glut heruntergebrannt. Schreibe etwas, um sie wieder zu entfachen."
+                },
+                "notify_moments": "Meine Serien-Meilensteine, Stufen und Aufzeichnungen",
+                "notify_warnings": "",
+                "widgets": {
+                    "my_flame": "Meine Flamme",
+                    "top_flames": "Beste Flammen"
+                },
+                "settings": {
+                    "title": "Serien",
+                    "celebrate_help": "",
+                    "celebrate_all": "Jeden Tag",
+                    "celebrate_important": "Nur wichtige Momente",
+                    "celebrate_never": "Nie"
+                }
+            }
+        },
+        "lib": {
+            "streak": {
+                "tiers": {
+                    "spark": "Funke",
+                    "kindled": "Entzündet",
+                    "blaze": "Feuerball",
+                    "inferno": "Inferno",
+                    "eternal": "Ewige Flamme"
+                },
+                "journal": {
+                    "empty": "",
+                    "milestone": "{count, plural, one {# Tag} other {# Tage}} erreicht",
+                    "tier": "",
+                    "record": "",
+                    "saved": "",
+                    "ended": "",
+                    "revived": "",
+                    "given": "",
+                    "edited": "",
+                    "reset": ""
+                }
+            }
+        },
+        "admin": {
+            "map_heading": "",
+            "widgets": {
+                "my_flame": "",
+                "top_flames": "",
+                "bonfire": ""
+            },
+            "backfill": {
+                "activity": "",
+                "streaks": "",
+                "help": "",
+                "done": ""
+            },
+            "streak": {
+                "heading": "",
+                "enabled": "",
+                "enabled_help": "",
+                "off_notice": "",
+                "permission_view": "",
+                "permission_earn": "",
+                "mode": "",
+                "mode_help": "",
+                "mode_contribute": "",
+                "mode_visit": "",
+                "streak_grace": "",
+                "streak_grace_help": "",
+                "streak_milestones": "",
+                "streak_milestones_help": "",
+                "streak_freeze_per_milestone": "",
+                "streak_freeze_per_milestone_help": "",
+                "streak_freeze_bank": "",
+                "streak_freeze_bank_help": "",
+                "streak_embers_min": "",
+                "streak_embers_min_help": "",
+                "streak_embers_hours": "",
+                "streak_embers_hours_help": "",
+                "streak_embers_share": "",
+                "streak_embers_share_help": "",
+                "streak_hall_min": "",
+                "streak_hall_min_help": "",
+                "streak_risk_min": "",
+                "streak_risk_min_help": "",
+                "streak_risk_hour": "",
+                "streak_risk_hour_help": "",
+                "streak_bonfire_levels": "",
+                "streak_bonfire_levels_help": "",
+                "streak_timezone": "",
+                "streak_timezone_help": "",
+                "placements": "",
+                "in_header": "",
+                "in_header_help": "",
+                "on_posts": "",
+                "on_posts_help": "",
+                "on_cards": "",
+                "on_cards_help": "",
+                "on_profile": "",
+                "on_profile_help": "",
+                "nav": "",
+                "nav_help": "",
+                "sidebar": "",
+                "sidebar_help": "",
+                "remove": "",
+                "save_tiers": "",
+                "tiers": {
+                    "title": "",
+                    "help": "",
+                    "preview": "",
+                    "name": "",
+                    "days": "",
+                    "color": "",
+                    "icon": "",
+                    "glow": "",
+                    "enabled": "",
+                    "add": ""
+                },
+                "seasons": {
+                    "title": "",
+                    "help": "",
+                    "from": "",
+                    "to": "",
+                    "add": ""
+                },
+                "overview": {
+                    "title": "",
+                    "tracked": "",
+                    "alight": "",
+                    "fedToday": "",
+                    "best": "",
+                    "freezes": "",
+                    "embers": "",
+                    "by_tier": "",
+                    "from_days": "",
+                    "longest": "",
+                    "events": "",
+                    "days": "",
+                    "by": ""
+                },
+                "sheet": {
+                    "title": "",
+                    "help": "",
+                    "search": "",
+                    "current": "",
+                    "longest": "",
+                    "total": "",
+                    "freezes": "",
+                    "give": "",
+                    "edit": "",
+                    "revive": "",
+                    "reset": "",
+                    "reset_confirm": "",
+                    "done": ""
+                }
+            },
+            "show_on_profile": "Übersicht auf Benutzerprofilen anzeigen",
+            "show_on_profile_help": "Vollständige Übersicht auf jedem Profil. Das ist das, was sich die meisten Foren wünschen.\n",
+            "show_on_posts": "Neben jedem Beitrag eine Sparkline anzeigen",
+            "show_on_posts_help": "Eine kleine, 26 Wochen lange Nachverfolgung neben jedem Autor. Das kostet eine zusätzliche Abfrage pro eindeutigem Mitglied auf einer Seite – nicht pro Beitrag –, ist also kostengünstig, ist aber standardmäßig nicht angeschaltet, es sei denn, du aktivierst es ausdrücklich.\n",
+            "show_on_cards": "Sparkline auf Benutzerkarten anzeigen",
+            "show_on_cards_help": "Auf Hover-Karten und überall dort, wo ein Mitglied zusammengefasst wird.\n"
+        },
+        "email": {
+            "risk": {
+                "subject": "",
+                "body": ""
+            },
+            "embers": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

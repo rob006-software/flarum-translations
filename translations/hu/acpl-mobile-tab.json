@@ -1,42 +1,73 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "active_items": "",
-            "create_new_item_button": "",
+            "available_items": "Elérhető elemek",
+            "available_items_help": "Húzzon elemeket a listáról bármelyik változatra, hogy hozzáadja őket a mobilos laphoz.",
+            "create_new_item_button": "Elem létrehozása",
             "edit_item": {
-                "modal_title": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
-                "icon": "",
-                "icon_help": "",
-                "is_internal_checkbox": "",
-                "open_new_tab_checkbox": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_item_confirmation": ""
+                "modal_title": "Elem szerkesztése",
+                "help": "Többre van szüksége egy hivatkozásnál? Nézze meg a <a>fejlesztői dokumentációt</a> az egyéni elemekhez és viselkedéshez.",
+                "label": "Címke",
+                "label_placeholder": "Saját egyéni elem",
+                "path": "Elérési út",
+                "url": "URL",
+                "url_help": {
+                    "internal": "A cím {baseUrl} utáni része, amely / jellel kezdődik.",
+                    "external": "A teljes cím a <code>https://</code> résszel együtt."
+                },
+                "icon": "Ikon",
+                "icon_help": "Adja meg egy <a>FontAwesome</a> ikonosztály nevét, beleértve a <code>fas fa-</code> előtagot.",
+                "type": {
+                    "heading": "Mit csinál ez a hivatkozás",
+                    "internal": {
+                        "label": "A fórum egyik lapjára vezet",
+                        "help": "A lap újratöltése nélkül nyílik meg."
+                    },
+                    "external": {
+                        "label": "Egy másik webhelyre vezet",
+                        "help": "Egy a fórumtól eltérő címre vezet."
+                    }
+                },
+                "open_new_tab_checkbox": "Hivatkozás megnyitása új lapon",
+                "submit_button": "Mentés",
+                "delete_button": "Törlés",
+                "delete_item_confirmation": "Biztos, hogy törli ezt az elemet?",
+                "is_internal_checkbox": "Ez belső hivatkozás?"
+            },
+            "variants": {
+                "heading": "Mobilos lapváltozatok",
+                "empty_help": "Húzzon elemeket ide, hogy hozzáadja ehhez a változathoz.",
+                "help": "A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki. Hagyja üresen a változatot, hogy teljesen elrejtse a kiválasztott csoportok elől.",
+                "number": "#{number}",
+                "enabled": "Engedélyezve",
+                "visible_to": "Következők számára látható",
+                "reorder": "Változat átrendezése",
+                "delete": "Változat törlése",
+                "delete_confirmation": "Biztos, hogy törli ezt a változatot? Ez a művelet nem vonható vissza.",
+                "create": "Változat létrehozása"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
-            }
+                "toggle_label": "Láthatóság átállítása görgetéskor",
+                "threshold_label": "Görgetés küszöbértéke (képpont)",
+                "threshold_help": "Görgetési távolság a jelenlegi pozíciótól a láthatóság átállításához."
+            },
+            "active_items": "Aktív elemek"
         },
         "lib": {
             "item": {
-                "home": "",
-                "all_discussions": "",
-                "categories": "",
-                "notifications": "",
-                "session": "",
-                "search": "",
-                "log_in": "",
-                "profile": "",
-                "tags": "",
-                "messages": "",
-                "fof-byobu": ""
+                "home": "Főoldal",
+                "all_discussions": "Témák",
+                "new_discussion": "Új témák",
+                "notifications": "Értesítések",
+                "session": "Munkamenet",
+                "search": "Keresés",
+                "log_in": "Bejelentkezés",
+                "profile": "Profil",
+                "tags": "Címkék",
+                "messages": "Üzenetek",
+                "flags": "Jelzők",
+                "fof-byobu": "Privát",
+                "ramon-chat": "Csevegés"
             }
         }
     }

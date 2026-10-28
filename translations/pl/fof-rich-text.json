@@ -2,8 +2,8 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "Pokazać przełącznik trybu edytora wizualnego?",
-                "force_compact_paragraphs": ""
+                "toggle_on_editor": "Wyświetlaj przełącznik trybu edytora wizualnego",
+                "force_compact_paragraphs": "Wymuś zwarty układ akapitów u wszystkich użytkowników (Enter wstawia podział wiersza zamiast nowego akapitu)"
             }
         },
         "lib": {
@@ -21,31 +21,31 @@
                     "remove_button": "Usuń"
                 },
                 "additional_items_tooltip": "Dodatkowe elementy",
-                "bold_tooltip": "",
-                "code_tooltip": "",
+                "bold_tooltip": "Pogrubienie ({modifierKey}-b)",
+                "code_tooltip": "Kod w tekście ({modifierKey}-`)",
                 "code_block_tooltip": "Wstaw blok kodu",
-                "header_tooltip": "",
+                "header_tooltip": "Zmień na nagłówek poziomu {level} ({modifierKey}-shift-{level})",
                 "horizontal_rule_tooltip": "Wstaw poziomą linię",
                 "image_tooltip": "Wstaw obrazek",
-                "italic_tooltip": "",
+                "italic_tooltip": "Kursywa ({modifierKey}-i)",
                 "link_tooltip": "Wstaw link",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
+                "ordered_list_tooltip": "Lista numerowana ({modifierKey}-shift-9)",
+                "paragraph_tooltip": "Zmień na akapit ({modifierKey}-shift-0)",
+                "quote_tooltip": "Wstaw cytat ({modifierKey}-q)",
                 "spoiler_block_tooltip": "Rozwijany blok ze spoilerem",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
+                "spoiler_inline_tooltip": "Spoiler w tekście ({modifierKey}-;)",
+                "strike_tooltip": "Przekreślenie (alt-shift-5)",
+                "sub_tooltip": "Indeks dolny ({modifierKey}-,)",
+                "sup_tooltip": "Indeks górny ({modifierKey}-.)",
                 "text_type_tooltip": "Wybierz styl tekstu",
-                "unordered_list_tooltip": ""
+                "unordered_list_tooltip": "Lista punktowana ({modifierKey}-shift-8)"
             }
         },
         "forum": {
             "settings": {
                 "composer_heading": "Edytor",
-                "use_rich_text_editor_label": "Używać edytora wizualnego?",
-                "rich_text_compact_paragraphs_label": "Nie oddzielaj akapitów nową linią."
+                "use_rich_text_editor_label": "Używaj edytora wizualnego",
+                "rich_text_compact_paragraphs_label": "Nie oddzielaj akapitów pustą linią"
             }
         }
     }

@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.",
                 "secret_key_label": "Секретний ключ",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Помилка перевірки reCAPTCHA.",
-        "recaptcha-unknown": "Під час перевірки reCAPTCHA сталася невідома помилка ({errors})."
+        "recaptcha-unknown": "Під час перевірки reCAPTCHA сталася невідома помилка ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

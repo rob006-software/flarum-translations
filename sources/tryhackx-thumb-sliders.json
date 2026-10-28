@@ -31,7 +31,8 @@
                 "delete_modal_cancel": "Cancel",
                 "delete_modal_error": "Could not delete the image. Please try again.",
                 "clear_selection": "Use no selection",
-                "not_active_mode": "These images are only used when fallback mode is set to \"Custom uploaded image\"."
+                "not_active_mode": "These images are only used when fallback mode is set to \"Custom uploaded image\".",
+                "request_failed": "The request failed. Please try again."
             },
             "support": {
                 "button": "Support Development",
@@ -40,6 +41,20 @@
                 "copy": "Copy address",
                 "thanks": "Thank you for your support!"
             }
+        },
+        "api": {
+            "no_file": "No file was uploaded.",
+            "upload_error": "The upload failed (PHP upload error code {code}).",
+            "empty_file": "The uploaded file is empty.",
+            "too_large": "The file is too large (max 5 MB).",
+            "unsupported_extension": "Unsupported file extension. Allowed: webp, jpg, jpeg, png, gif, bmp, avif.",
+            "unsupported_type": "Unsupported file type ({mime}). Only raster images are accepted.",
+            "invalid_image": "The file is not a valid image.",
+            "save_failed": "Could not save the file. Check the server log for details.",
+            "invalid_filename": "Invalid filename.",
+            "not_found": "File not found.",
+            "delete_failed": "Could not delete the file. Check the server log for details.",
+            "list_failed": "Could not list the uploaded images. Check the server log for details."
         }
     },
     "tryhackx-avatars": {

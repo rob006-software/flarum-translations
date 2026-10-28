@@ -6,17 +6,69 @@
                 "view_birthday_label": "Prikaži rođendan"
             },
             "settings": {
+                "min_age_help": "Minimalna dob za registraciju",
+                "min_age_label": "Minimalna dob",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Omogući postavljanje rođendana prilikom registracije",
                 "required_label": "Obavezni unos datuma rođenja",
                 "required_help": "Potrebno je omogućiti opciju \"Postavi pri registraciji\" kako bi ova opcija funkcionirala",
-                "min_age_label": "Minimalna dob",
-                "min_age_help": "Minimalna dob za registraciju",
                 "date_format_label": "Format datuma",
                 "date_format_help": "Koristite <a>dayjs</a> format datuma. Ostavite prazno za korištenje zadanog formata.",
                 "date_none_year_label": "Format datuma bez godine"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Današnji rođendani"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Tema: #} other {Teme: #}}",
+                "post_count": "{count, plural, one {Objava: #} other {Objave: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Promijeni datum rođenja",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Prikaži dan i mjesec rođenja",
+                "show_dob_year_label": "Prikaži godinu rođenja",
+                "show_dob_year_help": "Ovo će omogućiti drugima da vide vašu dob."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Rođendan: {date}",
                 "age_text": "Dob: {age}"
@@ -26,28 +78,24 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Promijeni datum rođenja",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Prikaži dan i mjesec rođenja",
-                "show_dob_year_label": "Prikaži godinu rođenja",
-                "show_dob_year_help": "Ovo će omogućiti drugima da vide vašu dob."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Današnji rođendani"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Tema: #} other {Teme: #}}",
-                "post_count": "{count, plural, one {Objava: #} other {Objave: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Neispravan datum rođenja",
-            "invalid_age_message": "Vaša dob mora biti najmanje {minAge} godina.",
-            "birthday_required_message": ""
+            "invalid_age_message": "Vaša dob mora biti najmanje {minAge} godina."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Datum rođenja"

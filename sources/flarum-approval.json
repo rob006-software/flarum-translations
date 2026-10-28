@@ -21,5 +21,17 @@
         "ref": {
             "awaiting_approval": "Awaiting approval"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "Approved {discussion}"
+                },
+                "post": {
+                    "approved": "Approved {postuser}'s {post} in {discussion}"
+                }
+            }
+        }
     }
 }

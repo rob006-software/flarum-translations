@@ -3,6 +3,7 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "مفتاح API",
+                "invalid_api_key_message": "",
                 "title": "إعدادات Akismet",
                 "delete_blatant_spam_label": "حذف الرسائل الفاضحة غير المرغوب فيها تلقائيًا",
                 "delete_blatant_spam_help": "إذا قرر Akismet أن التعليق هو بريد عشوائي فاضح، فبدلاً من وضع علامة عليه، سيحذف المنشور تلقائيًا"

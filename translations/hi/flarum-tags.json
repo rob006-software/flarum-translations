@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "टैग हटाएं",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "क्या आप वाकई इस टैग को हटाना चाहते हैं? टैग की गयी चर्चाएँ हटाई नहीं जाएँगी।",
                 "description_label": "विवरण",
                 "hide_label": "सभी चर्चाओं से छुपाएं",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "टैग संपादित करें"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {एक और टैग चुनें} other {# और टैग चुनें}}",
             "name": "नाम",
             "tags": "टैग"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

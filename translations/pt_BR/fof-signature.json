@@ -2,51 +2,51 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Assinatura",
+                "save": "Salvar Assinatura",
+                "edit": "Editar Assinatura"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "remote_images_not_allowed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Limite máximo de caracteres excedido.",
+                "max_image_count_exceed": "Número máximo de imagens excedido.",
+                "remote_images_not_allowed": "Imagens remotas não são permitidas em assinaturas.",
+                "save_failed": "Algo deu errado ao salvar sua assinatura."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Edite sua assinatura aqui"
             },
             "settings": {
-                "heading": ""
+                "heading": "Assinatura"
             },
             "profile": {
-                "click": ""
+                "click": "Clique para escrever sua assinatura"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Editar assinaturas de outros usuários",
+                "allow_signature": "Pode ter uma assinatura"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Máximo de imagens inseridas.",
+                    "help": "Quando o usuário exceder o número máximo de imagens na assinatura, não conseguirá salvar até ajustar o número de imagens."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Limite máximo de caracteres da assinatura.",
+                    "help": "Quando o usuário exceder o limite máximo de caracteres na assinatura, não conseguirá salvar até ajustar o número de caracteres."
                 },
                 "allow_remote_images": {
-                    "description": "",
-                    "help": ""
+                    "description": "Permitir imagens remotas.",
+                    "help": "Quando desativado, os usuários não podem usar imagens hospedadas em outros sites na assinatura. Isso impede que imagens externas rastreiem o endereço IP de todos que veem a assinatura."
                 },
                 "allowed_image_hosts": {
-                    "description": "",
-                    "help": ""
+                    "description": "Hosts de imagem permitidos.",
+                    "help": "Quando as imagens remotas estão desativadas, imagens destes hosts ainda são permitidas (além do seu próprio fórum). Digite um host por linha, ex.: sua CDN, como cdn.example.com."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Edição inline da assinatura.",
+                    "help": "Quando ativado, os usuários podem editar a assinatura enquanto veem um post."
                 }
             }
         }

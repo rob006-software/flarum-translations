@@ -7,18 +7,18 @@
                     "help": "Ezek a beállítások vezérlik a Szavazások bővítmény alapvető funkcióit."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Szavazási bejegyzések",
+                    "help": "Ezek a beállítások a hozzászólásokhoz csatolt szavazásokat szabályozzák."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Szavazási bejegyzések engedélyezése",
+                "enable_discussion_polls_help": "Ha engedélyezve van, a felhasználók szavazásokat hozhatnak létre a fórumhozzászólásokon belül. Kapcsolja ki ezt a beállítást, ha kizárólag globális szavazásokat használna.",
                 "global_polls": {
                     "heading": "Globális szavazások",
                     "help": "Ezek a beállítások vezérlik a globális szavazási funkciót."
                 },
                 "image": {
                     "heading": "Képbeállítások",
-                    "help": ""
+                    "help": "Képfeltöltési korlátok és méretek beállítása. A képeket a rendszer automatikusan WebP formátumba alakítja át, és reszponzív változatokat állít elő."
                 },
                 "enable_global_polls": "Globális szavazások engedélyezése",
                 "enable_global_polls_help": "A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.",
@@ -27,11 +27,11 @@
                 "max_options": "A lehetőségek legnagyobb száma szavazásonként",
                 "options_color_blend": "Színkeverés használata a szavazási lehetőségek szövegénél",
                 "options_color_blend_help": "Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "A feltölthető képek legnagyobb mérete (kB)",
+                "max_image_upload_size_help": "A feltölthető képek legnagyobb mérete kilobájtban. A képek a feltöltés után automatikusan WebP formátumra lesznek alakítva, és át lesznek méretezve, így a végső tárolási méret általában jóval kisebb lesz. Az alapértelmezett érték 10240 kB (10 MB).",
+                "image_height": "Kép magasságának átméretezése (px)",
+                "image_width": "Kép szélességének átméretezése (px)",
+                "image_dimensions_help": "A tárolt képek alapvető mérete. A HiDPI változatok (@2x, @3x) automatikusan elő lesznek állítva, ha a forráskép elég nagy."
             },
             "permissions": {
                 "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
@@ -53,7 +53,7 @@
             "no_permission": "Nincs joga szavazni",
             "poll_ended": "A szavazás véget ért.",
             "public_poll": "Szavazók megtekintése",
-            "max_votes_allowed": "A szavazásban legfeljebb {max} lehetőség választható.",
+            "max_votes_allowed": "A szavazásban legfeljebb {max, plural, one {# lehetőség} other {# lehetőség}} választható.",
             "polls_count": "{count, plural, one { {count} szavazat} other {{count} szavazat}}",
             "poll_never_ends": "A szavazás sosem ér véget",
             "answers": "Válaszok",
@@ -63,28 +63,28 @@
                 "start_poll_button": "Globális szavazás indítása",
                 "cannot_start_poll_button": "A szavazás nem indítható el",
                 "total_votes": "{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "draft_label": "Vázlat",
+                "scheduled_label": "Ütemezve: {date}",
+                "scheduled_error_tooltip": "Az ütemezett publikálás sikertelen. Nyissa meg a szavazást, hogy lássa miért."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Szavazásvezérlők menüje be/ki",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Biztos, hogy törli ezt a szavazást?",
                 "delete_success_message": "A szavazás sikeresen törölve.",
                 "delete_error_message": "Hiba történt a szavazás törlése során.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Közzététel most",
+                "publish_success": "Szavazás közzétéve.",
+                "schedule_publish_label": "Közzététel ütemezése",
+                "edit_schedule_publish_label": "Ütemezett közzététel szerkesztése",
+                "cancel_schedule_label": "Ütemezett közzététel megszakítása",
+                "cancel_schedule_success": "Ütemezett közzététel megszakítva.",
+                "unpublish_label": "Visszaállítás vázlattá",
+                "unpublish_confirmation": "Visszaállítja a szavazást vázlattá? El fogja tüntetni a kiemelésből.",
+                "unpublish_success": "Szavazás visszaállítva vázlattá.",
+                "unpublish_error_has_votes": "A közzététel nem vonható vissza – a szavazáson már vannak szavazatok. Helyette törölje."
             },
             "poll_form": {
                 "delete": "Szavazás törlése",
@@ -96,6 +96,9 @@
                     "edit_title": "Szavazáscsoport szerkesztése",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Szavazáscsoport törlése",
+                    "name_label": "Név",
+                    "name_required": "Névre van szükség egy szavazáscsoporthoz.",
+                    "error": "Hiba történt a szavazáscsoport mentésekor, vegye fel a kapcsolatot egy rendszergazdával.",
                     "groups_manager": "Szavazáscsoport-kezelő",
                     "view_group": "Szavazáscsoport megtekintése",
                     "success": "Szavazáscsoport sikeresen mentve."
@@ -135,9 +138,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Összes",
+                    "published": "Közzétéve",
+                    "draft": "Vázlatok"
                 }
             },
             "composer_discussion": {
@@ -152,16 +155,16 @@
                 "polls_preview": "Szavazás megtekintése",
                 "continue_editing": "Szerkesztés folytatása",
                 "success": "Szavazás sikeresen mentve.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Beküldés",
+                "save_as_draft": "Mentés vázlatként",
+                "update_draft": "Vázlat frissítése",
+                "draft_saved": "Vázlat mentve",
+                "publish": "Közzététel",
+                "schedule_publication": "Közzététel ütemezése",
+                "schedule_publication_edit": "Ütemezett közzététel szerkesztése",
+                "schedule_datetime_label": "Közzététel ideje:",
+                "schedule_submit": "Ütemezés",
+                "schedule": "Ütemezés"
             },
             "modal": {
                 "add_title": "Szavazás hozzáadása",
@@ -171,11 +174,12 @@
                 "include_question": "Lennie kell egy kérdésnek",
                 "max": "Legfeljebb {max} válasz lehet",
                 "min": "Legalább 2 választ meg kell adni",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# válasz üres – töltse ki vagy távolítsa el.} other {# válasz üres – töltse ki vagy távolítsa el őket.}}",
                 "no_voters": "Nincs szavazat",
                 "option_placeholder": "Válasz",
                 "image_option_placeholder": "Kép webcíme (nem kötelező)",
                 "options_label": "Válaszok",
+                "settings_label": "Szavazás",
                 "public_poll_label": "A felhasználók megnézhetik ki szavazott",
                 "allow_multiple_votes_label": "Az emberek több lehetőségre is szavazhatnak",
                 "max_votes_label": "Szavazatok maximális száma felhasználónként",
@@ -193,17 +197,17 @@
                     "help": "Töltsön fel egy képet, amely a szavazás mellett jelenik meg (nem kötelező).",
                     "alt_label": "Kép alternatív szövege",
                     "alt_help_text": "Ez a szöveg kép megadása esetén szükséges, ez fog megjelenni, ha a kép betöltése sikertelen.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Egy a bejegyzés külső képwebcímet használ. A külső webcímek elavultak, és el lesznek távolítva a jövőbeli verziókból. Töltse fel újra a képet a feltöltés gomb használatával."
                 },
                 "poll_option_image": {
                     "label": "Szavazás válaszának képe",
                     "help": "Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (nem kötelező)."
                 },
-                "date_clear": "",
+                "date_clear": "Befejezési időpont törlése",
                 "tooltip": {
                     "options": {
                         "add-button": "Válasz hozzáadása",
-                        "remove-button": ""
+                        "remove-button": "Válasz eltávolítása"
                     }
                 }
             },
@@ -226,7 +230,7 @@
             },
             "tooltip": {
                 "badge": "Szavazás",
-                "votes": "{count} szavazat"
+                "votes": "{count, plural, one {# szavazat} other {# szavazat}}"
             },
             "votes_modal": {
                 "title": "Szavazók"
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Kép törlése",
                 "upload_button": "Kép feltöltése"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "A(z) {title} szavazás létrehozva",
+                    "updated": "A(z) {title} szavazás frissítve",
+                    "deleted": "A(z) {title} szavazás törölve",
+                    "published": "A(z) {title} szavazás közzétéve",
+                    "unpublished": "A(z) {title} szavazás közzététele visszavonva",
+                    "voted": "Szavazat leadva a(z) {title} szavazásban"
+                },
+                "poll_group": {
+                    "created": "A(z) {name} szavazáscsoport létrehozva",
+                    "updated": "A(z) {name} szavazáscsoport frissítve",
+                    "deleted": "A(z) {name} szavazáscsoport törölve"
+                }
             }
         }
     }

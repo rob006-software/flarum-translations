@@ -1,0 +1,291 @@
+{
+    "ernestdefoe-brainstorm": {
+        "api": {
+            "title": "Gib dem Quiz einen Titel mit bis zu 200 Zeichen.",
+            "dates": "Das Enddatum muss nach dem Startdatum liegen.",
+            "publish_empty": "Füge mindestens eine Frage hinzu, bevor du es veröffentlichst.",
+            "too_many_questions": "Ein Quiz darf bis zu {max} Fragen beinhalten.",
+            "question_type": "Frage {number} ist von einem Typ, den dieses Forum nicht kennt.",
+            "question_body": "Frage {number} benötigt eine Fragt mit bis zu 5000 Zeichen.",
+            "option_length": "Eine Antwort in Frage {number} ist länger als 300 Zeichen.",
+            "option_count": "Frage {number} benötigt {min} bis {max} Antworten.",
+            "accepted_count": "Frage {number} benötigt {min} bis {max} akzeptierte Antworten.",
+            "no_correct": "Markiere mindestens eine richtige Antwort in Frage {number}.",
+            "image_url": "Das Bild für Frage {number} muss eine Webadresse beginnend mit http:// oder https:// oder ein Pfad auf diesem Forum sein.",
+            "reward_locked": "Da es bei diesem Quiz um Punkte oder ein Abzeichen geht, können die Antworten, Punkte und die Mindestpunktzahl nur von Mitarbeitern geändert werden, die Belohnungen vergeben dürfen. Den Wortlaut des Quiz kannst du jedoch weiterhin bearbeiten.",
+            "no_attempts_left": "Du hast alle deine Versuche für dieses Quiz aufgebraucht.",
+            "no_questions": "Dieses Quiz hat noch keine Fragen.",
+            "slow_down": "Das ist ziemlich viel in so kurzer Zeit. Warte ein paar Minuten und versuche es dann erneut."
+        },
+        "lib": {
+            "units": {
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+                "seconds": "{count, plural, one {# Sekunde} other {# Sekunden}}"
+            }
+        },
+        "forum": {
+            "nav": "Quiz",
+            "draft": "Entwurf",
+            "settings": {
+                "private": "Zeige mich nicht auf Quiz-Ranglisten an"
+            },
+            "composer": {
+                "add": "Quiz",
+                "title": "Füge ein Quiz zu deinem Beitrag hinzu",
+                "search": "Quiz durchsuchen",
+                "meta": "{count, plural, one {# Frage} other {# Fragen}}",
+                "none": "Keine Quiz gefunden.",
+                "create": "Neues Quiz schreiben"
+            },
+            "facts": {
+                "questions": "{count, plural, one {# Frage} other {# Fragen}}",
+                "pass_mark": "Bestanden: {mark} %",
+                "attempts": "{count, plural, one {# Versuch} other {# Versuche}}",
+                "attempts_left": "{count} von {max} Versuchen verbleiben",
+                "points": "{count, plural, one {# Punkt} other {# Punkte}}",
+                "badge": "Abzeichen: {name}"
+            },
+            "card": {
+                "best": "Dein bestes Ergebnis: {score}",
+                "log_in": "Anmelden, um mitzuspielen",
+                "cannot_take": "Du kannst hier kein Quiz einstellen.",
+                "closed": "Nimmt keine Versuche an",
+                "no_attempts": "Keine Versuche übrig",
+                "start": "Quiz starten",
+                "resume": "Fortsetzen",
+                "again": "Erneut versuchen",
+                "preview": "Probiere es aus"
+            },
+            "index": {
+                "title": "Quiz",
+                "new": "Neues Quiz",
+                "search": "Quiz durchsuchen",
+                "more": "Mehr laden",
+                "empty": "Noch keine Quiz.",
+                "no_results": "Kein Quiz entspricht der Suche.",
+                "tabs": {
+                    "new": "Neueste",
+                    "popular": "Meistgespielt",
+                    "mine": "Meine"
+                }
+            },
+            "quiz": {
+                "all": "Alle Quiz",
+                "missing": "Dieses Quiz existiert nicht oder du darfst nicht darauf zugreifen.",
+                "stats": "{taken, plural, one {# Versuch} other {# Versuche}} · {passed} bestanden",
+                "edit": "Bearbeiten",
+                "copy_link": "Link zu einem Beitrag kopieren",
+                "link_copied": "Link wurde kopiert. Füge ihn in einer eigenen Zeile in einen Beitrag ein, dann wird das Quiz dort angezeigt.",
+                "delete": "Löschen",
+                "delete_confirm": "",
+                "opens": "Öffnet {time}",
+                "closes": "Schließt {time}",
+                "closed": "Für neue Versuche geschlossen.",
+                "tabs": {
+                    "board": "Rangliste",
+                    "results": "Ergebnisse"
+                }
+            },
+            "player": {
+                "question_of": "Frage {number} von {total}",
+                "review_heading": "",
+                "answered": "{count} von {total} beantwortet",
+                "time_left": "Zeit übrig",
+                "practice": "Üben",
+                "choose_all": "",
+                "type_answer": "Gib deine Antwort ein",
+                "true": "Wahr",
+                "false": "Falsch",
+                "points": "{count, plural, one {# Punkt wert} other {# Punkte wert}}",
+                "previous": "Vorheriger",
+                "next": "Nächster",
+                "finish": "",
+                "unanswered": "",
+                "all_answered": "",
+                "back": "Zurück zu den Fragen",
+                "submit": "Einreichen",
+                "jump": "Fragen",
+                "error": "",
+                "close": "Schließen"
+            },
+            "result": {
+                "passed": "Bestanden!",
+                "not_passed": "",
+                "score": "{score} von {max} Punkten ({percent}), Mindestbewertung {mark} %",
+                "time": "Zeit {time}",
+                "expired": "",
+                "practice": "",
+                "attempts_left": "",
+                "again": "Erneut versuchen",
+                "close": "Schließen",
+                "right": "Richtig",
+                "partial": "",
+                "wrong": "",
+                "you_typed": "",
+                "no_answer": "(Keine Antwort)",
+                "accepted": "",
+                "your_answer": "Deine Antwort",
+                "key_hidden": ""
+            },
+            "leaderboard": {
+                "title": "Rangliste",
+                "overall": "Top-Quizzer",
+                "overall_help": "",
+                "see_all": "",
+                "back": "Alle Quiz",
+                "passed": "",
+                "average": "",
+                "empty": "",
+                "off": "Dieses Quiz hat keine Rangliste.",
+                "you_quiz": "",
+                "you_overall": ""
+            },
+            "results": {
+                "questions": "",
+                "asked": "",
+                "attempts": "",
+                "none": "",
+                "more": "",
+                "practice": "",
+                "expired": "",
+                "deleted_user": "",
+                "reset": "",
+                "reset_confirm": ""
+            },
+            "editor": {
+                "new_title": "",
+                "edit_title": "",
+                "view": "",
+                "title": "Titel",
+                "description": "Einführung",
+                "formatting_help": "",
+                "questions": "{count, plural, one {# Frage} other {# Fragen}}",
+                "question": "Frage",
+                "question_placeholder": "",
+                "untitled": "",
+                "type": "",
+                "types": {
+                    "single": "Eine Antwort",
+                    "multiple": "Mehrere Antworten",
+                    "boolean": "Wahr oder falsch",
+                    "text": "Eingegebene Antwort"
+                },
+                "drag": "",
+                "sortable": "",
+                "duplicate": "",
+                "remove": "",
+                "remove_confirm": "",
+                "image": "Bildadresse",
+                "image_placeholder": "Bildadresse (optional)",
+                "pick_image": "",
+                "correct_answer": "Die richtige Antwort",
+                "single_help": "",
+                "multiple_help": "",
+                "accepted_help": "",
+                "mark_correct": "Richtige Antwort",
+                "answer": "Antwort {number}",
+                "accepted": "",
+                "remove_answer": "Entfernen",
+                "add_answer": "Eine Antwort hinzufügen",
+                "add_accepted": "",
+                "points": "Punkte",
+                "explanation": "Erklärung",
+                "explanation_placeholder": "",
+                "settings": "Einstellungen",
+                "time_limit": "",
+                "time_limit_help": "",
+                "minutes": "",
+                "seconds": "",
+                "pass_mark": "",
+                "pass_mark_help": "",
+                "max_attempts": "Versuche",
+                "max_attempts_help": "",
+                "question_pick": "",
+                "question_pick_help": "",
+                "unlimited": "",
+                "shuffle_questions": "",
+                "shuffle_options": "",
+                "partial_credit": "",
+                "leaderboard": "Rangliste",
+                "reveal": "",
+                "reveals": {
+                    "score": "",
+                    "mistakes": "",
+                    "answers": "",
+                    "answers_always": ""
+                },
+                "reveal_help": {
+                    "score": "",
+                    "mistakes": "",
+                    "answers": "",
+                    "answers_always": ""
+                },
+                "opens_at": "",
+                "closes_at": "",
+                "rewards": "",
+                "rewards_help": "",
+                "reward_points": "",
+                "reward_points_help": "",
+                "reward_badge": "",
+                "no_badge": "",
+                "save_draft": "",
+                "unpublish": "",
+                "publish": "",
+                "save": "",
+                "saved": "",
+                "published": "",
+                "save_failed": ""
+            },
+            "widget": {
+                "name": "",
+                "title": "",
+                "heading": "",
+                "show": "",
+                "show_leaderboard": "",
+                "show_latest": "",
+                "limit": "",
+                "all": ""
+            }
+        },
+        "admin": {
+            "widgets": {
+                "quizzes": ""
+            },
+            "permissions": {
+                "view": "",
+                "take": "",
+                "create": "",
+                "manage": "",
+                "reward": ""
+            },
+            "settings": {
+                "show_nav": ""
+            },
+            "badges": {
+                "quizzes_passed": "",
+                "perfect_scores": ""
+            }
+        }
+    },
+    "ernestdefoe-onramp": {
+        "lib": {
+            "types": {
+                "brainstorm": {
+                    "passed": {
+                        "title": "",
+                        "description": "",
+                        "button": ""
+                    }
+                }
+            }
+        },
+        "admin": {
+            "types": {
+                "brainstorm": {
+                    "passed": ""
+                }
+            }
+        }
+    }
+}

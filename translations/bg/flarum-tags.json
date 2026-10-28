@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Изтриване на таг",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Сигурни ли сте, че искате да изтриете този таг? Дискусиите на тага НЯМА да бъдат изтрити.",
                 "description_label": "Описание",
                 "hide_label": "Скриване от всички дискусии",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Редактиране на тагове"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {Изберете още 1 таг} other {Изберете още # тага}}",
             "name": "Име",
             "tags": "Тагове"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

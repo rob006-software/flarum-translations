@@ -12,6 +12,9 @@
                 "schedule_log_output": "儲存計劃任務日誌"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "定時發佈功能已被禁用。",
             "no_title_error": ""
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "自動儲存草稿？",
                     "draft_autosave_interval_label": "自動儲存頻率（秒）",
                     "draft_autosave_interval_button": "更新頻率",
-                    "draft_autosave_interval_invalid": "請輸入大於4的整數。"
+                    "draft_autosave_interval_invalid": "請輸入大於4的整數。",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }

@@ -1,0 +1,40 @@
+{
+    "tapao-moderationai": {
+        "admin": {
+            "settings": {
+                "title": "ModerationAI Settings",
+                "api_key_label": "OpenAI API Key",
+                "api_key_placeholder": "sk-...",
+                "model_label": "Moderation Model",
+                "enabled_label": "Enable Auto-Moderation",
+                "mode_label": "Moderation Mode",
+                "mode_sync": "Synchronous (block before save)",
+                "mode_async": "Asynchronous (review after save)",
+                "scan_images_label": "Moderate Images (omni-moderation-latest required)",
+                "scan_private_messages_label": "Moderate Private Messages (fof/byobu)",
+                "exempt_groups_label": "Exempt User Groups",
+                "thresholds_heading": "Per-Category Thresholds & Actions",
+                "trust_skip_threshold_label": "Trust Score — Skip threshold (0–100)",
+                "trust_skip_threshold_help": "Users scoring above this are not moderated (trust system).",
+                "webhook_url_label": "Webhook URL (optional)",
+                "webhook_url_help": "POSTed JSON on every flagged item.",
+                "test_connection": "Test API Connection",
+                "connection_ok": "✓ API connection successful",
+                "connection_fail": "✗ API connection failed — check API key"
+            },
+            "log": {
+                "title": "Moderation Log",
+                "approve": "Approve",
+                "reject": "Reject (Restore Content)",
+                "escalate": "Escalate",
+                "pending": "Pending Review",
+                "decision_approved": "✓ Approved",
+                "decision_rejected": "✗ Rejected (restored)"
+            }
+        },
+        "forum": {
+            "post_under_review": "Your post is being reviewed by our moderation system and will appear shortly.",
+            "upload_rejected": "This file was rejected by the content moderation system."
+        }
+    }
+}

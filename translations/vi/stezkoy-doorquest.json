@@ -1,0 +1,87 @@
+{
+    "stezkoy-doorquest": {
+        "forum": {
+            "sign_up": {
+                "question_label": "Câu hỏi",
+                "answer_placeholder": "Câu trả lời của bạn",
+                "invalid_answer": "Câu trả lời không đúng. Vui lòng thử lại.",
+                "answer_required": "Bạn phải trả lời câu hỏi để đăng ký."
+            }
+        },
+        "admin": {
+            "settings": {
+                "heading": "Cài đặt Doorquest",
+                "total_questions": "{count} câu hỏi",
+                "search": "Tìm câu hỏi...",
+                "create_question_button": "Tạo câu hỏi"
+            },
+            "list": {
+                "heading": "Câu hỏi",
+                "columns": {
+                    "id": "ID",
+                    "question": "Câu hỏi",
+                    "answer": "Câu trả lời",
+                    "group": "Nhóm",
+                    "max_uses": "Số lần dùng tối đa",
+                    "activates_user": "Kích hoạt",
+                    "uses": "Lượt dùng",
+                    "created_by": "Tạo bởi",
+                    "manage": "Quản lý"
+                },
+                "actions": {
+                    "edit": "Sửa",
+                    "delete": "Xóa"
+                },
+                "content": {
+                    "no_group": "Không có",
+                    "no_created_by": "—",
+                    "delete": "Bạn có chắc chắn muốn xóa câu hỏi: \"{question}\" không?",
+                    "warning": "Đã đạt giới hạn",
+                    "uses": {
+                        "used_times": "còn {remainingUses}",
+                        "total_uses": "Đã dùng {totalUses} lần"
+                    },
+                    "invalid_column": "—"
+                },
+                "pagination": {
+                    "first_page_button": "Trang đầu",
+                    "back_button": "Trang trước",
+                    "next_button": "Trang sau",
+                    "last_page_button": "Trang cuối",
+                    "page_counter": "Trang {current} / {total}"
+                }
+            },
+            "modals": {
+                "create_question": {
+                    "title": "Tạo câu hỏi",
+                    "question": {
+                        "label": "Câu hỏi",
+                        "help": "Câu hỏi mà người dùng sẽ thấy khi đăng ký."
+                    },
+                    "answer": {
+                        "label": "Câu trả lời",
+                        "help": "Câu trả lời đúng (không phân biệt hoa thường)."
+                    },
+                    "group": {
+                        "label": "Gán vào nhóm",
+                        "help": "Những người trả lời đúng sẽ được thêm vào nhóm này."
+                    },
+                    "max_uses": {
+                        "label": "Số lần dùng tối đa",
+                        "help": "Số lần tối đa câu hỏi này được trả lời. 0 = không giới hạn."
+                    },
+                    "activates_user": {
+                        "label": "Tự động kích hoạt",
+                        "help": "Tự động kích hoạt người dùng mà không cần xác nhận email."
+                    },
+                    "submit_button": "Tạo",
+                    "submit_and_create_another_button": "Tạo và thêm câu khác"
+                },
+                "edit_question": {
+                    "title": "Sửa câu hỏi",
+                    "submit_button": "Lưu thay đổi"
+                }
+            }
+        }
+    }
+}

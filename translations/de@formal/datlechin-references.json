@@ -1,0 +1,241 @@
+{
+    "datlechin-references": {
+        "admin": {
+            "sections": {
+                "behaviour_label": "Verhalten",
+                "behaviour_description": "Welche Links in Beiträgen als Verweise aufgenommen werden.",
+                "display_label": "Anzeige",
+                "display_description": "Wo Verweise angezeigt werden und wie viele aufgelistet werden, bevor die Liste abgeschnitten wird.",
+                "notifications_label": "",
+                "notifications_description": "",
+                "advanced_label": "",
+                "advanced_description": "",
+                "extensions_label": "Andere Erweiterungen",
+                "extensions_description": "Einstellungen, die andere Erweiterungen dieser Seite hinzufügen.",
+                "discovery_label": "Entdecken",
+                "discovery_description": "Das Widget, das vom Verweisgraph gefüllt wird.",
+                "maintenance_label": "Wartung",
+                "maintenance_description": "Wie lange ein Verweis auf gelöschte Inhalte aufbewahrt wird."
+            },
+            "settings": {
+                "enabled_label": "Verweise aufnehmen",
+                "enabled_help": "Aus bedeutet, dass nichts aufgenommen wird. Vorhandene Verweise bleiben erhalten.",
+                "extract_url_references_label": "Eingefügte Links aufnehmen",
+                "extract_url_references_help": "Ein Link auf eine Diskussion oder einen Beitrag in diesem Forum wird ein Verweis.",
+                "extract_short_references_label": "Eingegebene Verweise erfassen",
+                "extract_short_references_help": "Verweise im Format @\"Discussion title\"#d123 erfassen.Gib # im Composer ein, um einen einzufügen.",
+                "extract_mention_references_label": "Beitragserwähnungen aufnehmen",
+                "extract_mention_references_help": "Mentions wird benötigt. Ohne die Erweiterung wird eine Antwort in zwei Listen geführt, die nicht übereinstimmen.",
+                "event_post_enabled_label": "Referenzen in Diskussionen aufführen",
+                "event_post_enabled_help": "Füge der verlinkten Diskussion eine Zeile wie „Alice hat von … aus auf diese Diskussion verwiesen“ hinzu. Gilt nur für Links aus öffentlichen Beiträgen.",
+                "max_preview_label": "Anzahl der Verweise, die gleichzeitig angezeigt werden",
+                "max_preview_help": "Der Rest liegt hinter einer Schaltfläche.",
+                "related_discussions_enabled_label": "Verwandte Diskussionen anzeigen",
+                "related_discussions_enabled_help": "Wurde dadurch ermittelt, welche Diskussionen gemeinsam zitiert werden – nicht anhand von Tags oder Titeln.",
+                "related_discussions_limit_label": "Angezeigte verwandte Diskussionen",
+                "related_discussions_limit_help": "In der Seitenleiste einer Diskussion.",
+                "related_max_candidates_label": "Diskussionen durchgesehen, um sie zu finden",
+                "related_max_candidates_help": "Eine Obergrenze – daher kann eine viel zitierte Diskussion dies nicht teuer machen.",
+                "cache_ttl_label": "Cache-Speicherdauer (Sekunden)",
+                "cache_ttl_help": "Wie lange die Liste und der Graph gespeichert bleiben, bevor sie erneut berechnet werden. Der Wert 0 deaktiviert die Zwischenspeicherung.",
+                "graph_max_depth_label": "Tiefe des Graphen",
+                "graph_max_depth_help": "Wie viele Schritte von einer Diskussion entfernt der Graph reicht.",
+                "graph_max_per_hop_label": "Verknüpfungen pro Schritt",
+                "graph_max_per_hop_help": "Über diese hinaus werden nur die Neuesten angezeigt und auch so im Graph kommuniziert.",
+                "notify_followers_label": "Auch Follower benachrichtigen",
+                "notify_followers_help": "Erfordert Abonnements. Bei „Aus“ wird nur der Autor des verwiesenen Beitrags darüber informiert.",
+                "broken_retention_days_label": "Unterbrochene Verweise beibehalten (in Tagen)",
+                "broken_retention_days_help": "Ein Verweis auf etwas Gelöschtes bleibt so lange im Bericht erhalten. Bei 0 bleiben sie für immer erhalten."
+            },
+            "permissions": {
+                "manage_references": "Verweise erstellen und bearbeiten",
+                "view_broken_report": "Siehe fehlerhafte Verweise",
+                "view_analytics": "Verweis-Analyse anzeigen"
+            },
+            "analytics": {
+                "title": "Verweise",
+                "total_label": "Verweise",
+                "broken_label": "Fehlerhaft",
+                "manual_label": "Händisch hinzugefügt",
+                "by_origin_label": "Wie sie gefunden wurden",
+                "by_relation_label": "Was sie sagen",
+                "export_button": "CSV exportieren",
+                "empty": "Noch nichts aufgezeichnet.",
+                "pending": "",
+                "unavailable": "Metriken konnte nicht eingelesen werden.",
+                "chart_label": "Verweise pro Tag. {count, plural, one {# Tag} other {# Tage}} mit Aktivität, höchste Aktivität {peak}."
+            },
+            "origin": {
+                "url": "Eingefügter Link",
+                "shortref": "Eingegebener Verweis",
+                "mention": "Beitragserwähnung",
+                "manual": "Händisch hinzugefügt"
+            },
+            "relation": {
+                "references": "Verweise",
+                "duplicate_of": "Duplikat von",
+                "see_also": "Siehe auch",
+                "supersedes": "Ersetzt",
+                "answers": "Antworten"
+            },
+            "broken": {
+                "title": "Fehlerhafte Verweise",
+                "description": "Verweise, die auf nicht mehr existierende Inhalte verweisen.",
+                "empty": "Nichts fehlerhaft.",
+                "unavailable": "Bericht konnte nicht gelesen werden.",
+                "truncated": "Zeige {shown} von {total}.",
+                "target_column": "Zeigt auf",
+                "source_column": "Geschrieben in",
+                "broken_at_column": "Fehlerhaft seit"
+            },
+            "target": {
+                "discussions": "Diskussion #{id}",
+                "posts": "Beitrag #{id}"
+            }
+        },
+        "forum": {
+            "reference": {
+                "deleted_text": "[gelöscht]"
+            },
+            "links": {
+                "incoming_heading": "",
+                "outgoing_heading": "",
+                "all_button": "",
+                "summary_button": "",
+                "modal_title": "",
+                "post_modal_title": "",
+                "incoming_tab": "",
+                "outgoing_tab": "",
+                "map_tab": "",
+                "add_button": "",
+                "manage_button": "",
+                "load_more_button": "",
+                "empty": "",
+                "by_text": "",
+                "edit_button": "",
+                "remove_button": "",
+                "remove_confirmation": ""
+            },
+            "post": {
+                "linked_from_text": "",
+                "more_button": "",
+                "referenced_by_text": "{discussions} {count, plural, one {verweist} other {verweisen}} hierher",
+                "others_text": "{count, plural, one {# anderer} other {# andere}}"
+            },
+            "related": {
+                "title": "Verwandte Diskussionen"
+            },
+            "sort": {
+                "most_linked": ""
+            },
+            "map": {
+                "empty": "",
+                "accessible_label": ""
+            },
+            "relation": {
+                "references": "Verweise",
+                "duplicate_of": "Duplikat von",
+                "see_also": "ersetzt",
+                "supersedes": "ersetzt",
+                "answers": "beantwortet"
+            },
+            "form": {
+                "add_title": "",
+                "edit_title": "",
+                "target_label": "",
+                "target_placeholder": "",
+                "no_results": "",
+                "change_button": "",
+                "type_label": "",
+                "note_label": "",
+                "note_placeholder": "",
+                "add_button": "",
+                "save_button": ""
+            },
+            "event_post": {
+                "linked": "",
+                "linked_from": "",
+                "referenced": "{username} verweist auf diese Diskussion"
+            },
+            "notifications": {
+                "discussion_linked_text": "",
+                "post_linked_text": "",
+                "followed_discussion_linked_text": "",
+                "discussion_referenced_text": "{username} verweist auf eine Diskussion, die du begonnen hast",
+                "post_referenced_text": "{username} verweist auf deinen Beitrag"
+            },
+            "settings": {
+                "notify_discussion_linked_label": "",
+                "notify_post_linked_label": "",
+                "notify_followed_discussion_linked_label": ""
+            },
+            "discussion": {
+                "referenced_by_title": "{count, plural, one {# Verweis} other {# Verweise}}",
+                "references_title": "Diese Diskussion verweist auf",
+                "show_all_button": "Alle anzeigen"
+            },
+            "most_referenced": {
+                "sort": "Am meisten verwiesen auf"
+            },
+            "graph": {
+                "title": "Graph der Verweise",
+                "description": "Diskussionen, die mit dieser Diskussion und untereinander verknüpft sind.",
+                "empty": "Es gibt noch nichts darzustellen.",
+                "accessible_label": "{count, plural, one {# Diskussion} other {# Diskussionen}} und die Verknüpfungen untereinander"
+            },
+            "manual": {
+                "add_button": "Verweis hinzufügen",
+                "title": "Verweis hinzufügen",
+                "target_label": "Verweist auf",
+                "target_placeholder": "Diskussions-ID",
+                "relation_label": "Beziehung",
+                "note_label": "Hinweis",
+                "note_placeholder": "Warum diese beiden zusammen gehören",
+                "submit_button": "Hinzufügen"
+            }
+        },
+        "api": {
+            "manual": {
+                "not_found_message": "",
+                "same_discussion_message": "",
+                "duplicate_message": "",
+                "source_required_message": ""
+            }
+        },
+        "email": {
+            "discussion_referenced": {
+                "subject": "Ein Verweis auf deine Diskussion wurde erstellt: {title}",
+                "body": "{username} hat auf deine Diskussion „{title}“ von einer anderen Diskussion verwiesen.\n\n{url}\n"
+            },
+            "followed_discussion_referenced": {
+                "subject": "",
+                "body": ""
+            },
+            "post_referenced": {
+                "subject": "Auf deinen Beitrag wurde verwiesen in {title}",
+                "body": "{username} hat auf deinen Beitrag „{title}“ von einer anderen Diskussion verwiesen.\n\n{url}\n"
+            }
+        },
+        "gdpr": {
+            "export_description": "Verweise, die du händisch als Moderator hinzugefügt hast.",
+            "anonymize_description": "Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Der Verweis bleibt erhalten.",
+            "delete_description": "Dein Name wird von den von dir hinzugefügten Verweisen entfernt. Die Verweis selbst sind Annahmen über andere Beiträge und bleiben daher erhalten."
+        },
+        "lib": {
+            "gambits": {
+                "references": {
+                    "key": "verweise",
+                    "hint": "„12“"
+                },
+                "referenced_by": {
+                    "key": "verwiesen-von",
+                    "hint": "„12“"
+                },
+                "has_references": {
+                    "key": "verweist-auf",
+                    "hint": "Diskussionen, auf die von anderen Diskussionen verwiesen werden"
+                }
+            }
+        }
+    }
+}

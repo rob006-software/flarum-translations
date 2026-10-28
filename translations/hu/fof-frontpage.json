@@ -2,27 +2,27 @@
     "core": {
         "forum": {
             "index_sort": {
-                "front_button": "Főoldal"
+                "front_button": "Kezdőoldal"
             },
             "badge": {
-                "frontpage_tooltip": ""
+                "frontpage_tooltip": "Kezdőoldaliként megjelölve"
             },
             "post_controls": {
-                "push_to_front_button": "",
-                "pull_from_front_button": ""
+                "push_to_front_button": "Kiküldés a kezdőoldalra",
+                "pull_from_front_button": "Visszavétel a kezdőoldalról"
             }
         }
     },
     "fof-frontpage": {
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": ""
+                "can_push_to_frontpage_label": "Kiküldhet a kezdőoldalra"
             }
         },
         "lib": {
             "gambits": {
                 "frontpage": {
-                    "key": ""
+                    "key": "kezdőoldal"
                 }
             }
         }

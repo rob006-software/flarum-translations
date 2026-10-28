@@ -1,0 +1,105 @@
+{
+    "flarum-deck": {
+        "admin": {
+            "permissions": {
+                "use_deck_label": "Usar Deck"
+            },
+            "settings": {
+                "max_columns_help": "Cada columna realiza una solicitud independiente cada vez que se actualiza. Debe estar entre 1 y 12.",
+                "max_columns_label": "Máximo de columnas por miembro",
+                "poll_interval_help": "Frecuencia con la que las columnas comprueban si hay nueva actividad cuando Realtime no está conectado. El valor 0 deshabilita esta función; el mínimo es 15.",
+                "poll_interval_label": "Intervalo de actualización (segundos)"
+            }
+        },
+        "forum": {
+            "add_column": {
+                "author_label": "Miembro",
+                "author_placeholder": "Buscar un miembro",
+                "back_button": "Volver",
+                "discussion_label": "Discusión",
+                "discussion_placeholder": "Buscar una discusión",
+                "filter_help": "Combine filtros de búsqueda, como tag:, author:, is:unread o is:following. No se admiten palabras simples.",
+                "filter_invalid_message": "Utilice únicamente filtros, como tag:soporte is:unread. No se admiten palabras simples.",
+                "filter_label": "Filtros",
+                "group_invalid_message": "Elija un grupo.",
+                "group_label": "Grupo",
+                "in_deck_badge": "En su deck",
+                "in_deck_count_badge": "En su deck ×{count}",
+                "filter_placeholder": "ej. tag:soporte is:unread",
+                "invalid_value_message": "Por favor, ingrese un valor válido para {field}.",
+                "pick_a_result_message": "Elija un resultado para {field} de las sugerencias.",
+                "submit_button": "Añadir columna",
+                "title": "Añadir una columna",
+                "use_filters_button": "Usar estos filtros"
+            },
+            "column": {
+                "controls_label": "Opciones de la columna {title}",
+                "drag_handle_label": "Arrastre para mover {title}",
+                "move_left_button": "Mover a la izquierda",
+                "move_right_button": "Mover a la derecha",
+                "move_to_bottom_row_button": "Mover a la fila inferior",
+                "move_to_top_row_button": "Mover a la fila superior",
+                "moved_announcement": "Movido a la posición {position} de {count}.",
+                "moved_in_bottom_row_announcement": "Movido a la posición {position} de {count} en la fila inferior.",
+                "moved_in_top_row_announcement": "Movido a la posición {position} de {count} en la fila superior.",
+                "new_items_button": "{count, plural, one {# nuevo} other {# nuevos}}",
+                "open_discussion_button": "Abrir discusión",
+                "refresh_button": "Actualizar",
+                "remove_button": "Eliminar columna",
+                "reset_width_button": "Restablecer ancho",
+                "resize_label": "Redimensionar {title}"
+            },
+            "column_types": {
+                "all": "Todas las discusiones",
+                "author": "Discusiones de un miembro",
+                "author_posts": "Publicaciones de un miembro",
+                "author_posts_title": "Publicaciones de {username}",
+                "author_title": "Iniciadas por {username}",
+                "discussion": "Una discusión",
+                "filter": "Filtro personalizado",
+                "group_posts": "Publicaciones de un grupo",
+                "group_posts_title": "Publicaciones de {group}",
+                "typing": "Escritura en tiempo real",
+                "unread": "No leídas"
+            },
+            "discussion_controls": {
+                "add_to_deck_button": "Añadir a Deck",
+                "added_message": "Esta discusión es ahora una columna en su Deck."
+            },
+            "index": {
+                "deck_link": "Deck"
+            },
+            "typing": {
+                "empty_text": "Nadie está escribiendo en este momento.",
+                "offline_text": "La actividad de escritura requiere una conexión activa al servidor en tiempo real.",
+                "replying_text": "{name} está respondiendo en {discussion}",
+                "someone": "Alguien",
+                "starting_in_text": "{name} está iniciando una discusión en {tags}",
+                "starting_text": "{name} está iniciando una discusión",
+                "was_replying_text": "{name} estaba respondiendo en {discussion}",
+                "was_starting_in_text": "{name} estaba iniciando una discusión en {tags}",
+                "was_starting_text": "{name} estaba iniciando una discusión"
+            },
+            "page": {
+                "add_column_button": "Añadir columna",
+                "column_limit_reached_text": "Ha alcanzado el número máximo de columnas.",
+                "drop_row_hint": "Suelte una columna aquí para comenzar una segunda fila",
+                "empty_text": "Su Deck está vacío. Añada una columna para seguir las conversaciones en vivo.",
+                "exit_fullscreen_button": "Salir de pantalla completa",
+                "fullscreen_button": "Pantalla completa",
+                "hero": {
+                    "hide_label": "Ocultar esta introducción",
+                    "subtitle": "Siga en paralelo y en vivo cada conversación que le interese. Añada columnas, arrástrelas a su lugar y organícelas hasta en dos filas."
+                },
+                "navigator_label": "Columnas",
+                "options_label": "Opciones de Deck",
+                "reset_button": "Restablecer columnas",
+                "resize_rows_label": "Redimensionar filas",
+                "reset_confirmation": "¿Desea reemplazar sus columnas con el conjunto predeterminado? Esta acción no se puede deshacer.",
+                "scroll_left_label": "Desplazar a la izquierda",
+                "scroll_right_label": "Desplazar a la derecha",
+                "title": "Deck"
+            }
+        }
+    }
+}

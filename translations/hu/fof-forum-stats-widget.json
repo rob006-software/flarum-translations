@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Tizedeshelyek",
+                    "help": "A nagy számoknál megjelenítendő tizedesjegyek száma (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Bejegyzések",
+                    "discussion_count": "Témák",
+                    "user_count": "Felhasználók"
                 },
-                "title": ""
+                "title": "Fórumstatisztikák"
             }
         }
     }

@@ -1,0 +1,140 @@
+{
+    "ernestdefoe-recipes": {
+        "forum": {
+            "servings": "Serves",
+            "prep": "Prep",
+            "cook": "Cook",
+            "total": "Total",
+            "ingredients": "Ingredients",
+            "steps": "Method",
+            "based_on": "Based on another recipe",
+            "per_serving": "per serving",
+            "duration": {
+                "hours": "{count} h",
+                "minutes": "{count} min",
+                "seconds": "{count} s"
+            },
+            "directory": {
+                "title": "Recipes",
+                "nav": "Recipes",
+                "search_placeholder": "Search recipes",
+                "all_tags": "All tags",
+                "empty": "No recipes yet.",
+                "no_results": "No recipes match.",
+                "load_more": "Load more",
+                "by": "by {name}",
+                "variant": "Variant"
+            },
+            "card": {
+                "based_on": "Based on {title} by {name}",
+                "variants": "Variants",
+                "remix": "Remix",
+                "remix_label": "Make your own version of this recipe",
+                "remix_reply": "As a reply here",
+                "remix_discussion": "As a new discussion",
+                "fewer": "Fewer servings",
+                "more": "More servings",
+                "reset": "Back to the original amounts",
+                "print": "Print",
+                "print_label": "Print this recipe",
+                "timer_start": "Start a {time} timer",
+                "timer_pause": "Pause timer",
+                "timer_resume": "Resume timer",
+                "timer_done": "Time's up",
+                "timer_reset": "Reset timer",
+                "untick": "Clear ticks",
+                "untick_label": "Untick every ingredient and step"
+            }
+        },
+        "lib": {
+            "composer": {
+                "button": "Recipe",
+                "title": "Insert a recipe",
+                "edit_title": "Edit recipe",
+                "name": "Title",
+                "name_placeholder": "Fluffy pancakes",
+                "servings": "Servings",
+                "prep": "Prep time",
+                "cook": "Cook time",
+                "time_placeholder": "e.g. 25m or 1h 30m",
+                "image": "Photo",
+                "image_help": "Optional. Shown at the top of the card and offered to search engines.",
+                "image_drop": "Drop a photo here, or",
+                "image_choose": "choose one",
+                "image_uploading": "Uploading…",
+                "image_remove": "Remove photo",
+                "image_url_placeholder": "Or paste an image's web address",
+                "image_type": "Choose a JPEG, PNG or WebP image.",
+                "image_too_big": "That photo is larger than 10 MB.",
+                "image_kept": "This forum no longer accepts images from web addresses. This one stays until you remove it.",
+                "description": "Description",
+                "ingredients": "Ingredients",
+                "ingredients_help": "One per line. Start with an amount (1 1/2 cups, 200 g, ½ tsp) and it scales with the servings. A line ending in a colon starts a group.",
+                "steps": "Steps",
+                "steps_help": "One per line. Put a time in square brackets, like [25m] or [1h 30m], and it becomes a one-click timer.",
+                "insert": "Insert recipe",
+                "update": "Save recipe",
+                "invalid_image": "The photo address must start with http:// or https://",
+                "empty": "Add a title, an ingredient or a step.",
+                "card_edit": "Edit",
+                "card_label": "Recipe: {title}",
+                "card_untitled": "Untitled recipe",
+                "remix_title": "Remix this recipe",
+                "field_serving": "Per serving",
+                "field_recipe": "Whole recipe",
+                "invalid_number": "{field} must be a number, like 12 or 12.5.",
+                "remix_insert": "Open in the composer"
+            }
+        },
+        "api": {
+            "photo_unavailable": "That recipe photo is not available. Upload it again.",
+            "image_urls_off": "This forum only accepts recipe photos uploaded with the recipe form, not images from web addresses."
+        },
+        "admin": {
+            "settings": {
+                "image_urls_label": "Allow images from web addresses",
+                "image_urls_help": "When off, recipe photos can only be uploaded with the recipe form, and a recipe that links an image from another site is refused when it is saved. Recipes posted before keep their images."
+            },
+            "permissions": {
+                "upload_photos": "Upload recipe photos"
+            },
+            "fields": {
+                "title": "Recipe fields",
+                "help": "Extra numbers your community records on each recipe, such as calories, protein or PHE. Authors fill them in on the recipe form and readers see them on the card. A per-serving value stays the same when a reader changes the servings; a whole-recipe value scales with them. Drag to reorder.",
+                "label": "Label",
+                "label_placeholder": "Protein",
+                "key": "Key",
+                "key_help": "Each field's key is written into the recipe text as \"key: value\": lower-case letters, numbers and dashes, starting with a letter.",
+                "unit": "Unit",
+                "unit_placeholder": "g",
+                "scope": "Value is",
+                "scope_serving": "Per serving",
+                "scope_recipe": "Whole recipe",
+                "schema": "Search engines",
+                "schema_none": "Card only",
+                "schema_options": {
+                    "calories": "Calories",
+                    "carbohydrate": "Carbohydrate",
+                    "cholesterol": "Cholesterol",
+                    "fat": "Fat",
+                    "fiber": "Fibre",
+                    "protein": "Protein",
+                    "saturatedFat": "Saturated fat",
+                    "sodium": "Sodium",
+                    "sugar": "Sugar",
+                    "transFat": "Trans fat",
+                    "unsaturatedFat": "Unsaturated fat"
+                },
+                "add": "Add a field",
+                "remove": "Remove this field",
+                "drag": "Drag to reorder",
+                "empty": "No fields yet.",
+                "key_required": "Give this field a key.",
+                "key_invalid": "A key starts with a letter and uses only lower-case letters, numbers and dashes.",
+                "reserved": "This key is already used by every recipe.",
+                "duplicate": "Another field already uses this key.",
+                "max": "A forum can have up to 20 fields."
+            }
+        }
+    }
+}

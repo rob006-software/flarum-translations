@@ -4,47 +4,77 @@
             "permissions": {
                 "spamblock_users_label": "Felhasználó megjelölése kéretlen tartalmat küldőként"
             },
+            "tabs": {
+                "sign_ups": "",
+                "stopforumspam": "",
+                "content_filter": "",
+                "spammer_actions": ""
+            },
+            "unsaved_changes": "",
             "settings": {
-                "button": "Beállítások",
-                "content-filter": {
+                "sign_ups": {
                     "heading": "",
                     "introduction": "",
-                    "enabled_label": "",
-                    "enabled_help": "",
-                    "user_targeting_heading": "",
-                    "monitor_post_count_label": "",
-                    "monitor_post_count_help": "",
-                    "monitor_hours_old_label": "",
-                    "monitor_hours_old_help": "",
-                    "detectors_heading": "",
-                    "detect_phones_label": "",
-                    "detect_phones_help": "",
-                    "detect_emails_label": "",
-                    "detect_emails_help": "",
-                    "detect_urls_label": "",
-                    "detect_urls_help": "",
-                    "thresholds_heading": "",
-                    "flag_threshold_label": "",
-                    "flag_threshold_help": "",
-                    "spam_threshold_label": "",
-                    "spam_threshold_help": "",
-                    "actions_heading": "",
-                    "auto_unapprove_label": "",
-                    "auto_unapprove_help": "",
-                    "auto_flag_label": "",
-                    "auto_flag_help": "",
-                    "system_user_id_label": "",
-                    "system_user_id_help": "",
-                    "no_action_extensions": "",
-                    "allowlist_heading": "",
-                    "allowed_domains_label": "",
-                    "allowed_domains_help": "",
-                    "blocked_words_heading": "",
-                    "blocked_words_label": "",
-                    "blocked_words_help": "",
-                    "advanced_patterns_heading": "",
-                    "advanced_block_patterns_label": "",
-                    "advanced_block_patterns_help": ""
+                    "honeypot_heading": "",
+                    "honeypot_label": "",
+                    "honeypot_help": "",
+                    "honeypot_min_seconds_label": "",
+                    "honeypot_min_seconds_help": "",
+                    "honeypot_strict_label": "",
+                    "honeypot_strict_help": "",
+                    "throttle_heading": "",
+                    "registration_throttle_label": "",
+                    "registration_throttle_help": ""
+                },
+                "content-filter": {
+                    "heading": "Tartalomszűrő",
+                    "introduction": "Az új felhasználók által közzétett kéretlen tartalmak automatikus felismerése és jelentése. A rendszer figyelemmel kíséri a nemrég regisztrált felhasználók hozzászólásait és témáit, és olyan gyakori kéretlen tartalom utaló jeleket keres, mint a telefonszámok, e-mail-címek és gyanús webcímek.",
+                    "enabled_label": "Tartalomszűrés engedélyezése",
+                    "enabled_help": "Ha be van kapcsolva, a felhasználók bejegyzései és témái elemezve lesznek, hogy nem kéretlen tartalomról van-e szó.",
+                    "user_targeting_heading": "Felhasználók célzása",
+                    "monitor_all_users_label": "",
+                    "monitor_all_users_help": "",
+                    "monitor_post_count_label": "Felhasználók követése egy adott bejegyzésszámig",
+                    "monitor_post_count_help": "Csak azon felhasználók tartalmának elemzése, akik ennél kevesebb bejegyzést tettek közzé. Állítsa 0-ra, hogy letiltsa a bejegyzések számának ellenőrzését.",
+                    "monitor_hours_old_label": "Felhasználók követése adott számú óráig",
+                    "monitor_hours_old_help": "Csak azon felhasználók tartalmának elemzése, akik fiókja ennyi óránál újabb. Állítsa 0-ra, hogy letiltsa a kor ellenőrzését.",
+                    "detectors_heading": "Észlelési módszerek",
+                    "detect_phones_label": "Telefonszámok észlelése",
+                    "detect_phones_help": "Nemzetközi formátumú telefonszámokat tartalmazó tartalom jelentése.",
+                    "detect_emails_label": "E-mail-címek észlelése",
+                    "detect_emails_help": "E-mail-címeket tartalmazó tartalom jelentése.",
+                    "detect_urls_label": "Webcímek észlelése",
+                    "detect_urls_help": "Engedélyezési listában nem szereplő webcímeket tartalmazó tartalom jelentése.",
+                    "thresholds_heading": "Kéretlen tartalmi pontszám korlátai",
+                    "flag_threshold_label": "Jelentési korlát (0-100)",
+                    "flag_threshold_help": "Azon tartalmak, amelyek kéretlen tartalmi pontszáma eléri vagy meghaladja ezt az értéket, jelentésre kerülnek (ehhez a flarum/flags bővítmény szükséges).",
+                    "spam_threshold_label": "Kéretlen tartalmi korlát (0-100)",
+                    "spam_threshold_help": "Azon tartalmak jóváhagyása, amelyek kéretlen tartalmi pontszáma eléri vagy meghaladja ezt az értéket, automatikusan el lesz utasítva (ehhez a flarum/approvals bővítmény szükséges).",
+                    "actions_heading": "Automatikus műveletek",
+                    "auto_unapprove_label": "Kéretlen tartalom jóváhagyásának elutasítása",
+                    "auto_unapprove_help": "Ha be van kapcsolva, akkor azon tartalmak, amelyek elérik a kéretlen tartalmi korlátot, a jóváhagyási sorba kerülnek (ehhez a flarum/approval bővítmény szükséges). A moderátoroknak jóvá kell hagyniuk, mielőtt látható válik.",
+                    "auto_flag_label": "Kéretlen tartalom automatikus jelentése",
+                    "auto_flag_help": "Ha be van kapcsolva, akkor azon tartalmak, amelyek elérik a kéretlen tartalmi korlátot, automatikusan jelentve lesznek, hogy a moderátorok ellenőrizzék (ehhez a flarum/flags bővítmény szükséges). A jelentés oka részleteket fog tartalmazni arról, hogy a tartalom miért lett kéretlenként észlelve.",
+                    "flag_account_label": "",
+                    "flag_account_help": "",
+                    "flag_account_default": "",
+                    "flag_account_choose_button": "",
+                    "flag_account_default_button": "",
+                    "flag_account_modal_title": "",
+                    "flag_account_missing": "",
+                    "flag_account_in_code": "",
+                    "no_action_extensions": "Telepítse a flarum/approval vagy a flarum/flags bővítményeket az automatikus moderálási műveletek engedélyezéséhez. Az észlelt kéretlen tartalmak a Flarum beépített jóváhagyási sorával és a jelentési rendszerével lesznek kezelve.",
+                    "allowlist_heading": "Domainek engedélyezési listája",
+                    "allowed_domains_label": "Engedélyezett domainek",
+                    "allowed_domains_help": "Az ezeket a domaineket tartalmazó webcímek nem lesznek jelentve. Soronként egy domaint adjon meg. A fórum domainje automatikusan engedélyezve lesz.",
+                    "blocked_words_heading": "Blokkolt szavak és kifejezések",
+                    "blocked_words_label": "Blokkolt szavak vagy kifejezések",
+                    "blocked_words_help": "Olyan szavak vagy kifejezések, amelyeket kéretlen tartalomként kell blokkolni. Soronként egyet írjon be. A rendszer nem különbözteti meg a kis- és nagybetűket, és csak teljes szavakat ismer fel. Például a „viagra” kifejezés a „viagra” szóra illeszkedik, de a „niagara” szóra nem.",
+                    "advanced_patterns_heading": "Speciális blokkolási minták",
+                    "advanced_block_patterns_label": "Speciális minták (regex)",
+                    "advanced_block_patterns_help": "Egyéni reguláris kifejezésminták haladó felhasználók számára. Óvatosan használja – az érvénytelen mintákat a rendszer átugorja. A formátumnak egy JSON-tömbnek kell lennie, amely „pattern” és nem kötelező „description” kulcsokat tartalmazó objektumokat tartalmaz.",
+                    "system_user_id_label": "Rendszer felhasználóazonosítója a jelentésekhez",
+                    "system_user_id_help": "A felhasználóazonosító, amely az automatikus jelentések létrehozójaként hozzá lesz rendelve. Ez jellemzően egy adminisztrátori vagy egy rendszerfiók. Ha nincs beállítva, alapértelmezés szerint az 1-es felhasználóazonosító lesz."
                 },
                 "default-actions": {
                     "delete_user_label": "Felhasználó törlése",
@@ -63,6 +93,10 @@
                     "username_label": "Felhasználónév alapú ellenőrzés",
                     "ip_label": "IP-cím alapú ellenőrzés",
                     "email_label": "E-mail alapú ellenőrzés",
+                    "checks_heading": "",
+                    "thresholds_heading": "",
+                    "also_block_heading": "",
+                    "reporting_heading": "",
                     "frequency_label": "Határérték",
                     "frequency_help": "A jelentések száma az összes engedélyezett ellenőrzésnél, amely aktiválja a kéretlen tartalom szűrőjét.\nPéldául ha az e-mail esetén 1 találat van, az IP-címnél 2, akkor összesen 3 találat lesz. Ha a korlát 3-ra, vagy annál kevesebbre van állítva, akkor ez megakadályozza a regisztrációt.\n",
                     "api_key_label": "API-kulcs",
@@ -75,15 +109,34 @@
                     "region_us_label": "Egyesült Államok",
                     "confidence_label": "Megbízhatóság",
                     "confidence_help": "A megbízhatósági pontszám meglehetősen jó mérőszáma annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne. Százalékként állítsa be. Ha a mező ennél az értéknél nagyobb, vagy vele egyenlő, akkor a regisztráció meg lesz akadályozva, függetlenül a fenti „gyakorisági” teszttől.",
+                    "blocked_asns_label": "",
+                    "blocked_asns_help": "",
+                    "max_listing_age_label": "",
+                    "max_listing_age_help": "",
+                    "lookup_failed": "",
                     "email_hash_label": "Az e-mail-cím ujjlenyomatának használata",
                     "email_hash_help": "Az e-mail-cím MD5 ujjlenyomatának átadása, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerüli az összes feketelistázást, normalizálási és obfuszkációmegkerülési ellenőrzést.",
-                    "block_tor_exit_nodes_label": "",
-                    "block_tor_exit_nodes_help": "",
+                    "block_tor_exit_nodes_label": "Tor kilépési csomópontok blokkolása",
+                    "block_tor_exit_nodes_help": "Ha be van kapcsolva, akkor az ismert Tor kilépési csomópontokról érkező regisztrációkat a rendszer automatikusan blokkolja. Ez segíthet megelőzni a névtelen, kéretlen tartalmakat küldő regisztrációkat, de egyúttal megakadályozhatja azoknak a jogos felhasználóknak a hozzáférését is, akik adatvédelmi okokból használják a Tort.",
                     "sfs_lookup_label": "Regisztrációk megkeresése",
                     "sfs_lookup_help": "Ha engedélyezve van, akkor regisztrációkor megkeresésre kerül a felhasználó a StopForumSpam adatbázisában. Ha a felhasználó megtalálható (felhasználónév, IP-cím vagy e-mail alapján), akkor ezek az adatpontok engedélyezve lesznek, és ha elérik a megadott SFS megbízhatósági szintet, akkor nem fogják tudni elvégezni a regisztrációt.",
                     "report_blocked_registrations_label": "Megakadályozott regisztrációk jelentése",
                     "report_blocked_registrations_help": "Ha a Regisztrációk megkeresése funkció megakadályoz egy felhasználót a regisztrációban, akkor a próbálkozás jelentésre kerül a StopForumSpam számára, így a kéretlen tartalmat küldő tevékenysége jobban megerősíthető. Ehhez a StopForumSpam API-kulcsának beállítása szükséges (lásd alább)."
-                }
+                },
+                "button": "Beállítások"
+            },
+            "statistics": {
+                "heading": "",
+                "total_label": "",
+                "registrations_blocked": "",
+                "users_marked": "",
+                "posts_flagged": "",
+                "awaiting_review": "",
+                "this_week": "",
+                "vs_last_week": "",
+                "top_reason": "",
+                "view_all": "",
+                "failed": ""
             },
             "blocked_registrations": {
                 "button": "Megakadályozott regisztrációk",
@@ -97,14 +150,83 @@
                 "login-provider": "Bejelentkezési szolgáltató",
                 "login-provider-data": "Bejelentkezési szolgáltató adatai",
                 "sfs-data": "StopForumSpam adatok",
-                "delete_entry": "Bejegyzés törlése"
+                "reasons": "",
+                "delete_entry": "Bejegyzés törlése",
+                "total": "",
+                "filters": {
+                    "placeholder": "",
+                    "apply": "",
+                    "clear": "",
+                    "hint": "",
+                    "no-matches": "",
+                    "help": {
+                        "toggle": "",
+                        "multiple": "",
+                        "negate": "",
+                        "ip": "",
+                        "email": "",
+                        "username": "",
+                        "provider": "",
+                        "reason": "",
+                        "attemptedAt": ""
+                    }
+                },
+                "evidence": {
+                    "label": "",
+                    "none": "",
+                    "lookup_failed": "",
+                    "blocked_by": "",
+                    "rule": {
+                        "confidence": "",
+                        "frequency": "",
+                        "blacklisted": "",
+                        "torExit": "",
+                        "deniedAsn": "",
+                        "honeypot": "",
+                        "tooFast": "",
+                        "formToken": "",
+                        "noForm": ""
+                    },
+                    "field": {
+                        "ip": "",
+                        "email": "",
+                        "username": ""
+                    },
+                    "badge": {
+                        "blacklisted": "",
+                        "tor_exit": "",
+                        "not_listed": "",
+                        "confidence": "",
+                        "frequency": "",
+                        "last_seen": "",
+                        "asn": "",
+                        "normalized": ""
+                    }
+                },
+                "raw_data": {
+                    "button": "",
+                    "title": "",
+                    "copy": "",
+                    "copied": "",
+                    "copy_failed": ""
+                }
             }
         },
         "forum": {
+            "sign_up": {
+                "trap_label": ""
+            },
             "post": {
-                "flagged_as_spam_text": ""
+                "flagged_as_spam_text": "Kéretlen tartalom automatikus észlelése – pontszám: {score}"
             },
             "message": {
+                "profile": {
+                    "blocked": ""
+                },
+                "honeypot": {
+                    "refused": "",
+                    "reload": ""
+                },
                 "stopforumspam": {
                     "blocked": "A regisztráció részletei megtalálhatók a kéretlen tartalmakat megelőző adatbázisban, így a regisztráció meg lett akadályozva."
                 }
@@ -120,12 +242,25 @@
                 "move_discussions_tag_label": "Témát áthelyezése karanténben lévő címkékhez",
                 "move_discussions_tag_help": "Ez áthelyezi a felhasználó által indított összes témát a fórumbeállításokban megadott címkéhez. Ha ki van kapcsolva, akkor a témák a jelenlegi címkéknél maradnak.",
                 "process_button": "Folyamat",
+                "success": "",
                 "title": "{username} megjelölési kéretlen tartalmat küldőként",
                 "report_to_sfs_label": "Jelentés a StopForumSpamnek",
                 "report_to_sfs_help": "Ez jelenti a felhasználó alapvető részleteit (felhasználónév, e-mail-cím, IP-cím) a StopForumSpamnek. Ez megakadályozza, hogy a felhasználó más, StopForumSpam szolgáltatást használó fórumokra regisztráljon."
             },
             "user_controls": {
                 "spammer_button": "Kéretlen tartalmat küldő"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "marked_as_spammer": "{username} megjelölve kéretlen tartalmat küldőként"
+                },
+                "registration": {
+                    "blocked": "{username} ({email}) regisztrációja blokkolva erről az IP-ről: {ip}"
+                }
             }
         }
     }

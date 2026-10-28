@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Por favor complete los campos del perfil de usuario.\n",
                 "profile-completed": "¡Perfil completo! <a>Volver a la página principal</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Crear campo",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Guardar cambios",
-                "delete-field": "Eliminar campo"
+                "delete-field": "Eliminar campo",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Editar el perfil de otros usuarios",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Campos",
+                "trash": "",
                 "create": "Crear campo",
                 "edit": "Editar campo {field}",
                 "delete-confirmation": "¿Seguro que deseas borrar el campo {field}? Esto no se puede deshacer.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nombre",
                 "name-help": "Nombre visible del campo.\n",
                 "description": "Descripción",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "respuesta"
+                    "key": "respuesta",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Exportar el campo respuestas del perfil del usuario",
                     "delete_description": "Borrar todos los campos con respuestas del perfil del usuario",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

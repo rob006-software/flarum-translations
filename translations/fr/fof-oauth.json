@@ -14,7 +14,10 @@
                 },
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "update_email_from_provider_label": "Mettre à jour l'adresse de courriel du fournisseur",
-                "update_email_from_provider_help": "Si cette option est activée, l'adresse de courriel de l'utilisateur sera mise à jour pour correspondre à celle fournie par le fournisseur OAuth à chaque connexion au forum. Tous les fournisseurs ne fournissent pas l'adresse de courriel mise à jour, auquel cas ce paramètre n'aura aucun effet avec ces fournisseurs.",
+                "update_email_from_provider_help": "Si cette option est activée, la connexion avec un fournisseur OAuth dont l'adresse de courriel vérifiée diffère de celle associée au compte sur le forum entraîne l'envoi d'un lien de confirmation à la nouvelle adresse et d'une notification à l'adresse actuelle. L'adresse de courriel est modifiée une fois que le lien a été suivi. Les fournisseurs incapables de confirmer que l'adresse est vérifiée — y compris les fournisseurs tiers n'ayant pas été mis à jour pour prendre en charge cette fonctionnalité — ne modifieront pas l'adresse de courriel.",
+                "oauth_only_label": "Autoriser uniquement la connexion et l'inscription via des fournisseurs OAuth",
+                "oauth_only_help": "Si cette option est activée, les membres ne peuvent plus se connecter, s'inscrire ou réinitialiser leur mot de passe à l'aide d'un mot de passe ; ils doivent utiliser les fournisseurs activés à la place. Les administrateurs conservent la connexion par mot de passe, via le lien « Connexion administrateur » dans la fenêtre modale de connexion. Les membres existants qui ne sont pas associés à un fournisseur sont associés à celui-ci lors de leur première connexion via ce fournisseur, à condition que ce dernier confirme la même adresse courriel ; toute autre personne devra faire appel à un administrateur. Cette option n'a aucun effet tant qu'aucun fournisseur n'est activé. Veillez à ce que l'option « Inscription » reste réglée sur « Ouverte » dans les autorisations, sinon les nouveaux membres ne pourront pas non plus s'inscrire via un fournisseur d'authentification.\n",
+                "oauth_only_sign_up_closed_warning": "L'inscription est définie sur « Fermée » dans <a>Autorisations</a>. Flarum utilise également ce paramètre pour les inscriptions via des fournisseurs ; par conséquent, personne ne peut s'inscrire tant que cette option est activée.",
                 "disable_avatars_label": "Désactiver les avatars du fournisseur",
                 "disable_avatars_help": "Si cette option est activée, l'avatar de l'utilisateur ne sera pas mis à jour pour correspondre à l'avatar du fournisseur lors de l'inscription. Notez que cela n'affecte que les inscriptions futures et ne modifie pas l'avatar des utilisateurs existants.\n",
                 "providers": {
@@ -38,7 +41,7 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "Créez une application sur {link}. Donnez à l'application la portée <code>read_user</code>.",
+                        "description": "Créez une application sur {link}. Donnez à l'application l'autorisation <code>read_user</code>.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "Domaine de GitLab"
@@ -70,6 +73,9 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "{provider} n'a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l'utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.",
+                "unverified_email_in_use_oauth_only": "{provider} n'a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l'utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.",
+                "admin_log_in_link": "Se connecter en tant qu'administrateur",
                 "with_button": "Se connecter avec {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -115,6 +121,12 @@
                 "bad_verification_code": "Jeton de vérification invalide ou expiré. Veuillez réessayer.",
                 "invalid_state": "État invalide. Veuillez réessayer.",
                 "already_linked": "Ce compte est déjà associé à un autre utilisateur."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "Demande de modification de l'adresse de courriel",
+                "body": "Après vous être connecté à {forum} avec {provider}, une modification de l'adresse e-mail de votre compte vers {new_email} a été demandée. Cette modification prendra effet une fois la nouvelle adresse confirmée.\n\nSi vous n'êtes pas à l'origine de cette demande, votre compte {provider} pourrait être compromis. Sécurisez-le et contactez les administrateurs de {forum}.\n"
             }
         },
         "lib": {

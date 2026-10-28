@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Dzēst birku",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Vai tiešām vēlaties dzēst šo birku? Diskusijas, kas atzīmētas ar šo birku, NETIKS dzēstas.",
                 "description_label": "Apraksts",
                 "hide_label": "Slēpt diskusijas ar šo birku no vispārējā saraksta (Visām diskusijām)",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": ""
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": ""
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "",
             "tags": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

@@ -107,5 +107,19 @@
                 "rejected": "{display_name} отклонил изменение вашего имени пользователя на {requested_username}"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "Запрошен новый псевдоним {new_nickname} для {username}",
+                    "nickname_request_approved": "Одобрено изменение псевдонима {username} с {old_nickname} на {new_nickname}",
+                    "nickname_request_rejected": "Отклонено изменение псевдонима {username}",
+                    "username_requested": "Запрошено новое имя пользователя {new_username} для {username}",
+                    "username_request_approved": "Одобрено изменение имени {username} с {old_username} на {new_username}",
+                    "username_request_rejected": "Отклонено изменение имени {username}"
+                }
+            }
+        }
     }
 }

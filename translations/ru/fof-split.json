@@ -20,6 +20,22 @@
                 "new_discussion_label": "Укажите название новой темы",
                 "submit_button": "Разделить"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "Перенесено {post_count} сообщений из {discussion} в {new_discussion}",
+                    "split_into": "Перенесено {post_count} сообщений в {discussion}"
+                }
+            }
         }
     }
 }

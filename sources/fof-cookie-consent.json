@@ -1,0 +1,89 @@
+{
+    "fof-cookie-consent": {
+        "admin": {
+            "settings": {
+                "configuration_title": "Configuration Options",
+                "configuration_button_title": "Learn More Link",
+                "text_help": "Wording shown to visitors lives in this extension's language files, so it\ncan be translated. Override it with FoF Linguist or a language pack.\n",
+                "learnMoreLinkUrl": "Link",
+                "learnMoreLinkUrl_help": "Leave blank to hide the link.",
+                "appearance_title": "Appearance",
+                "layout": "Layout",
+                "layout_help": "Controls the shape of the consent banner.",
+                "position": "Position",
+                "equalWeightButtons": "Give both buttons equal weight",
+                "equalWeightButtons_help": "Recommended. Styling accept and decline identically avoids nudging visitors toward accepting.",
+                "colors_help": "The banner follows your forum's theme, including dark mode. Set a colour\nonly to override it — leave blank to inherit.\n",
+                "catchall_title": "Undeclared Cookies",
+                "sweepUndeclared": "Erase cookies no extension has declared",
+                "sweepUndeclared_help": "When a visitor declines, also erase cookies that no extension declared\nthrough the cookie consent extender. This catches trackers from\nextensions that have not adopted it — but will also erase cookies an\nextension genuinely needs, which may break it. Use the allow list below\nto spare those.\n",
+                "allowedCookies": "Never erase these cookies",
+                "allowedCookies_help": "One name per line. Wrap in slashes for a pattern, e.g. /^app_/.\nCookies Flarum sets itself are always kept.\n",
+                "theme_popup_title": "Popup Colors",
+                "backgroundColor": "Background",
+                "textColor": "Text",
+                "theme_dismiss_title": "Button Colors",
+                "buttonBackgroundColor": "Background",
+                "buttonTextColor": "Text",
+                "layouts": {
+                    "box": "Box",
+                    "box_wide": "Box (wide)",
+                    "box_inline": "Box (inline)",
+                    "cloud": "Cloud",
+                    "cloud_inline": "Cloud (inline)",
+                    "bar": "Bar",
+                    "bar_inline": "Bar (inline)"
+                },
+                "positions": {
+                    "top_left": "Top left",
+                    "top_center": "Top center",
+                    "top_right": "Top right",
+                    "middle_left": "Middle left",
+                    "middle_center": "Middle center",
+                    "middle_right": "Middle right",
+                    "bottom_left": "Bottom left",
+                    "bottom_center": "Bottom center",
+                    "bottom_right": "Bottom right"
+                }
+            }
+        },
+        "forum": {
+            "banner": {
+                "description": "Cookies are used on this site. You can manage your preferences or accept all cookies.",
+                "accept": "Accept",
+                "decline": "Decline",
+                "preferences": "Manage preferences",
+                "learn_more": "Learn more"
+            },
+            "preferences": {
+                "title": "Cookie preferences",
+                "save": "Save preferences",
+                "description": "Cookies are small files this site stores in your browser. Below is what is stored and why. You can change your choice at any time.",
+                "cookie_table": {
+                    "name": "Cookie",
+                    "description": "Purpose"
+                }
+            },
+            "cookies": {
+                "flarum_session": "Keeps you signed in while you browse.",
+                "flarum_remember": "Signs you back in automatically on your next visit.",
+                "locale": "Remembers the language you chose.",
+                "cc_cookie": "Remembers your cookie choice so you are not asked again."
+            },
+            "categories": {
+                "necessary": {
+                    "title": "Strictly necessary",
+                    "description": "Required for the site to work — signing in, staying signed in, and remembering your cookie choice. These cannot be turned off."
+                },
+                "analytics": {
+                    "title": "Analytics",
+                    "description": "Help us understand how the forum is used, so we can improve it. Nothing here is needed for the forum to work."
+                },
+                "marketing": {
+                    "title": "Marketing",
+                    "description": "Used to measure advertising and to show you ads on other sites."
+                }
+            }
+        }
+    }
+}

@@ -96,6 +96,9 @@
                     "edit_title": "Править группу опросов",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Удалить группу опросов",
+                    "name_label": "",
+                    "name_required": "",
+                    "error": "",
                     "groups_manager": "Управление группами опросов",
                     "view_group": "Посмотреть группу опросов",
                     "success": "Группа опросов сохранена."
@@ -169,13 +172,14 @@
                 "date_placeholder": "Дата завершения опроса (опционально)",
                 "edit_title": "Редактирование опроса",
                 "include_question": "Вы должны указать вопрос",
-                "max": "Вы можете добавить максимум 10 вариантов",
+                "max": "Вы можете добавить максимум {max} вариантов",
                 "min": "Вы должны добавить минимум 2 варианта",
                 "empty_answers": "{count, plural, one {# вариант не заполнен — заполните его или удалите.} other {# вариантов не заполнены — заполните их или удалите.}}",
                 "no_voters": "Голоса отсутствуют",
                 "option_placeholder": "Вариант",
                 "image_option_placeholder": "URL изображения (опционально)",
                 "options_label": "Варианты ответа",
+                "settings_label": "",
                 "public_poll_label": "Публичный опрос",
                 "allow_multiple_votes_label": "Разрешить выбор нескольких вариантов",
                 "max_votes_label": "Максимально голосов на участника",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Удалить изображение",
                 "upload_button": "Загрузить"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": "",
+                    "published": "",
+                    "unpublished": "",
+                    "voted": ""
+                },
+                "poll_group": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
             }
         }
     }

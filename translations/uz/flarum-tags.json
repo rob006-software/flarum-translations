@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Tegni o'chirish",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Haqiqatan ham bu tegni oʻchirib tashlamoqchimisiz? Teg muhokamalari o'chirilmaydi.",
                 "description_label": "Tavsif",
                 "hide_label": "Barcha muhokamalardan bekitish",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Teglarni tanlang"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Teglarni tahrirlash"
             },
@@ -76,7 +89,7 @@
                 "added_and_removed_tags_text": "{username} {tagsAdded} ni qo‘shdi va {tagsRemoved} ni olib tashladi.",
                 "added_tags_text": "{username} {tagsAdded} ni qo‘shdi.",
                 "removed_tags_text": "{username} {tagsRemoved} faylini olib tashladi.",
-                "tags_text": "{hisob, koʻplik, bitta {{tags} teg} other {{tags} teg}}"
+                "tags_text": "{count, plural, one {{tags} teg} other {{tags} teg}}"
             },
             "tag": {
                 "meta_description_text": "{tag} tegi bilan barcha muhokamalar"
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "Nomi",
             "tags": "Teglar"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

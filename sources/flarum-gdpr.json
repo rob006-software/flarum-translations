@@ -184,6 +184,27 @@
                 "export-ready": "Your data export for {username} is now ready to download."
             },
             "export_file": "Export of user data for {username} ({email}) prepared at {date} from {forumTitle} ({url})"
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "Confirm account erasure",
+                "text": "Confirm that you want your account and its data erased. Until your request has been processed, you can still cancel it from your settings.",
+                "submit_button": "Confirm erasure"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "Requested erasure of {username}'s data",
+                    "gdpr_erasure_confirmed": "Confirmed the erasure request for {username}'s data",
+                    "gdpr_erasure_cancelled": "Cancelled the erasure request for {username}'s data",
+                    "gdpr_anonymized": "Anonymized {username}'s data",
+                    "gdpr_deleted": "Deleted {username}'s data",
+                    "gdpr_exported": "Exported {username}'s data"
+                }
+            }
         }
     }
 }

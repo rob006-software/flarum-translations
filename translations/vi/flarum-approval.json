@@ -21,5 +21,17 @@
         "ref": {
             "awaiting_approval": "Chờ phê duyệt"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "Đã duyệt {discussion}"
+                },
+                "post": {
+                    "approved": "Đã duyệt {post} của {postuser} trong {discussion}"
+                }
+            }
+        }
     }
 }

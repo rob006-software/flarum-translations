@@ -12,6 +12,9 @@
                 "schedule_log_output": "Añadir la salida del programador al registro"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "Los borradores programados están actualmente desactivados en los ajustes.",
             "no_title_error": "Borrador omitido: falta el título de la discusión."
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "¿Activar el guardado automático de borradores?",
                     "draft_autosave_interval_label": "Intervalo de autoguardado (segundos)",
                     "draft_autosave_interval_button": "Actualizar Intervalo",
-                    "draft_autosave_interval_invalid": "El intervalo debe ser un número entero mayor que 4."
+                    "draft_autosave_interval_invalid": "El intervalo debe ser un número entero mayor que 4.",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }

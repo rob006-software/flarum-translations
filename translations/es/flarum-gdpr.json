@@ -184,6 +184,27 @@
                 "export-ready": "Los datos exportados de {username} ya están listos para descargar."
             },
             "export_file": "Exportación de datos de {username} ({email}) del {date} con origen {forumTitle} ({url})"
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "",
+                "text": "",
+                "submit_button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "Solicitó la eliminación de los datos de {username}",
+                    "gdpr_erasure_confirmed": "Confirmó la solicitud de eliminación de los datos de {username}",
+                    "gdpr_erasure_cancelled": "Canceló la solicitud de eliminación de los datos de {username}",
+                    "gdpr_anonymized": "Anonimizó los datos de {username}",
+                    "gdpr_deleted": "Eliminó los datos de {username}",
+                    "gdpr_exported": "Exportó los datos de {username}"
+                }
+            }
         }
     }
 }

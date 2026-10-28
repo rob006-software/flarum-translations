@@ -2,66 +2,76 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Conteúdo da Discussão Movida (Primeiro Post)",
+                "moved_first_post_content_help": "Quando uma discussão tem um único post, mover esse post faz com que o primeiro post da discussão original seja editado para apontar para a nova discussão. Você pode editar o conteúdo desse post aqui.\n",
+                "group_sequential_posts": "Agrupar em um só os posts de evento de movimentação consecutivos."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Movida"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Você não pode mover posts para a mesma discussão."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Verificar Tipo de Operação",
+                "destination": "Discussão de Destino",
+                "discussion_help": "As tags da discussão de origem serão usadas e podem ser alteradas após a criação.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nova Discussão",
+                "selected_posts": "{count, plural, one {# Post Selecionado} other {# Posts Selecionados}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Será uma movimentação complexa: os posts serão inseridos entre outros posts, fazendo com que as referências a URLs antigas dos posts da discussão de destino também mudem.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Será uma movimentação simples: todos os posts serão adicionados ao final da discussão."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Prosseguir",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Você está prestes a mover todos os posts desta discussão para uma nova. Na maioria dos casos, faz mais sentido editar a discussão existente, por exemplo alterando o título, as tags ou outros atributos. Deseja continuar?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, one {Post movido para {target_discussion}.} other {# posts movidos para {target_discussion}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Um ou mais dos seus posts foram movidos para {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Desmarcar para mover",
+                "move": "Selecionar para mover",
+                "moving": "Movendo Post"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} moveu um post para {target_discussion}.} other {{username} moveu # posts para {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Mover Posts",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Não é possível mover um post antigo para uma discussão mais nova."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Este post foi movido para **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "posts": {
+                    "moved": "Moveu {post_count, plural, one {# post} other {# posts}} de {discussion} para {new_discussion}",
+                    "moved_to_new_discussion": "Moveu {post_count, plural, one {# post} other {# posts}} de {discussion} para a nova discussão {new_discussion}"
                 }
             }
         }

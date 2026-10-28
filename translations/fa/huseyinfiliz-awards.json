@@ -8,7 +8,7 @@
             },
             "tabs": {
                 "awards": "",
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "nominees": "",
                 "suggestions": "",
                 "settings": "تنظیمات"
@@ -31,7 +31,7 @@
                 "show_live_votes_help": "",
                 "image_url": "",
                 "image_url_help": "",
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "publish": "",
                 "delete_confirm": "",
                 "publish_confirm": "",
@@ -41,7 +41,7 @@
                 "title": "",
                 "create": "",
                 "create_title": "",
-                "edit_title": "",
+                "edit_title": "ویرایش دسته‌بندی",
                 "select_award": "",
                 "name": "",
                 "nominees": "",
@@ -61,13 +61,15 @@
                 "image": "",
                 "image_url": "",
                 "image_url_help": "",
+                "website_url": "",
+                "website_url_help": "",
                 "adjust_votes": "",
                 "vote_adjustment_title": "",
                 "real_votes": "",
                 "adjustment": "",
                 "adjustment_help": "",
                 "displayed_votes": "",
-                "reset": "",
+                "reset": "بازنشانی",
                 "reset_adjustment": "",
                 "delete_confirm": "",
                 "empty": "",
@@ -77,7 +79,7 @@
                 "title": "",
                 "empty": "",
                 "name": "",
-                "category": "",
+                "category": "دسته‌بندی",
                 "user": "",
                 "date": "",
                 "approve": "",
@@ -110,11 +112,11 @@
         "forum": {
             "nav": {
                 "title": "",
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "all_categories": ""
             },
             "tabs": {
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "my_votes": "",
                 "results": ""
             },
@@ -187,6 +189,9 @@
                 "votes_used": "",
                 "votes_unlimited": ""
             },
+            "nominee": {
+                "open_link": ""
+            },
             "other": {
                 "suggest": "",
                 "click_to_suggest": "",
@@ -222,6 +227,7 @@
                 "vote_limit_reached": "",
                 "vote_quota_exhausted": "",
                 "cannot_delete_processed_suggestion": "",
+                "already_voted": "",
                 "not_available": ""
             }
         },
@@ -229,7 +235,7 @@
             "success_message": "",
             "actions": "",
             "votes": "",
-            "slug": "",
+            "slug": "اسلاگ",
             "description": "",
             "sort_order": "",
             "move_up": "",

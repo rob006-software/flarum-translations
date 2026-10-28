@@ -1,0 +1,57 @@
+{
+    "ernestdefoe-hero-builder": {
+        "admin": {
+            "enabled": "Enable Hero Builder",
+            "enabled_help": "Master switch — show the animated hero on the discussion list and every tag page.",
+            "studio": {
+                "context": "Editing hero for",
+                "home": "Home",
+                "loading_tags": "Loading tags…",
+                "show_hero": "Show the hero here",
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "icon": "Icon (Font Awesome)",
+                "icon_help": "Type any Font Awesome class — e.g. fas fa-dragon, fas fa-fire, fab fa-discord.",
+                "icon_bg": "Show icon (with its background square)",
+                "sharp_corners": "Sharp corners (instead of rounded)",
+                "border_width": "Border width (px)",
+                "border_width_help": "0 = no border. Leave empty for the default thin edge.",
+                "border_color": "Border colour",
+                "effects": "Background effects",
+                "effects_animated": "Animated glow",
+                "effects_still": "Still glow, no motion",
+                "effects_off": "Off",
+                "shadow": "Drop shadow",
+                "shadow_default": "Default",
+                "shadow_none": "None",
+                "shadow_soft": "Soft",
+                "shadow_medium": "Medium",
+                "shadow_strong": "Strong",
+                "margin_top": "Top margin (px)",
+                "margin_bottom": "Bottom margin (px)",
+                "margin_help": "Space above the banner — set 0 to sit flush under the header.",
+                "c1": "Gradient colour 1",
+                "c2": "Gradient colour 2",
+                "image": "Cover image URL",
+                "image_help": "Optional. A full image URL shown instead of the gradient.",
+                "height": "Height (px)",
+                "height_help": "Optional. Banner height in pixels (defaults to 150).",
+                "width": "Max width (px)",
+                "width_ph": "Full width",
+                "show_stats": "Show stats",
+                "stats_custom": "Stats",
+                "stats_custom_help": "Optional — leave empty to show LIVE stats automatically (the home hero shows forum totals: discussions, posts, members; a tag hero shows its discussion count). Add rows here only to override them with your own. Each row: a value, a Font Awesome icon, and a label.",
+                "stat_value": "Value (e.g. 1.2k)",
+                "stat_icon": "Icon (e.g. fas fa-users)",
+                "stat_label": "Label",
+                "stat_add": "Add stat",
+                "stat_remove": "Remove"
+            }
+        },
+        "forum": {
+            "discussions": "Discussions",
+            "posts": "Posts",
+            "members": "Members"
+        }
+    }
+}

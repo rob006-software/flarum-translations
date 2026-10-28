@@ -1,0 +1,26 @@
+{
+    "ernestdefoe-marginalia": {
+        "admin": {
+            "permissions": {
+                "highlight_label": "Passagen in Beiträgen hervorheben",
+                "moderate_label": "Öffentliche Hervorhebungen Anderer entfernen"
+            }
+        },
+        "forum": {
+            "toolbar": {
+                "highlight": "Hervorheben",
+                "note": "Anmerkung"
+            },
+            "popup": {
+                "marked_by": "{count, plural, one {# Leser hat} other {# Leser haben}} dies markiert",
+                "private_only": "Nur du kannst diese Markierung sehen",
+                "note_placeholder": "Eine Anmerkung für dich - Niemand sonst kann sie lesen.",
+                "save": "Speichern",
+                "make_private": "Als privat markieren",
+                "make_public": "Als öffentlich markieren",
+                "remove": "Entfernen"
+            },
+            "error": "Diese Markierung konnte nicht gespeichert werden."
+        }
+    }
+}

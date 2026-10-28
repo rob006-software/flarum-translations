@@ -96,6 +96,9 @@
                     "edit_title": "Edit Poll Group",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Delete Poll Group",
+                    "name_label": "Name",
+                    "name_required": "A poll group needs a name.",
+                    "error": "There was an error saving the poll group, please contact any administrator.",
                     "groups_manager": "Poll Groups Manager",
                     "view_group": "View Poll Group",
                     "success": "Poll group saved successfully."
@@ -176,6 +179,7 @@
                 "option_placeholder": "Answer",
                 "image_option_placeholder": "Image URL (optional)",
                 "options_label": "Answers",
+                "settings_label": "Voting",
                 "public_poll_label": "Allow people to see who voted",
                 "allow_multiple_votes_label": "Allow people to vote for multiple options",
                 "max_votes_label": "Max votes per user",
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Delete Image",
                 "upload_button": "Upload Image"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "Created poll {title}",
+                    "updated": "Updated poll {title}",
+                    "deleted": "Deleted poll {title}",
+                    "published": "Published poll {title}",
+                    "unpublished": "Unpublished poll {title}",
+                    "voted": "Voted in poll {title}"
+                },
+                "poll_group": {
+                    "created": "Created poll group {name}",
+                    "updated": "Updated poll group {name}",
+                    "deleted": "Deleted poll group {name}"
+                }
             }
         }
     }

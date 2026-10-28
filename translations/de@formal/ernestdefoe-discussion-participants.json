@@ -1,0 +1,53 @@
+{
+    "ernestdefoe-discussion-participants": {
+        "forum": {
+            "modal_title": "{count, plural, one {# Teilnehmer} other {# Teilnehmer}}",
+            "modal_title_loading": "Teilnehmer",
+            "overflow_a11y_label": "{count, plural, one {# weiteren Teilnehmer anzeigen} other {# weitere Teilnehmer anzeigen}}",
+            "post_count": "{count, plural, one {# Beitrag} other {# Beiträge}}",
+            "author_badge": "Verfasser",
+            "previous_page": "Vorherige Seite",
+            "next_page": "Nächste Seite",
+            "page_counter": "Seite {current} von {total}",
+            "load_failed": "Teilnehmerliste konnte nicht geladen werden."
+        },
+        "admin": {
+            "strip_size_label": "Anzahl der angezeigten Avatare",
+            "strip_size_help": "Wie viele Avatare in einer Diskussionszeile angezeigt werden, bevor alle weiteren als Überlauf-Symbol dargestellt werden.",
+            "placement_label": "Wo Avatare angezeigt werden",
+            "placement_help": "Bei der separaten Darstellung wird der Streifen unter dem Diskussionstitel angezeigt. Die Inline-Variante behält alles in einer Zeile, indem er neben der Anzahl der Antworten platziert wird.",
+            "placement_below": "In eigener Zeile, unter dem Titel",
+            "placement_inline": "Inline, neben der Anzahl der Antworten",
+            "avatar_size_label": "Größe des Avatars",
+            "avatar_size_help": "Wie groß die Avatare in dem Streifen sind.",
+            "avatar_size_small": "Klein",
+            "avatar_size_medium": "Mittel",
+            "avatar_size_large": "Groß",
+            "order_label": "Reihenfolge",
+            "order_help": "Welche Teilnehmer die sichtbaren Plätze belegen und in welcher Reihenfolge sie gestapelt werden.",
+            "order_first_post": "Wer zuerst geantwortet hat",
+            "order_most_active": "Wer am meisten geantwortet hat",
+            "order_recent": "Wer zuletzt geantwortet hat",
+            "include_op_label": "Die Person, die die Diskussion begonnen hat",
+            "include_op_help": "Ihr Avatar wird bereits in der Autorenspalte angezeigt, daher werden sie im Streifen standardmäßig weggelassen.",
+            "include_op_never": "Niemals im Streifen anzeigen",
+            "include_op_if_replied": "Nur anzeigen, wenn sie auch geantwortet haben",
+            "include_op_always": "Immer zuerst anzeigen",
+            "min_participants_label": "Mindestanzahl an Teilnehmern",
+            "min_participants_help": "Diskussionen mit weniger Antworten erhalten überhaupt keinen Streifen, so dass die Listen ruhiger bleiben.",
+            "show_overflow_label": "Überlauf-Symbol anzeigen",
+            "show_overflow_help": "Der Überlauf zählt die Teilnehmer, für die auf dem Streifen kein Platz ist, und öffnet beim Klicken die vollständige Liste.",
+            "hover_cards_label": "Profilkarte beim Darüberfahren anzeigen",
+            "hover_cards_help": "Beim Darüberfahren des Avatars wird die selbe Flarum-Profilkarte angezeigt, wie auch bei Verfassern von Beiträgen.",
+            "tags_label": "Auf bestimmte Tags beschränken",
+            "tags_help": "Wähle Tags aus, für die ein Streifen angezeigt werden soll. Wenn keine ausgewählt sind, werden sie überall angezeigt.",
+            "tags_empty": "In diesem Forum sind noch keine Tags eingerichtet.",
+            "rebuild_label": "Teilnehmer neu berechnen",
+            "rebuild_help": "Diskussionen, die vor der Aktivierung dieser Erweiterung existierten, enthalten bis zur Erstellung keine Teilnehmerdaten. Dies erfüllt die gleiche Aufgabe wie der Befehl „participants:populate“.",
+            "rebuild_button": "Neu berechnen",
+            "rebuild_progress": "{percent} % abgeschlossen",
+            "rebuild_done": "{count, plural, one {Abgeschlossen — # Teilnehmereintrag.} other {Abgeschlossen — # Teilnehmereinträge.}}",
+            "rebuild_failed": "Die Neuberechnung ist fehlgeschlagen. Prüfe dein Serverprotokoll oder führe stattdessen participants:populate aus."
+        }
+    }
+}

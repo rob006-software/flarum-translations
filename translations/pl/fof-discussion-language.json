@@ -1,0 +1,78 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Edycja języka dla {title}",
+                "title": "Edycja języka",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Język"
+            },
+            "discussion_controls": {
+                "change_language_button": "Ustaw język"
+            },
+            "index_language": {
+                "any": "Dowolny język"
+            },
+            "language_dropdown": {
+                "toggle_label": ""
+            },
+            "sub_controls": {
+                "subscription_language_label": "",
+                "subscription_language_help": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Używaj lokalnych nazw języków",
+                "show_flag_label": "Wyświetl flagę kraju obok nazwy języka",
+                "composer_default_label": "Wstępnie wybierz aktualny język w formularzu tworzenia dyskusji",
+                "locale_sort_label": "Użyj wykrytego języka jako domyślnego filtru dyskusji",
+                "show_any_lang_opt_label": "Pozwól na wybranie opcji „Dowolny język”",
+                "tags_page_discussion_locale_label": "Na podstronie tagów wyświetl jedynie dyskusje pasujące do języka użytkownika",
+                "errors": {
+                    "missing_assets": "Nie udało się wczytać zasobów wymaganych przez to rozszerzenie. Spróbuj uruchomić <code>php flarum assets:publish</code> i sprawdzić, czy rozwiązało to ten problem."
+                },
+                "languages_heading": "",
+                "languages_help": "",
+                "attribution": "",
+                "config": {
+                    "language_label": "Język",
+                    "country_label": "Kraj (do wyświetlania flagi)",
+                    "choose_language": "",
+                    "choose_country": "",
+                    "add_button": "",
+                    "remove_button": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Edytowanie języka dyskusji",
+                "change_language_label": ""
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Musisz wybrać język dyskusji."
+            }
+        },
+        "lib": {
+            "gambits": {
+                "language": {
+                    "key": "",
+                    "hint": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "subscriptionlanguages": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
+            }
+        }
+    }
+}

@@ -1,88 +1,88 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "พบบัญชีใน {server}",
+            "log_in_with": "Login ด้วย {server}",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "ไม่สามารถค้นหา filter สำหรับ {server} เนื่องจาก `LDAP search fields` ไม่ถูกต้อง กรุณาแก้ไขการตั้งค่า extension",
+                "not_authenticated": "ไม่สามารถ bind {server} เนื่องจาก credential ไม่ถูกต้อง กรุณาแก้ไขการตั้งค่า extension",
+                "csrf_token_mismatch": "คุณไม่ได้ใช้งานนานเกินไป กรุณา refresh หน้าแล้วลองใหม่อีกครั้ง",
                 "domains": {
                     "connection_failed": "",
-                    "no_domains": "",
-                    "empty_host": "",
-                    "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "no_domains": "Admin ยังไม่ได้ตั้งค่า domain กรุณาแก้ไขการตั้งค่า extension",
+                    "empty_host": "Domain {domain_index} ยังไม่มีชื่อ Domain หรือ IP address ของ server กรุณาแก้ไขการตั้งค่า extension",
+                    "empty_base_dn": "Domain {domain_index} ยังไม่มี Base DN กรุณาแก้ไขการตั้งค่า extension",
+                    "empty_user_username": "Domain {domain_index} ยังไม่ได้ตั้งค่า 'Username field' ใน Flarum User Profile กรุณาแก้ไขการตั้งค่า extension",
+                    "empty_search_field": "Domain {domain_index} ยังไม่ได้ตั้งค่า 'Search field' ใน LDAP Account Search กรุณาแก้ไขการตั้งค่า extension",
+                    "username_field_does_not_exist": "Domain {domain_index} ไม่พบ username สำหรับ Flarum User Profile - `Username field` ด้วยค่า `{data}` กรุณาแก้ไขการตั้งค่า extension",
+                    "mail_field_does_not_exist": "Domain {domain_index} ไม่พบ email สำหรับ Flarum User Profile - `Email field` ด้วยค่า `{data}` กรุณาแก้ไขการตั้งค่า extension"
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "invalid_inputs": "กรุณากรอกข้อมูลให้ครบทุกช่อง",
+                    "not_found": "ไม่พบบัญชีของคุณใน {server}",
+                    "incorrect_details": "รหัสผ่านไม่ถูกต้อง",
+                    "password_expired": "รหัสผ่านของคุณหมดอายุแล้ว",
+                    "disabled": "บัญชีของคุณถูกปิดใช้งาน กรุณาติดต่อผู้ดูแล {server}",
+                    "expired": "บัญชีของคุณหมดอายุแล้ว กรุณาติดต่อผู้ดูแล {server}",
+                    "locked": "บัญชีของคุณถูกล็อก กรุณาติดต่อผู้ดูแล {server}"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
+                "title": "การตั้งค่า LDAP",
+                "method_name": "ชื่อ LDAP server (จะแสดงหลัง \"Login with\")",
                 "domains": {
-                    "title": "",
-                    "description": "",
-                    "add": "",
-                    "banner": "",
+                    "title": "LDAP Domains",
+                    "description": "ใส่ LDAP domain ทั้งหมดที่มีสำหรับให้ Flarum ใช้ login",
+                    "add": "เพิ่ม Domain",
+                    "banner": "Domain {index} - [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "เปิดใช้งาน",
+                        "disabled": "ปิดใช้งาน"
                     },
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
-                        "flarum_description": ""
+                        "server": "การตั้งค่า LDAP Server",
+                        "admin": "LDAP Admin",
+                        "search_fields": "LDAP Account Search",
+                        "search_fields_description": "สร้างรายการ LDAP fields เพื่อเปรียบเทียบกับ Username ที่ผู้ใช้กรอก",
+                        "flarum": "Flarum User Profile",
+                        "flarum_description": "เมื่อพบบัญชี LDAP แล้ว คุณสามารถกำหนด fields ที่เกี่ยวข้องให้กับ Flarum User Profile ตอนสมัครสมาชิกได้"
                     },
                     "data": {
-                        "host": "",
-                        "host_help": "",
-                        "base_dn": "",
+                        "host": "ชื่อ Domain หรือ IP address ของ server",
+                        "host_help": "คั่นด้วยเครื่องหมายจุลภาค",
+                        "base_dn": "Base DNs",
                         "base_dn_help": "",
-                        "filter": "",
-                        "filter_help": "",
-                        "port": "",
-                        "port_help": "",
-                        "version": "",
-                        "version_help": "",
-                        "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
-                        "admin_dn": "",
-                        "admin_dn_help": "",
-                        "admin_password": "",
-                        "admin_password_help": "",
-                        "search_user_fields": "",
-                        "search_user_fields_help": "",
-                        "user_username": "",
-                        "user_mail": "",
-                        "user_mail_help": "",
-                        "user_nickname_fields": "",
-                        "user_nickname_fields_help": "",
-                        "permission_groups": "",
-                        "permission_groups_help": "",
-                        "is_enabled": ""
+                        "filter": "Filter ที่ใช้งาน",
+                        "filter_help": "ไม่บังคับ ต้องไม่รวม 'Search fields' ไว้ใน filter เช่น ใส่ filter เป็น '(objectclass=user)' และเลือก 'uid' ใน 'Search fields' จะได้ filter เป็น '(&(objectclass=user)(uid=[User's Input]))'",
+                        "port": "Port",
+                        "port_help": "Non SSL (Port 389) หรือ SSL (Port 636)",
+                        "version": "LDAP Version",
+                        "version_help": "ตั้งได้เฉพาะ 2 หรือ 3 (ค่าเริ่มต้นคือ 3)",
+                        "follow_referrals": "Follow referrals เพื่อ bind กับ LDAP server",
+                        "use_ssl": "ใช้ SSL",
+                        "use_tls": "ใช้ TLS",
+                        "admin_dn": "Distinguished name (DNs)",
+                        "admin_dn_help": "เว้นว่างสำหรับ anonymous binding",
+                        "admin_password": "รหัสผ่าน",
+                        "admin_password_help": "เว้นว่างสำหรับ anonymous binding",
+                        "search_user_fields": "Search fields",
+                        "search_user_fields_help": "เลือก search fields หลายรายการจาก dropdown เช่น เลือก \"mail\" จะใช้ email เท่านั้น ส่วน \"uid,mail\" จะใช้ email หรือ username ก็ได้",
+                        "user_username": "กำหนด Username field",
+                        "user_mail": "กำหนด Email field",
+                        "user_mail_help": "เว้นว่างเพื่อให้ผู้ใช้ตั้ง email เองตอนสมัครสมาชิก",
+                        "user_nickname_fields": "กำหนด Nickname ด้วย fields",
+                        "user_nickname_fields_help": "ต้องเปิดใช้งาน Nickname extension และเลือก LDAP fields หลายรายการจาก dropdown เพื่อรวมเป็น Nickname เช่น เลือก \"givenname,sn\" จะได้ \"[ชื่อ] [นามสกุล]\" เป็น Nickname",
+                        "permission_groups": "กำหนด Permissions เฉพาะ",
+                        "permission_groups_help": "ใช้งานตอนสมัครสมาชิก",
+                        "is_enabled": "เปิดใช้งาน LDAP Server"
                     }
                 },
-                "onlyUse": "",
-                "display_detailed_error": ""
+                "onlyUse": "ซ่อนวิธี login มาตรฐานของ Flarum",
+                "display_detailed_error": "แสดงข้อผิดพลาด LDAP แบบละเอียดเมื่อ login ไม่สำเร็จ"
             }
         }
     }

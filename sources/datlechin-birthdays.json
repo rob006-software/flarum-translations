@@ -3,54 +3,71 @@
         "admin": {
             "permissions": {
                 "edit_own_birthday_label": "Edit own birthday",
-                "view_birthday_label": "View birthday"
+                "view_birthday_label": "View birthdays"
             },
             "settings": {
-                "set_on_registration_label": "Allow setting birthdays on registration",
-                "required_label": "Required entering birthdays",
-                "required_help": "You need enable Set on registration option to make this option work",
+                "min_age_help": "Members must be at least this old. Applies whenever a birthday is saved. Set to 0 to only rule out dates in the future.",
                 "min_age_label": "Minimum age",
-                "min_age_help": "Minimum age for registration",
-                "date_format_label": "Date format",
-                "date_format_help": "Use the <a>dayjs</a> date format. Leave blank to use the default format.",
-                "date_none_year_label": "Date format without year"
+                "sign_up_help": "Whether the sign-up form asks for a birthday.",
+                "sign_up_label": "Birthday at sign-up",
+                "sign_up_options": {
+                    "off": "Don't ask",
+                    "optional": "Ask, optional",
+                    "required": "Ask, required"
+                }
+            },
+            "users": {
+                "birthday_column": "=> datlechin-birthdays.lib.birthday_label",
+                "no_birthday": "Not set"
             }
         },
         "forum": {
-            "user": {
-                "birthday_text": "Birthday: {date}",
-                "age_text": "Age: {age}"
+            "badge": {
+                "birthday_tooltip": "Birthday today"
             },
-            "change_dob": {
-                "title": "Edit Date of Birth",
-                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
-                "submit_button": "=> core.ref.save_changes"
-            },
-            "settings": {
-                "change_dob_label": "Change Date of Birth",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Show day and month of birth",
-                "show_dob_year_label": "Show year of birth",
-                "show_dob_year_help": "This will allow people to see your age."
-            },
-            "edit_user": {
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
+            "change_birthday": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> datlechin-birthdays.forum.settings.change_birthday_button"
             },
             "nav": {
-                "nav_item": "Today's Birthdays"
+                "birthdays_link": "=> datlechin-birthdays.forum.page.title"
+            },
+            "notifications": {
+                "birthday_text": "Happy birthday from everyone at {forum}!"
             },
             "page": {
-                "discussion_count": "{count, plural, one {Discussion: #} other {Discussions: #}}",
-                "post_count": "{count, plural, one {Post: #} other {Posts: #}}"
+                "empty_text": "No birthdays in the next week.",
+                "load_more_button": "=> core.ref.load_more",
+                "title": "Birthdays",
+                "today_heading": "Today",
+                "tomorrow_heading": "Tomorrow",
+                "turns_text": "Turns {age}"
+            },
+            "settings": {
+                "add_birthday_button": "Add Birthday",
+                "change_birthday_button": "Change Birthday",
+                "notify_birthday_label": "Wish me a happy birthday",
+                "show_age_label": "Show my age on my profile",
+                "show_birthday_label": "Show my birthday on my profile"
+            },
+            "user_card": {
+                "age_text": "Age {age}",
+                "birthday_and_age_text": "Birthday {date}, age {age}",
+                "birthday_text": "Birthday {date}"
             }
         },
         "api": {
-            "invalid_dob_message": "Invalid date of birth",
-            "invalid_age_message": "Your age must be at least {minAge} years old.",
-            "birthday_required_message": "Date of birth is required."
+            "future_birthday_message": "Your birthday can't be in the future.",
+            "invalid_birthday_filter_message": "The birthday filter takes a date or a range of up to {max} days, like 2026-06-05..2026-06-11.",
+            "min_age_message": "You must be at least {age} years old."
         },
-        "ref": {
-            "date_of_birth": "Date of Birth"
+        "lib": {
+            "birthday_label": "Birthday",
+            "datetime_formats": {
+                "birthday": "MMMM D",
+                "birthdayWithYear": "LL",
+                "day": "dddd, MMMM D"
+            }
         }
     }
 }

@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": "Ez a felhasználó még egyetlen profilmezőt sem töltött ki."
+            },
             "alerts": {
                 "profile-completion-required": "Töltse ki az alábbi szükséges profilmezőket.\n",
                 "profile-completed": "A profil elkészült. <a>Tovább a kezdőlapra</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Mező létrehozása",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Módosítások mentése",
-                "delete-field": "Mező törlése"
+                "delete-field": "Mező törlése",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Más felhasználók profiljának szerkesztése",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Mezők",
+                "trash": "",
                 "create": "Mező létrehozása",
                 "edit": "{field} mező szerkesztése",
                 "delete-confirmation": "Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "Mező láthatóságának korlátozása",
+                "permissions": "Mező láthatósága",
+                "permissions-alert": "Az engedélybeállítások akkor lesznek elérhetőek, ha létrehozás után szerkeszti a mezőt.",
                 "name": "Mező neve",
                 "name-help": "A nyilvánosan látható (nem lefordítható) mezőcímke.\n",
                 "description": "Mező leírása",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "válasz"
+                    "key": "válasz",
+                    "hint": "felhasználói profil mezőinek értékei"
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Exportálja a felhasználó profilmezőjének válaszait",
                     "delete_description": "Eltávolítja a felhasználó összes profilmezőjének válaszait",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "A(z) „{name}” profilmező létrehozva",
+                    "field_updated": "A(z) „{name}” profilmező frissítve",
+                    "field_deleted": "A(z) „{name}” profilmező törölve",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": "{username} profilmezői frissítve"
                 }
             }
         }

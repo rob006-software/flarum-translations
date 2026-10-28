@@ -16,8 +16,8 @@
                 "others_count": "+ {count, plural, one {# diğer} other {# diğer}}",
                 "remove_all_reaction_type": "Tüm {reaction} ifadelerini kaldır",
                 "remove_user_reaction": "İfadeyi kaldır",
-                "confirm_remove_all_reaction_type": "",
-                "confirm_remove_user_reaction": ""
+                "confirm_remove_all_reaction_type": "Bu gönderideki tüm {reaction} tepkilerini kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+                "confirm_remove_user_reaction": "Bu gönderiden {username} kullanıcısının {reaction} tepkisini kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz."
             },
             "mod_item": "İfadeleri Göster",
             "react_button_label": "Tepki",
@@ -87,6 +87,21 @@
                         }
                     },
                     "save_settings": "Ayarları Kaydet"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof-reactions": {
+                    "reaction_created": "",
+                    "reaction_updated": "",
+                    "reaction_enabled": "",
+                    "reaction_disabled": "",
+                    "reaction_deleted": "",
+                    "post_reaction_removed": "",
+                    "post_reactions_removed": ""
                 }
             }
         }

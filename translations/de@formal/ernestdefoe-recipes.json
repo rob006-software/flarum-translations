@@ -1,0 +1,140 @@
+{
+    "ernestdefoe-recipes": {
+        "forum": {
+            "servings": "Portionen",
+            "prep": "Vorbereitung",
+            "cook": "Kochzeit",
+            "total": "Insgesamt",
+            "ingredients": "Zutaten",
+            "steps": "Zubereitung",
+            "based_on": "Basierend auf einem anderen Rezept",
+            "per_serving": "pro Portion",
+            "duration": {
+                "hours": "{count} h",
+                "minutes": "{count} min",
+                "seconds": "{count} s"
+            },
+            "directory": {
+                "title": "Rezepte",
+                "nav": "Rezepte",
+                "search_placeholder": "Rezepte durchsuchen",
+                "all_tags": "Alle Tags",
+                "empty": "Noch keine Rezepte.",
+                "no_results": "Keine passenden Rezepte.",
+                "load_more": "Mehr laden",
+                "by": "von {name}",
+                "variant": "Variante"
+            },
+            "card": {
+                "based_on": "Basierend auf {title} von {name}",
+                "variants": "Varianten",
+                "remix": "Remix",
+                "remix_label": "Kreiere deine eigene Variante dieses Rezepts",
+                "remix_reply": "Als Antwort hier",
+                "remix_discussion": "Als eine neue Diskussion",
+                "fewer": "Weniger Portionen",
+                "more": "Mehr Portionen",
+                "reset": "Zurück zu ursprünglichen Mengenangaben",
+                "print": "Drucken",
+                "print_label": "Dieses Rezept drucken",
+                "timer_start": "Timer für {time} starten",
+                "timer_pause": "Timer anhalten",
+                "timer_resume": "Timer fortsetzen",
+                "timer_done": "Zeit vorbei",
+                "timer_reset": "Timer zurücksetzen",
+                "untick": "Häkchen entfernen",
+                "untick_label": "Häkchen von jeder Zutat und jedem Schritt entfernen"
+            }
+        },
+        "lib": {
+            "composer": {
+                "button": "Rezept",
+                "title": "Rezept einfügen",
+                "edit_title": "Rezept bearbeiten",
+                "name": "Titel",
+                "name_placeholder": "Fluffige Pfannkuchen",
+                "servings": "Portionen",
+                "prep": "Vorbereitungszeit",
+                "cook": "Kochzeit",
+                "time_placeholder": "z. B. 25m oder 1h 30m",
+                "image": "Foto",
+                "image_help": "Optional. Wird oben auf der Karte angezeigt und Suchmaschinen zur Verfügung gestellt.",
+                "image_drop": "Ziehe ein Foto hierher, oder",
+                "image_choose": "wähle eines aus",
+                "image_uploading": "Wird hochgeladen…",
+                "image_remove": "Foto entfernen",
+                "image_url_placeholder": "Oder füge die Bildadresse ein",
+                "image_type": "Wähle ein Bild im JPEG, PNG oder WebP-Format.",
+                "image_too_big": "Dieses Foto ist größer als 10 MB.",
+                "image_kept": "Dieses Forum erlaubt kein Bilder von Internetadressen. Dieses Bild bleibt erhalten, bis du es entfernst.",
+                "description": "Beschreibung",
+                "ingredients": "Zutaten",
+                "ingredients_help": "Je eine Angabe pro Zeile. Beginne mit einer Menge (1 1/2 Tassen, 200 g, ½ TL), die sich entsprechend der Anzahl der Portionen skaliert. Eine Zeile, die mit einem Doppelpunkt endet, leitet eine Gruppe ein.",
+                "steps": "Schritte",
+                "steps_help": "Je eine pro Zeile. Gib eine Zeit in eckigen Klammern an, zum Beispiel [25m] oder [1h 30m], und schon wird daraus ein Timer, den du mit einem Klick starten kannst.",
+                "insert": "Rezept einfügen",
+                "update": "Rezept speichern",
+                "invalid_image": "Die Foto-Adresse muss mit http:// oder https:// beginnen",
+                "empty": "Füge einen Titel, eine Zutat oder einen Schritt hinzu.",
+                "card_edit": "Bearbeiten",
+                "card_label": "Rezept: {title}",
+                "card_untitled": "Unbenanntes Rezept",
+                "remix_title": "Dieses Rezept remixen",
+                "field_serving": "Pro Portion",
+                "field_recipe": "Gesamtes Rezept",
+                "invalid_number": "{field} muss eine Zahl sein, zum Beispiel 12 oder 12,5.",
+                "remix_insert": "Im Composer öffnen"
+            }
+        },
+        "api": {
+            "photo_unavailable": "Das Rezeptbild ist nicht verfügbar. Bitte erneut hochladen.",
+            "image_urls_off": "Dieses Forum erlaubt nur das Hochladen von Rezeptfotos über das Rezeptformular, nicht aber Bilder von Webadressen."
+        },
+        "admin": {
+            "settings": {
+                "image_urls_label": "Bilder von Webadressen erlauben",
+                "image_urls_help": "Wenn deaktiviert, können Rezeptfotos nur über das Rezeptformular hochgeladen werden, und ein Rezept, das auf ein Bild einer anderen Website verweist, wird beim Speichern abgelehnt. Bereits veröffentlichte Rezepte behalten ihre Bilder."
+            },
+            "permissions": {
+                "upload_photos": "Rezeptfotos hochladen"
+            },
+            "fields": {
+                "title": "Rezeptfelder",
+                "help": "Zusätzliche Angaben, die deine Community zu jedem Rezept erfasst, wie beispielsweise Kalorien, Eiweiß oder Phe. Die Autoren tragen diese Angaben in das Rezeptformular ein, und die Leser sehen sie auf der Karte. Ein Wert pro Portion bleibt unverändert, wenn ein Leser die Anzahl der Portionen ändert; der Wert für das gesamte Rezept passt sich entsprechend an. Zum Neuanordnen ziehen.",
+                "label": "Beschriftung",
+                "label_placeholder": "Eiweiß",
+                "key": "Schlüssel",
+                "key_help": "Der Schlüssel jedes Feldes wird im Rezepttext im Format „Schlüssel: Wert“ angegeben: Kleinbuchstaben, Zahlen und Bindestriche, beginnend mit einem Buchstaben.",
+                "unit": "Einheit",
+                "unit_placeholder": "g",
+                "scope": "Wert ist",
+                "scope_serving": "Pro Portion",
+                "scope_recipe": "Gesamtes Rezept",
+                "schema": "Suchmaschinen",
+                "schema_none": "Nur auf der Karte",
+                "schema_options": {
+                    "calories": "Kalorien",
+                    "carbohydrate": "Kohlenhydrate",
+                    "cholesterol": "Cholesterin",
+                    "fat": "Fett",
+                    "fiber": "Ballaststoffe",
+                    "protein": "Eiweiß",
+                    "saturatedFat": "Gesättigte Fettsäuren",
+                    "sodium": "Natrium",
+                    "sugar": "Zucker",
+                    "transFat": "Transfette",
+                    "unsaturatedFat": "Ungesättigte Fettsäuren"
+                },
+                "add": "Feld hinzufügen",
+                "remove": "Dieses Feld entfernen",
+                "drag": "Zum Neuanordnen ziehen",
+                "empty": "Noch keine Felder.",
+                "key_required": "Diesem Feld einen Schlüssel zuweisen.",
+                "key_invalid": "Ein Schlüssel beginnt mit einem Buchstaben und besteht ausschließlich aus Kleinbuchstaben, Ziffern und Bindestrichen.",
+                "reserved": "Dieser Schlüssel wird bereits von jedem Rezept verwendet.",
+                "duplicate": "Ein anderes Feld verwendet bereits diesen Schlüssel.",
+                "max": "Ein Forum kann bis zu 20 Felder haben."
+            }
+        }
+    }
+}

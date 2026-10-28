@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "สร้าง thumbnail",
+            "max_size": "ขนาดสูงสุดของรูป profile cover (หน่วย KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "ตั้ง Profile Cover ได้"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Cover",
+            "edit_cover": "แก้ไข Cover",
+            "notice": "ขนาดสูงสุด: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "อัปเดต profile cover แล้ว",
+                "error": "ไม่สามารถ upload รูปได้"
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "ลบ profile cover แล้ว",
+                "error": "ไม่สามารถลบ cover ได้ กรุณาลองใหม่ภายหลัง"
             }
         }
     }

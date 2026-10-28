@@ -11,8 +11,8 @@
                     "tags": "Tag Best Answer",
                     "general": "Umum",
                     "reminders": "Pengingat",
-                    "advanced": "Tingkat lanjut",
-                    "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar."
+                    "reminders_notice": "Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar.",
+                    "advanced": "Tingkat lanjut"
                 },
                 "show_max_lines_label": "Garis maksimum untuk ditampilkan dalam pratinjau post",
                 "show_max_lines_help": "Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Kirim pengingat setelah jumlah hari yang dapat dikonfigurasi ke Original Poster untuk memilih Jawaban Terbaik, 0 = menonaktifkan pengingat.",
                 "select_best_answer_tags_label": "Tag untuk diskusi dengan Jawaban Terbaik",
                 "select_best_answer_tags_help": "Pilih tag yang akan ditambahkan ke diskusi ketika Jawaban Terbaik ditetapkan. Hanya tag sekunder yang diperbolehkan. Tag ini akan dihapus jika Jawaban Terbaik dihapus.",
-                "schedule_on_one_server": "Gunakan direktif 'onOneServer()' untuk task scheduler",
-                "schedule_on_one_server_help": "Membutuhkan Redis/Memcache",
                 "schedule_stop_overnight": "Cegah pengiriman notifikasi pengingat di luar jam kerja",
                 "schedule_stop_overnight_help": "Jam 9 malam - 8 pagi waktu server",
                 "schedule_log_output": "Tambahkan output penjadwal ke penyimpanan log",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Tampilkan menu dropdown filter Best Answer",
                 "show_filter_help": "Untuk tag yang memiliki Best Answer yang diaktifkan, pilih untuk menampilkan opsi filter terpecahkan/belum terpecahkan dalam daftar diskusi",
                 "use_alt_ui": "Tata letak alternatif",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Pilih tag mana, jika ada, untuk mengirim pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.",
                 "tags_info": "Ketika sebuah tag diaktifkan sebagai “Best Answer”, berikan izin kepada setiap grup pengguna yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat diberikan secara global (untuk semua tag yang diaktifkan sebagai “Best Answer”) atau secara per tag.\n",
                 "discussion_sidebar_jump_button": "Tampilkan tombol lompat ke Jawaban Terbaik di sidebar diskusi",
-                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan."
+                "discussion_sidebar_jump_button_help": "Menambahkan tombol ke sidebar diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.",
+                "schedule_on_one_server": "Gunakan direktif 'onOneServer()' untuk task scheduler",
+                "schedule_on_one_server_help": "Membutuhkan Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Aktifkan Best Answers untuk diatur dalam tag ini",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Tidak Dapat Mengajukan Pertanyaan",
                 "solved_link": "Diskusi selesai",
                 "unsolved_link": "Diskusi belum selesai"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Semua pertanyaan",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +120,16 @@
             "sort": {
                 "most_best_answers": "Jawaban terbaik paling banyak",
                 "least_best_answers": "Jawaban terbaik paling sedikit"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "",
+                    "best_answer_unset": ""
+                }
             }
         }
     }

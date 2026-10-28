@@ -2,18 +2,66 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Usuário",
+                "organization": "Organização"
             },
             "settings": {
-                "api_token_label": "",
-                "api_token_help": "",
-                "account_type_label": "",
-                "account_type_help": "",
-                "login_label": "",
-                "login_help": "",
-                "group_label": "",
-                "group_help": ""
+                "api_token_label": "Token de API",
+                "api_token_help": "Crie um token de acesso pessoal em <a>https://github.com/settings/tokens/new</a> com os escopos <code>user</code> e <code>read:org</code>. Este token é usado para buscar as informações dos seus patrocinadores no GitHub.",
+                "account_type_label": "Tipo de Conta",
+                "account_type_help": "Selecione se você acompanha patrocinadores de uma conta pessoal de usuário do GitHub ou de uma conta de organização.",
+                "login_label": "Login",
+                "login_help": "Digite seu nome de usuário do GitHub (para contas de usuário) ou o nome da organização (para organizações). Esta é a conta cujos patrocinadores serão sincronizados.",
+                "group_label": "Grupo a Atribuir",
+                "group_help": "Selecione a qual grupo de usuários do Flarum os patrocinadores devem ser adicionados. Os usuários serão adicionados automaticamente quando se tornarem patrocinadores e removidos quando deixarem de patrocinar.",
+                "onetime_group_label": "",
+                "onetime_group_help": "",
+                "onetime_group_none": ""
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_sponsors": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_github_sponsors": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "sponsorship_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "githubsponsor": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

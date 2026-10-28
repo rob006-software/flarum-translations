@@ -2,21 +2,21 @@
     "ekumanov-markdown-tables": {
         "lib": {
             "composer": {
-                "table_tooltip": "",
+                "table_tooltip": "插入表格",
                 "table_menu": {
-                    "num_cols": "",
-                    "num_rows": "",
-                    "column": "",
-                    "remove_column": "",
-                    "insert_column_before": "",
-                    "insert_column_after": "",
-                    "row": "",
-                    "remove_row": "",
-                    "insert_row_before": "",
-                    "insert_row_after": "",
-                    "delete_table": "",
-                    "toggle_header_row": "",
-                    "insert_table": ""
+                    "num_cols": "欄數",
+                    "num_rows": "列數（包含標題列）",
+                    "column": "欄",
+                    "remove_column": "刪除欄",
+                    "insert_column_before": "在前方插入欄",
+                    "insert_column_after": "在後方插入欄",
+                    "row": "列",
+                    "remove_row": "刪除列",
+                    "insert_row_before": "在前方插入列",
+                    "insert_row_after": "在後方插入列",
+                    "delete_table": "刪除表格",
+                    "toggle_header_row": "切換標題列",
+                    "insert_table": "插入表格"
                 }
             }
         }

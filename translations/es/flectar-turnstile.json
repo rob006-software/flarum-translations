@@ -2,22 +2,29 @@
     "flectar-turnstile": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "site_key": "",
-                "secret_key": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "help_text": "Genere las claves de Turnstile en su cuenta de Cloudflare <a>aquí</a>.",
+                "site_key": "Clave del sitio (Site key)",
+                "secret_key": "Clave secreta (Secret key)",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             }
         },
         "forum": {
-            "not_loaded_error": "",
-            "validation_error": "",
-            "error": ""
+            "not_loaded_error": "Error al cargar Cloudflare Turnstile. Por favor, recargue la página y verifique su bloqueador de anuncios.",
+            "validation_error": "Por favor, complete el desafío de Turnstile.",
+            "error": "Ocurrió un error al verificar si es un usuario humano. Por favor, inténtelo de nuevo."
         }
     },
     "validation": {
-        "turnstile": "",
-        "required": ""
+        "turnstile": "No pudimos verificar si es un bot o no. Por favor, recargue la página e inténtelo de nuevo.",
+        "custom": {
+            "turnstileToken": {
+                "required": "Por favor, complete el desafío de Turnstile."
+            },
+            "turnstile": {
+                "required": "Por favor, complete el desafío de Turnstile."
+            }
+        }
     }
 }

@@ -11,8 +11,8 @@
                     "tags": "Legjobb választ engedélyező címkék",
                     "general": "Általános",
                     "reminders": "Emlékeztetők",
-                    "advanced": "Speciális",
-                    "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani."
+                    "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani.",
+                    "advanced": "Speciális"
                 },
                 "show_max_lines_label": "Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma",
                 "show_max_lines_help": "Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Emlékeztető küldése a megadott számú nap után, hogy az eredeti szerző válassza ki a legjobb választ, 0 = emlékeztetők letiltása.",
                 "select_best_answer_tags_label": "Címkék a legjobb válasszal rendelkező témákhoz",
                 "select_best_answer_tags_help": "Válassza ki, hogy mely címkék legyenek hozzáadva a legjobb válasszal rendelkező témákhoz (ha van ilyen). Csak a másodlagos címkék engedélyezettek. Ezek a címkék el lesznek távolítva, ha eltávolításra kerül a legjobb válasz.",
-                "schedule_on_one_server": "Az „onOneServer()” direktíva használata a feladatütemezőhöz",
-                "schedule_on_one_server_help": "Redis/Memcache szükséges",
                 "schedule_stop_overnight": "Megakadályozza az emlékeztető értesítések küldését az éjszakai órákban",
                 "schedule_stop_overnight_help": "19 órától 8 óráig, a kiszolgáló órája szerint",
                 "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
+                "schedule_log_output_help": "",
                 "show_filter_label": "A Legjobb válasz szűrő legördülő megjelenítése",
                 "show_filter_help": "Azoknál a címkéknél, ahol a legjobb válaszok engedélyezettek, jelenjen meg a megoldott/megoldatlan szűrőlehetőség a témalistában",
                 "use_alt_ui": "Alternatív elrendezés",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Válassza ki, hogy mely címkéknél legyenek értesítések küldve. Csak az ilyen címkéjű témák fognak értesítéseket küldeni.",
                 "tags_info": "Ha egy címkénél engedélyezve van a legjobb válasz, akkor állítsa be az engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját témák, tetszőleges téma). Az engedélyek kioszthatók globálisan (az összes legjobb választ engedélyező címkénél), vagy címkénként is.\n",
                 "discussion_sidebar_jump_button": "A legjobb válaszhoz ugrás gomb megjelenítése a téma oldalsávjában",
-                "discussion_sidebar_jump_button_help": "Hozzáad egy gombot a téma oldalsávjához, mellyel oda lehet ugrani a bejegyzések közé, a legjobb válaszhoz."
+                "discussion_sidebar_jump_button_help": "Hozzáad egy gombot a téma oldalsávjához, mellyel oda lehet ugrani a bejegyzések közé, a legjobb válaszhoz.",
+                "schedule_on_one_server": "Az „onOneServer()” direktíva használata a feladatütemezőhöz",
+                "schedule_on_one_server_help": "Redis/Memcache szükséges"
             },
             "edit_tag": {
                 "qna_label": "Legjobb válasz bekapcsolása ennél a címkénél",
@@ -44,7 +45,7 @@
             }
         },
         "forum": {
-            "answered_badge": "Megválaszolt",
+            "answered_badge": "Megválaszolva",
             "this_best_answer": "Legjobb válasz kiválasztása",
             "remove_best_answer": "Legjobb válasz kiválasztásának visszavonása",
             "best_answer_button": "Legjobb válasz",
@@ -68,11 +69,15 @@
                 "solved_link": "Megoldott témák",
                 "unsolved_link": "Megoldatlan témák"
             },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
+            },
             "filter": {
                 "all_label": "Összes kérdés",
                 "solved_label": "Megoldott kérdések",
                 "unsolved_label": "Megoldatlan kérdések",
-                "accessible_label": "Megoldva/megoldatlan választó"
+                "accessible_label": "Megoldott/megoldatlan választó"
             },
             "composer": {
                 "titlePlaceholder": "Kérdés címe"
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "megoldva"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +120,16 @@
             "sort": {
                 "most_best_answers": "Legtöbb legjobb válasz",
                 "least_best_answers": "Legkevesebb legjobb válasz"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "{post} beállítása a legjobb válaszként ebben: {discussion}",
+                    "best_answer_unset": "{post} legjobb válaszként való beállításának megszüntetése ebben: {discussion}"
+                }
             }
         }
     }

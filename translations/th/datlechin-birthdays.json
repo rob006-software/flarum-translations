@@ -2,55 +2,103 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "",
-                "view_birthday_label": ""
+                "edit_own_birthday_label": "แก้ไขวันเกิดของตัวเอง",
+                "view_birthday_label": "ดูวันเกิด"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "min_age_help": "อายุขั้นต่ำสำหรับการลงทะเบียน",
+                "min_age_label": "อายุขั้นต่ำ",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
+                "set_on_registration_label": "อนุญาตให้ตั้งวันเกิดตอนสมัครสมาชิก",
+                "required_label": "บังคับกรอกวันเกิด",
+                "required_help": "ต้องเปิดตัวเลือก Set on registration ก่อนจึงจะใช้ตัวเลือกนี้ได้",
+                "date_format_label": "รูปแบบวันที่",
+                "date_format_help": "ใช้รูปแบบวันที่ของ <a>dayjs</a> ปล่อยว่างเพื่อใช้รูปแบบเริ่มต้น",
+                "date_none_year_label": "รูปแบบวันที่ไม่แสดงปี"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
-            "user": {
-                "birthday_text": "",
-                "age_text": ""
+            "badge": {
+                "birthday_tooltip": ""
             },
-            "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": ""
-            },
-            "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": ""
-            },
-            "edit_user": {
-                "dob_heading": ""
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
             },
             "nav": {
-                "nav_item": ""
+                "birthdays_link": "",
+                "nav_item": "วันเกิดวันนี้"
+            },
+            "notifications": {
+                "birthday_text": ""
             },
             "page": {
-                "discussion_count": "",
-                "post_count": ""
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {โพสต์: #} other {โพสต์: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "เปลี่ยนวันเกิด",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "แสดงวันและเดือนเกิด",
+                "show_dob_year_label": "แสดงปีเกิด",
+                "show_dob_year_help": "จะทำให้คนอื่นเห็นอายุของคุณ"
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
+            "user": {
+                "birthday_text": "วันเกิด: {date}",
+                "age_text": "อายุ: {age}"
+            },
+            "change_dob": {
+                "title": "แก้ไขวันเกิด",
+                "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "edit_user": {
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
             }
         },
         "api": {
-            "invalid_dob_message": "",
-            "invalid_age_message": "",
-            "birthday_required_message": ""
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
+            "invalid_dob_message": "วันเกิดไม่ถูกต้อง",
+            "invalid_age_message": "อายุของคุณต้องมีอย่างน้อย {minAge} ปี"
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
-            "date_of_birth": ""
+            "date_of_birth": "วันเกิด"
         }
     }
 }

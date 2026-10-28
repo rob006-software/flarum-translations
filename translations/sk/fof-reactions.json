@@ -41,7 +41,7 @@
                 "reactions": {
                     "title": "Vlastné reakcie",
                     "reactions": "Aktuálne reakcie",
-                    "Helptext": "Vložte názov {identifier} pre emoji alebo font-awesome ikonu a vyberte aký typ si želáte.",
+                    "Helptext": "Vložte názov (identifikátor) pre emoji alebo font-awesome ikonu a vyberte aký typ si želáte.",
                     "help": {
                         "display": "Zobraziť",
                         "identifier": "Identifikátor"
@@ -87,6 +87,21 @@
                         }
                     },
                     "save_settings": "Uložiť nastavenia"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof-reactions": {
+                    "reaction_created": "",
+                    "reaction_updated": "",
+                    "reaction_enabled": "",
+                    "reaction_disabled": "",
+                    "reaction_deleted": "",
+                    "post_reaction_removed": "",
+                    "post_reactions_removed": ""
                 }
             }
         }

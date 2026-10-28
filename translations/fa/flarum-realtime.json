@@ -1,15 +1,21 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "",
             "push": {
                 "discussion-list-new-activity": "",
                 "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "anonymous-user": "[نام‌ناشناس]",
+                "hidden-user": "",
                 "people-are-typing": "",
                 "users-are-typing": "",
                 "no-activity": ""
+            },
+            "index-typing": {
+                "someone-typing": "",
+                "someone-typing-tag": ""
             },
             "user": {
                 "settings": {
@@ -23,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "",
                 "view-who-types": ""
             },
             "settings": {
@@ -33,7 +40,11 @@
                 "notification-toast-dismiss-after": "",
                 "notification-toast-dismiss-after-help": "",
                 "typing-indicator": "",
-                "typing-indicator-help": ""
+                "typing-indicator-help": "",
+                "index-typing-indicator": "",
+                "index-typing-indicator-help": "",
+                "index-typing-indicator-restricted": "",
+                "index-typing-indicator-restricted-help": ""
             }
         }
     }

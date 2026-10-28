@@ -1,0 +1,60 @@
+{
+    "prm-analytics": {
+        "admin": {
+            "title": "Analytics",
+            "subtitle": "Live forum health, growth, and staff workload",
+            "refresh": "Refresh",
+            "loading": "Loading analytics…",
+            "error": "Could not load analytics.",
+            "range": {
+                "label": "Range",
+                "7d": "7 days",
+                "30d": "30 days",
+                "90d": "90 days"
+            },
+            "kpis": {
+                "users": "Members",
+                "discussions": "Discussions",
+                "posts": "Posts",
+                "likes": "Likes",
+                "reports": "Reports",
+                "tickets": "Tickets",
+                "warnings": "Warnings",
+                "trade": "Trade",
+                "pending_reports": "Pending",
+                "open_tickets": "Open tickets",
+                "vs_prev": "vs prev",
+                "now": "now"
+            },
+            "charts": {
+                "growth": "Growth",
+                "engagement": "Engagement",
+                "moderation": "Moderation workload",
+                "trade": "Trade feedback volume",
+                "reports_status": "Reports by status",
+                "reports_reason": "Reports by reason",
+                "tickets_status": "Tickets by status",
+                "tickets_category": "Tickets by category",
+                "trade_mix": "Trade rating mix",
+                "top_tags": "Top tags",
+                "activity": "Activity mix"
+            },
+            "series": {
+                "users": "New members",
+                "discussions": "New discussions",
+                "posts": "New posts",
+                "likes": "Likes",
+                "reports": "Reports",
+                "tickets": "Tickets opened",
+                "warnings": "Warnings",
+                "trade": "Feedback"
+            },
+            "empty": "No data in this range",
+            "soft": {
+                "moderation_off": "Moderation extension not detected — staff charts hidden.",
+                "trade_off": "Trade Feedback not detected — trade charts hidden.",
+                "likes_off": "Likes table not found."
+            }
+        }
+    }
+}

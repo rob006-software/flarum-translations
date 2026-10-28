@@ -2,66 +2,66 @@
     "ralkage-profile-messages": {
         "admin": {
             "permissions": {
-                "post_label": "",
-                "delete_own_label": "",
-                "edit_any_label": ""
+                "post_label": "โพสต์ข้อความบน profile",
+                "delete_own_label": "ลบข้อความ profile ของตัวเอง",
+                "edit_any_label": "แก้ไขข้อความ profile ของใครก็ได้"
             }
         },
         "forum": {
             "user": {
-                "messages_link": "",
-                "messages_empty_text": "",
-                "messages_load_more_button": ""
+                "messages_link": "ข้อความบน Profile",
+                "messages_empty_text": "ยังไม่มีข้อความบน profile นี้",
+                "messages_load_more_button": "โหลดเพิ่มเติม"
             },
             "composer": {
-                "placeholder": "",
-                "submit_button": "",
-                "save_button": "",
-                "heading": "",
-                "reply_heading": "",
-                "edit_heading": "",
-                "confirm_exit": "",
-                "posted_message": "",
-                "preview_heading": "",
-                "saved_message": "",
-                "validation_empty": "",
-                "validation_too_long": "",
-                "validation_blocked": ""
+                "placeholder": "เขียนข้อความบน profile นี้...",
+                "submit_button": "โพสต์ข้อความ",
+                "save_button": "บันทึกการเปลี่ยนแปลง",
+                "heading": "ข้อความบน profile ของ {username}",
+                "reply_heading": "ตอบกลับบน profile ของ {username}",
+                "edit_heading": "แก้ไขข้อความ",
+                "confirm_exit": "ข้อความของคุณยังไม่ได้โพสต์ ต้องการยกเลิกหรือไม่?",
+                "posted_message": "โพสต์ข้อความของคุณแล้ว",
+                "preview_heading": "Preview",
+                "saved_message": "อัปเดตข้อความของคุณแล้ว",
+                "validation_empty": "ข้อความต้องไม่ว่างเปล่า",
+                "validation_too_long": "ข้อความต้องไม่เกิน 2000 ตัวอักษร",
+                "validation_blocked": "ผู้ใช้นี้ปิดใช้งานข้อความ profile แล้ว"
             },
             "message": {
-                "delete_button": "",
-                "delete_confirm": "",
-                "edit_button": "",
-                "reply_button": "",
-                "reply_placeholder": "",
-                "reply_submit": "",
-                "report_button": "",
-                "permalink_button": "",
-                "permalink_copied": "",
-                "show_replies": "",
-                "hide_replies": ""
+                "delete_button": "ลบ",
+                "delete_confirm": "คุณแน่ใจหรือไม่ว่าต้องการลบข้อความนี้?",
+                "edit_button": "แก้ไข",
+                "reply_button": "ตอบกลับ",
+                "reply_placeholder": "เขียนการตอบกลับ...",
+                "reply_submit": "ตอบกลับ",
+                "report_button": "รายงาน",
+                "permalink_button": "Permalink",
+                "permalink_copied": "คัดลอกลิงก์แล้ว",
+                "show_replies": "{count, plural, one {แสดง # การตอบกลับ} other {แสดง # การตอบกลับ}}",
+                "hide_replies": "ซ่อนการตอบกลับ"
             },
             "report": {
-                "title": "",
-                "reason_inappropriate": "",
-                "reason_spam": "",
-                "reason_harassment": "",
-                "reason_other": "",
-                "detail_placeholder": "",
-                "submit_button": "",
-                "success": "",
-                "cannot_report_own": "",
-                "already_reported": ""
+                "title": "รายงานข้อความ",
+                "reason_inappropriate": "เนื้อหาไม่เหมาะสม",
+                "reason_spam": "Spam",
+                "reason_harassment": "การล่วงละเมิด",
+                "reason_other": "อื่นๆ",
+                "detail_placeholder": "ระบุรายละเอียดเพิ่มเติม (ไม่บังคับ)...",
+                "submit_button": "ส่งรายงาน",
+                "success": "รายงานข้อความแล้ว",
+                "cannot_report_own": "คุณไม่สามารถรายงานข้อความของตัวเองได้",
+                "already_reported": "คุณรายงานข้อความนี้ไปแล้ว"
             },
             "notification": {
-                "new_profile_message_text": "",
-                "new_profile_message_reply_text": ""
+                "new_profile_message_text": "{username} โพสต์บน profile ของคุณ",
+                "new_profile_message_reply_text": "{username} ตอบกลับข้อความของคุณบน profile ของ {profileOwner}"
             },
             "settings": {
-                "profile_heading": "",
-                "notify_new_profile_message_label": "",
-                "block_profile_messages_label": "",
-                "default_view_label": ""
+                "profile_heading": "Profile",
+                "notify_new_profile_message_label": "มีคนโพสต์บน profile ของฉัน",
+                "block_profile_messages_label": "ปิดใช้งานข้อความ profile จากผู้ใช้คนอื่น",
+                "default_view_label": "แสดงข้อความ Profile เป็นหน้าเริ่มต้นของ profile"
             }
         }
     }

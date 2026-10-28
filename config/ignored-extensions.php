@@ -18,6 +18,9 @@ return [
 	'capybash/magicdice',
 	'capybash/magicread',
 	'capybash/magicslider',
+	// migrated to `fof/*`
+	'v17development/flarum-blog',
+	'v17development/flarum-seo',
 	/*
 	 * dead/private forks
 	 */

@@ -4,25 +4,25 @@
             "settings": {
                 "excerpt-length": {
                     "label": "Độ dài đoạn trích tóm tắt bằng ký tự",
-                    "help": "Độ dài ký tự hiển thị từ bài viết."
+                    "help": "Số ký tự sẽ được hiển thị từ bài viết."
                 },
                 "rich-excerpts": {
-                    "label": "Hiển thị trích đoạn sử dụng nội dung rich",
-                    "help": "Khi bật, ảnh, nhúng và các phần tử không phải văn bản khác có thể bao gồm trong tóm tắt"
+                    "label": "Hiển thị đoạn trích với nội dung đa phương tiện",
+                    "help": "Khi bật, hình ảnh, nội dung nhúng và các phần tử không phải văn bản khác có thể được đưa vào phần tóm tắt"
                 },
                 "excerpt-type": {
-                    "label": "Bài viết nào hiển thị thành trích đoạn?",
-                    "help": "Lựa chọn nếu bài viết đầu hoặc cuối sử dụng cho nội dung tóm tắt"
+                    "label": "Bài viết nào sẽ được hiển thị làm đoạn trích?",
+                    "help": "Chọn dùng bài viết đầu tiên hay cuối cùng cho nội dung tóm tắt"
                 },
                 "first-label": "Bài viết đầu tiên",
                 "last-label": "Bài viết cuối cùng",
-                "tags-enabled": "Bạn cần bật <code>flarum/tags</code>. Các cài đặt này sẽ thành mặc định, trừ khi mỗi thẻ có mỗi thiết lập riêng."
+                "tags-enabled": "Bạn đã bật <code>flarum/tags</code>. Các cài đặt này sẽ là mặc định, trừ khi từng thẻ có thiết lập riêng."
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "Tóm tắc",
+                    "summaries-heading": "Tóm tắt",
                     "show-summaries": "Hiển thị đoạn trích từ mỗi cuộc thảo luận trong danh sách thảo luận (Máy tính để bàn/Máy tính bảng)",
                     "show-summaries-mobile": "Hiển thị một đoạn trích từ mỗi cuộc thảo luận trong danh sách thảo luận (Di động)"
                 }

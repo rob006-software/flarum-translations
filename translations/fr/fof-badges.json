@@ -1,5 +1,63 @@
 {
     "fof-badges": {
+        "defaults": {
+            "categories": {
+                "getting-started": {
+                    "name": "Premiers pas",
+                    "description": "Badges pour les nouveaux membres qui font leurs premiers pas"
+                },
+                "milestones": {
+                    "name": "Étapes importantes",
+                    "description": "Badges pour avoir franchi des étapes importantes"
+                },
+                "posting": {
+                    "name": "Publication",
+                    "description": "Badges pour la publication des étapes importantes et des contributions"
+                }
+            },
+            "badges": {
+                "first-post": {
+                    "name": "Premier message",
+                    "description": "Rédigez votre première réponse"
+                },
+                "conversation-starter": {
+                    "name": "Sujet de conversation",
+                    "description": "Démarrez votre première discussion"
+                },
+                "profile-picture": {
+                    "name": "Photo de profil",
+                    "description": "Transférer une photo de profil"
+                },
+                "first-week": {
+                    "name": "Première semaine",
+                    "description": "Être membre pendant 7 jours"
+                },
+                "regular": {
+                    "name": "Régulier",
+                    "description": "Être membre pendant 30 jours"
+                },
+                "anniversary": {
+                    "name": "Anniversaire",
+                    "description": "Être membre pendant un an"
+                },
+                "active-member": {
+                    "name": "Membre actif",
+                    "description": "Publier 50 réponses"
+                },
+                "prolific": {
+                    "name": "Prolifique",
+                    "description": "Publier 200 réponses"
+                },
+                "topic-starter": {
+                    "name": "Auteur du sujet",
+                    "description": "Démarrer 10 discussions"
+                },
+                "editor": {
+                    "name": "Éditeur",
+                    "description": "Modifier 10 messages pour les améliorer"
+                }
+            }
+        },
         "admin": {
             "tabs": {
                 "badges": "Badges",
@@ -141,9 +199,9 @@
             "delete_category_confirm_with_badges": "Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ? {count, plural, one {# badge} other {# badges}} ne seront plus classés dans une catégorie.",
             "edit_badge": "Modifier le badge",
             "badge_name": "Nom",
-            "badge_name_placeholder": "par exemple, « Maître des 100 messages »",
+            "badge_name_placeholder": "p. ex. « Maître des 100 messages »",
             "badge_slug": "Slug",
-            "badge_slug_placeholder": "par exemple, « maitre-100-messages »",
+            "badge_slug_placeholder": "p. ex. « maitre-100-messages »",
             "badge_slug_help": "Identifiant URL. Généré automatiquement à partir du nom si le champ est laissé vide.",
             "badge_description": "Description",
             "badge_description_placeholder": "Décrivez comment obtenir ce badge...",
@@ -158,7 +216,7 @@
             "is_active_help": "Les badges inactifs ne seront pas décernés automatiquement aux utilisateurs.",
             "is_visible": "Visible dans la liste des badges",
             "is_visible_help": "Les badges masqués n'apparaîtront pas dans la liste publique des badges mais les utilisateurs peuvent tout de même les obtenir.",
-            "save": "Sauvegarder",
+            "save": "Enregistrer",
             "cancel": "Annuler",
             "validation": {
                 "tag_required": "Vous devez sélectionner une étiquette lorsque vous utilisez le métrique « Messages associés à cette étiquette »."
@@ -218,9 +276,9 @@
             "no_group": "Ne pas ajouter à ce groupe",
             "edit_category": "Modifier la catégorie",
             "category_name": "Nom",
-            "category_name_placeholder": "par exemple, « Badges de réussite »",
+            "category_name_placeholder": "p. ex. « Badges de réussite »",
             "category_slug": "Slug",
-            "category_slug_placeholder": "par exemple, « succes »",
+            "category_slug_placeholder": "p. ex. « succes »",
             "category_slug_help": "Identifiant URL de la catégorie.",
             "category_description": "Description",
             "category_description_placeholder": "Décrivez cette catégorie de badges...",

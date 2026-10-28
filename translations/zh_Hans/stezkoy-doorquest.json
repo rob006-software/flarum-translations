@@ -1,0 +1,87 @@
+{
+    "stezkoy-doorquest": {
+        "forum": {
+            "sign_up": {
+                "question_label": "问题",
+                "answer_placeholder": "填写答案",
+                "invalid_answer": "答案不正确，请重试。",
+                "answer_required": "请回答问题后再注册。"
+            }
+        },
+        "admin": {
+            "settings": {
+                "heading": "Doorquest 设置",
+                "total_questions": "{count} 个问题",
+                "search": "搜索问题…",
+                "create_question_button": "添加问题"
+            },
+            "list": {
+                "heading": "问题",
+                "columns": {
+                    "id": "ID",
+                    "question": "问题",
+                    "answer": "答案",
+                    "group": "用户组",
+                    "max_uses": "使用次数上限",
+                    "activates_user": "自动激活",
+                    "uses": "使用情况",
+                    "created_by": "创建者",
+                    "manage": "操作"
+                },
+                "actions": {
+                    "edit": "编辑",
+                    "delete": "删除"
+                },
+                "content": {
+                    "no_group": "无",
+                    "no_created_by": "—",
+                    "delete": "确定要删除问题「{question}」吗？",
+                    "warning": "已达上限",
+                    "uses": {
+                        "used_times": "剩余 {remainingUses} 次",
+                        "total_uses": "已使用 {totalUses} 次"
+                    },
+                    "invalid_column": "—"
+                },
+                "pagination": {
+                    "first_page_button": "第一页",
+                    "back_button": "上一页",
+                    "next_button": "下一页",
+                    "last_page_button": "最后一页",
+                    "page_counter": "第 {current} / {total} 页"
+                }
+            },
+            "modals": {
+                "create_question": {
+                    "title": "添加问题",
+                    "question": {
+                        "label": "问题",
+                        "help": "用户注册时需要回答的问题。"
+                    },
+                    "answer": {
+                        "label": "答案",
+                        "help": "正确答案，不区分大小写。"
+                    },
+                    "group": {
+                        "label": "加入用户组",
+                        "help": "答对问题并注册成功的用户会自动加入此用户组。"
+                    },
+                    "max_uses": {
+                        "label": "使用次数上限",
+                        "help": "此问题最多可被正确回答多少次。设为 0 表示不限制。"
+                    },
+                    "activates_user": {
+                        "label": "自动激活账号",
+                        "help": "答对问题后无需邮箱确认，自动激活用户账号。"
+                    },
+                    "submit_button": "添加",
+                    "submit_and_create_another_button": "添加并继续"
+                },
+                "edit_question": {
+                    "title": "编辑问题",
+                    "submit_button": "保存更改"
+                }
+            }
+        }
+    }
+}

@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "A <b>https://7x.ax/</b> használata egy ingyenes API-kulcs szerzéséhez, mellyel percenként legfeljebb 20 kérés indítható. Magasabb használati korlátokkal rendelkező, fizetős csomagok is elérhetők.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "A <b>https://ipinfo.io</b> használata az IP információk korlátozásmentes lekéréséhez. Az ingyenes API-kulcs regisztrációt igényel.",
+                "service_maxmind_label": "Offline adatbázisok (MaxMind / DB-IP)",
+                "service_maxmind_description": "Címek lekérése helyi MaxMind-formátumú adatbázisokból távoli API-hívás helyett. A MaxMind a GeoLite2/GeoIP2 és a BD-IP Lite kiadásaival működik. A lekérések azonnaliak, korlátlanok és sosem hagyják el a kiszolgálóját, de saját magának kell telepítenie és frissítenie az adatbázisfájlokat. Példákért lásd a <b>https://github.com/FriendsOfFlarum/geoip</b> oldalt.",
+                "service_forced": "A lekérési szolgáltatást egy bővítő állította erre: {service}, így itt nem változtatható meg.",
+                "service_unavailable": "A kiválasztott lekérési szolgáltatás nem használható, így nem lesz IP-információ rögzítve. Az offline adatbázisok esetén ellenőrizze, hogy az alábbiak közül legalább egy adatbázis-útvonal be van állítva, és egy olvasható .mmdb fájlra mutat.",
                 "access_key_label": "Hozzáférési kulcs",
                 "quota_label": "Kvóta lekérdezése",
+                "databases_heading": "Adatbázisfájlok",
+                "databases_help": "Abszolút útvonalak az .mmdb fájljaihoz. A három közül egyik sem kötelező, és teljesen függetlenek – az országadatbázis elég az országzászlókhoz, a város koordinátákat ad a térképhez, az ASN pedig hozzáadja az internetszolgáltatót és a szervezetet. Vegye figyelembe, hogy a DB-IP Lite kiadásai nem tartalmaznak irányítószámokat, és az offline adatbázisok nem tartalmaznak fenyegetettségi adatokat.",
+                "database_country_label": "Országadatbázis",
+                "database_city_label": "Városadatbázis",
+                "database_asn_label": "ASN-adatbázis",
+                "database_built": "összeállítva: {time}",
+                "database_stale": "elavult, fontolja meg a frissítést",
+                "database_not_configured": "Nincs beállítva",
+                "setting_pinned": "Bővítő által beállítva, így itt nem változtatható meg.",
                 "show_flag_label": "Országzászlók megjelenítése minden bejegyzésnél",
                 "show_flag_help": "A bejegyzés szerzője IP-címéhez tartozó országzászló megjelenítése az IP-cím közzététele nélkül, ha a szerző ezt kérte a beállításaiban.",
+                "allow_custom_flag_label": "Engedélyezés a felhasználóknak, hogy egyéni országzászlót állítsanak be",
+                "allow_custom_flag_help": "Ha be van kapcsolva, akkor a felhasználók kiválaszthatják a bejegyzéseiknél megjelenített országzászlót a profilbeállításaikban. A felhasználó által kiválasztott zászló mindenki számára megjelenik, és előnyt élvez az IP-cím alapján megállapítotthoz képest.",
                 "test": {
                     "heading": "Szolgáltatáskonfiguráció tesztelése",
                     "help": "Tesztelje az IP-címlekérési szolgáltatása konfigurációját egy példa IP-címmel. Győződjön meg arról, hogy a teszt előtt mentette a beállításait."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Válaszidő:",
                 "test_timestamp_label": "Időbélyeg:",
                 "test_http_status_code_label": "HTTP állapotkód:",
+                "test_databases_label": "Megkérdezett adatbázisok:",
                 "test_error_details_label": "Hiba részletei:",
+                "test_notice_label": "Megjegyzés:",
                 "test_processed_service_response_label": "Feldolgozott szolgáltatásválasz:",
                 "status_success": "✓ Sikeres",
                 "status_error": "✗ Hiba",
@@ -59,7 +76,43 @@
                 "error_code_prefix": "Kód:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": "IP-cím lemásolva"
+            },
+            "copy_ip_label": "IP-cím vágólapra másolása",
+            "map_button_label": "IP-információ",
+            "map_modal": {
+                "title": "IP-információ",
+                "ip_address": "IP-cím",
+                "country": "Ország",
+                "city": "Város",
+                "region": "Régió",
+                "zip_code": "Irányítószám",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Mobilhálózat",
+                "organization": "Szervezet",
+                "threat_level": "Fenyegetési szint",
+                "threat_types": "Fenyegetéstípusok",
+                "error": "Hiba",
+                "not_enough_data": "Nincs elég adat a térkép rajzolásához",
+                "dbip_attribution": "IP geolokáció <a>DB-IP</a> használatával",
+                "country_code": "Országkód"
+            },
+            "custom_flag": {
+                "none": "Nincs egyéni zászló",
+                "placeholder": "Ország keresése…"
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)",
+                    "custom_flag_label": "Egyéni országzászló",
+                    "custom_flag_help": "Válassza ki a bejegyzéseinél megjelenítendő országzászlót. A zászló mindenki számára látható, és ez jelenik meg az IP-cím alapján megállapított helyett."
+                }
+            },
             "alerts": {
                 "ip_copied": "IP-cím másolva"
             },
@@ -78,11 +131,6 @@
                 "threat_types": "Fenyegetési típusok",
                 "error": "Hiba",
                 "not_enough_data": "Nincs elég adat térkép rajzolásához"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)"
-                }
             }
         }
     },

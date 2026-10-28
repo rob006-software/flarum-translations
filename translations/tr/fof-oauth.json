@@ -14,7 +14,10 @@
                 },
                 "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
                 "update_email_from_provider_label": "Sağlayıcıdan gelen e-posta adresini güncelle",
-                "update_email_from_provider_help": "Etkinleştirilirse, kullanıcının e-posta adresi, foruma her girişte OAuth sağlayıcısı tarafından sağlanan adresle eşleşecek şekilde güncellenecektir. Tüm sağlayıcılar güncel e-postayı sağlamaz; bu durumda bu ayarın bu sağlayıcılar üzerinde herhangi bir etkisi olmaz.",
+                "update_email_from_provider_help": "Etkinleştirildiğinde, doğrulanmış e-posta adresi kullanıcının forumdaki e-posta adresinden farklı olan bir OAuth sağlayıcısıyla giriş yapılırsa yeni adrese bir onay bağlantısı, mevcut adrese ise bir bilgilendirme e-postası gönderilir. Kullanıcı onay bağlantısına tıkladığında e-posta adresi değiştirilir. E-posta adresinin doğrulandığını teyit edemeyen sağlayıcılar, bu özelliği destekleyecek şekilde henüz güncellenmemiş üçüncü taraf sağlayıcılar da dahil olmak üzere, e-posta adresini değiştiremez.",
+                "oauth_only_label": "",
+                "oauth_only_help": "",
+                "oauth_only_sign_up_closed_warning": "",
                 "disable_avatars_label": "Sağlayıcıdan avatarları devre dışı bırak",
                 "disable_avatars_help": "Etkinleştirilirse, kullanıcının avatarı kayıt sırasında sağlayıcının avatarıyla eşleşmeyecektir. Bunun yalnızca gelecekteki kayıtları etkilediğini ve mevcut kullanıcıların avatarlarını değiştirmeyeceğini unutmayın.\n",
                 "providers": {
@@ -70,6 +73,9 @@
         },
         "forum": {
             "log_in": {
+                "unverified_email_in_use": "{provider} bu e-posta adresini doğrulamadığı için oturum açmanızda kullanamıyoruz. Zaten bir hesabınız varsa aşağıdan giriş yapın ve ardından hesap ayarlarınızdan {provider} hesabınızı bağlayın.",
+                "unverified_email_in_use_oauth_only": "",
+                "admin_log_in_link": "",
                 "with_button": "{provider} ile giriş yapın",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -115,6 +121,12 @@
                 "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
                 "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin.",
                 "already_linked": "Bu hesap zaten başka bir kullanıcıya bağlı."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "E-posta Adresi Değişikliği Talep Edildi",
+                "body": ""
             }
         },
         "lib": {

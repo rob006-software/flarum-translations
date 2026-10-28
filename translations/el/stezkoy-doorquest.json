@@ -1,0 +1,87 @@
+{
+    "stezkoy-doorquest": {
+        "forum": {
+            "sign_up": {
+                "question_label": "",
+                "answer_placeholder": "",
+                "invalid_answer": "",
+                "answer_required": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "heading": "",
+                "total_questions": "",
+                "search": "",
+                "create_question_button": ""
+            },
+            "list": {
+                "heading": "",
+                "columns": {
+                    "id": "",
+                    "question": "",
+                    "answer": "",
+                    "group": "",
+                    "max_uses": "",
+                    "activates_user": "",
+                    "uses": "",
+                    "created_by": "",
+                    "manage": ""
+                },
+                "actions": {
+                    "edit": "",
+                    "delete": ""
+                },
+                "content": {
+                    "no_group": "",
+                    "no_created_by": "",
+                    "delete": "",
+                    "warning": "",
+                    "uses": {
+                        "used_times": "",
+                        "total_uses": ""
+                    },
+                    "invalid_column": ""
+                },
+                "pagination": {
+                    "first_page_button": "",
+                    "back_button": "",
+                    "next_button": "",
+                    "last_page_button": "",
+                    "page_counter": ""
+                }
+            },
+            "modals": {
+                "create_question": {
+                    "title": "",
+                    "question": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "answer": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "group": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "max_uses": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "activates_user": {
+                        "label": "",
+                        "help": ""
+                    },
+                    "submit_button": "",
+                    "submit_and_create_another_button": ""
+                },
+                "edit_question": {
+                    "title": "",
+                    "submit_button": ""
+                }
+            }
+        }
+    }
+}

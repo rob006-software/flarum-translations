@@ -2,63 +2,63 @@
     "ramon-stickers": {
         "admin": {
             "settings": {
-                "hover_play_label": "",
-                "hover_play_help": "",
-                "show_tooltip_label": "",
-                "show_tooltip_help": ""
+                "hover_play_label": "滑鼠懸停時播放動畫",
+                "hover_play_help": "啟用後，文章中的 Lottie 與 TGS 動畫將停留在第一幀，只有在滑鼠懸停時才會播放。",
+                "show_tooltip_label": "滑鼠懸停時顯示貼圖名稱",
+                "show_tooltip_help": "啟用後，在文章或貼圖選擇器中將滑鼠懸停於貼圖上時，會以提示視窗顯示貼圖名稱。"
             },
             "sticker_section": {
-                "heading_title": "",
-                "import_button": "",
-                "export_button": "",
-                "export_error": "",
-                "import_zip_message": "",
-                "import_stickers_message": "",
-                "importing_message": "",
-                "import_result": "",
-                "import_error_message": "",
-                "bulk_upload_button": "",
-                "bulk_upload_category_prompt": "",
-                "bulk_upload_progress": "",
-                "bulk_upload_done": "",
-                "select_button": "",
-                "cancel_select_button": "",
-                "delete_selected_button": "",
-                "delete_selected_confirm": "",
-                "delete_selected_error": "",
+                "heading_title": "貼圖",
+                "import_button": "匯入",
+                "export_button": "匯出 ZIP",
+                "export_error": "匯出失敗，請稍後再試。",
+                "import_zip_message": "從 ZIP 檔（由本擴充功能匯出）匯入貼圖包。貼圖檔案將複製至 /assets/stickers/，且不會覆蓋現有貼圖。是否繼續？",
+                "import_stickers_message": "從 JSON 檔匯入貼圖中繼資料。此操作不包含貼圖檔案，請先自行上傳貼圖檔後再進行匯入。是否繼續？",
+                "importing_message": "正在匯入，請稍候。",
+                "import_result": "完成：已匯入 {imported} 個，略過 {skipped} 個已存在的貼圖。",
+                "import_error_message": "匯入失敗：{error}",
+                "bulk_upload_button": "批次上傳",
+                "bulk_upload_category_prompt": "請輸入此次批次上傳貼圖所屬的分類名稱：",
+                "bulk_upload_progress": "正在上傳 {current}/{total}...",
+                "bulk_upload_done": "上傳完成：成功 {uploaded} 個，失敗 {errors} 個。",
+                "select_button": "選取",
+                "cancel_select_button": "取消選取",
+                "delete_selected_button": "刪除（{count} 個）",
+                "delete_selected_confirm": "確定要刪除 {count} 個貼圖嗎？此操作無法復原。",
+                "delete_selected_error": "部分貼圖刪除失敗，請稍後再試。",
                 "edit_sticker": {
-                    "modal_title": "",
-                    "sticker_category_label": "",
-                    "category_name_label": "",
-                    "sticker_title_label": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "category_help": "",
-                    "upload_label": "",
-                    "upload_button": "",
-                    "upload_help": "",
-                    "submit_button": "",
-                    "delete_sticker_button": "",
-                    "delete_sticker_confirmation": "",
-                    "saved_message": "",
-                    "save_error": "",
-                    "tgs_notice_title": "",
-                    "tgs_notice_body": "",
-                    "external_anim_notice_title": "",
-                    "external_anim_notice_body": ""
+                    "modal_title": "新增貼圖",
+                    "sticker_category_label": "分類代碼",
+                    "category_name_label": "分類名稱",
+                    "sticker_title_label": "貼圖名稱",
+                    "text_to_replace_label": "替代文字（例如：:sticker:）",
+                    "path_or_url_label": "路徑或網址",
+                    "category_help": "僅支援小寫英文字母、數字及底線，其他特殊字元將自動移除。",
+                    "upload_label": "上傳檔案",
+                    "upload_button": "選擇檔案",
+                    "upload_help": "支援 Lottie 動畫 JSON（.json）、Telegram 貼圖（.tgs）、PNG、GIF、WebP、JPEG。",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "刪除貼圖",
+                    "delete_sticker_confirmation": "確定要刪除此貼圖嗎？",
+                    "saved_message": "=> core.admin.settings.saved_message",
+                    "save_error": "儲存貼圖失敗，請檢查輸入內容後再試。",
+                    "tgs_notice_title": "授權提醒（TGS 檔案）",
+                    "tgs_notice_body": "TGS 檔案為 Telegram 動態貼圖，可能受到原作者的著作權或散布限制保護。儲存此貼圖即表示您擁有使用及散布該內容的完整權利，並願意自行承擔所有法律責任。",
+                    "external_anim_notice_title": "外部網址動畫貼圖",
+                    "external_anim_notice_body": "JSON 或 TGS 格式的動畫貼圖必須部署於與論壇相同的網域，才能正常顯示動畫效果。若使用外部網址載入貼圖，使用者將無法看到動畫，除非將貼圖檔案上傳至同源路徑。"
                 },
                 "sticker_list": {
-                    "load_more_button": "",
-                    "move_category_error": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "move_category_error": "無法儲存分類排序，請稍後再試。"
                 }
             }
         },
         "forum": {
             "composer": {
-                "sticker_tooltip": ""
+                "sticker_tooltip": "插入貼圖"
             },
             "picker": {
-                "no_stickers": ""
+                "no_stickers": "目前沒有貼圖"
             }
         }
     }

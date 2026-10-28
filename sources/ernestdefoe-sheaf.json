@@ -1,0 +1,30 @@
+{
+    "ernestdefoe-sheaf": {
+        "forum": {
+            "toggle": "Multi-quote",
+            "toggle_add": "Collect this post to quote in one reply",
+            "toggle_remove": "Remove this post from your multi-quote",
+            "toggle_count": "{count, plural, one {# quote collected} other {# quotes collected}}",
+            "add_selection": "Add to multi-quote",
+            "full": "You can collect up to {max} quotes at a time. Reply with them, or remove some first.",
+            "pill_label": "Multi-quote",
+            "reply_with": "{count, plural, one {Reply with # quote} other {Reply with # quotes}}",
+            "inserted": "{count, plural, one {# quote in your reply} other {# quotes in your reply}}",
+            "cannot_reply": "You can't reply to this discussion.",
+            "show_list": "Show collected quotes",
+            "clear": "Clear multi-quote",
+            "cleared": "Multi-quote cleared.",
+            "undo": "Undo",
+            "list_heading": "{count} of {max} collected",
+            "selection": "Selection",
+            "remove": "Remove {name} #{number}",
+            "source_link": "From: {title}",
+            "plain_quote_header": "{name} wrote:",
+            "unavailable": "{count, plural, one {# quoted post is no longer available and was skipped.} other {# quoted posts are no longer available and were skipped.}}"
+        },
+        "admin": {
+            "max_quotes": "Most quotes a member can collect",
+            "max_quotes_help": "How many posts or selections fit in one multi-quote before they have to reply or remove some. The default is 10."
+        }
+    }
+}

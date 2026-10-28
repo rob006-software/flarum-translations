@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
+                    "export_description": "همهٔ پرونده‌های بارگذاری‌شده توسط کاربر.",
                     "anonymize_description": "",
-                    "delete_description": ""
+                    "delete_description": "همهٔ فایل‌های بارگذاری‌شده توسط کاربر را حذف می‌کند."
                 }
             }
         }
@@ -31,23 +31,45 @@
                 "disable-hotlink-protection": "",
                 "download_templates": "",
                 "mime_types": "",
+                "mime_order": "",
                 "resize": "",
                 "client_extension": "",
                 "thumbnails": "",
+                "thumbnail_quality": "",
                 "watermark": "",
-                "s3_compatible_storage": "",
+                "storage_intro": "",
+                "storage_configure_another": "",
+                "storage_not_installed": "",
+                "local_cdn": "",
+                "s3_provider": "",
+                "s3_endpoint": "",
                 "s3_acl": "",
+                "s3_acl_unsupported": "",
+                "s3_path_style": "",
                 "custom_s3_url": "",
                 "s3_instance_profile": "",
                 "composer_buttons": ""
             },
+            "tabs": {
+                "files": "",
+                "storage": "",
+                "images": "",
+                "advanced": "",
+                "unsaved_changes": "",
+                "unsaved_hint": ""
+            },
             "labels": {
+                "storage": {
+                    "configure_another": "",
+                    "hide_unused": ""
+                },
                 "aws-s3": {
                     "bucket": "",
                     "key": "",
                     "region": "",
                     "secret": "",
                     "title": "",
+                    "provider": "",
                     "advanced_title": "",
                     "endpoint": "",
                     "use_path_style_endpoint": "",
@@ -64,6 +86,7 @@
                 },
                 "imgur": {
                     "client_id": "",
+                    "deprecated": "",
                     "title": "",
                     "tos": ""
                 },
@@ -74,16 +97,46 @@
                 "configured_by_environment": "",
                 "qiniu": {
                     "title": "",
-                    "key": "",
+                    "key": "کلید",
                     "secret": "",
                     "bucket": ""
                 },
                 "preferences": {
                     "max_file_size": "",
+                    "max_file_size_equivalent": "",
                     "mime_types": "",
                     "mime_type_regex_placeholder": "",
                     "mime_type_regex_invalid": "",
                     "mime_type_permission_placeholder": "",
+                    "mime_type_remove": "",
+                    "mime_type_add": "",
+                    "mime_column_pattern": "",
+                    "mime_column_pattern_help": "",
+                    "mime_column_storage": "",
+                    "mime_column_storage_help": "",
+                    "mime_column_display": "",
+                    "mime_column_display_help": "",
+                    "mime_column_permission": "",
+                    "mime_column_permission_help": "",
+                    "mime_move_up": "",
+                    "mime_move_down": "",
+                    "mime_edit_pattern": "",
+                    "mime_use_simple": "",
+                    "mime_advanced_pattern": "",
+                    "mime_add_subtype": "",
+                    "mime_add_subtype_placeholder": "",
+                    "mime_remove_subtype": "",
+                    "mime_add_prompt": "",
+                    "mime_add_custom": ""
+                },
+                "mime_presets": {
+                    "images": "",
+                    "pdf": "",
+                    "documents": "",
+                    "spreadsheets": "",
+                    "archives": "",
+                    "audio": "",
+                    "video": "",
                     "title": "",
                     "php_ini_values": ""
                 },
@@ -93,13 +146,15 @@
                     "toggle": ""
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "",
+                    "placeholder": ""
                 },
                 "thumbnails": {
                     "title": "",
                     "toggle": "",
                     "webp_toggle": "",
-                    "max_width": ""
+                    "max_width": "",
+                    "quality": ""
                 },
                 "watermark": {
                     "file": "",
@@ -127,7 +182,8 @@
                 "inspect-mime": ""
             },
             "warnings": {
-                "fileinfo_missing": ""
+                "fileinfo_missing": "",
+                "max_file_size_exceeds_php": ""
             },
             "permissions": {
                 "download_label": "",
@@ -135,6 +191,7 @@
                 "upload_mime_label": "",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": "",
+                "delete_own_uploads_label": "",
                 "upload_shared_label": "",
                 "access_shared_label": ""
             },
@@ -177,6 +234,13 @@
         },
         "forum": {
             "media_manager": "",
+            "display_name": {
+                "title": "",
+                "title_plural": "",
+                "help": "",
+                "insert": "",
+                "use_file_name": ""
+            },
             "buttons": {
                 "attach": "",
                 "upload": "",
@@ -189,7 +253,8 @@
             "states": {
                 "error": "",
                 "loading": "",
-                "unauthorized": ""
+                "unauthorized": "",
+                "permission_required": ""
             },
             "validation": {
                 "max_size": ""
@@ -229,6 +294,7 @@
             "file_list": {
                 "loading": "",
                 "empty": "",
+                "load_error": "",
                 "release_to_upload": "",
                 "modal_empty_desktop": "",
                 "modal_empty_phone": "",

@@ -47,5 +47,15 @@
             "flag_post": "Отправить",
             "flagged_posts": "Жалобы"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "post": {
+                    "dismissed_flags": "Отклонены флаги в сообщении пользователя {postuser} в разделе {discussion}",
+                    "flagged": "Сообщение пользователя {postuser} помечено как {reason} в {discussion}"
+                }
+            }
+        }
     }
 }

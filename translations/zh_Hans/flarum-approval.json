@@ -2,9 +2,9 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "审核讨论",
+                "approve_posts_label": "审核帖子",
                 "reply_without_approval_label": "回复无需审核",
-                "start_discussions_without_approval_label": "发布讨论无需审核"
+                "start_discussions_without_approval_label": "发起讨论无需审核"
             }
         },
         "forum": {
@@ -20,6 +20,18 @@
         },
         "ref": {
             "awaiting_approval": "审核中"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "通过审核：{discussion}"
+                },
+                "post": {
+                    "approved": "通过审核：{postuser} 在 {discussion} 中的 {post}"
+                }
+            }
         }
     }
 }

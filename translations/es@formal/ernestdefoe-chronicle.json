@@ -1,0 +1,49 @@
+{
+    "ernestdefoe-chronicle": {
+        "forum": {
+            "nav": "Actividad",
+            "filters": {
+                "label": "Mostrar",
+                "all": "Todo",
+                "discussion": "Discusiones",
+                "reply": "Respuestas",
+                "like": "Me gusta",
+                "best_answer": "Mejores respuestas",
+                "badge": "Insignias"
+            },
+            "item": {
+                "discussion": "Inició la discusión «{title}»",
+                "reply": "Respondió a «{title}»",
+                "like": "Indicó «Me gusta» en la publicación de {author} en «{title}»",
+                "like_no_author": "Indicó «Me gusta» en una publicación en «{title}»",
+                "best_answer": "Obtuvo la mejor respuesta en «{title}»",
+                "badge": "Obtuvo la insignia «{badge}»",
+                "joined": "Se unió al foro",
+                "untitled": "una discusión"
+            },
+            "today": "Hoy",
+            "yesterday": "Ayer",
+            "day_format": "dddd, D [de] MMMM [de] YYYY",
+            "load_more": "Cargar más",
+            "empty": "Aún no hay actividad.",
+            "empty_filtered": "Aún no hay elementos de este tipo.",
+            "failed": "No se pudo cargar la actividad.",
+            "retry": "Reintentar",
+            "settings": {
+                "show_likes": "Mostrar mis «Me gusta» en mi actividad"
+            }
+        },
+        "admin": {
+            "types_heading": "Qué aparece en la actividad de los miembros",
+            "types_help": "Los «Me gusta», mejores respuestas e insignias aparecen cuando están instaladas las extensiones Flarum Likes, FoF Best Answer y FoF Badges.",
+            "show_discussion": "Discusiones que iniciaron",
+            "show_reply": "Sus respuestas",
+            "show_like": "Publicaciones en las que indicaron «Me gusta»",
+            "show_like_help": "Los miembros aún pueden ocultar sus «Me gusta» en Ajustes → Privacidad.",
+            "show_best_answer": "Sus mejores respuestas",
+            "show_badge": "Insignias que han obtenido",
+            "show_joined": "Cuándo se unieron",
+            "permission_view": "Ver la actividad de los miembros"
+        }
+    }
+}

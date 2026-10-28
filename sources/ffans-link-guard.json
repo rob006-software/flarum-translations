@@ -1,0 +1,31 @@
+{
+    "ffans-link-guard": {
+        "admin": {
+            "settings": {
+                "warning_title_label": "Warning title",
+                "warning_title_help": "Leave blank to use the default title. Plain text only.",
+                "warning_message_label": "Warning message",
+                "warning_message_help": "Leave blank to use the default warning. Plain text only; line breaks are supported.",
+                "trusted_domains_label": "Trusted domains",
+                "trusted_domains_help": "Enter one domain per line. Same-origin links always bypass the warning. <code>example.com</code> matches only that domain. <code>*.example.com</code> matches its subdomains, but not <code>example.com</code> itself.",
+                "use_modal_label": "Show warnings in a modal",
+                "use_modal_help": "Shows the warning on the current page via modal."
+            }
+        },
+        "forum": {
+            "page_title": "Leaving the forum",
+            "destination_label": "Destination website",
+            "invalid_title": "Invalid external link",
+            "invalid_message": "This address could not be recognized. Please return to the community and open the link again.",
+            "close_button": "Close this tab",
+            "cancel_button": "Cancel",
+            "continue_button": "Continue",
+            "close_fallback": "If this tab did not close, close it manually or <a>return to the community</a>."
+        },
+        "lib": {
+            "default_forum_name": "this site",
+            "default_warning_title": "You are about to leave {forumName}",
+            "default_warning_message": "Please keep your account and personal information safe."
+        }
+    }
+}

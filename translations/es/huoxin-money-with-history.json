@@ -1,0 +1,71 @@
+{
+    "huoxin-money-with-history": {
+        "admin": {
+            "settings": {
+                "title": "",
+                "post_reward_amount": "",
+                "discussion_reward_amount": "",
+                "money_name": "",
+                "min_post_length": "",
+                "exclude_mentions_from_length": "",
+                "hide_zero_balances": "",
+                "remove_money_trigger": "",
+                "cascade_money_removal": "",
+                "reward_private_discussion": "",
+                "like_reward_amount": "",
+                "help_extension_likes": "",
+                "reward_self_like": ""
+            },
+            "permissions": {
+                "edit_money_label": "",
+                "disable_money_label": "",
+                "query_others_history": ""
+            },
+            "remove_money_trigger": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "forum": {
+            "nav": "",
+            "title": "",
+            "list-empty": "",
+            "money-list-load-more": "",
+            "money-history": {
+                "discussion-deleted": "",
+                "discussion-hidden": "",
+                "discussion-restored": "",
+                "discussion-reward": "",
+                "manual-adjustment": "",
+                "post-deleted": "",
+                "post-hidden": "",
+                "post-liked": "",
+                "post-restored": "",
+                "post-reward": "",
+                "post-unliked": ""
+            },
+            "record": {
+                "from": "",
+                "money-out": "",
+                "money-in": "",
+                "money-list-type": "",
+                "money-list-assign-at": "",
+                "money-list-id": "",
+                "money-list-from-user": "",
+                "money-list-target-user": "",
+                "money-list-amount": "",
+                "money-list-transfer-notes": "",
+                "money-list-balance": ""
+            },
+            "user_controls": {
+                "money_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": ""
+            }
+        }
+    }
+}

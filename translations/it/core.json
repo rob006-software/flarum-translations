@@ -50,6 +50,8 @@
                     "cdn_url_help": "",
                     "kit_url_label": "",
                     "kit_url_help": "",
+                    "forced_style_label": "",
+                    "forced_style_help": "",
                     "config_override": {
                         "label": "",
                         "help": ""
@@ -67,6 +69,10 @@
                     "search_configuration": ""
                 },
                 "queue": {
+                    "pause_label": "",
+                    "pause_all_label": "",
+                    "pause_queue_label": "",
+                    "pause_help": "",
                     "section_label": "",
                     "sync_info": "",
                     "sync_help": "",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": ""
                     },
-                    "no_other_drivers": ""
+                    "no_other_drivers": "",
+                    "cjk_mode_label": "",
+                    "cjk_mode_help": ""
                 },
                 "title": ""
             },
@@ -111,6 +119,8 @@
                 "edit_css_button": "Modifica CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Inserisci un codice colore esadecimale.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Carica un'immagine da utilizzare come favicon del sito.",
@@ -118,6 +128,8 @@
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
                 "logo_dark_mode_heading": "",
                 "logo_dark_mode_text": "",
+                "show_theme_selector_help": "",
+                "show_theme_selector_label": "",
                 "title": "Aspetto",
                 "color_scheme_label": "",
                 "color_schemes": {
@@ -164,12 +176,12 @@
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
                 "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Estensioni abbandonate",
+                "abandoned_extensions_text": "Flarum gestisce un <a>elenco comunitario di estensioni abbandonate</a>. Quando un'estensione installata compare in tale elenco, verrà segnalata nel pannello di amministrazione.",
+                "abandoned_extensions_sync_button": "Controlla ora",
+                "abandoned_extensions_sync_success": "Elenco delle estensioni abbandonate aggiornato. Trovata/e {count} estensione/i installata/e corrispondente/i.",
+                "abandoned_extensions_sync_error": "Impossibile recuperare l'elenco delle estensioni abbandonate. Riprova più tardi.",
+                "abandoned_extensions_notify_admins_label": "Invia un'email agli amministratori quando viene rilevata un'estensione appena abbandonata durante il controllo settimanale"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -182,28 +194,61 @@
                 "username_placeholder": "=> core.ref.username"
             },
             "announcements": {
-                "comments_label": "",
-                "description": "",
-                "empty": "",
-                "load_error": "",
-                "about": "",
-                "hide": "",
-                "read_more": "",
-                "refresh": "",
-                "retry": "",
-                "show": "",
+                "comments_label": "{count, plural, one {# commento} other {# commenti}}",
+                "description": "Ultime notizie e annunci dal team di Flarum.",
+                "empty": "Nessun annuncio trovato.",
+                "load_error": "Impossibile caricare gli annunci. Riprova più tardi.",
+                "about": "Ultime notizie e annunci tratti dalla community ufficiale di Flarum su discuss.flarum.org.",
+                "hide": "Nascondi annunci",
+                "read_more": "Leggi di più",
+                "refresh": "Aggiorna annunci",
+                "retry": "Prova di nuovo",
+                "show": "Mostra annunci",
+                "title": "Annunci",
+                "view_all": "Guarda tutto su discuss.flarum.org"
+            },
+            "queue_widget": {
                 "title": "",
-                "view_all": ""
+                "pending": "",
+                "reserved": "",
+                "failed": "",
+                "refresh": ""
+            },
+            "failed_jobs": {
+                "title": "",
+                "none": "",
+                "meta": "",
+                "details": "",
+                "retry": "",
+                "retry_all": "",
+                "delete": ""
             },
             "dashboard": {
+                "queue_paused_warning": "",
+                "queue_paused_all_warning": "",
+                "queue_paused_manage": "",
                 "clear_cache_button": "Pulisci cache",
-                "description": "Il tuo forum a colpo d'occhio.",
-                "info_button": "",
-                "info_modal": {
+                "clear_cache_modal": {
                     "title": "",
-                    "copy_button": "",
-                    "copy_success": "",
-                    "copy_error": ""
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
+                "description": "Il tuo forum a colpo d'occhio.",
+                "info_button": "Info sistema",
+                "info_modal": {
+                    "title": "Informazioni sistema",
+                    "copy_button": "Copia",
+                    "copy_success": "Informazioni di sistema copiate",
+                    "copy_error": "Copia fallita"
                 },
                 "io_error_message": "Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando.",
                 "status": {
@@ -237,6 +282,14 @@
                 "section_disabled_heading": "",
                 "section_disabled_help": "",
                 "suggested_by": ""
+            },
+            "database-driver-mismatch-warning": {
+                "detail": "",
+                "label": ""
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "",
+                "below-recommended-label": ""
             },
             "debug-warning": {
                 "detail": "Quando la modalità <code>debug</code> è attiva, Flarum ricostruirà le sue risorse <code>JavaScript</code> e <code>CSS</code> ad ogni richiesta e potrebbe anche potenzialmente perdere altre informazioni, come il alcuni elementi del database, variabili di ambiente, ecc.\n\nSi consiglia vivamente di disabilitare <code>debug</code> nel file <code>config.php</code> in produzione. Per ulteriori informazioni, vedere <link>Documenti Flarum</link>.\n",
@@ -311,12 +364,12 @@
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "abandoned_no_replacement": "",
-                "abandoned_with_replacement": "",
+                "abandoned_no_replacement": "Questa estensione non è più mantenuta dal suo autore e potrebbe non ricevere aggiornamenti.",
+                "abandoned_with_replacement": "Questa estensione è stata sostituita da {replacement}. Valuta la migrazione al pacchetto sostitutivo.",
                 "configure_scopes": "Configura ambiti",
                 "confirm_purge": "L'eliminazione rimuoverà tutte le voci del database e le risorse relative all'estensione. Non disinstallerà l'estensione; che deve essere fatto tramite Composer. Sei sicuro di voler continuare?",
                 "database_driver_mismatch": "",
-                "deprecated": "",
+                "deprecated": "Deprecate",
                 "disabled": "Disabilitata",
                 "enable_to_see": "Abilita l'estensione per vedere e modificare le impostazioni.",
                 "enabled": "Abilitata",
@@ -338,7 +391,7 @@
                     "no_readme": "Questa estensione non sembra avere un file README",
                     "title": "{extName} documentazione"
                 },
-                "replaced": "",
+                "replaced": "Rimpiazzata",
                 "reset_settings": {
                     "button": "",
                     "cancel_button": "",
@@ -377,7 +430,7 @@
                     "discussion": "Discussione",
                     "feature": "Funzionalità",
                     "formatting": "Formattazione",
-                    "forum-widget": "",
+                    "forum-widget": "Widget del forum",
                     "infrastructure": "",
                     "language": "Lingue",
                     "moderation": "Moderazione",
@@ -405,6 +458,7 @@
                 "delete_posts_forever_label": "Elimina i post per sempre",
                 "delete_posts_label": "Elimina post",
                 "description": "Configura chi può vedere o fare cosa.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Modifica post",
                 "edit_users_label": "Modifica attributi utente",
                 "edit_users_credentials_label": "Modifica credenziali utente",
@@ -579,7 +633,8 @@
                 "search_role_label": "Cerca nel Forum",
                 "session_dropdown_accessible_label": "Attiva/disattiva il menu a discesa delle opzioni di sessione",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": ""
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,12 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Attiva/disattiva il menu a discesa di navigazione"
             },
             "index_sort": {
+                "az_button": "",
                 "latest_button": "Recenti",
                 "newest_button": "",
                 "oldest_button": "",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "Cambia indice lista discussioni",
-                "top_button": "Top"
+                "top_button": "Top",
+                "za_button": ""
             },
             "log_in": {
                 "forgot_password_link": "Password dimenticata?",
@@ -608,6 +665,7 @@
                 "sign_up_text": "Non hai un account? <a>Registrati</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": ""
             },
             "notifications": {
@@ -718,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Qualcuno ha modificato una discussione che ho iniziato",
+                "reset_notifications_button": "",
                 "device_heading": "",
                 "haptic_feedback_help": "",
                 "haptic_feedback_label": "",
@@ -768,9 +827,14 @@
             }
         },
         "lib": {
+            "connection_restored_message": "La tua connessione è stata ripristinata.",
             "debug_button": "Debug",
             "alert": {
                 "dismiss_a11y_label": "Ignora avviso"
+            },
+            "assets_updated": {
+                "message": "",
+                "reload_button": ""
             },
             "badge": {
                 "hidden_tooltip": "Nascosto"
@@ -804,7 +868,9 @@
                 "generic_message": "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.",
                 "generic_cross_origin_message": "Ops! Qualcosa è andato storto durante una richiesta cross-origin. Ricarica la pagina e riprova.",
                 "missing_dependencies_message": "Non puoi attivare l'estensione {extension} finché non attiverai le seguenti estensioni: {extensions}",
+                "network_message": "Sembra esserci un problema con la tua connessione. Controlla la rete e riprova.",
                 "not_found_message": "La risorsa richiesta non è stata trovata.",
+                "offline_message": "Sembra che tu sia offline. Controlla la connessione e riprova.",
                 "payload_too_large_message": "Il payload richiesto era troppo grande.",
                 "permission_denied_message": "Non hai il permesso di farlo.",
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.",
@@ -849,6 +915,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": ""
+            },
             "input": {
                 "clear_button": ""
             },
@@ -866,7 +935,8 @@
                 "placeholder": ""
             },
             "nav": {
-                "drawer_button": "Apri navigazione"
+                "drawer_button": "Apri navigazione",
+                "pin_pane_button": ""
             },
             "notices": {
                 "bisecting": "",
@@ -874,9 +944,21 @@
                 "maintenance_mode_low": "",
                 "maintenance_mode_safe": ""
             },
+            "index_sort": {
+                "az_button": "",
+                "latest_button": "",
+                "newest_button": "",
+                "oldest_button": "",
+                "relevance_button": "",
+                "top_button": "",
+                "za_button": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": ""
             },
             "pagination": {
                 "back_button": "",
@@ -895,6 +977,7 @@
                 "options_heading": "",
                 "placeholder": "",
                 "preview_heading": "",
+                "search_active_button_accessible_label": "",
                 "search_clear_button_accessible_label": ""
             },
             "search_source": {
@@ -970,7 +1053,7 @@
                 "maintenance_mode_link": "",
                 "maintenance_mode_message": "",
                 "maintenance_mode_title": "",
-                "method_not_allowed": "",
+                "method_not_allowed": "Questa pagina non supporta quel metodo di richiesta.",
                 "not_authenticated": "Non hai i permessi necessari per accedere a questa pagina. Riprova dopo aver effettuato l'accesso.",
                 "not_found": "La pagina che hai richiesto non è stata trovata.",
                 "not_found_return_link": "Ritorna su {forum}",
@@ -996,7 +1079,8 @@
                 "password_placeholder": "",
                 "remember_me_label": "",
                 "submit_button": "",
-                "title": ""
+                "title": "",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Conferma la nuova password",
@@ -1058,7 +1142,7 @@
                 "body": ""
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Azione richiesta: rilevata/e estensione/i abbandonata/e",
                 "body_intro": "",
                 "body_outro": "",
                 "line_with_replacement": "",
@@ -1093,6 +1177,7 @@
             "light_hc_mode_label": "",
             "light_mode_label": "",
             "load_more": "Carica di più",
+            "latest": "",
             "loading": "Caricamento...",
             "log_in": "Accedi",
             "log_out": "Esci",
@@ -1122,6 +1207,10 @@
             "sign_up": "Registrati",
             "some_others": "{count, plural, one {# altro} other {# altri}}",
             "start_a_discussion": "Inizia una discussione",
+            "title_az": "",
+            "title_za": "",
+            "too_many_login_attempts_message": "",
+            "top": "",
             "username": "Nome utente",
             "username_or_email_placeholder": "",
             "users": "Utenti",

@@ -2,29 +2,29 @@
     "import-ai-webhook-notification": {
         "forum": {
             "settings": {
-                "notify_webhook_label": ""
+                "notify_webhook_label": "Webhook"
             }
         },
         "admin": {
             "settings": {
-                "webhook_url_label": "",
-                "webhook_url_help": "",
-                "webhook_token_label": "",
-                "webhook_token_help": "",
-                "timeout_label": "",
-                "timeout_help": "",
-                "retry_count_label": "",
-                "retry_count_help": "",
-                "channel_icon_label": "",
-                "channel_icon_help": "",
-                "channel_label_label": "",
-                "channel_label_help": ""
+                "webhook_url_label": "URL Webhook",
+                "webhook_url_help": "URL để gửi webhook thông báo đến. Để trống để tắt.",
+                "webhook_token_label": "Bearer Token",
+                "webhook_token_help": "Bearer token tùy chọn cho header Authorization.",
+                "timeout_label": "Thời gian chờ (giây)",
+                "timeout_help": "Thời gian chờ của yêu cầu tính bằng giây. Mặc định là 30.",
+                "retry_count_label": "Số lần thử lại",
+                "retry_count_help": "Số lần thử lại khi thất bại. Mặc định là 3.",
+                "channel_icon_label": "Biểu tượng kênh",
+                "channel_icon_help": "Lớp biểu tượng (ví dụ: fas fa-globe).",
+                "channel_label_label": "Nhãn kênh",
+                "channel_label_help": "Tên hiển thị của kênh thông báo trong cài đặt người dùng."
             },
             "validation": {
-                "timeout_invalid": "",
-                "retry_count_invalid": "",
-                "channel_icon_invalid": "",
-                "channel_label_required": ""
+                "timeout_invalid": "Thời gian chờ phải nằm trong khoảng từ 1 đến 300 giây.",
+                "retry_count_invalid": "Số lần thử lại phải nằm trong khoảng từ 0 đến 10.",
+                "channel_icon_invalid": "Định dạng biểu tượng không hợp lệ. Hãy dùng định dạng Font Awesome (ví dụ: fas fa-globe).",
+                "channel_label_required": "Nhãn kênh là bắt buộc khi đã đặt biểu tượng."
             }
         }
     }

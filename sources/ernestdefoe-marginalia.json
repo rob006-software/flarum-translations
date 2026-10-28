@@ -1,0 +1,26 @@
+{
+    "ernestdefoe-marginalia": {
+        "admin": {
+            "permissions": {
+                "highlight_label": "Highlight passages in posts",
+                "moderate_label": "Remove other people's public highlights"
+            }
+        },
+        "forum": {
+            "toolbar": {
+                "highlight": "Highlight",
+                "note": "Note"
+            },
+            "popup": {
+                "marked_by": "{count, plural, one {# reader has} other {# readers have}} marked this",
+                "private_only": "Only you can see this mark",
+                "note_placeholder": "A note for yourself — nobody else can read this.",
+                "save": "Save",
+                "make_private": "Make private",
+                "make_public": "Make public",
+                "remove": "Remove"
+            },
+            "error": "That mark could not be saved."
+        }
+    }
+}

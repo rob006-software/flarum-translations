@@ -7,18 +7,18 @@
                     "help": "Bu ayarlar Anketler uzantısının temel özelliklerini kontrol eder."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Tartışma Anketleri",
+                    "help": "Bu ayarlar, tartışma gönderilerine eklenen anketleri denetler."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Tartışma anketlerini etkinleştir",
+                "enable_discussion_polls_help": "Etkinleştirildiğinde, kullanıcılar tartışma gönderileri içinde anket oluşturabilir. Yalnızca genel anketleri kullanmak istiyorsanız bunu devre dışı bırakın.",
                 "global_polls": {
                     "heading": "Genel Anketler",
                     "help": "Bu ayarlar genel anketler özelliğini kontrol eder."
                 },
                 "image": {
                     "heading": "Görsel Ayarları",
-                    "help": ""
+                    "help": "Görsel yükleme sınırlarını ve boyutlarını yapılandırın. Görseller otomatik olarak WebP formatına dönüştürülür ve duyarlı türevleri oluşturulur."
                 },
                 "enable_global_polls": "Genel anketleri etkinleştir",
                 "enable_global_polls_help": "Genel anketler belirli bir gönderiye bağlı değildir ve bunlara özel bir anket sayfasından erişilebilir.",
@@ -27,11 +27,11 @@
                 "max_options": "Anket başına maksimum seçenek sayısı",
                 "options_color_blend": "Anket seçeneklerinde renk karışımı metni",
                 "options_color_blend_help": "Anket seçeneklerini daha okunabilir hale getirmek için renk karıştırmayı kullanmak için bunu kullanın. Bu özellik, forumunuzun görünümüyle ilgili sorunlara neden olarak okunabilirliği azaltıyorsa devre dışı bırakın.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Maksimum görsel yükleme boyutu (KB)",
+                "max_image_upload_size_help": "Kilobayt cinsinden görsel yüklemeleri için maksimum dosya boyutu. Görseller yüklendikten sonra otomatik olarak WebP formatına dönüştürülür ve yeniden boyutlandırılır; bu nedenle depolanan nihai boyut genellikle çok daha küçük olacaktır. Varsayılan değer 10240 KB'dir (10 MB).",
+                "image_height": "Görsel yüksekliğini yeniden boyutlandır (px)",
+                "image_width": "Görsel genişliğini yeniden boyutlandır (px)",
+                "image_dimensions_help": "Depolanan görseller için temel boyutlar. Kaynak görsel yeterince büyük olduğunda HiDPI türevleri (@2x, @3x) otomatik olarak oluşturulur."
             },
             "permissions": {
                 "view_results_without_voting": "Sonuçları oy vermeden göster",
@@ -63,28 +63,28 @@
                 "start_poll_button": "Genel Anket Başlat",
                 "cannot_start_poll_button": "Genel Anket Başlatılamıyor",
                 "total_votes": "{count, plural, one {# oy verildi} other {# oy verildi}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "draft_label": "Taslak",
+                "scheduled_label": "{date} için planlandı",
+                "scheduled_error_tooltip": "Bu planlanmış yayın başarısız oldu. Nedenini görmek için anketi açın."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Anket kontrol menüsünü aç/kapat",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Bu anketi silmek istediğinize emin misiniz?",
                 "delete_success_message": "Anket başarıyla silindi.",
                 "delete_error_message": "Anket silinirken bir şeyler ters gitti.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Şimdi yayınla",
+                "publish_success": "Anket yayınlandı.",
+                "schedule_publish_label": "Yayınlanmasını planla",
+                "edit_schedule_publish_label": "Planlanmış yayınlamayı düzenle",
+                "cancel_schedule_label": "Planlanmış yayınlanmayı iptal et",
+                "cancel_schedule_success": "Planlanmış yayınlanma iptal edildi.",
+                "unpublish_label": "Taslağa geri al",
+                "unpublish_confirmation": "Bu anket taslağa geri alınsın mı? Yayından kaldırılacaktır.",
+                "unpublish_success": "Anket taslağa geri alındı.",
+                "unpublish_error_has_votes": "Yayından kaldırılamıyor — ankette zaten oy kullanılmış. Bunun yerine anketi silin."
             },
             "poll_form": {
                 "delete": "Anketi Sil",
@@ -96,6 +96,9 @@
                     "edit_title": "Anket Grubunu Düzenle",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Anket Grubunu Sil",
+                    "name_label": "Ad",
+                    "name_required": "Anket grubuna bir ad verilmelidir.",
+                    "error": "Anket grubu kaydedilirken bir hata oluştu. Lütfen bir yöneticiyle iletişime geçin.",
                     "groups_manager": "Anket Grupları Yöneticisi",
                     "view_group": "Anket Grubunu Görüntüle",
                     "success": "Anket grubu başarıyla kaydedildi."
@@ -135,9 +138,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Tümü",
+                    "published": "Yayınlandı",
+                    "draft": "Taslaklar"
                 }
             },
             "composer_discussion": {
@@ -152,16 +155,16 @@
                 "polls_preview": "Anketi Görüntüle",
                 "continue_editing": "Düzenlemeye Devam Et",
                 "success": "Anket başarıyla kaydedildi.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Gönder",
+                "save_as_draft": "Taslak olarak kaydet",
+                "update_draft": "Taslağı güncelle",
+                "draft_saved": "Taslak kaydedildi",
+                "publish": "Yayınla",
+                "schedule_publication": "Yayınlanmasını planla",
+                "schedule_publication_edit": "Planlanmış yayınlamayı düzenle",
+                "schedule_datetime_label": "Yayınlanma tarihi:",
+                "schedule_submit": "Planla",
+                "schedule": "Planla"
             },
             "modal": {
                 "add_title": "Anket Oluştur",
@@ -171,11 +174,12 @@
                 "include_question": "Bir soru eklemelisiniz",
                 "max": "En fazla {max} yanıtınız olabilir",
                 "min": "En az 2 yanıt eklemeniz gerekmektedir",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {# cevap boş — lütfen doldurun veya kaldırın.} other {# cevap boş — lütfen doldurun veya kaldırın.}}",
                 "no_voters": "Oy Kullanılmamış",
                 "option_placeholder": "Yanıt",
                 "image_option_placeholder": "Resim URL'si (isteğe bağlı)",
                 "options_label": "Yanıtlar",
+                "settings_label": "Oylama",
                 "public_poll_label": "Kullanıcıların yanıt verenleri görmesine izin ver",
                 "allow_multiple_votes_label": "Kullanıcıların birden fazla seçeneği oylamasına izin ver",
                 "max_votes_label": "Kullanıcı başına azami oylar",
@@ -193,17 +197,17 @@
                     "help": "Anketin yanında görüntülenecek bir resim yükleyin (isteğe bağlı).",
                     "alt_label": "Görsel Alternatif Metni",
                     "alt_help_text": "Bu metin bir resim ayarlandığında gereklidir; resim düzgünce yüklenemezse görüntülenecektir.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Bu anket harici bir görsel bağlantısı kullanıyor. Harici bağlantı desteği kullanımdan kaldırıldı ve sonraki bir sürümde kaldırılacak. Lütfen yükleme düğmesini kullanarak görseli tekrar yükleyin."
                 },
                 "poll_option_image": {
                     "label": "Anket Yanıtı Resmi",
                     "help": "Anket yanıtının yanında görüntülenecek bir resim yükleyin (isteğe bağlı)."
                 },
-                "date_clear": "",
+                "date_clear": "Bitiş tarihini temizle",
                 "tooltip": {
                     "options": {
                         "add-button": "Yanıt Ekle",
-                        "remove-button": ""
+                        "remove-button": "Seçeneği kaldır"
                     }
                 }
             },
@@ -234,6 +238,25 @@
             "upload_image": {
                 "remove_button": "Görseli Sil",
                 "upload_button": "Görsel Yükle"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "poll": {
+                    "created": "{title} anketi oluşturuldu",
+                    "updated": "{title} anketi güncellendi",
+                    "deleted": "{title} anketi silindi",
+                    "published": "{title} anketi yayımlandı",
+                    "unpublished": "{title} anketi yayından kaldırıldı",
+                    "voted": "{title} anketinde oy kullandı"
+                },
+                "poll_group": {
+                    "created": "{name} anket grubu oluşturuldu",
+                    "updated": "{name} anket grubu güncellendi",
+                    "deleted": "{name} anket grubu güncellendi"
+                }
             }
         }
     }

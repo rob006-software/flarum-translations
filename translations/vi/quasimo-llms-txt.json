@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "Các URL điểm cuối",
+                "urls_help": "Sau khi bật, các URL sau sẽ cung cấp nội dung thân thiện với LLM về diễn đàn của bạn.",
+                "open_label": "Mở trong tab mới",
+                "enabled_label": "Bật llms.txt",
+                "enabled_help": "Cung cấp một chỉ mục ngắn gọn về diễn đàn của bạn tại {url} — gồm liên kết đến các chuyên mục và các thảo luận gần đây.",
+                "full_enabled_label": "Bật llms-full.txt",
+                "full_enabled_help": "Cung cấp toàn bộ nội dung của tất cả thảo luận tại {url} — bao gồm nội dung của mọi bài viết.",
+                "sort_label": "Thứ tự sắp xếp thảo luận",
+                "sort_latest": "Hoạt động mới nhất",
+                "sort_top": "Nhiều trả lời nhất",
+                "sort_help": "Cách sắp xếp các thảo luận trong cả hai tệp được tạo.",
+                "max_discussions_label": "Số thảo luận tối đa được đưa vào",
+                "max_discussions_help": "Số lượng thảo luận tối đa được liệt kê (1–1000). Mặc định: 100.",
+                "max_posts_label": "Số bài viết tối đa mỗi thảo luận (chỉ với llms-full.txt)",
+                "max_posts_help": "Số lượng bài viết tối đa được đưa vào mỗi thảo luận trong tệp đầy đủ (1–500). Mặc định: 50.",
+                "custom_intro_label": "Đoạn giới thiệu tùy chỉnh",
+                "custom_intro_placeholder": "Nhập đoạn giới thiệu tùy chọn sẽ hiển thị bên dưới tiêu đề diễn đàn trong cả hai tệp.",
+                "custom_intro_help": "Để trống nếu không dùng. Hỗ trợ văn bản thuần hoặc Markdown."
             }
         }
     }

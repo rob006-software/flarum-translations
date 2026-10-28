@@ -26,7 +26,7 @@
                 "discussion_help": "Будуть використані теги обговорення джерела, які можна змінити після створення.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Нова дискусія",
-                "selected_posts": "{count, plural, one {Обрано 1 допис} other {Обрано {count} дописів}}",
+                "selected_posts": "{count, plural, one {Обрано # допис} other {Обрано # дописів}}",
                 "status": {
                     "complex_move": "Це буде складний перехід, дописи будуть переміщуватися між дописами, що призведе до того, що старі URL-адреси дописів цільової дискусії також зміняться.",
                     "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",

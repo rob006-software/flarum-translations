@@ -2,30 +2,30 @@
     "michaelbelgium-ai-autoreply": {
         "admin": {
             "settings": {
-                "platform_label": "",
-                "platform_help": "",
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "temperature_label": "",
-                "temperature_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": "",
-                "system_prompt_placeholder": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "platform_label": "Platform",
+                "platform_help": "เลือก platform AI ที่จะใช้",
+                "api_key_label": "API Key",
+                "api_key_help": "รับ API key จาก <a>{platform}</a>",
+                "model_label": "Model",
+                "model_help": "เรียนรู้เพิ่มเติมเกี่ยวกับ <a>{platform} models</a> (ค่าเริ่มต้น: <code>{model}</code>)",
+                "max_tokens_label": "Max Tokens",
+                "max_tokens_help": "<a>Token คืออะไรและนับอย่างไร?</a>",
+                "temperature_label": "Temperature",
+                "temperature_help": "ควบคุมความสุ่ม ช่วงปกติอยู่ระหว่าง 0 ถึง 2 แต่บาง platform อาจมีช่วงที่แตกต่างกัน",
+                "user_prompt_label": "User ผู้ช่วย",
+                "user_prompt_help": "ระบุ ID ของ user ที่จะใช้สร้างคำตอบ AI",
+                "system_prompt_label": "System prompt",
+                "system_prompt_help": "ระบุบริบทและคำแนะนำให้กับ Assistant เช่น กำหนดเป้าหมายหรือบทบาทเฉพาะ",
+                "system_prompt_placeholder": "คุณคือ assistant ที่มีประโยชน์บนฟอรัม Flarum",
+                "user_prompt_badge_label": "Badge ของ user ผู้ช่วย",
+                "user_prompt_badge_help": "ข้อความที่จะแสดงด้านล่าง user ผู้ช่วย",
+                "enable_on_discussion_started_label": "เปิดใช้เมื่อเริ่ม discussion",
+                "enable_on_discussion_started_help": "เมื่อเปิดใช้ AI จะตอบเฉพาะตอนเริ่ม discussion เมื่อปิด discussion จะกลายเป็นโพสต์ระหว่าง OP กับ assistant โดย assistant จะตอบทุก post ของ OP",
+                "enabled_tags_label": "Tag",
+                "enabled_tags_help": "เลือก tag ที่ assistant จะสร้างการตอบสนอง"
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "ใช้ AI assistant"
             }
         }
     }

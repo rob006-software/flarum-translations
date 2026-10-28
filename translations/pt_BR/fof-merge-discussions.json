@@ -2,59 +2,69 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
-                "search_discussions_placeholder": "",
-                "ordering_heading": "",
-                "ordering_date_label": "",
-                "ordering_date_help": "",
-                "ordering_suffix_label": "",
-                "ordering_suffix_help": "",
-                "type_heading": "",
-                "type_target_label": "",
-                "type_target_help_text": "",
-                "type_from_label": "",
-                "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "title": "Mesclar Discussões",
+                "search_discussions_placeholder": "Buscar discussões...",
+                "ordering_heading": "Ordenação da mesclagem",
+                "ordering_date_label": "Mesclar posts por data de criação",
+                "ordering_date_help": "Os posts da discussão resultante são reordenados pela data de criação de cada um",
+                "ordering_suffix_label": "Adicionar os posts mesclados ao fim da discussão",
+                "ordering_suffix_help": "Os posts mesclados na discussão remanescente serão adicionados ao fim dela",
+                "type_heading": "Tipo de mesclagem",
+                "type_target_label": "Mesclar nesta discussão",
+                "type_target_help_text": "Escolha a(s) discussão(ões) a mesclar em {title}.",
+                "type_from_label": "Mesclar esta discussão em outra",
+                "type_from_help_text": "Escolha a discussão de destino na qual mesclar {title}.",
+                "load_preview_button": "Visualizar",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Sua discussão {oldTitle} foi mesclada nesta discussão por {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Alguém mescla uma das minhas discussões com outra"
                 }
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, one {# post mesclado de {titles}.} other {# posts mesclados de {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "Mesclar discussões"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Quantas discussões devem ser retornadas ao buscar no modal `Mesclar Discussões`.",
+                "search_result_label": "Limite de Busca ao Mesclar Discussões"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
-                "deleting_failed": "",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "merging_failed": "Falha ao mesclar as discussões.",
+                "updating_failed": "Falha ao atualizar os detalhes da discussão.",
+                "deleting_failed": "Falha ao excluir as discussões vazias.",
+                "fixing_posts_number_failed": "Falha ao corrigir a numeração dos posts.",
+                "fixing_posts_number_meta_failed": "Falha ao corrigir a numeração dos posts."
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "Mesclar"
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Sua discussão, {merged_discussion_title}, foi mesclada em {discussion_title} por {actor_display_name}.\n\nVeja aqui {discussion_url} .\n",
+                "subject": "Sua discussão \"{merged_discussion_title}\" foi mesclada"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "Mesclou {discussion} em {new_discussion}",
+                    "merged_into": "Mesclou {post_count} posts de {original_discussion_ids_count} discussões em {discussion}"
+                }
             }
         }
     }

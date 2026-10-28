@@ -1,36 +1,48 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "Mais Vistas",
+            "least_viewed": "Menos Vistas"
+        },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
+            }
+        },
+        "lib": {
+            "index_sort": {
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
     "fof-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit": "",
-                "label": "",
-                "invalid": ""
+                "title": "Redefinir visualizações da discussão",
+                "submit": "Enviar",
+                "label": "Definir visualizações para",
+                "invalid": "Digite um número válido maior ou igual a 0"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Definir visualizações"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": ""
+                "reset_views_label": "Definir visualizações de discussões"
             },
             "settings": {
-                "ignore_crawlers": ""
+                "ignore_crawlers": "Ignorar visitas de rastreadores",
+                "dedupe_ttl": "Segundos até um visitante ser contado de novo",
+                "dedupe_ttl_help": "Por quanto tempo um visitante é lembrado após ver uma discussão, para que atualizar a página ou voltar a ela não conte de novo. Defina 0 para contar todas as visualizações."
             }
         },
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "popular"
                 }
             }
         }

@@ -1,0 +1,361 @@
+{
+    "ernestdefoe-garrison": {
+        "api": {
+            "errors": {
+                "unknown_verb": "",
+                "not_permitted": "",
+                "name_required": "",
+                "needs_pro": "",
+                "host_limit": "",
+                "upload_failed": "",
+                "not_an_image": "",
+                "too_large": "",
+                "no_artwork": "",
+                "fetch_failed": "",
+                "not_a_url": "Das ist keine Web-Adresse.",
+                "bad_scheme": "Nur HTTP- und HTTPS-Adressen können abgerufen werden.",
+                "unresolvable": "Diese Adresse konnte nicht aufgelöst werden.",
+                "private_address": "",
+                "no_follow": "",
+                "bad_player_name": "",
+                "player_taken": "",
+                "code_expired": "",
+                "code_wrong": "",
+                "code_too_soon": "",
+                "cannot_whisper": ""
+            }
+        },
+        "email": {
+            "server_incident": {
+                "subject": {
+                    "down": "{name} ist down",
+                    "unready": "{name} akzeptiert keine Spieler mehr",
+                    "recovered": "{name} ist wieder da",
+                    "abandoned": "{name} braucht noch immer Hilfe"
+                },
+                "body": {
+                    "down": "",
+                    "unready": "",
+                    "recovered": "",
+                    "abandoned": "",
+                    "finding": ""
+                }
+            }
+        },
+        "webhook": {
+            "unready": "⚠️ **{name}** läuft, aber Spieler können nicht beitreten. {url}",
+            "down": "🔴 **{name}** wurde gestoppt. {url}",
+            "recovered": "✅ **{name}** ist wieder da. {url}",
+            "abandoned": "",
+            "unknown": "**{name}**: {state}. {url}"
+        },
+        "health": {
+            "summary": {
+                "not_running": "",
+                "no_probes": "",
+                "none_evaluated": ""
+            },
+            "detail": {
+                "udp_queue_stuck": "",
+                "udp_queue": "",
+                "tcp_refused": "",
+                "tcp_accepting": "",
+                "no_port": "",
+                "log_absent": "",
+                "log_absent_within": "",
+                "log_found": "",
+                "unknown_type": ""
+            },
+            "seconds": ""
+        },
+        "forum": {
+            "notification": {
+                "down": "{name} ist down",
+                "unready": "",
+                "recovered": "{name} ist wieder da",
+                "abandoned": ""
+            },
+            "settings": {
+                "notify_garrisonServerIncident_label": ""
+            },
+            "title": "Spieleserver",
+            "state": {
+                "running": "Wird ausgeführt",
+                "stopped": "Gestoppt",
+                "starting": "Wird gestartet",
+                "stopping": "Wird gestoppt",
+                "crashed": "Abgestürzt",
+                "unknown": "Unbekannt"
+            },
+            "stale": "",
+            "stale_short": "",
+            "players": "",
+            "no_servers": "",
+            "unreachable": "",
+            "join_hidden": "",
+            "widget_heading": "",
+            "see_all": "Alle Server",
+            "join": "",
+            "join_address_placeholder": "",
+            "join_no_details": "",
+            "join_usual_port": "",
+            "connect": {
+                "valheim": "",
+                "minecraft": "",
+                "minecraft-bedrock": "",
+                "palworld": "",
+                "rust": "",
+                "ark": "",
+                "cs2": "",
+                "satisfactory": "",
+                "factorio": "",
+                "7dtd": "",
+                "projectzomboid": "",
+                "terraria": "",
+                "enshrouded": "",
+                "vrising": "",
+                "dayz": "",
+                "gmod": ""
+            },
+            "join_code": "",
+            "action_failed": "",
+            "console": "",
+            "console_empty": "",
+            "console_placeholder": "",
+            "console_send": "",
+            "confirm_stop": "",
+            "health": {
+                "unready": "",
+                "unready_short": "",
+                "attention": "",
+                "attention_detail": "",
+                "attention_short": "",
+                "unchecked": ""
+            },
+            "action": {
+                "start": "",
+                "stop": "",
+                "restart": ""
+            },
+            "fact": {
+                "players": "Spieler",
+                "cpu": "",
+                "memory": "Speicher",
+                "uptime": "",
+                "driver": "",
+                "game": "Spiel"
+            },
+            "driver": {
+                "docker": "",
+                "systemd": "",
+                "process": "",
+                "unknown": ""
+            },
+            "block": {
+                "name": "",
+                "servers_label": "",
+                "servers_public": "",
+                "servers_running": "",
+                "show_players": "",
+                "show_join": "",
+                "show_join_help": "",
+                "compact": ""
+            },
+            "back_to_all": "Alle Server",
+            "server_not_here": "",
+            "join_address": "Adresse",
+            "join_password": "Kennwort",
+            "join_code_label": "",
+            "config": {
+                "title": "Servereinstellungen",
+                "load": "Einstellungen laden",
+                "none": "",
+                "file_empty": "",
+                "read_only": "",
+                "locked": "",
+                "save": "Speichern"
+            },
+            "playing": {
+                "title": "{count, plural, one {# Spieler} other {# Spieler}} im Spiel",
+                "nobody": "Niemand spielt gerade."
+            },
+            "duration": {
+                "minutes": "{count, plural, one {# Minute} other {# Minuten}}",
+                "hours": "{count, plural, one {# Stunde} other {# Stunden}}",
+                "both": "{hours} h {minutes} m"
+            },
+            "profile": {
+                "title": ""
+            },
+            "board": {
+                "title": "",
+                "online": ""
+            },
+            "link": {
+                "title": "",
+                "explain": "",
+                "name_placeholder": "Dein Name im Spiel",
+                "send_code": "",
+                "check_the_game": "",
+                "code_placeholder": "",
+                "confirm": "Das bin ich",
+                "start_over": "Verwende einen anderen Namen",
+                "linked": "",
+                "unlink": ""
+            },
+            "backups": {
+                "title": "",
+                "create": "",
+                "none": "",
+                "safety": "",
+                "restore": "",
+                "delete": "Löschen",
+                "cancel": "Abbrechen",
+                "confirm_restore": "",
+                "confirm_restore_stops": "",
+                "confirm_restore_do": "",
+                "confirm_restore_do_stopping": "",
+                "confirm_delete": "",
+                "confirm_delete_do": "",
+                "offsite": {
+                    "none": "",
+                    "ok": "",
+                    "unknown": "",
+                    "failing": ""
+                },
+                "step": {
+                    "stopping": "",
+                    "restoring": ""
+                },
+                "outcome": {
+                    "done_create": "",
+                    "done_restore": "",
+                    "done_delete": "",
+                    "failed_create": "",
+                    "failed_restore": "",
+                    "failed_delete": "",
+                    "done_stop": "",
+                    "failed_stop": "",
+                    "waiting_stop": "",
+                    "waiting_create": "",
+                    "waiting_restore": "",
+                    "waiting_delete": ""
+                }
+            }
+        },
+        "admin": {
+            "title": "Garrison",
+            "widgets": {
+                "servers": ""
+            },
+            "alerts": "",
+            "webhook": "",
+            "webhook_help": "",
+            "load_failed": "",
+            "machinery": {
+                "last": "Zuletzt bestätigt {when}",
+                "scheduler": {
+                    "ok": "",
+                    "stalled": "",
+                    "unknown": "",
+                    "stalled_help": ""
+                },
+                "queue": {
+                    "ok": "",
+                    "stalled": "",
+                    "unknown": "",
+                    "stalled_help": ""
+                }
+            },
+            "schedules": {
+                "title": "",
+                "add": "",
+                "none": "",
+                "remove": "",
+                "remove_confirm": "",
+                "kind": {
+                    "restart": "",
+                    "backup": "",
+                    "console": ""
+                },
+                "day": {
+                    "mon": "Mon",
+                    "tue": "Die",
+                    "wed": "Mit",
+                    "thu": "Don",
+                    "fri": "Fre",
+                    "sat": "Sam",
+                    "sun": "Son"
+                },
+                "when": {
+                    "every_day": "jeden Tag",
+                    "weekdays": "Wochentage"
+                },
+                "summary": "{what}, {when} um {time} ({zone})",
+                "line": "",
+                "line_placeholder": "",
+                "warn": "",
+                "warn_line": "",
+                "warn_line_placeholder": ""
+            },
+            "provision": {
+                "load": "Neuen Server installieren",
+                "none": "",
+                "choose": "",
+                "from_steam": "",
+                "id_placeholder": "",
+                "name_placeholder": "",
+                "install": "Installieren",
+                "started": "",
+                "failed": "",
+                "no_answer": "",
+                "needs_a_server": ""
+            },
+            "identities": "Verknüpfte Konten",
+            "no_identities": "",
+            "identity_pending": "",
+            "identity_unlink_confirm": "",
+            "identity_unlink": "",
+            "hosts": "",
+            "no_hosts": "",
+            "host_name_placeholder": "",
+            "pair": "",
+            "unpair": "",
+            "unpair_confirm": "",
+            "host_seen": "",
+            "host_late": "",
+            "host_never": "",
+            "token_heading": "",
+            "token_once": "",
+            "token_next": "",
+            "token_copied": "",
+            "servers": "Server",
+            "field_name": "Name",
+            "field_join_address": "Adresse",
+            "field_join_password": "Kennwort",
+            "field_join_code": "",
+            "public": "",
+            "auto_remediate": "",
+            "attention": "",
+            "clear_attention": "",
+            "backup_every": "",
+            "backup_every_help": "",
+            "icon": "",
+            "icon_help": "",
+            "fetch_logo": "",
+            "fetch_logo_help": "",
+            "logo_url": "",
+            "logo_url_help": "",
+            "fetch": "Abrufen",
+            "incidents": "",
+            "no_incidents": "",
+            "permissions": {
+                "view": "",
+                "control": "",
+                "console": "",
+                "config": "",
+                "manage": ""
+            }
+        }
+    }
+}

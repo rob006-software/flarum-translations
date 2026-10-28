@@ -1,6 +1,16 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "",
+            "least_viewed": ""
+        },
         "forum": {
+            "index_sort": {
+                "most_viewed_button": "",
+                "least_viewed_button": ""
+            }
+        },
+        "lib": {
             "index_sort": {
                 "most_viewed_button": "",
                 "least_viewed_button": ""
@@ -24,7 +34,9 @@
                 "reset_views_label": "Mövzu baxışlarını təyin edin"
             },
             "settings": {
-                "ignore_crawlers": "Tarayıcı ziyarətlərinə məhəl qoymayın"
+                "ignore_crawlers": "Tarayıcı ziyarətlərinə məhəl qoymayın",
+                "dedupe_ttl": "",
+                "dedupe_ttl_help": ""
             }
         },
         "lib": {

@@ -12,6 +12,9 @@
                 "schedule_log_output": ""
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "تم تعطيل المسودات المجدولة حاليًا في الإعدادات.",
             "no_title_error": ""
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "تمكين الحفظ التلقائي للمسودة؟",
                     "draft_autosave_interval_label": "فترة الحفظ التلقائي (بالثواني)",
                     "draft_autosave_interval_button": "تحديث الفترة",
-                    "draft_autosave_interval_invalid": "يجب أن يكون الفاصل الزمني عددًا صحيحًا أكبر من 4."
+                    "draft_autosave_interval_invalid": "يجب أن يكون الفاصل الزمني عددًا صحيحًا أكبر من 4.",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }

@@ -11,8 +11,8 @@
                     "tags": "Parhaan vastauksen avainsanat",
                     "general": "Yleinen",
                     "reminders": "Muistutukset",
-                    "advanced": "Lisäasetukset",
-                    "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein."
+                    "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein.",
+                    "advanced": "Lisäasetukset"
                 },
                 "show_max_lines_label": "Viestin esikatselussa näytettävien rivien määrä (max)",
                 "show_max_lines_help": "Aseta arvoon 0 ottaaksesi pois käytöstä. Jos viesti on pidempi kuin asetettu rivimäärä, viestiä lyhennetään esikatselussa.",
@@ -20,11 +20,10 @@
                 "select_best_answer_reminder_days_help": "Lähetä muistutus määritettyjen päivien jälkeen aloitus viestin kirjoittajalle, jotta hän voi valita parhaan vastauksen, 0 = ota muistutus pois käytöstä.",
                 "select_best_answer_tags_label": "Avainsanat joissa on Best Answers lisäosa",
                 "select_best_answer_tags_help": "Valitse mitkä avainsanat, jos mitkään haluat lisätä keskusteluun kun Best Answer lisäosa on käytössä. Vain toissijaiset avainsanat ovat sallittuja. Nämä avainsanat poistetaan Best Answer lisäosasta mikäli poistettuja.",
-                "schedule_on_one_server": "Käytä 'onOneServer()' määritelmää ajastuksia varten",
-                "schedule_on_one_server_help": "Vaatii Redis/Memcache",
                 "schedule_stop_overnight": "Estä muistutuksien lähettämisen haluttuna aikana esim. yöllä",
                 "schedule_stop_overnight_help": "21:00 - 08:00 palvelimen aikaa",
                 "schedule_log_output": "Lisää ajastusten tulosteet lokeihin",
+                "schedule_log_output_help": "",
                 "show_filter_label": "Näytä parhaat vastaukset suodatin alasvetovalikossa",
                 "show_filter_help": "Kaikille avainsanoille missä on parhaat vastaukset käytössä, näytä ratkaistu/ratkaisematon suodatin keskustelulistassa",
                 "use_alt_ui": "Toissijainen ulkoasu",
@@ -36,7 +35,9 @@
                 "remind_tags_help": "Valitse mistä avainsanoista, jos mistään, lähetetään muistutuksia. Muistutukset lähetetään vain näistä avainsanoista.",
                 "tags_info": "Kun avainsanalla on Parhaat vastaukset käytössä, aseta oikeudet joka ryhmälle, jotka voivat asettaa parhaita vastauksia (omat keskustelut, mitkä tahansa keskustelut). Oikeudet voidaan asettaa yleisesti (mille tahansa Parhaat vastaukset avainsanalle) tai avainsanakohtaisesti.\n",
                 "discussion_sidebar_jump_button": "Näytä hyppää parhaaseen vastaukseen nappi keskustelun sivupalkissa",
-                "discussion_sidebar_jump_button_help": "Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen."
+                "discussion_sidebar_jump_button_help": "Lisää napin keskustelun sivupalkkiin, josta pääsee parhaaseen vastaukseen.",
+                "schedule_on_one_server": "Käytä 'onOneServer()' määritelmää ajastuksia varten",
+                "schedule_on_one_server_help": "Vaatii Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Ota parhaat vastaukset käyttöön tälle avainsanalla",
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Kysymystä ei voi kysyä",
                 "solved_link": "Ratkaistut keskustelut",
                 "unsolved_link": "Ratkaisemattomat keskustelut"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "Kaikki kysymykset",
@@ -100,6 +105,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": "ratkaistu"
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +120,16 @@
             "sort": {
                 "most_best_answers": "Eniten määrä parhaita vastauksia",
                 "least_best_answers": "Vähiten parhaita vastauksia"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "",
+                    "best_answer_unset": ""
+                }
             }
         }
     }

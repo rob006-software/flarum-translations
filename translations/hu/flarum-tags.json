@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "Alapértelmezett",
+                    "id_with_slug": "Azonosító keresőbarát webcímmel"
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Címke törlése",
+                "default_sort_label": "Alapértelmezett rendezés",
+                "default_sort_none": "Fórum alapértelmezésének használata",
+                "default_sort_text": "Hogyan legyenek a címke témái rendezve, ha valaki anélkül érkezik, hogy saját rendezése lenne megadva.",
+                "default_sort_unavailable": "{sort} (már nem érhető el)",
                 "delete_tag_confirmation": "Valóban törli ezt a címkét? A témák, amelyek használták ezt a címkét, NEM fognak törlődni.",
                 "description_label": "Leírás",
                 "hide_label": "Elrejtés az „Összes téma” lapon",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "Címke",
+                "tag_label": "Címke",
+                "tag_placeholder": "Címke keresése"
+            },
             "discussion_controls": {
                 "edit_tags_button": "Címkék szerkesztése"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {Válasszon még egy címkét} other {Válasszon még # címkét}}",
             "name": "Név",
             "tags": "Címkék"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": "A(z) {discussion} címkéi frissítve erről: {old_tags}, erre: {new_tags}"
+                },
+                "tag": {
+                    "created": "{tag} címke létrehozva",
+                    "updated": "{tag} címke frissítve",
+                    "deleted": "{tag} címke törölve"
+                }
+            }
         }
     }
 }

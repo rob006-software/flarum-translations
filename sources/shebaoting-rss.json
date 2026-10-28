@@ -1,0 +1,90 @@
+{
+    "shebaoting-rss": {
+        "admin": {
+            "page": {
+                "title": "RSS Aggregator Settings",
+                "heading": {
+                    "title": "RSS Feed Title",
+                    "url": "RSS Feed URL",
+                    "user": "Bound User",
+                    "status": "Approval Status",
+                    "actions": "Actions"
+                },
+                "view": "View",
+                "delete": "Delete",
+                "delete_confirmation": "Delete this RSS feed?",
+                "delete_error": "Could not delete this RSS feed.",
+                "empty_text": "No RSS feeds have been submitted yet.",
+                "load_error": "Could not load RSS feeds.",
+                "save_error": "Could not save this RSS feed.",
+                "new_title": "New RSS Feed Title",
+                "new_url": "New RSS Feed URL",
+                "add_new": "Add New RSS Feed",
+                "status_pending": "Pending",
+                "status_approved": "Approved",
+                "show_on_index_label": "Show RSS articles in the homepage list",
+                "show_on_index_help": "When enabled, the Independent Blogs sidebar link is hidden and RSS articles are mixed into the homepage discussion list by publish time.",
+                "materialized_tag_label": "Tag for RSS discussions",
+                "materialized_tag_help": "When a user comments on an RSS article for the first time, a real discussion is created and assigned to this Flarum tag.",
+                "materialized_tag_none": "No tag",
+                "user_select_title": "Select Bound User",
+                "user_bind_tooltip": "Bind user",
+                "user_change_tooltip": "Change bound user",
+                "user_unbind_tooltip": "Remove bound user",
+                "preview_default_title": "RSS feed",
+                "preview_title": "RSS articles from {title}",
+                "preview_empty": "This RSS feed did not return any articles.",
+                "preview_error": "Could not fetch this RSS feed in real time.",
+                "preview_open": "Open"
+            }
+        },
+        "forum": {
+            "rss_link": "Independent Blogs",
+            "page_title": "RSS Feed Aggregator",
+            "submit_feed_button": "Submit Feed",
+            "load_more": "Load More",
+            "published_at": "Published at",
+            "empty_text": "No RSS items are available yet.",
+            "load_error": "Could not load RSS items.",
+            "open_original": "Open original article",
+            "unknown_site": "RSS Feed",
+            "index": {
+                "switch_to_native_tooltip": "Switch to the native discussion list",
+                "switch_to_rss_tooltip": "Switch to the RSS mixed list",
+                "submit_feed_tooltip": "Add RSS feed"
+            },
+            "settings": {
+                "heading": "RSS",
+                "show_on_index_label": "Show RSS articles on the homepage",
+                "show_on_index_help": "When enabled, the homepage defaults to the RSS mixed list. When disabled, it defaults to the native discussion list."
+            },
+            "comment": {
+                "title": "Join the discussion",
+                "placeholder": "Write your comment...",
+                "submit_button": "Post Comment",
+                "cancel_button": "Cancel",
+                "login_button": "Log In to Comment",
+                "submit_error": "Could not post your comment. Please try again.",
+                "view_comments": "View comments",
+                "comment_count": "{count} comments",
+                "validation_required": "Comment content is required.",
+                "validation_too_long": "Comment content is too long.",
+                "source_line": "Source: {site}",
+                "published_line": "Published at: {time}",
+                "original_link_line": "Original article: {url}"
+            },
+            "submit_modal": {
+                "title": "Submit RSS Feed",
+                "site_title_label": "Site title",
+                "site_title_placeholder": "Enter the site title",
+                "url_label": "RSS URL",
+                "url_placeholder": "Enter the RSS feed URL",
+                "submit_button": "Submit",
+                "validation_error": "RSS URL and site title are required.",
+                "load_error": "Could not load your RSS feed.",
+                "submit_error": "Submission failed. Please try again.",
+                "success_message": "RSS feed submitted successfully."
+            }
+        }
+    }
+}

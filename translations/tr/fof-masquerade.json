@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n",
                 "profile-completed": "Profil tamamlandı! <a>Ana sayfaya gidin</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Alan oluştur",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Değişiklikleri kaydet",
-                "delete-field": "Alanı sil"
+                "delete-field": "Alanı sil",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Diğer kullanıcıların profilini düzenle",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Alanlar",
+                "trash": "",
                 "create": "",
                 "edit": "Alan düzenle {field}",
                 "delete-confirmation": "{field} alanını silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Alan adı",
                 "name-help": "Herkes tarafından görülebilen (çevrilmeyen) alan.\n",
                 "description": "Alan açıklaması",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Kullanıcının profil alanı cevaplarını dışa aktar",
                     "delete_description": "Kullanıcının hesabından tüm profil alanı cevaplarını kaldır",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": "{username} adlı kullanıcının profil alanları güncellendi"
                 }
             }
         }

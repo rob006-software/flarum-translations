@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "Cor",
                 "delete_tag_button": "Eliminar etiqueta",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Estas seguro que queres eliminar esta etiqueta? As conversas etiquetadas con ela NON se eliminarán.",
                 "description_label": "Descrición",
                 "hide_label": "Ocultar en Todas as conversas",
@@ -16,7 +24,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": ""
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -60,6 +68,11 @@
             },
             "composer_discussion": {
                 "choose_tags_link": "Escoller etiquetas"
+            },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
             },
             "discussion_controls": {
                 "edit_tags_button": "Editar etiquetas"
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "Nome",
             "tags": "Etiquetas"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

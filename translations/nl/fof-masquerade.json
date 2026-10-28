@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Vul alstublieft onderstaande verplichte profielvelden in.\n",
                 "profile-completed": "Profiel voltooid. <a>Verder naar home pagina</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Maak veld",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Wijzigingen opslaan",
-                "delete-field": "Verwijder veld"
+                "delete-field": "Verwijder veld",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Het profiel van anderen bewerken",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Velden",
+                "trash": "",
                 "create": "Veld aanmaken",
                 "edit": "Veld {field} bewerken",
                 "delete-confirmation": "Weet je zeker dat je het veld {field} wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Veld naam",
                 "name-help": "Het openbare (niet-vertaalbare) veld label.\n",
                 "description": "Veld beschrijving",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "answer"
+                    "key": "answer",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Exporteert de antwoorden op het profielveld van de gebruiker",
                     "delete_description": "Verwijdert alle antwoorden op profielvelden uit het account van de gebruiker",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

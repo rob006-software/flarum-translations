@@ -1,0 +1,69 @@
+{
+    "huseyinfiliz-discussion-ban": {
+        "admin": {
+            "permissions": {
+                "ban_users_label": "Benutzer aus Diskussionen ausschließen"
+            },
+            "settings": {
+                "show_in_discussion_controls": "„Aus Diskussion ausschließen“ in Diskussionsoptionen anzeigen",
+                "show_in_discussion_sidebar": "„Diskussionsausschluss“ in Diskussionsseitenleiste anzeigen",
+                "show_in_post_controls": "„Aus Diskussion ausschließen“ in Beitragsoptionen anzeigen",
+                "hide_discussions_from_banned": "Diskussionen vor ausgeschlossenen Benutzern vollständig verbergen (404-Verhalten)",
+                "send_notifications": "Benachrichtigungen versenden, wenn ein Benutzer aus einer Diskussion ausgeschlossen oder wieder zugelassen wird"
+            }
+        },
+        "forum": {
+            "discussion_page": {
+                "ban_button": "Diskussionsausschluss"
+            },
+            "discussion_controls": {
+                "ban_button": "Diskussionsausschluss",
+                "ban_from_discussion": "Aus Diskussion ausschließen"
+            },
+            "post_controls": {
+                "ban_from_discussion": "Aus Diskussion ausschließen",
+                "unban_from_discussion": "Ausschluss aus der Diskussion aufheben"
+            },
+            "post": {
+                "hidden_by_ban": "Wegen Diskussionsausschluss ausgeblendet"
+            },
+            "notifications": {
+                "discussion_banned_text": "{username} hat dich von {title} ausgeschlossen",
+                "discussion_unbanned_text": "{username} hat deinen Ausschluss von {title} aufgehoben"
+            },
+            "settings": {
+                "notify_discussion_banned_label": "Jemand schliesst mich aus einer Diskussion aus",
+                "notify_discussion_unbanned_label": "Jemand hebt den Ausschluss aus einer Diskussion für mich auf"
+            },
+            "modal": {
+                "title": "Diskussionsausschluss",
+                "tab_ban": "Neuer Ausschluss",
+                "tab_list": "Ausgeschlossene Benutzer ({count})",
+                "select_user": "Benutzer auswählen",
+                "search_placeholder": "Nach Benutzername oder Anzeigename suchen…",
+                "search_banned_placeholder": "Ausgeschlossene Benutzer durchsuchen…",
+                "change_user": "Ändern",
+                "reason_label": "Grund (optional)",
+                "reason_placeholder": "Warum wird der Benutzer aus dieser Diskussion ausgeschlossen?",
+                "reason_help": "Der Grund wird nur Moderatoren in der Liste der ausgeschlossenen Benutzer angezeigt.",
+                "submit": "Benutzer ausschließen",
+                "ban_success": "Benutzer wurde aus dieser Diskussion ausgeschlossen.",
+                "unban_success": "Der Ausschluss des Nutzers wurde aufgehoben.",
+                "no_bans": "Momentan sind keine Benutzer aus dieser Diskussion ausgeschlossen.",
+                "banned_by": "Ausgeschlossen von {username}",
+                "unban": "Ausschluss aufheben",
+                "confirm_unban": "Möchtest du den Ausschluss von diesem Benutzer wirklich aufheben? Ihre verborgenen Beiträge werden wiederhergestellt."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion_ban": {
+                    "banned": "Hat {username} aus {discussion} ausgeschlossen — {reason}",
+                    "unbanned": "Hat Ausschluss von {username} aus {discussion} aufgehoben"
+                }
+            }
+        }
+    }
+}

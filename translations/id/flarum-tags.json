@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Hapus Tag",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Apakah Anda yakin ingin menghapus tag ini? Diskusi pada tag tersebut TIDAK akan ikut terhapus.",
                 "description_label": "Deskripsi",
                 "hide_label": "Sembunyikan dari Semua Diskusi",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Edit Tag"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {Pilih 1 tag lagi} other {Pilih # tag lainnya}}",
             "name": "Nama",
             "tags": "Tag"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

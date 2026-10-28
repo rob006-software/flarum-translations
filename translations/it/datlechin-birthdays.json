@@ -6,17 +6,69 @@
                 "view_birthday_label": "Vedere data di nascita"
             },
             "settings": {
+                "min_age_help": "Età minima per registrarsi",
+                "min_age_label": "Età Minima",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Consenti impostazione compleanno durante registrazione",
                 "required_label": "Imposta campo Data di nascita come richiesto",
                 "required_help": "Per abilitare questa opzione devi impostare anche il campo nel form di registrazione",
-                "min_age_label": "Età Minima",
-                "min_age_help": "Età minima per registrarsi",
                 "date_format_label": "Formato Data",
                 "date_format_help": "Usa il formato <a>day.js</a> . Lascia vuoto per quello di default.",
                 "date_none_year_label": "Formato data senza anno"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Compleanni di oggi"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Discussione: #} other {Discussioni: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Cambia Data di Nascita",
+                "dob_heading": "Data di nascita",
+                "show_dob_date_label": "Mostra giorno e mese di nascita",
+                "show_dob_year_label": "Mostra anno di nascita",
+                "show_dob_year_help": "Questo consentirà agli utenti di conoscere la tua età."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Compleanno: {date}",
                 "age_text": "Età: {age}"
@@ -26,31 +78,24 @@
                 "date_of_birth_text": "Data di Nascita",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Cambia Data di Nascita",
-                "dob_heading": "Data di nascita",
-                "show_dob_date_label": "Mostra giorno e mese di nascita",
-                "show_dob_year_label": "Mostra anno di nascita",
-                "show_dob_year_help": "Questo consentirà agli utenti di conoscere la tua età."
-            },
             "edit_user": {
                 "dob_heading": "Data di Nascita"
-            },
-            "nav": {
-                "nav_item": "Compleanni di oggi"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Discussione: #} other {Discussioni: #}}",
-                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "La tua data di nascita deve essere inferiore a 100 anni fa.",
-            "invalid_age_message": "La tua età deve essere minimo di: {minAge}.",
-            "birthday_required_message": ""
+            "invalid_age_message": "La tua età deve essere minimo di: {minAge}."
         },
-        "ref": {
-            "date_of_birth": ""
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         }
     }
 }

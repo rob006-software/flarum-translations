@@ -1,0 +1,99 @@
+{
+    "datlechin-keyboard-shortcuts": {
+        "admin": {
+            "behaviour_heading": "Comportement",
+            "enabled_by_default_label": "Activer les raccourcis clavier",
+            "enabled_by_default_help": "Les membres peuvent désactiver les raccourcis pour eux-mêmes depuis leur page de paramètres.",
+            "allow_customization_label": "Laisser les membres choisir leurs propres touches",
+            "allow_customization_help": "Lorsque cette option est désactivée, tout le monde utilise les liaisons que vous avez définies ci-dessous.",
+            "sequence_timeout_label": "Délai d'expiration de la séquence (ms)",
+            "sequence_timeout_help": "Combien de temps un raccourci en plusieurs étapes, tel que « G puis H », attend la touche suivante avant de recommencer.",
+            "bindings_heading": "Raccourcis",
+            "bindings_help": "Sélectionnez un raccourci, puis appuyez sur les touches que vous souhaitez lui attribuer. Appuyez sur une deuxième touche immédiatement après la première pour créer une séquence, comme G puis H.",
+            "column_shortcut": "Raccourci",
+            "column_binding": "Touches",
+            "filter_placeholder": "Filtrer les raccourcis",
+            "filter_clear_label": "Effacer le filtre",
+            "no_results": "Aucun raccourci ne correspond à « {query} ».",
+            "reset_title": "Réinitialiser les raccourcis clavier"
+        },
+        "forum": {
+            "modal": {
+                "title": "Raccourcis clavier",
+                "filter_placeholder": "Rechercher des raccourcis",
+                "filter_clear_label": "Effacer la recherche",
+                "no_results": "Aucun raccourci ne correspond à « {query} ».",
+                "enabled_label": "Raccourcis clavier activés",
+                "customize_button": "Personnaliser"
+            },
+            "customize": {
+                "title": "Personnaliser les raccourcis",
+                "help": "Appuyez sur les touches que vous souhaitez utiliser pour un raccourci. Appuyez sur une deuxième touche juste après la première pour créer une séquence, comme G puis H.",
+                "submit_button": "Enregistrer les raccourcis",
+                "reset_all_button": "Rétablir les paramètres du forum par défaut",
+                "saved_message": "Vos raccourcis clavier ont été enregistrés.",
+                "group_has_conflict": "Ce groupe contient des raccourcis qui partagent les mêmes touches.",
+                "unsaved": "{count, plural, one {# modification non enregistrée} other {# modifications non enregistrées}}"
+            },
+            "settings": {
+                "heading": "Raccourcis clavier",
+                "enabled_label": "Utiliser les raccourcis clavier",
+                "help": "Appuyez sur {key} n'importe où sur le forum pour afficher la liste complète.",
+                "view_button": "Afficher les raccourcis",
+                "customize_button": "Personnaliser les raccourcis"
+            }
+        },
+        "lib": {
+            "unbound": "Non défini",
+            "binding_then": "puis",
+            "binding_or": "ou",
+            "recorder": {
+                "start_label": "Enregistrer un nouveau raccourci",
+                "stop_label": "Arrêter l'enregistrement",
+                "prompt": "Appuyez sur les touches…",
+                "clear_label": "Désactivez ce raccourci",
+                "reset_label": "Rétablir les paramètres par défaut",
+                "recording_status": "À l'affût des touches.",
+                "conflict": "Également utilisé par {shortcuts}."
+            },
+            "groups": {
+                "global": "N'importe où",
+                "navigation": "Aller à",
+                "discussionList": "Liste de discussion",
+                "discussion": "Discussion",
+                "composer": "Compositeur"
+            },
+            "shortcuts": {
+                "help": "Afficher les raccourcis clavier",
+                "search": "Rechercher",
+                "new_discussion": "Démarrer une nouvelle discussion",
+                "notifications": "Activer ou désactiver les notifications",
+                "flags": "Afficher ou masquer les signalements",
+                "session": "Afficher ou masquer le menu utilisateur",
+                "login": "Se connecter",
+                "signup": "S'inscrire",
+                "toggle_theme": "Modifier le thème",
+                "back": "Revenir en arrière",
+                "go_home": "Toutes les discussions",
+                "go_notifications": "Notifications",
+                "go_profile": "Votre profil",
+                "go_settings": "Vos paramètres",
+                "next_discussion": "Discussion suivante",
+                "previous_discussion": "Discussion précédente",
+                "open_discussion": "Ouvrir la discussion sélectionnée",
+                "mark_all_as_read": "Tout marquer comme lu",
+                "refresh": "Actualiser la liste",
+                "reply": "Répondre",
+                "follow": "S'abonner ou se désabonner",
+                "next_post": "Message suivant",
+                "previous_post": "Message précédent",
+                "first_post": "Aller au premier message",
+                "last_post": "Aller au dernier message",
+                "rename_discussion": "Renommer les discussions",
+                "pin_nav": "Épingler ou désépingler la discussion",
+                "toggle_full_screen": "Basculer en mode plein écran",
+                "minimize_composer": "Réduire le compositeur"
+            }
+        }
+    }
+}

@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "GitHub 存储库",
-            "milestone": "Milestone ID",
-            "default_filter": "默认过滤条件",
+            "repository": "GitHub 仓库",
+            "milestone": "里程碑 ID",
+            "default_filter": "默认筛选",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "empty_list": "没有可显示的问题 (Issue) 或合并请求 (PR)。",
+            "empty_list": "没有可显示的议题或合并请求。",
             "title": "里程碑",
-            "last_updated": "最新进展 {time}",
+            "last_updated": "最后更新于 {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "<strong>{progress}%</strong> 已完成",
+            "complete": "已完成 <strong>{progress}%</strong>",
             "load_more": "=> core.forum.discussion_list.load_more_button",
-            "tasks_done": "{number} / {total}"
+            "tasks_done": "已完成 {number}/{total}"
         },
         "ref": {
             "closed": "已关闭",
             "open": "进行中",
-            "all": "所有"
+            "all": "全部"
         }
     }
 }

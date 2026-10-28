@@ -2,7 +2,7 @@
     "fof-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "Umschalter für Rich-Text-Modus im Editor anzeigen?",
+                "toggle_on_editor": "Umschalter für Rich-Text-Modus im Editor anzeigen",
                 "force_compact_paragraphs": "Für alle Benutzer kompakte Absätze erzwingen (Die Eingabetaste fügt einen Zeilenumbruch statt eines neuen Absatzes ein)"
             }
         },
@@ -24,7 +24,7 @@
                 "bold_tooltip": "Fettschrift ({modifierKey}-b)",
                 "code_tooltip": "Inline-Code ({modifierKey}-`)",
                 "code_block_tooltip": "Codeblock einfügen",
-                "header_tooltip": "Änderung auf Überschrift {level} ({Modifikator-Taste}-Umschalt-{level})",
+                "header_tooltip": "Änderung auf Überschrift {level} ({modifierKey}-Umschalt-{level})",
                 "horizontal_rule_tooltip": "Horizontale Linie einfügen",
                 "image_tooltip": "Bild einfügen",
                 "italic_tooltip": "Kursivschrift ({modifierKey}-i)",
@@ -44,7 +44,7 @@
         "forum": {
             "settings": {
                 "composer_heading": "Beitrags-Editor",
-                "use_rich_text_editor_label": "Rich-Text-Editor verwenden?",
+                "use_rich_text_editor_label": "Rich-Text-Editor verwenden",
                 "rich_text_compact_paragraphs_label": "Absätze nicht durch eine neue Zeile trennen."
             }
         }

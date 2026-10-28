@@ -33,5 +33,15 @@
                 }
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "locked": "Diskussion {discussion} gesperrt",
+                    "unlocked": "Diskussion {discussion} entsperrt"
+                }
+            }
+        }
     }
 }

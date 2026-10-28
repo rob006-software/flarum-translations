@@ -20,6 +20,22 @@
                 "new_discussion_label": "Specify the title for the new discussion",
                 "submit_button": "Split"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "The opening post of a discussion can't be split off.",
+                "end_before_start": "The split must end on or after the post it starts from."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "Split {post_count} posts from {discussion} into {new_discussion}",
+                    "split_into": "Split {post_count} posts into new discussion {discussion}"
+                }
+            }
         }
     }
 }

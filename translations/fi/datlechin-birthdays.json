@@ -6,17 +6,69 @@
                 "view_birthday_label": "Näytä syntymäpäivä"
             },
             "settings": {
+                "min_age_help": "Minimi ikä rekisteröitymiseen",
+                "min_age_label": "Minimi ikä",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Salli syntymäpäivän asetus rekisteröityessä",
                 "required_label": "Syntymäpäivä on pakollinen",
                 "required_help": "Sinun täytyy sallia syntymäpäivän asetus rekisteröityessä, jotta tämä asetus toimii",
-                "min_age_label": "Minimi ikä",
-                "min_age_help": "Minimi ikä rekisteröitymiseen",
                 "date_format_label": "Ajan muoto",
                 "date_format_help": "Käytä <a>dayjs</a> ajan muotoa. Jätä tyhjäksi käyttääksesi oletusta.",
                 "date_none_year_label": "Ajan muoto ilman vuotta"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Syntymäpäivät tänään"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Keskustelu: #} other {Keskustelua: #}}",
+                "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Muuta syntymäpäivä",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Näytä päivä ja kuukausi",
+                "show_dob_year_label": "Näytä syntymävuosi",
+                "show_dob_year_help": "Tämä näyttää sinun iän muille."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Syntymäpäivä: {date}",
                 "age_text": "Ikä: {age}"
@@ -26,28 +78,25 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Muuta syntymäpäivä",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Näytä päivä ja kuukausi",
-                "show_dob_year_label": "Näytä syntymävuosi",
-                "show_dob_year_help": "Tämä näyttää sinun iän muille."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Syntymäpäivät tänään"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Keskustelu: #} other {Keskustelua: #}}",
-                "post_count": "{count, plural, one {Viesti: #} other {Viestiä: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Virheellinen syntymäpäivä",
             "invalid_age_message": "Sinun täytyy olla vähintään {minAge} vuotta vanha.",
             "birthday_required_message": "Syntymäpäivä on pakollinen."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Syntymäpäivä"

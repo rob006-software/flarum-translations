@@ -3,12 +3,15 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "Private Nachrichten senden",
-                "delete_own_messages_label": "Eigene Nachrichten löschen"
+                "message_users_without_permission_label": "Nachrichten an Empfänger ohne Nachrichtenberechtigung senden",
+                "delete_own_messages_label": "Eigene Nachrichten löschen",
+                "send_without_throttle_label": "Nachrichten ohne Drosselung senden",
+                "view_ips_label": "IP-Adressen von Nachrichten anzeigen"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "Du hast deine Nachricht nicht gesendet. Möchtest du sie wirklich verwerfen?",
+                "discard_confirmation": "Sie haben Ihre Nachricht nicht gesendet. Möchten Sie sie wirklich verwerfen?",
                 "placeholder": "Schreib eine Nachricht...",
                 "recipients": "Empfänger",
                 "submit_button": "Nachricht senden",
@@ -17,7 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Als gelesen markieren",
+                "own_last_message_preview": "Du: {content}",
                 "title": "Nachrichten",
+                "unread_count_text": "{count} ungelesen",
                 "view_all": "Alle Nachrichten ansehen"
             },
             "dialog_section": {
@@ -53,7 +58,7 @@
                 "empty_text": "Keine neuen Nachrichten",
                 "hero": {
                     "title": "Nachrichten",
-                    "subtitle": "Deine privaten Unterhaltungen mit anderen Benutzern"
+                    "subtitle": "Ihre privaten Unterhaltungen mit anderen Benutzern"
                 },
                 "mark_all_as_read_tooltip": "Alle als gelesen markieren",
                 "refresh_tooltip": "Aktualisieren",
@@ -67,7 +72,12 @@
                 "title": "Nachrichten"
             },
             "recipient_selection_modal": {
+                "cannot_reply_text": "Kann nicht auf Nachrichten antworten",
                 "title": "Wähle die Empfänger für diese Nachricht"
+            },
+            "search_source": {
+                "conversation_with": "Unterhaltung mit {username}",
+                "heading": "Nachrichten"
             },
             "settings": {
                 "notify_message_received_label": "Jemand schickt mir eine Nachricht"
@@ -84,16 +94,48 @@
             "message_received": {
                 "subject": "{user_display_name} hat dir eine Nachricht gesendet",
                 "plain": {
-                    "body": "{user_display_name} hat dir eine Nachricht gesendet.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "{user_display_name} hat dir eine Nachricht gesendet.\n\n{url}\n\n---\n\n{content}\n\n---\n\nDu erhältst keine weiteren E-Mails zu dieser Unterhaltung, bis du diese gelesen hast.\n"
                 },
                 "html": {
-                    "body": "{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet."
+                    "body": "{user_display_name} hat dir eine [neue Nachricht]({url}) gesendet.\n\nDu erhältst keine weiteren E-Mails zu dieser Unterhaltung, bis du diese gelesen hast.\n"
                 }
             }
         },
         "lib": {
             "dialog": {
                 "title": "Unterhaltung {username}"
+            },
+            "no_other_members_message": "Sonst ist niemand in dieser Unterhaltung.",
+            "recipient_cannot_reply_message": "{username} kann nicht auf Nachrichten antworten.",
+            "recipient_unavailable_message": "{username} kann keine Nachrichten empfangen."
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "messages": {
+                    "export_description": "Deine privaten Nachrichten, wann sie gesendet wurden und von welcher Adresse.",
+                    "anonymize_description": "Die Adressen, von denen deine privaten Nachrichten gesendet wurden, werden entfernt. Die Nachrichten bleiben erhalten.",
+                    "delete_description": "Deine privaten Nachrichten werden gelöscht."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "dialog": {
+                    "started": "Hat eine private Unterhaltung mit {username} begonnen",
+                    "posted": "Hat eine private Nachricht an {username} gesendet"
+                }
+            }
+        }
+    },
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "dialogs_heading": "PN begonnen",
+                "dialog_replies_heading": "PN Antworten"
             }
         }
     }

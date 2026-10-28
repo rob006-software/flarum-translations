@@ -8,15 +8,15 @@
             "adapters": {
                 "local": "",
                 "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "sftp": ""
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "sftp": "SFTP"
             },
             "settings_button": "",
-            "delete_button": "",
+            "delete_button": "حذف",
             "delete_confirmation": "",
             "create_button": "",
             "required_package_button": "",
@@ -73,7 +73,7 @@
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
+                        "label": "کلید",
                         "description": ""
                     },
                     "credentials-secret": {
@@ -118,7 +118,7 @@
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
+                        "label": "شناسه مشتری",
                         "description": ""
                     },
                     "client-secret": {
@@ -131,6 +131,11 @@
                     },
                     "folder": {
                         "label": "",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    },
+                    "use-display-paths": {
+                        "label": "",
+                        "toggle": "",
                         "description": ""
                     },
                     "help": {
@@ -148,7 +153,7 @@
                         "description": ""
                     },
                     "password": {
-                        "label": "",
+                        "label": "رمز عبور",
                         "description": ""
                     },
                     "passive": {
@@ -156,7 +161,7 @@
                         "description": ""
                     },
                     "port": {
-                        "label": "",
+                        "label": "پورت",
                         "description": ""
                     },
                     "root": {
@@ -164,7 +169,7 @@
                         "description": ""
                     },
                     "ssl": {
-                        "toggle": "",
+                        "toggle": "SSL",
                         "description": ""
                     },
                     "timeout": {
@@ -173,13 +178,13 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
-                        "label": "",
+                        "label": "پورت",
                         "description": ""
                     },
                     "private-key": {

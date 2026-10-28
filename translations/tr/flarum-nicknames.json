@@ -43,5 +43,14 @@
             "change_nickname": "Görünür Adı Değiştir",
             "nickname": "Takma Ad"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_changed": "{username} adlı kullanıcının takma adını {old_nickname} yerine {new_nickname} olarak değiştirdi"
+                }
+            }
+        }
     }
 }

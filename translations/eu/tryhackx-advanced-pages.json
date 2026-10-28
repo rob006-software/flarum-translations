@@ -3,7 +3,11 @@
         "admin": {
             "permissions": {
                 "manage_pages_label": "",
-                "view_spoilers_label": ""
+                "view_spoilers_label": "",
+                "create_text_label": "",
+                "create_bbcode_label": "",
+                "create_markdown_label": "",
+                "create_redirect_label": ""
             },
             "pages": {
                 "create_button": "",
@@ -12,6 +16,7 @@
                 "type_column": "",
                 "status_column": "",
                 "groups_column": "",
+                "views_column": "",
                 "actions_column": "",
                 "everyone": "",
                 "edit_button": "",
@@ -19,7 +24,8 @@
                 "draft": "",
                 "hidden": "",
                 "restricted": "",
-                "empty": ""
+                "empty": "",
+                "drag_hint": ""
             },
             "settings": {
                 "title": "",
@@ -30,16 +36,25 @@
                 "bbcode_url": "",
                 "forum_title": "",
                 "forum_help": "",
-                "replace_forum_spoiler": ""
+                "replace_forum_spoiler": "",
+                "code_buttons_in_posts": ""
             },
             "edit_page": {
                 "create_title": "",
                 "edit_title": "",
                 "title_label": "",
                 "slug_label": "",
+                "parent_label": "",
+                "parent_none": "",
+                "parent_help": "",
                 "content_type_label": "",
                 "type_text": "",
+                "type_redirect": "",
                 "content_label": "",
+                "redirect_url_label": "",
+                "redirect_url_help": "",
+                "redirect_immediate_label": "",
+                "redirect_immediate_help": "",
                 "is_published_label": "",
                 "is_hidden_label": "",
                 "is_restricted_label": "",
@@ -60,7 +75,17 @@
                 "newline_mode_label": "",
                 "newline_flarum": "",
                 "newline_preserve": "",
-                "php_warning": ""
+                "php_warning": "",
+                "allow_scripts_label": "",
+                "allow_scripts_help": "",
+                "custom_breadcrumbs_css_label": "",
+                "custom_breadcrumbs_css_help": "",
+                "pin_to_nav_label": "",
+                "pin_to_nav_help": "",
+                "pin_icon_label": "",
+                "pin_icon_help": "",
+                "pin_short_name_label": "",
+                "pin_short_name_help": ""
             },
             "support": {
                 "button": "",
@@ -71,6 +96,18 @@
             }
         },
         "forum": {
+            "code": {
+                "select": "",
+                "copy": "",
+                "copied": ""
+            },
+            "redirect": {
+                "countdown": "",
+                "invalid": ""
+            },
+            "spoiler": {
+                "locked": ""
+            },
             "page": {
                 "loading": "",
                 "not_found_title": "",

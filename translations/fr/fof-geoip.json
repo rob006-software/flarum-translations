@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "Rendez-vous sur <b>https://7x.ax</b> pour obtenir une clé API gratuite pour un maximum de 20 requêtes par minute. Des plans payants pour des limites d'utilisation plus élevées sont également disponibles.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "Utilisez <b>https://ipinfo.io</b> pour récupérer des informations sur les adresses IP sans aucune limitation de débit ni de restriction. L'enregistrement d'une clé API gratuite est nécessaire.",
+                "service_maxmind_label": "Bases de données hors ligne (MaxMind / DB-IP)",
+                "service_maxmind_description": "Effectuez des recherches d'adresses dans des bases de données locales au format MaxMind (.mmdb) plutôt que d'appeler une API distante. Cette méthode fonctionne avec les éditions Lite de GeoLite2/GeoIP2 de MaxMind et de DB-IP. Les recherches sont instantanées, illimitées et ne sortent jamais de votre serveur, mais vous devez installer et mettre à jour vous-même les fichiers de base de données. Voir <b>https://github.com/FriendsOfFlarum/geoip </b> pour des exemples.",
+                "service_forced": "Le service de recherche est défini sur {service} par un prolongateur ; il ne peut donc pas être modifié ici.",
+                "service_unavailable": "Le service de recherche sélectionné n'est pas utilisable ; par conséquent, aucune information IP n'est enregistrée. Pour les bases de données hors ligne, vérifiez qu'au moins un chemin d'accès à une base de données ci-dessous est défini et pointe vers un fichier .mmdb lisible.",
                 "access_key_label": "Clé d'accès",
                 "quota_label": "Consulter les quotas",
+                "databases_heading": "Fichiers de base de données",
+                "databases_help": "Chemins d'accès absolus vers vos fichiers .mmdb. Ces trois éléments sont facultatifs et indépendants : la base de données des pays suffit à elle seule pour les drapeaux, celle des villes ajoute les coordonnées pour la carte, et celle de l'ASN ajoute le fournisseur d'accès à Internet (FAI) et l'organisation. Notez que les éditions « Lite » de DB-IP ne contiennent pas de codes postaux, et qu'aucune base de données hors ligne ne contient de données relatives aux menaces.",
+                "database_country_label": "Base de données des pays",
+                "database_city_label": "Base de données des villes",
+                "database_asn_label": "Base de données ASN",
+                "database_built": "Créé le {time}",
+                "database_stale": "obsolète, envisagez une mise à jour",
+                "database_not_configured": "Non configuré",
+                "setting_pinned": "Défini par un prolongateur ; il ne peut donc pas être modifié ici.",
                 "show_flag_label": "Afficher le drapeau du pays pour chaque message",
                 "show_flag_help": "Sans divulguer l'adresse IP, afficher le drapeau du pays de l'adresse IP de l'auteur du message lorsque l'utilisateur choisit d'entrer dans le système par le biais de ses préférences.",
+                "allow_custom_flag_label": "Autoriser les utilisateurs à choisir un drapeau de pays personnalisé",
+                "allow_custom_flag_help": "Lorsque cette option est activée, les utilisateurs peuvent choisir un drapeau de pays à afficher sur leurs messages via les paramètres de leur profil. Le drapeau sélectionné par l'utilisateur est visible par tous et prévaut sur le drapeau attribué en fonction de l'adresse IP. Cette fonctionnalité nécessite l'activation de l'option « Afficher le drapeau du pays pour chaque message ».",
                 "test": {
                     "heading": "Configuration du service de test",
                     "help": "Testez la configuration de votre service de recherche d'adresses IP à l'aide d'une adresse IP d'exemple. Veillez à enregistrer vos paramètres avant de procéder au test."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Temps de réponse :",
                 "test_timestamp_label": "Horodatage :",
                 "test_http_status_code_label": "Code de statut HTTP :",
+                "test_databases_label": "Bases de données consultées :",
                 "test_error_details_label": "Informations sur l'erreur :",
+                "test_notice_label": "Note :",
                 "test_processed_service_response_label": "Réponse au service traité :",
                 "status_success": "✓ Succès",
                 "status_error": "✗ Erreur",
@@ -59,7 +76,43 @@
                 "error_code_prefix": "Code :"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": "Adresse IP copiée"
+            },
+            "copy_ip_label": "Copier l'adresse IP dans le presse-papiers",
+            "map_button_label": "Informations sur l'adresse IP",
+            "map_modal": {
+                "title": "Informations sur l'adresse IP",
+                "ip_address": "Adresse IP",
+                "country": "Pays",
+                "city": "Ville",
+                "region": "Région",
+                "zip_code": "Code postal",
+                "isp": "FAI",
+                "as": "ASN",
+                "mobile": "Réseau cellulaire",
+                "organization": "Organisation",
+                "threat_level": "Niveau de menace",
+                "threat_types": "Types de menaces",
+                "error": "Erreur",
+                "not_enough_data": "Il n'y a pas assez de données pour dessiner une carte",
+                "dbip_attribution": "Géolocalisation par IP via <a>DB-IP</a>",
+                "country_code": "Code pays"
+            },
+            "custom_flag": {
+                "none": "Aucun drapeau personnalisé",
+                "placeholder": "Rechercher un pays…"
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Afficher le drapeau du pays d'où je publie, en fonction de mon adresse IP",
+                    "custom_flag_label": "Drapeau du pays personnalisé",
+                    "custom_flag_help": "Choisissez un drapeau de pays à afficher sur vos messages. Ce drapeau est visible par tous et remplace celui associé à votre adresse IP."
+                }
+            },
             "alerts": {
                 "ip_copied": "Adresse IP copiée"
             },
@@ -78,11 +131,6 @@
                 "threat_types": "Types de menaces",
                 "error": "Erreur",
                 "not_enough_data": "Il n'y a pas assez de données pour dessiner une carte"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Afficher le drapeau du pays d'où je publie, en fonction de mon adresse IP"
-                }
             }
         }
     },

@@ -1,0 +1,135 @@
+{
+    "shebaoting-money": {
+        "admin": {
+            "settings": {
+                "title": "Pengaturan",
+                "moneyforpost_label": "",
+                "moneyforpost_help": "",
+                "moneyforpost_type": "",
+                "moneyforreply_label": "",
+                "moneyforreply_help": "",
+                "moneyforreply_type": "",
+                "moneyforreply_feedback": "",
+                "moneyforlike_label": "",
+                "moneyforlike_help": "",
+                "moneyforlike_type": "",
+                "moneyforlike_feedback": "",
+                "reward": "",
+                "deduct": "",
+                "feedback": "",
+                "no_feedback": "",
+                "initialmoney": "Dana Awal untuk Pengguna Baru",
+                "moneyforpost": "Dana yang diberikan untuk postingan baru",
+                "moneyfordiscussion": "Dana yang diberikan untuk diskusi baru",
+                "moneyname": "Nama money (contoh: [money] poin)",
+                "postminimumlength": "Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)",
+                "noshowzero": "Jangan tampilkan jika nilainya nol",
+                "autoremove": "Memperbarui dana secara otomatis",
+                "moneyforlike": "Dana yang diberikan ketika sebuah postingan disukai",
+                "helpextensionlikes": "Membutuhkan ekstensi <code>flarum/likes</code>",
+                "initialmoney_help": "",
+                "level_names": "",
+                "level_names_help": "",
+                "money_scale": "",
+                "money_scale_help": "",
+                "extra_char_threshold_label": "",
+                "extra_char_threshold_help": "Jumlah karakter minimum sebelum poin ekstra diterapkan.",
+                "extra_char_increment_label": "",
+                "extra_char_increment_help": "Setiap karakter X yang melampaui ambang batas akan memicu perubahan poin.",
+                "extra_char_points_label": "",
+                "extra_char_points_help": "Jumlah poin yang akan ditambahkan atau dikurangi untuk setiap penambahan."
+            },
+            "permissions": {
+                "edit_money_label": "Edit money"
+            },
+            "autoremove": [
+                "Jangan pernah menghapus money",
+                "Ketika sebuah diskusi/postingan disembunyikan atau dipulihkan (default)",
+                "Ketika sebuah diskusi/postingan dihapus"
+            ],
+            "automoderator": {
+                "metric_name": "Money",
+                "action_name": "Transfer money"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Edit money"
+            },
+            "errors": {
+                "not_enough_money": "",
+                "no_money_logs": ""
+            },
+            "modal": {
+                "title": "Dana {username}",
+                "current": "Saat ini:",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "log_time": "Waktu",
+            "log_type": "Jenis",
+            "log_amount": "Jumlah",
+            "log_balance": "Saldo",
+            "log_description": "Deskripsi",
+            "log_type_deposit": "Deposit",
+            "log_type_withdrawal": "Penarikan",
+            "log_type_transfer": "Transfer",
+            "log_type_reward": "Reward",
+            "no_money_logs": "Tidak ada riwayat money yang tersedia",
+            "load_more": "Muat lainnya",
+            "logs_description": {
+                "created_discussion": "",
+                "created_reply": "",
+                "reply_received": "",
+                "liked": "",
+                "liked_by": "",
+                "unliked_post": "",
+                "unliked_by": "",
+                "initial_registration": "Menerima poin awal saat pendaftaran.",
+                "admin_updated": "Admin memperbarui poin, jumlah perubahan sebesar {amount}.",
+                "discussion_started": "",
+                "discussion_restored": "",
+                "discussion_hidden": "",
+                "discussion_deleted": "",
+                "posted_reply": "",
+                "post_created": "",
+                "post_restored": "",
+                "post_hidden": "",
+                "post_deleted": "",
+                "extra_characters": "Konten melebihi ambang batas sebanyak {extra_chars} karakter, {points} poin telah {action}.",
+                "action_rewarded": "",
+                "action_deducted": "",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
+            },
+            "logs_type": {
+                "discussion_started": "Memulai Diskusi",
+                "post_created": "Membuat Post",
+                "post_restored": "Memulihkan Post",
+                "post_hidden": "Post Disembunyikan",
+                "post_deleted": "Menghapus Post",
+                "discussion_restored": "Pemulihan Diskusi",
+                "discussion_hidden": "Diskusi Disembunyikan",
+                "discussion_deleted": "Menghapus Diskusi",
+                "liked": "Suka Post",
+                "liked_by_others": "Post Disukai oleh Pengguna Lain",
+                "admin_updated": "Admin Diperbarui",
+                "registration": "Bonus Pendaftaran",
+                "discussion_replied": "Membalas Diskusi"
+            },
+            "point_log": {
+                "title": "Catatan Perubahan Poin",
+                "link": "Catatan Poin",
+                "empty_text": "Tidak ada catatan perubahan poin yang ditemukan.",
+                "table": {
+                    "headers": {
+                        "date": "Tanggal",
+                        "amount": "Jumlah",
+                        "balance": "Saldo",
+                        "reason": "Alasan"
+                    }
+                },
+                "load_more": "Muat lainnya",
+                "no_permission": "Anda tidak memiliki izin untuk melihat catatan poin orang lain."
+            }
+        }
+    }
+}

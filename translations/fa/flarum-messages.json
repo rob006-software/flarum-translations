@@ -3,77 +3,87 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "",
-                "delete_own_messages_label": ""
+                "message_users_without_permission_label": "",
+                "delete_own_messages_label": "",
+                "send_without_throttle_label": "",
+                "view_ips_label": ""
             }
         },
         "forum": {
             "composer": {
                 "discard_confirmation": "",
                 "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "recipients": "گیرندگان",
+                "submit_button": "ارسال پیام",
+                "to": "به:"
             },
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "",
-                "title": "",
+                "mark_as_read_tooltip": "علامت‌گذاری به‌عنوان خوانده",
+                "own_last_message_preview": "",
+                "title": "پیام‌ها",
+                "unread_count_text": "",
                 "view_all": ""
             },
             "dialog_section": {
                 "back_label": "",
                 "cannot_reply_text": "",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "جزئیات"
                 },
                 "controls_toggle_label": "",
                 "details_modal": {
                     "created_at": "",
-                    "recipients": "",
+                    "recipients": "شرکت‌کنندگان",
                     "title": ""
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "پیام‌ها"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "پیام‌ها"
             },
             "index_sort": {
-                "latest_button": "",
+                "latest_button": "آخرین",
                 "newest_button": "",
                 "oldest_button": ""
             },
             "message_controls": {
-                "delete_button": "",
+                "delete_button": "حذف",
                 "delete_confirmation": ""
             },
             "messages_page": {
                 "cannot_send_message_button": "",
                 "empty_text": "",
                 "hero": {
-                    "title": "",
+                    "title": "پیام‌ها",
                     "subtitle": ""
                 },
                 "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "تازه کردن",
                 "send_message_button": "",
                 "stream": {
                     "load_previous_button": "",
                     "load_next_button": "",
                     "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "پیام‌ها"
             },
             "recipient_selection_modal": {
+                "cannot_reply_text": "",
                 "title": ""
+            },
+            "search_source": {
+                "conversation_with": "",
+                "heading": "پیام‌ها"
             },
             "settings": {
                 "notify_message_received_label": ""
             },
             "user_controls": {
-                "send_message_button": "",
+                "send_message_button": "ارسال پیام",
                 "cannot_reply_text": ""
             },
             "notifications": {
@@ -94,6 +104,38 @@
         "lib": {
             "dialog": {
                 "title": ""
+            },
+            "no_other_members_message": "",
+            "recipient_cannot_reply_message": "",
+            "recipient_unavailable_message": ""
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "messages": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "dialog": {
+                    "started": "",
+                    "posted": ""
+                }
+            }
+        }
+    },
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "dialogs_heading": "",
+                "dialog_replies_heading": ""
             }
         }
     }

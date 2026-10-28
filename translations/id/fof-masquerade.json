@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Lengkapi kolom profil yang diperlukan di bawah ini.\n",
                 "profile-completed": "Profile sudah lengkap! <a>Lanjutkan ke beranda</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Buat kolom",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Simpan perubahan",
-                "delete-field": "Hapus kolom"
+                "delete-field": "Hapus kolom",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Mengedit profil pengguna lainnya",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Kolom",
+                "trash": "",
                 "create": "",
                 "edit": "Edit kolom {field}",
                 "delete-confirmation": "Apakah Anda yakin ingin menghapus kolom {field}? Tindakan ini tidak dapat dibatalkan.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Nama kolom",
                 "name-help": "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n",
                 "description": "Deskripsi kolom",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Ekspor kolom jawaban profil pengguna",
                     "delete_description": "Menghapus semua kolom jawaban profil dari akun pengguna",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

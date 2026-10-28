@@ -2,103 +2,114 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "เลือกคำตอบที่ดีที่สุด (ของตนเอง)",
-                "best_answer_not_own_discussion": "เลือกคำตอบที่ดีที่สุด (ไม่ใช่ของตนเอง)",
-                "allow_select_own_post": ""
+                "best_answer": "เลือกคำตอบที่ดีที่สุด (โพสต์ของตนเอง)",
+                "best_answer_not_own_discussion": "เลือกคำตอบที่ดีที่สุด (โพสต์ของผู้อื่น)",
+                "allow_select_own_post": "เลือกโพสต์ของตนเองเป็นคำตอบที่ดีที่สุด"
             },
             "settings": {
                 "label": {
-                    "tags": "",
+                    "tags": "แท็กสำหรับคำตอบที่ดีที่สุด",
                     "general": "ทั่วไป",
-                    "reminders": "เตือนความจำ",
-                    "advanced": "ขั้นสูง",
-                    "reminders_notice": "สำหรับเตือนความจำเพื่อให้สามารถใช้งานได้คุณต้องตั้งค่าตรางเวลาของ Flarum ให้ถูกต้อง"
+                    "reminders": "การแจ้งเตือนความจำ",
+                    "reminders_notice": "ระบบการแจ้งเตือนความจำต้องการการตั้งค่าตัวกำหนดเวลา (Scheduler) ของ Flarum อย่างถูกต้องจึงจะทำงานได้",
+                    "advanced": "ขั้นสูง"
                 },
-                "show_max_lines_label": "",
-                "show_max_lines_help": "",
-                "select_best_answer_reminder_days": "ความถี่ในการเตือน",
-                "select_best_answer_reminder_days_help": "ส่งการเตือนความจำตามวันที่กำหนดไว้ เเละ ตั้งเป็น 0 เพื่อปิดการใช้งาน",
-                "select_best_answer_tags_label": "",
-                "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "ใช้  'onOneServer()' สำหรับตรางการทำงาน",
-                "schedule_on_one_server_help": "ต้องการ Redis/Memcache",
-                "schedule_stop_overnight": "ไม่ส่งการเเจ้งเตือนในเวลานอน",
-                "schedule_stop_overnight_help": "ในระหว่างเวลา 3 ทุ่มถึง 8โมงเช้า",
-                "schedule_log_output": "เพิ่มผลการทำงานของตรางเวลาไปยังบันทึก",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "ใช้ปุ่มทางเลือก",
-                "use_alt_ui_help": "ปุ่มเลือกคำตอบที่ดีที่อย่างส่วนล่างของโพสต์",
-                "documentation": "เอกสารประกอบการใช้งาน",
-                "enabled_tags_label": "",
-                "enabled_tags_help": "",
-                "remind_tags_label": "",
-                "remind_tags_help": "",
-                "tags_info": "",
-                "discussion_sidebar_jump_button": "",
-                "discussion_sidebar_jump_button_help": ""
+                "show_max_lines_label": "จำนวนบรรทัดสูงสุดในการแสดงตัวอย่างโพสต์",
+                "show_max_lines_help": "ตั้งเป็น 0 เพื่อปิดการใช้งาน หากโพสต์ยาวกว่าจำนวนบรรทัดที่กำหนด ข้อความจะถูกตัดทอนในส่วนแสดงตัวอย่างพร้อมกับเอฟเฟกต์ไล่โทนจางลง",
+                "select_best_answer_reminder_days": "ความถี่ของการเตือนความจำ",
+                "select_best_answer_reminder_days_help": "ส่งข้อความเตือนความจำไปยังผู้ตั้งโพสต์เพื่อให้เลือกคำตอบที่ดีที่สุดเมื่อเวลาผ่านไปตามจำนวนวันที่ระบุ, 0 = ปิดใช้งานการเตือน",
+                "select_best_answer_tags_label": "แท็กสำหรับโพสต์ที่มีคำตอบที่ดีที่สุด",
+                "select_best_answer_tags_help": "เลือกแท็ก (ถ้ามี) เพื่อเพิ่มไปยังโพสต์เมื่อมีการกำหนดคำตอบที่ดีที่สุด อนุญาตให้ใช้เฉพาะแท็กรองเท่านั้น โดยแท็กเหล่านี้จะถูกลบออกหากยกเลิกคำตอบที่ดีที่สุด",
+                "schedule_stop_overnight": "หลีกเลี่ยงการส่งแจ้งเตือนความจำในช่วงเวลานอน/เวลาวิกาล",
+                "schedule_stop_overnight_help": "21:00 น. - 08:00 น. ตามเวลาเซิร์ฟเวอร์",
+                "schedule_log_output": "บันทึกผลลัพธ์ของตัวกำหนดเวลาไว้ในระบบบันทึก (Log)",
+                "schedule_log_output_help": "",
+                "show_filter_label": "แสดงเมนูตัวกรองคำตอบที่ดีที่สุด",
+                "show_filter_help": "แสดงตัวเลือกการกรองโพสต์ที่ 'แก้ปัญหาแล้ว / ยังไม่แก้ปัญหา' ในรายการโพสต์สำหรับแท็กที่เปิดใช้งานระบบคำตอบที่ดีที่สุด",
+                "use_alt_ui": "การแสดงผลรูปแบบอื่น",
+                "use_alt_ui_help": "แสดงปุ่มจัดการคำตอบที่ดีที่สุดที่ส่วนท้ายของโพสต์",
+                "documentation": "เอกสารคู่มือ",
+                "enabled_tags_label": "แท็กที่เปิดใช้งาน",
+                "enabled_tags_help": "เลือกแท็กเพื่อเปิดใช้งานระบบคำตอบที่ดีที่สุด แท็กเหล่านี้จะเปลี่ยนรูปแบบเป็นแบบถาม-ตอบ (Q&A) และมีสิทธิ์เลือกคำตอบที่ดีที่สุดได้",
+                "remind_tags_label": "แท็กสำหรับการเตือนความจำ",
+                "remind_tags_help": "เลือกแท็กที่จะให้ส่งการเตือนความจำ โดยจะเตือนเฉพาะกับโพสต์ที่มีแท็กเหล่านั้นเท่านั้น",
+                "tags_info": "เมื่อแท็กถูกเปิดใช้งานระบบคำตอบที่ดีที่สุด ให้มอบสิทธิ์แก่กลุ่มผู้ใช้ที่สามารถกำหนดคำตอบได้ (โพสต์ของตนเอง, โพสต์ใดๆ) โดยสามารถกำหนดสิทธิ์นี้ในระดับสากล (สำหรับทุกแท็กที่เปิดใช้งานคำตอบที่ดีที่สุด) หรือแยกตามแต่ละแท็กก็ได้\n",
+                "discussion_sidebar_jump_button": "แสดงปุ่มข้ามไปยังคำตอบที่ดีที่สุดในแถบด้านข้างโพสต์",
+                "discussion_sidebar_jump_button_help": "เพิ่มปุ่มในแถบด้านข้างโพสต์เพื่อเลื่อนไปยังโพสต์คำตอบที่ดีที่สุดในทันที",
+                "schedule_on_one_server": "ใช้คำสั่ง 'onOneServer()' สำหรับตัวกำหนดเวลาทำงาน",
+                "schedule_on_one_server_help": "จำเป็นต้องมี Redis/Memcache"
             },
             "edit_tag": {
-                "qna_label": "เปิดใช้งานการเลือกคำตอยที่ดีที่สุดในเเท็กนี้",
-                "reminders": "ส่งการเตือนความจำสำหรับคำตอบที่ดีที่สุดในเเท็กนี้"
+                "qna_label": "เปิดใช้งานการเลือกคำตอบที่ดีที่สุดในแท็กนี้",
+                "reminders": "ส่งการแจ้งเตือนความจำให้เลือกคำตอบที่ดีที่สุดสำหรับโพสต์ในแท็กนี้"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "แก้ปัญหาแล้ว",
+            "this_best_answer": "เลือกเป็นคำตอบที่ดีที่สุด",
+            "remove_best_answer": "ยกเลิกคำตอบที่ดีที่สุด",
+            "best_answer_button": "คำตอบที่ดีที่สุด",
+            "best_answer_label": "กำหนดโดย <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "โพสต์ที่เลือกไม่มีอยู่ในโพสต์นี้"
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} ได้กำหนดคำตอบที่ดีที่สุดในโพสต์นี้",
+                "content": "โปรดเลือกคำตอบที่ดีที่สุดหากคำถามของคุณได้รับการตอบและแก้ปัญหาได้แล้ว",
+                "awarded": "โพสต์ของคุณได้รับการเลือกเป็นคำตอบที่ดีที่สุดโดย {username}",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": "",
-                    "select_best_answer": ""
+                    "awarded_best_answer": "เมื่อมีคนเลือกโพสต์ของฉันเป็นคำตอบที่ดีที่สุด",
+                    "best_answer_in_discussion": "เมื่อมีการกำหนดคำตอบที่ดีที่สุดในโพสต์ที่ฉันเคยร่วมตอบ",
+                    "select_best_answer": "การแจ้งเตือนความจำอัตโนมัติให้เลือกคำตอบที่ดีที่สุดในโพสต์ที่ฉันเป็นผู้สร้าง"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "ถามคำถาม",
+                "cannot_ask_question": "ไม่สามารถถามคำถามได้",
+                "solved_link": "โพสต์ที่แก้ปัญหาแล้ว",
+                "unsolved_link": "โพสต์ที่ยังไม่ได้รับการแก้ไข"
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "คำถามทั้งหมด",
+                "solved_label": "คำถามที่แก้ปัญหาแล้ว",
+                "unsolved_label": "คำถามที่ยังไม่ได้รับการแก้ไข",
+                "accessible_label": "ตัวเลือกแสดงโพสต์ที่แก้ปัญหาแล้ว/ยังไม่แก้ไข"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "หัวข้อคำถาม"
             },
             "user": {
-                "best-answer-count": ""
+                "best-answer-count": "{count, plural, other {{count} คำตอบที่ดีที่สุด}}"
             },
             "discussion": {
-                "jump_to_best_answer_button": ""
+                "jump_to_best_answer_button": "ดูคำตอบที่ดีที่สุด"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "โพสต์ของคุณได้รับการเลือกเป็นคำตอบที่ดีที่สุดโดย {display_name}",
+                "ba-set": "มีการกำหนดคำตอบที่ดีที่สุดโดย {display_name}",
+                "select": "โพสต์คำถามของคุณได้รับคำตอบและแก้ปัญหาเรียบร้อยแล้วหรือยัง?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "สวัสดี {recipient_display_name},\n\nเยี่ยมเลย! {actor_display_name} เพิ่งเลือกโพสต์ของคุณเป็นคำตอบที่ดีที่สุดในโพสต์: {discussion_title} ขอบคุณสำหรับการช่วยเหลือผู้อื่น\n\nสามารถดูโพสต์ได้ที่นี่: {discussion_url}\n",
+                "ba-set": "สวัสดี {recipient_display_name},\n\n{actor_display_name} เพิ่งระบุคำตอบที่ดีที่สุดในโพสต์: {discussion_title} ซึ่งคุณมีส่วนร่วมตอบด้วย\n\nสามารถตรวจสอบได้ที่นี่: {discussion_url}\n",
+                "select": "สวัสดี {recipient_display_name},\n\nแวะมาถามไถ่ความคืบหน้า ตอนนี้โพสต์คำถาม \"{discussion_title}\" ของคุณน่าจะมีเพื่อนสมาชิกเข้ามาตอบพอสมควรแล้ว และหวังว่าจะมีคำตอบใดคำตอบหนึ่งช่วยแก้ปัญหาของคุณได้สำเร็จ\n\nหากแก้ปัญหาได้เรียบร้อยแล้ว จะเป็นประโยชน์อย่างยิ่งสำหรับสมาชิกท่านอื่นๆ ในอนาคตหากคุณสละเวลาสักครู่เพื่อเข้าไปทำเครื่องหมายเลือกโพสต์ที่เป็นคำตอบที่ดีที่สุดสำหรับคำถามของคุณ ซึ่งจะช่วยให้ผู้ที่มีปัญหาเดียวกันสามารถค้นหาคำตอบที่ต้องการได้รวดเร็วยิ่งขึ้น อีกทั้งยังเป็นการแสดงความขอบคุณสมาชิกที่ช่วยเหลือสละเวลามาตอบให้ด้วย\n\nคุณสามารถเข้าชมโพสต์ได้ที่นี่: {discussion_url} เพื่อเลือกโพสต์ที่เหมาะสมที่สุดเป็นคำตอบที่ดีที่สุด\n\nขอบคุณมาก!\n"
             }
         },
         "lib": {
             "gambits": {
                 "solved-discussions": {
+                    "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
                     "key": ""
                 }
             }
@@ -107,8 +118,18 @@
     "fof-user-directory": {
         "lib": {
             "sort": {
-                "most_best_answers": "",
-                "least_best_answers": ""
+                "most_best_answers": "ได้รับคำตอบที่ดีที่สุดมากที่สุด",
+                "least_best_answers": "ได้รับคำตอบที่ดีที่สุดน้อยที่สุด"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "กำหนดให้ {post} เป็นคำตอบที่ดีที่สุดในโพสต์ {discussion}",
+                    "best_answer_unset": "ยกเลิกคำตอบที่ดีที่สุดสำหรับ {post} ในโพสต์ {discussion}"
+                }
             }
         }
     }

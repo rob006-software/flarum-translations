@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Standard offentlig hurtigbuffer TTL",
             "public_cache_ttl_help": "Definer hvor lenge, i sekunder, offentlige sider skal bufres. Standardverdien er 604800 sekunder (én uke).",
             "clearing_cache_listener_label": "Tøm LSCache når Flarum-bufferen er tømt",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Server gammelt innhold",
             "serve_stale_help": "Hvis aktivert, vil en utdatert versjon av en bufret side bli servert til besøkende inntil en ny hurtigbufferkopi er generert. Dette reduserer serverbelastningen. Hvis den er deaktivert, vil siden genereres dynamisk under hurtigbufferoppdateringen, noe som kan øke ventetidene. Dette er gjort slik at dette alternativet kan vise utdatert innhold. Ikke aktiver dette hvis du finner det uakseptabelt.",
             "purge_on_discussion_update_label": "Tøm nettadresser eller hurtigbuffer tagger ved diskusjonsoppdatering",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Tøm LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

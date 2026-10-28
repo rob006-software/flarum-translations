@@ -6,10 +6,10 @@
                 "add_modal": {
                     "host_label": "",
                     "host_placeholder": "",
-                    "submit_button": "",
+                    "submit_button": "ส่ง",
                     "token_label": "",
-                    "type_label": "",
-                    "unchanged_token_placeholder": ""
+                    "type_label": "ประเภท",
+                    "unchanged_token_placeholder": "(ไม่เปลี่ยน)"
                 },
                 "delete_confirmation": "",
                 "delete_label": "",
@@ -54,10 +54,10 @@
                         "path": ""
                     },
                     "add_modal": {
-                        "name_label": "",
-                        "type_label": "",
-                        "url": "",
-                        "submit_button": ""
+                        "name_label": "ชื่อ",
+                        "type_label": "ประเภท",
+                        "url": "URL",
+                        "submit_button": "ส่ง"
                     }
                 }
             },
@@ -73,15 +73,16 @@
                 }
             },
             "extensions": {
+                "already_installed": "",
                 "check_why_it_failed_updating": "",
                 "install": "",
                 "install_help": "",
-                "proceed": "",
-                "remove": "",
+                "proceed": "ดำเนินการต่อ",
+                "remove": "ถอนการติดตั้ง",
                 "successful_install": "",
                 "successful_remove": "",
                 "successful_update": "",
-                "update": "",
+                "update": "อัปเดต",
                 "update_soft_label": "",
                 "update_hard_label": ""
             },
@@ -95,7 +96,7 @@
                     "why": ""
                 },
                 "title": "",
-                "update": ""
+                "update": "อัปเดต"
             },
             "minor_update_confirmation": {
                 "content": ""
@@ -128,12 +129,12 @@
                 },
                 "queue": {
                     "columns": {
-                        "details": "",
+                        "details": "รายละเอียด",
                         "elapsed_time": "",
                         "peak_memory_used": "",
                         "operation": "",
                         "package": "",
-                        "status": ""
+                        "status": "สถานะ"
                     },
                     "none": "",
                     "operations": {
@@ -149,14 +150,14 @@
                     "output_modal": {
                         "cause_unknown": "",
                         "command": "",
-                        "guessed_cause": "",
+                        "guessed_cause": "สาเหตุ",
                         "output": ""
                     },
                     "refresh": "",
                     "statuses": {
-                        "success": "",
-                        "failure": "",
-                        "pending": "",
+                        "success": "สำเร็จ",
+                        "failure": "ล้มเหลว",
+                        "pending": "รอดำเนินการ",
                         "running": ""
                     },
                     "task_just_started": "",
@@ -168,7 +169,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "=> core.ref.settings",
                 "access_warning": "",
                 "debug_mode_warning": "",
                 "queue_jobs": "",

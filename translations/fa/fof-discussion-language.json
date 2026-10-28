@@ -1,0 +1,78 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "",
+                "title": "",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": ""
+            },
+            "discussion_controls": {
+                "change_language_button": ""
+            },
+            "index_language": {
+                "any": ""
+            },
+            "language_dropdown": {
+                "toggle_label": ""
+            },
+            "sub_controls": {
+                "subscription_language_label": "",
+                "subscription_language_help": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "",
+                "show_flag_label": "",
+                "composer_default_label": "",
+                "locale_sort_label": "",
+                "show_any_lang_opt_label": "",
+                "tags_page_discussion_locale_label": "",
+                "errors": {
+                    "missing_assets": ""
+                },
+                "languages_heading": "",
+                "languages_help": "",
+                "attribution": "",
+                "config": {
+                    "language_label": "",
+                    "country_label": "",
+                    "choose_language": "",
+                    "choose_country": "",
+                    "add_button": "",
+                    "remove_button": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "",
+                "change_language_label": ""
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": ""
+            }
+        },
+        "lib": {
+            "gambits": {
+                "language": {
+                    "key": "",
+                    "hint": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "subscriptionlanguages": {
+                    "export_description": "",
+                    "anonymize_description": ""
+                }
+            }
+        }
+    }
+}

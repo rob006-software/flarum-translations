@@ -1,0 +1,20 @@
+{
+    "ianm-online-guests": {
+        "admin": {
+            "permissions": {
+                "view_online_guests_label": "查看在线访客"
+            },
+            "settings": {
+                "online_duration_label": "在线判定时长",
+                "cache_duration_label": "缓存时长"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "在线访客",
+                "description": "显示当前正在浏览论坛的访客人数",
+                "guests_online": "{count} 位访客在线"
+            }
+        }
+    }
+}

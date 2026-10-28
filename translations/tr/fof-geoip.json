@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "Dakikada 20 isteğe kadar ücretsiz API anahtarı almak için <b>https://7x.ax</b> adresini kullanın. Daha yüksek kullanım limitleri için ücretli planlar da mevcuttur.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "<b>https://ipinfo.io</b> adresini kullanarak IP bilgilerini herhangi bir oran sınırlaması veya kısıtlama olmadan alabilirsiniz. Ücretsiz bir API anahtarı için kayıt olmanız gerekir.",
+                "service_maxmind_label": "",
+                "service_maxmind_description": "",
+                "service_forced": "",
+                "service_unavailable": "",
                 "access_key_label": "Erişim Anahtarı",
                 "quota_label": "Arama kotası",
+                "databases_heading": "",
+                "databases_help": "",
+                "database_country_label": "",
+                "database_city_label": "",
+                "database_asn_label": "",
+                "database_built": "",
+                "database_stale": "",
+                "database_not_configured": "",
+                "setting_pinned": "",
                 "show_flag_label": "Her gönderi için ülke bayrağını göster",
                 "show_flag_help": "Kullanıcı tercihleri üzerinden katılım sağladığında, IP adresini açıklamadan, gönderi yazarının IP adresinin ülke bayrağını göster.",
+                "allow_custom_flag_label": "Kullanıcıların özel bir ülke bayrağı seçmesine izin ver",
+                "allow_custom_flag_help": "Etkinleştirildiğinde, kullanıcılar gönderilerinde gösterilmek üzere profil ayarlarından bir ülke bayrağı seçebilir. Kullanıcının seçtiği bayrak herkese gösterilir ve IP tabanlı bayrağın yerine geçer. \"Her gönderi için ülke bayrağını göster\" ayarının etkinleştirilmiş olmasını gerektirir.",
                 "test": {
                     "heading": "Servis Yapılandırmasını Test Et",
                     "help": "IP sorgulama servisinizin yapılandırmasını örnek bir IP adresiyle test edin. Test etmeden önce ayarlarınızı kaydettiğinizden emin olun."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Yanıt Süresi:",
                 "test_timestamp_label": "Zaman Damgası:",
                 "test_http_status_code_label": "HTTP Durum Kodu:",
+                "test_databases_label": "",
                 "test_error_details_label": "Hata Ayrıntıları:",
+                "test_notice_label": "",
                 "test_processed_service_response_label": "İşlenmiş Servis Yanıtı:",
                 "status_success": "✓ Başarılı",
                 "status_error": "✗ Hata",
@@ -59,7 +76,43 @@
                 "error_code_prefix": "Kod:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": "IP Adresi Kopyalandı"
+            },
+            "copy_ip_label": "IP'yi panoya kopyala",
+            "map_button_label": "IP Bilgisi",
+            "map_modal": {
+                "title": "IP Bilgisi",
+                "ip_address": "IP Adresi",
+                "country": "",
+                "city": "",
+                "region": "",
+                "zip_code": "Posta Kodu",
+                "isp": "İSS",
+                "as": "ASN",
+                "mobile": "Hücresel ağ",
+                "organization": "Kurum",
+                "threat_level": "Tehdit Seviyesi",
+                "threat_types": "Tehdit Türleri",
+                "error": "Hata",
+                "not_enough_data": "Harita için yeterli veri yok",
+                "dbip_attribution": "",
+                "country_code": "Ülke Kodu"
+            },
+            "custom_flag": {
+                "none": "Özel bayrak yok",
+                "placeholder": "Ülke ara…"
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "IP adresime göre, gönderdiğim ülkenin bayrağını göster",
+                    "custom_flag_label": "Özel ülke bayrağı",
+                    "custom_flag_help": "Gönderilerinizde gösterilecek bir ülke bayrağı seçin. Bu bayrak herkes tarafından görülebilir ve IP adresinize göre belirlenen bayrağın yerine gösterilir."
+                }
+            },
             "alerts": {
                 "ip_copied": "IP Adresi Kopyalandı"
             },
@@ -78,11 +131,6 @@
                 "threat_types": "Tehdit Seviyesi",
                 "error": "Hata",
                 "not_enough_data": "Harita için yeterli veri yok"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "IP adresime göre, gönderdiğim ülkenin bayrağını göster"
-                }
             }
         }
     },

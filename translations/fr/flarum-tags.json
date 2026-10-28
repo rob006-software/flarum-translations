@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "Par défaut",
+                    "id_with_slug": "Identifiant avec nom générique"
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Supprimer l'étiquette",
+                "default_sort_label": "Tri par défaut",
+                "default_sort_none": "Utiliser le paramètre par défaut du forum",
+                "default_sort_text": "Comment les discussions de cette étiquette sont-elles classées lorsqu'un utilisateur arrive sans avoir choisi lui-même un critère de tri.",
+                "default_sort_unavailable": "{sort} (n'est plus disponible)",
                 "delete_tag_confirmation": "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.",
                 "description_label": "Description",
                 "hide_label": "Masquer de la liste de toutes les discussions",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
+            "deck": {
+                "column_label": "Étiquette",
+                "tag_label": "Étiquette",
+                "tag_placeholder": "Rechercher une étiquette"
+            },
             "discussion_controls": {
                 "edit_tags_button": "Modifier les étiquettes"
             },
@@ -87,8 +100,8 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "étiquetée",
-                        "hint": "nom d'une étiquette ou liste de noms d'étiquette séparés par des virgules, ou « non étiquetée»"
+                        "key": "étiquette",
+                        "hint": "nom d'une étiquette, ou liste de noms d'étiquettes séparés par des virgules, ou « sans étiquette »"
                     }
                 }
             },
@@ -103,9 +116,23 @@
         },
         "ref": {
             "choose_tags": "Sélectionner les étiquettes",
-            "choose_tags_placeholder": "{count, plural, one {Sélectionner 1 étiquette supplémentaire} other {Sélectionner # étiquettes supplémentaires}}",
+            "choose_tags_placeholder": "{count, plural, one {Sélectionner # étiquette supplémentaire} other {Sélectionner # étiquettes supplémentaires}}",
             "name": "Nom",
             "tags": "Étiquettes"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": "A mis à jour les étiquettes de {discussion} en remplaçant {old_tags} par {new_tags}"
+                },
+                "tag": {
+                    "created": "A créé l'étiquette {tag}",
+                    "updated": "A mis à jour l'étiquette {tag}",
+                    "deleted": "A supprimé l'étiquette {tag}"
+                }
+            }
         }
     }
 }

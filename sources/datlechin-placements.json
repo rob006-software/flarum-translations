@@ -1,0 +1,565 @@
+{
+    "datlechin-placements": {
+        "admin": {
+            "save": "Save",
+            "tabs": {
+                "campaigns": "Campaigns",
+                "review": "Review",
+                "slots": "Slots",
+                "reports": "Reports",
+                "advertisers": "Advertisers",
+                "settings": "Settings"
+            },
+            "lists": {
+                "any": "Any",
+                "actions": "Actions",
+                "sort_by": "Sort by {column}",
+                "no_matches": "Nothing matches that."
+            },
+            "permissions": {
+                "view_without_ads": "Browse without advertising",
+                "manage": "Manage advertising",
+                "submit": "Submit a creative for review",
+                "author_html": "Author raw HTML creatives"
+            },
+            "demo": {
+                "title": "Find the slots",
+                "help": "Opens the forum with a labelled sample in every slot, visible only to you. It is the quickest way to see where a placement actually appears, and to check that one you expected is there at all.\n",
+                "open": "Open the forum in demo mode"
+            },
+            "review": {
+                "title": "Waiting for review",
+                "help": "Creatives nobody has decided on yet, and the ones that were turned down. Editing an approved creative sends it back here.\n",
+                "none": "Nothing is waiting.",
+                "from": "{campaign} · {type}",
+                "approve": "Approve",
+                "reject": "Reject",
+                "edit_reason": "Change the reason",
+                "confirm_reject": "Reject it",
+                "cancel": "Cancel",
+                "reason_placeholder": "Why is this being turned down? Whoever submitted it will see this."
+            },
+            "campaigns": {
+                "title": "Campaigns",
+                "create": "New campaign",
+                "edit": "Edit campaign",
+                "delete": "Delete campaign",
+                "delete_confirm": "Delete this campaign, along with its creatives and targeting?",
+                "none": "No campaigns yet.",
+                "always": "No end date",
+                "not_running": "Not running",
+                "not_running_help": "This campaign is marked active but nothing is being served from it. Its flight has ended, or a cap has been reached. Liveness is worked out from the dates and the counters every time a page is served, so it stops on time even on a forum with no scheduler.\n",
+                "search": "Search campaigns",
+                "back": "All campaigns",
+                "gone": "That campaign no longer exists.",
+                "house": "House",
+                "show_all": "Show all campaigns",
+                "pause": "Pause",
+                "resume": "Resume",
+                "filtered_to_advertiser": "Showing campaigns for {name}.",
+                "member_submitted": "Member",
+                "member_submitted_help": "Created automatically when a member submitted an advert, rather than by somebody selling one.\n",
+                "source_label": "Source",
+                "sources": {
+                    "direct": "Sold directly",
+                    "member": "Submitted by a member"
+                },
+                "name_label": "Name",
+                "status_label": "Status",
+                "advertiser_label": "Advertiser",
+                "tier_label": "Priority",
+                "flight_label": "Runs",
+                "impressions_label": "Impressions",
+                "clicks_label": "Clicks",
+                "tab_identity": "Identity",
+                "tab_schedule": "Schedule",
+                "tab_delivery": "Delivery",
+                "tab_targeting": "Targeting",
+                "tab_commercial": "Commercial",
+                "commercial_help": "Somewhere to write down what was agreed, so a report can state it. Nothing here charges anybody, sends an invoice, or converts a currency.\n",
+                "rate_label": "Rate",
+                "rate_type": "Rate type",
+                "rate_type_none": "Not recorded",
+                "rate_types": {
+                    "cpm": "Cost per thousand impressions",
+                    "cpc": "Cost per click",
+                    "flat": "Flat fee",
+                    "barter": "Barter"
+                },
+                "rate_amount": "Amount",
+                "rate_amount_help": "The figure and the currency it was agreed in, as you would write them on an invoice.",
+                "rate_currency": "CUR",
+                "contract_notes": "Contract notes",
+                "name": "Name",
+                "status": "Status",
+                "advertiser": "Advertiser",
+                "advertiser_help": "Who this campaign is reported to. Optional.",
+                "no_advertiser": "—",
+                "status_help": "What you intend. Whether a campaign is actually running is worked out from its dates and caps every time a page is served, so a campaign that has ended stops on time even on a forum with no scheduler.\n",
+                "tier": "Priority",
+                "tier_help": "Only the most important tier with something eligible is ever drawn from, so a sponsorship is never diluted by a filler. \"Guaranteed\" means priority, not a forecast: nothing here predicts how much inventory you will have.\n",
+                "is_house": "House campaign",
+                "is_house_help": "Fills space nobody paid for. Ignores caps and pacing entirely, so it never leaves a hole on the page.\n",
+                "starts_at": "Starts",
+                "ends_at": "Ends",
+                "ends_at_help": "The campaign stops at this moment, so it does not run on the end date itself.",
+                "max_impressions": "Impression cap",
+                "max_clicks": "Click cap",
+                "pacing": "Delivery",
+                "pacing_asap": "As fast as possible",
+                "pacing_even": "Spread evenly",
+                "frequency_cap": "Frequency cap",
+                "frequency_cap_help": "How often one reader may see this campaign. Best effort: it is counted in the reader's browser, so a private window, cleared site data or a second device all start the count again. It stops somebody seeing the same advert forty times in an afternoon; it is not a guarantee to quote to an advertiser.\n",
+                "frequency_windows": {
+                    "session": "per visit",
+                    "hour": "per hour",
+                    "day": "per day"
+                },
+                "pacing_help": "Even delivery slows a campaign that is ahead of schedule. It will not hit the total exactly; it stops a month of inventory being spent in three days.\n",
+                "statuses": {
+                    "draft": "Draft",
+                    "scheduled": "Scheduled",
+                    "active": "Active",
+                    "paused": "Paused",
+                    "archived": "Archived"
+                },
+                "tiers": {
+                    "sponsorship": "Sponsorship",
+                    "guaranteed": "Guaranteed",
+                    "standard": "Standard",
+                    "remnant": "Remnant",
+                    "house": "House"
+                }
+            },
+            "advertisers": {
+                "title": "Advertisers",
+                "help": "Optional. A forum running only its own house adverts never needs this list.\n",
+                "create": "New advertiser",
+                "edit": "Edit advertiser",
+                "delete": "Delete advertiser",
+                "delete_confirm": "Delete {name}? Their campaigns are kept and simply stop being attributed to anybody. Any report link they hold stops working.\n",
+                "none": "No advertisers yet.",
+                "search": "Search advertisers",
+                "name": "Name",
+                "contact_email": "Contact email",
+                "notes": "Notes",
+                "has_link": "Has a link",
+                "name_label": "Name",
+                "contact_label": "Contact",
+                "link_label": "Report link",
+                "campaigns_label": "Campaigns",
+                "no_contact": "—",
+                "no_link": "—",
+                "view_campaigns": "View campaigns",
+                "user": "Forum account",
+                "user_help": "Set automatically when a member submits an advert. Link one by hand if an advertiser already has an account, so their own submissions are filed against this record.\n",
+                "link_user": "Link an account",
+                "unlink_user": "Unlink the account",
+                "copy_link": "Copy",
+                "copied": "The report link is on your clipboard.",
+                "copy_failed": "Your browser would not let this page write to the clipboard, which most often means the forum is not being served over HTTPS. The link is selected above — copy it before closing this window, because it is not shown again.\n",
+                "report_link": "Report link",
+                "report_link_help": "What an advertiser gets instead of a login. Unguessable, revocable, and not indexed. It shows delivery only — never targeting, never rates, and never another advertiser. The link is shown once, here, and cannot be recovered afterwards.\n",
+                "create_link": "Create a link",
+                "replace_link": "Replace the link",
+                "revoke_link": "Revoke",
+                "replace_link_confirm": "Replace the report link for {name}? The link they hold now stops working immediately, and the new one is shown once.\n",
+                "revoke_link_confirm": "Revoke the report link for {name}? It stops working immediately and cannot be brought back — you would have to issue a new one.\n"
+            },
+            "creatives": {
+                "title": "Creatives",
+                "create": "New creative",
+                "edit": "Edit creative",
+                "none": "Nothing to show yet.",
+                "unassigned": "Not placed",
+                "delete": "Delete",
+                "delete_confirm": "Delete {name}? Its slot assignments go with it, and any slot using it as a passback falls back to nothing.",
+                "preview": "Preview",
+                "preview_empty": "This renders nothing at the moment. A network container is waiting for consent; anything else means the payload is not one its type can draw.\n",
+                "preview_unknown_type": "No renderer is registered for the type {type}.",
+                "name_label": "Name",
+                "type_label": "Type",
+                "status_label": "Status",
+                "slots_label": "Slots",
+                "tab_details": "Details",
+                "tab_content": "Content",
+                "tab_slots": "Slots",
+                "tab_advanced": "Advanced",
+                "tab_preview": "Preview",
+                "attribute_not_allowed": "Only data-*, class, id and style are kept. Anything else is discarded when this is saved.\n",
+                "label_override": "Disclosure label",
+                "label_override_placeholder": "Advertisement",
+                "label_override_help": "Replaces the wording shown above this creative. Some sponsors contract for specific disclosure text; leave it empty to use the forum's.\n",
+                "variant_group": "Variant group",
+                "variant_group_help": "A name shared by creatives that are variants of one another, so they can be told apart in a report.\n",
+                "name": "Name",
+                "type": "Type",
+                "weight": "Share",
+                "weight_help": "How often this creative is drawn compared with the others in the same tier.",
+                "status": "Status",
+                "status_help": "Editing an approved creative sends it back for review.",
+                "destination_url": "Destination",
+                "destination_url_help": "Where a click goes. Links carry rel=\"sponsored nofollow noopener\", which Google requires of paid placements.\n",
+                "asset": "Image URL",
+                "alt": "Alternative text",
+                "alt_help": "Leave empty unless the image carries information a reader would otherwise miss.",
+                "width": "Width",
+                "height": "Height",
+                "size_help": "Used to hold space open so the page does not jump when the image loads.",
+                "headline": "Headline",
+                "body": "Body",
+                "cta": "Call to action",
+                "placements": "Slots",
+                "placements_help": "Where this creative may appear. Only slots this forum actually renders are listed.",
+                "html": "HTML",
+                "html_help": "Runs inside a sandboxed frame, never in the page itself. It cannot read the forum, the reader's session, or anything else on the page. Only paste code you trust the source of.\n",
+                "frame_height": "Frame height",
+                "source": "Copy",
+                "source_help": "Formatted the same way a post on this forum is. Links get a sponsored rel automatically. Saving re-renders it.\n",
+                "logos": "Logos",
+                "logos_help": "One row per sponsor: image address, alt text, and where it links. Rows with no image are dropped on save.\n",
+                "logo_url": "Links to",
+                "add_logo": "Add a logo",
+                "remove_logo": "Remove this logo",
+                "columns": "Columns",
+                "columns_help": "How many logos sit side by side before the row wraps.",
+                "element": "Container element",
+                "element_help": "Whatever the network's snippet asks for. AdSense uses ins; most others use div.\n",
+                "attributes": "Attributes",
+                "attributes_help": "Copied from the network's own snippet, one per row. Only data-*, class, id and style are kept; anything else is dropped on save.\n",
+                "add_attribute": "Add an attribute",
+                "remove_attribute": "Remove this attribute",
+                "network_height_help": "Holds the space open while the network loads, so the page does not jump.\n",
+                "requires_consent": "Wait for consent",
+                "requires_consent_help": "Nothing is loaded until your forum's consent banner calls flarumPlacement.setConsent(true). Leave this on unless you have established the network needs no consent.\n",
+                "refresh_on_navigate": "Reload on every page change",
+                "refresh_on_navigate_help": "Off unless you have read your network's policy on re-requesting an advert the reader did not ask for. Flarum is a single-page application, so a route change would otherwise count as a new page view.\n",
+                "statuses": {
+                    "draft": "Draft",
+                    "pending": "Pending review",
+                    "approved": "Approved",
+                    "rejected": "Rejected"
+                }
+            },
+            "diagnose": {
+                "title": "Why is {name} not showing?",
+                "help": "Checked for you, in each slot this creative is assigned to, at this moment. Targeting depends on who is asking and scheduling on when, so \"would serve\" means it would serve to you, now.\n",
+                "on_dimension": "on {dimension}",
+                "reasons": {
+                    "eligible": "Would serve",
+                    "slot_unknown": "No extension declares this slot",
+                    "slot_disabled": "The slot is switched off",
+                    "not_assigned": "Not assigned to this slot",
+                    "type_not_accepted": "This slot does not accept this creative's type",
+                    "not_approved": "Waiting for review",
+                    "no_campaign": "It belongs to no campaign",
+                    "campaign_not_running": "Its campaign is a draft or archived",
+                    "not_in_plan": "Its campaign is not in the serving plan yet",
+                    "campaign_not_live": "Its campaign is outside its flight dates",
+                    "campaign_capped": "Its campaign has spent its cap",
+                    "outside_daypart": "Outside the campaign's scheduled hours",
+                    "targeted_out": "A targeting rule excluded you",
+                    "paced": "Held back by even pacing, which will serve it later",
+                    "unavailable": "Could not be checked"
+                }
+            },
+            "daypart": {
+                "label": "Schedule",
+                "help": "Drag across the grid to choose the hours this campaign may run. Leave it untouched to run at any hour.\n",
+                "always": "Every hour",
+                "office_hours": "Weekdays, 9 to 5",
+                "timezone_note": "Hours are the forum's, not the reader's. Set the forum's timezone below.",
+                "days": {
+                    "mon": "Mon",
+                    "tue": "Tue",
+                    "wed": "Wed",
+                    "thu": "Thu",
+                    "fri": "Fri",
+                    "sat": "Sat",
+                    "sun": "Sun"
+                }
+            },
+            "settings": {
+                "title": "Settings",
+                "group_serving": "Serving",
+                "group_serving_help": "How adverts are chosen and when.",
+                "group_retention": "Stored data",
+                "group_publisher": "Publisher files",
+                "group_publisher_help": "What networks and crawlers read from this forum.",
+                "timezone": "Forum timezone",
+                "timezone_help": "Which clock scheduled hours are read against.",
+                "retention_days": "Keep statistics for",
+                "retention_days_help": "Hourly detail older than this is deleted. Running totals are unaffected.",
+                "storage_empty": "Nothing has been recorded yet.",
+                "storage_summary": "{buckets} hourly buckets stored, going back to {since}.",
+                "storage_expiring": "{count} of them are older than {days} days and would go on the next prune.",
+                "storage_orphans": "{count} uploaded images are no longer referred to by any creative.",
+                "storage_prune_help": "Deleting is done by the scheduled task, not by this page. If the forum's scheduler has never run, nothing above will ever be removed however this field is set.\n",
+                "network_scripts": "Network loader scripts",
+                "network_scripts_help": "One URL per line, loaded asynchronously in the head, and only for readers who are actually being served adverts. Whether a particular network permits being loaded inside a single-page application is between you and that network.\n",
+                "ads_txt": "ads.txt",
+                "ads_txt_help": "Served at /ads.txt, where networks look to check who may sell this forum's inventory. Leave it empty and the path returns 404, which is what an unconfigured forum should do — an empty file would mean nobody is authorised.\n"
+            },
+            "rules": {
+                "label": "Targeting",
+                "add": "Add a rule",
+                "remove": "Remove this rule",
+                "help": "A campaign with no rules reaches everybody. Rules on different axes all have to match; rules on the same axis need only one to match; and an exclusion always wins.\n",
+                "operators": {
+                    "is": "is",
+                    "is_not": "is not",
+                    "gte": "at least",
+                    "lte": "at most"
+                }
+            },
+            "dimensions": {
+                "visitor": {
+                    "label": "Visitor",
+                    "guest": "Not signed in",
+                    "member": "Signed in"
+                },
+                "group": {
+                    "label": "Group"
+                },
+                "route": {
+                    "label": "Page",
+                    "names": {
+                        "index": "Discussion list",
+                        "posts": "All posts",
+                        "discussion": "A discussion",
+                        "user": "A profile",
+                        "tag": "A tag listing",
+                        "tags": "Tag directory",
+                        "settings": "Settings",
+                        "notifications": "Notifications",
+                        "logoutPage": "Sign out",
+                        "resetPassword": "Password reset",
+                        "confirmEmail": "Email confirmation"
+                    }
+                },
+                "discussion": {
+                    "label": "Discussion"
+                },
+                "tag": {
+                    "label": "Tag"
+                },
+                "locale": {
+                    "label": "Language"
+                },
+                "posts": {
+                    "label": "Posts written"
+                },
+                "account_age": {
+                    "label": "Days since joining"
+                }
+            },
+            "reports": {
+                "title": "Delivery",
+                "last_days": "Last {count} days",
+                "range_label": "Period",
+                "download": "Download CSV",
+                "retry": "Try again",
+                "ctr_help": "Clicks as a share of impressions. Not reported below a thousand impressions: one click on eight is not a twelve per cent rate.\n",
+                "none": "Nothing has been delivered yet.",
+                "unavailable": "Statistics could not be loaded.",
+                "impressions": "Impressions",
+                "viewable": "Viewable",
+                "viewable_help": "At least half the advert, on screen for a full second.",
+                "clicks": "Clicks",
+                "ctr": "Click-through",
+                "filtered": "Rejected",
+                "filtered_help": "Reports discarded as invalid. Shown so a drop can be explained.",
+                "by_placements": "By slot",
+                "by_creatives": "By creative",
+                "by_campaigns": "By campaign",
+                "by_devices": "By device",
+                "device": "Device",
+                "devices": {
+                    "phone": "Phone",
+                    "tablet": "Tablet",
+                    "desktop": "Desktop",
+                    "unknown": "Not reported"
+                },
+                "campaign": "Campaign",
+                "slot": "Slot",
+                "creative": "Creative"
+            },
+            "slots": {
+                "title": "Slots",
+                "configure": "Configure",
+                "load_failed": "The slot settings could not be loaded, so these are the defaults the code declares.",
+                "save_failed": "That change could not be saved.",
+                "done": "Done",
+                "summary_max_fill": "Up to {count}",
+                "group_delivery": "Delivery",
+                "group_fallback": "When nothing matched",
+                "group_reserve": "Reserved height",
+                "group_rotation": "Rotation",
+                "group_repeat": "Repeating",
+                "rotation": "Rotation",
+                "max_fill": "Creatives at once",
+                "fallback": "When nothing matched",
+                "fallback_next_tier": "Fall to the next tier",
+                "fallback_next_tier_help": "Try the next-most-important tier, and the one after that. A lower tier is still somebody paying.\n",
+                "fallback_house": "Fall to a house advert",
+                "fallback_house_help": "Skip the paid tiers entirely and show one of the forum's own adverts. For a slot sold to its top tier, where filling it with remnant would be worth less than not filling it.\n",
+                "fallback_passback": "Show a chosen advert",
+                "fallback_passback_help": "Show one nominated creative, held out of the draw until everything else has failed.\n",
+                "fallback_collapse": "Show nothing",
+                "fallback_collapse_help": "Leave the slot empty. A sponsorship position that quietly fills with filler is worth less than an empty one.\n",
+                "passback_creative": "Advert to fall back to",
+                "passback_none": "None chosen",
+                "passback_help": "Only approved creatives can be nominated: choosing one here is not a way around review.\n",
+                "label_mode": "Disclosure label",
+                "label_inherit": "Follow the forum default",
+                "label_always": "Always show",
+                "label_never": "Never show",
+                "reserve": "Reserved height",
+                "reserve_phone": "Phone",
+                "reserve_tablet": "Tablet",
+                "reserve_desktop": "Desktop",
+                "rotation_random": "Draw again on every page",
+                "rotation_sticky": "Keep the choice for the visit",
+                "every_n": "Show in every nth post",
+                "repeat_limit": "At most this many per page",
+                "help": "Every place this forum can show a creative. Slots are declared by the extensions that render them, so this list grows when you enable an extension that adds one.\n"
+            },
+            "placement_groups": {
+                "global": "Everywhere",
+                "page": "Every page",
+                "index": "Discussion list",
+                "discussion": "Discussions",
+                "user": "Profiles",
+                "tags": "Tags"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "campaign_stopped": {
+                    "impressions": "{campaign} has reached its impression cap and stopped.",
+                    "clicks": "{campaign} has reached its click cap and stopped.",
+                    "unnamed": "A campaign"
+                }
+            },
+            "submissions": {
+                "tab": "My adverts",
+                "help": "Adverts you have submitted. Somebody reads each one before it appears on the forum, and editing an advert sends it back to be read again.\n",
+                "unavailable": "This page is not available.",
+                "none": "You have not submitted an advert yet.",
+                "create": "Submit an advert",
+                "edit": "Edit",
+                "delete": "Delete",
+                "confirm_delete": "Delete this advert?",
+                "submit": "Submit for review",
+                "submit_help": "An advert goes to the forum's staff before it appears anywhere.",
+                "approved_note": "Approved. It will appear once the staff have chosen where to run it.",
+                "name": "Name",
+                "name_help": "For your own reference and the staff's. Readers never see it.",
+                "type": "Kind of advert",
+                "destination_url": "Where it links to",
+                "asset": "Image address",
+                "alt": "Alt text",
+                "alt_help": "Describes the image for somebody who cannot see it.",
+                "headline": "Headline",
+                "body": "Body",
+                "cta": "Call to action",
+                "source": "Copy",
+                "source_help": "Formatted the same way a post on this forum is.",
+                "statuses": {
+                    "draft": "Draft",
+                    "pending": "Waiting for review",
+                    "approved": "Approved",
+                    "rejected": "Not accepted"
+                }
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "Your advertiser record, the adverts you submitted, and how they did.\n",
+                "anonymize_description": "Your name, email address and report link are removed from the advertiser record. The adverts stay up and the delivery figures stay as they are, because they name nobody.\n",
+                "delete_description": "The advertiser record and every advert filed against it are deleted. Delivery figures are hourly totals that name nobody, so they remain.\n"
+            },
+            "creatives": {
+                "types": {
+                    "image": "Image",
+                    "text": "Text",
+                    "rich_text": "Formatted text",
+                    "logo_wall": "Logo wall",
+                    "raw_html": "HTML",
+                    "network": "Network container"
+                }
+            },
+            "placements": {
+                "notice": {
+                    "label": "Notice bar",
+                    "description": "Above the header on every page, in the strip Flarum uses for its own announcements. Stays put when the reader navigates."
+                },
+                "header": {
+                    "label": "Header",
+                    "description": "In the header's control bar, beside search and the user menu. Only wide enough for a small unit."
+                },
+                "footer": {
+                    "label": "Footer",
+                    "description": "The very bottom of every page, below all content."
+                },
+                "page_top": {
+                    "label": "Top of page",
+                    "description": "Below the hero, above the content, on every page including discussions and profiles."
+                },
+                "page_bottom": {
+                    "label": "Bottom of page",
+                    "description": "Below the content on every page."
+                },
+                "page_sidebar_top": {
+                    "label": "Sidebar, top",
+                    "description": "Above the sidebar navigation on every page that has a sidebar."
+                },
+                "page_sidebar_bottom": {
+                    "label": "Sidebar, bottom",
+                    "description": "Below the sidebar navigation on every page that has a sidebar."
+                },
+                "index_above_list": {
+                    "label": "Above the discussion list",
+                    "description": "Between the toolbar and the first discussion. Also appears on search results."
+                },
+                "index_below_list": {
+                    "label": "Below the discussion list",
+                    "description": "After the last discussion on the page."
+                },
+                "index_sidebar": {
+                    "label": "Discussion list sidebar",
+                    "description": "Under the navigation on the index, the posts page and the tag directory."
+                },
+                "discussion_after_op": {
+                    "label": "After the first post",
+                    "description": "Directly below the post that opened the discussion. The most valuable slot on a forum, because search traffic lands here."
+                },
+                "discussion_stream_end": {
+                    "label": "End of the discussion",
+                    "description": "After the last post, above the reply box. Only appears when the reader has reached the end."
+                },
+                "discussion_sidebar": {
+                    "label": "Discussion sidebar",
+                    "description": "Below the scrubber, in the sticky column beside the posts. Narrower than the other sidebars."
+                },
+                "post_footer": {
+                    "label": "Post footer",
+                    "description": "Inside the footer of every nth post. Counted by post number, so it stays put as more posts load."
+                },
+                "profile_sidebar": {
+                    "label": "Profile sidebar",
+                    "description": "Below the navigation on a member's profile."
+                },
+                "tags_page": {
+                    "label": "Tag directory",
+                    "description": "On the page listing all tags, between the tag tiles and the tag cloud."
+                }
+            },
+            "label": "Advertisement",
+            "demo_exit": "Leave demo mode",
+            "upload": "Upload",
+            "clear": "Clear",
+            "upload_failed": "The upload did not work. Try again, or paste an address instead."
+        }
+    }
+}

@@ -95,14 +95,6 @@
                 "view_private_discussions-when-flagged": "Ver discusiones privadas de otros usuarios si están reportados"
             },
             "settings": {
-                "general": {
-                    "heading": "Configuración general",
-                    "help": "Estas configuraciones controlan las funciones básicas del byobu."
-                },
-                "icon": {
-                    "heading": "Configuración de iconos",
-                    "help": "Estas configuraciones controlan los iconos que utiliza byobu en el foro."
-                },
                 "badge-icon": "Insignia de discusión de Byobu",
                 "enable-make-public-option": "Habilitar la capacidad de \"hacer público\"",
                 "enable-make-public-option-help": "Agrega la posibilidad para aquellos con permiso de eliminar todos los destinatarios, asignar una nueva etiqueta y hacer que la discusión sea visible públicamente (de acuerdo con la configuración de visibilidad de la etiqueta elegida).",
@@ -110,7 +102,15 @@
                 "delete_on_last_recipient_left": "Eliminar DP cuando el último usuario se va",
                 "delete_on_last_recipient_left_help": "Si se habilita esta opción, las DPs se eliminarán de forma permanente de la base de datos cuando el último usuario se vaya. De lo contrario, la DP se eliminará temporalmente o se ocultará.",
                 "hide_from_all_discussions_page": "Ocultar las DP de la página \"Todas las discusiones\"",
-                "hide_from_all_discussions_page_help": "Las discusiones privadas solo serán accesibles desde la página \"Discusiones privadas\" o el perfil del usuario"
+                "hide_from_all_discussions_page_help": "Las discusiones privadas solo serán accesibles desde la página \"Discusiones privadas\" o el perfil del usuario",
+                "general": {
+                    "heading": "Configuración general",
+                    "help": "Estas configuraciones controlan las funciones básicas del byobu."
+                },
+                "icon": {
+                    "heading": "Configuración de iconos",
+                    "help": "Estas configuraciones controlan los iconos que utiliza byobu en el foro."
+                }
             }
         },
         "email": {
@@ -131,13 +131,15 @@
         "lib": {
             "gambits": {
                 "byobu": {
-                    "key": "byobu"
+                    "key": "byobu",
+                    "hint": ""
                 },
                 "private": {
                     "key": "privada"
                 },
                 "allows-pd": {
-                    "key": "allows-pd"
+                    "key": "allows-pd",
+                    "hint": ""
                 }
             }
         }

@@ -62,7 +62,7 @@
                 },
                 "request": {
                     "title": "Αίτημα αλλαγής Username",
-                    "current_request": "Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.",
+                    "current_request": "",
                     "submit_button": "Υποβολή αιτήματος",
                     "delete_button": "Διαγραφή αιτήματος",
                     "confirmation_message": "Το αίτημά σας για αλλαγή του username υποβλήθηκε και εκκρεμεί έγκριση.",
@@ -105,6 +105,20 @@
             "subject": {
                 "approved": "",
                 "rejected": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
             }
         }
     }

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL Cacheya Giştî ya Bingehîn",
             "public_cache_ttl_help": "Diyar bikin ka divê di çirkeyan de, rûpelên giştî çiqas werin cache kirin. Nirxa xwerû 604800 çirke (hefteyek) e.",
             "clearing_cache_listener_label": "Dema ku Flarum Cache tê Paqijkirin LSCache paqij bike",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Pêşkêşkirina Naveroka Kevin",
             "serve_stale_help": "Ger çalak be, guhertoyek kevnar a rûpelek cache dê ji mêvanan re were pêşkêş kirin heya ku kopiyek cache ya nû were çêkirin. Ev barkirina serverê kêm dike. Ger neçalak be, rûpel dê di dema nûvekirina cache-ê de bi dînamîk were hilberandin, ku dibe ku demên bendê zêde bike. Ji hêla sêwiranê ve, ev vebijark dikare naverokek kevnar pêşkêşî bike. Ji kerema xwe vê yekê çalak nekin ger hûn vê yekê qebûl nakin.",
             "purge_on_discussion_update_label": "Li ser Nîqaş an Nûvekirina Postê URL-an an Etîketan paqij bikin",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": ""
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

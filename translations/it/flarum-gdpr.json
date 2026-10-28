@@ -184,6 +184,27 @@
                 "export-ready": "L'esportazione dei dati per {username} è pronta per il download."
             },
             "export_file": "Esporta dati per {username} ({email}) preparata il {date} da {forumTitle} ({url})"
+        },
+        "views": {
+            "confirm_erasure": {
+                "title": "",
+                "text": "",
+                "submit_button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "gdpr_erasure_requested": "",
+                    "gdpr_erasure_confirmed": "",
+                    "gdpr_erasure_cancelled": "",
+                    "gdpr_anonymized": "",
+                    "gdpr_deleted": "",
+                    "gdpr_exported": ""
+                }
+            }
         }
     }
 }

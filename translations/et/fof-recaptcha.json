@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Hangi oma Google reCAPTCHA kasutajaandmed <a>siit</a>.",
                 "secret_key_label": "Salavõti",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "reCAPTCHA kontroll ebaõnnestus.",
-        "recaptcha-unknown": "reCAPTCHA kinnitamisel tekkis tundmatu tõrge ({errors})."
+        "recaptcha-unknown": "reCAPTCHA kinnitamisel tekkis tundmatu tõrge ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

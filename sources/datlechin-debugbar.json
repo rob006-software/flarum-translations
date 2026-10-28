@@ -1,0 +1,213 @@
+{
+    "datlechin-debugbar": {
+        "lib": {
+            "expand": "Show debug bar",
+            "collapse": "Hide debug bar",
+            "resize": "Resize debug bar",
+            "empty": "Nothing recorded.",
+            "no_matches": "Nothing matches that.",
+            "blank": "empty",
+            "yes": "Yes",
+            "no": "No",
+            "filter_placeholder": "Filter…",
+            "tabs": {
+                "timeline": "Timeline",
+                "queries": "Queries",
+                "messages": "Messages",
+                "request": "Request",
+                "events": "Events",
+                "cache": "Cache",
+                "mail": "Mail",
+                "settings": "Settings",
+                "extensions": "Extensions",
+                "environment": "Environment"
+            },
+            "summary": {
+                "duration": "Time spent on the server",
+                "queries": "Database queries",
+                "memory": "Peak memory used",
+                "round_trip": "Round trip measured in the browser"
+            },
+            "errors": {
+                "expired": "This profile is no longer stored. Only the most recent requests are kept.",
+                "failed": "That profile could not be loaded.",
+                "no_data": "Nothing was recorded for this request."
+            },
+            "requests": {
+                "toggle": "Choose a request",
+                "none": "No request",
+                "document": "page load"
+            },
+            "timeline": {
+                "total": "Total",
+                "measures": "Spans",
+                "unfinished": "(unfinished)",
+                "empty": "Nothing was measured during this request.",
+                "spans": {
+                    "flarum": {
+                        "boot": "Boot",
+                        "request": "Middleware and route",
+                        "route": "Route handler"
+                    }
+                }
+            },
+            "queries": {
+                "count": "Queries",
+                "duration": "Total time",
+                "duplicates": "Duplicates",
+                "filter": "Filter statements…",
+                "preview": "With parameters",
+                "bindings": "Parameters",
+                "connection": "Connection",
+                "origin": "Called from",
+                "occurrences": "This exact statement ran {count} times during this request.",
+                "dropped": "{count} further statements were not recorded.",
+                "empty": "This request ran no queries."
+            },
+            "messages": {
+                "filter": "Filter messages…",
+                "show_trace": "Show trace",
+                "hide_trace": "Hide trace",
+                "empty": "Nothing was logged during this request.",
+                "levels": {
+                    "debug": "Debug",
+                    "info": "Info",
+                    "warning": "Warning",
+                    "error": "Error"
+                }
+            },
+            "request": {
+                "method": "Method",
+                "uri": "URI",
+                "status": "Status",
+                "route": "Route",
+                "handler": "Handler",
+                "internal": "Internal dispatch",
+                "user": "User",
+                "guest": "Guest",
+                "admin": "Administrator",
+                "groups": "Groups",
+                "authentication": "Authenticated by",
+                "sections": {
+                    "overview": "Overview",
+                    "actor": "Actor",
+                    "parameters": "Route parameters",
+                    "query": "Query string",
+                    "json_api": "JSON:API",
+                    "request_headers": "Request headers",
+                    "response_headers": "Response headers"
+                }
+            },
+            "events": {
+                "count": "Dispatched",
+                "listed": "Listed",
+                "filter": "Filter events…",
+                "dropped": "{count} further events were not recorded.",
+                "collapsed_title": "Counted, not listed",
+                "collapsed_help": "Model and database events fire hundreds of times per request. The Queries panel shows what the database ones were doing.",
+                "empty": "No events were dispatched during this request."
+            },
+            "cache": {
+                "hit_rate": "Hit rate",
+                "filter": "Filter keys…",
+                "dropped": "{count} further operations were not recorded.",
+                "empty": "This request did not touch the cache.",
+                "types": {
+                    "hit": "Hit",
+                    "miss": "Miss",
+                    "write": "Write",
+                    "forget": "Forget",
+                    "flush": "Flush"
+                }
+            },
+            "mail": {
+                "count": "Emails",
+                "show": "Show",
+                "hide": "Hide",
+                "empty": "This request did not send any mail.",
+                "statuses": {
+                    "sending": "Sending",
+                    "sent": "Sent"
+                },
+                "headers": {
+                    "from": "From",
+                    "to": "To",
+                    "cc": "Cc",
+                    "bcc": "Bcc",
+                    "reply_to": "Reply to"
+                }
+            },
+            "settings": {
+                "count": "Settings",
+                "groups": "Groups",
+                "filter": "Filter keys…",
+                "redacted": "This value is hidden because its key looks like a credential.",
+                "empty": "No settings are stored."
+            },
+            "extensions": {
+                "enabled": "Enabled",
+                "installed": "Installed",
+                "filter": "Filter extensions…",
+                "empty": "No extensions are installed.",
+                "columns": {
+                    "id": "Extension",
+                    "title": "Name",
+                    "version": "Version",
+                    "dependencies": "Depends on"
+                }
+            },
+            "environment": {
+                "empty": "Nothing to report.",
+                "groups": {
+                    "flarum": "Flarum",
+                    "php": "PHP",
+                    "drivers": "Drivers"
+                },
+                "keys": {
+                    "version": "Version",
+                    "url": "URL",
+                    "debug": "Debug mode",
+                    "maintenance": "Maintenance",
+                    "sapi": "Interface",
+                    "memory_limit": "Memory limit",
+                    "max_execution_time": "Max execution time",
+                    "opcache": "OPcache",
+                    "timezone": "Timezone",
+                    "database": "Database",
+                    "cache": "Cache",
+                    "queue": "Queue",
+                    "session": "Session",
+                    "mail": "Mail"
+                }
+            }
+        },
+        "admin": {
+            "debug_mode": {
+                "on": "Debug mode is on, so the debug bar is running. Administrators will see it at the bottom of every page.",
+                "off": "The debug bar only runs while debug mode is on. Set `'debug' => true` in config.php to enable it."
+            },
+            "max_profiles": {
+                "label": "Requests to keep",
+                "help": "How many recent requests stay available in the bar. Older ones are deleted as new ones arrive."
+            },
+            "trace_queries": {
+                "label": "Record where queries come from",
+                "help": "Shows the line of application code that ran each query. This is the most useful thing the queries panel shows, and the most expensive thing the debug bar does."
+            },
+            "open_by_default": {
+                "label": "Start expanded",
+                "help": "Open the bar to its last panel on every page, rather than collapsed to its handle."
+            },
+            "collectors": {
+                "label": "Panels",
+                "help": "Switch off anything you do not need. A panel that is off collects nothing at all, not even a listener, so it costs nothing."
+            },
+            "storage": {
+                "label": "Stored requests",
+                "help": "Profiles are written to storage/debugbar. They contain settings, SQL and request headers, so clear them before sharing a development site.",
+                "clear": "Delete stored requests",
+                "cleared": "Deleted {count} stored requests."
+            }
+        }
+    }
+}

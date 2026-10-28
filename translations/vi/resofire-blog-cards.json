@@ -1,35 +1,35 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "Trả lời: {count}",
+            "unreadReplies": "Trả lời chưa đọc: {count}",
+            "show_all_participants": "Hiển thị tất cả người tham gia",
+            "more_participants": "{count}+",
+            "modal_title": "{count} người tham gia",
+            "load_more": "Tải thêm"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": "",
-                "showParticipants_label": "",
-                "showParticipants_help": ""
+                "onIndexPage_label": "Dùng trên danh sách thảo luận",
+                "onIndexPage_help": "Nếu bật, trang danh sách thảo luận sẽ hiển thị dạng thẻ bài.",
+                "tagIds_label": "Giới hạn theo thẻ",
+                "tagIds_help": "Chọn các thẻ để hiển thị dạng thẻ bài. Nếu không chọn thẻ nào, thẻ bài sẽ xuất hiện trên tất cả các trang thẻ.",
+                "fullWidth_label": "Thẻ bài toàn chiều rộng",
+                "fullWidth_help": "Nếu bật, mỗi thẻ bài sẽ chiếm toàn bộ chiều rộng thay vì hai thẻ mỗi hàng.",
+                "showParticipants_label": "Hiển thị ảnh đại diện người tham gia",
+                "showParticipants_help": "Nếu bật, mỗi thẻ bài sẽ hiển thị dải ảnh đại diện của người tham gia ở phía dưới."
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "Công cụ",
+            "recalculate_help": "Tính toán lại ảnh đại diện người tham gia cho tất cả các thảo luận. Hãy chạy việc này sau khi cài đặt tiện ích mở rộng lần đầu trên một diễn đàn đã có sẵn, hoặc bất cứ khi nào bạn nghi ngờ dữ liệu xem trước không đồng bộ.",
+            "recalculate_button": "Tính lại người tham gia",
+            "recalculating_button": "Đang tính lại…",
+            "recalculate_success": "Hoàn tất. Đã tính lại {count} thảo luận trong {duration} giây.",
+            "recalculate_error": "Đã xảy ra lỗi. Vui lòng thử lại hoặc dùng lệnh CLI.",
+            "recalculate_modal_title": "Đang tính lại người tham gia",
+            "recalculate_modal_warning": "Không đóng cửa sổ này hoặc rời khỏi trang cho đến khi quá trình hoàn tất.",
+            "recalculate_modal_progress": "{processed} trên {total} thảo luận",
+            "recalculate_modal_complete": "Hoàn tất! Đã tính lại {total} thảo luận.",
+            "recalculate_modal_close": "Đóng"
         }
     }
 }

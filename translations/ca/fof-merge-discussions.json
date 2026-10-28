@@ -57,5 +57,15 @@
                 "subject": "El teu debat \"{merged_discussion_title}\" ha estat integrat en un altre debat"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

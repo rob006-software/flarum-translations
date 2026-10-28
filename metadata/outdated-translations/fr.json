@@ -1,10 +1,76 @@
 {
+    "acpl-mobile-tab": {
+        "acpl-mobile-tab.admin.active_items": "2026-09-20",
+        "acpl-mobile-tab.admin.edit_item.is_internal_checkbox": "2026-09-27",
+        "acpl-mobile-tab.lib.item.categories": "2026-06-28"
+    },
+    "datlechin-link-preview": {
+        "datlechin-link-preview.admin.sections.external_api_description": "2026-09-13",
+        "datlechin-link-preview.admin.sections.external_api_label": "2026-09-13",
+        "datlechin-link-preview.admin.sections.general_description": "2026-09-13",
+        "datlechin-link-preview.admin.sections.general_label": "2026-09-13",
+        "datlechin-link-preview.admin.sections.url_filtering_description": "2026-09-13",
+        "datlechin-link-preview.admin.sections.url_filtering_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.blacklist_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.blacklist_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.blacklist_placeholder": "2026-09-13",
+        "datlechin-link-preview.admin.settings.convert_media_urls_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.convert_media_urls_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.external_api_fallback_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.external_api_fallback_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.external_api_url_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.external_api_url_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.use_google_favicons_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.use_google_favicons_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_help": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_label": "2026-09-13",
+        "datlechin-link-preview.admin.settings.whitelist_placeholder": "2026-09-13",
+        "datlechin-link-preview.forum.site_cannot_be_reached": "2026-09-13"
+    },
+    "datlechin-mermaid": {
+        "datlechin-mermaid.admin.settings.description": "2026-07-19"
+    },
     "ekumanov-forum-widgets": {
         "ekumanov-forum-widgets.admin.settings.max_online_users": "2026-05-10",
         "ekumanov-forum-widgets.admin.settings.max_online_users_help": "2026-05-10",
         "ekumanov-forum-widgets.admin.settings.max_online_users_privileged": "2026-05-10",
         "ekumanov-forum-widgets.admin.settings.max_online_users_privileged_help": "2026-05-10",
         "ekumanov-forum-widgets.admin.settings.section_display": "2026-04-05"
+    },
+    "ernestdefoe-gatehouse": {
+        "ernestdefoe-gatehouse.admin.queue.answer": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.approve": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.approved_by": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.decline": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.declined_by": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.empty_approved": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.empty_declined": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.empty_pending": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.signed_up": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.tab_approved": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.tab_declined": "2026-10-25",
+        "ernestdefoe-gatehouse.admin.queue.tab_pending": "2026-10-25"
+    },
+    "flarum-audit": {
+        "flarum-audit.lib.browser.discussion.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.merged_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_away": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.split_into": "2026-07-12",
+        "flarum-audit.lib.browser.discussion.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.banned": "2026-07-12",
+        "flarum-audit.lib.browser.fof_ban_ips.unbanned": "2026-07-12",
+        "flarum-audit.lib.browser.post.create_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.edit_date_changed": "2026-07-12",
+        "flarum-audit.lib.browser.post.user_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.bio_changed": "2026-07-12",
+        "flarum-audit.lib.browser.user.impersonated": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.nickname_requested": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_approved": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_request_rejected": "2026-07-12",
+        "flarum-audit.lib.browser.user.username_requested": "2026-07-12"
     },
     "flarum-extension-manager": {
         "flarum-extension-manager.admin.sections.discover.extension.badges.compatible": "2026-03-29",
@@ -20,6 +86,88 @@
     },
     "flarum-gdpr": {
         "flarum-gdpr.admin.gdpr_page.user_table_data.not_yet_implemented": "2026-03-29"
+    },
+    "fof-anti-spam": {
+        "fof-anti-spam.admin.settings.button": "2026-10-25",
+        "fof-anti-spam.admin.settings.content-filter.system_user_id_help": "2026-10-25",
+        "fof-anti-spam.admin.settings.content-filter.system_user_id_label": "2026-10-25",
+        "fof-anti-spam.admin.settings.stopforumspam.registration_throttle_help": "2026-10-25",
+        "fof-anti-spam.admin.settings.stopforumspam.registration_throttle_label": "2026-10-25"
+    },
+    "fof-best-answer": {
+        "fof-best-answer.admin.edit_tag.qna_label": "2026-10-18",
+        "fof-best-answer.admin.edit_tag.reminders": "2026-10-18",
+        "fof-best-answer.admin.settings.label.advanced": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server": "2026-10-18",
+        "fof-best-answer.admin.settings.schedule_on_one_server_help": "2026-10-18",
+        "fof-best-answer.forum.index.solved_link": "2026-10-18",
+        "fof-best-answer.forum.index.unsolved_link": "2026-10-18"
+    },
+    "fof-byobu": {
+        "fof-byobu.admin.settings.general.heading": "2026-08-02",
+        "fof-byobu.admin.settings.general.help": "2026-08-02",
+        "fof-byobu.admin.settings.icon.heading": "2026-08-02",
+        "fof-byobu.admin.settings.icon.help": "2026-08-02"
+    },
+    "fof-geoip": {
+        "fof-geoip.forum.alerts.ip_copied": "2026-06-14",
+        "fof-geoip.forum.copy_ip_label": "2026-06-14",
+        "fof-geoip.forum.map_button_label": "2026-06-14",
+        "fof-geoip.forum.map_modal.as": "2026-06-14",
+        "fof-geoip.forum.map_modal.country_code": "2026-06-14",
+        "fof-geoip.forum.map_modal.error": "2026-06-14",
+        "fof-geoip.forum.map_modal.ip_address": "2026-06-14",
+        "fof-geoip.forum.map_modal.isp": "2026-06-14",
+        "fof-geoip.forum.map_modal.mobile": "2026-06-14",
+        "fof-geoip.forum.map_modal.not_enough_data": "2026-06-14",
+        "fof-geoip.forum.map_modal.organization": "2026-06-14",
+        "fof-geoip.forum.map_modal.threat_level": "2026-06-14",
+        "fof-geoip.forum.map_modal.threat_types": "2026-06-14",
+        "fof-geoip.forum.map_modal.title": "2026-06-14",
+        "fof-geoip.forum.map_modal.zip_code": "2026-06-14",
+        "fof-geoip.lib.map_modal.country_code": "2026-09-20"
+    },
+    "fof-horizon": {
+        "fof-horizon.admin.stats.data.blocked-clients": "2026-10-11",
+        "fof-horizon.admin.stats.data.connected-clients": "2026-10-11",
+        "fof-horizon.admin.stats.data.eviction-policy": "2026-10-11",
+        "fof-horizon.admin.stats.data.failed-last-seconds": "2026-08-30",
+        "fof-horizon.admin.stats.data.failure-rate": "2026-08-30",
+        "fof-horizon.admin.stats.data.jobs-past-hour": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-runtime": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-throughput": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-wait-queue": "2026-08-30",
+        "fof-horizon.admin.stats.data.max-wait-time": "2026-08-30",
+        "fof-horizon.admin.stats.data.memory-max": "2026-10-11",
+        "fof-horizon.admin.stats.data.memory-peak": "2026-10-11",
+        "fof-horizon.admin.stats.data.memory-used": "2026-10-11",
+        "fof-horizon.admin.stats.data.ops-per-sec": "2026-10-11",
+        "fof-horizon.admin.stats.data.redis-blocked-clients": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-connected-clients": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-max-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-policy": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-policy-tooltip": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-memory-usage": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-ops-per-sec": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-peak-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.redis-used-memory": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.inactive": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.label": "2026-08-30",
+        "fof-horizon.admin.stats.data.status.running": "2026-08-30",
+        "fof-horizon.admin.stats.data.success-rate": "2026-08-30",
+        "fof-horizon.admin.stats.data.total-processes": "2026-08-30",
+        "fof-horizon.admin.stats.eviction_policy_tooltip": "2026-10-11",
+        "fof-horizon.admin.stats.eviction_pressure": "2026-10-11",
+        "fof-horizon.admin.stats.eviction_warning": "2026-10-11",
+        "fof-horizon.admin.stats.heading": "2026-08-30",
+        "fof-horizon.admin.stats.health.tooltip": "2026-08-30",
+        "fof-horizon.admin.stats.kv_heading": "2026-10-11",
+        "fof-horizon.admin.stats.last_refresh": "2026-08-30"
+    },
+    "fof-links": {
+        "fof-links.admin.edit_link.internal_link": "2026-09-20",
+        "fof-links.admin.edit_link.url_description": "2026-09-20",
+        "fof-links.admin.edit_link.url_placeholder": "2026-09-20"
     },
     "fof-masquerade": {
         "fof-masquerade.admin.fields.add": "2026-04-12",
@@ -42,10 +190,23 @@
         "fof-oauth.forum.providers.twitter": "2026-03-22",
         "fof-oauth.lib.providers.twitter": "2026-03-22"
     },
+    "fof-pwa": {
+        "fof-pwa.admin.pwa.other.force_portrait_text": "2026-10-18"
+    },
     "fof-reactions": {
         "fof-reactions.admin.page.settings.save_settings": "2026-03-29"
     },
+    "fof-upload": {
+        "fof-upload.admin.help_texts.s3_compatible_storage": "2026-08-16",
+        "fof-upload.admin.labels.preferences.php_ini_values": "2026-08-16",
+        "fof-upload.admin.labels.preferences.title": "2026-08-16"
+    },
+    "fof-user-directory": {
+        "fof-user-directory.lib.sort.least_posts": "2026-08-16",
+        "fof-user-directory.lib.sort.most_posts": "2026-08-16"
+    },
     "forumaker-magicbb": {
+        "forumaker-magicbb.admin.settings.bb_video": "2026-07-26",
         "forumaker-magicbb.forum.hide.like_link_fallback": "2026-05-24",
         "forumaker-magicbb.forum.hide.like_to_see": "2026-05-24",
         "forumaker-magicbb.forum.hide.login_to_see": "2026-05-24",
@@ -109,8 +270,21 @@
         "linkrobins-support.admin.appeal_bans.search_placeholder": "2026-05-31",
         "linkrobins-support.admin.appeal_bans.search_results_heading": "2026-05-31",
         "linkrobins-support.admin.appeal_bans.unban_button": "2026-05-31",
+        "linkrobins-support.admin.category_editor.field_is_appeal": "2026-10-18",
+        "linkrobins-support.admin.category_editor.field_is_appeal_help": "2026-10-18",
         "linkrobins-support.admin.category_editor.saving": "2026-05-31",
         "linkrobins-support.admin.settings.description": "2026-05-31",
-        "linkrobins-support.admin.settings.title": "2026-05-31"
+        "linkrobins-support.admin.settings.title": "2026-05-31",
+        "linkrobins-support.forum.action.claim": "2026-10-04",
+        "linkrobins-support.forum.action.unassign": "2026-10-04",
+        "linkrobins-support.forum.show.assigned_to": "2026-10-04",
+        "linkrobins-support.forum.show.closed_badge": "2026-10-04",
+        "linkrobins-support.forum.show.opened_by": "2026-10-04",
+        "linkrobins-support.forum.staff.set_decision": "2026-10-04",
+        "linkrobins-support.forum.staff.set_status": "2026-10-04"
+    },
+    "pianotell-flamoji": {
+        "pianotell-flamoji.admin.settings.prepopulate_recents_label": "2026-06-28",
+        "pianotell-flamoji.admin.settings.prepopulate_recents_text": "2026-06-28"
     }
 }

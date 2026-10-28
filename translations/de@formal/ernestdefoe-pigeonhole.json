@@ -1,0 +1,60 @@
+{
+    "ernestdefoe-pigeonhole": {
+        "api": {
+            "too_many_folders": "Du kannst bis zu {count} Ordner haben.",
+            "unknown_folder": "Dieser Ordner ist nicht vorhanden.",
+            "invalid_order": "Die Reihenfolge der Ordner konnte nicht gelesen werden."
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "Die Nachrichtenordner der Mitglieder: Namen, Farben und Symbole.",
+                "anonymize_description": "Löscht die Nachrichtenordner von Mitgliedern.",
+                "delete_description": "Löscht die Nachrichtenordner von Mitgliedern."
+            }
+        },
+        "forum": {
+            "nav": {
+                "folders": "Ordner",
+                "all": "Alle",
+                "archive": "Archiv",
+                "more": "Alle Ordner anzeigen",
+                "fewer": "Weniger Ordner anzeigen",
+                "manage_folders": "Ordner verwalten",
+                "new_folder": "Neuer Ordner",
+                "unread_count": "{count} ungelesen"
+            },
+            "dialog": {
+                "move_to": "In Ordner verschieben",
+                "remove_from_folder": "Aus Ordner entfernen",
+                "archive": "Archivieren",
+                "unarchive": "Aus dem Archiv herausholen",
+                "archived_alert": "Die Unterhaltung wurde archiviert. Sie wird wieder angezeigt, sobald eine neue Nachricht eingeht.",
+                "in_folder": "In {folder}"
+            },
+            "list": {
+                "folder_empty": "Dieser Ordner ist noch leer. Öffne eine Unterhaltung und wähle im ⋯-Menü die Option „In Ordner verschieben“ aus oder ziehe eine Unterhaltung auf diesen Ordner.",
+                "archive_empty": "Es wurde noch nichts archiviert. Eine archivierte Unterhaltung bleibt hier, bis jemand wieder etwas darin schreibt."
+            },
+            "manage": {
+                "title": "Ordnerverwaltung",
+                "empty": "Noch keine Ordner. Die Ordner gehören ausschließlich dir: Niemand sonst kann sie sehen, und die anderen Teilnehmer einer Unterhaltung behalten ihre eigene Ansicht bei.",
+                "new_button": "Neuer Ordner",
+                "edit_button": "Bearbeiten",
+                "delete_button": "Löschen",
+                "delete_confirm": "Den Ordner „{name}“ löschen? Die darin enthaltenen Unterhaltungen werden wieder in deine Nachrichten verschoben.",
+                "drag_handle": "Zum Neuanordnen ziehen",
+                "count": "{count, plural, one {# Unterhaltung} other {# Unterhaltungen}}"
+            },
+            "edit": {
+                "new_title": "Neuer Ordner",
+                "edit_title": "Ordner bearbeiten",
+                "name_label": "Name",
+                "color_label": "Farbe",
+                "icon_label": "Symbol",
+                "icon_help": "Ein Font Awesome-Symbol, wie etwa fas fa-briefcase.",
+                "no_color": "Keine",
+                "save_button": "Speichern"
+            }
+        }
+    }
+}

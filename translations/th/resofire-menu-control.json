@@ -2,26 +2,26 @@
     "resofire-menu-control": {
         "admin": {
             "nav_order": {
-                "title": "",
-                "description": "",
-                "save_button": "",
-                "save_success": "",
-                "no_items": "",
-                "move_up": "",
-                "icon_input_title": "",
-                "highlight_color_label": "",
-                "highlight_color_help": "",
-                "remove_item": "",
-                "add_custom_link": "",
-                "custom_link_label": "",
-                "polls_note": "",
-                "add_highlight": "",
-                "remove_highlight": "",
-                "move_down": "",
-                "flip_label": "",
-                "flip_help": "",
-                "sticky_label": "",
-                "sticky_help": ""
+                "title": "Menu Item Order",
+                "description": "ใช้ปุ่มลูกศรเพื่อจัดลำดับใหม่รายการนำทาง sidebar บนหน้า forum index การเปลี่ยนแปลงจะมีผลทันทีหลังจากบันทึก",
+                "save_button": "บันทึก Order",
+                "save_success": "บันทึกลำดับการนำทางเรียบร้อยแล้ว",
+                "no_items": "ยังไม่พบรายการนำทาง ไปที่หน้า forum index เป็น admin ก่อนเพื่อเติมรายการนี้",
+                "move_up": "ย้ายขึ้น",
+                "icon_input_title": "Font Awesome icon class แบบกำหนดเอง (เช่น fas fa-bolt) ปล่อยไว้ว่างเพื่อใช้ค่าเริ่มต้น",
+                "highlight_color_label": "สีเน้น",
+                "highlight_color_help": "สีพื้นหลังสำหรับรายการ nav ที่เน้น ปล่อยไว้ว่างเพื่อใช้สีธีมเริ่มต้น",
+                "remove_item": "ลบออกจากรายการ",
+                "add_custom_link": "เพิ่มลิงค์แบบกำหนดเอง",
+                "custom_link_label": "ป้ายชื่อลิงค์",
+                "polls_note": "หมายเหตุ: หาก fof/polls ติดตั้ง รายการเช่น fof-polls-showcase อาจปรากฏในรายการนี้แม้ว่า global polls จะปิดใช้งาน ใช้ปุ่ม × เพื่อลบออกอย่างถาวร",
+                "add_highlight": "เน้นรายการนี้สำหรับผู้ใช้",
+                "remove_highlight": "ลบการเน้น",
+                "move_down": "ย้ายลง",
+                "flip_label": "พลิกการนำทาง (แสดง tags เหนือรายการเมนู)",
+                "flip_help": "เมื่อเปิดใช้งาน ลิงค์ tag จะปรากฏที่ด้านบนของ sidebar และรายการนำทาง (All Discussions Following เป็นต้น) ปรากฏด้านล่าง",
+                "sticky_label": "Sticky sidebar (sidebar ยังคงมองเห็นได้ขณะเลื่อน)",
+                "sticky_help": "เมื่อเปิดใช้งาน sidebar รวมถึงปุ่ม Start a Discussion จะยังคงอยู่ที่ด้านบนของ viewport ขณะที่คุณเลื่อนลง"
             }
         }
     }

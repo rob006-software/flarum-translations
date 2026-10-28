@@ -9,9 +9,8 @@
             "settings": {
                 "label": {
                     "tags": "",
-                    "general": "",
+                    "general": "عمومی",
                     "reminders": "",
-                    "advanced": "",
                     "reminders_notice": ""
                 },
                 "show_max_lines_label": "",
@@ -20,11 +19,10 @@
                 "select_best_answer_reminder_days_help": "",
                 "select_best_answer_tags_label": "",
                 "select_best_answer_tags_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "",
                 "schedule_stop_overnight_help": "",
                 "schedule_log_output": "",
+                "schedule_log_output_help": "",
                 "show_filter_label": "",
                 "show_filter_help": "",
                 "use_alt_ui": "",
@@ -37,10 +35,6 @@
                 "tags_info": "",
                 "discussion_sidebar_jump_button": "",
                 "discussion_sidebar_jump_button_help": ""
-            },
-            "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
             }
         },
         "forum": {
@@ -64,9 +58,11 @@
             },
             "index": {
                 "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "cannot_ask_question": ""
+            },
+            "deck": {
+                "best_answers": "",
+                "unsolved_questions": ""
             },
             "filter": {
                 "all_label": "",
@@ -100,6 +96,12 @@
             "gambits": {
                 "solved-discussions": {
                     "key": ""
+                },
+                "qna": {
+                    "key": ""
+                },
+                "solution": {
+                    "key": ""
                 }
             }
         }
@@ -109,6 +111,16 @@
             "sort": {
                 "most_best_answers": "",
                 "least_best_answers": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "",
+                    "best_answer_unset": ""
+                }
             }
         }
     }

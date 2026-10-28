@@ -2,7 +2,7 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "Teile Beiträge von Diskussionen auf"
+                "split_discussion_label": "Beiträge von Diskussionen aufteilen"
             }
         },
         "forum": {
@@ -19,6 +19,22 @@
                 "title": "Diskussion aufteilen",
                 "new_discussion_label": "Lege den Titel für die neue Diskussion fest",
                 "submit_button": "Aufteilen"
+            }
+        },
+        "api": {
+            "errors": {
+                "first_post": "Der Eröffnungsbeitrag einer Diskussion kann nicht abgetrennt werden.",
+                "end_before_start": "Die Aufteilung muss an dem Beitrag enden, an dem sie beginnt, oder danach."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "Hat {post_count} Beiträge von {discussion} in {new_discussion} aufgeteilt",
+                    "split_into": "Hat {post_count} Beiträge in neue Diskussion {discussion} aufgeteilt"
+                }
             }
         }
     }

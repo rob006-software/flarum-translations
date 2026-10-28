@@ -6,17 +6,69 @@
                 "view_birthday_label": "Melihat hari ulang tahun"
             },
             "settings": {
+                "min_age_help": "Usia minimum saat pendaftaran",
+                "min_age_label": "Usia minimum",
+                "sign_up_help": "",
+                "sign_up_label": "",
+                "sign_up_options": {
+                    "off": "",
+                    "optional": "",
+                    "required": ""
+                },
                 "set_on_registration_label": "Izinkan pengaturan hari ulang tahun saat pendaftaran",
                 "required_label": "Tanggal lahir harus diisi",
                 "required_help": "Anda perlu mengaktifkan opsi \"pengaturan hari ulang tahun saat pendaftaran\" untuk membuat opsi ini berfungsi",
-                "min_age_label": "Usia minimum",
-                "min_age_help": "Usia minimum saat pendaftaran",
                 "date_format_label": "Format tanggal",
                 "date_format_help": "Gunakan format tanggal <a>dayjs</a>. Biarkan kosong untuk menggunakan format default.",
                 "date_none_year_label": "Format tanggal tanpa tahun"
+            },
+            "users": {
+                "birthday_column": "",
+                "no_birthday": ""
             }
         },
         "forum": {
+            "badge": {
+                "birthday_tooltip": ""
+            },
+            "change_birthday": {
+                "submit_button": "",
+                "title": ""
+            },
+            "nav": {
+                "birthdays_link": "",
+                "nav_item": "Hari ini Ulang Tahun"
+            },
+            "notifications": {
+                "birthday_text": ""
+            },
+            "page": {
+                "empty_text": "",
+                "load_more_button": "",
+                "title": "",
+                "today_heading": "",
+                "tomorrow_heading": "",
+                "turns_text": "",
+                "discussion_count": "{count, plural, one {Diskusi: #} other {Diskusi: #}}",
+                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
+            },
+            "settings": {
+                "add_birthday_button": "",
+                "change_birthday_button": "",
+                "notify_birthday_label": "",
+                "show_age_label": "",
+                "show_birthday_label": "",
+                "change_dob_label": "Ganti Tanggal Lahir",
+                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
+                "show_dob_date_label": "Tampilkan hari dan bulan kelahiran",
+                "show_dob_year_label": "Tampilkan tahun kelahiran",
+                "show_dob_year_help": "Hal ini akan memungkinkan orang melihat usia Anda."
+            },
+            "user_card": {
+                "age_text": "",
+                "birthday_and_age_text": "",
+                "birthday_text": ""
+            },
             "user": {
                 "birthday_text": "Ulang tahun: {date}",
                 "age_text": "Usia: {age}"
@@ -26,28 +78,24 @@
                 "date_of_birth_text": "=> datlechin-birthdays.ref.date_of_birth",
                 "submit_button": "=> core.ref.save_changes"
             },
-            "settings": {
-                "change_dob_label": "Ganti Tanggal Lahir",
-                "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
-                "show_dob_date_label": "Tampilkan hari dan bulan kelahiran",
-                "show_dob_year_label": "Tampilkan tahun kelahiran",
-                "show_dob_year_help": "Hal ini akan memungkinkan orang melihat usia Anda."
-            },
             "edit_user": {
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth"
-            },
-            "nav": {
-                "nav_item": "Hari ini Ulang Tahun"
-            },
-            "page": {
-                "discussion_count": "{count, plural, one {Diskusi: #} other {Diskusi: #}}",
-                "post_count": "{count, plural, one {Post: #} other {Post: #}}"
             }
         },
         "api": {
+            "future_birthday_message": "",
+            "invalid_birthday_filter_message": "",
+            "min_age_message": "",
             "invalid_dob_message": "Tanggal lahir tidak valid",
-            "invalid_age_message": "Anda harus berusia minimal {minAge} tahun.",
-            "birthday_required_message": ""
+            "invalid_age_message": "Anda harus berusia minimal {minAge} tahun."
+        },
+        "lib": {
+            "birthday_label": "",
+            "datetime_formats": {
+                "birthday": "",
+                "birthdayWithYear": "",
+                "day": ""
+            }
         },
         "ref": {
             "date_of_birth": "Tanggal Lahir"

@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "Vaikimisi avalik vahemälu TTL",
             "public_cache_ttl_help": "",
             "clearing_cache_listener_label": "",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Edasta seismajäänud sisu",
             "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Tühjenda LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

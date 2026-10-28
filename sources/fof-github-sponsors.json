@@ -7,13 +7,61 @@
             },
             "settings": {
                 "api_token_label": "API Token",
-                "api_token_help": "Create a personal access token at <a>https://github.com/settings/tokens/new</a> with the <code>user</code> and <code>read:org</code> scopes. This token is used to fetch your sponsor information from GitHub.",
+                "api_token_help": "Create a personal access token at <a>https://github.com/settings/tokens/new</a> with the <code>read:user</code>, <code>user:email</code> and <code>read:org</code> scopes. This token is used to fetch your sponsor information from GitHub.",
                 "account_type_label": "Account Type",
                 "account_type_help": "Select whether you're tracking sponsors for a personal GitHub user account or an organization account.",
                 "login_label": "Login",
                 "login_help": "Enter your GitHub username (for user accounts) or organization name (for organizations). This is the account whose sponsors will be synchronized.",
-                "group_label": "Group to Assign",
-                "group_help": "Select which Flarum user group sponsors should be added to. Users will be automatically added when they become sponsors and removed when they stop sponsoring."
+                "group_label": "Monthly Sponsors Group",
+                "group_help": "Select which Flarum user group active monthly sponsors should be added to. Users are added when they start sponsoring monthly, and moved to the one-time group (if configured) when their monthly sponsorship ends.",
+                "onetime_group_label": "One-Time and Past Sponsors Group (Optional)",
+                "onetime_group_help": "Select which Flarum user group one-time sponsors and past monthly sponsors should be added to. If not set, they are not managed.",
+                "onetime_group_none": "None"
+            },
+            "status": {
+                "heading": "Sync status",
+                "never_run": "The sync has not run yet. It runs hourly through Flarum's scheduler, so check that the scheduler is set up.",
+                "last_success": "Last sync {time}: {sponsors} sponsors, {changes} changes.",
+                "last_failure": "Last sync {time} failed: {reason}",
+                "stale": "The last sync was more than two hours ago. Check that Flarum's scheduler is running.",
+                "test_button": "Test connection",
+                "test_success": "Connected to {maintainer} as {account}. {sponsorships} public sponsorships found.",
+                "request_failed": "The connection test could not be run.",
+                "reasons": {
+                    "unauthorized": "GitHub rejected the token. It may have expired or been revoked.",
+                    "forbidden": "The token is missing a required scope. It needs \"read:user\", \"user:email\" and \"read:org\".",
+                    "not_found": "GitHub user or organization not found. Check the account type and login.",
+                    "rate_limited": "GitHub's rate limit was reached. The next sync will try again.",
+                    "network": "Could not reach GitHub.",
+                    "configuration": "The token, account type, login or group settings are incomplete.",
+                    "no_sponsors": "GitHub returned no sponsors, so nothing was changed. Run the sync with --force if this is correct.",
+                    "other": "GitHub returned an unexpected response."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_github_sponsors": {
+                    "recurring_started": "{username} became a monthly sponsor on GitHub. Groups: {old_groups} → {new_groups}",
+                    "recurring_stopped": "{username}'s monthly GitHub sponsorship stopped. Groups: {old_groups} → {new_groups}",
+                    "onetime_started": "{username} became a one-time sponsor on GitHub. Groups: {old_groups} → {new_groups}",
+                    "sponsorship_ended": "{username} is no longer a GitHub sponsor. Groups: {old_groups} → {new_groups}",
+                    "groups_changed": "GitHub Sponsors sync changed {username}'s groups from {old_groups} to {new_groups}",
+                    "membership_adopted": "GitHub Sponsors sync took over {username}'s membership of {new_groups}"
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "githubsponsor": {
+                    "export_description": "Exports the member's GitHub sponsor status, when it last changed, and the groups the sync manages for them.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.githubsponsor.delete_description",
+                    "delete_description": "Deletes the member's GitHub sponsor record, so the sync forgets them without announcing the end of their sponsorship."
+                }
             }
         }
     }

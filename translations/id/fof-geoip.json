@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "Gunakan <b>https://7x.ax</b> untuk mendapatkan kunci API gratis hingga 20 request per menit. Paket berbayar untuk batas penggunaan yang lebih tinggi juga tersedia.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "Gunakan <b>https://ipinfo.io</b> untuk mengambil informasi IP tanpa batasan kecepatan atau pembatasan apa pun. Registrasi diperlukan untuk mendapatkan API key gratis.",
+                "service_maxmind_label": "",
+                "service_maxmind_description": "",
+                "service_forced": "",
+                "service_unavailable": "",
                 "access_key_label": "Kunci Akses",
                 "quota_label": "Kuota pencarian",
+                "databases_heading": "",
+                "databases_help": "",
+                "database_country_label": "",
+                "database_city_label": "",
+                "database_asn_label": "",
+                "database_built": "",
+                "database_stale": "",
+                "database_not_configured": "",
+                "setting_pinned": "",
                 "show_flag_label": "Tampilkan bendera negara di setiap post",
                 "show_flag_help": "Tanpa mengungkapkan alamat IP, tampilkan bendera negara dari alamat IP penulis post, ketika pengguna memilih melalui preferensi mereka.",
+                "allow_custom_flag_label": "",
+                "allow_custom_flag_help": "",
                 "test": {
                     "heading": "Konfigurasi Layanan Pengujian",
                     "help": "Uji konfigurasi layanan pencarian alamat IP Anda dengan alamat IP contoh. Pastikan untuk menyimpan pengaturan Anda terlebih dahulu sebelum melakukan pengujian."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Waktu Respons:",
                 "test_timestamp_label": "Stempel Waktu:",
                 "test_http_status_code_label": "Kode Status HTTP:",
+                "test_databases_label": "",
                 "test_error_details_label": "Rincian Error:",
+                "test_notice_label": "",
                 "test_processed_service_response_label": "Respons Layanan yang Diproses:",
                 "status_success": "✓ Berhasil",
                 "status_error": "✗ Error",
@@ -59,7 +76,42 @@
                 "error_code_prefix": "Kode:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": ""
+            },
+            "copy_ip_label": "",
+            "map_button_label": "",
+            "map_modal": {
+                "title": "",
+                "ip_address": "",
+                "country": "",
+                "city": "",
+                "region": "",
+                "zip_code": "",
+                "isp": "",
+                "as": "",
+                "mobile": "",
+                "organization": "",
+                "threat_level": "",
+                "threat_types": "",
+                "error": "",
+                "not_enough_data": "",
+                "dbip_attribution": ""
+            },
+            "custom_flag": {
+                "none": "",
+                "placeholder": ""
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya",
+                    "custom_flag_label": "",
+                    "custom_flag_help": ""
+                }
+            },
             "alerts": {
                 "ip_copied": "Alamat IP Yang Disalin"
             },
@@ -78,11 +130,6 @@
                 "threat_types": "Jenis Ancaman",
                 "error": "Error",
                 "not_enough_data": "Data tidak cukup untuk menggambar peta"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya"
-                }
             }
         }
     },

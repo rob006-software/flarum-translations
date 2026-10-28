@@ -28,8 +28,18 @@
             "gambits": {
                 "discussions": {
                     "locked": {
-                        "key": ""
+                        "key": "zamknięte"
                     }
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "locked": "Zamknięto dyskusję {discussion}",
+                    "unlocked": "Otworzono dyskusję {discussion}"
                 }
             }
         }

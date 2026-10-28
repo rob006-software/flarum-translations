@@ -1,0 +1,152 @@
+{
+    "flarum-audit": {
+        "admin": {
+            "permissions": {
+                "view": "Visa granskningslogg",
+                "viewLimited": "Visa begränsad granskningslogg"
+            },
+            "header": {
+                "title": "Granska"
+            },
+            "limitedSettings": {
+                "configure": "Konfigurera",
+                "title": "Inställningar för begränsad åtkomst",
+                "introduction": "Konfigurera vad användare med begränsade åtkomstbehörigheter kan se",
+                "requiresExtension": "Kräver tillägget {extension}"
+            },
+            "settings": {
+                "limitedIpAddress": "Visa IP-adress"
+            }
+        },
+        "forum": {
+            "link": {
+                "all-audit": "Granskningslogg",
+                "discussion-audit": "Granskningslogg",
+                "user-audit": "Granskningslogg (kontoredigeringar)",
+                "actor-audit": "Granskningslogg (användare som aktör)"
+            },
+            "modal": {
+                "all-title": "Granskningslogg",
+                "discussion-title": "Granskningslogg för diskussioner",
+                "user-title": "Granskningslogg för användare",
+                "actor-title": "Granskningslogg för aktör"
+            }
+        },
+        "lib": {
+            "browser": {
+                "filterPlaceholder": "Filtrera loggar",
+                "filterApply": "Tillämpa",
+                "filterClear": "Rensa filter",
+                "refresh": "Uppdatera",
+                "filtersHint": "Filter:",
+                "filters": {
+                    "actor": "Vem utförde åtgärden. Använd actor:guest för systemåtgärder eller åtgärder utförda av oautentiserade användare.",
+                    "user": "Användaren som påverkades av åtgärden, efter användarnamn.",
+                    "action": "Typen av åtgärd, t.ex. action:post.created.",
+                    "client": "Hur begäran gjordes.",
+                    "ip": "IP-adressen bakom åtgärden.",
+                    "discussion": "Åtgärder som påverkar en specifik diskussion, baserat på ID."
+                },
+                "help": {
+                    "toggle": "Sökhjälp",
+                    "multiple": "Kombinera värden med kommatecken för att matcha något av dem, t.ex. action:post.created,post.deleted",
+                    "negate": "Inled ett filter med ett minustecken för att exkludera träffar, t.ex. -client:cli"
+                },
+                "empty": "Inga resultat",
+                "loadMore": "Ladda mer",
+                "withoutActor": "=> core.group.guest",
+                "deletedResource": {
+                    "discussion": "Diskussion #{id}",
+                    "group": "Grupp #{id}",
+                    "post": "Inlägg #{id}",
+                    "tag": "Tag #{id}",
+                    "user": "Användare #{id}"
+                },
+                "genericResource": {
+                    "comment": "Kommentar",
+                    "post": "Inlägg"
+                },
+                "permissionGroup": {
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
+                },
+                "noValue": "(inget värde)",
+                "noReason": "(ingen orsak)",
+                "core": "kärna",
+                "client": {
+                    "session": "Webbsession",
+                    "api_key": "API-nyckel",
+                    "access_token": "Åtkomsttoken",
+                    "cli": "Kommandorad",
+                    "unknown": "Okänd klient"
+                },
+                "controls": {
+                    "title": "Kontroller",
+                    "hideRaw": "Dölj rådatalogg",
+                    "showRaw": "Visa rådatalogg",
+                    "filterActor": "Visa loggar för denna aktör",
+                    "filterIp": "Visa loggar för denna IP-adress",
+                    "filterClient": "Visa loggar för denna klienttyp",
+                    "filterAction": "Visa loggar för samma åtgärd",
+                    "filterUser": "Visa loggar som rör samma användare",
+                    "filterDiscussion": "Visa loggar som rör samma diskussion"
+                },
+                "audit_log_cleared": "Raderade {deleted_count} poster från granskningsloggarna",
+                "cache_cleared": "Rensade cachen manuellt",
+                "developer_token_created": "Skapade åtkomsttoken för utvecklare ”{title}” för {username}",
+                "discussion": {
+                    "created": "Startade diskussionen {discussion}",
+                    "deleted": "Raderade diskussion {discussion}",
+                    "hidden": "Dolde diskussion {discussion}",
+                    "renamed": "Bytte namn på diskussionen från {old_title} till {new_title}",
+                    "restored": "Återställd diskussion {discussion}"
+                },
+                "extension": {
+                    "disabled": "Inaktiverade tillägg {package}",
+                    "enabled": "Aktiverade tillägg {package}",
+                    "uninstalled": "Avinstallerade tillägg {package}"
+                },
+                "queue": {
+                    "paused": "Pausade köbearbetningen för {queue} ({connection})",
+                    "resumed": "Återupptog köbearbetningen för {queue} ({connection})"
+                },
+                "group": {
+                    "created": "Skapade gruppen {name}",
+                    "deleted": "Raderade gruppen {name}",
+                    "renamed": "Bytte namn på gruppen från {old_name} till {new_name}"
+                },
+                "permission_changed": "Ändrade behörigheten {permission} från {old_groups} till {new_groups}",
+                "post": {
+                    "created": "Skapade ett {post} i {discussion}",
+                    "deleted": "Tog bort {postuser}s {post} i {discussion}",
+                    "hidden": "Dolde {postuser}s {post} i {discussion}",
+                    "restored": "Återställde {postuser}s {post} i {discussion}",
+                    "revised": "Reviderade {postuser}s {post} i {discussion}"
+                },
+                "setting_changed": "Redigerade inställning {key}",
+                "setting_changed_with_values": "Redigerade inställningen {key} från {old_value} till {new_value}",
+                "settings_reset": "Återställde inställningar {keys} för {extension}",
+                "user": {
+                    "activated": "Aktiverade {username}s konto manuellt",
+                    "activated_with_email": "Aktiverade {username}s konto via bekräftelselänk",
+                    "avatar_changed": "Ändrade {username}s avatar",
+                    "avatar_removed": "Tog bort {username}s avatar",
+                    "created": "Skapade {username}s konto",
+                    "deleted": "Raderade {username}",
+                    "email_changed": "Ändrade {username}s e-postadress från {old_email} till {new_email}",
+                    "email_change_requested": "Begärde att ändra {username}s e-postadress till {new_email}",
+                    "groups_changed": "Ändrade {username}s grupper från {old_groups} till {new_groups}",
+                    "logged_in": "Loggade in på kontot {username}",
+                    "logged_in_with_provider": "Loggade in på kontot {username} med {provider}",
+                    "logged_out": "Loggade ut från kontot {username}",
+                    "password_changed": "Ändrade {username}s lösenord",
+                    "password_change_requested": "Begärde att ändra {username}s lösenord",
+                    "password_reset_attempted": "Begärde lösenordsåterställning för {username}",
+                    "password_reset_attempted_unmatched": "Begärde lösenordsåterställning för {email} (inget matchande konto)",
+                    "provider_connected": "Anslöt leverantören {provider} till kontot {username}",
+                    "username_changed": "Ändrade {username}s användarnamn från {old_username} till {new_username}"
+                }
+            }
+        }
+    }
+}

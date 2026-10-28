@@ -1,0 +1,27 @@
+{
+    "core": {
+        "admin": {
+            "email": {
+                "mailtrap_heading": "Mailtrap Settings",
+                "mailtrap_description": "Send email through the Mailtrap API, or catch it in a Mailtrap sandbox inbox for testing. To send real email, the From address must belong to a sending domain verified in Mailtrap.",
+                "mail_mailtrap_api_token_label": "API token",
+                "mail_mailtrap_api_token_help": "Create one in Mailtrap under Settings → API Tokens. Give it access to your sending domain, or to the sandbox inbox when testing.",
+                "mail_mailtrap_mode_label": "Mode",
+                "mail_mailtrap_mode_help": "Send email delivers to your members. Sandbox delivers nothing to real recipients: every email lands in your Mailtrap test inbox, which suits staging and development forums.",
+                "mail_mailtrap_inbox_id_label": "Sandbox inbox ID",
+                "mail_mailtrap_inbox_id_help": "Only used in Sandbox mode. It is the number in the inbox's address, e.g. 1234567 in mailtrap.io/inboxes/1234567/messages.",
+                "mail_mailtrap_category_label": "Category",
+                "mail_mailtrap_category_help": "Optional. Tags each email so you can filter by it in Mailtrap's email logs and stats, e.g. the forum's name."
+            }
+        }
+    },
+    "fof-mailtrap-mail": {
+        "admin": {
+            "pinned_help": "Set in code by this forum's configuration, so it can't be changed here.",
+            "mode": {
+                "sending": "Send email",
+                "sandbox": "Sandbox (testing)"
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "linkrobins-support": {
         "admin": {
             "nav": {
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "appeal_bans": "",
                 "rate_limits": ""
             },
@@ -12,30 +12,33 @@
             },
             "permissions": {
                 "handle_tickets": "",
-                "manage_appeal_bans": ""
+                "manage_appeal_bans": "",
+                "force_delete_tickets": ""
             },
             "categories": {
                 "heading": "",
                 "intro": "",
-                "new_button": "",
+                "new_button": "دسته‌بندی جدید",
                 "edit_button": "",
-                "delete_button": "",
+                "delete_button": "حذف",
                 "empty": "",
                 "column_name": "",
-                "column_slug": "",
+                "column_slug": "اسلاگ",
                 "column_type": "",
+                "column_assignee": "",
+                "assignee_all_staff": "",
                 "column_tickets": "",
-                "general_badge": "",
+                "general_badge": "عمومی",
                 "appeal_badge": "",
                 "this_category": "",
                 "delete_confirm_named": "",
                 "delete_confirm_with_tickets": ""
             },
             "category_editor": {
-                "title_new": "",
-                "title_edit": "",
-                "field_name": "",
-                "field_slug": "",
+                "title_new": "دسته‌بندی جدید",
+                "title_edit": "ویرایش دسته‌بندی",
+                "field_name": "نام",
+                "field_slug": "اسلاگ",
                 "field_slug_help": "",
                 "field_slug_placeholder": "",
                 "field_description": "",
@@ -45,13 +48,27 @@
                 "field_icon_help": "",
                 "field_position": "",
                 "field_position_help": "",
-                "field_is_appeal": "",
-                "field_is_appeal_help": "",
+                "field_ticket_type": "",
+                "field_ticket_type_help": "",
+                "field_default_assignee": "",
+                "field_default_assignee_none": "",
+                "field_default_assignee_help": "",
+                "field_default_assignee_loading": "",
+                "field_default_assignee_unavailable": "",
+                "field_default_assignee_error": "",
+                "field_allowed_groups": "",
+                "field_allowed_groups_help": "",
                 "submit_create": "",
-                "submit_update": "",
+                "submit_update": "ذخیره تغییرات",
                 "error_load": "",
                 "error_save": "",
                 "error_delete": ""
+            },
+            "ticket_types": {
+                "standard": "",
+                "standard_help": "",
+                "appeal": "",
+                "appeal_help": ""
             },
             "appeal_bans": {
                 "heading_alt": "",
@@ -62,6 +79,44 @@
                 "column_email": "",
                 "load_more": "",
                 "view_banned_button": ""
+            },
+            "navigation": {
+                "heading": "",
+                "intro": "",
+                "in_sidebar": "",
+                "in_sidebar_help": "",
+                "in_account_menu": "",
+                "in_account_menu_help": "",
+                "forum_nav": "",
+                "forum_nav_help": ""
+            },
+            "saved_replies": {
+                "heading": "",
+                "intro": "",
+                "empty": "",
+                "new_button": "",
+                "edit_button": "",
+                "title_new": "",
+                "title_edit": "",
+                "field_title": "",
+                "field_title_help": "",
+                "field_content": "",
+                "field_content_help": "",
+                "field_position": "",
+                "field_position_help": "",
+                "submit_create": "",
+                "submit_update": "",
+                "delete_button": "",
+                "delete_confirm": "",
+                "error_save": ""
+            },
+            "auto_close": {
+                "heading": "",
+                "intro": "",
+                "days": "",
+                "days_help": "",
+                "reminder_days": "",
+                "reminder_days_help": ""
             },
             "rate_limits": {
                 "heading": "",
@@ -94,11 +149,21 @@
                 "reply_from": "",
                 "reply_generic": "",
                 "new_ticket": "",
-                "new_appeal": ""
+                "new_appeal": "",
+                "status_changed": "",
+                "status_changed_generic": "",
+                "reopened_by_owner": "",
+                "confirmed_solved_by_owner": "",
+                "awaiting_reminder": "",
+                "assigned": "",
+                "assigned_generic": ""
             },
             "settings": {
                 "notify_new_reply_label": "",
-                "notify_new_ticket_label": ""
+                "notify_new_ticket_label": "",
+                "notify_status_changed_label": "",
+                "notify_awaiting_reminder_label": "",
+                "notify_assigned_label": ""
             },
             "status": {
                 "in_progress": "",
@@ -107,24 +172,125 @@
                 "resolved": "",
                 "closed": ""
             },
+            "guest": {
+                "message": "",
+                "ticket_message": "",
+                "compose_message": "",
+                "log_in": "",
+                "sign_up": ""
+            },
             "index": {
                 "my_tickets": "",
+                "filter_assigned_to_me": "",
+                "filter_unassigned": "",
                 "filter_all": "",
                 "new_ticket": "",
                 "new_ticket_tooltip": "",
                 "empty_own": "",
                 "empty": "",
-                "untitled": ""
+                "search_placeholder": "",
+                "unread": "",
+                "no_results": "",
+                "empty_assigned_to_me": "",
+                "empty_unassigned": "",
+                "empty_status": {
+                    "open": "",
+                    "in_progress": "",
+                    "awaiting_response": "",
+                    "resolved": "",
+                    "closed": ""
+                },
+                "unassigned": "",
+                "assigned_to": "",
+                "untitled": "",
+                "deleted_badge": "",
+                "tickets": "",
+                "search_all_tickets": "",
+                "search_tickets_title": "",
+                "search_results_title": "",
+                "tickets_found": "",
+                "tickets_found_plural": "",
+                "back_to_desk": "",
+                "reset_search": ""
+            },
+            "assign": {
+                "title": "",
+                "load_failed": "",
+                "you": "",
+                "unassign": ""
+            },
+            "priority": {
+                "urgent": "",
+                "low": ""
+            },
+            "stats": {
+                "auto": "",
+                "backlog": "",
+                "by_staff": "",
+                "closed": "",
+                "col_first": "",
+                "col_first_time": "",
+                "col_period": "",
+                "col_replies": "",
+                "col_tickets": "",
+                "confirmed": "",
+                "days": "",
+                "endings": "",
+                "first_response": "",
+                "first_response_slow": "",
+                "footnote": "",
+                "hours": "",
+                "legend_closed": "",
+                "legend_opened": "",
+                "load_failed": "",
+                "median_note": "",
+                "minutes": "",
+                "n_days": "",
+                "no_endings": "",
+                "no_people": "",
+                "older_3": "",
+                "older_7": "",
+                "opened": "",
+                "people": "",
+                "period_summary": "",
+                "range": "",
+                "resolve_slow": "",
+                "show_table": "",
+                "speed": "",
+                "still_waiting": "",
+                "time_to_resolve": "",
+                "title": "",
+                "unassigned": "",
+                "volume": "",
+                "waiting": "",
+                "week_of": ""
+            },
+            "event": {
+                "status_changed": "",
+                "status_changed_no_actor": "",
+                "status_changed_automatically": "",
+                "auto_closed": "",
+                "claimed": "",
+                "assigned": "",
+                "assigned_no_actor": "",
+                "unassigned": "",
+                "unassigned_no_actor": "",
+                "reassigned": "",
+                "reassigned_no_actor": "",
+                "deleted_user": ""
             },
             "errors": {
                 "load_tickets": "",
+                "load_more_tickets": "",
                 "unknown": "",
                 "submit": "",
                 "submit_ticket": "",
                 "upload": "",
                 "upload_no_files": "",
                 "load_ticket": "",
+                "load_more_replies": "",
                 "update_assignment": "",
+                "update_priority": "",
                 "update_status": "",
                 "update_decision": "",
                 "save_edit": "",
@@ -160,9 +326,10 @@
                 "title": "",
                 "closed_notice": "",
                 "cannot_reply": "",
-                "closed_badge": "",
-                "opened_by": "",
-                "assigned_to": "",
+                "confirm_solved_prompt": "",
+                "confirm_solved_yes": "",
+                "confirm_solved_no": "",
+                "assigned_to_name": "",
                 "unassigned": "",
                 "decision": "",
                 "deleted_badge": ""
@@ -173,14 +340,15 @@
                 "rejected": ""
             },
             "staff": {
-                "set_status": "",
-                "set_decision": ""
+                "change_status": "",
+                "change_decision": ""
             },
             "reply": {
                 "deleted_notice": "",
                 "mod_actions": "",
                 "internal_placeholder": "",
                 "internal_note": "",
+                "saved_replies": "",
                 "post_reply": "",
                 "posting": "",
                 "discard_confirm": "",
@@ -192,18 +360,20 @@
             "action": {
                 "back": "",
                 "delete_forever": "",
-                "save_changes": "",
+                "save_changes": "ذخیره تغییرات",
                 "saving": "",
                 "edit_reply": "",
                 "attach_files": "",
-                "claim": "",
-                "unassign": "",
+                "reopen": "",
                 "edit": "",
-                "delete": "",
+                "delete": "حذف",
                 "restore": "",
-                "cancel": ""
+                "cancel": "لغو",
+                "load_more_replies": "",
+                "loading_more": ""
             },
             "confirm": {
+                "close_ticket": "",
                 "delete_reply_forever": "",
                 "soft_delete_reply": "",
                 "soft_delete_ticket": "",
@@ -212,6 +382,10 @@
             "ticket": {
                 "delete": "",
                 "restore": "",
+                "assign": "",
+                "priority_urgent": "",
+                "priority_normal": "",
+                "priority_low": "",
                 "mod_actions": ""
             },
             "user_controls": {
@@ -232,11 +406,83 @@
             "ticket_type_appeal": "",
             "ticket_type_general": "",
             "new_ticket_body": "",
-            "open_ticket": ""
+            "open_ticket": "",
+            "status_changed_subject": "",
+            "status_changed_body": "",
+            "status_changed_body_generic": "",
+            "reopened_by_owner_body": "",
+            "confirmed_solved_body": "",
+            "awaiting_reminder_subject": "",
+            "awaiting_reminder_body": "",
+            "assigned_subject": "",
+            "assigned_body": ""
+        },
+        "lib": {
+            "gambits": {
+                "tickets": {
+                    "author": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "type": {
+                        "key": "",
+                        "hint": "",
+                        "types": {
+                            "standard": "",
+                            "appeal": ""
+                        }
+                    },
+                    "assigned": {
+                        "key": "",
+                        "hint": "",
+                        "options": {
+                            "me": "",
+                            "none": ""
+                        }
+                    },
+                    "unassigned": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "mine": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "priority": {
+                        "key": "",
+                        "hint": "",
+                        "levels": {
+                            "urgent": "",
+                            "normal": "",
+                            "low": ""
+                        }
+                    },
+                    "category": {
+                        "key": "",
+                        "hint": ""
+                    },
+                    "status": {
+                        "key": "",
+                        "hint": "",
+                        "statuses": {
+                            "open": "",
+                            "in_progress": "",
+                            "awaiting_response": "",
+                            "resolved": "",
+                            "closed": ""
+                        }
+                    }
+                }
+            }
         },
         "api": {
+            "category_not_permitted": "",
+            "unknown_ticket_type": "",
+            "decision_not_allowed": "",
             "assign_staff_only": "",
+            "default_assignee_staff_only": "",
             "category_required": "",
+            "subject_required": "",
             "ticket_soft_delete_first": "",
             "login_required_reply": "",
             "reply_content_required": "",

@@ -11,6 +11,8 @@
             "thumbnail_width_help": "Das Cover wird proportional skaliert, sodass seine Breite diesem Wert entspricht. Der Standardwert beträgt 500.",
             "recreate_thumbnails": "Miniaturansichten neu erstellen",
             "delete_thumbnails": "Miniaturansichten löschen",
+            "recreate_thumbnails_confirm": "Alle Miniaturansichten neu erstellen?",
+            "delete_thumbnails_confirm": "Alle Miniaturansichten löschen?",
             "recreate_success": "Miniaturansichten erfolgreich neu erstellst",
             "delete_success": "Alle Miniaturansichten gelöscht",
             "recreate_error": "Miniaturansichten konnten nicht neu erstellt werden",
@@ -23,7 +25,9 @@
         "forum": {
             "cover": "Profiltitelbild",
             "edit_cover": "Profiltitelbild bearbeiten",
-            "notice": "Maximale Größe: {size}",
+            "notice": "Maximale Größe: {size}. Empfohlenes Format: 21:9 und mindestens 1600 × 400 Pixel",
+            "position_label": "Anordnung des Covers auf dem Desktop",
+            "save_position_button": "Anordnung speichern",
             "added": {
                 "success": "Profiltitelbild aktualisiert",
                 "error": "Bild konnte nicht hochgeladen werden"

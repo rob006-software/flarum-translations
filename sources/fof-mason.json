@@ -1,0 +1,135 @@
+{
+    "fof-mason": {
+        "forum": {
+            "composer": {
+                "add-details": "Add details"
+            },
+            "discussion-controls": {
+                "edit-answers": "Edit fields"
+            },
+            "answers-modal": {
+                "compose-title": "Discussion details",
+                "edit-title": "Edit fields for {title}",
+                "save": "Save fields"
+            },
+            "post-answers": {
+                "no-answer": "No answer"
+            },
+            "answers": {
+                "choose-option": "Choose an option",
+                "no-option-selected": "No option selected",
+                "required": "This field is required."
+            },
+            "tags": {
+                "inadequate-settings": "Tag settings are not configured correctly. Allow up to one primary and secondary tags or disable the \"Tags as fields\" feature.\n",
+                "tags-label": "Tags"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "New field",
+                "add-field": "Add field",
+                "save-field": "Save field changes",
+                "delete-field": "Delete field",
+                "edit-field": "Edit",
+                "add-answer": "Add answer",
+                "delete-answer": "Delete answer",
+                "edit-answer": "Edit answer",
+                "edit-answer-prompt": "Changes the answer everywhere it is used",
+                "show-user-answers": "{count, plural, one {# answer typed by users} other {# answers typed by users}}"
+            },
+            "field-list": {
+                "empty": "No fields yet. Add one to collect structured details on new discussions.",
+                "free-text": "Free text",
+                "dropdown": "{count, plural, =0 {Dropdown, no answers yet} one {Dropdown · # answer} other {Dropdown · # answers}}"
+            },
+            "answers": {
+                "help": "Suggested answers are offered in a dropdown, in this order. Editing an answer changes it on every discussion that uses it.\n",
+                "suggest": "Suggest",
+                "unsuggest": "Stop suggesting"
+            },
+            "fields": {
+                "edit": "Edit field {field}",
+                "required": "Required",
+                "name": "Field name",
+                "name-help": "The publicly visible (non-translatable) field label.\n",
+                "description": "Field description",
+                "description-help": "An optional description to explain the use/need of this field.\n",
+                "show_when_empty": "Show when empty",
+                "show_when_empty-help": "Whether to show the field on the discussion when it has no answer",
+                "validation": "Validation for user values",
+                "user_values_allowed": "User values allowed",
+                "user_values_allowed-help": "If enabled, users can add their own values instead of the ones defined by the admin. These values will be checked against the \"Validation\" setting. If disabled they will only be able to use \"suggested\" answers.\n",
+                "validation-help": "Check the supported <a>Laravel validation rules</a>. Eg: \"string|min:5\" or \"url\".\n",
+                "icon": "Icon",
+                "icon-help": "Shows an icon in front of values entered by the user. For a reference of available icons, check the <a>FontAwesome website</a>. Use the full icon class name including prefix, for example \"fas fa-bolt\".\n",
+                "save-field-for-answers": "Save the field to add answers",
+                "new-answer": "New answer",
+                "new-answer-placeholder": "Some text"
+            },
+            "messages": {
+                "delete-answer-confirmation": "Are you sure you want to delete answer \"{content}\"? It will be removed from all discussions that use it. If you want to keep existing answers disable answer suggestion instead. Delete answer?\n",
+                "delete-field-confirmation": "Are you sure you want to delete field \"{name}\"? The field and its answers will be removed from all discussions that use them. Delete field?\n"
+            },
+            "settings": {
+                "fields-section-title": "Title of the custom fields section",
+                "fields-section-title-placeholder": "By default no title will be shown",
+                "fields-section-title-help": "Users will see this text above the custom fields in the editor and on the discussion.\n",
+                "column-count": "Number of columns when showing the fields",
+                "n-columns": "{count, plural, one {# column} other {# columns}}",
+                "labels-as-placeholders": "Show labels as placeholders in the form",
+                "labels-as-placeholders-help": "Fields will use less vertical space and icons won't be shown anymore. Keep in mind this might have an impact on usability, in particular when editing existing fields.\n",
+                "fields-in-hero": "Show fields in the discussion banner instead of under the first post",
+                "hide-empty-fields-section": "Hide title and controls when all fields are empty and hidden",
+                "hide-empty-fields-section-help": "By default if the user can edit fields or a title has been set, the section will always be shown, even if all fields are hidden. With this option enabled, the section will be hidden and the \"edit fields\" button will only be available inside the discussion menu when all fields are blank.\n",
+                "tags-as-field": "Show tags selector as a field",
+                "tags-as-field-help": "Adds a tags dropdown to the discussion details form. This will only work if you allowed up to one primary and one secondary tag!\n",
+                "tags-field-name": "Label of the tags field",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "fields": "Fields",
+                "settings": "Settings",
+                "field-answers": "Field answers"
+            },
+            "permissions": {
+                "see-own-fields": "See fields on own existing discussions",
+                "see-other-fields": "See fields on all existing discussions",
+                "fill-fields": "Fill fields on new discussions",
+                "update-own-fields": "Update fields of own discussion",
+                "update-other-fields": "Update fields of any discussion",
+                "skip-required-fields": "Allowed to skip required fields"
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "masonanswers": {
+                    "export_description": "The custom field answers on discussions you started.",
+                    "anonymize_description": "Your custom field answers stay with your discussions.",
+                    "delete_description": "Custom field answers are removed from discussions you started, and answers you typed that no other discussion uses are deleted."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "mason_field": {
+                    "created": "Created custom field {name}",
+                    "updated": "Updated custom field {name} ({keys})",
+                    "deleted": "Deleted custom field {name}"
+                },
+                "mason_answer": {
+                    "created": "Added answer {name} to custom field {key}",
+                    "updated": "Updated answer {old_name} to {new_name} in custom field {key} ({keys})",
+                    "deleted": "Deleted answer {name} from custom field {key}"
+                },
+                "discussion": {
+                    "mason_answers_changed": "Changed {keys} on {discussion} from {old_value} to {new_value}"
+                }
+            }
+        }
+    }
+}

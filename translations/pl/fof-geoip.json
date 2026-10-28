@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "Użyj <b>https://7x.ax</b>, aby uzyskać bezpłatny klucz API dla maksymalnie 20 żądań na minutę. Dostępne są również płatne plany dla wyższych limitów użytkowania.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "Użyj <b>https://ipinfo.io</b>, aby pobierać informacje o IP bez żadnych limitów i ograniczeń. Wymaga darmowej rejestracji w celu uzyskania klucza API.",
+                "service_maxmind_label": "Lokalne bazy danych (MaxMind / DB-IP)",
+                "service_maxmind_description": "Sprawdzaj adresy IP w lokalnych bazach danych w formacie MaxMind (.mmdb) zamiast korzystać z zewnętrznego API. Obsługiwane są bazy GeoLite2/GeoIP2 firmy MaxMind oraz wersje Lite firmy DB-IP. Wyszukiwanie jest natychmiastowe, bez limitów, a dane nie opuszczają Twojego serwera. Pliki baz danych musisz jednak samodzielnie zainstalować i aktualizować. Przykłady znajdziesz na stronie <b>https://github.com/FriendsOfFlarum/geoip</b>.",
+                "service_forced": "Usługa sprawdzania adresów IP została ustawiona na {service} przez rozszerzenie Flarum, dlatego nie można jej tutaj zmienić.",
+                "service_unavailable": "Wybrana usługa sprawdzania adresów IP jest niedostępna, dlatego informacje o adresach IP nie są zapisywane. Jeśli korzystasz z lokalnych baz danych, sprawdź, czy poniżej podano ścieżkę do co najmniej jednej bazy i czy wskazuje ona na plik .mmdb z uprawnieniami do odczytu.",
                 "access_key_label": "Access Key",
                 "quota_label": "Limit zapytań",
+                "databases_heading": "Pliki baz danych",
+                "databases_help": "Podaj bezwzględne ścieżki do plików .mmdb. Wszystkie trzy bazy są opcjonalne i działają niezależnie od siebie. Sama baza krajów wystarczy do wyświetlania flag, baza miast udostępnia współrzędne do mapy, a baza ASN – informacje o dostawcy internetu i organizacji. Wersje Lite baz DB-IP nie zawierają kodów pocztowych, a żadna lokalna baza nie zawiera danych o zagrożeniach.",
+                "database_country_label": "Baza krajów",
+                "database_city_label": "Baza miast",
+                "database_asn_label": "Baza ASN",
+                "database_built": "utworzono {time}",
+                "database_stale": "nieaktualna, zalecana aktualizacja",
+                "database_not_configured": "Nie skonfigurowano",
+                "setting_pinned": "Ustawione przez rozszerzenie Flarum, dlatego nie można tego tutaj zmienić.",
                 "show_flag_label": "Pokazuj flagę kraju przy każdym poście",
                 "show_flag_help": "Wyświetla flagę kraju przypisaną do adresu IP autora posta (bez ujawniania samego adresu), jeśli użytkownik włączy tę opcję w swoich preferencjach.",
+                "allow_custom_flag_label": "Pozwól użytkownikom na wybór własnej flagi kraju",
+                "allow_custom_flag_help": "Jeśli włączone, użytkownicy mogą z poziomu ustawień profilu wybrać flagę, która będzie widoczna przy ich postach. Taka flaga jest widoczna dla wszystkich i ma pierwszeństwo przed flagą wykrytą na podstawie adresu IP. Wymaga włączonej opcji „Pokazuj flagę kraju przy każdym poście”.",
                 "test": {
                     "heading": "Test konfiguracji usługi",
                     "help": "Przetestuj konfigurację usługi sprawdzania IP za pomocą przykładowego adresu. Przed wykonaniem testu upewnij się, że zapisałeś ustawienia."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Czas odpowiedzi:",
                 "test_timestamp_label": "Znacznik czasu:",
                 "test_http_status_code_label": "Kod statusu HTTP:",
+                "test_databases_label": "Sprawdzone bazy danych:",
                 "test_error_details_label": "Szczegóły błędu:",
+                "test_notice_label": "Uwaga:",
                 "test_processed_service_response_label": "Przetworzona odpowiedź z usługi:",
                 "status_success": "✓ Sukces",
                 "status_error": "✗ Błąd",
@@ -59,7 +76,43 @@
                 "error_code_prefix": "Kod:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": "Skopiowano adres IP"
+            },
+            "copy_ip_label": "Skopiuj IP do schowka",
+            "map_button_label": "Informacje o IP",
+            "map_modal": {
+                "title": "Informacje o adresie IP",
+                "ip_address": "Adres IP",
+                "country": "Kraj",
+                "city": "Miasto",
+                "region": "Region",
+                "zip_code": "Kod pocztowy",
+                "isp": "Dostawca internetu (ISP)",
+                "as": "ASN",
+                "mobile": "Sieć komórkowa",
+                "organization": "Organizacja",
+                "threat_level": "Poziom zagrożenia",
+                "threat_types": "Rodzaje zagrożeń",
+                "error": "Błąd",
+                "not_enough_data": "Zbyt mało danych, aby wygenerować mapę",
+                "dbip_attribution": "Geolokalizacja IP dzięki <a>DB-IP</a>",
+                "country_code": "Kod kraju"
+            },
+            "custom_flag": {
+                "none": "Brak własnej flagi",
+                "placeholder": "Szukaj kraju…"
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP",
+                    "custom_flag_label": "Własna flaga kraju",
+                    "custom_flag_help": "Wybierz flagę kraju, która będzie widoczna przy Twoich postach. Flaga ta jest widoczna dla wszystkich i zastępuje tę generowaną na podstawie Twojego adresu IP."
+                }
+            },
             "alerts": {
                 "ip_copied": "Skopiowano adres IP"
             },
@@ -78,11 +131,6 @@
                 "threat_types": "Typy zagrożeń",
                 "error": "Błąd",
                 "not_enough_data": "Za mało danych, aby narysować mapę"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Pokazuj flagę kraju, z którego piszę, na podstawie mojego adresu IP"
-                }
             }
         }
     },

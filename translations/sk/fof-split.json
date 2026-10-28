@@ -20,6 +20,22 @@
                 "new_discussion_label": "Špecifikujte názov novej diskusie",
                 "submit_button": "Rozdeliť"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "",
+                    "split_into": ""
+                }
+            }
         }
     }
 }

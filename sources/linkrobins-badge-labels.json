@@ -1,0 +1,49 @@
+{
+    "linkrobins-badge-labels": {
+        "forum": {
+            "post_count": "{count, plural, one {# post} other {# posts}}"
+        },
+        "admin": {
+            "settings": {
+                "collapse_label": "Remove the avatar column on desktop",
+                "collapse_help": "Drops the wide column of empty space on the left of every post, so posts read the way they already do on a phone. The avatar keeps its size and the text closes up around it. Badges and the post count move up beside the username, because the column they sat in is gone. Desktop only: a phone has no such column, so phones are left exactly as they are.",
+                "collapse_off": "Keep the avatar column (default)",
+                "collapse_first": "Remove it on the first post of a discussion only",
+                "collapse_all": "Remove it on every post",
+                "layout_label": "Badge placement",
+                "layout_help": "Where a post author's badges appear. Below the avatar gives each badge its own row in a widened author column. Beside the username keeps the author column as it is and puts the badges on the post header line.",
+                "layout_below": "Below the avatar",
+                "layout_beside": "Beside the username",
+                "header_position_label": "Badge position on the header line",
+                "header_position_help": "Which side of the post's time the badges sit on, when they are on the post header line. Only used when something is on that line. After the time is where they have always been. Before it puts them straight after the username, which is where other extensions tend to put theirs, though a forum with long badge names has less room for them there.",
+                "header_position_after": "After the time",
+                "header_position_before": "Before the time, next to the username",
+                "arrangement_label": "Badge arrangement",
+                "arrangement_help": "How the badges under the avatar are arranged. Only used when something sits below the avatar. Rows is how they have always been laid out. The grid lets badges with no title share a row, so a column of icons reads as a block under the avatar instead of a long thin line.",
+                "arrangement_rows": "One per row",
+                "arrangement_centered": "One per row, centered",
+                "arrangement_grid": "Centered, icons sharing rows",
+                "labels_label": "Show full badge titles",
+                "labels_help": "Show each badge's name next to its icon instead of the icon on its own. Only the first badge is a user's main one, so this can spell that one out and leave the rest as icons.",
+                "labels_all": "On every badge",
+                "labels_first": "On the first badge only",
+                "labels_none": "Off: icons only",
+                "post_count_label": "Show the author's post count",
+                "post_count_help": "Adds the number of posts the author has written, as a pill of its own.",
+                "post_count_placement_label": "Post count placement",
+                "post_count_placement_help": "Where that pill goes. It can follow the badges wherever they are, or sit in the other place, so the count can be under the avatar while the badges stay on the header line.",
+                "post_count_placement_badges": "With the badges",
+                "post_count_placement_below": "Below the avatar",
+                "post_count_placement_beside": "Beside the username",
+                "discussion_badges_label": "Move discussion badges under the title",
+                "discussion_badges_help": "A discussion's own badges, such as sticky and locked, normally sit in a narrow strip over its avatar in the discussion list, where they overlap it and have no room for names. This moves them down to the line under the title instead. Whether they are named there follows the badge titles setting above, so you can move them and still keep them as plain icons.",
+                "column_width_label": "Author column width (pixels)",
+                "column_width_help": "How much room the badges and titles get beside the post. Only used when something sits below the avatar. Between 85 and 400.",
+                "avatar_gap_label": "Gap below the avatar (pixels)",
+                "avatar_gap_help": "The space between the avatar and the first badge under it. Only used when something sits below the avatar. Between 0 and 60.",
+                "phone_label": "Apply on phones too",
+                "phone_help": "Off by default, because phones show a compact post header where Flarum tucks the badges over the avatar. Turn this on to show titles and the post count there as well."
+            }
+        }
+    }
+}

@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "Mærkater"
+                "tags_label": "Mærkater",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "Farve",
                 "delete_tag_button": "Slet mærkat",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Er du sikker på du ønsker at slette dette mærkat? Diskussioner med dette mærkat vil IKKE blive slettet.",
                 "description_label": "Beskrivelse",
                 "hide_label": "Skjul fra alle diskussioner",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Vælg mærkater"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Ret mærkater"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "Navn",
             "tags": "Mærkater"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

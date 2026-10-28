@@ -2,7 +2,7 @@
     "fof-geoip": {
         "admin": {
             "permissions": {
-                "see_country": "Всегда указывайте страну, в которой находится IP-адрес"
+                "see_country": "Всегда отображать страну IP-адреса"
             },
             "settings": {
                 "general": {
@@ -26,10 +26,25 @@
                 "service_ipsevenex_description": "Используйте <b>https://7x.ax </b>, чтобы получить бесплатный API-ключ для обработки до 20 запросов в минуту. Также доступны платные тарифные планы с более высокими лимитами использования.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "Используйте <b>https://ipinfo.io</b> для получения информации об IP без ограничений по частоте запросов и других ограничений. Требуется регистрация для получения бесплатного API-ключа.",
+                "service_maxmind_label": "",
+                "service_maxmind_description": "",
+                "service_forced": "",
+                "service_unavailable": "",
                 "access_key_label": "Ключ доступа",
                 "quota_label": "Квота запросов",
-                "show_flag_label": "Показывать флаг страны для каждого сообщения",
-                "show_flag_help": "Не раскрывая IP-адрес, укажите флаг страны на IP-адресе автора публикации, когда пользователь выберет его в своих настройках.",
+                "databases_heading": "",
+                "databases_help": "",
+                "database_country_label": "",
+                "database_city_label": "",
+                "database_asn_label": "",
+                "database_built": "",
+                "database_stale": "",
+                "database_not_configured": "",
+                "setting_pinned": "",
+                "show_flag_label": "Показывать флаг страны в каждом сообщении",
+                "show_flag_help": "Показывать флаг автора сообщения, определённый по его IP-адресу, не раскрывая сам IP-адрес. Отображается только для пользователей, включивших эту функцию в настройках.",
+                "allow_custom_flag_label": "Разрешить пользователям выбирать собственный флаг страны",
+                "allow_custom_flag_help": "Если включено, пользователи смогут выбрать флаг страны для отображения рядом со своими сообщениями в настройках профиля. Выбранный флаг будет иметь приоритет над флагом, определённым по IP-адресу. Требуется включённая настройка «Показывать флаг страны в каждом сообщении».",
                 "test": {
                     "heading": "Проверить настройки сервиса",
                     "help": "Проверьте настройки сервиса определения IP на примере тестового IP-адреса. Перед проверкой обязательно сохраните настройки."
@@ -46,7 +61,9 @@
                 "test_response_time_label": "Время ответа:",
                 "test_timestamp_label": "Метка времени:",
                 "test_http_status_code_label": "Код статуса HTTP:",
+                "test_databases_label": "",
                 "test_error_details_label": "Детали ошибки:",
+                "test_notice_label": "",
                 "test_processed_service_response_label": "Обработанный ответ:",
                 "status_success": "✓ Успешно",
                 "status_error": "✗ Ошибка",
@@ -59,7 +76,43 @@
                 "error_code_prefix": "Код:"
             }
         },
+        "lib": {
+            "alerts": {
+                "ip_copied": "IP-адрес скопирован"
+            },
+            "copy_ip_label": "Копировать IP-адрес",
+            "map_button_label": "Данные IP",
+            "map_modal": {
+                "title": "Информация об IP",
+                "ip_address": "IP-адрес",
+                "country": "",
+                "city": "",
+                "region": "",
+                "zip_code": "Почтовый индекс",
+                "isp": "Интернет-провайдер",
+                "as": "ASN",
+                "mobile": "Мобильная сеть",
+                "organization": "Организация",
+                "threat_level": "Уровень угрозы",
+                "threat_types": "Типы угроз",
+                "error": "Ошибка",
+                "not_enough_data": "Недостаточно данных для построения карты",
+                "dbip_attribution": "",
+                "country_code": "Код страны"
+            },
+            "custom_flag": {
+                "none": "Пользовательский флаг отсутствует",
+                "placeholder": "Поиск страны…"
+            }
+        },
         "forum": {
+            "user": {
+                "settings": {
+                    "ip_country": "Показывать флаг страны, из которой я отправляю сообщение, на основе моего IP-адреса",
+                    "custom_flag_label": "Пользовательский флаг страны",
+                    "custom_flag_help": "Выберите флаг страны для отображения в сообщениях. Он будет виден всем пользователям и заменит флаг, определённый по IP-адресу."
+                }
+            },
             "alerts": {
                 "ip_copied": "IP скопирован"
             },
@@ -78,11 +131,6 @@
                 "threat_types": "Тип угрозы",
                 "error": "Ошибка",
                 "not_enough_data": "Недостаточно данных для составления карты"
-            },
-            "user": {
-                "settings": {
-                    "ip_country": "Показывать флаг страны, из которой я отправляю сообщение, на основе моего IP-адреса"
-                }
             }
         }
     },

@@ -20,6 +20,22 @@
                 "new_discussion_label": "Indicar o título da nova discussão",
                 "submit_button": "Separar"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "",
+                    "split_into": ""
+                }
+            }
         }
     }
 }

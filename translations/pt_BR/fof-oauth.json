@@ -1,29 +1,32 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "Configurar com FoF OAuth",
-            "settings_accessibility_label": "{name} configurações",
+            "configure_button_label": "Configurar com o FoF OAuth",
+            "settings_accessibility_label": "Configurações de {name}",
             "permissions": {
-                "moderate_user_providers": ""
+                "moderate_user_providers": "Moderar as contas vinculadas dos usuários"
             },
             "settings": {
                 "advanced": {
-                    "heading": "",
-                    "log-oauth-errors-label": "",
-                    "log-oauth-errors-help": ""
+                    "heading": "Avançado",
+                    "log-oauth-errors-label": "Registrar erros de OAuth",
+                    "log-oauth-errors-help": "Se ativado, os erros de OAuth serão registrados no log do Flarum. Isso pode ajudar a depurar problemas de OAuth, mas também pode conter informações sensíveis."
                 },
-                "only_icons_label": "Mostrar apenas os ícones do botão de login (layout alternativo)",
-                "update_email_from_provider_label": "",
-                "update_email_from_provider_help": "",
-                "disable_avatars_label": "",
-                "disable_avatars_help": "",
+                "only_icons_label": "Mostrar apenas os ícones dos botões de login (layout alternativo)",
+                "update_email_from_provider_label": "Atualizar o endereço de e-mail pelo provedor",
+                "update_email_from_provider_help": "Se ativado, ao entrar com um provedor OAuth cujo e-mail verificado seja diferente do e-mail do usuário no fórum, um link de confirmação é enviado ao novo endereço e um aviso ao atual. O e-mail muda quando o link é acessado. Provedores que não conseguem confirmar que o endereço é verificado, incluindo provedores de terceiros que não foram atualizados para oferecer esse suporte, não alteram o endereço de e-mail.",
+                "oauth_only_label": "Permitir login e cadastro apenas com provedores OAuth",
+                "oauth_only_help": "Se ativado, os membros não podem mais entrar, cadastrar-se ou redefinir a senha com uma senha; eles usam os provedores ativados. Os administradores mantêm o login por senha, pelo link \"Login do administrador\" no modal de login. Membros existentes sem um provedor vinculado são vinculados no primeiro login por um provedor, se ele confirmar o mesmo endereço de e-mail; qualquer outra pessoa precisará da ajuda de um administrador. Não tem efeito enquanto nenhum provedor estiver ativado. Mantenha \"Cadastrar-se\" definido como \"Aberto\" em Permissões; caso contrário, novos membros também não poderão se cadastrar com um provedor.\n",
+                "oauth_only_sign_up_closed_warning": "O cadastro está definido como Fechado em <a>Permissões</a>. O Flarum também usa essa configuração para cadastros por provedores, então ninguém pode se cadastrar enquanto estiver fechado.",
+                "disable_avatars_label": "Desativar avatares do provedor",
+                "disable_avatars_help": "Se ativado, o avatar do usuário não será atualizado para o avatar do provedor no cadastro. Isso afeta apenas cadastros futuros e não altera o avatar de usuários existentes.\n",
                 "providers": {
-                    "callback_url_text": "Se necessário, defina o URL de retorno de chamada como {url}.",
-                    "group_label": "",
-                    "group_help": "",
-                    "no_group_label": "",
+                    "callback_url_text": "Se necessário, defina a URL de callback como {url}.",
+                    "group_label": "Atribuir Grupo",
+                    "group_help": "Selecione um grupo para atribuir automaticamente aos usuários que se cadastrarem usando este provedor.",
+                    "no_group_label": "Sem atribuição de grupo",
                     "discord": {
-                        "description": "Crie um aplicativo em {link}. Adicione o URL de redirecionamento na guia OAuth2.",
+                        "description": "Crie um aplicativo em {link}. Adicione a URL de redirecionamento na aba OAuth2.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
@@ -38,19 +41,19 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "Crie um aplicativo em {link}. Dê ao aplicativo o escopo de <code>read_user</code>.",
+                        "description": "Crie um aplicativo em {link}. Dê ao aplicativo o escopo <code>read_user</code>.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "domain_label": "Domínio GitLab"
+                        "domain_label": "Domínio do GitLab"
                     },
                     "google": {
-                        "description": "Criar uma aplicação em {link}.",
+                        "description": "Crie um aplicativo em {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret",
-                        "hosted_domain_label": ""
+                        "hosted_domain_label": "Domínio Hospedado (G suite/Google Apps for Business, opcional)"
                     },
                     "linkedin": {
-                        "description": "Criar uma aplicação em {link}.",
+                        "description": "Crie um aplicativo em {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
@@ -64,7 +67,10 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "Logar com {provider}",
+                "unverified_email_in_use": "{provider} não confirmou este endereço de e-mail, então não podemos usá-lo para o seu login. Se você já tem uma conta, entre abaixo e depois vincule {provider} nas configurações da sua conta.",
+                "unverified_email_in_use_oauth_only": "{provider} não confirmou este endereço de e-mail, então não podemos usá-lo para o seu login. Confirme o endereço com {provider} e tente novamente, ou peça ajuda a um administrador.",
+                "admin_log_in_link": "Login do administrador",
+                "with_button": "Entrar com {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
@@ -76,14 +82,14 @@
             "user": {
                 "settings": {
                     "linked-account": {
-                        "label": "Contas conectadas",
-                        "last-used-label": "Usado por último",
-                        "link-created-label": "Conta conectada",
-                        "identification-label": "",
-                        "orphaned-account": "Você já fez login por meio desse provedor anteriormente, mas este fórum desativou o login com esse método desde então.",
+                        "label": "Contas vinculadas",
+                        "last-used-label": "Último uso",
+                        "link-created-label": "Vínculo criado",
+                        "identification-label": "ID do {provider}",
+                        "orphaned-account": "Você já entrou por este provedor antes, mas desde então este fórum desativou o login por esse método.",
                         "help": "Essas contas vinculadas permitem que você entre no fórum usando outros provedores.",
-                        "identifier-label": "{provider} ID",
-                        "unlink-confirm": "Tem certeza de que deseja remover o link com {provider}? Você não poderá mais entrar neste fórum, a menos que faça uma nova autenticação no futuro."
+                        "identifier-label": "ID do {provider}",
+                        "unlink-confirm": "Tem certeza de que deseja remover o vínculo com {provider}? Você não poderá mais entrar neste fórum, a menos que se autentique novamente no futuro."
                     }
                 }
             },
@@ -97,18 +103,24 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Conta vinculada",
+                "body": "Sua conta <strong>{username}</strong> em {forum} agora está vinculada a {provider}. De agora em diante, você pode entrar com a senha do fórum ou com {provider}.",
+                "dismiss_button": "Entendi"
             },
             "signup": {
-                "username_help": "Escolha um nome de usuário para ser conhecido aqui"
+                "username_help": "Escolha o nome de usuário que você usará aqui"
             },
-            "unlink": "Remover",
+            "unlink": "Remover vínculo",
             "error": {
-                "bad_verification_code": "Token de verificação inválido ou expirado. Por favor, tente novamente.",
-                "invalid_state": "Estado inválido. Por favor, tente novamente.",
-                "already_linked": ""
+                "bad_verification_code": "Token de verificação inválido ou expirado. Tente novamente.",
+                "invalid_state": "Estado inválido. Tente novamente.",
+                "already_linked": "Esta conta já está vinculada a outro usuário."
+            }
+        },
+        "email": {
+            "provider_email_change_notice": {
+                "subject": "Alteração de Endereço de E-mail Solicitada",
+                "body": "Depois que você entrou em {forum} com {provider}, foi solicitada a alteração do endereço de e-mail da sua conta para {new_email}. A alteração entra em vigor quando o novo endereço for confirmado.\n\nSe não foi você, sua conta {provider} pode estar comprometida. Proteja-a e entre em contato com os administradores de {forum}.\n"
             }
         },
         "lib": {
@@ -123,8 +135,8 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "um provedor de login"
                 }
             }
         },

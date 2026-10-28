@@ -1,44 +1,48 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "O reCAPTCHA é desativado na página de login quando o fórum está em modo de manutenção.",
             "settings": {
                 "help_text": "Obtenha suas credenciais do Google reCAPTCHA <a>aqui</a>.",
                 "secret_key_label": "Chave Secreta",
                 "site_key_label": "Chave do Site",
-                "type_label": "Tipo reCAPTCHA",
-                "type_help": "",
+                "type_label": "Tipo de reCAPTCHA",
+                "type_help": "O tipo selecionado deve corresponder ao tipo das suas credenciais do reCAPTCHA. Checkbox e Invisível são ambos reCAPTCHA v2; o v3 é baseado em pontuação e roda de forma silenciosa.",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisível",
+                    "v3": "v3 (baseado em pontuação)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
-                "signup": "",
-                "signin": "",
-                "forgot": ""
+                "v3_threshold_label": "Limite de pontuação do reCAPTCHA v3",
+                "v3_threshold_help": "Envios com pontuação abaixo deste valor (0.0 = provável bot, 1.0 = provável humano) serão rejeitados. O Google sugere 0.5 como ponto de partida. Usado apenas quando o tipo é v3.",
+                "signup": "=> core.forum.sign_up.title",
+                "signin": "=> core.forum.log_in.title",
+                "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
+                "title": "Testar reCAPTCHA",
+                "help_text": "Este teste usa os valores atuais digitados acima. Recarregue o teste após modificar as configurações e não se esqueça de salvar quando o teste passar!\nO que aparece abaixo pode não refletir as configurações salvas.\n",
+                "success_message": "Sucesso! O reCAPTCHA está configurado corretamente.",
+                "load_test_button": "Carregar",
+                "submit_button": "Enviar",
                 "reload_button": "Recarregar"
             },
             "permissions": {
-                "post_without_captcha": "Crie postagens e discussões sem captcha"
+                "post_without_captcha": "Criar posts e discussões sem captcha"
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Ocorreu um erro ao enviar o reCAPTCHA. Tente novamente.",
+            "not_completed": "Conclua a verificação do reCAPTCHA antes de continuar.",
+            "rejected": "A verificação do reCAPTCHA falhou. Tente novamente.",
+            "unknown_error": "Ocorreu um erro desconhecido. Tente novamente."
         }
     },
     "validation": {
         "recaptcha": "Falha na validação do reCAPTCHA.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Ocorreu um erro desconhecido ao validar o reCAPTCHA ({errors}).",
+        "attributes": {
+            "g-recaptcha-response": "reCAPTCHA"
+        }
     }
 }

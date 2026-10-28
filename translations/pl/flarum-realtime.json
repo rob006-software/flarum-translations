@@ -1,15 +1,21 @@
 {
     "flarum-realtime": {
         "forum": {
+            "discussion-removed": "Ta dyskusja została usunięta.",
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Pokaż # zaktualizowaną dyskusję} few {Pokaż # zaktualizowane dyskusje} other {Pokaż # zaktualizowanych dyskusji}}",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# dyskusja ma} few {# dyskusje mają} other {# dyskusji ma}} nową aktywność. Zmiany pojawią się za {releaseTimeout, plural, one {# sekundę} few {# sekundy} other {# sekund}}. Kliknij, by zobaczyć je teraz."
             },
             "typing-indicator": {
-                "anonymous-user": "[Anonim]",
+                "anonymous-user": "[Ukryty]",
+                "hidden-user": "{username} (ukryty)",
                 "people-are-typing": "{number, plural, one {# osoba pisze} few {# osoby piszą} other {# osób pisze}}",
                 "users-are-typing": "{count, plural, one {{users} pisze} other {{users}{others, plural, =1 { i # inna osoba} =0 {} few { i # inne osoby} other { i # innych osób}} piszą}}",
                 "no-activity": "Nikt nie pisze"
+            },
+            "index-typing": {
+                "someone-typing": "Ktoś pisze w tej dyskusji",
+                "someone-typing-tag": "Ktoś pisze w tym tagu"
             },
             "user": {
                 "settings": {
@@ -23,6 +29,7 @@
         },
         "admin": {
             "permission": {
+                "view-all-typing": "Wyświetlanie, kto pisze na całym forum",
                 "view-who-types": "Wyświetlanie, kto pisze"
             },
             "settings": {
@@ -33,7 +40,11 @@
                 "notification-toast-dismiss-after": "Czas wyświetlania wyskakujących powiadomień",
                 "notification-toast-dismiss-after-help": "Jak długo (w sekundach) wyskakujące powiadomienie pozostaje na ekranie, zanim automatycznie zniknie. Ustaw wartość 0, aby wyłączyć takie powiadomienia.",
                 "typing-indicator": "Wskaźnik pisania",
-                "typing-indicator-help": "Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket."
+                "typing-indicator-help": "Gdy ta opcja jest włączona, użytkownicy z odpowiednimi uprawnieniami będą widzieć liczbę osób aktualnie piszących w dyskusji. Gdy jest wyłączona, aktywność pisania jest całkowicie usuwana – zarówno z interfejsu, jak i z komunikacji websocket.",
+                "index-typing-indicator": "Wskaźniki pisania na liście dyskusji",
+                "index-typing-indicator-help": "Po włączeniu na liście dyskusji pojawi się kropka przy każdej publicznej dyskusji, w której ktoś aktualnie pisze. Nazwy użytkowników nie będą wyświetlane.",
+                "index-typing-indicator-restricted": "Wskaźniki pisania w tagach z ograniczonym dostępem",
+                "index-typing-indicator-restricted-help": "Pokazuj wskaźniki pisania również przy dyskusjach w tagach z ograniczonym dostępem, ale tylko użytkownikom, którzy mają dostęp do tych tagów. Wymaga rozszerzenia Tags. Domyślnie wyłączone."
             }
         }
     }

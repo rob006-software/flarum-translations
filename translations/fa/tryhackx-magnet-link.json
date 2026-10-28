@@ -8,6 +8,10 @@
                 "activated_only_help": "",
                 "scraper_enabled_label": "",
                 "scraper_enabled_help": "",
+                "scraper_engine_label": "",
+                "scraper_engine_help": "",
+                "scraper_engine_classic": "",
+                "scraper_engine_hardened": "",
                 "http_only_label": "",
                 "http_only_help": "",
                 "allow_private_trackers_label": "",
@@ -23,10 +27,16 @@
                 "tracker_timeout_help": "",
                 "max_trackers_label": "",
                 "max_trackers_help": "",
+                "topic_scrape_budget_label": "",
+                "topic_scrape_budget_help": "",
+                "scrape_max_concurrent_label": "",
+                "scrape_max_concurrent_help": "",
                 "scraper_max_redirects_label": "",
                 "scraper_max_redirects_help": "",
                 "priority_trackers_label": "",
                 "priority_trackers_help": "",
+                "scraper_host_allowlist_label": "",
+                "scraper_host_allowlist_help": "",
                 "cache_enabled_label": "",
                 "cache_enabled_help": "",
                 "cache_ttl_label": "",
@@ -43,6 +53,14 @@
                 "tooltip_enabled_help": "",
                 "tooltip_max_magnets_label": "",
                 "tooltip_max_magnets_help": "",
+                "tooltip_scrape_budget_label": "",
+                "tooltip_scrape_budget_help": "",
+                "tooltip_max_concurrent_label": "",
+                "tooltip_max_concurrent_help": "",
+                "tooltip_max_trackers_label": "",
+                "tooltip_max_trackers_help": "",
+                "tooltip_tracker_timeout_label": "",
+                "tooltip_tracker_timeout_help": "",
                 "tooltip_show_permission_errors_label": "",
                 "tooltip_show_permission_errors_help": "",
                 "rename_enabled_label": "",
@@ -86,12 +104,19 @@
                 "success": "",
                 "error": ""
             },
+            "maintenance": {
+                "label": "",
+                "help": ""
+            },
             "support": {
                 "button": "",
                 "title": "",
                 "description": "",
                 "copy": "",
                 "thanks": ""
+            },
+            "permissions": {
+                "view_magnet_links": ""
             }
         },
         "forum": {
@@ -123,8 +148,8 @@
                 "tooltip": "",
                 "modal_title": "",
                 "label": "",
-                "save": "",
-                "cancel": "",
+                "save": "درج کردن",
+                "cancel": "لغو",
                 "restore": ""
             },
             "errors": {
@@ -132,6 +157,7 @@
                 "no_trackers": "",
                 "no_http_trackers": "",
                 "no_response": "",
+                "busy": "",
                 "scraper_error": "",
                 "load_failed": ""
             },
@@ -140,8 +166,8 @@
                 "quota": ""
             }
         },
-        "permissions": {
-            "viewMagnetLinks": ""
+        "email": {
+            "magnet_hidden": ""
         }
     }
 }

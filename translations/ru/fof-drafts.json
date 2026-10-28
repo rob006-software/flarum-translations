@@ -12,6 +12,9 @@
                 "schedule_log_output": "Вести журнал работы планировщика"
             }
         },
+        "api": {
+            "empty_draft_message": ""
+        },
         "console": {
             "scheduled_drafts_disabled": "Расписание черновиков отключено в настройках.",
             "no_title_error": "Черновик пропущен — нет заголовка темы."
@@ -59,7 +62,8 @@
                     "draft_autosave_enable": "Включить автоматическое сохранение?",
                     "draft_autosave_interval_label": "Интервал автоматического сохранения (секунды)",
                     "draft_autosave_interval_button": "Обновить интервал",
-                    "draft_autosave_interval_invalid": "Интервал должен быть целым числом больше 4."
+                    "draft_autosave_interval_invalid": "Интервал должен быть целым числом больше 4.",
+                    "draft_autosave_interval_saved_message": ""
                 }
             }
         }

@@ -1,40 +1,40 @@
 {
     "cnsearch": {
         "meili": {
-            "host": "",
-            "key": "",
-            "index": ""
+            "host": "Host Meilisearch",
+            "key": "Khóa API Meilisearch",
+            "index": "Tên chỉ mục Meilisearch"
         }
     },
     "gitzaai-cnsearch": {
         "admin": {
             "settings": {
-                "meili_host_label": "",
-                "meili_host_help": "",
-                "meili_key_label": "",
-                "meili_key_help": "",
-                "meili_index_label": "",
-                "meili_index_help": ""
+                "meili_host_label": "Host Meilisearch",
+                "meili_host_help": "Bắt buộc phải có trước khi kiểm tra hoặc lập chỉ mục. Ví dụ: http://127.0.0.1:7700",
+                "meili_key_label": "Khóa API Meilisearch",
+                "meili_key_help": "Chỉ nhập khóa API Meilisearch nếu máy chủ Meilisearch của bạn yêu cầu.",
+                "meili_index_label": "Tên chỉ mục Meilisearch",
+                "meili_index_help": "Chỉ mục Meilisearch dùng cho việc tìm kiếm cuộc thảo luận."
             },
             "buttons": {
-                "title": "",
-                "reindex": "",
-                "test_connection": "",
-                "help": "",
-                "status_label": "",
-                "status_last_checked": "",
-                "status_connected": "",
-                "status_disconnected": "",
-                "status_unknown": "",
-                "indexed_count": "",
-                "source_discussions": "",
-                "source_posts": "",
-                "last_sync": "",
-                "not_synced": "",
-                "reindex_success": "",
-                "reindex_failed": "",
-                "test_connection_success": "",
-                "test_connection_failed": ""
+                "title": "Thao tác Meilisearch",
+                "reindex": "Dựng lại chỉ mục",
+                "test_connection": "Kiểm tra kết nối",
+                "help": "Hãy dùng các nút này để kiểm tra và dựng lại chỉ mục cuộc thảo luận của Meilisearch.",
+                "status_label": "Trạng thái kết nối",
+                "status_last_checked": "Kiểm tra lần cuối: {time}",
+                "status_connected": "Đã kết nối",
+                "status_disconnected": "Chưa kết nối",
+                "status_unknown": "Chưa kiểm tra kết nối",
+                "indexed_count": "Tài liệu trong Meilisearch: {count}",
+                "source_discussions": "Cuộc thảo luận nguồn: {count}",
+                "source_posts": "Bài viết nguồn đã lập chỉ mục: {count}",
+                "last_sync": "Lần dựng lại chỉ mục gần nhất: {time}",
+                "not_synced": "Chưa từng đồng bộ",
+                "reindex_success": "Đã gửi yêu cầu dựng lại chỉ mục thành công.",
+                "reindex_failed": "Dựng lại chỉ mục thất bại. Vui lòng kiểm tra nhật ký.",
+                "test_connection_success": "Kết nối Meilisearch thành công.",
+                "test_connection_failed": "Kết nối Meilisearch thất bại."
             }
         }
     }

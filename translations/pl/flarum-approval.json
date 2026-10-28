@@ -21,5 +21,17 @@
         "ref": {
             "awaiting_approval": "Czeka na zatwierdzenie"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "approved": "Zatwierdzono {discussion}"
+                },
+                "post": {
+                    "approved": "Zatwierdzono {post} użytkownika {postuser} w {discussion}"
+                }
+            }
+        }
     }
 }

@@ -7,6 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Memasukkan alasan sebelum melanjutkan untuk menyamar sebagai pengguna lain.",
+                "require_reason_help": "",
                 "no_settings_available": "Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes"
             }
         },
@@ -20,6 +21,24 @@
             },
             "user_controls": {
                 "impersonate_button": "Beralih sebagai pengguna lain"
+            }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "impersonated": "",
+                    "impersonation_ended": ""
+                }
             }
         }
     }

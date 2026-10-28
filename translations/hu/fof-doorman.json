@@ -75,15 +75,15 @@
                 }
             },
             "settings": {
-                "heading": "",
+                "heading": "Beállítások",
                 "search": "Ajtókulcsok keresése",
                 "total_doorkeys": "Összes ajtókulcs: {count}",
                 "create_doorkey_button": "Meghívókód létrehozása",
                 "optional_usage": "A meghívókód választhatóvá tétele a regisztrációkor",
-                "optional_usage_help": ""
+                "optional_usage_help": "Ha engedélyezve van, a látogatók meghívókód megadása nélkül is regisztrálhatnak."
             },
             "list": {
-                "heading": "",
+                "heading": "Meghívókódok",
                 "columns": {
                     "id": "Azonosító",
                     "key": "=> fof-doorman.admin.ref.fields.key.label",
@@ -106,17 +106,17 @@
                     "no_created_by": "Ismeretlen felhasználó"
                 },
                 "actions": {
-                    "notify": "",
-                    "edit": "",
-                    "delete": ""
+                    "notify": "E-mailben külje el ezt a meghívókódot",
+                    "edit": "Meghívókód szerkesztése",
+                    "delete": "Meghívókód törlése"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -130,7 +130,7 @@
         },
         "email": {
             "subject": "Meghívás, hogy csatlakozzon",
-            "body": ""
+            "body": "Meghívták, hogy regisztráljon ide: {forum}.\n\nHa készen áll egy fiók létrehozására, csak kattintson a következő hivatkozásra, és adja meg a kódot a regisztrációkor:\n\nWebcím: {url}\nMeghívókód: {code}\n\nHa ezt tévedésből kapta, hagyja figyelmen kívül ezt a levelet.\n"
         }
     }
 }

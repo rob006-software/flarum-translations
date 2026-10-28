@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Kustuta silt",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Oled kindel, et soovid seda silti kustutada? Selle sildiga vestlusi ei kustutata.",
                 "description_label": "Kirjeldus",
                 "hide_label": "Peida kõiki vestluste nimekirjast",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Vali sildid"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Muuda silte"
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {Vali veel 1 silt} other {Vali veel # silti}}",
             "name": "Nimi",
             "tags": "Sildid"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

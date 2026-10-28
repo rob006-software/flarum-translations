@@ -1,0 +1,129 @@
+{
+    "ffans-threadmarks": {
+        "admin": {
+            "permissions": {
+                "manage_personal_label": "Persönliche Diskussionsmarkierungen verwalten",
+                "manage_own_discussion_label": "Diskussionsmarkierungen in eigenen Diskussionen verwalten",
+                "manage_discussion_label": "Diskussionsmarkierungen in allen Diskussionen verwalten"
+            },
+            "types": {
+                "add_button": "Typ hinzufügen",
+                "table_a11y_label": "Typen von Diskussionsmarkierungen",
+                "order_heading": "Reihenfolge",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Quelle",
+                "enabled_heading": "Aktiviert",
+                "actions_heading": "Aktionen",
+                "reorder_tooltip": "Zum Neuanordnen ziehen",
+                "builtin_label": "Integriert",
+                "custom_label": "Benutzerdefiniert",
+                "enable_type_a11y_label": "{name} aktivieren",
+                "edit_type_a11y_label": "{name} bearbeiten",
+                "empty_text": "Noch keine Typen von Diskussionsmarkierungen."
+            },
+            "create_type_modal": {
+                "title": "Typ von Diskussionsmarkierungen erstellen",
+                "submit_button": "Erstellen"
+            },
+            "edit_type_modal": {
+                "title": "Typ von Diskussionsmarkierungen bearbeiten",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Diesen Typ von Diskussionsmarkierungen löschen?"
+            }
+        },
+        "forum": {
+            "type_labels": {
+                "default": "Diskussionsmarkierung",
+                "notice": "Notiz",
+                "highlight": "Hervorhebung",
+                "progress": "Fortschritt",
+                "update": "Aktualisierung",
+                "chapter": "Kapitel"
+            },
+            "manage_modal": {
+                "title": "Diskussionsmarkierung · #{number}",
+                "scope_a11y_label": "Diskussionsmarkierung Bereich",
+                "personal_tab": "Persönlich",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "Keine Diskussionsmarkierungen zur Verwaltung verfügbar.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Wähle einen Typ",
+                "note_label": "Notiz",
+                "note_placeholder": "Optional",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Hinzufügen",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "Diese persönliche Diskussionsmarkierung löschen?",
+                "delete_discussion_confirmation": "Diese öffentliche Diskussionsmarkierung löschen?"
+            },
+            "directory": {
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Verzeichnis der Diskussionsmarkierungen öffnen",
+                "close_a11y_label": "Verzeichnis der Diskussionsmarkierungen schließen",
+                "scope_a11y_label": "Diskussionsmarkierungen nach Bereich filtern",
+                "all_filter": "Alle",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
+            },
+            "threadmark": {
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Persönliche Diskussionsmarkierung, nur für dich sichtbar",
+                "edit_personal_tooltip": "Persönliche Diskussionsmarkierung bearbeiten",
+                "edit_discussion_tooltip": "Öffentliche Diskussionsmarkierung bearbeiten",
+                "edit_personal_a11y_label": "Persönliche Diskussionsmarkierung an Beitrag #{number} bearbeiten",
+                "edit_discussion_a11y_label": "Öffentliche Diskussionsmarkierung an Beitrag #{number} bearbeiten",
+                "deleted_text": "Dieser Inhalt wurde gelöscht."
+            },
+            "scrubber": {
+                "threadmark_a11y_label": "Diskussionsmarkierung an Beitrag #{number}",
+                "cluster_a11y_label": "{count, plural, one {# Diskussionsmarkierung} other {# Diskussionsmarkierungen}}",
+                "open_directory_a11y_label": "Vollständiges Verzeichnis der Diskussionsmarkierungen öffnen"
+            },
+            "discussion_controls": {
+                "show_all_button": "Alle Beiträge",
+                "show_threadmarks_button": "Markierungen",
+                "show_all_button_a11y_label": "Alle Beiträge anzeigen",
+                "show_threadmarks_button_a11y_label": "Nur Beiträge mit Diskussionsmarkierungen anzeigen"
+            },
+            "post_controls": {
+                "manage_button": "Diskussionsmarkierung verwalten"
+            }
+        },
+        "ref": {
+            "discussion": "Diskussion",
+            "mine": "Meine",
+            "threadmarks": "Diskussionsmarkierungen",
+            "type": "Typ",
+            "key": "Schlüssel",
+            "save": "Speichern"
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "Exportiert alle deine persönlichen und öffentlichen Diskussionsmarkierungen, die du erstellt oder zuletzt bearbeitet haben, ohne den Inhalt der Beiträge.",
+                "anonymize_description": "Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen.",
+                "delete_description": "Löscht deine persönlichen Diskussionsmarkierungen und entfernt deine Ersteller-/Bearbeiter-IDs von den öffentlichen Diskussionsmarkierungen."
+            },
+            "type_form": {
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Name",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fas fa-bookmark"
+            },
+            "validation": {
+                "first_post": "Diskussionsmarkierungen können nicht dem ersten Beitrag hinzugefügt werden.",
+                "duplicate_discussion": "Dieser Beitrag hat bereits eine öffentliche Diskussionsmarkierung. Bearbeite stattdessen die vorhandene Markierung.",
+                "invalid_discussion_post": "Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.",
+                "duplicate_personal": "Du hast bereits eine persönliche Diskussionsmarkierung für diesen Beitrag gesetzt. Bearbeite stattdessen die bereits vorhandene.",
+                "invalid_personal_post": "Persönliche Diskussionsmarkierungen können nur auf einen Kommentarbeitrag angewendet werden.",
+                "disabled_type": "Dieser Markierungstyp ist deaktiviert. Wähle einen anderen Typ aus.",
+                "type_in_use": "Dieser Markierungstyp wird verwendet und kann daher nicht gelöscht werden."
+            }
+        }
+    }
+}

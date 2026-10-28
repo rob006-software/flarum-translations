@@ -15,6 +15,53 @@
                 "group_help": "Valitse, mihin Flarum-käyttäjäryhmään toistuvat tukijat lisätään. Käyttäjät lisätään siihen automaattisesti, kun heistä tulee toistuvia tukijoita, ja siirretään kertaluontoiseen ryhmään (jos se on määritetty) tilauksen päättyessä.",
                 "onetime_group_label": "Kertaluontoisten tukijoiden ryhmä (valinnainen)",
                 "onetime_group_help": "Valitse, mihin Flarum-käyttäjäryhmään kertaluonteiset tukijat lisätään. Jos tätä ei ole asetettu, kertaluonteisia tukijoita ei hallita. Kun toistuva tukija peruuttaa tilauksensa, heidät siirretään tähän ryhmään."
+            },
+            "status": {
+                "heading": "",
+                "never_run": "",
+                "last_success": "",
+                "last_failure": "",
+                "stale": "",
+                "test_button": "",
+                "test_success": "",
+                "test_success_no_orders": "",
+                "request_failed": "",
+                "reasons": {
+                    "unauthorized": "",
+                    "forbidden": "",
+                    "emails_hidden": "",
+                    "not_found": "",
+                    "rate_limited": "",
+                    "network": "",
+                    "configuration": "",
+                    "no_backers": "",
+                    "other": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "fof_open_collective": {
+                    "recurring_started": "",
+                    "recurring_stopped": "",
+                    "onetime_started": "",
+                    "backing_ended": "",
+                    "groups_changed": "",
+                    "membership_adopted": ""
+                }
+            }
+        }
+    },
+    "flarum-gdpr": {
+        "lib": {
+            "data": {
+                "opencollectivebacker": {
+                    "export_description": "",
+                    "anonymize_description": "",
+                    "delete_description": ""
+                }
             }
         }
     }

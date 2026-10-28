@@ -11,32 +11,33 @@
                     "tags": "Tagi najlepszej odpowiedzi",
                     "general": "Ogólne",
                     "reminders": "Przypomnienia",
-                    "advanced": "Zaawansowane",
-                    "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany."
+                    "reminders_notice": "Przypomnienia zachęcają autora dyskusji do wybrania najlepszej odpowiedzi. Wysyła je zadanie uruchamiane co godzinę, dlatego harmonogram zadań Flarum musi być prawidłowo skonfigurowany.",
+                    "advanced": "Zaawansowane"
                 },
                 "show_max_lines_label": "Maksymalna liczba wierszy do wyświetlenia w podglądzie posta",
                 "show_max_lines_help": "Ustaw 0, aby wyłączyć limit. Jeśli post jest dłuższy niż podana liczba wierszy, podgląd posta zostanie przycięty za pomocą efektu zanikania.",
-                "select_best_answer_reminder_days": "Częstotliwość przypominania",
-                "select_best_answer_reminder_days_help": "Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.",
+                "select_best_answer_reminder_days": "Liczba dni do przypomnienia",
+                "select_best_answer_reminder_days_help": "Po tylu dniach od rozpoczęcia dyskusji jej autor otrzyma przypomnienie o wybraniu najlepszej odpowiedzi. Przypomnienie jest wysyłane tylko raz dla każdej dyskusji i tylko wtedy, gdy jej autor może wybrać jedną z odpowiedzi. Dyskusje, dla których termin przypomnienia minął ponad 7 dni temu, są pomijane. Ustaw 0, aby wyłączyć przypomnienia.",
                 "select_best_answer_tags_label": "Tagi dla dyskusji z najlepszą odpowiedzią",
-                "select_best_answer_tags_help": "Wybierz które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Tylko tagi podrzędne są dozwolone. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.",
-                "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler)",
-                "schedule_on_one_server_help": "Wymaga Redis/Memcache",
+                "select_best_answer_tags_help": "Wybierz, które tagi mają zostać dodane do dyskusji, gdy zostanie dla niej ustawiona najlepsza odpowiedź. Dozwolone są tylko tagi dodatkowe. Te tagi zostaną usunięte z dyskusji, jeśli najlepsza odpowiedź zostanie usunięta dla danej dyskusji.",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
-                "schedule_stop_overnight_help": "21.00 - 8.00 według czasu serwera",
-                "schedule_log_output": "Zapisz logi harmonogramu zadań",
+                "schedule_stop_overnight_help": "Przypomnienia są wysyłane tylko w godzinach 8.00–21.00 UTC.",
+                "schedule_log_output": "Zapisuj w logu przebieg wysyłania przypomnień",
+                "schedule_log_output_help": "Dopisuje wynik każdego uruchomienia do pliku storage/logs/fof-best-answer.log.",
                 "show_filter_label": "Wyświetl filtr dyskusji z/bez najlepszą odpowiedzią",
                 "show_filter_help": "Dla tagów obsługujących najlepsze odpowiedzi wyświetl filtr pozwalający odfiltrować rozwiązane/nierozwiązane dyskusje na liście",
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
                 "enabled_tags_label": "Włączone tagi",
-                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na \"Pytania i Odpowiedzi\" (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
+                "enabled_tags_help": "Wybierz tagi, dla których chcesz włączyć najlepsze odpowiedzi. Tagi te zmienią format na „Pytania i Odpowiedzi” (Q&A) i będą miały możliwość oznaczania najlepszych odpowiedzi.",
                 "remind_tags_label": "Tagi z przypomnieniami",
-                "remind_tags_help": "Wybierz tagi, dla których mają być wysyłane przypomnienia. Przypomnienia będą wysyłane tylko dla dyskusji zawierających te tagi.",
+                "remind_tags_help": "Przypomnienia są wysyłane tylko dla dyskusji z tymi tagami. Dyskusja musi mieć również jeden z tagów wybranych w polu „Włączone tagi”.",
                 "tags_info": "Gdy tag ma włączoną obsługę najlepszych odpowiedzi, przypisz uprawnienia dla każdej grupy użytkowników, która może je wybierać (we własnej dyskusji, w dowolnej dyskusji). Uprawnienia mogą być przypisywane globalnie (dla każdego tagu obsługującego najlepsze odpowiedzi) lub niezależnie dla poszczególnych tagów.\n",
                 "discussion_sidebar_jump_button": "Przycisk przejścia do najlepszej odpowiedzi na pasku bocznym",
-                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi."
+                "discussion_sidebar_jump_button_help": "Dodaje na pasku bocznym dyskusji przycisk, który pozwala szybko przewinąć stronę bezpośrednio do najlepszej odpowiedzi.",
+                "schedule_on_one_server": "Użyj dyrektywy „onOneServer()” dla harmonogramu zadań (task scheduler)",
+                "schedule_on_one_server_help": "Wymaga Redis/Memcache"
             },
             "edit_tag": {
                 "qna_label": "Włącz możliwość ustawiania najlepszej odpowiedzi w tym tagu",
@@ -45,7 +46,7 @@
         },
         "forum": {
             "answered_badge": "Rozwiązane",
-            "this_best_answer": "Oznacz jako najlepsza odpowiedź",
+            "this_best_answer": "Oznacz jako najlepszą odpowiedź",
             "remove_best_answer": "To nie jest najlepsza odpowiedź",
             "best_answer_button": "Najlepsza odpowiedź",
             "best_answer_label": "wybrana przez <a>{username}</a> {time_set}",
@@ -57,7 +58,7 @@
                 "content": "Wybierz najlepszą odpowiedź, jeśli Twój problem został rozwiązany",
                 "awarded": "Twój post został wybrany jako najlepsza odpowiedź przez {username}",
                 "preferences": {
-                    "awarded_best_answer": "Ktoś oznaczył mój post jako najlepsza odpowiedź",
+                    "awarded_best_answer": "Ktoś oznaczył mój post jako najlepszą odpowiedź",
                     "best_answer_in_discussion": "Ktoś wybrał najlepszą odpowiedź w dyskusji, w której uczestniczyłem",
                     "select_best_answer": "Automatyczne przypomnienie o wybraniu najlepszej odpowiedzi w dyskusji, którą rozpocząłem"
                 }
@@ -67,6 +68,10 @@
                 "cannot_ask_question": "Nie można zadać pytania",
                 "solved_link": "Rozwiązane dyskusje",
                 "unsolved_link": "Nierozwiązane dyskusje"
+            },
+            "deck": {
+                "best_answers": "Najlepsze odpowiedzi",
+                "unsolved_questions": "Nierozwiązane pytania"
             },
             "filter": {
                 "all_label": "Wszystkie pytania",
@@ -91,15 +96,21 @@
                 "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
             },
             "body": {
-                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
-                "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
+                "awarded": "Świetna robota, {actor_display_name} właśnie wybrał Twój post jako najlepszą odpowiedź w „{discussion_title}”. Dzięki za pomoc!\n\nLink do dyskusji: {discussion_url}\n",
+                "ba-set": "{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji „{discussion_title}”, w której uczestniczyłeś.\n\nLink do dyskusji: {discussion_url}\n",
+                "select": "Tylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie „{discussion_title}”. Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem – dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli – poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij link: {discussion_url}\n\nDzięki!\n"
             }
         },
         "lib": {
             "gambits": {
                 "solved-discussions": {
-                    "key": ""
+                    "key": "rozwiązane"
+                },
+                "qna": {
+                    "key": "pytanie"
+                },
+                "solution": {
+                    "key": "rozwiązanie"
                 }
             }
         }
@@ -109,6 +120,16 @@
             "sort": {
                 "most_best_answers": "Najwięcej najlepszych odpowiedzi",
                 "least_best_answers": "Najmniej najlepszych odpowiedzi"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "best_answer_set": "Wybrano {post} jako najlepsza odpowiedź w {discussion}",
+                    "best_answer_unset": "Cofnięto oznaczenie {post} jako najlepszej odpowiedzi w {discussion}"
+                }
             }
         }
     }

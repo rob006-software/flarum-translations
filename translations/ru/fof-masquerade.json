@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Заполните необходимые поля профиля ниже.\n",
                 "profile-completed": "Профиль заполнен! <a>Перейти на главную</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Создать поле",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Сохранить изменения",
-                "delete-field": "Удалить поле"
+                "delete-field": "Удалить поле",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Редактировать профили других пользователей",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Поля",
+                "trash": "",
                 "create": "Создать поле",
                 "edit": "Редактировать поле {field}",
                 "delete-confirmation": "Удалить поле {field}? Это действие нельзя отменить.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Название поля",
                 "name-help": "Публичное непереводимое название поля\n",
                 "description": "Описание поля",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "ответ"
+                    "key": "ответ",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Экспортирует ответы пользователя на поля профиля",
                     "delete_description": "Удаляет все ответы на поля профиля из аккаунта пользователя",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "Создано поле профиля «{name}»",
+                    "field_updated": "Обновлено поле профиля «{name}»",
+                    "field_deleted": "Удалено поле профиля «{name}»",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": "Обновлены профильные поля пользователя {username}"
                 }
             }
         }

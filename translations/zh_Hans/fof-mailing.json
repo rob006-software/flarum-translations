@@ -3,41 +3,41 @@
         "admin": {
             "permissions": {
                 "mail_individual": "向单个用户发送邮件",
-                "mail_all": "向群组或所有用户发送邮件"
+                "mail_all": "向用户组或全体用户发送邮件"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "向这个用户发送邮件",
+                "mail_individual": "发送邮件",
                 "mail_all": "发送邮件"
             },
             "modal_mail": {
-                "title_text": "新建邮件",
+                "title_text": "撰写邮件",
                 "recipients_label": "收件人",
-                "recipients_placeholder": "添加更多收件人...",
+                "recipients_placeholder": "添加更多收件人…",
                 "subject_label": "主题",
                 "default_subject": "=> fof-mailing.ref.default_subject",
-                "message_label": "消息",
+                "message_label": "正文",
                 "submit_button": "发送"
             },
             "modal_sent": {
-                "title_text": "邮件发送成功！",
-                "on_its_way": "成功啦！你的邮件正在急速奔向{recipientsCount}位收件人！"
+                "title_text": "邮件已发送！",
+                "on_its_way": "你的邮件正在飞速奔向 {recipientsCount} 位收件人。"
             },
             "recipient_kinds": {
                 "user": "用户",
-                "group": "群组",
-                "email": "邮件"
+                "group": "用户组",
+                "email": "邮箱"
             }
         },
         "api": {
-            "no_recipients": "没有找到符合条件的收件人"
+            "no_recipients": "未找到匹配的收件人"
         },
         "email": {
             "default_subject": "=> fof-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": "来自论坛管理员的邮件"
+            "default_subject": "来自社区管理团队的消息"
         }
     }
 }

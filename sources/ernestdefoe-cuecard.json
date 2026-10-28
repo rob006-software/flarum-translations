@@ -1,0 +1,77 @@
+{
+    "ernestdefoe-cuecard": {
+        "admin": {
+            "permissions": {
+                "use": "Insert global macros",
+                "save_personal": "Save personal macros",
+                "manage_global": "Create and edit global macros"
+            }
+        },
+        "api": {
+            "groups_required": "Choose at least one group. Choose Members to offer it to everyone allowed to insert macros.",
+            "too_many_macros": "You can save up to {count} macros. Delete one to save another."
+        },
+        "forum": {
+            "composer": {
+                "button": "Insert a macro",
+                "actions_label": "When posted:",
+                "action_lock": "Lock",
+                "action_tags": "Tag: {tags}",
+                "action_tags_replace": "Retag: {tags}",
+                "action_best_answer": "Best answer",
+                "remove_action": "Don't do this",
+                "failed": "Your reply was posted, but this could not be done: {actions}.",
+                "failed_lock": "locking the discussion",
+                "failed_tags": "changing its tags",
+                "failed_best_answer": "marking the best answer",
+                "failed_separator": ", "
+            },
+            "picker": {
+                "title": "Macros",
+                "search_placeholder": "Search macros",
+                "empty": "No macros yet.",
+                "no_results": "No macros match your search.",
+                "global_heading": "Shared",
+                "personal_heading": "Yours",
+                "new_button": "New macro",
+                "save_reply_button": "Save this text as a macro",
+                "edit_button": "Edit",
+                "delete_button": "Delete",
+                "delete_confirm": "Delete the macro \"{title}\"? This cannot be undone.",
+                "insert_hint": "↑ ↓ to choose, Enter to insert"
+            },
+            "editor": {
+                "new_title": "New macro",
+                "edit_title": "Edit macro",
+                "title_label": "Title",
+                "content_label": "Text",
+                "placeholders_label": "Placeholders you can use",
+                "scope_label": "Who can use it",
+                "scope_personal": "Only me",
+                "scope_global": "Shared with staff and the groups below",
+                "groups_label": "Offer to these groups",
+                "groups_help": "Members means everyone allowed to insert macros.",
+                "actions_label": "When it is used in a reply",
+                "actions_help": "Each happens only where the person posting is allowed to do it; otherwise they are told.",
+                "lock_label": "Lock the discussion",
+                "tags_label": "Tag the discussion",
+                "tags_search_placeholder": "Filter tags",
+                "replace_tags_label": "Replace its tags instead of adding to them",
+                "best_answer_label": "Mark the reply as the best answer",
+                "save_button": "Save macro"
+            },
+            "placeholders": {
+                "username": "the discussion starter's username",
+                "display_name": "the discussion starter's display name",
+                "mention": "a mention of the discussion starter",
+                "my_username": "your username",
+                "my_display_name": "your display name",
+                "discussion_title": "the discussion title",
+                "discussion_url": "the discussion link",
+                "forum_name": "the forum name",
+                "forum_url": "the forum link",
+                "date": "today's date"
+            }
+        }
+    }
+}

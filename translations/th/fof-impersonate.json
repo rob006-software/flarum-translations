@@ -2,24 +2,43 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "เข้าสู่ระบบในฐานะผู้ใช้อื่น (Impersonate)"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "สวมบทบาทผู้ใช้ (FoF Impersonate)",
+                "require_reason": "บังคับให้ต้องระบุเหตุผลก่อนเข้าสู่ระบบในฐานะผู้ใช้อื่น",
+                "require_reason_help": "",
+                "no_settings_available": "ยังไม่มีการตั้งค่าใดๆ ในขณะนี้ ลองติดตั้งส่วนขยาย fof/moderator-notes"
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "เข้าสู่ระบบในฐานะผู้ใช้อื่น",
+                "label": "พลังอันยิ่งใหญ่มาพร้อมกับความรับผิดชอบอันใหญ่ยิ่ง หากคุณดำเนินการต่อ คุณจะสวมบทบาทเข้าใช้งานเป็น {username} จนกว่าคุณจะออกจากระบบ",
+                "placeholder_optional": "(ไม่บังคับ) ระบุเหตุผลในการเข้าใช้งานเป็นผู้ใช้นี้",
+                "placeholder_required": "คุณจำเป็นต้องระบุเหตุผลในการเข้าใช้งานเป็นผู้ใช้นี้ก่อนที่จะดำเนินการต่อ",
+                "impersonate_username": "เข้าสู่ระบบในฐานะ {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "สวมบทบาทเป็นผู้ใช้นี้"
+            }
+        },
+        "forum": {
+            "notice": {
+                "message": ""
+            },
+            "return": {
+                "button": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "impersonated": "",
+                    "impersonation_ended": ""
+                }
             }
         }
     }

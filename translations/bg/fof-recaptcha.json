@@ -1,6 +1,7 @@
 {
     "fof-recaptcha": {
         "admin": {
+            "maintenance_mode_warning": "",
             "settings": {
                 "help_text": "Получете идентификационните си данни за Google reCAPTCHA <a>тук</a>.",
                 "secret_key_label": "Таен ключ",
@@ -39,6 +40,9 @@
     },
     "validation": {
         "recaptcha": "Проверката на reCAPTCHA не бе успешна.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "",
+        "attributes": {
+            "g-recaptcha-response": ""
+        }
     }
 }

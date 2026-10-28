@@ -57,5 +57,15 @@
                 "subject": "Diskusi Anda \"{merged_discussion_title}\" telah digabungkan"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

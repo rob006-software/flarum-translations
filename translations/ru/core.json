@@ -50,6 +50,8 @@
                     "cdn_url_help": "Полный URL CSS-файла Font Awesome на CDN",
                     "kit_url_label": "URL набора",
                     "kit_url_help": "URL скрипта вашего набора с kit.fontawesome.com",
+                    "forced_style_label": "Стиль иконок",
+                    "forced_style_help": "Принудительно применяет к каждой иконке определённый стиль FontAwesome, например «fa-duotone fa-light» или «fa-regular». Заменяет стили ядра и расширений — при этом иконки брендов никогда не меняются. Источник иконок должен поддерживать нужный стиль: встроенные иконки — это FontAwesome Free, которые вне стиля Solid покрывают лишь несколько сотен иконок, поэтому принудительное указание другого стиля оставит большинство иконок пустыми. Все стили доступны при подключении FontAwesome Pro через CDN или Kit. Оставьте пустым, чтобы отключить.",
                     "config_override": {
                         "label": "Переопределение конфигурации",
                         "help": "Настройки Font Awesome заданы в файле config.php и не могут быть изменены здесь."
@@ -67,6 +69,10 @@
                     "search_configuration": "Конфигурация поиска"
                 },
                 "queue": {
+                    "pause_label": "Приостановить обработку очереди",
+                    "pause_all_label": "Приостановить все очереди",
+                    "pause_queue_label": "Приостановить очередь «{queue}»",
+                    "pause_help": "Пока обработка приостановлена, воркеры не берут новые задачи из затронутых очередей — задачи накапливаются до возобновления обработки. На уже выполняющиеся задачи это не влияет.",
                     "section_label": "Очередь",
                     "sync_info": "Форум использует синхронный драйвер очереди. Задачи выполняются сразу в основном процессе.",
                     "sync_help": "Для повышения производительности и удобства пользователей рекомендуется использовать драйвер очереди с использованием базы данных. Подробнее в документации.",
@@ -89,7 +95,9 @@
                     "driver_options": {
                         "default": "Стандартный поиск в базе данных"
                     },
-                    "no_other_drivers": "Другие драйверы поиска пока недоступны. Установите расширение драйвера поиска, чтобы настроить его."
+                    "no_other_drivers": "Другие драйверы поиска пока недоступны. Установите расширение драйвера поиска, чтобы настроить его.",
+                    "cjk_mode_label": "Оптимизировать поиск для CJK",
+                    "cjk_mode_help": "Включите, если ваш форум на китайском, японском или корейском языке. Полнотекстовый поиск базы данных ищет по словам и не может находить совпадения внутри иероглифического текста, поэтому эта опция переключает его на посимвольное сравнение подстрок. На очень крупных форумах это работает медленнее. Более быстрая альтернатива — настроить на уровне базы данных парсер полнотекстового поиска с поддержкой CJK, например ngram-парсер MySQL/MariaDB."
                 },
                 "title": "Расширенные"
             },
@@ -111,6 +119,8 @@
                 "edit_css_button": "Редактировать CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
+                "email_logo_heading": "",
+                "email_logo_text": "",
                 "enter_hex_message": "Пожалуйста, введите код цвета в формате HEX.",
                 "favicon_heading": "Фавикон",
                 "favicon_text": "Загрузите изображение, которое будет отображаться в качестве значка форума.",
@@ -118,6 +128,8 @@
                 "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
                 "logo_dark_mode_heading": "Логотип для тёмной темы",
                 "logo_dark_mode_text": "Загрузите альтернативный логотип для тёмной темы.",
+                "show_theme_selector_help": "Позволяет переключаться между доступными темами в шапке форума.",
+                "show_theme_selector_label": "Показывать переключатель темы",
                 "title": "Оформление",
                 "color_scheme_label": "Цветовая схема по умолчанию",
                 "color_schemes": {
@@ -195,8 +207,41 @@
                 "title": "Анонсы",
                 "view_all": "Все анонсы на discuss.flarum.org"
             },
+            "queue_widget": {
+                "title": "Очередь",
+                "pending": "В ожидании",
+                "reserved": "Выполняется",
+                "failed": "Ошибки",
+                "refresh": "Обновить"
+            },
+            "failed_jobs": {
+                "title": "Неудачные задачи",
+                "none": "Неудачных задач нет.",
+                "meta": "Очередь {queue} · сбой {time}",
+                "details": "Подробности",
+                "retry": "Повторить",
+                "retry_all": "Повторить все",
+                "delete": "Удалить"
+            },
             "dashboard": {
+                "queue_paused_warning": "Обработка очереди {queues} приостановлена. Задачи будут накапливаться до возобновления обработки.",
+                "queue_paused_all_warning": "Обработка всех очередей приостановлена. Задачи будут накапливаться до возобновления обработки.",
+                "queue_paused_manage": "Управление",
                 "clear_cache_button": "Очистить кэш",
+                "clear_cache_modal": {
+                    "title": "",
+                    "working": "",
+                    "cleared": "",
+                    "cleared_files": "",
+                    "rebuilt": "",
+                    "unchanged": "",
+                    "rewritten": "",
+                    "empty": "",
+                    "chunks": "",
+                    "failed": "",
+                    "took": "",
+                    "reload_button": ""
+                },
                 "description": "Панель управления форумом.",
                 "info_button": "Сведения о системе",
                 "info_modal": {
@@ -237,6 +282,14 @@
                 "section_disabled_heading": "Отключено",
                 "section_disabled_help": "Эти расширения установлены, но сейчас отключены. Включите их в настройках или удалите, если они больше не нужны.",
                 "suggested_by": "Рекомендуется расширением {extension}"
+            },
+            "database-driver-mismatch-warning": {
+                "detail": "Ваш файл <code>config.php</code> настроен на использование драйвера базы данных <code>{configured}</code>, однако Flarum определил, что сервер базы данных использует <code>{actual}</code>.\n\nИспользование неверного драйвера может привести к неочевидным ошибкам. Установите <code>'driver' => ''{actual}''</code> в разделе <code>database</code> файла <code>config.php</code>. Дополнительную информацию можно найти в <link>документации Flarum</link>.\n",
+                "label": "Несоответствие драйвера базы данных"
+            },
+            "database-version-warning": {
+                "below-recommended-detail": "Ваш сервер {server} работает на версии <code>{version}</code>. Она поддерживается, но для максимальной производительности и получения обновлений рекомендуем {server} <code>{recommended}</code> или новее. Подробнее в <link>документации Flarum</link>.\n",
+                "below-recommended-label": "Версия базы данных устарела"
             },
             "debug-warning": {
                 "detail": "При активном режиме <code>отладки</code> Flarum будет перестраивать <code>JavaScript</code> и <code>CSS</code> при каждом запросе. Это может привести к утечке потенциально важной информации, например, паролей баз данных, переменных окружения и другого.\n\nНастоятельно рекомендуется отключить режим <code>отладки</code> в вашем файле <code>config.php</code>. Дополнительную информацию смотрите в <link>документации Flarum</link>.\n",
@@ -402,9 +455,10 @@
                 "create_heading": "Создание",
                 "delete_discussions_forever_label": "Удалять темы навсегда",
                 "delete_discussions_label": "Удалять темы",
-                "delete_posts_forever_label": "Удалять сообщения (навсегда)",
+                "delete_posts_forever_label": "Удалять сообщения навсегда",
                 "delete_posts_label": "Удалять сообщения",
                 "description": "Настройка прав доступа к различным местам и функциям форума.",
+                "edit_own_avatar_label": "",
                 "edit_posts_label": "Редактировать сообщения",
                 "edit_users_label": "Редактировать пользователей",
                 "edit_users_credentials_label": "Редактировать учётные данные пользователя",
@@ -579,7 +633,8 @@
                 "search_role_label": "Поиск",
                 "session_dropdown_accessible_label": "Меню опций сеанса",
                 "settings_button": "=> core.ref.settings",
-                "sign_up_link": "=> core.ref.sign_up"
+                "sign_up_link": "=> core.ref.sign_up",
+                "theme_switcher_accessible_label": "Сменить тему"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -593,12 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Меню навигации"
             },
             "index_sort": {
-                "latest_button": "По обновлению",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Изменить сортировку списка тем",
-                "top_button": "Популярное"
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Забыли пароль?",
@@ -608,6 +665,7 @@
                 "sign_up_text": "У вас нет аккаунта? <a>Регистрация</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
+                "too_many_attempts_message": "",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -691,8 +749,8 @@
                 "revoke_access_token_confirmation": "=> core.ref.generic_confirmation_message",
                 "sessions_heading": "Активные сеансы",
                 "session_terminated": "{count, plural, one {Сеанс завершён} few {# сеанса завершено} other {# сеансов завершено}}.",
-                "session_termination_failed": "Произошла ошибка при завершении Ваших сеансов.",
-                "show_access_token": "Смотреть токен",
+                "session_termination_failed": "Произошла ошибка при завершении ваших сеансов.",
+                "show_access_token": "Показать токен",
                 "terminate_all_other_sessions": "Завершить все остальные сеансы",
                 "terminate_all_other_sessions_confirmation": "=> core.ref.generic_confirmation_message",
                 "terminate_session": "Завершено",
@@ -718,6 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Кто-то изменил название моей темы",
+                "reset_notifications_button": "",
                 "device_heading": "Устройство",
                 "haptic_feedback_help": "Доступно только на поддерживаемых мобильных устройствах",
                 "haptic_feedback_label": "Включить вибрацию",
@@ -760,7 +819,7 @@
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "Повторно отправить подтверждение по email",
+                "resend_button": "Повторно отправить подтверждение на email",
                 "sent_message": "Отправлено"
             },
             "welcome_hero": {
@@ -768,9 +827,14 @@
             }
         },
         "lib": {
+            "connection_restored_message": "Вы снова в сети.",
             "debug_button": "Отладка",
             "alert": {
                 "dismiss_a11y_label": "Закрыть"
+            },
+            "assets_updated": {
+                "message": "Доступна новая версия этой страницы.",
+                "reload_button": "Обновить"
             },
             "badge": {
                 "hidden_tooltip": "Скрыто"
@@ -804,11 +868,13 @@
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "generic_cross_origin_message": "Упс! Что-то пошло не так при выполнении запроса cross-origin. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
+                "network_message": "Похоже, возникли проблемы с сетью. Проверьте соединение и попробуйте снова.",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
+                "offline_message": "Похоже, вы не в сети. Проверьте соединение и попробуйте снова.",
                 "payload_too_large_message": "Нагрузка при запросе была слишком большая.",
                 "permission_denied_message": "У вас нет прав доступа для выполнения этого действия.",
                 "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",
-                "render_failed_message": "К сожалению, при отображении страницы произошла ошибка. Если Вы пользователь, повторите попытку позже. Если Вы администратор, посмотрите журналы Flarum для получения дополнительной информации."
+                "render_failed_message": "Возникла ошибка при отображении этой страницы. Если вы пользователь, попробуйте зайти позже. Если вы администратор, посмотрите логи Flarum."
             },
             "gambits": {
                 "group_keys": {
@@ -849,6 +915,9 @@
                     }
                 }
             },
+            "group_selector": {
+                "placeholder": ""
+            },
             "input": {
                 "clear_button": "Очистить поле"
             },
@@ -866,7 +935,8 @@
                 "placeholder": "Выберите несколько вариантов"
             },
             "nav": {
-                "drawer_button": "Открыть панель навигации"
+                "drawer_button": "Открыть панель навигации",
+                "pin_pane_button": "Закрепить список тем"
             },
             "notices": {
                 "bisecting": "Выполняется диагностика расширений для определения причины проблемы.",
@@ -874,9 +944,21 @@
                 "maintenance_mode_low": "Форум закрыт на техническое обслуживание. Доступ есть только у администраторов.",
                 "maintenance_mode_safe": "Форум закрыт на техническое обслуживание в безопасном режиме. Доступ есть только у администраторов, расширения не загружаются."
             },
+            "index_sort": {
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
+            },
+            "overflowing_list": {
+                "toggle_accessible_label": "Больше"
             },
             "pagination": {
                 "back_button": "Предыдущая страница",
@@ -895,6 +977,7 @@
                 "options_heading": "Параметры поиска",
                 "placeholder": "Поиск...",
                 "preview_heading": "Предпросмотр поиска",
+                "search_active_button_accessible_label": "Изменить поиск: {query}",
                 "search_clear_button_accessible_label": "Очистить поиск"
             },
             "search_source": {
@@ -972,7 +1055,7 @@
                 "maintenance_mode_title": "Обслуживание",
                 "method_not_allowed": "Эта страница не поддерживает такой метод запроса.",
                 "not_authenticated": "У вас нет прав доступа к этой странице. Попробуйте ещё раз после входа в свой аккаунт.",
-                "not_found": "Страница по Вашему запросу не найдена.",
+                "not_found": "Страница по вашему запросу не найдена.",
                 "not_found_return_link": "Вернуться на {forum}",
                 "permission_denied": "У вас нет прав доступа к этой странице.",
                 "unknown": "Произошла ошибка при попытке загрузить страницу."
@@ -996,7 +1079,8 @@
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
-                "title": "=> core.ref.log_in"
+                "title": "=> core.ref.log_in",
+                "too_many_attempts_message": ""
             },
             "reset_password": {
                 "confirm_password_label": "Подтвердить пароль",
@@ -1042,7 +1126,7 @@
                 }
             },
             "activate_account": {
-                "subject": "Активация Вашего аккаунта",
+                "subject": "Активация вашего аккаунта",
                 "body": "На форуме {forum} кто-то зарегистрировался с этим адресом электронной почты.\n\nЕсли это были вы, перейдите по ссылке, чтобы активировать учётную запись:\n{url}\n\nЕсли вы не регистрировались на {forum}, просто проигнорируйте письмо.\n"
             },
             "confirm_email": {
@@ -1080,7 +1164,7 @@
             "dark_hc_mode_label": "Контрастный тёмный",
             "dark_mode_label": "Тёмный",
             "delete": "Удалить",
-            "delete_forever": "Удалить (навсегда)",
+            "delete_forever": "Удалить навсегда",
             "discussions": "Темы",
             "edit": "Править",
             "edit_user": "Изменить пользователя",
@@ -1093,21 +1177,22 @@
             "light_hc_mode_label": "Контрастная светлая",
             "light_mode_label": "Светлая",
             "load_more": "Показать ещё",
+            "latest": "По обновлению",
             "loading": "Загрузка...",
             "log_in": "Войти",
             "log_out": "Выйти",
             "mark_all_as_read": "Отметить всё как прочитанное",
             "never": "Никогда",
             "new_token": "Новый токен",
-            "newest": "Новые",
+            "newest": "Новое",
             "next_page": "Следующая страница",
             "notifications": "Уведомления",
             "okay": "ОК",
-            "oldest": "Старые",
+            "oldest": "Старое",
             "password": "Пароль",
             "posts": "Сообщения",
             "previous_page": "Предыдущая страница",
-            "relevance": "По соответствию",
+            "relevance": "По релевантности",
             "remember_me_label": "Запомнить меня",
             "remove": "Удалить",
             "rename": "Переименовать",
@@ -1122,6 +1207,10 @@
             "sign_up": "Регистрация",
             "some_others": "{count, plural, one {# другой} other {# других}}",
             "start_a_discussion": "Создать тему",
+            "title_az": "Название (А–Я)",
+            "title_za": "Название (Я–А)",
+            "too_many_login_attempts_message": "",
+            "top": "Популярное",
             "username": "Имя пользователя",
             "username_or_email_placeholder": "Имя пользователя или Email",
             "users": "Пользователи",

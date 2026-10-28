@@ -1,0 +1,134 @@
+{
+    "ernestdefoe-salvage": {
+        "forum": {
+            "flag_reason": "Salvage found a broken link in this post"
+        },
+        "admin": {
+            "status": {
+                "title": "Link health",
+                "scheduler_missing": "Salvage works in the background, through Flarum's scheduler, and the scheduler has not run yet. Add the cron line from Flarum's documentation, or nothing will be checked or mirrored.",
+                "scheduler_stale": "Flarum's scheduler last ran {ago}. Salvage only works while it runs every minute.",
+                "scheduler_docs": "How to set up the scheduler",
+                "scan_title": "Existing posts",
+                "scan_help": "New and edited posts are tracked as they are saved. Scan the rest once, after installing; it runs in the background, 500 posts at a time.",
+                "scan_start": "Scan existing posts",
+                "scan_running": "Scanning: {done} of {total} posts",
+                "scan_stop": "Stop",
+                "pending": "{count} waiting for their first check"
+            },
+            "views": {
+                "broken": "Broken",
+                "failing": "Failing",
+                "decided": "Fixed",
+                "mirrored": "Mirrored images",
+                "ignored": "Ignored",
+                "skipped": "Not checked",
+                "all": "All"
+            },
+            "links": {
+                "kind_all": "Links and images",
+                "kind_link": "Links only",
+                "kind_image": "Images only",
+                "search_placeholder": "Filter by site, e.g. example.com",
+                "empty": "Nothing here.",
+                "empty_broken": "No broken links. Good news.",
+                "image": "Image",
+                "in_post": "in {title} #{number}",
+                "hidden_post": "hidden or private",
+                "more_posts": "{count, plural, one {and # more post} other {and # more posts}}",
+                "show_posts": "Show all posts",
+                "load_more": "Load more",
+                "checked": "Checked {ago}",
+                "broken_since": "Broken since {ago}",
+                "never_checked": "Not checked yet",
+                "applying": "Updating posts…",
+                "replaced_with": "Now points to {url}",
+                "unlinked": "Link removed from posts",
+                "mirrored": "Copy kept at {url}",
+                "ignored_note": "Ignored. Not checked or reported.",
+                "archive_copy": "archive.org copy",
+                "no_archive": "No archive.org copy",
+                "fail_count": "{count, plural, one {# failed check} other {# failed checks}}",
+                "previous": "Previous",
+                "next": "Next",
+                "page": "Page {page} of {pages}"
+            },
+            "actions": {
+                "replace": "Replace…",
+                "archive": "Use archive.org copy",
+                "unlink": "Unlink",
+                "ignore": "Ignore",
+                "restore": "Undo",
+                "recheck": "Check again",
+                "mirror": "Try mirroring again",
+                "unlink_confirm": "Remove this link from every post that holds it? The link text stays; the link itself cannot be put back except by editing the posts."
+            },
+            "replace_modal": {
+                "title": "Replace link",
+                "help": "Every post that links here will point to the new address instead. The text people see in the post does not change.",
+                "label": "New address",
+                "submit": "Replace in all posts"
+            },
+            "status_labels": {
+                "pending": "Waiting",
+                "ok": "Working",
+                "broken": "Broken",
+                "blocked": "Blocks checkers",
+                "skipped": "Not checked"
+            },
+            "errors": {
+                "http": "HTTP {code}",
+                "http_404": "Not found (404)",
+                "http_410": "Gone (410)",
+                "dns_none": "The domain no longer exists",
+                "dns": "DNS lookup failed",
+                "timeout": "Timed out",
+                "connect": "Could not connect",
+                "tls": "Secure connection failed",
+                "redirects": "Too many redirects",
+                "too_large": "Image too large to mirror",
+                "not_image": "Not an image Salvage can mirror",
+                "storage": "Could not save the copy",
+                "scheme": "Not a web address",
+                "credentials": "Contains a username or password",
+                "port": "Unusual port",
+                "host": "Not a valid address",
+                "private_address": "Points into a private network",
+                "own_site": "Links to this forum",
+                "skip_list": "On your skip list"
+            },
+            "settings": {
+                "check_links_label": "Check links",
+                "check_links_help": "Find links in posts that no longer work. Each link is checked politely, a few at a time, and only called broken after failing on different days.",
+                "mirror_images_label": "Mirror hotlinked images",
+                "mirror_images_help": "Keep a copy of every image posted from another site, so posts keep their pictures when the other site removes them. Copies are re-encoded and stripped of metadata.",
+                "use_fof_upload_label": "Store copies with FoF Upload",
+                "use_fof_upload_help": "When FoF Upload is on and the poster may upload, copies are stored wherever FoF Upload keeps files and appear in the poster's media manager. Otherwise they go to assets/salvage.",
+                "archive_label": "Look for archive.org copies",
+                "archive_help": "When a link breaks, ask the Wayback Machine whether it kept a copy, so you can point the link there with one click.",
+                "auto_archive_label": "Use archive.org copies automatically",
+                "auto_archive_help": "Point broken links at their archive.org copy as soon as one is found, without waiting for staff. You can undo it per link.",
+                "flag_posts_label": "Flag posts with broken links",
+                "flag_posts_help": "Put posts with newly broken links in the moderators' flag queue (needs Flags). At most 100 posts are flagged per round.",
+                "per_run_label": "Requests per round",
+                "per_run_help": "A round runs every five minutes. Never more than 3 requests to one site per round.",
+                "recheck_days_label": "Recheck working links every (days)",
+                "max_image_kb_label": "Largest image to mirror (KB)",
+                "daily_mb_label": "Mirror at most this much a day (MB)",
+                "daily_mb_help": "Anyone who can post can make the forum copy pictures, so a day's copies are capped. Images past the cap wait for the next day.",
+                "skip_domains_label": "Never check or mirror",
+                "skip_domains_help": "One site per line, e.g. example.com (includes its subdomains). Use it for sites that block checkers or that you trust to stay up."
+            }
+        },
+        "api": {
+            "errors": {
+                "unknown_action": "That is not something Salvage can do with a link.",
+                "still_applying": "Salvage is still updating posts for this link. Try again in a few minutes.",
+                "bad_url": "Enter a full web address starting with https:// or http://, different from the broken one.",
+                "no_archive": "No archive.org copy was found for this link.",
+                "undo_first": "Undo the current decision for this link first.",
+                "cannot_restore": "Removed links cannot be put back automatically."
+            }
+        }
+    }
+}

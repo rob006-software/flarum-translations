@@ -2,14 +2,22 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "Domyślny",
+                    "id_with_slug": "ID ze slugiem"
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Usuń tag",
+                "default_sort_label": "Domyślne sortowanie",
+                "default_sort_none": "Zgodne z ustawieniami forum",
+                "default_sort_text": "Kolejność dyskusji z tym tagiem, gdy użytkownik nie wybierze innego sortowania.",
+                "default_sort_unavailable": "{sort} (już niedostępne)",
                 "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE zostaną usunięte.",
                 "description_label": "Opis",
-                "hide_label": "Ukryj z \"Wszystkie dyskusje\"",
+                "hide_label": "Ukryj z „Wszystkie dyskusje”",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -35,17 +43,17 @@
                 "range_separator_text": " do ",
                 "required_primary_heading": "Wymagana liczba głównych tagów",
                 "required_primary_text": "Wpisz minimalną i maksymalną liczbę głównych tagów, które mogą być przypisane do dyskusji.",
-                "required_secondary_heading": "Wymagana liczba podrzędnych tagów",
-                "required_secondary_text": "Wpisz minimalną i maksymalną liczbę podrzędnych tagów, które mogą być przypisane do dyskusji.",
+                "required_secondary_heading": "Wymagana liczba tagów dodatkowych",
+                "required_secondary_text": "Wpisz minimalną i maksymalną liczbę tagów dodatkowych, które mogą być przypisane do dyskusji.",
                 "title": "Ustawienia tagów"
             },
             "tags": {
-                "about_tags_text": "Tagi są używane do kategoryzacji dyskusji. Główne tagi są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Podrzędne tagi nie mają hierarchii ani kolejności, są więc użyteczne bardziej do mikro-kategoryzacji.",
+                "about_tags_text": "Tagi są używane do kategoryzacji dyskusji. Główne tagi są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Tagi dodatkowe nie mają hierarchii ani kolejności, są więc użyteczne bardziej do mikro-kategoryzacji.",
                 "create_primary_tag_button": "Utwórz główny tag",
-                "create_secondary_tag_button": "Utwórz podrzędny tag",
+                "create_secondary_tag_button": "Utwórz tag dodatkowy",
                 "edit_tag_label": "Edytuj tag {tag}",
                 "primary_heading": "Główne tagi",
-                "secondary_heading": "Podrzędne tagi",
+                "secondary_heading": "Tagi dodatkowe",
                 "settings_heading": "Ustawienia"
             }
         },
@@ -60,6 +68,11 @@
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
+            },
+            "deck": {
+                "column_label": "Tag",
+                "tag_label": "Tag",
+                "tag_placeholder": "Szukaj tagu"
             },
             "discussion_controls": {
                 "edit_tags_button": "Edytuj tagi"
@@ -87,8 +100,8 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tag",
+                        "hint": "slug tagu, slugi kilku tagów oddzielone przecinkami lub „untagged” (bez tagów)"
                     }
                 }
             },
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
             "name": "Nazwa",
             "tags": "Tagi"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": "Zmieniono tagi dyskusji {discussion} z {old_tags} na {new_tags}"
+                },
+                "tag": {
+                    "created": "Utworzono tag {tag}",
+                    "updated": "Zaktualizowano tag {tag}",
+                    "deleted": "Usunięto tag {tag}"
+                }
+            }
         }
     }
 }

@@ -2,26 +2,26 @@
     "forumaker-yandex-smart-captcha": {
         "admin": {
             "sections": {
-                "keys": "",
-                "protection": ""
+                "keys": "Phím",
+                "protection": "Bảo vệ"
             },
             "settings": {
-                "site_key": "",
-                "site_key_help": "",
-                "server_key": "",
-                "server_key_help": "",
-                "signup": "",
-                "signup_help": "",
-                "signin": "",
-                "signin_help": "",
-                "create_here": "",
-                "here": ""
+                "site_key": "Mã khoá trang",
+                "site_key_help": "Khóa công khai",
+                "server_key": "Khóa máy chủ",
+                "server_key_help": "Mã khoá bí mật",
+                "signup": "Hiện khi đăng ký",
+                "signup_help": "Yêu cầu captcha khi tạo tài khoản",
+                "signin": "Hiện khi đăng nhập",
+                "signin_help": "Yêu cầu captcha khi đăng nhập",
+                "create_here": "Hãy tạo một captcha {link} để lấy khóa của bạn",
+                "here": "tại đây"
             }
         },
         "forum": {
             "validation": {
-                "captcha_required": "",
-                "captcha_invalid": ""
+                "captcha_required": "Vui lòng xác minh rằng bạn không phải là robot",
+                "captcha_invalid": "Vui lòng xác minh rằng bạn không phải là robot"
             }
         }
     }

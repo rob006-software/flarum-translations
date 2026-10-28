@@ -22,7 +22,7 @@
                 "set-to-now": "Ustaw na teraz"
             },
             "messages": {
-                "delete-policy-confirmation": "Polityka \"{name}\" i wszystkie powiązane akceptacje zostaną nieodwracalnie usunięte z bazy danych. Upewnij się, że masz kopię zapasową tych danych, jeśli potrzebujesz ich ze względów prawnych. Czy jesteś pewien, że chcesz usunąć tę politykę?\n"
+                "delete-policy-confirmation": "Polityka „{name}” i wszystkie powiązane akceptacje zostaną nieodwracalnie usunięte z bazy danych. Upewnij się, że masz kopię zapasową tych danych, jeśli potrzebujesz ich ze względów prawnych. Czy jesteś pewien, że chcesz usunąć tę politykę?\n"
             },
             "policies": {
                 "name": "Nazwa",
@@ -35,7 +35,7 @@
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
                 "export-url": "Eksport",
-                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n",
+                "export-url-help": "Każdy użytkownik z uprawnieniem „Eksportowanie wszystkich danych o politykach” ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n",
                 "optional": "Opcjonalna polityka",
                 "optional-help": "Po włączeniu użytkownicy mogą korzystać z forum i wchodzić z nim w interakcje bez akceptowania tej polityki."
             },
@@ -74,7 +74,7 @@
                 "optional_policies_label": "Polityki"
             },
             "user_controls": {
-                "state_button": "Status akceptacji TOS"
+                "state_button": "Status akceptacji warunków"
             }
         }
     },

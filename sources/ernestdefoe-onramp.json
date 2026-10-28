@@ -1,0 +1,328 @@
+{
+    "ernestdefoe-onramp": {
+        "lib": {
+            "errors": {
+                "type": "That step type is not available on this forum.",
+                "count": "Use a number from 1 to 1000.",
+                "path": "Use a forum path starting with / or a full http(s) address.",
+                "too_long": "That is too long.",
+                "points": "Use a number of points from 0 to 100000."
+            },
+            "types": {
+                "avatar": {
+                    "title": "Put a face to your name",
+                    "description": "Add a profile photo so people recognise you around the forum.",
+                    "button": "Add a photo"
+                },
+                "bio": {
+                    "title": "Tell us about yourself",
+                    "description": "A line or two in your bio helps people know who they are talking to.",
+                    "button": "Write your bio"
+                },
+                "nickname": {
+                    "title": "Choose a display name",
+                    "description": "Pick the name you want people to see beside your posts.",
+                    "button": "Set a display name"
+                },
+                "email_confirmed": {
+                    "title": "Confirm your email address",
+                    "description": "Confirm your address so you never miss a reply or a mention.",
+                    "button": "Check my email settings"
+                },
+                "read": {
+                    "title": "{count, plural, one {Read a discussion} other {Read # discussions}}",
+                    "description": "Get a feel for the place before you jump in.",
+                    "button": "Browse discussions"
+                },
+                "discussion": {
+                    "title": "{count, plural, one {Start your first discussion} other {Start # discussions}}",
+                    "title_in_tag": "{count, plural, one {Start a discussion in {tag}} other {Start # discussions in {tag}}}",
+                    "description": "Ask a question, share something you made, or say hello.",
+                    "button": "Start a discussion"
+                },
+                "reply": {
+                    "title": "{count, plural, one {Reply to a discussion} other {Reply # times}}",
+                    "title_in_tag": "{count, plural, one {Reply to a discussion in {tag}} other {Reply # times in {tag}}}",
+                    "description": "Join a conversation that is already going.",
+                    "button": "Find a discussion"
+                },
+                "visit": {
+                    "title": "Visit a page",
+                    "description": "There is something here worth seeing before you go further.",
+                    "button": "Take me there"
+                },
+                "mention": {
+                    "title": "{count, plural, one {Mention someone} other {Mention people # times}}",
+                    "description": "Type @ and a name in a post to bring someone into the conversation.",
+                    "button": "Find a discussion"
+                },
+                "like_given": {
+                    "title": "{count, plural, one {Like a post} other {Like # posts}}",
+                    "description": "Let someone know their post was worth reading.",
+                    "button": "Find a post you like"
+                },
+                "like_received": {
+                    "title": "{count, plural, one {Get your first like} other {Get # likes}}",
+                    "description": "Post something people find useful, and they will let you know.",
+                    "button": "Join a discussion"
+                },
+                "reaction_given": {
+                    "title": "{count, plural, one {React to a post} other {React to # posts}}",
+                    "description": "A quick reaction says a lot.",
+                    "button": "Find a post"
+                },
+                "upvote_given": {
+                    "title": "{count, plural, one {Upvote a post} other {Upvote # posts}}",
+                    "description": "Vote up the posts that deserve to be seen.",
+                    "button": "Find a post"
+                },
+                "best_answer": {
+                    "title": "{count, plural, one {Have an answer chosen as best} other {Have # answers chosen as best}}",
+                    "description": "Help someone with a question; if your answer solves it, they can mark it best.",
+                    "button": "Find a question"
+                },
+                "follow_discussion": {
+                    "title": "{count, plural, one {Follow a discussion} other {Follow # discussions}}",
+                    "description": "Follow a discussion to hear about every new reply.",
+                    "button": "Find a discussion"
+                },
+                "follow_tag": {
+                    "title": "{count, plural, one {Follow a tag} other {Follow # tags}}",
+                    "description": "Follow the topics you care about and hear when something new starts.",
+                    "button": "See the tags"
+                },
+                "poll_vote": {
+                    "title": "{count, plural, one {Vote in a poll} other {Vote in # polls}}",
+                    "description": "Have your say.",
+                    "button": "Find a poll"
+                },
+                "upload": {
+                    "title": "{count, plural, one {Share a file or image} other {Share # files or images}}",
+                    "description": "Attach an image or a file to one of your posts.",
+                    "button": "Find a discussion"
+                },
+                "message": {
+                    "title": "{count, plural, one {Send a private message} other {Send # private messages}}",
+                    "description": "Say hello to someone one-to-one.",
+                    "button": "Open messages"
+                },
+                "private_discussion": {
+                    "title": "{count, plural, one {Start a private discussion} other {Start # private discussions}}",
+                    "description": "Talk something through with just the people you choose.",
+                    "button": "Open private discussions"
+                },
+                "streak": {
+                    "title": "{count, plural, one {Visit on a streak} other {Keep a #-day streak}}",
+                    "description": "Come back on consecutive days and keep your flame alight.",
+                    "button": "See streaks"
+                }
+            }
+        },
+        "forum": {
+            "launcher": {
+                "label": "Your journey: {done} of {total} done",
+                "title": "Your journey",
+                "sub": "{count, plural, =0 {All done} one {One step to go} other {# steps to go}}",
+                "next": "Next up",
+                "see_all": "See your whole journey"
+            },
+            "page": {
+                "title": "Your journey",
+                "intro": "{count, plural, =0 {Every step is done.} one {One step to go. Each one ticks itself the moment you do it.} other {# steps to go. Each one ticks itself the moment you do it.}}",
+                "graduated_title": "You made it",
+                "graduated_text": "Every step is done. You are one of the regulars now.",
+                "closed_text": "You put your journey away. Bring it back any time.",
+                "none": "You do not have a journey on this forum.",
+                "reward": "Finish to earn",
+                "reward_earned": "You earned",
+                "close": "I will find my own way",
+                "close_confirm": "Put your journey away? You can bring it back from this page.",
+                "reopen": "Bring my journey back"
+            },
+            "step": {
+                "required": "Required",
+                "skip": "Skip",
+                "skipped": "Skipped",
+                "undo_skip": "Undo skip",
+                "progress": "{done} of {total}",
+                "points": "{count, plural, one {# point} other {# points}}"
+            },
+            "toast": {
+                "step": "Step done: {title}",
+                "points": "{count, plural, one {+# point} other {+# points}}",
+                "graduated": "You finished your journey. Welcome aboard!"
+            },
+            "notifications": {
+                "step": "A step on your journey just ticked itself",
+                "graduated": "You finished your journey",
+                "reminder": "{count, plural, one {One step left on your journey} other {# steps left on your journey}}"
+            },
+            "settings": {
+                "notify_step": "Tell me when a journey step completes because of someone else",
+                "notify_graduated": "Tell me when I finish my journey",
+                "notify_reminder": "Remind me about my journey"
+            },
+            "widget": {
+                "title": "Your journey"
+            },
+            "member": {
+                "tab": "Onramp",
+                "none": "This member does not have a journey.",
+                "status_open": "On their journey",
+                "status_graduated": "Finished their journey",
+                "status_closed": "Put their journey away",
+                "started": "Started",
+                "finished": "finished",
+                "tick": "Mark done",
+                "tick_confirm": "Mark \"{title}\" as done for this member? Its rewards are paid.",
+                "start": "Start a journey",
+                "close": "Put it away",
+                "reopen": "Bring it back",
+                "reset": "Start over",
+                "reset_confirm": "Start this member's journey over? Rewards already paid are not paid again."
+            }
+        },
+        "admin": {
+            "widgets": {
+                "journey": "Your journey"
+            },
+            "permissions": {
+                "view_members": "View members' Onramp journeys"
+            },
+            "tabs": {
+                "steps": "Journey",
+                "settings": "Settings",
+                "funnel": "Funnel"
+            },
+            "load_failed": "The journey could not be loaded.",
+            "needs_gamification": "Point rewards need FoF Gamification.",
+            "needs_points": "Point rewards need a FoF Gamification version with point grants.",
+            "needs_badges": "Badge rewards need FoF Badges.",
+            "export": "Export",
+            "import": "Import",
+            "import_invalid": "That file is not an Onramp journey.",
+            "presets": {
+                "choose": "Add a ready-made journey…",
+                "starter": "Starter — four steps",
+                "community": "Community — seven steps",
+                "full": "Full — twelve steps",
+                "replace_confirm": "Replace the current steps? OK replaces them; Cancel adds the new ones after them."
+            },
+            "steps": {
+                "intro": "The steps every new member is given, in order. Drag to reorder. Each one ticks itself when the member does it. Steps whose extension is switched off are hidden from members and never hold anyone back.",
+                "empty": "No steps yet. Add one, or start from a ready-made journey.",
+                "add": "Add a step",
+                "edit": "Edit step",
+                "delete": "Delete step",
+                "delete_confirm": "Delete \"{title}\"? Members' progress on it goes too.",
+                "drag": "Drag to reorder",
+                "type": "What the member does",
+                "from_extension": "Counted by {extension}.",
+                "count": "How many times",
+                "tag": "Only in this tag",
+                "any_tag": "Any tag",
+                "path": "Page",
+                "path_help": "A forum path such as /d/1-welcome or /p/2-rules, or a full address on this forum.",
+                "title": "Title",
+                "description": "Description",
+                "button_label": "Button text",
+                "button_url": "Button link",
+                "button_url_placeholder": "Leave empty for the usual place",
+                "icon": "Icon",
+                "points": "Points",
+                "points_short": "{count} pts",
+                "badge": "Badge",
+                "no_badge": "No badge",
+                "has_badge": "Badge",
+                "required": "Required",
+                "required_short": "Required",
+                "required_help": "A required step cannot be skipped; the journey only finishes once it is done.",
+                "enabled": "Enabled",
+                "off": "Off",
+                "unavailable": "Extension off",
+                "save": "Save step"
+            },
+            "types": {
+                "avatar": "Add a profile photo",
+                "bio": "Write a bio (FoF User Bio)",
+                "nickname": "Set a display name (Nicknames)",
+                "email_confirmed": "Confirm their email address",
+                "read": "Read discussions",
+                "discussion": "Start discussions",
+                "reply": "Reply to discussions",
+                "visit": "Visit a page",
+                "mention": "Mention someone (Mentions)",
+                "like_given": "Like posts (Likes)",
+                "like_received": "Receive likes (Likes)",
+                "reaction_given": "React to posts (FoF Reactions)",
+                "upvote_given": "Upvote posts (FoF Gamification)",
+                "best_answer": "Have an answer marked best (FoF Best Answer)",
+                "follow_discussion": "Follow discussions (Subscriptions)",
+                "follow_tag": "Follow tags (FoF Follow Tags)",
+                "poll_vote": "Vote in polls (FoF Polls)",
+                "upload": "Upload files (FoF Upload)",
+                "message": "Send private messages (Messages)",
+                "private_discussion": "Start private discussions (FoF Byobu)",
+                "streak": "Keep a streak (Cadence)"
+            },
+            "settings": {
+                "enabled": "Onramp is on",
+                "enabled_help": "Off pauses everything — no new journeys, no ticking, no reminders — and keeps every member's progress.",
+                "launcher": "Show the launcher in the header",
+                "launcher_help": "A ring with the member's progress beside the notifications, with the next step one tap away. Press J to open it.",
+                "reward_heading": "Finishing the journey",
+                "reward_help_points": "The points are paid once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_help_badge": "The badge is awarded once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_help_both": "The points and the badge are paid once, when a member finishes every step (skipped optional steps count as finished).",
+                "reward_points": "Points",
+                "reward_badge": "Badge",
+                "reward_badge_help": "A FoF Badges badge to award on finishing.",
+                "reward_group": "Add to group",
+                "reward_group_help": "For example a Members group with more permissions. Administrator, Guest and Member cannot be chosen.",
+                "no_group": "No group",
+                "reminders_heading": "Reminders and tidying up",
+                "reminders": "Send reminders",
+                "reminders_help": "An alert and an email to members still on their journey. Members can switch either off in their notification settings.",
+                "reminder_days": "Remind on these days",
+                "reminder_days_help": "Days after the journey started, separated by commas.",
+                "close_after": "Put away unfinished journeys after (days)",
+                "close_after_help": "An unfinished journey this old is put away and stops reminding. 0 keeps journeys open for ever."
+            },
+            "start": {
+                "heading": "Members who joined before Onramp",
+                "help": "Give everyone who joined in the last N days a journey. Steps they have already done are ticked straight away, and paid, without an alert.",
+                "button": "Start their journeys",
+                "result": "Started {started} journeys. {remaining} left."
+            },
+            "funnel": {
+                "weeks": "{count, plural, other {Last # weeks}}",
+                "empty": "No journeys started in this period yet.",
+                "started": "Started",
+                "graduated": "Finished",
+                "open": "On their way",
+                "closed": "Put away",
+                "rate": "Finish rate",
+                "step": "Step",
+                "reached": "Reached",
+                "median": "Median time",
+                "stuck": "Stopped here",
+                "bottleneck": "Most newcomers stop at \"{title}\". Consider making it easier, moving it later, or making it optional.",
+                "cohorts": "By week joined",
+                "week": "Week of",
+                "minutes": "{count, plural, one {# minute} other {# minutes}}",
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "days": "{count, plural, one {# day} other {# days}}"
+            },
+            "badges": {
+                "steps_completed": "Onramp steps completed",
+                "graduated": "Finished their Onramp journey"
+            }
+        },
+        "email": {
+            "reminder": {
+                "subject": "{count, plural, one {One step left on your journey} other {# steps left on your journey}}",
+                "body": "You are nearly there. Next up: {next}.\n\nPick up where you left off: {url}\n"
+            }
+        }
+    }
+}

@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi.",
-        "required": "Silakan selesaikan Turnstile challenge."
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

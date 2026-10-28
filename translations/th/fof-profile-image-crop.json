@@ -2,14 +2,15 @@
     "fof-profile-image-crop": {
         "forum": {
             "modal": {
+                "crop_too_small": "",
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "ไม่สามารถเรียกใช้ระบบตัดครอบรูปภาพ (Image Cropper) ได้",
+                    "generic_resize": "เกิดข้อผิดพลาดในการจัดขนาดและตัดครอบรูปภาพ",
+                    "get_image_data": "การตัดครอบรูปภาพล้มเหลว โปรดตรวจสอบและทดลองปิดการทำงานของระบบป้องกันการตามรอยลายนิ้วมือเบราว์เซอร์ (Fingerprinting Protection) ของคุณแล้วทดลองใหม่อีกครั้ง"
                 },
                 "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "submit_button": "อัปโหลดตรง",
+                "submit_crop_button": "ตัดครอบและอัปโหลด"
             }
         }
     }

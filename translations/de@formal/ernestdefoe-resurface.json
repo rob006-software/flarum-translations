@@ -1,0 +1,87 @@
+{
+    "ernestdefoe-resurface": {
+        "forum": {
+            "bump_button": "An den Anfang verschieben",
+            "bumped_alert": "An den Anfang der Liste verschoben.",
+            "wait_button": "Erneut an den Anfang verschieben {time}",
+            "wait_title": "",
+            "left_title": "",
+            "schedule_button": "",
+            "planned_button": "Nächster Spitzenschub: {time}",
+            "log_button": "Verlauf der Spitzenschübe",
+            "bumped_text": "An den Anfang verschoben {ago}",
+            "log": {
+                "title": "Verlauf der Spitzenschübe"
+            },
+            "schedule": {
+                "title": "Spitzenschub planen",
+                "at_label": "Spitzenschub um",
+                "repeat_label": "",
+                "every_label": "",
+                "hours": "{count, plural, one {Stunde} other {Stunden}}",
+                "days": "{count, plural, one {Tag} other {Tage}}",
+                "every_help": "",
+                "times_label": "",
+                "times_placeholder": "",
+                "limits_help": "",
+                "save_button": "Plan speichern",
+                "cancel_button": "Plan abbrechen",
+                "saved_alert": "Spitzenschub geplant.",
+                "cancelled_alert": ""
+            }
+        },
+        "lib": {
+            "log": {
+                "empty": "",
+                "when": "Wann",
+                "discussion": "Diskussion",
+                "by": "Von",
+                "how": "",
+                "deleted": "[gelöscht]",
+                "more": "Mehr laden",
+                "source": {
+                    "manual": "Manuell",
+                    "scheduled": "Geplant",
+                    "auto": "Wiederholend"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "cooldown_label": "",
+                "cooldown_help": "",
+                "daily_label": "",
+                "daily_help": "",
+                "log_days_label": "",
+                "log_days_help": ""
+            },
+            "groups": {
+                "label": "",
+                "help": "",
+                "group": "Gruppe",
+                "cooldown": "",
+                "daily": ""
+            },
+            "tags": {
+                "label": "",
+                "help": ""
+            },
+            "permissions": {
+                "bump": "",
+                "schedule": "",
+                "bump_any": ""
+            },
+            "log": {
+                "title": ""
+            }
+        },
+        "api": {
+            "too_soon": "",
+            "plan_at": "",
+            "plan_every": "",
+            "plan_every_cooldown": "",
+            "plan_times": "",
+            "plan_at_cooldown": ""
+        }
+    }
+}

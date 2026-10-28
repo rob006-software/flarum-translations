@@ -2,308 +2,308 @@
     "fof-seo": {
         "admin": {
             "common": {
-                "close": "",
-                "save_changes": "",
-                "learn_more": ""
+                "close": "Zamknij",
+                "save_changes": "Zapisz zmiany",
+                "learn_more": "Dowiedz się więcej"
             },
             "permissions": {
-                "configure_seo": "",
-                "category_label": ""
+                "configure_seo": "Konfigurowanie SEO",
+                "category_label": "SEO"
             },
             "header": {
-                "title": "",
-                "tools": "",
-                "health_check": "",
-                "seo_settings": "",
-                "sitemap_info": "",
-                "search_engines_info": "",
-                "setup_ssl": ""
+                "title": "Optymalizacja dla wyszukiwarek",
+                "tools": "Narzędzia",
+                "health_check": "Kontrola SEO",
+                "seo_settings": "Ustawienia SEO",
+                "sitemap_info": "Informacje o mapie witryny",
+                "search_engines_info": "Informacje o wyszukiwarkach",
+                "setup_ssl": "Skonfiguruj SSL"
             },
             "dashboard": {
                 "widget": {
-                    "review_prompt": "",
-                    "cta": ""
+                    "review_prompt": "Czas przejrzeć ustawienia SEO!",
+                    "cta": "Uruchom kontrolę SEO!"
                 }
             },
             "modals": {
                 "crawl_post": {
-                    "title": "",
-                    "intro": "",
-                    "mode_main_title": "",
-                    "mode_main_help": "",
-                    "mode_all_title": "",
-                    "mode_all_help": "",
-                    "question": "",
-                    "switch_label": ""
+                    "title": "Ustawienia indeksowania postów",
+                    "intro": "<b>Przeczytaj uważnie tę informację.</b> Ta funkcja zostanie wykonana dopiero przy odświeżeniu strony dyskusji. Zawsze możesz później zmienić tę opcję.",
+                    "mode_main_title": "Indeksuj tylko pierwszy post (domyślnie)",
+                    "mode_main_help": "Wyszukiwarki będą pokazywać w wynikach tylko pierwszy post dyskusji. Nie wpłynie to na szybkość ładowania, gdy przejdziesz do dyskusji z linków na forum.",
+                    "mode_all_title": "Indeksuj wszystkie posty w dyskusji (opcja włączona)",
+                    "mode_all_help": "Wyszukiwarki będą lepiej rozpoznawać zawartość dyskusji i mogą wyświetlać trafne posty bezpośrednio pod wynikami wyszukiwania. Jeśli na forum masz zainstalowane i włączone rozszerzenie „<a>Best Answer</a>”, dyskusja będzie oznaczona w wynikach wyszukiwania jako „z odpowiedzią”, a użytkownik zostanie przekierowany do odpowiedniego posta. Przy każdej odpowiedzi udostępniana jest również liczba polubień i głosów pozytywnych, dzięki czemu wyszukiwarki mogą rozpoznawać najbardziej pomocne odpowiedzi nawet bez rozszerzenia Best Answer. <b>Może to jednak bardziej obciążać serwer, zależnie od jego konfiguracji</b>. Włączenie tej funkcji może wpłynąć na wydajność, dlatego warto uwzględnić szybkość działania serwera.",
+                    "question": "Czy chcesz włączyć tę funkcję?",
+                    "switch_label": "Indeksuj wszystkie posty (wolniejsze przy odświeżaniu strony, ale lepsze wyniki wyszukiwania)"
                 },
                 "dofollow": {
-                    "title": "",
-                    "intro": "",
-                    "default_note": "",
-                    "learn_more_line": "",
-                    "add_placeholder": "",
-                    "duplicate_error": ""
+                    "title": "Lista do-follow",
+                    "intro": "Wpisz <b>nazwy hostów</b> domen, które chcesz dodać do listy do-follow.",
+                    "default_note": "Domena używana przez Twoją instancję Flarum jest domyślnie dodana do listy.",
+                    "learn_more_line": "<a>Dowiedz się więcej</a> o liście do-follow.",
+                    "add_placeholder": "Zezwól na domenę",
+                    "duplicate_error": "Ta domena jest już na liście do-follow."
                 }
             },
             "settings": {
                 "keywords": {
-                    "heading": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "heading": "Słowa kluczowe forum",
+                    "help": "Wpisz jedno lub więcej słów kluczowych opisujących Twoje forum.",
+                    "placeholder": "Dodaj kilka słów kluczowych",
+                    "comma_note": "Uwaga: oddzielaj słowa kluczowe przecinkami.",
+                    "example": "Przykład: flarum, web development, forum, jabłka, bezpieczeństwo"
                 },
                 "info": {
-                    "overview": "",
-                    "maintain": ""
+                    "overview": "Ta strona zbiera kilka ustawień z różnych miejsc panelu administracyjnego. Dzięki temu masz lepszy przegląd konfiguracji. Nie zapomnij wykonać kontroli SEO.",
+                    "maintain": "Sprawdź wszystkie ustawienia przy pierwszej konfiguracji tego rozszerzenia. Regularnie je aktualizuj, aby uzyskać jak najlepsze wyniki w wyszukiwarkach."
                 },
                 "twitter_card": {
-                    "heading": "",
-                    "help": "",
-                    "option_large": "",
-                    "option_summary": ""
+                    "heading": "Rozmiar karty X (dawniej Twitter)",
+                    "help": "Gdy Twoje forum zostanie udostępnione w X (dawniej Twitter), będzie miało obrazek, jeśli skonfigurowano obraz dla mediów społecznościowych. Może to być duża karta z dużym obrazem albo mała karta (summary) z mniejszym obrazem.",
+                    "option_large": "Duża karta (duży obraz)",
+                    "option_summary": "Karta podsumowania (mniejszy obraz)"
                 },
                 "social_media_image": {
-                    "heading": "",
-                    "help_size": "",
-                    "help_usage": ""
+                    "heading": "Obraz dla mediów społecznościowych",
+                    "help_size": "Oczekiwany jest obraz kwadratowy. Zalecany rozmiar to 1200x1200 pikseli. Możesz też użyć obrazu poziomego – zalecany rozmiar to 1200x630.",
+                    "help_usage": "Ten obraz będzie używany przez media społecznościowe, gdy użytkownik udostępni stronę Twojej witryny (Facebook, X – dawniej Twitter, Reddit)."
                 },
                 "crawl": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Ustawienia indeksowania postów w dyskusjach",
+                    "help": "To ważne ustawienie dotyczące indeksowania postów z dyskusji w wynikach wyszukiwania.",
+                    "button": "Skonfiguruj indeksowanie postów"
                 },
                 "indexing": {
-                    "heading": "",
-                    "profiles_label": "",
-                    "profiles_help": "",
-                    "tags_help": "",
-                    "tags_button": "",
-                    "tags_none_selected": ""
+                    "heading": "Kontrola indeksowania",
+                    "profiles_label": "Wyklucz strony profili z indeksowania",
+                    "profiles_help": "Po włączeniu strony profili użytkowników będą zawierały meta tag „noindex”, dzięki czemu nie trafią do wyników wyszukiwania. Linki na stronie nadal będą śledzone, więc roboty nadal dotrą do wskazywanych treści.",
+                    "tags_help": "Dyskusje w wybranych tagach oraz strony list tych tagów będą wykluczone z wyników wyszukiwania za pomocą meta tagu „noindex”. Linki nadal będą śledzone. Wybranie tagu nadrzędnego obejmuje również jego tagi podrzędne.",
+                    "tags_button": "Wybierz tagi",
+                    "tags_none_selected": "Żadne tagi nie są wykluczone z indeksowania."
                 },
                 "nofollow": {
-                    "heading": "",
-                    "help": "",
-                    "help_dofollow": "",
-                    "button": ""
+                    "heading": "Linki no-follow",
+                    "help": "Wszystkie linki do zewnętrznych domen domyślnie otrzymają atrybut „<i>nofollow</i>”. Ma to zapobiegać spamowaniu forum linkami do innych domen w celu pozyskiwania ruchu.",
+                    "help_dofollow": "To ustawienie pozwala dodać domeny do listy do-follow. Na przykład możesz dodać <i>flarum.org</i>, aby linki do tej witryny nie otrzymywały atrybutu „nofollow”.",
+                    "button": "Otwórz listę domen do-follow"
                 },
                 "new_tab": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Otwieranie linków zewnętrznych w nowej karcie",
+                    "help": "To rozszerzenie sprawia również, że linki zewnętrzne (do innych domen) otwierają się w nowej karcie. Obecnie nie można wyłączyć tego ustawienia."
                 },
                 "updated": {
-                    "heading": "",
-                    "help": "",
-                    "button": ""
+                    "heading": "Zaktualizowano to ustawienie?",
+                    "help": "Jeśli uważasz, że wszystko jest gotowe, kliknij poniższy przycisk, aby ponownie sprawdzić status tego ustawienia.",
+                    "button": "Wróć do podsumowania i sprawdź ponownie"
                 }
             },
             "pages": {
                 "search_engines": {
-                    "heading": "",
-                    "intro": "",
-                    "sitemap_tip": "",
-                    "google_heading": "",
-                    "google_visit": "",
-                    "google_www": "",
-                    "google_sitemap": "",
-                    "bing_heading": "",
-                    "bing_visit": "",
-                    "bing_sitemap": "",
-                    "yandex_heading": "",
-                    "yandex_visit": "",
-                    "yandex_sitemap": "",
-                    "yahoo_heading": "",
-                    "yahoo_body": "",
-                    "confirm_button": ""
+                    "heading": "Zgłoś swoją witrynę do wyszukiwarek",
+                    "intro": "Dobrą praktyką jest poinformowanie wyszukiwarek o istnieniu Twojej strony. Ten przewodnik przeprowadzi Cię przez ten proces.",
+                    "sitemap_tip": "Zalecamy przygotowanie mapy witryny przed wykonaniem tych kroków. Jeśli nie masz jeszcze mapy witryny, <a>kliknij tutaj, aby dowiedzieć się więcej</a>.",
+                    "google_heading": "Dodaj swoją witrynę do wyników wyszukiwania Google",
+                    "google_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Google, odwiedź {link}. Musisz dodać witrynę i potwierdzić, że jesteś właścicielem powiązanej domeny.",
+                    "google_www": "Podczas wpisywania domeny musisz zdecydować: czy chcesz używać subdomeny „www” w wynikach wyszukiwania? Tego wyboru <strong>nie można</strong> później zmienić. Wielokrotne dodanie domeny w Google Search Console nie poprawi pozycji w wynikach.",
+                    "google_sitemap": "Po zakończeniu rejestracji w Google Search Console przejdź do strony <b>Mapy witryn</b>. Prześlij do Google swój plik <b>sitemap.xml</b>. Upewnij się, że Google może odczytać mapę witryny i będzie mógł robić to także w przyszłości.",
+                    "bing_heading": "Dodaj swoją witrynę do wyników wyszukiwania Bing",
+                    "bing_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Bing, odwiedź {link} i wykonaj podane kroki. Nie wszystkie pola są wymagane.",
+                    "bing_sitemap": "Nie zapomnij skonfigurować adresu URL mapy witryny. Po zweryfikowaniu witryny wszystko jest gotowe i Bing zacznie ją indeksować.",
+                    "yandex_heading": "Dodaj swoją witrynę do wyników wyszukiwania Yandex",
+                    "yandex_visit": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Yandex, odwiedź {link} i wykonaj podane kroki.",
+                    "yandex_sitemap": "Nie zapomnij skonfigurować mapy witryny w Yandex.Webmaster.",
+                    "yahoo_heading": "Dodaj swoją witrynę do wyników wyszukiwania Yahoo",
+                    "yahoo_body": "Jeśli chcesz dodać swoją witrynę do wyników wyszukiwania Yahoo, dokończ rejestrację w Bing. Yahoo korzysta z tych danych.",
+                    "confirm_button": "Przeczytałem"
                 },
                 "sitemap": {
-                    "why_heading": "",
-                    "why_body": "",
-                    "generated_note": "",
-                    "which_extension_heading": "",
-                    "which_extension_body": "",
-                    "which_extension_details": "",
-                    "robots_heading": "",
-                    "robots_body": "",
-                    "just_installed_heading": "",
-                    "just_installed_body": ""
+                    "why_heading": "Dlaczego warto używać mapy witryny?",
+                    "why_body": "Mapa witryny to plik XML z listą wszystkich dostępnych stron w Twojej witrynie. Roboty i wyszukiwarki używają go do odnajdywania stron.",
+                    "generated_note": "Plik mapy witryny jest generowany automatycznie i nie wymaga utrzymania.",
+                    "which_extension_heading": "Jakie rozszerzenie zainstalować?",
+                    "which_extension_body": "{link} to zalecane rozszerzenie dla Flarum. Zdecydowanie rekomendujemy jego instalację i włączenie.",
+                    "which_extension_details": "To rozszerzenie sprawi, że roboty znajdą <b>dyskusje</b>, <b>tagi</b> (jeśli rozszerzenie tagów jest włączone) oraz strony z rozszerzenia <b>Pages</b> (jeśli jest zainstalowane i włączone). Automatycznie udostępni też plik sitemap.xml.",
+                    "robots_heading": "A co z robots.txt?",
+                    "robots_body": "To samo rozszerzenie generuje też plik <b>robots.txt</b> dla Twojego forum. Plik informuje wyszukiwarki, które obszary mogą indeksować, i wskazuje mapę witryny, więc instalacja rozszerzenia załatwia oba pliki naraz – nie musisz nic dodatkowo konfigurować.",
+                    "just_installed_heading": "Właśnie zainstalowałem rozszerzenie",
+                    "just_installed_body": "W takim razie aktywuj je, klikając rozszerzenie na pasku bocznym po lewej. Po aktywacji to ostrzeżenie zniknie."
                 },
                 "ssl": {
-                    "intro_heading": "",
-                    "intro_body": "",
-                    "rankings_heading": "",
-                    "rankings_body": "",
-                    "rankings_body_ssl": "",
-                    "what_heading": "",
-                    "what_body": "",
-                    "how_heading": "",
-                    "how_body": "",
-                    "added_heading": "",
-                    "added_body": "",
-                    "no_ssl_heading": "",
-                    "no_ssl_body": ""
+                    "intro_heading": "Dlaczego potrzebuję bezpiecznego połączenia?",
+                    "intro_body": "Świadomość bezpieczeństwa i prywatności w sieci rośnie. <b>Prawie każdy</b> deweloper lub właściciel strony chce, aby jego witryna była bezpieczna dla odwiedzających, tak aby nie musieli obawiać się kradzieży danych przez hakerów lub podszywania się pod stronę.",
+                    "rankings_heading": "Wyszukiwarki {icon} bezpieczne połączenia",
+                    "rankings_body": "Jeśli Twoja witryna nie ma bezpiecznego połączenia, wyszukiwarki będą pozycjonować ją znacznie niżej niż inne strony albo mogą jej w ogóle nie indeksować.",
+                    "rankings_body_ssl": "Jeśli masz SSL, Twoja witryna może uzyskać wyższą pozycję i będzie indeksowana.",
+                    "what_heading": "Czym jest SSL lub TLS?",
+                    "what_body": "Większość osób zna <b>https</b>, używane do bezpiecznych połączeń, jako SSL: <i>Secure Sockets Layer</i>. Oficjalnie jest to TLS: <i>Transport Layer Security</i>. Ta metoda tworzy bezpieczne połączenie z serwerem WWW, chroni przed podszywaniem się pod Twoją witrynę i dba o bezpieczeństwo odwiedzających. Jeśli dojdzie do naruszenia połączenia SSL, przeglądarka ostrzeże użytkownika, że strona nie jest zaufana.",
+                    "how_heading": "Jak dodać SSL do witryny?",
+                    "how_body": "Jeśli korzystasz z hostingu, najczęściej wystarczy wejść do panelu hostingowego, przejść do ustawień hostingu swojej strony i kliknąć SSL. Następnie postępuj zgodnie z instrukcjami. Większość firm hostingowych obsługuje dziś popularnego wystawcę certyfikatów {link}.",
+                    "added_heading": "OK, SSL został dodany!",
+                    "added_body": "Świetnie! Teraz otwórz plik <b>config.php</b> i zmień wartość <b>„url”</b> tak, aby adres zaczynał się od <b>https</b>!",
+                    "no_ssl_heading": "A jeśli nie chcę dodawać SSL?",
+                    "no_ssl_body": "W takim przypadku możesz odinstalować to rozszerzenie, ponieważ wyszukiwarki ze względów bezpieczeństwa <b>nie będą indeksować Twojego forum</b> albo umieszczą je znacznie niżej niż inne strony."
                 },
                 "health": {
-                    "legend": "",
-                    "default_button": "",
+                    "legend": "Aby uzyskać najlepsze wyniki w wyszukiwarkach, upewnij się, że wszystkie testy są zielone.",
+                    "default_button": "Zaktualizuj ustawienie",
                     "table": {
-                        "technique": "",
-                        "status": ""
+                        "technique": "Technika",
+                        "status": "Status"
                     },
                     "status": {
-                        "warning": "",
-                        "passed": ""
+                        "warning": "Ostrzeżenie!",
+                        "passed": "Wszystko gotowe!"
                     },
                     "checks": {
                         "description": {
-                            "label": "",
-                            "reason_missing": "",
-                            "reason_default": "",
-                            "reason_too_short": "",
-                            "button": ""
+                            "label": "Sprawdza, czy forum ma opis",
+                            "reason_missing": "Nie ustawiono jeszcze opisu forum!",
+                            "reason_default": "Nie zmieniono domyślnego opisu forum po instalacji!",
+                            "reason_too_short": "Opis forum ma mniej niż 20 znaków. Rozszerz go, aby poprawić wyniki w wyszukiwarkach.",
+                            "button": "Zaktualizuj opis"
                         },
                         "keywords": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sprawdza, czy forum ma ustawione słowa kluczowe",
+                            "reason": "Nie ustawiono jeszcze słów kluczowych forum!",
+                            "button": "Zaktualizuj słowa kluczowe"
                         },
                         "ssl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sprawdza, czy witryna ma dostępne bezpieczne połączenie (SSL/TLS)",
+                            "reason": "Twoje forum nie wymusza połączenia SSL/TLS, czyli bezpiecznego połączenia z witryną. Większość wyszukiwarek nie zaindeksuje witryny bez bezpiecznego połączenia albo obniży jej pozycję.",
+                            "button": "Jak skonfigurować SSL"
                         },
                         "crawl": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Przejrzyj ustawienia indeksowania postów w dyskusjach",
+                            "reason": "Musisz przejrzeć to ustawienie, aby test został zaliczony.",
+                            "button": "Przejrzyj ustawienia postów"
                         },
                         "social_media": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Ustaw obraz dla mediów społecznościowych",
+                            "reason": "Nie ustawiono obrazu dla mediów społecznościowych dla Twojego forum. Zalecamy jego dodanie. Obecnie jako podgląd w mediach społecznościowych zostanie użyty favicon.",
+                            "button": "Zaktualizuj obraz"
                         },
                         "sitemap": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sprawdza, czy forum ma dostępną mapę witryny",
+                            "reason": "Zdecydowanie zalecamy instalację rozszerzenia FriendsOfFlarum Sitemap!",
+                            "button": "Dowiedz się więcej o dodawaniu mapy witryny"
                         },
                         "robots": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Sprawdza, czy forum ma dostępny plik robots.txt",
+                            "reason": "Plik robots.txt jest dostarczany przez rozszerzenie FriendsOfFlarum Sitemap. Zainstaluj je i włącz, aby udostępnić robots.txt wyszukiwarkom.",
+                            "button": "Dowiedz się więcej o dodawaniu robots.txt"
                         },
                         "meta_tags": {
-                            "label": ""
+                            "label": "Sprawdza, czy forum ma dostępne meta tagi (generowane przez to rozszerzenie)"
                         },
                         "search_engines": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Zarejestruj forum w wyszukiwarkach",
+                            "reason": "Musisz przejrzeć tę sekcję, aby test został zaliczony.",
+                            "button": "Więcej informacji"
                         },
                         "review": {
-                            "label": "",
-                            "reason": "",
-                            "button": ""
+                            "label": "Przeglądaj ustawienia SEO co dwa miesiące. Następny przegląd: {date}",
+                            "reason": "Czas ponownie przejrzeć ustawienia SEO.",
+                            "button": "OK, przejrzałem!"
                         }
                     }
                 }
             }
         },
         "forum": {
-            "profile_title": "",
-            "profile_description": "",
+            "profile_title": "Profil użytkownika {username}",
+            "profile_description": "Profil użytkownika {username} | {discussion_count} dyskusji | {comment_count} postów",
             "controls": {
-                "configure_seo": "",
-                "update_seo": "",
-                "reset_seo": ""
+                "configure_seo": "Skonfiguruj SEO",
+                "update_seo": "Zaktualizuj SEO",
+                "reset_seo": "Zresetuj SEO"
             },
             "meta_seo": {
-                "title": "",
-                "note_prefix": "",
-                "managed": "",
-                "saved": "",
+                "title": "Ustawienia SEO – meta",
+                "note_prefix": "Uwaga:",
+                "managed": "Zarządzane",
+                "saved": "Zapisano!",
                 "close": {
-                    "close": "",
-                    "save": "",
-                    "save_autofill": "",
-                    "autofill_info": ""
+                    "close": "Zamknij",
+                    "save": "Zapisz",
+                    "save_autofill": "Zapisz i uzupełnij automatycznie",
+                    "autofill_info": "Ta zmiana cofnie własne modyfikacje i uzupełni meta tagi danymi elementu."
                 },
                 "unsupported_object": {
-                    "title": "",
-                    "docs_link": "",
-                    "body": ""
+                    "title": "Ten obiekt nie jest obsługiwanym obiektem SeoMeta",
+                    "docs_link": "Dokumentacja",
+                    "body": "Otwórz to okno, używając właściwości objectType i objectId, albo zarejestruj relację obiektu."
                 },
                 "auto_update": {
-                    "label": "",
-                    "help": "",
-                    "switch": ""
+                    "label": "Automatycznie aktualizuj meta tagi",
+                    "help": "Po włączeniu meta tagi tego elementu będą automatycznie aktualizowane po zmianie obiektu.",
+                    "switch": "Aktualizuj SEO obiektu przy zmianach"
                 },
                 "meta_title": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Meta tytuł",
+                    "help": "Tytuł widoczny w wyszukiwarkach.",
+                    "placeholder": "Wpisz tytuł strony"
                 },
                 "meta_description": {
-                    "label": "",
-                    "help": ""
+                    "label": "Meta opis",
+                    "help": "Opisuje element i jest wyświetlany w wyszukiwarkach."
                 },
                 "keywords": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "comma_note": "",
-                    "example": ""
+                    "label": "Słowa kluczowe",
+                    "help": "Wpisz jedno lub więcej słów kluczowych opisujących ten element.",
+                    "placeholder": "Dodaj kilka słów kluczowych",
+                    "comma_note": "Uwaga: oddzielaj słowa kluczowe przecinkami.",
+                    "example": "Przykład: flarum, web development, forum, jabłka, bezpieczeństwo"
                 },
                 "image": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": "",
-                    "managed_by": "",
-                    "upload": ""
+                    "label": "Obraz meta",
+                    "help": "Wyświetla obraz.",
+                    "placeholder": "Wpisz adres URL obrazu",
+                    "managed_by": "Źródłem obrazu zarządza {source}",
+                    "upload": "Prześlij plik"
                 },
                 "robots": {
-                    "label": "",
-                    "help": "",
+                    "label": "Roboty",
+                    "help": "Ustawienia indeksowania przez roboty dla tego elementu.",
                     "tags": {
-                        "indexing_allowed": "",
-                        "indexing_not_allowed": "",
-                        "follow_allowed": "",
-                        "follow_not_allowed": "",
-                        "archive_not_allowed": "",
-                        "imageindex_not_allowed": "",
-                        "snippet_not_allowed": ""
+                        "indexing_allowed": "Indeksowanie strony dozwolone",
+                        "indexing_not_allowed": "Indeksowanie strony niedozwolone",
+                        "follow_allowed": "Śledzenie linków dozwolone",
+                        "follow_not_allowed": "Śledzenie linków niedozwolone",
+                        "archive_not_allowed": "Archiwizowanie stron niedozwolone",
+                        "imageindex_not_allowed": "Indeksowanie obrazów niedozwolone",
+                        "snippet_not_allowed": "Tworzenie fragmentów tekstu niedozwolone"
                     },
                     "switch": {
-                        "indexing": "",
-                        "follow": "",
-                        "noarchive": "",
-                        "noimageindex": "",
-                        "nosnippet": ""
+                        "indexing": "Zezwalaj na indeksowanie strony",
+                        "follow": "Zezwalaj na śledzenie linków do innych stron",
+                        "noarchive": "Wyłącz archiwizowanie strony (noarchive)",
+                        "noimageindex": "Wyłącz indeksowanie obrazów na tej stronie (noimageindex)",
+                        "nosnippet": "Wyłącz fragmenty tekstu na stronie (nosnippet)"
                     }
                 },
                 "reading_time": {
-                    "label": "",
-                    "help": "",
-                    "placeholder": ""
+                    "label": "Szacowany czas czytania",
+                    "help": "Szacowany czas czytania w sekundach.",
+                    "placeholder": "Czas czytania w sekundach"
                 },
                 "twitter": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
-                    "description": "",
+                    "label": "Karta X (dawniej Twitter)",
+                    "auto_switch": "Automatycznie generuj kartę X (dawniej Twitter)",
+                    "title": "Tytuł dla X (dawniej Twitter)",
+                    "description": "Opis dla X (dawniej Twitter)",
                     "image": {
-                        "label": "",
-                        "help": "",
-                        "reset": ""
+                        "label": "Obraz dla X (dawniej Twitter)",
+                        "help": "Wyświetla obraz w X (dawniej Twitter).",
+                        "reset": "Zresetuj obraz"
                     }
                 },
                 "og": {
-                    "label": "",
-                    "auto_switch": "",
-                    "title": "",
+                    "label": "Tagi Open Graph",
+                    "auto_switch": "Automatycznie generuj tagi Open Graph",
+                    "title": "Tytuł Open Graph",
                     "description": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Opis Open Graph",
+                        "placeholder": "Własny opis Open Graph"
                     }
                 }
             }

@@ -28,13 +28,23 @@
             "viewer": {
                 "unavailable": "This stream can't be embedded right now."
             },
+            "widget": {
+                "name": "Live streams",
+                "title_label": "Title",
+                "count_label": "How many",
+                "preview_label": "Show stream previews",
+                "empty": "No one is streaming right now."
+            },
             "stream": {
                 "by": "by",
                 "untitled": "Live stream",
                 "not_found": "That stream isn't live anymore.",
                 "end": "End stream",
                 "has_ended": "This stream has ended.",
-                "end_failed": "Couldn't end the stream. Please try again."
+                "end_failed": "Couldn't end the stream. Please try again.",
+                "delete": "Delete stream",
+                "delete_confirm": "Delete this stream? This removes it permanently, including its history.",
+                "delete_failed": "Couldn't delete the stream. Please try again."
             }
         },
         "admin": {

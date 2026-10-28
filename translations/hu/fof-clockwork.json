@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
+                "section_label": "Clockwork",
                 "button_label": "A Clockwork megnyitása"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Beállítások",
+                "disable_auth_label": "Hitelesítés letiltása",
+                "disable_auth_help": "Ha be van kapcsolva, akkor az összes kérés profilozva lesz, és a Clockwork megjelenítőt bejelentkezés nélkül is el lehet érni. Csak ideiglenesen kapcsolja be, hibakereséshez.",
+                "disable_auth_warning": "Figyelmeztetés: a hitelesítés ki van kapcsolva. A Clockwork megjelenítő és az összes profilozási adat nyilvánosan elérhető. Kapcsolja ki, ha végzett a hibakereséssel."
             }
         }
     }

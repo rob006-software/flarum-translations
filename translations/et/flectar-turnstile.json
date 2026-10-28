@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Me ei suutnud kinnitada kas sa oled robot või mitte. Palun värskenda lehekülge ja proovi uuesti.",
-        "required": "Palun lõpeta Turnstile väljakutse."
+        "custom": {
+            "turnstileToken": {
+                "required": ""
+            },
+            "turnstile": {
+                "required": ""
+            }
+        }
     }
 }

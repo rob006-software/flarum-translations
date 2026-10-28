@@ -1,0 +1,34 @@
+{
+    "ernestdefoe-hashtags": {
+        "forum": {
+            "nav": {
+                "browse": "Hashtags"
+            },
+            "page": {
+                "meta": "{posts, plural, one {# post} other {# posts}} across {discussions, plural, one {# discussion} other {# discussions}}",
+                "browse_all": "Browse all hashtags",
+                "empty": "Nothing has been posted with #{name} yet — or nothing you can see."
+            },
+            "browse": {
+                "title": "Hashtags",
+                "lede": "Anyone can start one. Write # followed by a word in any post.",
+                "search_placeholder": "Find a hashtag…",
+                "sort_popular": "Most used",
+                "sort_recent": "Recently used",
+                "sort_alphabetical": "A–Z",
+                "empty": "No hashtags yet. Write # followed by a word in a post to start one.",
+                "no_matches": "No hashtags match that."
+            },
+            "composer": {
+                "post_count": "{count, plural, one {# post} other {# posts}}"
+            }
+        },
+        "admin": {
+            "backfill": {
+                "heading": "Existing posts",
+                "body": "Posts written before Hashtags was installed are stored without hashtag links, so they won't appear in any feed until they're re-parsed. Run this once from your Flarum directory:",
+                "help": "Add --dry-run first to see how many posts would change. Only posts that actually contain a hashtag are rewritten; everything else is read and skipped."
+            }
+        }
+    }
+}

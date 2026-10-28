@@ -1,9 +1,19 @@
 {
     "core": {
+        "ref": {
+            "most_viewed": "Najczęściej wyświetlane",
+            "least_viewed": "Najrzadziej wyświetlane"
+        },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
+            }
+        },
+        "lib": {
+            "index_sort": {
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
@@ -13,7 +23,7 @@
                 "title": "Zresetuj liczbę wyświetleń dyskusji",
                 "submit": "Zatwierdź",
                 "label": "Ustaw liczbę wyświetleń",
-                "invalid": ""
+                "invalid": "Podaj liczbę większą lub równą 0"
             },
             "discussion_controls": {
                 "resetviews_button": "Ustaw liczbę wyświetleń"
@@ -24,13 +34,15 @@
                 "reset_views_label": "Ustawianie liczby wyświetleń dyskusji"
             },
             "settings": {
-                "ignore_crawlers": "Ignoruj wizyty botów"
+                "ignore_crawlers": "Ignoruj wizyty botów",
+                "dedupe_ttl": "Po ilu sekundach ponownie zliczać wyświetlenie",
+                "dedupe_ttl_help": "Określa, jak długo wyświetlenie dyskusji jest zapamiętywane, aby nie zostało zliczone ponownie. Ustaw 0, aby zliczać każde wyświetlenie."
             }
         },
         "lib": {
             "gambits": {
                 "popular": {
-                    "key": ""
+                    "key": "popularne"
                 }
             }
         }

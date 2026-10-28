@@ -2,23 +2,39 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "Dividir postagens de discussões"
+                "split_discussion_label": "Dividir posts de discussões"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "{count, plural, one {{count} postagem foi dividida para {target}.} other {{count} postagens foram divididas para {target}.}}",
-                "was_split_from": "{count, plural, one {{count} postagem foi dividida de {target}.} other {{count} postagens foram divididas de {target}.}}"
+                "was_split_to": "{count, plural, one {# post foi dividido para {target}.} other {# posts foram divididos para {target}.}}",
+                "was_split_from": "{count, plural, one {# post foi dividido de {target}.} other {# posts foram divididos de {target}.}}"
             },
             "split": {
-                "from": "Dividir apartir daqui",
+                "from": "Dividir a partir daqui",
                 "to": "Dividir até aqui",
-                "cancel": ""
+                "cancel": "Cancelar divisão"
             },
             "modal": {
                 "title": "Dividir discussão",
                 "new_discussion_label": "Especifique o título da nova discussão",
                 "submit_button": "Dividir"
+            }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "Dividiu {post_count} posts de {discussion} para {new_discussion}",
+                    "split_into": "Dividiu {post_count} posts para a nova discussão {discussion}"
+                }
             }
         }
     }

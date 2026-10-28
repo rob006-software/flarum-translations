@@ -107,5 +107,19 @@
                 "rejected": "{display_name}, kullanıcı adı değişikliğinizi {requested_username} olarak reddetti"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_requested": "{username} adlı kullanıcı için {new_nickname} takma adı istendi",
+                    "nickname_request_approved": "{username} adlı kullanıcının takma adını {old_nickname} yerine {new_nickname} olarak değiştirme isteğini onayladı",
+                    "nickname_request_rejected": "{username} adlı kullanıcının takma ad değiştirme isteğini reddetti",
+                    "username_requested": "{username} adlı kullanıcı için {new_username} kullanıcı adı istendi",
+                    "username_request_approved": "{username} adlı kullanıcının kullanıcı adını {old_username} yerine {new_username} olarak değiştirme isteğini onayladı",
+                    "username_request_rejected": "{username} adlı kullanıcının kullanıcı adını değiştirme isteğini reddetti"
+                }
+            }
+        }
     }
 }

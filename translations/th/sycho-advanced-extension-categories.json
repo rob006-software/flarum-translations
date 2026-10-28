@@ -1,20 +1,20 @@
 {
     "sycho-ace": {
         "admin": {
-            "extensions": "",
+            "extensions": "Extensions",
             "category_selection": {
-                "label": "",
+                "label": "จัดหมวดหมู่ตาม",
                 "options": {
-                    "default": "",
-                    "vendor": "",
-                    "none": "",
-                    "availability": ""
+                    "default": "ค่าเริ่มต้น",
+                    "vendor": "Vendor",
+                    "none": "ไม่มี",
+                    "availability": "สถานะการใช้งาน"
                 }
             },
             "categories": {
-                "none": "",
-                "enabled": "",
-                "disabled": ""
+                "none": "A-Z",
+                "enabled": "เปิดใช้งาน",
+                "disabled": "ปิดใช้งาน"
             }
         }
     }

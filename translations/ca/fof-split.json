@@ -20,6 +20,22 @@
                 "new_discussion_label": "Triar un títol per al nou debat",
                 "submit_button": "Dividir"
             }
+        },
+        "api": {
+            "errors": {
+                "first_post": "",
+                "end_before_start": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "split_away": "",
+                    "split_into": ""
+                }
+            }
         }
     }
 }

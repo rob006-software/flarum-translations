@@ -3,35 +3,51 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "เปิดใช้งาน Google Analytics (UA/GA4)",
+                    "optTrackingCode": "รหัสการติดตาม Google Optimize (ระบุหรือไม่ก็ได้)",
+                    "googleTrackingCode": "ไอดีรหัสการติดตาม (Tracking Code ID)",
+                    "googleGTMCode": "ไอดีรหัส GTM (GTM Code ID - ระบุหรือไม่ก็ได้)",
+                    "statusPiwik": "เปิดใช้งาน Matomo",
+                    "piwikUrl": "โดเมนหรือ URL ของ Matomo",
+                    "piwikSiteId": "ไอดีเว็บไซต์ (Site ID)",
+                    "piwikTrackSubdomain": "ติดตามผู้เยี่ยมชมในทุกโดเมนย่อย (Subdomain) ของ Flarum",
+                    "piwikPrependDomain": "เพิ่มโดเมนของไซต์ไว้ข้างหน้าชื่อหน้าเว็บเมื่อติดตาม",
+                    "piwikHideAliasUrl": "ซ่อนการคลิกไปยังลิงก์นามแฝง (Alias URL) ที่รู้จักในรายงาน \"ลิงก์ภายนอก\"",
+                    "piwikAliasUrl": "ลิงก์นามแฝง (Alias URL)",
+                    "piwikTrackAccounts": "ติดตามบัญชีผู้ใช้แต่ละคน",
+                    "piwikAuthToken": "โทเค็นการยืนยันตัวตน (Authentication Token)"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "ใส่โทเค็นนี้เพื่อเปิดใช้งานวิดเจ็ตสถิติ Matomo ในแผงควบคุมผู้ดูแลระบบ\nคุณสามารถค้นหาโทเค็นนี้ได้ที่การตั้งค่า > ส่วนตัว > โทเค็นยืนยันตัวตน API (API Authentication Token)\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "ไม่ติดตาม",
+                    "username": "ติดตามด้วยชื่อผู้ใช้",
+                    "email": "ติดตามด้วยอีเมล"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
+            }
+        },
+        "forum": {
+            "consent": {
+                "cookies": {
+                    "ga": "",
+                    "gat": "",
+                    "gid": "",
+                    "utm": "",
+                    "pk_id": "",
+                    "pk_ses": "",
+                    "pk_ref": "",
+                    "pk_cvar": "",
+                    "pk_hsr": "",
+                    "matomo_sessid": ""
+                }
             }
         }
     }

@@ -1,14 +1,14 @@
 {
     "anto0102-mailguard": {
         "admin": {
-            "mode_label": "",
-            "mode_help": "",
-            "domains_label": "",
-            "domains_help": "",
-            "message_label": "",
-            "message_help": "",
-            "check_mx_label": "",
-            "check_mx_help": ""
+            "mode_label": "Chế độ lọc tên miền",
+            "mode_help": "Cho phép = chỉ những tên miền trong danh sách mới được đăng ký. Chặn = những tên miền trong danh sách bị chặn.",
+            "domains_label": "Tên miền email (mỗi dòng một tên)",
+            "domains_help": "Hãy nhập tên miền không kèm dấu @. Ví dụ: gmail.com",
+            "message_label": "Thông báo từ chối",
+            "message_help": "Thông báo hiển thị với những người cố đăng ký bằng một tên miền email bị chặn.",
+            "check_mx_label": "Kiểm tra bản ghi MX/DNS",
+            "check_mx_help": "Nếu bật, sẽ chặn những tên miền không tồn tại hoặc không nhận được email (bất kể danh sách cho phép hay chặn)."
         }
     }
 }

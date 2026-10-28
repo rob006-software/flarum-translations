@@ -133,6 +133,11 @@
                         "label": "Folder ID",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
+                    "use-display-paths": {
+                        "label": "Use display paths (allow overwriting)",
+                        "toggle": "Use display paths",
+                        "description": "Google Drive has support for version history. This option uses the file's path as its identifier instead of a randomly generated one. With this option disabled, multiple files with the same name can exist in the same folder without conflicting. With it enabled, writing to a path that already exists will overwrite the existing file. <br/> <b>NOTE:</b> If you enable this option, make sure to change the folder ID to the display path of the folder! Otherwise, you will have a folder created with the name of the folder ID.\n"
+                    },
                     "help": {
                         "test_success_alert": "Successfully connected to Google Drive! Save the changes to store the settings.",
                         "test_button": "Test connection"

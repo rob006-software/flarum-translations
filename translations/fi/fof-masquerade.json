@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "Ole hyvä ja syötä alla olevat vaaditut profiilin kentät.\n",
                 "profile-completed": "Profiili valmis. <a>Jatka etusivulle</a>"
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Luo kenttä",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "Tallenna muutokset",
-                "delete-field": "Poista kenttä"
+                "delete-field": "Poista kenttä",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "Muokkaa toisen käyttäjän profiilia",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "Kentät",
+                "trash": "",
                 "create": "Luo kenttä",
                 "edit": "Muokkaa kenttää {field}",
                 "delete-confirmation": "Haluatko varmasti poistaa kentän {field}? Tätä ei voi peruuttaa.",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "Kentän nimi",
                 "name-help": "Julkisesti näkyvillä oleva (ei käännettävä) kentän tunniste.\n",
                 "description": "Kentän kuvaus",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "vastaus"
+                    "key": "vastaus",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "Vie käyttäjän profiilin kenttien vastaukset",
                     "delete_description": "Poistaa kaikki käyttäjän profiilin kenttien vastaukset",
                     "anonymize_description": "=> flarum-gdpr.lib.data.masqueradeanswers.delete_description"
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

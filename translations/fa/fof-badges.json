@@ -1,9 +1,67 @@
 {
     "fof-badges": {
+        "defaults": {
+            "categories": {
+                "getting-started": {
+                    "name": "",
+                    "description": ""
+                },
+                "milestones": {
+                    "name": "",
+                    "description": ""
+                },
+                "posting": {
+                    "name": "",
+                    "description": ""
+                }
+            },
+            "badges": {
+                "first-post": {
+                    "name": "",
+                    "description": ""
+                },
+                "conversation-starter": {
+                    "name": "",
+                    "description": ""
+                },
+                "profile-picture": {
+                    "name": "",
+                    "description": ""
+                },
+                "first-week": {
+                    "name": "",
+                    "description": ""
+                },
+                "regular": {
+                    "name": "",
+                    "description": ""
+                },
+                "anniversary": {
+                    "name": "",
+                    "description": ""
+                },
+                "active-member": {
+                    "name": "",
+                    "description": ""
+                },
+                "prolific": {
+                    "name": "",
+                    "description": ""
+                },
+                "topic-starter": {
+                    "name": "",
+                    "description": ""
+                },
+                "editor": {
+                    "name": "",
+                    "description": ""
+                }
+            }
+        },
         "admin": {
             "tabs": {
                 "badges": "",
-                "categories": "",
+                "categories": "دسته‌بندی‌ها",
                 "recalculation": "",
                 "settings": "تنظیمات"
             },
@@ -14,13 +72,13 @@
                 "primary_badge_display": "",
                 "primary_badge_display_help": "",
                 "primary_badge_hidden": "",
-                "primary_badge_icon": "",
-                "primary_badge_icon_name": "",
+                "primary_badge_icon": "فقط نماد",
+                "primary_badge_icon_name": "نماد و نام",
                 "show_badges_on_user_card": "",
                 "show_badges_on_user_card_help": "",
                 "post_badge_display_limit": "",
                 "post_badge_display_limit_help": "",
-                "save": "",
+                "save": "درج کردن تنظیمات",
                 "saved": "",
                 "save_error": "",
                 "integrations_title": "",
@@ -64,7 +122,7 @@
                 "all_badges": "",
                 "chunk_size_label": "",
                 "chunk_size_help": "",
-                "default": "",
+                "default": "پیش‌فرض",
                 "no_revoke_label": "",
                 "no_revoke_help": "",
                 "reapply_actions_label": "",
@@ -108,7 +166,7 @@
             "headers": {
                 "order": "",
                 "icon": "",
-                "name": "",
+                "name": "نام",
                 "type": "",
                 "earned": "",
                 "rarity": "",
@@ -126,13 +184,13 @@
             "manual": "",
             "active": "",
             "inactive": "",
-            "enabled": "",
-            "disabled": "",
+            "enabled": "فعال شد",
+            "disabled": "غیرفعال شد",
             "earned_count": "",
             "badge_count": "",
             "rarity": "",
             "edit": "ویرایش",
-            "delete": "",
+            "delete": "حذف",
             "assign": "",
             "move_up": "",
             "move_down": "",
@@ -140,14 +198,14 @@
             "delete_category_confirm": "",
             "delete_category_confirm_with_badges": "",
             "edit_badge": "",
-            "badge_name": "",
+            "badge_name": "نام",
             "badge_name_placeholder": "",
-            "badge_slug": "",
+            "badge_slug": "اسلاگ",
             "badge_slug_placeholder": "",
             "badge_slug_help": "",
             "badge_description": "",
             "badge_description_placeholder": "",
-            "badge_category": "",
+            "badge_category": "دسته‌بندی",
             "no_category": "",
             "appearance": "",
             "preview": "",
@@ -216,15 +274,15 @@
             "add_to_group": "",
             "add_to_group_help": "",
             "no_group": "",
-            "edit_category": "",
-            "category_name": "",
+            "edit_category": "ویرایش دسته‌بندی",
+            "category_name": "نام",
             "category_name_placeholder": "",
-            "category_slug": "",
+            "category_slug": "اسلاگ",
             "category_slug_placeholder": "",
             "category_slug_help": "",
             "category_description": "",
             "category_description_placeholder": "",
-            "category_enabled": "",
+            "category_enabled": "فعال شد",
             "category_enabled_help": "",
             "assign_badge": "",
             "select_user": "",
@@ -245,8 +303,8 @@
             "revoke_confirm": "",
             "badge_revoked": "",
             "revoke_error": "",
-            "previous": "",
-            "next": "",
+            "previous": "قبلی",
+            "next": "بعدی",
             "showing_holders": ""
         },
         "forum": {
@@ -260,7 +318,7 @@
             "no_badges": "",
             "other_badges": "",
             "earned_by": "",
-            "new_tag": "",
+            "new_tag": "جدید",
             "loading": "",
             "my_badges": "",
             "owned_badge": "",

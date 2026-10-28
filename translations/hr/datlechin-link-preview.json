@@ -2,18 +2,36 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "general_label": "",
-                "general_description": "",
+                "appearance_label": "",
+                "appearance_description": "",
+                "behaviour_label": "",
+                "behaviour_description": "",
                 "performance_label": "",
                 "performance_description": "",
-                "url_filtering_label": "",
-                "url_filtering_description": "",
-                "external_api_label": "",
-                "external_api_description": ""
+                "filtering_label": "",
+                "filtering_description": ""
             },
             "settings": {
+                "open_links_in_new_tab_label": "Otvori Poveznice u Novoj Kartici",
+                "open_links_in_new_tab_help": "Uvijek otvori pregledane poveznice u novoj kartici preglednika.",
+                "google_favicon_fallback_label": "",
+                "google_favicon_fallback_help": "",
+                "preview_internal_links_label": "",
+                "preview_internal_links_help": "",
+                "skip_media_links_label": "",
+                "skip_media_links_help": "",
+                "max_previews_per_post_label": "",
+                "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Omogući skupnu obradu",
                 "enable_batch_requests_help": "Poboljšaj performanse obradom više pregleda poveznica istovremeno. Kada je onemogućeno, poveznice se obrađuju jedna po jedna.",
+                "cache_time_label": "Trajanje predmemorije (minute)",
+                "cache_time_help": "Koliko dugo pohranjivati preglede poveznica prije osvježavanja. Postavi na 0 za onemogućavanje predmemoriranja. Zadano: 60 minuta.",
+                "allowlist_label": "",
+                "allowlist_help": "",
+                "allowlist_placeholder": "",
+                "blocklist_label": "",
+                "blocklist_help": "",
+                "blocklist_placeholder": "",
                 "blacklist_label": "Crna lista Domena",
                 "blacklist_help": "Odredite domene ili URL-ove za koje ne bi trebalo generirati preglede poveznica. Koristite zareze za odvajanje višestrukih unosa.",
                 "blacklist_placeholder": "Primjeri: facebook.com, twitter.com/specific-page",
@@ -23,18 +41,21 @@
                 "convert_media_urls_label": "Pregled Medijskih URL-ova",
                 "convert_media_urls_help": "Generiraj preglede za URL-ove koji upućuju na medijske datoteke (slike, videozapise itd.).",
                 "use_google_favicons_label": "Prikaži Ikone Stranice",
-                "use_google_favicons_help": "Prikaži ikone web-mjesta koristeći Googleovu uslugu Favicon za poboljšanje vizualnog prepoznavanja.",
-                "cache_time_label": "Trajanje predmemorije (minute)",
-                "cache_time_help": "Koliko dugo pohranjivati preglede poveznica prije osvježavanja. Postavi na 0 za onemogućavanje predmemoriranja. Zadano: 60 minuta.",
-                "open_links_in_new_tab_label": "Otvori Poveznice u Novoj Kartici",
-                "open_links_in_new_tab_help": "Uvijek otvori pregledane poveznice u novoj kartici preglednika.",
-                "external_api_fallback_label": "",
-                "external_api_fallback_help": "",
-                "external_api_url_label": "",
-                "external_api_url_help": ""
+                "use_google_favicons_help": "Prikaži ikone web-mjesta koristeći Googleovu uslugu Favicon za poboljšanje vizualnog prepoznavanja."
             }
         },
         "forum": {
+            "loading": "",
+            "meta": {
+                "replies": "",
+                "posts": "",
+                "discussions": ""
+            },
+            "clicks": "",
+            "settings": {
+                "hide_link_previews_label": "",
+                "hide_link_previews_help": ""
+            },
             "site_cannot_be_reached": "Nije moguće učitati pregled. Molimo provjerite URL i pokušajte ponovno."
         }
     }

@@ -1,6 +1,9 @@
 {
     "fof-masquerade": {
         "forum": {
+            "profile": {
+                "empty-text": ""
+            },
             "alerts": {
                 "profile-completion-required": "以下の必要なプロファイルフィールドに入力してください。\n",
                 "profile-completed": ""
@@ -24,8 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "フィールドを作成",
+                "add-option": "",
+                "delete-option": "",
                 "edit-field": "変更内容を保存",
-                "delete-field": "フィールドを削除"
+                "delete-field": "フィールドを削除",
+                "restore-field": "",
+                "delete-field-permanently": ""
             },
             "permissions": {
                 "edit-others-profile": "",
@@ -34,9 +41,14 @@
             },
             "fields": {
                 "title": "フィールド",
+                "trash": "",
                 "create": "",
                 "edit": "編集フィールド {field}",
                 "delete-confirmation": "",
+                "delete-permanently-confirmation": "",
+                "is_restricted": "",
+                "permissions": "",
+                "permissions-alert": "",
                 "name": "フィールド名",
                 "name-help": "一般公開されている（翻訳できない）フィールドラベル。\n",
                 "description": "フィールドの説明",
@@ -67,7 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": ""
+                    "key": "",
+                    "hint": ""
                 }
             }
         }
@@ -79,6 +92,20 @@
                     "export_description": "",
                     "delete_description": "",
                     "anonymize_description": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "masquerade": {
+                    "field_created": "",
+                    "field_updated": "",
+                    "field_deleted": "",
+                    "field_restored": "",
+                    "field_permanently_deleted": "",
+                    "profile_updated": ""
                 }
             }
         }

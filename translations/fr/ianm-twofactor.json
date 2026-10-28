@@ -81,8 +81,9 @@
                 "manual_entry_instruction": "Saisissez le code fourni dans votre application d'authentification, puis saisissez le jeton généré pour activer l'authentification à deux facteurs."
             },
             "log_in": {
-                "two_factor_placeholder": "Jeton A2F, 123456 par exemple",
-                "two_factor_required_message": "Un jeton A2F valide est nécessaire pour continuer."
+                "two_factor_placeholder": "Jeton A2F, p. ex. 123456",
+                "two_factor_required_message": "Un jeton A2F valide est nécessaire pour continuer.",
+                "two_factor_incorrect_message": "Le jeton A2F est incorrect. Veuillez réessayer."
             }
         },
         "email": {
@@ -99,6 +100,11 @@
             }
         },
         "views": {
+            "log_in": {
+                "two_factor_token_placeholder": "Jeton A2F (si activé sur votre compte)",
+                "two_factor_required_message": "L'authentification à deux facteurs est activée sur ce compte. Saisissez le jeton fourni par votre application d'authentification ou un code de secours.",
+                "two_factor_incorrect_message": "Le jeton A2F est incorrect. Veuillez réessayer."
+            },
             "reset_password": {
                 "two_factor_token_label": "Jeton A2F"
             },
@@ -115,6 +121,22 @@
                 "twofactordata": {
                     "export_description": "Exporte le statut A2F et les codes de sauvegarde chiffrés.",
                     "delete_description": "Supprime toutes les données relatives à l'A2F."
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "two_factor_enabled": "A activé l'authentification à deux facteurs pour {username}",
+                    "two_factor_disabled": "A désactivé l'authentification à deux facteurs pour {username}",
+                    "two_factor_device_changed": "A modifié l'appareil d'authentification à deux facteurs pour {username}",
+                    "two_factor_backup_code_used": "A utilisé un code de secours à deux facteurs pour {username} ({remaining} restant(s))"
+                },
+                "group": {
+                    "two_factor_required": "A exigé l'authentification à deux facteurs pour le groupe {name}",
+                    "two_factor_not_required": "A cessé d’exiger l’authentification à deux facteurs pour le groupe {name}"
                 }
             }
         }

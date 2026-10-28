@@ -2,7 +2,19 @@
     "datlechin-mermaid": {
         "admin": {
             "settings": {
-                "description": "No settings yet. Mermaid diagrams render automatically inside fenced ```mermaid code blocks."
+                "theme_label": "Diagram theme",
+                "theme_help": "How diagrams are coloured. \"Match forum theme\" takes the colours from your forum and follows light and dark mode.",
+                "theme_options": {
+                    "flarum": "Match forum theme",
+                    "auto": "Mermaid light & dark",
+                    "default": "Mermaid default",
+                    "dark": "Mermaid dark",
+                    "neutral": "Mermaid neutral",
+                    "forest": "Mermaid forest"
+                },
+                "font_family_label": "Font family",
+                "font_family_help": "Any CSS font stack, for example: \"Inter\", system-ui, sans-serif. Leave empty to use the font your forum uses for post text.",
+                "font_family_placeholder": "Inherit from the forum"
             }
         }
     }

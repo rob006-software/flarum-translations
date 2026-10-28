@@ -1,0 +1,264 @@
+{
+    "ernestdefoe-insert-coin": {
+        "forum": {
+            "nav": "Arcade",
+            "home": {
+                "title": "Arcade",
+                "subtitle": "Pick a cabinet, beat the champion, take the crown.",
+                "failed": "The arcade couldn't be loaded. Try again in a moment.",
+                "empty": "No games yet.",
+                "no_match": "No games match.",
+                "recent": "Recently played",
+                "categories": "Categories",
+                "all": "All games",
+                "sort": "Sort games",
+                "sort_featured": "Featured",
+                "sort_popular": "Most played",
+                "sort_newest": "Newest",
+                "sort_title": "A–Z",
+                "search": "Search games",
+                "hall_of_fame": "Hall of Fame",
+                "hall_empty": "Nobody holds a crown yet. Be the first.",
+                "recent_crowns": "Recent crowns",
+                "crowns_empty": "No crowns have changed hands yet.",
+                "crown_took": "{player} took {game} from {previous}",
+                "crown_first": "{player} claimed {game}"
+            },
+            "card": {
+                "play": "Play",
+                "mobile": "Plays on phone",
+                "keyboard": "Keyboard needed",
+                "unclaimed": "Crown up for grabs",
+                "disabled": "Off"
+            },
+            "game": {
+                "missing": "That game isn't here.",
+                "plays": "{count, plural, one {# play} other {# plays}}",
+                "champion": "is the champion with {score}",
+                "no_champion": "Nobody holds this crown yet.",
+                "crown_approval": "Crowns are approved by moderators"
+            },
+            "cabinet": {
+                "insert_coin": "INSERT COIN",
+                "hi_score": "HI-SCORE",
+                "credit": "CREDIT {count}",
+                "crt": "CRT",
+                "press_start": "Press start",
+                "game_over": "GAME OVER",
+                "play_again": "Play again",
+                "quit": "End run",
+                "mute": "Sound off",
+                "unmute": "Sound on",
+                "theatre": "Theatre",
+                "fullscreen": "Full screen",
+                "exit_fullscreen": "Exit full screen",
+                "keyboard": "This game needs a keyboard.",
+                "personal_best": "New personal best!",
+                "you_are_champion": "You hold the crown!",
+                "new_champion": "NEW CHAMPION",
+                "dethroned": "You dethroned {player}.",
+                "rank": "Your best: {best} · #{rank} all time",
+                "held_crown": "This would take the crown, so a moderator checks it first.",
+                "held_review": "This score is held for a moderator to review.",
+                "not_saved": "Your score couldn't be saved.",
+                "log_in": "Log in to put your scores on the board",
+                "banned": "You're banned from posting arcade scores.",
+                "no_permission": "Your scores aren't saved here."
+            },
+            "board": {
+                "title": "High scores",
+                "all": "All time",
+                "month": "This month",
+                "week": "This week",
+                "your_best": "Your best",
+                "empty": "No scores yet. Set the first one.",
+                "empty_period": "No scores in this period yet.",
+                "more": "Show more",
+                "low_wins": "Lower is better on this game."
+            },
+            "user": {
+                "tab": "Arcade",
+                "crowns": "{count, plural, one {# crown} other {# crowns}}",
+                "crowns_held": "{count, plural, one {crown held} other {crowns held}}",
+                "games_played": "{count, plural, one {game played} other {games played}}",
+                "crowns_title": "Crowns held",
+                "bests_title": "Best scores",
+                "empty": "No scores yet.",
+                "empty_self": "You haven't posted a score yet. The arcade is waiting.",
+                "banned": "Banned from the arcade"
+            },
+            "moderate": {
+                "title": "Arcade moderation",
+                "subtitle": "Scores held back, outliers and crowns waiting for approval.",
+                "forbidden": "You can't moderate the arcade.",
+                "empty": "Nothing to review. All clear.",
+                "approve": "Approve",
+                "reject": "Delete",
+                "reason_outlier": "Far beyond the record",
+                "reason_crown": "Crown needs approval",
+                "champion_score": "record {score}",
+                "duration": "{seconds, plural, one {# second} other {# seconds}} played",
+                "actions": "Moderate",
+                "wipe_game": "Wipe this game's scores",
+                "wipe_game_confirm": "Wipe every score on {game}? Its crown and leaderboard start over. This can't be undone.",
+                "wipe_user_game": "Wipe their scores here",
+                "wipe_user_game_confirm": "Wipe {player}'s scores on {game}?",
+                "wipe_user": "Wipe all their scores",
+                "wipe_user_confirm": "Wipe all of {player}'s arcade scores? Their crowns pass to whoever is next.",
+                "ban": "Ban from the arcade",
+                "ban_and_wipe": "Ban and wipe their scores",
+                "ban_confirm": "Ban {player} from posting arcade scores?",
+                "unban": "Lift arcade ban"
+            },
+            "notifications": {
+                "dethroned": "You've been dethroned on {game} by {username}"
+            },
+            "settings": {
+                "notify_dethroned": "Someone takes a crown from me in the arcade"
+            }
+        },
+        "lib": {
+            "widget": {
+                "title": "Recent crowns",
+                "heading": "Heading",
+                "limit": "How many"
+            }
+        },
+        "email": {
+            "dethroned": {
+                "subject": "You've been dethroned on {game} by {user}",
+                "body": "{user} beat your record on {game} with {score} and took the crown. Fancy taking it back?",
+                "link": "Back to the cabinet"
+            }
+        },
+        "api": {
+            "slow_down": "You're playing very fast. Take a breather and try again in a minute.",
+            "bad_session": "That play session isn't valid.",
+            "already_submitted": "This run's score has already been sent.",
+            "bad_score": "That isn't a valid score.",
+            "expired": "This run went on too long to count. Press start again.",
+            "too_quick": "That run was too short to count.",
+            "over_ceiling": "That score is beyond what this game allows.",
+            "category_name": "Give the category a name, up to 100 characters.",
+            "thumbnail": "The cover must be a PNG, JPEG, GIF or WebP image under 5 MB.",
+            "upload_failed": "The upload didn't arrive. Check the file's size against the server's upload limit.",
+            "field": {
+                "title": "Give the game a title.",
+                "slug": "That URL name is taken or not allowed.",
+                "url": "The game's URL must be an http(s) address on another site."
+            },
+            "pack": {
+                "bad_zip": "That isn't a zip file this server can read.",
+                "too_many": "A pack can hold up to {max} files.",
+                "too_big": "That pack is too large once unpacked.",
+                "unsafe_path": "The pack has a file path that isn't allowed: {path}",
+                "bad_manifest": "insertcoin.json needs to be valid JSON with a title.",
+                "no_manifest": "The pack needs an insertcoin.json manifest at its top level.",
+                "no_entry": "The pack's entry page ({entry}) is missing or isn't an HTML file.",
+                "entry_too_big": "The pack's entry page is larger than 2 MB.",
+                "bad_files": "These files aren't allowed in a pack: {files}. Packs may hold scripts, styles, data, images, sound, video and fonts; not HTML pages beyond the entry, SVG, XML or anything a server would run."
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_nav": "Show Arcade in the forum's sidebar",
+                "outlier_factor": "Outlier factor",
+                "outlier_factor_help": "A score this many times the current record (or that fraction of it, where lower wins) is held for a moderator. 3 by default.",
+                "outlier_players": "Players before outliers are held",
+                "outlier_players_help": "Only once a game has this many players, so the first few scores aren't flagged against a thin board.",
+                "crown_points": "Points for taking a crown",
+                "crown_points_help": "Paid through FoF Gamification when it is enabled. 0 pays nothing."
+            },
+            "permissions": {
+                "play": "Play arcade games",
+                "submit": "Post arcade scores",
+                "moderate": "Moderate the arcade"
+            },
+            "widgets": {
+                "crowns": "Recent crowns"
+            },
+            "games": {
+                "title": "Games",
+                "help": "Drag to set the order of the arcade floor. Games uploaded as packs start switched off, so you can try them first.",
+                "queue": "{count, plural, one {# score waiting for review} other {# scores waiting for review}}",
+                "upload": "Upload a game pack (.zip)",
+                "uploading": "Uploading…",
+                "uploaded": "{title} was added. It's switched off until you switch it on.",
+                "add_url": "Add a game from another site",
+                "restore": "Restore starter games",
+                "restored": "{count, plural, =0 {Every starter game is already here.} one {# starter game was put back.} other {# starter games were put back.}}",
+                "legal": "A pack is a zip with an insertcoin.json manifest and an HTML entry page; it runs in a sandbox and can't reach your forum. Upload only games you have the right to share.",
+                "empty": "No games. Restore the starter games to get going.",
+                "source_bundled": "Starter game",
+                "source_pack": "Uploaded pack",
+                "source_url": "From another site",
+                "source_other": "Add-on",
+                "plays": "{count, plural, one {# play} other {# plays}}",
+                "crown_approval_on": "crowns approved by moderators",
+                "enabled": "Switched on",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete {title}, with all its scores and crowns? This can't be undone."
+            },
+            "game": {
+                "add_title": "Add a game from another site",
+                "edit_title": "Edit {title}",
+                "title": "Title",
+                "slug": "URL name",
+                "slug_placeholder": "made from the title",
+                "description": "Description",
+                "category": "Category",
+                "no_category": "No category",
+                "url": "Game URL",
+                "url_help": "The page of a game hosted on another site. It runs in a sandboxed frame; to post scores it must use the Insert Coin SDK.",
+                "thumbnail_url": "Cover image URL",
+                "thumbnail": "Cover image",
+                "thumbnail_help": "PNG, JPEG, GIF or WebP, ideally 16 × 10, at least 640 pixels wide.",
+                "replace_pack": "Replace the pack",
+                "replace_pack_help": "Upload a new version of this game. Scores and crowns stay.",
+                "width": "Width",
+                "height": "Height",
+                "aspect_help": "The screen's shape. Pixels or a ratio both work (16 and 9 for wide screen).",
+                "score_order": "Who wins",
+                "score_high": "Highest score wins",
+                "score_low": "Lowest score wins (times, moves)",
+                "score_label": "Score label",
+                "score_label_placeholder": "points",
+                "fair_play": "Fair play",
+                "ceiling": "Score ceiling",
+                "min_seconds": "Shortest run (seconds)",
+                "max_seconds": "Longest run (seconds)",
+                "fair_play_help": "A score above the ceiling, or from a run shorter or longer than these, is refused. Leave the ceiling empty for none.",
+                "mobile": "Plays on phones (touch controls)",
+                "crown_approval": "Moderators approve new crowns",
+                "crown_approval_help": "A score that would take this game's crown waits in the moderation queue until it's approved."
+            },
+            "more": {
+                "title": "More games",
+                "help": "Any HTML5 game can run in the arcade, and three lines of code put its scores on the boards. Check each game's licence before you upload it.",
+                "guide": "Making games work with Insert Coin",
+                "guide_help": "The score SDK, the pack format, the sandbox, and adapting a game you found.",
+                "js13k": "js13kGames",
+                "js13k_help": "A yearly contest of tiny arcade games, many of them open source.",
+                "github": "Open-source HTML5 games on GitHub",
+                "github_help": "Games whose licence and code you can read, and change.",
+                "itch": "Free HTML5 games on itch.io",
+                "itch_help": "The biggest catalogue of indie browser games; ask the author before using one.",
+                "example": "The example pack",
+                "example_help": "A complete, tiny game to copy. Zip the folder and upload it."
+            },
+            "categories": {
+                "title": "Categories",
+                "help": "Drag to set their order on the arcade floor.",
+                "add": "Add category",
+                "edit": "Edit category",
+                "delete": "Delete",
+                "delete_confirm": "Delete {name}? Its games stay, uncategorised.",
+                "name": "Name",
+                "icon": "Icon",
+                "icon_help": "A Font Awesome class, like fas fa-gamepad.",
+                "games": "{count, plural, one {# game} other {# games}}"
+            }
+        }
+    }
+}

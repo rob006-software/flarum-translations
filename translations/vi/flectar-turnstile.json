@@ -13,11 +13,18 @@
         "forum": {
             "not_loaded_error": "Không thể tải Cloudflare Turnstile. Vui lòng làm mới trang và kiểm tra trình chặn quảng cáo của bạn.",
             "validation_error": "Vui lòng hoàn thành thử thách Turnstile.",
-            "error": ""
+            "error": "Đã xảy ra lỗi khi xác minh bạn là con người. Vui lòng thử lại."
         }
     },
     "validation": {
         "turnstile": "Chúng tôi không thể xác minh xem bạn có phải là người máy hay không. Hãy làm mới trang và thử lại.",
-        "required": "Vui lòng hoàn thành thử thách Turnstile."
+        "custom": {
+            "turnstileToken": {
+                "required": "Vui lòng hoàn thành thử thách Turnstile."
+            },
+            "turnstile": {
+                "required": "Vui lòng hoàn thành thử thách Turnstile."
+            }
+        }
     }
 }

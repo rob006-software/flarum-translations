@@ -1,0 +1,328 @@
+{
+    "ernestdefoe-onramp": {
+        "lib": {
+            "errors": {
+                "type": "",
+                "count": "",
+                "path": "",
+                "too_long": "",
+                "points": ""
+            },
+            "types": {
+                "avatar": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "bio": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "nickname": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "email_confirmed": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "read": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "discussion": {
+                    "title": "",
+                    "title_in_tag": "",
+                    "description": "",
+                    "button": ""
+                },
+                "reply": {
+                    "title": "",
+                    "title_in_tag": "",
+                    "description": "",
+                    "button": ""
+                },
+                "visit": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "mention": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "like_given": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "like_received": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "reaction_given": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "upvote_given": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "best_answer": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "follow_discussion": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "follow_tag": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "poll_vote": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "upload": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "message": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "private_discussion": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                },
+                "streak": {
+                    "title": "",
+                    "description": "",
+                    "button": ""
+                }
+            }
+        },
+        "forum": {
+            "launcher": {
+                "label": "",
+                "title": "",
+                "sub": "",
+                "next": "",
+                "see_all": ""
+            },
+            "page": {
+                "title": "",
+                "intro": "",
+                "graduated_title": "",
+                "graduated_text": "",
+                "closed_text": "",
+                "none": "",
+                "reward": "",
+                "reward_earned": "",
+                "close": "",
+                "close_confirm": "",
+                "reopen": ""
+            },
+            "step": {
+                "required": "",
+                "skip": "",
+                "skipped": "",
+                "undo_skip": "",
+                "progress": "",
+                "points": ""
+            },
+            "toast": {
+                "step": "",
+                "points": "",
+                "graduated": ""
+            },
+            "notifications": {
+                "step": "",
+                "graduated": "",
+                "reminder": ""
+            },
+            "settings": {
+                "notify_step": "",
+                "notify_graduated": "",
+                "notify_reminder": ""
+            },
+            "widget": {
+                "title": ""
+            },
+            "member": {
+                "tab": "",
+                "none": "",
+                "status_open": "",
+                "status_graduated": "",
+                "status_closed": "",
+                "started": "",
+                "finished": "",
+                "tick": "",
+                "tick_confirm": "",
+                "start": "",
+                "close": "",
+                "reopen": "",
+                "reset": "",
+                "reset_confirm": ""
+            }
+        },
+        "admin": {
+            "widgets": {
+                "journey": ""
+            },
+            "permissions": {
+                "view_members": ""
+            },
+            "tabs": {
+                "steps": "",
+                "settings": "",
+                "funnel": ""
+            },
+            "load_failed": "",
+            "needs_gamification": "",
+            "needs_points": "",
+            "needs_badges": "",
+            "export": "",
+            "import": "",
+            "import_invalid": "",
+            "presets": {
+                "choose": "",
+                "starter": "",
+                "community": "",
+                "full": "",
+                "replace_confirm": ""
+            },
+            "steps": {
+                "intro": "",
+                "empty": "",
+                "add": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "drag": "",
+                "type": "",
+                "from_extension": "",
+                "count": "",
+                "tag": "",
+                "any_tag": "",
+                "path": "",
+                "path_help": "",
+                "title": "",
+                "description": "",
+                "button_label": "",
+                "button_url": "",
+                "button_url_placeholder": "",
+                "icon": "",
+                "points": "",
+                "points_short": "",
+                "badge": "",
+                "no_badge": "",
+                "has_badge": "",
+                "required": "",
+                "required_short": "",
+                "required_help": "",
+                "enabled": "",
+                "off": "",
+                "unavailable": "",
+                "save": ""
+            },
+            "types": {
+                "avatar": "",
+                "bio": "",
+                "nickname": "",
+                "email_confirmed": "",
+                "read": "",
+                "discussion": "",
+                "reply": "",
+                "visit": "",
+                "mention": "",
+                "like_given": "",
+                "like_received": "",
+                "reaction_given": "",
+                "upvote_given": "",
+                "best_answer": "",
+                "follow_discussion": "",
+                "follow_tag": "",
+                "poll_vote": "",
+                "upload": "",
+                "message": "",
+                "private_discussion": "",
+                "streak": ""
+            },
+            "settings": {
+                "enabled": "",
+                "enabled_help": "",
+                "launcher": "",
+                "launcher_help": "",
+                "reward_heading": "",
+                "reward_help_points": "",
+                "reward_help_badge": "",
+                "reward_help_both": "",
+                "reward_points": "",
+                "reward_badge": "",
+                "reward_badge_help": "",
+                "reward_group": "",
+                "reward_group_help": "",
+                "no_group": "",
+                "reminders_heading": "",
+                "reminders": "",
+                "reminders_help": "",
+                "reminder_days": "",
+                "reminder_days_help": "",
+                "close_after": "",
+                "close_after_help": ""
+            },
+            "start": {
+                "heading": "",
+                "help": "",
+                "button": "",
+                "result": ""
+            },
+            "funnel": {
+                "weeks": "",
+                "empty": "",
+                "started": "",
+                "graduated": "",
+                "open": "",
+                "closed": "",
+                "rate": "",
+                "step": "",
+                "reached": "",
+                "median": "",
+                "stuck": "",
+                "bottleneck": "",
+                "cohorts": "",
+                "week": "",
+                "minutes": "",
+                "hours": "",
+                "days": ""
+            },
+            "badges": {
+                "steps_completed": "",
+                "graduated": ""
+            }
+        },
+        "email": {
+            "reminder": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

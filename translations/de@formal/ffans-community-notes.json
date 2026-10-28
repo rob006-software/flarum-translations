@@ -1,0 +1,259 @@
+{
+    "ffans-community-notes": {
+        "admin": {
+            "settings": {
+                "min_ratings_label": "Mindestanzahl an Bewertungen",
+                "min_ratings_help": "Eine Anmerkung muss so viele Bewertungen erhalten haben, bevor sie als „hilfreich“ oder „nicht hilfreich“ bewertet werden kann. Gib einen Wert zwischen 1 und 100 ein.",
+                "helpful_threshold_label": "Schwellenwert für hilfreiche Anmerkungen (%)",
+                "helpful_threshold_help": "Eine Notiz wird als „hilfreich“ bewertet, wenn ihre Bewertung diesen Prozentsatz erreicht. Sie muss über dem Schwellenwert für „nicht hilfreich“ liegen.",
+                "not_helpful_threshold_label": "Schwellenwert für nicht hilfreiche Anmerkungen (%)",
+                "not_helpful_threshold_help": "Eine Notiz wird als „nicht hilfreich“ bewertet, wenn ihre Bewertung bei diesem Prozentsatz oder darunter liegt. Sie muss unter dem Schwellenwert für „hilfreich“ liegen."
+            },
+            "permissions": {
+                "create": "Kollektive Anmerkung erstellen",
+                "rate": "=> ffans-community-notes.ref.rate_note",
+                "moderate": "=> ffans-community-notes.ref.moderate_note"
+            }
+        },
+        "forum": {
+            "navigation": {
+                "title": "=> ffans-community-notes.ref.community_notes",
+                "description": "Füge Quellen und Hintergrundinformationen hinzu, damit die Community entscheiden kann, welche Informationen hilfreich sind.",
+                "list_a11y_label": "Liste der Anmerkungen",
+                "helpful_button": "=> ffans-community-notes.ref.helpful",
+                "latest_button": "Neu",
+                "hidden_button": "=> ffans-community-notes.ref.hidden",
+                "refresh_a11y_label": "Liste der Anmerkungen aktualisieren"
+            },
+            "post_controls": {
+                "add_button": "=> ffans-community-notes.ref.add_note",
+                "view_mine_button": "Meine kollektive Anmerkung anzeigen",
+                "manage_button": "=> ffans-community-notes.ref.manage_notes"
+            },
+            "list": {
+                "latest_heading_a11y_label": "Beiträge ohne veröffentlichte kollektive Anmerkungen",
+                "latest_description": "Anmerkungen zu diesen Beiträgen werden noch nicht öffentlich angezeigt, wobei die neuesten Anmerkungen an erster Stelle stehen. Bewerte sie, um der Community dabei zu helfen, zu entscheiden, welche Informationen nützlich sind.",
+                "latest_a11y_label": "Beiträge mit den neuesten Anmerkungen",
+                "latest_empty": "Es gibt noch keine Beiträge mit Anmerkungen, die ihrer öffentlichen Freigabe harren.",
+                "helpful_heading_a11y_label": "Anmerkungen, die die Community als hilfreich bewertet hat",
+                "helpful_description": "Die Anmerkungen zu diesen Beiträgen wurden als hilfreich bewertet und bieten den Lesern zusätzliche Hintergrundinformationen.",
+                "helpful_a11y_label": "Beiträge mit hilfreichen Anmerkungen",
+                "helpful_empty": "Bisher wurde noch keine Anmerkung als hilfreich bewertet.",
+                "hidden_heading_a11y_label": "Verborgene Anmerkungen",
+                "hidden_description": "Diese Anmerkungen sind ausgeblendet und werden nicht öffentlich angezeigt. Du kannst sie im Bereich „Informationen zur Anmerkung“ wiederherstellen oder endgültig löschen.",
+                "hidden_a11y_label": "Liste der ausgeblendeten Anmerkungen",
+                "hidden_empty": "Es gibt gerade keine ausgeblendeten Anmerkungen.",
+                "rating_permission_denied": "Du hast keine Berechtigung, kollektive Anmerkungen zu bewerten.",
+                "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "other_notes": "{count, plural, one {# weitere Anmerkung} other {# weitere Anmerkungen}}",
+                "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Mehr laden"
+            },
+            "post": {
+                "page_title": "=> ffans-community-notes.ref.rate_note",
+                "modal_title": "=> ffans-community-notes.ref.view_all_notes",
+                "title": "Anmerkungsdetails",
+                "description": "Entscheide anhand des Originalbeitrags und der Quellen, ob diese zusätzlichen Informationen hilfreich sind.",
+                "back_a11y_label": "Zurück zur Liste der kollektiven Anmerkungen",
+                "permission_denied": "Du hast keine Berechtigung, die Seite mit den Bewertungen der kollektiven Anmerkungen anzuzeigen.",
+                "notes_a11y_label": "Alle Anmerkungen für diesen Beitrag",
+                "notes_title": "Kollektive Anmerkungen für diesen Beitrag",
+                "empty": "Zu diesem Beitrag sind keine Anmerkungen vorhanden, oder du hast keine Berechtigung, darauf zuzugreifen.",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Mehr Anmerkungen laden"
+            },
+            "post_link": {
+                "a11y_label": "Originalbeitrag anzeigen: {title}",
+                "with_number_a11y_label": "Originalbeitrag anzeigen: {title}, Beitrag #{number}",
+                "number": "#{number}"
+            },
+            "public_note": {
+                "a11y_label": "=> ffans-community-notes.ref.community_notes",
+                "title": "Die Community fand diese Anmerkung hilfreich"
+            },
+            "note": {
+                "a11y_label": "Details zur kollektiven Anmerkunge",
+                "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
+                "meta_a11y_label": "Informationen zur Anmerkung",
+                "rated_as": "Aktuell bewertet <status></status>",
+                "hidden": "=> ffans-community-notes.ref.hidden",
+                "public": "Wird öffentlich mit dem Originalbeitrag angezeigt",
+                "not_public": "Wird nicht öffentlich angezeigt",
+                "drafted_by": "Geschrieben von {author}",
+                "reason": "Begründung: {reason}",
+                "deleted_user": "Gelöschter Benutzer",
+                "contributor": "Community-Beitragender"
+            },
+            "status": {
+                "needs_more_ratings": "Benötigt weitere Bewertungen",
+                "helpful": "=> ffans-community-notes.ref.helpful",
+                "not_helpful": "=> ffans-community-notes.ref.not_helpful",
+                "unknown": "Unbekannt"
+            },
+            "sources": {
+                "a11y_label": "Quellen",
+                "open_in_new_window_a11y_label": "(wird in einem neuen Fenster geöffnet)"
+            },
+            "editor": {
+                "create_title": "=> ffans-community-notes.ref.add_note",
+                "edit_title": "Meine kollektive Anmerkung",
+                "help": "Füge nachprüfbare Hintergründe und Quellen hinzu und vermeide dabei Antworten oder Auseinandersetzungen. Nach dem Absenden wird deine Anmerkung von der Community bewertet.",
+                "create_unavailable": "Du kannst momentan keine kollektive Anmerkung hinzufügen.",
+                "edit_unavailable": "Du kannst momentan keine Anmerkung bearbeiten oder entfernen.",
+                "reason_label": "Grund für diese Anmerkung",
+                "reason_placeholder": "Wähle einen Grund",
+                "content_label": "Inhalt der Anmerkung",
+                "character_count": "{count} / 1000 Zeichen, mindestens 30",
+                "content_help": "Verwende unformatierten Text. Markdown und BBCode werden nicht unterstützt.",
+                "sources_label": "Quellen (1–5)",
+                "sources_help": "Gib Links zu überprüfbaren Webseiten unter Verwendung von HTTP oder HTTPS an.",
+                "source_a11y_label": "Quelle {number}",
+                "add_source_button": "Quelle hinzufügen",
+                "add_source_a11y_label": "Eine Quelle nach Quelle {number} hinzufügen",
+                "remove_source_button": "Quelle entfernen",
+                "remove_source_a11y_label": "Quelle {number} entfernen",
+                "submit_button": "Anmerkung absenden",
+                "save_button": "Änderungen speichern",
+                "delete_button": "Anmerkung löschen",
+                "delete_confirmation": "Möchtest du diese kollektive Anmerkung wirklich endgültig löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "created_message": "Deine kollektive Anmerkung wurde eingereicht und wartet nun auf Bewertungen durch die Community.",
+                "updated_message": "Deine kollektive Anmerkung wurde aktualisiert.",
+                "deleted_message": "Deine kollektive Anmerkung wurde gelöscht.",
+                "errors": {
+                    "reason_required": "Bitte wähle einen Grund für diese Anmerkung.",
+                    "content_length": "Die Anmerkung muss 30 bis 1000 Zeichen umfassen.",
+                    "sources_count": "Bitte gib 1–5 Quellen an.",
+                    "source_invalid": "Quellen müssen gültige HTTP- oder HTTPS-URLs sein, die nicht länger als 2048 Zeichen sind.",
+                    "source_duplicate": "Quell-URLs müssen einzigartig sein."
+                }
+            },
+            "note_reasons": {
+                "missing_context": "Wichtiger Kontext fehlt",
+                "outdated_information": "Informationen möglicherweise veraltet",
+                "factual_error": "Enthält einen sachlichen Fehler",
+                "misleading": "Inhalt könnte irreführend sein",
+                "media_context": "Bildern oder Medien fehlt der Kontext",
+                "other": "Anderes"
+            },
+            "rating": {
+                "title": "=> ffans-community-notes.ref.rate_note",
+                "button": "Findest du das hilfreich?",
+                "button_a11y_label": "Diese kollektive Anmerkung bewerten",
+                "edit_button_a11y_label": "{rating}, bearbeite deine Bewertung",
+                "unavailable": "Du kannst diese Anmerkung derzeit nicht bewerten.",
+                "question": "Ist diese Anmerkung hilfreich?",
+                "reasons_label": "Gründe für deine Bewertung (wähle 1–3)",
+                "submit_button": "Bewertung abgeben",
+                "update_button": "Bewertung aktualisieren",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "values": {
+                    "helpful": "=> ffans-community-notes.ref.helpful",
+                    "somewhat_helpful": "Etwas hilfreich",
+                    "not_helpful": "=> ffans-community-notes.ref.not_helpful"
+                },
+                "summaries": {
+                    "helpful": "Du hast diese Anmerkung als <b>hilfreich</b> bewertet",
+                    "somewhat_helpful": "Du hast diese Anmerkung als <b>etwas hilfreich</b> bewertet",
+                    "not_helpful": "Du hast diese Anmerkung als <b>nicht hilfreich</b> bewertet"
+                },
+                "reasons": {
+                    "helpful": {
+                        "important_context": "Liefert wichtigen Kontext",
+                        "directly_addresses_claim": "Bezieht sich direkt auf den ursprünglichen Beitrag",
+                        "clear": "Verständlich geschrieben",
+                        "reliable_sources": "Verlässliche Quellen",
+                        "neutral": "Neutrale Formulierung",
+                        "unique_information": "Bietet einzigartige Informationen"
+                    },
+                    "somewhat_helpful": {
+                        "partially_helpful": "Manche Inhalte sind hilfreich",
+                        "needs_more_context": "Braucht mehr Kontext",
+                        "mixed_source_quality": "Uneinheitliche Qualität der Quellen",
+                        "wording_needs_improvement": "Formulierung ist verbesserungswürdig"
+                    },
+                    "not_helpful": {
+                        "incorrect": "Falsche Angaben",
+                        "unreliable_or_missing_sources": "Unzuverlässige oder unzureichende Quellen",
+                        "not_needed": "Die Anmerkung ist nicht erforderlich",
+                        "irrelevant": "Fehlender Bezug zum ursprünglichen Beitrag",
+                        "missing_important_context": "Wichtiger Kontext fehlt",
+                        "opinion_or_speculation": "Meinung oder Spekulation",
+                        "hostile_or_inflammatory": "Feindselige oder hetzerische Formulierung",
+                        "unclear": "Unklare Formulierung",
+                        "outdated": "Veraltete Informationen"
+                    }
+                },
+                "errors": {
+                    "value_required": "Bitte wähle eine Bewertung.",
+                    "reasons_count": "Bitte wähle 1–3 Gründe für deine Bewertung aus.",
+                    "reasons_invalid": "Die ausgewählten Gründe stimmen nicht mit deiner aktuellen Bewertung überein. Bitte wähle sie erneut aus."
+                }
+            },
+            "moderation": {
+                "title": "=> ffans-community-notes.ref.moderate_note",
+                "permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "hidden_reason_label": "Grund für das Ausblenden",
+                "hide_reason_label": "Grund für das Ausblenden (benötigt)",
+                "hide_help": "Durch das Ausblenden einer Anmerkung wird diese aus der öffentlichen Anzeige und der Bewertungswarteschlange entfernt. Bereits abgegebene Bewertungen und deren Status bleiben erhalten.",
+                "restore_help": "Nach der Wiederherstellung kann die Anmerkung entsprechend ihres bestehenden Bewertungsstatus angezeigt werden. Bestehende Bewertungen bleiben unverändert.",
+                "hide_button": "Verbergen",
+                "restore_button": "Wiederherstellen",
+                "cancel_button": "=> ffans-community-notes.ref.cancel",
+                "delete_button": "Dauerhaft löschen",
+                "delete_confirmation": "Möchtest du diese kollektive Anmerkung wirklich endgültig löschen? Sein Inhalt, seine Quellen und seine Bewertungen werden gelöscht und können nicht wiederhergestellt werden.",
+                "reason_required": "=> ffans-community-notes.validation.hide_reason_required",
+                "hidden_message": "Die Anmerkung wurde ausgeblendet.",
+                "restored_message": "Die Anmerkung wurde wiederhergestellt.",
+                "deleted_message": "Die Anmerkung wurde dauerhaft gelöscht."
+            },
+            "errors": {
+                "inaccessible": "Diese Anmerkung ist nicht verfügbar, oder du hast keine Berechtigung mehr, diese Aktion auszuführen. Aktualisiere die Seite und versuche es erneut.",
+                "request_failed": "Der Vorgang ist fehlgeschlagen. Überprüfe deine Verbindung und versuche es erneut.",
+                "detail_separator": "; "
+            }
+        },
+        "validation": {
+            "note": {
+                "reason_invalid": "Bitte wähle einen gültigen Grund für die Anmerkung aus.",
+                "content_invalid": "Der Inhalt der Anmerkung muss aus Klartext bestehen und 30 bis 1000 Unicode-Zeichen umfassen.",
+                "sources_count": "Gib bitte 1 bis 5 Quellenlinks an.",
+                "source_invalid": "Quellen müssen gültige HTTP- oder HTTPS-Links sein.",
+                "source_url_invalid": "Quellen müssen HTTP- oder HTTPS-URLs mit einem Hostnamen und maximal 2048 Zeichen sein.",
+                "source_duplicate": "Eine Quell-URL darf in derselben Anmerkung nicht mehr als einmal verwendet werden."
+            },
+            "rating": {
+                "value_invalid": "Bitte wähle eine gültige Bewertung.",
+                "reasons_count": "Bitte wähle 1 bis 3 Gründe für deine Bewertung aus.",
+                "reason_mismatch": "Die Begründungen müssen mit der ausgewählten Bewertung übereinstimmen.",
+                "reason_duplicate": "Ein Bewertungsgrund kann nicht mehr als einmal ausgewählt werden."
+            },
+            "settings": {
+                "min_ratings_invalid": "Die Mindestanzahl der Bewertungen muss eine ganze Zahl zwischen 1 und 100 sein.",
+                "helpful_threshold_invalid": "Der relevante Schwellenwert muss eine ganze Zahl zwischen 0 und 100 sein.",
+                "not_helpful_threshold_invalid": "Der Schwellenwert für „nicht hilfreich“ muss eine ganze Zahl zwischen 0 und 100 sein.",
+                "thresholds_invalid": "Der Schwellenwert für „nicht hilfreich“ muss niedriger sein als der Schwellenwert für „hilfreich“."
+            },
+            "data_invalid": "Bitte gib gültige Daten für kollektive Anmerkungen ein. Es können nur der Grund, der Inhalt und die Quellen geändert werden.",
+            "relationships_invalid": "Die Beziehungen dieser Anmerkung können nicht geändert werden.",
+            "post_invalid": "Bitte wähle einen gültigen Originalbeitrag aus.",
+            "hide_reason_required": "Bitte gib einen Grund an, warum du diese kollektive Anmerkung ausblenden möchtest."
+        },
+        "ref": {
+            "community_notes": "Kollektive Anmerkungen",
+            "add_note": "Kollektive Anmerkung hinzufügen",
+            "rate_note": "Kollektive Anmerkungen bewerten",
+            "moderate_note": "Kollektive Anmerkungen verwalten",
+            "manage_notes": "=> ffans-community-notes.ref.moderate_note",
+            "view_all_notes": "Alle Anmerkungen für diesen Beitrag anzeigen",
+            "helpful": "Hilfreich",
+            "not_helpful": "Nicht hilfreich",
+            "hidden": "Verborgen",
+            "retry": "Erneut versuchen",
+            "cancel": "Abbrechen",
+            "moderation_permission_denied": "Du hast keine Berechtigung, kollektive Anmerkungen zu verwalten."
+        }
+    }
+}

@@ -33,7 +33,7 @@
                 "pages_label": "Appliquer à",
                 "save_button": "Enregistrer",
                 "type": {
-                    "meta": "Balise Méta",
+                    "meta": "Balise Meta",
                     "link": "Lien",
                     "script": "Script",
                     "style": "Style",
@@ -50,7 +50,10 @@
                 "meta": {
                     "variant_label": "Variante",
                     "name_label": "name=\"\"",
+                    "name_placeholder": "Sélectionnez ou saisissez un nom",
+                    "name_help": "Les éléments nommés « description », « viewport » ou « theme-color » remplacent la balise déjà générée par Flarum, au lieu d'en ajouter une deuxième.",
                     "property_label": "property=\"\" (Open Graph)",
+                    "property_placeholder": "Sélectionner ou saisissez une propriété",
                     "content_label": "Contenu"
                 },
                 "link": {

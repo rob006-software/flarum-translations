@@ -13,7 +13,40 @@
             "field_label": "Label",
             "field_url": "URL",
             "field_visibility": "Shown to",
-            "field_center": "Center"
+            "field_center": "Center",
+            "label_placeholder": "optional",
+            "label_placeholder_profile": "Profile, or '{username}' to show the member name",
+            "url_placeholder": "/path or https://…",
+            "auto_avatar": "avatar (auto)",
+            "auto_site_image": "site image (auto)",
+            "type": {
+                "home": "Home",
+                "tags": "Tags",
+                "search": "Search",
+                "notifications": "Notifications",
+                "profile": "Profile (avatar)",
+                "new-discussion": "New discussion",
+                "login": "Log in",
+                "logo": "Site logo",
+                "favicon": "Favicon",
+                "link": "Custom link"
+            },
+            "visibility": {
+                "all": "Everyone",
+                "in": "Logged in",
+                "out": "Logged out"
+            }
+        },
+        "lib": {
+            "tab": {
+                "home": "Home",
+                "profile": "Profile",
+                "tags": "Tags",
+                "notifications": "Notifications",
+                "login": "Log in",
+                "search": "Search",
+                "new": "New"
+            }
         }
     }
 }

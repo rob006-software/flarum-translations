@@ -2,10 +2,13 @@
     "huseyinfiliz-leaderboard": {
         "admin": {
             "tabs": {
-                "general": "",
+                "general": "عمومی",
                 "points": "",
                 "exclusions": "",
                 "maintenance": ""
+            },
+            "permissions": {
+                "view_leaderboard": ""
             },
             "modals": {
                 "save": "درج کردن",
@@ -68,6 +71,7 @@
             }
         },
         "forum": {
+            "permission_denied": "",
             "period": {
                 "daily": "",
                 "weekly": "",

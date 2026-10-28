@@ -1,0 +1,32 @@
+{
+    "ernestdefoe-opensearch": {
+        "forum": {
+            "powered_by": "Powered by OpenSearch"
+        },
+        "admin": {
+            "url_label": "Cluster URL",
+            "url_help": "The full URL of your OpenSearch or Elasticsearch cluster, including the scheme and port — for example https://localhost:9200. Leave the username and password blank if the cluster has security disabled.\n",
+            "username_label": "Username",
+            "username_help": "Optional. Only needed if your cluster requires authentication.\n",
+            "password_label": "Password",
+            "verify_tls_label": "Verify the TLS certificate",
+            "verify_tls_help": "Turn this off only for a cluster reached over a private network with a self-signed certificate. Never turn it off for a cluster reached over the public internet — an unverified connection can be intercepted.\n",
+            "index_prefix_label": "Index prefix",
+            "index_prefix_help": "Optional. Keeps indexes separate when several forums share one cluster. Leave blank to derive one from your forum URL automatically.\n",
+            "drivers_label": "Use OpenSearch for…",
+            "drivers_help": "Choose which searches OpenSearch answers. For each one, text searches go to the cluster while filtering and browsing without a search term keep using the database. Permissions are always enforced by Flarum — OpenSearch only ranks results a member can already see.\n",
+            "use_for_discussions": "Discussion search",
+            "use_for_users": "User search",
+            "use_for_posts": "Post search",
+            "connection_label": "Connection",
+            "test_button": "Test connection",
+            "test_ok": "Connected",
+            "test_fail": "Could not reach the cluster",
+            "rebuild_label": "Search index",
+            "rebuild_help": "Build or refresh every index (discussions, users, posts) from your existing content. Run this once after entering your connection details, and any time you suspect the index has drifted. On large forums, configure a real queue worker so this runs in the background instead of inside a web request.\n",
+            "rebuild_button": "Rebuild index",
+            "rebuild_queued": "Rebuild queued. It will run in the background.",
+            "rebuild_failed": "Could not start the rebuild. Check the connection and try again."
+        }
+    }
+}

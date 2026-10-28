@@ -18,6 +18,13 @@
     },
     "validation": {
         "turnstile": "Nie udało się zweryfikować, czy jesteś człowiekiem. Odśwież stronę i spróbuj ponownie.",
-        "required": "Ukończ weryfikację Turnstile."
+        "custom": {
+            "turnstileToken": {
+                "required": "Ukończ weryfikację Turnstile."
+            },
+            "turnstile": {
+                "required": "Ukończ weryfikację Turnstile."
+            }
+        }
     }
 }

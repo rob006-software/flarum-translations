@@ -6,6 +6,7 @@
             "public_cache_ttl_label": "TTL por defeito da cache público",
             "public_cache_ttl_help": "Define durante quanto tempo, em segundos, as páginas públicas devem ser armazenadas em cache. O valor por defeito é 604800 segundos (uma semana).",
             "clearing_cache_listener_label": "Limpar LSCache quando a cache do Flarum é limpa",
+            "clearing_cache_listener_help": "",
             "serve_stale_label": "Servir conteúdo expirado",
             "serve_stale_help": "Se ativado, uma versão desatualizada de uma página em cache será apresentada aos visitantes até que seja gerada uma nova cópia em cache. Isto reduz a carga no servidor. Se desativado, a página será gerada dinamicamente durante a atualização da cache, o que pode aumentar o tempo de espera. Por design, esta opção pode apresentar conteúdo desatualizado. Não atives esta opção se considerares isso inaceitável.",
             "purge_on_discussion_update_label": "Limpar URLs ou Tags de cache ao atualizar uma discussão",
@@ -20,6 +21,17 @@
             "test_failed_alert": "",
             "permissions": {
                 "purge": "=> acpl-lscache.ref.purge_cache"
+            },
+            "purge_modal": {
+                "title": "",
+                "type_label": "",
+                "all_label": "",
+                "paths_label": "",
+                "paths_help": "",
+                "tags_label": "",
+                "tags_help": "",
+                "submit_button": "",
+                "empty_list_error": ""
             }
         },
         "forum": {
@@ -33,6 +45,15 @@
         },
         "ref": {
             "purge_cache": "Purgar LSCache"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "acpl-lscache": {
+                    "cache_purged": ""
+                }
+            }
         }
     }
 }

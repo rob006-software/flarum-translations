@@ -1,0 +1,90 @@
+{
+    "ernestdefoe-scribe": {
+        "lib": {
+            "buttons": {
+                "bold": "Fett",
+                "italic": "Kursiv",
+                "underline": "Unterstrichen",
+                "strike": "Durchgestrichen",
+                "code": "Inline-Code",
+                "superscript": "Hochgestellt",
+                "subscript": "Tiefgestellt",
+                "text_color": "Schriftfarbe",
+                "highlight": "Hervorheben",
+                "heading1": "Titel",
+                "heading": "Überschrift",
+                "subheading": "Untertitel",
+                "heading4": "Unterüberschrift",
+                "bullet_list": "Aufzählung",
+                "ordered_list": "Nummerierung",
+                "quote": "Zitat",
+                "align": "Ausrichtung",
+                "align_left": "Linksbündig",
+                "align_center": "Mittig",
+                "align_right": "Rechtsbündig",
+                "align_justify": "Blocksatz",
+                "spoiler": "Spoiler",
+                "info_box": "Infokasten",
+                "reply_gate": "Antworten, um anzuzeigen",
+                "code_block": "Codeblock",
+                "link": "Link",
+                "image": "Bild",
+                "video": "Video",
+                "table": "Tabelle",
+                "toggle_header_cell": "Kopfzeile umschalten",
+                "add_row": "Zeile hinzufügen",
+                "delete_row": "Zeile löschen",
+                "add_column": "Spalte hinzufügen",
+                "delete_column": "Spalte löschen",
+                "horizontal_rule": "Trennlinie",
+                "undo": "Rückgängig",
+                "redo": "Wiederherstellen"
+            }
+        },
+        "forum": {
+            "reply_gate": {
+                "locked": "Du musst auf diese Diskussion antworten, bevor du dies ansehen kannst."
+            },
+            "composer": {
+                "toolbar_label": "Formatierung",
+                "apply": "Anwenden",
+                "remove_link": "Link entfernen",
+                "clear_colour": "Löschen",
+                "pick_colour": "Farbe wählen",
+                "emoji_label": "Emoji",
+                "clear_highlight": "Löschen",
+                "link_placeholder": "Link einfügen oder eingeben…",
+                "image_placeholder": "Bildadresse…",
+                "spoiler_title_placeholder": "Spoilertitel…",
+                "info_title_placeholder": "Titel…"
+            },
+            "video": {
+                "placeholder": "Videolink einfügen (YouTube, Vimeo, TikTok…)",
+                "unsupported": "Dieser Link ist kein Video, das Scribe einbetten kann. Verwende die Schaltfläche „Link“, um ihn als Link hinzuzufügen.",
+                "provider_off": "Das Einbetten von {provider}-Videos ist in diesem Forum deaktiviert.",
+                "play": "{provider}-Video abspielen",
+                "watch_on": "Auf {provider} ansehen",
+                "player_title": "{provider}-Videoplayer",
+                "caption_placeholder": "Bildunterschrift hinzufügen (optional)",
+                "caption_label": "Bildunterschrift",
+                "replace": "Video ersetzen",
+                "remove": "Video entfernen"
+            }
+        },
+        "admin": {
+            "toolbar_label": "Composer-Symbolleiste",
+            "toolbar_help": "Ziehe ein Element aus der untenstehenden Palette in die Symbolleiste und verschiebe es innerhalb der Symbolleiste, um die Reihenfolge zu ändern. Tastatur: Drücke die Eingabetaste auf einem Element, um es hinzuzufügen, die Pfeiltasten, um es zu verschieben, und die Entf-Taste, um es zu entfernen.\n",
+            "palette_label": "Verfügbare Funktionen",
+            "toolbar_empty": "Ziehe eine Funktion hierher, um die Symbolleiste anzupassen.",
+            "palette_empty": "Alle Funktionen sind jetzt in der Symbolleiste.",
+            "reset": "Auf Standard zurücksetzen",
+            "video": {
+                "heading": "Videoeinbettungen",
+                "help": "Füge einen Link zu einem unterstützten Video in einer eigenen Zeile ein, und er wird zu einer Einbettung. Die Leser sehen eine Vorschau; es wird nichts von der Videoseite geladen, bis sie auf „Abspielen“ klicken. Wenn du einen Anbieter deaktivierst, bleiben neue Links zu diesem Anbieter weiterhin als Links erhalten, und bestehende Einbettungen öffnen dann die Seite des Videos selbst, anstatt das Video im Beitrag abzuspielen.\n",
+                "enabled": "Videos einbetten (Klicken zum Laden)",
+                "providers": "Anbieter",
+                "not_supported": "Nicht unterstützt, daher bleiben es Links: fb.watch, vm.tiktok.com und facebook.com/share (es handelt sich um Weiterleitungen), Rumble, Kick und X/Twitter.\n"
+            }
+        }
+    }
+}

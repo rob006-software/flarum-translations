@@ -1,0 +1,259 @@
+{
+    "ffans-community-notes": {
+        "admin": {
+            "settings": {
+                "min_ratings_label": "",
+                "min_ratings_help": "",
+                "helpful_threshold_label": "",
+                "helpful_threshold_help": "",
+                "not_helpful_threshold_label": "",
+                "not_helpful_threshold_help": ""
+            },
+            "permissions": {
+                "create": "",
+                "rate": "",
+                "moderate": ""
+            }
+        },
+        "forum": {
+            "navigation": {
+                "title": "",
+                "description": "",
+                "list_a11y_label": "",
+                "helpful_button": "",
+                "latest_button": "",
+                "hidden_button": "",
+                "refresh_a11y_label": ""
+            },
+            "post_controls": {
+                "add_button": "",
+                "view_mine_button": "",
+                "manage_button": ""
+            },
+            "list": {
+                "latest_heading_a11y_label": "",
+                "latest_description": "",
+                "latest_a11y_label": "",
+                "latest_empty": "",
+                "helpful_heading_a11y_label": "",
+                "helpful_description": "",
+                "helpful_a11y_label": "",
+                "helpful_empty": "",
+                "hidden_heading_a11y_label": "",
+                "hidden_description": "",
+                "hidden_a11y_label": "",
+                "hidden_empty": "",
+                "rating_permission_denied": "",
+                "moderation_permission_denied": "",
+                "other_notes": "",
+                "view_all_button": "",
+                "retry_button": "",
+                "load_more_button": ""
+            },
+            "post": {
+                "page_title": "",
+                "modal_title": "",
+                "title": "",
+                "description": "",
+                "back_a11y_label": "",
+                "permission_denied": "",
+                "notes_a11y_label": "",
+                "notes_title": "",
+                "empty": "",
+                "retry_button": "",
+                "load_more_button": ""
+            },
+            "post_link": {
+                "a11y_label": "",
+                "with_number_a11y_label": "",
+                "number": ""
+            },
+            "public_note": {
+                "a11y_label": "",
+                "title": ""
+            },
+            "note": {
+                "a11y_label": "",
+                "manage_a11y_label": "",
+                "meta_a11y_label": "",
+                "rated_as": "",
+                "hidden": "",
+                "public": "",
+                "not_public": "",
+                "drafted_by": "",
+                "reason": "",
+                "deleted_user": "",
+                "contributor": ""
+            },
+            "status": {
+                "needs_more_ratings": "",
+                "helpful": "",
+                "not_helpful": "",
+                "unknown": ""
+            },
+            "sources": {
+                "a11y_label": "",
+                "open_in_new_window_a11y_label": ""
+            },
+            "editor": {
+                "create_title": "",
+                "edit_title": "",
+                "help": "",
+                "create_unavailable": "",
+                "edit_unavailable": "",
+                "reason_label": "",
+                "reason_placeholder": "",
+                "content_label": "",
+                "character_count": "",
+                "content_help": "",
+                "sources_label": "",
+                "sources_help": "",
+                "source_a11y_label": "",
+                "add_source_button": "",
+                "add_source_a11y_label": "",
+                "remove_source_button": "",
+                "remove_source_a11y_label": "",
+                "submit_button": "",
+                "save_button": "",
+                "delete_button": "",
+                "delete_confirmation": "",
+                "created_message": "",
+                "updated_message": "",
+                "deleted_message": "",
+                "errors": {
+                    "reason_required": "",
+                    "content_length": "",
+                    "sources_count": "",
+                    "source_invalid": "",
+                    "source_duplicate": ""
+                }
+            },
+            "note_reasons": {
+                "missing_context": "",
+                "outdated_information": "",
+                "factual_error": "",
+                "misleading": "",
+                "media_context": "",
+                "other": ""
+            },
+            "rating": {
+                "title": "",
+                "button": "",
+                "button_a11y_label": "",
+                "edit_button_a11y_label": "",
+                "unavailable": "",
+                "question": "",
+                "reasons_label": "",
+                "submit_button": "",
+                "update_button": "",
+                "cancel_button": "",
+                "retry_button": "",
+                "values": {
+                    "helpful": "",
+                    "somewhat_helpful": "",
+                    "not_helpful": ""
+                },
+                "summaries": {
+                    "helpful": "",
+                    "somewhat_helpful": "",
+                    "not_helpful": ""
+                },
+                "reasons": {
+                    "helpful": {
+                        "important_context": "",
+                        "directly_addresses_claim": "",
+                        "clear": "",
+                        "reliable_sources": "",
+                        "neutral": "",
+                        "unique_information": ""
+                    },
+                    "somewhat_helpful": {
+                        "partially_helpful": "",
+                        "needs_more_context": "",
+                        "mixed_source_quality": "",
+                        "wording_needs_improvement": ""
+                    },
+                    "not_helpful": {
+                        "incorrect": "",
+                        "unreliable_or_missing_sources": "",
+                        "not_needed": "",
+                        "irrelevant": "",
+                        "missing_important_context": "",
+                        "opinion_or_speculation": "",
+                        "hostile_or_inflammatory": "",
+                        "unclear": "",
+                        "outdated": ""
+                    }
+                },
+                "errors": {
+                    "value_required": "",
+                    "reasons_count": "",
+                    "reasons_invalid": ""
+                }
+            },
+            "moderation": {
+                "title": "",
+                "permission_denied": "",
+                "retry_button": "",
+                "hidden_reason_label": "",
+                "hide_reason_label": "",
+                "hide_help": "",
+                "restore_help": "",
+                "hide_button": "",
+                "restore_button": "",
+                "cancel_button": "",
+                "delete_button": "",
+                "delete_confirmation": "",
+                "reason_required": "",
+                "hidden_message": "",
+                "restored_message": "",
+                "deleted_message": ""
+            },
+            "errors": {
+                "inaccessible": "",
+                "request_failed": "",
+                "detail_separator": ""
+            }
+        },
+        "validation": {
+            "note": {
+                "reason_invalid": "",
+                "content_invalid": "",
+                "sources_count": "",
+                "source_invalid": "",
+                "source_url_invalid": "",
+                "source_duplicate": ""
+            },
+            "rating": {
+                "value_invalid": "",
+                "reasons_count": "",
+                "reason_mismatch": "",
+                "reason_duplicate": ""
+            },
+            "settings": {
+                "min_ratings_invalid": "",
+                "helpful_threshold_invalid": "",
+                "not_helpful_threshold_invalid": "",
+                "thresholds_invalid": ""
+            },
+            "data_invalid": "",
+            "relationships_invalid": "",
+            "post_invalid": "",
+            "hide_reason_required": ""
+        },
+        "ref": {
+            "community_notes": "",
+            "add_note": "",
+            "rate_note": "",
+            "moderate_note": "",
+            "manage_notes": "",
+            "view_all_notes": "",
+            "helpful": "",
+            "not_helpful": "",
+            "hidden": "",
+            "retry": "",
+            "cancel": "",
+            "moderation_permission_denied": ""
+        }
+    }
+}

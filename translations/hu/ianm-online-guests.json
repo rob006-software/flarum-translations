@@ -1,0 +1,20 @@
+{
+    "ianm-online-guests": {
+        "admin": {
+            "permissions": {
+                "view_online_guests_label": "Online vendégek megtekintése"
+            },
+            "settings": {
+                "online_duration_label": "Online állapot időtartama",
+                "cache_duration_label": "Gyorsítótár időtartama"
+            }
+        },
+        "forum": {
+            "widget": {
+                "title": "Online vendégek",
+                "description": "Megjeleníti a fórumot jelenleg böngésző vendégek számát",
+                "guests_online": "{count, plural, one {online vendég} other {online vendég}}"
+            }
+        }
+    }
+}

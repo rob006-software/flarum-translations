@@ -1,0 +1,46 @@
+{
+    "ernestdefoe-header-nav": {
+        "admin": {
+            "intro": "Choose which links sit in the header, which stay in the forum's menu and which are hidden, rename them, change their icons, drag them into order and add links of your own. The editor opens on the forum itself, because that is where the forum's menu lives.",
+            "open_editor": "Open the navigation editor"
+        },
+        "forum": {
+            "label": "Forum navigation",
+            "more": "More",
+            "editor": {
+                "title": "Navigation",
+                "intro": "Everything your forum's menu offers is listed here. Drag a row to change the order, rename it, give it a different icon, and choose where it goes. The order applies to the header and to the menu alike.",
+                "denied": "Only administrators can edit the navigation.",
+                "place_header": "Header",
+                "place_header_help": "— a link in the header, and taken out of the menu.",
+                "place_menu": "Menu",
+                "place_menu_help": "— stays in the forum's menu (the sidebar, or your theme's pills or tiles).",
+                "place_hidden": "Hidden",
+                "place_hidden_help": "— shown nowhere.",
+                "placement": "Where this link goes",
+                "drag": "Drag to reorder",
+                "label": "Name",
+                "icon": "Icon (Font Awesome class)",
+                "url": "Address",
+                "url_placeholder": "/p/privacy or https://example.com",
+                "url_invalid": "Use a path on this forum (starting with /), an http(s) address, or mailto.",
+                "new_tab": "Open in a new tab",
+                "missing": "Not offered by this forum right now — its extension may be disabled. It comes back if the extension does.",
+                "not_a_link": "This is a button, not a link, so it can stay in the menu or be hidden, but not go in the header.",
+                "remove": "Remove this link",
+                "add_link": "Add a link",
+                "direct_label": "Links on the header row",
+                "direct_help": "How many header links are shown before the rest go behind the More menu. A narrow window shows fewer.",
+                "logo_label": "Logo height (pixels)",
+                "logo_help": "Optional. Leave empty to keep your theme's logo size. A smaller logo leaves more room for header links; on a phone it is held to 40 pixels.",
+                "logo_placeholder": "Theme default",
+                "save": "Save navigation",
+                "saved": "Navigation saved.",
+                "save_failed": "The navigation could not be saved.",
+                "reset": "Start over",
+                "reset_confirm": "Go back to the starting navigation? Your changes here are not saved until you press Save.",
+                "unsaved": "Unsaved changes"
+            }
+        }
+    }
+}

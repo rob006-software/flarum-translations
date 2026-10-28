@@ -19,19 +19,20 @@
             },
             "viewlist": {
                 "title": "",
-                "guest": ""
+                "guest": "مهمان"
             },
             "post": {
                 "viewed_by": "",
-                "you": "",
-                "others_link": "",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
                 "modal_title_text": ""
             }
         },
         "admin": {
             "permissions": {
                 "reset_views_label": "",
-                "view_number_label": ""
+                "view_number_label": "",
+                "view_list_label": ""
             },
             "settings": {
                 "title": "",

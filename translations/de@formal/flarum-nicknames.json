@@ -43,5 +43,14 @@
             "change_nickname": "Spitznamen ändern",
             "nickname": "Spitzname"
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "nickname_changed": "Hat den Spitznamen von {username} von {old_nickname} in {new_nickname} geändert"
+                }
+            }
+        }
     }
 }

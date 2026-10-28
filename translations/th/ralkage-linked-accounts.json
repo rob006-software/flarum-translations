@@ -2,74 +2,74 @@
     "ralkage-linked-accounts": {
         "admin": {
             "tabs": {
-                "settings": "",
-                "logs": ""
+                "settings": "ตั้งค่า",
+                "logs": "บันทึกกิจกรรม"
             },
             "settings": {
-                "max_accounts": "",
-                "max_accounts_help": "",
-                "log_retention_days": "",
-                "log_retention_days_help": ""
+                "max_accounts": "จำนวนบัญชีที่เชื่อมโยงสูงสุด",
+                "max_accounts_help": "จำนวนบัญชีสูงสุดที่ผู้ใช้สามารถเชื่อมโยงได้ ตั้งเป็น 0 สำหรับไม่จำกัด",
+                "log_retention_days": "ระยะเวลาเก็บบันทึก (วัน)",
+                "log_retention_days_help": "จำนวนวันที่เก็บบันทึกกิจกรรม ตั้งเป็น 0 เพื่อเก็บไว้ตลอด"
             },
             "permissions": {
-                "use": "",
-                "create": "",
-                "view_any": ""
+                "use": "ใช้งานบัญชีที่เชื่อมโยง",
+                "create": "สร้างบัญชีที่เชื่อมโยงใหม่",
+                "view_any": "ดูบัญชีที่เชื่อมโยงของผู้ใช้ทุกคน"
             },
             "logs": {
-                "title": "",
-                "clear": "",
-                "clear_confirm": "",
-                "empty": "",
-                "parent": "",
-                "child": "",
-                "action": "",
-                "ip": "",
-                "date": "",
-                "load_more": ""
+                "title": "บันทึกกิจกรรมบัญชีที่เชื่อมโยง",
+                "clear": "ล้างบันทึกทั้งหมด",
+                "clear_confirm": "คุณแน่ใจหรือไม่ว่าต้องการล้างบันทึกบัญชีที่เชื่อมโยงทั้งหมด? การกระทำนี้ไม่สามารถย้อนกลับได้",
+                "empty": "ยังไม่มีกิจกรรมที่บันทึกไว้",
+                "parent": "บัญชีหลัก",
+                "child": "บัญชีที่เชื่อมโยง",
+                "action": "การดำเนินการ",
+                "ip": "IP Address",
+                "date": "วันที่",
+                "load_more": "โหลดเพิ่มเติม"
             }
         },
         "forum": {
             "nav": {
-                "linked_accounts": ""
+                "linked_accounts": "บัญชีที่เชื่อมโยง"
             },
-            "revert_to": "",
+            "revert_to": "กลับไปใช้ {name}",
             "composer": {
-                "post_as": ""
+                "post_as": "Post ในนาม:"
             },
             "page": {
-                "title": "",
-                "switched_notice": "",
-                "revert": "",
-                "no_accounts": "",
-                "linked_on": "",
-                "switch": "",
-                "current": "",
-                "unlink": "",
-                "unlink_confirm": "",
-                "max_reached": "",
-                "create_new": "",
-                "link_existing": "",
-                "create_title": "",
-                "create_description": "",
-                "link_title": "",
-                "link_description": "",
-                "username": "",
-                "username_placeholder": "",
-                "email": "",
-                "email_placeholder": "",
-                "password": "",
-                "password_placeholder": "",
-                "link_password_placeholder": "",
-                "identification": "",
-                "identification_placeholder": "",
-                "create_submit": "",
-                "link_submit": "",
-                "create_success": "",
-                "link_success": "",
-                "unlink_success": "",
-                "switch_to_parent": "",
-                "child_info": ""
+                "title": "บัญชีที่เชื่อมโยง",
+                "switched_notice": "คุณกำลังใช้บัญชีที่เชื่อมโยงอยู่ บัญชีหลักของคุณคือ {name}",
+                "revert": "กลับไปใช้บัญชีหลัก",
+                "no_accounts": "คุณยังไม่มีบัญชีที่เชื่อมโยง สร้างบัญชีใหม่หรือเชื่อมโยงบัญชีที่มีอยู่เพื่อเริ่มต้น",
+                "linked_on": "เชื่อมโยงเมื่อ {date}",
+                "switch": "สลับ",
+                "current": "ปัจจุบัน",
+                "unlink": "ยกเลิกการเชื่อมโยง",
+                "unlink_confirm": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเชื่อมโยงบัญชีนี้? บัญชียังคงอยู่แต่จะไม่ถูกเชื่อมโยงอีกต่อไป",
+                "max_reached": "คุณมีบัญชีที่เชื่อมโยงครบ {max} บัญชีแล้ว",
+                "create_new": "สร้างบัญชีใหม่",
+                "link_existing": "เชื่อมโยงบัญชีที่มีอยู่",
+                "create_title": "สร้างบัญชีที่เชื่อมโยงใหม่",
+                "create_description": "สร้างบัญชีใหม่ที่จะเชื่อมโยงกับบัญชีปัจจุบันของคุณ",
+                "link_title": "เชื่อมโยงบัญชีที่มีอยู่",
+                "link_description": "เชื่อมโยงบัญชีที่มีอยู่แล้ว คุณต้องระบุรหัสผ่านของบัญชีนั้นเพื่อยืนยันความเป็นเจ้าของ",
+                "username": "ชื่อผู้ใช้",
+                "username_placeholder": "กรอกชื่อผู้ใช้สำหรับบัญชีใหม่",
+                "email": "อีเมล",
+                "email_placeholder": "กรอกอีเมลสำหรับบัญชีใหม่",
+                "password": "รหัสผ่าน",
+                "password_placeholder": "กรอกรหัสผ่านสำหรับบัญชีใหม่ (ไม่บังคับ)",
+                "link_password_placeholder": "กรอกรหัสผ่านของบัญชีเพื่อยืนยัน",
+                "identification": "ชื่อผู้ใช้หรืออีเมล",
+                "identification_placeholder": "กรอกชื่อผู้ใช้หรืออีเมลของบัญชีที่มีอยู่",
+                "create_submit": "สร้างบัญชี",
+                "link_submit": "เชื่อมโยงบัญชี",
+                "create_success": "สร้างบัญชีที่เชื่อมโยงใหม่สำเร็จ!",
+                "link_success": "เชื่อมโยงบัญชีสำเร็จ!",
+                "unlink_success": "ยกเลิกการเชื่อมโยงบัญชีสำเร็จ",
+                "switch_to_parent": "สลับไปใช้บัญชีหลัก",
+                "child_info": "นี่คือบัญชีที่เชื่อมโยง หากต้องการจัดการบัญชีที่เชื่อมโยง สร้างบัญชีใหม่ หรือเชื่อมโยงบัญชีที่มีอยู่ กรุณาสลับกลับไปใช้บัญชีหลัก"
             }
         }
     }

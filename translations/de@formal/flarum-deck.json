@@ -1,0 +1,105 @@
+{
+    "flarum-deck": {
+        "admin": {
+            "permissions": {
+                "use_deck_label": "Deck verwenden"
+            },
+            "settings": {
+                "max_columns_help": "Jede Spalte stellt bei jeder Aktualisierung eine separate Anfrage dar. Zwischen 1 und 12.",
+                "max_columns_label": "Maximale Anzahl Spalten je Mitglied",
+                "poll_interval_help": "Wie oft die Spalten auf neue Aktivitäten prüfen, wenn keine Verbindung zu Realtime besteht. Der Wert 0 deaktiviert diese Funktion; der Mindestwert beträgt 15.",
+                "poll_interval_label": "Aktualisierungsintervall (Sekunden)"
+            }
+        },
+        "forum": {
+            "add_column": {
+                "author_label": "Mitglieder",
+                "author_placeholder": "Suche ein Mitglied",
+                "back_button": "Zurück",
+                "discussion_label": "Diskussion",
+                "discussion_placeholder": "Suche eine Diskussion",
+                "filter_help": "Kombiniere Filter aus der Suche, wie z. B. „tag:“, „author:“, „is:unread“ oder „is:following“. Einfache Wörter werden nicht unterstützt.",
+                "filter_invalid_message": "Verwende ausschließlich Filter wie beispielsweise „tag:support is:unread“. Einfache Wörter werden nicht unterstützt.",
+                "filter_label": "Filter",
+                "group_invalid_message": "Wähle eine Gruppe.",
+                "group_label": "Gruppe",
+                "in_deck_badge": "Im Deck",
+                "in_deck_count_badge": "{count}× im Deck",
+                "filter_placeholder": "z. B. tag:support is:unread",
+                "invalid_value_message": "Gib einen gültigen Wert für {field} ein.",
+                "pick_a_result_message": "Wähle aus den Vorschlägen für {field} aus.",
+                "submit_button": "Spalte hinzufügen",
+                "title": "Eine Spalte hinzufügen",
+                "use_filters_button": "Diese Filter verwenden"
+            },
+            "column": {
+                "controls_label": "{title} Spaltenoptionen",
+                "drag_handle_label": "Zum Verschieben {title} ziehen",
+                "move_left_button": "Nach links",
+                "move_right_button": "Nach rechts",
+                "move_to_bottom_row_button": "In die untere Zeile",
+                "move_to_top_row_button": "In die obere Zeile",
+                "moved_announcement": "In Position {position} von {count} verschoben.",
+                "moved_in_bottom_row_announcement": "In Position {position} von {count} in der unteren Zeile verschoben.",
+                "moved_in_top_row_announcement": "In Position {position} von {count} in der oberen Zeile verschoben.",
+                "new_items_button": "{count, plural, one {# neu} other {# neu}}",
+                "open_discussion_button": "Diskussion öffnen",
+                "refresh_button": "Aktualisieren",
+                "remove_button": "Spalte entfernen",
+                "reset_width_button": "Breite zurücksetzen",
+                "resize_label": "Größe von {title} anpassen"
+            },
+            "column_types": {
+                "all": "Alle Diskussionen",
+                "author": "Diskussionen eines Mitglieds",
+                "author_posts": "Beiträge eines Mitglieds",
+                "author_posts_title": "Beiträge von {username}",
+                "author_title": "Begonnen von {username}",
+                "discussion": "Eine Diskussion",
+                "filter": "Eigener Filter",
+                "group_posts": "Beiträge einer Gruppe",
+                "group_posts_title": "Beiträge von {group}",
+                "typing": "„Tippt gerade“-Anzeige",
+                "unread": "Ungelesen"
+            },
+            "discussion_controls": {
+                "add_to_deck_button": "Zum Deck hinzufügen",
+                "added_message": "Diese Diskussion ist jetzt eine Spalte in deinem Deck."
+            },
+            "index": {
+                "deck_link": "Deck"
+            },
+            "typing": {
+                "empty_text": "Im Moment tippt niemand.",
+                "offline_text": "Für die „Tippt gerade“-Funktion ist eine aktive Verbindung zum Echtzeit-Server erforderlich.",
+                "replying_text": "{name} antwortet in {discussion}",
+                "someone": "Jemand",
+                "starting_in_text": "{name} eröffnet eine Diskussion in {tags}",
+                "starting_text": "{name} eröffnet eine Diskussion",
+                "was_replying_text": "{name} hat in {discussion} geantwortet",
+                "was_starting_in_text": "{name} hat eine Diskussion in {tags} eröffnet",
+                "was_starting_text": "{name} hat eine Diskussion eröffnet"
+            },
+            "page": {
+                "add_column_button": "Spalte hinzufügen",
+                "column_limit_reached_text": "Du hast die maximale Anzahl an Spalten erreicht.",
+                "drop_row_hint": "Füge hier eine Spalte ein, um eine zweite Zeile zu beginnen",
+                "empty_text": "Dein Deck ist leer. Füge eine Spalte hinzu, um Unterhaltungen live zu verfolgen.",
+                "exit_fullscreen_button": "Vollbild verlassen",
+                "fullscreen_button": "Vollbild",
+                "hero": {
+                    "hide_label": "Diese Einführung ausblenden",
+                    "subtitle": "Verfolge alle Unterhaltungen, die dir wichtig sind, nebeneinander und in Echtzeit. Füge Spalten hinzu, ziehe sie an die gewünschte Stelle und ordne sie in bis zu zwei Reihen an."
+                },
+                "navigator_label": "Spalten",
+                "options_label": "Deck-Optionen",
+                "reset_button": "Spalten zurücksetzen",
+                "resize_rows_label": "Größe der Zeilen anpassen",
+                "reset_confirmation": "Möchtest du deine Spalten durch die Standardeinstellungen ersetzen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
+                "scroll_left_label": "Nach links scrollen",
+                "scroll_right_label": "Nach rechts scrollen",
+                "title": "Deck"
+            }
+        }
+    }
+}

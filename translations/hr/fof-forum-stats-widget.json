@@ -3,19 +3,19 @@
         "admin": {
             "settings": {
                 "decimal_places": {
-                    "label": "",
-                    "help": ""
+                    "label": "Decimalna mjesta",
+                    "help": "Broj decimalnih mjesta za prikaz velikih brojeva (0-2)."
                 }
             }
         },
         "forum": {
             "widget": {
                 "stats": {
-                    "comment_post_count": "",
-                    "discussion_count": "",
-                    "user_count": ""
+                    "comment_post_count": "Objave",
+                    "discussion_count": "Rasprave",
+                    "user_count": "Korisnici"
                 },
-                "title": ""
+                "title": "Statistika foruma"
             }
         }
     }

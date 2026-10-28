@@ -2,63 +2,63 @@
     "ramon-stickers": {
         "admin": {
             "settings": {
-                "hover_play_label": "",
-                "hover_play_help": "",
-                "show_tooltip_label": "",
-                "show_tooltip_help": ""
+                "hover_play_label": "Chỉ chạy hoạt ảnh khi di chuột",
+                "hover_play_help": "Khi bật, các hoạt ảnh Lottie và TGS trong bài viết sẽ dừng ở khung hình đầu tiên và chỉ chạy khi con trỏ chuột đi qua chúng.",
+                "show_tooltip_label": "Hiện tên nhãn dán khi di chuột",
+                "show_tooltip_help": "Khi bật, tên nhãn dán sẽ hiện ra dưới dạng chú thích khi bạn di chuột qua một nhãn dán trong bài viết hoặc trong bảng chọn."
             },
             "sticker_section": {
-                "heading_title": "",
-                "import_button": "",
-                "export_button": "",
-                "export_error": "",
-                "import_zip_message": "",
-                "import_stickers_message": "",
-                "importing_message": "",
-                "import_result": "",
-                "import_error_message": "",
-                "bulk_upload_button": "",
-                "bulk_upload_category_prompt": "",
-                "bulk_upload_progress": "",
-                "bulk_upload_done": "",
-                "select_button": "",
-                "cancel_select_button": "",
-                "delete_selected_button": "",
-                "delete_selected_confirm": "",
-                "delete_selected_error": "",
+                "heading_title": "Nhãn dán",
+                "import_button": "Nhập",
+                "export_button": "Xuất ZIP",
+                "export_error": "Xuất thất bại. Vui lòng thử lại.",
+                "import_zip_message": "Thao tác này sẽ nhập nhãn dán từ một tệp ZIP (do tiện ích này xuất ra). Các tệp nhãn dán sẽ được chép vào /assets/stickers/ và những bản ghi sẵn có sẽ KHÔNG bị ghi đè. Tiếp tục chứ?",
+                "import_stickers_message": "Thao tác này sẽ nhập dữ liệu mô tả nhãn dán từ một tệp JSON. Các tệp nhãn dán KHÔNG đi kèm — bạn cần tải chúng lên trước. Tiếp tục chứ?",
+                "importing_message": "Đang nhập, vui lòng đợi...",
+                "import_result": "Xong: đã nhập {imported}, {skipped} đã có sẵn.",
+                "import_error_message": "Nhập thất bại: {error}",
+                "bulk_upload_button": "Tải lên nhiều tệp",
+                "bulk_upload_category_prompt": "Tên danh mục cho những nhãn dán này:",
+                "bulk_upload_progress": "Đang tải lên {current}/{total}...",
+                "bulk_upload_done": "Xong: đã tải lên {uploaded}, {errors} thất bại.",
+                "select_button": "Chọn",
+                "cancel_select_button": "Hủy",
+                "delete_selected_button": "Xóa ({count})",
+                "delete_selected_confirm": "Xóa {count} nhãn dán? Thao tác này không thể hoàn tác.",
+                "delete_selected_error": "Một số nhãn dán không xóa được. Vui lòng thử lại.",
                 "edit_sticker": {
-                    "modal_title": "",
-                    "sticker_category_label": "",
-                    "category_name_label": "",
-                    "sticker_title_label": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "category_help": "",
-                    "upload_label": "",
-                    "upload_button": "",
-                    "upload_help": "",
-                    "submit_button": "",
-                    "delete_sticker_button": "",
-                    "delete_sticker_confirmation": "",
-                    "saved_message": "",
-                    "save_error": "",
-                    "tgs_notice_title": "",
-                    "tgs_notice_body": "",
-                    "external_anim_notice_title": "",
-                    "external_anim_notice_body": ""
+                    "modal_title": "Thêm nhãn dán",
+                    "sticker_category_label": "Mã danh mục",
+                    "category_name_label": "Tên danh mục",
+                    "sticker_title_label": "Tên nhãn dán",
+                    "text_to_replace_label": "Chuỗi cần thay thế (ví dụ :sticker:)",
+                    "path_or_url_label": "Đường dẫn hoặc URL",
+                    "category_help": "Chỉ dùng chữ thường, số và dấu gạch dưới. Các ký tự đặc biệt sẽ được tự động loại bỏ.",
+                    "upload_label": "Tải tệp lên",
+                    "upload_button": "Chọn tệp",
+                    "upload_help": "Hỗ trợ Lottie JSON động (.json), nhãn dán Telegram (.tgs), PNG, GIF, WebP, JPEG.",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_sticker_button": "Xóa nhãn dán",
+                    "delete_sticker_confirmation": "Bạn có chắc chắn muốn xóa nhãn dán này không?",
+                    "saved_message": "=> core.admin.settings.saved_message",
+                    "save_error": "Không lưu được nhãn dán. Hãy kiểm tra lại thông tin rồi thử lại.",
+                    "tgs_notice_title": "Lưu ý về giấy phép — tệp TGS",
+                    "tgs_notice_body": "Tệp TGS là nhãn dán động của Telegram và có thể chịu các hạn chế về bản quyền hoặc phân phối do tác giả gốc đặt ra. Khi lưu nhãn dán này, bạn xác nhận rằng bạn có quyền sử dụng và phân phối nội dung đó, và bạn chịu toàn bộ trách nhiệm pháp lý về việc này.",
+                    "external_anim_notice_title": "Nhãn dán động nằm trên một URL bên ngoài",
+                    "external_anim_notice_body": "Nhãn dán động (.json / .tgs) phải được lưu trên tên miền của diễn đàn này thì mới hiển thị được. Tệp nạp từ một URL bên ngoài sẽ không chạy hoạt ảnh với khách truy cập — hãy tải tệp lên hoặc dùng một đường dẫn cùng nguồn."
                 },
                 "sticker_list": {
-                    "load_more_button": "",
-                    "move_category_error": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button",
+                    "move_category_error": "Không lưu được thứ tự danh mục. Vui lòng thử lại."
                 }
             }
         },
         "forum": {
             "composer": {
-                "sticker_tooltip": ""
+                "sticker_tooltip": "Chèn nhãn dán"
             },
             "picker": {
-                "no_stickers": ""
+                "no_stickers": "Không tìm thấy nhãn dán nào"
             }
         }
     }

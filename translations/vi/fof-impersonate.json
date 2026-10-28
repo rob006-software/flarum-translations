@@ -7,19 +7,38 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Yêu cầu nhập lý do trước khi tiếp tục mạo danh người dùng khác.",
+                "require_reason_help": "Lý do được ghi vào nhật ký kiểm toán (flarum/audit) và/hoặc thành ghi chú điều hành viên trên cả hai tài khoản (fof/moderator-notes), tùy phần nào đang được bật.",
                 "no_settings_available": "Hiện không có cài đặt nào khả dụng. Thử cài đặt fof/moderator-notes"
             }
         },
         "lib": {
             "modal": {
                 "title": "Đăng nhập với tư cách là người dùng khác",
-                "label": "Với sức mạnh lớn đi kèm trách nhiệm lớn. Bằng cách tiếp tục, bạn sẽ trở thành {username} cho đến khi bạn đăng xuất.",
+                "label": "Quyền lực càng lớn, trách nhiệm càng cao. Nếu tiếp tục, bạn sẽ trở thành {username} cho đến khi bạn đăng xuất.",
                 "placeholder_optional": "(Tùy chọn) Cung cấp lý do bạn chuyển sang người dùng này",
                 "placeholder_required": "Bạn phải cung cấp lý do chuyển sang người dùng này trước khi tiếp tục",
-                "impersonate_username": "Đăng nhập bằng {username}"
+                "impersonate_username": "Đăng nhập với tư cách {username}"
             },
             "user_controls": {
                 "impersonate_button": "Đăng nhập với tư cách là người dùng"
+            }
+        },
+        "forum": {
+            "notice": {
+                "message": "Bạn đang đóng vai {username}."
+            },
+            "return": {
+                "button": "Quay lại {username}"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "user": {
+                    "impersonated": "Đã mạo danh {username}",
+                    "impersonation_ended": "Đã quay lại {username}"
+                }
             }
         }
     }

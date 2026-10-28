@@ -2,11 +2,19 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": "=> flarum-tags.ref.tags"
+                "tags_label": "=> flarum-tags.ref.tags",
+                "slug_driver_options": {
+                    "default": "",
+                    "id_with_slug": ""
+                }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Διαγραφή κατηγορίας",
+                "default_sort_label": "",
+                "default_sort_none": "",
+                "default_sort_text": "",
+                "default_sort_unavailable": "",
                 "delete_tag_confirmation": "Είσαστε βέβαιος ότι θέλετε να διαγράψετε αυτή την κατηγορία; Οι συζητήσεις αυτής της κατηγορίας ΔΕΝ θα διαγραφούν.",
                 "description_label": "Περιγραφή",
                 "hide_label": "Απόκρυψη από όλες τις συζητήσεις",
@@ -61,6 +69,11 @@
             "composer_discussion": {
                 "choose_tags_link": "Επιλέξτε κατηγορίες"
             },
+            "deck": {
+                "column_label": "",
+                "tag_label": "",
+                "tag_placeholder": ""
+            },
             "discussion_controls": {
                 "edit_tags_button": "Επεξεργασία κατηγοριών"
             },
@@ -76,7 +89,7 @@
                 "added_and_removed_tags_text": "{username} πρόσθεσε την κατηγορία {tagsAdded} και αφαίρεσε την κατηγορία {tagsRemoved}.",
                 "added_tags_text": "{username} πρόσθεσε {tagsAdded}.",
                 "removed_tags_text": "{username} αφαίρεσε {tagsRemoved}.",
-                "tags_text": "{tags} κατηγορία|{tags} κατηγορίες"
+                "tags_text": "{count, plural, one {{tags} κατηγορία} other {{tags} κατηγορίες}}"
             },
             "tag": {
                 "meta_description_text": "Όλες οι συζητήσεις στην κατηγορία {tag}"
@@ -106,6 +119,20 @@
             "choose_tags_placeholder": "",
             "name": "Όνομα",
             "tags": "Κατηγορίες"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "tagged": ""
+                },
+                "tag": {
+                    "created": "",
+                    "updated": "",
+                    "deleted": ""
+                }
+            }
         }
     }
 }

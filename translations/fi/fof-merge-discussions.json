@@ -57,5 +57,15 @@
                 "subject": "Sinun keskustelu \"{merged_discussion_title}\" yhdistettiin"
             }
         }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "merged_away": "",
+                    "merged_into": ""
+                }
+            }
+        }
     }
 }

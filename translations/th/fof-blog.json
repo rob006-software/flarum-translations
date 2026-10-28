@@ -1,0 +1,154 @@
+{
+    "fof-blog": {
+        "admin": {
+            "blog": "บล็อก (Blog)",
+            "permissions": {
+                "write_articles": "เขียนและแก้ไขบทความในบล็อก",
+                "auto_approve_posts": "โพสต์บทความโดยไม่ต้องรออนุมัติ",
+                "approve_posts": "อนุมัติบทความในบล็อกได้"
+            },
+            "settings": {
+                "no_categories_selected": "ยังไม่ได้เลือกหมวดหมู่",
+                "selected_category_count": "{count, plural, other {คุณเลือกหมวดหมู่ไว้ทั้งหมด # หมวดหมู่}}",
+                "select_categories_button": "เลือกหมวดหมู่บล็อก",
+                "categories_modal": {
+                    "description": "",
+                    "visit_blog": "",
+                    "tag_name_column": "",
+                    "no_tags": "",
+                    "close": ""
+                },
+                "blog_heading": "บล็อก (Blog)",
+                "featured_count_label": "จำนวนโพสต์แนะนำสูงสุด",
+                "featured_count_text": "ต้องการแสดงโพสต์กี่รายการในตารางขนาดใหญ่ที่ด้านบนของหน้าบล็อก?",
+                "allow_comments_label": "อนุญาตให้แสดงความคิดเห็น",
+                "allow_comments_text": "โดยค่าเริ่มต้น อนุญาตให้แสดงความคิดเห็นในโพสต์บล็อก เมื่อปิดใช้งาน สามารถเปิดแยกได้ทีละโพสต์ <b>หมายเหตุ:</b> การเปลี่ยนค่านี้จะไม่มีผลกับบทความที่มีอยู่แล้ว",
+                "require_review_label": "บทความในบล็อกต้องผ่านการตรวจสอบ",
+                "require_review_text": "เมื่อโพสต์บทความ จะยังไม่แสดงทันที และต้องได้รับการตรวจสอบจากผู้ดูแลก่อน",
+                "hide_on_discussion_list_label": "ไม่แสดงในรายการโพสต์",
+                "hide_on_discussion_list_text": "ซ่อนโพสต์บล็อกออกจากรายการโพสต์ทั่วไป",
+                "add_sidebar_nav_label": "เพิ่มลิงก์ในแถบด้านข้าง",
+                "add_sidebar_nav_text": "เพิ่มลิงก์ไปยังบล็อกในเมนูนำทางของแถบด้านข้าง",
+                "categories_heading": "หมวดหมู่",
+                "hide_tags_in_taglist_label": "ซ่อนแท็กในรายการแท็ก",
+                "hide_tags_in_taglist_text": "เมื่อเปิดใช้งาน ส่วนขยายนี้จะซ่อนแท็กบล็อกออกจากหน้าแรก",
+                "show_tag_hierarchy_label": "แสดงลำดับชั้นของแท็ก",
+                "show_tag_hierarchy_text": "เพิ่มการย่อหน้าให้หมวดหมู่ย่อย และแสดงลำดับชั้นในรายการหมวดหมู่",
+                "redirects_heading": "การเปลี่ยนเส้นทาง (Redirects)",
+                "redirects_text": "",
+                "redirects_options": {
+                    "both": "",
+                    "discussions_only": "",
+                    "tags_only": "",
+                    "none": ""
+                },
+                "default_article_image_label": "รูปภาพบทความเริ่มต้น",
+                "default_article_image_text": "เลือกรูปภาพเริ่มต้นที่จะแสดงเมื่อบทความยังไม่มีรูปภาพ",
+                "add_hero_label": "แสดงแบนเนอร์ต้อนรับ",
+                "add_hero_text": "แสดงแบนเนอร์ต้อนรับบนหน้าบล็อก หากผู้ใช้ยังไม่ได้ปิด"
+            }
+        },
+        "forum": {
+            "blog": "บล็อก (Blog)",
+            "read_more": "อ่านเพิ่มเติม",
+            "hidden": "ซ่อนอยู่",
+            "recent_posts": "บทความล่าสุด",
+            "categories": "หมวดหมู่",
+            "forum_nav": "ไปยังฟอรัม",
+            "return_to_overview": "กลับไปยังหน้าภาพรวมบล็อก",
+            "no_more_posts": "ไม่มีบทความเพิ่มเติมแล้ว",
+            "category_empty": "ไม่มีบทความในหมวดหมู่นี้",
+            "compose": {
+                "write_article": "เขียนบทความ"
+            },
+            "validation": {
+                "missing_id": "ไม่พบไอดี (ID)"
+            },
+            "article": {
+                "title": "ชื่อบทความ",
+                "slug": "Slug",
+                "summary": "บทสรุป"
+            },
+            "comment_section": {
+                "comments": "ความคิดเห็น",
+                "locked": "ปิดส่วนความคิดเห็นสำหรับบทความนี้แล้ว"
+            },
+            "review_article": {
+                "pending_review_title": "รอการตรวจสอบ",
+                "pending_review": "บทความนี้อยู่ระหว่างการตรวจสอบและยังไม่ได้เผยแพร่",
+                "approve_article": "อนุมัติบทความ",
+                "approve_article_approved": "บทความนี้ได้รับการอนุมัติและเผยแพร่แล้ว"
+            },
+            "tools": {
+                "rename_article": "เปลี่ยนชื่อบทความ",
+                "edit_article": "แก้ไขบทความ",
+                "update_category": "อัปเดตหมวดหมู่",
+                "article_settings": "การตั้งค่าบทความ",
+                "approve_article": "อนุมัติบทความ",
+                "hide_article": "ซ่อนบทความ",
+                "recover_article": "กู้คืนบทความ",
+                "delete_forever": "ลบถาวร",
+                "enable_comments": "เปิดความคิดเห็น",
+                "disable_comments": "ปิดความคิดเห็น"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "กำลังนำคุณไปยังบทความในบล็อก...",
+                    "link": "<a>คลิกที่นี่</a> หากหน้าไม่เปลี่ยนเส้นทางอัตโนมัติ"
+                }
+            },
+            "composer": {
+                "no_title": "ยังไม่มีชื่อเรื่อง",
+                "enter_message_here": "พิมพ์ข้อความที่นี่",
+                "post_article": "เผยแพร่บทความ",
+                "select_category": "เลือกหมวดหมู่",
+                "edit_categories": "แก้ไขหมวดหมู่",
+                "update_settings": "อัปเดตการตั้งค่าบล็อก",
+                "write": "เขียน",
+                "view": "ดูตัวอย่าง",
+                "nothing_to_preview": "ยังไม่มีอะไรให้แสดงตัวอย่าง",
+                "comment_section": "ส่วนความคิดเห็นไม่พร้อมใช้งานขณะเขียนบทความ",
+                "no_blog_tags_selected": "แท็กที่คุณเลือกไม่ใช่แท็กบล็อก กรุณาเลือกอย่างน้อยหนึ่งแท็ก",
+                "post_without_blog_info": "คุณแน่ใจหรือไม่ว่าต้องการเผยแพร่บทความนี้? คุณยังไม่ได้ใส่บทสรุปหรือรูปภาพของบทความ"
+            },
+            "article_settings": {
+                "title": "การตั้งค่าโพสต์บล็อก",
+                "fields": {
+                    "summary": {
+                        "title": "บทสรุปบทความ",
+                        "placeholder": "กรุณาใส่บทสรุป",
+                        "helper_text": "บทสรุปนี้จะแสดงในหน้าภาพรวมบล็อก และนำไปใช้สำหรับเป้าหมาย SEO"
+                    },
+                    "image": {
+                        "title": "รูปภาพบทความ",
+                        "helper_text": "ขนาดรูปภาพที่เหมาะสำหรับโซเชียลมีเดีย: 1200x630"
+                    },
+                    "highlight": {
+                        "title": "โพสต์ไฮไลต์",
+                        "helper_text": "แสดงรูปภาพขนาดใหญ่สำหรับโพสต์นี้ในหน้าภาพรวมบล็อก"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "gambits": {
+                "blog": {
+                    "key": ""
+                }
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "article": {
+                    "created": "",
+                    "approved": "",
+                    "updated": "",
+                    "featured": "",
+                    "unfeatured": ""
+                }
+            }
+        }
+    }
+}
