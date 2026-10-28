@@ -1666,6 +1666,12 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 		'__builtInLanguages' => ['de', 'de@formal'],
 	],
+	'xiaoxiaobai5724-theme-switch' => [
+		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/flarum-theme-switch/0.2/resources/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v2.0.0/locale/en.yml',
 	],
