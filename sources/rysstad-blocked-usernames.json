@@ -1,0 +1,14 @@
+{
+    "rysstad-blocked-usernames": {
+        "admin": {
+            "blocked_usernames_label": "Blocked usernames",
+            "blocked_usernames_help": "One username per line. Matching is not case sensitive. Use * as a wildcard, for example \"admin*\" blocks \"admin\", \"admin1\" and \"administrator\". Administrators are not affected by this list.",
+            "message_label": "Error message",
+            "message_help": "Shown to a person who tries to register with a blocked username. Leave empty to use the default message.",
+            "message_placeholder": "This username is not available. Please choose another one."
+        },
+        "api": {
+            "default_message": "This username is not available. Please choose another one."
+        }
+    }
+}
