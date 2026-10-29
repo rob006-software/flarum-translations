@@ -2,18 +2,18 @@
     "fof-translate": {
         "admin": {
             "detection": {
-                "cancel_button": "",
+                "cancel_button": "Abbrechen",
                 "counts_failed_text": "",
                 "detect_missing_button": "",
                 "discussions_status_text": "",
-                "heading": "",
+                "heading": "Sprachenerkennung",
                 "help": "",
                 "posts_status_text": "",
                 "progress_discussions_text": "",
                 "progress_posts_text": "",
                 "redetect_all_button": "",
                 "redetect_all_confirm": "",
-                "refresh_button": "",
+                "refresh_button": "Aktualisieren",
                 "summary_cancelled_text": "",
                 "summary_done_text": "",
                 "summary_failed_text": "",
@@ -22,18 +22,18 @@
             "permissions": {
                 "refresh_label": "",
                 "translate_any_language_label": "",
-                "translate_label": ""
+                "translate_label": "Inhalt übersetzen"
             },
             "settings": {
                 "ai": {
                     "de_variant_help": "",
-                    "de_variant_label": "",
+                    "de_variant_label": "Deutsche Sprachvarietät",
                     "de_variant_options": {
                         "casual": "",
                         "swiss": ""
                     },
                     "en_variant_help": "",
-                    "en_variant_label": ""
+                    "en_variant_label": "Englische Sprachvarietät"
                 },
                 "api_key_help": "",
                 "claude": {
@@ -47,15 +47,15 @@
                     },
                     "intro": "",
                     "model_help": "",
-                    "model_label": ""
+                    "model_label": "Modell"
                 },
                 "deepl": {
-                    "api_key_label": "",
+                    "api_key_label": "DeepL API-Schlüssel",
                     "en_choice_help": "",
-                    "en_choice_label": "",
+                    "en_choice_label": "Englische Sprachvarietät",
                     "intro": "",
                     "pt_choice_help": "",
-                    "pt_choice_label": "",
+                    "pt_choice_label": "Portugiesische Sprachvarietät",
                     "formality_help": "",
                     "formality_label": "",
                     "formality_options": {
@@ -67,10 +67,10 @@
                     "glossaries_failed": "",
                     "glossaries_heading": "",
                     "glossaries_help": "",
-                    "glossaries_reload_button": "",
-                    "glossaries_retry_button": "",
-                    "glossary_none_option": "",
-                    "glossary_pair_label": "",
+                    "glossaries_reload_button": "Neu laden",
+                    "glossaries_retry_button": "Erneut versuchen",
+                    "glossary_none_option": "Kein Glossar",
+                    "glossary_pair_label": "{source} → {target}",
                     "model_type_help": "",
                     "model_type_label": "",
                     "model_type_options": {
@@ -80,7 +80,7 @@
                 },
                 "driver_help": "",
                 "driver_label": "",
-                "driver_none_option": "",
+                "driver_none_option": "Keine",
                 "driver_not_configured": "",
                 "driver_recommended_option": "",
                 "driver_section_heading": "",
