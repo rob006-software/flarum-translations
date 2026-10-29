@@ -249,13 +249,15 @@
             "radius_help": "Leave blank to follow Flarum’s Start a Discussion button. Zero gives square corners. Applies to native surfaces and standard FoF content wrappers.",
             "emphasized_titles": "Emphasize widget headings",
             "title_style": "This widget's heading style",
-            "title_style_help": "Choose the standard or emphasized heading style. Imported third-party widgets keep their own heading content; only their standard heading style can be changed here.",
+            "override_heading": "Enable override",
+            "override_heading_help": "Off: keep the provider’s original heading, subtitle, links and layout. On: replace this homepage instance’s heading with the options below; other FoF placements are unchanged. Stored values are kept when switched off.",
+            "title_style_help": "Choose the standard or emphasized heading style. For imported FoF widgets, enable heading override first.",
             "title_styles": {
                 "inherit": "Use page appearance",
                 "fof": "Standard",
                 "emphasized": "Emphasized"
             },
-            "emphasized_help": "Off: standard widget headings. On: larger headings and colored icons, also applied to standard imported headings.",
+            "emphasized_help": "Applies to native headings and FoF imports with heading override enabled. Other provider headings retain their own styling.",
             "icon_image": "Icon image URL (overrides icon classes)",
             "show_icon": "Show a leading icon",
             "show_heading": "Show the widget heading",
