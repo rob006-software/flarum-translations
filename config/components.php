@@ -1251,6 +1251,10 @@ return [
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.1.1/locale/en.yml',
 	],
+	'xiaogan80-hot-board' => [
+		'tag' => 'https://raw.githubusercontent.com/xiaogan80/acme-flarum-hot-board/v1.3.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'xxb5724-catch-the-fish' => [
 		'tag' => 'https://raw.githubusercontent.com/Xiaoxiaobai5724/catch-the-fish/2.0.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
