@@ -796,9 +796,7 @@ return [
 	],
 	'zephyrisle-registration-code' => [
 		'tag' => 'https://raw.githubusercontent.com/Zephyr-Isle/flarum-registration-code/v2.1.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	/* extensions list end */
 ];
