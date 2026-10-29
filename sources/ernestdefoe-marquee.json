@@ -1,6 +1,10 @@
 {
     "ernestdefoe-marquee": {
         "admin": {
+            "permissions": {
+                "link_own": "Change the linked title of their own discussions",
+                "link_any": "Change the linked title of any discussion"
+            },
             "tmdb_token_label": "TMDB API read access token",
             "tmdb_token_help": "Movies and TV shows come from The Movie Database. <a>Get a token from your TMDB API settings</a> and paste the long API Read Access Token here. It stays on the server.",
             "igdb_label": "Twitch app credentials for IGDB",
@@ -109,6 +113,7 @@
                 "isbn": "ISBN"
             },
             "hero": {
+                "series": "Titles in this discussion",
                 "user_score": "TMDB user score",
                 "season_score": "TMDB season score",
                 "episode_score": "TMDB episode score",
@@ -155,6 +160,10 @@
                 "discuss_episode": "Discuss this episode"
             },
             "link": {
+                "related_label": "Related titles",
+                "related_help": "The rest of a series, for example the other games of a trilogy. They show as a row on the card, and clicking one shows its card in place.",
+                "related_placeholder": "Add a related title…",
+                "related_remove": "Remove {title}",
                 "change": "Change linked title",
                 "add": "Link a title",
                 "title": "Linked title",

@@ -1,6 +1,10 @@
 {
     "ernestdefoe-marquee": {
         "admin": {
+            "permissions": {
+                "link_own": "",
+                "link_any": ""
+            },
             "tmdb_token_label": "TMDB API-Token für Lesezugriff",
             "tmdb_token_help": "Filme und Fernsehserien stammen aus The Movie Database. <a>Rufe in deinen TMDB-API-Einstellungen</a> ein Token ab und füge das lange API-Lesezugriffstoken hier ein. Es verbleibt auf dem Server.",
             "igdb_label": "Twitch-Anwendungs-Zugangsdaten für IGDB",
@@ -109,6 +113,7 @@
                 "isbn": "ISBN"
             },
             "hero": {
+                "series": "",
                 "user_score": "TMDB-Nutzerwertung",
                 "season_score": "TMDB-Staffelwertung",
                 "episode_score": "TMDB-Folgenwertung",
@@ -155,6 +160,10 @@
                 "discuss_episode": "Diese Folge diskutieren"
             },
             "link": {
+                "related_label": "",
+                "related_help": "",
+                "related_placeholder": "",
+                "related_remove": "",
                 "change": "Verknüpften Titel ändern",
                 "add": "Titel verknüpfen",
                 "title": "Verknüpfter Titel",

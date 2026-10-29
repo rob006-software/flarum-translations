@@ -250,14 +250,14 @@
             "emphasized_titles": "Emphasize widget headings",
             "title_style": "This widget's heading style",
             "override_heading": "Enable override",
-            "override_heading_help": "Off: keep the provider’s original heading, subtitle, links and layout. On: replace this homepage instance’s heading with the options below; other FoF placements are unchanged. Stored values are kept when switched off.",
-            "title_style_help": "Choose the standard or emphasized heading style. For imported FoF widgets, enable heading override first.",
+            "override_heading_help": "Off: keep the provider’s original heading content, subtitle, links and layout. On: replace this homepage instance’s heading with the content and layout options below; other FoF placements are unchanged. Heading style applies in either mode. Stored values are kept when switched off.",
+            "title_style_help": "Choose the standard or emphasized heading style, or inherit the page appearance. For imported FoF widgets this applies to the standard provider heading even when override is off, without replacing its content or layout.",
             "title_styles": {
                 "inherit": "Use page appearance",
                 "fof": "Standard",
                 "emphasized": "Emphasized"
             },
-            "emphasized_help": "Applies to native headings and FoF imports with heading override enabled. Other provider headings retain their own styling.",
+            "emphasized_help": "Applies to native headings and standard FoF headings, independently of heading override. Provider content and layout are retained when override is off.",
             "icon_image": "Icon image URL (overrides icon classes)",
             "show_icon": "Show a leading icon",
             "show_heading": "Show the widget heading",

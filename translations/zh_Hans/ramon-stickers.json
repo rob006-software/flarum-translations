@@ -7,6 +7,10 @@
                 "show_tooltip_label": "悬停时显示贴纸名称",
                 "show_tooltip_help": "启用后，在帖子或贴纸选择器中将鼠标悬停在贴纸上时，会显示贴纸名称提示。"
             },
+            "upload": {
+                "failed": "",
+                "failed_with_error": ""
+            },
             "sticker_section": {
                 "heading_title": "贴纸",
                 "import_button": "导入",
@@ -17,8 +21,12 @@
                 "importing_message": "正在导入，请稍候…",
                 "import_result": "完成：已导入 {imported} 个，已跳过 {skipped} 个已有贴纸。",
                 "import_error_message": "导入失败：{error}",
+                "import_unreadable_response": "",
+                "import_invalid_json": "",
+                "network_error": "",
                 "bulk_upload_button": "批量上传",
                 "bulk_upload_category_prompt": "这些贴纸的分类名称：",
+                "bulk_upload_default_category": "",
                 "bulk_upload_progress": "正在上传 {current}/{total}…",
                 "bulk_upload_done": "完成：已上传 {uploaded} 个，上传失败 {errors} 个。",
                 "select_button": "选择",
@@ -28,6 +36,7 @@
                 "delete_selected_error": "部分贴纸无法删除，请重试。",
                 "edit_sticker": {
                     "modal_title": "添加贴纸",
+                    "edit_button": "",
                     "sticker_category_label": "分类代码",
                     "category_name_label": "分类名称",
                     "sticker_title_label": "贴纸名称",
@@ -37,10 +46,12 @@
                     "upload_label": "上传文件",
                     "upload_button": "选择文件",
                     "upload_help": "支持 Lottie JSON 动画（.json）、Telegram 贴纸（.tgs）、PNG、GIF、WebP、JPEG。",
+                    "preview_alt": "",
                     "submit_button": "=> core.ref.save_changes",
                     "delete_sticker_button": "删除贴纸",
                     "delete_sticker_confirmation": "确定要删除此贴纸吗？",
                     "saved_message": "=> core.admin.settings.saved_message",
+                    "deleted_message": "",
                     "save_error": "无法保存贴纸，请检查填写内容后重试。",
                     "tgs_notice_title": "许可提醒 — TGS 文件",
                     "tgs_notice_body": "TGS 文件是 Telegram 动态贴纸格式，可能受到原作者版权或分发限制的约束。保存此贴纸即表示你确认拥有使用和分发该内容的权利，并愿意承担由此产生的全部法律责任。",
@@ -48,8 +59,20 @@
                     "external_anim_notice_body": "动态贴纸（.json / .tgs）必须托管在本论坛域名下才能正常播放。从外部 URL 加载的文件将无法播放动画，请上传文件或改用同源路径。"
                 },
                 "sticker_list": {
+                    "add_button": "",
+                    "all_tab": "",
                     "load_more_button": "=> core.forum.post_stream.load_more_button",
-                    "move_category_error": "无法保存分类顺序，请重试。"
+                    "move_category_error": "无法保存分类顺序，请重试。",
+                    "move_up": "",
+                    "move_down": "",
+                    "rename_button": "",
+                    "rename_code_placeholder": "",
+                    "rename_name_placeholder": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": "",
+                    "rename_empty_error": "",
+                    "rename_error": "",
+                    "anim_lib": ""
                 }
             }
         },

@@ -7,6 +7,10 @@
                 "show_tooltip_label": "",
                 "show_tooltip_help": ""
             },
+            "upload": {
+                "failed": "",
+                "failed_with_error": ""
+            },
             "sticker_section": {
                 "heading_title": "",
                 "import_button": "",
@@ -17,8 +21,12 @@
                 "importing_message": "",
                 "import_result": "",
                 "import_error_message": "",
+                "import_unreadable_response": "",
+                "import_invalid_json": "",
+                "network_error": "",
                 "bulk_upload_button": "",
                 "bulk_upload_category_prompt": "",
+                "bulk_upload_default_category": "",
                 "bulk_upload_progress": "",
                 "bulk_upload_done": "",
                 "select_button": "",
@@ -28,6 +36,7 @@
                 "delete_selected_error": "",
                 "edit_sticker": {
                     "modal_title": "",
+                    "edit_button": "",
                     "sticker_category_label": "",
                     "category_name_label": "",
                     "sticker_title_label": "",
@@ -37,10 +46,12 @@
                     "upload_label": "",
                     "upload_button": "",
                     "upload_help": "",
+                    "preview_alt": "",
                     "submit_button": "=> core.ref.save_changes",
                     "delete_sticker_button": "",
                     "delete_sticker_confirmation": "",
                     "saved_message": "=> core.admin.settings.saved_message",
+                    "deleted_message": "",
                     "save_error": "",
                     "tgs_notice_title": "",
                     "tgs_notice_body": "",
@@ -48,8 +59,20 @@
                     "external_anim_notice_body": ""
                 },
                 "sticker_list": {
+                    "add_button": "",
+                    "all_tab": "",
                     "load_more_button": "=> core.forum.post_stream.load_more_button",
-                    "move_category_error": ""
+                    "move_category_error": "",
+                    "move_up": "",
+                    "move_down": "",
+                    "rename_button": "",
+                    "rename_code_placeholder": "",
+                    "rename_name_placeholder": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": "",
+                    "rename_empty_error": "",
+                    "rename_error": "",
+                    "anim_lib": ""
                 }
             }
         },

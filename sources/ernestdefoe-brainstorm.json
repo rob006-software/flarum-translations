@@ -260,7 +260,9 @@
                 "reward": "Attach points and badges to quizzes"
             },
             "settings": {
-                "show_nav": "Show \"Quizzes\" in the sidebar navigation"
+                "show_nav": "Show \"Quizzes\" in the sidebar navigation",
+                "editors_count": "Count quiz writers' own attempts",
+                "editors_count_help": "Off: whoever writes or manages a quiz can see its answers, so their attempts are practice. On: once a quiz is published and open, their attempts count like anyone's: leaderboards, attempt limits and rewards. Useful when the questions came from someone else (or an AI) and the writer doesn't know the answers. Drafts and quizzes not open yet stay practice."
             },
             "badges": {
                 "quizzes_passed": "Quizzes passed (Brainstorm)",

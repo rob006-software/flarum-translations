@@ -1,6 +1,10 @@
 {
     "ernestdefoe-marquee": {
         "admin": {
+            "permissions": {
+                "link_own": "",
+                "link_any": ""
+            },
             "tmdb_token_label": "",
             "tmdb_token_help": "",
             "igdb_label": "",
@@ -109,6 +113,7 @@
                 "isbn": ""
             },
             "hero": {
+                "series": "",
                 "user_score": "",
                 "season_score": "",
                 "episode_score": "",
@@ -155,6 +160,10 @@
                 "discuss_episode": ""
             },
             "link": {
+                "related_label": "",
+                "related_help": "",
+                "related_placeholder": "",
+                "related_remove": "",
                 "change": "",
                 "add": "",
                 "title": "",

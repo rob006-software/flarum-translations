@@ -7,6 +7,10 @@
                 "show_tooltip_label": "Показывать название стикера при наведении",
                 "show_tooltip_help": "Если включено, название стикера будет отображаться во всплывающей подсказке при наведении в сообщениях или в панели выбора."
             },
+            "upload": {
+                "failed": "",
+                "failed_with_error": ""
+            },
             "sticker_section": {
                 "heading_title": "Стикеры",
                 "import_button": "Импорт",
@@ -17,8 +21,12 @@
                 "importing_message": "Идёт импорт...",
                 "import_result": "Готово: импортировано {imported}, пропущено {skipped} — уже есть.",
                 "import_error_message": "Ошибка импорта: {error}",
+                "import_unreadable_response": "",
+                "import_invalid_json": "",
+                "network_error": "",
                 "bulk_upload_button": "Загрузить несколько",
                 "bulk_upload_category_prompt": "Название категории для этих стикеров:",
+                "bulk_upload_default_category": "",
                 "bulk_upload_progress": "Загрузка {current}/{total}...",
                 "bulk_upload_done": "Готово: загружено {uploaded}, ошибок {errors}.",
                 "select_button": "Выбрать",
@@ -28,6 +36,7 @@
                 "delete_selected_error": "Некоторые стикеры не удалось удалить. Попробуйте снова.",
                 "edit_sticker": {
                     "modal_title": "Добавить стикер",
+                    "edit_button": "",
                     "sticker_category_label": "Код категории",
                     "category_name_label": "Название категории",
                     "sticker_title_label": "Название стикера",
@@ -37,10 +46,12 @@
                     "upload_label": "Загрузить файл",
                     "upload_button": "Выбрать файл",
                     "upload_help": "Поддерживаются анимированные Lottie JSON (.json), стикеры Telegram (.tgs), PNG, GIF, WebP, JPEG.",
+                    "preview_alt": "",
                     "submit_button": "=> core.ref.save_changes",
                     "delete_sticker_button": "Удалить стикер",
                     "delete_sticker_confirmation": "Удалить этот стикер?",
                     "saved_message": "=> core.admin.settings.saved_message",
+                    "deleted_message": "",
                     "save_error": "Не удалось сохранить стикер. Проверьте данные и попробуйте снова.",
                     "tgs_notice_title": "Уведомление о лицензии — файл TGS",
                     "tgs_notice_body": "Файлы TGS представляют собой анимированные стикеры Telegram и могут подпадать под ограничения авторских прав или распространения, установленные их авторами. Сохраняя этот стикер, вы подтверждаете, что имеете право использовать и распространять данный контент, а также принимаете на себя полную юридическую ответственность за это.",
@@ -48,8 +59,20 @@
                     "external_anim_notice_body": "Анимированные стикеры (.json / .tgs) должны размещаться на домене этого форума для корректного отображения. Файлы, загружаемые с внешнего URL, не будут анимироваться у посетителей — загрузите файл на форум или используйте путь с того же домена."
                 },
                 "sticker_list": {
+                    "add_button": "",
+                    "all_tab": "",
                     "load_more_button": "=> core.forum.post_stream.load_more_button",
-                    "move_category_error": "Не удалось сохранить порядок категорий. Попробуйте снова."
+                    "move_category_error": "Не удалось сохранить порядок категорий. Попробуйте снова.",
+                    "move_up": "",
+                    "move_down": "",
+                    "rename_button": "",
+                    "rename_code_placeholder": "",
+                    "rename_name_placeholder": "",
+                    "rename_save_button": "",
+                    "rename_cancel_button": "",
+                    "rename_empty_error": "",
+                    "rename_error": "",
+                    "anim_lib": ""
                 }
             }
         },
