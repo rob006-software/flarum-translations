@@ -254,7 +254,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.0.8/locale/en.yml',
 	],
 	'ernestdefoe-header-nav' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.6.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.6.4/locale/en.yml',
 	],
 	'ernestdefoe-hero-builder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.3/resources/locale/en.yml',
