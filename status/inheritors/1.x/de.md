@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **50** are
-translated only in `de`. Altogether they cover **6** components.
+sides, but do not match between them: **3** are translated differently and **63** are
+translated only in `de`. Altogether they cover **7** components.
 
 <!-- {% raw %} -->
 
@@ -14,6 +14,7 @@ translated only in `de`. Altogether they cover **6** components.
 | --- | --- | --- |
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
 | `clarkwinkelmann-selective-mediaembed` | [1](#clarkwinkelmann-selective-mediaembed) | 0 |
+| `floxum-payments` | 0 | [13](#floxum-payments-missing) |
 | `fof-badges` | 0 | [26](#fof-badges-missing) |
 | `fof-sitemap` | [1](#fof-sitemap) | 0 |
 | `prm-forum-activity` | 0 | [21](#prm-forum-activity-missing) |
@@ -70,6 +71,113 @@ Alle <del>Themenseiten</del><ins>Tag-Seiten</ins> von<ins> der</ins> Sitemap aus
 ## Missing translations
 
 These strings are translated only in `de`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de`.
+
+
+### `floxum-payments` (missing)
+
+#### [`floxum-payments.forum.access-portal.options`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.access-portal.options%22)
+
+> options
+
+```diff
++Optionen
+```
+
+#### [`floxum-payments.forum.backers-widget.backers`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.backers-widget.backers%22)
+
+> Backers
+
+```diff
++Unterstützer
+```
+
+#### [`floxum-payments.forum.backers-widget.none`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.backers-widget.none%22)
+
+> No backers yet.
+
+```diff
++Noch keine Unterstützer.
+```
+
+#### [`floxum-payments.forum.bounties.enable-control`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.bounties.enable-control%22)
+
+> Enable Bounties
+
+```diff
++Prämien aktivieren
+```
+
+#### [`floxum-payments.forum.bounties.purchase-control`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.bounties.purchase-control%22)
+
+> Add Bounty
+
+```diff
++Prämie hinzufügen
+```
+
+#### [`floxum-payments.forum.choose-bounty-amount-modal.checkout-control`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.choose-bounty-amount-modal.checkout-control%22)
+
+> Checkout
+
+```diff
++Zur Kasse
+```
+
+#### [`floxum-payments.forum.choose-bounty-amount-modal.title`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.choose-bounty-amount-modal.title%22)
+
+> Choose bounty amount
+
+```diff
++Prämienbetrag auswählen
+```
+
+#### [`floxum-payments.forum.nav.access_portal`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.nav.access_portal%22)
+
+> Access portal
+
+```diff
++Zugriffsportal
+```
+
+#### [`floxum-payments.forum.nav.user_subscriptions`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.nav.user_subscriptions%22)
+
+> Subscriptions
+
+```diff
++Abonnements
+```
+
+#### [`floxum-payments.forum.pay-to-view.purchase-completed`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.pay-to-view.purchase-completed%22)
+
+> Unlocked
+
+```diff
++Freigeschaltet
+```
+
+#### [`floxum-payments.forum.stripe.interval_once`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.stripe.interval_once%22)
+
+> once
+
+```diff
++einmalig
+```
+
+#### [`floxum-payments.forum.subscription-card.bounty`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.subscription-card.bounty%22)
+
+> Bounty
+
+```diff
++Prämie
+```
+
+#### [`floxum-payments.forum.subscription-card.cancel-control`](https://weblate.rob006.net/translate/flarum2/floxum-payments/de/?q=context%3A%3D%22floxum-payments.forum.subscription-card.cancel-control%22)
+
+> Cancel
+
+```diff
++Abbrechen
+```
 
 
 ### `fof-badges` (missing)
