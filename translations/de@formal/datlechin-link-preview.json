@@ -9,7 +9,7 @@
                 "performance_label": "Leistung",
                 "performance_description": "Wie Link-Vorschauen abgerufen und wie lange sie gespeichert werden.",
                 "filtering_label": "Filter",
-                "filtering_description": "Für welche Seiten eine Vorschau erstellt werden soll. Ein Eintrag pro Zeile, getrennt durch Kommas. Ein Host schließt auch seine Subdomains ein, und * steht für einen Namensbestandteil.\n",
+                "filtering_description": "Wähle aus, welche Websites in der Vorschau angezeigt werden sollen. Gib jeweils eine Website pro Zeile ein oder trenne diese durch Kommas. Eine Domain umfasst auch ihre Subdomains, und * steht für einen Teil eines Domainnamens, z. B. *.beispiel.ch.\n",
                 "general_label": "Allgemein",
                 "general_description": "Grundlegende Anzeigeeinstellungen für Link-Vorschauen.",
                 "url_filtering_label": "URL-Filterung",
@@ -23,20 +23,20 @@
                 "google_favicon_fallback_label": "Auf Google für Website-Symbole zurückgreifen",
                 "google_favicon_fallback_help": "Wird verwendet, wenn eine Seite kein eigenes Symbol hat. Teilt mit Google, welche Seiten deine Mitglieder verlinken.\n",
                 "preview_internal_links_label": "Vorschau auch für Links auf dieses Forum",
-                "preview_internal_links_help": "Ein Link auf eine Seite hier, wie auf eine Diskussion, Benutzer-, Tag-, Index-Seite oder die Seite einer anderen erweiterung wird zu einem lokalen Datenbankzugriff. Keine zusätzliche Abfrage wird ausgeführt und niemand kann mehr sehen, als sie auch öffnen könnten.\n",
+                "preview_internal_links_help": "Vorschauen für Links zu Diskussionen, Benutzern, Tags und anderen Seiten in diesem Forum werden aus der Datenbank angezeigt. Benutzer sehen nur das, wofür sie eine Berechtigung haben.\n",
                 "skip_media_links_label": "Links auf Mediendateien überspringen",
                 "skip_media_links_help": "Keine Vorschau für Links auf Bild-, Audio- oder Videodateien.",
                 "max_previews_per_post_label": "Anzahl der Vorschauen pro Beitrag",
                 "max_previews_per_post_help": "Über diese Anzahl hinausgehende Links bleiben einfache Textlinks.",
                 "enable_batch_requests_label": "Vorschauen stapelweise abrufen",
-                "enable_batch_requests_help": "Eine Anfrage für die gesamte Seite statt einer pro Link. Schalte dies nur aus, wenn etwas vor dem Forum es ablehnt.\n",
+                "enable_batch_requests_help": "Fordert die Vorschauen auf einer Seite gebündelt an, anstatt für jeden Link eine separate Anfrage zu stellen. Deaktiviere diese Option nur, wenn ein Proxy oder eine Firewall vor deinem Forum diese Anfragen blockiert.\n",
                 "cache_time_label": "Speicherdauer im Cache (Minuten)",
-                "cache_time_help": "Legt fest, wie lange Link-Vorschauen gespeichert werden, bevor sie aktualisiert werden. Auf 0 setzen, um Caching zu deaktivieren.",
+                "cache_time_help": "Wie lange eine Vorschau zwischengespeichert wird, bevor die Seite erneut abgerufen wird. Auf 0 setzen, um Zwischenspeicherung zu deaktivieren.",
                 "allowlist_label": "Erlaubte Seiten",
                 "allowlist_help": "Wenn diese Option aktiviert ist, wird nur für diese Websites eine Vorschau angezeigt.",
                 "allowlist_placeholder": "docs.beispiel.de, *.wikipedia.org",
                 "blocklist_label": "Blockierte Seiten",
-                "blocklist_help": "Vorschau wird nie erstellt, selbst wenn die Erlaubnisliste sie durchlässt.",
+                "blocklist_help": "Links zu diesen Websites werden niemals in der Vorschau angezeigt, selbst wenn sie zu den zugelassenen Websites gehören.",
                 "blocklist_placeholder": "beispiel.de, news.example.org/sponsored",
                 "blacklist_label": "Blacklist",
                 "blacklist_help": "Geben Sie eine kommagetrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.",
@@ -64,7 +64,7 @@
             "clicks": "{count, plural, one {# Klick} other {# Klicks}}",
             "settings": {
                 "hide_link_previews_label": "Link-Vorschauen verbergen",
-                "hide_link_previews_help": "Zeigt wieder den Textlink für alle Vorschaukarten in den Beiträgen an, die du gelesen hast."
+                "hide_link_previews_help": "Zeigt Links als einfache Links statt als Vorschau-Karten an."
             },
             "site_cannot_be_reached": "Diese Webseite ist nicht erreichbar."
         }
