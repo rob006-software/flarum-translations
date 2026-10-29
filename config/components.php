@@ -910,6 +910,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'huoxin-user-handles' => [
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-user-handles/1.0.1/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'huseyinfiliz-awards' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/1.1/resources/locale/en.yml',
 	],
