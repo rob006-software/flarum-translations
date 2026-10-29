@@ -932,10 +932,8 @@ return [
 		],
 	],
 	'huoxin-auto-image-dimensions' => [
-		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-image-dimensions/1.0.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-image-dimensions/1.0.6/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'huoxin-filter-rule-manager' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/1.0.0-beta.7/locale/en.yml',
