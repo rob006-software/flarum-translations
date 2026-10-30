@@ -239,7 +239,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gauntlet/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-giveaways' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.2/locale/en.yml',
 	],
 	'ernestdefoe-google-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.6/locale/en.yml',
