@@ -16640,17 +16640,34 @@
                         "en-US": "fcd4ae242d446abcdb8fd3f0a7fffb1b fcd4ae242d446abcdb8fd3f0a7fffb1b"
                     },
                     "env_override": "c8972a990ee520a55cba6771d138bc4b c8972a990ee520a55cba6771d138bc4b",
+                    "env_override_named": "b5f79873c2beb2fb3e40c6eec0bc4a1e b5f79873c2beb2fb3e40c6eec0bc4a1e",
                     "glossary": {
                         "add_button": "e9f5e56b3b0f8c88dd0e704b4c999ef7 e9f5e56b3b0f8c88dd0e704b4c999ef7",
                         "empty_text": "d5c6e8fcaef68ee2a6ce78a5aa4966f0 d5c6e8fcaef68ee2a6ce78a5aa4966f0",
+                        "help": "4b568e4172ba1b417b55e60bfc26dc48 4b568e4172ba1b417b55e60bfc26dc48",
                         "label": "0d2fc7bf212c3a4373cb3969122263e7 0d2fc7bf212c3a4373cb3969122263e7",
                         "placeholder": "d86b77e165f2e9ab585ba6d2fef133ae d86b77e165f2e9ab585ba6d2fef133ae",
                         "remove_button": "5b6ba6c71fc755f43c397ecfc89e57a6 5b6ba6c71fc755f43c397ecfc89e57a6"
                     },
+                    "google": {
+                        "intro": "2e830b59b0f109d40b239445d96be1b4 2e830b59b0f109d40b239445d96be1b4"
+                    },
                     "ollama": {
+                        "api_key_help": "69724b658fe875a2d847119dfbd64047 69724b658fe875a2d847119dfbd64047",
                         "api_key_label": "e8bc465868f6304d23b547afb9263d2a e8bc465868f6304d23b547afb9263d2a",
+                        "base_url_help": "bfe40818918b3bea4a421848054525b2 bfe40818918b3bea4a421848054525b2",
                         "base_url_label": "a8fc9c34df737bb9cfd59696f0e1b3ec a8fc9c34df737bb9cfd59696f0e1b3ec",
-                        "model_label": "d490a3ea162c118bc3c149c7834007ce d490a3ea162c118bc3c149c7834007ce"
+                        "intro": "bcf397c58e1f6aa4e5a0913254ff1f70 bcf397c58e1f6aa4e5a0913254ff1f70",
+                        "model_help": "3250141221fdd1768a0da5342dc53f36 3250141221fdd1768a0da5342dc53f36",
+                        "model_label": "d490a3ea162c118bc3c149c7834007ce d490a3ea162c118bc3c149c7834007ce",
+                        "think_help": "c40fc258d2e992e006996bbfe6031bdb c40fc258d2e992e006996bbfe6031bdb",
+                        "think_label": "1620c649f8b70107e5a4a7b84e34a927 1620c649f8b70107e5a4a7b84e34a927",
+                        "think_options": {
+                            "high": "73607fe5dfe3102101eb2bbe0d5c6353 73607fe5dfe3102101eb2bbe0d5c6353",
+                            "low": "fdfa280e723cbf0b3fb22089d8f61b98 fdfa280e723cbf0b3fb22089d8f61b98",
+                            "medium": "f7b252956581b9a57abf5c4c1e143d85 f7b252956581b9a57abf5c4c1e143d85",
+                            "off": "4f1908abfc1ec48256af5818ed6784ab 4f1908abfc1ec48256af5818ed6784ab"
+                        }
                     },
                     "openai": {
                         "api_key_label": "c170f5feb67b6e2db9f2263ec3a4266b c170f5feb67b6e2db9f2263ec3a4266b",
@@ -25306,8 +25323,20 @@
                     "network_error": "c936ab5eb239bef57cd1a2eea89175ca c936ab5eb239bef57cd1a2eea89175ca",
                     "select_button": "751a9904d8e9a760cbe9f0ca82d47a31 751a9904d8e9a760cbe9f0ca82d47a31",
                     "sticker_list": {
+                        "add_button": "10a2538d49d2e7fdd41612daaad47e99 10a2538d49d2e7fdd41612daaad47e99",
+                        "all_tab": "2bca61615ad4e3e8c668c33b238a99c8 2bca61615ad4e3e8c668c33b238a99c8",
+                        "anim_lib": "7a4045bd366691ef677b78050ee6754d 7a4045bd366691ef677b78050ee6754d",
                         "load_more_button": "06dfbfd2a034badc35702d30d3e74402 06dfbfd2a034badc35702d30d3e74402",
-                        "move_category_error": "27d781c4728c84b17e150a3ed806dd48 27d781c4728c84b17e150a3ed806dd48"
+                        "move_category_error": "27d781c4728c84b17e150a3ed806dd48 27d781c4728c84b17e150a3ed806dd48",
+                        "move_down": "75d9e27c00a260b88f505e4435f2cb45 75d9e27c00a260b88f505e4435f2cb45",
+                        "move_up": "2f7af23f74a76152b6da50ac3990f0e9 2f7af23f74a76152b6da50ac3990f0e9",
+                        "rename_button": "c7d676503db6352951517ad49b4ec5ac c7d676503db6352951517ad49b4ec5ac",
+                        "rename_cancel_button": "4b97278b444c0203fc17d7b93a39f5c7 4b97278b444c0203fc17d7b93a39f5c7",
+                        "rename_code_placeholder": "fd9aa94087972759698e6e66f4d80a68 fd9aa94087972759698e6e66f4d80a68",
+                        "rename_empty_error": "07ea3c69ad623ac6d9868d96a5cbd83c 07ea3c69ad623ac6d9868d96a5cbd83c",
+                        "rename_error": "5e2b3c656df4daf6e278f9165b17e933 5e2b3c656df4daf6e278f9165b17e933",
+                        "rename_name_placeholder": "2eb6eb335f898b7a419b073813465d09 2eb6eb335f898b7a419b073813465d09",
+                        "rename_save_button": "b97d23bf800ff592f7afe97a29921271 b97d23bf800ff592f7afe97a29921271"
                     }
                 },
                 "upload": {
