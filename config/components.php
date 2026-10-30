@@ -46,6 +46,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-cloudflare/v1.2.10/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'cengizkemec-contact-page' => [
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-contact-page/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => ['tr'],
+	],
 	'cengizkemec-support-tickets' => [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.1.10/resources/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
