@@ -819,6 +819,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-follow-discussion/2.0.0/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'huoxin-auto-image-dimensions' => [
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-auto-image-dimensions/2.0.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'huoxin-filter-rule-manager' => [
 		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-filter-rule-manager/2.0.0/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
