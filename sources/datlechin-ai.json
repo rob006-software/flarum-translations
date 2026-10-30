@@ -1,0 +1,37 @@
+{
+    "datlechin-ai": {
+        "admin": {
+            "drivers": {
+                "anthropic": "Anthropic",
+                "gemini": "Google Gemini",
+                "openai": "OpenAI",
+                "openai-compatible": "OpenAI-compatible (OpenRouter, Groq, DeepSeek, Ollama, …)"
+            },
+            "fields": {
+                "anthropic_api_key_help": "Create one in the Claude Console, under API keys.",
+                "api_key_label": "API key",
+                "base_url_help": "The address that ends in /v1, for example https://openrouter.ai/api/v1, https://api.groq.com/openai/v1 or http://localhost:11434/v1 for Ollama.",
+                "base_url_label": "Base URL",
+                "gemini_api_key_help": "Create one in Google AI Studio, under Get API key.",
+                "model_help": "Pick one from the list, or type the ID of any model your provider offers.",
+                "model_label": "Model",
+                "openai_api_key_help": "Create one on the OpenAI platform, under API keys.",
+                "openai_compatible_api_key_help": "Leave empty if the server needs none, like a local Ollama."
+            },
+            "page": {
+                "driver_label": "Provider",
+                "models_error": "Couldn't load the model list: {message}",
+                "not_configured_message": "AI isn't set up yet. Extensions that use it stay off until you choose a provider, add its key and pick a model.",
+                "test_button": "Send test prompt",
+                "test_heading": "Send a test prompt",
+                "test_success_message": "{model} replied in {seconds} s: {text}",
+                "test_text": "Asks the model to say hello, to check that the key and the model work. Save your changes first."
+            }
+        },
+        "api": {
+            "no_driver_message": "Choose a provider.",
+            "not_configured_message": "Choose a provider, add its key and pick a model first.",
+            "provider_error_message": "The provider returned an error: {message}"
+        }
+    }
+}

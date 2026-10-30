@@ -3,172 +3,172 @@
         "admin": {
             "detection": {
                 "cancel_button": "Abbrechen",
-                "counts_failed_text": "",
-                "detect_missing_button": "",
-                "discussions_status_text": "",
+                "counts_failed_text": "Der Erkennungsstatus konnte nicht geladen werden.",
+                "detect_missing_button": "Fehlende Sprachen erkennen",
+                "discussions_status_text": "{total, plural, one {# Diskussion} other {# Diskussionen}}: {detected} erkannt, {undetermined} unbestimmt, {pending} konnten nicht geprüft werden.",
                 "heading": "Sprachenerkennung",
-                "help": "",
-                "posts_status_text": "",
-                "progress_discussions_text": "",
-                "progress_posts_text": "",
-                "redetect_all_button": "",
-                "redetect_all_confirm": "",
+                "help": "Die Schaltfläche „Übersetzen“ wird bei Inhalten ausgeblendet, die bereits in der Sprache des Lesers vorliegen; hierfür muss die Sprache des Inhalts bekannt sein. Neue Beiträge und Diskussionen werden beim Speichern automatisch erkannt, Umfragen werden in Echtzeit erkannt. Verwende diese Funktion, um Inhalte zu erkennen, die vor der Installation der Erweiterung verfasst wurden. Die Erkennung erfolgt lokal auf deinem Server: Es werden keine Anfragen an den Übersetzungsanbieter gestellt, und es entstehen keine Kosten. Dasselbe lässt sich über die Befehlszeile mit {command} ausführen.",
+                "posts_status_text": "{total, plural, one {# Beitrag} other {# Beiträge}}: {detected} erkannt, {undetermined} unbestimmt, {pending} konnten nicht geprüft werden.",
+                "progress_discussions_text": "Diskussionen werden erkannt… {processed} von {expected}",
+                "progress_posts_text": "Beiträge werden erkannt… {processed} von {expected}",
+                "redetect_all_button": "Alles erneut erkennen",
+                "redetect_all_confirm": "Soll die Sprache jedes Beitrags und jeder Diskussion erneut ermittelt werden, auch bei denen, die bereits ermittelt wurden? Bei einem großen Forum kann das eine Weile dauern.",
                 "refresh_button": "Aktualisieren",
-                "summary_cancelled_text": "",
-                "summary_done_text": "",
-                "summary_failed_text": "",
-                "undetermined_help": ""
+                "summary_cancelled_text": "Angehalten. Bisher {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} überprüft: {detected} erkannt, {undetermined} unbestimmt.",
+                "summary_done_text": "Abgeschlossen. {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} überprüft: {detected} erkannt, {undetermined} unbestimmt.",
+                "summary_failed_text": "Die Erkennung wurde aufgrund eines Fehlers nach der Überprüfung von {posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} abgebrochen.",
+                "undetermined_help": "Der Inhalt wurde überprüft, aber der Detektor konnte die Sprache nicht erkennen, was bei Platzhaltern oder Testtexten häufig vorkommt. Es wird immer die Schaltfläche „Übersetzen“ angezeigt."
             },
             "permissions": {
-                "refresh_label": "",
-                "translate_any_language_label": "",
+                "refresh_label": "Gespeicherte Übersetzungen aktualisieren",
+                "translate_any_language_label": "In jede Forums-Sprache übersetzen",
                 "translate_label": "Inhalt übersetzen"
             },
             "settings": {
                 "ai": {
-                    "de_variant_help": "",
+                    "de_variant_help": "Welche Art von Deutsch die KI-Autoren verwenden, wenn sie ins Deutsche übersetzen.",
                     "de_variant_label": "Deutsche Sprachvarietät",
                     "de_variant_options": {
-                        "casual": "",
-                        "swiss": ""
+                        "casual": "Umgangsdeutsch (du)",
+                        "swiss": "Schweizer Standarddeutsch"
                     },
-                    "en_variant_help": "",
+                    "en_variant_help": "Welche Schreibweise die KI-Autoren bei der Übersetzung ins Englische verwenden.",
                     "en_variant_label": "Englische Sprachvarietät"
                 },
-                "api_key_help": "",
+                "api_key_help": "Kann auch über die Umgebungsvariable {env} festgelegt werden, die Vorrang vor diesem Feld hat.",
                 "claude": {
-                    "api_key_label": "",
-                    "effort_help": "",
-                    "effort_label": "",
+                    "api_key_label": "Anthropic API-Schlüssel",
+                    "effort_help": "Wie lange das Modell nachdenkt, bevor es antwortet. Da Übersetzen eine einfache Aufgabe ist, reicht in der Regel eine kurze Überlegungszeit aus, die zudem am kostengünstigsten ist.",
+                    "effort_label": "Aufwand",
                     "effort_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": ""
+                        "high": "Hoch",
+                        "low": "Gering",
+                        "medium": "Mittel"
                     },
-                    "intro": "",
-                    "model_help": "",
+                    "intro": "Verwendet die Claude-Modelle von Anthropic. Erstelle einen API-Schlüssel in der <a>Claude-Konsole</a>.",
+                    "model_help": "Opus liefert die besten Übersetzungen, Haiku ist am günstigsten. Sonnet liegt dazwischen.",
                     "model_label": "Modell"
                 },
                 "deepl": {
                     "api_key_label": "DeepL API-Schlüssel",
-                    "en_choice_help": "",
+                    "en_choice_help": "DeepL benötigt bei der Übersetzung ins Englische eine regionale Variante.",
                     "en_choice_label": "Englische Sprachvarietät",
-                    "intro": "",
-                    "pt_choice_help": "",
+                    "intro": "Verwendet die maschinelle Übersetzung von DeepL. Sowohl der kostenlose als auch der Pro-API-Tarif funktionieren: <a>DeepL-API-Schlüssel abrufen</a>.",
+                    "pt_choice_help": "DeepL benötigt bei der Übersetzung ins Portugiesische eine regionale Variante.",
                     "pt_choice_label": "Portugiesische Sprachvarietät",
-                    "formality_help": "",
-                    "formality_label": "",
+                    "formality_help": "Ob Übersetzungen eher formell oder informell gehalten sein sollten – sofern dies in den jeweiligen Sprachen möglich ist.",
+                    "formality_label": "Formalität",
                     "formality_options": {
-                        "default": "",
-                        "prefer_less": "",
-                        "prefer_more": ""
+                        "default": "Standard",
+                        "prefer_less": "Informell bevorzugen",
+                        "prefer_more": "Formell bevorzugen"
                     },
-                    "glossaries_empty": "",
-                    "glossaries_failed": "",
-                    "glossaries_heading": "",
-                    "glossaries_help": "",
+                    "glossaries_empty": "In deinem DeepL-Konto wurden keine Glossare gefunden.",
+                    "glossaries_failed": "Die Glossare konnten nicht aus DeepL geladen werden.",
+                    "glossaries_heading": "DeepL-Glossare",
+                    "glossaries_help": "Wähle für jedes Sprachpaar, das darin enthalten ist, ein Glossar aus deinem DeepL-Konto aus.",
                     "glossaries_reload_button": "Neu laden",
                     "glossaries_retry_button": "Erneut versuchen",
                     "glossary_none_option": "Kein Glossar",
                     "glossary_pair_label": "{source} → {target}",
-                    "model_type_help": "",
-                    "model_type_label": "",
+                    "model_type_help": "Schnellere Antworten oder das qualitativ hochwertigere Modell, sofern DeepL ein solches anbietet.",
+                    "model_type_label": "Modellart",
                     "model_type_options": {
-                        "latency_optimized": "",
-                        "prefer_quality_optimized": ""
+                        "latency_optimized": "Schneller",
+                        "prefer_quality_optimized": "Höhere Qualität"
                     }
                 },
-                "driver_help": "",
-                "driver_label": "",
+                "driver_help": "Der Dienst, der Inhalte übersetzt. Es wird nichts übersetzt, bis ein Treiber ausgewählt und konfiguriert wurde.",
+                "driver_label": "Übersetzungstreiber",
                 "driver_none_option": "Keine",
-                "driver_not_configured": "",
-                "driver_recommended_option": "",
-                "driver_section_heading": "",
-                "driver_self_hosted_option": "",
-                "driver_unofficial_option": "",
-                "disabled_notice": "",
+                "driver_not_configured": "Bei diesem Treiber fehlen erforderliche Einstellungen. Gib diese ein und speichere die Einstellungen, um mit der Übersetzung zu beginnen.",
+                "driver_recommended_option": "{driver} (empfohlen)",
+                "driver_section_heading": "{driver}-Einstellungen",
+                "driver_self_hosted_option": "{driver} (selbst gehostet)",
+                "driver_unofficial_option": "{driver} (kostenlos, inoffiziell)",
+                "disabled_notice": "Die Übersetzung ist deaktiviert, bis du unten einen Übersetzungstreiber auswählst und konfigurierst.",
                 "english_options": {
-                    "en-GB": "",
-                    "en-US": ""
+                    "en-GB": "Britisches Englisch",
+                    "en-US": "Amerikanisches Englisch"
                 },
                 "portuguese_options": {
-                    "pt-BR": "",
-                    "pt-PT": ""
+                    "pt-BR": "Portugiesisch (Brasilien)",
+                    "pt-PT": "Portugiesisch (Portugal)"
                 },
-                "env_override": "",
-                "env_override_named": "",
+                "env_override": "Dieser Wert wird über eine Umgebungsvariable auf dem Server festgelegt.",
+                "env_override_named": "Dieser Wert wird durch die Umgebungsvariable {env} auf dem Server festgelegt.",
                 "glossary": {
-                    "add_button": "",
-                    "empty_text": "",
-                    "help": "",
-                    "label": "",
-                    "placeholder": "",
-                    "remove_button": ""
+                    "add_button": "Begriff hinzufügen",
+                    "empty_text": "Noch keine Begriffe.",
+                    "help": "Wörter und Namen, die niemals übersetzt werden, wie beispielsweise der Name deines Forums oder deines Produkts.",
+                    "label": "Glossar",
+                    "placeholder": "Begriff hinzufügen…",
+                    "remove_button": "{term} entfernen"
                 },
                 "google": {
-                    "intro": ""
+                    "intro": "Nutzt den kostenlosen Web-Endpunkt von Google Translate, sodass kein Konto und kein API-Schlüssel erforderlich sind. Es handelt sich um eine inoffizielle Lösung, die nach bestem Wissen und Gewissen bereitgestellt wird: Google kann stark ausgelastete Server drosseln oder sperren, und die Qualität liegt unter der der KI-basierten Übersetzer. Die Formatierung wird nach jeder Übersetzung überprüft, und eine Übersetzung, die nicht verifiziert werden kann, wird nicht gespeichert. Empfohlen zum Ausprobieren der Erweiterung oder für kleine Foren."
                 },
                 "ollama": {
-                    "api_key_help": "",
-                    "api_key_label": "",
-                    "base_url_help": "",
-                    "base_url_label": "",
-                    "intro": "",
-                    "model_help": "",
-                    "model_label": "",
-                    "think_help": "",
-                    "think_label": "",
+                    "api_key_help": "Optionales Bearer-Token für einen Ollama-Server hinter einem authentifizierenden Reverse-Proxy. Kann auch über die Umgebungsvariable {env} festgelegt werden.",
+                    "api_key_label": "API-Token",
+                    "base_url_help": "Adresse deines Ollama-Servers, zum Beispiel http://localhost:11434.",
+                    "base_url_label": "Server-URL",
+                    "intro": "Die Modelle werden auf deinem eigenen Server ausgeführt, sodass die Inhalte diesen niemals verlassen und kein API-Schlüssel erforderlich ist. <a>Installiere Ollama</a> und lade zunächst ein Modell herunter.",
+                    "model_help": "Name eines installierten Ollama-Modells, zum Beispiel llama3.1.",
+                    "model_label": "Modell",
+                    "think_help": "Für Modelle mit logischem Denken wie gpt-oss oder qwen3. Die Einstellung „Gering“ ist bei Übersetzungen deutlich schneller; die Einstellung „Aus“ wird von einigen Modellen (gpt-oss) ignoriert, die stets Schlussfolgerungen ziehen.",
+                    "think_label": "Aufwand für logisches Denken",
                     "think_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": "",
-                        "off": ""
+                        "high": "Hoch",
+                        "low": "Gering",
+                        "medium": "Mittel",
+                        "off": "Aus"
                     }
                 },
                 "openai": {
-                    "api_key_label": "",
-                    "intro": "",
-                    "max_tokens_help": "",
-                    "max_tokens_label": "",
-                    "model_help": "",
-                    "model_label": ""
+                    "api_key_label": "OpenAI API-Schlüssel",
+                    "intro": "Verwendet die GPT-Modelle von OpenAI. Erstelle einen API-Schlüssel auf der <a>OpenAI-Plattform</a>.",
+                    "max_tokens_help": "Obergrenze für die Länge jeder Übersetzung.",
+                    "max_tokens_label": "Maximale Tokenanzahl",
+                    "model_help": "Das für die Übersetzung verwendete OpenAI-Modell.",
+                    "model_label": "Modell"
                 },
-                "short_content_length_help": "",
-                "short_content_length_label": "",
-                "throttle_per_minute_help": "",
-                "throttle_per_minute_label": "",
-                "timeout_help": "",
-                "timeout_label": "",
-                "translate_all_enabled_help": "",
-                "translate_all_enabled_label": "",
-                "use_native_locale_names_help": "",
-                "use_native_locale_names_label": ""
+                "short_content_length_help": "Inhalte, die kürzer als diese Zeichenanzahl sind, sind zu kurz, um die Sprache zuverlässig zu erkennen. Es wird davon ausgegangen, dass sie in der Sprache verfasst sind, in der der Autor das Forum nutzt, d. h. in der von ihm gewählten Ländereinstellung oder der Standard-Ländereinstellung des Forums.",
+                "short_content_length_label": "Mindestlänge für die Sprachenerkennung",
+                "throttle_per_minute_help": "Wie viele Übersetzungen jeder Benutzer (oder jede Gast-IP-Adresse) pro Minute anfordern darf.",
+                "throttle_per_minute_label": "Übersetzungen pro Minute",
+                "timeout_help": "Wie lange man in Sekunden auf die Antwort des Dienstes warten muss.",
+                "timeout_label": "Zeitüberschreitung",
+                "translate_all_enabled_help": "Jeder, der übersetzen möchte, darf eine beliebige Forensprache auswählen, nicht nur seine eigene.",
+                "translate_all_enabled_label": "Übersetzung in jede beliebige Sprache zulassen",
+                "use_native_locale_names_help": "Sprachnamen als Endonym - in ihrer jeweiligen Sprache (فارسی, 日本語) anzeigen, anstatt in der Sprache des Lesers.",
+                "use_native_locale_names_label": "Namen in der jeweiligen Landessprache verwenden"
             },
             "test": {
-                "button": "",
-                "detected_text": "",
-                "failed_text": "",
-                "failed_unknown_text": "",
-                "help": "",
+                "button": "Übersetzung testen",
+                "detected_text": "Erkannte Ausgangssprache: {language}",
+                "failed_text": "Test fehlgeschlagen: {error}",
+                "failed_unknown_text": "Test fehlgeschlagen.",
+                "help": "Übersetzt einen kurzen Text aus einer anderen Sprache unter Verwendung der oben genannten Werte – unabhängig davon, ob diese gespeichert sind oder nicht – in deine Administrationssprache. Dazu wird eine einzige Anfrage an den Anbieter gesendet.",
                 "markup_warning": "",
-                "source_label": "",
-                "success_text": "",
-                "translation_label": ""
+                "source_label": "Beispiel",
+                "success_text": "Übersetzt von {source} in {target} innerhalb von {seconds} s",
+                "translation_label": "Übersetzung"
             }
         },
         "forum": {
             "poll": {
-                "show_original_button": ""
+                "show_original_button": "Original anzeigen"
             },
             "translate_button": {
-                "dropdown_accessible_label": "",
-                "label": "",
-                "label_from": "",
-                "target_tooltip": ""
+                "dropdown_accessible_label": "Wähle eine Sprache aus, in die übersetzt werden soll",
+                "label": "Übersetzen",
+                "label_from": "Übersetzen von {from}",
+                "target_tooltip": "Übersetzen in {to}"
             },
             "translation": {
-                "close_button": "",
-                "header_from": "",
+                "close_button": "Übersetzung schließen",
+                "header_from": "Übersetzt von {from} in {to}",
                 "header_to": "",
                 "loading_text": "",
                 "meta": "",

@@ -18,6 +18,8 @@
             "language_placeholder": "The forum's language",
             "list_posters_label": "Show posters in the discussion list",
             "list_posters_help": "A small poster next to each linked discussion. Turn it off if another extension, such as FoF Discussion Thumbnail, already shows thumbnails there.",
+            "title_year_label": "Add the year to titles",
+            "title_year_help": "Discussion titles and the card read \"Final Fantasy VII Remake (2020)\". Turn it off for \"Final Fantasy VII Remake\"; the card still shows the date. Applies to titles linked from now on; existing discussion titles keep their year until renamed.",
             "list_meta_label": "What the discussion list shows under a linked discussion",
             "list_meta_help": "Shown beside the author line. A TV season or episode code (Season 2, S03E03) shows under both of the first two choices.",
             "list_meta_kind_year": "Kind and year (Game · 2026)",
@@ -56,7 +58,18 @@
                 "placeholder_book": "Search for a book by title, author or ISBN",
                 "results_from": "Results from {source}",
                 "escape_hint": "Esc keeps a plain title",
-                "unavailable": "{source} is not answering right now. You can still post with a plain title."
+                "unavailable": "{source} is not answering right now. You can still post with a plain title.",
+                "type": {
+                    "dlc": "DLC",
+                    "expansion": "Expansion",
+                    "bundle": "Bundle",
+                    "standalone": "Standalone expansion",
+                    "remake": "Remake",
+                    "remaster": "Remaster",
+                    "expanded": "Expanded edition",
+                    "port": "Port",
+                    "edition": "Edition"
+                }
             },
             "composer": {
                 "linked": "Linked to {title} · {source}",

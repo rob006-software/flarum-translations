@@ -1,0 +1,37 @@
+{
+    "datlechin-ai": {
+        "admin": {
+            "drivers": {
+                "anthropic": "",
+                "gemini": "",
+                "openai": "",
+                "openai-compatible": ""
+            },
+            "fields": {
+                "anthropic_api_key_help": "",
+                "api_key_label": "",
+                "base_url_help": "",
+                "base_url_label": "",
+                "gemini_api_key_help": "",
+                "model_help": "",
+                "model_label": "",
+                "openai_api_key_help": "",
+                "openai_compatible_api_key_help": ""
+            },
+            "page": {
+                "driver_label": "",
+                "models_error": "",
+                "not_configured_message": "",
+                "test_button": "",
+                "test_heading": "",
+                "test_success_message": "",
+                "test_text": ""
+            }
+        },
+        "api": {
+            "no_driver_message": "",
+            "not_configured_message": "",
+            "provider_error_message": ""
+        }
+    }
+}

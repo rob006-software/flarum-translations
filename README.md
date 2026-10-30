@@ -944,6 +944,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`asyntai-chatbot`](https://weblate.rob006.net/projects/flarum2/asyntai-chatbot) | [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) |
 | [`captchala-flarum`](https://weblate.rob006.net/projects/flarum2/captchala-flarum) | [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) |
 | [`cengizkemec-cloudflare`](https://weblate.rob006.net/projects/flarum2/cengizkemec-cloudflare) | [`cengizkemec/cloudflare`](https://github.com/cengizkemec/flarum-cloudflare) |
+| [`cengizkemec-contact-page`](https://weblate.rob006.net/projects/flarum2/cengizkemec-contact-page) | [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) |
 | [`cengizkemec-support-tickets`](https://weblate.rob006.net/projects/flarum2/cengizkemec-support-tickets) | [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) |
 | [`clarkwinkelmann-likes-received`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-likes-received) | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) |
 | [`clarkwinkelmann-prominent-post-numbers`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-prominent-post-numbers) | [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) |
@@ -951,6 +952,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dashzeveg-ads-manager`](https://weblate.rob006.net/projects/flarum2/dashzeveg-ads-manager) | [`dashzeveg/flarum-ads-manager`](https://github.com/dashzeveg/flarum-ads-manager) |
 | [`dashzeveg-custom-head`](https://weblate.rob006.net/projects/flarum2/dashzeveg-custom-head) | [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head) |
 | [`datitisev-post-galleries`](https://weblate.rob006.net/projects/flarum2/datitisev-post-galleries) | [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) |
+| [`datlechin-ai`](https://weblate.rob006.net/projects/flarum2/datlechin-ai) | [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai) |
 | [`datlechin-ai-summarize`](https://weblate.rob006.net/projects/flarum2/datlechin-ai-summarize) | [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize) |
 | [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
@@ -983,6 +985,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-backdrop`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-backdrop) | [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) |
 | [`ernestdefoe-bouncer`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-bouncer) | [`ernestdefoe/bouncer`](https://github.com/ernestdefoe/bouncer) |
 | [`ernestdefoe-brainstorm`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-brainstorm) | [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) |
+| [`ernestdefoe-buzz`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-buzz) | [`ernestdefoe/buzz`](https://github.com/ernestdefoe/buzz) |
 | [`ernestdefoe-cadence`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cadence) | [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) |
 | [`ernestdefoe-calendar`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar) | [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) |
 | [`ernestdefoe-cascade`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-cascade) | [`ernestdefoe/cascade`](https://github.com/ernestdefoe/cascade) |
@@ -1000,6 +1003,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-docket`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-docket) | [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) |
 | [`ernestdefoe-earshot`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-earshot) | [`ernestdefoe/earshot`](https://github.com/ernestdefoe/earshot) |
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
+| [`ernestdefoe-festoon`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-festoon) | [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
 | [`ernestdefoe-folio`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-folio) | [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) |
 | [`ernestdefoe-garrison`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison) | [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison) |
@@ -1011,6 +1015,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
 | [`ernestdefoe-hashtags`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hashtags) | [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) |
 | [`ernestdefoe-header-nav`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-header-nav) | [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) |
+| [`ernestdefoe-herald`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-herald) | [`ernestdefoe/herald`](https://github.com/ernestdefoe/herald) |
 | [`ernestdefoe-hero-builder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hero-builder) | [`ernestdefoe/hero-builder`](https://github.com/ernestdefoe/hero-builder) |
 | [`ernestdefoe-importer`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-importer) | [`ernestdefoe/importer`](https://github.com/ernestdefoe/importer) |
 | [`ernestdefoe-insert-coin`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-insert-coin) | [`ernestdefoe/insert-coin`](https://github.com/ernestdefoe/insert-coin) |

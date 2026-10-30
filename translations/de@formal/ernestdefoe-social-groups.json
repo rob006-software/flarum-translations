@@ -17,6 +17,8 @@
                 "public": "",
                 "approval": "",
                 "approval_required": "",
+                "for_buyers": "",
+                "buy_to_join": "",
                 "request_to_join": "Beitrittsanfrage stellen",
                 "switch": "",
                 "request_switch": "",
@@ -45,6 +47,7 @@
                 "membership_type_label": "Mitgliedschaft",
                 "membership_type_open": "Offen – jeder kann sofort mitmachen",
                 "membership_type_approval": "Genehmigung erforderlich – der Ersteller muss jede Anfrage genehmigen",
+                "membership_type_paid": "",
                 "image_label": "Gruppenbild",
                 "banner_label": "Bannerbild",
                 "submit": "Gruppe erstellen",
@@ -249,6 +252,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": ""
+            },
             "shared_from": "",
             "shared_title": "",
             "errors": {
@@ -270,6 +276,7 @@
                 "group_private": "",
                 "removed_from_group": "",
                 "invite_only": "",
+                "paid_only": "",
                 "join_request_rejected": "",
                 "poll_not_found": "",
                 "poll_ended": "",

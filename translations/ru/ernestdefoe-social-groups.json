@@ -17,6 +17,8 @@
                 "public": "Публичная",
                 "approval": "Одобренная",
                 "approval_required": "Требуется одобрение",
+                "for_buyers": "",
+                "buy_to_join": "",
                 "request_to_join": "Подать заявку",
                 "switch": "",
                 "request_switch": "",
@@ -45,6 +47,7 @@
                 "membership_type_label": "Тип",
                 "membership_type_open": "Открытая — любой может вступить",
                 "membership_type_approval": "Требуется одобрение — создатель должен одобрить каждую заявку",
+                "membership_type_paid": "",
                 "image_label": "Изображение группы",
                 "banner_label": "Баннер группы",
                 "submit": "Создать группу",
@@ -260,6 +263,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": ""
+            },
             "shared_from": "Поделился из {name}",
             "shared_title": "",
             "errors": {
@@ -281,6 +287,7 @@
                 "group_private": "",
                 "removed_from_group": "",
                 "invite_only": "",
+                "paid_only": "",
                 "join_request_rejected": "",
                 "poll_not_found": "",
                 "poll_ended": "",
