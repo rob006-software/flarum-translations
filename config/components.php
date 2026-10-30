@@ -287,6 +287,9 @@ return [
 	'ernestdefoe-kindred' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kindred/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-kiosk' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kiosk/1.1.0/locale/en.yml',
+	],
 	'ernestdefoe-ladder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.4.0/locale/en.yml',
 	],
