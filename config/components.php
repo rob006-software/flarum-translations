@@ -320,6 +320,9 @@ return [
 	'ernestdefoe-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.3.0/locale/en.yml',
 	],
+	'ernestdefoe-millwright' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/millwright/v1.25.5/resources/locale/en.yml',
+	],
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.4/resources/locale/en.yml',
 	],
