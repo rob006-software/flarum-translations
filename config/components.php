@@ -226,6 +226,9 @@ return [
 	'ernestdefoe-federation' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/federation/2.1.2/resources/locale/en.yml',
 	],
+	'ernestdefoe-festoon' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/festoon/1.0.1/locale/en.yml',
+	],
 	'ernestdefoe-folio' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
 	],
