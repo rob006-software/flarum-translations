@@ -1330,7 +1330,7 @@ return [
 		'__builtInLanguages' => ['it'],
 	],
 	'mattoid-store' => [
-		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.3.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-store/1.3.3.2/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'mattoid-store-auto-check-in' => [
