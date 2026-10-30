@@ -1041,6 +1041,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-phrasebook`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-phrasebook) | [`ernestdefoe/phrasebook`](https://github.com/ernestdefoe/phrasebook) |
 | [`ernestdefoe-pigeonhole`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-pigeonhole) | [`ernestdefoe/pigeonhole`](https://github.com/ernestdefoe/pigeonhole) |
 | [`ernestdefoe-projects`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-projects) | [`ernestdefoe/projects`](https://github.com/ernestdefoe/projects) |
+| [`ernestdefoe-quickdraw`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-quickdraw) | [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) |
 | [`ernestdefoe-recipes`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-recipes) | [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) |
 | [`ernestdefoe-reel`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-reel) | [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
