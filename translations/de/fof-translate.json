@@ -81,12 +81,12 @@
                 "driver_help": "Der Dienst, der Inhalte übersetzt. Es wird nichts übersetzt, bis ein Treiber ausgewählt und konfiguriert wurde.",
                 "driver_label": "Übersetzungstreiber",
                 "driver_none_option": "Keine",
-                "driver_not_configured": "",
+                "driver_not_configured": "Bei diesem Treiber fehlen erforderliche Einstellungen. Gib diese ein und speichere die Einstellungen, um mit der Übersetzung zu beginnen.",
                 "driver_recommended_option": "{driver} (empfohlen)",
                 "driver_section_heading": "{driver}-Einstellungen",
                 "driver_self_hosted_option": "{driver} (selbst gehostet)",
                 "driver_unofficial_option": "{driver} (kostenlos, inoffiziell)",
-                "disabled_notice": "",
+                "disabled_notice": "Die Übersetzung ist deaktiviert, bis du unten einen Übersetzungstreiber auswählst und konfigurierst.",
                 "english_options": {
                     "en-GB": "Britisches Englisch",
                     "en-US": "Amerikanisches Englisch"
@@ -95,7 +95,7 @@
                     "pt-BR": "Portugiesisch (Brasilien)",
                     "pt-PT": "Portugiesisch (Portugal)"
                 },
-                "env_override": "",
+                "env_override": "Dieser Wert wird über eine Umgebungsvariable auf dem Server festgelegt.",
                 "env_override_named": "",
                 "glossary": {
                     "add_button": "Begriff hinzufügen",
