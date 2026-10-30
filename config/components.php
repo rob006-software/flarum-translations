@@ -378,9 +378,6 @@ return [
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.14/locale/en.yml',
 	],
-	'ernestdefoe-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fof-seo/2.0.18/locale/en.yml',
-	],
 	'ernestdefoe-sheaf' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sheaf/1.0.0/locale/en.yml',
 	],
