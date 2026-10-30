@@ -347,6 +347,9 @@ return [
 	'ernestdefoe-projects' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.8/resources/locale/en.yml',
 	],
+	'ernestdefoe-quickdraw' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.4/locale/en.yml',
+	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.3.1/locale/en.yml',
 	],
