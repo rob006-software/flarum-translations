@@ -1144,6 +1144,10 @@ return [
 	'ramon-stickers' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/v2.1.0/locale/en.yml',
 	],
+	'ramon-tag-experts' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/tag-experts/v0.0.1/locale/en.yml',
+		'__builtInLanguages' => ['pt_BR'],
+	],
 	'ramon-verified' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/verified/v2.2.0/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
