@@ -320,6 +320,9 @@ return [
 	'ernestdefoe-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mobiletab/2.0.4/resources/locale/en.yml',
 	],
+	'ernestdefoe-moments' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/moments/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.11/locale/en.yml',
 	],
