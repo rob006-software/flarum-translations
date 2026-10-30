@@ -95,11 +95,11 @@
         "lib": {
             "browser": {
                 "fof-reactions": {
-                    "reaction_created": "",
-                    "reaction_updated": "",
-                    "reaction_enabled": "",
-                    "reaction_disabled": "",
-                    "reaction_deleted": "",
+                    "reaction_created": "Reakció létrehozva: {reaction}",
+                    "reaction_updated": "A(z) {reaction} reakció {key} kulcsa megváltoztatva erről: {old_value}, erre: {new_value}",
+                    "reaction_enabled": "Reakció engedélyezve: {reaction}",
+                    "reaction_disabled": "Reakció letiltva: {reaction}",
+                    "reaction_deleted": "Reakció törölve: {reaction}",
                     "post_reaction_removed": "",
                     "post_reactions_removed": ""
                 }
