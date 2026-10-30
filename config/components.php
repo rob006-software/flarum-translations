@@ -1093,9 +1093,7 @@ return [
 	],
 	'liplum-trends' => [
 		'tag' => 'https://raw.githubusercontent.com/liplum/flarum-trends/v0.3.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
