@@ -10,7 +10,7 @@
             "reacting-own-post": "Nem reagálhat a saját bejegyzésére",
             "modal": {
                 "title": "Reakciók",
-                "anonymous_count": "{count} névtelen felhasználó",
+                "anonymous_count": "{count, plural, one {# névtelen felhasználó} other {# névtelen felhasználó}}",
                 "no_reactions": "Még nincsenek reakciók",
                 "load_more": "Továbbiak betöltése",
                 "others_count": "+ {count, plural, one {# további} other {# további}}",
@@ -100,8 +100,8 @@
                     "reaction_enabled": "Reakció engedélyezve: {reaction}",
                     "reaction_disabled": "Reakció letiltva: {reaction}",
                     "reaction_deleted": "Reakció törölve: {reaction}",
-                    "post_reaction_removed": "",
-                    "post_reactions_removed": ""
+                    "post_reaction_removed": "{username} {reaction} reakciója eltávolítva {postuser} {post} bejegyzéséről itt: {discussion}",
+                    "post_reactions_removed": "{count, plural, one {# {reaction} reakció} other {# {reaction} reakció}} eltávolítva {postuser} {post} bejegyzéséről itt: {discussion}"
                 }
             }
         }
