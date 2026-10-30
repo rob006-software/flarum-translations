@@ -191,11 +191,11 @@
                 "closed": "Clôturé"
             },
             "guest": {
-                "message": "",
-                "ticket_message": "",
-                "compose_message": "",
-                "log_in": "",
-                "sign_up": ""
+                "message": "Se connecter pour consulter vos tickets.",
+                "ticket_message": "Se connecter pour voir ce ticket.",
+                "compose_message": "Se connecter pour ouvrir un ticket.",
+                "log_in": "Se connecter",
+                "sign_up": "S'inscrire"
             },
             "index": {
                 "my_tickets": "Mes tickets",
@@ -222,14 +222,14 @@
                 "assigned_to": "Attribué à {name}",
                 "untitled": "Sans titre",
                 "deleted_badge": "Supprimé",
-                "tickets": "",
-                "search_all_tickets": "",
-                "search_tickets_title": "",
-                "search_results_title": "",
-                "tickets_found": "",
-                "tickets_found_plural": "",
-                "back_to_desk": "",
-                "reset_search": ""
+                "tickets": "Tickets",
+                "search_all_tickets": "Afficher tous les tickets correspondant à « {query} »",
+                "search_tickets_title": "Rechercher des tickets",
+                "search_results_title": "Résultats de recherche pour « {query} »",
+                "tickets_found": "{count} ticket trouvé",
+                "tickets_found_plural": "{count} tickets trouvés",
+                "back_to_desk": "Retour à l'assistance",
+                "reset_search": "Effacer la recherche"
             },
             "assign": {
                 "title": "Attribuer un ticket",
@@ -446,55 +446,55 @@
             "gambits": {
                 "tickets": {
                     "author": {
-                        "key": "",
-                        "hint": ""
+                        "key": "auteur",
+                        "hint": "nom d'utilisateur"
                     },
                     "type": {
-                        "key": "",
-                        "hint": "",
+                        "key": "type",
+                        "hint": "standard ou appel",
                         "types": {
-                            "standard": "",
-                            "appeal": ""
+                            "standard": "Tickets d'assistance standard",
+                            "appeal": "Tickets de recours contre une suspension"
                         }
                     },
                     "assigned": {
-                        "key": "",
-                        "hint": "",
+                        "key": "attribué",
+                        "hint": "moi ou personne",
                         "options": {
-                            "me": "",
-                            "none": ""
+                            "me": "Attribué à moi",
+                            "none": "Tickets non attribués"
                         }
                     },
                     "unassigned": {
-                        "key": "",
-                        "hint": ""
+                        "key": "non attribué",
+                        "hint": "Tickets non attribués"
                     },
                     "mine": {
-                        "key": "",
-                        "hint": ""
+                        "key": "À moi",
+                        "hint": "Tickets que j'ai créés"
                     },
                     "priority": {
-                        "key": "",
-                        "hint": "",
+                        "key": "priorité",
+                        "hint": "urgent, normal ou faible",
                         "levels": {
-                            "urgent": "",
-                            "normal": "",
-                            "low": ""
+                            "urgent": "Priorité urgente",
+                            "normal": "Priorité normale",
+                            "low": "Faible priorité"
                         }
                     },
                     "category": {
-                        "key": "",
-                        "hint": ""
+                        "key": "catégorie",
+                        "hint": "identifiant texte unique"
                     },
                     "status": {
-                        "key": "",
-                        "hint": "",
+                        "key": "statut",
+                        "hint": "ouvert, en cours, en attente de réponse, résolu ou clôturé",
                         "statuses": {
-                            "open": "",
-                            "in_progress": "",
-                            "awaiting_response": "",
-                            "resolved": "",
-                            "closed": ""
+                            "open": "Tickets ouverts",
+                            "in_progress": "En cours",
+                            "awaiting_response": "En attente",
+                            "resolved": "Résolu",
+                            "closed": "Clôturé"
                         }
                     }
                 }
