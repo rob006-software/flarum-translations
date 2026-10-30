@@ -1051,6 +1051,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-rubric`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-rubric) | [`ernestdefoe/rubric`](https://github.com/ernestdefoe/rubric) |
 | [`ernestdefoe-salvage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-salvage) | [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) |
 | [`ernestdefoe-scribe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe) | [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) |
+| [`ernestdefoe-seamless-refresh`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seamless-refresh) | [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) |
 | [`ernestdefoe-seo`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seo) | [`ernestdefoe/seo`](https://github.com/ernestdefoe/fof-seo) |
 | [`ernestdefoe-sheaf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sheaf) | [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) |
 | [`ernestdefoe-shelf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shelf) | [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) |
