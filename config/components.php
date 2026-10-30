@@ -830,6 +830,10 @@ return [
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
+	'huoxin-user-handles' => [
+		'tag' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-user-handles/2.0.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'huseyinfiliz-awards' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0/resources/locale/en.yml',
 	],
