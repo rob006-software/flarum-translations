@@ -1646,9 +1646,7 @@ return [
 	],
 	'tangyuan-meme-tangyuan' => [
 		'tag' => 'https://raw.githubusercontent.com/Little100/meme-tangyuan/v0.1.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.1/resources/locale/en.yml',
