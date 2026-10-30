@@ -1052,7 +1052,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-salvage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-salvage) | [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) |
 | [`ernestdefoe-scribe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe) | [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) |
 | [`ernestdefoe-seamless-refresh`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seamless-refresh) | [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) |
-| [`ernestdefoe-seo`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seo) | [`ernestdefoe/seo`](https://github.com/ernestdefoe/fof-seo) |
 | [`ernestdefoe-sheaf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sheaf) | [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) |
 | [`ernestdefoe-shelf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shelf) | [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) |
 | [`ernestdefoe-shutter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shutter) | [`ernestdefoe/shutter`](https://github.com/ernestdefoe/shutter) |
@@ -1136,7 +1135,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`linkrobins-clipboard`](https://weblate.rob006.net/projects/flarum2/linkrobins-clipboard) | [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard) |
 | [`linkrobins-countdown-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-countdown-widget) | [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget) |
 | [`linkrobins-discussion-banners`](https://weblate.rob006.net/projects/flarum2/linkrobins-discussion-banners) | [`linkrobins/discussion-banners`](https://github.com/linkrobins/flarum-discussion-banners) |
-| [`linkrobins-chirp`](https://weblate.rob006.net/projects/flarum2/linkrobins-chirp) | [`linkrobins/flarum-chirp`](https://github.com/linkrobins/chirp) |
 | [`linkrobins-warble`](https://weblate.rob006.net/projects/flarum2/linkrobins-warble) | [`linkrobins/flarum-warble`](https://github.com/linkrobins/warble) |
 | [`linkrobins-font-sizer`](https://weblate.rob006.net/projects/flarum2/linkrobins-font-sizer) | [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer) |
 | [`linkrobins-html-widget`](https://weblate.rob006.net/projects/flarum2/linkrobins-html-widget) | [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) |
