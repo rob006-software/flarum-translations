@@ -169,7 +169,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-brainstorm' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-cadence' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cadence/1.3.2/locale/en.yml',
