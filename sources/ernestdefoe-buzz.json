@@ -1,0 +1,94 @@
+{
+    "ernestdefoe-buzz": {
+        "forum": {
+            "someone": "Someone",
+            "event": {
+                "discussion": "{user} started {title}",
+                "reply": "{user} replied to {title}",
+                "member": "{user} just joined",
+                "badge": "{user} earned the {badge} badge",
+                "rank": "{user} reached the rank {rank}",
+                "streak": "{user} hit a {days}-day streak",
+                "quest": "{user} finished the onboarding quest",
+                "quiz": "{user} passed {quiz}",
+                "collection": "{user} added {item} to {collection}",
+                "purchase": "{user} bought {product}"
+            },
+            "more": "{count, plural, one {+# more} other {+# more}}",
+            "close": "Close",
+            "label": "Live activity",
+            "settings": {
+                "heading": "Live activity",
+                "share_label": "Show my activity in Buzz",
+                "share_help": "Your new discussions, replies and achievements can pop up for other members as they happen.",
+                "mute_label": "Hide the live activity feed",
+                "mute_help": "Stop showing other people's activity while you browse."
+            }
+        },
+        "admin": {
+            "types": {
+                "discussion": "New discussions",
+                "reply": "New replies",
+                "member": "New members (once their email is confirmed)",
+                "badge": "Badges earned (FoF Badges)",
+                "rank": "Rank-ups (Ladder)",
+                "streak": "Streak milestones (Cadence)",
+                "quest": "Onboarding quest finished (Onramp)",
+                "quiz": "Quizzes passed (Brainstorm)",
+                "collection": "Items added to collections (Curio)",
+                "purchase": "Store purchases (Client Area)"
+            },
+            "sections": {
+                "events": "What to broadcast",
+                "events_help": "Each one is only shown to people who could see it anyway. Extensions you enable later add their own switches here.",
+                "display": "How it looks",
+                "delivery": "Delivery",
+                "privacy": "Privacy"
+            },
+            "style_label": "Style",
+            "style": {
+                "toast": "Bottom toast",
+                "ticker": "Top ticker"
+            },
+            "ticker_mode_label": "Ticker mode",
+            "ticker_mode": {
+                "slide": "Slide down (one at a time)",
+                "marquee": "Marquee (continuous scroll)"
+            },
+            "side_label": "Toast position",
+            "side": {
+                "left": "Bottom left",
+                "right": "Bottom right"
+            },
+            "offset_x_label": "Distance from the side (px)",
+            "offset_y_label": "Distance from the bottom (px)",
+            "show_avatar_label": "Show avatars",
+            "show_username_label": "Show usernames",
+            "profile_link_label": "Link usernames to profiles",
+            "display_seconds_label": "Seconds each event stays on screen",
+            "max_toasts_label": "Toasts on screen at once",
+            "max_toasts_help": "How many toasts can stack up at the same time on a computer. Phones always show one at a time.",
+            "mask_names_label": "Mask names",
+            "mask_names_help": "Shows names as \"J…e\" instead of \"John Doe\", and turns off the link to the member's profile. The full name never leaves your server.",
+            "pages_label": "Show on",
+            "pages": {
+                "all": "Every page",
+                "home": "The discussion list only"
+            },
+            "hide_composing_label": "Hold events while the member is writing a post",
+            "interval_label": "Check for new events every (seconds)",
+            "interval_help": "Only while the tab is visible. With Flarum Realtime connected, public events arrive at once and this only fetches restricted ones.",
+            "recent_on_load_label": "Events from the last hour to show when a page opens",
+            "recent_on_load_help": "0 starts from the moment the page opens; nothing older is ever replayed.",
+            "keep_hours_label": "Forget events after (hours)",
+            "keep_max_label": "Keep at most this many events",
+            "opt_in_label": "Ask members first",
+            "opt_in_help": "When off, everyone's activity is shown unless they switch it off in their settings. When on, only members who switch it on are shown.",
+            "exclude_groups_label": "Never broadcast members of these groups",
+            "exclude_tags_label": "Never broadcast discussions in these tags",
+            "purchase_show_buyer_label": "Show the buyer's name on purchases",
+            "purchase_show_buyer_help": "When off, a purchase reads “Someone bought …”, with no name, avatar or link.",
+            "none": "None"
+        }
+    }
+}
