@@ -360,6 +360,9 @@ return [
 	'ernestdefoe-roleplay' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.10/resources/locale/en.yml',
 	],
+	'ernestdefoe-rotation' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rotation/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-rubric' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/rubric/1.0.1/locale/en.yml',
 	],
