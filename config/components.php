@@ -47,7 +47,7 @@ return [
 		'__builtInLanguages' => ['tr'],
 	],
 	'cengizkemec-support-tickets' => [
-		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.1.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.1.10/resources/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
 	'clarkwinkelmann-likes-received' => [
