@@ -47,7 +47,7 @@ return [
 		'__builtInLanguages' => ['tr'],
 	],
 	'cengizkemec-contact-page' => [
-		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-contact-page/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-contact-page/v1.0.2/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
 	'cengizkemec-support-tickets' => [
