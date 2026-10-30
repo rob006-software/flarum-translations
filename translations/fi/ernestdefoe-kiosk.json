@@ -1,0 +1,588 @@
+{
+    "ernestdefoe-kiosk": {
+        "lib": {
+            "unlock_types": {
+                "group": "",
+                "tag": "",
+                "discussion": "",
+                "post": "",
+                "bump": "",
+                "tip": "",
+                "ads": ""
+            },
+            "ad_free": "",
+            "providers": {
+                "paypal": "",
+                "stripe": "",
+                "btcpay": "",
+                "nowpayments": ""
+            },
+            "tag_group": {
+                "singular": "",
+                "plural": ""
+            },
+            "cancel_reason": "",
+            "status": {
+                "pending": "",
+                "active": "",
+                "canceled": "",
+                "ended": "",
+                "expired": "",
+                "refunded": ""
+            },
+            "payment_status": {
+                "completed": "",
+                "refunded": "",
+                "reversed": ""
+            },
+            "price": {
+                "once": "",
+                "custom": "",
+                "for_days": "",
+                "per_day": "",
+                "per_week": "",
+                "per_month": "",
+                "per_year": "",
+                "every_n_day": "",
+                "every_n_week": "",
+                "every_n_month": "",
+                "every_n_year": ""
+            }
+        },
+        "forum": {
+            "ads": {
+                "label": "",
+                "remove": ""
+            },
+            "nav": "",
+            "store": {
+                "title": "",
+                "empty": ""
+            },
+            "card": {
+                "includes": "",
+                "choose_price": "",
+                "trial": "",
+                "buy": "",
+                "login_to_buy": "",
+                "owned": "",
+                "your_amount": "",
+                "seats": "",
+                "coupon": "",
+                "coupon_label": "",
+                "apply": "",
+                "coupon_total": "",
+                "gift": "",
+                "gift_label": "",
+                "buy_gift": "",
+                "refusal": {
+                    "unavailable": "",
+                    "sold_out": "",
+                    "not_eligible": "",
+                    "no_provider": ""
+                }
+            },
+            "checkout": {
+                "pay_with": "",
+                "agree": "",
+                "continue": ""
+            },
+            "teaser": {
+                "badge": ""
+            },
+            "post_offer": {
+                "title": ""
+            },
+            "bump": {
+                "button": "",
+                "done": ""
+            },
+            "tips": {
+                "title": "",
+                "raised": ""
+            },
+            "locked": {
+                "title": "",
+                "title_named": "",
+                "tags_title": "",
+                "see_how": ""
+            },
+            "return": {
+                "title": "",
+                "checking": "",
+                "cancelled_title": "",
+                "cancelled_text": "",
+                "back_to_store": "",
+                "failed_title": "",
+                "failed_text": "",
+                "waiting_title": "",
+                "waiting_text": "",
+                "done_title": "",
+                "renews": "",
+                "until": "",
+                "forever": "",
+                "go_to": ""
+            },
+            "purchases": {
+                "title": "",
+                "empty": "",
+                "gift": "",
+                "forever": "",
+                "renews_on": "",
+                "until": "",
+                "ended_on": "",
+                "removed": "",
+                "payments": "",
+                "number": "",
+                "cancel": "",
+                "cancel_confirm": "",
+                "gift_from": "",
+                "gave_to": "",
+                "seat_from": "",
+                "seats_used": "",
+                "add_seat_label": "",
+                "add_seat": "",
+                "remove_seat": "",
+                "switch_label": "",
+                "switch": "",
+                "switch_confirm_stripe": "",
+                "switch_confirm_paypal": ""
+            },
+            "notifications": {
+                "receipt": "",
+                "payment_failed": "",
+                "reminder": "",
+                "ended": "",
+                "gift": "",
+                "seat": ""
+            },
+            "settings": {
+                "notify": ""
+            },
+            "errors": {
+                "unavailable": "",
+                "sold_out": "",
+                "login": "",
+                "not_eligible": "",
+                "confirm_email": "",
+                "provider_unavailable": "",
+                "already_subscribed": "",
+                "too_many": "",
+                "cannot_cancel": "",
+                "amount": "",
+                "tip_target": "",
+                "no_bumps": "",
+                "provider_unreachable": "",
+                "provider_refused": "",
+                "coupon": "",
+                "coupon_used": "",
+                "no_such_user": "",
+                "no_gift": "",
+                "no_seats": "",
+                "seat_taken": "",
+                "seats_full": "",
+                "cannot_switch": "",
+                "switch_seats_paypal": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "read_paid": "",
+                "ad_free": ""
+            },
+            "tabs": {
+                "overview": "",
+                "products": "",
+                "purchases": "",
+                "coupons": "",
+                "ads": "",
+                "payments": "",
+                "webhooks": "",
+                "settings": ""
+            },
+            "btcpay": {
+                "help": "",
+                "url": "",
+                "connected_to": "",
+                "expired": "",
+                "failed": ""
+            },
+            "nowpayments": {
+                "help": "",
+                "api_key": "",
+                "ipn_secret": "",
+                "sandbox": "",
+                "ok": ""
+            },
+            "ads": {
+                "intro": "",
+                "new": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "empty": "",
+                "name": "",
+                "name_placeholder": "",
+                "location": "",
+                "kind": "",
+                "kinds": {
+                    "image": "",
+                    "html": ""
+                },
+                "image": "",
+                "image_help": "",
+                "link": "",
+                "alt": "",
+                "html": "",
+                "html_help": "",
+                "audience": "",
+                "audiences": {
+                    "everyone": "",
+                    "guests": "",
+                    "members": ""
+                },
+                "starts": "",
+                "ends": "",
+                "runs": "",
+                "always": "",
+                "active": "",
+                "off": "",
+                "save": "",
+                "seen": "",
+                "clicks": "",
+                "settings": "",
+                "every_posts": "",
+                "every_discussions": "",
+                "show_label": "",
+                "ad_free_help": "",
+                "locations": {
+                    "header": "",
+                    "below_header": "",
+                    "sidebar": "",
+                    "between_discussions": "",
+                    "after_first_post": "",
+                    "between_posts": "",
+                    "discussion_sidebar": "",
+                    "above_footer": "",
+                    "footer": ""
+                },
+                "location_help": {
+                    "header": "",
+                    "below_header": "",
+                    "sidebar": "",
+                    "between_discussions": "",
+                    "after_first_post": "",
+                    "between_posts": "",
+                    "discussion_sidebar": "",
+                    "above_footer": "",
+                    "footer": ""
+                }
+            },
+            "coupons": {
+                "code": "",
+                "discount": "",
+                "product": "",
+                "all_products": "",
+                "max_uses": "",
+                "unlimited": "",
+                "expires": "",
+                "create": "",
+                "used": "",
+                "empty": "",
+                "delete": "",
+                "delete_confirm": "",
+                "help": ""
+            },
+            "setup": {
+                "title": "",
+                "intro": "",
+                "provider": {
+                    "title": "",
+                    "text": "",
+                    "button": ""
+                },
+                "product": {
+                    "title": "",
+                    "text": ""
+                },
+                "sale": {
+                    "title": "",
+                    "text_sandbox": "",
+                    "text_live": "",
+                    "button": ""
+                },
+                "scheduler": {
+                    "title": "",
+                    "text": ""
+                }
+            },
+            "templates": {
+                "membership": {
+                    "name": "",
+                    "text": ""
+                },
+                "premium_section": {
+                    "name": "",
+                    "text": ""
+                },
+                "supporter": {
+                    "name": "",
+                    "text": ""
+                },
+                "pass": {
+                    "name": "",
+                    "text": ""
+                },
+                "course": {
+                    "name": "",
+                    "text": ""
+                },
+                "album": {
+                    "name": "",
+                    "text": ""
+                },
+                "social_group": {
+                    "name": "",
+                    "text": ""
+                }
+            },
+            "overview": {
+                "active_members": "",
+                "active_subscriptions": "",
+                "mrr": "",
+                "this_month": "",
+                "failed_webhooks": "",
+                "view_webhooks": ""
+            },
+            "products": {
+                "new": "",
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "drag": "",
+                "empty": "",
+                "missing": "",
+                "off_sale": "",
+                "hidden": "",
+                "sold": ""
+            },
+            "product": {
+                "new_title": "",
+                "edit_title": "",
+                "name": "",
+                "icon": "",
+                "color": "",
+                "description": "",
+                "benefits": "",
+                "benefits_help": "",
+                "unlocks": "",
+                "unlocks_help": "",
+                "search": "",
+                "remove": "",
+                "teaser": "",
+                "teaser_help": "",
+                "prices": "",
+                "add_price": "",
+                "price_note": "",
+                "amount": "",
+                "every": "",
+                "trial": "",
+                "for": "",
+                "days": "",
+                "seats": "",
+                "seats_help": "",
+                "kind": {
+                    "recurring": "",
+                    "one_off": "",
+                    "fixed_term": "",
+                    "custom": ""
+                },
+                "interval": {
+                    "day": "",
+                    "week": "",
+                    "month": "",
+                    "year": ""
+                },
+                "availability": "",
+                "active": "",
+                "hidden": "",
+                "hidden_help": "",
+                "stock": "",
+                "unlimited": "",
+                "buyers": "",
+                "buyers_help": "",
+                "save": ""
+            },
+            "stripe": {
+                "help": "",
+                "key": "",
+                "key_saved": "",
+                "detected_test": "",
+                "detected_live": "",
+                "ok": "",
+                "webhook_help": "",
+                "last_webhook": "",
+                "failed": {
+                    "credentials": "",
+                    "unreachable": "",
+                    "webhook": ""
+                }
+            },
+            "sell_this": {
+                "legend": "",
+                "button": "",
+                "another": "",
+                "help_tag": "",
+                "help_group": ""
+            },
+            "purchases": {
+                "search": "",
+                "all": "",
+                "grant": "",
+                "member": "",
+                "product": "",
+                "status": "",
+                "terms": "",
+                "until": "",
+                "forever": "",
+                "granted": "",
+                "test": "",
+                "cancel": "",
+                "end": "",
+                "refund": "",
+                "more": "",
+                "empty": "",
+                "confirm_cancel": "",
+                "confirm_end": "",
+                "confirm_refund": ""
+            },
+            "grant": {
+                "title": "",
+                "user": "",
+                "user_placeholder": "",
+                "product": "",
+                "length": "",
+                "length_0": "",
+                "length_7": "",
+                "length_30": "",
+                "length_90": "",
+                "length_365": "",
+                "note": "",
+                "submit": ""
+            },
+            "payments": {
+                "connected": "",
+                "not_connected": "",
+                "live_now": "",
+                "test_now": "",
+                "mode": {
+                    "sandbox": "",
+                    "live": ""
+                },
+                "help_sandbox": "",
+                "help_live": "",
+                "client_id": "",
+                "secret": "",
+                "secret_saved": "",
+                "connect": "",
+                "reconnect": "",
+                "disconnect": "",
+                "disconnect_confirm": "",
+                "go_live": "",
+                "back_to_test": "",
+                "ok": "",
+                "failed": {
+                    "credentials": "",
+                    "unreachable": "",
+                    "webhook": ""
+                },
+                "webhook": "",
+                "webhook_help": "",
+                "last_webhook": "",
+                "never": ""
+            },
+            "webhooks": {
+                "empty": "",
+                "received": "",
+                "event": "",
+                "result": "",
+                "done": "",
+                "failed": "",
+                "replay": ""
+            },
+            "settings": {
+                "currency": "",
+                "currency_help": "",
+                "grace_days": "",
+                "grace_days_help": "",
+                "terms_url": "",
+                "terms_url_help": "",
+                "show_nav": "",
+                "stripe_tax": "",
+                "stripe_tax_help": ""
+            },
+            "errors": {
+                "name": "",
+                "ad_name": "",
+                "ad_location": "",
+                "ad_kind": "",
+                "ad_audience": "",
+                "ad_link": "",
+                "ad_html": "",
+                "ad_dates": "",
+                "ad_image": "",
+                "unlock_type": "",
+                "unlocks_required": "",
+                "too_many_unlocks": "",
+                "currency": "",
+                "kind": "",
+                "amount": "",
+                "interval": "",
+                "trial": "",
+                "term": "",
+                "prices_required": "",
+                "too_many_prices": "",
+                "date": "",
+                "no_such_user": "",
+                "no_such_product": "",
+                "provider_unreachable": "",
+                "nothing_to_refund": "",
+                "refund_failed": "",
+                "refund_crypto": "",
+                "stripe_key": "",
+                "coupon_code": "",
+                "coupon_taken": "",
+                "coupon_value": "",
+                "btcpay_url": "",
+                "nowpayments_keys": "",
+                "nowpayments_rejected": ""
+            }
+        },
+        "email": {
+            "receipt": {
+                "subject": "",
+                "body": ""
+            },
+            "payment_failed": {
+                "subject": "",
+                "body": ""
+            },
+            "reminder": {
+                "subject": "",
+                "body": ""
+            },
+            "gift": {
+                "subject": "",
+                "body": ""
+            },
+            "seat": {
+                "subject": "",
+                "body": ""
+            },
+            "ended": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

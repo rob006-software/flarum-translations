@@ -1,0 +1,152 @@
+{
+    "ernestdefoe-vantage": {
+        "forum": {
+            "post_views": "{count, plural, one {# view} other {# views}}",
+            "nav": "Stats",
+            "session_item": "Your stats",
+            "page_title": "Stats for {username}",
+            "loading": "Loading your stats…",
+            "error": "Stats couldn't be loaded. Try again in a moment.",
+            "ranges": {
+                "1": "24 hours",
+                "7": "7 days",
+                "28": "28 days",
+                "90": "90 days",
+                "365": "365 days",
+                "0": "All time"
+            },
+            "range_label": "Period",
+            "export": "Export",
+            "export_csv": "Spreadsheet (CSV)",
+            "export_json": "Data (JSON)",
+            "since": "Views, profile visits and shares are counted from {date}.",
+            "vs_previous": "vs previous {range}",
+            "no_change": "No change",
+            "new_value": "New",
+            "tiles": {
+                "impressions": "Views",
+                "impressions_help": "How many times members and guests read your posts",
+                "engagements": "Engagements",
+                "engagements_help": "Replies, likes, reactions, bookmarks, reposts and shares",
+                "rate": "Engagement rate",
+                "rate_help": "Engagements for every 100 views",
+                "profile_visits": "Profile visits",
+                "followers": "Followers",
+                "followers_detail": "{verified} with a confirmed email · +{gained} −{lost} in this period"
+            },
+            "chart": {
+                "title": "Over time",
+                "empty": "Nothing happened in this period yet.",
+                "day_value": "{date}: {value}"
+            },
+            "series": {
+                "impressions": "Views",
+                "replies": "Replies",
+                "likes": "Likes",
+                "reactions": "Reactions",
+                "bookmarks": "Bookmarks",
+                "reposts": "Reposts",
+                "shares": "Shares",
+                "profileVisits": "Profile visits",
+                "follows": "New followers",
+                "unfollows": "Unfollows",
+                "engagements": "Engagements"
+            },
+            "best_times": {
+                "title": "When your audience is around",
+                "help": "Views and engagements by day and hour, in your time zone (last 90 days at most).",
+                "peak": "Busiest: {day}, {hour}",
+                "empty": "Not enough activity yet to show a pattern.",
+                "less": "Less",
+                "more": "More"
+            },
+            "types": {
+                "title": "By kind of post",
+                "type": "Kind",
+                "posts": "Posts written",
+                "impressions": "Views",
+                "engagements": "Engagements",
+                "rate": "Rate",
+                "text": "Text",
+                "image": "Image",
+                "video": "Video",
+                "note": "Engagements here are likes, reactions and bookmarks. Views by kind cover the last 90 days at most."
+            },
+            "top": {
+                "title": "Your top posts",
+                "empty": "No posts with views or reactions in this period yet.",
+                "views": "{count, plural, one {# view} other {# views}} in all",
+                "reactions": "{count, plural, one {# like or reaction} other {# likes and reactions}}",
+                "in": "in {title}"
+            },
+            "audience": {
+                "title": "Your audience",
+                "guests": "{share}% of your views came from guests.",
+                "countries": "Countries",
+                "ages": "Age",
+                "genders": "Gender",
+                "unknown": "Unknown",
+                "not_given": "Not given",
+                "other": "Other",
+                "too_few": "Age and gender appear once at least 50 readers have read you in this period.",
+                "opt_in_note": "Age and gender come only from members who chose to share them.",
+                "dbip": "IP Geolocation by DB-IP",
+                "genders_list": {
+                    "woman": "Woman",
+                    "man": "Man",
+                    "nonbinary": "Non-binary"
+                }
+            },
+            "locked": {
+                "title": "Your full stats dashboard",
+                "text": "See how many people read your posts, when your audience is around, which posts do best and where readers come from, over any period, with export.",
+                "available_to": "Available to {groups}.",
+                "not_available": "Ask an administrator about getting access."
+            },
+            "settings": {
+                "title": "Stats and privacy",
+                "no_count": "Don't count my reads and visits in other members' stats",
+                "share_audience": "Include my age and gender in other members' audience stats (only totals of 10 or more are ever shown)",
+                "birth_year": "Birth year",
+                "gender": "Gender",
+                "gender_none": "Prefer not to say",
+                "saved": "Saved"
+            }
+        },
+        "admin": {
+            "settings": {
+                "count_guests_label": "Count guests",
+                "count_guests_help": "Guests' reads are counted from their browser: one small request each time a guest leaves a discussion. Crawlers and Global Privacy Control are skipped. Turn this off to count members only, with no extra requests.",
+                "post_views_label": "Views under posts",
+                "post_views_help": "Show each post's view count under it.",
+                "post_views_everyone": "To everyone allowed by the \"See views under posts\" permission",
+                "post_views_author": "Only to the post's author",
+                "post_views_off": "Hidden",
+                "demographics_label": "Audience age and gender",
+                "demographics_help": "Members can share their birth year and gender for audience stats. Off until a member chooses it; under-18s are never counted in a band, and a bar needs 10 readers or more. Mention this in your privacy policy if you turn it on.",
+                "country_source_label": "Reader countries",
+                "country_source_help": "Automatic uses a proxy's country header (such as Cloudflare's) and otherwise downloads DB-IP's free country file to this server once a month. IP addresses are never stored.",
+                "country_auto": "Automatic",
+                "country_header": "Proxy header only",
+                "country_dbip": "DB-IP file on this server",
+                "country_off": "Off",
+                "country_header_label": "Country header name",
+                "country_header_help": "Used when a proxy in front of the forum sends the visitor's country. Cloudflare's is CF-IPCountry.",
+                "retention_label": "Keep day-by-day history for (months)",
+                "retention_help": "Older days are merged into one row per month, so \"All time\" keeps working. Hourly, country and audience breakdowns are kept for 90 days.",
+                "dbip_error": "The last country file download failed: {error}"
+            },
+            "permissions": {
+                "view_post_stats": "See views under posts",
+                "view_dashboard": "Use the Stats dashboard",
+                "view_others": "See any member's Stats dashboard"
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export_description": "Your Vantage statistics (views, visits and engagement per day).",
+                "delete_description": "Deletes your Vantage statistics. Counts you added to other members' statistics hold no trace of you."
+            }
+        }
+    }
+}

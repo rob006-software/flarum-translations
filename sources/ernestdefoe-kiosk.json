@@ -1,0 +1,588 @@
+{
+    "ernestdefoe-kiosk": {
+        "lib": {
+            "unlock_types": {
+                "group": "Group",
+                "tag": "Tag",
+                "discussion": "Discussion",
+                "post": "Posting in a tag",
+                "bump": "Bumps in a tag",
+                "tip": "Tips in a tag",
+                "ads": "Remove ads"
+            },
+            "ad_free": "No ads",
+            "providers": {
+                "paypal": "PayPal",
+                "stripe": "Card (Stripe)",
+                "btcpay": "Bitcoin (BTCPay)",
+                "nowpayments": "Crypto (NOWPayments)"
+            },
+            "tag_group": {
+                "singular": "{tag} buyer",
+                "plural": "{tag} buyers"
+            },
+            "cancel_reason": "Canceled from the forum",
+            "status": {
+                "pending": "Waiting for payment",
+                "active": "Active",
+                "canceled": "Won't renew",
+                "ended": "Ended",
+                "expired": "Not finished",
+                "refunded": "Refunded"
+            },
+            "payment_status": {
+                "completed": "Paid",
+                "refunded": "Refunded",
+                "reversed": "Charged back"
+            },
+            "price": {
+                "once": "{amount} once",
+                "custom": "Pay what you want (at least {amount})",
+                "for_days": "{amount} for {count, plural, one {# day} other {# days}}",
+                "per_day": "{amount} a day",
+                "per_week": "{amount} a week",
+                "per_month": "{amount} a month",
+                "per_year": "{amount} a year",
+                "every_n_day": "{amount} every {count} days",
+                "every_n_week": "{amount} every {count} weeks",
+                "every_n_month": "{amount} every {count} months",
+                "every_n_year": "{amount} every {count} years"
+            }
+        },
+        "forum": {
+            "ads": {
+                "label": "Sponsored",
+                "remove": "Remove ads"
+            },
+            "nav": "Store",
+            "store": {
+                "title": "Store",
+                "empty": "Nothing is for sale yet."
+            },
+            "card": {
+                "includes": "Includes:",
+                "choose_price": "Choose a price",
+                "trial": "{count, plural, one {# day free} other {# days free}}",
+                "buy": "Buy",
+                "login_to_buy": "Log in to buy",
+                "owned": "You have this",
+                "your_amount": "Your amount",
+                "seats": "{count, plural, other {for # people}}",
+                "coupon": "Have a coupon?",
+                "coupon_label": "Coupon code",
+                "apply": "Apply",
+                "coupon_total": "With this code you pay {amount}.",
+                "gift": "Give as a gift",
+                "gift_label": "Their username",
+                "buy_gift": "Buy as a gift",
+                "refusal": {
+                    "unavailable": "Not on sale right now.",
+                    "sold_out": "Sold out.",
+                    "not_eligible": "Not available to your account.",
+                    "no_provider": "Payments aren't set up yet."
+                }
+            },
+            "checkout": {
+                "pay_with": "Pay with",
+                "agree": "I agree to the <a>terms</a>.",
+                "continue": "Continue to {provider}"
+            },
+            "teaser": {
+                "badge": "For buyers"
+            },
+            "post_offer": {
+                "title": "Posting in {tag}"
+            },
+            "bump": {
+                "button": "Bump to top ({count} left)",
+                "done": "Bumped to the top."
+            },
+            "tips": {
+                "title": "Back this",
+                "raised": "{amount} raised by {count, plural, one {# backer} other {# backers}}"
+            },
+            "locked": {
+                "title": "This is for members",
+                "title_named": "{name} is for members",
+                "tags_title": "Members-only sections",
+                "see_how": "See how to join"
+            },
+            "return": {
+                "title": "Your purchase",
+                "checking": "Checking with the payment provider…",
+                "cancelled_title": "Checkout canceled",
+                "cancelled_text": "You weren't charged. You can try again any time.",
+                "back_to_store": "Back to the store",
+                "failed_title": "We couldn't check your payment",
+                "failed_text": "If you were charged, your purchase will show up shortly and you'll get a notification.",
+                "waiting_title": "Almost there",
+                "waiting_text": "The payment provider hasn't confirmed your payment yet. This page will update, or we'll notify you as soon as it's done.",
+                "done_title": "You now have {product}",
+                "renews": "Renews on {date}.",
+                "until": "Yours until {date}.",
+                "forever": "It's yours to keep.",
+                "go_to": "Go to {name}"
+            },
+            "purchases": {
+                "title": "My purchases",
+                "empty": "You haven't bought anything yet.",
+                "gift": "Given to you",
+                "forever": "Yours to keep",
+                "renews_on": "Renews on {date}",
+                "until": "Until {date}",
+                "ended_on": "Ended {date}",
+                "removed": "Removed",
+                "payments": "{count, plural, one {# payment} other {# payments}}",
+                "number": "Reference: {number}",
+                "cancel": "Stop renewing",
+                "cancel_confirm": "Stop renewing? You keep access until {date}, and you won't be charged again.",
+                "gift_from": "A gift from {name}",
+                "gave_to": "You gave this to {name}",
+                "seat_from": "A seat on {name}'s plan",
+                "seats_used": "{used} of {count} seats used (yours included)",
+                "add_seat_label": "Username",
+                "add_seat": "Give a seat",
+                "remove_seat": "Take back {name}'s seat",
+                "switch_label": "Switch plan",
+                "switch": "Switch plan",
+                "switch_confirm_stripe": "Switch to this plan? It starts now: you're charged the difference today, or credited it on your next bill.",
+                "switch_confirm_paypal": "Switch to this plan? PayPal asks you to approve it, and your next bill is at the new price."
+            },
+            "notifications": {
+                "receipt": "Your purchase of {product} is complete",
+                "payment_failed": "Your payment for {product} didn't go through",
+                "reminder": "{product} renews in a few days",
+                "ended": "Your access to {product} has ended",
+                "gift": "{product} was given to you as a gift",
+                "seat": "You were given a seat on {product}"
+            },
+            "settings": {
+                "notify": "Receipts and renewal updates for my purchases"
+            },
+            "errors": {
+                "unavailable": "This isn't on sale right now.",
+                "sold_out": "This is sold out.",
+                "login": "Log in to buy this.",
+                "not_eligible": "This isn't available to your account.",
+                "confirm_email": "Confirm your email address first, then try again.",
+                "provider_unavailable": "This payment method isn't available right now.",
+                "already_subscribed": "You already subscribe to this. Manage it from My purchases.",
+                "too_many": "Too many checkouts at once. Wait a few minutes and try again.",
+                "cannot_cancel": "This purchase can't be canceled.",
+                "amount": "Enter an amount at or above the minimum.",
+                "tip_target": "A tip backs a discussion in its tag.",
+                "no_bumps": "You have no bumps left for this discussion.",
+                "provider_unreachable": "We couldn't reach the payment provider. Try again in a moment.",
+                "provider_refused": "The payment provider couldn't start the payment. The forum's admin has been told.",
+                "coupon": "That code isn't valid for this.",
+                "coupon_used": "You've already used that code.",
+                "no_such_user": "There's no member with that username.",
+                "no_gift": "This can't be given as a gift.",
+                "no_seats": "This purchase has no seats to give.",
+                "seat_taken": "That member already has a seat.",
+                "seats_full": "Every seat is taken. Remove someone first.",
+                "cannot_switch": "You can't switch to that plan.",
+                "switch_seats_paypal": "PayPal can't add seats to a plan you already have. Stop renewing this one, and buy the bigger plan when it ends."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "read_paid": "Read paid content without buying",
+                "ad_free": "Never see ads"
+            },
+            "tabs": {
+                "overview": "Overview",
+                "products": "Products",
+                "purchases": "Purchases",
+                "coupons": "Coupons",
+                "ads": "Ads",
+                "payments": "Payments",
+                "webhooks": "Payment log",
+                "settings": "Settings"
+            },
+            "btcpay": {
+                "help": "Your own BTCPay Server takes Bitcoin and Lightning with no middleman. Enter its address and press Connect: BTCPay asks which store to use, then sends you back. Crypto can't renew by itself, so it's offered for one-time and set-time prices only.",
+                "url": "BTCPay Server address",
+                "connected_to": "Connected to {url} (store {store}).",
+                "expired": "That took too long, or the link was used already. Press Connect again.",
+                "failed": "BTCPay didn't give Kiosk what it needs. Press Connect again and allow every permission it asks for, for one store."
+            },
+            "nowpayments": {
+                "help": "A hosted gateway for 300+ coins. In NOWPayments, open Store settings: copy the API key, and create an IPN secret. Crypto can't renew by itself, so it's offered for one-time and set-time prices only.",
+                "api_key": "API key",
+                "ipn_secret": "IPN secret",
+                "sandbox": "Test mode (NOWPayments sandbox)",
+                "ok": "NOWPayments is connected."
+            },
+            "ads": {
+                "intro": "Your own ads, in the spots below. Each page shows one ad per spot, picked again when the visitor moves on. Members who bought \"Remove ads\", and groups with the \"Never see ads\" permission, see none.",
+                "new": "New ad",
+                "edit": "Edit ad",
+                "delete": "Delete ad",
+                "delete_confirm": "Delete {name}? Its counts are deleted too.",
+                "empty": "No ads yet.",
+                "name": "Name",
+                "name_placeholder": "Spring sale banner",
+                "location": "Where",
+                "kind": "Type",
+                "kinds": {
+                    "image": "A picture with a link",
+                    "html": "Code (AdSense or another ad network)"
+                },
+                "image": "Picture",
+                "image_help": "PNG, JPEG, GIF or WebP, up to 2 MB. It's stored on your forum, so showing it calls no one else.",
+                "link": "Link",
+                "alt": "Description for screen readers",
+                "html": "Code",
+                "html_help": "Runs as-is for everyone who sees the ad, scripts included. Ad networks load their own files and may set cookies, so mention them in your privacy policy.",
+                "audience": "Who sees it",
+                "audiences": {
+                    "everyone": "Everyone",
+                    "guests": "Guests only",
+                    "members": "Members only"
+                },
+                "starts": "Starts",
+                "ends": "Ends",
+                "runs": "Runs",
+                "always": "Always",
+                "active": "Show this ad",
+                "off": "Switched off",
+                "save": "Save ad",
+                "seen": "Seen",
+                "clicks": "Clicks",
+                "settings": "Ad settings",
+                "every_posts": "Between posts, show an ad after every this many posts",
+                "every_discussions": "In discussion lists, show an ad after every this many discussions",
+                "show_label": "Label ads \"Sponsored\"",
+                "ad_free_help": "To let members pay to remove ads, add \"Remove ads\" to a product on the Products tab. A \"Remove ads\" link then shows on every ad. Admins always see ads, so you can check them.",
+                "locations": {
+                    "header": "Top of every page",
+                    "below_header": "Below the page's banner",
+                    "sidebar": "Sidebar",
+                    "between_discussions": "Between discussions in a list",
+                    "after_first_post": "After a discussion's first post",
+                    "between_posts": "Between posts",
+                    "discussion_sidebar": "Discussion sidebar",
+                    "above_footer": "Bottom of every page",
+                    "footer": "Footer"
+                },
+                "location_help": {
+                    "header": "Above everything else on the page, under the forum's header bar.",
+                    "below_header": "Under the welcome banner on the discussion list, or under the title on a discussion.",
+                    "sidebar": "Under the menu beside the discussion list. Hidden on phones, where the menu folds away.",
+                    "between_discussions": "After every few discussions in the list (set how many below).",
+                    "after_first_post": "Right after the opening post of every discussion.",
+                    "between_posts": "After every few posts in a discussion (set how many below).",
+                    "discussion_sidebar": "Under the reply button and scrubber beside a discussion. Hidden on phones.",
+                    "above_footer": "After the page's content, on every page.",
+                    "footer": "In the forum's footer, on every page."
+                }
+            },
+            "coupons": {
+                "code": "Code",
+                "discount": "Discount",
+                "product": "For",
+                "all_products": "Every product",
+                "max_uses": "Uses allowed",
+                "unlimited": "Unlimited",
+                "expires": "Ends",
+                "create": "Add coupon",
+                "used": "Used",
+                "empty": "No coupons yet.",
+                "delete": "Delete coupon",
+                "delete_confirm": "Delete {code}? Purchases already made with it keep their price.",
+                "help": "Buyers enter the code on a product's card. On a subscription the discount applies to every renewal. A code that makes a subscription free is refused; a one-time purchase can be free."
+            },
+            "setup": {
+                "title": "Set up your store",
+                "intro": "Four steps. Each one turns green when it's done.",
+                "provider": {
+                    "title": "Connect a way to be paid",
+                    "text": "Paste your PayPal or Stripe keys. Kiosk does the rest.",
+                    "button": "Set up payments"
+                },
+                "product": {
+                    "title": "Create your first product",
+                    "text": "What do you want to sell? Pick a starting point; you can change everything."
+                },
+                "sale": {
+                    "title": "Make a test purchase",
+                    "text_sandbox": "You're in test mode, so nobody is charged. Buy your product with a PayPal sandbox buyer account to see the whole flow.",
+                    "text_live": "Buy something from your store to check the whole flow.",
+                    "button": "Open the store"
+                },
+                "scheduler": {
+                    "title": "Turn on the scheduler",
+                    "text": "Kiosk uses Flarum's scheduler to send renewal reminders and tidy up. Access always ends on time without it. Add this line to your server's crontab:"
+                }
+            },
+            "templates": {
+                "membership": {
+                    "name": "Membership",
+                    "text": "A group with its own permissions and badge, paid monthly or yearly."
+                },
+                "premium_section": {
+                    "name": "Premium section",
+                    "text": "A tag only paying members can see and post in."
+                },
+                "supporter": {
+                    "name": "Supporter badge",
+                    "text": "A one-time payment for a supporter group."
+                },
+                "pass": {
+                    "name": "30-day pass",
+                    "text": "Access to a tag for 30 days, no renewal."
+                },
+                "course": {
+                    "name": "Paid course",
+                    "text": "A Syllabus course people buy once."
+                },
+                "album": {
+                    "name": "Paid album",
+                    "text": "An Atrium album people buy once."
+                },
+                "social_group": {
+                    "name": "Paid group",
+                    "text": "A Social Group people pay to join."
+                }
+            },
+            "overview": {
+                "active_members": "Members with access",
+                "active_subscriptions": "Active subscriptions",
+                "mrr": "Monthly recurring",
+                "this_month": "Taken this month",
+                "failed_webhooks": "{count, plural, one {# payment notice failed to process.} other {# payment notices failed to process.}}",
+                "view_webhooks": "Open the payment log"
+            },
+            "products": {
+                "new": "New product",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete {name}? People who bought it keep what they have, and subscriptions keep renewing until you end them on the Purchases tab.",
+                "drag": "Drag to reorder",
+                "empty": "No products yet. Create one, or use \"Sell this\" when you edit a tag or group.",
+                "missing": "(deleted)",
+                "off_sale": "Off sale",
+                "hidden": "Hidden",
+                "sold": "{count} sold"
+            },
+            "product": {
+                "new_title": "New product",
+                "edit_title": "Edit product",
+                "name": "Name",
+                "icon": "Icon",
+                "color": "Color",
+                "description": "Description",
+                "benefits": "Benefits",
+                "benefits_help": "One per line. Shown as a checklist on the product card.",
+                "unlocks": "What buying it unlocks",
+                "unlocks_help": "Pick one or more things. Buyers get all of them.",
+                "search": "Find a {type}…",
+                "remove": "Remove",
+                "teaser": "Show titles to everyone",
+                "teaser_help": "With titles shown, everyone sees the tag, its discussions' titles and the opening words of each, with a Buy button; the rest, and replying, is for buyers. Switch it off to hide the tag from everyone but buyers and staff.",
+                "prices": "Prices",
+                "add_price": "Add another price",
+                "price_note": "Changing a price that people have already paid makes a new price. Existing subscribers keep paying what they signed up for.",
+                "amount": "Amount",
+                "every": "every",
+                "trial": "free trial",
+                "for": "for",
+                "days": "days",
+                "seats": "People",
+                "seats_help": "More than 1 makes it a team plan: the buyer gives the other seats to members.",
+                "kind": {
+                    "recurring": "Renews",
+                    "one_off": "One-time, forever",
+                    "fixed_term": "One-time, for a set time",
+                    "custom": "Pay what you want (this is the minimum)"
+                },
+                "interval": {
+                    "day": "day(s)",
+                    "week": "week(s)",
+                    "month": "month(s)",
+                    "year": "year(s)"
+                },
+                "availability": "Availability",
+                "active": "On sale",
+                "hidden": "Hide from the store page",
+                "hidden_help": "Hidden products are only sold through the Buy button on what they unlock.",
+                "stock": "How many can be sold",
+                "unlimited": "No limit",
+                "buyers": "Who can buy it",
+                "buyers_help": "Leave all unchecked to let any member buy it.",
+                "save": "Save product"
+            },
+            "stripe": {
+                "help": "Copy your secret key from <a>Stripe's API keys page</a>. Use a test key (sk_test_…) to try it out, then add your live key when you're ready.",
+                "key": "Secret key",
+                "key_saved": "Saved (ending {hint}). Paste a new key to replace it.",
+                "detected_test": "Test key. Nobody is charged.",
+                "detected_live": "Live key. Real payments.",
+                "ok": "Connected. Kiosk set up Stripe's notifications for you.",
+                "webhook_help": "Kiosk registers this with Stripe for you. There's nothing to copy.",
+                "last_webhook": "Last notice from Stripe",
+                "failed": {
+                    "credentials": "Stripe didn't accept this key. Copy the Secret key (not the Publishable key) from Stripe's API keys page.",
+                    "unreachable": "Kiosk couldn't reach Stripe. Try again in a moment.",
+                    "webhook": "The key works, but Stripe wouldn't send notifications to this forum. Stripe needs a public https:// address."
+                }
+            },
+            "sell_this": {
+                "legend": "Sell this",
+                "button": "Sell this",
+                "another": "Sell it another way",
+                "help_tag": "Charge for access to this tag. Only buyers and staff will see it.",
+                "help_group": "Charge for membership of this group. Buyers get its permissions and badge."
+            },
+            "purchases": {
+                "search": "Search by username, email or reference",
+                "all": "All except unfinished",
+                "grant": "Give a product",
+                "member": "Member",
+                "product": "Product",
+                "status": "Status",
+                "terms": "Price",
+                "until": "Renews or ends",
+                "forever": "Forever",
+                "granted": "Given",
+                "test": "Test",
+                "cancel": "Stop renewing",
+                "end": "End now",
+                "refund": "Refund",
+                "more": "Load more",
+                "empty": "No purchases yet.",
+                "confirm_cancel": "Stop {name}'s {product} from renewing? They keep access until the end of the period they paid for.",
+                "confirm_end": "End {name}'s access to {product} now? If it renews, it's canceled too.",
+                "confirm_refund": "Refund {name}'s latest payment for {product} and end their access now?"
+            },
+            "grant": {
+                "title": "Give a product",
+                "user": "Member",
+                "user_placeholder": "Username or email",
+                "product": "Product",
+                "length": "For how long",
+                "length_0": "Forever",
+                "length_7": "7 days",
+                "length_30": "30 days",
+                "length_90": "90 days",
+                "length_365": "1 year",
+                "note": "Note (only admins see it)",
+                "submit": "Give it"
+            },
+            "payments": {
+                "connected": "Connected",
+                "not_connected": "Not connected",
+                "live_now": "Taking real payments",
+                "test_now": "Test mode",
+                "mode": {
+                    "sandbox": "Test (sandbox)",
+                    "live": "Live"
+                },
+                "help_sandbox": "In <a>PayPal's developer dashboard</a>, open (or create) an app under Sandbox and copy its Client ID and Secret. Test payments use sandbox buyer accounts and move no real money.",
+                "help_live": "In <a>PayPal's developer dashboard</a>, switch to Live, open (or create) an app and copy its Client ID and Secret.",
+                "client_id": "Client ID",
+                "secret": "Secret",
+                "secret_saved": "Saved. Leave blank to keep it.",
+                "connect": "Connect",
+                "reconnect": "Save and reconnect",
+                "disconnect": "Disconnect",
+                "disconnect_confirm": "Disconnect this payment method? Purchases already made keep their access.",
+                "go_live": "Switch to live payments",
+                "back_to_test": "Switch back to test mode",
+                "ok": "Connected. Kiosk set up PayPal's notifications for you.",
+                "failed": {
+                    "credentials": "PayPal didn't accept these keys. Check you copied them from the same app, and from Sandbox for test mode or Live for live.",
+                    "unreachable": "Kiosk couldn't reach PayPal. Try again in a moment.",
+                    "webhook": "The keys work, but PayPal wouldn't send notifications to this forum. PayPal needs a public https:// address."
+                },
+                "webhook": "Notification address",
+                "webhook_help": "Kiosk registers this with PayPal for you. There's nothing to copy.",
+                "last_webhook": "Last notice from PayPal",
+                "never": "Not yet"
+            },
+            "webhooks": {
+                "empty": "Nothing from PayPal yet.",
+                "received": "Received",
+                "event": "Event",
+                "result": "Result",
+                "done": "Processed",
+                "failed": "Failed",
+                "replay": "Run again"
+            },
+            "settings": {
+                "currency": "Currency for new prices",
+                "currency_help": "Each price can still have its own currency.",
+                "grace_days": "Grace days",
+                "grace_days_help": "How long a member keeps access after a renewal payment fails, while PayPal tries again.",
+                "terms_url": "Terms of sale page",
+                "terms_url_help": "If set, buyers must agree to it before paying.",
+                "show_nav": "Show Store in the sidebar",
+                "stripe_tax": "Let Stripe add sales tax (Stripe Tax)",
+                "stripe_tax_help": "For Stripe checkouts only. Turn on Stripe Tax in your Stripe dashboard first: Stripe then asks buyers for their address and adds the tax on top of your price. Kiosk doesn't work out tax itself; that's up to you."
+            },
+            "errors": {
+                "name": "Give the product a name (up to 150 characters).",
+                "ad_name": "Give the ad a name (up to 150 characters).",
+                "ad_location": "Choose where the ad goes.",
+                "ad_kind": "Choose a picture or code.",
+                "ad_audience": "Choose who sees the ad.",
+                "ad_link": "The link must be a web address starting with https:// or http://.",
+                "ad_html": "Paste the ad's code (up to 10,000 characters).",
+                "ad_dates": "The end date must come after the start date.",
+                "ad_image": "Upload a PNG, JPEG, GIF or WebP picture of up to 2 MB.",
+                "unlock_type": "Something in \"What buying it unlocks\" can't be sold on this forum.",
+                "unlocks_required": "Pick at least one thing the product unlocks.",
+                "too_many_unlocks": "A product can unlock up to 25 things.",
+                "currency": "That currency isn't supported.",
+                "kind": "Choose how the price is paid.",
+                "amount": "Each price needs an amount above zero.",
+                "interval": "PayPal renews at most every 365 days, 52 weeks, 12 months or 1 year.",
+                "trial": "A free trial can be up to 365 days.",
+                "term": "A set time can be 1 to 3650 days.",
+                "prices_required": "Add at least one price.",
+                "too_many_prices": "A product can have up to 10 prices.",
+                "date": "That date isn't valid.",
+                "no_such_user": "There's no member with that username or email.",
+                "no_such_product": "That product doesn't exist.",
+                "provider_unreachable": "Kiosk couldn't reach the payment provider. Try again in a moment.",
+                "nothing_to_refund": "There's no payment to refund.",
+                "refund_failed": "The payment provider didn't accept the refund. Check the payment there.",
+                "refund_crypto": "Crypto can't be refunded from here. Send it back from your BTCPay or NOWPayments dashboard, then press End.",
+                "stripe_key": "That isn't a Stripe secret key. It starts with sk_test_ or sk_live_.",
+                "coupon_code": "A code is 3 to 40 letters, numbers, dashes or underscores.",
+                "coupon_taken": "That code is already in use.",
+                "coupon_value": "Enter a discount from 1 to 100 percent, or an amount above zero.",
+                "btcpay_url": "Enter your BTCPay Server's https:// address.",
+                "nowpayments_keys": "Paste both the API key and the IPN secret.",
+                "nowpayments_rejected": "NOWPayments didn't accept that API key. Check it, and whether it's for the sandbox."
+            }
+        },
+        "email": {
+            "receipt": {
+                "subject": "Your purchase of {product}",
+                "body": "Thank you! Your purchase of **{product}** ({amount}) is complete. Reference: {number}\n\nSee what you have and manage it here: {url}\n"
+            },
+            "payment_failed": {
+                "subject": "Your payment for {product} didn't go through",
+                "body": "PayPal couldn't take the renewal payment for **{product}**. PayPal will try again over the next few days, and you keep access meanwhile.\n\nTo avoid losing access, check the payment method in your PayPal account. Your purchases: {url}\n"
+            },
+            "reminder": {
+                "subject": "{product} renews soon",
+                "body": "A heads-up: **{product}** renews on {until} for {amount}.\n\nNothing to do if you want to keep it. To stop it renewing: {url}\n"
+            },
+            "gift": {
+                "subject": "{product} is yours, as a gift",
+                "body": "Someone gave you **{product}**. It's ready now. Reference: {number}\n\nSee what you have: {url}\n"
+            },
+            "seat": {
+                "subject": "You have a seat on {product}",
+                "body": "You were given a seat on **{product}**. Everything it includes is open to you now.\n\nSee what you have: {url}\n"
+            },
+            "ended": {
+                "subject": "Your access to {product} has ended",
+                "body": "Your access to **{product}** has ended. Thanks for being part of it.\n\nYou can get it again any time: {url}\n"
+            }
+        }
+    }
+}
