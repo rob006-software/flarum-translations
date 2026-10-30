@@ -8,8 +8,8 @@
                 "show_tooltip_help": "Wenn aktiviert, wird der Name des Stickers als Tooltip angezeigt, sobald du mit der Maus über einen Sticker in Beiträgen oder in der Auswahl fährst."
             },
             "upload": {
-                "failed": "",
-                "failed_with_error": ""
+                "failed": "Hochladen fehlgeschlagen",
+                "failed_with_error": "Hochladen fehlgeschlagen: {error}"
             },
             "sticker_section": {
                 "heading_title": "Sticker",
@@ -19,9 +19,9 @@
                 "import_zip_message": "Dadurch werden Sticker aus einer ZIP-Datei (die mit dieser Erweiterung exportiert wurde) importiert. Die Sticker-Dateien werden in den Ordner /assets/stickers/ kopiert, wobei vorhandene Einträge NICHT überschrieben werden. Möchtest du fortfahren?",
                 "import_stickers_message": "Dadurch werden die Metadaten der Sticker aus einer JSON-Datei importiert. Die Sticker-Dateien sind NICHT enthalten – diese müssen bereits hochgeladen worden sein. Möchtest du fortfahren?",
                 "importing_message": "Wird importiert, bitte warten...",
-                "import_result": "Abgeschlossen: {imported} importiert, {skipped} waren bereits vorhanden.",
+                "import_result": "Abgeschlossen: {imported} importiert, {skipped} übersprungen (bereits vorhanden oder ungültig).",
                 "import_error_message": "Import fehlgeschlagen: {error}",
-                "import_unreadable_response": "",
+                "import_unreadable_response": "Der Server hat eine unlesbare Antwort zurückgegeben (Status {status}): {snippet}",
                 "import_invalid_json": "",
                 "network_error": "",
                 "bulk_upload_button": "Mehrere hochladen",
