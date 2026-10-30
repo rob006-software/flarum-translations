@@ -378,6 +378,9 @@ return [
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.14/locale/en.yml',
 	],
+	'ernestdefoe-seamless-refresh' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seamless-refresh/v0.2.1/locale/en.yml',
+	],
 	'ernestdefoe-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/fof-seo/2.0.18/locale/en.yml',
 	],
