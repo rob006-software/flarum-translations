@@ -420,6 +420,9 @@ return [
 	'ernestdefoe-typesense' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/typesense/v0.2.5/locale/en.yml',
 	],
+	'ernestdefoe-vantage' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/vantage/0.1.1/locale/en.yml',
+	],
 	'ernestdefoe-velvet-rope' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/velvet-rope/1.0.1/resources/locale/en.yml',
 	],
