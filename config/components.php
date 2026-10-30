@@ -1276,9 +1276,7 @@ return [
 	],
 	'leo-t-notify-push' => [
 		'tag' => 'https://raw.githubusercontent.com/Leo-ttt/Notify-Push/v1.0.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'litalino-adblock' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-adblock/1.2.1/locale/en.yml',
