@@ -1,0 +1,180 @@
+{
+    "ernestdefoe-rotation": {
+        "lib": {
+            "level": "Level {level}",
+            "plays": "{count, plural, one {# play} other {# plays}}",
+            "profile_tab": "Music",
+            "charts_nav": "Music charts",
+            "time": {
+                "hours_minutes": "{hours} h {minutes} min",
+                "minutes": "{minutes} min"
+            },
+            "period": {
+                "week": "This week",
+                "month": "This month",
+                "year": "This year",
+                "all": "All time"
+            },
+            "widget": {
+                "now_playing": "Now playing",
+                "top_tracks": "Top songs",
+                "top_artists": "Top artists",
+                "top_listeners": "Top listeners",
+                "see_all": "See all music charts",
+                "period": "Time period",
+                "count": "How many to show"
+            },
+            "gdpr": {
+                "export": "Music: your linked Last.fm account name, your music settings, your daily listening totals and the plays the forum keeps.",
+                "delete": "Music: your linked Last.fm account, your music settings and all of your listening data are deleted."
+            }
+        },
+        "forum": {
+            "profile": {
+                "title": "Music",
+                "not_connected": "{name} hasn't connected a music account.",
+                "private": "{name} keeps their listening private.",
+                "now_playing": "Listening now",
+                "last_played": "Last played {ago}",
+                "recent": "Recently played",
+                "credit": "Listening data from Last.fm",
+                "connect": {
+                    "title": "Show what you listen to",
+                    "text": "Connect your Last.fm account and your profile shows what you're playing, your top songs and artists, and how much you listen. Spotify connects to Last.fm in Last.fm's settings. Apple Music and YouTube Music need a scrobbler app or the Web Scrobbler browser extension to send your plays to Last.fm.",
+                    "button": "Connect Last.fm",
+                    "help": "You'll sign in on Last.fm and come straight back. The forum only reads your plays. You can disconnect at any time, and that deletes your listening data here.",
+                    "not_configured": "Music isn't set up on this forum yet. An admin needs to add a Last.fm API key."
+                },
+                "result": {
+                    "connected": "Last.fm is connected. Your plays will show up here in a minute or two.",
+                    "taken": "That Last.fm account is already connected to another member here.",
+                    "denied": "Last.fm didn't approve the connection. Try again.",
+                    "expired": "That connection link expired. Try again.",
+                    "failed": "Couldn't reach Last.fm. Try again in a few minutes."
+                },
+                "status": {
+                    "pending": "Getting your plays from Last.fm. This takes a minute or two.",
+                    "private": "Your listening is hidden on Last.fm, so the forum can't see it. On Last.fm, go to Settings → Privacy and turn off \"Hide recent listening\". It comes back here by itself within a day.",
+                    "missing": "Last.fm says this account doesn't exist anymore. Disconnect it and connect your current account."
+                },
+                "stats": {
+                    "total": "Listening time",
+                    "week": "This week",
+                    "plays": "Plays",
+                    "level": "Level",
+                    "next": "{hours, plural, one {# more hour} other {# more hours}} to level {level}",
+                    "estimate": "Listening time is an estimate. Last.fm records each song you play, not how long you listened, so each play counts as the song's length."
+                },
+                "tops": {
+                    "title": "Top music",
+                    "month": "Last 30 days",
+                    "overall": "All time",
+                    "tracks": "Songs",
+                    "artists": "Artists",
+                    "empty": "Nothing yet."
+                },
+                "settings": {
+                    "title": "Your music settings",
+                    "visibility": "Who can see your music",
+                    "everyone": "Everyone",
+                    "members": "Signed-in members",
+                    "me": "Only me",
+                    "now_playing": "Show what I'm playing right now",
+                    "leaderboards": "Include me in the music charts",
+                    "leaderboards_help": "Off by default. When it's on, your plays count toward the forum's top songs and artists, and you can appear in top listeners.",
+                    "recap": "Get a weekly recap of your listening? Choose it in your <a>notification settings</a>.",
+                    "disconnect": "Disconnect Last.fm",
+                    "disconnect_confirm": "Disconnect Last.fm? All of your listening data on this forum will be deleted."
+                }
+            },
+            "charts": {
+                "title": "Music charts",
+                "tracks": "Songs",
+                "artists": "Artists",
+                "listeners": "Listeners",
+                "empty": "Nothing here yet.",
+                "help": "Only members who chose to be in the music charts are counted. Listening time is estimated from song lengths."
+            },
+            "notifications": {
+                "recap": "Your week in music: {time} across {plays, plural, one {# play} other {# plays}}",
+                "recap_top": "Top artist: {artist}"
+            },
+            "settings": {
+                "notify_recap": "Send me a weekly recap of my listening"
+            }
+        },
+        "admin": {
+            "lastfm": {
+                "title": "Last.fm",
+                "help": "Members connect their own Last.fm accounts. Get a free API key and shared secret at <a>last.fm/api/account/create</a> and paste them here. Set the callback URL there to this forum's address. Last.fm's API is free for non-commercial use.",
+                "key": "API key",
+                "secret": "Shared secret"
+            },
+            "bands": {
+                "title": "Levels",
+                "help": "Members get a level from their total listening time. Add as many levels as you like and drag them into order. If a time fits more than one row, the first match wins. Leave \"to\" empty for the top level.",
+                "row": "level",
+                "drag": "Drag to reorder",
+                "from": "From",
+                "to": "to",
+                "up": "and up",
+                "hours_level": "hours = level",
+                "level": "Level number",
+                "name": "Name (optional)",
+                "remove": "Remove this level",
+                "add": "Add a level"
+            },
+            "settings": {
+                "average": "Average song length (minutes)",
+                "average_help": "Used when neither Last.fm nor MusicBrainz knows how long a song is.",
+                "cap": "Daily listening limit (hours)",
+                "cap_help": "No member's day counts for more than this, so fake plays can't push anyone up. Changes apply to new plays.",
+                "retention": "Keep plays for (days)",
+                "retention_help": "Individual plays older than this are deleted. Totals, levels and charts stay. Minimum 14 days.",
+                "default_visibility": "Who can see a member's music by default",
+                "everyone": "Everyone",
+                "members": "Signed-in members",
+                "me": "Only the member",
+                "post_levels": "Show members' levels next to their posts",
+                "sidebar": "Show \"Now playing\" in the default sidebar",
+                "sidebar_help": "On the discussion list, when nobody has placed the widget in FoF Forum Widgets. Turn it off if you place it with Bespoke.",
+                "rate": "Last.fm requests per second",
+                "rate_help": "Last.fm allows 5 per second per server IP. If several forums run on one server, keep each one low.",
+                "global_cap": "Requests per 10 minutes, all services",
+                "global_cap_help": "A hard limit on how many requests Rotation sends. Polling waits when it's reached."
+            },
+            "embeds": {
+                "title": "Players for music links",
+                "help": "A link pasted on its own line becomes a player for these services. A link with its own wording stays a link.",
+                "spotify": "Spotify",
+                "apple": "Apple Music",
+                "youtube": "YouTube and YouTube Music",
+                "soundcloud": "SoundCloud",
+                "deezer": "Deezer",
+                "tidal": "TIDAL",
+                "bandcamp": "Bandcamp",
+                "audiomack": "Audiomack",
+                "mixcloud": "Mixcloud"
+            },
+            "permissions": {
+                "connect": "Connect a Last.fm account",
+                "leaderboards": "View music charts"
+            },
+            "widgets": {
+                "now_playing": "Rotation — Now playing",
+                "top_tracks": "Rotation — Top songs",
+                "top_artists": "Rotation — Top artists",
+                "top_listeners": "Rotation — Top listeners"
+            }
+        },
+        "email": {
+            "recap": {
+                "subject": "Your week in music",
+                "body": "Last week you listened for {time} across {plays} plays.",
+                "top_artist": "Top artist: {artist}",
+                "top_track": "Top song: {track} by {artist}",
+                "link": "See your music"
+            }
+        }
+    }
+}

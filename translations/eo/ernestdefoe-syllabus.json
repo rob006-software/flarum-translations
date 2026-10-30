@@ -1,0 +1,378 @@
+{
+    "ernestdefoe-syllabus": {
+        "lib": {
+            "kiosk": {
+                "course": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_nav": "",
+                "discussion_tag": "",
+                "discussion_tag_help": "",
+                "no_tag": "",
+                "certificate_text": "",
+                "certificate_text_help": "",
+                "certificate_signature": "",
+                "certificate_signature_help": "",
+                "certificate_logo": "",
+                "certificate_logo_help": "",
+                "max_file_mb": "",
+                "file_types": "",
+                "file_types_help": "",
+                "max_video_mb": "",
+                "max_video_mb_help": "",
+                "submissions_per_hour": ""
+            },
+            "permissions": {
+                "view": "",
+                "enrol": "",
+                "create": "",
+                "manage": ""
+            },
+            "categories": {
+                "title": "",
+                "help": "",
+                "new": "",
+                "add": "",
+                "name": "",
+                "move": "",
+                "sortable": "",
+                "courses": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "widgets": {
+                "courses": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "errors": {
+                "generic": ""
+            },
+            "units": {
+                "hours": "",
+                "minutes": ""
+            },
+            "types": {
+                "text": "",
+                "video": "",
+                "assignment": "",
+                "quiz": ""
+            },
+            "difficulty": {
+                "beginner": "",
+                "intermediate": "",
+                "advanced": ""
+            },
+            "progress": {
+                "label": "",
+                "lessons": ""
+            },
+            "catalogue": {
+                "title": "",
+                "new": "",
+                "tabs": {
+                    "all": "",
+                    "mine": ""
+                },
+                "all_categories": "",
+                "all_levels": "",
+                "category": "",
+                "level": "",
+                "search": "",
+                "empty": "",
+                "empty_mine": "",
+                "no_results": "",
+                "more": "",
+                "back": ""
+            },
+            "course": {
+                "draft": "",
+                "draft_notice": "",
+                "featured": "",
+                "restricted": "",
+                "lessons": "",
+                "students": "",
+                "by": "",
+                "completed": "",
+                "continue": "",
+                "start": "",
+                "enrol": "",
+                "leave": "",
+                "leave_confirm": "",
+                "login_to_enrol": "",
+                "groups_only": "",
+                "no_access": "",
+                "paid_only": "",
+                "preview_note": "",
+                "sequential": "",
+                "instructors": "",
+                "outline": "",
+                "no_lessons": "",
+                "edit": "",
+                "view_certificate": "",
+                "missing": ""
+            },
+            "outline": {
+                "preview": "",
+                "state_done": "",
+                "state_open": "",
+                "state_locked": ""
+            },
+            "lesson": {
+                "missing": "",
+                "edit": "",
+                "nav": "",
+                "locked_login": "",
+                "locked_enrol": "",
+                "locked_access": "",
+                "locked_order": "",
+                "see_course": "",
+                "mark_complete": "",
+                "completed": "",
+                "undo": "",
+                "course_done": "",
+                "ask": "",
+                "ask_text": "",
+                "open_discussion": "",
+                "quiz_missing": "",
+                "quiz_hint": "",
+                "quiz_check": ""
+            },
+            "assignment": {
+                "title": "",
+                "enrol_first": "",
+                "text_label": "",
+                "text_placeholder": "",
+                "attach": "",
+                "limits": "",
+                "submit": "",
+                "sent": "",
+                "feedback_from": "",
+                "status": {
+                    "pending": "",
+                    "passed": "",
+                    "needs_work": ""
+                }
+            },
+            "editor": {
+                "new_title": "",
+                "edit_title": "",
+                "view": "",
+                "title": "",
+                "summary": "",
+                "summary_help": "",
+                "description": "",
+                "cover": "",
+                "cover_upload": "",
+                "cover_url": "",
+                "cover_remove": "",
+                "cover_help": "",
+                "cover_help_new": "",
+                "category": "",
+                "no_category": "",
+                "difficulty": "",
+                "no_level": "",
+                "minutes": "",
+                "preview": "",
+                "preview_help": "",
+                "access": "",
+                "access_everyone": "",
+                "access_groups": "",
+                "access_paid": "",
+                "access_help": "",
+                "sequential": "",
+                "notify_new_lessons": "",
+                "featured": "",
+                "tag": "",
+                "default_tag": "",
+                "tag_help": "",
+                "badge": "",
+                "no_badge": "",
+                "badge_help": "",
+                "co_instructors": "",
+                "co_instructors_help": "",
+                "find_member": "",
+                "remove": "",
+                "published": "",
+                "save": "",
+                "saved": "",
+                "outline": "",
+                "outline_help": "",
+                "outline_after_save": "",
+                "sortable": "",
+                "move": "",
+                "section_title": "",
+                "new_section": "",
+                "add_section": "",
+                "remove_section": "",
+                "add_text": "",
+                "add_video": "",
+                "add_assignment": "",
+                "add_quiz": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "lesson_editor": {
+                "new_title": "",
+                "edit_title": "",
+                "type": "",
+                "body_text": "",
+                "body_video": "",
+                "body_assignment": "",
+                "body_quiz": "",
+                "duration": "",
+                "video": "",
+                "video_url": "",
+                "video_url_help": "",
+                "video_upload": "",
+                "video_remove": "",
+                "video_limits": "",
+                "video_after_save": "",
+                "uploading": "",
+                "quiz": "",
+                "pick_quiz": "",
+                "quiz_help": "",
+                "no_quizzes": "",
+                "discussion": "",
+                "discussion_keep": "",
+                "discussion_none": "",
+                "discussion_auto": "",
+                "discussion_link": "",
+                "discussion_link_placeholder": "",
+                "discussion_help": "",
+                "discussion_failed": "",
+                "delete": "",
+                "delete_confirm": ""
+            },
+            "teach": {
+                "title": "",
+                "tabs": {
+                    "courses": "",
+                    "review": "",
+                    "students": ""
+                },
+                "course": "",
+                "lessons": "",
+                "students": "",
+                "completed": "",
+                "waiting": "",
+                "actions": "",
+                "no_courses": "",
+                "not_allowed": "",
+                "filter": "",
+                "filter_pending": "",
+                "filter_needs_work": "",
+                "filter_passed": "",
+                "filter_all": "",
+                "nothing_to_review": "",
+                "feedback": "",
+                "pass": "",
+                "needs_work": "",
+                "reviewed": "",
+                "student": "",
+                "progress": "",
+                "last_seen": "",
+                "no_students": "",
+                "quiz_results": "",
+                "quiz_passed": "",
+                "quiz_details": ""
+            },
+            "certificate": {
+                "title": "",
+                "heading": "",
+                "presented_to": "",
+                "for_completing": "",
+                "default_text": "",
+                "date": "",
+                "issued_by": "",
+                "verify_at": "",
+                "print": "",
+                "copy_link": "",
+                "copied": "",
+                "back": "",
+                "verified": "",
+                "verified_text": "",
+                "issued_by_forum": "",
+                "invalid": "",
+                "see_course": ""
+            },
+            "profile": {
+                "nav": "",
+                "in_progress": "",
+                "completed": "",
+                "empty": "",
+                "hidden": ""
+            },
+            "settings": {
+                "show_courses": "",
+                "notify_reviewed": "",
+                "notify_completed": "",
+                "notify_new_lesson": "",
+                "notify_submission": ""
+            },
+            "notifications": {
+                "reviewed_passed": "",
+                "reviewed_needs_work": "",
+                "submission": "",
+                "new_lesson": "",
+                "completed": ""
+            },
+            "widget": {
+                "name": "",
+                "title_member": "",
+                "title_guest": "",
+                "heading": "",
+                "limit": "",
+                "empty": "",
+                "all": ""
+            }
+        },
+        "api": {
+            "title_required": "",
+            "invalid": "",
+            "cover_url": "",
+            "groups_required": "",
+            "not_an_instructor": "",
+            "slow_down": "",
+            "quiz_needs_brainstorm": "",
+            "quiz_required": "",
+            "quiz_not_yours": "",
+            "video_url": "",
+            "discussion_not_found": "",
+            "upload_failed": "",
+            "too_big": "",
+            "not_an_image": "",
+            "video_off": "",
+            "video_type": "",
+            "file_type": "",
+            "too_many_files": "",
+            "submission_empty": "",
+            "already_waiting": "",
+            "already_passed": "",
+            "discussion_title": "",
+            "discussion_body": ""
+        },
+        "email": {
+            "completed": {
+                "subject": "",
+                "body": ""
+            },
+            "reviewed": {
+                "subject": "",
+                "passed": "",
+                "needs_work": ""
+            },
+            "submission": {
+                "subject": "",
+                "body": ""
+            },
+            "new_lesson": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

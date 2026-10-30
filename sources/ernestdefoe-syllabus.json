@@ -1,0 +1,378 @@
+{
+    "ernestdefoe-syllabus": {
+        "lib": {
+            "kiosk": {
+                "course": "Course"
+            }
+        },
+        "admin": {
+            "settings": {
+                "show_nav": "Show \"Courses\" in the forum's sidebar",
+                "discussion_tag": "Tag for lesson discussions",
+                "discussion_tag_help": "Where \"Ask about this lesson\" discussions are started when a course doesn't choose its own tag. Instructors need permission to start discussions in it.",
+                "no_tag": "No tag",
+                "certificate_text": "Certificate wording",
+                "certificate_text_help": "Printed under the course title. Use {name}, {course}, {date} and {forum}. Leave empty for the default.",
+                "certificate_signature": "Certificate signature line",
+                "certificate_signature_help": "A name or title printed above \"Issued by\". Leave empty to use the forum's name.",
+                "certificate_logo": "Certificate logo address",
+                "certificate_logo_help": "An https:// image address. Leave empty to use the forum's logo.",
+                "max_file_mb": "Largest assignment file, in MB",
+                "file_types": "File types students may submit",
+                "file_types_help": "Extensions, separated by commas. Web pages, SVG, scripts and programs are always refused, whatever is listed here.",
+                "max_video_mb": "Largest uploaded lesson video, in MB",
+                "max_video_mb_help": "MP4, WebM or Ogg. Set to 0 to allow YouTube and Vimeo addresses only. Your server's own upload limit applies too.",
+                "submissions_per_hour": "Assignment submissions per member per hour"
+            },
+            "permissions": {
+                "view": "View courses",
+                "enrol": "Enroll in courses",
+                "create": "Create and teach courses (instructors)",
+                "manage": "Manage all courses"
+            },
+            "categories": {
+                "title": "Course categories",
+                "help": "Drag categories into the order the catalog shows them. With the keyboard, focus a handle and use the up and down arrow keys.",
+                "new": "New category name",
+                "add": "Add",
+                "name": "Category name",
+                "move": "Move {name}",
+                "sortable": "movable category",
+                "courses": "{count, plural, one {# course} other {# courses}}",
+                "delete": "Delete category",
+                "delete_confirm": "Delete \"{name}\"? Its courses stay, without a category."
+            },
+            "widgets": {
+                "courses": "Courses"
+            }
+        },
+        "forum": {
+            "nav": "Courses",
+            "errors": {
+                "generic": "Something went wrong. Please try again."
+            },
+            "units": {
+                "hours": "{count} h",
+                "minutes": "{count} min"
+            },
+            "types": {
+                "text": "Text",
+                "video": "Video",
+                "assignment": "Assignment",
+                "quiz": "Quiz"
+            },
+            "difficulty": {
+                "beginner": "Beginner",
+                "intermediate": "Intermediate",
+                "advanced": "Advanced"
+            },
+            "progress": {
+                "label": "{percent}%",
+                "lessons": "{done} of {total} lessons"
+            },
+            "catalogue": {
+                "title": "Courses",
+                "new": "New course",
+                "tabs": {
+                    "all": "All courses",
+                    "mine": "My courses"
+                },
+                "all_categories": "All categories",
+                "all_levels": "All levels",
+                "category": "Category",
+                "level": "Level",
+                "search": "Search courses",
+                "empty": "There are no courses yet.",
+                "empty_mine": "You haven't enrolled in any courses yet.",
+                "no_results": "No courses match your search.",
+                "more": "Load more",
+                "back": "All courses"
+            },
+            "course": {
+                "draft": "Draft",
+                "draft_notice": "This course is a draft. Only its instructors can see it.",
+                "featured": "Featured",
+                "restricted": "Members only",
+                "lessons": "{count, plural, one {# lesson} other {# lessons}}",
+                "students": "{count, plural, one {# student} other {# students}}",
+                "by": "by {name}",
+                "completed": "Completed",
+                "continue": "Continue",
+                "start": "Start the course",
+                "enrol": "Enroll",
+                "leave": "Leave this course",
+                "leave_confirm": "Leave this course? The lessons you've completed are kept if you enroll again.",
+                "login_to_enrol": "Log in to enroll",
+                "groups_only": "This course is open to {groups}.",
+                "no_access": "You don't have access to this course.",
+                "paid_only": "This course is for people who buy it.",
+                "preview_note": "{count, plural, one {The first lesson is} other {The first # lessons are}} free to preview.",
+                "sequential": "Lessons unlock in order",
+                "instructors": "Instructors",
+                "outline": "Lessons",
+                "no_lessons": "No lessons have been published yet.",
+                "edit": "Edit course",
+                "view_certificate": "View certificate",
+                "missing": "This course doesn't exist, or you can't see it."
+            },
+            "outline": {
+                "preview": "Preview",
+                "state_done": "completed",
+                "state_open": "open",
+                "state_locked": "locked"
+            },
+            "lesson": {
+                "missing": "This lesson doesn't exist, or you can't see it.",
+                "edit": "Edit lesson",
+                "nav": "Lesson navigation",
+                "locked_login": "Log in and enroll to read this lesson.",
+                "locked_enrol": "Enroll in the course to read this lesson.",
+                "locked_access": "You don't have access to this lesson.",
+                "locked_order": "Complete the lessons before this one to unlock it.",
+                "see_course": "Back to the course",
+                "mark_complete": "Mark complete",
+                "completed": "Completed",
+                "undo": "Mark as not completed",
+                "course_done": "You've completed the course. Your certificate is ready.",
+                "ask": "Ask about this lesson",
+                "ask_text": "{count, plural, =0 {No questions yet — be the first.} one {# reply so far.} other {# replies so far.}}",
+                "open_discussion": "Open the discussion",
+                "quiz_missing": "This lesson's quiz is no longer available.",
+                "quiz_hint": "Pass the quiz to complete this lesson. Finished it? Check your result.",
+                "quiz_check": "Check my result"
+            },
+            "assignment": {
+                "title": "Your work",
+                "enrol_first": "Enroll in the course to submit this assignment.",
+                "text_label": "Your answer",
+                "text_placeholder": "Write your answer here, attach files, or both.",
+                "attach": "Attach files",
+                "limits": "Up to 5 files, {mb} MB each: {types}.",
+                "submit": "Submit",
+                "sent": "Submitted. Your instructor has been notified.",
+                "feedback_from": "Feedback from {name}",
+                "status": {
+                    "pending": "Waiting for review",
+                    "passed": "Passed",
+                    "needs_work": "Needs work"
+                }
+            },
+            "editor": {
+                "new_title": "New course",
+                "edit_title": "Edit course",
+                "view": "View",
+                "title": "Title",
+                "summary": "Summary",
+                "summary_help": "One or two sentences for the course card.",
+                "description": "Description",
+                "cover": "Cover image",
+                "cover_upload": "Upload an image",
+                "cover_url": "Image address",
+                "cover_remove": "Remove the cover",
+                "cover_help": "Upload a JPEG, PNG, GIF or WebP up to 5 MB, or paste an https:// image address.",
+                "cover_help_new": "Paste an https:// image address, or save the course first to upload an image.",
+                "category": "Category",
+                "no_category": "No category",
+                "difficulty": "Level",
+                "no_level": "Any level",
+                "minutes": "Estimated time, in minutes",
+                "preview": "Free preview lessons",
+                "preview_help": "How many of the first lessons anyone may read without enrolling.",
+                "access": "Who can enroll",
+                "access_everyone": "Everyone who has permission to enroll",
+                "access_groups": "Only members of these groups",
+                "access_paid": "People who buy it (sell it from Kiosk)",
+                "access_help": "Paid courses work through groups — anything that adds a member to a group when they pay (a subscription extension, for example) unlocks the course for them.",
+                "sequential": "Lessons unlock in order",
+                "notify_new_lessons": "Tell students when a new lesson is published",
+                "featured": "Feature this course",
+                "tag": "Tag for lesson discussions",
+                "default_tag": "The forum's default",
+                "tag_help": "Where this course's \"Ask about this lesson\" discussions are started.",
+                "badge": "Badge for completing the course",
+                "no_badge": "No badge",
+                "badge_help": "Awarded with FoF Badges when a student completes the course.",
+                "co_instructors": "Co-instructors",
+                "co_instructors_help": "Members who may create courses can teach this one with you.",
+                "find_member": "Find a member",
+                "remove": "Remove",
+                "published": "Published",
+                "save": "Save",
+                "saved": "Saved.",
+                "outline": "Outline",
+                "outline_help": "Drag sections and lessons into order. With the keyboard, focus a handle and use the up and down arrow keys.",
+                "outline_after_save": "Save the course to start adding lessons.",
+                "sortable": "movable item",
+                "move": "Move {title}",
+                "section_title": "Section title",
+                "new_section": "New section",
+                "add_section": "Add a section",
+                "remove_section": "Remove this section",
+                "add_text": "Text lesson",
+                "add_video": "Video lesson",
+                "add_assignment": "Assignment",
+                "add_quiz": "Quiz",
+                "delete": "Delete course",
+                "delete_confirm": "Delete \"{title}\" with all its lessons, enrollments and submissions? Certificates already awarded stay valid."
+            },
+            "lesson_editor": {
+                "new_title": "New lesson",
+                "edit_title": "Edit lesson",
+                "type": "Lesson type",
+                "body_text": "Lesson",
+                "body_video": "Notes under the video",
+                "body_assignment": "Instructions",
+                "body_quiz": "Introduction",
+                "duration": "Time to complete, in minutes",
+                "video": "Video",
+                "video_url": "Video address",
+                "video_url_help": "A YouTube or Vimeo address. YouTube videos play from youtube-nocookie.com.",
+                "video_upload": "Upload a video file",
+                "video_remove": "Remove the file",
+                "video_limits": "MP4, WebM or Ogg, up to {mb} MB. An uploaded file plays instead of the address.",
+                "video_after_save": "Save the lesson first to upload a video file.",
+                "uploading": "Uploading…",
+                "quiz": "Quiz",
+                "pick_quiz": "Choose a quiz",
+                "quiz_help": "Quizzes you can edit in Brainstorm. Passing the quiz completes the lesson.",
+                "no_quizzes": "You have no quizzes yet. Write one on the Quizzes page first.",
+                "discussion": "Discussion",
+                "discussion_keep": "Keep the linked discussion",
+                "discussion_none": "No discussion",
+                "discussion_auto": "Start a discussion when the lesson is published",
+                "discussion_link": "Link an existing discussion",
+                "discussion_link_placeholder": "A discussion's address or number",
+                "discussion_help": "Students see an \"Ask about this lesson\" box that opens it.",
+                "discussion_failed": "The lesson was saved, but its discussion couldn't be started: {reason}",
+                "delete": "Delete lesson",
+                "delete_confirm": "Delete this lesson? Students' progress on it and their submissions are deleted too. Courses already completed stay completed."
+            },
+            "teach": {
+                "title": "Instructor panel",
+                "tabs": {
+                    "courses": "My courses",
+                    "review": "Assignments",
+                    "students": "Students"
+                },
+                "course": "Course",
+                "lessons": "Lessons",
+                "students": "Students",
+                "completed": "Completed",
+                "waiting": "To review",
+                "actions": "Actions",
+                "no_courses": "You aren't teaching any courses yet.",
+                "not_allowed": "The instructor panel is for members who may create courses.",
+                "filter": "Show",
+                "filter_pending": "Waiting for review",
+                "filter_needs_work": "Needs work",
+                "filter_passed": "Passed",
+                "filter_all": "All",
+                "nothing_to_review": "Nothing to review.",
+                "feedback": "Feedback for the student (optional)",
+                "pass": "Pass",
+                "needs_work": "Needs work",
+                "reviewed": "Review saved. The student has been notified.",
+                "student": "Student",
+                "progress": "Progress",
+                "last_seen": "Last studied",
+                "no_students": "No one has enrolled yet.",
+                "quiz_results": "Quiz results",
+                "quiz_passed": "{count, plural, one {# student passed} other {# students passed}}",
+                "quiz_details": "See every result"
+            },
+            "certificate": {
+                "title": "Certificate of completion",
+                "heading": "Certificate of completion",
+                "presented_to": "This certifies that",
+                "for_completing": "has completed the course",
+                "default_text": "Awarded by {forum} on {date}.",
+                "date": "Date",
+                "issued_by": "Issued by",
+                "verify_at": "Verify this certificate at",
+                "print": "Print or save as PDF",
+                "copy_link": "Copy verification link",
+                "copied": "Link copied.",
+                "back": "Back to the course",
+                "verified": "Verified certificate",
+                "verified_text": "{name} completed {course} on {date}.",
+                "issued_by_forum": "Issued by {forum}.",
+                "invalid": "This certificate couldn't be found.",
+                "see_course": "See the course"
+            },
+            "profile": {
+                "nav": "Courses",
+                "in_progress": "In progress",
+                "completed": "Completed",
+                "empty": "No courses yet.",
+                "hidden": "This member keeps their courses private."
+            },
+            "settings": {
+                "show_courses": "Show my courses on my profile",
+                "notify_reviewed": "Someone reviews my assignment",
+                "notify_completed": "I complete a course",
+                "notify_new_lesson": "A new lesson is published in a course I'm taking",
+                "notify_submission": "A student submits an assignment in a course I teach"
+            },
+            "notifications": {
+                "reviewed_passed": "{username} passed your assignment \"{lesson}\"",
+                "reviewed_needs_work": "{username} reviewed your assignment \"{lesson}\": needs work",
+                "submission": "{username} submitted \"{lesson}\"",
+                "new_lesson": "New lesson in {course}",
+                "completed": "You completed {course} — your certificate is ready"
+            },
+            "widget": {
+                "name": "Syllabus courses",
+                "title_member": "Continue learning",
+                "title_guest": "Featured courses",
+                "heading": "Heading",
+                "limit": "How many courses",
+                "empty": "No courses yet.",
+                "all": "All courses"
+            }
+        },
+        "api": {
+            "title_required": "Give it a title.",
+            "invalid": "That choice isn't available.",
+            "cover_url": "The cover must be an https:// image address.",
+            "groups_required": "Choose at least one group, or open the course to everyone.",
+            "not_an_instructor": "{name} can't create courses, so can't teach one.",
+            "slow_down": "Too many requests. Please wait a few minutes and try again.",
+            "quiz_needs_brainstorm": "Quiz lessons need the Brainstorm extension.",
+            "quiz_required": "Choose a quiz.",
+            "quiz_not_yours": "You can only use quizzes you can edit.",
+            "video_url": "Use a YouTube or Vimeo address.",
+            "discussion_not_found": "That discussion doesn't exist, or you can't see it.",
+            "upload_failed": "The upload didn't arrive. Please try again.",
+            "too_big": "That file is too big. The limit is {mb} MB.",
+            "not_an_image": "That isn't a JPEG, PNG, GIF or WebP image.",
+            "video_off": "Video uploads are turned off on this forum.",
+            "video_type": "Videos must be MP4, WebM or Ogg.",
+            "file_type": "That type of file can't be submitted. Allowed: {types}.",
+            "too_many_files": "Attach up to {max} files.",
+            "submission_empty": "Write an answer or attach a file.",
+            "already_waiting": "Your last submission is still waiting for review.",
+            "already_passed": "You've already passed this assignment.",
+            "discussion_title": "{course}: {lesson}",
+            "discussion_body": "Questions about **{lesson}** in {course} go here.\n\n{url}"
+        },
+        "email": {
+            "completed": {
+                "subject": "You completed {course}",
+                "body": "Congratulations — you completed **{course}**. Your certificate is ready: {url}"
+            },
+            "reviewed": {
+                "subject": "Your assignment \"{lesson}\" was reviewed",
+                "passed": "{reviewer} passed your assignment **{lesson}** in {course}. {url}",
+                "needs_work": "{reviewer} reviewed your assignment **{lesson}** in {course} and asked for more work. {url}"
+            },
+            "submission": {
+                "subject": "{student} submitted \"{lesson}\"",
+                "body": "{student} submitted **{lesson}** in {course}. Review it in the instructor panel: {url}"
+            },
+            "new_lesson": {
+                "subject": "New lesson in {course}",
+                "body": "A new lesson, **{lesson}**, is ready in {course}: {url}"
+            }
+        }
+    }
+}

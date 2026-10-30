@@ -1,0 +1,252 @@
+{
+    "ernestdefoe-moments": {
+        "admin": {
+            "settings": {
+                "show_nav": "Show Moments in the forum's side navigation",
+                "char_limit": "Longest moment or reply (characters)",
+                "default_privacy": "Who sees a new moment by default",
+                "default_privacy_help": "Members can change it on each moment. Followers only needs Follow Users (ianm/follow-users); without it, moments default to Everyone.",
+                "privacy_public": "Everyone",
+                "privacy_followers": "Followers only",
+                "privacy_private": "Only me",
+                "edit_window": "Minutes an author can edit a moment for",
+                "edit_window_help": "0 lets authors edit at any time. Authors can always delete their own moments.",
+                "flood_seconds": "Seconds between one member's moments or replies",
+                "max_media": "Photos, videos and GIFs per moment",
+                "image_max_kb": "Largest photo upload (KB)",
+                "video_max_mb": "Largest video upload (MB)",
+                "media_help": "With FoF Upload enabled, photos and video go through it and its own limits apply as well.",
+                "voice_max_seconds": "Longest voice note (seconds)",
+                "giphy_key": "GIPHY API key",
+                "giphy_key_help": "Optional. Create a free key at developers.giphy.com, then members with permission can search GIFs. The key stays on your server.",
+                "giphy_rating": "Highest GIF rating"
+            },
+            "permissions": {
+                "view": "View moments",
+                "post": "Post moments",
+                "reply": "Reply to moments",
+                "upload": "Add photos and video to moments",
+                "voice": "Record voice notes in moments",
+                "gifs": "Add GIFs to moments",
+                "moderate": "Moderate moments (hide, lock, delete, see reports)"
+            },
+            "widgets": {
+                "latest": "Latest moments",
+                "topics": "Popular topics",
+                "compose": "Post a moment"
+            }
+        },
+        "forum": {
+            "nav": "Moments",
+            "search": {
+                "heading": "Moments",
+                "all": "Search all moments for \"{query}\""
+            },
+            "page": {
+                "title": "Moments",
+                "moment_title": "{name}'s moment",
+                "search": "Search moments",
+                "feeds": "Feeds",
+                "trending": "Trending",
+                "results_for": "Moments matching “{q}”",
+                "clear_search": "Clear search",
+                "back": "All moments",
+                "not_found": "This moment doesn't exist, or you can't see it."
+            },
+            "tabs": {
+                "everyone": "Everyone",
+                "following": "Following",
+                "bookmarks": "Bookmarks",
+                "mine": "Mine",
+                "reported": "Reported",
+                "topic": "Topic",
+                "clear_topic": "Show all moments"
+            },
+            "feed": {
+                "new": "{count, plural, one {# new moment} other {# new moments}}",
+                "more": "Load more",
+                "empty": "No moments yet.",
+                "empty_everyone": "No moments yet. Be the first to post one.",
+                "empty_following": "Nobody you follow has posted a moment yet.",
+                "empty_bookmarks": "Bookmark a moment and it will be kept here, just for you.",
+                "empty_mine": "You haven't posted a moment yet.",
+                "empty_reported": "Nothing is waiting for review.",
+                "empty_topic": "No moments use this topic yet.",
+                "no_results": "No moments match your search."
+            },
+            "composer": {
+                "placeholder": "What's happening?",
+                "reply_placeholder": "Write a reply…",
+                "reply_to": "Reply to {name}…",
+                "quote_placeholder": "Add a comment…",
+                "post": "Post",
+                "reply": "Reply",
+                "repost": "Repost",
+                "save": "Save",
+                "cancel": "Cancel",
+                "privacy": "Who can see this",
+                "add_media": "Add photos or video",
+                "record_voice": "Record a voice note",
+                "add_gif": "Add a GIF",
+                "remove_attachment": "Remove",
+                "voice_attached": "Voice note",
+                "too_large": "{name} is too large to upload."
+            },
+            "privacy": {
+                "public": "Everyone",
+                "followers": "Followers only",
+                "private": "Only me"
+            },
+            "card": {
+                "reply": "Reply",
+                "react": "React",
+                "repost": "Repost",
+                "repost_now": "Repost",
+                "reposted": "Reposted",
+                "repost_done": "Reposted to your moments.",
+                "quote": "Quote",
+                "reposted_by": "{username} reposted",
+                "bookmark": "Bookmark",
+                "unbookmark": "Remove bookmark",
+                "bookmarked": "Bookmarked.",
+                "share": "Copy link",
+                "link_copied": "Link copied.",
+                "more": "More",
+                "edit": "Edit",
+                "edited": "Edited",
+                "delete": "Delete",
+                "delete_confirm": "Delete this moment and its replies?",
+                "delete_reply_confirm": "Delete this reply and the replies under it?",
+                "deleted": "Deleted.",
+                "deleted_user": "[deleted]",
+                "hide": "Hide",
+                "unhide": "Unhide",
+                "hidden": "Hidden",
+                "lock": "Lock replies",
+                "unlock": "Unlock replies",
+                "locked": "Replies are locked",
+                "report": "Report",
+                "reports": "{count, plural, one {# report} other {# reports}}",
+                "dismiss": "Dismiss reports",
+                "unavailable": "This moment isn't available."
+            },
+            "embed": {
+                "discussion": "Discussion",
+                "post": "Post",
+                "user": "Member",
+                "moment": "Moment",
+                "by": "by {name}"
+            },
+            "media": {
+                "open": "View full size",
+                "viewer": "Media viewer",
+                "close": "Close",
+                "previous": "Previous",
+                "next": "Next",
+                "count": "{index} of {total}",
+                "video": "Video",
+                "voice_note": "Voice note"
+            },
+            "voice": {
+                "recording": "Recording…",
+                "stop": "Stop",
+                "discard": "Discard",
+                "again": "Record again",
+                "attach": "Attach",
+                "close": "Close",
+                "denied": "Your browser didn't allow the microphone. Check its permissions for this site and try again."
+            },
+            "gifs": {
+                "search": "Search GIPHY",
+                "close": "Close",
+                "gif": "GIF",
+                "none": "No GIFs found.",
+                "credit": "Powered by GIPHY"
+            },
+            "replies": {
+                "label": "Replies",
+                "sort": "Sort replies",
+                "recent": "Recent",
+                "top": "Top",
+                "more": "More replies",
+                "locked": "Replies to this moment are locked."
+            },
+            "report": {
+                "title": "Report",
+                "spam": "Spam",
+                "spam_help": "Advertising or repeated, unwanted posting.",
+                "inappropriate": "Inappropriate",
+                "inappropriate_help": "Offensive, abusive or against the forum's rules.",
+                "off_topic": "Off-topic",
+                "off_topic_help": "Doesn't belong here.",
+                "other": "Something else",
+                "other_help": "Tell the moderators below.",
+                "detail": "Anything the moderators should know (optional)",
+                "submit": "Send report",
+                "done": "Thanks. The moderators will take a look."
+            },
+            "user": {
+                "tab": "Moments",
+                "empty": "{name} hasn't posted any moments you can see."
+            },
+            "notifications": {
+                "mentioned": "{username} mentioned you in a moment",
+                "replied": "{username} replied to your moment",
+                "reposted": "{username} reposted your moment",
+                "reacted": "{count, plural, =0 {{username} reacted to your moment} one {{username} and # other reacted to your moment} other {{username} and # others reacted to your moment}}"
+            },
+            "settings": {
+                "momentMentioned": "Someone mentions me in a moment",
+                "momentReplied": "Someone replies to my moment or reply",
+                "momentReposted": "Someone reposts my moment",
+                "momentReacted": "Someone reacts to my moment or reply"
+            },
+            "widgets": {
+                "latest": "Latest moments",
+                "topics": "Popular topics",
+                "compose": "Post a moment",
+                "limit": "How many to show",
+                "all": "See all moments",
+                "media": "Shared a photo or video",
+                "repost": "Reposted a moment",
+                "no_topics": "No topics yet.",
+                "topic_count": "{count, plural, one {# moment} other {# moments}}",
+                "posted": "Posted."
+            }
+        },
+        "api": {
+            "empty": "Write something, or add a photo, video, voice note or GIF.",
+            "too_long": "Keep it to {max} characters.",
+            "media_missing": "An attachment is missing. Remove it and add it again.",
+            "too_much_media": "A moment can have up to {max} photos, videos or GIFs.",
+            "voice_alone": "A voice note goes on its own, without photos or GIFs.",
+            "bad_privacy": "Choose who can see this moment.",
+            "already_reposted": "You've already reposted this moment.",
+            "bad_reason": "Choose a reason for the report.",
+            "bad_reaction": "That reaction isn't available.",
+            "upload_failed": "The upload didn't arrive. Please try again.",
+            "too_large": "That file is too large.",
+            "bad_type": "That kind of file can't be added. Photos can be JPEG, PNG, GIF or WebP, and video MP4 or WebM.",
+            "voice_too_long": "Voice notes can be up to {max} seconds long.",
+            "bad_gif": "That GIF can't be added."
+        },
+        "email": {
+            "mentioned": {
+                "subject": "{actor} mentioned you in a moment",
+                "body": "{actor} mentioned you in a moment:\n\n{url}"
+            },
+            "replied": {
+                "subject": "{actor} replied to your moment",
+                "body": "{actor} replied to your moment:\n\n{url}"
+            },
+            "reposted": {
+                "subject": "{actor} reposted your moment",
+                "body": "{actor} reposted your moment:\n\n{url}"
+            },
+            "reacted": {
+                "subject": "{actor} reacted to your moment",
+                "body": "{actor} reacted to your moment:\n\n{url}"
+            }
+        }
+    }
+}
