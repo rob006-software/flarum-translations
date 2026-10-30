@@ -17,6 +17,8 @@
                 "public": "",
                 "approval": "",
                 "approval_required": "",
+                "for_buyers": "",
+                "buy_to_join": "",
                 "request_to_join": "",
                 "switch": "",
                 "request_switch": "",
@@ -43,6 +45,7 @@
                 "membership_type_label": "",
                 "membership_type_open": "",
                 "membership_type_approval": "",
+                "membership_type_paid": "",
                 "image_label": "",
                 "banner_label": "",
                 "submit": "",
@@ -236,6 +239,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": ""
+            },
             "shared_from": "",
             "shared_title": "",
             "errors": {
@@ -257,6 +263,7 @@
                 "group_private": "",
                 "removed_from_group": "",
                 "invite_only": "",
+                "paid_only": "",
                 "join_request_rejected": "",
                 "poll_not_found": "",
                 "poll_ended": "",

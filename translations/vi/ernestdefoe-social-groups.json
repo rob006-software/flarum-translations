@@ -17,6 +17,8 @@
                 "public": "Công khai",
                 "approval": "Cần duyệt",
                 "approval_required": "Cần được duyệt",
+                "for_buyers": "",
+                "buy_to_join": "",
                 "request_to_join": "Xin tham gia",
                 "switch": "",
                 "request_switch": "",
@@ -45,6 +47,7 @@
                 "membership_type_label": "Cách tham gia",
                 "membership_type_open": "Mở — ai cũng tham gia được ngay",
                 "membership_type_approval": "Cần duyệt — người tạo nhóm phải duyệt từng yêu cầu",
+                "membership_type_paid": "",
                 "image_label": "Ảnh nhóm",
                 "banner_label": "Ảnh biểu ngữ",
                 "submit": "Tạo nhóm",
@@ -260,6 +263,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": ""
+            },
             "shared_from": "Chia sẻ từ {name}",
             "shared_title": "",
             "errors": {
@@ -281,6 +287,7 @@
                 "group_private": "Nhóm này là nhóm riêng tư.",
                 "removed_from_group": "Bạn đã bị xóa khỏi nhóm này.",
                 "invite_only": "Nhóm này chỉ vào được khi có lời mời.",
+                "paid_only": "",
                 "join_request_rejected": "",
                 "poll_not_found": "Không tìm thấy cuộc bình chọn.",
                 "poll_ended": "Cuộc thăm dò này đã kết thúc.",

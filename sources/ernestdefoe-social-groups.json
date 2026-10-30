@@ -17,6 +17,8 @@
                 "public": "Public",
                 "approval": "Approval",
                 "approval_required": "Approval required",
+                "for_buyers": "For people who buy it",
+                "buy_to_join": "Buy to join",
                 "request_to_join": "Request to Join",
                 "switch": "Switch to this group",
                 "request_switch": "Request to switch",
@@ -43,6 +45,7 @@
                 "membership_type_label": "Membership",
                 "membership_type_open": "Open — anyone can join instantly",
                 "membership_type_approval": "Approval required — creator must approve each request",
+                "membership_type_paid": "Paid — people join by buying it in the store (an admin sells it from Kiosk)",
                 "image_label": "Group Image",
                 "banner_label": "Banner Image",
                 "submit": "Create Group",
@@ -236,6 +239,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": "Social group"
+            },
             "shared_from": "Shared from {name}",
             "shared_title": "Shared: {title}",
             "errors": {
@@ -257,6 +263,7 @@
                 "group_private": "This group is private.",
                 "removed_from_group": "You have been removed from this group.",
                 "invite_only": "This group is invite-only.",
+                "paid_only": "This group is for people who buy it.",
                 "join_request_rejected": "Your request to join was declined. You can ask again later.",
                 "poll_not_found": "Poll not found.",
                 "poll_ended": "This poll has ended.",

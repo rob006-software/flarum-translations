@@ -58,7 +58,18 @@
                 "placeholder_book": "Search for a book by title, author or ISBN",
                 "results_from": "Results from {source}",
                 "escape_hint": "Esc keeps a plain title",
-                "unavailable": "{source} is not answering right now. You can still post with a plain title."
+                "unavailable": "{source} is not answering right now. You can still post with a plain title.",
+                "type": {
+                    "dlc": "DLC",
+                    "expansion": "Expansion",
+                    "bundle": "Bundle",
+                    "standalone": "Standalone expansion",
+                    "remake": "Remake",
+                    "remaster": "Remaster",
+                    "expanded": "Expanded edition",
+                    "port": "Port",
+                    "edition": "Edition"
+                }
             },
             "composer": {
                 "linked": "Linked to {title} · {source}",

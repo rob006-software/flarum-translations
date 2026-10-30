@@ -17,6 +17,8 @@
                 "public": "公开",
                 "approval": "需审核",
                 "approval_required": "加入需审核",
+                "for_buyers": "",
+                "buy_to_join": "",
                 "request_to_join": "申请加入",
                 "switch": "",
                 "request_switch": "",
@@ -45,6 +47,7 @@
                 "membership_type_label": "加入方式",
                 "membership_type_open": "自由加入 — 任何人都可以直接加入",
                 "membership_type_approval": "审核加入 — 每个加入申请都需创建者批准",
+                "membership_type_paid": "",
                 "image_label": "社群头像",
                 "banner_label": "社群横幅",
                 "submit": "创建社群",
@@ -260,6 +263,9 @@
             }
         },
         "lib": {
+            "kiosk": {
+                "group": ""
+            },
             "shared_from": "分享自 {name}",
             "shared_title": "",
             "errors": {
@@ -281,6 +287,7 @@
                 "group_private": "此社群为私密社群。",
                 "removed_from_group": "你已被移出此社群。",
                 "invite_only": "此社群仅限邀请加入。",
+                "paid_only": "",
                 "join_request_rejected": "",
                 "poll_not_found": "未找到投票。",
                 "poll_ended": "此投票已结束。",
