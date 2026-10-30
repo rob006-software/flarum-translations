@@ -1138,6 +1138,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/point-system/v2.1.15/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
+	'ramon-saved-searches' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/saved-searches/v0.0.1/locale/en.yml',
+		'__builtInLanguages' => ['pt_BR'],
+	],
 	'ramon-stickers' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/stickers/v2.1.0/locale/en.yml',
 	],
