@@ -1021,6 +1021,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-insert-coin`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-insert-coin) | [`ernestdefoe/insert-coin`](https://github.com/ernestdefoe/insert-coin) |
 | [`ernestdefoe-janitor`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-janitor) | [`ernestdefoe/janitor`](https://github.com/ernestdefoe/janitor) |
 | [`ernestdefoe-kindred`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kindred) | [`ernestdefoe/kindred`](https://github.com/ernestdefoe/kindred) |
+| [`ernestdefoe-kiosk`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kiosk) | [`ernestdefoe/kiosk`](https://github.com/ernestdefoe/kiosk) |
 | [`ernestdefoe-ladder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ladder) | [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) |
 | [`ernestdefoe-lobby`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-lobby) | [`ernestdefoe/lobby`](https://github.com/ernestdefoe/lobby) |
 | [`ernestdefoe-logo-manager`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-logo-manager) | [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) |
@@ -1064,6 +1065,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-topic-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-topic-map) | [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) |
 | [`ernestdefoe-tributary`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-tributary) | [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) |
 | [`ernestdefoe-typesense`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-typesense) | [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense) |
+| [`ernestdefoe-vantage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-vantage) | [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) |
 | [`ernestdefoe-velvet-rope`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-velvet-rope) | [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) |
 | [`ernestdefoe-verbatim`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-verbatim) | [`ernestdefoe/verbatim`](https://github.com/ernestdefoe/verbatim) |
 | [`ernestdefoe-wardrobe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-wardrobe) | [`ernestdefoe/wardrobe`](https://github.com/ernestdefoe/wardrobe) |
