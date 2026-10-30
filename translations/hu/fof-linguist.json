@@ -101,8 +101,8 @@
                 "locale-all": "„Összes” fiktív területi beállítás",
                 "override-existing": "Meglévő saját egyéni fordítások felülírása",
                 "submit": "Importálás",
-                "results": "Az importálás kész. {imported} szöveg lett importálva, és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n",
-                "results-with-ignore": "Az importálás kész. {imported} szöveg lett importálva, {ignored} meglévő szöveg figyelmen kívül lett hagyva és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
+                "results": "Az importálás kész. {imported} szöveg lett importálva, valamint {identical} egyező és {empty} üres szöveg lett kihagyva. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n",
+                "results-with-ignore": "Az importálás kész. {imported} szöveg lett importálva, {ignored} meglévő szöveg lett figyelmen kívül hagyva, valamint {identical} egyező szöveg és {empty} üres szöveg lett kihagyva. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
             },
             "known-namespace": {
                 "core": "Flarum mag",
@@ -117,8 +117,8 @@
             }
         },
         "api": {
-            "invalid_icu_syntax": "",
-            "cannot_change_key_or_locale": ""
+            "invalid_icu_syntax": "A fordítás nem érvényes ICU-üzenet, például lehet, hogy nem zárt be egy zárójelet.",
+            "cannot_change_key_or_locale": "Egy mentett fordítás kulcsa vagy területi beállítása nem változtatható meg."
         }
     }
 }
