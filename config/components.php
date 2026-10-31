@@ -1126,6 +1126,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/classifieds/1.0.0/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
+	'ramon-composer' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/composer/v0.0.2/locale/en.yml',
+		'__builtInLanguages' => ['pt_BR'],
+	],
 	'ramon-guest-cta' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.3/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
