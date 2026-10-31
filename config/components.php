@@ -1127,7 +1127,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-composer' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/composer/v0.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/composer/v0.0.2/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-guest-cta' => [
