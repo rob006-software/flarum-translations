@@ -1107,7 +1107,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-avocado' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.2.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/avocado/v2.2.11/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-backup' => [
