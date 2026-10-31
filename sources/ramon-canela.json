@@ -301,6 +301,8 @@
                     "group_bugreports_desc": "The button to mark the screen and report a problem, and the reports that came in.",
                     "group_templates": "Composer templates",
                     "group_templates_desc": "The text a new topic starts with, per category: pre-filled, or a form where only the fields are filled in.",
+                    "group_onebox": "Onebox",
+                    "group_onebox_desc": "Links that become cards inside posts, like on Discourse: a GitHub link on its own line shows the file, issue, pull request, commit, release or repository.",
                     "group_integrations_desc": "The theme look for third-party extensions. Each one only works with its extension enabled.",
                     "group_ai_desc": "Provider, bot, composer helper, summaries and related discussions.",
                     "group_system": "Automated messages",
@@ -620,6 +622,22 @@
                     "groups_activity_help": "Members' recent posts on the group page.",
                     "groups_profile_links_label": "Profile groups link to the group page",
                     "groups_profile_links_help": "The group pills on the profile card become links to /g/group-name."
+                },
+                "onebox": {
+                    "github_title": "GitHub",
+                    "github_description": "A GitHub link on its own line becomes a card: the file with the requested lines (#L10-L20), the issue or pull request with its state, the commit, the release or the repository. The server fetches and caches it; readers never contact GitHub.",
+                    "github_label": "Cards for GitHub links",
+                    "github_help": "Turned off, GitHub links stay as plain links.",
+                    "token_label": "GitHub token (optional)",
+                    "token_help": "Without a token, the GitHub API allows 60 requests per hour from this server (issues, PRs, commits and repositories; files don't count). Use a personal access token with no extra permissions: cards only show public repositories, even when the token can see private ones.",
+                    "token_saved": "Token saved (type to replace it)",
+                    "token_clear": "Remove the token",
+                    "test_title": "Test a link",
+                    "test_description": "Paste a GitHub link to see the card as it shows up in posts.",
+                    "test_placeholder": "https://github.com/owner/repository/blob/main/file.php#L10-L20",
+                    "test_button": "Show card",
+                    "test_none": "This link doesn't become a card: it isn't one of the supported formats, the repository is private or doesn't exist, or GitHub didn't answer.",
+                    "formats": "Supported formats: file (with or without #L10-L20), issue, pull request, commit, release (/releases/tag/… or /releases/latest) and repository. The link must be on its own line."
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "Unread dot on tags",
@@ -1305,6 +1323,7 @@
             "ai": {
                 "translation": {
                     "original_language": "This post was originally written in {language}.",
+                    "original_mixed": "This post mixes more than one language.",
                     "title_original_language": "This title was originally written in {language}.",
                     "click_to_show_original": "Click to show the original.",
                     "translating": "Translating…",
@@ -3553,6 +3572,21 @@
                 "search_button": "Search",
                 "home": "Back to home",
                 "placeholder": "Search discussions by title or keywords…"
+            }
+        },
+        "lib": {
+            "onebox": {
+                "state_open": "Open",
+                "state_closed": "Closed",
+                "state_merged": "Merged",
+                "state_release": "Release",
+                "state_prerelease": "Pre-release",
+                "state_draft": "Draft",
+                "comments": "{count, plural, one {# comment} other {# comments}}",
+                "files": "{count, plural, one {# file changed} other {# files changed}}",
+                "assets": "{count, plural, one {# asset} other {# assets}}",
+                "commits": "{count, plural, one {# commit} other {# commits}}",
+                "lines_of": "Lines {from}–{to} of {total} · view on GitHub"
             }
         }
     },

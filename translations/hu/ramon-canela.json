@@ -301,6 +301,8 @@
                     "group_bugreports_desc": "",
                     "group_templates": "",
                     "group_templates_desc": "",
+                    "group_onebox": "",
+                    "group_onebox_desc": "",
                     "group_integrations_desc": "A téma megjelenése a külső bővítményekhez. Mindegyik csak a bővítménye bekapcsolt állapotában működik.",
                     "group_ai_desc": "Szolgáltató, bot, szerkesztősegéd, összegzések és kapcsolódó beszélgetések.",
                     "group_system": "Automatikus üzenetek",
@@ -629,6 +631,22 @@
                     "groups_activity_help": "A tagok legutóbbi hozzászólásai a csoport oldalán.",
                     "groups_profile_links_label": "A profil csoportjai a csoport oldalára hivatkoznak",
                     "groups_profile_links_help": "A profilkártyán lévő csoporttabletták hivatkozássá válnak a /g/csoportnév címre."
+                },
+                "onebox": {
+                    "github_title": "",
+                    "github_description": "",
+                    "github_label": "",
+                    "github_help": "",
+                    "token_label": "",
+                    "token_help": "",
+                    "token_saved": "",
+                    "token_clear": "",
+                    "test_title": "",
+                    "test_description": "",
+                    "test_placeholder": "",
+                    "test_button": "",
+                    "test_none": "",
+                    "formats": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "",
@@ -1318,6 +1336,7 @@
             "ai": {
                 "translation": {
                     "original_language": "Ez a hozzászólás eredetileg ezen a nyelven íródott: {language}.",
+                    "original_mixed": "",
                     "title_original_language": "Ez a cím eredetileg ezen a nyelven íródott: {language}.",
                     "click_to_show_original": "Kattints az eredeti megjelenítéséhez.",
                     "translating": "Fordítás…",
@@ -3566,6 +3585,21 @@
                 "search_button": "Keresés",
                 "home": "Vissza a főoldalra",
                 "placeholder": "Beszélgetések keresése cím vagy kulcsszavak alapján…"
+            }
+        },
+        "lib": {
+            "onebox": {
+                "state_open": "",
+                "state_closed": "",
+                "state_merged": "",
+                "state_release": "",
+                "state_prerelease": "",
+                "state_draft": "",
+                "comments": "",
+                "files": "",
+                "assets": "",
+                "commits": "",
+                "lines_of": ""
             }
         }
     },

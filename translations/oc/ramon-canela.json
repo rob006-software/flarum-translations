@@ -301,6 +301,8 @@
                     "group_bugreports_desc": "",
                     "group_templates": "",
                     "group_templates_desc": "",
+                    "group_onebox": "",
+                    "group_onebox_desc": "",
                     "group_integrations_desc": "",
                     "group_ai_desc": "",
                     "group_system": "",
@@ -620,6 +622,22 @@
                     "groups_activity_help": "",
                     "groups_profile_links_label": "",
                     "groups_profile_links_help": ""
+                },
+                "onebox": {
+                    "github_title": "",
+                    "github_description": "",
+                    "github_label": "",
+                    "github_help": "",
+                    "token_label": "",
+                    "token_help": "",
+                    "token_saved": "",
+                    "token_clear": "",
+                    "test_title": "",
+                    "test_description": "",
+                    "test_placeholder": "",
+                    "test_button": "",
+                    "test_none": "",
+                    "formats": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "",
@@ -1305,6 +1323,7 @@
             "ai": {
                 "translation": {
                     "original_language": "",
+                    "original_mixed": "",
                     "title_original_language": "",
                     "click_to_show_original": "",
                     "translating": "",
@@ -3553,6 +3572,21 @@
                 "search_button": "",
                 "home": "",
                 "placeholder": ""
+            }
+        },
+        "lib": {
+            "onebox": {
+                "state_open": "",
+                "state_closed": "",
+                "state_merged": "",
+                "state_release": "",
+                "state_prerelease": "",
+                "state_draft": "",
+                "comments": "",
+                "files": "",
+                "assets": "",
+                "commits": "",
+                "lines_of": ""
             }
         }
     },

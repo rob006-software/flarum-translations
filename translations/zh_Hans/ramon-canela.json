@@ -301,6 +301,8 @@
                     "group_bugreports_desc": "",
                     "group_templates": "",
                     "group_templates_desc": "",
+                    "group_onebox": "",
+                    "group_onebox_desc": "",
                     "group_integrations_desc": "为第三方扩展提供Discourse风格界面。每个扩展都需要启用对应的扩展才能使用。",
                     "group_ai_desc": "服务提供商、机器人、编辑器助手、摘要和相关讨论。",
                     "group_system": "自动消息",
@@ -629,6 +631,22 @@
                     "groups_activity_help": "用户组页面中成员最近发布的帖子。",
                     "groups_profile_links_label": "个人资料中的用户组链接到用户组页面",
                     "groups_profile_links_help": "个人资料卡片上的用户组标签会链接到/g/group-name。"
+                },
+                "onebox": {
+                    "github_title": "",
+                    "github_description": "",
+                    "github_label": "",
+                    "github_help": "",
+                    "token_label": "",
+                    "token_help": "",
+                    "token_saved": "",
+                    "token_clear": "",
+                    "test_title": "",
+                    "test_description": "",
+                    "test_placeholder": "",
+                    "test_button": "",
+                    "test_none": "",
+                    "formats": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "",
@@ -1318,6 +1336,7 @@
             "ai": {
                 "translation": {
                     "original_language": "此帖子原文使用{language}撰写。",
+                    "original_mixed": "",
                     "title_original_language": "此标题原文使用{language}撰写。",
                     "click_to_show_original": "点击查看原文。",
                     "translating": "正在翻译…",
@@ -3566,6 +3585,21 @@
                 "search_button": "搜索",
                 "home": "返回首页",
                 "placeholder": "按标题或关键词搜索讨论…"
+            }
+        },
+        "lib": {
+            "onebox": {
+                "state_open": "",
+                "state_closed": "",
+                "state_merged": "",
+                "state_release": "",
+                "state_prerelease": "",
+                "state_draft": "",
+                "comments": "",
+                "files": "",
+                "assets": "",
+                "commits": "",
+                "lines_of": ""
             }
         }
     },
