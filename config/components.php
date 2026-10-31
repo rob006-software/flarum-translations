@@ -213,7 +213,7 @@ return [
 		'__builtInLanguages' => ['fr'],
 	],
 	'ernestdefoe-depot' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/depot/v1.3.3/locale/en.yml',
 	],
 	'ernestdefoe-detour' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/detour/1.0.0/locale/en.yml',
