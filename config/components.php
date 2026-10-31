@@ -1226,7 +1226,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v2.0.0/resources/locale/en.yml',
 	],
 	'tacraft-sociality-github-oauth' => [
-		'tag' => 'https://raw.githubusercontent.com/TaCraft-Sociality/flarum-github-oauth/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/TaCraft-Sociality/flarum-github-oauth/1.0.1/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'tapao-auto-ai-moderation' => [
