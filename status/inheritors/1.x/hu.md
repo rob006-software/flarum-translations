@@ -2,18 +2,38 @@
 
 Translations for Hungarian (`hu`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **0** are translated differently and **3** are
-translated only in `hu`. Altogether they cover **2** components.
+sides, but do not match between them: **1** are translated differently and **3** are
+translated only in `hu`. Altogether they cover **3** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Missing translations |
-| --- | --- |
-| `fof-usercard-stats` | [2](#fof-usercard-stats-missing) |
-| `ralkage-word-counter` | [1](#ralkage-word-counter-missing) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `fof-reactions` | [1](#fof-reactions) | 0 |
+| `fof-usercard-stats` | 0 | [2](#fof-usercard-stats-missing) |
+| `ralkage-word-counter` | 0 | [1](#ralkage-word-counter-missing) |
+
+
+## Different translations
+
+Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `hu` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `fof-reactions`
+
+#### [`fof-reactions.forum.modal.anonymous_count`](https://weblate.rob006.net/translate/flarum2/fof-reactions/hu/?q=context%3A%3D%22fof-reactions.forum.modal.anonymous_count%22)
+
+> {count, plural, one {# anonymous user} other {# anonymous users}}
+
+```diff
+-{count} névtelen felhasználó
++{count, plural, one {# névtelen felhasználó} other {# névtelen felhasználó}}
+```
+
+<del>{count}</del><ins>{count, plural, one {#</ins> névtelen <del>felhasználó</del><ins>felhasználó} other {# névtelen felhasználó}}</ins>
 
 
 ## Missing translations
