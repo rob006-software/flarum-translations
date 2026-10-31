@@ -379,7 +379,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/salvage/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-scribe' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.14/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.4.15/locale/en.yml',
 	],
 	'ernestdefoe-seamless-refresh' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seamless-refresh/v0.2.1/locale/en.yml',
