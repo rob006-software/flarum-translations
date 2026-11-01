@@ -3592,17 +3592,17 @@
     },
     "forumaker-profile-cover": {
         "forum": {
-            "cover": "",
-            "edit_cover": "",
+            "cover": "Modifier la couverture",
+            "edit_cover": "Modifier la couverture",
             "notice": "",
-            "position_label": "",
-            "save_position_button": "",
+            "position_label": "Position de la couverture",
+            "save_position_button": "Sauvegarder la position",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Couverture de profil mise à jour",
+                "error": "L'image ne peut pas être téléchargée"
             },
             "removed": {
-                "success": "",
+                "success": "Couverture de profil supprimée",
                 "error": ""
             }
         }
@@ -3610,7 +3610,7 @@
     "linkrobins-wiki": {
         "forum": {
             "search": {
-                "heading": "",
+                "heading": "Wiki",
                 "placeholder": "",
                 "results_heading": "",
                 "all_button": "",
@@ -3641,12 +3641,12 @@
                 "slug_label": "",
                 "slug_placeholder": "",
                 "slug_help": "",
-                "position_label": "",
+                "position_label": "Position",
                 "position_placeholder": "",
                 "position_help": "",
-                "category_label": "",
-                "no_category": "",
-                "body_label": "",
+                "category_label": "Catégorie",
+                "no_category": "Aucune catégorie",
+                "body_label": "Contenu",
                 "body_placeholder": "",
                 "body_placeholder_click": "",
                 "body_placeholder_edit": "",
@@ -3684,14 +3684,14 @@
             "action": {
                 "report": "",
                 "edit": "",
-                "delete": "",
+                "delete": "Supprimer",
                 "restore": "",
                 "delete_forever": "",
                 "save_changes": "",
-                "cancel": ""
+                "cancel": "Annuler"
             },
             "report": {
-                "title": "",
+                "title": "Signaler cet article",
                 "intro": "",
                 "reason_label": "",
                 "reason_inaccurate": "",
@@ -3754,12 +3754,12 @@
     "ernestdefoe-wardrobe": {
         "admin": {
             "settings": {
-                "flarum_title": ""
+                "flarum_title": "Défaut"
             }
         },
         "forum": {
             "theme": {
-                "flarum": ""
+                "flarum": "Défaut"
             }
         }
     },
