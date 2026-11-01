@@ -345,7 +345,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-projects' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.9/resources/locale/en.yml',
 	],
 	'ernestdefoe-quickdraw' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.5/locale/en.yml',
