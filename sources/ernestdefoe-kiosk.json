@@ -57,10 +57,13 @@
             "nav": "Store",
             "store": {
                 "title": "Store",
-                "empty": "Nothing is for sale yet."
+                "empty": "Nothing is for sale yet.",
+                "by_seller": "Sold by {name}"
             },
             "card": {
                 "includes": "Includes:",
+                "sold_by": "Sold by {name}, paid directly to them",
+                "refund_terms": "Refunds and support",
                 "choose_price": "Choose a price",
                 "trial": "{count, plural, one {# day free} other {# days free}}",
                 "buy": "Buy",
@@ -123,6 +126,102 @@
                 "forever": "It's yours to keep.",
                 "go_to": "Go to {name}"
             },
+            "selling": {
+                "title": "Selling",
+                "unavailable": "Selling isn't open to your account.",
+                "connected": "Your payout account is connected.",
+                "connect_failed": "That didn't connect. Try again, or check the details you entered.",
+                "accounts": "Where you're paid",
+                "accounts_help": "Buyers pay you directly, into your own account. The forum never holds your money. Connect at least one account to start selling.",
+                "fee": "The forum takes {percent}% of each Stripe sale.",
+                "fee_taken": "{amount} to the forum",
+                "status": {
+                    "connected": "Connected",
+                    "pending": "Not finished",
+                    "none": "Not connected"
+                },
+                "help": {
+                    "paypal": "Enter the email address of your PayPal account. Buyers pay you there directly. One-time prices only.",
+                    "paypal_app": "For monthly or yearly prices too: in your PayPal developer dashboard, create a REST app (Apps & Credentials), then paste its Client ID and Secret here.",
+                    "paypal_email_limits": "Paid by email, so one-time prices only. To refund a buyer, refund them in your PayPal, then press Refund on the sale here to end their access.",
+                    "stripe": "You'll sign up (or sign in) on Stripe's own pages. Stripe asks for your details and bank account, not this forum.",
+                    "btcpay": "Enter your BTCPay Server's address. You'll pick your store and approve access on your server.",
+                    "nowpayments": "In your NOWPayments dashboard, create an API key and an IPN secret, and paste both here."
+                },
+                "field": {
+                    "email": "Your PayPal email",
+                    "clientId": "Client ID",
+                    "secret": "Secret",
+                    "url": "https://your-btcpay-server.com",
+                    "apiKey": "API key",
+                    "ipnSecret": "IPN secret"
+                },
+                "connect": "Connect {provider}",
+                "continue_to": "Continue to {provider}",
+                "paypal_use_app": "Use your own PayPal app instead (for monthly or yearly prices)",
+                "paypal_use_email": "Use just your PayPal email instead",
+                "remove": "Remove",
+                "remove_confirm": "Remove your {provider} account? Your listings stop selling through it. Buyers keep what they bought.",
+                "terms": "Refunds and support",
+                "terms_help": "Shown on your listings. Say how buyers reach you and when you give refunds. Refunds are yours to give.",
+                "save_terms": "Save",
+                "listings": "Your listings",
+                "new_listing": "New listing",
+                "edit_listing": "Edit listing",
+                "connect_first": "Connect a payout account first.",
+                "review_help": "New listings and changes are checked by the forum's staff before they go on sale.",
+                "no_listings": "You aren't selling anything yet.",
+                "sold_count": "{count, plural, one {# sold} other {# sold}}",
+                "state": {
+                    "pending": "Waiting for review",
+                    "rejected": "Not approved",
+                    "on_sale": "On sale",
+                    "off": "Off sale"
+                },
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete {name}? If anyone has bought it, it's taken off sale instead.",
+                "sales": "Your sales",
+                "no_sales": "No sales yet.",
+                "deleted_buyer": "a deleted account",
+                "refund": "Refund",
+                "refund_confirm": "Refund {amount} to the buyer and end their access?",
+                "name": "Name",
+                "description": "Description",
+                "unlocks": "What buyers get",
+                "unlocks_help": "Things you've made on this forum, such as a file you uploaded to Downloads.",
+                "find_item": "Search your things…",
+                "no_items": "Nothing of yours that can be sold was found.",
+                "remove_item": "Remove",
+                "prices": "Price",
+                "amount": "Amount",
+                "currency": "Currency",
+                "kind": "How often",
+                "kinds": {
+                    "one_off": "Once",
+                    "month": "Every month",
+                    "year": "Every year"
+                },
+                "remove_price": "Remove this price",
+                "add_price": "Add another price",
+                "on_sale": "On sale",
+                "save": "Save",
+                "submit": "Send for review",
+                "errors": {
+                    "provider_off": "That payment provider isn't available for selling here.",
+                    "paypal_keys": "Paste your PayPal app's Client ID and Secret.",
+                    "paypal_email": "Enter the email address of your PayPal account.",
+                    "paypal_rejected": "PayPal didn't accept those keys. Check both are from the same app, and that they're live keys unless this forum is in test mode.",
+                    "paypal_webhook": "PayPal wouldn't send payment notifications to this forum. Ask the forum's staff to check the forum uses https.",
+                    "stripe_connect": "Stripe couldn't start your sign-up. Try again in a moment.",
+                    "btcpay_url": "Enter your BTCPay Server's https:// address.",
+                    "nowpayments_keys": "Paste your NOWPayments API key and IPN secret.",
+                    "nowpayments_rejected": "NOWPayments didn't accept that API key.",
+                    "not_yours": "You can only sell things you made yourself, and each listing needs at least one.",
+                    "has_subscriptions": "Buyers still have subscriptions running through this account. Keep it until they end, or cancel them from your sales.",
+                    "too_many_listings": "You've reached the most listings one member can have."
+                }
+            },
             "purchases": {
                 "title": "My purchases",
                 "empty": "You haven't bought anything yet.",
@@ -160,6 +259,7 @@
                 "notify": "Receipts and renewal updates for my purchases"
             },
             "errors": {
+                "own_listing": "You can't buy your own listing.",
                 "unavailable": "This isn't on sale right now.",
                 "sold_out": "This is sold out.",
                 "login": "Log in to buy this.",
@@ -188,7 +288,33 @@
         "admin": {
             "permissions": {
                 "read_paid": "Read paid content without buying",
-                "ad_free": "Never see ads"
+                "ad_free": "Never see ads",
+                "sell": "Sell their own things in the store",
+                "sell_trusted": "Sell without waiting for review"
+            },
+            "sellers": {
+                "intro": "Let members sell things they made on this forum (a file they uploaded to Downloads, a course, an album). Buyers pay the seller directly, into the seller's own PayPal, Stripe or crypto account: the forum never holds their money. Choose who may sell in Permissions.",
+                "enable": "Let members sell",
+                "enable_help": "Off by default. Members also need the \"Sell their own things in the store\" permission.",
+                "fee": "The forum's cut of Stripe sales (%)",
+                "fee_help": "Stripe takes it from each sale for you. PayPal and crypto pay the seller directly, so there is nothing to take it from. For those, you can sell sellers a membership as an ordinary product instead.",
+                "providers": "Ways sellers can be paid",
+                "providers_help": "Sellers connect their own accounts on their Selling page.",
+                "stripe_title": "Stripe for sellers",
+                "stripe_help": "Sellers sign up for Stripe accounts attached to yours (Stripe Connect). Turn on Connect in your Stripe dashboard first, then press the button so Kiosk hears about your sellers' payments.",
+                "stripe_connect": "Set up Stripe for sellers",
+                "stripe_ready": "Ready for sellers ({mode} mode).",
+                "stripe_failed": "Stripe said: {error}. Is Connect switched on in your Stripe dashboard?",
+                "queue": "Waiting for review",
+                "all_listings": "All member listings",
+                "show_all": "Show all",
+                "show_queue": "Show the queue",
+                "queue_empty": "Nothing is waiting for review.",
+                "none": "No member has listed anything yet.",
+                "approve": "Approve",
+                "approved": "On sale",
+                "reject": "Reject",
+                "reject_prompt": "Why? The seller sees this."
             },
             "tabs": {
                 "overview": "Overview",
@@ -197,6 +323,7 @@
                 "coupons": "Coupons",
                 "ads": "Ads",
                 "payments": "Payments",
+                "sellers": "Sellers",
                 "webhooks": "Payment log",
                 "settings": "Settings"
             },

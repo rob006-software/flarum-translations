@@ -57,10 +57,13 @@
             "nav": "",
             "store": {
                 "title": "",
-                "empty": ""
+                "empty": "",
+                "by_seller": ""
             },
             "card": {
                 "includes": "",
+                "sold_by": "",
+                "refund_terms": "",
                 "choose_price": "",
                 "trial": "",
                 "buy": "",
@@ -123,6 +126,102 @@
                 "forever": "",
                 "go_to": ""
             },
+            "selling": {
+                "title": "",
+                "unavailable": "",
+                "connected": "",
+                "connect_failed": "",
+                "accounts": "",
+                "accounts_help": "",
+                "fee": "",
+                "fee_taken": "",
+                "status": {
+                    "connected": "",
+                    "pending": "",
+                    "none": ""
+                },
+                "help": {
+                    "paypal": "",
+                    "paypal_app": "",
+                    "paypal_email_limits": "",
+                    "stripe": "",
+                    "btcpay": "",
+                    "nowpayments": ""
+                },
+                "field": {
+                    "email": "",
+                    "clientId": "",
+                    "secret": "",
+                    "url": "",
+                    "apiKey": "",
+                    "ipnSecret": ""
+                },
+                "connect": "",
+                "continue_to": "",
+                "paypal_use_app": "",
+                "paypal_use_email": "",
+                "remove": "",
+                "remove_confirm": "",
+                "terms": "",
+                "terms_help": "",
+                "save_terms": "",
+                "listings": "",
+                "new_listing": "",
+                "edit_listing": "",
+                "connect_first": "",
+                "review_help": "",
+                "no_listings": "",
+                "sold_count": "",
+                "state": {
+                    "pending": "",
+                    "rejected": "",
+                    "on_sale": "",
+                    "off": ""
+                },
+                "edit": "",
+                "delete": "",
+                "delete_confirm": "",
+                "sales": "",
+                "no_sales": "",
+                "deleted_buyer": "",
+                "refund": "",
+                "refund_confirm": "",
+                "name": "",
+                "description": "",
+                "unlocks": "",
+                "unlocks_help": "",
+                "find_item": "",
+                "no_items": "",
+                "remove_item": "",
+                "prices": "",
+                "amount": "",
+                "currency": "",
+                "kind": "",
+                "kinds": {
+                    "one_off": "",
+                    "month": "",
+                    "year": ""
+                },
+                "remove_price": "",
+                "add_price": "",
+                "on_sale": "",
+                "save": "",
+                "submit": "",
+                "errors": {
+                    "provider_off": "",
+                    "paypal_keys": "",
+                    "paypal_email": "",
+                    "paypal_rejected": "",
+                    "paypal_webhook": "",
+                    "stripe_connect": "",
+                    "btcpay_url": "",
+                    "nowpayments_keys": "",
+                    "nowpayments_rejected": "",
+                    "not_yours": "",
+                    "has_subscriptions": "",
+                    "too_many_listings": ""
+                }
+            },
             "purchases": {
                 "title": "",
                 "empty": "",
@@ -160,6 +259,7 @@
                 "notify": ""
             },
             "errors": {
+                "own_listing": "",
                 "unavailable": "",
                 "sold_out": "",
                 "login": "",
@@ -188,7 +288,33 @@
         "admin": {
             "permissions": {
                 "read_paid": "",
-                "ad_free": ""
+                "ad_free": "",
+                "sell": "",
+                "sell_trusted": ""
+            },
+            "sellers": {
+                "intro": "",
+                "enable": "",
+                "enable_help": "",
+                "fee": "",
+                "fee_help": "",
+                "providers": "",
+                "providers_help": "",
+                "stripe_title": "",
+                "stripe_help": "",
+                "stripe_connect": "",
+                "stripe_ready": "",
+                "stripe_failed": "",
+                "queue": "",
+                "all_listings": "",
+                "show_all": "",
+                "show_queue": "",
+                "queue_empty": "",
+                "none": "",
+                "approve": "",
+                "approved": "",
+                "reject": "",
+                "reject_prompt": ""
             },
             "tabs": {
                 "overview": "",
@@ -197,6 +323,7 @@
                 "coupons": "",
                 "ads": "",
                 "payments": "",
+                "sellers": "",
                 "webhooks": "",
                 "settings": ""
             },
