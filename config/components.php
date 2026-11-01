@@ -919,12 +919,7 @@ return [
 	],
 	'rob2dev-sort-changer' => [
 		'tag' => 'https://raw.githubusercontent.com/Rob2dev/flarum-sort-changer/v1.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'de',
-			'fr',
-			'nl',
-			'tr',
-		],
+		'__builtInLanguages' => ['de', 'fr', 'nl', 'tr'],
 	],
 	'shebaoting-avatar' => [
 		'tag' => 'https://raw.githubusercontent.com/shebaoting/flarum-avatar/2.0.9/locale/en.yml',
