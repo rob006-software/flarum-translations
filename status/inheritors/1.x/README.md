@@ -8,7 +8,7 @@ are fully in sync and are not listed here.
 | Language | Different translations | Missing translations | Components |
 | --- | --- | --- | --- |
 | [Chinese (Traditional)](zh_Hant.md) (`zh_Hant`) | 379 | 3 | 3 |
-| [French](fr.md) (`fr`) | 14 | 26 | 6 |
+| [French](fr.md) (`fr`) | 15 | 26 | 7 |
 | [German](de.md) (`de`) | 3 | 63 | 7 |
 | [German (formal)](de@formal.md) (`de@formal`) | 4 | 63 | 8 |
 | [Hungarian](hu.md) (`hu`) | 1 | 3 | 3 |

@@ -2,8 +2,8 @@
 
 Translations for French (`fr`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **14** are translated differently and **26** are
-translated only in `fr`. Altogether they cover **6** components.
+sides, but do not match between them: **15** are translated differently and **26** are
+translated only in `fr`. Altogether they cover **7** components.
 
 <!-- {% raw %} -->
 
@@ -13,6 +13,7 @@ translated only in `fr`. Altogether they cover **6** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `core` | [2](#core) | 0 |
+| `datlechin-birthdays` | [1](#datlechin-birthdays) | 0 |
 | `fof-anti-spam` | [7](#fof-anti-spam) | 0 |
 | `fof-badges` | 0 | [26](#fof-badges-missing) |
 | `fof-oauth` | [1](#fof-oauth) | 0 |
@@ -48,6 +49,20 @@ Configurer <del>Scopes</del><ins>les champs d'application</ins>
 ```
 
 Supprimer <del>la</del><ins>le</ins> <del>portée</del><ins>champ</ins> <del>de</del><ins>d'application</ins> {scope}
+
+
+### `datlechin-birthdays`
+
+#### [`datlechin-birthdays.admin.permissions.edit_own_birthday_label`](https://weblate.rob006.net/translate/flarum2/datlechin-birthdays/fr/?q=context%3A%3D%22datlechin-birthdays.admin.permissions.edit_own_birthday_label%22)
+
+> Edit own birthday
+
+```diff
+-Modifier son propre anniversaire
++Modifier sa propre date d'anniversaire
+```
+
+Modifier <del>son</del><ins>sa</ins> propre <del>anniversaire</del><ins>date d'anniversaire</ins>
 
 
 ### `fof-anti-spam`
