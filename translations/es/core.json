@@ -235,12 +235,12 @@
                     "cleared_files": "{name} limpiado ({count} archivos)",
                     "rebuilt": "{bundle} reconstruido",
                     "unchanged": "{bundle} ya estaba actualizado",
-                    "rewritten": "",
-                    "empty": "",
-                    "chunks": "",
-                    "failed": "",
-                    "took": "",
-                    "reload_button": ""
+                    "rewritten": "Reescribió {bundle}",
+                    "empty": "{bundle} no tiene nada que compilar",
+                    "chunks": "Reconstruir los fragmentos divididos para {frontend} ({count} changed)",
+                    "failed": "No se pudo reconstruir {step}: {message}",
+                    "took": "{time}ms",
+                    "reload_button": "Recargar"
                 },
                 "description": "Tu foro de un vistazo.",
                 "info_button": "Info del sistema",
@@ -458,7 +458,7 @@
                 "delete_posts_forever_label": "Eliminar publicaciones para siempre",
                 "delete_posts_label": "Borrar publicaciones",
                 "description": "Configurar quién puede ver y hacer qué.",
-                "edit_own_avatar_label": "",
+                "edit_own_avatar_label": "Editar propio avatar",
                 "edit_posts_label": "Editar publicaciones",
                 "edit_users_label": "Editar usuarios",
                 "edit_users_credentials_label": "Editar credenciales de usuario",
@@ -665,7 +665,7 @@
                 "sign_up_text": "¿Aún no tienes una cuenta? <a>¡Regístrate!</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": "",
+                "too_many_attempts_message": "Demasiados intentos de inicio de sesión",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -776,7 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Alguien cambió el título de una discusión que tú creaste",
-                "reset_notifications_button": "",
+                "reset_notifications_button": "Restablecer valores predeterminados",
                 "device_heading": "Dispositivo",
                 "haptic_feedback_help": "Solo disponible en dispositivos móviles compatibles",
                 "haptic_feedback_label": "Habilitar interacciones vibratorias",
@@ -916,7 +916,7 @@
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Elige un grupo"
             },
             "input": {
                 "clear_button": "Limpiar datos de ingreso"
@@ -1080,7 +1080,7 @@
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": ""
+                "too_many_attempts_message": "Demasiados intentos de inicio de sesión"
             },
             "reset_password": {
                 "confirm_password_label": "Confirmar nueva contraseña",
@@ -1209,7 +1209,7 @@
             "start_a_discussion": "Crear discusión",
             "title_az": "Título (A–Z)",
             "title_za": "Título (Z–A)",
-            "too_many_login_attempts_message": "",
+            "too_many_login_attempts_message": "Demasiados intentos fallidos de inicio de sesión. Por favor, espera unos minutos y vuelve a intentarlo.",
             "top": "Principales",
             "username": "Nombre de usuario",
             "username_or_email_placeholder": "Nombre de usuario o Email",
