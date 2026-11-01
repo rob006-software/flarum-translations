@@ -1,30 +1,30 @@
 {
     "ernestdefoe-vantage": {
         "forum": {
-            "post_views": "",
-            "nav": "",
-            "session_item": "",
-            "page_title": "",
-            "loading": "",
+            "post_views": "{count, plural, one {# Aufruf} other {# Aufrufe}}",
+            "nav": "Statistiken",
+            "session_item": "Deine Statistiken",
+            "page_title": "Statistiken für {username}",
+            "loading": "Deine Statistiken werden geladen…",
             "error": "",
             "ranges": {
-                "1": "",
-                "7": "",
-                "28": "",
-                "90": "",
-                "365": "",
-                "0": ""
+                "1": "24 Stunden",
+                "7": "7 Tage",
+                "28": "28 Tage",
+                "90": "90 Tage",
+                "365": "365 Tage",
+                "0": "Allzeit"
             },
-            "range_label": "",
-            "export": "",
-            "export_csv": "",
-            "export_json": "",
+            "range_label": "Zeitraum",
+            "export": "Export",
+            "export_csv": "Spreadsheet (CSV)",
+            "export_json": "Data (JSON)",
             "since": "",
             "vs_previous": "",
             "no_change": "",
-            "new_value": "",
+            "new_value": "Neu",
             "tiles": {
-                "impressions": "",
+                "impressions": "Aufrufe",
                 "impressions_help": "",
                 "engagements": "",
                 "engagements_help": "",
@@ -37,10 +37,10 @@
             "chart": {
                 "title": "",
                 "empty": "",
-                "day_value": ""
+                "day_value": "{date}: {value}"
             },
             "series": {
-                "impressions": "",
+                "impressions": "Aufrufe",
                 "replies": "",
                 "likes": "",
                 "reactions": "",
