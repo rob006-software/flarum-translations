@@ -176,13 +176,13 @@
                 "show_original_button": "Original anzeigen",
                 "stale_text": "Das Original wurde seit der Erstellung dieser Übersetzung überarbeitet.",
                 "status_from": "",
-                "status_text": "",
-                "thread_failed_text": ""
+                "status_text": "Übersetzt",
+                "thread_failed_text": "{count, plural, one {# Beitrag konnte} other {# Beiträge konnten}} nicht übersetzt werden. Bitte erneut versuchen."
             }
         },
         "api": {
-            "already_in_language": "",
-            "glossaries_failed": "",
+            "already_in_language": "Dieser Inhalt ist bereits in der ausgewählten Sprache verfügbar.",
+            "glossaries_failed": "Die DeepL-Glossare konnten nicht geladen werden. Bitte überprüfe den API-Schlüssel.",
             "invalid_detection_cursor": "",
             "invalid_detection_type": "",
             "no_driver": "",
