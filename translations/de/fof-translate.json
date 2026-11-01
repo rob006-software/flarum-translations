@@ -207,7 +207,7 @@
                 "translationdata": {
                     "export_description": "Exportiert die Übersetzungen der Beiträge und Diskussionstitel des Benutzers, wobei für jeden Beitrag die jeweilige Sprache ermittelt wird.",
                     "anonymize_description": "Keine Aktion. Die Inhalte des Benutzers bleiben erhalten, daher bleiben auch deren Übersetzungen erhalten.",
-                    "delete_description": ""
+                    "delete_description": "Löscht die Übersetzungen der Beiträge, Diskussionen und Umfragen, die zusammen mit den Inhalten des Nutzers entfernt wurden."
                 }
             }
         }
@@ -216,13 +216,13 @@
         "lib": {
             "browser": {
                 "fof_translate": {
-                    "post_translation_refreshed": "",
-                    "discussion_translation_refreshed": "",
-                    "poll_translation_refreshed": "",
-                    "driver_tested": "",
-                    "language_detection_run": "",
-                    "translations_pruned": "",
-                    "translations_repaired": ""
+                    "post_translation_refreshed": "Die Übersetzung von {postuser}s {post} in {discussion} wurde für {locale} aktualisiert",
+                    "discussion_translation_refreshed": "Die Übersetzung des Titels von {discussion} wurde für {locale} aktualisiert",
+                    "poll_translation_refreshed": "Die Übersetzung der Umfrage #{poll_id} wurde für {locale} aktualisiert",
+                    "driver_tested": "Übersetzungs-Treiber {driver} getestet: {ok, select, true {es hat funktioniert} other {es hat nicht funktioniert}}",
+                    "language_detection_run": "Sprache von {rows, plural, one {# Zeile} other {# Zeilen}} von {type} {force, select, true {erneut erkannt} other {erkannt}}",
+                    "translations_pruned": "{same_language} gleichsprachige Übersetzungen, {orphaned_polls} verwaiste Übersetzungen und {orphaned_poll_options} verwaiste Übersetzungen von Umfrageoptionen wurden entfernt",
+                    "translations_repaired": "{rows, plural, one {# fehlerhafte Übersetzung eines Beitrags} other {# fehlerhafte Übersetzungen von Beiträgen}} zur Neuübersetzung markiert"
                 }
             }
         }
