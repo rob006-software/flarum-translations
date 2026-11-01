@@ -1014,7 +1014,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/warble/v1.3.1/locale/en.yml',
 	],
 	'linkrobins-wiki' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.11.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.11.2/locale/en.yml',
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
