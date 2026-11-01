@@ -483,9 +483,7 @@ return [
 	],
 	'fastchen-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/FastChen/flarum-ext-fancybox/v1.0.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
