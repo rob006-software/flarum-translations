@@ -247,7 +247,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/festoon/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-flarumverse' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarumverse/1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/flarumverse/1.2.2/locale/en.yml',
 	],
 	'ernestdefoe-folio' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
