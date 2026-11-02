@@ -5,7 +5,7 @@
             "page_title": "Kontakt",
             "page_description": "Schicken Sie uns eine Nachricht, und wir melden uns so schnell wie möglich bei Ihnen.",
             "success_message": "Ihre Nachricht wurde erfolgreich gesendet. Vielen Dank!",
-            "required_note": "",
+            "required_note": "Mit * gekennzeichnete Felder sind Pflichtfelder.",
             "submit_button": "Nachricht senden",
             "sending": "Wird gesendet...",
             "send_another": "Eine weitere Nachricht senden",
@@ -72,7 +72,7 @@
         "admin": {
             "sections": {
                 "general": "Allgemeines",
-                "appearance": "",
+                "appearance": "Optik (Aussehen)",
                 "access": "Zugriffsberechtigungen",
                 "form": "Formularkonfiguration",
                 "fields": "Formularfelder",
@@ -96,8 +96,8 @@
                 "page_description_help": "Wird unterhalb des Seitentitels angezeigt. Nur einfacher Text.",
                 "success_message_label": "Erfolgsmeldung",
                 "success_message_help": "Wird angezeigt, nachdem eine Nachricht erfolgreich gesendet wurde. Lassen Sie das Feld leer, um den übersetzten standardmäßigen Text zu verwenden.",
-                "custom_css_label": "",
-                "custom_css_help": "",
+                "custom_css_label": "Benutzerdefiniertes CSS",
+                "custom_css_help": "Optionales CSS, das nur angewendet wird, solange die Kontaktseite geöffnet ist. Fügen Sie den Selektoren das Präfix .ContactPage hinzu, um zu vermeiden, dass andere Seiten davon betroffen sind. Maximal 50.000 Zeichen.",
                 "categories_label": "Kontaktkategorien",
                 "categories_help": "Eine Kategorie pro Zeile. Das Kategoriefeld wird ausgeblendet, wenn diese Liste leer ist.",
                 "default_language_label": "Standardsprache",
