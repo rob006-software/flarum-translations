@@ -1528,9 +1528,7 @@ return [
 	],
 	'zrobot-gitea-org-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/Nicotinamide/flarum-gitea-org/v0.1.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	/* extensions list end */
 ];
