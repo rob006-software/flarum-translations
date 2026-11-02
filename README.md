@@ -945,6 +945,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`captchala-flarum`](https://weblate.rob006.net/projects/flarum2/captchala-flarum) | [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) |
 | [`cengizkemec-cloudflare`](https://weblate.rob006.net/projects/flarum2/cengizkemec-cloudflare) | [`cengizkemec/cloudflare`](https://github.com/cengizkemec/flarum-cloudflare) |
 | [`cengizkemec-contact-page`](https://weblate.rob006.net/projects/flarum2/cengizkemec-contact-page) | [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) |
+| [`cengizkemec-passkeys`](https://weblate.rob006.net/projects/flarum2/cengizkemec-passkeys) | [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) |
 | [`cengizkemec-support-tickets`](https://weblate.rob006.net/projects/flarum2/cengizkemec-support-tickets) | [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) |
 | [`clarkwinkelmann-likes-received`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-likes-received) | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) |
 | [`clarkwinkelmann-prominent-post-numbers`](https://weblate.rob006.net/projects/flarum2/clarkwinkelmann-prominent-post-numbers) | [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) |
@@ -1005,6 +1006,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-federation`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-federation) | [`ernestdefoe/federation`](https://github.com/ernestdefoe/federation) |
 | [`ernestdefoe-festoon`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-festoon) | [`ernestdefoe/festoon`](https://github.com/ernestdefoe/festoon) |
 | [`ernestdefoe-facebook-post`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-facebook-post) | [`ernestdefoe/flarum-facebook-post`](https://github.com/ernestdefoe/flarum-facebook-post) |
+| [`ernestdefoe-flarumverse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-flarumverse) | [`ernestdefoe/flarumverse`](https://github.com/ernestdefoe/flarumverse) |
 | [`ernestdefoe-folio`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-folio) | [`ernestdefoe/folio`](https://github.com/ernestdefoe/folio) |
 | [`ernestdefoe-garrison`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-garrison) | [`ernestdefoe/garrison`](https://github.com/ernestdefoe/garrison) |
 | [`ernestdefoe-gatehouse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-gatehouse) | [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) |
