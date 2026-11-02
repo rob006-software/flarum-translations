@@ -170,6 +170,10 @@ return [
 	'ekumanov-post-search' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.1.0/locale/en.yml',
 	],
+	'el-choco-admin-console' => [
+		'beta' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0-rc.4/locale/en.yml',
+		'__builtInLanguages' => ['de', 'es'],
+	],
 	'ernestdefoe-anthology' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.0.2/locale/en.yml',
 	],
