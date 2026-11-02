@@ -993,7 +993,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/markdown-widget/v1.2.5/locale/en.yml',
 	],
 	'linkrobins-mobile-logo' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/mobile-logo/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/mobile-logo/v1.0.4/locale/en.yml',
 	],
 	'linkrobins-op' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.1.3/locale/en.yml',
