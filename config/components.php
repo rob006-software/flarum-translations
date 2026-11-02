@@ -50,6 +50,12 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-contact-page/v1.0.2/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'cengizkemec-passkeys' => [
+		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-passkeys/v1.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'tr',
+		],
+	],
 	'cengizkemec-support-tickets' => [
 		'tag' => 'https://raw.githubusercontent.com/cengizkemec/flarum-support-tickets/v1.1.10/resources/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
