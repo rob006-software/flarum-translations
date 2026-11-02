@@ -1,201 +1,201 @@
 {
     "ernestdefoe-masthead": {
         "forum": {
-            "compose": "",
+            "compose": "Diskussion starten",
             "strip": {
-                "online": ""
+                "online": "{count, plural, one {# Mitglied online} other {# Mitglieder online}}"
             },
             "nav": {
-                "home": ""
+                "home": "Startseite"
             },
             "hero": {
-                "label": "",
-                "kicker": "",
-                "kicker_tag": "",
-                "byline": "",
-                "replies": "",
-                "empty_tag": "",
-                "empty_tag_gone": "",
-                "empty_sticky": "",
-                "empty_pagebuilder": "",
-                "empty_settings": ""
+                "label": "Hervorgehoben",
+                "kicker": "Im Fokus",
+                "kicker_tag": "Im Fokus · {tag}",
+                "byline": "Von {name}",
+                "replies": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "empty_tag": "Noch keine Diskussionen mit dem Tag {tag}. Weise einer Diskussion diesen Tag zu, um sie hier hervorzuheben. Bis dahin wird Besuchern kein Bereich mit hervorgehobenen Inhalten angezeigt.",
+                "empty_tag_gone": "Der für die hervorgehobenen Inhalte ausgewählte Tag existiert nicht mehr. Wähle einen anderen. Bis dahin wird Besuchern kein Bereich mit hervorgehobenen Inhalten angezeigt.",
+                "empty_sticky": "Noch keine angehefteten Diskussionen. Hefte eine Diskussion an, um sie hier hervorzuheben. Bis dahin wird Besuchern kein Bereich mit hervorgehobenen Inhalten angezeigt.",
+                "empty_pagebuilder": "In Page Builder gibt es noch keine veröffentlichten Inhalte vom Typ {type}. Veröffentliche einen Inhalt dieses Typs, um ihn hier hervorzuheben. Bis dahin wird Besuchern kein Bereich mit hervorgehobenen Inhalten angezeigt.",
+                "empty_settings": "Einstellungen für hervorgehobene Inhalte"
             },
             "browse": {
-                "title": "",
-                "subtags": "",
-                "last_post": "",
-                "all": "",
-                "count": "",
-                "latest": ""
+                "title": "Forum durchsuchen",
+                "subtags": "Untergeordnete Tags",
+                "last_post": "Zuletzt: {title}",
+                "all": "Alle Bereiche",
+                "count": "{count, plural, one {# Diskussion} other {# Diskussionen}}",
+                "latest": "zuletzt {time}"
             },
             "latest": {
-                "title": "",
-                "tab_latest": "",
-                "tab_top": "",
-                "empty_latest": "",
-                "empty_top": "",
-                "all": "",
-                "replies": "",
-                "replies_label": ""
+                "title": "Neueste Diskussionen",
+                "tab_latest": "Neueste",
+                "tab_top": "Beliebt diese Woche",
+                "empty_latest": "Noch keine Diskussionen. Starte die erste Diskussion.",
+                "empty_top": "Diese Woche gibt es noch nichts Neues.",
+                "all": "Alle Diskussionen anzeigen",
+                "replies": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "replies_label": "{count, plural, one {Antwort} other {Antworten}}"
             },
             "top_posters": {
-                "title": "",
-                "posts": "",
-                "empty": ""
+                "title": "Aktivste Mitglieder dieser Woche",
+                "posts": "{count, plural, one {# Beitrag} other {# Beiträge}}",
+                "empty": "Diese Woche hat noch niemand einen Beitrag geschrieben."
             },
             "games": {
-                "title": "",
-                "at": "",
-                "live": "",
-                "cta": ""
+                "title": "Anstehende Spiele",
+                "at": "bei {team}",
+                "live": "Echtzeit",
+                "cta": "Tipps abgeben"
             },
             "footer": {
-                "label": "",
-                "powered_by": ""
+                "label": "Fußzeile",
+                "powered_by": "Unterstützt durch Flarum"
             },
             "topic": {
-                "breadcrumb": "",
-                "forum": "",
-                "deleted_user": "",
-                "read_time": "",
-                "participants": "",
-                "jump_best": "",
-                "jump_best_short": "",
-                "copy_link": "",
-                "link_copied": "",
-                "share": "",
-                "discussion_heading": "",
-                "reply": "",
-                "about": "",
-                "started": "",
-                "last_reply": "",
-                "replies": "",
-                "participants_label": "",
-                "more_in": ""
+                "breadcrumb": "Navigationspfad",
+                "forum": "Forum",
+                "deleted_user": "[gelöscht]",
+                "read_time": "{count} Min. Lesezeit",
+                "participants": "{count, plural, one {# Teilnehmer} other {# Teilnehmer}}",
+                "jump_best": "Zur besten Antwort springen",
+                "jump_best_short": "Beste Antwort ›",
+                "copy_link": "Link kopieren",
+                "link_copied": "Link kopiert.",
+                "share": "Teilen",
+                "discussion_heading": "Diskussion · {count, plural, one {# Antwort} other {# Antworten}}",
+                "reply": "Antworten",
+                "about": "Über diese Diskussion",
+                "started": "Gestartet",
+                "last_reply": "Letzte Antwort",
+                "replies": "Antworten",
+                "participants_label": "Teilnehmer",
+                "more_in": "Mehr in {tag}"
             }
         },
         "admin": {
             "section": {
-                "home": "",
-                "look": "",
-                "hero": "",
-                "footer": ""
+                "home": "Startseite",
+                "look": "Darstellung",
+                "hero": "Hervorgehobene Inhalte",
+                "footer": "Fußzeile"
             },
             "home": {
-                "label": "",
-                "help": "",
-                "portal": "",
-                "list": "",
-                "other": ""
+                "label": "Inhalt der Startseite",
+                "help": "Das Portal ist die Startseite von Masthead. Wähle die Diskussionsliste, um Flarums eigene Übersicht als Startseite beizubehalten. Das Portal bleibt unter /portal erreichbar. Diese Einstellung entspricht der Option „Startseite“ unter „Grundeinstellungen“.",
+                "portal": "Das Portal",
+                "list": "Die Diskussionsliste",
+                "other": "Eine andere Seite (in den Grundeinstellungen ausgewählt)"
             },
             "preset": {
-                "label": "",
-                "help": "",
-                "gameday": "",
-                "gameday_desc": "",
-                "sunday": "",
-                "sunday_desc": "",
-                "evergreen": "",
-                "evergreen_desc": "",
-                "royal": "",
-                "royal_desc": "",
-                "broadsheet": "",
-                "broadsheet_desc": ""
+                "label": "Designvorlage",
+                "help": "Eine Designvorlage legt die Akzentfarbe, die Farbe der Kopfzeile, das Layout der hervorgehobenen Inhalte und die Ecken gleichzeitig fest. Deine unten vorgenommenen Anpassungen bleiben beim Wechsel der Vorlage erhalten.",
+                "gameday": "Spieltag",
+                "gameday_desc": "Marineblau und Rot, hervorgehobene Inhalte über die volle Breite",
+                "sunday": "Sonntag",
+                "sunday_desc": "Anthrazit und Orange, geteilte Darstellung der hervorgehobenen Inhalte",
+                "evergreen": "Dauerbrenner",
+                "evergreen_desc": "Waldgrün, hervorgehobene Inhalte über die volle Breite",
+                "royal": "Königlich",
+                "royal_desc": "Mitternachtsblau und Violett, hervorgehobene Inhalte über die volle Breite",
+                "broadsheet": "Flugblatt",
+                "broadsheet_desc": "Schwarz und Rot, eckige Kanten"
             },
             "accent": {
-                "label": "",
-                "help": "",
-                "preset": "",
-                "red": "",
-                "orange": "",
-                "green": "",
-                "purple": "",
-                "primary": "",
-                "custom": ""
+                "label": "Akzentfarbe",
+                "help": "Die Linie unter der Kopfzeile, die Vorspänne und die Hauptschaltflächen. Flarums Primärfarbe richtet sich nach den Einstellungen unter „Aussehen“, einschließlich der Variante für den dunklen Modus.",
+                "preset": "Aus der Designvorlage",
+                "red": "Rot",
+                "orange": "Orange",
+                "green": "Grün",
+                "purple": "Violett",
+                "primary": "Flarums Primärfarbe",
+                "custom": "Benutzerdefiniert"
             },
             "colour": {
-                "hex": ""
+                "hex": "Hex-Farbcode, z. B. #0e2340"
             },
             "bar": {
-                "label": "",
-                "help": "",
-                "reset": "",
-                "using_default": ""
+                "label": "Farbe der Kopfzeile",
+                "help": "Die Hintergrundfarbe der Kopfzeile. Sofern du unten keine eigene Farbe für die Informationsleiste festlegst, wird diese eine Nuance dunkler dargestellt.",
+                "reset": "Farbe der Designvorlage verwenden",
+                "using_default": "Die Farbe der Designvorlage wird verwendet."
             },
             "strip": {
-                "label": "",
-                "help": "",
-                "reset": "",
-                "using_default": ""
+                "label": "Farbe der Informationsleiste",
+                "help": "Die schmale Leiste über der Kopfzeile mit Datum und Anmeldelinks. Lass das Feld leer, um die Leiste eine Nuance dunkler als die Kopfzeile darzustellen.",
+                "reset": "Aus der Kopfzeilenfarbe ableiten",
+                "using_default": "Wird aus der Kopfzeilenfarbe abgeleitet."
             },
             "ground": {
-                "label": "",
-                "help": "",
-                "reset": "",
-                "using_default": ""
+                "label": "Seitenhintergrund (heller Modus)",
+                "help": "Die Hintergrundfarbe hinter den weißen Karten.",
+                "reset": "Standardgrau verwenden",
+                "using_default": "Das Standardgrau wird verwendet."
             },
             "ground_dark": {
-                "label": "",
-                "help": "",
-                "reset": "",
-                "using_default": ""
+                "label": "Seitenhintergrund (dunkler Modus)",
+                "help": "Die Hintergrundfarbe hinter den Karten im dunklen Modus. Lass das Feld leer, um Flarums dunkle Hintergrundfarbe eine Nuance dunkler zu übernehmen.",
+                "reset": "Flarums dunklen Hintergrund übernehmen",
+                "using_default": "Flarums dunkler Hintergrund wird übernommen."
             },
             "brand": {
-                "tagline_label": "",
-                "tagline_help": "",
-                "monogram_label": "",
-                "monogram_help": "",
-                "show_name_label": "",
-                "show_name_help": "",
-                "fonts_label": "",
-                "fonts_help": ""
+                "tagline_label": "Untertitel",
+                "tagline_help": "Eine kurze Zeile unter dem Namen des Forums, z. B. „Community für College Football“. Lass das Feld leer, um keinen Untertitel anzuzeigen.",
+                "monogram_label": "Monogramm",
+                "monogram_help": "Bis zu drei Zeichen in der Kachel neben dem Namen. Sie werden angezeigt, wenn kein Logo hochgeladen wurde (Aussehen → Logo). Lass das Feld leer, um die Anfangsbuchstaben des Forennamens zu verwenden.",
+                "show_name_label": "Forennamen neben dem Logo anzeigen",
+                "show_name_help": "Standardmäßig deaktiviert, da die meisten Logos den Namen bereits enthalten. Ohne Logo wird der Name immer angezeigt. Die Kopfzeile ist in beiden Farbmodi dunkel. Wenn du unter „Aussehen“ ein Logo für den dunklen Modus hochgeladen hast, wird dieses verwendet.",
+                "fonts_label": "Schriftarten des Themes verwenden",
+                "fonts_help": "Barlow Condensed für Überschriften und Figtree für Texte. Die Schriftarten werden von deinem eigenen Forum bereitgestellt. Deaktiviere diese Option, um stattdessen die Systemschriftarten der Leser zu verwenden."
             },
             "hero": {
-                "style_label": "",
-                "style_help": "",
-                "style_preset": "",
-                "style_overlay": "",
-                "style_split": "",
-                "style_off": "",
-                "source_label": "",
-                "source_help": "",
-                "source_latest": "",
-                "source_tag": "",
-                "source_sticky": "",
-                "source_pagebuilder": "",
-                "tag_label": "",
-                "tag_none": "",
-                "tag_secondary": "",
-                "fill_label": "",
-                "fill_help": "",
-                "tags_label": "",
-                "tags_help": "",
-                "type_label": "",
-                "type_help": ""
+                "style_label": "Layout",
+                "style_help": "Die Anordnung des hervorgehobenen Inhalts. Bei voller Breite liegt die Überschrift über dem Bild. Bei geteilter Darstellung stehen beide nebeneinander.",
+                "style_preset": "Aus der Designvorlage",
+                "style_overlay": "Volle Breite",
+                "style_split": "Geteilt",
+                "style_off": "Keine hervorgehobenen Inhalte",
+                "source_label": "Quelle der Inhalte",
+                "source_help": "Die Quelle des hervorgehobenen Inhalts und der drei Inhalte daneben. Es werden nur Inhalte aus dieser Quelle hervorgehoben. Solange keine vorhanden sind, wird Besuchern kein entsprechender Bereich angezeigt.",
+                "source_latest": "Die neuesten Diskussionen",
+                "source_tag": "Ein Tag",
+                "source_sticky": "Angeheftete Diskussionen",
+                "source_pagebuilder": "Artikel aus Page Builder",
+                "tag_label": "Tag",
+                "tag_none": "Tag auswählen",
+                "tag_secondary": "{name} (sekundär)",
+                "fill_label": "Freie Plätze mit den neuesten Diskussionen auffüllen",
+                "fill_help": "Wenn diese Option deaktiviert ist, werden bei einer Quelle mit weniger als vier Inhalten nur die vorhandenen angezeigt. Ist sie aktiviert, werden die übrigen Plätze mit den neuesten Diskussionen aus beliebigen Tags aufgefüllt.",
+                "tags_label": "Tag bei jedem Inhalt anzeigen",
+                "tags_help": "Zeigt den Tag-Namen auf dem hervorgehobenen Inhalt und über den Inhalten daneben an. Deaktiviere diese Option für eine aufgeräumtere Darstellung. Die Tag-Farben der Inhalte bleiben erhalten.",
+                "type_label": "Inhaltstyp aus Page Builder",
+                "type_help": "Die URL-Kennung des Inhaltstyps, dessen Einträge hervorgehoben werden sollen, z. B. articles."
             },
             "pictures": {
-                "label": "",
-                "help": "",
-                "both": "",
-                "image": "",
-                "backdrop": "",
-                "off": ""
+                "label": "Bilder",
+                "help": "Die Bilder der hervorgehobenen Inhalte und das breite Banner über einer Diskussion. Als eigenes Bild wird das erste Bild im Startbeitrag verwendet, bei einem Artikel aus Page Builder dessen Titelbild. Backdrop bezeichnet das Profil-Titelbild des Autors aus der Backdrop-Erweiterung. Inhalte ohne Bild zeigen Streifen in ihrer Tag-Farbe.",
+                "both": "Eigenes Bild, sonst das Backdrop-Titelbild des Autors",
+                "image": "Nur das eigene Bild",
+                "backdrop": "Nur das Backdrop-Titelbild des Autors",
+                "off": "Keine Bilder"
             },
             "portal": {
-                "tag_count_label": "",
-                "tag_count_help": "",
-                "tags_page_label": "",
-                "tags_page_help": ""
+                "tag_count_label": "Bereiche im Raster",
+                "tag_count_help": "Anzahl der übergeordneten Tags, die im Raster „Forum durchsuchen“ vor dem Link „Alle Bereiche“ angezeigt werden.",
+                "tags_page_label": "Tag-Seite als Bereichskacheln darstellen",
+                "tags_page_help": "Die Tag-Seite (/tags) verwendet dieselben Kacheln wie „Forum durchsuchen“ auf der Startseite, einschließlich der untergeordneten Tags und der neuesten Diskussion jedes Bereichs. Deaktiviere diese Option, um Flarums eigene farbige Kacheln beizubehalten."
             },
             "footer": {
-                "label": "",
-                "help": "",
-                "name": "",
-                "url": "",
-                "url_placeholder": "",
-                "remove": "",
-                "add": "",
-                "powered_by_label": ""
+                "label": "Links in der Fußzeile",
+                "help": "Links, die in der Fußzeile jeder Seite angezeigt werden. Als Adresse sind ein Pfad in diesem Forum (/p/1-rules), eine Webadresse, ein mailto-Link oder # als Platzhalter ohne Ziel möglich (#name springt zum entsprechenden Abschnitt der Seite). Zum Umsortieren ziehen.",
+                "name": "Name",
+                "url": "Adresse",
+                "url_placeholder": "/p/1-about oder https://…",
+                "remove": "Diesen Link entfernen",
+                "add": "Link hinzufügen",
+                "powered_by_label": "„Unterstützt durch Flarum“ anzeigen"
             }
         }
     }
