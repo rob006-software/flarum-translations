@@ -337,7 +337,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/moments/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-onair' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.11/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.12/locale/en.yml',
 	],
 	'ernestdefoe-onramp' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onramp/1.0.4/locale/en.yml',
