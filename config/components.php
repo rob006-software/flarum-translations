@@ -891,6 +891,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-login/1.0.3/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'gtdxyz-signature' => [
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-signature/1.0.2/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
 	],
