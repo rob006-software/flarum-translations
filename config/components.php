@@ -256,7 +256,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.5/resources/locale/en.yml',
 	],
 	'ernestdefoe-gatehouse' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gatehouse/1.4.1/locale/en.yml',
 	],
 	'ernestdefoe-gauntlet' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gauntlet/1.1.1/locale/en.yml',
