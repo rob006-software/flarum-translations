@@ -884,7 +884,7 @@ return [
 		'__builtInLanguages' => ['tr'],
 	],
 	'gtdxyz-badges' => [
-		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-badges/1.0.2/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'gtdxyz-login' => [
