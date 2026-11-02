@@ -283,7 +283,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/2.0.1/locale/en.yml',
 	],
 	'ernestdefoe-hero-builder' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.4/resources/locale/en.yml',
 	],
 	'ernestdefoe-importer' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.7.1/resources/locale/en.yml',
