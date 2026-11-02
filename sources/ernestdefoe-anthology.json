@@ -1,0 +1,140 @@
+{
+    "ernestdefoe-anthology": {
+        "forum": {
+            "nav": "{noun, select, novel {Novels} story {Stories} book {Books} other {Series}}",
+            "a_noun": "{noun, select, novel {a novel} story {a story} book {a book} other {a series}}",
+            "the_noun": "{noun, select, novel {this novel} story {this story} book {this book} other {this series}}",
+            "status": {
+                "ongoing": "Ongoing",
+                "complete": "Complete"
+            },
+            "card": {
+                "chapters": "{count, plural, one {# chapter} other {# chapters}}",
+                "followers": "{count, plural, one {# follower} other {# followers}}",
+                "by": "by {author}"
+            },
+            "directory": {
+                "new": "{noun, select, novel {New novel} story {New story} book {New book} other {New series}}",
+                "search": "Search by title",
+                "all": "All",
+                "sort_label": "Sort",
+                "sort": {
+                    "latest": "Latest chapter",
+                    "new": "Newest",
+                    "popular": "Most followed",
+                    "title": "Title"
+                },
+                "empty": "{noun, select, novel {No novels yet.} story {No stories yet.} book {No books yet.} other {No series yet.}} Start one, then add your discussions to it as chapters.",
+                "empty_guest": "{noun, select, novel {No novels yet.} story {No stories yet.} book {No books yet.} other {No series yet.}}",
+                "no_results": "Nothing matches your search.",
+                "more": "Load more"
+            },
+            "series": {
+                "missing": "This page doesn't exist, or you don't have permission to see it.",
+                "progress": "{done} of {total} chapters read",
+                "start": "Start reading",
+                "continue": "Continue reading",
+                "again": "Read from the beginning",
+                "follow": "Follow",
+                "following": "Following",
+                "follow_help": "Get a notification when a new chapter is added.",
+                "contents": "Chapters",
+                "chapter_meta": "{date} · {count, plural, one {# reply} other {# replies}}",
+                "read": "Read",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete {title}? Its discussions stay on the forum; only the grouping, cover and followers are removed.",
+                "empty_owner": "No chapters yet. Open a discussion you started, and choose “Add to {a_noun}” in its menu.",
+                "empty": "No chapters yet.",
+                "move_up": "Move up",
+                "move_down": "Move down",
+                "remove": "Remove from {the_noun}",
+                "back": "{noun, select, novel {All novels} story {All stories} book {All books} other {All series}}"
+            },
+            "chapter_bar": {
+                "label": "Chapter {number} of {count}",
+                "previous": "Previous",
+                "next": "Next",
+                "contents": "All chapters"
+            },
+            "controls": {
+                "add": "Add to {a_noun}",
+                "change": "Change or remove from {the_noun}"
+            },
+            "add_modal": {
+                "title": "Add to {a_noun}",
+                "change_title": "Move or remove",
+                "intro": "This discussion stays where it is. It's also listed as the newest chapter of the one you choose.",
+                "none": "You haven't started one yet. Give it a title below.",
+                "current": "Currently in",
+                "new": "{noun, select, novel {Start a new novel} story {Start a new story} book {Start a new book} other {Start a new series}}",
+                "new_title": "Title",
+                "add": "Add as the newest chapter",
+                "create_and_add": "Create and add",
+                "remove": "Remove from {title}",
+                "added": "Added to {title}.",
+                "removed": "Removed from {title}."
+            },
+            "edit_modal": {
+                "create_title": "{noun, select, novel {New novel} story {New story} book {New book} other {New series}}",
+                "edit_title": "Edit {title}",
+                "title": "Title",
+                "description": "Description",
+                "description_help": "What it's about. Shown on its page and, shortened, on its card.",
+                "status": "Status",
+                "cover": "Cover image",
+                "cover_help": "JPEG, PNG, GIF or WebP, up to 5 MB. A tall book cover or a wide banner both work.",
+                "cover_choose": "Choose an image",
+                "cover_remove": "Remove the cover",
+                "save": "Save",
+                "create": "Create"
+            },
+            "profile": {
+                "nav": "{noun, select, novel {Novels} story {Stories} book {Books} other {Series}}",
+                "empty": "Nothing to show yet."
+            },
+            "notifications": {
+                "new_chapter": "{username} added a new chapter to {series}"
+            },
+            "settings": {
+                "notify_new_chapter": "Someone adds a chapter to a series I follow"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again."
+            }
+        },
+        "admin": {
+            "settings": {
+                "noun": "What to call a series",
+                "noun_help": "The word members see in menus and buttons. Pick the one that fits your forum.",
+                "nouns": {
+                    "series": "Series",
+                    "novel": "Novel",
+                    "story": "Story",
+                    "book": "Book"
+                },
+                "show_nav": "Show a link in the sidebar"
+            },
+            "permissions": {
+                "view": "View series",
+                "create": "Start series and add own discussions as chapters",
+                "moderate": "Edit any series and add any discussion"
+            }
+        },
+        "api": {
+            "title_required": "Give it a title.",
+            "title_too_long": "The title can be up to 200 characters.",
+            "description_too_long": "The description can be up to {max} characters.",
+            "bad_status": "Choose Ongoing or Complete.",
+            "upload_failed": "The upload didn't arrive. Please try again.",
+            "cover_too_big": "The cover can be up to 5 MB and 40 megapixels.",
+            "not_an_image": "That file isn't a JPEG, PNG, GIF or WebP image."
+        },
+        "email": {
+            "new_chapter": {
+                "subject": "New chapter in {series}",
+                "body": "{author} added a new chapter to {series}: {chapter}\n\nRead it here: {url}\n"
+            }
+        }
+    }
+}

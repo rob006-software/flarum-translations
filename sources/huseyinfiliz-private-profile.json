@@ -1,0 +1,76 @@
+{
+    "huseyinfiliz-private-profile": {
+        "admin": {
+            "settings": {
+                "default_visibility_label": "Administrator profile visibility",
+                "mode_label": "Who controls profile visibility?",
+                "mode_member": "Members decide",
+                "mode_admin": "Administrator decides",
+                "private_audience_label": "When a member makes their profile private, who can view it?",
+                "private_audience_help": "This determines the scope of the member's privacy switch. When the switch is off, the selected profile pages are public.",
+                "audience_members": "Signed-in members",
+                "audience_private": "Profile owner and authorized staff only",
+                "forced_visibility_label": "Profile visibility for all members",
+                "forced_visibility_help": "Enforced for every member. Members cannot change this visibility in their account settings.",
+                "member_mode_help": "Members can turn 'Make my profile private' on or off in their account settings. You decide who can still view the selected profile pages when they turn it on.",
+                "member_scope_help": "Choose 'Signed-in members' to hide private profiles from guests only, or 'Profile owner and authorized staff only' to hide them from guests and other members. Owners, administrators and users with bypass permission retain access.",
+                "admin_mode_help": "Your visibility selection applies to every member, regardless of their personal privacy choice. The privacy switch is hidden from member settings in this mode.",
+                "preferences_preserved": "Changing modes does not erase member privacy choices. Saved choices apply again when you return to 'Members decide'.",
+                "visibility_scope": "Visibility levels apply only to the profile pages selected in the other two tabs. Avatars and profile headers remain visible.",
+                "visibility_everyone": "Guests and signed-in members can view the selected profile pages.",
+                "visibility_members": "Only signed-in members can view the selected profile pages. Guests see a message asking them to log in.",
+                "visibility_private": "Only the profile owner, administrators, and users with the bypass profile visibility permission can view the selected profile pages.",
+                "hidden_tabs_label": "Profile tabs to protect",
+                "hidden_tabs_help": "Choose which tabs follow profile visibility restrictions. Unselected tabs, avatars and the profile header remain visible. Posts and discussions are selected by default.",
+                "discovering_tabs": "Discovering profile tabs from the forum…",
+                "discovery_complete": "Profile tabs are up to date.",
+                "discovery_failed": "Profile tabs could not be refreshed. Please try again.",
+                "refresh_tabs": "Refresh profile tabs",
+                "supported_group": "Fully supported",
+                "page_only_group": "Profile page only",
+                "settings_group": "Settings",
+                "page_sections": "Private Profile sections",
+                "api_supported_help": "These profile pages and their supported API queries are protected by profile visibility settings. Select the pages you want to protect.",
+                "api_unsupported_help": "These pages can be hidden on profiles, but API protection is not yet supported. Their data may still be accessible through the extensions' APIs.",
+                "no_tabs": "No profile pages were found in this group.",
+                "api_request": "Want API protection for another extension? Request support by leaving a comment in the <a>Private Profile discussion</a>. Please include the extension name and a link to its page.",
+                "option_everyone": "Everyone",
+                "option_members": "Members only",
+                "option_private": "Private"
+            },
+            "permissions": {
+                "bypass_profile_visibility": "Bypass profile visibility restrictions"
+            },
+            "tabs": {
+                "posts": "Posts",
+                "discussions": "Discussions",
+                "likes": "Likes",
+                "mentions": "Mentions",
+                "votes": "Votes",
+                "badges": "Badges",
+                "rewind": "Rewind",
+                "feedbacks": "Trader feedback",
+                "uploads": "Uploads",
+                "privateDiscussions": "Private discussions"
+            }
+        },
+        "forum": {
+            "user": {
+                "settings": {
+                    "private_profile_heading": "Profile visibility",
+                    "private_profile_description": "Make my profile private",
+                    "private_profile_help": "Choose who can view the profile tabs selected by the administrator. Your avatar and profile header remain visible. You and users with bypass permission retain access.",
+                    "private_profile_help_members": "When enabled, only signed-in members can view the profile pages selected by the administrator. Guests will be asked to log in.",
+                    "private_profile_help_private": "When enabled, only you, administrators and users with bypass permission can view the profile pages selected by the administrator.",
+                    "private_profile_help_public": "When disabled, these profile pages are public. Your avatar and profile header remain visible in either case.",
+                    "option_default": "Forum default ({level})",
+                    "option_everyone": "Everyone",
+                    "option_members": "Members only",
+                    "option_private": "Private"
+                }
+            },
+            "profile_is_private": "This profile is private.",
+            "profile_members_only": "This profile is visible to members only. Please log in to view."
+        }
+    }
+}
