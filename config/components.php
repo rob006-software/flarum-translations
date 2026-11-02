@@ -261,6 +261,9 @@ return [
 	'ernestdefoe-gauntlet' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gauntlet/1.1.2/locale/en.yml',
 	],
+	'ernestdefoe-github-release-bot' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/github-release-bot/2.1.2/locale/en.yml',
+	],
 	'ernestdefoe-giveaways' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.3/locale/en.yml',
 	],
