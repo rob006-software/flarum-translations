@@ -877,6 +877,9 @@ return [
 	'huoxin-relative-url' => [
 		'beta' => 'https://raw.githubusercontent.com/huoxin233/flarum-ext-relative-url/2.0.0-beta.1/locale/en.yml',
 	],
+	'huseyinfiliz-author-moderation' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/author-moderation/1.0.0/locale/en.yml',
+	],
 	'huseyinfiliz-awards' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0/resources/locale/en.yml',
 	],
