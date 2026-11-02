@@ -982,6 +982,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-markdown-tables`](https://weblate.rob006.net/projects/flarum2/ekumanov-markdown-tables) | [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
+| [`el-choco-admin-console`](https://weblate.rob006.net/projects/flarum2/el-choco-admin-console) | [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) |
 | [`ernestdefoe-anthology`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-anthology) | [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ernestdefoe-backdrop`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-backdrop) | [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) |
@@ -1104,6 +1105,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huoxin-filter-rule-manager`](https://weblate.rob006.net/projects/flarum2/huoxin-filter-rule-manager) | [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) |
 | [`huoxin-money-with-history`](https://weblate.rob006.net/projects/flarum2/huoxin-money-with-history) | [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) |
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
+| [`huseyinfiliz-author-moderation`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-author-moderation) | [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-discussion-ban`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-discussion-ban) | [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
