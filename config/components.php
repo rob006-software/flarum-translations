@@ -289,7 +289,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.7.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-insert-coin' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/insert-coin/1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/insert-coin/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-janitor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/janitor/v1.3.3/resources/locale/en.yml',
