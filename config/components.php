@@ -232,7 +232,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/discussion-participants/v1.0.6/locale/en.yml',
 	],
 	'ernestdefoe-docket' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.4.1/locale/en.yml',
 	],
 	'ernestdefoe-earshot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.3/locale/en.yml',
