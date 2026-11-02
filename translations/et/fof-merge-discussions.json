@@ -15,6 +15,7 @@
                 "type_from_label": "Liida see vestlus teisega",
                 "type_from_help_text": "",
                 "load_preview_button": "Eelvaade",
+                "preview_truncated": "",
                 "submit_button": "Liida"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Vestluste liitmine ebaõnnestus.",
                 "updating_failed": "Vestluse üksikasjade uuendamine ebaõnnestus.",
+                "redirecting_failed": "",
                 "deleting_failed": "Tühja vestluse kustutamine ebaõnnestus.",
                 "fixing_posts_number_failed": "Postituste arvu parandamine ebaõnnestus.",
                 "fixing_posts_number_meta_failed": "Postituste numbrite parandamine ebaõnnestus."

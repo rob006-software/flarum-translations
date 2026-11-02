@@ -15,6 +15,7 @@
                 "type_from_label": "Merge this discussion into another",
                 "type_from_help_text": "Choose target discussion to merge {title} into.",
                 "load_preview_button": "Preview",
+                "preview_truncated": "Showing posts {from} to {to} of {total}.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,11 +42,11 @@
         },
         "api": {
             "error": {
+                "into_itself": "A discussion cannot be merged into itself.",
                 "merging_failed": "Failed to merge discussions.",
                 "updating_failed": "Failed to update discussion details.",
-                "deleting_failed": "Failed to delete empty discussions.",
-                "fixing_posts_number_failed": "Failed to fix posts numbers.",
-                "fixing_posts_number_meta_failed": "Failed to fix posts numbers."
+                "redirecting_failed": "Failed to redirect the merged discussions.",
+                "deleting_failed": "Failed to delete empty discussions."
             }
         },
         "ref": {

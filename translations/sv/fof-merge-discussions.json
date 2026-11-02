@@ -15,6 +15,7 @@
                 "type_from_label": "Sammanfoga den här diskussionen med en annan",
                 "type_from_help_text": "Välj måldiskussion att sammanfoga {title} med.",
                 "load_preview_button": "Förhandsgranska",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Det gick inte att sammanfoga diskussionerna.",
                 "updating_failed": "Det gick inte att uppdatera diskussionsdetaljerna.",
+                "redirecting_failed": "",
                 "deleting_failed": "Det gick inte att ta bort tomma diskussioner.",
                 "fixing_posts_number_failed": "Det gick inte att korrigera inläggsnumren.",
                 "fixing_posts_number_meta_failed": "Det gick inte att korrigera inläggsnumren."

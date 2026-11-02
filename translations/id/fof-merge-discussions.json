@@ -15,6 +15,7 @@
                 "type_from_label": "Gabungkan diskusi ini ke diskusi lain",
                 "type_from_help_text": "",
                 "load_preview_button": "Pratinjau",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Gagal menggabungkan diskusi.",
                 "updating_failed": "Gagal memperbarui detail diskusi.",
+                "redirecting_failed": "",
                 "deleting_failed": "Gagal menghapus diskusi kosong.",
                 "fixing_posts_number_failed": "Gagal memperbaiki nomor post.",
                 "fixing_posts_number_meta_failed": "Gagal memperbaiki nomor post."

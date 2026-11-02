@@ -15,6 +15,7 @@
                 "type_from_label": "Mesclar esta discussão em outra",
                 "type_from_help_text": "Escolha a discussão de destino na qual mesclar {title}.",
                 "load_preview_button": "Visualizar",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Falha ao mesclar as discussões.",
                 "updating_failed": "Falha ao atualizar os detalhes da discussão.",
+                "redirecting_failed": "",
                 "deleting_failed": "Falha ao excluir as discussões vazias.",
                 "fixing_posts_number_failed": "Falha ao corrigir a numeração dos posts.",
                 "fixing_posts_number_meta_failed": "Falha ao corrigir a numeração dos posts."

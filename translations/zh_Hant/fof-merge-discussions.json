@@ -15,6 +15,7 @@
                 "type_from_label": "合併到其它主題",
                 "type_from_help_text": "",
                 "load_preview_button": "預覽",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "合併主題失敗。",
                 "updating_failed": "更新主題內容失敗。",
+                "redirecting_failed": "",
                 "deleting_failed": "刪除空主題失敗。",
                 "fixing_posts_number_failed": "修復貼文編號失敗。",
                 "fixing_posts_number_meta_failed": "貼文編號修正失敗。"

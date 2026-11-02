@@ -15,6 +15,7 @@
                 "type_from_label": "Spoji ovu temu u drugu",
                 "type_from_help_text": "",
                 "load_preview_button": "Pregled",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Spajanje tema nije uspjelo.",
                 "updating_failed": "Ažuriranje detalja teme nije uspjelo.",
+                "redirecting_failed": "",
                 "deleting_failed": "Brisanje praznih tema nije uspjelo.",
                 "fixing_posts_number_failed": "Ispravljanje brojeva objava nije uspjelo.",
                 "fixing_posts_number_meta_failed": "Ispravljanje brojeva objava nije uspjelo."

@@ -15,6 +15,7 @@
                 "type_from_label": "Hợp nhất thảo luận này vào một thảo luận khác",
                 "type_from_help_text": "Hãy chọn cuộc thảo luận đích để gộp {title} vào đó.",
                 "load_preview_button": "Xem trước",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Không thể hợp nhất các cuộc thảo luận.",
                 "updating_failed": "Không cập nhật được chi tiết cuộc thảo luận.",
+                "redirecting_failed": "",
                 "deleting_failed": "Không thể xóa các cuộc thảo luận trống.",
                 "fixing_posts_number_failed": "Không thể sửa số bài viết.",
                 "fixing_posts_number_meta_failed": "Không thể sửa số bài viết."

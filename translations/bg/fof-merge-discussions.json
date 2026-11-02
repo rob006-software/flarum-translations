@@ -15,6 +15,7 @@
                 "type_from_label": "Обедини тази дискусия с друга",
                 "type_from_help_text": "",
                 "load_preview_button": "Преглед",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,8 +42,10 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Неуспешно обединяване на дискусии.",
                 "updating_failed": "Неуспешно обновяване на детайлите на дискусията.",
+                "redirecting_failed": "",
                 "deleting_failed": "Неуспешно изтриване на празни дискусии.",
                 "fixing_posts_number_failed": "Неуспешно коригиране на номерата на публикациите.",
                 "fixing_posts_number_meta_failed": "Неуспешно коригиране на номерата на публикациите."

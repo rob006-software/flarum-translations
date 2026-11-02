@@ -15,6 +15,7 @@
                 "type_from_label": "Batu eztabaida beste bati",
                 "type_from_help_text": "",
                 "load_preview_button": "Aurreikusi",
+                "preview_truncated": "",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -41,11 +42,11 @@
         },
         "api": {
             "error": {
+                "into_itself": "",
                 "merging_failed": "Arazoa eztabaidak batzean.",
                 "updating_failed": "Arazoa eztabaidaren xehetasunak eguneratzean.",
-                "deleting_failed": "Arazoa hutsik dauden eztabaidak borratzean.",
-                "fixing_posts_number_failed": "",
-                "fixing_posts_number_meta_failed": ""
+                "redirecting_failed": "",
+                "deleting_failed": "Arazoa hutsik dauden eztabaidak borratzean."
             }
         },
         "ref": {
