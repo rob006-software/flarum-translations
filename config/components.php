@@ -996,7 +996,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/mobile-logo/v1.0.4/locale/en.yml',
 	],
 	'linkrobins-op' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/OP/v1.1.4/locale/en.yml',
 	],
 	'linkrobins-referral' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/referral/v1.4.4/locale/en.yml',
