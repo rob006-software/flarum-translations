@@ -13,7 +13,9 @@
         "forum": {
             "not_loaded_error": "Failed to load Cloudflare Turnstile. Please refresh the page, and check your adblocker.",
             "validation_error": "Please complete the Turnstile challenge.",
-            "error": "An error occurred while verifying you are human. Please try again."
+            "error": "An error occurred while verifying you are human. Please try again.",
+            "verifying": "Verifying you are human...",
+            "slow_error": "The Turnstile challenge is taking longer than usual. Please try again in a moment."
         }
     },
     "validation": {
