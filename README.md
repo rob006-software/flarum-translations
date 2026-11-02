@@ -982,6 +982,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-markdown-tables`](https://weblate.rob006.net/projects/flarum2/ekumanov-markdown-tables) | [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables) |
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
+| [`ernestdefoe-anthology`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-anthology) | [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ernestdefoe-backdrop`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-backdrop) | [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) |
 | [`ernestdefoe-bouncer`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-bouncer) | [`ernestdefoe/bouncer`](https://github.com/ernestdefoe/bouncer) |
@@ -1110,6 +1111,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
+| [`huseyinfiliz-private-profile`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-private-profile) | [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) |
 | [`huseyinfiliz-rewind`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-rewind) | [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) |
 | [`huseyinfiliz-simple-dark-mode`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-simple-dark-mode) | [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode) |
 | [`huseyinfiliz-stickiest`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-stickiest) | [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) |
