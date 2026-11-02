@@ -1,0 +1,47 @@
+{
+    "cengizkemec-passkeys": {
+        "admin": {
+            "settings": {
+                "enable_label": "",
+                "signup_enable_label": "",
+                "signup_enable_help": "",
+                "rp_id_label": "",
+                "rp_id_help": "",
+                "rp_name_label": "",
+                "rp_name_help": "",
+                "origin_label": "",
+                "origin_help": ""
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_passkey": "",
+                "passkey_error": ""
+            },
+            "sign_up": {
+                "with_passkey": "",
+                "passkey_help": "",
+                "missing_fields": "",
+                "password_too_short": "",
+                "signup_disabled": "",
+                "already_authenticated": "",
+                "session_expired": "",
+                "credential_exists": "",
+                "registration_failed": "",
+                "error": ""
+            },
+            "settings": {
+                "passkeys_heading": "",
+                "add_passkey": "",
+                "no_passkeys": "",
+                "unnamed_device": "",
+                "device_name_prompt": "",
+                "delete": "",
+                "delete_confirm": "",
+                "added": "",
+                "deleted": "",
+                "error": ""
+            }
+        }
+    }
+}

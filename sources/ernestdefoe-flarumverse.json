@@ -1,0 +1,152 @@
+{
+    "ernestdefoe-flarumverse": {
+        "forum": {
+            "nav": "Flarumverse",
+            "page": {
+                "title": "Flarumverse",
+                "intro": "New discussions from forums paired with {forum}. Each one opens on the forum it was posted on.",
+                "all_forums": "All forums",
+                "empty": "No discussions from paired forums yet.",
+                "load_more": "Load more",
+                "filter": "Show discussions from",
+                "open_on": "Opens on {forum}",
+                "replies": "{count, plural, one {# reply} other {# replies}}"
+            },
+            "directory": {
+                "title": "Find a forum",
+                "nav": "Find a forum",
+                "intro": "Independent communities running on Flarum. Each one is run by its own owners. Click one to visit and join.",
+                "search": "Search forums",
+                "all_topics": "All topics",
+                "all_languages": "All languages",
+                "several_languages": "Several languages",
+                "members": "{count, plural, one {# member} other {# members}}",
+                "discussions": "{count, plural, one {# discussion} other {# discussions}}",
+                "active": "Active {ago}",
+                "latest": "Recent discussions",
+                "empty": "No forums match.",
+                "load_more": "Load more",
+                "visit": "Visit forum",
+                "list_yours": "Run a Flarum forum? Install Flarumverse and tick \"List my forum\" to appear here."
+            }
+        },
+        "admin": {
+            "your_address": "Your forum's address:",
+            "copy": "Copy",
+            "copied": "Copied",
+            "pair": {
+                "heading": "Pair with a forum",
+                "label": "Forum address",
+                "placeholder": "forum.example.com",
+                "button": "Send request",
+                "sent": "Request sent to {name}. It shows here as paired once they approve."
+            },
+            "suggestions": {
+                "heading": "Suggested",
+                "help": "A good first partner. Nothing is sent until you click Send request, and they approve each request."
+            },
+            "sections": {
+                "requests": "Requests to approve",
+                "paired": "Paired forums ({count} of {max})",
+                "waiting": "Waiting for their answer",
+                "refused": "Declined by them",
+                "declined": "Declined by you",
+                "none_paired": "Not paired with any forum yet."
+            },
+            "partner": {
+                "approve": "Approve",
+                "decline": "Decline",
+                "remove": "Remove",
+                "cancel": "Cancel request",
+                "forget": "Forget",
+                "threads": "{count, plural, one {# discussion} other {# discussions}} on your Flarumverse page",
+                "paired_since": "Paired {ago}",
+                "asked": "Asked {ago}",
+                "unreachable": "Can't reach this forum at the moment ({error}). Flarumverse keeps trying.",
+                "confirm_remove": "Stop pairing with {name}? Each forum stops showing the other's discussions."
+            },
+            "directory": {
+                "heading": "Flarumverse directory",
+                "help": "List your forum on {host}/forums, where people looking for a community browse forums by topic and language. Your forum's name, description, number of members and discussions, and its three newest discussion titles are shown. Every listing is approved by hand first.",
+                "listed": "List my forum in the directory",
+                "topic": "Topic",
+                "language": "Language",
+                "logo_bg": "Logo background",
+                "logo_bg_help": "Pick what your logo was drawn to sit on, so it stays readable on your directory card.",
+                "logo_bg_light": "Light",
+                "logo_bg_dark": "Dark",
+                "logo_bg_brand": "Your primary color",
+                "pick": "Choose…",
+                "several_languages": "Several languages",
+                "save": "Save",
+                "saved": "Saved.",
+                "status": {
+                    "pending": "Waiting for approval.",
+                    "approved": "Listed. Your forum is in the directory.",
+                    "rejected": "Not accepted for the directory.",
+                    "removed": "Removed from the directory."
+                }
+            },
+            "listings": {
+                "heading": "Directory listings",
+                "help": "Forums asking to be listed on this forum's /forums page. Only approved forums are shown there.",
+                "pending": "Waiting for approval",
+                "approved": "Listed",
+                "rejected": "Rejected",
+                "none": "No forums have asked to be listed yet.",
+                "approve": "Approve",
+                "reject": "Reject",
+                "remove": "Remove",
+                "unreachable": "Unreachable at the last check",
+                "stats": "{members} members · {discussions} discussions",
+                "view": "View the directory"
+            },
+            "how": {
+                "heading": "How it works",
+                "items": {
+                    "shared": "Only discussions a guest could read are shared, never private, hidden or restricted ones.",
+                    "sent": "Each discussion shares its title, the first few lines, the author's name, its tag and the reply count.",
+                    "refresh": "Flarumverse refreshes every partner every 15 minutes through Flarum's scheduler. With a queue worker running, new discussions are sent the moment they're posted."
+                }
+            }
+        },
+        "api": {
+            "invalid_address": "Enter the forum's web address, like forum.example.com. It must use https.",
+            "own_address": "That's this forum's own address.",
+            "not_a_flarumverse_forum": "That forum doesn't have Flarumverse installed, or couldn't be reached.",
+            "request_failed": "The forum didn't accept the request. Try again later.",
+            "declined_recently": "That forum declined a request from you recently.",
+            "they_are_full": "That forum already has as many partners as it can.",
+            "they_are_busy": "That forum is getting a lot of requests. Try again tomorrow.",
+            "we_are_full": "You already have {max} partners, the most Flarumverse allows.",
+            "directory_pick": "Choose a topic and a language for your listing.",
+            "directory_failed": "The directory couldn't be reached. Try again later."
+        },
+        "lib": {
+            "topics": {
+                "general": "General discussion",
+                "gaming": "Gaming",
+                "sports": "Sports",
+                "technology": "Technology",
+                "development": "Software and web development",
+                "science": "Science",
+                "entertainment": "Movies and TV",
+                "music": "Music",
+                "books": "Books and writing",
+                "art": "Art and design",
+                "hobbies": "Hobbies and crafts",
+                "home": "Home and garden",
+                "food": "Food and drink",
+                "travel": "Travel",
+                "cars": "Cars and motorsport",
+                "health": "Health and fitness",
+                "business": "Business and money",
+                "education": "Education",
+                "society": "News, politics and society",
+                "faith": "Religion and philosophy",
+                "support": "Product support",
+                "other": "Other"
+            }
+        }
+    }
+}

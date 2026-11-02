@@ -1,0 +1,47 @@
+{
+    "cengizkemec-passkeys": {
+        "admin": {
+            "settings": {
+                "enable_label": "Enable Passkeys",
+                "signup_enable_label": "Allow passkey sign-up",
+                "signup_enable_help": "Lets guests create an account with a passkey from the sign-up modal. The forum's own sign-up setting must also be enabled.",
+                "rp_id_label": "Relying Party ID (RP ID)",
+                "rp_id_help": "Leave empty to use the current domain. This must be the registrable domain suffix of the origin (for example example.com).",
+                "rp_name_label": "Relying Party Name",
+                "rp_name_help": "The name shown by the browser while a passkey is created.",
+                "origin_label": "Origin",
+                "origin_help": "Full origin including scheme (for example https://example.com). Leave empty to use the current request origin."
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_passkey": "Sign in with a passkey",
+                "passkey_error": "Passkey sign-in failed. Please try again."
+            },
+            "sign_up": {
+                "with_passkey": "Sign up with a passkey",
+                "passkey_help": "The password field is optional. If you leave it empty, you can set a password later with \"Forgot password\".",
+                "missing_fields": "Enter a username and email address first.",
+                "password_too_short": "The password must be at least 8 characters, or leave it empty.",
+                "signup_disabled": "Passkey sign-up is currently disabled.",
+                "already_authenticated": "You are already signed in.",
+                "session_expired": "The sign-up request expired. Please try again.",
+                "credential_exists": "This passkey is already registered. Please try again.",
+                "registration_failed": "The account could not be created. The username or email may already be in use.",
+                "error": "Passkey sign-up failed. Please try again."
+            },
+            "settings": {
+                "passkeys_heading": "Passkeys",
+                "add_passkey": "Add passkey",
+                "no_passkeys": "You have not registered any passkeys yet.",
+                "unnamed_device": "Unnamed device",
+                "device_name_prompt": "Give this passkey a name (for example \"Work laptop\").",
+                "delete": "Remove",
+                "delete_confirm": "Remove this passkey? You will no longer be able to use it to sign in.",
+                "added": "Passkey added successfully.",
+                "deleted": "Passkey removed.",
+                "error": "Something went wrong. Please try again."
+            }
+        }
+    }
+}
