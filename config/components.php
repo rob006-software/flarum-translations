@@ -173,6 +173,9 @@ return [
 	'ernestdefoe-anthology' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-armory' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/armory/v0.15.12/resources/locale/en.yml',
+	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.5/resources/locale/en.yml',
 	],
