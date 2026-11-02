@@ -1,0 +1,62 @@
+{
+    "huseyinfiliz-author-moderation": {
+        "admin": {
+            "navigation": "",
+            "tabs": {
+                "moderation": "",
+                "author_only": "",
+                "eligibility": "",
+                "permissions": "",
+                "integrations": ""
+            },
+            "author_only_help": "",
+            "moderation_help": "",
+            "permissions_help": "",
+            "exemption_help": "",
+            "lock_help": "",
+            "warning_help": "",
+            "warnings_unavailable": "",
+            "available": "",
+            "unavailable": "",
+            "audit_help": "",
+            "settings": {
+                "moderation_enabled": "",
+                "moderation_enabled_help": "",
+                "restore_others": "",
+                "restore_others_help": "",
+                "author_only_enabled": "",
+                "author_only_enabled_help": "",
+                "warning_limit_enabled": "",
+                "warning_threshold": "",
+                "warning_threshold_help": ""
+            },
+            "permissions": {
+                "edit_posts": "",
+                "hide_posts": "",
+                "restore_posts": "",
+                "rename": "",
+                "hide_discussion": "",
+                "restore_discussion": "",
+                "lock": "",
+                "exempt": "",
+                "author_only": "",
+                "manage_author_only": "",
+                "reply_author_only": ""
+            }
+        },
+        "forum": {
+            "enable_author_only": "",
+            "disable_author_only": "",
+            "author_only_badge": ""
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "author_moderation": {
+                    "author_only_changed": ""
+                }
+            }
+        }
+    }
+}

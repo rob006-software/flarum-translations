@@ -1,0 +1,62 @@
+{
+    "huseyinfiliz-author-moderation": {
+        "admin": {
+            "navigation": "Author Moderation settings",
+            "tabs": {
+                "moderation": "Moderation",
+                "author_only": "Author-only replies",
+                "eligibility": "Eligibility",
+                "permissions": "Permissions",
+                "integrations": "Integrations"
+            },
+            "author_only_help": "Only the discussion author and groups with the bypass permission can reply when this mode is active. Useful for personal journals and progress logs. Reading access is unchanged; locks and other reply restrictions still apply.",
+            "moderation_help": "Grant each author capability separately in Permissions. Authors can only use these additional capabilities in discussions they started. Reply moderation includes access to hidden replies in those discussions. Permanent deletion, flags, approval and pinning are not granted.",
+            "permissions_help": "Author capabilities apply only in discussions started by that user. Existing staff permissions are unchanged. Author-only management and reply-bypass permissions are separate from the author's own capabilities. Explicit restrictions from other extensions remain in effect.",
+            "exemption_help": "Users with the exemption permission are protected from these additional author permissions. Administrators are exempt automatically. Existing staff permissions can still moderate exempt users. Exemption does not grant permission to reply in author-only discussions.",
+            "lock_help": "With Flarum Lock enabled, authors can be allowed to lock and unlock their own discussions. This includes locks placed by staff; the extension does not track who locked a discussion. Core allows users who can manage a lock to reply in that locked discussion.",
+            "warning_help": "Optionally remove additional author permissions when the author's total active warning points reach the threshold. Retracted warnings do not count. Existing staff permissions are unaffected. Author-only restrictions stop applying while the author is ineligible; the stored mode is preserved.",
+            "warnings_unavailable": "Enable FoF Moderator Warnings to use this condition. While it is unavailable, the warning condition is not applied.",
+            "available": "Enabled",
+            "unavailable": "Not enabled",
+            "audit_help": "When Audit is enabled, author-only mode changes are recorded. Standard moderation actions use their existing audit records.",
+            "settings": {
+                "moderation_enabled": "Enable additional author moderation permissions",
+                "moderation_enabled_help": "Group permissions determine which capabilities each author receives. Disabling this switch leaves normal Flarum and staff permissions unchanged. Author-only reply mode has its own switch.",
+                "restore_others": "Allow restoring content hidden by another user",
+                "restore_others_help": "Applies to additional author restoration permissions for replies and discussions. If disabled, authors can only restore content they hid themselves. Restoration still requires the corresponding group permission; exempt users remain protected.",
+                "author_only_enabled": "Allow author-only reply mode",
+                "author_only_enabled_help": "Authors also need the group permission. Turning this off suspends restrictions without clearing the saved mode on discussions.",
+                "warning_limit_enabled": "Restrict author permissions based on warning points",
+                "warning_threshold": "Warning point threshold",
+                "warning_threshold_help": "At or above this total, additional author permissions are unavailable. For example, 3 blocks authors with 3 or more active points."
+            },
+            "permissions": {
+                "edit_posts": "Edit posts in own discussions",
+                "hide_posts": "Hide replies in own discussions",
+                "restore_posts": "Restore replies in own discussions",
+                "rename": "Rename own discussions without the core time limit",
+                "hide_discussion": "Hide own discussions after others have replied",
+                "restore_discussion": "Restore own discussions",
+                "lock": "Lock and unlock own discussions",
+                "exempt": "Exempt from author moderation",
+                "author_only": "Enable author-only replies in own discussions",
+                "manage_author_only": "Manage author-only mode in any discussion",
+                "reply_author_only": "Reply in author-only discussions"
+            }
+        },
+        "forum": {
+            "enable_author_only": "Only the author can reply",
+            "disable_author_only": "Allow other members to reply",
+            "author_only_badge": "Only the author and permitted groups can reply"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "author_moderation": {
+                    "author_only_changed": "Changed author-only reply mode in {discussion}"
+                }
+            }
+        }
+    }
+}
