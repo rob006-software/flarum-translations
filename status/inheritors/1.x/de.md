@@ -2,8 +2,8 @@
 
 Translations for German (`de`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **3** are translated differently and **63** are
-translated only in `de`. Altogether they cover **7** components.
+sides, but do not match between them: **4** are translated differently and **63** are
+translated only in `de`. Altogether they cover **8** components.
 
 <!-- {% raw %} -->
 
@@ -14,6 +14,7 @@ translated only in `de`. Altogether they cover **7** components.
 | --- | --- | --- |
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
 | `clarkwinkelmann-selective-mediaembed` | [1](#clarkwinkelmann-selective-mediaembed) | 0 |
+| `flarum-mentions` | [1](#flarum-mentions) | 0 |
 | `floxum-payments` | 0 | [13](#floxum-payments-missing) |
 | `fof-badges` | 0 | [26](#fof-badges-missing) |
 | `fof-sitemap` | [1](#fof-sitemap) | 0 |
@@ -52,6 +53,20 @@ URLs/Tags löschen, wenn <del>Diskussion/en</del><ins>Diskussionen</ins> oder<de
 ```
 
 <del>Alles</del><ins>Alle</ins> auswählen
+
+
+### `flarum-mentions`
+
+#### [`flarum-mentions.forum.post.mentioned_by_self_text`](https://weblate.rob006.net/translate/flarum2/flarum-mentions/de/?q=context%3A%3D%22flarum-mentions.forum.post.mentioned_by_self_text%22)
+
+> {users} replied to this.
+
+```diff
+-{users} haben auf diesen Beitrag geantwortet.
++{users} hast auf diesen Beitrag geantwortet.
+```
+
+{users} <del>haben</del><ins>hast</ins> auf diesen Beitrag geantwortet.
 
 
 ### `fof-sitemap`
