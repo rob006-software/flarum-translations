@@ -447,7 +447,7 @@ return [
 		'__builtInLanguages' => ['es'],
 	],
 	'ernestdefoe-warren' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/warren/v1.0.4/locale/en.yml',
 	],
 	'ernestdefoe-waymark' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/waymark/1.6.0/locale/en.yml',
