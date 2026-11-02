@@ -307,7 +307,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-logo-manager' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/logo-manager/1.1.5/locale/en.yml',
 	],
 	'ernestdefoe-longshot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/longshot/1.0.0/locale/en.yml',
