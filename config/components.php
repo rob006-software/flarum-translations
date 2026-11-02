@@ -737,10 +737,8 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.2/resources/locale/en.yml',
 	],
 	'gtdxyz-money-plus' => [
-		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-money-plus/1.1.3/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'tag' => 'https://raw.githubusercontent.com/daocatt/flarum-ext-money-plus/1.1.4/resources/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/2.5.1/resources/locale/en.yml',
