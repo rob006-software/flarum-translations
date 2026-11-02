@@ -454,6 +454,10 @@ return [
 	'ekumanov-new-posts-notice' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-new-posts-notice/v1.0.4/locale/en.yml',
 	],
+	'el-choco-admin-console' => [
+		'beta' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0-rc.4/locale/en.yml',
+		'__builtInLanguages' => ['de', 'es'],
+	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/1.0.3/resources/locale/en.yml',
 	],
