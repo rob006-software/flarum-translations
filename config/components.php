@@ -443,7 +443,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-wardrobe' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.1.5/locale/en.yml',
 		'__builtInLanguages' => ['es'],
 	],
 	'ernestdefoe-warren' => [
