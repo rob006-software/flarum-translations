@@ -1139,7 +1139,7 @@ return [
 		'__builtInLanguages' => ['ja', 'pt_BR'],
 	],
 	'ramon-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/chat/v0.4.1/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-classifieds' => [
