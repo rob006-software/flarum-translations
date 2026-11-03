@@ -2,7 +2,15 @@
     "ernestdefoe-ridge": {
         "admin": {
             "min_posts_label": "Minimum posts",
-            "min_posts_help": "Ridge only shades threads with at least this many posts. A short thread has no shape worth drawing, and the reader can already see all of it.\n"
+            "min_posts_help": "Ridge only shades threads with at least this many posts. A short thread has no shape worth drawing, and the reader can already see all of it.\n",
+            "post_marks_label": "Mark every post on the scrubber",
+            "post_marks_help": "Draws a thin mark for each post on the scrubber. Pointing at the scrubber opens a list of the posts around that spot, with who wrote each one and when, and clicking one jumps straight to it. On phones, tap the scrubber to open the list.\n",
+            "big_number_label": "Big post number",
+            "big_number_help": "Restyles the scrubber with a thick bar that fills as you read and the current post number shown large.\n"
+        },
+        "forum": {
+            "lens_label": "Posts near this point",
+            "event_row": "Discussion update"
         }
     }
 }
