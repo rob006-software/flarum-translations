@@ -8,22 +8,69 @@
                 "enabled_signup_help": "Show the PoW security challenge inside the Sign Up form.",
                 "enabled_forgot_label": "Enable CAPTCHA on Password Reset",
                 "enabled_forgot_help": "Show the PoW security challenge inside the Forgot Password form.",
-                "difficulty_label": "Difficulty",
-                "difficulty_help": "Higher difficulty makes bots work harder. Level 1 might be bypassed by some bots (~100 ms). Level 2 provides better protection and is the default preference (~1 s). Level 3 tries to guarantee maximum protection and difficulty for bots (~10 s).",
-                "difficulty_3": "Level 1 – Low (~100 ms)",
-                "difficulty_4": "Level 2 – Medium (~1 s)",
-                "difficulty_5": "Level 3 – High (~10 s)"
+                "level_label": "Difficulty level",
+                "level_help": "The work every visitor's browser must do. Times are approximate, measured on a recent PC; phones are 3–6 times slower. With adaptive difficulty enabled, networks that behave suspiciously automatically get up to two extra steps.",
+                "level_1": "Level 1 – Light (instant on a PC)",
+                "level_2": "Level 2 – Balanced (≈ 0.1 s on a PC, recommended)",
+                "level_3": "Level 3 – Strong (≈ 1–3 s on a PC, 5–10 s on a phone)",
+                "adaptive_label": "Adaptive difficulty",
+                "adaptive_help": "Automatically raises the difficulty for networks with repeated failed checks or many sign-ups in a few minutes, and for everyone during a site-wide attack. Uses short-lived anonymous counters in the cache; nothing is stored.",
+                "protect_token_endpoint_label": "Also protect the API login endpoint (/api/token)",
+                "protect_token_endpoint_help": "Bots can log in by calling /api/token directly, skipping the login form. When enabled, direct calls must carry a CAPTCHA token (GET /api/powcaptcha/challenge?action=token). Turn this off if mobile apps or other integrations log in through the API without a browser.",
+                "log_enabled_label": "Keep an anonymous event log",
+                "log_enabled_help": "Stores the time, form, outcome and technical reason of recent checks, without IP addresses or any personal data. Only the latest 30 successes and 30 failures are kept."
+            },
+            "logs": {
+                "title": "Recent CAPTCHA events",
+                "help": "Anonymous: no IP address, user agent or personal data is stored. The latest 30 successful and 30 failed checks are kept; older entries are deleted automatically.",
+                "refresh": "Refresh",
+                "clear": "Clear log",
+                "confirm_clear": "Delete all CAPTCHA log entries? This cannot be undone.",
+                "cleared": "CAPTCHA log cleared.",
+                "load_error": "Could not load the log.",
+                "empty": "No events recorded yet.",
+                "filter_all": "All",
+                "filter_ok": "Passed",
+                "filter_fail": "Failed",
+                "col_time": "Time",
+                "col_form": "Form",
+                "col_result": "Result",
+                "col_reason": "Reason",
+                "col_difficulty": "Difficulty",
+                "result_ok": "Passed",
+                "result_fail": "Failed",
+                "actions": {
+                    "login": "Login",
+                    "signup": "Registration",
+                    "forgot": "Password reset",
+                    "token": "API login"
+                },
+                "reasons": {
+                    "ok": "Verified",
+                    "missing": "No token sent (bot without JavaScript?)",
+                    "malformed": "Malformed token",
+                    "wrong_action": "Token issued for another form",
+                    "bad_signature": "Forged or altered challenge",
+                    "wrong_network": "Network changed since the challenge was issued",
+                    "expired": "Challenge expired",
+                    "too_fast": "Submitted too quickly",
+                    "bad_solution": "Wrong or insufficient proof of work",
+                    "replayed": "Token already used",
+                    "honeypot": "Hidden field filled in (bot)",
+                    "cache_error": "Cache unavailable"
+                }
             }
         },
         "forum": {
-            "solving": "Solving security challenge…",
+            "solving": "Running security check…",
             "verified": "Security check passed",
             "error": "Security check failed. Please try again.",
+            "rate_limited": "Too many attempts. Please try again in {seconds} seconds.",
             "retry": "Retry",
-            "challenge_not_ready": "The security challenge is still in progress or has not been completed. Please wait."
+            "challenge_not_ready": "The security check is not complete yet. Please try again."
         },
         "validation": {
-            "pow_captcha": "The security challenge could not be verified. Please try again."
+            "pow_captcha": "The security check could not be verified. Please try again."
         }
     }
 }
