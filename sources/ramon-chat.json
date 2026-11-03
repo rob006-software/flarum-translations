@@ -132,6 +132,8 @@
                 "direct_messages": "Direct Messages",
                 "browse_channels": "Browse channels",
                 "new_channel": "New channel",
+                "new_direct": "Start a conversation",
+                "no_direct": "You have no direct messages yet.",
                 "no_channels": "You have not joined any channels yet.",
                 "back_to_channels": "Back to channels"
             },
@@ -388,6 +390,13 @@
                 "lifecycle_help": "Closing stops new messages but keeps the channel readable. Archiving copies the history into a discussion and freezes the channel until it is unarchived.",
                 "archive_confirm": "Archive this channel? Its history is copied into a discussion and the channel is frozen until unarchived."
             },
+            "new_direct": {
+                "title": "New direct message",
+                "intro": "Pick one person for a one-to-one conversation, or several for a group. If you already have a conversation with the same people, it opens again.",
+                "submit": "Start conversation",
+                "submit_group": "Start group conversation",
+                "too_many": "A conversation holds up to {max} other people."
+            },
             "add_members": {
                 "title": "Invite members",
                 "intro": "Each person you choose gets a notification and decides whether to join {channel}.",
@@ -608,6 +617,10 @@
                 "channel_ownership_help": "With members in charge, the permissions grid below splits into two blocks. \"Chat: global\" applies to the whole chat, in every channel. \"Chat: channels run by members\" applies only inside the channels members create and run: creating them, managing them, editing them, and what members may send in them. A channel's owner can promote members to moderators of that channel; owners and channel moderators skip its slow mode. Administrators and chat moderators keep every channel.",
                 "allow_archiving_channels_help": "A closed channel can be archived into a discussion that keeps its transcript.",
                 "threading_default_help": "New channels start with threads on. Each channel can still change it.",
+                "direct_messages_provider": "\"Send message\" opens",
+                "direct_messages_provider_messages": "Private messages (flarum/messages)",
+                "direct_messages_provider_chat": "A direct conversation in the chat",
+                "direct_messages_provider_help": "With flarum/messages on, both offer \"Send message\" on profiles and user menus. Pick which one the button opens; the other stays reachable from its own page.",
                 "retention_warning": "Retention permanently deletes messages. There is no undo.",
                 "channel_retention_days": "Channel retention (days)",
                 "channel_retention_help": "Days to keep messages in category channels. 0 keeps them forever.",

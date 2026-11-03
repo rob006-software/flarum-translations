@@ -132,6 +132,8 @@
                 "direct_messages": "私信",
                 "browse_channels": "浏览频道",
                 "new_channel": "新建频道",
+                "new_direct": "",
+                "no_direct": "",
                 "no_channels": "你还没有加入任何频道。",
                 "back_to_channels": "返回频道"
             },
@@ -388,6 +390,13 @@
                 "lifecycle_help": "关闭频道后将无法发送新消息，但仍可阅读历史记录。归档会将聊天记录复制到一篇讨论中，并永久冻结频道。",
                 "archive_confirm": "确定归档此频道吗？聊天记录会复制到一篇讨论中，频道随后将永久冻结。"
             },
+            "new_direct": {
+                "title": "",
+                "intro": "",
+                "submit": "",
+                "submit_group": "",
+                "too_many": ""
+            },
             "add_members": {
                 "title": "邀请成员",
                 "intro": "你邀请的用户都会收到通知，他们可以自行决定是否加入 {channel}。",
@@ -616,6 +625,10 @@
                 "channel_ownership_help": "允许成员自行管理频道后，下方权限会分为两组。「聊天：全局权限」适用于所有频道；「聊天：成员自建频道」只适用于成员创建并管理的频道，包括频道的创建、管理和编辑，以及成员可以在其中执行的操作。频道主可以任命频道版主，二者都不受所在频道的慢速模式限制。管理员及拥有聊天管理权限的用户仍可管理所有频道。",
                 "allow_archiving_channels_help": "已关闭的频道可以归档为一篇讨论，并保留聊天记录。",
                 "threading_default_help": "新频道默认开启话题串，之后仍可在各频道中单独开关。",
+                "direct_messages_provider": "",
+                "direct_messages_provider_messages": "",
+                "direct_messages_provider_chat": "",
+                "direct_messages_provider_help": "",
                 "retention_warning": "超过保留期限的消息会被永久删除，无法恢复。",
                 "channel_retention_days": "频道消息保留天数",
                 "channel_retention_help": "板块频道中的消息保留多少天。0 表示永久保留。",

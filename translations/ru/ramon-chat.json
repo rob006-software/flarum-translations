@@ -132,6 +132,8 @@
                 "direct_messages": "Личные сообщения",
                 "browse_channels": "Обзор каналов",
                 "new_channel": "Новый канал",
+                "new_direct": "",
+                "no_direct": "",
                 "no_channels": "Вы ещё не присоединились ни к одному каналу.",
                 "back_to_channels": "Вернуться к каналам"
             },
@@ -389,6 +391,13 @@
                 "lifecycle_help": "Закрытие останавливает новые сообщения, но канал остаётся доступным для чтения. Архивирование копирует историю в тему и замораживает канал навсегда.",
                 "archive_confirm": "Архивировать этот канал? Его история будет скопирована в тему, а сам канал заморожен навсегда."
             },
+            "new_direct": {
+                "title": "",
+                "intro": "",
+                "submit": "",
+                "submit_group": "",
+                "too_many": ""
+            },
             "add_members": {
                 "title": "Добавить участников",
                 "intro": "",
@@ -617,6 +626,10 @@
                 "channel_ownership_help": "",
                 "allow_archiving_channels_help": "",
                 "threading_default_help": "",
+                "direct_messages_provider": "",
+                "direct_messages_provider_messages": "",
+                "direct_messages_provider_chat": "",
+                "direct_messages_provider_help": "",
                 "retention_warning": "Хранение безвозвратно удаляет сообщения. Отменить это нельзя.",
                 "channel_retention_days": "Хранение сообщений в каналах — в днях",
                 "channel_retention_help": "Сколько дней хранить личные и групповые сообщения. 0 — хранить вечно.",

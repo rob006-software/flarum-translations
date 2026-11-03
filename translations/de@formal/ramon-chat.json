@@ -132,6 +132,8 @@
                 "direct_messages": "Direktnachrichten",
                 "browse_channels": "Kanäle durchsuchen",
                 "new_channel": "Neuer Kanal",
+                "new_direct": "",
+                "no_direct": "",
                 "no_channels": "Du bist noch keinem Kanal beigetreten.",
                 "back_to_channels": "Zurück zu Kanälen"
             },
@@ -389,6 +391,13 @@
                 "lifecycle_help": "Durch das Schließen werden keine neuen Nachrichten mehr zugelassen, der Kanal bleibt jedoch weiterhin lesbar. Durch das Archivieren wird der Verlauf in eine Diskussion kopiert und der Kanal bis zur Aufhebung der Archivierung gesperrt.",
                 "archive_confirm": "Diesen Kanal archivieren? Der Verlauf wird in eine Diskussion kopiert und der Kanal wird bis zur Aufhebung der Archivierung gesperrt."
             },
+            "new_direct": {
+                "title": "",
+                "intro": "",
+                "submit": "",
+                "submit_group": "",
+                "too_many": ""
+            },
             "add_members": {
                 "title": "Mitglieder einladen",
                 "intro": "Jede von dir ausgewählte Person erhält eine Benachrichtigung und entscheidet selbst, ob sie {channel} beitreten möchte.",
@@ -617,6 +626,10 @@
                 "channel_ownership_help": "Wenn Mitglieder die Verantwortung tragen, gliedert sich die untenstehende Berechtigungsübersicht in zwei Blöcke. „Chat: global“ gilt für den gesamten Chat in allen Kanälen. „Chat: von Mitgliedern verwaltete Kanäle“ gilt nur innerhalb der Kanäle, die Mitglieder erstellen und betreiben: das Erstellen, Verwalten und Bearbeiten dieser Kanäle sowie die Inhalte, die Mitglieder darin senden dürfen. Der Eigentümer eines Kanals kann Mitglieder zu Moderatoren dieses Kanals ernennen; Eigentümer und Kanalmoderatoren sind vom „Slow Mode“ ausgenommen. Administratoren und Chat-Moderatoren behalten die Kontrolle über alle Kanäle.",
                 "allow_archiving_channels_help": "Ein geschlossener Kanal kann in einer Diskussion archiviert werden, in der das Protokoll erhalten bleibt.",
                 "threading_default_help": "Neue Kanäle beginnen mit aktivierten Threads. Jeder Kanal kann diese Einstellung jederzeit ändern.",
+                "direct_messages_provider": "",
+                "direct_messages_provider_messages": "",
+                "direct_messages_provider_chat": "",
+                "direct_messages_provider_help": "",
                 "retention_warning": "Durch die Löschung werden Nachrichten endgültig gelöscht. Eine Wiederherstellung ist nicht möglich.",
                 "channel_retention_days": "Kanalaufbewahrung (Tage)",
                 "channel_retention_help": "Anzahl der Tage, für die Nachrichten in Kategoriekanälen aufbewahrt werden sollen. Bei 0 werden sie dauerhaft gespeichert.",

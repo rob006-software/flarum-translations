@@ -132,6 +132,8 @@
                 "direct_messages": "Wiadomości prywatne",
                 "browse_channels": "Przeglądaj kanały",
                 "new_channel": "Nowy kanał",
+                "new_direct": "",
+                "no_direct": "",
                 "no_channels": "Nie należysz jeszcze do żadnego kanału.",
                 "back_to_channels": "Wróć do kanałów"
             },
@@ -388,6 +390,13 @@
                 "lifecycle_help": "Zamknięcie blokuje nowe wiadomości, ale kanał pozostaje dostępny do odczytu. Archiwizacja kopiuje historię do dyskusji i zamraża kanał do czasu przywrócenia go z archiwum.",
                 "archive_confirm": "Zarchiwizować ten kanał? Jego historia zostanie skopiowana do dyskusji, a kanał zostanie zamrożony do czasu przywrócenia go z archiwum."
             },
+            "new_direct": {
+                "title": "",
+                "intro": "",
+                "submit": "",
+                "submit_group": "",
+                "too_many": ""
+            },
             "add_members": {
                 "title": "Zaproś członków",
                 "intro": "Każda wybrana osoba otrzyma powiadomienie i zdecyduje, czy chce dołączyć do {channel}.",
@@ -615,6 +624,10 @@
                 "channel_ownership_help": "Gdy kanałami zarządzają członkowie, poniższa tabela uprawnień dzieli się na dwie części. „Czat: globalne” dotyczy całego czatu i wszystkich kanałów. „Czat: kanały zarządzane przez członków” dotyczy wyłącznie kanałów tworzonych i zarządzanych przez członków: ich tworzenia, zarządzania nimi, edycji oraz tego, co członkowie mogą w nich wysyłać. Właściciel kanału może nadawać jego członkom rolę moderatora; właściciela i moderatorów kanału nie obowiązuje jego tryb powolny. Administratorzy i moderatorzy czatu zachowują pełne uprawnienia na wszystkich kanałach.",
                 "allow_archiving_channels_help": "Zamknięty kanał można zarchiwizować jako dyskusję zachowującą zapis rozmowy.",
                 "threading_default_help": "Nowe kanały mają domyślnie włączone wątki. Można je później wyłączyć osobno dla każdego kanału.",
+                "direct_messages_provider": "",
+                "direct_messages_provider_messages": "",
+                "direct_messages_provider_chat": "",
+                "direct_messages_provider_help": "",
                 "retention_warning": "Retencja trwale usuwa wiadomości. Nie można tego cofnąć.",
                 "channel_retention_days": "Retencja wiadomości kanałów (dni)",
                 "channel_retention_help": "Liczba dni przechowywania wiadomości na kanałach kategorii. 0 oznacza przechowywanie bezterminowe.",

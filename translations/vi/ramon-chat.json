@@ -132,6 +132,8 @@
                 "direct_messages": "Tin nhắn riêng",
                 "browse_channels": "Duyệt các kênh",
                 "new_channel": "Kênh mới",
+                "new_direct": "",
+                "no_direct": "",
                 "no_channels": "Bạn chưa tham gia kênh nào.",
                 "back_to_channels": "Quay lại các kênh"
             },
@@ -388,6 +390,13 @@
                 "lifecycle_help": "Việc đóng sẽ chặn tin nhắn mới nhưng kênh vẫn đọc được. Việc lưu trữ sẽ sao chép lịch sử vào một cuộc thảo luận và đóng băng kênh vĩnh viễn.",
                 "archive_confirm": "Lưu trữ kênh này? Lịch sử của kênh sẽ được sao chép vào một cuộc thảo luận và kênh bị đóng băng vĩnh viễn."
             },
+            "new_direct": {
+                "title": "",
+                "intro": "",
+                "submit": "",
+                "submit_group": "",
+                "too_many": ""
+            },
             "add_members": {
                 "title": "Mời thành viên",
                 "intro": "Mỗi người bạn chọn sẽ nhận được thông báo và tự quyết định có tham gia {channel} hay không.",
@@ -615,6 +624,10 @@
                 "channel_ownership_help": "Khi thành viên được quyền quản lý, bảng quyền bên dưới tách thành hai khối. \"Chat: toàn cục\" áp dụng cho toàn bộ chat, ở mọi kênh. \"Chat: kênh do thành viên quản lý\" chỉ áp dụng bên trong những kênh do thành viên tạo và quản lý: việc tạo, quản lý, chỉnh sửa kênh và những gì thành viên được gửi trong đó. Chủ kênh có thể thăng thành viên lên làm người kiểm duyệt của kênh đó; chủ kênh và người kiểm duyệt kênh không bị chế độ chậm ràng buộc. Quản trị viên và người kiểm duyệt chat vẫn quản được mọi kênh.",
                 "allow_archiving_channels_help": "Một kênh đã đóng có thể được lưu trữ thành một cuộc thảo luận giữ lại toàn bộ nội dung.",
                 "threading_default_help": "Các kênh mới sẽ bật sẵn tính năng luồng. Mỗi kênh vẫn có thể tự thay đổi.",
+                "direct_messages_provider": "",
+                "direct_messages_provider_messages": "",
+                "direct_messages_provider_chat": "",
+                "direct_messages_provider_help": "",
                 "retention_warning": "Chính sách lưu giữ sẽ xóa tin nhắn vĩnh viễn. Không thể hoàn tác.",
                 "channel_retention_days": "Thời gian lưu giữ của kênh (ngày)",
                 "channel_retention_help": "Số ngày giữ tin nhắn trong các kênh theo danh mục. Đặt 0 để giữ mãi mãi.",
