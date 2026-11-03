@@ -15,7 +15,7 @@
                 "type_from_label": "Diese Diskussion in eine andere zusammenführen",
                 "type_from_help_text": "Wähle die Ziel-Diskussion aus, in die {title} zusammengeführt werden soll.",
                 "load_preview_button": "Vorschau",
-                "preview_truncated": "",
+                "preview_truncated": "Beiträge {from} bis {to} von {total} werden angezeigt.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -42,10 +42,10 @@
         },
         "api": {
             "error": {
-                "into_itself": "",
+                "into_itself": "Eine Diskussion kann nicht mit sich selbst zusammengeführt werden.",
                 "merging_failed": "Zusammenführen der Diskussionen fehlgeschlagen.",
                 "updating_failed": "Aktualisierung der Diskussionsdetails fehlgeschlagen.",
-                "redirecting_failed": "",
+                "redirecting_failed": "Weiterleitung für zusammengeführte Diskussionen konnte nicht eingerichtet werden.",
                 "deleting_failed": "Leere Diskussionen konnten nicht gelöscht werden.",
                 "fixing_posts_number_failed": "Beitragsnummern konnten nicht korrigiert werden.",
                 "fixing_posts_number_meta_failed": "Beitragsnummern konnten nicht korrigiert werden."
