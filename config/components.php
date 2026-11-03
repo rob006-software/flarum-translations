@@ -1299,7 +1299,7 @@ return [
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'walsgit-discussion-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/WalsGit/flarum-discussion-cards/2.1.0/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
 	],
 	'walsgit-recycle-bin' => [
