@@ -16,6 +16,9 @@
             "directory": {
                 "new": "{noun, select, novel {New novel} story {New story} book {New book} other {New series}}",
                 "search": "Search by title",
+                "forum": "Go to the main forum",
+                "all_tags": "All tags",
+                "tag_label": "Tag",
                 "all": "All",
                 "sort_label": "Sort",
                 "sort": {
@@ -106,6 +109,9 @@
             }
         },
         "admin": {
+            "basics": {
+                "home_page": "Series directory (Anthology)"
+            },
             "settings": {
                 "noun": "What to call a series",
                 "noun_help": "The word members see in menus and buttons. Pick the one that fits your forum.",

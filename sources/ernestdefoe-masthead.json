@@ -58,6 +58,8 @@
                 "forum": "Forum",
                 "deleted_user": "[deleted]",
                 "read_time": "{count} min read",
+                "rail_label": "Posts in this discussion",
+                "rail_best": "Best answer",
                 "participants": "{count, plural, one {# participant} other {# participants}}",
                 "jump_best": "Jump to best answer",
                 "jump_best_short": "Best answer ›",
@@ -181,6 +183,10 @@
                 "backdrop": "The author's Backdrop cover only",
                 "off": "No pictures"
             },
+            "topic": {
+                "scrubber_label": "Show the post scrubber beside the posts",
+                "scrubber_help": "A slim rail at the right of a discussion's posts on computers and tablets, to jump to the original post, the newest, the unread ones or the best answer. Phones always have it in the top bar."
+            },
             "portal": {
                 "tag_count_label": "Sections in the grid",
                 "tag_count_help": "How many top-level tags the Browse the forum grid shows before All sections.",
@@ -189,10 +195,12 @@
             },
             "footer": {
                 "label": "Footer links",
-                "help": "Links shown in the footer of every page. An address can be a path on this forum (/p/1-rules), a web address, a mailto link, or # for a placeholder link that goes nowhere (#name scrolls to that part of the page). Drag to reorder.",
+                "help": "Links shown in the footer of every page. An address can be a path on this forum (/p/1-rules), a web address, a mailto link, or # for a placeholder link that goes nowhere (#name scrolls to that part of the page). Links to Facebook, X, Instagram, YouTube, Discord, TikTok, Bluesky and other social sites get their brand icon by themselves; for any other icon, type a Font Awesome class such as fas fa-envelope. Leave the name empty to show only the icon. Drag to reorder.",
                 "name": "Name",
                 "url": "Address",
                 "url_placeholder": "/p/1-about or https://…",
+                "icon": "Icon",
+                "icon_placeholder": "Icon (optional)",
                 "remove": "Remove this link",
                 "add": "Add a link",
                 "powered_by_label": "Show \"Powered by Flarum\""

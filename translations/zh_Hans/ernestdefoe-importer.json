@@ -89,16 +89,23 @@
                 "polls": "",
                 "poll_votes": "",
                 "polls_skipped": "",
+                "reactions": "",
+                "reactions_skipped": "",
+                "reactions_pictures": "",
                 "groups_created": "",
                 "groups_mapped": "",
                 "groups_skipped": "",
                 "group_members": "",
                 "avatars": "",
                 "avatars_missing": "",
+                "avatars_refused": "",
                 "birthdays": "",
                 "birthdays_skipped": "",
+                "signatures": "",
+                "signatures_skipped": "",
                 "attachments": "",
                 "attachments_missing": "",
+                "attachments_refused": "",
                 "empty_removed": "",
                 "pruned_tags": ""
             },
@@ -135,6 +142,12 @@
                 "skipped": "",
                 "unavailable": ""
             },
+            "reactions": {
+                "summary": "",
+                "skipped": "",
+                "pictures": "",
+                "unavailable": ""
+            },
             "extras": {
                 "groups": "",
                 "groups_skipped": "",
@@ -150,8 +163,12 @@
                 "avatars_missing": "",
                 "birthdays": "",
                 "birthdays_skipped": "",
+                "signatures": "",
+                "signatures_skipped": "",
                 "attachments": "",
-                "attachments_missing": ""
+                "attachments_missing": "",
+                "avatars_refused": "",
+                "attachments_refused": ""
             },
             "summary": "",
             "summary_with_tags": "",
@@ -215,6 +232,7 @@
                 "prune_tags": "",
                 "messages": "",
                 "polls": "",
+                "reactions": "",
                 "groups": "",
                 "group_members": "",
                 "profiles": ""

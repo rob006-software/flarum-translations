@@ -89,16 +89,23 @@
                 "polls": "polls",
                 "poll_votes": "poll votes",
                 "polls_skipped": "polls skipped",
+                "reactions": "reactions",
+                "reactions_skipped": "reactions skipped",
+                "reactions_pictures": "reactions with custom pictures",
                 "groups_created": "groups created",
                 "groups_mapped": "groups matched",
                 "groups_skipped": "groups not copied",
                 "group_members": "group memberships",
                 "avatars": "profile photos",
                 "avatars_missing": "profile photos not found",
+                "avatars_refused": "profile photos the old site refused",
                 "birthdays": "birthdays",
                 "birthdays_skipped": "birthdays skipped",
+                "signatures": "signatures",
+                "signatures_skipped": "signatures skipped",
                 "attachments": "attachments",
                 "attachments_missing": "attachments not found",
+                "attachments_refused": "attachments the old site refused",
                 "empty_removed": "empty discussions left out",
                 "pruned_tags": "empty tags removed"
             }
@@ -134,6 +141,12 @@
                 "skipped": "{count} polls skipped: their discussion was not imported, or they had fewer than two answers or ranked choices.",
                 "unavailable": "Polls skipped: FoF Polls is not enabled. Enable it and run the import again to bring them across."
             },
+            "reactions": {
+                "summary": "{count} reactions.",
+                "skipped": "{count} reactions skipped: their post or member was not imported, or the member reacted more than once to one post (the newest is kept).",
+                "pictures": "{count} reactions skipped: they used a custom picture rather than an emoji, which FoF Reactions cannot show.",
+                "unavailable": "Reactions skipped: FoF Reactions is not enabled. Enable it and run the import again to bring them across."
+            },
             "extras": {
                 "groups": "Groups: {groups_created} created, {groups_mapped} matched to groups already here, {group_members} memberships.",
                 "groups_skipped": "{count} groups not brought across as groups ({reasons}).",
@@ -149,8 +162,12 @@
                 "avatars_missing": "{count} profile photos could not be read: set the old forum's folder on this server, or its address, before importing.",
                 "birthdays": "{birthdays} birthdays.",
                 "birthdays_skipped": "{count} birthdays skipped: install Birthdays (datlechin/flarum-birthdays) before importing to bring them across.",
+                "signatures": "{signatures} signatures.",
+                "signatures_skipped": "{count} signatures skipped: install FoF Signature (fof/signature), then sync to bring them across.",
                 "attachments": "{attachments} attachments.",
-                "attachments_missing": "{count} attachments could not be read and are named in their posts instead: set the old forum's folder on this server, or its address."
+                "attachments_missing": "{count} attachments could not be read and are named in their posts instead: set the old forum's folder on this server, or its address.",
+                "avatars_refused": "{count} profile photos were refused by the old site (a firewall such as Cloudflare turns this server's downloads away): give the old forum's folder on this server, then sync to bring them across.",
+                "attachments_refused": "{count} attachments were refused by the old site (a firewall such as Cloudflare turns this server's downloads away): give the old forum's folder on this server."
             },
             "summary": "Imported {topics} discussions, {posts} posts, {users} members.",
             "summary_with_tags": "Imported {topics} discussions, {posts} posts, {users} members, {categories} tags.",
@@ -214,9 +231,10 @@
                 "prune_tags": "Removing empty tags…",
                 "messages": "Importing private messages…",
                 "polls": "Importing polls…",
+                "reactions": "Importing reactions…",
                 "groups": "Importing groups…",
                 "group_members": "Adding members to groups…",
-                "profiles": "Importing profile photos and birthdays…"
+                "profiles": "Importing profile photos, birthdays and signatures…"
             }
         }
     }

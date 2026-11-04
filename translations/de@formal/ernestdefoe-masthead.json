@@ -58,6 +58,8 @@
                 "forum": "Forum",
                 "deleted_user": "[gelöscht]",
                 "read_time": "{count} Min. Lesezeit",
+                "rail_label": "",
+                "rail_best": "",
                 "participants": "{count, plural, one {# Teilnehmer} other {# Teilnehmer}}",
                 "jump_best": "Zur besten Antwort springen",
                 "jump_best_short": "Beste Antwort ›",
@@ -181,6 +183,10 @@
                 "backdrop": "Nur das Backdrop-Titelbild des Autors",
                 "off": "Keine Bilder"
             },
+            "topic": {
+                "scrubber_label": "",
+                "scrubber_help": ""
+            },
             "portal": {
                 "tag_count_label": "Bereiche im Raster",
                 "tag_count_help": "Anzahl der übergeordneten Tags, die im Raster „Forum durchsuchen“ vor dem Link „Alle Bereiche“ angezeigt werden.",
@@ -193,6 +199,8 @@
                 "name": "Name",
                 "url": "Adresse",
                 "url_placeholder": "/p/1-about oder https://…",
+                "icon": "",
+                "icon_placeholder": "",
                 "remove": "Diesen Link entfernen",
                 "add": "Link hinzufügen",
                 "powered_by_label": "„Unterstützt durch Flarum“ anzeigen"
