@@ -1450,7 +1450,7 @@ return [
 		],
 	],
 	'mattoid-plugin-scheduler' => [
-		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-plugin-scheduler/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-ext-plugin-scheduler/1.2.0/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'mattoid-store' => [
