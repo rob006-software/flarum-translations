@@ -290,7 +290,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.5.4/resources/locale/en.yml',
 	],
 	'ernestdefoe-importer' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.7.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.8.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-insert-coin' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/insert-coin/1.0.3/locale/en.yml',
