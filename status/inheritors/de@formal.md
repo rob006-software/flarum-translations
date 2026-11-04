@@ -2,69 +2,70 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **357** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **53** components.
+sides, but do not match between them: **357** are translated differently and **8** are
+translated only in `de@formal`. Altogether they cover **54** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Different translations |
-| --- | --- |
-| `acpl-my-tags` | [2](#acpl-my-tags) |
-| `core` | [97](#core) |
-| `datitisev-backup` | [18](#datitisev-backup) |
-| `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
-| `datlechin-link-preview` | [1](#datlechin-link-preview) |
-| `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) |
-| `flarum-approval` | [2](#flarum-approval) |
-| `flarum-emoji` | [1](#flarum-emoji) |
-| `flarum-extension-manager` | [13](#flarum-extension-manager) |
-| `flarum-flags` | [5](#flarum-flags) |
-| `flarum-gdpr` | [14](#flarum-gdpr) |
-| `flarum-likes` | [4](#flarum-likes) |
-| `flarum-lock` | [1](#flarum-lock) |
-| `flarum-mentions` | [10](#flarum-mentions) |
-| `flarum-messages` | [2](#flarum-messages) |
-| `flarum-nicknames` | [2](#flarum-nicknames) |
-| `flarum-statistics` | [1](#flarum-statistics) |
-| `flarum-subscriptions` | [3](#flarum-subscriptions) |
-| `flarum-suspend` | [5](#flarum-suspend) |
-| `flarum-tags` | [5](#flarum-tags) |
-| `fof-badges` | [1](#fof-badges) |
-| `fof-byobu` | [14](#fof-byobu) |
-| `fof-cookie-consent` | [2](#fof-cookie-consent) |
-| `fof-discussion-templates` | [3](#fof-discussion-templates) |
-| `fof-doorman` | [1](#fof-doorman) |
-| `fof-drafts` | [1](#fof-drafts) |
-| `fof-follow-tags` | [15](#fof-follow-tags) |
-| `fof-gamification` | [1](#fof-gamification) |
-| `fof-geoip` | [1](#fof-geoip) |
-| `fof-horizon` | [2](#fof-horizon) |
-| `fof-impersonate` | [1](#fof-impersonate) |
-| `fof-links` | [3](#fof-links) |
-| `fof-mailing` | [1](#fof-mailing) |
-| `fof-merge-discussions` | [7](#fof-merge-discussions) |
-| `fof-moderator-warnings` | [8](#fof-moderator-warnings) |
-| `fof-move-posts` | [1](#fof-move-posts) |
-| `fof-oauth` | [1](#fof-oauth) |
-| `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) |
-| `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
-| `fof-reactions` | [4](#fof-reactions) |
-| `fof-seo` | [27](#fof-seo) |
-| `fof-signature` | [2](#fof-signature) |
-| `fof-sitemap` | [1](#fof-sitemap) |
-| `fof-socialprofile` | [2](#fof-socialprofile) |
-| `fof-upload` | [19](#fof-upload) |
-| `fof-username-request` | [20](#fof-username-request) |
-| `forumaker-magicbb` | [1](#forumaker-magicbb) |
-| `ianm-follow-users` | [6](#ianm-follow-users) |
-| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) |
-| `resofire-digest-mail` | [1](#resofire-digest-mail) |
-| `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
-| `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) |
-| `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `acpl-my-tags` | [2](#acpl-my-tags) | 0 |
+| `core` | [97](#core) | 0 |
+| `datitisev-backup` | [18](#datitisev-backup) | 0 |
+| `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) | 0 |
+| `datlechin-link-preview` | [1](#datlechin-link-preview) | 0 |
+| `ernestdefoe-ladder` | 0 | [8](#ernestdefoe-ladder-missing) |
+| `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) | 0 |
+| `flarum-approval` | [2](#flarum-approval) | 0 |
+| `flarum-emoji` | [1](#flarum-emoji) | 0 |
+| `flarum-extension-manager` | [13](#flarum-extension-manager) | 0 |
+| `flarum-flags` | [5](#flarum-flags) | 0 |
+| `flarum-gdpr` | [14](#flarum-gdpr) | 0 |
+| `flarum-likes` | [4](#flarum-likes) | 0 |
+| `flarum-lock` | [1](#flarum-lock) | 0 |
+| `flarum-mentions` | [10](#flarum-mentions) | 0 |
+| `flarum-messages` | [2](#flarum-messages) | 0 |
+| `flarum-nicknames` | [2](#flarum-nicknames) | 0 |
+| `flarum-statistics` | [1](#flarum-statistics) | 0 |
+| `flarum-subscriptions` | [3](#flarum-subscriptions) | 0 |
+| `flarum-suspend` | [5](#flarum-suspend) | 0 |
+| `flarum-tags` | [5](#flarum-tags) | 0 |
+| `fof-badges` | [1](#fof-badges) | 0 |
+| `fof-byobu` | [14](#fof-byobu) | 0 |
+| `fof-cookie-consent` | [2](#fof-cookie-consent) | 0 |
+| `fof-discussion-templates` | [3](#fof-discussion-templates) | 0 |
+| `fof-doorman` | [1](#fof-doorman) | 0 |
+| `fof-drafts` | [1](#fof-drafts) | 0 |
+| `fof-follow-tags` | [15](#fof-follow-tags) | 0 |
+| `fof-gamification` | [1](#fof-gamification) | 0 |
+| `fof-geoip` | [1](#fof-geoip) | 0 |
+| `fof-horizon` | [2](#fof-horizon) | 0 |
+| `fof-impersonate` | [1](#fof-impersonate) | 0 |
+| `fof-links` | [3](#fof-links) | 0 |
+| `fof-mailing` | [1](#fof-mailing) | 0 |
+| `fof-merge-discussions` | [7](#fof-merge-discussions) | 0 |
+| `fof-moderator-warnings` | [8](#fof-moderator-warnings) | 0 |
+| `fof-move-posts` | [1](#fof-move-posts) | 0 |
+| `fof-oauth` | [1](#fof-oauth) | 0 |
+| `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) | 0 |
+| `fof-profile-image-crop` | [2](#fof-profile-image-crop) | 0 |
+| `fof-reactions` | [4](#fof-reactions) | 0 |
+| `fof-seo` | [27](#fof-seo) | 0 |
+| `fof-signature` | [2](#fof-signature) | 0 |
+| `fof-sitemap` | [1](#fof-sitemap) | 0 |
+| `fof-socialprofile` | [2](#fof-socialprofile) | 0 |
+| `fof-upload` | [19](#fof-upload) | 0 |
+| `fof-username-request` | [20](#fof-username-request) | 0 |
+| `forumaker-magicbb` | [1](#forumaker-magicbb) | 0 |
+| `ianm-follow-users` | [6](#ianm-follow-users) | 0 |
+| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
+| `resofire-digest-mail` | [1](#resofire-digest-mail) | 0 |
+| `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) | 0 |
+| `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) | 0 |
+| `yippy-auth-ldap` | [3](#yippy-auth-ldap) | 0 |
 
 
 ## Different translations
@@ -4556,5 +4557,77 @@ Die Spitznamen-Erweiterung muss aktiviert sein. <del>Stelle</del><ins>Stellen Si
 ```
 
 <del>Du</del><ins>Sie</ins> <del>bist</del><ins>sind</ins> zu lange inaktiv gewesen. Bitte <del>aktualisiere</del><ins>aktualisieren Sie</ins> die Seite und <del>versuche</del><ins>versuchen Sie</ins> es erneut.
+
+
+## Missing translations
+
+These strings are translated only in `de@formal`, so there is nothing to inherit from German informal variant - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de@formal`.
+
+
+### `ernestdefoe-ladder` (missing)
+
+#### [`ernestdefoe-ladder.admin.metric.money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.admin.metric.money%22)
+
+> Money
+
+```diff
++Money
+```
+
+#### [`ernestdefoe-ladder.admin.modal.min_posts_label_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.admin.modal.min_posts_label_money%22)
+
+> Money needed
+
+```diff
++Money erforderlich
+```
+
+#### [`ernestdefoe-ladder.forum.members.score_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.members.score_money%22)
+
+> {amount}
+
+```diff
++{amount}
+```
+
+#### [`ernestdefoe-ladder.forum.profile.next_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.profile.next_money%22)
+
+> {amount} more until {name} reaches {rank}.
+
+```diff
++{amount} mehr, bis {name} {rank} erreicht.
+```
+
+#### [`ernestdefoe-ladder.forum.profile.next_own_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.profile.next_own_money%22)
+
+> {amount} more to reach {rank}.
+
+```diff
++{amount} mehr, um {rank} zu erreichen.
+```
+
+#### [`ernestdefoe-ladder.forum.profile.score_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.profile.score_money%22)
+
+> {amount}
+
+```diff
++{amount}
+```
+
+#### [`ernestdefoe-ladder.forum.ranks.next_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.ranks.next_money%22)
+
+> {amount} more to reach {rank}.
+
+```diff
++{amount} mehr, um {rank} zu erreichen.
+```
+
+#### [`ernestdefoe-ladder.forum.ranks.your_rank_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.forum.ranks.your_rank_money%22)
+
+> You're a {rank}, with {amount}.
+
+```diff
++Du bist {rank} mit {amount}.
+```
 
 <!-- {% endraw %} -->
