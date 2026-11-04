@@ -1,37 +1,37 @@
 {
     "ernestdefoe-quickdraw": {
         "forum": {
-            "open": "",
-            "close": "",
-            "menu_label": "",
-            "where_left_off": "",
-            "copy_link": "",
-            "link_copied": "",
-            "copy_failed": "",
-            "share": "",
-            "first_post": "",
-            "last_post": "",
-            "flagged_posts": "",
-            "moderate": "",
-            "more": "",
-            "replies": ""
+            "open": "Schnellaktionen öffnen",
+            "close": "Schnellaktionen schließen",
+            "menu_label": "Schnellaktionen für diese Diskussion",
+            "where_left_off": "Wo ich aufgehört habe",
+            "copy_link": "Link kopieren",
+            "link_copied": "Link kopiert.",
+            "copy_failed": "Dein Browser hat das Kopieren blockiert. Hier ist der Link: {url}",
+            "share": "Teilen",
+            "first_post": "Erster Beitrag",
+            "last_post": "Letzte Antwort",
+            "flagged_posts": "Gemeldete Beiträge",
+            "moderate": "Moderieren",
+            "more": "Mehr",
+            "replies": "{count, plural, one {# Antwort} other {# Antworten}}"
         },
         "admin": {
-            "layout_label": "",
-            "layout_help": "",
+            "layout_label": "Layout",
+            "layout_help": "Der Fächer breitet runde Schaltflächen von der Ecke aus aus. Das Feld öffnet eine Karte mit beschrifteten Aktionen.",
             "layout": {
-                "fan": "",
-                "panel": ""
+                "fan": "Fächer",
+                "panel": "Karte"
             },
-            "screens_label": "",
+            "screens_label": "Anzeigen auf",
             "screens": {
-                "all": "",
-                "phone": ""
+                "all": "Mobil und Computer",
+                "phone": "Nur mobil"
             },
-            "side_label": "",
+            "side_label": "Ecke",
             "side": {
-                "right": "",
-                "left": ""
+                "right": "Unten rechts",
+                "left": "Unten links"
             }
         }
     }
