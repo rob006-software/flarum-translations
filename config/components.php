@@ -1151,7 +1151,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-magic-link' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/magic-link/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/magic-link/v1.0.3/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-mail-reply' => [
