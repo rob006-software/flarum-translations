@@ -2,132 +2,132 @@
     "huseyinfiliz-pickem": {
         "lib": {
             "common": {
-                "season": "",
-                "team": "",
-                "week": "",
-                "match": "",
-                "pick": "",
-                "home": "",
-                "away": "",
-                "draw": "",
-                "date": "",
-                "points": "",
-                "status": "",
-                "vs": "",
-                "result": "",
-                "score": ""
+                "season": "season",
+                "team": "team",
+                "week": "สัปดาห์",
+                "match": "match",
+                "pick": "pick",
+                "home": "หน้าแรก",
+                "away": "away",
+                "draw": "draw",
+                "date": "วันที่",
+                "points": "points",
+                "status": "สถานะ",
+                "vs": "vs",
+                "result": "ผลลัพธ์",
+                "score": "score"
             },
             "nav": {
-                "pickem": "",
-                "matches": "",
-                "my_picks": "",
-                "leaderboard": "",
-                "settings": "",
-                "teams": "",
-                "seasons": "",
-                "weeks": ""
+                "pickem": "Pick'em",
+                "matches": "Matches",
+                "my_picks": "My Picks",
+                "leaderboard": "Leaderboard",
+                "settings": "Settings",
+                "teams": "Teams",
+                "seasons": "Seasons",
+                "weeks": "Weeks"
             },
             "status": {
-                "scheduled": "",
-                "closed": "",
-                "finished": "",
-                "pending": "",
-                "correct": "",
-                "incorrect": ""
+                "scheduled": "Scheduled",
+                "closed": "Closed",
+                "finished": "Finished",
+                "pending": "Pending",
+                "correct": "Correct",
+                "incorrect": "Incorrect"
             },
             "headers": {
-                "rank": "",
-                "player": "",
-                "correct": "",
-                "total": "",
-                "accuracy": "",
-                "logo": "",
-                "match_date": "",
-                "cutoff_date": "",
-                "slug": "",
-                "name": "",
-                "week_number": ""
+                "rank": "Rank",
+                "player": "Player",
+                "correct": "Correct",
+                "total": "Total",
+                "accuracy": "Accuracy",
+                "logo": "Logo",
+                "match_date": "Match Date",
+                "cutoff_date": "Cutoff Date",
+                "slug": "Slug",
+                "name": "Name",
+                "week_number": "Week Number"
             },
             "form": {
-                "name": "",
-                "slug": "",
-                "logo_url": "",
-                "start_date": "",
-                "end_date": "",
-                "week_number": "",
-                "home_team": "",
-                "away_team": "",
-                "select_team": "",
-                "select_season": "",
-                "no_week": "",
-                "allow_draw": "",
-                "home_score": "",
-                "away_score": "",
-                "search_team": "",
-                "select_week": ""
+                "name": "Name",
+                "slug": "Slug",
+                "logo_url": "Logo URL",
+                "start_date": "Start Date",
+                "end_date": "End Date",
+                "week_number": "Week Number",
+                "home_team": "Home Team",
+                "away_team": "Away Team",
+                "select_team": "Select Team",
+                "select_season": "Select Season",
+                "no_week": "No Week",
+                "allow_draw": "Allow Draw",
+                "home_score": "Home Score",
+                "away_score": "Away Score",
+                "search_team": "Search Team...",
+                "select_week": "Select Week"
             },
             "filters": {
-                "sort": "",
-                "newest": "",
-                "oldest": "",
-                "reset": "",
-                "all": ""
+                "sort": "Sort",
+                "newest": "Newest First",
+                "oldest": "Oldest First",
+                "reset": "Reset Filters",
+                "all": "All"
             },
             "buttons": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "create": "",
-                "cancel": "",
-                "load_more": ""
+                "save": "Save",
+                "edit": "Edit",
+                "delete": "Delete",
+                "create": "Create",
+                "cancel": "Cancel",
+                "load_more": "Load More"
             },
             "actions": {
-                "create": "",
-                "edit": "",
-                "enter_result": ""
+                "create": "Create",
+                "edit": "Edit",
+                "enter_result": "Enter Result"
             },
             "messages": {
-                "delete_confirm": "",
-                "saved": "",
-                "deleted": "",
-                "result_saved": "",
-                "in_use": "",
-                "login_required": "",
-                "invalid_outcome": "",
-                "scores_required": "",
-                "slug_unique": "",
-                "same_team": "",
-                "no_matches": "",
-                "no_data": ""
+                "delete_confirm": "คุณแน่ใจหรือว่าต้องการลบสิ่งนี้?",
+                "saved": "บันทึกสำเร็จแล้ว",
+                "deleted": "ลบสำเร็จแล้ว",
+                "result_saved": "Result บันทึกสำเร็จแล้ว",
+                "in_use": "ไม่สามารถลบได้เพราะมีการใช้งาน",
+                "login_required": "โปรดเข้าสู่ระบบเพื่อเล่น",
+                "invalid_outcome": "การเลือกไม่ถูกต้อง",
+                "scores_required": "ป้อน scores ทั้งสอง",
+                "slug_unique": "Slug มีการใช้งานแล้ว",
+                "same_team": "Teams ต้องแตกต่างกัน",
+                "no_matches": "ไม่พบ matches",
+                "no_data": "ดูเหมือนว่าไม่มีอะไรที่นี่"
             },
             "pagination": {
-                "page_info": ""
+                "page_info": "Page {current} of {total}"
             },
             "time": {
-                "minutes_remaining": "",
-                "hours_remaining": "",
-                "days_remaining": ""
+                "minutes_remaining": "{minutes}m remaining",
+                "hours_remaining": "{hours}h {minutes}m remaining",
+                "days_remaining": "{days}d remaining"
             }
         },
         "forum": {
             "picks": {
-                "your_pick": ""
+                "your_pick": "Your Pick"
             },
-            "notification": ""
+            "notification": "Result: {home} {hScore} - {aScore} {away}"
         },
         "admin": {
             "permissions": {
-                "manage": "",
-                "make_picks": "",
-                "view_page": ""
+                "manage": "Manage pick'em system",
+                "make_picks": "Make picks",
+                "view_page": "View Pick'em page"
             },
             "settings": {
-                "reverse_display_label": "",
-                "reverse_display_help": "",
-                "recalc_help": "",
-                "recalc_btn": "",
-                "recalc_confirm": "",
-                "recalc_queued": ""
+                "reverse_display_label": "Reverse Home/Away Display",
+                "reverse_display_help": "หากเปิดใช้งาน Away team จะแสดงด้านซ้าย (หรือด้านบน) และ Home team ด้านขวา (หรือด้านล่าง) Matches US sports format (Away @ Home)",
+                "recalc_help": "คำนวณ scores ทั้งหมดใหม่ตามผลลัพธ์ match Runs in background",
+                "recalc_btn": "Recalculate Scores",
+                "recalc_confirm": "คุณแน่ใจหรือไม่? Process นี้ทำงานในพื้นหลัง",
+                "recalc_queued": "Recalculation queued"
             }
         }
     }

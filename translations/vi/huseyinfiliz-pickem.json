@@ -2,132 +2,132 @@
     "huseyinfiliz-pickem": {
         "lib": {
             "common": {
-                "season": "",
-                "team": "",
-                "week": "",
-                "match": "",
-                "pick": "",
-                "home": "",
-                "away": "",
-                "draw": "",
-                "date": "",
-                "points": "",
-                "status": "",
-                "vs": "",
-                "result": "",
-                "score": ""
+                "season": "Mùa giải",
+                "team": "Đội",
+                "week": "Tuần",
+                "match": "Trận đấu",
+                "pick": "Dự đoán",
+                "home": "Nhà",
+                "away": "Khách",
+                "draw": "Hòa",
+                "date": "Ngày",
+                "points": "Điểm",
+                "status": "Trạng thái",
+                "vs": "vs",
+                "result": "Kết quả",
+                "score": "Tỷ số"
             },
             "nav": {
-                "pickem": "",
-                "matches": "",
-                "my_picks": "",
-                "leaderboard": "",
-                "settings": "",
-                "teams": "",
-                "seasons": "",
-                "weeks": ""
+                "pickem": "Pick'em",
+                "matches": "Trận đấu",
+                "my_picks": "Dự đoán của tôi",
+                "leaderboard": "Bảng xếp hạng",
+                "settings": "Cài đặt",
+                "teams": "Đội",
+                "seasons": "Mùa giải",
+                "weeks": "Tuần"
             },
             "status": {
-                "scheduled": "",
-                "closed": "",
-                "finished": "",
-                "pending": "",
-                "correct": "",
-                "incorrect": ""
+                "scheduled": "Đã lên lịch",
+                "closed": "Đã đóng",
+                "finished": "Đã kết thúc",
+                "pending": "Đang chờ",
+                "correct": "Đúng",
+                "incorrect": "Sai"
             },
             "headers": {
-                "rank": "",
-                "player": "",
-                "correct": "",
-                "total": "",
-                "accuracy": "",
-                "logo": "",
-                "match_date": "",
-                "cutoff_date": "",
-                "slug": "",
-                "name": "",
-                "week_number": ""
+                "rank": "Hạng",
+                "player": "Người chơi",
+                "correct": "Đúng",
+                "total": "Tổng",
+                "accuracy": "Độ chính xác",
+                "logo": "Logo",
+                "match_date": "Ngày thi đấu",
+                "cutoff_date": "Hạn chốt dự đoán",
+                "slug": "Slug",
+                "name": "Tên",
+                "week_number": "Số tuần"
             },
             "form": {
-                "name": "",
-                "slug": "",
-                "logo_url": "",
-                "start_date": "",
-                "end_date": "",
-                "week_number": "",
-                "home_team": "",
-                "away_team": "",
-                "select_team": "",
-                "select_season": "",
-                "no_week": "",
-                "allow_draw": "",
-                "home_score": "",
-                "away_score": "",
-                "search_team": "",
-                "select_week": ""
+                "name": "Tên",
+                "slug": "Slug",
+                "logo_url": "URL logo",
+                "start_date": "Ngày bắt đầu",
+                "end_date": "Ngày kết thúc",
+                "week_number": "Số tuần",
+                "home_team": "Đội nhà",
+                "away_team": "Đội khách",
+                "select_team": "Chọn đội",
+                "select_season": "Chọn mùa giải",
+                "no_week": "Không có tuần",
+                "allow_draw": "Cho phép hòa",
+                "home_score": "Tỷ số đội nhà",
+                "away_score": "Tỷ số đội khách",
+                "search_team": "Tìm kiếm đội...",
+                "select_week": "Chọn tuần"
             },
             "filters": {
-                "sort": "",
-                "newest": "",
-                "oldest": "",
-                "reset": "",
-                "all": ""
+                "sort": "Sắp xếp",
+                "newest": "Mới nhất trước",
+                "oldest": "Cũ nhất trước",
+                "reset": "Đặt lại bộ lọc",
+                "all": "Tất cả"
             },
             "buttons": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "create": "",
-                "cancel": "",
-                "load_more": ""
+                "save": "Lưu",
+                "edit": "Chỉnh sửa",
+                "delete": "Xóa",
+                "create": "Tạo",
+                "cancel": "Hủy",
+                "load_more": "Tải thêm"
             },
             "actions": {
-                "create": "",
-                "edit": "",
-                "enter_result": ""
+                "create": "Tạo",
+                "edit": "Chỉnh sửa",
+                "enter_result": "Nhập kết quả"
             },
             "messages": {
-                "delete_confirm": "",
-                "saved": "",
-                "deleted": "",
-                "result_saved": "",
-                "in_use": "",
-                "login_required": "",
-                "invalid_outcome": "",
-                "scores_required": "",
-                "slug_unique": "",
-                "same_team": "",
-                "no_matches": "",
-                "no_data": ""
+                "delete_confirm": "Bạn có chắc chắn muốn xóa mục này không?",
+                "saved": "Đã lưu thành công.",
+                "deleted": "Đã xóa thành công.",
+                "result_saved": "Đã lưu kết quả thành công.",
+                "in_use": "Không thể xóa vì mục này đang được sử dụng.",
+                "login_required": "Vui lòng đăng nhập để tham gia.",
+                "invalid_outcome": "Lựa chọn không hợp lệ.",
+                "scores_required": "Vui lòng nhập cả hai tỷ số.",
+                "slug_unique": "Slug này đã được sử dụng.",
+                "same_team": "Hai đội phải khác nhau.",
+                "no_matches": "Không tìm thấy trận đấu nào.",
+                "no_data": "Có vẻ như không có gì ở đây."
             },
             "pagination": {
-                "page_info": ""
+                "page_info": "Trang {current} / {total}"
             },
             "time": {
-                "minutes_remaining": "",
-                "hours_remaining": "",
-                "days_remaining": ""
+                "minutes_remaining": "Còn {minutes} phút",
+                "hours_remaining": "Còn {hours} giờ {minutes} phút",
+                "days_remaining": "Còn {days} ngày"
             }
         },
         "forum": {
             "picks": {
-                "your_pick": ""
+                "your_pick": "Dự đoán của bạn"
             },
-            "notification": ""
+            "notification": "Kết quả: {home} {hScore} - {aScore} {away}"
         },
         "admin": {
             "permissions": {
-                "manage": "",
-                "make_picks": "",
-                "view_page": ""
+                "manage": "Quản lý hệ thống Pick'em",
+                "make_picks": "Đưa ra dự đoán",
+                "view_page": "Xem trang Pick'em"
             },
             "settings": {
-                "reverse_display_label": "",
-                "reverse_display_help": "",
-                "recalc_help": "",
-                "recalc_btn": "",
-                "recalc_confirm": "",
-                "recalc_queued": ""
+                "reverse_display_label": "Đảo ngược hiển thị Đội nhà/Đội khách",
+                "reverse_display_help": "Nếu bật, đội khách sẽ hiển thị bên trái (hoặc trên) và đội nhà bên phải (hoặc dưới). Phù hợp với định dạng thể thao Mỹ (Khách @ Nhà).",
+                "recalc_help": "Tính lại toàn bộ điểm số dựa trên kết quả các trận đấu. Chạy trong nền.",
+                "recalc_btn": "Tính lại điểm",
+                "recalc_confirm": "Bạn có chắc chắn không? Quá trình này sẽ chạy trong nền.",
+                "recalc_queued": "Đã đưa việc tính lại điểm vào hàng đợi."
             }
         }
     }
