@@ -16,6 +16,8 @@
             "language_label": "Data language",
             "language_help": "The language movie and TV titles, synopses and genres come in, as a code such as fr, fr-FR or pt-BR. Leave it blank to follow the forum's default language. IGDB's game data is in English (it has Japanese and Korean names only), so game descriptions come from Wikipedia in this language where it has the game, and the rest is translated if you add a DeepL key; album data is the artists' own, and book titles, covers and publishers follow it where Open Library has an edition in that language (book descriptions are mostly in English). Titles already linked switch language when they next refresh.",
             "language_placeholder": "The forum's language",
+            "dock_label": "Show a title menu once the card is scrolled past",
+            "dock_help": "A round button in the bottom corner of a discussion with a card. It opens a menu for each title on the card: back to its details, and what other extensions add there, such as Curio's collection, wishlist and owners.",
             "list_posters_label": "Show posters in the discussion list",
             "list_posters_help": "A small poster next to each linked discussion. Turn it off if another extension, such as FoF Discussion Thumbnail, already shows thumbnails there.",
             "title_year_label": "Add the year to titles",
@@ -135,6 +137,10 @@
                 "author": "Author",
                 "original_title": "Original title",
                 "isbn": "ISBN"
+            },
+            "dock": {
+                "open": "{title}: details and more",
+                "details": "View details"
             },
             "hero": {
                 "series": "Titles in this discussion",

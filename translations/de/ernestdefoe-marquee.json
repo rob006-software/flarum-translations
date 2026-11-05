@@ -16,6 +16,8 @@
             "language_label": "Sprache der Daten",
             "language_help": "Die Sprachen der Film- und Fernsehtitel, Inhaltsangaben und Genres werden als Code wie z. B. „fr“, „de-DE“ oder „pt-BR“ angegeben. Lasse das Feld leer, um die Standardsprache des Forums zu verwenden. Die Spieldaten der IGDB sind auf Englisch (es gibt lediglich japanische und koreanische Namen), daher stammen die Spielbeschreibungen aus der entsprechenden Sprachversion von Wikipedia, sofern das Spiel dort aufgeführt ist, und der Rest wird übersetzt, wenn du einen DeepL-Schlüssel hinzufügst. Albumdaten sind direkt von den Künstlern selbst und Buchtitel, Umschlagbilder und Herausgeber folgen den Informationen von Open Library zur entsprechenden Auflage (Buchbeschreibungen liegen vornehmlich in Englisch vor. Bei bereits verlinkten Titeln wechselt die Sprache bei der nächsten Aktualisierung.",
             "language_placeholder": "Die Forumsprache",
+            "dock_label": "",
+            "dock_help": "",
             "list_posters_label": "Poster in der Diskussionsliste anzeigen",
             "list_posters_help": "Ein kleines Poster neben jeder verlinkten Diskussion. Deaktiviere diese Funktion, wenn eine andere Erweiterung, wie beispielsweise „FoF Discussion Thumbnail“, dort bereits Miniaturansichten anzeigt.",
             "title_year_label": "",
@@ -135,6 +137,10 @@
                 "author": "Autor",
                 "original_title": "Originaltitel",
                 "isbn": "ISBN"
+            },
+            "dock": {
+                "open": "",
+                "details": ""
             },
             "hero": {
                 "series": "",
