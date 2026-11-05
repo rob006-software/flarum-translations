@@ -908,6 +908,9 @@ return [
 	'huseyinfiliz-notificationhub' => [
 		'beta' => 'https://raw.githubusercontent.com/huseyinfiliz/notificationhub/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'huseyinfiliz-pickem' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/2.0.0/resources/locale/en.yml',
+	],
 	'huseyinfiliz-private-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v2.1/locale/en.yml',
 	],
