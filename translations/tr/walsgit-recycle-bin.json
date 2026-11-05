@@ -3,6 +3,10 @@
         "admin": {
             "discussions_bin": "Tartışma Kutusu",
             "posts_bin": "Gönderi Kutusu",
+            "settings_tab": "",
+            "settings_title": "",
+            "deletion_log_label": "",
+            "deletion_log_help": "",
             "search_placeholder": "Tartışmalarda ara",
             "search_post_placeholder": "Gönderilerde ara",
             "search_help_text": "Başlıklarda ve tartışma gönderilerinde kelimeleri arar",
@@ -13,6 +17,11 @@
             "empty_posts_list": "",
             "no_search_results": "",
             "select_all": "",
+            "select_discussion": "",
+            "select_post": "",
+            "unknown_discussion": "",
+            "load_error": "",
+            "load_error_retry": "",
             "discussion_id": "ID",
             "discussion_title": "Tartışma başlığı",
             "author": "Yazar",
@@ -100,6 +109,8 @@
                 "success": ""
             },
             "mass_progress": "",
+            "mass_nothing_to_process": "",
+            "mass_partial_failure": "",
             "pagination": {
                 "first_page_button": "İlk sayfaya git",
                 "back_button": "Önceki sayfaya geri dön",

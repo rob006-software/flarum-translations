@@ -3,6 +3,10 @@
         "admin": {
             "discussions_bin": "Papelera de discusiones",
             "posts_bin": "Papelera de Publicaciones",
+            "settings_tab": "",
+            "settings_title": "",
+            "deletion_log_label": "",
+            "deletion_log_help": "",
             "search_placeholder": "Buscar una discusión",
             "search_post_placeholder": "Buscar una publicación",
             "search_help_text": "Búsquedas de palabras en los títulos y en los mensajes de las discusiones",
@@ -13,6 +17,11 @@
             "empty_posts_list": "",
             "no_search_results": "",
             "select_all": "",
+            "select_discussion": "",
+            "select_post": "",
+            "unknown_discussion": "",
+            "load_error": "",
+            "load_error_retry": "",
             "discussion_id": "ID",
             "discussion_title": "Título de la discusión",
             "author": "Autor",
@@ -100,6 +109,8 @@
                 "success": ""
             },
             "mass_progress": "",
+            "mass_nothing_to_process": "",
+            "mass_partial_failure": "",
             "pagination": {
                 "first_page_button": "",
                 "back_button": "",

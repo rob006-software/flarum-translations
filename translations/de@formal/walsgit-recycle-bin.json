@@ -3,6 +3,10 @@
         "admin": {
             "discussions_bin": "Diskussions-Papierkorb",
             "posts_bin": "Beiträge-Papierkorb",
+            "settings_tab": "",
+            "settings_title": "",
+            "deletion_log_label": "",
+            "deletion_log_help": "",
             "search_placeholder": "Suche nach einer Diskussion",
             "search_post_placeholder": "Suche nach einem Beitrag",
             "search_help_text": "Sucht nach Wörtern sowohl in den Titeln als auch in den Beiträgen der Diskussionen",
@@ -13,6 +17,11 @@
             "empty_posts_list": "Keine Beiträge im Papierkorb.",
             "no_search_results": "Für diese Suche wurden keine Ergebnisse gefunden.",
             "select_all": "Alle Einträge auf dieser Seite auswählen",
+            "select_discussion": "",
+            "select_post": "",
+            "unknown_discussion": "",
+            "load_error": "",
+            "load_error_retry": "",
             "discussion_id": "ID",
             "discussion_title": "Diskussionstitel",
             "author": "Autor",
@@ -100,6 +109,8 @@
                 "success": "Alle Beiträge erfolgreich gelöscht"
             },
             "mass_progress": "{processed} von {total} verarbeitet…",
+            "mass_nothing_to_process": "",
+            "mass_partial_failure": "",
             "pagination": {
                 "first_page_button": "Zur Startseite",
                 "back_button": "Zurück zur vorherigen Seite",

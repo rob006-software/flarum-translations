@@ -3,6 +3,10 @@
         "admin": {
             "discussions_bin": "Discussions Bin",
             "posts_bin": "Posts Bin",
+            "settings_tab": "Settings",
+            "settings_title": "Recycle Bin Settings",
+            "deletion_log_label": "Log permanent deletions",
+            "deletion_log_help": "Write a line each time items are permanently deleted from the recycle bin: who, what and when. Mass actions produce one summary line. Files are stored in storage/logs/recycle-bin/ (one file per day of activity, and only the 15 most recent files are kept).",
             "search_placeholder": "Search for a discussion",
             "search_post_placeholder": "Search for a post",
             "search_help_text": "Searches for words in titles as well as in the messages of the discussions",
@@ -13,6 +17,11 @@
             "empty_posts_list": "There are no posts in the recycle bin.",
             "no_search_results": "There are no results for this search.",
             "select_all": "Select all items on this page",
+            "select_discussion": "Select discussion #{discussionId}",
+            "select_post": "Select post #{postId}",
+            "unknown_discussion": "Unknown discussion",
+            "load_error": "The list could not be loaded.",
+            "load_error_retry": "Try again",
             "discussion_id": "ID",
             "discussion_title": "Discussion title",
             "author": "Author",
@@ -100,6 +109,8 @@
                 "success": "Successfully deleted all posts"
             },
             "mass_progress": "Processed {processed} of {total}…",
+            "mass_nothing_to_process": "Nothing to process: these items were already restored or deleted.",
+            "mass_partial_failure": "{processed, plural, one {# item was} other {# items were}} processed before the error occurred. The list has been refreshed.",
             "pagination": {
                 "first_page_button": "Go to first page",
                 "back_button": "Back to previous page",
