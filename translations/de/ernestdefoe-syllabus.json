@@ -2,7 +2,7 @@
     "ernestdefoe-syllabus": {
         "lib": {
             "kiosk": {
-                "course": ""
+                "course": "Kurs"
             }
         },
         "admin": {
@@ -10,8 +10,8 @@
                 "show_nav": "",
                 "discussion_tag": "",
                 "discussion_tag_help": "",
-                "no_tag": "",
-                "certificate_text": "",
+                "no_tag": "Ohne Tag",
+                "certificate_text": "Zertifikatstext",
                 "certificate_text_help": "",
                 "certificate_signature": "",
                 "certificate_signature_help": "",
@@ -25,74 +25,74 @@
                 "submissions_per_hour": ""
             },
             "permissions": {
-                "view": "",
-                "enrol": "",
-                "create": "",
-                "manage": ""
+                "view": "Kurse anzeigen",
+                "enrol": "Für Kurse anmelden",
+                "create": "Kurse erstellen und leiten (Lehrkraft)",
+                "manage": "Alle Kurse verwalten"
             },
             "categories": {
-                "title": "",
+                "title": "Kurskategorien",
                 "help": "",
-                "new": "",
-                "add": "",
-                "name": "",
-                "move": "",
+                "new": "Name der neuen Kategorie",
+                "add": "Hinzufügen",
+                "name": "Kategoriename",
+                "move": "{name} verschieben",
                 "sortable": "",
-                "courses": "",
-                "delete": "",
+                "courses": "{count, plural, one {# Kurs} other {# Kurse}}",
+                "delete": "Kategorie löschen",
                 "delete_confirm": ""
             },
             "widgets": {
-                "courses": ""
+                "courses": "Kurse"
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Kurse",
             "errors": {
                 "generic": ""
             },
             "units": {
-                "hours": "",
-                "minutes": ""
+                "hours": "{count} h",
+                "minutes": "{count} m"
             },
             "types": {
-                "text": "",
-                "video": "",
+                "text": "Text",
+                "video": "Video",
                 "assignment": "",
-                "quiz": ""
+                "quiz": "Quiz"
             },
             "difficulty": {
-                "beginner": "",
+                "beginner": "Anfänger",
                 "intermediate": "",
-                "advanced": ""
+                "advanced": "Fortgeschritten"
             },
             "progress": {
-                "label": "",
-                "lessons": ""
+                "label": "{percent} %",
+                "lessons": "{done} von {total} Lerneinheiten"
             },
             "catalogue": {
-                "title": "",
-                "new": "",
+                "title": "Kurse",
+                "new": "Neuer Kurs",
                 "tabs": {
-                    "all": "",
-                    "mine": ""
+                    "all": "Alle Kurse",
+                    "mine": "Meine Kurse"
                 },
-                "all_categories": "",
-                "all_levels": "",
-                "category": "",
-                "level": "",
-                "search": "",
+                "all_categories": "Alle Kategorien",
+                "all_levels": "Alle Stufen",
+                "category": "Kategorie",
+                "level": "Stufe",
+                "search": "Kurse durchsuchen",
                 "empty": "",
                 "empty_mine": "",
                 "no_results": "",
-                "more": "",
-                "back": ""
+                "more": "Mehr laden",
+                "back": "Alle Kurse"
             },
             "course": {
-                "draft": "",
+                "draft": "Entwurf",
                 "draft_notice": "",
                 "featured": "",
-                "restricted": "",
+                "restricted": "Nur für Mitglieder",
                 "lessons": "",
                 "students": "",
                 "by": "",
