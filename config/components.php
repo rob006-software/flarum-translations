@@ -887,6 +887,9 @@ return [
 	'huseyinfiliz-awards' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0/resources/locale/en.yml',
 	],
+	'huseyinfiliz-bump' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/2.0.1/locale/en.yml',
+	],
 	'huseyinfiliz-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0/locale/en.yml',
 	],
