@@ -985,6 +985,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.2/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'lcoy-roselle' => [
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-roselle/v2.2.2/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'linkrobins-auto-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/auto-lock/v1.0.0/locale/en.yml',
 	],
