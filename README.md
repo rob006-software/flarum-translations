@@ -1107,12 +1107,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huoxin-relative-url`](https://weblate.rob006.net/projects/flarum2/huoxin-relative-url) | [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) |
 | [`huseyinfiliz-author-moderation`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-author-moderation) | [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
+| [`huseyinfiliz-bump`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-bump) | [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) |
 | [`huseyinfiliz-discussion-ban`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-discussion-ban) | [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
 | [`huseyinfiliz-language-detection`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-language-detection) | [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) |
 | [`huseyinfiliz-leaderboard`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-leaderboard) | [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) |
 | [`huseyinfiliz-modern-footer`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-modern-footer) | [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer) |
 | [`huseyinfiliz-notificationhub`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-notificationhub) | [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) |
+| [`huseyinfiliz-pickem`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-pickem) | [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem) |
 | [`huseyinfiliz-private-profile`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-private-profile) | [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) |
 | [`huseyinfiliz-rewind`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-rewind) | [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) |
 | [`huseyinfiliz-simple-dark-mode`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-simple-dark-mode) | [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode) |
