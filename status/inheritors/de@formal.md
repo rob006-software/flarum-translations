@@ -2,7 +2,7 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **357** are translated differently and **8** are
+sides, but do not match between them: **357** are translated differently and **7** are
 translated only in `de@formal`. Altogether they cover **54** components.
 
 <!-- {% raw %} -->
@@ -17,7 +17,7 @@ translated only in `de@formal`. Altogether they cover **54** components.
 | `datitisev-backup` | [18](#datitisev-backup) | 0 |
 | `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) | 0 |
 | `datlechin-link-preview` | [1](#datlechin-link-preview) | 0 |
-| `ernestdefoe-ladder` | 0 | [8](#ernestdefoe-ladder-missing) |
+| `ernestdefoe-ladder` | 0 | [7](#ernestdefoe-ladder-missing) |
 | `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) | 0 |
 | `flarum-approval` | [2](#flarum-approval) | 0 |
 | `flarum-emoji` | [1](#flarum-emoji) | 0 |
@@ -4565,14 +4565,6 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 
 ### `ernestdefoe-ladder` (missing)
-
-#### [`ernestdefoe-ladder.admin.metric.money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.admin.metric.money%22)
-
-> Money
-
-```diff
-+Money
-```
 
 #### [`ernestdefoe-ladder.admin.modal.min_posts_label_money`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-ladder/de@formal/?q=context%3A%3D%22ernestdefoe-ladder.admin.modal.min_posts_label_money%22)
 
