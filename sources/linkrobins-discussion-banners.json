@@ -40,6 +40,11 @@
                 "visibility_everyone": "Everyone",
                 "visibility_guests": "Guests only",
                 "visibility_members": "Logged-in users only",
+                "groups_label": "Visible to groups",
+                "groups_help": "Pick the groups that see this banner, including Guests (visitors who are not logged in) and Members (everyone logged in). It narrows the setting above: both must allow the viewer. Banners nobody in the groups can see are never sent to the browser.",
+                "groups_everyone": "No groups picked, so everyone the setting above allows sees this banner.",
+                "groups_loading": "Loading groups...",
+                "groups_unavailable": "Groups could not be loaded.",
                 "color_label": "Accent color",
                 "color_help": "Colors the banner border, background tint, and small heading. Leave blank to use your theme color. Body text always follows the theme so it stays readable in light and dark modes.",
                 "icon_label": "Icon",
@@ -59,9 +64,11 @@
                 "summary_discussion_many": "{count} discussions",
                 "summary_tag_one": "1 tag",
                 "summary_tag_many": "{count} tags",
+                "summary_group_one": "1 group",
+                "summary_group_many": "{count} groups",
                 "delete": "Delete banner",
                 "most_specific_label": "Show only the most specific banner",
-                "most_specific_help": "When several banners would appear in the same place, show only the most specific ones: a banner picked for the discussion beats one for its subtag, which beats one for a tag, which beats one shown in every discussion. \"Everywhere except\" banners count as shown in every discussion."
+                "most_specific_help": "When several banners would appear in the same place, show only the most specific ones among the banners the viewer can see: a banner picked for the discussion beats one for its subtag, which beats one for a tag, which beats one shown in every discussion. \"Everywhere except\" banners count as shown in every discussion."
             }
         }
     }
