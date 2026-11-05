@@ -272,9 +272,7 @@ return [
 	],
 	'vadkuz-flarum2-secondary-tags-master' => [
 		'tag' => 'https://raw.githubusercontent.com/vadkuz/flarum2-secondary-tags-master/v0.1.4/locale/en.yml',
-		'__builtInLanguages' => [
-			'ru',
-		],
+		'__builtInLanguages' => ['ru'],
 	],
 	'walsgit-recycle-bin' => [
 		'tag' => 'https://raw.githubusercontent.com/WalsGit/recycle-bin/2.0.0/locale/en.yml',
