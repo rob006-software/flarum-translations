@@ -6,14 +6,14 @@
                 "view_birthday_label": "Geburtstag ansehen"
             },
             "settings": {
-                "min_age_help": "Mindestalter für die Registrierung",
+                "min_age_help": "Mitglieder müssen mindestens dieses Alter haben. Gilt immer dann, wenn ein Geburtstag gespeichert wird. Setzen Sie den Wert auf 0, um nur zukünftige Daten auszuschließen.",
                 "min_age_label": "Mindestalter",
-                "sign_up_help": "",
-                "sign_up_label": "",
+                "sign_up_help": "Ob im Anmeldeformular nach dem Geburtstag gefragt wird.",
+                "sign_up_label": "Geburtstag bei der Anmeldung",
                 "sign_up_options": {
-                    "off": "",
-                    "optional": "",
-                    "required": ""
+                    "off": "Nicht fragen",
+                    "optional": "Frage, optional",
+                    "required": "Anfragen, erforderlich"
                 },
                 "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben",
                 "required_label": "Erforderliche Eingabe von Geburtstagen",
@@ -24,12 +24,12 @@
             },
             "users": {
                 "birthday_column": "",
-                "no_birthday": ""
+                "no_birthday": "Nicht festgelegt"
             }
         },
         "forum": {
             "badge": {
-                "birthday_tooltip": ""
+                "birthday_tooltip": "Geburtstag heute"
             },
             "change_birthday": {
                 "submit_button": "",

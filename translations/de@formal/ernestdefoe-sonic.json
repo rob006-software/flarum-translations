@@ -1,37 +1,37 @@
 {
     "ernestdefoe-sonic": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Unterstützt von Sonic"
         },
         "admin": {
-            "host_label": "",
-            "host_help": "",
-            "port_label": "",
-            "bucket_label": "",
-            "bucket_help": "",
-            "password_label": "",
-            "password_help": "",
-            "password_saved": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_posts": "",
-            "use_for_users": "",
-            "status_label": "",
-            "status_button": "",
-            "status_ok": "",
+            "host_label": "Host",
+            "host_help": "Die Adresse Ihres Sonic-Servers, wie sie vom Server dieses Forums aus gesehen wird (zum Beispiel 127.0.0.1 oder der Name des Containers).",
+            "port_label": "Port",
+            "bucket_label": "Bucket",
+            "bucket_help": "Optional. Trennt den Index dieses Forums von anderen, wenn sich mehrere Foren einen gemeinsamen Sonic teilen. Lassen Sie das Feld leer, um den Hostnamen Ihres Forums zu verwenden. Erstellen Sie den Index nach einer Änderung neu.\n",
+            "password_label": "Passwort",
+            "password_help": "Sonics „channel.auth_password“. Wird auf dem Server gespeichert und niemals an den Browser zurückgesendet.",
+            "password_saved": "Ein Passwort ist gespeichert. Geben Sie ein neues ein, um es zu ersetzen.",
+            "drivers_label": "Verwende Sonic für…",
+            "drivers_help": "Textsuchen werden an Sonic weitergeleitet; beim Durchsuchen und bei der Filterung wird weiterhin die Datenbank verwendet. Flarum entscheidet weiterhin, wer die einzelnen Ergebnisse sehen darf. Ist Sonic nicht erreichbar, greifen die Suchanfragen auf die Datenbank zurück.\n",
+            "use_for_discussions": "Suche in Diskussionen",
+            "use_for_posts": "Beitragssuche",
+            "use_for_users": "Benutzersuche",
+            "status_label": "Verbindung",
+            "status_button": "Verbindung prüfen",
+            "status_ok": "Verknüpft. Indiziert: {discussions} Diskussionen, {posts} Beiträge, {users} Benutzer.",
             "error": {
-                "not_configured": "",
-                "unreachable": "",
-                "timeout": "",
-                "auth_failed": "",
-                "protocol": ""
+                "not_configured": "Geben Sie zunächst einen Host ein und speichern Sie die Eingabe.",
+                "unreachable": "Sonic konnte unter diesem Host und Port nicht erreicht werden.",
+                "timeout": "Sonic hat nicht rechtzeitig geantwortet.",
+                "auth_failed": "Sonic hat das Passwort abgelehnt.",
+                "protocol": "Etwas hat geantwortet, aber es spricht das Sonic-Protokoll nicht."
             },
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "rebuild_label": "Suchindex",
+            "rebuild_help": "Erstellen Sie alle Sonic-Indexes anhand Ihrer vorhandenen Inhalte neu. Führen Sie diesen Vorgang einmal nach der Verbindung durch und immer dann, wenn die Ergebnisse veraltet erscheinen (beispielsweise nachdem Sonic offline war). In großen Foren sollten Sie einen Queue-Worker einsetzen, damit dies im Hintergrund geschieht.\n",
+            "rebuild_button": "Index neu erstellen",
+            "rebuild_queued": "Neuerstellung gestartet.",
+            "rebuild_failed": "Der Index konnte nicht neu erstellt werden. Überprüfen Sie die Verbindung."
         }
     }
 }
