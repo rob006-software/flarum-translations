@@ -732,9 +732,7 @@ return [
 	],
 	'foskym-wechat-official' => [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-wechat-official/v0.2.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
