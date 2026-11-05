@@ -1,0 +1,111 @@
+{
+    "huseyinfiliz-bump": {
+        "admin": {
+            "tabs": {
+                "bump": "",
+                "absorber": "",
+                "group_overrides": "",
+                "recent_bumps": ""
+            },
+            "stats": {
+                "total_bumps": "",
+                "today_bumps": "",
+                "week_bumps": "",
+                "last_bump": "",
+                "no_bumps_yet": "",
+                "absorber_status": "",
+                "active": "",
+                "inactive": ""
+            },
+            "settings": {
+                "section_absorber": "",
+                "section_manual": "",
+                "section_quota": "",
+                "section_bypass": ""
+            },
+            "enable_absorber_label": "",
+            "enable_absorber_help": "",
+            "threshold_hours_label": "",
+            "threshold_hours_help": "",
+            "absorber_tags_label": "",
+            "absorber_tags_help": "",
+            "enable_manual_label": "",
+            "enable_manual_help": "",
+            "manual_bump_tags_label": "",
+            "manual_bump_tags_help": "",
+            "manual_cooldown_label": "",
+            "manual_cooldown_help": "",
+            "moderator_groups_label": "",
+            "moderator_groups_help": "",
+            "absorber_bypass_groups_label": "",
+            "absorber_bypass_groups_help": "",
+            "owner_daily_quota_label": "",
+            "owner_daily_quota_help": "",
+            "owner_weekly_quota_label": "",
+            "owner_weekly_quota_help": "",
+            "group_overrides": {
+                "description": "",
+                "help": "",
+                "add_override": "",
+                "no_overrides": "",
+                "get_started": "",
+                "edit": "",
+                "remove": "",
+                "confirm_remove": "",
+                "unlimited": "",
+                "using_global": ""
+            },
+            "group_override_modal": {
+                "add_title": "",
+                "edit_title": "",
+                "select_group": "",
+                "manual_section": "",
+                "absorber_section": "",
+                "use_global": "",
+                "custom_value": "",
+                "minus_one_disabled_zero_unlimited": "",
+                "zero_means_bypass": "",
+                "save": "",
+                "cancel": ""
+            },
+            "select_groups_modal": {
+                "title": "",
+                "select_button": "",
+                "no_groups": "",
+                "no_groups_selected": "",
+                "save": "",
+                "cancel": ""
+            },
+            "recent_bumps": {
+                "title": "",
+                "loading": "",
+                "no_bumps": "",
+                "showing": "",
+                "untitled": "",
+                "system": "",
+                "view_discussion": "",
+                "type_manual": "",
+                "type_auto": "",
+                "type_absorber": ""
+            }
+        },
+        "forum": {
+            "bump_button": "",
+            "bump_button_cooldown": "",
+            "bump_button_quota": "",
+            "bump_disabled": "",
+            "bump_success": "",
+            "bump_error": "",
+            "bump_cooldown": "",
+            "bump_quota_exceeded_daily": "",
+            "bump_quota_exceeded_weekly": "",
+            "bump_disabled_for_group": ""
+        },
+        "api": {
+            "cooldown_error": "",
+            "daily_quota_error": "",
+            "weekly_quota_error": "",
+            "bump_disabled": ""
+        }
+    }
+}
