@@ -175,7 +175,7 @@ return [
 		'__builtInLanguages' => ['de', 'es'],
 	],
 	'ernestdefoe-anthology' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.5/resources/locale/en.yml',
