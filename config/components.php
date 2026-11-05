@@ -625,9 +625,7 @@ return [
 	],
 	'mosparo-integration' => [
 		'tag' => 'https://raw.githubusercontent.com/mosparo/flarum-integration/v1.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'de',
-		],
+		'__builtInLanguages' => ['de'],
 	],
 	'peopleinside-antiflood' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/2.0.1/locale/en.yml',
