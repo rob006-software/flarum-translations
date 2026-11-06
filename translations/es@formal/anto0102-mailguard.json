@@ -1,14 +1,14 @@
 {
     "anto0102-mailguard": {
         "admin": {
-            "mode_label": "",
-            "mode_help": "",
-            "domains_label": "",
-            "domains_help": "",
-            "message_label": "",
-            "message_help": "",
-            "check_mx_label": "",
-            "check_mx_help": ""
+            "mode_label": "Modo de filtrado de dominios",
+            "mode_help": "Permitir = solo los dominios listados podrán registrarse. Denegar = los dominios listados serán bloqueados.",
+            "domains_label": "Dominios de correo electrónico (uno por línea)",
+            "domains_help": "Ingrese los dominios sin el símbolo @. Ejemplo: gmail.com",
+            "message_label": "Mensaje de rechazo",
+            "message_help": "Mensaje que se muestra a los usuarios que intentan registrarse con un dominio de correo bloqueado.",
+            "check_mx_label": "Validar registros MX y DNS",
+            "check_mx_help": "Si se activa, bloquea los dominios inexistentes o que no puedan recibir correos electrónicos (independientemente de las listas de admisión o denegación)."
         }
     }
 }
