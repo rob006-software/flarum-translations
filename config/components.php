@@ -890,6 +890,9 @@ return [
 	'huseyinfiliz-bump' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/2.0.1/locale/en.yml',
 	],
+	'huseyinfiliz-custom-profile-page' => [
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/custom-profile-page/2.0.0/locale/en.yml',
+	],
 	'huseyinfiliz-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.0.0/locale/en.yml',
 	],
