@@ -72,7 +72,7 @@
                     "alight_now": "Encendidas ahora: {count}",
                     "flame_out": "Llama apagada",
                     "empty": "Aún no hay llamas. Sea el primero.",
-                    "building": "",
+                    "building": "Las llamas aún se están construyendo a partir del historial del foro ({percent}%). Pronto aparecerán más.",
                     "load_more": "Cargar más"
                 },
                 "side": {
@@ -151,21 +151,21 @@
         "admin": {
             "map_heading": "Mapa de actividad",
             "widgets": {
-                "my_flame": "",
-                "top_flames": "",
-                "bonfire": ""
+                "my_flame": "Mi llama",
+                "top_flames": "Top llamas",
+                "bonfire": "Fogata"
             },
             "backfill": {
-                "activity": "",
-                "streaks": "",
-                "help": "",
-                "done": ""
+                "activity": "Construyendo el mapa de actividad a partir del historial del foro: {percent}%",
+                "streaks": "Construyendo las rachas a partir del historial de los miembros: {percent}%",
+                "help": "Esto se ejecuta en segundo plano (en la cola si dispone de una, o en su defecto cada minuto a través del programador, y mientras esta página permanezca abierta). Las llamas de los miembros irán apareciendo a medida que se construyan. En foros grandes también puede ejecutar php flarum cadence:rebuild-streaks para seguir el proceso hasta que finalice.\n",
+                "done": "El historial de su foro ha sido construido."
             },
             "streak": {
                 "heading": "Rachas",
                 "enabled": "Rachas diarias",
-                "enabled_help": "Otorga una llama a cada miembro que regresa continuamente, con niveles, congelaciones, tabla de clasificación y alertas. Si se desactiva, se oculta todo y se detiene el conteo, sin eliminar ningún dato.\n",
-                "off_notice": "",
+                "enabled_help": "El interruptor general de la función de rachas: las llamas, el botón del encabezado, el enlace a Rachas y la tabla de clasificación, la pestaña del perfil, los widgets, las alertas y los correos electrónicos. Desactívelo para utilizar Cadence únicamente como mapa de actividad; no se contabilizará nada mientras esté desactivado y no se eliminará ningún dato.\n",
+                "off_notice": "Las rachas están desactivadas. No se mostrará nada sobre ellas en ningún lugar del foro, y el mapa de actividad a continuación funcionará de manera independiente. Active las Rachas diarias y guarde los cambios para configurarlas.\n",
                 "permission_view": "Ver las rachas y la tabla de clasificación",
                 "permission_earn": "Obtener una racha",
                 "mode": "Qué mantiene la llama encendida",
