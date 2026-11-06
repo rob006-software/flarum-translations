@@ -762,9 +762,7 @@ return [
 	],
 	'imdong-anti-change-email' => [
 		'tag' => 'https://raw.githubusercontent.com/imdong/flarum-ext-anti-change-email/v1.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'jeromegillard-map' => [
 		'tag' => 'https://raw.githubusercontent.com/JeromeGillard/flarum-map/v0.1.6/locale/en.yml',
