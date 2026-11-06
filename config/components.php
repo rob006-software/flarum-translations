@@ -760,7 +760,7 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/signature/2.0.0-beta.1/locale/en.yml',
 	],
 	'fof-sitemap' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/3.1.0/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/2.0.0/resources/locale/en.yml',
