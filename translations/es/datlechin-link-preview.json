@@ -2,49 +2,49 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
-                "appearance_description": "",
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "filtering_label": "",
-                "filtering_description": ""
+                "appearance_label": "Apariencia",
+                "appearance_description": "Aspecto de las tarjetas de vista previa y cómo se abren los enlaces.",
+                "behaviour_label": "Comportamiento",
+                "behaviour_description": "Seleccione qué enlaces de las publicaciones tendrán vista previa.",
+                "performance_label": "Rendimiento",
+                "performance_description": "Modo de carga de las vistas previas y duración del almacenamiento en caché.",
+                "filtering_label": "Filtrado",
+                "filtering_description": "Seleccione qué sitios se pueden previsualizar. Ingrese un sitio por línea o sepárelos con comas. Un dominio incluye sus subdominios y * reemplaza una sección del dominio, como *.example.com.\n"
             },
             "settings": {
-                "open_links_in_new_tab_label": "",
-                "open_links_in_new_tab_help": "",
-                "google_favicon_fallback_label": "",
-                "google_favicon_fallback_help": "",
-                "preview_internal_links_label": "",
-                "preview_internal_links_help": "",
-                "skip_media_links_label": "",
-                "skip_media_links_help": "",
-                "max_previews_per_post_label": "",
-                "max_previews_per_post_help": "",
-                "enable_batch_requests_label": "",
-                "enable_batch_requests_help": "",
-                "cache_time_label": "",
-                "cache_time_help": "",
-                "allowlist_label": "",
-                "allowlist_help": "",
-                "allowlist_placeholder": "",
-                "blocklist_label": "",
-                "blocklist_help": "",
-                "blocklist_placeholder": ""
+                "open_links_in_new_tab_label": "Abrir enlaces en una nueva pestaña",
+                "open_links_in_new_tab_help": "Se aplica a enlaces de sitios externos. Los enlaces a este foro siempre se abren en la misma pestaña.",
+                "google_favicon_fallback_label": "Usar Google como alternativa para los iconos de sitios",
+                "google_favicon_fallback_help": "Utiliza el servicio de favicons de Google cuando un sitio no tiene icono. Google podrá ver a qué sitios se enlaza en su foro.\n",
+                "preview_internal_links_label": "Previsualizar enlaces a este foro",
+                "preview_internal_links_help": "Los enlaces a discusiones, usuarios, etiquetas y otras páginas de este foro generan vistas previas desde la base de datos. Los usuarios solo verán lo que sus permisos permitan.\n",
+                "skip_media_links_label": "Omitir enlaces a archivos multimedia",
+                "skip_media_links_help": "No genera vistas previas para enlaces a archivos de imagen, audio o vídeo.",
+                "max_previews_per_post_label": "Vistas previas por publicación",
+                "max_previews_per_post_help": "Los enlaces que superen este número se mostrarán como texto simple.",
+                "enable_batch_requests_label": "Obtener vistas previas en lote",
+                "enable_batch_requests_help": "Solicita las vistas previas de la página en un solo grupo en lugar de una petición por enlace. Desactive esto únicamente si un proxy o cortafuegos bloquea estas peticiones.\n",
+                "cache_time_label": "Duración de la caché (minutos)",
+                "cache_time_help": "Tiempo que se conserva una vista previa en caché antes de volver a consultar la página. Configure en 0 para desactivar la caché.",
+                "allowlist_label": "Sitios permitidos",
+                "allowlist_help": "Si se define, solo los enlaces a estos sitios tendrán vista previa.",
+                "allowlist_placeholder": "docs.example.com, *.wikipedia.org",
+                "blocklist_label": "Sitios bloqueados",
+                "blocklist_help": "Los enlaces a estos sitios nunca generarán vista previa, incluso si están en los sitios permitidos.",
+                "blocklist_placeholder": "example.com, news.example.org/patrocinado"
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "Cargando vista previa",
             "meta": {
-                "replies": "",
-                "posts": "",
-                "discussions": ""
+                "replies": "{count, plural, one {# respuesta} other {# respuestas}}",
+                "posts": "{count, plural, one {# publicación} other {# publicaciones}}",
+                "discussions": "{count, plural, one {# discusión} other {# discusiones}}"
             },
-            "clicks": "",
+            "clicks": "{count, plural, one {# clic} other {# clics}}",
             "settings": {
-                "hide_link_previews_label": "",
-                "hide_link_previews_help": ""
+                "hide_link_previews_label": "Ocultar vistas previas de enlaces",
+                "hide_link_previews_help": "M"
             }
         }
     }
