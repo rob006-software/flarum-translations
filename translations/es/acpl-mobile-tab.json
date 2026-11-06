@@ -1,53 +1,53 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "Ítems disponibles",
-            "available_items_help": "",
-            "create_new_item_button": "Crear nuevo ítem",
+            "available_items": "Elementos disponibles",
+            "available_items_help": "Arrastre elementos de esta lista a cualquier variante para añadirlos a la barra móvil.",
+            "create_new_item_button": "Crear elemento",
             "edit_item": {
-                "modal_title": "Editar ítem",
-                "help": "",
+                "modal_title": "Editar elemento",
+                "help": "¿Necesita algo más que un enlace? Consulte la <a>documentación para desarrolladores</a> sobre elementos y comportamientos personalizados.",
                 "label": "Etiqueta",
-                "label_placeholder": "Mí ítem personalizado",
+                "label_placeholder": "Mi elemento personalizado",
                 "path": "Ruta",
                 "url": "URL",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "La sección de la dirección posterior a {baseUrl}, comenzando con barra inclinada.",
+                    "external": "La dirección completa, incluyendo <code>https://</code>."
                 },
-                "icon": "Ícono",
-                "icon_help": "Escribe el nombre de la clase de un ícono <a>FontAwesome</a> incluyendo el prefijo <code>fas fa-</code>.",
+                "icon": "Icono",
+                "icon_help": "Ingrese el nombre de cualquier clase de icono de <a>FontAwesome</a>, incluyendo el prefijo <code>fas fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Función de este enlace",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Dirige a una página de este foro",
+                        "help": "Se abre sin recargar la página."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Dirige a otro sitio web",
+                        "help": "Abre una dirección externa a este foro."
                     }
                 },
-                "open_new_tab_checkbox": "Abrir en nueva pestaña",
-                "submit_button": "Grabar",
-                "delete_button": "Borrar",
-                "delete_item_confirmation": "¿Seguro que deseas borrar este ítem?",
+                "open_new_tab_checkbox": "Abrir enlace en una nueva pestaña",
+                "submit_button": "Guardar",
+                "delete_button": "Eliminar",
+                "delete_item_confirmation": "¿Está seguro de que desea eliminar este elemento?",
                 "is_internal_checkbox": "¿Es un enlace interno?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "heading": "Variantes de la barra móvil",
+                "empty_help": "Arrastre elementos aquí para añadirlos a esta variante.",
+                "help": "Las variantes se evalúan de arriba a abajo. Los usuarios verán la primera variante activa para la cual tengan permisos de lectura. Coloque los roles más específicos primero; por ejemplo: n.º 1 administradores, n.º 2 moderadores, n.º 3 miembros, n.º 4 todos. Déjelo vacío para ocultar la barra por completo a los grupos seleccionados.",
+                "number": "n.º {number}",
+                "enabled": "Activada",
+                "visible_to": "Visible para",
+                "reorder": "Reordenar variante",
+                "delete": "Eliminar variante",
+                "delete_confirmation": "¿Está seguro de que desea eliminar esta variante? Esta acción no se puede deshacer.",
+                "create": "Crear variante"
             },
             "scroll_settings": {
-                "toggle_label": "Alternar la visibilidad al desplazarse",
+                "toggle_label": "Alternar visibilidad al desplazarse",
                 "threshold_label": "Umbral de desplazamiento (px)",
                 "threshold_help": "Distancia de desplazamiento desde la posición actual para alternar la visibilidad."
             },
@@ -61,13 +61,13 @@
                 "notifications": "Notificaciones",
                 "session": "Sesión",
                 "search": "Buscar",
-                "log_in": "Ingresar",
+                "log_in": "Iniciar sesión",
                 "profile": "Perfil",
                 "tags": "Etiquetas",
                 "messages": "Mensajes",
-                "flags": "",
+                "flags": "Reportes",
                 "fof-byobu": "Privado",
-                "ramon-chat": "",
+                "ramon-chat": "Chat",
                 "categories": "Categorías"
             }
         }
