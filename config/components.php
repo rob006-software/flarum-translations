@@ -459,7 +459,7 @@ return [
 		'__builtInLanguages' => ['de', 'es'],
 	],
 	'el-choco-extension-uninstaller' => [
-		'beta' => 'https://raw.githubusercontent.com/el-choco/extension-uninstaller/v0.1.0-rc.1/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/el-choco/extension-uninstaller/v0.1.0-rc.2/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
 	'ernestdefoe-aurora' => [
