@@ -93,10 +93,10 @@
             "variables": "Variables de texto",
             "variables_help": "Utilice las variables a continuación en los títulos, subtítulos, bloques de texto, etiquetas de botones, texto alternativo o leyendas de imágenes, sugerencias del cuadro de búsqueda, etiquetas de estadísticas y texto del banner principal de la página. El nombre de usuario y el nombre público cambian a «Invitado» para los visitantes. Los valores se representan como texto plano, una sola vez; las variables desconocidas se conservan. Las URL, consultas, estilos, etiquetas de navegación y widgets de terceros no se expanden.",
             "variables_defaults": "Los valores predeterminados utilizan una cadena JSON entre comillas dobles después de una coma. Se aplican únicamente cuando un valor conocido falta o está vacío; se permite una cadena vacía. Las variables existentes sin valores predeterminados mantienen su comportamiento. Los nombres desconocidos o la sintaxis mal formada permanecen sin cambios. Los valores predeterminados son texto plano y no se vuelven a expandir.",
-            "variables_escape": "",
-            "button_style": "",
+            "variables_escape": "Duplique las llaves para mostrar una variable de forma literal, por ejemplo:",
+            "button_style": "Color del botón",
             "button_styles": {
-                "auto": "",
+                "auto": "Automático (apariencia existente)",
                 "primary": "",
                 "secondary": ""
             },
