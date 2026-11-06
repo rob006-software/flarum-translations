@@ -2,57 +2,57 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Vetar usuarios de las discusiones"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_discussion_sidebar": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": "",
-                "send_notifications": ""
+                "show_in_discussion_controls": "Mostrar «Vetar de la discusión» en los controles de la discusión",
+                "show_in_discussion_sidebar": "Mostrar el botón «Veto en discusión» en la barra lateral",
+                "show_in_post_controls": "Mostrar «Vetar de la discusión» en los controles de la publicación",
+                "hide_discussions_from_banned": "Ocultar discusiones por completo a los usuarios vetados (comportamiento error 404)",
+                "send_notifications": "Enviar notificaciones al vetar o levantar el veto a un usuario en una discusión"
             }
         },
         "forum": {
             "discussion_page": {
-                "ban_button": ""
+                "ban_button": "Veto en discusión"
             },
             "discussion_controls": {
-                "ban_button": "",
-                "ban_from_discussion": ""
+                "ban_button": "Veto en discusión",
+                "ban_from_discussion": "Vetar de la discusión"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Vetar de la discusión",
+                "unban_from_discussion": "Levantar veto de la discusión"
             },
             "post": {
-                "hidden_by_ban": ""
+                "hidden_by_ban": "Oculto debido a un veto en la discusión"
             },
             "notifications": {
-                "discussion_banned_text": "",
-                "discussion_unbanned_text": ""
+                "discussion_banned_text": "{username} le ha vetado de {title}",
+                "discussion_unbanned_text": "{username} ha levantado su veto en {title}"
             },
             "settings": {
-                "notify_discussion_banned_label": "",
-                "notify_discussion_unbanned_label": ""
+                "notify_discussion_banned_label": "Alguien me veta de una discusión",
+                "notify_discussion_unbanned_label": "Alguien levanta mi veto en una discusión"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Veto en la discusión",
+                "tab_ban": "Nuevo veto",
+                "tab_list": "Usuarios vetados ({count})",
+                "select_user": "Seleccionar usuario",
+                "search_placeholder": "Buscar por nombre de usuario o nombre visible...",
+                "search_banned_placeholder": "Buscar usuarios vetados...",
+                "change_user": "Cambiar",
+                "reason_label": "Motivo (opcional)",
+                "reason_placeholder": "¿Por qué se veta a este usuario de la discusión?",
+                "reason_help": "Este motivo será visible para los moderadores en el listado de usuarios vetados.",
+                "submit": "Vetar usuario",
+                "ban_success": "El usuario ha sido vetado de esta discusión.",
+                "unban_success": "Se ha levantado el veto del usuario.",
+                "no_bans": "No hay usuarios vetados actualmente en esta discusión.",
+                "banned_by": "Vetado por {username}",
+                "unban": "Levantar veto",
+                "confirm_unban": "¿Está seguro de que desea levantar el veto a este usuario? Sus publicaciones ocultas volverán a ser visibles."
             }
         }
     },
@@ -60,7 +60,7 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
+                    "banned": "Se vetó a {username}",
                     "unbanned": ""
                 }
             }
