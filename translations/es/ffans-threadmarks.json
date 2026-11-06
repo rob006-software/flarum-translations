@@ -2,127 +2,127 @@
     "ffans-threadmarks": {
         "admin": {
             "permissions": {
-                "manage_personal_label": "",
-                "manage_own_discussion_label": "",
-                "manage_discussion_label": ""
+                "manage_personal_label": "Gestionar de índices personales",
+                "manage_own_discussion_label": "Gestionar índice en discusiones propias",
+                "manage_discussion_label": "Gestionar índice en cualquier discusión"
             },
             "types": {
-                "add_button": "",
-                "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
-                "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
-                "builtin_label": "",
-                "custom_label": "",
-                "enable_type_a11y_label": "",
-                "edit_type_a11y_label": "",
-                "empty_text": ""
+                "add_button": "Añadir tipo de entrada",
+                "table_a11y_label": "Tipos de entradas de índice",
+                "order_heading": "Orden",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Origen",
+                "enabled_heading": "Activado",
+                "actions_heading": "Acciones",
+                "reorder_tooltip": "Arrastre para reordenar",
+                "builtin_label": "Integrado",
+                "custom_label": "Personalizado",
+                "enable_type_a11y_label": "Activar {name}",
+                "edit_type_a11y_label": "Editar {name}",
+                "empty_text": "No hay tipos de índice definidos."
             },
             "create_type_modal": {
-                "title": "",
-                "submit_button": ""
+                "title": "Crear tipo de índice",
+                "submit_button": "Crear"
             },
             "edit_type_modal": {
-                "title": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": ""
+                "title": "Editar tipo de índice",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "¿Desea eliminar este tipo de índice?"
             }
         },
         "forum": {
             "type_labels": {
-                "default": "",
-                "notice": "",
-                "highlight": "",
-                "progress": "",
-                "update": "",
-                "chapter": ""
+                "default": "Índice",
+                "notice": "Aviso",
+                "highlight": "Destacado",
+                "progress": "Progreso",
+                "update": "Actualización",
+                "chapter": "Capítulo"
             },
             "manage_modal": {
-                "title": "",
-                "scope_a11y_label": "",
-                "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
-                "unavailable_text": "",
-                "type_label": "",
-                "type_placeholder": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
-                "delete_personal_confirmation": "",
-                "delete_discussion_confirmation": ""
+                "title": "Índice · #{number}",
+                "scope_a11y_label": "Ámbito de la entrada",
+                "personal_tab": "Nota personal",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "No hay índices disponibles para gestionar.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Seleccionar un tipo",
+                "note_label": "Nota",
+                "note_placeholder": "Opcional",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Añadir",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "¿Desea eliminar este índice  personal?",
+                "delete_discussion_confirmation": "¿Desea eliminar este índice de la discusión?"
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
-                "show_button_a11y_label": "",
-                "close_a11y_label": "",
-                "scope_a11y_label": "",
-                "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Abrir navegador de índices",
+                "close_a11y_label": "Cerrar navegador de índices",
+                "scope_a11y_label": "Filtrar índice por ámbito",
+                "all_filter": "Todo",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
-                "personal_tooltip": "",
-                "edit_personal_tooltip": "",
-                "edit_discussion_tooltip": "",
-                "edit_personal_a11y_label": "",
-                "edit_discussion_a11y_label": "",
-                "deleted_text": ""
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Índice personal, visible solo para usted",
+                "edit_personal_tooltip": "Editar índice personal",
+                "edit_discussion_tooltip": "Editar índice de la discusión",
+                "edit_personal_a11y_label": "Editar índice personal en la publicación #{number}",
+                "edit_discussion_a11y_label": "Editar índice en la publicación #{number}",
+                "deleted_text": "Este contenido ha sido eliminado."
             },
             "scrubber": {
-                "threadmark_a11y_label": "",
-                "cluster_a11y_label": "",
-                "open_directory_a11y_label": ""
+                "threadmark_a11y_label": "Índice en la publicación #{number}",
+                "cluster_a11y_label": "{count, plural, one {# índice} other {# índices}}",
+                "open_directory_a11y_label": "Abrir índices completos de la discusión"
             },
             "discussion_controls": {
-                "show_all_button": "",
-                "show_threadmarks_button": "",
-                "show_all_button_a11y_label": "",
-                "show_threadmarks_button_a11y_label": ""
+                "show_all_button": "Todas las publicaciones",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Mostrar todas las publicaciones",
+                "show_threadmarks_button_a11y_label": "Mostrar solo publicaciones con índice"
             },
             "post_controls": {
-                "manage_button": ""
+                "manage_button": "Gestionar índice"
             }
         },
         "ref": {
-            "discussion": "",
-            "mine": "",
-            "threadmarks": "",
-            "type": "",
-            "key": "",
-            "save": ""
+            "discussion": "Discusión",
+            "mine": "Mios",
+            "threadmarks": "Índice",
+            "type": "Tipo",
+            "key": "Clave",
+            "save": "Guardar"
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Exporta todas sus notas personales y las entradas del índice de discusión que haya creado o editado por última vez (sin incluir el contenido de las publicaciones).",
+                "anonymize_description": "Elimina sus notas personales del índice y borra sus ID de creador/editor en las entradas de las discusiones.",
+                "delete_description": "Elimina sus notas personales del índice y borra sus ID de creador/editor en las entradas de las discusiones."
             },
             "type_form": {
-                "key_label": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_placeholder": ""
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Nombre",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
-                "first_post": "",
-                "duplicate_discussion": "",
-                "invalid_discussion_post": "",
-                "duplicate_personal": "",
-                "invalid_personal_post": "",
-                "disabled_type": "",
-                "type_in_use": ""
+                "first_post": "No se pueden añadir entradas al índice en la primera publicación.",
+                "duplicate_discussion": "Esta publicación ya está indexada en la discusión. Edite la entrada existente en su lugar.",
+                "invalid_discussion_post": "Solo se pueden añadir al índice publicaciones de respuesta.",
+                "duplicate_personal": "Ya tiene una nota personal en el índice para esta publicación. Edite la existente en su lugar.",
+                "invalid_personal_post": "Las notas personales del índice solo se pueden añadir a publicaciones de respuesta.",
+                "disabled_type": "Este tipo de entrada de índice está desactivado. Elija otro tipo.",
+                "type_in_use": "Este tipo está en uso y no se puede eliminar."
             }
         }
     }
