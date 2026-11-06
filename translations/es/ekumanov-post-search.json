@@ -2,43 +2,43 @@
     "ekumanov-post-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Acceso mediante menú desplegable de la discusión",
+                "dropdownAccessHelp": "Muestra el botón «Buscar en la discusión» dentro del menú desplegable de opciones de la discusión.",
+                "sideNavAccess": "Acceso mediante navegación lateral de la discusión",
+                "sideNavAccessHelp": "Muestra el botón «Buscar en la discusión» en la barra lateral de la discusión.",
+                "authorQuickFilter": "Filtro rápido por autor de la publicación",
+                "authorQuickFilterHelp": "Añade un acceso directo en las opciones de cada publicación para filtrar las respuestas de ese autor.",
+                "originalPosterBadge": "Acceso directo al creador de la discusión",
+                "originalPosterBadgeHelp": "Muestra la etiqueta interactiva «Creador del tema» junto a las publicaciones del autor original. Al hacer clic se filtra la discusión para mostrar solo a ese usuario."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "No hay publicaciones que coincidan con la búsqueda en esta discusión",
+                "unmatchedGap": "{count, plural, one {Una publicación sin coincidencia oculta} other {{count} publicaciones sin coincidencia ocultas}}",
+                "otherAuthorsGap": "{count, plural, one {Una publicación de otro autor oculta} other {{count} publicaciones de otros autores ocultas}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Buscar en la discusión...",
+                "authorPlaceholder": "Filtrar por autor...",
+                "summary": "{matching} de {total} coincidentes",
+                "pin": "Mantener abierta siempre la barra de filtros en las discusiones",
+                "close": "Limpiar filtros y cerrar barra",
+                "clear": "Limpiar filtros"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Buscar en la discusión"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Mostrar solo respuestas de este autor"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Creador del tema",
+                "opBadgeTooltip": "Haga clic para mostrar solo las respuestas de este usuario"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "No se puede ir a la publicación",
+                "action": "Intente limpiar los filtros"
             }
         }
     }
