@@ -2,50 +2,50 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "ชื่อแท็บ Profile",
+                "tab_icon": "Tab Icon (FontAwesome class)",
+                "tab_icon_help": "ตัวอย่าง: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "URL Slug",
+                "url_slug_help": "เส้นทาง URL สำหรับหน้าเพิ่มเติม (เช่น 'customPage' ทำให้ /u/username/customPage) ใช้เฉพาะตัวอักษร ตัวเลข ขีดกลาง และเครื่องหมายขีดเส้นใต้",
+                "content_format": "รูปแบบเนื้อหา",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Plain Text",
+                "allowed_html_tags": "Allowed HTML Tags",
+                "allowed_html_tags_help": "รายการ HTML tags ที่อนุญาต (เช่น b,i,u,strong,em,a) แยกด้วยจุลภาค เฉพาะ tags เหล่านี้เท่านั้นที่จะแสดงให้ผู้ใช้",
+                "default_template": "Default Template",
+                "default_template_help": "เนื้อหานี้จะปรากฏโดยอัตโนมัติใน editor เมื่อผู้ใช้สร้าง custom page เป็นครั้งแรก ปล่อยว่างไว้สำหรับ editor ว่างเปล่า",
+                "enable_media_embeds": "เปิดใช้งาน Media Embeds",
+                "enable_media_embeds_help": "แปลง YouTube links ไปยัง embedded video players โดยอัตโนมัติ หากปิดใช้งาน ลิงก์จะแสดงเป็น regular text links"
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "แก้ไข custom profile page ของตนเอง",
+                "view": "ดู custom profile pages",
+                "moderate": "Moderate custom profile pages (แก้ไขหน้าของผู้ใช้ใด ๆ)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "กำลังโหลด...",
+                "empty_own": "ดูเหมือนว่าคุณยังไม่ได้สร้าง custom page ของคุณ",
+                "empty_other": "ดูเหมือนว่าไม่มีเนื้อหาที่นี่",
+                "edit_button": "แก้ไขหน้า",
+                "save_button": "บันทึก",
+                "cancel_button": "ยกเลิก"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "แก้ไข Custom Profile Page",
+                "content_label": "เนื้อหา",
+                "content_placeholder": "เขียนเนื้อหาของคุณที่นี่...",
+                "submit_button": "บันทึกการเปลี่ยนแปลง",
+                "error": "ล้มเหลวในการบันทึกการเปลี่ยนแปลง โปรดลองอีกครั้ง",
+                "markdown_help": "คุณสามารถใช้ Markdown formatting: **bold**, *italic*, [link](url), `code` เป็นต้น",
+                "html_help": "คุณสามารถใช้ HTML tags ต่อไปนี้: {tags}",
+                "text_help": "Plain text เท่านั้น ไม่อนุญาต HTML หรือ Markdown formatting"
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "คุณไม่มีสิทธิ์ในการดูหน้านี้",
+                "load_failed": "ล้มเหลวในการโหลด custom page"
             }
         }
     }

@@ -2910,6 +2910,58 @@
             }
         }
     },
+    "huseyinfiliz-custom-profile-page.json": {
+        "huseyinfiliz-custom-profile-page": {
+            "admin": {
+                "permissions": {
+                    "edit_own": "bd09561f0da1734974fd0944ab8086a9 bd09561f0da1734974fd0944ab8086a9",
+                    "moderate": "a864570aff76d254af505f600b731154 a864570aff76d254af505f600b731154",
+                    "view": "9d2fb152fd1f4e31b8b6498429290583 9d2fb152fd1f4e31b8b6498429290583"
+                },
+                "settings": {
+                    "allowed_html_tags": "8978c76b8ba2ffe62debedeb21ed4864 8978c76b8ba2ffe62debedeb21ed4864",
+                    "allowed_html_tags_help": "8205aac9dd20b60310ea0cd185eb9a2b 8205aac9dd20b60310ea0cd185eb9a2b",
+                    "content_format": "b05b24cdc297f337f14fa8d8b1539208 b05b24cdc297f337f14fa8d8b1539208",
+                    "default_template": "b20a34a9b71652867b74db4fdeeea224 b20a34a9b71652867b74db4fdeeea224",
+                    "default_template_help": "eec1d34be0234af191280a2207496a44 eec1d34be0234af191280a2207496a44",
+                    "enable_media_embeds": "5d451af166cd6ecb689893154c4e5810 5d451af166cd6ecb689893154c4e5810",
+                    "enable_media_embeds_help": "8795595bea228fed180a74299df5c43d 8795595bea228fed180a74299df5c43d",
+                    "format_html": "4c4ad5fca2e7a3f74dbb1ced00381aa4 4c4ad5fca2e7a3f74dbb1ced00381aa4",
+                    "format_markdown": "2182a74bab7188d959e795d9301e87ff 2182a74bab7188d959e795d9301e87ff",
+                    "format_text": "7d29a1005b8305b8c292c9d53fa83510 7d29a1005b8305b8c292c9d53fa83510",
+                    "tab_icon": "faffc06a012bc1603876ed3b2dfd5b5e faffc06a012bc1603876ed3b2dfd5b5e",
+                    "tab_icon_help": "37fbbac853a8a5a7d05bd327eea876a2 37fbbac853a8a5a7d05bd327eea876a2",
+                    "tab_title": "c5836f0af798734ad735e8884dc130dc c5836f0af798734ad735e8884dc130dc",
+                    "url_slug": "2a2d104625052f52fa1b8809e4bba0ba 2a2d104625052f52fa1b8809e4bba0ba",
+                    "url_slug_help": "874df81af4dfd8912290be2b3554b8d7 874df81af4dfd8912290be2b3554b8d7"
+                }
+            },
+            "forum": {
+                "edit_modal": {
+                    "content_label": "c17179825ab79e70cfd1c8337afb3d46 c17179825ab79e70cfd1c8337afb3d46",
+                    "content_placeholder": "5f1d135943a30d5cd89faed4b070ade2 5f1d135943a30d5cd89faed4b070ade2",
+                    "error": "63aea21e251fb1136bece0655e8c9d11 63aea21e251fb1136bece0655e8c9d11",
+                    "html_help": "c1022bcfcf9efd8e798295d0702d69d4 c1022bcfcf9efd8e798295d0702d69d4",
+                    "markdown_help": "c30e0e677854f4ff35b885b78b771a58 c30e0e677854f4ff35b885b78b771a58",
+                    "submit_button": "dc4c3b90b02a0248aae83e7a3c568735 dc4c3b90b02a0248aae83e7a3c568735",
+                    "text_help": "f78d74b3165f9b5b6e7e6150114375b8 f78d74b3165f9b5b6e7e6150114375b8",
+                    "title": "5d03a5c1bf55a889a1c33875e2d55bcd 5d03a5c1bf55a889a1c33875e2d55bcd"
+                },
+                "errors": {
+                    "load_failed": "a9a96f5d28c1f6c4c18fda0adf51af0a a9a96f5d28c1f6c4c18fda0adf51af0a",
+                    "permission_denied": "524ae1dd4f96699e6635bf3a9ff9f1f7 524ae1dd4f96699e6635bf3a9ff9f1f7"
+                },
+                "profile_tab": {
+                    "cancel_button": "3864f71de6594af43d13b4f6a480fc88 3864f71de6594af43d13b4f6a480fc88",
+                    "edit_button": "9e6f3fcf1c963815c163e3e22f76add1 9e6f3fcf1c963815c163e3e22f76add1",
+                    "empty_other": "05cb7b0d995bd03c159bf7889bb51579 05cb7b0d995bd03c159bf7889bb51579",
+                    "empty_own": "2e9fc3a06c131fcf9388d34319aa35a4 2e9fc3a06c131fcf9388d34319aa35a4",
+                    "loading": "def064b13b9bb2414e360f0ad32bbe8f def064b13b9bb2414e360f0ad32bbe8f",
+                    "save_button": "c7668f262e2547f1d3687d6f3ce0957a c7668f262e2547f1d3687d6f3ce0957a"
+                }
+            }
+        }
+    },
     "huseyinfiliz-notificationhub.json": {
         "huseyinfiliz-notificationhub": {
             "admin": {

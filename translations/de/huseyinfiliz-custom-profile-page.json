@@ -2,50 +2,50 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Titel der Registerkarte „Profil“",
+                "tab_icon": "Reitersymbol (FontAwesome-Klasse)",
+                "tab_icon_help": "Beispiele: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "URL-Slug",
+                "url_slug_help": "Der URL-Pfad für die benutzerdefinierte Seite (z. B. ergibt „customPage“ den Pfad /u/username/customPage). Verwende nur Buchstaben, Zahlen, Bindestriche und Unterstriche.",
+                "content_format": "Inhaltsformat",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Klartext",
+                "allowed_html_tags": "Zulässige HTML-Tags",
+                "allowed_html_tags_help": "Durch Kommas getrennte Liste der zulässigen HTML-Tags (z. B. b, i, u, strong, em, a). Nur diese Tags werden Benutzern angezeigt.",
+                "default_template": "Standardvorlage",
+                "default_template_help": "Dieser Inhalt wird automatisch im Editor angezeigt, wenn Benutzer zum ersten Mal ihre eigene Seite erstellen. Lasse das Feld leer, um einen leeren Editor zu erhalten.",
+                "enable_media_embeds": "Einbetten von Medien aktivieren",
+                "enable_media_embeds_help": "YouTube-Links werden automatisch in eingebettete Videoplayer umgewandelt. Ist diese Option deaktiviert, werden die Links als normale Textlinks angezeigt."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Eigene Profilseite bearbeiten",
+                "view": "Benutzerdefinierte Profilseiten anzeigen",
+                "moderate": "Benutzerdefinierte Profilseiten moderieren (Seite eines beliebigen Benutzers bearbeiten)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Wird geladen...",
+                "empty_own": "Es sieht so aus, als hättest du deine benutzerdefinierte Seite noch nicht erstellt.",
+                "empty_other": "Es sieht so aus, als gäbe es hier keinen Inhalt.",
+                "edit_button": "Seite bearbeiten",
+                "save_button": "Speichern",
+                "cancel_button": "Abbrechen"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Benutzerdefinierte Profilseite bearbeiten",
+                "content_label": "Inhalt",
+                "content_placeholder": "Gib hier deinen Text ein...",
+                "submit_button": "Änderungen speichern",
+                "error": "Änderungen konnten nicht gespeichert werden. Bitte versuche es erneut.",
+                "markdown_help": "Du kannst Markdown-Formatierungen verwenden: **Fettdruck**, *Kursivschrift*, [Link](URL), `Code` usw.",
+                "html_help": "Du kannst die folgenden HTML-Tags verwenden: {tags}",
+                "text_help": "Nur reiner Text. HTML- oder Markdown-Formatierungen sind nicht zulässig."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "Du hast keine Berechtigung, diese Seite anzuzeigen",
+                "load_failed": "Benutzerdefinierte Seite konnte nicht geladen werden"
             }
         }
     }
