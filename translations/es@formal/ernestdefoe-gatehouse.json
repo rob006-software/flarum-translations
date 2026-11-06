@@ -1,88 +1,88 @@
 {
     "ernestdefoe-gatehouse": {
         "forum": {
-            "notice_pending": "",
-            "notice_declined": "",
-            "notification": "",
-            "optional": "",
-            "notify_applicant_label": "",
+            "notice_pending": "¡Gracias por registrarse! Su cuenta debe ser aprobada antes de poder publicar. Le enviaremos un correo electrónico cuando esto suceda.",
+            "notice_declined": "Su cuenta no fue aprobada, por lo que no se puede participar en el foro.",
+            "notification": "{name} se ha registrado y está esperando su aprobación",
+            "optional": "opcional",
+            "notify_applicant_label": "Alguien se registra y espera mi aprobación",
             "applicants": {
-                "title": "",
-                "link": "",
-                "not_allowed": ""
+                "title": "Solicitantes",
+                "link": "Solicitantes",
+                "not_allowed": "No tiene permiso para aprobar solicitantes."
             }
         },
         "admin": {
-            "queue_heading": "",
-            "permission_decide": "",
-            "rules_heading": "",
-            "enabled": "",
-            "enabled_help": "",
-            "allow": "",
-            "allow_help": "",
-            "deny": "",
-            "deny_help": "",
-            "usernames_heading": "",
-            "reserved_usernames": "",
-            "reserved_usernames_help": "",
-            "reserved_usernames_placeholder": "",
-            "question_heading": "",
-            "question": "",
-            "question_help": "",
-            "question_placeholder": "",
-            "question_required": "",
-            "question_required_help": "",
-            "messages_heading": "",
-            "held_message": "",
-            "held_message_help": "",
-            "declined_message": "",
-            "declined_message_help": ""
+            "queue_heading": "Pendientes de aprobación",
+            "permission_decide": "Aprobar y rechazar solicitantes",
+            "rules_heading": "Reglas",
+            "enabled": "Retener nuevos registros para aprobación",
+            "enabled_help": "Los miembros existentes no se ven afectados. Los usuarios creados manualmente por administradores no se retienen.",
+            "allow": "Permitir acceso automático a estos patrones",
+            "allow_help": "Un patrón por línea: un dominio (uni-freiburg.de, incluye subdominios), dominio exacto (@staff.example.org), extensión (.edu), comodín (*@example.com) o expresión regular entre barras. Todos los demás esperarán aprobación. Déjelo en blanco para aprobar cada registro manualmente.",
+            "deny": "Rechazar automáticamente estos patrones",
+            "deny_help": "Mismos patrones. Las direcciones que coincidan no podrán registrarse y el formulario lo indicará.",
+            "usernames_heading": "Nombres de usuario",
+            "reserved_usernames": "Nombres de usuario reservados",
+            "reserved_usernames_help": "Uno por línea. Solo los administradores podrán usarlos al registrarse o al cambiar de nombre. No distingue mayúsculas de minúsculas. Use * como comodín (admin*, *moderador*) o expresiones regulares entre barras. Funciona independientemente de si la aprobación de registros está activa.",
+            "reserved_usernames_placeholder": "admin*\nmoderador\nsoporte\n*oficial*",
+            "question_heading": "Pregunta de registro",
+            "question": "Hacer una pregunta a los solicitantes",
+            "question_help": "Se muestra en el formulario de registro y podrá leer la respuesta en la cola de aprobación, notificaciones y correos. Pregunte lo que le ayude a decidir: motivo de ingreso, código de estudiante o quién lo invitó. Déjelo en blanco para no preguntar nada.",
+            "question_placeholder": "¿Por qué le gustaría unirse al foro?",
+            "question_required": "Obligatorio responder para los solicitantes",
+            "question_required_help": "Solo las direcciones en espera de aprobación deben responder. Las direcciones de confianza acceden directamente y pueden dejarlo en blanco.",
+            "messages_heading": "Correos electrónicos",
+            "held_message": "Texto adicional para solicitantes en espera",
+            "held_message_help": "Se añade al correo de «hemos recibido su solicitud». Indique lo que requiere de ellos; por ejemplo: responda con su número de estudiante.",
+            "declined_message": "Texto adicional para solicitantes rechazados",
+            "declined_message_help": "Se añade al correo enviado al rechazar una cuenta. Déjelo en blanco para usar el mensaje estándar."
         },
         "lib": {
             "queue": {
-                "tab_pending": "",
-                "tab_declined": "",
-                "tab_approved": "",
-                "empty_pending": "",
-                "empty_declined": "",
-                "empty_approved": "",
-                "signed_up": "",
-                "approved_by": "",
-                "declined_by": "",
-                "answer": "",
-                "approve": "",
-                "decline": "",
-                "load_more": ""
+                "tab_pending": "Pendientes",
+                "tab_declined": "Rechazados",
+                "tab_approved": "Aprobados",
+                "empty_pending": "No hay solicitudes pendientes.",
+                "empty_declined": "No hay solicitudes rechazadas.",
+                "empty_approved": "Aún no se ha aprobado a nadie mediante Gatehouse.",
+                "signed_up": "Registrado",
+                "approved_by": "Aprobado por {name}",
+                "declined_by": "Rechazado por {name}",
+                "answer": "Su respuesta",
+                "approve": "Aprobar",
+                "decline": "Rechazar",
+                "load_more": "Cargar más"
             },
-            "refused": "",
-            "username_reserved": "",
-            "signin_pending": "",
-            "reason_required": "",
-            "signin_declined": ""
+            "refused": "No se aceptan registros desde esta dirección de correo electrónico en este foro.",
+            "username_reserved": "Ese nombre de usuario no está disponible. Por favor, elija otro.",
+            "signin_pending": "Su cuenta está en espera de aprobación. Le notificaremos por correo electrónico cuando esté lista.",
+            "reason_required": "Por favor, responda a esta pregunta para que su cuenta pueda ser aprobada.",
+            "signin_declined": "Esta cuenta no fue aprobada, por lo que no se puede utilizar en este foro."
         },
         "email": {
             "held": {
-                "subject": "",
-                "body": ""
+                "subject": "Su cuenta en {forum} está pendiente de aprobación",
+                "body": "Gracias por registrarse en {forum}. Las cuentas nuevas se revisan manualmente, por lo que un administrador analizará la suya en breve. Recibirá otro correo electrónico en cuanto sea procesada.\n\n{message}\n"
             },
             "approved_activate": {
-                "subject": "",
-                "body": ""
+                "subject": "Bienvenido a {forum}: su cuenta ha sido aprobada",
+                "body": "Su cuenta en {forum} ha sido aprobada. Confirme su dirección de correo electrónico mediante el siguiente enlace para acceder:\n\n{url}\n"
             },
             "approved": {
-                "subject": "",
-                "body": ""
+                "subject": "Bienvenido a {forum}: su cuenta ha sido aprobada",
+                "body": "Su cuenta en {forum} ha sido aprobada. Ya puede iniciar sesión:\n\n{url}\n"
             },
             "declined": {
-                "subject": "",
-                "body": ""
+                "subject": "Su cuenta en {forum}",
+                "body": "Gracias por su interés en {forum}. Su cuenta no fue aprobada, por lo que no se puede utilizar para iniciar sesión.\n\n{message}\n"
             },
             "admin_new": {
-                "subject": "",
-                "body": "",
-                "answer_to": "",
-                "answer": "",
-                "button": ""
+                "subject": "{applicant} está esperando para unirse a {forum}",
+                "body": "{applicant} ({email}) se ha registrado y está en espera de aprobación.",
+                "answer_to": "Su respuesta a «{question}»:",
+                "answer": "Escribió:",
+                "button": "Aprobar o rechazar solicitud"
             }
         }
     }
