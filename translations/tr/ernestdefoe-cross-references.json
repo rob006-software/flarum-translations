@@ -2,37 +2,37 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "mentions": "",
-                "capped_notice": ""
+                "heading": "{count, plural, one {# tartışmada} other {# tartışmada}} referans verildi",
+                "load_error": "Referanslar yüklenemedi.",
+                "by_user": "{username} tarafından",
+                "mentions": "{count, plural, one {# bahsetme} other {# bahsetme}}",
+                "capped_notice": "En son 50 sonuç gösteriliyor."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "{username} buna {ref} üzerinden referans verdi.",
+                "post_specific": " (belirli ileti)"
             },
             "notification": {
-                "text": ""
+                "text": "Tartışmanıza {discussion} üzerinden referans verdi"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "İleti # — çapraz referansı kopyalamak için tıklayın ({ref})",
+                "copied": "{ref} panoya kopyalandı.",
+                "copy_failed": "Kopyalanamadı. Referans: {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Hedef tartışmalarda geri bağlantı iletileri oluştur",
+                "create_backlinks_help": "Bir ileti başka bir tartışmaya referans verdiğinde, hedef tartışmaya referans vereni gösteren küçük bir sistem iletisi ekleyin. Hedef tartışmaların sakin kalmasını tercih eden forumlar için devre dışı bırakın.",
+                "notify_author_label": "Hedef tartışmanın yazarına bildirim gönder",
+                "notify_author_help": "Referans verilen tartışmanın yazarına uygulama içi bildirim gönderin. Kullanıcının kendi iletileri için kendisine bildirim gönderilmez."
             }
         },
         "api": {
-            "invalid_discussion_id": "",
-            "not_found": "",
-            "unexpected_error": ""
+            "invalid_discussion_id": "Geçersiz tartışma kimliği",
+            "not_found": "Bulunamadı",
+            "unexpected_error": "Beklenmeyen bir hata oluştu."
         }
     }
 }
