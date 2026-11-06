@@ -362,7 +362,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.11/resources/locale/en.yml',
 	],
 	'ernestdefoe-quickdraw' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.6/locale/en.yml',
 	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.3.2/locale/en.yml',
