@@ -1108,6 +1108,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`huseyinfiliz-author-moderation`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-author-moderation) | [`huseyinfiliz/author-moderation`](https://github.com/huseyinfiliz/author-moderation) |
 | [`huseyinfiliz-awards`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-awards) | [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) |
 | [`huseyinfiliz-bump`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-bump) | [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) |
+| [`huseyinfiliz-custom-profile-page`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-custom-profile-page) | [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) |
 | [`huseyinfiliz-discussion-ban`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-discussion-ban) | [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban) |
 | [`huseyinfiliz-diff`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-diff) | [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) |
 | [`huseyinfiliz-language-detection`](https://weblate.rob006.net/projects/flarum2/huseyinfiliz-language-detection) | [`huseyinfiliz/language-detection`](https://github.com/huseyinfiliz/language-detection) |
