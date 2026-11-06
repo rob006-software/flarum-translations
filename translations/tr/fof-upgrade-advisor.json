@@ -2,14 +2,14 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "ready": "",
-                "blocked": "",
-                "tasks": "",
-                "unchecked_only": "",
+                "ready": "Flarum {version} için hazır",
+                "blocked": "Engellendi: {reasons}",
+                "tasks": "{count, plural, one {# görev tamamlandığında hazır} other {# görev tamamlandığında hazır}}",
+                "unchecked_only": "Neredeyse hazır: {count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi",
                 "reasons": {
-                    "no_path": "",
-                    "check": "",
-                    "unchecked": ""
+                    "no_path": "{count, plural, one {# uzantının} other {# uzantının}} 2.0'a geçiş yolu yok",
+                    "check": "{title} için düzeltme gerekiyor",
+                    "unchecked": "{count, plural, one {# uzantı} other {# uzantı}} kontrol edilemedi"
                 },
                 "subtitle": "Flarum {version} sürümüne yükseltme hazırlığı.",
                 "pass": "Forumunuz Flarum {version} sürümü için hazır görünüyor",
@@ -19,7 +19,7 @@
             "checks": {
                 "php-version": {
                     "title": "PHP sürümü",
-                    "chip": "",
+                    "chip": "PHP {current}",
                     "pass": "PHP {current} ile çalıştırılıyor.",
                     "warning": "PHP sürümü belirlenemedi.",
                     "fail": "PHP {current} sürümü kurulu, ancak {required} veya daha yeni bir sürüm gerekiyor."
@@ -60,8 +60,8 @@
                 "abandoned_replacement_not_ready": "Terk edilmiş, önerilen {replacement} uzantısı henüz 2.0'a hazır değil"
             },
             "summary": {
-                "progress": "",
-                "ready": "",
+                "progress": "Uzantıların %{percent} kadarı hazır",
+                "ready": "{count} değişiklik gerektirmeden hazır",
                 "tasks": "",
                 "blocked": "",
                 "unknown": "",
