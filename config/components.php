@@ -1275,6 +1275,12 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.5.1/resources/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
+	'tapao-org-member-directory' => [
+		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/Org-Member-Directory/2.1.9/locale/en.yml',
+		'__builtInLanguages' => [
+			'th',
+		],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.3/resources/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
