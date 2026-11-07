@@ -2,32 +2,32 @@
     "ernestdefoe-hashtags": {
         "forum": {
             "nav": {
-                "browse": ""
+                "browse": "Etiketler"
             },
             "page": {
-                "meta": "",
-                "browse_all": "",
-                "empty": ""
+                "meta": "{posts, plural, one {{discussions, plural, one {# tartışmada # ileti} other {# tartışmada # ileti}}} other {{discussions, plural, one {# tartışmada # ileti} other {# tartışmada # ileti}}}}",
+                "browse_all": "Tüm etiketlere göz at",
+                "empty": "Henüz #{name} ile bir ileti paylaşılmadı — ya da görüntüleyebileceğiniz bir ileti yok."
             },
             "browse": {
-                "title": "",
-                "lede": "",
-                "search_placeholder": "",
-                "sort_popular": "",
-                "sort_recent": "",
-                "sort_alphabetical": "",
-                "empty": "",
-                "no_matches": ""
+                "title": "Etiketler",
+                "lede": "Herkes bir etiket oluşturabilir. Herhangi bir iletide `#` işaretinin ardından bir kelime yazın.",
+                "search_placeholder": "Etiket ara…",
+                "sort_popular": "En çok kullanılanlar",
+                "sort_recent": "Son kullanılanlar",
+                "sort_alphabetical": "A–Z",
+                "empty": "Henüz etiket yok. Bir etiket oluşturmak için bir iletide `#` işaretinin ardından bir kelime yazın.",
+                "no_matches": "Bununla eşleşen etiket yok."
             },
             "composer": {
-                "post_count": ""
+                "post_count": "{count, plural, one {# ileti} other {# ileti}}"
             }
         },
         "admin": {
             "backfill": {
-                "heading": "",
-                "body": "",
-                "help": ""
+                "heading": "Mevcut iletiler",
+                "body": "Hashtags kurulmadan önce yazılan iletiler, etiket bağlantıları olmadan saklanır; bu nedenle yeniden ayrıştırılana kadar hiçbir akışta görünmezler. Flarum dizininizden bu komutu bir kez çalıştırın:",
+                "help": "Kaç iletinin değişeceğini görmek için önce --dry-run ekleyin. Yalnızca gerçekten etiket içeren iletiler yeniden yazılır; diğerlerinin tümü okunur ve atlanır."
             }
         }
     }
