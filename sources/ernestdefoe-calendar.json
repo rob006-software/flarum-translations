@@ -125,7 +125,10 @@
             "start_required": "A valid start date/time is required.",
             "end_before_start": "The end must be after the start.",
             "category_name_required": "The category name is required.",
-            "discussion_needs_tag": "Event discussions need a tag. An admin can choose one in the Calendar settings."
+            "discussion_needs_tag": "Event discussions need a tag. An admin can choose one in the Calendar settings.",
+            "discussion_author_not_found": "There is no account with the username or user ID “{name}”.",
+            "discussion_author_cannot_start": "{account} isn't allowed to start discussions. Give one of its groups “Start discussions” under Admin → Permissions.",
+            "discussion_author_cannot_start_in_tags": "{account} isn't allowed to start discussions in {tags}. Give one of its groups “View discussions” and “Start discussions” in that tag under Admin → Permissions. “Start discussions without approval” only lets its discussions skip the approval queue; it doesn't let the account start them."
         },
         "lib": {
             "widgets": {
@@ -160,7 +163,7 @@
             "event_discussions": "Give every new event its own discussion",
             "event_discussions_help": "Replies, likes, mentions and notifications then work exactly like any other discussion. Events made before this was on get a “Start a discussion” button for their organizer.",
             "event_discussion_author": "Post event discussions as",
-            "event_discussion_author_help": "A username or user ID, such as a bot account. That account needs permission to start discussions in the tags below, and the post names the event's organizer. Leave it empty to post as the member who made the event.",
+            "event_discussion_author_help": "A username or user ID, such as a bot account. That account needs “Start discussions” in the tags below (“Start discussions without approval” alone isn't enough), and the post names the event's organizer. Leave it empty to post as the member who made the event.",
             "event_discussion_author_placeholder": "The member who made the event",
             "event_discussion_tags": "Tag event discussions with",
             "event_discussion_tags_help": "Choose at least one — every new discussion on a forum with tags needs a tag. The account that posts must be allowed to start discussions in it.",
