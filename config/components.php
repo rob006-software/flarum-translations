@@ -858,6 +858,12 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FoskyM/flarum-sorts-for-user-directory/v0.3.2/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'fruiter-ai-moderation' => [
+		'tag' => 'https://raw.githubusercontent.com/CNFruiter/flarum-ai-moderation/v1.1.1/locale/en.yml',
+		'__builtInLanguages' => [
+			'zh_Hans',
+		],
+	],
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.9/resources/locale/en.yml',
 	],
