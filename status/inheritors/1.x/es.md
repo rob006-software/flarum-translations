@@ -2,8 +2,8 @@
 
 Translations for Spanish (`es`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **2** are translated differently and **422** are
-translated only in `es`. Altogether they cover **6** components.
+sides, but do not match between them: **25** are translated differently and **608** are
+translated only in `es`. Altogether they cover **12** components.
 
 <!-- {% raw %} -->
 
@@ -12,17 +12,37 @@ translated only in `es`. Altogether they cover **6** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
+| `clarkwinkelmann-likes-received` | [1](#clarkwinkelmann-likes-received) | [1](#clarkwinkelmann-likes-received-missing) |
+| `datitisev-post-galleries` | 0 | [1](#datitisev-post-galleries-missing) |
 | `ffans-threadmarks` | 0 | [89](#ffans-threadmarks-missing) |
 | `flectar-turnstile` | 0 | [12](#flectar-turnstile-missing) |
 | `fof-anti-spam` | 0 | [60](#fof-anti-spam-missing) |
 | `fof-author-change` | 0 | [14](#fof-author-change-missing) |
+| `fof-badges` | 0 | [26](#fof-badges-missing) |
+| `huseyinfiliz-leaderboard` | 0 | [75](#huseyinfiliz-leaderboard-missing) |
+| `linkrobins-discussion-banners` | 0 | [55](#linkrobins-discussion-banners-missing) |
 | `pianotell-flamoji` | [2](#pianotell-flamoji) | [72](#pianotell-flamoji-missing) |
 | `walsgit-discussion-cards` | 0 | [175](#walsgit-discussion-cards-missing) |
+| `walsgit-recycle-bin` | [22](#walsgit-recycle-bin) | [28](#walsgit-recycle-bin-missing) |
 
 
 ## Different translations
 
 Each entry contains the English source string, followed by a diff between the translation from Flarum 1.x (`-` line) and the translation from `es` (`+` line). Changed words are additionally marked as <del>removed</del> and <ins>added</ins> below the diff.
+
+
+### `clarkwinkelmann-likes-received`
+
+#### [`clarkwinkelmann-likes-received.admin.permission.view`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-likes-received/es/?q=context%3A%3D%22clarkwinkelmann-likes-received.admin.permission.view%22)
+
+> View likes received
+
+```diff
+-Ver me gusta recibidos
++Ver «Me gusta» recibidos
+```
+
+Ver <del>me</del><ins>«Me</ins> <del>gusta</del><ins>gusta»</ins> recibidos
 
 
 ### `pianotell-flamoji`
@@ -46,9 +66,270 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 
+### `walsgit-recycle-bin`
+
+#### [`walsgit-recycle-bin.admin.bulk_actions`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.bulk_actions%22)
+
+> Actions for selected discussions : 
+
+```diff
+-Acciones para discusiones seleccionadas: 
++Acciones para las discusiones seleccionadas: 
+```
+
+Acciones para <ins>las </ins>discusiones seleccionadas: 
+
+#### [`walsgit-recycle-bin.admin.bulk_post_actions`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.bulk_post_actions%22)
+
+> Actions for selected posts : 
+
+```diff
+-Acciones para publicaciones seleccionadas: 
++Acciones para las publicaciones seleccionadas: 
+```
+
+Acciones para <ins>las </ins>publicaciones seleccionadas: 
+
+#### [`walsgit-recycle-bin.admin.created_at`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.created_at%22)
+
+> Created at
+
+```diff
+-Creada el
++Creado el
+```
+
+<del>Creada</del><ins>Creado</ins> el
+
+#### [`walsgit-recycle-bin.admin.delete_discussion.confirmation`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_discussion.confirmation%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; this discussion (irreversible):
+
+```diff
+-¿Estás seguro de que quieres <u>eliminar para siempre</u> esta discusión? (es irreversible)
++¿Está seguro de que desea <u>eliminar de forma permanente</u> esta discusión (acción irreversible):
+```
+
+<del>¿Estás</del><ins>¿Está</ins> seguro de que <del>quieres</del><ins>desea</ins> &lt;u&gt;eliminar <del>para</del><ins>de</ins> <del>siempre&lt;/u&gt;</del><ins>forma permanente&lt;/u&gt;</ins> esta <del>discusión?</del><ins>discusión</ins> <del>(es</del><ins>(acción</ins> <del>irreversible)</del><ins>irreversible):</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_discussion.delete_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_discussion.delete_button%22)
+
+> Forever delete this discussion
+
+```diff
+-Eliminar esta discusión para siempre
++Eliminar de forma permanente esta discusión
+```
+
+Eliminar <del>esta</del><ins>de</ins> <del>discusión</del><ins>forma</ins> <del>para</del><ins>permanente</ins> <del>siempre</del><ins>esta discusión</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_discussion.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_discussion.success%22)
+
+> Successfully deleted the discussion
+
+```diff
+-Se eliminó la discusión con éxito
++Discusión eliminada correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.delete_discussion.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_discussion.title%22)
+
+> Delete forever
+
+```diff
+-Eliminar para siempre
++Eliminar de forma permanente
+```
+
+Eliminar <del>para</del><ins>de</ins> <del>siempre</del><ins>forma permanente</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_post.confirmation`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_post.confirmation%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; this post (irreversible):
+
+```diff
+-¿Estás seguro de que quieres <u>eliminar para siempre</u> esta publicación? (es irreversible)
++¿Está seguro de que desea <u>eliminar de forma permanente</u> esta publicación (acción irreversible):
+```
+
+<del>¿Estás</del><ins>¿Está</ins> seguro de que <del>quieres</del><ins>desea</ins> &lt;u&gt;eliminar <del>para</del><ins>de</ins> <del>siempre&lt;/u&gt;</del><ins>forma permanente&lt;/u&gt;</ins> esta <del>publicación?</del><ins>publicación</ins> <del>(es</del><ins>(acción</ins> <del>irreversible)</del><ins>irreversible):</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_post.delete_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_post.delete_button%22)
+
+> Forever delete this post
+
+```diff
+-Eliminar esta publicación para siempre
++Eliminar de forma permanente esta publicación
+```
+
+Eliminar <del>esta</del><ins>de</ins> <del>publicación</del><ins>forma</ins> <del>para</del><ins>permanente</ins> <del>siempre</del><ins>esta publicación</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_post.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_post.success%22)
+
+> Successfully deleted the post
+
+```diff
+-Se eliminó la publicación correctamente
++Publicación eliminada correctamente
+```
+
+<del>Se eliminó la</del><ins>Publicación</ins> <del>publicación</del><ins>eliminada</ins> correctamente
+
+#### [`walsgit-recycle-bin.admin.delete_post.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_post.title%22)
+
+> Delete forever
+
+```diff
+-Eliminar para siempre
++Eliminar de forma permanente
+```
+
+Eliminar <del>para</del><ins>de</ins> <del>siempre</del><ins>forma permanente</ins>
+
+#### [`walsgit-recycle-bin.admin.delete_post_tooltip`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.delete_post_tooltip%22)
+
+> Delete post #{postId}
+
+```diff
+-Eliminar publicación
++Eliminar publicación n.º {postId}
+```
+
+Eliminar publicación<ins> n.º {postId}</ins>
+
+#### [`walsgit-recycle-bin.admin.hidden_at`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.hidden_at%22)
+
+> Hidden at
+
+```diff
+-Oculta el
++Ocultado el
+```
+
+<del>Oculta</del><ins>Ocultado</ins> el
+
+#### [`walsgit-recycle-bin.admin.mass_restore_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_modal.text_start%22)
+
+> Are you sure you want to restore these 
+
+```diff
+-¿Estás seguro de que quieres restaurar estas? 
++¿Está seguro de que desea restaurar las 
+```
+
+<del>¿Estás</del><ins>¿Está</ins> seguro de que <del>quieres</del><ins>desea</ins> restaurar <del>estas?</del><ins>las</ins> 
+
+#### [`walsgit-recycle-bin.admin.posts_bin`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.posts_bin%22)
+
+> Posts Bin
+
+```diff
+-Papelera de Publicaciones
++Papelera de publicaciones
+```
+
+Papelera de <del>Publicaciones</del><ins>publicaciones</ins>
+
+#### [`walsgit-recycle-bin.admin.restore_discussion.confirmation`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.restore_discussion.confirmation%22)
+
+> Are you sure you want to restore this discussion:
+
+```diff
+-¿Estás seguro de que quieres restaurar esta discusión?
++¿Está seguro de que desea restaurar esta discusión:
+```
+
+<del>¿Estás</del><ins>¿Está</ins> seguro de que <del>quieres</del><ins>desea</ins> restaurar esta <del>discusión?</del><ins>discusión:</ins>
+
+#### [`walsgit-recycle-bin.admin.restore_discussion.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.restore_discussion.success%22)
+
+> Successfully restored the discussion
+
+```diff
+-Se restableció la discusión con éxito
++Discusión restaurada correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.restore_post.confirmation`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.restore_post.confirmation%22)
+
+> Are you sure you want to restore this post from the discussion 
+
+```diff
+-¿Estás seguro de que quieres restaurar esta publicación de la discusión? 
++¿Está seguro de que desea restaurar esta publicación de la discusión 
+```
+
+<del>¿Estás</del><ins>¿Está</ins> seguro de que <del>quieres</del><ins>desea</ins> restaurar esta publicación de la <del>discusión?</del><ins>discusión</ins> 
+
+#### [`walsgit-recycle-bin.admin.restore_post.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.restore_post.success%22)
+
+> Successfully restored the post
+
+```diff
+-Se restauró la publicación con éxito
++Publicación restaurada correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.restore_post_tooltip`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.restore_post_tooltip%22)
+
+> Restore post #{postId}
+
+```diff
+-Restaurar publicación
++Restaurar publicación n.º {postId}
+```
+
+Restaurar publicación<ins> n.º {postId}</ins>
+
+#### [`walsgit-recycle-bin.admin.search_help_text`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.search_help_text%22)
+
+> Searches for words in titles as well as in the messages of the discussions
+
+```diff
+-Búsquedas de palabras en los títulos y en los mensajes de las discusiones
++Busca palabras tanto en los títulos como en el contenido de las discusiones
+```
+
+<del>Búsquedas de</del><ins>Busca</ins> palabras<ins> tanto</ins> en los títulos <del>y</del><ins>como</ins> en <del>los</del><ins>el</ins> <del>mensajes</del><ins>contenido</ins> de las discusiones
+
+#### [`walsgit-recycle-bin.admin.search_post_help_text`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.search_post_help_text%22)
+
+> Searches for words in the hidden posts
+
+```diff
+-Búsquedas de palabras en las publicaciones ocultas
++Busca palabras dentro de las publicaciones ocultas
+```
+
+<del>Búsquedas de</del><ins>Busca</ins> palabras <del>en</del><ins>dentro de</ins> las publicaciones ocultas
+
+
 ## Missing translations
 
 These strings are translated only in `es`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `es`.
+
+
+### `clarkwinkelmann-likes-received` (missing)
+
+#### [`clarkwinkelmann-likes-received.forum.user-card.likes`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-likes-received/es/?q=context%3A%3D%22clarkwinkelmann-likes-received.forum.user-card.likes%22)
+
+> {likes, plural, one {# like received} other {# likes received}}
+
+```diff
++{likes, plural, one {# «Me gusta» recibido} other {# «Me gusta» recibidos}}
+```
+
+
+### `datitisev-post-galleries` (missing)
+
+#### [`datitisev-post-galleries.admin.settings.swiper_zoom`](https://weblate.rob006.net/translate/flarum2/datitisev-post-galleries/es/?q=context%3A%3D%22datitisev-post-galleries.admin.settings.swiper_zoom%22)
+
+> Enable Swiper zoom module
+
+```diff
++Activar el módulo zoom de Swiper
+```
 
 
 ### `ffans-threadmarks` (missing)
@@ -1470,6 +1751,1263 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +Escriba al menos 3 caracteres para buscar
+```
+
+
+### `fof-badges` (missing)
+
+#### [`fof-badges.defaults.badges.active-member.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.active-member.description%22)
+
+> Post 50 replies
+
+```diff
++Publicar 50 respuestas
+```
+
+#### [`fof-badges.defaults.badges.active-member.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.active-member.name%22)
+
+> Active Member
+
+```diff
++Miembro activo
+```
+
+#### [`fof-badges.defaults.badges.anniversary.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.anniversary.description%22)
+
+> Be a member for one year
+
+```diff
++Miembro por un año
+```
+
+#### [`fof-badges.defaults.badges.anniversary.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.anniversary.name%22)
+
+> Anniversary
+
+```diff
++Aniversario
+```
+
+#### [`fof-badges.defaults.badges.conversation-starter.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.conversation-starter.description%22)
+
+> Start your first discussion
+
+```diff
++Iniciar primera discusión
+```
+
+#### [`fof-badges.defaults.badges.conversation-starter.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.conversation-starter.name%22)
+
+> Conversation Starter
+
+```diff
++Iniciador de conversaciones
+```
+
+#### [`fof-badges.defaults.badges.editor.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.editor.description%22)
+
+> Edit 10 posts to improve them
+
+```diff
++Editar 10 publicaciones para mejorarlas
+```
+
+#### [`fof-badges.defaults.badges.editor.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.editor.name%22)
+
+> Editor
+
+```diff
++Editor
+```
+
+#### [`fof-badges.defaults.badges.first-post.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.first-post.description%22)
+
+> Write your first reply
+
+```diff
++Escribir primera respuesta
+```
+
+#### [`fof-badges.defaults.badges.first-post.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.first-post.name%22)
+
+> First Post
+
+```diff
++Primera publicación
+```
+
+#### [`fof-badges.defaults.badges.first-week.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.first-week.description%22)
+
+> Be a member for 7 days
+
+```diff
++Miembro por 7 días
+```
+
+#### [`fof-badges.defaults.badges.first-week.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.first-week.name%22)
+
+> First Week
+
+```diff
++Primera semana
+```
+
+#### [`fof-badges.defaults.badges.profile-picture.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.profile-picture.description%22)
+
+> Upload a profile picture
+
+```diff
++Subir una imagen de perfil
+```
+
+#### [`fof-badges.defaults.badges.profile-picture.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.profile-picture.name%22)
+
+> Profile Picture
+
+```diff
++Imagen de perfil
+```
+
+#### [`fof-badges.defaults.badges.prolific.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.prolific.description%22)
+
+> Post 200 replies
+
+```diff
++Publicar 200 respuestas
+```
+
+#### [`fof-badges.defaults.badges.prolific.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.prolific.name%22)
+
+> Prolific
+
+```diff
++Prolífico
+```
+
+#### [`fof-badges.defaults.badges.regular.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.regular.description%22)
+
+> Be a member for 30 days
+
+```diff
++Miembro por 30 días
+```
+
+#### [`fof-badges.defaults.badges.regular.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.regular.name%22)
+
+> Regular
+
+```diff
++Habitual
+```
+
+#### [`fof-badges.defaults.badges.topic-starter.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.topic-starter.description%22)
+
+> Start 10 discussions
+
+```diff
++Empezar 10 discusiones
+```
+
+#### [`fof-badges.defaults.badges.topic-starter.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.badges.topic-starter.name%22)
+
+> Topic Starter
+
+```diff
++Creador de temas
+```
+
+#### [`fof-badges.defaults.categories.getting-started.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.getting-started.description%22)
+
+> Badges for new members taking their first steps
+
+```diff
++Insignias para los nuevos miembros en sus primeros pasos
+```
+
+#### [`fof-badges.defaults.categories.getting-started.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.getting-started.name%22)
+
+> Getting Started
+
+```diff
++Primeros pasos
+```
+
+#### [`fof-badges.defaults.categories.milestones.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.milestones.description%22)
+
+> Badges for reaching important milestones
+
+```diff
++Insignias por alcanzar hitos importantes
+```
+
+#### [`fof-badges.defaults.categories.milestones.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.milestones.name%22)
+
+> Milestones
+
+```diff
++Hitos
+```
+
+#### [`fof-badges.defaults.categories.posting.description`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.posting.description%22)
+
+> Badges for posting milestones and contributions
+
+```diff
++Insignias por hitos de publicación y contribuciones
+```
+
+#### [`fof-badges.defaults.categories.posting.name`](https://weblate.rob006.net/translate/flarum2/fof-badges/es/?q=context%3A%3D%22fof-badges.defaults.categories.posting.name%22)
+
+> Posting
+
+```diff
++Publicación
+```
+
+
+### `huseyinfiliz-leaderboard` (missing)
+
+#### [`huseyinfiliz-leaderboard.admin.modals.close`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.close%22)
+
+> Close
+
+```diff
++Cerrar
+```
+
+#### [`huseyinfiliz-leaderboard.admin.modals.none_selected`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.none_selected%22)
+
+> None selected
+
+```diff
++Ninguno seleccionado
+```
+
+#### [`huseyinfiliz-leaderboard.admin.modals.select_groups`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.select_groups%22)
+
+> Select Groups
+
+```diff
++Seleccionar grupos
+```
+
+#### [`huseyinfiliz-leaderboard.admin.modals.select_tags`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.modals.select_tags%22)
+
+> Select Tags
+
+```diff
++Seleccionar etiquetas
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.already_running`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.already_running%22)
+
+> A recalculation is already in progress. Please wait for it to finish.
+
+```diff
++Ya hay un recálculo en progreso. Por favor, espere a que finalice.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.excluded_groups_help`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.excluded_groups_help%22)
+
+> Users in selected groups will be excluded from the leaderboard.
+
+```diff
++Los usuarios de los grupos seleccionados quedarán excluidos de la tabla de clasificación.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.excluded_groups_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.excluded_groups_label%22)
+
+> Excluded Groups
+
+```diff
++Grupos excluidos
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.excluded_tags_help`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.excluded_tags_help%22)
+
+> Discussions with selected tags will not earn points.
+
+```diff
++Las discusiones con las etiquetas seleccionadas no otorgarán puntos.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.excluded_tags_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.excluded_tags_label%22)
+
+> Excluded Tags
+
+```diff
++Etiquetas excluidas
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.extension_not_enabled`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.extension_not_enabled%22)
+
+> This extension is not enabled.
+
+```diff
++Esta extensión no está activada.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.leaderboard_name_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.leaderboard_name_label%22)
+
+> Leaderboard Name
+
+```diff
++Nombre de la tabla de clasificación
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_badge_earned_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_badge_earned_label%22)
+
+> Points for earning a badge
+
+```diff
++Puntos por obtener una insignia
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_best_answer_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_best_answer_label%22)
+
+> Points for best answer
+
+```diff
++Puntos por mejor respuesta
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_changed_notice`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_changed_notice%22)
+
+> Point values have changed. Sync points to apply new values.
+
+```diff
++El valor de los puntos ha cambiado. Sincronice los puntos para aplicar los nuevos valores.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_daily_login_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_daily_login_label%22)
+
+> Points for daily login
+
+```diff
++Puntos por inicio de sesión diario
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_discussion_started_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_discussion_started_label%22)
+
+> Points for starting a discussion
+
+```diff
++Puntos por iniciar una discusión
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_downvote_received_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_downvote_received_label%22)
+
+> Points for receiving a downvote
+
+```diff
++Puntos por recibir un voto negativo
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_label_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_label_label%22)
+
+> Points Label
+
+```diff
++Etiqueta de puntos
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_like_given_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_like_given_label%22)
+
+> Points for giving a like
+
+```diff
++Puntos por dar un «Me gusta»
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_like_received_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_like_received_label%22)
+
+> Points for receiving a like
+
+```diff
++Puntos por recibir un «Me gusta»
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_post_created_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_post_created_label%22)
+
+> Points for posting a reply
+
+```diff
++Puntos por publicar una respuesta
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_reaction_given_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_reaction_given_label%22)
+
+> Points for giving a reaction
+
+```diff
++Puntos por dar una reacción
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_reaction_received_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_reaction_received_label%22)
+
+> Points for receiving a reaction
+
+```diff
++Puntos por recibir una reacción
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.points_upvote_received_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.points_upvote_received_label%22)
+
+> Points for receiving an upvote
+
+```diff
++Puntos por recibir un voto positivo
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_button`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_button%22)
+
+> Recalculate All Activity
+
+```diff
++Recalcular toda la actividad
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_confirm`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_confirm%22)
+
+> This will re-scan all source data and rebuild point records from scratch. This may take a while on large forums.
+
+```diff
++Se volverán a analizar los datos de origen y se reconstruirán los registros de puntos desde cero. Esto puede tardar unos minutos en foros grandes.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_failed`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_failed%22)
+
+> Recalculation failed. You can try again.
+
+```diff
++El cálculo ha fallado. Puede intentarlo de nuevo.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_help`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_help%22)
+
+> Re-scans all source data (discussions, posts, likes, etc.), removes orphaned records, adds missing ones, and rebuilds all totals. Use this after changing tag exclusions or if data seems out of sync.
+
+```diff
++Vuelve a analizar todos los datos de origen (discusiones, publicaciones, «Me gusta», etc.), elimina registros huérfanos, añade los faltantes y reconstruye los totales. Utilice esta opción tras cambiar exclusiones de etiquetas o si los datos parecen desincronizados.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_retry`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_retry%22)
+
+> Try Again
+
+```diff
++Reintentar
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_success`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_success%22)
+
+> All activity recalculated successfully.
+
+```diff
++Se ha recalculado toda la actividad correctamente.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_title`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_title%22)
+
+> Recalculate All Activity
+
+```diff
++Recalcular toda la actividad
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_points_warning`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_points_warning%22)
+
+> Do not close this page or navigate away while recalculation is in progress. The operation will fail if interrupted.
+
+```diff
++No cierre esta página ni navegue a otra sección mientras el cálculo esté en progreso. La operación fallará si se interrumpe.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_totals_button`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_totals_button%22)
+
+> Sync Points
+
+```diff
++Sincronizar puntos
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_totals_help`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_totals_help%22)
+
+> Recalculates all user point totals using current point values. Use this after changing point values.
+
+```diff
++Recalcula los totales de puntos de todos los usuarios utilizando los valores actuales. Utilice esta opción tras modificar el valor de los puntos.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_totals_success`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_totals_success%22)
+
+> Points synced successfully.
+
+```diff
++Puntos sincronizados correctamente.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.recalculate_totals_title`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.recalculate_totals_title%22)
+
+> Sync Points
+
+```diff
++Sincronizar puntos
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_badges`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_badges%22)
+
+> Badges
+
+```diff
++Insignias
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_best_answer`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_best_answer%22)
+
+> Best Answer
+
+```diff
++Mejor respuesta
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_core`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_core%22)
+
+> Core Points
+
+```diff
++Puntos principales
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_gamification`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_gamification%22)
+
+> Gamification
+
+```diff
++Gamificación
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_likes`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_likes%22)
+
+> Likes
+
+```diff
++Me gusta
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.section_reactions`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.section_reactions%22)
+
+> Reactions
+
+```diff
++Reacciones
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_badge_earned`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_badge_earned%22)
+
+> Scanning badges...
+
+```diff
++Analizando insignias...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_best_answer`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_best_answer%22)
+
+> Scanning best answers...
+
+```diff
++Analizando mejores respuestas...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_discussion_started`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_discussion_started%22)
+
+> Scanning discussions...
+
+```diff
++Analizando discusiones...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_like_given`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_like_given%22)
+
+> Scanning likes given...
+
+```diff
++Analizando «Me gusta» dados...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_like_received`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_like_received%22)
+
+> Scanning likes received...
+
+```diff
++Analizando «Me gusta» recibidos...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_post_created`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_post_created%22)
+
+> Scanning posts...
+
+```diff
++Analizando publicaciones...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_reaction_given`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_reaction_given%22)
+
+> Scanning reactions given...
+
+```diff
++Analizando reacciones dadas...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_reaction_received`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_reaction_received%22)
+
+> Scanning reactions received...
+
+```diff
++Analizando reacciones recibidas...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_rebuild_totals`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_rebuild_totals%22)
+
+> Rebuilding totals...
+
+```diff
++Reconstruyendo totales...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.sync_step_vote_received`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.sync_step_vote_received%22)
+
+> Scanning votes...
+
+```diff
++Analizando votos...
+```
+
+#### [`huseyinfiliz-leaderboard.admin.settings.tags_changed_notice`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.settings.tags_changed_notice%22)
+
+> Tag exclusions have changed. Recalculate all activity to update historical data.
+
+```diff
++Las exclusiones de etiquetas han cambiado. Recalcule toda la actividad para actualizar el historial de datos.
+```
+
+#### [`huseyinfiliz-leaderboard.admin.tabs.exclusions`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.tabs.exclusions%22)
+
+> Exclusions
+
+```diff
++Exclusiones
+```
+
+#### [`huseyinfiliz-leaderboard.admin.tabs.general`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.tabs.general%22)
+
+> General
+
+```diff
++General
+```
+
+#### [`huseyinfiliz-leaderboard.admin.tabs.maintenance`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.tabs.maintenance%22)
+
+> Maintenance
+
+```diff
++Mantenimiento
+```
+
+#### [`huseyinfiliz-leaderboard.admin.tabs.points`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.admin.tabs.points%22)
+
+> Points
+
+```diff
++Puntos
+```
+
+#### [`huseyinfiliz-leaderboard.forum.contenders.title`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.contenders.title%22)
+
+> Top Contenders
+
+```diff
++Principales aspirantes
+```
+
+#### [`huseyinfiliz-leaderboard.forum.honorable.title`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.honorable.title%22)
+
+> Honorable Mentions
+
+```diff
++Menciones de honor
+```
+
+#### [`huseyinfiliz-leaderboard.forum.list.load_more`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.list.load_more%22)
+
+> Show More
+
+```diff
++Mostrar más
+```
+
+#### [`huseyinfiliz-leaderboard.forum.list.no_results`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.list.no_results%22)
+
+> No results for this period.
+
+```diff
++No hay resultados para este período.
+```
+
+#### [`huseyinfiliz-leaderboard.forum.list.points`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.list.points%22)
+
+> {points} {label}
+
+```diff
++{points} {label}
+```
+
+#### [`huseyinfiliz-leaderboard.forum.list.rank`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.list.rank%22)
+
+> Rank
+
+```diff
++Puesto
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.all`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.all%22)
+
+> All Time
+
+```diff
++Histórico
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.daily`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.daily%22)
+
+> Daily
+
+```diff
++Diario
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.monthly`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.monthly%22)
+
+> Monthly
+
+```diff
++Mensual
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.quarterly`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.quarterly%22)
+
+> Quarterly
+
+```diff
++Trimestral
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.weekly`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.weekly%22)
+
+> Weekly
+
+```diff
++Semanal
+```
+
+#### [`huseyinfiliz-leaderboard.forum.period.yearly`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.period.yearly%22)
+
+> Yearly
+
+```diff
++Anual
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.first`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.first%22)
+
+> 1st
+
+```diff
++1.º
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.second`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.second%22)
+
+> 2nd
+
+```diff
++2.º
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.stat_badges`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.stat_badges%22)
+
+> Badges
+
+```diff
++Insignias
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.stat_comments`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.stat_comments%22)
+
+> Comments
+
+```diff
++Comentarios
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.stat_discussions`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.stat_discussions%22)
+
+> Discussions
+
+```diff
++Discusiones
+```
+
+#### [`huseyinfiliz-leaderboard.forum.podium.third`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-leaderboard/es/?q=context%3A%3D%22huseyinfiliz-leaderboard.forum.podium.third%22)
+
+> 3rd
+
+```diff
++3.º
+```
+
+
+### `linkrobins-discussion-banners` (missing)
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_add`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_add%22)
+
+> Add banner
+
+```diff
++Añadir banner
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_empty`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_empty%22)
+
+> No banners yet.
+
+```diff
++Aún no hay banners.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_help%22)
+
+> Add as many banners as you like. Each one has its own content and can be shown in every discussion, or only in the discussions and tags you choose.
+
+```diff
++Añada tantos banners como necesite. Cada uno cuenta con su propio contenido y puede mostrarse en todas las discusiones o únicamente en los temas y etiquetas que seleccione.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.banners_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.banners_label%22)
+
+> Banners
+
+```diff
++Banners
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.bottom_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.bottom_heading%22)
+
+> Below the discussion
+
+```diff
++Debajo de la discusión
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.bottom_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.bottom_short%22)
+
+> Bottom
+
+```diff
++Inferior
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.color_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.color_help%22)
+
+> Colors the banner border, background tint, and small heading. Leave blank to use your theme color. Body text always follows the theme so it stays readable in light and dark modes.
+
+```diff
++Aplica color al borde, tono de fondo y encabezado secundario del banner. Déjelo en blanco para usar el color del tema. El texto del cuerpo se adapta al tema para garantizar la legibilidad.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.color_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.color_label%22)
+
+> Accent color
+
+```diff
++Color de acento
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.content_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.content_help%22)
+
+> The banner body. HTML is allowed and is sanitized before display.
+
+```diff
++Cuerpo del banner. Se permite código HTML, el cual se depura antes de su visualización.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.content_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.content_label%22)
+
+> Banner content (HTML)
+
+```diff
++Contenido del banner (HTML)
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.delete`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.delete%22)
+
+> Delete banner
+
+```diff
++Eliminar banner
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_emoji`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_emoji%22)
+
+> Emoji
+
+```diff
++Emoticono
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_emoji_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_emoji_placeholder%22)
+
+> Type or paste
+
+```diff
++Escriba o pegue
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_help%22)
+
+> An optional icon shown beside the banner text: upload a small image or pick an emoji.
+
+```diff
++Icono opcional junto al texto del banner: suba una imagen pequeña o seleccione un emoticono.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_image%22)
+
+> Uploaded image
+
+```diff
++Imagen subida
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_label%22)
+
+> Icon
+
+```diff
++Icono
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_none%22)
+
+> No icon
+
+```diff
++Sin icono
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_remove%22)
+
+> Remove
+
+```diff
++Quitar
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_replace_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_replace_image%22)
+
+> Replace image
+
+```diff
++Reemplazar imagen
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.icon_upload_image`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.icon_upload_image%22)
+
+> Upload image
+
+```diff
++Subir imagen
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.label_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.label_help%22)
+
+> The short uppercase line at the top of the banner, for example "Info" or "From our sponsor". Leave blank for none.
+
+```diff
++Línea corta en mayúsculas en la parte superior del banner (ejemplo: "Información" o "Patrocinado"). Déjelo en blanco para omitir.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.label_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.label_label%22)
+
+> Small heading
+
+```diff
++Encabezado secundario
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.placement_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.placement_label%22)
+
+> Where it appears
+
+```diff
++Ubicación
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_all%22)
+
+> All discussions
+
+```diff
++Todas las discusiones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_empty_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_empty_except%22)
+
+> Nothing is selected yet, so this banner appears everywhere.
+
+```diff
++No se ha seleccionado nada aún, por lo que este banner aparecerá en todas las discusiones.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_empty_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_empty_only%22)
+
+> Nothing is selected yet, so this banner will not appear anywhere.
+
+```diff
++No se ha seleccionado nada aún, por lo que este banner no se mostrará en ninguna ubicación.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_except%22)
+
+> All discussions except the ones I choose
+
+```diff
++En todas las discusiones excepto las seleccionadas
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_help%22)
+
+> Show this banner everywhere, or pick the discussions and tags it belongs in. Add a second banner with different text for a different discussion.
+
+```diff
++Muestre este banner en todo el foro o seleccione discusiones y etiquetas específicas. Puede añadir un segundo banner con texto diferente para otra discusión.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_label%22)
+
+> Which discussions
+
+```diff
++Alcance de las discusiones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.scope_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.scope_only%22)
+
+> Only the discussions I choose
+
+```diff
++Solo en las discusiones seleccionadas
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_every_help`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_every_help%22)
+
+> The banner appears after every Nth post in a discussion. Minimum 2.
+
+```diff
++El banner aparecerá cada N publicaciones en la discusión. Mínimo 2.
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_every_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_every_label%22)
+
+> Show after every N posts
+
+```diff
++Mostrar cada N publicaciones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_heading%22)
+
+> Between posts
+
+```diff
++Entre publicaciones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.stream_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.stream_short%22)
+
+> Between posts
+
+```diff
++Entre publicaciones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_all`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_all%22)
+
+> In every discussion
+
+```diff
++En todas las discusiones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_discussion_many`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_discussion_many%22)
+
+> {count} discussions
+
+```diff
++{count} discusiones
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_discussion_one`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_discussion_one%22)
+
+> 1 discussion
+
+```diff
++1 discusión
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_except`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_except%22)
+
+> Everywhere except
+
+```diff
++En todas excepto
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_nothing`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_nothing%22)
+
+> Nothing selected
+
+```diff
++Nada seleccionado
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_only`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_only%22)
+
+> Only in
+
+```diff
++Solo en
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_tag_many`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_tag_many%22)
+
+> {count} tags
+
+```diff
++{count} etiquetas
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.summary_tag_one`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.summary_tag_one%22)
+
+> 1 tag
+
+```diff
++1 etiqueta
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_none`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_none%22)
+
+> Nothing selected
+
+```diff
++Nada seleccionado
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_remove`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_remove%22)
+
+> Remove
+
+```diff
++Quitar
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_search_placeholder`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_search_placeholder%22)
+
+> Search discussions, or paste a discussion link or ID
+
+```diff
++Buscar discusiones o pegar un enlace/ID de discusión
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_searching`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_searching%22)
+
+> Searching...
+
+```diff
++Buscando...
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_tags_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_tags_label%22)
+
+> Tags
+
+```diff
++Etiquetas
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_tags_loading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_tags_loading%22)
+
+> Loading tags...
+
+```diff
++Cargando etiquetas...
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.target_use_id`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.target_use_id%22)
+
+> Use discussion {id}
+
+```diff
++Usar discusión {id}
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.top_heading`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.top_heading%22)
+
+> Above the discussion
+
+```diff
++Sobre la discusión
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.top_short`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.top_short%22)
+
+> Top
+
+```diff
++Superior
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_everyone`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_everyone%22)
+
+> Everyone
+
+```diff
++Todos los usuarios
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_guests`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_guests%22)
+
+> Guests only
+
+```diff
++Solo visitantes (invitados)
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_label`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_label%22)
+
+> Who sees it
+
+```diff
++Visibilidad de usuarios
+```
+
+#### [`linkrobins-discussion-banners.admin.settings.visibility_members`](https://weblate.rob006.net/translate/flarum2/linkrobins-discussion-banners/es/?q=context%3A%3D%22linkrobins-discussion-banners.admin.settings.visibility_members%22)
+
+> Logged-in users only
+
+```diff
++Solo usuarios registrados
 ```
 
 
@@ -3458,6 +4996,233 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +Respuestas no leídas: {count}
+```
+
+
+### `walsgit-recycle-bin` (missing)
+
+#### [`walsgit-recycle-bin.admin.bulk_delete_label`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.bulk_delete_label%22)
+
+> Delete selected discussions
+
+```diff
++Eliminar discusiones seleccionadas
+```
+
+#### [`walsgit-recycle-bin.admin.bulk_post_delete_label`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.bulk_post_delete_label%22)
+
+> Delete selected posts
+
+```diff
++Eliminar publicaciones seleccionadas
+```
+
+#### [`walsgit-recycle-bin.admin.grid.invalid_column_content`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.grid.invalid_column_content%22)
+
+> Invalid content!
+
+```diff
++¡Contenido no válido!
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_modal.submit_button%22)
+
+> Forever delete these discussions
+
+```diff
++Eliminar de forma permanente estas discusiones
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_modal.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_modal.success%22)
+
+> Successfully deleted the selected discussions
+
+```diff
++Discusiones seleccionadas eliminadas correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_modal.text_end`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_modal.text_end%22)
+
+>  selected discussions?
+
+```diff
++ discusiones seleccionadas?
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_modal.text_start%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; these 
+
+```diff
++¿Está seguro de que desea <u>eliminar de forma permanente</u> las 
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_modal.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_modal.title%22)
+
+> Forever delete these discussions
+
+```diff
++Eliminar de forma permanente estas discusiones
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_post_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_post_modal.submit_button%22)
+
+> Forever delete these posts
+
+```diff
++Eliminar de forma permanente estas publicaciones
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_post_modal.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_post_modal.success%22)
+
+> Successfully deleted the selected posts
+
+```diff
++Publicaciones seleccionadas eliminadas correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_post_modal.text_end`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_post_modal.text_end%22)
+
+>  selected posts?
+
+```diff
++ publicaciones seleccionadas?
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_post_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_post_modal.text_start%22)
+
+> Are you sure you want to &lt;u&gt;forever delete&lt;/u&gt; these 
+
+```diff
++¿Está seguro de que desea <u>eliminar de forma permanente</u> las 
+```
+
+#### [`walsgit-recycle-bin.admin.mass_delete_post_modal.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_delete_post_modal.title%22)
+
+> Forever delete these posts
+
+```diff
++Eliminar de forma permanente estas publicaciones
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_modal.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_modal.success%22)
+
+> Successfully restored the selected discussions
+
+```diff
++Discusiones seleccionadas restauradas correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_post_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_post_modal.submit_button%22)
+
+> Restore these posts
+
+```diff
++Restaurar estas publicaciones
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_post_modal.success`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_post_modal.success%22)
+
+> Successfully restored the selected posts
+
+```diff
++Publicaciones seleccionadas restauradas correctamente
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_post_modal.text_end`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_post_modal.text_end%22)
+
+>  selected posts?
+
+```diff
++ publicaciones seleccionadas?
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_post_modal.text_start`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_post_modal.text_start%22)
+
+> Are you sure you want to restore these 
+
+```diff
++¿Está seguro de que desea restaurar las 
+```
+
+#### [`walsgit-recycle-bin.admin.mass_restore_post_modal.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.mass_restore_post_modal.title%22)
+
+> Restore the selected posts
+
+```diff
++Restaurar las publicaciones seleccionadas
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.back_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.back_button%22)
+
+> Back to previous page
+
+```diff
++Volver a la página anterior
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.first_page_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.first_page_button%22)
+
+> Go to first page
+
+```diff
++Ir a la primera página
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.go_to_page_textbox_a11y_label`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.go_to_page_textbox_a11y_label%22)
+
+> Go directly to page number
+
+```diff
++Ir directamente al número de página
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.last_page_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.last_page_button%22)
+
+> Go to last page
+
+```diff
++Ir a la última página
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.next_button`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.next_button%22)
+
+> Go to next page
+
+```diff
++Ir a la página siguiente
+```
+
+#### [`walsgit-recycle-bin.admin.pagination.page_counter`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.pagination.page_counter%22)
+
+> Page {current} of {total}
+
+```diff
++Página {current} de {total}
+```
+
+#### [`walsgit-recycle-bin.admin.post.id`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.post.id%22)
+
+> ID
+
+```diff
++ID
+```
+
+#### [`walsgit-recycle-bin.admin.post.title`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.post.title%22)
+
+> Post text
+
+```diff
++Texto de la publicación
+```
+
+#### [`walsgit-recycle-bin.admin.unknown_user`](https://weblate.rob006.net/translate/flarum2/walsgit-recycle-bin/es/?q=context%3A%3D%22walsgit-recycle-bin.admin.unknown_user%22)
+
+> Unknown user
+
+```diff
++Usuario desconocido
 ```
 
 <!-- {% endraw %} -->

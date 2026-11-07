@@ -14,5 +14,5 @@ are fully in sync and are not listed here.
 | [Hungarian](hu.md) (`hu`) | 1 | 3 | 3 |
 | [Persian](fa.md) (`fa`) | 0 | 13 | 6 |
 | [Sinhala](si.md) (`si`) | 4 | 0 | 2 |
-| [Spanish](es.md) (`es`) | 2 | 422 | 6 |
-| [Spanish (formal)](es@formal.md) (`es@formal`) | 2 | 422 | 6 |
+| [Spanish](es.md) (`es`) | 25 | 608 | 12 |
+| [Spanish (formal)](es@formal.md) (`es@formal`) | 25 | 608 | 12 |
