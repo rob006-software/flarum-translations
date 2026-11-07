@@ -91,6 +91,7 @@
                 "estimate_llm": "{strings} strings in {batches} requests, about {input} tokens in and {output} out.",
                 "estimate_mt": "{strings} strings, about {characters} characters.",
                 "estimate_cost": "Roughly {low} to {high}.",
+                "estimate_none": "Nothing ticked to translate, so this language is skipped.",
                 "estimate_help": "The range covers longer translations, thinking and retries. The budget is what actually caps it.",
                 "no_price": "No price is known for this model: enter one on the Provider tab to start."
             },
