@@ -19,6 +19,9 @@
                 "older_than": "không hoạt động {days} ngày ({basis})",
                 "with_tags": "có {tags}",
                 "without_tags": "không có {tags}",
+                "with_prefix": "",
+                "without_prefix": "",
+                "no_prefix": "",
                 "ran": "Đã xong — đã tác động tới {n} cuộc thảo luận.",
                 "ran_dry": "Xem trước — {n} cuộc thảo luận khớp (không thay đổi gì).",
                 "capped": "Đã chạm giới hạn mỗi lần chạy; hãy chạy lại để tiếp tục.",
@@ -37,7 +40,10 @@
                 "frequency": "Tần suất chạy",
                 "save": "Lưu quy tắc",
                 "delete_warn": "Việc xóa vĩnh viễn không thể hoàn tác. Hãy ưu tiên Ẩn hoặc Chuyển trừ khi bạn thật sự chắc chắn. Mọi hành động đều bị giới hạn số lượng và được ghi nhật ký.",
-                "no_tags": "Chưa có thẻ nào (hãy cài/bật tiện ích Tags để giới hạn phạm vi quy tắc)."
+                "no_tags": "Chưa có thẻ nào (hãy cài/bật tiện ích Tags để giới hạn phạm vi quy tắc).",
+                "action_prefix": "",
+                "action_prefix_help": "",
+                "no_prefixes": ""
             },
             "cond": {
                 "age_days": "Không hoạt động trong (ngày)",
@@ -51,7 +57,12 @@
                 "replies": "câu trả lời",
                 "include_locked": "Bao gồm cả các cuộc thảo luận đã khóa",
                 "include_locked_help": "Thông thường các cuộc thảo luận đã khóa được bảo vệ khỏi mọi quy tắc. Hãy bật tùy chọn này khi quy tắc cần xử lý chúng — ví dụ để lưu trữ những chủ đề mua bán đã đóng và đã khóa. Hành động Mở khóa luôn bao gồm chúng.",
-                "include_sticky": "Bao gồm cả các cuộc thảo luận đã ghim"
+                "include_sticky": "Bao gồm cả các cuộc thảo luận đã ghim",
+                "has_prefix": "",
+                "has_prefix_help": "",
+                "lacks_prefix": "",
+                "lacks_prefix_help": "",
+                "no_prefix": ""
             },
             "action": {
                 "hide": "Ẩn",
@@ -60,7 +71,9 @@
                 "unlock": "Mở khóa",
                 "add_tag": "Thêm thẻ",
                 "remove_tag": "Bỏ thẻ",
-                "move": "Chuyển (gắn thẻ lại)"
+                "move": "Chuyển (gắn thẻ lại)",
+                "set_prefix": "",
+                "remove_prefix": ""
             },
             "freq": {
                 "every_run": "Mỗi lần chạy (khoảng 15 phút)",

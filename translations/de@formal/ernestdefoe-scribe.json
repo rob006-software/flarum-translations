@@ -37,6 +37,7 @@
                 "add_column": "Spalte hinzufügen",
                 "delete_column": "Spalte löschen",
                 "horizontal_rule": "Trennlinie",
+                "voice": "",
                 "undo": "Rückgängig",
                 "redo": "Wiederherstellen"
             }
@@ -57,6 +58,18 @@
                 "image_placeholder": "Bildadresse…",
                 "spoiler_title_placeholder": "Spoilertitel…",
                 "info_title_placeholder": "Titel…"
+            },
+            "voice": {
+                "denied": "",
+                "unavailable": "",
+                "no_microphone": "",
+                "network": "",
+                "language": "",
+                "failed": "",
+                "dismiss": ""
+            },
+            "slash": {
+                "label": ""
             },
             "video": {
                 "placeholder": "Videolink einfügen (YouTube, Vimeo, TikTok…)",
@@ -81,6 +94,13 @@
             "toolbar_empty": "Ziehe eine Funktion hierher, um die Symbolleiste anzupassen.",
             "palette_empty": "Alle Funktionen sind jetzt in der Symbolleiste.",
             "reset": "Auf Standard zurücksetzen",
+            "voice_help": "",
+            "phone_toolbar_switch": "",
+            "phone_toolbar_help": "",
+            "phone_toolbar_label": "",
+            "phone_toolbar_builder_help": "",
+            "slash_switch": "",
+            "slash_help": "",
             "video": {
                 "heading": "Videoeinbettungen",
                 "help": "Füge einen Link zu einem unterstützten Video in einer eigenen Zeile ein, und er wird zu einer Einbettung. Die Leser sehen eine Vorschau; es wird nichts von der Videoseite geladen, bis sie auf „Abspielen“ klicken. Wenn du einen Anbieter deaktivierst, bleiben neue Links zu diesem Anbieter weiterhin als Links erhalten, und bestehende Einbettungen öffnen dann die Seite des Videos selbst, anstatt das Video im Beitrag abzuspielen.\n",

@@ -19,6 +19,9 @@
                 "older_than": "超过 {days} 天（{basis}）",
                 "with_tags": "同时带有 {tags}",
                 "without_tags": "不带有 {tags}",
+                "with_prefix": "",
+                "without_prefix": "",
+                "no_prefix": "",
                 "ran": "完成 — 已处理 {n} 个讨论。",
                 "ran_dry": "预览 — 匹配到 {n} 个讨论（未作任何更改）。",
                 "capped": "已达到单次处理上限，请再次运行以继续。",
@@ -37,7 +40,10 @@
                 "frequency": "运行频率",
                 "save": "保存规则",
                 "delete_warn": "永久删除后无法恢复。除非确定无误，否则建议优先使用「隐藏」或「移动」。所有操作都会受到单次处理上限限制并记录日志。",
-                "no_tags": "当前没有可用标签（请先安装并启用 Tags 扩展，以便按标签设置规则范围）。"
+                "no_tags": "当前没有可用标签（请先安装并启用 Tags 扩展，以便按标签设置规则范围）。",
+                "action_prefix": "",
+                "action_prefix_help": "",
+                "no_prefixes": ""
             },
             "cond": {
                 "age_days": "无活动天数",
@@ -51,7 +57,12 @@
                 "replies": "条回复",
                 "include_locked": "包括已锁定讨论",
                 "include_locked_help": "默认情况下，已锁定讨论不会被任何规则处理。若规则也需要处理这些讨论，请开启此项，例如归档已经结束并锁定的交易讨论。「解除锁定」操作始终会包含已锁定讨论。",
-                "include_sticky": "包括置顶讨论"
+                "include_sticky": "包括置顶讨论",
+                "has_prefix": "",
+                "has_prefix_help": "",
+                "lacks_prefix": "",
+                "lacks_prefix_help": "",
+                "no_prefix": ""
             },
             "action": {
                 "hide": "隐藏",
@@ -60,7 +71,9 @@
                 "unlock": "解除锁定",
                 "add_tag": "添加标签",
                 "remove_tag": "移除标签",
-                "move": "移动（重新设置标签）"
+                "move": "移动（重新设置标签）",
+                "set_prefix": "",
+                "remove_prefix": ""
             },
             "freq": {
                 "every_run": "每次运行（约 15 分钟）",

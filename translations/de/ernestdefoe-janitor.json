@@ -19,6 +19,9 @@
                 "older_than": "inaktiv {days}d ({basis})",
                 "with_tags": "mit {tags}",
                 "without_tags": "ohne {tags}",
+                "with_prefix": "",
+                "without_prefix": "",
+                "no_prefix": "",
                 "ran": "Erledigt – {n} Diskussion(en) bearbeitet.",
                 "ran_dry": "Vorschau – {n} zutreffende Diskussion(en) gefunden (keine Änderungen wurden angewendet).",
                 "capped": "Die Obergrenze pro Durchlauf wurde erreicht; führe den Durchlauf erneut aus, um fortzufahren.",
@@ -37,7 +40,10 @@
                 "frequency": "Ausführungshäufigkeit",
                 "save": "Regel speichern",
                 "delete_warn": "Eine endgültige Löschung kann nicht rückgängig gemacht werden. Wähle lieber „Ausblenden“ oder „Verschieben“, es sei denn, du bist dir ganz sicher. Jede Aktion ist begrenzt und wird protokolliert.",
-                "no_tags": "Es sind noch keine Tags vorhanden (installiere/aktiviere Tags, um Regeln einzugrenzen)."
+                "no_tags": "Es sind noch keine Tags vorhanden (installiere/aktiviere Tags, um Regeln einzugrenzen).",
+                "action_prefix": "",
+                "action_prefix_help": "",
+                "no_prefixes": ""
             },
             "cond": {
                 "age_days": "Inaktiv für (Tage)",
@@ -51,7 +57,12 @@
                 "replies": "Antworten",
                 "include_locked": "Gesperrte Diskussionen einbeziehen",
                 "include_locked_help": "Normalerweise sind gesperrte Diskussionen von allen Regeln ausgenommen. Aktiviere diese Option, wenn die Regel sie berücksichtigen soll – z. B. beim Archivieren geschlossener und gesperrter Verkaufsthemen. Die Aktion „Entsperren“ bezieht sie immer mit ein.",
-                "include_sticky": "Angeheftete Diskussionen einbeziehen"
+                "include_sticky": "Angeheftete Diskussionen einbeziehen",
+                "has_prefix": "",
+                "has_prefix_help": "",
+                "lacks_prefix": "",
+                "lacks_prefix_help": "",
+                "no_prefix": ""
             },
             "action": {
                 "hide": "Verbergen",
@@ -60,7 +71,9 @@
                 "unlock": "Entsperren",
                 "add_tag": "Tag hinzufügen",
                 "remove_tag": "Tag entfernen",
-                "move": "Verschieben (Tags neu zuweisen)"
+                "move": "Verschieben (Tags neu zuweisen)",
+                "set_prefix": "",
+                "remove_prefix": ""
             },
             "freq": {
                 "every_run": "Jede Ausführung (~15 Min)",

@@ -37,6 +37,7 @@
                 "add_column": "Add column",
                 "delete_column": "Delete column",
                 "horizontal_rule": "Divider",
+                "voice": "Voice typing",
                 "undo": "Undo",
                 "redo": "Redo"
             }
@@ -57,6 +58,18 @@
                 "image_placeholder": "Image address…",
                 "spoiler_title_placeholder": "Spoiler title…",
                 "info_title_placeholder": "Title…"
+            },
+            "voice": {
+                "denied": "Microphone access is blocked. Allow it for this site in your browser's settings, then tap the microphone again.",
+                "unavailable": "Speech recognition is blocked or turned off on this device. On an iPhone or iPad, allow it in Settings › Privacy & Security › Speech Recognition, and turn on Dictation in Settings › General › Keyboard.",
+                "no_microphone": "No microphone was found.",
+                "network": "Speech recognition needs an internet connection. Check your connection and try again.",
+                "language": "Your browser can't recognize speech in this language.",
+                "failed": "Voice typing couldn't start. Try again.",
+                "dismiss": "Dismiss"
+            },
+            "slash": {
+                "label": "Insert"
             },
             "video": {
                 "placeholder": "Paste a video link (YouTube, Vimeo, TikTok…)",
@@ -81,6 +94,13 @@
             "toolbar_empty": "Drag features here to build your toolbar.",
             "palette_empty": "Every feature is already in the toolbar.",
             "reset": "Reset to defaults",
+            "voice_help": "Voice typing uses the browser's own speech recognition: Safari sends the audio to Apple, Chrome and Edge send it to Google. Nothing goes through this forum. Browsers without speech recognition, such as Firefox, don't show the button.\n",
+            "phone_toolbar_switch": "Use a different toolbar on phones",
+            "phone_toolbar_help": "Off, phones get the toolbar above. On, you arrange a shorter one for small screens, starting from a copy of the toolbar above.\n",
+            "phone_toolbar_label": "Phone toolbar",
+            "phone_toolbar_builder_help": "Shown on screens narrower than a tablet. Drag features in and out the same way as above.\n",
+            "slash_switch": "Open a quick-insert menu when a line starts with /",
+            "slash_help": "Typing / at the start of a line, or after a space, lists the features in the toolbar. Keep typing to filter, then pick one with the arrow keys and Enter, or tap it.\n",
             "video": {
                 "heading": "Video embeds",
                 "help": "Paste a link to a supported video on its own line and it becomes an embed. Readers see a preview; nothing is loaded from the video site until they press play. Switching a provider off keeps new links to it as links, and existing embeds then open the video's own page instead of playing in the post.\n",

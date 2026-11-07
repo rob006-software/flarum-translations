@@ -19,6 +19,9 @@
                 "older_than": "inactive {days}d ({basis})",
                 "with_tags": "with {tags}",
                 "without_tags": "without {tags}",
+                "with_prefix": "prefixed {prefixes}",
+                "without_prefix": "not prefixed {prefixes}",
+                "no_prefix": "no prefix",
                 "ran": "Done — acted on {n} discussion(s).",
                 "ran_dry": "Preview — {n} discussion(s) matched (nothing changed).",
                 "capped": "Hit the per-run cap; run again to continue.",
@@ -37,7 +40,10 @@
                 "frequency": "Run frequency",
                 "save": "Save rule",
                 "delete_warn": "Permanent deletion can’t be undone. Prefer Hide or Move unless you’re sure. Every action is capped and logged.",
-                "no_tags": "No tags exist yet (install/enable Tags to scope rules)."
+                "no_tags": "No tags exist yet (install/enable Tags to scope rules).",
+                "action_prefix": "Prefix to set",
+                "action_prefix_help": "Replaces any prefix the discussion has. Discussions in tags where this prefix isn't allowed are skipped.",
+                "no_prefixes": "No prefixes exist yet. Add some on the Rubric settings page."
             },
             "cond": {
                 "age_days": "Inactive for (days)",
@@ -51,7 +57,12 @@
                 "replies": "replies",
                 "include_locked": "Include locked discussions",
                 "include_locked_help": "Normally locked discussions are protected from every rule. Turn this on when the rule should handle them — e.g. archiving closed-and-locked sale threads. The Unlock action always includes them.",
-                "include_sticky": "Include stickied discussions"
+                "include_sticky": "Include stickied discussions",
+                "has_prefix": "Has prefix",
+                "has_prefix_help": "Matches discussions with any of the chosen prefixes.",
+                "lacks_prefix": "Does not have prefix",
+                "lacks_prefix_help": "Matches discussions with none of the chosen prefixes, including ones with no prefix at all.",
+                "no_prefix": "Has no prefix at all"
             },
             "action": {
                 "hide": "Hide",
@@ -60,7 +71,9 @@
                 "unlock": "Unlock",
                 "add_tag": "Add tag",
                 "remove_tag": "Remove tag",
-                "move": "Move (retag)"
+                "move": "Move (retag)",
+                "set_prefix": "Set prefix",
+                "remove_prefix": "Remove prefix"
             },
             "freq": {
                 "every_run": "Every run (~15 min)",

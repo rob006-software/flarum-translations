@@ -19,6 +19,9 @@
                 "older_than": "",
                 "with_tags": "",
                 "without_tags": "",
+                "with_prefix": "",
+                "without_prefix": "",
+                "no_prefix": "",
                 "ran": "",
                 "ran_dry": "",
                 "capped": "",
@@ -37,7 +40,10 @@
                 "frequency": "",
                 "save": "",
                 "delete_warn": "",
-                "no_tags": ""
+                "no_tags": "",
+                "action_prefix": "",
+                "action_prefix_help": "",
+                "no_prefixes": ""
             },
             "cond": {
                 "age_days": "",
@@ -51,7 +57,12 @@
                 "replies": "",
                 "include_locked": "",
                 "include_locked_help": "",
-                "include_sticky": ""
+                "include_sticky": "",
+                "has_prefix": "",
+                "has_prefix_help": "",
+                "lacks_prefix": "",
+                "lacks_prefix_help": "",
+                "no_prefix": ""
             },
             "action": {
                 "hide": "",
@@ -60,7 +71,9 @@
                 "unlock": "",
                 "add_tag": "",
                 "remove_tag": "",
-                "move": ""
+                "move": "",
+                "set_prefix": "",
+                "remove_prefix": ""
             },
             "freq": {
                 "every_run": "",
