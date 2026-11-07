@@ -1739,9 +1739,7 @@ return [
 	],
 	'toreador-job-queue' => [
 		'tag' => 'https://raw.githubusercontent.com/toreador34/flarum-job-queue/v1.0.10/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
