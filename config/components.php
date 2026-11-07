@@ -1275,6 +1275,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.5.1/resources/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
+	'teddan-search-pickers' => [
+		'tag' => 'https://raw.githubusercontent.com/tttteddan/flarum-search-pickers/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.3/resources/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
