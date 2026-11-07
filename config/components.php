@@ -174,6 +174,10 @@ return [
 		'beta' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0-rc.4/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es'],
 	],
+	'el-choco-extension-uninstaller' => [
+		'beta' => 'https://raw.githubusercontent.com/el-choco/extension-uninstaller/v0.1.0-rc.2/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'ernestdefoe-anthology' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.1.1/locale/en.yml',
 	],
