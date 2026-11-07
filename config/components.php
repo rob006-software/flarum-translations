@@ -442,6 +442,10 @@ return [
 	'davwheat-virtual-authors' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/davwheat-virtual-authors.yml',
 	],
+	'deltamichael-asirem' => [
+		'tag' => 'https://raw.githubusercontent.com/DeltaMichael/asirem/0.1.22/locale/en.yml',
+		'__builtInLanguages' => ['bg'],
+	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
 	],
