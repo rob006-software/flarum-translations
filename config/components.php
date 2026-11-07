@@ -392,6 +392,9 @@ return [
 	'ernestdefoe-salvage' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/salvage/v1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-roster' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roster/1.2.5/resources/locale/en.yml',
+	],
 	'ernestdefoe-scribe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/scribe/1.5.1/locale/en.yml',
 	],
