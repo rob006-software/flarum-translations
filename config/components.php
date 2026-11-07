@@ -1421,11 +1421,7 @@ return [
 	],
 	'xiaoyi510-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/xiaoyi510/flarum-reply-to-see/1.8.4/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'es',
-			'tr',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['es', 'tr', 'zh_Hans'],
 	],
 	'xrh0905-oauth-microsoft' => [
 		'tag' => 'https://raw.githubusercontent.com/xrh0905/flarum-ext-oauth-microsoft/v1.0.1/locale/en.yml',
