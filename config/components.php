@@ -1275,6 +1275,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.5.1/resources/locale/en.yml',
 		'__builtInLanguages' => ['de'],
 	],
+	'thesilwar-copy-code-to-clipboard' => [
+		'tag' => 'https://raw.githubusercontent.com/thesilwar/flarum-ext-copy-code-to-clipboard/v2.3.0/locale/en.yml',
+	],
 	'tryhackx-advanced-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/TryHackX/flarum-advanced-pages/2.4.3/resources/locale/en.yml',
 		'__builtInLanguages' => ['pl'],
