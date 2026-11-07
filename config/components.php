@@ -177,6 +177,9 @@ return [
 	'ernestdefoe-anthology' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.1.1/locale/en.yml',
 	],
+	'ernestdefoe-advanced-cookie-consent' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/advanced-cookie-consent/1.1.1/resources/locale/en.yml',
+	],
 	'ernestdefoe-aurora' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/aurora/3.0.5/resources/locale/en.yml',
 	],
