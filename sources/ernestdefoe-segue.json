@@ -1,0 +1,51 @@
+{
+    "ernestdefoe-segue": {
+        "admin": {
+            "loader_label": "Show a loading screen",
+            "loader_help": "Covers the page with your loading icon while the forum starts, then fades it away, instead of the page flashing as it builds. A fast load just fades in; the icon only appears if loading takes more than a moment.",
+            "size_label": "Icon size",
+            "size": {
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            },
+            "color_label": "Icon color",
+            "color_help": "Leave empty to use the forum's primary color. Uploaded icons keep their own colors.",
+            "transitions_label": "Page transitions",
+            "transitions_help": "Glide: the header stays still, the page fades in as it rises, and a discussion's title and starter's avatar glide from the list into the discussion (and back). Fade: a plain cross-fade. Works in browsers that support View Transitions; others open pages as before. Members who ask their device for reduced motion get no animation.",
+            "transitions": {
+                "glide": "Glide",
+                "fade": "Fade",
+                "off": "Off"
+            },
+            "speed_label": "Transition speed",
+            "speed": {
+                "fast": "Fast",
+                "normal": "Normal",
+                "slow": "Slow"
+            },
+            "full_page_label": "Smooth full page loads",
+            "full_page_help": "Cross-fades when the browser loads a whole new page within the forum, such as after signing in, instead of going blank first.",
+            "icons": {
+                "label": "Loading icon",
+                "help": "Click an icon to use it. Each one shows what it will look like.",
+                "ring": "Ring",
+                "dots": "Dots",
+                "bars": "Bars",
+                "pulse": "Pulse",
+                "orbit": "Orbit",
+                "logo": "Your logo",
+                "custom": "Your icon {number}",
+                "remove": "Remove this icon",
+                "upload": "Add your own",
+                "upload_help": "Upload a GIF, PNG, WebP or JPEG up to 2 MB. Animated GIFs and WebPs keep moving. Icons are saved as soon as they upload; choosing one still needs Save Changes."
+            }
+        },
+        "api": {
+            "missing": "Choose an image to upload.",
+            "too_big": "The image must be 2 MB or smaller.",
+            "too_many": "You can keep up to {count} icons. Remove one before adding another.",
+            "not_an_image": "That file isn't an image Segue can use. Upload a GIF, PNG, WebP or JPEG."
+        }
+    }
+}
