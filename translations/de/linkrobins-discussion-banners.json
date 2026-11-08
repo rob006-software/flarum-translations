@@ -40,9 +40,9 @@
                 "visibility_everyone": "Jeder",
                 "visibility_guests": "Nur Gäste",
                 "visibility_members": "Nur angemeldete Benutzer",
-                "groups_label": "",
-                "groups_help": "",
-                "groups_everyone": "",
+                "groups_label": "Sichtbar für Gruppen",
+                "groups_help": "Wähle die Gruppen aus, denen dieses Banner angezeigt wird, einschließlich „Gäste“ (Besucher, die nicht angemeldet sind) und „Mitglieder“ (alle, die angemeldet sind). Dadurch wird die obige Einstellung eingeschränkt: Beide Gruppen müssen die Anzeige zulassen. Banner, die niemand in den ausgewählten Gruppen sehen kann, werden niemals an den Browser gesendet.",
+                "groups_everyone": "Es wurden keine Gruppen ausgewählt, daher sehen alle, für die die oben genannte Einstellung gilt, dieses Banner.",
                 "groups_loading": "Gruppen werden geladen…",
                 "groups_unavailable": "Gruppen konnten nicht geladen werden.",
                 "color_label": "Akzentfarbe",
@@ -64,11 +64,11 @@
                 "summary_discussion_many": "{count} Diskussionen",
                 "summary_tag_one": "1 Tag",
                 "summary_tag_many": "{count} Tags",
-                "summary_group_one": "",
-                "summary_group_many": "",
+                "summary_group_one": "1 Gruppe",
+                "summary_group_many": "{count} Gruppen",
                 "delete": "Banner löschen",
                 "most_specific_label": "Nur das am besten passende Banner anzeigen",
-                "most_specific_help": "Wenn mehrere Banner an derselben Stelle erscheinen würden, werden nur die spezifischsten angezeigt: Ein Banner, das für die Diskussion ausgewählt wurde, hat Vorrang vor einem Banner für dessen Untertag, das wiederum Vorrang vor einem Banner für ein Tag hat, das wiederum Vorrang vor einem Banner hat, das in jeder Diskussion angezeigt wird. Banner vom Typ „Überall außer“ gelten als in jeder Diskussion angezeigt."
+                "most_specific_help": "Wenn mehrere Banner an derselben Stelle angezeigt werden, sollen nur die spezifischsten unter den für den Betrachter sichtbaren Bannern angezeigt werden: Ein Banner, das für die Diskussion ausgewählt wurde, hat Vorrang vor einem Banner für dessen Untertag, das wiederum Vorrang vor einem Banner für ein Tag hat, das wiederum Vorrang vor einem Banner hat, das in jeder Diskussion angezeigt wird. Banner vom Typ „Überall außer“ gelten als in jeder Diskussion angezeigt."
             }
         }
     }
