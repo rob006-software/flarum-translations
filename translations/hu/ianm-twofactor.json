@@ -83,7 +83,7 @@
             "log_in": {
                 "two_factor_placeholder": "2FA token, például 123456",
                 "two_factor_required_message": "A folytatáshoz érvényes 2FA token szükséges.",
-                "two_factor_incorrect_message": ""
+                "two_factor_incorrect_message": "A 2FA token érvénytelen. Próbálja újra."
             }
         },
         "email": {
@@ -101,9 +101,9 @@
         },
         "views": {
             "log_in": {
-                "two_factor_token_placeholder": "",
-                "two_factor_required_message": "",
-                "two_factor_incorrect_message": ""
+                "two_factor_token_placeholder": "2FA token (ha be van kapcsolva a fióknál)",
+                "two_factor_required_message": "A kétlépcsős hitelesítés be van kapcsolva ennél a fióknál. Adja meg a hitelesítő alkalmazásból származó kódot vagy egy tartalék kódot.",
+                "two_factor_incorrect_message": "A 2FA token helytelen. Próbálja újra."
             },
             "reset_password": {
                 "two_factor_token_label": "2FA token"
@@ -129,14 +129,14 @@
         "lib": {
             "browser": {
                 "user": {
-                    "two_factor_enabled": "",
-                    "two_factor_disabled": "",
-                    "two_factor_device_changed": "",
-                    "two_factor_backup_code_used": ""
+                    "two_factor_enabled": "A kétlépcsős hitelesítés bekapcsolva {username} számára",
+                    "two_factor_disabled": "A kétlépcsős hitelesítés kikapcsolva {username} számára",
+                    "two_factor_device_changed": "{username} kétlépcsős hitelesítési eszköze megváltoztatva",
+                    "two_factor_backup_code_used": "{username} felhasznált egy tartalék kétlépcsős kódot ({remaining} maradt)"
                 },
                 "group": {
-                    "two_factor_required": "",
-                    "two_factor_not_required": ""
+                    "two_factor_required": "Kétlépcsős hitelesítés előírva a(z) {name} csoport számára",
+                    "two_factor_not_required": "Már nincs előírva a kétlépcsős hitelesítés a(z) {name} csoport számára"
                 }
             }
         }
