@@ -359,7 +359,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-pigeonhole' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.3/locale/en.yml',
 	],
 	'ernestdefoe-projects' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.11/resources/locale/en.yml',
