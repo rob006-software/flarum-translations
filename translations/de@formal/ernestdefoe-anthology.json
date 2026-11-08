@@ -1,105 +1,105 @@
 {
     "ernestdefoe-anthology": {
         "forum": {
-            "nav": "",
-            "a_noun": "",
+            "nav": "{noun, select, novel {Romane} story {Geschichten} book {Bücher} other {Serien}}",
+            "a_noun": "{noun, select, novel {ein Roman} story {eine Geschichte} book {ein Buch} other {eine Serie}}",
             "the_noun": "",
             "status": {
                 "ongoing": "",
-                "complete": ""
+                "complete": "Abgeschlossen"
             },
             "card": {
-                "chapters": "",
+                "chapters": "{count, plural, one {# Kapitel} other {# Kapitel}}",
                 "followers": "",
-                "by": ""
+                "by": "von {author}"
             },
             "directory": {
-                "new": "",
-                "search": "",
+                "new": "{noun, select, novel {Neuer Roman} story {Neue Geschichte} book {Neues Buch} other {Neue Serie}}",
+                "search": "Nach Titel suchen",
                 "forum": "",
-                "all_tags": "",
-                "tag_label": "",
-                "all": "",
-                "sort_label": "",
+                "all_tags": "Alle Tags",
+                "tag_label": "Tag",
+                "all": "Alle",
+                "sort_label": "Sortieren",
                 "sort": {
-                    "latest": "",
-                    "new": "",
-                    "popular": "",
-                    "title": ""
+                    "latest": "Neuestes Kapitel",
+                    "new": "Neuestes",
+                    "popular": "Am meisten gefolgt",
+                    "title": "Titel"
                 },
                 "empty": "",
                 "empty_guest": "",
                 "no_results": "",
-                "more": ""
+                "more": "Mehr laden"
             },
             "series": {
                 "missing": "",
-                "progress": "",
+                "progress": "{done} von {total} Kapiteln gelesen",
                 "start": "",
-                "continue": "",
-                "again": "",
-                "follow": "",
-                "following": "",
-                "follow_help": "",
-                "contents": "",
-                "chapter_meta": "",
-                "read": "",
-                "edit": "",
-                "delete": "",
+                "continue": "Weiterlesen",
+                "again": "Von vorne lesen",
+                "follow": "Folgen",
+                "following": "Gefolgt",
+                "follow_help": "Erhalte eine Benachrichtigung, sobald ein neues Kapitel hinzugefügt wurde.",
+                "contents": "Kapitel",
+                "chapter_meta": "{date} · {count, plural, one {# Antwort} other {# Antworten}}",
+                "read": "Lesen",
+                "edit": "Bearbeiten",
+                "delete": "Löschen",
                 "delete_confirm": "",
                 "empty_owner": "",
-                "empty": "",
-                "move_up": "",
-                "move_down": "",
-                "remove": "",
+                "empty": "Noch keine Kapitel.",
+                "move_up": "Nach oben",
+                "move_down": "Nach unten",
+                "remove": "Aus {the_noun} entfernen",
                 "back": ""
             },
             "chapter_bar": {
-                "label": "",
-                "previous": "",
-                "next": "",
-                "contents": ""
+                "label": "Kapitel {number} von {count}",
+                "previous": "Vorheriges",
+                "next": "Nächstes",
+                "contents": "Alle Kapitel"
             },
             "controls": {
-                "add": "",
-                "change": ""
+                "add": "Zu {a_noun} hinzufügen",
+                "change": "Ändern oder aus {the_noun} entfernen"
             },
             "add_modal": {
-                "title": "",
-                "change_title": "",
+                "title": "Zu {a_noun} hinzufügen",
+                "change_title": "Verschieben oder entfernen",
                 "intro": "",
                 "none": "",
                 "none_other": "",
-                "current": "",
+                "current": "Momentan in",
                 "new": "",
                 "new_for": "",
-                "new_title": "",
-                "add": "",
-                "create_and_add": "",
-                "remove": "",
-                "added": "",
-                "removed": ""
+                "new_title": "Titel",
+                "add": "Als neuestes Kapitel hinzufügen",
+                "create_and_add": "Erstellen und hinzufügen",
+                "remove": "Aus {title} entfernen",
+                "added": "Zu {title} hinzugefügt.",
+                "removed": "Aus {title} entfernt."
             },
             "edit_modal": {
                 "create_title": "",
-                "edit_title": "",
-                "title": "",
-                "description": "",
+                "edit_title": "{title} bearbeiten",
+                "title": "Titel",
+                "description": "Beschreibung",
                 "description_help": "",
-                "status": "",
-                "cover": "",
+                "status": "Status",
+                "cover": "Titelbild",
                 "cover_help": "",
-                "cover_choose": "",
-                "cover_remove": "",
-                "save": "",
-                "create": ""
+                "cover_choose": "Wähle ein Bild",
+                "cover_remove": "Titelbild entfernen",
+                "save": "Speichern",
+                "create": "Erstellen"
             },
             "profile": {
-                "nav": "",
+                "nav": "{noun, select, novel {Romane} story {Geschichten} book {Bücher} other {Serien}}",
                 "empty": ""
             },
             "notifications": {
-                "new_chapter": ""
+                "new_chapter": "{username} hat ein neues Kapitel zu {series} hinzugefügt"
             },
             "settings": {
                 "notify_new_chapter": ""
@@ -116,15 +116,15 @@
                 "noun": "",
                 "noun_help": "",
                 "nouns": {
-                    "series": "",
-                    "novel": "",
-                    "story": "",
-                    "book": ""
+                    "series": "Bände",
+                    "novel": "Roman",
+                    "story": "Geschichte",
+                    "book": "Buch"
                 },
-                "show_nav": ""
+                "show_nav": "Link in der Seitenleiste anzeigen"
             },
             "permissions": {
-                "view": "",
+                "view": "Bände anzeigen",
                 "create": "",
                 "moderate": ""
             }
