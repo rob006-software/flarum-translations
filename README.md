@@ -1058,6 +1058,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-salvage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-salvage) | [`ernestdefoe/salvage`](https://github.com/ernestdefoe/salvage) |
 | [`ernestdefoe-scribe`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-scribe) | [`ernestdefoe/scribe`](https://github.com/ernestdefoe/scribe) |
 | [`ernestdefoe-seamless-refresh`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-seamless-refresh) | [`ernestdefoe/seamless-refresh`](https://github.com/ernestdefoe/seamless-refresh) |
+| [`ernestdefoe-segue`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-segue) | [`ernestdefoe/segue`](https://github.com/ernestdefoe/segue) |
 | [`ernestdefoe-sheaf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sheaf) | [`ernestdefoe/sheaf`](https://github.com/ernestdefoe/sheaf) |
 | [`ernestdefoe-shelf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shelf) | [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) |
 | [`ernestdefoe-shutter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shutter) | [`ernestdefoe/shutter`](https://github.com/ernestdefoe/shutter) |
