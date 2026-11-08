@@ -1,24 +1,24 @@
 {
     "ernestdefoe-buzz": {
         "forum": {
-            "someone": "",
+            "someone": "Jemand",
             "event": {
-                "discussion": "",
-                "reply": "",
-                "member": "",
-                "badge": "",
-                "rank": "",
-                "streak": "",
-                "quest": "",
-                "quiz": "",
-                "collection": "",
-                "purchase": ""
+                "discussion": "{user} hat {title} gestartet",
+                "reply": "{user} hat {title} geantwortet",
+                "member": "{user} ist gerade beigetreten",
+                "badge": "{user} hat das Abzeichen {badge} freigeschaltet",
+                "rank": "{user} hat den Rang {rank} erreicht",
+                "streak": "{user} hat eine {days}-tägige Serie hingelegt",
+                "quest": "{user} hat die Einführungsquest abgeschlossen",
+                "quiz": "{user} hat {quiz} abgeschlossen",
+                "collection": "{user} hat {item} zu {collection} hinzugefügt",
+                "purchase": "{user} hat {product} gekauft"
             },
-            "more": "",
-            "close": "",
-            "label": "",
+            "more": "{count, plural, one {+# weiteres} other {+# weitere}}",
+            "close": "Schließen",
+            "label": "Echtzeit-Aktivität",
             "settings": {
-                "heading": "",
+                "heading": "Echtzeit-Aktivität",
                 "share_label": "",
                 "share_help": "",
                 "mute_label": "",
@@ -27,10 +27,10 @@
         },
         "admin": {
             "types": {
-                "discussion": "",
-                "reply": "",
-                "member": "",
-                "badge": "",
+                "discussion": "Neue Diskussionen",
+                "reply": "Neue Antworten",
+                "member": "Neue Mitglieder (sobald sie ihre E-Mail bestätigt haben)",
+                "badge": "Abzeichen erworben (FoF Badges)",
                 "rank": "",
                 "streak": "",
                 "quest": "",
@@ -42,10 +42,10 @@
                 "events": "",
                 "events_help": "",
                 "display": "",
-                "delivery": "",
-                "privacy": ""
+                "delivery": "Zustellung",
+                "privacy": "Datenschutz"
             },
-            "style_label": "",
+            "style_label": "Darstellung",
             "style": {
                 "toast": "",
                 "ticker": ""
@@ -57,14 +57,14 @@
             },
             "side_label": "",
             "side": {
-                "left": "",
-                "right": ""
+                "left": "Unten links",
+                "right": "Unten rechts"
             },
-            "offset_x_label": "",
-            "offset_y_label": "",
-            "show_avatar_label": "",
-            "show_username_label": "",
-            "profile_link_label": "",
+            "offset_x_label": "Abstand zur Seite (px)",
+            "offset_y_label": "Abstand von der Unterseite (px)",
+            "show_avatar_label": "Avatare anzeigen",
+            "show_username_label": "Benutzernamen anzeigen",
+            "profile_link_label": "Benutzernamen mit Profil verlinken",
             "display_seconds_label": "",
             "max_toasts_label": "",
             "max_toasts_help": "",
