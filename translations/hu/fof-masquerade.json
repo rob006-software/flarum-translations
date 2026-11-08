@@ -27,12 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Mező létrehozása",
-                "add-option": "",
-                "delete-option": "",
+                "add-option": "Lehetőség hozzáadása",
+                "delete-option": "Lehetőség törlése",
                 "edit-field": "Módosítások mentése",
-                "delete-field": "Mező törlése",
-                "restore-field": "",
-                "delete-field-permanently": ""
+                "delete-field": "Áthelyezés a kukába",
+                "restore-field": "Mező helyreállítása: „{field}”",
+                "delete-field-permanently": "Mező végleges törlése: „{field}”"
             },
             "permissions": {
                 "edit-others-profile": "Más felhasználók profiljának szerkesztése",
@@ -41,11 +41,11 @@
             },
             "fields": {
                 "title": "Mezők",
-                "trash": "",
+                "trash": "Kuka",
                 "create": "Mező létrehozása",
-                "edit": "{field} mező szerkesztése",
-                "delete-confirmation": "Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.",
-                "delete-permanently-confirmation": "",
+                "edit": "Mező szerkesztése: „{field}”",
+                "delete-confirmation": "Biztos, hogy a kukába helyezi a(z) „{field}” mezőt?",
+                "delete-permanently-confirmation": "Biztos, hogy véglegesen törli a(z) „{field}” mezőt és az összes mentett válaszát? Ez nem vonható vissza.",
                 "is_restricted": "Mező láthatóságának korlátozása",
                 "permissions": "Mező láthatósága",
                 "permissions-alert": "Az engedélybeállítások akkor lesznek elérhetőek, ha létrehozás után szerkeszti a mezőt.",
@@ -103,8 +103,8 @@
                     "field_created": "A(z) „{name}” profilmező létrehozva",
                     "field_updated": "A(z) „{name}” profilmező frissítve",
                     "field_deleted": "A(z) „{name}” profilmező törölve",
-                    "field_restored": "",
-                    "field_permanently_deleted": "",
+                    "field_restored": "A(z) „{name}” profilmező helyreállítva",
+                    "field_permanently_deleted": "A(z) „{name}” profilmező véglegesen törölve",
                     "profile_updated": "{username} profilmezői frissítve"
                 }
             }
