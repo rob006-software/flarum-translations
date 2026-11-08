@@ -15,7 +15,7 @@
                 "type_from_label": "Ezen téma beolvasztása egy másikba",
                 "type_from_help_text": "Válassza ki a céltémát, melybe ezt beolvasztja: {title}.",
                 "load_preview_button": "Előnézet",
-                "preview_truncated": "",
+                "preview_truncated": "Bejegyzések megjelenítése: {from} – {to} / {total}.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -42,10 +42,10 @@
         },
         "api": {
             "error": {
-                "into_itself": "",
+                "into_itself": "Egy téma nem vonható össze saját magával.",
                 "merging_failed": "A témák összevonása sikertelen.",
                 "updating_failed": "A téma részleteinek frissítése sikertelen.",
-                "redirecting_failed": "",
+                "redirecting_failed": "Az összevont témák átirányítása sikertelen.",
                 "deleting_failed": "Az üres témák törlése sikertelen.",
                 "fixing_posts_number_failed": "A bejegyzésszámok rögzítése sikertelen.",
                 "fixing_posts_number_meta_failed": "A bejegyzésszámok rögzítése sikertelen."
