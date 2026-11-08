@@ -307,6 +307,9 @@ return [
 	'ernestdefoe-ladder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.5.0/locale/en.yml',
 	],
+	'ernestdefoe-lectern' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-lobby' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.3/locale/en.yml',
 	],
