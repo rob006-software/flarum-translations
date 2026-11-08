@@ -16,7 +16,7 @@
                 "any": "Bármely nyelv"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Válassza ki a téma nyelvét"
             },
             "sub_controls": {
                 "subscription_language_label": "Téma nyelve",
@@ -34,21 +34,21 @@
                 "errors": {
                     "missing_assets": "A bővítmény számára szükséges erőforrások nem tölthetők be. Próbálja futtatni a <code>php flarum assets:publish</code> parancsot, és nézze meg, hogy megoldotta-e a problémát."
                 },
-                "languages_heading": "",
-                "languages_help": "",
-                "attribution": "",
+                "languages_heading": "Nyelvek",
+                "languages_help": "A nyelvek, amelyen a téma lehet. Az ország választja ki a megjelenített zászlót.",
+                "attribution": "Ez a bővítmény a <article>List of ISO 639-2 codes</article> Wikipédia-cikket használja, amely a <license>Creative Commons Nevezd meg! - Így add tovább! licenc 3.0</license> alatt kerül közreadásra.",
                 "config": {
                     "language_label": "Nyelv",
                     "country_label": "Ország (a zászló megjelenítéséhez)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Nyelv kiválasztása…",
+                    "choose_country": "Ország kiválasztása…",
+                    "add_button": "Nyelv hozzáadása",
+                    "remove_button": "{language} eltávolítása"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Nyelv szerkesztésének engedélyezése",
-                "change_language_label": ""
+                "change_language_label": "Téma nyelvének módosítása"
             }
         },
         "api": {
@@ -59,8 +59,8 @@
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
-                    "hint": ""
+                    "key": "nyelv",
+                    "hint": "nyelvkód vagy nyelvkódok vesszővel elválasztott listája"
                 }
             }
         }
@@ -69,8 +69,8 @@
         "lib": {
             "data": {
                 "subscriptionlanguages": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Címkefeliratkozásokkal exportálva, ahogy a fof/follow-tags is teszi.",
+                    "anonymize_description": "Eltávolítja a felhasználó által követett címkékhez választott nyelvet."
                 }
             }
         }
