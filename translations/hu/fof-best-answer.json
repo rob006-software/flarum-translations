@@ -11,19 +11,19 @@
                     "tags": "Legjobb választ engedélyező címkék",
                     "general": "Általános",
                     "reminders": "Emlékeztetők",
-                    "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani.",
+                    "reminders_notice": "Az emlékeztetők megkérik a téma szerzőjét, hogy válassza ki a legjobb választ. Egy óránként futó feladat küldi el, így be kell állítani a Flarum ütemezőjét.",
                     "advanced": "Speciális"
                 },
                 "show_max_lines_label": "Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma",
                 "show_max_lines_help": "Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.",
-                "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
-                "select_best_answer_reminder_days_help": "Emlékeztető küldése a megadott számú nap után, hogy az eredeti szerző válassza ki a legjobb választ, 0 = emlékeztetők letiltása.",
+                "select_best_answer_reminder_days": "Napok száma az emlékeztetés előtt",
+                "select_best_answer_reminder_days_help": "Szerzők emlékeztetése a megadott számú nap után, hogy válasszák ki a legjobb választ. Minden témáról csak egyszer értesülnek, és csak akkor, ha a szerző választhat a válaszok közül. A 7 napnál régebben létrehozott témák ki lesznek hagyva. A 0 kikapcsolja az emlékeztetőket.",
                 "select_best_answer_tags_label": "Címkék a legjobb válasszal rendelkező témákhoz",
                 "select_best_answer_tags_help": "Válassza ki, hogy mely címkék legyenek hozzáadva a legjobb válasszal rendelkező témákhoz (ha van ilyen). Csak a másodlagos címkék engedélyezettek. Ezek a címkék el lesznek távolítva, ha eltávolításra kerül a legjobb válasz.",
-                "schedule_stop_overnight": "Megakadályozza az emlékeztető értesítések küldését az éjszakai órákban",
-                "schedule_stop_overnight_help": "19 órától 8 óráig, a kiszolgáló órája szerint",
-                "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
-                "schedule_log_output_help": "",
+                "schedule_stop_overnight": "Ne küldjön értesítést az éjszakai órákban",
+                "schedule_stop_overnight_help": "Az értesítések csak 08:00 és 21:00 között lesznek elküldve, UTC-ben.",
+                "schedule_log_output": "Emlékeztető futásának naplózása",
+                "schedule_log_output_help": "Hozzáfűzi az egyes futások kimenetét a storage/logs/fof-best-answer.log fájlhoz.",
                 "show_filter_label": "A Legjobb válasz szűrő legördülő megjelenítése",
                 "show_filter_help": "Azoknál a címkéknél, ahol a legjobb válaszok engedélyezettek, jelenjen meg a megoldott/megoldatlan szűrőlehetőség a témalistában",
                 "use_alt_ui": "Alternatív elrendezés",
@@ -32,7 +32,7 @@
                 "enabled_tags_label": "Engedélyezett címkék",
                 "enabled_tags_help": "Válassza ki, hogy mely címkéknél legyenek engedélyezve a legjobb válaszok. Ezek a címkék „K+V” formázásúak lesznek, ezeknél lehet beállítani legjobb válaszokat.",
                 "remind_tags_label": "Emlékeztető címkék",
-                "remind_tags_help": "Válassza ki, hogy mely címkéknél legyenek értesítések küldve. Csak az ilyen címkéjű témák fognak értesítéseket küldeni.",
+                "remind_tags_help": "Csak az ilyen címkéjű témák fognak értesítéseket küldeni. A témának az engedélyezett címkék egyikében kell lennie.",
                 "tags_info": "Ha egy címkénél engedélyezve van a legjobb válasz, akkor állítsa be az engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját témák, tetszőleges téma). Az engedélyek kioszthatók globálisan (az összes legjobb választ engedélyező címkénél), vagy címkénként is.\n",
                 "discussion_sidebar_jump_button": "A legjobb válaszhoz ugrás gomb megjelenítése a téma oldalsávjában",
                 "discussion_sidebar_jump_button_help": "Hozzáad egy gombot a téma oldalsávjához, mellyel oda lehet ugrani a bejegyzések közé, a legjobb válaszhoz.",
@@ -70,8 +70,8 @@
                 "unsolved_link": "Megoldatlan témák"
             },
             "deck": {
-                "best_answers": "",
-                "unsolved_questions": ""
+                "best_answers": "Legjobb válaszok",
+                "unsolved_questions": "Megoldatlan kérdések"
             },
             "filter": {
                 "all_label": "Összes kérdés",
@@ -96,9 +96,9 @@
                 "select": "Sikerült választ kapnia a kérdésére?"
             },
             "body": {
-                "awarded": "Kedves {recipient_display_name}!\n\nJó munka, {actor_display_name} épp a legjobb válasznak választotta a bejegyzését itt: {discussion_title}. Köszönjük a segítséget.\n\nNézze meg itt: {discussion_url}\n",
-                "ba-set": "Kedves {recipient_display_name}!\n\n{actor_display_name} beállította a legjobb választ a témában: {discussion_title}, amelyben Ön is részt vett.\n\nNézze meg itt: {discussion_url}\n",
-                "select": "Kedves {recipient_display_name}!\n\nMostanra több válasz is érkezett a kérdésére: {discussion_title}. Reméljük valamelyik válasz segít választ adni a kérdésére.\n\nHa igen, akkor nagyon hasznos lehet a jövőbeli tagoknak, ha kiválasztja a legjobb választ. Ez segít az azonos problémával küzdő embereknek megtalálniuk a szükséges választ, és ez egyúttal köszönet azoknak a tagoknak, akik segítettek. Önként adják idejüket, ezért jó tájékoztatni őket arról, hogy jól csinálják.\n\nLátogassa meg a beszélgetést itt: {discussion_url}, és válassza ki a legjobb választ.\n\nKöszönjük!\n"
+                "awarded": "Jó munka, {actor_display_name} épp a legjobb válasznak választotta a bejegyzését itt: {discussion_title}. Köszönjük a segítséget.\n\nNézze meg itt: {discussion_url}\n",
+                "ba-set": "{actor_display_name} beállította a legjobb választ a témában: {discussion_title}, amelyben Ön is részt vett.\n\nNézze meg itt: {discussion_url}\n",
+                "select": "Csak szólunk, hogy mostanra több válasz is érkezett a kérdésére: {discussion_title}. Reméljük valamelyik válasz segít választ adni a kérdésére.\n\nHa igen, akkor nagyon hasznos lehet a jövőbeli tagoknak, ha kiválasztja a legjobb választ. Ez segít az azonos problémával küzdő embereknek megtalálniuk a szükséges választ, és ez egyúttal köszönet azoknak a tagoknak, akik segítettek. Önként adják idejüket, ezért jó tájékoztatni őket arról, hogy jól csinálják.\n\nLátogassa meg a beszélgetést itt: {discussion_url}, és válassza ki a legjobb választ.\n\nKöszönjük!\n"
             }
         },
         "lib": {
@@ -107,10 +107,10 @@
                     "key": "megoldva"
                 },
                 "qna": {
-                    "key": ""
+                    "key": "kérdés"
                 },
                 "solution": {
-                    "key": ""
+                    "key": "megoldás"
                 }
             }
         }
