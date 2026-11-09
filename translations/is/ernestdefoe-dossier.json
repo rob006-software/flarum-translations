@@ -1,0 +1,254 @@
+{
+    "ernestdefoe-dossier": {
+        "api": {
+            "required": "",
+            "invalid": "",
+            "too_long": "",
+            "too_many": "",
+            "invalid_month": "",
+            "end_before_start": "",
+            "invalid_kind": "",
+            "invalid_level": "",
+            "invalid_percent": "",
+            "invalid_url": "",
+            "invalid_visibility": "",
+            "invalid_section": "",
+            "too_many_entries": "",
+            "invalid_skill": "",
+            "invalid_category": "",
+            "duplicate_skill": "",
+            "custom_skills_off": "",
+            "skill_exists": ""
+        },
+        "lib": {
+            "open_to": {
+                "collaboration": "",
+                "mentoring": "",
+                "freelance": "",
+                "jobs": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "page": {
+                "unavailable": "",
+                "empty": "",
+                "edit": "",
+                "done": "",
+                "edit_hint": "",
+                "cta_title": "",
+                "cta_title_other": "",
+                "cta_text": "",
+                "cta_button": "",
+                "section_empty": "",
+                "add": "",
+                "edit_section": "",
+                "edit_entry": "",
+                "move_up": "",
+                "move_down": "",
+                "delete_entry": "",
+                "delete_confirm": ""
+            },
+            "sections": {
+                "about": "",
+                "timeline": "",
+                "skills": "",
+                "languages": "",
+                "projects": "",
+                "certificates": "",
+                "links": "",
+                "open_to": ""
+            },
+            "visibility": {
+                "label": "",
+                "label_for": "",
+                "everyone": "",
+                "members": "",
+                "private": ""
+            },
+            "about": {
+                "headline": "",
+                "role": "",
+                "bio": "",
+                "specializations": "",
+                "interests": ""
+            },
+            "timeline": {
+                "kinds": {
+                    "work": "",
+                    "education": ""
+                },
+                "present": "",
+                "years": "",
+                "months": ""
+            },
+            "skills": {
+                "other": ""
+            },
+            "languages": {
+                "native": "",
+                "levels": {
+                    "a1": "",
+                    "a2": "",
+                    "b1": "",
+                    "b2": "",
+                    "c1": "",
+                    "c2": "",
+                    "native": ""
+                }
+            },
+            "projects": {
+                "none": "",
+                "all": ""
+            },
+            "certificates": {
+                "verify": "",
+                "picture_of": ""
+            },
+            "links": {
+                "kinds": {
+                    "website": "",
+                    "linkedin": "",
+                    "github": "",
+                    "gitlab": "",
+                    "x": "",
+                    "mastodon": "",
+                    "custom": ""
+                }
+            },
+            "modals": {
+                "save": "",
+                "month": "",
+                "year": "",
+                "about": {
+                    "title": "",
+                    "headline_placeholder": "",
+                    "headline_help": "",
+                    "role_placeholder": "",
+                    "bio_help": "",
+                    "specializations_placeholder": "",
+                    "interests_placeholder": "",
+                    "list_help": ""
+                },
+                "open_to": {
+                    "title": "",
+                    "help": ""
+                },
+                "timeline": {
+                    "add": "",
+                    "edit": "",
+                    "kind": "",
+                    "title_label": "",
+                    "title_placeholder": "",
+                    "degree": "",
+                    "degree_placeholder": "",
+                    "organization": "",
+                    "school": "",
+                    "location": "",
+                    "location_placeholder": "",
+                    "start": "",
+                    "end": "",
+                    "ongoing": "",
+                    "ongoing_education": "",
+                    "description": ""
+                },
+                "languages": {
+                    "add": "",
+                    "edit": "",
+                    "name": "",
+                    "name_placeholder": "",
+                    "level": "",
+                    "percent": "",
+                    "percent_help": ""
+                },
+                "certificates": {
+                    "add": "",
+                    "edit": "",
+                    "title_label": "",
+                    "title_placeholder": "",
+                    "issuer": "",
+                    "issued": "",
+                    "url": "",
+                    "url_help": "",
+                    "image": "",
+                    "image_help": "",
+                    "remove_image": ""
+                },
+                "links": {
+                    "add": "",
+                    "edit": "",
+                    "kind": "",
+                    "url": "",
+                    "label": "",
+                    "label_help": "",
+                    "visibility": "",
+                    "visibility_help": ""
+                },
+                "skills": {
+                    "add": "",
+                    "edit": "",
+                    "skill": "",
+                    "pick": "",
+                    "new_option": "",
+                    "name": "",
+                    "name_help": "",
+                    "category": "",
+                    "level": "",
+                    "level_percent": ""
+                }
+            }
+        },
+        "admin": {
+            "save": "",
+            "saved": "",
+            "settings": {
+                "default_tab_label": "",
+                "default_tab_help": "",
+                "custom_skills_label": "",
+                "custom_skills_help": ""
+            },
+            "permissions": {
+                "view": "",
+                "have": "",
+                "edit_any": ""
+            },
+            "open_to": {
+                "heading": "",
+                "help": "",
+                "label": "",
+                "add": "",
+                "remove": ""
+            },
+            "catalogue": {
+                "heading": "",
+                "help": "",
+                "new_category": "",
+                "add_category": "",
+                "category_name": "",
+                "no_category": "",
+                "move_up": "",
+                "move_down": "",
+                "delete_category": "",
+                "delete_category_confirm": "",
+                "new_skill": "",
+                "new_skill_in": "",
+                "add_skill": "",
+                "uses": "",
+                "delete_skill": "",
+                "delete_skill_confirm": "",
+                "delete_skill_used": ""
+            },
+            "pending": {
+                "heading": "",
+                "help": "",
+                "skill": "",
+                "uses": "",
+                "category": "",
+                "actions": "",
+                "promote": "",
+                "delete": "",
+                "none": ""
+            }
+        }
+    }
+}

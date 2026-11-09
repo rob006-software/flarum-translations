@@ -1,0 +1,254 @@
+{
+    "ernestdefoe-dossier": {
+        "api": {
+            "required": "Fill this in.",
+            "invalid": "This is not valid.",
+            "too_long": "Keep this under {max} characters.",
+            "too_many": "Pick at most {max}.",
+            "invalid_month": "Pick a month and a year.",
+            "end_before_start": "The end comes before the start.",
+            "invalid_kind": "Pick a type.",
+            "invalid_level": "Pick a level.",
+            "invalid_percent": "Enter a number from 0 to 100.",
+            "invalid_url": "Enter a web address that starts with https:// or http://.",
+            "invalid_visibility": "Pick who can see this.",
+            "invalid_section": "This section does not exist.",
+            "too_many_entries": "A section holds at most {max} entries.",
+            "invalid_skill": "Pick a skill from the list.",
+            "invalid_category": "Pick a category from the list.",
+            "duplicate_skill": "This skill is already on the dossier.",
+            "custom_skills_off": "Pick a skill from the list.",
+            "skill_exists": "A skill with this name is already in the catalogue."
+        },
+        "lib": {
+            "open_to": {
+                "collaboration": "Collaboration",
+                "mentoring": "Mentoring",
+                "freelance": "Freelance work",
+                "jobs": "Job offers"
+            }
+        },
+        "forum": {
+            "nav": "Dossier",
+            "page": {
+                "unavailable": "This dossier isn't available.",
+                "empty": "Nothing here yet.",
+                "edit": "Edit dossier",
+                "done": "Done",
+                "edit_hint": "Choose who can see each section, and add, change or reorder what's in it.",
+                "cta_title": "Fill in your dossier",
+                "cta_title_other": "This dossier is empty",
+                "cta_text": "Show what you do, where you've worked and studied, your skills and languages, and how people can reach you. You choose who sees each part.",
+                "cta_button": "Get started",
+                "section_empty": "Nothing here yet.",
+                "add": "Add",
+                "edit_section": "Edit",
+                "edit_entry": "Edit",
+                "move_up": "Move up",
+                "move_down": "Move down",
+                "delete_entry": "Delete",
+                "delete_confirm": "Delete this entry?"
+            },
+            "sections": {
+                "about": "About",
+                "timeline": "Experience and education",
+                "skills": "Skills",
+                "languages": "Languages",
+                "projects": "Projects",
+                "certificates": "Certificates and achievements",
+                "links": "Links",
+                "open_to": "Open to"
+            },
+            "visibility": {
+                "label": "Who can see this",
+                "label_for": "Who can see {section}",
+                "everyone": "Everyone",
+                "members": "Members",
+                "private": "Only me"
+            },
+            "about": {
+                "headline": "Headline",
+                "role": "Current role",
+                "bio": "About me",
+                "specializations": "Specializations",
+                "interests": "Interests"
+            },
+            "timeline": {
+                "kinds": {
+                    "work": "Work",
+                    "education": "Education"
+                },
+                "present": "Present",
+                "years": "{count, plural, one {# year} other {# years}}",
+                "months": "{count, plural, one {# month} other {# months}}"
+            },
+            "skills": {
+                "other": "Other"
+            },
+            "languages": {
+                "native": "Native",
+                "levels": {
+                    "a1": "Beginner",
+                    "a2": "Elementary",
+                    "b1": "Intermediate",
+                    "b2": "Upper intermediate",
+                    "c1": "Advanced",
+                    "c2": "Proficient",
+                    "native": "Native speaker"
+                }
+            },
+            "projects": {
+                "none": "Projects the member publishes on the Projects tab show up here.",
+                "all": "All projects"
+            },
+            "certificates": {
+                "verify": "Verify",
+                "picture_of": "Picture of {title}"
+            },
+            "links": {
+                "kinds": {
+                    "website": "Website",
+                    "linkedin": "LinkedIn",
+                    "github": "GitHub",
+                    "gitlab": "GitLab",
+                    "x": "X",
+                    "mastodon": "Mastodon",
+                    "custom": "Other link"
+                }
+            },
+            "modals": {
+                "save": "Save",
+                "month": "Month",
+                "year": "Year",
+                "about": {
+                    "title": "About",
+                    "headline_placeholder": "Full-stack developer · PHP and Laravel · Open-source contributor",
+                    "headline_help": "One line, shown under your name on your dossier.",
+                    "role_placeholder": "Senior backend developer at Example Software",
+                    "bio_help": "Plain text. Line breaks are kept.",
+                    "specializations_placeholder": "APIs, databases, performance",
+                    "interests_placeholder": "Open source, accessibility, teaching",
+                    "list_help": "Separate them with commas."
+                },
+                "open_to": {
+                    "title": "Open to",
+                    "help": "Let people know what you'd welcome."
+                },
+                "timeline": {
+                    "add": "Add to your timeline",
+                    "edit": "Edit timeline entry",
+                    "kind": "Type",
+                    "title_label": "Job title",
+                    "title_placeholder": "Senior backend developer",
+                    "degree": "Degree or course",
+                    "degree_placeholder": "Bachelor's degree in computer science",
+                    "organization": "Company or organization",
+                    "school": "School or university",
+                    "location": "City and country",
+                    "location_placeholder": "Berlin, Germany",
+                    "start": "Start",
+                    "end": "End",
+                    "ongoing": "I work here now",
+                    "ongoing_education": "I study here now",
+                    "description": "Description"
+                },
+                "languages": {
+                    "add": "Add a language",
+                    "edit": "Edit language",
+                    "name": "Language",
+                    "name_placeholder": "English",
+                    "level": "Level",
+                    "percent": "Percent (optional)",
+                    "percent_help": "Draws a bar beside the level."
+                },
+                "certificates": {
+                    "add": "Add a certificate",
+                    "edit": "Edit certificate",
+                    "title_label": "Title",
+                    "title_placeholder": "AWS Certified Developer",
+                    "issuer": "Issued by",
+                    "issued": "Issued",
+                    "url": "Verification link",
+                    "url_help": "An https:// address where others can check it.",
+                    "image": "Picture",
+                    "image_help": "JPEG, PNG or WebP, up to 4 MB. It is converted to WebP.",
+                    "remove_image": "Remove picture"
+                },
+                "links": {
+                    "add": "Add a link",
+                    "edit": "Edit link",
+                    "kind": "Type",
+                    "url": "Address",
+                    "label": "Name",
+                    "label_help": "Leave it empty to show the site's name.",
+                    "visibility": "Who can see it",
+                    "visibility_help": "A link is never shown more widely than its section."
+                },
+                "skills": {
+                    "add": "Add a skill",
+                    "edit": "Edit skill",
+                    "skill": "Skill",
+                    "pick": "Pick a skill",
+                    "new_option": "Not listed? Add your own…",
+                    "name": "Skill name",
+                    "name_help": "An admin may add it to the list for everyone.",
+                    "category": "Category",
+                    "level": "Level",
+                    "level_percent": "Level in percent"
+                }
+            }
+        },
+        "admin": {
+            "save": "Save",
+            "saved": "Saved",
+            "settings": {
+                "default_tab_label": "Open profiles on Dossier",
+                "default_tab_help": "A member's profile opens on their dossier when it has something to show. Their posts move to /u/username/posts.",
+                "custom_skills_label": "Members can add their own skills",
+                "custom_skills_help": "Skills that aren't in the catalogue show up below, for you to add to the catalogue or remove."
+            },
+            "permissions": {
+                "view": "View dossiers",
+                "have": "Have a dossier",
+                "edit_any": "Edit any dossier"
+            },
+            "open_to": {
+                "heading": "Open to",
+                "help": "The chips members can pick to say what they're open to. Leave a built-in one's name empty to use the translated name. Removing a chip hides it on every dossier.",
+                "label": "Name",
+                "add": "Add a chip",
+                "remove": "Remove"
+            },
+            "catalogue": {
+                "heading": "Skill catalogue",
+                "help": "The skills members pick from, by category.",
+                "new_category": "New category",
+                "add_category": "Add category",
+                "category_name": "Category name",
+                "no_category": "No category",
+                "move_up": "Move up",
+                "move_down": "Move down",
+                "delete_category": "Delete category",
+                "delete_category_confirm": "Delete the category {name}? Its skills stay, without a category.",
+                "new_skill": "New skill",
+                "new_skill_in": "New skill in {category}",
+                "add_skill": "Add skill",
+                "uses": "{count, plural, one {# dossier} other {# dossiers}}",
+                "delete_skill": "Remove {name}",
+                "delete_skill_confirm": "Remove {name} from the catalogue?",
+                "delete_skill_used": "Remove {name}? It is also removed from {count, plural, one {# dossier} other {# dossiers}}."
+            },
+            "pending": {
+                "heading": "Skills members added",
+                "help": "Skills members typed in themselves. Add them to the catalogue so everyone can pick them, or remove them.",
+                "skill": "Skill",
+                "uses": "Used on",
+                "category": "Category",
+                "actions": "Actions",
+                "promote": "Add to catalogue",
+                "delete": "Remove",
+                "none": "No skills are waiting."
+            }
+        }
+    }
+}
