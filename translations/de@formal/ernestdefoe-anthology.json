@@ -3,20 +3,20 @@
         "forum": {
             "nav": "{noun, select, novel {Romane} story {Geschichten} book {Bücher} other {Serien}}",
             "a_noun": "{noun, select, novel {ein Roman} story {eine Geschichte} book {ein Buch} other {eine Serie}}",
-            "the_noun": "",
+            "the_noun": "{noun, select, novel {dieser Roman} story {diese Geschichte} book {dieses Buch} other {diese Serien}}",
             "status": {
-                "ongoing": "",
+                "ongoing": "Fortlaufend",
                 "complete": "Abgeschlossen"
             },
             "card": {
                 "chapters": "{count, plural, one {# Kapitel} other {# Kapitel}}",
-                "followers": "",
+                "followers": "{count, plural, one {# Follower} other {# Follower}}",
                 "by": "von {author}"
             },
             "directory": {
                 "new": "{noun, select, novel {Neuer Roman} story {Neue Geschichte} book {Neues Buch} other {Neue Serie}}",
                 "search": "Nach Titel suchen",
-                "forum": "",
+                "forum": "Zum Hauptforum gehen",
                 "all_tags": "Alle Tags",
                 "tag_label": "Tag",
                 "all": "Alle",
@@ -27,15 +27,15 @@
                     "popular": "Am meisten gefolgt",
                     "title": "Titel"
                 },
-                "empty": "",
-                "empty_guest": "",
-                "no_results": "",
+                "empty": "{noun, select, novel {Noch keine Romane.} story {Noch keine Geschichten.} book {Noch keine Bücher.} other {Noch keine Serien.}} Erstelle zunächst eines und füge dann deine Diskussionen als Kapitel hinzu.",
+                "empty_guest": "{noun, select, novel {Noch keine Romane.} story {Noch keine Geschichten.} book {Noch keine Bücher.} other {Noch keine Serien.}}",
+                "no_results": "Keine Ergebnisse entsprechen deiner Suche.",
                 "more": "Mehr laden"
             },
             "series": {
-                "missing": "",
+                "missing": "Diese Seite existiert nicht oder du hast keine Berechtigung, sie aufzurufen.",
                 "progress": "{done} von {total} Kapiteln gelesen",
-                "start": "",
+                "start": "Mit dem Lesen beginnen",
                 "continue": "Weiterlesen",
                 "again": "Von vorne lesen",
                 "follow": "Folgen",
@@ -46,13 +46,13 @@
                 "read": "Lesen",
                 "edit": "Bearbeiten",
                 "delete": "Löschen",
-                "delete_confirm": "",
-                "empty_owner": "",
+                "delete_confirm": "{title} löschen? Die Diskussionen bleiben im Forum erhalten; lediglich die Gruppierung, das Titelbild und die Follower werden entfernt.",
+                "empty_owner": "Noch keine Kapitel. Öffne eine von dir gestartete Diskussion und wähle im Menü die Option „Zu {a_noun} hinzufügen“ aus.",
                 "empty": "Noch keine Kapitel.",
                 "move_up": "Nach oben",
                 "move_down": "Nach unten",
                 "remove": "Aus {the_noun} entfernen",
-                "back": ""
+                "back": "{noun, select, novel {Alle Romane} story {Alle Geschichten} book {Alle Bücher} other {Alle Serien}}"
             },
             "chapter_bar": {
                 "label": "Kapitel {number} von {count}",

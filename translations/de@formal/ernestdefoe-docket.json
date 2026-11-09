@@ -2,19 +2,19 @@
     "ernestdefoe-docket": {
         "api": {
             "closed": "Diese Meldung zuerst wiedereröffnen.",
-            "assign_others": "",
+            "assign_others": "Sie haben keine Berechtigung, Meldungen anderen Moderatoren zuzuweisen.",
             "cannot_see": "",
             "cannot_restore": ""
         },
         "email": {
             "assigned": {
-                "subject": "",
-                "title": "",
+                "subject": "Meldung #{id} wurde dir zugewiesen",
+                "title": "Meldung #{id} gehört dir",
                 "body": "",
-                "link": ""
+                "link": "Meldung öffnen"
             },
             "outcome": {
-                "subject": "",
+                "subject": "Deine Meldung wurde geprüft",
                 "body_resolved": "",
                 "body_rejected": "",
                 "link": "Deine Meldungen anzeigen"
