@@ -373,6 +373,9 @@ return [
 	'ernestdefoe-reel' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/reel/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-gridiron-nation' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/gridiron-nation/2.3.15/locale/en.yml',
+	],
 	'ernestdefoe-respawn' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/respawn/3.0.7/locale/en.yml',
 	],
