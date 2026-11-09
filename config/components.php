@@ -238,6 +238,9 @@ return [
 	'ernestdefoe-docket' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/docket/1.4.1/locale/en.yml',
 	],
+	'ernestdefoe-dossier' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/dossier/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-earshot' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/earshot/1.0.4/locale/en.yml',
 	],
