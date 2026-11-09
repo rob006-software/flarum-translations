@@ -674,7 +674,18 @@
                     "length_long": "",
                     "instructions_label": "",
                     "instructions_help": "",
-                    "instructions_placeholder": ""
+                    "instructions_placeholder": "",
+                    "actions_title": "",
+                    "actions_help": "",
+                    "mention_label": "",
+                    "mention_help": "",
+                    "quote_label": "",
+                    "quote_help": "",
+                    "like_label": "",
+                    "like_help": "",
+                    "delay_label": "",
+                    "delay_help": "",
+                    "delay_suffix": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "Ungelesen-Punkt an Tags",
@@ -1984,6 +1995,7 @@
                     "settings_message": "Wenn ich eine Direktnachricht im Chat erhalte"
                 },
                 "errors": {
+                    "send_failed": "",
                     "too_fast": "Du sendest Nachrichten zu schnell. Warte einige Sekunden.",
                     "message_empty": "Die Nachricht ist leer.",
                     "message_too_long": "Die Nachricht ist zu lang. Nachrichten dürfen höchstens {count} Zeichen enthalten.",
@@ -2826,8 +2838,10 @@
                     "cover_forumaker_help": "Ein breites Bild oben in deinem Profil, das auch hinter deiner Nutzerkarte erscheint, wenn du keinen eigenen Hintergrund auswählst. Im Editor kannst du Bilder hochladen, entfernen und den sichtbaren Bildausschnitt festlegen.",
                     "no_image": "Kein Bild",
                     "upload": "Bild hochladen",
+                    "upload_limits": "",
                     "remove_image": "Bild entfernen",
                     "image_too_large": "Das Bild ist größer als {max}. Bitte wähle ein kleineres.",
+                    "upload_failed": "",
                     "title_none": "Kein Titel",
                     "title_badge_help": "Wähle eines deiner Abzeichen aus, das als Titel verwendet werden kann."
                 },
@@ -3375,8 +3389,9 @@
                 "select_placeholder": "Auswählen…",
                 "replace_confirm": "Deinen bisherigen Text durch den Vorlagentext ersetzen?",
                 "load_failed": "Die Vorlage konnte nicht geladen werden. Versuche es erneut.",
-                "missing_required": "Fülle vor dem Veröffentlichen das Feld „{field}“ aus.",
-                "choose_required": "Wähle vor dem Veröffentlichen eine Vorlage."
+                "field_required": "",
+                "choose_required": "Wähle vor dem Veröffentlichen eine Vorlage.",
+                "missing_required": "Fülle vor dem Veröffentlichen das Feld „{field}“ aus."
             },
             "bug_reports": {
                 "button": "Problem melden",

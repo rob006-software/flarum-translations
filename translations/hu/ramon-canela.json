@@ -683,7 +683,18 @@
                     "length_long": "",
                     "instructions_label": "",
                     "instructions_help": "",
-                    "instructions_placeholder": ""
+                    "instructions_placeholder": "",
+                    "actions_title": "",
+                    "actions_help": "",
+                    "mention_label": "",
+                    "mention_help": "",
+                    "quote_label": "",
+                    "quote_help": "",
+                    "like_label": "",
+                    "like_help": "",
+                    "delay_label": "",
+                    "delay_help": "",
+                    "delay_suffix": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "",
@@ -1997,6 +2008,7 @@
                     "settings_message": "Közvetlen csevegőüzenetet kapok"
                 },
                 "errors": {
+                    "send_failed": "",
                     "too_fast": "Túl gyorsan küldesz üzeneteket. Várj néhány másodpercet.",
                     "message_empty": "Az üzenet üres.",
                     "message_too_long": "Az üzenet túl hosszú, az üzenetek legfeljebb {count} karakter hosszúak lehetnek.",
@@ -2839,8 +2851,10 @@
                     "cover_forumaker_help": "Egy széles kép a profilod tetején, amely a felhasználói kártyád mögött is megjelenik, ha nem választasz neki külön hátteret. A szerkesztővel feltölthetsz, eltávolíthatsz, és kiválaszthatod, a kép melyik része maradjon látható.",
                     "no_image": "Nincs kép",
                     "upload": "Kép feltöltése",
+                    "upload_limits": "",
                     "remove_image": "Kép eltávolítása",
                     "image_too_large": "A kép nagyobb, mint {max}. Kérjük, válassz kisebbet.",
+                    "upload_failed": "",
                     "title_none": "",
                     "title_badge_help": ""
                 },
@@ -3388,7 +3402,7 @@
                 "select_placeholder": "",
                 "replace_confirm": "",
                 "load_failed": "",
-                "missing_required": "",
+                "field_required": "",
                 "choose_required": ""
             },
             "bug_reports": {

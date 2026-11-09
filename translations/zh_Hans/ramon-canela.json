@@ -683,7 +683,18 @@
                     "length_long": "",
                     "instructions_label": "",
                     "instructions_help": "",
-                    "instructions_placeholder": ""
+                    "instructions_placeholder": "",
+                    "actions_title": "",
+                    "actions_help": "",
+                    "mention_label": "",
+                    "mention_help": "",
+                    "quote_label": "",
+                    "quote_help": "",
+                    "like_label": "",
+                    "like_help": "",
+                    "delay_label": "",
+                    "delay_help": "",
+                    "delay_suffix": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "",
@@ -1997,6 +2008,7 @@
                     "settings_message": "我收到聊天私信"
                 },
                 "errors": {
+                    "send_failed": "",
                     "too_fast": "你发送消息太快了，请稍等几秒。",
                     "message_empty": "消息不能为空。",
                     "message_too_long": "消息过长，最多只能包含{count}个字符。",
@@ -2839,8 +2851,10 @@
                     "cover_forumaker_help": "个人资料顶部的宽幅图片；如果未单独选择背景，也会显示在用户卡片后方。编辑器可用于上传、移除图片，以及选择要显示的图片区域。",
                     "no_image": "无图片",
                     "upload": "上传图片",
+                    "upload_limits": "",
                     "remove_image": "移除图片",
                     "image_too_large": "图片大于{max}。请选择较小的图片。",
+                    "upload_failed": "",
                     "title_none": "",
                     "title_badge_help": ""
                 },
@@ -3388,7 +3402,7 @@
                 "select_placeholder": "",
                 "replace_confirm": "",
                 "load_failed": "",
-                "missing_required": "",
+                "field_required": "",
                 "choose_required": ""
             },
             "bug_reports": {

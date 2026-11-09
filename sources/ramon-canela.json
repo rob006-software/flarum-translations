@@ -674,7 +674,18 @@
                     "length_long": "Long and detailed",
                     "instructions_label": "Extra instructions",
                     "instructions_help": "Added to the persona prompt only for the assistant's replies: tone, format, what to always mention or avoid.",
-                    "instructions_placeholder": "E.g. end by suggesting to mark the best answer when it is solved."
+                    "instructions_placeholder": "E.g. end by suggesting to mark the best answer when it is solved.",
+                    "actions_title": "Actions and timing",
+                    "actions_help": "What the assistant does besides writing, and how long it waits before replying.",
+                    "mention_label": "Mention people",
+                    "mention_help": "Can mention people in the topic and reply to a specific post. Mentions of anyone outside the topic become just the name, with no notification.",
+                    "quote_label": "Quote posts",
+                    "quote_help": "Can quote a whole post or just the part that matters, like the editor's \"Quote\".",
+                    "like_label": "Like posts",
+                    "like_help": "Can like posts in the topic that helped: a solution, a good explanation, a thank-you.",
+                    "delay_label": "Wait before replying",
+                    "delay_help": "Minutes between the post (or the assignment) and the reply, so it feels more natural. 0 replies right away. Without a queue worker, the wait relies on Flarum's scheduler in cron (php flarum schedule:run every minute).",
+                    "delay_suffix": "min"
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "Unread dot on tags",
@@ -750,7 +761,7 @@
                     "share_modal_help": "The Share button opens a window with the link, the copy button and the network buttons. When off, it only copies the link. On phones, the system share sheet is used.",
                     "local_dates_help": "[date=2026-10-20 time=14:00 timezone=\"America/Sao_Paulo\"] shows the date and time in the reader's time zone. Takes effect after clearing the cache.",
                     "invites_enabled_help": "Whoever has the \"Invite\" permission (Permissions) creates links with an expiry and a number of uses, in Share and in the \"More\" menu. Whoever joins through a link shows as invited, and the inviter gets \"Someone accepted your invite\". Requires open sign-up.",
-                    "not_found_page_help": "\"Oops! This page does not exist or is private.\", with \"Back to home\" and the search, instead of the plain error page. The template chosen below sets the design and which discussions show.",
+                    "not_found_page_help": "\"We couldn't find this page.\", with \"Back to home\" and the search, instead of the plain error page. The template chosen below sets the design and which discussions show.",
                     "sidebar_home_link_help": "The first link in the sidebar. When it leads to the discussion list, \"All Discussions\" opens the Latest list instead, so the two are not highlighted together.",
                     "backend_off": "The backend for these features (extend/gaps.php) is not loaded on the server yet.",
                     "cooked_title": "Post content",
@@ -1411,7 +1422,7 @@
                     "page_title": "AI conversations",
                     "title": "AI bot",
                     "header": "How can I help you?",
-                    "placeholder": "Ask a question...",
+                    "placeholder": "Ask a question…",
                     "submit": "Submit question",
                     "disclaimer": "Generative AI can make mistakes. Verify important information.",
                     "new": "New question",
@@ -1434,7 +1445,7 @@
                     "today": "Today",
                     "last_7_days": "Last 7 days",
                     "last_30_days": "Last 30 days",
-                    "not_allowed": "You do not have access to the AI bot.",
+                    "not_allowed": "The AI bot isn't available for your account.",
                     "log_in": "Log in to talk to the AI bot."
                 },
                 "search": {
@@ -1463,10 +1474,10 @@
                     "discard": "Discard",
                     "regen": "Try again",
                     "copy": "Copy",
-                    "copied": "Copied!",
-                    "no_content_error": "Add content first to perform AI actions on it",
-                    "custom_prompt_placeholder": "Enter a custom prompt...",
-                    "custom_prompt_submit": "Send prompt",
+                    "copied": "Copied",
+                    "no_content_error": "Write something in the editor to use AI.",
+                    "custom_prompt_placeholder": "Tell the AI what to do with the text…",
+                    "custom_prompt_submit": "Apply",
                     "translate": "Translate to {language}",
                     "proofread": "Proofread text",
                     "simplify": "Simplify",
@@ -1663,7 +1674,7 @@
                 "more_message_actions": "More actions",
                 "scroll_to_bottom": "Scroll to bottom",
                 "scroll_to_new_messages": "See new messages",
-                "invalid_access": "You don’t have access to view this chat channel",
+                "invalid_access": "This channel is restricted. Ask the channel's admins for access.",
                 "load_more": "Load more",
                 "enable": "Enable chat",
                 "disabled_for_you": "Chat is disabled for you. Turn it back on in Settings → Chat.",
@@ -1683,26 +1694,26 @@
                 "placeholder_thread": "Chat in thread",
                 "placeholder_users": "Chat with {commaSeparatedNames}",
                 "placeholder_group": "Chat in group",
-                "placeholder_silenced": "You can’t send messages at this time.",
+                "placeholder_silenced": "Sending messages is paused for your account.",
                 "placeholder_new_message_disallowed": {
                     "archived": "Channel is archived, you cannot send new messages right now.",
                     "closed": "Channel is closed, you cannot send new messages right now.",
                     "read_only": "Channel is read only, you cannot send new messages right now."
                 },
                 "retry_staged_message": {
-                    "title": "Network error",
-                    "action": "Send again?"
+                    "title": "Not sent",
+                    "action": "Try again"
                 },
                 "upload_errors": {
-                    "too_large": "too large",
-                    "failed": "failed"
+                    "too_large": "File too large. Choose a smaller one.",
+                    "failed": "Couldn't upload. Try again."
                 },
                 "aria_roles": {
-                    "composer": "Chat composer"
+                    "composer": "Write a message"
                 },
                 "composer": {
                     "send": "Send",
-                    "toggle_toolbar": "Toggle toolbar"
+                    "toggle_toolbar": "Show or hide formatting"
                 },
                 "chat_message_separator": {
                     "today": "Today",
@@ -1855,8 +1866,8 @@
                 },
                 "channel_edit_name_slug_modal": {
                     "input_placeholder": "Add a name",
-                    "slug_label": "Slug",
-                    "slug_description": "A channel slug is used in the URL instead of the channel name"
+                    "slug_label": "Address",
+                    "slug_description": "The part of the channel link used instead of its name. Use lowercase letters, numbers and hyphens."
                 },
                 "channel_edit_description_modal": {
                     "input_placeholder": "Add a description",
@@ -1984,21 +1995,22 @@
                     "settings_message": "I receive a chat direct message"
                 },
                 "errors": {
-                    "too_fast": "You are sending messages too fast. Wait a few seconds.",
+                    "send_failed": "Couldn't send. Check your connection and try again.",
+                    "too_fast": "Wait a few seconds before sending the next message.",
                     "message_empty": "The message is empty.",
                     "message_too_long": "Message is too long, messages must be a maximum of {count} characters.",
                     "reply_not_found": "The message you replied to no longer exists.",
                     "thread_not_found": "This thread no longer exists.",
-                    "invalid_emoji": "Invalid reaction.",
+                    "invalid_emoji": "This reaction isn't available. Pick another one.",
                     "too_many_reactions": "A message accepts at most {count} different reactions.",
                     "too_many_pins": "A channel accepts at most {count} pinned messages.",
                     "tag_not_found": "Tag not found.",
                     "invalid_status": "This channel can’t go back to that status.",
                     "name_required": "Give the channel a name.",
                     "name_too_long": "The name can have at most {count} characters.",
-                    "slug_taken": "A channel with this slug already exists.",
+                    "slug_taken": "A channel already uses this address. Pick another one.",
                     "description_too_long": "The description can have at most {count} characters.",
-                    "cannot_dm": "Sorry, you can’t send direct messages.",
+                    "cannot_dm": "Direct messages aren't available for your account.",
                     "too_many_users": "A conversation accepts at most {count} participants.",
                     "user_not_found": "User not found.",
                     "user_cannot_chat": "{username} has disabled chat"
@@ -2826,8 +2838,10 @@
                     "cover_forumaker_help": "A wide image at the top of your profile, also shown behind your user card when you do not pick a background of its own. The editor lets you upload, remove and pick which part of the image stays visible.",
                     "no_image": "No image",
                     "upload": "Upload image",
+                    "upload_limits": "JPG, PNG, GIF or WebP, up to {max}.",
                     "remove_image": "Remove image",
                     "image_too_large": "The image is larger than {max}. Please choose a smaller one.",
+                    "upload_failed": "Couldn't upload the image. Try again.",
                     "title_none": "No title",
                     "title_badge_help": "Pick one of your badges that can be used as a title."
                 },
@@ -3115,7 +3129,7 @@
                     "more_replies": "{count, plural, one {Show # more reply} other {Show # more replies}}",
                     "like": "Like this post",
                     "unlike": "Undo like",
-                    "cannot_like": "You can't like this post",
+                    "cannot_like": "Liking isn't available on this post",
                     "like_guest": "Sign up or log in to like this post",
                     "go_to_quoted": "Go to the quoted post",
                     "who_liked": "Who liked this",
@@ -3375,7 +3389,7 @@
                 "select_placeholder": "Choose…",
                 "replace_confirm": "Replace what you wrote with the template text?",
                 "load_failed": "Could not load the template. Try again.",
-                "missing_required": "Fill in the \"{field}\" field before posting.",
+                "field_required": "This field is required.",
                 "choose_required": "Choose a template before posting."
             },
             "bug_reports": {
@@ -3444,8 +3458,8 @@
                     "invalid_title": "The name must be between 1 and 120 characters.",
                     "message_length": "The message must be between {min} and {max} characters.",
                     "invalid_mode": "Unknown AI action.",
-                    "no_content": "Add content first to perform AI actions on it.",
-                    "no_prompt": "Write the custom prompt."
+                    "no_content": "Write something in the editor to use AI.",
+                    "no_prompt": "Write what the AI should do."
                 },
                 "personas": {
                     "general_name": "Forum Helper",
@@ -3644,7 +3658,7 @@
                 "invalid_reason": "The reason must be at most 500 characters; a link must start with http:// or https://."
             },
             "messages": {
-                "recipients_limit": "Sorry, you can only send a message to a maximum of {max} recipients.",
+                "recipients_limit": "A message can have up to {max} recipients. Remove some to send.",
                 "invite_empty": "Choose someone to invite.",
                 "invite_group_invalid": "This group can not receive messages.",
                 "invite_group_already": "{group} is already in this message.",
@@ -3660,7 +3674,7 @@
                 "external_image_disabled": "This forum only accepts uploaded images; addresses from other sites are turned off."
             },
             "invites": {
-                "too_many": "You already have too many active invitations. Delete one before generating another."
+                "too_many": "You reached the limit of active invitations. Revoke one to generate another."
             },
             "events": {
                 "invalid_status": "The answer must be going, interested or not going.",
@@ -3670,8 +3684,8 @@
         "views": {
             "not_found": {
                 "page_title": "Page not found",
-                "title": "Oops! That page doesn't exist or is private.",
-                "hint": "The address may be mistyped, or the content was removed or is restricted.",
+                "title": "We couldn't find this page.",
+                "hint": "The link may be incomplete, or the content was removed or is only available to some members.",
                 "popular_topics": "Popular discussions",
                 "recent_topics": "Recent discussions",
                 "see_more": "More",
@@ -3841,7 +3855,7 @@
                 "delete_article_forever": "Could not permanently delete the article.",
                 "upload": "Could not upload file.",
                 "upload_no_files": "Upload returned no files. Please try again.",
-                "unknown": "Unknown error."
+                "unknown": "Something went wrong on our side. Try again in a moment."
             }
         },
         "api": {

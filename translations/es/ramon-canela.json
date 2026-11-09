@@ -674,7 +674,18 @@
                     "length_long": "",
                     "instructions_label": "",
                     "instructions_help": "",
-                    "instructions_placeholder": ""
+                    "instructions_placeholder": "",
+                    "actions_title": "",
+                    "actions_help": "",
+                    "mention_label": "",
+                    "mention_help": "",
+                    "quote_label": "",
+                    "quote_help": "",
+                    "like_label": "",
+                    "like_help": "",
+                    "delay_label": "",
+                    "delay_help": "",
+                    "delay_suffix": ""
                 },
                 "gaps": {
                     "sidebar_category_dots_label": "Punto de contenido sin leer en las etiquetas",
@@ -1984,6 +1995,7 @@
                     "settings_message": "Recibo un mensaje directo en el chat"
                 },
                 "errors": {
+                    "send_failed": "",
                     "too_fast": "Estás enviando mensajes demasiado rápido. Espera unos segundos.",
                     "message_empty": "El mensaje está vacío.",
                     "message_too_long": "El mensaje es demasiado largo. Los mensajes deben tener un máximo de {count} caracteres.",
@@ -2826,8 +2838,10 @@
                     "cover_forumaker_help": "Una imagen ancha en la parte superior del perfil, también visible detrás de la tarjeta de usuario si no eliges un fondo propio. El editor permite subir, quitar y elegir qué parte de la imagen queda visible.",
                     "no_image": "Sin imagen",
                     "upload": "Subir imagen",
+                    "upload_limits": "",
                     "remove_image": "Eliminar imagen",
                     "image_too_large": "La imagen supera {max}. Elige una más pequeña.",
+                    "upload_failed": "",
                     "title_none": "Sin título",
                     "title_badge_help": "Elige una de tus insignias que se pueda usar como título."
                 },
@@ -3375,8 +3389,9 @@
                 "select_placeholder": "Elegir…",
                 "replace_confirm": "¿Reemplazar lo que has escrito por el texto de la plantilla?",
                 "load_failed": "No se ha podido cargar la plantilla. Inténtalo de nuevo.",
-                "missing_required": "Rellena el campo «{field}» antes de publicar.",
-                "choose_required": "Elige una plantilla antes de publicar."
+                "field_required": "",
+                "choose_required": "Elige una plantilla antes de publicar.",
+                "missing_required": "Rellena el campo «{field}» antes de publicar."
             },
             "bug_reports": {
                 "button": "Informar de un problema",
