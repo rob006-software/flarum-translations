@@ -1,51 +1,51 @@
 {
     "ernestdefoe-segue": {
         "admin": {
-            "loader_label": "",
-            "loader_help": "",
-            "size_label": "",
+            "loader_label": "Einen Ladebildschirm anzeigen",
+            "loader_help": "Die Seite wird beim Start des Forums mit Ihrem Ladesymbol überlagert, das anschließend ausgeblendet wird, anstatt dass die Seite während des Aufbaus flackert. Bei schnellem Laden wird das Symbol einfach eingeblendet; es erscheint nur, wenn das Laden länger als einen Moment dauert.",
+            "size_label": "Symbolgröße",
             "size": {
-                "small": "",
-                "medium": "",
-                "large": ""
+                "small": "Klein",
+                "medium": "Mittel",
+                "large": "Groß"
             },
-            "color_label": "",
-            "color_help": "",
-            "transitions_label": "",
-            "transitions_help": "",
+            "color_label": "Farbe des Symbols",
+            "color_help": "Lassen Sie das Feld leer, um die Hauptfarbe des Forums zu verwenden. Hochgeladene Symbole behalten ihre eigenen Farben bei.",
+            "transitions_label": "Seitenübergänge",
+            "transitions_help": "Glide: Die Kopfzeile bleibt unverändert, die Seite wird beim Hochgleiten eingeblendet, und der Titel einer Diskussion sowie das Profilbild des Erstellers gleiten aus der Liste in die Diskussion (und zurück). Fade: Ein einfacher Überblendeffekt. Funktioniert in Browsern, die „View Transitions“ unterstützen; in anderen Browsern werden Seiten wie bisher geöffnet. Mitglieder, die auf ihrem Gerät „Reduzierte Bewegungen“ aktiviert haben, sehen keine Animationen.",
             "transitions": {
-                "glide": "",
-                "fade": "",
-                "off": ""
+                "glide": "Glide",
+                "fade": "Fade",
+                "off": "Aus"
             },
-            "speed_label": "",
+            "speed_label": "Übergangsgeschwindigkeit",
             "speed": {
-                "fast": "",
-                "normal": "",
-                "slow": ""
+                "fast": "Schnell",
+                "normal": "Normal",
+                "slow": "Langsam"
             },
-            "full_page_label": "",
-            "full_page_help": "",
+            "full_page_label": "Gleichmäßiges Laden ganzer Seiten",
+            "full_page_help": "Es erfolgt ein Überblend-Effekt, wenn der Browser eine komplett neue Seite innerhalb des Forums lädt, beispielsweise nach der Anmeldung, anstatt zunächst einen leeren Bildschirm anzuzeigen.",
             "icons": {
-                "label": "",
-                "help": "",
-                "ring": "",
-                "dots": "",
-                "bars": "",
-                "pulse": "",
-                "orbit": "",
-                "logo": "",
-                "custom": "",
-                "remove": "",
-                "upload": "",
-                "upload_help": ""
+                "label": "Ladesymbol",
+                "help": "Klicken Sie auf ein Symbol, um es zu verwenden. Bei jedem Symbol wird angezeigt, wie es aussehen wird.",
+                "ring": "Ring",
+                "dots": "Punkte",
+                "bars": "Streifen",
+                "pulse": "Pulsieren",
+                "orbit": "Umlaufbahn",
+                "logo": "Dein Logo",
+                "custom": "Dein Symbol {number}",
+                "remove": "Dieses Symbol entfernen",
+                "upload": "Füge dein eigenes hinzu",
+                "upload_help": "Laden Sie eine GIF-, PNG-, WebP- oder JPEG-Datei mit einer Größe von bis zu 2 MB hoch. Animierte GIFs und WebP-Dateien werden weiterhin abgespielt. Symbole werden sofort nach dem Hochladen gespeichert; um eines auszuwählen, müssen Sie weiterhin auf „Änderungen speichern“ klicken."
             }
         },
         "api": {
-            "missing": "",
-            "too_big": "",
-            "too_many": "",
-            "not_an_image": ""
+            "missing": "Wählen Sie ein Bild zum Hochladen aus.",
+            "too_big": "Das Bild darf maximal 2 MB groß sein.",
+            "too_many": "Sie können bis zu {count} Symbole speichern. Entfernen Sie eines, bevor Sie ein weiteres hinzufügen.",
+            "not_an_image": "Diese Datei ist kein Bildformat, das Segue verarbeiten kann. Bitte lade ein GIF, PNG, WebP oder JPEG hoch."
         }
     }
 }
