@@ -1077,6 +1077,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.8.0/locale/en.yml',
 		'__builtInLanguages' => ['it'],
 	],
+	'peopleinside-restricted-visibility' => [
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-restricted-visibility/1.0.3/locale/en.yml',
+		'__builtInLanguages' => ['it'],
+	],
 	'pianotell-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/PrimateCoder/flarum-flamoji/v2.6.1/locale/en.yml',
 	],
