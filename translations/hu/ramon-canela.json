@@ -667,6 +667,7 @@
                     "not_found_template_signpost": "",
                     "not_found_template_signpost_help": "",
                     "invite_permission": "",
+                    "assign_permission": "",
                     "lightbox_label": "",
                     "lightbox_help": "",
                     "code_buttons_label": "",
@@ -704,6 +705,14 @@
                     "sidebar_custom_links_label": "",
                     "sidebar_custom_links_help": "",
                     "inline_title_editor_help": "",
+                    "pwa_label": "",
+                    "pwa_help": "",
+                    "push_label": "",
+                    "push_help": "",
+                    "post_notices_label": "",
+                    "post_notices_help": "",
+                    "post_notice_months_label": "",
+                    "post_notice_months_help": "",
                     "share_modal_help": "",
                     "local_dates_help": "",
                     "invites_enabled_help": "",
@@ -756,6 +765,8 @@
                     "verified_help": "A ramon/verified jelvény közvetlenül a név után, a szövegsorban és annak méretében, mint egy felhasználói ikon: a hozzászólás fejlécében, a beágyazott hozzászólásokban, a „válaszul erre” feliratban, a felhasználói kártyán és a profilon.",
                     "wiki_label": "Wiki a téma stílusában",
                     "wiki_help": "A linkrobins/wiki wiki a téma megjelenésével: az index mint beszélgetéslista, a cikk mint első hozzászólás (a térképpel és az előzményekkel), a beszélgetésszerkesztő az íráshoz (piszkozattal, speciális beállításokkal és GYIK-kel) és a „Wiki” hivatkozás az oldalsáv közösségi szakaszában.",
+                    "audit_label": "",
+                    "audit_help": "",
                     "ramon_chat_label": "Csevegés (ramon/chat) a téma stílusában",
                     "ramon_chat_help": "A ramon/chat bővítmény a téma csevegésének megjelenésével: a második oszlop nélküli oldal, a fiók, az üzenetek, a szerkesztő, a szálak és a csatornaképernyők. A bővítmény bekapcsolt állapotában a téma saját csevegése átadja neki a helyet.",
                     "ramon_chat_sidebar_label": "Csatornák az oldalsávban",
@@ -2681,6 +2692,43 @@
                     "user_left": "{who} kilépett ebből az üzenetből {when}"
                 }
             },
+            "push": {
+                "title": "",
+                "state_loading": "",
+                "state_unsupported": "",
+                "state_denied": "",
+                "state_off": "",
+                "state_on": "",
+                "enable": "",
+                "disable": "",
+                "column": "",
+                "error": "",
+                "generic": "",
+                "types": {
+                    "newPost": "",
+                    "postLiked": "",
+                    "postMentioned": "",
+                    "userMentioned": "",
+                    "groupMentioned": "",
+                    "discussionRenamed": "",
+                    "discussionLocked": "",
+                    "canelaAssigned": "",
+                    "canelaPostEdited": "",
+                    "canelaTopicLinked": ""
+                }
+            },
+            "assign": {
+                "title": "",
+                "placeholder": "",
+                "remove": "",
+                "notification": "",
+                "label": "",
+                "assigned_to": "",
+                "action": "",
+                "change": "",
+                "nav": "",
+                "setting": ""
+            },
             "metoo": {
                 "label": "Nekem is",
                 "label_with_count": "{label} ({count})",
@@ -2963,6 +3011,10 @@
                     "remove": "A reakciód eltávolítása",
                     "like_reaction": "Tetszik"
                 },
+                "audit": {
+                    "today": "",
+                    "yesterday": ""
+                },
                 "polls": {
                     "votes": "{count, plural, =0 {szavazat} one {szavazat} other {szavazat}}"
                 },
@@ -3013,6 +3065,8 @@
                     "go_to_post": "Ugrás a hozzászólásra"
                 },
                 "post": {
+                    "notice_first": "",
+                    "notice_returning": "",
                     "mention_unavailable": "a hozzászólás nem elérhető",
                     "in_reply_to": "Válaszul erre: kattints a hozzászólás megjelenítéséhez",
                     "reply_to_label": "Válaszul erre",
@@ -3782,6 +3836,16 @@
         "forum": {
             "providers": {
                 "passkey": "Hozzáférési kulcs (passkey)"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "assigned": "",
+                    "unassigned": ""
+                }
             }
         }
     }

@@ -658,6 +658,7 @@
                     "not_found_template_signpost": "",
                     "not_found_template_signpost_help": "",
                     "invite_permission": "",
+                    "assign_permission": "",
                     "lightbox_label": "",
                     "lightbox_help": "",
                     "code_buttons_label": "",
@@ -695,6 +696,14 @@
                     "sidebar_custom_links_label": "",
                     "sidebar_custom_links_help": "",
                     "inline_title_editor_help": "",
+                    "pwa_label": "",
+                    "pwa_help": "",
+                    "push_label": "",
+                    "push_help": "",
+                    "post_notices_label": "",
+                    "post_notices_help": "",
+                    "post_notice_months_label": "",
+                    "post_notice_months_help": "",
                     "share_modal_help": "",
                     "local_dates_help": "",
                     "invites_enabled_help": "",
@@ -747,6 +756,8 @@
                     "verified_help": "",
                     "wiki_label": "",
                     "wiki_help": "",
+                    "audit_label": "",
+                    "audit_help": "",
                     "ramon_chat_label": "",
                     "ramon_chat_help": "",
                     "ramon_chat_sidebar_label": "",
@@ -2668,6 +2679,43 @@
                     "user_left": ""
                 }
             },
+            "push": {
+                "title": "",
+                "state_loading": "",
+                "state_unsupported": "",
+                "state_denied": "",
+                "state_off": "",
+                "state_on": "",
+                "enable": "",
+                "disable": "",
+                "column": "",
+                "error": "",
+                "generic": "",
+                "types": {
+                    "newPost": "",
+                    "postLiked": "",
+                    "postMentioned": "",
+                    "userMentioned": "",
+                    "groupMentioned": "",
+                    "discussionRenamed": "",
+                    "discussionLocked": "",
+                    "canelaAssigned": "",
+                    "canelaPostEdited": "",
+                    "canelaTopicLinked": ""
+                }
+            },
+            "assign": {
+                "title": "",
+                "placeholder": "",
+                "remove": "",
+                "notification": "",
+                "label": "",
+                "assigned_to": "",
+                "action": "",
+                "change": "",
+                "nav": "",
+                "setting": ""
+            },
             "metoo": {
                 "label": "",
                 "label_with_count": "",
@@ -2950,6 +2998,10 @@
                     "remove": "",
                     "like_reaction": ""
                 },
+                "audit": {
+                    "today": "",
+                    "yesterday": ""
+                },
                 "polls": {
                     "votes": ""
                 },
@@ -3000,6 +3052,8 @@
                     "go_to_post": ""
                 },
                 "post": {
+                    "notice_first": "",
+                    "notice_returning": "",
                     "mention_unavailable": "",
                     "in_reply_to": "",
                     "reply_to_label": "",
@@ -3769,6 +3823,16 @@
         "forum": {
             "providers": {
                 "passkey": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "assigned": "",
+                    "unassigned": ""
+                }
             }
         }
     }

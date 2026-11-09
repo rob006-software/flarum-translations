@@ -658,6 +658,7 @@
                     "not_found_template_signpost": "Signpost",
                     "not_found_template_signpost_help": "The signpost in the middle, the search strip and short lists of discussions.",
                     "invite_permission": "Invite people (invite links)",
+                    "assign_permission": "Assign discussions to someone",
                     "lightbox_label": "Enlarge images (lightbox)",
                     "lightbox_help": "Clicking an image in a post opens it large over a dark background, with arrows between the images of the same post, zoom, \"Original image\" and \"Download\".",
                     "code_buttons_label": "Buttons on code blocks",
@@ -695,6 +696,14 @@
                     "sidebar_custom_links_label": "Custom section links",
                     "sidebar_custom_links_help": "One link per line: Label | address | icon (optional, from Font Awesome). Addresses starting with / belong to the forum itself. Without links, the section does not show.",
                     "inline_title_editor_help": "Whoever can rename sees a pencil next to the discussion title: the title becomes a field, with the tags button and ✓/✕ to save or cancel.",
+                    "pwa_label": "Installable app (PWA)",
+                    "pwa_help": "The forum can be installed as an app on phones and computers, with the name, color and icon from Appearance. For the browser to offer \"Install\", use a 512 px PNG favicon.",
+                    "push_label": "Browser push",
+                    "push_help": "Notifications on phones and computers even with the forum closed. Each person turns it on in Settings → Notifications, and the table gets a Push column to pick the types. Needs HTTPS and a running queue so responses are not delayed.",
+                    "post_notices_label": "Post notices",
+                    "post_notices_help": "A strip above the text on someone’s first post (\"welcome them\") and when someone comes back after a long time (\"their last post was 8 months ago\"). The notice is decided when the post is created.",
+                    "post_notice_months_label": "Months for \"welcome back\"",
+                    "post_notice_months_help": "How many months without posting before the next post gets the welcome back notice.",
                     "share_modal_help": "The Share button opens a window with the link, the copy button and the network buttons. When off, it only copies the link. On phones, the system share sheet is used.",
                     "local_dates_help": "[date=2026-10-20 time=14:00 timezone=\"America/Sao_Paulo\"] shows the date and time in the reader's time zone. Takes effect after clearing the cache.",
                     "invites_enabled_help": "Whoever has the \"Invite\" permission (Permissions) creates links with an expiry and a number of uses, in Share and in the \"More\" menu. Whoever joins through a link shows as invited, and the inviter gets \"Someone accepted your invite\". Requires open sign-up.",
@@ -747,6 +756,8 @@
                     "verified_help": "The ramon/verified badge right after the name, on the text line and at its size, like a user icon: in the post header, embedded posts, \"in reply to\", the user card and the profile.",
                     "wiki_label": "Wiki in the theme style",
                     "wiki_help": "The linkrobins/wiki wiki with the theme look: the index as the discussion list, the article as the first post (with the map and the history), the discussion composer for writing (with draft, advanced options and FAQ) and the \"Wiki\" link in the community section of the sidebar.",
+                    "audit_label": "Audit log in the theme style",
+                    "audit_help": "The flarum/audit log with the theme look: an icon for what changed on the avatar, the action as a pill colored by kind (created, hidden, edited), entries grouped by day and Enter to apply the filter.",
                     "ramon_chat_label": "Chat (ramon/chat) in the theme style",
                     "ramon_chat_help": "The ramon/chat extension looking like the theme's chat: the page without a second column, the drawer, messages, composer, threads and channel screens. With the extension enabled, the theme's own chat steps aside for it.",
                     "ramon_chat_sidebar_label": "Channels in the sidebar",
@@ -2668,6 +2679,43 @@
                     "user_left": "{who} removed themselves from this message {when}"
                 }
             },
+            "push": {
+                "title": "Browser notifications",
+                "state_loading": "Checking this device…",
+                "state_unsupported": "This browser does not support push notifications.",
+                "state_denied": "Notifications are blocked in this browser's permissions for this site.",
+                "state_off": "Get your notifications on this device even with the forum closed.",
+                "state_on": "On for this device. Pick the types in the Push column.",
+                "enable": "Turn on for this device",
+                "disable": "Turn off for this device",
+                "column": "Push",
+                "error": "Could not change notifications for this device.",
+                "generic": "{username} has something new for you",
+                "types": {
+                    "newPost": "{username} replied",
+                    "postLiked": "{username} liked your post",
+                    "postMentioned": "{username} replied to your post",
+                    "userMentioned": "{username} mentioned you",
+                    "groupMentioned": "{username} mentioned your group",
+                    "discussionRenamed": "{username} renamed the discussion",
+                    "discussionLocked": "{username} locked the discussion",
+                    "canelaAssigned": "{username} assigned this discussion to you",
+                    "canelaPostEdited": "{username} edited your post",
+                    "canelaTopicLinked": "{username} linked your discussion"
+                }
+            },
+            "assign": {
+                "title": "Assign discussion",
+                "placeholder": "Search by username…",
+                "remove": "Remove {username}’s assignment",
+                "notification": "{username} assigned a discussion to you",
+                "label": "Assigned to",
+                "assigned_to": "Assigned to {username}",
+                "action": "Assign…",
+                "change": "Change assignment…",
+                "nav": "Assigned to me",
+                "setting": "Someone assigns a discussion to me"
+            },
             "metoo": {
                 "label": "Me too",
                 "label_with_count": "{label} ({count})",
@@ -2950,6 +2998,10 @@
                     "remove": "Remove your reaction",
                     "like_reaction": "Like"
                 },
+                "audit": {
+                    "today": "Today",
+                    "yesterday": "Yesterday"
+                },
                 "polls": {
                     "votes": "{count, plural, =0 {votes} one {vote} other {votes}}"
                 },
@@ -3000,6 +3052,8 @@
                     "go_to_post": "Go to post"
                 },
                 "post": {
+                    "notice_first": "This is the first time {username} has posted. Let’s welcome them to the community!",
+                    "notice_returning": "Welcome back, {username}! Their last post was {ago}.",
                     "mention_unavailable": "post unavailable",
                     "in_reply_to": "In reply to: click to show the post",
                     "reply_to_label": "In reply to",
@@ -3769,6 +3823,16 @@
         "forum": {
             "providers": {
                 "passkey": "Passkey"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "assigned": "Assigned {discussion} to {username}",
+                    "unassigned": "Removed the assignment from {discussion}"
+                }
             }
         }
     }

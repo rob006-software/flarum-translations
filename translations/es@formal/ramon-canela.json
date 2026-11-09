@@ -658,6 +658,7 @@
                     "not_found_template_signpost": "Señalización",
                     "not_found_template_signpost_help": "La señal en el centro, la barra de búsqueda y listas breves de discusiones.",
                     "invite_permission": "Invitar personas (enlaces de invitación)",
+                    "assign_permission": "",
                     "lightbox_label": "Ampliar imágenes (visor)",
                     "lightbox_help": "Al pulsar una imagen de una publicación se abre ampliada sobre un fondo oscuro, con flechas entre las imágenes de esa publicación, zoom, «Imagen original» y «Descargar».",
                     "code_buttons_label": "Botones en los bloques de código",
@@ -695,6 +696,14 @@
                     "sidebar_custom_links_label": "Enlaces de la sección personalizada",
                     "sidebar_custom_links_help": "Un enlace por línea: Etiqueta | dirección | icono (opcional, de Font Awesome). Las direcciones que empiezan por / pertenecen al propio foro. Sin enlaces, la sección no aparece.",
                     "inline_title_editor_help": "Quien puede renombrar ve un lápiz junto al título de la discusión. El título se convierte en un campo con el botón de etiquetas y ✓/✕ para guardar o cancelar.",
+                    "pwa_label": "",
+                    "pwa_help": "",
+                    "push_label": "",
+                    "push_help": "",
+                    "post_notices_label": "",
+                    "post_notices_help": "",
+                    "post_notice_months_label": "",
+                    "post_notice_months_help": "",
                     "share_modal_help": "El botón Compartir abre una ventana con el enlace, el botón para copiar y los botones de redes. Si está desactivado, solo copia el enlace. En móviles se utiliza el diálogo de compartir del sistema.",
                     "local_dates_help": "[date=2026-10-20 time=14:00 timezone=\"America/Sao_Paulo\"] muestra la fecha y hora en la zona horaria del lector. Se aplica después de vaciar la caché.",
                     "invites_enabled_help": "Quien tiene el permiso «Invitar» crea enlaces con caducidad y número de usos desde Compartir y el menú «Más». Quien entra con un enlace aparece como invitado, y quien lo invitó recibe «Alguien aceptó tu invitación». Requiere que el registro esté abierto.",
@@ -747,6 +756,8 @@
                     "verified_help": "La insignia de ramon/verified justo después del nombre, en su misma línea y tamaño como un icono de usuario: en la cabecera de publicaciones, publicaciones integradas, «En respuesta a», tarjeta de usuario y perfil.",
                     "wiki_label": "Wiki con el estilo del tema",
                     "wiki_help": "La wiki de linkrobins/wiki con la apariencia del tema: índice como lista de discusiones, artículo como primera publicación con mapa e historial, editor de discusiones para escribir con borrador, opciones avanzadas y preguntas frecuentes, y enlace «Wiki» en la sección Comunidad de la barra lateral.",
+                    "audit_label": "",
+                    "audit_help": "",
                     "ramon_chat_label": "Chat (ramon/chat) con el estilo del tema",
                     "ramon_chat_help": "La extensión ramon/chat con la apariencia del chat del tema: página sin segunda columna, panel desplegable, mensajes, editor, hilos y pantallas de canales. Con la extensión activada, el chat del tema le cede el lugar.",
                     "ramon_chat_sidebar_label": "Canales en la barra lateral",
@@ -2668,6 +2679,43 @@
                     "user_left": "{who} abandonó esta conversación {when}"
                 }
             },
+            "push": {
+                "title": "",
+                "state_loading": "",
+                "state_unsupported": "",
+                "state_denied": "",
+                "state_off": "",
+                "state_on": "",
+                "enable": "",
+                "disable": "",
+                "column": "",
+                "error": "",
+                "generic": "",
+                "types": {
+                    "newPost": "",
+                    "postLiked": "",
+                    "postMentioned": "",
+                    "userMentioned": "",
+                    "groupMentioned": "",
+                    "discussionRenamed": "",
+                    "discussionLocked": "",
+                    "canelaAssigned": "",
+                    "canelaPostEdited": "",
+                    "canelaTopicLinked": ""
+                }
+            },
+            "assign": {
+                "title": "",
+                "placeholder": "",
+                "remove": "",
+                "notification": "",
+                "label": "",
+                "assigned_to": "",
+                "action": "",
+                "change": "",
+                "nav": "",
+                "setting": ""
+            },
             "metoo": {
                 "label": "A mí también",
                 "label_with_count": "{label} ({count})",
@@ -2950,6 +2998,10 @@
                     "remove": "Quitar tu reacción",
                     "like_reaction": "Me gusta"
                 },
+                "audit": {
+                    "today": "",
+                    "yesterday": ""
+                },
                 "polls": {
                     "votes": "{count, plural, =0 {votos} one {voto} other {votos}}"
                 },
@@ -3000,6 +3052,8 @@
                     "go_to_post": "Ir a la publicación"
                 },
                 "post": {
+                    "notice_first": "",
+                    "notice_returning": "",
                     "mention_unavailable": "publicación no disponible",
                     "in_reply_to": "En respuesta a: pulsa para mostrar la publicación",
                     "reply_to_label": "En respuesta a",
@@ -3769,6 +3823,16 @@
         "forum": {
             "providers": {
                 "passkey": ""
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "assigned": "",
+                    "unassigned": ""
+                }
             }
         }
     }

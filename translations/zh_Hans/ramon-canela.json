@@ -667,6 +667,7 @@
                     "not_found_template_signpost": "",
                     "not_found_template_signpost_help": "",
                     "invite_permission": "",
+                    "assign_permission": "",
                     "lightbox_label": "",
                     "lightbox_help": "",
                     "code_buttons_label": "",
@@ -704,6 +705,14 @@
                     "sidebar_custom_links_label": "",
                     "sidebar_custom_links_help": "",
                     "inline_title_editor_help": "",
+                    "pwa_label": "",
+                    "pwa_help": "",
+                    "push_label": "",
+                    "push_help": "",
+                    "post_notices_label": "",
+                    "post_notices_help": "",
+                    "post_notice_months_label": "",
+                    "post_notice_months_help": "",
                     "share_modal_help": "",
                     "local_dates_help": "",
                     "invites_enabled_help": "",
@@ -756,6 +765,8 @@
                     "verified_help": "ramon/verified徽章会紧跟在姓名后方，并按文本行尺寸显示，类似Discourse用户图标；适用于帖子标题、嵌入式帖子、\"回复对象\"、用户卡片和个人资料。",
                     "wiki_label": "主题风格的Wiki",
                     "wiki_help": "采用Discourse风格显示linkrobins/wiki：索引采用讨论列表布局，文章作为首帖显示（含摘要和历史记录），使用讨论编辑器撰写（含草稿、高级选项和常见问题），侧边栏社区区块中提供\"Wiki\"链接。",
+                    "audit_label": "",
+                    "audit_help": "",
                     "ramon_chat_label": "Discourse风格的聊天（ramon/chat）",
                     "ramon_chat_help": "将ramon/chat扩展呈现为Discourse聊天：不带第二栏的页面、抽屉、消息、编辑器、主题串和频道页面。启用此扩展后，主题自带聊天会让位给它。",
                     "ramon_chat_sidebar_label": "侧边栏中的频道",
@@ -2681,6 +2692,43 @@
                     "user_left": "{who}于{when}退出了此消息对话"
                 }
             },
+            "push": {
+                "title": "",
+                "state_loading": "",
+                "state_unsupported": "",
+                "state_denied": "",
+                "state_off": "",
+                "state_on": "",
+                "enable": "",
+                "disable": "",
+                "column": "",
+                "error": "",
+                "generic": "",
+                "types": {
+                    "newPost": "",
+                    "postLiked": "",
+                    "postMentioned": "",
+                    "userMentioned": "",
+                    "groupMentioned": "",
+                    "discussionRenamed": "",
+                    "discussionLocked": "",
+                    "canelaAssigned": "",
+                    "canelaPostEdited": "",
+                    "canelaTopicLinked": ""
+                }
+            },
+            "assign": {
+                "title": "",
+                "placeholder": "",
+                "remove": "",
+                "notification": "",
+                "label": "",
+                "assigned_to": "",
+                "action": "",
+                "change": "",
+                "nav": "",
+                "setting": ""
+            },
             "metoo": {
                 "label": "我也遇到了",
                 "label_with_count": "{label}（{count}）",
@@ -2963,6 +3011,10 @@
                     "remove": "移除你的回应",
                     "like_reaction": "点赞"
                 },
+                "audit": {
+                    "today": "",
+                    "yesterday": ""
+                },
                 "polls": {
                     "votes": "{count, plural, =0 {票} one {票} other {票}}"
                 },
@@ -3013,6 +3065,8 @@
                     "go_to_post": "前往帖子"
                 },
                 "post": {
+                    "notice_first": "",
+                    "notice_returning": "",
                     "mention_unavailable": "帖子不可用",
                     "in_reply_to": "回复对象：点击显示帖子",
                     "reply_to_label": "回复对象",
@@ -3782,6 +3836,16 @@
         "forum": {
             "providers": {
                 "passkey": "通行密钥"
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "assigned": "",
+                    "unassigned": ""
+                }
             }
         }
     }
