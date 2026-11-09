@@ -4,8 +4,8 @@
             "settings": {
                 "show_profile_label": "Auf der Profilkarte anzeigen",
                 "show_profile_help": "",
-                "show_contributors_label": "",
-                "show_contributors_help": "",
+                "show_contributors_label": "Top-Mitwirkende anzeigen",
+                "show_contributors_help": "Wer im ausgewählten Zeitraum die meisten Likes erhalten (oder – ohne die „Likes“-Erweiterung – die meisten Kommentare verfasst) hat. Es zählen nur öffentliche Diskussionen.",
                 "contributors_period_label": "",
                 "contributors_period_help": "",
                 "period_day": "Heute",
@@ -13,46 +13,46 @@
                 "period_month": "Diesen Monat",
                 "period_year": "Dieses Jahr",
                 "contributors_count_label": "",
-                "contributors_count_help": "",
+                "contributors_count_help": "Zwischen 1 und 10.",
                 "show_participants_label": "",
                 "show_participants_help": "",
-                "footer_links_label": "",
+                "footer_links_label": "Links in der Fußzeile der Seitenleiste",
                 "footer_links_help": ""
             }
         },
         "forum": {
             "sidebar": {
-                "label": "",
+                "label": "Forennavigation",
                 "home": "Start",
                 "following": "",
-                "admin": "",
+                "admin": "Admin",
                 "tags": "Tags",
                 "all_tags": "Alle Tags",
-                "more": "",
-                "unread": ""
+                "more": "Mehr",
+                "unread": "Neue Aktivität"
             },
             "head": {
-                "search": ""
+                "search": "Ergebnisse für „{q}“"
             },
             "blocks": {
                 "label": ""
             },
             "profile": {
-                "label": "",
-                "edit": "",
-                "welcome": ""
+                "label": "Dein Profil",
+                "edit": "Profil bearbeiten",
+                "welcome": "Willkommen bei {forum}"
             },
             "contributors": {
-                "title": "",
-                "period_label": "",
+                "title": "Top-Mitwirkende",
+                "period_label": "Zeitraum",
                 "period": {
-                    "day": "",
-                    "week": "",
-                    "month": "",
-                    "year": ""
+                    "day": "Heute",
+                    "week": "Wöchentlich",
+                    "month": "Monatlich",
+                    "year": "Jährlich"
                 },
-                "likes": "",
-                "posts": "",
+                "likes": "{count, plural, one {{formatted} Like} other {{formatted} Likes}}",
+                "posts": "{count, plural, one {{formatted} Kommentar} other {{formatted} Kommentare}}",
                 "empty": {
                     "day": "",
                     "week": "",
@@ -65,15 +65,15 @@
                 "participants": ""
             },
             "panel": {
-                "label": "",
-                "replies": "",
+                "label": "Über diese Diskussion",
+                "replies": "{count, plural, one {Antwort} other {Antworten}}",
                 "participants": "",
-                "views": ""
+                "views": "{count, plural, one {Aufruf} other {Aufrufe}}"
             },
             "phone": {
                 "tabs": "",
-                "messages": "",
-                "more": ""
+                "messages": "Nachrichten",
+                "more": "Mehr"
             }
         }
     }
