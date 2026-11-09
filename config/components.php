@@ -1086,9 +1086,7 @@ return [
 	],
 	'ygpynet-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/ygpynet/leaderboard/v1.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'yippy-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/Yippy/flarum-ext-auth-ldap/v2.0.2/locale/en.yml',
