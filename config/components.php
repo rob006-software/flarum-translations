@@ -901,9 +901,7 @@ return [
 	],
 	'jiushutech-force-password-change' => [
 		'tag' => 'https://raw.githubusercontent.com/jiushutech/force-password-change/v2.0.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
