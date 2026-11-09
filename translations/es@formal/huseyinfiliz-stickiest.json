@@ -2,41 +2,41 @@
     "huseyinfiliz-stickiest": {
         "admin": {
             "settings": {
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "show_sticky_highlight_label": "",
-                "show_sticky_highlight_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "show_tag_sticky_label": "Mostrar fijadas por etiqueta en «Todas las discusiones»",
+                "show_tag_sticky_help": "Al desactivar esta opción, las discusiones fijadas por etiqueta solo aparecerán al explorar la etiqueta específica.",
+                "show_sticky_highlight_label": "Mostrar resaltado de discusiones fijadas",
+                "show_sticky_highlight_help": "Al activarse, las discusiones fijadas mostrarán un borde izquierdo coloreado y un fondo matizado en la lista de temas.",
+                "stickiest_icon_label": "Icono de insignia superfijada",
+                "stickiest_icon_help": "Clase de icono de Font Awesome (ej. fas fa-star)"
             },
             "permissions": {
-                "stickiest_label": "",
-                "tag_sticky_label": ""
+                "stickiest_label": "Superfijar discusiones",
+                "tag_sticky_label": "Fijar discusiones por etiqueta"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "stickiest_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "Fijada",
+                "stickiest_tooltip": "Superfijada",
+                "tag_sticky_tooltip": "Fijada por etiqueta"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "Fijar"
             },
             "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+                "title": "Fijar: {title}",
+                "sticky_label": "Fijada",
+                "sticky_help": "Fijada en la parte superior de «Todas las discusiones» cuando no se ha leído; siempre fija al ver la etiqueta.",
+                "stickiest_label": "Superfijada",
+                "stickiest_help": "Siempre fija en la parte superior de cualquier sección.",
+                "tag_sticky_label": "Fijada por etiqueta",
+                "tag_sticky_help": "Solo permanece fija al explorar las etiquetas seleccionadas.",
+                "select_tags": "Seleccionar etiquetas",
+                "submit_button": "Guardar cambios"
             },
             "post_stream": {
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_stickiest_text": "{username} fijó la discusión como superfijada.",
+                "discussion_unstickiest_text": "{username} desmarcó la discusión como superfijada."
             }
         }
     }
