@@ -9,18 +9,18 @@
                 "max_edge_help": ""
             },
             "permissions": {
-                "enter": "",
-                "vote": "",
-                "manage": ""
+                "enter": "An Fotowettbewerben teilnehmen",
+                "vote": "In Fotowettbewerben abstimmen",
+                "manage": "Fotowettbewerbe durchführen (starten, bearbeiten, Beiträge moderieren, Stimmen auswerten)"
             },
             "badges": {
                 "wins": "",
                 "podiums": "",
-                "entries": ""
+                "entries": "In Wettbewerben eingereichte Fotos"
             }
         },
         "api": {
-            "atrium_caption": "",
+            "atrium_caption": "{place} im Fotowettbewerb „{contest}“.",
             "upload": {
                 "missing": "",
                 "incomplete": "",
@@ -32,7 +32,7 @@
             },
             "block": {
                 "closed": "",
-                "guest": "",
+                "guest": "Zur Teilnahme anmelden.",
                 "permission": "",
                 "groups": "",
                 "judge": "",
