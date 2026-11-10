@@ -650,7 +650,7 @@
                     "on_assign_label": "Reply when a discussion is assigned to it",
                     "on_assign_help": "With \"Assign discussion\" on, the assistant shows up as a suggestion and replies in the discussions it gets. Counts toward the daily AI limit of whoever assigned, and only works for people who can use the AI.",
                     "auto_label": "Reply on its own in some tags",
-                    "auto_help": "The assistant replies unprompted in discussions with the checked tags. Counts toward the daily AI limit of whoever posted; it never replies to itself or to the system account.",
+                    "auto_help": "The assistant replies unprompted in discussions with the checked tags. It only replies to people who can use AI, and counts toward their daily AI limit; it never replies to itself or to the system account.",
                     "tags_label": "In which tags",
                     "tags_help": "Check your support tags (for example: Support, Questions). None checked: it never replies on its own.",
                     "tags_loading": "Loading tags…",

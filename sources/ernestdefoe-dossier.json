@@ -55,6 +55,7 @@
                 "skills": "Skills",
                 "languages": "Languages",
                 "projects": "Projects",
+                "series": "{noun, select, novel {Novels} story {Stories} book {Books} other {Series}}",
                 "certificates": "Certificates and achievements",
                 "links": "Links",
                 "open_to": "Open to"
@@ -100,6 +101,12 @@
             "projects": {
                 "none": "Projects the member publishes on the Projects tab show up here.",
                 "all": "All projects"
+            },
+            "series": {
+                "none": "{noun, select, novel {Novels} story {Stories} book {Books} other {Series}} the member writes show up here.",
+                "all": "{noun, select, novel {All novels} story {All stories} book {All books} other {All series}}",
+                "chapters": "{count, plural, one {# chapter} other {# chapters}}",
+                "complete": "Complete"
             },
             "certificates": {
                 "verify": "Verify",
