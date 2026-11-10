@@ -210,6 +210,9 @@ return [
 	'ernestdefoe-club' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/club/v1.0.2/locale/en.yml',
 	],
+	'ernestdefoe-community-goals' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/community-goals/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-concourse' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/concourse/1.1.3/locale/en.yml',
 	],
