@@ -370,6 +370,9 @@ return [
 	'ernestdefoe-moments' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/moments/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-mural' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mural/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.12/locale/en.yml',
 	],
