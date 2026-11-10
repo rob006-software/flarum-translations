@@ -292,9 +292,9 @@
                 "tab_ratings": "",
                 "none_progress": "",
                 "none_ratings": "",
-                "change_progress": "",
-                "change_rating": "",
-                "more": ""
+                "change_progress": "{name} hat {title} markiert als",
+                "change_rating": "{name} hat {title} bewertet",
+                "more": "Mehr"
             },
             "nav": {
                 "mine": "Meine Sammlungen"
@@ -331,9 +331,9 @@
             },
             "marquee": {
                 "add": "Zur Sammlung hinzufügen",
-                "edit": "",
-                "wish": "",
-                "on_wishlist": ""
+                "edit": "In der Sammlung bearbeiten",
+                "wish": "Zu meiner Wunschliste hinzufügen",
+                "on_wishlist": "Auf deiner Wunschliste"
             },
             "hero": {
                 "here": "In diesem Forum",
@@ -359,11 +359,11 @@
                 "match_setting": "Jemand bietet etwas von deiner Wunschliste zum Tausch an",
                 "new_items": "{username} hat zu {name} hinzugefügt",
                 "new_items_setting": "Eine Sammlung, der ich folge, hat neue Artikel",
-                "wishlist_added": "",
+                "wishlist_added": "{username} Zur Wunschliste von {name} hinzugefügt",
                 "wishlist_added_setting": "",
                 "progress_changed": "",
                 "progress_changed_setting": "",
-                "rating_changed": "",
+                "rating_changed": "{username} hat etwas in {name} bewertet",
                 "rating_changed_setting": ""
             },
             "widget": {
@@ -382,14 +382,14 @@
                 "editions_help": "",
                 "barcodes_label": "",
                 "barcodes_help": "",
-                "barcodelookup_label": "",
+                "barcodelookup_label": "barcodelookup.com API-Schlüssel (optional, kostenpflichtig)",
                 "barcodelookup_help": "",
-                "barcodelookup_link": "",
+                "barcodelookup_link": "barcodelookup.com Abonnements und API-Schlüssel",
                 "eansearch_label": "EAN-Search.org API-Token (optional, kostenpflichtig)",
                 "eansearch_help": "",
-                "eansearch_link": "",
-                "ebay_app_label": "",
-                "ebay_cert_label": "",
+                "eansearch_link": "EAN-Search Abonnements und Registrierung",
+                "ebay_app_label": "eBay App-ID (Client-ID) (optional)",
+                "ebay_cert_label": "eBay Cert-ID (Client Secret)",
                 "ebay_help": "",
                 "ebay_link": "",
                 "ebay_market_label": "",
@@ -409,7 +409,7 @@
                 "ranking_help": "",
                 "ranking_collections": "",
                 "ranking_collectors": "",
-                "ranking_both": "",
+                "ranking_both": "Beides",
                 "type_color_label": "",
                 "type_color_help": "",
                 "type_color_background": "",

@@ -14,12 +14,12 @@
                 "brokenCardImageDetails": ""
             },
             "brokenImagesAlert": "",
-            "brokenImagesDetails": "",
+            "brokenImagesDetails": "Details",
             "brokenImagesModal": {
                 "title": "",
                 "intro": "",
-                "listTitle": "",
-                "more": "",
+                "listTitle": "Mindestens {count} Diskussion(en) betroffen:",
+                "more": "…und {count} weitere.",
                 "partial": "",
                 "action": ""
             }
@@ -64,7 +64,7 @@
                     "regenerateImagesModal_regenerateWithoutHelp": "Dadurch werden Kartenbilder für Diskussionen erstellt, für die noch kein Kartenbild festgelegt wurde (anstelle eines der Standardbilder oder eines Bildes aus dem ersten Beitrag wird das Platzhalterbild angezeigt). Pro Ausführung werden maximal 20 Diskussionen ohne Bilder verarbeitet. Durch Klicken auf die folgende Schaltfläche wird dieser CLI-Befehl ausgeführt: <code>php flarum discussion-cards:regenerate-images -a -w 20</code>.",
                     "regenerateImagesModal_regenerateWithoutBtnText": "Fehlende Kartenbilder erstellen (max. 20)",
                     "regenerateImagesModal_success": "Bilder erfolgreich neu erstellt",
-                    "regenerateImagesModal_progress": "",
+                    "regenerateImagesModal_progress": "Wird verarbeitet… {done}/{total} Diskussionen abgeschlossen",
                     "regenerateImagesModal_summary": "",
                     "regenerateImagesModal_noImageHint": "",
                     "regenerateImagesModal_failure": "",
