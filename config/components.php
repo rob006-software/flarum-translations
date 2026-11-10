@@ -1757,9 +1757,7 @@ return [
 	],
 	'toreador-mail-audit' => [
 		'tag' => 'https://raw.githubusercontent.com/toreador34/flarum-mail-audit/v1.0.1/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'tr',
-		],
+		'__builtInLanguages' => ['tr'],
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.8/resources/locale/en.yml',
