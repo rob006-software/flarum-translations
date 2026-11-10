@@ -265,6 +265,9 @@ return [
 	'ernestdefoe-forum-pet' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/forum-pet/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-garage' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garage/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-garrison' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garrison/v1.6.5/resources/locale/en.yml',
 	],
