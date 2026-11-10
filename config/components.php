@@ -464,6 +464,9 @@ return [
 	'ernestdefoe-steward' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.2.1/locale/en.yml',
 	],
+	'ernestdefoe-sticker-book' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sticker-book/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-story-chain' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/story-chain/1.0.0/locale/en.yml',
 	],
