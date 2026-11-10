@@ -183,6 +183,9 @@ return [
 	'ernestdefoe-backdrop' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/backdrop/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-bingo' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bingo/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-bouncer' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.2/resources/locale/en.yml',
 	],
