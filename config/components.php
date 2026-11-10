@@ -370,6 +370,9 @@ return [
 	'ernestdefoe-projects' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.11/resources/locale/en.yml',
 	],
+	'ernestdefoe-question-of-the-day' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/question-of-the-day/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-quickdraw' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.6/locale/en.yml',
 	],
