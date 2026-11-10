@@ -440,6 +440,9 @@ return [
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.13/locale/en.yml',
 	],
+	'ernestdefoe-tier-lists' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tier-lists/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-topic-map' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.4/locale/en.yml',
 	],
