@@ -1037,6 +1037,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-marginalia`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-marginalia) | [`ernestdefoe/marginalia`](https://github.com/ernestdefoe/marginalia) |
 | [`ernestdefoe-marquee`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-marquee) | [`ernestdefoe/marquee`](https://github.com/ernestdefoe/marquee) |
 | [`ernestdefoe-masthead`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-masthead) | [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) |
+| [`ernestdefoe-member-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-member-map) | [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) |
 | [`ernestdefoe-menu-control`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-menu-control) | [`ernestdefoe/menu-control`](https://github.com/ernestdefoe/menu-control) |
 | [`ernestdefoe-mobile-tab`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mobile-tab) | [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) |
 | [`ernestdefoe-moments`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-moments) | [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) |
