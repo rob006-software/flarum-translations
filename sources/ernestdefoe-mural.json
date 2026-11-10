@@ -1,0 +1,203 @@
+{
+    "ernestdefoe-mural": {
+        "admin": {
+            "permissions": {
+                "view": "View the mural",
+                "paint": "Paint on the mural",
+                "moderate": "Run the mural (roll back, ban painters, end seasons)"
+            },
+            "settings": {
+                "nav": "Show \"Mural\" in the sidebar navigation",
+                "widget": "Show the live mural picture in the sidebar",
+                "widget_help": "A small picture of the canvas under the navigation. It hides itself on forums where you place the Mural widget with Bespoke or FoF Forum Widgets instead.",
+                "allow_indexing": "Let search engines index the mural pages",
+                "allow_indexing_help": "Off by default. The canvas itself needs JavaScript, so search engines see only the title and picture.",
+                "cooldown": "Seconds between tiles",
+                "cooldown_help": "How long a member waits after placing a tile before they can place another. 300 is five minutes; 0 means no wait.",
+                "group_cooldowns": "Shorter (or longer) waits for groups",
+                "group_cooldowns_help": "Leave a group blank to use the wait above. A member in several groups gets the shortest wait of their groups.",
+                "group_cooldown_placeholder": "Same as above",
+                "next_season": "Next season",
+                "width": "Canvas width (tiles)",
+                "height": "Canvas height (tiles)",
+                "size_help": "From 16 to 512 tiles a side. A new size takes effect when the next season starts; the canvas being painted keeps its size. 128 × 128 suits most forums; go bigger for busy ones.",
+                "palette": "Colors",
+                "palette_help": "{count} colors. The first one is the blank canvas. Like the size, a new palette takes effect at the next season."
+            },
+            "palettes": {
+                "mural32": "Mural 32 (bright, balanced)",
+                "mural16": "Mural 16 (bold, simple)",
+                "pastel16": "Pastel 16 (soft)",
+                "custom": "Your own colors"
+            },
+            "widgets": {
+                "live": "Live mural"
+            }
+        },
+        "forum": {
+            "nav": "Mural",
+            "page": {
+                "title": "Mural",
+                "description": "One shared canvas the whole forum paints together, one tile at a time.",
+                "live": "Live",
+                "active": "{count, plural, one {# painting now} other {# painting now}}"
+            },
+            "season": {
+                "name": "Season {number}",
+                "download": "Download picture",
+                "timelapse": "Play timelapse",
+                "play": "Play",
+                "pause": "Pause",
+                "scrub": "Timelapse position",
+                "speed": "Playback speed",
+                "no_timelapse": "This season's timelapse could not be loaded."
+            },
+            "stage": {
+                "label": "The mural. Drag to move, pinch or scroll to zoom, tap a tile to choose it. Arrow keys move the selection and Enter places a tile.",
+                "error": "The mural could not be loaded. Check your connection and refresh the page.",
+                "zoom_in": "Zoom in",
+                "zoom_out": "Zoom out",
+                "fit": "Show the whole mural",
+                "copy_link": "Copy a link to this spot",
+                "link_copied": "Link to this spot copied."
+            },
+            "dock": {
+                "guest": "Log in to paint a tile on the mural.",
+                "log_in": "Log in",
+                "banned": "A moderator has stopped you from painting on the mural.",
+                "banned_until": "A moderator has stopped you from painting on the mural until {date}.",
+                "confirm_email": "Confirm your email address to start painting.",
+                "no_permission": "You can look, but painting isn't open to your account.",
+                "hint": "Tap a tile on the mural, then pick a color.",
+                "hint_tile": "Now tap the tile you want to paint.",
+                "tile": "Tile {x}, {y}",
+                "by": "by",
+                "repainted": "{count, plural, one {painted once} other {painted # times}}",
+                "palette": "Colors",
+                "place": "Place tile",
+                "wait": "Waiting…",
+                "ready": "Ready",
+                "next_in": "Next tile in {time}"
+            },
+            "tile": {
+                "blank": "Nobody has painted here yet",
+                "deleted": "A former member"
+            },
+            "stats": {
+                "tiles": "tiles placed",
+                "painters": "painters",
+                "last24": "in the last 24 hours",
+                "size": "tiles across",
+                "mine": "{count, plural, one {your place · # tile} other {your place · # tiles}}",
+                "top": "Top painters",
+                "activity": "Last 24 hours",
+                "hours_label": "{count, plural, one {# tile placed in the last 24 hours} other {# tiles placed in the last 24 hours}}",
+                "now": "Now",
+                "no_painters": "Nobody has painted yet. Be the first!"
+            },
+            "how": {
+                "title": "How it works",
+                "pick": "Tap a tile, pick a color, then place it.",
+                "wait": "After each tile, wait {time} before the next one.",
+                "a_while": "a little while",
+                "move": "Drag to look around; pinch, scroll or double-tap to zoom.",
+                "seasons": "When a season ends, the mural and its timelapse go to the gallery and a fresh canvas starts."
+            },
+            "time": {
+                "seconds": "{count, plural, one {# second} other {# seconds}}",
+                "minutes": "{count, plural, one {# minute} other {# minutes}}",
+                "hours": "{count, plural, one {# hour} other {# hours}}"
+            },
+            "gallery": {
+                "title": "Mural gallery",
+                "subtitle": "Every finished mural, with a timelapse of how it was painted.",
+                "link": "Gallery",
+                "paint": "Paint now",
+                "now_painting": "Being painted now · {tiles} tiles by {painters} painters",
+                "counts": "{tiles} tiles · {painters} painters",
+                "empty": "No season has ended yet. Finished murals will show up here.",
+                "more": "Show older seasons"
+            },
+            "alerts": {
+                "new_season": "Season {number} has started on a fresh canvas. The last one is in the gallery."
+            },
+            "widget": {
+                "name": "Live mural",
+                "title": "Live mural",
+                "heading": "Heading (optional)",
+                "alt": "The forum's mural as it looks right now",
+                "cta": "Paint a tile"
+            },
+            "palettes": {
+                "mural32": "Mural 32",
+                "mural16": "Mural 16",
+                "pastel16": "Pastel 16"
+            },
+            "mod": {
+                "menu": "Moderate",
+                "rollback": "Roll back an area",
+                "rollback_short": "Roll back",
+                "rollback_help": "Puts the tiles in the area back to how they were before. Pick a member, a time range, or both. Nothing is deleted, so you can undo it below.",
+                "area_help": "Drag over the area you want to roll back.",
+                "cancel": "Cancel",
+                "area": "Area (from corner to corner)",
+                "member": "Member",
+                "member_placeholder": "Username",
+                "time_range": "Only tiles placed in this time range",
+                "from": "From",
+                "to": "To (blank = now)",
+                "check": "Check",
+                "preview": "{count, plural, one {This undoes # tile} other {This undoes # tiles}} by {painters, plural, one {# member} other {# members}}.",
+                "preview_none": "No tiles match. Change the area, member or time range.",
+                "rollback_go": "{count, plural, one {Roll back # tile} other {Roll back # tiles}}",
+                "rollback_done": "{count, plural, one {Rolled back # tile.} other {Rolled back # tiles.}}",
+                "history": "Recent rollbacks",
+                "history_row": "{count, plural, one {# tile} other {# tiles}}",
+                "undo": "Undo",
+                "undone": "Undone",
+                "undo_confirm": "{count, plural, one {Put # tile back on the mural?} other {Put # tiles back on the mural?}}",
+                "undo_done": "The rollback was undone.",
+                "bans": "Painting bans",
+                "bans_help": "A banned member can still look at the mural, but can't place tiles.",
+                "days": "Days",
+                "days_placeholder": "Until lifted",
+                "reason": "Reason (only moderators see it)",
+                "ban": "Ban from painting",
+                "ban_done": "The member can no longer paint.",
+                "banned_now": "Banned now",
+                "no_bans": "Nobody is banned from painting.",
+                "until": "until {date}",
+                "forever": "until lifted",
+                "lift": "Lift",
+                "end_season": "End this season",
+                "end_help": "{name} ends with {tiles} tiles. Its picture and timelapse go to the gallery, and everyone starts again on a blank canvas.",
+                "next_title": "Name of the next season (optional)",
+                "width": "Width",
+                "height": "Height",
+                "palette": "Colors",
+                "from_settings": "As in the settings",
+                "end_sure": "Yes, end this season now",
+                "end_go": "End season and start the next",
+                "end_done": "Season {number} has started."
+            },
+            "errors": {
+                "banned": "A moderator has stopped you from painting on the mural.",
+                "cooldown": "Not yet! Wait for the timer before placing another tile.",
+                "slow_down": "One moment, your last tile is still being placed.",
+                "season_over": "This season just ended. Here's the new canvas.",
+                "bad_tile": "That tile or color isn't on this canvas.",
+                "confirm_email": "Confirm your email address to start painting.",
+                "no_such_user": "There's no member with that username.",
+                "rollback_needs_filter": "Pick a member or a time range to roll back.",
+                "cannot_ban": "You can't ban that member from painting.",
+                "not_found": "That mural could not be found."
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Tiles you placed on the mural.",
+                "delete": "Your tiles stay on the mural, but no longer show your name."
+            }
+        }
+    }
+}

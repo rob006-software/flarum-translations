@@ -1,0 +1,250 @@
+{
+    "ernestdefoe-bingo": {
+        "admin": {
+            "settings": {
+                "nav": "Show \"Bingo\" in the forum's sidebar",
+                "allow_indexing": "Let search engines index the Bingo pages",
+                "allow_indexing_help": "Off by default. Games and their cards need JavaScript, so there is little for a search engine to read."
+            },
+            "permissions": {
+                "view": "View Bingo games",
+                "play": "Play Bingo",
+                "create": "Host Bingo games",
+                "moderate": "Referee every Bingo game (confirm squares, rule on calls, edit and delete games)"
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Bingo games you host, your cards and marks, your calls and disputes.",
+                "delete": "Your Bingo cards, calls and disputes are deleted. Games you host stay, without a host."
+            }
+        },
+        "forum": {
+            "nav": "Bingo",
+            "hub": {
+                "title": "Bingo",
+                "lead": "Play along with the big game, the ads, the keynote or the stream. Everyone gets their own card.",
+                "create": "New game",
+                "load_error": "Bingo could not be loaded. Please try again.",
+                "empty": "No games yet. Start one for the next big event!",
+                "live": "Live now",
+                "upcoming": "Coming up",
+                "past": "Finished",
+                "more": "Show more",
+                "board": "Winners",
+                "board_medal": "{place} ×{count}",
+                "mine": "{count, plural, one {You're one away!} other {You're # away}}",
+                "mine_bingo": "You have Bingo!"
+            },
+            "status": {
+                "upcoming": "Coming up",
+                "live": "Live",
+                "finished": "Finished"
+            },
+            "clock": {
+                "starts_in": "Starts in {time}",
+                "ends_in": "Ends in {time}",
+                "ended": "Ended {time}"
+            },
+            "game": {
+                "hosted_by": "Hosted by {host}",
+                "players": "{count, plural, one {# player} other {# players}}",
+                "winners": "Winners"
+            },
+            "rules": {
+                "confirmed": "A Bingo counts as soon as the host has confirmed every square on the line.",
+                "host": "The host or a moderator checks each Bingo.",
+                "trust": "Honor system: a Bingo counts right away, and other players can dispute it.",
+                "places": "{count, plural, one {The first Bingo wins.} other {Prizes for the first # places.}}"
+            },
+            "manage": {
+                "edit": "Edit",
+                "start": "Start now",
+                "end": "End now",
+                "end_confirm": "End this game now? Players can't mark or call anymore.",
+                "delete": "Delete",
+                "delete_confirm": "Delete this game, every card and every call? This can't be undone."
+            },
+            "join": {
+                "title": "Get your card",
+                "help": "Your card is dealt from {count} squares at random, so nobody else has the same one. Mark squares as they happen, and call Bingo when you complete a row, a column or a diagonal.",
+                "button": "Get my card",
+                "log_in": "Log in to play",
+                "watch_only": "You can watch this game, but you can't play.",
+                "over": "This game is over.",
+                "hosting_title": "You're the host",
+                "hosting": "You confirm squares as they happen and rule on Bingo calls, so you don't get a card in your own game."
+            },
+            "card": {
+                "label": "Your Bingo card",
+                "free": "Free",
+                "bingo": "Bingo!",
+                "call_it": "You have Bingo on {line}! Call it!",
+                "refused": "Your call on that line was not accepted. Keep going!",
+                "one_away": "One away!",
+                "away": "{count} to go for Bingo",
+                "waiting": "Your Bingo is waiting for the host.",
+                "won": "You won {place}! 🎉",
+                "won_unplaced": "Your Bingo counts! The prizes were already taken.",
+                "not_started": "The game hasn't started yet. You can look at your card.",
+                "over": "This game is over.",
+                "open_page": "Open the game page"
+            },
+            "place": {
+                "1": "1st place",
+                "2": "2nd place",
+                "3": "3rd place"
+            },
+            "line": {
+                "row": "row {n}",
+                "column": "the {letter} column",
+                "diagonal": "a diagonal"
+            },
+            "calls": {
+                "title": "Bingo calls",
+                "none": "No calls yet.",
+                "called": "called Bingo on {line}",
+                "show_line": "See the squares",
+                "pending": "Waiting for the host",
+                "accepted": "Counts",
+                "rejected": "Not accepted",
+                "disputed": "{count, plural, one {Disputed} other {Disputed ×#}}",
+                "accept": "Accept",
+                "reject": "Reject",
+                "reject_title": "Reject this Bingo",
+                "reject_help": "Tell the player why, if you like. They'll be notified.",
+                "uphold": "Keep it",
+                "dispute": "Dispute",
+                "dispute_title": "Dispute this Bingo",
+                "dispute_help": "What didn't happen? The host will take a look."
+            },
+            "reason": {
+                "send": "Send"
+            },
+            "leaders": {
+                "title": "Closest to Bingo",
+                "one_away": "{count} players are one away!",
+                "away_one": "One away",
+                "away": "{count} to go"
+            },
+            "squares": {
+                "title": "Squares",
+                "confirmed_count": "{count} of {total} happened",
+                "help_confirmed": "Tap \"It happened\" as things happen. A Bingo counts as soon as all its squares are confirmed.",
+                "help_host": "Confirming squares helps you check calls. You accept or reject each Bingo yourself.",
+                "help_trust": "Confirming squares is optional here, but it helps players settle disputes.",
+                "filter": "Find a square",
+                "crowd": "{count, plural, one {Marked by # player} other {Marked by # players}}",
+                "happened": "It happened",
+                "undo": "Undo"
+            },
+            "form": {
+                "title": "New Bingo game",
+                "edit_title": "Edit game",
+                "in_discussion": "Plays along in \"{title}\": calls and results are posted there.",
+                "name": "Name",
+                "name_placeholder": "Super Bowl Ad Bingo",
+                "description": "Description (optional)",
+                "squares": "Squares, one per line",
+                "squares_help": "At least {count}. Things that might happen: \"Puppy in an ad\", \"Fumble\", \"One more thing\". Each card gets a random 24 of them.",
+                "squares_locked": "Players already have their cards, so squares can't be added, removed or moved. You can still fix the wording.",
+                "locked_count": "Keep exactly {count} squares: players already have their cards.",
+                "template": "Add ideas from a ready-made pack…",
+                "count": "{count} squares (at least {need})",
+                "free_center": "Free center square",
+                "free_label": "Free square text",
+                "starts": "Starts",
+                "ends": "Ends",
+                "places": "Winners",
+                "places_1": "First Bingo only",
+                "places_2": "1st and 2nd",
+                "places_3": "1st, 2nd and 3rd",
+                "verify": "How calls are checked",
+                "verify_confirmed": "Against squares the host confirms",
+                "verify_host": "The host checks each call",
+                "verify_trust": "Honor system",
+                "create": "Start the game",
+                "save": "Save",
+                "created": "Your game is up! Look for it under the title."
+            },
+            "templates": {
+                "super_bowl": {
+                    "name": "Super Bowl Ad Bingo",
+                    "squares": "A dog steals the show\nA celebrity plays themselves\nA sequel to an old ad\nTalking animal\nA baby or toddler\nSomeone cries\nAn ad for a movie trailer\nRobots or AI\nA Clydesdale\nA car does something impossible\nNostalgic 80s or 90s song\nA cameo by a retired athlete\nTwo celebrities together\nThe ad is a mystery until the end\nQR code on screen\nBeer ad\nChips or snack ad\nAd makes you say \"huh?\"\nA cowboy\nAn ad that's all one shot\nSomebody falls down\nA flash mob or dance\nSpace or aliens\nGrandparents being cool\nA fake-out ending\nThe word \"game day\"\nA musician performs in the ad\nAn ad for an app you've never heard of\nSomeone breaks the fourth wall\nA ridiculous slow-motion moment\n"
+                },
+                "football": {
+                    "name": "Game Broadcast Bingo",
+                    "squares": "Fumble\nInterception\nPick six\nField goal over 50 yards\nMissed extra point\nTwo-point conversion\nCoach's challenge\nOverturned call\nFlag on a big play\nRoughing the passer\nPass interference\nHolding\nFalse start\nOnside kick\nSafety\nFourth-down conversion\nSack on third down\nTrick play\nBlocked kick\nKickoff return touchdown\nA player loses their helmet\nFans do the wave\nCoach yells at a referee\nCelebrity in the crowd\n\"That's why he gets paid the big bucks\"\nAnnouncers mention a player's mom\nInjury timeout\nGatorade on the field\nPenalty declined\nHail Mary attempt\n"
+                },
+                "keynote": {
+                    "name": "Keynote Bingo",
+                    "squares": "\"One more thing\"\n\"We think you're going to love it\"\nA demo goes wrong\n\"Available today\"\nA new color\n\"Our best ever\"\nStanding ovation\nA customer video\nA chart with no numbers\nPrice on screen\n\"AI\" said three times in a row\nA partner joins on stage\nSomebody drops a product name nobody knows\n\"Magical\"\nThe battery life slide\nA fitness feature\n\"Privacy is built in\"\nDeveloper applause\n\"Let's take a look\"\nLive demo on a phone\nA camera upgrade\n\"Coming later this year\"\nThe presenter changes outfits\nA drone shot of the campus\n\"Thinner and lighter\"\nA slide with one word\nThe CEO says \"incredible\"\nSomeone thanks the team\nA pun in a feature name\nThe stream lags\n"
+                },
+                "awards": {
+                    "name": "Awards Show Bingo",
+                    "squares": "Speech gets played off\nA winner forgets to thank someone\n\"I didn't prepare anything\"\nA political joke\nSomeone trips on the stairs\nA surprise performance\nHost does a costume change\nTwo presenters' joke falls flat\nA standing ovation\nCamera finds a celebrity couple\nSomeone thanks their mom\nA winner cries\nA tie\nThe envelope gets mixed up\nIn Memoriam segment\nA winner reads from their phone\nBleeped word\nSomeone brings their kid\nA pizza or food delivery bit\nA musical number about the nominees\nThe show runs long\nAn award for a sequel\nA winner is not there\nSomeone says \"this is for everyone at home\"\nA dramatic dress or suit\nAudience member asleep on camera\nHost roasts a famous guest\nTeleprompter mistake\nA selfie on stage\nLong walk to the stage\n"
+                },
+                "stream": {
+                    "name": "Livestream Bingo",
+                    "squares": "\"Can you hear me?\"\nStream starts late\nA pet appears\nChat spams the same emote\nSomeone gets a big donation\n\"Like and subscribe\"\nMic is muted\nInternet drops\nGame crashes\nStreamer rages\nA clutch play\nBackseat gaming in chat\nA raid\nStreamer forgets to switch scenes\nSponsor read\nA doorbell rings\nSnack break\n\"Chat, is this real?\"\nSomeone asks \"what's your setup?\"\nA new follower goal is hit\nAccidental tab reveal\nA poll in chat\n\"One more game\"\nStreamer sings\nDramatic music sting\nTypo in a stream title\nA guest joins\n\"I'll be right back\"\nLag spike\nMods time someone out\n"
+                }
+            },
+            "post": {
+                "called": "{username} called Bingo on {line} in {game}!",
+                "results": "{game} is over.",
+                "no_winner": "Nobody got Bingo this time.",
+                "reopened": "{game} is back on: a place opened up after a ruling.",
+                "pending": "{count, plural, one {One call is still being checked, so this may change.} other {# calls are still being checked, so this may change.}}",
+                "started": "{username} started a Bingo game: {game}.",
+                "play": "Play"
+            },
+            "strip": {
+                "card": "My card",
+                "results": "Results"
+            },
+            "controls": {
+                "start": "Start a Bingo game"
+            },
+            "notification": {
+                "call": "{username} called Bingo in {title}",
+                "dispute": "{username} disputed a Bingo call in {title}",
+                "accepted": "Your Bingo in {title} counts!",
+                "won": "Your Bingo in {title} won {place}!",
+                "rejected": "Your Bingo call in {title} was not accepted",
+                "review_preference": "Someone calls or disputes a Bingo in a game I host",
+                "result_preference": "My Bingo call is accepted or rejected"
+            },
+            "errors": {
+                "bingo_not_found": "That Bingo game doesn't exist, or you can't see it.",
+                "bingo_over": "This game is over.",
+                "bingo_not_started": "This game hasn't started yet.",
+                "bingo_too_soon": "The game just started. Nothing can have happened yet!",
+                "bingo_not_player": "Get your card first.",
+                "bingo_host_cannot_play": "You're hosting this game, so you referee instead of playing.",
+                "bingo_bad_cell": "That isn't a square on your card.",
+                "bingo_slow_down": "You're going a bit fast. Try again in a minute.",
+                "bingo_already_won": "You already have a Bingo in this game.",
+                "bingo_call_waiting": "Your last call is still waiting for the host.",
+                "bingo_too_many_calls": "You've called Bingo too many times in this game.",
+                "bingo_line_refused": "A call on that line was already turned down.",
+                "bingo_no_line": "Your card doesn't have a full line yet.",
+                "bingo_not_host": "Only the host or a moderator can do that.",
+                "bingo_player_cannot_referee": "You have a card in this game, so you can't confirm squares or rule on calls.",
+                "bingo_bad_ruling": "That isn't something the host can do with a call.",
+                "bingo_cannot_dispute": "You can't dispute this call.",
+                "bingo_disputed_already": "You already disputed this call.",
+                "bingo_cannot_attach": "You can't start a game in that discussion.",
+                "bingo_no_title": "Give the game a name.",
+                "bingo_too_few_squares": "Add at least 24 different squares.",
+                "bingo_too_few_squares_no_free": "Without a free center, add at least 25 different squares.",
+                "bingo_too_many_squares": "That's too many squares. 150 is the most a game can have.",
+                "bingo_square_too_long": "Keep each square to 80 characters.",
+                "bingo_bad_times": "Check the start and end times.",
+                "bingo_ends_before_start": "The game has to end after it starts.",
+                "bingo_too_long": "A game can last at most 14 days.",
+                "bingo_bad_action": "That isn't something you can do with a game.",
+                "bingo_bad_squares": "The squares could not be read."
+            }
+        }
+    }
+}

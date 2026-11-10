@@ -1,0 +1,182 @@
+{
+    "ernestdefoe-hype-market": {
+        "lib": {
+            "gdpr": {
+                "export": "Hype Market: every call the member made, their season totals and today's spending.",
+                "delete": "Hype Market: the member's calls, season totals and spending are deleted. Markets on their discussions stay, without an author."
+            }
+        },
+        "forum": {
+            "nav": "Hype Market",
+            "page": {
+                "title": "Hype Market",
+                "description": "Back the new discussions you think will take off. Free hype every day, prices that follow real conversation, and a monthly leaderboard.",
+                "lead": "Spot the next big discussion early. Back it with today's free hype, and earn more the more it grows.",
+                "sort_label": "Sort markets",
+                "tabs": {
+                    "hot": "Hottest",
+                    "portfolio": "My portfolio",
+                    "leaderboard": "Leaderboard"
+                },
+                "sorts": {
+                    "hot": "Rising now",
+                    "new": "Newest",
+                    "top": "Highest price",
+                    "closing": "Closing soon"
+                },
+                "empty_hot": "No open markets right now. Every new discussion opens one, so check back soon."
+            },
+            "wallet": {
+                "guest": "Every member gets free hype every day to back the discussions they think will take off. No real money, nothing to buy.",
+                "log_in": "Log in to play",
+                "left": "Hype left today",
+                "refills": "Refills in {time}",
+                "profit": "Season profit",
+                "rank": "#{rank} in {season}",
+                "open": "Open calls",
+                "at_stake": "{n} hype riding"
+            },
+            "card": {
+                "gone": "A discussion you can't see anymore",
+                "spark_label": "Price went from {from} to {to}",
+                "backers": "{count, plural, one {# backer} other {# backers}}",
+                "staked": "{n} hype in",
+                "closes": "Backing closes in {time}",
+                "settles": "Settles in {time}",
+                "settled": "Settled",
+                "void": "Called off",
+                "back": "Back it",
+                "you_backed": "You backed {n} at {price}",
+                "worth": "Worth {n} now ({profit})",
+                "paid": "Paid {n} ({profit}, {x})",
+                "needs_people": "Pays once {n} more people join in"
+            },
+            "chip": {
+                "backed": "Backed by {count}",
+                "title": "Hype price {price}"
+            },
+            "bar": {
+                "label": "Hype Market for this discussion",
+                "brand": "Hype",
+                "yours": "Your discussion. Others can back it, you can't.",
+                "worth": "Worth {n} ({profit})",
+                "paid": "Paid {n} ({profit})",
+                "call_off": "Call off",
+                "call_off_confirm": "Call off this market? Every backer gets their hype back and nobody profits. This can't be undone.",
+                "called_off": "Market called off. Every stake comes back flat."
+            },
+            "back": {
+                "title": "Back this discussion",
+                "price_now": "Hype price now",
+                "stake": "How much hype?",
+                "presets": "Quick amounts",
+                "max": "Max ({n})",
+                "left": "{left} of {allowance} hype left today, {backs} backs left. Refills in {time}.",
+                "if_grows": "At {x}×",
+                "if_flat": "If it stays flat",
+                "you_get": "you get {n}",
+                "rule_settles": "Settles in {time}. You earn in proportion to how much it grows after now, so early calls pay most.",
+                "rule_safe": "You can't lose hype. A quiet discussion pays your stake back.",
+                "rule_loss": "If it stays quiet you lose {percent}% of your stake. It has to grow {x}× to break even.",
+                "rule_people": "It only pays once at least {n} different members join the conversation.",
+                "rule_own": "Your own replies and likes won't count toward it, and neither will other backers'.",
+                "submit": "Back with {n} hype",
+                "done": "Backed with {n} hype. Good luck!",
+                "no_hype": "You've used today's hype. It refills in {time}.",
+                "no_backs": "You've used today's backs. They refill in {time}."
+            },
+            "portfolio": {
+                "open": "{count, plural, =0 {Open calls} one {# open call} other {# open calls}}",
+                "settled": "Settled calls",
+                "staked": "{n} in",
+                "void": "called off",
+                "empty_open": "No open calls. Find a discussion on the rise in Hottest and back it.",
+                "empty_settled": "Nothing has settled yet. Calls settle a few days after the discussion starts."
+            },
+            "board": {
+                "season": "Season",
+                "current": "{name} (now)",
+                "how": "How it works",
+                "how_price": "A discussion's price climbs as different members reply and like posts in it, with diminishing returns.",
+                "how_pay": "When a market settles, every backer gets their stake times how much the price grew after they backed it, up to 10×.",
+                "how_loss": "On this forum a call that stays quiet loses {percent}% of its stake, so a discussion has to grow {x}× to break even.",
+                "how_fair": "The author, the backers and brand-new accounts don't move the price, and the same friends can only lift your calls a few times a season.",
+                "how_rank": "Members are ranked by season profit. Seasons reset every month.",
+                "record": "{wins} of {settled} paid off",
+                "best_title": "Best single call",
+                "empty": "Nobody has a settled call this season yet."
+            },
+            "notification": {
+                "paid": "Your hype call paid off",
+                "flat": "Your hype call didn't pay off",
+                "preference_paid": "Someone's discussion I backed took off and paid out",
+                "preference_flat": "A discussion I backed didn't pay off or was called off"
+            },
+            "time": {
+                "dh": "{d}d {h}h",
+                "hm": "{h}h {m}m",
+                "m": "{m}m"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "hype_own_discussion": "You can't back your own discussion.",
+                "hype_not_backable": "This discussion can't be backed.",
+                "hype_closed": "Backing has closed on this discussion.",
+                "hype_already_backed": "You've already backed this discussion.",
+                "hype_bad_stake": "Choose an amount between the minimum and maximum stake.",
+                "hype_allowance": "You don't have that much hype left today.",
+                "hype_daily_backs": "You've used all of today's backs.",
+                "hype_already_settled": "This market has already settled."
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "Show Hype Market in the sidebar",
+                "daily_allowance": "Daily hype per member",
+                "daily_allowance_help": "Free hype every member gets each day (UTC). Unused hype doesn't carry over.",
+                "min_stake": "Smallest stake",
+                "min_stake_help": "The least hype a member can put on one discussion.",
+                "max_stake": "Largest stake",
+                "max_stake_help": "The most hype a member can put on one discussion. Never more than the daily hype.",
+                "max_backs": "Backs per day",
+                "max_backs_help": "How many discussions one member can back in a day.",
+                "backing_hours": "Hours a discussion can be backed",
+                "backing_hours_help": "Backing closes this many hours after a discussion starts.",
+                "window_hours": "Hours until it settles",
+                "window_hours_help": "Markets settle this many hours after the discussion starts. Engagement after that doesn't count.",
+                "min_account_days": "Account age before replies count",
+                "min_account_days_help": "Replies and likes from accounts younger than this (when they posted) don't move prices.",
+                "min_posts": "Posts before replies count",
+                "min_posts_help": "Members with fewer posts than this don't move prices.",
+                "min_participants": "Members needed for a payout",
+                "min_participants_help": "A market pays out only when at least this many different members (not the author or backers) replied.",
+                "loss_percent": "Hype a quiet call loses (%)",
+                "loss_percent_help": "0 means nobody ever loses hype: a quiet discussion pays the stake back. Above 0, a call loses this share of its stake if the discussion stays flat, and has to grow past it to profit (50% = break even at 1.5×). Calls already made keep the rate they were made with.",
+                "season_mode": "Seasons",
+                "season_mode_help": "Monthly seasons start fresh on the first of every month. Manual seasons run until you end them below.",
+                "season_monthly": "Every month",
+                "season_manual": "When I end them"
+            },
+            "season": {
+                "heading": "Season",
+                "current": "Current season: {name}, since {date}.",
+                "leaders": "Leading: {names}",
+                "no_leaders": "Nobody has a settled call this season yet.",
+                "next_name": "Next season's name",
+                "end": "End this season now",
+                "end_help": "The leaderboard starts fresh. Calls still open keep counting toward the season they were made in.",
+                "confirm": "End this season and start the next one? This can't be undone.",
+                "ended": "The new season has started.",
+                "past": "{name}: {from} to {to}",
+                "tick_ok": "The scheduler last ran {minutes} min ago. Markets are being priced and settled.",
+                "tick_late": "The scheduler last ran {minutes} min ago. Markets only move and settle while it runs (php flarum schedule:run every minute).",
+                "tick_never": "The scheduler hasn't run yet. Markets only move and settle while it runs: add php flarum schedule:run to cron, every minute."
+            },
+            "permissions": {
+                "view": "View Hype Market",
+                "back": "Back discussions in Hype Market",
+                "moderate": "Call off Hype Market markets"
+            }
+        }
+    }
+}

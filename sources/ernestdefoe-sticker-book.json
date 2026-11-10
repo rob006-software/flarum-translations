@@ -1,0 +1,246 @@
+{
+    "ernestdefoe-sticker-book": {
+        "forum": {
+            "nav": "Sticker Book",
+            "page": {
+                "title": "Sticker Book",
+                "guest": "Log in to get a free pack of stickers every day and start your album.",
+                "tab": {
+                    "album": "My album",
+                    "trades": "Trades",
+                    "board": "Top collectors"
+                }
+            },
+            "hero": {
+                "complete": "done",
+                "stickers": "stickers",
+                "sets": "{count, plural, one {set complete} other {sets complete}}",
+                "packs": "{count, plural, one {pack opened} other {packs opened}}",
+                "intro": "Collect stickers, fill your album and trade your spares.",
+                "open_daily": "Open today's free pack",
+                "open_pack": "Open a pack",
+                "waiting": "{count, plural, one {# pack waiting} other {# packs waiting}}",
+                "next_in": "Next free pack in {time}",
+                "earn_more": "Post and get likes to earn extra packs.",
+                "odds": "Pack odds",
+                "pity": "A legendary is certain within {count, plural, one {# pack} other {# packs}}."
+            },
+            "rarity": {
+                "common": "Common",
+                "rare": "Rare",
+                "epic": "Epic",
+                "legendary": "Legendary"
+            },
+            "album": {
+                "no_sets": "There are no stickers to collect yet.",
+                "complete": "Complete",
+                "progress_label": "{have} of {total} collected",
+                "filter": {
+                    "all": "All",
+                    "missing": "Missing",
+                    "spares": "Spares"
+                }
+            },
+            "sticker": {
+                "you_have": "{count, plural, one {You have it} other {You have # ({spares, plural, one {# spare} other {# spares}})}}",
+                "they_have": "{name} has {count}",
+                "you_need": "You don't have this one yet.",
+                "they_need": "{name} doesn't have this one yet.",
+                "offer_spare": "Offer a spare to someone",
+                "ask": "Ask {name} for a spare",
+                "find_spare": "Find someone with a spare",
+                "no_spares": "Nobody has a spare of this one yet. Keep opening packs!",
+                "spares_title": "Members with a spare",
+                "spare_count": "{count, plural, one {# spare} other {# spares}}",
+                "propose": "Propose a trade"
+            },
+            "trade": {
+                "title": "Trade stickers",
+                "to": "Trade with",
+                "change": "Change",
+                "search_placeholder": "Type a member's name…",
+                "you_give": "You give",
+                "you_get": "You get from {name}",
+                "you_get_anyone": "You get",
+                "pick_member_first": "Choose a member to see their spares.",
+                "no_spares_mine": "You have no spares yet. Spares are extra copies of stickers you already have.",
+                "no_spares_theirs": "They have no spares right now. You can still send a gift.",
+                "message_placeholder": "Add a note (optional)",
+                "send": "Send offer",
+                "send_gift": "Send as a gift",
+                "sent": "Offer sent to {name}."
+            },
+            "trades": {
+                "intro": "Swap your spares with other members. Your album always keeps one of each.",
+                "new": "New trade",
+                "incoming": "Offers for you",
+                "outgoing": "Your offers",
+                "past": "Recent trades",
+                "none_incoming": "No offers waiting for you.",
+                "none_outgoing": "You have no offers waiting.",
+                "you_give": "You give",
+                "you_get": "You get",
+                "nothing": "Nothing (a gift)",
+                "accept": "Accept",
+                "decline": "Decline",
+                "cancel": "Take back",
+                "accepted_alert": "Trade done! The stickers are in your album.",
+                "status": {
+                    "accepted": "Done",
+                    "declined": "Declined",
+                    "cancelled": "Taken back",
+                    "failed": "Spares gone",
+                    "expired": "Expired"
+                }
+            },
+            "board": {
+                "empty": "Nobody has opened a pack yet. Be the first!",
+                "count": "{count} of {total}"
+            },
+            "reveal": {
+                "label": "Open a sticker pack",
+                "daily": "Today's free pack",
+                "earned": "A pack you earned",
+                "pack_label": "Sticker pack",
+                "pack_count": "{count, plural, one {# sticker} other {# stickers}}",
+                "tap": "Tap the pack to open it",
+                "opening": "Opening…",
+                "left": "{count, plural, one {# pack waiting} other {# packs waiting}}",
+                "flip": "Tap to flip",
+                "flip_all": "Show all",
+                "new": "New",
+                "completed": "Set complete: {set}!",
+                "summary_new": "{count, plural, one {# new sticker for your album!} other {# new stickers for your album!}}",
+                "summary_none": "No new ones this time, but spares are great for trading.",
+                "next": "Open the next pack ({count})",
+                "see_album": "See my album",
+                "none_title": "No packs right now",
+                "none_text": "Your next free pack comes in {time}. Posting and getting likes can earn extra packs."
+            },
+            "header": {
+                "label": "{count, plural, one {# sticker pack waiting} other {# sticker packs waiting}}"
+            },
+            "profile": {
+                "nav": "Stickers",
+                "showcase": "{count}/{total} stickers",
+                "summary": "{count} of {total} stickers collected, {sets, plural, one {# set complete} other {# sets complete}}."
+            },
+            "react": {
+                "button": "Sticker",
+                "title": "Put a sticker on this post",
+                "none": "You don't have any stickers yet. Open your free pack first!",
+                "go": "Open Sticker Book",
+                "filter": "Find a sticker…",
+                "remove": "Take my sticker off"
+            },
+            "notification": {
+                "preference": "Someone sends me a trade offer, or answers mine",
+                "offered": "{username} sent you a sticker trade offer",
+                "accepted": "{username} accepted your sticker trade",
+                "declined": "{username} declined your sticker trade",
+                "failed": "Your sticker trade with {username} couldn't go through: the spares were gone"
+            }
+        },
+        "admin": {
+            "rarity": {
+                "common": "=> ernestdefoe-sticker-book.forum.rarity.common",
+                "rare": "=> ernestdefoe-sticker-book.forum.rarity.rare",
+                "epic": "=> ernestdefoe-sticker-book.forum.rarity.epic",
+                "legendary": "=> ernestdefoe-sticker-book.forum.rarity.legendary"
+            },
+            "sets": {
+                "title": "Sets and stickers",
+                "help": "Members collect stickers set by set. A hidden set is in no pack and no album, so you can build it first. Upload PNG, WebP or JPEG art (PNG or WebP with a transparent background looks best); each image is resized and stored as WebP.",
+                "empty": "There are no sets yet. Start with the four starter sets (32 original stickers) or make your own.",
+                "add_starter": "Add the starter sets",
+                "starter_added": "{count, plural, =0 {The starter sets are already here.} one {Added # starter set, hidden. Show it when you're ready.} other {Added # starter sets, hidden. Show them when you're ready.}}",
+                "add_set": "New set",
+                "add_sticker": "Add a sticker",
+                "hidden": "Hidden",
+                "sticker_count": "{count, plural, one {# sticker} other {# stickers}}",
+                "badge_tag": "Badge: {name}",
+                "owners": "{count, plural, one {# owner} other {# owners}}",
+                "move_up": "Move up",
+                "move_down": "Move down",
+                "edit": "Edit",
+                "name": "Name",
+                "description": "Description (optional)",
+                "no_badge": "No badge for completing it",
+                "badge_option": "Award the badge: {name}",
+                "badges_help": "With FoF Badges you can award a badge to members who complete a set.",
+                "visible": "Show this set to members",
+                "art": "Sticker image",
+                "replace_art": "Replace the image (optional)",
+                "save": "Save",
+                "cancel": "Cancel",
+                "delete": "Delete",
+                "delete_set_confirm": "Delete the set \"{name}\" and all its stickers? Members lose them from their albums. This can't be undone.",
+                "delete_sticker_confirm": "Delete \"{name}\"? {count, plural, =0 {Nobody has it yet.} one {# member loses it from their album.} other {# members lose it from their albums.}} This can't be undone.",
+                "gift_title": "Give packs",
+                "gift_help": "Give a member extra packs, for a contest prize or an event. They are not counted against the daily limit.",
+                "gift_username": "Username",
+                "gift_send": "Give packs",
+                "gift_sent": "{count, plural, one {Gave # pack to {username}.} other {Gave # packs to {username}.}}"
+            },
+            "settings": {
+                "nav": "Show Sticker Book in the sidebar",
+                "reactions": "Let members put stickers on posts",
+                "reactions_help": "Each member can put one sticker from their own album on a post.",
+                "pack_size": "Stickers in a pack",
+                "odds": "Pack odds",
+                "odds_help": "How often each rarity comes out of a pack, in percent. They don't need to add up to 100; they're used as weights.",
+                "odds_common": "Common",
+                "odds_rare": "Rare",
+                "odds_epic": "Epic",
+                "odds_legendary": "Legendary",
+                "pity": "Legendary guarantee",
+                "pity_help": "A member's pack is certain to have a legendary when it is this many packs in a row without one (40 means the 40th pack). 0 turns it off.",
+                "guarantee_rare": "At least one rare in every pack",
+                "guarantee_rare_help": "The last sticker in a pack is rare or better when the rest are all common.",
+                "first_post": "An extra pack for a member's first post of the day",
+                "likes_per_pack": "Likes received for an extra pack",
+                "likes_per_pack_help": "Needs Likes. Each member's like on a post counts once, even if they unlike it and like it again. 0 turns it off.",
+                "extra_cap": "Extra packs a day",
+                "trade_min_age": "Minimum account age to trade (days)",
+                "trade_min_age_help": "New accounts can't offer or accept trades until they are this old, so a batch of new accounts can't pass their stickers to one member. 0 turns it off.",
+                "extra_cap_help": "The most packs a member can earn in a day from posting and likes, on top of the free daily pack."
+            },
+            "permissions": {
+                "view": "View sticker albums",
+                "collect": "Collect stickers (daily and earned packs)",
+                "trade": "Trade stickers",
+                "react": "Put stickers on posts"
+            }
+        },
+        "lib": {
+            "errors": {
+                "sticker_book_empty": "There are no stickers to collect yet.",
+                "sticker_no_pack": "You have no packs to open right now.",
+                "sticker_slow_down": "You're going a little fast. Try again in a minute.",
+                "sticker_trade_self": "You can't trade with yourself.",
+                "sticker_trade_unavailable": "That member can't trade stickers.",
+                "sticker_trade_empty": "Choose at least one of your spares to offer.",
+                "sticker_trade_same": "A sticker can't be on both sides of a trade.",
+                "sticker_trade_too_many": "You have too many offers waiting. Wait for answers or take some back.",
+                "sticker_trade_no_spares": "You don't have those spares anymore.",
+                "sticker_trade_they_have_no_spares": "They don't have those spares anymore.",
+                "sticker_trade_not_found": "That trade isn't available.",
+                "sticker_trade_closed": "That offer has already been answered or has expired.",
+                "sticker_trade_spares_gone": "This trade can't go through because the spares are gone. Nothing was swapped.",
+                "sticker_trade_invalid": "Something about that offer isn't right. Please try again.",
+                "sticker_not_found": "That sticker isn't available.",
+                "sticker_reactions_off": "Stickers on posts are turned off.",
+                "sticker_post_not_found": "That post isn't available.",
+                "sticker_not_yours": "You can only use stickers from your own album.",
+                "sticker_name_invalid": "Give it a name (up to 100 characters).",
+                "sticker_art_required": "Choose an image for the sticker.",
+                "sticker_user_not_found": "There's no member with that username.",
+                "sticker_trade_too_new": "Your account is too new to trade stickers yet. Try again in a few days."
+            },
+            "gdpr": {
+                "export": "Stickers, packs, completed sets, trades and sticker reactions.",
+                "delete": "Delete the member's stickers, packs, completed sets, trades and sticker reactions."
+            }
+        }
+    }
+}

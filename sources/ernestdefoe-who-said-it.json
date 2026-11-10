@@ -1,0 +1,143 @@
+{
+    "ernestdefoe-who-said-it": {
+        "admin": {
+            "widget": "Who Said It? (today's quiz)",
+            "settings": {
+                "nav": "Show \"Who Said It?\" in the forum's sidebar",
+                "timezone": "Quiz day starts at midnight in",
+                "timezone_help": "A new quiz starts at midnight in this time zone, and members who asked are reminded then.",
+                "min_age": "Quotes must be at least this many days old",
+                "min_age_help": "Older posts make better guessing, and nobody gets quoted on something they wrote this morning.",
+                "min_length": "Shortest quote, in characters",
+                "min_length_help": "Measured after quotes of other posts, links, code and spoilers are taken out.",
+                "repeat": "Don't use the same quote again for this many days",
+                "repeat_help": "0 means a quote can come back any time.",
+                "active": "Members seen in the last this many days count as active",
+                "active_help": "The three other faces look like the author, so they don't give the answer away. They had joined by the time the post was written, have a similar number of posts, and are as active as the author is (seen within this many days, or not).",
+                "tags": "Only quote posts in these tags",
+                "groups": "Never quote members of these groups",
+                "groups_help": "For bots, feed importers or anyone else who shouldn't be in the game. Members of these groups are never quoted and never shown as a choice. Members can also opt themselves out in their settings.",
+                "tags_help": "Leave all unticked to use every tag. Only posts that guests can read are ever quoted, so private discussions and restricted tags are never used."
+            },
+            "status": {
+                "title": "Today",
+                "made": "Today's quiz ({date}) has {count} quotes. {players, plural, one {# member has} other {# members have}} finished it.",
+                "not_made": "Today's quiz ({date}) hasn't been made yet.",
+                "eligible": "{count, plural, one {# post qualifies} other {# posts qualify}} under the settings below.",
+                "eligible_many": "More than 1,000 posts qualify under the settings below.",
+                "make": "Make today's quiz now",
+                "members_only": "Only posts that guests can read are ever quoted. On a forum that guests can't read (members only), no posts qualify, so no quiz is made.",
+                "scheduler": "Quizzes are made by Flarum's scheduler, or by the first visit to the quiz page each day. The quotes are never shown here, so admins can play too."
+            },
+            "permissions": {
+                "view": "View Who Said It? (boards and yesterday's answers)",
+                "play": "Play Who Said It?"
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Your Who Said It? days, answers, scores and streaks.",
+                "delete": "Your Who Said It? days, answers and scores are deleted, and any quote of yours is withdrawn from past quizzes."
+            }
+        },
+        "forum": {
+            "nav": "Who Said It?",
+            "page": {
+                "title": "Who Said It?",
+                "lead": "Real quotes from this forum, new every day. For each one, pick the member who wrote it.",
+                "players": "{count, plural, one {# player today} other {# players today}}",
+                "streak": "{count, plural, =0 {No streak yet} one {#-day streak} other {#-day streak}}"
+            },
+            "card": {
+                "title": "Who Said It?",
+                "lead": "Today's quiz. Can you tell who wrote it?",
+                "play": "Play today's quiz",
+                "continue": "Keep going ({done}/{count})",
+                "done": "{correct}/{count} right · {score} points",
+                "soon": "Today's quiz is on its way",
+                "next": "Next quiz in {time}",
+                "streak": "{count, plural, one {#-day streak} other {#-day streak}}"
+            },
+            "stage": {
+                "none_title": "No quiz today",
+                "none_text": "There aren't enough older public posts to make a quiz yet. Check back soon!",
+                "guest_title": "{count} quotes from this forum. Who said them?",
+                "guest_text": "Log in to play today's quiz, keep a streak going and get on the leaderboard.",
+                "log_in": "Log in to play",
+                "no_permission": "You don't have permission to play.",
+                "intro_title": "Today's {count} quotes are ready",
+                "continue_title": "Welcome back! Your next quote is waiting.",
+                "rule_quotes": "{count} real quotes from public posts, four members each. Pick who wrote it.",
+                "rule_speed": "100 points for the right member, plus up to 50 for answering fast. The clock starts when the quote appears.",
+                "rule_streak": "Play every day to keep your streak going. A new quiz starts every midnight.",
+                "start": "Start",
+                "continue": "Continue ({done}/{count})",
+                "of": "Quote {n} of {count}",
+                "speed": "Speed bonus",
+                "no_speed": "No speed bonus left",
+                "speed_hint": "The faster you answer, the more bonus points you keep (up to 50).",
+                "ask": "Who said it?",
+                "deleted": "[deleted]",
+                "left": "A member who left the game",
+                "right": "That's right!",
+                "wrong": "Not quite. It was {name}.",
+                "points": "+{points} points",
+                "bonus": "(+{bonus} for speed)",
+                "source": "Read it in “{title}”",
+                "next": "Next quote",
+                "see_result": "See your result"
+            },
+            "done": {
+                "points": "points today",
+                "summary": "{correct} of {count} right",
+                "rank": "#{rank} of {count} today",
+                "grid_label": "Your result",
+                "streak": "{count, plural, one {#-day streak. Come back tomorrow to keep it going!} other {#-day streak. Come back tomorrow to keep it going!}}",
+                "copy": "Copy my result",
+                "copied": "Copied! Paste it anywhere.",
+                "next": "Next quiz in {time}",
+                "answers": "Today's answers"
+            },
+            "recap": {
+                "withdrawn": "This quote was withdrawn (its post is no longer public).",
+                "missed": "Missed it",
+                "percent": "{percent}% got it right",
+                "read": "Read the post"
+            },
+            "boards": {
+                "title": "Leaderboard",
+                "today": "Today",
+                "all": "All time",
+                "today_sub": "{correct}/{count} right",
+                "all_sub": "{quizzes, plural, one {# quiz} other {# quizzes}} · best streak {best}",
+                "today_empty": "Nobody has finished today's quiz yet. Be the first!",
+                "all_empty": "No scores yet."
+            },
+            "yesterday": {
+                "title": "Yesterday's answers",
+                "empty": "There was no quiz yesterday."
+            },
+            "share": {
+                "title": "Who Said It? · {forum} · {date}",
+                "streak": "🔥 {count}-day streak"
+            },
+            "settings": {
+                "quotable": "Let Who Said It? quote my posts (and show me as a choice)",
+                "remind": "Remind me when each day's Who Said It? quiz is up"
+            },
+            "notification": {
+                "reminder": "Today's Who Said It? is ready: {count} new quotes. Who said them?"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "load": "Who Said It? could not be loaded. Please try again.",
+                "wsi_closed": "That quiz is over. Here's today's.",
+                "wsi_withdrawn": "That quote was just withdrawn. On to the next one!",
+                "wsi_no_quiz": "There's no quiz today.",
+                "wsi_making": "Today's quiz is on its way. Try again in a moment.",
+                "wsi_bad_choice": "That isn't one of the choices.",
+                "wsi_not_shown": "That quote isn't open yet."
+            }
+        }
+    }
+}

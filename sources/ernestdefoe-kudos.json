@@ -1,0 +1,218 @@
+{
+    "ernestdefoe-kudos": {
+        "forum": {
+            "nav": "Kudos Wall",
+            "page": {
+                "title": "Kudos Wall",
+                "description": "Members thank each other with a few kudos cards a week. This week's thanks, last week's spotlight and every week before.",
+                "lead": "Thank someone who helped. Everyone gets a few kudos a week, so each one means something.",
+                "give": "Give kudos"
+            },
+            "person": {
+                "former": "A former member",
+                "hidden": "A member"
+            },
+            "wallet": {
+                "left": "{count, plural, =0 {No kudos left} one {# kudos left} other {# kudos left}}",
+                "resets": "New kudos in {time}"
+            },
+            "week": {
+                "this_week": "This week",
+                "week_of": "Week of {date}",
+                "count": "{count, plural, =0 {no thanks yet} one {# thank-you} other {# thank-yous}}",
+                "ends": "ends in {time}",
+                "older": "Older week",
+                "newer": "Newer week",
+                "back_to_this_week": "This week"
+            },
+            "queue": {
+                "title": "Waiting for approval",
+                "button": "Queue",
+                "empty": "Nothing is waiting for approval."
+            },
+            "spotlight": {
+                "label": "Kudos spotlight",
+                "last_week": "Last week's spotlight",
+                "that_week": "That week's spotlight",
+                "count": "Thanked {count, plural, one {# time} other {# times}} in the week of {date}",
+                "see_kudos": "See their kudos"
+            },
+            "banner": {
+                "eyebrow": "Kudos spotlight",
+                "line": "{name} was last week's most-thanked member, with {count, plural, one {# kudos} other {# kudos}}.",
+                "you": "You were last week's most-thanked member, with {count, plural, one {# kudos} other {# kudos}}. Thank you!",
+                "cta": "See the wall",
+                "dismiss": "Hide this"
+            },
+            "empty": {
+                "this_week": "No kudos yet this week. Be the first to thank someone.",
+                "past_week": "Nobody gave kudos that week.",
+                "cta": "Give the first kudos"
+            },
+            "wall": {
+                "more": "Show more"
+            },
+            "archive": {
+                "title": "Past weeks"
+            },
+            "card": {
+                "kudos_to": "Kudos to",
+                "thanks_from": "Thanks from",
+                "week_of": "Week of {date}",
+                "from": "from {name}",
+                "for_post": "For their post in \"{title}\"",
+                "note_removed": "A moderator removed this note.",
+                "note_hidden_mod": "Note hidden from members",
+                "pending": "Waiting for a moderator",
+                "controls": "Kudos controls",
+                "approve": "Approve",
+                "hide_note": "Hide the note",
+                "restore_note": "Show the note again",
+                "delete": "Delete kudos",
+                "withdraw": "Take it back",
+                "delete_confirm": "Delete this kudos? If it was given this week, the giver gets it back.",
+                "withdraw_confirm": "Take back this kudos? You get it back to give again."
+            },
+            "designs": {
+                "sunrise": "Sunrise",
+                "meadow": "Meadow",
+                "tide": "Tide",
+                "confetti": "Confetti",
+                "starlight": "Starlight",
+                "letterpress": "Letterpress"
+            },
+            "give": {
+                "title": "Give kudos",
+                "post_control": "Give kudos",
+                "user_control": "Give kudos",
+                "to": "Who are you thanking?",
+                "search_placeholder": "Type a username",
+                "no_match": "Nobody by that name.",
+                "change": "Change",
+                "already": "Thanked this week",
+                "for_post": "For their post in \"{title}\"",
+                "remove_post": "Don't link the post",
+                "note": "Say what they did",
+                "note_placeholder": "Thanks for walking me through the migration!",
+                "design": "Pick a card",
+                "preview_note": "Your note shows here.",
+                "preview_receiver": "Someone great",
+                "left": "{count, plural, one {# of {total} kudos left this week} other {# of {total} kudos left this week}}",
+                "none_left": "You've given all your kudos this week. New ones arrive in {time}.",
+                "submit": "Send kudos",
+                "sent": "Kudos sent to {name}!",
+                "sent_pending": "Kudos to {name} sent. It shows once a moderator approves it."
+            },
+            "profile": {
+                "tab": "Kudos",
+                "received": "{count, plural, one {kudos received} other {kudos received}}",
+                "this_week": "this week",
+                "given": "{count, plural, one {given} other {given}}",
+                "spotlights": "{count, plural, one {week in the spotlight} other {weeks in the spotlight}}",
+                "give": "Give kudos to {name}",
+                "top_givers": "Thanked most by",
+                "spotlight_weeks": "Weeks in the spotlight",
+                "notes": "What they were thanked for",
+                "empty": "No kudos for {name} yet."
+            },
+            "notification": {
+                "received": "{username} gave you kudos",
+                "spotlight": "You were last week's most-thanked member",
+                "spotlight_excerpt": "{count, plural, one {# kudos} other {# kudos}} from the community",
+                "preference_received": "Someone gives me kudos",
+                "preference_spotlight": "I'm in the weekly Kudos spotlight"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "kudos_cannot_give": "You can't give kudos.",
+                "kudos_confirm_email": "Confirm your email address to give kudos.",
+                "kudos_self": "You can't give kudos to yourself.",
+                "kudos_no_receiver": "Pick who you're thanking.",
+                "kudos_note_short": "Write a few words about what they did.",
+                "kudos_note_long": "Keep the note to 280 characters.",
+                "kudos_bad_post": "That post can't be linked to this kudos.",
+                "kudos_none_left": "You've given all your kudos this week.",
+                "kudos_already_this_week": "You've already thanked them this week. Try again next week!",
+                "kudos_bad_week": "That week doesn't exist.",
+                "kudos_bad_action": "That isn't something a moderator can do here.",
+                "kudos_receiver_unavailable": "This member can't receive kudos right now."
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "Show Kudos Wall in the sidebar",
+                "allowance": "Kudos a week",
+                "allowance_help": "How many kudos each member can give a week (1 to 50). Unused kudos don't carry over.",
+                "group_allowances": "More kudos for some groups",
+                "group_allowances_help": "Leave a group empty to use the number above. A member in several groups gets the most any of them allows.",
+                "group_allowance_placeholder": "Default",
+                "start_day": "The week starts on",
+                "days": {
+                    "sunday": "Sunday",
+                    "monday": "Monday",
+                    "tuesday": "Tuesday",
+                    "wednesday": "Wednesday",
+                    "thursday": "Thursday",
+                    "friday": "Friday",
+                    "saturday": "Saturday"
+                },
+                "timezone": "Timezone for the week",
+                "timezone_help": "A new week (and new kudos) starts at midnight here. A change to this or the start day takes effect when the current week ends, so this week's kudos and allowances stay as they are.",
+                "timezone_forum": "The forum's timezone (UTC if none is set)",
+                "min_account_days": "Account age before kudos count toward the spotlight (days)",
+                "min_account_days_help": "Kudos from newer accounts still show on the wall; they just don't help anyone into the spotlight. 0 counts everyone.",
+                "moderation": "Moderators approve kudos first",
+                "moderation_help": "New kudos wait in a queue on the wall until a moderator approves them. Moderators' own kudos skip the queue. With the queue on, the spotlight is picked a day into the new week, so late approvals still count.",
+                "banner": "Show the spotlight banner above the discussion list",
+                "banner_help": "Last week's most-thanked member, while this week runs. Members can hide it."
+            },
+            "spotlight": {
+                "heading": "Weekly spotlight",
+                "help": "Every week, once it ends, the member who got the most kudos goes in the spotlight (ties go to whoever got there first). Unconfirmed and suspended members are skipped. The forum's scheduler must be running.",
+                "group": "Put the spotlight member in a group for a week",
+                "group_help": "They join it for the week after theirs and leave it when the next spotlight is chosen. Members who were in it already stay in it.",
+                "group_none": "Create a group under Permissions first (the built-in groups can't be used).",
+                "badge": "Give the spotlight member a badge",
+                "badge_help": "From FoF Badges, kept for good. Only badges without an automatic rule are listed.",
+                "badge_needs_fof": "Enable FoF Badges to give a badge as well.",
+                "none": "Nothing",
+                "last_run": "The scheduler last ran {time}.",
+                "never_run": "The scheduler hasn't run yet. Set up a cron job for php flarum schedule:run."
+            },
+            "permissions": {
+                "view": "View the Kudos Wall",
+                "give": "Give kudos",
+                "moderate": "Moderate kudos (approve, hide notes, delete)"
+            }
+        },
+        "lib": {
+            "badge_reason": "Most-thanked member in the week of {week}",
+            "gdpr": {
+                "export": "Kudos you gave and received, with their notes, and your weeks in the Kudos spotlight.",
+                "anonymize": "Kudos you received are deleted; kudos you gave stay, from \"a former member\".",
+                "delete": "Kudos you gave and received are deleted."
+            }
+        },
+        "email": {
+            "a_member": "A member",
+            "received": {
+                "subject": "{giver} gave you kudos",
+                "plain": {
+                    "body": "{giver} gave you kudos:\n\n\"{note}\"\n\nSee the Kudos Wall: {url}\n"
+                },
+                "html": {
+                    "body": "**{giver}** gave you kudos:\n\n> {note}\n\n[See the Kudos Wall]({url})\n"
+                }
+            },
+            "spotlight": {
+                "subject": "You were last week's most-thanked member",
+                "plain": {
+                    "body": "You got {count} kudos last week, more than anyone else, so you're in this week's Kudos spotlight. Thank you for helping!\n\nSee the wall: {url}\n"
+                },
+                "html": {
+                    "body": "You got **{count}** kudos last week, more than anyone else, so you're in this week's Kudos spotlight. Thank you for helping!\n\n[See the wall]({url})\n"
+                }
+            }
+        }
+    }
+}

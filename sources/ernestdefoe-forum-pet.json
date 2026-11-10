@@ -1,0 +1,211 @@
+{
+    "ernestdefoe-forum-pet": {
+        "forum": {
+            "page": {
+                "title": "{pet} · Forum Pet",
+                "description": "Meet {pet}, the pet the whole community takes care of. Feed it, play with it and watch it grow.",
+                "kicker": "Our forum pet",
+                "born": "Born {time}",
+                "load_error": "The pet could not be loaded. Try again in a moment.",
+                "today": "{count, plural, =0 {Caretakers today} one {# caretaker today} other {# caretakers today}}",
+                "and_more": "{count, plural, one {and # more} other {and # more}}",
+                "devoted": "Most devoted caretakers",
+                "devoted_none": "Nobody has looked after {pet} yet. Be the first!",
+                "care_count": "{count, plural, one {# time} other {# times}}",
+                "everyone": "{count, plural, one {# member has} other {# members have}} cared for it, {total, plural, one {# time} other {# times}} in all.",
+                "journey": "Growing up",
+                "to_go": "{count, plural, one {# more care to go} other {# more care to go}}",
+                "needs": "{count, plural, one {Needs # care} other {Needs # care}}",
+                "milestone": "Last milestone cheered: {count} posts.",
+                "milestone_when": "Last milestone cheered: {count} posts, {time}.",
+                "guest": "Log in to feed and play with {pet}. Every member can help once a day.",
+                "come_back": "Each of us can feed and play with {pet} once a day.",
+                "all_done": "You've looked after {pet} today. See you tomorrow!",
+                "streak": "{count}-day streak"
+            },
+            "stage": {
+                "egg": "Egg",
+                "baby": "Baby",
+                "adult": "Grown up",
+                "special": "Special form"
+            },
+            "mood_name": {
+                "idle": "content",
+                "happy": "happy",
+                "eating": "eating",
+                "sleepy": "sleepy",
+                "excited": "excited",
+                "celebrating": "celebrating"
+            },
+            "mood": {
+                "idle": "{pet} is pottering about, keeping an eye on the forum.",
+                "happy": "{pet} has been fed and played with today, and is very happy about it.",
+                "sleepy": "It's quiet here, so {pet} is having a nap. A new post might wake it up.",
+                "excited": "The forum is buzzing and {pet} can't sit still!",
+                "eating": "{pet} is enjoying a snack.",
+                "celebrating": "{pet} is celebrating!",
+                "egg_idle": "The egg rocks gently in its nest. Something is growing in there.",
+                "egg_happy": "The egg is warm and cozy. Keep looking after it!",
+                "egg_sleepy": "The egg is resting quietly while the forum is calm.",
+                "egg_excited": "All this chatter has the egg wobbling!",
+                "egg_eating": "The egg soaks up the warmth.",
+                "egg_celebrating": "The egg is wobbling with excitement!",
+                "evolved_baby": "{pet} hatched today! Say hello.",
+                "evolved_adult": "{pet} grew up today, thanks to all of you.",
+                "evolved_special": "{pet} reached its special form today!",
+                "milestone": "The forum just passed {count} posts and {pet} is cheering!"
+            },
+            "meter": {
+                "energy": "Energy",
+                "fullness": "Full tummy",
+                "fun": "Fun",
+                "energy_high": "The forum is buzzing",
+                "energy_mid": "A normal day",
+                "energy_low": "The forum is quiet",
+                "fed": "{count, plural, =0 {Not fed yet today} one {Fed once today} other {Fed # times today}}",
+                "played": "{count, plural, =0 {Nobody has played yet} one {Played with once today} other {Played with # times today}}"
+            },
+            "care": {
+                "feed": "Feed",
+                "play": "Play"
+            },
+            "done": {
+                "feed": "Fed today",
+                "play": "Played today"
+            },
+            "did": {
+                "feed": "Fed today",
+                "play": "Played today"
+            },
+            "thanks": {
+                "feed": {
+                    "1": "Yum! Thank you, {member}!",
+                    "2": "Nom nom nom… you're the best, {member}!",
+                    "3": "That hit the spot. Thanks, {member}!",
+                    "4": "{member}, that was delicious!"
+                },
+                "play": {
+                    "1": "Wheee! Again tomorrow, {member}?",
+                    "2": "That was so much fun, {member}!",
+                    "3": "You throw the best balls, {member}!",
+                    "4": "Thanks for playing with me, {member}!"
+                },
+                "egg_feed": {
+                    "1": "The egg glows warm. Thanks, {member}!",
+                    "2": "Something inside gives a happy little kick, {member}.",
+                    "3": "Cozy! The egg snuggles into its nest. Thanks, {member}!",
+                    "4": "The egg feels warmer already. Thank you, {member}!"
+                },
+                "egg_play": {
+                    "1": "The egg wiggles happily. Thanks, {member}!",
+                    "2": "Tap tap! Something taps back, {member}.",
+                    "3": "The egg rocks back and forth. Fun, {member}!",
+                    "4": "A little wobble of joy for you, {member}."
+                }
+            },
+            "already": {
+                "feed": "You've already fed {pet} today. Come back tomorrow!",
+                "play": "You've already played with {pet} today. Come back tomorrow!"
+            },
+            "evolved": {
+                "baby": "Crack! {pet} hatched, and you were there, {member}!",
+                "adult": "Look at that! {pet} grew up, thanks to you and everyone else, {member}!",
+                "special": "Wow! {pet} reached its special form! Your care did it, {member}!"
+            },
+            "grow": {
+                "to_baby": "Until it hatches",
+                "to_adult": "Until it grows up",
+                "to_special": "Until its special form",
+                "complete": "{pet} is fully grown",
+                "count": "{done} / {need}",
+                "aria": "How close {pet} is to its next stage"
+            },
+            "carers": {
+                "today": "{count, plural, one {# caretaker today} other {# caretakers today}}",
+                "none": "Nobody has visited {pet} yet today."
+            },
+            "banner": {
+                "baby": "{pet} hatched today! Come and say hello.",
+                "adult": "{pet} grew up today, thanks to everyone who looked after it.",
+                "special": "{pet} reached its special form today. What a community!",
+                "milestone": "We just passed {count} posts, and {pet} is cheering!",
+                "visit": "Visit {pet}",
+                "dismiss": "Dismiss"
+            },
+            "corner": {
+                "open": "Open {pet}, the forum pet",
+                "close": "Close"
+            },
+            "visit": "Visit {pet}",
+            "art_label": "{pet}, the forum pet: {stage}, {mood}"
+        },
+        "admin": {
+            "settings": {
+                "name": "Pet's name",
+                "name_help": "Up to 40 characters.",
+                "species": "Species",
+                "skin": "Skin",
+                "look_help": "Changes show on the forum as soon as you save. Uploaded art (below) replaces the built-in art once the egg has hatched.",
+                "growth": "How much care it takes to grow",
+                "growth_hatch": "To hatch",
+                "growth_grow": "To grow up",
+                "growth_special": "Special form",
+                "growth_help": "Each feed and each play counts as one care. Every member can feed and play once a day.",
+                "growth_invalid": "Use three whole numbers that go up, starting from 1. Until then the defaults (15, 75, 300) are used.",
+                "reset": "Start over with a new egg",
+                "reset_confirm": "Start over? The pet goes back to an egg and today's care is cleared. Past care stays in members' history.",
+                "reset_done": "A new egg is in the nest.",
+                "timezone": "Timezone for the pet's day",
+                "timezone_help": "When \"today\" starts and ends for feeding and playing, as a timezone name like America/New_York or Europe/Berlin. Unknown names use UTC.",
+                "sidebar": "Show the pet's card in the sidebar",
+                "corner": "Show a small pet in the corner wherever the sidebar card isn't showing",
+                "corner_help": "Phones, pages without the sidebar, and themes that hide it get a little pet in the bottom-left corner that opens its card.",
+                "nav": "Link to the pet's page in the sidebar menu",
+                "art": "Your own art",
+                "art_help": "Upload a picture for any mood (PNG, GIF, WebP or JPEG, up to 2 MB, square works best). It replaces the built-in pet in that mood from the baby stage on; the egg stays as drawn. Uploads take effect at once.",
+                "art_upload": "Upload",
+                "art_replace": "Replace",
+                "art_remove": "Remove"
+            },
+            "errors": {
+                "forum_pet_upload_too_big": "That picture is bigger than 2 MB. Try a smaller one.",
+                "forum_pet_upload_not_image": "That file isn't a PNG, GIF, WebP or JPEG picture between 16 and 4096 pixels wide. SVG isn't accepted.",
+                "forum_pet_upload_failed": "The picture couldn't be uploaded. Try again."
+            },
+            "species": {
+                "dumpling": "Dumpling",
+                "sprout": "Sprout",
+                "comet": "Comet"
+            },
+            "skins": {
+                "peach": "Peach",
+                "snow": "Snow",
+                "cocoa": "Cocoa",
+                "meadow": "Meadow",
+                "mint": "Mint",
+                "autumn": "Autumn",
+                "sky": "Sky",
+                "ember": "Ember",
+                "violet": "Violet"
+            },
+            "states": {
+                "idle": "Content",
+                "happy": "Happy",
+                "eating": "Eating",
+                "sleepy": "Sleepy",
+                "excited": "Excited",
+                "celebrating": "Celebrating"
+            },
+            "permissions": {
+                "view": "See the forum pet",
+                "care": "Feed and play with the forum pet"
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "The days you fed or played with the forum pet.",
+                "delete": "Removes the days you fed or played with the forum pet."
+            }
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "ernestdefoe-time-capsule": {
+        "admin": {
+            "permissions": {
+                "view": "View time capsules",
+                "create": "Write letters to the time capsule",
+                "community": "Start and manage the community time capsule",
+                "moderate": "Delete anyone's time capsule letters"
+            },
+            "settings": {
+                "nav": "Show a Time Capsule link in the forum sidebar",
+                "tag": "Tag for opened letters' discussions",
+                "tag_none": "Choose a tag",
+                "tag_help": "A member can ask for their letter to start a discussion when it opens. With tags on, choose the tag those discussions go in, or the option is hidden.",
+                "max_years": "Furthest a letter can be sealed, in years",
+                "max_years_help": "Between 1 and 100. The default is 25.",
+                "founded": "The forum's birthday",
+                "founded_help": "Used for the \"forum's birthday\" open date. It starts as the first member's join date; change it if the forum is older than that.",
+                "backup": "Back up the key",
+                "backup_help": "Letters and their photos are encrypted, so nobody can read a sealed letter by looking in the database. The key is in storage/time-capsule/key, next to the encrypted photos in storage/time-capsule/photos. Back up that folder with your database: without the key, sealed letters can never be opened. Letters open on the scheduler, so make sure Flarum's scheduler is running (the dashboard says so if it isn't)."
+            }
+        },
+        "forum": {
+            "nav": "Time Capsule",
+            "page": {
+                "title": "Time Capsule",
+                "intro": "Write a letter to the future. It's sealed until the day you choose: nobody can read it before then, not even the admins.",
+                "guest": "Log in to write a letter and to read the ones that have opened.",
+                "no_permission": "You don't have permission to see the time capsule.",
+                "log_in_to_write": "Log in to write a letter",
+                "write": "Write a letter",
+                "write_first": "Write your first letter",
+                "back": "Time Capsule",
+                "sealed_title": "Your sealed letters",
+                "sealed_empty": "No sealed letters yet. Write one to your future self: what you hope for, what you're working on, a photo of today.",
+                "opened_mine_title": "Your opened letters",
+                "recent_title": "Recently opened",
+                "recent_empty": "No one has shared an opened letter yet.",
+                "community_past_title": "Opened community capsules"
+            },
+            "stats": {
+                "sealed": "{count, plural, one {# letter sealed} other {# letters sealed}}",
+                "opened": "{count, plural, one {# opened} other {# opened}}",
+                "next": "next opens in {time}"
+            },
+            "countdown": {
+                "label": "{years, plural, =0 {} one {# year, } other {# years, }}{days, plural, one {# day} other {# days}} and {hours, plural, one {# hour} other {# hours}} to go",
+                "years": "years",
+                "days": "days",
+                "hours": "hours",
+                "minutes": "min",
+                "seconds": "sec"
+            },
+            "time": {
+                "years": "{count, plural, one {# year} other {# years}}",
+                "months": "{count, plural, one {# month} other {# months}}",
+                "days": "{count, plural, one {# day} other {# days}}",
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "minutes": "{count, plural, one {# minute} other {# minutes}}"
+            },
+            "card": {
+                "sealed_label": "Sealed letter",
+                "untitled": "A letter to the future",
+                "community_letter": "Your letter to the community capsule",
+                "opens_in": "Opens in {time}",
+                "opening_now": "Opening now…",
+                "progress": "{percent}% of the way there",
+                "sealed_on": "Sealed {date}",
+                "words": "{count, plural, one {# word} other {# words}}",
+                "photos": "{count, plural, one {# photo} other {# photos}}",
+                "private": "Only you",
+                "public": "Everyone, when it opens",
+                "public_post": "Everyone, in a discussion",
+                "reread": "Read it again",
+                "locked": "Not even you can read it yet",
+                "delete": "Delete this letter",
+                "delete_sealed_confirm": "Delete this letter? It's gone for good, unread.",
+                "delete_confirm": "Delete this letter? It's gone for good.",
+                "deleted": "The letter is deleted.",
+                "you": "You",
+                "deleted_user": "A former member",
+                "waited": "Written {date} · waited {time}",
+                "new": "New",
+                "read": "Read the letter",
+                "discussion": "Discussion"
+            },
+            "letter": {
+                "from": "From {name}",
+                "from_you": "From you",
+                "dates": "Written {sealed} · opened {opened}, {time} later",
+                "peek_dates": "Written {sealed} · opens {opens}",
+                "peek_note": "This letter is still sealed. You kept a key, so you can reread it; nobody else can until it opens.",
+                "still_sealed": "This letter is still sealed. It opens {date}.",
+                "unreadable": "This letter can't be read: the forum's time capsule key has changed. Ask an admin to restore storage/time-capsule/key from a backup.",
+                "photo": "Photo {number}",
+                "photo_view": "Photo",
+                "close": "Close",
+                "discussion": "Go to the discussion",
+                "delete": "Delete"
+            },
+            "community": {
+                "label": "Community time capsule",
+                "none": "There's no community capsule right now. Start one and everyone can add a letter; they all open on the same day.",
+                "start": "Start a community capsule",
+                "start_title": "Start a community capsule",
+                "edit_title": "Edit the community capsule",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete the community capsule and {count, plural, one {its # letter} other {all # letters in it}}? They're gone for good, unread.",
+                "opens_on": "Opens {date}",
+                "counts": "{letters, plural, one {# letter} other {# letters}} from {members, plural, one {# member} other {# members}}",
+                "yours": "{count, plural, one {# is yours} other {# are yours}}",
+                "add": "Add your letter",
+                "add_another": "Add another letter",
+                "your_letters": "Your letters in it",
+                "opened_summary": "Opened {date} · {letters, plural, one {# letter} other {# letters}} from {members, plural, one {# member} other {# members}}",
+                "waited": "sealed for {time}",
+                "empty": "Nobody wrote a letter for this one.",
+                "more": "Show more letters",
+                "field_title": "Name",
+                "field_title_placeholder": "Hopes for {year}",
+                "field_description": "What should members write about?",
+                "field_date": "Opens on",
+                "field_date_help": "Every letter in it opens at the start of this day (midnight in your time zone).",
+                "field_date_later": "Members have written letters for this day, so it can only move later.",
+                "field_notify": "Notify every member when it opens (otherwise only the writers)",
+                "field_post": "Start a discussion when it opens",
+                "create": "Start it",
+                "save": "Save"
+            },
+            "seal": {
+                "title": "Write a letter to the future",
+                "title_community": "A letter for \"{title}\"",
+                "where": "Where it goes",
+                "where_mine": "My own capsule",
+                "where_community": "The community capsule: {title}",
+                "body_label": "Your letter",
+                "body_placeholder": "Dear future me,",
+                "body_placeholder_community": "Dear everyone, a few years from now,",
+                "length": "{count, plural, one {# character left} other {# characters left}}",
+                "photos_label": "Photos (up to {count})",
+                "photo_add": "Add photos",
+                "photo_remove": "Remove this photo",
+                "envelope_label": "Written on the envelope",
+                "envelope_placeholder": "For when I finish school",
+                "envelope_help": "Optional. You'll see it on the sealed card, and it becomes the title when the letter opens.",
+                "when_label": "When should it open?",
+                "preset": {
+                    "new_year": "New Year {year}",
+                    "years": "{count, plural, one {In # year} other {In # years}}",
+                    "anniversary": "The forum's {count, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} birthday",
+                    "custom": "Pick a date"
+                },
+                "opens_summary": "Opens on {date}, in {time}.",
+                "after_label": "Who reads it when it opens?",
+                "private": "Only me",
+                "public": "Everyone here",
+                "private_help": "It opens for you alone. You'll get a notification and an email that day.",
+                "public_help": "It opens for you, and then everyone here can read it on the Time Capsule page.",
+                "post": "Also start a discussion with it when it opens",
+                "community_note": "Community letters open for everyone on {date}, signed with your name.",
+                "peek": "Let me reread it before it opens",
+                "peek_off_help": "Off: once it's sealed, nobody can read it until it opens, you included.",
+                "peek_on_help": "You can reread it any time. Nobody else can until it opens.",
+                "submit": "Seal it",
+                "final": "A sealed letter can't be changed. You can always delete it.",
+                "sealing": "Sealing your letter…",
+                "done": "Sealed. See you in the future."
+            },
+            "notification": {
+                "opened": "The letter you wrote on {date} has opened",
+                "community": "The community time capsule \"{title}\" is open"
+            },
+            "settings": {
+                "notify_opened": "My time capsule letters open",
+                "notify_community": "A community time capsule opens"
+            },
+            "errors": {
+                "not_found": "That letter isn't here, or it isn't open to you.",
+                "generic": "Something went wrong. Please try again.",
+                "time_capsule_bad_letter": "Write something first, up to 20,000 characters, and keep the envelope note under 80.",
+                "time_capsule_bad_date": "Choose a day at least tomorrow, and within the forum's limit.",
+                "time_capsule_community_closed": "The community capsule isn't taking letters any more.",
+                "time_capsule_too_many_photos": "That's more photos than a letter can take.",
+                "time_capsule_bad_photo": "One of the photos couldn't be read. Try a JPEG or PNG.",
+                "time_capsule_slow_down": "You've sealed a lot of letters today. Try again tomorrow.",
+                "time_capsule_too_many": "You have as many sealed letters as the forum allows. Wait for one to open, or delete one.",
+                "time_capsule_community_exists": "There's already a community capsule waiting to open.",
+                "time_capsule_bad_community": "Give it a name of at least 3 characters and a day in the future.",
+                "time_capsule_key_missing": "Letters can't be sealed right now: the forum's time capsule key is missing. Please let an admin know.",
+                "time_capsule_community_earlier": "Members have already written letters for that day, so it can only move later, not earlier."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "title": "A letter from {date}",
+                "written": "Written {date}, opened {span} later.",
+                "link": "Open it in the time capsule",
+                "link_photos": "See it with its photos in the time capsule",
+                "community_sealed": "Sealed {date}, opened today.",
+                "community_count": "{letters, plural, one {# letter} other {# letters}} from {members, plural, one {# member} other {# members}}.",
+                "community_link": "Read every letter in the time capsule"
+            },
+            "gdpr": {
+                "export": "Time capsule letters (opened ones in full, sealed ones as their date and envelope)",
+                "delete": "Delete every time capsule letter they wrote, with its photos"
+            }
+        },
+        "email": {
+            "opened": {
+                "subject": "The letter you wrote on {date} has opened",
+                "plain": {
+                    "body": "The letter you sealed in the time capsule on {date} has opened.\n\nRead it: {url}\n"
+                },
+                "html": {
+                    "body": "The letter you sealed in the time capsule on **{date}** has opened.\n\n[Read it]({url})\n"
+                }
+            },
+            "community": {
+                "subject": "The community time capsule \"{title}\" is open",
+                "plain": {
+                    "body": "The community time capsule \"{title}\" has opened. Every letter in it is ready to read.\n\n{url}\n"
+                },
+                "html": {
+                    "body": "The community time capsule **{title}** has opened. Every letter in it is ready to read.\n\n[Read the letters]({url})\n"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "ernestdefoe-tier-lists": {
+        "admin": {
+            "settings": {
+                "nav": "Show \"Tier lists\" in the sidebar",
+                "tag": "Tag for list discussions",
+                "tag_help": "A new list can start a discussion where people comment on it. It starts in this tag. Without a tag, only members who may skip tag requirements can start one.",
+                "tag_none": "No tag"
+            },
+            "permissions": {
+                "view": "View tier lists",
+                "create": "Make, remix and like tier lists",
+                "moderate": "Edit and delete anyone's tier lists"
+            }
+        },
+        "forum": {
+            "nav": "Tier lists",
+            "profile_link": "Tier lists",
+            "deleted_member": "A deleted member",
+            "index": {
+                "title": "Tier lists",
+                "meta": "Rank anything from S to F, remix other members' lists, and see where the crowd puts every item.",
+                "lead": "Rank anything from best to worst. Remix anyone's list and see where the crowd puts each item.",
+                "by_author": "Every list this member has made or remixed.",
+                "family": "Every remix of one list.",
+                "all": "All tier lists",
+                "new": "New tier list",
+                "filter_label": "Show",
+                "filters": {
+                    "all": "Originals",
+                    "templates": "Templates",
+                    "remixes": "Remixes",
+                    "mine": "Mine"
+                },
+                "search": "Search lists",
+                "sort_label": "Sort by",
+                "sorts": {
+                    "new": "Newest",
+                    "popular": "Most liked",
+                    "remixed": "Most remixed"
+                },
+                "empty": "No tier lists yet. Be the first to rank something!",
+                "empty_mine": "You haven't made a tier list yet.",
+                "no_results": "No lists match your search.",
+                "load_more": "Load more"
+            },
+            "card": {
+                "template": "Template",
+                "remix_of": "Remix of {title}",
+                "likes": "{count, plural, one {# like} other {# likes}}",
+                "remixes": "{count, plural, one {# remix} other {# remixes}}",
+                "comments": "{count, plural, one {# comment} other {# comments}}"
+            },
+            "embed": {
+                "open": "Open list",
+                "rank_it": "Rank it yourself"
+            },
+            "show": {
+                "missing": "This tier list doesn't exist, or you can't see it.",
+                "remix_of": "Remix of {link} by {name}",
+                "original_gone": "Remix of a list that has been deleted",
+                "views_label": "Views",
+                "view_list": "The list",
+                "view_this": "This remix",
+                "view_crowd": "The crowd ({count, plural, one {# ranking} other {# rankings}})",
+                "view_you": "You vs. the crowd",
+                "view_this_vs": "This vs. the crowd",
+                "crowd_note": "Each item sits at its average place over {count, plural, one {# ranking} other {# rankings}}: this list and every remix of it.",
+                "crowd_says": "The crowd puts it in {tier}",
+                "unranked": "Not ranked",
+                "compare_empty": "Nothing to compare yet. Once others remix this list, you'll see where you agree.",
+                "compare": {
+                    "you": "You",
+                    "this": "This list",
+                    "crowd": "The crowd",
+                    "same": "Same as the crowd",
+                    "untitled": "A picture",
+                    "you_agree": "You agree with the crowd on {agree} of {total}.",
+                    "this_agree": "This list agrees with the crowd on {agree} of {total}.",
+                    "you_hottest": "Your hottest take: {item} (you: {yours}, the crowd: {crowd}).",
+                    "this_hottest": "Its hottest take: {item} ({yours} here, {crowd} for the crowd).",
+                    "you_higher": "You rank it {count, plural, one {# row} other {# rows}} higher",
+                    "you_lower": "You rank it {count, plural, one {# row} other {# rows}} lower",
+                    "this_higher": "{count, plural, one {# row} other {# rows}} higher here",
+                    "this_lower": "{count, plural, one {# row} other {# rows}} lower here",
+                    "open_yours": "Open your ranking"
+                },
+                "likes": "likes",
+                "remix": "Remix",
+                "rank_it": "Rank it",
+                "share": "Share",
+                "copied": "Link copied. Paste it alone on a line in any post to show the list there.",
+                "copy_prompt": "Copy this link",
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete this tier list? Its remixes and its discussion stay.",
+                "discussion": "{count, plural, =0 {Discuss it} one {# comment} other {# comments}}",
+                "discussion_original": "{count, plural, =0 {Discuss the original} one {# comment on the original} other {# comments on the original}}",
+                "start_discussion": "Start a discussion",
+                "remixes": "{count, plural, one {# remix} other {# remixes}}",
+                "all_remixes": "See every remix"
+            },
+            "editor": {
+                "title_new": "New tier list",
+                "title_edit": "Edit tier list",
+                "title_remix": "Make your own version",
+                "remix_title": "{title} (my take)",
+                "sign_in": "Log in to make a tier list.",
+                "sign_in_button": "Log in",
+                "restored": "We kept your unsaved list.",
+                "restored_expired": "{count, plural, one {A picture you added more than a day ago was removed; add it again.} other {# pictures you added more than a day ago were removed; add them again.}}",
+                "start_over": "Start over",
+                "template_note": "This is a template. Drag every item to where you think it belongs.",
+                "list_title": "Title",
+                "title_placeholder": "Best pizza toppings",
+                "description": "Description (optional)",
+                "description_placeholder": "What are you ranking, and how?",
+                "edit_rows": "Edit rows",
+                "rows_done": "Done editing rows",
+                "add_row": "Add a row",
+                "row_label": "Name of row {number}",
+                "row_color": "Color of row {label}",
+                "row_up": "Move row up",
+                "row_down": "Move row down",
+                "row_delete": "Delete row {label}",
+                "row_name": "Row {label}",
+                "pool": "Items to rank",
+                "pool_empty": "Add items below, then drag them into the rows.",
+                "pool_done": "Everything is ranked.",
+                "add_placeholder": "Type an item, or paste a list",
+                "caption_placeholder": "Name this picture",
+                "add": "Add",
+                "add_pictures": "Add pictures",
+                "add_help": "Drag pictures here, or paste one. Paste several lines to add an item for each.",
+                "full": "This list has 120 items, the most it can hold.",
+                "some_skipped": "Some files were skipped. Pictures must be JPEG, PNG or WebP, and a list holds up to 120 items.",
+                "upload_failed": "{name} could not be uploaded.",
+                "still_uploading": "Wait for the pictures to finish uploading.",
+                "template": "Make it a template",
+                "template_help": "Everyone ranks the same items. Their rankings can't add or change items.",
+                "discussion": "Start a discussion",
+                "discussion_help": "A discussion where members can comment on your list.",
+                "share_remix": "Post it in the original's discussion",
+                "share_remix_help": "Your remix shows up as a reply.",
+                "publish": "Publish",
+                "publish_ranking": "Publish my ranking",
+                "save": "Save",
+                "cancel": "Cancel",
+                "picture": "picture",
+                "keyboard_help": "Press Space to pick up an item, the arrow keys to move it, and Space again to drop it. Escape puts it back. Press M for a menu.",
+                "item_label": "{label}, in {where}, {position} of {total}",
+                "picked_up": "Picked up {label}.",
+                "dropped": "{label} dropped in {where}.",
+                "moved": "{label} moved to {where}.",
+                "cancelled": "{label} put back.",
+                "removed": "{label} removed.",
+                "now_in": "{where}, {position} of {total}.",
+                "move_title": "Move {label}",
+                "move_to": "Move to",
+                "unranked": "Not ranked",
+                "rename": "Name",
+                "remove": "Remove from the list",
+                "close": "Close"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "bad_title": "Give your list a title (up to 100 characters).",
+                "bad_description": "The description can be up to 1,000 characters.",
+                "bad_tiers": "Every row needs a name (up to 24 characters). A list has 2 to 10 rows.",
+                "bad_items": "One of the items isn't valid. Each needs a name or a picture.",
+                "no_items": "Add at least one item.",
+                "too_many_items": "A list can hold up to 120 items.",
+                "bad_image": "Pictures must be uploaded here.",
+                "slow_down": "You're doing that too often. Please wait a moment.",
+                "discussion_denied": "Your list is saved, but you can't post a discussion for it.",
+                "discussion_needs_tag": "Your list is saved, but discussions need a tag. Ask an admin to choose one for tier lists.",
+                "discussion_failed": "Your list is saved, but its discussion couldn't be posted.",
+                "no_discussion": "Your remix is saved. The original has no discussion to post it in.",
+                "has_discussion": "This list already has a discussion."
+            },
+            "notifications": {
+                "remixed": "{username} remixed your tier list",
+                "liked": "{username} liked your tier list",
+                "remixed_preference": "Someone remixes my tier list",
+                "liked_preference": "Someone likes my tier list"
+            },
+            "meta": {
+                "by": "by {username}"
+            }
+        },
+        "lib": {
+            "remix_reply": "Here's my remix:",
+            "gdpr": {
+                "export": "Your tier lists.",
+                "anonymize": "Your tier lists stay, without your name. Your likes are removed.",
+                "delete": "Your tier lists and likes are deleted."
+            }
+        },
+        "email": {
+            "remixed": {
+                "subject": "{username} remixed {title}",
+                "plain": {
+                    "body": "{username} remixed your tier list, {title}.\n\n{url}\n"
+                },
+                "html": {
+                    "body": "{username} remixed your tier list, **{title}**.\n\n[See their remix]({url})\n"
+                }
+            }
+        }
+    }
+}

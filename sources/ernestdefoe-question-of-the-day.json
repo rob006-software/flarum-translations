@@ -1,0 +1,216 @@
+{
+    "ernestdefoe-question-of-the-day": {
+        "forum": {
+            "nav": "Question of the Day",
+            "page": {
+                "title": "Question of the Day",
+                "guest": "Log in to see the Question of the Day.",
+                "no_permission": "You don't have permission to see the Question of the Day.",
+                "none_title": "No question today yet",
+                "none_text": "The question pool is empty. Suggest one, and it could be tomorrow's.",
+                "suggest_one": "Suggest a question",
+                "add_some": "Add questions",
+                "locked": "{count, plural, one {# answer is} other {# answers are}} waiting. Post yours to see them all.",
+                "locked_none": "Nobody has answered yet. Be the first!",
+                "moderate": "Show answers to moderate",
+                "back": "Back to the archive"
+            },
+            "tabs": {
+                "today": "Today",
+                "archive": "Archive",
+                "queue": "Suggest",
+                "streaks": "Streaks"
+            },
+            "card": {
+                "badge": "Question of the Day",
+                "suggested_by": "Suggested by {name}",
+                "placeholder": "Your answer, in a line or two…",
+                "your_answer": "Your answer",
+                "post": "Post my answer",
+                "locked": "{count, plural, one {# answer} other {# answers}}, hidden until you post yours",
+                "be_first": "Be the first to answer",
+                "others": "{count, plural, one {# other answer} other {# other answers}} to read",
+                "first": "You were first! Check back later.",
+                "see_answers": "See the answers",
+                "log_in": "Log in to answer",
+                "no_permission": "You can't answer questions here.",
+                "closed": "{count, plural, one {# answer} other {# answers}}",
+                "discussion": "Discussion",
+                "hide": "Hide until tomorrow",
+                "next_title": "Time until the next question"
+            },
+            "answer": {
+                "you": "You",
+                "edited": "edited",
+                "edit": "Edit",
+                "save": "Save",
+                "cancel": "Cancel",
+                "delete": "Delete",
+                "delete_confirm": "Delete this answer? Its reactions go with it.",
+                "delete_mine_confirm": "Delete your answer? You can answer again while the question is up.",
+                "deleted_user": "A former member",
+                "reactions": "Reactions"
+            },
+            "answers": {
+                "title": "{count, plural, one {# answer} other {# answers}}",
+                "sort_top": "Top",
+                "sort_new": "New",
+                "none": "No answers yet.",
+                "more": "More answers"
+            },
+            "reaction": {
+                "like": "Like",
+                "love": "Love",
+                "haha": "Funny",
+                "fire": "Fire",
+                "wow": "Wow"
+            },
+            "top": {
+                "yesterday": "Yesterday's top answer to",
+                "winner": "Top answer",
+                "reactions": "{count, plural, one {# reaction} other {# reactions}}"
+            },
+            "streak": {
+                "title": "{count, plural, one {Answered # day in a row} other {Answered # days in a row}}"
+            },
+            "stats": {
+                "streak": "Day streak",
+                "best": "Best streak",
+                "total": "Answered",
+                "reminder_on": "Daily reminder on",
+                "reminder_off": "Remind me daily",
+                "moderating": "Moderating (on)"
+            },
+            "archive": {
+                "empty": "No past questions yet. Today's will be the first.",
+                "answers": "{count, plural, one {# answer} other {# answers}}",
+                "more": "Older questions"
+            },
+            "queue": {
+                "guest": "Log in to suggest questions and vote for the ones you'd like to see.",
+                "suggest_label": "Suggest a question",
+                "suggest_placeholder": "Example: What's the best concert you've ever been to?",
+                "suggest_button": "Suggest",
+                "suggest_help": "Keep it short and open: one line anyone can answer. Members vote, moderators approve, and the most popular go first.",
+                "suggested": "Thanks! Your question is in the queue.",
+                "pending_title": "Waiting for votes",
+                "pending_help": "Upvote the ones you'd like to answer. A moderator approves them into the pool.",
+                "pending_help_mod": "Approve a suggestion to put it in the pool, or reject it.",
+                "pending_empty": "Nothing waiting right now.",
+                "vote": "Upvote",
+                "unvote": "Take back your vote",
+                "own": "Your own suggestion",
+                "yours": "Yours",
+                "withdraw": "Withdraw",
+                "approve": "Approve",
+                "reject": "Reject",
+                "delete_confirm": "Delete this question?"
+            },
+            "pool": {
+                "add_label": "Add questions to the pool",
+                "add_placeholder": "One question per line. They go straight into the pool.",
+                "add_button": "Add",
+                "starter": "Add the starter pack",
+                "added": "{added, plural, one {# question added} other {# questions added}}{skipped, plural, =0 {} one {, # skipped (too short, too long or already there)} other {, # skipped (too short, too long or already there)}}.",
+                "title": "The pool",
+                "help": "Asked in this order at midnight: questions scheduled for a date first, then the most upvoted, then the oldest. Only moderators see this list.",
+                "low": "The pool is almost empty. Add some questions or approve suggestions so tomorrow has one.",
+                "next": "Next",
+                "suggested_by": "Suggested by",
+                "votes": "{count, plural, one {# vote} other {# votes}}",
+                "schedule": "Ask on this date",
+                "ask_now": "Ask this now (replaces today's)",
+                "ask_now_locked": "Someone already answered today's question: schedule this for another day instead",
+                "ask_now_confirm": "Put this question up now? Today's goes back into the pool.",
+                "delete": "Delete",
+                "empty": "The pool is empty."
+            },
+            "streaks": {
+                "me": "Your streak: {current} · best {best} · {total} answered in all",
+                "going": "On a roll",
+                "best": "Longest streaks",
+                "days": "{count, plural, one {# day} other {# days}}",
+                "empty": "No streaks yet."
+            },
+            "time": {
+                "hours_minutes": "{hours}h {minutes}m",
+                "minutes": "{minutes}m"
+            },
+            "notification": {
+                "new": "Today's Question of the Day is up",
+                "asked": "Your question is today's Question of the Day!"
+            },
+            "settings": {
+                "notify_new": "When a new Question of the Day goes up (after you turn on its daily reminder)",
+                "notify_asked": "When a question I suggested becomes the Question of the Day"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "not_found": "That question isn't here.",
+                "closed": "This question has closed. Here's today's.",
+                "already_answered": "You've already answered this one.",
+                "answer_length": "Your answer is empty or too long.",
+                "answer_first": "Post your own answer first.",
+                "own_answer": "You can't react to your own answer.",
+                "own_question": "You can't vote for your own question.",
+                "reaction": "That reaction isn't available.",
+                "question_length": "Questions need 8 to 200 characters.",
+                "duplicate": "That question is already in the pool or the queue.",
+                "too_many_pending": "You have 5 suggestions waiting. Wait for them to be reviewed first.",
+                "already_asked": "That question has already been asked.",
+                "has_votes": "Members have voted for this question, so its wording can't change now. Withdraw it and suggest the new wording instead.",
+                "date_past": "Pick today or a later date.",
+                "today_answered": "Someone already answered today's question, so it can't be swapped. Schedule this one instead.",
+                "slow_down": "Slow down a little and try again in a minute.",
+                "permission_denied": "You don't have permission to do that."
+            }
+        },
+        "admin": {
+            "settings": {
+                "timezone": "Timezone",
+                "timezone_utc": "UTC (not set)",
+                "timezone_help": "A new question goes up at midnight here. Your browser's timezone is {zone}.",
+                "hero": "Show the card on the front page",
+                "hero_help": "Today's question above the discussion list (not on tag pages or searches). Members can hide it until the next question.",
+                "nav": "Show \"Question of the Day\" in the sidebar",
+                "max_length": "Longest answer (characters)",
+                "max_length_help": "Short answers read best. Default 280.",
+                "discussion": "Also start a discussion for each question",
+                "discussion_help": "Posted when the question goes up, with a link to answer it. Answers stay on the Question of the Day page.",
+                "tag": "Tag for the daily discussion",
+                "tag_none": "No tag",
+                "tag_help": "Needed if your forum requires a tag on new discussions.",
+                "poster": "Post the daily discussion as",
+                "poster_help": "A username. Leave empty to post as the first administrator.",
+                "pool": "The question pool",
+                "pool_help": "Moderators add questions, approve members' suggestions, schedule and swap questions on the forum.",
+                "pool_link": "Open the question pool"
+            },
+            "permissions": {
+                "view": "View the Question of the Day",
+                "answer": "Answer and react",
+                "suggest": "Suggest questions and vote on suggestions",
+                "moderate": "Manage questions and moderate answers"
+            }
+        },
+        "lib": {
+            "discussion": {
+                "title": "Question of the Day: {question}",
+                "suggested": "Suggested by {name}.",
+                "answer": "Answer it here (everyone's answers show up once you post yours): {url}"
+            },
+            "gdpr": {
+                "export": "Your Question of the Day answers, suggested questions and streak.",
+                "delete": "Your Question of the Day answers, reactions, votes, streak and reminder. Questions you suggested stay, without your name."
+            }
+        },
+        "email": {
+            "new": {
+                "subject": "Today's Question of the Day is up",
+                "intro": "Today's Question of the Day:",
+                "hidden": "Everyone's answers show up as soon as you post yours.",
+                "cta": "Answer it"
+            }
+        }
+    }
+}

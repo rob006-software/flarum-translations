@@ -1,0 +1,209 @@
+{
+    "ernestdefoe-story-chain": {
+        "admin": {
+            "settings": {
+                "nav": "Show \"Story Chain\" in the sidebar",
+                "card": "Show the newest line on the discussion list",
+                "card_help": "A small card above the discussions with the newest line of the story being written and how long until the round closes.",
+                "live_votes": "Show vote counts while a round is open",
+                "live_votes_help": "Off, votes are revealed when the round closes, so early votes don't steer the rest.",
+                "show_authors": "Show who wrote each line while a round is open",
+                "show_authors_help": "Off, lines are anonymous until one wins, so members vote for the line, not the name. Moderators always see who wrote what.",
+                "no_repeat": "The writer of the newest line sits the next round out",
+                "no_repeat_help": "Keeps one fast writer from adding line after line. They can still vote."
+            },
+            "permissions": {
+                "view": "Read stories",
+                "write": "Offer lines",
+                "vote": "Vote for lines",
+                "start": "Start stories",
+                "moderate": "Moderate stories (edit, end, remove lines)"
+            }
+        },
+        "forum": {
+            "nav": "Story Chain",
+            "page": {
+                "title": "Story Chain",
+                "lead": "The forum writes a story together, one line at a time. Offer the next line, vote for your favorite, and the winning line joins the story.",
+                "start": "Start a story",
+                "writing": "Being written",
+                "library": "The library",
+                "library_lead": "Finished stories, every line written by members.",
+                "empty": "No stories yet.",
+                "empty_start": "Start the first one. All it takes is an opening line.",
+                "library_empty": "Finished stories are shelved here.",
+                "more": "Show more",
+                "load_error": "The stories couldn't be loaded. Try again in a moment.",
+                "not_found": "This story doesn't exist, or it was deleted.",
+                "back": "All stories"
+            },
+            "card": {
+                "label": "Story Chain",
+                "offered": "{count, plural, =0 {No lines in the running yet} one {# line in the running} other {# lines in the running}}",
+                "cta": "Add the next line",
+                "hide": "Hide until the next round"
+            },
+            "story": {
+                "lines": "{count, plural, one {# line} other {# lines}}",
+                "line_of": "Line {n} of {max}",
+                "writers": "{count, plural, one {# writer} other {# writers}}",
+                "round": "Round {round}",
+                "closes_in": "Closes in {time}",
+                "closing": "Closing…",
+                "final": "Final round",
+                "finished": "Finished",
+                "finished_on": "Finished {date}",
+                "started": "Started {date}",
+                "chapter": "Chapter",
+                "the_end": "The End",
+                "opening": "Opening line",
+                "line_votes": "Round {round} · {votes, plural, one {# vote} other {# votes}}",
+                "line_rivals": "beat {count, plural, one {# other line} other {# other lines}}",
+                "removed_line": "Removed by a moderator",
+                "deleted_user": "A former member",
+                "color_by_writer": "Color by writer",
+                "so_far": "The story so far ends…"
+            },
+            "write": {
+                "heading": "Write the next line",
+                "placeholder": "What happens next?",
+                "submit": "Offer my line",
+                "yours": "Your line this round",
+                "withdraw": "Take it back",
+                "removed": "A moderator removed your line from this round.",
+                "guest": "Log in to offer a line and vote.",
+                "permission": "You can read along, but offering lines isn't open to you here.",
+                "repeat": "You wrote the newest line, so this round is for everyone else. You can still vote.",
+                "closed": "This round has closed.",
+                "thanks": "Your line is in the running. Good luck!"
+            },
+            "vote": {
+                "heading": "{count, plural, =0 {No lines yet} one {# line in the running} other {# lines in the running}}",
+                "empty": "Be the first to offer a line this round.",
+                "vote": "Vote",
+                "voted": "Your vote",
+                "own": "Yours",
+                "hidden_note": "Votes are revealed when the round closes.",
+                "live_note": "Votes are counted live.",
+                "count": "{count, plural, one {# vote} other {# votes}}",
+                "voters": "{count, plural, one {# vote} other {# votes}} so far",
+                "removed": "Removed",
+                "ties": "Most votes wins. A tie goes to the line offered first."
+            },
+            "last": {
+                "heading": "Last round",
+                "text": "{name}'s line won with {votes, plural, one {# vote} other {# votes}}, ahead of {rivals, plural, =0 {no other lines} one {# other line} other {# other lines}}."
+            },
+            "stats": {
+                "heading": "The story in numbers",
+                "lines": "{count, plural, one {line} other {lines}}",
+                "writers": "{count, plural, one {writer} other {writers}}",
+                "offered": "lines offered",
+                "votes": "{count, plural, one {vote} other {votes}}",
+                "days": "{count, plural, one {day} other {days}}"
+            },
+            "credits": {
+                "heading": "Written by",
+                "lines": "{count, plural, one {# line} other {# lines}}"
+            },
+            "manage": {
+                "button": "Manage",
+                "edit": "Edit story",
+                "close": "Close this round now",
+                "final": "Make this round the last",
+                "not_final": "Keep going after this round",
+                "finish": "Finish the story now",
+                "delete": "Delete story",
+                "confirm_delete": "Delete \"{title}\" and every line in it? This can't be undone.",
+                "confirm_finish": "Finish \"{title}\" now? The lines in the running this round won't be added.",
+                "confirm_close": "Close this round now and add the winning line?",
+                "remove_line": "Remove this line",
+                "restore_line": "Put this line back"
+            },
+            "form": {
+                "title_new": "Start a story",
+                "title_edit": "Edit story",
+                "title": "Title",
+                "opening": "Opening line",
+                "opening_help": "The first line of the story. Members write every line after it.",
+                "blurb": "Short description",
+                "blurb_help": "Optional. Shown on the story's cover in the library.",
+                "cover": "Cover",
+                "round": "Each round lasts",
+                "end": "The story ends after",
+                "end_open": "A moderator ends it",
+                "lines_count": "{count} lines",
+                "length": "Longest line",
+                "length_count": "{count} characters",
+                "submit_new": "Start the story",
+                "submit_edit": "Save",
+                "timing_note": "A new round length applies from the next round."
+            },
+            "hours": {
+                "h1": "1 hour",
+                "h6": "6 hours",
+                "h12": "12 hours",
+                "h24": "1 day",
+                "h48": "2 days",
+                "h72": "3 days",
+                "h168": "1 week"
+            },
+            "covers": {
+                "oxblood": "Oxblood",
+                "navy": "Navy",
+                "forest": "Forest",
+                "plum": "Plum",
+                "teal": "Teal",
+                "amber": "Amber",
+                "slate": "Slate",
+                "rose": "Rose"
+            },
+            "notification": {
+                "won": "Your line won round {round} of {title}",
+                "won_final": "Your line ends {title}",
+                "round": "{username}'s line was added to {title}. Round {round} is open.",
+                "finished": "{title} is finished. Read the whole story.",
+                "won_preference": "My line wins a round in Story Chain",
+                "round_preference": "A new round opens in a Story Chain story I've taken part in"
+            },
+            "errors": {
+                "story_not_found": "This story doesn't exist, or it was deleted.",
+                "round_closed": "This round has already closed. The page is up to date now.",
+                "line_empty": "Write your line first.",
+                "line_too_long": "That line is longer than this story allows.",
+                "already_offered": "You've already offered a line this round.",
+                "wrote_last": "You wrote the newest line, so this round is for everyone else.",
+                "too_fast": "Slow down a little and try again in a minute.",
+                "too_many_stories": "You've started enough stories for today. Try again tomorrow.",
+                "line_not_found": "That line isn't in this round any more.",
+                "line_removed": "A moderator removed that line, so it can't be taken back.",
+                "line_erased": "This line was erased at its writer's request and can't be put back.",
+                "own_line": "You can't vote for your own line.",
+                "title_invalid": "Give the story a title (up to 120 characters).",
+                "opening_empty": "Write the opening line.",
+                "cover_invalid": "Pick one of the covers.",
+                "hours_invalid": "Pick one of the round lengths.",
+                "length_invalid": "The longest line must be between 40 and 500 characters.",
+                "lines_invalid": "The story's length must be between 3 and 500 lines, and longer than it already is."
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Story Chain lines (in stories and offered) and votes",
+                "anonymize": "Keep their lines in stories without their name; delete the lines they offered and their votes",
+                "delete": "Take their lines out of stories; delete the lines they offered and their votes"
+            }
+        },
+        "email": {
+            "won": {
+                "subject": "Your line won a round of \"{title}\"",
+                "plain": {
+                    "body": "Your line won round {round} of \"{title}\" and is now part of the story:\n\n\"{line}\"\n\nRead the story: {url}\n"
+                },
+                "html": {
+                    "body": "Your line won round {round} of **{title}** and is now part of the story:\n\n> {line}\n\n[Read the story]({url})\n"
+                }
+            }
+        }
+    }
+}

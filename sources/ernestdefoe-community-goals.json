@@ -1,0 +1,179 @@
+{
+    "ernestdefoe-community-goals": {
+        "forum": {
+            "nav": "Goals",
+            "page": {
+                "title": "Community Goals",
+                "intro": "Everyone on the forum works toward these together. Every reply, discussion and like counts.",
+                "running": "Running now",
+                "coming_up": "Coming up",
+                "history": "Past goals",
+                "none": "No goals right now. Check back soon!",
+                "none_manage": "No goals yet. Set the first one and get everyone working toward it.",
+                "no_history": "Finished goals will be listed here.",
+                "new": "New goal",
+                "load_more": "Show older goals",
+                "error": "These goals couldn't be loaded. Try again in a moment."
+            },
+            "metric": {
+                "replies": "{count, plural, one {reply} other {replies}}",
+                "discussions": "{count, plural, one {new discussion} other {new discussions}}",
+                "likes": "{count, plural, one {like} other {likes}}",
+                "members": "{count, plural, one {new member} other {new members}}",
+                "tag_posts": "{count, plural, one {post} other {posts}} in {tag}",
+                "custom": "{count, plural, one {point} other {points}}"
+            },
+            "status": {
+                "upcoming": "Coming up",
+                "live": "In progress",
+                "hit": "Goal reached!",
+                "done": "Reached",
+                "missed": "Missed"
+            },
+            "goal": {
+                "of": "of {target}",
+                "percent": "{percent}%",
+                "left": "{time} left",
+                "starts": "Starts in {time}",
+                "ended": "Ended {date}",
+                "reached_on": "Reached {date}",
+                "helpers": "{count, plural, =0 {Be the first to help} one {# member helping} other {# members helping}}",
+                "helped": "{count, plural, one {# member helped} other {# members helped}}",
+                "reward": "Reward",
+                "reward_unlocked": "Reward unlocked",
+                "mine": "{count, plural, one {You added #} other {You added #}}",
+                "rank": "#{rank} on this goal",
+                "mine_none": "You haven't added to this one yet.",
+                "top": "Top contributors",
+                "see_all": "See all",
+                "view": "See goal",
+                "milestone": "{percent}% milestone",
+                "what_counts": "What counts",
+                "counts": {
+                    "replies": "Replies in public discussions, written while the goal runs.",
+                    "discussions": "New discussions started while the goal runs.",
+                    "likes": "Likes given to other members' posts while the goal runs.",
+                    "members": "Members who join (and confirm their email) while the goal runs.",
+                    "tag_posts": "Posts in {tag}, written while the goal runs.",
+                    "custom": "This number is kept by the forum's staff."
+                },
+                "hidden_note": "Hidden, unapproved and private posts don't count, and a post that is removed is taken off again."
+            },
+            "celebrate": {
+                "milestone": "{title} is {percent}% of the way there!",
+                "reached": "We did it! {title} reached its goal. Thank you, everyone!"
+            },
+            "top_modal": {
+                "title": "Top contributors",
+                "you": "You",
+                "empty": "Nobody has added to this goal yet."
+            },
+            "manage": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "delete_confirm": "Delete \"{title}\"? Its history and contributors go with it. This can't be undone.",
+                "recount": "Recount",
+                "recount_done": "The count is being rebuilt. It will update in a moment.",
+                "add_progress": "Add to the count",
+                "add_progress_prompt": "How much to add? Use a negative number to take some away."
+            },
+            "form": {
+                "title": "New goal",
+                "edit_title": "Edit goal",
+                "name": "Goal",
+                "name_placeholder": "Halloween Reply Rally",
+                "description": "Description",
+                "description_placeholder": "Optional. Why it matters, or how members can help.",
+                "metric": "What to count",
+                "metric_replies": "Replies",
+                "metric_discussions": "New discussions",
+                "metric_likes": "Likes given",
+                "metric_members": "New members",
+                "metric_tag_posts": "Posts in a tag",
+                "metric_custom": "A number we keep ourselves",
+                "tag": "Tag",
+                "tag_choose": "Choose a tag",
+                "unit": "What the number counts",
+                "unit_placeholder": "pages written",
+                "start_progress": "Starting number",
+                "target": "Target",
+                "starts": "Starts",
+                "ends": "Ends",
+                "presets": "Quick windows",
+                "preset_week": "This week",
+                "preset_7": "Next 7 days",
+                "preset_month": "This month",
+                "reward": "Reward to show members",
+                "reward_placeholder": "Unlocks the Halloween theme for a week",
+                "rewards": "Automatic rewards",
+                "rewards_help": "Handed out the moment the goal is reached.",
+                "rewards_none": "Install Wardrobe, Festoon or FoF Badges for more automatic rewards.",
+                "theme": "Make a Wardrobe theme the forum's default",
+                "theme_none": "Don't change the theme",
+                "festoon": "Wear a Festoon look",
+                "festoon_none": "No Festoon look",
+                "days": "Days",
+                "days_forever": "For good",
+                "days_n": "{count, plural, one {# day} other {# days}}",
+                "badge": "Give a FoF badge to everyone who helped",
+                "badge_none": "No badge",
+                "badge_min": "Only members who added at least",
+                "announce": "Post an announcement discussion",
+                "announce_tag": "In tag",
+                "announce_title": "Title",
+                "announce_title_placeholder": "We reached our goal: {title}!",
+                "announce_body": "Text",
+                "announce_body_help": "Leave empty for a ready-made post. You can use {title}, {progress}, {target}, {members}, {reward}, {top} and {link}.",
+                "frozen": "This goal has been reached or is over, so only its wording can change.",
+                "complete_confirm": "{reason} Complete the goal now? Choose Cancel to change the target instead.",
+                "rewards_admin": "Only admins can set automatic rewards.",
+                "save": "Save goal",
+                "create": "Start goal"
+            },
+            "notification": {
+                "reached": "Goal reached: {title}! Thanks for helping.",
+                "preference": "Someone reaches a community goal I helped with"
+            }
+        },
+        "admin": {
+            "settings": {
+                "placement": "Show running goals on the discussion list",
+                "placement_hero": "As a banner above the list",
+                "placement_sidebar": "As a card in the sidebar (a banner on phones)",
+                "placement_off": "Only on the Goals page",
+                "nav": "Show \"Goals\" in the sidebar",
+                "manage_link": "Goals are set and edited on the forum's Goals page.",
+                "open_page": "Open the Goals page"
+            },
+            "permissions": {
+                "view": "View community goals",
+                "manage": "Set and edit community goals"
+            }
+        },
+        "api": {
+            "title_required": "Give the goal a name.",
+            "metric_invalid": "Choose what the goal counts.",
+            "tag_required": "Choose the tag whose posts count.",
+            "target_invalid": "The target must be a whole number between 1 and 10,000,000.",
+            "ends_invalid": "The goal has to end after it starts, and in the future.",
+            "too_long": "A goal can run for a year at most.",
+            "date_invalid": "That date couldn't be read.",
+            "progress_locked": "This goal is counted by the forum, or is already over.",
+            "target_reached": "{count} already counted, so this goal would be reached the moment it's saved, and its rewards handed out."
+        },
+        "lib": {
+            "badge_reason": "Helped the forum reach \"{title}\"",
+            "announce": {
+                "title": "We reached our goal: {title}!",
+                "reached": "Together we got to {progress} of {target}, with {members} members helping.",
+                "reward": "The reward: {reward}",
+                "top": "Top contributors: {top}",
+                "link": "Thank you, everyone! See all our goals: {link}"
+            },
+            "gdpr": {
+                "export": "How much you added to each community goal.",
+                "delete": "Your part in running community goals is taken out, and your name is removed from every goal's contributors."
+            }
+        }
+    }
+}

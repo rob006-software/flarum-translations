@@ -1,0 +1,255 @@
+{
+    "ernestdefoe-garage": {
+        "forum": {
+            "nav": "Garage",
+            "page": {
+                "title": "Garage",
+                "subtitle": "Builds, projects and works in progress from the community.",
+                "add": "Add your build",
+                "all": "All builds",
+                "categories": "Categories",
+                "featured": "Featured",
+                "latest": "Latest activity",
+                "search": "Search builds",
+                "stage_label": "Stage",
+                "stage_any": "Any stage",
+                "spec_any": "Any {label}",
+                "sort": {
+                    "label": "Sort",
+                    "recent": "Recently updated",
+                    "newest": "Newest",
+                    "liked": "Most liked",
+                    "followed": "Most followed",
+                    "updates": "Most updates"
+                },
+                "empty": "No builds here yet.",
+                "empty_filtered": "No builds match these filters.",
+                "empty_cta": "Add the first one",
+                "load_more": "Load more"
+            },
+            "stage": {
+                "planning": "Planning",
+                "in_progress": "In progress",
+                "complete": "Finished",
+                "for_sale": "For sale",
+                "retired": "Retired"
+            },
+            "card": {
+                "by": "by {username}",
+                "draft": "Draft",
+                "latest": "Latest: {title}",
+                "updated": "Updated {ago}",
+                "updates": "{count, plural, one {# update} other {# updates}}"
+            },
+            "build": {
+                "add_update": "Add an update",
+                "comments": "Comments",
+                "copy_link": "Copy link",
+                "delete": "Delete build",
+                "delete_confirm": "Delete {title}? Its photos, build log and comments go with it. This can't be undone.",
+                "discuss": "Start a discussion about it",
+                "discuss_title": "{title}",
+                "draft_hint": "This build is a draft: only you can see it. Publish it when it's ready to show off.",
+                "edit": "Edit build",
+                "feature": "Feature on the Garage page",
+                "follow": "Follow",
+                "following": "Following",
+                "gallery": "Gallery",
+                "like": "Like",
+                "liked": "Liked",
+                "link_copied": "Link copied.",
+                "log": "Build log",
+                "manage": "Manage",
+                "manage_photos": "Manage photos",
+                "more_from": "More builds from {username}",
+                "no_updates": "No updates yet.",
+                "no_updates_own": "Post your first update to start the build log. Followers are told about every new one.",
+                "not_found": "This build doesn't exist, or you can't see it.",
+                "older_updates": "Older updates",
+                "photos_nudge": "Add some photos. The first one is the cover.",
+                "publish": "Publish",
+                "share": "Share",
+                "signature_off": "Stop showing under my posts",
+                "signature_on": "Show under my posts",
+                "specs": "Spec sheet",
+                "story": "The story",
+                "story_nudge": "Tell the story of this build.",
+                "unfeature": "Stop featuring",
+                "unpublish": "Turn back into a draft",
+                "stats": {
+                    "followers": "Followers",
+                    "likes": "Likes",
+                    "spent": "Spent",
+                    "started": "Started",
+                    "updates": "Updates"
+                }
+            },
+            "entry": {
+                "comments": "{count, plural, one {# comment} other {# comments}}",
+                "delete": "Delete",
+                "delete_confirm": "Delete the update \"{title}\"? Its photos and comments go with it.",
+                "edit": "Edit",
+                "reply": "Comment"
+            },
+            "comment": {
+                "cancel": "Cancel",
+                "delete": "Delete",
+                "delete_confirm": "Delete this comment?",
+                "edit": "Edit",
+                "edited": "edited",
+                "label": "Write a comment",
+                "placeholder": "Say something about this build…",
+                "placeholder_entry": "Say something about this update…",
+                "post": "Comment",
+                "save": "Save",
+                "sign_in": "Log in to comment"
+            },
+            "edit": {
+                "title_new": "Add a build",
+                "title_edit": "Edit build",
+                "add_photos": "Add photos",
+                "category": "Category",
+                "cover": "Cover",
+                "create": "Save build",
+                "make_cover": "Make this the cover",
+                "move_left": "Move left",
+                "move_right": "Move right",
+                "pending": "Not uploaded yet",
+                "photos": "Photos",
+                "photos_help": "The first photo is the cover. Up to {count} photos; JPEG, PNG or WebP. You can also drop photos here.",
+                "entry_photos_help": "Up to {count} photos; JPEG, PNG or WebP. You can also drop photos here.",
+                "publish_now": "Publish it now (leave this off to keep it as a draft only you can see)",
+                "remove_photo": "Remove photo",
+                "remove_photo_confirm": "Remove this photo?",
+                "save": "Save changes",
+                "specs": "Spec sheet",
+                "stage": "Stage",
+                "story": "The story",
+                "story_placeholder": "How it started, what you've done, what's next…",
+                "tagline": "One-line summary",
+                "tagline_placeholder": "e.g. A rust-free survivor, slowly coming back to life",
+                "title": "Name",
+                "title_placeholder": "e.g. 1972 Datsun 240Z",
+                "upload_failed": "These photos couldn't be uploaded: {names}",
+                "uploading": "Uploading photo {n} of {total}…"
+            },
+            "entry_edit": {
+                "title_new": "Add an update",
+                "title_edit": "Edit update",
+                "body": "What happened",
+                "body_placeholder": "What you did, what went wrong, what you learned…",
+                "cost": "Cost",
+                "date": "Date",
+                "post": "Post update",
+                "save": "Save changes",
+                "title": "Headline",
+                "title_placeholder": "e.g. New coilovers are in"
+            },
+            "lightbox": {
+                "close": "Close",
+                "count": "{index} of {count}",
+                "next": "Next photo",
+                "open": "Open photo {index}",
+                "previous": "Previous photo"
+            },
+            "profile": {
+                "nav": "Garage",
+                "builds": "{count, plural, one {build} other {builds}}",
+                "empty": "{username} hasn't added any builds yet.",
+                "empty_own": "Your garage is empty. Add your first build and show it off!",
+                "likes": "{count, plural, one {like} other {likes}}",
+                "spent": "spent",
+                "updates": "{count, plural, one {update} other {updates}}"
+            },
+            "notifications": {
+                "comment": "{username} commented on {build}",
+                "comment_setting": "Someone comments on my build",
+                "new_entry": "{username} posted an update to {build}",
+                "new_entry_setting": "Someone posts an update to a build I follow"
+            },
+            "signature": {
+                "label": "My build"
+            }
+        },
+        "admin": {
+            "settings": {
+                "currency": "Currency sign",
+                "currency_help": "Shown before money amounts, like what a build has cost so far.",
+                "max_upload_kb": "Largest photo (KB)",
+                "max_upload_kb_help": "For photos stored by Garage. Big phone photos are shrunk in the browser before they are sent.",
+                "nav": "Show Garage in the sidebar",
+                "use_fof_upload": "Store photos with FoF Upload",
+                "use_fof_upload_help": "Photos go through FoF Upload (its storage and its size limits) for members who may upload files there. Turn it off to keep them in Garage's own storage."
+            },
+            "permissions": {
+                "comment": "Comment on builds",
+                "create": "Add builds and post build log updates",
+                "like": "Like builds",
+                "moderate": "Edit, feature and delete anyone's builds and comments",
+                "view": "View the Garage"
+            },
+            "categories": {
+                "title": "Categories",
+                "help": "Builds are sorted into categories, and each category has its own spec sheet. A car forum might have Cars and Bikes; a PC forum, Desktops and Laptops.",
+                "add": "Add a category",
+                "add_field": "Add a field",
+                "cancel": "Cancel",
+                "card": "Show on build cards",
+                "close": "Close",
+                "color": "Color",
+                "delete": "Delete category",
+                "delete_confirm": "Delete the category {name}?",
+                "delete_confirm_move": "Delete the category {name}? Its {count, plural, one {# build moves} other {# builds move}} to {to}.",
+                "delete_last": "This is the only category, and it has builds. Add another category first, so the builds have somewhere to go.",
+                "description": "Description",
+                "edit": "Edit",
+                "field_label": "Field name",
+                "field_type": "Field type",
+                "fields": "Spec sheet",
+                "fields_help": "The details members fill in for a build in this category, like Engine, Power and Color. Renaming a field keeps every build's value.",
+                "filter": "Members can filter by it on the Garage page",
+                "icon": "Icon",
+                "icon_help": "A Font Awesome icon, like fas fa-car, fas fa-computer, fas fa-guitar or fas fa-seedling.",
+                "move_down": "Move down",
+                "move_up": "Move up",
+                "name": "Name",
+                "options": "Choices",
+                "options_help": "One per line.",
+                "remove_field": "Remove field",
+                "save": "Save category",
+                "saved": "Category saved.",
+                "summary": "{fields, plural, one {# field} other {# fields}} · {builds, plural, one {# build} other {# builds}}",
+                "unit": "Unit",
+                "types": {
+                    "link": "Link",
+                    "number": "Number",
+                    "select": "Choice",
+                    "text": "Text"
+                }
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Garage: the member's builds with their photos, spec sheets, stories and build logs, and their comments.",
+                "delete": "Garage: the member's builds (photos and build logs included), comments, likes and follows are deleted."
+            }
+        },
+        "api": {
+            "last_category": "The last category can't be deleted while it has builds.",
+            "photo_not_found": "That photo couldn't be found. Upload it again.",
+            "too_many_builds": "You can have up to {count} builds.",
+            "too_many_comments": "You're commenting too fast. Wait a minute and try again.",
+            "too_many_entries": "A build log can have up to {count} updates.",
+            "too_many_photos": "Up to {count} photos are allowed here.",
+            "too_many_updates": "You've posted a lot of updates today. Try again tomorrow.",
+            "too_many_uploads": "You've uploaded a lot of photos in a short time. Wait a few minutes and try again."
+        },
+        "email": {
+            "new_entry": {
+                "subject": "New update on {build}",
+                "body": "Hey {recipient_display_name}! {owner} posted an update to {build}: {title}",
+                "link": "See the update"
+            }
+        }
+    }
+}

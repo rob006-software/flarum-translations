@@ -1,0 +1,239 @@
+{
+    "ernestdefoe-predictions": {
+        "lib": {
+            "oracle": "Oracle",
+            "oracle_description": "One of the top predictors of a season.",
+            "oracle_reason": "Top predictor, {season}"
+        },
+        "forum": {
+            "nav": "Predictions",
+            "page": {
+                "title": "Predictions",
+                "description": "Call it before it happens. Pick before the lock, see who saw it coming, and climb the season leaderboard.",
+                "lead": "Call it before it happens. Picks close at the lock, and every right call counts on the leaderboard.",
+                "new": "New prediction",
+                "all": "All predictions",
+                "missing": "This prediction doesn't exist, or you can't see it.",
+                "tabs": {
+                    "open": "Open",
+                    "locked": "Waiting on a result",
+                    "settled": "Settled",
+                    "leaderboard": "Leaderboard"
+                },
+                "filter_label": "Show",
+                "filter": {
+                    "everyone": "Everyone's",
+                    "picked": "Ones I picked",
+                    "created": "Ones I made"
+                },
+                "empty": {
+                    "open": "Nothing open right now. Got a hunch? Make the first call.",
+                    "locked": "Nothing is waiting on a result.",
+                    "settled": "Nothing has been settled yet."
+                },
+                "load_more": "Load more",
+                "me": "{season}: {hits} of {settled} called ({rate})",
+                "streak": "{count} in a row",
+                "rank": "#{rank}",
+                "points": "{count, plural, one {# point} other {# points}}"
+            },
+            "time": {
+                "soon": "under a minute",
+                "minutes": "{minutes}m",
+                "hours_minutes": "{hours}h {minutes}m",
+                "days_hours": "{days}d {hours}h"
+            },
+            "card": {
+                "kind": {
+                    "choice": "Multiple choice",
+                    "yesno": "Yes or no",
+                    "number": "Closest number"
+                },
+                "yes": "Yes",
+                "no": "No",
+                "status": {
+                    "open": "Open · locks in {time}",
+                    "locked": "Locked · waiting on the result",
+                    "settled": "Settled",
+                    "void": "Called off"
+                },
+                "locks_at": "Picks lock {time}",
+                "controls": "Prediction options",
+                "settle": "Settle it",
+                "correct": "Correct the result",
+                "edit": "Edit",
+                "lock_now": "Lock picks now",
+                "lock_now_confirm": "Lock picks now? Nobody will be able to pick or change a pick after this.",
+                "copy_link": "Copy link",
+                "link_copied": "Link copied. Paste it on a line of its own in any post to show this prediction there.",
+                "delete": "Delete",
+                "delete_confirm": "Delete this prediction and everyone's picks? This can't be undone.",
+                "deleted": "Prediction deleted.",
+                "picks": "{count, plural, =0 {No picks yet} one {# pick} other {# picks}}",
+                "picks_short": "{count, plural, one {# pick} other {# picks}}",
+                "hidden_until_lock": "Picks stay hidden until it locks",
+                "by": "by",
+                "withdraw": "Take back my pick",
+                "log_in_to_pick": "Log in to pick",
+                "your_guess": "Your guess",
+                "guess_placeholder": "Your guess",
+                "lock_in": "Lock in my guess",
+                "change_guess": "Change my guess",
+                "your_guess_is": "Your guess: {value}",
+                "off_by": "off by {value}",
+                "answer_was": "The answer:",
+                "answer": "The answer",
+                "you": "Your guess",
+                "closest": "Closest guesses",
+                "histogram_label": "{count} guesses from {min} to {max}",
+                "stats": "{count, plural, one {# guess} other {# guesses}} · average {avg} · median {median}",
+                "called_it": "You called it!",
+                "missed": "Not this time. On to the next one.",
+                "scoring": "Settled. Working out the points…",
+                "settler": "You settled this one, so your pick doesn't count.",
+                "not_counted": "This one doesn't count toward the leaderboard: fewer than {count} people picked.",
+                "needs_pickers": "Counts toward the leaderboard once {count} people have picked.",
+                "voided": "This prediction was called off. Nobody gets points for it."
+            },
+            "form": {
+                "title": "New prediction",
+                "edit_title": "Edit prediction",
+                "question": "Question",
+                "question_placeholder": "Who wins the Heisman?",
+                "details": "Details (optional)",
+                "details_placeholder": "How it gets decided, the source you'll settle it by…",
+                "kind": "Kind",
+                "kind_help": {
+                    "choice": "Pick one of several answers",
+                    "yesno": "Will it happen or not?",
+                    "number": "Closest guess wins"
+                },
+                "options_locked": "Someone has already picked, so the kind and the choices can't change.",
+                "choices": "Choices",
+                "choice_label": "Choice {number}",
+                "add_choice": "Add a choice",
+                "remove_choice": "Remove this choice",
+                "unit": "Unit (optional)",
+                "unit_placeholder": "points, yards, days…",
+                "tolerance": "Counts as a hit within ± (optional)",
+                "tolerance_help": "The closest guess always counts as a hit. Set a range to count every guess that close as a hit too.",
+                "lock_at": "Picks lock at",
+                "lock_help": "In your own time zone. Nobody can pick or change a pick after this.",
+                "hide_picks": "Hide picks until it locks",
+                "hide_picks_help": "Nobody sees how others picked, or the totals, until then. No following the crowd.",
+                "wording_locked": "Others have picked, so the question and hidden picks can only be changed by a moderator.",
+                "create": "Open the prediction",
+                "save": "Save changes",
+                "created": "Your prediction is open.",
+                "saved": "Saved."
+            },
+            "settle": {
+                "title": "Settle it",
+                "which": "What happened?",
+                "answer": "The answer ({unit})",
+                "guesses": "{count} guesses, from {min} to {max}.",
+                "early": "Settling now also locks picks.",
+                "own_pick": "Your own pick on this one won't count, since you're settling it.",
+                "correcting": "Settling again corrects the result. Everyone's points are worked out again. (Moderators only.)",
+                "submit": "Settle and score it",
+                "void": "Call it off instead (no points for anyone)",
+                "void_confirm": "Call this prediction off? Nobody gets points for it.",
+                "done": "Settled. Everyone who picked has been told how they did.",
+                "voided": "Called off."
+            },
+            "single": {
+                "who": "Who picked what",
+                "hidden": "Picks stay hidden until it locks.",
+                "none": "Nobody has picked yet.",
+                "nobody": "Nobody picked this."
+            },
+            "board": {
+                "season": "Season",
+                "current": "{name} (now)",
+                "all_time": "All time",
+                "how": "How scoring works",
+                "how_choice_bold": "A right call is worth 10 points, plus up to 10 more for a bold one: the fewer people who saw it coming, the more it's worth.",
+                "how_choice": "A right call is worth 10 points.",
+                "how_number": "Closest number: the nearest guess (ties too) scores 20. If the prediction has a range, every other guess inside it scores 5 to 10.",
+                "how_rank": "Ranked by points. Your hit rate is how many of your settled picks you called right. A prediction counts once 3 people besides whoever settles it have picked.",
+                "oracles": "{season} Oracles:",
+                "empty": "Nobody has scored this season yet. Pick on an open prediction to get on the board.",
+                "record": "{hits} of {settled}",
+                "pts": "pts"
+            },
+            "discussion": {
+                "add": "Add a prediction"
+            },
+            "composer": {
+                "add": "Prediction"
+            },
+            "notification": {
+                "called": "You called it!",
+                "missed": "A prediction you picked was settled",
+                "locked": "Your prediction locked. Time to settle it.",
+                "preference_called": "Someone settles a prediction I called right",
+                "preference_missed": "Someone settles a prediction I picked wrong",
+                "preference_locked": "A prediction I made locks and needs settling"
+            },
+            "profile": {
+                "record": "{hits} of {settled} called ({rate})",
+                "oracle": "{count, plural, one {Oracle} other {Oracle ×#}}"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "predictions_locked": "Picks are locked on this one.",
+                "predictions_bad_option": "Pick one of the choices.",
+                "predictions_bad_value": "Enter a number.",
+                "predictions_bad_title": "The question needs 3 to 150 characters.",
+                "predictions_bad_description": "The details can be up to 1,000 characters.",
+                "predictions_bad_type": "Choose a kind of prediction.",
+                "predictions_bad_options": "Give 2 to 12 different choices, each up to 80 characters.",
+                "predictions_bad_lock": "The lock time has to be in the future, and no more than two years away.",
+                "predictions_bad_unit": "The unit can be up to 24 characters.",
+                "predictions_bad_tolerance": "The range has to be a number, zero or more.",
+                "predictions_bad_discussion": "You can only add a prediction to your own discussion.",
+                "predictions_frozen": "Others have picked, so only a moderator can change the question or whether picks are hidden.",
+                "predictions_season_over": "This prediction was settled in a season that has ended, so its result can't change.",
+                "predictions_lock_later": "Others have picked, so the lock can only move earlier. A moderator can move it later.",
+                "predictions_has_picks": "Someone has already picked, so the choices can't change.",
+                "predictions_slow_down": "You've opened a lot of predictions today. Try again tomorrow.",
+                "predictions_not_found": "This prediction doesn't exist, or you can't see it.",
+                "predictions_gone": "This prediction was deleted.",
+                "predictions_bad_season": "Give the new season a name (up to 80 characters)."
+            }
+        },
+        "admin": {
+            "settings": {
+                "nav": "Show Predictions in the sidebar",
+                "bold_bonus": "Reward bold calls",
+                "bold_bonus_help": "A right call is worth 10 points, plus up to 10 more the fewer people saw it coming. Off, every right call is worth 10.",
+                "oracle_count": "Oracles each season",
+                "oracle_count_help": "How many top predictors become Oracles when you end a season. 0 names none.",
+                "oracle_group": "Put Oracles in a group",
+                "oracle_group_help": "The season's Oracles join this group, and last season's leave it (members you added by hand stay).",
+                "oracle_group_none": "No group",
+                "oracle_badge": "Give Oracles a badge",
+                "oracle_badge_help": "An \"Oracle\" badge from FoF Badges, kept for good. Made the first time; rename or recolor it in FoF Badges."
+            },
+            "season": {
+                "heading": "Season",
+                "current": "Now running: {name}, since {date}.",
+                "leaders": "On top right now: {names}",
+                "no_leaders": "Nobody has scored this season yet.",
+                "next_name": "Name of the next season",
+                "next_default": "Season {number}",
+                "end": "End this season",
+                "end_help": "The season's top predictors become its Oracles, and the leaderboard starts fresh. Past seasons stay on the leaderboard.",
+                "confirm": "End the season now? Its top predictors become Oracles and the leaderboard starts fresh.",
+                "ended": "{count, plural, =0 {Season ended. Nobody had points, so there are no Oracles.} one {Season ended. # Oracle named.} other {Season ended. # Oracles named.}}",
+                "past": "{name}: {from} to {to}"
+            },
+            "permissions": {
+                "view": "View predictions",
+                "pick": "Pick on predictions",
+                "create": "Open predictions",
+                "moderate": "Settle, correct, call off, edit and delete any prediction"
+            }
+        }
+    }
+}
