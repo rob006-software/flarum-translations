@@ -1,0 +1,200 @@
+{
+    "ernestdefoe-member-map": {
+        "admin": {
+            "widget": "Where we are",
+            "permissions": {
+                "view": "View the member map",
+                "list": "Appear on the member map",
+                "travel": "Add travel pins to the member map",
+                "meetup": "Plan meetups on the member map"
+            },
+            "settings": {
+                "nav": "Show a Member map link in the forum sidebar",
+                "profile": "Let members show their location on their profile and user card",
+                "jitter": "Scatter members a little within their city",
+                "jitter_help": "Members who chose city level are moved up to about 3 km from the city center, the same way every time, so a busy city doesn't stack everyone on one point.",
+                "allow_indexing": "Let search engines index the map page",
+                "allow_indexing_help": "Off by default: the page asks search engines not to index it. Member data is never sent to search engines either way.",
+                "meetup_tag": "Tag for meetup discussions",
+                "meetup_tag_none": "Choose a tag",
+                "meetup_tag_help": "Every meetup starts a discussion. With tags on, members need this tag set to plan one.",
+                "style_url": "Map style address",
+                "style_url_help": "A MapLibre vector style. Leave empty to use the map tile address below instead. The default, OpenFreeMap, is free and needs no key.",
+                "style_dark_url": "Map style address in dark mode",
+                "style_dark_url_help": "Optional. Used when the forum is dark. Leave empty to use the style above.",
+                "tiles_url": "Map tile address",
+                "tiles_url_help": "Picture tiles for when the style above is empty or can't load, and for the small map on profiles. Leave empty for OpenStreetMap, which needs no key.",
+                "attribution": "Map credit",
+                "attribution_help": "The credit shown with the picture tiles. Most map providers require one. Simple HTML links are allowed.",
+                "geocoder_url": "Place search address",
+                "geocoder_url_help": "Leave empty for OpenStreetMap's free Nominatim service. Any service with the same API works, such as your own Nominatim or LocationIQ. Searches run on your server, one a second at most, and every answer is saved for 30 days.",
+                "geocoder_key": "Place search API key",
+                "geocoder_key_help": "Optional. Only for services that need one. It is never sent to browsers.",
+                "geocoder_email": "Contact email for the place search",
+                "geocoder_email_help": "Optional. Nominatim asks busy sites for an address it can write to if something goes wrong."
+            }
+        },
+        "forum": {
+            "nav": "Member map",
+            "page": {
+                "title": "Member map",
+                "intro": "Members who chose to share roughly where they are. Nobody is on the map unless they add themselves.",
+                "map_label": "Map of members",
+                "guest": "Log in to see the member map.",
+                "no_permission": "You don't have permission to see the member map.",
+                "add_me": "Add me to the map",
+                "change": "Change my location",
+                "remove": "Remove me from the map",
+                "you_are": "You're shown at {label}.",
+                "not_listed": "Your location is saved, but you can't appear on the map right now.",
+                "empty": "Nobody has added themselves to the map yet.",
+                "load_error": "The map couldn't load. Try again in a minute.",
+                "zoom_in": "Zoom in here",
+                "more": "and {count} more",
+                "members": "{count, plural, one {# member} other {# members}}"
+            },
+            "pin": {
+                "member": "{name}, {place}",
+                "cluster": "{count} members here. Show who.",
+                "trip": "{name} is visiting {place}, {dates}",
+                "meetup": "Meetup: {title}, {when}"
+            },
+            "card": {
+                "label": "Details",
+                "close": "Close",
+                "online": "Online now",
+                "local_time": "{time} there",
+                "profile": "View profile"
+            },
+            "stats": {
+                "members": "{count, plural, one {# member} other {# members}}",
+                "countries": "{count, plural, one {# country} other {# countries}}",
+                "to_go": "{count, plural, one {# continent to go} other {# continents to go}}",
+                "everywhere": "on every inhabited continent",
+                "online": "{count} online now"
+            },
+            "search": {
+                "label": "Search the map for a place",
+                "placeholder": "Find a place",
+                "button": "Search",
+                "none": "No places found."
+            },
+            "filters": {
+                "label": "Show",
+                "online": "Online now",
+                "following": "People I follow",
+                "group": "Group",
+                "any_group": "Everyone",
+                "travelers": "Travelers",
+                "meetups": "Meetups"
+            },
+            "view": {
+                "label": "View",
+                "map": "Map",
+                "list": "List"
+            },
+            "list": {
+                "elsewhere": "Somewhere"
+            },
+            "near": {
+                "heading": "Near you",
+                "add_prompt": "Add yourself to the map to see who lives near you.",
+                "none": "Nobody else is on the map yet.",
+                "same_area": "In your area",
+                "km": "about {count} km",
+                "mi": "about {count} mi",
+                "show": "Show {name} on the map"
+            },
+            "trip": {
+                "button": "I'm traveling",
+                "title": "I'm traveling",
+                "help": "Add a travel pin so members near there know you're coming. It goes away by itself after the last day.",
+                "where": "Where are you going?",
+                "from": "From",
+                "to": "To",
+                "save": "Add travel pin",
+                "saved": "Your travel pin is on the map. Members who live nearby will hear about it.",
+                "mine": "Your trips",
+                "visiting": "Visiting {place}, {dates}",
+                "remove": "Remove"
+            },
+            "meetup": {
+                "button": "Plan a meetup",
+                "title": "Plan a meetup",
+                "name": "What is it?",
+                "name_placeholder": "For example: Coffee in Nashville",
+                "where": "Where?",
+                "when": "When?",
+                "when_help": "In the local time of the place.",
+                "details": "Details",
+                "details_placeholder": "Where exactly, what to bring, how to find you…",
+                "save": "Plan it",
+                "saved": "Your meetup is on the map, with a discussion to talk it through.",
+                "heading": "Upcoming meetups",
+                "open": "Open the discussion"
+            },
+            "location": {
+                "title": "Your place on the map",
+                "search_label": "Search for your city, region or country",
+                "search_placeholder": "For example: Nashville",
+                "search": "Search",
+                "no_results": "No places found. Try another spelling, or drop a pin on the map.",
+                "or_pin": "Or drop a pin on the map",
+                "pin_help": "Tap or click the map where you are. Only the place around it is saved, never the pin.",
+                "precision_label": "How exactly should you be shown?",
+                "precision": {
+                    "city": "City",
+                    "region": "Region or state",
+                    "country": "Country only"
+                },
+                "preview": "You'll be shown as: {label}",
+                "preview_loading": "Looking up the place…",
+                "who_label": "Who can see it?",
+                "profile": "Show this on my profile and user card",
+                "members_only": "Only signed-in members (hide me from guests and search engines)",
+                "save": "Save",
+                "saved": "Your place on the map is saved.",
+                "removed": "You've been removed from the map.",
+                "pick_first": "Search for a place or drop a pin first.",
+                "finer": "To be shown more exactly, search for your place or drop a pin."
+            },
+            "errors": {
+                "member_map_bad_query": "Type at least two letters to search.",
+                "member_map_bad_point": "That place couldn't be read. Try again.",
+                "member_map_no_place": "There's no city or country there. Try a spot on land, or search instead.",
+                "member_map_slow_down": "Too many lookups at once. Wait a minute and try again.",
+                "member_map_unavailable": "The place search isn't answering right now. Try again in a minute.",
+                "member_map_bad_trip": "Check the dates: a trip can't end before it starts, be in the past, or last more than 60 days.",
+                "member_map_too_many_trips": "You already have 5 upcoming trips. Remove one first.",
+                "member_map_bad_meetup": "Check the meetup: it needs a name (3 to 80 characters) and a time in the coming year.",
+                "member_map_meetup_tag_denied": "You can't start discussions in the tag meetups go in, so you can't plan one here.",
+                "member_map_meetup_needs_tag": "Meetups can't be planned yet: an admin needs to choose a tag for them in the Member Map settings."
+            },
+            "notification": {
+                "trip": "{username} is visiting near you",
+                "preference": "Someone is visiting near me"
+            },
+            "settings": {
+                "heading": "Member map",
+                "none": "You're not on the member map.",
+                "shown_as": "You're shown as {label}.",
+                "members_only": "Only signed-in members can see you."
+            },
+            "profile": {
+                "mini_label": "Lives in {place}. Show on the member map."
+            },
+            "widget": {
+                "title": "Where we are",
+                "line": "{members, plural, one {# member} other {# members}} in {countries, plural, one {# country} other {# countries}}",
+                "open": "Open the member map"
+            }
+        },
+        "lib": {
+            "meetup_on_map": "See it on the member map",
+            "gdpr": {
+                "export": "Your place and travel pins on the member map.",
+                "delete": "Removes your place and travel pins from the member map."
+            }
+        }
+    }
+}
