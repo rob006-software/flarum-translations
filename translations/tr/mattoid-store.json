@@ -16,6 +16,7 @@
                 "goods-desc": "Açıklama",
                 "goods-price": "Fiyat",
                 "goods-stock": "Stok",
+                "goods-stock-help": "",
                 "goods-discount": "İndirim(%)",
                 "goods-discount-limit": "İndirim limiti",
                 "goods-discount-limit-unit": "Birim",
@@ -119,6 +120,11 @@
             "free": "Ücretsiz",
             "days": "gün",
             "cart": "sepet",
+            "gifts": "",
+            "gifts-empty": "",
+            "gifts-amount": "",
+            "gifts-from": "",
+            "gifts-got-at": "",
             "sold-out": "Tükendi",
             "notification": {
                 "notify_gift_label": "Mağaza hediyeleri ve süre sonu bildirimleri",
@@ -224,14 +230,20 @@
             "backpack-empty": "Envanteriniz boş",
             "backpack-use-fail": "İşlem başarısız oldu, lütfen daha sonra tekrar deneyin",
             "filter-all": "Tümü",
-            "filter-group": "Grup",
-            "group-default": "Genel",
             "filter-code": "Ürün eklentisi",
+            "filter-code-all": "",
+            "filter-group": "Grup",
+            "filter-group-all": "",
+            "group-default": "Genel",
             "filter-subtype": "Öğe türü",
+            "filter-subtype-all": "",
             "filter-type": "Geçerlilik süresi",
+            "filter-type-all": "",
             "filter-discount": "İndirim",
+            "filter-discount-all": "",
             "filter-discount-on": "İndirimli",
-            "filter-discount-off": "İndirim yok"
+            "filter-discount-off": "İndirim yok",
+            "search-placeholder": ""
         }
     }
 }

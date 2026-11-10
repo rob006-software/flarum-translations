@@ -16,6 +16,7 @@
                 "goods-desc": "Desc",
                 "goods-price": "Price",
                 "goods-stock": "Stock",
+                "goods-stock-help": "0 means out of stock. Use -99 for unlimited stock.",
                 "goods-discount": "Discount(%)",
                 "goods-discount-limit": "Discount limit",
                 "goods-discount-limit-unit": "Unit",
@@ -117,6 +118,11 @@
             "free": "Free",
             "days": "day",
             "cart": "cart",
+            "gifts": "Gifts",
+            "gifts-empty": "No gifts yet",
+            "gifts-amount": "×{count}",
+            "gifts-from": "From",
+            "gifts-got-at": "Received at",
             "sold-out": "Sold out",
             "notification": {
                 "notify_gift_label": "Store gift & expiry notifications",
@@ -219,14 +225,20 @@
             "backpack-empty": "Your backpack is empty",
             "backpack-use-fail": "Operation failed, please try again later",
             "filter-all": "All",
-            "filter-group": "Group",
-            "group-default": "General",
             "filter-code": "Goods plugin",
+            "filter-code-all": "All goods plugins",
+            "filter-group": "Group",
+            "filter-group-all": "All groups",
+            "group-default": "General",
             "filter-subtype": "Item type",
+            "filter-subtype-all": "All item types",
             "filter-type": "Validity",
+            "filter-type-all": "All validity",
             "filter-discount": "Discount",
+            "filter-discount-all": "All discounts",
             "filter-discount-on": "Discounted",
-            "filter-discount-off": "No discount"
+            "filter-discount-off": "No discount",
+            "search-placeholder": "Search goods title"
         }
     }
 }
