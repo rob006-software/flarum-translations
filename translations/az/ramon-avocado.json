@@ -3,6 +3,9 @@
         "admin": {
             "loading": "Yüklənir…",
             "search_tags": "Teqləri axtarın…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "",
                 "spinner_option_orbital": "",
@@ -408,7 +411,6 @@
                 "composer_hero_image_label": "Qəhrəman şəkli (istəyə bağlı)",
                 "composer_hero_image_picked": "Seçilmiş şəkil",
                 "composer_hero_image_remove": "Şəkli sil",
-                "composer_hero_image_upload_failed": "Qəhrəman şəklini yükləmək mümkün olmadı. Müzakirə səhifəsində yenidən cəhd edə bilərsiniz.",
                 "discussion_singular": "müzakirə",
                 "discussions": "müzakirələr",
                 "filter_tags": "Etiket filteri",
@@ -449,7 +451,8 @@
                 "yesterday_time": "Dünən, {time}",
                 "showcase_heading": "Vitrin",
                 "ws_update_singular": "",
-                "ws_update_plural": ""
+                "ws_update_plural": "",
+                "composer_hero_image_upload_failed": "Qəhrəman şəklini yükləmək mümkün olmadı. Müzakirə səhifəsində yenidən cəhd edə bilərsiniz."
             },
             "support": {
                 "new_ticket_heading": "",
@@ -491,7 +494,11 @@
                 "reminder_minute_label": "",
                 "reminder_meridiem_label": "",
                 "reminder_am": "",
-                "reminder_pm": ""
+                "reminder_pm": "",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": ""
@@ -564,7 +571,24 @@
                 "remove_reply": "",
                 "guest_pill": "",
                 "hide_preview": "",
-                "resize_handle": ""
+                "resize_handle": "",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "",

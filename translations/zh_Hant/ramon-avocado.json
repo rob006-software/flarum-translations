@@ -3,6 +3,9 @@
         "admin": {
             "loading": "正在加載…",
             "search_tags": "搜尋標籤…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "Avocado",
                 "spinner_option_orbital": "軌道 (Orbital)",
@@ -408,7 +411,6 @@
                 "composer_hero_image_label": "頁首封面圖（選填）",
                 "composer_hero_image_picked": "已選擇圖片",
                 "composer_hero_image_remove": "移除圖片",
-                "composer_hero_image_upload_failed": "無法上傳頁首封面圖，您可以在發表後於討論串頁面重試。",
                 "discussion_singular": "個主題",
                 "discussions": "個主題",
                 "filter_tags": "篩選標籤",
@@ -449,7 +451,8 @@
                 "yesterday_time": "昨天 {time}",
                 "showcase_heading": "精選文章",
                 "ws_update_singular": "1 個新主題",
-                "ws_update_plural": "{count} 個新主題"
+                "ws_update_plural": "{count} 個新主題",
+                "composer_hero_image_upload_failed": "無法上傳頁首封面圖，您可以在發表後於討論串頁面重試。"
             },
             "support": {
                 "new_ticket_heading": "建立工單",
@@ -491,7 +494,11 @@
                 "reminder_minute_label": "分鐘",
                 "reminder_meridiem_label": "上午 / 下午",
                 "reminder_am": "上午 (AM)",
-                "reminder_pm": "下午 (PM)"
+                "reminder_pm": "下午 (PM)",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "有關您儲存主題討論的提醒通知"
@@ -564,7 +571,24 @@
                 "remove_reply": "移除回覆",
                 "guest_pill": "登入以進行回覆",
                 "hide_preview": "隱藏預覽",
-                "resize_handle": "拖曳以調整大小 · 向下拖拉可折疊縮小"
+                "resize_handle": "拖曳以調整大小 · 向下拖拉可折疊縮小",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "更新日誌",

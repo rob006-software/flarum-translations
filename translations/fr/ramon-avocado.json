@@ -3,6 +3,9 @@
         "admin": {
             "loading": "Chargement…",
             "search_tags": "Rechercher des étiquettes…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "Avocado",
                 "spinner_option_orbital": "Orbital",
@@ -408,7 +411,6 @@
                 "composer_hero_image_label": "Image du bandeau (facultative)",
                 "composer_hero_image_picked": "Image sélectionnée",
                 "composer_hero_image_remove": "Supprimer l'image",
-                "composer_hero_image_upload_failed": "Impossible de transférer l'image du bandeau. Vous pouvez réessayer depuis la page de discussion.",
                 "discussion_singular": "discussion",
                 "discussions": "discussions",
                 "filter_tags": "Filtrer les étiquettes",
@@ -449,7 +451,8 @@
                 "yesterday_time": "Hier, {time}",
                 "showcase_heading": "Vitrine",
                 "ws_update_singular": "1 nouvelle discussion",
-                "ws_update_plural": "{count} nouvelles discussions"
+                "ws_update_plural": "{count} nouvelles discussions",
+                "composer_hero_image_upload_failed": "Impossible de transférer l'image du bandeau. Vous pouvez réessayer depuis la page de discussion."
             },
             "support": {
                 "new_ticket_heading": "Nouveau ticket",
@@ -491,7 +494,11 @@
                 "reminder_minute_label": "Minute",
                 "reminder_meridiem_label": "Matin ou Après-midi",
                 "reminder_am": "Matin",
-                "reminder_pm": "Après-midi"
+                "reminder_pm": "Après-midi",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "Rappel concernant votre discussion enregistrée"
@@ -564,7 +571,24 @@
                 "remove_reply": "Supprimer la réponse",
                 "guest_pill": "Se connecter pour répondre",
                 "hide_preview": "Masquer la prévisualisation",
-                "resize_handle": "Faites glisser pour redimensionner · tirez vers le bas pour réduire"
+                "resize_handle": "Faites glisser pour redimensionner · tirez vers le bas pour réduire",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "Journal des modifications",

@@ -3,6 +3,9 @@
         "admin": {
             "loading": "Загрузка…",
             "search_tags": "Поиск тегов…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "",
                 "spinner_option_orbital": "",
@@ -417,7 +420,6 @@
                 "composer_hero_image_label": "Обложка — по желанию",
                 "composer_hero_image_picked": "Изображение выбрано",
                 "composer_hero_image_remove": "Удалить изображение",
-                "composer_hero_image_upload_failed": "Не удалось загрузить обложку. Попробуйте ещё раз на странице темы.",
                 "discussion_singular": "тема",
                 "discussions": "темы",
                 "filter_tags": "Фильтр тегов",
@@ -458,7 +460,8 @@
                 "yesterday_time": "Вчера, {time}",
                 "showcase_heading": "Витрина",
                 "ws_update_singular": "",
-                "ws_update_plural": ""
+                "ws_update_plural": "",
+                "composer_hero_image_upload_failed": "Не удалось загрузить обложку. Попробуйте ещё раз на странице темы."
             },
             "support": {
                 "new_ticket_heading": "",
@@ -500,7 +503,11 @@
                 "reminder_minute_label": "Минута",
                 "reminder_meridiem_label": "До полудня или после",
                 "reminder_am": "До полудня",
-                "reminder_pm": "После полудня"
+                "reminder_pm": "После полудня",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "Напоминание о вашей сохранённой теме"
@@ -574,7 +581,24 @@
                 "remove_reply": "",
                 "guest_pill": "",
                 "hide_preview": "",
-                "resize_handle": ""
+                "resize_handle": "",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "",

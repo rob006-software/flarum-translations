@@ -3,6 +3,9 @@
         "admin": {
             "loading": "Wird geladen…",
             "search_tags": "Tags durchsuchen…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "Avocado",
                 "spinner_option_orbital": "Orbital",
@@ -417,7 +420,6 @@
                 "composer_hero_image_label": "Titelbild (optional)",
                 "composer_hero_image_picked": "Bild ausgewählt",
                 "composer_hero_image_remove": "Bild entfernen",
-                "composer_hero_image_upload_failed": "Das Titelbild konnte nicht hochgeladen werden. Du kannst es auf der Diskussionsseite erneut versuchen.",
                 "discussion_singular": "Diskussion",
                 "discussions": "Diskussionen",
                 "filter_tags": "Tags filtern",
@@ -458,7 +460,8 @@
                 "yesterday_time": "Gestern, {time}",
                 "showcase_heading": "Vitrine",
                 "ws_update_singular": "1 neue Diskussion",
-                "ws_update_plural": "{count} neue Diskussionen"
+                "ws_update_plural": "{count} neue Diskussionen",
+                "composer_hero_image_upload_failed": "Das Titelbild konnte nicht hochgeladen werden. Du kannst es auf der Diskussionsseite erneut versuchen."
             },
             "support": {
                 "new_ticket_heading": "Neues Ticket",
@@ -500,7 +503,11 @@
                 "reminder_minute_label": "Minute",
                 "reminder_meridiem_label": "Vormittags oder nachmittags",
                 "reminder_am": "Vormittags",
-                "reminder_pm": "Nachmittags"
+                "reminder_pm": "Nachmittags",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "Erinnerung an deine gespeicherte Diskussion"
@@ -573,7 +580,24 @@
                 "remove_reply": "Antwort entfernen",
                 "guest_pill": "Anmelden, um zu antworten",
                 "hide_preview": "Vorschau ausblenden",
-                "resize_handle": "Zum Ändern der Größe ziehen · zum Minimieren nach unten ziehen"
+                "resize_handle": "Zum Ändern der Größe ziehen · zum Minimieren nach unten ziehen",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "Änderungsprotokoll",

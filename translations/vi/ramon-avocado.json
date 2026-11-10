@@ -3,6 +3,9 @@
         "admin": {
             "loading": "Đang tải…",
             "search_tags": "Tìm thẻ…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "Avocado",
                 "spinner_option_orbital": "Quỹ đạo",
@@ -408,7 +411,6 @@
                 "composer_hero_image_label": "Ảnh bìa (tùy chọn)",
                 "composer_hero_image_picked": "Đã chọn ảnh",
                 "composer_hero_image_remove": "Xóa ảnh",
-                "composer_hero_image_upload_failed": "Không tải được ảnh bìa lên. Bạn có thể thử lại ở trang thảo luận.",
                 "discussion_singular": "cuộc thảo luận",
                 "discussions": "thảo luận",
                 "filter_tags": "Lọc thẻ",
@@ -449,7 +451,8 @@
                 "yesterday_time": "Hôm qua, {time}",
                 "showcase_heading": "Trưng bày",
                 "ws_update_singular": "1 cuộc thảo luận mới",
-                "ws_update_plural": "{count} cuộc thảo luận mới"
+                "ws_update_plural": "{count} cuộc thảo luận mới",
+                "composer_hero_image_upload_failed": "Không tải được ảnh bìa lên. Bạn có thể thử lại ở trang thảo luận."
             },
             "support": {
                 "new_ticket_heading": "",
@@ -491,7 +494,11 @@
                 "reminder_minute_label": "Phút",
                 "reminder_meridiem_label": "AM hoặc PM",
                 "reminder_am": "AM",
-                "reminder_pm": "PM"
+                "reminder_pm": "PM",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "Nhắc về cuộc thảo luận bạn đã lưu"
@@ -564,7 +571,24 @@
                 "remove_reply": "",
                 "guest_pill": "",
                 "hide_preview": "",
-                "resize_handle": ""
+                "resize_handle": "",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "",

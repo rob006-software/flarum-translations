@@ -3,6 +3,9 @@
         "admin": {
             "loading": "正在加载…",
             "search_tags": "搜索标签…",
+            "saving": "",
+            "saved": "",
+            "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "牛油果",
                 "spinner_option_orbital": "方块环绕",
@@ -417,7 +420,6 @@
                 "composer_hero_image_label": "横幅图片（可选）",
                 "composer_hero_image_picked": "已选择图片",
                 "composer_hero_image_remove": "移除图片",
-                "composer_hero_image_upload_failed": "无法上传横幅图片，你可以稍后在讨论页面重试。",
                 "discussion_singular": "个讨论",
                 "discussions": "讨论",
                 "filter_tags": "筛选标签",
@@ -458,7 +460,8 @@
                 "yesterday_time": "昨天 {time}",
                 "showcase_heading": "作品展示",
                 "ws_update_singular": "1 个新讨论",
-                "ws_update_plural": "{count} 个新讨论"
+                "ws_update_plural": "{count} 个新讨论",
+                "composer_hero_image_upload_failed": "无法上传横幅图片，你可以稍后在讨论页面重试。"
             },
             "support": {
                 "new_ticket_heading": "新建工单",
@@ -500,7 +503,11 @@
                 "reminder_minute_label": "分钟",
                 "reminder_meridiem_label": "上午或下午",
                 "reminder_am": "上午",
-                "reminder_pm": "下午"
+                "reminder_pm": "下午",
+                "reminder_too_far": "",
+                "note_counter": "",
+                "removed": "",
+                "undo": ""
             },
             "notifications": {
                 "bookmark_reminder_text": "你收藏的讨论到了提醒时间"
@@ -574,7 +581,24 @@
                 "remove_reply": "",
                 "guest_pill": "",
                 "hide_preview": "",
-                "resize_handle": ""
+                "resize_handle": "",
+                "draft_failed": "",
+                "publish_failed": "",
+                "missing": "",
+                "missing_title": "",
+                "missing_body": "",
+                "missing_tags": ""
+            },
+            "cover_image": {
+                "help": "",
+                "unsupported_type": "",
+                "too_large_bytes": "",
+                "too_large_pixels": "",
+                "unreadable": "",
+                "upload_failed": "",
+                "remove_failed": "",
+                "upload_failed_after_publish": "",
+                "connection_problem": ""
             },
             "changelog": {
                 "title": "更新日志",
