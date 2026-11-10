@@ -431,6 +431,9 @@ return [
 	'ernestdefoe-steward' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.2.1/locale/en.yml',
 	],
+	'ernestdefoe-sticker-book' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sticker-book/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-surveyor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/surveyor/1.0.0/locale/en.yml',
 	],
