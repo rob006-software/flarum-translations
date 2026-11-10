@@ -4452,13 +4452,17 @@
         "ernestdefoe-calendar": {
             "admin": {
                 "categories": "a26361e339c2438b2f2ae6da2a27fb6e a26361e339c2438b2f2ae6da2a27fb6e",
-                "categories_help": "49212efb0359e4ef304eecaec042c5ae 49212efb0359e4ef304eecaec042c5ae",
+                "categories_help": "b0ffaf6209864bd72a26dccacb1fcdbb b0ffaf6209864bd72a26dccacb1fcdbb",
                 "category_add": "edd597784c485b0f27567b7d8a6567e9 edd597784c485b0f27567b7d8a6567e9",
                 "category_color": "16fd55d02a23f31097ca58eccfeec97c 16fd55d02a23f31097ca58eccfeec97c",
                 "category_delete": "45e559f417afdb72476a91d5acf85748 45e559f417afdb72476a91d5acf85748",
                 "category_delete_confirm": "ab91928abca9805867e6f3e81e861a3e ab91928abca9805867e6f3e81e861a3e",
+                "category_going_label": "7c0408284061b367866b9c787e93cefe 7c0408284061b367866b9c787e93cefe",
+                "category_interested_label": "0d118b5385f5f11f0d1ecbc3695bdea9 0d118b5385f5f11f0d1ecbc3695bdea9",
+                "category_label_aria": "a5ae9c22231e921b02a278ffd6189b84 a5ae9c22231e921b02a278ffd6189b84",
                 "category_name": "49ee3087348e8d44e1feda1917443987 49ee3087348e8d44e1feda1917443987",
                 "category_preset": "1cd6e58c1e5035248d39bdb47aae13ad 1cd6e58c1e5035248d39bdb47aae13ad",
+                "category_rsvp": "235d7b97a5e4f19e553c2ef1ecc2fc3e 235d7b97a5e4f19e553c2ef1ecc2fc3e",
                 "category_save": "74b2be2e987c5eaad6bfb796fb0cb755 74b2be2e987c5eaad6bfb796fb0cb755",
                 "category_saved": "8f3bfbd7475a3194c33f68b4ff9b5518 8f3bfbd7475a3194c33f68b4ff9b5518",
                 "date_order": "acc5c7f541540f3e449092d3d42ab76e acc5c7f541540f3e449092d3d42ab76e",
@@ -4467,8 +4471,11 @@
                 "date_order_help": "f76d46baaffebd474cad678c27d45ae2 f76d46baaffebd474cad678c27d45ae2",
                 "date_order_mdy": "4011edfb937d9f051b490c0c1461a096 4011edfb937d9f051b490c0c1461a096",
                 "default_view": "931a405fcf20321ef575dd89e7413e44 931a405fcf20321ef575dd89e7413e44",
+                "event_discussion_author": "c2d4a53003f0717a393a7fcf320ffc17 c2d4a53003f0717a393a7fcf320ffc17",
+                "event_discussion_author_help": "0f9a221e0744133e9b6c4cdbee2502bb 0f9a221e0744133e9b6c4cdbee2502bb",
+                "event_discussion_author_placeholder": "4b4425260f0c23386820dc982c159031 4b4425260f0c23386820dc982c159031",
                 "event_discussion_tags": "d548ffa018926bf3ed88a2f5a40d8c96 d548ffa018926bf3ed88a2f5a40d8c96",
-                "event_discussion_tags_help": "a9d6ea2a613a89c4d8bc6aab1926b33e a9d6ea2a613a89c4d8bc6aab1926b33e",
+                "event_discussion_tags_help": "d6d74b0f09a55f9283d210ed2c7172cb d6d74b0f09a55f9283d210ed2c7172cb",
                 "event_discussions": "4f26fa397bcf57457a74de906425757d 4f26fa397bcf57457a74de906425757d",
                 "event_discussions_help": "5e268269d916701cbe16346ce8fe287d 5e268269d916701cbe16346ce8fe287d",
                 "hide_nav_link": "0ba7dd3dbb1da49e4fe027c8b50e66b6 0ba7dd3dbb1da49e4fe027c8b50e66b6",
@@ -4505,6 +4512,9 @@
             },
             "api": {
                 "category_name_required": "d535f4a7b9eba57ca0e70ade7278a084 d535f4a7b9eba57ca0e70ade7278a084",
+                "discussion_author_cannot_start": "81684fc03a1d4fa87d9723814ea20ebc 81684fc03a1d4fa87d9723814ea20ebc",
+                "discussion_author_cannot_start_in_tags": "4a5f4315cbcbc45c35b3109f0cf4b4c2 4a5f4315cbcbc45c35b3109f0cf4b4c2",
+                "discussion_author_not_found": "f0b68e4478a875c9c0eb7b990e9159c2 f0b68e4478a875c9c0eb7b990e9159c2",
                 "discussion_needs_tag": "8f7cb2b8c2078bb29532b0f520f44410 8f7cb2b8c2078bb29532b0f520f44410",
                 "end_before_start": "bf1e8e88b6ce7f2199915c9581766e74 bf1e8e88b6ce7f2199915c9581766e74",
                 "start_required": "471db500b53c665bf4939e9e7b9ac0e5 471db500b53c665bf4939e9e7b9ac0e5",
@@ -4541,6 +4551,11 @@
                 "celebrations_birthday": "ab95629c85307d8b0de9fe01b9f249ee ab95629c85307d8b0de9fe01b9f249ee",
                 "celebrations_title": "715c514a78d58a5ce59fde30f003067e 715c514a78d58a5ce59fde30f003067e",
                 "coming_up": "4131ec34efb443e991dfc2d7c840b9e9 4131ec34efb443e991dfc2d7c840b9e9",
+                "cover_browse": "c347266ac0568fc87b4c54c5e05bfe7a c347266ac0568fc87b4c54c5e05bfe7a",
+                "cover_browse_close": "bd0ba70155638f11a79bafd9f4822237 bd0ba70155638f11a79bafd9f4822237",
+                "cover_browse_empty": "21d7b11c7b6163b5ce680af19296500e 21d7b11c7b6163b5ce680af19296500e",
+                "cover_browse_error": "3b89d957c7edc2c5e17492f60d1f2d0b 3b89d957c7edc2c5e17492f60d1f2d0b",
+                "cover_browse_more": "5cc9dddd6270544a19301d3227a40a18 5cc9dddd6270544a19301d3227a40a18",
                 "cover_error": "38a260e8a9669d37bd8b95abd290f6d4 38a260e8a9669d37bd8b95abd290f6d4",
                 "cover_or_url": "f240f92cc4e8991b4d8f14835e5e4a52 f240f92cc4e8991b4d8f14835e5e4a52",
                 "cover_remove": "7ae2c0da8fe3d1af7bffa66d9d242421 7ae2c0da8fe3d1af7bffa66d9d242421",
@@ -4613,6 +4628,8 @@
                 "view_list": "428269744a2efc790a5ef04bb1004c4b 428269744a2efc790a5ef04bb1004c4b",
                 "view_month": "1570ac089f695b7fc28d6123c0a0b5bc 1570ac089f695b7fc28d6123c0a0b5bc",
                 "view_week": "14098f9512325d19b99b3b99417aed1f 14098f9512325d19b99b3b99417aed1f",
+                "week_number": "251bb817e64397b80ca1edf5ac0c9da5 251bb817e64397b80ca1edf5ac0c9da5",
+                "week_number_title": "2f138583cb6beb29aaea3672ad9c068f 2f138583cb6beb29aaea3672ad9c068f",
                 "wf_category": "00130412e744bd538bebdca1ea47b0b9 00130412e744bd538bebdca1ea47b0b9",
                 "wf_how_many": "51b82da32d392ce2783408e79ecbd8d1 51b82da32d392ce2783408e79ecbd8d1",
                 "wf_leaderboard_size": "621aee8931fadc36dff968741c97cfee 621aee8931fadc36dff968741c97cfee",
@@ -8192,6 +8209,46 @@
                     "reply": "9c2529a3a47b6183b3a9a3efd4ccdc98 9c2529a3a47b6183b3a9a3efd4ccdc98",
                     "share": "09f3656cd22b30f1dc4021dbdf7f4fcd 09f3656cd22b30f1dc4021dbdf7f4fcd",
                     "started": "bdff9787a3d3203dd56394a1ea4676ec bdff9787a3d3203dd56394a1ea4676ec"
+                }
+            }
+        }
+    },
+    "ernestdefoe-member-map.json": {
+        "ernestdefoe-member-map": {
+            "admin": {
+                "permissions": {
+                    "view": "ee18551bc23c0c7938b786b17649eb09 ee18551bc23c0c7938b786b17649eb09"
+                },
+                "settings": {
+                    "meetup_tag_none": "7af38378eebaa53f4330de85ead2aba4 7af38378eebaa53f4330de85ead2aba4"
+                },
+                "widget": "cd70e354b64cf159f25dd73381a1beab cd70e354b64cf159f25dd73381a1beab"
+            },
+            "forum": {
+                "card": {
+                    "close": "8311b9b64370db830145f6612a9021fd 8311b9b64370db830145f6612a9021fd",
+                    "label": "3ec365dd533ddb7ef3d1c111186ce872 3ec365dd533ddb7ef3d1c111186ce872",
+                    "online": "051c5759a956fd7dd812beba8948bca4 051c5759a956fd7dd812beba8948bca4",
+                    "profile": "bbe6eb9a36d35d69b4ca9c8ac278a64c bbe6eb9a36d35d69b4ca9c8ac278a64c"
+                },
+                "filters": {
+                    "any_group": "79f4bd8639663647e46790b8d356265e 79f4bd8639663647e46790b8d356265e",
+                    "group": "3b77a53bb0cbab20a1d684f05c5cf8d6 3b77a53bb0cbab20a1d684f05c5cf8d6",
+                    "meetups": "32945dfc7e8d80cee73d10014015904b 32945dfc7e8d80cee73d10014015904b",
+                    "travelers": "6c236b357b6298da0aa01cb14bda16bc 6c236b357b6298da0aa01cb14bda16bc"
+                },
+                "search": {
+                    "button": "4474fbc0115b236a45eb9573889b2653 4474fbc0115b236a45eb9573889b2653"
+                },
+                "stats": {
+                    "countries": "fdabe49354f79925b9062d3028c4149d fdabe49354f79925b9062d3028c4149d",
+                    "members": "8f9ff774c6a7fe1207c688a1613be2dd 8f9ff774c6a7fe1207c688a1613be2dd",
+                    "online": "baa6e5ddb4c08140f0e735201ff86a88 baa6e5ddb4c08140f0e735201ff86a88"
+                },
+                "view": {
+                    "label": "60d441bc928fe885ac10754bf77120ec 60d441bc928fe885ac10754bf77120ec",
+                    "list": "428269744a2efc790a5ef04bb1004c4b 428269744a2efc790a5ef04bb1004c4b",
+                    "map": "94ebf1e3c012bd0ca27ca630c9a48c94 94ebf1e3c012bd0ca27ca630c9a48c94"
                 }
             }
         }
