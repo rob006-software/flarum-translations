@@ -877,9 +877,7 @@ return [
 	],
 	'liufencn-short-slug' => [
 		'tag' => 'https://raw.githubusercontent.com/LiuFenCN/flarum-short-slug/v1.0.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0/locale/en.yml',
