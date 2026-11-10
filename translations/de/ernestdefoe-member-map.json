@@ -1,9 +1,9 @@
 {
     "ernestdefoe-member-map": {
         "admin": {
-            "widget": "",
+            "widget": "Wo wir sind",
             "permissions": {
-                "view": "",
+                "view": "Mitgliederkarte anzeigen",
                 "list": "",
                 "travel": "",
                 "meetup": ""
@@ -16,7 +16,7 @@
                 "allow_indexing": "",
                 "allow_indexing_help": "",
                 "meetup_tag": "",
-                "meetup_tag_none": "",
+                "meetup_tag_none": "Wähle ein Tag",
                 "meetup_tag_help": "",
                 "style_url": "",
                 "style_url_help": "",
@@ -60,38 +60,38 @@
                 "meetup": ""
             },
             "card": {
-                "label": "",
-                "close": "",
-                "online": "",
+                "label": "Details",
+                "close": "Schließen",
+                "online": "Jetzt online",
                 "local_time": "",
-                "profile": ""
+                "profile": "Profil anzeigen"
             },
             "stats": {
-                "members": "",
-                "countries": "",
+                "members": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+                "countries": "{count, plural, one {# Land} other {# Länder}}",
                 "to_go": "",
                 "everywhere": "",
-                "online": ""
+                "online": "{count} sind jetzt online"
             },
             "search": {
                 "label": "",
                 "placeholder": "",
-                "button": "",
+                "button": "Suchen",
                 "none": ""
             },
             "filters": {
                 "label": "",
                 "online": "",
                 "following": "",
-                "group": "",
-                "any_group": "",
-                "travelers": "",
-                "meetups": ""
+                "group": "Gruppe",
+                "any_group": "Jeder",
+                "travelers": "Reisende",
+                "meetups": "Treffen"
             },
             "view": {
-                "label": "",
-                "map": "",
-                "list": ""
+                "label": "Anzeigen",
+                "map": "Karte",
+                "list": "Liste"
             },
             "list": {
                 "elsewhere": ""
