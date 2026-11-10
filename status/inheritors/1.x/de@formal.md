@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **5** are translated differently and **63** are
-translated only in `de@formal`. Altogether they cover **9** components.
+sides, but do not match between them: **5** are translated differently and **80** are
+translated only in `de@formal`. Altogether they cover **10** components.
 
 <!-- {% raw %} -->
 
@@ -18,6 +18,7 @@ translated only in `de@formal`. Altogether they cover **9** components.
 | `floxum-payments` | 0 | [13](#floxum-payments-missing) |
 | `fof-badges` | 0 | [26](#fof-badges-missing) |
 | `fof-sitemap` | [1](#fof-sitemap) | 0 |
+| `huseyinfiliz-bump` | 0 | [17](#huseyinfiliz-bump-missing) |
 | `prm-forum-activity` | 0 | [21](#prm-forum-activity-missing) |
 | `prm-moderation` | 0 | [3](#prm-moderation-missing) |
 | `ralkage-hcaptcha` | [1](#ralkage-hcaptcha) | 0 |
@@ -418,6 +419,145 @@ These strings are translated only in `de@formal`, so there is nothing to inherit
 
 ```diff
 +Beiträge
+```
+
+
+### `huseyinfiliz-bump` (missing)
+
+#### [`huseyinfiliz-bump.admin.enable_absorber_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.enable_absorber_label%22)
+
+> Enable Absorber
+
+```diff
++Absorber aktivieren
+```
+
+#### [`huseyinfiliz-bump.admin.enable_manual_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.enable_manual_label%22)
+
+> Enable Manual Bump
+
+```diff
++Manuelle Bumps aktivieren
+```
+
+#### [`huseyinfiliz-bump.admin.manual_bump_tags_label`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.manual_bump_tags_label%22)
+
+> Available in Tags
+
+```diff
++In Tags verfügbar
+```
+
+#### [`huseyinfiliz-bump.admin.settings.section_absorber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.settings.section_absorber%22)
+
+> Absorber Settings
+
+```diff
++Absorber-Einstellungen
+```
+
+#### [`huseyinfiliz-bump.admin.settings.section_manual`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.settings.section_manual%22)
+
+> Manual Bump Settings
+
+```diff
++Einstellungen für Manuelle Bumps
+```
+
+#### [`huseyinfiliz-bump.admin.settings.section_quota`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.settings.section_quota%22)
+
+> Quota Settings
+
+```diff
++Kontingenteinstellungen
+```
+
+#### [`huseyinfiliz-bump.admin.stats.absorber_status`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.absorber_status%22)
+
+> Absorber Status
+
+```diff
++Absorber-Status
+```
+
+#### [`huseyinfiliz-bump.admin.stats.active`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.active%22)
+
+> Active
+
+```diff
++Aktiv
+```
+
+#### [`huseyinfiliz-bump.admin.stats.inactive`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.inactive%22)
+
+> Inactive
+
+```diff
++Inaktiv
+```
+
+#### [`huseyinfiliz-bump.admin.stats.last_bump`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.last_bump%22)
+
+> Last Bump
+
+```diff
++Letzter Bump
+```
+
+#### [`huseyinfiliz-bump.admin.stats.no_bumps_yet`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.no_bumps_yet%22)
+
+> No bumps yet
+
+```diff
++Noch keine Bumps
+```
+
+#### [`huseyinfiliz-bump.admin.stats.today_bumps`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.today_bumps%22)
+
+> Today's Bumps
+
+```diff
++Heutige Bumps
+```
+
+#### [`huseyinfiliz-bump.admin.stats.total_bumps`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.total_bumps%22)
+
+> Total Bumps
+
+```diff
++Bumps insgesamt
+```
+
+#### [`huseyinfiliz-bump.admin.stats.week_bumps`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.stats.week_bumps%22)
+
+> This Week
+
+```diff
++Diese Woche
+```
+
+#### [`huseyinfiliz-bump.admin.tabs.absorber`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.tabs.absorber%22)
+
+> Absorber
+
+```diff
++Absorber
+```
+
+#### [`huseyinfiliz-bump.admin.tabs.bump`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.tabs.bump%22)
+
+> Manual Bump
+
+```diff
++Manueller Bump
+```
+
+#### [`huseyinfiliz-bump.admin.tabs.recent_bumps`](https://weblate.rob006.net/translate/flarum2/huseyinfiliz-bump/de@formal/?q=context%3A%3D%22huseyinfiliz-bump.admin.tabs.recent_bumps%22)
+
+> Recent Activity
+
+```diff
++Kürzliche Aktivität
 ```
 
 
