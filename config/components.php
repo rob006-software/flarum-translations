@@ -325,6 +325,9 @@ return [
 	'ernestdefoe-kiosk' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kiosk/1.3.0/locale/en.yml',
 	],
+	'ernestdefoe-kudos' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kudos/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-ladder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.5.0/locale/en.yml',
 	],
