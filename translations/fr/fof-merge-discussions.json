@@ -15,7 +15,7 @@
                 "type_from_label": "Fusionner cette discussion avec une autre",
                 "type_from_help_text": "Sélectionnez la discussion cible dans laquelle fusionner {title}.",
                 "load_preview_button": "Prévisualiser",
-                "preview_truncated": "",
+                "preview_truncated": "Affichage des messages {from} à {to} sur {total}.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -42,10 +42,10 @@
         },
         "api": {
             "error": {
-                "into_itself": "",
+                "into_itself": "Une discussion ne peut pas être fusionnée avec elle-même.",
                 "merging_failed": "Échec de la fusion des discussions.",
                 "updating_failed": "Échec de la mise à jour des informations de la discussion.",
-                "redirecting_failed": "",
+                "redirecting_failed": "Échec de la redirection des discussions fusionnées.",
                 "deleting_failed": "Échec de la suppression des discussions vides.",
                 "fixing_posts_number_failed": "Échec de la correction des numéros de messages.",
                 "fixing_posts_number_meta_failed": "Échec de la correction des numéros de messages."
