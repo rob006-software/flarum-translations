@@ -13,15 +13,15 @@
                 "devoted_none": "Bisher hat sich noch niemand um {pet} gekümmert. Sei der Erste!",
                 "care_count": "{count, plural, one {# Mal} other {# Mal}}",
                 "everyone": "{count, plural, one {# Mitglied hat} other {# Mitglieder haben}} sich darum gekümmert, {total, plural, one {# Mal} other {# Mal}} insgesamt.",
-                "journey": "",
-                "to_go": "",
-                "needs": "",
-                "milestone": "",
-                "milestone_when": "",
-                "guest": "",
-                "come_back": "",
-                "all_done": "",
-                "streak": ""
+                "journey": "Aufwachsen",
+                "to_go": "{count, plural, one {noch # weitere Pflegeaktion} other {noch # weitere Pflegeaktionen}}",
+                "needs": "{count, plural, one {Benötigt # Pflegeaktion} other {Benötigt # Pflegeaktionen}}",
+                "milestone": "Letzter Meilenstein gefeiert: {count} Beiträge.",
+                "milestone_when": "Letzter Meilenstein gefeiert: {count} Beiträge, {time}.",
+                "guest": "Melde dich an, um {pet} zu füttern und mit ihm zu spielen. Jedes Mitglied kann einmal am Tag helfen.",
+                "come_back": "Jeder von uns kann {pet} einmal am Tag füttern und mit ihm spielen.",
+                "all_done": "Du hast dich heute um {pet} gekümmert. Bis morgen!",
+                "streak": "{count}-tägige Serie"
             },
             "stage": {
                 "egg": "Ei",
@@ -38,11 +38,11 @@
                 "celebrating": "in Feierlaune"
             },
             "mood": {
-                "idle": "",
-                "happy": "",
+                "idle": "{pet} treibt sich hier herum und behält das Forum im Auge.",
+                "happy": "{pet} wurde heute gefüttert und mit ihm wurde gespielt, worüber es sich sehr freut.",
                 "sleepy": "",
-                "excited": "",
-                "eating": "",
+                "excited": "Im Forum herrscht reges Treiben und {pet} kann gar nicht stillsitzen!",
+                "eating": "{pet} geniesst einen Snack.",
                 "celebrating": "{pet} feiert!",
                 "egg_idle": "",
                 "egg_happy": "",
@@ -50,19 +50,19 @@
                 "egg_excited": "",
                 "egg_eating": "",
                 "egg_celebrating": "",
-                "evolved_baby": "",
-                "evolved_adult": "",
-                "evolved_special": "",
-                "milestone": ""
+                "evolved_baby": "{pet} ist heute geschlüpft! Sag Hallo.",
+                "evolved_adult": "{pet} ist heute gewachsen dank allen von euch.",
+                "evolved_special": "{pet} hat heute seine Spezialform erreicht!",
+                "milestone": "Das Forum hat gerade die Marke von {count} Beiträgen überschritten und {pet} jubelt!"
             },
             "meter": {
                 "energy": "Energie",
-                "fullness": "Sattgegessen",
+                "fullness": "Sättigungsgefühl",
                 "fun": "Spass",
                 "energy_high": "",
-                "energy_mid": "",
-                "energy_low": "",
-                "fed": "",
+                "energy_mid": "Ein normaler Tag",
+                "energy_low": "Das Forum ist ruhig",
+                "fed": "{count, plural, =0 {Heute noch nicht gefüttert} one {Heute einmal gefüttert} other {Heute # Mal gefüttert}}",
                 "played": ""
             },
             "care": {
@@ -129,22 +129,22 @@
                 "adult": "",
                 "special": "",
                 "milestone": "",
-                "visit": "",
-                "dismiss": ""
+                "visit": "{pet} besuchen",
+                "dismiss": "Verwerfen"
             },
             "corner": {
-                "open": "",
-                "close": ""
+                "open": "Öffne {pet}, das Forum-Haustier",
+                "close": "Schließen"
             },
-            "visit": "",
-            "art_label": ""
+            "visit": "{pet} besuchen",
+            "art_label": "{pet}, das Forum-Haustier: {stage}, {mood}"
         },
         "admin": {
             "settings": {
-                "name": "",
-                "name_help": "",
-                "species": "",
-                "skin": "",
+                "name": "Name des Haustiers",
+                "name_help": "Bis zu 40 Zeichen.",
+                "species": "Tierart",
+                "skin": "Hautton",
                 "look_help": "",
                 "growth": "",
                 "growth_hatch": "",
@@ -154,18 +154,18 @@
                 "growth_invalid": "",
                 "reset": "",
                 "reset_confirm": "",
-                "reset_done": "",
+                "reset_done": "Ein neues Ei liegt im Nest.",
                 "timezone": "",
                 "timezone_help": "",
                 "sidebar": "",
                 "corner": "",
                 "corner_help": "",
                 "nav": "",
-                "art": "",
+                "art": "Deine eigenen Zeichnungen",
                 "art_help": "",
-                "art_upload": "",
-                "art_replace": "",
-                "art_remove": ""
+                "art_upload": "Hochladen",
+                "art_replace": "Ersetzen",
+                "art_remove": "Entfernen"
             },
             "errors": {
                 "forum_pet_upload_too_big": "",
@@ -173,32 +173,32 @@
                 "forum_pet_upload_failed": ""
             },
             "species": {
-                "dumpling": "",
-                "sprout": "",
-                "comet": ""
+                "dumpling": "Dumpling",
+                "sprout": "Sprosse",
+                "comet": "Komet"
             },
             "skins": {
-                "peach": "",
-                "snow": "",
-                "cocoa": "",
-                "meadow": "",
-                "mint": "",
-                "autumn": "",
-                "sky": "",
-                "ember": "",
-                "violet": ""
+                "peach": "Pfirsich",
+                "snow": "Schnee",
+                "cocoa": "Kakao",
+                "meadow": "Weide",
+                "mint": "Minze",
+                "autumn": "Herbst",
+                "sky": "Himmel",
+                "ember": "Glut",
+                "violet": "Violett"
             },
             "states": {
-                "idle": "",
-                "happy": "",
-                "eating": "",
-                "sleepy": "",
-                "excited": "",
-                "celebrating": ""
+                "idle": "Gut gelaunt",
+                "happy": "Fröhlich",
+                "eating": "Isst gerade",
+                "sleepy": "Schläfrig",
+                "excited": "Aufgeregt",
+                "celebrating": "In Feierlaune"
             },
             "permissions": {
-                "view": "",
-                "care": ""
+                "view": "Forum-Haustier anzeigen",
+                "care": "Das Forum-Haustier füttern und mit ihm spielen"
             }
         },
         "lib": {
