@@ -1078,7 +1078,7 @@ return [
 		'__builtInLanguages' => ['it'],
 	],
 	'peopleinside-restricted-visibility' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-restricted-visibility/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-restricted-visibility/1.1.2/locale/en.yml',
 		'__builtInLanguages' => ['it'],
 	],
 	'pianotell-flamoji' => [
