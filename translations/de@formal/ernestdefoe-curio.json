@@ -414,14 +414,14 @@
                 "layout_compact": "",
                 "ranking_label": "",
                 "ranking_help": "",
-                "ranking_collections": "",
-                "ranking_collectors": "",
+                "ranking_collections": "Top-Sammlungen",
+                "ranking_collectors": "Top-Sammler",
                 "ranking_both": "Beides",
                 "type_color_label": "",
                 "type_color_help": "",
                 "type_color_background": "",
-                "type_color_text": "",
-                "latest_label": "",
+                "type_color_text": "Nur auf Symbol und Namen",
+                "latest_label": "„Neueste Änderungen“ anzeigen",
                 "latest_help": "",
                 "hide_empty_label": "Feldtypen verbergen, wenn sie leer sind",
                 "hide_empty_help": "Standardmäßig deaktiviert, sodass auf der Seite „Sammlungen“ alle aktivierten Typen angezeigt werden, ebenso wie auf der Seite „Tags“ alle Tags; eine leere Seite lädt dazu ein, eine erste Sammlung anzulegen. Ist die Option aktiviert, werden nur Typen angezeigt, die bereits Einträge enthalten (alle, solange das Forum noch keine Einträge enthält).",
@@ -483,7 +483,7 @@
                 "off": "Aus",
                 "progress": "Fortschritt verfolgen",
                 "progress_help": "Jeder Artikel kann als „Noch nicht begonnen“, „In Bearbeitung“ oder „Abgeschlossen“ markiert werden: ein Symbol auf dem Artikel und ein Filter auf der Sammlungsseite. Praktisch für eine Liste mit noch zu spielenden Spielen, noch zu lesenden Büchern oder noch anzusehenden Filmen.",
-                "conditions": "",
+                "conditions": "Zustandsskala",
                 "conditions_general": "",
                 "conditions_cards": "",
                 "conditions_help": "",
@@ -509,10 +509,10 @@
                 "movies": "Filme (mittels Marquee)",
                 "tv": "Fernsehserien (mittels Marquee)",
                 "games": "Spiele (IGDB oder mittels Marquee)",
-                "pokemon": "",
-                "magic": "",
-                "yugioh": "",
-                "cards": ""
+                "pokemon": "Pokémonkarten (TCGdex)",
+                "magic": "Magickarten (Scryfall)",
+                "yugioh": "Yu-Gi-Oh!-Karten (YGOPRODeck)",
+                "cards": "Alle drei Kartenspiele (Pokémon, Magic, Yu-Gi-Oh!)"
             },
             "kind": {
                 "select": "Auswahl",
@@ -520,7 +520,7 @@
                 "number": "Zahl",
                 "date": "Datum",
                 "bool": "Ja / Nein",
-                "link": ""
+                "link": "Link"
             },
             "permissions": {
                 "view": "Sammlungen anzeigen",
@@ -537,29 +537,29 @@
                 "body": "Hallo {recipient_display_name}, {owner} hat gerade {title} zum Tausch angeboten. Es ist auf deiner Wunschliste.",
                 "link": "Angebot ansehen"
             },
-            "followed_link": "",
+            "followed_link": "Sammlung ansehen",
             "new_items": {
                 "subject": "Neu in {name}",
                 "body": "Hallo {recipient_display_name}, {owner} hat neue Artikel zu {name} hinzugefügt, einer Sammlung, der du folgst.",
                 "link": "Sammlung ansehen"
             },
             "wishlist_added": {
-                "subject": "",
+                "subject": "Neu auf der Wunschliste von {name}",
                 "body": ""
             },
             "progress_changed": {
-                "subject": "",
+                "subject": "Fortschritt in {name}",
                 "body": ""
             },
             "rating_changed": {
-                "subject": "",
+                "subject": "Neue Bewertungen in {name}",
                 "body": ""
             }
         },
         "api": {
             "type_in_use": "Dieser Typ hat Sammlungen und kann daher nicht gelöscht werden.",
             "type_disabled": "Dieser Sammlungstyp ist ausgeschaltet.",
-            "bad_link": "",
+            "bad_link": "Ein Link muss eine Web-Adresse beginnend mit http:// oder https:// sein.",
             "too_many_collections": "Du kannst bis zu {count} Sammlungen haben.",
             "collection_full": "Eine Sammlung darf bis zu {count} Artikel beinhalten.",
             "too_many_photos": "Ein Artikel kann bis zu {count} Fotos haben.",

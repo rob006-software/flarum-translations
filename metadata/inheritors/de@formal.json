@@ -4486,6 +4486,12 @@
         },
         "ernestdefoe-calendar": {
             "admin": {
+                "badges": {
+                    "category": "b182b04e05c80b780e1518a2a0e666c6 b182b04e05c80b780e1518a2a0e666c6",
+                    "category_any": "38f8bf9e42cd948be020284f4fc7156f 38f8bf9e42cd948be020284f4fc7156f",
+                    "events_attended": "8631cceae22763b3c22f44a891287ddc 8631cceae22763b3c22f44a891287ddc",
+                    "events_organized": "e0c73a233c77a17a96f48b14c9f18468 e0c73a233c77a17a96f48b14c9f18468"
+                },
                 "categories": "a26361e339c2438b2f2ae6da2a27fb6e a26361e339c2438b2f2ae6da2a27fb6e",
                 "categories_help": "b0ffaf6209864bd72a26dccacb1fcdbb b0ffaf6209864bd72a26dccacb1fcdbb",
                 "category_add": "edd597784c485b0f27567b7d8a6567e9 edd597784c485b0f27567b7d8a6567e9",
@@ -5195,6 +5201,7 @@
                 "kind": {
                     "bool": "cb9a79a31f57e42cdd7aa833a096ccfd cb9a79a31f57e42cdd7aa833a096ccfd",
                     "date": "9ba51734ced032fd8ec25acfb387a23f 9ba51734ced032fd8ec25acfb387a23f",
+                    "link": "97e7c9a7d06eac006a28bf05467fcc8b 97e7c9a7d06eac006a28bf05467fcc8b",
                     "number": "e9716bc6a1ade215b8bc4fc50339a343 e9716bc6a1ade215b8bc4fc50339a343",
                     "select": "c750f9f8d5deaecc9162be3abdb7c95f c750f9f8d5deaecc9162be3abdb7c95f",
                     "text": "9dffbf69ffba8bc38bc4e01abf4b1675 9dffbf69ffba8bc38bc4e01abf4b1675"
@@ -5226,6 +5233,7 @@
                     "igdb_id_label": "4d2ac13282485c89522efd2be6b700ac 4d2ac13282485c89522efd2be6b700ac",
                     "igdb_link": "1c1e9e170b1f3b7422ae33e4e9eea7da 1c1e9e170b1f3b7422ae33e4e9eea7da",
                     "igdb_secret_label": "bbe0f9d1c74e2fa1b50c1533336ce6aa bbe0f9d1c74e2fa1b50c1533336ce6aa",
+                    "latest_label": "dd5719eccd86b95f5308aed61c2808ad dd5719eccd86b95f5308aed61c2808ad",
                     "layout_covers": "32cf9ea1ddd625e98e32cd33f1d2b010 32cf9ea1ddd625e98e32cd33f1d2b010",
                     "layout_help": "c9a9e83570db076e1f1beb24313df57d c9a9e83570db076e1f1beb24313df57d",
                     "layout_label": "bd9f818f50e04dc11c59456f3f1447d9 bd9f818f50e04dc11c59456f3f1447d9",
@@ -5233,12 +5241,15 @@
                     "max_upload_help": "c1fe5d75f60bd08995c82ba3714b95cc c1fe5d75f60bd08995c82ba3714b95cc",
                     "max_upload_label": "a163e1556d1e8f2e0c9471823e972e9a a163e1556d1e8f2e0c9471823e972e9a",
                     "ranking_both": "bbe682ff1bfc945f0c6ab6bfae3d9f3b bbe682ff1bfc945f0c6ab6bfae3d9f3b",
+                    "ranking_collections": "72cf4ed48247f15cddc3e95a26e31062 72cf4ed48247f15cddc3e95a26e31062",
+                    "ranking_collectors": "9c4d34034846626e70bbc574f5cda6e1 9c4d34034846626e70bbc574f5cda6e1",
                     "shortcut_both": "06d68525d12952e8aca2261d62444c25 06d68525d12952e8aca2261d62444c25",
                     "shortcut_help": "2087ab4c49bcb4a80d5fd6d20f78bd3a 2087ab4c49bcb4a80d5fd6d20f78bd3a",
                     "shortcut_label": "776e7781f6f3b8d34769eff021328ac8 776e7781f6f3b8d34769eff021328ac8",
                     "shortcut_menu": "9281e2b8dfefe53a26c6e7c95f06e6e9 9281e2b8dfefe53a26c6e7c95f06e6e9",
                     "shortcut_none": "7504c8a9cf6047f35c3d27364b48b42f 7504c8a9cf6047f35c3d27364b48b42f",
                     "shortcut_sidebar": "5f2b8ba66a4d8efc059e714010452cae 5f2b8ba66a4d8efc059e714010452cae",
+                    "type_color_text": "134e0114c6a0f48141702fc9d7141be3 134e0114c6a0f48141702fc9d7141be3",
                     "upc_help": "c871fb547815d96704ba7e3164bcd42a c871fb547815d96704ba7e3164bcd42a",
                     "upc_label": "d4f90ee7511c87943ffa3cdf3fd5a01c d4f90ee7511c87943ffa3cdf3fd5a01c",
                     "upc_link": "d004ac90585c157f8517428bdf7835cd d004ac90585c157f8517428bdf7835cd",
@@ -5254,11 +5265,15 @@
                 },
                 "source": {
                     "books": "2f513859797422daae2e66372be8bc5d 2f513859797422daae2e66372be8bc5d",
+                    "cards": "22cbf2ec2ab3c5d6eac67fcb3dc2dc52 22cbf2ec2ab3c5d6eac67fcb3dc2dc52",
                     "games": "057c01a11ae43653665f66b99d2554e8 057c01a11ae43653665f66b99d2554e8",
+                    "magic": "884480fc6e6f91a987a630f66e9ab77a 884480fc6e6f91a987a630f66e9ab77a",
                     "movies": "8a77d5ea32282953bd0f020e82eae51b 8a77d5ea32282953bd0f020e82eae51b",
                     "music": "e31e54986b30ec2879609eab009a55e2 e31e54986b30ec2879609eab009a55e2",
                     "none": "1a5d69a38ebd391e915085e489920e43 1a5d69a38ebd391e915085e489920e43",
-                    "tv": "f85491034e804ce9b20c0cd328704bb6 f85491034e804ce9b20c0cd328704bb6"
+                    "pokemon": "f030a031078e40db1193a1f0774cf204 f030a031078e40db1193a1f0774cf204",
+                    "tv": "f85491034e804ce9b20c0cd328704bb6 f85491034e804ce9b20c0cd328704bb6",
+                    "yugioh": "82a0f952e137dc66dd0bb778cd18cae0 82a0f952e137dc66dd0bb778cd18cae0"
                 },
                 "types": {
                     "add": "c9ffb725c3c2fb84984f1d46f5b5c072 c9ffb725c3c2fb84984f1d46f5b5c072",
@@ -5266,6 +5281,7 @@
                     "add_field": "652d930d648e9a101be6b7242d3e04dd 652d930d648e9a101be6b7242d3e04dd",
                     "color": "16fd55d02a23f31097ca58eccfeec97c 16fd55d02a23f31097ca58eccfeec97c",
                     "color_help": "53d0a1626b618942c408fe5f5ed11ca5 53d0a1626b618942c408fe5f5ed11ca5",
+                    "conditions": "7499e7c42b9cbae7d87820056b81cc31 7499e7c42b9cbae7d87820056b81cc31",
                     "create": "fb20b84a59dbfab5363b2a597b433f78 fb20b84a59dbfab5363b2a597b433f78",
                     "delete": "ea659870ab19a56e64e8167fa80b334c ea659870ab19a56e64e8167fa80b334c",
                     "delete_confirm": "48218844bc59e63e6dcd644196d37dc9 48218844bc59e63e6dcd644196d37dc9",
@@ -5305,6 +5321,7 @@
                 }
             },
             "api": {
+                "bad_link": "3380d3dd5f68059de134e695efa9b1c3 3380d3dd5f68059de134e695efa9b1c3",
                 "collection_full": "38ffe273357bb71cd33079044a442b0d 38ffe273357bb71cd33079044a442b0d",
                 "import_missing": "51340529c1e0ce718fb879f319867d76 51340529c1e0ce718fb879f319867d76",
                 "import_too_big": "204e95b4eefe3e77e59de87dc6e2bdb1 204e95b4eefe3e77e59de87dc6e2bdb1",
@@ -5317,6 +5334,7 @@
                 "type_in_use": "7a55940bcef72293e5fb0043b9e44be4 7a55940bcef72293e5fb0043b9e44be4"
             },
             "email": {
+                "followed_link": "5949375d53b4854b3d68be82b1c0e0a9 5949375d53b4854b3d68be82b1c0e0a9",
                 "match": {
                     "body": "08d87cc40dea881c3ea0d9fdba8acf00 08d87cc40dea881c3ea0d9fdba8acf00",
                     "link": "35daae47392d1fa43b96ee874453f55c 35daae47392d1fa43b96ee874453f55c",
@@ -5326,6 +5344,15 @@
                     "body": "b573161f3c92f22dad67b3a240e9e1b4 b573161f3c92f22dad67b3a240e9e1b4",
                     "link": "5949375d53b4854b3d68be82b1c0e0a9 5949375d53b4854b3d68be82b1c0e0a9",
                     "subject": "15a52403740f8cc379da34e9687ca285 15a52403740f8cc379da34e9687ca285"
+                },
+                "progress_changed": {
+                    "subject": "4b08c053dee3342455f6cc06c0f73554 4b08c053dee3342455f6cc06c0f73554"
+                },
+                "rating_changed": {
+                    "subject": "92644df0c8279f93e00d0e68dc74d25d 92644df0c8279f93e00d0e68dc74d25d"
+                },
+                "wishlist_added": {
+                    "subject": "4c7ea5c174540ecb14cf717e7b0914f7 4c7ea5c174540ecb14cf717e7b0914f7"
                 }
             },
             "forum": {
@@ -8810,6 +8837,58 @@
                 "search": {
                     "all": "cc08dba02f1d00a8fe5307a87028065e cc08dba02f1d00a8fe5307a87028065e",
                     "heading": "abdc6f7039280da442a51755da2dc147 abdc6f7039280da442a51755da2dc147"
+                }
+            }
+        }
+    },
+    "ernestdefoe-mural.json": {
+        "ernestdefoe-mural": {
+            "admin": {
+                "palettes": {
+                    "custom": "9cd1451011f960db088c3b3d3582037c 9cd1451011f960db088c3b3d3582037c",
+                    "mural16": "25a6b1b34b401d2a12236a4deeba06f5 25a6b1b34b401d2a12236a4deeba06f5",
+                    "mural32": "5382d9bb7f4c98f0fb3a68d2735a0019 5382d9bb7f4c98f0fb3a68d2735a0019",
+                    "pastel16": "48b5af71ad3b4a5f61250396c82e53fd 48b5af71ad3b4a5f61250396c82e53fd"
+                },
+                "permissions": {
+                    "paint": "e88bd19242427f55e21d0ea5069e5f8a e88bd19242427f55e21d0ea5069e5f8a",
+                    "view": "614b47792cb0a02b91ae1c3c0ca76498 614b47792cb0a02b91ae1c3c0ca76498"
+                },
+                "settings": {
+                    "cooldown": "a62481d8ddcb4a8945ba5daf3b051cbf a62481d8ddcb4a8945ba5daf3b051cbf",
+                    "group_cooldown_placeholder": "13015ca8cd497ea520345d82bb9275cc 13015ca8cd497ea520345d82bb9275cc",
+                    "height": "d40585770c01c97e11cf70e081f3c853 d40585770c01c97e11cf70e081f3c853",
+                    "nav": "91cdecdd6daba0451a470e2959ac242d 91cdecdd6daba0451a470e2959ac242d",
+                    "palette": "7faaa1de90c91f60a58e46fae6daf77c 7faaa1de90c91f60a58e46fae6daf77c",
+                    "widget": "f6fe1cbe52b20c58cfe492b7906d0326 f6fe1cbe52b20c58cfe492b7906d0326",
+                    "width": "6225b1c2fd4cd4daebca018f9eee18ef 6225b1c2fd4cd4daebca018f9eee18ef"
+                },
+                "widgets": {
+                    "live": "e85e9347d7f2b34288aa905a90cf7fbd e85e9347d7f2b34288aa905a90cf7fbd"
+                }
+            },
+            "forum": {
+                "dock": {
+                    "log_in": "ecff6ecb514e3e1b66f8b07d8b78bafe ecff6ecb514e3e1b66f8b07d8b78bafe"
+                },
+                "nav": "9f7bac4bd3e064eab5abe57da755bbe7 9f7bac4bd3e064eab5abe57da755bbe7",
+                "page": {
+                    "active": "a982229da9b52a61c37abf2555ea2ee9 a982229da9b52a61c37abf2555ea2ee9",
+                    "live": "955ad3298db330b5ee880c2c9e6f23a0 955ad3298db330b5ee880c2c9e6f23a0",
+                    "title": "9f7bac4bd3e064eab5abe57da755bbe7 9f7bac4bd3e064eab5abe57da755bbe7"
+                },
+                "season": {
+                    "download": "1f9e14b38656dab080666f498fa98a0b 1f9e14b38656dab080666f498fa98a0b",
+                    "name": "ce7b409ba191fdaf58f0c3e06f9618f2 ce7b409ba191fdaf58f0c3e06f9618f2",
+                    "pause": "105b296a83f9c105355403f3332af50f 105b296a83f9c105355403f3332af50f",
+                    "play": "b0d5f8e67e5186ec676ad2e560ddd5b1 b0d5f8e67e5186ec676ad2e560ddd5b1",
+                    "speed": "2bff9e71d88ef4591fc4661642a1b2a9 2bff9e71d88ef4591fc4661642a1b2a9",
+                    "timelapse": "4d8c8df8b435364e4fd1ec2c282a90ce 4d8c8df8b435364e4fd1ec2c282a90ce"
+                },
+                "stage": {
+                    "fit": "0b6ff3a5f99e68d1eeaff03e783889df 0b6ff3a5f99e68d1eeaff03e783889df",
+                    "zoom_in": "569f561287b570e15c14a7bbbc361377 569f561287b570e15c14a7bbbc361377",
+                    "zoom_out": "178aa7fc183182ee654636b9b9025737 178aa7fc183182ee654636b9b9025737"
                 }
             }
         }
