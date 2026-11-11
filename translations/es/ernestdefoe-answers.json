@@ -39,6 +39,7 @@
                 "answer_button": "",
                 "closed_button": "",
                 "hint": "",
+                "hint_no_comments": "",
                 "duplicate_of": "",
                 "the_original": "",
                 "linked": ""
@@ -178,7 +179,9 @@
         "admin": {
             "tag": {
                 "enable": "",
-                "enable_help": ""
+                "enable_help": "",
+                "comments": "",
+                "comments_help": ""
             },
             "settings": {
                 "intro": "",
@@ -231,6 +234,8 @@
             "closed": "",
             "too_new": "",
             "closed_as_duplicate": "",
+            "closed_as_duplicate_no_comments": "",
+            "comments_off": "",
             "comment_too_long": "",
             "not_found": "",
             "unchanged": "",

@@ -39,6 +39,7 @@
                 "answer_button": "Answer",
                 "closed_button": "Closed as a duplicate",
                 "hint": "Answers should answer the question. To ask for more detail or say thanks, add a comment under the question or an answer.",
+                "hint_no_comments": "Answers should answer the question.",
                 "duplicate_of": "This question was closed as a duplicate of:",
                 "the_original": "the original question",
                 "linked": "{count, plural, one {A question was closed as a duplicate of this one:} other {# questions were closed as duplicates of this one:}}"
@@ -178,7 +179,9 @@
         "admin": {
             "tag": {
                 "enable": "Questions and answers",
-                "enable_help": "Replies become answers sorted by votes, each with its own comments, and the asker can accept one."
+                "enable_help": "Replies become answers sorted by votes, each with its own comments, and the asker can accept one.",
+                "comments": "Comments under the question and answers",
+                "comments_help": "Short comment threads for asking for more detail or saying thanks. Switching this off hides them and stops new ones; existing comments are kept and come back when you switch it on again."
             },
             "settings": {
                 "intro": "Turn a tag into Q&A from its edit dialog on the Tags page. These settings apply to every Q&A tag. Who may vote, edit, review and close is set per tag under Permissions.",
@@ -231,6 +234,8 @@
             "closed": "This question is solved or closed, so it can't get a bounty.",
             "too_new": "A question can get a bounty after it has been open a little while.",
             "closed_as_duplicate": "This question was closed as a duplicate, so it takes no new answers. You can still comment.",
+            "closed_as_duplicate_no_comments": "This question was closed as a duplicate, so it takes no new answers.",
+            "comments_off": "Comments are switched off in this tag.",
             "comment_too_long": "That comment is too long.",
             "not_found": "That question couldn't be found.",
             "unchanged": "Change something before sending the edit.",

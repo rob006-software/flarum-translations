@@ -373,6 +373,13 @@
             }
         },
         "admin": {
+            "badges": {
+                "items": "Curio: items in their collections",
+                "collections": "Curio: collections made",
+                "type": "Curio collection type",
+                "any_type": "Any type",
+                "type_help": "Count only collections of this type. Applies to every Curio condition on this badge. Wishlist items never count."
+            },
             "settings": {
                 "upc_label": "UPCitemdb key (optional)",
                 "upc_help": "Barcode scanning works without any key. Books are looked up on Open Library and records on Deezer and MusicBrainz. Games, films and other products are asked of UPCitemdb (no key, 100 a day, strongest on North American boxes) and Open Icecat (no key, strongest on European boxes: games, consoles, electronics, toys). Every barcode the forum resolves, or a member matches by hand, is kept, so it never needs asking twice. A paid UPCitemdb key only raises UPCitemdb's daily limit; most forums never need one.",

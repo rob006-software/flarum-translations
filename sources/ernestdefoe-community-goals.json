@@ -123,7 +123,16 @@
                 "announce_title": "Title",
                 "announce_title_placeholder": "We reached our goal: {title}!",
                 "announce_body": "Text",
-                "announce_body_help": "Leave empty for a ready-made post. You can use {title}, {progress}, {target}, {members}, {reward}, {top} and {link}.",
+                "announce_body_help": "Leave the title and text empty for a ready-made post. In your own, these are filled in when the goal is reached:",
+                "fields": {
+                    "title": "The goal's title",
+                    "progress": "The count it reached",
+                    "target": "The target, as a number",
+                    "members": "How many members helped",
+                    "reward": "The reward text from this form",
+                    "top": "The top 3 helpers with their counts (empty on new-member goals)",
+                    "link": "The address of the Goals page"
+                },
                 "frozen": "This goal has been reached or is over, so only its wording can change.",
                 "complete_confirm": "{reason} Complete the goal now? Choose Cancel to change the target instead.",
                 "rewards_admin": "Only admins can set automatic rewards.",
