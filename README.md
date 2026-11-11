@@ -1076,8 +1076,10 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-shelf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shelf) | [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) |
 | [`ernestdefoe-shutter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shutter) | [`ernestdefoe/shutter`](https://github.com/ernestdefoe/shutter) |
 | [`ernestdefoe-since`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-since) | [`ernestdefoe/since`](https://github.com/ernestdefoe/since) |
+| [`ernestdefoe-slow-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-slow-mail) | [`ernestdefoe/slow-mail`](https://github.com/ernestdefoe/slow-mail) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`ernestdefoe-sonic`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sonic) | [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) |
+| [`ernestdefoe-spoiler-shield`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-spoiler-shield) | [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) |
 | [`ernestdefoe-steward`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-steward) | [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) |
 | [`ernestdefoe-sticker-book`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sticker-book) | [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) |
 | [`ernestdefoe-story-chain`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-story-chain) | [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) |
