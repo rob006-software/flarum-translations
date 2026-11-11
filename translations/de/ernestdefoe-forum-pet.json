@@ -136,15 +136,15 @@
                 "open": "Öffne {pet}, das Forum-Haustier",
                 "close": "Schließen"
             },
-            "visit": "",
-            "art_label": ""
+            "visit": "{pet} besuchen",
+            "art_label": "{pet}, das Forum-Haustier: {stage}, {mood}"
         },
         "admin": {
             "settings": {
-                "name": "",
-                "name_help": "",
-                "species": "",
-                "skin": "",
+                "name": "Name des Haustiers",
+                "name_help": "Bis zu 40 Zeichen.",
+                "species": "Tierart",
+                "skin": "Hautton",
                 "look_help": "",
                 "growth": "",
                 "growth_hatch": "",
@@ -154,14 +154,14 @@
                 "growth_invalid": "",
                 "reset": "",
                 "reset_confirm": "",
-                "reset_done": "",
+                "reset_done": "Ein neues Ei liegt im Nest.",
                 "timezone": "",
                 "timezone_help": "",
                 "sidebar": "",
                 "corner": "",
                 "corner_help": "",
                 "nav": "",
-                "art": "",
+                "art": "Deine eigenen Zeichnungen",
                 "art_help": "",
                 "art_upload": "Hochladen",
                 "art_replace": "Ersetzen",
