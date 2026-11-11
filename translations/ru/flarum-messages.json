@@ -3,10 +3,10 @@
         "admin": {
             "permissions": {
                 "send_messages_label": "Отправлять личные сообщения",
-                "message_users_without_permission_label": "",
+                "message_users_without_permission_label": "Писать пользователям без разрешения на сообщения",
                 "delete_own_messages_label": "Удалять свои сообщения",
-                "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "send_without_throttle_label": "Отправлять сообщения без ограничений",
+                "view_ips_label": "Просматривать IP-адреса сообщений"
             }
         },
         "forum": {
@@ -20,9 +20,9 @@
             "dialog_list": {
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Отметить как прочитанное",
-                "own_last_message_preview": "",
+                "own_last_message_preview": "Вы: {content}",
                 "title": "Сообщения",
-                "unread_count_text": "",
+                "unread_count_text": "{count} непрочитанных",
                 "view_all": "Все сообщения"
             },
             "dialog_section": {
@@ -72,12 +72,12 @@
                 "title": "Сообщения"
             },
             "recipient_selection_modal": {
-                "cannot_reply_text": "",
+                "cannot_reply_text": "Нельзя отвечать на сообщения",
                 "title": "Выберите получателей сообщения"
             },
             "search_source": {
-                "conversation_with": "",
-                "heading": ""
+                "conversation_with": "Диалог с {username}",
+                "heading": "Сообщения"
             },
             "settings": {
                 "notify_message_received_label": "Кто-то отправил мне сообщение"
@@ -94,10 +94,10 @@
             "message_received": {
                 "subject": "Новое сообщение от {user_display_name}",
                 "plain": {
-                    "body": "Новое сообщение от {user_display_name}.\n\n{url}\n\n---\n\n{content}\n"
+                    "body": "Новое сообщение от {user_display_name}.\n\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать новые письма об этом диалоге, пока не прочитаете его.\n"
                 },
                 "html": {
-                    "body": "[Новое сообщение]({url}) от {user_display_name}."
+                    "body": "[Новое сообщение]({url}) от {user_display_name}.\n\nВы не будете получать новые письма об этом диалоге, пока не прочитаете его.\n"
                 }
             }
         },
@@ -105,18 +105,18 @@
             "dialog": {
                 "title": "Диалог с {username}"
             },
-            "no_other_members_message": "",
-            "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "no_other_members_message": "В этом диалоге никого больше нет.",
+            "recipient_cannot_reply_message": "{username} не может отвечать на сообщения.",
+            "recipient_unavailable_message": "{username} не может получать сообщения."
         }
     },
     "flarum-gdpr": {
         "lib": {
             "data": {
                 "messages": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Ваши личные сообщения, когда они были отправлены и с какого адреса.",
+                    "anonymize_description": "Адреса, с которых отправлялись ваши личные сообщения, будут удалены. Сообщения сохранятся.",
+                    "delete_description": "Ваши личные сообщения будут удалены."
                 }
             }
         }
@@ -125,8 +125,8 @@
         "lib": {
             "browser": {
                 "dialog": {
-                    "started": "",
-                    "posted": ""
+                    "started": "Начат личный диалог с {username}",
+                    "posted": "Отправлено личное сообщение {username}"
                 }
             }
         }
@@ -134,8 +134,8 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "dialogs_heading": "",
-                "dialog_replies_heading": ""
+                "dialogs_heading": "Начатые диалоги",
+                "dialog_replies_heading": "Ответы в диалогах"
             }
         }
     }
