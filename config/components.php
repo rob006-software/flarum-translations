@@ -1209,7 +1209,7 @@ return [
 		'__builtInLanguages' => ['pt_BR'],
 	],
 	'ramon-canela' => [
-		'tag' => 'https://raw.githubusercontent.com/ram0ng1/canela/v0.2.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/canela/v0.2.4/locale/en.yml',
 		'__builtInLanguages' => ['ja', 'pt_BR'],
 	],
 	'ramon-chat' => [
