@@ -60,6 +60,7 @@
                 "read_time": "{count} min read",
                 "rail_label": "Posts in this discussion",
                 "rail_best": "Best answer",
+                "polls_title": "{count, plural, one {Poll} other {Polls}}",
                 "participants": "{count, plural, one {# participant} other {# participants}}",
                 "jump_best": "Jump to best answer",
                 "jump_best_short": "Best answer ›",
@@ -185,7 +186,11 @@
             },
             "topic": {
                 "scrubber_label": "Show the post scrubber beside the posts",
-                "scrubber_help": "A slim rail at the right of a discussion's posts on computers and tablets, to jump to the original post, the newest, the unread ones or the best answer. Phones always have it in the top bar."
+                "scrubber_help": "A slim rail at the right of a discussion's posts on computers and tablets, to jump to the original post, the newest, the unread ones or the best answer. Phones always have it in the top bar.",
+                "polls_label": "Where the opening post's poll goes",
+                "polls_help": "In the post, as fof/polls draws it, or in the sidebar under About this discussion, so it doesn't interrupt the article. The sidebar is used only on wide screens; phones and narrow windows keep the poll in the post. Polls in replies always stay in their reply.",
+                "polls_post": "In the post",
+                "polls_sidebar": "In the sidebar"
             },
             "portal": {
                 "tag_count_label": "Sections in the grid",

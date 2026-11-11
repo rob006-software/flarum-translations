@@ -5,7 +5,9 @@
                 "nav": "Show \"Tier lists\" in the sidebar",
                 "tag": "Tag for list discussions",
                 "tag_help": "A new list can start a discussion where people comment on it. It starts in this tag. Without a tag, only members who may skip tag requirements can start one.",
-                "tag_none": "No tag"
+                "tag_none": "No tag",
+                "max_items": "Most items in one list",
+                "max_items_help": "Up to 500. Bigger lists take longer to rank, especially on phones."
             },
             "permissions": {
                 "view": "View tier lists",
@@ -132,8 +134,8 @@
                 "add": "Add",
                 "add_pictures": "Add pictures",
                 "add_help": "Drag pictures here, or paste one. Paste several lines to add an item for each.",
-                "full": "This list has 120 items, the most it can hold.",
-                "some_skipped": "Some files were skipped. Pictures must be JPEG, PNG or WebP, and a list holds up to 120 items.",
+                "full": "This list has {max} items, the most it can hold.",
+                "some_skipped": "Some files were skipped. Pictures must be JPEG, PNG or WebP, and a list holds up to {max} items.",
                 "upload_failed": "{name} could not be uploaded.",
                 "still_uploading": "Wait for the pictures to finish uploading.",
                 "template": "Make it a template",
@@ -169,7 +171,7 @@
                 "bad_tiers": "Every row needs a name (up to 24 characters). A list has 2 to 10 rows.",
                 "bad_items": "One of the items isn't valid. Each needs a name or a picture.",
                 "no_items": "Add at least one item.",
-                "too_many_items": "A list can hold up to 120 items.",
+                "too_many_items": "A list can hold up to {max} items.",
                 "bad_image": "Pictures must be uploaded here.",
                 "slow_down": "You're doing that too often. Please wait a moment.",
                 "discussion_denied": "Your list is saved, but you can't post a discussion for it.",
