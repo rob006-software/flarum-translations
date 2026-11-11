@@ -438,7 +438,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/seamless-refresh/v0.2.1/locale/en.yml',
 	],
 	'ernestdefoe-secret-santa' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/secret-santa/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/secret-santa/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-segue' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/segue/1.0.0/locale/en.yml',
