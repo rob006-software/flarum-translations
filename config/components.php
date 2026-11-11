@@ -398,7 +398,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/predictions/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-projects' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.5.11/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.6.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-question-of-the-day' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/question-of-the-day/1.0.0/locale/en.yml',
