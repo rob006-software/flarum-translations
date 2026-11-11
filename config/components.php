@@ -314,7 +314,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hype-market/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-importer' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.8.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.9.0/resources/locale/en.yml',
 	],
 	'ernestdefoe-insert-coin' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/insert-coin/1.0.3/locale/en.yml',
