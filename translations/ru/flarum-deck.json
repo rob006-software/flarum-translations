@@ -2,12 +2,12 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Использовать Deck"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
+                "max_columns_help": "Каждая колонка — это отдельный запрос при каждом обновлении. От 1 до 12.",
+                "max_columns_label": "Максимум колонок на участника",
+                "poll_interval_help": "Как часто колонки проверяют новую активность, когда Realtime не подключён. 0 отключает проверку; минимум — 15.",
                 "poll_interval_label": ""
             }
         },
