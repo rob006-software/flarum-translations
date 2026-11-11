@@ -486,7 +486,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.13/locale/en.yml',
 	],
 	'ernestdefoe-tier-lists' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tier-lists/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tier-lists/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-time-capsule' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/time-capsule/1.0.0/locale/en.yml',
