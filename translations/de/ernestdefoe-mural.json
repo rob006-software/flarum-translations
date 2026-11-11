@@ -2,68 +2,68 @@
     "ernestdefoe-mural": {
         "admin": {
             "permissions": {
-                "view": "",
-                "paint": "",
+                "view": "Wandbild ansehen",
+                "paint": "Auf dem Wandbild malen",
                 "moderate": ""
             },
             "settings": {
-                "nav": "",
-                "widget": "",
+                "nav": "„Wandbild“ in der Seitenleiste anzeigen",
+                "widget": "Wandbild live in der Seitenleiste anzeigen",
                 "widget_help": "",
                 "allow_indexing": "",
                 "allow_indexing_help": "",
-                "cooldown": "",
+                "cooldown": "Sekunden zwischen Kacheln",
                 "cooldown_help": "",
                 "group_cooldowns": "",
                 "group_cooldowns_help": "",
-                "group_cooldown_placeholder": "",
+                "group_cooldown_placeholder": "Genau wie oben",
                 "next_season": "",
-                "width": "",
-                "height": "",
+                "width": "Leinwandbreite (Kacheln)",
+                "height": "Leinwandhöhe (Kacheln)",
                 "size_help": "",
-                "palette": "",
+                "palette": "Farben",
                 "palette_help": ""
             },
             "palettes": {
-                "mural32": "",
-                "mural16": "",
-                "pastel16": "",
-                "custom": ""
+                "mural32": "Wandbild 32 (hell, ausgewogen)",
+                "mural16": "Wandbild 16 (kräftig, einfach)",
+                "pastel16": "Pastell 16 (weich)",
+                "custom": "Deine eigenen Farben"
             },
             "widgets": {
-                "live": ""
+                "live": "Live-Wandbild"
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Wandbild",
             "page": {
-                "title": "",
+                "title": "Wandbild",
                 "description": "",
-                "live": "",
-                "active": ""
+                "live": "Live",
+                "active": "{count, plural, one {# malt gerade} other {# malen gerade}}"
             },
             "season": {
-                "name": "",
-                "download": "",
-                "timelapse": "",
-                "play": "",
-                "pause": "",
+                "name": "Staffel {number}",
+                "download": "Bild herunterladen",
+                "timelapse": "Zeitraffer abspielen",
+                "play": "Abspielen",
+                "pause": "Pause",
                 "scrub": "",
-                "speed": "",
+                "speed": "Wiedergabegeschwindigkeit",
                 "no_timelapse": ""
             },
             "stage": {
                 "label": "",
                 "error": "",
-                "zoom_in": "",
-                "zoom_out": "",
-                "fit": "",
+                "zoom_in": "Heranzoomen",
+                "zoom_out": "Herauszoomen",
+                "fit": "Ganzes Wandbild anzeigen",
                 "copy_link": "",
                 "link_copied": ""
             },
             "dock": {
                 "guest": "",
-                "log_in": "",
+                "log_in": "Anmelden",
                 "banned": "",
                 "banned_until": "",
                 "confirm_email": "",
