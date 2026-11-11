@@ -1,0 +1,288 @@
+{
+    "ernestdefoe-trust-levels": {
+        "lib": {
+            "levels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "gdpr": {
+                "export": "",
+                "delete": ""
+            }
+        },
+        "api": {
+            "limits": {
+                "links": "",
+                "images": "",
+                "mentions": "",
+                "post_seconds": "",
+                "discussions_day": "",
+                "messages_day": "",
+                "lifted": ""
+            },
+            "silenced": "",
+            "group_reserved": "",
+            "group_twice": "",
+            "group_ladder": ""
+        },
+        "email": {
+            "reached": {
+                "subject": "",
+                "plain": {
+                    "body": ""
+                },
+                "html": {
+                    "body": ""
+                }
+            }
+        },
+        "forum": {
+            "buzz": {
+                "reached": ""
+            },
+            "settings": {
+                "notify_reached_label": ""
+            },
+            "notifications": {
+                "reached": "",
+                "reached_excerpt": "",
+                "dropped": "",
+                "dropped_quiet": "",
+                "dropped_flags": "",
+                "dropped_other": ""
+            },
+            "silenced": {
+                "title": "",
+                "body": ""
+            },
+            "messages": {
+                "from_level": "",
+                "on_hold": ""
+            },
+            "composer": {
+                "links": "",
+                "images": ""
+            },
+            "page": {
+                "nav": "",
+                "title": "",
+                "unavailable": "",
+                "level_number": "",
+                "since": "",
+                "locked": "",
+                "ladder_label": "",
+                "silenced_own": "",
+                "silenced_staff": "",
+                "next_title": "",
+                "next_sub": "",
+                "window": "",
+                "updated": "",
+                "keep_title": "",
+                "keep_sub": "",
+                "leader_by_staff": "",
+                "unlocks_title": "",
+                "history_title": "",
+                "change": "",
+                "unsilence": "",
+                "confirm_spam": "",
+                "confirm_spam_prompt": ""
+            },
+            "req": {
+                "days_visited": "",
+                "topics_entered": "",
+                "posts_read": "",
+                "read_minutes": "",
+                "replied_topics": "",
+                "likes_given": "",
+                "likes_received": "",
+                "likes_received_users": "",
+                "likes_received_days": "",
+                "flagged_posts": "",
+                "flagged_by": "",
+                "not_suspended": ""
+            },
+            "unlocks": {
+                "links": "",
+                "links_none": "",
+                "images": "",
+                "images_none": "",
+                "mentions": "",
+                "mentions_none": "",
+                "post_seconds": "",
+                "post_seconds_none": "",
+                "discussions_day": "",
+                "discussions_day_none": "",
+                "messages_day": "",
+                "messages_day_none": "",
+                "uploads": "",
+                "approval": ""
+            },
+            "history": {
+                "promoted": "",
+                "demoted": "",
+                "reason_placed": "",
+                "reason_quiet": "",
+                "reason_flags": "",
+                "reason_staff": "",
+                "silenced": "",
+                "unsilenced": "",
+                "locked": "",
+                "unlocked": "",
+                "flag_upheld": "",
+                "suspended": "",
+                "gatehouse": "",
+                "spam": ""
+            },
+            "modal": {
+                "button": "",
+                "title": "",
+                "now": "",
+                "next": "",
+                "level": "",
+                "lock": "",
+                "lock_help": "",
+                "note": "",
+                "save": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "manage": "",
+                "bypass": ""
+            },
+            "buzz_name": "",
+            "tabs": {
+                "dashboard": "",
+                "levels": "",
+                "limits": "",
+                "spam": "",
+                "integrations": ""
+            },
+            "dashboard": {
+                "stale": "",
+                "by_staff": "",
+                "this_week": "",
+                "no_moves": "",
+                "close_title": "",
+                "close_empty": "",
+                "recent_title": "",
+                "recent_empty": "",
+                "last_run": "",
+                "never_run": "",
+                "run_now": "",
+                "busy": "",
+                "reason": {
+                    "placed": "",
+                    "quiet": "",
+                    "flags": "",
+                    "staff": ""
+                },
+                "event": {
+                    "silenced": "",
+                    "unsilenced": "",
+                    "locked": "",
+                    "unlocked": "",
+                    "gatehouse": ""
+                }
+            },
+            "missing": {
+                "days_visited": "",
+                "topics_entered": "",
+                "posts_read": "",
+                "read_minutes": "",
+                "replied_topics": "",
+                "likes_given": "",
+                "likes_received": "",
+                "likes_received_users": "",
+                "likes_received_days": "",
+                "flagged_posts": "",
+                "flagged_by": "",
+                "not_suspended": ""
+            },
+            "req": {
+                "days_visited": "",
+                "topics_entered": "",
+                "posts_read": "",
+                "read_minutes": "",
+                "replied_topics": "",
+                "likes_given": "",
+                "likes_received": "",
+                "likes_received_users": "",
+                "likes_received_days": "",
+                "topics_percent": "",
+                "topics_max": "",
+                "posts_percent": "",
+                "posts_max": "",
+                "flagged_posts": "",
+                "flagged_by": "",
+                "suspended_months": ""
+            },
+            "levels": {
+                "intro": "",
+                "to_reach": "",
+                "window": "",
+                "name": "",
+                "not_counted": "",
+                "by_staff": "",
+                "group": "",
+                "group_help": "",
+                "no_group": "",
+                "create_groups": "",
+                "create_groups_help": "",
+                "grace": "",
+                "grace_help": ""
+            },
+            "limits": {
+                "intro": "",
+                "limit": "",
+                "none": "",
+                "links": "",
+                "images": "",
+                "mentions": "",
+                "post_seconds": "",
+                "discussions_day": "",
+                "messages_day": "",
+                "uploads": "",
+                "from_level": "",
+                "approval": "",
+                "approval_help": "",
+                "exempt": "",
+                "exempt_help": ""
+            },
+            "spam": {
+                "needs_flags": "",
+                "docket": "",
+                "flags": "",
+                "flags_help": "",
+                "flagger_level": "",
+                "flagger_level_help": "",
+                "silence_up_to": "",
+                "silence_up_to_help": "",
+                "gatehouse_days": "",
+                "gatehouse_days_help": "",
+                "drop_flags": "",
+                "drop_flags_help": ""
+            },
+            "integrations": {
+                "on": "",
+                "off": "",
+                "ladder": "",
+                "ladder_help": "",
+                "docket": "",
+                "docket_help": "",
+                "gatehouse": "",
+                "gatehouse_help": "",
+                "sleuth": "",
+                "sleuth_help": "",
+                "onramp": "",
+                "onramp_help": "",
+                "buzz": "",
+                "buzz_help": "",
+                "buzz_toggle": ""
+            }
+        }
+    }
+}

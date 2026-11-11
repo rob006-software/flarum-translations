@@ -1,0 +1,247 @@
+{
+    "ernestdefoe-answers": {
+        "forum": {
+            "nav": {
+                "unanswered": "Unanswered for you",
+                "review": "Review answers",
+                "review_count": "{count, plural, one {# answer to review} other {# answers to review}}"
+            },
+            "filter": {
+                "label": "Filter questions",
+                "all": "All questions",
+                "mine": "Unanswered in tags you follow",
+                "unanswered": "Unanswered",
+                "answered": "Answered, not solved",
+                "solved": "Solved",
+                "bounty": "With a bounty",
+                "duplicate": "Closed as duplicates"
+            },
+            "state": {
+                "unanswered": "Unanswered",
+                "answered": "Answered",
+                "solved": "Solved",
+                "duplicate": "Duplicate"
+            },
+            "list": {
+                "answers": "{count, plural, one {# answer} other {# answers}}",
+                "answers_word": "{count, plural, one {answer} other {answers}}",
+                "votes_word": "{count, plural, one {vote} other {votes}}"
+            },
+            "thread": {
+                "answers": "{count, plural, =0 {No answers yet} one {# answer} other {# answers}}",
+                "sort_label": "Sort answers",
+                "sort_votes": "Sorted by votes",
+                "sort_newest": "Newest first",
+                "sort_oldest": "Oldest first",
+                "no_answers": "Nobody has answered yet. Know the answer? Share it below.",
+                "load_more": "Show more answers",
+                "write_answer": "Write your answer…",
+                "answer_button": "Answer",
+                "closed_button": "Closed as a duplicate",
+                "hint": "Answers should answer the question. To ask for more detail or say thanks, add a comment under the question or an answer.",
+                "duplicate_of": "This question was closed as a duplicate of:",
+                "the_original": "the original question",
+                "linked": "{count, plural, one {A question was closed as a duplicate of this one:} other {# questions were closed as duplicates of this one:}}"
+            },
+            "vote": {
+                "up": "This answer is useful",
+                "down": "This answer is not useful",
+                "up_question": "This question is useful",
+                "down_question": "This question is not useful",
+                "score": "{count, plural, one {# vote} other {# votes}}",
+                "accept": "Accept this answer",
+                "unaccept": "Remove the acceptance",
+                "accepted": "Accepted by the asker"
+            },
+            "post": {
+                "accepted": "Accepted answer",
+                "improve": "Improve this answer",
+                "suggest": "Suggest an edit",
+                "revisions": "{count, plural, one {edited once} other {edited # times}}",
+                "rep_title": "{count, plural, one {# reputation point in this tag} other {# reputation points in this tag}}"
+            },
+            "comments": {
+                "add": "Add a comment",
+                "more": "{count, plural, one {Show # more comment} other {Show # more comments}}",
+                "placeholder": "Ask for more detail or suggest an improvement",
+                "left": "{count, plural, one {# character left} other {# characters left}}",
+                "cancel": "Cancel",
+                "submit": "Add comment",
+                "upvote": "This comment is useful",
+                "delete": "Delete",
+                "delete_confirm": "Delete this comment?",
+                "hidden": "This comment was hidden."
+            },
+            "similar": {
+                "title": "Is this your question?",
+                "dismiss": "No, mine is different",
+                "answers": "{count, plural, one {# answer} other {# answers}}"
+            },
+            "helpers": {
+                "title": "Top helpers in {tag}"
+            },
+            "bounty": {
+                "start_button": "Start a bounty",
+                "title": "Start a bounty",
+                "pay_with": "Pay with",
+                "currency_rep": "Reputation",
+                "currency_money": "Money",
+                "amount": "Amount",
+                "help_rep": "Taken from your reputation in this tag now. It isn't given back if nobody earns it.",
+                "help_money": "Taken from your balance now. It isn't given back if nobody earns it.",
+                "reason": "Why?",
+                "reason_attention": "Needs more attention",
+                "reason_current": "Needs a current answer",
+                "reason_reward": "Reward an existing answer",
+                "rules": "Runs for {days} days. The accepted answer gets it all; if none is accepted, the top-voted answer posted during the bounty with at least 2 votes gets half.",
+                "submit": "Start a {amount} bounty for {days} days",
+                "banner_rep": "{username} put up a {amount} reputation bounty.",
+                "banner_money": "{username} put up a bounty.",
+                "ends": "Ends {time}.",
+                "rule": "The accepted answer gets it; otherwise the top-voted answer (2+ votes) posted during the bounty gets half."
+            },
+            "close": {
+                "button": "Close as duplicate",
+                "reopen_button": "Reopen question",
+                "title": "Close as a duplicate",
+                "help": "Find the question this one repeats. A moderator closes it right away; otherwise it closes when enough trusted members agree.",
+                "search": "The original question",
+                "search_placeholder": "Search question titles, or paste a link",
+                "results": "Matching questions",
+                "none": "No matching questions.",
+                "submit": "Vote to close",
+                "submit_mod": "Close as duplicate",
+                "voted": "Your vote was counted ({votes} of {needed})."
+            },
+            "history": {
+                "title": "Edit history",
+                "original": "Original",
+                "rolled_back": "Rolled back to revision {number}",
+                "restore": "Roll back to this",
+                "deleted_user": "A deleted member"
+            },
+            "suggest": {
+                "title": "Suggest an edit",
+                "help": "Your edit goes to reviewers, and is applied when they approve it.",
+                "text": "Answer",
+                "summary": "What did you change?",
+                "summary_placeholder": "Fixed the code, added a link…",
+                "submit": "Send for review",
+                "sent": "Thanks! Your edit was sent for review."
+            },
+            "review": {
+                "title": "Review answers",
+                "type_low_quality": "Low quality",
+                "type_first_answer": "First answers",
+                "type_suggested_edit": "Suggested edits",
+                "type_one_low_quality": "Low quality",
+                "type_one_first_answer": "First answer",
+                "type_one_suggested_edit": "Suggested edit",
+                "suggested_by": "by {username}",
+                "score": "score {score}",
+                "approvals": "{count} of {needed} approvals",
+                "approve": "Approve",
+                "save_improved": "Save and approve",
+                "improve": "Improve",
+                "reject": "Reject",
+                "ok": "Looks OK",
+                "open": "Open",
+                "hide": "Hide",
+                "empty": "Nothing to review here. Thanks for helping!",
+                "denied": "Reviewing needs more reputation in a Q&A tag.",
+                "outdated": "The answer was edited after this suggestion was made, so it wasn't applied."
+            },
+            "profile": {
+                "nav": "Answers",
+                "accepted": "{count, plural, one {answer accepted} other {answers accepted}}",
+                "solved": "{count, plural, one {question solved} other {questions solved}}",
+                "history": "Reputation",
+                "empty": "No reputation yet.",
+                "reason_upvote": "Upvote",
+                "reason_downvote": "Downvote",
+                "reason_downvote_cast": "Downvoted an answer",
+                "reason_accepted": "Answer accepted",
+                "reason_accepter": "Accepted an answer",
+                "reason_bounty": "Bounty won",
+                "reason_bounty_offered": "Bounty offered"
+            },
+            "notification": {
+                "accepted": "{username} accepted your answer",
+                "bounty": "Your answer won a {amount} reputation bounty",
+                "bounty_money": "Your answer won a bounty"
+            },
+            "settings": {
+                "notify_accepted": "Someone accepts my answer",
+                "notify_bounty": "My answer wins a bounty"
+            }
+        },
+        "admin": {
+            "tag": {
+                "enable": "Questions and answers",
+                "enable_help": "Replies become answers sorted by votes, each with its own comments, and the asker can accept one."
+            },
+            "settings": {
+                "intro": "Turn a tag into Q&A from its edit dialog on the Tags page. These settings apply to every Q&A tag. Who may vote, edit, review and close is set per tag under Permissions.",
+                "import_help": "FoF Best Answer is installed. Import its Q&A tags and best answers as Q&A tags and accepted answers (safe to run again; Best Answer's data is only read).",
+                "import_button": "Import from Best Answer",
+                "import_done": "Done: {tags} Q&A tags, {questions} questions, {accepted} answers accepted.",
+                "points_answer_up": "Reputation for an upvoted answer",
+                "points_question_up": "Reputation for an upvoted question",
+                "points_accepted": "Reputation for an accepted answer",
+                "points_accepter": "Reputation for accepting an answer",
+                "points_down": "Reputation for a downvoted post",
+                "points_voter_down": "Reputation for downvoting an answer",
+                "gamification": "Also count votes in FoF Gamification",
+                "gamification_help": "When FoF Gamification is enabled, each vote is also cast there, so its points, ranks and leaderboard include it. Its own vote buttons are hidden on questions.",
+                "edit_reputation": "Reputation needed to edit others' answers",
+                "edit_reputation_help": "In one of the question's Q&A tags, on top of the permission. Moderators need none.",
+                "review_reputation": "Reputation needed to review and vote to close",
+                "review_reputation_help": "In one of the question's Q&A tags, on top of the permission. Moderators need none.",
+                "review_approvals": "Reviewers who must agree",
+                "review_approvals_help": "How many reviewers settle a review item. A moderator settles it alone.",
+                "close_votes": "Votes to close as a duplicate",
+                "close_votes_help": "Trusted members who must name the same original. A moderator closes it alone.",
+                "low_quality_length": "Shortest answer that skips review",
+                "low_quality_length_help": "Answers shorter than this many characters (links left out) go to the review queue.",
+                "comment_length": "Longest comment",
+                "comment_length_help": "In characters.",
+                "bounty_currency": "Bounties",
+                "bounty_currency_help": "Money needs the Money extension (antoinefr/flarum-ext-money).",
+                "bounty_both": "Reputation and Money",
+                "bounty_rep": "Reputation only",
+                "bounty_off": "Off",
+                "bounty_days": "Days a bounty runs",
+                "bounty_min_age_days": "Days before a question can get a bounty"
+            },
+            "permissions": {
+                "vote": "Vote on questions and answers",
+                "bounty": "Start bounties",
+                "suggest": "Suggest edits to answers",
+                "edit_others": "Edit others' answers (with enough reputation)",
+                "review": "Review answers (with enough reputation)",
+                "close": "Vote to close duplicates (with enough reputation)",
+                "moderate": "Moderate questions (accept, close and edit without reputation)"
+            }
+        },
+        "api": {
+            "invalid": "That isn't allowed here.",
+            "not_an_answer": "Only an answer can be accepted.",
+            "bounty_running": "This question already has a bounty.",
+            "not_enough": "You don't have enough for that bounty.",
+            "closed": "This question is solved or closed, so it can't get a bounty.",
+            "too_new": "A question can get a bounty after it has been open a little while.",
+            "closed_as_duplicate": "This question was closed as a duplicate, so it takes no new answers. You can still comment.",
+            "comment_too_long": "That comment is too long.",
+            "not_found": "That question couldn't be found.",
+            "unchanged": "Change something before sending the edit.",
+            "already_suggested": "You already have an edit waiting for review on this answer."
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Your votes on questions and answers, and your reputation and its history.",
+                "anonymize": "Your votes and reputation stay, no longer under your name.",
+                "delete": "Your votes come off every score, and your reputation is deleted."
+            }
+        }
+    }
+}

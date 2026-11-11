@@ -1,0 +1,288 @@
+{
+    "ernestdefoe-trust-levels": {
+        "lib": {
+            "levels": [
+                "New",
+                "Basic",
+                "Member",
+                "Regular",
+                "Leader"
+            ],
+            "gdpr": {
+                "export": "Your trust level, your daily reading and visit counts, and your trust level history.",
+                "delete": "Deletes your daily reading and visit counts and your trust level history."
+            }
+        },
+        "api": {
+            "limits": {
+                "links": "{level} members can add {max} links to a post. Remove {over} to post it.",
+                "images": "{level} members can add {max} images to a post. Remove {over} to post it.",
+                "mentions": "{level} members can mention {max} people in a post. Remove {over} to post it.",
+                "post_seconds": "{level} members can post once every {max} seconds. Try again in {over} seconds.",
+                "discussions_day": "{level} members can start {max} discussions a day. Try again tomorrow.",
+                "messages_day": "{max, plural, =0 {{level} members can't send private messages.} other {{level} members can send # private messages a day.}}",
+                "lifted": "You can do more once you reach {level}."
+            },
+            "silenced": "Your account is on hold while a moderator looks at a reported post. You can't send messages until then.",
+            "group_reserved": "A level can't use the Admin, Guest, Member or Mod group. Pick or create a group of its own.",
+            "group_twice": "Each level needs its own group.",
+            "group_ladder": "That group is one of Ladder's ranks. Ladder moves members in and out of it, so a level can't use it too."
+        },
+        "email": {
+            "reached": {
+                "subject": "You've reached {level}",
+                "plain": {
+                    "body": "You've reached {level}. Thanks for taking part.\n\nSee what it unlocks and what comes next: {url}\n"
+                },
+                "html": {
+                    "body": "You've reached **{level}**. Thanks for taking part.\n\n[See what it unlocks and what comes next]({url})\n"
+                }
+            }
+        },
+        "forum": {
+            "buzz": {
+                "reached": "{user} is now a {level}"
+            },
+            "settings": {
+                "notify_reached_label": "I reach a new trust level"
+            },
+            "notifications": {
+                "reached": "You've reached {level}",
+                "reached_excerpt": "See what it unlocks and what comes next.",
+                "dropped": "You're now {level}",
+                "dropped_quiet": "You haven't been around as much lately. Take part again to get it back.",
+                "dropped_flags": "Some of your posts were reported and a moderator agreed.",
+                "dropped_other": "A moderator changed your trust level."
+            },
+            "silenced": {
+                "title": "Your account is on hold.",
+                "body": "Members reported one of your posts, so it's hidden while a moderator takes a look. Until then you can read, but not post, reply, edit, send messages, like or react."
+            },
+            "messages": {
+                "from_level": "You can send private messages once you reach {level}.",
+                "on_hold": "You can't send private messages while your account is on hold."
+            },
+            "composer": {
+                "links": "{count} of {max} links",
+                "images": "{count} of {max} images"
+            },
+            "page": {
+                "nav": "Trust level",
+                "title": "Trust level",
+                "unavailable": "This member's trust level isn't available.",
+                "level_number": "Level {level}",
+                "since": "since {date}",
+                "locked": "Locked",
+                "ladder_label": "Trust levels",
+                "silenced_own": "Your account is on hold while a moderator looks at a reported post. You can still read everything.",
+                "silenced_staff": "On hold: members reported a post, and it's hidden. Lift the hold, or confirm it's spam.",
+                "next_title": "On your way to {level}",
+                "next_sub": "{done} of {total} done",
+                "window": "counted over the last 100 days",
+                "updated": "checked {time}",
+                "keep_title": "Staying a {level}",
+                "keep_sub": "Checked every day, counted over the last 100 days. Falling a little short is fine.",
+                "leader_by_staff": "{level} is given by the staff to members they trust most.",
+                "unlocks_title": "What {level} unlocks",
+                "history_title": "History",
+                "change": "Change level",
+                "unsilence": "Lift the hold",
+                "confirm_spam": "Confirm spam",
+                "confirm_spam_prompt": "Hide all of {username}'s posts and suspend them? Use this for spam accounts only."
+            },
+            "req": {
+                "days_visited": "{need, plural, one {Visited on # day} other {Visited on # different days}}",
+                "topics_entered": "{need, plural, one {Opened # discussion} other {Opened # discussions}}",
+                "posts_read": "{need, plural, one {Read # post} other {Read # posts}}",
+                "read_minutes": "{need, plural, one {Spent # minute reading} other {Spent # minutes reading}}",
+                "replied_topics": "{need, plural, one {Replied in # discussion} other {Replied in # discussions}}",
+                "likes_given": "{need, plural, one {Gave # like} other {Gave # likes}}",
+                "likes_received": "{need, plural, one {Got # like} other {Got # likes}}",
+                "likes_received_users": "{need, plural, one {Got likes from # person} other {Got likes from # different people}}",
+                "likes_received_days": "{need, plural, one {Got likes on # day} other {Got likes on # different days}}",
+                "flagged_posts": "Posts reported and removed: at most {need}",
+                "flagged_by": "People whose reports were upheld: at most {need}",
+                "not_suspended": "Not suspended in the last 6 months"
+            },
+            "unlocks": {
+                "links": "Up to {value} links in a post",
+                "links_none": "Any number of links",
+                "images": "Up to {value} images in a post",
+                "images_none": "Any number of images",
+                "mentions": "Mention up to {value} people in a post",
+                "mentions_none": "Mention as many people as you like",
+                "post_seconds": "Post again after {value} seconds",
+                "post_seconds_none": "No wait between posts",
+                "discussions_day": "Start up to {value} discussions a day",
+                "discussions_day_none": "Start as many discussions as you like",
+                "messages_day": "Send up to {value} private messages a day",
+                "messages_day_none": "Send as many private messages as you like",
+                "uploads": "Attach files and images",
+                "approval": "Your posts appear without waiting for approval"
+            },
+            "history": {
+                "promoted": "Reached {level}{reason}",
+                "demoted": "Moved to {level}{reason}",
+                "reason_placed": " (placed from earlier activity)",
+                "reason_quiet": " (less active lately)",
+                "reason_flags": " (reported posts)",
+                "reason_staff": " (set by staff)",
+                "silenced": "Put on hold after a post was reported",
+                "unsilenced": "Hold lifted",
+                "locked": "Level locked",
+                "unlocked": "Level unlocked",
+                "flag_upheld": "A reported post was removed",
+                "suspended": "Suspended",
+                "gatehouse": "Sent back for approval",
+                "spam": "Confirmed as spam"
+            },
+            "modal": {
+                "button": "Trust level…",
+                "title": "Trust level for {username}",
+                "now": "Now {level}",
+                "next": "{done} of {total} done for {level}",
+                "level": "Level",
+                "lock": "Lock at this level",
+                "lock_help": "{username} won't move up or down on their own until you unlock it.",
+                "note": "Note for staff",
+                "save": "Save"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "manage": "See and set members' trust levels, lift holds",
+                "bypass": "Ignore the trust level limits"
+            },
+            "buzz_name": "A member reaches a new trust level",
+            "tabs": {
+                "dashboard": "Dashboard",
+                "levels": "Levels",
+                "limits": "Limits",
+                "spam": "Spam",
+                "integrations": "Other extensions"
+            },
+            "dashboard": {
+                "stale": "The hourly check hasn't run for over two hours. Make sure Flarum's scheduler runs (php flarum schedule:run every minute), or use Run now. New and Basic members are still checked as they read and post.",
+                "by_staff": "given by staff",
+                "this_week": "this week",
+                "no_moves": "no changes this week",
+                "close_title": "Close to the next level",
+                "close_empty": "Nobody yet. Members show up here after the first check.",
+                "recent_title": "Changes in the last 7 days",
+                "recent_empty": "No changes yet.",
+                "last_run": "Last check: {time} ({count} members, {seconds} s)",
+                "never_run": "Not checked yet.",
+                "run_now": "Run now",
+                "busy": "A check is already running. Its results will show here when it finishes.",
+                "reason": {
+                    "placed": "placed from earlier activity",
+                    "quiet": "less active",
+                    "flags": "reported posts",
+                    "staff": "by staff"
+                },
+                "event": {
+                    "silenced": "On hold",
+                    "unsilenced": "Hold lifted",
+                    "locked": "Locked",
+                    "unlocked": "Unlocked",
+                    "gatehouse": "Back to Gatehouse"
+                }
+            },
+            "missing": {
+                "days_visited": "{count} more visit days",
+                "topics_entered": "{count} more discussions",
+                "posts_read": "{count} more posts read",
+                "read_minutes": "{count} more minutes reading",
+                "replied_topics": "{count} more discussions replied in",
+                "likes_given": "{count} more likes given",
+                "likes_received": "{count} more likes",
+                "likes_received_users": "likes from {count} more people",
+                "likes_received_days": "likes on {count} more days",
+                "flagged_posts": "fewer reported posts",
+                "flagged_by": "fewer reports",
+                "not_suspended": "no recent suspension"
+            },
+            "req": {
+                "days_visited": "Days visited",
+                "topics_entered": "Discussions opened",
+                "posts_read": "Posts read",
+                "read_minutes": "Minutes reading",
+                "replied_topics": "Discussions replied in",
+                "likes_given": "Likes given",
+                "likes_received": "Likes received",
+                "likes_received_users": "Likes from different people",
+                "likes_received_days": "Likes on different days",
+                "topics_percent": "% of new discussions opened",
+                "topics_max": "…but at most (discussions)",
+                "posts_percent": "% of new posts read",
+                "posts_max": "…but at most (posts)",
+                "flagged_posts": "Most reported posts removed",
+                "flagged_by": "Most people with upheld reports",
+                "suspended_months": "Not suspended for (months)"
+            },
+            "levels": {
+                "intro": "Members reach levels 1 to 3 on their own, each needing the one before. Leave a box empty for the default (shown in grey); 0 turns a requirement off. Requirements whose extension is off aren't counted.",
+                "to_reach": "To reach",
+                "window": "(last 100 days)",
+                "name": "Name",
+                "not_counted": "not counted: extension off",
+                "by_staff": "Given by staff only",
+                "group": "Group",
+                "group_help": "optional: its permissions go to this level and every level above",
+                "no_group": "No group",
+                "create_groups": "Create level groups",
+                "create_groups_help": "Makes a hidden group for each level that has none. Members aren't put in it: their level decides, so no badge ever shows.",
+                "grace": "Days before a new Regular can drop",
+                "grace_help": "{level} is the only level that drops when a member goes quiet."
+            },
+            "limits": {
+                "intro": "Limits only ever take something away. Leave a box empty for no limit. Staff, the groups ticked below and anyone with the bypass permission are never limited.",
+                "limit": "Limit",
+                "none": "no limit",
+                "links": "Links per post",
+                "images": "Images per post",
+                "mentions": "People mentioned per post",
+                "post_seconds": "Seconds between posts",
+                "discussions_day": "New discussions a day",
+                "messages_day": "Private messages a day",
+                "uploads": "Attach files (FoF Upload)",
+                "from_level": "From {level}",
+                "approval": "First posts wait for approval",
+                "approval_help": "How many of a {level} member's first posts wait for a moderator (Approval). 0 turns it off.",
+                "exempt": "Never limited",
+                "exempt_help": "Members of these groups skip every limit."
+            },
+            "spam": {
+                "needs_flags": "Spam defense needs the Flags extension.",
+                "docket": "Docket is on: its crowd moderation hides reported posts, and each reporter counts by their level (New 0.5 up to Leader 1.5). Trust Levels puts the author on hold when Docket hides their post.",
+                "flags": "Reports that hide a post",
+                "flags_help": "Different members reporting the same post hide it at once, until a moderator decides. 0 turns this off.",
+                "flagger_level": "Reports count from level",
+                "flagger_level_help": "Only reports from members at this level or above count towards hiding. Member by default: Basic takes minutes to reach, so a few new accounts can't team up.",
+                "silence_up_to": "Put authors on hold up to level",
+                "silence_up_to_help": "When a post is hidden this way, its author is put on hold if they're at this level or lower: they can read, but not post, reply, edit, message, like or react until a moderator decides.",
+                "gatehouse_days": "Send back to Gatehouse within (days)",
+                "gatehouse_days_help": "A member put on hold this soon after joining goes back to Gatehouse's queue and is signed out. 0 turns it off.",
+                "drop_flags": "Upheld reports that drop a level",
+                "drop_flags_help": "When a moderator removes this many of a member's reported posts within 6 months, they drop one level. 0 turns it off."
+            },
+            "integrations": {
+                "on": "on",
+                "off": "not installed or off",
+                "ladder": "Ladder",
+                "ladder_help": "Ladder keeps the ranks members see. Trust Levels decides what they may do and stays out of sight. A level can't use one of Ladder's rank groups.",
+                "docket": "Docket",
+                "docket_help": "Docket's crowd moderation hides reported posts, with each reporter counted by their trust level.",
+                "gatehouse": "Gatehouse",
+                "gatehouse_help": "A member put on hold in their first days goes back to Gatehouse's approval queue.",
+                "sleuth": "Sleuth",
+                "sleuth_help": "A member Sleuth links to a banned account stays New until staff review the match.",
+                "onramp": "Onramp",
+                "onramp_help": "Adds a step: reach a trust level (the step's count is the level).",
+                "buzz": "Buzz",
+                "buzz_help": "Can show “Ana is now a Regular” in the live activity feed. Levels are otherwise only seen by the member and staff, so it's off until you turn it on.",
+                "buzz_toggle": "Announce promotions in Buzz"
+            }
+        }
+    }
+}
