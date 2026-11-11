@@ -2,103 +2,103 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": "Использовать Deck"
+                "use_deck_label": "Использовать Доску"
             },
             "settings": {
                 "max_columns_help": "Каждая колонка — это отдельный запрос при каждом обновлении. От 1 до 12.",
                 "max_columns_label": "Максимум колонок на участника",
                 "poll_interval_help": "Как часто колонки проверяют новую активность, когда Realtime не подключён. 0 отключает проверку; минимум — 15.",
-                "poll_interval_label": ""
+                "poll_interval_label": "Интервал обновления (секунды)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
-                "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": ""
+                "author_label": "Участник",
+                "author_placeholder": "Поиск участника",
+                "back_button": "Назад",
+                "discussion_label": "Тема",
+                "discussion_placeholder": "Поиск темы",
+                "filter_help": "Сочетайте фильтры из поиска, например tag:, author:, is:unread или is:following. Обычные слова не поддерживаются.",
+                "filter_invalid_message": "Используйте только фильтры, например tag:support is:unread. Обычные слова не поддерживаются.",
+                "filter_label": "Фильтры",
+                "group_invalid_message": "Выберите группу.",
+                "group_label": "Группа",
+                "in_deck_badge": "В вашей Доске",
+                "in_deck_count_badge": "В вашей Доске ×{count}",
+                "filter_placeholder": "например, tag:support is:unread",
+                "invalid_value_message": "Введите корректное значение для {field}.",
+                "pick_a_result_message": "Выберите значение для {field} из предложенных.",
+                "submit_button": "Добавить колонку",
+                "title": "Добавить колонку",
+                "use_filters_button": "Использовать эти фильтры"
             },
             "column": {
-                "controls_label": "",
-                "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
-                "resize_label": ""
+                "controls_label": "Параметры колонки {title}",
+                "drag_handle_label": "Перетащите, чтобы переместить {title}",
+                "move_left_button": "Сдвинуть влево",
+                "move_right_button": "Сдвинуть вправо",
+                "move_to_bottom_row_button": "Переместить в нижний ряд",
+                "move_to_top_row_button": "Переместить в верхний ряд",
+                "moved_announcement": "Перемещено на позицию {position} из {count}.",
+                "moved_in_bottom_row_announcement": "Перемещено на позицию {position} из {count} в нижнем ряду.",
+                "moved_in_top_row_announcement": "Перемещено на позицию {position} из {count} в верхнем ряду.",
+                "new_items_button": "{count, plural, one {# новое} few {# новых} many {# новых} other {# новых}}",
+                "open_discussion_button": "Открыть тему",
+                "refresh_button": "Обновить",
+                "remove_button": "Удалить колонку",
+                "reset_width_button": "Сбросить ширину",
+                "resize_label": "Изменить ширину {title}"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
-                "author_title": "",
-                "discussion": "",
-                "filter": "",
-                "group_posts": "",
-                "group_posts_title": "",
-                "typing": "",
-                "unread": ""
+                "all": "Все темы",
+                "author": "Темы участника",
+                "author_posts": "Сообщения участника",
+                "author_posts_title": "Сообщения {username}",
+                "author_title": "Темы {username}",
+                "discussion": "Тема",
+                "filter": "Пользовательский фильтр",
+                "group_posts": "Сообщения группы",
+                "group_posts_title": "Сообщения группы {group}",
+                "typing": "Активность набора текста",
+                "unread": "Непрочитанные"
             },
             "discussion_controls": {
-                "add_to_deck_button": "",
-                "added_message": ""
+                "add_to_deck_button": "Добавить в Доску",
+                "added_message": "Эта тема теперь колонка в вашей Доске."
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Доска"
             },
             "typing": {
-                "empty_text": "",
-                "offline_text": "",
-                "replying_text": "",
-                "someone": "",
-                "starting_in_text": "",
-                "starting_text": "",
-                "was_replying_text": "",
-                "was_starting_in_text": "",
-                "was_starting_text": ""
+                "empty_text": "Сейчас никто не печатает.",
+                "offline_text": "Активность набора текста требует живого подключения к серверу realtime.",
+                "replying_text": "{name} отвечает в {discussion}",
+                "someone": "Кто-то",
+                "starting_in_text": "{name} начинает тему в {tags}",
+                "starting_text": "{name} начинает тему",
+                "was_replying_text": "{name} отвечал(а) в {discussion}",
+                "was_starting_in_text": "{name} начинал(а) тему в {tags}",
+                "was_starting_text": "{name} начинал(а) тему"
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Добавить колонку",
+                "column_limit_reached_text": "Вы достигли максимального числа колонок.",
+                "drop_row_hint": "Отпустите колонку здесь, чтобы начать второй ряд",
+                "empty_text": "Ваша Доска пуста. Добавьте колонку, чтобы следить за беседами в реальном времени.",
+                "exit_fullscreen_button": "Выйти из полноэкранного режима",
+                "fullscreen_button": "Полный экран",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Скрыть это введение",
+                    "subtitle": "Следите за всеми беседами, которые вам важны, бок о бок и в реальном времени. Добавляйте колонки, перетаскивайте их на место и выстраивайте в двух рядах."
                 },
-                "navigator_label": "",
-                "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
-                "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
-                "title": ""
+                "navigator_label": "Колонки",
+                "options_label": "Параметры Доски",
+                "reset_button": "Сбросить колонки",
+                "resize_rows_label": "Изменить высоту рядов",
+                "reset_confirmation": "Заменить ваши колонки набором по умолчанию? Это действие нельзя отменить.",
+                "scroll_left_label": "Прокрутить влево",
+                "scroll_right_label": "Прокрутить вправо",
+                "title": "Доска"
             }
         }
     }
