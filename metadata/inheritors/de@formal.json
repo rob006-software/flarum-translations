@@ -4128,6 +4128,41 @@
             }
         }
     },
+    "ernestdefoe-bingo.json": {
+        "ernestdefoe-bingo": {
+            "admin": {
+                "permissions": {
+                    "create": "cf840ba35498a0ce4b858070ada03e1c cf840ba35498a0ce4b858070ada03e1c",
+                    "play": "dfdf653df5bb0e4f624c560fade88cd7 dfdf653df5bb0e4f624c560fade88cd7"
+                },
+                "settings": {
+                    "nav": "7ecdab7f97154d69cfa5b86472ba17c8 7ecdab7f97154d69cfa5b86472ba17c8"
+                }
+            },
+            "forum": {
+                "clock": {
+                    "ended": "c23b03a5684df23c59be206b8b753a03 c23b03a5684df23c59be206b8b753a03",
+                    "ends_in": "84230e41651c06e6ab06e09bf2587c62 84230e41651c06e6ab06e09bf2587c62",
+                    "starts_in": "e0c7a9f98f74f606544da780b5df4f61 e0c7a9f98f74f606544da780b5df4f61"
+                },
+                "game": {
+                    "hosted_by": "1e05ca93c10ec6d2c8c824db9325e349 1e05ca93c10ec6d2c8c824db9325e349",
+                    "players": "cb526b80be3b603b2d8b17900040eeb0 cb526b80be3b603b2d8b17900040eeb0",
+                    "winners": "1a6a4d2f3fe497a038500158235fd0ff 1a6a4d2f3fe497a038500158235fd0ff"
+                },
+                "hub": {
+                    "board": "1a6a4d2f3fe497a038500158235fd0ff 1a6a4d2f3fe497a038500158235fd0ff",
+                    "board_medal": "ce8fd5b21888e10d84fad33dd01b3ed3 ce8fd5b21888e10d84fad33dd01b3ed3",
+                    "create": "4b68be86ec90f06fddb05074ea4e8ea9 4b68be86ec90f06fddb05074ea4e8ea9",
+                    "title": "6b99fc04045eae98af76b6eb6a259cef 6b99fc04045eae98af76b6eb6a259cef"
+                },
+                "manage": {
+                    "edit": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad"
+                },
+                "nav": "6b99fc04045eae98af76b6eb6a259cef 6b99fc04045eae98af76b6eb6a259cef"
+            }
+        }
+    },
     "ernestdefoe-brainstorm.json": {
         "ernestdefoe-brainstorm": {
             "api": {
@@ -6248,6 +6283,8 @@
         "ernestdefoe-docket": {
             "api": {
                 "assign_others": "e2dbcefa1b68805c724a9e95b038513d e2dbcefa1b68805c724a9e95b038513d",
+                "cannot_restore": "8e6342516c6e24c4f6ca7dabc8cbe336 8e6342516c6e24c4f6ca7dabc8cbe336",
+                "cannot_see": "8cd2d1d9bc92937d5cd17cd59fb13d5d 8cd2d1d9bc92937d5cd17cd59fb13d5d",
                 "closed": "055987b33bb9707e34cdbcd7e11d066e 055987b33bb9707e34cdbcd7e11d066e"
             },
             "email": {
@@ -6255,6 +6292,9 @@
                     "link": "723606aea1ba49ac9a332658e185b66c 723606aea1ba49ac9a332658e185b66c",
                     "subject": "63c73c657b77fee3e5fd235a72ac0e28 63c73c657b77fee3e5fd235a72ac0e28",
                     "title": "cf23b76718fd94e65e6ed82902959fbd cf23b76718fd94e65e6ed82902959fbd"
+                },
+                "crowd": {
+                    "subject_restored": "489a2946dfdb0b0ccc349e6dcc200d89 489a2946dfdb0b0ccc349e6dcc200d89"
                 },
                 "outcome": {
                     "link": "df0cdee2cda6584339205fb903b2de08 df0cdee2cda6584339205fb903b2de08",
@@ -6264,13 +6304,20 @@
             "forum": {
                 "list": {
                     "by": "415b80482a6ea8443d1ac4c8ee0c7440 415b80482a6ea8443d1ac4c8ee0c7440",
+                    "held_by": "de19ffd3fef9753ad0084f880e040cae de19ffd3fef9753ad0084f880e040cae",
+                    "load_more": "5cc9dddd6270544a19301d3227a40a18 5cc9dddd6270544a19301d3227a40a18",
                     "post_gone": "b0928b1a36db2f349d40520bb44ea8c8 b0928b1a36db2f349d40520bb44ea8c8",
                     "report_count": "eff9322466ecae6cc0a1165cbe104ed1 eff9322466ecae6cc0a1165cbe104ed1"
                 },
                 "nav": {
                     "my_reports": "b46fee9429a1a7938122644df9f882d9 b46fee9429a1a7938122644df9f882d9",
+                    "queue_toggle": "a8f1d8505fa327259a50bb93d097615f a8f1d8505fa327259a50bb93d097615f",
                     "report_centre": "f8467ead80401a9441274431a3afa3ef f8467ead80401a9441274431a3afa3ef",
-                    "user_reports": "ced5f5b676555c5bf9685e3a99d066cd ced5f5b676555c5bf9685e3a99d066cd"
+                    "user_reports": "ced5f5b676555c5bf9685e3a99d066cd ced5f5b676555c5bf9685e3a99d066cd",
+                    "views": "6361e6c03a0775d91873d992d2769a76 6361e6c03a0775d91873d992d2769a76"
+                },
+                "post": {
+                    "open_report": "bbda745be037054917586d72d9d07e02 bbda745be037054917586d72d9d07e02"
                 },
                 "queues": {
                     "all": "df98b43537e7af8340a0a87a28b26656 df98b43537e7af8340a0a87a28b26656",
@@ -6279,16 +6326,47 @@
                 "reason": {
                     "other": "0f95809fb73096b0c883aa94be5d2637 0f95809fb73096b0c883aa94be5d2637"
                 },
+                "record": {
+                    "frame_12m": "67c4b33db32407b230d69b9f4930e246 67c4b33db32407b230d69b9f4930e246",
+                    "frame_30d": "17fa2c3e631f956753a1e6dfa459cc41 17fa2c3e631f956753a1e6dfa459cc41",
+                    "frame_90d": "ee60686ad4376916ef69006689b0e4f3 ee60686ad4376916ef69006689b0e4f3",
+                    "frame_all": "1cca4228596200893c9bb681800629e2 1cca4228596200893c9bb681800629e2",
+                    "open": "2546582fd11d426e28b414cc567958af 2546582fd11d426e28b414cc567958af",
+                    "reason": "b14cd5449f2691070dfa26d5dcdc757e b14cd5449f2691070dfa26d5dcdc757e",
+                    "rejected": "1405c0e9180f66fe730da9d4ec1b8f8a 1405c0e9180f66fe730da9d4ec1b8f8a",
+                    "resolved": "af7d49abbbff707b74ea815cb7b7d029 af7d49abbbff707b74ea815cb7b7d029",
+                    "total": "7868cb48ab07cb7650835c891d35dcd3 7868cb48ab07cb7650835c891d35dcd3"
+                },
                 "report": {
+                    "assign": "11f4cc97d2ad872aab5d52f988bc9f29 11f4cc97d2ad872aab5d52f988bc9f29",
+                    "assign_title": "e446da744c42195c1d88a839d35a33b3 e446da744c42195c1d88a839d35a33b3",
+                    "back": "63256e12b34ec62e4657d578395715bd 63256e12b34ec62e4657d578395715bd",
+                    "claim": "bf83108be45bdf05e030013bf7016810 bf83108be45bdf05e030013bf7016810",
+                    "handled_by": "9d885ea710d9972f91229549d37c588b 9d885ea710d9972f91229549d37c588b",
+                    "held_by": "8b3bda8cd09985a23499d6164c699da5 8b3bda8cd09985a23499d6164c699da5",
+                    "no_one": "e5fcba9875977ef8cac50f1f069082c7 e5fcba9875977ef8cac50f1f069082c7",
+                    "note_label": "74dcfd7d2c4a9ac1badbfb02c88ce634 74dcfd7d2c4a9ac1badbfb02c88ce634",
+                    "note_placeholder": "437f23ccaa8cb699c662f99c366b4355 437f23ccaa8cb699c662f99c366b4355",
                     "note_submit": "61497504d062c4bd30929e8f310696b4 61497504d062c4bd30929e8f310696b4",
                     "opened": "517082573f1ec099d95c0638df530c6a 517082573f1ec099d95c0638df530c6a",
                     "post_history_empty": "b3b733d0296f3b8017d2dfac43da8ee6 b3b733d0296f3b8017d2dfac43da8ee6",
                     "queue": "7e89d17254fcb85eda9c4e9370db7196 7e89d17254fcb85eda9c4e9370db7196",
+                    "reject": "3275660758a8f2dc513c09aaa869cff2 3275660758a8f2dc513c09aaa869cff2",
                     "release": "d823e4620ec3222dd9e3aaf93a8cc5b9 d823e4620ec3222dd9e3aaf93a8cc5b9",
                     "reopen": "0ba11e48d2c761605cd707c5309225f5 0ba11e48d2c761605cd707c5309225f5",
+                    "reporter_history": "6d6be6fe3300838ab41a41602b3e6d33 6d6be6fe3300838ab41a41602b3e6d33",
+                    "reporters": "363a9fdc13217febccd4555ae9a5295b 363a9fdc13217febccd4555ae9a5295b",
+                    "resolve": "3e6dcc397ea296d2e25e34c162494e2b 3e6dcc397ea296d2e25e34c162494e2b",
                     "system": "3bf95af74cb95adb36da8c9c26ae4697 3bf95af74cb95adb36da8c9c26ae4697",
                     "take_over": "bf83108be45bdf05e030013bf7016810 bf83108be45bdf05e030013bf7016810",
-                    "title": "11a66dc40f4489fc90b402ceeba48492 11a66dc40f4489fc90b402ceeba48492"
+                    "timeline": "ff51c16d99b5cf2b1d7cf6b2a41e427c ff51c16d99b5cf2b1d7cf6b2a41e427c",
+                    "timeline_empty": "90de4ec2c4fdf59878a9487a16dfb74d 90de4ec2c4fdf59878a9487a16dfb74d",
+                    "title": "11a66dc40f4489fc90b402ceeba48492 11a66dc40f4489fc90b402ceeba48492",
+                    "user_history_all": "61abc24f6849a21ecc82418482314443 61abc24f6849a21ecc82418482314443"
+                },
+                "settings": {
+                    "notify_assigned": "85106f3957e5938b67d6ddeec28fbdb1 85106f3957e5938b67d6ddeec28fbdb1",
+                    "notify_outcome": "69168432a5f056d19e3684b7b911995e 69168432a5f056d19e3684b7b911995e"
                 },
                 "status": {
                     "closed": "3146ef88d34c499e3644508b5f904c72 3146ef88d34c499e3644508b5f904c72",
@@ -6303,7 +6381,13 @@
                     "someone": "7f4b53fb6fcd79f9b7a532405ac4528c 7f4b53fb6fcd79f9b7a532405ac4528c"
                 },
                 "views": {
-                    "in_queue": "11beff5a949356ecb901ebfad6e9df65 11beff5a949356ecb901ebfad6e9df65"
+                    "active": "2ed6315b16f226dd660bbf237fea5fb3 2ed6315b16f226dd660bbf237fea5fb3",
+                    "all": "317b271e8f69a8f7b1e9c7b4f59be87e 317b271e8f69a8f7b1e9c7b4f59be87e",
+                    "in_queue": "11beff5a949356ecb901ebfad6e9df65 11beff5a949356ecb901ebfad6e9df65",
+                    "mine": "4b5946e1353a2caca41df18f83a6f44a 4b5946e1353a2caca41df18f83a6f44a",
+                    "rejected": "1405c0e9180f66fe730da9d4ec1b8f8a 1405c0e9180f66fe730da9d4ec1b8f8a",
+                    "resolved": "af7d49abbbff707b74ea815cb7b7d029 af7d49abbbff707b74ea815cb7b7d029",
+                    "unassigned": "83d9fda718d75e5aa2bf296bd55df246 83d9fda718d75e5aa2bf296bd55df246"
                 }
             }
         }

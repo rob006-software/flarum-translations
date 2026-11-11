@@ -2,14 +2,14 @@
     "ernestdefoe-bingo": {
         "admin": {
             "settings": {
-                "nav": "",
+                "nav": "„Bingo“ in der Seitenleiste des Forums anzeigen",
                 "allow_indexing": "",
                 "allow_indexing_help": ""
             },
             "permissions": {
                 "view": "",
-                "play": "",
-                "create": "",
+                "play": "Bingo spielen",
+                "create": "Bingo-Spiele organisieren",
                 "moderate": ""
             }
         },
@@ -20,19 +20,19 @@
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Bingo",
             "hub": {
-                "title": "",
+                "title": "Bingo",
                 "lead": "",
-                "create": "",
+                "create": "Neues Spiel",
                 "load_error": "",
                 "empty": "",
                 "live": "",
                 "upcoming": "",
                 "past": "",
                 "more": "",
-                "board": "",
-                "board_medal": "",
+                "board": "Gewinner",
+                "board_medal": "{place} ×{count}",
                 "mine": "",
                 "mine_bingo": ""
             },
@@ -42,14 +42,14 @@
                 "finished": ""
             },
             "clock": {
-                "starts_in": "",
-                "ends_in": "",
-                "ended": ""
+                "starts_in": "Beginnt in {time}",
+                "ends_in": "Endet in {time}",
+                "ended": "Endete {time}"
             },
             "game": {
-                "hosted_by": "",
-                "players": "",
-                "winners": ""
+                "hosted_by": "Organisiert von {host}",
+                "players": "{count, plural, one {# Spieler} other {# Spieler}}",
+                "winners": "Gewinner"
             },
             "rules": {
                 "confirmed": "",
@@ -58,7 +58,7 @@
                 "places": ""
             },
             "manage": {
-                "edit": "",
+                "edit": "Bearbeiten",
                 "start": "",
                 "end": "",
                 "end_confirm": "",

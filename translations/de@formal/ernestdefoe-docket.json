@@ -3,8 +3,8 @@
         "api": {
             "closed": "Diese Meldung zuerst wiedereröffnen.",
             "assign_others": "Sie haben keine Berechtigung, Meldungen anderen Moderatoren zuzuweisen.",
-            "cannot_see": "",
-            "cannot_restore": ""
+            "cannot_see": "Dieses Mitglied kann diese Meldung nicht einsehen, daher kann sie ihm nicht zugewiesen werden.",
+            "cannot_restore": "Wenn du diesen Meldung ablehnst, wird der Beitrag zurückgesetzt, und du hast keine Berechtigung, ihn wiederherzustellen."
         },
         "email": {
             "assigned": {
@@ -22,7 +22,7 @@
             "crowd": {
                 "subject_hidden": "",
                 "subject_approval": "",
-                "subject_restored": "",
+                "subject_restored": "Dein Beitrag wurde wiederhergestellt",
                 "body_hidden": "",
                 "body_approval": "",
                 "body_restored": "",
@@ -34,18 +34,18 @@
                 "report_centre": "Meldungszentrale",
                 "my_reports": "Meine Meldungen",
                 "user_reports": "Meldungen",
-                "views": "",
-                "queue_toggle": ""
+                "views": "Meldungsliste",
+                "queue_toggle": "Wähle eine Warteschlange"
             },
             "centre": {
                 "subtitle": ""
             },
             "post": {
-                "open_report": ""
+                "open_report": "Details dieser Meldung"
             },
             "settings": {
-                "notify_assigned": "",
-                "notify_outcome": "",
+                "notify_assigned": "Jemand weist mir eine Meldung zu",
+                "notify_outcome": "Eine Meldung von mir wurde geprüft",
                 "notify_crowd": ""
             },
             "notifications": {
@@ -71,12 +71,12 @@
                 "other": "Andere"
             },
             "views": {
-                "active": "",
-                "unassigned": "",
-                "mine": "",
-                "resolved": "",
-                "rejected": "",
-                "all": "",
+                "active": "Erfordert Aufmerksamkeit",
+                "unassigned": "Nicht zugewiesen",
+                "mine": "Mir zugewiesen",
+                "resolved": "Gelöst",
+                "rejected": "Zurückgewiesen",
+                "all": "Alle Meldungen",
                 "in_queue": "{view} in {queue}"
             },
             "queues": {
@@ -87,46 +87,46 @@
                 "post_gone": "Der Beitrag wurde gelöscht",
                 "by": "Beitrag von {name}",
                 "report_count": "{count, plural, one {# Meldung} other {# Meldungen}}",
-                "held_by": "",
+                "held_by": "Zugewisen an {name}",
                 "empty": "",
-                "load_more": ""
+                "load_more": "Mehr laden"
             },
             "report": {
                 "title": "Meldung #{id}",
                 "opened": "Eröffnet {time}",
-                "back": "",
+                "back": "Zurück zur Meldungszentrale",
                 "post_gone": "",
                 "moderate": "",
                 "post_hidden": "",
                 "warning_count": "",
-                "reporters": "",
+                "reporters": "{count, plural, one {Ein Mal gemeldet} other {# Mal gemeldet}}",
                 "system": "Automatisch",
-                "held_by": "",
-                "handled_by": "",
-                "no_one": "",
-                "claim": "",
+                "held_by": "Zugewiesen an",
+                "handled_by": "Bearbeitet von",
+                "no_one": "Noch niemandem",
+                "claim": "Übernehmen",
                 "take_over": "Übernehmen",
                 "release": "Freigeben",
                 "unassign": "",
-                "assign": "",
-                "assign_title": "",
+                "assign": "Zuweisen…",
+                "assign_title": "Meldung #{id} zuweisen",
                 "queue": "Warteschlange",
-                "resolve": "",
-                "reject": "",
+                "resolve": "Als gelöst markieren",
+                "reject": "Zurückweisen",
                 "reopen": "Wiedereröffnen",
                 "reporters_told": "",
-                "timeline": "",
-                "timeline_empty": "",
-                "note_label": "",
-                "note_placeholder": "",
+                "timeline": "Zeitleiste",
+                "timeline_empty": "Es ist noch nichts passiert.",
+                "note_label": "Interne Notiz hinzufügen",
+                "note_placeholder": "Eine interne Notiz für andere Mitarbeiter hinzufügen…",
                 "note_help": "",
                 "note_submit": "Notiz hinzufügen",
                 "post_history": "",
                 "post_history_empty": "Keine.",
                 "user_history": "",
                 "user_history_empty": "",
-                "user_history_all": "",
-                "reporter_history": "",
+                "user_history_all": "Alle anzeigen",
+                "reporter_history": "Meldungen von {name}",
                 "reporter_history_pick": "",
                 "reporter_history_empty": ""
             },
@@ -137,19 +137,19 @@
             },
             "record": {
                 "title": "",
-                "frame_30d": "",
-                "frame_90d": "",
-                "frame_12m": "",
-                "frame_all": "",
-                "total": "",
-                "resolved": "",
-                "rejected": "",
-                "open": "",
+                "frame_30d": "Letzte 30 Tage",
+                "frame_90d": "Letzte 90 Tage",
+                "frame_12m": "Letzte 12 Monate",
+                "frame_all": "Allzeit",
+                "total": "{count, plural, =0 {Keine Meldungen} one {# Meldung} other {# Meldungen}}",
+                "resolved": "Gelöst",
+                "rejected": "Zurückgewiesen",
+                "open": "Offen",
                 "note": "",
                 "line": "",
                 "empty": "",
                 "post_unavailable": "",
-                "reason": ""
+                "reason": "Grund:"
             },
             "timeline": {
                 "someone": "Jemand",
