@@ -983,6 +983,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`el-choco-admin-console`](https://weblate.rob006.net/projects/flarum2/el-choco-admin-console) | [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) |
+| [`ernestdefoe-answers`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-answers) | [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) |
 | [`ernestdefoe-anthology`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-anthology) | [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) |
 | [`ernestdefoe-aurora`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-aurora) | [`ernestdefoe/aurora`](https://github.com/ernestdefoe/aurora) |
 | [`ernestdefoe-backdrop`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-backdrop) | [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) |
@@ -1090,6 +1091,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-time-capsule`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-time-capsule) | [`ernestdefoe/time-capsule`](https://github.com/ernestdefoe/time-capsule) |
 | [`ernestdefoe-topic-map`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-topic-map) | [`ernestdefoe/topic-map`](https://github.com/ernestdefoe/topic-map) |
 | [`ernestdefoe-tributary`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-tributary) | [`ernestdefoe/tributary`](https://github.com/ernestdefoe/tributary) |
+| [`ernestdefoe-trust-levels`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-trust-levels) | [`ernestdefoe/trust-levels`](https://github.com/ernestdefoe/trust-levels) |
 | [`ernestdefoe-typesense`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-typesense) | [`ernestdefoe/typesense`](https://github.com/ernestdefoe/typesense) |
 | [`ernestdefoe-vantage`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-vantage) | [`ernestdefoe/vantage`](https://github.com/ernestdefoe/vantage) |
 | [`ernestdefoe-velvet-rope`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-velvet-rope) | [`ernestdefoe/velvet-rope`](https://github.com/ernestdefoe/velvet-rope) |
