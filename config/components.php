@@ -302,7 +302,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.0.8/locale/en.yml',
 	],
 	'ernestdefoe-header-nav' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.8.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.8.2/locale/en.yml',
 	],
 	'ernestdefoe-herald' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/2.0.1/locale/en.yml',
