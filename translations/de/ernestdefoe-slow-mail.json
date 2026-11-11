@@ -2,12 +2,12 @@
     "ernestdefoe-slow-mail": {
         "admin": {
             "permissions": {
-                "send": "",
-                "moderate": ""
+                "send": "Schneckenpost-Briefe schreiben und erhalten",
+                "moderate": "Gemeldete Schneckenpost-Briefe lesen"
             },
             "settings": {
-                "nav": "",
-                "km_per_day": "",
+                "nav": "„Schneckenpost“ in der Seitenleiste anzeigen",
+                "km_per_day": "Geschwindigkeit (Kilometer pro Tag)",
                 "km_per_day_help": "",
                 "min_hours": "",
                 "min_hours_help": "",
@@ -26,12 +26,12 @@
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Schneckenpost",
             "page": {
-                "title": "",
+                "title": "Schneckenpost",
                 "intro": "",
                 "write": "",
-                "back": "",
+                "back": "Zurück zur Schneckenpost",
                 "guest": ""
             },
             "tabs": {
@@ -96,14 +96,14 @@
                 "reply_title": "",
                 "search": "",
                 "no_results": "",
-                "change": "",
-                "stamp": "",
-                "letter": "",
-                "placeholder": "",
-                "count": "",
+                "change": "Ändern",
+                "stamp": "Wähle eine Briefmarke",
+                "letter": "Dein Brief",
+                "placeholder": "Liebe/r {name},",
+                "count": "{count} von {max}",
                 "measuring": "",
                 "takes": "",
-                "route": "",
+                "route": "Von {from} nach {to}.",
                 "no_map": "",
                 "send": "",
                 "sent": "",
@@ -111,44 +111,44 @@
             },
             "pals": {
                 "none": "",
-                "meta": "",
+                "meta": "{count, plural, one {# Brief} other {# Briefe}} · Zuletzt {date}",
                 "write": ""
             },
             "pal": {
                 "title": "",
-                "count": "",
+                "count": "{count, plural, one {# Brief} other {# Briefe}}",
                 "block": "",
                 "unblock": ""
             },
             "seek": {
                 "title": "",
                 "intro": "",
-                "interests": "",
-                "interests_placeholder": "",
+                "interests": "Deine Interessen",
+                "interests_placeholder": "Wandern, Jazz, Gartenarbeit, alte Filme",
                 "where": "",
                 "region": {
-                    "anywhere": "",
-                    "country": "",
-                    "continent": "",
-                    "far": ""
+                    "anywhere": "Irgendwo",
+                    "country": "In meinem Land",
+                    "continent": "Auf meinem Kontinent",
+                    "far": "Auf einem anderen Kontinent"
                 },
                 "needs_map": "",
                 "join": "",
-                "save": "",
+                "save": "Speichern",
                 "listed": "",
-                "edit": "",
+                "edit": "Ändern",
                 "stop": "",
                 "no_matches": "",
                 "write": ""
             },
             "settings": {
                 "accept": "",
-                "accept_everyone": "",
+                "accept_everyone": "Jeder",
                 "accept_pals": "",
-                "accept_nobody": "",
-                "accept_help": "",
+                "accept_nobody": "Niemand",
+                "accept_help": "Schneckenpost-Briefe. Briefe, die bereits auf dem Weg sind, kommen immer noch an.",
                 "notify_arrived": "",
-                "notify_delivered": "",
+                "notify_delivered": "Mein Brief wurde zugestellt",
                 "notify_reported": ""
             },
             "controls": {
