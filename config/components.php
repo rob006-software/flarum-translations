@@ -1120,9 +1120,7 @@ return [
 	],
 	'ucw-celeste-status' => [
 		'tag' => 'https://raw.githubusercontent.com/wuxianucw/flarum-celeste-status/v0.1.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.6.4/locale/en.yaml',
