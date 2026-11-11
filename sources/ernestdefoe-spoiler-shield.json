@@ -1,0 +1,155 @@
+{
+    "ernestdefoe-spoiler-shield": {
+        "lib": {
+            "placeholder": "Spoiler for {label} ({work})",
+            "placeholder_unnamed": "Spoiler for {label}",
+            "later": "later on",
+            "finished": "Finished",
+            "season": "Season {number}",
+            "chapter": "Chapter {number}",
+            "gdpr": {
+                "export": "Where you're up to in each book, show and game, and the spoilers you chose to reveal.",
+                "delete": "Your places and reveals are deleted. Books, shows and games you added stay, without your name."
+            }
+        },
+        "api": {
+            "invalid_work": "That book, show or game doesn't exist.",
+            "invalid_position": "That spot isn't on the list for this book, show or game.",
+            "invalid_quote_other_work": "This reply already has spoilers for one book, show or game, so it can't also quote spoilers from another. Post that quote in a reply of its own."
+        },
+        "forum": {
+            "veil": {
+                "spoiler_for": "Spoiler for {label}",
+                "spoiler": "Spoiler",
+                "tap": "Tap to reveal",
+                "revealing": "Revealing…",
+                "reveal_label": "Reveal this spoiler for {label} of {work}",
+                "guest": "Log in and say how far you've got, and anything you've reached opens up.",
+                "set_progress": "Tell us how far you've got",
+                "you_are_at": "You're at {label}. Change",
+                "offer": "You finished this in your collection: unlock everything"
+            },
+            "mark": {
+                "title": "Spoilers up to here in {work}",
+                "revealed": "{label} (revealed)",
+                "discussion_title": "Spoiler mark",
+                "discussion_help": "How far into it does this discussion go? Members who haven't got that far see it blurred.",
+                "reply_title": "Your reply's spoilers",
+                "reply_help": "Replies go up to where you are in {work}, so people who aren't that far see them blurred. Pick another spot if your reply doesn't need it.",
+                "search": "Find a book, show or game",
+                "none_found": "Nothing found by that name.",
+                "other_work": "Pick another",
+                "use": "Use this",
+                "no_mark": "No spoiler mark",
+                "nothing_past": "Nothing past {label}",
+                "automatic": "Use my place (automatic)",
+                "define": "Add a book, show or game"
+            },
+            "composer": {
+                "mark": "Spoilers?",
+                "from_marquee": "Spoilers: from the episode",
+                "reply_mark": "Spoilers",
+                "reply_at": "Spoilers up to {label}",
+                "reply_nothing_past": "Nothing past {label}"
+            },
+            "ladder": {
+                "choose": "Choose…",
+                "season_choose": "Season…",
+                "season": "Season {number}",
+                "episode": "Episode {number}",
+                "chapter": "Chapter {number}",
+                "whole_season": "The whole season",
+                "whole_thing": "The whole thing",
+                "finished": "Finished",
+                "no_point": "Just talks about it, no spoilers",
+                "chapters_auto": "This series keeps track for you: every chapter you open counts as read.",
+                "finished_only": "This one is all or nothing: you've either finished it or you haven't."
+            },
+            "progress": {
+                "loading": "Loading…",
+                "title": "Where are you in {work}?",
+                "help": "Anything up to here opens for you. Anything further along stays blurred until you get there, or tap to reveal it.",
+                "offer": "Your collection says you've finished this one.",
+                "save": "Save",
+                "finished": "I've finished it: unlock everything",
+                "finished_now": "You've finished it, so everything is open.",
+                "forget": "Forget my place"
+            },
+            "sidebar": {
+                "you_are_at": "You're at {label}",
+                "not_set": "You haven't said how far you've got.",
+                "set": "Set my place",
+                "change": "Change"
+            },
+            "nav": {
+                "progress": "Spoiler progress"
+            },
+            "page": {
+                "title": "Spoiler progress",
+                "intro": "Say how far you've got in a book, show or game, and discussions further along stay blurred until you catch up.",
+                "guest": "Log in to keep track of where you are.",
+                "mine": "Where you are",
+                "mine_empty": "You haven't set your place in anything yet. Pick something below.",
+                "at": "at {label}",
+                "change": "Change",
+                "works": "Books, shows and games",
+                "works_empty": "Nothing here yet.",
+                "search": "Search",
+                "define": "Add one",
+                "where": "Where am I?",
+                "edit": "Edit",
+                "cannot_edit": "Only whoever added it, or a moderator, can change this one."
+            },
+            "work": {
+                "new_title": "Add a book, show or game",
+                "edit_title": "Edit",
+                "title": "Title",
+                "kind": "Type",
+                "steps": "Its parts, in order",
+                "steps_help": "One per line: chapters, episodes, levels, rounds. Add new ones at the end; a part already in use can't be taken away.",
+                "steps_placeholder": "Chapter 1\nChapter 2\nChapter 3",
+                "catalog": "Collection match (optional)",
+                "catalog_help": "To offer \"finished: unlock everything\" to members who finished it in their collection, for example openlibrary:OL45883W or igdb:1942.",
+                "tags": "Tags",
+                "tags_help": "New discussions in these tags belong to this one.",
+                "save": "Save",
+                "delete": "Delete",
+                "delete_confirm": "Delete this, and take its spoiler marks off every discussion?",
+                "error": {
+                    "invalid_title": "Give it a title.",
+                    "invalid_steps": "Add at least one part (up to 500).",
+                    "invalid_catalog": "The collection match looks like source:id, for example openlibrary:OL45883W.",
+                    "steps_in_use": "A part that discussions or members already use can't be taken away.",
+                    "steps_reordered": "Parts already in use can't change places. Rename them, or add new ones at the end.",
+                    "work_in_use": "Discussions and members already use this one, so only a moderator can delete it.",
+                    "permission_denied": "You can't change this one.",
+                    "unknown": "That didn't save. Try again."
+                }
+            },
+            "kind": {
+                "book": "Book",
+                "show": "Show",
+                "movie": "Movie",
+                "game": "Game",
+                "other": "Other",
+                "music": "Music"
+            }
+        },
+        "admin": {
+            "settings": {
+                "blur": "Blur anything with a spoiler mark",
+                "show": "Show everything",
+                "members": "Members who haven't said how far they've got",
+                "members_help": "Blurring is the safe choice; they can still tap to reveal one at a time.",
+                "guests": "Guests",
+                "guests_help": "Guests can't say how far they've got, so they see what you choose here.",
+                "stamp_replies": "Mark replies with their author's place",
+                "stamp_replies_help": "A reply in a discussion with a spoiler mark goes up to where its author is, so it's blurred for people who aren't that far. Authors can change it in the composer."
+            },
+            "permissions": {
+                "create_works": "Add books, shows and games",
+                "manage_works": "Edit any book, show or game, and attach tags"
+            }
+        }
+    }
+}

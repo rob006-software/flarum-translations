@@ -1,0 +1,211 @@
+{
+    "ernestdefoe-slow-mail": {
+        "admin": {
+            "permissions": {
+                "send": "",
+                "moderate": ""
+            },
+            "settings": {
+                "nav": "",
+                "km_per_day": "",
+                "km_per_day_help": "",
+                "min_hours": "",
+                "min_hours_help": "",
+                "max_hours": "",
+                "max_hours_help": "",
+                "default_hours": "",
+                "default_hours_help": "",
+                "daily_limit": "",
+                "daily_limit_help": "",
+                "new_pals_daily": "",
+                "new_pals_daily_help": "",
+                "privacy": "",
+                "privacy_help": "",
+                "backup": "",
+                "backup_help": ""
+            }
+        },
+        "forum": {
+            "nav": "",
+            "page": {
+                "title": "",
+                "intro": "",
+                "write": "",
+                "back": "",
+                "guest": ""
+            },
+            "tabs": {
+                "inbox": "",
+                "outbox": "",
+                "pals": "",
+                "reports": ""
+            },
+            "envelope": {
+                "from": "",
+                "to": "",
+                "someone": "",
+                "arrived": "",
+                "travelled": "",
+                "new": "",
+                "reply": ""
+            },
+            "inbox": {
+                "empty": "",
+                "empty_hint": ""
+            },
+            "outbox": {
+                "empty": "",
+                "empty_hint": "",
+                "sent": "",
+                "arrives_in": "",
+                "delivered": "",
+                "returned": ""
+            },
+            "letter": {
+                "sent": "",
+                "sent_from": "",
+                "arrived": "",
+                "unreadable": "",
+                "reply": "",
+                "all_letters": "",
+                "put_away": "",
+                "block": "",
+                "block_confirm": "",
+                "blocked": "",
+                "unblocked": "",
+                "skip": "",
+                "report": ""
+            },
+            "report": {
+                "title": "",
+                "explain": "",
+                "reason": "",
+                "block": "",
+                "send": "",
+                "done": ""
+            },
+            "reports": {
+                "intro": "",
+                "none": "",
+                "line": "",
+                "sender_profile": "",
+                "resolve": ""
+            },
+            "write": {
+                "title": "",
+                "reply_title": "",
+                "search": "",
+                "no_results": "",
+                "change": "",
+                "stamp": "",
+                "letter": "",
+                "placeholder": "",
+                "count": "",
+                "measuring": "",
+                "takes": "",
+                "route": "",
+                "no_map": "",
+                "send": "",
+                "sent": "",
+                "done": ""
+            },
+            "pals": {
+                "none": "",
+                "meta": "",
+                "write": ""
+            },
+            "pal": {
+                "title": "",
+                "count": "",
+                "block": "",
+                "unblock": ""
+            },
+            "seek": {
+                "title": "",
+                "intro": "",
+                "interests": "",
+                "interests_placeholder": "",
+                "where": "",
+                "region": {
+                    "anywhere": "",
+                    "country": "",
+                    "continent": "",
+                    "far": ""
+                },
+                "needs_map": "",
+                "join": "",
+                "save": "",
+                "listed": "",
+                "edit": "",
+                "stop": "",
+                "no_matches": "",
+                "write": ""
+            },
+            "settings": {
+                "accept": "",
+                "accept_everyone": "",
+                "accept_pals": "",
+                "accept_nobody": "",
+                "accept_help": "",
+                "notify_arrived": "",
+                "notify_delivered": "",
+                "notify_reported": ""
+            },
+            "controls": {
+                "write": ""
+            },
+            "notification": {
+                "arrived": "",
+                "delivered": "",
+                "reported": ""
+            },
+            "time": {
+                "within_hour": "",
+                "hours": "",
+                "days": ""
+            },
+            "stamps": {
+                "home": "",
+                "lighthouse": "",
+                "mountain": "",
+                "wave": "",
+                "balloon": "",
+                "fox": "",
+                "cactus": "",
+                "blossom": "",
+                "aurora": "",
+                "owl": "",
+                "teapot": "",
+                "moon": "",
+                "whale": ""
+            },
+            "errors": {
+                "slow_mail_not_accepting": "",
+                "slow_mail_bad_letter": "",
+                "slow_mail_too_many_in_transit": "",
+                "slow_mail_wait_for_delivery": "",
+                "slow_mail_daily_limit": "",
+                "slow_mail_new_pals_limit": "",
+                "slow_mail_slow_down": "",
+                "slow_mail_already_reported": "",
+                "slow_mail_in_transit": "",
+                "slow_mail_key_missing": "",
+                "not_found": "",
+                "generic": ""
+            }
+        },
+        "email": {
+            "arrived": {
+                "subject": "",
+                "body": "",
+                "open": ""
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "",
+                "delete": ""
+            }
+        }
+    }
+}

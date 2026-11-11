@@ -1,0 +1,211 @@
+{
+    "ernestdefoe-slow-mail": {
+        "admin": {
+            "permissions": {
+                "send": "Write and receive Slow Mail letters",
+                "moderate": "Read reported Slow Mail letters"
+            },
+            "settings": {
+                "nav": "Show \"Slow Mail\" in the sidebar",
+                "km_per_day": "Speed (kilometers a day)",
+                "km_per_day_help": "How far a letter travels in a day, when both members are on Member Map. 2,000 means Paris to New York in about three days.",
+                "min_hours": "Shortest journey (hours)",
+                "min_hours_help": "Even next-door neighbors wait at least this long.",
+                "max_hours": "Longest journey (hours)",
+                "max_hours_help": "Even the far side of the world is no farther than this. 168 hours is a week.",
+                "default_hours": "Journey without Member Map (hours)",
+                "default_hours_help": "Used when Member Map isn't installed, or when either member isn't on the map for the other. Each pair of members gets a little more or less, so it doesn't stand out.",
+                "daily_limit": "Letters a member can send a day",
+                "daily_limit_help": "Counted over the last 24 hours.",
+                "new_pals_daily": "New people a member can write to a day",
+                "new_pals_daily_help": "Letters to someone they have never written to, and never had a letter from. This is what keeps spam out.",
+                "privacy": "Privacy",
+                "privacy_help": "Letters are encrypted before they are saved, and nobody can read them but the two members, admins included, unless the recipient reports one, which shows that one letter to moderators. A letter on its way doesn't show up anywhere for its recipient until it arrives. Travel times use only the place each member chose on Member Map (a city, a region or a country), and only when the other member can see them there. They are rounded and jittered, so nobody can work out a location from them.",
+                "backup": "Back up the key",
+                "backup_help": "Letters are encrypted with a key kept in storage/slow-mail/key, never in the database. Back that folder up along with your database. Without the key, letters can't be read."
+            }
+        },
+        "forum": {
+            "nav": "Slow Mail",
+            "page": {
+                "title": "Slow Mail",
+                "intro": "Write a letter to another member. It takes its time to arrive, the farther apart you live, the longer the journey, and then it's theirs to open.",
+                "write": "Write a letter",
+                "back": "Back to Slow Mail",
+                "guest": "Log in to write and read letters."
+            },
+            "tabs": {
+                "inbox": "Inbox",
+                "outbox": "Outbox",
+                "pals": "Pen pals",
+                "reports": "Reports"
+            },
+            "envelope": {
+                "from": "From",
+                "to": "To",
+                "someone": "A former member",
+                "arrived": "Arrived {date}",
+                "travelled": "{time} on the way",
+                "new": "New",
+                "reply": "Reply"
+            },
+            "inbox": {
+                "empty": "Your mailbox is empty.",
+                "empty_hint": "Letters take a while to arrive. Why not write one?"
+            },
+            "outbox": {
+                "empty": "You haven't sent any letters yet.",
+                "empty_hint": "Pick a member, choose a stamp, and send them a few words. They'll get it in a day or two.",
+                "sent": "Sent {date}",
+                "arrives_in": "Arrives in {time}",
+                "delivered": "Delivered {date}",
+                "returned": "Returned to sender"
+            },
+            "letter": {
+                "sent": "Sent {date}",
+                "sent_from": "Sent {date} from {place}",
+                "arrived": "arrived {date}, {time} on the way",
+                "unreadable": "This letter can't be read on this forum any more. Its key is missing.",
+                "reply": "Reply",
+                "all_letters": "All letters",
+                "put_away": "Put away",
+                "block": "Stop letters from {name}",
+                "block_confirm": "Stop letters between you and {name}? Neither of you will be able to write to the other, and letters on their way will be returned. You can change this from your pen pals.",
+                "blocked": "You won't get letters from {name}.",
+                "unblocked": "Letters with {name} are back on.",
+                "skip": "Open it now",
+                "report": "Report"
+            },
+            "report": {
+                "title": "Report this letter",
+                "explain": "The words of this letter will be shown to the forum's moderators, so they can act on it. Nothing else you've written or received is shared, and {name} isn't told who reported it.",
+                "reason": "What's wrong? (optional)",
+                "block": "Also stop letters between me and {name}",
+                "send": "Report it",
+                "done": "Thank you. The moderators will take a look."
+            },
+            "reports": {
+                "intro": "Letters their recipients chose to show you. Only these letters, and only to moderators.",
+                "none": "No reported letters.",
+                "line": "{reporter} reported a letter from {sender} on {date}",
+                "sender_profile": "Sender's profile",
+                "resolve": "Done"
+            },
+            "write": {
+                "title": "Write a letter",
+                "reply_title": "Reply to {name}",
+                "search": "Type a member's name",
+                "no_results": "Nobody by that name.",
+                "change": "Change",
+                "stamp": "Choose a stamp",
+                "letter": "Your letter",
+                "placeholder": "Dear {name},",
+                "count": "{count} of {max}",
+                "measuring": "Working out the journey…",
+                "takes": "This letter will take about {time} to reach {name}, arriving around",
+                "route": "From {from} to {to}.",
+                "no_map": "The journey takes the forum's usual time.",
+                "send": "Send it",
+                "sent": "Your letter is on its way to {name}. It should get there in {time}.",
+                "done": "Lovely"
+            },
+            "pals": {
+                "none": "No pen pals yet. Once a letter arrives between you and another member, they show up here.",
+                "meta": "{count, plural, one {# letter} other {# letters}} · last {date}",
+                "write": "Write to {name}"
+            },
+            "pal": {
+                "title": "Letters with {name}",
+                "count": "{count, plural, one {# letter} other {# letters}}",
+                "block": "Stop letters",
+                "unblock": "Allow letters again"
+            },
+            "seek": {
+                "title": "Looking for a pen pal",
+                "intro": "List yourself, and we'll suggest members who are listed too, best match first. You'll only see others once you're listed yourself.",
+                "interests": "Your interests",
+                "interests_placeholder": "hiking, jazz, gardening, old films",
+                "where": "Where would you like them to live?",
+                "region": {
+                    "anywhere": "Anywhere",
+                    "country": "In my country",
+                    "continent": "On my continent",
+                    "far": "On another continent"
+                },
+                "needs_map": "This uses your place on the member map. Without one, you'll match only members who don't mind where you are.",
+                "join": "List me",
+                "save": "Save",
+                "listed": "You're listed, looking for a pen pal ({region}).",
+                "edit": "Change",
+                "stop": "Stop looking",
+                "no_matches": "Nobody to suggest just yet. Check back soon.",
+                "write": "Write"
+            },
+            "settings": {
+                "accept": "Who can send me letters",
+                "accept_everyone": "Everyone",
+                "accept_pals": "Only members who have had a letter from me",
+                "accept_nobody": "Nobody",
+                "accept_help": "Slow Mail letters. Letters already on their way still arrive.",
+                "notify_arrived": "Someone's letter arrives for me",
+                "notify_delivered": "My letter is delivered",
+                "notify_reported": "Someone reports a letter (moderators)"
+            },
+            "controls": {
+                "write": "Write a letter"
+            },
+            "notification": {
+                "arrived": "A letter from {username} has arrived",
+                "delivered": "Your letter to {username} was delivered",
+                "reported": "{username} reported a Slow Mail letter"
+            },
+            "time": {
+                "within_hour": "less than an hour",
+                "hours": "{count, plural, one {# hour} other {# hours}}",
+                "days": "{count, plural, one {# day} other {# days}}"
+            },
+            "stamps": {
+                "home": "Home",
+                "lighthouse": "Lighthouse",
+                "mountain": "Mountain dawn",
+                "wave": "Great wave",
+                "balloon": "Hot-air balloon",
+                "fox": "Fox",
+                "cactus": "Desert bloom",
+                "blossom": "Cherry blossom",
+                "aurora": "Northern lights",
+                "owl": "Night owl",
+                "teapot": "Teapot",
+                "moon": "Crescent moon",
+                "whale": "Whale"
+            },
+            "errors": {
+                "slow_mail_not_accepting": "This member isn't taking letters from you right now.",
+                "slow_mail_bad_letter": "That letter can't be sent. Check it isn't empty or too long.",
+                "slow_mail_too_many_in_transit": "You have 20 letters on their way already. Wait for some to arrive.",
+                "slow_mail_wait_for_delivery": "You have 3 letters on their way to this member. Wait for one to arrive.",
+                "slow_mail_daily_limit": "That's all the letters you can send today. Try again tomorrow.",
+                "slow_mail_new_pals_limit": "You've written to enough new people today. Try again tomorrow, or write to a pen pal.",
+                "slow_mail_slow_down": "Slow down a little and try again in a minute.",
+                "slow_mail_already_reported": "You've already reported this letter.",
+                "slow_mail_in_transit": "A letter can't be put away while it's on its way.",
+                "slow_mail_key_missing": "Letters can't be sent right now. Please tell an admin.",
+                "not_found": "That letter isn't here.",
+                "generic": "Something went wrong. Please try again."
+            }
+        },
+        "email": {
+            "arrived": {
+                "subject": "A letter from {name} has arrived",
+                "body": "{name} wrote you a letter, and it has just arrived.",
+                "open": "Open it"
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Slow Mail letters you sent and received, your pen-pal listing, blocks and the letters you reported.",
+                "delete": "Every Slow Mail letter you sent or received, your pen-pal listing, blocks and reports."
+            }
+        }
+    }
+}
