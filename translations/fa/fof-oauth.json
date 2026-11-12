@@ -35,6 +35,12 @@
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
+                    "flarum": {
+                        "description": "",
+                        "forum_url_label": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
                     "github": {
                         "description": "",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -68,6 +74,7 @@
                 "with_button": "",
                 "with_discord_button": "",
                 "with_facebook_button": "",
+                "with_flarum_button": "",
                 "with_github_button": "",
                 "with_gitlab_button": "",
                 "with_google_button": "",
@@ -90,6 +97,7 @@
             "providers": {
                 "discord": "",
                 "facebook": "",
+                "flarum": "",
                 "github": "",
                 "gitlab": "",
                 "google": "",
@@ -107,7 +115,8 @@
             "error": {
                 "bad_verification_code": "",
                 "invalid_state": "",
-                "already_linked": ""
+                "already_linked": "",
+                "provider_misconfigured": ""
             }
         },
         "email": {
@@ -120,6 +129,7 @@
             "providers": {
                 "discord": "",
                 "facebook": "",
+                "flarum": "",
                 "github": "",
                 "gitlab": "",
                 "google": "",

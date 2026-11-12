@@ -19,7 +19,7 @@
                 "oauth_only_help": "If enabled, members can no longer log in, sign up or reset their password with a password; they use the enabled providers instead. Administrators keep password login, through the \"Administrator login\" link in the log in modal. Existing members without a linked provider are linked on their first provider login if the provider confirms the same email address; anyone else will need an administrator's help. Has no effect while no provider is enabled. Keep \"Sign up\" set to \"Open\" in Permissions, otherwise new members can't sign up with a provider either.\n",
                 "oauth_only_sign_up_closed_warning": "Sign up is set to Closed in <a>Permissions</a>. Flarum uses that setting for sign-ups through providers too, so nobody can join while it's closed.",
                 "disable_avatars_label": "Disable avatars from provider",
-                "disable_avatars_help": "If enabled, the user's avatar will not be updated to match the provider's avatar on signup. Note that this only affects future signups, and will not change the avatar of existing users.\n",
+                "disable_avatars_help": "By default, members who sign up with a provider get its avatar, and so do members without an avatar when they link a provider. If enabled, provider avatars are never used. Avatars members already have are not changed.\n",
                 "providers": {
                     "callback_url_text": "If necessary, set the callback URL to {url}.",
                     "group_label": "Assign Group",
@@ -34,6 +34,12 @@
                         "description": "Create an app at {link}.",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
+                    },
+                    "flarum": {
+                        "description": "Let members log in with their account on another Flarum forum. That forum needs the OAuth Provider extension ({link}). In its admin page, add a client with the callback URL below, and copy its client ID and secret here.",
+                        "forum_url_label": "Forum URL (for example https://discuss.example.com)",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Create an OAuth app at {link}.",
@@ -68,6 +74,7 @@
                 "with_button": "Log In with {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -90,6 +97,7 @@
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "=> fof-oauth.lib.providers.github",
                 "gitlab": "=> fof-oauth.lib.providers.gitlab",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -107,7 +115,8 @@
             "error": {
                 "bad_verification_code": "Invalid or expired verification token. Please try again.",
                 "invalid_state": "Invalid state. Please try again.",
-                "already_linked": "This account is already linked to another user."
+                "already_linked": "This account is already linked to another user.",
+                "provider_misconfigured": "This login method isn't set up correctly. Please contact the forum administrators."
             }
         },
         "email": {
@@ -120,6 +129,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",

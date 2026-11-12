@@ -35,6 +35,12 @@
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
+                    "flarum": {
+                        "description": "",
+                        "forum_url_label": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
                     "github": {
                         "description": "Utwórz aplikację OAuth na {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -73,6 +79,7 @@
                 "with_button": "Zaloguj się za pomocą {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_flarum_button": "",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -96,6 +103,7 @@
             "providers": {
                 "discord": "Discorda",
                 "facebook": "Facebooka",
+                "flarum": "",
                 "github": "GitHuba",
                 "gitlab": "GitLaba",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -114,7 +122,8 @@
             "error": {
                 "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",
                 "invalid_state": "Nieprawidłowy status. Spróbuj ponownie.",
-                "already_linked": "To konto jest już powiązane z innym użytkownikiem."
+                "already_linked": "To konto jest już powiązane z innym użytkownikiem.",
+                "provider_misconfigured": ""
             }
         },
         "email": {
@@ -127,6 +136,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
+                "flarum": "",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",

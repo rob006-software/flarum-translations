@@ -35,6 +35,12 @@
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
+                    "flarum": {
+                        "description": "",
+                        "forum_url_label": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
                     "github": {
                         "description": "Create an OAuth app at {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -73,6 +79,7 @@
                 "with_button": "Σύνδεση με {provider}",
                 "with_discord_button": "",
                 "with_facebook_button": "",
+                "with_flarum_button": "",
                 "with_github_button": "",
                 "with_gitlab_button": "",
                 "with_google_button": "",
@@ -95,6 +102,7 @@
             "providers": {
                 "discord": "",
                 "facebook": "",
+                "flarum": "",
                 "github": "",
                 "gitlab": "",
                 "google": "",
@@ -112,7 +120,8 @@
             "error": {
                 "bad_verification_code": "Μη έγκυρος ή ληγμένος κωδικός επαλήθευσης. Δοκιμάστε ξανά.",
                 "invalid_state": "Σφάλμα. Δοκιμάστε ξανά ή επικοινωνήστε μαζί μας.",
-                "already_linked": ""
+                "already_linked": "",
+                "provider_misconfigured": ""
             }
         },
         "email": {
@@ -125,6 +134,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
+                "flarum": "",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
