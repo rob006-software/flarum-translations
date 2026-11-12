@@ -7,16 +7,16 @@
             "regenerateImageDone": "Kartenbild wurde erfolgreich neu erstellt.",
             "regenerateImageUnchanged": "Kartenbild ist bereits aktuell.",
             "regenerateImageNoImage": "Kein Bild ist für diese Diskussion verfügbar (keines im ersten Beitrag und kein Standardbild).",
-            "regenerateImageError": "",
+            "regenerateImageError": "Kartenbild konnte nicht neu erstellt werden.",
             "console": {
                 "postUpdateCardImageError": "Diskussionskarten > Fehler beim Aktualisieren des aktualisierten Kartenbildes für diese Diskussion: ",
-                "brokenCardImage": "",
-                "brokenCardImageDetails": ""
+                "brokenCardImage": "Diskussionskarten> Kartenbild für Diskussion #{id} konnte nicht geladen werden, ein Platzhalter wurde angezeigt.",
+                "brokenCardImageDetails": "Bild-URL: {url}. Die Datei fehlt oder ist nicht erreichbar. Sollte sie fehlen, verwende „Fehlerhafte Bilder reparieren“ in den Admin-Werkzeugen oder php flarum discussion-cards:repair-images."
             },
-            "brokenImagesAlert": "",
+            "brokenImagesAlert": "Einige Bilder für Diskussionskarten konnten nicht geladen werden.",
             "brokenImagesDetails": "Details",
             "brokenImagesModal": {
-                "title": "",
+                "title": "Kartenbilder nicht geladen",
                 "intro": "",
                 "listTitle": "Mindestens {count} Diskussion(en) betroffen:",
                 "more": "…und {count} weitere.",
