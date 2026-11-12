@@ -118,7 +118,8 @@
                 "confirm_finish": "Finish \"{title}\" now? The lines in the running this round won't be added.",
                 "confirm_close": "Close this round now and add the winning line?",
                 "remove_line": "Remove this line",
-                "restore_line": "Put this line back"
+                "restore_line": "Put this line back",
+                "fix_line": "Fix this line"
             },
             "form": {
                 "title_new": "Start a story",
@@ -126,6 +127,12 @@
                 "title": "Title",
                 "opening": "Opening line",
                 "opening_help": "The first line of the story. Members write every line after it.",
+                "opening_help_edit": "The first line of the story. Fix a typo here; it changes the line everywhere it's shown.",
+                "fix_title": "Fix the line",
+                "fix_title_opening": "Fix the opening line",
+                "fix_help_opening": "You can fix your opening line until the first round closes.",
+                "fix_help_won": "Your line won with these words, so you can fix a typo but not rewrite it. You have until the next line is added.",
+                "fix_help_moderator": "You're fixing this line as a moderator. Its writer stays credited.",
                 "blurb": "Short description",
                 "blurb_help": "Optional. Shown on the story's cover in the library.",
                 "cover": "Cover",
@@ -178,6 +185,8 @@
                 "line_not_found": "That line isn't in this round any more.",
                 "line_removed": "A moderator removed that line, so it can't be taken back.",
                 "line_erased": "This line was erased at its writer's request and can't be put back.",
+                "line_locked": "This line can only be fixed while it's the newest line in the story.",
+                "edit_too_big": "That's more than a typo fix. This line won with its own words, so keep the changes small.",
                 "own_line": "You can't vote for your own line.",
                 "title_invalid": "Give the story a title (up to 120 characters).",
                 "opening_empty": "Write the opening line.",
