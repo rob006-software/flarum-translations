@@ -471,7 +471,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/spoiler-shield/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-stances' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/stances/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/stances/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-steward' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/steward/1.2.1/locale/en.yml',
