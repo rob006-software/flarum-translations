@@ -6,11 +6,11 @@
                 "card": "Neuesten Satz über der Diskussionsliste anzeigen",
                 "card_help": "Eine kleine Karte oberhalb der Diskussionen, auf der der neueste Satz der Geschichte angezeigt wird und angegeben ist, wie lange es noch dauert, bis die Runde endet.",
                 "live_votes": "Stimmenzahlen anzeigen, solange eine Runde noch läuft",
-                "live_votes_help": "",
+                "live_votes_help": "Aus, Stimmen werden erst nach Ende der Runde bekannt gegeben, sodass frühe Stimmen die übrigen nicht beeinflussen.",
                 "show_authors": "Anzeigen, wer die einzelnen Sätze verfasst hat, solange eine Runde noch offen ist",
-                "show_authors_help": "",
-                "no_repeat": "",
-                "no_repeat_help": ""
+                "show_authors_help": "Aus, Sätze sind anonym, bis der Gewinner feststeht; daher stimmen die Mitglieder für den Satz und nicht den Namen. Die Moderatoren sehen immer, wer was geschrieben hat.",
+                "no_repeat": "Der Verfasser des neuesten Satzes setzt in der nächsten Runde aus",
+                "no_repeat_help": "Verhindert, dass ein schneller Schreiber Satz um Satz hinzufügt. Abstimmen können sie trotzdem."
             },
             "permissions": {
                 "view": "Geschichten lesen",
@@ -30,11 +30,11 @@
                 "library": "Die Bibliothek",
                 "library_lead": "Abgeschlossene Geschichten, jeder Satz von Mitgliedern geschrieben.",
                 "empty": "Noch keine Geschichten.",
-                "empty_start": "",
+                "empty_start": "Fang mit der ersten an. Alles, was du brauchst, ist ein erster Satz.",
                 "library_empty": "Abgeschlossene Geschichten werden hier ausgestellt.",
                 "more": "Mehr anzeigen",
-                "load_error": "",
-                "not_found": "",
+                "load_error": "Die Geschichten konnten nicht geladen werden. Bitte versuche es in Kürze erneut.",
+                "not_found": "Diese Geschichte existiert nicht oder wurde gelöscht.",
                 "back": "Alle Geschichten"
             },
             "card": {
