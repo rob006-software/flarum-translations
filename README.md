@@ -1036,6 +1036,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-kiosk`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kiosk) | [`ernestdefoe/kiosk`](https://github.com/ernestdefoe/kiosk) |
 | [`ernestdefoe-kudos`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-kudos) | [`ernestdefoe/kudos`](https://github.com/ernestdefoe/kudos) |
 | [`ernestdefoe-ladder`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ladder) | [`ernestdefoe/ladder`](https://github.com/ernestdefoe/ladder) |
+| [`ernestdefoe-latest-replies`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-latest-replies) | [`ernestdefoe/latest-replies`](https://github.com/ernestdefoe/latest-replies) |
 | [`ernestdefoe-lectern`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-lectern) | [`ernestdefoe/lectern`](https://github.com/ernestdefoe/lectern) |
 | [`ernestdefoe-lobby`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-lobby) | [`ernestdefoe/lobby`](https://github.com/ernestdefoe/lobby) |
 | [`ernestdefoe-logo-manager`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-logo-manager) | [`ernestdefoe/logo-manager`](https://github.com/ernestdefoe/logo-manager) |
