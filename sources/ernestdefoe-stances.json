@@ -1,0 +1,236 @@
+{
+    "ernestdefoe-stances": {
+        "forum": {
+            "nav": "Stances",
+            "page": {
+                "title": "Stances",
+                "description": "One-click questions from across the forum. See what needs your vote, what's trending and what closes soon.",
+                "lead": "One-click questions from across the forum. Vote right here, or open the discussion to see each side's replies.",
+                "tabs": {
+                    "needs": "Needs your vote",
+                    "trending": "Trending",
+                    "new": "New",
+                    "closing": "Closing soon"
+                },
+                "type": "Type",
+                "all_types": "All types",
+                "empty": {
+                    "needs": "You're all caught up. Nothing open needs your vote.",
+                    "trending": "Nothing has had votes in the last two days.",
+                    "new": "No stance blocks yet.",
+                    "closing": "Nothing has a close date coming up."
+                },
+                "more": "Show more",
+                "trending_note": "Trending counts votes from the last 48 hours, with the last 6 hours counting most.",
+                "needs_badge": "Needs your vote",
+                "in": "in {title}",
+                "today": "{count, plural, =0 {none today} one {+# today} other {+# today}}",
+                "hide": "Hide",
+                "vote": "Vote",
+                "view": "View",
+                "rating": "{average} out of 5",
+                "no_votes": "No votes yet",
+                "tied": "Tied",
+                "leads": "{choice} leads, {percent}%"
+            },
+            "types": {
+                "agree": "Agree or disagree",
+                "yesno": "Yes or no",
+                "pick": "This or that",
+                "rating": "Rating"
+            },
+            "card": {
+                "featured": "Featured",
+                "closed": "Closed",
+                "hidden": "Not in the post's text",
+                "percent": "{percent}% · {count}",
+                "stars": "{count, plural, one {# star} other {# stars}}",
+                "your_rating": "Your rating",
+                "average_of": "{count, plural, one {from # rating} other {from # ratings}}",
+                "you_chose": "You chose {choice}",
+                "remove": "Remove my vote",
+                "explain": "Explain my vote",
+                "voters": "Who voted",
+                "votes": "{count, plural, one {# vote} other {# votes}}",
+                "results_after_close": "Results show when it closes",
+                "results_after_vote": "Results show after you vote",
+                "closed_on": "Closed {time}",
+                "closes": "Closes {time}",
+                "anonymous": "Anonymous: nobody can see who voted",
+                "final": "Votes can't be changed",
+                "log_in": "Log in to vote",
+                "go_to_post": "Go to post"
+            },
+            "filter": {
+                "label": "Show replies from:",
+                "everyone": "Everyone"
+            },
+            "menu": {
+                "label": "Block options",
+                "feature": "Feature above the discussion",
+                "unfeature": "Stop featuring",
+                "badge": "Show these sides beside replies",
+                "unbadge": "Stop using for badges",
+                "edit": "Edit",
+                "close": "Close voting",
+                "reopen": "Reopen voting",
+                "anonymous": "Make anonymous",
+                "anonymous_confirm": "Make this block anonymous? Nobody, staff included, will be able to see who voted. This can't be undone.",
+                "reset": "Reset votes",
+                "delete": "Delete block",
+                "delete_confirm": "Delete this block and its votes? Its line stays in the post and shows nothing. This can't be undone.",
+                "reset_confirm": "Delete all {count, plural, one {# vote} other {# votes}} on this block? This can't be undone."
+            },
+            "labels": {
+                "agree": "Agree",
+                "disagree": "Disagree",
+                "yes": "Yes",
+                "no": "No"
+            },
+            "modal": {
+                "add_title": "Add a stance block",
+                "edit_title": "Edit stance block",
+                "type": "Type",
+                "question": "Statement or question",
+                "what_to_rate": "What to rate",
+                "placeholder_agree": "The trade deadline should move to week 10.",
+                "placeholder_yesno": "Should we add a second wildcard round?",
+                "placeholder_pick": "Which kickoff time should be the default?",
+                "placeholder_rating": "The new stadium charts",
+                "first": "First button",
+                "second": "Second button",
+                "this": "This",
+                "that": "That",
+                "results": "Show results",
+                "results_always": "Always",
+                "results_voted": "After voting",
+                "results_closed": "After it closes",
+                "closes": "Closes (optional)",
+                "closes_help": "Leave empty to keep it open until someone closes it.",
+                "allow_change": "Members can change their vote",
+                "allow_change_help": "Switching sides is part of a good debate.",
+                "allow_remove": "Members can take their vote back",
+                "badges": "Show each voter's choice beside their replies",
+                "badges_help": "Stance badges. One block per discussion makes them.",
+                "anonymous": "Anonymous",
+                "anonymous_help": "Nobody, staff included, can see who voted. Once the post is up, this can't be undone.",
+                "add_picture": "Add a picture",
+                "change_picture": "Change picture",
+                "remove_picture": "Remove picture",
+                "uploading": "Uploading…",
+                "cancel": "Cancel",
+                "add": "Add to post",
+                "save": "Save"
+            },
+            "composer": {
+                "pill_add": "Add stance",
+                "pill_count": "{count, plural, one {# stance block} other {# stance blocks}}",
+                "list_title": "Stance blocks in this post",
+                "in_text": "In the post",
+                "not_in_text": "Not in the post's text (votes are kept)",
+                "take_out": "Take out of the post",
+                "put_back": "Put back at the cursor",
+                "empty": "No stance blocks in this post yet.",
+                "marker_help": "Each block shows where its [stance=…] line sits in your text. Move the line to move the block.",
+                "add": "Add a stance block",
+                "limit": "{count, plural, one {A post can hold # block} other {A post can hold # blocks}}"
+            },
+            "voters": {
+                "title": "Who voted",
+                "show": "Show",
+                "none": "Nobody here yet.",
+                "more": "Show more"
+            },
+            "explain": {
+                "text": "I voted {choice} on \"{question}\":"
+            },
+            "badge": {
+                "changed": "changed",
+                "was": "Was {side} when this was posted"
+            },
+            "notification": {
+                "milestone": "Your stance block reached {count} votes",
+                "preference": "A stance block I added reaches 10, 50, 100 or more votes",
+                "closed": "Voting closed: the results are final",
+                "closed_preference": "A stance block I voted in closes"
+            },
+            "list": {
+                "needs_vote": "Has a stance block you haven't voted on"
+            },
+            "errors": {
+                "generic": "Something went wrong. Please try again.",
+                "stances_not_found": "This block doesn't exist, or you can't see it.",
+                "stances_closed": "Voting on this block has closed.",
+                "stances_bad_choice": "That isn't one of this block's choices.",
+                "stances_locked_vote": "Votes on this block can't be changed.",
+                "stances_bad_type": "Choose one of the block types.",
+                "stances_bad_question": "Write a statement or question of 3 to 200 characters.",
+                "stances_bad_labels": "Give both buttons a different label of up to 40 characters.",
+                "stances_bad_close": "Choose a close date in the future, within two years.",
+                "stances_too_many_drafts": "You have too many unposted blocks. Post or remove some first.",
+                "stances_anonymous_final": "An anonymous block can't be made public again.",
+                "stances_no_badges": "This block can't show sides beside replies (it's a rating, anonymous, or has badges switched off).",
+                "stances_bad_image": "Choose a JPEG, PNG, WebP or GIF picture of up to 5 MB.",
+                "stances_image_too_big": "That picture is too large to process. Choose one under 25 megapixels (about 5000 × 5000).",
+                "stances_bad_side": "That isn't one of this block's sides.",
+                "stances_too_many_uploads": "You've uploaded a lot of pictures. Try again in an hour.",
+                "stances_post_hidden": "This post is hidden, so its blocks take no votes.",
+                "stances_discussion_locked": "This discussion is locked, so voting has ended.",
+                "stances_too_many_votes": "That's a lot of votes in a minute. Wait a moment and try again."
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Stances: the member's votes and the stance blocks they added.",
+                "delete": "Stances: the member's votes and vote history are deleted and those blocks recounted. Blocks they added stay, without an author."
+            }
+        },
+        "api": {
+            "no_permission": "You can't add stance blocks in this tag.",
+            "too_many": "{count, plural, one {A post can hold # stance block.} other {A post can hold # stance blocks.}}"
+        },
+        "admin": {
+            "types": {
+                "agree": "Agree or disagree",
+                "yesno": "Yes or no",
+                "pick": "This or that",
+                "rating": "Rating"
+            },
+            "settings": {
+                "types_help": "The block types members can add. Switching one off keeps existing blocks of that type.",
+                "max_per_post": "Stance blocks per post",
+                "results": "Show results by default",
+                "results_always": "Always",
+                "results_voted": "After voting",
+                "results_closed": "After it closes",
+                "results_help": "Members can change this for each block.",
+                "allow_change": "Members can change their vote by default",
+                "allow_remove": "Members can take their vote back by default",
+                "badges": "Stance badges on by default",
+                "badges_help": "New blocks show each voter's choice beside their replies unless the author turns it off.",
+                "badge_rule": "Which block makes a discussion's badges",
+                "badge_rule_auto": "The one picked, else the featured block, else the first in the opening post",
+                "badge_rule_picked": "Only a block the author or a moderator picks",
+                "badge_rule_off": "None: no badges",
+                "badge_rule_help": "Rating and anonymous blocks never make badges.",
+                "changed_tag": "Show \"changed\" when someone switched sides after replying",
+                "changed_tag_help": "Hovering it shows the side they were on when they posted.",
+                "nav": "Show Stances in the sidebar",
+                "list_icon": "Mark discussions with a block the member hasn't voted on",
+                "list_icon_help": "Adds one query to each discussion list a member loads.",
+                "closed_alert": "Tell voters when a block closes",
+                "closed_alert_help": "An alert (no email) to everyone who voted, when the close date passes or someone closes it. Needs Flarum's scheduler running."
+            },
+            "badges": {
+                "voted": "Stance blocks voted in",
+                "created": "Stance blocks added"
+            },
+            "permissions": {
+                "create": "Add stance blocks",
+                "vote": "Vote on stance blocks",
+                "view_voters": "See who voted on stance blocks",
+                "moderate": "Close, reset, feature and delete any stance block"
+            }
+        }
+    }
+}

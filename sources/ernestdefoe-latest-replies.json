@@ -1,0 +1,45 @@
+{
+    "ernestdefoe-latest-replies": {
+        "lib": {
+            "title": "Latest replies",
+            "widget_title": "Title (blank for \"Latest replies\")",
+            "widget_count": "How many",
+            "widget_wide": "Wide rows (excerpt and tag)"
+        },
+        "forum": {
+            "replied_to": "{name} replied to",
+            "started": "{name} started",
+            "empty": "No replies yet.",
+            "deleted_user": "Deleted user",
+            "hide": "Hide",
+            "show": "Show",
+            "hide_label": "Hide latest replies",
+            "show_label": "Show latest replies"
+        },
+        "admin": {
+            "settings": {
+                "placement": "Where it shows",
+                "placement_help": "On phones, and on layouts without a visible sidebar, the sidebar choice shows at the top of the list. Bespoke, FoF Widgets and Page Builder can also place it; this spot steps aside wherever one of them shows it.",
+                "placement_sidebar": "Sidebar",
+                "placement_top": "Top of the discussion list",
+                "placement_none": "Only where a widget host places it",
+                "discussion_page": "Also beside discussions, under the scrubber",
+                "count": "How many rows",
+                "count_help": "Between 3 and 20.",
+                "mode": "Each row is",
+                "mode_help": "One per discussion keeps a single busy discussion from filling the list.",
+                "mode_discussion": "One per discussion (its newest reply)",
+                "mode_post": "One per post",
+                "first_posts": "Include new discussions that have no replies yet",
+                "excerpt": "Show an excerpt of each reply",
+                "excerpt_help": "Only the reply's own words: spoilers, code, quotes and embeds are left out.",
+                "excerpt_length": "Excerpt length (characters)",
+                "tags": "Tags",
+                "tags_help": "Leave every tag on Any to list them all. On a tag's page, the widget shows that tag.",
+                "tag_any": "Any",
+                "tag_only": "Only these",
+                "tag_never": "Never"
+            }
+        }
+    }
+}
