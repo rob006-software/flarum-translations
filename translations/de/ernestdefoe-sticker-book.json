@@ -1,49 +1,49 @@
 {
     "ernestdefoe-sticker-book": {
         "forum": {
-            "nav": "",
+            "nav": "Stickerbuch",
             "page": {
-                "title": "",
+                "title": "Stickerbuch",
                 "guest": "",
                 "tab": {
-                    "album": "",
+                    "album": "Mein Album",
                     "trades": "",
-                    "board": ""
+                    "board": "Top-Sammler"
                 }
             },
             "hero": {
-                "complete": "",
-                "stickers": "",
-                "sets": "",
-                "packs": "",
-                "intro": "",
-                "open_daily": "",
-                "open_pack": "",
-                "waiting": "",
-                "next_in": "",
+                "complete": "fertig",
+                "stickers": "Sticker",
+                "sets": "{count, plural, one {Set vollständig} other {Sets vollständig}}",
+                "packs": "{count, plural, one {Pack geöffnet} other {Packs geöffnet}}",
+                "intro": "Sammle Sticker, vervollständige dein Album und handle mit deinen Duplikaten.",
+                "open_daily": "Öffne das heutige kostenlose Pack",
+                "open_pack": "Öffne ein Pack",
+                "waiting": "{count, plural, one {# Pack wartet} other {# Packs warten}}",
+                "next_in": "Nächstes kostenloses Pack {time}",
                 "earn_more": "",
                 "odds": "",
                 "pity": ""
             },
             "rarity": {
-                "common": "",
-                "rare": "",
-                "epic": "",
-                "legendary": ""
+                "common": "Häufig",
+                "rare": "Selten",
+                "epic": "Episch",
+                "legendary": "Legendär"
             },
             "album": {
-                "no_sets": "",
-                "complete": "",
-                "progress_label": "",
+                "no_sets": "Es gibt noch keine sammelbaren Sticker.",
+                "complete": "Abgeschlossen",
+                "progress_label": "{have} von {total} gesammelt",
                 "filter": {
-                    "all": "",
-                    "missing": "",
-                    "spares": ""
+                    "all": "Alle",
+                    "missing": "Fehlend",
+                    "spares": "Doppelt"
                 }
             },
             "sticker": {
                 "you_have": "",
-                "they_have": "",
+                "they_have": "{name} hat {count}",
                 "you_need": "",
                 "they_need": "",
                 "offer_spare": "",
