@@ -332,7 +332,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kudos/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-ladder' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.5.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.6.0/locale/en.yml',
 	],
 	'ernestdefoe-lectern' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.2.0/locale/en.yml',
