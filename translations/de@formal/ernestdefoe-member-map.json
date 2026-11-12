@@ -4,21 +4,21 @@
             "widget": "Wo wir sind",
             "permissions": {
                 "view": "Mitgliederkarte anzeigen",
-                "list": "",
-                "travel": "",
-                "meetup": ""
+                "list": "Auf der Mitgliederkarte angezeigt werden",
+                "travel": "Reisemarker auf der Mitgliederkarte hinzufügen",
+                "meetup": "Treffen auf der Mitgliederkarte planen"
             },
             "settings": {
-                "nav": "",
-                "profile": "",
-                "jitter": "",
-                "jitter_help": "",
-                "allow_indexing": "",
-                "allow_indexing_help": "",
-                "meetup_tag": "",
+                "nav": "Link zur Mitgliederkarte in der Seitenleiste anzeigen",
+                "profile": "Mitglieder können ihren Standort in ihrem Profil und auf ihrer Benutzerkarte anzeigen",
+                "jitter": "Mitglieder-Marker ein wenig in ihrer Stadt verteilen",
+                "jitter_help": "Mitglieder, die die Stadtebene als Genauigkeit gewählt haben, werden jedes Mal auf etwa 3 km vom Stadtzentrum entfernt platziert – und zwar immer auf dieselbe Weise –, damit in einer belebten Stadt nicht alle an einem einzigen Punkt zusammengepfercht werden.",
+                "allow_indexing": "Kartenseite darf von Suchmaschinen indexiert werden",
+                "allow_indexing_help": "Standardmäßig deaktiviert: Die Seite fordert Suchmaschinen auf, sie nicht zu indexieren. Mitgliederdaten werden in keinem Fall an Suchmaschinen übermittelt.",
+                "meetup_tag": "Tag für Diskussionen zu Treffen",
                 "meetup_tag_none": "Wähle ein Tag",
                 "meetup_tag_help": "",
-                "style_url": "",
+                "style_url": "Adresse des Kartenstils",
                 "style_url_help": "",
                 "style_dark_url": "",
                 "style_dark_url_help": "",
@@ -35,17 +35,17 @@
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Mitgliederkarte",
             "page": {
-                "title": "",
+                "title": "Mitgliederkarte",
                 "intro": "",
                 "map_label": "",
                 "guest": "",
                 "no_permission": "",
-                "add_me": "",
-                "change": "",
-                "remove": "",
-                "you_are": "",
+                "add_me": "Mich auf der Karte eintragen",
+                "change": "Meinen Standort ändern",
+                "remove": "Mich von der Karte entfernen",
+                "you_are": "Du wirst angezeigt in {label}.",
                 "not_listed": "",
                 "empty": "",
                 "load_error": "",
@@ -54,10 +54,10 @@
                 "members": ""
             },
             "pin": {
-                "member": "",
+                "member": "{name}, {place}",
                 "cluster": "",
                 "trip": "",
-                "meetup": ""
+                "meetup": "Treffen: {title}, {when}"
             },
             "card": {
                 "label": "Details",
@@ -75,13 +75,13 @@
             },
             "search": {
                 "label": "",
-                "placeholder": "",
+                "placeholder": "Finde einen Ort",
                 "button": "Suchen",
                 "none": ""
             },
             "filters": {
-                "label": "",
-                "online": "",
+                "label": "Anzeigen",
+                "online": "Jetzt online",
                 "following": "",
                 "group": "Gruppe",
                 "any_group": "Jeder",
@@ -97,26 +97,26 @@
                 "elsewhere": ""
             },
             "near": {
-                "heading": "",
+                "heading": "In der Nähe",
                 "add_prompt": "",
                 "none": "",
-                "same_area": "",
-                "km": "",
-                "mi": "",
-                "show": ""
+                "same_area": "In deinem Gebiet",
+                "km": "etwa {count} km",
+                "mi": "etwa {count} mi",
+                "show": "{name} auf der Karte anzeigen"
             },
             "trip": {
-                "button": "",
-                "title": "",
-                "help": "",
-                "where": "",
-                "from": "",
-                "to": "",
-                "save": "",
+                "button": "Ich verreise",
+                "title": "Ich verreise",
+                "help": "Füge einen Reisemarker hinzu, damit Mitglieder in der Nähe wissen, dass du kommst. Er verschwindet nach dem letzten Tag von selbst.",
+                "where": "Wohin geht deine Reise?",
+                "from": "Von",
+                "to": "Nach",
+                "save": "Reisemarkierung hinzufügen",
                 "saved": "",
-                "mine": "",
+                "mine": "Deine Reisen",
                 "visiting": "",
-                "remove": ""
+                "remove": "Entfernen"
             },
             "meetup": {
                 "button": "",
@@ -126,7 +126,7 @@
                 "where": "",
                 "when": "",
                 "when_help": "",
-                "details": "",
+                "details": "Details",
                 "details_placeholder": "",
                 "save": "",
                 "saved": "",
@@ -137,23 +137,23 @@
                 "title": "",
                 "search_label": "",
                 "search_placeholder": "",
-                "search": "",
+                "search": "Suchen",
                 "no_results": "",
-                "or_pin": "",
+                "or_pin": "Oder wähle den Standort auf der Karte",
                 "pin_help": "",
-                "precision_label": "",
+                "precision_label": "Wie genau soll dein Standort angezeigt werden?",
                 "precision": {
-                    "city": "",
-                    "region": "",
-                    "country": ""
+                    "city": "Stadt",
+                    "region": "Region oder Bundesland",
+                    "country": "Nur Land"
                 },
-                "preview": "",
-                "preview_loading": "",
-                "who_label": "",
-                "profile": "",
-                "members_only": "",
-                "save": "",
-                "saved": "",
+                "preview": "Du wirst angezeigt als: {label}",
+                "preview_loading": "Ort wird gesucht…",
+                "who_label": "Wer kann das sehen?",
+                "profile": "Auf meinem Profil und meiner Benutzerkarte anzeigen",
+                "members_only": "Nur angemeldete Mitglieder (mich vor Gästen und Suchmaschinen verbergen)",
+                "save": "Speichern",
+                "saved": "Dein Standort auf der Karte wurde gespeichert.",
                 "removed": "",
                 "pick_first": "",
                 "finer": ""

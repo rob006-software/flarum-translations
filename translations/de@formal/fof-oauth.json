@@ -19,7 +19,7 @@
                 "oauth_only_help": "Wenn aktiviert, können sich Mitglieder nicht mehr mit einem Passwort anmelden, registrieren oder ihr Passwort zurücksetzen; stattdessen nutzen sie die aktivierten Anbieter. Administratoren behalten die Passwort-Anmeldung über den Link „Administrator-Anmeldung“ im Anmeldefenster bei. Bestehende Mitglieder ohne verknüpften Anbieter werden bei ihrer ersten Anmeldung über einen Anbieter verknüpft, sofern der Anbieter dieselbe E-Mail-Adresse bestätigt; alle anderen benötigen die Hilfe eines Administrators. Hat keine Auswirkung, solange kein Anbieter aktiviert ist. Lasse „Registrierung“ in den Berechtigungen auf „Offen“ eingestellt, da sich neue Mitglieder sonst auch nicht über einen Anbieter registrieren können.\n",
                 "oauth_only_sign_up_closed_warning": "Die Registrierung ist in den <a>Berechtigungen</a> auf „Geschlossen“ gesetzt. Flarum wendet diese Einstellung auch auf Registrierungen über Anbieter an, sodass sich niemand anmelden kann, solange sie geschlossen ist.",
                 "disable_avatars_label": "Avatarübernahme vom Anbieter deaktivieren",
-                "disable_avatars_help": "Sofern aktiviert, werden Nutzer-Avatare bei der Anmeldung nicht mit den Avataren dieses Anbieter aktualisiert. Dies betrifft nur zukünftige Anmeldungen und wird nicht die Avatare von vorhandenen Nutzern ändern.\n",
+                "disable_avatars_help": "Standardmäßig erhalten Mitglieder, die sich mit einem Anbieter registrieren, dessen Avatar; dasselbe gilt für Mitglieder ohne eigenen Avatar, wenn sie einen Anbieter verknüpfen. Ist diese Option aktiviert, werden Anbieter-Avatare niemals verwendet. Bereits vorhandene Avatare der Mitglieder werden nicht geändert.\n",
                 "providers": {
                     "callback_url_text": "Wenn nötig, setze die Rückruf-URL (callback) zu {url}.",
                     "group_label": "Gruppe zuweisen",
@@ -36,10 +36,10 @@
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "flarum": {
-                        "description": "",
-                        "forum_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Ermögliche es Mitgliedern, sich mit ihrem Konto bei einem anderen Flarum-Forum anzumelden. Dieses Forum benötigt die OAuth-Provider-Erweiterung ({link}). Füge auf der Administrationsseite einen Client mit der unten angegebenen Callback-URL hinzu und kopiere dessen Client-ID und Secret hierher.",
+                        "forum_url_label": "Forum-URL (zum Beispiel https://discuss.beispiel.de)",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Erstelle eine OAuth-Applikation unter {link}.",
@@ -85,7 +85,7 @@
                 "with_button": "Mit {provider} anmelden",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
-                "with_flarum_button": "",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -109,7 +109,7 @@
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
-                "flarum": "",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "=> fof-oauth.lib.providers.github",
                 "gitlab": "=> fof-oauth.lib.providers.gitlab",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -129,7 +129,7 @@
                 "bad_verification_code": "Ungültiges oder abgelaufenes Verifizierungs-Token. Bitte versuche es erneut.",
                 "invalid_state": "Ungültiger Zustand. Bitte versuche es erneut.",
                 "already_linked": "Dieses Konto ist bereits mit einem anderen Benutzer verknüpft.",
-                "provider_misconfigured": ""
+                "provider_misconfigured": "Diese Anmeldemethode ist nicht korrekt eingerichtet. Bitte wende dich an die Administratoren des Forums."
             }
         },
         "email": {
@@ -142,7 +142,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
-                "flarum": "",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
