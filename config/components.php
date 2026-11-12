@@ -862,7 +862,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/2.1.1/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/2.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/2.0.2/resources/locale/en.yml',
 	],
 	'fof-user-directory' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/2.0.2/resources/locale/en.yml',
