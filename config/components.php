@@ -486,7 +486,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sticker-book/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-story-chain' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/story-chain/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/story-chain/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-surveyor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/surveyor/1.0.0/locale/en.yml',
