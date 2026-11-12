@@ -334,6 +334,9 @@ return [
 	'ernestdefoe-ladder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ladder/1.6.0/locale/en.yml',
 	],
+	'ernestdefoe-latest-replies' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/latest-replies/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-lectern' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.2.0/locale/en.yml',
 	],
