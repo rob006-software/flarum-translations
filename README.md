@@ -1063,6 +1063,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-quickdraw`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-quickdraw) | [`ernestdefoe/quickdraw`](https://github.com/ernestdefoe/quickdraw) |
 | [`ernestdefoe-recipes`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-recipes) | [`ernestdefoe/recipes`](https://github.com/ernestdefoe/recipes) |
 | [`ernestdefoe-reel`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-reel) | [`ernestdefoe/reel`](https://github.com/ernestdefoe/reel) |
+| [`ernestdefoe-renown`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-renown) | [`ernestdefoe/renown`](https://github.com/ernestdefoe/renown) |
 | [`ernestdefoe-respawn`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-respawn) | [`ernestdefoe/respawn`](https://github.com/ernestdefoe/respawn) |
 | [`ernestdefoe-resurface`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-resurface) | [`ernestdefoe/resurface`](https://github.com/ernestdefoe/resurface) |
 | [`ernestdefoe-ridge`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-ridge) | [`ernestdefoe/ridge`](https://github.com/ernestdefoe/ridge) |
@@ -1082,6 +1083,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`ernestdefoe-sonic`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sonic) | [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) |
 | [`ernestdefoe-spoiler-shield`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-spoiler-shield) | [`ernestdefoe/spoiler-shield`](https://github.com/ernestdefoe/spoiler-shield) |
+| [`ernestdefoe-stances`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-stances) | [`ernestdefoe/stances`](https://github.com/ernestdefoe/stances) |
 | [`ernestdefoe-steward`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-steward) | [`ernestdefoe/steward`](https://github.com/ernestdefoe/steward) |
 | [`ernestdefoe-sticker-book`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sticker-book) | [`ernestdefoe/sticker-book`](https://github.com/ernestdefoe/sticker-book) |
 | [`ernestdefoe-story-chain`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-story-chain) | [`ernestdefoe/story-chain`](https://github.com/ernestdefoe/story-chain) |
