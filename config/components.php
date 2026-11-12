@@ -73,9 +73,7 @@ return [
 	],
 	'bigreja-bragalotto' => [
 		'tag' => 'https://raw.githubusercontent.com/bigreja/bragalotto/1.7/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'pt',
-		],
+		'__builtInLanguages' => ['pt'],
 	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
