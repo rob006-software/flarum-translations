@@ -849,7 +849,7 @@
                     "key_saved": "••••••••（金鑰已儲存；輸入新值即可取代）",
                     "key_clear": "刪除已儲存的金鑰",
                     "test_button": "測試連線",
-                    "persona_off": "關閉",
+                    "persona_off": "停用",
                     "persona_name": "名稱",
                     "persona_id": "識別碼（限英文字母、數字、_ 及 -）",
                     "persona_description": "說明（顯示於選擇清單）",
@@ -1111,7 +1111,7 @@
                     "topic_views_heat_medium_help": "瀏覽次數達到此數值後，欄位會以中度強調色顯示。預設為 2000。",
                     "topic_views_heat_high_label": "強烈強調門檻",
                     "topic_views_heat_high_help": "瀏覽次數達到此數值後，欄位會以較強烈的顏色強調顯示。預設為 3500。",
-                    "views_suffix": "瀏覽次數",
+                    "views_suffix": "次瀏覽",
                     "section_counts": "新討論與未讀數量",
                     "stats_counts_enabled_label": "顯示數量",
                     "stats_counts_enabled_help": "適用於已登入的使用者：在列表分頁顯示「新討論（3）」及「未讀（2）」等數量；有新內容時，也會在側邊欄的「所有討論」旁顯示提示圓點。",
@@ -1511,7 +1511,7 @@
                 "signup_page_title": "Sign Up",
                 "forgot_heading": "Reset password",
                 "back_to_login": "Back to log in",
-                "or": "或",
+                "or": "or",
                 "panel_login_title": "Good to see you again",
                 "panel_login_text": "Log in to keep up with the conversations, reply and follow what matters to you.",
                 "panel_signup_title": "Join the community",
@@ -1561,9 +1561,9 @@
                 "trust_levels": {
                     "newuser": "new user",
                     "basic": "basic user",
-                    "member": "成員",
-                    "regular": "常客",
-                    "leader": "領袖"
+                    "member": "member",
+                    "regular": "regular",
+                    "leader": "leader"
                 },
                 "trust_level_modal": {
                     "control": "Change trust level…",
@@ -1652,12 +1652,12 @@
                 "expand": "Expand chat drawer",
                 "chat_channels": "Channels",
                 "browse_all_channels": "Browse all channels",
-                "deleted_chat_username": "已刪除",
+                "deleted_chat_username": "deleted",
                 "deleted_message": "Deleted message",
                 "all_loaded": "Showing all messages",
                 "last_visit": "last visit",
-                "edited": "已編輯",
-                "you": "你",
+                "edited": "edited",
+                "you": "you",
                 "join": "Join",
                 "cancel": "Cancel",
                 "cancel_reply": "Cancel reply",
@@ -2254,10 +2254,10 @@
             },
             "extras": {
                 "gambits": {
-                    "in_group": "在",
-                    "title_key": "書籤",
-                    "likes_key": "點讚",
-                    "bookmarks_key": "書籤",
+                    "in_group": "in",
+                    "title_key": "title",
+                    "likes_key": "likes",
+                    "bookmarks_key": "bookmarks",
                     "min_posts_key": "min-posts",
                     "min_posts_hint": "minimum number of posts in the discussion"
                 },
@@ -2292,7 +2292,7 @@
                     "modal_link": "Advanced search →",
                     "posts_filters_note": "Post search only uses the author, one tag, likes and bookmarks; the other filters apply to discussions.",
                     "filter_author": "Posted by",
-                    "filter_author_placeholder": "使用者名稱",
+                    "filter_author_placeholder": "username",
                     "filter_category": "In primary tag",
                     "filter_category_any": "Any primary tag",
                     "filter_tags": "With tags",
@@ -2310,8 +2310,8 @@
                     "status_closed": "Closed",
                     "status_sticky": "Pinned",
                     "filter_posted": "Posted",
-                    "filter_after": "此版本",
-                    "filter_before": "上一個版本",
+                    "filter_after": "after",
+                    "filter_before": "before",
                     "filter_min_posts": "Minimum posts"
                 },
                 "bulk": {
@@ -2604,7 +2604,7 @@
                 "categories_link": "Tags",
                 "more": "More sorts",
                 "sort_label": "Choose the list",
-                "categories": "變更標籤",
+                "categories": "tags",
                 "subcategories": "child tags",
                 "tags": "secondary tags",
                 "all_categories": "All tags",
@@ -2627,8 +2627,8 @@
                 "latest": "Latest",
                 "tags_title": "Secondary tags",
                 "tags_sort_by": "Sort by",
-                "tags_sort_count": "計數",
-                "tags_sort_name": "受敬仰",
+                "tags_sort_count": "count",
+                "tags_sort_name": "name",
                 "tags_all": "All Tags",
                 "tags_none": "No secondary tags yet."
             },
@@ -2914,7 +2914,7 @@
                 "clear_recent": "Clear Recent Searches",
                 "close": "Close search",
                 "more": "More",
-                "results": "結果",
+                "results": "results",
                 "tips": {
                     "category_tag": "filters by tag",
                     "author": "filters by post author",
@@ -2967,7 +2967,7 @@
                 }
             },
             "age": {
-                "now": "現在",
+                "now": "now",
                 "minutes": "{count}m",
                 "hours": "{count}h",
                 "days": "{count}d"
@@ -3084,7 +3084,7 @@
                 "wiki": {
                     "author_role": "Author",
                     "column_article": "Article",
-                    "categories": "商店分類",
+                    "categories": "categories",
                     "all_categories": "All categories",
                     "category_placeholder": "Category…",
                     "see_all": "See all",
@@ -3095,7 +3095,7 @@
                     "close": "Close",
                     "more": "More actions",
                     "created": "created",
-                    "updated": "已更新",
+                    "updated": "updated",
                     "revisions": "{count, plural, one {revision} other {revisions}}",
                     "advanced": "Advanced options",
                     "comment_action": "Comment",
@@ -3252,7 +3252,7 @@
                     "topics_viewed": "discussions viewed",
                     "posts_read": "posts read",
                     "likes_received_short": "received",
-                    "solutions": "解決方案",
+                    "solutions": "solutions",
                     "most_replied_to": "Most Replied To",
                     "empty_links": "No clicked links yet.",
                     "empty_replied": "No replies yet.",
@@ -3486,8 +3486,8 @@
             },
             "badges": {
                 "first_like": {
-                    "name": "首次點讚",
-                    "description": "為貼文點讚",
+                    "name": "初次按讚",
+                    "description": "對貼文按讚",
                     "long_description": "首次對貼文按讚即可獲得此徽章。按讚是讓其他社群成員知道你覺得他們發布的內容有趣、實用、精彩或好玩的一種好方式。別吝嗇你的讚美！"
                 },
                 "first_quote": {
@@ -3496,226 +3496,226 @@
                     "long_description": "首次在回覆中引用其他貼文即可獲得此徽章。在回覆中引用先前貼文的相關內容，有助於讓討論保持連貫並聚焦主題。盡情引用吧！"
                 },
                 "first_link": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "初次分享連結",
+                    "description": "加入其他討論的連結",
+                    "long_description": "首次在貼文中加入其他討論的連結即可獲得此徽章。透過互相連結不同討論，可以幫助其他讀者找到有趣的相關對話，並了解各討論之間的關聯。歡迎多多分享連結！"
                 },
                 "first_mention": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "初次提及",
+                    "description": "在貼文中提及會員",
+                    "long_description": "首次在貼文中使用 @使用者帳號 提及其他會員即可獲得此徽章。每次提及都會向對方發送通知，讓對方知道你的貼文。只要輸入 @ 符號，就能開始提及其他會員。"
                 },
                 "first_emoji": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "初次使用表情符號",
+                    "description": "在貼文中使用表情符號",
+                    "long_description": "首次在貼文中加入表情符號即可獲得此徽章。表情符號能幫助你在貼文中傳達各種情緒，從開心、難過到生氣，以及介於其中的各種心情。"
                 },
                 "first_flag": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "初次檢舉",
+                    "description": "檢舉貼文",
+                    "long_description": "首次檢舉貼文即可獲得此徽章。檢舉功能能幫助我們共同維護友善的社群環境。如果你發現任何需要版主關注的貼文，請隨時提出檢舉。"
                 },
                 "editor": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "編輯達人",
+                    "description": "首次編輯貼文",
+                    "long_description": "首次編輯自己的貼文即可獲得此徽章。我們鼓勵大家適時修改貼文，例如改善排版、修正小錯誤，或補充發布時遺漏的內容。透過編輯，讓你的貼文更加完善！"
                 },
                 "autobiographer": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "自我介紹",
+                    "description": "填寫個人檔案資料",
+                    "long_description": "填寫個人檔案資料並設定個人頭像即可獲得此徽章。讓社群成員多認識你，以及了解你的興趣，能讓社群建立更緊密的連結。歡迎加入我們！"
                 },
                 "reader": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "深度讀者",
+                    "description": "閱讀一則回覆超過 100 篇的討論中的所有回覆",
+                    "long_description": "首次完整閱讀一則回覆超過 100 篇的長篇討論即可獲得此徽章。仔細閱讀討論內容，有助於掌握對話脈絡、理解不同觀點，並促成更有深度的交流。"
                 },
                 "new_user_of_the_month": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "本月最佳新人",
+                    "description": "加入首月便有傑出貢獻",
+                    "long_description": "每個月會選出兩位新會員，表揚他們在加入社群首月的優異表現，評選依據為其貼文獲得的按讚數。"
                 },
                 "welcome": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "初次獲得讚賞",
+                    "description": "收到一個讚",
+                    "long_description": "首次有貼文獲得按讚即可取得此徽章。恭喜你！你發布的內容受到其他社群成員肯定，讓他們覺得有趣、精彩或實用！"
                 },
                 "anniversary": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "週年紀念",
+                    "description": "成為活躍會員滿一年，且至少發布過一篇貼文",
+                    "long_description": "成為會員滿一年，且在這一年內至少發布過一篇貼文，即可獲得此徽章。感謝你持續留在社群並貢獻心力，這個社群不能沒有你！"
                 },
                 "appreciated": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "備受肯定",
+                    "description": "20 篇貼文各獲得至少 1 個讚",
+                    "long_description": "有 20 篇不同的貼文各獲得至少一個讚，即可取得此徽章。社群成員很喜歡你在這裡分享的內容！"
                 },
                 "respected": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "深受尊重",
+                    "description": "100 篇貼文各獲得至少 2 個讚",
+                    "long_description": "有 100 篇不同的貼文各獲得至少兩個讚，即可取得此徽章。你在社群中的眾多貢獻，正逐漸贏得大家的尊重。"
                 },
                 "admired": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "令人敬佩",
+                    "description": "300 篇貼文各獲得至少 5 個讚",
+                    "long_description": "有 300 篇不同的貼文各獲得至少五個讚，即可取得此徽章。太棒了！社群成員都很欣賞你持續分享的優質內容。"
                 },
                 "thank_you": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "感謝回饋",
+                    "description": "有 20 篇貼文獲得按讚，並送出 10 個讚",
+                    "long_description": "有 20 篇貼文獲得按讚，且自己也送出至少 10 個讚，即可取得此徽章。當別人喜歡你的貼文時，你也願意花時間欣賞其他人的分享。"
                 },
                 "gives_back": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "樂於回饋",
+                    "description": "有 100 篇貼文獲得按讚，並送出 100 個讚",
+                    "long_description": "有 100 篇貼文獲得按讚，且自己也送出至少 100 個讚，即可取得此徽章。感謝你將這份善意傳遞下去！"
                 },
                 "empathetic": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "充滿同理心",
+                    "description": "有 500 篇貼文獲得按讚，並送出 1000 個讚",
+                    "long_description": "有 500 篇貼文獲得按讚，且自己也送出至少 1000 個讚，即可取得此徽章。太棒了！你是樂於分享、懂得相互欣賞的最佳典範。"
                 },
                 "out_of_love": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "按讚不手軟",
+                    "description": "單日送出 {max} 個讚",
+                    "long_description": "單日送出 {max} 個讚即可取得此徽章。別忘了花點時間為喜歡的貼文按讚，鼓勵其他社群成員持續創作更多精彩內容，讓未來的討論更加豐富。"
                 },
                 "higher_love": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "熱情不間斷",
+                    "description": "在 5 個不同日期，各單日送出 {max} 個讚",
+                    "long_description": "在 5 個不同日期，各自於單日送出 {max} 個讚，即可取得此徽章。感謝你每天花時間支持並鼓勵優質的社群交流！"
                 },
                 "crazy_in_love": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "按讚狂熱者",
+                    "description": "在 20 個不同日期，各單日送出 {max} 個讚",
+                    "long_description": "在 20 個不同日期，各自於單日送出 {max} 個讚，即可取得此徽章。太棒了！你是持續鼓勵社群成員的最佳典範！"
                 },
                 "enthusiast": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "熱情參與者",
+                    "description": "連續造訪 10 天",
+                    "long_description": "連續造訪社群 10 天即可取得此徽章。感謝你持續陪伴我們，參與時間已經超過一週了！"
                 },
                 "aficionado": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "忠實愛好者",
+                    "description": "連續造訪 100 天",
+                    "long_description": "連續造訪社群 100 天即可取得此徽章。這已經超過三個月了！"
                 },
                 "devotee": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "忠實支持者",
+                    "description": "連續造訪 365 天",
+                    "long_description": "連續造訪社群 365 天即可取得此徽章。太厲害了！你已經持續陪伴我們整整一年！"
                 },
                 "nice_post": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "優質回覆",
+                    "description": "一篇回覆獲得 10 個讚",
+                    "long_description": "你的回覆獲得 10 個讚即可取得此徽章。你的回覆讓社群成員留下深刻印象，也幫助討論持續向前推進！"
                 },
                 "good_post": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "精彩回覆",
+                    "description": "一篇回覆獲得 25 個讚",
+                    "long_description": "你的回覆獲得 25 個讚即可取得此徽章。你的回覆表現出色，讓每個人的討論都更加精彩！"
                 },
                 "great_post": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "傑出回覆",
+                    "description": "一篇回覆獲得 50 個讚",
+                    "long_description": "你的回覆獲得 50 個讚即可取得此徽章。太棒了！你的回覆可能令人深受啟發、感到驚奇、捧腹大笑，或獲得深刻見解，深受社群成員喜愛。"
                 },
                 "nice_topic": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "優質討論",
+                    "description": "一則討論獲得 10 個讚",
+                    "long_description": "你建立的討論獲得 10 個讚即可取得此徽章。恭喜！你發起了一場讓社群成員感興趣的精彩討論！"
                 },
                 "good_topic": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "精彩討論",
+                    "description": "一則討論獲得 25 個讚",
+                    "long_description": "你建立的討論獲得 25 個讚即可取得此徽章。你發起了一場熱烈的交流，吸引社群成員熱情參與並深受大家喜愛！"
                 },
                 "great_topic": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "傑出討論",
+                    "description": "一則討論獲得 50 個讚",
+                    "long_description": "你建立的討論獲得 50 個讚即可取得此徽章。你開啟了一場引人入勝的交流，社群成員也熱烈參與，讓後續討論更加精彩！"
                 },
                 "basic_user": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "基礎會員",
+                    "description": "取得社群所有基本功能的使用權限",
+                    "long_description": "達到信任等級 1 即可取得此徽章。感謝你花了一些時間留在社群，並閱讀幾則討論，逐漸了解我們的社群文化。"
                 },
                 "member": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "正式會員",
+                    "description": "取得長期參與社群數週者的信任",
+                    "long_description": "達到信任等級 2 即可取得此徽章。感謝你持續參與數週，逐漸成為我們社群的一份子。"
                 },
                 "regular": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "活躍會員",
+                    "description": "取得持續貢獻者的信任",
+                    "long_description": "達到信任等級 3 即可取得此徽章。感謝你在數個月間持續參與社群。你現在已是最活躍的讀者之一，也是讓社群更加精彩、值得信賴的重要貢獻者。"
                 },
                 "leader": {
-                    "name": "",
-                    "description": "",
-                    "long_description": ""
+                    "name": "社群領袖",
+                    "description": "由管理團隊選為社群典範",
+                    "long_description": "達到信任等級 4 即可取得此徽章。管理團隊認可你是社群中的領袖，而你在這裡的言行也為其他成員樹立了正面的榜樣。"
                 }
             },
             "badges_admin": {
-                "name_taken": "",
-                "first_backfill_cli": "",
-                "badge_not_found": "",
-                "badge_not_grantable": "",
-                "user_not_found": "",
-                "already_granted": "",
-                "invalid_reason": ""
+                "name_taken": "已經有徽章使用此名稱。",
+                "first_backfill_cli": "首次載入徽章只能透過命令列執行：請先執行一次 php flarum canela:badges，之後即可使用此按鈕。",
+                "badge_not_found": "找不到此徽章。",
+                "badge_not_grantable": "此徽章無法手動授予（系統徽章會依照自動授予規則發放）。",
+                "user_not_found": "找不到使用此帳號名稱的會員。",
+                "already_granted": "此會員已經取得這個徽章，且每人只能獲得一次。",
+                "invalid_reason": "原因最多只能有 500 個字元；連結必須以 http:// 或 https:// 開頭。"
             },
             "messages": {
-                "recipients_limit": "",
-                "invite_empty": "",
-                "invite_group_invalid": "",
-                "invite_group_already": "",
-                "invite_unavailable": ""
+                "recipients_limit": "每則訊息最多只能有 {max} 位收件者，請移除部分收件者後再傳送。",
+                "invite_empty": "請選擇要邀請的對象。",
+                "invite_group_invalid": "此群組無法接收訊息。",
+                "invite_group_already": "{group} 已經在這則訊息中。",
+                "invite_unavailable": "這些使用者都無法接受邀請：他們無法接收或回覆訊息。"
             },
             "profile": {
-                "invalid_website": "",
-                "invalid_status_emoji": "",
-                "invalid_status_until": "",
-                "invalid_image_url": "",
-                "invalid_birthday": "",
-                "invalid_title": "",
-                "external_image_disabled": ""
+                "invalid_website": "個人網站必須是以 http:// 或 https:// 開頭的網址。",
+                "invalid_status_emoji": "狀態只能使用一個表情符號。",
+                "invalid_status_until": "狀態清除日期必須設定為未來的時間。",
+                "invalid_image_url": "圖片網址必須使用 HTTPS，且不得包含空格、引號或括號。",
+                "invalid_birthday": "請選擇 1900 年至昨天之間的出生日期。",
+                "invalid_title": "頭銜必須是你已取得且可用作頭銜的徽章名稱。",
+                "external_image_disabled": "此論壇僅接受上傳的圖片，已停用外部網站圖片網址。"
             },
             "invites": {
-                "too_many": ""
+                "too_many": "你已達到有效邀請的數量上限，請先撤銷一個邀請，再建立新的邀請。"
             },
             "events": {
-                "invalid_status": "",
-                "full": ""
+                "invalid_status": "請選擇「會參加」、「有興趣」或「不參加」。",
+                "full": "此活動已達到參加人數上限。"
             }
         },
         "views": {
             "not_found": {
-                "page_title": "",
-                "title": "",
-                "hint": "",
-                "popular_topics": "",
-                "recent_topics": "",
-                "see_more": "",
-                "search_title": "",
-                "search_button": "",
-                "home": "",
-                "placeholder": ""
+                "page_title": "未找到頁面",
+                "title": "未找到頁面。",
+                "hint": "連結可能不完整，或內容已被移除，或僅部分會員可使用。",
+                "popular_topics": "熱門討論",
+                "recent_topics": "最近的討論",
+                "see_more": "更多",
+                "search_title": "不妨試試搜尋？",
+                "search_button": "搜尋",
+                "home": "返回首頁",
+                "placeholder": "按標題或關鍵詞搜索討論…"
             }
         },
         "lib": {
             "onebox": {
-                "state_open": "",
-                "state_closed": "",
-                "state_merged": "",
-                "state_release": "",
-                "state_prerelease": "",
-                "state_draft": "",
-                "comments": "",
-                "files": "",
-                "assets": "",
-                "commits": "",
-                "lines_of": ""
+                "state_open": "開啟",
+                "state_closed": "已關閉",
+                "state_merged": "已合併",
+                "state_release": "正式版本",
+                "state_prerelease": "預先發行版本",
+                "state_draft": "草稿",
+                "comments": "{count, plural, one {# 則留言} other {# 則留言}}",
+                "files": "{count, plural, one {變更了 # 個檔案} other {變更了 # 個檔案}}",
+                "assets": "{count, plural, one {# 個資源} other {# 個資源}}",
+                "commits": "{count, plural, one {# 次提交} other {# 次提交}}",
+                "lines_of": "第 {from}–{to} 行，共 {total} 行 · 前往 GitHub 查看"
             }
         }
     },
