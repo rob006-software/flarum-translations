@@ -175,7 +175,7 @@ return [
 		'__builtInLanguages' => ['de', 'es'],
 	],
 	'ernestdefoe-answers' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/answers/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/answers/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-anthology' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/anthology/1.1.1/locale/en.yml',
