@@ -1354,6 +1354,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Tapao-NonSen/LINE-Notification/2.2.0/locale/en.yml',
 		'__builtInLanguages' => ['th'],
 	],
+	'tcs-edit-post' => [
+		'tag' => 'https://raw.githubusercontent.com/TaCraft-Sociality/flarum-edit-post/1.0.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.5.1/resources/locale/en.yml',
 		'__builtInLanguages' => ['de'],
