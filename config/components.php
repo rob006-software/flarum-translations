@@ -429,7 +429,7 @@ return [
 		'__builtInLanguages' => ['fr'],
 	],
 	'ernestdefoe-ridge' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ridge/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/ridge/v1.2.1/locale/en.yml',
 	],
 	'ernestdefoe-roleplay' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/roleplay/v1.1.11/resources/locale/en.yml',
