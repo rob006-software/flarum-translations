@@ -362,7 +362,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.20.2/locale/en.yml',
 	],
 	'ernestdefoe-masthead' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.6.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.6.1/locale/en.yml',
 	],
 	'ernestdefoe-member-map' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-map/1.0.1/locale/en.yml',
