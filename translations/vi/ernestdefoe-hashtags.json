@@ -24,6 +24,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "per_page_label": "",
+                "per_page_help": ""
+            },
             "backfill": {
                 "heading": "Bài viết sẵn có",
                 "body": "Những bài viết được viết trước khi cài Hashtags được lưu mà không có liên kết hashtag, nên chúng sẽ không xuất hiện trong dòng tin nào cho tới khi được phân tích lại. Hãy chạy lệnh này một lần từ thư mục Flarum của bạn:",

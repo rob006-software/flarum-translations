@@ -12,6 +12,34 @@
             "staff_group_none": "— Administrators and holders of the “View all support tickets” permission —",
             "auto_assign": "Auto-assign new tickets",
             "auto_assign_help": "Hand every new ticket to the support team member with the fewest open tickets.",
+            "webhooks": {
+                "title": "Webhooks",
+                "help": "Send new tickets and replies to Discord, Slack, Microsoft Teams or any other webhook endpoint. Webhooks run independently of in-forum alerts and e-mails.",
+                "enabled": "Enable webhooks",
+                "enabled_help": "When enabled, the selected events are posted to every configured webhook URL.",
+                "urls": "Webhook URLs",
+                "urls_help": "One URL per line. Start a line with discord|, slack|, teams| or json| to pick a format for that endpoint; otherwise the default format below is used. Lines starting with # are ignored. Up to 10 endpoints.",
+                "format": "Default format",
+                "format_help": "Used for URLs without a format prefix.",
+                "format_discord": "Discord",
+                "format_slack": "Slack / Mattermost / Rocket.Chat",
+                "format_teams": "Microsoft Teams",
+                "format_generic": "Generic JSON",
+                "new_ticket": "New tickets",
+                "new_ticket_help": "Post a message when a user opens a ticket.",
+                "ticket_reply": "New replies",
+                "ticket_reply_help": "Post a message when someone replies to a ticket.",
+                "include_content": "Include message content",
+                "include_content_help": "Include an excerpt of the ticket or reply message in the payload. Disable to send metadata only.",
+                "username": "Webhook username",
+                "username_help": "Optional display name used by Discord and compatible endpoints. Defaults to the forum title.",
+                "test": "Send test message",
+                "test_help": "Sends a test message to the URLs above using the current form values. Save the settings afterwards.",
+                "test_success": "Test message sent to {count} endpoint(s).",
+                "test_failure": "Test failed for {count} endpoint(s).",
+                "test_failure_generic": "The test message could not be sent.",
+                "test_no_urls": "No webhook URLs are configured."
+            },
             "permissions": {
                 "view_all": "View all support tickets",
                 "reply": "Reply to support tickets",
@@ -125,6 +153,27 @@
                     "radio": "Radio buttons",
                     "checkbox": "Checkboxes"
                 }
+            }
+        },
+        "webhook": {
+            "new_ticket_title": "New support ticket: {subject}",
+            "reply_title": "New reply on: {subject}",
+            "staff_reply_title": "Staff reply on: {subject}",
+            "test_title": "Support Tickets webhook test",
+            "test_description": "This is a test message from {forum}. If you can read this, the webhook is working.",
+            "view_ticket": "View ticket",
+            "fields": {
+                "category": "Category",
+                "priority": "Priority",
+                "status": "Status",
+                "opened_by": "Opened by",
+                "replied_by": "Replied by",
+                "assigned_to": "Assigned to",
+                "department": "Department",
+                "staff_reply": "Staff reply",
+                "yes": "Yes",
+                "no": "No",
+                "none": "—"
             }
         },
         "forum": {

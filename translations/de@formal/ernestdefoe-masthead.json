@@ -2,6 +2,8 @@
     "ernestdefoe-masthead": {
         "forum": {
             "compose": "Diskussion starten",
+            "views": "",
+            "last_reply": "",
             "strip": {
                 "online": "{count, plural, one {# Mitglied online} other {# Mitglieder online}}"
             },
@@ -73,6 +75,7 @@
                 "started": "Gestartet",
                 "last_reply": "Letzte Antwort",
                 "replies": "Antworten",
+                "views": "",
                 "participants_label": "Teilnehmer",
                 "more_in": "Mehr in {tag}"
             }
@@ -175,6 +178,8 @@
                 "fill_help": "Wenn diese Option deaktiviert ist, werden bei einer Quelle mit weniger als vier Inhalten nur die vorhandenen angezeigt. Ist sie aktiviert, werden die übrigen Plätze mit den neuesten Diskussionen aus beliebigen Tags aufgefüllt.",
                 "tags_label": "Tag bei jedem Inhalt anzeigen",
                 "tags_help": "Zeigt den Tag-Namen auf dem hervorgehobenen Inhalt und über den Inhalten daneben an. Deaktiviere diese Option für eine aufgeräumtere Darstellung. Die Tag-Farben der Inhalte bleiben erhalten.",
+                "last_reply_label": "",
+                "last_reply_help": "",
                 "type_label": "Inhaltstyp aus Page Builder",
                 "type_help": "Die URL-Kennung des Inhaltstyps, dessen Einträge hervorgehoben werden sollen, z. B. articles."
             },
@@ -192,7 +197,9 @@
                 "polls_label": "Wohin die Umfrage im Eröffnungsbeitrag führt",
                 "polls_help": "Entweder direkt im Beitrag, wie von fof/polls dargestellt, oder in der Seitenleiste unter „Über diese Diskussion“, damit der Artikel nicht unterbrochen wird. Die Seitenleiste wird nur auf breiten Bildschirmen angezeigt; auf Smartphones und in schmalen Fenstern bleibt die Umfrage im Beitrag. Umfragen in Antworten bleiben immer in der jeweiligen Antwort.",
                 "polls_post": "Im Beitrag",
-                "polls_sidebar": "In der Seitenleiste"
+                "polls_sidebar": "In der Seitenleiste",
+                "views_label": "",
+                "views_help": ""
             },
             "portal": {
                 "tag_count_label": "Bereiche im Raster",

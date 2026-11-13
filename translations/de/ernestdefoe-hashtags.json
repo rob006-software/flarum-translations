@@ -24,6 +24,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "per_page_label": "",
+                "per_page_help": ""
+            },
             "backfill": {
                 "heading": "Vorhandene Beiträge",
                 "body": "Beiträge, die vor der Installation von „Hashtags“ verfasst wurden, werden ohne Hashtag-Links gespeichert und erscheinen daher erst dann in einem Feed, wenn sie neu geparst wurden. Führe diesen Befehl einmalig in deinem Flarum-Verzeichnis aus:",

@@ -24,6 +24,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "per_page_label": "",
+                "per_page_help": ""
+            },
             "backfill": {
                 "heading": "Mevcut iletiler",
                 "body": "Hashtags kurulmadan önce yazılan iletiler, etiket bağlantıları olmadan saklanır; bu nedenle yeniden ayrıştırılana kadar hiçbir akışta görünmezler. Flarum dizininizden bu komutu bir kez çalıştırın:",

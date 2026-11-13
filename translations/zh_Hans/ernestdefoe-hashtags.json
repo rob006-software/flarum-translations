@@ -24,6 +24,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "per_page_label": "",
+                "per_page_help": ""
+            },
             "backfill": {
                 "heading": "现有帖子",
                 "body": "安装 Hashtags 之前发布的帖子中没有保存话题链接，因此在重新解析前不会出现在话题页面中。请在 Flarum 根目录运行一次以下命令：",

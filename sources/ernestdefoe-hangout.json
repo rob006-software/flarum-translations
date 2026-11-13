@@ -110,7 +110,19 @@
                 "hm": "{h}h {m}m",
                 "m": "{m}m"
             },
+            "outside": {
+                "label": "Whisper from the Hangout",
+                "body": "{label}: {text}\n\nAnswer here, or in the Hangout: {url}",
+                "looking": "{name} is looking for you.",
+                "via": {
+                    "parley": "Parley",
+                    "chat": "Chat",
+                    "messages": "Messages"
+                }
+            },
             "errors": {
+                "outside_refused": "{name} can't be sent a message right now.",
+                "outside_too_many": "Someone who isn't here gets it as a direct message, so you can only reach {max} of them at once.",
                 "generic": "Something went wrong. Try again in a moment.",
                 "permission_denied": "You don't have permission to do that.",
                 "slow_down": "Slow down a little: you're talking faster than the room allows.",
@@ -168,6 +180,7 @@
                 "tell": "{name} tells you, “{text}”",
                 "tell_group": "{name} tells you and {others}, “{text}”",
                 "tell_sent": "You tell {to}, “{text}”",
+                "tell_via": "{name} answers in {via}, “{text}”",
                 "remote": "From afar, {name} {text}",
                 "remote_group": "From afar (to you and {others}), {name} {text}",
                 "remote_sent": "To {to}, from afar: {name} {text}",
@@ -191,6 +204,8 @@
                 "mute_hour": "Mute 1 hour"
             },
             "out": {
+                "outside_sent": "{count, plural, one {{names} isn't} other {{names} aren't}} in the Hangout, so it went to their {via}.",
+                "outside_refused": "{names} couldn't be sent it in {via}, so they didn't get it.",
                 "unknown": "Sorry, “{command}” isn't a command. Type help for a list.",
                 "removed": "Message removed.",
                 "reported": "Thanks. The moderators have been told.",
@@ -301,7 +316,7 @@
                     "think": "A thought bubble.",
                     "feelings": "Every feeling command: wave, hug, ack, aha, baa, moose…",
                     "page": "A short message to people in any room.",
-                    "tell": "A private message to people in any room.",
+                    "tell": "A private message to people in any room. Someone who isn't here gets it as a direct message, if the forum has Parley, Chat or Messages.",
                     "remote": "Act at someone from afar.",
                     "recall": "The last eight pages and tells sent to you.",
                     "reply": "Answer whoever last paged or told you.",
@@ -352,7 +367,18 @@
                 "keep_days": "Keep talk for (days)",
                 "keep_days_help": "Older room talk, pages and tells are forgotten.",
                 "timezone": "The forum's clock",
-                "timezone_help": "A time zone such as America/Chicago, for the sky and the time command. Empty uses the server's."
+                "timezone_help": "A time zone such as America/Chicago, for the sky and the time command. Empty uses the server's.",
+                "outside": "Pages and tells for someone who isn't here",
+                "outside_help": "They go out as a direct message through the first of these that is installed, labeled “Whisper from the Hangout” with a link back. Answers in Chat or Messages come back to the sender's Tells while they're in the Hangout; Parley's go one way. The recipient's blocks and their own settings in that extension still apply.",
+                "outside_options": {
+                    "parley_chat_messages": "Parley, then Chat, then Messages",
+                    "chat_parley_messages": "Chat, then Parley, then Messages",
+                    "messages_parley_chat": "Messages, then Parley, then Chat",
+                    "parley": "Parley only",
+                    "chat": "Chat only",
+                    "messages": "Messages only",
+                    "off": "Off: only people in the Hangout"
+                }
             },
             "ranks": {
                 "deity": "Deity",

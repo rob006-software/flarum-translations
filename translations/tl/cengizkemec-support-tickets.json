@@ -12,6 +12,34 @@
             "staff_group_none": "",
             "auto_assign": "",
             "auto_assign_help": "",
+            "webhooks": {
+                "title": "",
+                "help": "",
+                "enabled": "",
+                "enabled_help": "",
+                "urls": "",
+                "urls_help": "",
+                "format": "",
+                "format_help": "",
+                "format_discord": "",
+                "format_slack": "",
+                "format_teams": "",
+                "format_generic": "",
+                "new_ticket": "",
+                "new_ticket_help": "",
+                "ticket_reply": "",
+                "ticket_reply_help": "",
+                "include_content": "",
+                "include_content_help": "",
+                "username": "",
+                "username_help": "",
+                "test": "",
+                "test_help": "",
+                "test_success": "",
+                "test_failure": "",
+                "test_failure_generic": "",
+                "test_no_urls": ""
+            },
             "permissions": {
                 "view_all": "",
                 "reply": "",
@@ -125,6 +153,27 @@
                     "radio": "",
                     "checkbox": ""
                 }
+            }
+        },
+        "webhook": {
+            "new_ticket_title": "",
+            "reply_title": "",
+            "staff_reply_title": "",
+            "test_title": "",
+            "test_description": "",
+            "view_ticket": "",
+            "fields": {
+                "category": "",
+                "priority": "",
+                "status": "",
+                "opened_by": "",
+                "replied_by": "",
+                "assigned_to": "",
+                "department": "",
+                "staff_reply": "",
+                "yes": "",
+                "no": "",
+                "none": ""
             }
         },
         "forum": {

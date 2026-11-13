@@ -6,11 +6,31 @@
             "post_marks_label": "Mark every post on the scrubber",
             "post_marks_help": "Draws a thin mark for each post on the scrubber. Pointing at the scrubber opens a list of the posts around that spot, with who wrote each one and when, and clicking one jumps straight to it. On phones, tap the scrubber to open the list.\n",
             "big_number_label": "Big post number",
-            "big_number_help": "Restyles the scrubber with a thick bar that fills as you read and the current post number shown large.\n"
+            "big_number_help": "Restyles the scrubber with a thick bar that fills as you read and the current post number shown large.\n",
+            "years_label": "Year rail on the discussion list",
+            "years_help": "Shows every year the list holds, newest first, each with its number of discussions and a bar shaded by how much was said that year. Clicking a year shows that year's discussions, and pointing at one previews its most active discussions. On phones it becomes a row of years above the list.\n",
+            "years_pages_label": "Show the year rail on",
+            "years_pages_both": "The discussion list and tag pages",
+            "years_pages_index": "The discussion list only",
+            "years_pages_tags": "Tag pages only",
+            "years_min_label": "Minimum number of years",
+            "years_min_help": "The rail stays hidden until the list spans at least this many years.\n",
+            "years_date_label": "A discussion's year is",
+            "years_date_help": "When it started never changes. When it was last active moves an old discussion to this year as soon as someone replies to it.\n",
+            "years_date_created": "When it started",
+            "years_date_activity": "When it was last active"
         },
         "forum": {
             "lens_label": "Posts near this point",
-            "event_row": "Discussion update"
+            "event_row": "Discussion update",
+            "years": {
+                "label": "Browse by year",
+                "count": "{count, plural, one {# discussion} other {# discussions}}",
+                "showing": "Showing {year}",
+                "back": "Back to latest",
+                "preview_heading": "Most active in {year}",
+                "preview_empty": "Nothing to preview."
+            }
         }
     }
 }

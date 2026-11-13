@@ -24,6 +24,10 @@
             }
         },
         "admin": {
+            "settings": {
+                "per_page_label": "Hashtags shown per page",
+                "per_page_help": "How many hashtags the Hashtags page lists, from 1 to 100. The default is 60."
+            },
             "backfill": {
                 "heading": "Existing posts",
                 "body": "Posts written before Hashtags was installed are stored without hashtag links, so they won't appear in any feed until they're re-parsed. Run this once from your Flarum directory:",

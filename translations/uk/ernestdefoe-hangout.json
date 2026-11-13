@@ -110,7 +110,19 @@
                 "hm": "",
                 "m": ""
             },
+            "outside": {
+                "label": "",
+                "body": "",
+                "looking": "",
+                "via": {
+                    "parley": "",
+                    "chat": "",
+                    "messages": ""
+                }
+            },
             "errors": {
+                "outside_refused": "",
+                "outside_too_many": "",
                 "generic": "",
                 "permission_denied": "",
                 "slow_down": "",
@@ -168,6 +180,7 @@
                 "tell": "",
                 "tell_group": "",
                 "tell_sent": "",
+                "tell_via": "",
                 "remote": "",
                 "remote_group": "",
                 "remote_sent": "",
@@ -191,6 +204,8 @@
                 "mute_hour": ""
             },
             "out": {
+                "outside_sent": "",
+                "outside_refused": "",
                 "unknown": "",
                 "removed": "",
                 "reported": "",
@@ -352,7 +367,18 @@
                 "keep_days": "",
                 "keep_days_help": "",
                 "timezone": "",
-                "timezone_help": ""
+                "timezone_help": "",
+                "outside": "",
+                "outside_help": "",
+                "outside_options": {
+                    "parley_chat_messages": "",
+                    "chat_parley_messages": "",
+                    "messages_parley_chat": "",
+                    "parley": "",
+                    "chat": "",
+                    "messages": "",
+                    "off": ""
+                }
             },
             "ranks": {
                 "deity": "",
