@@ -229,7 +229,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cuecard/v1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-curio' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.26.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/curio/v1.26.1/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
 	],
 	'ernestdefoe-depot' => [
