@@ -1,19 +1,19 @@
 {
     "core": {
         "ref": {
-            "most_viewed": "",
-            "least_viewed": ""
+            "most_viewed": "Más vistos",
+            "least_viewed": "Menos vistas"
         },
         "forum": {
             "index_sort": {
-                "most_viewed_button": "Más vistas",
-                "least_viewed_button": "Menos vistas"
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         },
         "lib": {
             "index_sort": {
-                "most_viewed_button": "",
-                "least_viewed_button": ""
+                "most_viewed_button": "=> core.ref.most_viewed",
+                "least_viewed_button": "=> core.ref.least_viewed"
             }
         }
     },
@@ -35,8 +35,8 @@
             },
             "settings": {
                 "ignore_crawlers": "Ignorar visitas de rastreadores",
-                "dedupe_ttl": "",
-                "dedupe_ttl_help": ""
+                "dedupe_ttl": "Segundos antes de volver a contar la visita de un usuario",
+                "dedupe_ttl_help": "Tiempo que se recuerda a un usuario tras ver una discusión para que al actualizar la página o volver a entrar no se cuente otra vez. Configúralo en 0 para contar cada visita."
             }
         },
         "lib": {
