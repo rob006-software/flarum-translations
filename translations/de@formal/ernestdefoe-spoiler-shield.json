@@ -1,44 +1,44 @@
 {
     "ernestdefoe-spoiler-shield": {
         "lib": {
-            "placeholder": "",
-            "placeholder_unnamed": "",
+            "placeholder": "Spoiler für {label} ({work})",
+            "placeholder_unnamed": "Spoiler für {label}",
             "later": "",
-            "finished": "",
-            "season": "",
-            "chapter": "",
+            "finished": "Abgeschlossen",
+            "season": "Staffel {number}",
+            "chapter": "Kapitel {number}",
             "gdpr": {
                 "export": "",
                 "delete": ""
             }
         },
         "api": {
-            "invalid_work": "",
+            "invalid_work": "Dieses Buch, Fernsehserie oder Spiel existiert nicht.",
             "invalid_position": "",
             "invalid_quote_other_work": ""
         },
         "forum": {
             "veil": {
-                "spoiler_for": "",
-                "spoiler": "",
-                "tap": "",
-                "revealing": "",
-                "reveal_label": "",
+                "spoiler_for": "Spoiler für {label}",
+                "spoiler": "Spoiler",
+                "tap": "Zum Aufdecken antippen",
+                "revealing": "Wird aufgedeckt…",
+                "reveal_label": "Diesen Spoiler für {label} in {work} aufdecken",
                 "guest": "",
-                "set_progress": "",
-                "you_are_at": "",
+                "set_progress": "Wie weit bist du gekommen",
+                "you_are_at": "Du bist bei {label}. Ändern",
                 "offer": ""
             },
             "mark": {
-                "title": "",
-                "revealed": "",
-                "discussion_title": "",
+                "title": "Spoiler bis hier in {work}",
+                "revealed": "{label} (aufgedeckt)",
+                "discussion_title": "Spoilermarkierung",
                 "discussion_help": "",
                 "reply_title": "",
                 "reply_help": "",
-                "search": "",
-                "none_found": "",
-                "other_work": "",
+                "search": "Finde ein Buch, eine Fernsehserie oder ein Spiel",
+                "none_found": "Unter diesem Namen wurde nichts gefunden.",
+                "other_work": "Wähle etwas anderes aus",
                 "use": "",
                 "no_mark": "",
                 "nothing_past": "",
