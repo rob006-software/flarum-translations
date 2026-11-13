@@ -222,6 +222,9 @@ return [
 	'ernestdefoe-connect' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.6/locale/en.yml',
 	],
+	'ernestdefoe-corkboard' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/corkboard/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-cross-references' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/cross-references/3.2.1/locale/en.yml',
 	],
