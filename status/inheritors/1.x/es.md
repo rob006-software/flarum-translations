@@ -651,7 +651,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Delete this personal threadmark?
 
 ```diff
-+¿Desea eliminar este índice  personal?
++¿Desea eliminar este índice personal?
 ```
 
 #### [`ffans-threadmarks.forum.manage_modal.discussion_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/es/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.discussion_tab%22)
@@ -3506,7 +3506,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Oh no!
 
 ```diff
-+Sin resultados
++¡Oh no!
 ```
 
 #### [`pianotell-flamoji.forum.emoji-mart.pick`](https://weblate.rob006.net/translate/flarum2/pianotell-flamoji/es/?q=context%3A%3D%22pianotell-flamoji.forum.emoji-mart.pick%22)
@@ -4101,7 +4101,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Set the width (in %) of the primary cards on desktop. (between 10 and 100)
 
 ```diff
-+Establezca el ancho (en %) de las tarjetas primarias en pantallas de escritorio (entre 10 y 100).
++Establezca el ancho (en %) de las tarjetas primarias en pantallas de escritorio (entre 10 y 100)
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.desktopCardWidth_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.desktopCardWidth_label%22)
@@ -4133,7 +4133,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Number of discussion list items to be shown as smaller cards when &lt;em&gt;Use cards for discussion lists&lt;/em&gt; is activated (0 for all, max: 20)
 
 ```diff
-+Cantidad de elementos del listado a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20).
++Cantidad de elementos a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20)
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.listCardsCount_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.listCardsCount_label%22)
@@ -4149,7 +4149,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Display discussion list items as cards (smaller than primary cards). If not activated, default flarum discussion list items will be shown (no cards)
 
 ```diff
-+Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de Flarum.
++Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de flarum (sin tarjetas)
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.listCards_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.listCards_label%22)
@@ -4413,7 +4413,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Set the width (in %) of the primary cards on tablets. (between 10 and 100)
 
 ```diff
-+Establezca el ancho (en %) de las tarjetas primarias en pantallas de tabletas (entre 10 y 100).
++Establezca el ancho (en %) de las tarjetas primarias en pantallas de tabletas (entre 10 y 100)
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.tabletCardWidth_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.tabletCardWidth_label%22)
@@ -4607,7 +4607,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +Estas opciones le permiten eliminar las imágenes de tarjetas del servidor. Puede consultar más opciones de limpieza con el comando: <code>php flarum discussion-cards:purge-images --help</code>
-+<strong>ADVERTENCIA: ¡Estas acciones son irreversibles!</strong> Tenga en cuenta que las imágenes predeterminadas (generales o de etiqueta) no se eliminarán desde aquí.
++<strong>ADVERTENCIA: ¡Estas acciones son irreversibles!</strong> Tenga en cuenta que las imágenes predeterminadas (generales o de etiqueta) no se eliminarán desde aquí
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.statsToolsBanner.purgeImagesModal_runningCommand`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.statsToolsBanner.purgeImagesModal_runningCommand%22)
