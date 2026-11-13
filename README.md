@@ -1024,6 +1024,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-google-fonts`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-google-fonts) | [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) |
 | [`ernestdefoe-greeter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-greeter) | [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) |
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
+| [`ernestdefoe-hangout`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hangout) | [`ernestdefoe/hangout`](https://github.com/ernestdefoe/hangout) |
 | [`ernestdefoe-hashtags`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-hashtags) | [`ernestdefoe/hashtags`](https://github.com/ernestdefoe/hashtags) |
 | [`ernestdefoe-header-nav`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-header-nav) | [`ernestdefoe/header-nav`](https://github.com/ernestdefoe/header-nav) |
 | [`ernestdefoe-herald`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-herald) | [`ernestdefoe/herald`](https://github.com/ernestdefoe/herald) |
