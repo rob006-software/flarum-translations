@@ -497,6 +497,9 @@ return [
 	'ernestdefoe-syllabus' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/syllabus/1.1.0/locale/en.yml',
 	],
+	'ernestdefoe-testimonials' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/testimonials/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.13/locale/en.yml',
 	],
