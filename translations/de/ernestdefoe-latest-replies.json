@@ -2,12 +2,12 @@
     "ernestdefoe-latest-replies": {
         "lib": {
             "title": "Neueste Antworten",
-            "widget_title": "Titel (leer bei „Neueste Antworten“)",
+            "widget_title": "Titel (leer lassen für „Neueste Antworten“)",
             "widget_count": "Wie viele",
             "widget_wide": "Breite Zeilen (Auszug und Tag)"
         },
         "forum": {
-            "replied_to": "{name} antwortete auf",
+            "replied_to": "{name} hat geantwortet auf",
             "started": "{name} hat gestartet",
             "empty": "Noch keine Antworten.",
             "deleted_user": "Gelöschter Benutzer",
@@ -18,24 +18,24 @@
         },
         "admin": {
             "settings": {
-                "placement": "Wo es zu sehen ist",
+                "placement": "Wo die Liste angezeigt wird",
                 "placement_help": "Auf Smartphones und bei Layouts ohne sichtbare Seitenleiste wird die Seitenleistenauswahl oben in der Liste angezeigt. Auch „Bespoke“, „FoF Widgets“ und „Page Builder“ können sie dort platzieren; diese Position wird freigegeben, sobald eine dieser Anwendungen sie dort anzeigt.",
                 "placement_sidebar": "Seitenleiste",
-                "placement_top": "Oben über der Diskussionsliste",
+                "placement_top": "Oberhalb der Diskussionsliste",
                 "placement_none": "Nur dort, wo ein Widget-Host es platziert",
                 "discussion_page": "Außerdem neben den Diskussionen, unter dem Beitrags-Scroller",
                 "count": "Wie viele Zeilen",
                 "count_help": "Zwischen 3 und 20.",
                 "mode": "Jede Zeile ist",
                 "mode_help": "„Eine pro Diskussion“ verhindert, dass eine einzelne lebhafte Diskussion die Liste überfüllt.",
-                "mode_discussion": "Je eine pro Diskussion (die neueste Antwort)",
+                "mode_discussion": "Eine pro Diskussion (die neueste Antwort)",
                 "mode_post": "Eine pro Beitrag",
                 "first_posts": "Neue Diskussionen einbeziehen, die noch keine Antworten haben",
                 "excerpt": "Einen Auszug aus jeder Antwort anzeigen",
                 "excerpt_help": "Es werden nur die eigentlichen Worte der Antwort wiedergegeben: Spoiler, Code, Zitate und eingebettete Inhalte werden weggelassen.",
                 "excerpt_length": "Länge des Auszugs (Zeichen)",
                 "tags": "Tags",
-                "tags_help": "Lassen Sie alle Tags auf „Alle“ eingestellt, um sie alle aufzulisten. Auf der Seite eines Tags zeigt das Widget dieses Tag an.",
+                "tags_help": "Belasse alle Tags auf „Alle“ eingestellt, um sie alle aufzulisten. Auf der Tag-Seite zeigt das Widget dieses Tag an.",
                 "tag_any": "Alle",
                 "tag_only": "Nur diese",
                 "tag_never": "Niemals"
