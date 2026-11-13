@@ -1096,9 +1096,7 @@ return [
 	],
 	'specia1z-points' => [
 		'tag' => 'https://raw.githubusercontent.com/Specia1z/Flarum-Points/v2.0.2/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'stezkoy-ai-openreply' => [
 		'tag' => 'https://raw.githubusercontent.com/Stezkoy/flarum-ai-openreply/3.0.1/locale/en.yml',
