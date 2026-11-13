@@ -391,6 +391,9 @@ return [
 	'ernestdefoe-opensearch' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/opensearch/v1.0.5/locale/en.yml',
 	],
+	'ernestdefoe-panels' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/panels/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-parley' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.11.0/locale/en.yml',
 	],
