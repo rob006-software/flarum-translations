@@ -382,6 +382,9 @@ return [
 	'ernestdefoe-mural' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/mural/1.0.0/locale/en.yml',
 	],
+	'ernestdefoe-nameplate' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/nameplate/1.1.0/locale/en.yml',
+	],
 	'ernestdefoe-onair' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/onair/v0.1.12/locale/en.yml',
 	],
