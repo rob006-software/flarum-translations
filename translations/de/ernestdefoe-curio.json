@@ -13,7 +13,7 @@
                 "pending": "Nicht begonnen",
                 "in_progress": "In Bearbeitung",
                 "completed": "Abgeschlossen",
-                "abandoned": ""
+                "abandoned": "Aufgegeben"
             },
             "condition": {
                 "sealed": "Versiegelt",
@@ -361,8 +361,8 @@
                 "new_items_setting": "Eine Sammlung, der ich folge, hat neue Artikel",
                 "wishlist_added": "{username} Zur Wunschliste von {name} hinzugefügt",
                 "wishlist_added_setting": "",
-                "progress_changed": "",
-                "progress_changed_setting": "",
+                "progress_changed": "{username} hat etwas in {name} begonnen, abgeschlossen oder aufgegeben",
+                "progress_changed_setting": "Etwas wurde in einer Sammlung, der ich folge entweder begonnen, abgeschlossen oder aufgegeben",
                 "rating_changed": "{username} hat etwas in {name} bewertet",
                 "rating_changed_setting": ""
             },
@@ -383,7 +383,7 @@
             },
             "settings": {
                 "upc_label": "UPCitemdb-Schlüssel (optional)",
-                "upc_help": "Barcodes für Spiele, Filme und andere Produkte werden in der UPCitemdb nachgeschlagen, die täglich 100 Abfragen ohne Schlüssel zulässt. Jeder vom Forum identifizierte Barcode wird gespeichert, sodass die meisten Foren nie mehr benötigen. Mit einem kostenpflichtigen Schlüssel lässt sich das Limit erhöhen.",
+                "upc_help": "Das Scannen von Barcodes funktioniert ganz ohne Schlüssel. Bücher werden bei Open Library und Musikalben bei Deezer und MusicBrainz abgefragt. Spiele, Filme und andere Produkte werden bei UPCitemdb (kein Schlüssel, 100 pro Tag, am besten geeignet für nordamerikanische Verpackungen) und Open Icecat (kein Schlüssel, am besten geeignet für europäische Verpackungen: Spiele, Konsolen, Elektronik, Spielzeug) abgefragt. Jeder Barcode, den das Forum auflöst oder den ein Mitglied manuell zuordnet, wird gespeichert, sodass nie zweimal danach gefragt werden muss. Ein kostenpflichtiger UPCitemdb-Schlüssel erhöht lediglich das Tageslimit von UPCitemdb; die meisten Foren benötigen keinen.",
                 "upc_link": "UPCitemdb-Abonnements",
                 "editions_label": "",
                 "editions_help": "",
@@ -561,7 +561,7 @@
             },
             "progress_changed": {
                 "subject": "Fortschritt in {name}",
-                "body": ""
+                "body": "Hallo {recipient_display_name}, {owner} hat etwas in {name}, einer Sammlung, der du folgst, entweder begonnen, abgeschlossen oder aufgegeben."
             },
             "rating_changed": {
                 "subject": "Neue Bewertungen in {name}",
