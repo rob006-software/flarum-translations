@@ -195,6 +195,9 @@ return [
 	'ernestdefoe-brainstorm' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.1.2/locale/en.yml',
 	],
+	'ernestdefoe-broadsheet' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/broadsheet/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-buzz' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/buzz/1.1.2/locale/en.yml',
 	],
