@@ -307,6 +307,9 @@ return [
 	'ernestdefoe-header-nav' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.8.2/locale/en.yml',
 	],
+	'ernestdefoe-hearth' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hearth/1.0.1/locale/en.yml',
+	],
 	'ernestdefoe-herald' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/2.0.1/locale/en.yml',
 	],
