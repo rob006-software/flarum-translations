@@ -1129,6 +1129,10 @@ return [
 	'linkrobins-wiki' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-wiki/v1.11.3/locale/en.yml',
 	],
+	'liufencn-short-slug' => [
+		'tag' => 'https://raw.githubusercontent.com/LiuFenCN/flarum-short-slug/v1.0.1/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/2.0.1/locale/en.yml',
 		'__builtInLanguages' => ['it'],
