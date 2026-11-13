@@ -880,6 +880,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/1.1.1/resources/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
+	'gitzaai-mobile-ui-tab-2' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/mobile-ui-tab-2/0.1/resources/locale/en.yml',
+		'__builtInLanguages' => ['ja', 'zh_Hans'],
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/glowingblue-localizd.yml',
 	],
