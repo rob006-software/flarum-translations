@@ -298,6 +298,9 @@ return [
 	'ernestdefoe-group-messages' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.1.1/locale/en.yml',
 	],
+	'ernestdefoe-hangout' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hangout/1.0.2/locale/en.yml',
+	],
 	'ernestdefoe-hashtags' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.0.8/locale/en.yml',
 	],
