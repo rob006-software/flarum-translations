@@ -1276,6 +1276,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-country-flags/1.9.0/locale/en.yml',
 		'__builtInLanguages' => ['vi'],
 	],
+	'litalino-forum-stats-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-forum-stats-widget/1.0.0/locale/en.yml',
+		'__builtInLanguages' => ['vi'],
+	],
 	'litalino-geo-weather-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/Litalino/flarum-geo-weather-widget/1.1.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['vi'],
