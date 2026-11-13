@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Analisa apenas o conteúdo de usuários com menos posts que este número. Defina 0 para desativar a verificação por número de posts.",
                     "monitor_hours_old_label": "Monitorar usuários até esta idade (horas)",
                     "monitor_hours_old_help": "Analisa apenas o conteúdo de usuários cujas contas são mais novas que este número de horas. Defina 0 para desativar a verificação por idade.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Métodos de Detecção",
                     "detect_phones_label": "Detectar números de telefone",
                     "detect_phones_help": "Sinaliza conteúdo com números de telefone em formato internacional.",
@@ -219,7 +223,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Detecção Automática de Spam - pontuação {score}"
+                "flagged_as_spam_text": "Detecção Automática de Spam - pontuação {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

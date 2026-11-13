@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Analysoi vain niiden käyttäjien sisältöä, joilla on tätä vähemmän viestejä. Aseta arvoksi 0 poistaaksesi viestirajatarkistuksen käytöstä.",
                     "monitor_hours_old_label": "Seuraa käyttäjiä tuntirajan asti",
                     "monitor_hours_old_help": "Analysoi vain niiden käyttäjien sisältöä, joiden tilit ovat tätä nuorempia tunteina. Aseta arvoksi 0 poistaaksesi ikätarkistuksen käytöstä.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Tunnistustavat",
                     "detect_phones_label": "Tunnista puhelinnumerot",
                     "detect_phones_help": "Merkitse sisältö, joka sisältää puhelinnumeroita kansainvälisessä muodossa.",
@@ -217,7 +221,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Automaattinen roskapostin tunnistus — pistemäärä {score}"
+                "flagged_as_spam_text": "Automaattinen roskapostin tunnistus — pistemäärä {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

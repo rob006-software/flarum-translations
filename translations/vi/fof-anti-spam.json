@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Chỉ phân tích nội dung của những người dùng có ít hơn số bài viết này. Đặt 0 để tắt việc kiểm tra theo số bài viết.",
                     "monitor_hours_old_label": "Theo dõi tài khoản mới hơn bấy nhiêu giờ",
                     "monitor_hours_old_help": "Chỉ phân tích nội dung của những người dùng có tài khoản mới hơn số giờ này. Đặt 0 để tắt việc kiểm tra theo tuổi tài khoản.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Cách phát hiện",
                     "detect_phones_label": "Phát hiện số điện thoại",
                     "detect_phones_help": "Gắn cờ nội dung có chứa số điện thoại theo định dạng quốc tế.",
@@ -219,7 +223,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Phát hiện spam tự động - điểm {score}"
+                "flagged_as_spam_text": "Phát hiện spam tự động - điểm {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

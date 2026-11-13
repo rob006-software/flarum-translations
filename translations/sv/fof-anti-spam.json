@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Analysera endast innehåll från användare som har gjort färre inlägg än detta antal. Ange 0 för att inaktivera kontrollen av antal inlägg.",
                     "monitor_hours_old_label": "Övervaka användare efter antal timmar sedan de skapades",
                     "monitor_hours_old_help": "Analysera endast innehåll från användare vars konton är nyare än detta antal timmar. Ange 0 för att inaktivera ålderskontrollen.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Detektionsmetoder",
                     "detect_phones_label": "Identifiera telefonnummer",
                     "detect_phones_help": "Flagga innehåll som innehåller telefonnummer i internationellt format.",
@@ -219,7 +223,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Automatisk identifiering av spam – poäng {score}"
+                "flagged_as_spam_text": "Automatisk identifiering av spam – poäng {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

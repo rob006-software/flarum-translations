@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Analizuj tylko treści użytkowników, którzy opublikowali mniej postów niż podana liczba. Ustaw 0, aby wyłączyć ten limit.",
                     "monitor_hours_old_label": "Monitoruj konta do określonego wieku (w godzinach)",
                     "monitor_hours_old_help": "Analizuj tylko treści użytkowników, których konta są młodsze niż podana liczba godzin. Ustaw 0, aby wyłączyć ten limit.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Metody wykrywania",
                     "detect_phones_label": "Wykrywaj numery telefonów",
                     "detect_phones_help": "Oznaczaj treści zawierające numery telefonów w formacie międzynarodowym.",
@@ -219,7 +223,8 @@
                 "trap_label": "Pozostaw to pole puste"
             },
             "post": {
-                "flagged_as_spam_text": "Automatyczne wykrywanie spamu – wynik: {score}"
+                "flagged_as_spam_text": "Automatyczne wykrywanie spamu – wynik: {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

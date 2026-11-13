@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Yalnızca bu sayıdan daha az gönderi paylaşmış kullanıcıların içeriklerini analiz et. Gönderi sayısı kontrolünü devre dışı bırakmak için değeri 0 olarak ayarla.",
                     "monitor_hours_old_label": "En fazla birkaç saat önce kayıt olan kullanıcıları izleyin",
                     "monitor_hours_old_help": "Yalnızca hesapları bu saat sayısından daha yeni olan kullanıcıların içeriklerini analiz et. Yaş kontrolünü devre dışı bırakmak için 0 olarak ayarla.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Tespit Yöntemleri",
                     "detect_phones_label": "Telefon numaralarını algıla",
                     "detect_phones_help": "Uluslararası formatta telefon numaraları içeren içeriği işaretleyin.",
@@ -217,7 +221,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Otomatik Spam Algılama - {score} Puan"
+                "flagged_as_spam_text": "Otomatik Spam Algılama - {score} Puan",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

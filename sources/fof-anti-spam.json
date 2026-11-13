@@ -28,16 +28,20 @@
                 },
                 "content-filter": {
                     "heading": "Content Filter",
-                    "introduction": "Automatically detect and flag spam content from new users. This system monitors posts and discussions from recently registered users for common spam indicators like phone numbers, email addresses, and suspicious URLs.",
+                    "introduction": "Automatically detect and flag spam content from new users. This system monitors posts and discussions from new accounts for common spam indicators like phone numbers, email addresses, and suspicious URLs.",
                     "enabled_label": "Enable content filtering",
                     "enabled_help": "When enabled, posts and discussions from new users will be analyzed for spam indicators.",
                     "user_targeting_heading": "User Targeting",
                     "monitor_all_users_label": "Monitor all users",
-                    "monitor_all_users_help": "Check every post, not just those from new accounts. Without this, an account is never examined again once it passes the limits below — which is exactly the case for a member whose account is compromised, or one that waits the limits out before posting spam. Administrators, and anyone whose group can hide discussions, are never monitored either way. Expect more false positives from established members, so review your thresholds before turning this on.\n",
+                    "monitor_all_users_help": "Check every post, not just those from new accounts. Without this, an account is never examined again once it passes the limits below — which is exactly the case for a member whose account is compromised, or one that posts harmlessly for a while before posting spam. Administrators, and anyone whose group can hide discussions, are never monitored either way. Expect more false positives from established members, so review your thresholds before turning this on.\n",
                     "monitor_post_count_label": "Monitor users up to post count",
-                    "monitor_post_count_help": "Only analyze content from users who have made fewer than this many posts. Set to 0 to disable post count checking.",
-                    "monitor_hours_old_label": "Monitor users up to hours old",
-                    "monitor_hours_old_help": "Only analyze content from users whose accounts are newer than this many hours. Set to 0 to disable age checking.",
+                    "monitor_post_count_help": "An account is monitored until it has made more than this many public posts and is also past the age limit below. Posts waiting for approval do not count until they are approved.\n",
+                    "monitor_hours_old_label": "Monitor users up to hours after their first post",
+                    "monitor_hours_old_help": "An account is monitored until this many hours after it wrote its first post that is now public, and is also past the post count above. The hours count from that post, not from registration, so an account gains nothing by sitting unused before it starts posting. With 0, only the post count decides.\n",
+                    "held_email_domains_heading": "Hold New Accounts by Email Domain",
+                    "held_email_domains_label": "Email domains to hold",
+                    "held_email_domains_help": "Every post from a new account whose email address is on one of these domains is held for approval, whatever it says. Enter one domain per line; subdomains are included. An account is new while it is inside the post count or age above, even when all users are monitored, and held posts only count towards the post count once approved. Only new posts are held: edits are left to the content filter. This applies even with the content filter switched off. Administrators, and anyone whose group can hide discussions, are never held. Moderators who can see flags are shown the domain that matched.\n",
+                    "monitor_window_held_only": "With all users monitored, the two limits below only decide which accounts the email domain hold applies to.",
                     "detectors_heading": "Detection Methods",
                     "detect_phones_label": "Detect phone numbers",
                     "detect_phones_help": "Flag content containing phone numbers in international format.",
@@ -214,7 +218,8 @@
                 "trap_label": "Leave this field empty"
             },
             "post": {
-                "flagged_as_spam_text": "Automatic Spam Detection - score {score}"
+                "flagged_as_spam_text": "Automatic Spam Detection - score {score}",
+                "held_email_domain_text": "Held for approval: new account with an email address on {domain}"
             },
             "message": {
                 "profile": {

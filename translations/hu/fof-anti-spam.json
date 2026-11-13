@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "Csak azon felhasználók tartalmának elemzése, akik ennél kevesebb bejegyzést tettek közzé. Állítsa 0-ra, hogy letiltsa a bejegyzések számának ellenőrzését.",
                     "monitor_hours_old_label": "Felhasználók követése adott számú óráig",
                     "monitor_hours_old_help": "Csak azon felhasználók tartalmának elemzése, akik fiókja ennyi óránál újabb. Állítsa 0-ra, hogy letiltsa a kor ellenőrzését.",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "Észlelési módszerek",
                     "detect_phones_label": "Telefonszámok észlelése",
                     "detect_phones_help": "Nemzetközi formátumú telefonszámokat tartalmazó tartalom jelentése.",
@@ -217,7 +221,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "Kéretlen tartalom automatikus észlelése – pontszám: {score}"
+                "flagged_as_spam_text": "Kéretlen tartalom automatikus észlelése – pontszám: {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {

@@ -38,6 +38,10 @@
                     "monitor_post_count_help": "检查发帖数量低于此值的用户，0 表示不检查。",
                     "monitor_hours_old_label": "检查注册时间",
                     "monitor_hours_old_help": "检查注册不满一定时间的用户，0 表示不检查。",
+                    "held_email_domains_heading": "",
+                    "held_email_domains_label": "",
+                    "held_email_domains_help": "",
+                    "monitor_window_held_only": "",
                     "detectors_heading": "识别内容",
                     "detect_phones_label": "识别电话号码",
                     "detect_phones_help": "标记包含国际格式电话号码的内容。",
@@ -219,7 +223,8 @@
                 "trap_label": ""
             },
             "post": {
-                "flagged_as_spam_text": "识别到垃圾内容 · 评分 {score}"
+                "flagged_as_spam_text": "识别到垃圾内容 · 评分 {score}",
+                "held_email_domain_text": ""
             },
             "message": {
                 "profile": {
