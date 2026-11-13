@@ -5308,7 +5308,7 @@
                     "shortcut_none": "7504c8a9cf6047f35c3d27364b48b42f 7504c8a9cf6047f35c3d27364b48b42f",
                     "shortcut_sidebar": "5f2b8ba66a4d8efc059e714010452cae 5f2b8ba66a4d8efc059e714010452cae",
                     "type_color_text": "134e0114c6a0f48141702fc9d7141be3 134e0114c6a0f48141702fc9d7141be3",
-                    "upc_help": "c871fb547815d96704ba7e3164bcd42a c871fb547815d96704ba7e3164bcd42a",
+                    "upc_help": "f37edebf2a54ba8c0023ee619139d80b f37edebf2a54ba8c0023ee619139d80b",
                     "upc_label": "d4f90ee7511c87943ffa3cdf3fd5a01c d4f90ee7511c87943ffa3cdf3fd5a01c",
                     "upc_link": "d004ac90585c157f8517428bdf7835cd d004ac90585c157f8517428bdf7835cd",
                     "widget_help": "2aab7ca6381959e87173bd64ed4af150 2aab7ca6381959e87173bd64ed4af150",
@@ -5404,6 +5404,7 @@
                     "subject": "15a52403740f8cc379da34e9687ca285 15a52403740f8cc379da34e9687ca285"
                 },
                 "progress_changed": {
+                    "body": "8bcd301a59c97fc2c47c37e7a4da866b 8bcd301a59c97fc2c47c37e7a4da866b",
                     "subject": "4b08c053dee3342455f6cc06c0f73554 4b08c053dee3342455f6cc06c0f73554"
                 },
                 "rating_changed": {
@@ -5619,6 +5620,8 @@
                     "match_setting": "dd6bde96ee4a86ed684a2345a205a98d dd6bde96ee4a86ed684a2345a205a98d",
                     "new_items": "409d983205f1dbbe0236d04bbca0c5c4 409d983205f1dbbe0236d04bbca0c5c4",
                     "new_items_setting": "50b8eebe2f40c1e1c945025f23dec23d 50b8eebe2f40c1e1c945025f23dec23d",
+                    "progress_changed": "e69b579cf318ed5a0398c7ed5f66dc65 e69b579cf318ed5a0398c7ed5f66dc65",
+                    "progress_changed_setting": "78381de6590068d7e9e475a259dd0ffb 78381de6590068d7e9e475a259dd0ffb",
                     "rating_changed": "88a5d025e420c3aca87904b6fd1aedc9 88a5d025e420c3aca87904b6fd1aedc9",
                     "wishlist_added": "17716a1cc2152609fd7196280c79e95c 17716a1cc2152609fd7196280c79e95c"
                 },
@@ -5665,6 +5668,7 @@
                     "wishlist_heading": "54be62ea63ded6c8ae882d93e5810695 54be62ea63ded6c8ae882d93e5810695"
                 },
                 "progress": {
+                    "abandoned": "47a85ae87e3b4e0e5ae2ff5f9e69afe6 47a85ae87e3b4e0e5ae2ff5f9e69afe6",
                     "any": "c528bc8cd6af3eb3b265d81163489426 c528bc8cd6af3eb3b265d81163489426",
                     "completed": "e5a557e11c5934e2ed68ef8e4501ba72 e5a557e11c5934e2ed68ef8e4501ba72",
                     "in_progress": "5adb663cf7af0d051fab16890eca6764 5adb663cf7af0d051fab16890eca6764",
@@ -10911,6 +10915,17 @@
                     "show_authors_help": "ac695843f63f09ab9a40a7a75dc214cd ac695843f63f09ab9a40a7a75dc214cd"
                 }
             },
+            "email": {
+                "won": {
+                    "html": {
+                        "body": "2ce016f772beac37342fde88657d2142 2ce016f772beac37342fde88657d2142"
+                    },
+                    "plain": {
+                        "body": "4a6d154471bd8b485c75e82014050b8b 4a6d154471bd8b485c75e82014050b8b"
+                    },
+                    "subject": "72b92bae8b609d9d0aa9636e2215323d 72b92bae8b609d9d0aa9636e2215323d"
+                }
+            },
             "forum": {
                 "card": {
                     "cta": "8746213ce5abfc9575972c7c53425597 8746213ce5abfc9575972c7c53425597",
@@ -10934,15 +10949,22 @@
                 },
                 "errors": {
                     "already_offered": "c672ccdd65305c78daecfcb1889d1389 c672ccdd65305c78daecfcb1889d1389",
+                    "cover_invalid": "86fe9787dc45a9f107648e93326eaab5 86fe9787dc45a9f107648e93326eaab5",
                     "edit_too_big": "825e301bc254609f6999d7e169650559 825e301bc254609f6999d7e169650559",
+                    "hours_invalid": "e6639601ae63aede5bb18e863042835f e6639601ae63aede5bb18e863042835f",
+                    "length_invalid": "3d4fe306a539908980141da955f1f485 3d4fe306a539908980141da955f1f485",
                     "line_empty": "fa9b8d6fb1a5e02b123451ba04d893b0 fa9b8d6fb1a5e02b123451ba04d893b0",
                     "line_erased": "f4079830ed741957431b58430123abe3 f4079830ed741957431b58430123abe3",
                     "line_locked": "3e2a3ea2a8eaf14402d7379751fad6fe 3e2a3ea2a8eaf14402d7379751fad6fe",
                     "line_not_found": "8ccd86dfccc2085ab082b36c51aa5434 8ccd86dfccc2085ab082b36c51aa5434",
                     "line_removed": "d4172a3323ede71c94c5b830fe7da87b d4172a3323ede71c94c5b830fe7da87b",
                     "line_too_long": "b5d2ba25e52ac374efa7e856d1ea1540 b5d2ba25e52ac374efa7e856d1ea1540",
+                    "lines_invalid": "39f6243fa0baa7806959c8f632db9d59 39f6243fa0baa7806959c8f632db9d59",
+                    "opening_empty": "b5d9cf5be8d07a38b080753c824190c5 b5d9cf5be8d07a38b080753c824190c5",
+                    "own_line": "a0b3600109c4d8584029df761403f653 a0b3600109c4d8584029df761403f653",
                     "round_closed": "c1e42cd4eaf69cbd237e9519f1f01d89 c1e42cd4eaf69cbd237e9519f1f01d89",
                     "story_not_found": "a6a3c127aa52992c36b160bff8f677dd a6a3c127aa52992c36b160bff8f677dd",
+                    "title_invalid": "5f2796c03d61b1de1b27776592027527 5f2796c03d61b1de1b27776592027527",
                     "too_fast": "12f003d4b5865a53df358e52fb6b7024 12f003d4b5865a53df358e52fb6b7024",
                     "too_many_stories": "5eaa4a81812386ffa4d44e2564f9b842 5eaa4a81812386ffa4d44e2564f9b842",
                     "wrote_last": "d929765f742ee493fd2cfcfcc17481d8 d929765f742ee493fd2cfcfcc17481d8"
@@ -11078,6 +11100,13 @@
                     "thanks": "22b5c2d13ba6889d963b7c6e46fbd156 22b5c2d13ba6889d963b7c6e46fbd156",
                     "withdraw": "ef258f2aeae793caabed935491c7f10d ef258f2aeae793caabed935491c7f10d",
                     "yours": "ecb9f951adc4132b0f058d810354f2bd ecb9f951adc4132b0f058d810354f2bd"
+                }
+            },
+            "lib": {
+                "gdpr": {
+                    "anonymize": "34a6f541be6adae29021c15f8e8e707e 34a6f541be6adae29021c15f8e8e707e",
+                    "delete": "48c2d715a11aa26f97f16c8c985b2a31 48c2d715a11aa26f97f16c8c985b2a31",
+                    "export": "e2900734a991597b4fe13dcc1d6d0ce1 e2900734a991597b4fe13dcc1d6d0ce1"
                 }
             }
         }

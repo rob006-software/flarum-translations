@@ -187,30 +187,30 @@
                 "line_erased": "Dieser Satz wurde auf Wunsch des Autors gelöscht und kann nicht wieder eingefügt werden.",
                 "line_locked": "Dieser Satz kann nur korrigiert werden, solange er der letzte Satz in der Geschichte ist.",
                 "edit_too_big": "Das ist mehr als nur die Korrektur eines Tippfehlers. Dieser Satz hat sich durch ihren Wortlaut bewährt, daher sollten die Änderungen gering gehalten werden.",
-                "own_line": "",
-                "title_invalid": "",
-                "opening_empty": "",
-                "cover_invalid": "",
-                "hours_invalid": "",
-                "length_invalid": "",
-                "lines_invalid": ""
+                "own_line": "Du kannst nicht für deinen eigenen Satz abstimmen.",
+                "title_invalid": "Gib der Geschichte einen Titel (maximal 120 Zeichen).",
+                "opening_empty": "Schreibe den Eröffnungssatz.",
+                "cover_invalid": "Wähle eines der Cover.",
+                "hours_invalid": "Wähle eine der Rundenlängen.",
+                "length_invalid": "Der längste Satz muss zwischen 40 und 500 Zeichen lang sein.",
+                "lines_invalid": "Die Geschichte muss zwischen 3 und 500 Sätzen lang sein und länger sein als sie derzeit ist."
             }
         },
         "lib": {
             "gdpr": {
-                "export": "",
-                "anonymize": "",
-                "delete": ""
+                "export": "„Geschichtenkette“-Sätze (in Geschichten und als Vorschläge) und Stimmen",
+                "anonymize": "Behalte ihre Sätze in Geschichten bei, ohne ihre Namen zu nennen; löscht die von ihnen vorgeschlagenen Sätze und ihre Stimmen",
+                "delete": "Entfernt ihre Zeilen aus Geschichten; löscht die von ihnen vorgeschlagenen Sätze und ihre Stimmen"
             }
         },
         "email": {
             "won": {
-                "subject": "",
+                "subject": "Dein Satz hat eine Runde in „{title}“ gewonnen",
                 "plain": {
-                    "body": ""
+                    "body": "Dein Satz hat Runde {round} von „{title}“ gewonnen und ist nun Teil der Geschichte:\n\n„{line}“\n\nLies die Geschichte: {url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Dein Satz hat Runde {round} von **{title}** gewonnen und ist nun Teil der Geschichte:\n\n> {line}\n\n[Die Geschichte lesen]({url})\n"
                 }
             }
         }
