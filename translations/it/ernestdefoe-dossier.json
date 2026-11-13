@@ -112,7 +112,9 @@
             "builds": {
                 "none": "",
                 "all": "",
-                "finished": ""
+                "finished": "",
+                "pin": "",
+                "pinned": ""
             },
             "certificates": {
                 "verify": "",
@@ -146,6 +148,14 @@
                 "open_to": {
                     "title": "",
                     "help": ""
+                },
+                "pins": {
+                    "title": "",
+                    "help": "",
+                    "order": "",
+                    "none": "",
+                    "move_up": "",
+                    "move_down": ""
                 },
                 "timeline": {
                     "add": "",
@@ -218,7 +228,9 @@
                 "default_tab_label": "",
                 "default_tab_help": "",
                 "custom_skills_label": "",
-                "custom_skills_help": ""
+                "custom_skills_help": "",
+                "pinned_builds_label": "",
+                "pinned_builds_help": ""
             },
             "permissions": {
                 "view": "",

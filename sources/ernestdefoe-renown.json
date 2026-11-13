@@ -157,6 +157,10 @@
                 "streak": "Streak days",
                 "kudos": "Kudos received",
                 "answer_upvote": "Upvotes received",
+                "testimonial": "Testimonials",
+                "corkboard_card": "Finished cards (Corkboard)",
+                "panels_publish": "Chapters published (Panels)",
+                "panels_read": "Chapters read (Panels)",
                 "admin": "Added by staff"
             },
             "prestige": {
@@ -218,7 +222,10 @@
                 "flarum-likes": "Likes",
                 "ernestdefoe-cadence": "Cadence",
                 "ernestdefoe-kudos": "Kudos Wall",
-                "ernestdefoe-answers": "Answers"
+                "ernestdefoe-answers": "Answers",
+                "ernestdefoe-testimonials": "Testimonials",
+                "ernestdefoe-corkboard": "Corkboard",
+                "ernestdefoe-panels": "Panels"
             },
             "status": {
                 "heading": "Status",
@@ -245,13 +252,21 @@
                 "visit": "First visit of the day",
                 "streak": "Cadence streak day",
                 "kudos": "Kudos received",
-                "answer_upvote": "Upvote received (Answers)"
+                "answer_upvote": "Upvote received (Answers)",
+                "testimonial": "Testimonial approved (once per subject)",
+                "corkboard_card": "Card finished, split among its assignees (Corkboard)",
+                "panels_publish": "Chapter published, once per chapter (Panels)",
+                "panels_read": "Chapter finished, once per chapter, never your own (Panels)"
             },
             "rules": {
                 "heading": "Anti-farming",
                 "help": "These apply to activity after install, never to the history replay. A running Double XP event multiplies the caps too. 0 turns a rule off. Days reset at midnight UTC, for the caps and the daily visit.",
                 "cap_daily": "Daily XP cap",
                 "cap_daily_help": "The most XP a member can earn in a day, all sources together. Staff adjustments don't count.",
+                "cap_corkboard": "Daily XP cap for finished cards",
+                "cap_panels_read": "Daily XP cap for chapters read",
+                "cap_panels_read_help": "The most XP a member can earn in a day from reading chapters. Each chapter pays once, and never its own uploader.",
+                "cap_corkboard_help": "The most XP a member can earn in a day from Corkboard cards. A card pays only once, at least an hour after it was made, on a board with a team, and only when someone else made it or it has a checklist or a comment.",
                 "cap_likes": "Daily cap for likes received",
                 "cap_likes_help": "The most XP a member can earn from likes in a day.",
                 "likes_per_giver": "Likes counted per member per day",

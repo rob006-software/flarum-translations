@@ -112,7 +112,9 @@
             "builds": {
                 "none": "Builds the member finishes in their Garage show up here.",
                 "all": "See all on Garage",
-                "finished": "Finished {date}"
+                "finished": "Finished {date}",
+                "pin": "Pin builds",
+                "pinned": "Pinned"
             },
             "certificates": {
                 "verify": "Verify",
@@ -146,6 +148,14 @@
                 "open_to": {
                     "title": "Open to",
                     "help": "Let people know what you'd welcome."
+                },
+                "pins": {
+                    "title": "Pin builds",
+                    "help": "Pick up to {max, plural, one {# build} other {# builds}} to show first. The rest follow, newest finished first.",
+                    "order": "Order",
+                    "none": "Nothing pinned. Your newest finished builds show first.",
+                    "move_up": "Move {title} up",
+                    "move_down": "Move {title} down"
                 },
                 "timeline": {
                     "add": "Add to your timeline",
@@ -218,7 +228,9 @@
                 "default_tab_label": "Open profiles on Dossier",
                 "default_tab_help": "A member's profile opens on their dossier when it has something to show. Their posts move to /u/username/posts.",
                 "custom_skills_label": "Members can add their own skills",
-                "custom_skills_help": "Skills that aren't in the catalogue show up below, for you to add to the catalogue or remove."
+                "custom_skills_help": "Skills that aren't in the catalogue show up below, for you to add to the catalogue or remove.",
+                "pinned_builds_label": "Pinned builds",
+                "pinned_builds_help": "With Garage, members can pin up to this many finished builds to show first on their dossier (6 at most). 0 turns pinning off."
             },
             "permissions": {
                 "view": "View dossiers",
