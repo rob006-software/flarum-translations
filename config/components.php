@@ -313,6 +313,9 @@ return [
 	'ernestdefoe-hero-builder' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hero-builder/v1.6.0/resources/locale/en.yml',
 	],
+	'ernestdefoe-homecoming' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/homecoming/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-hype-market' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hype-market/1.0.0/locale/en.yml',
 	],
