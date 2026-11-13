@@ -1242,6 +1242,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/guest-cta/2.0.3/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
 	],
+	'ramon-magic-link' => [
+		'tag' => 'https://raw.githubusercontent.com/ram0ng1/magic-link/v1.0.3/locale/en.yml',
+		'__builtInLanguages' => ['pt_BR'],
+	],
 	'ramon-mail-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/ram0ng1/mail-reply/2.1.0/locale/en.yml',
 		'__builtInLanguages' => ['pt_BR'],
