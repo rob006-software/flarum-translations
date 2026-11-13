@@ -477,7 +477,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/sonic/0.1.1/locale/en.yml',
 	],
 	'ernestdefoe-spoiler-shield' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/spoiler-shield/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/spoiler-shield/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-stances' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/stances/1.1.0/locale/en.yml',
