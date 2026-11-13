@@ -177,7 +177,7 @@
                 "run": "Comprobar",
                 "ok": "la petición llega a Flarum correctamente",
                 "blocked": "respondido directamente por el servidor web; la petición no llega a Flarum",
-                "fix_php": "Para redirigir direcciones .php antiguas (phpBB, vBulletin, MyBB, SMF), modifique en Nginx la línea del bloque de ubicación que procesa archivos .php enviándolos a PHP; ajuste la directiva try_files a:",
+                "fix_php": "Para redirigir URLs .php antiguas (phpBB, vBulletin, MyBB, SMF), cambie la línea try_files en el bloque .php de Nginx por:",
                 "fix_php_help": "Los archivos .php existentes en el servidor continuarán ejecutándose normalmente; únicamente los inexistentes serán procesados por Flarum. Evite crear un bloque independiente para archivos .php que sirva contenido estático directamente, ya que podría exponer el código fuente.",
                 "fix": "Para redirigir peticiones con extensión {exts}, añada el siguiente bloque en la configuración del servidor Nginx, situándolo por encima de cualquier otro bloque para dichos tipos de archivo:",
                 "fix_help": "A continuación, recargue la configuración de Nginx y vuelva a realizar la comprobación. Las instalaciones sobre Apache que utilizan el archivo .htaccess oficial de Flarum no requieren ajustes adicionales."
