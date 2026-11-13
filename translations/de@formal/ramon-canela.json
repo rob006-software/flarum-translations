@@ -1482,7 +1482,7 @@
                     "discard": "Verwerfen",
                     "regen": "Erneut versuchen",
                     "copy": "Kopieren",
-                    "copied": "Kopiert!",
+                    "copied": "Kopiert",
                     "no_content_error": "Füge zuerst Inhalt hinzu, um KI-Aktionen darauf anzuwenden",
                     "custom_prompt_placeholder": "Eigene Anweisung eingeben…",
                     "custom_prompt_submit": "Anweisung senden",
@@ -1682,7 +1682,7 @@
                 "more_message_actions": "Weitere Aktionen",
                 "scroll_to_bottom": "Nach unten scrollen",
                 "scroll_to_new_messages": "Neue Nachrichten ansehen",
-                "invalid_access": "Du hast keinen Zugriff auf diesen Chatkanal",
+                "invalid_access": "Dieser Kanal ist zugangsbeschränkt. Bitte wenden Sie sich an die Administratoren des Kanals, um Zugang zu erhalten.",
                 "load_more": "Mehr laden",
                 "enable": "Chat aktivieren",
                 "disabled_for_you": "Der Chat ist für dich deaktiviert. Aktiviere ihn unter Einstellungen → Chat erneut.",
@@ -1710,11 +1710,11 @@
                 },
                 "retry_staged_message": {
                     "title": "Netzwerkfehler",
-                    "action": "Erneut senden?"
+                    "action": "Erneut versuchen"
                 },
                 "upload_errors": {
                     "too_large": "zu groß",
-                    "failed": "fehlgeschlagen"
+                    "failed": "Hochladen fehlgeschlagen. Versuchen Sie es erneut."
                 },
                 "aria_roles": {
                     "composer": "Chateditor"
@@ -2255,7 +2255,7 @@
             "extras": {
                 "gambits": {
                     "in_group": "in",
-                    "title_key": "title",
+                    "title_key": "titel",
                     "likes_key": "likes",
                     "bookmarks_key": "bookmarks",
                     "min_posts_key": "min-posts",
@@ -3744,7 +3744,7 @@
                 "placeholder": "Wiki durchsuchen",
                 "results_heading": "Ergebnisse für \"{query}\"",
                 "all_button": "Durchsuche das Wiki für \"{query}\"",
-                "empty": "Keine Artikel gefunden \"{query}\""
+                "empty": "Keine Artikel gefunden, die mit „{query}“ übereinstimmen."
             },
             "nav": "Wiki",
             "common": {
