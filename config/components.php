@@ -491,6 +491,9 @@ return [
 	'ernestdefoe-story-chain' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/story-chain/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-studio' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/studio/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-surveyor' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/surveyor/1.0.0/locale/en.yml',
 	],
