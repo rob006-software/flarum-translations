@@ -16,11 +16,11 @@
                 "any": "Dowolny język"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Wybierz język dyskusji"
             },
             "sub_controls": {
-                "subscription_language_label": "",
-                "subscription_language_help": ""
+                "subscription_language_label": "Język dyskusji",
+                "subscription_language_help": "Jeśli wybierzesz tutaj język, będziesz otrzymywać powiadomienia tylko o nowej aktywności w tym języku."
             }
         },
         "admin": {
@@ -34,21 +34,21 @@
                 "errors": {
                     "missing_assets": "Nie udało się wczytać zasobów wymaganych przez to rozszerzenie. Spróbuj uruchomić <code>php flarum assets:publish</code> i sprawdzić, czy rozwiązało to ten problem."
                 },
-                "languages_heading": "",
-                "languages_help": "",
-                "attribution": "",
+                "languages_heading": "Języki",
+                "languages_help": "Języki, w których mogą być prowadzone dyskusje. Wybrany kraj określa flagę wyświetlaną przy każdym z nich.",
+                "attribution": "To rozszerzenie wykorzystuje materiały z artykułu Wikipedii <article>List of ISO 639-2 codes</article>, udostępnionego na licencji <license>Creative Commons Uznanie autorstwa – Na tych samych warunkach 3.0</license>.",
                 "config": {
                     "language_label": "Język",
                     "country_label": "Kraj (do wyświetlania flagi)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Wybierz język…",
+                    "choose_country": "Wybierz kraj…",
+                    "add_button": "Dodaj język",
+                    "remove_button": "Usuń: {language}"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Edytowanie języka dyskusji",
-                "change_language_label": ""
+                "change_language_label": "Zmienianie języka dyskusji"
             }
         },
         "api": {
@@ -59,8 +59,8 @@
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
-                    "hint": ""
+                    "key": "język",
+                    "hint": "kod języka lub kody kilku języków oddzielone przecinkami"
                 }
             }
         }
@@ -69,8 +69,8 @@
         "lib": {
             "data": {
                 "subscriptionlanguages": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Eksportowane razem z każdą subskrypcją tagu, tak jak eksportuje je fof/follow-tags.",
+                    "anonymize_description": "Usuwa język dyskusji wybrany przez użytkownika dla każdego obserwowanego tagu."
                 }
             }
         }
