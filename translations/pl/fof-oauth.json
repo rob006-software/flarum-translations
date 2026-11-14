@@ -17,12 +17,12 @@
                 "update_email_from_provider_help": "Jeśli to ustawienie jest włączone, a dostawca OAuth zwróci przy logowaniu zweryfikowany adres e-mail inny niż adres użytkownika na forum, na nowy adres zostanie wysłany link potwierdzający, a na obecny – powiadomienie. Adres e-mail zostanie zmieniony po kliknięciu w link. Dostawcy, którzy nie potwierdzają, że adres jest zweryfikowany (w tym zewnętrzni dostawcy, którzy nie zostali jeszcze zaktualizowani, aby to obsługiwać), nie zmienią adresu e-mail.",
                 "disable_avatars_label": "Wyłącz pobieranie awatarów od dostawcy",
                 "disable_avatars_help": "Po włączeniu tej opcji awatar użytkownika nie będzie podczas rejestracji aktualizowany na awatar z konta u dostawcy. Dotyczy to tylko przyszłych rejestracji i nie zmieni awatarów istniejących użytkowników.\n",
-                "fullscreen_popup_label": "",
-                "fullscreen_popup_help": "",
-                "popup_width_label": "",
-                "popup_width_help": "",
-                "popup_height_label": "",
-                "popup_height_help": "",
+                "fullscreen_popup_label": "Używaj pełnoekranowego okna OAuth",
+                "fullscreen_popup_help": "Po włączeniu tej opcji logowanie OAuth będzie otwierane w pełnoekranowym oknie. Ustawienia szerokości i wysokości będą wtedy ignorowane.",
+                "popup_width_label": "Szerokość okna OAuth",
+                "popup_width_help": "Ustaw szerokość okna OAuth. To ustawienie jest ignorowane, jeśli włączono opcję „Używaj pełnoekranowego okna OAuth”.",
+                "popup_height_label": "Wysokość okna OAuth",
+                "popup_height_help": "Ustaw wysokość okna OAuth. To ustawienie jest ignorowane, jeśli włączono opcję „Używaj pełnoekranowego okna OAuth”.",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
                     "group_label": "Przypisz grupę",
@@ -115,7 +115,7 @@
         "email": {
             "provider_email_change_notice": {
                 "subject": "Prośba o zmianę adresu e-mail",
-                "body": ""
+                "body": "Witaj {username},\n\nPo zalogowaniu się na {forum} przez {provider} wysłano prośbę o zmianę adresu e-mail Twojego konta na {new_email}. Zmiana zacznie obowiązywać po potwierdzeniu nowego adresu.\n\nJeśli to nie Ty, Twoje konto {provider} mogło zostać przejęte. Zabezpiecz je i skontaktuj się z administratorami {forum}.\n"
             }
         },
         "lib": {
