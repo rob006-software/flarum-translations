@@ -2,21 +2,21 @@
     "acpl-lscache": {
         "admin": {
             "cache_enabled_label": "Włącz LSCache",
-            "cache_enabled_help": "Zajrzyj na <a>stronę informacyjną</a>, aby dowiedzieć się, jak przetestować cache. UWAGA: Po wyłączeniu cache, cała jego zawartość zostanie usunięta.",
-            "public_cache_ttl_label": "Domyślny czas życia publicznego cache",
-            "public_cache_ttl_help": "Określ przez jak długi czas, w sekundach, publiczne strony powinny być przechowywane w cache. Domyślna wartość to 604800 sekund (jeden tydzień).",
-            "clearing_cache_listener_label": "Czyść LSCache, kiedy cache Flarum jest czyszczony",
-            "clearing_cache_listener_help": "Wyłączenie tej opcji pozwala uniknąć ponownego generowania cache stron po drobnych zmianach zasobów. Strony zapisane w cache mogą wczytywać przebudowane zasoby spod tych samych adresów URL, podczas gdy CDN, np. Cloudflare, może nadal udostępniać ich starsze wersje z własnego cache. Ustawienia stron i dane rozszerzeń również mogą pozostać nieaktualne. Jeśli wyłączysz tę opcję, po większych aktualizacjach lub zmianach w rozszerzeniach ręcznie wyczyść LSCache.",
+            "cache_enabled_help": "Zajrzyj na <a>stronę informacyjną</a>, aby dowiedzieć się, jak przetestować pamięć podręczną. UWAGA: Po wyłączeniu pamięci podręcznej cała jej zawartość zostanie usunięta.",
+            "public_cache_ttl_label": "Domyślny czas życia publicznej pamięci podręcznej",
+            "public_cache_ttl_help": "Określ przez jak długi czas, w sekundach, publiczne strony powinny być przechowywane w pamięci podręcznej. Domyślna wartość to 604800 sekund (jeden tydzień).",
+            "clearing_cache_listener_label": "Czyść LSCache, kiedy pamięć podręczna Flarum jest czyszczona",
+            "clearing_cache_listener_help": "Wyłączenie tej opcji pozwala uniknąć ponownego generowania pamięci podręcznej stron po drobnych zmianach zasobów. Strony zapisane w pamięci podręcznej mogą wczytywać przebudowane zasoby spod tych samych adresów URL, podczas gdy CDN, np. Cloudflare, może nadal udostępniać ich starsze wersje z własnej pamięci podręcznej. Ustawienia stron i dane rozszerzeń również mogą pozostać nieaktualne. Jeśli wyłączysz tę opcję, po większych aktualizacjach lub zmianach w rozszerzeniach ręcznie wyczyść LSCache.",
             "serve_stale_label": "Serwuj nieaktualną treść",
-            "serve_stale_help": "Po włączeniu tej opcji LiteSpeed może udostępniać poprzednią wersję strony po wyczyszczeniu cache, w trakcie generowania nowej. Zmniejsza to obciążenie serwera, ale odwiedzający mogą tymczasowo widzieć nieaktualne treści. Po wyłączeniu opcji muszą poczekać na wygenerowanie nowej wersji strony.",
-            "purge_on_discussion_update_label": "Czyść adresy URL lub Tagi cache przy aktualizacji dyskusji",
-            "purge_on_discussion_update_help": "Wpisz adresy URL lub Tagi cache, które chcesz wyczyścić, gdy dyskusja jest aktualizowana. Podaj jeden na linię. Adres URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code>, a Tag cache powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. Dla wielu ścieżek dodanie reguły w .htaccess z wyrażeniem regularnym, które taguje ścieżki, i wprowadzenie tylko tego tagu tutaj, jest szybsze. <a>Dowiedz się więcej</a>. Domyślnie cache dla strony głównej i zaktualizowanych dyskusji jest czyszczony.",
-            "cache_exclude_label": "Wyklucz ścieżki z cache",
-            "cache_exclude_help": "Podaj po jednym wyrażeniu regularnym w wierszu. <code>/private</code> pasuje do każdej ścieżki zawierającej /private, a <code>^/private$</code> tylko do /private. Parametry zapytania są ignorowane. Strony zapisane już w cache pozostaną dostępne do czasu wygaśnięcia lub wyczyszczenia cache. Aby wykluczenia zaczęły obowiązywać od razu, wyczyść odpowiednie adresy URL za pomocą CLI albo cały LSCache z menu cache w panelu administracyjnym.",
+            "serve_stale_help": "Po włączeniu tej opcji LiteSpeed może udostępniać poprzednią wersję strony po wyczyszczeniu pamięci podręcznej, w trakcie generowania nowej. Zmniejsza to obciążenie serwera, ale odwiedzający mogą tymczasowo widzieć nieaktualne treści. Po wyłączeniu opcji muszą poczekać na wygenerowanie nowej wersji strony.",
+            "purge_on_discussion_update_label": "Czyść adresy URL lub tagi pamięci podręcznej przy aktualizacji dyskusji",
+            "purge_on_discussion_update_help": "Wpisz adresy URL lub tagi pamięci podręcznej, które chcesz wyczyścić, gdy dyskusja jest aktualizowana. Podaj jeden na linię. Adres URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code>, a tag pamięci podręcznej powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. Dla wielu ścieżek dodanie reguły w .htaccess z wyrażeniem regularnym, które taguje ścieżki, i wprowadzenie tylko tego tagu tutaj, jest szybsze. <a>Dowiedz się więcej</a>. Domyślnie pamięć podręczna strony głównej i zaktualizowanych dyskusji jest czyszczona.",
+            "cache_exclude_label": "Wyklucz ścieżki z pamięci podręcznej",
+            "cache_exclude_help": "Podaj po jednym wyrażeniu regularnym w wierszu. <code>/private</code> pasuje do każdej ścieżki zawierającej /private, a <code>^/private$</code> tylko do /private. Parametry zapytania są ignorowane. Strony zapisane już w pamięci podręcznej pozostaną dostępne do czasu wygaśnięcia lub wyczyszczenia pamięci podręcznej. Aby wykluczenia zaczęły obowiązywać od razu, wyczyść odpowiednie adresy URL za pomocą CLI albo cały LSCache z menu pamięci podręcznej w panelu administracyjnym.",
             "drop_qs_label": "Pomiń ciągi zapytań",
-            "drop_qs_help": "Wpisz nazwy parametrów zapytania, które mają być ignorowane podczas zapisywania stron w cache, po jednej w wierszu, np. <code>fbclid</code> lub <code>utm*</code>. Adresy URL różniące się tylko tymi parametrami korzystają z tej samej strony zapisanej w cache. Ignoruj wyłącznie parametry, które nie zmieniają zawartości strony. Wymaga LSWS w wersji 5.2.3 lub nowszej. <a>Dowiedz się więcej o pomijaniu parametrów zapytania</a>.<br></br>\n⚠️ Ta opcja zmodyfikuje plik .htaccess.\n",
+            "drop_qs_help": "Wpisz nazwy parametrów zapytania, które mają być ignorowane podczas zapisywania stron w pamięci podręcznej, po jednej w wierszu, np. <code>fbclid</code> lub <code>utm*</code>. Adresy URL różniące się tylko tymi parametrami korzystają z tej samej strony zapisanej w pamięci podręcznej. Ignoruj wyłącznie parametry, które nie zmieniają zawartości strony. Wymaga LSWS w wersji 5.2.3 lub nowszej. <a>Dowiedz się więcej o pomijaniu parametrów zapytania</a>.<br></br>\n⚠️ Ta opcja zmodyfikuje plik .htaccess.\n",
             "status_codes_cache_label": "Domyślny czas życia strony z kodem statusu HTTP",
-            "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w cache, oddzielone spacją. Po jednym na linię.",
+            "status_codes_cache_help": "Podaj kod odpowiedzi HTTP i liczbę sekund przechowywania strony w pamięci podręcznej, oddzielone spacją. Po jednym na linię.",
             "purge_all": "=> acpl-lscache.ref.purge_cache",
             "test_failed_alert": "Wygląda na to, że Twój serwer nie obsługuje LSCache. Sprawdź konfigurację swojego serwera. Wykryty serwer: <b>{server}</b>, wykryty typ serwera LiteSpeed: <b>{type}</b>.",
             "permissions": {
@@ -25,10 +25,10 @@
             "purge_modal": {
                 "title": "=> acpl-lscache.ref.purge_cache",
                 "type_label": "Sposób czyszczenia",
-                "all_label": "Wszystkie strony w cache",
+                "all_label": "Wszystkie strony w pamięci podręcznej",
                 "paths_label": "Adres URL",
                 "paths_help": "Wpisz jeden adres URL lub ścieżkę w każdym wierszu, np. <code>{url}/t/general</code> lub <code>/t/general</code>.",
-                "tags_label": "Tag cache",
+                "tags_label": "Tag pamięci podręcznej",
                 "tags_help": "Wpisz jeden tag LSCache w każdym wierszu, np. <code>discussion_123</code> lub <code>discussions</code>.",
                 "submit_button": "Wyczyść",
                 "empty_list_error": "Podaj co najmniej jedną wartość."
@@ -51,7 +51,7 @@
         "lib": {
             "browser": {
                 "acpl-lscache": {
-                    "cache_purged": "Wyczyszczono cache LiteSpeed"
+                    "cache_purged": "Wyczyszczono pamięć podręczną LiteSpeed"
                 }
             }
         }
