@@ -33,7 +33,7 @@
                 "mime_types": "Określ, jakie pliki użytkownicy mogą przesyłać, gdzie mają być przechowywane i w jaki sposób będą wyświetlane w postach.\n",
                 "mime_order": "Reguły są sprawdzane od góry do dołu, a używana jest pierwsza pasująca. Bardziej szczegółowe reguły umieść więc nad ogólnymi.\n",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
-                "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
+                "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla przesłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "thumbnails": "Generuj pomniejszone miniatury obrazów podczas przesyłania. Miniatura jest wyświetlana bezpośrednio w poście, a kliknięcie otwiera oryginalny obraz w pełnej rozdzielczości w nowej karcie. Miniatury mogą znacznie zmniejszyć zużycie transferu i rozmiar stron na forach z dużą liczbą dużych obrazów.\n",
                 "thumbnail_quality": "Jakość kodowania od 1 do 100, stosowana do miniaturek WebP i JPEG. Wyższe wartości zapewniają lepszą jakość, ale zwiększają rozmiar pliku. Miniatury GIF i PNG są bezstratne, więc to ustawienie ich nie dotyczy. Istniejące miniatury zachowają obecną jakość do czasu ponownego wygenerowania ich poleceniem uzupełniającym.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
@@ -43,12 +43,12 @@
                 "local_cdn": "Opcjonalne. Jeśli udostępniasz <code>assets/files</code> przez CDN, podaj jego bazowy adres URL. Linki do przesłanych plików będą wtedy korzystać z tego adresu. Pozostaw puste, aby pliki były udostępniane bezpośrednio z forum.\n",
                 "s3_provider": "Wybór dostawcy automatycznie ustawia format endpointu, sposób adresowania oraz obsługę ACL. Jeśli Twojego dostawcy nie ma na liście, wybierz „Inny zgodny z S3”.\n",
                 "s3_endpoint": "Adres URL API S3 dostawcy – nie publiczny adres URL bucketu. W przypadku Amazon S3 nie trzeba go podawać.\n",
-                "s3_acl": "Stosowane do każdego wysłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
+                "s3_acl": "Stosowane do każdego przesłanego obiektu. Pozostaw puste, aby użyć domyślnego ustawienia dostawcy (zwykle private).\nUżyj <code>public-read</code>, jeśli pliki mają być dostępne do odczytu bezpośrednio z bucketu.\n",
                 "s3_acl_unsupported": "{provider} nie obsługuje ACL. Dostęp publiczny skonfiguruj bezpośrednio w panelu dostawcy.\n",
                 "s3_path_style": "Umieszcza nazwę bucketu w ścieżce URL zamiast w nazwie hosta. Jest to wymagane przez MinIO i Cloudflare R2; ustawienie włącza się automatycznie po wybraniu odpowiedniego dostawcy.\n",
                 "custom_s3_url": "Publiczny adres bazowy, spod którego serwowane są Twoje pliki – CDN lub własna domena przed bucketem.\nPozostaw puste, aby użyć domyślnego adresu dostawcy. Musi zawierać <code>https://</code>.\n",
                 "s3_instance_profile": "Pozostaw oba pola puste, aby zamiast tego użyć roli IAM – działa to tylko na EC2, ECS i EKS.\n",
-                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
+                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do przesyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n"
             },
             "tabs": {
@@ -175,10 +175,10 @@
                     "allow_animate_help": "Włączenie animacji SVG może wprowadzić luki bezpieczeństwa, ponieważ animowane pliki SVG mogą zawierać złośliwy kod. Włącz tę opcję na własne ryzyko i tylko wtedy, gdy ufasz swoim użytkownikom."
                 },
                 "composer_buttons": {
-                    "title": "Przyciski w kompozytorze",
+                    "title": "Przyciski w edytorze",
                     "options": {
                         "both": "Oba",
-                        "upload-btn": "Jedynie przycisk do wysyłania plików",
+                        "upload-btn": "Jedynie przycisk do przesyłania plików",
                         "media-btn": "Jedynie przycisk menedżera multimediów"
                     }
                 },
@@ -246,7 +246,7 @@
             },
             "buttons": {
                 "attach": "Załącz",
-                "upload": "Wyślij",
+                "upload": "Prześlij",
                 "upload_shared": "Współdzielone",
                 "user_uploads": "Pliki użytkownika",
                 "cancel": "Anuluj",
@@ -255,12 +255,12 @@
             },
             "states": {
                 "error": "Błąd",
-                "loading": "Wysyłanie",
+                "loading": "Przesyłanie",
                 "unauthorized": "Nie masz uprawnień, aby pobrać ten plik",
                 "permission_required": "Wymagane uprawnienie"
             },
             "validation": {
-                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
+                "max_size": "Przesyłanie plików większych niż {max} kb nie jest obsługiwane."
             },
             "text_preview": {
                 "expand": "Rozwiń podgląd",
