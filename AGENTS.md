@@ -8,7 +8,8 @@ Most of the files here are generated or updated automatically - as a translator 
 `translations/<language>/`.
 
 Weblate is behind Cloudflare with aggressive anti-bot protection (API endpoints included) - do not try to interact with
-it. Everything you need is in this repository; contribute through a GitHub pull request (see below).
+it. Everything you need is in this repository and in the [glossary repository](#glossary); contribute through a GitHub
+pull request (see below).
 
 
 ## Repository layout
@@ -172,6 +173,27 @@ in the inheriting language only change phrases that really differ (e.g. formal v
 - Translate the meaning, not word by word. UI labels should be short: button labels are usually imperatives, headings
   and permission names are usually nouns.
 - Do not translate product and brand names (Flarum, GitHub, Discord, ...), except inflection required by grammar.
+
+
+## Glossary
+
+The Weblate glossary is mirrored in
+[flarum-translations-glossary](https://github.com/rob006-software/flarum-translations-glossary) - one TBX (XML) file
+per language, named like the directories in `translations/` (`pl.tbx`, `de@formal.tbx`, `zh_Hans.tbx`, ...). Read the
+file for your language before translating, for example
+`https://raw.githubusercontent.com/rob006-software/flarum-translations-glossary/master/pl.tbx`.
+
+- Each `<termEntry>` pairs an English term (`xml:lang="en"`) with the agreed translation. Use that translation
+  whenever the term appears in a phrase (matching is case-insensitive), inflected as your grammar requires.
+- `<note from="translator">` explains usage in your language (exceptions, forms to avoid). `<descrip>` is an English
+  description of the term's meaning, shared by all languages.
+- Some entries are whole phrases (e.g. a standard confirmation question) - reuse them as written.
+- The glossary wins over existing translations that contradict it. If you also fix such existing phrases, list them
+  in the PR description.
+- Glossaries are per language and many are small or empty - for terms not listed there, follow existing translations
+  (see above).
+- Do not edit the glossary repository - it is managed through Weblate. If a term is missing or looks wrong, mention it
+  in the PR description.
 
 
 ## Missing context
