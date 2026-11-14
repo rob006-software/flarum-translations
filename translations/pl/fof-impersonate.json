@@ -7,28 +7,28 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Wymuś podanie powodu przed przełączeniem się na innego użytkownika.",
-                "require_reason_help": "",
+                "require_reason_help": "Powód jest zapisywany w dzienniku audytu (flarum/audit) i/lub jako notatki moderatora na obu kontach (fof/moderator-notes), w zależności od tego, które z tych rozszerzeń jest włączone.",
                 "no_settings_available": "Żadne ustawienia nie są obecnie dostępne. Spróbuj zainstalować <code>fof/moderator-notes</code> lub <code>flarum/audit</code>."
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Zaloguj się jako inny użytkownik",
+                "label": "Z wielką mocą wiąże się wielka odpowiedzialność. Kontynuując, zalogujesz się na konto {username} i zostaniesz na nim, dopóki nie wrócisz na swoje konto.",
+                "placeholder_optional": "Podaj powód przełączenia się na tego użytkownika (opcjonalne)",
+                "placeholder_required": "Aby kontynuować, musisz podać powód przełączenia się na tego użytkownika",
+                "impersonate_username": "Zaloguj się jako {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Zaloguj się jako ten użytkownik"
             }
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Obecnie korzystasz z konta {username}."
             },
             "return": {
-                "button": ""
+                "button": "Wróć na konto {username}"
             }
         }
     },
@@ -36,8 +36,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "",
-                    "impersonation_ended": ""
+                    "impersonated": "Zalogowano się jako {username}",
+                    "impersonation_ended": "Powrócono na konto {username}"
                 }
             }
         }
