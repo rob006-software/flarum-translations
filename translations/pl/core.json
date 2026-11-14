@@ -21,9 +21,9 @@
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
-                "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
+                "favicon_text": "Prześlij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
-                "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
+                "logo_text": "Prześlij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
                 "title": "Wygląd forum"
             },
             "basics": {
@@ -75,7 +75,7 @@
                 "view_all": "Zobacz wszystkie na discuss.flarum.org"
             },
             "dashboard": {
-                "clear_cache_button": "Wyczyść cache",
+                "clear_cache_button": "Wyczyść pamięć podręczną",
                 "description": "Podstawowe informacje dotyczące forum.",
                 "info_button": "Informacje systemowe",
                 "info_modal": {
@@ -135,8 +135,8 @@
             "email": {
                 "addresses_heading": "Adresy",
                 "description": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
-                "driver_heading": "Wybierz sterownik (driver)",
-                "driver_label": "Sterownik (driver)",
+                "driver_heading": "Wybierz sterownik",
+                "driver_label": "Sterownik",
                 "from_label": "Nadawca",
                 "mail_encryption_label": "Szyfrowanie (encryption)",
                 "mail_host_label": "Host",
@@ -453,7 +453,7 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Czy na pewno chcesz nieodwracalnie usunąć ten post? Ta operacja nie może zostać cofnięta.",
+                "delete_confirmation": "Czy na pewno chcesz nieodwracalnie usunąć ten post? Tej operacji nie można cofnąć.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Czy na pewno chcesz usunąć ten post?",
@@ -542,8 +542,8 @@
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "Wyślij",
-                "avatar_upload_tooltip": "Wyślij nowy awatar",
+                "avatar_upload_button": "Prześlij",
+                "avatar_upload_tooltip": "Prześlij nowy awatar",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "W {discussion}",
                 "joined_date_text": "Dołączył {ago}",
@@ -670,7 +670,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
-                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.",
+                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -756,7 +756,7 @@
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
             "extensions": "Rozszerzenia",
-            "generic_confirmation_message": "Czy na pewno chcesz kontynuować? Ta operacja nie może zostać cofnięta.",
+            "generic_confirmation_message": "Czy na pewno chcesz kontynuować? Tej operacji nie można cofnąć.",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
