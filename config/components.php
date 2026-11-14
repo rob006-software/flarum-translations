@@ -481,9 +481,7 @@ return [
 	],
 	'dshovchko-image-migrate' => [
 		'tag' => 'https://raw.githubusercontent.com/dshovchko/flarum-image-migrate/v1.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'uk',
-		],
+		'__builtInLanguages' => ['uk'],
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.2.0/resources/locale/en.yml',
