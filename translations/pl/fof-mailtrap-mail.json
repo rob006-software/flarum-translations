@@ -2,25 +2,25 @@
     "core": {
         "admin": {
             "email": {
-                "mailtrap_heading": "",
-                "mailtrap_description": "",
-                "mail_mailtrap_api_token_label": "",
-                "mail_mailtrap_api_token_help": "",
-                "mail_mailtrap_mode_label": "",
-                "mail_mailtrap_mode_help": "",
-                "mail_mailtrap_inbox_id_label": "",
-                "mail_mailtrap_inbox_id_help": "",
-                "mail_mailtrap_category_label": "",
-                "mail_mailtrap_category_help": ""
+                "mailtrap_heading": "Ustawienia Mailtrap",
+                "mailtrap_description": "Wysyłaj e-maile przez API Mailtrap lub przechwytuj je w testowej skrzynce sandbox Mailtrap. Aby wysyłać prawdziwe e-maile, adres nadawcy musi należeć do domeny wysyłkowej zweryfikowanej w Mailtrap.",
+                "mail_mailtrap_api_token_label": "Token API",
+                "mail_mailtrap_api_token_help": "Utwórz go w Mailtrap w sekcji Settings → API Tokens. Nadaj mu dostęp do swojej domeny wysyłkowej lub – podczas testów – do skrzynki sandbox.",
+                "mail_mailtrap_mode_label": "Tryb",
+                "mail_mailtrap_mode_help": "Tryb „Wysyłaj e-maile” dostarcza wiadomości do użytkowników. Tryb sandbox nie dostarcza niczego prawdziwym odbiorcom: każdy e-mail trafia do testowej skrzynki Mailtrap, co sprawdza się na forach testowych i deweloperskich.",
+                "mail_mailtrap_inbox_id_label": "ID skrzynki sandbox",
+                "mail_mailtrap_inbox_id_help": "Używane tylko w trybie sandbox. Jest to liczba w adresie skrzynki, np. 1234567 w mailtrap.io/inboxes/1234567/messages.",
+                "mail_mailtrap_category_label": "Kategoria",
+                "mail_mailtrap_category_help": "Opcjonalne. Oznacza każdy e-mail kategorią, według której można filtrować logi i statystyki e-maili w Mailtrap, np. nazwą forum."
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
-            "pinned_help": "",
+            "pinned_help": "Ustawione w kodzie przez konfigurację tego forum, więc nie można tego zmienić tutaj.",
             "mode": {
-                "sending": "",
-                "sandbox": ""
+                "sending": "Wysyłaj e-maile",
+                "sandbox": "Sandbox (testowanie)"
             }
         }
     }
