@@ -2,42 +2,42 @@
     "fof-signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": "",
-                "edit": ""
+                "signature": "Podpis",
+                "save": "Zapisz podpis",
+                "edit": "Edytuj podpis"
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_count_exceed": "",
-                "save_failed": ""
+                "max_char_limit_exceed": "Przekroczono maksymalną liczbę znaków.",
+                "max_image_count_exceed": "Przekroczono maksymalną liczbę obrazów.",
+                "save_failed": "Coś poszło nie tak podczas zapisywania podpisu."
             },
             "editor": {
-                "placeholder": ""
+                "placeholder": "Tutaj edytuj swój podpis"
             },
             "settings": {
-                "heading": ""
+                "heading": "Podpis"
             },
             "profile": {
-                "click": ""
+                "click": "Kliknij, aby napisać swój podpis"
             }
         },
         "admin": {
             "permissions": {
-                "edit_signature_others": "",
-                "allow_signature": ""
+                "edit_signature_others": "Edytowanie podpisów innych użytkowników",
+                "allow_signature": "Posiadanie podpisu"
             },
             "settings": {
                 "maximum_image_count": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maksymalna liczba obrazów w podpisie.",
+                    "help": "Jeśli użytkownik przekroczy maksymalną liczbę obrazów w podpisie, nie będzie mógł go zapisać, dopóki nie zmniejszy liczby obrazów."
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "help": ""
+                    "description": "Maksymalna liczba znaków w podpisie.",
+                    "help": "Jeśli użytkownik przekroczy maksymalną liczbę znaków w podpisie, nie będzie mógł go zapisać, dopóki nie skróci podpisu."
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Edytowanie podpisu bezpośrednio pod postem.",
+                    "help": "Po włączeniu tej opcji użytkownicy mogą edytować swój podpis podczas przeglądania posta."
                 }
             }
         }
