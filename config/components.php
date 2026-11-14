@@ -306,6 +306,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/club-1/flarum-ext-server-side-highlight/v1.4.0/locale/en.yml',
 		'__builtInLanguages' => ['fr'],
 	],
+	'cobbz-money-board-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/Cobb-Zhang/money-board-widget/v0.1.1/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'convo-extensions-guest-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/convo-extensions/flarum-ext-guest-posting/1.1.1/resources/locale/en.yml',
 	],
