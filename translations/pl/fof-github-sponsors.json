@@ -7,13 +7,13 @@
             },
             "settings": {
                 "api_token_label": "API Token",
-                "api_token_help": "",
+                "api_token_help": "Utwórz osobisty token dostępu na stronie <a>https://github.com/settings/tokens/new</a> z zakresami <code>user</code> i <code>read:org</code>. Ten token służy do pobierania z GitHuba informacji o Twoich sponsorach.",
                 "account_type_label": "Rodzaj konta",
-                "account_type_help": "",
+                "account_type_help": "Wybierz, czy śledzisz sponsorów osobistego konta użytkownika GitHub, czy konta organizacji.",
                 "login_label": "Login",
-                "login_help": "",
+                "login_help": "Wpisz swoją nazwę użytkownika GitHub (dla kont użytkowników) lub nazwę organizacji (dla organizacji). Sponsorzy tego konta będą synchronizowani.",
                 "group_label": "Grupa do przypisania",
-                "group_help": "",
+                "group_help": "Wybierz grupę użytkowników Flarum, do której mają być dodawani sponsorzy. Użytkownicy będą automatycznie dodawani, gdy zostaną sponsorami, i usuwani, gdy przestaną sponsorować.",
                 "desc": "Uzyskaj token API na <a>https://github.com/settings/tokens/new</a>. To rozszerzenie wymaga uprawnień z zakresów (scopes): <code>user</code> oraz <code>read:org</code>."
             }
         }
