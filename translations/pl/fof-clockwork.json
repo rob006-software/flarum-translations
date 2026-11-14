@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
-                "button_label": ""
+                "section_label": "Clockwork",
+                "button_label": "Otwórz Clockwork"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Ustawienia",
+                "disable_auth_label": "Wyłącz uwierzytelnianie",
+                "disable_auth_help": "Po włączeniu tej opcji wszystkie żądania są profilowane, a podgląd Clockwork jest dostępny bez logowania. Włączaj ją tylko tymczasowo na potrzeby debugowania.",
+                "disable_auth_warning": "Uwaga: uwierzytelnianie jest wyłączone. Podgląd Clockwork i wszystkie dane profilowania są publicznie dostępne. Wyłącz tę opcję po zakończeniu debugowania."
             }
         }
     }
