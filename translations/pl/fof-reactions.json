@@ -10,8 +10,8 @@
             "reacting-own-post": "Nie możesz zareagować na swój własny post",
             "modal": {
                 "title": "Reakcje",
-                "anonymous_count": "",
-                "no_reactions": ""
+                "anonymous_count": "{count, plural, one {# anonimowy użytkownik} few {# anonimowi użytkownicy} many {# anonimowych użytkowników} other {# anonimowego użytkownika}}",
+                "no_reactions": "Brak reakcji"
             },
             "mod_item": "Zobacz reakcje",
             "react_button_label": "Zareaguj"
@@ -20,14 +20,14 @@
             "permissions": {
                 "react_posts_label": "Reagowanie na posty",
                 "see_reactions_label": "Przeglądanie kto zareagował na dany post",
-                "delete_post_reactions_label": ""
+                "delete_post_reactions_label": "Usuwanie reakcji pod postami"
             },
             "page": {
                 "cdn": {
-                    "title": "",
-                    "help": "",
-                    "label": "",
-                    "default-url": ""
+                    "title": "CDN",
+                    "help": "Domyślnie zasoby reakcji są serwowane z CDN Cloudflare. W razie potrzeby możesz też podać adres dowolnego innego CDN. <code>[codepoint]</code> zostanie zastąpione kodem znaku emoji.\n\nNa przykład, aby przełączyć się na Noto Emoji przez jsdelivr, wpisz <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. To pole NIGDY nie może pozostać puste.\n",
+                    "label": "URL",
+                    "default-url": "Domyślnie: {url}"
                 },
                 "reactions": {
                     "title": "Niestandardowe reakcje",
@@ -37,7 +37,7 @@
                         "display": "Wyświetlana nazwa",
                         "identifier": "Identyfikator"
                     },
-                    "delete_confirmation": ""
+                    "delete_confirmation": "Czy na pewno chcesz usunąć tę reakcję? Tej operacji nie można cofnąć."
                 },
                 "convert": {
                     "help": "Jeśli jedynie zaktualizowałeś rozszerzenie, Twoje reakcje muszą być przekonwertowane. Jeśli właśnie zainstalowałeś rozszerzenie, możesz bezpiecznie zignorować tę wiadomość.",
@@ -48,8 +48,8 @@
                 "settings": {
                     "react_own_posts_help": "Jeśli włączone, w zależności od uprawnień, użytkownicy mogą reagować na swoje własne posty na forum. Wyłącz tę opcję, jeśli chcesz uniknąć reakcji użytkowników na swoje własne posty.",
                     "react_own_posts_label": "Użytkownicy mogą reagować na swoje własne posty",
-                    "allow-anonymous": "",
-                    "allow-anonymous-help": "",
+                    "allow-anonymous": "Zezwalaj na anonimowe reakcje (gości)",
+                    "allow-anonymous-help": "Po włączeniu tej opcji goście i anonimowi użytkownicy będą mogli reagować na posty. Anonimowe reakcje nie są powiązane z profilem użytkownika i są sumowane na liście reakcji.",
                     "save_settings": "Zapisz ustawienia",
                     "integrations": {
                         "legend": "Integracje",

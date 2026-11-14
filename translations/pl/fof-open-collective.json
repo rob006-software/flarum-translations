@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
+                "use_legacy_api_key_label": "Używaj starszego klucza API aplikacji",
+                "use_legacy_api_key_help": "Jeśli masz starszy klucz API, możesz nadal go używać, ale zalecane jest przejście na token osobisty. Obecnie tokeny osobiste wydają się działać w trybie klucza API (czyli z nagłówkiem „API-Key”), ale nie jest to udokumentowane.\n",
                 "api_key_label": "Klucz API aplikacji (przestarzałe)",
-                "api_key_help": "",
-                "personal_token_label": "",
-                "personal_token_help": "",
+                "api_key_help": "Ta metoda uwierzytelniania jest przestarzała. Rozważ przejście na token osobisty.",
+                "personal_token_label": "Token osobisty",
+                "personal_token_help": "Utwórz token osobisty na stronie <a>https://opencollective.com/applications</a>. Ten token służy do pobierania z Open Collective informacji o Twoich darczyńcach.",
                 "slug_label": "Collective Slug",
-                "slug_help": "",
+                "slug_help": "Wpisz slug swojego kolektywu w Open Collective (część adresu URL kolektywu po opencollective.com/).",
                 "group_label": "Grupa stałych wspierających",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
+                "group_help": "Wybierz grupę użytkowników Flarum, do której mają być dodawani stali darczyńcy. Użytkownicy będą automatycznie dodawani, gdy zaczną regularnie wspierać projekt, i przenoszeni do grupy darczyńców jednorazowych (jeśli została skonfigurowana), gdy ich subskrypcja się zakończy.",
+                "onetime_group_label": "Grupa darczyńców jednorazowych (opcjonalnie)",
+                "onetime_group_help": "Wybierz grupę użytkowników Flarum, do której mają być dodawani darczyńcy jednorazowi. Jeśli nie zostanie ustawiona, darczyńcy jednorazowi nie będą obsługiwani. Gdy stały darczyńca anuluje subskrypcję, zostanie przeniesiony do tej grupy.",
                 "desc": "Uzyskaj swój klucz API na <a>https://opencollective.com/applications</a>."
             }
         }

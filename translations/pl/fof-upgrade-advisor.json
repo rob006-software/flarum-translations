@@ -2,133 +2,133 @@
     "fof-upgrade-advisor": {
         "admin": {
             "overall": {
-                "ready": "",
-                "blocked": "",
-                "tasks": "",
-                "unchecked_only": "",
+                "ready": "Gotowe do aktualizacji do Flarum {version}",
+                "blocked": "Zablokowane: {reasons}",
+                "tasks": "Gotowe po wykonaniu {count, plural, one {# zadania} few {# zadań} many {# zadań} other {# zadania}}",
+                "unchecked_only": "Prawie gotowe: nie udało się sprawdzić {count, plural, one {# rozszerzenia} few {# rozszerzeń} many {# rozszerzeń} other {# rozszerzenia}}",
                 "reasons": {
-                    "no_path": "",
-                    "check": "",
-                    "unchecked": ""
+                    "no_path": "{count, plural, one {# rozszerzenie nie ma} few {# rozszerzenia nie mają} many {# rozszerzeń nie ma} other {# rozszerzenia nie ma}} ścieżki aktualizacji do wersji 2.0",
+                    "check": "{title} wymaga poprawy",
+                    "unchecked": "nie udało się sprawdzić {count, plural, one {# rozszerzenia} few {# rozszerzeń} many {# rozszerzeń} other {# rozszerzenia}}"
                 }
             },
             "checks": {
                 "php-version": {
-                    "title": "",
-                    "chip": "",
-                    "pass": "",
-                    "warning": "",
-                    "fail": ""
+                    "title": "Wersja PHP",
+                    "chip": "PHP {current}",
+                    "pass": "Używana wersja: PHP {current}.",
+                    "warning": "Nie udało się ustalić wersji PHP.",
+                    "fail": "Zainstalowano PHP {current}, ale wymagana jest wersja {required} lub nowsza."
                 },
                 "database-version": {
-                    "title": "",
-                    "pass": "",
-                    "warning_unknown": "",
-                    "warning_below_recommended": "",
-                    "fail": ""
+                    "title": "Wersja bazy danych",
+                    "pass": "Używana wersja: {current}.",
+                    "warning_unknown": "Nie udało się ustalić wersji serwera bazy danych.",
+                    "warning_below_recommended": "{current} działa, ale dla najlepszego działania zalecana jest wersja {recommended} lub nowsza.",
+                    "fail": "Zainstalowano {current}, ale Flarum 2.0 wymaga co najmniej wersji {required}."
                 },
                 "extension-compatibility": {
-                    "title": ""
+                    "title": "Zgodność rozszerzeń"
                 }
             },
             "extensions": {
                 "contact": {
-                    "forum": "",
-                    "issues": "",
-                    "source": ""
+                    "forum": "Wątek wsparcia",
+                    "issues": "Zgłoszenia",
+                    "source": "Kod źródłowy"
                 }
             },
             "summary": {
-                "progress": "",
-                "ready": "",
-                "tasks": "",
-                "blocked": "",
-                "unknown": "",
-                "checked": "",
-                "data_as_of": "",
-                "data_as_of_help": "",
-                "recommended": "",
-                "refresh": "",
-                "refresh_cooldown": "",
-                "export": ""
+                "progress": "{percent}% rozszerzeń jest gotowych bez zmian",
+                "ready": "Gotowe bez zmian: {count}",
+                "tasks": "Do zrobienia: {count}",
+                "blocked": "Zablokowane: {count}",
+                "unknown": "Nie udało się sprawdzić: {count}",
+                "checked": "Sprawdzono {time}",
+                "data_as_of": "Dane pakietów: {time}",
+                "data_as_of_help": "Informacje o pakietach są przechowywane w pamięci podręcznej do 6 godzin. Odśwież, aby pobrać najnowsze dane.",
+                "recommended": "Zalecana wersja: {version}",
+                "refresh": "Odśwież",
+                "refresh_cooldown": "Odśwież ({seconds} s)",
+                "export": "Eksportuj CSV"
             },
             "list": {
-                "before": "",
-                "after": "",
-                "copy": "",
-                "copied": "",
-                "configure": "",
+                "before": "Przed aktualizacją",
+                "after": "Po aktualizacji",
+                "copy": "Kopiuj",
+                "copied": "Skopiowano",
+                "configure": "Skonfiguruj dostęp do repozytoriów",
                 "groups": {
                     "environment": {
-                        "title": "",
-                        "description": ""
+                        "title": "Środowisko serwera",
+                        "description": "Popraw to przed aktualizacją."
                     },
                     "decision": {
-                        "title": "",
-                        "description": ""
+                        "title": "Wymaga decyzji",
+                        "description": "Brak wydania gotowego na wersję 2.0: zapytaj autora o plany albo przygotuj się na rezygnację z rozszerzenia."
                     },
                     "unknown": {
-                        "title": "",
-                        "description": ""
+                        "title": "Nie udało się sprawdzić",
+                        "description": "Zwykle są to rozszerzenia płatne lub prywatne. Dodaj dostęp do repozytorium, aby można je było sprawdzić."
                     },
                     "replace": {
-                        "title": "",
-                        "description": ""
+                        "title": "Usuń lub zastąp",
+                        "description": "Usuń te rozszerzenia przed aktualizacją, a ewentualne zamienniki zainstaluj po jej zakończeniu."
                     },
                     "ready": {
-                        "title": "",
-                        "description": ""
+                        "title": "Gotowe",
+                        "description": "Te rozszerzenia mają wydanie zgodne z wersją 2.0."
                     }
                 },
                 "details": {
-                    "none": "",
-                    "none_unversioned": "",
-                    "remove": "",
-                    "replacement": "",
-                    "replacement_unverified": "",
-                    "abandoned": "",
-                    "replacement_not_ready": "",
-                    "latest": "",
-                    "no_release": "",
-                    "unknown": ""
+                    "none": "{version}",
+                    "none_unversioned": "Oznaczone na Discuss jako gotowe na wersję 2.0",
+                    "remove": "Wbudowane w rdzeń",
+                    "replacement": "→ {replacement}",
+                    "replacement_unverified": "→ {replacement} (sprawdź obsługę wersji 2.0)",
+                    "abandoned": "Porzucone, brak zamiennika",
+                    "replacement_not_ready": "Porzucone → {replacement} (niegotowe na wersję 2.0)",
+                    "latest": "Najnowsza wersja {version} obsługuje tylko 1.x",
+                    "no_release": "Brak wydania dla wersji 2.0",
+                    "unknown": "Nie znaleziono"
                 }
             },
             "hints": {
-                "none": "",
-                "none_unversioned": "",
-                "remove": "",
-                "swap_after_upgrade": "",
-                "switch_replacement": "",
-                "switch_replacement_unverified": "",
-                "no_path": "",
-                "no_path_unversioned": "",
-                "no_path_abandoned": "",
-                "no_path_replacement_not_ready": "",
-                "unknown": ""
+                "none": "Gotowe: wersja {version} obsługuje Flarum 2.0.",
+                "none_unversioned": "Gotowe: oznaczone na Discuss jako zgodne z wersją 2.0.",
+                "remove": "Usuń przed aktualizacją. Ta funkcja jest wbudowana we Flarum 2.0, więc nic jej nie zastępuje.",
+                "swap_after_upgrade": "Usuń przed aktualizacją, a po aktualizacji zainstaluj {replacement}.",
+                "switch_replacement": "Porzucone. Usuń przed aktualizacją, a po aktualizacji zainstaluj {replacement} (gotowe na wersję 2.0).",
+                "switch_replacement_unverified": "Porzucone. Usuń przed aktualizacją, a po aktualizacji zainstaluj {replacement}. Najpierw sprawdź, czy obsługuje wersję 2.0.",
+                "no_path": "Brak wydania dla wersji 2.0 (najnowsza wersja to {version}). Zapytaj autora o plany albo przygotuj się na usunięcie rozszerzenia.",
+                "no_path_unversioned": "Rozszerzenie nie jest jeszcze zgodne z wersją 2.0. Zapytaj autora o plany albo przygotuj się na jego usunięcie.",
+                "no_path_abandoned": "Porzucone, brak zamiennika. Przygotuj się na usunięcie rozszerzenia lub znajdź alternatywę.",
+                "no_path_replacement_not_ready": "Porzucone. Jego zamiennik {replacement} nie jest jeszcze gotowy na wersję 2.0.",
+                "unknown": "Nie znaleziono w Packagist ani w żadnym skonfigurowanym repozytorium. Jeśli to rozszerzenie płatne lub prywatne, dodaj dostęp do repozytorium."
             },
             "tabs": {
-                "report": "",
-                "repositories": ""
+                "report": "Raport gotowości",
+                "repositories": "Repozytoria"
             },
             "repositories": {
-                "help": "",
-                "empty": "",
-                "add_floxum": "",
-                "add_composer": "",
-                "type_floxum": "",
-                "type_composer": "",
-                "url": "",
-                "username": "",
-                "token": "",
-                "remove": "",
-                "test": "",
-                "test_ok": "",
-                "test_fail_auth": "",
-                "test_fail_unreachable": "",
-                "test_fail_invalid": ""
+                "help": "Dodaj prywatne repozytoria Composera lub repozytoria sklepów z rozszerzeniami, aby można było sprawdzić rozszerzenia, których nie ma w publicznym Packagist. Są one używane tylko wtedy, gdy rozszerzenia nie można znaleźć w Packagist.\n",
+                "empty": "Nie skonfigurowano dodatkowych repozytoriów.",
+                "add_floxum": "Dodaj Floxum",
+                "add_composer": "Dodaj repozytorium",
+                "type_floxum": "Floxum",
+                "type_composer": "Private Packagist / własne",
+                "url": "URL repozytorium",
+                "username": "Nazwa użytkownika",
+                "token": "Token",
+                "remove": "Usuń repozytorium",
+                "test": "Testuj połączenie",
+                "test_ok": "Połączono",
+                "test_fail_auth": "Uwierzytelnianie nie powiodło się – sprawdź token",
+                "test_fail_unreachable": "Nie udało się połączyć z repozytorium",
+                "test_fail_invalid": "Nieprawidłowa odpowiedź – sprawdź adres URL"
             },
             "errors": {
-                "load_failed": ""
+                "load_failed": "Nie udało się przeprowadzić sprawdzenia gotowości. Spróbuj ponownie."
             }
         }
     }

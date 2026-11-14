@@ -6,18 +6,18 @@
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "reCAPTCHA Type",
-                "type_help": "",
+                "type_help": "To rozszerzenie obsługuje tylko reCAPTCHA v2. Wybrany typ musi być zgodny z typem Twoich danych uwierzytelniających reCAPTCHA.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Test reCAPTCHA",
+                "help_text": "Ten test używa wartości wpisanych powyżej. Pamiętaj, aby po zmianie ustawień ponownie wczytać test, i nie zapomnij zapisać ustawień, gdy test się powiedzie!\nPoniższy test może nie odzwierciedlać zapisanych ustawień.\n",
+                "success_message": "Sukces! reCAPTCHA jest poprawnie skonfigurowana.",
+                "load_test_button": "Wczytaj",
+                "submit_button": "Wyślij",
+                "reload_button": "Wczytaj ponownie"
             },
             "permissions": {
                 "post_without_captcha": "Tworzenie postów i dyskusji z pominięciem mechanizmu CAPTCHA"
@@ -25,11 +25,11 @@
         },
         "forum": {
             "error": "Wystąpił błąd podczas przesyłania odpowiedzi reCAPTCHA. Spróbuj ponownie.",
-            "unknown_error": ""
+            "unknown_error": "Wystąpił nieznany błąd. Sprawdź captchę i spróbuj ponownie."
         }
     },
     "validation": {
         "recaptcha": "Weryfikacja reCAPTCHA nie powiodła się.",
-        "recaptcha-unknown": ""
+        "recaptcha-unknown": "Wystąpił nieznany błąd podczas weryfikacji reCAPTCHA ({errors})."
     }
 }

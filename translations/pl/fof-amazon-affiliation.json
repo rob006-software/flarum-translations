@@ -5,12 +5,12 @@
                 "title": {
                     "modal": "Ustawienia Amazon Affiliation",
                     "tags": "Tagi partnerskie",
-                    "tags-mediaembed": ""
+                    "tags-mediaembed": "Następujące wersje Amazon nie są obecnie obsługiwane przez MediaEmbed, więc zawsze będą wyświetlane jako zwykłe linki (zgodnie z powyższymi ustawieniami): CN, BR, MX, AU"
                 },
                 "field": {
                     "keep-existing-tag": "Zachowaj tagi Amazon Affiliate z oryginalnych linków zamiast je zastępować",
                     "keep-existing-tag-help": "Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.",
-                    "help-mediaembed": "",
+                    "help-mediaembed": "W przypadku używania razem z fof/formatting rozszerzony podgląd (rich embed) zawsze usuwa wszystkie istniejące tagi",
                     "remove-tag-if-unhandled": "Usuń tagi Amazon Affiliate z linków do nieobsługiwanych wersji Amazon",
                     "remove-tag-if-unhandled-help": "Domyślnie nieobsługiwane linki pozostają niezmienione, w tym ich tag (jeśli taki istnieje).",
                     "tag": "{name} (amazon.{domain})",

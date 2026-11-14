@@ -2,54 +2,54 @@
     "fof-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorie"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Zachować link do strony tagów w bocznym menu nawigacji?",
+                "child_bare_icon": "Ikony podkategorii bez tła?",
+                "compact_mobile_mode": "Kompaktowy tryb mobilny",
+                "full_page_desktop": "Pełna szerokość strony na komputerach?",
+                "parent_remove_icon": "Ukryć ikony tagów najwyższego poziomu?",
+                "parent_remove_description": "Ukryć opisy tagów najwyższego poziomu?",
+                "parent_remove_stats": "Ukryć statystyki tagów najwyższego poziomu?",
+                "parent_remove_last_discussion": "Ukryć najnowsze dyskusje tagów najwyższego poziomu?",
+                "small_forum_optimized": "Optymalizować dla małych forów?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Czy ikony podkategorii mają być wyświetlane bez okrągłego tła?",
+                "full_page_desktop": "Czy menu nawigacji w panelu bocznym ma zostać zwinięte do jednego wiersza (jak na tradycyjnej stronie tagów)? Spowoduje to również ukrycie widżetów (np. Friends of Flarum Forum Statistics) w nawigacji strony kategorii.",
+                "small_forum_optimized": "Liczba dyskusji i postów będzie dokładniejsza, ale średnie i duże fora będą działać znacznie wolniej."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Nawigacja",
+                "layout": "Układ",
+                "parent_display": "Wyświetlanie kategorii nadrzędnych",
+                "child_display": "Wyświetlanie podkategorii",
+                "performance": "Wydajność"
             },
-            "title": ""
+            "title": "Ustawienia kategorii"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Wszystkie kategorie",
+                "meta_title_text": "=> fof-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Wróć do kategorii"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> fof-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Dyskusje",
+                "post_label": "Posty"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Brak dyskusji (na razie!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorie"
         }
     }
 }

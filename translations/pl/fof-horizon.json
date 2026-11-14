@@ -2,64 +2,64 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": ""
+                "trim_title": "Ustawienia przycinania",
+                "trim_help": "Tutaj możesz skonfigurować, jak długo (w minutach) Horizon ma przechowywać ostatnie i nieudane zadania. Zazwyczaj ostatnie zadania są przechowywane przez godzinę, a wszystkie nieudane zadania – przez cały tydzień.\n",
+                "trim_recent": "Przycinanie ostatnich zadań",
+                "trim_recent_help": "Ta tabela służy do wyświetlania ostatnich zadań w panelu Horizon.\n",
+                "trim_pending": "Przycinanie oczekujących zadań",
+                "trim_pending_help": "Ta tabela służy do wyświetlania oczekujących zadań w panelu Horizon.\n",
+                "trim_completed": "Przycinanie zakończonych zadań",
+                "trim_completed_help": "Ta tabela służy do wyświetlania zakończonych zadań w panelu Horizon.\n",
+                "trim_recent_failed": "Przycinanie ostatnich nieudanych zadań",
+                "trim_recent_failed_help": "Ta tabela służy do wyświetlania ostatnich nieudanych zadań w panelu Horizon.\n",
+                "trim_failed": "Przycinanie nieudanych zadań",
+                "trim_failed_help": "Ta tabela służy do wyświetlania nieudanych zadań w panelu Horizon.\n",
+                "trim_monitored": "Przycinanie monitorowanych zadań",
+                "trim_monitored_help": "Ta tabela służy do wyświetlania monitorowanych zadań w panelu Horizon.\n"
             },
             "stats": {
-                "auto_refresh": "",
-                "heading": "",
-                "full_dashboard": "",
-                "refresh": "",
-                "last_refresh": "",
+                "auto_refresh": "Automatyczne odświeżanie",
+                "heading": "Przegląd kolejki",
+                "full_dashboard": "Panel Horizon",
+                "refresh": "Odśwież",
+                "last_refresh": "Zaktualizowano {time}",
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip": ""
+                    "excellent": "Doskonały",
+                    "good": "Dobry",
+                    "poor": "Słaby",
+                    "critical": "Krytyczny",
+                    "tooltip": "Ocena stanu systemu: {score}/100"
                 },
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Błąd połączenia",
+                    "fetch_failed": "Nie udało się pobrać statystyk Horizon. Sprawdź konfigurację Redis.",
+                    "setup_docs": "Zobacz dokumentację konfiguracji Redis"
                 },
                 "data": {
-                    "redis-used-memory": "",
-                    "redis-memory-usage": "",
-                    "redis-peak-memory": "",
-                    "redis-max-memory": "",
-                    "redis-memory-policy": "",
-                    "redis-memory-policy-tooltip": "",
-                    "redis-ops-per-sec": "",
-                    "redis-connected-clients": "",
-                    "redis-blocked-clients": "",
-                    "jobs-per-minute": "",
-                    "jobs-past-hour": "",
-                    "failed-last-seconds": "",
+                    "redis-used-memory": "Pamięć podręczna – użyta pamięć",
+                    "redis-memory-usage": "Pamięć podręczna – zużycie pamięci",
+                    "redis-peak-memory": "Pamięć podręczna – szczytowe użycie pamięci",
+                    "redis-max-memory": "Pamięć podręczna – maksymalna pamięć",
+                    "redis-memory-policy": "Pamięć podręczna – polityka pamięci",
+                    "redis-memory-policy-tooltip": "Polityka pamięci określa, w jaki sposób magazyn pamięci podręcznej wybiera dane do usunięcia po osiągnięciu limitu maxmemory. Domyślna wartość to `noeviction`: po osiągnięciu limitu pamięci nowe wartości nie są zapisywane. Kliknij, aby zobaczyć dokumentację.\n",
+                    "redis-ops-per-sec": "Operacje na sekundę",
+                    "redis-connected-clients": "Połączeni klienci",
+                    "redis-blocked-clients": "Zablokowani klienci",
+                    "jobs-per-minute": "Zadania na minutę",
+                    "jobs-past-hour": "Zadania w ostatniej godzinie",
+                    "failed-last-seconds": "Nieudane zadania w ostatnich sekundach",
                     "status": {
-                        "label": "",
-                        "running": "",
-                        "inactive": ""
+                        "label": "Status",
+                        "running": "Działa",
+                        "inactive": "Nieaktywny"
                     },
-                    "total-processes": "",
-                    "max-wait-time": "",
-                    "max-wait-queue": "",
-                    "max-runtime": "",
-                    "max-throughput": "",
-                    "success-rate": "",
-                    "failure-rate": ""
+                    "total-processes": "Liczba procesów",
+                    "max-wait-time": "Maksymalny czas oczekiwania",
+                    "max-wait-queue": "Kolejka: {queue}",
+                    "max-runtime": "Maksymalny czas wykonania",
+                    "max-throughput": "Maksymalna przepustowość",
+                    "success-rate": "Odsetek powodzeń",
+                    "failure-rate": "Odsetek niepowodzeń"
                 }
             }
         }
