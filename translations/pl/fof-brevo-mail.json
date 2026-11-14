@@ -2,10 +2,10 @@
     "core": {
         "admin": {
             "email": {
-                "brevo_heading": "",
-                "brevo_description": "",
-                "mail_brevo_api_key_label": "",
-                "mail_brevo_api_key_help": ""
+                "brevo_heading": "Ustawienia Brevo",
+                "brevo_description": "Wysyłaj e-maile przez API Brevo do wiadomości transakcyjnych. Adres nadawcy musi być zweryfikowanym nadawcą lub należeć do domeny uwierzytelnionej w Brevo.",
+                "mail_brevo_api_key_label": "Klucz API",
+                "mail_brevo_api_key_help": "Utwórz go w Brevo w sekcji SMTP & API → API keys. Użyj klucza API (zaczyna się od xkeysib-), a nie klucza SMTP."
             }
         }
     }
