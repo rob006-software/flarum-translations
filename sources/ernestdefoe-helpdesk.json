@@ -1,0 +1,77 @@
+{
+    "ernestdefoe-helpdesk": {
+        "forum": {
+            "ask_button": "Ask a question",
+            "hero": {
+                "title": "How can we help?",
+                "text": "Search {things}, or ask the community.",
+                "text_plain": "Search the community, or ask a question.",
+                "answered": "{count, plural, one {# answered question} other {# answered questions}}",
+                "guides": "{count, plural, one {# guide} other {# guides}}",
+                "both": "{first} and {second}",
+                "placeholder": "Search questions and guides",
+                "label": "Search questions and guides",
+                "popular": "Popular:",
+                "shortcut": "Press / to search"
+            },
+            "topics": {
+                "heading": "Browse by topic",
+                "all": "All {count} topics",
+                "questions": "{count, plural, one {# question} other {# questions}}",
+                "discussions": "{count, plural, one {# discussion} other {# discussions}}",
+                "answered": "{percent}% answered"
+            },
+            "list": {
+                "heading": "Recent questions",
+                "asked_by": "asked by {username}",
+                "replies": "{count, plural, one {reply} other {replies}}"
+            },
+            "tree": {
+                "heading": "Topics"
+            },
+            "question": {
+                "community": "Community",
+                "asked": "Asked {date} by {username}",
+                "answers": "{count, plural, one {# answer} other {# answers}}",
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "views": "{count, plural, one {# view} other {# views}}"
+            },
+            "toc": {
+                "heading": "On this question",
+                "question": "Question",
+                "accepted": "Accepted answer",
+                "answers": "Answers",
+                "replies": "Replies"
+            },
+            "solved": {
+                "question": "Did this solve it for you?",
+                "yes": "Yes",
+                "no": "No",
+                "count": "{count, plural, =0 {Be the first to say} one {# person said yes} other {# people said yes}}",
+                "thanks_yes": "Thanks! Glad it helped.",
+                "thanks_no": "Sorry it didn't. Add an answer, or ask a new question with what you tried.",
+                "undo": "Undo"
+            },
+            "kb": {
+                "heading": "From the knowledge base"
+            }
+        },
+        "admin": {
+            "accent_label": "Accent color",
+            "accent_help": "Buttons, links and the selected topic. Leave empty for teal.",
+            "bar_label": "Header color",
+            "bar_help": "The header and the search hero. Leave empty for deep teal.",
+            "fonts_label": "Use IBM Plex Sans and Mono",
+            "fonts_help": "Served from your forum, never from Google. Off uses the system fonts.",
+            "hero_title_label": "Search hero title",
+            "hero_title_help": "Empty: \"How can we help?\"",
+            "hero_text_label": "Search hero text",
+            "hero_text_help": "Empty shows how many answered questions and guides there are to search.",
+            "popular_label": "Popular searches",
+            "popular_help": "Comma-separated, shown as chips under the search box. Example: Refunds, Shipping times, Reset password",
+            "topics_label": "Show topic cards on the home page",
+            "topics_help": "One card per top-level primary tag, with how many of its questions are answered.",
+            "topic_count_label": "Topic cards to show"
+        }
+    }
+}

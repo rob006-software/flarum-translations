@@ -1,0 +1,41 @@
+{
+    "ernestdefoe-broadsheet": {
+        "forum": {
+            "by": "By {name}",
+            "deleted_user": "[deleted]",
+            "front_page": "Front page",
+            "last_from": "last from {name}",
+            "lead_label": "Lead discussion",
+            "letters": "Letters in reply",
+            "most_discussed": "Most discussed this week",
+            "night_edition": "Night edition",
+            "read_time": "{count, plural, one {# min read} other {# min read}}",
+            "replies": "{count, plural, one {# reply} other {# replies}}",
+            "rest_of_paper": "The rest of the paper",
+            "sections_label": "Sections",
+            "write": "Write a piece"
+        },
+        "admin": {
+            "accent_help": "The color of section labels, the active section, the numbers in Most discussed and links in an article. Leave it empty for the ink red.",
+            "accent_label": "Accent color",
+            "dateline_help": "Today's date in the header, and \"Night edition\" when a reader uses dark mode.",
+            "dateline_label": "Show the date line",
+            "fonts_help": "Newsreader and IBM Plex Sans Condensed, served from your forum. Turn this off to use fonts every computer already has.",
+            "fonts_label": "Use the newspaper fonts",
+            "lead_help": "Which discussion leads the front page. If none qualifies, the newest discussion leads.",
+            "lead_label": "Lead story",
+            "lead_liked": "The most-liked discussion from the last 30 days",
+            "lead_liked_off": "The most-liked discussion (turn on Likes to use this)",
+            "lead_newest": "The newest discussion",
+            "lead_sticky": "The newest sticky discussion",
+            "lead_sticky_off": "The newest sticky discussion (turn on Sticky to use this)",
+            "nameplate_help": "The paper's name, set large across the top of the discussion list. Leave it empty to use the forum title.",
+            "nameplate_label": "Nameplate",
+            "sections_help": "The tags shown as sections in the nav, up to 12. Pick none to show your primary tags.",
+            "sections_label": "Sections",
+            "sections_no_tags": "Turn on Tags to build the section nav from your tags.",
+            "tagline_help": "The line under the nameplate. Leave it empty to use the forum description.",
+            "tagline_label": "Tagline"
+        }
+    }
+}

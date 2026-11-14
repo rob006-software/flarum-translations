@@ -1,0 +1,96 @@
+{
+    "ernestdefoe-hearth": {
+        "admin": {
+            "colors": {
+                "title": "Colors",
+                "intro": "Pick a preset or any color. Every tint, line, hover and button in Hearth is worked out from these four, so one pick recolors the whole theme.",
+                "accent_label": "Accent",
+                "accent_help": "Buttons, links, the kettle and your own posts in Daytime.",
+                "paper_label": "Paper",
+                "paper_help": "The page in Daytime. Cards and lines are shaded from it. Keep it light; a dark color falls back to Oat so text stays readable.",
+                "evening_accent_label": "Evening accent",
+                "evening_accent_help": "Buttons, the kettle and your own posts in Evening (dark mode).",
+                "evening_ground_label": "Evening ground",
+                "evening_ground_help": "The page in Evening. Keep it dark; a light color falls back to Ember so text stays readable.",
+                "presets_label": "{label} presets",
+                "custom_label": "Pick any {label} color",
+                "hex_label": "{label} as a hex code",
+                "invalid": "That isn't a #RRGGBB color, so {fallback} is used.",
+                "presets": {
+                    "sage": "Sage",
+                    "clay": "Clay",
+                    "lake": "Lake",
+                    "plum": "Plum",
+                    "oat": "Oat",
+                    "linen": "Linen",
+                    "fern": "Fern",
+                    "rose": "Rose",
+                    "ember": "Ember",
+                    "moss": "Moss",
+                    "ink": "Ink",
+                    "damson": "Damson"
+                }
+            },
+            "settings": {
+                "welcome_label": "Show the welcome card",
+                "welcome_help": "\"Good afternoon, Mira\" above the discussion list, with how many conversations have something new. Guests see your welcome title and message there instead of the banner. With Homecoming enabled, its welcome strip is used instead.",
+                "own_right_label": "Put each member's own posts on the right",
+                "own_right_help": "Like a chat. Turn it off to keep every post on the left.",
+                "shelf_label": "Show tags as a shelf of jars",
+                "shelf_help": "The Tags page shows each tag as a jar in its color, on wooden shelves. Off, it shows the usual tag tiles.",
+                "seasons_label": "Seasonal touches",
+                "seasons_help": "A small sprig on the welcome card that changes with the season. They switch off by themselves while Festoon is enabled.",
+                "seasons_north": "Northern hemisphere",
+                "seasons_south": "Southern hemisphere",
+                "seasons_off": "Off",
+                "house_rules_label": "House rules",
+                "house_rules_help": "A few friendly lines shown on a card under the tags in the sidebar. Plain text; line breaks are kept. Leave it empty for no card. With FoF Forum Widgets you can place the card yourself."
+            }
+        },
+        "forum": {
+            "welcome": {
+                "label": "Welcome",
+                "hide": "Hide until tomorrow",
+                "greeting_morning": "Good morning, {name}.",
+                "greeting_afternoon": "Good afternoon, {name}.",
+                "greeting_evening": "Good evening, {name}.",
+                "greeting_night": "Still up, {name}?",
+                "settling": "Putting the kettle on…",
+                "unread_day": "{count, plural, one {The oven's warm. One conversation has something new since you last stopped by.} other {The oven's warm. # conversations have something new since you last stopped by.}}",
+                "unread_evening": "{count, plural, one {Kettle's on. One conversation has something new since you last stopped by.} other {Kettle's on. # conversations have something new since you last stopped by.}}",
+                "caught_up": "You're all caught up. Pull up a chair anyway.",
+                "catch_up": "Catch up",
+                "guest_title": "Pull up a chair.",
+                "guest_text": "A small, friendly corner of the internet. Have a look around, then join in.",
+                "sign_up": "Join in",
+                "log_in": "Log in"
+            },
+            "list": {
+                "new": "{count, plural, one {# new} other {{formatted} new}}",
+                "replies": "{count, plural, one {# reply} other {{formatted} replies}}",
+                "mark_read": "Mark as read"
+            },
+            "hero": {
+                "byline": "{count, plural, one {Started by {name} · {ago} · # reply} other {Started by {name} · {ago} · # replies}}"
+            },
+            "shelf": {
+                "label": "Tags",
+                "count": "{count, plural, one {# discussion} other {{formatted} discussions}}"
+            },
+            "pantry": "The pantry",
+            "pills": {
+                "label": "Tags",
+                "all": "All"
+            },
+            "evening": {
+                "evening": "Evening",
+                "day": "Daytime",
+                "to_evening": "Switch to Evening",
+                "to_day": "Switch to Daytime"
+            },
+            "house_rules": {
+                "title": "House rules"
+            }
+        }
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "ernestdefoe-testimonials": {
+        "admin": {
+            "settings": {
+                "ratings": "Star ratings",
+                "ratings_help": "Members can give one to five stars overall, and rate each aspect below. Turn this off for words only.",
+                "anonymous": "Allow anonymous testimonials",
+                "anonymous_help": "Members can choose to show no name at all. Moderators always see who wrote it.",
+                "depot_source": "Show Depot reviews as testimonials",
+                "depot_source_help": "Depot reviews rated 4 stars or more, with words in them, show as testimonials about their download. Depot never asked reviewers for consent, so these show on the forum only and are never marked OK to feature outside it. A review edited below 4 stars or deleted is taken down at once, and reviewers can hide theirs from the widgets in their profile.",
+                "min_length": "Shortest testimonial (characters)",
+                "max_length": "Longest testimonial (characters)",
+                "min_posts": "Posts needed before writing one",
+                "min_posts_help": "0 lets any member with permission write one. Moderators are never held back.",
+                "min_days": "Days since joining before writing one",
+                "min_trust_level": "Trust level needed before writing one",
+                "widget_min_rating": "Widgets show testimonials rated at least",
+                "widget_min_rating_help": "Stars, 0 to 5. The Testimonials page always lists them all. 0 shows everything in the widgets too.",
+                "stock_top": "Carousel at the top of the discussion list",
+                "stock_help": "For forums without Bespoke, Page Builder or FoF Widgets. Each one steps aside while one of those hosts shows the same widget.",
+                "stock_sidebar": "Rating summary in the sidebar",
+                "nudge": "Ask active members to write one",
+                "nudge_help": "A small card at the top of the discussion list for members who have posted and stayed a while and haven't written one yet. They can close it.",
+                "nudge_posts": "Posts before asking",
+                "nudge_days": "Days since joining before asking",
+                "perm_view": "View testimonials",
+                "perm_create": "Write testimonials",
+                "perm_auto": "Testimonials go live without review",
+                "perm_moderate": "Moderate testimonials"
+            },
+            "aspects": {
+                "label": "Rated aspects",
+                "help": "Besides the overall stars, members can rate each of these. Each one is optional on the form. Renaming one keeps its ratings; removing one hides it and keeps its ratings.",
+                "name": "Aspect {index}",
+                "up": "Move up",
+                "remove": "Remove",
+                "add": "Add an aspect"
+            }
+        },
+        "forum": {
+            "nav": "Testimonials",
+            "nav_queue": "Testimonials queue",
+            "post_control": "Use as a testimonial",
+            "stars_label": "{rating} out of 5 stars",
+            "byline": {
+                "anonymous": "A member",
+                "since": "Member since {year}"
+            },
+            "subject": {
+                "community": "The community"
+            },
+            "page": {
+                "title": "Testimonials",
+                "eyebrow": "Testimonials",
+                "heading": "What members say about {forum}",
+                "lead": "Written by members, in their own words. A moderator reads each one before it goes up, and anyone can take theirs down at any time.",
+                "description": "What members say about this community, in their own words.",
+                "description_rated": "{count} testimonials from members, rated {average} out of 5.",
+                "yours": "Your testimonials",
+                "featured": "Featured",
+                "all": "All testimonials",
+                "chip_all": "All",
+                "chip_rated": "Rated 4 and up",
+                "filter_label": "Show testimonials about",
+                "empty": "No testimonials here yet.",
+                "load_more": "Load more"
+            },
+            "widget": {
+                "carousel_title": "What members say",
+                "carousel_label": "Testimonials",
+                "wall_title": "Kind words from members",
+                "rating_title": "Members rate us",
+                "rating_label": "Member rating",
+                "see_all": "See all",
+                "previous": "Previous testimonial",
+                "next": "Next testimonial",
+                "go_to": "Show testimonial {index}",
+                "slide": "{index} of {count}",
+                "featured": "Featured testimonial",
+                "read_thread": "Read the thread",
+                "count": "{count, plural, one {# testimonial} other {# testimonials}}",
+                "empty_staff": "No testimonials to show here yet. Only staff see this note."
+            },
+            "share": {
+                "button": "Share your experience",
+                "title": "Share your experience",
+                "title_edit": "Edit your testimonial",
+                "title_wording": "Fix the wording",
+                "intro": "A few honest sentences help new members more than a perfect paragraph.",
+                "wording_note": "Fix typos and wording only. The member is told, and can take it down if they don't agree.",
+                "about": "What's it about?",
+                "about_community": "The community",
+                "about_tag": "A tag",
+                "about_depot": "A download",
+                "about_post": "One of my posts",
+                "pick_tag": "Choose a tag",
+                "find_download": "Search downloads",
+                "change": "Change",
+                "linked_post": "Linked to your post in “{title}”",
+                "rating": "Your rating",
+                "rate_n": "{label}: {rating} out of 5",
+                "optional": "Optional",
+                "headline": "Headline",
+                "headline_placeholder": "For example, Found my people here",
+                "body": "Your testimonial",
+                "body_placeholder": "What has this place been like for you?",
+                "body_help": "At least {min} characters. Plain text.",
+                "counter": "{count} / {max}",
+                "byline": "Show my name as",
+                "byline_full": "Name and picture",
+                "byline_first": "First name only",
+                "byline_anonymous": "Anonymous",
+                "first_help": "Only your first name goes with it, with no picture or link to your profile.",
+                "anonymous_help": "Nobody but moderators can tell it was you, not even from the page source. Not even the year you joined is shown.",
+                "consent": "Show this on the forum and its public pages. I can take it down any time from my profile.",
+                "consent_external": "It's OK to feature this outside the forum too, like on the homepage or a social post. (Optional)",
+                "footer": "A moderator reads every testimonial before it goes live. You'll get a notification either way.",
+                "wording_footer": "The member is notified that a moderator edited it.",
+                "submit": "Send for review",
+                "save": "Save",
+                "preview": "Preview",
+                "preview_empty": "Your words will show here.",
+                "saved_pending": "Thanks! A moderator will read it soon.",
+                "saved_live": "Thanks! Your testimonial is live.",
+                "saved_wording": "Saved. The member has been notified."
+            },
+            "controls": {
+                "label": "Testimonial actions",
+                "feature": "Feature",
+                "unfeature": "Stop featuring",
+                "move_up": "Move up",
+                "move_down": "Move down",
+                "edit": "Edit",
+                "edit_wording": "Fix the wording",
+                "hide_depot": "Hide from the widgets",
+                "show_depot": "Show in the widgets again",
+                "decline": "Decline",
+                "decline_prompt": "Why? The member will see this.",
+                "remove": "Take it down",
+                "remove_confirm": "Take this testimonial down? You can bring it back from your profile for 30 days.",
+                "restore": "Bring it back"
+            },
+            "queue": {
+                "title": "Testimonials queue",
+                "lead": "Read each one before it goes live. The member is told when theirs is approved, featured, or declined.",
+                "tabs": {
+                    "pending": "Waiting",
+                    "approved": "Live",
+                    "featured": "Featured",
+                    "declined": "Declined",
+                    "spam": "Spam",
+                    "removed": "Taken down"
+                },
+                "empty": {
+                    "pending": "Nothing waiting for review.",
+                    "approved": "No live testimonials yet.",
+                    "featured": "Nothing featured yet. Feature a live testimonial to show it first.",
+                    "declined": "Nothing declined.",
+                    "spam": "Nothing marked as spam.",
+                    "removed": "Nothing taken down."
+                },
+                "select_all": "Select all",
+                "select": "Select the testimonial from {name}",
+                "approve_selected": "Approve selected ({count})",
+                "decline_selected": "Decline selected ({count})",
+                "keys_move": "move",
+                "keys_approve": "approve",
+                "keys_feature": "feature",
+                "keys_decline": "decline",
+                "posts": "{count, plural, one {# post} other {# posts}}",
+                "joined": "Joined {date}",
+                "trust_level": "Trust level {level}",
+                "shows": {
+                    "full": "Shows: name and picture",
+                    "first": "Shows: first name only",
+                    "anonymous": "Shows: anonymous"
+                },
+                "from_depot": "From a Depot review",
+                "edited_by_staff": "Wording edited by staff",
+                "consent_forum": "OK to show on the forum",
+                "consent_external_yes": "OK to feature outside the forum",
+                "consent_external_no": "Forum only",
+                "reason": "Reason given: {reason}",
+                "approve": "Approve",
+                "approve_feature": "Approve and feature",
+                "edit": "Fix the wording",
+                "decline": "Decline",
+                "spam": "Mark as spam",
+                "why": "Why not?",
+                "why_help": "The member sees this.",
+                "note": "Add a note for the member (optional)",
+                "decline_send": "Decline and tell them",
+                "reasons": {
+                    "short": "Too short to help anyone",
+                    "short_text": "It's a little too short to help someone deciding whether to join.",
+                    "advert": "Reads like an ad",
+                    "advert_text": "It reads like an advertisement rather than an experience.",
+                    "names_member": "Names another member",
+                    "names_member_text": "We keep testimonials about the community, not about other members.",
+                    "off_topic": "Not about this community",
+                    "off_topic_text": "It isn't about this community or what it was about.",
+                    "other": "Something else",
+                    "other_text": "Thanks for writing this. It isn't going up as it is."
+                }
+            },
+            "profile": {
+                "nav": "Testimonials",
+                "empty": "No testimonials yet.",
+                "empty_own": "You haven't written a testimonial yet.",
+                "removed_help": "You can bring it back for 30 days.",
+                "status": {
+                    "pending": "Waiting for review",
+                    "approved": "Live",
+                    "featured": "Live and featured",
+                    "hidden": "Hidden from the widgets",
+                    "declined": "Declined",
+                    "spam": "Not published",
+                    "removed": "Taken down"
+                }
+            },
+            "notification": {
+                "testimonialApproved": "Your testimonial is live",
+                "testimonialFeatured": "Your testimonial is featured",
+                "testimonialDeclined": "Your testimonial was declined",
+                "testimonialEdited": "A moderator edited the wording of your testimonial",
+                "testimonialApproved_preference": "When my testimonial goes live",
+                "testimonialFeatured_preference": "When my testimonial is featured",
+                "testimonialDeclined_preference": "When my testimonial is declined",
+                "testimonialEdited_preference": "When a moderator edits my testimonial"
+            },
+            "nudge": {
+                "text": "You've been around a while. Would you tell new members what this place is like?"
+            },
+            "refusal": {
+                "generic": "Something went wrong. Please try again.",
+                "permission": "You can't write a testimonial.",
+                "min_posts": "You can write a testimonial after posting a little more.",
+                "min_days": "You can write a testimonial once you've been a member a little longer.",
+                "min_trust_level": "You can write a testimonial once you reach a higher trust level.",
+                "no_consent": "Please tick the box to say it can be shown on the forum.",
+                "subject": "Pick what your testimonial is about.",
+                "already_written": "You've already written one about this. You can edit it from your profile.",
+                "pending_limit": "You have several testimonials waiting for review. Please wait until they're read.",
+                "too_short": "That's a little short. Please write a bit more.",
+                "too_long": "That's too long. Please shorten it.",
+                "anonymous_off": "Anonymous testimonials are turned off on this forum.",
+                "removed": "Bring it back first.",
+                "until": "The \"feature until\" date must be a date in the future."
+            }
+        },
+        "lib": {
+            "gdpr": {
+                "export": "Your testimonials and their ratings.",
+                "delete": "Your testimonials are deleted."
+            },
+            "widget": {
+                "carousel_title": "Testimonials carousel",
+                "wall_title": "Testimonials wall",
+                "spotlight_title": "Testimonial spotlight",
+                "rating_title": "Testimonials rating summary",
+                "source": "Show",
+                "source_featured": "Featured first, then newest",
+                "source_all": "All testimonials",
+                "source_community": "About the community",
+                "source_tag": "About one tag",
+                "source_depot": "About one download",
+                "slug": "Tag or download (its URL name)",
+                "slug_help": "For \"About one tag\" or \"About one download\", for example general or my-extension.",
+                "count": "How many",
+                "interval": "Seconds per slide",
+                "interval_help": "0 stops it moving on its own.",
+                "show_rating": "Show the stars",
+                "columns": "Columns",
+                "see_all": "Show a \"See all\" link",
+                "pick": "Which one",
+                "pick_daily": "A different featured one each day",
+                "pick_newest": "The newest featured one",
+                "show_quote": "Show a short quote",
+                "show_button": "Show the \"Share your experience\" button"
+            }
+        },
+        "email": {
+            "approved": {
+                "subject": "Your testimonial is live",
+                "plain": {
+                    "body": "Thanks for sharing your experience. Your testimonial is live now.\n\n{url}\n"
+                },
+                "html": {
+                    "body": "Thanks for sharing your experience. Your testimonial is live now.\n\n[See the testimonials]({url})\n"
+                }
+            },
+            "featured": {
+                "subject": "Your testimonial is featured",
+                "plain": {
+                    "body": "A moderator featured your testimonial, so it shows first on the testimonials page.\n\n{url}\n"
+                },
+                "html": {
+                    "body": "A moderator featured your testimonial, so it shows first on the testimonials page.\n\n[See the testimonials]({url})\n"
+                }
+            },
+            "declined": {
+                "subject": "About your testimonial",
+                "plain": {
+                    "body": "Thanks for writing a testimonial. A moderator decided not to publish it.\n\n{reason}\n\nYou can edit it and send it again from your profile.\n"
+                },
+                "html": {
+                    "body": "Thanks for writing a testimonial. A moderator decided not to publish it.\n\n{reason}\n\nYou can edit it and send it again from your profile.\n"
+                }
+            },
+            "edited": {
+                "subject": "A moderator edited your testimonial",
+                "plain": {
+                    "body": "A moderator fixed the wording of your testimonial. If you don't agree with the change, you can take it down from your profile.\n\n{url}\n"
+                },
+                "html": {
+                    "body": "A moderator fixed the wording of your testimonial. If you don't agree with the change, you can take it down from your profile.\n\n[See the testimonials]({url})\n"
+                }
+            }
+        }
+    }
+}

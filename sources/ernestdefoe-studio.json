@@ -1,0 +1,71 @@
+{
+    "ernestdefoe-studio": {
+        "admin": {
+            "accent_label": "Accent color",
+            "accent_help": "The Share your work button, active links and the unread marks. Leave it empty for Studio's vermilion.",
+            "ground_label": "Page background (light mode)",
+            "ground_help": "The paper the gallery sits on. Leave it empty for Studio's warm gray.",
+            "fonts_label": "Use Studio's fonts",
+            "fonts_help": "Schibsted Grotesk for text and Instrument Serif for display, served from your forum. Turn off to use the forum's own fonts.",
+            "rail_label": "Dark mode is gallery mode",
+            "rail_help": "In dark mode on wide screens, the gallery goes edge to edge with an icon rail instead of the sidebar, and each card becomes a picture with its words over it.",
+            "chips_label": "Show a chip for each primary tag",
+            "chips_help": "A row of chips above the gallery, one per primary tag, for picking a medium.",
+            "toggle_label": "Show the gallery mode button",
+            "toggle_help": "A button above the gallery that switches between light mode and dark gallery mode.",
+            "counts_label": "Show reply counts on cards",
+            "counts_help": "Replies under each card, and views too when FoF Discussion Views is installed."
+        },
+        "forum": {
+            "share": "Share your work",
+            "chips": {
+                "label": "Mediums",
+                "everything": "Everything"
+            },
+            "mode": {
+                "gallery": "Gallery mode",
+                "light": "Light mode"
+            },
+            "card": {
+                "replies": "{count, plural, one {# reply} other {# replies}}",
+                "views": "{count, plural, one {# view} other {# views}}",
+                "pictures": "{count, plural, one {# picture} other {# pictures}}",
+                "new": "New"
+            },
+            "stage": {
+                "thumbnails": "Pictures",
+                "show": "Show picture {number} of {count}",
+                "label": "Picture {number} of {count}. Use the arrow keys to step through.",
+                "previous": "Previous picture",
+                "next": "Next picture"
+            },
+            "creator": {
+                "label": "About this work",
+                "works": "{count, plural, one {# work} other {# works}}",
+                "followers": "{count, plural, one {# follower} other {# followers}}",
+                "follow": "Follow {name}",
+                "following": "Following",
+                "appreciate": "{count, plural, =0 {Appreciate} other {Appreciate · #}}",
+                "appreciated": "{count, plural, one {Appreciated once} other {Appreciated # times}}",
+                "links_label": "More by {name}",
+                "builds": "Builds",
+                "projects": "Projects",
+                "gallery": "Gallery"
+            },
+            "spec": {
+                "label": "Details",
+                "medium": "Medium",
+                "pictures": "Pictures",
+                "posted": "Posted",
+                "replies": "Replies",
+                "views": "Views"
+            },
+            "more": {
+                "title": "More from {name}"
+            },
+            "work": {
+                "replies": "{count, plural, =0 {No replies yet} one {# reply} other {# replies}}"
+            }
+        }
+    }
+}

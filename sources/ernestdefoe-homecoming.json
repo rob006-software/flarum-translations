@@ -1,0 +1,128 @@
+{
+    "ernestdefoe-homecoming": {
+        "lib": {
+            "title": "Homecoming",
+            "welcome_strip": "Homecoming: welcome strip",
+            "stats_card": "Homecoming: stats card",
+            "compact_card": "Homecoming: compact card",
+            "gdpr": {
+                "export": "Homecoming: the town chosen for the weather, and its point rounded to about a kilometre.",
+                "erase": "Homecoming: the town chosen for the weather is deleted."
+            }
+        },
+        "forum": {
+            "greeting": {
+                "morning": "Good morning",
+                "afternoon": "Good afternoon",
+                "evening": "Good evening"
+            },
+            "welcome_back": "Welcome back, {name}",
+            "unread": "{count, plural, one {unread discussion} other {unread discussions}}",
+            "notifications": "{count, plural, one {new notification} other {new notifications}}",
+            "unread_short": "Unread discussions",
+            "notifications_short": "Notifications",
+            "start_discussion": "Start a discussion",
+            "new_posts": "New posts",
+            "your_stats": "Your stats",
+            "level": "Level {level}",
+            "points": "{count} pts",
+            "to_next": "{count} more to {rank}",
+            "to_next_short": "{count} to {rank}",
+            "top_rank": "Top rank reached",
+            "progress_label": "Progress to {rank}",
+            "stats": {
+                "discussions": "Discussions",
+                "posts": "Posts",
+                "likes": "Likes received",
+                "best_answers": "Best answers",
+                "collections": "Collections",
+                "badges": "Badges",
+                "points": "Points",
+                "level": "Level",
+                "joined": "Member since"
+            },
+            "weather": {
+                "clear": "clear",
+                "mostly_clear": "mostly clear",
+                "partly_cloudy": "partly cloudy",
+                "cloudy": "cloudy",
+                "fog": "foggy",
+                "drizzle": "drizzle",
+                "rain": "rain",
+                "freezing_rain": "freezing rain",
+                "snow": "snow",
+                "showers": "showers",
+                "snow_showers": "snow showers",
+                "thunderstorm": "thunderstorms",
+                "line": "{temp}, {condition} in {place}",
+                "use_location": "Use my location for the weather (town names © OpenStreetMap contributors)",
+                "for_my_location": "Weather for my location",
+                "your_location": "your location",
+                "high_low": "High {high} · Low {low}"
+            },
+            "guest": {
+                "title": "New here? Pull up a chair.",
+                "body": "Join to follow discussions, hear about replies, and post your own.",
+                "sign_up": "Sign up",
+                "log_in": "Log in"
+            },
+            "settings": {
+                "heading": "Weather",
+                "help": "Your welcome strip can show the weather where you are. Pick a town, or let your browser say where you are; either way only the town is kept, never your exact location.",
+                "search_label": "Your town",
+                "search_placeholder": "Type a town or city",
+                "search": "Search",
+                "pick": "Use this town",
+                "use_location": "Use my current location",
+                "osm": "Town names for your location: © <a>OpenStreetMap</a> contributors.",
+                "remove": "Forget my location",
+                "using_map": "Showing the weather for {place}, your Member Map place.",
+                "using_default": "Showing the forum's weather for {place}. Pick your own town, or use your location.",
+                "using_own": "Showing the weather for {place}.",
+                "none": "Pick a town to see its weather on your welcome strip.",
+                "no_results": "No towns match that name.",
+                "unavailable": "The town search isn't reachable right now. Try again in a few minutes.",
+                "unit": "Temperature",
+                "unit_default": "Forum default",
+                "celsius": "Celsius (°C)",
+                "fahrenheit": "Fahrenheit (°F)"
+            }
+        },
+        "admin": {
+            "settings": {
+                "placement": "Where the welcome strip goes",
+                "placement_help": "Without a widget host, the strip sits above the discussion list. Placing any Homecoming piece in FoF Widgets, Page Builder or Bespoke hides this copy while that piece is on the page.",
+                "placement_top": "Above the discussion list",
+                "placement_none": "Only where a widget host places it",
+                "stats_heading": "Stats",
+                "stats_help": "The four numbers on the stats card and the compact card. A stat that needs an extension you don't have is replaced by the next one that works.",
+                "stat": "Stat {number}",
+                "stat_options": {
+                    "discussions": "Discussions started",
+                    "posts": "Posts",
+                    "likes": "Likes received (Likes)",
+                    "best_answers": "Best answers (Answers or FoF Best Answer)",
+                    "collections": "Collections (Curio)",
+                    "badges": "Badges (FoF Badges)",
+                    "points": "Points (Renown, Ladder or FoF Gamification)",
+                    "level": "Level (Renown)",
+                    "joined": "Member since"
+                },
+                "unread_days": "Count unread discussions from the last",
+                "unread_days_help": "In days. Older discussions a member never opened aren't counted, so a long-time member isn't told about years of threads.",
+                "guest_nudge": "Show guests a sign-up nudge",
+                "guest_nudge_help": "Off, guests see nothing from Homecoming.",
+                "weather": "Show the weather",
+                "weather_help": "For members who set a town (or a Member Map place). The forum fetches it from Open-Meteo in the background, at most once every 30 minutes per area; only the area's rounded coordinates are sent.",
+                "weather_unit": "Temperature unit",
+                "weather_unit_help": "Members can choose their own in their settings.",
+                "geolocate": "Offer \"Use my location\"",
+                "geolocate_help": "A small button beside the weather. Only when a member clicks it does their browser ask where they are; the point is rounded to about a kilometre before it leaves the browser, and only the town is kept (looked up on OpenStreetMap).",
+                "default_town": "Default town for the weather",
+                "default_town_help": "For members with no town of their own and no Member Map place. Type a town (for example Nashville, Tennessee) and save; leave it empty for no default.",
+                "weather_cap": "Weather fetches per minute, at most",
+                "weather_cap_help": "For the whole forum. Members whose area isn't fetched yet see no weather until the next one."
+            }
+        }
+    }
+}
