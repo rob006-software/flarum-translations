@@ -2,12 +2,12 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
+                "cache_ttl": "Czas przechowywania listy użytkowników w pamięci podręcznej (w sekundach)",
+                "last_seen_interval": "Czas od ostatniej aktywności, w którym użytkownik jest uznawany za online (w minutach)",
                 "max_users": "Maksymalna liczba użytkowników do pokazania"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Wyświetlanie widżetu użytkowników online"
             }
         },
         "forum": {
