@@ -12,11 +12,11 @@
                 "selected_category_count": "{count, plural, one {Wybrano {count} kategorię} few {Wybrano {count} kategorie} other {Wybrano {count} kategorii}}",
                 "select_categories_button": "Wybierz kategorie bloga",
                 "categories_modal": {
-                    "description": "",
-                    "visit_blog": "",
-                    "tag_name_column": "",
-                    "no_tags": "",
-                    "close": ""
+                    "description": "Wybierz jeden lub więcej tagów, które mają być traktowane jako tagi bloga.",
+                    "visit_blog": "Odwiedź swój blog.",
+                    "tag_name_column": "Nazwa tagu",
+                    "no_tags": "Nie masz jeszcze żadnych tagów.",
+                    "close": "Zamknij"
                 },
                 "blog_heading": "Blog",
                 "featured_count_label": "Liczba wyróżnionych postów",
@@ -35,12 +35,12 @@
                 "show_tag_hierarchy_label": "Pokaż hierarchię tagów",
                 "show_tag_hierarchy_text": "Dodaje odstępy do kategorii podrzędnych oraz uwzględnia hierarchię dla listy kategorii.",
                 "redirects_heading": "Przekierowania",
-                "redirects_text": "",
+                "redirects_text": "Przekierowuj oryginalne adresy URL dyskusji i tagów na ich odpowiedniki na blogu.",
                 "redirects_options": {
-                    "both": "",
-                    "discussions_only": "",
-                    "tags_only": "",
-                    "none": ""
+                    "both": "Przekierowuj wpisy i tagi",
+                    "discussions_only": "Przekierowuj tylko wpisy",
+                    "tags_only": "Przekierowuj tylko tagi",
+                    "none": "Bez przekierowań"
                 },
                 "default_article_image_label": "Domyślny obrazek wpisu",
                 "default_article_image_text": "Wybierz domyślny obrazek wyświetlany dla wpisów, które nie mają ustawionego obrazka.",
@@ -133,7 +133,7 @@
         "lib": {
             "gambits": {
                 "blog": {
-                    "key": ""
+                    "key": "blog"
                 }
             }
         }
@@ -142,11 +142,11 @@
         "lib": {
             "browser": {
                 "article": {
-                    "created": "",
-                    "approved": "",
-                    "updated": "",
-                    "featured": "",
-                    "unfeatured": ""
+                    "created": "Utworzono wpis na blogu {discussion}",
+                    "approved": "Zatwierdzono wpis na blogu {discussion}",
+                    "updated": "Zaktualizowano metadane wpisu na blogu {discussion}",
+                    "featured": "Wyróżniono wpis na blogu {discussion}",
+                    "unfeatured": "Usunięto wyróżnienie wpisu na blogu {discussion}"
                 }
             }
         }
