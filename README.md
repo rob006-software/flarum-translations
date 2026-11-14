@@ -1203,6 +1203,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
 | [`peopleinside-fla-powcaptcha`](https://weblate.rob006.net/projects/flarum2/peopleinside-fla-powcaptcha) | [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha) |
 | [`peopleinside-antiflood`](https://weblate.rob006.net/projects/flarum2/peopleinside-antiflood) | [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood) |
+| [`peopleinside-restricted-visibility`](https://weblate.rob006.net/projects/flarum2/peopleinside-restricted-visibility) | [`peopleinside/flarum-restricted-visibility`](https://github.com/PeopleInside/flarum-restricted-visibility) |
 | [`pianotell-flamoji`](https://weblate.rob006.net/projects/flarum2/pianotell-flamoji) | [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) |
 | [`prm-analytics`](https://weblate.rob006.net/projects/flarum2/prm-analytics) | [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) |
 | [`prm-forum-activity`](https://weblate.rob006.net/projects/flarum2/prm-forum-activity) | [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) |
