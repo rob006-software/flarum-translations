@@ -320,6 +320,9 @@ return [
 	'ernestdefoe-hearth' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hearth/1.0.1/locale/en.yml',
 	],
+	'ernestdefoe-helpdesk' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/helpdesk/1.0.0/locale/en.yml',
+	],
 	'ernestdefoe-herald' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/herald/2.0.1/locale/en.yml',
 	],
