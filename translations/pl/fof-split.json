@@ -23,8 +23,8 @@
         },
         "api": {
             "errors": {
-                "first_post": "",
-                "end_before_start": ""
+                "first_post": "Nie można wydzielić pierwszego posta dyskusji.",
+                "end_before_start": "Wydzielany fragment musi kończyć się na poście, od którego się zaczyna, lub na późniejszym."
             }
         }
     },
@@ -32,8 +32,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "split_away": "",
-                    "split_into": ""
+                    "split_away": "Wydzielono posty ({post_count}) z dyskusji {discussion} do dyskusji {new_discussion}",
+                    "split_into": "Wydzielono posty ({post_count}) do nowej dyskusji {discussion}"
                 }
             }
         }
