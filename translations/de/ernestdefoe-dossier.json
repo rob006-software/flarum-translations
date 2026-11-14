@@ -2,34 +2,34 @@
     "ernestdefoe-dossier": {
         "api": {
             "required": "",
-            "invalid": "",
+            "invalid": "Das ist ungültig.",
             "too_long": "",
-            "too_many": "",
-            "invalid_month": "",
+            "too_many": "Wähle maximal {max}.",
+            "invalid_month": "Wähle einen Monat und ein Jahr.",
             "end_before_start": "",
-            "invalid_kind": "",
-            "invalid_level": "",
-            "invalid_percent": "",
+            "invalid_kind": "Wähle eine Art.",
+            "invalid_level": "Wähle eine Stufe.",
+            "invalid_percent": "Gib eine Nummer von 0 bis 100 ein.",
             "invalid_url": "",
             "invalid_visibility": "",
-            "invalid_section": "",
+            "invalid_section": "Dieser Abschnitt ist nicht vorhanden.",
             "too_many_entries": "",
             "invalid_skill": "",
-            "invalid_category": "",
+            "invalid_category": "Wähle eine Kategorie aus der Liste.",
             "duplicate_skill": "",
-            "custom_skills_off": "",
+            "custom_skills_off": "Wähle eine Fähigkeit aus der Liste.",
             "skill_exists": ""
         },
         "lib": {
             "open_to": {
-                "collaboration": "",
-                "mentoring": "",
-                "freelance": "",
-                "jobs": ""
+                "collaboration": "Zusammenarbeit",
+                "mentoring": "Mentoring",
+                "freelance": "Freelance-Arbeit",
+                "jobs": "Jobangebote"
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Dossier",
             "page": {
                 "unavailable": "",
                 "empty": "",
