@@ -159,6 +159,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.7/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
+	'ekumanov-cls-fix' => [
+		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-cls-fix/v1.1.0/locale/en.yml',
+	],
 	'ekumanov-forum-widgets' => [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-forum-stats-widget/v1.6.12/locale/en.yml',
 	],
