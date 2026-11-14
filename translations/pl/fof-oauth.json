@@ -36,10 +36,10 @@
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "flarum": {
-                        "description": "",
-                        "forum_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Pozwól użytkownikom logować się kontem z innego forum Flarum. Na tamtym forum musi być zainstalowane rozszerzenie OAuth Provider ({link}). Na jego stronie administracyjnej dodaj klienta z podanym poniżej adresem zwrotnym (callback URL) i skopiuj tutaj jego identyfikator klienta oraz klucz tajny.",
+                        "forum_url_label": "Adres URL forum (np. https://discuss.example.com)",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Utwórz aplikację OAuth na {link}.",
@@ -79,7 +79,7 @@
                 "with_button": "Zaloguj się za pomocą {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
-                "with_flarum_button": "",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -103,7 +103,7 @@
             "providers": {
                 "discord": "Discorda",
                 "facebook": "Facebooka",
-                "flarum": "",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "GitHuba",
                 "gitlab": "GitLaba",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -123,7 +123,7 @@
                 "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",
                 "invalid_state": "Nieprawidłowy status. Spróbuj ponownie.",
                 "already_linked": "To konto jest już powiązane z innym użytkownikiem.",
-                "provider_misconfigured": ""
+                "provider_misconfigured": "Ta metoda logowania nie jest poprawnie skonfigurowana. Skontaktuj się z administratorami forum."
             }
         },
         "email": {
@@ -136,7 +136,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
-                "flarum": "",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
