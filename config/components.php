@@ -175,7 +175,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ekumanov/flarum-ext-post-search/v1.1.0/locale/en.yml',
 	],
 	'el-choco-admin-console' => [
-		'beta' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0-rc.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es'],
 	],
 	'ernestdefoe-answers' => [
