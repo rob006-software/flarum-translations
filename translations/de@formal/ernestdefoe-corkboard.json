@@ -2,37 +2,37 @@
     "ernestdefoe-corkboard": {
         "lib": {
             "template": {
-                "simple": "",
-                "event": "",
-                "content": "",
-                "raid": "",
+                "simple": "Einfach",
+                "event": "Veranstaltungsplaner",
+                "content": "Redaktionskalender",
+                "raid": "Gilden-Raidvorbereitung",
                 "column": {
-                    "todo": "",
+                    "todo": "To do",
                     "doing": "",
-                    "done": "",
-                    "ideas": "",
-                    "booked": "",
-                    "volunteer": "",
-                    "ready": "",
+                    "done": "Fertig",
+                    "ideas": "Ideen",
+                    "booked": "Gebucht",
+                    "volunteer": "Freiwillige benötigt",
+                    "ready": "Bereit",
                     "pitches": "",
-                    "writing": "",
-                    "editing": "",
-                    "scheduled": "",
-                    "published": "",
+                    "writing": "Schreiben",
+                    "editing": "Bearbeiten",
+                    "scheduled": "Geplant",
+                    "published": "Veröffentlicht",
                     "recruit": "",
-                    "gear": "",
-                    "strategy": ""
+                    "gear": "Ausrüstung",
+                    "strategy": "Strategie"
                 }
             },
             "board": {
-                "copy_title": ""
+                "copy_title": "{title} (kopieren)"
             },
             "card": {
-                "discussion_footer": ""
+                "discussion_footer": "Von der Karte auf [{board}]({url})."
             },
             "error": {
                 "min_posts": "",
-                "template": "",
+                "template": "Diese Vorlage ist nicht verfügbar.",
                 "title": "",
                 "card_title": "",
                 "column_title": "",

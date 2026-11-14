@@ -5138,6 +5138,41 @@
             }
         }
     },
+    "ernestdefoe-corkboard.json": {
+        "ernestdefoe-corkboard": {
+            "lib": {
+                "board": {
+                    "copy_title": "cfd69982d79990fe062a14edfd6867c5 cfd69982d79990fe062a14edfd6867c5"
+                },
+                "card": {
+                    "discussion_footer": "1bd781d351edbb05a13e92c7be74f995 1bd781d351edbb05a13e92c7be74f995"
+                },
+                "error": {
+                    "template": "5d8273a76b29b8fda9f88c254e083f4f 5d8273a76b29b8fda9f88c254e083f4f"
+                },
+                "template": {
+                    "column": {
+                        "booked": "6143b5ba1d5009159215869d55beb9f6 6143b5ba1d5009159215869d55beb9f6",
+                        "done": "4d79152b5d9f9fe8185bff13520ca9fa 4d79152b5d9f9fe8185bff13520ca9fa",
+                        "editing": "5ad05dd4fa8fe82c3a85570683c368ad 5ad05dd4fa8fe82c3a85570683c368ad",
+                        "gear": "0e679f009772c6ed30892283bd25c295 0e679f009772c6ed30892283bd25c295",
+                        "ideas": "d4a36ff42a959bc0a9e38feda9b98fa3 d4a36ff42a959bc0a9e38feda9b98fa3",
+                        "published": "18a0e401fa2f82a3f80c10b7d6555604 18a0e401fa2f82a3f80c10b7d6555604",
+                        "ready": "379ee82bcb2d574dc209be01c3f7f165 379ee82bcb2d574dc209be01c3f7f165",
+                        "scheduled": "942313bd3e7044f94de76dd6dc53f9f5 942313bd3e7044f94de76dd6dc53f9f5",
+                        "strategy": "471d7ac6412bdb702030603c82b77380 471d7ac6412bdb702030603c82b77380",
+                        "todo": "c7de19b002241e16e83c8e18eae77dfa c7de19b002241e16e83c8e18eae77dfa",
+                        "volunteer": "8d201e6cebd81d1ea49292cd28e65019 8d201e6cebd81d1ea49292cd28e65019",
+                        "writing": "081059e6885642fddeda7acb1b66d04f 081059e6885642fddeda7acb1b66d04f"
+                    },
+                    "content": "af2958bd9d9bad4c16411b6e7648d025 af2958bd9d9bad4c16411b6e7648d025",
+                    "event": "9b459ea4d1299550b2d3fcc8b6478027 9b459ea4d1299550b2d3fcc8b6478027",
+                    "raid": "f4adeef185fa544e47266cc5a423b3fb f4adeef185fa544e47266cc5a423b3fb",
+                    "simple": "1912ffd2a8a4b6d6a5f02fdcd2b2011f 1912ffd2a8a4b6d6a5f02fdcd2b2011f"
+                }
+            }
+        }
+    },
     "ernestdefoe-cross-references.json": {
         "ernestdefoe-cross-references": {
             "admin": {
@@ -6533,6 +6568,32 @@
                     "rejected": "1405c0e9180f66fe730da9d4ec1b8f8a 1405c0e9180f66fe730da9d4ec1b8f8a",
                     "resolved": "af7d49abbbff707b74ea815cb7b7d029 af7d49abbbff707b74ea815cb7b7d029",
                     "unassigned": "83d9fda718d75e5aa2bf296bd55df246 83d9fda718d75e5aa2bf296bd55df246"
+                }
+            }
+        }
+    },
+    "ernestdefoe-dossier.json": {
+        "ernestdefoe-dossier": {
+            "api": {
+                "custom_skills_off": "870e4f45a74c0ee386ed53ef525f16ca 870e4f45a74c0ee386ed53ef525f16ca",
+                "invalid": "7b31135835db576e0fd35c438c0d13a7 7b31135835db576e0fd35c438c0d13a7",
+                "invalid_category": "1e46c6488301f8277b1bd4b817d1cc2a 1e46c6488301f8277b1bd4b817d1cc2a",
+                "invalid_kind": "a9dced563a207cfa575971a296a3cfdd a9dced563a207cfa575971a296a3cfdd",
+                "invalid_level": "d0407b1af9596adc94da55934c443ea6 d0407b1af9596adc94da55934c443ea6",
+                "invalid_month": "c1af7f0833b33497bd5a3b5ef183d066 c1af7f0833b33497bd5a3b5ef183d066",
+                "invalid_percent": "ff8afbf55de9761ebf1a41e825e73055 ff8afbf55de9761ebf1a41e825e73055",
+                "invalid_section": "1bc680b6de5e33a1b22afd353832d7c7 1bc680b6de5e33a1b22afd353832d7c7",
+                "too_many": "06898ff72166275b9c72b78042c0eb81 06898ff72166275b9c72b78042c0eb81"
+            },
+            "forum": {
+                "nav": "f1a7b0e450eb0d62469cf223e5727b04 f1a7b0e450eb0d62469cf223e5727b04"
+            },
+            "lib": {
+                "open_to": {
+                    "collaboration": "3047e665c52269e4019713c35b93e98a 3047e665c52269e4019713c35b93e98a",
+                    "freelance": "43346dc1ccb61ec732a43ea0996fd50b 43346dc1ccb61ec732a43ea0996fd50b",
+                    "jobs": "27f2b8bf5a6bf8b0555f5b369e95ecee 27f2b8bf5a6bf8b0555f5b369e95ecee",
+                    "mentoring": "089011f59ea2749a842c1cb289c52c5d 089011f59ea2749a842c1cb289c52c5d"
                 }
             }
         }
@@ -8858,6 +8919,39 @@
             }
         }
     },
+    "ernestdefoe-member-desk.json": {
+        "ernestdefoe-member-desk": {
+            "admin": {
+                "page": {
+                    "description": "e521474a1b229c24e155e4ace028778c e521474a1b229c24e155e4ace028778c",
+                    "member_title": "7c1878b1fc9d7bb0b9462238bb7d78da 7c1878b1fc9d7bb0b9462238bb7d78da",
+                    "title": "b15b7b0340f52d448dc6191fc9317f3a b15b7b0340f52d448dc6191fc9317f3a"
+                },
+                "permissions": {
+                    "export": "0c8d2844c1c6ab81924c408ebc91bba4 0c8d2844c1c6ab81924c408ebc91bba4"
+                }
+            },
+            "forum": {
+                "nav": "196c27089e124bbd3a6bcaa0ff9669ef 196c27089e124bbd3a6bcaa0ff9669ef",
+                "open_member": "e7210ddfa287569a5cd4d9f1cf276c8e e7210ddfa287569a5cd4d9f1cf276c8e",
+                "title": "196c27089e124bbd3a6bcaa0ff9669ef 196c27089e124bbd3a6bcaa0ff9669ef"
+            },
+            "lib": {
+                "list": {
+                    "export": "dfa1b7ea5b94594ce4353e71d97d28a5 dfa1b7ea5b94594ce4353e71d97d28a5",
+                    "search_label": "3f85b30f46c3722787d6479b7d01893b 3f85b30f46c3722787d6479b7d01893b",
+                    "search_name": "fad3196fb13882dd6f01831fea42521b fad3196fb13882dd6f01831fea42521b",
+                    "tab_log": "d1fd5dc41b322741fd161c1765beaf5b d1fd5dc41b322741fd161c1765beaf5b",
+                    "tab_members": "a498e927f7acf347d9f2dcc1af6b196b a498e927f7acf347d9f2dcc1af6b196b"
+                },
+                "status": {
+                    "open_reports": "a16bb6641b66e2c18d9d19a87dcf6021 a16bb6641b66e2c18d9d19a87dcf6021",
+                    "suspended_forever": "b31d7e4af4df00b6a8708006427e3f3f b31d7e4af4df00b6a8708006427e3f3f",
+                    "suspended_until": "7ca4bf0e434b66bdd8c0e7ca00f40b92 7ca4bf0e434b66bdd8c0e7ca00f40b92"
+                }
+            }
+        }
+    },
     "ernestdefoe-member-map.json": {
         "ernestdefoe-member-map": {
             "admin": {
@@ -9904,11 +9998,31 @@
                 "min_posts_help": "0cbb851e8753554ada005b1f83d4c112 0cbb851e8753554ada005b1f83d4c112",
                 "min_posts_label": "e63166bcab7317050be7409f63d83c17 e63166bcab7317050be7409f63d83c17",
                 "post_marks_help": "0ee934571882916ee3cfc74534c29848 0ee934571882916ee3cfc74534c29848",
-                "post_marks_label": "a433ef849616dd6371706b09152fde08 a433ef849616dd6371706b09152fde08"
+                "post_marks_label": "a433ef849616dd6371706b09152fde08 a433ef849616dd6371706b09152fde08",
+                "years_date_activity": "67673076f1794eb68261cc87e765678f 67673076f1794eb68261cc87e765678f",
+                "years_date_created": "e5c6bf446cc8cc248adaa928fd86a32a e5c6bf446cc8cc248adaa928fd86a32a",
+                "years_date_help": "776904186de9ba5a790ef8b2c5773b09 776904186de9ba5a790ef8b2c5773b09",
+                "years_date_label": "6a850aa5cbf6771fa5dae70d1817cd69 6a850aa5cbf6771fa5dae70d1817cd69",
+                "years_help": "4d51304b82ed63583e08c37777f5f2d0 4d51304b82ed63583e08c37777f5f2d0",
+                "years_label": "dbfc93a48f9ea94a11b70e8533aedfc9 dbfc93a48f9ea94a11b70e8533aedfc9",
+                "years_min_help": "5f46b1cc73c7361fdcefdf244254df22 5f46b1cc73c7361fdcefdf244254df22",
+                "years_min_label": "ce4b2a7553aa714ce7be36d622f70555 ce4b2a7553aa714ce7be36d622f70555",
+                "years_pages_both": "7d282f2c1dadb2fe12bb6d5d693d2fd2 7d282f2c1dadb2fe12bb6d5d693d2fd2",
+                "years_pages_index": "d0572d16c560e6d93e613242062d75ab d0572d16c560e6d93e613242062d75ab",
+                "years_pages_label": "02b6b836572fe51583ebfd344d48d524 02b6b836572fe51583ebfd344d48d524",
+                "years_pages_tags": "ac8298f1a294c85df586e41d73412fd9 ac8298f1a294c85df586e41d73412fd9"
             },
             "forum": {
                 "event_row": "b538649d71c307f386e2a560b2d05630 b538649d71c307f386e2a560b2d05630",
-                "lens_label": "bed413eb47db9e8c16804ce062f79183 bed413eb47db9e8c16804ce062f79183"
+                "lens_label": "bed413eb47db9e8c16804ce062f79183 bed413eb47db9e8c16804ce062f79183",
+                "years": {
+                    "back": "65a8d80c0de33e3e4b38fa7c6bb0db6c 65a8d80c0de33e3e4b38fa7c6bb0db6c",
+                    "count": "4ac75822ad6b3a58ac8a3d7dfaeef7b9 4ac75822ad6b3a58ac8a3d7dfaeef7b9",
+                    "label": "2c94d6ad2db13c4ec1394391b49de8e7 2c94d6ad2db13c4ec1394391b49de8e7",
+                    "preview_empty": "93ce3bb730fb6776bcc739decb191d05 93ce3bb730fb6776bcc739decb191d05",
+                    "preview_heading": "fae10162be4dd68e291fc6e680e206ab fae10162be4dd68e291fc6e680e206ab",
+                    "showing": "c851b306303b7740d5263b0fc85b8308 c851b306303b7740d5263b0fc85b8308"
+                }
             }
         }
     },
@@ -10976,9 +11090,11 @@
                 },
                 "nav": "9743ab4977b10f60f384f1f027f028c1 9743ab4977b10f60f384f1f027f028c1",
                 "page": {
+                    "guest": "8df24a00ea1e8998cda31ec30b67fee1 8df24a00ea1e8998cda31ec30b67fee1",
                     "tab": {
                         "album": "42f02448bf4cd2e5b1f8e6e1305655d1 42f02448bf4cd2e5b1f8e6e1305655d1",
-                        "board": "9c4d34034846626e70bbc574f5cda6e1 9c4d34034846626e70bbc574f5cda6e1"
+                        "board": "9c4d34034846626e70bbc574f5cda6e1 9c4d34034846626e70bbc574f5cda6e1",
+                        "trades": "49bdd49e0535d142c6866f67668c098e 49bdd49e0535d142c6866f67668c098e"
                     },
                     "title": "9743ab4977b10f60f384f1f027f028c1 9743ab4977b10f60f384f1f027f028c1"
                 },

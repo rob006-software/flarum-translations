@@ -2,9 +2,9 @@
     "ernestdefoe-member-desk": {
         "admin": {
             "page": {
-                "title": "",
-                "description": "",
-                "member_title": "",
+                "title": "Benutzer",
+                "description": "Mitgliederverwaltung: Finde, durchsuche und verwalte eure Mitglieder.",
+                "member_title": "Mitglied",
                 "member_description": "",
                 "log_title": "",
                 "log_description": ""
@@ -19,13 +19,13 @@
                 "view_emails": "",
                 "view_ips": "",
                 "mark_spammer": "",
-                "export": ""
+                "export": "Mitglieder als CSV exportieren"
             }
         },
         "forum": {
-            "title": "",
-            "nav": "",
-            "open_member": "",
+            "title": "Mitgliederverwaltung",
+            "nav": "Mitgliederverwaltung",
+            "open_member": "In der Mitgliederverwaltung öffnen",
             "no_access": ""
         },
         "lib": {
@@ -39,17 +39,17 @@
                 "anonymized": "",
                 "banned_ip": "",
                 "unconfirmed": "",
-                "open_reports": "",
-                "suspended_forever": "",
-                "suspended_until": ""
+                "open_reports": "{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}",
+                "suspended_forever": "Gesperrt",
+                "suspended_until": "Gesperrt bis {date}"
             },
             "list": {
                 "views": "",
-                "tab_members": "",
-                "tab_log": "",
-                "export": "",
-                "search_label": "",
-                "search_name": "",
+                "tab_members": "Mitglieder",
+                "tab_log": "Protokoll",
+                "export": "CSV exportieren",
+                "search_label": "Mitglieder durchsuchen",
+                "search_name": "Nach Anzeige- oder Benutzername suchen",
                 "search_email": "",
                 "search_ip": "",
                 "search_all": "",
