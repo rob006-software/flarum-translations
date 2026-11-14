@@ -32,13 +32,13 @@
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
-                "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
+                "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla przesłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
-                "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_acl": "ACL, które powinno być zastosowane do przesłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
                 "s3_instance_profile": "Pozostaw klucz i sekret puste, aby użyć poświadczeń w profilu instancji.\n",
-                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
+                "composer_buttons": "Domyślnie przycisk dla menedżera multimediów oraz przycisk do przesyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -104,10 +104,10 @@
                     "allow_animate_help": "Włączenie animacji SVG może wprowadzić luki bezpieczeństwa, ponieważ animowane pliki SVG mogą zawierać złośliwy kod. Włącz tę opcję na własne ryzyko i tylko wtedy, gdy ufasz swoim użytkownikom."
                 },
                 "composer_buttons": {
-                    "title": "Przyciski w kompozytorze",
+                    "title": "Przyciski w edytorze",
                     "options": {
                         "both": "Oba",
-                        "upload-btn": "Jedynie przycisk do wysyłania plików",
+                        "upload-btn": "Jedynie przycisk do przesyłania plików",
                         "media-btn": "Jedynie przycisk menedżera multimediów"
                     }
                 },
@@ -163,7 +163,7 @@
             "media_manager": "Menedżer multimediów",
             "buttons": {
                 "attach": "Załącz",
-                "upload": "Wyślij",
+                "upload": "Prześlij",
                 "upload_shared": "Współdzielone",
                 "user_uploads": "Pliki użytkownika",
                 "cancel": "Anuluj",
@@ -172,11 +172,11 @@
             },
             "states": {
                 "error": "Błąd",
-                "loading": "Wysyłanie",
+                "loading": "Przesyłanie",
                 "unauthorized": "Nie masz uprawnień, aby pobierać pliki"
             },
             "validation": {
-                "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
+                "max_size": "Przesyłanie plików większych niż {max} kb nie jest obsługiwane."
             },
             "text_preview": {
                 "expand": "Rozwiń podgląd",
