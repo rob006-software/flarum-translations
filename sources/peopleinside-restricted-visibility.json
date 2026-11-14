@@ -1,0 +1,86 @@
+{
+    "peopleinside-restricted-visibility": {
+        "forum": {
+            "badge": {
+                "discussion": "Restricted discussion",
+                "posts": "{count, plural, one {# restricted message} other {# restricted messages}}"
+            },
+            "post": {
+                "restricted": "Restricted",
+                "restricted_to": "Restricted to: {names}",
+                "discussion_restricted_to": "Discussion restricted to: {names}",
+                "discussion_restricted": "Restricted discussion",
+                "limited_by_discussion": "Public message, but limited by the discussion visibility. If the discussion becomes public, this message will be visible to everyone."
+            },
+            "composer": {
+                "button": "Who can see this?"
+            },
+            "controls": {
+                "restrict": "Change visibility…"
+            },
+            "modal": {
+                "title": "Who can see this?",
+                "everyone": "Everyone who can already see the discussion",
+                "only_some": "Only selected groups or users",
+                "groups": "Groups",
+                "users": "Users",
+                "search_placeholder": "Search a user…",
+                "help": "You and moderators will always see it. People who cannot see it receive no alert and no email. You can only choose among people who can already see the discussion; you cannot give access to anyone who could not see it.",
+                "empty_error": "Choose at least one group or user, or select \"Everyone\".",
+                "orphaned": "Everyone this was restricted to has been removed, so now only the author, moderators and administrators can see it. Choose who can see it, or select \"Everyone\" to make it public.",
+                "no_permission_public": "You are not allowed to make this content public again.",
+                "no_permission_private": "You are not allowed to restrict or change who can see content.",
+                "warn_no_public": "Warning: you do not have permission to make restricted content public again. Once it is posted or saved like this you cannot undo it: someone with that permission will have to do it.",
+                "warn_no_private": "Warning: you do not have permission to make existing content private. Once it is posted or saved as public you cannot restrict it again: someone with that permission will have to do it.",
+                "warn_no_edit_after": "Warning: you do not have permission to change the visibility of existing content. After posting you cannot change the chosen groups or users: you can only make it public (if you have that permission) and then you cannot restrict it again.",
+                "save": "Apply"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "create_private": "Create new private posts and discussions",
+                "restrict": "Make existing posts and discussions private (restrict visibility)",
+                "make_public": "Make own posts and discussions public (remove restrictions)",
+                "view_all": "See all restricted content"
+            },
+            "button_position": {
+                "label": "Composer button position",
+                "help": "Where the \"Who can see this?\" button appears next to the Post and Preview buttons.",
+                "before_submit": "Before the Post button",
+                "after_submit": "After the Post button (default)",
+                "after_preview": "After the Preview button"
+            },
+            "danger": {
+                "title": "Danger zone",
+                "help": "Deletes all visibility restrictions, permissions and settings of this extension. Do this BEFORE disabling or removing it.",
+                "button": "Delete all extension data…"
+            },
+            "purge": {
+                "title": "Delete all extension data",
+                "summary": "{discussions} discussions and {posts} posts are restricted ({groups} group links, {users} user links).",
+                "choose": "What should happen to restricted content?",
+                "mode_hide": "Hide (recommended)",
+                "mode_hide_help": "Marks it as hidden: only moderators can see it. Nothing is lost.",
+                "mode_delete": "Delete permanently",
+                "mode_delete_help": "Removes restricted posts and discussions for good.",
+                "mode_public": "Make public",
+                "mode_public_help": "Only removes the restrictions: everyone will see this content.",
+                "warning": "This operation is irreversible. All restrictions, permissions and settings will be deleted. If you do not choose to hide or delete restricted content, it will become visible to everyone. Back up your database first. Afterwards disable the extension; it will not protect anything until restrictions are set again.",
+                "type_to_confirm": "Type {word} to continue",
+                "run": "Delete data",
+                "done": "Done. Discussions affected: {discussions}, posts affected: {posts}.",
+                "queued": "Operation queued and running in the background. Do NOT disable the extension until it has finished (check the queue worker / logs).",
+                "next_steps": "Next (once the job has finished): 1) disable the extension, 2) click \"Delete data\" on the extension page to drop its tables, 3) composer remove peopleinside/flarum-restricted-visibility.",
+                "close": "Close",
+                "error_retry": "If the operation was interrupted (timeout), content not yet processed is still restricted: you can run it again. On large forums use the command line: php flarum peopleinside-restricted-visibility:purge"
+            }
+        },
+        "api": {
+            "invalid_groups": "One or more groups are not valid.",
+            "invalid_users": "One or more users are not valid.",
+            "invalid_value": "Invalid value.",
+            "invalid_confirmation": "Confirmation missing or incorrect.",
+            "invalid_mode": "Invalid mode."
+        }
+    }
+}
