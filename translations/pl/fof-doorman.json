@@ -4,119 +4,119 @@
             "ref": {
                 "fields": {
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "Kod",
+                        "help": "Kod, który użytkownik wpisze podczas rejestracji."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Grupa",
+                        "help": "Grupa, do której zostanie dodany użytkownik rejestrujący się za pomocą tego kodu zaproszenia."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Maksymalna liczba użyć",
+                        "help": "Maksymalna liczba użyć kodu. Ustaw 0, aby nie ograniczać liczby użyć."
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Aktywuje konto",
+                        "help": "Automatycznie aktywuje konto użytkownika podczas rejestracji."
                     }
                 }
             },
             "modals": {
                 "create_doorkey": {
-                    "title": "",
+                    "title": "Utwórz nowy kod zaproszenia",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Utwórz kod zaproszenia",
+                    "submit_and_create_another_button": "Utwórz i dodaj kolejny"
                 },
                 "edit_doorkey": {
-                    "title": "",
+                    "title": "Edytuj kod zaproszenia",
                     "key": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.key.label",
+                        "help": "=> fof-doorman.admin.ref.fields.key.help"
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.group.label",
+                        "help": "=> fof-doorman.admin.ref.fields.group.help"
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                        "help": "=> fof-doorman.admin.ref.fields.max_uses.help"
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                        "help": "=> fof-doorman.admin.ref.fields.activates_user.help"
                     },
-                    "submit_button": ""
+                    "submit_button": "Zapisz zmiany"
                 },
                 "send_invites": {
-                    "title": "",
-                    "group": "",
-                    "help": "",
-                    "placeholder": "",
-                    "invalid_emails": "",
-                    "max_use_conflict": "",
-                    "send": "",
-                    "success": ""
+                    "title": "Wyślij kody zaproszeń",
+                    "group": "Wysyłanie zaproszeń do grupy: {group}",
+                    "help": "Adresy można oddzielać przecinkami, spacjami lub przecinkami ze spacją. Wpisz pojedynczy adres e-mail lub wklej listę, a następnie naciśnij spację, aby je dodać.",
+                    "placeholder": "Wpisz tutaj adresy e-mail",
+                    "invalid_emails": "Następujące adresy e-mail są nieprawidłowe: {emails}",
+                    "max_use_conflict": "Liczba adresów e-mail przekracza maksymalną liczbę użyć tego kodu.",
+                    "send": "Wyślij e-maile",
+                    "success": "E-maile zostały wysłane"
                 }
             },
             "settings": {
-                "heading": "",
-                "search": "",
-                "total_doorkeys": "",
-                "create_doorkey_button": "",
-                "optional_usage": "",
-                "optional_usage_help": ""
+                "heading": "Ustawienia",
+                "search": "Szukaj kodów zaproszeń",
+                "total_doorkeys": "Liczba kodów zaproszeń: {count}",
+                "create_doorkey_button": "Utwórz kod zaproszenia",
+                "optional_usage": "Kod zaproszenia jest opcjonalny podczas rejestracji",
+                "optional_usage_help": "Po włączeniu tej opcji odwiedzający mogą zarejestrować się bez podawania kodu zaproszenia."
             },
             "list": {
-                "heading": "",
+                "heading": "Kody zaproszeń",
                 "columns": {
-                    "id": "",
-                    "key": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "manage": "",
-                    "uses": "",
-                    "created_by": ""
+                    "id": "ID",
+                    "key": "=> fof-doorman.admin.ref.fields.key.label",
+                    "group": "=> fof-doorman.admin.ref.fields.group.label",
+                    "max_uses": "=> fof-doorman.admin.ref.fields.max_uses.label",
+                    "activates_user": "=> fof-doorman.admin.ref.fields.activates_user.label",
+                    "manage": "Zarządzaj",
+                    "uses": "Użycia",
+                    "created_by": "Utworzony przez"
                 },
                 "content": {
-                    "invalid_column": "",
-                    "no_group": "",
-                    "warning": "",
-                    "delete": "",
+                    "invalid_column": "=> core.admin.users.grid.invalid_column_content",
+                    "no_group": "=> core.admin.users.grid.columns.group_badges.no_badges",
+                    "warning": "Ten kod zaproszenia osiągnął maksymalną liczbę użyć.",
+                    "delete": "Czy na pewno chcesz usunąć kod zaproszenia „{key}”?",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "{remaining, plural, =0 {Bez limitu użyć} one {Pozostało {remainingUses} użycie} few {Pozostały {remainingUses} użycia} many {Pozostało {remainingUses} użyć} other {Pozostało {remainingUses} użycia}}",
+                        "total_uses": "{totalUses, plural, one {Użyto # raz} other {Użyto # razy}}"
                     },
-                    "no_created_by": ""
+                    "no_created_by": "Nieznany użytkownik"
                 },
                 "actions": {
-                    "notify": "",
-                    "edit": "",
-                    "delete": ""
+                    "notify": "Wyślij ten kod zaproszenia e-mailem",
+                    "edit": "Edytuj kod zaproszenia",
+                    "delete": "Usuń kod zaproszenia"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "page_counter": "",
-                    "go_to_page_textbox_a11y_label": "",
-                    "next_button": "",
-                    "last_page_button": ""
+                    "first_page_button": "=> core.lib.pagination.first_button",
+                    "back_button": "=> core.lib.pagination.back_button",
+                    "page_counter": "=> core.lib.pagination.page_counter",
+                    "go_to_page_textbox_a11y_label": "=> core.lib.pagination.go_to_page_textbox_a11y_label",
+                    "next_button": "=> core.lib.pagination.next_button",
+                    "last_page_button": "=> core.lib.pagination.last_button"
                 }
             }
         },
@@ -129,8 +129,8 @@
             }
         },
         "email": {
-            "subject": "",
-            "body": ""
+            "subject": "Zaproszenie do dołączenia",
+            "body": "Otrzymujesz zaproszenie do rejestracji na forum {forum}.\n\nGdy zechcesz utworzyć konto, kliknij poniższy link i podczas rejestracji wpisz kod:\n\nAdres URL: {url}\nKod zaproszenia: {code}\n\nJeśli ta wiadomość trafiła do Ciebie przez pomyłkę, zignoruj ją.\n"
         }
     }
 }
