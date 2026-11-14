@@ -11,13 +11,13 @@
         },
         "admin": {
             "settings": {
-                "cache_duration_label": "",
-                "cache_duration_help": "",
-                "flush_cache_on_new_registration_label": "",
-                "flush_cache_on_new_registration_help": "",
+                "cache_duration_label": "Czas przechowywania w pamięci podręcznej",
+                "cache_duration_help": "Określ, jak długo (w sekundach) statystyki widżetu mają być przechowywane w pamięci podręcznej. <code>0</code> wyłącza pamięć podręczną (niezalecane).",
+                "flush_cache_on_new_registration_label": "Czyść pamięć podręczną statystyk po rejestracji nowego użytkownika",
+                "flush_cache_on_new_registration_help": "Po włączeniu tej opcji pamięć podręczna statystyk będzie czyszczona, gdy na forum zarejestruje się nowy użytkownik.",
                 "widget_ignore_private_discussions_label": "Ignoruj prywatne dyskusje",
-                "classic_look_label": "",
-                "classic_look_help": "",
+                "classic_look_label": "Klasyczny wygląd",
+                "classic_look_help": "Przywraca pierwotny wygląd widżetu sprzed integracji z fof/forum-widgets-core.",
                 "widget_order_label": "Pozycja widgetu",
                 "widget_helper_text": "Zmień tę wartość, aby dostosować pozycję widgetu w nawigacji w sidebarze forum. Im wyższa liczba, tym wyżej widget będzie na liście elementów nawigacji w sidebarze (wartość może być dodatnia lub ujemna)."
             },
