@@ -2,8 +2,8 @@
 
 Translations for German (formal) (`de@formal`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **5** are translated differently and **80** are
-translated only in `de@formal`. Altogether they cover **10** components.
+sides, but do not match between them: **6** are translated differently and **80** are
+translated only in `de@formal`. Altogether they cover **11** components.
 
 <!-- {% raw %} -->
 
@@ -14,6 +14,7 @@ translated only in `de@formal`. Altogether they cover **10** components.
 | --- | --- | --- |
 | `acpl-lscache` | [1](#acpl-lscache) | 0 |
 | `clarkwinkelmann-selective-mediaembed` | [1](#clarkwinkelmann-selective-mediaembed) | 0 |
+| `el-choco-admin-console` | [1](#el-choco-admin-console) | 0 |
 | `flarum-mentions` | [1](#flarum-mentions) | 0 |
 | `floxum-payments` | 0 | [13](#floxum-payments-missing) |
 | `fof-badges` | 0 | [26](#fof-badges-missing) |
@@ -55,6 +56,20 @@ URLs/Tags löschen, wenn <del>Diskussion/en</del><ins>Diskussionen</ins> oder<de
 ```
 
 <del>Alles</del><ins>Alle</ins> auswählen
+
+
+### `el-choco-admin-console`
+
+#### [`el-choco-admin-console.admin.ready`](https://weblate.rob006.net/translate/flarum2/el-choco-admin-console/de@formal/?q=context%3A%3D%22el-choco-admin-console.admin.ready%22)
+
+> Ready. Select an action or enter an approved command.
+
+```diff
+-Bereit. Wählen Sie eine Aktion oder geben Sie einen freigegebenen Befehl ein.
++Bereit. Wählen Sie eine Aktion oder geben Sie einen der freigegebenen Befehl ein.
+```
+
+Bereit. Wählen Sie eine Aktion oder geben Sie einen <ins>der </ins>freigegebenen Befehl ein.
 
 
 ### `flarum-mentions`

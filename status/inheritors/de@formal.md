@@ -2,70 +2,73 @@
 
 Translations for German (formal) (`de@formal`) are inherited from German informal variant, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **360** are translated differently and **0** are
-translated only in `de@formal`. Altogether they cover **54** components.
+sides, but do not match between them: **367** are translated differently and **3** are
+translated only in `de@formal`. Altogether they cover **57** components.
 
 <!-- {% raw %} -->
 
 
 ## Contents
 
-| Component | Different translations |
-| --- | --- |
-| `acpl-my-tags` | [2](#acpl-my-tags) |
-| `core` | [97](#core) |
-| `datitisev-backup` | [18](#datitisev-backup) |
-| `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) |
-| `datlechin-link-preview` | [1](#datlechin-link-preview) |
-| `ernestdefoe-ladder` | [3](#ernestdefoe-ladder) |
-| `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) |
-| `flarum-approval` | [2](#flarum-approval) |
-| `flarum-emoji` | [1](#flarum-emoji) |
-| `flarum-extension-manager` | [13](#flarum-extension-manager) |
-| `flarum-flags` | [5](#flarum-flags) |
-| `flarum-gdpr` | [14](#flarum-gdpr) |
-| `flarum-likes` | [4](#flarum-likes) |
-| `flarum-lock` | [1](#flarum-lock) |
-| `flarum-mentions` | [10](#flarum-mentions) |
-| `flarum-messages` | [2](#flarum-messages) |
-| `flarum-nicknames` | [2](#flarum-nicknames) |
-| `flarum-statistics` | [1](#flarum-statistics) |
-| `flarum-subscriptions` | [3](#flarum-subscriptions) |
-| `flarum-suspend` | [5](#flarum-suspend) |
-| `flarum-tags` | [5](#flarum-tags) |
-| `fof-badges` | [1](#fof-badges) |
-| `fof-byobu` | [14](#fof-byobu) |
-| `fof-cookie-consent` | [2](#fof-cookie-consent) |
-| `fof-discussion-templates` | [3](#fof-discussion-templates) |
-| `fof-doorman` | [1](#fof-doorman) |
-| `fof-drafts` | [1](#fof-drafts) |
-| `fof-follow-tags` | [15](#fof-follow-tags) |
-| `fof-gamification` | [1](#fof-gamification) |
-| `fof-geoip` | [1](#fof-geoip) |
-| `fof-horizon` | [2](#fof-horizon) |
-| `fof-impersonate` | [1](#fof-impersonate) |
-| `fof-links` | [3](#fof-links) |
-| `fof-mailing` | [1](#fof-mailing) |
-| `fof-merge-discussions` | [7](#fof-merge-discussions) |
-| `fof-moderator-warnings` | [8](#fof-moderator-warnings) |
-| `fof-move-posts` | [1](#fof-move-posts) |
-| `fof-oauth` | [1](#fof-oauth) |
-| `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) |
-| `fof-profile-image-crop` | [2](#fof-profile-image-crop) |
-| `fof-reactions` | [4](#fof-reactions) |
-| `fof-seo` | [27](#fof-seo) |
-| `fof-signature` | [2](#fof-signature) |
-| `fof-sitemap` | [1](#fof-sitemap) |
-| `fof-socialprofile` | [2](#fof-socialprofile) |
-| `fof-upload` | [19](#fof-upload) |
-| `fof-username-request` | [20](#fof-username-request) |
-| `forumaker-magicbb` | [1](#forumaker-magicbb) |
-| `ianm-follow-users` | [6](#ianm-follow-users) |
-| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) |
-| `resofire-digest-mail` | [1](#resofire-digest-mail) |
-| `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) |
-| `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) |
-| `yippy-auth-ldap` | [3](#yippy-auth-ldap) |
+| Component | Different translations | Missing translations |
+| --- | --- | --- |
+| `acpl-my-tags` | [2](#acpl-my-tags) | 0 |
+| `core` | [97](#core) | 0 |
+| `datitisev-backup` | [18](#datitisev-backup) | 0 |
+| `datlechin-bbcode-hide-content` | [3](#datlechin-bbcode-hide-content) | 0 |
+| `datlechin-link-preview` | [1](#datlechin-link-preview) | 0 |
+| `ernestdefoe-festoon` | [1](#ernestdefoe-festoon) | 0 |
+| `ernestdefoe-ladder` | [3](#ernestdefoe-ladder) | 0 |
+| `ernestdefoe-roleplay` | [1](#ernestdefoe-roleplay) | 0 |
+| `ernestdefoe-social-groups` | 0 | [3](#ernestdefoe-social-groups-missing) |
+| `flarum-approval` | [2](#flarum-approval) | 0 |
+| `flarum-emoji` | [1](#flarum-emoji) | 0 |
+| `flarum-extension-manager` | [13](#flarum-extension-manager) | 0 |
+| `flarum-flags` | [5](#flarum-flags) | 0 |
+| `flarum-gdpr` | [14](#flarum-gdpr) | 0 |
+| `flarum-likes` | [4](#flarum-likes) | 0 |
+| `flarum-lock` | [1](#flarum-lock) | 0 |
+| `flarum-mentions` | [10](#flarum-mentions) | 0 |
+| `flarum-messages` | [2](#flarum-messages) | 0 |
+| `flarum-nicknames` | [2](#flarum-nicknames) | 0 |
+| `flarum-statistics` | [1](#flarum-statistics) | 0 |
+| `flarum-subscriptions` | [3](#flarum-subscriptions) | 0 |
+| `flarum-suspend` | [5](#flarum-suspend) | 0 |
+| `flarum-tags` | [5](#flarum-tags) | 0 |
+| `fof-badges` | [1](#fof-badges) | 0 |
+| `fof-byobu` | [14](#fof-byobu) | 0 |
+| `fof-cookie-consent` | [2](#fof-cookie-consent) | 0 |
+| `fof-discussion-templates` | [3](#fof-discussion-templates) | 0 |
+| `fof-doorman` | [1](#fof-doorman) | 0 |
+| `fof-drafts` | [1](#fof-drafts) | 0 |
+| `fof-follow-tags` | [15](#fof-follow-tags) | 0 |
+| `fof-gamification` | [1](#fof-gamification) | 0 |
+| `fof-geoip` | [1](#fof-geoip) | 0 |
+| `fof-horizon` | [2](#fof-horizon) | 0 |
+| `fof-impersonate` | [1](#fof-impersonate) | 0 |
+| `fof-links` | [3](#fof-links) | 0 |
+| `fof-mailing` | [1](#fof-mailing) | 0 |
+| `fof-merge-discussions` | [7](#fof-merge-discussions) | 0 |
+| `fof-moderator-warnings` | [8](#fof-moderator-warnings) | 0 |
+| `fof-move-posts` | [1](#fof-move-posts) | 0 |
+| `fof-oauth` | [1](#fof-oauth) | 0 |
+| `fof-prevent-necrobumping` | [5](#fof-prevent-necrobumping) | 0 |
+| `fof-profile-image-crop` | [2](#fof-profile-image-crop) | 0 |
+| `fof-reactions` | [4](#fof-reactions) | 0 |
+| `fof-seo` | [27](#fof-seo) | 0 |
+| `fof-signature` | [2](#fof-signature) | 0 |
+| `fof-sitemap` | [1](#fof-sitemap) | 0 |
+| `fof-socialprofile` | [2](#fof-socialprofile) | 0 |
+| `fof-upload` | [19](#fof-upload) | 0 |
+| `fof-username-request` | [20](#fof-username-request) | 0 |
+| `forumaker-magicbb` | [1](#forumaker-magicbb) | 0 |
+| `ianm-follow-users` | [6](#ianm-follow-users) | 0 |
+| `ralkage-hcaptcha` | [2](#ralkage-hcaptcha) | 0 |
+| `ramon-canela` | [6](#ramon-canela) | 0 |
+| `resofire-digest-mail` | [1](#resofire-digest-mail) | 0 |
+| `stezkoy-time-of-magic` | [7](#stezkoy-time-of-magic) | 0 |
+| `walsgit-recycle-bin` | [2](#walsgit-recycle-bin) | 0 |
+| `yippy-auth-ldap` | [3](#yippy-auth-ldap) | 0 |
 
 
 ## Different translations
@@ -1488,6 +1491,20 @@ Wenn sich die Binärdateien <del>deiner</del><ins>Ihrer</ins> Datenbank (z. B. m
 ```
 
 Links in einem neuen <del>Browser-Tab</del><ins>Tab</ins> öffnen
+
+
+### `ernestdefoe-festoon`
+
+#### [`ernestdefoe-festoon.admin.edit.svg_help`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-festoon/de@formal/?q=context%3A%3D%22ernestdefoe-festoon.admin.edit.svg_help%22)
+
+> Paste the code of an SVG file (up to 20 KB). It's drawn as a picture, so scripts and links in it never run, and anything other than shapes, text and gradients is removed. Use currentColor for any part that should take this look's main color.
+
+```diff
+-Füge den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwende „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.
++Fügen Sie den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. Verwenden Sie „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.
+```
+
+<del>Füge</del><ins>Fügen Sie</ins> den Code einer SVG-Datei (maximal 20 KB) ein. Er wird als Bild dargestellt, sodass darin enthaltene Skripte und Links niemals ausgeführt werden und alles außer Formen, Text und Farbverläufen entfernt wird. <del>Verwende</del><ins>Verwenden Sie</ins> „currentColor“ für alle Elemente, die die Hauptfarbe dieses Designs annehmen sollen.
 
 
 ### `ernestdefoe-ladder`
@@ -4440,6 +4457,67 @@ Verwende das <del>dunklen</del><ins>dunkle</ins> Design für das hCaptcha-Widget
 Bei der Anmeldung <del>von</del><ins>der</ins> <del>Benutzern</del><ins>Benutzer</ins> hCaptcha anfordern. Dies trägt zum Schutz vor Brute-Force-Angriffen bei.
 
 
+### `ramon-canela`
+
+#### [`linkrobins-wiki.forum.search.empty`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22linkrobins-wiki.forum.search.empty%22)
+
+> No articles match "{query}".
+
+```diff
+-Keine Artikel gefunden "{query}"
++Keine Artikel gefunden, die mit „{query}“ übereinstimmen.
+```
+
+Keine Artikel <del>gefunden</del><ins>gefunden,</ins> <del>"{query}"</del><ins>die mit „{query}“ übereinstimmen.</ins>
+
+#### [`ramon-canela.forum.ai.helper.copied`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.ai.helper.copied%22)
+
+> Copied
+
+```diff
+-Kopiert!
++Kopiert
+```
+
+#### [`ramon-canela.forum.chat.invalid_access`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.invalid_access%22)
+
+> This channel is restricted. Ask the channel's admins for access.
+
+```diff
+-Du hast keinen Zugriff auf diesen Chatkanal
++Dieser Kanal ist zugangsbeschränkt. Bitte wenden Sie sich an die Administratoren des Kanals, um Zugang zu erhalten.
+```
+
+#### [`ramon-canela.forum.chat.retry_staged_message.action`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.retry_staged_message.action%22)
+
+> Try again
+
+```diff
+-Erneut senden?
++Erneut versuchen
+```
+
+Erneut <del>senden?</del><ins>versuchen</ins>
+
+#### [`ramon-canela.forum.chat.upload_errors.failed`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.chat.upload_errors.failed%22)
+
+> Couldn't upload. Try again.
+
+```diff
+-fehlgeschlagen
++Hochladen fehlgeschlagen. Versuchen Sie es erneut.
+```
+
+#### [`ramon-canela.forum.extras.gambits.title_key`](https://weblate.rob006.net/translate/flarum2/ramon-canela/de@formal/?q=context%3A%3D%22ramon-canela.forum.extras.gambits.title_key%22)
+
+> title
+
+```diff
+-title
++titel
+```
+
+
 ### `resofire-digest-mail`
 
 #### [`resofire-digest-mail.admin.settings.send_window_start_help`](https://weblate.rob006.net/translate/flarum2/resofire-digest-mail/de@formal/?q=context%3A%3D%22resofire-digest-mail.admin.settings.send_window_start_help%22)
@@ -4593,5 +4671,37 @@ Die Spitznamen-Erweiterung muss aktiviert sein. <del>Stelle</del><ins>Stellen Si
 ```
 
 <del>Du</del><ins>Sie</ins> <del>bist</del><ins>sind</ins> zu lange inaktiv gewesen. Bitte <del>aktualisiere</del><ins>aktualisieren Sie</ins> die Seite und <del>versuche</del><ins>versuchen Sie</ins> es erneut.
+
+
+## Missing translations
+
+These strings are translated only in `de@formal`, so there is nothing to inherit from German informal variant - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `de@formal`.
+
+
+### `ernestdefoe-social-groups` (missing)
+
+#### [`ernestdefoe-social-groups.forum.groups.approval`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-social-groups/de@formal/?q=context%3A%3D%22ernestdefoe-social-groups.forum.groups.approval%22)
+
+> Approval
+
+```diff
++Bestätigung
+```
+
+#### [`ernestdefoe-social-groups.forum.groups.approval_required`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-social-groups/de@formal/?q=context%3A%3D%22ernestdefoe-social-groups.forum.groups.approval_required%22)
+
+> Approval required
+
+```diff
++Bestätigung erforderlich
+```
+
+#### [`ernestdefoe-social-groups.forum.groups.public`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-social-groups/de@formal/?q=context%3A%3D%22ernestdefoe-social-groups.forum.groups.public%22)
+
+> Public
+
+```diff
++Öffentlich
+```
 
 <!-- {% endraw %} -->
