@@ -367,6 +367,9 @@ return [
 	'ernestdefoe-masthead' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/masthead/1.9.1/locale/en.yml',
 	],
+	'ernestdefoe-member-desk' => [
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-desk/1.1.0/locale/en.yml',
+	],
 	'ernestdefoe-member-map' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-map/1.0.1/locale/en.yml',
 	],
