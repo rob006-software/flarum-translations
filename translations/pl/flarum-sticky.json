@@ -2,11 +2,11 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": "",
-                "pin_sticky_on_all_discussions_label": "",
-                "pin_sticky_on_all_discussions_help": ""
+                "enable_display_excerpt": "Pokazuj fragment pierwszego posta, gdy przypięta dyskusja jest nieodczytana",
+                "only_sticky_unread_discussions_label": "Przypinaj tylko nieodczytane dyskusje",
+                "only_sticky_unread_discussions_help": "Na stronie „Wszystkie dyskusje” nieodczytane przypięte dyskusje są wyświetlane na górze, a odczytane przypięte dyskusje – w zwykłej kolejności.",
+                "pin_sticky_on_all_discussions_label": "Wyświetlaj przypięte dyskusje na górze strony „Wszystkie dyskusje”",
+                "pin_sticky_on_all_discussions_help": "Gdy ta opcja jest włączona (domyślnie), przypięte dyskusje są wyświetlane na górze strony „Wszystkie dyskusje”. Gdy jest wyłączona, są wyświetlane na swoim zwykłym miejscu, zgodnie z ostatnią aktywnością. Na stronach tagów przypięte dyskusje są zawsze wyświetlane na górze, niezależnie od tego ustawienia."
             },
             "permissions": {
                 "sticky_discussions_label": "Przypinanie dyskusji"
@@ -29,7 +29,7 @@
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "przypięta"
                     }
                 }
             }
@@ -42,8 +42,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "stickied": "",
-                    "unstickied": ""
+                    "stickied": "Przypięto dyskusję {discussion}",
+                    "unstickied": "Odpięto dyskusję {discussion}"
                 }
             }
         }

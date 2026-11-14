@@ -111,9 +111,9 @@
         "forum": {
             "nav": {
                 "chat": "Czat",
-                "unread_channels": "{count, plural, one {# kanał z nieprzeczytanymi wiadomościami} few {# kanały z nieprzeczytanymi wiadomościami} other {# kanałów z nieprzeczytanymi wiadomościami}}",
-                "unread_messages": "{count, plural, one {# nieprzeczytana wiadomość} few {# nieprzeczytane wiadomości} other {# nieprzeczytanych wiadomości}}",
-                "unread_mentions": "{count, plural, one {# nieprzeczytana wzmianka} few {# nieprzeczytane wzmianki} other {# nieprzeczytanych wzmianek}}"
+                "unread_channels": "{count, plural, one {# kanał z nieodczytanymi wiadomościami} few {# kanały z nieodczytanymi wiadomościami} other {# kanałów z nieodczytanymi wiadomościami}}",
+                "unread_messages": "{count, plural, one {# nieodczytana wiadomość} few {# nieodczytane wiadomości} other {# nieodczytanych wiadomości}}",
+                "unread_mentions": "{count, plural, one {# nieodczytana wzmianka} few {# nieodczytane wzmianki} other {# nieodczytanych wzmianek}}"
             },
             "drawer": {
                 "title": "Czat",
@@ -459,9 +459,9 @@
                 "level_never": "Niczym",
                 "level_always_help": "Każda wiadomość na tym kanale wywoła powiadomienie.",
                 "level_mentions_help": "Powiadomienie wywołają tylko wiadomości, które o Tobie wspominają lub używają @channel albo @here.",
-                "level_never_help": "Ten kanał nie będzie wysyłał Ci powiadomień. Nieprzeczytane wiadomości nadal będą widoczne na pasku bocznym.",
+                "level_never_help": "Ten kanał nie będzie wysyłał Ci powiadomień. Nieodczytane wiadomości nadal będą widoczne na pasku bocznym.",
                 "mute": "Wycisz ten kanał",
-                "mute_help": "Wyciszone kanały nie wyświetlają oznaczeń nieprzeczytanych wiadomości.",
+                "mute_help": "Wyciszone kanały nie wyświetlają oznaczeń nieodczytanych wiadomości.",
                 "composer": "Edytor",
                 "send_key": "Wysyłanie wiadomości",
                 "send_key_enter": "Enter wysyła",
