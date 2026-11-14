@@ -28,20 +28,20 @@
                 },
                 "content-filter": {
                     "heading": "Inhaltsfilter",
-                    "introduction": "Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von kürzlich registrierten Benutzern auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.",
+                    "introduction": "Spam-Inhalte von neuen Benutzern automatisch erkennen und kennzeichnen. Dieses System überwacht Beiträge und Diskussionen von neuen Konten auf häufige Spam-Indikatoren wie Telefonnummern, E-Mail-Adressen und verdächtige URLs.",
                     "enabled_label": "Inhaltsfilter aktivieren",
                     "enabled_help": "Wenn aktiviert, werden Beiträge und Diskussionen neuer Benutzer auf Spam-Indikatoren analysiert.",
                     "user_targeting_heading": "Zielgruppenmonitoring",
                     "monitor_all_users_label": "Alle Benutzer überwachen",
-                    "monitor_all_users_help": "Überprüfe jeden Beitrag, nicht nur diejenigen von neuen Konten. Andernfalls wird ein Konto nie wieder überprüft, sobald es die unten genannten Grenzwerte überschreitet – was genau bei Mitgliedern der Fall ist, deren Konto gehackt wurde, oder bei solchen, die die Grenzwerte abwarten, bevor sie Spam posten. Administratoren und alle, deren Gruppe Diskussionen ausblenden kann, werden in keinem Fall überwacht. Rechne mit mehr Fehlalarmen bei etablierten Mitgliedern, überprüfe daher deine Schwellenwerte, bevor du diese Funktion aktivierst.\n",
+                    "monitor_all_users_help": "Überprüfe jeden Beitrag, nicht nur diejenigen von neuen Konten. Andernfalls wird ein Konto nie wieder überprüft, sobald es die unten genannten Grenzwerte überschreitet – was genau bei Mitgliedern der Fall ist, deren Konto gehackt wurde, oder bei solchen, die erst ein paar harmlose Beiträge veröffentlichen, bevor sie Spam posten. Administratoren und alle, deren Gruppe Diskussionen ausblenden kann, werden in keinem Fall überwacht. Rechne mit mehr Fehlalarmen bei etablierten Mitgliedern, überprüfe daher deine Schwellenwerte, bevor du diese Funktion aktivierst.\n",
                     "monitor_post_count_label": "Benutzer bis zu dieser Beitragsanzahl überwachen",
                     "monitor_post_count_help": "Ein Konto wird so lange überwacht, bis es mehr als diese Anzahl öffentlicher Beiträge verfasst hat und zudem die unten angegebene Altersgrenze überschritten hat. Beiträge, die noch auf Freigabe warten, werden erst gezählt, nachdem sie freigegeben wurden.\n",
-                    "monitor_hours_old_label": "Benutzer nach Registrierungsalter überwachen",
+                    "monitor_hours_old_label": "Benutzer bis zu dieser Anzahl Stunden nach ihrem ersten Beitrag überwachen",
                     "monitor_hours_old_help": "Ein Konto wird so lange überwacht, bis diese Anzahl an Stunden seit der Veröffentlichung seines ersten öffentlichen Beitrags verstrichen ist und es zudem die oben angegebene Beitragsanzahl überschritten hat. Die Stunden werden ab diesem Beitrag gezählt, nicht ab der Registrierung; ein Konto hat also keinen Vorteil davon, ungenutzt zu bleiben, bevor es mit dem Posten beginnt. Bei 0 entscheidet ausschließlich die Beitragsanzahl.\n",
-                    "held_email_domains_heading": "",
-                    "held_email_domains_label": "",
-                    "held_email_domains_help": "",
-                    "monitor_window_held_only": "",
+                    "held_email_domains_heading": "Neue Konten nach E-Mail-Domain zurückhalten",
+                    "held_email_domains_label": "Zurückzuhaltende E-Mail-Domains",
+                    "held_email_domains_help": "Jeder Beitrag eines neuen Kontos, dessen E-Mail-Adresse zu einer dieser Domains gehört, wird zur Freigabe zurückgehalten, unabhängig vom Inhalt. Gib eine Domain pro Zeile ein; Subdomains sind darin enthalten. Ein Konto gilt als neu, solange es die oben genannten Kriterien hinsichtlich der Anzahl der Beiträge oder des Alters erfüllt, selbst wenn alle Benutzer überwacht werden, und zurückgehaltene Beiträge zählen erst nach ihrer Freigabe zur Beitragsanzahl. Es werden nur neue Beiträge zurückgehalten: Bearbeitungen werden dem Inhaltsfilter überlassen. Dies gilt auch dann, wenn der Inhaltsfilter deaktiviert ist. Administratoren und alle, deren Gruppe Diskussionen ausblenden kann, werden niemals zurückgehalten. Moderatoren, die Markierungen sehen können, wird die übereinstimmende Domain angezeigt.\n",
+                    "monitor_window_held_only": "Da alle Benutzer überwacht werden, legen die beiden folgenden Grenzwerte lediglich fest, für welche Konten die Einschränkung für die E-Mail-Domain gilt.",
                     "detectors_heading": "Detektionsmethoden",
                     "detect_phones_label": "Telefonnummern erkennen",
                     "detect_phones_help": "Melde Inhalte, die Telefonnummern im internationalen Format enthalten.",
@@ -224,7 +224,7 @@
             },
             "post": {
                 "flagged_as_spam_text": "Automatische Spam-Erkennung – Bewertung {score}",
-                "held_email_domain_text": ""
+                "held_email_domain_text": "Bis zur Freigabe zurückgehalten: Neues Konto mit einer E-Mail-Adresse unter {domain}"
             },
             "message": {
                 "profile": {
