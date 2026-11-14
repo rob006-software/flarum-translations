@@ -1,48 +1,48 @@
 {
     "fof-recaptcha": {
         "admin": {
-            "maintenance_mode_warning": "",
+            "maintenance_mode_warning": "reCAPTCHA jest wyłączona na stronie logowania, gdy forum jest w trybie konserwacji.",
             "settings": {
                 "help_text": "Uzyskaj dane uwierzytelniające dla Google reCAPTCHA <a>tutaj</a>.",
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
                 "type_label": "reCAPTCHA Type",
-                "type_help": "",
+                "type_help": "Wybrany typ musi być zgodny z typem Twoich danych uwierzytelniających reCAPTCHA. Checkbox i Invisible to reCAPTCHA v2; v3 działa w tle i opiera się na ocenie (score).",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 Checkbox",
+                    "invisible": "v2 Invisible",
+                    "v3": "v3 (oparta na ocenie)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
+                "v3_threshold_label": "Próg oceny reCAPTCHA v3",
+                "v3_threshold_help": "Zgłoszenia z oceną niższą od tej wartości (0.0 = prawdopodobnie bot, 1.0 = prawdopodobnie człowiek) będą odrzucane. Google sugeruje 0.5 jako wartość początkową. Używane tylko wtedy, gdy wybrano typ v3.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
             },
             "test": {
-                "title": "",
-                "help_text": "",
-                "success_message": "",
-                "load_test_button": "",
-                "submit_button": "",
-                "reload_button": ""
+                "title": "Test reCAPTCHA",
+                "help_text": "Ten test używa wartości wpisanych powyżej. Pamiętaj, aby po zmianie ustawień ponownie wczytać test, i nie zapomnij zapisać ustawień, gdy test się powiedzie!\nPoniższy test może nie odzwierciedlać zapisanych ustawień.\n",
+                "success_message": "Sukces! reCAPTCHA jest poprawnie skonfigurowana.",
+                "load_test_button": "Wczytaj",
+                "submit_button": "Wyślij",
+                "reload_button": "Wczytaj ponownie"
             },
             "permissions": {
                 "post_without_captcha": "Tworzenie postów i dyskusji z pominięciem mechanizmu CAPTCHA"
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Wystąpił błąd podczas wysyłania reCAPTCHA. Spróbuj ponownie.",
+            "not_completed": "Przed kontynuowaniem ukończ weryfikację reCAPTCHA.",
+            "rejected": "Weryfikacja reCAPTCHA nie powiodła się. Spróbuj ponownie.",
+            "unknown_error": "Wystąpił nieznany błąd. Spróbuj ponownie."
         }
     },
     "validation": {
         "recaptcha": "Weryfikacja reCAPTCHA nie powiodła się.",
-        "recaptcha-unknown": "",
+        "recaptcha-unknown": "Wystąpił nieznany błąd podczas weryfikacji reCAPTCHA ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }

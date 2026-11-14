@@ -2,13 +2,13 @@
     "fof-mason": {
         "forum": {
             "composer": {
-                "add-details": ""
+                "add-details": "Dodaj szczegóły"
             },
             "discussion-controls": {
                 "edit-answers": "Edytuj pola"
             },
             "answers-modal": {
-                "compose-title": "",
+                "compose-title": "Szczegóły dyskusji",
                 "edit-title": "Edytuj pola dla {title}",
                 "save": "Zapisz pola"
             },
@@ -18,7 +18,7 @@
             "answers": {
                 "choose-option": "Wybierz opcję",
                 "no-option-selected": "Nie wybrano żadnej opcji",
-                "required": ""
+                "required": "To pole jest wymagane."
             },
             "tags": {
                 "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i jeden dodatkowy lub wyłącz opcję „Pokaż listę wyboru tagów jako pole”.\n",
@@ -31,22 +31,22 @@
                 "add-field": "Dodaj pole",
                 "save-field": "Zapisz zmiany",
                 "delete-field": "Usuń pole",
-                "edit-field": "",
+                "edit-field": "Edytuj",
                 "add-answer": "Dodaj odpowiedź",
                 "delete-answer": "Usuń odpowiedź",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "edit-answer": "Edytuj odpowiedź",
+                "edit-answer-prompt": "Zmienia odpowiedź wszędzie, gdzie została użyta",
+                "show-user-answers": "{count, plural, one {# odpowiedź wpisana przez użytkowników} few {# odpowiedzi wpisane przez użytkowników} many {# odpowiedzi wpisanych przez użytkowników} other {# odpowiedzi wpisanej przez użytkowników}}"
             },
             "field-list": {
-                "empty": "",
-                "free-text": "",
-                "dropdown": ""
+                "empty": "Nie ma jeszcze żadnych pól. Dodaj pole, aby zbierać uporządkowane informacje o nowych dyskusjach.",
+                "free-text": "Dowolny tekst",
+                "dropdown": "{count, plural, =0 {Lista rozwijana, brak odpowiedzi} one {Lista rozwijana · # odpowiedź} other {Lista rozwijana · # odpowiedzi}}"
             },
             "answers": {
-                "help": "",
-                "suggest": "",
-                "unsuggest": ""
+                "help": "Sugerowane odpowiedzi są wyświetlane na liście rozwijanej w tej kolejności. Edycja odpowiedzi zmienia ją we wszystkich dyskusjach, w których została użyta.\n",
+                "suggest": "Sugeruj",
+                "unsuggest": "Przestań sugerować"
             },
             "fields": {
                 "edit": "Edytuj pole {field}",
@@ -76,14 +76,14 @@
                 "fields-section-title-placeholder": "Domyślnie żaden tytuł nie zostanie wyświetlony",
                 "fields-section-title-help": "Użytkownicy zobaczą ten tekst nad niestandardowymi polami w edytorze oraz w dyskusji.\n",
                 "column-count": "Liczba kolumn do wyświetlania pól",
-                "n-columns": "",
+                "n-columns": "{count, plural, one {# kolumna} few {# kolumny} many {# kolumn} other {# kolumny}}",
                 "labels-as-placeholders": "Pokaż etykiety jako tekst zastępczy w polach formularza",
                 "labels-as-placeholders-help": "Pola będą zajmować mniej przestrzeni w pionie oraz ikony nie będą się wyświetlać. Miej na uwadze, że może mieć to wpływ na czytelność, zwłaszcza podczas edycji uzupełnionych pól.\n",
-                "fields-in-hero": "",
+                "fields-in-hero": "Pokaż pola w banerze dyskusji zamiast pod pierwszym postem",
                 "hide-empty-fields-section": "Ukryj tytuł i kontrolki, jeśli wszystkie pola są puste i ukryte",
-                "hide-empty-fields-section-help": "",
+                "hide-empty-fields-section-help": "Domyślnie, jeśli użytkownik może edytować pola lub tytuł został ustawiony, sekcja zawsze będzie wyświetlana, nawet jeśli wszystkie pola są ukryte. Po włączeniu tej opcji, gdy wszystkie pola są puste, sekcja zostanie ukryta, a przycisk „Edytuj pola” będzie dostępny tylko w menu dyskusji.\n",
                 "tags-as-field": "Pokaż listę wyboru tagów jako pole",
-                "tags-as-field-help": "",
+                "tags-as-field-help": "Dodaje listę rozwijaną tagów do formularza szczegółów dyskusji. Ta opcja zadziała jedynie, jeśli pozwoliłeś maksymalnie na jeden tag główny i jeden dodatkowy!\n",
                 "tags-field-name": "Etykieta dla pola z tagami",
                 "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
@@ -106,9 +106,9 @@
         "lib": {
             "data": {
                 "masonanswers": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Odpowiedzi w niestandardowych polach w dyskusjach rozpoczętych przez Ciebie.",
+                    "anonymize_description": "Twoje odpowiedzi w niestandardowych polach pozostają w Twoich dyskusjach.",
+                    "delete_description": "Odpowiedzi w niestandardowych polach są usuwane z dyskusji rozpoczętych przez Ciebie, a wpisane przez Ciebie odpowiedzi, których nie używa żadna inna dyskusja, zostają usunięte."
                 }
             }
         }
@@ -117,17 +117,17 @@
         "lib": {
             "browser": {
                 "mason_field": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Utworzono pole niestandardowe {name}",
+                    "updated": "Zaktualizowano pole niestandardowe {name} ({keys})",
+                    "deleted": "Usunięto pole niestandardowe {name}"
                 },
                 "mason_answer": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Dodano odpowiedź {name} do pola niestandardowego {key}",
+                    "updated": "Zmieniono odpowiedź {old_name} na {new_name} w polu niestandardowym {key} ({keys})",
+                    "deleted": "Usunięto odpowiedź {name} z pola niestandardowego {key}"
                 },
                 "discussion": {
-                    "mason_answers_changed": ""
+                    "mason_answers_changed": "Zmieniono {keys} w dyskusji {discussion} z {old_value} na {new_value}"
                 }
             }
         }

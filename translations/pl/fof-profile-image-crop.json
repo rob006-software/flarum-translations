@@ -2,15 +2,15 @@
     "fof-profile-image-crop": {
         "forum": {
             "modal": {
-                "crop_too_small": "",
+                "crop_too_small": "Zaznaczony obszar jest za mały – zaznacz co najmniej {size}×{size} pikseli, aby awatar był ostry.",
                 "error": {
-                    "failed_to_load_cropper": "",
-                    "generic_resize": "",
-                    "get_image_data": ""
+                    "failed_to_load_cropper": "Nie udało się wczytać narzędzia do przycinania obrazu.",
+                    "generic_resize": "Coś poszło nie tak podczas przycinania i zmiany rozmiaru obrazu.",
+                    "get_image_data": "Nie udało się przyciąć obrazu. Upewnij się, że ochrona przed fingerprintingiem w przeglądarce jest wyłączona."
                 },
-                "help_text": "",
-                "submit_button": "",
-                "submit_crop_button": ""
+                "help_text": "Przesyłanie obrazu może się nie udać, jeśli ustawienia prywatności przeglądarki są bardzo restrykcyjne. Jeśli masz problem, spróbuj wyłączyć ochronę przed fingerprintingiem. Możesz też <disableCrop>całkowicie wyłączyć przycinanie</disableCrop>.\n",
+                "submit_button": "Prześlij",
+                "submit_crop_button": "Przytnij i prześlij"
             }
         }
     }

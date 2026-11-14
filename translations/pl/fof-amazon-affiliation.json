@@ -5,14 +5,14 @@
                 "title": {
                     "modal": "Ustawienia Amazon Affiliation",
                     "tags": "Tagi partnerskie",
-                    "tags-mediaembed": ""
+                    "tags-mediaembed": "Poniżej ustaw tag partnerski dla każdego sklepu Amazon. Linki do produktów w skonfigurowanym sklepie będą oznaczane jego wartością; pozostaw pole sklepu puste, aby go pominąć."
                 },
                 "field": {
-                    "rich-card": "",
-                    "rich-card-help": "",
+                    "rich-card": "Wyświetlaj linki do produktów Amazon jako rozszerzone karty produktów",
+                    "rich-card-help": "Po włączeniu tej opcji adresy URL produktów Amazon (/dp/ i /gp/product/) są wyświetlane jako kompaktowa karta z linkiem do oznaczonej tagiem strony produktu. Po wyłączeniu pozostają zwykłymi linkami i są oznaczane tagiem tak jak każdy inny link do Amazon.",
                     "keep-existing-tag": "Zachowaj tagi Amazon Affiliate z oryginalnych linków zamiast je zastępować",
                     "keep-existing-tag-help": "Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.",
-                    "help-mediaembed": "",
+                    "help-mediaembed": "Karty produktów zawsze używają skonfigurowanego tagu, więc ustawienie zachowywania istniejących tagów dotyczy tylko zwykłych linków.",
                     "remove-tag-if-unhandled": "Usuń tagi Amazon Affiliate z linków do nieobsługiwanych wersji Amazon",
                     "remove-tag-if-unhandled-help": "Domyślnie nieobsługiwane linki pozostają niezmienione, w tym ich tag (jeśli taki istnieje).",
                     "tag": "{name} (amazon.{domain})",

@@ -2,84 +2,84 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "locked_by_env": "",
-                "locked_by_code": "",
-                "mail_title": "",
-                "mail_help": "",
-                "email_concurrency": "",
-                "email_concurrency_help": "",
-                "trim_title": "",
-                "trim_help": "",
-                "trim_recent": "",
-                "trim_recent_help": "",
-                "trim_pending": "",
-                "trim_pending_help": "",
-                "trim_completed": "",
-                "trim_completed_help": "",
-                "trim_recent_failed": "",
-                "trim_recent_failed_help": "",
-                "trim_failed": "",
-                "trim_failed_help": "",
-                "trim_monitored": "",
-                "trim_monitored_help": "",
-                "supervisor_title": "",
-                "supervisor_help": "",
-                "memory_limit": "",
-                "memory_limit_help": ""
+                "locked_by_env": "Ustawione przez zmienną środowiskową na {value} – zmień to tam, a nie tutaj.",
+                "locked_by_code": "Ustawione w kodzie (config.php lub extend.php) na {value} – zmień to tam, a nie tutaj.",
+                "mail_title": "Wysyłanie e-maili",
+                "mail_help": "Określ, ile e-maili jest wysyłanych jednocześnie. Każdy worker wysyła jeden e-mail naraz, więc jest to liczba jednocześnie wysyłanych wiadomości. Ustaw ją zgodnie z limitem równoczesnych połączeń u dostawcy poczty, aby go nie przekraczać. Pozostaw puste, aby użyć wartości domyślnej (1).\n",
+                "email_concurrency": "Jednocześnie wysyłane e-maile",
+                "email_concurrency_help": "Maksymalna liczba e-maili dostarczanych jednocześnie. Zmienna środowiskowa (REDIS_HORIZON_EMAIL_CONCURRENCY) lub wartość w config.php, jeśli jest ustawiona, nadpisuje to ustawienie.\n",
+                "trim_title": "Ustawienia przycinania",
+                "trim_help": "Tutaj możesz skonfigurować, jak długo (w minutach) Horizon ma przechowywać ostatnie i nieudane zadania. Zazwyczaj ostatnie zadania są przechowywane przez godzinę, a wszystkie nieudane zadania – przez cały tydzień.\n",
+                "trim_recent": "Przycinanie ostatnich zadań",
+                "trim_recent_help": "Ta tabela służy do wyświetlania ostatnich zadań w panelu Horizon.\n",
+                "trim_pending": "Przycinanie oczekujących zadań",
+                "trim_pending_help": "Ta tabela służy do wyświetlania oczekujących zadań w panelu Horizon.\n",
+                "trim_completed": "Przycinanie zakończonych zadań",
+                "trim_completed_help": "Ta tabela służy do wyświetlania zakończonych zadań w panelu Horizon.\n",
+                "trim_recent_failed": "Przycinanie ostatnich nieudanych zadań",
+                "trim_recent_failed_help": "Ta tabela służy do wyświetlania ostatnich nieudanych zadań w panelu Horizon.\n",
+                "trim_failed": "Przycinanie nieudanych zadań",
+                "trim_failed_help": "Ta tabela służy do wyświetlania nieudanych zadań w panelu Horizon.\n",
+                "trim_monitored": "Przycinanie monitorowanych zadań",
+                "trim_monitored_help": "Ta tabela służy do wyświetlania monitorowanych zadań w panelu Horizon.\n",
+                "supervisor_title": "Ustawienia workerów",
+                "supervisor_help": "Horizon uruchamia workery kolejki w profilach warstwowych (standard, fast, long, emails). Liczba workerów, pamięć i kolejki są konfigurowane dla każdego wdrożenia za pomocą zmiennych środowiskowych REDIS_HORIZON_*, pliku config.php (pod kluczem „horizon”) lub extendera Horizon w extend.php – zobacz plik README rozszerzenia. Po zmianie konfiguracji workerów uruchom ponownie Horizon.\n",
+                "memory_limit": "Limit pamięci procesu głównego (MB)",
+                "memory_limit_help": "Limit pamięci głównego procesu nadzorującego Horizon – po jego przekroczeniu proces główny uruchamia się ponownie. Pamięć każdego workera jest ustawiana przez jego proces nadzorujący.\n"
             },
             "stats": {
-                "queue_heading": "",
-                "full_dashboard": "",
-                "auto_refresh": "",
-                "refresh": "",
+                "queue_heading": "Kolejka",
+                "full_dashboard": "Panel Horizon",
+                "auto_refresh": "Automatyczne odświeżanie",
+                "refresh": "Odśwież",
                 "error": {
-                    "title": "",
-                    "fetch_failed": "",
-                    "setup_docs": ""
+                    "title": "Błąd połączenia",
+                    "fetch_failed": "Nie udało się pobrać statystyk Horizon. Sprawdź konfigurację Redis.",
+                    "setup_docs": "Zobacz dokumentację konfiguracji Redis"
                 },
                 "health": {
-                    "excellent": "",
-                    "good": "",
-                    "poor": "",
-                    "critical": "",
-                    "tooltip_heading": "",
+                    "excellent": "Doskonały",
+                    "good": "Dobry",
+                    "poor": "Słaby",
+                    "critical": "Krytyczny",
+                    "tooltip_heading": "Ocena stanu: {score}/100",
                     "factor": {
-                        "status": "",
-                        "wait": "",
-                        "memory": ""
+                        "status": "Horizon: {value}",
+                        "wait": "Długie oczekiwanie w kolejce: {value}",
+                        "memory": "Obciążenie pamięci Redis: {value}"
                     }
                 },
                 "status": {
-                    "running": "",
-                    "paused": "",
-                    "inactive": "",
-                    "paused_pending": ""
+                    "running": "Działa",
+                    "paused": "Wstrzymany",
+                    "inactive": "Nieaktywny",
+                    "paused_pending": "Wstrzymany · oczekujące: {count}"
                 },
                 "period": {
-                    "minutes": "",
-                    "hour": "",
-                    "hours": "",
-                    "day": "",
-                    "days": ""
+                    "minutes": "ostatnie {count} min",
+                    "hour": "ostatnia godzina",
+                    "hours": "ostatnie {count} godz.",
+                    "day": "ostatnia doba",
+                    "days": "ostatnie {count} dni"
                 },
                 "data": {
-                    "processes": "",
-                    "jobs-per-minute": "",
-                    "pending-jobs": "",
-                    "recent-jobs": "",
-                    "failed-jobs": "",
-                    "max-wait": "",
-                    "slowest-queue": "",
-                    "highest-throughput-queue": ""
+                    "processes": "Procesy workerów",
+                    "jobs-per-minute": "Zadania na minutę",
+                    "pending-jobs": "Oczekujące zadania",
+                    "recent-jobs": "Zadania",
+                    "failed-jobs": "Nieudane zadania",
+                    "max-wait": "Maksymalne oczekiwanie",
+                    "slowest-queue": "Najwolniejsza kolejka",
+                    "highest-throughput-queue": "Najbardziej obciążona kolejka"
                 },
                 "tile": {
-                    "processes": "",
-                    "jobs_per_minute": "",
-                    "max_wait": "",
-                    "status": ""
+                    "processes": "Procesy workerów",
+                    "jobs_per_minute": "Zadania / min",
+                    "max_wait": "Maksymalne oczekiwanie",
+                    "status": "Status"
                 },
-                "horizon_max_wait_none": "",
-                "horizon_max_wait_value": ""
+                "horizon_max_wait_none": "Brak",
+                "horizon_max_wait_value": "{seconds} s w kolejce {queue}"
             }
         }
     }

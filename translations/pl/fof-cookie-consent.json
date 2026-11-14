@@ -3,85 +3,85 @@
         "admin": {
             "settings": {
                 "configuration_title": "Opcje konfiguracji",
-                "configuration_button_title": "",
-                "text_help": "",
+                "configuration_button_title": "Link „Dowiedz się więcej”",
+                "text_help": "Teksty wyświetlane odwiedzającym znajdują się w plikach językowych tego rozszerzenia, więc można je przetłumaczyć. Możesz je zmienić za pomocą FoF Linguist lub pakietu językowego.\n",
                 "learnMoreLinkUrl": "Link",
-                "learnMoreLinkUrl_help": "",
-                "appearance_title": "",
-                "layout": "",
-                "layout_help": "",
-                "position": "",
-                "equalWeightButtons": "",
-                "equalWeightButtons_help": "",
-                "colors_help": "",
-                "catchall_title": "",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
-                "allowedCookies": "",
-                "allowedCookies_help": "",
+                "learnMoreLinkUrl_help": "Pozostaw puste, aby ukryć link.",
+                "appearance_title": "Wygląd",
+                "layout": "Układ",
+                "layout_help": "Określa kształt banera zgody na pliki cookie.",
+                "position": "Położenie",
+                "equalWeightButtons": "Nadaj obu przyciskom równą wagę",
+                "equalWeightButtons_help": "Zalecane. Identyczny wygląd przycisków akceptacji i odrzucenia sprawia, że odwiedzający nie są nakłaniani do akceptacji.",
+                "colors_help": "Baner dopasowuje się do motywu forum, w tym do trybu ciemnego. Ustaw kolor tylko wtedy, gdy chcesz to nadpisać – pozostaw puste, aby użyć kolorów motywu.\n",
+                "catchall_title": "Niezadeklarowane pliki cookie",
+                "sweepUndeclared": "Usuwaj pliki cookie, których nie zadeklarowało żadne rozszerzenie",
+                "sweepUndeclared_help": "Gdy odwiedzający odmówi zgody, usuwaj również pliki cookie, których żadne rozszerzenie nie zadeklarowało za pomocą extendera zgody na pliki cookie. Pozwala to wyłapać mechanizmy śledzące z rozszerzeń, które z niego nie korzystają, ale usunie też pliki cookie naprawdę potrzebne niektórym rozszerzeniom, co może zakłócić ich działanie. Aby je zachować, użyj poniższej listy dozwolonych.\n",
+                "allowedCookies": "Nigdy nie usuwaj tych plików cookie",
+                "allowedCookies_help": "Jedna nazwa w każdym wierszu. Aby użyć wzorca, otocz go ukośnikami, np. /^app_/. Pliki cookie ustawiane przez samo Flarum są zawsze zachowywane.\n",
                 "theme_popup_title": "Kolory popupa",
                 "backgroundColor": "Tło",
                 "textColor": "Tekst",
-                "theme_dismiss_title": "",
+                "theme_dismiss_title": "Kolory przycisków",
                 "buttonBackgroundColor": "Tło",
                 "buttonTextColor": "Tekst",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
-                    "bar": "",
-                    "bar_inline": ""
+                    "box": "Okno",
+                    "box_wide": "Okno (szerokie)",
+                    "box_inline": "Okno (w linii)",
+                    "cloud": "Chmurka",
+                    "cloud_inline": "Chmurka (w linii)",
+                    "bar": "Pasek",
+                    "bar_inline": "Pasek (w linii)"
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "Na górze po lewej",
+                    "top_center": "Na górze pośrodku",
+                    "top_right": "Na górze po prawej",
+                    "middle_left": "Pośrodku po lewej",
+                    "middle_center": "Na środku",
+                    "middle_right": "Pośrodku po prawej",
+                    "bottom_left": "Na dole po lewej",
+                    "bottom_center": "Na dole pośrodku",
+                    "bottom_right": "Na dole po prawej"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "Ta strona używa plików cookie. Możesz zarządzać swoimi preferencjami lub zaakceptować wszystkie pliki cookie.",
+                "accept": "Akceptuj",
+                "decline": "Odrzuć",
+                "preferences": "Zarządzaj preferencjami",
+                "learn_more": "Dowiedz się więcej"
             },
             "preferences": {
-                "title": "",
-                "save": "",
-                "description": "",
+                "title": "Preferencje plików cookie",
+                "save": "Zapisz preferencje",
+                "description": "Pliki cookie to małe pliki, które ta strona zapisuje w Twojej przeglądarce. Poniżej znajdziesz informacje, co jest zapisywane i w jakim celu. Swój wybór możesz zmienić w dowolnym momencie.",
                 "cookie_table": {
-                    "name": "",
-                    "description": ""
+                    "name": "Plik cookie",
+                    "description": "Cel"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Utrzymuje Twoje zalogowanie podczas przeglądania strony.",
+                "flarum_remember": "Automatycznie loguje Cię ponownie przy następnej wizycie.",
+                "locale": "Zapamiętuje wybrany przez Ciebie język.",
+                "cc_cookie": "Zapamiętuje Twój wybór dotyczący plików cookie, aby nie pytać ponownie."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Niezbędne",
+                    "description": "Wymagane do działania strony – logowanie, utrzymywanie zalogowania i zapamiętywanie wyboru dotyczącego plików cookie. Nie można ich wyłączyć."
                 },
                 "analytics": {
-                    "title": "",
-                    "description": ""
+                    "title": "Analityczne",
+                    "description": "Pomagają nam zrozumieć, jak korzystasz z forum, abyśmy mogli je ulepszać. Nie są potrzebne do działania forum."
                 },
                 "marketing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Marketingowe",
+                    "description": "Służą do mierzenia skuteczności reklam i wyświetlania Ci reklam na innych stronach."
                 }
             }
         }

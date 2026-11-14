@@ -3,39 +3,39 @@
         "admin": {
             "settings": {
                 "title": "FriendsOfFlarum Open Collective",
-                "use_legacy_api_key_label": "",
-                "use_legacy_api_key_help": "",
+                "use_legacy_api_key_label": "Używaj starszego klucza API aplikacji",
+                "use_legacy_api_key_help": "Jeśli masz starszy klucz API, możesz nadal go używać, ale zalecane jest przejście na token osobisty. Obecnie tokeny osobiste wydają się działać w trybie klucza API (czyli z nagłówkiem „API-Key”), ale nie jest to udokumentowane.\n",
                 "api_key_label": "Klucz API aplikacji (przestarzałe)",
-                "api_key_help": "",
-                "personal_token_label": "",
-                "personal_token_help": "",
+                "api_key_help": "Ta metoda uwierzytelniania jest przestarzała. Rozważ przejście na token osobisty.",
+                "personal_token_label": "Token osobisty",
+                "personal_token_help": "Utwórz token osobisty na stronie <a>https://opencollective.com/applications</a> z zakresami „orders” i „email”, korzystając z konta, które jest administratorem kolektywu. Ten token służy do pobierania z Open Collective informacji o Twoich darczyńcach.",
                 "slug_label": "Collective Slug",
-                "slug_help": "",
+                "slug_help": "Wpisz slug swojego kolektywu w Open Collective (część adresu URL kolektywu po opencollective.com/).",
                 "group_label": "Grupa stałych wspierających",
-                "group_help": "",
-                "onetime_group_label": "",
-                "onetime_group_help": ""
+                "group_help": "Wybierz grupę użytkowników Flarum, do której mają być dodawani stali darczyńcy. Użytkownicy będą automatycznie dodawani, gdy zaczną regularnie wspierać projekt, i przenoszeni do grupy darczyńców jednorazowych (jeśli została skonfigurowana), gdy ich subskrypcja się zakończy.",
+                "onetime_group_label": "Grupa darczyńców jednorazowych (opcjonalnie)",
+                "onetime_group_help": "Wybierz grupę użytkowników Flarum, do której mają być dodawani darczyńcy jednorazowi. Jeśli nie zostanie ustawiona, darczyńcy jednorazowi nie będą obsługiwani. Gdy stały darczyńca anuluje subskrypcję, zostanie przeniesiony do tej grupy."
             },
             "status": {
-                "heading": "",
-                "never_run": "",
-                "last_success": "",
-                "last_failure": "",
-                "stale": "",
-                "test_button": "",
-                "test_success": "",
-                "test_success_no_orders": "",
-                "request_failed": "",
+                "heading": "Stan synchronizacji",
+                "never_run": "Synchronizacja nie została jeszcze uruchomiona. Jest wykonywana co godzinę przez harmonogram zadań Flarum, więc sprawdź, czy harmonogram jest skonfigurowany.",
+                "last_success": "Ostatnia synchronizacja: {time}. Darczyńcy: {backers}, zmiany: {changes}.",
+                "last_failure": "Ostatnia synchronizacja ({time}) nie powiodła się: {reason}",
+                "stale": "Ostatnia synchronizacja odbyła się ponad dwie godziny temu. Sprawdź, czy harmonogram zadań Flarum działa.",
+                "test_button": "Testuj połączenie",
+                "test_success": "Połączono z kolektywem {collective} jako {account}. Znalezione wpłaty: {orders}; adresy e-mail darczyńców są dostępne.",
+                "test_success_no_orders": "Połączono z kolektywem {collective} jako {account}. Nie ma jeszcze żadnych wpłat, więc nie można było sprawdzić dostępu do adresów e-mail.",
+                "request_failed": "Nie udało się przeprowadzić testu połączenia.",
                 "reasons": {
-                    "unauthorized": "",
-                    "forbidden": "",
-                    "emails_hidden": "",
-                    "not_found": "",
-                    "rate_limited": "",
-                    "network": "",
-                    "configuration": "",
-                    "no_backers": "",
-                    "other": ""
+                    "unauthorized": "Open Collective odrzuciło token. Mógł wygasnąć lub zostać unieważniony.",
+                    "forbidden": "Token nie ma wymaganego zakresu. Potrzebne są zakresy „orders” i „email”.",
+                    "emails_hidden": "Token nie ma dostępu do adresów e-mail darczyńców. Potrzebny jest zakres „email”.",
+                    "not_found": "Nie znaleziono kolektywu. Sprawdź slug kolektywu.",
+                    "rate_limited": "Osiągnięto limit zapytań Open Collective. Następna synchronizacja spróbuje ponownie.",
+                    "network": "Nie udało się połączyć z Open Collective.",
+                    "configuration": "Ustawienia tokenu, sluga kolektywu lub grupy są niekompletne.",
+                    "no_backers": "Open Collective nie zwróciło żadnych darczyńców, więc niczego nie zmieniono. Jeśli to prawidłowe, uruchom synchronizację z opcją --force.",
+                    "other": "Open Collective zwróciło nieoczekiwaną odpowiedź."
                 }
             }
         }
@@ -44,12 +44,12 @@
         "lib": {
             "browser": {
                 "fof_open_collective": {
-                    "recurring_started": "",
-                    "recurring_stopped": "",
-                    "onetime_started": "",
-                    "backing_ended": "",
-                    "groups_changed": "",
-                    "membership_adopted": ""
+                    "recurring_started": "Rozpoczęcie regularnego wspierania w Open Collective przez użytkownika {username}. Grupy: {old_groups} → {new_groups}",
+                    "recurring_stopped": "Zakończenie regularnego wspierania w Open Collective przez użytkownika {username}. Grupy: {old_groups} → {new_groups}",
+                    "onetime_started": "Jednorazowe wsparcie w Open Collective od użytkownika {username}. Grupy: {old_groups} → {new_groups}",
+                    "backing_ended": "Użytkownik {username} nie jest już darczyńcą w Open Collective. Grupy: {old_groups} → {new_groups}",
+                    "groups_changed": "Synchronizacja Open Collective zmieniła grupy użytkownika {username} z {old_groups} na {new_groups}",
+                    "membership_adopted": "Synchronizacja Open Collective przejęła zarządzanie członkostwem użytkownika {username} w grupach {new_groups}"
                 }
             }
         }
@@ -58,9 +58,9 @@
         "lib": {
             "data": {
                 "opencollectivebacker": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Eksportuje status darczyńcy Open Collective użytkownika, datę jego ostatniej zmiany oraz grupy, którymi zarządza dla niego synchronizacja.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.opencollectivebacker.delete_description",
+                    "delete_description": "Usuwa rekord darczyńcy Open Collective użytkownika, dzięki czemu synchronizacja o nim zapomina bez ogłaszania zakończenia wspierania."
                 }
             }
         }

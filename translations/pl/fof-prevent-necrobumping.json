@@ -3,27 +3,27 @@
         "forum": {
             "composer": {
                 "inactive_discussion_alert": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
-                    "cta_button": "",
-                    "confirmation": "",
-                    "confirmed": "",
-                    "undo": ""
+                    "title": "Ostatnia odpowiedź w tej dyskusji: {time}.",
+                    "description": "Zastanów się, czy Twoja odpowiedź wnosi coś nowego i czy temat nie został już rozwiązany.",
+                    "cta": "Jeśli masz nowe pytanie lub inne spojrzenie na temat, rozważ rozpoczęcie nowej dyskusji.",
+                    "cta_button": "=> core.ref.start_a_discussion",
+                    "confirmation": "Rozumiem, że ta dyskusja jest nieaktywna, ale moja odpowiedź jest istotna.",
+                    "confirmed": "Odpowiadasz w nieaktywnej dyskusji.",
+                    "undo": "Cofnij"
                 },
-                "error": ""
+                "error": "Ta dyskusja jest zbyt stara, aby można było na nią odpowiedzieć."
             }
         },
         "admin": {
             "settings": {
-                "general_heading": "",
-                "days_label": "",
-                "days_help": "",
-                "show_discussion_cta_label": "",
-                "show_discussion_cta_help": "",
-                "tags_title": "",
-                "tags_help": "",
-                "tags_placeholder": ""
+                "general_heading": "Ustawienia ogólne",
+                "days_label": "Liczba dni, po której dyskusja jest uznawana za nieaktywną",
+                "days_help": "Oznaczaj dyskusje jako nieaktywne po upływie podanej liczby dni od ostatniego posta. Ustaw <code>0</code>, aby domyślnie wyłączyć.",
+                "show_discussion_cta_label": "Pokazuj sugestię „Rozpocznij nową dyskusję”",
+                "show_discussion_cta_help": "Wyświetla sugestię rozpoczęcia nowej dyskusji, gdy użytkownicy próbują odpowiedzieć w nieaktywnej dyskusji.",
+                "tags_title": "Ustawienia dla tagów",
+                "tags_help": "Nadpisz globalny próg nieaktywności dla wybranych tagów. Pozostaw puste, aby użyć wartości domyślnej. Jeśli tagi mają różne wartości, obowiązuje najkrótszy okres.",
+                "tags_placeholder": "Domyślnie"
             }
         }
     }

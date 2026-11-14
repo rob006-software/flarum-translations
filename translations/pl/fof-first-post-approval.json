@@ -2,15 +2,15 @@
     "fof-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Publikowanie bez zatwierdzania pierwszych postów"
             },
             "settings": {
-                "discussionCount": "",
-                "discussionCount_help": "",
-                "postCount": "",
-                "postCount_help": "",
-                "restrictPrivateDiscussions": "",
-                "restrictPrivateDiscussions_help": ""
+                "discussionCount": "Liczba pierwszych dyskusji wymagających zatwierdzenia",
+                "discussionCount_help": "Ustaw 0, aby nowe dyskusje były kierowane do zatwierdzenia na podstawie liczby postów.",
+                "postCount": "Liczba pierwszych postów wymagających zatwierdzenia",
+                "postCount_help": "Gdy zostanie zatwierdzona taka liczba postów użytkownika, jego kolejne posty będą publikowane od razu.",
+                "restrictPrivateDiscussions": "Blokuj dyskusje prywatne do czasu zatwierdzenia",
+                "restrictPrivateDiscussions_help": "Dyskusji prywatnych nie można kierować do zatwierdzenia, dlatego użytkownicy, których nadal obejmuje zatwierdzanie pierwszych postów, nie mogą ich rozpoczynać. Wyłącz tę opcję, aby mogli swobodnie rozpoczynać dyskusje prywatne."
             }
         }
     }
