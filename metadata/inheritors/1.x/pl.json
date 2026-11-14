@@ -1299,6 +1299,165 @@
             }
         }
     },
+    "flarum-extension-manager.json": {
+        "flarum-extension-manager": {
+            "admin": {
+                "auth_config": {
+                    "add_label": "5981e1f204152a74c8a640532740dff0 5981e1f204152a74c8a640532740dff0",
+                    "add_modal": {
+                        "host_label": "c2ca16d048ec66e04bca283eab048ec2 c2ca16d048ec66e04bca283eab048ec2",
+                        "submit_button": "eefd425221c5c9e9d0d8b6e8bb7a90c4 eefd425221c5c9e9d0d8b6e8bb7a90c4",
+                        "token_label": "459a6f79ad9b13cbcb5f692d2cc7a94d 459a6f79ad9b13cbcb5f692d2cc7a94d",
+                        "type_label": "c2ea84331318265913c436726c9c4ff3 c2ea84331318265913c436726c9c4ff3",
+                        "unchanged_token_placeholder": "4f24ac88479f2c790c5f943dc345cbc6 4f24ac88479f2c790c5f943dc345cbc6"
+                    },
+                    "delete_confirmation": "e68074c4df0e81425edf557e62252f23 e68074c4df0e81425edf557e62252f23",
+                    "delete_label": "39f14a994c4cb3a08367e8eb5f7d006e 39f14a994c4cb3a08367e8eb5f7d006e",
+                    "edit_label": "f229ce763567c1cb8a3d82dba485c6a0 f229ce763567c1cb8a3d82dba485c6a0",
+                    "fields": {
+                        "host": "c2ca16d048ec66e04bca283eab048ec2 c2ca16d048ec66e04bca283eab048ec2",
+                        "token": "459a6f79ad9b13cbcb5f692d2cc7a94d 459a6f79ad9b13cbcb5f692d2cc7a94d"
+                    },
+                    "no_auth_methods_configured": "cbd324a81f92209241f92ba0e9521b6b cbd324a81f92209241f92ba0e9521b6b",
+                    "remove_button_label": "39f14a994c4cb3a08367e8eb5f7d006e 39f14a994c4cb3a08367e8eb5f7d006e",
+                    "title": "bd344273da814e7f8326f68e8980f2b0 bd344273da814e7f8326f68e8980f2b0",
+                    "types": {
+                        "bearer": "0920df081a5d6e8d4df2ff3d4dbf7940 0920df081a5d6e8d4df2ff3d4dbf7940",
+                        "github-oauth": "fa8aeeb77b9b878993d8ec990ff89f55 fa8aeeb77b9b878993d8ec990ff89f55",
+                        "gitlab-oauth": "d91a50b3f9fc790ed6ae0358fdf6aae5 d91a50b3f9fc790ed6ae0358fdf6aae5",
+                        "gitlab-token": "89c17be95128c3492b7a6758a8e7e767 89c17be95128c3492b7a6758a8e7e767"
+                    }
+                },
+                "composer": {
+                    "add_repository_label": "788104967a8a6689d43a6e580f16d797 788104967a8a6689d43a6e580f16d797",
+                    "delete_repository_confirmation": "a28ab3964e865ffed93de8a18220f5a8 a28ab3964e865ffed93de8a18220f5a8",
+                    "delete_repository_label": "2a8f860d457cab347cd4a679e0f69399 2a8f860d457cab347cd4a679e0f69399",
+                    "edit_repository_label": "b8ee21b8e166ebfe31e4f60515efd00d b8ee21b8e166ebfe31e4f60515efd00d",
+                    "minimum_stability": {
+                        "help": "9dc3f96a555990a63bf6b40032fa72f8 9dc3f96a555990a63bf6b40032fa72f8",
+                        "label": "c01c42faf49895763cba89178666428c c01c42faf49895763cba89178666428c",
+                        "options": {
+                            "alpha": "a8a465b0e352a8e6328b39a0902597dd a8a465b0e352a8e6328b39a0902597dd",
+                            "beta": "0b87d66b88c72957dfea8c9605016442 0b87d66b88c72957dfea8c9605016442",
+                            "dev": "666a74806d90967ab32ffbc6af369370 666a74806d90967ab32ffbc6af369370",
+                            "rc": "de6f1a5587173063e6e83d7cfab3d7f5 de6f1a5587173063e6e83d7cfab3d7f5",
+                            "stable": "af3eadca7f657be9984934c4dd1225c2 af3eadca7f657be9984934c4dd1225c2"
+                        }
+                    },
+                    "repositories": {
+                        "add_modal": {
+                            "name_label": "2117322584447a811fefe2832d7dbf97 2117322584447a811fefe2832d7dbf97",
+                            "submit_button": "eefd425221c5c9e9d0d8b6e8bb7a90c4 eefd425221c5c9e9d0d8b6e8bb7a90c4",
+                            "type_label": "c2ea84331318265913c436726c9c4ff3 c2ea84331318265913c436726c9c4ff3",
+                            "url": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d"
+                        },
+                        "help": "1401d19096069a698ec93ccb225cabc2 1401d19096069a698ec93ccb225cabc2",
+                        "label": "9b8d1f97617a6d890919ab4098754bf3 9b8d1f97617a6d890919ab4098754bf3",
+                        "types": {
+                            "composer": "180b81a58ca6dde990aba761b7299f43 180b81a58ca6dde990aba761b7299f43",
+                            "path": "d6fe1d0be6347b8ef2427fa629c04485 d6fe1d0be6347b8ef2427fa629c04485",
+                            "vcs": "d6bfe3ce1bf5714887f4ffbb7b94feab d6bfe3ce1bf5714887f4ffbb7b94feab"
+                        }
+                    },
+                    "title": "bcba235aa0401fd10464df6afbfaab77 bcba235aa0401fd10464df6afbfaab77"
+                },
+                "exceptions": {
+                    "composer_command_failure": "be37647cf9dca80b21da49475b54b465 be37647cf9dca80b21da49475b54b465",
+                    "extension_already_installed": "d64a9b8ca55da7d5aa5e6c2d90d11379 d64a9b8ca55da7d5aa5e6c2d90d11379",
+                    "extension_not_directly_dependency": "599a76980ae956e4fb19111f195149cf 599a76980ae956e4fb19111f195149cf",
+                    "extension_not_installed": "e0faf324723af50c4dc0308d8f9c348b e0faf324723af50c4dc0308d8f9c348b",
+                    "guessed_cause": {
+                        "extension_incompatible_with_instance": "7f53d34bfcf2c3c162866ebd5c5022f7 7f53d34bfcf2c3c162866ebd5c5022f7",
+                        "extension_not_found": "9736bfb8691d7c816db1d8dd0d3407de 9736bfb8691d7c816db1d8dd0d3407de",
+                        "extensions_incompatible_with_new_major": "3e3a8e511f824d905e8d302599782ecc 3e3a8e511f824d905e8d302599782ecc"
+                    }
+                },
+                "extensions": {
+                    "check_why_it_failed_updating": "cb543f078d517b10aecc9c27d99375de cb543f078d517b10aecc9c27d99375de",
+                    "install": "e12a9fd93b3cc4bcf3ebcb5022f940ed e12a9fd93b3cc4bcf3ebcb5022f940ed",
+                    "proceed": "5a3d6e2371e1737a3ede8af0a766f74c 5a3d6e2371e1737a3ede8af0a766f74c",
+                    "remove": "752a597b3fdd8fda26ce656cb33355dd 752a597b3fdd8fda26ce656cb33355dd",
+                    "successful_install": "6fd8fc50bab813443de409104a14816b 6fd8fc50bab813443de409104a14816b",
+                    "successful_remove": "6ffa85f3a8ccd4cfe213761774446838 6ffa85f3a8ccd4cfe213761774446838",
+                    "successful_update": "24c1f67b3bc60640f3db9a9a6af3c18c 24c1f67b3bc60640f3db9a9a6af3c18c",
+                    "update": "c214ec98a3dd92a8cd0ecc6bdc301975 c214ec98a3dd92a8cd0ecc6bdc301975",
+                    "update_hard_label": "97b49ed71e4145a5dc4942a11ac5e1f7 97b49ed71e4145a5dc4942a11ac5e1f7",
+                    "update_soft_label": "a18c107b38fd086b024591fdf6c4a78f a18c107b38fd086b024591fdf6c4a78f"
+                },
+                "file_permissions": "ef508238be958d1f8a567e3ff408f7c3 ef508238be958d1f8a567e3ff408f7c3",
+                "major_updater": {
+                    "description": "ef2a64b93c45af20e2acc67aa5c70b70 ef2a64b93c45af20e2acc67aa5c70b70",
+                    "dry_run": "1a9613074d74ac155e5ddbbeefb18819 1a9613074d74ac155e5ddbbeefb18819",
+                    "dry_run_help": "e407fd0148e8fbb7ac32554f2f388e95 e407fd0148e8fbb7ac32554f2f388e95",
+                    "failure": {
+                        "desc": "25ef2939340b2d6869abb3bea8fb88a3 25ef2939340b2d6869abb3bea8fb88a3",
+                        "why": "3b537b203371254aa2ffad9c5140fcba 3b537b203371254aa2ffad9c5140fcba"
+                    },
+                    "title": "9416403bdf555e4f302524fbd8066438 9416403bdf555e4f302524fbd8066438",
+                    "update": "c214ec98a3dd92a8cd0ecc6bdc301975 c214ec98a3dd92a8cd0ecc6bdc301975"
+                },
+                "sections": {
+                    "queue": {
+                        "columns": {
+                            "details": "d9e67296d112dda9d010a257d6d26711 d9e67296d112dda9d010a257d6d26711",
+                            "elapsed_time": "222f45574bc61682c9211f9113f9bf92 222f45574bc61682c9211f9113f9bf92",
+                            "operation": "93efbecd0e2acffca13f088099255bb5 93efbecd0e2acffca13f088099255bb5",
+                            "package": "e46666d3a5f02c2f6fe7b3be421fae67 e46666d3a5f02c2f6fe7b3be421fae67",
+                            "peak_memory_used": "759a61bf5c98938319d8c11b74ec739e 759a61bf5c98938319d8c11b74ec739e",
+                            "status": "ec53a8c4f07baed5d8825072c89799be ec53a8c4f07baed5d8825072c89799be"
+                        },
+                        "none": "e523f88eed7ffad872fe73425bd000f3 e523f88eed7ffad872fe73425bd000f3",
+                        "operations": {
+                            "extension_install": "ce3a43fdb4ab2286632ddf5929ac14af ce3a43fdb4ab2286632ddf5929ac14af",
+                            "extension_remove": "afb9b4e8d622ce404245e97f8c743e94 afb9b4e8d622ce404245e97f8c743e94",
+                            "extension_update": "903f4b01b67c4ffd17ec372de0a5bd44 903f4b01b67c4ffd17ec372de0a5bd44",
+                            "update_check": "fad3c82f81cc79acc3d7781e9a6bbb14 fad3c82f81cc79acc3d7781e9a6bbb14",
+                            "update_global": "2fd9f16191e73f0cca48bfda56af4f4e 2fd9f16191e73f0cca48bfda56af4f4e",
+                            "update_major": "da4e707f26aa92be1614f9b53248cc5e da4e707f26aa92be1614f9b53248cc5e",
+                            "update_minor": "7404210713b3814465e6a847df0e33d2 7404210713b3814465e6a847df0e33d2",
+                            "why_not": "d449720121786c68dd52aa4463799a12 d449720121786c68dd52aa4463799a12"
+                        },
+                        "output_modal": {
+                            "cause_unknown": "45833f44d24e4bbb05fa6ddea119489f 45833f44d24e4bbb05fa6ddea119489f",
+                            "command": "103514099a9885cdd326c9a58d6a3ca9 103514099a9885cdd326c9a58d6a3ca9",
+                            "guessed_cause": "f166a9c53db662a598e3b0226e4b2cda f166a9c53db662a598e3b0226e4b2cda",
+                            "output": "8cbcb76a7aeea965266bf7abc418ffdc 8cbcb76a7aeea965266bf7abc418ffdc"
+                        },
+                        "refresh": "0975a674030a4e22586a93a46e7c4cf8 0975a674030a4e22586a93a46e7c4cf8",
+                        "statuses": {
+                            "failure": "f05c9289f7df4c7a65b9ddaa70acc11a f05c9289f7df4c7a65b9ddaa70acc11a",
+                            "pending": "9061e5ac4efa6729c347e59b8886b0f1 9061e5ac4efa6729c347e59b8886b0f1",
+                            "running": "0138367de0c4ecb780b5e13e5e8a853f 0138367de0c4ecb780b5e13e5e8a853f",
+                            "success": "199c9bf8e1ad6cb9dc326604e35f090f 199c9bf8e1ad6cb9dc326604e35f090f"
+                        },
+                        "task_just_started": "c87eff0c05e32ba4e5eccff6a3ff1f97 c87eff0c05e32ba4e5eccff6a3ff1f97",
+                        "title": "7b024967b40eb766dc5b086d694b6350 7b024967b40eb766dc5b086d694b6350"
+                    }
+                },
+                "settings": {
+                    "access_warning": "ac3a903c53dec76285a617c4f22d36f7 ac3a903c53dec76285a617c4f22d36f7",
+                    "debug_mode_warning": "45654454ad4c4eb0774f4195635a6489 45654454ad4c4eb0774f4195635a6489",
+                    "queue_jobs": "c79dd97d462ef055497877defbff5737 c79dd97d462ef055497877defbff5737",
+                    "task_retention_days": "5875fe59ca140ebd402f2873e6af5653 5875fe59ca140ebd402f2873e6af5653",
+                    "task_retention_days_help": "9f151d6cded736b5a5c3939860e0178f 9f151d6cded736b5a5c3939860e0178f",
+                    "title": "0ca86c85cafc43a4dbda7ed0736850c0 0ca86c85cafc43a4dbda7ed0736850c0"
+                },
+                "update_successful": "acc9b26f79c1f50a939b5da211c89176 acc9b26f79c1f50a939b5da211c89176",
+                "updater": {
+                    "check_for_updates": "208fa3c9e75deb0b7132c15532acda28 208fa3c9e75deb0b7132c15532acda28",
+                    "flarum": "acbc12048cdf2a4d173a74912e984db9 acbc12048cdf2a4d173a74912e984db9",
+                    "global_update_successful": "1267b0c3a28301c8efcebecc8e305304 1267b0c3a28301c8efcebecc8e305304",
+                    "last_update_checked_at": "3a68419288598858af72c8b89a4d6e6f 3a68419288598858af72c8b89a4d6e6f",
+                    "run_global_update": "2bb06a03cddc5329caf48f2e742995a9 2bb06a03cddc5329caf48f2e742995a9",
+                    "updater_help": "3e90b7162e4be2ce441cf1c20d5db4b2 3e90b7162e4be2ce441cf1c20d5db4b2",
+                    "updater_title": "98f71b9ff6a9bef2ac8b63d2aaed51cf 98f71b9ff6a9bef2ac8b63d2aaed51cf"
+                },
+                "why_not_modal": {
+                    "title": "e10948adf2237154bc1354b20bc95424 e10948adf2237154bc1354b20bc95424"
+                }
+            }
+        }
+    },
     "flarum-flags.json": {
         "flarum-flags": {
             "admin": {
@@ -1684,7 +1843,7 @@
                     "set_on_registration_label": "01ea4a3fdf5ca31a5f271927cf8bc6bc 01ea4a3fdf5ca31a5f271927cf8bc6bc",
                     "unique_label": "bc019be76a5e0403bc061819e157fe18 bc019be76a5e0403bc061819e157fe18"
                 },
-                "wrong_driver": "62a110ff8837ad6b0a199a2ffdabfe4b 62a110ff8837ad6b0a199a2ffdabfe4b"
+                "wrong_driver": "62a110ff8837ad6b0a199a2ffdabfe4b ffbb8cdcbe890d74ebbb630bb3294327"
             },
             "api": {
                 "invalid_nickname_message": "0370a5cf1be5a9467c3453a9dda7cd3f 0370a5cf1be5a9467c3453a9dda7cd3f"
@@ -1771,6 +1930,9 @@
             "admin": {
                 "permissions": {
                     "sticky_discussions_label": "1ab73f72c8eb9bdf82c5199f897b2df6 1ab73f72c8eb9bdf82c5199f897b2df6"
+                },
+                "settings": {
+                    "pin_sticky_on_all_discussions_label": "3532ab40b484a40a081205af7cc12325 3532ab40b484a40a081205af7cc12325"
                 }
             },
             "forum": {
