@@ -16,13 +16,13 @@
                 "url_description": "Zostaw puste, aby wyświetlić jako etykietę.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
-                "use_rel_me": "",
+                "use_rel_me": "Dodaj atrybut <code>rel=\"me\"</code> do weryfikacji tożsamości na innych stronach",
                 "visibility": "Widoczność linka",
-                "visibility.help": "",
-                "visibility.help-disabled": "",
-                "visibility.label": "",
-                "visibility.guest-only.label": "",
-                "visibility.guest-only.help": "",
+                "visibility.help": "Domyślnie linki są widoczne tylko dla użytkowników z grupy <code>{admin}</code>. Dostosuj uprawnienia, aby określić, kto może widzieć ten link.",
+                "visibility.help-disabled": "Zapisz link przed zmianą ustawień widoczności.",
+                "visibility.label": "Widoczność linku",
+                "visibility.guest-only.label": "Tylko {guest}?",
+                "visibility.guest-only.help": "Tylko {guest} mogą widzieć ten link. Powyższe uprawnienie powinno być ustawione na „{everyone}”.",
                 "everyone-label": "Wszyscy",
                 "guests-label": "Goście",
                 "members-label": "Zarejestrowani użytkownicy"
@@ -30,7 +30,7 @@
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
                 "links": "=> fof-links.ref.links",
-                "preconfigured": ""
+                "preconfigured": "Linki na tym forum zostały wstępnie skonfigurowane i nie można ich tutaj edytować."
             },
             "settings": {
                 "show_icons_only_on_tablet": "Wyświetlaj tylko ikonki na tabletowych rozdzielczościach",
