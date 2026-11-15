@@ -309,7 +309,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/greeter/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-group-messages' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/group-messages/2.1.2/locale/en.yml',
 	],
 	'ernestdefoe-hangout' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hangout/1.1.0/locale/en.yml',
