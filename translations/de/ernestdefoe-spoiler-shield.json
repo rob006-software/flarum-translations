@@ -3,19 +3,19 @@
         "lib": {
             "placeholder": "Spoiler für {label} ({work})",
             "placeholder_unnamed": "Spoiler für {label}",
-            "later": "",
+            "later": "später bei",
             "finished": "Abgeschlossen",
             "season": "Staffel {number}",
             "chapter": "Kapitel {number}",
             "gdpr": {
-                "export": "",
-                "delete": ""
+                "export": "Wie weit du in den einzelnen Büchern, Serien und Spielen schon bist und welche Spoiler du preisgeben möchtest.",
+                "delete": "Deine Orte und Enthüllungen werden gelöscht. Bücher, Sendungen und Spiele, die du hinzugefügt hast, bleiben erhalten – allerdings ohne deinen Namen."
             }
         },
         "api": {
             "invalid_work": "Dieses Buch, Fernsehserie oder Spiel existiert nicht.",
-            "invalid_position": "",
-            "invalid_quote_other_work": ""
+            "invalid_position": "Dieser Eintrag ist in der Liste für dieses Buch, diese Sendung oder dieses Spiel nicht enthalten.",
+            "invalid_quote_other_work": "Diese Antwort enthält bereits Spoiler zu einem Buch, einer Sendung oder einem Spiel, daher können darin keine Spoiler aus einem anderen Werk zitiert werden. Verfasse für dieses Zitat bitte eine eigene Antwort."
         },
         "forum": {
             "veil": {
@@ -24,23 +24,23 @@
                 "tap": "Zum Aufdecken antippen",
                 "revealing": "Wird aufgedeckt…",
                 "reveal_label": "Diesen Spoiler für {label} in {work} aufdecken",
-                "guest": "",
+                "guest": "Melde dich an und gib an, wie weit du schon gekommen bist – dann werden alle Inhalte freigeschaltet, die du bereits erreicht hast.",
                 "set_progress": "Wie weit bist du gekommen",
                 "you_are_at": "Du bist bei {label}. Ändern",
-                "offer": ""
+                "offer": "Du hast das in deiner Sammlung abgeschlossen: Schalte alles frei"
             },
             "mark": {
                 "title": "Spoiler bis hier in {work}",
                 "revealed": "{label} (aufgedeckt)",
                 "discussion_title": "Spoilermarkierung",
-                "discussion_help": "",
-                "reply_title": "",
-                "reply_help": "",
+                "discussion_help": "Wie weit reicht diese Diskussion? Mitglieder, die noch nicht so weit gekommen sind, sehen das Ganze verschwommen.",
+                "reply_title": "Spoiler in deiner Antwort",
+                "reply_help": "Antworten werden bis zu der Stelle angezeigt, an der du dich gerade in {work} befindest, sodass Nutzer, die noch nicht so weit sind, sie unscharf sehen. Wähle eine andere Stelle aus, wenn deine Antwort dies nicht erfordert.",
                 "search": "Finde ein Buch, eine Fernsehserie oder ein Spiel",
                 "none_found": "Unter diesem Namen wurde nichts gefunden.",
                 "other_work": "Wähle etwas anderes aus",
                 "use": "",
-                "no_mark": "",
+                "no_mark": "Keine Spoilermarkierung",
                 "nothing_past": "",
                 "automatic": "",
                 "define": ""
