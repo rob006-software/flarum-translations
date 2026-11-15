@@ -1208,6 +1208,7 @@ return [
 		'__builtInLanguages' => ['tr'],
 	],
 	'prm-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/71250f6f84a32c7a3a0a6b025f6bbebaf1a91237/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
 	'proxytracer-proxytracer' => [
