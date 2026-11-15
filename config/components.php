@@ -355,16 +355,7 @@ return [
 	],
 	'zerosonesfun-sound-system' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-sound-system/2.0.3/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ar',
-			'de',
-			'es',
-			'fr',
-			'hi',
-			'ja',
-			'nl',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['ar', 'de', 'es', 'fr', 'hi', 'ja', 'nl', 'zh_Hans'],
 	],
 	/* extensions list end */
 ];
