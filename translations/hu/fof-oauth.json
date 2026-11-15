@@ -19,14 +19,14 @@
                 "oauth_only_help": "Ha ez a beállítás engedélyezve van, a tagok többé nem tudnak jelszóval bejelentkezni, regisztrálni vagy jelszót visszaállítani; ehelyett a engedélyezett szolgáltatókat kell használniuk. A rendszergazdák továbbra is jelszóval tudnak bejelentkezni a bejelentkezési ablakban található „Rendszergazdai bejelentkezés” hivatkozás segítségével. A már regisztrált tagok, akiknek még nincs összekapcsolt szolgáltatójuk, az első szolgáltatói bejelentkezéskor lesznek összekapcsolva, amennyiben a szolgáltató megerősíti ugyanazt az e-mail-címet; mindenki másnak rendszergazdai segítségére lesz szüksége. Ha nincs engedélyezett szolgáltató, ennek a beállításnak nincs hatása. Az „Engedélyek” menüpontban a „Regisztráció” beállítást hagyja „Nyitva” állapotban, ellenkező esetben az új tagok szolgáltatón keresztül sem tudnak regisztrálni.\n",
                 "oauth_only_sign_up_closed_warning": "A regisztráció Zárva értékre van állítva az <a>Engedélyekben</a>. A Flarum ezt a beállítást használja a szolgáltatói regisztrációkra is, így míg zárva van, senki sem csatlakozhat.",
                 "disable_avatars_label": "Szolgáltatótól származó profilképek letiltása",
-                "disable_avatars_help": "Ha engedélyezve van, akkor a felhasználó profilképe nem lesz frissítve, hogy regisztrációkor megegyezzen a szolgáltatóval tárolttal. Ez csak a jövőbeli regisztrációkat érinti, a meglévő felhasználók profilképén nem változtat.\n",
+                "disable_avatars_help": "Alapértelmezés szerint a szolgáltatón keresztül regisztráló tagok onnan kapják a profilképüket, és a profilképpel nem rendelkező tagok is megkapják a profilképüket, ha egy szolgáltatót kapcsolnak össze a fiókjukkal. Ha be van kapcsolva, a szolgáltatói profilképek sosem lesznek használva. A profilképpel már rendelkező tagokat nem érinti a változás.\n",
                 "providers": {
-                    "callback_url_text": "Ha szükséges, akkor állítsa a visszahívási URL-t erre: {url}.",
+                    "callback_url_text": "Ha szükséges, akkor állítsa a visszahívási webcímet erre: {url}.",
                     "group_label": "Csoport hozzárendelése",
                     "group_help": "Válasszon egy automatikusan hozzárendelendő csoportot az ezen a szolgáltatón keresztül regisztráló felhasználókhoz.",
                     "no_group_label": "Nincs csoport-hozzárendelés",
                     "discord": {
-                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja meg az átirányítási URL-t az OAuth2 lapon.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja hozzá az átirányítási webcímet az OAuth2 lapon.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
@@ -36,10 +36,10 @@
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "flarum": {
-                        "description": "",
-                        "forum_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Tegye lehetővé, hogy a tagok egy másik Flarum fórumon lévő fiókjukkal jelentkezzenek be. Annak a fórumnak az OAuth szolgáltató bővítményre van szüksége ({link}). Az adminisztrációs oldalon adjon hozzá egy klienst a lenti visszahívási webcímmel, és másolja ide a kliensazonosítóját és -titkát.",
+                        "forum_url_label": "Fórum webcíme (például https://discuss.example.com)",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Hozzon létre egy OAuth alkalmazást itt: {link}.",
@@ -50,7 +50,7 @@
                         "description": "Hozza létre az alkalmazást itt: {link}. Adjon az alkalmazásnak <code>read_user</code> hatókört.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
-                        "domain_label": "GitLab domén"
+                        "domain_label": "GitLab domain"
                     },
                     "google": {
                         "description": "Hozzon létre egy alkalmazást itt: {link}.",
@@ -85,7 +85,7 @@
                 "with_button": "Bejelentkezés ezzel: {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
-                "with_flarum_button": "",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -109,7 +109,7 @@
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
-                "flarum": "",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "=> fof-oauth.lib.providers.github",
                 "gitlab": "=> fof-oauth.lib.providers.gitlab",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -129,7 +129,7 @@
                 "bad_verification_code": "Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.",
                 "invalid_state": "Érvénytelen állapot. Próbálja újra.",
                 "already_linked": "Ez a fiók már hozzá van kapcsolva egy másik felhasználóhoz.",
-                "provider_misconfigured": ""
+                "provider_misconfigured": "Ez a bejelentkezési mód nincs helyesen beállítva. Vegye fel a kapcsolatot a fórum adminisztrátoraival."
             }
         },
         "email": {
@@ -142,7 +142,7 @@
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
-                "flarum": "",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
