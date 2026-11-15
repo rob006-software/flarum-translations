@@ -1,0 +1,12 @@
+{
+    "ekumanov-cls-fix": {
+        "admin": {
+            "settings": {
+                "unwrapped_images_label": "Unwrapped images (lightbox compatibility mode)",
+                "unwrapped_images_help": "Off by default. Turn this on only if a lightbox or gallery extension (for example Fancybox) doesn't work with CLS Fix. Images are then rendered without the wrapper element CLS Fix normally places around them, and space is still reserved before they load. After changing this, run \"php flarum cache:clear\" (and purge your CDN cache, if you use one) so pages that are already cached pick up the new markup.",
+                "gallery_hint_fancybox": "{extension} is enabled. Turn on Unwrapped images below so its carousels work.",
+                "gallery_hint_post_galleries": "{extension} is enabled. Turn on Unwrapped images below so its galleries work."
+            }
+        }
+    }
+}
