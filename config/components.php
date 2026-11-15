@@ -363,7 +363,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/latest-replies/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-lectern' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lectern/1.2.2/locale/en.yml',
 	],
 	'ernestdefoe-lobby' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/lobby/1.0.4/locale/en.yml',
