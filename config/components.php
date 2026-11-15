@@ -285,7 +285,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/folio/1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-forum-pet' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/forum-pet/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/forum-pet/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-garage' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/garage/1.2.3/locale/en.yml',
