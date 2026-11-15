@@ -1208,8 +1208,14 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`pianotell-flamoji`](https://weblate.rob006.net/projects/flarum2/pianotell-flamoji) | [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji) |
 | [`prm-analytics`](https://weblate.rob006.net/projects/flarum2/prm-analytics) | [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) |
 | [`prm-forum-activity`](https://weblate.rob006.net/projects/flarum2/prm-forum-activity) | [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) |
+| [`prm-hero-image`](https://weblate.rob006.net/projects/flarum2/prm-hero-image) | [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) |
+| [`prm-messages`](https://weblate.rob006.net/projects/flarum2/prm-messages) | [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) |
 | [`prm-moderation`](https://weblate.rob006.net/projects/flarum2/prm-moderation) | [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) |
 | [`prm-notification`](https://weblate.rob006.net/projects/flarum2/prm-notification) | [`prm/notification`](https://github.com/smmpanelscripts1/prm-notification) |
+| [`prm-rank-banner`](https://weblate.rob006.net/projects/flarum2/prm-rank-banner) | [`prm/rank-banner`](https://github.com/smmpanelscripts1/prm-rank-banner) |
+| [`prm-security`](https://weblate.rob006.net/projects/flarum2/prm-security) | [`prm/security`](https://github.com/smmpanelscripts1/prm-security) |
+| [`prm-sleek-dark`](https://weblate.rob006.net/projects/flarum2/prm-sleek-dark) | [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) |
+| [`prm-trade-feedback`](https://weblate.rob006.net/projects/flarum2/prm-trade-feedback) | [`prm/trade-feedback`](https://github.com/smmpanelscripts1/prm-trade-feedback) |
 | [`proxytracer-proxytracer`](https://weblate.rob006.net/projects/flarum2/proxytracer-proxytracer) | [`proxytracer/flarum-proxytracer`](https://github.com/ProxyTracer/flarum-proxytracer) |
 | [`quasimo-carousel-grids`](https://weblate.rob006.net/projects/flarum2/quasimo-carousel-grids) | [`quasimo/flarum-ext-carousel-grids`](https://github.com/Quasimo/flarum-ext-carousel-grids) |
 | [`quasimo-llms-txt`](https://weblate.rob006.net/projects/flarum2/quasimo-llms-txt) | [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt) |
