@@ -435,7 +435,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.6.2/resources/locale/en.yml',
 	],
 	'ernestdefoe-question-of-the-day' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/question-of-the-day/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/question-of-the-day/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-quickdraw' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.6/locale/en.yml',
