@@ -1203,6 +1203,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/ab7c2b8c6ddb4cb5e4caae00499723d361a64bc5/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'prm-hero-image' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-hero-image/864885fc34f34a9b135b87a856c58f4ee49ed5d0/locale/en.yml',
+		'__builtInLanguages' => ['tr'],
+	],
 	'prm-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/1378ca5459fd10c6dbea5c3695e3632f83752187/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
