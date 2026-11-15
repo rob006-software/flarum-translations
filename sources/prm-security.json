@@ -1,0 +1,23 @@
+{
+    "prm-security": {
+        "admin": {
+            "settings": {
+                "provider_label": "Captcha provider",
+                "provider_help": "Choose which challenge visitors must complete on login and registration. Leave Off until you paste keys.",
+                "provider_none": "Off",
+                "provider_recaptcha": "Google reCAPTCHA v2",
+                "provider_hcaptcha": "hCaptcha",
+                "provider_turnstile": "Cloudflare Turnstile",
+                "site_key_label": "Site key",
+                "site_key_help": "Public key from the provider dashboard. Safe to show in the browser.",
+                "secret_key_label": "Secret key",
+                "secret_key_help": "Private key. Never share this. Get keys from Google reCAPTCHA, hCaptcha, or Cloudflare Turnstile.",
+                "on_login_label": "Require on login",
+                "on_register_label": "Require on registration"
+            }
+        },
+        "forum": {
+            "invalid": "Please complete the captcha and try again."
+        }
+    }
+}

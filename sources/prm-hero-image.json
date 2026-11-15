@@ -1,0 +1,24 @@
+{
+    "prm-hero-image": {
+        "admin": {
+            "title": "Homepage image",
+            "help": "Replaces the welcome banner with an image of the same size and a light dark overlay.",
+            "profile_help": "Let groups change their own profile cover from the Permissions tab. Uploaded images are re-encoded on the server.",
+            "upload_label": "Image",
+            "upload_help": "PNG, JPG, GIF, or WEBP. Max 3 MB. A wide landscape image works best.",
+            "upload_button": "Upload image",
+            "remove_button": "Remove image",
+            "overlay_label": "Overlay",
+            "overlay_help": "Higher values make the image darker.",
+            "preview_empty": "No image yet.",
+            "saved": "Saved",
+            "permissions": {
+                "profile_hero_label": "Upload profile cover image"
+            }
+        },
+        "forum": {
+            "upload": "Upload cover image",
+            "remove": "Remove cover image"
+        }
+    }
+}
