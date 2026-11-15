@@ -1204,6 +1204,7 @@ return [
 		'__builtInLanguages' => ['tr'],
 	],
 	'prm-moderation' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/1378ca5459fd10c6dbea5c3695e3632f83752187/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
 	'prm-notification' => [
