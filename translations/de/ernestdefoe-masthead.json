@@ -2,8 +2,8 @@
     "ernestdefoe-masthead": {
         "forum": {
             "compose": "Diskussion starten",
-            "views": "",
-            "last_reply": "",
+            "views": "{count, plural, one {# Aufruf} other {# Aufrufe}}",
+            "last_reply": "Letzte Antwort von {name} {time}",
             "strip": {
                 "online": "{count, plural, one {# Mitglied online} other {# Mitglieder online}}"
             },
@@ -75,7 +75,7 @@
                 "started": "Gestartet",
                 "last_reply": "Letzte Antwort",
                 "replies": "Antworten",
-                "views": "",
+                "views": "Aufrufe",
                 "participants_label": "Teilnehmer",
                 "more_in": "Mehr in {tag}"
             }
@@ -154,7 +154,7 @@
                 "show_name_label": "Forennamen neben dem Logo anzeigen",
                 "show_name_help": "Standardmäßig deaktiviert, da die meisten Logos den Namen bereits enthalten. Ohne Logo wird der Name immer angezeigt. Die Kopfzeile ist in beiden Farbmodi dunkel. Wenn du unter „Aussehen“ ein Logo für den dunklen Modus hochgeladen hast, wird dieses verwendet.",
                 "pin_header_label": "Die Kopfzeile auf Computern im Sichtbereich behalten",
-                "pin_header_help": "Die Leiste mit dem Logo, den Links und der Suchfunktion bleibt beim Scrollen der Seite am oberen Rand des Fensters stehen, sodass die Seiten des Forums immer nur einen Klick entfernt sind. Der Streifen darüber wird beim Scrollen ausgeblendet. Auf Smartphones bleibt die eigene obere Leiste immer sichtbar.",
+                "pin_header_help": "Die Kopfzeile bleibt beim Scrollen am oberen Rand des Fensters stehen und wird zu einer kompakten Leiste verkleinert, sodass die Seiten des Forums, Benachrichtigungen und dein Profil immer nur einen Klick entfernt sind. In einer Diskussion ersetzt der Titel der Diskussion das Datum, sobald du darüber hinaus scrollst. Auf Smartphones bleibt die eigene obere Leiste immer erhalten.",
                 "fonts_label": "Schriftarten des Themes verwenden",
                 "fonts_help": "Barlow Condensed für Überschriften und Figtree für Texte. Die Schriftarten werden von deinem eigenen Forum bereitgestellt. Deaktiviere diese Option, um stattdessen die Systemschriftarten der Leser zu verwenden."
             },
@@ -178,8 +178,8 @@
                 "fill_help": "Wenn diese Option deaktiviert ist, werden bei einer Quelle mit weniger als vier Inhalten nur die vorhandenen angezeigt. Ist sie aktiviert, werden die übrigen Plätze mit den neuesten Diskussionen aus beliebigen Tags aufgefüllt.",
                 "tags_label": "Tag bei jedem Inhalt anzeigen",
                 "tags_help": "Zeigt den Tag-Namen auf dem hervorgehobenen Inhalt und über den Inhalten daneben an. Deaktiviere diese Option für eine aufgeräumtere Darstellung. Die Tag-Farben der Inhalte bleiben erhalten.",
-                "last_reply_label": "",
-                "last_reply_help": "",
+                "last_reply_label": "Anzeigen, wer zuletzt geantwortet hat",
+                "last_reply_help": "Wer hat die letzte Antwort verfasst, mit einem Link zu seinem Profil, und wie lange das her ist – in den Hervorgehobenen Diskussionen und unter „Neueste Diskussionen“. Wird angezeigt, sobald eine Diskussion eine Antwort enthält.",
                 "type_label": "Inhaltstyp aus Page Builder",
                 "type_help": "Die URL-Kennung des Inhaltstyps, dessen Einträge hervorgehoben werden sollen, z. B. articles."
             },
@@ -198,8 +198,8 @@
                 "polls_help": "Entweder direkt im Beitrag, wie von fof/polls dargestellt, oder in der Seitenleiste unter „Über diese Diskussion“, damit der Artikel nicht unterbrochen wird. Die Seitenleiste wird nur auf breiten Bildschirmen angezeigt; auf Smartphones und in schmalen Fenstern bleibt die Umfrage im Beitrag. Umfragen in Antworten bleiben immer in der jeweiligen Antwort.",
                 "polls_post": "Im Beitrag",
                 "polls_sidebar": "In der Seitenleiste",
-                "views_label": "",
-                "views_help": ""
+                "views_label": "Anzahl der Aufruf anzeigen",
+                "views_help": "Wie oft jede Diskussion aufgerufen wurde, angezeigt durch ein Auge neben der Anzahl der Antworten: bei den hervorgehobenen Diskussionen, den „Neuesten Diskussionen“, in der Autorenzeile einer Diskussion sowie unter „Über diese Diskussion“ und „Mehr in“. Die Zahlen stammen aus den „FoF Discussion Views“ (einschließlich der vom Importer übernommenen); diese Einstellung wird nur angezeigt, solange sie aktiviert ist."
             },
             "portal": {
                 "tag_count_label": "Bereiche im Raster",

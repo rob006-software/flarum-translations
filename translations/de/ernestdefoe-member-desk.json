@@ -5,20 +5,20 @@
                 "title": "Benutzer",
                 "description": "Mitgliederverwaltung: Finde, durchsuche und verwalte eure Mitglieder.",
                 "member_title": "Mitglied",
-                "member_description": "",
+                "member_description": "Alles über ein bestimmtes Mitglied und was du in Bezug auf dieses Mitglied tun kannst.",
                 "log_title": "",
                 "log_description": ""
             },
             "settings": {
                 "retention": "",
                 "retention_help": "",
-                "open": ""
+                "open": "Mitgliederverwaltung aufrufen"
             },
             "permissions": {
-                "view": "",
-                "view_emails": "",
-                "view_ips": "",
-                "mark_spammer": "",
+                "view": "Mitgliederverwaltung (Mitgliederliste und Mitgliederseiten) aufrufen",
+                "view_emails": "Vollständige E-Mail-Adresse in der Mitgliederverwaltung anzeigen",
+                "view_ips": "IP-Adresse von Mitgliedern in der Mitgliederverwaltung anzeigen",
+                "mark_spammer": "Mitglieder über die Mitgliederverwaltung als Spammer markieren",
                 "export": "Mitglieder als CSV exportieren"
             }
         },
@@ -29,14 +29,14 @@
             "no_access": ""
         },
         "lib": {
-            "never": "",
+            "never": "nie",
             "error": {
                 "generic": ""
             },
             "status": {
-                "active": "",
-                "admin": "",
-                "anonymized": "",
+                "active": "Aktiv",
+                "admin": "Admin",
+                "anonymized": "Anonymisiert",
                 "banned_ip": "",
                 "unconfirmed": "",
                 "open_reports": "{count, plural, one {# Bericht öffnen} other {# Berichte öffnen}}",
