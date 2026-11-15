@@ -120,6 +120,8 @@
                 "geolocate_help": "A small button beside the weather. Only when a member clicks it does their browser ask where they are; the point is rounded to about a kilometre before it leaves the browser, and only the town is kept (looked up on OpenStreetMap).",
                 "default_town": "Default town for the weather",
                 "default_town_help": "For members with no town of their own and no Member Map place. Type a town (for example Nashville, Tennessee) and save; leave it empty for no default.",
+                "default_town_not_found": "No town matches \"{town}\". Try adding the region or country.",
+                "default_town_unreachable": "The town search isn't reachable right now, so nothing was saved. Try again in a few minutes.",
                 "weather_cap": "Weather fetches per minute, at most",
                 "weather_cap_help": "For the whole forum. Members whose area isn't fetched yet see no weather until the next one."
             }

@@ -129,7 +129,13 @@
                 "adult": "{pet} grew up today, thanks to everyone who looked after it.",
                 "special": "{pet} reached its special form today. What a community!",
                 "milestone": "We just passed {count} posts, and {pet} is cheering!",
-                "visit": "Visit {pet}",
+                "visit": "Visit {pet}"
+            },
+            "error": {
+                "feed": "{pet} couldn't be fed just now. Try again in a moment.",
+                "play": "{pet} couldn't play just now. Try again in a moment.",
+                "not_allowed": "You can't feed or play with {pet} right now.",
+                "offline": "You seem to be offline, so {pet} didn't get that. Try again when you're connected.",
                 "dismiss": "Dismiss"
             },
             "corner": {
@@ -170,7 +176,8 @@
             "errors": {
                 "forum_pet_upload_too_big": "That picture is bigger than 2 MB. Try a smaller one.",
                 "forum_pet_upload_not_image": "That file isn't a PNG, GIF, WebP or JPEG picture between 16 and 4096 pixels wide. SVG isn't accepted.",
-                "forum_pet_upload_failed": "The picture couldn't be uploaded. Try again."
+                "forum_pet_upload_failed": "The picture couldn't be uploaded. Try again.",
+                "forum_pet_remove_failed": "The picture couldn't be removed. Try again."
             },
             "species": {
                 "dumpling": "Dumpling",

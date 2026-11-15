@@ -20,6 +20,7 @@
             "export_csv": "Spreadsheet (CSV)",
             "export_json": "Data (JSON)",
             "since": "Views, profile visits and shares are counted from {date}.",
+            "imported": "Also {count} views of your discussions, imported from Discussion Views on {date}. Discussion Views counts every time a discussion page is opened and keeps no dates, so its total isn't part of the numbers below.",
             "vs_previous": "vs previous {range}",
             "no_change": "No change",
             "new_value": "New",
@@ -116,7 +117,12 @@
         "admin": {
             "settings": {
                 "count_guests_label": "Count guests",
-                "count_guests_help": "Guests' reads are counted from their browser: one small request each time a guest leaves a discussion. Crawlers and Global Privacy Control are skipped. Turn this off to count members only, with no extra requests.",
+                "count_guests_help": "Guests' views are counted from their browser: a post counts once it has been on screen for a second, sent in one small request every few seconds while they read. Crawlers and Global Privacy Control are skipped. Turn this off to count members only.",
+                "import_label": "Import from Discussion Views",
+                "import_help": "Adds each member's FoF Discussion Views totals (the views of the discussions they started) to their all-time stats, labeled as imported, with no daily breakdown. Running it again replaces the earlier import.",
+                "import_button": "Import totals",
+                "import_done": "Imported {views} views for {count, plural, one {# member} other {# members}}.",
+                "import_unavailable": "FoF Discussion Views has never been installed on this forum, so there is nothing to import.",
                 "post_views_label": "Views under posts",
                 "post_views_help": "Show each post's view count under it.",
                 "post_views_everyone": "To everyone allowed by the \"See views under posts\" permission",
