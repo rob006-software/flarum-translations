@@ -1207,6 +1207,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-hero-image/864885fc34f34a9b135b87a856c58f4ee49ed5d0/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'prm-messages' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-messages/b715c4a155116e6e3de6634b278491ef6564c2b9/locale/en.yml',
+		'__builtInLanguages' => ['tr'],
+	],
 	'prm-moderation' => [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-moderation/1378ca5459fd10c6dbea5c3695e3632f83752187/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
