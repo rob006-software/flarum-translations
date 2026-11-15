@@ -1200,6 +1200,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-analytics/v2.0.0/locale/en.yml',
 	],
 	'prm-forum-activity' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-forum-activity/ab7c2b8c6ddb4cb5e4caae00499723d361a64bc5/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
 	'prm-moderation' => [
