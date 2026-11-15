@@ -2273,7 +2273,7 @@
             "admin": {
                 "permissions": {
                     "edit_own_birthday_label": "e4e33ae4c316ba57dd805133c21d994e e4e33ae4c316ba57dd805133c21d994e",
-                    "view_birthday_label": "3f03e22442110b18f4199eeaa58692d6 3f03e22442110b18f4199eeaa58692d6"
+                    "view_birthday_label": "190ea1238d43f6fb65789ff03c32789b 190ea1238d43f6fb65789ff03c32789b"
                 },
                 "settings": {
                     "date_format_help": "24643783f827612fc7cf615f0df56032 0613bbd2ebb556d4e8f1997e25298524",
@@ -2293,17 +2293,23 @@
                     }
                 },
                 "users": {
+                    "birthday_column": "2c15d45307e79b46e8bed47ab3e49777 2c15d45307e79b46e8bed47ab3e49777",
                     "no_birthday": "0e6e19383f6b702df1aeb6f5dd284826 0e6e19383f6b702df1aeb6f5dd284826"
                 }
             },
             "api": {
                 "birthday_required_message": "373cc161e8ccc5aa7517f3be2b2b4993 373cc161e8ccc5aa7517f3be2b2b4993",
                 "invalid_age_message": "b4fbcd3b66acfeace89790164d79e57f fcc4d11645ee1c77e0fb1f3fc28d07d2",
-                "invalid_dob_message": "48a18a590cf8bc236b66a9775624d5f7 48a18a590cf8bc236b66a9775624d5f7"
+                "invalid_dob_message": "48a18a590cf8bc236b66a9775624d5f7 48a18a590cf8bc236b66a9775624d5f7",
+                "min_age_message": "e7933bd10a3778aadeb047f18df986e8 e7933bd10a3778aadeb047f18df986e8"
             },
             "forum": {
                 "badge": {
                     "birthday_tooltip": "49e2184748a745aadb1e6e786abded6e 49e2184748a745aadb1e6e786abded6e"
+                },
+                "change_birthday": {
+                    "submit_button": "1e382d5477484d2b130acaf315f1fc5d 1e382d5477484d2b130acaf315f1fc5d",
+                    "title": "b17036843e69d3fec7a98b9251319338 b17036843e69d3fec7a98b9251319338"
                 },
                 "change_dob": {
                     "date_of_birth_text": "186ce936fb553bec5031384460072553 186ce936fb553bec5031384460072553",
@@ -2314,15 +2320,27 @@
                     "dob_heading": "186ce936fb553bec5031384460072553 186ce936fb553bec5031384460072553"
                 },
                 "nav": {
+                    "birthdays_link": "48ba2d2ecfaa80989dde846959c0a474 48ba2d2ecfaa80989dde846959c0a474",
                     "nav_item": "67bc4164ce2a491a5d3a044707de7766 67bc4164ce2a491a5d3a044707de7766"
                 },
                 "page": {
                     "discussion_count": "b375f6d53624d19bcda2a6399b0bf71f b375f6d53624d19bcda2a6399b0bf71f",
-                    "post_count": "af1b1d387474fa9beee38d9dd51969a9 af1b1d387474fa9beee38d9dd51969a9"
+                    "empty_text": "9ddf90c07f480dbf7ef54c9c85027634 9ddf90c07f480dbf7ef54c9c85027634",
+                    "load_more_button": "aace03f843f7ad259fe0d79dc2e07f43 aace03f843f7ad259fe0d79dc2e07f43",
+                    "post_count": "af1b1d387474fa9beee38d9dd51969a9 af1b1d387474fa9beee38d9dd51969a9",
+                    "title": "c08687a117d18cb8ecc37eaf4da125e7 c08687a117d18cb8ecc37eaf4da125e7",
+                    "today_heading": "02afdad4483733d3c79fb4b321693849 02afdad4483733d3c79fb4b321693849",
+                    "tomorrow_heading": "6afd1b6e045dcb8a9648a0b1dc0456a5 6afd1b6e045dcb8a9648a0b1dc0456a5",
+                    "turns_text": "2c607b76cd8e1dcb211c1028a32e9cce 2c607b76cd8e1dcb211c1028a32e9cce"
                 },
                 "settings": {
+                    "add_birthday_button": "793031ab9a5f231a8f0556a328186760 793031ab9a5f231a8f0556a328186760",
+                    "change_birthday_button": "0bdf49be20d92b3cb864ab651403f2ab 0bdf49be20d92b3cb864ab651403f2ab",
                     "change_dob_label": "d1ae9987cbca68d6cf518ca3371300f2 d1ae9987cbca68d6cf518ca3371300f2",
                     "dob_heading": "186ce936fb553bec5031384460072553 186ce936fb553bec5031384460072553",
+                    "notify_birthday_label": "a1a38352bc60e4143688def6edce654e a1a38352bc60e4143688def6edce654e",
+                    "show_age_label": "d3593b5e832e1d5224a19dfba4af0abc d3593b5e832e1d5224a19dfba4af0abc",
+                    "show_birthday_label": "b61080806e541bfef6e92d1cd31d4669 b61080806e541bfef6e92d1cd31d4669",
                     "show_dob_date_label": "bf659551409f103d73f5e49cb143b719 bf659551409f103d73f5e49cb143b719",
                     "show_dob_year_help": "0a4b2af58440362306fefd528ce499f0 bd14403e481cf9398fcf3ea897e5358c",
                     "show_dob_year_label": "2e6158d8ea12c24eb499ad4e6c1e9bef 2e6158d8ea12c24eb499ad4e6c1e9bef"
@@ -2330,6 +2348,19 @@
                 "user": {
                     "age_text": "2da511f36159c611c89ea67a48102c28 2da511f36159c611c89ea67a48102c28",
                     "birthday_text": "02633a96b5b332f01fa62ceb9da8018b 02633a96b5b332f01fa62ceb9da8018b"
+                },
+                "user_card": {
+                    "age_text": "4db7b151febbc82d514f99782ccbe8f3 4db7b151febbc82d514f99782ccbe8f3",
+                    "birthday_and_age_text": "1517a0204e55da198ad154051b73c7b1 1517a0204e55da198ad154051b73c7b1",
+                    "birthday_text": "266de0d671ddc9c4b7036ca5be118ccc 266de0d671ddc9c4b7036ca5be118ccc"
+                }
+            },
+            "lib": {
+                "birthday_label": "c5c0b38ed571190b92ef2995e27b0bab c5c0b38ed571190b92ef2995e27b0bab",
+                "datetime_formats": {
+                    "birthday": "cdd6a6c6f8fe89ae8dddad996f9848e8 cdd6a6c6f8fe89ae8dddad996f9848e8",
+                    "birthdayWithYear": "67824ecf84f5816f07b74fa956bdbcd2 67824ecf84f5816f07b74fa956bdbcd2",
+                    "day": "eadbd88bc3773442cad17116d86122ad eadbd88bc3773442cad17116d86122ad"
                 }
             },
             "ref": {
@@ -11631,6 +11662,36 @@
                     "option_light": "1824e8e0307cbfdd1993511ab040075c 1824e8e0307cbfdd1993511ab040075c",
                     "option_light_hc": "40be4f590ab7168abec9a37817111d3b 40be4f590ab7168abec9a37817111d3b",
                     "option_system": "a45da96d0bf6575970f2d27af22be28a a45da96d0bf6575970f2d27af22be28a"
+                }
+            }
+        }
+    },
+    "ernestdefoe-time-capsule.json": {
+        "ernestdefoe-time-capsule": {
+            "admin": {
+                "permissions": {
+                    "community": "6e25cffa71a436d7a8f4b5de5d204cf6 6e25cffa71a436d7a8f4b5de5d204cf6",
+                    "create": "5625d35ce4e8acbd17636e8574e2069b 5625d35ce4e8acbd17636e8574e2069b",
+                    "view": "d25fb5e1fb7354c6edb47143054c366b d25fb5e1fb7354c6edb47143054c366b"
+                },
+                "settings": {
+                    "backup": "581a71edbf02177403690bfe8561ec1a 581a71edbf02177403690bfe8561ec1a",
+                    "founded": "09f0d95e16cf62ecef5bf0307c4d4880 09f0d95e16cf62ecef5bf0307c4d4880",
+                    "max_years_help": "3c7e6b9a405fdda191a01f6368398b37 3c7e6b9a405fdda191a01f6368398b37",
+                    "nav": "4f80741237b2410a3c9e8bce6b7f3b9d 4f80741237b2410a3c9e8bce6b7f3b9d",
+                    "tag_none": "7af38378eebaa53f4330de85ead2aba4 7af38378eebaa53f4330de85ead2aba4"
+                }
+            },
+            "forum": {
+                "nav": "b4c22514a7114724f3e18fb073a29295 b4c22514a7114724f3e18fb073a29295",
+                "page": {
+                    "back": "b4c22514a7114724f3e18fb073a29295 b4c22514a7114724f3e18fb073a29295",
+                    "opened_mine_title": "0664f73698c8bd343d7ccda73962cf18 0664f73698c8bd343d7ccda73962cf18",
+                    "recent_title": "173d66246f78acc2447356e3b81e7db4 173d66246f78acc2447356e3b81e7db4",
+                    "sealed_title": "d9c718b4844d6496022cd615e91e6506 d9c718b4844d6496022cd615e91e6506",
+                    "title": "b4c22514a7114724f3e18fb073a29295 b4c22514a7114724f3e18fb073a29295",
+                    "write": "f527df97c989005eac657da77655a501 f527df97c989005eac657da77655a501",
+                    "write_first": "c2544cc376e02f17bbf7ca5b525d5ced c2544cc376e02f17bbf7ca5b525d5ced"
                 }
             }
         }
