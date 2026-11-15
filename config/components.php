@@ -1211,6 +1211,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-notification/71250f6f84a32c7a3a0a6b025f6bbebaf1a91237/locale/en.yml',
 		'__builtInLanguages' => ['tr'],
 	],
+	'prm-sleek-dark' => [
+		'tag' => 'https://raw.githubusercontent.com/smmpanelscripts1/prm-sleek-dark/7530c0275a89aa7f57efcdea419a4cc54bca4171/locale/en.yml',
+		'__builtInLanguages' => ['tr'],
+	],
 	'proxytracer-proxytracer' => [
 		'tag' => 'https://raw.githubusercontent.com/ProxyTracer/flarum-proxytracer/v2.0.2/locale/en.yml',
 		'__builtInLanguages' => ['ar', 'bn', 'de', 'es', 'fr', 'hi', 'id', 'it', 'ja', 'pl', 'pt', 'ru', 'tr', 'uk', 'ur', 'zh_Hans'],
