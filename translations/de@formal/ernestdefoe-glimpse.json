@@ -149,60 +149,60 @@
                 "delete_confirm": "",
                 "menu": {
                     "highlight": "",
-                    "report": "",
+                    "report": "Story melden",
                     "mute": "",
-                    "copy": "",
-                    "hide": "",
-                    "delete": ""
+                    "copy": "Link kopieren",
+                    "hide": "Story ausblenden",
+                    "delete": "Story löschen"
                 }
             },
             "create": {
-                "title": "",
-                "kind_label": "",
+                "title": "Neue Story",
+                "kind_label": "Art der Story",
                 "kinds": {
-                    "photo": "",
-                    "video": "",
-                    "text": ""
+                    "photo": "Foto",
+                    "video": "Video",
+                    "text": "Text"
                 },
-                "pick_photo": "",
-                "pick_video": "",
-                "photo_help": "",
-                "video_help": "",
-                "too_large": "",
+                "pick_photo": "Wähle ein Foto",
+                "pick_video": "Wähle ein Video",
+                "photo_help": "JPEG, PNG, WebP oder GIF, bis zu {mb} MB. Standortdaten werden entfernt.",
+                "video_help": "MP4 oder WebM, bis zu {seconds} Sekunden und {mb} MB. Standortdaten werden entfernt.",
+                "too_large": "Diese Datei ist größer als {mb} MB.",
                 "upload_failed": "",
-                "text": "",
-                "text_placeholder": "",
-                "background": "",
-                "background_n": "",
+                "text": "Dein Text",
+                "text_placeholder": "Schreib etwas…",
+                "background": "Hintergrundfarbe",
+                "background_n": "Hintergrund {number}",
                 "caption": "Überschrift",
                 "caption_help": "",
-                "link": "",
-                "audience": "",
+                "link": "Link (optional)",
+                "audience": "Wer kann es sehen",
                 "also_moments": "",
                 "moments_failed": "",
                 "lifetime": "",
-                "share": "",
+                "share": "Teilen",
                 "shared": "",
                 "pending": ""
             },
             "seen_by": {
-                "title": "",
-                "private": "",
-                "empty": "",
+                "title": "Gesehen von",
+                "private": "Nur du kannst das sehen",
+                "empty": "Diese Story hat noch niemand gesehen.",
                 "more": "",
                 "reacted": ""
             },
             "report": {
-                "title": "",
-                "reason": "",
+                "title": "Story melden",
+                "reason": "Warum meldest du sie?",
                 "reasons": {
-                    "spam": "",
-                    "inappropriate": "",
-                    "harassment": "",
-                    "other": ""
+                    "spam": "Spam",
+                    "inappropriate": "Unangemessen",
+                    "harassment": "Belästigung oder Mobbing",
+                    "other": "Etwas anderes"
                 },
-                "detail": "",
-                "submit": ""
+                "detail": "Gibt es etwas, das Moderatoren wissen sollten? (optional)",
+                "submit": "Melden"
             },
             "highlights": {
                 "title": "",

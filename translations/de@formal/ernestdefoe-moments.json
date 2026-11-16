@@ -2,7 +2,7 @@
     "ernestdefoe-moments": {
         "admin": {
             "settings": {
-                "show_nav": "",
+                "show_nav": "Augenblicke in der Seitenleiste anzeigen",
                 "char_limit": "",
                 "default_privacy": "",
                 "default_privacy_help": "",
@@ -50,22 +50,22 @@
                 "trending": "",
                 "results_for": "",
                 "clear_search": "",
-                "back": "",
+                "back": "Alle Augenblicke",
                 "not_found": ""
             },
             "tabs": {
-                "everyone": "",
+                "everyone": "Jeder",
                 "following": "",
-                "bookmarks": "",
-                "mine": "",
-                "reported": "",
-                "topic": "",
-                "clear_topic": ""
+                "bookmarks": "Lesezeichen",
+                "mine": "Meine",
+                "reported": "Gemeldet",
+                "topic": "Thema",
+                "clear_topic": "Alle Augenblicke anzeigen"
             },
             "feed": {
-                "new": "",
-                "more": "",
-                "empty": "",
+                "new": "{count, plural, one {# neuer Augenblick} other {# neue Augenblicke}}",
+                "more": "Mehr laden",
+                "empty": "Noch keine Augenblicke.",
                 "empty_everyone": "",
                 "empty_following": "",
                 "empty_bookmarks": "",
@@ -75,25 +75,25 @@
                 "no_results": ""
             },
             "composer": {
-                "placeholder": "",
-                "reply_placeholder": "",
-                "reply_to": "",
-                "quote_placeholder": "",
+                "placeholder": "Was ist los?",
+                "reply_placeholder": "Schreibe eine Antwort…",
+                "reply_to": "Antwort an {name}…",
+                "quote_placeholder": "Füge einen Kommentar hinzu…",
                 "post": "",
-                "reply": "",
+                "reply": "Antworten",
                 "repost": "",
-                "save": "",
-                "cancel": "",
-                "privacy": "",
-                "add_media": "",
+                "save": "Speichern",
+                "cancel": "Abbrechen",
+                "privacy": "Wer kann das sehen",
+                "add_media": "Fotos oder Video hinzufügen",
                 "record_voice": "",
-                "add_gif": "",
-                "remove_attachment": "",
-                "voice_attached": "",
+                "add_gif": "Ein GIF hinzufügen",
+                "remove_attachment": "Entfernen",
+                "voice_attached": "Sprachnachricht",
                 "too_large": ""
             },
             "privacy": {
-                "public": "",
+                "public": "Jeder",
                 "followers": "",
                 "private": ""
             },
