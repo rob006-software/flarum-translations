@@ -1,19 +1,19 @@
 {
     "ernestdefoe-kindred": {
         "forum": {
-            "heading": "",
-            "replies": ""
+            "heading": "Benzer tartışmalar",
+            "replies": "{count, plural, =0 {Yanıt yok} one {# yanıt} other {# yanıt}}"
         },
         "admin": {
-            "limit": "",
-            "limit_help": "",
-            "max_age": "",
-            "max_age_help": "",
-            "extra_stopwords": "",
-            "extra_stopwords_help": "",
-            "extra_stopwords_placeholder": "",
-            "sidebar": "",
-            "sidebar_help": ""
+            "limit": "Tartışma sayısı",
+            "limit_help": "Gösterilecek en fazla benzer tartışma sayısı (1–20). Yeterince benzer bir tartışma bulunamazsa hiçbir şey gösterilmez.",
+            "max_age": "Belirtilen süreden (gün) daha uzun süredir etkinlik olmayan tartışmaları yok say",
+            "max_age_help": "0 olarak bırakırsanız tüm tartışmalar, ne kadar eski olduklarına bakılmaksızın dahil edilir.",
+            "extra_stopwords": "Yok sayılacak ek kelimeler",
+            "extra_stopwords_help": "Forumunuzda çok sık kullanıldığı için iki başlığın benzer olduğunu belirlemede dikkate alınmaması gereken kelimeler. Örneğin spor dalı, şehir adı veya ürün adı. Kelimeleri boşluk ya da virgülle ayırın. İngilizcede sık kullanılan \"the\", \"best\" ve \"question\" gibi kelimeler zaten yok sayılır.",
+            "extra_stopwords_placeholder": "futbol, oyun, sezon",
+            "sidebar": "Geniş ekranlarda tartışmanın yan panelinde de göster",
+            "sidebar_help": "Tartışma kontrollerinin altında daha küçük bir liste gösterir. Bu seçenek etkinleştirildiğinde, geniş ekranlarda liste okuyucunun tartışmanın sonuna yaklaşması beklenmeden sayfayla birlikte yüklenir."
         }
     }
 }
