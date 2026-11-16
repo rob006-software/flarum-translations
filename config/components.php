@@ -946,7 +946,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/forumaker/magicslider/3.1.0/resources/locale/en.yml',
 	],
 	'forumaker-profile-cover' => [
-		'tag' => 'https://raw.githubusercontent.com/forumaker/Profile-Cover/3.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/forumaker/Profile-Cover/3.2.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['ru'],
 	],
 	'forumaker-statser' => [
