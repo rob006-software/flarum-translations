@@ -238,9 +238,9 @@
                     "rewritten": "{bundle} yeniden yazıldı",
                     "empty": "{bundle} için derlenecek bir şey yok",
                     "chunks": "{frontend} için bölünmüş parçalar yeniden oluşturuldu ({count} değiştirildi)",
-                    "failed": "",
-                    "took": "",
-                    "reload_button": ""
+                    "failed": "{step} yeniden oluşturulamadı: {message}",
+                    "took": "{time} ms",
+                    "reload_button": "Yeniden Yükle"
                 },
                 "description": "Bir bakışta forumun.",
                 "info_button": "Sistem Bilgisi",
@@ -271,25 +271,25 @@
                 "abandoned_no_replacement": "Önerilen bir alternatif yok",
                 "abandoned_with_replacement": "Yerine önerilen: {replacement}",
                 "all_healthy": "Tüm uzantılar sorunsuz.",
-                "section_abandoned_empty": "",
-                "section_suggested_empty": "",
-                "section_disabled_empty": "",
-                "title": "",
-                "section_abandoned_heading": "",
-                "section_abandoned_help": "",
-                "section_suggested_heading": "",
-                "section_suggested_help": "",
-                "section_disabled_heading": "",
-                "section_disabled_help": "",
-                "suggested_by": ""
+                "section_abandoned_empty": "Sorun bulunamadı.",
+                "section_suggested_empty": "Öneri yok.",
+                "section_disabled_empty": "Tüm uzantılar etkin.",
+                "title": "Uzantı Durumu",
+                "section_abandoned_heading": "İlgilenilmesi Gerekenler",
+                "section_abandoned_help": "Bu uzantılar artık geliştirilmiyor veya uyumluluk sorunları yaşayabilir. Bunları güncellemeyi, alternatifleriyle değiştirmeyi ya da kaldırmayı değerlendirin.",
+                "section_suggested_heading": "Önerilenler",
+                "section_suggested_help": "Flarum uzantıları, başka uzantı veya paketler önererek isteğe bağlı ek özellikler sunabilir. Bu sayede yeni özellikler ve entegrasyonlar eklenebilir.",
+                "section_disabled_heading": "Devre Dışı",
+                "section_disabled_help": "Bu uzantılar yüklü ancak şu anda etkin değil. Bunları ayarlar sayfasından etkinleştirin veya artık ihtiyacınız yoksa kaldırın.",
+                "suggested_by": "{extension} tarafından önerildi"
             },
             "database-driver-mismatch-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "<code>config.php</code> dosyanızda <code>{configured}</code> veritabanı sürücüsü yapılandırılmış ancak Flarum, veritabanı sunucusunun aslında <code>{actual}</code> kullandığını tespit etti.\n\nYanlış sürücü kullanmak, fark edilmesi ve teşhis edilmesi zor hatalara yol açabilir. <code>config.php</code> dosyanızın <code>database</code> bölümündeki ayarı <code>'driver' => ''{actual}''</code> olarak değiştirin. Daha fazla bilgi için <link>Flarum belgelerine</link> göz atın.\n",
+                "label": "Veritabanı sürücüsü uyuşmazlığı"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "{server} sunucunuzda <code>{version}</code> sürümü kullanılıyor. Bu sürüm destekleniyor ancak en iyi performansı elde etmek ve desteği devam eden bir sürüm kullanmak için Flarum, {server} <code>{recommended}</code> veya daha yeni bir sürümü öneriyor. Daha fazla bilgi için <link>Flarum belgelerine</link> göz atın.\n",
+                "below-recommended-label": "Veritabanı sürümü güncel değil"
             },
             "debug-warning": {
                 "detail": "<code>debug</code> modu etkin olduğunda, Flarum her istekte <code>JavaScript</code> ve <code>CSS</code> varlıklarını yeniden oluşturur ve ayrıca veritabanı gibi diğer bilgileri de (Secret, ortam değişkenleri vb.) sızdırabilir.\n\nYayındayken <code>config.php</code> dosyanızdaki <code>debug</code>'u devre dışı bırakmanız şiddetle tavsiye edilir. Daha fazla bilgi için <link>Flarum belgelerine</link> bakın.\n",
@@ -346,14 +346,14 @@
                 "mail_mailgun_secret_label": "Gizli anahtar",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_postmark_message_stream_label": "",
-                "mail_postmark_token_label": "",
-                "mail_smtp_verify_peer_label": "",
-                "mail_smtp_verify_peer_help": "",
+                "mail_postmark_message_stream_label": "İleti akışı",
+                "mail_postmark_token_label": "Sunucu belirteci",
+                "mail_smtp_verify_peer_label": "SSL Sertifikasını Doğrula",
+                "mail_smtp_verify_peer_help": "TLS veya SSL şifrelemesi kullanırken sunucunun SSL sertifikasını doğrular. Bu ayarı yalnızca e-posta sunucunuz kendinden imzalı bir sertifika kullanıyorsa devre dışı bırakın.",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Ayarları",
-                "postmark_heading": "",
-                "postmark_description": "",
+                "postmark_heading": "Postmark Ayarları",
+                "postmark_description": "E-postaları Postmark'ın HTTP API'si üzerinden gönderin. İsterseniz varsayılan akış yerine kullanılacak farklı bir ileti akışı belirtebilirsiniz.",
                 "not_sending_message": "Flarum şu anda e-posta gönderemiyor. Bunun nedeni seçilen sürücü veya yapılandırmasındaki hatalar olabilir.",
                 "send_test_mail_button": "Gönder",
                 "send_test_mail_heading": "Test Postası Gönder",
@@ -393,12 +393,12 @@
                 },
                 "replaced": "Değiştirildi",
                 "reset_settings": {
-                    "button": "",
-                    "cancel_button": "",
-                    "confirm_button": "",
-                    "warning": "",
-                    "title": "",
-                    "title_extension": ""
+                    "button": "Ayarları Sıfırla",
+                    "cancel_button": "İptal",
+                    "confirm_button": "Sıfırla",
+                    "warning": "Bu işlem geri alınamaz. Aşağıdaki ayarlar veritabanından kalıcı olarak silinecek ve varsayılan değerlerine dönecektir. Uzantının verileri bu işlemden etkilenmeyecektir.",
+                    "title": "Ayarları Sıfırla",
+                    "title_extension": "{extensionTitle} Ayarlarını Sıfırla"
                 },
                 "safe_mode_warning": "Güvenli mod şu anda etkin. Uzantılar yüklenmediğinden ayarlarına erişilemiyor."
             },
@@ -424,14 +424,14 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "analytics": "",
+                    "analytics": "İstatistikler",
                     "authentication": "Doğrulama",
                     "core": "Çekirdek Yapılandırması",
                     "discussion": "Tartışma",
                     "feature": "Özellikler",
                     "formatting": "Biçimlendirme",
                     "forum-widget": "Forum Bileşenleri",
-                    "infrastructure": "",
+                    "infrastructure": "Altyapı",
                     "language": "Diller",
                     "moderation": "Moderasyon",
                     "other": "Diğer Uzantılar",
@@ -458,7 +458,7 @@
                 "delete_posts_forever_label": "Gönderileri kalıcı olarak sil",
                 "delete_posts_label": "Gönderileri sil",
                 "description": "Kimin ne görebileceğini ve ne yapabileceğini yapılandırın.",
-                "edit_own_avatar_label": "",
+                "edit_own_avatar_label": "Kendi avatarını düzenle",
                 "edit_posts_label": "Gönderileri düzenle",
                 "edit_users_label": "Kullanıcıları düzenle",
                 "edit_users_credentials_label": "Kullanıcı kimlik bilgilerini düzenle",
@@ -634,7 +634,7 @@
                 "session_dropdown_accessible_label": "Oturum seçenekleri açılır menüsünü aç / kapat",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Temayı değiştir"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -648,14 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Gezinme açılır menüsünü aç / kapat"
             },
             "index_sort": {
-                "az_button": "",
+                "az_button": "=> core.ref.title_az",
                 "latest_button": "En Son",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Tartışma listesi sıralamasını değiştir",
                 "top_button": "Popüler",
-                "za_button": ""
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Şifreni mi unuttun?",
@@ -665,7 +665,7 @@
                 "sign_up_text": "Hesabın yok mu? <a> Kayıt Ol </a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": "",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -776,10 +776,10 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Birisi başlattığım bir tartışmayı yeniden adlandırdığında",
-                "reset_notifications_button": "",
-                "device_heading": "",
-                "haptic_feedback_help": "",
-                "haptic_feedback_label": "",
+                "reset_notifications_button": "Varsayılanlara sıfırla",
+                "device_heading": "Cihaz",
+                "haptic_feedback_help": "Yalnızca desteklenen mobil cihazlarda kullanılabilir",
+                "haptic_feedback_label": "Dokunsal geri bildirimi etkinleştir",
                 "privacy_disclose_online_label": "Çevrimiçi olduğumda başkalarının görmesine izin ver",
                 "privacy_heading": "Gizlilik",
                 "title": "=> core.ref.settings"
@@ -833,8 +833,8 @@
                 "dismiss_a11y_label": "Uyarıyı kapat"
             },
             "assets_updated": {
-                "message": "",
-                "reload_button": ""
+                "message": "Bu sayfanın daha yeni bir sürümü mevcut.",
+                "reload_button": "Yeniden Yükle"
             },
             "badge": {
                 "hidden_tooltip": "Gizli"
@@ -916,7 +916,7 @@
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Grup seçin"
             },
             "input": {
                 "clear_button": "Girdiyi temizle"
@@ -936,7 +936,7 @@
             },
             "nav": {
                 "drawer_button": "Gezinme Çekmecesini Aç",
-                "pin_pane_button": ""
+                "pin_pane_button": "Tartışma Listesini Sabitle"
             },
             "notices": {
                 "bisecting": "Soruna neden olan uzantıyı belirlemek için uzantı ikiye bölme işlemi yürütülüyor.",
@@ -945,20 +945,20 @@
                 "maintenance_mode_safe": "Güvenli modda bakımda. Foruma yalnızca yöneticiler erişebilir ve hiçbir uzantı yüklenmez."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Daha fazla öğe"
             },
             "pagination": {
                 "back_button": "Önceki sayfa",
@@ -977,7 +977,7 @@
                 "options_heading": "Arama seçenekleri",
                 "placeholder": "Ara...",
                 "preview_heading": "Arama önizlemesi",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Aramayı değiştir: {query}",
                 "search_clear_button_accessible_label": "Arama terimini temizle"
             },
             "search_source": {
@@ -1080,7 +1080,7 @@
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": ""
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message"
             },
             "reset_password": {
                 "confirm_password_label": "Yeni Şifreyi Onayla",
@@ -1143,10 +1143,10 @@
             },
             "abandoned_extensions": {
                 "subject": "İşlem gerekiyor: terk edilmiş uzantı tespit edildi",
-                "body_intro": "",
-                "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "body_intro": "Yüklü uzantılardan aşağıdakiler artık geliştirilmeyen uzantılar olarak işaretlendi:",
+                "body_outro": "Lütfen bu uzantıları gözden geçirin ve uygun alternatifler varsa bunlara geçmeyi değerlendirin.",
+                "line_with_replacement": "{package} (önerilen alternatif: {replacement})",
+                "line_no_replacement": "{package} (uygun bir alternatif bulunmuyor)"
             }
         },
         "ref": {
@@ -1177,7 +1177,7 @@
             "light_hc_mode_label": "Açık Yüksek Kontrastlı Mod",
             "light_mode_label": "Açık Mod",
             "load_more": "Daha Fazla Yükle",
-            "latest": "",
+            "latest": "En Son",
             "loading": "Yükleniyor...",
             "log_in": "Giriş Yap",
             "log_out": "Çıkış Yap",
@@ -1207,10 +1207,10 @@
             "sign_up": "Kayıt Ol",
             "some_others": "{count, plural, one {# diğer} other {# diğer}}",
             "start_a_discussion": "Bir Tartışma Başlat",
-            "title_az": "",
-            "title_za": "",
-            "too_many_login_attempts_message": "",
-            "top": "",
+            "title_az": "Başlık (A–Z)",
+            "title_za": "Başlık (Z–A)",
+            "too_many_login_attempts_message": "Çok fazla başarısız giriş denemesi yapıldı. Lütfen birkaç dakika bekleyip tekrar deneyin.",
+            "top": "Popüler",
             "username": "Kullanıcı Adı",
             "username_or_email_placeholder": "Kullanıcı Adı ya da E-posta",
             "users": "Kullanıcılar",
