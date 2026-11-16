@@ -119,8 +119,8 @@
                 "edit_css_button": "Editează CSS Personalizat",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "email_logo_heading": "",
-                "email_logo_text": "",
+                "email_logo_heading": "Logo-ul e-mailului",
+                "email_logo_text": "Încărcați o imagine care va fi afișată în partea de sus a e-mailurilor. Aceasta este salvată într-un format pe care îl poate afișa orice client de e-mail. Dacă nu încărcați una, e-mailurile vor folosi o copie a siglei dumneavoastră. Dacă e-mailurile afișează titlul forumului în loc de siglă, încărcați din nou sigla.",
                 "enter_hex_message": "Vă rugăm, introduceți un cod hexazecimal de culoare.",
                 "favicon_heading": "Pictogramă de site",
                 "favicon_text": "Încărcați o imagine care va fi afișată ca și pictograma paginii în navigator.",
@@ -219,28 +219,28 @@
                 "none": "Niciun job eșuat.",
                 "meta": "Coadă {queue} · eșuat {time}",
                 "details": "Detalii",
-                "retry": "",
-                "retry_all": "",
-                "delete": ""
+                "retry": "Reîncercați",
+                "retry_all": "Reîncercați toate",
+                "delete": "Ștergeți"
             },
             "dashboard": {
-                "queue_paused_warning": "",
-                "queue_paused_all_warning": "",
-                "queue_paused_manage": "",
+                "queue_paused_warning": "Procesarea cozii este întreruptă (coada: {queues}). Sarcinile se vor acumula până la reluarea acesteia.",
+                "queue_paused_all_warning": "Toată procesarea cozilor este întreruptă. Sarcinile se vor acumula până la reluarea acesteia.",
+                "queue_paused_manage": "Gestionați",
                 "clear_cache_button": "Ștergere memoria cache",
                 "clear_cache_modal": {
-                    "title": "",
-                    "working": "",
-                    "cleared": "",
-                    "cleared_files": "",
-                    "rebuilt": "",
-                    "unchanged": "",
-                    "rewritten": "",
-                    "empty": "",
-                    "chunks": "",
-                    "failed": "",
-                    "took": "",
-                    "reload_button": ""
+                    "title": "Se șterge memoria cache",
+                    "working": "Se reconstruiesc resursele compilate. Acest lucru poate dura mai mult pe forumurile mai mari.",
+                    "cleared": "{name} a fost șters",
+                    "cleared_files": "{name} a fost golit ({count} fișiere)",
+                    "rebuilt": "{bundle} a fost reconstruit",
+                    "unchanged": "{bundle} era deja actualizat",
+                    "rewritten": "{bundle} a fost rescris",
+                    "empty": "{bundle} nu conține nimic de compilat",
+                    "chunks": "Fragmentele împărțite pentru {frontend} au fost reconstruite ({count} modificate)",
+                    "failed": "Nu s-a putut reconstrui {step}: {message}",
+                    "took": "{time} ms",
+                    "reload_button": "Reîncărcați"
                 },
                 "description": "Forumul Dvs. dintr-o privire.",
                 "info_button": "Informații sistem",
@@ -284,12 +284,12 @@
                 "suggested_by": "Sugerat de {extension}"
             },
             "database-driver-mismatch-warning": {
-                "detail": "",
-                "label": ""
+                "detail": "Fișierul dumneavoastră <code>config.php</code> este configurat să utilizeze driverul de bază de date <code>{configured}</code>, dar Flarum a detectat că serverul de bază de date este de fapt <code>{actual}</code>.\n\nUtilizarea unui driver greșit poate cauza erori subtile, greu de diagnosticat. Setați <code>‘driver’ => ‘’{actual}’’</code> în secțiunea <code>database</code> a fișierului dumneavoastră <code>config.php</code>. Consultați <link>documentația Flarum</link> pentru mai multe informații.\n",
+                "label": "Nepotrivire a driverului bazei de date"
             },
             "database-version-warning": {
-                "below-recommended-detail": "",
-                "below-recommended-label": ""
+                "below-recommended-detail": "Serverul dumneavoastră {server} rulează versiunea <code>{version}</code>. Aceasta este compatibilă, dar Flarum recomandă {server} <code>{recommended}</code> sau o versiune ulterioară pentru performanțe optime și pentru a rămâne pe o versiune întreținută. Consultați <link>documentația Flarum</link> pentru mai multe informații.\n",
+                "below-recommended-label": "Versiunea bazei de date este învechită"
             },
             "debug-warning": {
                 "detail": "Atunci când modul <code>debug</code> este activ, Flarum își va reconstruii fișierele <code>JavaScript</code> și <code>CSS</code> la fiecare cerere, și ar putea probabil să scurgă și alte informații, cum ar fi secrete ale bazei de date, variabile de mediu, etc.\n\nEste foarte recomandat să dezactivezi <code>debug</code> din fișierul tău <code>config.php</code> în modul producție. Vezi <link>documentația Flarum</link> pentru mai multe informații.\n",
@@ -393,11 +393,11 @@
                 },
                 "replaced": "Înlocuit",
                 "reset_settings": {
-                    "button": "",
-                    "cancel_button": "",
-                    "confirm_button": "",
-                    "warning": "",
-                    "title": "",
+                    "button": "Resetați setările",
+                    "cancel_button": "Anulați",
+                    "confirm_button": "Resetați",
+                    "warning": "Această acțiune este ireversibilă. Setările de mai jos vor fi șterse definitiv din baza de date și vor reveni la valorile implicite. Datele acestei extensii nu vor fi afectate.",
+                    "title": "Resetați setările",
                     "title_extension": ""
                 },
                 "safe_mode_warning": "Modul de siguranță este activat în prezent. Extensiile nu sunt pornite, iar setările acestora sunt, prin urmare, inaccesibile."
