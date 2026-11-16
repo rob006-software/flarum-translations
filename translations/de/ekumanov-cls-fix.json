@@ -2,10 +2,10 @@
     "ekumanov-cls-fix": {
         "admin": {
             "settings": {
-                "unwrapped_images_label": "",
-                "unwrapped_images_help": "",
-                "gallery_hint_fancybox": "",
-                "gallery_hint_post_galleries": ""
+                "unwrapped_images_label": "Bilder ohne umschliessenden Container (lightbox Kompatibilitätsmodus)",
+                "unwrapped_images_help": "Standardmäßig deaktiviert. Aktiviere diese Option nur, wenn eine Lightbox- oder Galerie-Erweiterung (z. B. Fancybox) nicht mit CLS Fix zusammenarbeitet. Bilder werden dann ohne den Wrapper-Container gerendert, den CLS Fix normalerweise um sie herum platziert, und vor dem Laden wird weiterhin Platz reserviert. Führe nach dieser Änderung „php flarum cache:clear“ aus (und leere deinen CDN-Cache, falls du einen verwendest), damit bereits zwischengespeicherte Seiten das neue Markup übernehmen.",
+                "gallery_hint_fancybox": "{extension} ist aktiviert. Aktiviere unten die Option „Bilder ohne umschliessenden Container“, damit die Karussells funktionieren.",
+                "gallery_hint_post_galleries": "{extension} ist aktiviert. Aktiviere unten die Option „Bilder ohne umschliessenden Container“, damit die Galerien funktionieren."
             }
         }
     }
