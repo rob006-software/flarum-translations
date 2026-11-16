@@ -45,7 +45,7 @@
                     "source_help": "Alegeți modul în care sunt încărcate pictogramele FontAwesome. „Local” folosește fonturile incluse, „CDN” le încarcă dintr-un CDN, iar „Kit” utilizează FontAwesome Kits cu pictograme personalizate.",
                     "source_local": "Local (Inclus)",
                     "source_cdn": "CDN",
-                    "source_kit": "FontAwesome Kit",
+                    "source_kit": "Kit FontAwesome",
                     "cdn_url_label": "URL CDN",
                     "cdn_url_help": "URL complet către fișierul CSS FontAwesome de pe un CDN",
                     "kit_url_label": "URL Kit",
@@ -398,7 +398,7 @@
                     "confirm_button": "Resetați",
                     "warning": "Această acțiune este ireversibilă. Setările de mai jos vor fi șterse definitiv din baza de date și vor reveni la valorile implicite. Datele acestei extensii nu vor fi afectate.",
                     "title": "Resetați setările",
-                    "title_extension": ""
+                    "title_extension": "Resetați setările {extensionTitle}"
                 },
                 "safe_mode_warning": "Modul de siguranță este activat în prezent. Extensiile nu sunt pornite, iar setările acestora sunt, prin urmare, inaccesibile."
             },
@@ -458,7 +458,7 @@
                 "delete_posts_forever_label": "Ștergerea definitivă a postărilor",
                 "delete_posts_label": "Ștergerea postărilor",
                 "description": "Configurați cine și ce poate face.",
-                "edit_own_avatar_label": "",
+                "edit_own_avatar_label": "Editați propriul avatar",
                 "edit_posts_label": "Editarea postărilor",
                 "edit_users_label": "Editarea atributelor utilizatorilor",
                 "edit_users_credentials_label": "Editarea acreditărilor utilizatorilor",
@@ -634,7 +634,7 @@
                 "session_dropdown_accessible_label": "Comutare meniul derulant cu opțiunile sesiunii",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up",
-                "theme_switcher_accessible_label": ""
+                "theme_switcher_accessible_label": "Schimbați tema"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
@@ -648,14 +648,14 @@
                 "toggle_sidenav_dropdown_accessible_label": "Comutare meniul derulant de navigare"
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "Cele mai actuale",
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
                 "newest_button": "=> core.ref.newest",
                 "oldest_button": "=> core.ref.oldest",
                 "relevance_button": "=> core.ref.relevance",
                 "toggle_dropdown_accessible_label": "Modificare sortarea listei de discuții",
-                "top_button": "Cele mai citite",
-                "za_button": ""
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "log_in": {
                 "forgot_password_link": "Ați uitat parola?",
@@ -665,7 +665,7 @@
                 "sign_up_text": "Nu aveți cont? <a>Înregistrare</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": "",
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message",
                 "username_or_email_placeholder": "=> core.ref.username_or_email_placeholder"
             },
             "notifications": {
@@ -776,7 +776,7 @@
                 "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Cineva redenumește o discuție inițiată de mine",
-                "reset_notifications_button": "",
+                "reset_notifications_button": "Resetați la valorile implicite",
                 "device_heading": "Dispozitiv",
                 "haptic_feedback_help": "Disponibil doar pe dispozitivele mobile acceptate",
                 "haptic_feedback_label": "Activați feedback-ul haptic",
@@ -833,8 +833,8 @@
                 "dismiss_a11y_label": "Închide"
             },
             "assets_updated": {
-                "message": "",
-                "reload_button": ""
+                "message": "Este disponibilă o versiune mai nouă a acestei pagini.",
+                "reload_button": "Reîncărcați"
             },
             "badge": {
                 "hidden_tooltip": "Ascuns"
@@ -916,7 +916,7 @@
                 }
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Alegeți un grup"
             },
             "input": {
                 "clear_button": "Șterge intrarea"
@@ -936,7 +936,7 @@
             },
             "nav": {
                 "drawer_button": "Deschide panoul de navigare",
-                "pin_pane_button": ""
+                "pin_pane_button": "Fixați lista de discuții"
             },
             "notices": {
                 "bisecting": "Rularea unui proces de bisectare a extensiilor pentru a determina care extensie cauzează o problemă.",
@@ -945,20 +945,20 @@
                 "maintenance_mode_safe": "Oprit pentru întreținere în modul de siguranță. Doar administratorii pot accesa forumul și nicio extensie nu este încărcată."
             },
             "index_sort": {
-                "az_button": "",
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": "",
-                "za_button": ""
+                "az_button": "=> core.ref.title_az",
+                "latest_button": "=> core.ref.latest",
+                "newest_button": "=> core.ref.newest",
+                "oldest_button": "=> core.ref.oldest",
+                "relevance_button": "=> core.ref.relevance",
+                "top_button": "=> core.ref.top",
+                "za_button": "=> core.ref.title_za"
             },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
             },
             "overflowing_list": {
-                "toggle_accessible_label": ""
+                "toggle_accessible_label": "Mai multe elemente"
             },
             "pagination": {
                 "back_button": "Pagina anterioară",
@@ -977,7 +977,7 @@
                 "options_heading": "Opțiuni de căutare",
                 "placeholder": "Căutare...",
                 "preview_heading": "Previzualizare căutare",
-                "search_active_button_accessible_label": "",
+                "search_active_button_accessible_label": "Schimbați căutarea: {query}",
                 "search_clear_button_accessible_label": "Ștergeți interogarea de căutare"
             },
             "search_source": {
@@ -1080,7 +1080,7 @@
                 "remember_me_label": "=> core.ref.remember_me_label",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
-                "too_many_attempts_message": ""
+                "too_many_attempts_message": "=> core.ref.too_many_login_attempts_message"
             },
             "reset_password": {
                 "confirm_password_label": "Confirmare parolă nouă",
@@ -1143,10 +1143,10 @@
             },
             "abandoned_extensions": {
                 "subject": "Acțiune necesară: s-a(u) detectat extensie(s) abandonată(e)",
-                "body_intro": "",
-                "body_outro": "",
-                "line_with_replacement": "",
-                "line_no_replacement": ""
+                "body_intro": "Următoarele extensii instalate au fost marcate ca abandonate:",
+                "body_outro": "Vă rugăm să examinați aceste extensii și să luați în considerare migrarea către alternative, acolo unde sunt disponibile.",
+                "line_with_replacement": "{package} (alternativă sugerată: {replacement})",
+                "line_no_replacement": "{package} (nicio alternativă disponibilă)"
             }
         },
         "ref": {
@@ -1177,7 +1177,7 @@
             "light_hc_mode_label": "Modul luminos cu contrast ridicat",
             "light_mode_label": "Modul luminos",
             "load_more": "Încarcă Mai Multe",
-            "latest": "",
+            "latest": "Cele mai recente",
             "loading": "Se încarcă...",
             "log_in": "Conectare",
             "log_out": "Deconectare",
@@ -1207,10 +1207,10 @@
             "sign_up": "Înregistrare",
             "some_others": "{count, plural, one {# altul} other {# altele}}",
             "start_a_discussion": "Discuție nouă",
-            "title_az": "",
-            "title_za": "",
-            "too_many_login_attempts_message": "",
-            "top": "",
+            "title_az": "Titlu (A–Z)",
+            "title_za": "Titlu (Z-A)",
+            "too_many_login_attempts_message": "Prea multe încercări eșuate de autentificare. Vă rugăm să așteptați câteva minute, apoi încercați din nou.",
+            "top": "Populare",
             "username": "Nume utilizator",
             "username_or_email_placeholder": "Nume utilizator sau E-mail",
             "users": "Utilizatori",
