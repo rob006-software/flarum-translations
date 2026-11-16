@@ -2,103 +2,103 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Користуватися Deck"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
-                "poll_interval_label": ""
+                "max_columns_help": "Кожен стовпець надсилає окремий запит під час кожного оновлення. Від 1 до 12.",
+                "max_columns_label": "Максимальна кількість стовпців на користувача",
+                "poll_interval_help": "Як часто перевіряти нову активність у стовпцях, коли немає з’єднання з Realtime. Установіть 0, щоб вимкнути перевірку; мінімальне значення — 15.",
+                "poll_interval_label": "Інтервал оновлення (секунди)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
-                "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": ""
+                "author_label": "Користувач",
+                "author_placeholder": "Знайти користувача",
+                "back_button": "Назад",
+                "discussion_label": "Обговорення",
+                "discussion_placeholder": "Знайти обговорення",
+                "filter_help": "Поєднуйте пошукові фільтри, як-от tag:, author:, is:unread або is:following. Звичайні слова не підтримуються.",
+                "filter_invalid_message": "Використовуйте лише фільтри, наприклад tag:support is:unread. Звичайні слова не підтримуються.",
+                "filter_label": "Фільтри",
+                "group_invalid_message": "Виберіть групу.",
+                "group_label": "Група",
+                "in_deck_badge": "У вашій панелі Deck",
+                "in_deck_count_badge": "У вашій панелі Deck ×{count}",
+                "filter_placeholder": "Наприклад, tag:support is:unread",
+                "invalid_value_message": "Введіть коректне значення для поля «{field}».",
+                "pick_a_result_message": "Виберіть значення для поля «{field}» із запропонованих варіантів.",
+                "submit_button": "Додати стовпець",
+                "title": "Додати стовпець",
+                "use_filters_button": "Використати ці фільтри"
             },
             "column": {
-                "controls_label": "",
-                "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
-                "resize_label": ""
+                "controls_label": "Параметри стовпця «{title}»",
+                "drag_handle_label": "Перетягніть, щоб перемістити «{title}»",
+                "move_left_button": "Перемістити ліворуч",
+                "move_right_button": "Перемістити праворуч",
+                "move_to_bottom_row_button": "Перемістити в нижній ряд",
+                "move_to_top_row_button": "Перемістити у верхній ряд",
+                "moved_announcement": "Переміщено на позицію {position} із {count}.",
+                "moved_in_bottom_row_announcement": "Переміщено на позицію {position} із {count} у нижньому ряду.",
+                "moved_in_top_row_announcement": "Переміщено на позицію {position} із {count} у верхньому ряду.",
+                "new_items_button": "{count, plural, one {# нове} other {# нових}}",
+                "open_discussion_button": "Відкрити обговорення",
+                "refresh_button": "Оновити",
+                "remove_button": "Видалити стовпець",
+                "reset_width_button": "Скинути ширину",
+                "resize_label": "Змінити розмір стовпця «{title}»"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
-                "author_title": "",
-                "discussion": "",
-                "filter": "",
-                "group_posts": "",
-                "group_posts_title": "",
-                "typing": "",
-                "unread": ""
+                "all": "Усі обговорення",
+                "author": "Обговорення користувача",
+                "author_posts": "Дописи користувача",
+                "author_posts_title": "Дописи користувача {username}",
+                "author_title": "Розпочато користувачем {username}",
+                "discussion": "Обговорення",
+                "filter": "Власний фільтр",
+                "group_posts": "Дописи учасників групи",
+                "group_posts_title": "Дописи учасників групи {group}",
+                "typing": "Хто зараз пише",
+                "unread": "Непрочитані"
             },
             "discussion_controls": {
-                "add_to_deck_button": "",
-                "added_message": ""
+                "add_to_deck_button": "Додати до Deck",
+                "added_message": "Це обговорення додано як стовпець до вашої панелі Deck."
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Deck"
             },
             "typing": {
-                "empty_text": "",
-                "offline_text": "",
-                "replying_text": "",
-                "someone": "",
-                "starting_in_text": "",
-                "starting_text": "",
-                "was_replying_text": "",
-                "was_starting_in_text": "",
-                "was_starting_text": ""
+                "empty_text": "Зараз ніхто не пише.",
+                "offline_text": "Щоб бачити, хто зараз пише, потрібне активне з’єднання із сервером реального часу.",
+                "replying_text": "{name} пише відповідь в обговоренні {discussion}",
+                "someone": "Хтось",
+                "starting_in_text": "{name} розпочинає обговорення з тегами {tags}",
+                "starting_text": "{name} розпочинає обговорення",
+                "was_replying_text": "{name} писав відповідь в обговоренні {discussion}",
+                "was_starting_in_text": "{name} розпочинав обговорення з тегами {tags}",
+                "was_starting_text": "{name} розпочинав обговорення"
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Додати стовпець",
+                "column_limit_reached_text": "Ви досягли максимальної кількості стовпців.",
+                "drop_row_hint": "Перетягніть сюди стовпець, щоб створити другий ряд",
+                "empty_text": "Ваша панель Deck порожня. Додайте стовпець, щоб стежити за обговореннями в реальному часі.",
+                "exit_fullscreen_button": "Вийти з повноекранного режиму",
+                "fullscreen_button": "На весь екран",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Приховати цей вступ",
+                    "subtitle": "Стежте за всіма цікавими вам обговореннями поруч одне з одним і в реальному часі. Додавайте стовпці, перетягуйте їх на потрібне місце та розміщуйте щонайбільше у двох рядах."
                 },
-                "navigator_label": "",
-                "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
-                "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
-                "title": ""
+                "navigator_label": "Стовпці",
+                "options_label": "Параметри Deck",
+                "reset_button": "Скинути стовпці",
+                "resize_rows_label": "Змінити розміри рядів",
+                "reset_confirmation": "Замінити ваші стовпці типовим набором? Цю дію неможливо скасувати.",
+                "scroll_left_label": "Прокрутити ліворуч",
+                "scroll_right_label": "Прокрутити праворуч",
+                "title": "Deck"
             }
         }
     }
