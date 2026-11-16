@@ -2,57 +2,57 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Kullanıcıları tartışmalardan yasakla"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_discussion_sidebar": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": "",
-                "send_notifications": ""
+                "show_in_discussion_controls": "Tartışma kontrollerinde \"Tartışmadan Yasakla\" seçeneğini göster",
+                "show_in_discussion_sidebar": "Tartışma kenar çubuğunda \"Tartışma Yasağı\" düğmesini göster",
+                "show_in_post_controls": "Gönderi kontrollerinde \"Tartışmadan Yasakla\" seçeneğini göster",
+                "hide_discussions_from_banned": "Tartışmaları yasaklanan kullanıcılardan tamamen gizle (404 hatası gösterilir)",
+                "send_notifications": "Bir kullanıcı tartışmadan yasaklandığında veya yasağı kaldırıldığında bildirim gönder"
             }
         },
         "forum": {
             "discussion_page": {
-                "ban_button": ""
+                "ban_button": "Tartışma Yasağı"
             },
             "discussion_controls": {
-                "ban_button": "",
-                "ban_from_discussion": ""
+                "ban_button": "Tartışma Yasağı",
+                "ban_from_discussion": "Tartışmadan Yasakla"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Tartışmadan Yasakla",
+                "unban_from_discussion": "Tartışma Yasağını Kaldır"
             },
             "post": {
-                "hidden_by_ban": ""
+                "hidden_by_ban": "Tartışma yasağı nedeniyle gizlendi"
             },
             "notifications": {
-                "discussion_banned_text": "",
-                "discussion_unbanned_text": ""
+                "discussion_banned_text": "{username} sizi {title} tartışmasından yasakladı",
+                "discussion_unbanned_text": "{username}, {title} tartışmasındaki yasağınızı kaldırdı"
             },
             "settings": {
-                "notify_discussion_banned_label": "",
-                "notify_discussion_unbanned_label": ""
+                "notify_discussion_banned_label": "Bir tartışmadan yasaklandığımda",
+                "notify_discussion_unbanned_label": "Tartışma yasağım kaldırıldığında"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Tartışma Yasağı",
+                "tab_ban": "Yeni Yasak",
+                "tab_list": "Yasaklanan Kullanıcılar ({count})",
+                "select_user": "Kullanıcı Seç",
+                "search_placeholder": "Kullanıcı adına veya görünen ada göre ara...",
+                "search_banned_placeholder": "Yasaklanan kullanıcıları ara...",
+                "change_user": "Değiştir",
+                "reason_label": "Gerekçe (isteğe bağlı)",
+                "reason_placeholder": "Bu kullanıcı neden tartışmadan yasaklanıyor?",
+                "reason_help": "Bu gerekçe, yasaklanan kullanıcılar listesinde moderatörlere gösterilir.",
+                "submit": "Kullanıcıyı Yasakla",
+                "ban_success": "Kullanıcı bu tartışmadan yasaklandı.",
+                "unban_success": "Kullanıcının tartışma yasağı kaldırıldı.",
+                "no_bans": "Bu tartışmadan yasaklanan kullanıcı bulunmuyor.",
+                "banned_by": "{username} tarafından yasaklandı",
+                "unban": "Yasağı Kaldır",
+                "confirm_unban": "Bu kullanıcının tartışma yasağını kaldırmak istediğinizden emin misiniz? Gizlenen gönderileri yeniden görünür olacaktır."
             }
         }
     },
@@ -60,8 +60,8 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "{username} kullanıcısını {discussion} tartışmasından yasakladı — {reason}",
+                    "unbanned": "{username} kullanıcısının {discussion} tartışmasındaki yasağını kaldırdı"
                 }
             }
         }
