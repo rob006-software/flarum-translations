@@ -131,6 +131,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.2/resources/locale/en.yml',
 		'__builtInLanguages' => ['es', 'es@formal'],
 	],
+	'campkitchenus-camp-water' => [
+		'tag' => 'https://gitlab.com/campkitchenus1/flarum-camp-water/raw/v1.0.0/locale/en.yml',
+	],
 	'cccyun-clogin-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
 	],
