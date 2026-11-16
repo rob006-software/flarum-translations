@@ -336,7 +336,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/homecoming/1.1.2/locale/en.yml',
 	],
 	'ernestdefoe-hype-market' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hype-market/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hype-market/1.0.1/locale/en.yml',
 	],
 	'ernestdefoe-importer' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/importer/v0.9.0/resources/locale/en.yml',
