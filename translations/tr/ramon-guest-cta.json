@@ -2,30 +2,30 @@
     "ramon-guest-cta": {
         "admin": {
             "settings": {
-                "hide_links_label": "",
-                "hide_links_help": "",
-                "show_post_cta_label": "",
-                "show_post_cta_help": "",
-                "position_label": "",
-                "position_help": "",
-                "position_1": "",
-                "position_2": "",
-                "position_3": "",
-                "position_4": "",
-                "position_5": "",
-                "position_end": "",
-                "cta_text_label": "",
-                "cta_text_help": "",
-                "cta_text_placeholder": ""
+                "hide_links_label": "Bağlantıları ziyaretçilerden gizle",
+                "hide_links_help": "Ziyaretçilerin gönderilerdeki bağlantılara erişmesini engeller. Bir bağlantıya tıkladıklarında bunun yerine giriş yapma veya kayıt olma penceresi gösterilir.",
+                "show_post_cta_label": "Ziyaretçilere belirli sayıda gönderiden sonra katılım çağrısı göster",
+                "show_post_cta_help": "Tartışmalarda gönderiler arasında yalnızca ziyaretçilere gösterilen bir Giriş Yap / Kayıt Ol kartı ekler. Kartın hangi gönderiden sonra görüneceğini konum ayarından belirleyebilirsiniz.",
+                "position_label": "Katılım çağrısının konumu (kaçıncı gönderiden sonra gösterileceği)",
+                "position_help": "Katılım çağrısı afişini belirtilen gönderi ile bir sonraki gönderi arasına yerleştirir.",
+                "position_1": "1. gönderiden sonra",
+                "position_2": "2. gönderiden sonra",
+                "position_3": "3. gönderiden sonra",
+                "position_4": "4. gönderiden sonra",
+                "position_5": "5. gönderiden sonra",
+                "position_end": "Tartışmanın sonunda",
+                "cta_text_label": "Katılım çağrısı metni",
+                "cta_text_help": "Tüm diller için varsayılan mesajın yerine geçer. Yalnızca düz metin kullanılabilir; satır sonları korunur. Varsayılan çeviriyi kullanmak için boş bırakın.",
+                "cta_text_placeholder": "=> ramon-guest-cta.forum.post_cta.text"
             }
         },
         "forum": {
             "post_cta": {
-                "text": "",
-                "or": ""
+                "text": "Gördüklerin hoşuna gitti mi? Sen de sohbete katıl!",
+                "or": "veya"
             },
             "link_cta": {
-                "placeholder": ""
+                "placeholder": "Bağlantıyı görüntülemek için giriş yap"
             }
         }
     }
