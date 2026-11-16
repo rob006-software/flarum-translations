@@ -122,7 +122,7 @@
                     "listCards_label": "Usar diseño en tarjetas para el listado de discusiones",
                     "listCards_help": "Muestra los elementos del listado de discusiones como tarjetas secundarias. Si se desactiva, se mostrará el diseño nativo en lista de flarum (sin tarjetas)",
                     "listCardsCount_label": "Número de tarjetas secundarias",
-                    "listCardsCount_help": "Cantidad de elementos a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20)",
+                    "listCardsCount_help": "Número de elementos de la lista de discusiones que se mostrarán como tarjetas pequeñas cuando <em>Usar tarjetas para las listas de discusiones</em> esté activado (0 para todos, máx.: 20)",
                     "cardOptions_title": "Información visible en las tarjetas",
                     "cardOptions_info": "Seleccione los datos y elementos visibles dentro de cada tarjeta.",
                     "defaultImage_title": "Imagen predeterminada general",
@@ -142,7 +142,7 @@
                     "markReadCards_label": "Diferenciar tarjetas leídas de no leídas",
                     "markReadCards_help": "Aplica un tono visual atenazado al título y texto en discusiones que el usuario ya ha leído.",
                     "otherOptions_title": "Opciones con extensiones de terceros",
-                    "otherOptions_info": "Las siguientes opciones requieren que las extensiones indicadas estén instaladas y activadas para funcionar correctamente.",
+                    "otherOptions_info": "Las siguientes opciones requieren que otras extensiones estén instaladas y activadas para funcionar. <strong>IMPORTANTE: lea <u>toda</u> la información de cada opción individual y complete los pasos requeridos antes de activarlas</strong>.",
                     "showViews_title_start": "Con la extensión ",
                     "showViews_title_or": " O ",
                     "showViews_title_end": " instalada y activa, puede configurar:",
@@ -169,11 +169,11 @@
                     "showRepostDomain_label": "Mostrar el dominio de la URL tras el título",
                     "showRepostDomain_help": "Muestra el dominio web de destino a continuación del título en tarjetas con enlaces externos.",
                     "debugOptions_title": "Opciones de registro y depuración",
-                    "debugOptions_info": "Guarda un registro detallado en archivo sobre las acciones de administración realizadas (regeneración, reparación o limpieza). Los archivos se almacenan en <code>storage/logs/walsgit-discussion-cards/</code>. <strong>SE RECOMIENDA activar estas opciones únicamente de forma temporal.</strong>",
+                    "debugOptions_info": "Guarda en un archivo de registro los detalles de las acciones realizadas con las herramientas de administración (regenerar, reparar o purgar imágenes). Estos archivos se almacenan en storage/logs/walsgit-discussion-cards/ y puede consultarlos desde la extensión ianm/log-viewer, la consola o un explorador de archivos. Los registros se eliminan automáticamente tras 7 días (la verificación se ejecuta cada vez que se escribe una entrada). Estos ajustes no aplican a los comandos de consola (utilice la opción --log para ello). <strong>SE RECOMIENDA activar estas opciones solo de forma temporal cuando sea necesario para depuración.</strong>",
                     "logActions_label": "Registrar acciones",
-                    "logActions_help": "Guarda un resumen de cada acción ejecutada desde las herramientas de administración (usuario, herramienta utilizada y resultado general).",
+                    "logActions_help": "Guarda un registro de cada acción ejecutada desde estas herramientas de administración: purgar imágenes, regenerar imágenes o reparar imágenes rotas, sin detalles adicionales (únicamente quién la ejecutó, qué herramienta utilizó y un resumen del resultado). Archivo: admin-tools-actions-AAAA-MM-JJ.log",
                     "logActionDetails_label": "Registrar detalles ampliados",
-                    "logActionDetails_help": "Registra minuciosamente cada discusión o archivo procesado. Tenga en cuenta que puede generar archivos de registro extensos en foros grandes."
+                    "logActionDetails_help": "Igual que «Registrar acciones», pero con mayor nivel de detalle, como cada discusión o archivo procesado y su resultado. Advertencia: puede generar archivos de gran tamaño en foros muy activos. Archivos: {purge/regenerate/repair}-AAAA-MM-JJ.log"
                 }
             },
             "tags": {
@@ -195,9 +195,9 @@
                 "tabletCardWidth_help": "Ancho en % de las tarjetas primarias en tabletas (ajuste global: {default}%, mín: 10% y máx: 100%).",
                 "useListCards_title": "Opciones del listado de tarjetas",
                 "useListCards_label": "Usar tarjetas en el listado de discusiones",
-                "useListCards_help": "Muestra las discusiones como tarjetas secundarias en el listado de la etiqueta.",
+                "useListCards_help": "Muestra los elementos de la lista de discusiones como tarjetas (más pequeñas que las tarjetas principales). Si no se activa, se mostrará el diseño de lista de discusiones predeterminado de Flarum (sin tarjetas).",
                 "listCardsCount_label": "Número de tarjetas secundarias",
-                "listCardsCount_help": "Cantidad de discusiones mostradas como tarjetas secundarias (0 para todas, máx: 20).",
+                "listCardsCount_help": "Número de elementos de la lista de discusiones que se mostrarán como tarjetas pequeñas cuando <em>Usar tarjetas para las listas de discusiones</em> esté activado (0 para todos, máx.: 20)",
                 "submit_button": "Guardar"
             },
             "errors": {
@@ -205,7 +205,7 @@
                 "desktopCardWidth": "El ancho en escritorio debe ser un número entre 10 y 100",
                 "tabletCardWidth": "El ancho en tabletas debe ser un número entre 10 y 100",
                 "useListCards": "El valor debe ser nulo, 0 o 1",
-                "listCardsCount": "El número de tarjetas secundarias debe estar entre 0 y 20 (0 para todas)",
+                "listCardsCount": "El valor de <em>Número de tarjetas en la lista</em> debe estar entre 0 y 20 (0 para todas).",
                 "noFileUploaded": "¡No se ha subido ningún archivo!",
                 "invalidFile": "¡Archivo no válido!",
                 "fileSize": "El tamaño del archivo debe ser inferior a 2 MB",
