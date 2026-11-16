@@ -529,7 +529,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/surveyor/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-syllabus' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/syllabus/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/syllabus/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-testimonials' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/testimonials/1.0.4/locale/en.yml',
