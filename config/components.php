@@ -203,7 +203,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.1.2/locale/en.yml',
 	],
 	'ernestdefoe-broadsheet' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/broadsheet/1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/broadsheet/1.0.5/locale/en.yml',
 	],
 	'ernestdefoe-buzz' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/buzz/1.1.4/locale/en.yml',
