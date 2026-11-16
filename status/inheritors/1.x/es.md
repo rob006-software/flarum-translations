@@ -2,8 +2,8 @@
 
 Translations for Spanish (`es`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **25** are translated differently and **608** are
-translated only in `es`. Altogether they cover **12** components.
+sides, but do not match between them: **25** are translated differently and **613** are
+translated only in `es`. Altogether they cover **14** components.
 
 <!-- {% raw %} -->
 
@@ -13,8 +13,10 @@ translated only in `es`. Altogether they cover **12** components.
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
 | `clarkwinkelmann-likes-received` | [1](#clarkwinkelmann-likes-received) | [1](#clarkwinkelmann-likes-received-missing) |
+| `clarkwinkelmann-selective-mediaembed` | 0 | [4](#clarkwinkelmann-selective-mediaembed-missing) |
 | `datitisev-post-galleries` | 0 | [1](#datitisev-post-galleries-missing) |
 | `ffans-threadmarks` | 0 | [89](#ffans-threadmarks-missing) |
+| `flarum-sticky` | 0 | [1](#flarum-sticky-missing) |
 | `flectar-turnstile` | 0 | [12](#flectar-turnstile-missing) |
 | `fof-anti-spam` | 0 | [60](#fof-anti-spam-missing) |
 | `fof-author-change` | 0 | [14](#fof-author-change-missing) |
@@ -318,6 +320,41 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +{likes, plural, one {# «Me gusta» recibido} other {# «Me gusta» recibidos}}
+```
+
+
+### `clarkwinkelmann-selective-mediaembed` (missing)
+
+#### [`clarkwinkelmann-selective-mediaembed.admin.clearCache`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-selective-mediaembed/es/?q=context%3A%3D%22clarkwinkelmann-selective-mediaembed.admin.clearCache%22)
+
+> Clear cache now
+
+```diff
++Limpiar la caché ahora
+```
+
+#### [`clarkwinkelmann-selective-mediaembed.admin.mustClearCache`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-selective-mediaembed/es/?q=context%3A%3D%22clarkwinkelmann-selective-mediaembed.admin.mustClearCache%22)
+
+> You must clear the cache after saving the changes!
+
+```diff
++¡Debe limpiar la caché después de guardar los cambios!
+```
+
+#### [`clarkwinkelmann-selective-mediaembed.admin.selectAll`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-selective-mediaembed/es/?q=context%3A%3D%22clarkwinkelmann-selective-mediaembed.admin.selectAll%22)
+
+> Select all
+
+```diff
++Seleccionar todos
+```
+
+#### [`clarkwinkelmann-selective-mediaembed.admin.unselectAll`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-selective-mediaembed/es/?q=context%3A%3D%22clarkwinkelmann-selective-mediaembed.admin.unselectAll%22)
+
+> Unselect all
+
+```diff
++Deseleccionar todo
 ```
 
 
@@ -1044,6 +1081,17 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 
 ```diff
 +Tipo
+```
+
+
+### `flarum-sticky` (missing)
+
+#### [`flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label`](https://weblate.rob006.net/translate/flarum2/flarum-sticky/es/?q=context%3A%3D%22flarum-sticky.admin.settings.pin_sticky_on_all_discussions_label%22)
+
+> Pin stickied discussions on the All Discussions page
+
+```diff
++Mantener las discusiones fijadas en la parte superior de «Todas las discusiones»
 ```
 
 
@@ -3957,7 +4005,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Value of &lt;em&gt;Number of list cards&lt;/em&gt; must be between 0 and 20 (0 for all)
 
 ```diff
-+El número de tarjetas secundarias debe estar entre 0 y 20 (0 para todas)
++El valor de <em>Número de tarjetas en la lista</em> debe estar entre 0 y 20 (0 para todas).
 ```
 
 #### [`walsgit_discussion_cards.admin.errors.noFileUploaded`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.errors.noFileUploaded%22)
@@ -4133,7 +4181,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Number of discussion list items to be shown as smaller cards when &lt;em&gt;Use cards for discussion lists&lt;/em&gt; is activated (0 for all, max: 20)
 
 ```diff
-+Cantidad de elementos a mostrar como tarjetas secundarias cuando la opción está activa (0 para todas, máximo: 20)
++Número de elementos de la lista de discusiones que se mostrarán como tarjetas pequeñas cuando <em>Usar tarjetas para las listas de discusiones</em> esté activado (0 para todos, máx.: 20)
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.listCardsCount_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.listCardsCount_label%22)
@@ -4197,7 +4245,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > The following options will require other extensions to be installed and activated for them to work. &lt;strong&gt;IMPORTANT: please read &lt;u&gt;all&lt;/u&gt; the info for each individual option and do the required steps before activating them&lt;/strong&gt;.
 
 ```diff
-+Las siguientes opciones requieren que las extensiones indicadas estén instaladas y activadas para funcionar correctamente.
++Las siguientes opciones requieren que otras extensiones estén instaladas y activadas para funcionar. <strong>IMPORTANTE: lea <u>toda</u> la información de cada opción individual y complete los pasos requeridos antes de activarlas</strong>.
 ```
 
 #### [`walsgit_discussion_cards.admin.settings.general.otherOptions_title`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.settings.general.otherOptions_title%22)
@@ -4843,7 +4891,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Number of discussion list items to be shown as smaller cards when &lt;em&gt;Use cards for discussion lists&lt;/em&gt; is activated (0 for all, max: 20)
 
 ```diff
-+Cantidad de discusiones mostradas como tarjetas secundarias (0 para todas, máx: 20).
++Número de elementos de la lista de discusiones que se mostrarán como tarjetas pequeñas cuando <em>Usar tarjetas para las listas de discusiones</em> esté activado (0 para todos, máx.: 20)
 ```
 
 #### [`walsgit_discussion_cards.admin.tag_modal.listCardsCount_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.tag_modal.listCardsCount_label%22)
@@ -4907,7 +4955,7 @@ These strings are translated only in `es`, so there is nothing to inherit from F
 > Display discussion list items as cards (smaller than primary cards). If not activated, default flarum discussion list items will be shown (no cards)
 
 ```diff
-+Muestra las discusiones como tarjetas secundarias en el listado de la etiqueta.
++Muestra los elementos de la lista de discusiones como tarjetas (más pequeñas que las tarjetas principales). Si no se activa, se mostrará el diseño de lista de discusiones predeterminado de Flarum (sin tarjetas).
 ```
 
 #### [`walsgit_discussion_cards.admin.tag_modal.useListCards_label`](https://weblate.rob006.net/translate/flarum2/walsgit-discussion-cards/es/?q=context%3A%3D%22walsgit_discussion_cards.admin.tag_modal.useListCards_label%22)
