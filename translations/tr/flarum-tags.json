@@ -4,17 +4,17 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "Varsayılan",
+                    "id_with_slug": "Kısa adla birlikte ID"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Etiketi Sil",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
+                "default_sort_label": "Varsayılan Sıralama",
+                "default_sort_none": "Forumun varsayılanını kullan",
+                "default_sort_text": "Kullanıcı kendisi bir sıralama seçmediğinde, bu etiketteki tartışmaların hangi sırayla gösterileceğini belirler.",
+                "default_sort_unavailable": "{sort} (artık kullanılamıyor)",
                 "delete_tag_confirmation": "Bu etiketi silmek istediğinize emin misin? Etiketin tartışmaları silinmeyecek.",
                 "description_label": "Açıklama",
                 "hide_label": "Tüm Tartışmalardan Gizle",
@@ -70,9 +70,9 @@
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "deck": {
-                "column_label": "",
-                "tag_label": "",
-                "tag_placeholder": ""
+                "column_label": "Etiket",
+                "tag_label": "Etiket",
+                "tag_placeholder": "Etiket ara"
             },
             "discussion_controls": {
                 "edit_tags_button": "Etiketleri Düzenle"
@@ -125,12 +125,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "{discussion} etiketlerini {old_tags} yerine {new_tags} olarak güncellendi"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "{tag} etiketini oluşturdu",
+                    "updated": "{tag} etiketini güncellendi",
+                    "deleted": "{tag} etiketini sildi"
                 }
             }
         }
