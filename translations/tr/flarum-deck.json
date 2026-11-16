@@ -2,103 +2,103 @@
     "flarum-deck": {
         "admin": {
             "permissions": {
-                "use_deck_label": ""
+                "use_deck_label": "Panoyu kullan"
             },
             "settings": {
-                "max_columns_help": "",
-                "max_columns_label": "",
-                "poll_interval_help": "",
-                "poll_interval_label": ""
+                "max_columns_help": "Her sütun, yenilendiğinde ayrı bir istek gönderir. 1 ile 12 arasında bir değer belirleyin.",
+                "max_columns_label": "Üye başına en fazla sütun sayısı",
+                "poll_interval_help": "Gerçek zamanlı bağlantı (Realtime) olmadığında sütunların yeni etkinlikleri ne sıklıkla kontrol edeceğini belirleyin. Devre dışı bırakmak için 0 girin. En düşük değer 15 saniyedir.",
+                "poll_interval_label": "Yenileme aralığı (saniye)"
             }
         },
         "forum": {
             "add_column": {
-                "author_label": "",
-                "author_placeholder": "",
-                "back_button": "",
-                "discussion_label": "",
-                "discussion_placeholder": "",
-                "filter_help": "",
-                "filter_invalid_message": "",
-                "filter_label": "",
-                "group_invalid_message": "",
-                "group_label": "",
-                "in_deck_badge": "",
-                "in_deck_count_badge": "",
-                "filter_placeholder": "",
-                "invalid_value_message": "",
-                "pick_a_result_message": "",
-                "submit_button": "",
-                "title": "",
-                "use_filters_button": ""
+                "author_label": "Üye",
+                "author_placeholder": "Üye ara",
+                "back_button": "Geri",
+                "discussion_label": "Tartışma",
+                "discussion_placeholder": "Tartışma ara",
+                "filter_help": "Arama filtrelerini bir arada kullanabilirsiniz: tag:, author:, is:unread veya is:following. Tek başına kelimeyle arama desteklenmez.",
+                "filter_invalid_message": "Yalnızca tag:support is:unread gibi filtreler kullanın. Tek başına kelimeyle arama desteklenmez.",
+                "filter_label": "Filtreler",
+                "group_invalid_message": "Bir grup seçin.",
+                "group_label": "Grup",
+                "in_deck_badge": "Panonda",
+                "in_deck_count_badge": "Panonda ×{count}",
+                "filter_placeholder": "Örn. tag:support is:unread",
+                "invalid_value_message": "{field} alanına geçerli bir değer girin.",
+                "pick_a_result_message": "{field} alanı için önerilerden bir sonuç seçin.",
+                "submit_button": "Sütun ekle",
+                "title": "Sütun ekle",
+                "use_filters_button": "Bu filtreleri kullan"
             },
             "column": {
-                "controls_label": "",
-                "drag_handle_label": "",
-                "move_left_button": "",
-                "move_right_button": "",
-                "move_to_bottom_row_button": "",
-                "move_to_top_row_button": "",
-                "moved_announcement": "",
-                "moved_in_bottom_row_announcement": "",
-                "moved_in_top_row_announcement": "",
-                "new_items_button": "",
-                "open_discussion_button": "",
-                "refresh_button": "",
-                "remove_button": "",
-                "reset_width_button": "",
-                "resize_label": ""
+                "controls_label": "{title} sütununun seçenekleri",
+                "drag_handle_label": "{title} sütununu taşımak için sürükleyin",
+                "move_left_button": "Sola taşı",
+                "move_right_button": "Sağa taşı",
+                "move_to_bottom_row_button": "Alt satıra taşı",
+                "move_to_top_row_button": "Üst satıra taşı",
+                "moved_announcement": "{count} sütun arasında {position}. konuma taşındı.",
+                "moved_in_bottom_row_announcement": "Alt satırda {count} sütun arasında {position}. konuma taşındı.",
+                "moved_in_top_row_announcement": "Üst satırda {count} sütun arasında {position}. konuma taşındı.",
+                "new_items_button": "{count, plural, one {# yeni} other {# yeni}}",
+                "open_discussion_button": "Tartışmayı aç",
+                "refresh_button": "Yenile",
+                "remove_button": "Sütunu kaldır",
+                "reset_width_button": "Genişliği sıfırla",
+                "resize_label": "{title} sütununun boyutunu değiştir"
             },
             "column_types": {
-                "all": "",
-                "author": "",
-                "author_posts": "",
-                "author_posts_title": "",
-                "author_title": "",
-                "discussion": "",
-                "filter": "",
-                "group_posts": "",
-                "group_posts_title": "",
-                "typing": "",
-                "unread": ""
+                "all": "Tüm tartışmalar",
+                "author": "Bir üyenin tartışmaları",
+                "author_posts": "Bir üyenin gönderileri",
+                "author_posts_title": "{username} kullanıcısının gönderileri",
+                "author_title": "{username} tarafından açılan tartışmalar",
+                "discussion": "Bir tartışma",
+                "filter": "Özel filtre",
+                "group_posts": "Bir grubun gönderileri",
+                "group_posts_title": "{group} grubunun gönderileri",
+                "typing": "Yazma etkinliği",
+                "unread": "Okunmamışlar"
             },
             "discussion_controls": {
-                "add_to_deck_button": "",
-                "added_message": ""
+                "add_to_deck_button": "Panoya ekle",
+                "added_message": "Bu tartışma panona sütun olarak eklendi."
             },
             "index": {
-                "deck_link": ""
+                "deck_link": "Pano"
             },
             "typing": {
-                "empty_text": "",
-                "offline_text": "",
-                "replying_text": "",
-                "someone": "",
-                "starting_in_text": "",
-                "starting_text": "",
-                "was_replying_text": "",
-                "was_starting_in_text": "",
-                "was_starting_text": ""
+                "empty_text": "Şu anda kimse bir şey yazmıyor.",
+                "offline_text": "Yazma etkinliklerini görmek için gerçek zamanlı sunucu bağlantısı gerekiyor.",
+                "replying_text": "{name}, {discussion} tartışmasına yanıt yazıyor",
+                "someone": "Birisi",
+                "starting_in_text": "{name}, {tags} etiketinde bir tartışma açıyor",
+                "starting_text": "{name} bir tartışma açıyor",
+                "was_replying_text": "{name}, {discussion} tartışmasına yanıt yazıyordu",
+                "was_starting_in_text": "{name}, {tags} etiketinde bir tartışma açıyordu",
+                "was_starting_text": "{name} bir tartışma açıyordu"
             },
             "page": {
-                "add_column_button": "",
-                "column_limit_reached_text": "",
-                "drop_row_hint": "",
-                "empty_text": "",
-                "exit_fullscreen_button": "",
-                "fullscreen_button": "",
+                "add_column_button": "Sütun ekle",
+                "column_limit_reached_text": "En fazla ekleyebileceğin sütun sayısına ulaştın.",
+                "drop_row_hint": "İkinci satırı oluşturmak için buraya bir sütun bırak",
+                "empty_text": "Panon henüz boş. Tartışmaları anlık takip etmek için bir sütun ekle.",
+                "exit_fullscreen_button": "Tam ekrandan çık",
+                "fullscreen_button": "Tam ekran",
                 "hero": {
-                    "hide_label": "",
-                    "subtitle": ""
+                    "hide_label": "Bu tanıtımı gizle",
+                    "subtitle": "İlgilendiğin tartışmaları yan yana ve anlık takip et. Sütunlar ekle, sürükleyerek yerlerini değiştir ve en fazla iki satır hâlinde düzenle."
                 },
-                "navigator_label": "",
-                "options_label": "",
-                "reset_button": "",
-                "resize_rows_label": "",
-                "reset_confirmation": "",
-                "scroll_left_label": "",
-                "scroll_right_label": "",
-                "title": ""
+                "navigator_label": "Sütunlar",
+                "options_label": "Pano seçenekleri",
+                "reset_button": "Sütunları sıfırla",
+                "resize_rows_label": "Satırların boyutunu değiştir",
+                "reset_confirmation": "Mevcut sütunların varsayılan sütunlarla değiştirilsin mi? Bu işlem geri alınamaz.",
+                "scroll_left_label": "Sola kaydır",
+                "scroll_right_label": "Sağa kaydır",
+                "title": "Pano"
             }
         }
     }
