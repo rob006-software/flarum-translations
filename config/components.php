@@ -441,7 +441,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/question-of-the-day/1.0.2/locale/en.yml',
 	],
 	'ernestdefoe-quickdraw' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/quickdraw/1.0.9/locale/en.yml',
 	],
 	'ernestdefoe-recipes' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/recipes/1.3.2/locale/en.yml',
