@@ -12,13 +12,13 @@
                 "already_reported": "Bu geri bildirimi zaten raporladınız.",
                 "rate_limit_feedback": "Yeni bir geri bildirim göndermeden önce lütfen {seconds} saniye bekleyin.",
                 "rate_limit_report": "Yeni bir rapor göndermeden önce lütfen {seconds} saniye bekleyin.",
-                "discussion_not_locked": "",
-                "discussion_tag_not_allowed": "",
-                "user_required": "",
-                "user_not_found": "",
-                "invalid_type": "",
-                "invalid_role": "",
-                "invalid_report_reason": ""
+                "discussion_not_locked": "Yalnızca kilitli tartışmalar için geri bildirim verilebilir.",
+                "discussion_tag_not_allowed": "Bu tartışmanın etiketleri için geri bildirime izin verilmiyor.",
+                "user_required": "Geri bildirim verilecek kullanıcıyı belirtmelisiniz.",
+                "user_not_found": "Belirtilen kullanıcı bulunamadı.",
+                "invalid_type": "Geri bildirim türü olumlu, tarafsız veya olumsuz olmalıdır.",
+                "invalid_role": "İşlemdeki rolünüz alıcı, satıcı veya ticaret yapan taraf olmalıdır.",
+                "invalid_report_reason": "Lütfen 1 ile 1000 karakter arasında bir raporlama nedeni girin."
             }
         },
         "forum": {
@@ -46,7 +46,7 @@
                 "error_discussion_required": "Tartışma bağlantısı veya kimliği gereklidir",
                 "error_submit": "Geri bildirim gönderilirken hata oluştu",
                 "success": "Geri bildirim başarıyla gönderildi",
-                "success_pending_approval": ""
+                "success_pending_approval": "Geri bildirim başarıyla gönderildi ve onay bekliyor."
             },
             "user_card": {
                 "score_tooltip": "Ticaret Puanı",
@@ -110,36 +110,36 @@
                 "new_feedback_title": "{username} size {type} bir geri bildirim verdi",
                 "feedback_approved_title": "{username} kullanıcısına verdiğiniz geri bildirim onaylandı",
                 "feedback_rejected_title": "{username} kullanıcısına verdiğiniz geri bildirim reddedildi",
-                "feedback_needs_approval_title": "",
-                "feedback_reported_title": ""
+                "feedback_needs_approval_title": "{username}, {recipient} kullanıcısına geri bildirim verdi, onayınızı bekliyor",
+                "feedback_reported_title": "{username} kullanıcısının {recipient} için verdiği geri bildirim raporlandı"
             },
             "settings": {
                 "notify_new_feedback_label": "Biri bana geri bildirim verdiğinde",
                 "notify_feedback_approved_label": "Geri bildirimim onaylandığında",
                 "notify_feedback_rejected_label": "Geri bildirimim reddedildiğinde",
-                "notify_feedback_needs_approval_label": "",
-                "notify_feedback_reported_label": ""
+                "notify_feedback_needs_approval_label": "Bir geri bildirim moderatör onayı gerektirdiğinde",
+                "notify_feedback_reported_label": "Bir geri bildirim raporlandığında"
             },
             "moderation": {
-                "actions_button": "",
-                "title": "",
-                "pending_tab": "",
-                "reports_tab": "",
-                "no_pending": "",
-                "no_reports": "",
-                "approve_button": "",
-                "reject_button": "",
-                "dismiss_button": "",
-                "delete_button": "",
-                "confirm_approve": "",
-                "confirm_reject": "",
-                "confirm_dismiss": "",
-                "confirm_delete": "",
-                "approved_success": "",
-                "rejected_success": "",
-                "dismissed_success": "",
-                "deleted_success": "",
-                "error": ""
+                "actions_button": "İşlemler",
+                "title": "Ticaret Geri Bildirimlerini Yönet — {username}",
+                "pending_tab": "Bekleyen Onaylar",
+                "reports_tab": "Raporlar",
+                "no_pending": "Bu kullanıcı için onay bekleyen geri bildirim yok.",
+                "no_reports": "Bu kullanıcı için bekleyen rapor yok.",
+                "approve_button": "Onayla",
+                "reject_button": "Reddet",
+                "dismiss_button": "Raporu Kapat",
+                "delete_button": "Geri Bildirimi Sil",
+                "confirm_approve": "Bu geri bildirimi onaylamak istediğinize emin misiniz?",
+                "confirm_reject": "Bu geri bildirimi reddetmek istediğinize emin misiniz?",
+                "confirm_dismiss": "Bu raporu kapatmak istediğinize emin misiniz?",
+                "confirm_delete": "Bu geri bildirimi silmek istediğinize emin misiniz?",
+                "approved_success": "Geri bildirim başarıyla onaylandı",
+                "rejected_success": "Geri bildirim başarıyla reddedildi",
+                "dismissed_success": "Rapor başarıyla kapatıldı",
+                "deleted_success": "Geri bildirim başarıyla silindi",
+                "error": "Bir hata oluştu"
             },
             "badge": {
                 "format_percentage": "%{score}",
@@ -156,7 +156,7 @@
                 "select_user_title": "Geri bildirim verilecek kullanıcıyı seçin",
                 "select_user_label": "Kullanıcı Seç",
                 "no_users_found": "Bu tartışmada başka kullanıcı bulunamadı",
-                "load_error": "",
+                "load_error": "Tartışmaya katılan kullanıcılar yüklenemedi.",
                 "continue": "Devam Et",
                 "search_user_placeholder": "Kullanıcı ara...",
                 "showing_limited_users": "{total} kullanıcıdan {shown} tanesi gösteriliyor. Diğerleri için arama yapın.",
@@ -209,7 +209,7 @@
                 "feedback_action_tag_filter_label": "Geri bildirim butonlarını yalnızca şu etiketlerde göster",
                 "feedback_action_tag_filter_help": "Boş bırakılırsa tüm tartışmalarda görünür. Görünürlüğü belirli etiketlerle sınırlamak için etiket seçin.",
                 "feedback_only_when_locked_label": "Sadece kilitli tartışmalarda göster",
-                "feedback_only_when_locked_help": "Etkinleştirildiğinde geri bildirim butonları yalnızca kilitli tartışmalarda görünür (flarum-lock eklentisi gerekir)",
+                "feedback_only_when_locked_help": "Etkinleştirildiğinde geri bildirim butonları yalnızca kilitli tartışmalarda görünür, flarum-lock eklentisi gerekir.",
                 "show_badge_in_posts_label": "Gönderilerde ticaret rozeti göster",
                 "show_badge_in_posts_help": "Forum gönderilerinde kullanıcı adının yanında ticaret puanını göster",
                 "badge_custom_prefix_label": "Özel önek metni",
@@ -296,10 +296,10 @@
         "lib": {
             "browser": {
                 "traderfeedback": {
-                    "approved": "",
-                    "rejected": "",
-                    "deleted": "",
-                    "report_dismissed": ""
+                    "approved": "{author} tarafından {recipient} için verilen geri bildirimi onayladı",
+                    "rejected": "{author} tarafından {recipient} için verilen geri bildirimi reddetti",
+                    "deleted": "{author} tarafından {recipient} için verilen geri bildirimi sildi",
+                    "report_dismissed": "{recipient} için verilen geri bildirime ilişkin raporu kapattı"
                 }
             }
         }
