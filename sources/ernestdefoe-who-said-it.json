@@ -17,6 +17,7 @@
                 "tags": "Only quote posts in these tags",
                 "groups": "Never quote members of these groups",
                 "groups_help": "For bots, feed importers or anyone else who shouldn't be in the game. Members of these groups are never quoted and never shown as a choice. Members can also opt themselves out in their settings.",
+                "tags_failed": "Some tags couldn't be loaded. Please reload the page.",
                 "tags_help": "Leave all unticked to use every tag. Only posts that guests can read are ever quoted, so private discussions and restricted tags are never used."
             },
             "status": {
@@ -26,6 +27,8 @@
                 "eligible": "{count, plural, one {# post qualifies} other {# posts qualify}} under the settings below.",
                 "eligible_many": "More than 1,000 posts qualify under the settings below.",
                 "make": "Make today's quiz now",
+                "not_enough": "Not enough posts qualify to make a quiz today. Lower the minimum age or length, or allow more tags.",
+                "failed": "Today's status couldn't be loaded. Please reload the page.",
                 "members_only": "Only posts that guests can read are ever quoted. On a forum that guests can't read (members only), no posts qualify, so no quiz is made.",
                 "scheduler": "Quizzes are made by Flarum's scheduler, or by the first visit to the quiz page each day. The quotes are never shown here, so admins can play too."
             },

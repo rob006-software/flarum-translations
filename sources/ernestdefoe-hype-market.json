@@ -24,7 +24,9 @@
                     "top": "Highest price",
                     "closing": "Closing soon"
                 },
-                "empty_hot": "No open markets right now. Every new discussion opens one, so check back soon."
+                "empty_hot": "No open markets right now. Every new discussion opens one, so check back soon.",
+                "load_failed": "Couldn't load this right now. Check your connection and try again.",
+                "retry": "Try again"
             },
             "wallet": {
                 "guest": "Every member gets free hype every day to back the discussions they think will take off. No real money, nothing to buy.",
@@ -63,7 +65,8 @@
                 "paid": "Paid {n} ({profit})",
                 "call_off": "Call off",
                 "call_off_confirm": "Call off this market? Every backer gets their hype back and nobody profits. This can't be undone.",
-                "called_off": "Market called off. Every stake comes back flat."
+                "called_off": "Market called off. Every stake comes back flat.",
+                "failed": "The Hype Market for this discussion couldn't load. Refresh the page to try again."
             },
             "back": {
                 "title": "Back this discussion",
@@ -126,7 +129,8 @@
                 "hype_bad_stake": "Choose an amount between the minimum and maximum stake.",
                 "hype_allowance": "You don't have that much hype left today.",
                 "hype_daily_backs": "You've used all of today's backs.",
-                "hype_already_settled": "This market has already settled."
+                "hype_already_settled": "This market has already settled.",
+                "hype_busy": "Hype Market is busy with that right now. Try again in a moment."
             }
         },
         "admin": {
