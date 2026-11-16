@@ -156,7 +156,7 @@ return [
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'edgeinfinity-diy-homepage' => [
-		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/edgeinfinity1/flarum-diy-homepage/v0.1.8/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'ekumanov-cls-fix' => [
