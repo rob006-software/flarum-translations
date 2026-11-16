@@ -1,0 +1,257 @@
+{
+    "ernestdefoe-glimpse": {
+        "admin": {
+            "lifetime": "Stories disappear after",
+            "lifetime_help": "Stories saved in a highlight stay until their author removes them.",
+            "hours": {
+                "6": "6 hours",
+                "12": "12 hours",
+                "24": "24 hours",
+                "48": "48 hours",
+                "168": "7 days"
+            },
+            "kind_photo": "Photos",
+            "kind_photo_help": "JPEG, PNG, WebP or GIF. Every photo is saved again on the server, which removes location and camera details.",
+            "kind_video": "Videos",
+            "kind_video_help": "MP4, WebM or iPhone video. Location and device details are removed; the video itself is not converted.",
+            "kind_text": "Text on a color",
+            "image_max_mb": "Largest photo (MB)",
+            "video_max_mb": "Largest video (MB)",
+            "video_max_seconds": "Longest video (seconds)",
+            "slide_seconds": "Seconds each photo or text story stays on screen",
+            "slide_seconds_help": "Videos play for their own length.",
+            "bar_placement": "Show the story bar",
+            "placement": {
+                "index": "On the main discussion list",
+                "index_tags": "On the discussion list and tag pages",
+                "page": "Only on the Glimpses page",
+                "none": "Nowhere (widgets only)"
+            },
+            "bar_order": "Order of the story bar",
+            "bar_order_help": "Members always see their own story first.",
+            "order": {
+                "smart": "New stories first, then people you follow, then the newest",
+                "newest": "Newest first"
+            },
+            "default_audience": "Who can see a new story, unless the member picks",
+            "audience": {
+                "everyone": "Everyone who can see stories",
+                "members": "Signed-in members",
+                "followers": "Followers only"
+            },
+            "ignore_hides": "Hide a member's stories from the people they ignore",
+            "ignore_hides_help": "From FoF Ignore Users. People you ignore never appear in your bar either way.",
+            "reactions": "Quick reactions",
+            "reactions_help": "Up to 8 emoji, separated by spaces. Use one emoji for a single like button.",
+            "reply_via": "Replies to a story are sent as",
+            "reply_via_help": "A reply goes privately to the story's author. Only installed options are listed.",
+            "reply": {
+                "auto": "A private message (the first one installed)",
+                "parley": "A Parley message",
+                "messages": "A Flarum private message",
+                "off": "Off: no reply box"
+            },
+            "approval_posts": "Hold stories for approval from members with fewer posts than",
+            "approval_help": "0 turns it off. Members with \"Post stories without approval\" are never held.",
+            "approval_days": "… or who joined fewer days ago than",
+            "approval_trust_level": "… or below this trust level",
+            "notify_followers": "Tell followers when someone posts a story",
+            "notify_followers_help": "One alert per person per day at most, sent in the background.",
+            "notify_cap": "Most followers told about one story",
+            "daily_limit": "Most stories a member can post per day",
+            "highlights_max": "Most highlights per member",
+            "highlight_stories_max": "Most stories in one highlight",
+            "permissions": {
+                "view": "View stories",
+                "create": "Post stories",
+                "react": "React to stories",
+                "skip_approval": "Post stories without approval",
+                "moderate": "Approve, hide and delete stories"
+            }
+        },
+        "api": {
+            "upload_failed": "The file didn't upload. Please try again.",
+            "too_large": "That file is too large.",
+            "bad_type": "That file type isn't supported. Use a JPEG, PNG, WebP or GIF photo, or an MP4 or WebM video.",
+            "too_long": "Videos can be up to {max} seconds long.",
+            "kind_off": "This kind of story is turned off.",
+            "media_missing": "Add a photo or video first.",
+            "text_missing": "Write something for your story.",
+            "followers_off": "Followers-only stories aren't available on this forum.",
+            "daily_limit": "You can post up to {count} stories a day.",
+            "bad_reaction": "That reaction isn't available.",
+            "story_gone": "That story is no longer available.",
+            "already_reported": "You already reported this story.",
+            "cannot_mute": "You can't mute this person.",
+            "highlights_full": "You can have up to {count} highlights.",
+            "highlight_full": "A highlight can hold up to {count} stories."
+        },
+        "email": {
+            "mentioned": {
+                "subject": "{actor} mentioned you in their story",
+                "body": "{actor} mentioned you in their story. See it before it disappears:\n\n{url}\n"
+            }
+        },
+        "forum": {
+            "load_failed": "Glimpses couldn't load. Please try again.",
+            "nav": {
+                "stories": "Glimpses",
+                "queue": "Glimpses to review"
+            },
+            "widget": {
+                "title": "Glimpses"
+            },
+            "bar": {
+                "label": "Glimpses",
+                "title": "Glimpses",
+                "see_all": "See all",
+                "your_story": "Your story",
+                "add": "Add to your story",
+                "ring_new": "{name}'s story, new",
+                "ring_seen": "{name}'s story, seen"
+            },
+            "audience": {
+                "everyone": "Everyone",
+                "members": "Members",
+                "followers": "Followers"
+            },
+            "viewer": {
+                "label": "{name}'s story",
+                "close": "Close",
+                "previous": "Previous",
+                "next": "Next",
+                "more": "More options",
+                "pause": "Pause",
+                "play": "Play",
+                "mute": "Mute",
+                "unmute": "Turn on sound",
+                "paused": "Paused",
+                "your_story": "Your story",
+                "photo_alt": "A photo by {name}",
+                "seen_by": "{count, plural, one {Seen by # person} other {Seen by # people}}",
+                "reactions": "{count, plural, one {# reaction} other {# reactions}}",
+                "react": "React",
+                "reacted": "You reacted {reaction}",
+                "unreacted": "Reaction removed",
+                "reply_label": "Reply privately",
+                "reply_placeholder": "Reply to {name}…",
+                "reply_prefix": "Replying to your story:",
+                "reply_sent": "Sent privately to {name}",
+                "reply_failed": "Your reply wasn't sent. Please try again.",
+                "send": "Send",
+                "reported": "Thanks. A moderator will take a look.",
+                "muted": "You won't see {name}'s stories in your bar. Unmute them from their profile.",
+                "copied": "Link copied",
+                "copy_failed": "The link couldn't be copied.",
+                "highlighted": "Added to {title}",
+                "hidden": "Hidden from everyone but staff and its author",
+                "deleted": "Story deleted",
+                "delete_confirm": "Delete this story? This can't be undone.",
+                "menu": {
+                    "highlight": "Add to highlight",
+                    "report": "Report story",
+                    "mute": "Mute {name}'s stories",
+                    "copy": "Copy link",
+                    "hide": "Hide story",
+                    "delete": "Delete story"
+                }
+            },
+            "create": {
+                "title": "New story",
+                "kind_label": "Kind of story",
+                "kinds": {
+                    "photo": "Photo",
+                    "video": "Video",
+                    "text": "Text"
+                },
+                "pick_photo": "Choose a photo",
+                "pick_video": "Choose a video",
+                "photo_help": "JPEG, PNG, WebP or GIF, up to {mb} MB. Location details are removed.",
+                "video_help": "MP4 or WebM, up to {seconds} seconds and {mb} MB. Location details are removed.",
+                "too_large": "That file is larger than {mb} MB.",
+                "upload_failed": "The file didn't upload. Please try again.",
+                "text": "Your text",
+                "text_placeholder": "Write something…",
+                "background": "Background color",
+                "background_n": "Background {number}",
+                "caption": "Caption",
+                "caption_help": "Mention people with @username. {count} characters left.",
+                "link": "Link (optional)",
+                "audience": "Who can see it",
+                "also_moments": "Also post to Moments",
+                "moments_failed": "Your story is up, but it couldn't be posted to Moments.",
+                "lifetime": "{count, plural, one {Disappears after # hour} other {Disappears after # hours}}",
+                "share": "Share",
+                "shared": "Your story is up.",
+                "pending": "Your story will appear once a moderator approves it."
+            },
+            "seen_by": {
+                "title": "Seen by",
+                "private": "Only you can see this",
+                "empty": "Nobody has seen this story yet.",
+                "more": "Show more",
+                "reacted": "Reacted {reaction}"
+            },
+            "report": {
+                "title": "Report story",
+                "reason": "Why are you reporting it?",
+                "reasons": {
+                    "spam": "Spam",
+                    "inappropriate": "Inappropriate",
+                    "harassment": "Harassment or bullying",
+                    "other": "Something else"
+                },
+                "detail": "Anything moderators should know? (optional)",
+                "submit": "Report"
+            },
+            "highlights": {
+                "title": "Highlights",
+                "hint": "Keep stories past their 24 hours by adding them to a highlight from the story's menu.",
+                "add_title": "Add to highlight",
+                "new_label": "Or start a new highlight",
+                "new_placeholder": "Trips, builds, pets…",
+                "create": "Create highlight",
+                "play": "Play the {title} highlight",
+                "delete": "Delete the {title} highlight",
+                "delete_confirm": "Delete the {title} highlight? The stories in it will disappear when their time runs out."
+            },
+            "page": {
+                "title": "Glimpses",
+                "intro": "{count, plural, one {What members are sharing. Glimpses disappear after # hour.} other {What members are sharing. Glimpses disappear after # hours.}}",
+                "add": "Add a story",
+                "all": "All",
+                "following": "Following",
+                "empty": "No stories right now.",
+                "load_more": "Load more",
+                "open": "Open {name}'s story",
+                "gone": "That story is no longer available."
+            },
+            "profile": {
+                "live": "Glimpses now",
+                "empty": "{name} has no stories right now.",
+                "empty_own": "You have no stories right now.",
+                "pending": "Waiting for approval",
+                "hidden": "Hidden by a moderator",
+                "kept": "Kept in a highlight"
+            },
+            "queue": {
+                "title": "Glimpses to review",
+                "pending": "Waiting for approval",
+                "reported": "Reported",
+                "approve": "Approve",
+                "decline": "Decline",
+                "dismiss": "Dismiss",
+                "hide": "Hide story",
+                "delete": "Delete story",
+                "pending_empty": "No stories are waiting for approval.",
+                "reported_empty": "No stories have been reported."
+            },
+            "notifications": {
+                "glimpseMentioned": "{user} mentioned you in their story",
+                "glimpseMentioned_preference": "Someone mentions me in a story",
+                "glimpseNewStory": "{user} posted a story",
+                "glimpseNewStory_preference": "Someone I follow posts a story"
+            }
+        }
+    }
+}
