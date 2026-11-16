@@ -4,8 +4,8 @@
             "settings": {
                 "show_tag_sticky_label": "Tüm Tartışmalar listesinde etiket sabitlemelerini göster",
                 "show_tag_sticky_help": "Kapatıldığında, etikete sabitlenmiş tartışmalar yalnızca o etiket sayfasında görünür.",
-                "show_sticky_highlight_label": "",
-                "show_sticky_highlight_help": "",
+                "show_sticky_highlight_label": "Sabitlenmiş tartışmaları vurgula",
+                "show_sticky_highlight_help": "Etkinleştirildiğinde, sabitlenmiş tartışmalar listede renkli bir sol kenarlık ve hafif renkli bir arka planla vurgulanır.",
                 "stickiest_icon_label": "Süper sabitlenmiş rozet simgesi",
                 "stickiest_icon_help": "Font Awesome ikon sınıfı (ör. fas fa-star)",
                 "badge_icon_label": "Süper sabitlenmiş rozet simgesi",
@@ -24,12 +24,12 @@
             "badge": {
                 "sticky_tooltip": "=> flarum-sticky.ref.sticky",
                 "stickiest_tooltip": "Süper Sabitle",
-                "tag_sticky_tooltip": "",
+                "tag_sticky_tooltip": "Etikette Sabitlenmiş",
                 "super_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_sticky",
                 "super_tag_sticky_tooltip": "=> huseyinfiliz-stickiest.ref.super_tag_sticky"
             },
             "discussion_controls": {
-                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
+                "sticky_button": "Sabitle"
             },
             "sticky_modal": {
                 "title": "Sabitle: {title}",
