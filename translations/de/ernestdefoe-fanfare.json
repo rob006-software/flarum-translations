@@ -1,7 +1,7 @@
 {
     "ernestdefoe-fanfare": {
         "api": {
-            "not_their_day": ""
+            "not_their_day": "Entweder ist es nicht ihr Tag, oder sie teilen ihn nicht mit anderen."
         },
         "forum": {
             "pill": {
@@ -56,8 +56,8 @@
                 "sound_off": "Sound abgeschaltet",
                 "turn_sound_on": "Sound anschalten",
                 "turn_sound_off": "Sound abschalten",
-                "sound_on_toast": "",
-                "sound_off_toast": "",
+                "sound_on_toast": "Ton ein. Die Musik wird weiterhin nur abgespielt, wenn du darauf tippst.",
+                "sound_off_toast": "Ton aus. Wird per Gerät gespeichert.",
                 "make_a_wish": "Wünsch dir was",
                 "blow_candle": "Blas die {number}. Kerze aus",
                 "wish_made": "Wunsch geteilt! Hab einen wunderschönen Tag, {name}.",
@@ -77,13 +77,13 @@
                 "nye_pre": "Mitternacht in",
                 "nye_title": "Frohes Neues Jahr!",
                 "nye_year": "Willkommen in {year}",
-                "nye_thanks": "",
-                "christmas_to": "",
-                "christmas_title": "",
+                "nye_thanks": "Vielen Dank, dass du im Jahr {year} Teil von {forum} warst",
+                "christmas_to": "An: {name}",
+                "christmas_title": "Frohe Weihnachten!",
                 "christmas_from": "Von: {forum}",
                 "hanukkah_title": "Frohes Chanukka!",
-                "hanukkah_night": "",
-                "lunar_title": "",
+                "hanukkah_night": "{ordinal}. Nacht · Chag sameach",
+                "lunar_title": "Frohes Mond-Neujahr!",
                 "lunar_year": "Jahr der/des {animal} · {year}",
                 "lunar_animals": {
                     "rat": "Ratte",
@@ -100,24 +100,24 @@
                     "pig": "Schweines"
                 },
                 "diwali_title": "Frohes Diwali!",
-                "diwali_sub": "",
+                "diwali_sub": "Möge das Lichterfest Freude, Süßigkeiten und strahlende Neuanfänge bringen.",
                 "eid_title": "Eid Mubarak!",
                 "eid_sub": "Dir und deiner Familie ein gesegnetes Eid.",
                 "halloween_title": "Happy Halloween!",
-                "thanksgiving_title": "",
-                "thanksgiving_sub": ""
+                "thanksgiving_title": "Happy Thanksgiving!",
+                "thanksgiving_sub": "Wir sind jedem Einzelnen von euch dankbar."
             }
         },
         "admin": {
-            "widget_title": "",
+            "widget_title": "Heutige Geburtstage und Jubiläen",
             "permissions": {
-                "view_people": "",
-                "wish": ""
+                "view_people": "Heutige Geburtstage und Jubiläen ansehen",
+                "wish": "Geburtstags- und Jubiläumswünsche senden"
             },
             "settings": {
                 "occasions_heading": "Anlässe",
                 "occasions_help": "Schalte die einzelnen Optionen ein oder aus. Die nächsten Termine werden live in der Zeitzone des Forums ({timezone}) berechnet. Die Vorschau zeigt das Forum so an, als wäre es heute; nur du kannst diese Ansicht sehen.",
-                "festoon_help": "",
+                "festoon_help": "Festoon ist installiert, daher stammen die bekannten Datumsangaben aus Festoon, und beide stimmen immer überein.",
                 "occasion": "Anlass",
                 "next": "Nächster",
                 "shift": "Versatz",
@@ -126,39 +126,39 @@
                 "shift_minus": "1 Tag davor",
                 "preview": "Vorschau",
                 "from_festoon": "Datum von Festoon",
-                "people_heading": "",
-                "people_help": "",
-                "datlechin_help": "",
-                "milestones": "",
+                "people_heading": "Personen",
+                "people_help": "Mitglieder geben ihr Geburtsdatum in den Einstellungen an. An Geburtstagen und zum Beitrittsjubiläum wird dieser besondere Moment gefeiert – mit einem Abzeichen für diesen Tag und Glückwünschen.",
+                "datlechin_help": "Geburtstage stammen aus der Erweiterung „Birthdays“ (datlechin) mit ihren eigenen Datenschutzoptionen.",
+                "milestones": "Gemeinsame Jubiläen nur in runden Jahren (1, 5, 10, 15, 20, 25, 30) feiern",
                 "forum_birthday": "Forumgeburtstag",
-                "forum_birthday_help": "",
+                "forum_birthday_help": "Lasse das Feld leer, um den Tag zu verwenden, an dem das erste Mitglied beigetreten ist.",
                 "effects_heading": "Effekte und Klänge",
-                "effects_help": "",
-                "intensity": "",
+                "effects_help": "Mitglieder, die eine reduzierte Bewegungsdarstellung bevorzugen, sehen niemals Bewegungseffekte, und Musikstücke werden niemals ohne Antippen abgespielt.",
+                "intensity": "Intensität",
                 "intensity_subtle": "Dezent",
                 "intensity_festive": "Festlich",
                 "intensity_full": "Volles Programm",
-                "once_a_day": "",
-                "quiet_from": "",
-                "quiet_to": "",
-                "quiet_help": "",
+                "once_a_day": "Den „Großen Moment“ einmal am Tag pro Mitglied anzeigen (danach wird er hinter der Schaltfläche in der Kopfzeile ausgeblendet)",
+                "quiet_from": "Ruhezeiten von",
+                "quiet_to": "bis",
+                "quiet_help": "In diesen Stunden gibt es in der Zeitzone des Forums keine Konfettiexplosionen oder Bewegungseffekte. Der Moment wird weiterhin angezeigt. Für „keine“ bitte leer lassen.",
                 "timezone": "Zeitzone",
-                "timezone_help": "",
-                "preview_people": ""
+                "timezone_help": "Der Tag im Forum beginnt hier um Mitternacht. Leer verwendet zunächst die Zeitzone von Festoon, anschließend die des Servers.",
+                "preview_people": "Vorschau für Mitgliedsereignisse:"
             },
             "occasions": {
                 "birthday": "Dein Geburtstag",
                 "anniversary": "Dein Beitrittsjubiläum",
                 "forum": "Der Forengeburtstag",
                 "newyear": "Silvester und Neujahrstag",
-                "christmas": "",
-                "thanksgiving": "",
-                "thanksgiving_ca": "",
-                "halloween": "",
-                "lunar": "",
-                "diwali": "",
-                "eidfitr": "",
-                "eidadha": "",
+                "christmas": "Weihnachten",
+                "thanksgiving": "Thanksgiving (Vereinigte Staaten)",
+                "thanksgiving_ca": "Thanksgiving (Kanada)",
+                "halloween": "Halloween",
+                "lunar": "Mond-Neujahr",
+                "diwali": "Diwali",
+                "eidfitr": "Eid al-Fitr",
+                "eidadha": "Eid ul-Adha",
                 "hanukkah": "Chanukka"
             }
         }
