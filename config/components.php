@@ -97,9 +97,7 @@ return [
 	],
 	'bendary-admin-audit' => [
 		'tag' => 'https://raw.githubusercontent.com/Amr-Bendary/Admin-Audit/v2.0.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'ar',
-		],
+		'__builtInLanguages' => ['ar'],
 	],
 	'blessing-oauth-client' => [
 		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
