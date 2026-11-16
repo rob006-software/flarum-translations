@@ -26,8 +26,19 @@
             "cover": "封面",
             "edit_cover": "编辑封面",
             "notice": "最大大小：{size}。推荐比例为 21:9，且至少为 1600×400 像素",
-            "position_label": "桌面端封面位置",
-            "save_position_button": "保存位置",
+            "crop_instructions": "",
+            "crop_area": "",
+            "crop_resize_nw": "",
+            "crop_resize_ne": "",
+            "crop_resize_sw": "",
+            "crop_resize_se": "",
+            "choose_image": "",
+            "choose_another": "",
+            "crop_existing": "",
+            "save_cover": "",
+            "cancel_crop": "",
+            "crop_error": "",
+            "file_too_large": "",
             "added": {
                 "success": "封面已更新",
                 "error": "图片上传失败"
@@ -35,7 +46,9 @@
             "removed": {
                 "success": "封面已移除",
                 "error": "封面移除失败，请重试"
-            }
+            },
+            "position_label": "桌面端封面位置",
+            "save_position_button": "保存位置"
         }
     }
 }

@@ -26,8 +26,19 @@
             "cover": "Ảnh bìa",
             "edit_cover": "Đổi ảnh bìa",
             "notice": "Kích thước tối đa: {size}. Định dạng khuyến nghị — tỉ lệ 21:9 và tối thiểu 1600x400 pixel",
-            "position_label": "Vị trí ảnh bìa trên máy tính",
-            "save_position_button": "Lưu vị trí",
+            "crop_instructions": "",
+            "crop_area": "",
+            "crop_resize_nw": "",
+            "crop_resize_ne": "",
+            "crop_resize_sw": "",
+            "crop_resize_se": "",
+            "choose_image": "",
+            "choose_another": "",
+            "crop_existing": "",
+            "save_cover": "",
+            "cancel_crop": "",
+            "crop_error": "",
+            "file_too_large": "",
             "added": {
                 "success": "Đã cập nhật ảnh bìa hồ sơ",
                 "error": "Không tải lên được hình ảnh"
@@ -35,7 +46,9 @@
             "removed": {
                 "success": "Đã gỡ ảnh bìa hồ sơ",
                 "error": "Gỡ ảnh bìa thất bại, hãy thử lại"
-            }
+            },
+            "position_label": "Vị trí ảnh bìa trên máy tính",
+            "save_position_button": "Lưu vị trí"
         }
     }
 }

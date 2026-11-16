@@ -26,8 +26,19 @@
             "cover": "Couverture",
             "edit_cover": "Modifier la couverture",
             "notice": "Taille maximale : {size}. Format recommandé — 21:9 et au moins 1600 × 400 pixels",
-            "position_label": "Position de la couverture sur ordinateur",
-            "save_position_button": "Enregistrer la position",
+            "crop_instructions": "",
+            "crop_area": "",
+            "crop_resize_nw": "",
+            "crop_resize_ne": "",
+            "crop_resize_sw": "",
+            "crop_resize_se": "",
+            "choose_image": "",
+            "choose_another": "",
+            "crop_existing": "",
+            "save_cover": "",
+            "cancel_crop": "",
+            "crop_error": "",
+            "file_too_large": "",
             "added": {
                 "success": "La couverture de profil a été mise à jour",
                 "error": "L'image n'a pas pu être transférée"
@@ -35,7 +46,9 @@
             "removed": {
                 "success": "La couverture de profil a été supprimée",
                 "error": "Échec de la suppression de la couverture, veuillez réessayer"
-            }
+            },
+            "position_label": "Position de la couverture sur ordinateur",
+            "save_position_button": "Enregistrer la position"
         }
     }
 }
