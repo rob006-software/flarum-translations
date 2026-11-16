@@ -573,15 +573,15 @@
                 "voice_help": "LiveKit credentials, TURN, capacities and microphone behaviour.",
                 "rooms": "Rooms",
                 "rooms_help": "Permanent rooms, categories and text channels.",
-                "messages": "Messages & realtime",
-                "messages_help": "Direct messages, limits and optional Centrifugo realtime.",
+                "messages": "Messages",
+                "messages_help": "Direct messages, limits and the realtime transport.",
                 "moderation": "Moderation",
                 "moderation_help": "Reports, notifications and moderation logs."
             },
             "notes": {
                 "localization": "Social uses Flarum's native localization. The forum language selector switches both the forum and Social between the bundled Turkish and English translations.",
                 "s3": "S3 mode needs league/flysystem-aws-s3-v3 and aws/aws-sdk-php. Media stays access-controlled through the API; the public URL setting is optional for CDN fronting only.",
-                "realtime": "Realtime is optional. Choose Pusher to reuse the existing flarum/pusher app, or Centrifugo with its own server. Without either, chat falls back to periodic refresh."
+                "realtime": "Social uses Flarum's bundled Realtime extension by default and shares its websocket. Keep flarum/realtime enabled and its realtime daemon running. If your forum uses flarum/pusher instead, select Pusher to reuse that app. Without either, chat falls back to periodic refresh."
             },
             "options": {
                 "nav_position": {
@@ -599,7 +599,7 @@
                     "close": "Close room"
                 },
                 "realtime_driver": {
-                    "centrifuge": "Centrifugo",
+                    "flarum": "Flarum Realtime (recommended)",
                     "pusher": "Pusher (flarum/pusher)"
                 }
             },
@@ -619,7 +619,7 @@
                 "not_configured": "Not configured",
                 "enabled": "Enabled",
                 "disabled": "Disabled",
-                "realtime": "Realtime (Centrifugo)",
+                "realtime": "Realtime",
                 "cleanup": "Cleanup scheduler",
                 "permanent_rooms": "Permanent rooms",
                 "temporary_rooms": "Temporary rooms"
@@ -834,14 +834,8 @@
                 "dm_retention_days": "Direct message retention (days, 0 = keep)",
                 "dm_rate_limit": "Direct messages per minute",
                 "dm_allowed_groups": "Groups allowed to use direct messages (IDs)",
-                "realtime_enabled": "Enable realtime",
                 "realtime_driver": "Realtime driver",
-                "realtime_driver_help": "Use Pusher to reuse the existing flarum/pusher app, or Centrifugo with the fields below.",
-                "centrifugo_url": "Centrifugo WebSocket URL",
-                "centrifugo_api_url": "Centrifugo HTTP API URL",
-                "centrifugo_api_key": "Centrifugo API key",
-                "centrifugo_token_hmac_secret": "Centrifugo token HMAC secret",
-                "realtime_fallback_seconds": "Polling fallback interval (seconds)",
+                "realtime_driver_help": "Flarum Realtime uses the bundled flarum/realtime daemon and shares its websocket. Choose Pusher only if your forum already uses flarum/pusher and does not run flarum/realtime.",
                 "reports_enabled": "Enable content reports",
                 "auto_hide_report_threshold": "Auto-flag threshold (0 = off)",
                 "notify_comment": "Notify about comments",
@@ -950,8 +944,9 @@
                 "reports_disabled": "Reporting is disabled.",
                 "already_reported": "You already reported this.",
                 "report_not_found": "Report not found.",
-                "realtime_disabled": "Realtime is not configured.",
-                "realtime_channel_forbidden": "You cannot subscribe to this realtime channel.",
+                "websocket_disabled": "Realtime is not configured.",
+                "websocket_auth_failed": "The realtime websocket could not authorize this channel.",
+                "websocket_channel_forbidden": "You cannot subscribe to this realtime channel.",
                 "category_not_found": "Category not found.",
                 "category_required": "Select a category for your room.",
                 "category_not_allowed": "User rooms cannot be created in this category.",

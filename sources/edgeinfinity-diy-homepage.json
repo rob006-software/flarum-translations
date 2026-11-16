@@ -41,6 +41,10 @@
                 "login": "Log in"
             },
             "widgets": {
+                "html": {
+                    "name": "Custom HTML",
+                    "title": "Custom content"
+                },
                 "divider": {
                     "name": "Divider / spacer",
                     "title": "Section"
@@ -195,10 +199,12 @@
             "configuration": "Homepage configuration JSON",
             "apply_json": "Apply JSON to editor",
             "invalid_config": "Use version 1, up to 50 widgets, unique IDs and valid regions and audiences.",
+            "invalid_html": "HTML source must be text of at most 50,000 characters.",
             "unavailable_type": "The extension providing this widget is unavailable. Its configuration is preserved.",
             "choose_fof": "Choose a registered FoF widget…",
             "bridge_help": "With the optional Friends of Flarum Widgets extension enabled, native instances also appear in its widget store and can be placed on other forum pages. Configuration only keeps an instance off this homepage. Audience and enabled settings still apply.",
             "fields": {
+                "html": "HTML source",
                 "dividerStyle": "Divider style",
                 "height": "Content height (px)",
                 "eyebrow": "Eyebrow / small label",
@@ -224,6 +230,7 @@
                 "stats": "Statistics"
             },
             "field_help": {
+                "html": "Enter a trusted HTML fragment (up to 50,000 characters; the whole configuration is limited to 128 KiB). It renders directly without sanitization or text-variable substitution. CSS and event attributes can affect the page and its security; never paste untrusted code or secrets. Use widget-specific selectors for styles. The editor shows source only; script tags are not a supported script-loading mechanism.",
                 "query": "Use Flarum search syntax, for example tag:news. For users, use the user search supported by your forum.",
                 "ids": "Numeric IDs separated by commas or spaces; up to 20. If set, they take priority over search and retain this order. Invisible records are omitted.",
                 "discussion_ids": "Up to 20 numeric IDs, separated by commas or spaces. These lead in the specified order; search results fill remaining slots without duplicates. Invisible records are omitted.",

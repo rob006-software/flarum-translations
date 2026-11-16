@@ -41,6 +41,10 @@
                 "login": "Anmelden"
             },
             "widgets": {
+                "html": {
+                    "name": "",
+                    "title": ""
+                },
                 "divider": {
                     "name": "",
                     "title": ""
@@ -195,10 +199,12 @@
             "configuration": "",
             "apply_json": "",
             "invalid_config": "",
+            "invalid_html": "",
             "unavailable_type": "",
             "choose_fof": "",
             "bridge_help": "",
             "fields": {
+                "html": "",
                 "dividerStyle": "",
                 "height": "",
                 "eyebrow": "",
@@ -224,6 +230,7 @@
                 "stats": "Statistiken"
             },
             "field_help": {
+                "html": "",
                 "query": "",
                 "ids": "",
                 "discussion_ids": "",

@@ -599,7 +599,7 @@
                     "close": ""
                 },
                 "realtime_driver": {
-                    "centrifuge": "",
+                    "flarum": "",
                     "pusher": ""
                 }
             },
@@ -834,14 +834,8 @@
                 "dm_retention_days": "",
                 "dm_rate_limit": "",
                 "dm_allowed_groups": "",
-                "realtime_enabled": "",
                 "realtime_driver": "",
                 "realtime_driver_help": "",
-                "centrifugo_url": "",
-                "centrifugo_api_url": "",
-                "centrifugo_api_key": "",
-                "centrifugo_token_hmac_secret": "",
-                "realtime_fallback_seconds": "",
                 "reports_enabled": "",
                 "auto_hide_report_threshold": "",
                 "notify_comment": "",
@@ -950,8 +944,9 @@
                 "reports_disabled": "",
                 "already_reported": "",
                 "report_not_found": "",
-                "realtime_disabled": "",
-                "realtime_channel_forbidden": "",
+                "websocket_disabled": "",
+                "websocket_auth_failed": "",
+                "websocket_channel_forbidden": "",
                 "category_not_found": "",
                 "category_required": "",
                 "category_not_allowed": "",
