@@ -40,7 +40,7 @@
                 "nav_item": "Heutige Geburtstage"
             },
             "notifications": {
-                "birthday_text": ""
+                "birthday_text": "Herzlichen Glückwunsch zum Geburtstag von allen bei {forum}!"
             },
             "page": {
                 "empty_text": "Keine Geburtstage in der kommenden Woche.",
@@ -83,8 +83,8 @@
             }
         },
         "api": {
-            "future_birthday_message": "",
-            "invalid_birthday_filter_message": "",
+            "future_birthday_message": "Dein Geburtstag kann nicht in der Zukunft liegen.",
+            "invalid_birthday_filter_message": "Der Geburtstagsfilter akzeptiert ein Datum oder einen Zeitraum von bis zu {max} Tagen, z. B. 2026-06-05..2026-06-11.",
             "min_age_message": "Du musst mindestens {age} Jahre alt sein.",
             "invalid_dob_message": "Ungültiges Geburtsdatum",
             "invalid_age_message": "Ihr Alter muss mindestens {minAge} Jahre betragen.",
