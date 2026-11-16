@@ -562,7 +562,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/velvet-rope/1.0.1/resources/locale/en.yml',
 	],
 	'ernestdefoe-verbatim' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/verbatim/v1.0.3/locale/en.yml',
 	],
 	'ernestdefoe-wardrobe' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/wardrobe/v1.1.5/locale/en.yml',
