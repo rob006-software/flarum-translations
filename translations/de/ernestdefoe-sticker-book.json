@@ -62,8 +62,8 @@
                 "you_give": "Du gibst",
                 "you_get": "Du erhältst von {name}",
                 "you_get_anyone": "Du erhältst",
-                "pick_member_first": "",
-                "no_spares_mine": "",
+                "pick_member_first": "Wähle ein Mitglied, um deren Doppelte zu sehen.",
+                "no_spares_mine": "Du hast noch keine Doppelten. Doppelte Exemplare sind zusätzliche Aufkleber, die du bereits einmal hast.",
                 "no_spares_theirs": "",
                 "message_placeholder": "Notiz hinzufügen (optional)",
                 "send": "Angebot senden",
@@ -73,10 +73,10 @@
             "trades": {
                 "intro": "",
                 "new": "Neuer Tausch",
-                "incoming": "",
+                "incoming": "Tauschangebote für dich",
                 "outgoing": "Deine Tauschangebote",
                 "past": "Kürzliche Täusche",
-                "none_incoming": "",
+                "none_incoming": "Keine Angebote warten auf dich.",
                 "none_outgoing": "",
                 "you_give": "Du gibst",
                 "you_get": "Du erhältst",
@@ -100,13 +100,13 @@
             "reveal": {
                 "label": "Aufkleberpack öffnen",
                 "daily": "Heutiges kostenloses Pack",
-                "earned": "",
+                "earned": "Ein Pack, das du verdient hast",
                 "pack_label": "Aufkleberpack",
                 "pack_count": "{count, plural, one {# Aufkleber} other {# Aufkleber}}",
-                "tap": "",
+                "tap": "Pack antippen, um es zu öffnen",
                 "opening": "Wird geöffnet…",
-                "left": "",
-                "flip": "",
+                "left": "{count, plural, one {# Pack wartet} other {# Packs warten}}",
+                "flip": "Antippen, um sie umzudrehen",
                 "flip_all": "Alle anzeigen",
                 "new": "Neu",
                 "completed": "Satz vervollständigt: {set}!",
@@ -114,21 +114,21 @@
                 "summary_none": "Diesmal gibt es keine Neuen, aber die Ersatzaufkleber eignen sich hervorragend zum Tauschen.",
                 "next": "Öffen das nächste Pack ({count})",
                 "see_album": "Mein Album ansehen",
-                "none_title": "",
-                "none_text": ""
+                "none_title": "Derzeit keine Packs",
+                "none_text": "Dein nächstes Gratis-Pack erhältst du in {time}. Durch das Posten und das Sammeln von Likes kannst du dir zusätzliche Packs verdienen."
             },
             "header": {
-                "label": ""
+                "label": "{count, plural, one {# Aufkleber-Pack wartet} other {# Aufkleber-Packs warten}}"
             },
             "profile": {
                 "nav": "Aufkleber",
                 "showcase": "{count}/{total} Aufkleber",
-                "summary": ""
+                "summary": "{count} von {total} Aufklebern gesammelt, {sets, plural, one {# Satz abgeschlossen} other {# Sätze abgeschlossen}}."
             },
             "react": {
                 "button": "Aufkleber",
-                "title": "",
-                "none": "",
+                "title": "Aufkleber auf diesen Beitrag kleben",
+                "none": "Du hast noch keine Sticker. Öffne zuerst dein kostenloses Pack!",
                 "go": "Aufkleberalbum öffnen",
                 "filter": "Aufkleber finden…",
                 "remove": ""
