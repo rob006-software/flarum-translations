@@ -95,13 +95,13 @@
         "lib": {
             "browser": {
                 "fof-reactions": {
-                    "reaction_created": "",
-                    "reaction_updated": "",
-                    "reaction_enabled": "",
-                    "reaction_disabled": "",
-                    "reaction_deleted": "",
-                    "post_reaction_removed": "",
-                    "post_reactions_removed": ""
+                    "reaction_created": "{reaction} tepkisini oluşturdu",
+                    "reaction_updated": "{reaction} tepkisinin {key} değerini {old_value} yerine {new_value} olarak değiştirdi",
+                    "reaction_enabled": "{reaction} tepkisini etkinleştirdi",
+                    "reaction_disabled": "{reaction} tepkisini devre dışı bıraktı",
+                    "reaction_deleted": "{reaction} tepkisini sildi",
+                    "post_reaction_removed": "{discussion} tartışmasında {username} kullanıcısının {postuser} kullanıcısına ait {post} gönderisine verdiği {reaction} tepkisini kaldırdı",
+                    "post_reactions_removed": "{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisinden {count, plural, one {# {reaction} tepkisini} other {# {reaction} tepkisini}} kaldırdı"
                 }
             }
         }
