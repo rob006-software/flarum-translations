@@ -3,15 +3,15 @@
         "admin": {
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
-                "app_cluster_help": "",
+                "app_cluster_help": "Pusher uygulamanızın barındırıldığı sunucu bölgesi (örneğin <code>eu</code> veya <code>us2</code>). Bu bilgiyi uygulamanızın \"App Keys\" sayfasında bulabilirsiniz. Aşağıda özel bir sunucu adresi belirlediyseniz bu alanı boş bırakın.",
                 "app_id_label": "Uygulama Kimliği",
-                "app_id_help": "",
+                "app_id_help": "Pusher uygulamanızın \"App Keys\" sayfasında bulunan sayısal uygulama kimliği (App ID).",
                 "app_key_label": "Uygulama Anahtarı",
-                "app_key_help": "",
+                "app_key_help": "Pusher uygulamanızın \"App Keys\" sayfasında bulunan genel erişime açık anahtar. Bu anahtar tarayıcılara gönderildiğinden gizli tutulması gerekmez.",
                 "app_secret_label": "Uygulama Gizli Anahtarı",
-                "app_secret_help": "",
-                "server_hostname_label": "",
-                "server_hostname_help": "",
+                "app_secret_help": "Pusher uygulamanızın \"App Keys\" sayfasında bulunan gizli anahtar. Bu anahtarı kimseyle paylaşmayın; yalnızca sunucu tarafında kullanılır.",
+                "server_hostname_label": "Sunucu Adı",
+                "server_hostname_help": "İsteğe bağlıdır. İstemcinin bağlanacağı sunucu adresini değiştirmenizi sağlar. Kendi sunucunuzda barındırdığınız Pusher uyumlu bir hizmet (örneğin soketi) kullanıyorsanız bu alanı doldurun. Yukarıda seçilen bölgedeki Pusher hizmetini kullanmak için boş bırakın.",
                 "title": "Pusher Ayarları"
             }
         },
