@@ -15,7 +15,7 @@
                 "type_from_label": "Bu tartışmayı başka bir tartışmayla birleştir",
                 "type_from_help_text": "{title} öğesini birleştirmek istediğiniz hedef tartışmayı seçin.",
                 "load_preview_button": "Önizleme",
-                "preview_truncated": "",
+                "preview_truncated": "Toplam {total} gönderiden {from} ile {to} arasındakiler gösteriliyor.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
@@ -42,10 +42,10 @@
         },
         "api": {
             "error": {
-                "into_itself": "",
+                "into_itself": "Bir tartışma kendisiyle birleştirilemez.",
                 "merging_failed": "Tartışmalar birleştirilirken bir hata oluştu.",
                 "updating_failed": "Tartışma ayrıntıları güncellenirken bir hata oluştu.",
-                "redirecting_failed": "",
+                "redirecting_failed": "Birleştirilen tartışmalara yönlendirme yapılamadı.",
                 "deleting_failed": "Boş tartışmalar silinirken bir hata oluştu.",
                 "fixing_posts_number_failed": "Gönderi numaraları düzeltilemedi.",
                 "fixing_posts_number_meta_failed": "Gönderi numaraları düzeltilemedi."
