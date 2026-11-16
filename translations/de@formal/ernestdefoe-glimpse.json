@@ -1,20 +1,20 @@
 {
     "ernestdefoe-glimpse": {
         "admin": {
-            "lifetime": "",
+            "lifetime": "Stories verschwinden nach",
             "lifetime_help": "",
             "hours": {
-                "6": "",
-                "12": "",
-                "24": "",
-                "48": "",
-                "168": ""
+                "6": "6 Stunden",
+                "12": "12 Stunden",
+                "24": "24 Stunden",
+                "48": "48 Stunden",
+                "168": "7 Tage"
             },
-            "kind_photo": "",
+            "kind_photo": "Fotos",
             "kind_photo_help": "",
-            "kind_video": "",
+            "kind_video": "Videos",
             "kind_video_help": "",
-            "kind_text": "",
+            "kind_text": "Text auf Farbe",
             "image_max_mb": "",
             "video_max_mb": "",
             "video_max_seconds": "",
@@ -25,7 +25,7 @@
                 "index": "",
                 "index_tags": "",
                 "page": "",
-                "none": ""
+                "none": "Nirgends (Nur Widget)"
             },
             "bar_order": "",
             "bar_order_help": "",
@@ -36,20 +36,20 @@
             "default_audience": "",
             "audience": {
                 "everyone": "",
-                "members": "",
-                "followers": ""
+                "members": "Angemeldete Mitglieder",
+                "followers": "Nur Follower"
             },
             "ignore_hides": "",
             "ignore_hides_help": "",
-            "reactions": "",
+            "reactions": "Schnellreaktionen",
             "reactions_help": "",
             "reply_via": "",
             "reply_via_help": "",
             "reply": {
-                "auto": "",
-                "parley": "",
-                "messages": "",
-                "off": ""
+                "auto": "Eine Privatnachricht (erste installierte Erweiterung)",
+                "parley": "Eine Parley-Nachricht",
+                "messages": "Eine Flarum-Privatnachricht",
+                "off": "Aus: Kein Antwortfeld"
             },
             "approval_posts": "",
             "approval_help": "",
@@ -62,8 +62,8 @@
             "highlights_max": "",
             "highlight_stories_max": "",
             "permissions": {
-                "view": "",
-                "create": "",
+                "view": "Stories anzeigen",
+                "create": "Stories veröffentlichen",
                 "react": "",
                 "skip_approval": "",
                 "moderate": ""
@@ -71,7 +71,7 @@
         },
         "api": {
             "upload_failed": "",
-            "too_large": "",
+            "too_large": "Die Datei ist zu groß.",
             "bad_type": "",
             "too_long": "",
             "kind_off": "",
@@ -79,8 +79,8 @@
             "text_missing": "",
             "followers_off": "",
             "daily_limit": "",
-            "bad_reaction": "",
-            "story_gone": "",
+            "bad_reaction": "Diese Reaktion ist nicht verfügbar.",
+            "story_gone": "Diese Story ist nicht mehr verfügbar.",
             "already_reported": "",
             "cannot_mute": "",
             "highlights_full": "",
