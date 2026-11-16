@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "Tema değiştirme düğmesini her zaman forum başlığında göster",
+                "always_show_header_toggle_help": "Varsayılan olarak üstbilgideki düğme yalnızca ziyaretçilere gösterilir. Bu seçeneği etkinleştirerek giriş yapmış kullanıcılara da gösterebilirsiniz. Kullanıcılar, bu ayardan bağımsız olarak aynı seçeneğe kullanıcı menülerinden her zaman erişebilir.",
+                "solid_icon_label": "Tema simgesini dolu stilde göster",
+                "solid_icon_help": "Tema değiştirme düğmesinde normal (çizgisel) simgeler yerine Font Awesome'ın dolu simgelerini kullanır."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Temayı değiştir"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Koyu Mod",
+                "light_mode": "Açık Mod"
             }
         }
     }
