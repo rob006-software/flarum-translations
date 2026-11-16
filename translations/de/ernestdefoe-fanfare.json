@@ -5,13 +5,13 @@
         },
         "forum": {
             "pill": {
-                "open": ""
+                "open": "Heutige Feierlichkeiten öffnen"
             },
             "widget": {
                 "heading": "Heutige Geburtstage",
                 "anniversaries": "Jahrestage",
                 "turns": "wird {age}",
-                "years": "",
+                "years": "{count, plural, one {# Jahr} other {# Jahre}} hier",
                 "today": "Heute",
                 "more": "und {count} weitere",
                 "wish": "Wunsch",
@@ -24,10 +24,10 @@
                 "anniversary": "Heute {count, plural, one {# Jahre} other {# Jahre}} hier"
             },
             "notifications": {
-                "wish_birthday": "",
-                "wish_anniversary": "",
-                "day_birthday": "",
-                "day_anniversary": ""
+                "wish_birthday": "{username} gratuliert dir zum Geburtstag",
+                "wish_anniversary": "{username} gratuliert dir zum Jahrestag",
+                "day_birthday": "Herzlichen Glückwunsch zum Geburtstag von allen bei {forum}!",
+                "day_anniversary": "Ist heute seit {count, plural, one {# Jahr} other {# Jahre}} bei {forum}. Schön, dass du da bist!"
             },
             "settings": {
                 "heading": "Fanfare",
@@ -36,15 +36,15 @@
                 "day": "Tag",
                 "year": "Jahr (optional)",
                 "clear": "Löschen",
-                "visibility": "",
-                "visibility_0": "",
-                "visibility_1": "",
-                "visibility_2": "",
-                "datlechin": "",
-                "sound": "",
-                "effects": "",
-                "notify_wish": "",
-                "notify_day": ""
+                "visibility": "Wer darf ihn sehen",
+                "visibility_0": "Niemand, und mein Beitrittsjubiläum soll auch verborgen bleiben (ich bekomme trotzdem meine eigenen Glückwünsche)",
+                "visibility_1": "Mitglieder sehen den Tag",
+                "visibility_2": "Mitglieder sehen den Tag und mein Alter",
+                "datlechin": "Lege dein Geburtsdatum in deinen Kontoeinstellungen fest.",
+                "sound": "Melodien abspielen, wenn ich auf ♪ Abspielen tippe",
+                "effects": "Feiereffekte anzeigen",
+                "notify_wish": "Jemand wünscht mir einen schönen Tag",
+                "notify_day": "Mein Geburtstag und Beitrittsjubiläum"
             },
             "stage": {
                 "close": "Schließen",
@@ -58,13 +58,13 @@
                 "turn_sound_off": "Sound abschalten",
                 "sound_on_toast": "",
                 "sound_off_toast": "",
-                "make_a_wish": "",
-                "blow_candle": "",
-                "wish_made": "",
-                "open_it": "",
-                "open_present": "",
-                "opened": "",
-                "birthday_small": "",
+                "make_a_wish": "Wünsch dir was",
+                "blow_candle": "Blas die {number}. Kerze aus",
+                "wish_made": "Wunsch geteilt! Hab einen wunderschönen Tag, {name}.",
+                "open_it": "Öffne es",
+                "open_present": "Öffne das Geschenk",
+                "opened": "Frohe Weihnachten, {name}!",
+                "birthday_small": "Alles Gute zum Geburtstag,",
                 "birthday_name": "{name}!",
                 "wished_by": "{names} und {count, plural, one {# Weiterer} other {# Weitere}} wünschen dir",
                 "wished_by_only": "{names} wünschen dir",
@@ -72,16 +72,16 @@
                 "anniversary_year": "Jahr in {forum}",
                 "anniversary_title": "Herzlichen Glückwunsch zum Jubiläum, {name}!",
                 "anniversary_since": "Mitglied seit {date} · {posts, plural, one {# Beitrag} other {# Beiträge}}",
-                "forum_title": "",
-                "forum_since": "",
-                "nye_pre": "",
+                "forum_title": "Alles Gute zum {ordinal}. Geburtstag, {forum}!",
+                "forum_since": "Seit {date} · {members, plural, one {# Mitglied} other {# Mitglieder}} · {posts, plural, one {# Beitrag} other {# Beiträge}}",
+                "nye_pre": "Mitternacht in",
                 "nye_title": "Frohes Neues Jahr!",
                 "nye_year": "Willkommen in {year}",
                 "nye_thanks": "",
                 "christmas_to": "",
                 "christmas_title": "",
-                "christmas_from": "",
-                "hanukkah_title": "",
+                "christmas_from": "Von: {forum}",
+                "hanukkah_title": "Frohes Chanukka!",
                 "hanukkah_night": "",
                 "lunar_title": "",
                 "lunar_year": "Jahr der/des {animal} · {year}",
@@ -135,22 +135,22 @@
                 "effects_heading": "Effekte und Klänge",
                 "effects_help": "",
                 "intensity": "",
-                "intensity_subtle": "",
-                "intensity_festive": "",
-                "intensity_full": "",
+                "intensity_subtle": "Dezent",
+                "intensity_festive": "Festlich",
+                "intensity_full": "Volles Programm",
                 "once_a_day": "",
                 "quiet_from": "",
                 "quiet_to": "",
                 "quiet_help": "",
-                "timezone": "",
+                "timezone": "Zeitzone",
                 "timezone_help": "",
                 "preview_people": ""
             },
             "occasions": {
-                "birthday": "",
-                "anniversary": "",
-                "forum": "",
-                "newyear": "",
+                "birthday": "Dein Geburtstag",
+                "anniversary": "Dein Beitrittsjubiläum",
+                "forum": "Der Forengeburtstag",
+                "newyear": "Silvester und Neujahrstag",
                 "christmas": "",
                 "thanksgiving": "",
                 "thanksgiving_ca": "",
@@ -159,7 +159,7 @@
                 "diwali": "",
                 "eidfitr": "",
                 "eidadha": "",
-                "hanukkah": ""
+                "hanukkah": "Chanukka"
             }
         }
     }
