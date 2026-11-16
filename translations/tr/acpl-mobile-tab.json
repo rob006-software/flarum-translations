@@ -2,30 +2,30 @@
     "acpl-mobile-tab": {
         "admin": {
             "available_items": "Kullanılabilir öğeler",
-            "available_items_help": "",
-            "create_new_item_button": "Yeni öğe oluştur",
+            "available_items_help": "Mobil sekmeye eklemek istediğiniz öğeleri bu listeden sürükleyerek herhangi bir görünüme bırakın.",
+            "create_new_item_button": "Öğe oluştur",
             "edit_item": {
                 "modal_title": "Öğeyi düzenle",
-                "help": "",
+                "help": "Bir bağlantıdan daha fazlasına mı ihtiyacınız var? Özel öğeler eklemek ve davranışlarını özelleştirmek için <a>geliştirici belgelerine</a> göz atın.",
                 "label": "Etiket",
                 "label_placeholder": "Özel öğe",
                 "path": "Dizin",
                 "url": "Bağlantı",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "{baseUrl} adresinden sonra gelen ve eğik çizgi (/) ile başlayan adres bölümü.",
+                    "external": "<code>https://</code> dahil olmak üzere tam adres."
                 },
                 "icon": "Simge",
                 "icon_help": "<code>fas fa-</code> öneki dahil olmak üzere herhangi bir <a>FontAwesome</a> simge sınıfı adını girin.",
                 "type": {
-                    "heading": "",
+                    "heading": "Bu bağlantının işlevi",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Bu forumdaki bir sayfaya yönlendirir",
+                        "help": "Sayfa yeniden yüklenmeden açılır."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Başka bir siteye yönlendirir",
+                        "help": "Bu forumun dışındaki bir adresi açar."
                     }
                 },
                 "open_new_tab_checkbox": "Bağlantıyı yeni sekmede aç",
@@ -35,16 +35,16 @@
                 "is_internal_checkbox": "Bu bir dahili bağlantı mı?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
-                "enabled": "",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "heading": "Mobil sekme düzenleri",
+                "empty_help": "Öğeleri bu düzene eklemek için buraya sürükleyin.",
+                "help": "Düzenler yukarıdan aşağıya doğru kontrol edilir. Kullanıcılara, görüntüleme iznine sahip oldukları ilk etkin düzen gösterilir. Daha özel yetkilere sahip grupları üst sıralara yerleştirin. Örneğin: 1. yöneticiler, 2. moderatörler, 3. üyeler, 4. herkes. Belirli grupların mobil sekmeyi hiç görmemesini istiyorsanız ilgili düzeni boş bırakın.",
+                "number": "#{number}",
+                "enabled": "Etkin",
+                "visible_to": "Şu kişilere görünür",
+                "reorder": "Düzeni yeniden sırala",
+                "delete": "Düzeni sil",
+                "delete_confirmation": "Bu düzeni silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+                "create": "Düzenl oluştur"
             },
             "scroll_settings": {
                 "toggle_label": "Kaydırmada görünürlüğü değiştir",
@@ -65,9 +65,9 @@
                 "profile": "Profil",
                 "tags": "Etiketler",
                 "messages": "Mesajlar",
-                "flags": "",
+                "flags": "Raporlar",
                 "fof-byobu": "Özel Tartışma",
-                "ramon-chat": "",
+                "ramon-chat": "Sohbet",
                 "categories": "Kategoriler"
             }
         }
