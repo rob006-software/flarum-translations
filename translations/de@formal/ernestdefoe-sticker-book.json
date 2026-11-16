@@ -21,9 +21,9 @@
                 "open_pack": "Öffne ein Pack",
                 "waiting": "{count, plural, one {# Pack wartet} other {# Packs warten}}",
                 "next_in": "Nächstes kostenloses Pack {time}",
-                "earn_more": "",
+                "earn_more": "Poste etwas und sammle Likes, um zusätzliche Packs zu verdienen.",
                 "odds": "Wahrscheinlichkeiten im Pack",
-                "pity": ""
+                "pity": "Unter {count, plural, one {# Pack} other {# Packs}} befindet sich mit Sicherheit eine Legende."
             },
             "rarity": {
                 "common": "Häufig",
@@ -42,23 +42,23 @@
                 }
             },
             "sticker": {
-                "you_have": "",
+                "you_have": "{count, plural, one {Du hast es} other {Du hast # ({spares, plural, one {# Doppelte} other {# Doppelte}})}}",
                 "they_have": "{name} hat {count}",
                 "you_need": "Du hast diesen noch nicht.",
                 "they_need": "{name} hat diesen noch nicht.",
-                "offer_spare": "",
-                "ask": "",
-                "find_spare": "",
-                "no_spares": "",
-                "spares_title": "",
-                "spare_count": "",
+                "offer_spare": "Jemandem eine Doppelte anbieten",
+                "ask": "{name} nach einer Doppelten fragen",
+                "find_spare": "Jemanden mit einer Doppelten finden",
+                "no_spares": "Davon hat noch niemand ein Doppeltes Exemplar. Öffnet weiter die Packs!",
+                "spares_title": "Mitglieder mit einer Doppelten",
+                "spare_count": "{count, plural, one {# Doppelte} other {# Doppelte}}",
                 "propose": "Tausch vorschlagen"
             },
             "trade": {
                 "title": "Aufkleber tauschen",
                 "to": "Tauschen mit",
                 "change": "Ändern",
-                "search_placeholder": "",
+                "search_placeholder": "Mitgliedsnamen eingeben…",
                 "you_give": "Du gibst",
                 "you_get": "Du erhältst von {name}",
                 "you_get_anyone": "Du erhältst",
