@@ -1530,9 +1530,7 @@ return [
 	],
 	'olleksi-uk-slug' => [
 		'tag' => 'https://raw.githubusercontent.com/olleksi/uk-slug/0.0.3/locale/en.yml',
-		'__builtInLanguages' => [
-			'uk',
-		],
+		'__builtInLanguages' => ['uk'],
 	],
 	'ordinaryjellyfish-automod' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-com/premium-translations/84b06a54d8679050557844666ca9436064cb016b/ordinaryjellyfish-automod.yml',
