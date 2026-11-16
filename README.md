@@ -1025,6 +1025,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-gatehouse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-gatehouse) | [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) |
 | [`ernestdefoe-gauntlet`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-gauntlet) | [`ernestdefoe/gauntlet`](https://github.com/ernestdefoe/gauntlet) |
 | [`ernestdefoe-giveaways`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-giveaways) | [`ernestdefoe/giveaways`](https://github.com/ernestdefoe/giveaways) |
+| [`ernestdefoe-glimpse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-glimpse) | [`ernestdefoe/glimpse`](https://github.com/ernestdefoe/glimpse) |
 | [`ernestdefoe-google-fonts`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-google-fonts) | [`ernestdefoe/google-fonts`](https://github.com/ernestdefoe/google-fonts) |
 | [`ernestdefoe-greeter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-greeter) | [`ernestdefoe/greeter`](https://github.com/ernestdefoe/greeter) |
 | [`ernestdefoe-group-messages`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-group-messages) | [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) |
