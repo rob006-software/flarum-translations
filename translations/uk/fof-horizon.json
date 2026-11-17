@@ -2,12 +2,12 @@
     "fof-horizon": {
         "admin": {
             "settings": {
-                "locked_by_env": "",
-                "locked_by_code": "",
-                "mail_title": "",
-                "mail_help": "",
-                "email_concurrency": "",
-                "email_concurrency_help": "",
+                "locked_by_env": "Задано змінною середовища як {value} — змініть її значення там.",
+                "locked_by_code": "Задано в коді (config.php або extend.php) як {value} — змініть значення там.",
+                "mail_title": "Доставлення електронної пошти",
+                "mail_help": "Визначте кількість листів, які надсилаються одночасно. Кожен обробник надсилає по одному листу, тож це кількість одночасних вихідних повідомлень. Установіть її відповідно до ліміту одночасних з’єднань вашого поштового провайдера. Залиште поле порожнім для типового значення (1).\n",
+                "email_concurrency": "Одночасні вихідні листи",
+                "email_concurrency_help": "Максимальна кількість листів, що доставляються одночасно. Змінна середовища REDIS_HORIZON_EMAIL_CONCURRENCY або значення в config.php, якщо задані, перевизначають цей параметр.\n",
                 "trim_title": "Налаштувати прибирання",
                 "trim_help": "Тут ви можете вказати, як довго (у хвилинах) Horizon буде\nзберігати нещодавні та невдалі завдання. Зазвичай нещодавні завдання зберігаються\nпротягом однієї години, тоді як усі невиконані завдання зберігаються протягом цілого тижня.\n",
                 "trim_recent": "Прибрати нещодавні вакансії",
@@ -22,13 +22,13 @@
                 "trim_failed_help": "Ця таблиця використовується для відображення невдалих завдань на інформаційній панелі Horizon.\n",
                 "trim_monitored": "Ппибрати відстежувані вакансії",
                 "trim_monitored_help": "Ця таблиця використовується для відображення відстежуваних завдань на інформаційній панелі Horizon.\n",
-                "supervisor_title": "",
-                "supervisor_help": "",
-                "memory_limit": "",
-                "memory_limit_help": ""
+                "supervisor_title": "Налаштування обробників",
+                "supervisor_help": "Horizon запускає обробники черг за профілями (standard, fast, long, emails). Кількість обробників, пам’ять і черги налаштовуються для кожного середовища розгортання через змінні REDIS_HORIZON_*, файл config.php (ключ «horizon») або розширювач Horizon у extend.php — див. README розширення. Після зміни конфігурації обробників перезапустіть Horizon.\n",
+                "memory_limit": "Обмеження пам’яті головного процесу (MB)",
+                "memory_limit_help": "Обмеження пам’яті головного процесу нагляду Horizon: після перевищення він перезапускається. Пам’ять кожного обробника задає його процес нагляду.\n"
             },
             "stats": {
-                "queue_heading": "",
+                "queue_heading": "Черга",
                 "full_dashboard": "Панель Horizon",
                 "auto_refresh": "Автоматичне оновлення",
                 "refresh": "Оновлення",
@@ -42,36 +42,36 @@
                     "good": "Добре",
                     "poor": "Погано",
                     "critical": "Критично",
-                    "tooltip_heading": "",
+                    "tooltip_heading": "Оцінка стану: {score}/100",
                     "factor": {
-                        "status": "",
-                        "wait": "",
-                        "memory": ""
+                        "status": "Стан Horizon: {value}",
+                        "wait": "Тривале очікування в черзі: {value}",
+                        "memory": "Навантаження на пам’ять Redis: {value}"
                     },
                     "tooltip": "Оцінка стану системи: {score}/100"
                 },
                 "status": {
-                    "running": "",
-                    "paused": "",
-                    "inactive": "",
-                    "paused_pending": ""
+                    "running": "Запущено",
+                    "paused": "Призупинено",
+                    "inactive": "Неактивно",
+                    "paused_pending": "Призупинено · очікують: {count}"
                 },
                 "period": {
-                    "minutes": "",
-                    "hour": "",
-                    "hours": "",
-                    "day": "",
-                    "days": ""
+                    "minutes": "за останні {count} хв",
+                    "hour": "за останню годину",
+                    "hours": "за останні {count} год",
+                    "day": "за останню добу",
+                    "days": "за останні {count} дн."
                 },
                 "data": {
-                    "processes": "",
+                    "processes": "Процеси обробників",
                     "jobs-per-minute": "Завдання за хвилину",
-                    "pending-jobs": "",
-                    "recent-jobs": "",
-                    "failed-jobs": "",
-                    "max-wait": "",
-                    "slowest-queue": "",
-                    "highest-throughput-queue": "",
+                    "pending-jobs": "Завдання в очікуванні",
+                    "recent-jobs": "Завдання",
+                    "failed-jobs": "Невдалі завдання",
+                    "max-wait": "Максимальний час очікування",
+                    "slowest-queue": "Найповільніша черга",
+                    "highest-throughput-queue": "Найзавантаженіша черга",
                     "redis-used-memory": "Використана пам'ять Redis",
                     "redis-peak-memory": "Пікове значення пам'яті Redis",
                     "redis-max-memory": "Максимальна пам'ять Redis",
@@ -97,13 +97,13 @@
                     "failure-rate": "Коефіцієнт відмов"
                 },
                 "tile": {
-                    "processes": "",
-                    "jobs_per_minute": "",
-                    "max_wait": "",
-                    "status": ""
+                    "processes": "Процеси обробників",
+                    "jobs_per_minute": "Завдань за хвилину",
+                    "max_wait": "Максимальний час очікування",
+                    "status": "Статус"
                 },
-                "horizon_max_wait_none": "",
-                "horizon_max_wait_value": "",
+                "horizon_max_wait_none": "Немає",
+                "horizon_max_wait_value": "{seconds} с у черзі {queue}",
                 "heading": "Огляд черги"
             }
         }
