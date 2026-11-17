@@ -2,33 +2,33 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "Об'єднати дискусії",
-                "search_discussions_placeholder": "",
+                "title": "Об'єднати обговорення",
+                "search_discussions_placeholder": "Знайти обговорення…",
                 "ordering_heading": "Замовлення на злиття",
-                "ordering_date_label": "Об'єднати пости за датою створення",
-                "ordering_date_help": "Дописи в результуючій дискусії впорядковуються за індивідуальною датою створення",
-                "ordering_suffix_label": "Додати об'єднані пости в кінець дискусії",
-                "ordering_suffix_help": "Дописи, які будуть об'єднані в дискусію, що збереглася, будуть додані в кінці дискусії",
+                "ordering_date_label": "Об'єднати дописи за датою створення",
+                "ordering_date_help": "Дописи в об’єднаному обговоренні впорядковуються за датою їх створення",
+                "ordering_suffix_label": "Додати об'єднані дописи в кінець обговорення",
+                "ordering_suffix_help": "Дописи, об’єднані з обговоренням, що залишилося, буде додано в його кінець",
                 "type_heading": "Тип злиття",
                 "type_target_label": "Об'єднати для моїх",
-                "type_target_help_text": "",
-                "type_from_label": "Об'єднати цю дискусію в іншу",
-                "type_from_help_text": "",
+                "type_target_help_text": "Виберіть обговорення, які потрібно об’єднати з «{title}».",
+                "type_from_label": "Об’єднати це обговорення з іншим",
+                "type_from_help_text": "Виберіть цільове обговорення для об’єднання з «{title}».",
                 "load_preview_button": "Попередній перегляд",
-                "preview_truncated": "",
+                "preview_truncated": "Показано дописи від {from} до {to} із {total}.",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Користувач {username} об’єднав ваше обговорення {oldTitle} із цим обговоренням.",
                 "preferences": {
-                    "discussion_merged": "Хтось зливає одну мою дискусію з іншою"
+                    "discussion_merged": "Хтось об’єднує одне з моїх обговорень з іншим"
                 }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": ""
+                "merged": "{count, plural, =1 {Об’єднано 1 допис із {titles}.} one {Об’єднано дописи з {titles}, кількість: {count}.} other {Об’єднано дописи з {titles}, кількість: {count}.}}"
             }
         },
         "admin": {
@@ -36,17 +36,17 @@
                 "merge_discussions_label": "Об'єднати обговорення"
             },
             "settings": {
-                "search_result_help": "Скільки обговорень має бути видано при пошуку за модальністю «Об'єднати обговорення».",
-                "search_result_label": "Об'єднати дискусію з обмеженням пошуку"
+                "search_result_help": "Кількість обговорень у результатах пошуку у вікні `Об’єднати обговорення`.",
+                "search_result_label": "Ліміт результатів пошуку обговорень для об’єднання"
             }
         },
         "api": {
             "error": {
-                "into_itself": "",
-                "merging_failed": "Не вдалося об'єднати дискусії.",
-                "updating_failed": "Не вдалося оновити деталі дискусії.",
-                "redirecting_failed": "",
-                "deleting_failed": "Не вдалося видалити порожні дискусії.",
+                "into_itself": "Неможливо об’єднати обговорення із самим собою.",
+                "merging_failed": "Не вдалося об'єднати обговорення.",
+                "updating_failed": "Не вдалося оновити деталі обговорення.",
+                "redirecting_failed": "Не вдалося налаштувати переспрямування об’єднаних обговорень.",
+                "deleting_failed": "Не вдалося видалити порожні обговорення.",
                 "fixing_posts_number_failed": "Не вдалося зафіксувати номери постів.",
                 "fixing_posts_number_meta_failed": "Не вдалося зафіксувати номери постів."
             }
@@ -56,8 +56,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": "Вашу дискусію «{merged_discussion_title}» було об'єднано"
+                "body": "Користувач {actor_display_name} об’єднав ваше обговорення {merged_discussion_title} з обговоренням {discussion_title}.\n\nПерегляньте його тут: {discussion_url} .\n",
+                "subject": "Ваше обговорення «{merged_discussion_title}» було об'єднано"
             }
         }
     },
@@ -65,8 +65,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "merged_away": "",
-                    "merged_into": ""
+                    "merged_away": "Обговорення {discussion} об’єднано з {new_discussion}",
+                    "merged_into": "До обговорення {discussion} додано дописи з обговорень: {original_discussion_ids_count}; кількість дописів: {post_count}"
                 }
             }
         }
