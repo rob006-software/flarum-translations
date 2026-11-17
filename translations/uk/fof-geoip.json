@@ -17,7 +17,7 @@
                 "service_ipdata_label": "IPData",
                 "service_ipdata_description": "Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно. Також доступні платні тарифи з вищими лімітами використання.",
                 "service_ipapi_label": "IP Api",
-                "service_ipapi_description": "Використовуйте <b>https://ip-api.com</b>, щоб робити до 45 пошуків за хвилину безкоштовно. Якщо ви зробите більше, ваша IP-адреса може потрапити в чорний список, після чого ви зможете розблокувати її.",
+                "service_ipapi_description": "Використовуйте <b>http://ip-api.com</b>, щоб безкоштовно виконувати до 45 запитів за хвилину. Якщо запитів буде більше, їх буде додано до черги й виконано після поновлення ліміту.",
                 "service_ipapi-pro_label": "IP Api Pro",
                 "service_ipapi-pro_description": "Використовуйте <b>https://members.ip-api.com/#pricing</b>. Про-план має необмежений термін використання.",
                 "service_iplocation_label": "Місцезнаходження IP-адреси",
@@ -26,25 +26,25 @@
                 "service_ipsevenex_description": "Використовуйте <b>https://7x.ax</b>, щоб отримати безкоштовний ключ API для понад 20 запитів на хвилину. Також доступні платні плани з вищими лімітами використання.",
                 "service_ipinfo-lite_label": "IPInfo Lite",
                 "service_ipinfo-lite_description": "Використовуйте <b>https://ipinfo.io</b> для отримання IP-інформації без будь-яких обмежень швидкості або обмежень. Потрібна реєстрація для безкоштовного ключа API.",
-                "service_maxmind_label": "",
-                "service_maxmind_description": "",
-                "service_forced": "",
-                "service_unavailable": "",
-                "access_key_label": "Access Key",
+                "service_maxmind_label": "Локальні бази даних (MaxMind / DB-IP)",
+                "service_maxmind_description": "Визначати адреси за локальними базами у форматі MaxMind (.mmdb) замість звернення до віддаленого API. Працює з GeoLite2/GeoIP2 від MaxMind і версіями Lite від DB-IP. Пошук миттєвий, необмежений, а дані не залишають ваш сервер, але файли баз потрібно встановлювати й оновлювати самостійно. Приклади: <b>https://github.com/FriendsOfFlarum/geoip</b>.",
+                "service_forced": "Сервіс визначення адрес задано як {service} через розширювач, тому тут змінити його неможливо.",
+                "service_unavailable": "Вибраний сервіс недоступний, тому відомості про IP-адреси не записуються. Для локальних баз перевірте, що нижче вказано принаймні один шлях до доступного для читання файлу .mmdb.",
+                "access_key_label": "Ключ доступу",
                 "quota_label": "Квота на пошуковий запит",
-                "databases_heading": "",
-                "databases_help": "",
-                "database_country_label": "",
-                "database_city_label": "",
-                "database_asn_label": "",
-                "database_built": "",
-                "database_stale": "",
-                "database_not_configured": "",
-                "setting_pinned": "",
+                "databases_heading": "Файли баз даних",
+                "databases_help": "Абсолютні шляхи до файлів .mmdb. Усі три необов’язкові й незалежні: бази країн досить для прапорів, база міст додає координати для карти, а база ASN — провайдера ISP та організацію. Версії Lite від DB-IP не містять поштових індексів, і жодна локальна база не містить даних про загрози.",
+                "database_country_label": "База країн",
+                "database_city_label": "База міст",
+                "database_asn_label": "База ASN",
+                "database_built": "створено {time}",
+                "database_stale": "застаріла, варто оновити",
+                "database_not_configured": "Не налаштовано",
+                "setting_pinned": "Задано через розширювач, тому тут змінити неможливо.",
                 "show_flag_label": "Показати прапор країни для кожної публікації",
                 "show_flag_help": "Не розкриваючи IP-адресу, показувати прапор країни IP-адреси автора допису, коли користувач обирає цей параметр у своїх налаштуваннях.",
-                "allow_custom_flag_label": "",
-                "allow_custom_flag_help": "",
+                "allow_custom_flag_label": "Дозволити користувачам вибирати власний прапор країни",
+                "allow_custom_flag_help": "Якщо ввімкнено, користувачі можуть вибрати в налаштуваннях профілю прапор країни для своїх дописів. Його бачитимуть усі замість прапора, визначеного за IP-адресою. Потрібно ввімкнути показ прапора країни для кожного допису.",
                 "test": {
                     "heading": "Конфігурація тестової служби",
                     "help": "Перевірте конфігурацію служби пошуку IP за допомогою зразка IP-адреси. Обов'язково збережіть свої налаштування перед тестуванням."
@@ -61,9 +61,9 @@
                 "test_response_time_label": "Час виконання:",
                 "test_timestamp_label": "Часова мітка:",
                 "test_http_status_code_label": "Код стану HTTP:",
-                "test_databases_label": "",
+                "test_databases_label": "Використані бази даних:",
                 "test_error_details_label": "Деталі помилки:",
-                "test_notice_label": "",
+                "test_notice_label": "Примітка:",
                 "test_processed_service_response_label": "Відповідь на оброблене обслуговування:",
                 "status_success": "✓ Успіх",
                 "status_error": "✗ Помилка",
@@ -78,38 +78,38 @@
         },
         "lib": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "IP-адресу скопійовано"
             },
-            "copy_ip_label": "",
-            "map_button_label": "",
+            "copy_ip_label": "Скопіювати IP-адресу до буфера обміну",
+            "map_button_label": "Відомості про IP",
             "map_modal": {
-                "title": "",
-                "ip_address": "",
-                "country": "",
-                "city": "",
-                "region": "",
-                "zip_code": "",
-                "isp": "",
-                "as": "",
-                "mobile": "",
-                "organization": "",
-                "threat_level": "",
-                "threat_types": "",
-                "error": "",
-                "not_enough_data": "",
-                "dbip_attribution": ""
+                "title": "Відомості про IP",
+                "ip_address": "IP-адреса",
+                "country": "Країна",
+                "city": "Місто",
+                "region": "Регіон",
+                "zip_code": "Поштовий індекс",
+                "isp": "ISP",
+                "as": "ASN",
+                "mobile": "Стільникова мережа",
+                "organization": "Організація",
+                "threat_level": "Рівень загрози",
+                "threat_types": "Типи загроз",
+                "error": "Помилка",
+                "not_enough_data": "Недостатньо даних для побудови карти",
+                "dbip_attribution": "Геолокація IP від <a>DB-IP</a>"
             },
             "custom_flag": {
-                "none": "",
-                "placeholder": ""
+                "none": "Без власного прапора",
+                "placeholder": "Знайти країну…"
             }
         },
         "forum": {
             "user": {
                 "settings": {
                     "ip_country": "Показувати прапор країни, з якої я публікую, на основі моєї IP-адреси",
-                    "custom_flag_label": "",
-                    "custom_flag_help": ""
+                    "custom_flag_label": "Власний прапор країни",
+                    "custom_flag_help": "Виберіть прапор країни для своїх дописів. Його бачитимуть усі замість прапора, визначеного за вашою IP-адресою."
                 }
             },
             "alerts": {
