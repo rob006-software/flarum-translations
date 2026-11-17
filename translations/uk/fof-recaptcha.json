@@ -1,20 +1,20 @@
 {
     "fof-recaptcha": {
         "admin": {
-            "maintenance_mode_warning": "",
+            "maintenance_mode_warning": "reCAPTCHA вимкнено на сторінці входу, коли форум перебуває в режимі обслуговування.",
             "settings": {
                 "help_text": "Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.",
                 "secret_key_label": "Секретний ключ",
-                "site_key_label": "Site Key",
+                "site_key_label": "Ключ сайту",
                 "type_label": "Тип reCAPTCHA",
-                "type_help": "",
+                "type_help": "Вибраний тип має відповідати типу облікових даних reCAPTCHA. Прапорець і невидима перевірка належать до reCAPTCHA v2; v3 використовує оцінку та працює непомітно.",
                 "type_options": {
-                    "checkbox": "",
-                    "invisible": "",
-                    "v3": ""
+                    "checkbox": "v2 із прапорцем",
+                    "invisible": "v2 невидима",
+                    "v3": "v3 (за оцінкою)"
                 },
-                "v3_threshold_label": "",
-                "v3_threshold_help": "",
+                "v3_threshold_label": "Порогова оцінка reCAPTCHA v3",
+                "v3_threshold_help": "Запити з оцінкою нижче цього значення відхилятимуться (0.0 — імовірно бот, 1.0 — імовірно людина). Google пропонує почати з 0.5. Використовується лише для v3.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title"
@@ -28,21 +28,21 @@
                 "reload_button": "Перезавантажити"
             },
             "permissions": {
-                "post_without_captcha": "Створювати дописи та дискусії без CAPTCHA"
+                "post_without_captcha": "Створювати дописи та обговорення без CAPTCHA"
             }
         },
         "lib": {
-            "error": "",
-            "not_completed": "",
-            "rejected": "",
-            "unknown_error": ""
+            "error": "Помилка надсилання reCAPTCHA. Спробуйте ще раз.",
+            "not_completed": "Перед продовженням пройдіть перевірку reCAPTCHA.",
+            "rejected": "Перевірку reCAPTCHA не пройдено. Спробуйте ще раз.",
+            "unknown_error": "Сталася невідома помилка. Спробуйте ще раз."
         }
     },
     "validation": {
         "recaptcha": "Помилка перевірки reCAPTCHA.",
         "recaptcha-unknown": "Під час перевірки reCAPTCHA сталася невідома помилка ({errors}).",
         "attributes": {
-            "g-recaptcha-response": ""
+            "g-recaptcha-response": "reCAPTCHA"
         }
     }
 }
