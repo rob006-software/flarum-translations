@@ -2,10 +2,10 @@
     "core": {
         "admin": {
             "email": {
-                "brevo_heading": "",
-                "brevo_description": "",
-                "mail_brevo_api_key_label": "",
-                "mail_brevo_api_key_help": ""
+                "brevo_heading": "Налаштування Brevo",
+                "brevo_description": "Надсилати листи через API транзакційної пошти Brevo. Адреса відправника має бути підтверджена або належати до домену, автентифікованого в Brevo.",
+                "mail_brevo_api_key_label": "Ключ API",
+                "mail_brevo_api_key_help": "Створіть ключ у Brevo в розділі SMTP & API → API keys. Використовуйте ключ API (починається з xkeysib-), а не ключ SMTP."
             }
         }
     }
