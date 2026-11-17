@@ -16,10 +16,10 @@
                 "any": "Будь-яка мова"
             },
             "language_dropdown": {
-                "toggle_label": ""
+                "toggle_label": "Виберіть мову обговорення"
             },
             "sub_controls": {
-                "subscription_language_label": "Мова дискусії",
+                "subscription_language_label": "Мова обговорення",
                 "subscription_language_help": "Коли ви оберете тут мову, ви будете отримувати сповіщення про нову активність лише цією мовою."
             }
         },
@@ -27,40 +27,40 @@
             "settings": {
                 "native_label": "Використовувати назви рідною мовою",
                 "show_flag_label": "Показати прапори країн з назвами мов",
-                "composer_default_label": "Попередньо обрати поточну локацію в композиторі дискусії",
-                "locale_sort_label": "Використовувати визначену мову для фільтрації дискусій за налаштуванням",
+                "composer_default_label": "Попередньо вибирати поточну мову у вікні створення обговорення",
+                "locale_sort_label": "Типово використовувати визначену мову для фільтрації обговорень",
                 "show_any_lang_opt_label": "Показати можливість вибору «Будь-яка мова»",
-                "tags_page_discussion_locale_label": "Показувати дискусії лише з поточної мови користувача на сторінці тегів",
+                "tags_page_discussion_locale_label": "Показувати на сторінці тегів лише обговорення поточною мовою користувача",
                 "errors": {
                     "missing_assets": "Не вдалося завантажити ресурси, необхідні для цього розширення. Спробуйте виконати <code>php flarum assets:publish</code> і перевірте, чи це вирішить проблему."
                 },
-                "languages_heading": "",
-                "languages_help": "",
-                "attribution": "",
+                "languages_heading": "Мови",
+                "languages_help": "Мови, якими можна вести обговорення. Країна визначає прапор для кожної з них.",
+                "attribution": "Це розширення використовує матеріали статті Вікіпедії <article>Список кодів ISO 639-2</article>, опублікованої за <license>ліцензією Creative Commons Attribution-Share-Alike 3.0</license>.",
                 "config": {
                     "language_label": "Мова",
                     "country_label": "Країна (для показу прапора)",
-                    "choose_language": "",
-                    "choose_country": "",
-                    "add_button": "",
-                    "remove_button": ""
+                    "choose_language": "Виберіть мову…",
+                    "choose_country": "Виберіть країну…",
+                    "add_button": "Додати мову",
+                    "remove_button": "Видалити {language}"
                 }
             },
             "permissions": {
                 "allow_change_language_label": "Дозволити редагувати мову",
-                "change_language_label": ""
+                "change_language_label": "Змінювати мову обговорення"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": "Ви повинні обрати мову для дискусії."
+                "validation_error": "Ви повинні обрати мову для обговорення."
             }
         },
         "lib": {
             "gambits": {
                 "language": {
-                    "key": "",
-                    "hint": ""
+                    "key": "language",
+                    "hint": "Код мови або перелік кодів мов через кому"
                 }
             }
         }
@@ -69,8 +69,8 @@
         "lib": {
             "data": {
                 "subscriptionlanguages": {
-                    "export_description": "",
-                    "anonymize_description": ""
+                    "export_description": "Експортується з кожною підпискою на тег під час експорту через fof/follow-tags.",
+                    "anonymize_description": "Видаляє мову обговорень, вибрану користувачем для кожного тегу, за яким він стежить."
                 }
             }
         }
