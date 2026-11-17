@@ -303,7 +303,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/giveaways/v0.7.3/locale/en.yml',
 	],
 	'ernestdefoe-glimpse' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/glimpse/1.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/glimpse/1.0.7/locale/en.yml',
 	],
 	'ernestdefoe-google-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/google-fonts/0.2.7/locale/en.yml',
