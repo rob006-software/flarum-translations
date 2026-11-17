@@ -486,15 +486,15 @@
                 "reminder_tomorrow": "Homme hommikul",
                 "reminder_week": "Järgmisel nädalal",
                 "reminder_custom": "Vali kuupäev ja kellaaeg",
-                "reminder_invalid": "",
-                "reminder_invalid_date": "",
+                "reminder_invalid": "See aeg on juba möödunud. Vali aeg, mis on tulevikus.",
+                "reminder_invalid_date": "Vali meeldetuletuse kuupäev.",
                 "reminder_date_label": "Kuupäev",
                 "reminder_hour_label": "Tund",
                 "reminder_minute_label": "Minut",
                 "reminder_meridiem_label": "EL või PL",
                 "reminder_am": "EL",
                 "reminder_pm": "PL",
-                "reminder_too_far": "",
+                "reminder_too_far": "Meelespäid saab panna kuni aastaks. Vali varasem kuupäev.",
                 "note_counter": "{count}/{max}",
                 "removed": "Eemaldatud salvestatutest.",
                 "undo": "Tühista"
@@ -506,7 +506,7 @@
                 "notify_bookmark_reminder_label": ""
             },
             "presence": {
-                "reading_now": ""
+                "reading_now": "{count} loeb praegu"
             },
             "cakeday": {
                 "tooltip_singular": "",
