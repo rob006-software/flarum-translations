@@ -2,121 +2,121 @@
     "flarum-messages": {
         "admin": {
             "permissions": {
-                "send_messages_label": "",
-                "message_users_without_permission_label": "",
-                "delete_own_messages_label": "",
-                "send_without_throttle_label": "",
-                "view_ips_label": ""
+                "send_messages_label": "Надсилати приватні повідомлення",
+                "message_users_without_permission_label": "Надсилати повідомлення користувачам, які не мають дозволу на листування",
+                "delete_own_messages_label": "Видаляти власні повідомлення",
+                "send_without_throttle_label": "Надсилати повідомлення без обмеження частоти",
+                "view_ips_label": "Переглядати IP-адреси повідомлень"
             }
         },
         "forum": {
             "composer": {
-                "discard_confirmation": "",
-                "placeholder": "",
-                "recipients": "",
-                "submit_button": "",
-                "to": ""
+                "discard_confirmation": "Ви ще не надіслали повідомлення. Ви впевнені, що хочете його відкинути?",
+                "placeholder": "Напишіть повідомлення…",
+                "recipients": "Одержувачі",
+                "submit_button": "Надіслати повідомлення",
+                "to": "Кому:"
             },
             "dialog_list": {
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "own_last_message_preview": "",
-                "title": "",
-                "unread_count_text": "",
-                "view_all": ""
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Позначити як прочитане",
+                "own_last_message_preview": "Ви: {content}",
+                "title": "Повідомлення",
+                "unread_count_text": "{count} не прочитано",
+                "view_all": "Переглянути всі повідомлення"
             },
             "dialog_section": {
-                "back_label": "",
-                "cannot_reply_text": "",
+                "back_label": "Назад",
+                "cannot_reply_text": "Цей користувач не може відповідати",
                 "controls": {
-                    "details_button": ""
+                    "details_button": "Деталі"
                 },
-                "controls_toggle_label": "",
+                "controls_toggle_label": "Дії з розмовою",
                 "details_modal": {
-                    "created_at": "",
-                    "recipients": "",
-                    "title": ""
+                    "created_at": "Дата створення",
+                    "recipients": "Учасники",
+                    "title": "Відомості про розмову"
                 }
             },
             "header": {
-                "dropdown_tooltip": ""
+                "dropdown_tooltip": "Повідомлення"
             },
             "index": {
-                "messages_link": ""
+                "messages_link": "Повідомлення"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": ""
+                "latest_button": "Останні",
+                "newest_button": "Нові",
+                "oldest_button": "Старі"
             },
             "message_controls": {
-                "delete_button": "",
-                "delete_confirmation": ""
+                "delete_button": "Видалити",
+                "delete_confirmation": "Ви впевнені, що хочете видалити це повідомлення? Цю дію неможливо скасувати."
             },
             "messages_page": {
-                "cannot_send_message_button": "",
-                "empty_text": "",
+                "cannot_send_message_button": "Неможливо надіслати повідомлення",
+                "empty_text": "Нових повідомлень немає",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Повідомлення",
+                    "subtitle": "Ваші приватні розмови з іншими користувачами"
                 },
-                "mark_all_as_read_tooltip": "",
-                "refresh_tooltip": "",
-                "send_message_button": "",
+                "mark_all_as_read_tooltip": "Позначити всі як прочитані",
+                "refresh_tooltip": "Оновити",
+                "send_message_button": "Надіслати повідомлення",
                 "stream": {
-                    "load_previous_button": "",
-                    "load_next_button": "",
-                    "start_of_the_conversation": "",
-                    "time_lapsed_text": ""
+                    "load_previous_button": "Завантажити попередні повідомлення",
+                    "load_next_button": "Завантажити наступні повідомлення",
+                    "start_of_the_conversation": "Початок розмови",
+                    "time_lapsed_text": "=> core.forum.post_stream.time_lapsed_text"
                 },
-                "title": ""
+                "title": "Повідомлення"
             },
             "recipient_selection_modal": {
-                "cannot_reply_text": "",
-                "title": ""
+                "cannot_reply_text": "Неможливо відповідати на повідомлення",
+                "title": "Виберіть одержувачів цього повідомлення"
             },
             "search_source": {
-                "conversation_with": "",
-                "heading": ""
+                "conversation_with": "Розмова з користувачем {username}",
+                "heading": "Повідомлення"
             },
             "settings": {
-                "notify_message_received_label": ""
+                "notify_message_received_label": "Хтось надсилає мені повідомлення"
             },
             "user_controls": {
-                "send_message_button": "",
-                "cannot_reply_text": ""
+                "send_message_button": "Надіслати повідомлення",
+                "cannot_reply_text": "Цей користувач не може відповідати"
             },
             "notifications": {
-                "message_received_text": ""
+                "message_received_text": "Сповіщення про отримане повідомлення від {user}"
             }
         },
         "email": {
             "message_received": {
-                "subject": "",
+                "subject": "Користувач {user_display_name} надіслав вам повідомлення",
                 "plain": {
-                    "body": ""
+                    "body": "Користувач {user_display_name} надіслав вам нове повідомлення.\n\n{url}\n\n---\n\n{content}\n\n---\n\nВи не отримуватимете нових листів про цю розмову, доки її не прочитаєте.\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Користувач {user_display_name} надіслав вам [нове повідомлення]({url}).\n\nВи не отримуватимете нових листів про цю розмову, доки її не прочитаєте.\n"
                 }
             }
         },
         "lib": {
             "dialog": {
-                "title": ""
+                "title": "Листування з користувачем {username}"
             },
-            "no_other_members_message": "",
-            "recipient_cannot_reply_message": "",
-            "recipient_unavailable_message": ""
+            "no_other_members_message": "У цій розмові більше нікого немає.",
+            "recipient_cannot_reply_message": "Користувач {username} не може відповідати на повідомлення.",
+            "recipient_unavailable_message": "Користувач {username} не може отримувати повідомлення."
         }
     },
     "flarum-gdpr": {
         "lib": {
             "data": {
                 "messages": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Ваші приватні повідомлення із часом надсилання та адресами, з яких їх надіслано.",
+                    "anonymize_description": "Адреси, з яких надіслано ваші приватні повідомлення, буде видалено. Самі повідомлення залишаться.",
+                    "delete_description": "Ваші приватні повідомлення буде видалено."
                 }
             }
         }
@@ -125,8 +125,8 @@
         "lib": {
             "browser": {
                 "dialog": {
-                    "started": "",
-                    "posted": ""
+                    "started": "Розпочато приватну розмову з користувачем {username}",
+                    "posted": "Надіслано приватне повідомлення користувачу {username}"
                 }
             }
         }
@@ -134,8 +134,8 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "dialogs_heading": "",
-                "dialog_replies_heading": ""
+                "dialogs_heading": "Розпочаті приватні розмови (PM)",
+                "dialog_replies_heading": "Відповіді в приватних розмовах (PM)"
             }
         }
     }
