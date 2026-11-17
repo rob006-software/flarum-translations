@@ -7,35 +7,35 @@
             },
             "settings": {
                 "api_token_label": "Токен API",
-                "api_token_help": "Створіть особистий токен доступу на <a>https://github.com/settings/tokens/new</a> з обсягами <code>user</code> та <code>read:org</code>. Цей токен використовується для отримання інформації про вашого спонсора з GitHub.",
+                "api_token_help": "Створіть особистий токен доступу на <a>https://github.com/settings/tokens/new</a> з областями доступу <code>read:user</code>, <code>user:email</code> і <code>read:org</code>. Токен використовується для отримання відомостей про ваше спонсорство на GitHub.",
                 "account_type_label": "Тип облікового запису",
                 "account_type_help": "Виберіть, чи відстежуєте ви спонсорів для особистого облікового запису користувача GitHub чи для облікового запису організації.",
                 "login_label": "Логін",
                 "login_help": "Введіть своє ім'я користувача GitHub (для облікових записів користувачів) або назву організації (для організацій). Це обліковий запис, спонсори якого будуть синхронізовані.",
                 "group_label": "Група для призначення",
                 "group_help": "Виберіть, до якої групи користувачів Flarum слід додати спонсорів. Користувачі будуть автоматично додані, коли стануть спонсорами, і видалені, коли припинять спонсорство.",
-                "onetime_group_label": "",
-                "onetime_group_help": "",
-                "onetime_group_none": ""
+                "onetime_group_label": "Група одноразових і колишніх спонсорів (необов’язково)",
+                "onetime_group_help": "Виберіть групу користувачів Flarum для одноразових і колишніх щомісячних спонсорів. Якщо не задано, керування ними не виконується.",
+                "onetime_group_none": "Немає"
             },
             "status": {
-                "heading": "",
-                "never_run": "",
-                "last_success": "",
-                "last_failure": "",
-                "stale": "",
-                "test_button": "",
-                "test_success": "",
-                "request_failed": "",
+                "heading": "Стан синхронізації",
+                "never_run": "Синхронізація ще не виконувалася. Вона запускається щогодини через планувальник Flarum, тому перевірте його налаштування.",
+                "last_success": "Остання синхронізація {time}: спонсорів — {sponsors}, змін — {changes}.",
+                "last_failure": "Остання синхронізація {time} завершилася помилкою: {reason}",
+                "stale": "Остання синхронізація була понад дві години тому. Перевірте, чи працює планувальник Flarum.",
+                "test_button": "Тестове підключення",
+                "test_success": "З’єднано з {maintainer} від імені {account}. Знайдено публічних спонсорувань: {sponsorships}.",
+                "request_failed": "Не вдалося виконати перевірку з’єднання.",
                 "reasons": {
-                    "unauthorized": "",
-                    "forbidden": "",
-                    "not_found": "",
-                    "rate_limited": "",
-                    "network": "",
-                    "configuration": "",
-                    "no_sponsors": "",
-                    "other": ""
+                    "unauthorized": "GitHub відхилив токен. Строк його дії міг сплинути або його могли відкликати.",
+                    "forbidden": "Токен не має потрібної області доступу. Потрібні «read:user», «user:email» і «read:org».",
+                    "not_found": "Користувача або організацію GitHub не знайдено. Перевірте тип облікового запису й ім’я для входу.",
+                    "rate_limited": "Досягнуто ліміту запитів GitHub. Повторна спроба відбудеться під час наступної синхронізації.",
+                    "network": "Не вдалося зв’язатися з GitHub.",
+                    "configuration": "Не повністю задано токен, тип облікового запису, ім’я для входу або налаштування груп.",
+                    "no_sponsors": "GitHub не повернув спонсорів, тому нічого не змінено. Якщо це правильно, запустіть синхронізацію з --force.",
+                    "other": "GitHub повернув неочікувану відповідь."
                 }
             }
         }
@@ -44,12 +44,12 @@
         "lib": {
             "browser": {
                 "fof_github_sponsors": {
-                    "recurring_started": "",
-                    "recurring_stopped": "",
-                    "onetime_started": "",
-                    "sponsorship_ended": "",
-                    "groups_changed": "",
-                    "membership_adopted": ""
+                    "recurring_started": "Користувач {username} став щомісячним спонсором на GitHub. Групи: {old_groups} → {new_groups}",
+                    "recurring_stopped": "Щомісячне спонсорство користувача {username} на GitHub припинилося. Групи: {old_groups} → {new_groups}",
+                    "onetime_started": "Користувач {username} став одноразовим спонсором на GitHub. Групи: {old_groups} → {new_groups}",
+                    "sponsorship_ended": "Користувач {username} більше не є спонсором на GitHub. Групи: {old_groups} → {new_groups}",
+                    "groups_changed": "Синхронізація GitHub Sponsors змінила групи користувача {username} з {old_groups} на {new_groups}",
+                    "membership_adopted": "Синхронізація GitHub Sponsors перебрала керування членством користувача {username} у групах {new_groups}"
                 }
             }
         }
@@ -58,9 +58,9 @@
         "lib": {
             "data": {
                 "githubsponsor": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Експортує статус спонсорства користувача на GitHub, час його останньої зміни й групи, якими керує синхронізація.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.githubsponsor.delete_description",
+                    "delete_description": "Видаляє запис спонсорства користувача на GitHub, щоб синхронізація забула його без оголошення про завершення спонсорства."
                 }
             }
         }
