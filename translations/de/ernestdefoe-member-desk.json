@@ -10,8 +10,8 @@
                 "log_description": ""
             },
             "settings": {
-                "retention": "",
-                "retention_help": "",
+                "retention": "Gelöschte Namen von Mitgliedern im Protokoll behalten für (in Tagen)",
+                "retention_help": "Danach enthalten die Protokolleinträge eines anonymisierten oder gelöschten Mitglieds nur noch dessen ID und die entsprechenden Zählwerte. Bis zu diesem Zeitpunkt werden dessen E-Mail-Adresse und IP-Adressen lediglich als „gesalzene“ Hashes gespeichert: pseudonym, nicht anonym (jemand, der sowohl die Datenbank als auch das Geheimnis dieses Forums kennt, könnte Vermutungen anstellen), weshalb auch diese Daten entfernt werden.",
                 "open": "Mitgliederverwaltung aufrufen"
             },
             "permissions": {
@@ -93,8 +93,8 @@
                 "joinedAt_asc": "Älteste Mitglieder",
                 "lastSeenAt_desc": "",
                 "lastSeenAt_asc": "",
-                "posts_desc": "",
-                "posts_asc": "",
+                "posts_desc": "Meiste Beiträge",
+                "posts_asc": "Wenigste Beiträge",
                 "discussions_desc": "",
                 "discussions_asc": "",
                 "username_desc": "",
