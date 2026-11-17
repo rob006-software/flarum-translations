@@ -3,85 +3,85 @@
         "admin": {
             "settings": {
                 "configuration_title": "Параметри конфігурації",
-                "configuration_button_title": "",
-                "text_help": "",
+                "configuration_button_title": "Посилання «Докладніше»",
+                "text_help": "Текст для відвідувачів міститься в мовних файлах цього розширення, тому його можна перекладати. Перевизначте його через FoF Linguist або мовний пакет.\n",
                 "learnMoreLinkUrl": "Посилання",
-                "learnMoreLinkUrl_help": "",
-                "appearance_title": "",
-                "layout": "",
-                "layout_help": "",
-                "position": "",
-                "equalWeightButtons": "",
-                "equalWeightButtons_help": "",
-                "colors_help": "",
-                "catchall_title": "",
-                "sweepUndeclared": "",
-                "sweepUndeclared_help": "",
-                "allowedCookies": "",
-                "allowedCookies_help": "",
+                "learnMoreLinkUrl_help": "Залиште поле порожнім, щоб приховати посилання.",
+                "appearance_title": "Зовнішній вигляд",
+                "layout": "Шар",
+                "layout_help": "Визначає форму банера згоди.",
+                "position": "Розташування",
+                "equalWeightButtons": "Однаково оформлювати обидві кнопки",
+                "equalWeightButtons_help": "Рекомендовано. Однакове оформлення кнопок прийняття й відхилення не підштовхує відвідувачів до надання згоди.",
+                "colors_help": "Банер використовує тему форуму, зокрема темний режим. Указуйте колір лише для перевизначення; залиште поле порожнім, щоб успадкувати його.\n",
+                "catchall_title": "Незадекларовані файли cookie",
+                "sweepUndeclared": "Видаляти файли cookie, які не задекларовано розширеннями",
+                "sweepUndeclared_help": "Якщо відвідувач відхиляє згоду, також видаляти файли cookie, які жодне розширення не задекларувало через механізм згоди на cookie. Це виявляє засоби відстеження з розширень, що ще не використовують цей механізм, але також може видаляти справді потрібні файли cookie та порушувати роботу розширення. Щоб зберегти їх, використовуйте список дозволених нижче.\n",
+                "allowedCookies": "Ніколи не видаляти ці файли cookie",
+                "allowedCookies_help": "По одній назві в рядку. Для шаблону обрамте назву скісними рисками, наприклад /^app_/.\nФайли cookie, установлені самим Flarum, завжди зберігаються.\n",
                 "theme_popup_title": "Кольори спливаючих вікон",
                 "backgroundColor": "Фон",
                 "textColor": "Текст",
-                "theme_dismiss_title": "",
+                "theme_dismiss_title": "Кольори кнопок",
                 "buttonBackgroundColor": "Фон",
                 "buttonTextColor": "Текст",
                 "layouts": {
-                    "box": "",
-                    "box_wide": "",
-                    "box_inline": "",
-                    "cloud": "",
-                    "cloud_inline": "",
-                    "bar": "",
-                    "bar_inline": ""
+                    "box": "Блок",
+                    "box_wide": "Блок (широкий)",
+                    "box_inline": "Блок (у рядок)",
+                    "cloud": "Хмаринка",
+                    "cloud_inline": "Хмаринка (у рядок)",
+                    "bar": "Смуга",
+                    "bar_inline": "Смуга (у рядок)"
                 },
                 "positions": {
-                    "top_left": "",
-                    "top_center": "",
-                    "top_right": "",
-                    "middle_left": "",
-                    "middle_center": "",
-                    "middle_right": "",
-                    "bottom_left": "",
-                    "bottom_center": "",
-                    "bottom_right": ""
+                    "top_left": "Угорі ліворуч",
+                    "top_center": "Угорі по центру",
+                    "top_right": "Угорі праворуч",
+                    "middle_left": "Посередині ліворуч",
+                    "middle_center": "Посередині по центру",
+                    "middle_right": "Посередині праворуч",
+                    "bottom_left": "Унизу ліворуч",
+                    "bottom_center": "Унизу по центру",
+                    "bottom_right": "Унизу праворуч"
                 }
             }
         },
         "forum": {
             "banner": {
-                "description": "",
-                "accept": "",
-                "decline": "",
-                "preferences": "",
-                "learn_more": ""
+                "description": "Цей сайт використовує файли cookie. Ви можете змінити налаштування або прийняти всі файли cookie.",
+                "accept": "Прийняти",
+                "decline": "Відхилити",
+                "preferences": "Керувати налаштуваннями",
+                "learn_more": "Докладніше"
             },
             "preferences": {
-                "title": "",
-                "save": "",
-                "description": "",
+                "title": "Налаштування файлів cookie",
+                "save": "Зберегти налаштування",
+                "description": "Файли cookie — це невеликі файли, які сайт зберігає у вашому браузері. Нижче наведено, що зберігається й навіщо. Ви можете будь-коли змінити свій вибір.",
                 "cookie_table": {
-                    "name": "",
-                    "description": ""
+                    "name": "Файл cookie",
+                    "description": "Призначення"
                 }
             },
             "cookies": {
-                "flarum_session": "",
-                "flarum_remember": "",
-                "locale": "",
-                "cc_cookie": ""
+                "flarum_session": "Зберігає ваш вхід під час перегляду сайту.",
+                "flarum_remember": "Автоматично виконує вхід під час наступного відвідування.",
+                "locale": "Запам’ятовує вибрану мову.",
+                "cc_cookie": "Запам’ятовує ваш вибір щодо файлів cookie, щоб не запитувати знову."
             },
             "categories": {
                 "necessary": {
-                    "title": "",
-                    "description": ""
+                    "title": "Суворо необхідні",
+                    "description": "Потрібні для роботи сайту: входу, збереження сеансу й запам’ятовування вашого вибору щодо файлів cookie. Їх неможливо вимкнути."
                 },
                 "analytics": {
-                    "title": "",
-                    "description": ""
+                    "title": "Аналітика",
+                    "description": "Допомагають зрозуміти, як використовується форум, щоб поліпшувати його. Вони не потрібні для роботи форуму."
                 },
                 "marketing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Маркетинг",
+                    "description": "Використовуються для вимірювання ефективності реклами та показу вам реклами на інших сайтах."
                 }
             }
         }
