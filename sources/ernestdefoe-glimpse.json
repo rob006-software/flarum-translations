@@ -70,6 +70,7 @@
             }
         },
         "api": {
+            "busy": "You just did the same thing a moment ago. Please try again.",
             "upload_failed": "The file didn't upload. Please try again.",
             "too_large": "That file is too large.",
             "bad_type": "That file type isn't supported. Use a JPEG, PNG, WebP or GIF photo, or an MP4 or WebM video.",
@@ -80,7 +81,6 @@
             "followers_off": "Followers-only stories aren't available on this forum.",
             "daily_limit": "You can post up to {count} stories a day.",
             "bad_reaction": "That reaction isn't available.",
-            "story_gone": "That story is no longer available.",
             "already_reported": "You already reported this story.",
             "cannot_mute": "You can't mute this person.",
             "highlights_full": "You can have up to {count} highlights.",
