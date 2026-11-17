@@ -7,7 +7,7 @@
             "settings": {
                 "title": "FoF Impersonate",
                 "require_reason": "Вимагати введення причини, перш ніж видавати себе за іншого користувача.",
-                "require_reason_help": "",
+                "require_reason_help": "Причина записується в журнал аудиту (flarum/audit) та/або як нотатка модератора в обох облікових записах (fof/moderator-notes), залежно від увімкнених розширень.",
                 "no_settings_available": "Наразі налаштування недоступні. Спробуйте встановити fof/moderator-notes"
             }
         },
@@ -25,10 +25,10 @@
         },
         "forum": {
             "notice": {
-                "message": ""
+                "message": "Зараз ви дієте від імені користувача {username}."
             },
             "return": {
-                "button": ""
+                "button": "Повернутися до {username}"
             }
         }
     },
@@ -36,8 +36,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "impersonated": "",
-                    "impersonation_ended": ""
+                    "impersonated": "Виконано вхід від імені користувача {username}",
+                    "impersonation_ended": "Повернення до користувача {username}"
                 }
             }
         }
