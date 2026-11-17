@@ -7,23 +7,23 @@
             "settings": {
                 "notify_post_reacted_label": "Хтось відреагував на один з моїх дописів"
             },
-            "reacting-own-post": "Ви не можете реагувати на власний пост",
+            "reacting-own-post": "Ви не можете реагувати на власний допис",
             "modal": {
                 "title": "Реакції",
-                "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}",
+                "anonymous_count": "{count, plural, one {# анонімний користувач} few {# анонімні користувачі} many {# анонімних користувачів} other {# анонімного користувача}}",
                 "no_reactions": "Поки що немає реакцій",
-                "load_more": "",
-                "others_count": "",
-                "remove_all_reaction_type": "",
-                "remove_user_reaction": "",
-                "confirm_remove_all_reaction_type": "",
-                "confirm_remove_user_reaction": ""
+                "load_more": "Завантажити більше",
+                "others_count": "+ {count, plural, one {ще #} other {ще #}}",
+                "remove_all_reaction_type": "Видалити всі реакції {reaction}",
+                "remove_user_reaction": "Видалити реакцію",
+                "confirm_remove_all_reaction_type": "Ви впевнені, що хочете видалити всі реакції {reaction} з цього допису? Цю дію неможливо скасувати.",
+                "confirm_remove_user_reaction": "Ви впевнені, що хочете видалити реакцію {reaction} користувача {username} з цього допису? Цю дію неможливо скасувати."
             },
             "mod_item": "Перегляд реакцій",
             "react_button_label": "Реагувати",
-            "unreact_button_label": "",
-            "reaction_button_label": "",
-            "reacted_with_label": ""
+            "unreact_button_label": "Видалити реакцію",
+            "reaction_button_label": "Залишити реакцію {reaction}",
+            "reacted_with_label": "{count, plural, one {{reaction} (реакцій: #)} other {{reaction} (реакцій: #)}}"
         },
         "admin": {
             "permissions": {
@@ -34,9 +34,9 @@
             "page": {
                 "cdn": {
                     "title": "CDN",
-                    "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN \nв міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
+                    "help": "Типово ресурси реакцій надаються через CDN Cloudflare. За потреби ви можете вказати іншу адресу CDN.\nЗамість <code>[codepoint]</code> буде підставлено кодову точку емодзі.\n\nНаприклад, щоб перейти на Noto Emoji через jsdelivr, укажіть <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nВаш CDN має підтримувати Emoji/Unicode {emojibase} або новішу версію. Використовуйте [twemoji] для підставляння версії Twemoji.\n",
                     "label": "URL-адреса",
-                    "default-url": "За налаштуванням: {url}"
+                    "default-url": "За замовчуванням: {url}"
                 },
                 "reactions": {
                     "title": "Нестандартні реакції",
@@ -47,16 +47,16 @@
                         "identifier": "Ідентифікатор"
                     },
                     "delete_confirmation": "Ви впевнені, що хочете видалити цю реакцію? Ця дія не може бути скасована.",
-                    "delete_reaction_button": "",
-                    "add_reaction_button": "",
-                    "add_reaction_label": "",
+                    "delete_reaction_button": "Видалити реакцію",
+                    "add_reaction_button": "Додати реакцію",
+                    "add_reaction_label": "Додати нову реакцію",
                     "header": {
-                        "display": "",
-                        "identifier": "",
-                        "type": "",
-                        "enabled": "",
-                        "action": "",
-                        "preview": ""
+                        "display": "Відображуваний текст",
+                        "identifier": "Ідентифікатор значка або емодзі",
+                        "type": "Тип",
+                        "enabled": "Увімкнено",
+                        "action": "Дія",
+                        "preview": "Попередній перегляд"
                     }
                 },
                 "convert": {
@@ -95,13 +95,13 @@
         "lib": {
             "browser": {
                 "fof-reactions": {
-                    "reaction_created": "",
-                    "reaction_updated": "",
-                    "reaction_enabled": "",
-                    "reaction_disabled": "",
-                    "reaction_deleted": "",
-                    "post_reaction_removed": "",
-                    "post_reactions_removed": ""
+                    "reaction_created": "Створено реакцію {reaction}",
+                    "reaction_updated": "Значення {key} реакції {reaction} змінено з {old_value} на {new_value}",
+                    "reaction_enabled": "Увімкнено реакцію {reaction}",
+                    "reaction_disabled": "Вимкнено реакцію {reaction}",
+                    "reaction_deleted": "Видалено реакцію {reaction}",
+                    "post_reaction_removed": "Видалено реакцію {reaction} користувача {username} з допису {post} користувача {postuser} в обговоренні {discussion}",
+                    "post_reactions_removed": "Видалено {count, plural, one {реакцію {reaction} (#)} other {реакції {reaction} (#)}} з допису {post} користувача {postuser} в обговоренні {discussion}"
                 }
             }
         }
