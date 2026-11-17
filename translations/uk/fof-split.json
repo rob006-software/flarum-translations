@@ -2,13 +2,13 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "Відокремлення дописів від дискусії"
+                "split_discussion_label": "Відокремлювати дописи від обговорення"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "{count, plural, one {{count} допис відокремлено до {target}.} other {{count} допис відокремлені до {target}.}}",
-                "was_split_from": "{count, plural, one {{count} допис відокремлено від {target}.} other {{count} допис відокремлені від {target}.}}"
+                "was_split_to": "{count, plural, one {{count} допис відокремлено до {target}.} few {{count} дописи відокремлено до {target}.} many {{count} дописів відокремлено до {target}.} other {{count} допису відокремлено до {target}.}}",
+                "was_split_from": "{count, plural, one {{count} допис відокремлено від {target}.} few {{count} дописи відокремлено від {target}.} many {{count} дописів відокремлено від {target}.} other {{count} допису відокремлено від {target}.}}"
             },
             "split": {
                 "from": "Розпочати звідси",
@@ -16,15 +16,15 @@
                 "cancel": "Скасувати розбиття"
             },
             "modal": {
-                "title": "Розділена дискусія",
+                "title": "Розділити обговорення",
                 "new_discussion_label": "Вкажіть назву для нового обговорення",
                 "submit_button": "Розділення повідомлень"
             }
         },
         "api": {
             "errors": {
-                "first_post": "",
-                "end_before_start": ""
+                "first_post": "Перший допис обговорення неможливо відокремити.",
+                "end_before_start": "Розділення має завершуватися на початковому або пізнішому дописі."
             }
         }
     },
@@ -32,8 +32,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "split_away": "",
-                    "split_into": ""
+                    "split_away": "З обговорення {discussion} до {new_discussion} відокремлено дописів: {post_count}",
+                    "split_into": "До нового обговорення {discussion} відокремлено дописів: {post_count}"
                 }
             }
         }
