@@ -2,14 +2,14 @@
     "flarum-sticky": {
         "admin": {
             "settings": {
-                "enable_display_excerpt": "",
-                "only_sticky_unread_discussions_label": "",
-                "only_sticky_unread_discussions_help": "",
-                "pin_sticky_on_all_discussions_label": "",
-                "pin_sticky_on_all_discussions_help": ""
+                "enable_display_excerpt": "Показувати уривок першого допису, коли закріплене обговорення не прочитано",
+                "only_sticky_unread_discussions_label": "Лише непрочитані закріплені обговорення",
+                "only_sticky_unread_discussions_help": "На сторінці «Усі обговорення» непрочитані закріплені обговорення показуються вгорі, а прочитані — у звичайному порядку.",
+                "pin_sticky_on_all_discussions_label": "Закріплювати обговорення на сторінці «Усі обговорення»",
+                "pin_sticky_on_all_discussions_help": "Якщо ввімкнено (типово), закріплені обговорення показуються вгорі сторінки «Усі обговорення». Якщо вимкнено, вони займають звичайне місце відповідно до останньої активності. На сторінках тегів закріплені обговорення завжди показуються вгорі незалежно від цього налаштування."
             },
             "permissions": {
-                "sticky_discussions_label": "Закріплені дискусії"
+                "sticky_discussions_label": "Закріплювати обговорення"
             }
         },
         "forum": {
@@ -21,15 +21,15 @@
                 "unsticky_button": "Відкріплено"
             },
             "post_stream": {
-                "discussion_stickied_text": "Користувач {username} закріпив дискусію {time}.",
-                "discussion_unstickied_text": "Користувач {username} скасував закріплення дискусії {time}."
+                "discussion_stickied_text": "Користувач {username} закріпив обговорення {time}.",
+                "discussion_unstickied_text": "Користувач {username} скасував закріплення обговорення {time}."
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "sticky": {
-                        "key": ""
+                        "key": "sticky"
                     }
                 }
             }
@@ -42,8 +42,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "stickied": "",
-                    "unstickied": ""
+                    "stickied": "Закріплено обговорення {discussion}",
+                    "unstickied": "Скасовано закріплення обговорення {discussion}"
                 }
             }
         }
