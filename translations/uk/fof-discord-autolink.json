@@ -2,27 +2,27 @@
     "fof-discord-autolink": {
         "forum": {
             "invite": {
-                "heading": "",
-                "invalid_heading": "",
-                "invalid_title": "",
-                "invalid_text": "",
-                "join": "",
-                "members": "",
-                "online": "",
-                "partnered": "",
-                "verified": ""
+                "heading": "Вас запрошено приєднатися до сервера",
+                "invalid_heading": "Вас запрошено приєднатися до сервера, але…",
+                "invalid_title": "Недійсне запрошення",
+                "invalid_text": "Строк дії запрошення міг сплинути або у вас немає дозволу на приєднання.",
+                "join": "Приєднатися",
+                "members": "Учасників: {count}",
+                "online": "У мережі: {count}",
+                "partnered": "Партнер Discord",
+                "verified": "Підтверджено"
             },
             "event": {
-                "heading": "",
-                "interested": "",
-                "active": "",
-                "completed": "",
-                "canceled": ""
+                "heading": "Вас запрошено на подію",
+                "interested": "Зацікавилися: {count}",
+                "active": "Відбувається зараз",
+                "completed": "Ця подія завершилася",
+                "canceled": "Цю подію скасовано"
             },
             "label": {
-                "channel": "",
-                "event": "",
-                "message": ""
+                "channel": "Канал Discord",
+                "event": "Подія Discord",
+                "message": "Повідомлення Discord"
             }
         }
     }
