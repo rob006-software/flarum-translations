@@ -24,8 +24,8 @@
                 "empty_text": "Ми не знайшли жодного користувача, який би відповідав вашому запиту.",
                 "filter_button": "Фільтр за групою",
                 "usercard": {
-                    "discussion-count": "{count, plural, one { {count} дискусія} other {{count} дискусій}}",
-                    "post-count": "{count, plural, one { {count} допис} other {{count} дописів}}"
+                    "discussion-count": "{count, plural, one {{count} обговорення} few {{count} обговорення} many {{count} обговорень} other {{count} обговорення}}",
+                    "post-count": "{count, plural, one {{count} допис} few {{count} дописи} many {{count} дописів} other {{count} допису}}"
                 }
             }
         },
@@ -35,7 +35,7 @@
             },
             "settings": {
                 "link": "Додати посилання на головній сторінці для користувачів, які можуть переглянути базу",
-                "default-sort": "Сортування за налаштуванням",
+                "default-sort": "Сортування за замовчуванням",
                 "use-small-cards": "Використовувати маленькі карточки користувачів",
                 "disable-global-search-source": "Не додавати базу користувачів до поля глобального пошуку Flarum",
                 "link-group-mentions": "Посилання на групу в дописах до каталогу користувачів"
@@ -43,16 +43,16 @@
         },
         "lib": {
             "sort": {
-                "not_specified": "Використовувати Flarum за налаштуванням",
-                "default": "За налаштуванням",
+                "not_specified": "Використовувати Flarum за замовчуванням",
+                "default": "За замовчуванням",
                 "username_az": "Ім'я користувача (a-z)",
                 "username_za": "Ім'я користувача (z-a)",
                 "newest": "Нові",
                 "oldest": "Старі",
-                "most_discussions": "За найбільшою кількістю дискусій",
-                "least_discussions": "За найменшою кількістю дискусій",
-                "seen_recent": "",
-                "seen_oldest": "",
+                "most_discussions": "За найбільшою кількістю обговорень",
+                "least_discussions": "За найменшою кількістю обговорень",
+                "seen_recent": "Нещодавно в мережі",
+                "seen_oldest": "Найдавніше були в мережі",
                 "most_posts": "З великою кількістю дописів",
                 "least_posts": "За останніми дописами"
             }
