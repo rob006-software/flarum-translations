@@ -2,52 +2,52 @@
     "fof-bookmarks": {
         "admin": {
             "settings": {
-                "independent_button": "",
-                "independent_button_help": "",
-                "post_button_position": "",
-                "post_button_position_header": "",
-                "post_button_position_actions": "",
-                "post_button_position_menu": "",
-                "post_header_badge": "",
-                "post_header_badge_help": ""
+                "independent_button": "Показувати елемент додавання обговорення до закладок на бічній панелі",
+                "independent_button_help": "Якщо вимкнено, цей елемент показується в спадному меню обговорення.",
+                "post_button_position": "Розташування кнопки закладки допису",
+                "post_button_position_header": "Над дописом (у заголовку)",
+                "post_button_position_actions": "Під дописом (швидкі дії)",
+                "post_button_position_menu": "У меню допису (три крапки)",
+                "post_header_badge": "Позначати дописи, додані до закладок",
+                "post_header_badge_help": "Показує мітку над дописом, доданим до закладок. Застосовується, лише якщо кнопка розташована не в заголовку."
             }
         },
         "forum": {
-            "badge": "",
+            "badge": "У закладках",
             "dropdownButton": {
-                "add": "",
-                "remove": ""
+                "add": "Додати до закладок",
+                "remove": "Видалити із закладок"
             },
             "independentButton": {
-                "add": "",
-                "remove": ""
+                "add": "Додати до закладок",
+                "remove": "У закладках"
             },
             "postButton": {
-                "add": "",
-                "remove": ""
+                "add": "Додати до закладок",
+                "remove": "У закладках"
             },
             "alert": {
-                "added": "",
-                "removed": "",
-                "show_bookmarks": ""
+                "added": "Закладку додано!",
+                "removed": "Закладку видалено!",
+                "show_bookmarks": "Перейти до закладок"
             },
             "page": {
-                "link": "",
-                "title": "",
+                "link": "Закладки",
+                "title": "Закладки",
                 "hero": {
-                    "title": "",
-                    "subtitle": ""
+                    "title": "Закладки",
+                    "subtitle": "Обговорення й дописи, які ви зберегли, щоб повернутися до них."
                 },
                 "tab": {
-                    "discussions": "",
-                    "posts": ""
+                    "discussions": "Обговорення",
+                    "posts": "Дописи"
                 }
             }
         },
         "lib": {
             "gambits": {
                 "bookmarked": {
-                    "key": ""
+                    "key": "bookmarked"
                 }
             }
         }
