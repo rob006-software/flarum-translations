@@ -1,75 +1,75 @@
 {
     "ernestdefoe-hangout": {
         "forum": {
-            "nav": "",
+            "nav": "Hangout",
             "page": {
-                "title": "",
-                "description": ""
+                "title": "Hangout",
+                "description": "Geh von Raum zu Raum und unterhalte dich mit den Leuten, die gerade da sind – ganz im Stil der alten Telnet-Chatter."
             },
             "head": {
-                "here": "",
-                "doors": "",
-                "doors_to": ""
+                "here": "{count, plural, one {# ist hier} other {# sind hier}}",
+                "doors": "Türen nach {doors}",
+                "doors_to": "Türen nach"
             },
             "stage": {
-                "label": "",
-                "hint": "",
+                "label": "Der Raum und die Leute in ihm",
+                "hint": "Tippe auf den Boden, um zu gehen · tippe auf jemanden, um dessen Karte zu erhalten · du kannst auch mit den Pfeiltasten gehen",
                 "hint_guest": ""
             },
             "emotes": {
                 "label": "",
-                "wave": "",
-                "laugh": "",
-                "dance": "",
-                "sit": "",
-                "hug": "",
-                "more": ""
+                "wave": "Winken",
+                "laugh": "Lachen",
+                "dance": "Tanzen",
+                "sit": "Sitzen",
+                "hug": "Umarmen",
+                "more": "Mehr…"
             },
             "bar": {
                 "label": "",
                 "placeholder": "",
-                "say": "",
-                "guest": "",
-                "cannot_talk": "",
-                "log_in": ""
+                "say": "Sag es",
+                "guest": "Melde dich an, um vorbeizukommen und mit zu sprechen.",
+                "cannot_talk": "Du kannst dich umsehen, aber nicht hier sprechen.",
+                "log_in": "Anmelden"
             },
             "who": {
-                "title": "",
-                "friend": "",
-                "full": "",
-                "empty": "",
-                "more": ""
+                "title": "Wer ist da · {count}",
+                "friend": "Dein Freund",
+                "full": "Vollständige Liste",
+                "empty": "Niemand ist gerade hier.",
+                "more": "und {count} weitere (Antippen zum Anzeigen)"
             },
             "tabs": {
-                "room": "",
+                "room": "Raum",
                 "tells": "",
-                "room_empty": "",
+                "room_empty": "Es ist ruhig. Sag mal Hallo!",
                 "tells_empty": "",
                 "chan_empty": "",
                 "who": "",
                 "mail": ""
             },
             "card": {
-                "close": "",
-                "feeling": "",
+                "close": "Schließen",
+                "feeling": "{name} fühlt sich {feeling}.",
                 "here": "",
                 "offline": "",
                 "idle": "",
-                "afk": "",
-                "afk_reason": "",
+                "afk": "abwesend",
+                "afk_reason": "abwesend: {reason}",
                 "total": "",
                 "clock": "",
                 "tell": "",
-                "page": "",
-                "walk": "",
-                "wave": "",
-                "profile": "",
-                "friend": "",
+                "page": "Seite",
+                "walk": "Rüber gehen",
+                "wave": "Winken",
+                "profile": "Profil",
+                "friend": "Freund hinzufügen",
                 "unfriend": "",
-                "ignore": "",
+                "ignore": "Ignorieren",
                 "unignore": "",
-                "partner": "",
-                "latest": ""
+                "partner": "Partner von {name}",
+                "latest": "Letzter Beitrag: {excerpt} in {discussion}"
             },
             "board": {
                 "title": "",
@@ -78,18 +78,18 @@
                 "empty": "",
                 "no_notes": "",
                 "write": "",
-                "subject": "",
-                "body": "",
-                "post": "",
-                "cancel": "",
+                "subject": "Betreff",
+                "body": "Deine Notiz",
+                "post": "Anheften",
+                "cancel": "Abbrechen",
                 "delete": "",
                 "delete_confirm": ""
             },
             "mail": {
                 "hint": "",
                 "empty": "",
-                "reply": "",
-                "delete": ""
+                "reply": "Antworten",
+                "delete": "Löschen"
             },
             "notification": {
                 "mail": "",
@@ -100,24 +100,24 @@
                 "proposal": ""
             },
             "idle": {
-                "now": "",
-                "m": "",
-                "h": "",
-                "d": "",
-                "afk": ""
+                "now": "jetzt",
+                "m": "{n} m",
+                "h": "{n} h",
+                "d": "{n} d",
+                "afk": "afk"
             },
             "duration": {
-                "hm": "",
-                "m": ""
+                "hm": "{h} h {m} m",
+                "m": "{m} m"
             },
             "outside": {
                 "label": "",
                 "body": "",
-                "looking": "",
+                "looking": "{name} sucht nach dir.",
                 "via": {
-                    "parley": "",
-                    "chat": "",
-                    "messages": ""
+                    "parley": "Parley",
+                    "chat": "Chat",
+                    "messages": "Messages"
                 }
             },
             "errors": {
@@ -128,7 +128,7 @@
                 "slow_down": "",
                 "usage": "",
                 "rank_cannot": "",
-                "not_connected": "",
+                "not_connected": "{name} ist gerade nicht verbunden.",
                 "moron_page": "",
                 "page_wait": "",
                 "nothing_to_reply": "",
@@ -157,23 +157,23 @@
                 "reports_off": ""
             },
             "line": {
-                "says": "",
-                "asks": "",
-                "exclaims": "",
-                "you_says": "",
-                "you_asks": "",
-                "you_exclaims": "",
-                "think": "",
+                "says": "{name} sagt, “{text}”",
+                "asks": "{name} fragt, „{text}“",
+                "exclaims": "{name} ruft aus, „{text}“",
+                "you_says": "Du sagst „{text}“",
+                "you_asks": "Du fragst „{text}“",
+                "you_exclaims": "Du rufst aus „{text}“",
+                "think": "{name} denkt . o O ( {text} )",
                 "afar": "",
-                "enter": "",
-                "enter_from": "",
-                "leave": "",
-                "connect": "",
+                "enter": "{name} ist angekommen.",
+                "enter_from": "{name} ist eingetroffen von {room}.",
+                "leave": "{name} geht zu {room}.",
+                "connect": "{name} hat sich verbunden.",
                 "disconnect": "",
                 "lost": "",
-                "afk": "",
-                "afk_reason": "",
-                "back": "",
+                "afk": "{name} ist abwesend.",
+                "afk_reason": "{name} ist abwesend: {reason}",
+                "back": "{name} ist zurück.",
                 "page": "",
                 "page_group": "",
                 "page_sent": "",
@@ -197,22 +197,22 @@
                 "unmuted_sent": ""
             },
             "menu": {
-                "open": "",
-                "report": "",
-                "remove": "",
-                "mute": "",
-                "mute_hour": ""
+                "open": "Nachrichtenoptionen",
+                "report": "Melden",
+                "remove": "Entfernen",
+                "mute": "10 min stummschalten",
+                "mute_hour": "1 h stummschalten"
             },
             "out": {
                 "outside_sent": "",
                 "outside_refused": "",
                 "unknown": "",
-                "removed": "",
+                "removed": "Nachricht entfernt.",
                 "reported": "",
                 "usage": "",
                 "exits": "",
                 "none": "",
-                "here": "",
+                "here": "Hier: {people}",
                 "alone": "",
                 "is_feeling": "",
                 "no_description": "",
@@ -242,16 +242,16 @@
                 "dmessage_set_reset": "",
                 "feeling_set": "",
                 "feeling_set_reset": "",
-                "channels_title": "",
-                "channel_count": "",
-                "channel_join_button": "",
-                "channel_leave_button": "",
+                "channels_title": "Kanäle",
+                "channel_count": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+                "channel_join_button": "Beitreten",
+                "channel_leave_button": "Verlassen",
                 "channels_hint": "",
                 "channel_join": "",
                 "channel_leave": "",
                 "channel_create": "",
                 "channel_who": "",
-                "friends_title": "",
+                "friends_title": "Deine Freunde",
                 "friends_none": "",
                 "enemies_title": "",
                 "enemies_none": "",
@@ -338,8 +338,8 @@
                     "channel": "",
                     "friend": "",
                     "mail": "",
-                    "bbs": "",
-                    "alias": "",
+                    "bbs": "Die Aushangtafel in der Lobby.",
+                    "alias": "Dein eigener Kurzbefehl.",
                     "partner": "",
                     "report": "",
                     "mute": "",
@@ -349,16 +349,16 @@
         },
         "admin": {
             "settings": {
-                "nav": "",
-                "ranks": "",
+                "nav": "Hangout in der Forennavigation anzeigen",
+                "ranks": "Ränge",
                 "ranks_help": "",
-                "rank": "",
-                "rank_name": "",
-                "rank_color": "",
-                "rank_group": "",
-                "no_group": "",
+                "rank": "Rang",
+                "rank_name": "Name",
+                "rank_color": "Farbe",
+                "rank_group": "Gruppe",
+                "no_group": "Keine Gruppe",
                 "mortal_group": "",
-                "say_per_minute": "",
+                "say_per_minute": "Zeile pro Minute",
                 "say_per_minute_help": "",
                 "shout_minutes": "",
                 "shout_minutes_help": "",
@@ -371,29 +371,29 @@
                 "outside": "",
                 "outside_help": "",
                 "outside_options": {
-                    "parley_chat_messages": "",
-                    "chat_parley_messages": "",
-                    "messages_parley_chat": "",
-                    "parley": "",
-                    "chat": "",
-                    "messages": "",
-                    "off": ""
+                    "parley_chat_messages": "Parley, dann Chat, dann Messages",
+                    "chat_parley_messages": "Chat, dann Parley, dann Messages",
+                    "messages_parley_chat": "Messages, dann Parley, dann Chat",
+                    "parley": "Nur Parley",
+                    "chat": "Nur Chat",
+                    "messages": "Nur Messages",
+                    "off": "Aus: Nur Leute im Hangout"
                 }
             },
             "ranks": {
-                "deity": "",
-                "elder_wizard": "",
-                "elder_druid": "",
-                "wizard": "",
-                "druid": "",
-                "apprentice_wizard": "",
-                "apprentice_druid": "",
+                "deity": "Gottheit",
+                "elder_wizard": "Älterer Zauberer",
+                "elder_druid": "Älterer Druide",
+                "wizard": "Zauberer",
+                "druid": "Druide",
+                "apprentice_wizard": "Zauberlehrling",
+                "apprentice_druid": "Druidenlehrling",
                 "retired": "",
                 "experienced": "",
-                "assistant": "",
-                "builder": "",
-                "mortal": "",
-                "moron": ""
+                "assistant": "Assistent",
+                "builder": "Erbauer",
+                "mortal": "Sterblicher",
+                "moron": "Dorfdepp"
             },
             "permissions": {
                 "view": "",
