@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Заблокувати дискусії"
+                "lock_discussions_label": "Заблокувати обговорення"
             }
         },
         "forum": {
@@ -17,18 +17,18 @@
                 "discussion_locked_text": "Користувача {username} заблоковано"
             },
             "post_stream": {
-                "discussion_locked_text": "Користувач {username} заблокував дискусію {time}.",
-                "discussion_unlocked_text": "Користувач {username} розблокував дискусію {time}."
+                "discussion_locked_text": "Користувач {username} заблокував обговорення {time}.",
+                "discussion_unlocked_text": "Користувач {username} розблокував обговорення {time}."
             },
             "settings": {
-                "notify_discussion_locked_label": "Хтось блокує розпочату мною дискусію"
+                "notify_discussion_locked_label": "Хтось блокує розпочате мною обговорення"
             }
         },
         "lib": {
             "gambits": {
                 "discussions": {
                     "locked": {
-                        "key": ""
+                        "key": "locked"
                     }
                 }
             }
@@ -38,8 +38,8 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "locked": "",
-                    "unlocked": ""
+                    "locked": "Заблоковано обговорення {discussion}",
+                    "unlocked": "Розблоковано обговорення {discussion}"
                 }
             }
         }
