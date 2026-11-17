@@ -2,25 +2,25 @@
     "core": {
         "admin": {
             "email": {
-                "mailtrap_heading": "",
-                "mailtrap_description": "",
-                "mail_mailtrap_api_token_label": "",
-                "mail_mailtrap_api_token_help": "",
-                "mail_mailtrap_mode_label": "",
-                "mail_mailtrap_mode_help": "",
-                "mail_mailtrap_inbox_id_label": "",
-                "mail_mailtrap_inbox_id_help": "",
-                "mail_mailtrap_category_label": "",
-                "mail_mailtrap_category_help": ""
+                "mailtrap_heading": "Налаштування Mailtrap",
+                "mailtrap_description": "Надсилайте листи через API Mailtrap або перехоплюйте їх у тестовій скриньці Mailtrap. Для справжнього надсилання адреса відправника має належати до домену, підтвердженого в Mailtrap.",
+                "mail_mailtrap_api_token_label": "Токен API",
+                "mail_mailtrap_api_token_help": "Створіть його в Mailtrap у розділі Settings → API Tokens. Надайте доступ до домену надсилання або, для тестування, до тестової скриньки.",
+                "mail_mailtrap_mode_label": "Режим",
+                "mail_mailtrap_mode_help": "Надсилання пошти доставляє листи учасникам. Тестовий режим нічого не надсилає справжнім одержувачам: усі листи потрапляють до тестової скриньки Mailtrap. Це підходить для тестових форумів і розробки.",
+                "mail_mailtrap_inbox_id_label": "ID тестової скриньки",
+                "mail_mailtrap_inbox_id_help": "Використовується лише в тестовому режимі. Це число в адресі скриньки, наприклад 1234567 у mailtrap.io/inboxes/1234567/messages.",
+                "mail_mailtrap_category_label": "Категорія",
+                "mail_mailtrap_category_help": "Необов’язково. Позначає кожен лист для фільтрації в журналах і статистиці Mailtrap, наприклад назвою форуму."
             }
         }
     },
     "fof-mailtrap-mail": {
         "admin": {
-            "pinned_help": "",
+            "pinned_help": "Задано в коді конфігурацією цього форуму, тому тут змінити неможливо.",
             "mode": {
-                "sending": "",
-                "sandbox": ""
+                "sending": "Надсилання пошти",
+                "sandbox": "Тестовий режим"
             }
         }
     }
