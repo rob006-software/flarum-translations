@@ -72,7 +72,7 @@
             },
             "pending_requests": {
                 "empty_text": "Запитів на зміну назви не знайдено.",
-                "group_label": "",
+                "group_label": "Запити",
                 "nickname_item_text": "Користувач {name} попросив змінити своє псевдо",
                 "nickname_exerpt": "Запитуване псевдо: {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
@@ -99,8 +99,8 @@
         "email": {
             "body": {
                 "noReasonProvided": "Причина не вказана.",
-                "approved": "",
-                "rejected": ""
+                "approved": "Користувач {actor_display_name} схвалив ваш запит на зміну імені користувача на «{new_username}».\n\nТепер ви можете ввійти з новим ім’ям: {login_url}\n",
+                "rejected": "Користувач {actor_display_name} відхилив ваш запит на зміну імені з «{old_username}» на «{requested_username}».\n\nПричина: {reason}\n"
             },
             "subject": {
                 "approved": "Користувач {display_name} схвалив зміну вашого імені користувача на {requested_username}",
@@ -112,12 +112,12 @@
         "lib": {
             "browser": {
                 "user": {
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "nickname_requested": "Надіслано запит на новий псевдонім {new_nickname} для користувача {username}",
+                    "nickname_request_approved": "Схвалено зміну псевдоніма користувача {username} з {old_nickname} на {new_nickname}",
+                    "nickname_request_rejected": "Відхилено зміну псевдоніма користувача {username}",
+                    "username_requested": "Надіслано запит на нове ім’я {new_username} для користувача {username}",
+                    "username_request_approved": "Схвалено зміну імені користувача {username} з {old_username} на {new_username}",
+                    "username_request_rejected": "Відхилено зміну імені користувача {username}"
                 }
             }
         }
