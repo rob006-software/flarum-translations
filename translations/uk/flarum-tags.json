@@ -4,20 +4,20 @@
             "basics": {
                 "tags_label": "=> flarum-tags.ref.tags",
                 "slug_driver_options": {
-                    "default": "",
-                    "id_with_slug": ""
+                    "default": "За замовчуванням",
+                    "id_with_slug": "ID із текстовим ідентифікатором"
                 }
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Видалити тег",
-                "default_sort_label": "",
-                "default_sort_none": "",
-                "default_sort_text": "",
-                "default_sort_unavailable": "",
-                "delete_tag_confirmation": "Ви впевнені , що хочете видалити тег? Дискусії в цьому тезі видалені не будуть.",
+                "default_sort_label": "Типове сортування",
+                "default_sort_none": "Використовувати типове сортування форуму",
+                "default_sort_text": "Порядок обговорень із цим тегом, коли відвідувач ще не вибрав спосіб сортування.",
+                "default_sort_unavailable": "{sort} (більше не доступно)",
+                "delete_tag_confirmation": "Ви впевнені, що хочете видалити тег? Обговорення з цим тегом не буде видалено.",
                 "description_label": "Опис",
-                "hide_label": "Приховати зі списку дискусій",
+                "hide_label": "Приховати зі списку обговорень",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -28,13 +28,13 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Керування списком тегів, доступних для структурування дискусій."
+                "tags_text": "Керування списком тегів, доступних для впорядкування обговорень."
             },
             "permissions": {
                 "allow_edit_tags_label": "Дозволити редагування тегу",
                 "bypass_tag_counts_label": "Ігнорувати вимоги до тегу",
                 "restrict_by_tag_heading": "Згідно тегу",
-                "tag_discussions_label": "Тег дискусій"
+                "tag_discussions_label": "Призначати теги обговоренням"
             },
             "settings": {
                 "button_text": "=> flarum-tags.ref.choose_tags"
@@ -42,13 +42,13 @@
             "tag_settings": {
                 "range_separator_text": " - ",
                 "required_primary_heading": "Кількість основних тегів",
-                "required_primary_text": "Введіть мінімальне і максимальне число основних тегів, в які буде додана дискусія.",
+                "required_primary_text": "Укажіть мінімальну й максимальну кількість основних тегів, які можна призначити обговоренню.",
                 "required_secondary_heading": "Кількість додаткових тегів",
-                "required_secondary_text": "Введіть мінімальне і максимальне число додаткових тегів, в які буде додана дискусія.",
+                "required_secondary_text": "Укажіть мінімальну й максимальну кількість додаткових тегів, які можна призначити обговоренню.",
                 "title": "Налаштування тегів"
             },
             "tags": {
-                "about_tags_text": "Теги використовуються для структурування дискусій. Основні теги можуть утворювати дворівневу ієрархію. Додаткові теги не мають ієрархії та можуть бути корисні для мікро-структурування. Теги з додаткових в основні можна конвертувати шляхом простого перетягування мишкою.",
+                "about_tags_text": "Теги використовуються для впорядкування обговорень. Основні теги подібні до звичайних категорій форуму: їх можна організувати у дворівневу ієрархію. Додаткові теги не мають ієрархії чи порядку та корисні для докладнішої класифікації.",
                 "create_primary_tag_button": "Створити основний тег",
                 "create_secondary_tag_button": "Створити додатковий тег",
                 "edit_tag_label": "Редагувати тег {tag}",
@@ -64,15 +64,15 @@
             },
             "choose_tags": {
                 "edit_title": "Редагування тегів для {title}",
-                "title": "Оберіть теги для вашої дискусії"
+                "title": "Оберіть теги для вашого обговорення"
             },
             "composer_discussion": {
                 "choose_tags_link": "=> flarum-tags.ref.choose_tags"
             },
             "deck": {
-                "column_label": "",
-                "tag_label": "",
-                "tag_placeholder": ""
+                "column_label": "Тег",
+                "tag_label": "Тег",
+                "tag_placeholder": "Знайти тег"
             },
             "discussion_controls": {
                 "edit_tags_button": "Редагувати теги"
@@ -89,10 +89,10 @@
                 "added_and_removed_tags_text": "{username} додали {tagsAdded} і видалили {tagsRemoved} {time}.",
                 "added_tags_text": "{username} додали {tagsAdded} {time}.",
                 "removed_tags_text": "{username} видалили {tagsRemoved} {time}.",
-                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
+                "tags_text": "{count, plural, =1 {тег {tags}} one {теги {tags}} other {теги {tags}}}"
             },
             "tag": {
-                "meta_description_text": "Всі дискусії з тегом {tag}"
+                "meta_description_text": "Всі обговорення з тегом {tag}"
             }
         },
         "lib": {
@@ -100,14 +100,14 @@
             "gambits": {
                 "discussions": {
                     "tag": {
-                        "key": "",
-                        "hint": ""
+                        "key": "tag",
+                        "hint": "Назва тегу, перелік назв тегів через кому або «untagged»"
                     }
                 }
             },
             "tag_selection_modal": {
                 "bypass_requirements": "Вимоги до обхідних тегів",
-                "choose_primary_placeholder": "{count, plural, one {Оберіть основний тег} other {Оберіть # основні теги}}",
+                "choose_primary_placeholder": "{count, plural, =1 {Оберіть основний тег} one {Оберіть # основний тег} few {Оберіть # основні теги} many {Оберіть # основних тегів} other {Оберіть основні теги: #}}",
                 "choose_secondary_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "choose_tags_placeholder": "=> flarum-tags.ref.choose_tags_placeholder",
                 "submit_button": "=> core.ref.okay",
@@ -116,7 +116,7 @@
         },
         "ref": {
             "choose_tags": "Оберіть теги",
-            "choose_tags_placeholder": "{count, plural, one {Оберіть більше # тегу} other {Оберіть більше # тегів}}",
+            "choose_tags_placeholder": "{count, plural, one {Оберіть ще # тег} few {Оберіть ще # теги} many {Оберіть ще # тегів} other {Оберіть ще тегів: #}}",
             "name": "Назва",
             "tags": "Теги"
         }
@@ -125,12 +125,12 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "tagged": ""
+                    "tagged": "Теги обговорення {discussion} змінено з {old_tags} на {new_tags}"
                 },
                 "tag": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Створено тег {tag}",
+                    "updated": "Оновлено тег {tag}",
+                    "deleted": "Видалено тег {tag}"
                 }
             }
         }
