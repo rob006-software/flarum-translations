@@ -297,7 +297,7 @@
                 "banner_suspended_forever": "",
                 "banner_reason": "Grund: {reason}",
                 "banner_spammer": "Als Spammer markiert am {date} von {by}",
-                "banner_spammer_sub": "",
+                "banner_spammer_sub": "{posts, plural, one {# Beitrag} other {# Beiträge}} und {discussions, plural, one {# Diskussion} other {# Diskussionen}} ausgeblendet, {ips, plural, one {# IP} other {# IPs}} gesperrt. Wiederherstellen bring alles wieder zurück.",
                 "banner_erasure_awaiting_user_confirmation": "",
                 "banner_erasure_user_confirmed": "",
                 "banner_anonymized": ""
@@ -336,9 +336,9 @@
                 "help": ""
             },
             "activity": {
-                "chart": "",
-                "chart_label": "",
-                "likes": "",
+                "chart": "Beiträge in den letzten 12 Monaten",
+                "chart_label": "Beiträge im Monat in den letzten 12 Monaten",
+                "likes": "{given, plural, one {# Like} other {# Likes}} vergeben, {received} erhalten.",
                 "posts": "Neueste Beiträge",
                 "no_posts": "Noch keine Beiträge.",
                 "discussions": "Diskussionen begonnen",
