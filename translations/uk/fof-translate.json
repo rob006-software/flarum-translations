@@ -2,202 +2,202 @@
     "fof-translate": {
         "admin": {
             "detection": {
-                "cancel_button": "",
-                "counts_failed_text": "",
-                "detect_missing_button": "",
-                "discussions_status_text": "",
-                "heading": "",
-                "help": "",
-                "posts_status_text": "",
-                "progress_discussions_text": "",
-                "progress_posts_text": "",
-                "redetect_all_button": "",
-                "redetect_all_confirm": "",
-                "refresh_button": "",
-                "summary_cancelled_text": "",
-                "summary_done_text": "",
-                "summary_failed_text": "",
-                "undetermined_help": ""
+                "cancel_button": "Скасувати",
+                "counts_failed_text": "Не вдалося завантажити стан визначення мов.",
+                "detect_missing_button": "Визначити невідомі мови",
+                "discussions_status_text": "{total, plural, one {Обговорень: #} other {Обговорень: #}}. Визначено: {detected}, не вдалося визначити: {undetermined}, ще не перевірено: {pending}.",
+                "heading": "Визначення мови",
+                "help": "Кнопка перекладу приховується для вмісту мовою читача, для чого потрібно знати мову вмісту. Мова нових дописів і обговорень визначається автоматично під час збереження, а опитувань — під час перегляду. Використовуйте цю дію для вмісту, створеного до встановлення розширення. Визначення виконується локально на вашому сервері, не звертається до сервісу перекладу й не потребує оплати. Те саме можна зробити з командного рядка командою {command}.",
+                "posts_status_text": "{total, plural, one {Дописів: #} other {Дописів: #}}. Визначено: {detected}, не вдалося визначити: {undetermined}, ще не перевірено: {pending}.",
+                "progress_discussions_text": "Визначення мов обговорень… {processed} із {expected}",
+                "progress_posts_text": "Визначення мов дописів… {processed} із {expected}",
+                "redetect_all_button": "Визначити всі мови повторно",
+                "redetect_all_confirm": "Повторно визначити мову всіх дописів і обговорень, зокрема вже перевірених? На великому форумі це може тривати певний час.",
+                "refresh_button": "Оновити",
+                "summary_cancelled_text": "Зупинено. Наразі перевірено: {posts, plural, one {дописів — #} other {дописів — #}}, {discussions, plural, one {обговорень — #} other {обговорень — #}}. Визначено: {detected}, не вдалося визначити: {undetermined}.",
+                "summary_done_text": "Готово. Перевірено: {posts, plural, one {дописів — #} other {дописів — #}}, {discussions, plural, one {обговорень — #} other {обговорень — #}}. Визначено: {detected}, не вдалося визначити: {undetermined}.",
+                "summary_failed_text": "Визначення зупинено через помилку після перевірки: {posts, plural, one {дописів — #} other {дописів — #}}, {discussions, plural, one {обговорень — #} other {обговорень — #}}.",
+                "undetermined_help": "Невизначений вміст уже перевірено, але його мову встановити не вдалося. Це часто трапляється з текстом-заповнювачем або тестовим текстом. Для нього кнопка перекладу показується завжди."
             },
             "permissions": {
-                "refresh_label": "",
-                "translate_any_language_label": "",
-                "translate_label": ""
+                "refresh_label": "Оновлювати кешовані переклади",
+                "translate_any_language_label": "Перекладати будь-якою мовою форуму",
+                "translate_label": "Перекладати вміст"
             },
             "settings": {
                 "ai": {
-                    "de_variant_help": "",
-                    "de_variant_label": "",
+                    "de_variant_help": "Варіант німецької, який використовують драйвери AI для перекладу німецькою.",
+                    "de_variant_label": "Варіант німецької",
                     "de_variant_options": {
-                        "casual": "",
-                        "swiss": ""
+                        "casual": "Неформальна німецька (du)",
+                        "swiss": "Швейцарська стандартна німецька"
                     },
-                    "en_variant_help": "",
-                    "en_variant_label": ""
+                    "en_variant_help": "Правопис, який використовують драйвери AI для перекладу англійською.",
+                    "en_variant_label": "Варіант англійської"
                 },
-                "api_key_help": "",
+                "api_key_help": "Також можна задати змінною середовища {env}, яка має пріоритет над цим полем.",
                 "claude": {
-                    "api_key_label": "",
-                    "effort_help": "",
-                    "effort_label": "",
+                    "api_key_label": "Ключ API Anthropic",
+                    "effort_help": "Наскільки ретельно модель міркує перед відповіддю. Переклад — просте завдання, тому низького рівня зазвичай достатньо; він також найдешевший.",
+                    "effort_label": "Рівень зусиль",
                     "effort_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": ""
+                        "high": "Високий",
+                        "low": "Низький",
+                        "medium": "Середній"
                     },
-                    "intro": "",
-                    "model_help": "",
-                    "model_label": ""
+                    "intro": "Використовує моделі Claude від Anthropic. Створіть ключ API в <a>консолі Claude</a>.",
+                    "model_help": "Opus дає найкращі переклади, Haiku — найдешевша модель. Sonnet — проміжний варіант.",
+                    "model_label": "Модель"
                 },
                 "deepl": {
-                    "api_key_label": "",
-                    "en_choice_help": "",
-                    "en_choice_label": "",
-                    "intro": "",
-                    "pt_choice_help": "",
-                    "pt_choice_label": "",
-                    "formality_help": "",
-                    "formality_label": "",
+                    "api_key_label": "Ключ API DeepL",
+                    "en_choice_help": "Для перекладу англійською DeepL вимагає вибрати регіональний варіант.",
+                    "en_choice_label": "Варіант англійської",
+                    "intro": "Використовує машинний переклад DeepL. Підтримуються безкоштовний і Pro плани API: <a>отримати ключ API DeepL</a>.",
+                    "pt_choice_help": "Для перекладу португальською DeepL вимагає вибрати регіональний варіант.",
+                    "pt_choice_label": "Варіант португальської",
+                    "formality_help": "Формальний чи неформальний стиль перекладів для мов, що підтримують цей вибір.",
+                    "formality_label": "Формальність",
                     "formality_options": {
-                        "default": "",
-                        "prefer_less": "",
-                        "prefer_more": ""
+                        "default": "За замовчуванням",
+                        "prefer_less": "Віддавати перевагу неформальному стилю",
+                        "prefer_more": "Віддавати перевагу формальному стилю"
                     },
-                    "glossaries_empty": "",
-                    "glossaries_failed": "",
-                    "glossaries_heading": "",
-                    "glossaries_help": "",
-                    "glossaries_reload_button": "",
-                    "glossaries_retry_button": "",
-                    "glossary_none_option": "",
-                    "glossary_pair_label": "",
-                    "model_type_help": "",
-                    "model_type_label": "",
+                    "glossaries_empty": "У вашому обліковому записі DeepL не знайдено глосаріїв.",
+                    "glossaries_failed": "Не вдалося завантажити глосарії з DeepL.",
+                    "glossaries_heading": "Глосарії DeepL",
+                    "glossaries_help": "Виберіть глосарій зі свого облікового запису DeepL для кожної відповідної пари мов.",
+                    "glossaries_reload_button": "Перезавантажити",
+                    "glossaries_retry_button": "Спробуйте ще раз",
+                    "glossary_none_option": "Без глосарія",
+                    "glossary_pair_label": "{source} → {target}",
+                    "model_type_help": "Швидші відповіді або якісніша модель там, де DeepL її пропонує.",
+                    "model_type_label": "Тип моделі",
                     "model_type_options": {
-                        "latency_optimized": "",
-                        "prefer_quality_optimized": ""
+                        "latency_optimized": "Швидше",
+                        "prefer_quality_optimized": "Якісніше"
                     }
                 },
-                "driver_help": "",
-                "driver_label": "",
-                "driver_none_option": "",
-                "driver_not_configured": "",
-                "driver_recommended_option": "",
-                "driver_section_heading": "",
-                "driver_self_hosted_option": "",
-                "driver_unofficial_option": "",
-                "disabled_notice": "",
+                "driver_help": "Сервіс, що перекладає вміст. Переклад не виконується, доки ви не виберете й не налаштуєте драйвер.",
+                "driver_label": "Драйвер перекладу",
+                "driver_none_option": "Немає",
+                "driver_not_configured": "Для цього драйвера не задано обов’язкових налаштувань. Заповніть і збережіть їх, щоб почати переклад.",
+                "driver_recommended_option": "{driver} (рекомендовано)",
+                "driver_section_heading": "Налаштування {driver}",
+                "driver_self_hosted_option": "{driver} (власний сервер)",
+                "driver_unofficial_option": "{driver} (безкоштовний, неофіційний)",
+                "disabled_notice": "Переклад вимкнено, доки ви не виберете й не налаштуєте драйвер нижче.",
                 "english_options": {
-                    "en-GB": "",
-                    "en-US": ""
+                    "en-GB": "Британська англійська",
+                    "en-US": "Американська англійська"
                 },
                 "portuguese_options": {
-                    "pt-BR": "",
-                    "pt-PT": ""
+                    "pt-BR": "Португальська (Бразилія)",
+                    "pt-PT": "Португальська (Португалія)"
                 },
-                "env_override": "",
-                "env_override_named": "",
+                "env_override": "Це значення задано змінною середовища на сервері.",
+                "env_override_named": "Це значення задано змінною середовища {env} на сервері.",
                 "glossary": {
-                    "add_button": "",
-                    "empty_text": "",
-                    "help": "",
-                    "label": "",
-                    "placeholder": "",
-                    "remove_button": ""
+                    "add_button": "Додати термін",
+                    "empty_text": "Термінів ще немає.",
+                    "help": "Слова й назви, які ніколи не перекладаються, наприклад назва форуму або продукту.",
+                    "label": "Глосарій",
+                    "placeholder": "Додайте термін…",
+                    "remove_button": "Видалити {term}"
                 },
                 "google": {
-                    "intro": ""
+                    "intro": "Використовує безкоштовний вебінтерфейс Google Translate, тому обліковий запис або ключ API не потрібні. Це неофіційний варіант без гарантій: Google може обмежувати або блокувати сервери з великим навантаженням, а якість нижча, ніж у драйверів AI. Форматування перевіряється після кожного перекладу; неперевірені переклади не зберігаються. Рекомендовано для ознайомлення з розширенням або невеликих форумів."
                 },
                 "ollama": {
-                    "api_key_help": "",
-                    "api_key_label": "",
-                    "base_url_help": "",
-                    "base_url_label": "",
-                    "intro": "",
-                    "model_help": "",
-                    "model_label": "",
-                    "think_help": "",
-                    "think_label": "",
+                    "api_key_help": "Необов’язковий токен Bearer для сервера Ollama за зворотним проксі з автентифікацією. Також можна задати змінною середовища {env}.",
+                    "api_key_label": "Токен API",
+                    "base_url_help": "Адреса сервера Ollama, наприклад http://localhost:11434.",
+                    "base_url_label": "URL-адреса сервера",
+                    "intro": "Запускає моделі на вашому сервері, тому вміст не залишає його, а ключ API не потрібен. Спершу <a>встановіть Ollama</a> та завантажте модель.",
+                    "model_help": "Назва встановленої моделі Ollama, наприклад llama3.1.",
+                    "model_label": "Модель",
+                    "think_help": "Для моделей міркування, як-от gpt-oss або qwen3. Низький рівень значно пришвидшує переклад. Вимкнення ігнорується деякими моделями (gpt-oss), які міркують завжди.",
+                    "think_label": "Рівень міркування",
                     "think_options": {
-                        "high": "",
-                        "low": "",
-                        "medium": "",
-                        "off": ""
+                        "high": "Високий",
+                        "low": "Низький",
+                        "medium": "Середній",
+                        "off": "Вимкнено"
                     }
                 },
                 "openai": {
-                    "api_key_label": "",
-                    "intro": "",
-                    "max_tokens_help": "",
-                    "max_tokens_label": "",
-                    "model_help": "",
-                    "model_label": ""
+                    "api_key_label": "Ключ API OpenAI",
+                    "intro": "Використовує моделі GPT від OpenAI. Створіть ключ API на <a>платформі OpenAI</a>.",
+                    "max_tokens_help": "Максимальна довжина кожного перекладу.",
+                    "max_tokens_label": "Максимальна кількість токенів",
+                    "model_help": "Модель OpenAI для перекладу.",
+                    "model_label": "Модель"
                 },
-                "short_content_length_help": "",
-                "short_content_length_label": "",
-                "throttle_per_minute_help": "",
-                "throttle_per_minute_label": "",
-                "timeout_help": "",
-                "timeout_label": "",
-                "translate_all_enabled_help": "",
-                "translate_all_enabled_label": "",
-                "use_native_locale_names_help": "",
-                "use_native_locale_names_label": ""
+                "short_content_length_help": "Вміст, коротший за цю кількість символів, надто короткий для надійного визначення мови. Вважається, що його написано мовою, якою автор користується форумом: вибраною ним або типовою мовою форуму.",
+                "short_content_length_label": "Мінімальна довжина для визначення мови",
+                "throttle_per_minute_help": "Скільки перекладів кожен користувач або IP-адреса гостя може запитувати за хвилину.",
+                "throttle_per_minute_label": "Перекладів за хвилину",
+                "timeout_help": "Скільки секунд чекати на відповідь сервісу.",
+                "timeout_label": "Тайм-аут",
+                "translate_all_enabled_help": "Дозволити всім, хто має дозвіл на переклад, вибирати будь-яку мову форуму, а не лише власну.",
+                "translate_all_enabled_label": "Дозволити переклад будь-якою мовою",
+                "use_native_locale_names_help": "Показувати назви мов самими цими мовами (Deutsch, 日本語), а не мовою читача.",
+                "use_native_locale_names_label": "Використовувати назви рідною мовою"
             },
             "test": {
-                "button": "",
-                "detected_text": "",
-                "failed_text": "",
-                "failed_unknown_text": "",
-                "help": "",
-                "markup_warning": "",
-                "source_label": "",
-                "success_text": "",
-                "translation_label": ""
+                "button": "Перевірити переклад",
+                "detected_text": "Визначена мова оригіналу: {language}",
+                "failed_text": "Помилка перевірки: {error}",
+                "failed_unknown_text": "Перевірка завершилася помилкою.",
+                "help": "Перекладає короткий приклад іншою мовою на мову вашої панелі адміністратора з налаштуваннями вище — збереженими або ні. Виконує один запит до провайдера.",
+                "markup_warning": "Форматування збережено не повністю.",
+                "source_label": "Приклад",
+                "success_text": "Перекладено: {source} → {target}, час — {seconds} с",
+                "translation_label": "Переклад"
             }
         },
         "forum": {
             "poll": {
-                "show_original_button": ""
+                "show_original_button": "Показати оригінал"
             },
             "translate_button": {
-                "dropdown_accessible_label": "",
-                "label": "",
-                "label_from": "",
-                "target_tooltip": ""
+                "dropdown_accessible_label": "Виберіть мову перекладу",
+                "label": "Перекласти",
+                "label_from": "Перекласти з «{from}»",
+                "target_tooltip": "Перекласти мовою «{to}»"
             },
             "translation": {
-                "close_button": "",
-                "header_from": "",
-                "header_to": "",
-                "loading_text": "",
-                "meta": "",
-                "refresh_button": "",
-                "show_original_button": "",
-                "stale_text": "",
-                "status_from": "",
-                "status_text": "",
-                "thread_failed_text": ""
+                "close_button": "Закрити переклад",
+                "header_from": "Перекладено: {from} → {to}",
+                "header_to": "Перекладено мовою «{to}»",
+                "loading_text": "Переклад мовою «{to}»…",
+                "meta": "{provider} · {time}",
+                "refresh_button": "Оновити переклад",
+                "show_original_button": "Показати оригінал",
+                "stale_text": "Після створення цього перекладу оригінал було відредаговано.",
+                "status_from": "Перекладено з «{from}»",
+                "status_text": "Перекладено",
+                "thread_failed_text": "Не вдалося перекласти дописи ({count, plural, one {#} other {#}}). Спробуйте пізніше."
             }
         },
         "api": {
-            "already_in_language": "",
-            "glossaries_failed": "",
-            "invalid_detection_cursor": "",
-            "invalid_detection_type": "",
-            "no_driver": "",
-            "not_translatable": "",
-            "too_long": "",
-            "translation_failed": "",
-            "unsupported_locale": ""
+            "already_in_language": "Цей вміст уже написано вибраною мовою.",
+            "glossaries_failed": "Не вдалося завантажити глосарії DeepL. Перевірте ключ API.",
+            "invalid_detection_cursor": "Некоректна позиція визначення мови.",
+            "invalid_detection_type": "Невідомий тип вмісту для визначення мови.",
+            "no_driver": "Переклад на цьому форумі не налаштовано.",
+            "not_translatable": "Цей допис неможливо перекласти.",
+            "too_long": "Цей вміст надто довгий для перекладу.",
+            "translation_failed": "Не вдалося перекласти. Спробуйте пізніше.",
+            "unsupported_locale": "Ця мова недоступна для перекладу."
         },
         "lib": {
             "drivers": {
-                "claude": "",
-                "deepl": "",
-                "google": "",
-                "ollama": "",
-                "openai": ""
+                "claude": "Claude",
+                "deepl": "DeepL",
+                "google": "Google Translate",
+                "ollama": "Ollama",
+                "openai": "OpenAI"
             }
         }
     },
@@ -205,9 +205,9 @@
         "lib": {
             "data": {
                 "translationdata": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Експортує переклади дописів і заголовків обговорень користувача разом із визначеною мовою кожного з них.",
+                    "anonymize_description": "Без змін. Вміст користувача зберігається, тому його переклади також залишаються.",
+                    "delete_description": "Видаляє переклади дописів, обговорень і опитувань, видалених разом із вмістом користувача."
                 }
             }
         }
@@ -216,13 +216,13 @@
         "lib": {
             "browser": {
                 "fof_translate": {
-                    "post_translation_refreshed": "",
-                    "discussion_translation_refreshed": "",
-                    "poll_translation_refreshed": "",
-                    "driver_tested": "",
-                    "language_detection_run": "",
-                    "translations_pruned": "",
-                    "translations_repaired": ""
+                    "post_translation_refreshed": "Оновлено переклад {locale} допису {post} користувача {postuser} в обговоренні {discussion}",
+                    "discussion_translation_refreshed": "Оновлено переклад {locale} заголовка обговорення {discussion}",
+                    "poll_translation_refreshed": "Оновлено переклад {locale} опитування #{poll_id}",
+                    "driver_tested": "Перевірено драйвер перекладу {driver}: {ok, select, true {успішно} other {помилка}}",
+                    "language_detection_run": "{force, select, true {Повторно визначено} other {Визначено}} мову рядків типу {type}: {rows, plural, one {# рядок} other {кількість — #}}",
+                    "translations_pruned": "Видалено переклади тією самою мовою ({same_language}), осиротілі переклади опитувань ({orphaned_polls}) та варіантів відповідей ({orphaned_poll_options})",
+                    "translations_repaired": "Позначено для повторного перекладу: {rows, plural, one {пошкоджених перекладів дописів — #} other {пошкоджених перекладів дописів — #}}"
                 }
             }
         }
