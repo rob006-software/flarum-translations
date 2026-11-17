@@ -15,9 +15,9 @@
                 "only_icons_label": "Показувати лише значки на кнопках входу (альтернативний макет)",
                 "update_email_from_provider_label": "Оновлення адреси електронної пошти від провайдера",
                 "update_email_from_provider_help": "Якщо ця опція увімкнена, то при кожному вході на форум адреса електронної пошти користувача буде оновлюватися відповідно до адреси, наданої провайдером OAuth. Не всі провайдери надають оновлену адресу електронної пошти, в такому випадку це налаштування не матиме жодного ефекту для таких провайдерів.",
-                "oauth_only_label": "",
-                "oauth_only_help": "",
-                "oauth_only_sign_up_closed_warning": "",
+                "oauth_only_label": "Дозволити вхід і реєстрацію лише через сервіси OAuth",
+                "oauth_only_help": "Якщо ввімкнено, учасники більше не можуть входити, реєструватися або скидати пароль за допомогою пароля; натомість використовують увімкнені сервіси. Адміністратори зберігають вхід за паролем через посилання «Вхід адміністратора» у вікні входу. Наявний обліковий запис без пов’язаного сервісу буде пов’язано під час першого входу через сервіс, якщо він підтвердить ту саму електронну адресу; в інших випадках потрібна допомога адміністратора. Параметр не діє, якщо жоден сервіс не ввімкнено. Залиште реєстрацію відкритою в дозволах, інакше нові учасники не зможуть зареєструватися й через сервіси.\n",
+                "oauth_only_sign_up_closed_warning": "Реєстрацію закрито в розділі <a>Дозволи</a>. Flarum застосовує це налаштування й до реєстрації через сервіси, тому нові користувачі не зможуть приєднатися.",
                 "disable_avatars_label": "Відключити аватарки від провайдера",
                 "disable_avatars_help": "Якщо ця опція увімкнена, аватар користувача не буде оновлюватися, щоб відповідати аватару провайдера при реєстрації. Зверніть увагу, що це впливає лише на майбутні реєстрації, і не змінює аватар існуючих користувачів.\n",
                 "providers": {
@@ -36,10 +36,10 @@
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "flarum": {
-                        "description": "",
-                        "forum_url_label": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Дозвольте учасникам входити з обліковим записом іншого форуму Flarum. На тому форумі потрібне розширення OAuth Provider ({link}). У його панелі адміністратора додайте клієнта з наведеною нижче URL-адресою зворотного виклику та скопіюйте сюди ID і секрет клієнта.",
+                        "forum_url_label": "URL-адреса форуму (наприклад, https://discuss.example.com)",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "github": {
                         "description": "Створиьи додаток OAuth на сторінці {link}.",
@@ -79,13 +79,13 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
-                "unverified_email_in_use_oauth_only": "",
-                "admin_log_in_link": "",
+                "unverified_email_in_use": "Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Якщо ви вже маєте обліковий запис, увійдіть нижче, а потім пов’яжіть {provider} у налаштуваннях облікового запису.",
+                "unverified_email_in_use_oauth_only": "Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Підтвердьте адресу в {provider} і спробуйте ще раз або зверніться до адміністратора.",
+                "admin_log_in_link": "Вхід адміністратора",
                 "with_button": "Увійдіть за допомогою {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
-                "with_flarum_button": "",
+                "with_flarum_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_google_button": "=> fof-oauth.forum.log_in.with_button",
@@ -100,7 +100,7 @@
                         "link-created-label": "Дата створення посилання",
                         "identification-label": "{provider} ID",
                         "orphaned-account": "Ви входили через цього провайдера раніше, але з того часу цей форум відключив вхід за допомогою цього методу.",
-                        "help": "Ці пов'язані акаунти дозволяють входити на форум за допомогою інших провайдерів.",
+                        "help": "Ці пов'язані облікові записи дозволяють входити на форум за допомогою інших провайдерів.",
                         "identifier-label": "{provider} ID",
                         "unlink-confirm": "Ви впевнені, що хочете видалити посилання з {provider}? Ви більше не зможете увійти на цей форум, якщо не пройдете повторну аутентифікацію в майбутньому."
                     }
@@ -109,7 +109,7 @@
             "providers": {
                 "discord": "=> fof-oauth.lib.providers.discord",
                 "facebook": "=> fof-oauth.lib.providers.facebook",
-                "flarum": "",
+                "flarum": "=> fof-oauth.lib.providers.flarum",
                 "github": "=> fof-oauth.lib.providers.github",
                 "gitlab": "=> fof-oauth.lib.providers.gitlab",
                 "google": "=> fof-oauth.lib.providers.google",
@@ -117,9 +117,9 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "account_linked": {
-                "title": "",
-                "body": "",
-                "dismiss_button": ""
+                "title": "Обліковий запис пов’язано",
+                "body": "Ваш обліковий запис <strong>{username}</strong> на {forum} тепер пов’язано з {provider}. Надалі ви можете входити за допомогою пароля форуму або через {provider}.",
+                "dismiss_button": "Зрозуміло"
             },
             "signup": {
                 "username_help": "Будь ласка, оберіть ім'я користувача, яке буде використовуватися тут"
@@ -128,21 +128,21 @@
             "error": {
                 "bad_verification_code": "Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.",
                 "invalid_state": "Недійсний стан. Будь ласка, спробуйте ще раз.",
-                "already_linked": "",
-                "provider_misconfigured": ""
+                "already_linked": "Цей обліковий запис уже пов’язано з іншим користувачем.",
+                "provider_misconfigured": "Цей спосіб входу налаштовано неправильно. Зверніться до адміністраторів форуму."
             }
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
-                "body": ""
+                "subject": "Запит на зміну електронної адреси",
+                "body": "Після вашого входу на {forum} через {provider} надійшов запит на зміну електронної адреси облікового запису на {new_email}. Зміна набуде чинності після підтвердження нової адреси.\n\nЯкщо це були не ви, ваш обліковий запис {provider} міг бути зламаний. Захистіть його й зверніться до адміністраторів {forum}.\n"
             }
         },
         "lib": {
             "providers": {
                 "discord": "Discord",
                 "facebook": "Facebook",
-                "flarum": "",
+                "flarum": "Flarum",
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "google": "Google",
@@ -151,17 +151,17 @@
             },
             "gambits": {
                 "sso": {
-                    "key": "",
-                    "hint": ""
+                    "key": "sso",
+                    "hint": "Сервіс входу"
                 }
             }
         },
         "ref": {
             "settings": {
-                "app_id": "App ID",
-                "app_secret": "App Secret",
-                "client_id": "Client ID",
-                "client_secret": "Client Secret"
+                "app_id": "Ідентифікатор застосунку",
+                "app_secret": "Секрет застосунку",
+                "client_id": "Ідентифікатор клієнта",
+                "client_secret": "Секрет клієнта"
             }
         }
     }
