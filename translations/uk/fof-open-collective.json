@@ -17,25 +17,25 @@
                 "onetime_group_help": "Виберіть, до якої групи користувачів Flarum слід додавати одноразових спонсорів. Якщо цей параметр не вказано, одноразові спонсори не будуть обліковуватися. Коли спонсор з періодичною підпискою скасує свою підписку, його буде перенесено до цієї групи."
             },
             "status": {
-                "heading": "",
-                "never_run": "",
-                "last_success": "",
-                "last_failure": "",
-                "stale": "",
-                "test_button": "",
-                "test_success": "",
-                "test_success_no_orders": "",
-                "request_failed": "",
+                "heading": "Стан синхронізації",
+                "never_run": "Синхронізація ще не виконувалася. Вона запускається щогодини через планувальник Flarum, тому перевірте його налаштування.",
+                "last_success": "Остання синхронізація {time}: спонсорів — {backers}, змін — {changes}.",
+                "last_failure": "Остання синхронізація {time} завершилася помилкою: {reason}",
+                "stale": "Остання синхронізація була понад дві години тому. Перевірте, чи працює планувальник Flarum.",
+                "test_button": "Тестове підключення",
+                "test_success": "З’єднано з {collective} від імені {account}. Знайдено внесків: {orders}; електронні адреси спонсорів доступні для читання.",
+                "test_success_no_orders": "З’єднано з {collective} від імені {account}. Внесків ще немає, тому доступ до електронних адрес перевірити не вдалося.",
+                "request_failed": "Не вдалося виконати перевірку з’єднання.",
                 "reasons": {
-                    "unauthorized": "",
-                    "forbidden": "",
-                    "emails_hidden": "",
-                    "not_found": "",
-                    "rate_limited": "",
-                    "network": "",
-                    "configuration": "",
-                    "no_backers": "",
-                    "other": ""
+                    "unauthorized": "Open Collective відхилив токен. Строк його дії міг сплинути або його могли відкликати.",
+                    "forbidden": "Токен не має потрібної області доступу. Потрібні «orders» та «email».",
+                    "emails_hidden": "Токен не може читати електронні адреси спонсорів. Потрібна область доступу «email».",
+                    "not_found": "Колектив не знайдено. Перевірте його текстовий ідентифікатор.",
+                    "rate_limited": "Досягнуто ліміту запитів Open Collective. Повторна спроба відбудеться під час наступної синхронізації.",
+                    "network": "Не вдалося зв’язатися з Open Collective.",
+                    "configuration": "Не повністю задано токен, текстовий ідентифікатор колективу або налаштування груп.",
+                    "no_backers": "Open Collective не повернув спонсорів, тому нічого не змінено. Якщо це правильно, запустіть синхронізацію з --force.",
+                    "other": "Open Collective повернув неочікувану відповідь."
                 }
             }
         }
@@ -44,12 +44,12 @@
         "lib": {
             "browser": {
                 "fof_open_collective": {
-                    "recurring_started": "",
-                    "recurring_stopped": "",
-                    "onetime_started": "",
-                    "backing_ended": "",
-                    "groups_changed": "",
-                    "membership_adopted": ""
+                    "recurring_started": "Користувач {username} став постійним спонсором на Open Collective. Групи: {old_groups} → {new_groups}",
+                    "recurring_stopped": "Постійне спонсорство користувача {username} на Open Collective припинилося. Групи: {old_groups} → {new_groups}",
+                    "onetime_started": "Користувач {username} став одноразовим спонсором на Open Collective. Групи: {old_groups} → {new_groups}",
+                    "backing_ended": "Користувач {username} більше не є спонсором на Open Collective. Групи: {old_groups} → {new_groups}",
+                    "groups_changed": "Синхронізація Open Collective змінила групи користувача {username} з {old_groups} на {new_groups}",
+                    "membership_adopted": "Синхронізація Open Collective перебрала керування членством користувача {username} у групах {new_groups}"
                 }
             }
         }
@@ -58,9 +58,9 @@
         "lib": {
             "data": {
                 "opencollectivebacker": {
-                    "export_description": "",
-                    "anonymize_description": "",
-                    "delete_description": ""
+                    "export_description": "Експортує статус спонсорства користувача на Open Collective, час його останньої зміни й групи, якими керує синхронізація.",
+                    "anonymize_description": "=> flarum-gdpr.lib.data.opencollectivebacker.delete_description",
+                    "delete_description": "Видаляє запис спонсорства користувача на Open Collective, щоб синхронізація забула його без оголошення про завершення спонсорства."
                 }
             }
         }
