@@ -41,19 +41,19 @@
             "suspended": {
                 "subject": "Ваш обліковий запис призупинено",
                 "plain": {
-                    "body": ""
+                    "body": "Ваш обліковий запис заблоковано з такої причини:\n\n---\n{suspension_message}\n---\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Ваш обліковий запис на {forumTitle} заблоковано з такої причини:"
                 }
             },
             "unsuspended": {
                 "subject": "Ваш обліковий запис розблоковано",
                 "plain": {
-                    "body": ""
+                    "body": "Блокування вашого облікового запису знято. Ви можете повернутися на форум за посиланням:\n\n{forum_url}\n"
                 },
                 "html": {
-                    "body": ""
+                    "body": "Блокування вашого облікового запису знято. Коли будете готові, можете повернутися на [{forumTitle}]({forum_url})."
                 }
             }
         },
@@ -61,7 +61,7 @@
             "gambits": {
                 "users": {
                     "suspended": {
-                        "key": ""
+                        "key": "suspended"
                     }
                 }
             }
@@ -71,8 +71,8 @@
         "lib": {
             "browser": {
                 "user": {
-                    "suspended": "",
-                    "unsuspended": ""
+                    "suspended": "Користувача {username} заблоковано до {until}",
+                    "unsuspended": "Блокування користувача {username} знято"
                 }
             }
         }
