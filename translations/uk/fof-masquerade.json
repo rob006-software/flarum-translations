@@ -2,7 +2,7 @@
     "fof-masquerade": {
         "forum": {
             "profile": {
-                "empty-text": ""
+                "empty-text": "Цей користувач ще не заповнив жодного поля профілю."
             },
             "alerts": {
                 "profile-completion-required": "Будь ласка, заповніть необхідні поля облікового нижче.\n",
@@ -27,12 +27,12 @@
         "admin": {
             "buttons": {
                 "add-field": "Створити поле",
-                "add-option": "",
-                "delete-option": "",
+                "add-option": "Додати варіант",
+                "delete-option": "Видалити варіант",
                 "edit-field": "Зберегти зміни",
                 "delete-field": "Видалити поле",
-                "restore-field": "",
-                "delete-field-permanently": ""
+                "restore-field": "Відновити поле «{field}»",
+                "delete-field-permanently": "Видалити поле «{field}» назавжди"
             },
             "permissions": {
                 "edit-others-profile": "Редагувати обліковий запис інших користувачів",
@@ -41,14 +41,14 @@
             },
             "fields": {
                 "title": "Поля",
-                "trash": "",
-                "create": "",
+                "trash": "Кошик",
+                "create": "Створити поле",
                 "edit": "Редагувати поле {field}",
                 "delete-confirmation": "Ви впевнені, що хочете видалити поле {field}? Цю дію неможливо скасувати.",
-                "delete-permanently-confirmation": "",
-                "is_restricted": "",
-                "permissions": "",
-                "permissions-alert": "",
+                "delete-permanently-confirmation": "Видалити поле «{field}» та всі збережені відповіді назавжди? Цю дію неможливо скасувати.",
+                "is_restricted": "Обмежити видимість поля",
+                "permissions": "Видимість поля",
+                "permissions-alert": "Налаштування дозволів стануть доступними під час редагування поля після його створення.",
                 "name": "Назва поля",
                 "name-help": "Публічно видимий (неперекладний) напис на полі.\n",
                 "description": "Опис поля",
@@ -61,7 +61,7 @@
                 "icon": "Іконка",
                 "icon-help": "Показує значок перед значеннями, що вводяться користувачем. Список доступних значків можна знайти на сайті <a>FontAwesome</a>. Використовуйте назви піктограм з префіксом \"fa-\", наприклад, \"fas fa-info\".\n",
                 "force-user-to-completion": "Змусити користувача заповнити обліковий запис",
-                "hide-empty-fields": "",
+                "hide-empty-fields": "Приховувати порожні поля",
                 "options": "Опції",
                 "option-new": "Нова опція",
                 "option-comma-warning": "Найменування лнйблу не може містити жодної коми (\",\").",
@@ -79,8 +79,8 @@
         "lib": {
             "gambits": {
                 "answer": {
-                    "key": "",
-                    "hint": ""
+                    "key": "answer",
+                    "hint": "Значення полів профілю користувача"
                 }
             }
         }
@@ -100,12 +100,12 @@
         "lib": {
             "browser": {
                 "masquerade": {
-                    "field_created": "",
-                    "field_updated": "",
-                    "field_deleted": "",
-                    "field_restored": "",
-                    "field_permanently_deleted": "",
-                    "profile_updated": ""
+                    "field_created": "Створено поле профілю «{name}»",
+                    "field_updated": "Оновлено поле профілю «{name}»",
+                    "field_deleted": "Видалено поле профілю «{name}»",
+                    "field_restored": "Відновлено поле профілю «{name}»",
+                    "field_permanently_deleted": "Назавжди видалено поле профілю «{name}»",
+                    "profile_updated": "Оновлено поля профілю користувача {username}"
                 }
             }
         }
