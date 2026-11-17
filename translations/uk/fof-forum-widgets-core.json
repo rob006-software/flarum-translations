@@ -1,11 +1,11 @@
 {
     "fof-forum-widgets-core": {
         "admin": {
-            "widget_tooltip": "",
-            "cache_not_writable_warning": "",
+            "widget_tooltip": "{widget} — {extension}",
+            "cache_not_writable_warning": "Зараз немає дозволу на запис кешу, тому деякі віджети не працюватимуть. Виправте дозволи для каталогу сховища.",
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Завантажувати дані всіх віджетів разом із початковою відповіддю сторінки",
+                "prefer_data_with_initial_load_help": "Замість окремих запитів API після початкового завантаження сторінки дані віджетів за можливості завантажуватимуться одразу з нею."
             }
         }
     }
