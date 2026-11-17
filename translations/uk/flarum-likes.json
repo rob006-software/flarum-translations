@@ -17,7 +17,7 @@
             "post": {
                 "like_link": "Вподобайка",
                 "liked_by_self_text": "{users} вподобали це.",
-                "liked_by_text": "{count, plural, one {{users} вподобали це} other {{users} вподобав це}}.",
+                "liked_by_text": "{count, plural, =1 {{users} вподобав це} one {{users} вподобали це} other {{users} вподобали це}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Не подобається",
                 "you_text": "=> core.ref.you"
@@ -37,8 +37,8 @@
             "gambits": {
                 "posts": {
                     "likedBy": {
-                        "key": "",
-                        "hint": ""
+                        "key": "likedBy",
+                        "hint": "ID або ім’я користувача"
                     }
                 }
             }
