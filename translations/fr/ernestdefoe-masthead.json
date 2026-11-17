@@ -13,8 +13,8 @@
             "hero": {
                 "label": "En avant",
                 "kicker": "",
-                "kicker_tag": "",
-                "byline": "",
+                "kicker_tag": "En avant · {tag}",
+                "byline": "Par {name}",
                 "replies": "",
                 "empty_tag": "",
                 "empty_tag_gone": "Le tag sélectionné pour les sujets mis en avant n'existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.",
@@ -196,8 +196,8 @@
                 "scrubber_help": "",
                 "polls_label": "",
                 "polls_help": "",
-                "polls_post": "",
-                "polls_sidebar": "",
+                "polls_post": "Dans le message",
+                "polls_sidebar": "Dans la barre latérale",
                 "views_label": "",
                 "views_help": ""
             },
@@ -208,16 +208,16 @@
                 "tags_page_help": ""
             },
             "footer": {
-                "label": "",
+                "label": "Liens du pied de page",
                 "help": "",
-                "name": "",
-                "url": "",
-                "url_placeholder": "",
-                "icon": "",
-                "icon_placeholder": "",
-                "remove": "",
-                "add": "",
-                "powered_by_label": ""
+                "name": "Nom",
+                "url": "URL",
+                "url_placeholder": "/p/1-a-propos ou https://…",
+                "icon": "Icône",
+                "icon_placeholder": "Icône (optionnelle)",
+                "remove": "Supprimer le lien",
+                "add": "Ajouter un lien",
+                "powered_by_label": "Afficher la mention \"Propulsé par Flarum\""
             }
         }
     }
