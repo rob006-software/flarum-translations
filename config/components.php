@@ -1039,7 +1039,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/pickem/2.0.0/resources/locale/en.yml',
 	],
 	'huseyinfiliz-private-profile' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v2.1.1/locale/en.yml',
 	],
 	'huseyinfiliz-rewind' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.2.0/locale/en.yml',
