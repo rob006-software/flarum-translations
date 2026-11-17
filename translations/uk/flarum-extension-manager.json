@@ -5,7 +5,7 @@
                 "add_label": "Новий метод автентифікації",
                 "add_modal": {
                     "host_label": "Хост",
-                    "host_placeholder": "",
+                    "host_placeholder": "Наприклад: bearer.flarum.org",
                     "submit_button": "Надіслати",
                     "token_label": "Токен",
                     "type_label": "Тип",
@@ -73,7 +73,7 @@
                 }
             },
             "extensions": {
-                "already_installed": "",
+                "already_installed": "Це розширення вже встановлено",
                 "check_why_it_failed_updating": "Покажіть, чому не оновлено до останньої версії.",
                 "install": "Встановити нове розширення",
                 "install_help": "Щоб продовжити, введіть назву пакета розширення. Ви можете вказати <semantic_link>семантичну версію</semantic_link> за допомогою формату <code>vendor/package-name:version</code>. Відвідайте {link}, щоб переглянути розширення.\n",
@@ -99,33 +99,33 @@
                 "update": "Оновити"
             },
             "minor_update_confirmation": {
-                "content": ""
+                "content": "Також буде оновлено всі інші розширення й пакети, для яких доступні оновлення."
             },
-            "required_php_functions": "",
+            "required_php_functions": "Для роботи менеджера розширень потрібно ввімкнути такі функції PHP: <code>{functions}</code>. Якщо у вас немає доступу до конфігурації PHP, зверніться до свого хостинг-провайдера.\n",
             "sections": {
                 "discover": {
-                    "description": "",
-                    "empty_results": "",
+                    "description": "Додавайте нові можливості та інтеграції до свого форуму Flarum за допомогою розширень.",
+                    "empty_results": "Схоже, доступних розширень немає.",
                     "extension": {
                         "badges": {
-                            "abandoned": "",
-                            "fof": "",
-                            "flarum": ""
+                            "abandoned": "Більше не підтримується",
+                            "fof": "Friends Of Flarum",
+                            "flarum": "Flarum"
                         },
-                        "downloads": ""
+                        "downloads": "{count, plural, one {Завантажень: {formattedCount}} other {Завантажень: {formattedCount}}}"
                     },
-                    "search": "",
-                    "server_error": "",
+                    "search": "Пошук…",
+                    "server_error": "Сервіс зараз недоступний. Спробуйте пізніше.",
                     "sort": {
-                        "top": ""
+                        "top": "Найбільше завантажень"
                     },
                     "tabs": {
-                        "discover": "",
-                        "extensions": "",
-                        "languages": "",
-                        "themes": ""
+                        "discover": "Огляд",
+                        "extensions": "Розширення",
+                        "languages": "Мови",
+                        "themes": "Теми"
                     },
-                    "title": ""
+                    "title": "Розширення"
                 },
                 "queue": {
                     "columns": {
@@ -164,8 +164,8 @@
                     "title": "Черга"
                 },
                 "settings": {
-                    "title": "",
-                    "description": ""
+                    "title": "Параметри та черга",
+                    "description": "Налаштуйте менеджер розширень і перевірте операції в черзі."
                 }
             },
             "settings": {
@@ -173,12 +173,12 @@
                 "access_warning": "Будь ласка, будьте уважні до того, кому ви надаєте доступ до адміністративної частини, менеджер розширень може бути використаний зловмисниками для встановлення пакунків, які можуть призвести до порушень безпеки.",
                 "debug_mode_warning": "Ви працюєте у режимі налагодження, менеджер розширень не може належним чином встановити та оновити локальні пакунки розробки. Будь ласка, використовуйте для цих цілей інтерфейс командного рядка.",
                 "queue_jobs": "Запуск операцій у фоновій черзі",
-                "queue_jobs_help": "",
+                "queue_jobs_help": "Ви можете прочитати про <basic_impl_link>просту реалізацію черги</basic_impl_link> або <adv_impl_link>розширений варіант</adv_impl_link>. Переконайтеся, що для черги використовується PHP версії {php_version}. Перевірте, чи правильно налаштовано <folder_perms_link>дозволи для тек</folder_perms_link>.\n",
                 "task_retention_days": "Дні утримання завдання",
                 "task_retention_days_help": "Кількість днів, протягом яких виконані завдання зберігатимуться в базі даних. Завдання, старші за цей термін, будуть видалені. Встановіть 0, щоб зберігати всі завдання.\n"
             },
             "updater": {
-                "up_to_date": "",
+                "up_to_date": "Оновлень немає.",
                 "check_for_updates": "Перевірити оновлення",
                 "flarum": "Flarum Core",
                 "global_update_successful": "Успішно оновлено всі пакунки.",
