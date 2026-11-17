@@ -2,7 +2,7 @@
 
 Translations for **87** languages are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. Reports below list all strings which have the same source string on both
-sides, but do not match between them - **13** languages have such strings, the remaining ones
+sides, but do not match between them - **14** languages have such strings, the remaining ones
 are fully in sync and are not listed here.
 
 | Language | Different translations | Missing translations | Components |
@@ -20,3 +20,4 @@ are fully in sync and are not listed here.
 | [Sinhala](si.md) (`si`) | 4 | 0 | 2 |
 | [Spanish](es.md) (`es`) | 25 | 613 | 14 |
 | [Spanish (formal)](es@formal.md) (`es@formal`) | 25 | 613 | 14 |
+| [Ukrainian](uk.md) (`uk`) | 289 | 958 | 73 |
