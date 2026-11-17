@@ -5,10 +5,10 @@
             "emptyText": "Brak rewizji",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(usunięto)",
-            "editReason": "",
+            "editReason": "Powód edycji",
             "composer": {
-                "editReasonLabel": "",
-                "editReasonPlaceholder": ""
+                "editReasonLabel": "Powód edycji (opcjonalnie)",
+                "editReasonPlaceholder": "Możesz podać powód tej edycji"
             },
             "tooltips": {
                 "mostRecent": "najnowsza",
@@ -55,7 +55,7 @@
                 "usePoint": "Używaj <strong>kropki</strong> jako separatora dziesiętnego dla wartości zmiennoprzecinkowych.",
                 "separateBlock": "Pokazuj separator między różnymi fragmentami diff w rendererach HTML",
                 "mainPostOnly": "Przechowuj rewizje tylko głównego posta",
-                "showEditReason": "",
+                "showEditReason": "Pokazuj pole powodu edycji w edytorze postów",
                 "textFormatting": "Włącz formatowanie tekstu dla podglądów",
                 "detailLevel": "Poziom szczegółowości",
                 "noneLevel": "Brak",
@@ -68,7 +68,7 @@
                 "mergeThresholdHelp": "Określa, czy blok typu „zamiana” powinien być scalony, w zależności od współczynnika zmiany treści (wartość między 0 a 1).",
                 "dbOptimisation": "Optymalizacja bazy danych",
                 "archiveOlds": "Archiwizuj stare rewizje",
-                "archiveOldsInfo": "Jeśli <strong>x ≥ A</strong>, pierwsze <strong>y=mx+b</strong> rewizji posta zostanie zapisanych jako scalone i skompresowane. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.",
+                "archiveOldsInfo": "Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji posta zostanie zapisanych w postaci scalonej i skompresowanej. <strong>x</strong> oznacza liczbę rewizji posta. Wartości zmiennoprzecinkowe <strong>y</strong> są zaokrąglane w dół do najbliższej liczby całkowitej.",
                 "useCrons": "Używaj harmonogramu zadań (cron) do archiwizacji starych rewizji",
                 "useCronsHelp": "Aby ta opcja działała, musisz dodać wpis Cron na serwerze. Zadanie będzie uruchamiane co niedzielę o 02:00. Jeśli wyłączysz tę opcję, a włączysz powyższą, wszystkie rewizje posta będą sprawdzane pod kątem archiwizacji przy każdej jego edycji.",
                 "archiveInfo": "Pamiętaj, że możesz wyłączyć obie opcje i ręcznie uruchomić polecenie <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje."
