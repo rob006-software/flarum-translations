@@ -2,14 +2,14 @@
     "fof-clockwork": {
         "admin": {
             "dashboard": {
-                "section_label": "",
+                "section_label": "Clockwork",
                 "button_label": "Відкритий годинниковий механізм"
             },
             "settings": {
-                "section_label": "",
-                "disable_auth_label": "",
-                "disable_auth_help": "",
-                "disable_auth_warning": ""
+                "section_label": "Налаштування",
+                "disable_auth_label": "Вимкнути автентифікацію",
+                "disable_auth_help": "Якщо ввімкнено, профілюються всі запити, а переглядач Clockwork доступний без входу. Вмикайте лише тимчасово для налагодження.",
+                "disable_auth_warning": "Увага: автентифікацію вимкнено. Переглядач Clockwork і всі дані профілювання доступні всім. Вимкніть цей параметр після завершення налагодження."
             }
         }
     }
