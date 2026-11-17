@@ -7,18 +7,18 @@
                     "help": "Ці налаштування керують основними функціями розширення Опитування."
                 },
                 "discussion_polls": {
-                    "heading": "",
-                    "help": ""
+                    "heading": "Опитування в обговореннях",
+                    "help": "Ці налаштування керують опитуваннями, доданими до дописів в обговореннях."
                 },
-                "enable_discussion_polls": "",
-                "enable_discussion_polls_help": "",
+                "enable_discussion_polls": "Увімкнути опитування в обговореннях",
+                "enable_discussion_polls_help": "Якщо ввімкнено, користувачі можуть створювати опитування в дописах обговорень. Вимкніть, якщо хочете використовувати лише загальні опитування.",
                 "global_polls": {
                     "heading": "Глобальні опитування",
                     "help": "Ці налаштування керують функцією глобальних опитувань."
                 },
                 "image": {
                     "heading": "Налаштування зображення",
-                    "help": ""
+                    "help": "Налаштуйте обмеження завантаження й розміри зображень. Зображення автоматично перетворюються на WebP, а також створюються варіанти для різних екранів."
                 },
                 "enable_global_polls": "Увімкнути глобальні опитування",
                 "enable_global_polls_help": "Глобальні опитування не прив'язані до конкретного допису, і до них можна отримати доступ зі спеціальної сторінки опитувань.",
@@ -27,11 +27,11 @@
                 "max_options": "Максимальна кількість варіантів в одному опитуванні",
                 "options_color_blend": "Змішування кольорів тексту в опціях опитування",
                 "options_color_blend_help": "Використовуйте цю опцію для змішування кольорів, щоб зробити варіанти опитування більш читабельними. Вимкніть, якщо ця функція спричиняє проблеми із зовнішнім виглядом вашого форуму, погіршуючи його читабельність.",
-                "max_image_upload_size": "",
-                "max_image_upload_size_help": "",
-                "image_height": "",
-                "image_width": "",
-                "image_dimensions_help": ""
+                "max_image_upload_size": "Максимальний розмір завантаженого зображення (KB)",
+                "max_image_upload_size_help": "Максимальний розмір файлу зображення для завантаження в кілобайтах. Після завантаження зображення автоматично перетворюються на WebP і змінюють розмір, тому збережений файл зазвичай значно менший. Типово — 10240 KB (10 MB).",
+                "image_height": "Висота зображення після зміни розміру (px)",
+                "image_width": "Ширина зображення після зміни розміру (px)",
+                "image_dimensions_help": "Базові розміри збережених зображень. Варіанти HiDPI (@2x, @3x) створюються автоматично, якщо початкове зображення достатньо велике."
             },
             "permissions": {
                 "view_results_without_voting": "Перегляд результатів без голосування",
@@ -53,8 +53,8 @@
             "no_permission": "Ви не маєте права голосу",
             "poll_ended": "Опитування завершено.",
             "public_poll": "Переглянути тих хто проголосував",
-            "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.",
-            "polls_count": "{count, plural, one { {count} голос} other {{count} голосів}}",
+            "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} few {# варіанти} many {# варіантів} other {# варіанта}}.",
+            "polls_count": "{count, plural, one {{count} голос} few {{count} голоси} many {{count} голосів} other {{count} голосу}}",
             "poll_never_ends": "Опитування ніколи не закінчується",
             "answers": "Відповіді",
             "poll": {
@@ -62,29 +62,29 @@
                 "submit_button": "Проголосувати",
                 "start_poll_button": "Розпочати глобальне опитування",
                 "cannot_start_poll_button": "Неможливо розпочати опитування",
-                "total_votes": "{count, plural, one {# віддано голосів} other {# було віддано голосів}}",
-                "draft_label": "",
-                "scheduled_label": "",
-                "scheduled_error_tooltip": ""
+                "total_votes": "{count, plural, one {Віддано # голос} few {Віддано # голоси} many {Віддано # голосів} other {Віддано # голосу}}",
+                "draft_label": "Чернетка",
+                "scheduled_label": "Заплановано на {date}",
+                "scheduled_error_tooltip": "Не вдалося виконати заплановану публікацію. Відкрийте опитування, щоб дізнатися причину."
             },
             "poll_controls": {
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Відкрити або закрити меню керування опитуванням",
                 "edit_label": "=> core.ref.edit",
                 "delete_label": "=> core.ref.delete",
                 "view_label": "=> core.ref.view",
                 "delete_confirmation": "Ви дійсно хочете видалити це опитування?",
                 "delete_success_message": "Опитування успішно видалено.",
                 "delete_error_message": "Під час видалення опитування щось пішло не так.",
-                "publish_label": "",
-                "publish_success": "",
-                "schedule_publish_label": "",
-                "edit_schedule_publish_label": "",
-                "cancel_schedule_label": "",
-                "cancel_schedule_success": "",
-                "unpublish_label": "",
-                "unpublish_confirmation": "",
-                "unpublish_success": "",
-                "unpublish_error_has_votes": ""
+                "publish_label": "Опублікувати зараз",
+                "publish_success": "Опитування опубліковано.",
+                "schedule_publish_label": "Запланувати публікацію",
+                "edit_schedule_publish_label": "Змінити заплановану публікацію",
+                "cancel_schedule_label": "Скасувати заплановану публікацію",
+                "cancel_schedule_success": "Заплановану публікацію скасовано.",
+                "unpublish_label": "Повернути до чернеток",
+                "unpublish_confirmation": "Повернути це опитування до чернеток? Воно зникне з вітрини.",
+                "unpublish_success": "Опитування повернуто до чернеток.",
+                "unpublish_error_has_votes": "Неможливо скасувати публікацію: в опитуванні вже є голоси. Натомість видаліть його."
             },
             "poll_form": {
                 "delete": "Видалити опитування",
@@ -96,9 +96,9 @@
                     "edit_title": "Редагувати групу опитування",
                     "save_changes": "=> core.ref.save_changes",
                     "delete": "Видалити групу опитування",
-                    "name_label": "",
-                    "name_required": "",
-                    "error": "",
+                    "name_label": "Назва",
+                    "name_required": "Групі опитувань потрібна назва.",
+                    "error": "Під час збереження групи опитувань сталася помилка. Зверніться до адміністратора.",
                     "groups_manager": "Менеджер груп опитування",
                     "view_group": "Переглянути групу опитування",
                     "success": "Групу опитування успішно збережено."
@@ -138,9 +138,9 @@
                     }
                 },
                 "status_filter": {
-                    "all": "",
-                    "published": "",
-                    "draft": ""
+                    "all": "Усі",
+                    "published": "Опубліковані",
+                    "draft": "Чернетки"
                 }
             },
             "composer_discussion": {
@@ -155,16 +155,16 @@
                 "polls_preview": "Переглянути опитування",
                 "continue_editing": "Продовжити редагування",
                 "success": "Опитування успішно збережено.",
-                "submit": "",
-                "save_as_draft": "",
-                "update_draft": "",
-                "draft_saved": "",
-                "publish": "",
-                "schedule_publication": "",
-                "schedule_publication_edit": "",
-                "schedule_datetime_label": "",
-                "schedule_submit": "",
-                "schedule": ""
+                "submit": "Надіслати",
+                "save_as_draft": "Зберегти як чернетку",
+                "update_draft": "Оновити чернетку",
+                "draft_saved": "Чернетку збережено",
+                "publish": "Опублікувати",
+                "schedule_publication": "Запланувати публікацію",
+                "schedule_publication_edit": "Змінити заплановану публікацію",
+                "schedule_datetime_label": "Час публікації",
+                "schedule_submit": "Розклад",
+                "schedule": "Розклад"
             },
             "modal": {
                 "add_title": "Додати опитування",
@@ -174,12 +174,12 @@
                 "include_question": "Ви повинні включити питання",
                 "max": "Ви можете мати максимум {max} відповідей",
                 "min": "Ви повинні вказати мінімум 2 відповіді",
-                "empty_answers": "",
+                "empty_answers": "{count, plural, one {Порожніх відповідей: #. Заповніть або видаліть їх.} other {Порожніх відповідей: #. Заповніть або видаліть їх.}}",
                 "no_voters": "Немає голосів",
                 "option_placeholder": "Відповідь",
                 "image_option_placeholder": "URL-адреса зображення (необов'язково)",
                 "options_label": "Відповіді",
-                "settings_label": "",
+                "settings_label": "Голосування",
                 "public_poll_label": "Дозвольте людям бачити, хто проголосував",
                 "allow_multiple_votes_label": "Дозвольте людям голосувати за кілька варіантів",
                 "max_votes_label": "Максимальна кількість голосів на одного користувача",
@@ -197,17 +197,17 @@
                     "help": "Завантажте зображення, яке буде відображатися поряд з опитуванням (необов'язково).",
                     "alt_label": "Альтернативний текст зображення",
                     "alt_help_text": "Цей текст є обов'язковим при встановленні зображення, він буде показаний, якщо зображення не завантажиться.",
-                    "url_deprecated": ""
+                    "url_deprecated": "Це опитування використовує зовнішню URL-адресу зображення. Зовнішні URL-адреси застаріли й будуть вилучені в наступній версії. Завантажте зображення повторно за допомогою кнопки завантаження."
                 },
                 "poll_option_image": {
                     "label": "Зображення для відповіді в голосуванні",
                     "help": "Завантажте зображення, яке буде відображатися поряд з відповіддю на опитування (необов'язково)."
                 },
-                "date_clear": "",
+                "date_clear": "Очистити дату завершення",
                 "tooltip": {
                     "options": {
                         "add-button": "Додати відповідь",
-                        "remove-button": ""
+                        "remove-button": "Видалити відповідь"
                     }
                 }
             },
@@ -230,7 +230,7 @@
             },
             "tooltip": {
                 "badge": "Опитування",
-                "votes": "{count, plural, one {# голос} other {# голосів}}"
+                "votes": "{count, plural, one {# голос} few {# голоси} many {# голосів} other {# голосу}}"
             },
             "votes_modal": {
                 "title": "Хто проголосував"
@@ -245,17 +245,17 @@
         "lib": {
             "browser": {
                 "poll": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": "",
-                    "published": "",
-                    "unpublished": "",
-                    "voted": ""
+                    "created": "Створено опитування {title}",
+                    "updated": "Оновлено опитування {title}",
+                    "deleted": "Видалено опитування {title}",
+                    "published": "Опубліковано опитування {title}",
+                    "unpublished": "Скасовано публікацію опитування {title}",
+                    "voted": "Проголосовано в опитуванні {title}"
                 },
                 "poll_group": {
-                    "created": "",
-                    "updated": "",
-                    "deleted": ""
+                    "created": "Створено групу опитувань {name}",
+                    "updated": "Оновлено групу опитувань {name}",
+                    "deleted": "Видалено групу опитувань {name}"
                 }
             }
         }
