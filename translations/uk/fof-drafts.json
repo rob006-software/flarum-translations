@@ -13,11 +13,11 @@
             }
         },
         "api": {
-            "empty_draft_message": ""
+            "empty_draft_message": "У цій чернетці ще немає чого зберігати."
         },
         "console": {
             "scheduled_drafts_disabled": "Наразі в налаштуваннях відключені планові чернетки.",
-            "no_title_error": ""
+            "no_title_error": "Чернетку пропущено: немає заголовка обговорення."
         },
         "ref": {
             "schedule_draft": "Розклад для чернеток"
@@ -37,8 +37,8 @@
                 "delete_button": "Видалити чернетку",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Заплановано на {datetime}",
-                "scheduled_icon_tooltip_formatter": "L [at] LT",
-                "tooltip": "Чернетки",
+                "scheduled_icon_tooltip_formatter": "L [о] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Ви впевнені, що бажаєте видалити вашу чернетку?",
                 "delete_all_alert": "Ви впевнені, що бажаєте видалити усі ваші чернетки?"
             },
@@ -54,7 +54,7 @@
                 "schedule_time_preview": "Ця чернетка буде автоматично опублікована <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Невірна дата та/або час",
-                "no_title_error": ""
+                "no_title_error": "Перед плануванням потрібно вказати заголовок обговорення."
             },
             "user": {
                 "settings": {
@@ -63,7 +63,7 @@
                     "draft_autosave_interval_label": "Автозбереження у секундах",
                     "draft_autosave_interval_button": "Інтервал оновлення",
                     "draft_autosave_interval_invalid": "Інтервал повинен бути цілим числом, більшим за 4.",
-                    "draft_autosave_interval_saved_message": ""
+                    "draft_autosave_interval_saved_message": "Інтервал автозбереження оновлено."
                 }
             }
         }
@@ -71,8 +71,8 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "draftAutosaveEnable": "",
-                "draftAutosaveInterval": ""
+                "draftAutosaveEnable": "Типово вмикати автозбереження чернеток",
+                "draftAutosaveInterval": "Типовий інтервал автозбереження (секунди)"
             }
         }
     },
