@@ -1061,6 +1061,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-mobile-tab`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mobile-tab) | [`ernestdefoe/mobile-tab`](https://github.com/ernestdefoe/mobiletab) |
 | [`ernestdefoe-moments`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-moments) | [`ernestdefoe/moments`](https://github.com/ernestdefoe/moments) |
 | [`ernestdefoe-mural`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-mural) | [`ernestdefoe/mural`](https://github.com/ernestdefoe/mural) |
+| [`ernestdefoe-nameplate`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-nameplate) | [`ernestdefoe/nameplate`](https://github.com/ernestdefoe/nameplate) |
 | [`ernestdefoe-onair`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onair) | [`ernestdefoe/onair`](https://github.com/ernestdefoe/onair) |
 | [`ernestdefoe-onramp`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-onramp) | [`ernestdefoe/onramp`](https://github.com/ernestdefoe/onramp) |
 | [`ernestdefoe-opensearch`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-opensearch) | [`ernestdefoe/opensearch`](https://github.com/ernestdefoe/opensearch) |
