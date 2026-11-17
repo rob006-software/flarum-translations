@@ -5,6 +5,11 @@
             "emptyText": "No Revisions",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(deleted)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "most recent",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "ใช้ <strong>point</strong> เป็น decimal separator สำหรับค่า float",
                 "separateBlock": "แสดง separator ระหว่าง diff hunks ต่างๆ ใน HTML renderers",
                 "mainPostOnly": "เก็บ revisions ของ main post เท่านั้น",
+                "showEditReason": "",
                 "textFormatting": "เปิดใช้งาน text formatting สำหรับ previews",
                 "detailLevel": "Detail Level",
                 "noneLevel": "None-level",

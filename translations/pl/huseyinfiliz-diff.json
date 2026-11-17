@@ -5,6 +5,11 @@
             "emptyText": "Brak rewizji",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(usunięto)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "najnowsza",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Używaj <strong>kropki</strong> jako separatora dziesiętnego dla wartości zmiennoprzecinkowych.",
                 "separateBlock": "Pokazuj separator między różnymi fragmentami diff w rendererach HTML",
                 "mainPostOnly": "Przechowuj rewizje tylko głównego posta",
+                "showEditReason": "",
                 "textFormatting": "Włącz formatowanie tekstu dla podglądów",
                 "detailLevel": "Poziom szczegółowości",
                 "noneLevel": "Brak",

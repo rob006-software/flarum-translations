@@ -5,6 +5,11 @@
             "emptyText": "Không có bản chỉnh sửa nào",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(đã xóa)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "mới nhất",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Dùng <strong>dấu chấm</strong> làm dấu phân cách thập phân cho các giá trị số thực.",
                 "separateBlock": "Hiển thị dấu phân cách giữa các khối diff khác nhau trong trình kết xuất HTML",
                 "mainPostOnly": "Chỉ lưu các bản chỉnh sửa của bài viết chính",
+                "showEditReason": "",
                 "textFormatting": "Bật định dạng văn bản cho phần xem trước",
                 "detailLevel": "Mức độ chi tiết",
                 "noneLevel": "Không",

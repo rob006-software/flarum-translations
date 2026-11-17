@@ -5,6 +5,11 @@
             "emptyText": "Aucune révision",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(supprimé)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "le plus récent",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Utilisez le <strong>point</strong> comme séparateur décimal pour les valeurs à virgule flottante.",
                 "separateBlock": "Afficher un séparateur entre les différents blocs Diff dans les moteurs de rendu HTML",
                 "mainPostOnly": "Conserver uniquement les révisions du message principal",
+                "showEditReason": "",
                 "textFormatting": "Activer la mise en forme du texte pour les aperçus",
                 "detailLevel": "Niveau de détail",
                 "noneLevel": "Aucun niveau",

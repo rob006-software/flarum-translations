@@ -5,6 +5,11 @@
             "emptyText": "Nincsenek verziók",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(törölve)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "legfrissebb",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Tizedesjelként használjon <strong>pontot</strong> a lebegőpontos értékeknél.",
                 "separateBlock": "Elválasztó megjelenítése a különböző összehasonlítási darabok között a HTML-megjelenítőkben",
                 "mainPostOnly": "Csak a fő bejegyzés verzióinak tárolása",
+                "showEditReason": "",
                 "textFormatting": "Szövegformázás engedélyezése az előnézeteknél",
                 "detailLevel": "Részletesség szintje",
                 "noneLevel": "Nincs",

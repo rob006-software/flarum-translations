@@ -5,6 +5,11 @@
             "emptyText": "Revizyon bulunamadı",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(silindi)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "En güncel",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Ondalıklı değerlerde ayırıcı olarak <strong>nokta</strong> kullanın.",
                 "separateBlock": "HTML gösteriminde farklı diff blokları arasında ayırıcı göster",
                 "mainPostOnly": "Yalnızca ana gönderinin revizyonlarını sakla",
+                "showEditReason": "",
                 "textFormatting": "Önizlemede metin biçimlendirmesini etkinleştir",
                 "detailLevel": "Detay seviyesi",
                 "noneLevel": "Detay yok",

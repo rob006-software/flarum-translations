@@ -5,6 +5,11 @@
             "emptyText": "Нет версий",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(удалено)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "самая новая",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Используйте <strong>точку</strong> как разделитель дробной части.",
                 "separateBlock": "Показывать разделитель между блоками различий в HTML",
                 "mainPostOnly": "Сохранять версии только первого сообщения",
+                "showEditReason": "",
                 "textFormatting": "Включить форматирование текста в режиме предпросмотра",
                 "detailLevel": "Уровень детализации",
                 "noneLevel": "Без детализации",

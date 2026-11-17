@@ -5,6 +5,11 @@
             "emptyText": "Keine Überarbeitungen",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(gelöscht)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "Aktuellste",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.",
                 "separateBlock": "Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen",
                 "mainPostOnly": "Nur Überarbeitungen des Hauptbeitrags speichern",
+                "showEditReason": "",
                 "textFormatting": "Textformatierung für die Vorschau aktivieren",
                 "detailLevel": "Detailgrad",
                 "noneLevel": "Ohne-Ebene",

@@ -5,6 +5,11 @@
             "emptyText": "Tidak Ada Revisi",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(dihapus)",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "terbaru",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Gunakan <strong>titik</strong> sebagai pemisah desimal untuk nilai float.",
                 "separateBlock": "Tampilkan pemisah di antara setiap bagian perbandingan dalam renderer HTML",
                 "mainPostOnly": "Hanya simpan revisi postingan utama",
+                "showEditReason": "",
                 "textFormatting": "Aktifkan pemformatan teks untuk pratinjau",
                 "detailLevel": "Level Detail",
                 "noneLevel": "Tidak ada",

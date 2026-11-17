@@ -5,6 +5,11 @@
             "emptyText": "No Revisions",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(deleted)",
+            "editReason": "Edit reason",
+            "composer": {
+                "editReasonLabel": "Edit reason (optional)",
+                "editReasonPlaceholder": "Add an optional reason for this edit"
+            },
             "tooltips": {
                 "mostRecent": "most recent",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "Use <strong>point</strong> as decimal seperator for float values.",
                 "separateBlock": "Show a separator between different diff hunks in HTML renderers",
                 "mainPostOnly": "Store main post's revisions only",
+                "showEditReason": "Show the edit reason field in the post editor",
                 "textFormatting": "Enable text formatting for previews",
                 "detailLevel": "Detail Level",
                 "noneLevel": "None-level",

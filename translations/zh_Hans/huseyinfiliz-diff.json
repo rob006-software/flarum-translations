@@ -5,6 +5,11 @@
             "emptyText": "暂无编辑记录",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "（已删除）",
+            "editReason": "",
+            "composer": {
+                "editReasonLabel": "",
+                "editReasonPlaceholder": ""
+            },
             "tooltips": {
                 "mostRecent": "最新",
                 "originalContent": "=> huseyinfiliz-diff.ref.originalContent",
@@ -50,6 +55,7 @@
                 "usePoint": "浮点数请使用<strong>英文句点（.）</strong>作为小数点。",
                 "separateBlock": "在 HTML 差异视图的不同变更片段之间显示分隔线",
                 "mainPostOnly": "仅保存首帖的编辑历史",
+                "showEditReason": "",
                 "textFormatting": "预览时启用文本格式化",
                 "detailLevel": "差异粒度",
                 "noneLevel": "不细分",
