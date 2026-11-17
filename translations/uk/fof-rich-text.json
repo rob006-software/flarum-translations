@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "toggle_on_editor": "Показати перемикач режиму форматованого тексту в редакторі?",
-                "force_compact_paragraphs": ""
+                "force_compact_paragraphs": "Примусово використовувати компактні абзаци для всіх користувачів (Enter створює новий рядок замість нового абзацу)"
             }
         },
         "lib": {
@@ -21,31 +21,31 @@
                     "remove_button": "Видалити"
                 },
                 "additional_items_tooltip": "Додаткові елементи керування",
-                "bold_tooltip": "",
-                "code_tooltip": "",
+                "bold_tooltip": "Жирний текст ({modifierKey}-b)",
+                "code_tooltip": "Код у рядку ({modifierKey}-`)",
                 "code_block_tooltip": "Вставити блок коду",
-                "header_tooltip": "",
+                "header_tooltip": "Змінити на заголовок {level} ({modifierKey}-shift-{level})",
                 "horizontal_rule_tooltip": "Вставити горизонтальну лінію",
                 "image_tooltip": "Додати зображення",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "italic_tooltip": "Курсив ({modifierKey}-i)",
+                "link_tooltip": "Посилання",
+                "ordered_list_tooltip": "Нумерований список ({modifierKey}-shift-9)",
+                "paragraph_tooltip": "Змінити на абзац ({modifierKey}-shift-0)",
+                "quote_tooltip": "Вставити цитату ({modifierKey}-q)",
+                "spoiler_block_tooltip": "Блок спойлера або спадний блок",
+                "spoiler_inline_tooltip": "Спойлер ({modifierKey}-;)",
+                "strike_tooltip": "Закреслений текст (alt-shift-5)",
+                "sub_tooltip": "Нижній індекс ({modifierKey}-,)",
+                "sup_tooltip": "Верхній індекс ({modifierKey}-.)",
+                "text_type_tooltip": "Виберіть тип тексту",
+                "unordered_list_tooltip": "Маркований список ({modifierKey}-shift-8)"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "Composer",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Редактор",
+                "use_rich_text_editor_label": "Використовувати редактор форматованого тексту",
+                "rich_text_compact_paragraphs_label": "Не розділяти абзаци порожнім рядком."
             }
         }
     }
