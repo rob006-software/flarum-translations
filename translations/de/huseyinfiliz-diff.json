@@ -5,10 +5,10 @@
             "emptyText": "Keine Überarbeitungen",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(gelöscht)",
-            "editReason": "",
+            "editReason": "Grund der Bearbeitung",
             "composer": {
-                "editReasonLabel": "",
-                "editReasonPlaceholder": ""
+                "editReasonLabel": "Grund der Bearbeitung (optional)",
+                "editReasonPlaceholder": "Optionalen Grund für dieses Bearbeitung hinzufügen"
             },
             "tooltips": {
                 "mostRecent": "Aktuellste",
@@ -55,7 +55,7 @@
                 "usePoint": "Verwende <strong>Punkt</strong> als Dezimaltrennzeichen für Fließkommawerte.",
                 "separateBlock": "Trennzeichen zwischen verschiedenen Diff-Hunks in HTML-Renderern anzeigen",
                 "mainPostOnly": "Nur Überarbeitungen des Hauptbeitrags speichern",
-                "showEditReason": "",
+                "showEditReason": "Feld für Bearbeitungsgrund im Editor anzeigen",
                 "textFormatting": "Textformatierung für die Vorschau aktivieren",
                 "detailLevel": "Detailgrad",
                 "noneLevel": "Ohne-Ebene",
