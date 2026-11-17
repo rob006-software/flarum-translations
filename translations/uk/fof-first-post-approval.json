@@ -2,15 +2,15 @@
     "fof-first-post-approval": {
         "admin": {
             "permissions": {
-                "bypass": ""
+                "bypass": "Публікувати без схвалення першого допису"
             },
             "settings": {
-                "discussionCount": "",
-                "discussionCount_help": "",
-                "postCount": "",
-                "postCount_help": "",
-                "restrictPrivateDiscussions": "",
-                "restrictPrivateDiscussions_help": ""
+                "discussionCount": "Кількість перших обговорень, що потребують схвалення",
+                "discussionCount_help": "Установіть 0, щоб надсилати нові обговорення на схвалення залежно від кількості дописів.",
+                "postCount": "Кількість перших дописів, що потребують схвалення",
+                "postCount_help": "Після схвалення цієї кількості дописів користувача його дописи публікуються одразу.",
+                "restrictPrivateDiscussions": "Заборонити приватні обговорення до схвалення",
+                "restrictPrivateDiscussions_help": "Приватні обговорення неможливо затримати для схвалення, тому користувачам, чиї перші дописи ще потребують схвалення, заборонено їх розпочинати. Вимкніть, щоб дозволити їм вільно створювати приватні обговорення."
             }
         }
     }
