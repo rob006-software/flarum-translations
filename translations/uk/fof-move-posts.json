@@ -2,66 +2,66 @@
     "fof-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Вміст першого допису переміщеного обговорення",
+                "moved_first_post_content_help": "Якщо ви маєте обговорення з одним дописом, переміщення цього допису призведе до того, що перший допис початкового обговорення буде відредаговано так, щоб він вказував на нове обговорення. Ви можете відредагувати вміст цього допису тут.\n",
+                "group_sequential_posts": "Об’єднувати послідовні службові дописи про переміщення дописів в один."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Перенесено"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> fof-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": "",
-                "move_posts_to_same_discussion": ""
+                "move_old_post_to_newer_discussion": "=> fof-move-posts.ref.status.old_to_new_move",
+                "move_posts_to_same_discussion": "Неможливо перемістити дописи в те саме обговорення."
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Перевірити тип операції",
+                "destination": "Місце призначення обговорення",
+                "discussion_help": "Будуть використані теги обговорення джерела, які можна змінити після створення.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Нове обговорення",
+                "selected_posts": "{count, plural, =1 {Вибрано один допис} one {Вибрано дописів: {count}} other {Вибрано дописів: {count}}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Це буде складне переміщення: дописи буде вставлено між іншими дописами, через що старі URL-посилання на дописи цільового обговорення також зміняться.",
+                    "old_to_new_move": "=> fof-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Це буде простий хід, всі дописи будуть додані в кінці обговорення."
                 },
-                "submit": "",
-                "title": "",
-                "confirm_move_all_to_new_discussion": ""
+                "submit": "Продовжуйте",
+                "title": "=> fof-move-posts.ref.move_posts",
+                "confirm_move_all_to_new_discussion": "Ви збираєтеся перемістити всі дописи з цього обговорення до нового. Зазвичай доцільніше відредагувати наявне обговорення, наприклад змінити заголовок, теги чи інші властивості. Продовжити?"
             },
             "alerts": {
-                "posts_moved_to": ""
+                "posts_moved_to": "{count, plural, =1 {Допис переміщено до {target_discussion}.} one {До {target_discussion} переміщено дописів: {count}.} other {До {target_discussion} переміщено дописів: {count}.}}"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Один або декілька ваших дописів було переміщено до {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Зніміть виділення, щоб перемістити",
+                "move": "Оберіть, щоб перемістити",
+                "moving": "Переміщення допису"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, =1 {Користувач {username} перемістив допис до {target_discussion}.} one {Користувач {username} перемістив до {target_discussion} дописів: {count}.} other {Користувач {username} перемістив до {target_discussion} дописів: {count}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Перенести дописи",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Неможливо перемістити старий допис до новішого обговорення."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Цей допис було перенесено до **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
@@ -70,8 +70,8 @@
         "lib": {
             "browser": {
                 "posts": {
-                    "moved": "",
-                    "moved_to_new_discussion": ""
+                    "moved": "Переміщено {post_count, plural, =1 {один допис} one {дописи ({post_count})} other {дописи ({post_count})}} з {discussion} до {new_discussion}",
+                    "moved_to_new_discussion": "Переміщено {post_count, plural, =1 {один допис} one {дописи ({post_count})} other {дописи ({post_count})}} з {discussion} до нового обговорення {new_discussion}"
                 }
             }
         }
