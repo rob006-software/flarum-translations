@@ -842,7 +842,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/2.0.1/resources/locale/en.yml',
 	],
 	'fof-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/2.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/2.0.2/resources/locale/en.yml',
 	],
 	'fof-photoswipe' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/photoswipe/v2.0.2/resources/locale/en.yml',
@@ -1009,10 +1009,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/author-moderation/1.0.0/locale/en.yml',
 	],
 	'huseyinfiliz-awards' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/awards/2.0.1/resources/locale/en.yml',
 	],
 	'huseyinfiliz-bump' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/bump/2.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-custom-profile-page' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/custom-profile-page/2.0.0/locale/en.yml',
@@ -1021,7 +1021,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/flarum-diff/2.1.1/locale/en.yml',
 	],
 	'huseyinfiliz-discussion-ban' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.3/locale/en.yml',
 	],
 	'huseyinfiliz-language-detection' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/2.0.0/locale/en.yml',
@@ -1042,13 +1042,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/private-profile/v2.1.1/locale/en.yml',
 	],
 	'huseyinfiliz-rewind' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/rewind/2.3.0/locale/en.yml',
 	],
 	'huseyinfiliz-simple-dark-mode' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/simple-dark-mode/1.0/locale/en.yml',
 	],
 	'huseyinfiliz-stickiest' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/stickiest/2.1.0/locale/en.yml',
 	],
 	'huseyinfiliz-sticky-title' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/sticky-title/2.0.1/locale/en.yml',
