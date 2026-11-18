@@ -15,7 +15,7 @@ are fully in sync and are not listed here.
 | [Hungarian](hu.md) (`hu`) | 30 | 3 | 14 |
 | [Italian](it.md) (`it`) | 0 | 3 | 3 |
 | [Persian](fa.md) (`fa`) | 0 | 13 | 6 |
-| [Polish](pl.md) (`pl`) | 1 | 0 | 1 |
+| [Polish](pl.md) (`pl`) | 2 | 0 | 2 |
 | [Portuguese](pt.md) (`pt`) | 0 | 4 | 1 |
 | [Sinhala](si.md) (`si`) | 4 | 0 | 2 |
 | [Spanish](es.md) (`es`) | 25 | 613 | 14 |
