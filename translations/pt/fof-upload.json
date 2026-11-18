@@ -3,9 +3,9 @@
         "lib": {
             "data": {
                 "uploads": {
-                    "export_description": "",
+                    "export_description": "Todos os ficheiros carregados pelo utilizador.",
                     "anonymize_description": "Remover a referência ao utilizador dos ficheiros enviados. Os próprios ficheiros permanecerão acessíveis aos utilizadores que podiam visualizar antes da anonimização.",
-                    "delete_description": ""
+                    "delete_description": "Exclui todos os ficheiros carregados pelo utilizador."
                 }
             }
         }
@@ -13,317 +13,317 @@
     "fof-upload": {
         "admin": {
             "nav": {
-                "shared-uploads-button": ""
+                "shared-uploads-button": "Uploads partilhados"
             },
             "shared-uploads": {
-                "description": "",
-                "introduction": "",
-                "no-files": "",
-                "title": "",
-                "upload-new-button": ""
+                "description": "Envie ficheiros que podem ser usados por todos os utilizadores do fórum.",
+                "introduction": "Uploads partilhados são ficheiros que podem ser usados por todos os utilizadores do fórum. Eles não ficam anexados a nenhum publicação, mas podem ser inseridos em publicações pelo gestor de multimédia.\n\n<strong>Aviso:</strong> uploads partilhados não são protegidos por nenhuma permissão. Qualquer pessoa com o URL pode vê-los.\n",
+                "no-files": "Nenhum ficheiro partilhado foi carregado ainda.",
+                "title": "Uploads partilhados",
+                "upload-new-button": "carregar novo ficheiro"
             },
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Upload",
+                "description": "Configure serviços e preferências de upload."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "mime_order": "",
-                "resize": "",
-                "client_extension": "",
-                "thumbnails": "",
-                "thumbnail_quality": "",
-                "watermark": "",
-                "storage_intro": "",
-                "storage_configure_another": "",
-                "storage_not_installed": "",
-                "local_cdn": "",
-                "s3_provider": "",
-                "s3_endpoint": "",
-                "s3_acl": "",
-                "s3_acl_unsupported": "",
-                "s3_path_style": "",
-                "custom_s3_url": "",
-                "s3_instance_profile": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Desativa o registro de cada transferência feito pelos utilizadores do fórum. Mantê-lo ativado permitirá ver o número de transferências e outras métricas em um futuro próximo.\n",
+                "disable-hotlink-protection": "A proteção de hotlink impede a abertura de transferências a partir de outros sites. O método atual requer um token csrf e o ID do publicação.\n",
+                "download_templates": "Os modelos de transferência definem como os uploads são mostrados no fórum, ex.: como pré-visualizações ou botões. Disponíveis atualmente:\n",
+                "mime_types": "Decida quais ficheiros os membros podem carregar, onde cada tipo é armazenado e como aparece em um publicação.\n",
+                "mime_order": "As regras são avaliadas de cima para baixo e a primeira correspondência vence; por isso, coloque as regras mais específicas acima das gerais.\n",
+                "resize": "Escolha se deseja redimensionar as suas imagens antes de serem carregadas. pode escolher uma largura e uma altura máximas, em pixels. O redimensionamento mantém a proporção das imagens.\n",
+                "client_extension": "por predefinição, o Upload escolhe uma extensão de ficheiro segura com base no tipo MIME.\nPara alguns tipos de ficheiro baseados em ZIP ou em dados binários, isso pode resultar no uso de extensões genéricas em vez da esperada.\nAqui pode informar uma lista de extensões de ficheiro, separadas por vírgula, que serão mantidas como estão.\n",
+                "thumbnails": "Gera uma miniatura reduzida das imagens no momento do upload. A miniatura é exibida no publicação;\nclicar nela abre o ficheiro original em resolução total em uma nova separador. As miniaturas reduzem\nbastante o consumo de banda e o peso das páginas em fóruns com muitas imagens grandes.\n",
+                "thumbnail_quality": "Qualidade de codificação de 1 a 100, aplicada às miniaturas WebP e JPEG. Valores mais altos ficam mais nítidos,\nmas geram ficheiros maiores. Miniaturas GIF e PNG não têm perdas e ignoram esta configuração.\nAs miniaturas existentes mantêm a qualidade atual até serem regeneradas com o comando de backfill.\n",
+                "watermark": "Escolha se as imagens receberão uma marca de água durante o upload. As marcas de água são adicionadas a imagens que não sejam GIF, com base nas preferências abaixo.\n",
+                "storage_intro": "Os serviços que você configurou, ou que algum tipo de ficheiro usa, são mostrados aqui. pode configurar um serviço\nantes de apontar qualquer tipo de ficheiro para ele — atribua-o na separador ficheiros quando estiver tudo pronto.\n",
+                "storage_configure_another": "Há outros serviços de armazenamento instalados, mas ainda não configurados. Configurar um deles não muda o destino dos ficheiros\naté que você o atribua a um tipo de ficheiro.\n",
+                "storage_not_installed": "Procurando Amazon S3, Cloudflare R2 ou Qiniu? Eles precisam de um pacote extra — veja <a>como instalar adaptadores de armazenamento</a>.",
+                "local_cdn": "Opcional. Se você serve <code>assets/files</code> por uma CDN, introduza o URL base dela e os links dos ficheiros carregados a usarão.\nDeixe em branco para servir os ficheiros diretamente do fórum.\n",
+                "s3_provider": "Escolher o provedor define o formato do endpoint, o estilo de endereçamento e o suporte a ACL abaixo. Escolha \"Other S3-compatible\"\nse o seu não estiver na lista.\n",
+                "s3_endpoint": "O URL da API S3 do provedor — não o URL pública do seu bucket. O Amazon S3 não precisa de uma.\n",
+                "s3_acl": "Aplicada a cada objeto carregado. Deixe em branco para usar o predefinição do provedor (geralmente privado).\nUse <code>public-read</code> se os ficheiros precisarem ser lidos diretamente do bucket.\n",
+                "s3_acl_unsupported": "{provider} não oferece suporte a ACLs. Controle o acesso público no dashboard do próprio provedor.\n",
+                "s3_path_style": "Coloca o bucket no caminho da URL em vez do hostname. Exigido por MinIO e Cloudflare R2;\ndefinido automaticamente quando você escolhe um provedor.\n",
+                "custom_s3_url": "O URL base pública de onde seus ficheiros são servidos — uma CDN ou um domínio personalizado à frente do bucket.\nDeixe em branco para usar o URL predefinição do provedor. Deve incluir <code>https://</code>.\n",
+                "s3_instance_profile": "Deixe ambos em branco para usar uma função do IAM (IAM role) — só funciona em EC2, ECS ou EKS.\n",
+                "composer_buttons": "por predefinição, o botão do gestor de multimédia e o botão de upload ficam visíveis. você também pode optar por exibir apenas um deles.\n"
             },
             "tabs": {
-                "files": "",
-                "storage": "",
-                "images": "",
-                "advanced": "",
-                "unsaved_changes": "",
-                "unsaved_hint": ""
+                "files": "ficheiros",
+                "storage": "Armazenamento",
+                "images": "Imagens",
+                "advanced": "Avançado",
+                "unsaved_changes": "Esta separador tem alterações não guardadas",
+                "unsaved_hint": "tem alterações não guardadas."
             },
             "labels": {
                 "storage": {
-                    "configure_another": "",
-                    "hide_unused": ""
+                    "configure_another": "Configurar outro serviço de armazenamento ({count} disponíveis)",
+                    "hide_unused": "Ocultar serviços que não estão em uso"
                 },
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "provider": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": "",
-                    "custom_url": ""
+                    "bucket": "Bucket",
+                    "key": "ID da chave de acesso",
+                    "region": "Região",
+                    "secret": "Chave de acesso secreta",
+                    "title": "Armazenamento S3",
+                    "provider": "Provedor",
+                    "advanced_title": "Opções avançadas",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Usar endereçamento por caminho",
+                    "acl": "Lista de Controle de Acesso (ACL)",
+                    "custom_url": "URL Pública"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desativar o registro de transferências",
+                    "toggle": "Desativar"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Desativar proteção de hotlink",
+                    "toggle": "Desativar"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "deprecated": "",
-                    "title": "",
-                    "tos": ""
+                    "client_id": "ID de cliente do Imgur",
+                    "deprecated": "O Imgur não emite mais IDs de cliente de API, então este adaptador está obsoleto e será removido em uma versão futura. Mova esses tipos de ficheiro para outro adaptador de armazenamento.",
+                    "title": "Configurações do armazenamento Imgur",
+                    "tos": "É sua responsabilidade garantir que os utilizadores do fórum cumpram os <a>Termos de serviço</a> do Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "URL de Entrega de Conteúdo (prefixo dos ficheiros)",
+                    "title": "Configurações de armazenamento local"
                 },
-                "configured_by_environment": "",
+                "configured_by_environment": "Suas configurações de armazenamento foram pré-configuradas por variáveis de ambiente.",
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Configurações do armazenamento Qiniu",
+                    "key": "Chave",
+                    "secret": "Segredo",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "max_file_size_equivalent": "",
-                    "mime_types": "",
-                    "mime_type_regex_placeholder": "",
-                    "mime_type_regex_invalid": "",
-                    "mime_type_permission_placeholder": "",
-                    "mime_type_remove": "",
-                    "mime_type_add": "",
-                    "mime_column_pattern": "",
-                    "mime_column_pattern_help": "",
-                    "mime_column_storage": "",
-                    "mime_column_storage_help": "",
-                    "mime_column_display": "",
-                    "mime_column_display_help": "",
-                    "mime_column_permission": "",
-                    "mime_column_permission_help": "",
-                    "mime_move_up": "",
-                    "mime_move_down": "",
-                    "mime_edit_pattern": "",
-                    "mime_use_simple": "",
-                    "mime_advanced_pattern": "",
-                    "mime_add_subtype": "",
-                    "mime_add_subtype_placeholder": "",
-                    "mime_remove_subtype": "",
-                    "mime_add_prompt": "",
-                    "mime_add_custom": ""
+                    "max_file_size": "Tamanho máximo do ficheiro",
+                    "max_file_size_equivalent": "Armazenado como <code>{kb}</code> KB ({value}).",
+                    "mime_types": "Tipos de ficheiro",
+                    "mime_type_regex_placeholder": "ex.: ^image/(jpeg|png|gif)$",
+                    "mime_type_regex_invalid": "Regex inválida (ex.: alternativas vazias como ||)",
+                    "mime_type_permission_placeholder": "Opcional, ex.: Imagens",
+                    "mime_type_remove": "Remover este tipo de ficheiro",
+                    "mime_type_add": "Adicionar este tipo de ficheiro",
+                    "mime_column_pattern": "Tipo de ficheiro",
+                    "mime_column_pattern_help": "Os tipos de ficheiro aos quais esta regra se aplica, comparados com o tipo MIME do ficheiro.",
+                    "mime_column_storage": "Armazenado em",
+                    "mime_column_storage_help": "Para qual serviço de armazenamento os ficheiros deste tipo são carregados.",
+                    "mime_column_display": "Exibido como",
+                    "mime_column_display_help": "Como o ficheiro aparece em um publicação — uma pré-visualização no próprio publicação, um botão de transferência e assim por diante.",
+                    "mime_column_permission": "Rótulo da permissão",
+                    "mime_column_permission_help": "Opcional. Dar um nome a um grupo aqui cria uma permissão para você controlar quem pode carregar esses ficheiros.",
+                    "mime_move_up": "Mover para cima (avaliada antes)",
+                    "mime_move_down": "Mover para baixo (avaliada depois)",
+                    "mime_edit_pattern": "Editar expressão",
+                    "mime_use_simple": "Usar editor simples",
+                    "mime_advanced_pattern": "Expressão avançada",
+                    "mime_add_subtype": "Adicionar formato de ficheiro",
+                    "mime_add_subtype_placeholder": "ex.: webp",
+                    "mime_remove_subtype": "Remover {subtype}",
+                    "mime_add_prompt": "Adicionar tipos de ficheiro…",
+                    "mime_add_custom": "Expressão personalizada…"
                 },
                 "mime_presets": {
-                    "images": "",
-                    "pdf": "",
-                    "documents": "",
-                    "spreadsheets": "",
-                    "archives": "",
-                    "audio": "",
-                    "video": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "images": "Imagens",
+                    "pdf": "Documentos PDF",
+                    "documents": "Documentos Word",
+                    "spreadsheets": "Planilhas",
+                    "archives": "ficheiros compactados (zip, tar, 7z)",
+                    "audio": "Áudio",
+                    "video": "Vídeo",
+                    "title": "Preferências gerais",
+                    "php_ini_values": "Os valores do seu <code>php.ini</code> são <code>post_max_size={post}</code> e <code>upload_max_filesize={upload}</code>. Certifique-se de que o valor definido aqui é inferior a esses limites, ou ajuste-os em conformidade. Se utilizar o <code>Nginx</code>, certifique-se também de que <code>client_max_body_size</code> tem um tamanho suficiente para o limite máximo escolhido."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Largura/altura máxima da imagem",
+                    "title": "Redimensionar imagens",
+                    "toggle": "Redimensionar imagens"
                 },
                 "client_extension": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Extensões informadas pelo utilizador",
+                    "placeholder": "ex.: docx, xlsx, epub"
                 },
                 "thumbnails": {
-                    "title": "",
-                    "toggle": "",
-                    "webp_toggle": "",
-                    "max_width": "",
-                    "quality": ""
+                    "title": "Miniaturas de imagens",
+                    "toggle": "Gerar miniaturas no upload",
+                    "webp_toggle": "Codificar miniaturas em WebP (recomendado, ~30% menores)",
+                    "max_width": "Largura máxima da miniatura (px)",
+                    "quality": "Qualidade da miniatura"
                 },
                 "watermark": {
-                    "file": "",
-                    "opacity": "",
-                    "padding": "",
-                    "position": "",
-                    "size_percent": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Envie sua imagem de marca de água",
+                    "opacity": "Opacidade da marca de água (0–100)",
+                    "padding": "Distância da borda (px)",
+                    "position": "Posição da marca de água",
+                    "size_percent": "Tamanho da marca de água (% da largura da imagem)",
+                    "title": "marca de água em imagens",
+                    "toggle": "Aplicar marca de água"
                 },
                 "svg-sanitizer": {
-                    "title": "",
-                    "allow_animate": "",
-                    "help": "",
-                    "allow_animate_help": ""
+                    "title": "Sanitizador de SVG",
+                    "allow_animate": "Permitir animações SVG",
+                    "help": "Configure como os ficheiros SVG são processados e sanitizados no upload. ficheiros SVG podem conter scripts potencialmente perigosos e devem ser tratados com cuidado. Os SVGs carregados são sanitizados no upload, e scripts e tags perigosos são removidos.",
+                    "allow_animate_help": "Ativar animações SVG pode introduzir vulnerabilidades de segurança, pois SVGs animados podem conter código malicioso. Ative esta configuração por sua conta e risco e somente se confiar nos seus utilizadores."
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Botões do editor",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Ambos",
+                        "upload-btn": "Só o botão de upload",
+                        "media-btn": "Só o botão do gestor de multimédia"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Testar MIME do ficheiro"
             },
             "warnings": {
-                "fileinfo_missing": "",
-                "max_file_size_exceeds_php": ""
+                "fileinfo_missing": "A extensão <strong>fileinfo</strong> do PHP não está carregada neste servidor. O FoF Upload continuará funcionando, mas a validação cruzada de tipo MIME fica desativada, o que reduz a proteção contra tipos de ficheiro falsificados. Ative a extensão na configuração do PHP para maior segurança.\n",
+                "max_file_size_exceeds_php": "Isto excede o limite de carregamento efetivo do seu servidor de <strong>{limit}</strong> (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Ficheiros maiores do que esse limite serão rejeitados pelo PHP independentemente desta definição. Reduza este valor ou aumente os limites no seu <code>php.ini</code> (e <code>client_max_body_size</code> se utilizar o Nginx)."
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "upload_mime_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": "",
-                "delete_own_uploads_label": "",
-                "upload_shared_label": "",
-                "access_shared_label": ""
+                "download_label": "descarregar ficheiros",
+                "upload_label": "carregar ficheiros (permissão base, obrigatória para todos os uploads)",
+                "upload_mime_label": "carregar {label}",
+                "view_user_uploads_label": "Ver uploads de utilizadores",
+                "delete_uploads_of_others_label": "eliminar uploads de utilizadores",
+                "delete_own_uploads_label": "Eliminar os próprios ficheiros carregados",
+                "upload_shared_label": "carregar ficheiros partilhados",
+                "access_shared_label": "Acessar ficheiros partilhados no gestor de multimédia"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": "",
-                "text-preview": "",
-                "text-preview_description": ""
+                "file": "Modelo predefinição de transferência de ficheiro",
+                "file_description": "Mostra o nome do ficheiro e algumas informações gerais. Os transferências passam pelo PHP, permitindo a coleta de estatísticas e a proteção de hotlink.\n",
+                "image": "Modelo predefinição de transferência de imagem",
+                "image_description": "Mostra uma miniatura da imagem, e o transferência passa pelo PHP, permitindo a coleta de estatísticas e a proteção de hotlink.\n",
+                "image-preview": "Modelo de pré-visualização da imagem completa",
+                "image-preview_description": "Mostra a imagem completa no próprio publicação. Sem funcionalidade de transferência, nenhuma estatística é coletada e a proteção de hotlink é ignorada.\n",
+                "markdown-image": "Modelo de imagem em Markdown",
+                "markdown-image_description": "Mostra a imagem completa no próprio publicação usando Markdown. <strong>É preciso ter o flarum/markdown instalado e ativado para que isso funcione.</strong> Sem funcionalidade de transferência, nenhuma estatística é coletada e a proteção de hotlink é ignorada.\n",
+                "bbcode-image": "Modelo de imagem em BBCode",
+                "bbcode-image_description": "Mostra a imagem completa no próprio publicação usando BBCode. <strong>É preciso ter o flarum/bbcode instalado e ativado para que isso funcione.</strong> Sem funcionalidade de transferência, nenhuma estatística é coletada e a proteção de hotlink é ignorada.\n",
+                "just-url": "Apenas URL",
+                "just-url_description": "Insere apenas o URL. A renderização pode ficar a cargo de outras extensões com link automático. Sem funcionalidade de transferência, nenhuma estatística é coletada e a proteção de hotlink é ignorada.\n",
+                "text-preview": "pré-visualização de texto",
+                "text-preview_description": "Insere uma pré-visualização (primeiras 5 linhas) do ficheiro de texto, com a opção de expandir para revelar todo o conteúdo do ficheiro.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3 ou Compatível",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "Inspecionar MIME",
+                "description": "O FoF Upload usa a biblioteca <a>PHP Mime Detector</a> para tipos MIME comuns e o PHP Fileinfo como fallback.\nO valor MIME retornado pelo Fileinfo pode variar de servidor para servidor!\n",
+                "select": "Selecione um ficheiro abaixo para inspecionar os valores que serão usados. O ficheiro não será guardado.",
+                "laravel-validation": "Validação de ficheiro do Laravel",
+                "no-file-selected": "Sem ficheiro",
+                "validation-passed": "Passou",
+                "validation-failed": "Falhou: {error}",
+                "mime-detector": "Mime Detector (primário)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Extensão de ficheiro predefinição (se a original não for permitida)",
+                "not-available": "Sem resultado"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "gestor de multimédia",
             "display_name": {
-                "title": "",
-                "title_plural": "",
-                "help": "",
-                "insert": "",
-                "use_file_name": ""
+                "title": "Nomear este transferência",
+                "title_plural": "Nomear estes transferências",
+                "help": "Exibido no transferência no lugar do nome do ficheiro. Deixe como está para usar o nome do ficheiro.",
+                "insert": "Inserir",
+                "use_file_name": "Usar nomes de ficheiro"
             },
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "upload_shared": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": "",
-                "shared_media": ""
+                "attach": "Anexar",
+                "upload": "Upload",
+                "upload_shared": "partilhados",
+                "user_uploads": "Uploads do utilizador",
+                "cancel": "Cancelar",
+                "media": "Minha multimédia",
+                "shared_media": "multimédia partilhada"
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": "",
-                "permission_required": ""
+                "error": "Erro",
+                "loading": "a carregar",
+                "unauthorized": "Não tem permissão para descarregar este ficheiro",
+                "permission_required": "Permissão necessária"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Ficheiros com tamanho superior a {max} KB não são aceites."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "download": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Expandir pré-visualização",
+                "collapse": "Recolher pré-visualização",
+                "download": "Descarregar ficheiro",
+                "error": "Erro ao gerar a pré-visualização do ficheiro. Ele pode ter sido eliminado ou o ID de ficheiro informado é inválido.\n",
+                "no_snippet_preview": "<pré-visualização aparecerá aqui após publicar>",
+                "no_snippet": "<nenhum trecho de pré-visualização disponível>"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "mime_permission_denied": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": "",
-                "max_upload_file_size_ini": "",
-                "max_upload_file_size_form": "",
-                "partial_upload": "",
-                "no_file_uploaded": "",
-                "no_upload_tmp_folder": "",
-                "cannot_write_to_disk": "",
-                "upload_blocked_by_php_extension": "",
-                "no_files_made_it_to_upload": ""
+                "forbidden_type": "O envio de ficheiros deste tipo não é permitido.",
+                "mime_permission_denied": "Não tem permissão para carregar este tipo de ficheiro.",
+                "unsupported_type": "O adaptador de upload não é compatível com o tipo MIME fornecido: {mime}.",
+                "could_not_detect_mime": "Não foi possível detetar o tipo MIME deste ficheiro, tente novamente.",
+                "max_upload_file_size_ini": "Limite máximo de tamanho de ficheiro do php.ini atingido.",
+                "max_upload_file_size_form": "Limite máximo de tamanho de ficheiro do formulário atingido.",
+                "partial_upload": "Upload parcial.",
+                "no_file_uploaded": "Nenhum ficheiro carregado.",
+                "no_upload_tmp_folder": "Sem pasta tmp para o upload de ficheiros.",
+                "cannot_write_to_disk": "Falha ao gravar no disco.",
+                "upload_blocked_by_php_extension": "Uma extensão do PHP bloqueou o upload.",
+                "no_files_made_it_to_upload": "Envie ficheiros de no máximo {max} kb."
             }
         },
         "lib": {
             "upload-shared-file-modal": {
-                "title": "",
-                "dropzone": "",
-                "hide-from-media-gallery": "",
-                "upload": ""
+                "title": "Novo ficheiro partilhado",
+                "dropzone": "Arraste e largue ficheiros aqui ou clique para procurar",
+                "hide-from-media-gallery": "Ocultar da galeria multimédia do utilizador",
+                "upload": "carregar"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "load_error": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
-                "delete_file_a11y_label": "",
-                "delete_confirmation": "",
+                "loading": "a carregar ficheiros...",
+                "empty": "Não há ficheiros para mostrar.",
+                "load_error": "Não foi possível carregar os ficheiros. Tente novamente.",
+                "release_to_upload": "Largue para carregar",
+                "modal_empty_desktop": "A a sua lista de ficheiros está vazia. Clique no botão ou arraste um ficheiro para cá para carregar.",
+                "modal_empty_phone": "A a sua lista de ficheiros está vazia. Toque no botão acima para carregar um ficheiro.",
+                "select_file_a11y_label": "Selecionar o ficheiro \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nenhum selecionado} one {Selecionar arquivo} other {Selecionar arquivos}}",
+                "load_more_files_btn": "Carregar mais ficheiros",
+                "delete_file_a11y_label": "eliminar o ficheiro \"{fileName}\"",
+                "delete_confirmation": "Tem a certeza de que pretende eliminar \"{fileName}\"?",
                 "hide_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Ocultar \"{fileName}\" do gestor de multimédia",
+                    "btn_a11y_label_show": "Mostrar \"{fileName}\" no gestor de multimédia",
+                    "hide_confirmation": "Tem a certeza de que pretende ocultar \"{fileName}\"? Ocultar um ficheiro apenas o remove do seu gestor de multimédia e não afeta os publicações existentes.",
+                    "hide_success": "ficheiro oculto",
+                    "show_confirmation": "Tem a certeza de que pretende mostrar \"{fileName}\"? Mostrar um ficheiro o torna visível no seu gestor de multimédia.",
+                    "show_success": "ficheiro visível",
+                    "hide_fail": "Não foi possível ocultar o ficheiro \"{fileName}\"",
+                    "show_fail": "Não foi possível mostrar o ficheiro \"{fileName}\"",
+                    "loading": "a ocultar ficheiro..."
                 },
                 "hide_shared_file": {
-                    "btn_a11y_label_hide": "",
-                    "btn_a11y_label_show": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "show_confirmation": "",
-                    "show_success": "",
-                    "hide_fail": "",
-                    "show_fail": "",
-                    "loading": ""
+                    "btn_a11y_label_hide": "Tornar \"{fileName}\" privado (sem URL pública)",
+                    "btn_a11y_label_show": "Tornar \"{fileName}\" público (com URL pública)",
+                    "hide_confirmation": "Tem a certeza de que pretende tornar \"{fileName}\" privado? Tornar um ficheiro privado remove o URL pública dele, mas não afeta os publicações existentes. Ele também deixa de ficar visível no gestor de multimédia para utilizadores não autorizados.",
+                    "hide_success": "ficheiro tornado privado",
+                    "show_confirmation": "Tem a certeza de que pretende tornar \"{fileName}\" público? Tornar um ficheiro público o deixa acessível a qualquer pessoa com o URL pública, e qualquer um poderá partilhá-lo pelo gestor de multimédia.",
+                    "show_success": "ficheiro tornado público",
+                    "hide_fail": "Não foi possível tornar o ficheiro \"{fileName}\" privado",
+                    "show_fail": "Não foi possível tornar o ficheiro \"{fileName}\" público",
+                    "loading": "a tornar o ficheiro privado..."
                 }
             }
         }
