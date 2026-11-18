@@ -2,148 +2,148 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Configure o Flarum para funcionar como uma Progressive Web App, instalável em dispositivos móveis e computadores."
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
-                    "short_name_text": ""
+                    "description_label": "Descrição",
+                    "description_text": "Pode definir a descrição na página 'Básico' no painel de administração.",
+                    "long_name_label": "Nome longo",
+                    "long_name_text": "O nome da aplicação web apresentado ao utilizador.",
+                    "heading": "Sobre",
+                    "short_name_label": "Nome curto",
+                    "short_name_text": "O nome da aplicação apresentado ao utilizador quando o espaço não é suficiente para o nome longo."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
-                    "background_color_text": "",
-                    "theme_color_label": "",
-                    "theme_color_text": ""
+                    "heading": "Cores",
+                    "background_color_label": "Cor de fundo",
+                    "background_color_text": "Utilizada como cor de preenchimento para o ecrã de carregamento (splash screen) apresentado enquanto a sua PWA carrega. Não é utilizada após o carregamento da aplicação.",
+                    "theme_color_label": "Cor do tema",
+                    "theme_color_text": "Esta cor é por vezes utilizada pelos dispositivos ao apresentar a sua aplicação, por exemplo, no gestor de tarefas do Android como a cor que envolve o site."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
-                    "debug_text": "",
-                    "reset_vapid_button": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "heading": "Manutenção",
+                    "debug_label": "Ativar modo de depuração",
+                    "debug_text": "Isto registará informações sobre as notificações em `storage/logs`. Geralmente deve permanecer desativado para evitar preencher os ficheiros de registo desnecessariamente.",
+                    "reset_vapid_button": "Redefinir chaves VAPID",
+                    "reset_vapid_text": "Isto regenerará as chaves VAPID e eliminará quaisquer subscrições existentes associadas às chaves VAPID atuais.",
+                    "reset_vapid_confirm": "Redefinir as chaves VAPID removerá todas as subscrições associadas às chaves existentes, pelo que os utilizadores não receberão notificações até visitarem novamente o site. Isto só deve ser feito ao configurar as notificações push pela primeira vez ou se as notificações push não estiverem a funcionar e houver um aviso acima sobre chaves VAPID em falta.",
+                    "reset_vapid_success": "Chaves VAPID redefinidas com sucesso. Foram repostas {count} subscrições. Recarregue a página para ver o relatório de estado atualizado."
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "Para adicionar suporte a notificações push ao publicar a sua aplicação na Apple App Store, é necessário utilizar o Firebase. Por favor, gere a sua configuração do Firebase Service e carregue-a aqui. <a>Consulte a documentação</a>.",
+                    "upload_successful": "O ficheiro de configuração do Firebase foi carregado com sucesso.",
+                    "upload_file": "Carregar ficheiro"
                 },
                 "other": {
-                    "heading": "",
-                    "display_label": "",
-                    "display_text": "",
+                    "heading": "Outras opções",
+                    "display_label": "Modo de apresentação",
+                    "display_text": "Como a aplicação abre quando é iniciada a partir do seu ícone:\n\nIndependente (Standalone): Uma janela separada sem a barra de endereço do navegador.\nInterface mínima (Minimal UI): Semelhante a Independente, com controlos básicos como retroceder e recarregar.\nEcrã inteiro (Full screen): Utiliza todo o ecrã sem controlos do navegador.\nNavegador (Browser): Abre num separador ou janela normal do navegador.\n\nOs navegadores podem recorrer a um modo alternativo se o modo selecionado não for suportado.\n",
                     "display_options": {
-                        "standalone": "",
-                        "minimal_ui": "",
-                        "fullscreen": "",
-                        "browser": ""
+                        "standalone": "Independente (Standalone)",
+                        "minimal_ui": "Interface mínima",
+                        "fullscreen": "Ecrã inteiro",
+                        "browser": "Navegador"
                     },
-                    "orientation_label": "",
-                    "orientation_text": "",
+                    "orientation_label": "Orientação",
+                    "orientation_text": "Qualquer: Permite que a aplicação rode com o dispositivo.\nNatural: Utiliza a orientação habitual do dispositivo, tipicamente vertical em telemóveis e horizontal em monitores.\nVertical (Retrato): Mantém a aplicação na vertical.\nHorizontal (Paisagem): Mantém a aplicação na horizontal.\n\nVertical e Horizontal permitem duas posições (com 180 graus de diferença). Selecione Primária ou Secundária para fixar apenas uma. Num telemóvel, Retrato (primário) normalmente significa direito e Retrato (secundário) de cabeça para baixo. Em paisagem, o sentido primário depende do dispositivo.\n\nAlguns navegadores e dispositivos podem ignorar a orientação selecionada.\n",
                     "orientation_options": {
-                        "any": "",
-                        "natural": "",
-                        "portrait": "",
-                        "portrait_primary": "",
-                        "portrait_secondary": "",
-                        "landscape": "",
-                        "landscape_primary": "",
-                        "landscape_secondary": ""
+                        "any": "Qualquer",
+                        "natural": "Natural",
+                        "portrait": "Vertical (Retrato)",
+                        "portrait_primary": "Vertical (primária)",
+                        "portrait_secondary": "Vertical (secundária)",
+                        "landscape": "Horizontal (Paisagem)",
+                        "landscape_primary": "Horizontal (primária)",
+                        "landscape_secondary": "Horizontal (secundária)"
                     },
-                    "push_notif_preference_default_to_email_label": "",
-                    "push_notif_preference_default_to_email_text": "",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": "",
-                    "user_max_subscriptions_label": "",
-                    "user_max_subscriptions_text": "",
-                    "push_notification_ttl_label": "",
-                    "push_notification_ttl_text": "",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "push_notif_preference_default_to_email_label": "Predefinir preferências de push iguais às de e-mail",
+                    "push_notif_preference_default_to_email_text": "Se ativado, os utilizadores terão as notificações push ativadas por predefinição para todos os tipos de notificação onde as notificações por e-mail já estão ativadas por predefinição. Se desativado, os utilizadores terão as notificações push desativadas por predefinição.",
+                    "window_controls_overlay_label": "Ativar Window Controls Overlay",
+                    "window_controls_overlay_text": "Quando utilizado por um navegador de computador compatível, o Window Controls Overlay tem precedência sobre o modo de apresentação selecionado.\n\nSe ativado, os utilizadores podem obter uma experiência mais imersiva e nativa ao ocultar a barra de título do sistema. A aplicação efetiva do Window Controls Overlay depende da preferência do utilizador e da compatibilidade do navegador. Terá de personalizar a sua barra de título com CSS/JS após ativar esta opção, caso contrário os controlos sobrepor-se-ão a elementos da barra de navegação superior do fórum e a janela será quase impossível de arrastar, resultando numa má experiência.\n\nConsulte também: <compatibilitylink>Compatibilidade de navegadores com Window Controls Overlay</compatibilitylink> & <learnlink>Sobre Window Controls Overlay no Microsoft Learn</learnlink>\n",
+                    "user_max_subscriptions_label": "Máximo de subscrições push por utilizador",
+                    "user_max_subscriptions_text": "Quantas subscrições push cada utilizador pode ter ativas em simultâneo? Quando um utilizador recebe uma notificação push, cada subscrição resulta numa chamada à API. Cada subscrição corresponde tipicamente a um navegador utilizado pelo utilizador.",
+                    "push_notification_ttl_label": "TTL das notificações push",
+                    "push_notification_ttl_text": "Tempo durante o qual as notificações push não entregues devem permanecer em fila no serviço push antes de expirarem (em segundos).",
+                    "share_buttons_label": "Ativar botões de partilha",
+                    "share_buttons_text": "Se ativado, será adicionado um botão \"Partilhar\" a discussões, publicações e utilizadores."
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "Configuração de Progressive Web App",
+                "text": "Configure o seu site Flarum para funcionar como uma Progressive Web App! Tenha em atenção que isto não coloca automaticamente o seu site nas lojas de aplicações. Em vez disso, disponibiliza aos utilizadores a opção 'Adicionar ao ecrã principal'. Disponibilizamos algumas verificações de estado, mas a melhor forma de testar é tentar instalar a aplicação (pesquise na web por instruções sobre como instalar progressive web apps). Lembre-se de que os avisos 'Instalar esta PWA' são controlados pelos navegadores e não podem ser forçados por programadores, administradores ou programas. Considere incluir instruções de instalação da PWA na documentação do seu site.",
+                "status_check_heading": "Verificação de Estado",
+                "logo_heading": "Logótipos e Ícones",
+                "logo_text": "Tem de carregar pelo menos um logótipo para que a sua Progressive Web App possa ser instalada. Tenha em atenção que todos os logótipos têm de ser quadrados; se não forem, serão redimensionados e poderão ficar distorcidos.\n\nEstão disponíveis várias opções de tamanho abaixo. Recomendamos carregar um logótipo para o maior número possível delas, garantindo suporte para mais dispositivos.\n\nPode carregar um logótipo de alta resolução para os campos de tamanhos mais pequenos. Por exemplo, pode carregar um logótipo de 1000x1000px em TODOS os campos de ficheiro abaixo. No entanto, se carregar um logótipo de 50x50px no campo de 512x512px, este ficará bastante distorcido.\n",
+                "logo_size_text": "Carregue um logótipo que será redimensionado para {size} por {size} pixels.",
+                "submit_button": "Guardar Definições",
+                "refreshed_message": "A configuração da PWA foi atualizada com sucesso."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "O URL no seu ficheiro config.php não utiliza HTTPS. O HTTPS é obrigatório para que as Progressive Web Apps funcionem.",
+                "possible_https_disabled": "O seu site pode não estar a utilizar HTTPS. Limpar a cache (painel de administração => ferramentas) pode ajudar. Se já estiver a utilizar HTTPS, ignore este aviso. Caso contrário, lembre-se de que o HTTPS é obrigatório para o funcionamento de Progressive Web Apps.",
+                "no_logo": "Tem de carregar pelo menos um logótipo com um tamanho mínimo de 144x144px para que a PWA possa ser instalada.",
+                "no_name": "Tem de fornecer um nome completo para que a sua aplicação funcione.",
+                "no_vapid_keys": "Não foram encontradas chaves VAPID. Estas são obrigatórias para o envio de notificações push. Pode redefinir as chaves VAPID na secção abaixo.",
+                "key_gen_failed": "A geração das chaves necessárias para notificações push falhou. A mensagem de erro completa foi: {error}",
+                "suggest_gmp": "A extensão PHP gmp não parece estar ativa no seu servidor. Não é estritamente obrigatória, mas melhora o desempenho e é altamente recomendada. Alguns alojamentos partilhados podem não a suportar.",
+                "success": "Nenhum problema potencial detetado!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_enable_button": "",
-                "optin_success": "",
-                "optin_declined": "",
-                "optin_deferred": ""
+                "optin": "Este fórum pode enviar notificações push para este dispositivo. Deseja ativá-las?",
+                "optin_enable_button": "Ativar",
+                "optin_success": "As notificações push foram ativadas com sucesso neste dispositivo.",
+                "optin_declined": "As notificações push foram bloqueadas. Pode autorizá-las mais tarde nas definições do seu navegador.",
+                "optin_deferred": "As notificações push não foram ativadas. Pode ativá-las mais tarde nas suas definições de notificações."
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Partilhar"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Partilhar",
                 "share_api": {
-                    "title": ""
+                    "title": "Resposta de {username} a {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Partilhar"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Notificações Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Devido a restrições do navegador, deve autorizar expressamente para receber notificações push neste dispositivo.",
+                    "access_default_button": "Autorizar",
+                    "access_denied": "Tem de ajustar as definições do seu navegador para poder receber notificações push neste dispositivo.",
+                    "access_denied_button": "Saiba Como",
+                    "no_browser_support": "Este navegador não suporta notificações push para aplicações web progressivas (PWA).",
+                    "no_browser_support_button": "Saber Mais"
                 }
             },
             "notifications_help": {
-                "browser_notifications_title": "",
-                "title": "",
-                "description": "",
-                "chromium_title": "",
-                "chromium_instructions": "",
-                "firefox_title": "",
-                "firefox_instructions": "",
-                "safari_mac_title": "",
-                "safari_mac_instructions": "",
-                "safari_ios_title": "",
-                "safari_ios_instructions": ""
+                "browser_notifications_title": "Como Ativar Notificações no Navegador",
+                "title": "Ativar Notificações Push",
+                "description": "Se bloqueou as notificações anteriormente, siga as instruções abaixo para voltar a ativá-las no seu dispositivo.",
+                "chromium_title": "Google Chrome, Microsoft Edge e Android",
+                "chromium_instructions": "Clique no ícone de informações do site (o cadeado ou ícone de definições) junto ao endereço web no navegador. Selecione 'Definições do site' (ou 'Permissões'), localize 'Notificações' e altere a opção para 'Permitir'.",
+                "firefox_title": "Mozilla Firefox",
+                "firefox_instructions": "Clique no ícone de cadeado junto ao endereço web. Se 'Notificações' estiver marcado como 'Bloqueado', clique no 'X' ao lado para remover a restrição. Recarregue a página e selecione permitir notificações quando solicitado.",
+                "safari_mac_title": "Apple Safari (macOS)",
+                "safari_mac_instructions": "Abra o menu do Safari no topo do ecrã e selecione 'Definições' (ou 'Preferências'). Clique no separador 'Websites', selecione 'Notificações' na barra lateral esquerda, localize este fórum na lista e altere a opção para 'Permitir'.",
+                "safari_ios_title": "Apple iPhone e iPad (iOS / iPadOS)",
+                "safari_ios_instructions": "As notificações push no iOS exigem que a aplicação esteja instalada. No Safari, toque no ícone 'Partilhar' e selecione 'Adicionar ao ecrã principal'. Depois, abra a aplicação recém-instalada. Se as notificações estiverem bloqueadas, abra a aplicação 'Definições' do iOS, aceda a 'Notificações', selecione esta aplicação web na lista e ative 'Permitir Notificações'."
             }
         },
         "api": {
-            "keys_invalid": "",
-            "endpoint_https_required": "",
-            "endpoint_host_not_allowed": ""
+            "keys_invalid": "Não foi possível ativar as notificações push porque o seu navegador forneceu chaves de encriptação inválidas. Por favor, tente ativar as notificações novamente.",
+            "endpoint_https_required": "Não foi possível ativar as notificações push porque o seu navegador forneceu um URL de serviço push inválido: '{url}'. É obrigatório um URL HTTPS válido.",
+            "endpoint_host_not_allowed": "Não foi possível ativar as notificações push porque o servidor do serviço push '{host}' utilizado pelo seu navegador não é permitido. Por favor, contacte o administrador do fórum."
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Erro de ligação à rede",
+                "text": "Esta aplicação necessita de ligação à internet; não pode ser utilizada offline. Por favor, verifique a sua ligação."
             }
         }
     },
@@ -151,8 +151,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Exporta todas as subscrições de notificações push e identificadores de dispositivos associados ao utilizador.",
+                    "delete_description": "Elimina todas as subscrições de notificações push e identificadores de dispositivos associados ao utilizador."
                 }
             }
         }
