@@ -2,7 +2,7 @@
     "huseyinfiliz-stickiest": {
         "validation": {
             "invalid_tag_ids": "",
-            "unrelated_tags": ""
+            "unrelated_tags": "Les étiquettes épinglées doivent appartenir à cette discussion."
         },
         "admin": {
             "settings": {
@@ -77,7 +77,7 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "super_stickied": "",
+                    "super_stickied": "A marqué la discussion {discussion} comme super épinglée",
                     "super_unstickied": "",
                     "tag_stickied": "",
                     "tag_unstickied": "",
