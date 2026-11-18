@@ -181,6 +181,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/el-choco/flarum-admin-console/v0.2.0/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es'],
 	],
+	'el-choco-error-analyzer' => [
+		'tag' => 'https://raw.githubusercontent.com/el-choco/error-analyzer/v1.0.0/locale/en.yml',
+		'__builtInLanguages' => ['de'],
+	],
 	'ernestdefoe-answers' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/answers/1.1.1/locale/en.yml',
 	],
