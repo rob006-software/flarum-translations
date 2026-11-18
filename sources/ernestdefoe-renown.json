@@ -377,7 +377,16 @@
             "display": {
                 "heading": "Display",
                 "on_posts": "Show the rank beside every post",
-                "nav": "Show the leaderboard in the sidebar"
+                "nav": "Show the leaderboard in the sidebar",
+                "colors": "Rank colors",
+                "colors_help": "Each family of four ranks has a color, used for its insignia, grade dots, progress bars and leaderboard badges. Pick one that matches your own rank icons.",
+                "family": {
+                    "bronze": "Bronze (ranks 1–4)",
+                    "silver": "Silver (ranks 5–8)",
+                    "gold": "Gold (ranks 9–12)",
+                    "crystal": "Crystal (ranks 13–16)",
+                    "royal": "Royal (ranks 17–20)"
+                }
             },
             "boosts": {
                 "heading": "Double XP events",
