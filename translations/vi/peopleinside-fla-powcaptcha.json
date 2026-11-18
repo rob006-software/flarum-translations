@@ -15,12 +15,22 @@
                 "level_3": "",
                 "level_4": "",
                 "level_5": "",
+                "signup_limit_label": "",
+                "signup_limit_help": "",
+                "login_limit_label": "",
+                "login_limit_help": "",
+                "forgot_limit_label": "",
+                "forgot_limit_help": "",
+                "behavior_checks_label": "",
+                "behavior_checks_help": "",
                 "adaptive_label": "",
                 "adaptive_help": "",
                 "protect_token_endpoint_label": "",
                 "protect_token_endpoint_help": "",
                 "log_enabled_label": "",
                 "log_enabled_help": "",
+                "log_keep_label": "",
+                "log_keep_help": "",
                 "log_ip_label": "",
                 "log_ip_help": "",
                 "difficulty_label": "Độ khó",
@@ -71,6 +81,9 @@
                     "bad_solution": "",
                     "replayed": "",
                     "honeypot": "",
+                    "rate_limited": "",
+                    "signup_limit": "",
+                    "suspicious": "",
                     "cache_error": ""
                 }
             }
@@ -84,7 +97,9 @@
             "challenge_not_ready": "Thử thách bảo mật vẫn đang được xử lý hoặc chưa hoàn tất. Vui lòng đợi."
         },
         "validation": {
-            "pow_captcha": "Không thể xác minh thử thách bảo mật. Vui lòng thử lại."
+            "pow_captcha": "Không thể xác minh thử thách bảo mật. Vui lòng thử lại.",
+            "rate_limited": "",
+            "signup_limit": ""
         }
     }
 }

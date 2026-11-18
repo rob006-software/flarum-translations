@@ -15,18 +15,28 @@
                 "level_3": "Level 3 – Strong (≈ 1–3 s on a PC, 5–10 s on a phone, recommended)",
                 "level_4": "Level 4 – Very strong (≈ 4–12 s on a PC, 20–60 s on a phone)",
                 "level_5": "Level 5 – Maximum (≈ 15–50 s on a PC, over 1–3 min on a phone: only while under attack)",
+                "signup_limit_label": "Max registrations per IP every 24 hours",
+                "signup_limit_help": "Rolling 24-hour limit of accounts that can be created from the same network (IPv6: same /64). 0 = unlimited. Counted only after the account is really created; admin-created accounts are ignored. Only a keyed hash of the network is stored, for 48 hours. Requires correct real-IP detection behind proxies/CDN (see README).",
+                "login_limit_label": "Max login attempts per IP every 10 minutes",
+                "login_limit_help": "Beyond this the network is locked out for 15 minutes (also applies to /api/token when protected). 0 = unlimited.",
+                "forgot_limit_label": "Max password-reset requests per IP every hour",
+                "forgot_limit_help": "Beyond this the network is locked out for 1 hour. 0 = unlimited.",
+                "behavior_checks_label": "Behaviour checks",
+                "behavior_checks_help": "Rejects or makes harder the requests that look automated: missing/bot User-Agent, missing Accept-Language, cross-site Origin, and a form submitted with no real pointer, keyboard or focus activity. Nothing is stored.",
                 "adaptive_label": "Adaptive difficulty",
                 "adaptive_help": "Automatically raises the difficulty for networks with repeated failed checks or many sign-ups in a few minutes, and for everyone during a site-wide attack. Uses short-lived anonymous counters in the cache; nothing is stored.",
                 "protect_token_endpoint_label": "Also protect the API login endpoint (/api/token)",
                 "protect_token_endpoint_help": "Bots can log in by calling /api/token directly, skipping the login form. When enabled, direct calls must carry a CAPTCHA token (GET /api/powcaptcha/challenge?action=token). Turn this off if mobile apps or other integrations log in through the API without a browser.",
                 "log_enabled_label": "Keep an event log",
-                "log_enabled_help": "Stores the time, form, outcome and technical reason of recent checks. Only the latest 30 successes and 30 failures are kept.",
+                "log_enabled_help": "Stores the time, form, outcome and technical reason of recent checks. Only the most recent entries are kept (see the next option for how many).",
+                "log_keep_label": "Log entries to keep (per outcome)",
+                "log_keep_help": "How many passed and how many failed checks to keep in the log (so up to twice this number of rows in total). Older entries are deleted automatically, also when you lower this value. Allowed range 10-1000, default 100. Keep it as low as you need: with IP logging enabled, a smaller value means less personal data stored.",
                 "log_ip_label": "Record and display IP addresses in CAPTCHA logs (warning: GDPR)",
-                "log_ip_help": "WARNING: an IP address is personal data under the GDPR. By enabling this option you, as data controller, are responsible for having a valid legal basis (e.g. legitimate interest in security), for describing the processing in your privacy policy, for limiting retention and for handling data-subject requests. Non-compliant use may constitute a GDPR violation and lead to penalties. IPs are kept only while the entry is among the latest 30 passed and 30 failed events, or until the log is cleared. Disabled by default: if you do not need it, leave it off. This is not legal advice; if in doubt, consult a professional."
+                "log_ip_help": "WARNING: an IP address is personal data under the GDPR. By enabling this option you, as data controller, are responsible for having a valid legal basis (e.g. legitimate interest in security), for describing the processing in your privacy policy, for limiting retention and for handling data-subject requests. Non-compliant use may constitute a GDPR violation and lead to penalties. IPs are kept only while the entry is among the most recent events retained (see 'Log entries to keep'), or until the log is cleared. Disabled by default: if you do not need it, leave it off. This is not legal advice; if in doubt, consult a professional."
             },
             "logs": {
                 "title": "Recent CAPTCHA events",
-                "help": "The latest 30 successful and 30 failed checks are kept; older entries are deleted automatically. IP addresses are only recorded and displayed if explicitly enabled in the settings.",
+                "help": "The latest {count} successful and {count} failed checks are kept; older entries are deleted automatically. IP addresses are only recorded and displayed if explicitly enabled in the settings.",
                 "refresh": "Refresh",
                 "clear": "Clear log",
                 "confirm_clear": "Delete all CAPTCHA log entries? This cannot be undone.",
@@ -64,6 +74,9 @@
                     "bad_solution": "Wrong or insufficient proof of work",
                     "replayed": "Token already used",
                     "honeypot": "Hidden field filled in (bot)",
+                    "rate_limited": "Too many attempts from this network (locked out)",
+                    "signup_limit": "Registration limit reached for this network",
+                    "suspicious": "Automated behaviour detected",
                     "cache_error": "Cache unavailable"
                 }
             }
@@ -77,7 +90,9 @@
             "challenge_not_ready": "The security check is not complete yet. Please try again."
         },
         "validation": {
-            "pow_captcha": "The security check could not be verified. Please try again."
+            "pow_captcha": "The security check could not be verified. Please try again.",
+            "rate_limited": "Too many attempts from your network. Please try again later.",
+            "signup_limit": "The maximum number of registrations from your network has been reached. Please try again later."
         }
     }
 }
