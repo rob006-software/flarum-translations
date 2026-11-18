@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "",
+            "unrelated_tags": ""
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "Показывать закреплённые по тегу темы на странице всех тем",
@@ -67,6 +71,19 @@
             "super_sticky": "Приоритетно закреплено",
             "tag_sticky": "Закреплено в теге",
             "super_tag_sticky": "Приоритетно закреплено в теге"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "",
+                    "super_unstickied": "",
+                    "tag_stickied": "",
+                    "tag_unstickied": "",
+                    "tag_sticky_tags_changed": ""
+                }
+            }
         }
     }
 }

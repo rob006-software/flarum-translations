@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "",
+            "unrelated_tags": ""
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "Tüm Tartışmalar listesinde etiket sabitlemelerini göster",
@@ -67,6 +71,19 @@
             "super_sticky": "Süper Sabitle",
             "tag_sticky": "Etikette Sabitle",
             "super_tag_sticky": "Süper Etikette Sabitle"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "",
+                    "super_unstickied": "",
+                    "tag_stickied": "",
+                    "tag_unstickied": "",
+                    "tag_sticky_tags_changed": ""
+                }
+            }
         }
     }
 }

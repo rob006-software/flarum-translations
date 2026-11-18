@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "",
+            "unrelated_tags": ""
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "Mostrar fijadas por etiqueta en «Todas las discusiones»",
@@ -37,6 +41,19 @@
             "post_stream": {
                 "discussion_stickiest_text": "{username} fijó la discusión como superfijada.",
                 "discussion_unstickiest_text": "{username} desmarcó la discusión como superfijada."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "",
+                    "super_unstickied": "",
+                    "tag_stickied": "",
+                    "tag_unstickied": "",
+                    "tag_sticky_tags_changed": ""
+                }
             }
         }
     }

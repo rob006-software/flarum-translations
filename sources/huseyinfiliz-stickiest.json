@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "Sticky tag IDs must be a list of unique positive integers.",
+            "unrelated_tags": "Sticky tags must belong to this discussion."
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "Show tag stickies in All Discussions",
@@ -37,6 +41,19 @@
             "post_stream": {
                 "discussion_stickiest_text": "{username} marked the discussion as super sticky.",
                 "discussion_unstickiest_text": "{username} unmarked the discussion as super sticky."
+            }
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "Marked discussion {discussion} as super sticky",
+                    "super_unstickied": "Removed super sticky from discussion {discussion}",
+                    "tag_stickied": "Enabled tag sticky for discussion {discussion}",
+                    "tag_unstickied": "Disabled tag sticky for discussion {discussion}",
+                    "tag_sticky_tags_changed": "Changed sticky tags for discussion {discussion}"
+                }
             }
         }
     }

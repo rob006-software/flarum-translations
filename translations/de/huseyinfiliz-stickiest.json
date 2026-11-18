@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "",
+            "unrelated_tags": ""
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "Angepinnte Themen in „Alle Diskussionen“ anzeigen",
@@ -67,6 +71,19 @@
             "super_sticky": "Besonders wichtig",
             "tag_sticky": "Gepinntes Thema",
             "super_tag_sticky": "Besonders wichtiges Thema"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "",
+                    "super_unstickied": "",
+                    "tag_stickied": "",
+                    "tag_unstickied": "",
+                    "tag_sticky_tags_changed": ""
+                }
+            }
         }
     }
 }

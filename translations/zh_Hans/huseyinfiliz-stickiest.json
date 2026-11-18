@@ -1,5 +1,9 @@
 {
     "huseyinfiliz-stickiest": {
+        "validation": {
+            "invalid_tag_ids": "",
+            "unrelated_tags": ""
+        },
         "admin": {
             "settings": {
                 "show_tag_sticky_label": "在「全部讨论」中显示标签置顶",
@@ -67,6 +71,19 @@
             "super_sticky": "超级置顶",
             "tag_sticky": "标签置顶",
             "super_tag_sticky": "超级标签置顶"
+        }
+    },
+    "flarum-audit": {
+        "lib": {
+            "browser": {
+                "discussion": {
+                    "super_stickied": "",
+                    "super_unstickied": "",
+                    "tag_stickied": "",
+                    "tag_unstickied": "",
+                    "tag_sticky_tags_changed": ""
+                }
+            }
         }
     }
 }
