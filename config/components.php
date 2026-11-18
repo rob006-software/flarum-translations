@@ -550,7 +550,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/topic-map/v0.2.4/locale/en.yml',
 	],
 	'ernestdefoe-tributary' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.0.10/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/tributary/v1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-trust-levels' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/trust-levels/1.0.1/locale/en.yml',
