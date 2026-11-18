@@ -1024,7 +1024,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/discussion-ban/1.1.3/locale/en.yml',
 	],
 	'huseyinfiliz-language-detection' => [
-		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/2.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/language-detection/2.0.1/locale/en.yml',
 	],
 	'huseyinfiliz-leaderboard' => [
 		'tag' => 'https://raw.githubusercontent.com/huseyinfiliz/leaderboard/2.1.0/locale/en.yml',
