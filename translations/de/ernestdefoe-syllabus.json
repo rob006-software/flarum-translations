@@ -3,6 +3,33 @@
         "lib": {
             "kiosk": {
                 "course": "Kurs"
+            },
+            "designer": {
+                "template": "",
+                "forum_default": "",
+                "templates": {
+                    "classic": "",
+                    "modern": "",
+                    "minimal": "",
+                    "academic": ""
+                },
+                "signer_name": "",
+                "signer_title": "",
+                "logo": "",
+                "background": "",
+                "signature": "",
+                "uploaded": "",
+                "using_default": "",
+                "logo_none": "",
+                "background_none": "",
+                "signature_none": "",
+                "upload": "",
+                "replace": "",
+                "remove": "",
+                "help_course": "",
+                "help_forum": "",
+                "preview_alt": "",
+                "preview_caption": ""
             }
         },
         "admin": {
@@ -13,16 +40,18 @@
                 "no_tag": "Ohne Tag",
                 "certificate_text": "Zertifikatstext",
                 "certificate_text_help": "",
-                "certificate_signature": "",
-                "certificate_signature_help": "",
-                "certificate_logo": "",
-                "certificate_logo_help": "",
                 "max_file_mb": "",
                 "file_types": "",
                 "file_types_help": "",
                 "max_video_mb": "",
                 "max_video_mb_help": "",
                 "submissions_per_hour": ""
+            },
+            "certificate": {
+                "heading": "",
+                "help": "",
+                "save": "",
+                "saved": ""
             },
             "permissions": {
                 "view": "Kurse anzeigen",
@@ -194,6 +223,8 @@
                 "badge_help": "Nach Abschluss des Kurses erhält der Teilnehmer ein Abzeichen über FoF Badges.",
                 "co_instructors": "",
                 "co_instructors_help": "",
+                "certificate": "",
+                "certificate_after_save": "",
                 "find_member": "Mitglied finden",
                 "remove": "Entfernen",
                 "published": "Veröffentlicht",
@@ -297,7 +328,14 @@
                 "verified_text": "",
                 "issued_by_forum": "Ausgestellt von {forum}.",
                 "invalid": "",
-                "see_course": ""
+                "see_course": "",
+                "download": "",
+                "share_title": "",
+                "sample_course": "",
+                "seal_line1": "",
+                "seal_line2": "",
+                "unsupported_text": "",
+                "drawn_partly": ""
             },
             "profile": {
                 "nav": "Kurse",
@@ -345,6 +383,7 @@
             "upload_failed": "",
             "too_big": "",
             "not_an_image": "",
+            "image_too_large": "",
             "video_off": "",
             "video_type": "",
             "file_type": "",

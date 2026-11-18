@@ -3,6 +3,33 @@
         "lib": {
             "kiosk": {
                 "course": "Course"
+            },
+            "designer": {
+                "template": "Template",
+                "forum_default": "Forum default",
+                "templates": {
+                    "classic": "Classic",
+                    "modern": "Modern",
+                    "minimal": "Minimal",
+                    "academic": "Academic"
+                },
+                "signer_name": "Signer's name",
+                "signer_title": "Signer's title",
+                "logo": "Logo",
+                "background": "Background",
+                "signature": "Signature",
+                "uploaded": "Uploaded",
+                "using_default": "Uses the forum default",
+                "logo_none": "The forum's logo is used.",
+                "background_none": "The template's own paper and frame.",
+                "signature_none": "None, just the signer's name.",
+                "upload": "Upload",
+                "replace": "Replace",
+                "remove": "Remove",
+                "help_course": "Leave any part empty to use the forum's default design. Images are saved as soon as you upload them; the template and signer are saved with the course. A background replaces the template's paper and frame, so choose a light image: the text is printed on top.",
+                "help_forum": "Every course uses this design for the parts it doesn't set itself. A background replaces the template's paper and frame, so choose a light image: the text is printed on top. Signatures look best as a PNG with a transparent background.",
+                "preview_alt": "Preview of the certificate",
+                "preview_caption": "A preview with your name, today's date and sample wording. Members see their own."
             }
         },
         "admin": {
@@ -13,16 +40,18 @@
                 "no_tag": "No tag",
                 "certificate_text": "Certificate wording",
                 "certificate_text_help": "Printed under the course title. Use {name}, {course}, {date} and {forum}. Leave empty for the default.",
-                "certificate_signature": "Certificate signature line",
-                "certificate_signature_help": "A name or title printed above \"Issued by\". Leave empty to use the forum's name.",
-                "certificate_logo": "Certificate logo address",
-                "certificate_logo_help": "An https:// image address. Leave empty to use the forum's logo.",
                 "max_file_mb": "Largest assignment file, in MB",
                 "file_types": "File types students may submit",
                 "file_types_help": "Extensions, separated by commas. Web pages, SVG, scripts and programs are always refused, whatever is listed here.",
                 "max_video_mb": "Largest uploaded lesson video, in MB",
                 "max_video_mb_help": "MP4, WebM or Ogg. Set to 0 to allow YouTube and Vimeo addresses only. Your server's own upload limit applies too.",
                 "submissions_per_hour": "Assignment submissions per member per hour"
+            },
+            "certificate": {
+                "heading": "Certificate design",
+                "help": "The forum's default certificate: its template, logo, background and signer. Instructors can change any part for their own course in the course editor.",
+                "save": "Save design",
+                "saved": "Certificate design saved."
             },
             "permissions": {
                 "view": "View courses",
@@ -194,6 +223,8 @@
                 "badge_help": "Awarded with FoF Badges when a student completes the course.",
                 "co_instructors": "Co-instructors",
                 "co_instructors_help": "Members who may create courses can teach this one with you.",
+                "certificate": "Certificate",
+                "certificate_after_save": "Save the course to design its certificate.",
                 "find_member": "Find a member",
                 "remove": "Remove",
                 "published": "Published",
@@ -297,7 +328,14 @@
                 "verified_text": "{name} completed {course} on {date}.",
                 "issued_by_forum": "Issued by {forum}.",
                 "invalid": "This certificate couldn't be found.",
-                "see_course": "See the course"
+                "see_course": "See the course",
+                "download": "Download image",
+                "share_title": "{name} completed {course}",
+                "sample_course": "Sample course",
+                "seal_line1": "Course",
+                "seal_line2": "Certificate",
+                "unsupported_text": "(shown on the verification page)",
+                "drawn_partly": "Some of this certificate's text is in a script the certificate can't draw yet, so it reads: {text}"
             },
             "profile": {
                 "nav": "Courses",
@@ -345,6 +383,7 @@
             "upload_failed": "The upload didn't arrive. Please try again.",
             "too_big": "That file is too big. The limit is {mb} MB.",
             "not_an_image": "That isn't a JPEG, PNG, GIF or WebP image.",
+            "image_too_large": "That image is too large. Please use one under 40 megapixels.",
             "video_off": "Video uploads are turned off on this forum.",
             "video_type": "Videos must be MP4, WebM or Ogg.",
             "file_type": "That type of file can't be submitted. Allowed: {types}.",

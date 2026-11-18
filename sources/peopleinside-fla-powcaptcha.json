@@ -9,10 +9,20 @@
                 "enabled_forgot_label": "Enable CAPTCHA on Password Reset",
                 "enabled_forgot_help": "Show the PoW security challenge inside the Forgot Password form.",
                 "level_label": "Difficulty level",
-                "level_help": "The work every visitor's browser must do. Times are approximate, measured on a recent PC; phones are 3–6 times slower. With adaptive difficulty enabled, networks that behave suspiciously automatically get up to two extra steps.",
+                "level_help": "The work every visitor's browser must do. Times are approximate, measured on a recent PC; phones are 3–6 times slower. With adaptive difficulty enabled, networks that behave suspiciously automatically get up to 8 extra bits (24 bits in total). Every bit doubles the work: levels 4 and 5 are very hard on phones, consider using them only while under attack.",
                 "level_1": "Level 1 – Light (instant on a PC)",
-                "level_2": "Level 2 – Balanced (≈ 0.1 s on a PC, recommended)",
-                "level_3": "Level 3 – Strong (≈ 1–3 s on a PC, 5–10 s on a phone)",
+                "level_2": "Level 2 – Balanced (≈ 0.1 s on a PC)",
+                "level_3": "Level 3 – Strong (≈ 1–3 s on a PC, 5–10 s on a phone, recommended)",
+                "level_4": "Level 4 – Very strong (≈ 4–12 s on a PC, 20–60 s on a phone)",
+                "level_5": "Level 5 – Maximum (≈ 15–50 s on a PC, over 1–3 min on a phone: only while under attack)",
+                "signup_limit_label": "Max registrations per IP every 24 hours",
+                "signup_limit_help": "Rolling 24-hour limit of accounts that can be created from the same network (IPv6: same /64). 0 = unlimited. Counted only after the account is really created; admin-created accounts are ignored. Only a keyed hash of the network is stored, for 48 hours. Requires correct real-IP detection behind proxies/CDN (see README).",
+                "login_limit_label": "Max login attempts per IP every 10 minutes",
+                "login_limit_help": "Beyond this the network is locked out for 15 minutes (also applies to /api/token when protected). 0 = unlimited.",
+                "forgot_limit_label": "Max password-reset requests per IP every hour",
+                "forgot_limit_help": "Beyond this the network is locked out for 1 hour. 0 = unlimited.",
+                "behavior_checks_label": "Behaviour checks",
+                "behavior_checks_help": "Rejects or makes harder the requests that look automated: missing/bot User-Agent, missing Accept-Language, cross-site Origin, and a form submitted with no real pointer, keyboard or focus activity. Nothing is stored.",
                 "adaptive_label": "Adaptive difficulty",
                 "adaptive_help": "Automatically raises the difficulty for networks with repeated failed checks or many sign-ups in a few minutes, and for everyone during a site-wide attack. Uses short-lived anonymous counters in the cache; nothing is stored.",
                 "protect_token_endpoint_label": "Also protect the API login endpoint (/api/token)",
@@ -41,7 +51,7 @@
                 "col_form": "Form",
                 "col_result": "Result",
                 "col_reason": "Reason",
-                "col_difficulty": "Difficulty",
+                "col_difficulty": "Difficulty (bits)",
                 "result_ok": "Passed",
                 "result_fail": "Failed",
                 "actions": {
@@ -62,6 +72,9 @@
                     "bad_solution": "Wrong or insufficient proof of work",
                     "replayed": "Token already used",
                     "honeypot": "Hidden field filled in (bot)",
+                    "rate_limited": "Too many attempts from this network (locked out)",
+                    "signup_limit": "Registration limit reached for this network",
+                    "suspicious": "Automated behaviour detected",
                     "cache_error": "Cache unavailable"
                 }
             }
@@ -75,7 +88,9 @@
             "challenge_not_ready": "The security check is not complete yet. Please try again."
         },
         "validation": {
-            "pow_captcha": "The security check could not be verified. Please try again."
+            "pow_captcha": "The security check could not be verified. Please try again.",
+            "rate_limited": "Too many attempts from your network. Please try again later.",
+            "signup_limit": "The maximum number of registrations from your network has been reached. Please try again later."
         }
     }
 }
