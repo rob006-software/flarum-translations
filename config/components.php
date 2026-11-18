@@ -1128,7 +1128,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/clipboard/v1.1.4/locale/en.yml',
 	],
 	'linkrobins-countdown-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/linkrobins/countdown-widget/v1.2.2/locale/en.yml',
 	],
 	'linkrobins-discussion-banners' => [
 		'tag' => 'https://raw.githubusercontent.com/linkrobins/flarum-discussion-banners/v2.2.0/locale/en.yml',
