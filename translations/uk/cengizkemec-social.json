@@ -6,23 +6,23 @@
                 "explore": "",
                 "feed": "",
                 "media": "",
-                "rooms": "",
-                "messages": "",
-                "bookmarks": "",
-                "notifications": "",
-                "profile": "",
+                "rooms": "Кімнати",
+                "messages": "Повідомлення",
+                "bookmarks": "Закладки",
+                "notifications": "Сповіщення",
+                "profile": "Профіль",
                 "voice_rooms": "",
                 "text_rooms": "",
                 "text_channels": "",
-                "channels": "",
+                "channels": "Канали",
                 "other_rooms": "",
                 "online": "",
                 "members": "",
                 "search_placeholder": "",
                 "toggle_menu": "",
                 "forum": "",
-                "community": "",
-                "language": ""
+                "community": "Спільнота",
+                "language": "Мова"
             },
             "time": {
                 "just_now": "",
@@ -34,13 +34,13 @@
                 "in_days": ""
             },
             "auth": {
-                "login": "",
-                "logout": "",
+                "login": "Увійти",
+                "logout": "Вийти",
                 "register": "",
                 "login_title": "",
                 "login_subtitle": "",
-                "identification": "",
-                "password": "",
+                "identification": "Ім’я користувача або електронна адреса",
+                "password": "Пароль",
                 "remember": "",
                 "forgot": "",
                 "invalid_login": "",
@@ -48,7 +48,7 @@
                 "have_account": "",
                 "register_title": "",
                 "register_subtitle": "",
-                "username": "",
+                "username": "Ім’я користувача",
                 "email": "",
                 "register_error": "",
                 "register_terms": "",
@@ -78,11 +78,11 @@
             },
             "errors": {
                 "title": "",
-                "generic": "",
+                "generic": "Щось пішло не так. Спробуйте ще раз.",
                 "auth_required": "",
                 "forbidden": "",
                 "upload_failed": "",
-                "retry": "",
+                "retry": "Спробуйте ще раз",
                 "back_to_forum": ""
             },
             "disabled": {
@@ -90,7 +90,7 @@
                 "text": ""
             },
             "aside": {
-                "online": "",
+                "online": "Зараз онлайн",
                 "offline": "",
                 "no_online": "",
                 "open_flarum_profile": "",
@@ -108,13 +108,13 @@
                 "forum_latest": "",
                 "no_forum_posts": "",
                 "social_stats": "",
-                "posts": "",
+                "posts": "Дописи",
                 "comments": "",
                 "members": "",
-                "rooms": "",
+                "rooms": "Кімнати",
                 "media": "",
                 "in_voice": "",
-                "community": "",
+                "community": "Спільнота",
                 "community_text": "",
                 "updated": ""
             },
@@ -148,9 +148,9 @@
             "post": {
                 "compose": "",
                 "placeholder": "",
-                "publish": "",
+                "publish": "Опублікувати",
                 "published": "",
-                "save": "",
+                "save": "Зберегти зміни",
                 "edit": "",
                 "edited": "",
                 "delete": "",
@@ -165,15 +165,15 @@
                 "bookmark": "",
                 "bookmarked": "",
                 "unbookmarked": "",
-                "share": "",
+                "share": "Поділитися",
                 "share_title": "",
                 "share_url": "",
                 "copy": "",
-                "copied": "",
+                "copied": "Скопійовано",
                 "share_on_x": "",
                 "share_on_facebook": "",
                 "share_native": "",
-                "link_copied": "",
+                "link_copied": "Посилання скопійовано.",
                 "copy_link": "",
                 "more": "",
                 "back": "",
@@ -187,7 +187,7 @@
                     "public": "",
                     "members": "",
                     "followers": "",
-                    "private": "",
+                    "private": "Лише я",
                     "staff": "",
                     "invite": ""
                 }
@@ -203,7 +203,7 @@
             "comments": {
                 "title": "",
                 "placeholder": "",
-                "send": "",
+                "send": "Надіслати",
                 "reply": "",
                 "replying_to": "",
                 "login_to_comment": "",
@@ -213,10 +213,10 @@
             "media": {
                 "title": "",
                 "subtitle": "",
-                "library": "",
+                "library": "Спільнота",
                 "mine": "",
                 "all": "",
-                "upload": "",
+                "upload": "Завантажити",
                 "uploaded": "",
                 "attach": "",
                 "hint": "",
@@ -233,18 +233,18 @@
                 "login_to_upload": "",
                 "types": {
                     "image": "",
-                    "video": "",
+                    "video": "Відео",
                     "document": ""
                 }
             },
             "rooms": {
-                "title": "",
+                "title": "Кімнати",
                 "subtitle": "",
                 "create": "",
                 "create_title": "",
                 "edit_title": "",
                 "login_to_create": "",
-                "category": "",
+                "category": "Категорія",
                 "create_user_room": "",
                 "user_room_category_note": "",
                 "user_room_category_note_guest": "",
@@ -255,11 +255,11 @@
                 "empty_text": "",
                 "temporary": "",
                 "name": "",
-                "description": "",
+                "description": "Опис",
                 "visibility": "",
                 "capacity": "",
                 "unlimited": "",
-                "password": "",
+                "password": "Пароль",
                 "password_keep": "",
                 "password_title": "",
                 "password_text": "",
@@ -273,7 +273,7 @@
                 "participants": "",
                 "no_participants": "",
                 "details": "",
-                "type": "",
+                "type": "Тип",
                 "types": {
                     "permanent": "",
                     "temporary": ""
@@ -336,10 +336,10 @@
                 "placeholder": "",
                 "dm_placeholder": "",
                 "dm_empty": "",
-                "send": "",
+                "send": "Надіслати",
                 "typing": "",
                 "offline": "",
-                "profile": "",
+                "profile": "Профіль",
                 "load_older": "",
                 "empty": "",
                 "login_title": "",
@@ -427,19 +427,19 @@
                 "search_title": "",
                 "search_subtitle": "",
                 "people": "",
-                "rooms": "",
-                "posts": "",
+                "rooms": "Кімнати",
+                "posts": "Дописи",
                 "no_results": ""
             },
             "profile": {
-                "title": "",
+                "title": "Профіль",
                 "not_found": "",
-                "posts": "",
+                "posts": "Дописи",
                 "followers": "",
                 "following": "",
                 "follow": "",
                 "following_action": "",
-                "message": "",
+                "message": "Повідомлення",
                 "edit": "",
                 "edit_on_flarum": "",
                 "social_profile": "",
@@ -454,7 +454,7 @@
                 "privacy_options": {
                     "public": "",
                     "members": "",
-                    "private": ""
+                    "private": "Лише я"
                 },
                 "about": "",
                 "no_bio": "",
@@ -464,13 +464,13 @@
                 "add_friend": "",
                 "friend_pending": "",
                 "tabs": {
-                    "posts": "",
+                    "posts": "Дописи",
                     "media": "",
                     "about": ""
                 }
             },
             "notifications": {
-                "title": "",
+                "title": "Сповіщення",
                 "subtitle": "",
                 "empty": "",
                 "empty_text": "",
@@ -496,14 +496,14 @@
                 "viewers_error": "",
                 "previous": "",
                 "next": "",
-                "text": "",
+                "text": "Текст",
                 "media": "",
                 "placeholder": "",
                 "visibility": "",
                 "visibility_options": {
-                    "public": "",
+                    "public": "Усі",
                     "members": "",
-                    "private": ""
+                    "private": "Лише я"
                 },
                 "publish": "",
                 "delete": "",
@@ -514,21 +514,21 @@
             "report": {
                 "action": "",
                 "title": "",
-                "reason": "",
-                "details": "",
+                "reason": "Причина",
+                "details": "Подробиці",
                 "details_placeholder": "",
                 "submit": "",
                 "submitted": "",
                 "reasons": {
-                    "spam": "",
+                    "spam": "Спам",
                     "abuse": "",
                     "harassment": "",
                     "nsfw": "",
-                    "other": ""
+                    "other": "Інше"
                 }
             },
             "bookmarks": {
-                "title": "",
+                "title": "Закладки",
                 "subtitle": "",
                 "login_title": "",
                 "login_text": "",
@@ -536,10 +536,10 @@
                 "empty_text": ""
             },
             "common": {
-                "load_more": "",
+                "load_more": "Завантажити ще",
                 "view_all": "",
-                "cancel": "",
-                "loading": ""
+                "cancel": "Скасувати",
+                "loading": "Завантаження…"
             }
         },
         "admin": {
@@ -549,12 +549,12 @@
                 "generic": ""
             },
             "common": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "cancel": "",
-                "refresh": "",
-                "retry": ""
+                "save": "Зберегти зміни",
+                "edit": "Редагувати",
+                "delete": "Видалити",
+                "cancel": "Скасувати",
+                "refresh": "Оновити",
+                "retry": "Спробуйте ще раз"
             },
             "tabs": {
                 "overview": "",
@@ -571,9 +571,9 @@
                 "retention_help": "",
                 "voice": "",
                 "voice_help": "",
-                "rooms": "",
+                "rooms": "Кімнати",
                 "rooms_help": "",
-                "messages": "",
+                "messages": "Повідомлення",
                 "messages_help": "",
                 "moderation": "",
                 "moderation_help": ""
@@ -588,7 +588,7 @@
                     "both": "",
                     "header": "",
                     "sidebar": "",
-                    "hidden": ""
+                    "hidden": "Приховано"
                 },
                 "storage_driver": {
                     "local": "",
@@ -606,7 +606,7 @@
             "overview": {
                 "users": "",
                 "active_users": "",
-                "posts": "",
+                "posts": "Дописи",
                 "comments": "",
                 "messages": "",
                 "direct_messages": "",
@@ -617,8 +617,8 @@
                 "services": "",
                 "configured": "",
                 "not_configured": "",
-                "enabled": "",
-                "disabled": "",
+                "enabled": "Увімкнено",
+                "disabled": "Вимкнено",
                 "realtime": "",
                 "cleanup": "",
                 "permanent_rooms": "",
@@ -655,11 +655,11 @@
                 "name": "",
                 "slug": "",
                 "slug_help": "",
-                "description": "",
+                "description": "Опис",
                 "icon": "",
-                "category": "",
+                "category": "Категорія",
                 "no_category": "",
-                "categories": "",
+                "categories": "Категорії",
                 "category_name": "",
                 "add_category": "",
                 "category_name_required": "",
@@ -683,10 +683,10 @@
                 "visibility": "",
                 "capacity": "",
                 "participants": "",
-                "type": "",
+                "type": "Тип",
                 "sort_order": "",
-                "status": "",
-                "password": "",
+                "status": "Статус",
+                "password": "Пароль",
                 "password_keep": "",
                 "allowed_groups": "",
                 "allowed_groups_help": "",
@@ -699,8 +699,8 @@
                 "confirm_delete": "",
                 "confirm_category_delete": "",
                 "confirm_channel_delete": "",
-                "move_up": "",
-                "move_down": "",
+                "move_up": "Перемістити вгору",
+                "move_down": "Перемістити вниз",
                 "visibility_options": {
                     "public": "",
                     "members": "",
