@@ -2,19 +2,19 @@
     "datlechin-mermaid": {
         "admin": {
             "settings": {
-                "theme_label": "",
-                "theme_help": "",
+                "theme_label": "Тема діаграм",
+                "theme_help": "Визначає кольори діаграм. Варіант «За темою форуму» використовує кольори форуму й перемикається разом зі світлою та темною темами.",
                 "theme_options": {
-                    "flarum": "",
-                    "auto": "",
-                    "default": "",
-                    "dark": "",
-                    "neutral": "",
-                    "forest": ""
+                    "flarum": "За темою форуму",
+                    "auto": "Світла й темна теми Mermaid",
+                    "default": "Типова тема Mermaid",
+                    "dark": "Темна тема Mermaid",
+                    "neutral": "Нейтральна тема Mermaid",
+                    "forest": "Тема «Ліс» Mermaid"
                 },
-                "font_family_label": "",
-                "font_family_help": "",
-                "font_family_placeholder": ""
+                "font_family_label": "Сімейство шрифтів",
+                "font_family_help": "Будь-який список шрифтів CSS, наприклад \"Inter\", system-ui, sans-serif. Залиште поле порожнім, щоб використовувати шрифт тексту дописів.",
+                "font_family_placeholder": "Успадкувати від форуму"
             }
         }
     }
