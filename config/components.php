@@ -984,7 +984,7 @@ return [
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'glowingblue-author-filter' => [
-		'beta' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-author-filter/2.0.0/resources/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
 	'glowingblue-date-filters' => [
