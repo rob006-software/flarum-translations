@@ -7,19 +7,19 @@
             "empty": "",
             "no_matches": "",
             "blank": "",
-            "yes": "",
-            "no": "",
+            "yes": "Так",
+            "no": "Ні",
             "filter_placeholder": "",
             "tabs": {
                 "timeline": "",
                 "queries": "",
-                "messages": "",
+                "messages": "Повідомлення",
                 "request": "",
                 "events": "",
                 "cache": "",
                 "mail": "",
-                "settings": "",
-                "extensions": "",
+                "settings": "Налаштування",
+                "extensions": "Розширення",
                 "environment": ""
             },
             "summary": {
@@ -72,21 +72,21 @@
                 "levels": {
                     "debug": "",
                     "info": "",
-                    "warning": "",
-                    "error": ""
+                    "warning": "Попередження",
+                    "error": "Помилка"
                 }
             },
             "request": {
                 "method": "",
                 "uri": "",
-                "status": "",
+                "status": "Статус",
                 "route": "",
                 "handler": "",
                 "internal": "",
-                "user": "",
+                "user": "Користувач",
                 "guest": "",
-                "admin": "",
-                "groups": "",
+                "admin": "Адміністратор",
+                "groups": "Групи",
                 "authentication": "",
                 "sections": {
                     "overview": "",
@@ -122,12 +122,12 @@
             },
             "mail": {
                 "count": "",
-                "show": "",
-                "hide": "",
+                "show": "Показати",
+                "hide": "Приховати",
                 "empty": "",
                 "statuses": {
                     "sending": "",
-                    "sent": ""
+                    "sent": "Надіслано"
                 },
                 "headers": {
                     "from": "",
@@ -138,14 +138,14 @@
                 }
             },
             "settings": {
-                "count": "",
-                "groups": "",
+                "count": "Налаштування",
+                "groups": "Групи",
                 "filter": "",
                 "redacted": "",
                 "empty": ""
             },
             "extensions": {
-                "enabled": "",
+                "enabled": "Увімкнено",
                 "installed": "",
                 "filter": "",
                 "empty": "",
@@ -165,7 +165,7 @@
                 },
                 "keys": {
                     "version": "",
-                    "url": "",
+                    "url": "URL",
                     "debug": "",
                     "maintenance": "",
                     "sapi": "",
