@@ -2,41 +2,41 @@
     "datlechin-posted-on": {
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_os_only": "",
-                "display_mode_os_browser": "",
-                "skip_guests_label": "",
-                "skip_guests_help": ""
+                "display_mode_label": "Що показувати поруч із дописом",
+                "display_mode_help": "Рівень деталізації для кожного допису. Усі відомості завжди доступні в підказці.",
+                "display_mode_os_only": "Лише ОС (наприклад, Windows 11)",
+                "display_mode_os_browser": "ОС і браузер (наприклад, Windows 11 · Chrome 121)",
+                "skip_guests_label": "Не збирати дані про пристрої гостей",
+                "skip_guests_help": "Якщо ввімкнено, відомості про пристрій не зберігаються для дописів із гостьових облікових записів."
             }
         },
         "forum": {
             "post": {
                 "posted_on_text": "Опубліковано у {posted_on}",
                 "tooltip": {
-                    "os": "",
-                    "client": "",
-                    "device": ""
+                    "os": "Операційна система",
+                    "client": "Браузер",
+                    "device": "Пристрій"
                 }
             },
             "settings": {
                 "privacy_disclose_posted_on_label": "Показувати іншим, з якого пристрою я публікую дописи"
             },
             "device_types": {
-                "desktop": "",
-                "smartphone": "",
-                "tablet": "",
-                "feature phone": "",
-                "console": "",
-                "tv": "",
-                "car browser": "",
-                "smart display": "",
-                "camera": "",
-                "portable media player": "",
-                "phablet": "",
-                "smart speaker": "",
-                "wearable": "",
-                "peripheral": ""
+                "desktop": "Комп’ютер",
+                "smartphone": "Телефон",
+                "tablet": "Планшет",
+                "feature phone": "Телефон",
+                "console": "Ігрова консоль",
+                "tv": "Телевізор",
+                "car browser": "Автомобіль",
+                "smart display": "Розумний дисплей",
+                "camera": "Камера",
+                "portable media player": "Медіаплеєр",
+                "phablet": "Фаблет",
+                "smart speaker": "Розумна колонка",
+                "wearable": "Носимий пристрій",
+                "peripheral": "Периферійний пристрій"
             }
         }
     }
