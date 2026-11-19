@@ -234,7 +234,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/concourse/1.1.3/locale/en.yml',
 	],
 	'ernestdefoe-connect' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.0.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/connect/v1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-corkboard' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/corkboard/1.0.0/locale/en.yml',
