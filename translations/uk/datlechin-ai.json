@@ -2,36 +2,36 @@
     "datlechin-ai": {
         "admin": {
             "drivers": {
-                "anthropic": "",
-                "gemini": "",
-                "openai": "",
-                "openai-compatible": ""
+                "anthropic": "Anthropic",
+                "gemini": "Google Gemini",
+                "openai": "OpenAI",
+                "openai-compatible": "Сумісний з OpenAI (OpenRouter, Groq, DeepSeek, Ollama, …)"
             },
             "fields": {
-                "anthropic_api_key_help": "",
+                "anthropic_api_key_help": "Створіть ключ у Claude Console в розділі «API keys».",
                 "api_key_label": "Ключ API",
-                "base_url_help": "",
-                "base_url_label": "",
-                "gemini_api_key_help": "",
-                "model_help": "",
-                "model_label": "",
-                "openai_api_key_help": "",
-                "openai_compatible_api_key_help": ""
+                "base_url_help": "Адреса, що закінчується на /v1. Наприклад, https://openrouter.ai/api/v1, https://api.groq.com/openai/v1 або http://localhost:11434/v1 для Ollama.",
+                "base_url_label": "Базова URL-адреса",
+                "gemini_api_key_help": "Створіть ключ у Google AI Studio в розділі «Get API key».",
+                "model_help": "Виберіть модель зі списку або введіть ID будь-якої моделі, доступної у вашого постачальника.",
+                "model_label": "Модель",
+                "openai_api_key_help": "Створіть ключ на платформі OpenAI в розділі «API keys».",
+                "openai_compatible_api_key_help": "Залиште поле порожнім, якщо сервер не потребує ключа, як-от локальний Ollama."
             },
             "page": {
-                "driver_label": "",
-                "models_error": "",
-                "not_configured_message": "",
-                "test_button": "",
-                "test_heading": "",
-                "test_success_message": "",
-                "test_text": ""
+                "driver_label": "Постачальник",
+                "models_error": "Не вдалося завантажити список моделей: {message}",
+                "not_configured_message": "ШІ ще не налаштовано. Розширення, які його використовують, залишатимуться вимкненими, доки ви не виберете постачальника, не додасте його ключ і не виберете модель.",
+                "test_button": "Надіслати тестовий запит",
+                "test_heading": "Надсилання тестового запиту",
+                "test_success_message": "Модель {model} відповіла за {seconds} с: {text}",
+                "test_text": "Просить модель привітатися, щоб перевірити, чи працюють ключ і модель. Спочатку збережіть зміни."
             }
         },
         "api": {
-            "no_driver_message": "",
-            "not_configured_message": "",
-            "provider_error_message": ""
+            "no_driver_message": "Виберіть постачальника.",
+            "not_configured_message": "Спочатку виберіть постачальника, додайте його ключ і виберіть модель.",
+            "provider_error_message": "Постачальник повернув помилку: {message}"
         }
     }
 }
