@@ -8,9 +8,9 @@
                 "product_service_v3_label": "",
                 "context_event_label": "",
                 "context_event_help_text": "",
-                "context_event_login_label": "",
-                "context_event_signup_label": "",
-                "context_event_forgot_label": "",
+                "context_event_login_label": "=> core.ref.log_in",
+                "context_event_signup_label": "=> core.ref.sign_up",
+                "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
                     "title": "",
                     "standalone_label": "",
@@ -33,9 +33,9 @@
             "test": {
                 "title": "",
                 "help_text": "",
-                "submit_button": "",
+                "submit_button": "Надіслати",
                 "load_button": "",
-                "reload_button": ""
+                "reload_button": "Перезавантажити"
             }
         },
         "lib": {
