@@ -6,7 +6,7 @@
                 "view_birthday_label": "Переглянути день народження"
             },
             "settings": {
-                "min_age_help": "Мінімальний вік для реєстрації",
+                "min_age_help": "Мінімальний вік учасників. Перевіряється щоразу під час збереження дати народження. Установіть 0, щоб відхиляти лише майбутні дати.",
                 "min_age_label": "Мінімальний вік",
                 "sign_up_help": "",
                 "sign_up_label": "",
@@ -32,7 +32,7 @@
                 "birthday_tooltip": ""
             },
             "change_birthday": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "nav": {
@@ -44,9 +44,9 @@
             },
             "page": {
                 "empty_text": "",
-                "load_more_button": "",
+                "load_more_button": "=> core.ref.load_more",
                 "title": "",
-                "today_heading": "",
+                "today_heading": "Сьогодні",
                 "tomorrow_heading": "",
                 "turns_text": "",
                 "discussion_count": "{count, plural, one {Дискусія: #} other {Дискусії: #}}",
