@@ -430,7 +430,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/panels/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-parley' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.11.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/parley/1.11.1/locale/en.yml',
 	],
 	'ernestdefoe-phrasebook' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/phrasebook/1.1.0/locale/en.yml',
