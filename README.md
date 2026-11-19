@@ -1001,6 +1001,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-chronicle`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-chronicle) | [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) |
 | [`ernestdefoe-club`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-club) | [`ernestdefoe/club`](https://github.com/ernestdefoe/club) |
 | [`ernestdefoe-community-goals`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-community-goals) | [`ernestdefoe/community-goals`](https://github.com/ernestdefoe/community-goals) |
+| [`ernestdefoe-community-reviews`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-community-reviews) | [`ernestdefoe/community-reviews`](https://github.com/ernestdefoe/community-reviews) |
 | [`ernestdefoe-concourse`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-concourse) | [`ernestdefoe/concourse`](https://github.com/ernestdefoe/concourse) |
 | [`ernestdefoe-connect`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-connect) | [`ernestdefoe/connect`](https://github.com/ernestdefoe/connect) |
 | [`ernestdefoe-corkboard`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-corkboard) | [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) |
@@ -1092,6 +1093,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ernestdefoe-shelf`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shelf) | [`ernestdefoe/shelf`](https://github.com/ernestdefoe/shelf) |
 | [`ernestdefoe-shutter`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-shutter) | [`ernestdefoe/shutter`](https://github.com/ernestdefoe/shutter) |
 | [`ernestdefoe-since`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-since) | [`ernestdefoe/since`](https://github.com/ernestdefoe/since) |
+| [`ernestdefoe-skylight`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-skylight) | [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) |
 | [`ernestdefoe-slow-mail`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-slow-mail) | [`ernestdefoe/slow-mail`](https://github.com/ernestdefoe/slow-mail) |
 | [`ernestdefoe-social-groups`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-social-groups) | [`ernestdefoe/social-groups`](https://github.com/ernestdefoe/social-groups) |
 | [`ernestdefoe-sonic`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-sonic) | [`ernestdefoe/sonic`](https://github.com/ernestdefoe/sonic) |
