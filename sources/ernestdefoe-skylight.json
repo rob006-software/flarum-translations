@@ -1,0 +1,148 @@
+{
+    "ernestdefoe-skylight": {
+        "lib": {
+            "sections": {
+                "accent": "Accent",
+                "view": "Discussion list",
+                "background": "Background",
+                "glass": "Surfaces",
+                "shape": "Shape",
+                "corners": "Corners",
+                "density": "Density",
+                "text": "Text",
+                "typeface": "Typeface",
+                "motion": "Motion",
+                "readability": "Readability",
+                "share": "Share codes"
+            },
+            "labels": {
+                "view": "View",
+                "bg": "Background",
+                "glass": "Surfaces",
+                "blur": "Blur",
+                "radius": "Corners",
+                "density": "Density",
+                "scale": "Size",
+                "font": "Typeface",
+                "motion": "Motion",
+                "rt": "Reduce transparency",
+                "hc": "More contrast",
+                "custom_accent": "Any color"
+            },
+            "help": {
+                "rt": "Solid panes, no blur. Your device's setting turns this on too.",
+                "hc": "Darker gray text and firmer borders.",
+                "nudged": "This color was darkened a little (lightened in dark mode) so text in it stays readable."
+            },
+            "choices": {
+                "view": {
+                    "list": "List",
+                    "cards": "Cards",
+                    "compact": "Compact"
+                },
+                "bg": {
+                    "daylight": "Daylight",
+                    "mist": "Mist",
+                    "dusk": "Dusk",
+                    "plain": "Plain",
+                    "image": "Picture {number}"
+                },
+                "glass": {
+                    "glass": "Glass",
+                    "solid": "Solid"
+                },
+                "radius": {
+                    "sharp": "Sharp",
+                    "soft": "Soft",
+                    "round": "Round"
+                },
+                "density": {
+                    "comfortable": "Comfortable",
+                    "compact": "Compact"
+                },
+                "font": {
+                    "system": "System",
+                    "inter": "Inter",
+                    "serif": "Serif"
+                },
+                "motion": {
+                    "full": "Full",
+                    "reduced": "Reduced",
+                    "off": "Off"
+                }
+            },
+            "accents": {
+                "dawn": "Dawn",
+                "lagoon": "Lagoon",
+                "fern": "Fern",
+                "coral": "Coral",
+                "iris": "Iris",
+                "slate": "Slate"
+            }
+        },
+        "forum": {
+            "studio": {
+                "open": "Personalize",
+                "title": "Your look",
+                "lead": "Only you see these changes. Everyone else keeps the forum's look.",
+                "shuffle": "Shuffle",
+                "reset": "Reset",
+                "done": "Done",
+                "mode": {
+                    "label": "Mode",
+                    "light": "Light",
+                    "dark": "Dark",
+                    "auto": "Auto"
+                },
+                "share": {
+                    "label": "Share your look",
+                    "copy": "Copy",
+                    "copied": "Your look's code is copied.",
+                    "copy_failed": "Your browser didn't allow copying. Select the code and copy it yourself.",
+                    "paste_label": "Paste someone's look code",
+                    "apply": "Use",
+                    "invalid": "That isn't a look code. They start with SKY- and look like SKY-127C86000000E200."
+                }
+            },
+            "views": {
+                "label": "Discussion list view",
+                "list": "List",
+                "cards": "Cards",
+                "compact": "Compact"
+            }
+        },
+        "admin": {
+            "bespoke_notice": "Bespoke is styling this forum, so Skylight stays off. To offer both, install Wardrobe and let members pick their theme.",
+            "permissions": {
+                "use_studio": "Personalize Skylight (accent, background, list view…)"
+            },
+            "defaults": {
+                "title": "Forum defaults",
+                "help": "What guests and new members see. Members can change these with Personalize.",
+                "contrast_light": "Accent on light: {ratio}",
+                "contrast_dark": "Accent on dark: {ratio}"
+            },
+            "studio": {
+                "title": "Member personalization",
+                "help": "The sections members get when they open Personalize. A section you turn off stays on your default.",
+                "readability_always": "Reduce transparency and More contrast are always offered.",
+                "permission": "Who can use Personalize is set on the Permissions page (Members, by default)."
+            },
+            "presets": {
+                "title": "Your own accents",
+                "help": "Up to 6 extra colors for the accent row, separated by commas."
+            },
+            "backgrounds": {
+                "title": "Background pictures",
+                "help": "Up to 4 of your own. Large pictures are scaled down to 2400 px when you upload them."
+            },
+            "more": {
+                "title": "More",
+                "tag_accent": "Tags color the page",
+                "tag_accent_help": "Inside a tag, buttons, links and focus rings take the tag's color. Colors too light to read are darkened.",
+                "auto_solid": "Go solid on low-memory phones",
+                "auto_solid_help": "Phones with under 4 GB of memory, or with Data Saver on, get solid panes. Members can still pick Glass."
+            }
+        }
+    }
+}
