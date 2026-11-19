@@ -2,8 +2,8 @@
     "datlechin-simple-tour-guide": {
         "admin": {
             "devices_label": "",
-            "move_up": "",
-            "move_down": "",
+            "move_up": "Перемістити вгору",
+            "move_down": "Перемістити вниз",
             "devices": {
                 "any": "",
                 "desktop": "",
@@ -21,7 +21,7 @@
                 "right": ""
             },
             "settings": {
-                "heading": "",
+                "heading": "Налаштування",
                 "show_progress_label": "Показати прогрес",
                 "show_progress_help": "",
                 "allow_close_label": "",
@@ -32,12 +32,12 @@
             "tours": {
                 "heading": "",
                 "none": "",
-                "disabled": "",
+                "disabled": "Вимкнено",
                 "add_button": "",
-                "import_button": "",
+                "import_button": "Імпортувати",
                 "import_done": "",
                 "import_invalid": "",
-                "edit_action": "",
+                "edit_action": "Редагувати",
                 "controls_label": "",
                 "preview_button": "",
                 "export_button": "",
@@ -51,7 +51,7 @@
                 "none": "",
                 "no_target": "",
                 "add_button": "",
-                "duplicate_action": "",
+                "duplicate_action": "Дублювати",
                 "controls_label": "",
                 "copy_title": "",
                 "flags": {
@@ -67,9 +67,9 @@
                 "heading": "",
                 "none": "",
                 "taken": "",
-                "finished": "",
+                "finished": "Завершено",
                 "dismissed": "",
-                "completion_rate": "",
+                "completion_rate": "Завершено",
                 "dropoff_heading": "",
                 "dropoff_help": ""
             },
@@ -82,7 +82,7 @@
                 "key_help": "",
                 "start_mode_label": "",
                 "start_mode_help": "",
-                "route_label": "",
+                "route_label": "Сторінка",
                 "route_placeholder": "",
                 "route_help": "",
                 "audience_label": "",
@@ -90,16 +90,16 @@
                 "max_age_label": "",
                 "max_age_help": "",
                 "enabled_label": "",
-                "save_button": "",
+                "save_button": "Зберегти",
                 "delete_button": "",
                 "delete_confirmation": ""
             },
             "step_modal": {
                 "create_title": "",
                 "edit_title": "",
-                "title_label": "",
+                "title_label": "Заголовок",
                 "title_placeholder": "",
-                "description_label": "",
+                "description_label": "Опис",
                 "description_placeholder": "",
                 "description_help": "",
                 "target_label": "",
@@ -109,7 +109,7 @@
                 "target_route_mismatch": "",
                 "pick_button": "",
                 "test_button": "",
-                "placement_label": "",
+                "placement_label": "Розташування",
                 "placement_help": "",
                 "devices_help": "",
                 "translations_label": "",
@@ -120,7 +120,7 @@
                 "advance_on_click_label": "",
                 "advance_on_click_help": "",
                 "enabled_label": "",
-                "save_button": "",
+                "save_button": "Зберегти",
                 "delete_button": "",
                 "delete_confirmation": ""
             },
@@ -133,9 +133,9 @@
         },
         "forum": {
             "progress": "",
-            "next_button": "",
-            "previous_button": "",
-            "done_button": "",
+            "next_button": "Далі",
+            "previous_button": "Назад",
+            "done_button": "Готово",
             "close_button": "",
             "click_to_continue": "",
             "preview_notice": "",
@@ -156,9 +156,9 @@
                 "matches": "",
                 "browse": "",
                 "resume": "",
-                "show": "",
+                "show": "Показати",
                 "go_to_page": "",
-                "cancel": ""
+                "cancel": "Скасувати"
             },
             "user_controls": {
                 "reset_tour_guide": "",
