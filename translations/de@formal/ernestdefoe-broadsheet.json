@@ -1,23 +1,23 @@
 {
     "ernestdefoe-broadsheet": {
         "forum": {
-            "by": "",
-            "deleted_user": "",
+            "by": "Von {name}",
+            "deleted_user": "[gelöscht]",
             "front_page": "",
             "last_from": "",
             "lead_label": "",
             "letters": "",
-            "most_discussed": "",
+            "most_discussed": "Meistdiskutiert diese Woche",
             "night_edition": "",
             "read_time": "",
-            "replies": "",
+            "replies": "{count, plural, one {# Antwort} other {# Antworten}}",
             "rest_of_paper": "",
-            "sections_label": "",
+            "sections_label": "Abschnitte",
             "write": ""
         },
         "admin": {
             "accent_help": "",
-            "accent_label": "",
+            "accent_label": "Akzentfarbe",
             "dateline_help": "",
             "dateline_label": "",
             "fonts_help": "",
@@ -26,16 +26,16 @@
             "lead_label": "",
             "lead_liked": "",
             "lead_liked_off": "",
-            "lead_newest": "",
+            "lead_newest": "Die neueste Diskussion",
             "lead_sticky": "",
             "lead_sticky_off": "",
             "nameplate_help": "",
             "nameplate_label": "",
             "sections_help": "",
-            "sections_label": "",
+            "sections_label": "Abschnitte",
             "sections_no_tags": "",
             "tagline_help": "",
-            "tagline_label": ""
+            "tagline_label": "Slogan"
         }
     }
 }
