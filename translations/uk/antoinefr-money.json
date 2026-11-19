@@ -4,15 +4,15 @@
             "settings": {
                 "title": "Налаштування",
                 "moneyforpost": "Гроші за новий допис",
-                "moneyfordiscussion": "Гроші за нову дискусію",
-                "moneyname": "",
-                "helpmoneyname": "",
-                "postminimumlength": "",
-                "helppostminimumlength": "",
+                "moneyfordiscussion": "Гроші за нове обговорення",
+                "moneyname": "Назва валюти",
+                "helpmoneyname": "Використовуйте <code>[money]</code>, щоб підставити суму",
+                "postminimumlength": "Мінімальна довжина допису для нарахування коштів",
+                "helppostminimumlength": "Укажіть 0, щоб вимкнути обмеження",
                 "ignore_notifying_users": "Перевіряючи кількість слів у відповідях, зосередьтеся лише на змістовній частині",
                 "noshowzero": "Не показувати, якщо значення дорівнює нулю",
                 "autoremove": "Автоматично оновлювати кошти",
-                "cascaderemove": "Видаляти гроші за дописи, коли дискусію видалено",
+                "cascaderemove": "Видаляти гроші за дописи, коли обговорення видалено",
                 "moneyforlike": "Гроші за вподобаний допис",
                 "helpextensionlikes": "Необхідне розширення <code>flarum/likes</code>"
             },
@@ -22,8 +22,8 @@
             },
             "autoremove": [
                 "Ніколи не знімати кошти",
-                "Коли дискусію/допис приховано або відновлено (за налаштуванням)",
-                "Коли дискусія/допис видаляється"
+                "Коли обговорення/допис приховано або відновлено (за замовчуванням)",
+                "Коли обговорення/допис видаляється"
             ],
             "automoderator": {
                 "metric_name": "Кошти",
@@ -35,7 +35,7 @@
                 "money_button": "Редагувати кошти"
             },
             "modal": {
-                "title": "Кошти від {username}",
+                "title": "Кошти користувача {username}",
                 "current": "Поточний:",
                 "submit_button": "=> core.ref.save_changes"
             }
