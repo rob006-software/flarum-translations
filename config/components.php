@@ -388,7 +388,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/manticore/0.1.2/locale/en.yml',
 	],
 	'ernestdefoe-marginalia' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marginalia/v1.0.5/locale/en.yml',
 	],
 	'ernestdefoe-marquee' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/marquee/v1.20.2/locale/en.yml',
