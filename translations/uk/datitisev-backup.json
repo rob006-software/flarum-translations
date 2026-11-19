@@ -41,15 +41,15 @@
                         "description": "URL-адреса кінцевої точки вашого сховища."
                     },
                     "access-id": {
-                        "label": "Access ID",
-                        "description": "Ваша автентифікація ID токену доступу"
+                        "label": "Ідентифікатор доступу",
+                        "description": "ID токена доступу для автентифікації"
                     },
                     "access-key": {
-                        "label": "Access Key",
-                        "description": "Ваша автентифікація Ключ токену доступу"
+                        "label": "Ключ доступу",
+                        "description": "Ключ токена доступу для автентифікації"
                     },
                     "bucket": {
-                        "label": "Bucket",
+                        "label": "Бакет",
                         "description": "Сховище для використання."
                     },
                     "path-prefix": {
@@ -63,12 +63,12 @@
                         "description": ""
                     },
                     "container": {
-                        "label": "Container",
-                        "description": "Azure container"
+                        "label": "Контейнер",
+                        "description": "Контейнер Azure"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Префікс шляху",
+                        "description": "Необов'язковий префікс шляху за замовчуванням для файлів."
                     }
                 },
                 "aws": {
@@ -82,15 +82,15 @@
                     },
                     "region": {
                         "label": "Регіон",
-                        "description": "Регіон для bucket."
+                        "description": "Регіон вашого бакета."
                     },
                     "version": {
                         "label": "Версія",
                         "description": "Вкажіть версію або залиште порожнім для останньої."
                     },
                     "bucket": {
-                        "label": "Bucket",
-                        "description": "S3 bucket для завантаження."
+                        "label": "Бакет",
+                        "description": "Бакет S3 для завантаження."
                     },
                     "path-prefix": {
                         "label": "Префікс шляху",
@@ -99,38 +99,38 @@
                 },
                 "dropbox": {
                     "key": {
-                        "label": "App Key"
+                        "label": "Ключ застосунку"
                     },
                     "secret": {
-                        "label": "App Secret"
+                        "label": "Секрет застосунку"
                     },
                     "refresh-token": {
-                        "label": "Оновити токен",
+                        "label": "Токен оновлення",
                         "description": "Використовуйте поля нижче, щоб отримати токен оновлення, або дотримуйтесь інструкцій на сайті https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "Отримайте код доступу (потрібен app key)",
+                        "obtain-access-code-label": "Отримайте код доступу (потрібен ключ застосунку)",
                         "obtain-access-code-button": "Відкрити Dropbox",
-                        "obtain-refresh-token-label": "Використовуйте код доступу, щоб отримати токен оновлення (потрібен app key та secret)",
+                        "obtain-refresh-token-label": "Використайте код доступу, щоб отримати токен оновлення (потрібні ключ і секрет застосунку)",
                         "obtain-refresh-token-button": "Використати код",
-                        "obtain-refresh-token-success": "Оновлкний токен успішно отримано та оновлено вище! Збережіть зміни, щоб зберегти його."
+                        "obtain-refresh-token-success": "Токен оновлення успішно отримано й оновлено вище! Збережіть зміни, щоб зберегти його."
                     }
                 },
                 "gdrive": {
                     "client-id": {
                         "label": "Ідентифікатор клієнта",
-                        "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
+                        "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проєкт Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
                     },
                     "client-secret": {
                         "label": "Секрет клієнта",
                         "description": " "
                     },
                     "refresh-token": {
-                        "label": "Оновити токен",
+                        "label": "Токен оновлення",
                         "description": "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
                     },
                     "folder": {
-                        "label": "Folder ID",
+                        "label": "Ідентифікатор теки",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "use-display-paths": {
@@ -184,7 +184,7 @@
                     "root": "",
                     "timeout": "",
                     "port": {
-                        "label": "",
+                        "label": "Порт",
                         "description": ""
                     },
                     "private-key": {
