@@ -2,29 +2,29 @@
     "peopleinside-restricted-visibility": {
         "forum": {
             "badge": {
-                "discussion": "",
-                "posts": ""
+                "discussion": "Eingeschränkte Diskussion",
+                "posts": "{count, plural, one {# eingeschränkte Nachricht} other {# eingeschränkte Nachrichten}}"
             },
             "post": {
-                "restricted": "",
-                "restricted_to": "",
-                "discussion_restricted_to": "",
-                "discussion_restricted": "",
+                "restricted": "Eingeschränkt",
+                "restricted_to": "Eingeschränkt auf: {names}",
+                "discussion_restricted_to": "Diskussion eingeschränkt auf: {names}",
+                "discussion_restricted": "Eingeschränkte Diskussion",
                 "limited_by_discussion": ""
             },
             "composer": {
-                "button": ""
+                "button": "Wer das sehen kann"
             },
             "controls": {
-                "restrict": ""
+                "restrict": "Sichtbarkeit ändern…"
             },
             "modal": {
-                "title": "",
+                "title": "Wer das sehen kann",
                 "everyone": "",
-                "only_some": "",
-                "groups": "",
-                "users": "",
-                "search_placeholder": "",
+                "only_some": "Nur ausgewählte Gruppen oder Benutzer",
+                "groups": "Gruppen",
+                "users": "Benutzer",
+                "search_placeholder": "Benutzer suchen…",
                 "help": "",
                 "empty_error": "",
                 "orphaned": "",
