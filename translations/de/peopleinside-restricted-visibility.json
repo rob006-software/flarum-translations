@@ -3,11 +3,11 @@
         "forum": {
             "badge": {
                 "discussion": "Eingeschränkte Diskussion",
-                "posts": ""
+                "posts": "{count, plural, one {# eingeschränkte Nachricht} other {# eingeschränkte Nachrichten}}"
             },
             "post": {
-                "restricted": "",
-                "restricted_to": "",
+                "restricted": "Eingeschränkt",
+                "restricted_to": "Eingeschränkt auf: {names}",
                 "discussion_restricted_to": "",
                 "discussion_restricted": "",
                 "limited_by_discussion": ""
