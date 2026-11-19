@@ -51,7 +51,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade",
                 "preset_label": "Preset",
                 "preset_help": "The look every member gets unless they pick their own below. Facebook-style puts each discussion on its own card over a grey ground with a wide labelled engagement bar. X-style runs them as hairline-separated rows in a single column. Bluesky-style keeps the single column but insets the separators to the text, loosens the spacing and gives the actions pill hovers. All three share the same layout and settings; switching takes effect on the next page load.",
                 "allow_user_preset_label": "Let members choose their own",
@@ -70,7 +69,7 @@
                 "widget_trending_label": "Show the Trending widget",
                 "widget_trending_help": "Ranks tags by how many discussions they actually received in the last seven days, recomputed hourly. Needs flarum/tags; the widget hides itself without it.",
                 "engagement_bar_label": "Engagement bar",
-                "engagement_bar_help": "Auto shows Reply and Share on every row, and adds a reaction control on the discussion page when flarum/likes or fof/reactions is enabled. Cascade never ships reactions of its own, so with neither installed there is no reaction control to show.",
+                "engagement_bar_help": "Reply and Share on every feed row, plus a reaction control when fof/reactions is enabled. Auto and Always show both show the bar; Hide removes it from the feed.",
                 "engagement_bar_auto": "Auto",
                 "engagement_bar_on": "Always show",
                 "engagement_bar_off": "Hide"

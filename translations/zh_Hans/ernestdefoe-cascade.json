@@ -52,7 +52,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade",
                 "preset_label": "默认样式",
                 "preset_help": "设置默认外观。Facebook 风格会将每个讨论显示为独立卡片，置于灰色背景上，并配有宽幅互动栏；X 风格则以细分隔线将讨论排列为单列；Bluesky 风格同样使用单列，但分隔线会向正文内缩，间距更宽松，操作按钮悬停时以胶囊样式显示。三种样式使用相同的布局和设置，切换后刷新页面即可生效。",
                 "allow_user_preset_label": "允许个性化样式",
@@ -74,7 +73,8 @@
                 "engagement_bar_help": "「自动」会在每行显示「回复」和「分享」；启用 flarum/likes 或 fof/reactions 时，还会在讨论页添加戳表情功能。Cascade 本身不提供戳表情功能，因此两者均未安装时不会显示戳表情。",
                 "engagement_bar_auto": "自动",
                 "engagement_bar_on": "始终显示",
-                "engagement_bar_off": "隐藏"
+                "engagement_bar_off": "隐藏",
+                "title": "Cascade"
             }
         },
         "lib": {

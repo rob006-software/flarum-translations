@@ -41,6 +41,7 @@
                 "refresh_button": "Refresh now",
                 "refresh_done": "Network lists refreshed.",
                 "refresh_failed": "Couldn't refresh: {error}",
+                "refresh_slow": "no answer after four minutes. Are Flarum's queue worker or scheduler (php flarum schedule:run in cron) running?",
                 "apcu_on": "Rate counts are kept in APCu (shared memory).",
                 "apcu_off": "Rate counts are kept in Flarum's cache. With Redis that's fine; on the file cache, installing APCu makes them cheaper.",
                 "actions": {

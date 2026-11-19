@@ -12,6 +12,7 @@
             "confirm_revoke": "Revoke “{label}”? Any automation using it will stop immediately.",
             "copied": "Copied to clipboard.",
             "secret": "secret",
+            "token_once": "Copy this key now. For your security it is stored hashed and is never shown again.",
             "zapier_heading": "Automations powered by Zapier",
             "zapier_intro": "Connect your forum to 6,000+ apps — post new discussions to a Facebook Page, Slack, or Discord, add members to a mailing list, log activity to a spreadsheet, and more. Set it all up right here, no code needed.\n",
             "zapier_settings_btn": "Settings",
@@ -98,7 +99,8 @@
             }
         },
         "api": {
-            "untitled_rule": "Untitled rule"
+            "untitled_rule": "Untitled rule",
+            "invalid_pattern": "This \"matches\" pattern is not valid. Check it for a typo."
         }
     }
 }

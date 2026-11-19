@@ -52,7 +52,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade",
                 "preset_label": "Voreinstellung",
                 "preset_help": "So sieht die Ansicht für jedes Mitglied aus, sofern es nicht unten eine eigene Option auswählt. Im „Facebook-Stil“ wird jede Diskussion auf einer eigenen Karte vor grauem Hintergrund mit einer breiten, beschrifteten Interaktionsleiste dargestellt. Im „X-Stil“ werden sie als durch feine Linien getrennte Zeilen in einer einzigen Spalte angezeigt. Der „Bluesky-Stil“ behält die einzelne Spalte bei, fügt jedoch Trennlinien in den Text ein, lockert den Abstand und zeigt die Aktionen als Hover-Elemente an. Alle drei Stile haben das gleiche Layout und die gleichen Einstellungen; die Umstellung wird beim nächsten Laden der Seite wirksam.",
                 "allow_user_preset_label": "Lässt die Mitglieder selbst entscheiden",
@@ -74,7 +73,8 @@
                 "engagement_bar_help": "„Auto“ zeigt „Reply and Share“ in jeder Zeile an, und auf der Diskussionsseite wird ein Reaktionsfeld hinzugefügt, wenn „flarum/likes“ oder „fof/reactions“ aktiviert ist. „Cascade“ liefert keine eigenen Reaktionen mit, sodass bei fehlender Installation beider Module kein Reaktionsfeld angezeigt wird.",
                 "engagement_bar_auto": "Auto",
                 "engagement_bar_on": "Immer anzeigen",
-                "engagement_bar_off": "Verbergen"
+                "engagement_bar_off": "Verbergen",
+                "title": "Cascade"
             }
         },
         "lib": {

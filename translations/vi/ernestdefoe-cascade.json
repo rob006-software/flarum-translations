@@ -52,7 +52,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Cascade",
                 "preset_label": "Mẫu dựng sẵn",
                 "preset_help": "Giao diện mà mọi thành viên nhận được trừ khi họ tự chọn kiểu riêng bên dưới. Kiểu Facebook đặt mỗi cuộc thảo luận vào một thẻ riêng trên nền xám, kèm thanh tương tác rộng có nhãn. Kiểu X trình bày chúng thành các dòng ngăn cách bằng đường mảnh trong một cột duy nhất. Kiểu Bluesky vẫn giữ một cột nhưng thụt các đường ngăn cách vào ngang phần chữ, nới rộng khoảng cách và cho các nút thao tác hiệu ứng viên nang khi di chuột. Cả ba đều dùng chung bố cục và thiết lập; việc chuyển kiểu có hiệu lực ở lần tải trang kế tiếp.",
                 "allow_user_preset_label": "Cho phép thành viên tự chọn",
@@ -74,7 +73,8 @@
                 "engagement_bar_help": "Chế độ tự động sẽ hiển thị nút Trả lời và Chia sẻ trên mọi dòng, đồng thời thêm nút biểu cảm ở trang thảo luận khi flarum/likes hoặc fof/reactions đang bật. Cascade không tự đi kèm tính năng biểu cảm nào, nên nếu không cài tiện ích nào trong hai cái đó thì sẽ không có nút biểu cảm để hiển thị.",
                 "engagement_bar_auto": "Tự động",
                 "engagement_bar_on": "Luôn hiển thị",
-                "engagement_bar_off": "Ẩn"
+                "engagement_bar_off": "Ẩn",
+                "title": "Cascade"
             }
         },
         "lib": {

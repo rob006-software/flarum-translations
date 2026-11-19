@@ -145,7 +145,8 @@
                 "who": "Who picked what",
                 "hidden": "Picks stay hidden until it locks.",
                 "none": "Nobody has picked yet.",
-                "nobody": "Nobody picked this."
+                "nobody": "Nobody picked this.",
+                "more": "Show more"
             },
             "board": {
                 "season": "Season",
@@ -185,13 +186,12 @@
                 "predictions_bad_option": "Pick one of the choices.",
                 "predictions_bad_value": "Enter a number.",
                 "predictions_bad_title": "The question needs 3 to 150 characters.",
-                "predictions_bad_description": "The details can be up to 1,000 characters.",
                 "predictions_bad_type": "Choose a kind of prediction.",
                 "predictions_bad_options": "Give 2 to 12 different choices, each up to 80 characters.",
                 "predictions_bad_lock": "The lock time has to be in the future, and no more than two years away.",
-                "predictions_bad_unit": "The unit can be up to 24 characters.",
                 "predictions_bad_tolerance": "The range has to be a number, zero or more.",
                 "predictions_bad_discussion": "You can only add a prediction to your own discussion.",
+                "predictions_busy": "Someone else is changing this prediction right now. Try again in a moment.",
                 "predictions_frozen": "Others have picked, so only a moderator can change the question or whether picks are hidden.",
                 "predictions_season_over": "This prediction was settled in a season that has ended, so its result can't change.",
                 "predictions_lock_later": "Others have picked, so the lock can only move earlier. A moderator can move it later.",
@@ -212,6 +212,10 @@
                 "oracle_group": "Put Oracles in a group",
                 "oracle_group_help": "The season's Oracles join this group, and last season's leave it (members you added by hand stay).",
                 "oracle_group_none": "No group",
+                "min_pickers": "Picks needed to count",
+                "min_pickers_help": "A prediction counts toward the leaderboard once this many people, besides whoever settles it, have picked. Fewer and it can still be played, but nobody gets points.",
+                "daily_limit": "Predictions a member can open a day",
+                "daily_limit_help": "Moderators have no limit.",
                 "oracle_badge": "Give Oracles a badge",
                 "oracle_badge_help": "An \"Oracle\" badge from FoF Badges, kept for good. Made the first time; rename or recolor it in FoF Badges."
             },

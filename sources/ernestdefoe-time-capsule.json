@@ -185,11 +185,15 @@
                 "time_capsule_bad_photo": "One of the photos couldn't be read. Try a JPEG or PNG.",
                 "time_capsule_slow_down": "You've sealed a lot of letters today. Try again tomorrow.",
                 "time_capsule_too_many": "You have as many sealed letters as the forum allows. Wait for one to open, or delete one.",
-                "time_capsule_community_exists": "There's already a community capsule waiting to open.",
-                "time_capsule_bad_community": "Give it a name of at least 3 characters and a day in the future.",
                 "time_capsule_key_missing": "Letters can't be sealed right now: the forum's time capsule key is missing. Please let an admin know.",
-                "time_capsule_community_earlier": "Members have already written letters for that day, so it can only move later, not earlier."
+                "time_capsule_busy": "Your letter couldn't be sealed just now. Please try again in a moment."
             }
+        },
+        "api": {
+            "community_exists": "There's already a community capsule waiting to open.",
+            "community_open": "This community capsule has opened, so it can't be changed any more.",
+            "community_day": "Pick a day from tomorrow up to the forum's limit.",
+            "community_earlier": "Members have already written letters for that day, so it can only move later, not earlier."
         },
         "lib": {
             "discussion": {

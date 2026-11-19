@@ -12,6 +12,7 @@
             "confirm_revoke": "确定要撤销「{label}」吗？所有使用此密钥的自动化都会立即停止。",
             "copied": "已复制到剪贴板。",
             "secret": "签名密钥",
+            "token_once": "",
             "zapier_heading": "Zapier 自动化",
             "zapier_intro": "将论坛连接到 6,000+ 个应用：把新讨论发布到 Facebook 公共主页、Slack 或 Discord，将成员加入邮件列表，把活动记录到电子表格等等。无需编写代码，即可直接在这里完成配置。\n",
             "zapier_settings_btn": "设置",
@@ -98,7 +99,8 @@
             }
         },
         "api": {
-            "untitled_rule": ""
+            "untitled_rule": "",
+            "invalid_pattern": ""
         }
     }
 }

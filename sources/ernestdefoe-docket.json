@@ -4,7 +4,9 @@
             "closed": "Reopen this report first.",
             "assign_others": "You don't have permission to assign reports to other moderators.",
             "cannot_see": "That member can't see this report, so it can't be assigned to them.",
-            "cannot_restore": "Rejecting this report puts the post back, and you don't have permission to restore it."
+            "cannot_restore": "Rejecting this report puts the post back, and you don't have permission to restore it.",
+            "busy": "Someone else is changing this report right now. Try again in a moment.",
+            "reopen_active": "This post has a newer open report. Work on that one instead."
         },
         "email": {
             "assigned": {
@@ -177,6 +179,8 @@
                 "crowd_held_staff": "{people} members reported it, enough to hide it, but the author is staff: left for you",
                 "crowd_held_exempt": "{people} members reported it, enough to hide it, but the author's group is exempt: left for you",
                 "crowd_held_cooldown": "{people} members reported it, enough to hide it, but it was restored recently: left for you",
+                "merged": "Merged into report #{id}, which was open on the same post",
+                "crowd_moved": "Hidden instead: Approval was disabled while the post waited for it",
                 "crowd_restored": "{actor} restored what the reports hid; it counts against the people who reported it"
             },
             "crowd": {

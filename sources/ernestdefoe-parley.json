@@ -334,7 +334,6 @@
         "api": {
             "empty_message": "Type a message first.",
             "unknown_reaction": "Unknown reaction.",
-            "no_image": "No image was sent.",
             "too_long": "A message can be at most {max} characters.",
             "upload_failed": "The picture did not upload. Try again.",
             "image_too_big": "That picture is larger than {max} MB.",
@@ -348,13 +347,14 @@
             "forward_where": "Pick at least one conversation to forward it to.",
             "unknown_label": "Unknown label.",
             "too_many_pins": "A conversation can have at most {max} pinned messages. Unpin one first.",
+            "already_reported": "You have already reported this message. A moderator will look at it.",
             "group_too_small": "Pick at least two people to start a group.",
             "group_too_big": "A group can have at most {max} people.",
             "group_flood": "You have started a lot of groups in the last hour. Try again later.",
             "group_name": "A group name can be at most {max} characters.",
             "group_photo_type": "Use a PNG, JPEG, WebP or GIF picture of up to {max} MB.",
             "room_name": "Give the room a name of up to 80 characters.",
-            "room_image_type": "Use a PNG, JPEG, WebP or GIF image of up to 5 MB.",
+            "room_image_type": "Use a PNG, JPEG, WebP or GIF image of up to {max} MB.",
             "refusal": {
                 "room_hidden": "That room is not open to you.",
                 "room_archived": "That room has been archived.",
