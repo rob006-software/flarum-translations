@@ -2,8 +2,8 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "Вимога щодо обходу",
-                "bypass_reply_label": "Вимога щодо обходу відповіді"
+                "bypass_like_label": "Обходити вимогу вподобати",
+                "bypass_reply_label": "Обходити вимогу відповісти"
             }
         },
         "forum": {
@@ -11,9 +11,9 @@
             "must_liked": "Ви повинні вподобати цей контент, щоб переглянути його",
             "must_replied": "Ви повинні відповісти на цей вміст, щоб переглянути його",
             "composer": {
-                "hide_login_tooltip": "",
-                "hide_like_tooltip": "",
-                "hide_reply_tooltip": ""
+                "hide_login_tooltip": "Приховати від гостей",
+                "hide_like_tooltip": "Приховати до вподобання",
+                "hide_reply_tooltip": "Приховати до відповіді"
             }
         }
     }
