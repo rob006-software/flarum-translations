@@ -358,7 +358,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kindred/1.0.5/locale/en.yml',
 	],
 	'ernestdefoe-kiosk' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kiosk/1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kiosk/1.4.0/locale/en.yml',
 	],
 	'ernestdefoe-kudos' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/kudos/1.0.0/locale/en.yml',
