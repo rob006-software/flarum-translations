@@ -2,44 +2,44 @@
     "captchala-flarum": {
         "admin": {
             "settings": {
-                "app_key_label": "",
-                "app_key_help": "",
-                "app_secret_label": "",
-                "app_secret_help": "",
-                "product_label": "",
-                "product_help": "",
+                "app_key_label": "Ключ застосунку",
+                "app_key_help": "Обов’язковий ключ із панелі керування CaptchaLa на <a>dash.captcha.la</a>.",
+                "app_secret_label": "Секрет застосунку",
+                "app_secret_help": "Використовується лише на сервері. Не передавайте його до браузера.",
+                "product_label": "Режим віджета",
+                "product_help": "Доступні режими bind, popup, float та embed. Режим bind прив’язує віджет до кнопки надсилання.",
                 "product_options": {
-                    "bind": "",
-                    "popup": "",
-                    "float": "",
-                    "embed": ""
+                    "bind": "Прив’язати до кнопки надсилання",
+                    "popup": "Діалогове вікно",
+                    "float": "Рухомий віджет",
+                    "embed": "Вбудований віджет"
                 },
                 "lang_label": "Мова",
-                "lang_help": "",
+                "lang_help": "Мовний тег BCP-47, наприклад ja або pt-BR. Значення 'auto' використовує мову браузера відвідувача.",
                 "signup": "=> core.forum.sign_up.title",
                 "signin": "=> core.forum.log_in.title",
                 "forgot": "=> core.forum.forgot_password.title",
-                "post": ""
+                "post": "Захищати нові обговорення й відповіді"
             },
             "test": {
                 "title": "Перевірити підключення",
-                "help_text": "",
+                "help_text": "Перевіряє, чи працює підключення до сервера CaptchaLa\nзі збереженими ключем і секретом застосунку. Перед перевіркою збережіть зміни.\n",
                 "button": "Перевірити підключення",
-                "success": "",
-                "failure": ""
+                "success": "Підключення встановлено.",
+                "failure": "Не вдалося підключитися: {reason}"
             }
         },
         "lib": {
-            "not_completed": "",
-            "error": "",
-            "rejected": "",
-            "unknown_error": ""
+            "not_completed": "Пройдіть CAPTCHA, щоб продовжити.",
+            "error": "Під час перевірки CAPTCHA сталася помилка. Спробуйте ще раз.",
+            "rejected": "Перевірку CAPTCHA не пройдено. Спробуйте ще раз.",
+            "unknown_error": "Сталася невідома помилка. Спробуйте ще раз."
         },
         "forum": {
-            "powered_by": ""
+            "powered_by": "Захищено CaptchaLa"
         }
     },
     "validation": {
-        "captchala": ""
+        "captchala": "Перевірку CAPTCHA не пройдено."
     }
 }
