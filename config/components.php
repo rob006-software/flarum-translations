@@ -201,7 +201,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bingo/1.0.0/locale/en.yml',
 	],
 	'ernestdefoe-bouncer' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/bouncer/1.0.3/resources/locale/en.yml',
 	],
 	'ernestdefoe-brainstorm' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/brainstorm/1.1.2/locale/en.yml',
