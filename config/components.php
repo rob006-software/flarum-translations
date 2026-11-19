@@ -322,7 +322,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hangout/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-hashtags' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/hashtags/2.2.0/locale/en.yml',
 	],
 	'ernestdefoe-header-nav' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/header-nav/1.8.3/locale/en.yml',
