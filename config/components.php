@@ -439,7 +439,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/pigeonhole/v1.1.3/locale/en.yml',
 	],
 	'ernestdefoe-predictions' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/predictions/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/predictions/1.1.0/locale/en.yml',
 	],
 	'ernestdefoe-projects' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/projects/v1.6.2/resources/locale/en.yml',
