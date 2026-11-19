@@ -1360,9 +1360,7 @@ return [
 	],
 	'm4v3rick4git-lineup' => [
 		'tag' => 'https://raw.githubusercontent.com/m4v3rick4git/flarum-lineup/v0.1.5/locale/en.yml',
-		'__builtInLanguages' => [
-			'de',
-		],
+		'__builtInLanguages' => ['de'],
 	],
 	'madeyedeer-avatar-tools' => [
 		'tag' => 'https://raw.githubusercontent.com/MadEyeDeer/avatar-tools/v0.1.1/locale/en.yml',
