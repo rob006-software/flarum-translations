@@ -8,12 +8,12 @@
             "settings": {
                 "min_age_help": "Мінімальний вік учасників. Перевіряється щоразу під час збереження дати народження. Установіть 0, щоб відхиляти лише майбутні дати.",
                 "min_age_label": "Мінімальний вік",
-                "sign_up_help": "",
-                "sign_up_label": "",
+                "sign_up_help": "Чи запитувати дату народження у формі реєстрації.",
+                "sign_up_label": "Дата народження під час реєстрації",
                 "sign_up_options": {
-                    "off": "",
-                    "optional": "",
-                    "required": ""
+                    "off": "Не запитувати",
+                    "optional": "Запитувати, необов’язково",
+                    "required": "Запитувати, обов’язково"
                 },
                 "set_on_registration_label": "Дозволити встановлювати день народження при реєстрації",
                 "required_label": "Обов'язкове введення дня народження",
@@ -23,41 +23,41 @@
                 "date_none_year_label": "Формат дати без року"
             },
             "users": {
-                "birthday_column": "",
-                "no_birthday": ""
+                "birthday_column": "=> datlechin-birthdays.lib.birthday_label",
+                "no_birthday": "Не вказано"
             }
         },
         "forum": {
             "badge": {
-                "birthday_tooltip": ""
+                "birthday_tooltip": "Сьогодні день народження"
             },
             "change_birthday": {
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "=> datlechin-birthdays.forum.settings.change_birthday_button"
             },
             "nav": {
-                "birthdays_link": "",
+                "birthdays_link": "=> datlechin-birthdays.forum.page.title",
                 "nav_item": "Сьогоднішні іменинники"
             },
             "notifications": {
-                "birthday_text": ""
+                "birthday_text": "З днем народження від усієї спільноти {forum}!"
             },
             "page": {
-                "empty_text": "",
+                "empty_text": "У найближчі сім днів днів народження немає.",
                 "load_more_button": "=> core.ref.load_more",
-                "title": "",
+                "title": "Дні народження",
                 "today_heading": "Сьогодні",
-                "tomorrow_heading": "",
-                "turns_text": "",
+                "tomorrow_heading": "Завтра",
+                "turns_text": "Виповнюється {age}",
                 "discussion_count": "{count, plural, one {Дискусія: #} other {Дискусії: #}}",
                 "post_count": "{count, plural, one {Допис: #} other {Дописи: #}}"
             },
             "settings": {
-                "add_birthday_button": "",
-                "change_birthday_button": "",
-                "notify_birthday_label": "",
-                "show_age_label": "",
-                "show_birthday_label": "",
+                "add_birthday_button": "Додати дату народження",
+                "change_birthday_button": "Змінити дату народження",
+                "notify_birthday_label": "Вітати мене з днем народження",
+                "show_age_label": "Показувати мій вік у профілі",
+                "show_birthday_label": "Показувати мою дату народження в профілі",
                 "change_dob_label": "Змінити дату дня народження",
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Показати день і місяць народження",
@@ -65,9 +65,9 @@
                 "show_dob_year_help": "Це дозволить людям побачити ваш вік."
             },
             "user_card": {
-                "age_text": "",
-                "birthday_and_age_text": "",
-                "birthday_text": ""
+                "age_text": "Вік: {age}",
+                "birthday_and_age_text": "Дата народження: {date}, вік: {age}",
+                "birthday_text": "Дата народження: {date}"
             },
             "user": {
                 "birthday_text": "День народження: {date}",
@@ -83,18 +83,18 @@
             }
         },
         "api": {
-            "future_birthday_message": "",
-            "invalid_birthday_filter_message": "",
-            "min_age_message": "",
+            "future_birthday_message": "Дата народження не може бути в майбутньому.",
+            "invalid_birthday_filter_message": "Для фільтра за датою народження вкажіть дату або діапазон до {max} дн., наприклад 2026-06-05..2026-06-11.",
+            "min_age_message": "Мінімальний дозволений вік: {age}.",
             "invalid_dob_message": "Невірна дата народження",
             "invalid_age_message": "Ваш вік повинен бути не менше {minAge} років."
         },
         "lib": {
-            "birthday_label": "",
+            "birthday_label": "Дата народження",
             "datetime_formats": {
-                "birthday": "",
-                "birthdayWithYear": "",
-                "day": ""
+                "birthday": "MMMM D",
+                "birthdayWithYear": "LL",
+                "day": "dddd, MMMM D"
             }
         },
         "ref": {

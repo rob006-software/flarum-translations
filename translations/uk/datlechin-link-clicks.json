@@ -1,32 +1,32 @@
 {
     "datlechin-link-clicks": {
         "forum": {
-            "link_aria_label": "",
-            "link_tooltip": "",
-            "popular_links_title": "",
-            "user_popular_links_title": "",
-            "confirm_external": "",
-            "trending_title": "",
+            "link_aria_label": "{count, plural, one{Відвідувачів, які відкрили посилання:} other{Відвідувачів, які відкрили посилання:}} {count}",
+            "link_tooltip": "{count, plural, one{Кількість тих, хто відкрив посилання: #} other{Кількість тих, хто відкрив посилання: #}}",
+            "popular_links_title": "Популярні посилання",
+            "user_popular_links_title": "Посилання з найбільшою кількістю переходів",
+            "confirm_external": "Ви збираєтеся залишити форум. Продовжити?",
+            "trending_title": "Популярні хештеги",
             "settings": {
-                "opt_out_label": "",
-                "opt_out_help": "",
-                "opt_out_save_failed": ""
+                "opt_out_label": "Не враховувати мої переходи за посиланнями",
+                "opt_out_help": "Посилання відкриватимуться як завжди. Ваші переходи не враховуватимуться в статистиці.",
+                "opt_out_save_failed": "Не вдалося зберегти налаштування. Спробуйте ще раз."
             },
             "post_controls": {
-                "disable_tracking": "",
-                "enable_tracking": "",
-                "toggle_failed": ""
+                "disable_tracking": "Не враховувати переходи з цього допису",
+                "enable_tracking": "Враховувати переходи з цього допису",
+                "toggle_failed": "Не вдалося оновити налаштування відстеження для цього допису."
             },
             "discussion_controls": {
-                "click_stats": ""
+                "click_stats": "Статистика переходів"
             },
             "discussion_stats": {
-                "title": "",
+                "title": "Статистика переходів: {title}",
                 "column_url": "Посилання",
                 "column_total": "Натискання",
-                "column_unique": "",
-                "column_last": "",
-                "empty": ""
+                "column_unique": "Відвідувачі",
+                "column_last": "Останній перехід",
+                "empty": "Для посилань у цьому обговоренні ще не зафіксовано переходів."
             }
         },
         "admin": {
@@ -36,142 +36,142 @@
                 "webhook": "Вебхук"
             },
             "permissions": {
-                "view_analytics_label": ""
+                "view_analytics_label": "Переглядати аналітику переходів за посиланнями"
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "track_internal_label": "",
-                "track_internal_help": "",
-                "open_new_window_label": "",
-                "open_new_window_help": "",
-                "honor_dnt_label": "",
-                "honor_dnt_help": "",
-                "skip_guests_label": "",
-                "skip_guests_help": "",
-                "min_display_label": "",
-                "min_display_help": "",
-                "dedup_window_label": "",
-                "dedup_window_help": "",
-                "retention_label": "",
-                "retention_help": "",
-                "bot_ua_label": "",
-                "bot_ua_help": "",
-                "bot_ua_placeholder": "",
-                "tracking_params_label": "",
-                "tracking_params_help": "",
-                "tracking_params_placeholder": "",
-                "attachment_prefixes_label": "",
-                "attachment_prefixes_help": "",
-                "domain_blocklist_label": "",
-                "domain_blocklist_help": "",
-                "confirm_external_label": "",
-                "confirm_external_help": "",
-                "track_tag_mentions_label": "",
-                "track_tag_mentions_help": "",
-                "track_user_mentions_label": "",
-                "track_user_mentions_help": "",
-                "track_post_mentions_label": "",
-                "track_post_mentions_help": "",
-                "trending_enabled_label": "",
-                "trending_enabled_help": "",
-                "trending_min_clicks_label": "",
-                "trending_min_clicks_help": "",
-                "digest_enabled_label": "",
-                "digest_enabled_help": "",
-                "webhook_enabled_label": "",
-                "webhook_enabled_help": "",
+                "enabled_label": "Відстежувати переходи за посиланнями",
+                "enabled_help": "Загальний перемикач. Якщо вимкнено, посилання не змінюються, а переходи не записуються.",
+                "track_internal_label": "Відстежувати посилання на цей форум",
+                "track_internal_help": "Вимкніть, щоб враховувати лише переходи на зовнішні ресурси.",
+                "open_new_window_label": "Відкривати посилання в новому вікні",
+                "open_new_window_help": "До відстежуваних посилань додається target=\"_blank\", щоб вони відкривалися в новій вкладці. Якщо вимкнено, вони відкриваються в поточній вкладці.",
+                "honor_dnt_label": "Враховувати Do Not Track",
+                "honor_dnt_help": "Не записувати переходи, якщо запит містить DNT: 1.",
+                "skip_guests_label": "Не відстежувати гостей",
+                "skip_guests_help": "Враховувати лише переходи користувачів, які ввійшли. Для гостей переспрямування працює, але перехід не записується.",
+                "min_display_label": "Мінімальна кількість переходів для показу позначки",
+                "min_display_help": "Приховувати позначку, якщо переходів менше за це число.",
+                "dedup_window_label": "Період об’єднання повторних переходів (години)",
+                "dedup_window_help": "У цей період перехід одного користувача за певним посиланням враховується лише один раз.",
+                "retention_label": "Строк зберігання подій (дні)",
+                "retention_help": "Щоденне завдання видаляє записи link_click_events, старші за цей строк. Укажіть 0, щоб зберігати події безстроково.",
+                "bot_ua_label": "Додаткові фрагменти User-Agent ботів",
+                "bot_ua_help": "По одному фрагменту в рядку. Запит вважається зробленим ботом, якщо User-Agent містить один із цих фрагментів, незалежно від регістру. Вбудоване розпізнавання ботів працює завжди, а цей список його доповнює.",
+                "bot_ua_placeholder": "Googlebot\nMJ12bot\nAhrefsBot",
+                "tracking_params_label": "Додаткові параметри відстеження для вилучення",
+                "tracking_params_help": "По одному шаблону в рядку. Параметри вилучаються з URL-адрес перед об’єднанням повторів, щоб варіанти з мітками UTM враховувалися як одне посилання. Символ * у кінці позначає збіг за префіксом (наприклад, utm_*). Типовий список уже містить utm_*, fbclid, gclid, mc_cid, igshid, _ga та інші параметри.",
+                "tracking_params_placeholder": "ref_url\nyclid\ncustom_param",
+                "attachment_prefixes_label": "Додаткові префікси шляхів до вкладень",
+                "attachment_prefixes_help": "URL-адреси на хості форуму зі шляхом, що починається з одного із цих префіксів, відстежуються навіть за вимкненого відстеження внутрішніх посилань. Префікс /assets/files/ вбудовано для типового сховища Flarum. Додайте власні префікси, якщо використовуєте fof/upload або власний шлях CDN.",
+                "domain_blocklist_label": "Блокувати домени",
+                "domain_blocklist_help": "Хости, які слід ігнорувати. Указуйте по одному в рядку. Використовуйте *.example.com для всіх піддоменів. Для дописів із посиланнями на ці хости позначки не показуються, а переходи не записуються.",
+                "confirm_external_label": "Підтверджувати вихід із форуму",
+                "confirm_external_help": "Показувати вікно підтвердження браузера під час переходу за зовнішнім посиланням. Типово вимкнено.",
+                "track_tag_mentions_label": "Враховувати переходи за #хештегами",
+                "track_tag_mentions_help": "Посилання #хештег веде на сторінку відповідного тегу. Переходи за хештегами враховуватимуться в тих самих звітах, що й інші переходи.",
+                "track_user_mentions_label": "Враховувати переходи за @згадками",
+                "track_user_mentions_help": "Підраховує читачів, які переходять за @username до профілю згаданого користувача.",
+                "track_post_mentions_label": "Враховувати переходи за згадками дописів",
+                "track_post_mentions_help": "Підраховує читачів, які переходять за посиланням у цитаті або відповіді до вихідного допису.",
+                "trending_enabled_label": "Показувати популярні хештеги на головній сторінці",
+                "trending_enabled_help": "Упорядковує хештеги за тим, наскільки частота переходів перевищує їхню власну середню частоту за тиждень.",
+                "trending_min_clicks_label": "Мінімум переходів для потрапляння в популярні",
+                "trending_min_clicks_help": "Якщо за останній врахований день переходів менше за це число, хештег не потрапить до популярних за жодного зростання.",
+                "digest_enabled_label": "Надсилати адміністраторам щотижневий звіт",
+                "digest_enabled_help": "Щопонеділка вранці надсилати всім адміністраторам текстовий підсумок переходів за минулий тиждень. Типово вимкнено.",
+                "webhook_enabled_label": "Увімкнути вебхук",
+                "webhook_enabled_help": "Надсилати кожен зафіксований перехід через чергу як запит POST із даними JSON на зовнішню URL-адресу.",
                 "webhook_url_label": "URL вебхука",
-                "webhook_url_help": "",
-                "webhook_secret_label": "",
-                "webhook_secret_help": "",
-                "webhook_test_button": "",
-                "webhook_test_ok": "",
-                "webhook_test_failed": ""
+                "webhook_url_help": "Адреса, на яку надсилати дані JSON.",
+                "webhook_secret_label": "Секрет вебхука",
+                "webhook_secret_help": "Якщо вказано секрет, тіло запиту підписується за допомогою HMAC-SHA256, а підпис надсилається в заголовку X-LinkClicks-Signature у форматі sha256=HEX_DIGEST. Одержувачі перевіряють підпис, обчислюючи його з тим самим секретом.",
+                "webhook_test_button": "Надіслати тестовий запит",
+                "webhook_test_ok": "Вебхук відповів кодом HTTP {status}.",
+                "webhook_test_failed": "Не вдалося перевірити вебхук: {detail}"
             },
             "tags": {
-                "disable_tracking_label": "",
-                "disable_tracking_help": ""
+                "disable_tracking_label": "Вимкнути відстеження переходів для цього тегу",
+                "disable_tracking_help": "Посилання в дописах усіх обговорень із цим тегом не відстежуватимуться. Наявні лічильники збережуться."
             },
             "analytics": {
-                "title": "",
-                "since": "",
-                "until": "",
-                "scope": "",
-                "scope_all": "",
-                "scope_external": "",
-                "scope_internal": "",
-                "scope_attachments": "",
+                "title": "Аналітика переходів",
+                "since": "Від",
+                "until": "До",
+                "scope": "Обсяг",
+                "scope_all": "Усі посилання",
+                "scope_external": "Лише зовнішні",
+                "scope_internal": "Лише внутрішні",
+                "scope_attachments": "Лише вкладення",
                 "tag": "Тег",
-                "tag_placeholder": "",
-                "attachment_label": "",
-                "internal_label": "",
-                "external_label": "",
+                "tag_placeholder": "tag-slug (необов’язково)",
+                "attachment_label": "Вкладення",
+                "internal_label": "Внутрішнє",
+                "external_label": "Зовнішнє",
                 "column_url": "Посилання",
                 "column_total": "Натискання",
-                "column_unique": "",
-                "column_first": "",
-                "column_last": "",
-                "empty": "",
+                "column_unique": "Унікальні відвідувачі",
+                "column_first": "Перший перехід",
+                "column_last": "Останній перехід",
+                "empty": "За вибраний період переходів немає.",
                 "export_csv": "Експортувати CSV",
-                "drilldown_tooltip": ""
+                "drilldown_tooltip": "Натисніть, щоб побачити, хто перейшов за посиланням"
             },
             "clickers": {
-                "title": "",
-                "column_who": "",
+                "title": "Хто перейшов за цим посиланням",
+                "column_who": "Хто",
                 "column_clicks": "Натискання",
-                "column_first": "",
-                "column_last": "",
-                "guest": "",
-                "anonymized": "",
-                "empty": "",
-                "view_trail_tooltip": ""
+                "column_first": "Перший перехід",
+                "column_last": "Останній перехід",
+                "guest": "Гість",
+                "anonymized": "Анонімізовано",
+                "empty": "За цим посиланням немає врахованих переходів.",
+                "view_trail_tooltip": "Показати переходи цього користувача"
             },
             "click_trail": {
-                "title": "",
+                "title": "Історія переходів користувача {name}",
                 "column_link": "Посилання",
-                "column_when": "",
-                "empty": ""
+                "column_when": "Коли",
+                "empty": "Для цього користувача немає врахованих переходів."
             },
             "domains": {
-                "title": "",
-                "column_domain": "",
-                "column_urls": ""
+                "title": "Найпопулярніші домени за останні 30 днів",
+                "column_domain": "Домен",
+                "column_urls": "URL-адреси"
             },
             "devices": {
-                "title": "",
-                "devices_label": "",
-                "browsers_label": "",
+                "title": "Джерела переходів за останні 30 днів",
+                "devices_label": "За пристроєм",
+                "browsers_label": "За браузером",
                 "devices": {
-                    "mobile": "",
-                    "tablet": "",
-                    "desktop": ""
+                    "mobile": "Телефон",
+                    "tablet": "Планшет",
+                    "desktop": "Комп’ютер"
                 },
                 "browsers": {
-                    "chrome": "",
-                    "firefox": "",
-                    "safari": "",
-                    "edge": "",
-                    "opera": "",
-                    "samsung": "",
+                    "chrome": "Chrome",
+                    "firefox": "Firefox",
+                    "safari": "Safari",
+                    "edge": "Edge",
+                    "opera": "Opera",
+                    "samsung": "Samsung Internet",
                     "other": "Інше"
                 }
             },
             "heatmap": {
-                "title": "",
-                "lead": ""
+                "title": "Теплова карта переходів за останні 30 днів",
+                "lead": "Кожна клітинка відповідає одній годині одного дня. Темніший колір означає більше переходів."
             },
             "timeseries": {
-                "title": "",
-                "total_clicks": "",
-                "avg_per_day": "",
-                "peak_day": ""
+                "title": "Переходи за днями",
+                "total_clicks": "усього",
+                "avg_per_day": "у середньому за день",
+                "peak_day": "день із найбільшою кількістю переходів"
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "Усі зафіксовані переходи цього користувача за посиланнями.",
+            "anonymize_description": "Вилучає user_id та ip_address з кожної події переходу цього користувача.",
+            "delete_description": "Видаляє всі зафіксовані події переходу цього користувача."
         }
     }
 }
