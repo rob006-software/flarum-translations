@@ -1455,7 +1455,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/2.0.5/locale/en.yml',
 	],
 	'peopleinside-fla-powcaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/3.10.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/PeopleInside/fla-powcaptcha/30.10.2/locale/en.yml',
 		'__builtInLanguages' => ['it'],
 	],
 	'peruguitar-user-portrait' => [
