@@ -988,7 +988,7 @@ return [
 		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
 	'glowingblue-date-filters' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/2.0.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-date-filters/2.0.4/resources/locale/en.yml',
 		'__builtInLanguages' => ['de', 'es', 'fr', 'it'],
 	],
 	'glowingblue-password-strength' => [
