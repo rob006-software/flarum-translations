@@ -1,70 +1,70 @@
 {
     "acpl-mobile-tab": {
         "admin": {
-            "available_items": "",
-            "available_items_help": "",
-            "create_new_item_button": "",
+            "available_items": "Доступні елементи",
+            "available_items_help": "Щоб додати елемент до мобільної панелі, перетягніть його з цього списку до потрібного варіанта.",
+            "create_new_item_button": "Створити елемент",
             "edit_item": {
-                "modal_title": "",
-                "help": "",
-                "label": "",
-                "label_placeholder": "",
-                "path": "",
-                "url": "",
+                "modal_title": "Редагувати елемент",
+                "help": "Потрібно більше, ніж посилання? Перегляньте <a>документацію для розробників</a> про власні елементи та їхню поведінку.",
+                "label": "Підпис",
+                "label_placeholder": "Мій елемент",
+                "path": "Шлях",
+                "url": "URL-адреса",
                 "url_help": {
-                    "internal": "",
-                    "external": ""
+                    "internal": "Частина адреси після {baseUrl}, яка починається зі скісної риски.",
+                    "external": "Повна адреса разом із <code>https://</code>."
                 },
                 "icon": "Значок",
-                "icon_help": "",
+                "icon_help": "Введіть назву класу значка <a>FontAwesome</a> разом із префіксом <code>fas fa-</code>.",
                 "type": {
-                    "heading": "",
+                    "heading": "Дія посилання",
                     "internal": {
-                        "label": "",
-                        "help": ""
+                        "label": "Відкриває сторінку цього форуму",
+                        "help": "Відкривається без перезавантаження сторінки."
                     },
                     "external": {
-                        "label": "",
-                        "help": ""
+                        "label": "Відкриває інший сайт",
+                        "help": "Відкриває адресу за межами цього форуму."
                     }
                 },
-                "open_new_tab_checkbox": "",
+                "open_new_tab_checkbox": "Відкривати посилання в новій вкладці",
                 "submit_button": "Зберегти",
                 "delete_button": "Видалити",
-                "delete_item_confirmation": ""
+                "delete_item_confirmation": "Видалити цей елемент?"
             },
             "variants": {
-                "heading": "",
-                "empty_help": "",
-                "help": "",
-                "number": "",
+                "heading": "Варіанти мобільної панелі",
+                "empty_help": "Перетягніть сюди елементи, які потрібно додати до цього варіанта.",
+                "help": "Варіанти перевіряються згори вниз. Користувачі бачать перший увімкнений варіант, який мають право переглядати. Розташуйте варіанти для конкретніших ролей вище, наприклад №1 — адміністратори, №2 — модератори, №3 — учасники, №4 — усі. Залиште варіант порожнім, щоб повністю приховати панель для вибраних груп.",
+                "number": "#{number}",
                 "enabled": "Увімкнено",
-                "visible_to": "",
-                "reorder": "",
-                "delete": "",
-                "delete_confirmation": "",
-                "create": ""
+                "visible_to": "Видимість для груп",
+                "reorder": "Змінити порядок варіанта",
+                "delete": "Видалити варіант",
+                "delete_confirmation": "Видалити цей варіант? Цю дію неможливо скасувати.",
+                "create": "Створити варіант"
             },
             "scroll_settings": {
-                "toggle_label": "",
-                "threshold_label": "",
-                "threshold_help": ""
+                "toggle_label": "Змінювати видимість під час прокручування",
+                "threshold_label": "Поріг прокручування (пкс)",
+                "threshold_help": "Відстань від поточної позиції прокручування, після якої видимість змінюється."
             }
         },
         "lib": {
             "item": {
                 "home": "Головна",
                 "all_discussions": "Обговорення",
-                "new_discussion": "",
+                "new_discussion": "Нове обговорення",
                 "notifications": "Сповіщення",
-                "session": "",
+                "session": "Сеанс",
                 "search": "Пошук",
-                "log_in": "",
+                "log_in": "Увійти",
                 "profile": "Профіль",
                 "tags": "Теги",
                 "messages": "Повідомлення",
-                "flags": "",
-                "fof-byobu": "",
+                "flags": "Скарги",
+                "fof-byobu": "Приватні обговорення",
                 "ramon-chat": "Чат"
             }
         }
