@@ -1,18 +1,18 @@
 {
     "datlechin-placements": {
         "admin": {
-            "save": "",
+            "save": "Зберегти",
             "tabs": {
                 "campaigns": "",
                 "review": "",
                 "slots": "",
                 "reports": "",
                 "advertisers": "",
-                "settings": ""
+                "settings": "Налаштування"
             },
             "lists": {
                 "any": "",
-                "actions": "",
+                "actions": "Дії",
                 "sort_by": "",
                 "no_matches": ""
             },
@@ -28,15 +28,15 @@
                 "open": ""
             },
             "review": {
-                "title": "",
+                "title": "Очікує на перевірку",
                 "help": "",
                 "none": "",
                 "from": "",
-                "approve": "",
-                "reject": "",
+                "approve": "Схвалити",
+                "reject": "Відхилити",
                 "edit_reason": "",
                 "confirm_reject": "",
-                "cancel": "",
+                "cancel": "Скасувати",
                 "reason_placeholder": ""
             },
             "campaigns": {
@@ -65,12 +65,12 @@
                     "member": ""
                 },
                 "name_label": "",
-                "status_label": "",
+                "status_label": "Статус",
                 "advertiser_label": "",
-                "tier_label": "",
+                "tier_label": "Пріоритет",
                 "flight_label": "",
                 "impressions_label": "",
-                "clicks_label": "",
+                "clicks_label": "Натискання",
                 "tab_identity": "",
                 "tab_schedule": "",
                 "tab_delivery": "",
@@ -86,17 +86,17 @@
                     "flat": "",
                     "barter": ""
                 },
-                "rate_amount": "",
+                "rate_amount": "Сума",
                 "rate_amount_help": "",
                 "rate_currency": "",
                 "contract_notes": "",
                 "name": "",
-                "status": "",
+                "status": "Статус",
                 "advertiser": "",
                 "advertiser_help": "",
-                "no_advertiser": "",
+                "no_advertiser": "—",
                 "status_help": "",
-                "tier": "",
+                "tier": "Пріоритет",
                 "tier_help": "",
                 "is_house": "",
                 "is_house_help": "",
@@ -117,7 +117,7 @@
                 },
                 "pacing_help": "",
                 "statuses": {
-                    "draft": "",
+                    "draft": "Чернетка",
                     "scheduled": "",
                     "active": "",
                     "paused": "",
@@ -148,14 +148,14 @@
                 "contact_label": "",
                 "link_label": "",
                 "campaigns_label": "",
-                "no_contact": "",
-                "no_link": "",
+                "no_contact": "—",
+                "no_link": "—",
                 "view_campaigns": "",
                 "user": "",
                 "user_help": "",
                 "link_user": "",
                 "unlink_user": "",
-                "copy_link": "",
+                "copy_link": "Копіювати",
                 "copied": "",
                 "copy_failed": "",
                 "report_link": "",
@@ -172,20 +172,20 @@
                 "edit": "",
                 "none": "",
                 "unassigned": "",
-                "delete": "",
+                "delete": "Видалити",
                 "delete_confirm": "",
-                "preview": "",
+                "preview": "Попередній перегляд",
                 "preview_empty": "",
                 "preview_unknown_type": "",
                 "name_label": "",
-                "type_label": "",
-                "status_label": "",
+                "type_label": "Тип",
+                "status_label": "Статус",
                 "slots_label": "",
-                "tab_details": "",
-                "tab_content": "",
+                "tab_details": "Подробиці",
+                "tab_content": "Вміст",
                 "tab_slots": "",
                 "tab_advanced": "",
-                "tab_preview": "",
+                "tab_preview": "Попередній перегляд",
                 "attribute_not_allowed": "",
                 "label_override": "",
                 "label_override_placeholder": "",
@@ -193,14 +193,14 @@
                 "variant_group": "",
                 "variant_group_help": "",
                 "name": "",
-                "type": "",
-                "weight": "",
+                "type": "Тип",
+                "weight": "Поділитися",
                 "weight_help": "",
-                "status": "",
+                "status": "Статус",
                 "status_help": "",
                 "destination_url": "",
                 "destination_url_help": "",
-                "asset": "",
+                "asset": "URL-адреса зображення",
                 "alt": "",
                 "alt_help": "",
                 "width": "",
@@ -211,10 +211,10 @@
                 "cta": "",
                 "placements": "",
                 "placements_help": "",
-                "html": "",
+                "html": "HTML",
                 "html_help": "",
                 "frame_height": "",
-                "source": "",
+                "source": "Копіювати",
                 "source_help": "",
                 "logos": "",
                 "logos_help": "",
@@ -235,10 +235,10 @@
                 "refresh_on_navigate": "",
                 "refresh_on_navigate_help": "",
                 "statuses": {
-                    "draft": "",
+                    "draft": "Чернетка",
                     "pending": "",
-                    "approved": "",
-                    "rejected": ""
+                    "approved": "Схвалено",
+                    "rejected": "Відхилено"
                 }
             },
             "diagnose": {
@@ -251,7 +251,7 @@
                     "slot_disabled": "",
                     "not_assigned": "",
                     "type_not_accepted": "",
-                    "not_approved": "",
+                    "not_approved": "Очікує на перевірку",
                     "no_campaign": "",
                     "campaign_not_running": "",
                     "not_in_plan": "",
@@ -280,7 +280,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "Налаштування",
                 "group_serving": "",
                 "group_serving_help": "",
                 "group_retention": "",
@@ -319,10 +319,10 @@
                     "member": ""
                 },
                 "group": {
-                    "label": ""
+                    "label": "Група"
                 },
                 "route": {
-                    "label": "",
+                    "label": "Сторінка",
                     "names": {
                         "index": "",
                         "posts": "",
@@ -330,21 +330,21 @@
                         "user": "",
                         "tag": "",
                         "tags": "",
-                        "settings": "",
-                        "notifications": "",
+                        "settings": "Налаштування",
+                        "notifications": "Сповіщення",
                         "logoutPage": "",
                         "resetPassword": "",
                         "confirmEmail": ""
                     }
                 },
                 "discussion": {
-                    "label": ""
+                    "label": "Обговорення"
                 },
                 "tag": {
-                    "label": ""
+                    "label": "Тег"
                 },
                 "locale": {
-                    "label": ""
+                    "label": "Мова"
                 },
                 "posts": {
                     "label": ""
@@ -358,16 +358,16 @@
                 "last_days": "",
                 "range_label": "",
                 "download": "",
-                "retry": "",
+                "retry": "Спробуйте ще раз",
                 "ctr_help": "",
                 "none": "",
                 "unavailable": "",
                 "impressions": "",
                 "viewable": "",
                 "viewable_help": "",
-                "clicks": "",
+                "clicks": "Натискання",
                 "ctr": "",
-                "filtered": "",
+                "filtered": "Відхилено",
                 "filtered_help": "",
                 "by_placements": "",
                 "by_creatives": "",
@@ -389,7 +389,7 @@
                 "configure": "",
                 "load_failed": "",
                 "save_failed": "",
-                "done": "",
+                "done": "Готово",
                 "summary_max_fill": "",
                 "group_delivery": "",
                 "group_fallback": "",
@@ -428,9 +428,9 @@
                 "global": "",
                 "page": "",
                 "index": "",
-                "discussion": "",
+                "discussion": "Обговорення",
                 "user": "",
-                "tags": ""
+                "tags": "Теги"
             }
         },
         "forum": {
@@ -447,8 +447,8 @@
                 "unavailable": "",
                 "none": "",
                 "create": "",
-                "edit": "",
-                "delete": "",
+                "edit": "Редагувати",
+                "delete": "Видалити",
                 "confirm_delete": "",
                 "submit": "",
                 "submit_help": "",
@@ -463,12 +463,12 @@
                 "headline": "",
                 "body": "",
                 "cta": "",
-                "source": "",
+                "source": "Копіювати",
                 "source_help": "",
                 "statuses": {
-                    "draft": "",
-                    "pending": "",
-                    "approved": "",
+                    "draft": "Чернетка",
+                    "pending": "Очікує на перевірку",
+                    "approved": "Схвалено",
                     "rejected": ""
                 }
             }
@@ -481,11 +481,11 @@
             },
             "creatives": {
                 "types": {
-                    "image": "",
-                    "text": "",
+                    "image": "Зображення",
+                    "text": "Текст",
                     "rich_text": "",
                     "logo_wall": "",
-                    "raw_html": "",
+                    "raw_html": "HTML",
                     "network": ""
                 }
             },
@@ -557,7 +557,7 @@
             },
             "label": "",
             "demo_exit": "",
-            "upload": "",
+            "upload": "Завантажити",
             "clear": "",
             "upload_failed": ""
         }
