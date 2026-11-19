@@ -539,7 +539,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/syllabus/1.3.1/locale/en.yml',
 	],
 	'ernestdefoe-testimonials' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/testimonials/1.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/testimonials/1.0.5/locale/en.yml',
 	],
 	'ernestdefoe-theme-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/theme-toggle/3.0.13/locale/en.yml',
