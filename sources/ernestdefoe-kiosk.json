@@ -15,7 +15,8 @@
                 "paypal": "PayPal",
                 "stripe": "Card (Stripe)",
                 "btcpay": "Bitcoin (BTCPay)",
-                "nowpayments": "Crypto (NOWPayments)"
+                "nowpayments": "Crypto (NOWPayments)",
+                "bank": "Bank transfer"
             },
             "tag_group": {
                 "singular": "{tag} buyer",
@@ -28,7 +29,8 @@
                 "canceled": "Won't renew",
                 "ended": "Ended",
                 "expired": "Not finished",
-                "refunded": "Refunded"
+                "refunded": "Refunded",
+                "awaiting": "Awaiting payment"
             },
             "payment_status": {
                 "completed": "Paid",
@@ -88,7 +90,9 @@
             "checkout": {
                 "pay_with": "Pay with",
                 "agree": "I agree to the <a>terms</a>.",
-                "continue": "Continue to {provider}"
+                "continue": "Continue to {provider}",
+                "place_order": "Place order",
+                "bank_note": "You'll see where to send the money on the next page. Your order is held until it arrives."
             },
             "teaser": {
                 "badge": "For buyers"
@@ -146,7 +150,8 @@
                     "paypal_email_limits": "Paid by email, so one-time prices only. To refund a buyer, refund them in your PayPal, then press Refund on the sale here to end their access.",
                     "stripe": "You'll sign up (or sign in) on Stripe's own pages. Stripe asks for your details and bank account, not this forum.",
                     "btcpay": "Enter your BTCPay Server's address. You'll pick your store and approve access on your server.",
-                    "nowpayments": "In your NOWPayments dashboard, create an API key and an IPN secret, and paste both here."
+                    "nowpayments": "In your NOWPayments dashboard, create an API key and an IPN secret, and paste both here.",
+                    "bank": "Buyers pay into your bank account and you mark each order paid once the money arrives. One-time prices only. Only the buyer of an order sees your details."
                 },
                 "field": {
                     "email": "Your PayPal email",
@@ -154,7 +159,9 @@
                     "secret": "Secret",
                     "url": "https://your-btcpay-server.com",
                     "apiKey": "API key",
-                    "ipnSecret": "IPN secret"
+                    "ipnSecret": "IPN secret",
+                    "details": "Your bank account details (account name, bank, account number or IBAN, and so on)",
+                    "instructions": "Instructions for buyers (optional)"
                 },
                 "connect": "Connect {provider}",
                 "continue_to": "Continue to {provider}",
@@ -183,6 +190,17 @@
                 "delete_confirm": "Delete {name}? If anyone has bought it, it's taken off sale instead.",
                 "sales": "Your sales",
                 "no_sales": "No sales yet.",
+                "bank_hint": "Paid into your bank account",
+                "awaiting": "Waiting for a bank transfer",
+                "awaiting_help": "When a buyer's money arrives in your account (look for the reference), mark the order paid and they get it right away. Cancel an order if no money is coming.",
+                "mark_paid": "Mark paid",
+                "mark_paid_confirm": "Has {amount} with the reference {reference} arrived in your account? The buyer gets what they ordered right away.",
+                "cancel_order": "Cancel order",
+                "cancel_order_confirm": "Cancel this order? The buyer is told that no payment is expected.",
+                "reference": "Reference: {reference}",
+                "expires": "Cancels itself on {date}",
+                "proof": "Proof of payment",
+                "proof_file": "See the file",
                 "deleted_buyer": "a deleted account",
                 "refund": "Refund",
                 "refund_confirm": "Refund {amount} to the buyer and end their access?",
@@ -217,6 +235,8 @@
                     "btcpay_url": "Enter your BTCPay Server's https:// address.",
                     "nowpayments_keys": "Paste your NOWPayments API key and IPN secret.",
                     "nowpayments_rejected": "NOWPayments didn't accept that API key.",
+                    "bank_details": "Enter your bank account details.",
+                    "has_transfers": "Buyers have orders waiting for a transfer into this account. Mark them paid or cancel them first.",
                     "not_yours": "You can only sell things you made yourself, and each listing needs at least one.",
                     "has_subscriptions": "Buyers still have subscriptions running through this account. Keep it until they end, or cancel them from your sales.",
                     "too_many_listings": "You've reached the most listings one member can have."
@@ -253,7 +273,10 @@
                 "reminder": "{product} renews in a few days",
                 "ended": "Your access to {product} has ended",
                 "gift": "{product} was given to you as a gift",
-                "seat": "You were given a seat on {product}"
+                "seat": "You were given a seat on {product}",
+                "awaiting": "Your order for {product} is waiting for your bank transfer",
+                "transfer_canceled": "Your order for {product} was canceled",
+                "transfer_expired": "No payment arrived for {product}, so the order was canceled"
             },
             "settings": {
                 "notify": "Receipts and renewal updates for my purchases"
@@ -282,7 +305,38 @@
                 "seat_taken": "That member already has a seat.",
                 "seats_full": "Every seat is taken. Remove someone first.",
                 "cannot_switch": "You can't switch to that plan.",
-                "switch_seats_paypal": "PayPal can't add seats to a plan you already have. Stop renewing this one, and buy the bigger plan when it ends."
+                "switch_seats_paypal": "PayPal can't add seats to a plan you already have. Stop renewing this one, and buy the bigger plan when it ends.",
+                "too_many_waiting": "You already have orders waiting for a bank transfer. Pay or cancel one of them first."
+            },
+            "transfer": {
+                "title": "Pay by bank transfer",
+                "waiting": "Your order for {product} is waiting for your payment.",
+                "amount": "Amount",
+                "pay_to": "Pay to",
+                "reference": "Reference",
+                "reference_help": "Put this reference on your transfer so it can be matched to your order.",
+                "copy": "Copy",
+                "copied": "Copied",
+                "expires": "Pay by {date}. After that the order is canceled.",
+                "next": "When the money arrives, your order is marked paid and opens right away. We'll let you know.",
+                "proof_title": "Proof of payment (optional)",
+                "proof_help": "A screenshot or PDF of your transfer (JPG, PNG, WebP or PDF, up to 5 MB), a note, or both. It helps find your payment sooner.",
+                "proof_file": "File",
+                "proof_note": "Note",
+                "proof_send": "Send",
+                "proof_sent": "Sent {ago}.",
+                "proof_view": "See what you sent",
+                "cancel": "Cancel order",
+                "cancel_confirm": "Cancel this order? If you already sent the money, don't cancel: it will be matched when it arrives.",
+                "canceled_title": "This order was canceled",
+                "canceled_text": "No payment is expected for it now.",
+                "how_to_pay": "How to pay",
+                "errors": {
+                    "not_waiting": "This order isn't waiting for a payment anymore.",
+                    "proof_empty": "Choose a file or write a note.",
+                    "proof_file": "Send a JPG, PNG, WebP or PDF file of up to 5 MB.",
+                    "too_many_uploads": "Too many uploads. Try again in an hour."
+                }
             }
         },
         "admin": {
@@ -325,7 +379,37 @@
                 "payments": "Payments",
                 "sellers": "Sellers",
                 "webhooks": "Payment log",
+                "transfers": "Bank transfers",
                 "settings": "Settings"
+            },
+            "bank": {
+                "title": "Bank transfer",
+                "help": "Buyers send the money from their own bank, by mobile or internet banking. Each order waits until you see the money arrive and press Mark paid on the Bank transfers tab. One-time and set-time prices only.",
+                "enable": "Offer bank transfer at checkout",
+                "details": "Your bank account details",
+                "details_help": "Shown to buyers on their order page and in their order email: account name, bank, account number or IBAN, SWIFT/BIC. Never shown to anyone else.",
+                "instructions": "Instructions for buyers",
+                "instructions_help": "Anything else buyers should know, such as how long transfers take.",
+                "reference": "Payment reference",
+                "reference_help": "What buyers write on their transfer so you can match it. '{number}' is the order number (K-…), '{id}' the order''s id. Letters, numbers, spaces and . / _ - only.",
+                "expiry_days": "Cancel unpaid orders after (days)",
+                "expiry_days_help": "An order with no payment by then is canceled and its stock is freed. 0 keeps orders waiting until you cancel them.",
+                "not_ready": "Add your bank account details to offer bank transfer."
+            },
+            "transfers": {
+                "help": "Check your bank. When a transfer arrives, find its reference here and press Mark paid: the buyer gets what they ordered right away.",
+                "empty": "No orders are waiting for a bank transfer.",
+                "ordered": "Ordered",
+                "reference": "Reference",
+                "expires": "Cancels itself",
+                "never": "Never",
+                "proof": "Proof",
+                "proof_file": "See the file",
+                "paid_to": "Paid to {name}",
+                "mark_paid": "Mark paid",
+                "mark_paid_confirm": "Has {amount} with the reference {reference} arrived? {name} gets {product} right away.",
+                "cancel": "Cancel",
+                "cancel_confirm": "Cancel {name}'s order for {product}? They're told no payment is expected."
             },
             "btcpay": {
                 "help": "Your own BTCPay Server takes Bitcoin and Lightning with no middleman. Enter its address and press Connect: BTCPay asks which store to use, then sends you back. Crypto can't renew by itself, so it's offered for one-time and set-time prices only.",
@@ -709,6 +793,19 @@
             "ended": {
                 "subject": "Your access to {product} has ended",
                 "body": "Your access to **{product}** has ended. Thanks for being part of it.\n\nYou can get it again any time: {url}\n"
+            },
+            "awaiting": {
+                "subject": "Your order for {product}: how to pay",
+                "body": "Thank you for your order of **{product}**. It's waiting for your bank transfer.\n\nSend **{amount}** to the account below, and put the reference **{reference}** on your transfer so it can be matched to your order. {deadline}\n\nWhen the money arrives, your order opens right away and we'll let you know. Your order: {order_url}\n",
+                "pay_to": "Pay to:"
+            },
+            "transfer_canceled": {
+                "subject": "Your order for {product} was canceled",
+                "body": "Your order for **{product}** (reference {number}) was canceled, so no payment is expected for it.\n\nIf you already sent the money, contact the forum's staff. Your purchases: {url}\n"
+            },
+            "transfer_expired": {
+                "subject": "Your order for {product} was canceled",
+                "body": "No payment arrived for your order of **{product}** (reference {number}) in time, so it was canceled.\n\nIf you already sent the money, contact the forum's staff. You can order it again any time: {url}\n"
             }
         }
     }

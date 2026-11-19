@@ -15,7 +15,8 @@
                 "paypal": "",
                 "stripe": "",
                 "btcpay": "",
-                "nowpayments": ""
+                "nowpayments": "",
+                "bank": ""
             },
             "tag_group": {
                 "singular": "",
@@ -28,7 +29,8 @@
                 "canceled": "",
                 "ended": "",
                 "expired": "",
-                "refunded": ""
+                "refunded": "",
+                "awaiting": ""
             },
             "payment_status": {
                 "completed": "",
@@ -88,7 +90,9 @@
             "checkout": {
                 "pay_with": "",
                 "agree": "",
-                "continue": ""
+                "continue": "",
+                "place_order": "",
+                "bank_note": ""
             },
             "teaser": {
                 "badge": ""
@@ -146,7 +150,8 @@
                     "paypal_email_limits": "",
                     "stripe": "",
                     "btcpay": "",
-                    "nowpayments": ""
+                    "nowpayments": "",
+                    "bank": ""
                 },
                 "field": {
                     "email": "",
@@ -154,7 +159,9 @@
                     "secret": "",
                     "url": "",
                     "apiKey": "",
-                    "ipnSecret": ""
+                    "ipnSecret": "",
+                    "details": "",
+                    "instructions": ""
                 },
                 "connect": "",
                 "continue_to": "",
@@ -183,6 +190,17 @@
                 "delete_confirm": "",
                 "sales": "",
                 "no_sales": "",
+                "bank_hint": "",
+                "awaiting": "",
+                "awaiting_help": "",
+                "mark_paid": "",
+                "mark_paid_confirm": "",
+                "cancel_order": "",
+                "cancel_order_confirm": "",
+                "reference": "",
+                "expires": "",
+                "proof": "",
+                "proof_file": "",
                 "deleted_buyer": "",
                 "refund": "",
                 "refund_confirm": "",
@@ -217,6 +235,8 @@
                     "btcpay_url": "",
                     "nowpayments_keys": "",
                     "nowpayments_rejected": "",
+                    "bank_details": "",
+                    "has_transfers": "",
                     "not_yours": "",
                     "has_subscriptions": "",
                     "too_many_listings": ""
@@ -253,7 +273,10 @@
                 "reminder": "",
                 "ended": "",
                 "gift": "",
-                "seat": ""
+                "seat": "",
+                "awaiting": "",
+                "transfer_canceled": "",
+                "transfer_expired": ""
             },
             "settings": {
                 "notify": ""
@@ -282,7 +305,38 @@
                 "seat_taken": "",
                 "seats_full": "",
                 "cannot_switch": "",
-                "switch_seats_paypal": ""
+                "switch_seats_paypal": "",
+                "too_many_waiting": ""
+            },
+            "transfer": {
+                "title": "",
+                "waiting": "",
+                "amount": "",
+                "pay_to": "",
+                "reference": "",
+                "reference_help": "",
+                "copy": "",
+                "copied": "",
+                "expires": "",
+                "next": "",
+                "proof_title": "",
+                "proof_help": "",
+                "proof_file": "",
+                "proof_note": "",
+                "proof_send": "",
+                "proof_sent": "",
+                "proof_view": "",
+                "cancel": "",
+                "cancel_confirm": "",
+                "canceled_title": "",
+                "canceled_text": "",
+                "how_to_pay": "",
+                "errors": {
+                    "not_waiting": "",
+                    "proof_empty": "",
+                    "proof_file": "",
+                    "too_many_uploads": ""
+                }
             }
         },
         "admin": {
@@ -325,7 +379,37 @@
                 "payments": "",
                 "sellers": "",
                 "webhooks": "",
+                "transfers": "",
                 "settings": ""
+            },
+            "bank": {
+                "title": "",
+                "help": "",
+                "enable": "",
+                "details": "",
+                "details_help": "",
+                "instructions": "",
+                "instructions_help": "",
+                "reference": "",
+                "reference_help": "",
+                "expiry_days": "",
+                "expiry_days_help": "",
+                "not_ready": ""
+            },
+            "transfers": {
+                "help": "",
+                "empty": "",
+                "ordered": "",
+                "reference": "",
+                "expires": "",
+                "never": "",
+                "proof": "",
+                "proof_file": "",
+                "paid_to": "",
+                "mark_paid": "",
+                "mark_paid_confirm": "",
+                "cancel": "",
+                "cancel_confirm": ""
             },
             "btcpay": {
                 "help": "",
@@ -707,6 +791,19 @@
                 "body": ""
             },
             "ended": {
+                "subject": "",
+                "body": ""
+            },
+            "awaiting": {
+                "subject": "",
+                "body": "",
+                "pay_to": ""
+            },
+            "transfer_canceled": {
+                "subject": "",
+                "body": ""
+            },
+            "transfer_expired": {
                 "subject": "",
                 "body": ""
             }

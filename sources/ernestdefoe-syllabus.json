@@ -29,6 +29,7 @@
                 "help_course": "Leave any part empty to use the forum's default design. Images are saved as soon as you upload them; the template and signer are saved with the course. A background replaces the template's paper and frame, so choose a light image: the text is printed on top.",
                 "help_forum": "Every course uses this design for the parts it doesn't set itself. A background replaces the template's paper and frame, so choose a light image: the text is printed on top. Signatures look best as a PNG with a transparent background.",
                 "preview_alt": "Preview of the certificate",
+                "preview_failed": "The preview couldn't be drawn. Please try again.",
                 "preview_caption": "A preview with your name, today's date and sample wording. Members see their own."
             }
         },
@@ -334,8 +335,7 @@
                 "sample_course": "Sample course",
                 "seal_line1": "Course",
                 "seal_line2": "Certificate",
-                "unsupported_text": "(shown on the verification page)",
-                "drawn_partly": "Some of this certificate's text is in a script the certificate can't draw yet, so it reads: {text}"
+                "unsupported_text": "(shown on the verification page)"
             },
             "profile": {
                 "nav": "Courses",
