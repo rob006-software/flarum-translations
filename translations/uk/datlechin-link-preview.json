@@ -2,7 +2,7 @@
     "datlechin-link-preview": {
         "admin": {
             "sections": {
-                "appearance_label": "",
+                "appearance_label": "Зовнішній вигляд",
                 "appearance_description": "",
                 "behaviour_label": "",
                 "behaviour_description": "",
@@ -13,7 +13,7 @@
             },
             "settings": {
                 "open_links_in_new_tab_label": "Відкрити посилання в новій вкладці",
-                "open_links_in_new_tab_help": "Завжди відкривайте попередньо переглянуті посилання в новій вкладці браузера.",
+                "open_links_in_new_tab_help": "Застосовується до посилань на інші сайти. Посилання на цей форум завжди відкриваються в тій самій вкладці.",
                 "google_favicon_fallback_label": "",
                 "google_favicon_fallback_help": "",
                 "preview_internal_links_label": "",
@@ -23,9 +23,9 @@
                 "max_previews_per_post_label": "",
                 "max_previews_per_post_help": "",
                 "enable_batch_requests_label": "Увімкнути пакетну обробку",
-                "enable_batch_requests_help": "Підвищити продуктивність, обробляючи кілька попередніх переглядів посилань одночасно. Якщо вимкнено, посилання обробляються по одному.",
+                "enable_batch_requests_help": "Запитує попередній перегляд посилань на сторінці разом замість окремого запиту для кожного. Вимикайте лише тоді, коли проксі або брандмауер перед форумом блокує ці запити.\n",
                 "cache_time_label": "Час кешування в хв",
-                "cache_time_help": "Як довго зберігати попередній перегляд посилань перед оновленням. Встановіть 0, щоб вимкнути кешування. За замовчуванням: 60 хвилин.",
+                "cache_time_help": "Як довго зберігати попередній перегляд у кеші перед повторним завантаженням сторінки. Установіть 0, щоб вимкнути кешування.",
                 "allowlist_label": "",
                 "allowlist_help": "",
                 "allowlist_placeholder": "",
@@ -47,8 +47,8 @@
         "forum": {
             "loading": "",
             "meta": {
-                "replies": "",
-                "posts": "",
+                "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "posts": "{count, plural, one {# допис} few {# дописи} many {# дописів} other {# допису}}",
                 "discussions": ""
             },
             "clicks": "",
