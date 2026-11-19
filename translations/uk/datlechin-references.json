@@ -2,91 +2,91 @@
     "datlechin-references": {
         "admin": {
             "sections": {
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "display_label": "",
-                "display_description": "",
+                "behaviour_label": "Запис посилань",
+                "behaviour_description": "Виберіть, які посилання в дописах записувати.",
+                "display_label": "Відображення",
+                "display_description": "Виберіть, що бачитимуть читачі.",
                 "notifications_label": "Сповіщення",
-                "notifications_description": "",
-                "advanced_label": "",
-                "advanced_description": "",
-                "extensions_label": "",
-                "extensions_description": ""
+                "notifications_description": "Виберіть, як сповіщати користувачів про нові посилання.",
+                "advanced_label": "Розширені налаштування",
+                "advanced_description": "Ліміти й очищення. Типові значення підходять для більшості форумів.",
+                "extensions_label": "Інші розширення",
+                "extensions_description": "Налаштування, додані іншими розширеннями."
             },
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "extract_url_references_label": "",
-                "extract_url_references_help": "",
-                "extract_short_references_label": "",
-                "extract_short_references_help": "",
-                "extract_mention_references_label": "",
-                "extract_mention_references_help": "",
-                "event_post_enabled_label": "",
-                "event_post_enabled_help": "",
-                "max_preview_label": "",
-                "max_preview_help": "",
-                "related_discussions_enabled_label": "",
-                "related_discussions_enabled_help": "",
-                "related_discussions_limit_label": "",
-                "related_discussions_limit_help": "",
-                "related_max_candidates_label": "",
-                "related_max_candidates_help": "",
-                "cache_ttl_label": "",
-                "cache_ttl_help": "",
-                "graph_max_depth_label": "",
-                "graph_max_depth_help": "",
-                "graph_max_per_hop_label": "",
-                "graph_max_per_hop_help": "",
-                "notify_followers_label": "",
-                "notify_followers_help": "",
-                "broken_retention_days_label": "",
-                "broken_retention_days_help": ""
+                "enabled_label": "Записувати посилання",
+                "enabled_help": "Якщо вимкнено, нові посилання не записуються. Наявні записи зберігаються.",
+                "extract_url_references_label": "Записувати вставлені посилання",
+                "extract_url_references_help": "Записує посилання на інші обговорення й дописи. Посилання в межах того самого обговорення та в цитатах ігноруються.",
+                "extract_short_references_label": "Записувати введені вручну посилання",
+                "extract_short_references_help": "Записує посилання, введені у форматі @\"Discussion title\"#d123. Щоб вставити таке посилання, введіть # у редакторі допису.",
+                "extract_mention_references_label": "Записувати згадки дописів",
+                "extract_mention_references_help": "Записує згадки дописів з інших обговорень. Відповіді в межах того самого обговорення ігноруються. Потрібне розширення Mentions.",
+                "event_post_enabled_label": "Повідомляти про нові посилання в обговоренні",
+                "event_post_enabled_help": "Додає до цільового обговорення повідомлення на кшталт «Аліса додала посилання на це обговорення з …». Діє лише для посилань із публічних дописів.",
+                "max_preview_label": "Посилань на бічній панелі",
+                "max_preview_help": "Кількість посилань у кожному списку перед кнопкою «Переглянути всі посилання».",
+                "related_discussions_enabled_label": "Показувати пов’язані обговорення",
+                "related_discussions_enabled_help": "Показує обговорення, на які часто посилаються разом.",
+                "related_discussions_limit_label": "Кількість пов’язаних обговорень",
+                "related_discussions_limit_help": "Кількість пов’язаних обговорень на бічній панелі.",
+                "related_max_candidates_label": "Кількість обговорень для перевірки",
+                "related_max_candidates_help": "Максимальна кількість обговорень, серед яких шукатимуться пов’язані.",
+                "cache_ttl_label": "Тривалість кешування (секунди)",
+                "cache_ttl_help": "Як довго кешуються пов’язані обговорення й граф зв’язків. Значення 0 вимикає кешування.",
+                "graph_max_depth_label": "Глибина графа",
+                "graph_max_depth_help": "Кількість кроків, на які граф віддаляється від початкового обговорення.",
+                "graph_max_per_hop_label": "Посилань на крок",
+                "graph_max_per_hop_help": "Максимальна кількість посилань, за якими граф переходить на кожному кроці.",
+                "notify_followers_label": "Сповіщати підписників",
+                "notify_followers_help": "Сповіщає користувачів, які стежать за обговоренням, на яке послалися. Потрібне розширення Subscriptions.",
+                "broken_retention_days_label": "Зберігати непрацюючі посилання (дні)",
+                "broken_retention_days_help": "Як довго зберігаються посилання на видалений вміст. Значення 0 зберігає їх безстроково."
             },
             "permissions": {
-                "manage_references": "",
-                "view_broken_report": "",
-                "view_analytics": ""
+                "manage_references": "Створювати й редагувати посилання",
+                "view_broken_report": "Переглядати непрацюючі посилання",
+                "view_analytics": "Переглядати аналітику посилань"
             },
             "analytics": {
-                "title": "",
-                "total_label": "",
-                "broken_label": "",
-                "manual_label": "",
-                "by_origin_label": "",
-                "by_relation_label": "",
+                "title": "Посилання",
+                "total_label": "Посилання",
+                "broken_label": "Непрацюючі",
+                "manual_label": "Додані вручну",
+                "by_origin_label": "За джерелом",
+                "by_relation_label": "За типом",
                 "export_button": "Експортувати CSV",
-                "empty": "",
-                "pending": "",
-                "unavailable": "",
-                "chart_label": ""
+                "empty": "Записів ще немає.",
+                "pending": "Планувальник додає добові показники раз на день.",
+                "unavailable": "Не вдалося завантажити аналітику.",
+                "chart_label": "Посилання за днями. {count, plural, one {Днів з активністю: #} other {Днів з активністю: #}}. Найактивніший день: {peak}."
             },
             "origin": {
-                "url": "",
-                "shortref": "",
-                "mention": "",
-                "manual": ""
+                "url": "Вставлене посилання",
+                "shortref": "Посилання, введене вручну",
+                "mention": "Згадка допису",
+                "manual": "Додано вручну"
             },
             "relation": {
-                "references": "",
-                "duplicate_of": "",
-                "see_also": "",
-                "supersedes": "",
-                "answers": ""
+                "references": "Звичайне посилання",
+                "duplicate_of": "Дублює",
+                "see_also": "Див. також",
+                "supersedes": "Замінює",
+                "answers": "Відповідає на"
             },
             "broken": {
-                "title": "",
-                "description": "",
-                "empty": "",
-                "unavailable": "",
-                "truncated": "",
-                "target_column": "",
-                "source_column": "",
-                "broken_at_column": ""
+                "title": "Непрацюючі посилання",
+                "description": "Посилання на видалені обговорення й дописи.",
+                "empty": "Немає непрацюючих посилань.",
+                "unavailable": "Не вдалося завантажити звіт.",
+                "truncated": "Показано {shown} із {total}.",
+                "target_column": "Ціль",
+                "source_column": "Джерело",
+                "broken_at_column": "Видалено"
             },
             "target": {
-                "discussions": "",
-                "posts": ""
+                "discussions": "Обговорення #{id}",
+                "posts": "Допис #{id}"
             }
         },
         "forum": {
@@ -94,113 +94,113 @@
                 "deleted_text": "[видалено]"
             },
             "links": {
-                "incoming_heading": "",
-                "outgoing_heading": "",
-                "all_button": "",
-                "summary_button": "",
+                "incoming_heading": "Вхідні посилання",
+                "outgoing_heading": "Вихідні посилання",
+                "all_button": "Переглянути всі посилання",
+                "summary_button": "{count, plural, one {Посилань: #} other {Посилань: #}}",
                 "modal_title": "Посилання",
-                "post_modal_title": "",
-                "incoming_tab": "",
-                "outgoing_tab": "",
-                "map_tab": "",
-                "add_button": "",
-                "manage_button": "",
+                "post_modal_title": "Вхідні посилання",
+                "incoming_tab": "Вхідні посилання",
+                "outgoing_tab": "Вихідні посилання",
+                "map_tab": "Карта зв’язків",
+                "add_button": "Додати посилання",
+                "manage_button": "Керувати посиланнями",
                 "load_more_button": "Завантажити ще",
-                "empty": "",
-                "by_text": "",
+                "empty": "Посилань немає.",
+                "by_text": "від користувача {username}",
                 "edit_button": "Редагувати",
                 "remove_button": "Видалити",
-                "remove_confirmation": ""
+                "remove_confirmation": "Вилучити це посилання?"
             },
             "post": {
-                "linked_from_text": "",
-                "more_button": ""
+                "linked_from_text": "Посилання з обговорень: {discussions}",
+                "more_button": "і ще {count}"
             },
             "related": {
-                "title": ""
+                "title": "Пов’язані обговорення"
             },
             "sort": {
-                "most_linked": ""
+                "most_linked": "Найбільше вхідних посилань"
             },
             "map": {
-                "empty": "",
-                "accessible_label": ""
+                "empty": "Недостатньо посилань, щоб побудувати карту.",
+                "accessible_label": "Карта зв’язків між обговореннями. {count, plural, one {Обговорень: #} other {Обговорень: #}}"
             },
             "relation": {
-                "references": "",
-                "duplicate_of": "",
-                "see_also": "",
-                "supersedes": "",
-                "answers": ""
+                "references": "Звичайне посилання",
+                "duplicate_of": "Дублює",
+                "see_also": "Див. також",
+                "supersedes": "Замінює",
+                "answers": "Відповідає на"
             },
             "form": {
-                "add_title": "",
-                "edit_title": "",
+                "add_title": "Додати посилання",
+                "edit_title": "Редагувати посилання",
                 "target_label": "Обговорення",
-                "target_placeholder": "",
-                "no_results": "",
-                "change_button": "",
+                "target_placeholder": "Пошук за заголовком або ID",
+                "no_results": "Обговорень не знайдено.",
+                "change_button": "Змінити",
                 "type_label": "Тип",
-                "note_label": "",
+                "note_label": "Примітка",
                 "note_placeholder": "Необов’язково",
-                "add_button": "",
+                "add_button": "Додати посилання",
                 "save_button": "Зберегти"
             },
             "event_post": {
-                "linked": "",
-                "linked_from": ""
+                "linked": "Користувач {username} додав посилання на це обговорення",
+                "linked_from": "Користувач {username} додав посилання на це обговорення з {discussions}"
             },
             "notifications": {
-                "discussion_linked_text": "",
-                "post_linked_text": "",
-                "followed_discussion_linked_text": ""
+                "discussion_linked_text": "Користувач {username} додав посилання на ваше обговорення",
+                "post_linked_text": "Користувач {username} додав посилання на ваш допис",
+                "followed_discussion_linked_text": "Користувач {username} додав посилання на обговорення, за яким ви стежите"
             },
             "settings": {
-                "notify_discussion_linked_label": "",
-                "notify_post_linked_label": "",
-                "notify_followed_discussion_linked_label": ""
+                "notify_discussion_linked_label": "Хтось додає посилання на розпочате мною обговорення",
+                "notify_post_linked_label": "Хтось додає посилання на мій допис",
+                "notify_followed_discussion_linked_label": "Хтось додає посилання на обговорення, за яким я стежу"
             }
         },
         "api": {
             "manual": {
-                "not_found_message": "",
-                "same_discussion_message": "",
-                "duplicate_message": "",
-                "source_required_message": ""
+                "not_found_message": "Обговорення не знайдено.",
+                "same_discussion_message": "Обговорення не може посилатися саме на себе.",
+                "duplicate_message": "Таке посилання вже існує.",
+                "source_required_message": "Потрібно вказати вихідне обговорення."
             }
         },
         "email": {
             "discussion_referenced": {
-                "subject": "",
-                "body": ""
+                "subject": "Нове посилання на ваше обговорення «{title}»",
+                "body": "Користувач {username} додав з іншого обговорення посилання на ваше обговорення «{title}».\n\n{url}\n"
             },
             "followed_discussion_referenced": {
-                "subject": "",
-                "body": ""
+                "subject": "Нове посилання на обговорення «{title}», за яким ви стежите",
+                "body": "Користувач {username} додав з іншого обговорення посилання на «{title}», за яким ви стежите.\n\n{url}\n"
             },
             "post_referenced": {
-                "subject": "",
-                "body": ""
+                "subject": "Нове посилання на ваш допис в обговоренні «{title}»",
+                "body": "Користувач {username} додав з іншого обговорення посилання на ваш допис в обговоренні «{title}».\n\n{url}\n"
             }
         },
         "gdpr": {
-            "export_description": "",
-            "anonymize_description": "",
-            "delete_description": ""
+            "export_description": "Посилання, які ви додали вручну.",
+            "anonymize_description": "Ваше ім’я вилучається з посилань, які ви додали вручну.",
+            "delete_description": "Ваше ім’я вилучається з посилань, які ви додали вручну. Самі посилання зберігаються."
         },
         "lib": {
             "gambits": {
                 "references": {
-                    "key": "",
-                    "hint": ""
+                    "key": "references",
+                    "hint": "\"12\""
                 },
                 "referenced_by": {
-                    "key": "",
-                    "hint": ""
+                    "key": "referenced-by",
+                    "hint": "\"12\""
                 },
                 "has_references": {
-                    "key": "",
-                    "hint": ""
+                    "key": "references",
+                    "hint": "На які посилаються інші обговорення"
                 }
             }
         }
