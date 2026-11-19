@@ -2,43 +2,43 @@
     "datlechin-ai-summarize": {
         "admin": {
             "permissions": {
-                "summarize_label": "",
-                "view_label": ""
+                "summarize_label": "Створювати підсумки за допомогою ШІ",
+                "view_label": "Переглядати підсумки ШІ"
             },
             "settings": {
-                "auto_per_hour_help": "",
-                "auto_per_hour_label": "",
-                "instructions_help": "",
-                "instructions_label": "",
-                "max_posts_help": "",
-                "max_posts_label": "",
-                "min_posts_help": "",
-                "min_posts_label": "",
-                "provider_text": ""
+                "auto_per_hour_help": "Планувальник Flarum автоматично підсумовує щогодини до вказаної кількості нещодавно активних обговорень. Значення 0 вимикає автоматичне підсумовування.",
+                "auto_per_hour_label": "Автоматичних підсумків за годину",
+                "instructions_help": "Ці вказівки доповнюють вбудовані. Наприклад, можна уточнити тон підсумку або що слід пропустити.",
+                "instructions_label": "Додаткові вказівки",
+                "max_posts_help": "Для підсумку довгого обговорення використовуються перші п’ять і останні п’ять дописів, а також дописи між ними з найбільшою кількістю вподобайок.",
+                "max_posts_label": "Максимальна кількість дописів для опрацювання",
+                "min_posts_help": "Обговорення з меншою кількістю дописів не можна підсумувати.",
+                "min_posts_label": "Мінімальна кількість дописів для підсумку",
+                "provider_text": "Для підсумків використовуються постачальник і модель, вибрані в розділі <a>ШІ</a>."
             }
         },
         "api": {
-            "busy_message": "",
-            "failed_message": "",
-            "too_short_message": "",
-            "up_to_date_message": ""
+            "busy_message": "Підсумок цього обговорення вже готується. Спробуйте ще раз за мить.",
+            "failed_message": "Не вдалося створити підсумок. Спробуйте пізніше.",
+            "too_short_message": "{count, plural, one {Для підсумку обговорення потрібен щонайменше # допис.} other {Мінімальна кількість дописів для підсумку обговорення: #.}}",
+            "up_to_date_message": "Підсумок уже охоплює всі відповіді."
         },
         "forum": {
             "discussion_controls": {
-                "remove_button": "",
-                "summarize_button": "",
-                "update_button": ""
+                "remove_button": "Видалити підсумок",
+                "summarize_button": "Підсумувати",
+                "update_button": "Оновити підсумок"
             },
             "summary": {
-                "collapse_button": "",
-                "expand_button": "",
-                "generate_button": "",
-                "generated_text": "",
-                "generating_text": "",
-                "heading": "",
-                "new_replies_text": "",
-                "remove_confirmation": "",
-                "update_button": ""
+                "collapse_button": "Приховати підсумок",
+                "expand_button": "Показати підсумок",
+                "generate_button": "Підсумувати це обговорення",
+                "generated_text": "Створено моделлю ШІ {model} ({count, plural, one {опрацьовано # допис} other {опрацьовано дописів: #}}), {ago}",
+                "generating_text": "Створення підсумку…",
+                "heading": "Підсумок ШІ",
+                "new_replies_text": "{count, plural, one {Нова відповідь після підсумку: #} other {Нових відповідей після підсумку: #}}",
+                "remove_confirmation": "Видалити цей підсумок? Кожен, хто має відповідний дозвіл, зможе створити новий.",
+                "update_button": "Оновити"
             }
         }
     }
