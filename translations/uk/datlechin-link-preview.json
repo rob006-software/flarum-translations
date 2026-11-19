@@ -3,35 +3,35 @@
         "admin": {
             "sections": {
                 "appearance_label": "Зовнішній вигляд",
-                "appearance_description": "",
-                "behaviour_label": "",
-                "behaviour_description": "",
-                "performance_label": "",
-                "performance_description": "",
-                "filtering_label": "",
-                "filtering_description": ""
+                "appearance_description": "Вигляд карток попереднього перегляду та спосіб відкриття їхніх посилань.",
+                "behaviour_label": "Поведінка",
+                "behaviour_description": "Виберіть, для яких посилань у дописі створювати попередній перегляд.",
+                "performance_label": "Швидкодія",
+                "performance_description": "Спосіб завантаження попереднього перегляду й тривалість його кешування.",
+                "filtering_label": "Фільтрація",
+                "filtering_description": "Виберіть сайти, для яких можна створювати попередній перегляд. Указуйте по одному сайту в рядку або розділяйте їх комами. Домен також охоплює піддомени, а * відповідає одній частині доменного імені, наприклад *.example.com.\n"
             },
             "settings": {
                 "open_links_in_new_tab_label": "Відкрити посилання в новій вкладці",
                 "open_links_in_new_tab_help": "Застосовується до посилань на інші сайти. Посилання на цей форум завжди відкриваються в тій самій вкладці.",
-                "google_favicon_fallback_label": "",
-                "google_favicon_fallback_help": "",
-                "preview_internal_links_label": "",
-                "preview_internal_links_help": "",
-                "skip_media_links_label": "",
-                "skip_media_links_help": "",
-                "max_previews_per_post_label": "",
-                "max_previews_per_post_help": "",
+                "google_favicon_fallback_label": "Використовувати Google як запасне джерело значків сайтів",
+                "google_favicon_fallback_help": "Якщо сайт не має значка, використовується сервіс значків Google. У такому разі Google може бачити, на які сайти посилаються ваші користувачі.\n",
+                "preview_internal_links_label": "Створювати попередній перегляд посилань на цей форум",
+                "preview_internal_links_help": "Попередній перегляд посилань на обговорення, користувачів, теги й інші сторінки цього форуму створюється з даних у базі. Користувачі бачать лише те, на що мають дозвіл.\n",
+                "skip_media_links_label": "Пропускати посилання на медіафайли",
+                "skip_media_links_help": "Не створювати попередній перегляд посилань на зображення, аудіо та відео.",
+                "max_previews_per_post_label": "Кількість карток попереднього перегляду на допис",
+                "max_previews_per_post_help": "Посилання понад цю кількість відображаються як звичайні посилання.",
                 "enable_batch_requests_label": "Увімкнути пакетну обробку",
                 "enable_batch_requests_help": "Запитує попередній перегляд посилань на сторінці разом замість окремого запиту для кожного. Вимикайте лише тоді, коли проксі або брандмауер перед форумом блокує ці запити.\n",
                 "cache_time_label": "Час кешування в хв",
                 "cache_time_help": "Як довго зберігати попередній перегляд у кеші перед повторним завантаженням сторінки. Установіть 0, щоб вимкнути кешування.",
-                "allowlist_label": "",
-                "allowlist_help": "",
-                "allowlist_placeholder": "",
-                "blocklist_label": "",
-                "blocklist_help": "",
-                "blocklist_placeholder": "",
+                "allowlist_label": "Дозволені сайти",
+                "allowlist_help": "Якщо список задано, попередній перегляд створюється лише для посилань на ці сайти.",
+                "allowlist_placeholder": "docs.example.com, *.wikipedia.org",
+                "blocklist_label": "Заблоковані сайти",
+                "blocklist_help": "Для посилань на ці сайти попередній перегляд не створюється, навіть якщо вони є у списку дозволених.",
+                "blocklist_placeholder": "example.com, news.example.org/sponsored",
                 "blacklist_label": "Чорний список доменів",
                 "blacklist_help": "Вкажіть домени або URL-адреси, які не повинні генерувати попередній перегляд посилань. Використовуйте коми для розділення декількох записів.",
                 "blacklist_placeholder": "Наприклад: facebook.com,twitter.com/specific-page",
@@ -45,16 +45,16 @@
             }
         },
         "forum": {
-            "loading": "",
+            "loading": "Завантаження попереднього перегляду",
             "meta": {
                 "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
                 "posts": "{count, plural, one {# допис} few {# дописи} many {# дописів} other {# допису}}",
-                "discussions": ""
+                "discussions": "{count, plural, one {Обговорень: #} other {Обговорень: #}}"
             },
-            "clicks": "",
+            "clicks": "{count, plural, one {Переходів: #} other {Переходів: #}}",
             "settings": {
-                "hide_link_previews_label": "",
-                "hide_link_previews_help": ""
+                "hide_link_previews_label": "Приховати попередній перегляд посилань",
+                "hide_link_previews_help": "Показувати звичайні посилання замість карток попереднього перегляду."
             },
             "site_cannot_be_reached": "Не вдалося завантажити попередній перегляд. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
         }
