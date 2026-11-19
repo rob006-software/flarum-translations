@@ -31,12 +31,26 @@
                 "log_enabled_help": "Stores the time, form, outcome and technical reason of recent checks. Only the most recent entries are kept (see the next option for how many).",
                 "log_keep_label": "Log entries to keep (per outcome)",
                 "log_keep_help": "How many passed and how many failed checks to keep in the log (so up to twice this number of rows in total). Older entries are deleted automatically, also when you lower this value. Allowed range 10-1000, default 100. Keep it as low as you need: with IP logging enabled, a smaller value means less personal data stored.",
+                "log_prune_age_label": "Also delete log entries older than a number of days",
+                "log_prune_age_help": "Enabled by default. Entries older than the number of days set below are deleted automatically, even if the log has not reached its size limit (for example on a quiet site). Turn it off to keep entries until they are pushed out by newer ones.",
+                "log_max_age_days_label": "Delete log entries older than (days)",
+                "log_max_age_days_help": "Used when the option above is enabled. Allowed range 1-365, default 30. Choose a higher value if you want to look further back; with IP logging enabled, a lower value means less personal data stored.",
                 "log_ip_label": "Record and display IP addresses in CAPTCHA logs (warning: GDPR)",
-                "log_ip_help": "WARNING: an IP address is personal data under the GDPR. By enabling this option you, as data controller, are responsible for having a valid legal basis (e.g. legitimate interest in security), for describing the processing in your privacy policy, for limiting retention and for handling data-subject requests. Non-compliant use may constitute a GDPR violation and lead to penalties. IPs are kept only while the entry is among the most recent events retained (see 'Log entries to keep'), or until the log is cleared. Disabled by default: if you do not need it, leave it off. This is not legal advice; if in doubt, consult a professional."
+                "log_ip_help": "WARNING: an IP address is personal data under the GDPR. By enabling this option you, as data controller, are responsible for having a valid legal basis (e.g. legitimate interest in security), for describing the processing in your privacy policy, for limiting retention and for handling data-subject requests. Non-compliant use may constitute a GDPR violation and lead to penalties. IPs are kept only while the entry is among the most recent events retained (see 'Log entries to keep') and not older than the configured number of days, or until the log is cleared. Disabled by default: if you do not need it, leave it off. This is not legal advice; if in doubt, consult a professional.",
+                "privacy_notice_label": "Show a privacy notice under the CAPTCHA",
+                "privacy_notice_help": "Enabled by default. Shows a small \"Privacy\" link under the CAPTCHA that opens a short explanation of what the check processes. The text adapts to your settings (behaviour checks, IP logging, retention). It does not replace your privacy policy.",
+                "privacy_url_label": "Privacy policy link (optional)",
+                "privacy_url_help": "Full address (https://...) or a path on your site (/privacy). If set, the notice includes a link to it. Leave empty to show the notice without a link. Other kinds of address are ignored.",
+                "privacy_align_label": "Privacy link alignment",
+                "privacy_align_help": "Where the Privacy link sits under the CAPTCHA. Left lines it up with the check status; Center matches the centered Flarum forms. The explanation popover always uses the full width of the form.",
+                "privacy_align_left": "Left",
+                "privacy_align_center": "Center",
+                "privacy_align_right": "Right"
             },
             "logs": {
                 "title": "Recent CAPTCHA events",
                 "help": "The latest {count} successful and {count} failed checks are kept; older entries are deleted automatically. IP addresses are only recorded and displayed if explicitly enabled in the settings.",
+                "help_age": "Entries older than {days} days are deleted automatically.",
                 "refresh": "Refresh",
                 "clear": "Clear log",
                 "confirm_clear": "Delete all CAPTCHA log entries? This cannot be undone.",
@@ -87,7 +101,17 @@
             "error": "Security check failed. Please try again.",
             "rate_limited": "Too many attempts. Please try again in {seconds} seconds.",
             "retry": "Retry",
-            "challenge_not_ready": "The security check is not complete yet. Please try again."
+            "challenge_not_ready": "The security check is not complete yet. Please try again.",
+            "privacy": {
+                "toggle": "Privacy",
+                "title": "Privacy information about the security check",
+                "intro": "This security check runs in your browser: it does not use cookies or third-party services.",
+                "data": "To prevent abuse we process only technical data: a hashed identifier of your network, kept for a short time, and the time and outcome of the check.",
+                "behavior": "We also look at basic browser details and whether you interacted with the page (for example pointer or keyboard activity and how long the page was open). This is used only to tell people from bots and is not stored.",
+                "ip": "Your IP address is recorded in the security log.",
+                "ip_days": "Your IP address is recorded in the security log for up to {days} days.",
+                "policy": "Read the privacy policy"
+            }
         },
         "validation": {
             "pow_captcha": "The security check could not be verified. Please try again.",

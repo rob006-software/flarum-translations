@@ -31,8 +31,21 @@
                 "log_enabled_help": "",
                 "log_keep_label": "",
                 "log_keep_help": "",
+                "log_prune_age_label": "",
+                "log_prune_age_help": "",
+                "log_max_age_days_label": "",
+                "log_max_age_days_help": "",
                 "log_ip_label": "",
                 "log_ip_help": "",
+                "privacy_notice_label": "",
+                "privacy_notice_help": "",
+                "privacy_url_label": "",
+                "privacy_url_help": "",
+                "privacy_align_label": "",
+                "privacy_align_help": "",
+                "privacy_align_left": "",
+                "privacy_align_center": "",
+                "privacy_align_right": "",
                 "difficulty_label": "Schwierigkeit",
                 "difficulty_help": "Ein höherer Schwierigkeitsgrad stellt höhere Anforderungen an die Bots. Stufe 1 kann von einigen Bots umgangen werden (~100 ms). Stufe 2 bietet besseren Schutz und ist die Standardeinstellung (~1 s). Stufe 3 versucht, maximalen Schutz und maximalen Schwierigkeitsgrad für Bots zu gewährleisten (~10 s).",
                 "difficulty_3": "Stufe 1 – Niedrig (~100 ms)",
@@ -42,6 +55,7 @@
             "logs": {
                 "title": "",
                 "help": "",
+                "help_age": "",
                 "refresh": "",
                 "clear": "",
                 "confirm_clear": "",
@@ -92,7 +106,17 @@
             "error": "Die Sicherheitsabfrage ist fehlgeschlagen. Bitte versuche es erneut.",
             "rate_limited": "",
             "retry": "Erneut versuchen",
-            "challenge_not_ready": "Die Sicherheitsüberprüfung läuft noch oder ist noch nicht abgeschlossen. Bitte warten."
+            "challenge_not_ready": "Die Sicherheitsüberprüfung läuft noch oder ist noch nicht abgeschlossen. Bitte warten.",
+            "privacy": {
+                "toggle": "",
+                "title": "",
+                "intro": "",
+                "data": "",
+                "behavior": "",
+                "ip": "",
+                "ip_days": "",
+                "policy": ""
+            }
         },
         "validation": {
             "pow_captcha": "Die Sicherheitsabfrage konnte nicht überprüft werden. Bitte versuche es erneut.",

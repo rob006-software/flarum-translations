@@ -31,12 +31,26 @@
                 "log_enabled_help": "",
                 "log_keep_label": "",
                 "log_keep_help": "",
+                "log_prune_age_label": "",
+                "log_prune_age_help": "",
+                "log_max_age_days_label": "",
+                "log_max_age_days_help": "",
                 "log_ip_label": "",
-                "log_ip_help": ""
+                "log_ip_help": "",
+                "privacy_notice_label": "",
+                "privacy_notice_help": "",
+                "privacy_url_label": "",
+                "privacy_url_help": "",
+                "privacy_align_label": "",
+                "privacy_align_help": "",
+                "privacy_align_left": "",
+                "privacy_align_center": "",
+                "privacy_align_right": ""
             },
             "logs": {
                 "title": "",
                 "help": "",
+                "help_age": "",
                 "refresh": "",
                 "clear": "",
                 "confirm_clear": "",
@@ -87,7 +101,17 @@
             "error": "",
             "rate_limited": "",
             "retry": "",
-            "challenge_not_ready": ""
+            "challenge_not_ready": "",
+            "privacy": {
+                "toggle": "",
+                "title": "",
+                "intro": "",
+                "data": "",
+                "behavior": "",
+                "ip": "",
+                "ip_days": "",
+                "policy": ""
+            }
         },
         "validation": {
             "pow_captcha": "",
