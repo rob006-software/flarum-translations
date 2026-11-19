@@ -9,13 +9,13 @@
             "types": {
                 "add_button": "",
                 "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
+                "order_heading": "Порядок",
+                "type_heading": "=> ffans-threadmarks.ref.type",
                 "key_heading": "",
                 "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
+                "enabled_heading": "Увімкнено",
+                "actions_heading": "Дії",
+                "reorder_tooltip": "Перетягніть, щоб змінити порядок",
                 "builtin_label": "",
                 "custom_label": "",
                 "enable_type_a11y_label": "",
@@ -24,12 +24,12 @@
             },
             "create_type_modal": {
                 "title": "",
-                "submit_button": ""
+                "submit_button": "Створити"
             },
             "edit_type_modal": {
                 "title": "",
-                "submit_button": "",
-                "delete_button": "",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": ""
             }
         },
@@ -46,16 +46,16 @@
                 "title": "",
                 "scope_a11y_label": "",
                 "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
                 "unavailable_text": "",
-                "type_label": "",
+                "type_label": "=> ffans-threadmarks.ref.type",
                 "type_placeholder": "",
                 "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
+                "note_placeholder": "Необов’язково",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Додати",
+                "delete_button": "=> core.ref.delete",
                 "delete_personal_confirmation": "",
                 "delete_discussion_confirmation": ""
             },
@@ -66,9 +66,9 @@
                 "show_button_a11y_label": "",
                 "close_a11y_label": "",
                 "scope_a11y_label": "",
-                "all_filter": "",
+                "all_filter": "Усі",
                 "personal_filter": "",
-                "discussion_filter": ""
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
                 "mine_badge": "",
@@ -95,12 +95,12 @@
             }
         },
         "ref": {
-            "discussion": "",
+            "discussion": "Обговорення",
             "mine": "",
             "threadmarks": "",
-            "type": "",
+            "type": "Тип",
             "key": "",
-            "save": ""
+            "save": "Зберегти"
         },
         "lib": {
             "gdpr": {
@@ -111,8 +111,8 @@
             "type_form": {
                 "key_label": "",
                 "name_label": "",
-                "color_label": "",
-                "icon_label": "",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
                 "icon_placeholder": ""
             },
             "validation": {
