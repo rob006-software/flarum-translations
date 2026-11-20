@@ -2,19 +2,19 @@
     "huseyinfiliz-simple-dark-mode": {
         "admin": {
             "settings": {
-                "always_show_header_toggle_label": "",
-                "always_show_header_toggle_help": "",
-                "solid_icon_label": "",
-                "solid_icon_help": ""
+                "always_show_header_toggle_label": "Завжди показувати перемикач теми в шапці форуму",
+                "always_show_header_toggle_help": "За замовчуванням кнопку в шапці бачать лише гості. Увімкніть цей параметр, щоб її бачили й користувачі, які ввійшли. Перемикач у меню користувача доступний їм завжди.",
+                "solid_icon_label": "Показувати суцільні значки теми",
+                "solid_icon_help": "Використовує суцільні значки Font Awesome для перемикача теми замість контурних."
             }
         },
         "forum": {
             "header": {
-                "toggle_tooltip": ""
+                "toggle_tooltip": "Перемкнути тему"
             },
             "session": {
-                "dark_mode": "",
-                "light_mode": ""
+                "dark_mode": "Темна тема",
+                "light_mode": "Світла тема"
             }
         }
     }
