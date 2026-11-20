@@ -1017,9 +1017,7 @@ return [
 	],
 	'mattoid-daily-check-in-history' => [
 		'tag' => 'https://raw.githubusercontent.com/Mattoids/flarum-daily-check-in-history/v1.1.4.1/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.2.1/locale/en.yml',
