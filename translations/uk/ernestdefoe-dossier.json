@@ -1,278 +1,278 @@
 {
     "ernestdefoe-dossier": {
         "api": {
-            "required": "",
-            "invalid": "",
-            "too_long": "",
-            "too_many": "",
-            "invalid_month": "",
-            "end_before_start": "",
-            "invalid_kind": "",
-            "invalid_level": "",
-            "invalid_percent": "",
-            "invalid_url": "",
-            "invalid_visibility": "",
-            "invalid_section": "",
-            "too_many_entries": "",
-            "invalid_skill": "",
-            "invalid_category": "",
-            "duplicate_skill": "",
-            "custom_skills_off": "",
-            "skill_exists": ""
+            "required": "Заповніть це поле.",
+            "invalid": "Неприпустиме значення.",
+            "too_long": "Максимальна довжина — {max} символів.",
+            "too_many": "Виберіть не більше ніж {max}.",
+            "invalid_month": "Виберіть місяць і рік.",
+            "end_before_start": "Дата завершення передує даті початку.",
+            "invalid_kind": "Виберіть тип.",
+            "invalid_level": "Виберіть рівень.",
+            "invalid_percent": "Введіть число від 0 до 100.",
+            "invalid_url": "Введіть вебадресу, що починається з https:// або http://.",
+            "invalid_visibility": "Виберіть, хто може це бачити.",
+            "invalid_section": "Такого розділу немає.",
+            "too_many_entries": "У розділі може бути щонайбільше {max} записів.",
+            "invalid_skill": "Виберіть навичку зі списку.",
+            "invalid_category": "Виберіть категорію зі списку.",
+            "duplicate_skill": "Ця навичка вже є в досьє.",
+            "custom_skills_off": "Виберіть навичку зі списку.",
+            "skill_exists": "Навичка з такою назвою вже є в каталозі."
         },
         "lib": {
             "open_to": {
-                "collaboration": "",
-                "mentoring": "",
-                "freelance": "",
-                "jobs": ""
+                "collaboration": "Співпраці",
+                "mentoring": "Наставництва",
+                "freelance": "Позаштатної роботи",
+                "jobs": "Пропозицій роботи"
             }
         },
         "forum": {
-            "nav": "",
+            "nav": "Досьє",
             "page": {
-                "unavailable": "",
-                "empty": "",
-                "edit": "",
-                "done": "",
-                "edit_hint": "",
-                "cta_title": "",
-                "cta_title_other": "",
-                "cta_text": "",
-                "cta_button": "",
-                "section_empty": "",
-                "add": "",
-                "edit_section": "",
-                "edit_entry": "",
-                "move_up": "",
-                "move_down": "",
-                "delete_entry": "",
-                "delete_confirm": ""
+                "unavailable": "Це досьє недоступне.",
+                "empty": "Тут поки нічого немає.",
+                "edit": "Редагувати досьє",
+                "done": "Готово",
+                "edit_hint": "Виберіть, хто бачить кожен розділ, і додавайте, змінюйте або впорядковуйте записи.",
+                "cta_title": "Заповніть своє досьє",
+                "cta_title_other": "Це досьє порожнє",
+                "cta_text": "Розкажіть, чим займаєтеся, де працювали й навчалися, які маєте навички, якими мовами володієте та як із вами зв’язатися. Ви самі визначаєте, хто бачить кожен розділ.",
+                "cta_button": "Почати",
+                "section_empty": "Тут поки нічого немає.",
+                "add": "Додати",
+                "edit_section": "Редагувати",
+                "edit_entry": "Редагувати",
+                "move_up": "Перемістити вгору",
+                "move_down": "Перемістити вниз",
+                "delete_entry": "Видалити",
+                "delete_confirm": "Видалити цей запис?"
             },
             "sections": {
-                "about": "",
-                "timeline": "",
-                "skills": "",
-                "languages": "",
-                "projects": "",
-                "series": "",
-                "builds": "",
-                "certificates": "",
-                "links": "",
-                "open_to": ""
+                "about": "Основне",
+                "timeline": "Досвід та освіта",
+                "skills": "Навички",
+                "languages": "Мови",
+                "projects": "Проєкти",
+                "series": "{noun, select, novel {Романи} story {Оповідання} book {Книжки} other {Серії}}",
+                "builds": "Завершені збірки",
+                "certificates": "Сертифікати й досягнення",
+                "links": "Посилання",
+                "open_to": "Відкритість до пропозицій"
             },
             "visibility": {
-                "label": "",
-                "label_for": "",
-                "everyone": "",
-                "members": "",
-                "private": ""
+                "label": "Хто може це бачити",
+                "label_for": "Хто може бачити розділ «{section}»",
+                "everyone": "Усі",
+                "members": "Учасники",
+                "private": "Лише я"
             },
             "about": {
-                "headline": "",
-                "role": "",
-                "bio": "",
-                "specializations": "",
-                "interests": ""
+                "headline": "Заголовок",
+                "role": "Поточна посада",
+                "bio": "Про мене",
+                "specializations": "Спеціалізації",
+                "interests": "Інтереси"
             },
             "timeline": {
                 "kinds": {
-                    "work": "",
-                    "education": ""
+                    "work": "Робота",
+                    "education": "Освіта"
                 },
-                "present": "",
-                "years": "",
-                "months": ""
+                "present": "Дотепер",
+                "years": "{count, plural, one {# рік} few {# роки} many {# років} other {# року}}",
+                "months": "{count, plural, one {# місяць} few {# місяці} many {# місяців} other {# місяця}}"
             },
             "skills": {
-                "other": ""
+                "other": "Інше"
             },
             "languages": {
-                "native": "",
+                "native": "Рідна",
                 "levels": {
-                    "a1": "",
-                    "a2": "",
-                    "b1": "",
-                    "b2": "",
-                    "c1": "",
-                    "c2": "",
-                    "native": ""
+                    "a1": "Початковий",
+                    "a2": "Елементарний",
+                    "b1": "Середній",
+                    "b2": "Вище середнього",
+                    "c1": "Просунутий",
+                    "c2": "Досконалий",
+                    "native": "Носій мови"
                 }
             },
             "projects": {
-                "none": "",
-                "all": ""
+                "none": "Тут з’являються проєкти, які учасник публікує на вкладці «Проєкти».",
+                "all": "Усі проєкти"
             },
             "series": {
-                "none": "",
-                "all": "",
-                "chapters": "",
-                "complete": ""
+                "none": "{noun, select, novel {Тут з’являються романи учасника.} story {Тут з’являються оповідання учасника.} book {Тут з’являються книжки учасника.} other {Тут з’являються серії учасника.}}",
+                "all": "{noun, select, novel {Усі романи} story {Усі оповідання} book {Усі книжки} other {Усі серії}}",
+                "chapters": "{count, plural, one {# розділ} few {# розділи} many {# розділів} other {# розділу}}",
+                "complete": "Завершено"
             },
             "builds": {
-                "none": "",
-                "all": "",
-                "finished": "",
-                "pin": "",
-                "pinned": ""
+                "none": "Тут з’являються завершені збірки учасника з його гаража.",
+                "all": "Переглянути всі в гаражі",
+                "finished": "Завершено {date}",
+                "pin": "Закріпити збірки",
+                "pinned": "Закріплено"
             },
             "certificates": {
-                "verify": "",
-                "picture_of": ""
+                "verify": "Перевірити",
+                "picture_of": "Зображення «{title}»"
             },
             "links": {
                 "kinds": {
-                    "website": "",
-                    "linkedin": "",
-                    "github": "",
-                    "gitlab": "",
-                    "x": "",
-                    "mastodon": "",
-                    "custom": ""
+                    "website": "Вебсайт",
+                    "linkedin": "LinkedIn",
+                    "github": "GitHub",
+                    "gitlab": "GitLab",
+                    "x": "X",
+                    "mastodon": "Mastodon",
+                    "custom": "Інше посилання"
                 }
             },
             "modals": {
-                "save": "",
-                "month": "",
-                "year": "",
+                "save": "Зберегти",
+                "month": "Місяць",
+                "year": "Рік",
                 "about": {
-                    "title": "",
-                    "headline_placeholder": "",
-                    "headline_help": "",
-                    "role_placeholder": "",
-                    "bio_help": "",
-                    "specializations_placeholder": "",
-                    "interests_placeholder": "",
-                    "list_help": ""
+                    "title": "Основне",
+                    "headline_placeholder": "Розробник повного циклу · PHP і Laravel · Учасник проєктів із відкритим кодом",
+                    "headline_help": "Один рядок, який показується під вашим іменем у досьє.",
+                    "role_placeholder": "Старший розробник серверної частини в Example Software",
+                    "bio_help": "Звичайний текст. Переноси рядків зберігаються.",
+                    "specializations_placeholder": "API, бази даних, швидкодія",
+                    "interests_placeholder": "Відкритий код, доступність, викладання",
+                    "list_help": "Розділяйте комами."
                 },
                 "open_to": {
-                    "title": "",
-                    "help": ""
+                    "title": "Відкритість до пропозицій",
+                    "help": "Повідомте, які пропозиції вас зацікавлять."
                 },
                 "pins": {
-                    "title": "",
-                    "help": "",
-                    "order": "",
-                    "none": "",
-                    "move_up": "",
-                    "move_down": ""
+                    "title": "Закріпити збірки",
+                    "help": "Виберіть до {max, plural, one {# збірки} few {# збірок} many {# збірок} other {# збірки}}, щоб показувати їх першими. Решта відображатиметься в порядку від найновіших завершених.",
+                    "order": "Порядок",
+                    "none": "Нічого не закріплено. Першими відображаються нещодавно завершені збірки.",
+                    "move_up": "Перемістити «{title}» вгору",
+                    "move_down": "Перемістити «{title}» вниз"
                 },
                 "timeline": {
-                    "add": "",
-                    "edit": "",
-                    "kind": "",
-                    "title_label": "",
-                    "title_placeholder": "",
-                    "degree": "",
-                    "degree_placeholder": "",
-                    "organization": "",
-                    "school": "",
-                    "location": "",
-                    "location_placeholder": "",
-                    "start": "",
-                    "end": "",
-                    "ongoing": "",
-                    "ongoing_education": "",
-                    "description": ""
+                    "add": "Додати до досвіду й освіти",
+                    "edit": "Редагувати запис про досвід чи освіту",
+                    "kind": "Тип",
+                    "title_label": "Посада",
+                    "title_placeholder": "Старший розробник серверної частини",
+                    "degree": "Ступінь або курс",
+                    "degree_placeholder": "Ступінь бакалавра з комп’ютерних наук",
+                    "organization": "Компанія або організація",
+                    "school": "Школа або університет",
+                    "location": "Місто й країна",
+                    "location_placeholder": "Берлін, Німеччина",
+                    "start": "Початок",
+                    "end": "Завершення",
+                    "ongoing": "Я досі тут працюю",
+                    "ongoing_education": "Я досі тут навчаюся",
+                    "description": "Опис"
                 },
                 "languages": {
-                    "add": "",
-                    "edit": "",
-                    "name": "",
-                    "name_placeholder": "",
-                    "level": "",
-                    "percent": "",
-                    "percent_help": ""
+                    "add": "Додати мову",
+                    "edit": "Редагувати мову",
+                    "name": "Мова",
+                    "name_placeholder": "Англійська",
+                    "level": "Рівень",
+                    "percent": "Відсоток (необов’язково)",
+                    "percent_help": "Показує смугу поруч із рівнем."
                 },
                 "certificates": {
-                    "add": "",
-                    "edit": "",
-                    "title_label": "",
-                    "title_placeholder": "",
-                    "issuer": "",
-                    "issued": "",
-                    "url": "",
-                    "url_help": "",
-                    "image": "",
-                    "image_help": "",
-                    "remove_image": ""
+                    "add": "Додати сертифікат",
+                    "edit": "Редагувати сертифікат",
+                    "title_label": "Заголовок",
+                    "title_placeholder": "AWS Certified Developer",
+                    "issuer": "Ким видано",
+                    "issued": "Дата видачі",
+                    "url": "Посилання для перевірки",
+                    "url_help": "Укажіть адресу з протоколом https:// для перевірки сертифіката.",
+                    "image": "Зображення",
+                    "image_help": "JPEG, PNG або WebP розміром до 4 МБ. Зображення перетворюється на WebP.",
+                    "remove_image": "Вилучити зображення"
                 },
                 "links": {
-                    "add": "",
-                    "edit": "",
-                    "kind": "",
-                    "url": "",
-                    "label": "",
-                    "label_help": "",
-                    "visibility": "",
-                    "visibility_help": ""
+                    "add": "Додати посилання",
+                    "edit": "Редагувати посилання",
+                    "kind": "Тип",
+                    "url": "Адреса",
+                    "label": "Назва",
+                    "label_help": "Залиште поле порожнім, щоб показувати назву сайту.",
+                    "visibility": "Хто може це бачити",
+                    "visibility_help": "Обмеження видимості розділу поширюється й на посилання."
                 },
                 "skills": {
-                    "add": "",
-                    "edit": "",
-                    "skill": "",
-                    "pick": "",
-                    "new_option": "",
-                    "name": "",
-                    "name_help": "",
-                    "category": "",
-                    "level": "",
-                    "level_percent": ""
+                    "add": "Додати навичку",
+                    "edit": "Редагувати навичку",
+                    "skill": "Навичка",
+                    "pick": "Вибрати навичку",
+                    "new_option": "Немає в списку? Додайте власну…",
+                    "name": "Назва навички",
+                    "name_help": "Адміністратор може додати її до спільного списку.",
+                    "category": "Категорія",
+                    "level": "Рівень",
+                    "level_percent": "Рівень у відсотках"
                 }
             }
         },
         "admin": {
-            "save": "",
-            "saved": "",
+            "save": "Зберегти",
+            "saved": "Збережено",
             "settings": {
-                "default_tab_label": "",
-                "default_tab_help": "",
-                "custom_skills_label": "",
-                "custom_skills_help": "",
-                "pinned_builds_label": "",
-                "pinned_builds_help": ""
+                "default_tab_label": "Відкривати досьє під час переходу до профілю",
+                "default_tab_help": "Профіль учасника відкривається на вкладці досьє, якщо в ній є вміст. Дописи учасника переміщуються до /u/username/posts.",
+                "custom_skills_label": "Учасники можуть додавати власні навички",
+                "custom_skills_help": "Навички, яких немає в каталозі, відображаються нижче. Їх можна додати до каталогу або вилучити.",
+                "pinned_builds_label": "Закріплені збірки",
+                "pinned_builds_help": "За наявності Garage учасники можуть закріпити стільки завершених збірок на початку свого досьє (не більше ніж 6). Значення 0 вимикає закріплення."
             },
             "permissions": {
-                "view": "",
-                "have": "",
-                "edit_any": ""
+                "view": "Переглядати досьє",
+                "have": "Створювати досьє",
+                "edit_any": "Редагувати будь-яке досьє"
             },
             "open_to": {
-                "heading": "",
-                "help": "",
-                "label": "",
-                "add": "",
-                "remove": ""
+                "heading": "Відкритість до пропозицій",
+                "help": "Позначки, які учасники можуть вибрати, щоб указати, які пропозиції їх цікавлять. Залиште назву вбудованої позначки порожньою, щоб використати переклад. Вилучення позначки приховує її в усіх досьє.",
+                "label": "Назва",
+                "add": "Додати позначку",
+                "remove": "Видалити"
             },
             "catalogue": {
-                "heading": "",
-                "help": "",
-                "new_category": "",
-                "add_category": "",
-                "category_name": "",
-                "no_category": "",
-                "move_up": "",
-                "move_down": "",
-                "delete_category": "",
-                "delete_category_confirm": "",
-                "new_skill": "",
-                "new_skill_in": "",
-                "add_skill": "",
-                "uses": "",
-                "delete_skill": "",
-                "delete_skill_confirm": "",
-                "delete_skill_used": ""
+                "heading": "Каталог навичок",
+                "help": "Навички, з яких учасники можуть вибирати, за категоріями.",
+                "new_category": "Нова категорія",
+                "add_category": "Додати категорію",
+                "category_name": "Назва категорії",
+                "no_category": "Без категорії",
+                "move_up": "Перемістити вгору",
+                "move_down": "Перемістити вниз",
+                "delete_category": "Видалити категорію",
+                "delete_category_confirm": "Видалити категорію «{name}»? Її навички залишаться без категорії.",
+                "new_skill": "Нова навичка",
+                "new_skill_in": "Нова навичка в категорії «{category}»",
+                "add_skill": "Додати навичку",
+                "uses": "{count, plural, one {# досьє} few {# досьє} many {# досьє} other {# досьє}}",
+                "delete_skill": "Вилучити «{name}»",
+                "delete_skill_confirm": "Вилучити «{name}» з каталогу?",
+                "delete_skill_used": "Вилучити «{name}»? {count, plural, one {Навичку також буде вилучено з # досьє.} few {Навичку також буде вилучено з # досьє.} many {Навичку також буде вилучено з # досьє.} other {Навичку також буде вилучено з # досьє.}}"
             },
             "pending": {
-                "heading": "",
-                "help": "",
-                "skill": "",
-                "uses": "",
-                "category": "",
-                "actions": "",
-                "promote": "",
-                "delete": "",
-                "none": ""
+                "heading": "Навички, додані учасниками",
+                "help": "Навички, які учасники ввели самостійно. Додайте їх до каталогу, щоб усі могли вибирати їх, або вилучіть.",
+                "skill": "Навичка",
+                "uses": "Використовується в",
+                "category": "Категорія",
+                "actions": "Дії",
+                "promote": "Додати до каталогу",
+                "delete": "Видалити",
+                "none": "Немає навичок, що очікують розгляду."
             }
         }
     }
