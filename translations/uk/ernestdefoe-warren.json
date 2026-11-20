@@ -2,56 +2,56 @@
     "ernestdefoe-warren": {
         "forum": {
             "vote": {
-                "up": "",
-                "down": ""
+                "up": "Проголосувати за",
+                "down": "Проголосувати проти"
             },
             "row": {
-                "posted_by": "",
-                "comments": "",
-                "share": "",
-                "share_copied": ""
+                "posted_by": "Автор: {author}",
+                "comments": "{count, plural, one {Коментарів: #} other {Коментарів: #}}",
+                "share": "Поділитися",
+                "share_copied": "Посилання скопійовано."
             },
             "sort": {
-                "hot": "",
-                "top": ""
+                "hot": "Популярні",
+                "top": "Найкращі"
             },
             "thread": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Згорнути",
+                "expand": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}"
             },
             "sidebar": {
-                "collapse": "",
-                "expand": ""
+                "collapse": "Згорнути бічну панель",
+                "expand": "Показати бічну панель"
             },
             "rail": {
-                "about": "",
-                "hashtags": "",
-                "hashtags_count": "",
-                "members": "",
-                "discussions": "",
-                "comments": "",
-                "create": ""
+                "about": "Про спільноту",
+                "hashtags": "Популярні хештеги",
+                "hashtags_count": "{count, plural, one {# допис} few {# дописи} many {# дописів} other {# допису}}",
+                "members": "Учасники",
+                "discussions": "Обговорення",
+                "comments": "Коментарі",
+                "create": "Створити допис"
             }
         },
         "admin": {
             "settings": {
-                "density_label": "",
-                "density_help": "",
-                "density_card": "",
-                "density_compact": "",
-                "default_sort_label": "",
-                "default_sort_help": "",
-                "default_sort_hot": "",
-                "default_sort_latest": "",
-                "show_about_label": "",
-                "show_about_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
-                "thread_depth_label": "",
-                "thread_depth_help": "",
-                "allow_self_votes_label": "",
-                "allow_self_votes_help": "",
-                "vote_permission_label": ""
+                "density_label": "Щільність рядків",
+                "density_help": "Визначає відступи навколо дописів у стрічці.",
+                "density_card": "Просторий вигляд із більшими відступами й заокругленими кутами",
+                "density_compact": "Компактний вигляд зі щільним списком",
+                "default_sort_label": "Типовий вигляд",
+                "default_sort_help": "Визначає порядок показу на головній сторінці, доки відвідувач не вибере інше сортування.",
+                "default_sort_hot": "Популярні — за оцінкою та давністю",
+                "default_sort_latest": "Найновіші — за часом останньої відповіді",
+                "show_about_label": "Показувати панель «Про спільноту»",
+                "show_about_help": "На правій панелі відображаються опис форуму, його статистика й кнопка створення обговорення. Якщо вимкнете панель, стрічка займе її місце.",
+                "hashtag_count_label": "Кількість хештегів у хмарі",
+                "hashtag_count_help": "Скільки найуживаніших хештегів показувати на бічній панелі. Хмара з’являється, лише якщо ввімкнено розширення Hashtags.",
+                "thread_depth_label": "Максимальний відступ відповіді",
+                "thread_depth_help": "Обмежує зміщення відповіді праворуч. Відповіді з більшою вкладеністю залишаються під батьківськими дописами з тим самим відступом, щоб довга гілка не виходила за межі стовпця.",
+                "allow_self_votes_label": "Дозволити голосувати за власні дописи",
+                "allow_self_votes_help": "Увімкнено за замовчуванням, як у fof/gamification. Вимкніть, якщо вважаєте голосування за власні дописи накручуванням оцінки.",
+                "vote_permission_label": "Голосувати за дописи"
             }
         }
     }
