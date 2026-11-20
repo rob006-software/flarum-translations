@@ -2,48 +2,48 @@
     "ralkage-account-lockout": {
         "api": {
             "error": {
-                "locked_timed": "",
-                "locked_manual": ""
+                "locked_timed": "Обліковий запис заблоковано. Спробуйте ще раз через {minutes} хв.",
+                "locked_manual": "Обліковий запис заблоковано. Зверніться до адміністратора."
             }
         },
         "admin": {
             "settings": {
-                "max_attempts_label": "",
-                "max_attempts_help": "",
-                "lockout_mode_label": "",
-                "lockout_mode_help": "",
-                "lockout_duration_label": "",
-                "lockout_duration_help": ""
+                "max_attempts_label": "Максимальна кількість невдалих спроб входу",
+                "max_attempts_help": "Кількість невдалих спроб входу поспіль, після якої обліковий запис буде заблоковано.",
+                "lockout_mode_label": "Режим блокування",
+                "lockout_mode_help": "Тимчасове блокування знімається автоматично після закінчення заданого часу. Ручне блокування має зняти адміністратор або модератор.",
+                "lockout_duration_label": "Тривалість блокування (у хвилинах)",
+                "lockout_duration_help": "Скільки часу облікові записи залишаються заблокованими. Застосовується лише до тимчасового блокування."
             },
             "permissions": {
-                "unlock_users_label": ""
+                "unlock_users_label": "Розблоковувати облікові записи"
             },
             "users": {
-                "lock_status_column": "",
-                "locked_tooltip": "",
-                "unlock_button": "",
-                "unlock_confirmation": ""
+                "lock_status_column": "Стан блокування",
+                "locked_tooltip": "Цей обліковий запис заблоковано",
+                "unlock_button": "Розблокувати",
+                "unlock_confirmation": "Розблокувати обліковий запис користувача {username}?"
             }
         },
         "forum": {
             "user_controls": {
-                "unlock_button": ""
+                "unlock_button": "Розблокувати"
             },
             "user_badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Обліковий запис заблоковано"
             },
             "unlock_modal": {
-                "title": "",
-                "locked_since": "",
-                "locked_until": "",
-                "manually_locked": "",
-                "failed_attempts": "",
-                "unlock_button": ""
+                "title": "Розблокування облікового запису користувача {username}",
+                "locked_since": "Заблоковано з {date}",
+                "locked_until": "Автоматичне розблокування: {date}",
+                "manually_locked": "Цей обліковий запис заблоковано вручну. Розблокувати його може адміністратор або модератор.",
+                "failed_attempts": "Невдалих спроб входу: {count}",
+                "unlock_button": "Розблокувати обліковий запис"
             },
             "log_in": {
-                "locked_timed": "",
-                "locked_manual": "",
-                "attempts_remaining": ""
+                "locked_timed": "Обліковий запис заблоковано через надто багато невдалих спроб входу. Спробуйте ще раз через {minutes} хв.",
+                "locked_manual": "Обліковий запис заблоковано. Зверніться до адміністратора.",
+                "attempts_remaining": "Неправильні облікові дані. До блокування облікового запису залишилося спроб: {remaining} із {max}."
             }
         }
     }
