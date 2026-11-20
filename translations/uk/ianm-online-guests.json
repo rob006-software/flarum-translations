@@ -2,18 +2,18 @@
     "ianm-online-guests": {
         "admin": {
             "permissions": {
-                "view_online_guests_label": ""
+                "view_online_guests_label": "Переглядати гостей онлайн"
             },
             "settings": {
-                "online_duration_label": "",
-                "cache_duration_label": ""
+                "online_duration_label": "Час перебування онлайн",
+                "cache_duration_label": "Тривалість кешування"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "description": "",
-                "guests_online": ""
+                "title": "Гості онлайн",
+                "description": "Показує кількість гостей, які зараз переглядають форум",
+                "guests_online": "{count, plural, one {гість онлайн} few {гості онлайн} many {гостей онлайн} other {гостя онлайн}}"
             }
         }
     }
