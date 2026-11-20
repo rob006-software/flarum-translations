@@ -2,51 +2,51 @@
     "ernestdefoe-respawn": {
         "admin": {
             "settings": {
-                "mode_label": "",
-                "mode_help": "",
-                "tagline_label": "",
-                "tagline_help": "",
-                "eyebrow_label": "",
-                "eyebrow_help": "",
-                "chips_label": "",
-                "chips_help": "",
-                "mode_option_dark": "",
-                "mode_option_light": "",
-                "tagline_placeholder": "",
-                "eyebrow_placeholder": "",
-                "chips_placeholder": ""
+                "mode_label": "Режим теми",
+                "mode_help": "Типовий колірний режим. Користувачі можуть змінити його кнопкою із сонцем або місяцем у заголовку сайту.",
+                "tagline_label": "Підзаголовок головного банера",
+                "tagline_help": "Текст під привітанням. Залиште поле порожнім, щоб приховати його.",
+                "eyebrow_label": "Малий заголовок банера",
+                "eyebrow_help": "Короткий акцентний рядок над заголовком, наприклад «▸ Гравець підключився».",
+                "chips_label": "Швидкі посилання на теги в банері",
+                "chips_help": "Ідентифікатори тегів через кому, наприклад halo, elden-ring, deals. Для них з’являться кнопки швидкого переходу. Залиште поле порожнім, щоб приховати кнопки.",
+                "mode_option_dark": "Темний",
+                "mode_option_light": "Світлий",
+                "tagline_placeholder": "Заходьте, підвищуйте рівень і долучайтеся до обговорення.",
+                "eyebrow_placeholder": "▸ Гравець підключився",
+                "chips_placeholder": "halo, elden-ring, deals"
             }
         },
         "forum": {
             "hero": {
-                "welcome": "",
-                "new_discussion": "",
-                "search_placeholder": ""
+                "welcome": "Вітаємо на форумі «{forum}»",
+                "new_discussion": "+ Нове обговорення",
+                "search_placeholder": "Пошук обговорень, гравців і тегів…"
             },
             "stats": {
-                "title": "",
-                "posts": "",
-                "discussions": "",
-                "members": "",
-                "online": "",
-                "live": "",
-                "empty": ""
+                "title": "Стан сервера",
+                "posts": "Дописи",
+                "discussions": "Обговорення",
+                "members": "Учасники",
+                "online": "Зараз онлайн",
+                "live": "НАЖИВО",
+                "empty": "—"
             },
             "mode": {
-                "to_light": "",
-                "to_dark": ""
+                "to_light": "Перемкнути на світлу тему",
+                "to_dark": "Перемкнути на темну тему"
             },
             "player": {
-                "level": "",
-                "progress": "",
-                "next": ""
+                "level": "РІВЕНЬ {level} · ДОПИСІВ: {posts}",
+                "progress": "{progress} / 100",
+                "next": "ДАЛІ: РІВЕНЬ {level}"
             },
             "rarity": {
-                "title": "",
-                "legendary": "",
-                "epic": "",
-                "rare": "",
-                "common": ""
+                "title": "Рівні рідкісності",
+                "legendary": "Легендарний",
+                "epic": "Епічний",
+                "rare": "Рідкісний",
+                "common": "Звичайний"
             }
         }
     }
