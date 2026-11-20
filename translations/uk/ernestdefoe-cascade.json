@@ -2,84 +2,84 @@
     "ernestdefoe-cascade": {
         "forum": {
             "preset": {
-                "heading": "",
-                "help": "",
-                "follow_forum": "",
-                "save_failed": ""
+                "heading": "Стиль стрічки",
+                "help": "Визначає, як ви бачите обговорення. Для інших користувачів вигляд зберігається.",
+                "follow_forum": "Використовувати типовий стиль форуму",
+                "save_failed": "Не вдалося зберегти стиль стрічки. Спробуйте ще раз."
             },
             "reactions": {
-                "thumbsup": "",
-                "heart": "",
-                "laughing": "",
-                "tada": "",
-                "confused": "",
-                "thumbsdown": ""
+                "thumbsup": "Уподобати",
+                "heart": "Любов",
+                "laughing": "Сміх",
+                "tada": "Святкування",
+                "confused": "Розгубленість",
+                "thumbsdown": "Не подобається"
             },
             "composer": {
-                "placeholder": "",
-                "cannot_start": ""
+                "placeholder": "Почати обговорення…",
+                "cannot_start": "У вас немає дозволу починати обговорення"
             },
             "row": {
-                "react_button": "",
-                "react_failed": "",
-                "reply_button": "",
-                "share_button": "",
-                "share_copied": "",
-                "view_replies": "",
-                "see_more": "",
-                "see_less": "",
-                "open_post": "",
-                "see_more_loading": "",
-                "replies_failed": ""
+                "react_button": "Залишити реакцію",
+                "react_failed": "Не вдалося зберегти реакцію. Спробуйте ще раз за мить.",
+                "reply_button": "Відповісти",
+                "share_button": "Поділитися",
+                "share_copied": "Посилання скопійовано",
+                "view_replies": "{count, plural, =1 {Переглянути ще одну відповідь} one {Переглянути всі # відповіді} few {Переглянути всі # відповіді} many {Переглянути всі # відповідей} other {Переглянути всі відповіді (#)}}",
+                "see_more": "Показати більше",
+                "see_less": "Показати менше",
+                "open_post": "Відкрити це обговорення",
+                "see_more_loading": "Завантаження…",
+                "replies_failed": "Не вдалося завантажити відповіді. Спробуйте ще раз за мить."
             },
             "modal": {
-                "title": "",
-                "replies_title": "",
-                "no_replies": "",
-                "reply_button": "",
-                "open_full": ""
+                "title": "Допис користувача {username}",
+                "replies_title": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "no_replies": "Відповідей ще немає.",
+                "reply_button": "Написати відповідь",
+                "open_full": "Відкрити повну сторінку"
             },
             "rail": {
-                "hashtags_title": "",
-                "hashtags_count": "",
-                "trending_title": "",
-                "trending_week": "",
-                "trending_month": "",
-                "trending_all": "",
-                "trending_count": ""
+                "hashtags_title": "Хештеги",
+                "hashtags_count": "{count, plural, one {# допис} few {# дописи} many {# дописів} other {# допису}}",
+                "trending_title": "Популярні",
+                "trending_week": "Популярні цього тижня",
+                "trending_month": "Популярні цього місяця",
+                "trending_all": "Найбільш обговорювані",
+                "trending_count": "{count, plural, one {Обговорень: #} other {Обговорень: #}}"
             }
         },
         "admin": {
             "settings": {
-                "preset_label": "",
-                "preset_help": "",
-                "allow_user_preset_label": "",
-                "allow_user_preset_help": "",
-                "widget_hashtags_label": "",
-                "widget_hashtags_help": "",
-                "hashtag_count_label": "",
-                "hashtag_count_help": "",
-                "feed_density_label": "",
-                "feed_density_help": "",
-                "feed_density_excerpt_media": "",
-                "feed_density_excerpt": "",
-                "feed_density_title": "",
-                "excerpt_length_label": "",
-                "excerpt_length_help": "",
-                "widget_trending_label": "",
-                "widget_trending_help": "",
-                "engagement_bar_label": "",
-                "engagement_bar_help": "",
-                "engagement_bar_auto": "",
-                "engagement_bar_on": "",
-                "engagement_bar_off": ""
+                "preset_label": "Стиль оформлення",
+                "preset_help": "Стиль для учасників, які не вибрали власний. У стилі Facebook кожне обговорення має окрему картку на сірому тлі та широку панель дій із підписами. У стилі X обговорення йдуть рядками в одному стовпці з тонкими роздільниками. Стиль Bluesky теж має один стовпець, але роздільники починаються від тексту, відступи більші, а дії при наведенні мають заокруглене тло. Усі три стилі мають спільні налаштування й компонування. Зміна набирає чинності під час наступного завантаження сторінки.",
+                "allow_user_preset_label": "Дозволити учасникам вибирати власний стиль",
+                "allow_user_preset_help": "Додає вибір стилю на сторінку налаштувань учасника. Вибір діє лише для нього. Учасники без власного стилю бачать типовий стиль форуму. Вимкніть, щоб застосувати один стиль для всього форуму.",
+                "widget_hashtags_label": "Віджет хмари хештегів",
+                "widget_hashtags_help": "Хмара найуживаніших хештегів на правій панелі. Розмір хештегів визначається їхнім місцем у рейтингу, тому хмара залишається читабельною навіть за великої різниці в кількості вживань. Працює лише з увімкненим розширенням Hashtags.",
+                "hashtag_count_label": "Кількість хештегів у хмарі",
+                "hashtag_count_help": "Від 6 до 60. Що більше хештегів, то щільніша хмара й помітити найдрібніші написи складніше.",
+                "feed_density_label": "Вміст рядків стрічки",
+                "feed_density_help": "Уривок і зображення надають списку вигляду стрічки. Якщо залишити лише заголовок, Cascade показуватиме звичайний список обговорень і не завантажуватиме уривки.",
+                "feed_density_excerpt_media": "Уривок і зображення",
+                "feed_density_excerpt": "Лише уривок",
+                "feed_density_title": "Лише заголовок",
+                "excerpt_length_label": "Довжина уривка (у символах)",
+                "excerpt_length_help": "Від 40 до 600. Довші уривки займають більше місця на екрані й збільшують обсяг даних під час завантаження кожної сторінки списку.",
+                "widget_trending_label": "Показувати віджет «Популярні»",
+                "widget_trending_help": "Упорядковує теги за кількістю обговорень за останні сім днів. Рейтинг оновлюється щогодини. Без flarum/tags віджет приховано.",
+                "engagement_bar_label": "Панель дій",
+                "engagement_bar_help": "На кожному рядку стрічки є кнопки «Відповісти» й «Поділитися», а якщо ввімкнено fof/reactions, також кнопка реакцій. У режимах «Автоматично» та «Завжди показувати» панель видно, а в режимі «Приховати» її прибрано зі стрічки.",
+                "engagement_bar_auto": "Автоматично",
+                "engagement_bar_on": "Завжди показувати",
+                "engagement_bar_off": "Приховати"
             }
         },
         "lib": {
             "preset": {
-                "wall": "",
-                "timeline": "",
-                "stream": ""
+                "wall": "Стиль Facebook — картки",
+                "timeline": "Стиль X — рядки",
+                "stream": "Стиль Bluesky — рядки з відступами"
             }
         }
     }
