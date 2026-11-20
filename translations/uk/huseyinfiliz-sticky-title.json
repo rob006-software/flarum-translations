@@ -2,41 +2,41 @@
     "huseyinfiliz-sticky-title": {
         "admin": {
             "settings": {
-                "title": "",
-                "mobile_section_title": "",
-                "mobile_scroll_label": "",
-                "mobile_scroll_help": "",
+                "title": "Налаштування закріпленого заголовка",
+                "mobile_section_title": "Налаштування для мобільних пристроїв",
+                "mobile_scroll_label": "Показ заголовка обговорення на мобільних пристроях",
+                "mobile_scroll_help": "Виберіть, коли показувати заголовок обговорення у верхній панелі мобільного інтерфейсу.",
                 "mobile_scroll_options": {
-                    "always": "",
-                    "scroll_down": "",
-                    "scroll_up": "",
-                    "never": ""
+                    "always": "Завжди показувати",
+                    "scroll_down": "Показувати під час прокручування вниз",
+                    "scroll_up": "Показувати під час прокручування вгору",
+                    "never": "Ніколи не показувати"
                 },
-                "scrubber_section_title": "",
-                "scrubber_replace_original_label": "",
-                "scrubber_replace_original_help": "",
+                "scrubber_section_title": "Налаштування смуги навігації дописами",
+                "scrubber_replace_original_label": "Замінювати «Перший допис» заголовком обговорення",
+                "scrubber_replace_original_help": "Виберіть, де показувати заголовок обговорення замість напису «Перший допис».",
                 "scrubber_replace_options": {
-                    "never": "",
-                    "mobile": "",
-                    "desktop": "",
-                    "both": ""
+                    "never": "Ніколи не замінювати",
+                    "mobile": "Лише на мобільних пристроях",
+                    "desktop": "Лише на комп’ютерах",
+                    "both": "На мобільних пристроях і комп’ютерах"
                 },
-                "web_section_title": "",
-                "web_scrubber_title_label": "",
-                "web_scrubber_title_help": "",
-                "tag_color_style_label": "",
-                "tag_color_style_help": "",
+                "web_section_title": "Налаштування для комп’ютерів",
+                "web_scrubber_title_label": "Показувати заголовок над смугою навігації дописами",
+                "web_scrubber_title_help": "Показує заголовок обговорення над смугою навігації дописами на комп’ютерах.",
+                "tag_color_style_label": "Спосіб відображення кольору тегів",
+                "tag_color_style_help": "Виберіть, як позначати колір тегів на бічній панелі.",
                 "tag_color_style_options": {
-                    "background": "",
-                    "text": "",
-                    "border": ""
+                    "background": "Колір тла (типово)",
+                    "text": "Лише колір тексту",
+                    "border": "Лише колір рамки"
                 },
-                "fof_pages_section_title": "",
-                "fof_pages_header_label": "",
-                "fof_pages_header_help": "",
-                "blog_header_label": "",
-                "blog_header_help": "",
-                "save_settings": ""
+                "fof_pages_section_title": "Налаштування FoF Pages",
+                "fof_pages_header_label": "Показувати назву сторінки у верхній панелі мобільного інтерфейсу",
+                "fof_pages_header_help": "Показує назву сторінки у верхній панелі мобільного інтерфейсу під час перегляду сторінок FoF Pages.",
+                "blog_header_label": "Показувати заголовок статті у верхній панелі мобільного інтерфейсу",
+                "blog_header_help": "Показує заголовок статті у верхній панелі мобільного інтерфейсу під час перегляду дописів блогу.",
+                "save_settings": "Зберегти налаштування"
             }
         }
     }
