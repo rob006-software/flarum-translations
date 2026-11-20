@@ -2,31 +2,31 @@
     "ernestdefoe-facebook-post": {
         "admin": {
             "settings": {
-                "enabled_label": "",
-                "enabled_help": "",
-                "destination_type_label": "",
-                "destination_type_help": "",
-                "destination_type_page": "",
-                "destination_type_group": "",
-                "page_id_label": "",
-                "page_id_help": "",
-                "page_id_placeholder": "",
-                "page_access_token_label": "",
-                "page_access_token_help": "",
-                "group_id_label": "",
-                "group_id_help": "",
-                "group_id_placeholder": "",
-                "group_access_token_label": "",
-                "group_access_token_help": "",
-                "graph_api_version_label": "",
-                "graph_api_version_help": ""
+                "enabled_label": "Увімкнути автоматичну публікацію у Facebook",
+                "enabled_help": "Якщо ввімкнено, нові обговорення автоматично публікуються у вибраному місці у Facebook.",
+                "destination_type_label": "Тип місця публікації",
+                "destination_type_help": "Виберіть, де публікувати нові обговорення: на сторінці чи в групі Facebook.",
+                "destination_type_page": "Сторінка Facebook",
+                "destination_type_group": "Група Facebook",
+                "page_id_label": "ID сторінки Facebook",
+                "page_id_help": "Числовий ID вашої сторінки Facebook (наприклад, 123456789012345). Обов’язковий, якщо місцем публікації вибрано сторінку Facebook.",
+                "page_id_placeholder": "123456789012345",
+                "page_access_token_label": "Токен доступу до сторінки",
+                "page_access_token_help": "Безстроковий токен доступу до сторінки з Meta for Developers (потрібен дозвіл pages_manage_posts). Використовується для публікації на сторінці Facebook.",
+                "group_id_label": "ID групи Facebook",
+                "group_id_help": "Числовий ID вашої групи Facebook. Обов’язковий, якщо місцем публікації вибрано групу Facebook.",
+                "group_id_placeholder": "123456789012345",
+                "group_access_token_label": "Токен доступу до групи",
+                "group_access_token_help": "Токен доступу користувача з дозволом publish_to_groups. Використовується для публікації в групі Facebook.",
+                "graph_api_version_label": "Версія Graph API",
+                "graph_api_version_help": "Версія Facebook Graph API, яку використовує розширення (наприклад, v19.0, v20.0). Оновіть її, коли Meta оголосить про припинення підтримки поточної версії. Журнал змін і дати завершення підтримки наведено на https://developers.facebook.com/docs/graph-api/changelog"
             },
             "tag_selector": {
-                "title": "",
-                "help": "",
-                "help_all": "",
-                "no_tags": "",
-                "saving": ""
+                "title": "Публікація у Facebook за основними тегами",
+                "help": "Виберіть основні теги, за якими обговорення публікуватимуться у Facebook.",
+                "help_all": "Не вибирайте жодного тегу, щоб публікувати всі нові обговорення незалежно від тегів.",
+                "no_tags": "Основних тегів не знайдено. Спочатку встановіть і налаштуйте розширення Flarum Tags.",
+                "saving": "Збереження…"
             }
         }
     }
