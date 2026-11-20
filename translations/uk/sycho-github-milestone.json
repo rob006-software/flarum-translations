@@ -3,19 +3,19 @@
         "admin": {
             "repository": "GitHub репозиторій",
             "milestone": "ID віхи",
-            "default_filter": "Фільтр за налаштуванням",
+            "default_filter": "Фільтр за замовчуванням",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "empty_list": "",
+            "empty_list": "Немає завдань або запитів на злиття для показу.",
             "title": "Віха",
             "last_updated": "Останнє оновлення {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
-            "complete": "",
+            "complete": "Виконано <strong>{progress}%</strong>",
             "load_more": "=> core.forum.discussion_list.load_more_button",
             "tasks_done": "{number} з {total}"
         },
