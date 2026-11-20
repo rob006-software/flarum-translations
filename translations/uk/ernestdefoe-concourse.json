@@ -2,78 +2,78 @@
     "ernestdefoe-concourse": {
         "admin": {
             "settings": {
-                "show_profile_label": "",
-                "show_profile_help": "",
-                "show_contributors_label": "",
-                "show_contributors_help": "",
-                "contributors_period_label": "",
-                "contributors_period_help": "",
-                "period_day": "",
-                "period_week": "",
-                "period_month": "",
-                "period_year": "",
-                "contributors_count_label": "",
-                "contributors_count_help": "",
-                "show_participants_label": "",
-                "show_participants_help": "",
-                "footer_links_label": "",
-                "footer_links_help": ""
+                "show_profile_label": "Показувати картку профілю",
+                "show_profile_help": "Угорі правого стовпця показується картка самого читача з обкладинкою, аватаром, відомостями про себе й кнопкою «Редагувати профіль». Гості бачать привітання форуму та кнопки «Зареєструватися» й «Увійти».",
+                "show_contributors_label": "Показувати найактивніших учасників",
+                "show_contributors_help": "Показує, хто отримав найбільше вподобань за вибраний період. Якщо Likes вимкнено, враховує кількість відповідей. До підрахунку входять лише публічні обговорення.",
+                "contributors_period_label": "Початковий період рейтингу учасників",
+                "contributors_period_help": "Період, який відвідувач бачить спочатку. Він може вибрати сьогоднішній день, поточний тиждень, місяць або рік.",
+                "period_day": "Сьогодні",
+                "period_week": "Цього тижня",
+                "period_month": "Цього місяця",
+                "period_year": "Цього року",
+                "contributors_count_label": "Кількість учасників у рейтингу",
+                "contributors_count_help": "Від 1 до 10.",
+                "show_participants_label": "Показувати учасників обговорення",
+                "show_participants_help": "Невеликі аватари під кожним обговоренням у списку й на його бічній панелі.",
+                "footer_links_label": "Посилання внизу бічної панелі",
+                "footer_links_help": "По одному посиланню на рядок у форматі «Підпис | адреса». Можна вказати шлях до сторінки форуму (/p/about) або повну адресу з https://."
             }
         },
         "forum": {
             "sidebar": {
-                "label": "",
-                "home": "",
-                "following": "",
-                "admin": "",
-                "tags": "",
-                "all_tags": "",
-                "more": "",
-                "unread": ""
+                "label": "Навігація форуму",
+                "home": "Головна",
+                "following": "Відстежувані",
+                "admin": "Адміністрування",
+                "tags": "Теги",
+                "all_tags": "Усі теги",
+                "more": "Більше",
+                "unread": "Нова активність"
             },
             "head": {
-                "search": ""
+                "search": "Результати пошуку за запитом «{q}»"
             },
             "blocks": {
-                "label": ""
+                "label": "Профіль і спільнота"
             },
             "profile": {
-                "label": "",
-                "edit": "",
-                "welcome": ""
+                "label": "Ваш профіль",
+                "edit": "Редагувати профіль",
+                "welcome": "Вітаємо на форумі «{forum}»"
             },
             "contributors": {
-                "title": "",
-                "period_label": "",
+                "title": "Найактивніші учасники",
+                "period_label": "Період",
                 "period": {
-                    "day": "",
-                    "week": "",
-                    "month": "",
-                    "year": ""
+                    "day": "Сьогодні",
+                    "week": "Щотижня",
+                    "month": "Щомісяця",
+                    "year": "За рік"
                 },
-                "likes": "",
-                "posts": "",
+                "likes": "{count, plural, one {{formatted} вподобання} few {{formatted} вподобання} many {{formatted} вподобань} other {{formatted} вподобання}}",
+                "posts": "{count, plural, one {{formatted} коментар} few {{formatted} коментарі} many {{formatted} коментарів} other {{formatted} коментаря}}",
                 "empty": {
-                    "day": "",
-                    "week": "",
-                    "month": "",
-                    "year": ""
+                    "day": "Сьогодні ще нікого немає.",
+                    "week": "Цього тижня ще нікого немає.",
+                    "month": "Цього місяця ще нікого немає.",
+                    "year": "Цього року ще нікого немає."
                 }
             },
             "row": {
-                "likes": "",
-                "participants": ""
+                "likes": "{count, plural, one {# вподобання першого допису} few {# вподобання першого допису} many {# вподобань першого допису} other {# вподобання першого допису}}",
+                "participants": "{count, plural, one {# учасник обговорення} few {# учасники обговорення} many {# учасників обговорення} other {# учасника обговорення}}"
             },
             "panel": {
-                "label": "",
-                "replies": "",
-                "participants": "",
-                "views": ""
+                "label": "Про обговорення",
+                "replies": "{count, plural, one {відповідь} few {відповіді} many {відповідей} other {відповіді}}",
+                "participants": "{count, plural, one {учасник} few {учасники} many {учасників} other {учасника}}",
+                "views": "{count, plural, one {перегляд} few {перегляди} many {переглядів} other {перегляду}}"
             },
             "phone": {
-                "tabs": "",
-                "messages": "",
-                "more": ""
+                "tabs": "Основне",
+                "messages": "Повідомлення",
+                "more": "Більше"
             }
         }
     }
