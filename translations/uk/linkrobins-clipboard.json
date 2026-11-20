@@ -2,30 +2,30 @@
     "linkrobins-clipboard": {
         "admin": {
             "settings": {
-                "copy_enable_label": "",
-                "copy_enable_help": "",
-                "themes_label": "",
-                "themes_help": "",
+                "copy_enable_label": "Показувати кнопку копіювання в блоках коду",
+                "copy_enable_help": "Якщо ввімкнено, у кожному блоці коду в дописах з’явиться кнопка. Відвідувачі зможуть скопіювати код до буфера обміну.",
+                "themes_label": "Стиль кнопки копіювання",
+                "themes_help": "Виберіть оформлення кнопки копіювання. Теми відрізняються піктограмами, кольорами й розташуванням кнопки.",
                 "themes": {
-                    "default": "",
-                    "github": "",
-                    "lingcoder": "",
-                    "csdn": "",
-                    "cnblog": "",
-                    "jianshu": "",
-                    "segmentfault": ""
+                    "default": "За замовчуванням",
+                    "github": "GitHub",
+                    "lingcoder": "LingCoder",
+                    "csdn": "CSDN",
+                    "cnblog": "cnBlogs",
+                    "jianshu": "Jian Shu",
+                    "segmentfault": "SegmentFault"
                 },
-                "codeLang_label": "",
-                "codeLang_help": ""
+                "codeLang_label": "Показувати назву мови в блоках коду",
+                "codeLang_help": "Показувати визначену мову програмування в правому верхньому куті кожного блоку коду (наприклад, python, bash, javascript). Потрібне підсвічування синтаксису, яке додає класи language-X до елементів коду."
             }
         },
         "forum": {
-            "action_copy": "",
-            "copy_code_aria": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Копіювати",
+            "copy_code_aria": "Копіювати код",
+            "ok_btn": "Скопійовано",
+            "error_btn": "Помилка",
+            "no_support": "Не підтримується",
+            "msg": "Натисніть {actionKey}, щоб виконати дію «{action}»"
         }
     }
 }
