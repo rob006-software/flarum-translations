@@ -2,16 +2,16 @@
     "linkrobins-toc": {
         "admin": {
             "settings": {
-                "max_depth_label": "",
-                "max_depth_help": "",
-                "min_headings_label": "",
-                "min_headings_help": ""
+                "max_depth_label": "Максимальний рівень заголовків",
+                "max_depth_help": "Найглибший рівень заголовків у змісті (1–3). Типове значення — 3.",
+                "min_headings_label": "Мінімальна кількість заголовків",
+                "min_headings_help": "Показувати зміст лише в дописах, що містять щонайменше вказану кількість заголовків. Типове значення — 2."
             }
         },
         "forum": {
             "toc": {
-                "heading": "",
-                "copy_link": ""
+                "heading": "Зміст",
+                "copy_link": "Посилання скопійовано"
             }
         }
     }
