@@ -2,50 +2,50 @@
     "huseyinfiliz-custom-profile-page": {
         "admin": {
             "settings": {
-                "tab_title": "",
-                "tab_icon": "",
-                "tab_icon_help": "",
-                "url_slug": "",
-                "url_slug_help": "",
-                "content_format": "",
-                "format_markdown": "",
-                "format_html": "",
-                "format_text": "",
-                "allowed_html_tags": "",
-                "allowed_html_tags_help": "",
-                "default_template": "",
-                "default_template_help": "",
-                "enable_media_embeds": "",
-                "enable_media_embeds_help": ""
+                "tab_title": "Назва вкладки профілю",
+                "tab_icon": "Піктограма вкладки (клас Font Awesome)",
+                "tab_icon_help": "Наприклад: fas fa-file-alt, fas fa-user, fas fa-star",
+                "url_slug": "Сегмент URL",
+                "url_slug_help": "Шлях до власної сторінки. Наприклад, «customPage» дає шлях /u/username/customPage. Використовуйте лише літери, цифри, дефіси й підкреслення.",
+                "content_format": "Формат вмісту",
+                "format_markdown": "Markdown",
+                "format_html": "HTML",
+                "format_text": "Звичайний текст",
+                "allowed_html_tags": "Дозволені теги HTML",
+                "allowed_html_tags_help": "Список дозволених тегів HTML через кому (наприклад, b,i,u,strong,em,a). Користувачам відображатимуться лише ці теги.",
+                "default_template": "Типовий шаблон",
+                "default_template_help": "Цей вміст автоматично з’явиться в редакторі, коли користувач уперше створить власну сторінку. Залиште поле порожнім, щоб редактор відкривався без вмісту.",
+                "enable_media_embeds": "Вбудовувати медіа",
+                "enable_media_embeds_help": "Автоматично перетворює посилання YouTube на вбудовані відеопрогравачі. Якщо вимкнено, посилання відображатимуться як звичайні текстові посилання."
             },
             "permissions": {
-                "edit_own": "",
-                "view": "",
-                "moderate": ""
+                "edit_own": "Редагувати власну сторінку профілю",
+                "view": "Переглядати власні сторінки учасників",
+                "moderate": "Модерувати власні сторінки учасників (редагувати сторінку будь-якого користувача)"
             }
         },
         "forum": {
             "profile_tab": {
-                "loading": "",
-                "empty_own": "",
-                "empty_other": "",
-                "edit_button": "",
-                "save_button": "",
-                "cancel_button": ""
+                "loading": "Завантаження...",
+                "empty_own": "Ви ще не створили власної сторінки.",
+                "empty_other": "Тут поки немає вмісту.",
+                "edit_button": "Редагувати сторінку",
+                "save_button": "Зберегти",
+                "cancel_button": "Скасувати"
             },
             "edit_modal": {
-                "title": "",
-                "content_label": "",
-                "content_placeholder": "",
-                "submit_button": "",
-                "error": "",
-                "markdown_help": "",
-                "html_help": "",
-                "text_help": ""
+                "title": "Редагування власної сторінки профілю",
+                "content_label": "Вміст",
+                "content_placeholder": "Введіть вміст сторінки…",
+                "submit_button": "Зберегти зміни",
+                "error": "Не вдалося зберегти зміни. Спробуйте ще раз.",
+                "markdown_help": "Можна використовувати розмітку Markdown: **жирний текст**, *курсив*, [посилання](url), `code` тощо.",
+                "html_help": "Можна використовувати такі теги HTML: {tags}",
+                "text_help": "Лише звичайний текст. Розмітка HTML і Markdown недоступна."
             },
             "errors": {
-                "permission_denied": "",
-                "load_failed": ""
+                "permission_denied": "У вас немає дозволу на перегляд цієї сторінки",
+                "load_failed": "Не вдалося завантажити власну сторінку"
             }
         }
     }
