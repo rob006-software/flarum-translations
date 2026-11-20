@@ -1,70 +1,70 @@
 {
     "ernestdefoe-studio": {
         "admin": {
-            "accent_label": "",
-            "accent_help": "",
-            "ground_label": "",
-            "ground_help": "",
-            "fonts_label": "",
-            "fonts_help": "",
-            "rail_label": "",
-            "rail_help": "",
-            "chips_label": "",
-            "chips_help": "",
-            "toggle_label": "",
-            "toggle_help": "",
-            "counts_label": "",
-            "counts_help": ""
+            "accent_label": "Колір акценту",
+            "accent_help": "Колір кнопки «Поділитися роботою», активних посилань і позначок непрочитаного. Залиште поле порожнім, щоб використовувати червоний колір Studio.",
+            "ground_label": "Тло сторінки (світлий режим)",
+            "ground_help": "Тло галереї. Залиште поле порожнім, щоб використовувати теплий сірий колір Studio.",
+            "fonts_label": "Використовувати шрифти Studio",
+            "fonts_help": "Schibsted Grotesk для основного тексту та Instrument Serif для заголовків завантажуються з вашого форуму. Вимкніть, щоб використовувати шрифти форуму.",
+            "rail_label": "Використовувати режим галереї в темному режимі",
+            "rail_help": "У темному режимі на широких екранах галерея займає всю ширину. Замість бічної панелі з’являється смуга піктограм, а кожна картка відображається як зображення з текстом поверх нього.",
+            "chips_label": "Показувати кнопку для кожного основного тега",
+            "chips_help": "Ряд кнопок над галереєю дає змогу вибрати вид творчості. Кожна кнопка відповідає основному тегу.",
+            "toggle_label": "Показувати кнопку режиму галереї",
+            "toggle_help": "Кнопка над галереєю перемикає світлий режим і темний режим галереї.",
+            "counts_label": "Показувати кількість відповідей на картках",
+            "counts_help": "Показує кількість відповідей під кожною карткою, а за наявності FoF Discussion Views також кількість переглядів."
         },
         "forum": {
-            "share": "",
+            "share": "Поділитися роботою",
             "chips": {
-                "label": "",
-                "everything": ""
+                "label": "Види творчості",
+                "everything": "Усі роботи"
             },
             "mode": {
-                "gallery": "",
-                "light": ""
+                "gallery": "Режим галереї",
+                "light": "Світлий режим"
             },
             "card": {
-                "replies": "",
-                "views": "",
-                "pictures": "",
-                "new": ""
+                "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "views": "{count, plural, one {Переглядів: #} other {Переглядів: #}}",
+                "pictures": "{count, plural, one {# зображення} few {# зображення} many {# зображень} other {# зображення}}",
+                "new": "Нове"
             },
             "stage": {
-                "thumbnails": "",
-                "show": "",
-                "label": "",
-                "previous": "",
-                "next": ""
+                "thumbnails": "Зображення",
+                "show": "Показати зображення {number} із {count}",
+                "label": "Зображення {number} із {count}. Переходьте між зображеннями клавішами зі стрілками.",
+                "previous": "Попереднє зображення",
+                "next": "Наступне зображення"
             },
             "creator": {
-                "label": "",
-                "works": "",
-                "followers": "",
-                "follow": "",
-                "following": "",
-                "appreciate": "",
-                "appreciated": "",
-                "links_label": "",
-                "builds": "",
-                "projects": "",
-                "gallery": ""
+                "label": "Про цю роботу",
+                "works": "{count, plural, one {# робота} few {# роботи} many {# робіт} other {# роботи}}",
+                "followers": "{count, plural, one {# підписник} few {# підписники} many {# підписників} other {# підписника}}",
+                "follow": "Підписатися на {name}",
+                "following": "Відстежується",
+                "appreciate": "{count, plural, =0 {Уподобати} one {Уподобати · #} few {Уподобати · #} many {Уподобати · #} other {Уподобати · #}}",
+                "appreciated": "{count, plural, =1 {Уподобано один раз} one {Уподобано # раз} few {Уподобано # рази} many {Уподобано # разів} other {Уподобано # разу}}",
+                "links_label": "Більше робіт від {name}",
+                "builds": "Збірки",
+                "projects": "Проєкти",
+                "gallery": "Галерея"
             },
             "spec": {
-                "label": "",
-                "medium": "",
-                "pictures": "",
-                "posted": "",
-                "replies": "",
-                "views": ""
+                "label": "Подробиці",
+                "medium": "Вид творчості",
+                "pictures": "Зображення",
+                "posted": "Опубліковано",
+                "replies": "Відповіді",
+                "views": "Перегляди"
             },
             "more": {
-                "title": ""
+                "title": "Інші роботи від {name}"
             },
             "work": {
-                "replies": ""
+                "replies": "{count, plural, =0 {Відповідей ще немає} one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}"
             }
         }
     }
