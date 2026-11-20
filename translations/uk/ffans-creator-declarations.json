@@ -2,120 +2,120 @@
     "ffans-creator-declarations": {
         "admin": {
             "permissions": {
-                "allow_edit_own_label": "",
-                "moderate_label": ""
+                "allow_edit_own_label": "Дозволити редагувати власні заяви про вміст",
+                "moderate_label": "Редагувати заяви про вміст у дописах"
             },
             "settings": {
-                "required_discussion_label": "",
-                "required_discussion_help": "",
-                "required_reply_label": "",
-                "required_reply_help": "",
-                "max_label": "",
-                "show_in_user_post_lists_label": "",
-                "show_in_user_post_lists_help": "",
-                "order_label": "",
-                "order_help": ""
+                "required_discussion_label": "Вимагати заяву під час створення обговорення",
+                "required_discussion_help": "Щоб опублікувати обговорення, потрібно вибрати принаймні одну заяву.",
+                "required_reply_label": "Вимагати заяву під час відповіді",
+                "required_reply_help": "Щоб опублікувати відповідь, потрібно вибрати принаймні одну заяву.",
+                "max_label": "Максимальна кількість заяв на допис",
+                "show_in_user_post_lists_label": "Показувати заяви про вміст на вкладці «Дописи» у профілях",
+                "show_in_user_post_lists_help": "Якщо ввімкнено, заяви про вміст відображаються разом із дописами на вкладці «Дописи» в профілях користувачів.",
+                "order_label": "Порядок заяв",
+                "order_help": "Розділяйте ключі заяв комами. Відсутні ключі буде додано в кінець автоматично. Доступні ключі: original, repost, reference, ai_generated, fictional, personal_opinion, professional, sensitive, self_promotion і sponsored."
             }
         },
         "forum": {
             "composer": {
-                "choose": "",
-                "selected": ""
+                "choose": "Додати заяви про вміст",
+                "selected": "Вибрано заяв: {count}"
             },
             "controls": {
-                "edit": ""
+                "edit": "Редагувати заяви про вміст"
             },
             "display": {
-                "declaration_format": "",
-                "open_details": "",
-                "original_notice": "",
-                "original_summary": "",
-                "repost_notice": "",
-                "reference_notice": "",
-                "reference_summary": "",
-                "personal_opinion_summary": "",
-                "declaration_separator": ""
+                "declaration_format": "<strong>Заява автора:</strong> {declarations}.",
+                "open_details": "Переглянути подробиці заяви автора",
+                "original_notice": "Оригінальний вміст. Відтворення потребує дозволу.",
+                "original_summary": "Оригінальний вміст, відтворення потребує дозволу",
+                "repost_notice": "Джерело цього вмісту — {source}.",
+                "reference_notice": "Цей вміст посилається на {source}.",
+                "reference_summary": "Вміст містить посилання або цитату",
+                "personal_opinion_summary": "Особиста думка, лише для ознайомлення",
+                "declaration_separator": "; "
             },
             "info_modal": {
-                "title": "",
-                "heading": "",
-                "explanation": "",
-                "disclaimer": "",
-                "source": "",
-                "reference": "",
-                "author_note": ""
+                "title": "Про цю заяву",
+                "heading": "Чому я бачу це повідомлення?",
+                "explanation": "Це повідомлення додав автор, який указав для допису такі заяви: «{declarations}».",
+                "disclaimer": "Форум не розглядав і не перевіряв ці заяви. Розглядайте їх разом із вмістом допису та робіть власні висновки.",
+                "source": "Джерело: ",
+                "reference": "Посилання: ",
+                "author_note": "Примітка автора: "
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "save_button": "",
-                "selection_count": "",
-                "link_title_placeholder": ""
+                "title": "Заяви про вміст",
+                "help": "Виберіть заяви, які стосуються допису. Вони допомагають читачам зрозуміти вміст. Форум не підтверджує їх, і вони не відображають його поглядів.",
+                "save_button": "Зберегти заяви",
+                "selection_count": "Вибрано {selected} / {max}",
+                "link_title_placeholder": "Назва посилання (необов’язково)"
             }
         },
         "lib": {
             "validation": {
-                "required": "",
-                "too_many": "",
-                "invalid_payload": "",
-                "invalid_selection": "",
-                "details_too_long": "",
-                "title_too_long": "",
-                "source_url_required": "",
-                "source_conflict": ""
+                "required": "Потрібна принаймні одна заява.",
+                "too_many": "Вибрано забагато заяв.",
+                "invalid_payload": "Дані заяви мають неправильний формат.",
+                "invalid_selection": "Вибрано неприпустимі заяви.",
+                "details_too_long": "Подробиці заяви можуть містити до 500 символів.",
+                "title_too_long": "Назва посилання може містити до 100 символів.",
+                "source_url_required": "Для повторно опублікованого чи процитованого вмісту потрібна дійсна URL-адреса джерела.",
+                "source_conflict": "Заяви про оригінальний, повторно опублікований і процитований вміст не можна вибирати одночасно."
             },
             "categories": {
-                "source": "",
-                "authenticity": "",
-                "safety": "",
-                "commercial": ""
+                "source": "Джерело вмісту",
+                "authenticity": "Автентичність",
+                "safety": "Безпека й попередження про вміст",
+                "commercial": "Розкриття комерційних інтересів"
             },
             "declarations": {
                 "original": {
-                    "label": "",
-                    "help": ""
+                    "label": "Оригінальний вміст",
+                    "help": "Вміст переважно створив автор. Це не пряма повторна публікація. Для відтворення потрібен дозвіл."
                 },
                 "repost": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Повторно опублікований вміст",
+                    "help": "Вміст переважно повторно опубліковано з матеріалу іншого автора або джерела.",
+                    "details_placeholder": "Введіть URL оригінального джерела (обов’язково)"
                 },
                 "reference": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Посилання на джерело або цитата",
+                    "help": "Вміст посилається на матеріал іншого автора чи джерела або цитує його.",
+                    "details_placeholder": "Введіть URL оригінального джерела (обов’язково)"
                 },
                 "ai_generated": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Вміст, згенерований ШІ",
+                    "help": "Увесь вміст або значну його частину створено чи відредаговано за допомогою генеративного ШІ.",
+                    "details_placeholder": "За бажанням укажіть інструмент ШІ або додайте контекст"
                 },
                 "fictional": {
-                    "label": "",
-                    "help": ""
+                    "label": "Вигаданий або постановочний вміст",
+                    "help": "Вміст містить вигадані події, рольову гру або постановочні сцени."
                 },
                 "personal_opinion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Особиста думка або погляд",
+                    "help": "Вміст переважно передає особисті погляди, судження або досвід автора. Він не є загальновизнаним фактом чи професійним висновком."
                 },
                 "professional": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Небезпечна поведінка, не повторюйте",
+                    "help": "Повторення цієї дії без належного досвіду може наражати на небезпеку.",
+                    "details_placeholder": "За бажанням додайте інформацію про безпеку"
                 },
                 "sensitive": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Потенційно тривожний вміст",
+                    "help": "Вміст може містити тривожні, моторошні або чутливі описи.",
+                    "details_placeholder": "За бажанням уточніть попередження про вміст"
                 },
                 "self_promotion": {
-                    "label": "",
-                    "help": ""
+                    "label": "Містить рекламну або промоційну інформацію",
+                    "help": "Вміст рекламує товари чи послуги автора, його організації або третіх осіб. Автор може отримувати партнерську комісію чи іншу винагороду."
                 },
                 "sponsored": {
-                    "label": "",
-                    "help": "",
-                    "details_placeholder": ""
+                    "label": "Платне партнерство, спонсорство або майновий інтерес",
+                    "help": "Третя сторона надала оплату, подарунки або іншу матеріальну вигоду.",
+                    "details_placeholder": "За бажанням назвіть партнера або опишіть відносини"
                 }
             }
         }
