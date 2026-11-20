@@ -3,29 +3,29 @@
         "forum": {
             "autodiscovery": {
                 "forum_activity": "Активність форуму",
-                "forum_new_discussions": "Нові дискусії на форумі",
+                "forum_new_discussions": "Нові обговорення на форумі",
                 "tag_activity": "Активність по тегу «{tag}»",
-                "tag_new_discussions": "Дискусії в тегу «{tag}»",
-                "discussion_last_posts": "Ця дискусія",
+                "tag_new_discussions": "Обговорення з тегом «{tag}»",
+                "discussion_last_posts": "Це обговорення",
                 "user_last_posts": "Дописи та коментарі цього користувача"
             },
             "feeds": {
                 "entries": {
                     "user_posts": {
-                        "title_reply": "Re: {discussion}"
+                        "title_reply": "Відповідь: {discussion}"
                     }
                 },
                 "titles": {
                     "main_title": "{forum_name}",
                     "main_subtitle": "Останні дописи на форумі",
-                    "main_d_title": "Нові дискусії на {forum_name}",
-                    "main_d_subtitle": "Найновіші дискусії на форумі",
+                    "main_d_title": "Нові обговорення на {forum_name}",
+                    "main_d_subtitle": "Найновіші обговорення на форумі",
                     "tag_title": "Активність в тезі «{tag}»",
                     "tag_subtitle": "Останні дописи в тезі «{tag}»",
-                    "tag_d_title": "Нові дискусії в тезі «{tag}»",
-                    "tag_d_subtitle": "Найновіші дискусії в тезі «{tag}»",
+                    "tag_d_title": "Нові обговорення в тезі «{tag}»",
+                    "tag_d_subtitle": "Найновіші обговорення в тезі «{tag}»",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Останні повідомлення в цій дискусії",
+                    "discussion_subtitle": "Останні дописи в цьому обговоренні",
                     "user_title": "{username}",
                     "user_subtitle": "Останні повідомлення та коментарі цього користувача."
                 }
@@ -47,7 +47,7 @@
                 "entries-count": "Скільки записів в одній стрічці?",
                 "forum-icons": {
                     "label": "Показати на форумі посилання на стрічку Atom/RSS",
-                    "help": "Показувати значок у всіх обговореннях, тегах та дискусіях, щоб забезпечити легкий доступ до стрічки (стрічок)."
+                    "help": "Показувати значки на сторінках «Усі обговорення», тегів та окремих обговорень для зручного доступу до стрічок."
                 },
                 "forum-link-format": {
                     "label": "Формат стрічки форуму",
