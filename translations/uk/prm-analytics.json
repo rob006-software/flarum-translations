@@ -2,58 +2,58 @@
     "prm-analytics": {
         "admin": {
             "title": "Аналітика",
-            "subtitle": "",
+            "subtitle": "Поточний стан форуму, його зростання й навантаження на команду",
             "refresh": "Оновити",
-            "loading": "",
-            "error": "",
+            "loading": "Завантаження аналітики…",
+            "error": "Не вдалося завантажити аналітику.",
             "range": {
-                "label": "",
+                "label": "Період",
                 "7d": "7 днів",
                 "30d": "30 днів",
-                "90d": ""
+                "90d": "90 днів"
             },
             "kpis": {
                 "users": "Учасники",
                 "discussions": "Обговорення",
                 "posts": "Дописи",
-                "likes": "",
-                "reports": "",
-                "tickets": "",
-                "warnings": "",
-                "trade": "",
+                "likes": "Уподобання",
+                "reports": "Скарги",
+                "tickets": "Звернення",
+                "warnings": "Попередження",
+                "trade": "Торгівля",
                 "pending_reports": "В очікуванні",
-                "open_tickets": "",
-                "vs_prev": "",
-                "now": ""
+                "open_tickets": "Відкриті звернення",
+                "vs_prev": "порівняно з попереднім періодом",
+                "now": "зараз"
             },
             "charts": {
-                "growth": "",
-                "engagement": "",
-                "moderation": "",
-                "trade": "",
-                "reports_status": "",
-                "reports_reason": "",
-                "tickets_status": "",
-                "tickets_category": "",
-                "trade_mix": "",
-                "top_tags": "",
-                "activity": ""
+                "growth": "Зростання",
+                "engagement": "Залученість",
+                "moderation": "Навантаження на модераторів",
+                "trade": "Кількість відгуків про угоди",
+                "reports_status": "Скарги за станом",
+                "reports_reason": "Скарги за причиною",
+                "tickets_status": "Звернення за станом",
+                "tickets_category": "Звернення за категорією",
+                "trade_mix": "Розподіл оцінок угод",
+                "top_tags": "Найпопулярніші теги",
+                "activity": "Розподіл активності"
             },
             "series": {
-                "users": "",
-                "discussions": "",
-                "posts": "",
-                "likes": "",
-                "reports": "",
-                "tickets": "",
-                "warnings": "",
-                "trade": ""
+                "users": "Нові учасники",
+                "discussions": "Нові обговорення",
+                "posts": "Нові дописи",
+                "likes": "Уподобання",
+                "reports": "Скарги",
+                "tickets": "Відкрито звернень",
+                "warnings": "Попередження",
+                "trade": "Відгуки"
             },
-            "empty": "",
+            "empty": "За цей період даних немає",
             "soft": {
-                "moderation_off": "",
-                "trade_off": "",
-                "likes_off": ""
+                "moderation_off": "Розширення модерації не виявлено. Діаграми роботи команди приховано.",
+                "trade_off": "Trade Feedback не виявлено. Діаграми торгівлі приховано.",
+                "likes_off": "Таблицю вподобань не знайдено."
             }
         }
     }
