@@ -2,187 +2,187 @@
     "xxb-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "Додати",
+                "edit": "Редагувати",
+                "delete": "Видалити",
+                "fishes": "Риби",
+                "rounds": "Раунди"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Рейтинг гри «Злови рибу»",
+                "settings": "Налаштування гри «Злови рибу»"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Новий раунд"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Нова риба"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Редагування раунду «{name}»"
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Редагування риби «{name}»"
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Ви зловили рибу!",
+                "named-by": "Назву дав",
+                "placed-by": "Сховав",
+                "congratulation": "Вітаємо, ви зловили рибу! Усього спіймано: {catch_count}.",
+                "name": "Назва риби",
+                "name-help": "За бажанням перейменуйте рибу. Назва має відповідати правилам форуму.",
+                "placement-help": "Ви можете сховати рибу в нещодавньому обговоренні або профілі активного користувача. Спіймати рибу, яку ви сховали, не можна.",
+                "submit-name-place-later": "Зберегти назву й вибрати схованку",
+                "submit-name": "Зберегти назву",
+                "submit-place-later": "Я виберу схованку",
+                "submit-continue": "Продовжити",
+                "submit-name-place-random": "Зберегти назву й сховати рибу випадково",
+                "submit-place-random": "Сховати рибу випадково"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Назва",
+                "name-help": "Публічна назва раунду, яка відображається в банері та рейтингу.",
+                "starts-at": "Час початку",
+                "ends-at": "Час завершення",
+                "starting-pack": "Стартовий набір",
+                "starting-pack-help": "Додає кілька риб, щоб ви швидше почали гру.",
+                "create": "Створити раунд",
+                "save": "Зберегти раунд",
+                "delete": "Видалити раунд",
+                "delete-confirmation": "Видалити раунд «{name}»?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Назва",
+                "name-help": "Поточна назва риби. Її можуть змінювати гравці з дозволом перейменовувати риб.",
+                "create": "Створити рибу",
+                "save": "Зберегти рибу",
+                "delete": "Видалити рибу",
+                "delete-confirmation": "Видалити рибу «{name}»?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Увійдіть, щоб ловити рибу"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "Зображення риби «{name}»",
+                "missing": "Зображення риби відсутнє"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Раунд «{name}». Спіймайте якомога більше риб до {time}",
+                "rankings": "Переглянути рейтинг"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Кошик із рибою",
+                "drag-help": "Перетягніть рибу на обговорення, допис або профіль користувача",
+                "time": "Сховати до {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Завантаження...",
+                "title": "Раунди",
+                "new": "Новий раунд",
+                "name": "Назва",
+                "start": "Початок",
+                "end": "Завершення",
+                "actions": "Дії",
+                "edit": "Редагувати",
+                "fishes": "Риби"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Завантаження...",
+                "title": "Риби в раунді «{name}»",
+                "new": "Нова риба",
+                "image": "Зображення",
+                "name": "Назва",
+                "user-name": "Хто останнім дав назву",
+                "user-place": "Хто останнім сховав",
+                "placement": "Поточне розташування",
+                "actions": "Дії",
+                "edit": "Редагувати",
+                "no-user-name": "Без перейменування",
+                "no-user-place": "Випадково",
+                "upload": "Завантажити нове зображення",
+                "new-from-image": "Створити риб масовим імпортом зображень"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "Завантаження...",
+                "title": "Рейтинг раунду «{name}»",
+                "rank": "Ім’я",
+                "count": "Спіймано риб",
+                "user": "Користувач"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Рейтинги",
+                "permission": "У вас немає дозволу переглядати рейтинги",
+                "nothing": "Активних раундів немає"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "Тут можна залишити рибу",
+                "missing-from-store": "Рибу не знайдено в сховищі даних"
             }
         },
         "admin": {
             "settings": {
-                "user": "",
-                "user-age": "",
-                "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
-                "discussion-tags": "",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "user": "Користувачі",
+                "user-age": "Скільки днів може минути від останньої активності користувача, щоб у його профілі можна було сховати рибу",
+                "user-probability": "Імовірність сховати рибу в профілі користувача (%)",
+                "discussion": "Обговорення",
+                "discussion-age": "Максимальний вік обговорення, у якому можна сховати рибу (у днях)",
+                "discussion-tags": "Дозволені теги",
+                "discussion-tags-unavailable": "Налаштування недоступне, бо розширення Tags вимкнено.",
+                "discussion-tags-help": "Якщо не вибрати жодного тега, можна вибрати будь-яке обговорення, що відповідає обмеженням часу вище. Якщо теги вибрано, обговорення має належати принаймні до одного з них. Імовірність визначає шанс вибору тега після перевірки всіх попередніх варіантів. Останній тег завжди є резервним. Переконайтеся, що він має принаймні одне придатне обговорення.\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Тег",
+                    "probability": "Імовірність"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "Виберіть тег",
+                    "add": "Додати до дозволених тегів",
+                    "down": "Перемістити вниз",
+                    "up": "Перемістити вгору",
+                    "delete": "Вилучити з дозволених тегів"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Резервний тег",
+                    "single-line": "Для ймовірності потрібно принаймні два теги"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "Дописи",
+                "post-age": "Максимальний вік допису, у якому можна сховати рибу (у днях)",
+                "post-probability": "Імовірність сховати рибу в дописі замість обговорення (%)",
+                "general": "Загальні",
+                "time-to-place": "Час на вибір схованки перед випадковим розміщенням (у хвилинах)",
+                "alert-round": "Показувати на головній сторінці сповіщення з назвою й тривалістю раунду",
+                "animate-flip": "Віддзеркалювати зображення риб залежно від напрямку руху"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Бачити риб",
+                "list-rankings": "Переглядати сторінку рейтингів",
+                "participate": "Брати участь у раундах і ловити рибу",
+                "choose-place": "Вибирати схованку для спійманої риби",
+                "choose-name": "Давати назву спійманій рибі",
+                "moderate": "Модерувати раунди й риб"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "tag-not-allowed": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "Риба № {number}",
+            "wrong-catch-placement": "Тут немає риби. Можливо, хтось устиг спіймати її раніше.",
+            "too-many-placement-models": "Одночасно можна вибрати лише одну схованку",
+            "invalid-discussion-id": "Схоже, обговорення не існує. Можливо, його нещодавно видалили.",
+            "invalid-post-id": "Схоже, допис не існує. Можливо, його нещодавно видалили.",
+            "invalid-user-id": "Схоже, користувача немає. Можливо, обліковий запис нещодавно видалили.",
+            "model-deleted": "У видаленому обговоренні або дописі не можна сховати рибу",
+            "model-private": "У приватному обговоренні або дописі не можна сховати рибу",
+            "tag-not-allowed": "Під цим тегом не можна сховати рибу",
+            "inactive-discussion": "Не можна сховати рибу в обговоренні, у якому не було активності понад {days} дн.",
+            "inactive-post": "Не можна сховати рибу в дописі, створеному понад {days} дн. тому",
+            "inactive-user": "Не можна сховати рибу в профілі користувача, який не був активним понад {days} дн.",
+            "non-comment-post": "Риб можна ховати лише в дописах-коментарях",
+            "user-suspended": "Не можна сховати рибу в профілі призупиненого користувача",
+            "random-error": "Не вдалося вибрати випадкову схованку",
+            "cannot-catch-own-fish": "Ви не можете спіймати рибу, яку сховали самі",
+            "cannot-catch-hold-fish": "Попередній гравець має випустити рибу, перш ніж ви зможете її спіймати",
+            "fish-update-wrong-user": "Ви більше не можете редагувати цю рибу. Імовірно, її вже спіймав хтось інший.",
+            "fish-update-expired": "Час на редагування риби минув. Її вже сховано у випадковому місці.",
+            "round-not-started": "Цей раунд ще не почався",
+            "round-finished": "Цей раунд завершився"
         }
     }
 }

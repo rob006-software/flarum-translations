@@ -1,35 +1,35 @@
 {
     "resofire_blog_cards": {
         "forum": {
-            "replies": "",
-            "unreadReplies": "",
-            "show_all_participants": "",
-            "more_participants": "",
-            "modal_title": "",
-            "load_more": ""
+            "replies": "Відповіді: {count}",
+            "unreadReplies": "Непрочитані відповіді: {count}",
+            "show_all_participants": "Показати всіх учасників",
+            "more_participants": "{count}+",
+            "modal_title": "Учасники ({count})",
+            "load_more": "Завантажити ще"
         },
         "admin": {
             "settings": {
-                "onIndexPage_label": "",
-                "onIndexPage_help": "",
-                "tagIds_label": "",
-                "tagIds_help": "",
-                "fullWidth_label": "",
-                "fullWidth_help": "",
-                "showParticipants_label": "",
-                "showParticipants_help": ""
+                "onIndexPage_label": "Показувати картки в списку обговорень",
+                "onIndexPage_help": "Якщо ввімкнено, на сторінці зі списком обговорень відображатимуться картки.",
+                "tagIds_label": "Показувати лише для вибраних тегів",
+                "tagIds_help": "Виберіть теги, на сторінках яких відображатимуться картки. Якщо теги не вибрано, картки відображатимуться на всіх сторінках тегів.",
+                "fullWidth_label": "Картки на всю ширину",
+                "fullWidth_help": "Якщо ввімкнено, кожна картка займатиме всю ширину рядка. Зазвичай у рядку дві картки.",
+                "showParticipants_label": "Показувати аватари учасників",
+                "showParticipants_help": "Якщо ввімкнено, внизу кожної картки відображатиметься ряд аватарів учасників."
             },
-            "tools_heading": "",
-            "recalculate_help": "",
-            "recalculate_button": "",
-            "recalculating_button": "",
-            "recalculate_success": "",
-            "recalculate_error": "",
-            "recalculate_modal_title": "",
-            "recalculate_modal_warning": "",
-            "recalculate_modal_progress": "",
-            "recalculate_modal_complete": "",
-            "recalculate_modal_close": ""
+            "tools_heading": "Інструменти",
+            "recalculate_help": "Оновлює список аватарів учасників для всіх обговорень. Запустіть після першого встановлення розширення на наявному форумі або якщо дані в картках застаріли.",
+            "recalculate_button": "Оновити списки учасників",
+            "recalculating_button": "Оновлення…",
+            "recalculate_success": "Готово. Оновлено {count} обговорень за {duration} с.",
+            "recalculate_error": "Сталася помилка. Спробуйте ще раз або скористайтеся командою в терміналі.",
+            "recalculate_modal_title": "Оновлення списків учасників",
+            "recalculate_modal_warning": "Залишайтеся в цьому вікні до завершення оновлення.",
+            "recalculate_modal_progress": "Оброблено {processed} із {total} обговорень",
+            "recalculate_modal_complete": "Оновлення завершено. Оброблено {total} обговорень.",
+            "recalculate_modal_close": "Закрити"
         }
     }
 }
