@@ -2,90 +2,90 @@
     "linkrobins-referral": {
         "forum": {
             "profile": {
-                "tab": "",
-                "invite_code_title": "",
-                "invite_code_help": "",
-                "copy": "",
-                "copy_link": "",
-                "qr_button": "",
-                "total_referrals": "",
-                "no_referrals": "",
-                "not_eligible": ""
+                "tab": "Запрошення",
+                "invite_code_title": "Ваш код запрошення",
+                "invite_code_help": "Поділіться кодом або посиланням. Якщо хтось перейде за вашим посиланням, код буде автоматично заповнено під час реєстрації.",
+                "copy": "Копіювати",
+                "copy_link": "Скопіювати посилання-запрошення",
+                "qr_button": "QR-код",
+                "total_referrals": "Усього запрошених",
+                "no_referrals": "Запрошених ще немає. Поділіться своїм кодом запрошення!",
+                "not_eligible": "Ви ще не відповідаєте умовам отримання особистого коду. Продовжуйте брати участь у житті форуму й перевірте знову пізніше."
             },
             "sign_up": {
-                "invite_code_label": "",
-                "invite_code_label_required": "",
-                "invite_code_placeholder": ""
+                "invite_code_label": "Код запрошення",
+                "invite_code_label_required": "Код запрошення *",
+                "invite_code_placeholder": "Код запрошення"
             },
             "user_card": {
-                "referrals_singular": "",
-                "referrals_plural": ""
+                "referrals_singular": "Запрошених: {count}",
+                "referrals_plural": "Запрошених: {count}"
             },
             "notifications": {
-                "registered_text": "",
-                "someone": "",
-                "group_label": ""
+                "registered_text": "Користувач {name} зареєструвався за вашим кодом запрошення",
+                "someone": "Хтось",
+                "group_label": "Запрошення"
             },
             "settings": {
-                "notify_registered_label": ""
+                "notify_registered_label": "Хтось реєструється за вашим кодом запрошення"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "require_label": "",
-                "require_help": "",
-                "enabled": "",
-                "disabled": ""
+                "title": "Загальні",
+                "require_label": "Вимагати код запрошення під час реєстрації",
+                "require_help": "Якщо ввімкнено, для завершення реєстрації потрібен дійсний код запрошення.",
+                "enabled": "Увімкнено",
+                "disabled": "Вимкнено"
             },
             "eligibility": {
-                "title": "",
-                "help": "",
-                "groups_label": "",
-                "groups_help": "",
-                "min_posts_label": "",
-                "min_age_label": "",
-                "whitelist_label": "",
-                "whitelist_help": ""
+                "title": "Умови отримання особистого коду запрошення",
+                "help": "Визначає, хто отримує особистий код запрошення. Адміністратори й користувачі зі списку винятків мають право на код завжди. Щоб пропустити умову, залиште її порожньою або вкажіть 0. Якщо задано кілька умов, користувач має відповідати всім.",
+                "groups_label": "Дозволені групи",
+                "groups_help": "Якщо вибрати групи, особистий код отримають лише їхні учасники. Щоб дозволити всім групам, залиште список порожнім.",
+                "min_posts_label": "Мінімальна кількість дописів",
+                "min_age_label": "Мінімальний вік облікового запису (у днях)",
+                "whitelist_label": "Список винятків",
+                "whitelist_help": "Імена користувачів, які завжди отримують код незалежно від умов вище. Розділяйте імена комами, пробілами або переносами рядків."
             },
             "campaign": {
-                "title": "",
-                "help": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "expiry_label": "",
-                "create": "",
-                "none": "",
-                "col_code": "",
-                "col_label": "",
-                "col_uses": "",
-                "col_expiry": "",
-                "no_expiry": "",
-                "expired": "",
-                "delete": "",
-                "qr": "",
-                "confirm_delete": ""
+                "title": "Коди кампаній",
+                "help": "Окремі коди запрошення, не прив’язані до користувачів. Підходять для соцмереж і рекламних кампаній. Використання цих кодів враховується в статистиці, але не зараховується жодному користувачеві.",
+                "label_label": "Підпис",
+                "label_placeholder": "Наприклад: запуск у Twitter",
+                "expiry_label": "Строк дії (необов’язково)",
+                "create": "Створити код",
+                "none": "Кодів кампаній ще немає.",
+                "col_code": "Код",
+                "col_label": "Підпис",
+                "col_uses": "Використань",
+                "col_expiry": "Діє до",
+                "no_expiry": "Ніколи",
+                "expired": "Строк дії минув",
+                "delete": "Видалити",
+                "qr": "Показати QR-код",
+                "confirm_delete": "Видалити код кампанії? Зареєструватися з цим кодом більше не вдасться."
             }
         },
         "lib": {
             "qr": {
-                "title": "",
-                "download": ""
+                "title": "QR-код запрошення ({code})",
+                "download": "Завантажити PNG"
             }
         },
         "api": {
-            "invalid_expiry": "",
-            "label_too_long": ""
+            "invalid_expiry": "Некоректна дата закінчення строку дії.",
+            "label_too_long": "Підпис задовгий."
         },
         "email": {
-            "registered_subject": "",
-            "registered_body": "",
-            "view_profile": "",
-            "someone": ""
+            "registered_subject": "Користувач {name} зареєструвався за вашим кодом запрошення",
+            "registered_body": "Гарна новина! Користувач {name} щойно зареєструвався на форумі за вашим кодом запрошення.",
+            "view_profile": "Переглянути профіль",
+            "someone": "Хтось"
         },
         "validation": {
-            "required": "",
-            "invalid": ""
+            "required": "Для реєстрації потрібен код запрошення.",
+            "invalid": "Недійсний код запрошення."
         }
     }
 }
