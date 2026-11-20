@@ -1,59 +1,59 @@
 {
     "ernestdefoe-pigeonhole": {
         "api": {
-            "too_many_folders": "",
-            "unknown_folder": "",
-            "invalid_order": ""
+            "too_many_folders": "Можна створити до {count} тек.",
+            "unknown_folder": "Такої теки немає.",
+            "invalid_order": "Не вдалося зчитати порядок тек."
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Теки повідомлень учасника, їхні назви, кольори й піктограми.",
+                "anonymize_description": "Видаляє теки повідомлень учасника.",
+                "delete_description": "Видаляє теки повідомлень учасника."
             }
         },
         "forum": {
             "nav": {
-                "folders": "",
-                "all": "",
-                "archive": "",
-                "more": "",
-                "fewer": "",
-                "manage_folders": "",
-                "new_folder": "",
-                "unread_count": ""
+                "folders": "Теки",
+                "all": "Усі",
+                "archive": "Архів",
+                "more": "Показати всі теки",
+                "fewer": "Згорнути список тек",
+                "manage_folders": "Керувати теками",
+                "new_folder": "Нова тека",
+                "unread_count": "Непрочитаних: {count}"
             },
             "dialog": {
-                "move_to": "",
-                "remove_from_folder": "",
-                "archive": "",
-                "unarchive": "",
-                "archived_alert": "",
-                "in_folder": ""
+                "move_to": "Перемістити до теки",
+                "remove_from_folder": "Вилучити з теки",
+                "archive": "Архівувати",
+                "unarchive": "Повернути з архіву",
+                "archived_alert": "Розмову архівовано. Вона повернеться до списку, коли надійде нове повідомлення.",
+                "in_folder": "У теці «{folder}»"
             },
             "list": {
-                "folder_empty": "",
-                "archive_empty": ""
+                "folder_empty": "Ця тека поки порожня. Відкрийте розмову й виберіть «Перемістити до теки» в меню ⋯ або перетягніть розмову на цю теку.",
+                "archive_empty": "Архів порожній. Архівована розмова залишатиметься тут, доки хтось знову не напише в ній."
             },
             "manage": {
-                "title": "",
-                "empty": "",
-                "new_button": "",
-                "edit_button": "",
-                "delete_button": "",
-                "delete_confirm": "",
-                "drag_handle": "",
-                "count": ""
+                "title": "Теки",
+                "empty": "Тек ще немає. Ваші теки видно лише вам. Інші учасники бачать розмови у власному списку.",
+                "new_button": "Нова тека",
+                "edit_button": "Редагувати",
+                "delete_button": "Видалити",
+                "delete_confirm": "Видалити теку «{name}»? Розмови з неї повернуться до списку повідомлень.",
+                "drag_handle": "Перетягніть, щоб змінити порядок",
+                "count": "{count, plural, one {# розмова} few {# розмови} many {# розмов} other {# розмови}}"
             },
             "edit": {
-                "new_title": "",
-                "edit_title": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_help": "",
-                "no_color": "",
-                "save_button": ""
+                "new_title": "Нова тека",
+                "edit_title": "Редагування теки",
+                "name_label": "Назва",
+                "color_label": "Колір",
+                "icon_label": "Значок",
+                "icon_help": "Піктограма Font Awesome, наприклад fas fa-briefcase.",
+                "no_color": "Немає",
+                "save_button": "Зберегти"
             }
         }
     }
