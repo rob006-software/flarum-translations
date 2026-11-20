@@ -54,6 +54,7 @@
                 "remove": "Remove from {the_noun}",
                 "back": "{noun, select, novel {All novels} story {All stories} book {All books} other {All series}}"
             },
+            "list_badge": "{noun, select, novel {Novel} story {Story} book {Book} other {Series}}: {title}",
             "chapter_bar": {
                 "label": "Chapter {number} of {count}",
                 "previous": "Previous",
@@ -120,7 +121,8 @@
                     "story": "Story",
                     "book": "Book"
                 },
-                "show_nav": "Show a link in the sidebar"
+                "show_nav": "Show a link in the sidebar",
+                "list_badge": "Show series badge in discussion lists"
             },
             "permissions": {
                 "view": "View series",
