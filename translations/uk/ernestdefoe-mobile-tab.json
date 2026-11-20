@@ -1,51 +1,51 @@
 {
     "ernestdefoe-mobile-tab": {
         "admin": {
-            "tabs_label": "",
-            "tabs_help": "",
-            "add_tab": "",
-            "reset_default": "",
-            "raised": "",
-            "remove": "",
-            "preview_caption": "",
-            "field_type": "",
-            "field_icon": "",
-            "field_label": "",
-            "field_url": "",
-            "field_visibility": "",
-            "field_center": "",
-            "label_placeholder": "",
-            "label_placeholder_profile": "",
-            "url_placeholder": "",
-            "auto_avatar": "",
-            "auto_site_image": "",
+            "tabs_label": "Вкладки нижньої панелі",
+            "tabs_help": "Налаштуйте нижню панель для мобільних пристроїв. Кожен рядок відповідає вкладці. Виберіть тип, задайте піктограму Font Awesome і підпис, укажіть, кому показувати вкладку. Позначте «Піднята (у центрі)», щоб зробити її піднятою центральною кнопкою. Змінюйте порядок стрілками. Типи «Логотип сайту» й «Піктограма сайту» автоматично показують відповідне зображення. Залиште список порожнім, щоб використовувати типову панель.",
+            "add_tab": "Додати вкладку",
+            "reset_default": "Відновити типові налаштування",
+            "raised": "Піднята (у центрі)",
+            "remove": "Видалити вкладку",
+            "preview_caption": "Попередній перегляд на телефоні. Змінюйте порядок стрілками.",
+            "field_type": "Тип",
+            "field_icon": "Значок",
+            "field_label": "Підпис",
+            "field_url": "URL",
+            "field_visibility": "Показувати для",
+            "field_center": "У центрі",
+            "label_placeholder": "необов’язково",
+            "label_placeholder_profile": "Профіль або «{username}», щоб показати ім’я учасника",
+            "url_placeholder": "/path або https://…",
+            "auto_avatar": "аватар (автоматично)",
+            "auto_site_image": "зображення сайту (автоматично)",
             "type": {
-                "home": "",
-                "tags": "",
-                "search": "",
-                "notifications": "",
-                "profile": "",
-                "new-discussion": "",
-                "login": "",
-                "logo": "",
-                "favicon": "",
-                "link": ""
+                "home": "Головна",
+                "tags": "Теги",
+                "search": "Пошук",
+                "notifications": "Сповіщення",
+                "profile": "Профіль (аватар)",
+                "new-discussion": "Нове обговорення",
+                "login": "Увійти",
+                "logo": "Логотип сайту",
+                "favicon": "Піктограма сайту",
+                "link": "Власне посилання"
             },
             "visibility": {
-                "all": "",
-                "in": "",
-                "out": ""
+                "all": "Усі",
+                "in": "Користувачі, які увійшли",
+                "out": "Гості"
             }
         },
         "lib": {
             "tab": {
-                "home": "",
-                "profile": "",
-                "tags": "",
-                "notifications": "",
-                "login": "",
-                "search": "",
-                "new": ""
+                "home": "Головна",
+                "profile": "Профіль",
+                "tags": "Теги",
+                "notifications": "Сповіщення",
+                "login": "Увійти",
+                "search": "Пошук",
+                "new": "Нове"
             }
         }
     }
