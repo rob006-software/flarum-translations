@@ -1,57 +1,57 @@
 {
     "linkrobins-shoutbox": {
         "forum": {
-            "nav": "",
-            "page_title": "",
+            "nav": "Мінічат",
+            "page_title": "Мінічат",
             "widget": {
-                "title": "",
-                "placeholder": "",
-                "send": "",
-                "login_to_shout": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_error": "",
-                "load_error": "",
-                "rate_limited": "",
-                "unknown_user": "",
-                "time_seconds": "",
-                "time_minutes": "",
-                "time_hours": ""
+                "title": "Мінічат",
+                "placeholder": "Напишіть повідомлення…",
+                "send": "Надіслати",
+                "login_to_shout": "Увійдіть, щоб написати в мінічаті!",
+                "delete": "Видалити",
+                "delete_confirm": "Видалити це повідомлення?",
+                "delete_error": "Не вдалося видалити повідомлення. Спробуйте ще раз.",
+                "load_error": "Не вдалося завантажити повідомлення.",
+                "rate_limited": "Ви надсилаєте повідомлення надто швидко. Трохи зачекайте.",
+                "unknown_user": "Користувач",
+                "time_seconds": "{count} с",
+                "time_minutes": "{count} хв",
+                "time_hours": "{count} год"
             }
         },
         "api": {
-            "empty_content": "",
-            "rate_limited": ""
+            "empty_content": "Введіть повідомлення.",
+            "rate_limited": "Ви надсилаєте повідомлення надто швидко. Трохи зачекайте."
         },
         "admin": {
             "settings": {
-                "display_mode_label": "",
-                "display_mode_help": "",
-                "display_mode_both": "",
-                "display_mode_widget": "",
-                "display_mode_page": "",
-                "order_label": "",
-                "order_help": "",
-                "order_oldest_first": "",
-                "order_newest_first": "",
-                "composer_position_label": "",
-                "composer_position_help": "",
-                "composer_position_auto": "",
-                "composer_position_bottom": "",
-                "composer_position_top": "",
-                "height_label": "",
-                "height_help": "",
-                "poll_interval_label": "",
-                "poll_interval_help": "",
-                "cooldown_label": "",
-                "cooldown_help": "",
-                "max_rows_label": "",
-                "max_rows_help": ""
+                "display_mode_label": "Режим показу",
+                "display_mode_help": "Виберіть, де показувати мінічат на форумі.",
+                "display_mode_both": "Сторінка й віджет",
+                "display_mode_widget": "Лише віджет",
+                "display_mode_page": "Лише сторінка",
+                "order_label": "Порядок повідомлень",
+                "order_help": "Визначає, де з’являються нові повідомлення. За замовчуванням поле введення розташовано поруч із найновішим повідомленням. Це можна змінити нижче.",
+                "order_oldest_first": "Спочатку старіші (найновіші внизу)",
+                "order_newest_first": "Спочатку новіші (найновіші вгорі)",
+                "composer_position_label": "Розташування поля введення",
+                "composer_position_help": "Визначає, де відображається поле для повідомлень. За замовчуванням воно поруч із найновішим повідомленням відповідно до порядку сортування.",
+                "composer_position_auto": "Поруч із найновішим повідомленням (типово)",
+                "composer_position_bottom": "Завжди внизу",
+                "composer_position_top": "Завжди вгорі",
+                "height_label": "Висота області повідомлень (у пікселях)",
+                "height_help": "Висота області повідомлень у пікселях. Типове значення — 320.",
+                "poll_interval_label": "Інтервал оновлення (секунди)",
+                "poll_interval_help": "Як часто відкритий мінічат перевіряє наявність нових повідомлень. Більші значення зменшують навантаження на активному форумі. Від 10 до 300, типове значення — 30.",
+                "cooldown_label": "Пауза між повідомленнями (у секундах)",
+                "cooldown_help": "Мінімальна пауза між повідомленнями одного користувача. Типове значення — 3 секунди.",
+                "max_rows_label": "Максимальна кількість збережених повідомлень",
+                "max_rows_help": "Старіші повідомлення понад цей ліміт видаляються. Типове значення — 500."
             },
             "permissions": {
-                "view": "",
-                "shout": "",
-                "moderate": ""
+                "view": "Переглядати мінічат",
+                "shout": "Писати в мінічаті",
+                "moderate": "Видаляти чужі повідомлення в мінічаті"
             }
         }
     }
