@@ -2,45 +2,45 @@
     "prm-notification": {
         "admin": {
             "permissions": {
-                "manage_label": ""
+                "manage_label": "Керувати кампаніями сповіщень сайту"
             },
             "settings": {
-                "new_user_hours_label": "",
-                "new_user_hours_help": ""
+                "new_user_hours_label": "Період для нових реєстрацій (у годинах)",
+                "new_user_hours_help": "Користувачі, які зареєструвалися за вказану кількість годин, належать до аудиторії «Нові реєстрації»."
             },
             "page": {
-                "title": "",
-                "create": "",
-                "empty": "",
+                "title": "Кампанії сповіщень",
+                "create": "Нова кампанія",
+                "empty": "Кампаній ще немає.",
                 "title_field": "Заголовок",
-                "body_field": "",
-                "link_url": "",
-                "link_label": "",
-                "audiences": "",
-                "audience_new_users": "",
-                "audience_new_users_help": "",
-                "audience_members": "",
-                "audience_members_help": "",
-                "audience_guests": "",
-                "audience_guests_help": "",
-                "is_active": "",
-                "starts_at": "",
-                "ends_at": "",
-                "save": "",
+                "body_field": "Текст",
+                "link_url": "URL посилання (необов’язково)",
+                "link_label": "Підпис посилання (необов’язково)",
+                "audiences": "Аудиторії",
+                "audience_new_users": "Нові реєстрації",
+                "audience_new_users_help": "Користувачі, які нещодавно зареєструвалися (у межах періоду для нових реєстрацій).",
+                "audience_members": "Усі учасники (рекламний пакет)",
+                "audience_members_help": "Учасники, які увійшли в обліковий запис. Після повернення вони побачать нові опубліковані кампанії.",
+                "audience_guests": "Гості й незареєстровані відвідувачі (розширений рекламний пакет)",
+                "audience_guests_help": "Усі відвідувачі, які не ввійшли, незалежно від того, як вони потрапили на сайт (із пошуку, за посиланням або за введеною адресою). Гості також побачать дзвіночок сповіщень.",
+                "is_active": "Активно",
+                "starts_at": "Початок (необов’язково)",
+                "ends_at": "Завершення (необов’язково)",
+                "save": "Зберегти кампанію",
                 "delete": "Видалити",
                 "edit": "Редагувати",
                 "cancel": "Скасувати",
-                "status_active": "",
-                "status_inactive": ""
+                "status_active": "Активна",
+                "status_inactive": "Неактивна"
             }
         },
         "forum": {
-            "group_label": "",
-            "bell_tooltip": "",
-            "empty": "",
-            "dismiss": "",
-            "open_link": "",
-            "unread": ""
+            "group_label": "Оголошення сайту",
+            "bell_tooltip": "Сповіщення сайту",
+            "empty": "Немає сповіщень",
+            "dismiss": "Закрити",
+            "open_link": "Відкрити",
+            "unread": "Нових сповіщень: {count}"
         }
     }
 }
