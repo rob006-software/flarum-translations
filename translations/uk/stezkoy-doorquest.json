@@ -2,84 +2,84 @@
     "stezkoy-doorquest": {
         "forum": {
             "sign_up": {
-                "question_label": "",
-                "answer_placeholder": "",
-                "invalid_answer": "",
-                "answer_required": ""
+                "question_label": "Запитання",
+                "answer_placeholder": "Ваша відповідь",
+                "invalid_answer": "Неправильна відповідь. Спробуйте ще раз.",
+                "answer_required": "Щоб зареєструватися, потрібно відповісти на запитання."
             }
         },
         "admin": {
             "settings": {
-                "heading": "",
-                "total_questions": "",
-                "search": "",
-                "create_question_button": ""
+                "heading": "Налаштування Doorquest",
+                "total_questions": "Запитань: {count}",
+                "search": "Пошук запитань…",
+                "create_question_button": "Створити запитання"
             },
             "list": {
-                "heading": "",
+                "heading": "Запитання",
                 "columns": {
-                    "id": "",
-                    "question": "",
-                    "answer": "",
-                    "group": "",
-                    "max_uses": "",
-                    "activates_user": "",
-                    "uses": "",
-                    "created_by": "",
-                    "manage": ""
+                    "id": "ID",
+                    "question": "Запитання",
+                    "answer": "Відповідь",
+                    "group": "Група",
+                    "max_uses": "Максимум використань",
+                    "activates_user": "Активує обліковий запис",
+                    "uses": "Використань",
+                    "created_by": "Автор",
+                    "manage": "Керування"
                 },
                 "actions": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "Редагувати",
+                    "delete": "Видалити"
                 },
                 "content": {
-                    "no_group": "",
-                    "no_created_by": "",
-                    "delete": "",
-                    "warning": "",
+                    "no_group": "Немає",
+                    "no_created_by": "—",
+                    "delete": "Видалити запитання «{question}»?",
+                    "warning": "Досягнуто ліміту",
                     "uses": {
-                        "used_times": "",
-                        "total_uses": ""
+                        "used_times": "Залишилося: {remainingUses}",
+                        "total_uses": "Використано: {totalUses}"
                     },
-                    "invalid_column": ""
+                    "invalid_column": "—"
                 },
                 "pagination": {
-                    "first_page_button": "",
-                    "back_button": "",
-                    "next_button": "",
-                    "last_page_button": "",
-                    "page_counter": ""
+                    "first_page_button": "Перша сторінка",
+                    "back_button": "Попередня сторінка",
+                    "next_button": "Наступна сторінка",
+                    "last_page_button": "Остання сторінка",
+                    "page_counter": "Сторінка {current} із {total}"
                 }
             },
             "modals": {
                 "create_question": {
-                    "title": "",
+                    "title": "Створення запитання",
                     "question": {
-                        "label": "",
-                        "help": ""
+                        "label": "Запитання",
+                        "help": "Запитання, яке користувачі побачать під час реєстрації."
                     },
                     "answer": {
-                        "label": "",
-                        "help": ""
+                        "label": "Відповідь",
+                        "help": "Правильна відповідь (без урахування регістру)."
                     },
                     "group": {
-                        "label": "",
-                        "help": ""
+                        "label": "Додати до групи",
+                        "help": "Користувачів, які дадуть правильну відповідь, буде додано до цієї групи."
                     },
                     "max_uses": {
-                        "label": "",
-                        "help": ""
+                        "label": "Максимум використань",
+                        "help": "Максимальна кількість відповідей на це запитання. Значення 0 знімає обмеження."
                     },
                     "activates_user": {
-                        "label": "",
-                        "help": ""
+                        "label": "Автоматична активація",
+                        "help": "Автоматично активувати обліковий запис без підтвердження електронної пошти."
                     },
-                    "submit_button": "",
-                    "submit_and_create_another_button": ""
+                    "submit_button": "Створити",
+                    "submit_and_create_another_button": "Створити й додати ще"
                 },
                 "edit_question": {
-                    "title": "",
-                    "submit_button": ""
+                    "title": "Редагування запитання",
+                    "submit_button": "Зберегти зміни"
                 }
             }
         }
