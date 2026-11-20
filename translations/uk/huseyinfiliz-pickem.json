@@ -2,132 +2,132 @@
     "huseyinfiliz-pickem": {
         "lib": {
             "common": {
-                "season": "",
-                "team": "",
-                "week": "",
-                "match": "",
-                "pick": "",
-                "home": "",
-                "away": "",
-                "draw": "",
-                "date": "",
-                "points": "",
-                "status": "",
-                "vs": "",
-                "result": "",
-                "score": ""
+                "season": "Сезон",
+                "team": "Команда",
+                "week": "Тиждень",
+                "match": "Матч",
+                "pick": "Прогноз",
+                "home": "Головна",
+                "away": "Гості",
+                "draw": "Нічия",
+                "date": "Дата",
+                "points": "Бали",
+                "status": "Статус",
+                "vs": "проти",
+                "result": "Результат",
+                "score": "Рахунок"
             },
             "nav": {
-                "pickem": "",
-                "matches": "",
-                "my_picks": "",
-                "leaderboard": "",
-                "settings": "",
-                "teams": "",
-                "seasons": "",
-                "weeks": ""
+                "pickem": "Прогнози",
+                "matches": "Матчі",
+                "my_picks": "Мої прогнози",
+                "leaderboard": "Таблиця лідерів",
+                "settings": "Налаштування",
+                "teams": "Команди",
+                "seasons": "Сезони",
+                "weeks": "Тижні"
             },
             "status": {
-                "scheduled": "",
-                "closed": "",
-                "finished": "",
-                "pending": "",
-                "correct": "",
-                "incorrect": ""
+                "scheduled": "Заплановано",
+                "closed": "Закрито",
+                "finished": "Завершено",
+                "pending": "В очікуванні",
+                "correct": "Правильний",
+                "incorrect": "Неправильний"
             },
             "headers": {
-                "rank": "",
-                "player": "",
-                "correct": "",
-                "total": "",
-                "accuracy": "",
-                "logo": "",
-                "match_date": "",
-                "cutoff_date": "",
-                "slug": "",
-                "name": "",
-                "week_number": ""
+                "rank": "Місце",
+                "player": "Гравець",
+                "correct": "Правильних",
+                "total": "Усього",
+                "accuracy": "Точність",
+                "logo": "Логотип",
+                "match_date": "Дата матчу",
+                "cutoff_date": "Кінцевий термін",
+                "slug": "Ідентифікатор у посиланні",
+                "name": "Назва",
+                "week_number": "Номер тижня"
             },
             "form": {
-                "name": "",
-                "slug": "",
-                "logo_url": "",
-                "start_date": "",
-                "end_date": "",
-                "week_number": "",
-                "home_team": "",
-                "away_team": "",
-                "select_team": "",
-                "select_season": "",
-                "no_week": "",
-                "allow_draw": "",
-                "home_score": "",
-                "away_score": "",
-                "search_team": "",
-                "select_week": ""
+                "name": "Назва",
+                "slug": "Ідентифікатор у посиланні",
+                "logo_url": "URL логотипа",
+                "start_date": "Дата початку",
+                "end_date": "Дата завершення",
+                "week_number": "Номер тижня",
+                "home_team": "Команда господарів",
+                "away_team": "Команда гостей",
+                "select_team": "Вибрати команду",
+                "select_season": "Вибрати сезон",
+                "no_week": "Без тижня",
+                "allow_draw": "Дозволити нічию",
+                "home_score": "Рахунок господарів",
+                "away_score": "Рахунок гостей",
+                "search_team": "Шукати команду…",
+                "select_week": "Вибрати тиждень"
             },
             "filters": {
-                "sort": "",
-                "newest": "",
-                "oldest": "",
-                "reset": "",
-                "all": ""
+                "sort": "Сортування",
+                "newest": "Спочатку новіші",
+                "oldest": "Спочатку старіші",
+                "reset": "Скинути фільтри",
+                "all": "Усі"
             },
             "buttons": {
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "create": "",
-                "cancel": "",
-                "load_more": ""
+                "save": "Зберегти",
+                "edit": "Редагувати",
+                "delete": "Видалити",
+                "create": "Створити",
+                "cancel": "Скасувати",
+                "load_more": "Завантажити ще"
             },
             "actions": {
-                "create": "",
-                "edit": "",
-                "enter_result": ""
+                "create": "Створити",
+                "edit": "Редагувати",
+                "enter_result": "Ввести результат"
             },
             "messages": {
-                "delete_confirm": "",
-                "saved": "",
-                "deleted": "",
-                "result_saved": "",
-                "in_use": "",
-                "login_required": "",
-                "invalid_outcome": "",
-                "scores_required": "",
-                "slug_unique": "",
-                "same_team": "",
-                "no_matches": "",
-                "no_data": ""
+                "delete_confirm": "Видалити цей елемент?",
+                "saved": "Збережено.",
+                "deleted": "Видалено.",
+                "result_saved": "Результат збережено.",
+                "in_use": "Неможливо видалити, оскільки цей елемент використовується.",
+                "login_required": "Увійдіть, щоб грати.",
+                "invalid_outcome": "Неприпустимий вибір.",
+                "scores_required": "Введіть рахунок обох команд.",
+                "slug_unique": "Цей ідентифікатор у посиланні вже використовується.",
+                "same_team": "Команди мають бути різними.",
+                "no_matches": "Матчів не знайдено.",
+                "no_data": "Тут поки нічого немає."
             },
             "pagination": {
-                "page_info": ""
+                "page_info": "Сторінка {current} із {total}"
             },
             "time": {
-                "minutes_remaining": "",
-                "hours_remaining": "",
-                "days_remaining": ""
+                "minutes_remaining": "Залишилося {minutes} хв",
+                "hours_remaining": "Залишилося {hours} год {minutes} хв",
+                "days_remaining": "Залишилося днів: {days}"
             }
         },
         "forum": {
             "picks": {
-                "your_pick": ""
+                "your_pick": "Ваш прогноз"
             },
-            "notification": ""
+            "notification": "Результат: {home} {hScore} — {aScore} {away}"
         },
         "admin": {
             "permissions": {
-                "manage": "",
-                "make_picks": "",
-                "view_page": ""
+                "manage": "Керувати системою прогнозів",
+                "make_picks": "Робити прогнози",
+                "view_page": "Переглядати сторінку прогнозів"
             },
             "settings": {
-                "reverse_display_label": "",
-                "reverse_display_help": "",
-                "recalc_help": "",
-                "recalc_btn": "",
-                "recalc_confirm": "",
-                "recalc_queued": ""
+                "reverse_display_label": "Поміняти місцями господарів і гостей",
+                "reverse_display_help": "Якщо ввімкнено, команда гостей відображатиметься ліворуч (або вгорі), а команда господарів — праворуч (або внизу). Це відповідає американському формату «гості @ господарі».",
+                "recalc_help": "Перераховує всі бали за результатами матчів. Виконується у фоновому режимі.",
+                "recalc_btn": "Перерахувати бали",
+                "recalc_confirm": "Запустити перерахунок у фоновому режимі?",
+                "recalc_queued": "Перерахунок додано до черги."
             }
         }
     }
