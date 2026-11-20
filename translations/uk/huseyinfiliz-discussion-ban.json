@@ -2,57 +2,57 @@
     "huseyinfiliz-discussion-ban": {
         "admin": {
             "permissions": {
-                "ban_users_label": ""
+                "ban_users_label": "Блокувати користувачів в обговореннях"
             },
             "settings": {
-                "show_in_discussion_controls": "",
-                "show_in_discussion_sidebar": "",
-                "show_in_post_controls": "",
-                "hide_discussions_from_banned": "",
-                "send_notifications": ""
+                "show_in_discussion_controls": "Показувати дію «Заблокувати в обговоренні» в меню обговорення",
+                "show_in_discussion_sidebar": "Показувати кнопку «Блокування в обговоренні» на бічній панелі обговорення",
+                "show_in_post_controls": "Показувати дію «Заблокувати в обговоренні» в меню допису",
+                "hide_discussions_from_banned": "Повністю приховувати обговорення від заблокованих користувачів (повертати помилку 404)",
+                "send_notifications": "Сповіщати про блокування або розблокування користувача в обговоренні"
             }
         },
         "forum": {
             "discussion_page": {
-                "ban_button": ""
+                "ban_button": "Блокування в обговоренні"
             },
             "discussion_controls": {
-                "ban_button": "",
-                "ban_from_discussion": ""
+                "ban_button": "Блокування в обговоренні",
+                "ban_from_discussion": "Заблокувати в обговоренні"
             },
             "post_controls": {
-                "ban_from_discussion": "",
-                "unban_from_discussion": ""
+                "ban_from_discussion": "Заблокувати в обговоренні",
+                "unban_from_discussion": "Розблокувати в обговоренні"
             },
             "post": {
-                "hidden_by_ban": ""
+                "hidden_by_ban": "Приховано через блокування в обговоренні"
             },
             "notifications": {
-                "discussion_banned_text": "",
-                "discussion_unbanned_text": ""
+                "discussion_banned_text": "Користувач {username} заблокував вас в обговоренні «{title}»",
+                "discussion_unbanned_text": "Користувач {username} розблокував вас в обговоренні «{title}»"
             },
             "settings": {
-                "notify_discussion_banned_label": "",
-                "notify_discussion_unbanned_label": ""
+                "notify_discussion_banned_label": "Мене заблокували в обговоренні",
+                "notify_discussion_unbanned_label": "Мене розблокували в обговоренні"
             },
             "modal": {
-                "title": "",
-                "tab_ban": "",
-                "tab_list": "",
-                "select_user": "",
-                "search_placeholder": "",
-                "search_banned_placeholder": "",
-                "change_user": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "reason_help": "",
-                "submit": "",
-                "ban_success": "",
-                "unban_success": "",
-                "no_bans": "",
-                "banned_by": "",
-                "unban": "",
-                "confirm_unban": ""
+                "title": "Блокування в обговоренні",
+                "tab_ban": "Нове блокування",
+                "tab_list": "Заблоковані користувачі ({count})",
+                "select_user": "Вибрати користувача",
+                "search_placeholder": "Пошук за ім’ям користувача або відображуваним ім’ям…",
+                "search_banned_placeholder": "Пошук заблокованих користувачів…",
+                "change_user": "Змінити",
+                "reason_label": "Причина (необов’язково)",
+                "reason_placeholder": "Чому ви блокуєте користувача в цьому обговоренні?",
+                "reason_help": "Модератори побачать цю причину в списку заблокованих користувачів.",
+                "submit": "Заблокувати користувача",
+                "ban_success": "Користувача заблоковано в цьому обговоренні.",
+                "unban_success": "Блокування користувача знято.",
+                "no_bans": "У цьому обговоренні немає заблокованих користувачів.",
+                "banned_by": "Заблокував користувач {username}",
+                "unban": "Розблокувати",
+                "confirm_unban": "Розблокувати цього користувача? Його приховані дописи буде відновлено."
             }
         }
     },
@@ -60,8 +60,8 @@
         "lib": {
             "browser": {
                 "discussion_ban": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "Користувача {username} заблоковано в обговоренні «{discussion}». Причина — {reason}",
+                    "unbanned": "Користувача {username} розблоковано в обговоренні «{discussion}»"
                 }
             }
         }
