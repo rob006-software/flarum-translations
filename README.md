@@ -985,6 +985,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ekumanov-new-posts-notice`](https://weblate.rob006.net/projects/flarum2/ekumanov-new-posts-notice) | [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) |
 | [`ekumanov-post-search`](https://weblate.rob006.net/projects/flarum2/ekumanov-post-search) | [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) |
 | [`el-choco-admin-console`](https://weblate.rob006.net/projects/flarum2/el-choco-admin-console) | [`el-choco/admin-console`](https://github.com/el-choco/flarum-admin-console) |
+| [`el-choco-editorial`](https://weblate.rob006.net/projects/flarum2/el-choco-editorial) | [`el-choco/editorial`](https://github.com/el-choco/editorial) |
 | [`el-choco-error-analyzer`](https://weblate.rob006.net/projects/flarum2/el-choco-error-analyzer) | [`el-choco/error-analyzer`](https://github.com/el-choco/error-analyzer) |
 | [`ernestdefoe-answers`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-answers) | [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) |
 | [`ernestdefoe-anthology`](https://weblate.rob006.net/projects/flarum2/ernestdefoe-anthology) | [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) |
