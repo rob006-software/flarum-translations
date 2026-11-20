@@ -2,36 +2,36 @@
     "ernestdefoe-hashtags": {
         "forum": {
             "nav": {
-                "browse": ""
+                "browse": "Хештеги"
             },
             "page": {
-                "meta": "",
-                "browse_all": "",
-                "empty": ""
+                "meta": "{posts, plural, one {Дописів: #} other {Дописів: #}}. {discussions, plural, one {Обговорень: #} other {Обговорень: #}}",
+                "browse_all": "Переглянути всі хештеги",
+                "empty": "Доступних вам дописів із #{name} ще немає."
             },
             "browse": {
-                "title": "",
-                "lede": "",
-                "search_placeholder": "",
-                "sort_popular": "",
-                "sort_recent": "",
-                "sort_alphabetical": "",
-                "empty": "",
-                "no_matches": ""
+                "title": "Хештеги",
+                "lede": "Будь-хто може створити хештег. У будь-якому дописі напишіть #, а за ним слово.",
+                "search_placeholder": "Знайти хештег…",
+                "sort_popular": "Найчастіше вживані",
+                "sort_recent": "Нещодавно вживані",
+                "sort_alphabetical": "А–Я",
+                "empty": "Хештегів ще немає. Щоб створити перший, напишіть у дописі #, а за ним слово.",
+                "no_matches": "Хештегів за цим запитом не знайдено."
             },
             "composer": {
-                "post_count": ""
+                "post_count": "{count, plural, one {# допис} few {# дописи} many {# дописів} other {# допису}}"
             }
         },
         "admin": {
             "settings": {
-                "per_page_label": "",
-                "per_page_help": ""
+                "per_page_label": "Хештегів на сторінку",
+                "per_page_help": "Кількість хештегів на сторінці «Хештеги» від 1 до 100. Типове значення — 60."
             },
             "backfill": {
-                "heading": "",
-                "body": "",
-                "help": ""
+                "heading": "Наявні дописи",
+                "body": "Дописи, створені до встановлення Hashtags, зберігаються без посилань на хештеги й не з’являться в стрічках, доки їх не буде повторно оброблено. Виконайте цю команду один раз із каталогу Flarum:",
+                "help": "Спершу додайте --dry-run, щоб побачити, скільки дописів буде змінено. Оновляться лише дописи з хештегами. Решту буде прочитано й пропущено."
             }
         }
     }
