@@ -2,75 +2,75 @@
     "prm-trade-feedback": {
         "admin": {
             "permissions": {
-                "give_label": "",
-                "moderate_label": ""
+                "give_label": "Залишати відгуки про угоди",
+                "moderate_label": "Модерувати відгуки про угоди"
             },
             "settings": {
-                "notice_label": "",
-                "notice_help": ""
+                "notice_label": "Примітка до форми",
+                "notice_help": "Відображається під формою відгуку."
             }
         },
         "forum": {
-            "nav": "",
-            "leave_button": "",
-            "leave_title": "",
+            "nav": "Угоди",
+            "leave_button": "Залишити відгук",
+            "leave_title": "Залишити відгук про користувача {username}",
             "stats": {
-                "trade": "",
-                "percent": "",
-                "given_positive": "",
-                "given_neutral": "",
-                "given_negative": "",
-                "total_positive": "",
-                "last_30d": "",
-                "last_6m": "",
-                "last_1y": "",
-                "positive": "",
-                "neutral": "",
-                "negative": ""
+                "trade": "Угоди",
+                "percent": "Частка позитивних відгуків",
+                "given_positive": "Залишено позитивних відгуків",
+                "given_neutral": "Залишено нейтральних відгуків",
+                "given_negative": "Залишено негативних відгуків",
+                "total_positive": "Усього позитивних відгуків",
+                "last_30d": "Останні 30 днів",
+                "last_6m": "Останні 6 місяців",
+                "last_1y": "Останній рік",
+                "positive": "Позитивні",
+                "neutral": "Нейтральні",
+                "negative": "Негативні"
             },
             "filters": {
-                "received": "",
-                "given": "",
+                "received": "Отримані",
+                "given": "Залишені",
                 "all": "Усі",
-                "positive": "",
-                "neutral": "",
-                "negative": ""
+                "positive": "Позитивні",
+                "neutral": "Нейтральні",
+                "negative": "Негативні"
             },
             "table": {
-                "options": "",
-                "sender": "",
-                "receiver": "",
+                "options": "Дії",
+                "sender": "Автор",
+                "receiver": "Отримувач",
                 "date": "Дата",
-                "empty": ""
+                "empty": "Відгуків про угоди ще немає."
             },
             "form": {
-                "role": "",
-                "role_placeholder": "",
-                "role_buyer": "",
-                "role_seller": "",
-                "role_trade": "",
-                "rating": "",
-                "rating_positive": "",
-                "rating_neutral": "",
-                "rating_negative": "",
-                "short_comment": "",
-                "short_help": "",
-                "thread_url": "",
-                "thread_help": "",
-                "comment": "",
+                "role": "Ваша роль",
+                "role_placeholder": "(Виберіть)",
+                "role_buyer": "Покупець",
+                "role_seller": "Продавець",
+                "role_trade": "Учасник обміну",
+                "rating": "Загальна оцінка",
+                "rating_positive": "Позитивна (+1)",
+                "rating_neutral": "Нейтральна (0)",
+                "rating_negative": "Негативна (-1)",
+                "short_comment": "Короткий коментар",
+                "short_help": "До 80 символів. HTML не підтримується.",
+                "thread_url": "URL обговорення",
+                "thread_help": "Наприклад: http://localhost:8088/d/1",
+                "comment": "Коментар",
                 "submit": "Надіслати",
                 "cancel": "Скасувати"
             },
             "actions": {
                 "edit": "Редагувати",
                 "delete": "Видалити",
-                "confirm_delete": ""
+                "confirm_delete": "Видалити цей відгук про угоду?"
             },
             "notifications": {
-                "received": "",
-                "notify_received_label": ""
+                "received": "Користувач {username} залишив вам відгук про угоду",
+                "notify_received_label": "Хтось залишає мені відгук про угоду"
             },
-            "user_controls": ""
+            "user_controls": "Залишити відгук"
         }
     }
 }
