@@ -1,108 +1,108 @@
 {
     "ernestdefoe-anthology": {
         "forum": {
-            "nav": "",
-            "a_noun": "",
-            "the_noun": "",
+            "nav": "{noun, select, novel {Романи} story {Історії} book {Книги} other {Серії}}",
+            "a_noun": "{noun, select, novel {роману} story {історії} book {книги} other {серії}}",
+            "the_noun": "{noun, select, novel {цього роману} story {цієї історії} book {цієї книги} other {цієї серії}}",
             "status": {
-                "ongoing": "",
-                "complete": ""
+                "ongoing": "Триває",
+                "complete": "Завершено"
             },
             "card": {
-                "chapters": "",
-                "followers": "",
-                "by": ""
+                "chapters": "{count, plural, one {# розділ} few {# розділи} many {# розділів} other {# розділу}}",
+                "followers": "{count, plural, one {# читач} few {# читачі} many {# читачів} other {# читача}}",
+                "by": "Автор: {author}"
             },
             "directory": {
-                "new": "",
-                "search": "",
-                "forum": "",
+                "new": "{noun, select, novel {Новий роман} story {Нова історія} book {Нова книга} other {Нова серія}}",
+                "search": "Шукати за назвою",
+                "forum": "Перейти на головний форум",
                 "all_tags": "Усі теги",
                 "tag_label": "Тег",
                 "all": "Усі",
-                "sort_label": "",
+                "sort_label": "Сортувати",
                 "sort": {
-                    "latest": "",
-                    "new": "",
-                    "popular": "",
+                    "latest": "За останнім розділом",
+                    "new": "Найновіші",
+                    "popular": "За кількістю читачів",
                     "title": "Заголовок"
                 },
-                "empty": "",
-                "empty_guest": "",
-                "no_results": "",
+                "empty": "{noun, select, novel {Романів ще немає. Створіть роман} story {Історій ще немає. Створіть історію} book {Книг ще немає. Створіть книгу} other {Серій ще немає. Створіть серію}}, а потім додайте свої обговорення як розділи.",
+                "empty_guest": "{noun, select, novel {Романів ще немає.} story {Історій ще немає.} book {Книг ще немає.} other {Серій ще немає.}}",
+                "no_results": "За вашим запитом нічого не знайдено.",
                 "more": "Завантажити ще"
             },
             "series": {
-                "missing": "",
-                "progress": "",
-                "start": "",
-                "continue": "",
-                "again": "",
+                "missing": "Цієї сторінки немає або у вас немає дозволу переглядати її.",
+                "progress": "Прочитано {done} із {total}",
+                "start": "Почати читати",
+                "continue": "Продовжити читати",
+                "again": "Читати з початку",
                 "follow": "Стежити",
-                "following": "",
-                "follow_help": "",
-                "contents": "",
-                "chapter_meta": "",
-                "read": "",
+                "following": "Відстежувані",
+                "follow_help": "Отримуйте сповіщення про нові розділи.",
+                "contents": "Розділи",
+                "chapter_meta": "{date} · {count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "read": "Прочитано",
                 "edit": "Редагувати",
                 "delete": "Видалити",
-                "delete_confirm": "",
-                "empty_owner": "",
-                "empty": "",
+                "delete_confirm": "Видалити «{title}»? Обговорення залишаться на форумі. Буде видалено лише їхнє об’єднання, обкладинку й список читачів.",
+                "empty_owner": "Розділів ще немає. Відкрийте своє обговорення та виберіть «Додати до {a_noun}» у його меню.",
+                "empty": "Розділів ще немає.",
                 "move_up": "Перемістити вгору",
                 "move_down": "Перемістити вниз",
-                "remove": "",
-                "back": ""
+                "remove": "Вилучити з {the_noun}",
+                "back": "{noun, select, novel {Усі романи} story {Усі історії} book {Усі книги} other {Усі серії}}"
             },
             "list_badge": "",
             "chapter_bar": {
-                "label": "",
+                "label": "Розділ {number} із {count}",
                 "previous": "Назад",
                 "next": "Далі",
-                "contents": ""
+                "contents": "Усі розділи"
             },
             "controls": {
-                "add": "",
-                "change": ""
+                "add": "Додати до {a_noun}",
+                "change": "Перемістити або вилучити з {the_noun}"
             },
             "add_modal": {
-                "title": "",
-                "change_title": "",
-                "intro": "",
-                "none": "",
-                "none_other": "",
-                "current": "",
-                "new": "",
-                "new_for": "",
+                "title": "Додати до {a_noun}",
+                "change_title": "Переміщення або вилучення",
+                "intro": "Обговорення залишиться на своєму місці. Воно також з’явиться в кінці вибраного твору як його найновіший розділ.",
+                "none": "Ви ще нічого не створили. Укажіть назву нижче.",
+                "none_other": "Користувач {username} ще нічого не створив. Укажіть назву нижче.",
+                "current": "Зараз належить до",
+                "new": "{noun, select, novel {Створити новий роман} story {Створити нову історію} book {Створити нову книгу} other {Створити нову серію}}",
+                "new_for": "Авторство буде закріплено за користувачем {username}. Він зможе редагувати твір як власний.",
                 "new_title": "Заголовок",
-                "add": "",
-                "create_and_add": "",
-                "remove": "",
-                "added": "",
-                "removed": ""
+                "add": "Додати як найновіший розділ",
+                "create_and_add": "Створити й додати",
+                "remove": "Вилучити з «{title}»",
+                "added": "Додано до «{title}».",
+                "removed": "Вилучено з «{title}»."
             },
             "edit_modal": {
-                "create_title": "",
-                "edit_title": "",
+                "create_title": "{noun, select, novel {Новий роман} story {Нова історія} book {Нова книга} other {Нова серія}}",
+                "edit_title": "Редагування «{title}»",
                 "title": "Заголовок",
                 "description": "Опис",
-                "description_help": "",
+                "description_help": "Коротко опишіть твір. Повний опис відображається на його сторінці, а скорочений — на картці.",
                 "status": "Статус",
-                "cover": "",
-                "cover_help": "",
-                "cover_remove": "",
+                "cover": "Зображення обкладинки",
+                "cover_help": "JPEG, PNG, GIF або WebP до 5 МБ. Підходять і вертикальна обкладинка книги, і широкий банер.",
+                "cover_remove": "Вилучити обкладинку",
                 "save": "Зберегти",
                 "create": "Створити"
             },
             "profile": {
-                "nav": "",
-                "empty": ""
+                "nav": "{noun, select, novel {Романи} story {Історії} book {Книги} other {Серії}}",
+                "empty": "Тут поки нічого немає."
             },
             "notifications": {
-                "new_chapter": ""
+                "new_chapter": "Користувач {username} додав новий розділ до «{series}»"
             },
             "settings": {
-                "notify_new_chapter": ""
+                "notify_new_chapter": "У відстежуваній серії з’явився новий розділ"
             },
             "errors": {
                 "generic": "Щось пішло не так. Спробуйте ще раз."
@@ -110,39 +110,39 @@
         },
         "admin": {
             "basics": {
-                "home_page": ""
+                "home_page": "Каталог серій (Anthology)"
             },
             "settings": {
-                "noun": "",
-                "noun_help": "",
+                "noun": "Як називати серії",
+                "noun_help": "Ця назва відображається в меню та на кнопках. Виберіть варіант, який пасує вашому форуму.",
                 "nouns": {
-                    "series": "",
-                    "novel": "",
-                    "story": "",
-                    "book": ""
+                    "series": "Серія",
+                    "novel": "Роман",
+                    "story": "Історія",
+                    "book": "Книга"
                 },
-                "show_nav": "",
+                "show_nav": "Показувати посилання на бічній панелі",
                 "list_badge": ""
             },
             "permissions": {
-                "view": "",
-                "create": "",
-                "moderate": ""
+                "view": "Переглядати серії",
+                "create": "Створювати серії й додавати власні обговорення як розділи",
+                "moderate": "Редагувати будь-яку серію й додавати будь-яке обговорення"
             }
         },
         "api": {
-            "title_required": "",
-            "title_too_long": "",
-            "description_too_long": "",
-            "bad_status": "",
-            "upload_failed": "",
-            "cover_too_big": "",
-            "not_an_image": ""
+            "title_required": "Укажіть заголовок.",
+            "title_too_long": "Заголовок може містити до 200 символів.",
+            "description_too_long": "Опис може містити до {max} символів.",
+            "bad_status": "Виберіть «Триває» або «Завершено».",
+            "upload_failed": "Не вдалося отримати завантажений файл. Спробуйте ще раз.",
+            "cover_too_big": "Розмір обкладинки може становити до 5 МБ і 40 мегапікселів.",
+            "not_an_image": "Файл має бути зображенням JPEG, PNG, GIF або WebP."
         },
         "email": {
             "new_chapter": {
-                "subject": "",
-                "body": ""
+                "subject": "Новий розділ у «{series}»",
+                "body": "Користувач {author} додав новий розділ до «{series}»: {chapter}\n\nЧитати: {url}\n"
             }
         }
     }
