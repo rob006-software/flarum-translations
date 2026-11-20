@@ -2,30 +2,30 @@
     "michaelbelgium-ai-autoreply": {
         "admin": {
             "settings": {
-                "platform_label": "",
-                "platform_help": "",
-                "api_key_label": "",
-                "api_key_help": "",
-                "model_label": "",
-                "model_help": "",
-                "max_tokens_label": "",
-                "max_tokens_help": "",
-                "temperature_label": "",
-                "temperature_help": "",
-                "user_prompt_label": "",
-                "user_prompt_help": "",
-                "system_prompt_label": "",
-                "system_prompt_help": "",
-                "system_prompt_placeholder": "",
-                "user_prompt_badge_label": "",
-                "user_prompt_badge_help": "",
-                "enable_on_discussion_started_label": "",
-                "enable_on_discussion_started_help": "",
-                "enabled_tags_label": "",
-                "enabled_tags_help": ""
+                "platform_label": "Платформа",
+                "platform_help": "Виберіть платформу ШІ.",
+                "api_key_label": "Ключ API",
+                "api_key_help": "Отримайте ключ API на платформі <a>{platform}</a>.",
+                "model_label": "Модель",
+                "model_help": "Докладніше про <a>моделі платформи {platform}</a> (типова модель — <code>{model}</code>).",
+                "max_tokens_label": "Максимальна кількість токенів",
+                "max_tokens_help": "<a>Що таке токени та як їх підрахувати?</a>",
+                "temperature_label": "Температура",
+                "temperature_help": "Визначає ступінь випадковості відповідей. Зазвичай діапазон становить від 0 до 2, але деякі платформи використовують інші діапазони.",
+                "user_prompt_label": "Обліковий запис асистента",
+                "user_prompt_help": "Введіть ідентифікатор користувача, від імені якого публікуватимуться відповіді ШІ.",
+                "system_prompt_label": "Системна інструкція",
+                "system_prompt_help": "Надайте асистентові контекст та інструкції, наприклад визначте його мету чи роль.",
+                "system_prompt_placeholder": "Ви — асистент на форумі Flarum. Допомагайте учасникам.",
+                "user_prompt_badge_label": "Позначка асистента",
+                "user_prompt_badge_help": "Текст, який відображатиметься під іменем користувача асистента.",
+                "enable_on_discussion_started_label": "Відповідати лише на початку обговорення",
+                "enable_on_discussion_started_help": "Якщо ввімкнено, асистент ШІ відповідає лише на перший допис. Якщо вимкнено, обговорення стає чатом між автором і асистентом, який відповідає на кожен допис автора.",
+                "enabled_tags_label": "Теги",
+                "enabled_tags_help": "Виберіть теги, у яких асистент генеруватиме відповіді."
             },
             "permissions": {
-                "use_chatgpt_assistant_label": ""
+                "use_chatgpt_assistant_label": "Користуватися асистентом ШІ"
             }
         }
     }
