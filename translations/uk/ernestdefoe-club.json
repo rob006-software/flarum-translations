@@ -1,96 +1,96 @@
 {
     "ernestdefoe-club": {
         "admin": {
-            "permission_join": "",
-            "permission_create": "",
-            "permission_moderate": ""
+            "permission_join": "Вступати до читацьких клубів і клубів перегляду",
+            "permission_create": "Створювати читацькі клуби й клуби перегляду",
+            "permission_moderate": "Керувати будь-яким клубом (редагувати, видаляти й змінювати добірки)"
         },
         "api": {
-            "not_linked": "",
-            "already_a_pick": "",
-            "section_label": "",
-            "section_due": "",
-            "bad_section": "",
-            "last_host": ""
+            "not_linked": "Вибрати для клубу можна лише обговорення, пов’язане з твором через Marquee.",
+            "already_a_pick": "Це обговорення вже вибрано для клубу.",
+            "section_label": "Назва кожного розділу має містити до 100 символів.",
+            "section_due": "Укажіть дійсну дату завершення.",
+            "bad_section": "Цей розділ не належить до вибраного твору клубу.",
+            "last_host": "Ви єдиний організатор клубу. Видаліть клуб або зверніться до модератора."
         },
         "forum": {
             "clubs": {
-                "nav": "",
-                "title": "",
-                "start": "",
-                "none": "",
-                "members": "",
-                "role_host": "",
-                "role_member": ""
+                "nav": "Клуби",
+                "title": "Клуби",
+                "start": "Створити клуб",
+                "none": "Клубів ще немає.",
+                "members": "{count, plural, one {# учасник} few {# учасники} many {# учасників} other {# учасника}}",
+                "role_host": "Ви організатор",
+                "role_member": "Ви учасник"
             },
             "club": {
-                "new_title": "",
-                "edit_title": "",
-                "name_label": "",
-                "description_label": "",
-                "save": "",
-                "edit": "",
-                "delete": "",
-                "delete_confirm": "",
-                "join": "",
-                "leave": "",
-                "missing": "",
-                "no_picks": "",
-                "no_picks_host": "",
-                "how_to_pick": "",
-                "past": "",
-                "open_discussion": ""
+                "new_title": "Створити клуб",
+                "edit_title": "Редагування клубу",
+                "name_label": "Назва",
+                "description_label": "Опис клубу (необов’язково)",
+                "save": "Зберегти",
+                "edit": "Редагувати",
+                "delete": "Видалити",
+                "delete_confirm": "Видалити клуб «{name}»? Обговорення залишаться, а розклади й поступ усіх учасників буде видалено.",
+                "join": "Вступити до клубу",
+                "leave": "Вийти",
+                "missing": "Такого клубу немає або його видалено.",
+                "no_picks": "Твір ще не вибрано. Зазирніть сюди пізніше.",
+                "no_picks_host": "Твір ще не вибрано.",
+                "how_to_pick": "Щоб вибрати твір, відкрийте пов’язане з ним обговорення й оберіть «Вибрати для клубу» в меню дій.",
+                "past": "Попередні твори",
+                "open_discussion": "Відкрити обговорення"
             },
             "controls": {
-                "make_pick": "",
-                "edit_pick": ""
+                "make_pick": "Вибрати для клубу",
+                "edit_pick": "Редагувати розклад клубу"
             },
             "pick": {
-                "title": "",
-                "edit_title": "",
-                "no_clubs": "",
-                "club_label": "",
-                "month_label": "",
-                "schedule_label": "",
-                "schedule_help": "",
-                "split_into": "",
-                "parts_label": "",
-                "split_button": "",
-                "default_part": "",
-                "default_week": "",
-                "section_label": "",
-                "section_placeholder": "",
-                "due_label": "",
-                "remove_section": "",
-                "add_section": "",
-                "create": "",
-                "save": ""
+                "title": "Вибрати «{title}» для клубу",
+                "edit_title": "Розклад для «{title}»",
+                "no_clubs": "Ви ще не організували жодного клубу. Спочатку створіть клуб на сторінці «Клуби».",
+                "club_label": "Клуб",
+                "month_label": "Місяць",
+                "schedule_label": "Розклад",
+                "schedule_help": "Поділіть твір на розділи, наприклад глави 1–5 до 10-го числа або серії 1–3 цього тижня. У відповіді вказують розділ, якого вона стосується. Учасники, які ще не завершили цей розділ, відповіді не побачать.",
+                "split_into": "Поділити на",
+                "parts_label": "Кількість розділів",
+                "split_button": "Рівномірно розподілити розділи впродовж місяця",
+                "default_part": "Частина {number}",
+                "default_week": "Тиждень {number}",
+                "section_label": "Розділ {number}",
+                "section_placeholder": "Наприклад, глави 1–5",
+                "due_label": "Завершити розділ {number} до",
+                "remove_section": "Видалити розділ {number}",
+                "add_section": "Додати розділ",
+                "create": "Вибрати твір",
+                "save": "Зберегти розклад"
             },
             "panel": {
-                "pick_for": "",
-                "your_progress": "",
-                "done_of": "",
-                "due": "",
-                "mark": "",
-                "unmark": "",
-                "join": "",
-                "members_only": "",
-                "members": "",
-                "member_progress": ""
+                "pick_for": "Твір клубу на {month}",
+                "your_progress": "Ваш поступ",
+                "done_of": "{done} із {count}",
+                "due": "до {date}",
+                "mark": "Позначити «{label}» як завершене",
+                "unmark": "Зняти позначку завершення для «{label}»",
+                "join": "Вступіть до клубу «{club}», щоб долучитися",
+                "members_only": "Учасники клубу відстежують тут свій поступ.",
+                "members": "{count, plural, one {# учасник} few {# учасники} many {# учасників} other {# учасника}}",
+                "member_progress": "Поступ учасника {name}"
             },
             "section": {
-                "name": "",
-                "number": ""
+                "name": "{number}. {label}",
+                "number": "Розділ {number}"
             },
             "composer": {
-                "about": "",
-                "general": ""
+                "about": "Відомості",
+                "general": "Усе на цей момент (без спойлерів)"
             },
             "spoiler": {
-                "title": "",
-                "body": "",
-                "body_member": "",
-                "finished": ""
+                "title": "Спойлери для розділу «{section}»",
+                "body": "Вміст доступний учасникам, які завершили цей розділ.",
+                "body_member": "Ви ще не позначили цей розділ як завершений. Вміст приховано, щоб не розкривати подробиць завчасно.",
+                "finished": "Позначити «{section}» як завершене"
             }
         }
     }
