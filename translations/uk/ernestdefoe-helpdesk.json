@@ -1,77 +1,77 @@
 {
     "ernestdefoe-helpdesk": {
         "forum": {
-            "ask_button": "",
+            "ask_button": "Поставити запитання",
             "hero": {
-                "title": "",
-                "text": "",
-                "text_plain": "",
-                "answered": "",
-                "guides": "",
-                "both": "",
-                "placeholder": "",
-                "popular": "",
-                "shortcut": ""
+                "title": "Чим можемо допомогти?",
+                "text": "Шукайте серед матеріалів ({things}) або запитайте спільноту.",
+                "text_plain": "Скористайтеся пошуком у спільноті або поставте запитання.",
+                "answered": "{count, plural, one {# запитання з відповіддю} few {# запитання з відповідями} many {# запитань із відповідями} other {# запитання з відповідями}}",
+                "guides": "{count, plural, one {# посібник} few {# посібники} many {# посібників} other {# посібника}}",
+                "both": "{first} і {second}",
+                "placeholder": "Шукати запитання й посібники",
+                "popular": "Популярне:",
+                "shortcut": "Натисніть /, щоб шукати"
             },
             "topics": {
-                "heading": "",
-                "all": "",
-                "questions": "",
-                "discussions": "",
-                "answered": ""
+                "heading": "Перегляд за темами",
+                "all": "Усі теми ({count})",
+                "questions": "{count, plural, one {# запитання} few {# запитання} many {# запитань} other {# запитання}}",
+                "discussions": "{count, plural, one {Обговорень: #} other {Обговорень: #}}",
+                "answered": "{percent}% із відповідями"
             },
             "list": {
-                "heading": "",
-                "asked_by": "",
-                "replies": ""
+                "heading": "Останні запитання",
+                "asked_by": "запитання від {username}",
+                "replies": "{count, plural, one {відповідь} few {відповіді} many {відповідей} other {відповіді}}"
             },
             "tree": {
-                "heading": ""
+                "heading": "Теми"
             },
             "question": {
-                "community": "",
-                "solved": "",
-                "asked": "",
-                "answers": "",
-                "replies": "",
-                "views": ""
+                "community": "Спільнота",
+                "solved": "Вирішено",
+                "asked": "Запитання від {username}, {date}",
+                "answers": "{count, plural, one {Відповідей: #} other {Відповідей: #}}",
+                "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "views": "{count, plural, one {Переглядів: #} other {Переглядів: #}}"
             },
             "toc": {
-                "heading": "",
-                "question": "",
-                "accepted": "",
-                "answers": "",
-                "replies": ""
+                "heading": "Про це запитання",
+                "question": "Запитання",
+                "accepted": "Прийнята відповідь",
+                "answers": "Відповіді",
+                "replies": "Відповіді"
             },
             "solved": {
-                "question": "",
-                "yes": "",
-                "no": "",
-                "count": "",
-                "thanks_yes": "",
-                "thanks_no": "",
-                "undo": ""
+                "question": "Це розв’язало вашу проблему?",
+                "yes": "Так",
+                "no": "Ні",
+                "count": "{count, plural, =0 {Дайте відповідь першими} one {# користувач відповів «так»} few {# користувачі відповіли «так»} many {# користувачів відповіли «так»} other {Відповідей «так»: #}}",
+                "thanks_yes": "Дякуємо! Раді, що це допомогло.",
+                "thanks_no": "Шкода, що це не допомогло. Додайте відповідь або поставте нове запитання й опишіть, що ви вже спробували.",
+                "undo": "Скасувати дію"
             },
             "kb": {
-                "heading": ""
+                "heading": "З бази знань"
             }
         },
         "admin": {
-            "accent_label": "",
-            "accent_help": "",
-            "bar_label": "",
-            "bar_help": "",
-            "fonts_label": "",
-            "fonts_help": "",
-            "hero_title_label": "",
-            "hero_title_help": "",
-            "hero_text_label": "",
-            "hero_text_help": "",
-            "popular_label": "",
-            "popular_help": "",
-            "topics_label": "",
-            "topics_help": "",
-            "topic_count_label": ""
+            "accent_label": "Колір акценту",
+            "accent_help": "Колір кнопок, посилань і вибраної теми. Залиште поле порожнім, щоб використовувати бірюзовий.",
+            "bar_label": "Колір верхньої панелі",
+            "bar_help": "Колір верхньої панелі й банера пошуку. Залиште поле порожнім, щоб використовувати темно-бірюзовий.",
+            "fonts_label": "Використовувати IBM Plex Sans і Mono",
+            "fonts_help": "Шрифти завантажуються з вашого форуму. Якщо вимкнено, використовуються системні шрифти.",
+            "hero_title_label": "Заголовок банера пошуку",
+            "hero_title_help": "Якщо поле порожнє, показується «Чим можемо допомогти?».",
+            "hero_text_label": "Текст банера пошуку",
+            "hero_text_help": "Якщо поле порожнє, показується кількість запитань із відповідями та посібників, доступних для пошуку.",
+            "popular_label": "Популярні запити",
+            "popular_help": "Введіть запити через кому. Вони з’являться у вигляді кнопок під полем пошуку. Наприклад: Повернення коштів, Строки доставки, Скидання пароля",
+            "topics_label": "Показувати картки тем на головній сторінці",
+            "topics_help": "По одній картці для кожного основного тега верхнього рівня. Картка показує кількість запитань із відповідями.",
+            "topic_count_label": "Кількість карток тем"
         }
     }
 }
