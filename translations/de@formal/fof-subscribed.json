@@ -43,5 +43,18 @@
                 "postFlagged": "Hallo {recipient_display_name},\n\n{actor_display_name} hat gerade einen Beitrag in {discussion_title} gemeldet\n\nUm diesen Beitrag anzuzeigen, klicke auf den folgenden Link:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

@@ -43,5 +43,18 @@
                 "postFlagged": "{recipient_display_name}，你好！\n\n{actor_display_name} 剛剛檢舉了一個貼文在「{discussion_title}」\n\n點擊下方連結查看詳細內容：\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

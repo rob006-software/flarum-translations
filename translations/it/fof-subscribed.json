@@ -43,5 +43,18 @@
                 "postFlagged": "Ehi {recipient_display_name},\n\n{actor_display_name} ha appena segnalato un post in {discussion_title}\n\nPer visualizzare questo post, controlla il seguente link:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

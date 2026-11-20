@@ -127,11 +127,20 @@
                 },
                 "openai": {
                     "api_key_label": "",
+                    "base_url_env_help": "",
+                    "base_url_help": "",
+                    "base_url_label": "",
                     "intro": "",
                     "max_tokens_help": "",
                     "max_tokens_label": "",
                     "model_help": "",
                     "model_label": ""
+                },
+                "post_translation_display_help": "",
+                "post_translation_display_label": "",
+                "post_translation_display_options": {
+                    "below": "",
+                    "replace": ""
                 },
                 "short_content_length_help": "",
                 "short_content_length_label": "",
@@ -181,6 +190,7 @@
             }
         },
         "api": {
+            "invalid_openai_base_url": "",
             "already_in_language": "",
             "glossaries_failed": "",
             "invalid_detection_cursor": "",

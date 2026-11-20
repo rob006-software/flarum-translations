@@ -43,5 +43,18 @@
                 "postFlagged": "Hey {recipient_display_name},\n\n{actor_display_name} acaba de denunciar una publicación en {discussion_title}\n\nPara ver esta publicación, consulta el siguiente enlace:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

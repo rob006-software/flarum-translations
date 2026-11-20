@@ -43,5 +43,18 @@
                 "postFlagged": "{recipient_display_name}，你好！\n\n{actor_display_name} 举报了「{discussion_title}」中的一篇帖子。\n\n点击下方链接查看：\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

@@ -36,7 +36,7 @@
                 "warning_notification_label": "A moderator warns me"
             },
             "validation": {
-                "public_comment_required": "You most provide a public comment.",
+                "public_comment_required": "You must provide a public comment.",
                 "invalid_strike_count": "The number of strikes must be an integer between 0 and 5."
             },
             "warning_controls": {
@@ -75,6 +75,15 @@
                     "hidden": "Removed {username}'s warning",
                     "restored": "Restored {username}'s warning",
                     "deleted": "Permanently deleted {username}'s warning"
+                }
+            }
+        }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "warning": "Moderator warnings you receive"
                 }
             }
         }

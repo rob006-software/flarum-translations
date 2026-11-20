@@ -43,5 +43,18 @@
                 "postFlagged": "สวัสดีคุณ {recipient_display_name},\n\n{actor_display_name} ได้ส่งรายงานข้อบกพร่อง/ไม่เหมาะสมของโพสต์ในโพสต์ {discussion_title}\n\nคุณสามารถเข้าเปิดดูรายละเอียดเพื่อตรวจสอบข้อร้องเรียนรายงานนี้ได้โดยคลิกลิงก์อ้างอิงด้านล่างนี้:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

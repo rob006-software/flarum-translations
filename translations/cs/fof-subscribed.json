@@ -43,5 +43,18 @@
                 "postFlagged": "Ahoj {recipient_display_name},\n\nuživatel {actor_display_name} právě nahlásil příspěvek v diskuzi {discussion_title}\n\nPro zobrazení příspěvku navštivte následující odkaz:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

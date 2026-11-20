@@ -43,5 +43,18 @@
                 "postFlagged": "Hey {recipient_display_name},\n\n{actor_display_name} just flagged a post in {discussion_title}\n\nTo view this post, check out the following link:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "New discussions",
+                    "postCreated": "New posts and replies",
+                    "postFlagged": "Newly flagged posts",
+                    "postUnapproved": "Posts awaiting approval",
+                    "userCreated": "New user registrations"
+                }
+            }
+        }
     }
 }

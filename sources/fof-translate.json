@@ -126,12 +126,21 @@
                     }
                 },
                 "openai": {
-                    "api_key_label": "OpenAI API key",
-                    "intro": "Uses OpenAI's GPT models. Create an API key on the <a>OpenAI platform</a>.",
+                    "api_key_label": "API key",
+                    "base_url_env_help": "When the API key is managed by the server, the endpoint uses OpenAI unless the server sets {env}.",
+                    "base_url_help": "Leave blank to use OpenAI. For a compatible gateway, enter its API base URL, such as https://gateway.example/v1.",
+                    "base_url_label": "API base URL",
+                    "intro": "Uses OpenAI or an OpenAI-compatible gateway. For OpenAI, create a key on the <a>OpenAI platform</a>. For a gateway, use its API key and model name.",
                     "max_tokens_help": "Upper limit on the length of each translation.",
                     "max_tokens_label": "Maximum tokens",
-                    "model_help": "The OpenAI model used for translation.",
+                    "model_help": "The chat model ID or gateway model alias used for translation.",
                     "model_label": "Model"
+                },
+                "post_translation_display_help": "Where a translation appears after the reader clicks Translate.",
+                "post_translation_display_label": "Post translation display",
+                "post_translation_display_options": {
+                    "below": "Below the original",
+                    "replace": "Replace the original"
                 },
                 "short_content_length_help": "Content shorter than this many characters is too short to detect its language reliably. It is assumed to be in the language its author uses the forum in, which is their chosen locale, or the forum default.",
                 "short_content_length_label": "Minimum length for language detection",
@@ -181,6 +190,7 @@
             }
         },
         "api": {
+            "invalid_openai_base_url": "Use an HTTP or HTTPS API base URL without credentials, a query, or a fragment.",
             "already_in_language": "This content is already in the selected language.",
             "glossaries_failed": "DeepL glossaries could not be loaded. Check the API key.",
             "invalid_detection_cursor": "Invalid detection position.",

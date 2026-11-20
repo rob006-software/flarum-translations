@@ -43,5 +43,18 @@
                 "postFlagged": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zgłosił post w „{discussion_title}”.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

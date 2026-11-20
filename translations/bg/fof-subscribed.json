@@ -43,5 +43,18 @@
                 "postFlagged": "Здравей {recipient_display_name},\n\n{actor_display_name} току-що маркира с флаг публикация в {discussion_title}\n\nЗа да видиш тази публикация, виж следния линк\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

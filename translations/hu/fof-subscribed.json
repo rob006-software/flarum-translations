@@ -43,5 +43,18 @@
                 "postFlagged": "Kedves {recipient_display_name}!\n\n{actor_display_name} megjelölt egy bejegyzést ebben a témában: {discussion_title}\n\nA bejegyzés megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

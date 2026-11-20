@@ -43,5 +43,18 @@
                 "postFlagged": "Pozdrav {recipient_display_name},\n\n{actor_display_name} upravo prijavio objavu u {discussion_title}\n\nZa pregled ove objave, pogledaj sljedeći link:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

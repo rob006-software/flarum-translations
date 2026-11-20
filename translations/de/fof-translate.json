@@ -127,11 +127,20 @@
                 },
                 "openai": {
                     "api_key_label": "OpenAI API-Schlüssel",
+                    "base_url_env_help": "",
+                    "base_url_help": "",
+                    "base_url_label": "",
                     "intro": "Verwendet die GPT-Modelle von OpenAI. Erstelle einen API-Schlüssel auf der <a>OpenAI-Plattform</a>.",
                     "max_tokens_help": "Obergrenze für die Länge jeder Übersetzung.",
                     "max_tokens_label": "Maximale Tokenanzahl",
                     "model_help": "Das für die Übersetzung verwendete OpenAI-Modell.",
                     "model_label": "Modell"
+                },
+                "post_translation_display_help": "",
+                "post_translation_display_label": "",
+                "post_translation_display_options": {
+                    "below": "",
+                    "replace": ""
                 },
                 "short_content_length_help": "Inhalte, die kürzer als diese Zeichenanzahl sind, sind zu kurz, um die Sprache zuverlässig zu erkennen. Es wird davon ausgegangen, dass sie in der Sprache verfasst sind, in der der Autor das Forum nutzt, d. h. in der von ihm gewählten Ländereinstellung oder der Standard-Ländereinstellung des Forums.",
                 "short_content_length_label": "Mindestlänge für die Sprachenerkennung",
@@ -181,6 +190,7 @@
             }
         },
         "api": {
+            "invalid_openai_base_url": "",
             "already_in_language": "Dieser Inhalt ist bereits in der ausgewählten Sprache verfügbar.",
             "glossaries_failed": "Die DeepL-Glossare konnten nicht geladen werden. Bitte überprüfe den API-Schlüssel.",
             "invalid_detection_cursor": "Ungültige Erkennungsposition.",

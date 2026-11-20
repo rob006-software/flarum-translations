@@ -43,5 +43,18 @@
                 "postFlagged": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} пожаловался(ась) на сообщение в теме {discussion_title}.\n\nПосмотреть сообщение:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

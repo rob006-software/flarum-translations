@@ -135,5 +135,18 @@
                 }
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "byobuMadePublic": "",
+                    "byobuPrivateDiscussionAdded": "",
+                    "byobuPrivateDiscussionCreated": "",
+                    "byobuPrivateDiscussionReplied": "",
+                    "byobuRecipientRemoved": ""
+                }
+            }
+        }
     }
 }

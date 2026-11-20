@@ -129,5 +129,16 @@
                 }
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newDiscussionByUser": "",
+                    "newFollower": "",
+                    "newPostByUser": ""
+                }
+            }
+        }
     }
 }

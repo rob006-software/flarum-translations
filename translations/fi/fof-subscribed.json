@@ -43,5 +43,18 @@
                 "postFlagged": "Hei {recipient_display_name},\n\n{actor_display_name} liputti viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n"
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "discussionCreated": "",
+                    "postCreated": "",
+                    "postFlagged": "",
+                    "postUnapproved": "",
+                    "userCreated": ""
+                }
+            }
+        }
     }
 }

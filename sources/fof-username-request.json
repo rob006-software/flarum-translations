@@ -121,5 +121,15 @@
                 }
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "usernameRequestApproved": "Approvals of your username change requests",
+                    "usernameRequestRejected": "Rejections of your username change requests"
+                }
+            }
+        }
     }
 }

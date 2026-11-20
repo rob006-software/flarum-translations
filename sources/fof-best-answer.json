@@ -123,5 +123,16 @@
                 }
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "awardedBestAnswer": "Your posts being set as a best answer",
+                    "bestAnswerInDiscussion": "Best answers in discussions you took part in",
+                    "selectBestAnswer": "Reminders to select a best answer in your discussions"
+                }
+            }
+        }
     }
 }

@@ -131,5 +131,16 @@
                 }
             }
         }
+    },
+    "core": {
+        "email": {
+            "notification": {
+                "types": {
+                    "newDiscussionInTag": "New discussions in tags you follow",
+                    "newDiscussionTag": "Discussions re-tagged into tags you follow",
+                    "newPostInTag": "New posts in tags you follow"
+                }
+            }
+        }
     }
 }

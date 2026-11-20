@@ -127,11 +127,20 @@
                 },
                 "openai": {
                     "api_key_label": "Klucz API OpenAI",
+                    "base_url_env_help": "",
+                    "base_url_help": "",
+                    "base_url_label": "",
                     "intro": "Korzysta z modeli GPT firmy OpenAI. Utwórz klucz API na <a>platformie OpenAI</a>.",
                     "max_tokens_help": "Górny limit długości każdego tłumaczenia.",
                     "max_tokens_label": "Maksymalna liczba tokenów",
                     "model_help": "Model OpenAI używany do tłumaczenia.",
                     "model_label": "Model"
+                },
+                "post_translation_display_help": "",
+                "post_translation_display_label": "",
+                "post_translation_display_options": {
+                    "below": "",
+                    "replace": ""
                 },
                 "short_content_length_help": "Treści krótsze niż ta liczba znaków są zbyt krótkie, aby wiarygodnie wykryć ich język. Przyjmuje się, że są w języku, w którym autor korzysta z forum, czyli w wybranym przez niego języku lub w domyślnym języku forum.",
                 "short_content_length_label": "Minimalna długość do wykrywania języka",
@@ -181,6 +190,7 @@
             }
         },
         "api": {
+            "invalid_openai_base_url": "",
             "already_in_language": "Ta treść jest już w wybranym języku.",
             "glossaries_failed": "Nie udało się wczytać glosariuszy DeepL. Sprawdź klucz API.",
             "invalid_detection_cursor": "Nieprawidłowa pozycja wykrywania.",
