@@ -1,36 +1,36 @@
 {
     "ernestdefoe-reel": {
         "forum": {
-            "button": "",
-            "title": "",
-            "search_placeholder": "",
-            "trending": "",
-            "results_for": "",
-            "no_results": "",
-            "untitled": "",
-            "powered_by": "",
-            "failed": "",
-            "slow_down": ""
+            "button": "Додати GIF",
+            "title": "Додати GIF",
+            "search_placeholder": "Пошук GIF",
+            "trending": "Популярні",
+            "results_for": "Результати пошуку за запитом «{query}»",
+            "no_results": "GIF не знайдено. Спробуйте інше слово.",
+            "untitled": "GIF",
+            "powered_by": "Джерело: {provider}",
+            "failed": "Не вдалося завантажити GIF. Спробуйте ще раз.",
+            "slow_down": "Ви надсилаєте пошукові запити надто швидко. Зачекайте трохи й спробуйте ще раз."
         },
         "admin": {
-            "permission": "",
-            "provider": "",
-            "provider_help": "",
-            "giphy_key": "",
-            "giphy_key_help": "",
-            "klipy_key": "",
-            "klipy_key_help": "",
-            "rating": "",
-            "rating_help": "",
-            "rating_g": "",
-            "rating_pg": "",
-            "rating_pg13": "",
-            "rating_r": ""
+            "permission": "Шукати GIF",
+            "provider": "Постачальник GIF",
+            "provider_help": "Джерело GIF. Для кожного постачальника вкажіть нижче окремий безкоштовний ключ API.",
+            "giphy_key": "Ключ API GIPHY",
+            "giphy_key_help": "Створіть застосунок (виберіть API, а не SDK) і скопіюйте його ключ за адресою",
+            "klipy_key": "Ключ API KLIPY",
+            "klipy_key_help": "Зареєструйтеся, створіть застосунок і скопіюйте його ключ за адресою",
+            "rating": "Вікова категорія вмісту",
+            "rating_help": "Найвища вікова категорія вмісту в результатах пошуку.",
+            "rating_g": "G, для всіх",
+            "rating_pg": "PG",
+            "rating_pg13": "PG-13",
+            "rating_r": "R, лише для дорослих"
         },
         "lib": {
             "errors": {
-                "not_configured": "",
-                "unavailable": ""
+                "not_configured": "Пошук GIF на цьому форумі ще не налаштовано.",
+                "unavailable": "Сервіс GIF не відповів. Спробуйте ще раз за мить."
             }
         }
     }
