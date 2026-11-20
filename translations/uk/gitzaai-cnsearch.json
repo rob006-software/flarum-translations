@@ -1,40 +1,40 @@
 {
     "cnsearch": {
         "meili": {
-            "host": "",
-            "key": "",
-            "index": ""
+            "host": "Вузол Meilisearch",
+            "key": "Ключ API Meilisearch",
+            "index": "Назва індексу Meilisearch"
         }
     },
     "gitzaai-cnsearch": {
         "admin": {
             "settings": {
-                "meili_host_label": "",
-                "meili_host_help": "",
-                "meili_key_label": "",
-                "meili_key_help": "",
-                "meili_index_label": "",
-                "meili_index_help": ""
+                "meili_host_label": "Вузол Meilisearch",
+                "meili_host_help": "Потрібно вказати перед перевіркою підключення або індексуванням. Приклад: http://127.0.0.1:7700",
+                "meili_key_label": "Ключ API Meilisearch",
+                "meili_key_help": "Введіть ключ API, лише якщо його вимагає ваш сервер Meilisearch.",
+                "meili_index_label": "Назва індексу Meilisearch",
+                "meili_index_help": "Індекс Meilisearch для пошуку обговорень."
             },
             "buttons": {
-                "title": "",
-                "reindex": "",
-                "test_connection": "",
-                "help": "",
-                "status_label": "",
-                "status_last_checked": "",
-                "status_connected": "",
-                "status_disconnected": "",
-                "status_unknown": "",
-                "indexed_count": "",
-                "source_discussions": "",
-                "source_posts": "",
-                "last_sync": "",
-                "not_synced": "",
-                "reindex_success": "",
-                "reindex_failed": "",
-                "test_connection_success": "",
-                "test_connection_failed": ""
+                "title": "Керування Meilisearch",
+                "reindex": "Перебудувати індекс",
+                "test_connection": "Перевірити підключення",
+                "help": "Тут можна перевірити підключення до Meilisearch і перебудувати індекс обговорень.",
+                "status_label": "Стан підключення",
+                "status_last_checked": "Остання перевірка: {time}",
+                "status_connected": "Підключено",
+                "status_disconnected": "Не підключено",
+                "status_unknown": "Підключення ще не перевіряли",
+                "indexed_count": "Документів у Meilisearch: {count}",
+                "source_discussions": "Обговорень у джерелі: {count}",
+                "source_posts": "Проіндексовано дописів із джерела: {count}",
+                "last_sync": "Остання перебудова індексу: {time}",
+                "not_synced": "Синхронізації ще не було",
+                "reindex_success": "Запит на перебудову індексу надіслано.",
+                "reindex_failed": "Не вдалося перебудувати індекс. Перевірте журнали.",
+                "test_connection_success": "Підключення до Meilisearch перевірено успішно.",
+                "test_connection_failed": "Не вдалося підключитися до Meilisearch."
             }
         }
     }
