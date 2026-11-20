@@ -4,20 +4,20 @@
             "browser": {
                 "rewind": {
                     "personal": {
-                        "created": "",
-                        "regenerated": "",
-                        "visibility_changed": "",
-                        "deleted": "",
-                        "batch_deleted": ""
+                        "created": "Rückblick auf {year} für {username} erstellt",
+                        "regenerated": "Rückblick auf {year} für {username} neu erstellt",
+                        "visibility_changed": "Sichtbarkeit für den Rückblick auf {year} von {username} von {old_visibility} auf {visibility} geändert",
+                        "deleted": "Rückblick auf {year} für {username} gelöscht",
+                        "batch_deleted": "{deleted_count} personalisierte Rückblicke auf {year} gelöscht"
                     },
                     "community": {
-                        "created": "",
-                        "regenerated": ""
+                        "created": "Community-Rückblick auf {year} erstellt",
+                        "regenerated": "Community-Rückblick auf {year} neu erstellt"
                     },
                     "template": {
-                        "created": "",
-                        "updated": "",
-                        "deleted": ""
+                        "created": "Rückblick-Vorlage {template_id} erstellt",
+                        "updated": "Rückblick-Vorlage {template_id} aktualisiert",
+                        "deleted": "Rückblick-Vorlage {template_id} gelöscht"
                     }
                 }
             }
@@ -34,7 +34,7 @@
             "settings": {
                 "enabled_label": "Rückblick aktivieren",
                 "public_content_only_label": "Nur öffentlich erreichbare Inhalte einbeziehen",
-                "public_content_only_help": "Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur für Mitglieder zugänglich sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Die Änderungen werden wirksam, sobald die Rückblicke erneut generiert werden.",
+                "public_content_only_help": "Nur Inhalte einbeziehen, die für Gäste sichtbar sind. Deaktiviere diese Option für Foren, die nur Mitgliedern vorbehalten sind, um stattdessen Inhalte einzubeziehen, die für Standardmitglieder sichtbar sind. Inhalte, die nur für Mitarbeiter zugänglich sind, private Inhalte und gelöschte Inhalte werden in beiden Modi ausgeschlossen. Diese Einstellung hat keinen Einfluss auf die Zugriffsrechte für „Rückblick“ oder auf bestehende Zusammenfassungen. Wenn diese Funktion deaktiviert ist, solltest du die Berechtigung zum Aufrufen der „Rückblick“-Seite weiterhin auf Mitglieder beschränken, da Community-Zusammenfassungen Inhalte enthalten können, die nur für Mitglieder zugänglich sind. Erstelle nach einer Änderung dieser Einstellung bestehende Community- und persönliche Zusammenfassungen neu. Bevor du Gästen Zugriff gewährst, aktiviere diese Einstellung und erstelle bestehende Community-Zusammenfassungen neu.",
                 "default_public_label": "Neue persönliche Rückblenden standardmäßig öffentlich machen",
                 "default_public_help": "Lege die anfängliche Sichtbarkeit neuer persönlicher Rückblicke fest, einschließlich derer, die von Administratoren erstellt wurden. Benutzer können die Sichtbarkeit ihrer eigenen Rückblicke ändern. Die bestehenden Sichtbarkeitseinstellungen bleiben bei der Neuerstellung erhalten.",
                 "active_year_label": "Aktives Jahr",
