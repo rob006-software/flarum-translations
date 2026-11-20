@@ -1,64 +1,64 @@
 {
     "onair": {
         "lib": {
-            "live": "",
-            "live_now": "",
+            "live": "НАЖИВО",
+            "live_now": "Зараз в ефірі",
             "errors": {
-                "url_required": "",
-                "no_provider": ""
+                "url_required": "Вставте URL трансляції на YouTube або Twitch.",
+                "no_provider": "OnAir не розпізнає це посилання як трансляцію YouTube або Twitch."
             }
         },
         "forum": {
             "nav": {
-                "live": ""
+                "live": "Наживо"
             },
             "directory": {
-                "title": "",
-                "empty": ""
+                "title": "Зараз в ефірі",
+                "empty": "Зараз ніхто не транслює. Почніть першими — натисніть «Вийти в ефір»."
             },
             "go_live": {
-                "button": "",
-                "title": "",
-                "provider_label": "",
-                "url_label": "",
-                "title_label": "",
-                "submit": "",
-                "success": ""
+                "button": "Вийти в ефір",
+                "title": "Вихід в ефір",
+                "provider_label": "Де ви транслюєте?",
+                "url_label": "URL каналу або відео",
+                "title_label": "Назва трансляції",
+                "submit": "Вийти в ефір",
+                "success": "Ви в ефірі! Позначка «НАЖИВО» вже відображається."
             },
             "viewer": {
-                "unavailable": ""
+                "unavailable": "Цю трансляцію зараз неможливо вбудувати."
             },
             "widget": {
-                "name": "",
-                "title_label": "",
-                "count_label": "",
-                "preview_label": "",
-                "empty": ""
+                "name": "Прямі трансляції",
+                "title_label": "Заголовок",
+                "count_label": "Кількість трансляцій",
+                "preview_label": "Показувати попередній перегляд трансляцій",
+                "empty": "Зараз ніхто не транслює."
             },
             "stream": {
-                "by": "",
-                "untitled": "",
-                "not_found": "",
-                "end": "",
-                "has_ended": "",
-                "end_failed": "",
-                "delete": "",
-                "delete_confirm": "",
-                "delete_failed": ""
+                "by": "Автор",
+                "untitled": "Пряма трансляція",
+                "not_found": "Ця трансляція вже не в ефірі.",
+                "end": "Завершити трансляцію",
+                "has_ended": "Цю трансляцію завершено.",
+                "end_failed": "Не вдалося завершити трансляцію. Спробуйте ще раз.",
+                "delete": "Видалити трансляцію",
+                "delete_confirm": "Видалити трансляцію? Її буде видалено назавжди разом з історією.",
+                "delete_failed": "Не вдалося видалити трансляцію. Спробуйте ще раз."
             }
         },
         "admin": {
             "settings": {
-                "default_provider_label": "",
-                "default_provider_help": "",
-                "poll_interval_label": "",
-                "poll_interval_help": "",
-                "max_hours_label": "",
-                "max_hours_help": ""
+                "default_provider_label": "Типова платформа",
+                "default_provider_help": "Платформа, вибрана наперед у вікні виходу в ефір.",
+                "poll_interval_label": "Інтервал перевірки трансляцій (у секундах)",
+                "poll_interval_help": "Як часто резервний механізм перевіряє, хто в ефірі, якщо flarum/realtime не встановлено. Мінімум — 10.",
+                "max_hours_label": "Максимальна тривалість трансляції (у годинах)",
+                "max_hours_help": "Щогодинна перевірка автоматично завершує трансляції, які після цього часу досі позначено як активні. Це стосується, зокрема, випадків, коли автор закрив вкладку, не завершивши трансляцію."
             },
             "permissions": {
-                "broadcast": "",
-                "manage": ""
+                "broadcast": "Виходити в ефір (починати трансляцію)",
+                "manage": "Керувати чужими трансляціями та завершувати їх"
             }
         }
     }
