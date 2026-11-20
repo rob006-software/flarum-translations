@@ -2,37 +2,37 @@
     "ernestdefoe-cross-references": {
         "forum": {
             "sidebar": {
-                "heading": "",
-                "load_error": "",
-                "by_user": "",
-                "mentions": "",
-                "capped_notice": ""
+                "heading": "{count, plural, one {Обговорень із посиланням: #} other {Обговорень із посиланням: #}}",
+                "load_error": "Не вдалося завантажити посилання.",
+                "by_user": "від користувача {username}",
+                "mentions": "{count, plural, one {Згадок: #} other {Згадок: #}}",
+                "capped_notice": "Показано останні 50 посилань."
             },
             "event_post": {
-                "text": "",
-                "post_specific": ""
+                "text": "Користувач {username} послався на це з {ref}",
+                "post_specific": " (конкретний допис)"
             },
             "notification": {
-                "text": ""
+                "text": "На ваше обговорення послалися з {discussion}"
             },
             "post_number": {
-                "tooltip": "",
-                "copied": "",
-                "copy_failed": ""
+                "tooltip": "Допис # — натисніть, щоб скопіювати перехресне посилання ({ref})",
+                "copied": "Посилання {ref} скопійовано до буфера обміну.",
+                "copy_failed": "Не вдалося скопіювати. Посилання: {ref}."
             }
         },
         "admin": {
             "settings": {
-                "create_backlinks_label": "",
-                "create_backlinks_help": "",
-                "notify_author_label": "",
-                "notify_author_help": ""
+                "create_backlinks_label": "Додавати службові дописи зі зворотними посиланнями в цільових обговореннях",
+                "create_backlinks_help": "Коли в дописі є посилання на інше обговорення, у ньому з’являється короткий службовий допис із відомостями про джерело. Вимкніть цей параметр, якщо такі дописи зайві для вашого форуму.",
+                "notify_author_label": "Сповіщати автора обговорення, на яке послалися",
+                "notify_author_help": "Надсилати сповіщення на форумі автору обговорення, на яке послалися. Власні дописи користувача не надсилають йому сповіщень."
             }
         },
         "api": {
-            "invalid_discussion_id": "",
-            "not_found": "",
-            "unexpected_error": ""
+            "invalid_discussion_id": "Некоректний ідентифікатор обговорення",
+            "not_found": "Не знайдено",
+            "unexpected_error": "Сталася неочікувана помилка."
         }
     }
 }
