@@ -2,60 +2,60 @@
     "prm-forum-activity": {
         "admin": {
             "permissions": {
-                "feature_label": ""
+                "feature_label": "Вибирати рекомендовані обговорення"
             },
             "settings": {
-                "default_tab_label": "",
-                "default_tab_help": "",
-                "default_tab_latest": "",
-                "default_tab_featured": "",
-                "default_tab_newest": "",
-                "default_tab_top": "",
-                "tab_style_label": "",
-                "tab_style_help": "",
-                "tab_style_tabs": "",
-                "tab_style_dropdown": "",
-                "tabs_label": "",
-                "tabs_help": "",
-                "color_mode_label": "",
-                "color_mode_help": "",
-                "color_mode_default": "",
-                "color_mode_theme": "",
-                "color_mode_tag": "",
-                "color_mode_manual": "",
-                "accent_color_label": "",
-                "accent_color_help": "",
-                "color_rows_label": "",
-                "color_rows_help": "",
-                "sticky_highlight_label": "",
-                "sticky_highlight_help": ""
+                "default_tab_label": "Типова вкладка активності",
+                "default_tab_help": "Визначає, яка вкладка відкривається першою, доки відвідувач не вибере іншу. На сторінці тега пріоритет має типове сортування цього тега (flarum/tags).",
+                "default_tab_latest": "Нові дописи",
+                "default_tab_featured": "Рекомендовані",
+                "default_tab_newest": "Нові обговорення",
+                "default_tab_top": "Популярні",
+                "tab_style_label": "Вигляд вкладок",
+                "tab_style_help": "Показує параметри сортування окремими кнопками в ряд або однією кнопкою розкривного меню.",
+                "tab_style_tabs": "Кнопки в ряд",
+                "tab_style_dropdown": "Одна кнопка розкривного меню",
+                "tabs_label": "Видимі вкладки",
+                "tabs_help": "Увімкніть або вимкніть вкладки сортування. Варіанти з інших розширень, наприклад Trending або Upvotes, з’являються тут автоматично.",
+                "color_mode_label": "Джерело акцентного кольору",
+                "color_mode_help": "Визначає кольори вкладок і заголовків розділів у «Активності форуму».",
+                "color_mode_default": "Вбудований зелений",
+                "color_mode_theme": "Основний колір теми форуму",
+                "color_mode_tag": "Колір поточного тега (або колір теми, якщо його немає)",
+                "color_mode_manual": "Колір, заданий нижче",
+                "accent_color_label": "Власний акцентний колір",
+                "accent_color_help": "Використовується, якщо вибрано власний акцентний колір. Приклад",
+                "color_rows_label": "Зафарбовувати рядки кольором тега",
+                "color_rows_help": "Додає легкий відтінок тла й ліву рамку кольору основного тега обговорення.",
+                "sticky_highlight_label": "Виділяти закріплені обговорення",
+                "sticky_highlight_help": "Показує кольорову ліву рамку для закріплених обговорень. Підтримує закріплення в тегах і з найвищим пріоритетом, якщо встановлено huseyinfiliz/stickiest. Працює і без нього."
             }
         },
         "forum": {
-            "title": "",
+            "title": "Активність форуму",
             "tabs": {
-                "latest": "",
-                "featured": "",
-                "newest": "",
-                "top": ""
+                "latest": "Нові дописи",
+                "featured": "Рекомендовані",
+                "newest": "Нові обговорення",
+                "top": "Популярні"
             },
             "columns": {
-                "topic": "",
-                "forum": "",
+                "topic": "Обговорення",
+                "forum": "Форум",
                 "posts": "Відповіді",
-                "last_poster": ""
+                "last_poster": "Автор останнього допису"
             },
-            "sticky_section": "",
-            "normal_section": "",
-            "sticky_label": "",
-            "empty": "",
+            "sticky_section": "Закріплені обговорення",
+            "normal_section": "Звичайні обговорення",
+            "sticky_label": "Закріплене обговорення",
+            "empty": "Немає обговорень для показу.",
             "load_more": "Завантажити ще",
             "discussion_controls": {
-                "feature": "",
-                "unfeature": ""
+                "feature": "Рекомендувати",
+                "unfeature": "Прибрати з рекомендованих"
             },
             "badge": {
-                "featured_tooltip": ""
+                "featured_tooltip": "Рекомендоване обговорення"
             }
         }
     }
