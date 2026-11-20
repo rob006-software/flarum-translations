@@ -2,25 +2,25 @@
     "ernestdefoe-marginalia": {
         "admin": {
             "permissions": {
-                "highlight_label": "",
-                "moderate_label": ""
+                "highlight_label": "Виділяти уривки в дописах",
+                "moderate_label": "Видаляти чужі публічні виділення"
             }
         },
         "forum": {
             "toolbar": {
-                "highlight": "",
-                "note": ""
+                "highlight": "Виділити",
+                "note": "Примітка"
             },
             "popup": {
-                "marked_by": "",
-                "private_only": "",
-                "note_placeholder": "",
-                "save": "",
-                "make_private": "",
-                "make_public": "",
-                "remove": ""
+                "marked_by": "{count, plural, one {Це позначив # читач} few {Це позначили # читачі} many {Це позначили # читачів} other {Кількість читачів, які це позначили: #}}",
+                "private_only": "Цю позначку бачите лише ви",
+                "note_placeholder": "Особиста примітка, яку бачите лише ви.",
+                "save": "Зберегти",
+                "make_private": "Зробити приватним",
+                "make_public": "Зробити загальнодоступним",
+                "remove": "Видалити"
             },
-            "error": ""
+            "error": "Не вдалося зберегти зміни виділення. Спробуйте ще раз."
         }
     }
 }
