@@ -1,115 +1,115 @@
 {
     "shebaoting-dependency-collector": {
         "forum": {
-            "nav_title": "",
+            "nav_title": "Залежності",
             "list": {
-                "submit_button": "",
-                "filter_by_tag": "",
-                "all_tags": "",
-                "empty_text": "",
-                "my_favorites_button": "",
-                "search_placeholder": ""
+                "submit_button": "Подати залежність",
+                "filter_by_tag": "Фільтрувати за категорією",
+                "all_tags": "Усі категорії",
+                "empty_text": "Залежностей не знайдено.",
+                "my_favorites_button": "Моє обране",
+                "search_placeholder": "Шукати продукти"
             },
             "item": {
-                "pending_approval": "",
-                "delete_button_label": "",
-                "delete_confirmation_title": "",
-                "delete_confirmation_text": "",
-                "favorite_button_label": "",
-                "unfavorite_button_label": "",
-                "approve_button": "",
-                "unapprove_button": ""
+                "pending_approval": "Очікує схвалення",
+                "delete_button_label": "Видалити",
+                "delete_confirmation_title": "Видалення залежності",
+                "delete_confirmation_text": "Видалити цю залежність? Цю дію неможливо скасувати.",
+                "favorite_button_label": "Додати до обраного",
+                "unfavorite_button_label": "Вилучити з обраного",
+                "approve_button": "Схвалити",
+                "unapprove_button": "Скасувати схвалення"
             },
             "modal": {
-                "submit_title": "",
-                "edit_title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "link_label": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "tags_label": "",
-                "tags_help": "",
-                "submit_button": "",
-                "save_changes_button": "",
-                "no_tags_available": ""
+                "submit_title": "Подати нову залежність",
+                "edit_title": "Редагування залежності «{title}»",
+                "title_label": "Заголовок",
+                "title_placeholder": "Наприклад: Awesome Library",
+                "link_label": "Посилання",
+                "description_label": "Опис",
+                "description_placeholder": "Коротко опишіть, що робить ця залежність.",
+                "tags_label": "Категорії",
+                "tags_help": "Виберіть принаймні одну відповідну категорію.",
+                "submit_button": "Надіслати",
+                "save_changes_button": "Зберегти зміни",
+                "no_tags_available": "Немає доступних категорій."
             }
         },
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Dependency Collector",
+                "description": "Керуйте поданими залежностями й категоріями."
             },
             "page": {
-                "pending_items_title": "",
-                "no_pending_items": "",
-                "approved_items_title": "",
-                "no_approved_items": "",
-                "manage_tags_title": "",
-                "no_plugin_tags": ""
+                "pending_items_title": "Залежності на розгляді",
+                "no_pending_items": "Немає залежностей, які очікують розгляду.",
+                "approved_items_title": "Схвалені залежності",
+                "no_approved_items": "Схвалених залежностей ще немає.",
+                "manage_tags_title": "Налаштування категорій",
+                "no_plugin_tags": "Категорій ще не створено."
             },
             "table": {
-                "title": "",
-                "submitted_by": "",
-                "submitted_at": "",
-                "approved_by": "",
-                "approved_at": "",
-                "tags": "",
-                "tag_name": "",
-                "tag_slug": "",
-                "tag_color_icon": "",
-                "tag_item_count": "",
-                "actions": "",
-                "tag_color": "",
-                "tag_icon": ""
+                "title": "Заголовок",
+                "submitted_by": "Хто подав",
+                "submitted_at": "Дата подання",
+                "approved_by": "Хто схвалив",
+                "approved_at": "Дата схвалення",
+                "tags": "Категорії",
+                "tag_name": "Назва категорії",
+                "tag_slug": "Ідентифікатор у посиланні",
+                "tag_color_icon": "Колір і піктограма",
+                "tag_item_count": "Елементи",
+                "actions": "Дії",
+                "tag_color": "Колір",
+                "tag_icon": "Значок"
             },
             "actions": {
-                "create_tag": "",
-                "approve": "",
-                "reject": ""
+                "create_tag": "Створити категорію",
+                "approve": "Схвалити",
+                "reject": "Відхилити"
             },
             "confirm": {
-                "approve": "",
-                "reject": "",
-                "delete": "",
-                "delete_tag": ""
+                "approve": "Схвалити залежність",
+                "reject": "Відхилити залежність",
+                "delete": "Видалити залежність",
+                "delete_tag": "Видалити категорію «{name}»? Її буде вилучено з усіх пов’язаних залежностей."
             },
             "modal": {
-                "edit_tag_title": "",
-                "create_tag_title": "",
-                "tag_name_label": "",
-                "tag_slug_label": "",
-                "tag_description_label": "",
-                "tag_color_label": "",
-                "tag_icon_label": "",
-                "tag_icon_help": "",
-                "save_button": "",
+                "edit_tag_title": "Редагування категорії «{name}»",
+                "create_tag_title": "Створення категорії",
+                "tag_name_label": "Назва",
+                "tag_slug_label": "Ідентифікатор у посиланні",
+                "tag_description_label": "Опис (необов’язково)",
+                "tag_color_label": "Колір (наприклад,",
+                "tag_icon_label": "Піктограма (наприклад, fas fa-code)",
+                "tag_icon_help": "Знайдіть піктограми в <a>Font Awesome</a>.",
+                "save_button": "Зберегти",
                 "icon_options": {
-                    "code": "",
-                    "cube": "",
-                    "layer_group": "",
-                    "puzzle_piece": "",
-                    "toolbox": "",
-                    "palette": "",
-                    "database": "",
-                    "cloud": "",
-                    "mobile": "",
-                    "shield": "",
-                    "link": "",
-                    "star": "",
-                    "bolt": "",
-                    "rocket": "",
-                    "book": "",
-                    "tags": "",
-                    "current": ""
+                    "code": "Код",
+                    "cube": "Пакунок",
+                    "layer_group": "Шари",
+                    "puzzle_piece": "Плагін",
+                    "toolbox": "Інструменти",
+                    "palette": "Дизайн",
+                    "database": "База даних",
+                    "cloud": "Хмара",
+                    "mobile": "Мобільні пристрої",
+                    "shield": "Безпека",
+                    "link": "Посилання",
+                    "star": "Рекомендоване",
+                    "bolt": "Швидкодія",
+                    "rocket": "Запуск",
+                    "book": "Документація",
+                    "tags": "Категорія",
+                    "current": "Поточна піктограма: {icon}"
                 }
             },
             "permissions": {
-                "submit_label": "",
-                "moderate_label": "",
-                "manage_tags_label": "",
-                "delete_label": "",
-                "favorite_items_label": ""
+                "submit_label": "Подавати залежності",
+                "moderate_label": "Модерувати залежності (схвалювати, відхиляти, редагувати й видаляти)",
+                "manage_tags_label": "Керувати категоріями",
+                "delete_label": "Видаляти залежності",
+                "favorite_items_label": "Додавати залежності до обраного"
             }
         }
     }

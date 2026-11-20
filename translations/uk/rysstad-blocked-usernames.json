@@ -1,14 +1,14 @@
 {
     "rysstad-blocked-usernames": {
         "admin": {
-            "blocked_usernames_label": "",
-            "blocked_usernames_help": "",
-            "message_label": "",
-            "message_help": "",
-            "message_placeholder": ""
+            "blocked_usernames_label": "Заблоковані імена користувачів",
+            "blocked_usernames_help": "Указуйте по одному імені користувача в рядку. Регістр не враховується. Використовуйте * для позначення довільних символів, наприклад «admin*» блокує «admin», «admin1» та «administrator». На адміністраторів цей список не поширюється.",
+            "message_label": "Повідомлення про помилку",
+            "message_help": "Це повідомлення бачить людина, яка намагається зареєструватися із заблокованим іменем користувача. Залиште поле порожнім, щоб використати типове повідомлення.",
+            "message_placeholder": "Це ім’я користувача недоступне. Виберіть інше."
         },
         "api": {
-            "default_message": ""
+            "default_message": "Це ім’я користувача недоступне. Виберіть інше."
         }
     }
 }
