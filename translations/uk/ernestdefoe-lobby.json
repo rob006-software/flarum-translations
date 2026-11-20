@@ -2,94 +2,94 @@
     "ernestdefoe-lobby": {
         "admin": {
             "settings": {
-                "accent_label": "",
-                "accent_help": "",
-                "accent_amber": "",
-                "accent_blue": "",
-                "accent_green": "",
-                "accent_pink": "",
-                "accent_primary": "",
-                "show_online_label": "",
-                "show_online_help": "",
-                "online_limit_label": "",
-                "online_limit_help": "",
-                "staff_groups_label": "",
-                "staff_groups_help": ""
+                "accent_label": "Колір акценту",
+                "accent_help": "Колір кнопок, позначок непрочитаного, активної вкладки та позначки «Закріплено». Власні палітри Lobby підібрано для темного й світлого тла. Варіант «Колір форуму» використовує основний колір із налаштувань вигляду.",
+                "accent_amber": "Бурштиновий",
+                "accent_blue": "Синій",
+                "accent_green": "Зелений",
+                "accent_pink": "Рожевий",
+                "accent_primary": "Колір форуму",
+                "show_online_label": "Показувати список «Онлайн»",
+                "show_online_help": "Показує стовпець праворуч від списку обговорень і віджет «Онлайн» для Bespoke та FoF Forum Widgets. Учасників, які приховують свій стан, у списку немає.",
+                "online_limit_label": "Кількість людей у списку «Онлайн»",
+                "online_limit_help": "Максимальна кількість людей у списку (від 5 до 100). Решту враховано в лічильнику під списком.",
+                "staff_groups_label": "Групи команди форуму",
+                "staff_groups_help": "Учасників цих груп показано першими в списку «Онлайн» у розділі «Команда форуму»."
             },
             "permissions": {
-                "view_online": ""
+                "view_online": "Переглядати список учасників онлайн"
             }
         },
         "forum": {
             "sidebar": {
-                "label": "",
-                "channels": "",
-                "tags": "",
-                "members": "",
-                "activity": "",
-                "messages": "",
-                "unread_messages": "",
-                "more_tags": "",
-                "explore": "",
-                "mentions": "",
-                "unread": ""
+                "label": "Канали",
+                "channels": "Канали",
+                "tags": "Теги",
+                "members": "{count, plural, one {{formatted} учасник} few {{formatted} учасники} many {{formatted} учасників} other {{formatted} учасника}}",
+                "activity": "Активність",
+                "messages": "Повідомлення",
+                "unread_messages": "{count, plural, one {# непрочитана розмова} few {# непрочитані розмови} many {# непрочитаних розмов} other {# непрочитаної розмови}}",
+                "more_tags": "Усі теги",
+                "explore": "Огляд",
+                "mentions": "{count, plural, one {# непрочитана згадка} few {# непрочитані згадки} many {# непрочитаних згадок} other {# непрочитаної згадки}}",
+                "unread": "Нова активність"
             },
             "presence": {
-                "online": "",
-                "invisible": ""
+                "online": "Онлайн",
+                "invisible": "Невидимий режим"
             },
             "phone": {
-                "open_channels": "",
-                "back": "",
-                "tabs": "",
-                "home": "",
-                "alerts": "",
-                "you": "",
-                "log_in": ""
+                "open_channels": "Відкрити канали",
+                "back": "Назад",
+                "tabs": "Основні",
+                "home": "Головна",
+                "alerts": "Сповіщення",
+                "you": "Ви",
+                "log_in": "Увійти"
             },
             "channel": {
-                "following": ""
+                "following": "Відстежувані"
             },
             "compose": {
-                "in_channel": "",
-                "anywhere": ""
+                "in_channel": "Почати обговорення в каналі #{channel}",
+                "anywhere": "Почати обговорення"
             },
             "online": {
-                "label": "",
-                "empty": "",
-                "staff": "",
-                "members": "",
-                "more": ""
+                "label": "Онлайн",
+                "empty": "Зараз тут більше нікого немає.",
+                "staff": "Команда форуму — {count}",
+                "members": "Онлайн — {count}",
+                "more": "{count, plural, one {і ще {formatted}} few {і ще {formatted}} many {і ще {formatted}} other {і ще {formatted}}}"
             },
             "topic": {
-                "replies": "",
-                "participants_label": "",
-                "participants": "",
-                "solved": "",
-                "jump_unread": "",
-                "thread_info": "",
-                "thread_info_and_controls": "",
-                "started_by": "",
-                "created": "",
-                "replies_label": "",
-                "jump_to": "",
-                "first": "",
-                "unread": "",
-                "latest": "",
-                "online": "",
-                "locked": "",
-                "message_in": "",
-                "message": "",
-                "today": "",
-                "yesterday": "",
-                "new_messages": "",
-                "replying_to": ""
+                "replies": "{count, plural, one {{formatted} відповідь} few {{formatted} відповіді} many {{formatted} відповідей} other {{formatted} відповіді}}",
+                "participants_label": "{count, plural, one {Учасників: #} other {Учасників: #}}",
+                "participants": "Учасники — {count}",
+                "solved": "Вирішено",
+                "jump_unread": "Перейти до непрочитаного",
+                "thread_info": "Відомості про обговорення",
+                "thread_info_and_controls": "Відомості про обговорення й керування ним",
+                "started_by": "Автор",
+                "created": "Створено",
+                "replies_label": "Відповіді",
+                "jump_to": "Перейти до",
+                "first": "Першого",
+                "unread": "Непрочитаного",
+                "latest": "Останнього",
+                "online": "Онлайн",
+                "locked": "Це обговорення закрито.",
+                "message_in": "Повідомлення в каналі #{channel} › {title}",
+                "message": "Повідомлення «{title}»",
+                "today": "Сьогодні",
+                "yesterday": "Учора",
+                "new_messages": "Нові повідомлення",
+                "replying_to": "відповідь для {name}"
             },
             "row": {
-                "pinned": "",
-                "replies": "",
-                "last": "",
-                "new_since": ""
+                "pinned": "Закріплено",
+                "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
+                "last": "останній допис {ago}",
+                "new_since": "Нове з останнього відвідування"
             }
         }
     }
