@@ -1,38 +1,38 @@
 {
     "ernestdefoe-nameplate": {
         "forum": {
-            "posts": "",
-            "discussions": "",
-            "likes": "",
-            "best_answers": "",
-            "joined": "",
-            "renown_level": "",
+            "posts": "Дописи",
+            "discussions": "Обговорення",
+            "likes": "Вподобайки",
+            "best_answers": "Найкращі відповіді",
+            "joined": "Дата приєднання",
+            "renown_level": "Рівень {level}",
             "settings": {
-                "heading": "",
-                "hide_signatures": "",
-                "hide_signatures_help": ""
+                "heading": "Читання",
+                "hide_signatures": "Приховувати підписи",
+                "hide_signatures_help": "Приховує підписи під дописами інших учасників."
             }
         },
         "admin": {
-            "layout": "",
-            "layout_help": "",
-            "layout_side": "",
-            "layout_header": "",
-            "show_heading": "",
-            "show_rank": "",
-            "show_rank_help": "",
-            "show_renown": "",
-            "show_renown_help": "",
-            "show_posts": "",
-            "show_discussions": "",
-            "show_likes": "",
-            "show_likes_help": "",
-            "show_best_answers": "",
-            "show_best_answers_help": "",
-            "show_joined": "",
-            "signatures_heading": "",
-            "signature_once": "",
-            "signature_once_help": ""
+            "layout": "Розташування",
+            "layout_help": "Визначає, де показувати відомості про учасника в кожному дописі. На телефонах бічної колонки немає, тому відомості буде показано рядком під іменем.",
+            "layout_side": "Панель під аватаром",
+            "layout_header": "Рядок під іменем",
+            "show_heading": "Показувати",
+            "show_rank": "Ранг",
+            "show_rank_help": "Показує видимі групи учасника, зокрема ранги Ladder, які теж є групами.",
+            "show_renown": "Ранг Renown",
+            "show_renown_help": "Якщо встановлено Renown, угорі панелі показуються відзнака, ранг і рівень учасника, а також емблема Prestige. На широких екранах звичайна відзнака Renown біля імені приховується.",
+            "show_posts": "Кількість дописів",
+            "show_discussions": "Кількість обговорень",
+            "show_likes": "Отримані вподобайки",
+            "show_likes_help": "Потрібне розширення Flarum Likes.",
+            "show_best_answers": "Найкращі відповіді",
+            "show_best_answers_help": "Потрібне розширення FoF Best Answer. Приховано для учасників без найкращих відповідей.",
+            "show_joined": "Дата приєднання",
+            "signatures_heading": "Підписи (FoF Signature)",
+            "signature_once": "Показувати підпис учасника один раз в обговоренні",
+            "signature_once_help": "Підпис залишається під першим дописом учасника на сторінці, а в наступних відповідях не повторюється. Учасники також можуть приховати всі підписи для себе в розділі «Налаштування → Читання»."
         }
     }
 }
