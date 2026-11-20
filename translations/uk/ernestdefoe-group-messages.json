@@ -2,70 +2,70 @@
     "ernestdefoe-group-messages": {
         "forum": {
             "compose": {
-                "group_button": "",
-                "cannot_reply_text": "",
-                "group_title": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "recipients_label": "",
-                "message_placeholder": "",
-                "create_button": "",
-                "create_error": ""
+                "group_button": "Нове групове повідомлення",
+                "cannot_reply_text": "Ви не можете відповідати на повідомлення",
+                "group_title": "Нове групове повідомлення",
+                "name_label": "Назва групи",
+                "name_placeholder": "Назвіть групу (необов’язково)",
+                "recipients_label": "Додати учасників",
+                "message_placeholder": "Напишіть перше повідомлення…",
+                "create_button": "Створити групу",
+                "create_error": "Не вдалося створити групу. Спробуйте ще раз."
             },
             "dialog": {
-                "participants": "",
-                "participant_count": "",
-                "group_fallback_title": "",
-                "unread_count_text": "",
-                "seen_by": "",
-                "seen_by_count": ""
+                "participants": "Учасники ({count})",
+                "participant_count": "{count, plural, one {# учасник} few {# учасники} many {# учасників} other {# учасника}}",
+                "group_fallback_title": "Групове повідомлення",
+                "unread_count_text": "Непрочитаних: {count}",
+                "seen_by": "Переглянули: {names}",
+                "seen_by_count": "Переглянули: {count}"
             },
             "reactions": {
-                "add_label": ""
+                "add_label": "Додати реакцію"
             },
             "reply": {
-                "reply_button": "",
-                "replying_to": "",
-                "cancel": "",
-                "unknown": ""
+                "reply_button": "Відповісти",
+                "replying_to": "Відповідь користувачеві {username}",
+                "cancel": "Скасувати відповідь",
+                "unknown": "У відповідь на попереднє повідомлення"
             },
             "quote": {
-                "quote_button": ""
+                "quote_button": "Цитувати"
             },
             "search": {
-                "label": "",
-                "placeholder": "",
-                "placeholder_in": "",
-                "in": "",
-                "all_label": "",
-                "this_conversation": "",
-                "empty": "",
-                "empty_all": "",
-                "conversations": "",
-                "messages": "",
-                "more": ""
+                "label": "Шукати повідомлення",
+                "placeholder": "Шукати учасників і повідомлення",
+                "placeholder_in": "Пошук у розмові «{title}»",
+                "in": "У розмові «{title}»",
+                "all_label": "Шукати в усіх розмовах",
+                "this_conversation": "Шукати в цій розмові",
+                "empty": "Відповідних повідомлень не знайдено.",
+                "empty_all": "Відповідних розмов чи повідомлень не знайдено.",
+                "conversations": "Розмови",
+                "messages": "Повідомлення",
+                "more": "Завантажити ще"
             },
             "manage": {
-                "title": "",
-                "name_label": "",
-                "save_button": "",
-                "participants_label": "",
-                "add_people": "",
-                "leave_button": "",
-                "remove_tooltip": "",
-                "promote_tooltip": "",
-                "demote_tooltip": "",
-                "role_owner": "",
-                "role_moderator": "",
-                "role_member": ""
+                "title": "Налаштування групи",
+                "name_label": "Назва й піктограма групи",
+                "save_button": "Зберегти",
+                "participants_label": "Учасники ({count})",
+                "add_people": "Додати учасників",
+                "leave_button": "Вийти з групи",
+                "remove_tooltip": "Вилучити з групи",
+                "promote_tooltip": "Призначити модератором",
+                "demote_tooltip": "Зняти роль модератора",
+                "role_owner": "Власник",
+                "role_moderator": "Модератор",
+                "role_member": "Учасник"
             }
         },
         "lib": {
             "error": {
-                "generic": "",
-                "not_group_member": "",
-                "cannot_manage": "",
-                "min_participants": ""
+                "generic": "Щось пішло не так. Спробуйте ще раз.",
+                "not_group_member": "Ви не є учасником цієї групи.",
+                "cannot_manage": "У вас немає дозволу керувати цією групою.",
+                "min_participants": "Для створення групи потрібні щонайменше двоє інших учасників."
             }
         }
     }
