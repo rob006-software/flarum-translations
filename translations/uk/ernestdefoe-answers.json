@@ -12,21 +12,21 @@
                 "mine": "",
                 "unanswered": "",
                 "answered": "",
-                "solved": "",
+                "solved": "Вирішено",
                 "bounty": "",
                 "duplicate": ""
             },
             "state": {
                 "unanswered": "",
                 "answered": "",
-                "solved": "",
+                "solved": "Вирішено",
                 "duplicate": "Дублювати"
             },
             "list": {
-                "answers": "",
+                "answers": "{count, plural, one {Відповідей: #} other {Відповідей: #}}",
                 "answers_word": "",
                 "votes_word": "",
-                "views": ""
+                "views": "{count, plural, one {Переглядів: #} other {Переглядів: #}}"
             },
             "thread": {
                 "answers": "",
@@ -50,7 +50,7 @@
                 "down": "",
                 "up_question": "",
                 "down_question": "",
-                "score": "",
+                "score": "{count, plural, one {Голосів: #} other {Голосів: #}}",
                 "accept": "",
                 "unaccept": "",
                 "accepted": ""
@@ -77,7 +77,7 @@
             "similar": {
                 "title": "",
                 "dismiss": "",
-                "answers": ""
+                "answers": "{count, plural, one {Відповідей: #} other {Відповідей: #}}"
             },
             "helpers": {
                 "title": ""
