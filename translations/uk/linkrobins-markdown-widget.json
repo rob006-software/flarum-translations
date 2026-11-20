@@ -2,18 +2,18 @@
     "linkrobins-markdown-widget": {
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_help": "",
-                "title_placeholder": "",
-                "description_label": "",
-                "description_help": "",
-                "description_placeholder": "",
-                "icon_label": "",
-                "icon_help": "",
-                "body_label": "",
-                "body_help": "",
-                "background_label": "",
-                "background_help": ""
+                "title_label": "Заголовок",
+                "title_help": "Необов’язковий. Показується над вмістом. Залиште поле порожнім, щоб не показувати заголовок.",
+                "title_placeholder": "Вітаємо в нашій спільноті!",
+                "description_label": "Опис",
+                "description_help": "Необов’язковий короткий підзаголовок або пояснення під заголовком.",
+                "description_placeholder": "Прочитайте перед публікацією допису",
+                "icon_label": "Клас значка",
+                "icon_help": "Клас FontAwesome для значка поруч із заголовком, наприклад fab fa-markdown. Залиште поле порожнім, щоб не показувати значок.",
+                "body_label": "Вміст Markdown",
+                "body_help": "Стандартний Markdown у варіанті GitHub. Підтримуються заголовки, списки, посилання, код і таблиці. Вбудований HTML дозволено, але перед показом теги script, обробники подій та інша небезпечна розмітка вилучаються.",
+                "background_label": "Колір тла",
+                "background_help": "Необов’язковий колір тла віджета. Залиште поле порожнім, щоб використовувати колір теми."
             }
         }
     }
