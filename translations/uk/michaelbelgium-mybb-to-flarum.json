@@ -2,17 +2,17 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку «перенести».",
+                "description_text": "Перенесіть форум MyBB до цього екземпляра Flarum. Заповніть потрібні дані, а потім натисніть кнопку «Перенести».",
                 "convert_button": "Мігрувати",
                 "form": {
                     "options": {
                         "title": "Інші варіанти",
                         "migrate_avatars_label": "Мігрувати аватарки",
-                        "migrate_private_messages_label": "",
-                        "migrate_soft_threads_label": "Перемістити м'яко видалених тем",
-                        "migrate_soft_posts_label": "Перемістити м'яко видалених дописів",
+                        "migrate_private_messages_label": "Перенести приватні повідомлення (потрібне flarum/messages)",
+                        "migrate_soft_threads_label": "Перенести гілки обговорень, видалені з можливістю відновлення",
+                        "migrate_soft_posts_label": "Перенести дописи, видалені з можливістю відновлення",
                         "migrate_attachments_label": "Перемістити вкладені файли",
-                        "debug_mode_label": ""
+                        "debug_mode_label": "Увімкнути журналювання"
                     },
                     "mybb": {
                         "title": "Налаштування MyBB",
@@ -22,8 +22,8 @@
                         "db_label": "Назва бази даних",
                         "prefix_label": "Префікс таблиці",
                         "path": {
-                            "label": "",
-                            "help_text": ""
+                            "label": "Абсолютний шлях до MyBB",
+                            "help_text": "Абсолютний шлях до встановленого MyBB, наприклад /var/www/mybb."
                         }
                     },
                     "general": {
