@@ -3,97 +3,97 @@
         "admin": {
             "create_button": "Створити",
             "help": {
-                "intro": "",
-                "preconnect": "",
-                "cache": "",
-                "pages": "",
-                "location": ""
+                "intro": "Додавайте власні теги до HTML форуму. Елементи кешуються й завантажуються без запитів до бази даних під час відкриття сторінки.",
+                "preconnect": "Для тегів посилань і скриптів, що вказують на зовнішні джерела, автоматично створюються підказки preconnect і dns-prefetch, щоб підготувати з’єднання завчасно.",
+                "cache": "Згенерований HTML кешується під час збереження. Зміни набувають чинності відразу, без очищення всього кешу сайту.",
+                "pages": "Кожен елемент може застосовуватись до інтерфейсу форуму, панелі адміністратора або обох.",
+                "location": "Елементи можна вставити в head або в кінець body."
             },
             "table": {
-                "drag_handle": "",
+                "drag_handle": "Перетягніть, щоб змінити порядок",
                 "description_label": "Опис",
-                "type_label": "",
-                "location_label": "",
-                "pages_label": "",
+                "type_label": "Тип",
+                "location_label": "Розташування",
+                "pages_label": "Сторінки",
                 "active_label": "Активно",
                 "empty_text": "Немає записів",
                 "delete_button": "Видалити",
                 "edit_button": "Редагувати",
-                "delete_confirm": "",
+                "delete_confirm": "Видалити цей елемент?",
                 "header_label": "Шапка"
             },
             "modal": {
                 "create_title": "Новий елемент",
                 "edit_title": "Редагувати",
                 "description_label": "Опис",
-                "description_help": "",
-                "type_label": "",
-                "location_label": "",
-                "location_help": "",
-                "pages_label": "",
+                "description_help": "Підпис для вашої довідки. На сторінку не додається.",
+                "type_label": "Тип",
+                "location_label": "Куди вставляти",
+                "location_help": "У head елемент завантажується до відображення сторінки. Це доречно для стилів і важливих метатегів. Наприкінці body елемент завантажується після вмісту. Це доречно для другорядних скриптів.",
+                "pages_label": "Де застосовувати",
                 "save_button": "Зберегти",
                 "type": {
-                    "meta": "",
-                    "link": "",
-                    "script": "",
-                    "style": "",
-                    "raw": ""
+                    "meta": "Метатег",
+                    "link": "Посилання",
+                    "script": "Скрипт",
+                    "style": "Стиль",
+                    "raw": "Необроблений HTML"
                 },
                 "location": {
-                    "head": "",
-                    "foot": ""
+                    "head": "Head",
+                    "foot": "Кінець body"
                 },
                 "pages": {
-                    "forum": "",
-                    "admin": ""
+                    "forum": "Форум",
+                    "admin": "Панель адміністратора"
                 },
                 "meta": {
-                    "variant_label": "",
-                    "name_label": "",
-                    "name_placeholder": "",
-                    "name_help": "",
-                    "property_label": "",
-                    "property_placeholder": "",
-                    "content_label": ""
+                    "variant_label": "Варіант",
+                    "name_label": "name=\"\"",
+                    "name_placeholder": "Виберіть або введіть назву",
+                    "name_help": "Елементи з іменами description, viewport або theme-color замінюють відповідні наявні теги Flarum.",
+                    "property_label": "property=\"\" (Open Graph)",
+                    "property_placeholder": "Виберіть або введіть властивість",
+                    "content_label": "Вміст"
                 },
                 "link": {
-                    "rel_label": "",
-                    "href_label": "",
-                    "as_label": "",
-                    "as_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": "",
-                    "fetchpriority_label": "",
-                    "fetchpriority_default": "",
-                    "fetchpriority_help": "",
-                    "extras_label": "",
-                    "extras_add": "",
-                    "extras_remove": ""
+                    "rel_label": "rel=\"\"",
+                    "href_label": "href=\"\" (URL)",
+                    "as_label": "as=\"\"",
+                    "as_help": "Підказує браузеру тип попередньо завантажуваного ресурсу, щоб він установив правильні заголовки запиту. Обов’язковий для rel=preload.",
+                    "crossorigin_label": "Додати crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Потрібно для шрифтів і скриптів, що завантажуються з іншого домену, щоб браузер міг використовувати спільне з’єднання. Увімкніть для ресурсів з іншого джерела.",
+                    "fetchpriority_label": "fetchpriority=\"\"",
+                    "fetchpriority_default": "Типове значення браузера",
+                    "fetchpriority_help": "Підказує браузеру відносний пріоритет ресурсу. high завантажує раніше, наприклад головне зображення або важливу таблицю стилів. low завантажує пізніше, наприклад ресурс поза видимою ділянкою. Залиште порожнім, щоб браузер визначив пріоритет самостійно.",
+                    "extras_label": "Додаткові атрибути",
+                    "extras_add": "Додати атрибут",
+                    "extras_remove": "Видалити"
                 },
                 "script": {
-                    "external_label": "",
-                    "inline_label": "",
-                    "src_label": "",
-                    "inline_content_label": "",
-                    "defer_label": "",
-                    "defer_help": "",
-                    "async_label": "",
-                    "async_help": "",
-                    "module_label": "",
-                    "module_help": "",
-                    "crossorigin_label": "",
-                    "crossorigin_help": ""
+                    "external_label": "Зовнішній (src)",
+                    "inline_label": "Вбудований",
+                    "src_label": "src=\"\" (URL)",
+                    "inline_content_label": "Вміст скрипту",
+                    "defer_label": "defer",
+                    "defer_help": "Скрипт виконується після розбору сторінки й не блокує відображення. Підходить для більшості скриптів.",
+                    "async_label": "async",
+                    "async_help": "Скрипт виконується одразу після завантаження, незалежно від порядку. Підходить для незалежних скриптів, наприклад аналітики.",
+                    "module_label": "type=\"module\"",
+                    "module_help": "Увімкніть, якщо документація постачальника скрипту вимагає type=\"module\". Модулі завантажуються після сторінки й не блокують її.",
+                    "crossorigin_label": "crossorigin=\"anonymous\"",
+                    "crossorigin_help": "Потрібно для скриптів з іншого домену, яким потрібен доступ через CORS."
                 },
                 "style": {
-                    "inline_label": "",
-                    "inline_help": ""
+                    "inline_label": "Вміст CSS",
+                    "inline_help": "Застосовується до всіх сторінок, на які націлено цей елемент. Використовуйте точні селектори, щоб уникнути небажаних наслідків."
                 },
                 "raw": {
-                    "content_label": "",
-                    "help_text": ""
+                    "content_label": "HTML",
+                    "help_text": "Введіть необроблений HTML. Підказки preconnect створюються автоматично для зовнішніх тегів посилань і скриптів. Порядок і перемикач активності працюють як зазвичай. Для функцій окремих типів, як-от fetchpriority та defer, виберіть структурований тип."
                 },
-                "preview_label": "",
-                "preview_empty": "",
+                "preview_label": "Попередній перегляд",
+                "preview_empty": "Заповніть поля вище, щоб побачити попередній перегляд.",
                 "text": "Переконайтеся, що ваш синтаксис правильний, оскільки можна зламати форум, ввівши невірні дані в заголовку. Після збереження увімкніть новий елемент заголовка за допомогою відповідного перемикача.",
                 "header_label": "Власний елемент"
             }
