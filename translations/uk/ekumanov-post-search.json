@@ -2,43 +2,43 @@
     "ekumanov-post-search": {
         "admin": {
             "settings": {
-                "dropdownAccess": "",
-                "dropdownAccessHelp": "",
-                "sideNavAccess": "",
-                "sideNavAccessHelp": "",
-                "authorQuickFilter": "",
-                "authorQuickFilterHelp": "",
-                "originalPosterBadge": "",
-                "originalPosterBadgeHelp": ""
+                "dropdownAccess": "Доступ через розкривне меню обговорення",
+                "dropdownAccessHelp": "Показує кнопку «Пошук в обговоренні» у розкривному меню дій обговорення.",
+                "sideNavAccess": "Доступ через бічну навігацію обговорення",
+                "sideNavAccessHelp": "Показує кнопку «Пошук в обговоренні» на бічній панелі обговорення.",
+                "authorQuickFilter": "Швидкий фільтр за автором допису",
+                "authorQuickFilterHelp": "Додає до меню дій кожного допису команду фільтрування за його автором.",
+                "originalPosterBadge": "Швидкий фільтр за автором обговорення",
+                "originalPosterBadgeHelp": "Показує інтерактивну позначку «Автор обговорення» поруч із його дописами. Натискання позначки показує лише дописи цього користувача."
             }
         },
         "forum": {
             "stream": {
-                "noResults": "",
-                "unmatchedGap": "",
-                "otherAuthorsGap": ""
+                "noResults": "У цьому обговоренні немає дописів, що відповідають запиту",
+                "unmatchedGap": "{count, plural, =1 {Приховано один допис, що не відповідає запиту} one {Приховано # допис, що не відповідає запиту} few {Приховано # дописи, що не відповідають запиту} many {Приховано # дописів, що не відповідають запиту} other {Приховані дописи, що не відповідають запиту: #}}",
+                "otherAuthorsGap": "{count, plural, =1 {Приховано один допис іншого автора} one {Приховано # допис іншого автора} few {Приховано # дописи інших авторів} many {Приховано # дописів інших авторів} other {Приховані дописи інших авторів: #}}"
             },
             "toolbar": {
-                "searchPlaceholder": "",
-                "authorPlaceholder": "",
-                "summary": "",
-                "pin": "",
-                "close": "",
-                "clear": ""
+                "searchPlaceholder": "Пошук в обговоренні…",
+                "authorPlaceholder": "Фільтрувати за автором…",
+                "summary": "Знайдено {matching} із {total}",
+                "pin": "Завжди відкривати панель фільтрів в обговореннях",
+                "close": "Очистити фільтри й закрити панель",
+                "clear": "Очистити фільтри"
             },
             "discussionControls": {
-                "searchInDiscussion": ""
+                "searchInDiscussion": "Пошук в обговоренні"
             },
             "postControls": {
-                "authorFilter": ""
+                "authorFilter": "Показати лише відповіді цього автора"
             },
             "post": {
-                "opBadge": "",
-                "opBadgeTooltip": ""
+                "opBadge": "Автор обговорення",
+                "opBadgeTooltip": "Натисніть, щоб показати лише відповіді цього користувача"
             },
             "cannotGoToPost": {
-                "message": "",
-                "action": ""
+                "message": "Не вдалося перейти до допису",
+                "action": "Спробуйте очистити фільтри"
             }
         }
     }
