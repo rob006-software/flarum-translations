@@ -2,8 +2,8 @@
     "datitisev-backup": {
         "admin": {
             "settings": {
-                "database_bin_path_label": "",
-                "database_bin_path_help": ""
+                "database_bin_path_label": "Шлях до виконуваних файлів бази даних (необов’язково)",
+                "database_bin_path_help": "Якщо виконувані файли бази даних (наприклад, mysqldump або pg_dump) відсутні у вашому системному PATH, укажіть тут їхній каталог. Додайте скісну риску в кінці шляху (наприклад, <code>/usr/local/mysql/bin/</code>).\n"
             },
             "adapters": {
                 "local": "Локальне сховище",
@@ -27,8 +27,8 @@
             "adapter-settings-modal": {
                 "title": "Конфігурація {adapter}",
                 "name_label": "Локальна назва",
-                "timestamp_label": "",
-                "timestamp_help": "",
+                "timestamp_label": "Формат позначки часу в назві файла",
+                "timestamp_help": "Укажіть формат позначки часу в назвах файлів резервних копій. Типове значення — <code>U</code> (час Unix). Використовується <a>формат дати PHP</a>. Недопустимі символи в назві файла буде замінено. Формат назви — <code>{forum}-[formatted timestamp].zip</code>.\n",
                 "local": {
                     "target": {
                         "label": "Цільовий шлях",
@@ -59,8 +59,8 @@
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Рядок підключення",
+                        "description": "Рядок підключення до сховища Azure."
                     },
                     "container": {
                         "label": "Контейнер",
@@ -134,9 +134,9 @@
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "use-display-paths": {
-                        "label": "",
-                        "toggle": "",
-                        "description": ""
+                        "label": "Використовувати видимі шляхи (дозволяє перезапис)",
+                        "toggle": "Використовувати видимі шляхи",
+                        "description": "Google Диск підтримує історію версій. Цей параметр використовує шлях файла як його ідентифікатор замість випадково згенерованого значення. Якщо параметр вимкнено, в одній теці можуть без конфліктів існувати кілька файлів з однаковою назвою. Якщо його ввімкнено, запис за наявним шляхом перезапише файл. <br/> <b>Увага!</b> Після ввімкнення замініть ідентифікатор теки на її видимий шлях. Інакше буде створено теку з назвою, що збігається з ідентифікатором.\n"
                     },
                     "help": {
                         "test_success_alert": "Успішне підключення до Google Диску! Збережіть зміни, щоб зберегти налаштування.",
@@ -157,8 +157,8 @@
                         "description": "Пароль користувача для авторизації на FTP-сервері."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Пасивний режим",
+                        "description": "Використовувати пасивний режим для з’єднання FTP."
                     },
                     "port": {
                         "label": "Порт",
@@ -178,26 +178,26 @@
                     }
                 },
                 "sftp": {
-                    "host": "",
-                    "username": "",
-                    "password": "",
-                    "root": "",
-                    "timeout": "",
+                    "host": "=> datitisev-backup.admin.adapter-settings-modal.ftp.host",
+                    "username": "=> datitisev-backup.admin.adapter-settings-modal.ftp.username",
+                    "password": "=> datitisev-backup.admin.adapter-settings-modal.ftp.password",
+                    "root": "=> datitisev-backup.admin.adapter-settings-modal.ftp.root",
+                    "timeout": "=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout",
                     "port": {
                         "label": "Порт",
-                        "description": ""
+                        "description": "Порт SFTP (типове значення — 22)."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Закритий ключ",
+                        "description": "Шлях до закритого ключа для автентифікації з’єднання SFTP. Бажано вказати абсолютний шлях."
                     },
                     "passphrase": {
-                        "label": "",
-                        "description": ""
+                        "label": "Парольна фраза",
+                        "description": "Парольна фраза закритого ключа, якщо вона задана."
                     },
                     "use-agent": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Використовувати агент SSH",
+                        "description": "Використовувати агент SSH для автентифікації з’єднання. За замовчуванням вимкнено."
                     }
                 }
             },
