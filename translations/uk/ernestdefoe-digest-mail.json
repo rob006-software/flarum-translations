@@ -5,10 +5,10 @@
                 "digest_label": "",
                 "digest_help": "",
                 "frequency_off": "",
-                "frequency_daily": "",
-                "frequency_weekly": "",
-                "frequency_monthly": "",
-                "saved": "",
+                "frequency_daily": "Щодня",
+                "frequency_weekly": "Щотижня",
+                "frequency_monthly": "Щомісяця",
+                "saved": "Збережено",
                 "save_error": ""
             },
             "onboarding": {
@@ -19,7 +19,7 @@
         },
         "admin": {
             "tabs": {
-                "settings": "",
+                "settings": "Налаштування",
                 "order": "",
                 "stats": "",
                 "server": ""
@@ -82,7 +82,7 @@
                 "weekly_day_help": "",
                 "monthly_day_label": "",
                 "monthly_day_help": "",
-                "saved": ""
+                "saved": "Збережено"
             },
             "sections": {
                 "content_limits": "",
@@ -99,9 +99,9 @@
                 "recommended_settings": ""
             },
             "frequency": {
-                "daily": "",
-                "weekly": "",
-                "monthly": "",
+                "daily": "Щодня",
+                "weekly": "Щотижня",
+                "monthly": "Щомісяця",
                 "help": "",
                 "daily_desc": "",
                 "weekly_desc": "",
@@ -136,11 +136,11 @@
                 "favorites_status_both": "",
                 "favorites_status_likes": "",
                 "favorites_status_disabled": "",
-                "section_discussions": "",
-                "section_members": "",
+                "section_discussions": "Обговорення",
+                "section_members": "Нові учасники",
                 "section_stats": "",
-                "section_leaderboard": "",
-                "section_badges": "",
+                "section_leaderboard": "Таблиця лідерів",
+                "section_badges": "Відзнаки",
                 "section_pickem": "",
                 "section_picks": "",
                 "section_gamepedia": "",
@@ -182,9 +182,9 @@
             "order": {
                 "help": "",
                 "no_sections_active": "",
-                "move_up": "",
-                "move_down": "",
-                "saving": "",
+                "move_up": "Перемістити вгору",
+                "move_down": "Перемістити вниз",
+                "saving": "Збереження…",
                 "order_saved": ""
             },
             "token_checker": {
@@ -207,22 +207,22 @@
                 "of_confirmed_members": "",
                 "user_count": "",
                 "view": "",
-                "hide": "",
+                "hide": "Приховати",
                 "pct_of_subscribers": "",
                 "last_sent_prefix": "",
                 "prev": "",
-                "next": "",
+                "next": "Далі",
                 "page_of": "",
                 "col_frequency": "",
-                "col_sent": "",
+                "col_sent": "Надіслано",
                 "col_skipped": "",
                 "col_datetime": "",
                 "no_send_history": "",
-                "loading": "",
+                "loading": "Завантаження…",
                 "loading_statistics": "",
                 "no_data_loaded": "",
                 "no_subscribers_found": "",
-                "never": "",
+                "never": "Ніколи",
                 "error_load_subscribers": "",
                 "error_load_stats": ""
             },
@@ -388,7 +388,7 @@
                 "email_placeholder": "",
                 "frequency_label": "",
                 "send_button": "",
-                "sending_button": "",
+                "sending_button": "Надсилання…",
                 "success": "",
                 "error_empty_email": "",
                 "error_generic": "",
@@ -443,9 +443,9 @@
             "header_badge": "",
             "document_title": "",
             "frequency": {
-                "daily": "",
-                "weekly": "",
-                "monthly": ""
+                "daily": "Щодня",
+                "weekly": "Щотижня",
+                "monthly": "Щомісяця"
             },
             "period": {
                 "daily": "",
@@ -479,9 +479,9 @@
                 "unknown_author": ""
             },
             "stats": {
-                "posts": "",
-                "discussions": "",
-                "new_members": "",
+                "posts": "Дописи",
+                "discussions": "Обговорення",
+                "new_members": "Нові учасники",
                 "active_users": ""
             },
             "featured": {
@@ -493,12 +493,12 @@
                 "new_discussions": "",
                 "active_discussions": "",
                 "unread": "",
-                "new_members": "",
-                "leaderboard": "",
-                "badges": "",
+                "new_members": "Нові учасники",
+                "leaderboard": "Таблиця лідерів",
+                "badges": "Відзнаки",
                 "pickem": "",
                 "picks": "",
-                "giveaways": "",
+                "giveaways": "Розіграші",
                 "gamepedia": "",
                 "favorites": ""
             },
@@ -507,7 +507,7 @@
             },
             "leaderboard": {
                 "rankings_note": "",
-                "col_rank": "",
+                "col_rank": "#",
                 "col_member": "",
                 "col_move": "",
                 "col_score": "",
@@ -515,7 +515,7 @@
                 "biggest_mover": "",
                 "spot_singular": "",
                 "spot_plural": "",
-                "change_new": "",
+                "change_new": "Нове",
                 "change_up": "",
                 "change_down": "",
                 "change_held": "",
@@ -539,7 +539,7 @@
                 "results_heading": "",
                 "draw": "",
                 "leaderboard_heading": "",
-                "col_rank": "",
+                "col_rank": "#",
                 "col_player": "",
                 "col_pts": "",
                 "col_accuracy": "",
@@ -559,14 +559,14 @@
                 "cta": "",
                 "results_heading": "",
                 "winner": "",
-                "col_rank": "",
+                "col_rank": "#",
                 "col_player": "",
                 "col_pts": "",
                 "col_accuracy": "",
                 "move_up": "",
                 "move_down": "",
-                "move_held": "",
-                "move_new": ""
+                "move_held": "—",
+                "move_new": "Нове"
             },
             "giveaways": {
                 "ending_heading": "",
@@ -589,7 +589,7 @@
             },
             "awards": {
                 "coming_soon": "",
-                "categories": "",
+                "categories": "Категорії",
                 "front_runners": "",
                 "voting_closed": "",
                 "tallying": "",
@@ -602,7 +602,7 @@
                 "days_left": "",
                 "voting_closes": "",
                 "votes_cast": "",
-                "winners_heading": ""
+                "winners_heading": "Переможці"
             },
             "button": {
                 "visit": ""
@@ -617,13 +617,13 @@
             "heading": "",
             "greeting": "",
             "click_hint": "",
-            "daily_title": "",
+            "daily_title": "Щодня",
             "daily_desc": "",
-            "weekly_title": "",
+            "weekly_title": "Щотижня",
             "weekly_desc": "",
-            "monthly_title": "",
+            "monthly_title": "Щомісяця",
             "monthly_desc": "",
-            "off_title": "",
+            "off_title": "Вимкнено",
             "off_desc": ""
         },
         "unsubscribe_saved": {
