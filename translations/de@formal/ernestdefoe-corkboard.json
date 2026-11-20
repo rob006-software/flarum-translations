@@ -31,10 +31,14 @@
                 "discussion_footer": "Von der Karte auf [{board}]({url})."
             },
             "error": {
+                "busy": "",
+                "assignees": "",
                 "min_posts": "",
                 "template": "Diese Vorlage ist nicht verfügbar.",
                 "title": "",
                 "card_title": "",
+                "due": "",
+                "due_shift": "",
                 "column_title": "",
                 "visibility": "",
                 "public": "",
@@ -60,7 +64,8 @@
             },
             "gdpr": {
                 "export": "",
-                "anonymize": ""
+                "anonymize": "",
+                "delete": ""
             },
             "widget": {
                 "mine_title": "",
@@ -98,6 +103,7 @@
             "save": "",
             "cancel": "",
             "deleted_user": "",
+            "hidden_group": "",
             "error": {
                 "gone": ""
             },

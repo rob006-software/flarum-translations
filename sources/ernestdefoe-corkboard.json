@@ -31,10 +31,14 @@
                 "discussion_footer": "From the card on [{board}]({url})."
             },
             "error": {
+                "busy": "That's already on its way. Try again in a moment.",
+                "assignees": "A card can be given to at most 20 people.",
                 "min_posts": "You need to post a little more before you can start a board.",
                 "template": "That template isn't available.",
                 "title": "Give the board a name of up to 160 characters.",
                 "card_title": "Give the card a title of up to 160 characters.",
+                "due": "Pick a date for the due date.",
+                "due_shift": "Shift due dates by whole days, at most 3650 either way.",
                 "column_title": "Give the column a name of up to 80 characters.",
                 "visibility": "That visibility isn't offered on this forum.",
                 "public": "Only moderators can make a board public.",
@@ -60,7 +64,8 @@
             },
             "gdpr": {
                 "export": "Boards you own, cards you made or were given, and your card comments.",
-                "anonymize": "Your card comments stay, shown as by a deleted user; you're taken off every card and team."
+                "anonymize": "Your card comments stay, shown as by a deleted user; you're taken off every card and team.",
+                "delete": "Your card comments are deleted; you're taken off every card and team."
             },
             "widget": {
                 "mine_title": "My cards",
@@ -98,6 +103,7 @@
             "save": "Save",
             "cancel": "Cancel",
             "deleted_user": "Deleted user",
+            "hidden_group": "A hidden group",
             "error": {
                 "gone": "That board or card is gone, or you can't see it any more."
             },
@@ -405,7 +411,7 @@
                 "clone_cards": "Copy the open cards too? (Cancel copies only the columns and labels.)",
                 "template": "Save as a template",
                 "untemplate": "Stop being a template",
-                "template_help": "Templates show to everyone who can start a board.",
+                "template_help": "Templates show to everyone who can start a board and can see this one.",
                 "archive": "Archive",
                 "archive_help": "The board leaves the list and becomes read-only. You can reopen it from the Archived tab.",
                 "delete": "Delete the board",
@@ -454,14 +460,14 @@
                 "progress_pick": "Pick a board in this block's settings."
             },
             "notification": {
-                "corkboardAssigned": "{user} gave you “{card}”",
+                "corkboardAssigned": "{username} gave you “{card}”",
                 "corkboardDueSoon": "“{card}” is due soon",
                 "corkboardOverdue": "“{card}” is overdue",
-                "corkboardMentioned": "{user} mentioned you on “{card}”",
-                "corkboardCommented": "{user} commented on “{card}”",
-                "corkboardDone": "{user} finished “{card}”",
-                "corkboardTeamAdded": "{user} added you to the team of {board}",
-                "corkboardCompleted": "{user} marked {board} completed",
+                "corkboardMentioned": "{username} mentioned you on “{card}”",
+                "corkboardCommented": "{username} commented on “{card}”",
+                "corkboardDone": "{username} finished “{card}”",
+                "corkboardTeamAdded": "{username} added you to the team of {board}",
+                "corkboardCompleted": "{username} marked {board} completed",
                 "corkboardAssigned_preference": "Someone gives me a card on a board",
                 "corkboardDueSoon_preference": "A card I'm on is due soon",
                 "corkboardOverdue_preference": "A card I'm on is overdue",
