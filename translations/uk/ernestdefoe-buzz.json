@@ -1,94 +1,94 @@
 {
     "ernestdefoe-buzz": {
         "forum": {
-            "someone": "",
+            "someone": "Хтось",
             "event": {
-                "discussion": "",
-                "reply": "",
-                "member": "",
-                "badge": "",
-                "rank": "",
-                "streak": "",
-                "quest": "",
-                "quiz": "",
-                "collection": "",
-                "purchase": ""
+                "discussion": "Користувач {user} почав обговорення «{title}»",
+                "reply": "Користувач {user} відповів в обговоренні «{title}»",
+                "member": "До форуму щойно приєднався користувач {user}",
+                "badge": "Користувач {user} отримав відзнаку «{badge}»",
+                "rank": "Користувач {user} досяг рангу «{rank}»",
+                "streak": "Користувач {user} зберігає серію активності вже {days} дн.",
+                "quest": "Користувач {user} завершив вступне завдання",
+                "quiz": "Користувач {user} пройшов вікторину «{quiz}»",
+                "collection": "Користувач {user} додав «{item}» до колекції «{collection}»",
+                "purchase": "Користувач {user} придбав «{product}»"
             },
-            "more": "",
-            "close": "",
-            "label": "",
+            "more": "{count, plural, one {Ще #} few {Ще #} many {Ще #} other {Ще #}}",
+            "close": "Закрити",
+            "label": "Активність наживо",
             "settings": {
-                "heading": "",
-                "share_label": "",
-                "share_help": "",
-                "mute_label": "",
-                "mute_help": ""
+                "heading": "Активність наживо",
+                "share_label": "Показувати мою активність у Buzz",
+                "share_help": "Інші учасники можуть бачити ваші нові обговорення, відповіді й досягнення одразу після їх появи.",
+                "mute_label": "Приховати стрічку активності наживо",
+                "mute_help": "Припинити показ активності інших учасників під час перегляду форуму."
             }
         },
         "admin": {
             "types": {
-                "discussion": "",
-                "reply": "",
-                "member": "",
-                "badge": "",
-                "rank": "",
-                "streak": "",
-                "quest": "",
-                "quiz": "",
-                "collection": "",
-                "purchase": ""
+                "discussion": "Нові обговорення",
+                "reply": "Нові відповіді",
+                "member": "Нові учасники (після підтвердження електронної пошти)",
+                "badge": "Отримані відзнаки (FoF Badges)",
+                "rank": "Нові ранги (Ladder)",
+                "streak": "Досягнення серій активності (Cadence)",
+                "quest": "Завершення вступного завдання (Onramp)",
+                "quiz": "Пройдені вікторини (Brainstorm)",
+                "collection": "Предмети, додані до колекцій (Curio)",
+                "purchase": "Покупки в крамниці (Client Area)"
             },
             "sections": {
-                "events": "",
-                "events_help": "",
-                "display": "",
-                "delivery": "",
-                "privacy": ""
+                "events": "Яку активність показувати",
+                "events_help": "Кожну подію бачать лише ті, хто й так має до неї доступ. Розширення, які ви ввімкнете згодом, додадуть сюди власні перемикачі.",
+                "display": "Вигляд",
+                "delivery": "Доставлення",
+                "privacy": "Конфіденційність"
             },
-            "style_label": "",
+            "style_label": "Стиль",
             "style": {
-                "toast": "",
-                "ticker": ""
+                "toast": "Спливне сповіщення внизу",
+                "ticker": "Рядок активності вгорі"
             },
-            "ticker_mode_label": "",
+            "ticker_mode_label": "Режим рядка активності",
             "ticker_mode": {
-                "slide": "",
-                "marquee": ""
+                "slide": "Висування вниз (по одній події)",
+                "marquee": "Рухомий рядок (безперервне прокручування)"
             },
-            "side_label": "",
+            "side_label": "Розташування спливного сповіщення",
             "side": {
-                "left": "",
-                "right": ""
+                "left": "Унизу ліворуч",
+                "right": "Унизу праворуч"
             },
-            "offset_x_label": "",
-            "offset_y_label": "",
-            "show_avatar_label": "",
-            "show_username_label": "",
-            "profile_link_label": "",
-            "display_seconds_label": "",
-            "max_toasts_label": "",
-            "max_toasts_help": "",
-            "mask_names_label": "",
-            "mask_names_help": "",
-            "pages_label": "",
+            "offset_x_label": "Відступ збоку (у пікселях)",
+            "offset_y_label": "Відступ знизу (у пікселях)",
+            "show_avatar_label": "Показувати аватари",
+            "show_username_label": "Показувати імена користувачів",
+            "profile_link_label": "Додавати до імен посилання на профілі",
+            "display_seconds_label": "Тривалість показу події (у секундах)",
+            "max_toasts_label": "Кількість одночасних спливних сповіщень",
+            "max_toasts_help": "Скільки сповіщень можуть відображатися одночасно на комп’ютері. На телефонах вони завжди з’являються по одному.",
+            "mask_names_label": "Маскувати імена",
+            "mask_names_help": "Показує імена як «І…о» замість «Іван Петренко» й вимикає посилання на профіль учасника. Повне ім’я не передається з вашого сервера.",
+            "pages_label": "Де показувати",
             "pages": {
-                "all": "",
-                "home": ""
+                "all": "На кожній сторінці",
+                "home": "Лише в списку обговорень"
             },
-            "hide_composing_label": "",
-            "interval_label": "",
-            "interval_help": "",
-            "recent_on_load_label": "",
-            "recent_on_load_help": "",
-            "keep_hours_label": "",
-            "keep_max_label": "",
-            "opt_in_label": "",
-            "opt_in_help": "",
-            "exclude_groups_label": "",
-            "exclude_tags_label": "",
-            "purchase_show_buyer_label": "",
-            "purchase_show_buyer_help": "",
-            "none": ""
+            "hide_composing_label": "Відкладати показ подій, поки учасник пише допис",
+            "interval_label": "Інтервал перевірки нових подій (у секундах)",
+            "interval_help": "Перевірка виконується, лише коли вкладку видно. Якщо підключено Flarum Realtime, публічні події надходять відразу, а перевірка отримує лише події з обмеженим доступом.",
+            "recent_on_load_label": "Скільки подій за останню годину показати під час відкриття сторінки",
+            "recent_on_load_help": "За значення 0 показ починається з моменту відкриття сторінки. Попередні події не відтворюються.",
+            "keep_hours_label": "Видаляти події через (годин)",
+            "keep_max_label": "Максимальна кількість збережених подій",
+            "opt_in_label": "Запитувати згоду учасників",
+            "opt_in_help": "Якщо вимкнено, активність усіх видно, доки вони самі не вимкнуть її показ у налаштуваннях. Якщо ввімкнено, видно лише активність тих, хто дозволив її показ.",
+            "exclude_groups_label": "Ніколи не показувати активність учасників цих груп",
+            "exclude_tags_label": "Ніколи не показувати обговорення з цими тегами",
+            "purchase_show_buyer_label": "Показувати ім’я покупця в повідомленнях про покупки",
+            "purchase_show_buyer_help": "Якщо вимкнено, повідомлення про покупку матиме вигляд «Хтось придбав …» без імені, аватара й посилання.",
+            "none": "Немає"
         }
     }
 }
