@@ -1,37 +1,37 @@
 {
     "ernestdefoe-quickdraw": {
         "forum": {
-            "open": "",
-            "close": "",
-            "menu_label": "",
-            "where_left_off": "",
-            "copy_link": "",
-            "link_copied": "",
-            "copy_failed": "",
-            "share": "",
-            "first_post": "",
-            "last_post": "",
-            "flagged_posts": "",
-            "moderate": "",
-            "more": "",
-            "replies": ""
+            "open": "Відкрити меню швидких дій",
+            "close": "Закрити меню швидких дій",
+            "menu_label": "Швидкі дії для цього обговорення",
+            "where_left_off": "Повернутися до місця, де я зупинився",
+            "copy_link": "Скопіювати посилання",
+            "link_copied": "Посилання скопійовано.",
+            "copy_failed": "Браузер заблокував копіювання. Ось посилання: {url}",
+            "share": "Поділитися",
+            "first_post": "Перший допис",
+            "last_post": "Остання відповідь",
+            "flagged_posts": "Дописи зі скаргами",
+            "moderate": "Модерувати",
+            "more": "Більше",
+            "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}"
         },
         "admin": {
-            "layout_label": "",
-            "layout_help": "",
+            "layout_label": "Вигляд меню",
+            "layout_help": "«Віяло» розгортає круглі кнопки від кута екрана. «Панель» відкриває картку з підписаними діями.",
             "layout": {
-                "fan": "",
-                "panel": ""
+                "fan": "Віяло",
+                "panel": "Панель"
             },
-            "screens_label": "",
+            "screens_label": "Показувати на",
             "screens": {
-                "all": "",
-                "phone": ""
+                "all": "Телефонах і комп’ютерах",
+                "phone": "Лише телефонах"
             },
-            "side_label": "",
+            "side_label": "Кут екрана",
             "side": {
-                "right": "",
-                "left": ""
+                "right": "Нижній правий",
+                "left": "Нижній лівий"
             }
         }
     }
