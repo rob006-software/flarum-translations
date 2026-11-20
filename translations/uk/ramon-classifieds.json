@@ -2,128 +2,128 @@
     "flarum-classifieds": {
         "admin": {
             "settings": {
-                "tag_ids_label": "",
-                "tag_ids_help": "",
-                "default_currency_label": "",
-                "default_currency_help": "",
-                "allowed_labels_label": "",
-                "allowed_labels_help": "",
-                "allow_price_range_label": "",
-                "allow_price_range_help": "",
-                "show_currency_symbol_label": "",
-                "show_currency_symbol_help": "",
-                "require_label_label": "",
-                "require_price_label": "",
-                "require_location_label": "",
-                "auto_prune_days_label": "",
-                "auto_prune_days_help": "",
-                "auto_prune_sold_label": "",
-                "auto_prune_sold_help": ""
+                "tag_ids_label": "Теги оголошень",
+                "tag_ids_help": "Виберіть теги, у яких обговорення відображатимуться як оголошення. Обговорення з будь-яким вибраним тегом отримають поля оголошення, керування станом і ціну.",
+                "default_currency_label": "Типовий код валюти",
+                "default_currency_help": "Трилітерний код валюти ISO, наприклад USD, EUR або BRL.",
+                "allowed_labels_label": "Дозволені типи оголошень",
+                "allowed_labels_help": "Список через кому, наприклад iso,wtb,wts,trade.",
+                "allow_price_range_label": "Дозволити діапазон цін",
+                "allow_price_range_help": "Дозволяє вказувати мінімальну й максимальну ціну.",
+                "show_currency_symbol_label": "Показувати символ валюти",
+                "show_currency_symbol_help": "Показує символ валюти ($, € тощо) замість її коду.",
+                "require_label_label": "Вимагати тип оголошення",
+                "require_price_label": "Вимагати ціну",
+                "require_location_label": "Вимагати місце",
+                "auto_prune_days_label": "Автоматично видаляти оголошення через задану кількість днів",
+                "auto_prune_days_help": "Видаляє оголошення, старші за цю кількість днів. Значення 0 вимикає видалення.",
+                "auto_prune_sold_label": "Автоматично видаляти продані оголошення",
+                "auto_prune_sold_help": "Під час очищення також видаляє оголошення про продані товари й завершені угоди."
             },
             "permissions": {
-                "mark_listing_sold_label": "",
-                "bump_listing_label": "",
-                "edit_listing_label": ""
+                "mark_listing_sold_label": "Позначати оголошення як продані або активні",
+                "bump_listing_label": "Піднімати власне оголошення",
+                "edit_listing_label": "Редагувати поля власного оголошення"
             },
             "edit_tag": {
-                "is_classifieds_label": "",
-                "is_classifieds_help": ""
+                "is_classifieds_label": "Використовувати цей тег для оголошень",
+                "is_classifieds_help": "Для обговорень із цим тегом потрібно заповнювати дані оголошення."
             }
         },
         "forum": {
             "composer": {
-                "section_title": "",
-                "label_label": "",
-                "label_placeholder": "",
-                "price_label": "",
-                "price_max_label": "",
-                "currency_label": "",
-                "location_label": "",
-                "location_placeholder": "",
-                "configure_listing_button": ""
+                "section_title": "Відомості про оголошення",
+                "label_label": "Тип оголошення",
+                "label_placeholder": "Виберіть тип…",
+                "price_label": "Ціна",
+                "price_max_label": "Максимальна ціна (для діапазону)",
+                "currency_label": "Валюта",
+                "location_label": "Місце",
+                "location_placeholder": "Місто, область, країна…",
+                "configure_listing_button": "Заповнити відомості про оголошення"
             },
             "start_listing": {
-                "title": "",
-                "help": "",
-                "continue_button": ""
+                "title": "Нове оголошення",
+                "help": "Це обговорення належить до тега оголошень. Заповніть відомості про оголошення. Їх можна змінити пізніше.",
+                "continue_button": "Продовжити"
             },
             "classifieds_composer": {
-                "title_placeholder": "",
-                "body_placeholder": "",
-                "label_required": "",
-                "price_required": "",
-                "location_required": ""
+                "title_placeholder": "Заголовок оголошення (наприклад, iPhone 15 Pro 256GB)",
+                "body_placeholder": "Опишіть оголошення: стан, подробиці та бажаний спосіб зв’язку…",
+                "label_required": "Виберіть тип оголошення.",
+                "price_required": "Укажіть ціну в оголошенні.",
+                "location_required": "Укажіть місце."
             },
             "create_listing": {
-                "title": "",
-                "title_label": "",
-                "description_label": "",
-                "submit_button": "",
-                "title_required": "",
-                "description_required": ""
+                "title": "Нове оголошення",
+                "title_label": "Заголовок",
+                "description_label": "Опис",
+                "submit_button": "Опублікувати оголошення",
+                "title_required": "Укажіть заголовок.",
+                "description_required": "Введіть опис."
             },
             "edit_listing": {
-                "title": "",
-                "save_button": ""
+                "title": "Редагування оголошення",
+                "save_button": "Зберегти оголошення"
             },
             "discussion_controls": {
-                "mark_sold_button": "",
-                "mark_active_button": "",
-                "bump_button": "",
-                "edit_listing_button": ""
+                "mark_sold_button": "Позначити як продане",
+                "mark_active_button": "Позначити як активне",
+                "bump_button": "Підняти оголошення",
+                "edit_listing_button": "Редагувати оголошення"
             },
             "post_stream": {
-                "status_changed_sold_text": "",
-                "status_changed_active_text": "",
-                "status_changed_completed_text": "",
-                "listing_bumped_text": ""
+                "status_changed_sold_text": "Користувач {username} позначив оголошення як продане {time}.",
+                "status_changed_active_text": "Користувач {username} знову зробив оголошення активним {time}.",
+                "status_changed_completed_text": "Користувач {username} завершив оголошення {time}.",
+                "listing_bumped_text": "Користувач {username} підняв оголошення {time}."
             },
             "uploader": {
-                "title": "",
-                "hint": "",
-                "add": "",
-                "remove": "",
-                "invalid_type": "",
-                "too_large": ""
+                "title": "Перетягніть сюди фотографії або натисніть, щоб вибрати їх",
+                "hint": "До {max} фотографій у форматі JPG, PNG, GIF або WEBP. Максимальний розмір однієї фотографії — 5 МБ.",
+                "add": "Додати",
+                "remove": "Видалити",
+                "invalid_type": "Деякі файли відхилено, бо приймаються лише зображення.",
+                "too_large": "Деякі файли відхилено, бо їхній розмір перевищує 5 МБ."
             },
             "landing": {
-                "title": "",
-                "greeting": "",
-                "greeting_guest": "",
-                "prompt": "",
-                "select_category": "",
-                "empty": "",
-                "discussion_count": ""
+                "title": "Оголошення",
+                "greeting": "Вітаємо, {username}!",
+                "greeting_guest": "Вітаємо!",
+                "prompt": "Що ви хочете оголосити сьогодні?",
+                "select_category": "Вибрати категорію «{name}»",
+                "empty": "Тегів оголошень ще не налаштовано.",
+                "discussion_count": "{count, plural, =0 {Оголошень ще немає} one {# оголошення} few {# оголошення} many {# оголошень} other {# оголошення}}"
             },
             "breadcrumb": {
-                "classifieds": ""
+                "classifieds": "Оголошення"
             },
             "actions": {
-                "contact_seller": "",
-                "login_to_contact": "",
-                "share": "",
-                "copy_link": "",
-                "link_copied": "",
-                "copy_failed": ""
+                "contact_seller": "Написати продавцеві",
+                "login_to_contact": "Увійти, щоб написати продавцеві",
+                "share": "Поділитися",
+                "copy_link": "Скопіювати посилання",
+                "link_copied": "Посилання скопійовано до буфера обміну.",
+                "copy_failed": "Не вдалося скопіювати посилання."
             },
             "seller": {
-                "title": "",
-                "member_since": "",
-                "listings": "",
-                "last_seen": ""
+                "title": "Продавець",
+                "member_since": "На форумі з {time}",
+                "listings": "{count, plural, =0 {Оголошень немає} one {# оголошення} few {# оголошення} many {# оголошень} other {# оголошення}}",
+                "last_seen": "Востаннє відвідано {time}"
             }
         },
         "lib": {
             "labels": {
-                "iso": "",
-                "wtb": "",
-                "wts": "",
-                "trade": ""
+                "iso": "Шукаю",
+                "wtb": "Куплю",
+                "wts": "Продам",
+                "trade": "Обміняю"
             },
             "statuses": {
-                "active": "",
-                "sold": "",
-                "completed": ""
+                "active": "Активне",
+                "sold": "Продано",
+                "completed": "Завершено"
             }
         }
     }
