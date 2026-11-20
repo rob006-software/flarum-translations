@@ -5,8 +5,8 @@
             "assign_others": "",
             "cannot_see": "",
             "cannot_restore": "",
-            "busy": "",
-            "reopen_active": ""
+            "busy": "Хтось інший зараз змінює цю скаргу. Спробуйте ще раз за мить.",
+            "reopen_active": "На цей допис є новіша відкрита скарга. Опрацюйте її."
         },
         "email": {
             "assigned": {
@@ -35,7 +35,7 @@
             "nav": {
                 "report_centre": "",
                 "my_reports": "",
-                "user_reports": "",
+                "user_reports": "Звіти",
                 "views": "",
                 "queue_toggle": ""
             },
@@ -62,22 +62,22 @@
             "status": {
                 "open": "",
                 "in_progress": "",
-                "resolved": "",
-                "rejected": "",
-                "closed": "",
+                "resolved": "Вирішено",
+                "rejected": "Відхилено",
+                "closed": "Закрито",
                 "restored": ""
             },
             "reason": {
                 "approval": "",
                 "raised_by": "",
-                "other": ""
+                "other": "Інше"
             },
             "views": {
                 "active": "",
-                "unassigned": "",
+                "unassigned": "Не призначено",
                 "mine": "",
-                "resolved": "",
-                "rejected": "",
+                "resolved": "Вирішено",
+                "rejected": "Відхилено",
                 "all": "",
                 "in_queue": ""
             },
@@ -91,7 +91,7 @@
                 "report_count": "",
                 "held_by": "",
                 "empty": "",
-                "load_more": ""
+                "load_more": "Завантажити ще"
             },
             "report": {
                 "title": "",
@@ -114,8 +114,8 @@
                 "assign_title": "",
                 "queue": "",
                 "resolve": "",
-                "reject": "",
-                "reopen": "",
+                "reject": "Відхилити",
+                "reopen": "Відкрити знову",
                 "reporters_told": "",
                 "timeline": "",
                 "timeline_empty": "",
@@ -142,10 +142,10 @@
                 "frame_30d": "",
                 "frame_90d": "",
                 "frame_12m": "",
-                "frame_all": "",
+                "frame_all": "За весь час",
                 "total": "",
-                "resolved": "",
-                "rejected": "",
+                "resolved": "Вирішено",
+                "rejected": "Відхилено",
                 "open": "",
                 "note": "",
                 "line": "",
@@ -154,7 +154,7 @@
                 "reason": ""
             },
             "timeline": {
-                "someone": "",
+                "someone": "Хтось",
                 "claimed": "",
                 "assigned": "",
                 "assigned_by_rule": "",
@@ -179,8 +179,8 @@
                 "crowd_held_staff": "",
                 "crowd_held_exempt": "",
                 "crowd_held_cooldown": "",
-                "merged": "",
-                "crowd_moved": "",
+                "merged": "Об’єднано з відкритою скаргою №{id} на той самий допис",
+                "crowd_moved": "Допис приховано, бо схвалення вимкнули, поки він на нього очікував",
                 "crowd_restored": ""
             },
             "crowd": {
@@ -189,7 +189,7 @@
                 "banner_hidden": "",
                 "banner_approval": "",
                 "held": "",
-                "restore": ""
+                "restore": "Відновити"
             },
             "close": {
                 "title_resolved": "",
@@ -205,7 +205,7 @@
                 "message_placeholder_rejected": "",
                 "message_help": "",
                 "submit_resolved": "",
-                "submit_rejected": ""
+                "submit_rejected": "Відхилити"
             },
             "mine": {
                 "title": "",
@@ -228,7 +228,7 @@
                 "my_reports_days": "",
                 "my_reports_days_help": "",
                 "my_reports_forever": "",
-                "my_reports_30": "",
+                "my_reports_30": "30 днів",
                 "my_reports_90": "",
                 "my_reports_180": "",
                 "my_reports_365": ""
@@ -248,8 +248,8 @@
                 "delete": "",
                 "delete_confirm": "",
                 "name": "",
-                "description": "",
-                "color": "",
+                "description": "Опис",
+                "color": "Колір",
                 "groups": "",
                 "groups_help": "",
                 "save": "",
@@ -271,7 +271,7 @@
                 "delete": "",
                 "delete_confirm": "",
                 "name": "",
-                "enabled": "",
+                "enabled": "Увімкнено",
                 "when": "",
                 "when_help": "",
                 "tags": "",
@@ -291,7 +291,7 @@
                 "assign_user_help": "",
                 "assign_group_help": "",
                 "save": "",
-                "disabled_badge": "",
+                "disabled_badge": "Вимкнено",
                 "summary": "",
                 "any_report": "",
                 "nothing": "",
@@ -335,8 +335,8 @@
             "reasons": {
                 "off_topic": "",
                 "inappropriate": "",
-                "spam": "",
-                "other": ""
+                "spam": "Спам",
+                "other": "Інше"
             }
         }
     }
