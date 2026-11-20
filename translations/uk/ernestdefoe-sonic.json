@@ -1,37 +1,37 @@
 {
     "ernestdefoe-sonic": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Пошук через Sonic"
         },
         "admin": {
-            "host_label": "",
-            "host_help": "",
-            "port_label": "",
-            "bucket_label": "",
-            "bucket_help": "",
-            "password_label": "",
-            "password_help": "",
-            "password_saved": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_posts": "",
-            "use_for_users": "",
-            "status_label": "",
-            "status_button": "",
-            "status_ok": "",
+            "host_label": "Хост",
+            "host_help": "Адреса сервера Sonic, доступна з сервера цього форуму (наприклад, 127.0.0.1 або назва контейнера).",
+            "port_label": "Порт",
+            "bucket_label": "Бакет",
+            "bucket_help": "Необов’язково. Відокремлює індекс цього форуму, коли кілька форумів користуються одним сервером Sonic. Залиште поле порожнім, щоб використати ім’я хоста форуму. Після зміни перебудуйте індекс.\n",
+            "password_label": "Пароль",
+            "password_help": "Параметр channel.auth_password у Sonic. Зберігається на сервері й не надсилається назад до браузера.",
+            "password_saved": "Пароль збережено. Введіть новий, щоб замінити його.",
+            "drivers_label": "Використовувати Sonic для…",
+            "drivers_help": "Текстові пошукові запити надсилаються до Sonic. Перегляд і фільтри й далі використовують базу даних. Flarum визначає, хто може бачити кожен результат. Якщо Sonic недоступний, пошук виконується в базі даних.\n",
+            "use_for_discussions": "Пошук обговорень",
+            "use_for_posts": "Пошук дописів",
+            "use_for_users": "Пошук користувачів",
+            "status_label": "З’єднання",
+            "status_button": "Перевірити з’єднання",
+            "status_ok": "З’єднання встановлено. Проіндексовано обговорень: {discussions}, дописів: {posts}, користувачів: {users}.",
             "error": {
-                "not_configured": "",
-                "unreachable": "",
-                "timeout": "",
-                "auth_failed": "",
-                "protocol": ""
+                "not_configured": "Спочатку вкажіть хост і збережіть налаштування.",
+                "unreachable": "Не вдалося з’єднатися із Sonic за вказаним хостом і портом.",
+                "timeout": "Sonic не відповів вчасно.",
+                "auth_failed": "Sonic відхилив пароль.",
+                "protocol": "Отримано відповідь, але сервіс не підтримує протокол Sonic."
             },
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "rebuild_label": "Пошуковий індекс",
+            "rebuild_help": "Перебудуйте всі індекси Sonic з наявного вмісту. Зробіть це після під’єднання та щоразу, коли результати застаріли, наприклад після простою Sonic. На великих форумах запустіть обробник черги, щоб завдання виконувалося у фоновому режимі.\n",
+            "rebuild_button": "Перебудувати індекс",
+            "rebuild_queued": "Перебудову розпочато.",
+            "rebuild_failed": "Не вдалося перебудувати індекс. Перевірте з’єднання."
         }
     }
 }
