@@ -768,7 +768,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/first-post-approval/2.0.0/resources/locale/en.yml',
 	],
 	'fof-follow-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/2.0.3/resources/locale/en.yml',
 	],
 	'fof-formatting' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/2.0.0/resources/locale/en.yml',
