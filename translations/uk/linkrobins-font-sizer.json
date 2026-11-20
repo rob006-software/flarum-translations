@@ -2,39 +2,39 @@
     "linkrobins-font-sizer": {
         "forum": {
             "header_button": {
-                "label": "",
-                "title": ""
+                "label": "Розмір шрифту",
+                "title": "Розмір шрифту"
             },
             "modal": {
-                "title": "",
-                "reading_text_heading": "",
-                "reading_text_hint": "",
-                "reading_text_value": "",
-                "interface_size_label": "",
-                "interface_size_hint": "",
-                "reset_button": ""
+                "title": "Розмір тексту й інтерфейсу",
+                "reading_text_heading": "Розмір тексту для читання",
+                "reading_text_hint": "Впливає на текст дописів і заголовки обговорень.",
+                "reading_text_value": "{percent}%",
+                "interface_size_label": "Збільшити інтерфейс",
+                "interface_size_hint": "Впливає на навігацію, кнопки та інші елементи інтерфейсу.",
+                "reset_button": "Відновити типові налаштування сайту"
             }
         },
         "admin": {
             "settings": {
-                "text_size_label": "",
-                "text_size_help": "",
-                "text_size_value": "",
-                "reset_button": "",
-                "bases_label": "",
-                "bases_help": "",
-                "base_input_label": "",
-                "small_input_label": "",
-                "title_input_label": "",
-                "bases_reset_button": "",
-                "ui_size_label": "",
-                "ui_size_help": "",
-                "ui_toggle_label": "",
-                "preview_label": "",
-                "preview_title": "",
-                "preview_text": "",
-                "preview_small": "",
-                "preview_button": ""
+                "text_size_label": "Типовий розмір тексту для читання",
+                "text_size_help": "Визначає типовий розмір тексту дописів і заголовків на всьому сайті. Користувачі можуть змінити його кнопкою «Розмір шрифту» в заголовку сайту.",
+                "text_size_value": "{percent}%",
+                "reset_button": "Скинути до 100%",
+                "bases_label": "Базові розміри тексту",
+                "bases_help": "Початкові розміри в пікселях, до яких застосовується масштаб тексту для читання. Якщо шрифт вашої теми виглядає задрібним або завеликим, як часто буває зі шрифтами із зарубками, скоригуйте ці значення без редагування власного CSS. Зміни діють для всіх, навіть за масштабу 100%.",
+                "base_input_label": "Текст допису",
+                "small_input_label": "Дрібний текст",
+                "title_input_label": "Заголовки",
+                "bases_reset_button": "Відновити типові значення (14 / 12 / 16)",
+                "ui_size_label": "Типовий розмір інтерфейсу",
+                "ui_size_help": "Визначає типовий розмір навігації, кнопок та інших елементів інтерфейсу на всьому сайті. Користувачі можуть змінити його кнопкою «Розмір шрифту» в заголовку сайту.",
+                "ui_toggle_label": "Збільшити інтерфейс",
+                "preview_label": "Попередній перегляд",
+                "preview_title": "Приклад заголовка обговорення",
+                "preview_text": "Швидка руда лисиця перестрибує через ледачого пса. Розмір цього тексту змінюється відповідно до налаштувань вище.",
+                "preview_small": "Зразок короткого уривка, як під заголовком обговорення.",
+                "preview_button": "Приклад кнопки"
             }
         }
     }
