@@ -1,132 +1,132 @@
 {
     "walsgit-recycle-bin": {
         "admin": {
-            "discussions_bin": "",
-            "posts_bin": "",
-            "settings_tab": "",
-            "settings_title": "",
-            "deletion_log_label": "",
-            "deletion_log_help": "",
-            "search_placeholder": "",
-            "search_post_placeholder": "",
-            "search_help_text": "",
-            "search_post_help_text": "",
-            "total_hidden_discussions": "",
-            "total_hidden_posts": "",
-            "empty_discussions_list": "",
-            "empty_posts_list": "",
-            "no_search_results": "",
-            "select_all": "",
-            "select_discussion": "",
-            "select_post": "",
-            "unknown_discussion": "",
-            "load_error": "",
-            "load_error_retry": "",
-            "discussion_id": "",
-            "discussion_title": "",
-            "author": "",
-            "unknown_user": "",
-            "created_at": "",
-            "hidden_at": "",
-            "unknown_date": "",
-            "actions": "",
-            "restore_discussion_tooltip": "",
-            "restore_post_tooltip": "",
+            "discussions_bin": "Кошик обговорень",
+            "posts_bin": "Кошик дописів",
+            "settings_tab": "Налаштування",
+            "settings_title": "Налаштування кошика",
+            "deletion_log_label": "Записувати остаточні видалення в журнал",
+            "deletion_log_help": "Додає запис після кожного остаточного видалення з кошика із зазначенням виконавця, вмісту й часу. Для масових дій створюється один підсумковий запис. Файли зберігаються в storage/logs/recycle-bin/ (по одному на день активності, зберігаються лише 15 найновіших файлів).",
+            "search_placeholder": "Знайти обговорення",
+            "search_post_placeholder": "Знайти допис",
+            "search_help_text": "Шукає слова в заголовках і дописах обговорень",
+            "search_post_help_text": "Шукає слова в прихованих дописах",
+            "total_hidden_discussions": "Усього прихованих обговорень",
+            "total_hidden_posts": "Усього прихованих дописів",
+            "empty_discussions_list": "У кошику немає обговорень.",
+            "empty_posts_list": "У кошику немає дописів.",
+            "no_search_results": "За цим запитом нічого не знайдено.",
+            "select_all": "Вибрати всі елементи на цій сторінці",
+            "select_discussion": "Вибрати обговорення № {discussionId}",
+            "select_post": "Вибрати допис № {postId}",
+            "unknown_discussion": "Невідоме обговорення",
+            "load_error": "Не вдалося завантажити список.",
+            "load_error_retry": "Спробуйте ще раз",
+            "discussion_id": "ID",
+            "discussion_title": "Заголовок обговорення",
+            "author": "Автор",
+            "unknown_user": "Невідомий користувач",
+            "created_at": "Створено",
+            "hidden_at": "Приховано",
+            "unknown_date": "Невідома дата",
+            "actions": "Дії",
+            "restore_discussion_tooltip": "Відновити обговорення № {discussionId}",
+            "restore_post_tooltip": "Відновити допис № {postId}",
             "restore_discussion": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Відновлення обговорення",
+                "confirmation": "Відновити це обговорення:",
+                "restore_button": "Відновити обговорення",
+                "success": "Обговорення відновлено"
             },
             "restore_post": {
-                "title": "",
-                "confirmation": "",
-                "restore_button": "",
-                "success": ""
+                "title": "Відновлення допису",
+                "confirmation": "Відновити цей допис з обговорення ",
+                "restore_button": "Відновити допис",
+                "success": "Допис відновлено"
             },
             "delete_discussion": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Остаточне видалення",
+                "confirmation": "<u>Остаточно видалити</u> це обговорення? Цю дію неможливо скасувати:",
+                "delete_button": "Видалити обговорення назавжди",
+                "success": "Обговорення видалено"
             },
             "delete_post": {
-                "title": "",
-                "confirmation": "",
-                "delete_button": "",
-                "success": ""
+                "title": "Остаточне видалення",
+                "confirmation": "<u>Остаточно видалити</u> цей допис? Цю дію неможливо скасувати:",
+                "delete_button": "Видалити допис назавжди",
+                "success": "Допис видалено"
             },
-            "delete_discussion_tooltip": "",
-            "delete_post_tooltip": "",
-            "bulk_actions": "",
-            "bulk_post_actions": "",
-            "bulk_restore_label": "",
-            "bulk_post_restore_label": "",
+            "delete_discussion_tooltip": "Видалити обговорення № {discussionId}",
+            "delete_post_tooltip": "Видалити допис № {postId}",
+            "bulk_actions": "Дії з вибраними обговореннями: ",
+            "bulk_post_actions": "Дії з вибраними дописами: ",
+            "bulk_restore_label": "Відновити вибрані обговорення",
+            "bulk_post_restore_label": "Відновити вибрані дописи",
             "mass_restore_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Відновлення вибраних обговорень",
+                "text_start": "Відновити вибрані обговорення (кількість: ",
+                "text_end": " )?",
+                "submit_button": "Відновити обговорення",
+                "success": "Вибрані обговорення відновлено"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Відновлення вибраних дописів",
+                "text_start": "Відновити вибрані дописи (кількість: ",
+                "text_end": " )?",
+                "submit_button": "Відновити дописи",
+                "success": "Вибрані дописи відновлено"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Остаточне видалення вибраних обговорень",
+                "text_start": "<u>Остаточно видалити</u> вибрані обговорення (кількість: ",
+                "text_end": " )?",
+                "submit_button": "Видалити обговорення назавжди",
+                "success": "Вибрані обговорення видалено"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Остаточне видалення вибраних дописів",
+                "text_start": "<u>Остаточно видалити</u> вибрані дописи (кількість: ",
+                "text_end": " )?",
+                "submit_button": "Видалити дописи назавжди",
+                "success": "Вибрані дописи видалено"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
-            "bulk_delete_all_label": "",
-            "bulk_post_delete_all_label": "",
+            "bulk_delete_label": "Видалити вибрані обговорення",
+            "bulk_post_delete_label": "Видалити вибрані дописи",
+            "bulk_delete_all_label": "Видалити всі обговорення",
+            "bulk_post_delete_all_label": "Видалити всі дописи",
             "mass_delete_all_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Остаточне видалення всіх прихованих обговорень",
+                "text_start": "<u>Остаточно видалити</u> ВСІ обговорення в кошику (кількість: ",
+                "text_end": " )? Цю дію неможливо скасувати.",
+                "submit_button": "Видалити всі обговорення назавжди",
+                "success": "Усі обговорення видалено"
             },
             "mass_delete_all_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Остаточне видалення всіх дописів",
+                "text_start": "<u>Остаточно видалити</u> ВСІ дописи в кошику (кількість: ",
+                "text_end": " )? Цю дію неможливо скасувати.",
+                "submit_button": "Видалити всі дописи назавжди",
+                "success": "Усі дописи видалено"
             },
-            "mass_progress": "",
-            "mass_nothing_to_process": "",
-            "mass_partial_failure": "",
+            "mass_progress": "Оброблено {processed} із {total}…",
+            "mass_nothing_to_process": "Немає чого обробляти: ці елементи вже відновлено або видалено.",
+            "mass_partial_failure": "{processed, plural, one {Оброблено # елемент} few {Оброблено # елементи} many {Оброблено # елементів} other {Оброблено # елемента}} до виникнення помилки. Список оновлено.",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": "",
-                "page_counter_search": ""
+                "first_page_button": "Перейти на першу сторінку",
+                "back_button": "Повернутися на попередню сторінку",
+                "page_counter": "Сторінка {current} із {total}",
+                "go_to_page_textbox_a11y_label": "Перейти безпосередньо до сторінки за номером",
+                "next_button": "Перейти на наступну сторінку",
+                "last_page_button": "Перейти на останню сторінку",
+                "page_counter_search": "Сторінка {current}"
             },
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "Некоректний вміст!"
             },
             "post": {
-                "id": "",
-                "title": "",
-                "open_post": ""
+                "id": "ID",
+                "title": "Текст допису",
+                "open_post": "Відкрити допис"
             }
         }
     }

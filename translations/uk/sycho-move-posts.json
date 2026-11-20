@@ -2,9 +2,9 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "Зміст переміщеної дискусії (перший допис)",
+                "moved_first_post_content": "Вміст першого допису переміщеного обговорення",
                 "moved_first_post_content_help": "Якщо ви маєте обговорення з одним дописом, переміщення цього допису призведе до того, що перший допис початкового обговорення буде відредаговано так, щоб він вказував на нове обговорення. Ви можете відредагувати вміст цього допису тут.\n",
-                "group_sequential_posts": "Група послідовних постів об'єднала пости про події в один."
+                "group_sequential_posts": "Об’єднувати послідовні службові дописи про переміщення дописів в один."
             },
             "permissions": {
                 "move_posts": "=> sycho-move-posts.ref.move_posts"
@@ -22,13 +22,13 @@
             },
             "modal": {
                 "check": "Перевірити тип операції",
-                "destination": "Місце призначення дискусії",
+                "destination": "Цільове обговорення",
                 "discussion_help": "Будуть використані теги обговорення джерела, які можна змінити після створення.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
-                "new_discussion": "Нова дискусія",
-                "selected_posts": "{count, plural, one {Обрано # допис} other {Обрано # дописів}}",
+                "new_discussion": "Нове обговорення",
+                "selected_posts": "{count, plural, one {Обрано # допис} few {Обрано # дописи} many {Обрано # дописів} other {Обрано # допису}}",
                 "status": {
-                    "complex_move": "Це буде складний перехід, дописи будуть переміщуватися між дописами, що призведе до того, що старі URL-адреси дописів цільової дискусії також зміняться.",
+                    "complex_move": "Це буде складне переміщення: дописи буде вставлено між іншими дописами, через що старі URL-посилання на дописи цільового обговорення також зміняться.",
                     "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
                     "simple_move": "Це буде простий хід, всі дописи будуть додані в кінці обговорення."
                 },
@@ -39,18 +39,18 @@
                 "post_moved_text": "Один або декілька ваших дописів було переміщено до {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "Зніміть виділення, щоб перемістити",
+                "unmove": "Скасувати вибір для переміщення",
                 "move": "Оберіть, щоб перемістити",
-                "moving": "Переміщення посту"
+                "moving": "Переміщення допису"
             },
             "post_stream": {
-                "post_moved": "{count, plural, one {{username} переніс допис до {target_discussion}.} other {{username} переніс {count} дописи до {target_discussion}.}}"
+                "post_moved": "{count, plural, =1 {{username} переніс допис до {target_discussion}.} one {{username} переніс {count} допис до {target_discussion}.} few {{username} переніс {count} дописи до {target_discussion}.} many {{username} переніс {count} дописів до {target_discussion}.} other {{username} переніс {count} допису до {target_discussion}.}}"
             }
         },
         "ref": {
             "move_posts": "Перенести дописи",
             "status": {
-                "old_to_new_move": "Неможливо перемістити старе повідомлення до нової дискусії."
+                "old_to_new_move": "Неможливо перемістити старий допис до новішого обговорення."
             }
         },
         "lib": {
