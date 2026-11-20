@@ -3,16 +3,16 @@
         "admin": {
             "settings": {
                 "help_text": "Отримати облікові дані hCaptcha можна <a>тут</a>.",
-                "secret_key_label": "Secret Key",
-                "site_key_label": "Site Key",
+                "secret_key_label": "Секретний ключ",
+                "site_key_label": "Ключ сайту",
                 "type_label": "Тип hCaptcha",
-                "dark_mode_label": "",
-                "dark_mode_help": "",
-                "enable_login_label": "",
-                "enable_login_help": ""
+                "dark_mode_label": "Темна тема",
+                "dark_mode_help": "Використовувати темну тему для віджета hCaptcha. Увімкніть, якщо на форумі використовується темна тема.",
+                "enable_login_label": "Вимагати під час входу",
+                "enable_login_help": "Вимагати hCaptcha під час входу користувачів. Це допомагає захиститися від атак із перебиранням паролів."
             },
             "permissions": {
-                "post_without_hcaptcha": "Створювати дописи та дискусії без hCaptcha"
+                "post_without_hcaptcha": "Створювати дописи та обговорення без hCaptcha"
             }
         },
         "forum": {
