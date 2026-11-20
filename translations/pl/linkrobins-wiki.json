@@ -18,6 +18,7 @@
                 "shortcode_articles_cat": "Lista artykułów z kategorii wskazanej identyfikatorem lub slugiem. Można ograniczyć ją do N najnowszych artykułów. Dodaj title=\"…\", aby wyświetlić nagłówek.",
                 "shortcode_article": "Link do pojedynczego artykułu wskazanego identyfikatorem.",
                 "shortcode_categories": "Lista kategorii.",
+                "shortcode_search": "",
                 "shortcode_heading": "Nagłówek (## i ### oznaczają mniejsze nagłówki).",
                 "shortcode_link": "Link. Same adresy internetowe również stają się linkami.",
                 "shortcode_html": "Surowy kod HTML w wierszach między znacznikami, np. do osadzenia treści lub widżetu. Zostaje zachowany dokładnie w podanej postaci.",
@@ -106,6 +107,7 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "Szukaj w wiki",
+                "submit": "",
                 "results_heading": "Wyniki wyszukiwania dla „{query}”",
                 "all_button": "Szukaj „{query}” w wiki",
                 "empty": "Nie znaleziono artykułów pasujących do „{query}”."

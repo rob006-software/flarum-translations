@@ -18,6 +18,7 @@
                 "shortcode_articles_cat": "列出指定分类（按固定链接名或 ID），可选择只显示最近 N 篇文章。添加 title=\"…\" 可显示标题。",
                 "shortcode_article": "按 ID 链接单篇文章。",
                 "shortcode_categories": "显示分类列表。",
+                "shortcode_search": "",
                 "shortcode_heading": "标题（使用 ## 和 ### 表示更小级别）。",
                 "shortcode_link": "链接。直接填写网址也会自动转换为链接。",
                 "shortcode_html": "在标签之间原样插入 HTML，可用于嵌入内容或小组件，不作任何修改。",
@@ -106,6 +107,7 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "搜索 Wiki",
+                "submit": "",
                 "results_heading": "「{query}」的搜索结果",
                 "all_button": "在 Wiki 中搜索「{query}」",
                 "empty": "没有找到与「{query}」匹配的文章。",
