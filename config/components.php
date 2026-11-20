@@ -903,7 +903,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/2.0.1/locale/en.yml',
 	],
 	'fof-subscribed' => [
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/2.0.0-beta.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/2.0.0/resources/locale/en.yml',
 	],
 	'fof-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/synopsis/2.0.1/resources/locale/en.yml',
