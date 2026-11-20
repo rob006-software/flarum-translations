@@ -1,33 +1,33 @@
 {
     "ernestdefoe-manticore": {
         "forum": {
-            "powered_by": ""
+            "powered_by": "Пошук на базі Manticore Search"
         },
         "admin": {
-            "host_label": "",
-            "host_help": "",
-            "port_label": "",
-            "scheme_label": "",
-            "table_prefix_label": "",
-            "table_prefix_help": "",
-            "username_label": "",
-            "auth_help": "",
-            "password_label": "",
-            "drivers_label": "",
-            "drivers_help": "",
-            "use_for_discussions": "",
-            "use_for_users": "",
-            "use_for_posts": "",
-            "connection_label": "",
-            "test_button": "",
-            "test_ok": "",
-            "test_fail": "",
-            "not_configured": "",
-            "rebuild_label": "",
-            "rebuild_help": "",
-            "rebuild_button": "",
-            "rebuild_queued": "",
-            "rebuild_failed": ""
+            "host_label": "Вузол",
+            "host_help": "Ім’я вузла або IP-адреса сервера Manticore, доступного із сервера форуму. Поки поле порожнє, дані нікуди не надсилаються.\n",
+            "port_label": "Порт HTTP",
+            "scheme_label": "Протокол",
+            "table_prefix_label": "Префікс таблиць",
+            "table_prefix_help": "Необов’язково. Розділяє таблиці, коли кілька форумів використовують один сервер Manticore. Залиште поле порожнім, щоб використовувати ім’я вузла форуму.\n",
+            "username_label": "Ім’я користувача",
+            "auth_help": "Необов’язково. Потрібно лише тоді, коли проксі перед Manticore вимагає базової автентифікації HTTP. Пароль зберігається на сервері й ніколи не надсилається відвідувачам.\n",
+            "password_label": "Пароль",
+            "drivers_label": "Використовувати Manticore для…",
+            "drivers_help": "Текстові запити надсилаються до Manticore, а фільтрування й перегляд і далі використовують базу даних. Flarum визначає, що може бачити кожен відвідувач. Якщо Manticore недоступний, пошук автоматично використовує базу даних.\n",
+            "use_for_discussions": "Пошук обговорень",
+            "use_for_users": "Пошук користувачів",
+            "use_for_posts": "Пошук дописів",
+            "connection_label": "З’єднання",
+            "test_button": "Перевірити підключення",
+            "test_ok": "Підключено до Manticore {version}",
+            "test_fail": "Не вдалося підключитися до Manticore",
+            "not_configured": "Спочатку вкажіть вузол і збережіть налаштування.",
+            "rebuild_label": "Пошуковий індекс",
+            "rebuild_help": "Створює таблиці обговорень, дописів і користувачів на основі наявних даних. Запустіть перебудову після підключення й щоразу, коли підозрюєте, що індекс застарів. На великому форумі запустіть обробник черги, щоб перебудова виконувалася у фоновому режимі.\n",
+            "rebuild_button": "Перебудувати індекс",
+            "rebuild_queued": "Перебудову розпочато.",
+            "rebuild_failed": "Не вдалося запустити перебудову. Перевірте налаштування з’єднання."
         }
     }
 }
