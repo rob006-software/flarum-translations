@@ -2,75 +2,75 @@
     "ernestdefoe-cuecard": {
         "admin": {
             "permissions": {
-                "use": "",
-                "save_personal": "",
-                "manage_global": ""
+                "use": "Вставляти спільні макроси",
+                "save_personal": "Зберігати особисті макроси",
+                "manage_global": "Створювати й редагувати спільні макроси"
             }
         },
         "api": {
-            "groups_required": "",
-            "too_many_macros": ""
+            "groups_required": "Виберіть принаймні одну групу. Щоб зробити макрос доступним для всіх, хто має дозвіл вставляти макроси, виберіть «Учасники».",
+            "too_many_macros": "Можна зберегти до {count} макросів. Видаліть один, щоб додати новий."
         },
         "forum": {
             "composer": {
-                "button": "",
-                "actions_label": "",
-                "action_lock": "",
-                "action_tags": "",
-                "action_tags_replace": "",
-                "action_best_answer": "",
-                "remove_action": "",
-                "failed": "",
-                "failed_lock": "",
-                "failed_tags": "",
-                "failed_best_answer": "",
-                "failed_separator": ""
+                "button": "Вставити макрос",
+                "actions_label": "Після публікації:",
+                "action_lock": "Закрити",
+                "action_tags": "Додати теги: {tags}",
+                "action_tags_replace": "Замінити теги: {tags}",
+                "action_best_answer": "Найкраща відповідь",
+                "remove_action": "Пропустити цю дію",
+                "failed": "Відповідь опубліковано, але не вдалося виконати такі дії: {actions}.",
+                "failed_lock": "закрити обговорення",
+                "failed_tags": "змінити теги обговорення",
+                "failed_best_answer": "позначити найкращу відповідь",
+                "failed_separator": ", "
             },
             "picker": {
-                "title": "",
-                "search_placeholder": "",
-                "empty": "",
-                "no_results": "",
-                "global_heading": "",
-                "personal_heading": "",
-                "new_button": "",
-                "save_reply_button": "",
-                "edit_button": "",
-                "delete_button": "",
-                "delete_confirm": "",
-                "insert_hint": ""
+                "title": "Макроси",
+                "search_placeholder": "Шукати макроси",
+                "empty": "Макросів ще немає.",
+                "no_results": "За вашим запитом макросів не знайдено.",
+                "global_heading": "Спільні",
+                "personal_heading": "Особисті",
+                "new_button": "Новий макрос",
+                "save_reply_button": "Зберегти цей текст як макрос",
+                "edit_button": "Редагувати",
+                "delete_button": "Видалити",
+                "delete_confirm": "Видалити макрос «{title}»? Цю дію неможливо скасувати.",
+                "insert_hint": "↑ ↓ — вибрати, Enter — вставити"
             },
             "editor": {
-                "new_title": "",
-                "edit_title": "",
-                "title_label": "",
-                "content_label": "",
-                "placeholders_label": "",
-                "scope_label": "",
-                "scope_personal": "",
-                "scope_global": "",
-                "groups_label": "",
-                "groups_help": "",
-                "actions_label": "",
-                "actions_help": "",
-                "lock_label": "",
-                "tags_label": "",
-                "tags_search_placeholder": "",
-                "replace_tags_label": "",
-                "best_answer_label": "",
-                "save_button": ""
+                "new_title": "Новий макрос",
+                "edit_title": "Редагування макросу",
+                "title_label": "Заголовок",
+                "content_label": "Текст",
+                "placeholders_label": "Доступні плейсхолдери",
+                "scope_label": "Хто може використовувати",
+                "scope_personal": "Лише я",
+                "scope_global": "Доступний команді форуму й вибраним нижче групам",
+                "groups_label": "Надати доступ цим групам",
+                "groups_help": "«Учасники» охоплює всіх, хто має дозвіл вставляти макроси.",
+                "actions_label": "Дії під час використання у відповіді",
+                "actions_help": "Кожна дія виконується лише за наявності потрібного дозволу. Якщо його немає, автор відповіді отримає повідомлення.",
+                "lock_label": "Закрити обговорення",
+                "tags_label": "Додати теги до обговорення",
+                "tags_search_placeholder": "Фільтрувати теги",
+                "replace_tags_label": "Замінити наявні теги обговорення",
+                "best_answer_label": "Позначити відповідь як найкращу",
+                "save_button": "Зберегти макрос"
             },
             "placeholders": {
-                "username": "",
-                "display_name": "",
-                "mention": "",
-                "my_username": "",
-                "my_display_name": "",
-                "discussion_title": "",
-                "discussion_url": "",
-                "forum_name": "",
-                "forum_url": "",
-                "date": ""
+                "username": "ім’я користувача, який почав обговорення",
+                "display_name": "відображуване ім’я автора обговорення",
+                "mention": "згадка автора обговорення",
+                "my_username": "ваше ім’я користувача",
+                "my_display_name": "ваше відображуване ім’я",
+                "discussion_title": "заголовок обговорення",
+                "discussion_url": "посилання на обговорення",
+                "forum_name": "назва форуму",
+                "forum_url": "посилання на форум",
+                "date": "сьогоднішня дата"
             }
         }
     }
