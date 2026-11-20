@@ -403,7 +403,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-desk/1.2.4/locale/en.yml',
 	],
 	'ernestdefoe-member-map' => [
-		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-map/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/member-map/1.1.1/locale/en.yml',
 	],
 	'ernestdefoe-menu-control' => [
 		'tag' => 'https://raw.githubusercontent.com/ernestdefoe/menu-control/v1.3.0/locale/en.yml',
