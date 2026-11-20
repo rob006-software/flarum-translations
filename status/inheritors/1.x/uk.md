@@ -2,8 +2,8 @@
 
 Translations for Ukrainian (`uk`) are inherited from Flarum 1.x, but they can be adjusted
 independently after inheritance. This page lists all strings which have the same source string on both
-sides, but do not match between them: **289** are translated differently and **958** are
-translated only in `uk`. Altogether they cover **73** components.
+sides, but do not match between them: **354** are translated differently and **1300** are
+translated only in `uk`. Altogether they cover **100** components.
 
 <!-- {% raw %} -->
 
@@ -12,8 +12,24 @@ translated only in `uk`. Altogether they cover **73** components.
 
 | Component | Different translations | Missing translations |
 | --- | --- | --- |
-| `acpl-lscache` | [1](#acpl-lscache) | 0 |
+| `acpl-lscache` | [6](#acpl-lscache) | 0 |
+| `antoinefr-money` | [5](#antoinefr-money) | 0 |
+| `asyntai-chatbot` | 0 | [6](#asyntai-chatbot-missing) |
+| `clarkwinkelmann-likes-received` | [1](#clarkwinkelmann-likes-received) | 0 |
 | `core` | [30](#core) | [11](#core-missing) |
+| `datitisev-backup` | [19](#datitisev-backup) | 0 |
+| `datlechin-bbcode-hide-content` | [2](#datlechin-bbcode-hide-content) | 0 |
+| `datlechin-more-discussions` | [5](#datlechin-more-discussions) | 0 |
+| `datlechin-passkey` | 0 | [83](#datlechin-passkey-missing) |
+| `datlechin-tag-passwords` | [20](#datlechin-tag-passwords) | 0 |
+| `datlechin-title-length` | [1](#datlechin-title-length) | 0 |
+| `ekumanov-inline-audio` | 0 | [5](#ekumanov-inline-audio-missing) |
+| `ekumanov-new-posts-notice` | 0 | [2](#ekumanov-new-posts-notice-missing) |
+| `el-choco-admin-console` | 0 | [2](#el-choco-admin-console-missing) |
+| `ernestdefoe-aurora` | 0 | [20](#ernestdefoe-aurora-missing) |
+| `ffans-geetest` | 0 | [5](#ffans-geetest-missing) |
+| `ffans-link-guard` | 0 | [19](#ffans-link-guard-missing) |
+| `ffans-threadmarks` | 0 | [22](#ffans-threadmarks-missing) |
 | `flarum-akismet` | [2](#flarum-akismet) | 0 |
 | `flarum-approval` | [1](#flarum-approval) | 0 |
 | `flarum-audit` | 0 | [93](#flarum-audit-missing) |
@@ -28,6 +44,7 @@ translated only in `uk`. Altogether they cover **73** components.
 | `flarum-subscriptions` | [5](#flarum-subscriptions) | 0 |
 | `flarum-tags` | [12](#flarum-tags) | 0 |
 | `flectar-turnstile` | [1](#flectar-turnstile) | 0 |
+| `fof-amazon-affiliation` | [2](#fof-amazon-affiliation) | 0 |
 | `fof-analytics` | [1](#fof-analytics) | 0 |
 | `fof-anti-spam` | [9](#fof-anti-spam) | [2](#fof-anti-spam-missing) |
 | `fof-author-change` | 0 | [16](#fof-author-change-missing) |
@@ -85,6 +102,16 @@ translated only in `uk`. Altogether they cover **73** components.
 | `fof-user-directory` | [7](#fof-user-directory) | 0 |
 | `fof-usercard-stats` | 0 | [2](#fof-usercard-stats-missing) |
 | `fof-webhooks` | [7](#fof-webhooks) | 0 |
+| `prm-forum-activity` | 0 | [21](#prm-forum-activity-missing) |
+| `prm-hero-image` | 0 | [14](#prm-hero-image-missing) |
+| `prm-messages` | 0 | [34](#prm-messages-missing) |
+| `prm-moderation` | 0 | [30](#prm-moderation-missing) |
+| `prm-rank-banner` | 0 | [21](#prm-rank-banner-missing) |
+| `prm-security` | 0 | [13](#prm-security-missing) |
+| `prm-sleek-dark` | 0 | [11](#prm-sleek-dark-missing) |
+| `prm-trade-feedback` | 0 | [6](#prm-trade-feedback-missing) |
+| `tapao-auto-ai-moderation` | 0 | [28](#tapao-auto-ai-moderation-missing) |
+| `yippy-tag-with-themes` | [5](#yippy-tag-with-themes) | 0 |
 
 
 ## Different translations
@@ -104,6 +131,129 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 Перевірте &lt;a&gt;Інформаційну сторінку&lt;/a&gt; про те, як перевірити кеш. <del>ПРИМІТКА:</del><ins>Примітка:</ins> При відключенні кешу всі кешовані записи для цього сайту будуть видалені.
+
+#### [`acpl-lscache.admin.drop_qs_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/uk/?q=context%3A%3D%22acpl-lscache.admin.drop_qs_label%22)
+
+> Drop Query Strings
+
+```diff
+-Випадання рядків запиту
++Ігнорувати параметри запиту
+```
+
+<del>Випадання</del><ins>Ігнорувати</ins> <del>рядків</del><ins>параметри</ins> запиту
+
+#### [`acpl-lscache.admin.public_cache_ttl_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/uk/?q=context%3A%3D%22acpl-lscache.admin.public_cache_ttl_label%22)
+
+> Default Public Cache TTL
+
+```diff
+-За налаштуванням публічний кеш TTL
++Типовий TTL публічного кешу
+```
+
+#### [`acpl-lscache.admin.purge_on_discussion_update_help`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/uk/?q=context%3A%3D%22acpl-lscache.admin.purge_on_discussion_update_help%22)
+
+> Enter the URLs or cache Tags you want to purge when a discussion is updated, one per line. URL should start with &lt;code&gt;/&lt;/code&gt;, e.g. &lt;code&gt;/rankings&lt;/code&gt;, and cache Tag should start with &lt;code&gt;tag=&lt;/code&gt;, e.g. &lt;code&gt;tag=rankings&lt;/code&gt;. For multiple routes, adding a rule in .htaccess with a regular expression that tags routes and entering only this tag here is faster. &lt;a&gt;Learn more&lt;/a&gt;. By default, the cache for the homepage and updated discussions is purged.
+
+```diff
+-Введіть URL-адресу або кеш-теги, які ви хочете очистити при оновленні допису, по одному в рядку. URL має починатися з <code>/</code>, наприклад, <code>/rankings</code>, а тег кешу має починатися з <code>tag=</code>, наприклад, <code>tag=rankings</code>. Для декількох маршрутів, додавання правила в .htaccess з регулярним виразом, який тегує маршрути, і введення тільки цього тега тут буде швидшим. <a>Дізнатися більше</a>. За налаштуванням кеш для головної сторінки та оновлених обговорень очищується.
++Укажіть URL-адреси або теги кешу, які потрібно очищати під час оновлення обговорення, по одному в рядку. URL має починатися з <code>/</code>, наприклад <code>/rankings</code>, а тег кешу — з <code>tag=</code>, наприклад <code>tag=rankings</code>. Для кількох маршрутів швидше додати в .htaccess правило з регулярним виразом, яке позначає маршрути тегом, і вказати тут лише цей тег. <a>Докладніше</a>. Типово очищається кеш головної сторінки та оновлених обговорень.
+```
+
+<del>Введіть</del><ins>Укажіть</ins> <del>URL-адресу</del><ins>URL-адреси</ins> або <del>кеш-теги,</del><ins>теги кешу,</ins> які <del>ви</del><ins>потрібно</ins> <del>хочете</del><ins>очищати</ins> <del>очистити</del><ins>під</ins> <del>при</del><ins>час</ins> <del>оновленні</del><ins>оновлення</ins> <del>допису,</del><ins>обговорення,</ins> по одному в рядку. URL має починатися з &lt;code&gt;/&lt;/code&gt;, <del>наприклад,</del><ins>наприклад</ins> &lt;code&gt;/rankings&lt;/code&gt;, а тег кешу<del> має</del> <del>починатися</del><ins>—</ins> з &lt;code&gt;tag=&lt;/code&gt;, <del>наприклад,</del><ins>наприклад</ins> &lt;code&gt;tag=rankings&lt;/code&gt;. Для <del>декількох</del><ins>кількох</ins> <del>маршрутів,</del><ins>маршрутів</ins> <del>додавання</del><ins>швидше</ins> <del>правила</del><ins>додати</ins> в .htaccess<ins> правило</ins> з регулярним виразом,<del> який тегує</del> <del>маршрути,</del><ins>яке</ins> <del>і</del><ins>позначає</ins> <del>введення</del><ins>маршрути</ins> <del>тільки</del><ins>тегом,</ins> <del>цього</del><ins>і</ins> <del>тега</del><ins>вказати</ins> тут <del>буде</del><ins>лише</ins> <del>швидшим.</del><ins>цей</ins> <del>&lt;a&gt;Дізнатися</del><ins>тег.</ins> <del>більше&lt;/a&gt;.</del><ins>&lt;a&gt;Докладніше&lt;/a&gt;.</ins> <del>За</del><ins>Типово</ins> <del>налаштуванням</del><ins>очищається</ins> кеш<del> для</del> головної сторінки та оновлених<del> обговорень</del> <del>очищується.</del><ins>обговорень.</ins>
+
+#### [`acpl-lscache.admin.purge_on_discussion_update_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/uk/?q=context%3A%3D%22acpl-lscache.admin.purge_on_discussion_update_label%22)
+
+> Purge URLs or cache Tags on Discussion Update
+
+```diff
+-Очистити URL-адреси або кеш-теги в оновленні обговорень
++Очищати URL-адреси або теги кешу під час оновлення обговорення
+```
+
+<del>Очистити</del><ins>Очищати</ins> URL-адреси або <del>кеш-теги</del><ins>теги</ins> <del>в</del><ins>кешу</ins> <del>оновленні</del><ins>під</ins> <del>обговорень</del><ins>час оновлення обговорення</ins>
+
+#### [`acpl-lscache.admin.status_codes_cache_label`](https://weblate.rob006.net/translate/flarum2/acpl-lscache/uk/?q=context%3A%3D%22acpl-lscache.admin.status_codes_cache_label%22)
+
+> Default HTTP Status Code Page TTL
+
+```diff
+-За налаштуванням HTTP код стану Сторінка TTL
++Типовий TTL сторінок із кодами стану HTTP
+```
+
+
+### `antoinefr-money`
+
+#### [`antoinefr-money.admin.autoremove.1`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/uk/?q=context%3A%3D%22antoinefr-money.admin.autoremove.1%22)
+
+> When a discussion/post is hidden or restored (default)
+
+```diff
+-Коли дискусію/допис приховано або відновлено (за налаштуванням)
++Коли обговорення/допис приховано або відновлено (за замовчуванням)
+```
+
+Коли <del>дискусію/допис</del><ins>обговорення/допис</ins> приховано або відновлено (за <del>налаштуванням)</del><ins>замовчуванням)</ins>
+
+#### [`antoinefr-money.admin.autoremove.2`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/uk/?q=context%3A%3D%22antoinefr-money.admin.autoremove.2%22)
+
+> When a discussion/post is deleted
+
+```diff
+-Коли дискусія/допис видаляється
++Коли обговорення/допис видаляється
+```
+
+Коли <del>дискусія/допис</del><ins>обговорення/допис</ins> видаляється
+
+#### [`antoinefr-money.admin.settings.cascaderemove`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/uk/?q=context%3A%3D%22antoinefr-money.admin.settings.cascaderemove%22)
+
+> Remove money for posts when a discussion is deleted
+
+```diff
+-Видаляти гроші за дописи, коли дискусію видалено
++Видаляти гроші за дописи, коли обговорення видалено
+```
+
+Видаляти гроші за дописи, коли <del>дискусію</del><ins>обговорення</ins> видалено
+
+#### [`antoinefr-money.admin.settings.moneyfordiscussion`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/uk/?q=context%3A%3D%22antoinefr-money.admin.settings.moneyfordiscussion%22)
+
+> Money given for a new discussion
+
+```diff
+-Гроші за нову дискусію
++Гроші за нове обговорення
+```
+
+Гроші за <del>нову</del><ins>нове</ins> <del>дискусію</del><ins>обговорення</ins>
+
+#### [`antoinefr-money.forum.modal.title`](https://weblate.rob006.net/translate/flarum2/antoinefr-money/uk/?q=context%3A%3D%22antoinefr-money.forum.modal.title%22)
+
+> {username}'s money
+
+```diff
+-Кошти від {username}
++Кошти користувача {username}
+```
+
+Кошти <del>від</del><ins>користувача</ins> {username}
+
+
+### `clarkwinkelmann-likes-received`
+
+#### [`clarkwinkelmann-likes-received.forum.user-card.likes`](https://weblate.rob006.net/translate/flarum2/clarkwinkelmann-likes-received/uk/?q=context%3A%3D%22clarkwinkelmann-likes-received.forum.user-card.likes%22)
+
+> {likes, plural, one {# like received} other {# likes received}}
+
+```diff
+-{likes, plural, one {# отримана водобайка} other {# отриманих водобайок}}
++{likes, plural, one {# отримана вподобайка} few {# отримані вподобайки} many {# отриманих вподобайок} other {# отриманої вподобайки}}
+```
+
+{likes, plural, one {# отримана <del>водобайка}</del><ins>вподобайка}</ins> <del>other</del><ins>few {# отримані вподобайки} many</ins> {# отриманих <del>водобайок}}</del><ins>вподобайок} other {# отриманої вподобайки}}</ins>
 
 
 ### `core`
@@ -427,6 +577,502 @@ Each entry contains the English source string, followed by a diff between the tr
 ```
 
 Розпочати <del>дискусію</del><ins>обговорення</ins>
+
+
+### `datitisev-backup`
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.description%22)
+
+> Your authentication Access token ID
+
+```diff
+-Ваша автентифікація ID токену доступу
++ID токена доступу для автентифікації
+```
+
+<del>Ваша автентифікація </del>ID <del>токену</del><ins>токена</ins> доступу<ins> для автентифікації</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-id.label%22)
+
+> Access ID
+
+```diff
+-Access ID
++Ідентифікатор доступу
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.description%22)
+
+> Your authentication Access token Key
+
+```diff
+-Ваша автентифікація Ключ токену доступу
++Ключ токена доступу для автентифікації
+```
+
+<del>Ваша автентифікація </del>Ключ <del>токену</del><ins>токена</ins> доступу<ins> для автентифікації</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.access-key.label%22)
+
+> Access Key
+
+```diff
+-Access Key
++Ключ доступу
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aliyun.bucket.label%22)
+
+> Bucket
+
+```diff
+-Bucket
++Бакет
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.bucket.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.bucket.description%22)
+
+> S3 bucket to upload to.
+
+```diff
+-S3 bucket для завантаження.
++Бакет S3 для завантаження.
+```
+
+<del>S3</del><ins>Бакет</ins> <del>bucket</del><ins>S3</ins> для завантаження.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.bucket.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.bucket.label%22)
+
+> Bucket
+
+```diff
+-Bucket
++Бакет
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.aws.region.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.aws.region.description%22)
+
+> Region of your bucket.
+
+```diff
+-Регіон для bucket.
++Регіон вашого бакета.
+```
+
+Регіон <del>для</del><ins>вашого</ins> <del>bucket.</del><ins>бакета.</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.azure.container.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.azure.container.description%22)
+
+> Azure container
+
+```diff
+-Azure container
++Контейнер Azure
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.azure.container.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.azure.container.label%22)
+
+> Container
+
+```diff
+-Container
++Контейнер
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-access-code-label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-access-code-label%22)
+
+> Obtain an access code (requires app key)
+
+```diff
+-Отримайте код доступу (потрібен app key)
++Отримайте код доступу (потрібен ключ застосунку)
+```
+
+Отримайте код доступу (потрібен <del>app</del><ins>ключ</ins> <del>key)</del><ins>застосунку)</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-label%22)
+
+> Use access code to obtain a refresh token (requires app key &amp; secret)
+
+```diff
+-Використовуйте код доступу, щоб отримати токен оновлення (потрібен app key та secret)
++Використайте код доступу, щоб отримати токен оновлення (потрібні ключ і секрет застосунку)
+```
+
+<del>Використовуйте</del><ins>Використайте</ins> код доступу, щоб отримати токен оновлення <del>(потрібен</del><ins>(потрібні</ins> <del>app</del><ins>ключ</ins> <del>key</del><ins>і</ins> <del>та</del><ins>секрет</ins> <del>secret)</del><ins>застосунку)</ins>
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.help.obtain-refresh-token-success%22)
+
+> Refresh token obtained successfully &amp; updated above! Save the changes to store it.
+
+```diff
+-Оновлкний токен успішно отримано та оновлено вище! Збережіть зміни, щоб зберегти його.
++Токен оновлення успішно отримано й оновлено вище! Збережіть зміни, щоб зберегти його.
+```
+
+<del>Оновлкний</del><ins>Токен</ins> <del>токен</del><ins>оновлення</ins> успішно отримано <del>та</del><ins>й</ins> оновлено вище! Збережіть зміни, щоб зберегти його.
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.key.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.key.label%22)
+
+> App Key
+
+```diff
+-App Key
++Ключ застосунку
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.refresh-token.label%22)
+
+> Refresh Token
+
+```diff
+-Оновити токен
++Токен оновлення
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.dropbox.secret.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.dropbox.secret.label%22)
+
+> App Secret
+
+```diff
+-App Secret
++Секрет застосунку
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.client-id.description%22)
+
+> Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md to create a Google project and retrieve your Client ID &amp; Client Secret.
+>
+
+```diff
+-Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.
++Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проєкт Google і отримати свій ідентифікатор клієнта та секрет клієнта.
+
+```
+
+Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити <del>проект</del><ins>проєкт</ins> Google і отримати свій ідентифікатор клієнта та секрет клієнта.<br />
+
+#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.folder.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.folder.label%22)
+
+> Folder ID
+
+```diff
+-Folder ID
++Ідентифікатор теки
+```
+
+#### [`datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.label`](https://weblate.rob006.net/translate/flarum2/datitisev-backup/uk/?q=context%3A%3D%22datitisev-backup.admin.adapter-settings-modal.gdrive.refresh-token.label%22)
+
+> Refresh Token
+
+```diff
+-Оновити токен
++Токен оновлення
+```
+
+
+### `datlechin-bbcode-hide-content`
+
+#### [`datlechin-bbcode-hide-content.admin.permissions.bypass_like_label`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/uk/?q=context%3A%3D%22datlechin-bbcode-hide-content.admin.permissions.bypass_like_label%22)
+
+> Bypass like requirement
+
+```diff
+-Вимога щодо обходу
++Обходити вимогу вподобати
+```
+
+#### [`datlechin-bbcode-hide-content.admin.permissions.bypass_reply_label`](https://weblate.rob006.net/translate/flarum2/datlechin-bbcode-hide-content/uk/?q=context%3A%3D%22datlechin-bbcode-hide-content.admin.permissions.bypass_reply_label%22)
+
+> Bypass reply requirement
+
+```diff
+-Вимога щодо обходу відповіді
++Обходити вимогу відповісти
+```
+
+
+### `datlechin-more-discussions`
+
+#### [`datlechin-more-discussions.admin.settings.block_name_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/uk/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.block_name_help%22)
+
+> The name of the block (default &lt;code&gt;Latest Discussions&lt;/code&gt;)
+
+```diff
+-Назва блоку (за замовчуванням <code>Останні дискусії</code>)
++Назва блоку (за замовчуванням <code>Останні обговорення</code>)
+```
+
+Назва блоку (за замовчуванням &lt;code&gt;Останні <del>дискусії&lt;/code&gt;)</del><ins>обговорення&lt;/code&gt;)</ins>
+
+#### [`datlechin-more-discussions.admin.settings.discussion_limit_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/uk/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_limit_help%22)
+
+> The number of discussions to display (default &lt;code&gt;5&lt;/code&gt;)
+
+```diff
+-Кількість дискусій (за налаштуванням - <code>5</code>)
++Кількість обговорень для показу (типово <code>5</code>)
+```
+
+Кількість <del>дискусій</del><ins>обговорень</ins> <del>(за</del><ins>для</ins> <del>налаштуванням</del><ins>показу</ins> <del>-</del><ins>(типово</ins> &lt;code&gt;5&lt;/code&gt;)
+
+#### [`datlechin-more-discussions.admin.settings.discussion_limit_label`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/uk/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.discussion_limit_label%22)
+
+> Discussion limit
+
+```diff
+-Обмеження дискусії
++Обмеження обговорення
+```
+
+Обмеження <del>дискусії</del><ins>обговорення</ins>
+
+#### [`datlechin-more-discussions.admin.settings.filter_by_help`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/uk/?q=context%3A%3D%22datlechin-more-discussions.admin.settings.filter_by_help%22)
+
+> Filter discussions (default: &lt;code&gt;latest&lt;/code&gt;)
+
+```diff
+-Фільтр дискусій (за налаштуванням: <code>останні</code>)
++Фільтр обговорень (за замовчуванням: <code>latest</code>)
+```
+
+Фільтр <del>дискусій</del><ins>обговорень</ins> (за <del>налаштуванням:</del><ins>замовчуванням:</ins> <del>&lt;code&gt;останні&lt;/code&gt;)</del><ins>&lt;code&gt;latest&lt;/code&gt;)</ins>
+
+#### [`datlechin-more-discussions.forum.block_default_name`](https://weblate.rob006.net/translate/flarum2/datlechin-more-discussions/uk/?q=context%3A%3D%22datlechin-more-discussions.forum.block_default_name%22)
+
+> Latest Discussions
+
+```diff
+-Останні дискусії
++Останні обговорення
+```
+
+Останні <del>дискусії</del><ins>обговорення</ins>
+
+
+### `datlechin-tag-passwords`
+
+#### [`datlechin-tag-passwords.admin.edit_tag.group_placeholder_label`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.admin.edit_tag.group_placeholder_label%22)
+
+> Group name
+
+```diff
+-Груповий дозвіл
++Назва групи
+```
+
+#### [`datlechin-tag-passwords.admin.setting.discussion.avatar`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.discussion.avatar%22)
+
+> Display the Poster User Profile for Protected Tag in Discussion List
+
+```diff
+-Показати профіль користувача дописувача для захищеного тегу в списку дискусій
++Показати профіль користувача дописувача для захищеного тегу в списку обговорень
+```
+
+Показати профіль користувача дописувача для захищеного тегу в списку <del>дискусій</del><ins>обговорень</ins>
+
+#### [`datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_page`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.display_protected_tag_from_discussion_page%22)
+
+> Display Protected Tag in Discussion, with URL Sharing
+
+```diff
+-Відображати захищений тег в дискусії з наданням спільного доступу до URL-адреси
++Відображати захищений тег в обговоренні з наданням спільного доступу до URL-адреси
+```
+
+Відображати захищений тег в <del>дискусії</del><ins>обговоренні</ins> з наданням спільного доступу до URL-адреси
+
+#### [`datlechin-tag-passwords.admin.setting.heading.discussion`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.admin.setting.heading.discussion%22)
+
+> Discussion List Display
+
+```diff
+-Відображення списку дискусій
++Відображення списку обговорень
+```
+
+Відображення списку <del>дискусій</del><ins>обговорень</ins>
+
+#### [`datlechin-tag-passwords.forum.discussion_list.avatar`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.avatar%22)
+
+> Protected
+
+```diff
+-Зазищено
++Захищено
+```
+
+#### [`datlechin-tag-passwords.forum.discussion_list.info.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.group_protected%22)
+
+> To be able to gain access to this discussion, you must have the correct role assigned to your account.
+
+```diff
+-Щоб отримати доступ до цієї дискусії, ви повинні мати відповідну роль, призначену вашому обліковому запису.
++Щоб отримати доступ до цього обговорення, ви повинні мати відповідну роль, призначену вашому обліковому запису.
+```
+
+Щоб отримати доступ до <del>цієї</del><ins>цього</ins> <del>дискусії,</del><ins>обговорення,</ins> ви повинні мати відповідну роль, призначену вашому обліковому запису.
+
+#### [`datlechin-tag-passwords.forum.discussion_list.info.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.multiple%22)
+
+> To be able to gain access to this discussion, you need to unlock all protected Tags.
+
+```diff
+-Щоб отримати доступ до цієї дискусії, вам потрібно розблокувати всі захищені теги.
++Щоб отримати доступ до цього обговорення, вам потрібно розблокувати всі захищені теги.
+```
+
+Щоб отримати доступ до <del>цієї</del><ins>цього</ins> <del>дискусії,</del><ins>обговорення,</ins> вам потрібно розблокувати всі захищені теги.
+
+#### [`datlechin-tag-passwords.forum.discussion_list.info.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.info.password_protected%22)
+
+> To be able to gain access to this discussion, you must provide the correct password for the Protected Tag.
+
+```diff
+-Щоб отримати доступ до цієї дискусії, ви повинні вказати правильний пароль для захищеного тегу.
++Щоб отримати доступ до цього обговорення, ви повинні вказати правильний пароль для захищеного тегу.
+```
+
+Щоб отримати доступ до <del>цієї</del><ins>цього</ins> <del>дискусії,</del><ins>обговорення,</ins> ви повинні вказати правильний пароль для захищеного тегу.
+
+#### [`datlechin-tag-passwords.forum.discussion_list.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.group_protected%22)
+
+> Discussion is Permission Group Protected
+
+```diff
+-Дискусія захищена групою дозволів
++Обговорення захищене групою дозволів
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> <del>захищена</del><ins>захищене</ins> групою дозволів
+
+#### [`datlechin-tag-passwords.forum.discussion_list.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.multiple%22)
+
+> Discussion is Protected
+
+```diff
+-Дискусія захищена
++Обговорення захищене
+```
+
+#### [`datlechin-tag-passwords.forum.discussion_list.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_list.title.password_protected%22)
+
+> Discussion is Password Protected
+
+```diff
+-Дискусія захищена паролем
++Обговорення захищене паролем
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> <del>захищена</del><ins>захищене</ins> паролем
+
+#### [`datlechin-tag-passwords.forum.discussion_page.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.group_protected%22)
+
+> Discussion is Permission Group Protected
+
+```diff
+-Дискусія захищена групою дозволів
++Обговорення захищене групою дозволів
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> <del>захищена</del><ins>захищене</ins> групою дозволів
+
+#### [`datlechin-tag-passwords.forum.discussion_page.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.multiple%22)
+
+> Discussion is Protected
+
+```diff
+-Дискусія захищена
++Обговорення захищене
+```
+
+#### [`datlechin-tag-passwords.forum.discussion_page.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.discussion_page.title.password_protected%22)
+
+> Discussion is Password Protected
+
+```diff
+-Дискусія захищена паролем
++Обговорення захищене паролем
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> <del>захищена</del><ins>захищене</ins> паролем
+
+#### [`datlechin-tag-passwords.forum.post_list.title.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.group_protected%22)
+
+> Post in Permission Group Required Discussion
+
+```diff
+-Публікація в групі дозволів вимагає обговорення
++Допис в обговоренні, для якого потрібна група дозволів
+```
+
+<del>Публікація</del><ins>Допис</ins> в <del>групі</del><ins>обговоренні,</ins> <del>дозволів</del><ins>для</ins> <del>вимагає</del><ins>якого</ins> <del>обговорення</del><ins>потрібна група дозволів</ins>
+
+#### [`datlechin-tag-passwords.forum.post_list.title.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.multiple%22)
+
+> Post in Protected Discussion
+
+```diff
+-Публікація в захищеній дискусії
++Допис у захищеному обговоренні
+```
+
+#### [`datlechin-tag-passwords.forum.post_list.title.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.post_list.title.password_protected%22)
+
+> Post in Password Protected Discussion
+
+```diff
+-Повідомлення в захищеній паролем дискусії
++Допис в обговоренні, захищеному паролем
+```
+
+<del>Повідомлення</del><ins>Допис</ins> в <del>захищеній</del><ins>обговоренні,</ins> <del>паролем</del><ins>захищеному</ins> <del>дискусії</del><ins>паролем</ins>
+
+#### [`datlechin-tag-passwords.forum.tags_page.discussion.group_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.group_protected%22)
+
+> Discussion requires Permission Group
+
+```diff
+-Дискусія потребує Групи дозволу
++Для обговорення потрібна група дозволів
+```
+
+#### [`datlechin-tag-passwords.forum.tags_page.discussion.multiple`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.multiple%22)
+
+> Discussion requires all Permission
+
+```diff
+-Дискусія вимагає всіх дозволів
++Обговорення вимагає всіх дозволів
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> вимагає всіх дозволів
+
+#### [`datlechin-tag-passwords.forum.tags_page.discussion.password_protected`](https://weblate.rob006.net/translate/flarum2/datlechin-tag-passwords/uk/?q=context%3A%3D%22datlechin-tag-passwords.forum.tags_page.discussion.password_protected%22)
+
+> Discussion is Password Protected
+
+```diff
+-Дискусія захищена паролем
++Обговорення захищене паролем
+```
+
+<del>Дискусія</del><ins>Обговорення</ins> <del>захищена</del><ins>захищене</ins> паролем
+
+
+### `datlechin-title-length`
+
+#### [`datlechin-title-length.admin.settings.limit_help`](https://weblate.rob006.net/translate/flarum2/datlechin-title-length/uk/?q=context%3A%3D%22datlechin-title-length.admin.settings.limit_help%22)
+
+> Enable to use custom title length limit. If disabled, the Flarum's default title length limit will be used.
+
+```diff
+-Увімкнути, щоб використовувати користувацьке обмеження довжини заголовка. Якщо вимкнено, буде використовуватися обмеження довжини заголовка за налаштуванням Flarum.
++Увімкнути, щоб використовувати користувацьке обмеження довжини заголовка. Якщо вимкнено, буде використовуватися обмеження довжини заголовка за замовчуванням Flarum.
+```
+
+Увімкнути, щоб використовувати користувацьке обмеження довжини заголовка. Якщо вимкнено, буде використовуватися обмеження довжини заголовка за <del>налаштуванням</del><ins>замовчуванням</ins> Flarum.
 
 
 ### `flarum-akismet`
@@ -957,6 +1603,31 @@ Akismet <del>помітив</del><ins>позначив</ins> як спам
 ```
 
 Не вдалося завантажити Cloudflare Turnstile. <del>Будь ласка, оновіть</del><ins>Оновіть</ins> сторінку <del>та</del><ins>й</ins> перевірте <del>ваш</del><ins>блокувальник</ins> <del>браузер.</del><ins>реклами.</ins>
+
+
+### `fof-amazon-affiliation`
+
+#### [`fof-amazon-affiliation.admin.settings.field.keep-existing-tag-help`](https://weblate.rob006.net/translate/flarum2/fof-amazon-affiliation/uk/?q=context%3A%3D%22fof-amazon-affiliation.admin.settings.field.keep-existing-tag-help%22)
+
+> By default any existing tag in the original url is replaced by the tag you define below.
+
+```diff
+-За налаштуванням будь-який існуючий тег у вихідному URL-адресі замінюється на тег, який ви визначите нижче.
++За замовчуванням наявний тег у вихідній URL-адресі замінюється тегом, який ви вкажете нижче.
+```
+
+За <del>налаштуванням будь-який</del><ins>замовчуванням</ins> <del>існуючий</del><ins>наявний</ins> тег у <del>вихідному</del><ins>вихідній</ins> URL-адресі замінюється<del> на</del> <del>тег,</del><ins>тегом,</ins> який ви <del>визначите</del><ins>вкажете</ins> нижче.
+
+#### [`fof-amazon-affiliation.admin.settings.field.remove-tag-if-unhandled-help`](https://weblate.rob006.net/translate/flarum2/fof-amazon-affiliation/uk/?q=context%3A%3D%22fof-amazon-affiliation.admin.settings.field.remove-tag-if-unhandled-help%22)
+
+> By default links that aren't covered are left as-it, including their tag if any.
+
+```diff
+-За налаштуванням посилання, які не покриваються, залишаються як є, включаючи їх тег, якщо він є.
++За замовчуванням посилання, які не покриваються, залишаються як є, включаючи їх тег, якщо він є.
+```
+
+За <del>налаштуванням</del><ins>замовчуванням</ins> посилання, які не покриваються, залишаються як є, включаючи їх тег, якщо він є.
 
 
 ### `fof-analytics`
@@ -3435,9 +4106,122 @@ L <del>\[at\]</del><ins>\[о\]</ins> LT
 <del>Дискусія</del><ins>Обговорення</ins> Flarum
 
 
+### `yippy-tag-with-themes`
+
+#### [`yippy-tag-with-themes.admin.designs.header.color_theme`](https://weblate.rob006.net/translate/flarum2/yippy-tag-with-themes/uk/?q=context%3A%3D%22yippy-tag-with-themes.admin.designs.header.color_theme%22)
+
+> Customise Default Color Scheme
+
+```diff
+-Налаштуйте колірну схему за налаштуванням
++Налаштуйте колірну схему за замовчуванням
+```
+
+Налаштуйте колірну схему за <del>налаштуванням</del><ins>замовчуванням</ins>
+
+#### [`yippy-tag-with-themes.admin.helps.design_default`](https://weblate.rob006.net/translate/flarum2/yippy-tag-with-themes/uk/?q=context%3A%3D%22yippy-tag-with-themes.admin.helps.design_default%22)
+
+> Select a default design layout
+
+```diff
+-Обрати макет дизайну за налаштуванням
++Обрати макет дизайну за замовчуванням
+```
+
+Обрати макет дизайну за <del>налаштуванням</del><ins>замовчуванням</ins>
+
+#### [`yippy-tag-with-themes.admin.labels.design_default`](https://weblate.rob006.net/translate/flarum2/yippy-tag-with-themes/uk/?q=context%3A%3D%22yippy-tag-with-themes.admin.labels.design_default%22)
+
+> Discussion Design Layout
+
+```diff
+-Макет дизайну дискусії
++Макет оформлення обговорення
+```
+
+Макет <del>дизайну</del><ins>оформлення</ins> <del>дискусії</del><ins>обговорення</ins>
+
+#### [`yippy-tag-with-themes.admin.options.design_options.flat_tag`](https://weblate.rob006.net/translate/flarum2/yippy-tag-with-themes/uk/?q=context%3A%3D%22yippy-tag-with-themes.admin.options.design_options.flat_tag%22)
+
+> Flat (Primary Tag)
+
+```diff
+-Плоский (осноаний тег)
++Плоский (основний тег)
+```
+
+Плоский <del>(осноаний</del><ins>(основний</ins> тег)
+
+#### [`yippy-tag-with-themes.admin.options.design_options.rounded_flat_tab`](https://weblate.rob006.net/translate/flarum2/yippy-tag-with-themes/uk/?q=context%3A%3D%22yippy-tag-with-themes.admin.options.design_options.rounded_flat_tab%22)
+
+> Rounded Flat (Primary Tab)
+
+```diff
+-Округлий плоский (другорядний тег)
++Округлий плоский (основна вкладка)
+```
+
+Округлий плоский <del>(другорядний</del><ins>(основна</ins> <del>тег)</del><ins>вкладка)</ins>
+
+
 ## Missing translations
 
 These strings are translated only in `uk`, so there is nothing to inherit from Flarum 1.x - they could be used to fill the gaps there. Each entry contains the English source string, followed by the translation available only in `uk`.
+
+
+### `asyntai-chatbot` (missing)
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_help%22)
+
+> Members who are logged in never see the chat.
+
+```diff
++Учасники, які увійшли в обліковий запис, не бачать чат.
+```
+
+#### [`asyntai-chatbot.admin.settings.hide_for_members_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.hide_for_members_label%22)
+
+> Show only to guests
+
+```diff
++Показувати лише гостям
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_help%22)
+
+> Leave this field empty to use the standard address https://widget.asyntai.com/static/js/chat-widget.js
+>
+
+```diff
++Залиште поле порожнім, щоб використовувати стандартну адресу https://widget.asyntai.com/static/js/chat-widget.js
++
+```
+
+#### [`asyntai-chatbot.admin.settings.script_url_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.script_url_label%22)
+
+> Script address (optional)
+
+```diff
++Адреса скрипту (необов’язково)
+```
+
+#### [`asyntai-chatbot.admin.settings.widget_id_help`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.widget_id_help%22)
+
+> Paste the snippet from your Asyntai dashboard, or only the widget ID. Leave this field empty to switch the chat off. You find the ID at asyntai.com under Setup &amp; Integration.
+>
+
+```diff
++Вставте фрагмент коду з панелі Asyntai або лише ідентифікатор віджета. Залиште поле порожнім, щоб вимкнути чат. Ідентифікатор доступний на asyntai.com у розділі Setup & Integration.
++
+```
+
+#### [`asyntai-chatbot.admin.settings.widget_id_label`](https://weblate.rob006.net/translate/flarum2/asyntai-chatbot/uk/?q=context%3A%3D%22asyntai-chatbot.admin.settings.widget_id_label%22)
+
+> Asyntai widget ID
+
+```diff
++Ідентифікатор віджета Asyntai
+```
 
 
 ### `core` (missing)
@@ -3528,6 +4312,1362 @@ These strings are translated only in `uk`, so there is nothing to inherit from F
 
 ```diff
 +Схоже, немає з’єднання з мережею. Перевірте підключення та спробуйте ще раз.
+```
+
+
+### `datlechin-passkey` (missing)
+
+#### [`datlechin-passkey.admin.group_modal.require_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.group_modal.require_passkey%22)
+
+> Require passkey for this group
+
+```diff
++Вимагати ключ доступу для цієї групи
+```
+
+#### [`datlechin-passkey.admin.group_modal.require_passkey_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.group_modal.require_passkey_help%22)
+
+> Members will be reminded with a sticky banner until they register at least one passkey.
+
+```diff
++Учасники бачитимуть постійне нагадування, доки не зареєструють принаймні один ключ доступу.
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_direct`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_direct%22)
+
+> Direct
+
+```diff
++Пряма
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_indirect`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_indirect%22)
+
+> Indirect
+
+```diff
++Непряма
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_label%22)
+
+> Attestation conveyance
+
+```diff
++Передавання атестації
+```
+
+#### [`datlechin-passkey.admin.settings.attestation_none`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.attestation_none%22)
+
+> None (recommended)
+
+```diff
++Без атестації (рекомендовано)
+```
+
+#### [`datlechin-passkey.admin.settings.description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.description%22)
+
+> Configure passkey authentication for this forum.
+
+```diff
++Налаштуйте автентифікацію з ключами доступу на цьому форумі.
+```
+
+#### [`datlechin-passkey.admin.settings.related_origins_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.related_origins_help%22)
+
+> Additional origins permitted to perform passkey ceremonies. Used together with the W3C related-origins document at /.well-known/webauthn.
+
+```diff
++Додаткові джерела, яким дозволено виконувати операції з ключами доступу. Використовуються разом із документом W3C про пов’язані джерела за адресою /.well-known/webauthn.
+```
+
+#### [`datlechin-passkey.admin.settings.related_origins_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.related_origins_label%22)
+
+> Related origins (one per line)
+
+```diff
++Пов’язані джерела (по одному в рядку)
+```
+
+#### [`datlechin-passkey.admin.settings.rp_id_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_id_help%22)
+
+> The DNS name that scopes a passkey. Leave blank to auto-detect from the request host. Changing this invalidates every existing passkey.
+
+```diff
++Ім’я DNS, що визначає область дії ключа доступу. Залиште поле порожнім для автоматичного визначення за хостом запиту. Зміна зробить усі наявні ключі доступу недійсними.
+```
+
+#### [`datlechin-passkey.admin.settings.rp_id_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_id_label%22)
+
+> Relying Party ID
+
+```diff
++Ідентифікатор довірчої сторони (RP ID)
+```
+
+#### [`datlechin-passkey.admin.settings.rp_name_help`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_name_help%22)
+
+> The name shown to users in the browser passkey prompt. Defaults to the forum title.
+
+```diff
++Назва, яку користувачі бачать у запиті браузера щодо ключа доступу. Типово це назва форуму.
+```
+
+#### [`datlechin-passkey.admin.settings.rp_name_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.rp_name_label%22)
+
+> Relying Party display name
+
+```diff
++Відображувана назва довірчої сторони
+```
+
+#### [`datlechin-passkey.admin.settings.throttle_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.throttle_label%22)
+
+> Login attempts per minute per IP
+
+```diff
++Спроб входу за хвилину з однієї IP-адреси
+```
+
+#### [`datlechin-passkey.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.title%22)
+
+> Passkey
+
+```diff
++Ключі доступу
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_discouraged`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_discouraged%22)
+
+> Discouraged (touch only, less secure)
+
+```diff
++Небажана (лише дотик, менш безпечно)
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_label%22)
+
+> User verification
+
+```diff
++Перевірка користувача
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_preferred`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_preferred%22)
+
+> Preferred (ask if the device supports it)
+
+```diff
++Бажана (запитувати, якщо пристрій підтримує)
+```
+
+#### [`datlechin-passkey.admin.settings.user_verification_required`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.admin.settings.user_verification_required%22)
+
+> Required (always ask for biometric or PIN)
+
+```diff
++Обов’язкова (завжди запитувати біометричні дані або PIN)
+```
+
+#### [`datlechin-passkey.email.backup_state.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.backup_state.body%22)
+
+> Hi {username},
+>
+> Your passkey "{device}" on {forum} is now {state}.
+>
+> If you triggered this yourself (for example by signing in to iCloud Keychain or a password manager on a new device), you can ignore this message. If not, sign in and review the security tab. The passkey may have been copied to another device.
+>
+> {forum}
+>
+
+```diff
++Вітаємо, {username}!
++
++Ваш ключ доступу «{device}» на {forum} тепер {state}.
++
++Якщо ви самі спричинили цю зміну, наприклад увійшли у В’язку iCloud або менеджер паролів на новому пристрої, проігноруйте цей лист. Інакше увійдіть і перевірте вкладку безпеки. Ключ могли скопіювати на інший пристрій.
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.backup_state.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.backup_state.subject%22)
+
+> Sync state changed for a passkey on {forum}
+
+```diff
++Змінено стан синхронізації ключа доступу на {forum}
+```
+
+#### [`datlechin-passkey.email.backup_state.synced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.backup_state.synced%22)
+
+> synced to a cloud password manager
+
+```diff
++синхронізовано з хмарним менеджером паролів
+```
+
+#### [`datlechin-passkey.email.backup_state.unsynced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.backup_state.unsynced%22)
+
+> stored on a single device only
+
+```diff
++зберігається лише на одному пристрої
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.actor_admin`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.actor_admin%22)
+
+> A site moderator removed them on your behalf.
+
+```diff
++Модератор сайту видалив ключі від вашого імені.
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.actor_self`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.actor_self%22)
+
+> You initiated this revoke from the security tab.
+
+```diff
++Ви відкликали ключі на вкладці безпеки.
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.body%22)
+
+> Hi {username},
+>
+> All {count} passkeys were just removed from your account on {forum}. {actor}
+>
+> If you did not expect this, sign in with your password and check the security tab. If you cannot sign in, use the password-reset link on the login screen.
+>
+> {forum}
+>
+
+```diff
++Вітаємо, {username}!
++
++З вашого облікового запису на {forum} щойно видалено всі ключі доступу ({count}). {actor}
++
++Якщо ви цього не очікували, увійдіть із паролем і перевірте вкладку безпеки. Якщо не вдається ввійти, скористайтеся посиланням для скидання пароля на екрані входу.
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.bulk_revoked.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.bulk_revoked.subject%22)
+
+> All passkeys were removed from your {forum} account
+
+```diff
++З вашого облікового запису на {forum} видалено всі ключі доступу
+```
+
+#### [`datlechin-passkey.email.counter_regression.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.counter_regression.body%22)
+
+> Hi {username},
+>
+> An attempt to sign in to {forum} with your passkey "{device}" failed because the credential reported a signature counter lower than the one we have on record. This is the canonical signal that the credential may have been copied to a second device.
+>
+> The login was rejected. We recommend you sign in with your password, revoke this passkey, and register a fresh one. If you have other devices configured with the same credential, also remove them from your password manager.
+>
+> {forum}
+>
+
+```diff
++Вітаємо, {username}!
++
++Спробу входу на {forum} з вашим ключем доступу «{device}» відхилено, оскільки ключ повідомив менше значення лічильника підписів, ніж збережене в нас. Це характерна ознака того, що ключ могли скопіювати на інший пристрій.
++
++Радимо ввійти за допомогою пароля, відкликати цей ключ і зареєструвати новий. Якщо ті самі облікові дані налаштовано на інших пристроях, видаліть їх і з менеджера паролів.
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.counter_regression.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.counter_regression.subject%22)
+
+> Possible passkey clone detected on your {forum} account
+
+```diff
++Виявлено можливу копію ключа доступу до вашого облікового запису на {forum}
+```
+
+#### [`datlechin-passkey.email.revoked.actor_admin`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.revoked.actor_admin%22)
+
+> A site moderator removed it on your behalf.
+
+```diff
++Модератор сайту видалив ключ від вашого імені.
+```
+
+#### [`datlechin-passkey.email.revoked.actor_self`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.revoked.actor_self%22)
+
+> You initiated this revoke from the security tab.
+
+```diff
++Ви відкликали ключ на вкладці безпеки.
+```
+
+#### [`datlechin-passkey.email.revoked.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.revoked.body%22)
+
+> Hi {username},
+>
+> The passkey "{device}" was just removed from your account on {forum}. {actor}
+>
+> If you did not expect this, your account may be at risk. Sign in and review your remaining passkeys at the security tab. If you no longer have access, use the password-reset link on the login screen.
+>
+> {forum}
+>
+
+```diff
++Вітаємо, {username}!
++
++З вашого облікового запису на {forum} щойно видалено ключ доступу «{device}». {actor}
++
++Якщо ви цього не очікували, ваш обліковий запис може бути під загрозою. Увійдіть і перевірте решту ключів на вкладці безпеки. Якщо ви втратили доступ, скористайтеся посиланням для скидання пароля на екрані входу.
++
++{forum}
++
+```
+
+#### [`datlechin-passkey.email.revoked.subject`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.email.revoked.subject%22)
+
+> A passkey was removed from your {forum} account
+
+```diff
++З вашого облікового запису на {forum} видалено ключ доступу
+```
+
+#### [`datlechin-passkey.forum.log_in.cancelled`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.cancelled%22)
+
+> Passkey sign-in was cancelled.
+
+```diff
++Вхід із ключем доступу скасовано.
+```
+
+#### [`datlechin-passkey.forum.log_in.failed`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.failed%22)
+
+> Could not verify your passkey. Please try again.
+
+```diff
++Не вдалося перевірити ключ доступу. Спробуйте ще раз.
+```
+
+#### [`datlechin-passkey.forum.log_in.passkey_unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.passkey_unsupported%22)
+
+> This browser does not support passkeys.
+
+```diff
++Цей браузер не підтримує ключі доступу.
+```
+
+#### [`datlechin-passkey.forum.log_in.security_error`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.security_error%22)
+
+> The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.
+
+```diff
++Джерело сайту не відповідає налаштованій стороні, що покладається на автентифікацію. Попросіть адміністратора перевірити налаштування ключів доступу.
+```
+
+#### [`datlechin-passkey.forum.log_in.sign_in_with_passkey`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.sign_in_with_passkey%22)
+
+> Sign in with passkey
+
+```diff
++Увійти з ключем доступу
+```
+
+#### [`datlechin-passkey.forum.log_in.throttled`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.throttled%22)
+
+> Too many passkey login attempts. Please wait a minute and try again.
+
+```diff
++Забагато спроб входу з ключем доступу. Зачекайте хвилину й спробуйте ще раз.
+```
+
+#### [`datlechin-passkey.forum.log_in.unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.unsupported%22)
+
+> This device cannot use the passkey type the site requires.
+
+```diff
++Цей пристрій не підтримує тип ключа доступу, потрібний сайту.
+```
+
+#### [`datlechin-passkey.forum.log_in.verifying`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.log_in.verifying%22)
+
+> Verifying passkey...
+
+```diff
++Перевірка ключа доступу…
+```
+
+#### [`datlechin-passkey.forum.required.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.required.body%22)
+
+> Your role requires you to register a passkey before you can continue.
+
+```diff
++Ваша роль вимагає зареєструвати ключ доступу. Зробіть це, щоб продовжити.
+```
+
+#### [`datlechin-passkey.forum.required.set_up`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.required.set_up%22)
+
+> Set up now
+
+```diff
++Налаштувати зараз
+```
+
+#### [`datlechin-passkey.forum.settings.add_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_button%22)
+
+> Add passkey
+
+```diff
++Додати ключ доступу
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++Скасувати
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.device_name_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.device_name_label%22)
+
+> Name this passkey
+
+```diff
++Назва ключа доступу
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.device_name_placeholder`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.device_name_placeholder%22)
+
+> e.g. iPhone, MacBook, YubiKey
+
+```diff
++Наприклад, iPhone, MacBook, YubiKey
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.register_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.register_button%22)
+
+> Register
+
+```diff
++Зареєструвати
+```
+
+#### [`datlechin-passkey.forum.settings.add_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.add_modal.title%22)
+
+> Add a passkey
+
+```diff
++Додавання ключа доступу
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.bulk_revoke_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.bulk_revoke_succeeded%22)
+
+> All passkeys revoked.
+
+```diff
++Усі ключі доступу відкликано.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_already_exists`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_already_exists%22)
+
+> This device already has a passkey for your account. Revoke the existing one first, or use a different device.
+
+```diff
++На цьому пристрої вже є ключ доступу для вашого облікового запису. Спочатку відкличте наявний ключ або скористайтеся іншим пристроєм.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_failed`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_failed%22)
+
+> Could not register your passkey. Please try again.
+
+```diff
++Не вдалося зареєструвати ключ доступу. Спробуйте ще раз.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_security_error`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_security_error%22)
+
+> The site origin does not match the configured relying party. Ask an admin to check the Passkey settings.
+
+```diff
++Джерело сайту не відповідає налаштованій стороні, що покладається на автентифікацію. Попросіть адміністратора перевірити налаштування ключів доступу.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_succeeded%22)
+
+> Passkey added.
+
+```diff
++Ключ доступу додано.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.registration_unsupported`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.registration_unsupported%22)
+
+> This device cannot register a passkey of the type the site requires.
+
+```diff
++Цей пристрій не може зареєструвати ключ доступу потрібного сайту типу.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.rename_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.rename_succeeded%22)
+
+> Passkey renamed.
+
+```diff
++Ключ доступу перейменовано.
+```
+
+#### [`datlechin-passkey.forum.settings.alerts.revoke_succeeded`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.alerts.revoke_succeeded%22)
+
+> Passkey revoked.
+
+```diff
++Ключ доступу відкликано.
+```
+
+#### [`datlechin-passkey.forum.settings.bulk_revoke_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.bulk_revoke_button%22)
+
+> Revoke all
+
+```diff
++Відкликати всі
+```
+
+#### [`datlechin-passkey.forum.settings.bulk_revoke_modal.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.bulk_revoke_modal.body%22)
+
+> Revoke all {count} of your passkeys? You will not be able to sign in with any of them afterwards.
+
+```diff
++Відкликати всі ваші ключі доступу ({count})? Після цього ввійти за допомогою будь-якого з них буде неможливо.
+```
+
+#### [`datlechin-passkey.forum.settings.description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.description%22)
+
+> Passkeys let you sign in without a password using your device or a hardware key.
+
+```diff
++Ключі доступу дають змогу входити без пароля за допомогою вашого пристрою або апаратного ключа.
+```
+
+#### [`datlechin-passkey.forum.settings.heading`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.heading%22)
+
+> Passkeys
+
+```diff
++Ключі доступу
+```
+
+#### [`datlechin-passkey.forum.settings.list.added_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.added_label%22)
+
+> Added
+
+```diff
++Додано
+```
+
+#### [`datlechin-passkey.forum.settings.list.device_only`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.device_only%22)
+
+> This device only
+
+```diff
++Лише на цьому пристрої
+```
+
+#### [`datlechin-passkey.forum.settings.list.empty`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.empty%22)
+
+> You have not added any passkeys yet.
+
+```diff
++Ви ще не додали ключів доступу.
+```
+
+#### [`datlechin-passkey.forum.settings.list.last_used_label`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.last_used_label%22)
+
+> Last used
+
+```diff
++Останнє використання
+```
+
+#### [`datlechin-passkey.forum.settings.list.never_used`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.never_used%22)
+
+> Never used
+
+```diff
++Ще не використовувався
+```
+
+#### [`datlechin-passkey.forum.settings.list.rename_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.rename_button%22)
+
+> Rename
+
+```diff
++Перейменувати
+```
+
+#### [`datlechin-passkey.forum.settings.list.revoke_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.revoke_button%22)
+
+> Revoke
+
+```diff
++Відкликати
+```
+
+#### [`datlechin-passkey.forum.settings.list.synced`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.list.synced%22)
+
+> Synced
+
+```diff
++Синхронізовано
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++Скасувати
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.save_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.save_button%22)
+
+> Save
+
+```diff
++Зберегти
+```
+
+#### [`datlechin-passkey.forum.settings.rename_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.rename_modal.title%22)
+
+> Rename passkey
+
+```diff
++Перейменування ключа доступу
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.body%22)
+
+> Are you sure you want to revoke {device}? You will not be able to sign in with this passkey afterwards.
+
+```diff
++Ви впевнені, що хочете відкликати ключ «{device}»? Після цього ввійти з ним буде неможливо.
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.cancel_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.cancel_button%22)
+
+> Cancel
+
+```diff
++Скасувати
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.confirm_button`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.confirm_button%22)
+
+> Revoke
+
+```diff
++Відкликати
+```
+
+#### [`datlechin-passkey.forum.settings.revoke_modal.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.settings.revoke_modal.title%22)
+
+> Revoke passkey
+
+```diff
++Відкликання ключа доступу
+```
+
+#### [`datlechin-passkey.forum.suggest.body`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.suggest.body%22)
+
+> Sign in faster next time, without having to remember a password. Your device generates a passkey that only works on this site.
+
+```diff
++Наступного разу ви зможете ввійти швидше й без пароля. Пристрій створить ключ доступу, який працює лише на цьому сайті.
+```
+
+#### [`datlechin-passkey.forum.suggest.not_now`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.suggest.not_now%22)
+
+> Not now
+
+```diff
++Не зараз
+```
+
+#### [`datlechin-passkey.forum.suggest.set_up`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.suggest.set_up%22)
+
+> Set up a passkey
+
+```diff
++Налаштувати ключ доступу
+```
+
+#### [`datlechin-passkey.forum.suggest.title`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.forum.suggest.title%22)
+
+> Set up a passkey
+
+```diff
++Налаштування ключа доступу
+```
+
+#### [`datlechin-passkey.gdpr.anonymize_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.gdpr.anonymize_description%22)
+
+> All passkeys belonging to this user are revoked.
+
+```diff
++Усі ключі доступу цього користувача відкликаються.
+```
+
+#### [`datlechin-passkey.gdpr.delete_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.gdpr.delete_description%22)
+
+> All passkeys belonging to this user are deleted.
+
+```diff
++Усі ключі доступу цього користувача видаляються.
+```
+
+#### [`datlechin-passkey.gdpr.export_description`](https://weblate.rob006.net/translate/flarum2/datlechin-passkey/uk/?q=context%3A%3D%22datlechin-passkey.gdpr.export_description%22)
+
+> Includes the device label, last-used timestamp, IP, and authenticator metadata for each registered passkey. Public keys identify a credential but cannot be used to forge a sign-in.
+
+```diff
++Містить назву пристрою, час останнього використання, IP-адресу й метадані автентифікатора для кожного зареєстрованого ключа доступу. Відкриті ключі ідентифікують облікові дані, але не дають змоги підробити вхід.
+```
+
+
+### `ekumanov-inline-audio` (missing)
+
+#### [`ekumanov-inline-audio.admin.settings.auto_play`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/uk/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.auto_play%22)
+
+> Start playing immediately when a filename is clicked
+
+```diff
++Починати відтворення відразу після натискання на назву файлу
+```
+
+#### [`ekumanov-inline-audio.admin.settings.show_download_button`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/uk/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.show_download_button%22)
+
+> Show download button on player bar
+
+```diff
++Показувати кнопку завантаження на панелі програвача
+```
+
+#### [`ekumanov-inline-audio.admin.settings.show_right_click_download`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/uk/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.show_right_click_download%22)
+
+> Allow right-click on filename to save the file
+
+```diff
++Дозволити зберігати файл через контекстне меню його назви
+```
+
+#### [`ekumanov-inline-audio.admin.settings.strip_upload_prefix`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/uk/?q=context%3A%3D%22ekumanov-inline-audio.admin.settings.strip_upload_prefix%22)
+
+> Hide numeric prefix from uploaded filenames (e.g. "1774205518-685373-song.mp3" → "song.mp3")
+
+```diff
++Приховувати цифровий префікс у назвах завантажених файлів (наприклад, «1774205518-685373-song.mp3» → «song.mp3»)
+```
+
+#### [`ekumanov-inline-audio.forum.bbcode_description`](https://weblate.rob006.net/translate/flarum2/ekumanov-inline-audio/uk/?q=context%3A%3D%22ekumanov-inline-audio.forum.bbcode_description%22)
+
+> Embed an audio player: \[player\]URL\[/player\]
+
+```diff
++Вбудувати аудіопрогравач: [player]URL[/player]
+```
+
+
+### `ekumanov-new-posts-notice` (missing)
+
+#### [`ekumanov-new-posts-notice.forum.new_posts_plural`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/uk/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_plural%22)
+
+> {count} new replies were added while you were writing.
+>
+> OK → Post your reply anyway
+> Cancel → Read them first (your draft stays open)
+
+```diff
++Поки ви писали, з’явилися нові відповіді. Кількість: {count}.
++
++OK → Все одно опублікувати відповідь
++Скасувати → Спочатку прочитати нові відповіді (чернетка залишиться відкритою)
+```
+
+#### [`ekumanov-new-posts-notice.forum.new_posts_single`](https://weblate.rob006.net/translate/flarum2/ekumanov-new-posts-notice/uk/?q=context%3A%3D%22ekumanov-new-posts-notice.forum.new_posts_single%22)
+
+> 1 new reply was added while you were writing.
+>
+> OK → Post your reply anyway
+> Cancel → Read it first (your draft stays open)
+
+```diff
++Поки ви писали, з’явилася 1 нова відповідь.
++
++OK → Все одно опублікувати відповідь
++Скасувати → Спочатку прочитати нову відповідь (чернетка залишиться відкритою)
+```
+
+
+### `el-choco-admin-console` (missing)
+
+#### [`el-choco-admin-console.admin.save`](https://weblate.rob006.net/translate/flarum2/el-choco-admin-console/uk/?q=context%3A%3D%22el-choco-admin-console.admin.save%22)
+
+> Save
+
+```diff
++Зберегти
+```
+
+#### [`el-choco-admin-console.admin.status_succeeded`](https://weblate.rob006.net/translate/flarum2/el-choco-admin-console/uk/?q=context%3A%3D%22el-choco-admin-console.admin.status_succeeded%22)
+
+> Completed
+
+```diff
++Завершено
+```
+
+
+### `ernestdefoe-aurora` (missing)
+
+#### [`ernestdefoe-aurora.admin.settings.accent_color`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.accent_color%22)
+
+> Accent color
+
+```diff
++Колір акценту
+```
+
+#### [`ernestdefoe-aurora.admin.settings.animate_background`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.animate_background%22)
+
+> Animate aurora background
+
+```diff
++Анімувати тло з полярним сяйвом
+```
+
+#### [`ernestdefoe-aurora.admin.settings.glassmorphism`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.glassmorphism%22)
+
+> Enable glassmorphism (frosted panels)
+
+```diff
++Увімкнути ефект матового скла для панелей
+```
+
+#### [`ernestdefoe-aurora.admin.settings.glow`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.glow%22)
+
+> Enable glow effects
+
+```diff
++Увімкнути ефекти світіння
+```
+
+#### [`ernestdefoe-aurora.admin.settings.gradient_end`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.gradient_end%22)
+
+> Primary gradient — end color
+
+```diff
++Кінцевий колір основного градієнта
+```
+
+#### [`ernestdefoe-aurora.admin.settings.gradient_start`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.admin.settings.gradient_start%22)
+
+> Primary gradient — start color
+
+```diff
++Початковий колір основного градієнта
+```
+
+#### [`ernestdefoe-aurora.forum.palette.apply`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.apply%22)
+
+> Apply {palette} palette
+
+```diff
++Застосувати палітру «{palette}»
+```
+
+#### [`ernestdefoe-aurora.forum.palette.aurora`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.aurora%22)
+
+> Aurora
+
+```diff
++Полярне сяйво
+```
+
+#### [`ernestdefoe-aurora.forum.palette.button_label`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.button_label%22)
+
+> Choose color palette
+
+```diff
++Вибрати палітру кольорів
+```
+
+#### [`ernestdefoe-aurora.forum.palette.ember`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.ember%22)
+
+> Ember
+
+```diff
++Жар
+```
+
+#### [`ernestdefoe-aurora.forum.palette.forest`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.forest%22)
+
+> Forest
+
+```diff
++Ліс
+```
+
+#### [`ernestdefoe-aurora.forum.palette.nebula`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.nebula%22)
+
+> Nebula
+
+```diff
++Туманність
+```
+
+#### [`ernestdefoe-aurora.forum.palette.ocean`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.ocean%22)
+
+> Ocean
+
+```diff
++Океан
+```
+
+#### [`ernestdefoe-aurora.forum.palette.palette`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.palette%22)
+
+> Palette
+
+```diff
++Палітра
+```
+
+#### [`ernestdefoe-aurora.forum.palette.sunset`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.sunset%22)
+
+> Sunset
+
+```diff
++Захід сонця
+```
+
+#### [`ernestdefoe-aurora.forum.palette.title`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.palette.title%22)
+
+> Color palette
+
+```diff
++Палітра кольорів
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.discussions`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.discussions%22)
+
+> Discussions
+
+```diff
++Обговорення
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.members`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.members%22)
+
+> Members
+
+```diff
++Учасники
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.online`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.online%22)
+
+> Online now
+
+```diff
++Зараз онлайн
+```
+
+#### [`ernestdefoe-aurora.forum.widgets.posts`](https://weblate.rob006.net/translate/flarum2/ernestdefoe-aurora/uk/?q=context%3A%3D%22ernestdefoe-aurora.forum.widgets.posts%22)
+
+> Posts
+
+```diff
++Дописи
+```
+
+
+### `ffans-geetest` (missing)
+
+#### [`ffans-geetest.admin.settings.context_event_forgot_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/uk/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_forgot_label%22)
+
+> =&gt; core.forum.forgot\_password.title
+
+```diff
++=> core.forum.forgot_password.title
+```
+
+#### [`ffans-geetest.admin.settings.context_event_login_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/uk/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_login_label%22)
+
+> =&gt; core.ref.log\_in
+
+```diff
++=> core.ref.log_in
+```
+
+#### [`ffans-geetest.admin.settings.context_event_signup_label`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/uk/?q=context%3A%3D%22ffans-geetest.admin.settings.context_event_signup_label%22)
+
+> =&gt; core.ref.sign\_up
+
+```diff
++=> core.ref.sign_up
+```
+
+#### [`ffans-geetest.admin.test.reload_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/uk/?q=context%3A%3D%22ffans-geetest.admin.test.reload_button%22)
+
+> Reload
+
+```diff
++Перезавантажити
+```
+
+#### [`ffans-geetest.admin.test.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-geetest/uk/?q=context%3A%3D%22ffans-geetest.admin.test.submit_button%22)
+
+> Submit
+
+```diff
++Надіслати
+```
+
+
+### `ffans-link-guard` (missing)
+
+#### [`ffans-link-guard.admin.settings.trusted_domains_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_help%22)
+
+> Enter one domain per line. Same-origin links always bypass the warning. &lt;code&gt;example.com&lt;/code&gt; matches only that domain. &lt;code&gt;\*.example.com&lt;/code&gt; matches its subdomains, but not &lt;code&gt;example.com&lt;/code&gt; itself.
+
+```diff
++Введіть по одному домену в рядку. Для посилань із того самого джерела попередження не з’являється. <code>example.com</code> охоплює лише цей домен. <code>*.example.com</code> охоплює його піддомени, за винятком самого <code>example.com</code>.
+```
+
+#### [`ffans-link-guard.admin.settings.trusted_domains_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.trusted_domains_label%22)
+
+> Trusted domains
+
+```diff
++Довірені домени
+```
+
+#### [`ffans-link-guard.admin.settings.use_modal_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_help%22)
+
+> Shows the warning on the current page via modal.
+
+```diff
++Відкриває попередження в діалоговому вікні на поточній сторінці.
+```
+
+#### [`ffans-link-guard.admin.settings.use_modal_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.use_modal_label%22)
+
+> Show warnings in a modal
+
+```diff
++Показувати попередження в діалоговому вікні
+```
+
+#### [`ffans-link-guard.admin.settings.warning_message_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_help%22)
+
+> Leave blank to use the default warning. Plain text only; line breaks are supported.
+
+```diff
++Залиште поле порожнім, щоб використати попередження за замовчуванням. Підтримується лише простий текст із переносами рядків.
+```
+
+#### [`ffans-link-guard.admin.settings.warning_message_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_message_label%22)
+
+> Warning message
+
+```diff
++Текст попередження
+```
+
+#### [`ffans-link-guard.admin.settings.warning_title_help`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_help%22)
+
+> Leave blank to use the default title. Plain text only.
+
+```diff
++Залиште поле порожнім, щоб використати заголовок за замовчуванням. Підтримується лише простий текст.
+```
+
+#### [`ffans-link-guard.admin.settings.warning_title_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.admin.settings.warning_title_label%22)
+
+> Warning title
+
+```diff
++Заголовок попередження
+```
+
+#### [`ffans-link-guard.forum.cancel_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.cancel_button%22)
+
+> Cancel
+
+```diff
++Скасувати
+```
+
+#### [`ffans-link-guard.forum.close_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.close_button%22)
+
+> Close this tab
+
+```diff
++Закрити цю вкладку
+```
+
+#### [`ffans-link-guard.forum.close_fallback`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.close_fallback%22)
+
+> If this tab did not close, close it manually or &lt;a&gt;return to the community&lt;/a&gt;.
+
+```diff
++Якщо вкладка залишилася відкритою, закрийте її вручну або <a>поверніться до спільноти</a>.
+```
+
+#### [`ffans-link-guard.forum.continue_button`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.continue_button%22)
+
+> Continue
+
+```diff
++Продовжити
+```
+
+#### [`ffans-link-guard.forum.destination_label`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.destination_label%22)
+
+> Destination website
+
+```diff
++Цільовий сайт
+```
+
+#### [`ffans-link-guard.forum.invalid_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.invalid_message%22)
+
+> This address could not be recognized. Please return to the community and open the link again.
+
+```diff
++Не вдалося розпізнати адресу. Поверніться до спільноти й відкрийте посилання ще раз.
+```
+
+#### [`ffans-link-guard.forum.invalid_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.invalid_title%22)
+
+> Invalid external link
+
+```diff
++Недійсне зовнішнє посилання
+```
+
+#### [`ffans-link-guard.forum.page_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.forum.page_title%22)
+
+> Leaving the forum
+
+```diff
++Перехід із форуму
+```
+
+#### [`ffans-link-guard.lib.default_forum_name`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.lib.default_forum_name%22)
+
+> this site
+
+```diff
++цей сайт
+```
+
+#### [`ffans-link-guard.lib.default_warning_message`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_message%22)
+
+> Please keep your account and personal information safe.
+
+```diff
++Подбайте про безпеку облікового запису й особистих даних.
+```
+
+#### [`ffans-link-guard.lib.default_warning_title`](https://weblate.rob006.net/translate/flarum2/ffans-link-guard/uk/?q=context%3A%3D%22ffans-link-guard.lib.default_warning_title%22)
+
+> You are about to leave {forumName}
+
+```diff
++Ви переходите із сайту «{forumName}»
+```
+
+
+### `ffans-threadmarks` (missing)
+
+#### [`ffans-threadmarks.admin.create_type_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.create_type_modal.submit_button%22)
+
+> Create
+
+```diff
++Створити
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.admin.edit_type_modal.submit_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.edit_type_modal.submit_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.admin.types.actions_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.types.actions_heading%22)
+
+> Actions
+
+```diff
++Дії
+```
+
+#### [`ffans-threadmarks.admin.types.enabled_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.types.enabled_heading%22)
+
+> Enabled
+
+```diff
++Увімкнено
+```
+
+#### [`ffans-threadmarks.admin.types.order_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.types.order_heading%22)
+
+> Order
+
+```diff
++Порядок
+```
+
+#### [`ffans-threadmarks.admin.types.reorder_tooltip`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.types.reorder_tooltip%22)
+
+> Drag to reorder
+
+```diff
++Перетягніть, щоб змінити порядок
+```
+
+#### [`ffans-threadmarks.admin.types.type_heading`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.admin.types.type_heading%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.forum.directory.all_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.directory.all_filter%22)
+
+> All
+
+```diff
++Усі
+```
+
+#### [`ffans-threadmarks.forum.directory.discussion_filter`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.directory.discussion_filter%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.add_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.add_button%22)
+
+> Add
+
+```diff
++Додати
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.delete_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.delete_button%22)
+
+> =&gt; core.ref.delete
+
+```diff
++=> core.ref.delete
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.discussion_tab`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.discussion_tab%22)
+
+> =&gt; ffans-threadmarks.ref.discussion
+
+```diff
++=> ffans-threadmarks.ref.discussion
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.loading_text`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.loading_text%22)
+
+> =&gt; core.ref.loading
+
+```diff
++=> core.ref.loading
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.note_placeholder`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.note_placeholder%22)
+
+> Optional
+
+```diff
++Необов’язково
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.save_button`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.save_button%22)
+
+> =&gt; ffans-threadmarks.ref.save
+
+```diff
++=> ffans-threadmarks.ref.save
+```
+
+#### [`ffans-threadmarks.forum.manage_modal.type_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.forum.manage_modal.type_label%22)
+
+> =&gt; ffans-threadmarks.ref.type
+
+```diff
++=> ffans-threadmarks.ref.type
+```
+
+#### [`ffans-threadmarks.lib.type_form.color_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.color_label%22)
+
+> =&gt; core.ref.color
+
+```diff
++=> core.ref.color
+```
+
+#### [`ffans-threadmarks.lib.type_form.icon_label`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.lib.type_form.icon_label%22)
+
+> =&gt; core.ref.icon
+
+```diff
++=> core.ref.icon
+```
+
+#### [`ffans-threadmarks.ref.discussion`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.ref.discussion%22)
+
+> Discussion
+
+```diff
++Обговорення
+```
+
+#### [`ffans-threadmarks.ref.save`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.ref.save%22)
+
+> Save
+
+```diff
++Зберегти
+```
+
+#### [`ffans-threadmarks.ref.type`](https://weblate.rob006.net/translate/flarum2/ffans-threadmarks/uk/?q=context%3A%3D%22ffans-threadmarks.ref.type%22)
+
+> Type
+
+```diff
++Тип
 ```
 
 
@@ -11196,6 +13336,1457 @@ These strings are translated only in `uk`, so there is nothing to inherit from F
 
 ```diff
 +{count, plural, one {Дописів: {count}} other {Дописів: {count}}}
+```
+
+
+### `prm-forum-activity` (missing)
+
+#### [`prm-forum-activity.admin.permissions.feature_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.admin.permissions.feature_label%22)
+
+> Feature discussions
+
+```diff
++Вибирати рекомендовані обговорення
+```
+
+#### [`prm-forum-activity.admin.settings.default_tab_featured`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_featured%22)
+
+> Featured
+
+```diff
++Рекомендовані
+```
+
+#### [`prm-forum-activity.admin.settings.default_tab_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_label%22)
+
+> Default activity tab
+
+```diff
++Типова вкладка активності
+```
+
+#### [`prm-forum-activity.admin.settings.default_tab_latest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_latest%22)
+
+> New posts
+
+```diff
++Нові дописи
+```
+
+#### [`prm-forum-activity.admin.settings.default_tab_newest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.admin.settings.default_tab_newest%22)
+
+> New topics
+
+```diff
++Нові обговорення
+```
+
+#### [`prm-forum-activity.forum.badge.featured_tooltip`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.badge.featured_tooltip%22)
+
+> Featured discussion
+
+```diff
++Рекомендоване обговорення
+```
+
+#### [`prm-forum-activity.forum.columns.forum`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.columns.forum%22)
+
+> Forum
+
+```diff
++Форум
+```
+
+#### [`prm-forum-activity.forum.columns.last_poster`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.columns.last_poster%22)
+
+> Last poster
+
+```diff
++Автор останнього допису
+```
+
+#### [`prm-forum-activity.forum.columns.posts`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.columns.posts%22)
+
+> Replies
+
+```diff
++Відповіді
+```
+
+#### [`prm-forum-activity.forum.columns.topic`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.columns.topic%22)
+
+> Topic
+
+```diff
++Обговорення
+```
+
+#### [`prm-forum-activity.forum.discussion_controls.feature`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.discussion_controls.feature%22)
+
+> Feature
+
+```diff
++Рекомендувати
+```
+
+#### [`prm-forum-activity.forum.discussion_controls.unfeature`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.discussion_controls.unfeature%22)
+
+> Unfeature
+
+```diff
++Прибрати з рекомендованих
+```
+
+#### [`prm-forum-activity.forum.empty`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.empty%22)
+
+> No discussions to show.
+
+```diff
++Немає обговорень для показу.
+```
+
+#### [`prm-forum-activity.forum.load_more`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.load_more%22)
+
+> Load more
+
+```diff
++Завантажити ще
+```
+
+#### [`prm-forum-activity.forum.normal_section`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.normal_section%22)
+
+> Normal topics
+
+```diff
++Звичайні обговорення
+```
+
+#### [`prm-forum-activity.forum.sticky_label`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.sticky_label%22)
+
+> Sticky topic
+
+```diff
++Закріплене обговорення
+```
+
+#### [`prm-forum-activity.forum.sticky_section`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.sticky_section%22)
+
+> Sticky topics
+
+```diff
++Закріплені обговорення
+```
+
+#### [`prm-forum-activity.forum.tabs.featured`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.tabs.featured%22)
+
+> Featured
+
+```diff
++Рекомендовані
+```
+
+#### [`prm-forum-activity.forum.tabs.latest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.tabs.latest%22)
+
+> New posts
+
+```diff
++Нові дописи
+```
+
+#### [`prm-forum-activity.forum.tabs.newest`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.tabs.newest%22)
+
+> New topics
+
+```diff
++Нові обговорення
+```
+
+#### [`prm-forum-activity.forum.title`](https://weblate.rob006.net/translate/flarum2/prm-forum-activity/uk/?q=context%3A%3D%22prm-forum-activity.forum.title%22)
+
+> Forum activity
+
+```diff
++Активність форуму
+```
+
+
+### `prm-hero-image` (missing)
+
+#### [`prm-hero-image.admin.help`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.help%22)
+
+> Replaces the welcome banner with an image of the same size and a light dark overlay.
+
+```diff
++Замінює вітальний банер зображенням того самого розміру з легким затемненням.
+```
+
+#### [`prm-hero-image.admin.overlay_help`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.overlay_help%22)
+
+> Higher values make the image darker.
+
+```diff
++Більше значення сильніше затемнює зображення.
+```
+
+#### [`prm-hero-image.admin.overlay_label`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.overlay_label%22)
+
+> Overlay
+
+```diff
++Затемнення
+```
+
+#### [`prm-hero-image.admin.permissions.profile_hero_label`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.permissions.profile_hero_label%22)
+
+> Upload profile cover image
+
+```diff
++Завантажити зображення обкладинки профілю
+```
+
+#### [`prm-hero-image.admin.preview_empty`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.preview_empty%22)
+
+> No image yet.
+
+```diff
++Зображення ще немає.
+```
+
+#### [`prm-hero-image.admin.profile_help`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.profile_help%22)
+
+> Let groups change their own profile cover from the Permissions tab. Uploaded images are re-encoded on the server.
+
+```diff
++Дозвольте групам змінювати власну обкладинку профілю на вкладці «Дозволи». Завантажені зображення перекодовуються на сервері.
+```
+
+#### [`prm-hero-image.admin.remove_button`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.remove_button%22)
+
+> Remove image
+
+```diff
++Видалити зображення
+```
+
+#### [`prm-hero-image.admin.saved`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.saved%22)
+
+> Saved
+
+```diff
++Збережено
+```
+
+#### [`prm-hero-image.admin.title`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.title%22)
+
+> Homepage image
+
+```diff
++Зображення головної сторінки
+```
+
+#### [`prm-hero-image.admin.upload_button`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.upload_button%22)
+
+> Upload image
+
+```diff
++Завантажити зображення
+```
+
+#### [`prm-hero-image.admin.upload_help`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.upload_help%22)
+
+> PNG, JPG, GIF, or WEBP. Max 3 MB. A wide landscape image works best.
+
+```diff
++PNG, JPG, GIF або WEBP. Максимум 3 МБ. Найкраще підходить широке горизонтальне зображення.
+```
+
+#### [`prm-hero-image.admin.upload_label`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.admin.upload_label%22)
+
+> Image
+
+```diff
++Зображення
+```
+
+#### [`prm-hero-image.forum.remove`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.forum.remove%22)
+
+> Remove cover image
+
+```diff
++Видалити обкладинку
+```
+
+#### [`prm-hero-image.forum.upload`](https://weblate.rob006.net/translate/flarum2/prm-hero-image/uk/?q=context%3A%3D%22prm-hero-image.forum.upload%22)
+
+> Upload cover image
+
+```diff
++Завантажити обкладинку
+```
+
+
+### `prm-messages` (missing)
+
+#### [`prm-messages.admin.permissions.start_label`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.admin.permissions.start_label%22)
+
+> Send private messages
+
+```diff
++Надсилати приватні повідомлення
+```
+
+#### [`prm-messages.admin.settings.public_chat_help`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.admin.settings.public_chat_help%22)
+
+> When enabled, members can talk in a shared chat room. When off, the page and menu are hidden.
+
+```diff
++Якщо ввімкнено, учасники можуть спілкуватися в спільному чаті. Якщо вимкнено, сторінку й пункт меню приховано.
+```
+
+#### [`prm-messages.admin.settings.public_chat_label`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.admin.settings.public_chat_label%22)
+
+> Public chat
+
+```diff
++Публічний чат
+```
+
+#### [`prm-messages.forum.back`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.back%22)
+
+> Inbox
+
+```diff
++Вхідні
+```
+
+#### [`prm-messages.forum.chat.delete`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.delete%22)
+
+> Delete
+
+```diff
++Видалити
+```
+
+#### [`prm-messages.forum.chat.disabled`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.disabled%22)
+
+> Public chat is turned off.
+
+```diff
++Публічний чат вимкнено.
+```
+
+#### [`prm-messages.forum.chat.empty`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.empty%22)
+
+> No messages yet. Be the first to write.
+
+```diff
++Повідомлень ще немає. Напишіть перше.
+```
+
+#### [`prm-messages.forum.chat.header`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.header%22)
+
+> Chat
+
+```diff
++Чат
+```
+
+#### [`prm-messages.forum.chat.intro`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.intro%22)
+
+> A shared room where every member can talk.
+
+```diff
++Спільний чат, у якому можуть писати всі учасники.
+```
+
+#### [`prm-messages.forum.chat.login`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.login%22)
+
+> Log in to write in chat.
+
+```diff
++Увійдіть, щоб писати в чаті.
+```
+
+#### [`prm-messages.forum.chat.placeholder`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.placeholder%22)
+
+> Message everyone… (Enter to send)
+
+```diff
++Напишіть усім… (Enter — надіслати)
+```
+
+#### [`prm-messages.forum.chat.title`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.chat.title%22)
+
+> Public chat
+
+```diff
++Публічний чат
+```
+
+#### [`prm-messages.forum.compose`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.compose%22)
+
+> New message
+
+```diff
++Нове повідомлення
+```
+
+#### [`prm-messages.forum.empty`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.empty%22)
+
+> You have no private messages yet.
+
+```diff
++У вас ще немає приватних повідомлень.
+```
+
+#### [`prm-messages.forum.header`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.header%22)
+
+> Messages
+
+```diff
++Повідомлення
+```
+
+#### [`prm-messages.forum.hide`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.hide%22)
+
+> Hide conversation
+
+```diff
++Приховати розмову
+```
+
+#### [`prm-messages.forum.hide_confirm`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.hide_confirm%22)
+
+> This conversation will leave your inbox. The other person can still see it.
+
+```diff
++Розмова зникне з ваших вхідних. Співрозмовник і далі зможе її бачити.
+```
+
+#### [`prm-messages.forum.message`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.message%22)
+
+> Message
+
+```diff
++Повідомлення
+```
+
+#### [`prm-messages.forum.no_users`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.no_users%22)
+
+> No users found.
+
+```diff
++Користувачів не знайдено.
+```
+
+#### [`prm-messages.forum.notifications.notify_label`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.notifications.notify_label%22)
+
+> Someone sends me a private message
+
+```diff
++Мені надійшло приватне повідомлення
+```
+
+#### [`prm-messages.forum.notifications.received`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.notifications.received%22)
+
+> {username} sent you a message
+
+```diff
++Ви отримали повідомлення від користувача {username}
+```
+
+#### [`prm-messages.forum.search_placeholder`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.search_placeholder%22)
+
+> Type a username…
+
+```diff
++Введіть ім’я користувача…
+```
+
+#### [`prm-messages.forum.search_user`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.search_user%22)
+
+> Search users
+
+```diff
++Шукати користувачів
+```
+
+#### [`prm-messages.forum.send`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.send%22)
+
+> Send
+
+```diff
++Надіслати
+```
+
+#### [`prm-messages.forum.sending`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.sending%22)
+
+> Sending…
+
+```diff
++Надсилання…
+```
+
+#### [`prm-messages.forum.sent`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.sent%22)
+
+> Message sent.
+
+```diff
++Повідомлення надіслано.
+```
+
+#### [`prm-messages.forum.subject`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.subject%22)
+
+> Subject
+
+```diff
++Тема
+```
+
+#### [`prm-messages.forum.subject_placeholder`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.subject_placeholder%22)
+
+> e.g. About payment (optional)
+
+```diff
++Наприклад, «Щодо оплати» (необов’язково)
+```
+
+#### [`prm-messages.forum.title`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.title%22)
+
+> Private messages
+
+```diff
++Приватні повідомлення
+```
+
+#### [`prm-messages.forum.to`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.to%22)
+
+> To
+
+```diff
++Кому
+```
+
+#### [`prm-messages.forum.type_placeholder`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.type_placeholder%22)
+
+> Write a message… (Enter to send)
+
+```diff
++Напишіть повідомлення… (Enter — надіслати)
+```
+
+#### [`prm-messages.forum.unread`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.unread%22)
+
+> Unread
+
+```diff
++Непрочитані
+```
+
+#### [`prm-messages.forum.user_controls.message`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.user_controls.message%22)
+
+> Send message
+
+```diff
++Надіслати повідомлення
+```
+
+#### [`prm-messages.forum.you`](https://weblate.rob006.net/translate/flarum2/prm-messages/uk/?q=context%3A%3D%22prm-messages.forum.you%22)
+
+> You
+
+```diff
++Ви
+```
+
+
+### `prm-moderation` (missing)
+
+#### [`prm-moderation.forum.handle.ban_30`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.handle.ban_30%22)
+
+> 30 days
+
+```diff
++30 днів
+```
+
+#### [`prm-moderation.forum.handle.ban_7`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.handle.ban_7%22)
+
+> 7 days
+
+```diff
++7 днів
+```
+
+#### [`prm-moderation.forum.handle.close`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.handle.close%22)
+
+> Close
+
+```diff
++Закрити
+```
+
+#### [`prm-moderation.forum.header`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.header%22)
+
+> Moderation
+
+```diff
++Модерація
+```
+
+#### [`prm-moderation.forum.notifications.ticket_replied_staff`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.notifications.ticket_replied_staff%22)
+
+> {username} replied to a support ticket
+
+```diff
++Користувач {username} відповів на звернення
+```
+
+#### [`prm-moderation.forum.panel.actions`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.actions%22)
+
+> Actions
+
+```diff
++Дії
+```
+
+#### [`prm-moderation.forum.panel.chart_replies`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.chart_replies%22)
+
+> Replies
+
+```diff
++Відповіді
+```
+
+#### [`prm-moderation.forum.panel.date`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.date%22)
+
+> Date
+
+```diff
++Дата
+```
+
+#### [`prm-moderation.forum.panel.reason`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.reason%22)
+
+> Reason
+
+```diff
++Причина
+```
+
+#### [`prm-moderation.forum.panel.rejected`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.rejected%22)
+
+> Rejected
+
+```diff
++Відхилено
+```
+
+#### [`prm-moderation.forum.panel.resolved`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.resolved%22)
+
+> Resolved
+
+```diff
++Вирішено
+```
+
+#### [`prm-moderation.forum.panel.target`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.target%22)
+
+> User
+
+```diff
++Користувач
+```
+
+#### [`prm-moderation.forum.panel.type`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.type%22)
+
+> Type
+
+```diff
++Тип
+```
+
+#### [`prm-moderation.forum.panel.type_discussion`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.type_discussion%22)
+
+> Discussion
+
+```diff
++Обговорення
+```
+
+#### [`prm-moderation.forum.panel.type_user`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.panel.type_user%22)
+
+> User
+
+```diff
++Користувач
+```
+
+#### [`prm-moderation.forum.report.details`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.report.details%22)
+
+> Details
+
+```diff
++Подробиці
+```
+
+#### [`prm-moderation.forum.report.reason`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.report.reason%22)
+
+> Reason
+
+```diff
++Причина
+```
+
+#### [`prm-moderation.forum.report.reason_other`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.report.reason_other%22)
+
+> Other
+
+```diff
++Інше
+```
+
+#### [`prm-moderation.forum.report.reason_spam`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.report.reason_spam%22)
+
+> Spam
+
+```diff
++Спам
+```
+
+#### [`prm-moderation.forum.tickets.category`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.category%22)
+
+> Category
+
+```diff
++Категорія
+```
+
+#### [`prm-moderation.forum.tickets.category_other`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.category_other%22)
+
+> Other
+
+```diff
++Інше
+```
+
+#### [`prm-moderation.forum.tickets.message`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.message%22)
+
+> Message
+
+```diff
++Повідомлення
+```
+
+#### [`prm-moderation.forum.tickets.priority`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.priority%22)
+
+> Priority
+
+```diff
++Пріоритет
+```
+
+#### [`prm-moderation.forum.tickets.reopen`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.reopen%22)
+
+> Reopen
+
+```diff
++Відкрити знову
+```
+
+#### [`prm-moderation.forum.tickets.send_reply`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.send_reply%22)
+
+> Send
+
+```diff
++Надіслати
+```
+
+#### [`prm-moderation.forum.tickets.status`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.status%22)
+
+> Status
+
+```diff
++Статус
+```
+
+#### [`prm-moderation.forum.tickets.status_closed`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.status_closed%22)
+
+> Closed
+
+```diff
++Закрито
+```
+
+#### [`prm-moderation.forum.tickets.subject`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.subject%22)
+
+> Subject
+
+```diff
++Тема
+```
+
+#### [`prm-moderation.forum.tickets.user`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.tickets.user%22)
+
+> User
+
+```diff
++Користувач
+```
+
+#### [`prm-moderation.forum.warn.reason`](https://weblate.rob006.net/translate/flarum2/prm-moderation/uk/?q=context%3A%3D%22prm-moderation.forum.warn.reason%22)
+
+> Reason
+
+```diff
++Причина
+```
+
+
+### `prm-rank-banner` (missing)
+
+#### [`prm-rank-banner.admin.color_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.color_label%22)
+
+> Color
+
+```diff
++Колір
+```
+
+#### [`prm-rank-banner.admin.guest_note`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.guest_note%22)
+
+> The Guest group is never shown as a banner.
+
+```diff
++Банер групи гостей не відображається.
+```
+
+#### [`prm-rank-banner.admin.help`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.help%22)
+
+> Manage each group’s rank banner here. The default style uses icon + color + name, or upload a custom horizontal image like XenForo.
+
+```diff
++Налаштуйте банери звань для кожної групи. Стандартний стиль поєднує піктограму, колір і назву. Також можна завантажити власне горизонтальне зображення, як у XenForo.
+```
+
+#### [`prm-rank-banner.admin.icon_help`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.icon_help%22)
+
+> Font Awesome class, e.g. fas fa-star
+
+```diff
++Клас Font Awesome, наприклад fas fa-star
+```
+
+#### [`prm-rank-banner.admin.icon_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.icon_label%22)
+
+> Icon
+
+```diff
++Значок
+```
+
+#### [`prm-rank-banner.admin.image_help`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.image_help%22)
+
+> PNG, JPG, GIF or WEBP. Max 1 MB. Transparent PNG recommended.
+
+```diff
++PNG, JPG, GIF або WEBP. Не більше 1 МБ. Рекомендовано PNG із прозорим тлом.
+```
+
+#### [`prm-rank-banner.admin.image_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.image_label%22)
+
+> Horizontal banner image
+
+```diff
++Горизонтальне зображення банера
+```
+
+#### [`prm-rank-banner.admin.label_help`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.label_help%22)
+
+> Leave empty to use the rank name.
+
+```diff
++Залиште поле порожнім, щоб використати назву звання.
+```
+
+#### [`prm-rank-banner.admin.label_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.label_label%22)
+
+> Banner text
+
+```diff
++Текст банера
+```
+
+#### [`prm-rank-banner.admin.name_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.name_label%22)
+
+> Rank name
+
+```diff
++Назва звання
+```
+
+#### [`prm-rank-banner.admin.preview_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.preview_label%22)
+
+> Preview
+
+```diff
++Попередній перегляд
+```
+
+#### [`prm-rank-banner.admin.remove_image_button`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.remove_image_button%22)
+
+> Remove image
+
+```diff
++Вилучити зображення
+```
+
+#### [`prm-rank-banner.admin.save_button`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.save_button%22)
+
+> Save
+
+```diff
++Зберегти
+```
+
+#### [`prm-rank-banner.admin.saved`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.saved%22)
+
+> Saved
+
+```diff
++Збережено
+```
+
+#### [`prm-rank-banner.admin.show_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.show_label%22)
+
+> Show on forum
+
+```diff
++Показувати на форумі
+```
+
+#### [`prm-rank-banner.admin.style_default`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.style_default%22)
+
+> Default (icon + text)
+
+```diff
++Стандартний (піктограма й текст)
+```
+
+#### [`prm-rank-banner.admin.style_image`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.style_image%22)
+
+> Custom image
+
+```diff
++Власне зображення
+```
+
+#### [`prm-rank-banner.admin.style_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.style_label%22)
+
+> Banner style
+
+```diff
++Стиль банера
+```
+
+#### [`prm-rank-banner.admin.title`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.title%22)
+
+> Ranks
+
+```diff
++Звання
+```
+
+#### [`prm-rank-banner.admin.upload_button`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.admin.upload_button%22)
+
+> Upload image
+
+```diff
++Завантажити зображення
+```
+
+#### [`prm-rank-banner.forum.rank_banner_label`](https://weblate.rob006.net/translate/flarum2/prm-rank-banner/uk/?q=context%3A%3D%22prm-rank-banner.forum.rank_banner_label%22)
+
+> {name} rank
+
+```diff
++Звання «{name}»
+```
+
+
+### `prm-security` (missing)
+
+#### [`prm-security.admin.settings.on_login_label`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.on_login_label%22)
+
+> Require on login
+
+```diff
++Вимагати під час входу
+```
+
+#### [`prm-security.admin.settings.on_register_label`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.on_register_label%22)
+
+> Require on registration
+
+```diff
++Вимагати під час реєстрації
+```
+
+#### [`prm-security.admin.settings.provider_hcaptcha`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_hcaptcha%22)
+
+> hCaptcha
+
+```diff
++hCaptcha
+```
+
+#### [`prm-security.admin.settings.provider_help`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_help%22)
+
+> Choose which challenge visitors must complete on login and registration. Leave Off until you paste keys.
+
+```diff
++Виберіть, яку перевірку мають пройти відвідувачі під час входу й реєстрації. Залиште перевірку вимкненою, доки не введете ключі.
+```
+
+#### [`prm-security.admin.settings.provider_label`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_label%22)
+
+> Captcha provider
+
+```diff
++Провайдер CAPTCHA
+```
+
+#### [`prm-security.admin.settings.provider_none`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_none%22)
+
+> Off
+
+```diff
++Вимкнено
+```
+
+#### [`prm-security.admin.settings.provider_recaptcha`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_recaptcha%22)
+
+> Google reCAPTCHA v2
+
+```diff
++Google reCAPTCHA v2
+```
+
+#### [`prm-security.admin.settings.provider_turnstile`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.provider_turnstile%22)
+
+> Cloudflare Turnstile
+
+```diff
++Cloudflare Turnstile
+```
+
+#### [`prm-security.admin.settings.secret_key_help`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.secret_key_help%22)
+
+> Private key. Never share this. Get keys from Google reCAPTCHA, hCaptcha, or Cloudflare Turnstile.
+
+```diff
++Закритий ключ. Зберігайте його в таємниці. Отримайте ключі від Google reCAPTCHA, hCaptcha або Cloudflare Turnstile.
+```
+
+#### [`prm-security.admin.settings.secret_key_label`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.secret_key_label%22)
+
+> Secret key
+
+```diff
++Секретний ключ
+```
+
+#### [`prm-security.admin.settings.site_key_help`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.site_key_help%22)
+
+> Public key from the provider dashboard. Safe to show in the browser.
+
+```diff
++Відкритий ключ із панелі провайдера. Його можна показувати в браузері.
+```
+
+#### [`prm-security.admin.settings.site_key_label`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.admin.settings.site_key_label%22)
+
+> Site key
+
+```diff
++Ключ сайту
+```
+
+#### [`prm-security.forum.invalid`](https://weblate.rob006.net/translate/flarum2/prm-security/uk/?q=context%3A%3D%22prm-security.forum.invalid%22)
+
+> Please complete the captcha and try again.
+
+```diff
++Пройдіть CAPTCHA й спробуйте ще раз.
+```
+
+
+### `prm-sleek-dark` (missing)
+
+#### [`prm-sleek-dark.forum.messages`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.messages%22)
+
+> Messages
+
+```diff
++Повідомлення
+```
+
+#### [`prm-sleek-dark.forum.nav_members`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.nav_members%22)
+
+> Members
+
+```diff
++Учасники
+```
+
+#### [`prm-sleek-dark.forum.none`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.none%22)
+
+> None
+
+```diff
++Немає
+```
+
+#### [`prm-sleek-dark.forum.profile_last_seen`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.profile_last_seen%22)
+
+> Last seen
+
+```diff
++Остання активність
+```
+
+#### [`prm-sleek-dark.forum.profile_messages`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.profile_messages%22)
+
+> Messages
+
+```diff
++Повідомлення
+```
+
+#### [`prm-sleek-dark.forum.profile_online`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.profile_online%22)
+
+> Online
+
+```diff
++Онлайн
+```
+
+#### [`prm-sleek-dark.forum.replies`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.replies%22)
+
+> Replies
+
+```diff
++Відповіді
+```
+
+#### [`prm-sleek-dark.forum.staff_moderator`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.staff_moderator%22)
+
+> Moderator
+
+```diff
++Модератор
+```
+
+#### [`prm-sleek-dark.forum.stat_members`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.stat_members%22)
+
+> Members
+
+```diff
++Учасники
+```
+
+#### [`prm-sleek-dark.forum.stat_messages`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.stat_messages%22)
+
+> Messages
+
+```diff
++Повідомлення
+```
+
+#### [`prm-sleek-dark.forum.thread_start_date`](https://weblate.rob006.net/translate/flarum2/prm-sleek-dark/uk/?q=context%3A%3D%22prm-sleek-dark.forum.thread_start_date%22)
+
+> Start date
+
+```diff
++Дата початку
+```
+
+
+### `prm-trade-feedback` (missing)
+
+#### [`prm-trade-feedback.forum.actions.delete`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.actions.delete%22)
+
+> Delete
+
+```diff
++Видалити
+```
+
+#### [`prm-trade-feedback.forum.actions.edit`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.actions.edit%22)
+
+> Edit
+
+```diff
++Редагувати
+```
+
+#### [`prm-trade-feedback.forum.filters.all`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.filters.all%22)
+
+> All
+
+```diff
++Усі
+```
+
+#### [`prm-trade-feedback.forum.form.cancel`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.form.cancel%22)
+
+> Cancel
+
+```diff
++Скасувати
+```
+
+#### [`prm-trade-feedback.forum.form.submit`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.form.submit%22)
+
+> Submit
+
+```diff
++Надіслати
+```
+
+#### [`prm-trade-feedback.forum.table.date`](https://weblate.rob006.net/translate/flarum2/prm-trade-feedback/uk/?q=context%3A%3D%22prm-trade-feedback.forum.table.date%22)
+
+> Date
+
+```diff
++Дата
+```
+
+
+### `tapao-auto-ai-moderation` (missing)
+
+#### [`tapao-moderationai.admin.log.approve`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.approve%22)
+
+> Approve
+
+```diff
++Схвалити
+```
+
+#### [`tapao-moderationai.admin.log.decision_approved`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.decision_approved%22)
+
+> ✓ Approved
+
+```diff
++✓ Схвалено
+```
+
+#### [`tapao-moderationai.admin.log.decision_rejected`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.decision_rejected%22)
+
+> ✗ Rejected (restored)
+
+```diff
++✗ Рішення відхилено (вміст відновлено)
+```
+
+#### [`tapao-moderationai.admin.log.escalate`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.escalate%22)
+
+> Escalate
+
+```diff
++Передати на розгляд
+```
+
+#### [`tapao-moderationai.admin.log.pending`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.pending%22)
+
+> Pending Review
+
+```diff
++Очікує на перевірку
+```
+
+#### [`tapao-moderationai.admin.log.reject`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.reject%22)
+
+> Reject (Restore Content)
+
+```diff
++Відхилити рішення (відновити вміст)
+```
+
+#### [`tapao-moderationai.admin.log.title`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.log.title%22)
+
+> Moderation Log
+
+```diff
++Журнал модерації
+```
+
+#### [`tapao-moderationai.admin.settings.api_key_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.api_key_label%22)
+
+> OpenAI API Key
+
+```diff
++Ключ API OpenAI
+```
+
+#### [`tapao-moderationai.admin.settings.api_key_placeholder`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.api_key_placeholder%22)
+
+> sk-...
+
+```diff
++sk-...
+```
+
+#### [`tapao-moderationai.admin.settings.connection_fail`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.connection_fail%22)
+
+> ✗ API connection failed — check API key
+
+```diff
++✗ Не вдалося підключитися до API. Перевірте ключ API
+```
+
+#### [`tapao-moderationai.admin.settings.connection_ok`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.connection_ok%22)
+
+> ✓ API connection successful
+
+```diff
++✓ Підключення до API працює
+```
+
+#### [`tapao-moderationai.admin.settings.enabled_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.enabled_label%22)
+
+> Enable Auto-Moderation
+
+```diff
++Увімкнути автоматичну модерацію
+```
+
+#### [`tapao-moderationai.admin.settings.exempt_groups_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.exempt_groups_label%22)
+
+> Exempt User Groups
+
+```diff
++Групи користувачів, звільнені від перевірки
+```
+
+#### [`tapao-moderationai.admin.settings.mode_async`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.mode_async%22)
+
+> Asynchronous (review after save)
+
+```diff
++Асинхронний (перевіряти після збереження)
+```
+
+#### [`tapao-moderationai.admin.settings.mode_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.mode_label%22)
+
+> Moderation Mode
+
+```diff
++Режим модерації
+```
+
+#### [`tapao-moderationai.admin.settings.mode_sync`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.mode_sync%22)
+
+> Synchronous (block before save)
+
+```diff
++Синхронний (блокувати до збереження)
+```
+
+#### [`tapao-moderationai.admin.settings.model_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.model_label%22)
+
+> Moderation Model
+
+```diff
++Модель модерації
+```
+
+#### [`tapao-moderationai.admin.settings.scan_images_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.scan_images_label%22)
+
+> Moderate Images (omni-moderation-latest required)
+
+```diff
++Модерувати зображення (потрібна модель omni-moderation-latest)
+```
+
+#### [`tapao-moderationai.admin.settings.scan_private_messages_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.scan_private_messages_label%22)
+
+> Moderate Private Messages (fof/byobu)
+
+```diff
++Модерувати приватні повідомлення (fof/byobu)
+```
+
+#### [`tapao-moderationai.admin.settings.test_connection`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.test_connection%22)
+
+> Test API Connection
+
+```diff
++Перевірити підключення до API
+```
+
+#### [`tapao-moderationai.admin.settings.thresholds_heading`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.thresholds_heading%22)
+
+> Per-Category Thresholds &amp; Actions
+
+```diff
++Пороги й дії за категоріями
+```
+
+#### [`tapao-moderationai.admin.settings.title`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.title%22)
+
+> ModerationAI Settings
+
+```diff
++Налаштування ModerationAI
+```
+
+#### [`tapao-moderationai.admin.settings.trust_skip_threshold_help`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.trust_skip_threshold_help%22)
+
+> Users scoring above this are not moderated (trust system).
+
+```diff
++Система довіри звільняє від перевірки користувачів, чия оцінка перевищує поріг.
+```
+
+#### [`tapao-moderationai.admin.settings.trust_skip_threshold_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.trust_skip_threshold_label%22)
+
+> Trust Score — Skip threshold (0–100)
+
+```diff
++Оцінка довіри — поріг пропуску перевірки (0–100)
+```
+
+#### [`tapao-moderationai.admin.settings.webhook_url_help`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.webhook_url_help%22)
+
+> POSTed JSON on every flagged item.
+
+```diff
++Для кожного позначеного матеріалу надсилається запит POST із даними JSON.
+```
+
+#### [`tapao-moderationai.admin.settings.webhook_url_label`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.admin.settings.webhook_url_label%22)
+
+> Webhook URL (optional)
+
+```diff
++URL вебхука (необов’язково)
+```
+
+#### [`tapao-moderationai.forum.post_under_review`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.forum.post_under_review%22)
+
+> Your post is being reviewed by our moderation system and will appear shortly.
+
+```diff
++Система модерації перевіряє ваш допис. Він незабаром з’явиться.
+```
+
+#### [`tapao-moderationai.forum.upload_rejected`](https://weblate.rob006.net/translate/flarum2/tapao-auto-ai-moderation/uk/?q=context%3A%3D%22tapao-moderationai.forum.upload_rejected%22)
+
+> This file was rejected by the content moderation system.
+
+```diff
++Система модерації вмісту відхилила цей файл.
 ```
 
 <!-- {% endraw %} -->
