@@ -1,36 +1,36 @@
 {
     "linkrobins-countdown-widget": {
         "forum": {
-            "not_configured": "",
+            "not_configured": "Укажіть дату завершення відліку в панелі адміністратора.",
             "unit": {
-                "days": "",
-                "hours": "",
-                "minutes": "",
-                "seconds": ""
+                "days": "д",
+                "hours": "год",
+                "minutes": "хв",
+                "seconds": "с"
             }
         },
         "admin": {
             "settings": {
-                "title_label": "",
-                "title_placeholder": "",
-                "title_help": "",
-                "description_label": "",
-                "description_placeholder": "",
-                "description_help": "",
-                "icon_label": "",
-                "icon_help": "",
-                "icon_placeholder": "",
-                "target_label": "",
-                "target_help": "",
-                "timezone_label": "",
-                "timezone_help": "",
-                "use_my_timezone": "",
-                "done_message_label": "",
-                "done_message_placeholder": "",
-                "done_message_help": "",
-                "link_url_label": "",
-                "link_url_help": "",
-                "link_url_placeholder": ""
+                "title_label": "Заголовок",
+                "title_placeholder": "До запуску залишилося…",
+                "title_help": "Необов’язково. Відображається над відліком. Залиште поле порожнім, щоб приховати заголовок.",
+                "description_label": "Опис",
+                "description_placeholder": "Двері відчиняються о 9:00",
+                "description_help": "Необов’язково. Короткий текст під заголовком. Тут можна вказати період, місце проведення або інші подробиці.",
+                "icon_label": "Клас значка",
+                "icon_help": "Клас піктограми Font Awesome поруч із заголовком (наприклад, fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Залиште поле порожнім, щоб приховати піктограму.",
+                "icon_placeholder": "fas fa-rocket",
+                "target_label": "Дата й час завершення відліку",
+                "target_help": "Виберіть момент завершення відліку. У полі дати й часу браузера можна вибрати рік, місяць, день, годину й хвилину. Часовий пояс для цього моменту задається нижче.",
+                "timezone_label": "Часовий пояс",
+                "timezone_help": "Назва часового поясу IANA (наприклад, UTC, America/New_York, Europe/London, Asia/Tokyo). Для всіх відвідувачів відлік завершується одночасно, незалежно від їхнього місцеперебування.",
+                "use_my_timezone": "Використати мій часовий пояс",
+                "done_message_label": "Повідомлення після завершення відліку",
+                "done_message_placeholder": "🎉 Ми вже в ефірі!",
+                "done_message_help": "Текст, який з’явиться після завершення відліку. Якщо поле порожнє, з’явиться святковий емодзі.",
+                "link_url_label": "URL посилання",
+                "link_url_help": "Необов’язково. Якщо вказано URL, натискання на відлік або повідомлення про його завершення відкриє це посилання.",
+                "link_url_placeholder": "https://example.com/launch"
             }
         }
     }
