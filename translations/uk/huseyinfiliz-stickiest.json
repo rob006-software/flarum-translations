@@ -1,46 +1,46 @@
 {
     "huseyinfiliz-stickiest": {
         "validation": {
-            "invalid_tag_ids": "",
-            "unrelated_tags": ""
+            "invalid_tag_ids": "Ідентифікатори тегів для закріплення мають бути списком унікальних додатних цілих чисел.",
+            "unrelated_tags": "Теги для закріплення мають належати цьому обговоренню."
         },
         "admin": {
             "settings": {
-                "show_tag_sticky_label": "",
-                "show_tag_sticky_help": "",
-                "show_sticky_highlight_label": "",
-                "show_sticky_highlight_help": "",
-                "stickiest_icon_label": "",
-                "stickiest_icon_help": ""
+                "show_tag_sticky_label": "Показувати закріплені в тегах обговорення в розділі «Усі обговорення»",
+                "show_tag_sticky_help": "Якщо вимкнено, закріплені в тезі обговорення видно лише під час перегляду цього тега.",
+                "show_sticky_highlight_label": "Виділяти закріплені обговорення",
+                "show_sticky_highlight_help": "Якщо ввімкнено, у списку закріплені обговорення мають кольорову ліву рамку й відтінок тла.",
+                "stickiest_icon_label": "Піктограма позначки закріплення з найвищим пріоритетом",
+                "stickiest_icon_help": "Клас піктограми Font Awesome (наприклад, fas fa-star)"
             },
             "permissions": {
-                "stickiest_label": "",
-                "tag_sticky_label": ""
+                "stickiest_label": "Закріплювати обговорення з найвищим пріоритетом",
+                "tag_sticky_label": "Закріплювати обговорення в тегах"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "stickiest_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "Закріплено",
+                "stickiest_tooltip": "Закріплено з найвищим пріоритетом",
+                "tag_sticky_tooltip": "Закріплено в тегах"
             },
             "discussion_controls": {
-                "sticky_button": ""
+                "sticky_button": "Налаштувати закріплення"
             },
             "sticky_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_help": "",
-                "stickiest_label": "",
-                "stickiest_help": "",
-                "tag_sticky_label": "",
-                "tag_sticky_help": "",
-                "select_tags": "",
-                "submit_button": ""
+                "title": "Закріплення: {title}",
+                "sticky_label": "Закріпити",
+                "sticky_help": "Закріплює обговорення вгорі розділу «Усі обговорення», поки воно непрочитане. Під час перегляду тега обговорення завжди закріплене.",
+                "stickiest_label": "Закріпити з найвищим пріоритетом",
+                "stickiest_help": "Завжди закріплює обговорення на самому початку всіх списків.",
+                "tag_sticky_label": "Закріпити в тегах",
+                "tag_sticky_help": "Закріплює обговорення лише під час перегляду вибраних тегів.",
+                "select_tags": "Вибрати теги",
+                "submit_button": "Зберегти зміни"
             },
             "post_stream": {
-                "discussion_stickiest_text": "",
-                "discussion_unstickiest_text": ""
+                "discussion_stickiest_text": "Користувач {username} закріпив обговорення з найвищим пріоритетом.",
+                "discussion_unstickiest_text": "Користувач {username} зняв закріплення обговорення з найвищим пріоритетом."
             }
         }
     },
@@ -48,11 +48,11 @@
         "lib": {
             "browser": {
                 "discussion": {
-                    "super_stickied": "",
-                    "super_unstickied": "",
-                    "tag_stickied": "",
-                    "tag_unstickied": "",
-                    "tag_sticky_tags_changed": ""
+                    "super_stickied": "Обговорення {discussion} закріплено з найвищим пріоритетом",
+                    "super_unstickied": "Знято закріплення обговорення {discussion} з найвищим пріоритетом",
+                    "tag_stickied": "Увімкнено закріплення обговорення {discussion} в тегах",
+                    "tag_unstickied": "Вимкнено закріплення обговорення {discussion} в тегах",
+                    "tag_sticky_tags_changed": "Змінено теги, у яких закріплено обговорення {discussion}"
                 }
             }
         }
