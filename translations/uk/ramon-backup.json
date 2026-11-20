@@ -3,8 +3,8 @@
         "admin": {
             "errors": {
                 "generic": "",
-                "confirm_default": "",
-                "cancel_default": ""
+                "confirm_default": "Підтвердити",
+                "cancel_default": "Скасувати"
             },
             "permissions": {
                 "manage_label": ""
@@ -30,8 +30,8 @@
                 "target_tooltip": "",
                 "encrypted": "",
                 "plain": "",
-                "download_title": "",
-                "delete_title": "",
+                "download_title": "Завантажити",
+                "delete_title": "Видалити",
                 "confirm_delete_title": "",
                 "confirm_delete": "",
                 "deleted": "",
@@ -67,7 +67,7 @@
                 "public_key": {
                     "label": "",
                     "copy_title": "",
-                    "copied": "",
+                    "copied": "Скопійовано!",
                     "help_healthy": "",
                     "help_broken": "",
                     "remove_button": ""
@@ -79,7 +79,7 @@
                     "warning_body": "",
                     "snippet_label": "",
                     "copy_button": "",
-                    "copied": "",
+                    "copied": "Скопійовано!",
                     "close": ""
                 },
                 "regenerate_modal": {
@@ -107,7 +107,7 @@
                 "extensions_load_failed": "",
                 "extensions_group_workbench": "",
                 "extensions_group_vendor": "",
-                "extensions_group_unknown": "",
+                "extensions_group_unknown": "Інше",
                 "extensions_tag_workbench": "",
                 "extensions_tag_vendor": "",
                 "extensions_tag_unknown": "",
@@ -126,17 +126,17 @@
                 "encryption_external_placeholder": "",
                 "start_button": "",
                 "start_failed": "",
-                "cancel_button": "",
+                "cancel_button": "Скасувати",
                 "cancel_failed_warn": "",
-                "close_button": "",
+                "close_button": "Закрити",
                 "completed": "",
                 "files_count": "",
                 "phase_scan": "",
                 "phase_db_dump": "",
                 "phase_bundle": "",
                 "phase_finalize": "",
-                "phase_done": "",
-                "phase_error": "",
+                "phase_done": "Готово",
+                "phase_error": "Помилка",
                 "phase_error_network": "",
                 "warnings_title": "",
                 "warnings_help": ""
@@ -180,11 +180,11 @@
                 "confirm_title": "",
                 "confirm_body": "",
                 "confirm_check": "",
-                "start_button": "",
+                "start_button": "Відновити",
                 "start_failed": "",
-                "cancel_button": "",
+                "cancel_button": "Скасувати",
                 "cancel_failed_warn": "",
-                "close_button": "",
+                "close_button": "Закрити",
                 "completed": "",
                 "done_title": "",
                 "done_body": "",
@@ -203,8 +203,8 @@
                 "phase_rewrite": "",
                 "phase_verify": "",
                 "phase_finalize": "",
-                "phase_done": "",
-                "phase_error": "",
+                "phase_done": "Готово",
+                "phase_error": "Помилка",
                 "phase_error_network": "",
                 "url_rewrite_note": ""
             }
