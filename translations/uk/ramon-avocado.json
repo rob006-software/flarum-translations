@@ -1,10 +1,10 @@
 {
     "ramon-avocado": {
         "admin": {
-            "loading": "",
+            "loading": "Завантаження…",
             "search_tags": "",
-            "saving": "",
-            "saved": "",
+            "saving": "Збереження…",
+            "saved": "Збережено",
             "save_failed": "",
             "settings": {
                 "spinner_option_avocado": "",
@@ -17,24 +17,24 @@
                 "spinner_option_custom": "",
                 "section_homepage": "",
                 "section_auth": "",
-                "section_search": "",
-                "section_bookmarks": "",
+                "section_search": "Пошук",
+                "section_bookmarks": "Закладки",
                 "section_user_card": "",
                 "section_presence": "",
                 "section_cakeday": "",
-                "section_posts": "",
+                "section_posts": "Дописи",
                 "section_logo": "",
                 "section_footer": "",
                 "section_footer_contacts": "",
-                "section_footer_links": "",
-                "section_footer_text": "",
+                "section_footer_links": "Посилання",
+                "section_footer_text": "Текст",
                 "footer_enabled_label": "",
                 "footer_enabled_help": "",
                 "footer_text_label": "",
                 "footer_text_help": "",
                 "footer_email_label": "",
                 "footer_phone_label": "",
-                "footer_address_label": "",
+                "footer_address_label": "Адреса",
                 "footer_contact_help": "",
                 "footer_social_label": "",
                 "footer_social_help": "",
@@ -47,13 +47,13 @@
                 "footer_list_label_placeholder": "",
                 "footer_list_url_placeholder": "",
                 "footer_list_add": "",
-                "footer_list_up": "",
-                "footer_list_down": "",
-                "footer_list_remove": "",
+                "footer_list_up": "Перемістити вгору",
+                "footer_list_down": "Перемістити вниз",
+                "footer_list_remove": "Видалити",
                 "footer_social_add": "",
                 "footer_social_other": "",
                 "footer_social_network": "",
-                "footer_social_url": "",
+                "footer_social_url": "Посилання",
                 "section_colored": "",
                 "section_font": "",
                 "font_family_label": "",
@@ -73,19 +73,19 @@
                 "section_online": "",
                 "section_guests": "",
                 "section_disc_hero_icon": "",
-                "group_appearance": "",
+                "group_appearance": "Зовнішній вигляд",
                 "group_home": "",
-                "group_discussions": "",
-                "group_community": "",
+                "group_discussions": "Обговорення",
+                "group_community": "Спільнота",
                 "group_access": "",
                 "group_footer": "",
                 "groups_aria": "",
                 "search_placeholder": "",
-                "search_clear": "",
+                "search_clear": "Очистити пошук",
                 "search_empty": "",
                 "disc_style_label": "",
                 "disc_style_help": "",
-                "disc_style_default": "",
+                "disc_style_default": "За замовчуванням",
                 "disc_style_editorial": "",
                 "reply_to_header_label": "",
                 "reply_to_header_help": "",
@@ -95,7 +95,7 @@
                 "composer_preview_help": "",
                 "reply_dock_label": "",
                 "reply_dock_help": "",
-                "section_home_composer": "",
+                "section_home_composer": "Нове обговорення",
                 "new_discussion_composer_label": "",
                 "new_discussion_composer_help": "",
                 "new_discussion_composer_default": "",
@@ -125,7 +125,7 @@
                 "showcase_image_style_default": "",
                 "showcase_image_style_full": "",
                 "section_home_feed": "",
-                "home_feed_sort_label": "",
+                "home_feed_sort_label": "Порядок",
                 "home_feed_sort_help": "",
                 "home_feed_sort_popular": "",
                 "home_feed_sort_latest": "",
@@ -143,11 +143,11 @@
                 "custom_auth_modal_label": "",
                 "custom_auth_modal_help": "",
                 "auth_image_label": "",
-                "auth_image_help": "",
+                "auth_image_help": "Фонове зображення в правій панелі вікон входу, реєстрації та відновлення пароля.",
                 "banner_image_label": "",
                 "banner_image_help": "",
-                "show_auth_buttons_label": "",
-                "show_auth_buttons_help": "",
+                "show_auth_buttons_label": "Показувати гостям кнопки входу й реєстрації в шапці",
+                "show_auth_buttons_help": "Показує гостям заокруглені кнопки «Увійти» та «Зареєструватися» в додатковій навігації шапки.",
                 "show_guest_cta_label": "",
                 "show_guest_cta_help": "",
                 "hero_image_position_label": "",
@@ -197,7 +197,7 @@
                 "colored_enabled_help": "",
                 "colored_border_style_label": "",
                 "colored_border_style_help": "",
-                "colored_border_style_none": "",
+                "colored_border_style_none": "Немає",
                 "colored_border_style_left": "",
                 "colored_border_style_full": "",
                 "show_post_cta_label": "",
@@ -272,7 +272,7 @@
                 "svg_mono_help": "",
                 "svg_size_title": "",
                 "svg_size_help": "",
-                "svg_size_reset": "",
+                "svg_size_reset": "Скинути",
                 "svg_invalid": "",
                 "svg_too_large": ""
             },
@@ -295,17 +295,17 @@
         "lib": {
             "footer": {
                 "default_text": "",
-                "nav_home": "",
-                "nav_discussions": "",
-                "nav_tags": ""
+                "nav_home": "Головна",
+                "nav_discussions": "Усі обговорення",
+                "nav_tags": "Теги"
             }
         },
         "forum": {
-            "loading": "",
-            "back": "",
+            "loading": "Завантаження…",
+            "back": "Назад",
             "wiki": {
                 "style_label": "",
-                "style_default": "",
+                "style_default": "За замовчуванням",
                 "style_default_help": "",
                 "style_manual": "",
                 "style_manual_help": ""
@@ -323,25 +323,25 @@
                 "remove": ""
             },
             "actions": {
-                "share": ""
+                "share": "Поділитися"
             },
             "post_cta": {
                 "text": "",
-                "or": ""
+                "or": "або"
             },
             "link_cta": {
                 "placeholder": ""
             },
             "search": {
-                "title": "",
-                "placeholder": "",
+                "title": "Пошук",
+                "placeholder": "Пошук…",
                 "placeholder_hero": "",
                 "hero_title": "",
                 "hero_sub": "",
-                "tab_discussions": "",
-                "tab_posts": "",
-                "tab_users": "",
-                "search_button": "",
+                "tab_discussions": "Обговорення",
+                "tab_posts": "Дописи",
+                "tab_users": "Користувачі",
+                "search_button": "Пошук",
                 "clear": "",
                 "sort_relevance": "",
                 "sort_latest": "",
@@ -366,10 +366,10 @@
                 "close": ""
             },
             "header": {
-                "back": "",
+                "back": "Назад",
                 "back_home": "",
-                "search": "",
-                "or": ""
+                "search": "Пошук",
+                "or": "або"
             },
             "discussion": {
                 "post_singular": "",
@@ -380,20 +380,20 @@
                 "view_plural": "",
                 "hero_image_add": "",
                 "hero_image_replace": "",
-                "hero_image_remove": "",
+                "hero_image_remove": "Вилучити зображення",
                 "hero_image_remove_confirm": ""
             },
             "home": {
                 "nav_label": "",
-                "nav_more": "",
+                "nav_more": "Більше",
                 "nav_more_label": "",
                 "all_categories": "",
-                "all_title": "",
-                "back_home": "",
+                "all_title": "Усі обговорення",
+                "back_home": "Головна",
                 "badge_following": "",
                 "badge_sticky": "",
                 "badge_unread_tooltip": "",
-                "categories_heading": "",
+                "categories_heading": "Категорії",
                 "choose_tags": "",
                 "bypass_tag_requirements": "",
                 "choose_primary_tag_singular": "",
@@ -401,16 +401,16 @@
                 "choose_secondary_tag_singular": "",
                 "choose_secondary_tag_plural": "",
                 "composer_body_placeholder": "",
-                "composer_close": "",
-                "composer_edit": "",
+                "composer_close": "Закрити",
+                "composer_edit": "Редагувати",
                 "composer_post": "",
-                "composer_preview": "",
+                "composer_preview": "Попередній перегляд",
                 "composer_preview_empty": "",
                 "composer_submitting": "",
                 "composer_title_placeholder": "",
                 "composer_hero_image_label": "",
                 "composer_hero_image_picked": "",
-                "composer_hero_image_remove": "",
+                "composer_hero_image_remove": "Вилучити зображення",
                 "discussion_singular": "",
                 "discussions": "",
                 "filter_tags": "",
@@ -420,13 +420,13 @@
                 "like_count_singular": "",
                 "log_in": "",
                 "more": "",
-                "new_discussion": "",
+                "new_discussion": "Нове обговорення",
                 "no_tags_found": "",
-                "or": "",
+                "or": "або",
                 "latest_heading": "",
                 "popular_heading": "",
                 "popular_no_discussions": "",
-                "replies": "",
+                "replies": "Відповіді",
                 "reply_count_plural": "",
                 "reply_count_singular": "",
                 "reply_label": "",
@@ -437,7 +437,7 @@
                 "see_all": "",
                 "see_other_replies": "",
                 "see_other_reply_singular": "",
-                "sign_up": "",
+                "sign_up": "Зареєструватися",
                 "sort_trending": "",
                 "start_discussion": "",
                 "today_time": "",
@@ -460,14 +460,14 @@
                 "category_label": ""
             },
             "discussions": {
-                "title": "",
+                "title": "Усі обговорення",
                 "home": "",
-                "load_more": "",
+                "load_more": "Завантажити ще",
                 "empty": ""
             },
             "bookmarks": {
-                "title": "",
-                "save": "",
+                "title": "Збережено",
+                "save": "Зберегти",
                 "unsave": "",
                 "edit": "",
                 "empty": "",
@@ -476,8 +476,8 @@
                 "toggle_error": "",
                 "update_error": "",
                 "modal_title": "",
-                "modal_save": "",
-                "modal_cancel": "",
+                "modal_save": "Зберегти",
+                "modal_cancel": "Скасувати",
                 "note_label": "",
                 "note_placeholder": "",
                 "reminder_label": "",
@@ -488,7 +488,7 @@
                 "reminder_custom": "",
                 "reminder_invalid": "",
                 "reminder_invalid_date": "",
-                "reminder_date_label": "",
+                "reminder_date_label": "Дата",
                 "reminder_hour_label": "",
                 "reminder_minute_label": "",
                 "reminder_meridiem_label": "",
@@ -497,7 +497,7 @@
                 "reminder_too_far": "",
                 "note_counter": "",
                 "removed": "",
-                "undo": ""
+                "undo": "Скасувати дію"
             },
             "notifications": {
                 "bookmark_reminder_text": ""
@@ -514,18 +514,18 @@
                 "aria": ""
             },
             "user_card": {
-                "online": "",
+                "online": "Онлайн",
                 "last_seen": "",
                 "discussions": "",
                 "posts": "",
                 "joined_label": "",
                 "view_profile": "",
-                "message": ""
+                "message": "Повідомлення"
             },
             "post": {
                 "in_reply_to": "",
                 "op_badge": "",
-                "copy_code": "",
+                "copy_code": "Копіювати код",
                 "gallery_prev": "",
                 "gallery_next": "",
                 "gallery_count": ""
@@ -534,16 +534,16 @@
                 "deleted_message": ""
             },
             "tags": {
-                "title": "",
-                "home": "",
+                "title": "Категорії",
+                "home": "Головна",
                 "discussion_singular": "",
                 "discussion_plural": "",
                 "other_tags_label": "",
                 "featured": "",
-                "all_discussions": "",
+                "all_discussions": "Усі обговорення",
                 "empty": "",
                 "not_found": "",
-                "load_more": ""
+                "load_more": "Завантажити ще"
             },
             "footer": {
                 "contacts": "",
@@ -563,8 +563,8 @@
             },
             "tags_modal": {
                 "title": "",
-                "cancel": "",
-                "save": ""
+                "cancel": "Скасувати",
+                "save": "Зберегти"
             },
             "composer": {
                 "remove_reply": "",
@@ -614,23 +614,23 @@
                 "cover_from_tags": "",
                 "cover_presets": "",
                 "cover_tags_count": "",
-                "cover_preset_sunset": "",
-                "cover_preset_ocean": "",
-                "cover_preset_forest": "",
+                "cover_preset_sunset": "Захід сонця",
+                "cover_preset_ocean": "Океан",
+                "cover_preset_forest": "Ліс",
                 "cover_preset_violet": "",
-                "cover_preset_ember": "",
+                "cover_preset_ember": "Жар",
                 "cover_preset_slate": "",
                 "read_notes": "",
                 "hide_notes": "",
                 "notes_loading": "",
                 "notes_failed": "",
-                "replies": "",
+                "replies": "{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}",
                 "empty": "",
                 "empty_filtered": "",
                 "not_found": "",
                 "error": "",
-                "retry": "",
-                "load_more": ""
+                "retry": "Спробуйте ще раз",
+                "load_more": "Завантажити ще"
             },
             "link": {
                 "login_to_view": ""
@@ -640,8 +640,8 @@
                 "discussions_empty": "",
                 "likes_empty": "",
                 "mentions_empty": "",
-                "load_more": "",
-                "online": ""
+                "load_more": "Завантажити ще",
+                "online": "Онлайн"
             }
         },
         "api": {
