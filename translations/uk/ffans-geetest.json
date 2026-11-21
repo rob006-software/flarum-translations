@@ -2,57 +2,57 @@
     "ffans-geetest": {
         "admin": {
             "settings": {
-                "product_service_label": "",
-                "product_service_help_text": "",
-                "product_service_v4_label": "",
-                "product_service_v3_label": "",
-                "context_event_label": "",
-                "context_event_help_text": "",
+                "product_service_label": "Версія CAPTCHA",
+                "product_service_help_text": "Виберіть версію GeeTest CAPTCHA.",
+                "product_service_v4_label": "Адаптивна CAPTCHA (v4)",
+                "product_service_v3_label": "CAPTCHA (v3)",
+                "context_event_label": "Контекст перевірки",
+                "context_event_help_text": "Увімкніть, щоб використовувати GeeTest CAPTCHA для різних подій або сценаріїв. Для кожного контексту можна задати окремі налаштування.",
                 "context_event_login_label": "=> core.ref.log_in",
                 "context_event_signup_label": "=> core.ref.sign_up",
                 "context_event_forgot_label": "=> core.forum.forgot_password.title",
                 "config": {
-                    "title": "",
-                    "standalone_label": "",
-                    "standalone_help_text": "",
-                    "product_label": "",
-                    "product_help_text": "",
-                    "product_float_label": "",
-                    "product_float_help_text": "",
-                    "product_popup_label": "",
-                    "product_popup_help_text": "",
-                    "product_bind_label": "",
-                    "product_bind_help_text": "",
-                    "product_learn_more_link": "",
-                    "id_label": "",
-                    "id_help_text": "",
-                    "key_label": "",
-                    "key_help_text": ""
+                    "title": "Налаштування для {context}",
+                    "standalone_label": "Окремі налаштування",
+                    "standalone_help_text": "Увімкніть, щоб використовувати окремі налаштування для цього сценарію.",
+                    "product_label": "Вигляд панелі",
+                    "product_help_text": "Виберіть, як відкриватиметься панель перевірки.",
+                    "product_float_label": "Плаваюча панель",
+                    "product_float_help_text": "Кнопка перевірки перетворюється на панель перевірки.",
+                    "product_popup_label": "Спливна панель",
+                    "product_popup_help_text": "Показує панель перевірки в центрі.",
+                    "product_bind_label": "Прив’язати до кнопки",
+                    "product_bind_help_text": "Відкриває панель перевірки після натискання заданої кнопки.",
+                    "product_learn_more_link": "Докладніше про вигляд віджета",
+                    "id_label": "Ідентифікатор перевірки",
+                    "id_help_text": "Ідентифікатор перевірки для цього контексту, отриманий у <a>панелі GeeTest</a>.",
+                    "key_label": "Ключ перевірки",
+                    "key_help_text": "Ключ перевірки для цього контексту, отриманий у <a>панелі GeeTest</a>."
                 }
             },
             "test": {
-                "title": "",
-                "help_text": "",
+                "title": "Перевірка CAPTCHA",
+                "help_text": "Скористайтеся загальними налаштуваннями вище, щоб перевірити CAPTCHA.",
                 "submit_button": "Надіслати",
-                "load_button": "",
+                "load_button": "Завантажити",
                 "reload_button": "Перезавантажити"
             }
         },
         "lib": {
             "error": {
-                "api_http_error": "",
-                "incomplete_configuration": "",
-                "captcha_id_mismatch": "",
-                "invalid_api_response": "",
-                "verification_request_failed": ""
+                "api_http_error": "API GeeTest повернув код HTTP {status}.",
+                "incomplete_configuration": "Налаштування GeeTest неповні.",
+                "captcha_id_mismatch": "Ідентифікатор GeeTest CAPTCHA не відповідає вибраному продукту.",
+                "invalid_api_response": "API GeeTest повернув відповідь, яка не є об’єктом.",
+                "verification_request_failed": "Не вдалося надіслати запит на перевірку GeeTest."
             },
             "verify": {
-                "success_message": "",
-                "error_message": "",
-                "error_retry_message": "",
-                "init_error_message": "",
-                "required_message": "",
-                "not_pass_message": ""
+                "success_message": "Перевірку пройдено.",
+                "error_message": "Не вдалося пройти перевірку.",
+                "error_retry_message": "Не вдалося пройти перевірку. Спробуйте ще раз.",
+                "init_error_message": "Не вдалося перевірити ініціалізацію.",
+                "required_message": "Пройдіть перевірку CAPTCHA.",
+                "not_pass_message": "Перевірку не пройдено."
             }
         }
     }
