@@ -2,258 +2,258 @@
     "ffans-community-notes": {
         "admin": {
             "settings": {
-                "min_ratings_label": "",
-                "min_ratings_help": "",
-                "helpful_threshold_label": "",
-                "helpful_threshold_help": "",
-                "not_helpful_threshold_label": "",
-                "not_helpful_threshold_help": ""
+                "min_ratings_label": "Мінімальна кількість оцінок",
+                "min_ratings_help": "Щоб визначити примітку як корисну або некорисну, вона має отримати щонайменше стільки оцінок. Введіть число від 1 до 100.",
+                "helpful_threshold_label": "Поріг оцінки «Корисна» (%)",
+                "helpful_threshold_help": "Примітка вважається корисною, коли її оцінка досягає цього відсотка. Значення має перевищувати поріг оцінки «Некорисна».",
+                "not_helpful_threshold_label": "Поріг оцінки «Некорисна» (%)",
+                "not_helpful_threshold_help": "Примітка вважається некорисною, якщо її оцінка дорівнює цьому відсотку або нижча. Значення має бути менше за поріг оцінки «Корисна»."
             },
             "permissions": {
-                "create": "",
-                "rate": "",
-                "moderate": ""
+                "create": "Створювати примітки спільноти",
+                "rate": "=> ffans-community-notes.ref.rate_note",
+                "moderate": "=> ffans-community-notes.ref.moderate_note"
             }
         },
         "forum": {
             "navigation": {
-                "title": "",
-                "description": "",
-                "list_a11y_label": "",
-                "helpful_button": "",
-                "latest_button": "",
+                "title": "=> ffans-community-notes.ref.community_notes",
+                "description": "Додавайте джерела й контекст, щоб допомогти спільноті визначити, яка інформація корисна.",
+                "list_a11y_label": "Списки приміток",
+                "helpful_button": "=> ffans-community-notes.ref.helpful",
+                "latest_button": "Нові",
                 "hidden_button": "=> ffans-community-notes.ref.hidden",
-                "refresh_a11y_label": ""
+                "refresh_a11y_label": "Оновити список приміток"
             },
             "post_controls": {
-                "add_button": "",
-                "view_mine_button": "",
-                "manage_button": ""
+                "add_button": "=> ffans-community-notes.ref.add_note",
+                "view_mine_button": "Переглянути мою примітку",
+                "manage_button": "=> ffans-community-notes.ref.manage_notes"
             },
             "list": {
-                "latest_heading_a11y_label": "",
-                "latest_description": "",
-                "latest_a11y_label": "",
-                "latest_empty": "",
-                "helpful_heading_a11y_label": "",
-                "helpful_description": "",
-                "helpful_a11y_label": "",
-                "helpful_empty": "",
-                "hidden_heading_a11y_label": "",
-                "hidden_description": "",
-                "hidden_a11y_label": "",
-                "hidden_empty": "",
-                "rating_permission_denied": "",
-                "moderation_permission_denied": "",
-                "other_notes": "",
-                "view_all_button": "",
-                "retry_button": "",
+                "latest_heading_a11y_label": "Дописи без загальнодоступної примітки",
+                "latest_description": "Примітки до цих дописів ще не оприлюднено. Найновіші примітки відображаються першими. Оцініть їх, щоб допомогти спільноті визначити, яка інформація корисна.",
+                "latest_a11y_label": "Дописи з найновішими примітками",
+                "latest_empty": "Зараз немає дописів із примітками, що очікують оприлюднення.",
+                "helpful_heading_a11y_label": "Примітки, які спільнота визнала корисними",
+                "helpful_description": "Примітки до цих дописів визнано корисними. Вони надають читачам додатковий контекст.",
+                "helpful_a11y_label": "Дописи з корисними примітками",
+                "helpful_empty": "Ще жодну примітку не визнано корисною.",
+                "hidden_heading_a11y_label": "Приховані примітки",
+                "hidden_description": "Ці примітки приховано від публічного перегляду. Їх можна відновити або остаточно видалити в розділі відомостей про примітку.",
+                "hidden_a11y_label": "Список прихованих приміток",
+                "hidden_empty": "Зараз немає прихованих приміток.",
+                "rating_permission_denied": "У вас немає дозволу оцінювати примітки спільноти.",
+                "moderation_permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "other_notes": "{count, plural, one {Ще # примітка} few {Ще # примітки} many {Ще # приміток} other {Ще # примітки}}",
+                "view_all_button": "=> ffans-community-notes.ref.view_all_notes",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "load_more_button": "Завантажити ще"
             },
             "post": {
-                "page_title": "",
-                "modal_title": "",
-                "title": "",
-                "description": "",
-                "back_a11y_label": "",
-                "permission_denied": "",
-                "notes_a11y_label": "",
-                "notes_title": "",
-                "empty": "",
-                "retry_button": "",
-                "load_more_button": ""
+                "page_title": "=> ffans-community-notes.ref.rate_note",
+                "modal_title": "=> ffans-community-notes.ref.view_all_notes",
+                "title": "Відомості про примітку",
+                "description": "Перегляньте початковий допис і джерела, щоб визначити, чи корисна ця додаткова інформація.",
+                "back_a11y_label": "Повернутися до списку приміток спільноти",
+                "permission_denied": "У вас немає дозволу переглядати сторінку оцінювання приміток спільноти.",
+                "notes_a11y_label": "Усі примітки до цього допису",
+                "notes_title": "Примітки спільноти до цього допису",
+                "empty": "До цього допису немає доступних вам приміток або ви не маєте дозволу їх переглядати.",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "load_more_button": "Завантажити більше приміток"
             },
             "post_link": {
-                "a11y_label": "",
-                "with_number_a11y_label": "",
-                "number": ""
+                "a11y_label": "Переглянути початковий допис: {title}",
+                "with_number_a11y_label": "Переглянути початковий допис: {title}, допис № {number}",
+                "number": "№ {number}"
             },
             "public_note": {
-                "a11y_label": "",
-                "title": ""
+                "a11y_label": "=> ffans-community-notes.ref.community_notes",
+                "title": "Спільнота визнала цю примітку корисною"
             },
             "note": {
-                "a11y_label": "",
-                "manage_a11y_label": "",
-                "meta_a11y_label": "",
-                "rated_as": "",
+                "a11y_label": "Відомості про примітку спільноти",
+                "manage_a11y_label": "=> ffans-community-notes.ref.manage_notes",
+                "meta_a11y_label": "Інформація про примітку",
+                "rated_as": "Поточна оцінка: <status></status>",
                 "hidden": "=> ffans-community-notes.ref.hidden",
-                "public": "",
-                "not_public": "",
-                "drafted_by": "",
-                "reason": "",
-                "deleted_user": "",
-                "contributor": ""
+                "public": "Показується всім разом із початковим дописом",
+                "not_public": "Приховано від публічного перегляду",
+                "drafted_by": "Автор: {author}",
+                "reason": "Причина: {reason}",
+                "deleted_user": "Видалений користувач",
+                "contributor": "Учасник спільноти"
             },
             "status": {
-                "needs_more_ratings": "",
-                "helpful": "",
-                "not_helpful": "",
-                "unknown": ""
+                "needs_more_ratings": "Потрібно більше оцінок",
+                "helpful": "=> ffans-community-notes.ref.helpful",
+                "not_helpful": "=> ffans-community-notes.ref.not_helpful",
+                "unknown": "Невідомо"
             },
             "sources": {
-                "a11y_label": "",
-                "open_in_new_window_a11y_label": ""
+                "a11y_label": "Джерела",
+                "open_in_new_window_a11y_label": "(відкривається в новому вікні)"
             },
             "editor": {
-                "create_title": "",
-                "edit_title": "",
-                "help": "",
-                "create_unavailable": "",
-                "edit_unavailable": "",
-                "reason_label": "",
-                "reason_placeholder": "",
-                "content_label": "",
-                "character_count": "",
-                "content_help": "",
-                "sources_label": "",
-                "sources_help": "",
-                "source_a11y_label": "",
-                "add_source_button": "",
-                "add_source_a11y_label": "",
-                "remove_source_button": "",
-                "remove_source_a11y_label": "",
-                "submit_button": "",
+                "create_title": "=> ffans-community-notes.ref.add_note",
+                "edit_title": "Моя примітка спільноти",
+                "help": "Додайте контекст і джерела, які можна перевірити. Уникайте відповідей і суперечок. Після надсилання примітка очікуватиме оцінок спільноти.",
+                "create_unavailable": "Зараз ви не можете додати примітку спільноти.",
+                "edit_unavailable": "Зараз ви не можете редагувати або видалити цю примітку.",
+                "reason_label": "Причина додавання примітки",
+                "reason_placeholder": "Виберіть причину",
+                "content_label": "Текст примітки",
+                "character_count": "{count} / 1000 символів, мінімум 30",
+                "content_help": "Використовуйте звичайний текст. Markdown і BBCode не підтримуються.",
+                "sources_label": "Джерела (1–5)",
+                "sources_help": "Додайте посилання HTTP або HTTPS на вебсторінки, які можна перевірити.",
+                "source_a11y_label": "Джерело {number}",
+                "add_source_button": "Додати джерело",
+                "add_source_a11y_label": "Додати джерело після джерела {number}",
+                "remove_source_button": "Вилучити джерело",
+                "remove_source_a11y_label": "Вилучити джерело {number}",
+                "submit_button": "Надіслати примітку",
                 "save_button": "Зберегти зміни",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "created_message": "",
-                "updated_message": "",
-                "deleted_message": "",
+                "delete_button": "Видалити примітку",
+                "delete_confirmation": "Остаточно видалити цю примітку спільноти? Цю дію неможливо скасувати.",
+                "created_message": "Вашу примітку надіслано. Вона очікує оцінок спільноти.",
+                "updated_message": "Вашу примітку спільноти оновлено.",
+                "deleted_message": "Вашу примітку спільноти видалено.",
                 "errors": {
-                    "reason_required": "",
-                    "content_length": "",
-                    "sources_count": "",
-                    "source_invalid": "",
-                    "source_duplicate": ""
+                    "reason_required": "Виберіть причину додавання примітки.",
+                    "content_length": "Примітка має містити від 30 до 1000 символів.",
+                    "sources_count": "Додайте від 1 до 5 джерел.",
+                    "source_invalid": "Джерела мають бути дійсними URL-адресами HTTP або HTTPS завдовжки до 2048 символів.",
+                    "source_duplicate": "URL-адреси джерел мають бути унікальними."
                 }
             },
             "note_reasons": {
-                "missing_context": "",
-                "outdated_information": "",
-                "factual_error": "",
-                "misleading": "",
-                "media_context": "",
+                "missing_context": "Бракує важливого контексту",
+                "outdated_information": "Інформація може бути застарілою",
+                "factual_error": "Містить фактичну помилку",
+                "misleading": "Вміст може вводити в оману",
+                "media_context": "Зображенням або іншим медіа бракує контексту",
                 "other": "Інше"
             },
             "rating": {
-                "title": "",
-                "button": "",
-                "button_a11y_label": "",
-                "edit_button_a11y_label": "",
-                "unavailable": "",
-                "question": "",
-                "reasons_label": "",
-                "submit_button": "",
-                "update_button": "",
+                "title": "=> ffans-community-notes.ref.rate_note",
+                "button": "Чи корисна ця примітка?",
+                "button_a11y_label": "Оцінити цю примітку спільноти",
+                "edit_button_a11y_label": "{rating}. Змінити свою оцінку",
+                "unavailable": "Зараз ви не можете оцінити цю примітку.",
+                "question": "Чи корисна ця примітка?",
+                "reasons_label": "Причини оцінки (виберіть 1–3)",
+                "submit_button": "Надіслати оцінку",
+                "update_button": "Оновити оцінку",
                 "cancel_button": "=> ffans-community-notes.ref.cancel",
-                "retry_button": "",
+                "retry_button": "=> ffans-community-notes.ref.retry",
                 "values": {
-                    "helpful": "",
-                    "somewhat_helpful": "",
-                    "not_helpful": ""
+                    "helpful": "=> ffans-community-notes.ref.helpful",
+                    "somewhat_helpful": "Певною мірою корисна",
+                    "not_helpful": "=> ffans-community-notes.ref.not_helpful"
                 },
                 "summaries": {
-                    "helpful": "",
-                    "somewhat_helpful": "",
-                    "not_helpful": ""
+                    "helpful": "Ви оцінили цю примітку як <b>корисну</b>",
+                    "somewhat_helpful": "Ви оцінили цю примітку як <b>певною мірою корисну</b>",
+                    "not_helpful": "Ви оцінили цю примітку як <b>некорисну</b>"
                 },
                 "reasons": {
                     "helpful": {
-                        "important_context": "",
-                        "directly_addresses_claim": "",
-                        "clear": "",
-                        "reliable_sources": "",
-                        "neutral": "",
-                        "unique_information": ""
+                        "important_context": "Додає важливий контекст",
+                        "directly_addresses_claim": "Стосується саме твердження в початковому дописі",
+                        "clear": "Зрозуміло викладено",
+                        "reliable_sources": "Надійні джерела",
+                        "neutral": "Нейтральне формулювання",
+                        "unique_information": "Містить відомості, яких немає в інших примітках"
                     },
                     "somewhat_helpful": {
-                        "partially_helpful": "",
-                        "needs_more_context": "",
-                        "mixed_source_quality": "",
-                        "wording_needs_improvement": ""
+                        "partially_helpful": "Частина вмісту корисна",
+                        "needs_more_context": "Потрібно більше контексту",
+                        "mixed_source_quality": "Джерела різної якості",
+                        "wording_needs_improvement": "Формулювання потребує поліпшення"
                     },
                     "not_helpful": {
-                        "incorrect": "",
-                        "unreliable_or_missing_sources": "",
-                        "not_needed": "",
-                        "irrelevant": "",
-                        "missing_important_context": "",
-                        "opinion_or_speculation": "",
-                        "hostile_or_inflammatory": "",
-                        "unclear": "",
-                        "outdated": ""
+                        "incorrect": "Некоректна інформація",
+                        "unreliable_or_missing_sources": "Ненадійні або недостатні джерела",
+                        "not_needed": "Ця примітка зайва",
+                        "irrelevant": "Не стосується початкового допису",
+                        "missing_important_context": "Бракує важливого контексту",
+                        "opinion_or_speculation": "Думка або припущення",
+                        "hostile_or_inflammatory": "Вороже або провокативне формулювання",
+                        "unclear": "Незрозуміле формулювання",
+                        "outdated": "Застаріла інформація"
                     }
                 },
                 "errors": {
-                    "value_required": "",
-                    "reasons_count": "",
-                    "reasons_invalid": ""
+                    "value_required": "Виберіть оцінку.",
+                    "reasons_count": "Виберіть від 1 до 3 причин своєї оцінки.",
+                    "reasons_invalid": "Причини не відповідають поточній оцінці. Виберіть їх ще раз."
                 }
             },
             "moderation": {
-                "title": "",
-                "permission_denied": "",
-                "retry_button": "",
-                "hidden_reason_label": "",
-                "hide_reason_label": "",
-                "hide_help": "",
-                "restore_help": "",
+                "title": "=> ffans-community-notes.ref.moderate_note",
+                "permission_denied": "=> ffans-community-notes.ref.moderation_permission_denied",
+                "retry_button": "=> ffans-community-notes.ref.retry",
+                "hidden_reason_label": "Причина приховування",
+                "hide_reason_label": "Причина приховування (обов’язково)",
+                "hide_help": "Приховані примітки зникають із публічного перегляду й черги оцінювання. Наявні оцінки та підсумковий статус зберігаються.",
+                "restore_help": "Після відновлення примітка може знову відображатися відповідно до чинного підсумкового статусу. Наявні оцінки зберігаються.",
                 "hide_button": "Приховати",
                 "restore_button": "Відновити",
                 "cancel_button": "=> ffans-community-notes.ref.cancel",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "reason_required": "",
-                "hidden_message": "",
-                "restored_message": "",
-                "deleted_message": ""
+                "delete_button": "Видалити остаточно",
+                "delete_confirmation": "Остаточно видалити цю примітку спільноти? Її текст, джерела й оцінки буде видалено без можливості відновлення.",
+                "reason_required": "=> ffans-community-notes.validation.hide_reason_required",
+                "hidden_message": "Примітку приховано.",
+                "restored_message": "Примітку відновлено.",
+                "deleted_message": "Примітку остаточно видалено."
             },
             "errors": {
-                "inaccessible": "",
-                "request_failed": "",
-                "detail_separator": ""
+                "inaccessible": "Ця примітка недоступна або ви більше не маєте дозволу виконати цю дію. Оновіть сторінку й спробуйте ще раз.",
+                "request_failed": "Не вдалося виконати дію. Перевірте з’єднання й спробуйте ще раз.",
+                "detail_separator": "; "
             }
         },
         "validation": {
             "note": {
-                "reason_invalid": "",
-                "content_invalid": "",
-                "sources_count": "",
-                "source_invalid": "",
-                "source_url_invalid": "",
-                "source_duplicate": ""
+                "reason_invalid": "Виберіть допустиму причину додавання примітки.",
+                "content_invalid": "Примітка має бути звичайним текстом завдовжки від 30 до 1000 символів Юнікоду.",
+                "sources_count": "Додайте від 1 до 5 посилань на джерела.",
+                "source_invalid": "Джерела мають бути дійсними посиланнями HTTP або HTTPS.",
+                "source_url_invalid": "Джерела мають бути URL-адресами HTTP або HTTPS з іменем вузла й довжиною до 2048 символів.",
+                "source_duplicate": "Ту саму URL-адресу джерела не можна використовувати в примітці кілька разів."
             },
             "rating": {
-                "value_invalid": "",
-                "reasons_count": "",
-                "reason_mismatch": "",
-                "reason_duplicate": ""
+                "value_invalid": "Виберіть допустиму оцінку.",
+                "reasons_count": "Виберіть від 1 до 3 причин своєї оцінки.",
+                "reason_mismatch": "Причини мають відповідати вибраній оцінці.",
+                "reason_duplicate": "Ту саму причину оцінки не можна вибирати кілька разів."
             },
             "settings": {
-                "min_ratings_invalid": "",
-                "helpful_threshold_invalid": "",
-                "not_helpful_threshold_invalid": "",
-                "thresholds_invalid": ""
+                "min_ratings_invalid": "Мінімальна кількість оцінок має бути цілим числом від 1 до 100.",
+                "helpful_threshold_invalid": "Поріг оцінки «Корисна» має бути цілим числом від 0 до 100.",
+                "not_helpful_threshold_invalid": "Поріг оцінки «Некорисна» має бути цілим числом від 0 до 100.",
+                "thresholds_invalid": "Поріг оцінки «Некорисна» має бути менше за поріг оцінки «Корисна»."
             },
-            "data_invalid": "",
-            "relationships_invalid": "",
-            "post_invalid": "",
-            "hide_reason_required": ""
+            "data_invalid": "Надішліть коректні дані примітки. Можна змінювати причину, текст і джерела.",
+            "relationships_invalid": "Ви не можете змінювати зв’язки цієї примітки.",
+            "post_invalid": "Виберіть дійсний початковий допис.",
+            "hide_reason_required": "Укажіть причину приховування цієї примітки спільноти."
         },
         "ref": {
-            "community_notes": "",
-            "add_note": "",
-            "rate_note": "",
-            "moderate_note": "",
-            "manage_notes": "",
-            "view_all_notes": "",
-            "helpful": "",
-            "not_helpful": "",
+            "community_notes": "Примітки спільноти",
+            "add_note": "Додати примітку спільноти",
+            "rate_note": "Оцінювати примітки спільноти",
+            "moderate_note": "Керувати примітками спільноти",
+            "manage_notes": "=> ffans-community-notes.ref.moderate_note",
+            "view_all_notes": "Переглянути всі примітки до цього допису",
+            "helpful": "Корисна",
+            "not_helpful": "Некорисна",
             "hidden": "Приховано",
-            "retry": "",
+            "retry": "Спробувати ще раз",
             "cancel": "Скасувати",
-            "moderation_permission_denied": ""
+            "moderation_permission_denied": "У вас немає дозволу керувати примітками спільноти."
         }
     }
 }
