@@ -31,11 +31,11 @@
                     "reset_vapid_success": "Klucze VAPID zostały pomyślnie zresetowane. {count, plural, one {{count} subskrypcja została zresetowana} few {{count} subskrypcje zostały zresetowane} other {{count} subskrypcji zostało zresetowanych}}. Odśwież stronę, aby zobaczyć zaktualizowany status."
                 },
                 "firebase_config": {
-                    "heading": "",
-                    "help_text": "",
-                    "see_documentation_here": "",
-                    "upload_successful": "",
-                    "upload_file": ""
+                    "heading": "Firebase",
+                    "help_text": "Aby obsługiwać powiadomienia push po opublikowaniu aplikacji w App Store, musisz dodać do niej powiadomienia push za pomocą Firebase. Wygeneruj plik konfiguracyjny usługi Firebase (Service Config) i prześlij go tutaj.",
+                    "see_documentation_here": "Zobacz dokumentację",
+                    "upload_successful": "Konfiguracja Firebase została przesłana",
+                    "upload_file": "Prześlij plik"
                 },
                 "other": {
                     "heading": "Inne",
@@ -44,8 +44,8 @@
                     "push_notif_preference_default_to_email_text": "Jeśli zaznaczone, użytkownicy będą mieli domyślnie włączone powiadomienia push dla wszystkich typów zdarzeń, dla których powiadomienia e-mail są domyślnie włączone. W przeciwnym razie wszystkie powiadomienia push będą domyślnie wyłączone.",
                     "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
                     "user_max_subscriptions_text": "Ile jednocześnie aktywnych subskrypcji może mieć każdy użytkownik? Gdy użytkownik otrzymuje powiadomienie push, każda subskrypcja skutkuje wysłaniem żądania do API. Każda subskrypcja zwykle odpowiada przeglądarce, z której korzysta użytkownik.",
-                    "window_controls_overlay_label": "",
-                    "window_controls_overlay_text": ""
+                    "window_controls_overlay_label": "Włączyć Window Controls Overlay?",
+                    "window_controls_overlay_text": "Jeśli zaznaczone, użytkownicy mogą uzyskać bardziej immersyjny wygląd, zbliżony do natywnej aplikacji, dzięki ukryciu natywnego paska tytułu. To, czy Window Controls Overlay zostanie włączone, zależy od preferencji użytkownika i obsługi przez przeglądarkę. Po włączeniu musisz dostosować pasek tytułu, dodając własny kod CSS/JS – w przeciwnym razie przyciski okna zasłonią część elementów górnego paska nawigacji forum, a okna praktycznie nie da się przeciągać, co pogorszy komfort korzystania.\n\nZobacz też: <compatibilitylink>Obsługa Window Controls Overlay w przeglądarkach</compatibilitylink> i <learnlink>Window Controls Overlay w Microsoft Learn</learnlink>\n"
                 },
                 "heading": "Konfiguracja Progressive Web App",
                 "text": "Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję „Dodaj do ekranu głównego”. Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup „zainstaluj jako PWA” jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.",

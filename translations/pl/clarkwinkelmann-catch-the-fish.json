@@ -128,7 +128,7 @@
                 "discussion-age": "Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)",
                 "discussion-tags": "Biała lista tagów",
                 "discussion-tags-unavailable": "Ustawienie nie jest dostępne, ponieważ rozszerzenie obsługujące tagi nie jest włączone.",
-                "discussion-tags-help": "",
+                "discussion-tags-help": "Jeśli nie wybierzesz żadnego tagu, może zostać wybrana dowolna dyskusja spełniająca powyższe ustawienia czasu. Jeśli wybierzesz tagi, dyskusja musi mieć co najmniej jeden z nich, aby mogła zostać wybrana. Prawdopodobieństwo to szansa na wybór po wypróbowaniu wszystkich wcześniejszych opcji. Ostatni tag na liście zawsze pełni funkcję rezerwową, więc upewnij się, że zawiera co najmniej jedną pasującą dyskusję.\n",
                 "tags-header": {
                     "tag": "Tag",
                     "probability": "Prawdopodobieństwo"
@@ -141,12 +141,12 @@
                     "delete": "Usuń z białej listy"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Rezerwowy",
+                    "single-line": "Do ustawienia prawdopodobieństwa wymagane są co najmniej 2 tagi"
                 },
                 "post": "Posty",
                 "post-age": "Jak stare mogą być posty, aby móc umieścić na nich rybę (dni)",
-                "post-probability": "",
+                "post-probability": "Prawdopodobieństwo umieszczenia w poście zamiast w dyskusji (%)",
                 "general": "Ogólne",
                 "time-to-place": "Czas na umieszczenie ryby, zanim zostanie rozmieszczona losowo (minuty)",
                 "alert-round": "Pokaż na stronie głównej alert z nazwą rundy i czasem trwania",

@@ -31,7 +31,7 @@
                     "rename_category": "Zmień nazwę kategorii",
                     "edit_description": "Edytuj opis",
                     "change_icon": "Zmień ikonę",
-                    "recount_articles": ""
+                    "recount_articles": "Przelicz artykuły"
                 }
             },
             "article_events": {
@@ -153,9 +153,9 @@
                     "event": "Dyskusja {ticket_title} została przekształcona w zgłoszenie"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Konwertuj na dyskusję",
+                    "confirm": "Czy na pewno chcesz przekształcić to zgłoszenie w publiczną dyskusję? Jeśli ktoś udostępnił w nim prywatne informacje, one również staną się publiczne.",
+                    "event": "Zgłoszenie {ticket_title} zostało przekształcone w dyskusję\n\nCzy chcesz teraz przejść do tej dyskusji?\n"
                 },
                 "status": {
                     "new": {
@@ -199,7 +199,7 @@
                     "remove_me": "Usuń mnie",
                     "update_status": "Zaktualizuj status zgłoszenia",
                     "close_ticket": "Zamknij zgłoszenie",
-                    "update_note": ""
+                    "update_note": "Zaktualizuj prywatną notatkę"
                 },
                 "new_tickets_dropdown": {
                     "title": "Powiadomienia dotyczące zgłoszeń",
@@ -232,11 +232,11 @@
                         "placeholder": "Status zgłoszenia"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Prywatne notatki",
+                        "info": "Prywatne notatki są widoczne tylko dla innych konsultantów pomocy technicznej. Klient ich nie widzi.",
+                        "tip": "WSKAZÓWKA: Jeśli nad jednym zgłoszeniem pracuje kilku konsultantów, dodawaj do notatki swoje imię i datę.",
+                        "placeholder": "Przykład: 1 stycznia 2022 – Imię konsultanta: usunięto klienta z bazy danych",
+                        "edit_button": "Edytuj notatkę"
                     }
                 },
                 "compose_ticket": {
@@ -257,40 +257,40 @@
                     "description": "Uśmiechnij się, jesteś bohaterem, który ratuje innym ludziom ich dzień.",
                     "no_tickets": "Nie ma zgłoszeń spełniających Twoje kryteria, prawdopodobnie wykonujesz dobrą robotę!",
                     "all_tickets": "Wszystkie zgłoszenia",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "selection_unfiltered": "Bez filtrów",
+                    "selection_open": "Otwarte zgłoszenia",
+                    "selection_closed": "Zamknięte zgłoszenia",
+                    "refresh": "Odśwież",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Status zgłoszenia",
+                            "filter_count": "{count, plural, one {# filtr} few {# filtry} many {# filtrów} other {# filtra}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Dowolny język"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Filtruj według przypisanych osób",
+                            "search": "Szukaj przypisanej osoby",
+                            "unassigned": "Nieprzypisane"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Od najnowszych",
+                        "oldest": "Od najstarszych",
+                        "recent_activity": "Ostatnia aktywność",
+                        "least_recent": "Najdawniejsza aktywność"
                     }
                 }
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Ktoś odpowiedział na moje zgłoszenie",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Moje zgłoszenie zostało rozwiązane",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },

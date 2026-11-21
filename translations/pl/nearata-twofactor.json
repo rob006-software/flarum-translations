@@ -2,7 +2,7 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_app_backups": "",
+                "generate_app_backups": "Generuj kody zapasowe aplikacji",
                 "generate_backups": "Generuj kody zapasowe."
             },
             "permissions": {
@@ -11,48 +11,48 @@
         },
         "forum": {
             "settings": {
-                "section_title": "",
-                "configured": "",
-                "not_configured": "",
+                "section_title": "Uwierzytelnianie dwuskładnikowe",
+                "configured": "Skonfigurowane",
+                "not_configured": "Nieskonfigurowane",
                 "app": {
-                    "button_label": "",
-                    "button_help": "",
+                    "button_label": "Aplikacja uwierzytelniająca",
+                    "button_help": "Kod dostępu otrzymasz w aplikacji uwierzytelniającej.",
                     "setup": {
-                        "title": "",
-                        "password_placeholder": "",
-                        "passcode_placeholder": "",
-                        "close_button_label": "",
-                        "invalid_passcode": "",
+                        "title": "Konfiguracja aplikacji uwierzytelniającej",
+                        "password_placeholder": "Hasło",
+                        "passcode_placeholder": "6-cyfrowy kod",
+                        "close_button_label": "Zamknij",
+                        "invalid_passcode": "Nieprawidłowe hasło lub kod.",
                         "disable": {
-                            "enter_code_disable": "",
-                            "button_label": "",
-                            "success": ""
+                            "enter_code_disable": "Wprowadź kod, aby wyłączyć aplikację do uwierzytelniania dwuskładnikowego.",
+                            "button_label": "Wyłącz",
+                            "success": "Aplikacja uwierzytelniająca została wyłączona."
                         },
                         "enable": {
-                            "button_label": "",
-                            "success": "",
-                            "scan_qr": "",
-                            "enter_code_manually": "",
+                            "button_label": "Włącz",
+                            "success": "Aplikacja uwierzytelniająca została włączona.",
+                            "scan_qr": "Zeskanuj ten kod QR za pomocą urządzenia do uwierzytelniania dwuskładnikowego, aby skonfigurować swoje konto.",
+                            "enter_code_manually": "Zamiast tego wprowadź klucz ręcznie",
                             "backups": {
-                                "message": "",
-                                "download_button_label": "",
-                                "download_file_format": "",
-                                "copy_button_label": ""
+                                "message": "Przechowuj te kody odzyskiwania w bezpiecznym miejscu. Jeśli utracisz urządzenie z uwierzytelnianiem dwuskładnikowym, możesz użyć tych jednorazowych kodów w podanej kolejności, aby zalogować się na swoje konto.\n",
+                                "download_button_label": "Pobierz",
+                                "download_file_format": "{website_title} | {website_url}\n\nPrzechowuj te kody zapasowe w bezpiecznym, ale dostępnym miejscu.\n\nLISTA KODÓW\n\n{codes}\n\n* Każdego kodu zapasowego możesz użyć tylko raz.\n* Kody MUSZĄ być użyte w podanej kolejności.\n* Data wygenerowania kodów: {date}.\n",
+                                "copy_button_label": "Kopiuj"
                             }
                         }
                     }
                 }
             },
             "login": {
-                "title": "",
-                "placeholder_label": "",
-                "submit_button_label": "",
+                "title": "Uwierzytelnianie dwuskładnikowe",
+                "placeholder_label": "Wybierz metodę uwierzytelniania…",
+                "submit_button_label": "Zaloguj się",
                 "auth_buttons": {
-                    "app": ""
+                    "app": "Aplikacja uwierzytelniająca"
                 },
                 "app": {
-                    "invalid_passcode": "",
-                    "passcode_placeholder": ""
+                    "invalid_passcode": "Nieprawidłowy kod.",
+                    "passcode_placeholder": "6-cyfrowy kod"
                 }
             },
             "invalid_twofa_code": "Nieprawidłowy kod.",
@@ -87,11 +87,11 @@
         },
         "lib": {
             "edit_user": {
-                "section_title": "",
-                "disable_confirmation": "",
-                "placeholder_text": "",
+                "section_title": "Uwierzytelnianie dwuskładnikowe",
+                "disable_confirmation": "Czy na pewno chcesz wyłączyć tę metodę uwierzytelniania dla tego użytkownika?",
+                "placeholder_text": "Brak metod do wyłączenia",
                 "app": {
-                    "label": ""
+                    "label": "Aplikacja uwierzytelniająca"
                 }
             }
         }

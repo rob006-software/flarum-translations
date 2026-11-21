@@ -10,16 +10,16 @@
                 "idp_metadata": "XML z metadanymi dostawcy tożsamości (alternatywa dla URL)",
                 "only_option": "Użyj SAML2 SSO jako jedynej opcji logowania?",
                 "nameid_format": "NameID Format",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
+                "slo": "Włączyć SLO? Jeśli Twój dostawca tożsamości tego nie obsługuje, ta opcja nic nie zmieni.",
+                "authn_requests_signed": "Czy żądania uwierzytelnienia powinny być podpisane?",
+                "logout_request_signed": "Czy żądania wylogowania powinny być podpisane?",
+                "logout_response_signed": "Czy odpowiedzi na wylogowanie powinny być podpisane?",
+                "sign_metadata": "Czy metadane powinny być podpisane?",
+                "want_assertions_encrypted": "Czy asercje powinny być zaszyfrowane?",
                 "want_assertions_signed": "Czy asercje powinny być podpisane?",
                 "want_messages_signed": "Czy wiadomości powinny być podpisane?",
-                "x509_cert": "",
-                "x509_key": ""
+                "x509_cert": "Certyfikat x509 (wymagany do podpisywania, jeśli jest włączone)",
+                "x509_key": "Klucz prywatny x509 (wymagany do podpisywania, jeśli jest włączone)"
             },
             "options": {
                 "nameid_format": {

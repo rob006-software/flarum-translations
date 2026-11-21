@@ -5,7 +5,7 @@
                 "local": "Pamięć lokalna",
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
-                "aws": "",
+                "aws": "Amazon AWS S3",
                 "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
@@ -17,9 +17,9 @@
                 "zip": "Archiwum Zip"
             },
             "settings_button": "Konfiguruj",
-            "delete_button": "",
-            "delete_confirmation": "",
-            "create_button": "",
+            "delete_button": "Usuń",
+            "delete_confirmation": "Czy na pewno chcesz usunąć „{name}” ({adapter})?",
+            "create_button": "Dodaj nowy adapter",
             "required_package_button": "Ustaw",
             "you-need-for": {
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
@@ -36,11 +36,11 @@
             },
             "required-package-modal": {
                 "title": "Potrzebny jest pakiet dla {adapter}",
-                "content": ""
+                "content": "Aby korzystać z tego sterownika, musisz zainstalować odpowiedni pakiet. Możesz to zrobić, uruchamiając w katalogu instalacji Flarum następujące polecenie Composera: <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
                 "title": "Skonfiguruj {adapter}",
-                "name_label": "",
+                "name_label": "Nazwa lokalizacji",
                 "local": {
                     "target": {
                         "label": "Ścieżka docelowa",
@@ -49,107 +49,107 @@
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Punkt końcowy",
+                        "description": "URL punktu końcowego magazynu."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access ID",
+                        "description": "ID Twojego tokena dostępu"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access Key",
+                        "description": "Klucz Twojego tokena dostępu"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Bucket, który ma być używany."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Prefiks ścieżki",
+                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Punkt końcowy",
+                        "description": "URL punktu końcowego magazynu."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kontener",
+                        "description": "Kontener Azure"
                     }
                 },
                 "aws": {
                     "credentials-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Klucz",
+                        "description": "Klucz poświadczeń AWS"
                     },
                     "credentials-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Sekret",
+                        "description": "Sekret poświadczeń AWS"
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Region",
+                        "description": "Region Twojego bucketu."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Wersja",
+                        "description": "Podaj wersję lub pozostaw puste, aby użyć najnowszej."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Bucket S3, do którego będą przesyłane pliki."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Prefiks ścieżki",
+                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
                     }
                 },
                 "dropbox": {
                     "key": {
-                        "label": ""
+                        "label": "Klucz aplikacji"
                     },
                     "secret": {
-                        "label": ""
+                        "label": "Sekret aplikacji"
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Token odświeżania",
+                        "description": "Użyj poniższych pól, aby uzyskać token odświeżania, lub ręcznie wykonaj instrukcje ze strony https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually."
                     },
                     "help": {
-                        "obtain-access-code-label": "",
-                        "obtain-access-code-button": "",
-                        "obtain-refresh-token-label": "",
-                        "obtain-refresh-token-button": "",
-                        "obtain-refresh-token-success": ""
+                        "obtain-access-code-label": "Uzyskaj kod dostępu (wymaga klucza aplikacji)",
+                        "obtain-access-code-button": "Otwórz Dropbox",
+                        "obtain-refresh-token-label": "Użyj kodu dostępu, aby uzyskać token odświeżania (wymaga klucza i sekretu aplikacji)",
+                        "obtain-refresh-token-button": "Użyj kodu",
+                        "obtain-refresh-token-success": "Token odświeżania został uzyskany i uzupełniony powyżej! Zapisz zmiany, aby go zachować."
                     }
                 },
                 "gdrive": {
                     "client-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID klienta",
+                        "description": "Postępuj zgodnie z instrukcjami na stronie https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, aby utworzyć projekt Google i uzyskać ID klienta oraz sekret klienta.\n"
                     },
                     "client-secret": {
-                        "label": "",
-                        "description": ""
+                        "label": "Sekret klienta",
+                        "description": " "
                     },
                     "refresh-token": {
-                        "label": "Odśwież token",
-                        "description": ""
+                        "label": "Token odświeżania",
+                        "description": "Postępuj zgodnie z instrukcjami na stronie https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, aby uzyskać token odświeżania dla swojej aplikacji Google OAuth.\n"
                     },
                     "folder": {
                         "label": "ID folderu",
                         "description": "https://drive.google.com/drive/u/0/folders/ID"
                     },
                     "help": {
-                        "test_success_alert": "",
-                        "test_button": ""
+                        "test_success_alert": "Połączono z Google Drive! Zapisz zmiany, aby zachować ustawienia.",
+                        "test_button": "Testuj połączenie"
                     }
                 },
                 "ftp": {
                     "host": {
                         "label": "Nazwa hosta zdalnego",
-                        "description": ""
+                        "description": "Nazwa hosta, z którym ma zostać nawiązane połączenie FTP, np. <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
                         "label": "Nazwa użytkownika",
@@ -160,15 +160,15 @@
                         "description": "Hasło do uwierzytelnienia się na serwerze FTP."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Klucz prywatny",
+                        "description": "Ścieżka (najlepiej bezwzględna) do klucza prywatnego używanego do uwierzytelniania połączenia FTP."
                     },
                     "port": {
                         "label": "Port",
                         "description": "Port FTP (domyślny to 21)."
                     },
                     "root": {
-                        "label": "",
+                        "label": "Ścieżka katalogu głównego",
                         "description": "Zdalna ścieżka katalogu głównego (podkatalog) do przechowywania kopii zapasowych."
                     },
                     "passive": {
@@ -180,7 +180,7 @@
                         "description": "Określa, czy ma być używane szyfrowane połączenie SSL z serwerem."
                     },
                     "timeout": {
-                        "label": "",
+                        "label": "Limit czasu",
                         "description": "Liczba sekund oczekiwania na połączenie z serwerem FTP."
                     }
                 }

@@ -34,17 +34,17 @@
             "settings": {
                 "maximum_image_count": {
                     "description": "Maksymalna liczba obrazków.",
-                    "help": "",
+                    "help": "Gdy użytkownik przekroczy maksymalną liczbę obrazków w sygnaturce, nie będzie mógł jej zapisać, dopóki nie zmniejszy ich liczby.",
                     "placeholder": "5 (domyślne)"
                 },
                 "maximum_char_limit": {
                     "description": "Maksymalna liczba znaków w sygnaturce.",
-                    "help": "",
+                    "help": "Gdy użytkownik przekroczy maksymalną liczbę znaków w sygnaturce, nie będzie mógł jej zapisać, dopóki jej nie skróci.",
                     "placeholder": "1000 (domyślne)"
                 },
                 "allow_inline_editing": {
-                    "description": "",
-                    "help": ""
+                    "description": "Edycja sygnaturki bezpośrednio w poście.",
+                    "help": "Po włączeniu użytkownicy mogą edytować swoją sygnaturkę podczas przeglądania posta."
                 },
                 "maximum_image_width": {
                     "description": "Maksymalna szerokość obrazków w edytorze.",
