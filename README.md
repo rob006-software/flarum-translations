@@ -1208,6 +1208,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
 | [`michaelbelgium-mybb-to-flarum`](https://weblate.rob006.net/projects/flarum2/michaelbelgium-mybb-to-flarum) | [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) |
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum2/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
+| [`nwnuyhs-user-manager`](https://weblate.rob006.net/projects/flarum2/nwnuyhs-user-manager) | [`nwnuyhs/flarum-user-manager`](https://github.com/nwnuyhs/flarum-user-manager) |
 | [`peopleinside-fla-powcaptcha`](https://weblate.rob006.net/projects/flarum2/peopleinside-fla-powcaptcha) | [`peopleinside/fla-powcaptcha`](https://github.com/PeopleInside/fla-powcaptcha) |
 | [`peopleinside-antiflood`](https://weblate.rob006.net/projects/flarum2/peopleinside-antiflood) | [`peopleinside/flarum-ext-antiflood`](https://github.com/PeopleInside/flarum-ext-antiflood) |
 | [`peopleinside-restricted-visibility`](https://weblate.rob006.net/projects/flarum2/peopleinside-restricted-visibility) | [`peopleinside/flarum-restricted-visibility`](https://github.com/PeopleInside/flarum-restricted-visibility) |
