@@ -54,7 +54,7 @@
                 "remove": "Вилучити з {the_noun}",
                 "back": "{noun, select, novel {Усі романи} story {Усі історії} book {Усі книги} other {Усі серії}}"
             },
-            "list_badge": "",
+            "list_badge": "{noun, select, novel {Роман} story {Оповідання} book {Книжка} other {Серія}}: {title}",
             "chapter_bar": {
                 "label": "Розділ {number} із {count}",
                 "previous": "Назад",
@@ -122,7 +122,7 @@
                     "book": "Книга"
                 },
                 "show_nav": "Показувати посилання на бічній панелі",
-                "list_badge": ""
+                "list_badge": "Показувати позначку серії у списках обговорень"
             },
             "permissions": {
                 "view": "Переглядати серії",
