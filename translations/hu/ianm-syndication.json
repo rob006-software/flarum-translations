@@ -4,8 +4,8 @@
             "autodiscovery": {
                 "forum_activity": "Fórumtevékenység",
                 "forum_new_discussions": "A fórum új témái",
-                "tag_activity": "A(z) {tag} új tevékenységei",
-                "tag_new_discussions": "A(z) {tag} új témái",
+                "tag_activity": "A(z) {tag} címke új tevékenységei",
+                "tag_new_discussions": "A(z) {tag} címke új témái",
                 "discussion_last_posts": "Ez a téma",
                 "user_last_posts": "E felhasználó bejegyzései és hozzászólásai"
             },
@@ -20,10 +20,10 @@
                     "main_subtitle": "A fórum legutóbbi bejegyzései",
                     "main_d_title": "Új témák itt: {forum_name}",
                     "main_d_subtitle": "A fórum legújabb témái",
-                    "tag_title": "A(z) {tag} tevékenységei",
+                    "tag_title": "A(z) {tag} címke tevékenységei",
                     "tag_subtitle": "A(z) {tag} címke legutóbbi bejegyzései",
-                    "tag_d_title": "A(z) {tag} új témái",
-                    "tag_d_subtitle": "A(z) {tag} legújabb témái",
+                    "tag_d_title": "A(z) {tag} címke új témái",
+                    "tag_d_subtitle": "A(z) {tag} címke legújabb témái",
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "A téma legutóbbi üzenetei",
                     "user_title": "{username}",
@@ -38,7 +38,7 @@
             "settings": {
                 "full-text": {
                     "label": "Teljes szöveges hírcsatornák",
-                    "help": "Ha kikapcsolja, akkor a hírcsatornák csak a bejegyzések kivonatát fogja tartalmazni, és a felhasználóknak oda kell menniük a fórumhoz, hogy minden elolvassanak. Azt javasolnám, hogy hagyja bekapcsolva, hogy tiszteletben tartsa a fórumot RSS aggregátorból követő felhasználókat."
+                    "help": "Ha kikapcsolja, akkor a hírcsatornák csak a bejegyzések kivonatát fogja tartalmazni, és a felhasználóknak oda kell menniük a fórumhoz, hogy mindent elolvassanak. Azt javasolnám, hogy hagyja bekapcsolva, hogy tiszteletben tartsa a fórumot RSS aggregátorból követő felhasználókat."
                 },
                 "html": {
                     "label": "Formázott hírcsatornák",

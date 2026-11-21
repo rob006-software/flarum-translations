@@ -2,14 +2,14 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку «перенести».",
+                "description_text": "Перенесіть форум MyBB до цього екземпляра Flarum. Заповніть потрібні дані, а потім натисніть кнопку «Перенести».",
                 "convert_button": "Мігрувати",
                 "form": {
                     "options": {
                         "title": "Інші варіанти",
                         "migrate_avatars_label": "Мігрувати аватарки",
-                        "migrate_soft_threads_label": "Перемістити м'яко видалених тем",
-                        "migrate_soft_posts_label": "Перемістити м'яко видалених дописів",
+                        "migrate_soft_threads_label": "Перенести гілки обговорень, видалені з можливістю відновлення",
+                        "migrate_soft_posts_label": "Перенести дописи, видалені з можливістю відновлення",
                         "migrate_attachments_label": "Перемістити вкладені файли"
                     },
                     "mybb": {

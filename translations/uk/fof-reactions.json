@@ -7,10 +7,10 @@
             "settings": {
                 "notify_post_reacted_label": "Хтось відреагував на один з моїх дописів"
             },
-            "reacting-own-post": "Ви не можете реагувати на власний пост",
+            "reacting-own-post": "Ви не можете реагувати на власний допис",
             "modal": {
                 "title": "Реакції",
-                "anonymous_count": "{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}",
+                "anonymous_count": "{count, plural, one {# анонімний користувач} few {# анонімні користувачі} many {# анонімних користувачів} other {# анонімного користувача}}",
                 "no_reactions": "Поки що немає реакцій"
             },
             "mod_item": "Перегляд реакцій",
@@ -27,7 +27,7 @@
                     "title": "CDN",
                     "help": "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN \nв міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n",
                     "label": "URL-адреса",
-                    "default-url": "За налаштуванням: {url}"
+                    "default-url": "За замовчуванням: {url}"
                 },
                 "reactions": {
                     "title": "Нестандартні реакції",

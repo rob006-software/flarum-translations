@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "Закріплені дискусії"
+                "sticky_discussions_label": "Закріплювати обговорення"
             },
             "settings": {
                 "pin_sticky_on_all_discussions_label": "Закріплювати обговорення на сторінці «Усі обговорення»",
@@ -18,8 +18,8 @@
                 "unsticky_button": "Відкріплено"
             },
             "post_stream": {
-                "discussion_stickied_text": "Користувач {username} закріпив дискусію {time}.",
-                "discussion_unstickied_text": "Користувач {username} скасував закріплення дискусії {time}."
+                "discussion_stickied_text": "Користувач {username} закріпив обговорення {time}.",
+                "discussion_unstickied_text": "Користувач {username} скасував закріплення обговорення {time}."
             }
         },
         "ref": {

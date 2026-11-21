@@ -47,8 +47,8 @@
             "no_permission": "Ви не маєте права голосу",
             "poll_ended": "Опитування завершено.",
             "public_poll": "Переглянути тих хто проголосував",
-            "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.",
-            "polls_count": "{count, plural, one { {count} голос} other {{count} голосів}}",
+            "max_votes_allowed": "В опитуванні можна проголосувати за {max, plural, one {# варіант} few {# варіанти} many {# варіантів} other {# варіанта}}.",
+            "polls_count": "{count, plural, one {{count} голос} few {{count} голоси} many {{count} голосів} other {{count} голосу}}",
             "poll_never_ends": "Опитування ніколи не закінчується",
             "answers": "Відповіді",
             "poll": {
@@ -56,7 +56,7 @@
                 "submit_button": "Проголосувати",
                 "start_poll_button": "Розпочати глобальне опитування",
                 "cannot_start_poll_button": "Неможливо розпочати опитування",
-                "total_votes": "{count, plural, one {# віддано голосів} other {# було віддано голосів}}",
+                "total_votes": "{count, plural, one {Віддано # голос} few {Віддано # голоси} many {Віддано # голосів} other {Віддано # голосу}}",
                 "draft_label": "Чернетка",
                 "scheduled_label": "Заплановано на {date}",
                 "scheduled_error_tooltip": "Не вдалося виконати заплановану публікацію. Відкрийте опитування, щоб дізнатися причину."
@@ -217,7 +217,7 @@
             },
             "tooltip": {
                 "badge": "Опитування",
-                "votes": "{count, plural, one {# голос} other {# голосів}}"
+                "votes": "{count, plural, one {# голос} few {# голоси} many {# голосів} other {# голосу}}"
             },
             "votes_modal": {
                 "title": "Хто проголосував"

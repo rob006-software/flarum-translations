@@ -2,11 +2,11 @@
     "walsgit-recycle-bin": {
         "admin": {
             "discussions_bin": "Papelera de discusiones",
-            "posts_bin": "Papelera de Publicaciones",
+            "posts_bin": "Papelera de publicaciones",
             "search_placeholder": "Buscar una discusión",
             "search_post_placeholder": "Buscar una publicación",
-            "search_help_text": "Búsquedas de palabras en los títulos y en los mensajes de las discusiones",
-            "search_post_help_text": "Búsquedas de palabras en las publicaciones ocultas",
+            "search_help_text": "Busca palabras tanto en los títulos como en el contenido de las discusiones",
+            "search_post_help_text": "Busca palabras dentro de las publicaciones ocultas",
             "total_hidden_discussions": "Total de discusiones ocultas",
             "total_hidden_posts": "Total de publicaciones ocultas",
             "empty_list": "No hay discusiones en la papelera de reciclaje.",
@@ -16,45 +16,45 @@
             "discussion_link_tooltip": "Ver discusión",
             "author": "Autor",
             "unknown_user": "Usuario desconocido",
-            "created_at": "Creada el",
-            "hidden_at": "Oculta el",
+            "created_at": "Creado el",
+            "hidden_at": "Ocultado el",
             "unknown_date": "Fecha desconocida",
             "actions": "Acciones",
             "restore_tooltip": "Restaurar discusión",
-            "restore_post_tooltip": "Restaurar publicación",
+            "restore_post_tooltip": "Restaurar publicación n.º {postId}",
             "restore_discussion": {
                 "title": "Restaurar discusión",
-                "confirmation": "¿Estás seguro de que quieres restaurar esta discusión?",
+                "confirmation": "¿Está seguro de que desea restaurar esta discusión:",
                 "restore_button": "Restaurar esta discusión",
-                "success": "Se restableció la discusión con éxito"
+                "success": "Discusión restaurada correctamente"
             },
             "restore_post": {
                 "title": "Restaurar publicación",
-                "confirmation": "¿Estás seguro de que quieres restaurar esta publicación de la discusión? ",
+                "confirmation": "¿Está seguro de que desea restaurar esta publicación de la discusión ",
                 "restore_button": "Restaurar esta publicación",
-                "success": "Se restauró la publicación con éxito"
+                "success": "Publicación restaurada correctamente"
             },
             "delete_discussion": {
-                "title": "Eliminar para siempre",
-                "confirmation": "¿Estás seguro de que quieres <u>eliminar para siempre</u> esta discusión? (es irreversible)",
-                "delete_button": "Eliminar esta discusión para siempre",
-                "success": "Se eliminó la discusión con éxito"
+                "title": "Eliminar de forma permanente",
+                "confirmation": "¿Está seguro de que desea <u>eliminar de forma permanente</u> esta discusión (acción irreversible):",
+                "delete_button": "Eliminar de forma permanente esta discusión",
+                "success": "Discusión eliminada correctamente"
             },
             "delete_post": {
-                "title": "Eliminar para siempre",
-                "confirmation": "¿Estás seguro de que quieres <u>eliminar para siempre</u> esta publicación? (es irreversible)",
-                "delete_button": "Eliminar esta publicación para siempre",
-                "success": "Se eliminó la publicación correctamente"
+                "title": "Eliminar de forma permanente",
+                "confirmation": "¿Está seguro de que desea <u>eliminar de forma permanente</u> esta publicación (acción irreversible):",
+                "delete_button": "Eliminar de forma permanente esta publicación",
+                "success": "Publicación eliminada correctamente"
             },
             "delete_tooltip": "Eliminar discusión",
-            "delete_post_tooltip": "Eliminar publicación",
-            "bulk_actions": "Acciones para discusiones seleccionadas: ",
-            "bulk_post_actions": "Acciones para publicaciones seleccionadas: ",
+            "delete_post_tooltip": "Eliminar publicación n.º {postId}",
+            "bulk_actions": "Acciones para las discusiones seleccionadas: ",
+            "bulk_post_actions": "Acciones para las publicaciones seleccionadas: ",
             "bulk_restore_label": "Restaurar discusiones seleccionadas",
             "bulk_post_restore_label": "Restaurar publicaciones seleccionadas",
             "mass_restore_modal": {
                 "title": "Restaurar las discusiones seleccionadas",
-                "text_start": "¿Estás seguro de que quieres restaurar estas? ",
+                "text_start": "¿Está seguro de que desea restaurar las ",
                 "text_end": " discusiones seleccionadas?",
                 "submit_button": "Restaurar estas discusiones",
                 "success": "Discusiones seleccionadas restauradas correctamente"
