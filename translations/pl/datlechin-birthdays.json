@@ -8,12 +8,12 @@
             "settings": {
                 "min_age_help": "Użytkownicy muszą mieć ukończone co najmniej tyle lat. Ograniczenie jest sprawdzane przy każdym zapisywaniu daty urodzenia. Ustaw 0, aby odrzucać tylko daty z przyszłości.",
                 "min_age_label": "Minimalny wiek",
-                "sign_up_help": "",
-                "sign_up_label": "",
+                "sign_up_help": "Określa, czy formularz rejestracji pyta o datę urodzenia.",
+                "sign_up_label": "Data urodzenia przy rejestracji",
                 "sign_up_options": {
-                    "off": "",
-                    "optional": "",
-                    "required": ""
+                    "off": "Nie pytaj",
+                    "optional": "Pytaj, opcjonalnie",
+                    "required": "Pytaj, wymagane"
                 },
                 "set_on_registration_label": "Zezwól na ustawianie daty urodzenia podczas rejestracji",
                 "required_label": "Wymagaj podania daty urodzenia",
@@ -23,41 +23,41 @@
                 "date_none_year_label": "Format daty bez roku"
             },
             "users": {
-                "birthday_column": "",
-                "no_birthday": ""
+                "birthday_column": "=> datlechin-birthdays.lib.birthday_label",
+                "no_birthday": "Nie ustawiono"
             }
         },
         "forum": {
             "badge": {
-                "birthday_tooltip": ""
+                "birthday_tooltip": "Dziś ma urodziny"
             },
             "change_birthday": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> datlechin-birthdays.forum.settings.change_birthday_button"
             },
             "nav": {
-                "birthdays_link": "",
+                "birthdays_link": "=> datlechin-birthdays.forum.page.title",
                 "nav_item": "Dzisiejsze urodziny"
             },
             "notifications": {
-                "birthday_text": ""
+                "birthday_text": "Wszystkiego najlepszego z okazji urodzin od wszystkich z forum {forum}!"
             },
             "page": {
-                "empty_text": "",
-                "load_more_button": "",
-                "title": "",
-                "today_heading": "",
-                "tomorrow_heading": "",
-                "turns_text": "",
+                "empty_text": "Brak urodzin w najbliższym tygodniu.",
+                "load_more_button": "=> core.ref.load_more",
+                "title": "Urodziny",
+                "today_heading": "Dzisiaj",
+                "tomorrow_heading": "Jutro",
+                "turns_text": "Kończy {age, plural, one {# rok} few {# lata} many {# lat} other {# roku}}",
                 "discussion_count": "{count, plural, one {Dyskusje: #} other {Dyskusje: #}}",
                 "post_count": "{count, plural, one {Posty: #} other {Posty: #}}"
             },
             "settings": {
-                "add_birthday_button": "",
-                "change_birthday_button": "",
-                "notify_birthday_label": "",
-                "show_age_label": "",
-                "show_birthday_label": "",
+                "add_birthday_button": "Dodaj datę urodzenia",
+                "change_birthday_button": "Zmień datę urodzenia",
+                "notify_birthday_label": "Składaj mi życzenia urodzinowe",
+                "show_age_label": "Pokazuj mój wiek w profilu",
+                "show_birthday_label": "Pokazuj datę moich urodzin w profilu",
                 "change_dob_label": "Zmień datę urodzenia",
                 "dob_heading": "=> datlechin-birthdays.ref.date_of_birth",
                 "show_dob_date_label": "Pokaż dzień i miesiąc urodzin",
@@ -65,9 +65,9 @@
                 "show_dob_year_help": "Pozwoli to ludziom zobaczyć Twój wiek."
             },
             "user_card": {
-                "age_text": "",
-                "birthday_and_age_text": "",
-                "birthday_text": ""
+                "age_text": "Wiek: {age}",
+                "birthday_and_age_text": "Urodziny: {date}, wiek: {age}",
+                "birthday_text": "Urodziny: {date}"
             },
             "user": {
                 "birthday_text": "Urodziny: {date}",
@@ -83,18 +83,18 @@
             }
         },
         "api": {
-            "future_birthday_message": "",
-            "invalid_birthday_filter_message": "",
-            "min_age_message": "",
+            "future_birthday_message": "Data urodzenia nie może być z przyszłości.",
+            "invalid_birthday_filter_message": "Filtr urodzin przyjmuje datę lub zakres obejmujący maksymalnie {max} dni, np. 2026-06-05..2026-06-11.",
+            "min_age_message": "Musisz mieć co najmniej {age, plural, one {# rok} few {# lata} many {# lat} other {# roku}}.",
             "invalid_dob_message": "Nieprawidłowa data urodzenia",
             "invalid_age_message": "Twój wiek musi wynosić co najmniej {minAge, plural, one {1 rok} few {# lata} other {# lat}}."
         },
         "lib": {
-            "birthday_label": "",
+            "birthday_label": "Data urodzenia",
             "datetime_formats": {
-                "birthday": "",
-                "birthdayWithYear": "",
-                "day": ""
+                "birthday": "D MMMM",
+                "birthdayWithYear": "LL",
+                "day": "dddd, D MMMM"
             }
         },
         "ref": {

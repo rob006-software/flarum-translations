@@ -18,7 +18,7 @@
                 "shortcode_articles_cat": "Lista artykułów z kategorii wskazanej identyfikatorem lub slugiem. Można ograniczyć ją do N najnowszych artykułów. Dodaj title=\"…\", aby wyświetlić nagłówek.",
                 "shortcode_article": "Link do pojedynczego artykułu wskazanego identyfikatorem.",
                 "shortcode_categories": "Lista kategorii.",
-                "shortcode_search": "",
+                "shortcode_search": "Wstawia w tym miejscu układu formularz wyszukiwania w wiki.",
                 "shortcode_heading": "Nagłówek (## i ### oznaczają mniejsze nagłówki).",
                 "shortcode_link": "Link. Same adresy internetowe również stają się linkami.",
                 "shortcode_html": "Surowy kod HTML w wierszach między znacznikami, np. do osadzenia treści lub widżetu. Zostaje zachowany dokładnie w podanej postaci.",
@@ -107,14 +107,14 @@
             "search": {
                 "heading": "Wiki",
                 "placeholder": "Szukaj w wiki",
-                "submit": "",
+                "submit": "Szukaj",
                 "results_heading": "Wyniki wyszukiwania dla „{query}”",
                 "all_button": "Szukaj „{query}” w wiki",
                 "empty": "Nie znaleziono artykułów pasujących do „{query}”."
             },
             "nav": "Wiki",
             "link_preview": {
-                "articles": ""
+                "articles": "{count, plural, one {# artykuł} few {# artykuły} many {# artykułów} other {# artykułu}}"
             },
             "common": {
                 "date_at_time": "{date} o {time}"
@@ -133,8 +133,8 @@
                 "no_categories": "Nie ma jeszcze żadnych kategorii."
             },
             "compose": {
-                "attach": "",
-                "uploading": "",
+                "attach": "Dołącz pliki",
+                "uploading": "Przesyłanie…",
                 "title": "Nowy artykuł",
                 "title_edit": "Edytuj artykuł",
                 "title_label": "Tytuł",
@@ -234,7 +234,7 @@
                 "restore_article": "Nie udało się przywrócić artykułu.",
                 "delete_article_forever": "Nie udało się trwale usunąć artykułu.",
                 "upload": "Nie udało się przesłać pliku.",
-                "download_denied": "",
+                "download_denied": "Nie masz uprawnień do pobrania tego pliku.",
                 "upload_no_files": "Przesyłanie nie zwróciło żadnych plików. Spróbuj ponownie.",
                 "unknown": "Nieznany błąd."
             }
