@@ -18,7 +18,7 @@
                 "colors": {
                     "heading": "Kolory",
                     "background_color_label": "Kolor tła",
-                    "background_color_text": "Ten kolor jest używany jako tło ekranu startowego wyświetlanego podczas uruchamiania aplikacji. Nie jest używany po jej pełnym załadowaniu.",
+                    "background_color_text": "Ten kolor jest używany jako tło ekranu startowego wyświetlanego podczas uruchamiania aplikacji. Nie jest używany po jej pełnym wczytaniu.",
                     "theme_color_label": "Kolor motywu",
                     "theme_color_text": "Ten kolor może być używany przez urządzenia podczas wyświetlania aplikacji, np. jako kolor otoczenia strony w przełączniku aplikacji na Androidzie."
                 },
@@ -41,7 +41,7 @@
                     "heading": "Pozostałe",
                     "force_portrait_text": "Wymusić orientację pionową?",
                     "push_notif_preference_default_to_email_label": "Domyślnie włączyć powiadomienia push zgodnie z ustawieniami e-mail?",
-                    "push_notif_preference_default_to_email_text": "Jeśli ta opcja jest włączona, powiadomienia push będą domyślnie aktywne dla typów powiadomień, dla których domyślnie aktywne są powiadomienia e-mail. Jeśli jest wyłączona, powiadomienia push będą domyślnie wyłączone.",
+                    "push_notif_preference_default_to_email_text": "Po włączeniu tej opcji powiadomienia push będą domyślnie aktywne dla typów powiadomień, dla których domyślnie aktywne są powiadomienia e-mail. Po wyłączeniu tej opcji powiadomienia push będą domyślnie wyłączone.",
                     "user_max_subscriptions_label": "Maksymalna liczba subskrypcji push na użytkownika",
                     "user_max_subscriptions_text": "Ile subskrypcji powiadomień push może mieć jednocześnie jeden użytkownik? Każda subskrypcja powoduje osobne wywołanie API przy wysyłaniu powiadomienia. Zwykle odpowiada ona przeglądarce używanej przez użytkownika.",
                     "window_controls_overlay_label": "Włączyć nakładkę kontrolek okna?",

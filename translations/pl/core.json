@@ -21,9 +21,9 @@
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
-                "favicon_text": "Prześlij obrazek, który będzie wyświetlany jako ikona forum.",
+                "favicon_text": "Prześlij obraz, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
-                "logo_text": "Prześlij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
+                "logo_text": "Prześlij obraz, który będzie wyświetlany jako logo w miejscu nazwy forum.",
                 "title": "Wygląd forum"
             },
             "basics": {
@@ -64,7 +64,7 @@
                 "comments_label": "{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}",
                 "description": "Ostatnie wiadomości i ogłoszenia od zespołu Flarum.",
                 "empty": "Nie znaleziono ogłoszeń.",
-                "load_error": "Nie można załadować ogłoszeń. Spróbuj ponownie później.",
+                "load_error": "Nie można wczytać ogłoszeń. Spróbuj ponownie później.",
                 "about": "Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.",
                 "hide": "Ukryj ogłoszenia",
                 "read_more": "Czytaj więcej",
@@ -189,7 +189,7 @@
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Proszę czekać..."
+                "title": "Proszę czekać…"
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -269,7 +269,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Wybierz obrazek..."
+                "upload_button": "Wybierz obraz…"
             },
             "users": {
                 "create_user_button": "Nowy użytkownik",
@@ -344,7 +344,7 @@
                 "preview_tooltip": "Podgląd"
             },
             "composer_discussion": {
-                "body_placeholder": "Napisz post...",
+                "body_placeholder": "Napisz post…",
                 "discard_confirmation": "Nie opublikowałeś swojej dyskusji. Czy chcesz ją porzucić?",
                 "submit_button": "Dodaj dyskusję",
                 "title": "=> core.ref.start_a_discussion",
@@ -670,7 +670,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
-                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
+                "load_error_message": "Coś poszło nie tak podczas wczytywania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -686,7 +686,7 @@
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
                 "permission_denied": "Nie masz uprawnień, aby przeglądać tę stronę.",
-                "unknown": "Wystąpił błąd podczas próby załadowania tej strony."
+                "unknown": "Wystąpił błąd podczas próby wczytania tej strony."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -732,7 +732,7 @@
             },
             "abandoned_extensions": {
                 "subject": "Wymagane działanie: wykryto porzucone rozszerzenia",
-                "body": "Cześć {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n",
+                "body": "Witaj {username},\n\nNastępujące zainstalowane rozszerzenia zostały oznaczone jako porzucone:\n\n{extensions}\n\nSprawdź te rozszerzenia i rozważ przejście na alternatywy, jeśli są dostępne.\n",
                 "line_with_replacement": "- {package} (sugerowany zamiennik: {replacement})",
                 "line_no_replacement": "- {package} (brak dostępnego zamiennika)"
             }
@@ -760,7 +760,7 @@
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
-            "loading": "Ładowanie...",
+            "loading": "Wczytywanie…",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
@@ -787,7 +787,7 @@
             "username": "Nazwa użytkownika",
             "users": "Użytkownicy",
             "view": "Zobacz",
-            "write_a_reply": "Napisz odpowiedź...",
+            "write_a_reply": "Napisz odpowiedź…",
             "you": "Ty"
         },
         "group": {

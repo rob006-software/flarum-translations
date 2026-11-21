@@ -11,12 +11,12 @@
                     "help": "Te ustawienia kontrolują funkcję globalnych ankiet."
                 },
                 "image": {
-                    "heading": "Ustawienia obrazków",
-                    "help": "Te ustawienia kontrolują działanie obrazków w ankietach."
+                    "heading": "Ustawienia obrazów",
+                    "help": "Te ustawienia kontrolują działanie obrazów w ankietach."
                 },
-                "allow_option_image": "Pozwól na podanie URL obrazka dla każdej opcji wyboru w ankiecie",
-                "allow_image_uploads": "Pozwól na przesyłanie obrazków do ankiet i opcji wyboru",
-                "allow_image_uploads_help": "Jeśli włączone, użytkownicy będą mogli przesyłać obrazki z dysku, niezależnie od możliwości podania adresu URL obrazka (jeśli włączone dla opcji wyboru, dla samej ankiety jest to zawsze włączone).",
+                "allow_option_image": "Pozwól na podanie URL obrazu dla każdej opcji wyboru w ankiecie",
+                "allow_image_uploads": "Pozwól na przesyłanie obrazów do ankiet i opcji wyboru",
+                "allow_image_uploads_help": "Po włączeniu tej opcji użytkownicy będą mogli przesyłać obrazy z dysku, niezależnie od możliwości podania adresu URL obrazu (jeśli włączone dla opcji wyboru, dla samej ankiety jest to zawsze włączone).",
                 "enable_global_polls": "Włącz globalne ankiety",
                 "enable_global_polls_help": "Globalne ankiety nie są powiązane z konkretnym postem i można uzyskać do nich dostęp z dedykowanej strony ankiet.",
                 "enabled_poll_groups": "Włącz grupy ankiet",
@@ -24,8 +24,8 @@
                 "max_options": "Maksymalna liczba opcji w ankiecie",
                 "options_color_blend": "Mieszanie kolorów tekstu w opcjach ankiety",
                 "options_color_blend_help": "Włącz, aby użyć mieszania kolorów w celu poprawy czytelności opcji ankiety. Wyłącz, jeśli ta funkcja psuje wygląd forum i zmniejsza czytelność.",
-                "image_height": "Zmień wysokość obrazka",
-                "image_width": "Zmień szerokość obrazka"
+                "image_height": "Zmień wysokość obrazu",
+                "image_width": "Zmień szerokość obrazu"
             },
             "permissions": {
                 "view_results_without_voting": "Podglądanie wyników bez zagłosowania",
@@ -33,7 +33,7 @@
                 "start_global": "Tworzenie globalnych ankiet",
                 "self_edit": "Edytowanie utworzonych ankiet (wymaga uprawnień do edycji posta)",
                 "self_post_edit": "Edytowanie *wszystkich* ankiet we własnych postach (wymaga uprawnień do edycji posta)",
-                "upload_images": "Przesyłanie obrazków do ankiet",
+                "upload_images": "Przesyłanie obrazów do ankiet",
                 "vote": "Głosowanie w ankietach",
                 "change_vote": "Zmiana głosu",
                 "moderate": "Edytowanie i usuwanie ankiet",
@@ -159,7 +159,7 @@
             "modal": {
                 "add_title": "Dodaj ankietę",
                 "add_option_label": "Dodaj opcję",
-                "date_placeholder": "Data zakończenia ankiety (opcjonalne)",
+                "date_placeholder": "Data zakończenia ankiety (opcjonalna)",
                 "edit_title": "Edytuj ankietę",
                 "include_question": "Ankieta musi zawierać pytanie",
                 "max": "Możesz mieć maksymalnie {max, plural, one {# opcję} few {# opcje} other {# opcji}}",
@@ -167,7 +167,7 @@
                 "empty_answers": "{count, plural, one {# odpowiedź jest pusta – uzupełnij ją lub usuń.} few {# odpowiedzi są puste – uzupełnij je lub usuń.} other {# odpowiedzi jest pustych – uzupełnij je lub usuń.}}",
                 "no_voters": "Brak głosów",
                 "option_placeholder": "Odpowiedź",
-                "image_option_placeholder": "URL obrazka (opcjonalne)",
+                "image_option_placeholder": "URL obrazu (opcjonalny)",
                 "options_label": "Odpowiedzi",
                 "public_poll_label": "Pozwól użytkownikom zobaczyć, kto głosował",
                 "allow_multiple_votes_label": "Pozwól użytkownikom głosować na wiele opcji",
@@ -177,20 +177,20 @@
                 "hide_votes_label_help": "Użytkownik, który rozpoczął ankietę, zawsze będzie mógł zobaczyć głosy.",
                 "allow_change_vote_label": "Pozwól użytkownikom zmienić swój głos",
                 "question_placeholder": "Pytanie",
-                "subtitle_placeholder": "Podtytuł/Opis (opcjonalne)",
+                "subtitle_placeholder": "Podtytuł/Opis (opcjonalny)",
                 "submit": "Zatwierdź",
                 "delete": "=> core.ref.delete",
                 "error": "=> core.lib.error.generic_message",
                 "poll_image": {
-                    "label": "Obrazek ankiety",
-                    "help": "Prześlij obrazek, który będzie wyświetlany obok ankiety (opcjonalnie).",
-                    "alt_label": "Alternatywny tekst obrazka",
-                    "alt_help_text": "Ten tekst jest wymagany po ustawieniu obrazka i zostanie wyświetlony, jeśli obraz nie zostanie załadowany.",
-                    "later_help": "Po utworzeniu ankiety będzie można przesłać obrazek."
+                    "label": "Obraz ankiety",
+                    "help": "Prześlij obraz, który będzie wyświetlany obok ankiety (opcjonalnie).",
+                    "alt_label": "Alternatywny tekst obrazu",
+                    "alt_help_text": "Ten tekst jest wymagany po ustawieniu obrazu i zostanie wyświetlony, jeśli obraz nie zostanie wczytany.",
+                    "later_help": "Po utworzeniu ankiety będzie można przesłać obraz."
                 },
                 "poll_option_image": {
-                    "label": "Obrazek odpowiedzi ankiety",
-                    "help": "Prześlij obrazek, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie)."
+                    "label": "Obraz odpowiedzi ankiety",
+                    "help": "Prześlij obraz, który będzie wyświetlany obok odpowiedzi w ankiecie (opcjonalnie)."
                 },
                 "tooltip": {
                     "options": {
@@ -223,8 +223,8 @@
                 "title": "Głosujący użytkownicy"
             },
             "upload_image": {
-                "remove_button": "Usuń obrazek",
-                "upload_button": "Prześlij obrazek"
+                "remove_button": "Usuń obraz",
+                "upload_button": "Prześlij obraz"
             }
         }
     }
