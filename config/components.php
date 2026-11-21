@@ -1123,7 +1123,7 @@ return [
 		'__builtInLanguages' => ['vi'],
 	],
 	'lcoy-cipher' => [
-		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Lcoy2004/Flarum-cipher/1.2.4/resources/locale/en.yml',
 		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'linkrobins-auto-lock' => [
