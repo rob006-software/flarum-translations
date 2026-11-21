@@ -31,9 +31,7 @@ return [
 	],
 	'alanqoq-mie-files' => [
 		'tag' => 'https://raw.githubusercontent.com/alanqoq/flarum-mie-CDN-image-file/v0.2.0/locale/en.yml',
-		'__builtInLanguages' => [
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['zh_Hans'],
 	],
 	'anto0102-mailguard' => [
 		'tag' => 'https://raw.githubusercontent.com/anto0102/MailGuard/v2.0.7/locale/en.yml',
