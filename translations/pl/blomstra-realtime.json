@@ -15,7 +15,7 @@
                 "settings": {
                     "heading": "Realtime",
                     "typing-indicator-type": {
-                        "help": "Jeśli włączone, wskaźnik pisania będzie wyświetlał użytkowników, którzy aktualnie piszą. Wyłącz tę opcję, aby wyświetlać tylko liczbę użytkowników aktualnie piszących.",
+                        "help": "Po włączeniu tej opcji wskaźnik pisania będzie wyświetlał użytkowników, którzy aktualnie piszą. Wyłącz tę opcję, aby wyświetlać tylko liczbę użytkowników aktualnie piszących.",
                         "label": "Pokazuj kto pisze"
                     }
                 }
@@ -27,11 +27,11 @@
             },
             "settings": {
                 "release-discussion-updates": "Aktualizacja listy dyskusji",
-                "release-discussion-updates-help": "Jeśli włączone, nowe dyskusje będą wstrzyknięte w listę dyskusji używając zdefiniowanego interwału.",
+                "release-discussion-updates-help": "Po włączeniu tej opcji nowe dyskusje będą wstrzyknięte w listę dyskusji używając zdefiniowanego interwału.",
                 "release-discussion-updates-interval": "Interwał automatycznego wczytywania nowej aktywności na liście dyskusji",
                 "release-discussion-updates-interval-help": "W sekundach. 0 oznacza brak automatycznego odświeżania.",
                 "typing-indicator": "Wskaźnik pisania",
-                "typing-indicator-help": "Jeśli włączone, zależnie od uprawnień, użytkownicy mogą zobaczyć liczbę innych użytkowników piszących w tej samej dyskusji. Jeśli wyłączone, wskaźnik pisania zostaje usunięty z interfejsu i danych przesyłanych websocketem."
+                "typing-indicator-help": "Po włączeniu tej opcji, zależnie od uprawnień, użytkownicy mogą zobaczyć liczbę innych użytkowników piszących w tej samej dyskusji. Po wyłączeniu tej opcji wskaźnik pisania zostaje usunięty z interfejsu i danych przesyłanych websocketem."
             }
         }
     }
