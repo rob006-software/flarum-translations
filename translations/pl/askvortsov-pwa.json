@@ -8,7 +8,7 @@
             "pwa": {
                 "about": {
                     "description_label": "Opis",
-                    "description_text": "Możesz ustawić opis w podstawowych ustawieniach forum w panelu admina.",
+                    "description_text": "Możesz ustawić opis w podstawowych ustawieniach forum w panelu administracyjnym.",
                     "long_name_label": "Długa nazwa",
                     "long_name_text": "Nazwa aplikacji wyświetlana użytkownikowi.",
                     "heading": "O forum",
@@ -58,7 +58,7 @@
             },
             "status": {
                 "config_no_https": "URL w pliku <code>config.php</code> nie korzysta z HTTPS. HTTPS jest wymagany do działania Progressive Web App.",
-                "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Wyczyszczenie pamięci podręcznej (przycisk „Narzędzia” w kokpicie panelu admina) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
+                "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Wyczyszczenie pamięci podręcznej (przycisk „Narzędzia” w kokpicie panelu administracyjnego) może pomóc. Jeśli Twoja strona korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
                 "no_logo": "Aby Twoją aplikację dało się zainstalować, musisz przesłać co najmniej jedno logo o minimalnych wymiarach 144px na 144px.",
                 "no_name": "Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.",
                 "no_vapid_keys": "Nie znaleziono kluczy VAPID. Są one wymagane do wysyłania powiadomień push. Możesz zresetować klucze VAPID poniżej.",
