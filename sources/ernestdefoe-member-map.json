@@ -11,6 +11,11 @@
             "settings": {
                 "nav": "Show a Member map link in the forum sidebar",
                 "profile": "Let members show their location on their profile and user card",
+                "distance_units": "Show distances in",
+                "distance_units_help": "Used for the rough distances under Near you. Automatic guesses from each member's browser: miles in the US, UK, Liberia and Myanmar, kilometers everywhere else. A browser set to US English guesses miles wherever it is, so choose one if your community uses one.",
+                "distance_units_auto": "Automatic (from each member's browser)",
+                "distance_units_km": "Kilometers",
+                "distance_units_mi": "Miles",
                 "jitter": "Scatter members a little within their city",
                 "jitter_help": "Members who chose city level are moved up to about 3 km from the city center, the same way every time, so a busy city doesn't stack everyone on one point.",
                 "trip_radius_km": "Tell members within this many kilometers about a trip",
