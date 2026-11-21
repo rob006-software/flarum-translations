@@ -42,7 +42,7 @@
                 "fontawesome": {
                     "section_label": "Ikony FontAwesome",
                     "source_label": "Źródło ikony",
-                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN ładuje się z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
+                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN wczytuje je z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
                     "source_local": "Lokalny (pakiet)",
                     "source_cdn": "CDN",
                     "source_kit": "Zestaw FontAwesome",
@@ -197,7 +197,7 @@
                 "comments_label": "{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}",
                 "description": "Ostatnie wiadomości i ogłoszenia od zespołu Flarum.",
                 "empty": "Nie znaleziono ogłoszeń.",
-                "load_error": "Nie można załadować ogłoszeń. Spróbuj ponownie później.",
+                "load_error": "Nie można wczytać ogłoszeń. Spróbuj ponownie później.",
                 "about": "Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.",
                 "hide": "Ukryj ogłoszenia",
                 "read_more": "Czytaj więcej",
@@ -1039,7 +1039,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
-                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
+                "load_error_message": "Coś poszło nie tak podczas wczytywania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -1058,7 +1058,7 @@
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
                 "permission_denied": "Nie masz uprawnień, aby przeglądać tę stronę.",
-                "unknown": "Wystąpił błąd podczas próby załadowania tej strony."
+                "unknown": "Wystąpił błąd podczas próby wczytania tej strony."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1178,7 +1178,7 @@
             "light_mode_label": "Tryb jasny",
             "load_more": "Wczytaj więcej",
             "latest": "Ostatnio aktywne",
-            "loading": "Ładowanie...",
+            "loading": "Wczytywanie...",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
