@@ -2,33 +2,33 @@
     "forumaker-magic-dice": {
         "admin": {
             "settings": {
-                "section_main": "",
-                "clearOnEdit": "",
+                "section_main": "Налаштування",
+                "clearOnEdit": "Генерувати нові числа під час редагування допису",
                 "icons": {
-                    "color": "",
-                    "icon": "",
-                    "preview": "",
-                    "d6": "",
-                    "d10": "",
-                    "d20": ""
+                    "color": "Колір",
+                    "icon": "Клас значка",
+                    "preview": "Попередній перегляд",
+                    "d6": "d6",
+                    "d10": "d10",
+                    "d20": "d20"
                 }
             }
         },
         "forum": {
             "tooltip": {
-                "preview": ""
+                "preview": "Випадковий кидок під час збереження"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Magic Dice"
             },
             "settings": {
                 "diceSkin": {
-                    "heading": "",
-                    "classic": "",
-                    "circle": "",
-                    "hc": "",
-                    "gradient": "",
-                    "neon": ""
+                    "heading": "Стиль гральних кубиків",
+                    "classic": "Класичний",
+                    "circle": "Орбіта",
+                    "hc": "Контраст",
+                    "gradient": "Захід сонця",
+                    "neon": "Неон"
                 }
             }
         }
