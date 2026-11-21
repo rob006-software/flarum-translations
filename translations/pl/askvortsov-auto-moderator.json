@@ -2,11 +2,11 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
+                "activate_email": "Aktywuj adres e-mail",
                 "add_to_group": "Dodaj do grupy",
                 "remove_from_group": "Usuń z grupy",
-                "suspend": "",
-                "unsuspend": ""
+                "suspend": "Zbanuj",
+                "unsuspend": "Odbanuj"
             },
             "metric_drivers": {
                 "discussions_entered": "Odwiedzone dyskusje",
@@ -16,73 +16,73 @@
                 "likes_given": "Rozdane polubienia",
                 "likes_received": "Otrzymane polubienia",
                 "best_answers": "Najlepsze odpowiedzi",
-                "moderator_strikes": ""
+                "moderator_strikes": "Punkty karne z ostrzeżeń moderatorów"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
-                "email_matches_regex": ""
+                "email_confirmed": "Potwierdzony adres e-mail",
+                "in_group": "W grupie",
+                "suspended": "Zbanowany",
+                "email_matches_regex": "Adres e-mail pasuje do wyrażenia regularnego"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Wyrażenie regularne dla prawidłowych adresów e-mail (bez ukośników)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Wybierz grupę"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Liczba dni bana",
+                "indefinitely": "Zbanować na czas nieokreślony?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
-                "requirement_validation_errors": ""
+                "heading": "Sprawdzenie statusu",
+                "invalid": "Kryterium jest obecnie nieprawidłowe. Sprawdź poniższe sterowniki pod kątem błędów.",
+                "no_actions": "Dla tego kryterium nie zdefiniowano żadnych działań. Nic się nie stanie, gdy użytkownicy zaczną lub przestaną spełniać to kryterium.",
+                "no_metrics_or_reqs": "Dla tego kryterium nie zdefiniowano żadnych metryk ani wymagań. Oznacza to, że WSZYSCY użytkownicy będą je spełniać.",
+                "valid": "To kryterium jest prawidłowe!",
+                "action_validation_errors": "Wystąpiły następujące błędy walidacji sterowników działań:",
+                "requirement_validation_errors": "Wystąpiły następujące błędy walidacji sterowników wymagań:"
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
-                "metrics_and_requirements_label": "",
-                "metrics_and_requirements_help": "",
-                "metrics_heading": "",
-                "requirements_heading": "",
-                "add_metric": "",
-                "actions_label": "",
-                "actions_help": "",
-                "actions_on_gain_heading": "",
-                "actions_on_loss_heading": "",
-                "add_action": ""
+                "driver_missing_ext": "Ten sterownik wymaga rozszerzeń, które nie są włączone.",
+                "back": "Wróć do listy kryteriów",
+                "name_label": "Nazwa",
+                "icon_label": "Ikona",
+                "description_label": "Opis",
+                "new_criterion": "Utwórz kryterium",
+                "negated": "Odwrócić warunek?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metryki i wymagania",
+                "metrics_and_requirements_help": "Określają, czy użytkownicy spełniają to kryterium. Metryki to zakresy wartości, a wymagania to warunki logiczne (prawda/fałsz).",
+                "metrics_heading": "Metryki",
+                "requirements_heading": "Wymagania",
+                "add_metric": "Dodaj metrykę",
+                "actions_label": "Działania",
+                "actions_help": "Działania przy spełnieniu są wykonywane, gdy użytkownik zaczyna spełniać kryterium. Działania przy utracie są wykonywane, gdy użytkownik przestaje spełniać kryterium.",
+                "actions_on_gain_heading": "Działania przy spełnieniu",
+                "actions_on_loss_heading": "Działania przy utracie",
+                "add_action": "Dodaj działanie"
             },
             "undefined_driver_item": {
-                "text": ""
+                "text": "BŁĄD! Sterownik <strong>{driverName}</strong> nie jest zdefiniowany. Najprawdopodobniej został dodany przez rozszerzenie, które nie jest obecnie zainstalowane. Aby kryterium znów było prawidłowe, musisz ponownie włączyć to rozszerzenie lub usunąć ten sterownik."
             },
             "automoderator_page": {
-                "criterion_invalid": "",
-                "list_heading": "",
-                "create_criterion_button": ""
+                "criterion_invalid": "Kryterium jest obecnie nieprawidłowe. Więcej informacji znajdziesz w jego ustawieniach",
+                "list_heading": "Kryteria",
+                "create_criterion_button": "Utwórz nowe kryterium"
             },
             "automoderator_instructions": {
-                "header": "",
-                "text": ""
+                "header": "Instrukcja rozszerzenia",
+                "text": "<li>W skrócie: gdy użytkownik spełnia kryterium X, wykonaj Y. Gdy użytkownik przestaje spełniać kryterium X, wykonaj Z.</li>\n<li><strong>Kryteria:</strong> Kryteria są podstawą tego rozszerzenia. To dowolne zestawy metryk i wymagań. Gdy użytkownik zaczyna spełniać kryterium, wykonywane są wszystkie jego działania „przy spełnieniu”. Gdy użytkownik przestaje spełniać kryterium, wykonywane są wszystkie jego działania „przy utracie”.</li>\n<ul>\n  <li><strong>Metryka:</strong> Warunek liczbowy, np. liczba postów lub otrzymanych polubień. Kryterium może wymagać określonego zakresu, minimum lub maksimum metryk.</li>\n  <li><strong>Wymaganie:</strong> Abstrakcyjny warunek logiczny, np. brak bana lub adres e-mail pasujący do określonego wyrażenia regularnego.</li>\n</ul>\n<li><strong>Działania:</strong> Coś, co dzieje się automatycznie, gdy kryterium zostaje spełnione lub utracone – od dodania lub usunięcia grupy, przez wysłanie e-maila, po zbanowanie użytkownika.</li>\n<li><strong>Wyzwalacz:</strong> Zestaw zdarzeń, które powodują ponowną ocenę kryteriów użytkownika. Wyzwalacze są częścią definicji metryk i wymagań. Wszystkie kryteria są oceniane przy logowaniu – to „uniwersalny wyzwalacz”.</li>\n<li>Działania „przy utracie” są zawsze wykonywane przed działaniami „przy spełnieniu”. Dzięki temu działanie zostanie wykonane, dopóki użytkownik spełnia co najmniej jedno z kryteriów, które wykonują to działanie przy spełnieniu.</li>\n<li>Pamiętaj, że działania są wykonywane tylko „przy utracie” i „przy spełnieniu”. Ręczne zmiany wprowadzone, gdy użytkownik spełnia kryterium, nie spowodują ponownego wykonania jego działań „przy spełnieniu”.</li>\n<li>Jeśli usuniesz kryterium, działania „przy utracie” NIE zostaną wykonane dla użytkowników, którzy obecnie je spełniają.</li>\n<li>Jeśli używasz kryteriów do zarządzania grupami, zalecamy utrzymywanie osobnego zestawu grup zarządzanych wyłącznie przez kryteria. Nie będzie można ręcznie dodawać użytkowników do tych grup ani ich z nich usuwać.</li>\n"
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "ID grupy",
             "managed_groups": {
-                "header": "",
-                "group_item": "",
-                "groups_not_editable": ""
+                "header": "Zarządzane grupy:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Grup zarządzanych przez kryteria automatycznej moderacji nie można ręcznie przypisywać użytkownikom ani im odbierać, aby uniknąć niespójności."
             }
         }
     }
