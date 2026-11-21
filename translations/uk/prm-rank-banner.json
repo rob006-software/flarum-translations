@@ -1,29 +1,29 @@
 {
     "prm-rank-banner": {
         "forum": {
-            "rank_banner_label": ""
+            "rank_banner_label": "Звання «{name}»"
         },
         "admin": {
-            "title": "",
-            "help": "",
-            "show_label": "",
-            "style_label": "",
-            "style_default": "",
-            "style_image": "",
-            "name_label": "",
-            "color_label": "",
-            "icon_label": "",
-            "icon_help": "",
-            "label_label": "",
-            "label_help": "",
-            "image_label": "",
-            "image_help": "",
-            "upload_button": "",
-            "remove_image_button": "",
-            "save_button": "",
-            "saved": "",
-            "preview_label": "",
-            "guest_note": ""
+            "title": "Звання",
+            "help": "Налаштуйте банери звань для кожної групи. Стандартний стиль поєднує піктограму, колір і назву. Також можна завантажити власне горизонтальне зображення, як у XenForo.",
+            "show_label": "Показувати на форумі",
+            "style_label": "Стиль банера",
+            "style_default": "Стандартний (піктограма й текст)",
+            "style_image": "Власне зображення",
+            "name_label": "Назва звання",
+            "color_label": "Колір",
+            "icon_label": "Значок",
+            "icon_help": "Клас Font Awesome, наприклад fas fa-star",
+            "label_label": "Текст банера",
+            "label_help": "Залиште поле порожнім, щоб використати назву звання.",
+            "image_label": "Горизонтальне зображення банера",
+            "image_help": "PNG, JPG, GIF або WEBP. Не більше 1 МБ. Рекомендовано PNG із прозорим тлом.",
+            "upload_button": "Завантажити зображення",
+            "remove_image_button": "Вилучити зображення",
+            "save_button": "Зберегти",
+            "saved": "Збережено",
+            "preview_label": "Попередній перегляд",
+            "guest_note": "Банер групи гостей не відображається."
         }
     }
 }

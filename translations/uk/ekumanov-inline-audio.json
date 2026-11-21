@@ -1,14 +1,14 @@
 {
     "ekumanov-inline-audio": {
         "forum": {
-            "bbcode_description": ""
+            "bbcode_description": "Вбудувати аудіопрогравач: [player]URL[/player]"
         },
         "admin": {
             "settings": {
-                "show_download_button": "",
-                "show_right_click_download": "",
-                "auto_play": "",
-                "strip_upload_prefix": ""
+                "show_download_button": "Показувати кнопку завантаження на панелі програвача",
+                "show_right_click_download": "Дозволити зберігати файл через контекстне меню його назви",
+                "auto_play": "Починати відтворення відразу після натискання на назву файлу",
+                "strip_upload_prefix": "Приховувати цифровий префікс у назвах завантажених файлів (наприклад, «1774205518-685373-song.mp3» → «song.mp3»)"
             }
         }
     }

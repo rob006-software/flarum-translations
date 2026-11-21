@@ -2,24 +2,24 @@
     "quasimo-llms-txt": {
         "admin": {
             "settings": {
-                "urls_label": "",
-                "urls_help": "",
-                "open_label": "",
-                "enabled_label": "",
-                "enabled_help": "",
-                "full_enabled_label": "",
-                "full_enabled_help": "",
-                "sort_label": "",
-                "sort_latest": "",
-                "sort_top": "",
-                "sort_help": "",
-                "max_discussions_label": "",
-                "max_discussions_help": "",
-                "max_posts_label": "",
-                "max_posts_help": "",
-                "custom_intro_label": "",
-                "custom_intro_placeholder": "",
-                "custom_intro_help": ""
+                "urls_label": "Адреси кінцевих точок",
+                "urls_help": "Після ввімкнення за цими адресами буде доступний вміст форуму у форматі, зручному для великих мовних моделей.",
+                "open_label": "Відкрити в новій вкладці",
+                "enabled_label": "Увімкнути llms.txt",
+                "enabled_help": "За адресою {url} буде доступний стислий покажчик форуму з посиланнями на категорії та нещодавні обговорення.",
+                "full_enabled_label": "Увімкнути llms-full.txt",
+                "full_enabled_help": "За адресою {url} буде доступний повний текст усіх обговорень разом із вмістом кожного допису.",
+                "sort_label": "Порядок сортування обговорень",
+                "sort_latest": "За останньою активністю",
+                "sort_top": "За кількістю відповідей",
+                "sort_help": "Визначає порядок обговорень в обох згенерованих файлах.",
+                "max_discussions_label": "Максимальна кількість обговорень",
+                "max_discussions_help": "Скільки обговорень включити до списку (від 1 до 1000). Типове значення — 100.",
+                "max_posts_label": "Максимум дописів на обговорення (лише для llms-full.txt)",
+                "max_posts_help": "Скільки дописів з кожного обговорення включити до повного файла (від 1 до 500). Типове значення — 50.",
+                "custom_intro_label": "Власний вступний абзац",
+                "custom_intro_placeholder": "Введіть необов’язковий вступ, який буде показано під назвою форуму в обох файлах.",
+                "custom_intro_help": "Залиште поле порожнім, щоб пропустити вступ. Підтримується звичайний текст і Markdown."
             }
         }
     }

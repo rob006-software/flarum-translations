@@ -2,22 +2,22 @@
     "prm-security": {
         "admin": {
             "settings": {
-                "provider_label": "",
-                "provider_help": "",
-                "provider_none": "",
-                "provider_recaptcha": "",
-                "provider_hcaptcha": "",
-                "provider_turnstile": "",
-                "site_key_label": "",
-                "site_key_help": "",
-                "secret_key_label": "",
-                "secret_key_help": "",
-                "on_login_label": "",
-                "on_register_label": ""
+                "provider_label": "Провайдер CAPTCHA",
+                "provider_help": "Виберіть, яку перевірку мають пройти відвідувачі під час входу й реєстрації. Залиште перевірку вимкненою, доки не введете ключі.",
+                "provider_none": "Вимкнено",
+                "provider_recaptcha": "Google reCAPTCHA v2",
+                "provider_hcaptcha": "hCaptcha",
+                "provider_turnstile": "Cloudflare Turnstile",
+                "site_key_label": "Ключ сайту",
+                "site_key_help": "Відкритий ключ із панелі провайдера. Його можна показувати в браузері.",
+                "secret_key_label": "Секретний ключ",
+                "secret_key_help": "Закритий ключ. Зберігайте його в таємниці. Отримайте ключі від Google reCAPTCHA, hCaptcha або Cloudflare Turnstile.",
+                "on_login_label": "Вимагати під час входу",
+                "on_register_label": "Вимагати під час реєстрації"
             }
         },
         "forum": {
-            "invalid": ""
+            "invalid": "Пройдіть CAPTCHA й спробуйте ще раз."
         }
     }
 }

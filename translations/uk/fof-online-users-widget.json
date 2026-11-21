@@ -2,18 +2,18 @@
     "fof-online-users-widget": {
         "admin": {
             "settings": {
-                "cache_ttl": "",
-                "last_seen_interval": "",
-                "max_users": ""
+                "cache_ttl": "Час кешування списку користувачів (секунди)",
+                "last_seen_interval": "Час від останньої активності, протягом якого користувач вважається онлайн (хвилини)",
+                "max_users": "Максимальна кількість користувачів для показу"
             },
             "permissions": {
-                "view_online_users_widget": ""
+                "view_online_users_widget": "Переглядати віджет користувачів у мережі"
             }
         },
         "forum": {
             "widget": {
-                "title": "",
-                "empty": ""
+                "title": "Користувачі в мережі",
+                "empty": "Зараз у мережі немає користувачів."
             }
         }
     }

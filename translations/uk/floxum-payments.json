@@ -2,117 +2,117 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "З найбільшою підтримкою"
             }
         }
     },
     "floxum-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Я прочитав(-ла) й приймаю <link>умови оплати</link>.",
+                "continue_button": "Перейти до оплати",
+                "title": "Прийняття умов"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "одноразово"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "bounty": "Винагорода",
+                "ptv": "Платний перегляд",
+                "pta": "Платний доступ",
+                "ptb": "Платне підняття",
+                "ptp": "Платна публікація",
+                "cancel-control": "Скасувати",
+                "none": "Немає оплат або активних підписок"
             },
             "post_stream": {
-                "bounty_added_text": ""
+                "bounty_added_text": "Користувач {username} додав винагороду в розмірі {amount}."
             },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Оплатити перегляд",
+                "purchase-log-in": "Увійти й оплатити перегляд",
+                "purchase-completed": "Розблоковано",
+                "description": "Подальші дописи доступні після оплати. Щоб відкрити їх, завершіть оплату через нашого платіжного провайдера Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Оплатити публікацію",
+                "purchase": "Придбати право на публікацію",
+                "purchase_required": "Обговорення буде опубліковано, щойно ви завершите оплату через нашого платіжного провайдера Stripe. Натисніть кнопку придбання, щоб переглянути вартість і способи оплати.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, =1 {Це обговорення піднято} one {Це обговорення підняли # раз} few {Це обговорення підняли # рази} many {Це обговорення підняли # разів} other {Кількість користувачів, які підняли це обговорення: #}}.",
+                "purchase-control": "Оплатити підняття",
+                "purchase-log-in": "Увійти й оплатити підняття"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Додати винагороду",
+                "enable-control": "Увімкнути винагороди"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "Виберіть суму винагороди",
+                "checkout-control": "Перейти до оплати",
+                "description": "Виберіть суму для підтримки «{subject}» або введіть власну."
             },
             "backers-widget": {
-                "backers": "",
-                "label": "",
-                "none": "",
-                "pledged": ""
+                "backers": "Учасники підтримки",
+                "label": "Оголошена сума — {currency} {sum}",
+                "none": "Ще ніхто не підтримав.",
+                "pledged": "Оголошена сума"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Потрібна оплата"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Способи оплати для доступу до групи «{group}»",
+                "description": "Виберіть один із варіантів, щоб отримати доступ до групи. Для оплати вас буде перенаправлено до нашого платіжного провайдера Stripe.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": "",
-                "subscribed": ""
+                "options": "варіанти",
+                "purchase": "придбати",
+                "subscribed": "підписка активна"
             },
             "nav": {
-                "access_portal": "",
-                "user_subscriptions": ""
+                "access_portal": "Портал доступу",
+                "user_subscriptions": "Підписки"
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Оплату на суму {amount} відхилено. Мінімальна сума — {min}.",
+                    "max": "Оплату на суму {amount} відхилено. Максимальна сума — {max}."
                 }
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": "",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": "",
-                "select-bounty-product": "",
-                "select-bounty-product-description": ""
+                "select-ptp-product": "(PTP) Необхідний продукт",
+                "select-ptp-product-description": "Вибраний продукт потрібно оплачувати за кожне обговорення з цим тегом. Оплата за публікацію підходить, наприклад, для рекламних матеріалів. Створіть продукт з однією одноразовою ціною в панелі Stripe і скопіюйте в це поле ідентифікатор, що починається з <code>prod_</code>.\n",
+                "select-ptv-product": "(PTV) Необхідний продукт",
+                "select-ptv-product-description": "Оплата вибраного продукту надає безстроковий доступ до всіх дописів після заданої межі. Створіть продукт у панелі Stripe і скопіюйте в це поле ідентифікатор, що починається з <code>prod_</code>.\n",
+                "visible-from": "Межа приховування дописів",
+                "visible-from-description": "Укажіть, з якого допису приховувати вміст для користувачів, які не оплатили доступ. Укажіть 0, щоб приховати всі дописи, або 1, щоб почати з допису після першого.\n",
+                "select-ptb-product": "(PTB) Необхідний продукт",
+                "select-ptb-product-description": "Перед підняттям обговорення потрібно оплатити вибраний продукт.\n",
+                "bump-others": "(PTB) Дозволити іншим піднімати обговорення",
+                "bump-others-description": "Якщо ввімкнено, піднімати обговорення за плату можуть і інші користувачі, крім автора.\n",
+                "select-bounty-product": "(Винагорода) Необхідний продукт",
+                "select-bounty-product-description": "Виберіть продукт для винагород. У продукту може бути лише одна ціна, яку покупець визначає сам. Скопіюйте в це поле ідентифікатор продукту, що починається з <code>prod_</code>.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Необхідний продукт",
+                "select-pta-product-description": "Оплата вибраного продукту надає доступ до групи. Для підписки доступ скасовується автоматично після її скасування. Створіть продукт у панелі Stripe і скопіюйте в це поле ідентифікатор, що починається з <code>prod_</code>.\n"
             },
             "settings": {
-                "assign-bounty-tag-id": "",
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
+                "assign-bounty-tag-id": "Тег для обговорення після додавання першої винагороди",
+                "pk": "Відкритий ключ API",
+                "sk": "Секретний ключ API",
+                "webhook-secret": "Секрет для підпису вебхуків",
                 "link-access-portal": "",
-                "link-to-terms": "",
-                "recount-total-discussion-bounties": "",
-                "delete-subscriptions-on-user-delete": ""
+                "link-to-terms": "URL умов оплати",
+                "recount-total-discussion-bounties": "Перерахувати загальні винагороди за обговорення",
+                "delete-subscriptions-on-user-delete": "Видаляти підписки під час видалення облікового запису"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Увімкнути винагороди"
             }
         }
     }

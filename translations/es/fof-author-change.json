@@ -2,30 +2,30 @@
     "fof-author-change": {
         "forum": {
             "controls": {
-                "edit": ""
+                "edit": "Editar autor y fecha"
             },
             "modal": {
-                "title-post": "",
-                "title-discussion": "",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
-                "sync-with-discussion": "",
-                "sync-with-post": "",
-                "sync-impossible": "",
+                "title-post": "Editar autor y fecha de la publicación",
+                "title-discussion": "Editar autor y fecha de la discusión",
+                "user": "Autor",
+                "created_at": "Hora de creación",
+                "edited_at": "Editar hora",
+                "sync-with-discussion": "Sincronizar con discusión",
+                "sync-with-post": "Sincronizar con la primera publicación",
+                "sync-impossible": "No se puede encontrar la primera publicación. Intente desplazarse al inicio de la discusión.",
                 "submit": "Guardar",
                 "cancel": "Cancelar"
             },
             "search": {
-                "placeholder": "",
-                "type-more": "",
-                "no-results": ""
+                "placeholder": "Buscar usuarios",
+                "type-more": "Escriba al menos 3 caracteres para buscar",
+                "no-results": "Sin resultados"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": ""
+                "edit-user": "Actualizar autor de la discusión y publicación",
+                "edit-date": "Actualizar fecha de la discusión y publicación"
             }
         }
     }

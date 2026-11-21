@@ -2,43 +2,43 @@
     "fof-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Прогресивний вебзастосунок",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
+                    "description_label": "Опис",
+                    "description_text": "Опис можна задати на сторінці основних налаштувань у панелі адміністратора.",
+                    "long_name_label": "Повна назва",
+                    "long_name_text": "Назва вебзастосунку, яку бачить користувач.",
+                    "heading": "Відомості",
+                    "short_name_label": "Коротка назва",
                     "short_name_text": ""
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
+                    "heading": "Кольори",
+                    "background_color_label": "Колір тла",
                     "background_color_text": "",
-                    "theme_color_label": "",
+                    "theme_color_label": "Колір теми",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Обслуговування",
                     "debug_label": "",
-                    "debug_text": "",
+                    "debug_text": "Записує відомості про сповіщення до `storage/logs`. Зазвичай слід вимикати, щоб не заповнювати журнали без потреби.",
                     "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "reset_vapid_confirm": "Скидання ключів VAPID видалить підписки, що використовують наявні ключі. Користувачі не отримуватимуть сповіщень до наступного відвідування сайту. Виконуйте цю дію лише під час першого налаштування push-сповіщень або якщо вони зовсім не працюють і вище є попередження про відсутні ключі VAPID.",
+                    "reset_vapid_success": "Ключі VAPID скинуто. Скинуто підписок: {count}. Оновіть сторінку, щоб переглянути новий звіт перевірки стану."
                 },
                 "firebase_config": {
-                    "heading": "",
+                    "heading": "Firebase",
                     "help_text": "",
                     "see_documentation_here": "",
                     "upload_successful": "",
-                    "upload_file": ""
+                    "upload_file": "Завантажити файл"
                 },
                 "other": {
-                    "heading": "",
+                    "heading": "Інше",
                     "force_portrait_text": "",
                     "push_notif_preference_default_to_email_label": "",
                     "push_notif_preference_default_to_email_text": "",
@@ -46,23 +46,23 @@
                     "user_max_subscriptions_text": "",
                     "window_controls_overlay_label": "",
                     "window_controls_overlay_text": "",
-                    "share_buttons_label": "",
-                    "share_buttons_text": ""
+                    "share_buttons_label": "Увімкнути кнопки поширення",
+                    "share_buttons_text": "Якщо ввімкнено, до обговорень, дописів і користувачів буде додано кнопку «Поширити»."
                 },
-                "heading": "",
+                "heading": "Налаштування прогресивного вебзастосунку",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Перевірка стану",
+                "logo_heading": "Логотипи й значки",
                 "logo_text": "",
                 "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "submit_button": "Зберегти налаштування",
+                "refreshed_message": "Конфігурацію PWA оновлено."
             },
             "status": {
                 "config_no_https": "",
                 "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "no_logo": "Для встановлення PWA потрібно завантажити принаймні один логотип розміром не менше ніж 144x144px.",
+                "no_name": "Для роботи застосунку потрібно вказати повну назву.",
                 "no_vapid_keys": "",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
@@ -75,33 +75,33 @@
                 "optin_button": ""
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Поділитися"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Поділитися",
                 "share_api": {
                     "title": ""
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Поділитися"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push-сповіщення",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Через обмеження браузера ви маєте надати згоду на отримання push-сповіщень на цьому пристрої.",
+                    "access_default_button": "Надати згоду",
+                    "access_denied": "Щоб отримувати push-сповіщення на цьому пристрої, потрібно змінити налаштування браузера.",
+                    "access_denied_button": "Дізнатися як",
+                    "no_browser_support": "Цей браузер не підтримує push-сповіщення для прогресивних вебзастосунків.",
+                    "no_browser_support_button": "Докладніше"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Помилка з’єднання з мережею",
+                "text": "Застосунок потребує з’єднання з мережею й не працює без нього. Перевірте підключення."
             }
         }
     },
@@ -109,8 +109,8 @@
         "lib": {
             "data": {
                 "pushsubscriptions": {
-                    "export_description": "",
-                    "delete_description": ""
+                    "export_description": "Експортує всі підписки на push-сповіщення й токени пристроїв користувача.",
+                    "delete_description": "Видаляє всі підписки на push-сповіщення й токени пристроїв користувача."
                 }
             }
         }

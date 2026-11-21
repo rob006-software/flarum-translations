@@ -2,127 +2,127 @@
     "ffans-threadmarks": {
         "admin": {
             "permissions": {
-                "manage_personal_label": "",
-                "manage_own_discussion_label": "",
-                "manage_discussion_label": ""
+                "manage_personal_label": "Керувати власними особистими позначками дописів",
+                "manage_own_discussion_label": "Керувати позначками дописів у власних обговореннях",
+                "manage_discussion_label": "Керувати позначками дописів у будь-яких обговореннях"
             },
             "types": {
-                "add_button": "",
-                "table_a11y_label": "",
-                "order_heading": "",
-                "type_heading": "",
-                "key_heading": "",
-                "source_heading": "",
-                "enabled_heading": "",
-                "actions_heading": "",
-                "reorder_tooltip": "",
-                "builtin_label": "",
-                "custom_label": "",
-                "enable_type_a11y_label": "",
-                "edit_type_a11y_label": "",
-                "empty_text": ""
+                "add_button": "Додати тип",
+                "table_a11y_label": "Типи позначок дописів",
+                "order_heading": "Порядок",
+                "type_heading": "=> ffans-threadmarks.ref.type",
+                "key_heading": "=> ffans-threadmarks.ref.key",
+                "source_heading": "Джерело",
+                "enabled_heading": "Увімкнено",
+                "actions_heading": "Дії",
+                "reorder_tooltip": "Перетягніть, щоб змінити порядок",
+                "builtin_label": "Вбудований",
+                "custom_label": "Власний",
+                "enable_type_a11y_label": "Увімкнути «{name}»",
+                "edit_type_a11y_label": "Редагувати «{name}»",
+                "empty_text": "Типів позначок дописів ще немає."
             },
             "create_type_modal": {
-                "title": "",
-                "submit_button": ""
+                "title": "Створення типу позначки",
+                "submit_button": "Створити"
             },
             "edit_type_modal": {
-                "title": "",
-                "submit_button": "",
-                "delete_button": "",
-                "delete_confirmation": ""
+                "title": "Редагування типу позначки",
+                "submit_button": "=> ffans-threadmarks.ref.save",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Видалити цей тип позначки?"
             }
         },
         "forum": {
             "type_labels": {
-                "default": "",
-                "notice": "",
-                "highlight": "",
-                "progress": "",
-                "update": "",
-                "chapter": ""
+                "default": "Позначка",
+                "notice": "Сповіщення",
+                "highlight": "Виділення",
+                "progress": "Поступ",
+                "update": "Оновлення",
+                "chapter": "Розділ"
             },
             "manage_modal": {
-                "title": "",
-                "scope_a11y_label": "",
-                "personal_tab": "",
-                "discussion_tab": "",
-                "loading_text": "",
-                "unavailable_text": "",
-                "type_label": "",
-                "type_placeholder": "",
-                "note_label": "",
-                "note_placeholder": "",
-                "save_button": "",
-                "add_button": "",
-                "delete_button": "",
-                "delete_personal_confirmation": "",
-                "delete_discussion_confirmation": ""
+                "title": "Позначка · № {number}",
+                "scope_a11y_label": "Видимість позначки",
+                "personal_tab": "Особисті",
+                "discussion_tab": "=> ffans-threadmarks.ref.discussion",
+                "loading_text": "=> core.ref.loading",
+                "unavailable_text": "Немає позначок, якими можна керувати.",
+                "type_label": "=> ffans-threadmarks.ref.type",
+                "type_placeholder": "Виберіть тип",
+                "note_label": "Примітка",
+                "note_placeholder": "Необов’язково",
+                "save_button": "=> ffans-threadmarks.ref.save",
+                "add_button": "Додати",
+                "delete_button": "=> core.ref.delete",
+                "delete_personal_confirmation": "Видалити цю особисту позначку?",
+                "delete_discussion_confirmation": "Видалити цю позначку обговорення?"
             },
             "directory": {
-                "title": "",
-                "show_button": "",
-                "hide_button": "",
-                "show_button_a11y_label": "",
-                "close_a11y_label": "",
-                "scope_a11y_label": "",
-                "all_filter": "",
-                "personal_filter": "",
-                "discussion_filter": ""
+                "title": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button": "=> ffans-threadmarks.ref.threadmarks",
+                "hide_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_button_a11y_label": "Відкрити покажчик позначок",
+                "close_a11y_label": "Закрити покажчик позначок",
+                "scope_a11y_label": "Фільтрувати позначки за видимістю",
+                "all_filter": "Усі",
+                "personal_filter": "=> ffans-threadmarks.ref.mine",
+                "discussion_filter": "=> ffans-threadmarks.ref.discussion"
             },
             "threadmark": {
-                "mine_badge": "",
-                "personal_tooltip": "",
-                "edit_personal_tooltip": "",
-                "edit_discussion_tooltip": "",
-                "edit_personal_a11y_label": "",
-                "edit_discussion_a11y_label": "",
-                "deleted_text": ""
+                "mine_badge": "=> ffans-threadmarks.ref.mine",
+                "personal_tooltip": "Особиста позначка, яку бачите лише ви",
+                "edit_personal_tooltip": "Редагувати особисту позначку",
+                "edit_discussion_tooltip": "Редагувати позначку обговорення",
+                "edit_personal_a11y_label": "Редагувати особисту позначку допису № {number}",
+                "edit_discussion_a11y_label": "Редагувати позначку обговорення на дописі № {number}",
+                "deleted_text": "Цей вміст видалено."
             },
             "scrubber": {
-                "threadmark_a11y_label": "",
-                "cluster_a11y_label": "",
-                "open_directory_a11y_label": ""
+                "threadmark_a11y_label": "Позначка на дописі № {number}",
+                "cluster_a11y_label": "{count, plural, one {# позначка} few {# позначки} many {# позначок} other {# позначки}}",
+                "open_directory_a11y_label": "Відкрити повний покажчик позначок"
             },
             "discussion_controls": {
-                "show_all_button": "",
-                "show_threadmarks_button": "",
-                "show_all_button_a11y_label": "",
-                "show_threadmarks_button_a11y_label": ""
+                "show_all_button": "Усі дописи",
+                "show_threadmarks_button": "=> ffans-threadmarks.ref.threadmarks",
+                "show_all_button_a11y_label": "Показати всі дописи",
+                "show_threadmarks_button_a11y_label": "Показати лише позначені дописи"
             },
             "post_controls": {
-                "manage_button": ""
+                "manage_button": "Керувати позначкою"
             }
         },
         "ref": {
-            "discussion": "",
-            "mine": "",
-            "threadmarks": "",
-            "type": "",
-            "key": "",
-            "save": ""
+            "discussion": "Обговорення",
+            "mine": "Мої",
+            "threadmarks": "Позначки дописів",
+            "type": "Тип",
+            "key": "Ключ",
+            "save": "Зберегти"
         },
         "lib": {
             "gdpr": {
-                "export_description": "",
-                "anonymize_description": "",
-                "delete_description": ""
+                "export_description": "Експортує всі ваші особисті позначки й позначки обговорень, які ви створили або редагували останніми. Вміст дописів не експортується.",
+                "anonymize_description": "Видаляє ваші особисті позначки та прибирає ваш ідентифікатор зі створених або відредагованих вами позначок обговорень.",
+                "delete_description": "Видаляє ваші особисті позначки та прибирає ваш ідентифікатор зі створених або відредагованих вами позначок обговорень."
             },
             "type_form": {
-                "key_label": "",
-                "name_label": "",
-                "color_label": "",
-                "icon_label": "",
-                "icon_placeholder": ""
+                "key_label": "=> ffans-threadmarks.ref.key",
+                "name_label": "Назва",
+                "color_label": "=> core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_placeholder": "fas fa-bookmark"
             },
             "validation": {
-                "first_post": "",
-                "duplicate_discussion": "",
-                "invalid_discussion_post": "",
-                "duplicate_personal": "",
-                "invalid_personal_post": "",
-                "disabled_type": "",
-                "type_in_use": ""
+                "first_post": "Не можна додавати позначки до першого допису.",
+                "duplicate_discussion": "Цей допис уже має позначку обговорення. Відредагуйте наявну позначку.",
+                "invalid_discussion_post": "Позначки обговорень можна додавати лише до звичайних дописів.",
+                "duplicate_personal": "У вас уже є особиста позначка на цьому дописі. Відредагуйте наявну позначку.",
+                "invalid_personal_post": "Особисті позначки можна додавати лише до звичайних дописів.",
+                "disabled_type": "Цей тип позначки вимкнено. Виберіть інший тип.",
+                "type_in_use": "Цей тип використовується, тому його не можна видалити."
             }
         }
     }

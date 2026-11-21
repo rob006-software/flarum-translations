@@ -2,26 +2,26 @@
     "glowingblue-date-filters": {
         "admin": {
             "permissions": {
-                "view_date_filter_label": ""
+                "view_date_filter_label": "Переглядати фільтр за датою на форумі"
             }
         },
         "forum": {
             "index_date_filter": {
-                "toggle_dropdown_accessible_label": "",
-                "allTime_button": "",
-                "today_button": "",
-                "yesterday_button": "",
-                "past-7-days_button": "",
-                "past-30-days_button": "",
-                "past-365-days_button": "",
-                "custom_date_range_button": ""
+                "toggle_dropdown_accessible_label": "Розгорнути або згорнути меню фільтра за датою",
+                "allTime_button": "За весь час",
+                "today_button": "Сьогодні",
+                "yesterday_button": "Учора",
+                "past-7-days_button": "За минулий тиждень",
+                "past-30-days_button": "За минулий місяць",
+                "past-365-days_button": "За минулий рік",
+                "custom_date_range_button": "Власний діапазон..."
             },
             "custom_date_range_modal": {
-                "title": "",
-                "start_date_label": "",
-                "end_date_label": "",
-                "cancel_button": "",
-                "apply_button": ""
+                "title": "Виберіть діапазон дат",
+                "start_date_label": "Дата початку:",
+                "end_date_label": "Дата завершення:",
+                "cancel_button": "Скасувати",
+                "apply_button": "Застосувати"
             }
         }
     }

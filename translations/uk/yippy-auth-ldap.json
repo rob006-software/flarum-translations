@@ -1,87 +1,87 @@
 {
     "yippy-auth-ldap": {
         "forum": {
-            "account_found": "",
-            "log_in_with": "",
-            "log_out": "",
+            "account_found": "Знайдено обліковий запис у {server}",
+            "log_in_with": "Увійти через {server}",
+            "log_out": "=> core.ref.log_out",
             "errors": {
-                "core_csrf_token_mismatch": "",
-                "search_filter_is_invalid": "",
-                "not_authenticated": "",
-                "csrf_token_mismatch": "",
+                "core_csrf_token_mismatch": "=> core.views.error.csrf_token_mismatch",
+                "search_filter_is_invalid": "Не вдалося виконати пошук на сервері {server} через некоректні `поля пошуку LDAP`. Виправте налаштування розширення.",
+                "not_authenticated": "Не вдалося прив’язатися до {server} через неправильні облікові дані. Виправте налаштування розширення.",
+                "csrf_token_mismatch": "Ви надто довго не виконували дій. Оновіть сторінку й спробуйте ще раз.",
                 "domains": {
-                    "no_domains": "",
-                    "empty_host": "",
-                    "empty_base_dn": "",
-                    "empty_user_username": "",
-                    "empty_search_field": "",
-                    "username_field_does_not_exist": "",
-                    "mail_field_does_not_exist": ""
+                    "no_domains": "У налаштуваннях адміністратора не вказано жодного домену. Виправте налаштування розширення.",
+                    "empty_host": "Для домену {domain_index} не вказано доменних імен або IP-адрес серверів. Виправте налаштування розширення.",
+                    "empty_base_dn": "Для домену {domain_index} не вказано базових DN. Виправте налаштування розширення.",
+                    "empty_user_username": "У домені {domain_index} не заповнено «Поле імені користувача» у розділі «Профіль користувача Flarum». Виправте налаштування розширення.",
+                    "empty_search_field": "У домені {domain_index} не заповнено «Поле пошуку» у розділі «Пошук облікового запису LDAP». Виправте налаштування розширення.",
+                    "username_field_does_not_exist": "У домені {domain_index} не вдалося знайти ім’я користувача для `Поля імені користувача` в розділі «Профіль користувача Flarum» зі значенням `{data}`. Виправте налаштування розширення.",
+                    "mail_field_does_not_exist": "У домені {domain_index} не вдалося знайти адресу електронної пошти для `Поля електронної пошти` в розділі «Профіль користувача Flarum» зі значенням `{data}`. Виправте налаштування розширення."
                 },
                 "account": {
-                    "invalid_inputs": "",
-                    "not_found": "",
-                    "incorrect_details": "",
-                    "password_expired": "",
-                    "disabled": "",
-                    "expired": "",
-                    "locked": ""
+                    "invalid_inputs": "Поля введення не можуть бути порожніми",
+                    "not_found": "Не вдалося знайти ваш обліковий запис у {server}.",
+                    "incorrect_details": "Введено неправильний пароль.",
+                    "password_expired": "Строк дії вашого пароля минув.",
+                    "disabled": "Ваш обліковий запис вимкнено. Зверніться до адміністрації {server}.",
+                    "expired": "Строк дії вашого облікового запису минув. Зверніться до адміністрації {server}.",
+                    "locked": "Ваш обліковий запис заблоковано. Зверніться до адміністрації {server}."
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "method_name": "",
+                "title": "Налаштування LDAP",
+                "method_name": "Назва сервера LDAP (відображатиметься після «Увійти через»)",
                 "domains": {
-                    "title": "",
-                    "description": "",
-                    "add": "",
-                    "banner": "",
+                    "title": "Домени LDAP",
+                    "description": "Укажіть усі доступні домени LDAP, які Flarum має використовувати для входу",
+                    "add": "Додати домен",
+                    "banner": "Домен {index} — [{isEnabled}]",
                     "is_enabled": {
-                        "enabled": "",
-                        "disabled": ""
+                        "enabled": "Увімкнути",
+                        "disabled": "Вимкнено"
                     },
                     "header": {
-                        "server": "",
-                        "admin": "",
-                        "search_fields": "",
-                        "search_fields_description": "",
-                        "flarum": "",
-                        "flarum_description": ""
+                        "server": "Налаштування сервера LDAP",
+                        "admin": "Адміністратор LDAP",
+                        "search_fields": "Пошук облікового запису LDAP",
+                        "search_fields_description": "Створіть список полів LDAP для порівняння з іменем користувача, введеним під час входу.",
+                        "flarum": "Профіль користувача Flarum",
+                        "flarum_description": "Коли обліковий запис LDAP знайдено, відповідні поля можна зіставити з профілем користувача Flarum під час реєстрації."
                     },
                     "data": {
-                        "host": "",
-                        "host_help": "",
-                        "base_dn": "",
+                        "host": "Доменні імена або IP-адреси серверів",
+                        "host_help": "Розділяйте комами",
+                        "base_dn": "Базові DN",
                         "base_dn_help": "",
-                        "filter": "",
-                        "filter_help": "",
-                        "port": "",
-                        "port_help": "",
-                        "version": "",
-                        "version_help": "",
-                        "follow_referrals": "",
-                        "use_ssl": "",
-                        "use_tls": "",
-                        "admin_dn": "",
-                        "admin_dn_help": "",
-                        "admin_password": "",
-                        "admin_password_help": "",
-                        "search_user_fields": "",
-                        "search_user_fields_help": "",
-                        "user_username": "",
-                        "user_mail": "",
-                        "user_mail_help": "",
-                        "user_nickname_fields": "",
-                        "user_nickname_fields_help": "",
-                        "permission_groups": "",
-                        "permission_groups_help": "",
-                        "is_enabled": ""
+                        "filter": "Фільтр",
+                        "filter_help": "Необов’язково. Не включайте до фільтра «Поля пошуку». Наприклад, якщо ввести '(objectclass=user)' і вибрати 'uid' в «Полях пошуку», підсумковий фільтр матиме вигляд '(&(objectclass=user)(uid=[User's Input]))'.",
+                        "port": "Порт",
+                        "port_help": "Без SSL (порт 389) або з SSL (порт 636).",
+                        "version": "Версія LDAP",
+                        "version_help": "Можна вказати лише 2 або 3 (типове значення — 3).",
+                        "follow_referrals": "Дотримуватися перенаправлень для прив’язки до сервера LDAP",
+                        "use_ssl": "Використовувати SSL",
+                        "use_tls": "Використовувати TLS",
+                        "admin_dn": "Розрізнювальне ім’я (DN)",
+                        "admin_dn_help": "Залиште порожнім для анонімної прив’язки",
+                        "admin_password": "Пароль",
+                        "admin_password_help": "Залиште порожнім для анонімної прив’язки",
+                        "search_user_fields": "Поля пошуку",
+                        "search_user_fields_help": "Виберіть поля пошуку в розкривному списку. Наприклад, «mail» дозволяє вводити лише електронну адресу, а «uid,mail» — електронну адресу або ім’я користувача.",
+                        "user_username": "Зіставити поле імені користувача",
+                        "user_mail": "Зіставити поле електронної пошти",
+                        "user_mail_help": "Залиште порожнім, щоб користувачі могли самостійно вказати електронну адресу під час реєстрації",
+                        "user_nickname_fields": "Скласти псевдонім із полів",
+                        "user_nickname_fields_help": "Увімкніть розширення Nicknames і виберіть поля LDAP в розкривному списку, щоб скласти псевдонім. Наприклад, «givenname,sn» утворює псевдонім у форматі «[Ім’я] [Прізвище]».",
+                        "permission_groups": "Призначити окремі дозволи",
+                        "permission_groups_help": "Застосовується під час реєстрації",
+                        "is_enabled": "Увімкнути сервер LDAP"
                     }
                 },
-                "onlyUse": "",
-                "display_detailed_error": ""
+                "onlyUse": "Приховати стандартний спосіб входу Flarum",
+                "display_detailed_error": "Показувати докладні помилки LDAP після невдалого входу"
             }
         }
     }

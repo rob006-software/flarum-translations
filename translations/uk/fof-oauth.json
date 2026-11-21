@@ -70,7 +70,7 @@
         },
         "forum": {
             "log_in": {
-                "unverified_email_in_use": "",
+                "unverified_email_in_use": "Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Якщо ви вже маєте обліковий запис, увійдіть нижче, а потім пов’яжіть {provider} у налаштуваннях облікового запису.",
                 "with_button": "Увійдіть за допомогою {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
@@ -114,7 +114,7 @@
         },
         "email": {
             "provider_email_change_notice": {
-                "subject": "",
+                "subject": "Запит на зміну електронної адреси",
                 "body": ""
             }
         },

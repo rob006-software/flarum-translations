@@ -2,85 +2,85 @@
     "fof-anti-spam": {
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Marcar usuario como spammer"
             },
             "settings": {
                 "button": "",
                 "default-actions": {
-                    "delete_user_label": "",
-                    "delete_user_help": "",
-                    "delete_discussions_label": "",
-                    "delete_discussions_help": "",
-                    "delete_posts_label": "",
-                    "delete_posts_help": "",
-                    "heading": "",
-                    "introduction": "",
-                    "move_discussions_to_tags_label": "",
-                    "move_discussions_to_tags_help": ""
+                    "delete_user_label": "Eliminar usuario",
+                    "delete_user_help": "Eliminará permanentemente la cuenta de usuario. Si se desactiva, el usuario será suspendido en su lugar.",
+                    "delete_discussions_label": "Eliminar discusiones",
+                    "delete_discussions_help": "Eliminará de forma permanente todas las discusiones iniciadas por este usuario. Si se desactiva, se ocultarán.",
+                    "delete_posts_label": "Eliminar publicaciones",
+                    "delete_posts_help": "Eliminará permanentemente todas las publicaciones realizadas por este usuario. Si se desactiva, se ocultarán.",
+                    "heading": "Acciones de moderación predeterminadas",
+                    "introduction": "Al marcar a un usuario como spamer, los moderadores pueden elegir entre diversas acciones. Estos ajustes le permiten predefinir las medidas estándar para agilizar el proceso.",
+                    "move_discussions_to_tags_label": "Mover discusiones a etiqueta(s)",
+                    "move_discussions_to_tags_help": "Moverá las discusiones iniciadas por el usuario a las etiquetas especificadas. Limpie la selección para dejarlas en su etiqueta original. No tiene efecto si la opción de eliminar discusiones está activa."
                 },
                 "stopforumspam": {
-                    "introduction": "",
-                    "username_label": "",
-                    "ip_label": "",
-                    "email_label": "",
-                    "frequency_label": "",
-                    "frequency_help": "",
-                    "api_key_label": "",
-                    "api_key_text": "",
-                    "api_key_instructions_text": "",
-                    "regional_endpoint_label": "",
-                    "regional_endpoint_help": "",
-                    "region_closest_label": "",
-                    "region_europe_label": "",
-                    "region_us_label": "",
-                    "confidence_label": "",
-                    "confidence_help": "",
-                    "email_hash_label": "",
-                    "email_hash_help": "",
-                    "sfs_lookup_label": "",
-                    "sfs_lookup_help": "",
-                    "report_blocked_registrations_label": "",
+                    "introduction": "Verifica los nuevos registros contra la base de datos de <a>StopForumSpam</a>. Si se alcanzan los umbrales de <code>confianza</code> o <code>frecuencia</code>, se impedirá al usuario completar el registro.\n\nAdmite registros SSO a través de <code>fof/oauth</code> y <code>fof/passport</code>.\n",
+                    "username_label": "Comprobación de nombre de usuario",
+                    "ip_label": "Comprobación de dirección IP",
+                    "email_label": "Comprobación de correo electrónico",
+                    "frequency_label": "Umbral de frecuencia",
+                    "frequency_help": "Número total de reportes de spam entre las comprobaciones activadas que disparará el filtro.\nEjemplo: Si el correo tiene 1 coincidencia y la IP 2, sumarán 3 en total. Si el umbral se define en 3 o menos, se bloqueará el registro.\n",
+                    "api_key_label": "Clave API",
+                    "api_key_text": "Puede enviar reportes de spammers a StopForumSpam para contribuir a la comunidad global.",
+                    "api_key_instructions_text": "<register>Regístrese en StopForumSpam</register> y luego <key>obtenga una clave API</key>.",
+                    "regional_endpoint_label": "Acceso geográfico",
+                    "regional_endpoint_help": "De forma predeterminada, las consultas se dirigen al servidor regional más cercano. Si requiere restringir el tráfico a una región específica por normativas de privacidad, puede forzar la conexión.",
+                    "region_closest_label": "Más cercano",
+                    "region_europe_label": "Europa",
+                    "region_us_label": "Estados Unidos",
+                    "confidence_label": "Nivel de confianza",
+                    "confidence_help": "Porcentaje de certeza de que el dato comprobado provocará actividad no deseada. Si el valor es igual o superior a esta cifra, el registro se bloqueará independientemente del test de frecuencia.",
+                    "email_hash_label": "Usar hash de correo electrónico",
+                    "email_hash_help": "Envía un hash MD5 de la dirección de correo en lugar del texto plano. Este método omite listas negras y comprobaciones de ofuscación.",
+                    "sfs_lookup_label": "Consultar registros en StopForumSpam",
+                    "sfs_lookup_help": "Comprueba la base de datos de StopForumSpam cuando un nuevo usuario se registra. Si se encuentra coincidencia y se alcanza el nivel de confianza configurado, se impedirá el registro.",
+                    "report_blocked_registrations_label": "Reportar registros bloqueados",
                     "report_blocked_registrations_help": ""
                 }
             },
             "blocked_registrations": {
-                "button": "",
-                "title": "",
-                "no-records": "",
+                "button": "Registros bloqueados",
+                "title": "Registros bloqueados",
+                "no-records": "No se encontraron registros bloqueados.",
                 "help": "",
-                "attempted-at": "",
-                "ip": "",
-                "email": "",
-                "username": "",
-                "login-provider": "",
-                "login-provider-data": "",
-                "sfs-data": "",
-                "delete_entry": ""
+                "attempted-at": "Intento realizado",
+                "ip": "Dirección IP",
+                "email": "Dirección de correo",
+                "username": "Nombre de usuario",
+                "login-provider": "Proveedor de acceso",
+                "login-provider-data": "Datos del proveedor de acceso",
+                "sfs-data": "Datos de StopForumSpam",
+                "delete_entry": "Eliminar registro"
             }
         },
         "forum": {
             "message": {
                 "stopforumspam": {
-                    "blocked": ""
+                    "blocked": "Sus datos de registro se encuentran en una base de datos de prevención de spam, por lo que su registro ha sido bloqueado."
                 }
             },
             "spammer_modal": {
-                "hard_delete_discussions_label": "",
-                "hard_delete_discussions_help": "",
-                "hard_delete_posts_label": "",
-                "hard_delete_posts_help": "",
-                "hard_delete_user_label": "",
-                "hard_delete_user_help": "",
-                "intro": "",
-                "move_discussions_tag_label": "",
-                "move_discussions_tag_help": "",
-                "process_button": "",
-                "title": "",
-                "report_to_sfs_label": "",
-                "report_to_sfs_help": ""
+                "hard_delete_discussions_label": "Eliminar discusiones",
+                "hard_delete_discussions_help": "Eliminará permanentemente todas las discusiones iniciadas por este usuario. Si se desactiva, se ocultarán.",
+                "hard_delete_posts_label": "Eliminar publicaciones",
+                "hard_delete_posts_help": "Eliminará permanentemente todas las publicaciones (comentarios, respuestas, etc.) de este usuario. Si se desactiva, se ocultarán.",
+                "hard_delete_user_label": "Eliminar usuario",
+                "hard_delete_user_help": "Eliminará permanentemente la cuenta de usuario. Si se desactiva, el usuario será suspendido en su lugar.",
+                "intro": "Al marcar a un usuario como spamer, se aplicarán diversas acciones en función de las extensiones disponibles en el foro.",
+                "move_discussions_tag_label": "Mover discusiones a la etiqueta de cuarentena",
+                "move_discussions_tag_help": "Moverá las discusiones del usuario a la etiqueta especificada en la configuración. Si se desactiva, permanecerán en su etiqueta actual.",
+                "process_button": "Procesar",
+                "title": "Marcar a {username} como spamer",
+                "report_to_sfs_label": "Reportar a StopForumSpam",
+                "report_to_sfs_help": "Enviará los datos del usuario (nombre, correo e IP) a StopForumSpam para evitar que se registre en otros foros que utilicen la plataforma."
             },
             "user_controls": {
-                "spammer_button": ""
+                "spammer_button": "Spammer"
             }
         }
     },
@@ -88,10 +88,10 @@
         "lib": {
             "browser": {
                 "user": {
-                    "marked_as_spammer": ""
+                    "marked_as_spammer": "Se marcó a {username} como spamer"
                 },
                 "registration": {
-                    "blocked": ""
+                    "blocked": "Registro bloqueado para {username} ({email}) desde la IP {ip}"
                 }
             }
         }

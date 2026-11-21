@@ -43,12 +43,12 @@
                 "title": "Налаштування",
                 "welcome_banner_heading": "Банер вітання",
                 "welcome_banner_text": "Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму.",
-                "abandoned_extensions_heading": "",
-                "abandoned_extensions_text": "",
-                "abandoned_extensions_sync_button": "",
-                "abandoned_extensions_sync_success": "",
-                "abandoned_extensions_sync_error": "",
-                "abandoned_extensions_notify_admins_label": ""
+                "abandoned_extensions_heading": "Розширення, які більше не підтримуються",
+                "abandoned_extensions_text": "Flarum веде <a>спільнотний список розширень, які більше не підтримуються</a>. Якщо встановлене розширення потрапить до списку, його буде позначено в панелі адміністратора.",
+                "abandoned_extensions_sync_button": "Перевірити зараз",
+                "abandoned_extensions_sync_success": "Список розширень, які більше не підтримуються, оновлено. Збігів зі встановленими розширеннями: {count}.",
+                "abandoned_extensions_sync_error": "Не вдалося отримати список розширень, які більше не підтримуються. Спробуйте пізніше.",
+                "abandoned_extensions_notify_admins_label": "Сповіщати адміністраторів електронною поштою, якщо щотижнева перевірка виявить нове розширення, підтримку якого припинено"
             },
             "create_user": {
                 "email_placeholder": "=> core.ref.email",
@@ -202,7 +202,7 @@
                     "discussion": "Дискусія",
                     "feature": "Особливості",
                     "formatting": "Форматування",
-                    "forum-widget": "",
+                    "forum-widget": "Віджети форуму",
                     "language": "Мови",
                     "moderation": "Модерація",
                     "other": "Інші розширення",
@@ -573,7 +573,7 @@
             }
         },
         "lib": {
-            "connection_restored_message": "",
+            "connection_restored_message": "З’єднання відновлено.",
             "debug_button": "Налагодження",
             "alert": {
                 "dismiss_a11y_label": "Відбій тривоги"
@@ -608,9 +608,9 @@
                 "generic_message": "Ой! Будь ласка, оновіть сторінку та спробуйте ще раз.",
                 "generic_cross_origin_message": "Ой! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.",
                 "missing_dependencies_message": "Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}",
-                "network_message": "",
+                "network_message": "Схоже, виникла проблема зі з’єднанням. Перевірте мережу та спробуйте ще раз.",
                 "not_found_message": "Ресурс не знайдено.",
-                "offline_message": "",
+                "offline_message": "Схоже, немає з’єднання з мережею. Перевірте підключення та спробуйте ще раз.",
                 "payload_too_large_message": "Корисне навантаження запиту було занадто великим.",
                 "permission_denied_message": "У вас немає прав доступу для виконання цієї дії.",
                 "rate_limit_exceeded_message": "Ви рухаєтесь занадто швидко. Будь ласка, спробуйте ще раз через кілька секунд.",
@@ -731,7 +731,7 @@
                 "body": "Привіт {username}!\n\nЦе тестове повідомлення того, що електронна пошта Flarum налаштована.\n\nЯкщо це були ви, цей електронний лист означає, що ваша конфігурація працює!\n\nЯкщо це були не ви, проігноруйте цей електронний лист.\n"
             },
             "abandoned_extensions": {
-                "subject": "",
+                "subject": "Потрібна дія: виявлено розширення, які більше не підтримуються",
                 "body": "",
                 "line_with_replacement": "",
                 "line_no_replacement": ""

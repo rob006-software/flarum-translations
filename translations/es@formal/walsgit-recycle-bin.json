@@ -15,7 +15,7 @@
             "discussion_title": "Título de la discusión",
             "discussion_link_tooltip": "Ver discusión",
             "author": "Autor",
-            "unknown_user": "",
+            "unknown_user": "Usuario desconocido",
             "created_at": "Creada el",
             "hidden_at": "Oculta el",
             "unknown_date": "Fecha desconocida",
@@ -57,46 +57,46 @@
                 "text_start": "¿Estás seguro de que quieres restaurar estas? ",
                 "text_end": " discusiones seleccionadas?",
                 "submit_button": "Restaurar estas discusiones",
-                "success": ""
+                "success": "Discusiones seleccionadas restauradas correctamente"
             },
             "mass_restore_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Restaurar las publicaciones seleccionadas",
+                "text_start": "¿Está seguro de que desea restaurar las ",
+                "text_end": " publicaciones seleccionadas?",
+                "submit_button": "Restaurar estas publicaciones",
+                "success": "Publicaciones seleccionadas restauradas correctamente"
             },
             "mass_delete_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Eliminar de forma permanente estas discusiones",
+                "text_start": "¿Está seguro de que desea <u>eliminar de forma permanente</u> las ",
+                "text_end": " discusiones seleccionadas?",
+                "submit_button": "Eliminar de forma permanente estas discusiones",
+                "success": "Discusiones seleccionadas eliminadas correctamente"
             },
             "mass_delete_post_modal": {
-                "title": "",
-                "text_start": "",
-                "text_end": "",
-                "submit_button": "",
-                "success": ""
+                "title": "Eliminar de forma permanente estas publicaciones",
+                "text_start": "¿Está seguro de que desea <u>eliminar de forma permanente</u> las ",
+                "text_end": " publicaciones seleccionadas?",
+                "submit_button": "Eliminar de forma permanente estas publicaciones",
+                "success": "Publicaciones seleccionadas eliminadas correctamente"
             },
-            "bulk_delete_label": "",
-            "bulk_post_delete_label": "",
+            "bulk_delete_label": "Eliminar discusiones seleccionadas",
+            "bulk_post_delete_label": "Eliminar publicaciones seleccionadas",
             "pagination": {
-                "first_page_button": "",
-                "back_button": "",
-                "page_counter": "",
-                "go_to_page_textbox_a11y_label": "",
-                "next_button": "",
-                "last_page_button": ""
+                "first_page_button": "Ir a la primera página",
+                "back_button": "Volver a la página anterior",
+                "page_counter": "Página {current} de {total}",
+                "go_to_page_textbox_a11y_label": "Ir directamente al número de página",
+                "next_button": "Ir a la página siguiente",
+                "last_page_button": "Ir a la última página"
             },
             "mass_help_text": "",
             "grid": {
-                "invalid_column_content": ""
+                "invalid_column_content": "¡Contenido no válido!"
             },
             "post": {
-                "id": "",
-                "title": "",
+                "id": "ID",
+                "title": "Texto de la publicación",
                 "open_post": "Abrir publicación"
             }
         }
