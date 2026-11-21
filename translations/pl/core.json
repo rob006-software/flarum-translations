@@ -42,7 +42,7 @@
                 "fontawesome": {
                     "section_label": "Ikony FontAwesome",
                     "source_label": "Źródło ikony",
-                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN ładuje się z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
+                    "source_help": "Wybierz sposób wczytywania ikon FontAwesome. Local korzysta z dołączonych czcionek, CDN wczytuje je z CDN, a Kit korzysta z zestawów FontAwesome z niestandardowymi ikonami.",
                     "source_local": "Lokalny (pakiet)",
                     "source_cdn": "CDN",
                     "source_kit": "Zestaw FontAwesome",
@@ -120,12 +120,12 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "email_logo_heading": "Logo w wiadomościach e-mail",
-                "email_logo_text": "Prześlij obrazek, który będzie wyświetlany u góry wiadomości e-mail. Zostanie zapisany w formacie obsługiwanym przez wszystkie programy pocztowe. Jeśli nie prześlesz osobnego obrazka, w wiadomościach będzie używana kopia logo forum. Jeśli zamiast logo wyświetla się nazwa forum, prześlij logo ponownie.",
+                "email_logo_text": "Prześlij obraz, który będzie wyświetlany u góry wiadomości e-mail. Zostanie zapisany w formacie obsługiwanym przez wszystkie programy pocztowe. Jeśli nie prześlesz osobnego obrazu, w wiadomościach będzie używana kopia logo forum. Jeśli zamiast logo wyświetla się nazwa forum, prześlij logo ponownie.",
                 "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
-                "favicon_text": "Prześlij obrazek, który będzie wyświetlany jako ikona forum.",
+                "favicon_text": "Prześlij obraz, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
-                "logo_text": "Prześlij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
+                "logo_text": "Prześlij obraz, który będzie wyświetlany jako logo w miejscu nazwy forum.",
                 "logo_dark_mode_heading": "Logo w trybie ciemnym",
                 "logo_dark_mode_text": "Prześlij alternatywne logo, które będzie wyświetlane w trybie ciemnym.",
                 "show_theme_selector_help": "Pozwól użytkownikom zmieniać motyw kolorystyczny za pomocą przełącznika w nagłówku.",
@@ -197,7 +197,7 @@
                 "comments_label": "{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}",
                 "description": "Ostatnie wiadomości i ogłoszenia od zespołu Flarum.",
                 "empty": "Nie znaleziono ogłoszeń.",
-                "load_error": "Nie można załadować ogłoszeń. Spróbuj ponownie później.",
+                "load_error": "Nie można wczytać ogłoszeń. Spróbuj ponownie później.",
                 "about": "Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.",
                 "hide": "Ukryj ogłoszenia",
                 "read_more": "Czytaj więcej",
@@ -405,11 +405,11 @@
             "header": {
                 "get_help": "Uzyskaj pomoc",
                 "log_out_button": "=> core.ref.log_out",
-                "search_placeholder": "Szukaj...",
+                "search_placeholder": "Szukaj…",
                 "search_role_label": "Wyszukiwanie"
             },
             "loading": {
-                "title": "Proszę czekać..."
+                "title": "Proszę czekać…"
             },
             "models": {
                 "discussions": "=> core.ref.discussions",
@@ -506,7 +506,7 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Wybierz obrazek..."
+                "upload_button": "Wybierz obraz…"
             },
             "users": {
                 "create_user_button": "Nowy użytkownik",
@@ -572,7 +572,7 @@
                 "preview_tooltip": "Podgląd"
             },
             "composer_discussion": {
-                "body_placeholder": "Napisz post...",
+                "body_placeholder": "Napisz post…",
                 "discard_confirmation": "Nie opublikowałeś swojej dyskusji. Czy chcesz ją porzucić?",
                 "submit_button": "Dodaj dyskusję",
                 "title": "=> core.ref.start_a_discussion",
@@ -975,7 +975,7 @@
                 "no_results_text": "Nie znaleziono pasujących wyników.",
                 "no_search_text": "Jeszcze niczego nie wyszukano.",
                 "options_heading": "Opcje wyszukiwania",
-                "placeholder": "Szukaj...",
+                "placeholder": "Szukaj…",
                 "preview_heading": "Podgląd wyników",
                 "search_active_button_accessible_label": "Zmień wyszukiwanie: {query}",
                 "search_clear_button_accessible_label": "Wyczyść wyszukiwanie"
@@ -1039,7 +1039,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
-                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
+                "load_error_message": "Coś poszło nie tak podczas wczytywania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -1058,7 +1058,7 @@
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
                 "permission_denied": "Nie masz uprawnień, aby przeglądać tę stronę.",
-                "unknown": "Wystąpił błąd podczas próby załadowania tej strony."
+                "unknown": "Wystąpił błąd podczas próby wczytania tej strony."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -1107,7 +1107,7 @@
             }
         },
         "email": {
-            "greeting": "Cześć, {displayName},",
+            "greeting": "Witaj, {displayName},",
             "signoff": "Zespół {forumTitle}",
             "informational": {
                 "default_title": "Informacja",
@@ -1178,7 +1178,7 @@
             "light_mode_label": "Tryb jasny",
             "load_more": "Wczytaj więcej",
             "latest": "Ostatnio aktywne",
-            "loading": "Ładowanie...",
+            "loading": "Wczytywanie…",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
@@ -1215,7 +1215,7 @@
             "username_or_email_placeholder": "Nazwa użytkownika lub e-mail",
             "users": "Użytkownicy",
             "view": "Zobacz",
-            "write_a_reply": "Napisz odpowiedź...",
+            "write_a_reply": "Napisz odpowiedź…",
             "you": "Ty"
         },
         "group": {
