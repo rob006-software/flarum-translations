@@ -32,11 +32,11 @@
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Określ, jakie pliki użytkownicy mogą przesyłać, gdzie mają być przechowywane i w jaki sposób będą wyświetlane w postach.\n",
                 "mime_order": "Reguły są sprawdzane od góry do dołu, a używana jest pierwsza pasująca. Bardziej szczegółowe reguły umieść więc nad ogólnymi.\n",
-                "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
+                "resize": "Wybierz czy chcesz przeskalować obrazy zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazu.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla przesłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "thumbnails": "Generuj pomniejszone miniatury obrazów podczas przesyłania. Miniatura jest wyświetlana bezpośrednio w poście, a kliknięcie otwiera oryginalny obraz w pełnej rozdzielczości w nowej karcie. Miniatury mogą znacznie zmniejszyć zużycie transferu i rozmiar stron na forach z dużą liczbą dużych obrazów.\n",
                 "thumbnail_quality": "Jakość kodowania od 1 do 100, stosowana do miniaturek WebP i JPEG. Wyższe wartości zapewniają lepszą jakość, ale zwiększają rozmiar pliku. Miniatury GIF i PNG są bezstratne, więc to ustawienie ich nie dotyczy. Istniejące miniatury zachowają obecną jakość do czasu ponownego wygenerowania ich poleceniem uzupełniającym.\n",
-                "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
+                "watermark": "Wybierz, czy obrazy będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "storage_intro": "Tutaj wyświetlane są skonfigurowane usługi oraz te, z których korzysta co najmniej jeden typ pliku. Możesz skonfigurować usługę wcześniej, a przypisać ją do typów plików później na karcie Pliki.\n",
                 "storage_configure_another": "Inne usługi przechowywania są zainstalowane, ale nie zostały jeszcze skonfigurowane. Sama konfiguracja usługi nie zmieni miejsca zapisywania plików, dopóki nie przypiszesz jej do wybranego typu plików.\n",
                 "storage_not_installed": "Szukasz Amazon S3, Cloudflare R2 lub Qiniu? Te usługi wymagają dodatkowego pakietu – zobacz <a>instalowanie adapterów pamięci masowej</a>.",
@@ -144,9 +144,9 @@
                     "php_ini_values": "Wartości w Twoim <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że ustawiony tutaj limit jest od nich niższy, albo odpowiednio zwiększ te wartości. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> pozwala na przesyłanie plików o wybranym maksymalnym rozmiarze."
                 },
                 "resize": {
-                    "max_width": "Maksymalna wysokość/szerokość obrazka",
-                    "title": "Przeskaluj obrazki",
-                    "toggle": "Przeskaluj obrazki"
+                    "max_width": "Maksymalna wysokość/szerokość obrazu",
+                    "title": "Przeskaluj obrazy",
+                    "toggle": "Przeskaluj obrazy"
                 },
                 "client_extension": {
                     "title": "Rozszerzenia plików podane przez użytkownika",
@@ -165,8 +165,8 @@
                     "padding": "Odstęp od krawędzi (px)",
                     "position": "Pozycja znaku wodnego",
                     "size_percent": "Rozmiar znaku wodnego (% szerokości obrazu)",
-                    "title": "Oznaczanie obrazków znakiem wodnym",
-                    "toggle": "Oznaczaj obrazki znakiem wodnym"
+                    "title": "Oznaczanie obrazów znakiem wodnym",
+                    "toggle": "Oznaczaj obrazy znakiem wodnym"
                 },
                 "svg-sanitizer": {
                     "title": "Sanitizer SVG",
@@ -201,14 +201,14 @@
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
                 "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image": "Domyślny szablon dla obrazków",
-                "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image-preview": "Szablon z podglądem kompletnego obrazka",
-                "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "markdown-image": "Szablon obrazka Markdown",
-                "markdown-image_description": "Pokazuje kompletny obrazek liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
-                "bbcode-image": "Szablon obrazka BBCode",
-                "bbcode-image_description": "Pokazuje kompletny obrazek liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "image": "Domyślny szablon dla obrazów",
+                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "image-preview": "Szablon z podglądem kompletnego obrazu",
+                "image-preview_description": "Wyświetla cały obraz in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
+                "markdown-image": "Szablon obrazu Markdown",
+                "markdown-image_description": "Pokazuje kompletny obraz liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "bbcode-image": "Szablon obrazu BBCode",
+                "bbcode-image_description": "Pokazuje kompletny obraz liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
                 "just-url": "Jedynie URL",
                 "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n",
                 "text-preview": "Podgląd tekstu",
