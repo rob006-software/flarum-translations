@@ -1836,16 +1836,7 @@ return [
 	],
 	'zerosonesfun-sound-system' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-sound-system/1.2.0/resources/locale/en.yml',
-		'__builtInLanguages' => [
-			'ar',
-			'de',
-			'es',
-			'fr',
-			'hi',
-			'ja',
-			'nl',
-			'zh_Hans',
-		],
+		'__builtInLanguages' => ['ar', 'de', 'es', 'fr', 'hi', 'ja', 'nl', 'zh_Hans'],
 	],
 	'zhihe-primary-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/echolocked/zhihe-primary-posts/v1.0.4/locale/en.yml',
