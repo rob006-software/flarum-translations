@@ -3263,7 +3263,7 @@ Hallo {warnee\_display\_name}!<br /><br />{warner\_display\_name} hat <del>Dich<
 
 #### [`fof-moderator-warnings.forum.validation.public_comment_required`](https://weblate.rob006.net/translate/flarum2/fof-moderator-warnings/de@formal/?q=context%3A%3D%22fof-moderator-warnings.forum.validation.public_comment_required%22)
 
-> You most provide a public comment.
+> You must provide a public comment.
 
 ```diff
 -Du musst eine öffentliche Begründung abgeben.

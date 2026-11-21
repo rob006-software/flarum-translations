@@ -20,4 +20,4 @@ are fully in sync and are not listed here.
 | [Sinhala](si.md) (`si`) | 4 | 0 | 2 |
 | [Spanish](es.md) (`es`) | 25 | 613 | 14 |
 | [Spanish (formal)](es@formal.md) (`es@formal`) | 25 | 613 | 14 |
-| [Ukrainian](uk.md) (`uk`) | 354 | 1300 | 100 |
+| [Ukrainian](uk.md) (`uk`) | 468 | 4412 | 173 |
