@@ -5,20 +5,20 @@
                 "title": "Ustawienia",
                 "moneyforpost": "Pieniądze przyznane za nowy post",
                 "moneyfordiscussion": "Pieniądze przyznane za nową dyskusję",
-                "moneyname": "",
-                "helpmoneyname": "",
-                "postminimumlength": "",
-                "helppostminimumlength": "",
-                "ignore_notifying_users": "",
+                "moneyname": "Nazwa dla pieniędzy",
+                "helpmoneyname": "Użyj <code>[money]</code>, aby wstawić wartość",
+                "postminimumlength": "Minimalna długość posta kwalifikująca go do otrzymania pieniędzy",
+                "helppostminimumlength": "Wpisz 0, aby wyłączyć",
+                "ignore_notifying_users": "Przy sprawdzaniu liczby słów w odpowiedziach uwzględniaj tylko właściwą treść",
                 "noshowzero": "Nie pokazuj, jeśli wartość to zero",
                 "autoremove": "Automatycznie aktualizuj saldo",
-                "cascaderemove": "",
+                "cascaderemove": "Odbieraj pieniądze za posty po usunięciu dyskusji",
                 "moneyforlike": "Pieniądze przyznane, gdy post zostanie polubiony",
                 "helpextensionlikes": "Wymaga rozszerzenia <code>flarum/likes</code>"
             },
             "permissions": {
                 "edit_money_label": "Edytuj pieniądze",
-                "disable_money_label": ""
+                "disable_money_label": "Wyłączenie pieniędzy"
             },
             "autoremove": [
                 "Nigdy nie odbieraj pieniędzy",
