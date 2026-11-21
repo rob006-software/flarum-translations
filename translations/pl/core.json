@@ -64,7 +64,7 @@
                 "comments_label": "{count, plural, one {# komentarz} few {# komentarze} other {# komentarzy}}",
                 "description": "Ostatnie wiadomości i ogłoszenia od zespołu Flarum.",
                 "empty": "Nie znaleziono ogłoszeń.",
-                "load_error": "Nie można załadować ogłoszeń. Spróbuj ponownie później.",
+                "load_error": "Nie można wczytać ogłoszeń. Spróbuj ponownie później.",
                 "about": "Najnowsze wiadomości i ogłoszenia pochodzące z oficjalnej społeczności Flarum na stronie discuss.flarum.org.",
                 "hide": "Ukryj ogłoszenia",
                 "read_more": "Czytaj więcej",
@@ -670,7 +670,7 @@
             },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
-                "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
+                "load_error_message": "Coś poszło nie tak podczas wczytywania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć podręczną przeglądarki i spróbuj ponownie.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -686,7 +686,7 @@
                 "not_found": "Podana strona nie istnieje.",
                 "not_found_return_link": "Wróć na {forum}",
                 "permission_denied": "Nie masz uprawnień, aby przeglądać tę stronę.",
-                "unknown": "Wystąpił błąd podczas próby załadowania tej strony."
+                "unknown": "Wystąpił błąd podczas próby wczytania tej strony."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -760,7 +760,7 @@
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
-            "loading": "Ładowanie...",
+            "loading": "Wczytywanie...",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako odczytane",
