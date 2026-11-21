@@ -31,9 +31,9 @@
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora posta.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
-                "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
+                "resize": "Wybierz czy chcesz przeskalować obrazy zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazu.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla przesłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
-                "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
+                "watermark": "Wybierz, czy obrazy będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do przesłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "custom_s3_url": "Użyj tego ustawienia, jeśli korzystasz z usługi zgodnej z S3, która wymaga określonego formatu URL (np. Backblaze B2), lub jeśli występują problemy z domyślnym formatem adresu. W większości usług to ustawienie nie jest potrzebne. Upewnij się, że adres URL zawiera protokół (https://) i jest poprawnie sformatowany. Przykład: https://your-bucket.s3.your-region.backblazeb2.com\n",
@@ -84,9 +84,9 @@
                     "php_ini_values": "Twoje wartości <code>php.ini</code> to <code>post_max_size={post}</code> i <code>upload_max_filesize={upload}</code>. Upewnij się, że wartość ustawiona tutaj jest poniżej tych progów, lub dostosuj je odpowiednio. Jeśli korzystasz z <code>Nginx</code>, upewnij się również, że <code>client_max_body_size</code> jest odpowiedniej wielkości dla wybranego maksymalnego limitu."
                 },
                 "resize": {
-                    "max_width": "Maksymalna wysokość/szerokość obrazka",
-                    "title": "Przeskaluj obrazki",
-                    "toggle": "Przeskaluj obrazki"
+                    "max_width": "Maksymalna wysokość/szerokość obrazu",
+                    "title": "Przeskaluj obrazy",
+                    "toggle": "Przeskaluj obrazy"
                 },
                 "client_extension": {
                     "title": "Rozszerzenia plików podane przez użytkownika"
@@ -94,8 +94,8 @@
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
                     "position": "Pozycja znaku wodnego",
-                    "title": "Oznaczanie obrazków znakiem wodnym",
-                    "toggle": "Oznaczaj obrazki znakiem wodnym"
+                    "title": "Oznaczanie obrazów znakiem wodnym",
+                    "toggle": "Oznaczaj obrazy znakiem wodnym"
                 },
                 "svg-sanitizer": {
                     "title": "Sanitizer SVG",
@@ -124,14 +124,14 @@
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
                 "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image": "Domyślny szablon dla obrazków",
-                "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image-preview": "Szablon z podglądem kompletnego obrazka",
-                "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "markdown-image": "Szablon obrazka Markdown",
-                "markdown-image_description": "Pokazuje kompletny obrazek liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
-                "bbcode-image": "Szablon obrazka BBCode",
-                "bbcode-image_description": "Pokazuje kompletny obrazek liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "image": "Domyślny szablon dla obrazów",
+                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "image-preview": "Szablon z podglądem kompletnego obrazu",
+                "image-preview_description": "Wyświetla cały obraz in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
+                "markdown-image": "Szablon obrazu Markdown",
+                "markdown-image_description": "Pokazuje kompletny obraz liniowo za pomocą Markdown. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/markdown, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
+                "bbcode-image": "Szablon obrazu BBCode",
+                "bbcode-image_description": "Pokazuje kompletny obraz liniowo za pomocą BBCode. <strong>Musisz mieć zainstalowane i aktywowane rozszerzenie flarum/bbcode, aby to działało.</strong> Brak funkcji pobierania, statystyki nie są zbierane, a ochrona przed hotlinkowaniem jest ignorowana.\n",
                 "just-url": "Jedynie URL",
                 "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n",
                 "text-preview": "Podgląd tekstu",
