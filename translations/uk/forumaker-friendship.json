@@ -2,121 +2,121 @@
     "forumaker-friendship": {
         "lib": {
             "errors": {
-                "user_not_found": "",
-                "request_not_found": "",
-                "not_friends": "",
-                "self_request": "",
-                "already_friends": ""
+                "user_not_found": "Користувача не знайдено",
+                "request_not_found": "Запит на дружбу не знайдено",
+                "not_friends": "Цього користувача немає у вашому списку друзів",
+                "self_request": "Ви не можете надіслати запит на дружбу собі",
+                "already_friends": "Цей користувач уже у вашому списку друзів"
             }
         },
         "forum": {
             "user": {
-                "friends_tab": "",
-                "friends_count": "",
-                "requests_btn": "",
-                "requests_btn_count": "",
-                "no_friends": "",
-                "friends_hidden": "",
-                "friends_since": "",
-                "load_more": ""
+                "friends_tab": "Друзі",
+                "friends_count": "{count, plural, one {Друзів: #} other {Друзів: #}}",
+                "requests_btn": "Запити",
+                "requests_btn_count": "{count, plural, one {Запитів: #} other {Запитів: #}}",
+                "no_friends": "Друзів ще немає",
+                "friends_hidden": "Список друзів приховано",
+                "friends_since": "Друзі з {date}",
+                "load_more": "Завантажити ще"
             },
             "dropdown": {
-                "add_friend_btn": "",
-                "cancel_request_btn": "",
-                "remove_friend_btn": ""
+                "add_friend_btn": "Додати до друзів",
+                "cancel_request_btn": "Скасувати запит на дружбу",
+                "remove_friend_btn": "Видалити з друзів"
             },
             "add_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "Додати до друзів",
+                "text": "Надіслати запит на дружбу користувачеві {username}?",
+                "confirm_btn": "Додати до друзів",
+                "cancel_btn": "Скасувати",
+                "success": "Запит на дружбу надіслано"
             },
             "pending_modal": {
-                "text": "",
-                "accept_btn": "",
-                "decline_btn": ""
+                "text": "Цей користувач уже надіслав вам запит на дружбу",
+                "accept_btn": "Додати до друзів",
+                "decline_btn": "Відхилити"
             },
             "cancel_request_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": ""
+                "title": "Скасувати запит на дружбу",
+                "text": "Відкликати запит на дружбу, надісланий користувачеві {username}?",
+                "confirm_btn": "Скасувати запит",
+                "cancel_btn": "Залишити запит"
             },
             "remove_modal": {
-                "title": "",
-                "text": "",
-                "confirm_btn": "",
-                "cancel_btn": "",
-                "success": ""
+                "title": "Видалити з друзів",
+                "text": "Видалити користувача {username} з друзів?",
+                "confirm_btn": "Видалити",
+                "cancel_btn": "Залишити в друзях",
+                "success": "Ви більше не друзі"
             },
             "requests_modal": {
-                "title": "",
-                "incoming_tab": "",
-                "outgoing_tab": "",
-                "history_btn": "",
-                "search_placeholder": "",
-                "no_incoming": "",
-                "no_outgoing": "",
-                "accept_btn": "",
-                "decline_btn": "",
-                "cancel_btn": "",
-                "cancel_success": "",
-                "accept_success": ""
+                "title": "Запити на дружбу",
+                "incoming_tab": "Вхідні — {count}",
+                "outgoing_tab": "Вихідні — {count}",
+                "history_btn": "Історія",
+                "search_placeholder": "Пошук за іменем",
+                "no_incoming": "Вхідних запитів немає",
+                "no_outgoing": "Вихідних запитів немає",
+                "accept_btn": "Прийняти",
+                "decline_btn": "Відхилити",
+                "cancel_btn": "Скасувати",
+                "cancel_success": "Запит скасовано",
+                "accept_success": "Тепер ви друзі"
             },
             "history_modal": {
-                "title": "",
-                "empty": "",
-                "load_more": ""
+                "title": "Історія",
+                "empty": "Історія ще порожня",
+                "load_more": "Завантажити ще"
             },
             "history": {
-                "requested_self": "",
-                "requested_other": "",
-                "cancelled_self": "",
-                "cancelled_other": "",
-                "accepted_self": "",
-                "accepted_other": "",
-                "declined_self": "",
-                "declined_other": "",
-                "removed_self": "",
-                "removed_other": ""
+                "requested_self": "Ви надіслали запит на дружбу користувачеві {username}",
+                "requested_other": "Користувач {username} надіслав вам запит на дружбу",
+                "cancelled_self": "Ви відкликали запит на дружбу до користувача {username}",
+                "cancelled_other": "Користувач {username} скасував свій запит",
+                "accepted_self": "Ви прийняли запит користувача {username}",
+                "accepted_other": "Користувач {username} прийняв ваш запит",
+                "declined_self": "Ви відхилили запит користувача {username}",
+                "declined_other": "Користувач {username} відхилив ваш запит",
+                "removed_self": "Ви видалили користувача {username} з друзів",
+                "removed_other": "Користувач {username} видалив вас із друзів"
             },
             "notifications": {
-                "requested_text": "",
-                "removed_text": "",
-                "declined_text": ""
+                "requested_text": "Користувач {name} хоче додати вас до друзів",
+                "removed_text": "Користувач {name} видалив вас із друзів",
+                "declined_text": "Користувач {name} відхилив ваш запит на дружбу"
             },
             "settings": {
-                "section_label": "",
-                "show_on_usercard": "",
-                "show_in_posts": "",
-                "notify_requested_label": "",
-                "notify_removed_label": "",
-                "notify_declined_label": ""
+                "section_label": "Друзі",
+                "show_on_usercard": "Показувати кількість друзів поруч з аватаром у профілі",
+                "show_in_posts": "Показувати кількість друзів поруч з аватаром у дописах",
+                "notify_requested_label": "Хтось надсилає мені запит на дружбу",
+                "notify_removed_label": "Хтось видаляє мене з друзів",
+                "notify_declined_label": "Хтось відхиляє мій запит на дружбу"
             }
         },
         "admin": {
             "sections": {
-                "badges": "",
-                "history": ""
+                "badges": "Відзнака",
+                "history": "Історія"
             },
             "settings": {
-                "badges_intro": "",
-                "show_badge_on_usercard": "",
-                "show_badge_on_usercard_help": "",
-                "show_badge_on_post": "",
-                "show_badge_on_post_help": "",
-                "badge_color": "",
-                "badge_bg_color": "",
-                "event_retention_intro": "",
-                "event_retention_days": "",
-                "event_retention_days_help": ""
+                "badges_intro": "Якщо параметр увімкнено, користувачі зможуть керувати ним у власних налаштуваннях",
+                "show_badge_on_usercard": "Показувати кількість друзів поруч з аватаром у профілі",
+                "show_badge_on_usercard_help": "Показується поруч зі станом присутності й датою реєстрації на картці профілю",
+                "show_badge_on_post": "Показувати кількість друзів поруч з аватаром у дописах",
+                "show_badge_on_post_help": "Показується поруч з аватаром у заголовку допису",
+                "badge_color": "Колір і значок у профілі",
+                "badge_bg_color": "Колір тла в дописах",
+                "event_retention_intro": "Старі записи історії запитів автоматично видаляються раз на день",
+                "event_retention_days": "Строк зберігання історії (дні)",
+                "event_retention_days_help": "Значення 0 вимикає очищення, і історія зберігається безстроково"
             },
             "permissions": {
-                "add_friends": "",
-                "view_others": "",
-                "moderate": "",
-                "manage": ""
+                "add_friends": "Додавати до друзів",
+                "view_others": "Переглядати друзів інших користувачів",
+                "moderate": "Модерувати списки друзів",
+                "manage": "Керувати списками друзів"
             }
         }
     }
