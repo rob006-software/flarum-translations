@@ -65,11 +65,14 @@
                     "a8a40d2dc6a09d94b9a0af304c832476 a8a40d2dc6a09d94b9a0af304c832476"
                 ],
                 "permissions": {
+                    "disable_money_label": "c0a47ab0169a7accd475e27fba4fac4f c0a47ab0169a7accd475e27fba4fac4f",
                     "edit_money_label": "aa1930a5868c4642a73f43a56a5f9ad9 aa1930a5868c4642a73f43a56a5f9ad9"
                 },
                 "settings": {
                     "autoremove": "7507bbde93a0a5168e41f3404e4d055c 7507bbde93a0a5168e41f3404e4d055c",
+                    "cascaderemove": "eb7e65c6c387be6fa86c271e89d4ca2d eb7e65c6c387be6fa86c271e89d4ca2d",
                     "helpextensionlikes": "c1f8b1092c17349f197b135173f04fa4 c1f8b1092c17349f197b135173f04fa4",
+                    "ignore_notifying_users": "cb348953ce83285549c5a79e8a751ccb cb348953ce83285549c5a79e8a751ccb",
                     "moneyfordiscussion": "5a90db08e81b9a6248b799b8a6571bfa 5a90db08e81b9a6248b799b8a6571bfa",
                     "moneyforlike": "a871531177fb099e0f9b8c3db8be4d82 a871531177fb099e0f9b8c3db8be4d82",
                     "moneyforpost": "bc3a64ad887b6e96b96c7c50cce70f23 bc3a64ad887b6e96b96c7c50cce70f23",
@@ -875,8 +878,82 @@
         "datitisev-backup": {
             "admin": {
                 "adapter-settings-modal": {
+                    "aliyun": {
+                        "access-id": {
+                            "description": "c9a59d64e12ea08883fa6011225e604a c9a59d64e12ea08883fa6011225e604a",
+                            "label": "5f40cc7cf1f9cc26a8799140ec389d8b 5f40cc7cf1f9cc26a8799140ec389d8b"
+                        },
+                        "access-key": {
+                            "description": "7a19a48bc43b05f5c5e5b760048c5308 7a19a48bc43b05f5c5e5b760048c5308",
+                            "label": "2e3a68ed5a089edce456e8a3453a470d 2e3a68ed5a089edce456e8a3453a470d"
+                        },
+                        "bucket": {
+                            "description": "1d47584d36b78df08b4a5537252c5994 1d47584d36b78df08b4a5537252c5994",
+                            "label": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c"
+                        },
+                        "endpoint": {
+                            "description": "f45041f202c2fb6f57a906c76c766b1d f45041f202c2fb6f57a906c76c766b1d",
+                            "label": "a130cc9da527329c4e54666165827739 a130cc9da527329c4e54666165827739"
+                        },
+                        "path-prefix": {
+                            "description": "90a5581be00a989c7163ffad877c16d0 90a5581be00a989c7163ffad877c16d0",
+                            "label": "c5e1fea644163726c0cf37e672aad991 c5e1fea644163726c0cf37e672aad991"
+                        }
+                    },
+                    "aws": {
+                        "bucket": {
+                            "description": "202979c30b1b1628a5b4729362b1504e 202979c30b1b1628a5b4729362b1504e",
+                            "label": "30edf70db68aa84f05d3e72326807b0c 30edf70db68aa84f05d3e72326807b0c"
+                        },
+                        "credentials-key": {
+                            "description": "54b5fcd9643f0e9d2c6e1da7cd17ea3e 54b5fcd9643f0e9d2c6e1da7cd17ea3e",
+                            "label": "8b0d9982760012a0082c5a1af6855d6d 8b0d9982760012a0082c5a1af6855d6d"
+                        },
+                        "credentials-secret": {
+                            "description": "b9ce24fda0ed64ef44d02ec33f13f1de b9ce24fda0ed64ef44d02ec33f13f1de",
+                            "label": "cfb3875cd520a0b20c46dad1641f034c cfb3875cd520a0b20c46dad1641f034c"
+                        },
+                        "path-prefix": {
+                            "description": "90a5581be00a989c7163ffad877c16d0 90a5581be00a989c7163ffad877c16d0",
+                            "label": "c5e1fea644163726c0cf37e672aad991 c5e1fea644163726c0cf37e672aad991"
+                        },
+                        "region": {
+                            "description": "84e22aad4d30824af96998e4d2d82238 84e22aad4d30824af96998e4d2d82238",
+                            "label": "f447ac856e7e72435904956e3b15f433 f447ac856e7e72435904956e3b15f433"
+                        },
+                        "version": {
+                            "description": "f357607ebda46d7519d76a9e1cc4db8f f357607ebda46d7519d76a9e1cc4db8f",
+                            "label": "582ff5115b0830da2118ef9370e71dfa 582ff5115b0830da2118ef9370e71dfa"
+                        }
+                    },
+                    "azure": {
+                        "container": {
+                            "description": "ad8955647224a94b54ed93a93641603c ad8955647224a94b54ed93a93641603c",
+                            "label": "679b995efe5f9d1e660b013b7cb5ece3 679b995efe5f9d1e660b013b7cb5ece3"
+                        }
+                    },
+                    "dropbox": {
+                        "help": {
+                            "obtain-access-code-button": "de5f99e6503033f17018740900740eed de5f99e6503033f17018740900740eed",
+                            "obtain-access-code-label": "e0442c3d05256f8d441c4cd683898200 e0442c3d05256f8d441c4cd683898200",
+                            "obtain-refresh-token-button": "9e693da9527b4dbcdec49ed23ed175a9 9e693da9527b4dbcdec49ed23ed175a9",
+                            "obtain-refresh-token-label": "88879df07a4b3a41a406f824ea7f4b3f 88879df07a4b3a41a406f824ea7f4b3f",
+                            "obtain-refresh-token-success": "79c60da07f3e3879eb238bfa32c6ddaa 79c60da07f3e3879eb238bfa32c6ddaa"
+                        },
+                        "key": {
+                            "label": "35aaea58a4af34afaf5baeb78bd46e00 35aaea58a4af34afaf5baeb78bd46e00"
+                        },
+                        "refresh-token": {
+                            "description": "f64904fe086bb9aa14a2793a7a9db116 f64904fe086bb9aa14a2793a7a9db116",
+                            "label": "482354eb74b5271de32f0688161fd5ed 482354eb74b5271de32f0688161fd5ed"
+                        },
+                        "secret": {
+                            "label": "944e811b696568e8fb638ecac685e84d 944e811b696568e8fb638ecac685e84d"
+                        }
+                    },
                     "ftp": {
                         "host": {
+                            "description": "61e476d6e2218882fe00429151e37b98 61e476d6e2218882fe00429151e37b98",
                             "label": "084b0670d16109c389100273b67408b9 084b0670d16109c389100273b67408b9"
                         },
                         "password": {
@@ -888,14 +965,16 @@
                             "label": "60aaf44d4b562252c04db7f98497e9aa 60aaf44d4b562252c04db7f98497e9aa"
                         },
                         "root": {
-                            "description": "639a1f25598c9f8c4328a1a9e1e91621 639a1f25598c9f8c4328a1a9e1e91621"
+                            "description": "639a1f25598c9f8c4328a1a9e1e91621 639a1f25598c9f8c4328a1a9e1e91621",
+                            "label": "9cf2466ee8ffd90dadfa207709c8d38e 9cf2466ee8ffd90dadfa207709c8d38e"
                         },
                         "ssl": {
                             "description": "5066c880a7211d374f921082c25032ab 5066c880a7211d374f921082c25032ab",
                             "toggle": "ea52c36203c5f99c3ce2442d531b1a22 ea52c36203c5f99c3ce2442d531b1a22"
                         },
                         "timeout": {
-                            "description": "dba6f212dc974c0b080eab178c00e60e dba6f212dc974c0b080eab178c00e60e"
+                            "description": "dba6f212dc974c0b080eab178c00e60e dba6f212dc974c0b080eab178c00e60e",
+                            "label": "7b87192688a0b809fe0f017782e3f06f 7b87192688a0b809fe0f017782e3f06f"
                         },
                         "username": {
                             "description": "40fc2f97b578c2425e1556865501b61f 40fc2f97b578c2425e1556865501b61f",
@@ -903,12 +982,25 @@
                         }
                     },
                     "gdrive": {
+                        "client-id": {
+                            "description": "30e93f12dac915fb67f4fff7ab1e7d4b 30e93f12dac915fb67f4fff7ab1e7d4b",
+                            "label": "343fc70f25783f0115790002dc0193ef 343fc70f25783f0115790002dc0193ef"
+                        },
+                        "client-secret": {
+                            "description": "7215ee9c7d9dc229d2921a40e899ec5f 7215ee9c7d9dc229d2921a40e899ec5f",
+                            "label": "9213f3355bae512e9e3eb0332998098f 9213f3355bae512e9e3eb0332998098f"
+                        },
                         "folder": {
                             "description": "f796176a07d12affc57434f6a84022c5 f796176a07d12affc57434f6a84022c5",
                             "label": "d0769fe0796c9d7f3cce13f69b157015 d0769fe0796c9d7f3cce13f69b157015"
                         },
+                        "help": {
+                            "test_button": "2cd01d565bb79f0b24163240c1b54f58 2cd01d565bb79f0b24163240c1b54f58",
+                            "test_success_alert": "7e7ef07e1e1dc33c400a514c4850267c 7e7ef07e1e1dc33c400a514c4850267c"
+                        },
                         "refresh-token": {
-                            "label": "e9f434b50ca795d7c393aa2f7e170a5b e9f434b50ca795d7c393aa2f7e170a5b"
+                            "description": "8c1b15a2d9f108a17d344768732a7e5c 8c1b15a2d9f108a17d344768732a7e5c",
+                            "label": "482354eb74b5271de32f0688161fd5ed 482354eb74b5271de32f0688161fd5ed"
                         }
                     },
                     "local": {
@@ -917,10 +1009,12 @@
                             "label": "d25cd6e0458a65af0809156402b151d8 d25cd6e0458a65af0809156402b151d8"
                         }
                     },
+                    "name_label": "06a92c46530d3f234b5a5a73a91e0a6e 06a92c46530d3f234b5a5a73a91e0a6e",
                     "title": "062daf486bcfc1de6bcebd834d5c72be 062daf486bcfc1de6bcebd834d5c72be"
                 },
                 "adapters": {
                     "aliyun": "24f07261f06796630733bcc0e283c75c 24f07261f06796630733bcc0e283c75c",
+                    "aws": "048927a97ef6b1b501acaef70c08eedc 048927a97ef6b1b501acaef70c08eedc",
                     "azure": "1668ca1bd914c1d847f23b491319ac91 1668ca1bd914c1d847f23b491319ac91",
                     "dropbox": "f92aa92725095d5531f54b4589d99264 f92aa92725095d5531f54b4589d99264",
                     "ftp": "c728a49363c9a93a43a7e7f232b5a54a c728a49363c9a93a43a7e7f232b5a54a",
@@ -928,11 +1022,15 @@
                     "local": "7f9dc91a0fc210fc36f15bd099daea27 7f9dc91a0fc210fc36f15bd099daea27",
                     "sftp": "ea1386cf13bf90b95782349fdd4b2721 ea1386cf13bf90b95782349fdd4b2721"
                 },
+                "create_button": "026ab5a8d551b6f2050cca5e369bfce0 026ab5a8d551b6f2050cca5e369bfce0",
+                "delete_button": "4c36464e1f2bcd4f7753e618342df40f 4c36464e1f2bcd4f7753e618342df40f",
+                "delete_confirmation": "82ff9e295f05cb0fea490db76bb900f4 82ff9e295f05cb0fea490db76bb900f4",
                 "nav": {
                     "description": "d6e37c1c621fd4e067e6f155cd81a623 d6e37c1c621fd4e067e6f155cd81a623",
                     "label": "29a7197ab89c38d743a436759c1ffd40 29a7197ab89c38d743a436759c1ffd40"
                 },
                 "required-package-modal": {
+                    "content": "ad28ee80b6f73a1b3b7458e7db5b8aec ad28ee80b6f73a1b3b7458e7db5b8aec",
                     "title": "d0118c6a9e4d4da0507e1e0bf62494e7 d0118c6a9e4d4da0507e1e0bf62494e7"
                 },
                 "required_package_button": "b6a36dfbe13945e9e3d29cbad207a8fe b6a36dfbe13945e9e3d29cbad207a8fe",
@@ -1050,6 +1148,8 @@
                     "block_name_label": "c64f771afa01122ac5c20f97b9799f0f c64f771afa01122ac5c20f97b9799f0f",
                     "discussion_limit_help": "86ffa6237fdbdec30f37d7d51018555f 86ffa6237fdbdec30f37d7d51018555f",
                     "discussion_limit_label": "eb1d1cba89ab41d999255154fc121e4c eb1d1cba89ab41d999255154fc121e4c",
+                    "discussion_related_help": "6849c5daf7019f1333a861df8e8b5301 6849c5daf7019f1333a861df8e8b5301",
+                    "discussion_related_label": "4df612375f93c6a5aca280a343f4a2c8 4df612375f93c6a5aca280a343f4a2c8",
                     "filter_by_help": "19403bb3b0b4ce79e7724694d9add164 19403bb3b0b4ce79e7724694d9add164",
                     "filter_by_label": "c74523ef6aaf54af7b20919c4efb8e10 c74523ef6aaf54af7b20919c4efb8e10",
                     "filter_dropdown": {
@@ -7360,12 +7460,18 @@
                     "forum_activity": "c19c907f04cc27864c3f1e8431eab262 c19c907f04cc27864c3f1e8431eab262",
                     "forum_new_discussions": "e02b1211b31eb441c31f135b037e2b42 e02b1211b31eb441c31f135b037e2b42",
                     "tag_activity": "06d931bc4585408057a2a685e65c32b2 06d931bc4585408057a2a685e65c32b2",
-                    "tag_new_discussions": "cc0a35ee7f0bd1ddc9c928f5cbdbcf1a cc0a35ee7f0bd1ddc9c928f5cbdbcf1a"
+                    "tag_new_discussions": "cc0a35ee7f0bd1ddc9c928f5cbdbcf1a cc0a35ee7f0bd1ddc9c928f5cbdbcf1a",
+                    "user_last_posts": "fbce9930657faa6f0bad14b2db3de5a5 fbce9930657faa6f0bad14b2db3de5a5"
                 },
                 "discussion": {
                     "feed_link": "c4771ad3d3f161048c2cd8121541e295 c4771ad3d3f161048c2cd8121541e295"
                 },
                 "feeds": {
+                    "entries": {
+                        "user_posts": {
+                            "title_reply": "d4a00f5b391e105337291e9aebf337cd d4a00f5b391e105337291e9aebf337cd"
+                        }
+                    },
                     "titles": {
                         "discussion_subtitle": "ad1734006b54cb2ac4d93547937868c2 ad1734006b54cb2ac4d93547937868c2",
                         "discussion_title": "e8aa8d469bdd8e335b5530558cd7b7de e8aa8d469bdd8e335b5530558cd7b7de",
@@ -7376,7 +7482,9 @@
                         "tag_d_subtitle": "e9ecc4b101870fa60000c609bd5ff878 e9ecc4b101870fa60000c609bd5ff878",
                         "tag_d_title": "3e617d9204a36a0833174e454a89d0e2 3e617d9204a36a0833174e454a89d0e2",
                         "tag_subtitle": "80fb0626c4c807008c2f5baab824c903 80fb0626c4c807008c2f5baab824c903",
-                        "tag_title": "9f5d73674ae2f8c32eef3677137cad05 9f5d73674ae2f8c32eef3677137cad05"
+                        "tag_title": "9f5d73674ae2f8c32eef3677137cad05 9f5d73674ae2f8c32eef3677137cad05",
+                        "user_subtitle": "13fb69b9d44b5db7033c9ebf98297379 13fb69b9d44b5db7033c9ebf98297379",
+                        "user_title": "c04cd06704d124ba9ac414758cc9526a c04cd06704d124ba9ac414758cc9526a"
                     }
                 }
             }
@@ -7526,7 +7634,10 @@
     "justoverclock-welcomebox.json": {
         "flarum-ext-welcomebox": {
             "admin": {
-                "enablepostbox": "5148aa690bbda6b4d90bd683c89cf4ac 5148aa690bbda6b4d90bd683c89cf4ac"
+                "UseWidget": "882e0591fdd56af77a483db667051be4 882e0591fdd56af77a483db667051be4",
+                "enablepostbox": "5148aa690bbda6b4d90bd683c89cf4ac 5148aa690bbda6b4d90bd683c89cf4ac",
+                "img": "5a79bca2e95d4bb9411c814b0edd581f 5a79bca2e95d4bb9411c814b0edd581f",
+                "img-help": "7582423dbb88bbcc0906a39a9c74ff60 7582423dbb88bbcc0906a39a9c74ff60"
             },
             "forum": {
                 "SettingsLink": "47285f94c98a64a95657836618447744 47285f94c98a64a95657836618447744",
@@ -7547,6 +7658,17 @@
         "maicol07-sso": {
             "admin": {
                 "settings": {
+                    "client_api_key": "4ee67b92afce4fdd6b3aa772ab055869 4ee67b92afce4fdd6b3aa772ab055869",
+                    "client_api_key_help": "d17df1bde8f6dfc04df48de47d4f3c33 d17df1bde8f6dfc04df48de47d4f3c33",
+                    "client_name": "2117322584447a811fefe2832d7dbf97 2117322584447a811fefe2832d7dbf97",
+                    "client_name_help": "c59b6b52beea29d0ad7a9f48709eb923 c59b6b52beea29d0ad7a9f48709eb923",
+                    "client_password_token": "663898da1321f560a00ebc1a5525e836 663898da1321f560a00ebc1a5525e836",
+                    "client_password_token_help": "2db3304a1d0cd73dbb518e2b285cf329 2db3304a1d0cd73dbb518e2b285cf329",
+                    "client_url": "e6b391a8d2c4d45902a23a8b6585703d e6b391a8d2c4d45902a23a8b6585703d",
+                    "client_url_help": "69abb4490a5d1911459ba2ca5b216fec 69abb4490a5d1911459ba2ca5b216fec",
+                    "client_verify_ssl": "2b76a1110ae20b0785a6022c97d3d070 2b76a1110ae20b0785a6022c97d3d070",
+                    "client_verify_ssl_help": "40e1ac356c6471813ae6721bed04a3aa 40e1ac356c6471813ae6721bed04a3aa",
+                    "cookies_prefix": "4463fcc142f7fb1f5a17c07e4bd76918 4463fcc142f7fb1f5a17c07e4bd76918",
                     "jwt_iss": "9d3aa10d723b462e969d23d8095081b7 9d3aa10d723b462e969d23d8095081b7",
                     "jwt_section_subtitle": "6c6aac2b6c5cde2e0ebd68c788496639 6c6aac2b6c5cde2e0ebd68c788496639",
                     "jwt_signer_key": "dc1c18a09373930c2eb24abdcb8f6b02 dc1c18a09373930c2eb24abdcb8f6b02",
@@ -7555,6 +7677,7 @@
                     "logout_url": "7a65b905cd985c3fdb51f08da981b8e3 7a65b905cd985c3fdb51f08da981b8e3",
                     "manage_account_btn_open_in_new_tab": "26b326191249358e9985539578d24243 26b326191249358e9985539578d24243",
                     "manage_account_url": "8d21c56793946bc95e2df55bd55fc8fe 8d21c56793946bc95e2df55bd55fc8fe",
+                    "provider_mode": "2b78f5fc14693bfc0db96d157a1b0317 2b78f5fc14693bfc0db96d157a1b0317",
                     "remove_login_btn": "21c01a9de08f277d414cbf89bf710ab6 21c01a9de08f277d414cbf89bf710ab6",
                     "remove_signup_btn": "5da237f11b1aba2942afb34f027e640c 5da237f11b1aba2942afb34f027e640c",
                     "signup_url": "14520d961a8b394967712b68360262c3 14520d961a8b394967712b68360262c3",
@@ -7562,7 +7685,8 @@
                 }
             },
             "forum": {
-                "manage_account_btn": "196729fc2ddddb5d5ade291d8097229a 196729fc2ddddb5d5ade291d8097229a"
+                "manage_account_btn": "196729fc2ddddb5d5ade291d8097229a 196729fc2ddddb5d5ade291d8097229a",
+                "no_login_url_error": "89cd5003ac126037310bca619de734fd 89cd5003ac126037310bca619de734fd"
             }
         }
     },
