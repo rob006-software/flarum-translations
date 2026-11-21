@@ -2,20 +2,20 @@
     "ernestdefoe-masthead": {
         "forum": {
             "compose": "Nouvelle discussion",
-            "views": "",
+            "views": "{count, plural, one {# vue} other {# vues}}",
             "last_reply": "Dernier message par {name} {time}",
             "strip": {
-                "online": ""
+                "online": "{count, plural, one {# membre en ligne} other {# membres en ligne}}"
             },
             "nav": {
                 "home": "Accueil"
             },
             "hero": {
                 "label": "En avant",
-                "kicker": "",
+                "kicker": "Fonctionnalité",
                 "kicker_tag": "En avant · {tag}",
                 "byline": "Par {name}",
-                "replies": "",
+                "replies": "{count, plural, one {# réponse} other {# réponses}}",
                 "empty_tag": "",
                 "empty_tag_gone": "Le tag sélectionné pour les sujets mis en avant n'existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.",
                 "empty_sticky": "",
