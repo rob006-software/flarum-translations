@@ -2,21 +2,21 @@
     "forumaker-bento": {
         "admin": {
             "settings": {
-                "section_layout": "",
-                "layout": "",
-                "layout_help": "",
-                "layout_tiles": "",
-                "layout_pills": "",
-                "layout_slider": "",
-                "pill_shape": "",
-                "pill_shape_help": "",
-                "pill_shape_capsule": "",
-                "pill_shape_rect": "",
-                "section_grid": "",
-                "columns_desktop": "",
-                "columns_desktop_help": "",
-                "plain_create_button": "",
-                "plain_create_button_help": ""
+                "section_layout": "Зовнішній вигляд",
+                "layout": "Стиль навігації",
+                "layout_help": "Плитки — картки зі значком і підписом. Капсули — компактні елементи в рядку. Слайдер — рядок із горизонтальним прокручуванням",
+                "layout_tiles": "Плитки",
+                "layout_pills": "Капсули",
+                "layout_slider": "Слайдер",
+                "pill_shape": "Форма",
+                "pill_shape_help": "Капсула — повністю заокруглені краї. Класична — стандартне заокруглення Flarum",
+                "pill_shape_capsule": "Капсула",
+                "pill_shape_rect": "Класична",
+                "section_grid": "Налаштування",
+                "columns_desktop": "Елементів у рядку",
+                "columns_desktop_help": "Від 2 до 6 у рядку на комп’ютері. На мобільних пристроях використовується стандартна навігація Flarum",
+                "plain_create_button": "Прибрати заливку кнопки «Нове обговорення»",
+                "plain_create_button_help": "Кнопка матиме такий самий вигляд, як сусідні елементи, без кольорового тла"
             }
         }
     }
