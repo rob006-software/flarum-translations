@@ -9866,6 +9866,7 @@
                     "tiles_url": "237a2c62dff74cc114b7f107e3558482 237a2c62dff74cc114b7f107e3558482",
                     "tiles_url_help": "a15991136f256f860d5140eda9a0c23b a15991136f256f860d5140eda9a0c23b",
                     "trip_max_alerts": "a904a6aeb839057749a1e95a938e4f28 a904a6aeb839057749a1e95a938e4f28",
+                    "trip_max_alerts_help": "4bf79a8b35bba8c7bb6c20e7a478b323 4bf79a8b35bba8c7bb6c20e7a478b323",
                     "trip_radius_km": "161419ca1053a944b803f6c78e6865bd 161419ca1053a944b803f6c78e6865bd",
                     "trip_radius_km_help": "6f897608e3b54831a82834e9f0270dd1 6f897608e3b54831a82834e9f0270dd1"
                 },
@@ -15673,6 +15674,7 @@
                         "burst_post_count_label": "181069aaf59ac9915846548c84760f17 181069aaf59ac9915846548c84760f17",
                         "detect_emails_help": "30e1a0cf639331bbbdcf63f80f8c6148 30e1a0cf639331bbbdcf63f80f8c6148",
                         "detect_emails_label": "e69a8aa3f683633c2cf07e1f06b7f097 e69a8aa3f683633c2cf07e1f06b7f097",
+                        "detect_local_phones_help": "40ec119c029ab2aaeecbd3d1f62b6d88 40ec119c029ab2aaeecbd3d1f62b6d88",
                         "detect_local_phones_label": "4b0af09aa6f52fa3361047bb396a7e3b 4b0af09aa6f52fa3361047bb396a7e3b",
                         "detect_phones_help": "4e8839ec43698c8f620b3cd4bf246830 4e8839ec43698c8f620b3cd4bf246830",
                         "detect_phones_label": "39615d03c81bb8295f290c864980570b 39615d03c81bb8295f290c864980570b",
@@ -16356,6 +16358,17 @@
         }
     },
     "fof-best-answer.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "awardedBestAnswer": "aec372c81feeb4f73e3f64dde30ae39a aec372c81feeb4f73e3f64dde30ae39a",
+                        "bestAnswerInDiscussion": "3a998a7c84296fb034559dbb71ef62bf 3a998a7c84296fb034559dbb71ef62bf",
+                        "selectBestAnswer": "d95c0b875c213c79a824e1465cf55cbc d95c0b875c213c79a824e1465cf55cbc"
+                    }
+                }
+            }
+        },
         "flarum-audit": {
             "lib": {
                 "browser": {
@@ -16713,6 +16726,19 @@
         }
     },
     "fof-byobu.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "byobuMadePublic": "188c0604063a036006ef4f47c36b1b92 188c0604063a036006ef4f47c36b1b92",
+                        "byobuPrivateDiscussionAdded": "830398aca8be60e865ea32f6d7cacfcc 830398aca8be60e865ea32f6d7cacfcc",
+                        "byobuPrivateDiscussionCreated": "cb875403b466af72998f4f4e8bcee1c9 cb875403b466af72998f4f4e8bcee1c9",
+                        "byobuPrivateDiscussionReplied": "16439fbff10b052eb645c2d685f46960 16439fbff10b052eb645c2d685f46960",
+                        "byobuRecipientRemoved": "4cdab6bfbfd768b3030c866006a2d9a5 4cdab6bfbfd768b3030c866006a2d9a5"
+                    }
+                }
+            }
+        },
         "fof-byobu": {
             "admin": {
                 "permission": {
@@ -17557,6 +17583,17 @@
         }
     },
     "fof-follow-tags.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "newDiscussionInTag": "af277780b6554bd4baf5ba11fd6c19ae af277780b6554bd4baf5ba11fd6c19ae",
+                        "newDiscussionTag": "6f5c6d74d6ad8d9d7d22eb53928e6b7c 6f5c6d74d6ad8d9d7d22eb53928e6b7c",
+                        "newPostInTag": "d011fd1ed828535274c7a0e99ca11cb8 d011fd1ed828535274c7a0e99ca11cb8"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "lib": {
                 "data": {
@@ -18921,6 +18958,15 @@
         }
     },
     "fof-merge-discussions.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "discussionMerged": "99d2d042fcb026b68fd07498b7a8ccc9 99d2d042fcb026b68fd07498b7a8ccc9"
+                    }
+                }
+            }
+        },
         "flarum-audit": {
             "lib": {
                 "browser": {
@@ -19029,6 +19075,15 @@
         }
     },
     "fof-moderator-warnings.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "warning": "b6c2f94b4e6374b2b4e66c2747c7b0d4 b6c2f94b4e6374b2b4e66c2747c7b0d4"
+                    }
+                }
+            }
+        },
         "flarum-audit": {
             "lib": {
                 "browser": {
@@ -19079,7 +19134,7 @@
                 },
                 "validation": {
                     "invalid_strike_count": "1e6aefe4ea90c59fa71393eef320bd30 1e6aefe4ea90c59fa71393eef320bd30",
-                    "public_comment_required": "3c6e867b691f6d7c212afe742e9c77c3 9277a15390a88d359a9b3f5db1a710d1"
+                    "public_comment_required": "c47c77256b9da68379a2ef4867086551 9277a15390a88d359a9b3f5db1a710d1"
                 },
                 "warning_controls": {
                     "delete_button": "513d306cc83aa63d5a3801c0cac5f739 513d306cc83aa63d5a3801c0cac5f739",
@@ -21149,7 +21204,8 @@
                         }
                     },
                     "openai": {
-                        "api_key_label": "c170f5feb67b6e2db9f2263ec3a4266b c170f5feb67b6e2db9f2263ec3a4266b",
+                        "api_key_label": "d49baca13a52bd681f6da4d6b7f5fd0f d49baca13a52bd681f6da4d6b7f5fd0f",
+                        "base_url_env_help": "4496b1ea351e2677f8f77f5a1d97cb6a 4496b1ea351e2677f8f77f5a1d97cb6a",
                         "intro": "54bee8642bf1e72a7ed3f46ed2c3114c 54bee8642bf1e72a7ed3f46ed2c3114c",
                         "max_tokens_help": "1a1419859fe7ce5f6b7af7393ef48ed4 1a1419859fe7ce5f6b7af7393ef48ed4",
                         "max_tokens_label": "6448309a665b4a655a58b921517bdfb5 6448309a665b4a655a58b921517bdfb5",
@@ -21159,6 +21215,9 @@
                     "portuguese_options": {
                         "pt-BR": "bc6d7c73cc0de6feafd932b19dfb2080 bc6d7c73cc0de6feafd932b19dfb2080",
                         "pt-PT": "5329f16e979b1f54bbad4fa1fe85d17c 5329f16e979b1f54bbad4fa1fe85d17c"
+                    },
+                    "post_translation_display_options": {
+                        "below": "08b127bbf2e06e746a3e7cfe0349798b 08b127bbf2e06e746a3e7cfe0349798b"
                     },
                     "short_content_length_help": "34978d467895dc07aa4dce38c38391cf 34978d467895dc07aa4dce38c38391cf",
                     "short_content_length_label": "5fa99ef36ec7c371036adcc0ccb30924 5fa99ef36ec7c371036adcc0ccb30924",
@@ -21810,6 +21869,16 @@
         }
     },
     "fof-username-request.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "usernameRequestApproved": "be2274f69dd82e155f0d9a4e8aac83fd be2274f69dd82e155f0d9a4e8aac83fd",
+                        "usernameRequestRejected": "9eebe7642af0629d6a42573a6960cbc2 9eebe7642af0629d6a42573a6960cbc2"
+                    }
+                }
+            }
+        },
         "flarum-audit": {
             "lib": {
                 "browser": {
@@ -24524,6 +24593,17 @@
         }
     },
     "ianm-follow-users.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "newDiscussionByUser": "cd3e75a25201b0d9bc5d1a31ec859a52 cd3e75a25201b0d9bc5d1a31ec859a52",
+                        "newFollower": "e3838226b4f006059cd0a456943c62c7 e3838226b4f006059cd0a456943c62c7",
+                        "newPostByUser": "9419e567ade8dfeac875891f594b5e11 9419e567ade8dfeac875891f594b5e11"
+                    }
+                }
+            }
+        },
         "flarum-gdpr": {
             "lib": {
                 "data": {
@@ -24938,6 +25018,15 @@
         }
     },
     "ianm-twofactor.json": {
+        "core": {
+            "email": {
+                "notification": {
+                    "types": {
+                        "2faStatusChanged": "01214003d1ab944c8a5d56a99fa65e41 01214003d1ab944c8a5d56a99fa65e41"
+                    }
+                }
+            }
+        },
         "flarum-audit": {
             "lib": {
                 "browser": {
