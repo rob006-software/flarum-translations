@@ -1202,6 +1202,10 @@ return [
 	'migratetoflarum-fake-data' => [
 		'beta' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/2.0.0-beta.1/resources/locale/en.yml',
 	],
+	'nwnuyhs-user-manager' => [
+		'tag' => 'https://raw.githubusercontent.com/nwnuyhs/flarum-user-manager/v1.1.0/locale/en.yml',
+		'__builtInLanguages' => ['zh_Hans'],
+	],
 	'peopleinside-antiflood' => [
 		'tag' => 'https://raw.githubusercontent.com/PeopleInside/flarum-ext-antiflood/2.0.5/locale/en.yml',
 	],
