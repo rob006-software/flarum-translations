@@ -2,50 +2,50 @@
     "forumaker-profile-cover": {
         "admin": {
             "sections": {
-                "thumbnails": "",
-                "general": ""
+                "thumbnails": "Мініатюри",
+                "general": "Загальні"
             },
-            "thumbnails": "",
-            "thumbnails_help": "",
-            "thumbnail_width": "",
-            "thumbnail_width_help": "",
-            "recreate_thumbnails": "",
-            "delete_thumbnails": "",
-            "recreate_thumbnails_confirm": "",
-            "delete_thumbnails_confirm": "",
-            "recreate_success": "",
-            "delete_success": "",
-            "recreate_error": "",
-            "delete_error": "",
-            "max_size": "",
+            "thumbnails": "Створювати мініатюри",
+            "thumbnails_help": "Створює зменшену копію обкладинки для компактного показу, наприклад у картках користувачів і списках каталогу. Якщо вимкнено, використовуються повнорозмірні обкладинки",
+            "thumbnail_width": "Максимальна ширина мініатюри (пкс)",
+            "thumbnail_width_help": "Розмір обкладинки змінюється пропорційно до вказаної ширини. Типове значення — 500",
+            "recreate_thumbnails": "Створити мініатюри повторно",
+            "delete_thumbnails": "Видалити мініатюри",
+            "recreate_thumbnails_confirm": "Повторно створити всі мініатюри?",
+            "delete_thumbnails_confirm": "Видалити всі мініатюри?",
+            "recreate_success": "Мініатюри створено повторно",
+            "delete_success": "Усі мініатюри видалено",
+            "recreate_error": "Не вдалося повторно створити мініатюри",
+            "delete_error": "Не вдалося видалити мініатюри",
+            "max_size": "Максимальний розмір файла обкладинки профілю (КБ)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Установити обкладинку профілю"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
-            "crop_instructions": "",
-            "crop_area": "",
-            "crop_resize_nw": "",
-            "crop_resize_ne": "",
-            "crop_resize_sw": "",
-            "crop_resize_se": "",
-            "choose_image": "",
-            "choose_another": "",
-            "crop_existing": "",
-            "save_cover": "",
-            "cancel_crop": "",
-            "crop_error": "",
-            "file_too_large": "",
+            "cover": "Обкладинка",
+            "edit_cover": "Редагувати обкладинку",
+            "notice": "Максимальний розмір: {size}. Рекомендоване співвідношення сторін — 21:9, роздільна здатність — щонайменше 1600×400 пікселів.",
+            "crop_instructions": "Перетягніть кут, щоб змінити розмір рамки",
+            "crop_area": "Область обрізання",
+            "crop_resize_nw": "Змінити розмір рамки за верхній лівий кут",
+            "crop_resize_ne": "Змінити розмір рамки за верхній правий кут",
+            "crop_resize_sw": "Змінити розмір рамки за нижній лівий кут",
+            "crop_resize_se": "Змінити розмір рамки за нижній правий кут",
+            "choose_image": "Вибрати зображення",
+            "choose_another": "Вибрати інше зображення",
+            "crop_existing": "Обрізати",
+            "save_cover": "Зберегти обкладинку",
+            "cancel_crop": "Скасувати",
+            "crop_error": "Не вдалося відкрити зображення",
+            "file_too_large": "Файл завеликий. Максимальний розмір: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Обкладинку профілю оновлено",
+                "error": "Не вдалося завантажити зображення"
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Обкладинку профілю видалено",
+                "error": "Не вдалося видалити обкладинку. Спробуйте ще раз"
             }
         }
     }
