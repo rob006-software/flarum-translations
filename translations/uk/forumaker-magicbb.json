@@ -2,62 +2,62 @@
     "forumaker-magicbb": {
         "admin": {
             "settings": {
-                "bb_center": "",
-                "bb_justify": "",
-                "bb_color": "",
-                "bb_spoiler": "",
-                "bb_table": "",
-                "bb_info": "",
-                "bb_audio": "",
-                "bb_image": "",
-                "bb_image_help": "",
-                "bb_iframe": "",
-                "bb_iframe_help": "",
-                "bb_hide_login": "",
-                "bb_hide_login_help": "",
-                "bb_hide_reply": "",
-                "bb_hide_reply_help": "",
-                "bb_hide_like": "",
-                "bb_hide_like_help": "",
-                "bb_anchor": "",
-                "bb_anchor_help": "",
-                "toolbar_group": "",
-                "toolbar_group_help": ""
+                "bb_center": "По центру",
+                "bb_justify": "За шириною",
+                "bb_color": "Колір",
+                "bb_spoiler": "Спойлер",
+                "bb_table": "Таблиця",
+                "bb_info": "Попередження",
+                "bb_audio": "Аудіо",
+                "bb_image": "Вирівнювання зображень",
+                "bb_image_help": "Розміщує зображення й інші вбудовані медіафайли в контейнері вирівнювання. Вміст по центру масштабується до 60% ширини допису, а вміст збоку — до 40%",
+                "bb_iframe": "iframe",
+                "bb_iframe_help": "Дозволяє вбудовувати iframe з будь-якого джерела. Використовуйте обережно, бо вбудований вміст може містити зовнішні скрипти. 🧹 Після зміни цього параметра очистіть кеш Flarum",
+                "bb_hide_login": "Вхід",
+                "bb_hide_login_help": "Вміст приховано від гостей і показано всім користувачам, які ввійшли",
+                "bb_hide_reply": "Відповідь",
+                "bb_hide_reply_help": "Вміст приховано, доки користувач не відповість в обговоренні",
+                "bb_hide_like": "Уподобання",
+                "bb_hide_like_help": "Вміст приховано, доки користувач не вподобає допис",
+                "bb_anchor": "Якір і перехід",
+                "bb_anchor_help": "Іменовані точки прокручування та посилання для переходу в межах допису",
+                "toolbar_group": "Групувати кнопки MagicBB",
+                "toolbar_group_help": "Якщо параметр увімкнено, усі кнопки MagicBB в редакторі допису буде об’єднано в одну"
             },
             "sections": {
-                "text": "",
-                "content": "",
-                "images": "",
-                "features": "",
-                "hide": ""
+                "text": "Кнопки тексту",
+                "content": "Кнопки вмісту",
+                "images": "Кнопки зображень",
+                "features": "Можливості",
+                "hide": "Кнопки приховування"
             },
             "permissions": {
-                "use_iframe": "",
-                "bypass_like": "",
-                "bypass_reply": ""
+                "use_iframe": "Дозволити iframe",
+                "bypass_like": "Обходити вимогу вподобати допис",
+                "bypass_reply": "Обходити вимогу відповісти"
             }
         },
         "forum": {
             "composer": {
-                "center_button": "",
-                "justify_button": "",
-                "color_button": "",
-                "spoiler_button": "",
-                "table_button": "",
-                "info_button": "",
-                "audio_button": "",
-                "image_button": "",
-                "more_button": "",
-                "hide_login_button": "",
-                "hide_reply_button": "",
-                "hide_like_button": "",
-                "anchor_button": "",
-                "jump_button": ""
+                "center_button": "Вирівняти по центру",
+                "justify_button": "Вирівняти за шириною",
+                "color_button": "Додати колір",
+                "spoiler_button": "Додати спойлер",
+                "table_button": "Додати таблицю",
+                "info_button": "Додати попередження",
+                "audio_button": "Додати аудіо",
+                "image_button": "Вирівняти зображення",
+                "more_button": "Більше",
+                "hide_login_button": "Приховано до входу",
+                "hide_reply_button": "Приховано до відповіді",
+                "hide_like_button": "Приховано до вподобання",
+                "anchor_button": "Додати якір",
+                "jump_button": "Додати посилання для переходу"
             },
             "hide": {
-                "login_to_see_simple": "",
-                "like_to_see_simple": "",
-                "reply_to_see_simple": ""
+                "login_to_see_simple": "Увійдіть, щоб переглянути цей вміст",
+                "like_to_see_simple": "Уподобайте цей допис, щоб переглянути вміст",
+                "reply_to_see_simple": "Дайте відповідь у цьому обговоренні, щоб переглянути вміст"
             }
         }
     }
