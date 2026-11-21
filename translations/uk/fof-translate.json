@@ -126,21 +126,21 @@
                     }
                 },
                 "openai": {
-                    "api_key_label": "Ключ API OpenAI",
-                    "base_url_env_help": "",
-                    "base_url_help": "",
-                    "base_url_label": "",
-                    "intro": "Використовує моделі GPT від OpenAI. Створіть ключ API на <a>платформі OpenAI</a>.",
+                    "api_key_label": "Ключ API",
+                    "base_url_env_help": "Якщо ключем API керує сервер, використовується OpenAI, якщо на сервері не задано {env}.",
+                    "base_url_help": "Залиште поле порожнім, щоб використовувати OpenAI. Для сумісного шлюзу введіть базову URL-адресу його API, наприклад https://gateway.example/v1.",
+                    "base_url_label": "Базова URL-адреса API",
+                    "intro": "Використовує OpenAI або сумісний із ним шлюз. Для OpenAI створіть ключ на <a>платформі OpenAI</a>. Для шлюзу вкажіть його ключ API й назву моделі.",
                     "max_tokens_help": "Максимальна довжина кожного перекладу.",
                     "max_tokens_label": "Максимальна кількість токенів",
-                    "model_help": "Модель OpenAI для перекладу.",
+                    "model_help": "Ідентифікатор моделі чату або її псевдонім у шлюзі, який використовується для перекладу.",
                     "model_label": "Модель"
                 },
-                "post_translation_display_help": "",
-                "post_translation_display_label": "",
+                "post_translation_display_help": "Де показувати переклад після натискання кнопки «Перекласти».",
+                "post_translation_display_label": "Розташування перекладу допису",
                 "post_translation_display_options": {
-                    "below": "",
-                    "replace": ""
+                    "below": "Під оригіналом",
+                    "replace": "Замість оригіналу"
                 },
                 "short_content_length_help": "Вміст, коротший за цю кількість символів, надто короткий для надійного визначення мови. Вважається, що його написано мовою, якою автор користується форумом: вибраною ним або типовою мовою форуму.",
                 "short_content_length_label": "Мінімальна довжина для визначення мови",
@@ -190,7 +190,7 @@
             }
         },
         "api": {
-            "invalid_openai_base_url": "",
+            "invalid_openai_base_url": "Укажіть базову URL-адресу API зі схемою HTTP або HTTPS без облікових даних, параметрів запиту чи фрагмента.",
             "already_in_language": "Цей вміст уже написано вибраною мовою.",
             "glossaries_failed": "Не вдалося завантажити глосарії DeepL. Перевірте ключ API.",
             "invalid_detection_cursor": "Некоректна позиція визначення мови.",
