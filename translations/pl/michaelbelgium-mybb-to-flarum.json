@@ -8,11 +8,11 @@
                     "options": {
                         "title": "Inne opcje",
                         "migrate_avatars_label": "Migruj awatary",
-                        "migrate_private_messages_label": "",
+                        "migrate_private_messages_label": "Migruj prywatne wiadomości (wymaga flarum/messages)",
                         "migrate_soft_threads_label": "Migruj ukryte (soft deleted) wątki",
                         "migrate_soft_posts_label": "Migruj ukryte (soft deleted) posty",
                         "migrate_attachments_label": "Migruj załączniki",
-                        "debug_mode_label": ""
+                        "debug_mode_label": "Włącz logowanie"
                     },
                     "mybb": {
                         "title": "Ustawienia MyBB",
@@ -22,8 +22,8 @@
                         "db_label": "Nazwa bazy danych",
                         "prefix_label": "Prefiks tabeli",
                         "path": {
-                            "label": "",
-                            "help_text": ""
+                            "label": "Bezwzględna ścieżka MyBB",
+                            "help_text": "Bezwzględna ścieżka do instalacji MyBB, np. /var/www/mybb."
                         }
                     },
                     "general": {
